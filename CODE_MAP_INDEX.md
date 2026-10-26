@@ -7,23 +7,23 @@ Read AGENTS.md → choose module → file/symbol page → source. [Method, comma
 | Module | Files | Symbols | Map |
 | --- | ---: | ---: | --- |
 | bridge-lib | 7 | 167 | [open](codemap/bridge-lib.md) |
-| bridge-root | 7 | 209 | [open](codemap/bridge-root.md) |
-| bridge-scripts | 2 | 0 | [open](codemap/bridge-scripts.md) |
+| bridge-root | 7 | 219 | [open](codemap/bridge-root.md) |
+| bridge-scripts | 3 | 0 | [open](codemap/bridge-scripts.md) |
 | bridge-test | 10 | 238 | [open](codemap/bridge-test.md) |
-| magpie-agent | 120 | 2595 | [open](codemap/magpie-agent.md) |
+| magpie-agent | 120 | 2597 | [open](codemap/magpie-agent.md) |
 | magpie-agentplug | 1 | 56 | [open](codemap/magpie-agentplug.md) |
 | magpie-cli | 79 | 1118 | [open](codemap/magpie-cli.md) |
-| magpie-gateway | 205 | 6891 | [open](codemap/magpie-gateway.md) |
-| magpie-gui | 165 | 17189 | [open](codemap/magpie-gui.md) |
+| magpie-gateway | 205 | 6894 | [open](codemap/magpie-gateway.md) |
+| magpie-gui | 165 | 17233 | [open](codemap/magpie-gui.md) |
 | magpie-plugin | 42 | 2252 | [open](codemap/magpie-plugin.md) |
-| magpie-privacy | 24 | 751 | [open](codemap/magpie-privacy.md) |
+| magpie-privacy | 24 | 752 | [open](codemap/magpie-privacy.md) |
 | magpie-provider | 233 | 6616 | [open](codemap/magpie-provider.md) |
 | magpie-sessions | 137 | 4726 | [open](codemap/magpie-sessions.md) |
-| magpie-storage | 49 | 1153 | [open](codemap/magpie-storage.md) |
+| magpie-storage | 50 | 1158 | [open](codemap/magpie-storage.md) |
 | magpie-sys | 67 | 707 | [open](codemap/magpie-sys.md) |
 | magpie-usage | 45 | 1398 | [open](codemap/magpie-usage.md) |
 | tooling | 2 | 164 | [open](codemap/tooling.md) |
 
-Total: 1195 source files, 46230 extracted symbols, 0 parser diagnostics.
+Total: 1197 source files, 46295 extracted symbols, 0 parser diagnostics.
 
 Scope includes Go/Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT/Patch use lexical navigation.

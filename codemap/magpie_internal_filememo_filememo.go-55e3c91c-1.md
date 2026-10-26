@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/filememo/filememo.go) · page 1/1
 
-Source SHA-256: f131d13f5a7afd93c56065d715e2cab6374448fda124cdb273babe10bf0a83dc
+Source SHA-256: c5ec7020fc214b2ab64d34ad27aca11d3d8e34e1ddb48a8fdf22c864b9099d60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -30,11 +30,11 @@ Source SHA-256: f131d13f5a7afd93c56065d715e2cab6374448fda124cdb273babe10bf0a83dc
 | heldFor | const_spec |  | [67](../../magpie/internal/filememo/filememo.go#L67) |
 | Hold | function_declaration |  | [74](../../magpie/internal/filememo/filememo.go#L74) |
 | Forget | function_declaration |  | [87](../../magpie/internal/filememo/filememo.go#L87) |
-| written | var_spec |  | [97](../../magpie/internal/filememo/filememo.go#L97) |
-| Written | function_declaration |  | [104](../../magpie/internal/filememo/filememo.go#L104) |
-| OthersEvery | const_spec |  | [112](../../magpie/internal/filememo/filememo.go#L112) |
-| gens | var_spec |  | [115](../../magpie/internal/filememo/filememo.go#L115) |
-| Gen | function_declaration |  | [119](../../magpie/internal/filememo/filememo.go#L119) |
-| Look | function_declaration |  | [124](../../magpie/internal/filememo/filememo.go#L124) |
-| Read | function_declaration |  | [140](../../magpie/internal/filememo/filememo.go#L140) |
-| statFile | function_declaration |  | [209](../../magpie/internal/filememo/filememo.go#L209) |
+| wake | function_declaration |  | [99](../../magpie/internal/filememo/filememo.go#L99) |
+| written | var_spec |  | [107](../../magpie/internal/filememo/filememo.go#L107) |
+| Written | function_declaration |  | [115](../../magpie/internal/filememo/filememo.go#L115) |
+| gens | var_spec |  | [122](../../magpie/internal/filememo/filememo.go#L122) |
+| Gen | function_declaration |  | [126](../../magpie/internal/filememo/filememo.go#L126) |
+| Look | function_declaration |  | [131](../../magpie/internal/filememo/filememo.go#L131) |
+| Read | function_declaration |  | [147](../../magpie/internal/filememo/filememo.go#L147) |
+| statFile | function_declaration |  | [216](../../magpie/internal/filememo/filememo.go#L216) |

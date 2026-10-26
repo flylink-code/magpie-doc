@@ -4,18 +4,20 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codex_daemon.go) · page 1/1
 
-Source SHA-256: 507fadc7619bf737f73b9b5bdc7439f0b0c5ca728366726bfe95037d212cee95
+Source SHA-256: 2669d6856c49ca8823035f7a973b2ab6988191a4b34f483a04df4e7d72d02a01
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexRestartAll | var_spec |  | [29](../../magpie/internal/agent/codex_daemon.go#L29) |
-| keepCodexDaemon | var_spec |  | [33](../../magpie/internal/agent/codex_daemon.go#L33) |
-| codexDaemonSeen | var_spec |  | [38](../../magpie/internal/agent/codex_daemon.go#L38) |
-| codexDaemonCheck | function_declaration |  | [47](../../magpie/internal/agent/codex_daemon.go#L47) |
-| codexDaemonNotice | function_declaration |  | [65](../../magpie/internal/agent/codex_daemon.go#L65) |
-| codexDaemonEvery | const_spec |  | [77](../../magpie/internal/agent/codex_daemon.go#L77) |
-| KeepCodexDaemonCurrent | function_declaration |  | [82](../../magpie/internal/agent/codex_daemon.go#L82) |
-| CodexDaemonRestarted | function_declaration |  | [104](../../magpie/internal/agent/codex_daemon.go#L104) |
-| codexDaemonBehind | function_declaration |  | [113](../../magpie/internal/agent/codex_daemon.go#L113) |
-| noticeCodexBehind | var_spec |  | [125](../../magpie/internal/agent/codex_daemon.go#L125) |
-| noticeCodexdaemon | var_spec |  | [126](../../magpie/internal/agent/codex_daemon.go#L126) |
+| codexRestartAll | var_spec |  | [30](../../magpie/internal/agent/codex_daemon.go#L30) |
+| keepCodexDaemon | var_spec |  | [34](../../magpie/internal/agent/codex_daemon.go#L34) |
+| codexDaemonSeen | var_spec |  | [39](../../magpie/internal/agent/codex_daemon.go#L39) |
+| codexDaemonCheck | function_declaration |  | [48](../../magpie/internal/agent/codex_daemon.go#L48) |
+| codexDaemonNotice | function_declaration |  | [66](../../magpie/internal/agent/codex_daemon.go#L66) |
+| codexDaemonEvery | const_spec |  | [79](../../magpie/internal/agent/codex_daemon.go#L79) |
+| KeepCodexDaemonCurrent | function_declaration |  | [87](../../magpie/internal/agent/codex_daemon.go#L87) |
+| daemonCheck | var_spec |  | [114](../../magpie/internal/agent/codex_daemon.go#L114) |
+| codexDaemonNext | function_declaration |  | [118](../../magpie/internal/agent/codex_daemon.go#L118) |
+| CodexDaemonRestarted | function_declaration |  | [127](../../magpie/internal/agent/codex_daemon.go#L127) |
+| codexDaemonBehind | function_declaration |  | [136](../../magpie/internal/agent/codex_daemon.go#L136) |
+| noticeCodexBehind | var_spec |  | [148](../../magpie/internal/agent/codex_daemon.go#L148) |
+| noticeCodexdaemon | var_spec |  | [149](../../magpie/internal/agent/codex_daemon.go#L149) |

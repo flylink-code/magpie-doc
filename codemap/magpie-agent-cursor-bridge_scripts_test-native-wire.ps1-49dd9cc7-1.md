@@ -4,7 +4,7 @@
 
 [Module](bridge-scripts.md) · [Source](../../magpie-agent-cursor-bridge/scripts/test-native-wire.ps1) · page 1/1
 
-Source SHA-256: a2712355ae195cab5147d9a203c3f85bb1de56c84088fc2ee058e4a25be5b6bc
+Source SHA-256: 3bd95d58f2bc9097893018bbb8980a84f0c46ee59f194caa925cf9bdd66de3d8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

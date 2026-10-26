@@ -39,7 +39,7 @@
 | [magpie/internal/agent/codex.go](../../magpie/internal/agent/codex.go) | 60 | [1](magpie_internal_agent_codex.go-38666842-1.md) |
 | [magpie/internal/agent/codex_app.go](../../magpie/internal/agent/codex_app.go) | 7 | [1](magpie_internal_agent_codex_app.go-cc9de6ff-1.md) |
 | [magpie/internal/agent/codex_async.go](../../magpie/internal/agent/codex_async.go) | 22 | [1](magpie_internal_agent_codex_async.go-5c886e70-1.md) |
-| [magpie/internal/agent/codex_daemon.go](../../magpie/internal/agent/codex_daemon.go) | 11 | [1](magpie_internal_agent_codex_daemon.go-b8a4e623-1.md) |
+| [magpie/internal/agent/codex_daemon.go](../../magpie/internal/agent/codex_daemon.go) | 13 | [1](magpie_internal_agent_codex_daemon.go-b8a4e623-1.md) |
 | [magpie/internal/agent/codex_portable.go](../../magpie/internal/agent/codex_portable.go) | 6 | [1](magpie_internal_agent_codex_portable.go-de192c04-1.md) |
 | [magpie/internal/agent/codex_proxy.go](../../magpie/internal/agent/codex_proxy.go) | 14 | [1](magpie_internal_agent_codex_proxy.go-62afe9df-1.md) |
 | [magpie/internal/agent/commandcode.go](../../magpie/internal/agent/commandcode.go) | 8 | [1](magpie_internal_agent_commandcode.go-81688cf1-1.md) |

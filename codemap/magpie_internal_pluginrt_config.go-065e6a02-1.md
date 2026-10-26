@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/pluginrt/config.go) · page 1/1
 
-Source SHA-256: f9b877aadb58345e2e28ba6fa668d2a16a478d11510c668a17430bfb1fdfe1ab
+Source SHA-256: caac4bd427d21d8d362cda0fdd1b7970bada3edf57b8e258c3ee3f6c4f1df4d8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

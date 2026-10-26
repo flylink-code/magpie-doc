@@ -4,7 +4,7 @@
 
 [Module](bridge-root.md) · [Source](../../magpie-agent-cursor-bridge/source.patch) · page 1/1
 
-Source SHA-256: 40b471bf6e6557359d44b3e2979739d1d1554e8beee5d7a8eca42e1c1edf690c
+Source SHA-256: e173abf0dbfb94c1e468736e9cc65f660f09f77f017320944530e1ef185cbd06
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -42,11 +42,21 @@ Source SHA-256: 40b471bf6e6557359d44b3e2979739d1d1554e8beee5d7a8eca42e1c1edf690c
 | append | patch fn | server/examples/magpie_smoke.rs | [487](../../magpie-agent-cursor-bridge/source.patch#L487) |
 | main | patch fn | server/examples/magpie_smoke.rs | [493](../../magpie-agent-cursor-bridge/source.patch#L493) |
 | server/src/api/cursor/bidi.rs | patch target |  | [533](../../magpie-agent-cursor-bridge/source.patch#L533) |
-| server/tests/bridge_bidi_wire.rs | patch target |  | [576](../../magpie-agent-cursor-bridge/source.patch#L576) |
-| request | patch fn | server/tests/bridge_bidi_wire.rs | [581](../../magpie-agent-cursor-bridge/source.patch#L581) |
-| bridge_bidi_hex_and_binary_preserve_state_blob_references | patch fn | server/tests/bridge_bidi_wire.rs | [591](../../magpie-agent-cursor-bridge/source.patch#L591) |
-| bridge_bidi_rejects_ambiguous_and_empty_envelopes | patch fn | server/tests/bridge_bidi_wire.rs | [616](../../magpie-agent-cursor-bridge/source.patch#L616) |
-| ErrorString | patch trait | server/tests/bridge_bidi_wire.rs | [623](../../magpie-agent-cursor-bridge/source.patch#L623) |
-| ErrorString | patch impl | server/tests/bridge_bidi_wire.rs | [624](../../magpie-agent-cursor-bridge/source.patch#L624) |
-| unwrap_err_string | patch fn | server/tests/bridge_bidi_wire.rs | [625](../../magpie-agent-cursor-bridge/source.patch#L625) |
-| bridge_bidi_invalid_state_reproduces_cursor_error_without_tls | patch fn | server/tests/bridge_bidi_wire.rs | [629](../../magpie-agent-cursor-bridge/source.patch#L629) |
+| wire_structure | patch fn | server/src/api/cursor/bidi.rs | [539](../../magpie-agent-cursor-bridge/source.patch#L539) |
+| scan | patch fn | server/src/api/cursor/bidi.rs | [540](../../magpie-agent-cursor-bridge/source.patch#L540) |
+| bridge_structure_tests | patch mod | server/src/api/cursor/bidi.rs | [628](../../magpie-agent-cursor-bridge/source.patch#L628) |
+| diagnostic_never_displays_field_values | patch fn | server/src/api/cursor/bidi.rs | [630](../../magpie-agent-cursor-bridge/source.patch#L630) |
+| server/tests/bridge_bidi_wire.rs | patch target |  | [642](../../magpie-agent-cursor-bridge/source.patch#L642) |
+| request | patch fn | server/tests/bridge_bidi_wire.rs | [647](../../magpie-agent-cursor-bridge/source.patch#L647) |
+| bridge_bidi_hex_and_binary_preserve_state_blob_references | patch fn | server/tests/bridge_bidi_wire.rs | [657](../../magpie-agent-cursor-bridge/source.patch#L657) |
+| bridge_bidi_rejects_ambiguous_and_empty_envelopes | patch fn | server/tests/bridge_bidi_wire.rs | [682](../../magpie-agent-cursor-bridge/source.patch#L682) |
+| ErrorString | patch trait | server/tests/bridge_bidi_wire.rs | [689](../../magpie-agent-cursor-bridge/source.patch#L689) |
+| ErrorString | patch impl | server/tests/bridge_bidi_wire.rs | [690](../../magpie-agent-cursor-bridge/source.patch#L690) |
+| unwrap_err_string | patch fn | server/tests/bridge_bidi_wire.rs | [691](../../magpie-agent-cursor-bridge/source.patch#L691) |
+| bridge_bidi_invalid_state_reproduces_cursor_error_without_tls | patch fn | server/tests/bridge_bidi_wire.rs | [695](../../magpie-agent-cursor-bridge/source.patch#L695) |
+| server/src/cursor/compile/context.rs | patch target |  | [707](../../magpie-agent-cursor-bridge/source.patch#L707) |
+| bridge_json_numbers | patch mod | server/src/cursor/compile/context.rs | [723](../../magpie-agent-cursor-bridge/source.patch#L723) |
+| nested_tool_schemas_preserve_integer_limits_and_fractional_constraints | patch fn | server/src/cursor/compile/context.rs | [725](../../magpie-agent-cursor-bridge/source.patch#L725) |
+| number | patch fn | server/src/cursor/compile/context.rs | [727](../../magpie-agent-cursor-bridge/source.patch#L727) |
+| object | patch fn | server/src/cursor/compile/context.rs | [728](../../magpie-agent-cursor-bridge/source.patch#L728) |
+| protobuf_schema_numbers_restore_json_integers | patch fn | server/src/cursor/compile/context.rs | [744](../../magpie-agent-cursor-bridge/source.patch#L744) |

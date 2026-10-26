@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/middleware/points.go) · page 1/1
 
-Source SHA-256: 3f3c93c3815942b5b0558d2555b1a95a46fb2eb5fc40dd2e0c19679d26100831
+Source SHA-256: 0ea5cd96e6babb9cda7da97c887bada309dae53d37c0200e3e0c6ce73feac12c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

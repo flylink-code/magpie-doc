@@ -24,7 +24,7 @@
 | [magpie/internal/redact/json.go](../../magpie/internal/redact/json.go) | 30 | [1](magpie_internal_redact_json.go-7dfb4e8e-1.md) |
 | [magpie/internal/redact/known.go](../../magpie/internal/redact/known.go) | 21 | [1](magpie_internal_redact_known.go-a88cd3fd-1.md) |
 | [magpie/internal/redact/model.go](../../magpie/internal/redact/model.go) | 37 | [1](magpie_internal_redact_model.go-5d7ec858-1.md) |
-| [magpie/internal/redact/more.go](../../magpie/internal/redact/more.go) | 44 | [1](magpie_internal_redact_more.go-95d2c1ff-1.md) |
+| [magpie/internal/redact/more.go](../../magpie/internal/redact/more.go) | 45 | [1](magpie_internal_redact_more.go-95d2c1ff-1.md) |
 | [magpie/internal/redact/redact.go](../../magpie/internal/redact/redact.go) | 132 | [1](magpie_internal_redact_redact.go-938be056-1.md) [2](magpie_internal_redact_redact.go-938be056-2.md) |
 | [magpie/internal/redact/rules.go](../../magpie/internal/redact/rules.go) | 18 | [1](magpie_internal_redact_rules.go-8b4655a1-1.md) |
 | [magpie/internal/redact/scrub.go](../../magpie/internal/redact/scrub.go) | 26 | [1](magpie_internal_redact_scrub.go-ec8d120f-1.md) |

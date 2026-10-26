@@ -4,19 +4,19 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/awake/awake.go) · page 1/1
 
-Source SHA-256: 71ca83ccb7d0522a40b92231852fc12b1e7521abc0a838c0cc51f20d188b5bef
+Source SHA-256: 0b088fcd4c09d0a46afee541505dd591232c24e6b8fd76b1e065c349956a1f55
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Grace | var_spec |  | [29](../../magpie/internal/awake/awake.go#L29) |
-| tick | var_spec |  | [32](../../magpie/internal/awake/awake.go#L32) |
-| hold | var_spec |  | [36](../../magpie/internal/awake/awake.go#L36) |
-| Level | type_spec |  | [39](../../magpie/internal/awake/awake.go#L39) |
-| Off | const_spec |  | [42](../../magpie/internal/awake/awake.go#L42) |
-| System | const_spec |  | [43](../../magpie/internal/awake/awake.go#L43) |
-| Display | const_spec |  | [44](../../magpie/internal/awake/awake.go#L44) |
-| State | struct_type |  | [48](../../magpie/internal/awake/awake.go#L48) |
-| Busy | field_declaration | State | [49](../../magpie/internal/awake/awake.go#L49) |
-| Last | field_declaration | State | [50](../../magpie/internal/awake/awake.go#L50) |
-| want | function_declaration |  | [54](../../magpie/internal/awake/awake.go#L54) |
-| Keep | function_declaration |  | [60](../../magpie/internal/awake/awake.go#L60) |
+| Grace | var_spec |  | [30](../../magpie/internal/awake/awake.go#L30) |
+| tick | var_spec |  | [33](../../magpie/internal/awake/awake.go#L33) |
+| hold | var_spec |  | [37](../../magpie/internal/awake/awake.go#L37) |
+| Level | type_spec |  | [40](../../magpie/internal/awake/awake.go#L40) |
+| Off | const_spec |  | [43](../../magpie/internal/awake/awake.go#L43) |
+| System | const_spec |  | [44](../../magpie/internal/awake/awake.go#L44) |
+| Display | const_spec |  | [45](../../magpie/internal/awake/awake.go#L45) |
+| State | struct_type |  | [49](../../magpie/internal/awake/awake.go#L49) |
+| Busy | field_declaration | State | [50](../../magpie/internal/awake/awake.go#L50) |
+| Last | field_declaration | State | [51](../../magpie/internal/awake/awake.go#L51) |
+| want | function_declaration |  | [55](../../magpie/internal/awake/awake.go#L55) |
+| Keep | function_declaration |  | [61](../../magpie/internal/awake/awake.go#L61) |

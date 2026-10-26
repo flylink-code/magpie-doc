@@ -43,6 +43,7 @@
 | [magpie/internal/filelock/lock_unix.go](../../magpie/internal/filelock/lock_unix.go) | 2 | [1](magpie_internal_filelock_lock_unix.go-e692d883-1.md) |
 | [magpie/internal/filelock/lock_windows.go](../../magpie/internal/filelock/lock_windows.go) | 2 | [1](magpie_internal_filelock_lock_windows.go-40b57804-1.md) |
 | [magpie/internal/filememo/filememo.go](../../magpie/internal/filememo/filememo.go) | 30 | [1](magpie_internal_filememo_filememo.go-55e3c91c-1.md) |
+| [magpie/internal/filememo/watch.go](../../magpie/internal/filememo/watch.go) | 5 | [1](magpie_internal_filememo_watch.go-75e3c12f-1.md) |
 | [magpie/internal/lastgood/lastgood.go](../../magpie/internal/lastgood/lastgood.go) | 31 | [1](magpie_internal_lastgood_lastgood.go-5ecc5db9-1.md) |
 | [magpie/internal/profile/details.go](../../magpie/internal/profile/details.go) | 24 | [1](magpie_internal_profile_details.go-75688fb0-1.md) |
 | [magpie/internal/profile/profile.go](../../magpie/internal/profile/profile.go) | 28 | [1](magpie_internal_profile_profile.go-f53b410d-1.md) |

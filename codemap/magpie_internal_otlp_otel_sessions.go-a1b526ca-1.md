@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/otlp/otel_sessions.go) · page 1/1
 
-Source SHA-256: 6b5356ac1f492f0f853ed242b2bbef9d38136cdda79e5e9c0bb6081fbc73ed80
+Source SHA-256: 5b3327717156110b89905deae54fe1131f50df0d7ec08299e1c9bf780adaf876
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

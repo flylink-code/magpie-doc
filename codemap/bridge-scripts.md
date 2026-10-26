@@ -8,5 +8,6 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie-agent-cursor-bridge/scripts/build-native.ps1](../../magpie-agent-cursor-bridge/scripts/build-native.ps1) | 0 | [1](magpie-agent-cursor-bridge_scripts_build-native.ps1-5c25f8a2-1.md) |
 | [magpie-agent-cursor-bridge/scripts/build-native.sh](../../magpie-agent-cursor-bridge/scripts/build-native.sh) | 0 | [1](magpie-agent-cursor-bridge_scripts_build-native.sh-e0d19375-1.md) |
 | [magpie-agent-cursor-bridge/scripts/test-native-wire.ps1](../../magpie-agent-cursor-bridge/scripts/test-native-wire.ps1) | 0 | [1](magpie-agent-cursor-bridge_scripts_test-native-wire.ps1-49dd9cc7-1.md) |
