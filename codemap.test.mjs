@@ -39,21 +39,21 @@ func (d *Desc) check() error { return nil }
 });
 
 test('JS/TS exports, functions, classes and patch/shell lexical navigation', async () => {
-  const jsResult = await extract('magpie-agent-cursor-bridge/agent.js', 'export const agent = { id: "cursor-bridge" }; export function connect({ gateway }) { return gateway; }');
+  const jsResult = await extract('plugins/magpie-agent-cursor-bridge/agent.js', 'export const agent = { id: "cursor-bridge" }; export function connect({ gateway }) { return gateway; }');
   assert.deepEqual(jsResult.diagnostics, []);
   for (const name of ['agent', 'connect']) {
     assert.ok(jsResult.symbols.some(s => s.name === name), name);
   }
-  const patchResult = await extract('magpie-agent-cursor-bridge/source.patch', '+++ b/server/src/config.rs\n+pub fn managed_data_dir() -> Result<PathBuf> {\n+pub struct LocalCatalogOnly;\n');
+  const patchResult = await extract('plugins/magpie-agent-cursor-bridge/source.patch', '+++ b/server/src/config.rs\n+pub fn managed_data_dir() -> Result<PathBuf> {\n+pub struct LocalCatalogOnly;\n');
   assert.ok(patchResult.symbols.some(s => s.name === 'server/src/config.rs' && s.kind === 'patch target'));
   assert.ok(patchResult.symbols.some(s => s.name === 'managed_data_dir' && s.scope === 'server/src/config.rs'));
   assert.ok(patchResult.symbols.some(s => s.name === 'LocalCatalogOnly' && s.scope === 'server/src/config.rs'));
 });
 
 test('module routing and multi-repo incremental generation', async () => {
-  assert.equal(moduleOf('magpie-agent-cursor-bridge/agent.js'), 'bridge-root');
-  assert.equal(moduleOf('magpie-agent-cursor-bridge/lib/relay.js'), 'bridge-lib');
-  assert.equal(moduleOf('magpie-agent-cursor-bridge/test/relay.test.js'), 'bridge-test');
+  assert.equal(moduleOf('plugins/magpie-agent-cursor-bridge/agent.js'), 'bridge-root');
+  assert.equal(moduleOf('plugins/magpie-agent-cursor-bridge/lib/relay.js'), 'bridge-lib');
+  assert.equal(moduleOf('plugins/magpie-agent-cursor-bridge/test/relay.test.js'), 'bridge-test');
   assert.equal(moduleOf('magpie/internal/agentplug/agentplug.go'), 'magpie-agentplug');
   assert.equal(moduleOf('magpie/internal/gateway/gateway.go'), 'magpie-gateway');
   assert.equal(moduleOf('doc/codemap.mjs'), 'tooling');
@@ -67,10 +67,10 @@ test('module routing and multi-repo incremental generation', async () => {
     const config = JSON.parse(fs.readFileSync(path.join(docDir, 'codemap.config.json'), 'utf8'));
     config.pageRows = 2;
     write('doc/codemap.config.json', JSON.stringify(config));
-    write('magpie-agent-cursor-bridge/agent.js', 'export const A = 1;\nexport const B = 2;\nexport const C = 3;\n');
+    write('plugins/magpie-agent-cursor-bridge/agent.js', 'export const A = 1;\nexport const B = 2;\nexport const C = 3;\n');
     write('magpie/internal/agentplug/agentplug.go', 'package agentplug\nfunc Load() {}\n');
     write('magpie/internal/agentplug/agentplug_test.go', 'package agentplug\nfunc TestSkipped() {}\n');
-    git(path.join(root, 'magpie-agent-cursor-bridge'), 'init', '--quiet');
+    git(path.join(root, 'plugins/magpie-agent-cursor-bridge'), 'init', '--quiet');
     git(path.join(root, 'magpie'), 'init', '--quiet');
 
     const first = await generate(root);
@@ -79,7 +79,7 @@ test('module routing and multi-repo incremental generation', async () => {
     assert.equal((await generate(root)).changed, 0);
     await generate(root, { check: true });
 
-    write('magpie-agent-cursor-bridge/agent.js', 'export const A = 2;\nexport const B = 2;\nexport const C = 3;\n');
+    write('plugins/magpie-agent-cursor-bridge/agent.js', 'export const A = 2;\nexport const B = 2;\nexport const C = 3;\n');
     await assert.rejects(generate(root, { check: true }), /Stale/);
     const updated = await generate(root, { module: 'bridge-root' });
     assert.equal(updated.parsed, 1);

@@ -265,6 +265,7 @@ const MAGPIE_MODULE_GROUPS = new Map([
 
 export function moduleOf(file) {
   const parts = file.split('/');
+  if (parts[0] === 'plugins') parts.shift();
   if (parts[0] === 'magpie-agent-cursor-bridge') {
     if (parts.length === 2) return 'bridge-root';
     if (parts[1] === 'lib') return 'bridge-lib';
@@ -293,7 +294,7 @@ export function eligible(file, config) {
   const parts = file.split('/');
   if (parts.some(part => config.excludeSegments.includes(part))) return false;
   if (Array.isArray(config.excludePatterns) && config.excludePatterns.some(pattern => new RegExp(pattern).test(file))) return false;
-  if (!(config.roots.includes(parts[0]) || !file.includes('/'))) return false;
+  if (!(config.roots.some(root => file.startsWith(`${root}/`)) || !file.includes('/'))) return false;
   return config.extensions.includes(path.extname(file));
 }
 

@@ -8,13 +8,13 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie-agent-cursor-bridge/test/agent.test.js](../../magpie-agent-cursor-bridge/test/agent.test.js) | 52 | [1](magpie-agent-cursor-bridge_test_agent.test.js-e49fde1e-1.md) |
-| [magpie-agent-cursor-bridge/test/config.test.js](../../magpie-agent-cursor-bridge/test/config.test.js) | 3 | [1](magpie-agent-cursor-bridge_test_config.test.js-74cf82f2-1.md) |
-| [magpie-agent-cursor-bridge/test/install.test.js](../../magpie-agent-cursor-bridge/test/install.test.js) | 55 | [1](magpie-agent-cursor-bridge_test_install.test.js-24834068-1.md) |
-| [magpie-agent-cursor-bridge/test/lock.test.js](../../magpie-agent-cursor-bridge/test/lock.test.js) | 17 | [1](magpie-agent-cursor-bridge_test_lock.test.js-7bbe4a0b-1.md) |
-| [magpie-agent-cursor-bridge/test/magpie.test.js](../../magpie-agent-cursor-bridge/test/magpie.test.js) | 11 | [1](magpie-agent-cursor-bridge_test_magpie.test.js-8fbcbc7d-1.md) |
-| [magpie-agent-cursor-bridge/test/manual-lifecycle.mjs](../../magpie-agent-cursor-bridge/test/manual-lifecycle.mjs) | 17 | [1](magpie-agent-cursor-bridge_test_manual-lifecycle.mjs-ec817a0b-1.md) |
-| [magpie-agent-cursor-bridge/test/relay.test.js](../../magpie-agent-cursor-bridge/test/relay.test.js) | 33 | [1](magpie-agent-cursor-bridge_test_relay.test.js-fd0e2e38-1.md) |
-| [magpie-agent-cursor-bridge/test/settings-change.test.js](../../magpie-agent-cursor-bridge/test/settings-change.test.js) | 13 | [1](magpie-agent-cursor-bridge_test_settings-change.test.js-c57cb787-1.md) |
-| [magpie-agent-cursor-bridge/test/settings.test.js](../../magpie-agent-cursor-bridge/test/settings.test.js) | 26 | [1](magpie-agent-cursor-bridge_test_settings.test.js-b962037c-1.md) |
-| [magpie-agent-cursor-bridge/test/watch.test.js](../../magpie-agent-cursor-bridge/test/watch.test.js) | 11 | [1](magpie-agent-cursor-bridge_test_watch.test.js-6c1b2c1a-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/agent.test.js](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) | 52 | [1](plugins_magpie-agent-cursor-bridge_test_agent.test.js-a9d01baa-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/config.test.js](../../plugins/magpie-agent-cursor-bridge/test/config.test.js) | 3 | [1](plugins_magpie-agent-cursor-bridge_test_config.test.js-50ae5afb-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/install.test.js](../../plugins/magpie-agent-cursor-bridge/test/install.test.js) | 55 | [1](plugins_magpie-agent-cursor-bridge_test_install.test.js-d67a2ae9-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/lock.test.js](../../plugins/magpie-agent-cursor-bridge/test/lock.test.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_lock.test.js-26b0e50f-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/magpie.test.js](../../plugins/magpie-agent-cursor-bridge/test/magpie.test.js) | 11 | [1](plugins_magpie-agent-cursor-bridge_test_magpie.test.js-d2cb6265-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/manual-lifecycle.mjs](../../plugins/magpie-agent-cursor-bridge/test/manual-lifecycle.mjs) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_manual-lifecycle.mjs-bfc933f0-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/relay.test.js](../../plugins/magpie-agent-cursor-bridge/test/relay.test.js) | 33 | [1](plugins_magpie-agent-cursor-bridge_test_relay.test.js-3ab037a5-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/settings-change.test.js](../../plugins/magpie-agent-cursor-bridge/test/settings-change.test.js) | 13 | [1](plugins_magpie-agent-cursor-bridge_test_settings-change.test.js-38d2edd6-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/settings.test.js](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js) | 26 | [1](plugins_magpie-agent-cursor-bridge_test_settings.test.js-3f9e371f-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/watch.test.js](../../plugins/magpie-agent-cursor-bridge/test/watch.test.js) | 11 | [1](plugins_magpie-agent-cursor-bridge_test_watch.test.js-ee1f7398-1.md) |

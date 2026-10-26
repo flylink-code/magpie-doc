@@ -4,58 +4,58 @@
 
 [Module](tooling.md) · [Source](../../doc/codemap.mjs) · page 2/2
 
-Source SHA-256: f419a7c1795af8b5c2148ca0852600fc6e3da9409b79b1d4ba64ef7431b77747
+Source SHA-256: 7e95f3fee805621b45efc47c0dd70df68517cc5257430eeaae24961c74c60e34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mapFromIndex | VariableDeclaration | generate | [362](../../doc/codemap.mjs#L362) |
-| indexFromMap | VariableDeclaration | generate | [363](../../doc/codemap.mjs#L363) |
-| depth | VariableDeclaration | generate | [364](../../doc/codemap.mjs#L364) |
-| relRoot | VariableDeclaration | generate | [365](../../doc/codemap.mjs#L365) |
-| version | VariableDeclaration | generate | [367](../../doc/codemap.mjs#L367) |
-| cachePath | VariableDeclaration | generate | [368](../../doc/codemap.mjs#L368) |
-| cache | VariableDeclaration | generate | [369](../../doc/codemap.mjs#L369) |
-| stored | VariableDeclaration | generate | [372](../../doc/codemap.mjs#L372) |
-| records | VariableDeclaration | generate | [376](../../doc/codemap.mjs#L376) |
-| parsed | VariableDeclaration | generate | [377](../../doc/codemap.mjs#L377) |
-| files | VariableDeclaration | generate | [378](../../doc/codemap.mjs#L378) |
-| file | VariableDeclaration | generate | [382](../../doc/codemap.mjs#L382) |
-| text | VariableDeclaration | generate | [383](../../doc/codemap.mjs#L383) |
-| digest | VariableDeclaration | generate | [384](../../doc/codemap.mjs#L384) |
-| outputs | VariableDeclaration | generate | [395](../../doc/codemap.mjs#L395) |
-| modules | VariableDeclaration | generate | [396](../../doc/codemap.mjs#L396) |
-| index | VariableDeclaration | generate | [397](../../doc/codemap.mjs#L397) |
-| totalSymbols | VariableDeclaration | generate | [407](../../doc/codemap.mjs#L407) |
-| diagnostics | VariableDeclaration | generate | [408](../../doc/codemap.mjs#L408) |
-| module | VariableDeclaration | generate | [409](../../doc/codemap.mjs#L409) |
-| members | VariableDeclaration | generate | [410](../../doc/codemap.mjs#L410) |
-| count | VariableDeclaration | generate | [411](../../doc/codemap.mjs#L411) |
-| moduleRows | VariableDeclaration | generate | [414](../../doc/codemap.mjs#L414) |
-| file | VariableDeclaration | generate | [415](../../doc/codemap.mjs#L415) |
-| record | VariableDeclaration | generate | [416](../../doc/codemap.mjs#L416) |
-| slug | VariableDeclaration | generate | [418](../../doc/codemap.mjs#L418) |
-| pages | VariableDeclaration | generate | [419](../../doc/codemap.mjs#L419) |
-| pageLinks | VariableDeclaration | generate | [420](../../doc/codemap.mjs#L420) |
-| i | VariableDeclaration | generate | [421](../../doc/codemap.mjs#L421) |
-| name | VariableDeclaration | generate | [422](../../doc/codemap.mjs#L422) |
-| rows | VariableDeclaration | generate | [424](../../doc/codemap.mjs#L424) |
-| symbol | VariableDeclaration | generate | [436](../../doc/codemap.mjs#L436) |
-| chunks | VariableDeclaration | generate | [447](../../doc/codemap.mjs#L447) |
-| i | VariableDeclaration | generate | [448](../../doc/codemap.mjs#L448) |
-| name | VariableDeclaration | generate | [449](../../doc/codemap.mjs#L449) |
-| directory | VariableDeclaration | generate | [468](../../doc/codemap.mjs#L468) |
-| stale | VariableDeclaration | generate | [469](../../doc/codemap.mjs#L469) |
-| changed | VariableDeclaration | generate | [470](../../doc/codemap.mjs#L470) |
-| file | BindingElement | generate.changed | [470](../../doc/codemap.mjs#L470) |
-| text | BindingElement | generate.changed | [470](../../doc/codemap.mjs#L470) |
-| [file, text] | VariableDeclaration | generate | [473](../../doc/codemap.mjs#L473) |
-| file | BindingElement | generate.[file, text] | [473](../../doc/codemap.mjs#L473) |
-| text | BindingElement | generate.[file, text] | [473](../../doc/codemap.mjs#L473) |
-| targetPath | VariableDeclaration | generate | [474](../../doc/codemap.mjs#L474) |
-| file | VariableDeclaration | generate | [478](../../doc/codemap.mjs#L478) |
-| result | VariableDeclaration | generate | [482](../../doc/codemap.mjs#L482) |
-| args | VariableDeclaration |  | [489](../../doc/codemap.mjs#L489) |
-| valid | VariableDeclaration |  | [490](../../doc/codemap.mjs#L490) |
-| i | VariableDeclaration |  | [491](../../doc/codemap.mjs#L491) |
-| result | VariableDeclaration |  | [495](../../doc/codemap.mjs#L495) |
-| error | VariableDeclaration |  | [500](../../doc/codemap.mjs#L500) |
+| mapFromIndex | VariableDeclaration | generate | [363](../../doc/codemap.mjs#L363) |
+| indexFromMap | VariableDeclaration | generate | [364](../../doc/codemap.mjs#L364) |
+| depth | VariableDeclaration | generate | [365](../../doc/codemap.mjs#L365) |
+| relRoot | VariableDeclaration | generate | [366](../../doc/codemap.mjs#L366) |
+| version | VariableDeclaration | generate | [368](../../doc/codemap.mjs#L368) |
+| cachePath | VariableDeclaration | generate | [369](../../doc/codemap.mjs#L369) |
+| cache | VariableDeclaration | generate | [370](../../doc/codemap.mjs#L370) |
+| stored | VariableDeclaration | generate | [373](../../doc/codemap.mjs#L373) |
+| records | VariableDeclaration | generate | [377](../../doc/codemap.mjs#L377) |
+| parsed | VariableDeclaration | generate | [378](../../doc/codemap.mjs#L378) |
+| files | VariableDeclaration | generate | [379](../../doc/codemap.mjs#L379) |
+| file | VariableDeclaration | generate | [383](../../doc/codemap.mjs#L383) |
+| text | VariableDeclaration | generate | [384](../../doc/codemap.mjs#L384) |
+| digest | VariableDeclaration | generate | [385](../../doc/codemap.mjs#L385) |
+| outputs | VariableDeclaration | generate | [396](../../doc/codemap.mjs#L396) |
+| modules | VariableDeclaration | generate | [397](../../doc/codemap.mjs#L397) |
+| index | VariableDeclaration | generate | [398](../../doc/codemap.mjs#L398) |
+| totalSymbols | VariableDeclaration | generate | [408](../../doc/codemap.mjs#L408) |
+| diagnostics | VariableDeclaration | generate | [409](../../doc/codemap.mjs#L409) |
+| module | VariableDeclaration | generate | [410](../../doc/codemap.mjs#L410) |
+| members | VariableDeclaration | generate | [411](../../doc/codemap.mjs#L411) |
+| count | VariableDeclaration | generate | [412](../../doc/codemap.mjs#L412) |
+| moduleRows | VariableDeclaration | generate | [415](../../doc/codemap.mjs#L415) |
+| file | VariableDeclaration | generate | [416](../../doc/codemap.mjs#L416) |
+| record | VariableDeclaration | generate | [417](../../doc/codemap.mjs#L417) |
+| slug | VariableDeclaration | generate | [419](../../doc/codemap.mjs#L419) |
+| pages | VariableDeclaration | generate | [420](../../doc/codemap.mjs#L420) |
+| pageLinks | VariableDeclaration | generate | [421](../../doc/codemap.mjs#L421) |
+| i | VariableDeclaration | generate | [422](../../doc/codemap.mjs#L422) |
+| name | VariableDeclaration | generate | [423](../../doc/codemap.mjs#L423) |
+| rows | VariableDeclaration | generate | [425](../../doc/codemap.mjs#L425) |
+| symbol | VariableDeclaration | generate | [437](../../doc/codemap.mjs#L437) |
+| chunks | VariableDeclaration | generate | [448](../../doc/codemap.mjs#L448) |
+| i | VariableDeclaration | generate | [449](../../doc/codemap.mjs#L449) |
+| name | VariableDeclaration | generate | [450](../../doc/codemap.mjs#L450) |
+| directory | VariableDeclaration | generate | [469](../../doc/codemap.mjs#L469) |
+| stale | VariableDeclaration | generate | [470](../../doc/codemap.mjs#L470) |
+| changed | VariableDeclaration | generate | [471](../../doc/codemap.mjs#L471) |
+| file | BindingElement | generate.changed | [471](../../doc/codemap.mjs#L471) |
+| text | BindingElement | generate.changed | [471](../../doc/codemap.mjs#L471) |
+| [file, text] | VariableDeclaration | generate | [474](../../doc/codemap.mjs#L474) |
+| file | BindingElement | generate.[file, text] | [474](../../doc/codemap.mjs#L474) |
+| text | BindingElement | generate.[file, text] | [474](../../doc/codemap.mjs#L474) |
+| targetPath | VariableDeclaration | generate | [475](../../doc/codemap.mjs#L475) |
+| file | VariableDeclaration | generate | [479](../../doc/codemap.mjs#L479) |
+| result | VariableDeclaration | generate | [483](../../doc/codemap.mjs#L483) |
+| args | VariableDeclaration |  | [490](../../doc/codemap.mjs#L490) |
+| valid | VariableDeclaration |  | [491](../../doc/codemap.mjs#L491) |
+| i | VariableDeclaration |  | [492](../../doc/codemap.mjs#L492) |
+| result | VariableDeclaration |  | [496](../../doc/codemap.mjs#L496) |
+| error | VariableDeclaration |  | [501](../../doc/codemap.mjs#L501) |

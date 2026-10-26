@@ -39,10 +39,10 @@ flowchart LR
 
 | 想找什么 | 模块 | 源码路径 | 权限 |
 | --- | --- | --- | --- |
-| Cursor 桥接插件入口、Supervisor 主循环、安装入口、Rust 引擎补丁 | `bridge-root` | `magpie-agent-cursor-bridge/*.{js,ps1,cmd,command,patch}` | **允许修改** |
-| 桥接核心库（配置校验、证书与暂存安装、PID+启动时间锁、Magpie 状态探测、固定端口 TCP 中继、Cursor `settings.json` 事务与还原、Watchdog 判定） | `bridge-lib` | `magpie-agent-cursor-bridge/lib/` | **允许修改** |
-| 原生引擎编译脚本 (`cursor-byok` + `source.patch`) | `bridge-scripts` | `magpie-agent-cursor-bridge/scripts/` | **允许修改** |
-| 桥接插件单元测试与生命周期验证 | `bridge-test` | `magpie-agent-cursor-bridge/test/` | **允许修改** |
+| Cursor 桥接插件入口、Supervisor 主循环、安装入口、Rust 引擎补丁 | `bridge-root` | `plugins/magpie-agent-cursor-bridge/*.{js,ps1,cmd,command,patch}` | **允许修改** |
+| 桥接核心库（配置校验、证书与暂存安装、PID+启动时间锁、Magpie 状态探测、固定端口 TCP 中继、Cursor `settings.json` 事务与还原、Watchdog 判定） | `bridge-lib` | `plugins/magpie-agent-cursor-bridge/lib/` | **允许修改** |
+| 原生引擎编译脚本 (`cursor-byok` + `source.patch`) | `bridge-scripts` | `plugins/magpie-agent-cursor-bridge/scripts/` | **允许修改** |
+| 桥接插件单元测试与生命周期验证 | `bridge-test` | `plugins/magpie-agent-cursor-bridge/test/` | **允许修改** |
 | Magpie Agent 插件宿主（`moejs` 加载 `agent.js`、`connect` 钩子调用） | `magpie-agentplug` | `magpie/internal/agentplug/` | 只读参考 |
 | Magpie Agent 接线、状态 (`agents-state.json`、`applied.json`、`stash.json`)、WSL 与重连 | `magpie-agent` | `magpie/internal/agent/`、`agentenv/` | 只读参考 |
 | Magpie 插件运行时（内置插件 `pluginrt`、OpenCode 插件宿主 `plugin`、`jsmod`、`plugins/*`） | `magpie-plugin` | `magpie/internal/plugin/`、`pluginrt/`、`jsmod/`、`magpie/plugins/` | 只读参考 |
@@ -64,8 +64,8 @@ flowchart LR
 任务：排查 Magpie 关闭开关后 `magpie-agent-cursor-bridge` 如何还原 Cursor 代理配置。
 
 1. 索引 → `bridge-root` 与 `bridge-lib`。
-2. `doc/codemap/bridge-root.md` → `magpie-agent-cursor-bridge/bridge.js` 符号页 → 定位 `stop`、`panic`、`nextMagpieGate` 调用行号。
-3. `doc/codemap/bridge-lib.md` → `magpie-agent-cursor-bridge/lib/magpie.js`（`readWired`、`nextMagpieGate`）与 `magpie-agent-cursor-bridge/lib/settings.js`（`restoreProxy`、`clearStaleProxy`）。
+2. `doc/codemap/bridge-root.md` → `plugins/magpie-agent-cursor-bridge/bridge.js` 符号页 → 定位 `stop`、`panic`、`nextMagpieGate` 调用行号。
+3. `doc/codemap/bridge-lib.md` → `plugins/magpie-agent-cursor-bridge/lib/magpie.js`（`readWired`、`nextMagpieGate`）与 `plugins/magpie-agent-cursor-bridge/lib/settings.js`（`restoreProxy`、`clearStaleProxy`）。
 4. 如需确认 Magpie 侧何时写出 `agents-state.json`，再查 `magpie-agent` 模块定位只读源码。
 
 ## 4. 符号页字段说明
@@ -86,7 +86,7 @@ node doc/codemap.mjs                         # 增量生成（首次 / 配置变
 node doc/codemap.mjs --module bridge-lib     # 只刷新单模块；需已有缓存，且改动不得越出该模块
 node doc/codemap.mjs --check                 # 只检查，不写文件；有漂移则退出码非 0
 node --test doc/codemap.test.mjs             # 代码地图工具自测
-node --test magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-agent-cursor-bridge 单元测试
+node --test plugins/magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-agent-cursor-bridge 单元测试
 ```
 
 - 本地缓存 `doc/.codemap-cache.json` 可随时删除。
@@ -94,8 +94,8 @@ node --test magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-agent-curs
 
 ## 6. 改完代码后的必做清单
 
-1. 确认所有代码修改仅落在允许修改的目录（`magpie-agent-cursor-bridge/` 或 `doc/` 工具脚本），**未触碰 `magpie/` 目录**。
-2. 跑相关单元测试（`node --test magpie-agent-cursor-bridge/test/*.test.js`）。
+1. 确认所有代码修改仅落在允许修改的目录（`plugins/magpie-agent-cursor-bridge/` 或 `doc/` 工具脚本），**未触碰 `magpie/` 目录**。
+2. 跑相关单元测试（`node --test plugins/magpie-agent-cursor-bridge/test/*.test.js`）。
 3. 任何文件新增 / 编辑 / 删除 / 重命名后执行 `node doc/codemap.mjs`。
 4. 执行 `node doc/codemap.mjs --check`，必须零漂移且解析诊断为 0。
 5. 汇报实际验证结果与未覆盖项。
@@ -123,6 +123,6 @@ node --test magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-agent-curs
 ```text
 先读 AGENTS.md 与 doc/codemap-guide.md。
 任何代码任务：从 doc/CODE_MAP_INDEX.md 选模块 → doc/codemap/ 文件符号页 → 定点读源码，不要全仓盲扫。
-严禁修改 magpie/ 目录下的任何文件；所有插件功能修改在 magpie-agent-cursor-bridge/ 中完成。
-修改后执行 node --test magpie-agent-cursor-bridge/test/*.test.js、node doc/codemap.mjs 与 node doc/codemap.mjs --check，确保测试通过且代码地图零漂移。
+严禁修改 magpie/ 目录下的任何文件；所有插件功能修改在 plugins/magpie-agent-cursor-bridge/ 中完成。
+修改后执行 node --test plugins/magpie-agent-cursor-bridge/test/*.test.js、node doc/codemap.mjs 与 node doc/codemap.mjs --check，确保测试通过且代码地图零漂移。
 ```

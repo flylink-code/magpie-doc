@@ -4,7 +4,7 @@
 
 [Module](tooling.md) · [Source](../../doc/codemap.mjs) · page 1/2
 
-Source SHA-256: f419a7c1795af8b5c2148ca0852600fc6e3da9409b79b1d4ba64ef7431b77747
+Source SHA-256: 7e95f3fee805621b45efc47c0dd70df68517cc5257430eeaae24961c74c60e34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -78,33 +78,33 @@ Source SHA-256: f419a7c1795af8b5c2148ca0852600fc6e3da9409b79b1d4ba64ef7431b77747
 | MAGPIE_MODULE_GROUPS | VariableDeclaration |  | [202](../../doc/codemap.mjs#L202) |
 | moduleOf | FunctionDeclaration |  | [266](../../doc/codemap.mjs#L266) |
 | parts | VariableDeclaration | moduleOf | [267](../../doc/codemap.mjs#L267) |
-| eligible | FunctionDeclaration |  | [292](../../doc/codemap.mjs#L292) |
-| parts | VariableDeclaration | eligible | [293](../../doc/codemap.mjs#L293) |
-| gitList | FunctionDeclaration |  | [300](../../doc/codemap.mjs#L300) |
-| walkNonGitDir | FunctionDeclaration |  | [308](../../doc/codemap.mjs#L308) |
-| absDir | VariableDeclaration | walkNonGitDir | [309](../../doc/codemap.mjs#L309) |
-| entry | VariableDeclaration | walkNonGitDir | [311](../../doc/codemap.mjs#L311) |
-| relPath | VariableDeclaration | walkNonGitDir | [313](../../doc/codemap.mjs#L313) |
-| inventory | FunctionDeclaration |  | [319](../../doc/codemap.mjs#L319) |
-| discovered | VariableDeclaration | inventory | [320](../../doc/codemap.mjs#L320) |
-| rootHasGit | VariableDeclaration | inventory | [321](../../doc/codemap.mjs#L321) |
-| file | VariableDeclaration | inventory | [323](../../doc/codemap.mjs#L323) |
-| entry | VariableDeclaration | inventory | [325](../../doc/codemap.mjs#L325) |
-| sub | VariableDeclaration | inventory | [329](../../doc/codemap.mjs#L329) |
-| subDir | VariableDeclaration | inventory | [330](../../doc/codemap.mjs#L330) |
-| file | VariableDeclaration | inventory | [332](../../doc/codemap.mjs#L332) |
-| escape | VariableDeclaration |  | [343](../../doc/codemap.mjs#L343) |
-| link | VariableDeclaration |  | [344](../../doc/codemap.mjs#L344) |
-| posixRel | VariableDeclaration |  | [345](../../doc/codemap.mjs#L345) |
-| resolveConfigPath | FunctionDeclaration |  | [347](../../doc/codemap.mjs#L347) |
-| inDoc | VariableDeclaration | resolveConfigPath | [348](../../doc/codemap.mjs#L348) |
-| generate | FunctionDeclaration |  | [353](../../doc/codemap.mjs#L353) |
-| check | BindingElement | generate | [353](../../doc/codemap.mjs#L353) |
-| selected | BindingElement | generate | [353](../../doc/codemap.mjs#L353) |
-| configPath | VariableDeclaration | generate | [354](../../doc/codemap.mjs#L354) |
-| configText | VariableDeclaration | generate | [355](../../doc/codemap.mjs#L355) |
-| config | VariableDeclaration | generate | [356](../../doc/codemap.mjs#L356) |
-| mapDirRel | VariableDeclaration | generate | [358](../../doc/codemap.mjs#L358) |
-| indexFileRel | VariableDeclaration | generate | [359](../../doc/codemap.mjs#L359) |
-| cacheFileRel | VariableDeclaration | generate | [360](../../doc/codemap.mjs#L360) |
-| indexDirRel | VariableDeclaration | generate | [361](../../doc/codemap.mjs#L361) |
+| eligible | FunctionDeclaration |  | [293](../../doc/codemap.mjs#L293) |
+| parts | VariableDeclaration | eligible | [294](../../doc/codemap.mjs#L294) |
+| gitList | FunctionDeclaration |  | [301](../../doc/codemap.mjs#L301) |
+| walkNonGitDir | FunctionDeclaration |  | [309](../../doc/codemap.mjs#L309) |
+| absDir | VariableDeclaration | walkNonGitDir | [310](../../doc/codemap.mjs#L310) |
+| entry | VariableDeclaration | walkNonGitDir | [312](../../doc/codemap.mjs#L312) |
+| relPath | VariableDeclaration | walkNonGitDir | [314](../../doc/codemap.mjs#L314) |
+| inventory | FunctionDeclaration |  | [320](../../doc/codemap.mjs#L320) |
+| discovered | VariableDeclaration | inventory | [321](../../doc/codemap.mjs#L321) |
+| rootHasGit | VariableDeclaration | inventory | [322](../../doc/codemap.mjs#L322) |
+| file | VariableDeclaration | inventory | [324](../../doc/codemap.mjs#L324) |
+| entry | VariableDeclaration | inventory | [326](../../doc/codemap.mjs#L326) |
+| sub | VariableDeclaration | inventory | [330](../../doc/codemap.mjs#L330) |
+| subDir | VariableDeclaration | inventory | [331](../../doc/codemap.mjs#L331) |
+| file | VariableDeclaration | inventory | [333](../../doc/codemap.mjs#L333) |
+| escape | VariableDeclaration |  | [344](../../doc/codemap.mjs#L344) |
+| link | VariableDeclaration |  | [345](../../doc/codemap.mjs#L345) |
+| posixRel | VariableDeclaration |  | [346](../../doc/codemap.mjs#L346) |
+| resolveConfigPath | FunctionDeclaration |  | [348](../../doc/codemap.mjs#L348) |
+| inDoc | VariableDeclaration | resolveConfigPath | [349](../../doc/codemap.mjs#L349) |
+| generate | FunctionDeclaration |  | [354](../../doc/codemap.mjs#L354) |
+| check | BindingElement | generate | [354](../../doc/codemap.mjs#L354) |
+| selected | BindingElement | generate | [354](../../doc/codemap.mjs#L354) |
+| configPath | VariableDeclaration | generate | [355](../../doc/codemap.mjs#L355) |
+| configText | VariableDeclaration | generate | [356](../../doc/codemap.mjs#L356) |
+| config | VariableDeclaration | generate | [357](../../doc/codemap.mjs#L357) |
+| mapDirRel | VariableDeclaration | generate | [359](../../doc/codemap.mjs#L359) |
+| indexFileRel | VariableDeclaration | generate | [360](../../doc/codemap.mjs#L360) |
+| cacheFileRel | VariableDeclaration | generate | [361](../../doc/codemap.mjs#L361) |
+| indexDirRel | VariableDeclaration | generate | [362](../../doc/codemap.mjs#L362) |

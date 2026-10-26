@@ -8,10 +8,10 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie-agent-cursor-bridge/lib/config.js](../../magpie-agent-cursor-bridge/lib/config.js) | 9 | [1](magpie-agent-cursor-bridge_lib_config.js-9385f45b-1.md) |
-| [magpie-agent-cursor-bridge/lib/install.js](../../magpie-agent-cursor-bridge/lib/install.js) | 61 | [1](magpie-agent-cursor-bridge_lib_install.js-1b5a9bcd-1.md) |
-| [magpie-agent-cursor-bridge/lib/lock.js](../../magpie-agent-cursor-bridge/lib/lock.js) | 17 | [1](magpie-agent-cursor-bridge_lib_lock.js-5ec6946f-1.md) |
-| [magpie-agent-cursor-bridge/lib/magpie.js](../../magpie-agent-cursor-bridge/lib/magpie.js) | 14 | [1](magpie-agent-cursor-bridge_lib_magpie.js-2011eb6a-1.md) |
-| [magpie-agent-cursor-bridge/lib/relay.js](../../magpie-agent-cursor-bridge/lib/relay.js) | 17 | [1](magpie-agent-cursor-bridge_lib_relay.js-e777ac2a-1.md) |
-| [magpie-agent-cursor-bridge/lib/settings.js](../../magpie-agent-cursor-bridge/lib/settings.js) | 47 | [1](magpie-agent-cursor-bridge_lib_settings.js-79683615-1.md) |
-| [magpie-agent-cursor-bridge/lib/watch.js](../../magpie-agent-cursor-bridge/lib/watch.js) | 2 | [1](magpie-agent-cursor-bridge_lib_watch.js-621ccb51-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/config.js](../../plugins/magpie-agent-cursor-bridge/lib/config.js) | 9 | [1](plugins_magpie-agent-cursor-bridge_lib_config.js-6a9b2725-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/install.js](../../plugins/magpie-agent-cursor-bridge/lib/install.js) | 61 | [1](plugins_magpie-agent-cursor-bridge_lib_install.js-e2a42968-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/lock.js](../../plugins/magpie-agent-cursor-bridge/lib/lock.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_lib_lock.js-3755b510-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/magpie.js](../../plugins/magpie-agent-cursor-bridge/lib/magpie.js) | 14 | [1](plugins_magpie-agent-cursor-bridge_lib_magpie.js-5d3c41ef-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/relay.js](../../plugins/magpie-agent-cursor-bridge/lib/relay.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_lib_relay.js-b6235bb8-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/settings.js](../../plugins/magpie-agent-cursor-bridge/lib/settings.js) | 47 | [1](plugins_magpie-agent-cursor-bridge_lib_settings.js-9afb4291-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/watch.js](../../plugins/magpie-agent-cursor-bridge/lib/watch.js) | 2 | [1](plugins_magpie-agent-cursor-bridge_lib_watch.js-c27a57ea-1.md) |
