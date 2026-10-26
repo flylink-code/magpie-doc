@@ -1,0 +1,10 @@
+{
+  "roots": ["magpie-agent-cursor-bridge", "magpie", "doc"],
+  "extensions": [".go", ".rs", ".ts", ".tsx", ".js", ".mjs", ".cjs", ".py", ".ps1", ".bat", ".cmd", ".sh", ".command", ".patch"],
+  "excludeSegments": ["examples", "node_modules", "target", "dist", "dist-ssr", "release", "generated", "gen", ".git", ".github", ".codemap-fixture", "artifacts", "__pycache__", ".pnpm-store", "testdata", "site", "codemap"],
+  "excludePatterns": ["^magpie/.*_test\\.go$", "^magpie/internal/gui/tests/", "^magpie/.*\\.patch$"],
+  "outputDir": "doc/codemap",
+  "indexFile": "doc/CODE_MAP_INDEX.md",
+  "cacheFile": "doc/.codemap-cache.json",
+  "pageRows": 100
+}
