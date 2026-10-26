@@ -4,7 +4,7 @@
 
 [Module](bridge-test.md) · [Source](../../plugins/magpie-agent-cursor-bridge/test/install.test.js) · page 1/1
 
-Source SHA-256: 342ab3885f34cd16609b34e3bc9e669cd9e52d326dadf17ff5fdc6d64efe41a0
+Source SHA-256: 2652e3646e652a68d65a74f5231bb1b182fd4870a7f9169d98c95242fbf6ecbc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -28,38 +28,42 @@ Source SHA-256: 342ab3885f34cd16609b34e3bc9e669cd9e52d326dadf17ff5fdc6d64efe41a0
 | one | VariableDeclaration |  | [51](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L51) |
 | two | VariableDeclaration |  | [51](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L51) |
 | before | VariableDeclaration |  | [59](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L59) |
+| plugin | VariableDeclaration |  | [67](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L67) |
 | manifest | VariableDeclaration |  | [69](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L69) |
-| checksums | VariableDeclaration |  | [70](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L70) |
-| dir | VariableDeclaration |  | [78](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L78) |
-| plugin | VariableDeclaration |  | [78](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L78) |
-| name | VariableDeclaration |  | [80](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L80) |
-| checksums | VariableDeclaration |  | [85](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L85) |
-| p | VariableDeclaration |  | [93](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L93) |
-| calls | VariableDeclaration |  | [93](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L93) |
-| trusted | VariableDeclaration |  | [93](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L93) |
-| exec | VariableDeclaration |  | [97](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L97) |
-| refused | VariableDeclaration |  | [108](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L108) |
-| exec | VariableDeclaration |  | [111](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L111) |
-| p | VariableDeclaration |  | [122](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L122) |
-| xml | VariableDeclaration |  | [122](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L122) |
-| scratch | VariableDeclaration |  | [131](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L131) |
-| real | VariableDeclaration |  | [132](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L132) |
-| own | VariableDeclaration |  | [135](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L135) |
-| p | VariableDeclaration |  | [140](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L140) |
-| fakeRuntime | VariableDeclaration |  | [140](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L140) |
-| one | VariableDeclaration |  | [141](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L141) |
-| two | VariableDeclaration |  | [141](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L141) |
-| runtimeFile | VariableDeclaration |  | [144](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L144) |
-| p | VariableDeclaration |  | [151](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L151) |
-| release | VariableDeclaration |  | [154](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L154) |
-| ran | VariableDeclaration |  | [155](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L155) |
-| exec | VariableDeclaration |  | [156](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L156) |
-| p | VariableDeclaration |  | [161](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L161) |
-| bootstraps | VariableDeclaration |  | [162](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L162) |
-| exec | VariableDeclaration |  | [162](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L162) |
-| home | VariableDeclaration |  | [169](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L169) |
-| parent | VariableDeclaration |  | [169](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L169) |
-| plugin | VariableDeclaration |  | [169](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L169) |
-| name | VariableDeclaration |  | [171](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L171) |
-| runtime | VariableDeclaration |  | [179](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L179) |
-| release | VariableDeclaration |  | [180](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L180) |
+| name | VariableDeclaration |  | [71](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L71) |
+| value | VariableDeclaration |  | [76](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L76) |
+| manifest | VariableDeclaration |  | [86](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L86) |
+| checksums | VariableDeclaration |  | [87](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L87) |
+| dir | VariableDeclaration |  | [95](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L95) |
+| plugin | VariableDeclaration |  | [95](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L95) |
+| name | VariableDeclaration |  | [97](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L97) |
+| checksums | VariableDeclaration |  | [102](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L102) |
+| p | VariableDeclaration |  | [110](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L110) |
+| calls | VariableDeclaration |  | [110](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L110) |
+| trusted | VariableDeclaration |  | [110](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L110) |
+| exec | VariableDeclaration |  | [114](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L114) |
+| refused | VariableDeclaration |  | [125](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L125) |
+| exec | VariableDeclaration |  | [128](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L128) |
+| p | VariableDeclaration |  | [139](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L139) |
+| xml | VariableDeclaration |  | [139](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L139) |
+| scratch | VariableDeclaration |  | [148](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L148) |
+| real | VariableDeclaration |  | [149](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L149) |
+| own | VariableDeclaration |  | [152](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L152) |
+| p | VariableDeclaration |  | [157](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L157) |
+| fakeRuntime | VariableDeclaration |  | [157](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L157) |
+| one | VariableDeclaration |  | [158](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L158) |
+| two | VariableDeclaration |  | [158](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L158) |
+| runtimeFile | VariableDeclaration |  | [161](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L161) |
+| p | VariableDeclaration |  | [168](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L168) |
+| release | VariableDeclaration |  | [171](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L171) |
+| ran | VariableDeclaration |  | [172](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L172) |
+| exec | VariableDeclaration |  | [173](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L173) |
+| p | VariableDeclaration |  | [178](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L178) |
+| bootstraps | VariableDeclaration |  | [179](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L179) |
+| exec | VariableDeclaration |  | [179](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L179) |
+| home | VariableDeclaration |  | [186](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L186) |
+| parent | VariableDeclaration |  | [186](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L186) |
+| plugin | VariableDeclaration |  | [186](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L186) |
+| name | VariableDeclaration |  | [188](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L188) |
+| runtime | VariableDeclaration |  | [196](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L196) |
+| release | VariableDeclaration |  | [197](../../plugins/magpie-agent-cursor-bridge/test/install.test.js#L197) |

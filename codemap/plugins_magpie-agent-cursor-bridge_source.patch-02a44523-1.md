@@ -4,7 +4,7 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/source.patch) · page 1/1
 
-Source SHA-256: e173abf0dbfb94c1e468736e9cc65f660f09f77f017320944530e1ef185cbd06
+Source SHA-256: a93ecb8eb0bc5b28ebd9a15d0a8f44e7dcde3b9382450638c6e321252d315adb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -60,3 +60,12 @@ Source SHA-256: e173abf0dbfb94c1e468736e9cc65f660f09f77f017320944530e1ef185cbd06
 | number | patch fn | server/src/cursor/compile/context.rs | [727](../../plugins/magpie-agent-cursor-bridge/source.patch#L727) |
 | object | patch fn | server/src/cursor/compile/context.rs | [728](../../plugins/magpie-agent-cursor-bridge/source.patch#L728) |
 | protobuf_schema_numbers_restore_json_integers | patch fn | server/src/cursor/compile/context.rs | [744](../../plugins/magpie-agent-cursor-bridge/source.patch#L744) |
+| server/src/cursor/services/analytics.rs | patch target |  | [754](../../plugins/magpie-agent-cursor-bridge/source.patch#L754) |
+| patch_upstream | patch fn | server/src/cursor/services/analytics.rs | [787](../../plugins/magpie-agent-cursor-bridge/source.patch#L787) |
+| local_response | patch fn | server/src/cursor/services/analytics.rs | [798](../../plugins/magpie-agent-cursor-bridge/source.patch#L798) |
+| configure_agent_protocol | patch fn | server/src/cursor/services/analytics.rs | [815](../../plugins/magpie-agent-cursor-bridge/source.patch#L815) |
+| bridge_protocol_tests | patch mod | server/src/cursor/services/analytics.rs | [837](../../plugins/magpie-agent-cursor-bridge/source.patch#L837) |
+| bridge_selects_agent_run_for_every_supported_hash | patch fn | server/src/cursor/services/analytics.rs | [841](../../plugins/magpie-agent-cursor-bridge/source.patch#L841) |
+| ordinary_byok_retains_upstream_runtime_selection | patch fn | server/src/cursor/services/analytics.rs | [854](../../plugins/magpie-agent-cursor-bridge/source.patch#L854) |
+| upstream_bootstrap_preserves_framing_and_other_gates | patch fn | server/src/cursor/services/analytics.rs | [864](../../plugins/magpie-agent-cursor-bridge/source.patch#L864) |
+| bridge_fallback_explicitly_disables_cached_local_loop | patch fn | server/src/cursor/services/analytics.rs | [890](../../plugins/magpie-agent-cursor-bridge/source.patch#L890) |
