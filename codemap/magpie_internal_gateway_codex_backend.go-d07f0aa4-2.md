@@ -4,66 +4,70 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_backend.go) · page 2/2
 
-Source SHA-256: 9b0ccb89c641ec34f7fd346ae61916fe4d405049d6b8b6574bf346df0410067c
+Source SHA-256: 5993b0d802b259ecaef6c5abb1c927e652170e4b56d2162ad89b9e46d0e9b003
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| refusesReasoningText | function_declaration |  | [2223](../../magpie/internal/gateway/codex_backend.go#L2223) |
-| withoutReasoningText | function_declaration |  | [2243](../../magpie/internal/gateway/codex_backend.go#L2243) |
-| Type | field_declaration | withoutReasoningText | [2261](../../magpie/internal/gateway/codex_backend.go#L2261) |
-| Content | field_declaration | withoutReasoningText | [2262](../../magpie/internal/gateway/codex_backend.go#L2262) |
-| openaiItemPrefix | var_spec |  | [2287](../../magpie/internal/gateway/codex_backend.go#L2287) |
-| callItemIDs | function_declaration |  | [2296](../../magpie/internal/gateway/codex_backend.go#L2296) |
-| itemIDRefusal | var_spec |  | [2354](../../magpie/internal/gateway/codex_backend.go#L2354) |
-| itemIDsRefused | function_declaration |  | [2358](../../magpie/internal/gateway/codex_backend.go#L2358) |
-| validatesItemIDs | function_declaration |  | [2364](../../magpie/internal/gateway/codex_backend.go#L2364) |
-| plainItemIDs | function_declaration |  | [2380](../../magpie/internal/gateway/codex_backend.go#L2380) |
-| longCallID | var_spec |  | [2430](../../magpie/internal/gateway/codex_backend.go#L2430) |
-| boundCallIDs | function_declaration |  | [2439](../../magpie/internal/gateway/codex_backend.go#L2439) |
-| openaiOnly | var_spec |  | [2482](../../magpie/internal/gateway/codex_backend.go#L2482) |
-| forVendor | function_declaration |  | [2492](../../magpie/internal/gateway/codex_backend.go#L2492) |
-| keepsAccessPrograms | function_declaration |  | [2562](../../magpie/internal/gateway/codex_backend.go#L2562) |
-| withoutAccessPrograms | function_declaration |  | [2571](../../magpie/internal/gateway/codex_backend.go#L2571) |
-| forVendorChanges | function_declaration |  | [2582](../../magpie/internal/gateway/codex_backend.go#L2582) |
-| userMessage | function_declaration |  | [2605](../../magpie/internal/gateway/codex_backend.go#L2605) |
-| codexCompact | method_declaration | *Server | [2630](../../magpie/internal/gateway/codex_backend.go#L2630) |
-| Reason | field_declaration | *Server.codexCompact | [2692](../../magpie/internal/gateway/codex_backend.go#L2692) |
-| upstreamFailed | function_declaration |  | [2760](../../magpie/internal/gateway/codex_backend.go#L2760) |
-| upstreamFailedWords | var_spec |  | [2766](../../magpie/internal/gateway/codex_backend.go#L2766) |
-| itemNotFound | function_declaration |  | [2771](../../magpie/internal/gateway/codex_backend.go#L2771) |
-| compactFailure | function_declaration |  | [2778](../../magpie/internal/gateway/codex_backend.go#L2778) |
-| compactItems | function_declaration |  | [2791](../../magpie/internal/gateway/codex_backend.go#L2791) |
-| itemText | function_declaration |  | [2804](../../magpie/internal/gateway/codex_backend.go#L2804) |
-| plainCompact | function_declaration |  | [2839](../../magpie/internal/gateway/codex_backend.go#L2839) |
-| plainCompactMax | const_spec |  | [2870](../../magpie/internal/gateway/codex_backend.go#L2870) |
-| localSummaryMax | const_spec |  | [2874](../../magpie/internal/gateway/codex_backend.go#L2874) |
-| localSummary | function_declaration |  | [2879](../../magpie/internal/gateway/codex_backend.go#L2879) |
-| compactOutput | struct_type |  | [2914](../../magpie/internal/gateway/codex_backend.go#L2914) |
-| Type | field_declaration | compactOutput | [2915](../../magpie/internal/gateway/codex_backend.go#L2915) |
-| Name | field_declaration | compactOutput | [2916](../../magpie/internal/gateway/codex_backend.go#L2916) |
-| Content | field_declaration | compactOutput | [2917](../../magpie/internal/gateway/codex_backend.go#L2917) |
-| Type | field_declaration | compactOutput | [2918](../../magpie/internal/gateway/codex_backend.go#L2918) |
-| Text | field_declaration | compactOutput | [2919](../../magpie/internal/gateway/codex_backend.go#L2919) |
-| compactResult | struct_type |  | [2923](../../magpie/internal/gateway/codex_backend.go#L2923) |
-| ID | field_declaration | compactResult | [2924](../../magpie/internal/gateway/codex_backend.go#L2924) |
-| Output | field_declaration | compactResult | [2925](../../magpie/internal/gateway/codex_backend.go#L2925) |
-| Usage | field_declaration | compactResult | [2926](../../magpie/internal/gateway/codex_backend.go#L2926) |
-| Status | field_declaration | compactResult | [2929](../../magpie/internal/gateway/codex_backend.go#L2929) |
-| IncompleteDetails | field_declaration | compactResult | [2930](../../magpie/internal/gateway/codex_backend.go#L2930) |
-| Error | field_declaration | compactResult | [2931](../../magpie/internal/gateway/codex_backend.go#L2931) |
-| Message | field_declaration | compactResult | [2932](../../magpie/internal/gateway/codex_backend.go#L2932) |
-| answeredWith | function_declaration |  | [2940](../../magpie/internal/gateway/codex_backend.go#L2940) |
-| compactReply | function_declaration |  | [2960](../../magpie/internal/gateway/codex_backend.go#L2960) |
-| Type | field_declaration | compactReply | [2971](../../magpie/internal/gateway/codex_backend.go#L2971) |
-| Item | field_declaration | compactReply | [2972](../../magpie/internal/gateway/codex_backend.go#L2972) |
-| Response | field_declaration | compactReply | [2973](../../magpie/internal/gateway/codex_backend.go#L2973) |
-| Message | field_declaration | compactReply | [2974](../../magpie/internal/gateway/codex_backend.go#L2974) |
-| Error | field_declaration | compactReply | [2975](../../magpie/internal/gateway/codex_backend.go#L2975) |
-| Message | field_declaration | compactReply | [2976](../../magpie/internal/gateway/codex_backend.go#L2976) |
-| recorder | struct_type |  | [3018](../../magpie/internal/gateway/codex_backend.go#L3018) |
-| header | field_declaration | recorder | [3019](../../magpie/internal/gateway/codex_backend.go#L3019) |
-| status | field_declaration | recorder | [3020](../../magpie/internal/gateway/codex_backend.go#L3020) |
-| body | field_declaration | recorder | [3021](../../magpie/internal/gateway/codex_backend.go#L3021) |
-| Header | method_declaration | *recorder | [3024](../../magpie/internal/gateway/codex_backend.go#L3024) |
-| WriteHeader | method_declaration | *recorder | [3025](../../magpie/internal/gateway/codex_backend.go#L3025) |
-| Write | method_declaration | *recorder | [3026](../../magpie/internal/gateway/codex_backend.go#L3026) |
+| reasoningTextRefused | function_declaration |  | [2275](../../magpie/internal/gateway/codex_backend.go#L2275) |
+| reasoningContentRefusal | var_spec |  | [2282](../../magpie/internal/gateway/codex_backend.go#L2282) |
+| refusesReasoningText | function_declaration |  | [2286](../../magpie/internal/gateway/codex_backend.go#L2286) |
+| withoutReasoningText | function_declaration |  | [2306](../../magpie/internal/gateway/codex_backend.go#L2306) |
+| Type | field_declaration | withoutReasoningText | [2324](../../magpie/internal/gateway/codex_backend.go#L2324) |
+| Content | field_declaration | withoutReasoningText | [2325](../../magpie/internal/gateway/codex_backend.go#L2325) |
+| openaiItemPrefix | var_spec |  | [2350](../../magpie/internal/gateway/codex_backend.go#L2350) |
+| callItemIDs | function_declaration |  | [2359](../../magpie/internal/gateway/codex_backend.go#L2359) |
+| itemIDRefusal | var_spec |  | [2417](../../magpie/internal/gateway/codex_backend.go#L2417) |
+| itemIDsRefused | function_declaration |  | [2421](../../magpie/internal/gateway/codex_backend.go#L2421) |
+| validatesItemIDs | function_declaration |  | [2427](../../magpie/internal/gateway/codex_backend.go#L2427) |
+| plainItemIDs | function_declaration |  | [2443](../../magpie/internal/gateway/codex_backend.go#L2443) |
+| longCallID | var_spec |  | [2493](../../magpie/internal/gateway/codex_backend.go#L2493) |
+| boundCallIDs | function_declaration |  | [2502](../../magpie/internal/gateway/codex_backend.go#L2502) |
+| openaiOnly | var_spec |  | [2545](../../magpie/internal/gateway/codex_backend.go#L2545) |
+| forVendor | function_declaration |  | [2555](../../magpie/internal/gateway/codex_backend.go#L2555) |
+| keepsAccessPrograms | function_declaration |  | [2625](../../magpie/internal/gateway/codex_backend.go#L2625) |
+| withoutAccessPrograms | function_declaration |  | [2634](../../magpie/internal/gateway/codex_backend.go#L2634) |
+| forVendorChanges | function_declaration |  | [2645](../../magpie/internal/gateway/codex_backend.go#L2645) |
+| userMessage | function_declaration |  | [2668](../../magpie/internal/gateway/codex_backend.go#L2668) |
+| codexCompact | method_declaration | *Server | [2694](../../magpie/internal/gateway/codex_backend.go#L2694) |
+| Reason | field_declaration | *Server.codexCompact | [2761](../../magpie/internal/gateway/codex_backend.go#L2761) |
+| compactFailed | function_declaration |  | [2826](../../magpie/internal/gateway/codex_backend.go#L2826) |
+| lacksEndpoint | function_declaration |  | [2837](../../magpie/internal/gateway/codex_backend.go#L2837) |
+| upstreamFailed | function_declaration |  | [2847](../../magpie/internal/gateway/codex_backend.go#L2847) |
+| upstreamFailedWords | var_spec |  | [2853](../../magpie/internal/gateway/codex_backend.go#L2853) |
+| itemNotFound | function_declaration |  | [2858](../../magpie/internal/gateway/codex_backend.go#L2858) |
+| compactFailure | function_declaration |  | [2865](../../magpie/internal/gateway/codex_backend.go#L2865) |
+| compactItems | function_declaration |  | [2878](../../magpie/internal/gateway/codex_backend.go#L2878) |
+| itemText | function_declaration |  | [2891](../../magpie/internal/gateway/codex_backend.go#L2891) |
+| plainCompact | function_declaration |  | [2926](../../magpie/internal/gateway/codex_backend.go#L2926) |
+| plainCompactMax | const_spec |  | [2957](../../magpie/internal/gateway/codex_backend.go#L2957) |
+| localSummaryMax | const_spec |  | [2961](../../magpie/internal/gateway/codex_backend.go#L2961) |
+| localSummary | function_declaration |  | [2966](../../magpie/internal/gateway/codex_backend.go#L2966) |
+| compactOutput | struct_type |  | [3001](../../magpie/internal/gateway/codex_backend.go#L3001) |
+| Type | field_declaration | compactOutput | [3002](../../magpie/internal/gateway/codex_backend.go#L3002) |
+| Name | field_declaration | compactOutput | [3003](../../magpie/internal/gateway/codex_backend.go#L3003) |
+| Content | field_declaration | compactOutput | [3004](../../magpie/internal/gateway/codex_backend.go#L3004) |
+| Type | field_declaration | compactOutput | [3005](../../magpie/internal/gateway/codex_backend.go#L3005) |
+| Text | field_declaration | compactOutput | [3006](../../magpie/internal/gateway/codex_backend.go#L3006) |
+| compactResult | struct_type |  | [3010](../../magpie/internal/gateway/codex_backend.go#L3010) |
+| ID | field_declaration | compactResult | [3011](../../magpie/internal/gateway/codex_backend.go#L3011) |
+| Output | field_declaration | compactResult | [3012](../../magpie/internal/gateway/codex_backend.go#L3012) |
+| Usage | field_declaration | compactResult | [3013](../../magpie/internal/gateway/codex_backend.go#L3013) |
+| Status | field_declaration | compactResult | [3016](../../magpie/internal/gateway/codex_backend.go#L3016) |
+| IncompleteDetails | field_declaration | compactResult | [3017](../../magpie/internal/gateway/codex_backend.go#L3017) |
+| Error | field_declaration | compactResult | [3018](../../magpie/internal/gateway/codex_backend.go#L3018) |
+| Message | field_declaration | compactResult | [3019](../../magpie/internal/gateway/codex_backend.go#L3019) |
+| answeredWith | function_declaration |  | [3027](../../magpie/internal/gateway/codex_backend.go#L3027) |
+| compactReply | function_declaration |  | [3047](../../magpie/internal/gateway/codex_backend.go#L3047) |
+| Type | field_declaration | compactReply | [3058](../../magpie/internal/gateway/codex_backend.go#L3058) |
+| Item | field_declaration | compactReply | [3059](../../magpie/internal/gateway/codex_backend.go#L3059) |
+| Response | field_declaration | compactReply | [3060](../../magpie/internal/gateway/codex_backend.go#L3060) |
+| Message | field_declaration | compactReply | [3061](../../magpie/internal/gateway/codex_backend.go#L3061) |
+| Error | field_declaration | compactReply | [3062](../../magpie/internal/gateway/codex_backend.go#L3062) |
+| Message | field_declaration | compactReply | [3063](../../magpie/internal/gateway/codex_backend.go#L3063) |
+| recorder | struct_type |  | [3105](../../magpie/internal/gateway/codex_backend.go#L3105) |
+| header | field_declaration | recorder | [3106](../../magpie/internal/gateway/codex_backend.go#L3106) |
+| status | field_declaration | recorder | [3107](../../magpie/internal/gateway/codex_backend.go#L3107) |
+| body | field_declaration | recorder | [3108](../../magpie/internal/gateway/codex_backend.go#L3108) |
+| Header | method_declaration | *recorder | [3111](../../magpie/internal/gateway/codex_backend.go#L3111) |
+| WriteHeader | method_declaration | *recorder | [3112](../../magpie/internal/gateway/codex_backend.go#L3112) |
+| Write | method_declaration | *recorder | [3113](../../magpie/internal/gateway/codex_backend.go#L3113) |

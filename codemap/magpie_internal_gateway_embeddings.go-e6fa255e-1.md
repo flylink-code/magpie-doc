@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/embeddings.go) · page 1/1
 
-Source SHA-256: 208e7936b5dcf23b05995f45bbe9d51bd226ca255dc18322ba9d00bd5e9a42d3
+Source SHA-256: f345b6de752a6ea88c6b5421407ad0c503051108132ad02bb334019a66872c21
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,14 +20,14 @@ Source SHA-256: 208e7936b5dcf23b05995f45bbe9d51bd226ca255dc18322ba9d00bd5e9a42d3
 | answerType | method_declaration | *jsonRetrieval | [78](../../magpie/internal/gateway/embeddings.go#L78) |
 | forModel | method_declaration | *jsonRetrieval | [80](../../magpie/internal/gateway/embeddings.go#L80) |
 | serveRetrieval | method_declaration | *Server | [88](../../magpie/internal/gateway/embeddings.go#L88) |
-| resolveRetrievalModel | function_declaration |  | [259](../../magpie/internal/gateway/embeddings.go#L259) |
-| retrieveFrom | method_declaration | *Server | [281](../../magpie/internal/gateway/embeddings.go#L281) |
-| retrieveAs | method_declaration | *Server | [288](../../magpie/internal/gateway/embeddings.go#L288) |
-| retrievedTokens | function_declaration |  | [333](../../magpie/internal/gateway/embeddings.go#L333) |
-| Usage | field_declaration | retrievedTokens | [335](../../magpie/internal/gateway/embeddings.go#L335) |
-| Prompt | field_declaration | retrievedTokens | [336](../../magpie/internal/gateway/embeddings.go#L336) |
-| Input | field_declaration | retrievedTokens | [337](../../magpie/internal/gateway/embeddings.go#L337) |
-| Total | field_declaration | retrievedTokens | [338](../../magpie/internal/gateway/embeddings.go#L338) |
-| Meta | field_declaration | retrievedTokens | [340](../../magpie/internal/gateway/embeddings.go#L340) |
-| Billed | field_declaration | retrievedTokens | [341](../../magpie/internal/gateway/embeddings.go#L341) |
-| Input | field_declaration | retrievedTokens | [342](../../magpie/internal/gateway/embeddings.go#L342) |
+| resolveRetrievalModel | function_declaration |  | [263](../../magpie/internal/gateway/embeddings.go#L263) |
+| retrieveFrom | method_declaration | *Server | [285](../../magpie/internal/gateway/embeddings.go#L285) |
+| retrieveAs | method_declaration | *Server | [292](../../magpie/internal/gateway/embeddings.go#L292) |
+| retrievedTokens | function_declaration |  | [337](../../magpie/internal/gateway/embeddings.go#L337) |
+| Usage | field_declaration | retrievedTokens | [339](../../magpie/internal/gateway/embeddings.go#L339) |
+| Prompt | field_declaration | retrievedTokens | [340](../../magpie/internal/gateway/embeddings.go#L340) |
+| Input | field_declaration | retrievedTokens | [341](../../magpie/internal/gateway/embeddings.go#L341) |
+| Total | field_declaration | retrievedTokens | [342](../../magpie/internal/gateway/embeddings.go#L342) |
+| Meta | field_declaration | retrievedTokens | [344](../../magpie/internal/gateway/embeddings.go#L344) |
+| Billed | field_declaration | retrievedTokens | [345](../../magpie/internal/gateway/embeddings.go#L345) |
+| Input | field_declaration | retrievedTokens | [346](../../magpie/internal/gateway/embeddings.go#L346) |

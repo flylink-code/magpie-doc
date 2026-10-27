@@ -4,7 +4,7 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/fetch.go) · page 1/1
 
-Source SHA-256: 018e84325e11025a6a4d639cbaf38e6145eb53e632d9c6d916eef1b997e97885
+Source SHA-256: df9a19d93f4f99acd55642912d84dacaadd83587fb1b546efa74a3588bbac267
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

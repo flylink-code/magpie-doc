@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/masked.go) · page 1/1
 
-Source SHA-256: 758791dd6ab20f4b183679cb4d27d35d83ba43d20874cb1779edb669aa19a0ff
+Source SHA-256: 0b7d32174b9002c673fe94d9d18cd45263ec9b14e8aa084d59a95ee879fd6a4e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -22,10 +22,11 @@ Source SHA-256: 758791dd6ab20f4b183679cb4d27d35d83ba43d20874cb1779edb669aa19a0ff
 | key | field_declaration | maskHits | [35](../../magpie/internal/gateway/masked.go#L35) |
 | add | method_declaration | *maskHits | [38](../../magpie/internal/gateway/masked.go#L38) |
 | noteMasked | function_declaration |  | [48](../../magpie/internal/gateway/masked.go#L48) |
-| noteBlocked | function_declaration |  | [82](../../magpie/internal/gateway/masked.go#L82) |
-| valuesOf | function_declaration |  | [86](../../magpie/internal/gateway/masked.go#L86) |
-| snipRunes | const_spec |  | [95](../../magpie/internal/gateway/masked.go#L95) |
-| snipsOf | function_declaration |  | [100](../../magpie/internal/gateway/masked.go#L100) |
-| snipWith | function_declaration |  | [154](../../magpie/internal/gateway/masked.go#L154) |
-| quoteEscaped | function_declaration |  | [170](../../magpie/internal/gateway/masked.go#L170) |
-| unescapeSnip | function_declaration |  | [180](../../magpie/internal/gateway/masked.go#L180) |
+| noteMaskedUntil | function_declaration |  | [58](../../magpie/internal/gateway/masked.go#L58) |
+| noteBlocked | function_declaration |  | [92](../../magpie/internal/gateway/masked.go#L92) |
+| valuesOf | function_declaration |  | [96](../../magpie/internal/gateway/masked.go#L96) |
+| snipRunes | const_spec |  | [105](../../magpie/internal/gateway/masked.go#L105) |
+| snipsOf | function_declaration |  | [110](../../magpie/internal/gateway/masked.go#L110) |
+| snipWith | function_declaration |  | [164](../../magpie/internal/gateway/masked.go#L164) |
+| quoteEscaped | function_declaration |  | [180](../../magpie/internal/gateway/masked.go#L180) |
+| unescapeSnip | function_declaration |  | [190](../../magpie/internal/gateway/masked.go#L190) |

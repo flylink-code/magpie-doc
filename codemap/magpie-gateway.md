@@ -44,10 +44,11 @@
 | [magpie/internal/gateway/cline_pin.go](../../magpie/internal/gateway/cline_pin.go) | 2 | [1](magpie_internal_gateway_cline_pin.go-ca75aa8b-1.md) |
 | [magpie/internal/gateway/codeassist.go](../../magpie/internal/gateway/codeassist.go) | 66 | [1](magpie_internal_gateway_codeassist.go-b65e4097-1.md) |
 | [magpie/internal/gateway/codex_autoreset.go](../../magpie/internal/gateway/codex_autoreset.go) | 5 | [1](magpie_internal_gateway_codex_autoreset.go-e0d3bb34-1.md) |
-| [magpie/internal/gateway/codex_backend.go](../../magpie/internal/gateway/codex_backend.go) | 159 | [1](magpie_internal_gateway_codex_backend.go-d07f0aa4-1.md) [2](magpie_internal_gateway_codex_backend.go-d07f0aa4-2.md) |
+| [magpie/internal/gateway/codex_backend.go](../../magpie/internal/gateway/codex_backend.go) | 163 | [1](magpie_internal_gateway_codex_backend.go-d07f0aa4-1.md) [2](magpie_internal_gateway_codex_backend.go-d07f0aa4-2.md) |
 | [magpie/internal/gateway/codex_catalog.go](../../magpie/internal/gateway/codex_catalog.go) | 4 | [1](magpie_internal_gateway_codex_catalog.go-e0e5fce1-1.md) |
 | [magpie/internal/gateway/codex_compact_guard.go](../../magpie/internal/gateway/codex_compact_guard.go) | 18 | [1](magpie_internal_gateway_codex_compact_guard.go-0c763983-1.md) |
 | [magpie/internal/gateway/codex_dropped.go](../../magpie/internal/gateway/codex_dropped.go) | 8 | [1](magpie_internal_gateway_codex_dropped.go-3fedd0ad-1.md) |
+| [magpie/internal/gateway/codex_follow.go](../../magpie/internal/gateway/codex_follow.go) | 13 | [1](magpie_internal_gateway_codex_follow.go-7ea2583b-1.md) |
 | [magpie/internal/gateway/codex_images.go](../../magpie/internal/gateway/codex_images.go) | 53 | [1](magpie_internal_gateway_codex_images.go-36d6ad49-1.md) |
 | [magpie/internal/gateway/codex_limits.go](../../magpie/internal/gateway/codex_limits.go) | 21 | [1](magpie_internal_gateway_codex_limits.go-efba01e4-1.md) |
 | [magpie/internal/gateway/codex_memory.go](../../magpie/internal/gateway/codex_memory.go) | 6 | [1](magpie_internal_gateway_codex_memory.go-407f6e23-1.md) |
@@ -84,7 +85,7 @@
 | [magpie/internal/gateway/fastjson.go](../../magpie/internal/gateway/fastjson.go) | 86 | [1](magpie_internal_gateway_fastjson.go-aab2137d-1.md) |
 | [magpie/internal/gateway/format.go](../../magpie/internal/gateway/format.go) | 34 | [1](magpie_internal_gateway_format.go-d56bdd8a-1.md) |
 | [magpie/internal/gateway/format_fence.go](../../magpie/internal/gateway/format_fence.go) | 9 | [1](magpie_internal_gateway_format_fence.go-eb8506d6-1.md) |
-| [magpie/internal/gateway/gateway.go](../../magpie/internal/gateway/gateway.go) | 296 | [1](magpie_internal_gateway_gateway.go-064fa188-1.md) [2](magpie_internal_gateway_gateway.go-064fa188-2.md) [3](magpie_internal_gateway_gateway.go-064fa188-3.md) |
+| [magpie/internal/gateway/gateway.go](../../magpie/internal/gateway/gateway.go) | 298 | [1](magpie_internal_gateway_gateway.go-064fa188-1.md) [2](magpie_internal_gateway_gateway.go-064fa188-2.md) [3](magpie_internal_gateway_gateway.go-064fa188-3.md) |
 | [magpie/internal/gateway/gateway_hooks.go](../../magpie/internal/gateway/gateway_hooks.go) | 4 | [1](magpie_internal_gateway_gateway_hooks.go-44a7d254-1.md) |
 | [magpie/internal/gateway/gathered.go](../../magpie/internal/gateway/gathered.go) | 15 | [1](magpie_internal_gateway_gathered.go-6b4908aa-1.md) |
 | [magpie/internal/gateway/gemini.go](../../magpie/internal/gateway/gemini.go) | 85 | [1](magpie_internal_gateway_gemini.go-61769e35-1.md) |
@@ -109,4 +110,3 @@
 | [magpie/internal/gateway/itemids.go](../../magpie/internal/gateway/itemids.go) | 10 | [1](magpie_internal_gateway_itemids.go-217fc802-1.md) |
 | [magpie/internal/gateway/key_limit.go](../../magpie/internal/gateway/key_limit.go) | 6 | [1](magpie_internal_gateway_key_limit.go-3fcd9a5a-1.md) |
 | [magpie/internal/gateway/key_models.go](../../magpie/internal/gateway/key_models.go) | 29 | [1](magpie_internal_gateway_key_models.go-da338a8b-1.md) |
-| [magpie/internal/gateway/kimi_schema.go](../../magpie/internal/gateway/kimi_schema.go) | 20 | [1](magpie_internal_gateway_kimi_schema.go-10877c40-1.md) |

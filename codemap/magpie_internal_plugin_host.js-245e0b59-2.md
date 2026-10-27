@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.js) · page 2/8
 
-Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
+Source SHA-256: 06f5631b4e14299acab803d834598577569409f636fc0563002e092891fd334a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| head | BindingElement | ipBytes.[head, tail] | [379](../../magpie/internal/plugin/host.js#L379) |
-| tail | BindingElement | ipBytes.[head, tail] | [379](../../magpie/internal/plugin/host.js#L379) |
-| words | VariableDeclaration | ipBytes | [380](../../magpie/internal/plugin/host.js#L380) |
-| h | VariableDeclaration | ipBytes | [381](../../magpie/internal/plugin/host.js#L381) |
-| t | VariableDeclaration | ipBytes | [382](../../magpie/internal/plugin/host.js#L382) |
-| all | VariableDeclaration | ipBytes | [383](../../magpie/internal/plugin/host.js#L383) |
-| lanIP | FunctionDeclaration |  | [390](../../magpie/internal/plugin/host.js#L390) |
-| b | VariableDeclaration | lanIP | [391](../../magpie/internal/plugin/host.js#L391) |
-| [p, q] | VariableDeclaration | lanIP | [394](../../magpie/internal/plugin/host.js#L394) |
-| p | BindingElement | lanIP.[p, q] | [394](../../magpie/internal/plugin/host.js#L394) |
-| q | BindingElement | lanIP.[p, q] | [394](../../magpie/internal/plugin/host.js#L394) |
-| onLAN | FunctionDeclaration |  | [404](../../magpie/internal/plugin/host.js#L404) |
-| seen | VariableDeclaration | onLAN | [409](../../magpie/internal/plugin/host.js#L409) |
-| timer | VariableDeclaration | onLAN | [411](../../magpie/internal/plugin/host.js#L411) |
-| lan | VariableDeclaration | onLAN | [412](../../magpie/internal/plugin/host.js#L412) |
-| proxyOf | FunctionDeclaration |  | [427](../../magpie/internal/plugin/host.js#L427) |
-| u | VariableDeclaration | proxyOf | [428](../../magpie/internal/plugin/host.js#L428) |
-| own | VariableDeclaration | proxyOf | [430](../../magpie/internal/plugin/host.js#L430) |
-| p | VariableDeclaration | proxyOf | [434](../../magpie/internal/plugin/host.js#L434) |
-| proxyFor | FunctionDeclaration |  | [439](../../magpie/internal/plugin/host.js#L439) |
-| { p, global, host } | VariableDeclaration | proxyFor | [440](../../magpie/internal/plugin/host.js#L440) |
-| p | BindingElement | proxyFor.{ p, global, host } | [440](../../magpie/internal/plugin/host.js#L440) |
-| global | BindingElement | proxyFor.{ p, global, host } | [440](../../magpie/internal/plugin/host.js#L440) |
-| host | BindingElement | proxyFor.{ p, global, host } | [440](../../magpie/internal/plugin/host.js#L440) |
-| reach | VariableDeclaration |  | [446](../../magpie/internal/plugin/host.js#L446) |
-| sent | FunctionDeclaration |  | [448](../../magpie/internal/plugin/host.js#L448) |
-| p | VariableDeclaration | sent | [450](../../magpie/internal/plugin/host.js#L450) |
-| why | VariableDeclaration | sent | [454](../../magpie/internal/plugin/host.js#L454) |
-| proxyRefuses | FunctionDeclaration |  | [466](../../magpie/internal/plugin/host.js#L466) |
-| pu | VariableDeclaration | proxyRefuses | [467](../../magpie/internal/plugin/host.js#L467) |
-| target | VariableDeclaration | proxyRefuses | [467](../../magpie/internal/plugin/host.js#L467) |
-| u | VariableDeclaration | proxyRefuses | [470](../../magpie/internal/plugin/host.js#L470) |
-| host | VariableDeclaration | proxyRefuses | [475](../../magpie/internal/plugin/host.js#L475) |
-| port | VariableDeclaration | proxyRefuses | [476](../../magpie/internal/plugin/host.js#L476) |
-| got | VariableDeclaration | proxyRefuses | [478](../../magpie/internal/plugin/host.js#L478) |
-| refused | VariableDeclaration | proxyRefuses | [479](../../magpie/internal/plugin/host.js#L479) |
-| done | VariableDeclaration | proxyRefuses | [480](../../magpie/internal/plugin/host.js#L480) |
-| opts | VariableDeclaration | proxyRefuses | [484](../../magpie/internal/plugin/host.js#L484) |
-| sock | VariableDeclaration | proxyRefuses | [485](../../magpie/internal/plugin/host.js#L485) |
-| req | VariableDeclaration | proxyRefuses | [489](../../magpie/internal/plugin/host.js#L489) |
-| cred | VariableDeclaration | proxyRefuses | [491](../../magpie/internal/plugin/host.js#L491) |
-| end | VariableDeclaration | proxyRefuses | [498](../../magpie/internal/plugin/host.js#L498) |
-| status | VariableDeclaration | proxyRefuses | [500](../../magpie/internal/plugin/host.js#L500) |
-| body | VariableDeclaration | proxyRefuses | [504](../../magpie/internal/plugin/host.js#L504) |
-| listing | VariableDeclaration |  | [515](../../magpie/internal/plugin/host.js#L515) |
-| asked | FunctionDeclaration |  | [517](../../magpie/internal/plugin/host.js#L517) |
-| l | VariableDeclaration | asked | [518](../../magpie/internal/plugin/host.js#L518) |
-| MAGPIE_ONLY | VariableDeclaration |  | [535](../../magpie/internal/plugin/host.js#L535) |
-| unsaid | FunctionDeclaration |  | [537](../../magpie/internal/plugin/host.js#L537) |
-| h | VariableDeclaration | unsaid | [539](../../magpie/internal/plugin/host.js#L539) |
-| k | VariableDeclaration | unsaid | [540](../../magpie/internal/plugin/host.js#L540) |
-| h | VariableDeclaration | unsaid | [544](../../magpie/internal/plugin/host.js#L544) |
-| k | VariableDeclaration | unsaid | [546](../../magpie/internal/plugin/host.js#L546) |
-| fetch | FunctionExpression |  | [553](../../magpie/internal/plugin/host.js#L553) |
-| r | VariableDeclaration | fetch | [555](../../magpie/internal/plugin/host.js#L555) |
-| h2connect | VariableDeclaration |  | [572](../../magpie/internal/plugin/host.js#L572) |
-| connect | FunctionExpression |  | [573](../../magpie/internal/plugin/host.js#L573) |
-| u | VariableDeclaration | connect | [575](../../magpie/internal/plugin/host.js#L575) |
-| { p, global } | VariableDeclaration | connect | [581](../../magpie/internal/plugin/host.js#L581) |
-| p | BindingElement | connect.{ p, global } | [581](../../magpie/internal/plugin/host.js#L581) |
-| global | BindingElement | connect.{ p, global } | [581](../../magpie/internal/plugin/host.js#L581) |
-| host | VariableDeclaration | connect | [583](../../magpie/internal/plugin/host.js#L583) |
-| port | VariableDeclaration | connect | [584](../../magpie/internal/plugin/host.js#L584) |
-| raw | VariableDeclaration | connect | [587](../../magpie/internal/plugin/host.js#L587) |
-| createConnection | VariableDeclaration | connect | [588](../../magpie/internal/plugin/host.js#L588) |
-| session | VariableDeclaration | connect | [590](../../magpie/internal/plugin/host.js#L590) |
-| tunnel | FunctionDeclaration |  | [604](../../magpie/internal/plugin/host.js#L604) |
-| target | VariableDeclaration | tunnel | [605](../../magpie/internal/plugin/host.js#L605) |
-| ready | VariableDeclaration | tunnel | [606](../../magpie/internal/plugin/host.js#L606) |
-| sock | VariableDeclaration | tunnel | [607](../../magpie/internal/plugin/host.js#L607) |
-| ended | VariableDeclaration | tunnel | [608](../../magpie/internal/plugin/host.js#L608) |
-| gone | VariableDeclaration | tunnel | [609](../../magpie/internal/plugin/host.js#L609) |
-| queued | VariableDeclaration | tunnel | [610](../../magpie/internal/plugin/host.js#L610) |
-| conn | VariableDeclaration | tunnel | [611](../../magpie/internal/plugin/host.js#L611) |
-| read | MethodDeclaration | tunnel.conn | [612](../../magpie/internal/plugin/host.js#L612) |
-| write | MethodDeclaration | tunnel.conn | [613](../../magpie/internal/plugin/host.js#L613) |
-| final | MethodDeclaration | tunnel.conn | [617](../../magpie/internal/plugin/host.js#L617) |
-| destroy | MethodDeclaration | tunnel.conn | [622](../../magpie/internal/plugin/host.js#L622) |
-| open | VariableDeclaration | tunnel | [628](../../magpie/internal/plugin/host.js#L628) |
-| [c, cb] | VariableDeclaration | tunnel.open | [631](../../magpie/internal/plugin/host.js#L631) |
-| c | BindingElement | tunnel.open.[c, cb] | [631](../../magpie/internal/plugin/host.js#L631) |
-| cb | BindingElement | tunnel.open.[c, cb] | [631](../../magpie/internal/plugin/host.js#L631) |
-| pu | VariableDeclaration | tunnel | [643](../../magpie/internal/plugin/host.js#L643) |
-| ph | VariableDeclaration | tunnel | [644](../../magpie/internal/plugin/host.js#L644) |
-| pp | VariableDeclaration | tunnel | [645](../../magpie/internal/plugin/host.js#L645) |
-| req | VariableDeclaration | tunnel | [648](../../magpie/internal/plugin/host.js#L648) |
-| cred | VariableDeclaration | tunnel | [650](../../magpie/internal/plugin/host.js#L650) |
-| got | VariableDeclaration | tunnel | [655](../../magpie/internal/plugin/host.js#L655) |
-| head | VariableDeclaration | tunnel | [656](../../magpie/internal/plugin/host.js#L656) |
-| end | VariableDeclaration | tunnel.head | [658](../../magpie/internal/plugin/host.js#L658) |
-| status | VariableDeclaration | tunnel.head | [664](../../magpie/internal/plugin/host.js#L664) |
-| body | VariableDeclaration | tunnel.head | [666](../../magpie/internal/plugin/host.js#L666) |
-| parseAuth | FunctionDeclaration |  | [689](../../magpie/internal/plugin/host.js#L689) |
-| v | VariableDeclaration | parseAuth | [691](../../magpie/internal/plugin/host.js#L691) |
-| readFileSteady | FunctionDeclaration |  | [698](../../magpie/internal/plugin/host.js#L698) |
-| i | VariableDeclaration | readFileSteady | [699](../../magpie/internal/plugin/host.js#L699) |
-| e | VariableDeclaration | readFileSteady | [702](../../magpie/internal/plugin/host.js#L702) |
-| describeBad | FunctionDeclaration |  | [713](../../magpie/internal/plugin/host.js#L713) |
-| authRecovered | VariableDeclaration |  | [719](../../magpie/internal/plugin/host.js#L719) |
-| authUnread | VariableDeclaration |  | [720](../../magpie/internal/plugin/host.js#L720) |
+| [a, b, c, d] | VariableDeclaration | ipBytes | [398](../../magpie/internal/plugin/host.js#L398) |
+| a | BindingElement | ipBytes.[a, b, c, d] | [398](../../magpie/internal/plugin/host.js#L398) |
+| b | BindingElement | ipBytes.[a, b, c, d] | [398](../../magpie/internal/plugin/host.js#L398) |
+| c | BindingElement | ipBytes.[a, b, c, d] | [398](../../magpie/internal/plugin/host.js#L398) |
+| d | BindingElement | ipBytes.[a, b, c, d] | [398](../../magpie/internal/plugin/host.js#L398) |
+| [head, tail] | VariableDeclaration | ipBytes | [401](../../magpie/internal/plugin/host.js#L401) |
+| head | BindingElement | ipBytes.[head, tail] | [401](../../magpie/internal/plugin/host.js#L401) |
+| tail | BindingElement | ipBytes.[head, tail] | [401](../../magpie/internal/plugin/host.js#L401) |
+| words | VariableDeclaration | ipBytes | [402](../../magpie/internal/plugin/host.js#L402) |
+| h | VariableDeclaration | ipBytes | [403](../../magpie/internal/plugin/host.js#L403) |
+| t | VariableDeclaration | ipBytes | [404](../../magpie/internal/plugin/host.js#L404) |
+| all | VariableDeclaration | ipBytes | [405](../../magpie/internal/plugin/host.js#L405) |
+| lanIP | FunctionDeclaration |  | [412](../../magpie/internal/plugin/host.js#L412) |
+| b | VariableDeclaration | lanIP | [413](../../magpie/internal/plugin/host.js#L413) |
+| [p, q] | VariableDeclaration | lanIP | [416](../../magpie/internal/plugin/host.js#L416) |
+| p | BindingElement | lanIP.[p, q] | [416](../../magpie/internal/plugin/host.js#L416) |
+| q | BindingElement | lanIP.[p, q] | [416](../../magpie/internal/plugin/host.js#L416) |
+| onLAN | FunctionDeclaration |  | [426](../../magpie/internal/plugin/host.js#L426) |
+| seen | VariableDeclaration | onLAN | [431](../../magpie/internal/plugin/host.js#L431) |
+| timer | VariableDeclaration | onLAN | [433](../../magpie/internal/plugin/host.js#L433) |
+| lan | VariableDeclaration | onLAN | [434](../../magpie/internal/plugin/host.js#L434) |
+| proxyOf | FunctionDeclaration |  | [449](../../magpie/internal/plugin/host.js#L449) |
+| u | VariableDeclaration | proxyOf | [450](../../magpie/internal/plugin/host.js#L450) |
+| own | VariableDeclaration | proxyOf | [452](../../magpie/internal/plugin/host.js#L452) |
+| p | VariableDeclaration | proxyOf | [456](../../magpie/internal/plugin/host.js#L456) |
+| proxyFor | FunctionDeclaration |  | [461](../../magpie/internal/plugin/host.js#L461) |
+| { p, global, host } | VariableDeclaration | proxyFor | [462](../../magpie/internal/plugin/host.js#L462) |
+| p | BindingElement | proxyFor.{ p, global, host } | [462](../../magpie/internal/plugin/host.js#L462) |
+| global | BindingElement | proxyFor.{ p, global, host } | [462](../../magpie/internal/plugin/host.js#L462) |
+| host | BindingElement | proxyFor.{ p, global, host } | [462](../../magpie/internal/plugin/host.js#L462) |
+| reach | VariableDeclaration |  | [468](../../magpie/internal/plugin/host.js#L468) |
+| sent | FunctionDeclaration |  | [470](../../magpie/internal/plugin/host.js#L470) |
+| p | VariableDeclaration | sent | [472](../../magpie/internal/plugin/host.js#L472) |
+| why | VariableDeclaration | sent | [476](../../magpie/internal/plugin/host.js#L476) |
+| proxyRefuses | FunctionDeclaration |  | [488](../../magpie/internal/plugin/host.js#L488) |
+| pu | VariableDeclaration | proxyRefuses | [489](../../magpie/internal/plugin/host.js#L489) |
+| target | VariableDeclaration | proxyRefuses | [489](../../magpie/internal/plugin/host.js#L489) |
+| u | VariableDeclaration | proxyRefuses | [492](../../magpie/internal/plugin/host.js#L492) |
+| host | VariableDeclaration | proxyRefuses | [497](../../magpie/internal/plugin/host.js#L497) |
+| port | VariableDeclaration | proxyRefuses | [498](../../magpie/internal/plugin/host.js#L498) |
+| got | VariableDeclaration | proxyRefuses | [500](../../magpie/internal/plugin/host.js#L500) |
+| refused | VariableDeclaration | proxyRefuses | [501](../../magpie/internal/plugin/host.js#L501) |
+| done | VariableDeclaration | proxyRefuses | [502](../../magpie/internal/plugin/host.js#L502) |
+| opts | VariableDeclaration | proxyRefuses | [506](../../magpie/internal/plugin/host.js#L506) |
+| sock | VariableDeclaration | proxyRefuses | [507](../../magpie/internal/plugin/host.js#L507) |
+| req | VariableDeclaration | proxyRefuses | [511](../../magpie/internal/plugin/host.js#L511) |
+| cred | VariableDeclaration | proxyRefuses | [513](../../magpie/internal/plugin/host.js#L513) |
+| end | VariableDeclaration | proxyRefuses | [520](../../magpie/internal/plugin/host.js#L520) |
+| status | VariableDeclaration | proxyRefuses | [522](../../magpie/internal/plugin/host.js#L522) |
+| body | VariableDeclaration | proxyRefuses | [526](../../magpie/internal/plugin/host.js#L526) |
+| listing | VariableDeclaration |  | [537](../../magpie/internal/plugin/host.js#L537) |
+| asked | FunctionDeclaration |  | [539](../../magpie/internal/plugin/host.js#L539) |
+| l | VariableDeclaration | asked | [540](../../magpie/internal/plugin/host.js#L540) |
+| MAGPIE_ONLY | VariableDeclaration |  | [557](../../magpie/internal/plugin/host.js#L557) |
+| unsaid | FunctionDeclaration |  | [559](../../magpie/internal/plugin/host.js#L559) |
+| h | VariableDeclaration | unsaid | [561](../../magpie/internal/plugin/host.js#L561) |
+| k | VariableDeclaration | unsaid | [562](../../magpie/internal/plugin/host.js#L562) |
+| h | VariableDeclaration | unsaid | [566](../../magpie/internal/plugin/host.js#L566) |
+| k | VariableDeclaration | unsaid | [568](../../magpie/internal/plugin/host.js#L568) |
+| fetch | FunctionExpression |  | [575](../../magpie/internal/plugin/host.js#L575) |
+| r | VariableDeclaration | fetch | [577](../../magpie/internal/plugin/host.js#L577) |
+| h2connect | VariableDeclaration |  | [594](../../magpie/internal/plugin/host.js#L594) |
+| connect | FunctionExpression |  | [595](../../magpie/internal/plugin/host.js#L595) |
+| u | VariableDeclaration | connect | [597](../../magpie/internal/plugin/host.js#L597) |
+| { p, global } | VariableDeclaration | connect | [603](../../magpie/internal/plugin/host.js#L603) |
+| p | BindingElement | connect.{ p, global } | [603](../../magpie/internal/plugin/host.js#L603) |
+| global | BindingElement | connect.{ p, global } | [603](../../magpie/internal/plugin/host.js#L603) |
+| host | VariableDeclaration | connect | [605](../../magpie/internal/plugin/host.js#L605) |
+| port | VariableDeclaration | connect | [606](../../magpie/internal/plugin/host.js#L606) |
+| raw | VariableDeclaration | connect | [609](../../magpie/internal/plugin/host.js#L609) |
+| createConnection | VariableDeclaration | connect | [610](../../magpie/internal/plugin/host.js#L610) |
+| session | VariableDeclaration | connect | [612](../../magpie/internal/plugin/host.js#L612) |
+| tunnel | FunctionDeclaration |  | [626](../../magpie/internal/plugin/host.js#L626) |
+| target | VariableDeclaration | tunnel | [627](../../magpie/internal/plugin/host.js#L627) |
+| ready | VariableDeclaration | tunnel | [628](../../magpie/internal/plugin/host.js#L628) |
+| sock | VariableDeclaration | tunnel | [629](../../magpie/internal/plugin/host.js#L629) |
+| ended | VariableDeclaration | tunnel | [630](../../magpie/internal/plugin/host.js#L630) |
+| gone | VariableDeclaration | tunnel | [631](../../magpie/internal/plugin/host.js#L631) |
+| queued | VariableDeclaration | tunnel | [632](../../magpie/internal/plugin/host.js#L632) |
+| conn | VariableDeclaration | tunnel | [633](../../magpie/internal/plugin/host.js#L633) |
+| read | MethodDeclaration | tunnel.conn | [634](../../magpie/internal/plugin/host.js#L634) |
+| write | MethodDeclaration | tunnel.conn | [635](../../magpie/internal/plugin/host.js#L635) |
+| final | MethodDeclaration | tunnel.conn | [639](../../magpie/internal/plugin/host.js#L639) |
+| destroy | MethodDeclaration | tunnel.conn | [644](../../magpie/internal/plugin/host.js#L644) |
+| open | VariableDeclaration | tunnel | [650](../../magpie/internal/plugin/host.js#L650) |
+| [c, cb] | VariableDeclaration | tunnel.open | [653](../../magpie/internal/plugin/host.js#L653) |
+| c | BindingElement | tunnel.open.[c, cb] | [653](../../magpie/internal/plugin/host.js#L653) |
+| cb | BindingElement | tunnel.open.[c, cb] | [653](../../magpie/internal/plugin/host.js#L653) |
+| pu | VariableDeclaration | tunnel | [665](../../magpie/internal/plugin/host.js#L665) |
+| ph | VariableDeclaration | tunnel | [666](../../magpie/internal/plugin/host.js#L666) |
+| pp | VariableDeclaration | tunnel | [667](../../magpie/internal/plugin/host.js#L667) |
+| req | VariableDeclaration | tunnel | [670](../../magpie/internal/plugin/host.js#L670) |
+| cred | VariableDeclaration | tunnel | [672](../../magpie/internal/plugin/host.js#L672) |
+| got | VariableDeclaration | tunnel | [677](../../magpie/internal/plugin/host.js#L677) |
+| head | VariableDeclaration | tunnel | [678](../../magpie/internal/plugin/host.js#L678) |
+| end | VariableDeclaration | tunnel.head | [680](../../magpie/internal/plugin/host.js#L680) |
+| status | VariableDeclaration | tunnel.head | [686](../../magpie/internal/plugin/host.js#L686) |
+| body | VariableDeclaration | tunnel.head | [688](../../magpie/internal/plugin/host.js#L688) |
+| parseAuth | FunctionDeclaration |  | [711](../../magpie/internal/plugin/host.js#L711) |
+| v | VariableDeclaration | parseAuth | [713](../../magpie/internal/plugin/host.js#L713) |

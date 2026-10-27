@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/fallback.go) · page 2/4
 
-Source SHA-256: e6e941931f9da3ed83fcf8a5308c2d8aaf818e603990021a1d4d8a23dd95d7f1
+Source SHA-256: cebfc75f1a42c6e4ce738fdc021b5cccd3297e3098495534c0ffcb47ccc235b9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.js) · page 4/8
 
-Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
+Source SHA-256: 06f5631b4e14299acab803d834598577569409f636fc0563002e092891fd334a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| add | VariableDeclaration | entries | [1146](../../magpie/internal/plugin/host.js#L1146) |
-| pick | VariableDeclaration | entries | [1147](../../magpie/internal/plugin/host.js#L1147) |
-| pkg | VariableDeclaration | entries | [1148](../../magpie/internal/plugin/host.js#L1148) |
-| ex | VariableDeclaration | entries | [1150](../../magpie/internal/plugin/host.js#L1150) |
-| f | VariableDeclaration | entries | [1156](../../magpie/internal/plugin/host.js#L1156) |
-| p | VariableDeclaration | entries | [1157](../../magpie/internal/plugin/host.js#L1157) |
-| cmd | VariableDeclaration | entries | [1162](../../magpie/internal/plugin/host.js#L1162) |
-| servers | FunctionDeclaration |  | [1172](../../magpie/internal/plugin/host.js#L1172) |
-| d | VariableDeclaration | servers | [1173](../../magpie/internal/plugin/host.js#L1173) |
-| seen | VariableDeclaration | servers | [1177](../../magpie/internal/plugin/host.js#L1177) |
-| out | VariableDeclaration | servers | [1178](../../magpie/internal/plugin/host.js#L1178) |
-| v | VariableDeclaration | servers | [1179](../../magpie/internal/plugin/host.js#L1179) |
-| loadPlugins | FunctionDeclaration |  | [1188](../../magpie/internal/plugin/host.js#L1188) |
-| input | VariableDeclaration | loadPlugins | [1189](../../magpie/internal/plugin/host.js#L1189) |
-| register | MethodDeclaration | loadPlugins.input | [1194](../../magpie/internal/plugin/host.js#L1194) |
-| pi | VariableDeclaration | loadPlugins | [1203](../../magpie/internal/plugin/host.js#L1203) |
-| e | VariableDeclaration | loadPlugins | [1207](../../magpie/internal/plugin/host.js#L1207) |
-| pis | VariableDeclaration | loadPlugins | [1211](../../magpie/internal/plugin/host.js#L1211) |
-| h | VariableDeclaration | loadPlugins | [1213](../../magpie/internal/plugin/host.js#L1213) |
-| got | VariableDeclaration | loadPlugins | [1214](../../magpie/internal/plugin/host.js#L1214) |
-| r | VariableDeclaration | loadPlugins | [1215](../../magpie/internal/plugin/host.js#L1215) |
-| x | VariableDeclaration | loadPlugins | [1216](../../magpie/internal/plugin/host.js#L1216) |
-| p | VariableDeclaration | loadPlugins | [1220](../../magpie/internal/plugin/host.js#L1220) |
-| isPi | VariableDeclaration | loadPlugins | [1221](../../magpie/internal/plugin/host.js#L1221) |
-| gateway | VariableDeclaration | loadPlugins | [1224](../../magpie/internal/plugin/host.js#L1224) |
-| fns | VariableDeclaration | loadPlugins | [1229](../../magpie/internal/plugin/host.js#L1229) |
-| pkg | VariableDeclaration | loadPlugins | [1232](../../magpie/internal/plugin/host.js#L1232) |
-| onlyGateway | VariableDeclaration | loadPlugins | [1233](../../magpie/internal/plugin/host.js#L1233) |
-| file | VariableDeclaration | loadPlugins | [1234](../../magpie/internal/plugin/host.js#L1234) |
-| fn | VariableDeclaration | loadPlugins | [1239](../../magpie/internal/plugin/host.js#L1239) |
-| e | VariableDeclaration | loadPlugins | [1244](../../magpie/internal/plugin/host.js#L1244) |
-| error | VariableDeclaration | loadPlugins | [1245](../../magpie/internal/plugin/host.js#L1245) |
-| h | VariableDeclaration | loadPlugins | [1251](../../magpie/internal/plugin/host.js#L1251) |
-| e | VariableDeclaration | loadPlugins | [1255](../../magpie/internal/plugin/host.js#L1255) |
-| bounded | FunctionDeclaration |  | [1263](../../magpie/internal/plugin/host.js#L1263) |
-| finish | VariableDeclaration | bounded | [1265](../../magpie/internal/plugin/host.js#L1265) |
-| abort | VariableDeclaration | bounded | [1266](../../magpie/internal/plugin/host.js#L1266) |
-| gatewayRuns | VariableDeclaration |  | [1276](../../magpie/internal/plugin/host.js#L1276) |
-| GATEWAY_RUN_LIMIT | VariableDeclaration |  | [1277](../../magpie/internal/plugin/host.js#L1277) |
-| GATEWAY_RUN_TTL | VariableDeclaration |  | [1278](../../magpie/internal/plugin/host.js#L1278) |
-| gatewayTimeout | VariableDeclaration |  | [1279](../../magpie/internal/plugin/host.js#L1279) |
-| gatewayBudget | VariableDeclaration |  | [1280](../../magpie/internal/plugin/host.js#L1280) |
-| closeGateway | FunctionDeclaration |  | [1282](../../magpie/internal/plugin/host.js#L1282) |
-| gatewayBegin | FunctionDeclaration |  | [1291](../../magpie/internal/plugin/host.js#L1291) |
-| run | VariableDeclaration | gatewayBegin | [1293](../../magpie/internal/plugin/host.js#L1293) |
-| body | VariableDeclaration | gatewayBegin | [1297](../../magpie/internal/plugin/host.js#L1297) |
-| total | VariableDeclaration | gatewayBegin | [1299](../../magpie/internal/plugin/host.js#L1299) |
-| h | VariableDeclaration | gatewayBegin | [1300](../../magpie/internal/plugin/host.js#L1300) |
-| ctl | VariableDeclaration | gatewayBegin | [1302](../../magpie/internal/plugin/host.js#L1302) |
-| timer | VariableDeclaration | gatewayBegin | [1303](../../magpie/internal/plugin/host.js#L1303) |
-| ownSignal | VariableDeclaration | gatewayBegin | [1304](../../magpie/internal/plugin/host.js#L1304) |
-| started | VariableDeclaration | gatewayBegin | [1305](../../magpie/internal/plugin/host.js#L1305) |
-| outcome | VariableDeclaration | gatewayBegin | [1306](../../magpie/internal/plugin/host.js#L1306) |
-| bytes | VariableDeclaration | gatewayBegin | [1306](../../magpie/internal/plugin/host.js#L1306) |
-| report | VariableDeclaration | gatewayBegin | [1310](../../magpie/internal/plugin/host.js#L1310) |
-| ctx | VariableDeclaration | gatewayBegin | [1315](../../magpie/internal/plugin/host.js#L1315) |
-| result | VariableDeclaration | gatewayBegin | [1316](../../magpie/internal/plugin/host.js#L1316) |
-| next | VariableDeclaration | gatewayBegin | [1317](../../magpie/internal/plugin/host.js#L1317) |
-| key | VariableDeclaration | gatewayBegin | [1328](../../magpie/internal/plugin/host.js#L1328) |
-| gatewayFinish | FunctionDeclaration |  | [1357](../../magpie/internal/plugin/host.js#L1357) |
-| total | VariableDeclaration | gatewayFinish | [1360](../../magpie/internal/plugin/host.js#L1360) |
-| { h, ctx } | VariableDeclaration | gatewayFinish | [1362](../../magpie/internal/plugin/host.js#L1362) |
-| h | BindingElement | gatewayFinish.{ h, ctx } | [1362](../../magpie/internal/plugin/host.js#L1362) |
-| ctx | BindingElement | gatewayFinish.{ h, ctx } | [1362](../../magpie/internal/plugin/host.js#L1362) |
-| ctl | VariableDeclaration | gatewayFinish | [1365](../../magpie/internal/plugin/host.js#L1365) |
-| timer | VariableDeclaration | gatewayFinish | [1366](../../magpie/internal/plugin/host.js#L1366) |
-| gatewayRequest | FunctionDeclaration |  | [1385](../../magpie/internal/plugin/host.js#L1385) |
-| run | VariableDeclaration | gatewayRequest | [1387](../../magpie/internal/plugin/host.js#L1387) |
-| auths | FunctionDeclaration |  | [1398](../../magpie/internal/plugin/host.js#L1398) |
-| m | VariableDeclaration | auths | [1399](../../magpie/internal/plugin/host.js#L1399) |
-| h | VariableDeclaration | auths | [1400](../../magpie/internal/plugin/host.js#L1400) |
-| h | VariableDeclaration | auths | [1401](../../magpie/internal/plugin/host.js#L1401) |
-| id | VariableDeclaration | auths | [1402](../../magpie/internal/plugin/host.js#L1402) |
-| signsIn | VariableDeclaration |  | [1409](../../magpie/internal/plugin/host.js#L1409) |
-| withProviders | FunctionDeclaration |  | [1416](../../magpie/internal/plugin/host.js#L1416) |
-| tools | VariableDeclaration | withProviders | [1417](../../magpie/internal/plugin/host.js#L1417) |
-| ids | VariableDeclaration | withProviders | [1419](../../magpie/internal/plugin/host.js#L1419) |
-| a | VariableDeclaration | withProviders | [1421](../../magpie/internal/plugin/host.js#L1421) |
-| servedBy | VariableDeclaration | withProviders | [1422](../../magpie/internal/plugin/host.js#L1422) |
-| TOOL_NAME | VariableDeclaration |  | [1434](../../magpie/internal/plugin/host.js#L1434) |
-| toolsOf | FunctionDeclaration |  | [1438](../../magpie/internal/plugin/host.js#L1438) |
-| m | VariableDeclaration | toolsOf | [1439](../../magpie/internal/plugin/host.js#L1439) |
-| h | VariableDeclaration | toolsOf | [1440](../../magpie/internal/plugin/host.js#L1440) |
-| t | VariableDeclaration | toolsOf | [1442](../../magpie/internal/plugin/host.js#L1442) |
-| [name, def] | VariableDeclaration | toolsOf | [1444](../../magpie/internal/plugin/host.js#L1444) |
-| name | BindingElement | toolsOf.[name, def] | [1444](../../magpie/internal/plugin/host.js#L1444) |
-| def | BindingElement | toolsOf.[name, def] | [1444](../../magpie/internal/plugin/host.js#L1444) |
-| jsonSchema | FunctionDeclaration |  | [1453](../../magpie/internal/plugin/host.js#L1453) |
-| desc | VariableDeclaration | jsonSchema | [1455](../../magpie/internal/plugin/host.js#L1455) |
-| d | VariableDeclaration | jsonSchema.desc | [1456](../../magpie/internal/plugin/host.js#L1456) |
-| v4 | VariableDeclaration | jsonSchema | [1460](../../magpie/internal/plugin/host.js#L1460) |
-| v3 | VariableDeclaration | jsonSchema | [1461](../../magpie/internal/plugin/host.js#L1461) |
-| d | VariableDeclaration | jsonSchema | [1463](../../magpie/internal/plugin/host.js#L1463) |
-| kind | VariableDeclaration | jsonSchema | [1464](../../magpie/internal/plugin/host.js#L1464) |
-| inner | VariableDeclaration | jsonSchema | [1465](../../magpie/internal/plugin/host.js#L1465) |
-| vals | VariableDeclaration | jsonSchema | [1474](../../magpie/internal/plugin/host.js#L1474) |
-| o | VariableDeclaration | jsonSchema | [1480](../../magpie/internal/plugin/host.js#L1480) |
-| optionalIn | FunctionDeclaration |  | [1491](../../magpie/internal/plugin/host.js#L1491) |
-| t | VariableDeclaration | optionalIn | [1492](../../magpie/internal/plugin/host.js#L1492) |
-| objectSchema | FunctionDeclaration |  | [1497](../../magpie/internal/plugin/host.js#L1497) |
+| v | VariableDeclaration | makeClient.wrap.get | [1136](../../magpie/internal/plugin/host.js#L1136) |
+| INDEX_FILES | VariableDeclaration |  | [1148](../../magpie/internal/plugin/host.js#L1148) |
+| readJSON | FunctionDeclaration |  | [1150](../../magpie/internal/plugin/host.js#L1150) |
+| entries | FunctionDeclaration |  | [1163](../../magpie/internal/plugin/host.js#L1163) |
+| stat | VariableDeclaration | entries | [1164](../../magpie/internal/plugin/host.js#L1164) |
+| out | VariableDeclaration | entries | [1167](../../magpie/internal/plugin/host.js#L1167) |
+| add | VariableDeclaration | entries | [1168](../../magpie/internal/plugin/host.js#L1168) |
+| pick | VariableDeclaration | entries | [1169](../../magpie/internal/plugin/host.js#L1169) |
+| pkg | VariableDeclaration | entries | [1170](../../magpie/internal/plugin/host.js#L1170) |
+| ex | VariableDeclaration | entries | [1172](../../magpie/internal/plugin/host.js#L1172) |
+| f | VariableDeclaration | entries | [1178](../../magpie/internal/plugin/host.js#L1178) |
+| p | VariableDeclaration | entries | [1179](../../magpie/internal/plugin/host.js#L1179) |
+| cmd | VariableDeclaration | entries | [1184](../../magpie/internal/plugin/host.js#L1184) |
+| servers | FunctionDeclaration |  | [1194](../../magpie/internal/plugin/host.js#L1194) |
+| d | VariableDeclaration | servers | [1195](../../magpie/internal/plugin/host.js#L1195) |
+| seen | VariableDeclaration | servers | [1199](../../magpie/internal/plugin/host.js#L1199) |
+| out | VariableDeclaration | servers | [1200](../../magpie/internal/plugin/host.js#L1200) |
+| v | VariableDeclaration | servers | [1201](../../magpie/internal/plugin/host.js#L1201) |
+| loadPlugins | FunctionDeclaration |  | [1210](../../magpie/internal/plugin/host.js#L1210) |
+| input | VariableDeclaration | loadPlugins | [1211](../../magpie/internal/plugin/host.js#L1211) |
+| register | MethodDeclaration | loadPlugins.input | [1216](../../magpie/internal/plugin/host.js#L1216) |
+| pi | VariableDeclaration | loadPlugins | [1225](../../magpie/internal/plugin/host.js#L1225) |
+| e | VariableDeclaration | loadPlugins | [1229](../../magpie/internal/plugin/host.js#L1229) |
+| pis | VariableDeclaration | loadPlugins | [1233](../../magpie/internal/plugin/host.js#L1233) |
+| h | VariableDeclaration | loadPlugins | [1235](../../magpie/internal/plugin/host.js#L1235) |
+| got | VariableDeclaration | loadPlugins | [1236](../../magpie/internal/plugin/host.js#L1236) |
+| r | VariableDeclaration | loadPlugins | [1237](../../magpie/internal/plugin/host.js#L1237) |
+| x | VariableDeclaration | loadPlugins | [1238](../../magpie/internal/plugin/host.js#L1238) |
+| one | VariableDeclaration | loadPlugins | [1245](../../magpie/internal/plugin/host.js#L1245) |
+| gateway | VariableDeclaration | loadPlugins.one | [1246](../../magpie/internal/plugin/host.js#L1246) |
+| fns | VariableDeclaration | loadPlugins.one | [1251](../../magpie/internal/plugin/host.js#L1251) |
+| pkg | VariableDeclaration | loadPlugins.one | [1254](../../magpie/internal/plugin/host.js#L1254) |
+| onlyGateway | VariableDeclaration | loadPlugins.one | [1255](../../magpie/internal/plugin/host.js#L1255) |
+| file | VariableDeclaration | loadPlugins.one | [1256](../../magpie/internal/plugin/host.js#L1256) |
+| got | VariableDeclaration | loadPlugins.one | [1261](../../magpie/internal/plugin/host.js#L1261) |
+| fn | VariableDeclaration | loadPlugins.one | [1262](../../magpie/internal/plugin/host.js#L1262) |
+| results | VariableDeclaration | loadPlugins | [1265](../../magpie/internal/plugin/host.js#L1265) |
+| isPi | VariableDeclaration | loadPlugins.results | [1266](../../magpie/internal/plugin/host.js#L1266) |
+| r | VariableDeclaration | loadPlugins | [1270](../../magpie/internal/plugin/host.js#L1270) |
+| { p, isPi } | VariableDeclaration | loadPlugins | [1272](../../magpie/internal/plugin/host.js#L1272) |
+| p | BindingElement | loadPlugins.{ p, isPi } | [1272](../../magpie/internal/plugin/host.js#L1272) |
+| isPi | BindingElement | loadPlugins.{ p, isPi } | [1272](../../magpie/internal/plugin/host.js#L1272) |
+| e | VariableDeclaration | loadPlugins | [1274](../../magpie/internal/plugin/host.js#L1274) |
+| error | VariableDeclaration | loadPlugins | [1275](../../magpie/internal/plugin/host.js#L1275) |
+| x | VariableDeclaration | loadPlugins | [1280](../../magpie/internal/plugin/host.js#L1280) |
+| h | VariableDeclaration | loadPlugins | [1287](../../magpie/internal/plugin/host.js#L1287) |
+| e | VariableDeclaration | loadPlugins | [1292](../../magpie/internal/plugin/host.js#L1292) |
+| bounded | FunctionDeclaration |  | [1300](../../magpie/internal/plugin/host.js#L1300) |
+| finish | VariableDeclaration | bounded | [1302](../../magpie/internal/plugin/host.js#L1302) |
+| abort | VariableDeclaration | bounded | [1303](../../magpie/internal/plugin/host.js#L1303) |
+| gatewayRuns | VariableDeclaration |  | [1313](../../magpie/internal/plugin/host.js#L1313) |
+| GATEWAY_RUN_LIMIT | VariableDeclaration |  | [1314](../../magpie/internal/plugin/host.js#L1314) |
+| GATEWAY_RUN_TTL | VariableDeclaration |  | [1315](../../magpie/internal/plugin/host.js#L1315) |
+| gatewayTimeout | VariableDeclaration |  | [1316](../../magpie/internal/plugin/host.js#L1316) |
+| gatewayBudget | VariableDeclaration |  | [1317](../../magpie/internal/plugin/host.js#L1317) |
+| closeGateway | FunctionDeclaration |  | [1319](../../magpie/internal/plugin/host.js#L1319) |
+| gatewayBegin | FunctionDeclaration |  | [1328](../../magpie/internal/plugin/host.js#L1328) |
+| run | VariableDeclaration | gatewayBegin | [1330](../../magpie/internal/plugin/host.js#L1330) |
+| body | VariableDeclaration | gatewayBegin | [1334](../../magpie/internal/plugin/host.js#L1334) |
+| total | VariableDeclaration | gatewayBegin | [1336](../../magpie/internal/plugin/host.js#L1336) |
+| h | VariableDeclaration | gatewayBegin | [1337](../../magpie/internal/plugin/host.js#L1337) |
+| ctl | VariableDeclaration | gatewayBegin | [1339](../../magpie/internal/plugin/host.js#L1339) |
+| timer | VariableDeclaration | gatewayBegin | [1340](../../magpie/internal/plugin/host.js#L1340) |
+| ownSignal | VariableDeclaration | gatewayBegin | [1341](../../magpie/internal/plugin/host.js#L1341) |
+| started | VariableDeclaration | gatewayBegin | [1342](../../magpie/internal/plugin/host.js#L1342) |
+| outcome | VariableDeclaration | gatewayBegin | [1343](../../magpie/internal/plugin/host.js#L1343) |
+| bytes | VariableDeclaration | gatewayBegin | [1343](../../magpie/internal/plugin/host.js#L1343) |
+| report | VariableDeclaration | gatewayBegin | [1347](../../magpie/internal/plugin/host.js#L1347) |
+| ctx | VariableDeclaration | gatewayBegin | [1352](../../magpie/internal/plugin/host.js#L1352) |
+| result | VariableDeclaration | gatewayBegin | [1353](../../magpie/internal/plugin/host.js#L1353) |
+| next | VariableDeclaration | gatewayBegin | [1354](../../magpie/internal/plugin/host.js#L1354) |
+| key | VariableDeclaration | gatewayBegin | [1365](../../magpie/internal/plugin/host.js#L1365) |
+| gatewayFinish | FunctionDeclaration |  | [1394](../../magpie/internal/plugin/host.js#L1394) |
+| total | VariableDeclaration | gatewayFinish | [1397](../../magpie/internal/plugin/host.js#L1397) |
+| { h, ctx } | VariableDeclaration | gatewayFinish | [1399](../../magpie/internal/plugin/host.js#L1399) |
+| h | BindingElement | gatewayFinish.{ h, ctx } | [1399](../../magpie/internal/plugin/host.js#L1399) |
+| ctx | BindingElement | gatewayFinish.{ h, ctx } | [1399](../../magpie/internal/plugin/host.js#L1399) |
+| ctl | VariableDeclaration | gatewayFinish | [1402](../../magpie/internal/plugin/host.js#L1402) |
+| timer | VariableDeclaration | gatewayFinish | [1403](../../magpie/internal/plugin/host.js#L1403) |
+| gatewayRequest | FunctionDeclaration |  | [1422](../../magpie/internal/plugin/host.js#L1422) |
+| run | VariableDeclaration | gatewayRequest | [1424](../../magpie/internal/plugin/host.js#L1424) |
+| auths | FunctionDeclaration |  | [1435](../../magpie/internal/plugin/host.js#L1435) |
+| m | VariableDeclaration | auths | [1436](../../magpie/internal/plugin/host.js#L1436) |
+| h | VariableDeclaration | auths | [1437](../../magpie/internal/plugin/host.js#L1437) |
+| h | VariableDeclaration | auths | [1438](../../magpie/internal/plugin/host.js#L1438) |
+| id | VariableDeclaration | auths | [1439](../../magpie/internal/plugin/host.js#L1439) |
+| signsIn | VariableDeclaration |  | [1446](../../magpie/internal/plugin/host.js#L1446) |
+| withProviders | FunctionDeclaration |  | [1453](../../magpie/internal/plugin/host.js#L1453) |
+| tools | VariableDeclaration | withProviders | [1454](../../magpie/internal/plugin/host.js#L1454) |
+| ids | VariableDeclaration | withProviders | [1456](../../magpie/internal/plugin/host.js#L1456) |
+| a | VariableDeclaration | withProviders | [1458](../../magpie/internal/plugin/host.js#L1458) |
+| servedBy | VariableDeclaration | withProviders | [1459](../../magpie/internal/plugin/host.js#L1459) |
+| TOOL_NAME | VariableDeclaration |  | [1471](../../magpie/internal/plugin/host.js#L1471) |
+| toolsOf | FunctionDeclaration |  | [1475](../../magpie/internal/plugin/host.js#L1475) |
+| m | VariableDeclaration | toolsOf | [1476](../../magpie/internal/plugin/host.js#L1476) |
+| h | VariableDeclaration | toolsOf | [1477](../../magpie/internal/plugin/host.js#L1477) |
+| t | VariableDeclaration | toolsOf | [1479](../../magpie/internal/plugin/host.js#L1479) |
+| [name, def] | VariableDeclaration | toolsOf | [1481](../../magpie/internal/plugin/host.js#L1481) |
+| name | BindingElement | toolsOf.[name, def] | [1481](../../magpie/internal/plugin/host.js#L1481) |
+| def | BindingElement | toolsOf.[name, def] | [1481](../../magpie/internal/plugin/host.js#L1481) |

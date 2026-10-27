@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/provider.go) · page 2/2
 
-Source SHA-256: bf42f8e09c28ea3f8ed83dbb5562926468d1864b2b630d6953446821e7e305a9
+Source SHA-256: 8e0a3ad0004ac9f0c6166eb3c19cace43f521085f5a2a019220dcfafced3daf4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,59 +25,60 @@ Source SHA-256: bf42f8e09c28ea3f8ed83dbb5562926468d1864b2b630d6953446821e7e305a9
 | find | function_declaration |  | [733](../../magpie/internal/provider/provider.go#L733) |
 | Find | function_declaration |  | [743](../../magpie/internal/provider/provider.go#L743) |
 | findIn | function_declaration |  | [747](../../magpie/internal/provider/provider.go#L747) |
-| readElsewhere | function_declaration |  | [771](../../magpie/internal/provider/provider.go#L771) |
-| idRe | var_spec |  | [779](../../magpie/internal/provider/provider.go#L779) |
-| Slug | function_declaration |  | [782](../../magpie/internal/provider/provider.go#L782) |
-| Save | function_declaration |  | [787](../../magpie/internal/provider/provider.go#L787) |
-| sameStored | function_declaration |  | [904](../../magpie/internal/provider/provider.go#L904) |
-| delistedWith | function_declaration |  | [917](../../magpie/internal/provider/provider.go#L917) |
-| listedWith | function_declaration |  | [941](../../magpie/internal/provider/provider.go#L941) |
-| Add | function_declaration |  | [971](../../magpie/internal/provider/provider.go#L971) |
-| add | function_declaration |  | [975](../../magpie/internal/provider/provider.go#L975) |
-| AddCopy | function_declaration |  | [1010](../../magpie/internal/provider/provider.go#L1010) |
-| hostID | function_declaration |  | [1057](../../magpie/internal/provider/provider.go#L1057) |
-| freeName | function_declaration |  | [1082](../../magpie/internal/provider/provider.go#L1082) |
-| accountIDs | var_spec |  | [1100](../../magpie/internal/provider/provider.go#L1100) |
-| stored | function_declaration |  | [1102](../../magpie/internal/provider/provider.go#L1102) |
-| hiddenAccount | function_declaration |  | [1111](../../magpie/internal/provider/provider.go#L1111) |
-| quietAccount | function_declaration |  | [1120](../../magpie/internal/provider/provider.go#L1120) |
-| tuckedAccount | function_declaration |  | [1129](../../magpie/internal/provider/provider.go#L1129) |
-| TuckAccount | function_declaration |  | [1141](../../magpie/internal/provider/provider.go#L1141) |
-| QuietAccount | function_declaration |  | [1160](../../magpie/internal/provider/provider.go#L1160) |
-| ShowAccount | function_declaration |  | [1176](../../magpie/internal/provider/provider.go#L1176) |
-| Delete | function_declaration |  | [1193](../../magpie/internal/provider/provider.go#L1193) |
-| keyOptional | function_declaration |  | [1230](../../magpie/internal/provider/provider.go#L1230) |
-| normalize | function_declaration |  | [1238](../../magpie/internal/provider/provider.go#L1238) |
-| Catalogs | method_declaration | Provider | [1390](../../magpie/internal/provider/provider.go#L1390) |
-| cleanList | function_declaration |  | [1394](../../magpie/internal/provider/provider.go#L1394) |
-| cleanHeaders | function_declaration |  | [1406](../../magpie/internal/provider/provider.go#L1406) |
-| contains | function_declaration |  | [1419](../../magpie/internal/provider/provider.go#L1419) |
-| baseOf | method_declaration | Provider | [1430](../../magpie/internal/provider/provider.go#L1430) |
-| Base | method_declaration | Provider | [1447](../../magpie/internal/provider/provider.go#L1447) |
-| Speaks | method_declaration | Provider | [1474](../../magpie/internal/provider/provider.go#L1474) |
-| FactoryGemini | method_declaration | Provider | [1506](../../magpie/internal/provider/provider.go#L1506) |
-| ResponsesFirst | method_declaration | Provider | [1512](../../magpie/internal/provider/provider.go#L1512) |
-| ResponsesTellsCache | method_declaration | Provider | [1538](../../magpie/internal/provider/provider.go#L1538) |
-| MessagesFirst | method_declaration | Provider | [1550](../../magpie/internal/provider/provider.go#L1550) |
-| OnMessages | method_declaration | Provider | [1559](../../magpie/internal/provider/provider.go#L1559) |
-| claudeModel | function_declaration |  | [1572](../../magpie/internal/provider/provider.go#L1572) |
-| ClaudeModel | function_declaration |  | [1579](../../magpie/internal/provider/provider.go#L1579) |
-| openAIModel | function_declaration |  | [1583](../../magpie/internal/provider/provider.go#L1583) |
-| Native | method_declaration | Provider | [1596](../../magpie/internal/provider/provider.go#L1596) |
-| Host | method_declaration | Provider | [1623](../../magpie/internal/provider/provider.go#L1623) |
-| Where | method_declaration | Provider | [1641](../../magpie/internal/provider/provider.go#L1641) |
-| IsOpenCode | method_declaration | Provider | [1655](../../magpie/internal/provider/provider.go#L1655) |
-| IsBedrock | method_declaration | Provider | [1668](../../magpie/internal/provider/provider.go#L1668) |
-| IsBedrockMantle | method_declaration | Provider | [1679](../../magpie/internal/provider/provider.go#L1679) |
-| mantleHost | function_declaration |  | [1684](../../magpie/internal/provider/provider.go#L1684) |
-| mantleOpenAI | function_declaration |  | [1693](../../magpie/internal/provider/provider.go#L1693) |
-| MantleBase | function_declaration |  | [1703](../../magpie/internal/provider/provider.go#L1703) |
-| mantleEndpoints | method_declaration | *Provider | [1722](../../magpie/internal/provider/provider.go#L1722) |
-| bedrockClaude | function_declaration |  | [1749](../../magpie/internal/provider/provider.go#L1749) |
-| bedrockGPT | function_declaration |  | [1759](../../magpie/internal/provider/provider.go#L1759) |
-| HostOf | function_declaration |  | [1765](../../magpie/internal/provider/provider.go#L1765) |
-| Mask | function_declaration |  | [1777](../../magpie/internal/provider/provider.go#L1777) |
-| Ready | method_declaration | Provider | [1787](../../magpie/internal/provider/provider.go#L1787) |
-| On | method_declaration | Provider | [1796](../../magpie/internal/provider/provider.go#L1796) |
-| SetOff | function_declaration |  | [1800](../../magpie/internal/provider/provider.go#L1800) |
-| SwitchedOff | function_declaration |  | [1812](../../magpie/internal/provider/provider.go#L1812) |
+| lookIn | function_declaration |  | [757](../../magpie/internal/provider/provider.go#L757) |
+| readElsewhere | function_declaration |  | [781](../../magpie/internal/provider/provider.go#L781) |
+| idRe | var_spec |  | [789](../../magpie/internal/provider/provider.go#L789) |
+| Slug | function_declaration |  | [792](../../magpie/internal/provider/provider.go#L792) |
+| Save | function_declaration |  | [797](../../magpie/internal/provider/provider.go#L797) |
+| sameStored | function_declaration |  | [914](../../magpie/internal/provider/provider.go#L914) |
+| delistedWith | function_declaration |  | [927](../../magpie/internal/provider/provider.go#L927) |
+| listedWith | function_declaration |  | [951](../../magpie/internal/provider/provider.go#L951) |
+| Add | function_declaration |  | [981](../../magpie/internal/provider/provider.go#L981) |
+| add | function_declaration |  | [985](../../magpie/internal/provider/provider.go#L985) |
+| AddCopy | function_declaration |  | [1020](../../magpie/internal/provider/provider.go#L1020) |
+| hostID | function_declaration |  | [1067](../../magpie/internal/provider/provider.go#L1067) |
+| freeName | function_declaration |  | [1092](../../magpie/internal/provider/provider.go#L1092) |
+| accountIDs | var_spec |  | [1110](../../magpie/internal/provider/provider.go#L1110) |
+| stored | function_declaration |  | [1112](../../magpie/internal/provider/provider.go#L1112) |
+| hiddenAccount | function_declaration |  | [1121](../../magpie/internal/provider/provider.go#L1121) |
+| quietAccount | function_declaration |  | [1130](../../magpie/internal/provider/provider.go#L1130) |
+| tuckedAccount | function_declaration |  | [1139](../../magpie/internal/provider/provider.go#L1139) |
+| TuckAccount | function_declaration |  | [1151](../../magpie/internal/provider/provider.go#L1151) |
+| QuietAccount | function_declaration |  | [1170](../../magpie/internal/provider/provider.go#L1170) |
+| ShowAccount | function_declaration |  | [1186](../../magpie/internal/provider/provider.go#L1186) |
+| Delete | function_declaration |  | [1203](../../magpie/internal/provider/provider.go#L1203) |
+| keyOptional | function_declaration |  | [1240](../../magpie/internal/provider/provider.go#L1240) |
+| normalize | function_declaration |  | [1248](../../magpie/internal/provider/provider.go#L1248) |
+| Catalogs | method_declaration | Provider | [1400](../../magpie/internal/provider/provider.go#L1400) |
+| cleanList | function_declaration |  | [1404](../../magpie/internal/provider/provider.go#L1404) |
+| cleanHeaders | function_declaration |  | [1416](../../magpie/internal/provider/provider.go#L1416) |
+| contains | function_declaration |  | [1429](../../magpie/internal/provider/provider.go#L1429) |
+| baseOf | method_declaration | Provider | [1440](../../magpie/internal/provider/provider.go#L1440) |
+| Base | method_declaration | Provider | [1457](../../magpie/internal/provider/provider.go#L1457) |
+| Speaks | method_declaration | Provider | [1484](../../magpie/internal/provider/provider.go#L1484) |
+| FactoryGemini | method_declaration | Provider | [1516](../../magpie/internal/provider/provider.go#L1516) |
+| ResponsesFirst | method_declaration | Provider | [1522](../../magpie/internal/provider/provider.go#L1522) |
+| ResponsesTellsCache | method_declaration | Provider | [1548](../../magpie/internal/provider/provider.go#L1548) |
+| MessagesFirst | method_declaration | Provider | [1560](../../magpie/internal/provider/provider.go#L1560) |
+| OnMessages | method_declaration | Provider | [1569](../../magpie/internal/provider/provider.go#L1569) |
+| claudeModel | function_declaration |  | [1582](../../magpie/internal/provider/provider.go#L1582) |
+| ClaudeModel | function_declaration |  | [1589](../../magpie/internal/provider/provider.go#L1589) |
+| openAIModel | function_declaration |  | [1593](../../magpie/internal/provider/provider.go#L1593) |
+| Native | method_declaration | Provider | [1606](../../magpie/internal/provider/provider.go#L1606) |
+| Host | method_declaration | Provider | [1633](../../magpie/internal/provider/provider.go#L1633) |
+| Where | method_declaration | Provider | [1651](../../magpie/internal/provider/provider.go#L1651) |
+| IsOpenCode | method_declaration | Provider | [1665](../../magpie/internal/provider/provider.go#L1665) |
+| IsBedrock | method_declaration | Provider | [1678](../../magpie/internal/provider/provider.go#L1678) |
+| IsBedrockMantle | method_declaration | Provider | [1689](../../magpie/internal/provider/provider.go#L1689) |
+| mantleHost | function_declaration |  | [1694](../../magpie/internal/provider/provider.go#L1694) |
+| mantleOpenAI | function_declaration |  | [1703](../../magpie/internal/provider/provider.go#L1703) |
+| MantleBase | function_declaration |  | [1713](../../magpie/internal/provider/provider.go#L1713) |
+| mantleEndpoints | method_declaration | *Provider | [1732](../../magpie/internal/provider/provider.go#L1732) |
+| bedrockClaude | function_declaration |  | [1759](../../magpie/internal/provider/provider.go#L1759) |
+| bedrockGPT | function_declaration |  | [1769](../../magpie/internal/provider/provider.go#L1769) |
+| HostOf | function_declaration |  | [1775](../../magpie/internal/provider/provider.go#L1775) |
+| Mask | function_declaration |  | [1787](../../magpie/internal/provider/provider.go#L1787) |
+| Ready | method_declaration | Provider | [1797](../../magpie/internal/provider/provider.go#L1797) |
+| On | method_declaration | Provider | [1806](../../magpie/internal/provider/provider.go#L1806) |
+| SetOff | function_declaration |  | [1810](../../magpie/internal/provider/provider.go#L1810) |
+| SwitchedOff | function_declaration |  | [1822](../../magpie/internal/provider/provider.go#L1822) |

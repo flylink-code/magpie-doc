@@ -20,7 +20,7 @@
 | [magpie/internal/catalog/userheader.go](../../magpie/internal/catalog/userheader.go) | 1 | [1](magpie_internal_catalog_userheader.go-c00f3cb8-1.md) |
 | [magpie/internal/claudebridge/mcp.go](../../magpie/internal/claudebridge/mcp.go) | 23 | [1](magpie_internal_claudebridge_mcp.go-f1b73f0f-1.md) |
 | [magpie/internal/claudecode/claudecode.go](../../magpie/internal/claudecode/claudecode.go) | 29 | [1](magpie_internal_claudecode_claudecode.go-00cffcc0-1.md) |
-| [magpie/internal/codexcat/codexcat.go](../../magpie/internal/codexcat/codexcat.go) | 81 | [1](magpie_internal_codexcat_codexcat.go-ffcd1b12-1.md) |
+| [magpie/internal/codexcat/codexcat.go](../../magpie/internal/codexcat/codexcat.go) | 83 | [1](magpie_internal_codexcat_codexcat.go-ffcd1b12-1.md) |
 | [magpie/internal/mcpauth/mcpauth.go](../../magpie/internal/mcpauth/mcpauth.go) | 122 | [1](magpie_internal_mcpauth_mcpauth.go-104529ee-1.md) [2](magpie_internal_mcpauth_mcpauth.go-104529ee-2.md) |
 | [magpie/internal/mcpauth/mcpauthtest/fake.go](../../magpie/internal/mcpauth/mcpauthtest/fake.go) | 39 | [1](magpie_internal_mcpauth_mcpauthtest_fake.go-374697f3-1.md) |
 | [magpie/internal/provider/access_key_card.go](../../magpie/internal/provider/access_key_card.go) | 2 | [1](magpie_internal_provider_access_key_card.go-041a25b0-1.md) |
@@ -61,7 +61,7 @@
 | [magpie/internal/provider/codex_app_out.go](../../magpie/internal/provider/codex_app_out.go) | 10 | [1](magpie_internal_provider_codex_app_out.go-ca8e10ad-1.md) |
 | [magpie/internal/provider/codex_autoreset.go](../../magpie/internal/provider/codex_autoreset.go) | 31 | [1](magpie_internal_provider_codex_autoreset.go-f8fb720f-1.md) |
 | [magpie/internal/provider/codex_credits.go](../../magpie/internal/provider/codex_credits.go) | 3 | [1](magpie_internal_provider_codex_credits.go-03cf218b-1.md) |
-| [magpie/internal/provider/codex_daemon.go](../../magpie/internal/provider/codex_daemon.go) | 42 | [1](magpie_internal_provider_codex_daemon.go-1fea2887-1.md) |
+| [magpie/internal/provider/codex_daemon.go](../../magpie/internal/provider/codex_daemon.go) | 46 | [1](magpie_internal_provider_codex_daemon.go-1fea2887-1.md) |
 | [magpie/internal/provider/codex_expired.go](../../magpie/internal/provider/codex_expired.go) | 7 | [1](magpie_internal_provider_codex_expired.go-3348aa94-1.md) |
 | [magpie/internal/provider/codex_expiring.go](../../magpie/internal/provider/codex_expiring.go) | 19 | [1](magpie_internal_provider_codex_expiring.go-5eb63628-1.md) |
 | [magpie/internal/provider/codex_http1.go](../../magpie/internal/provider/codex_http1.go) | 2 | [1](magpie_internal_provider_codex_http1.go-0442295d-1.md) |

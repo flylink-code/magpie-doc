@@ -23,7 +23,7 @@
 | [magpie/internal/library/instructions.go](../../magpie/internal/library/instructions.go) | 64 | [1](magpie_internal_library_instructions.go-cdbdedc6-1.md) |
 | [magpie/internal/library/library.go](../../magpie/internal/library/library.go) | 54 | [1](magpie_internal_library_library.go-7bfc4e07-1.md) |
 | [magpie/internal/library/linkmemo.go](../../magpie/internal/library/linkmemo.go) | 11 | [1](magpie_internal_library_linkmemo.go-7d494302-1.md) |
-| [magpie/internal/library/market.go](../../magpie/internal/library/market.go) | 148 | [1](magpie_internal_library_market.go-2fbb374d-1.md) [2](magpie_internal_library_market.go-2fbb374d-2.md) |
+| [magpie/internal/library/market.go](../../magpie/internal/library/market.go) | 152 | [1](magpie_internal_library_market.go-2fbb374d-1.md) [2](magpie_internal_library_market.go-2fbb374d-2.md) |
 | [magpie/internal/library/market_addr.go](../../magpie/internal/library/market_addr.go) | 19 | [1](magpie_internal_library_market_addr.go-4d5bfd99-1.md) |
 | [magpie/internal/library/mcp.go](../../magpie/internal/library/mcp.go) | 113 | [1](magpie_internal_library_mcp.go-06daf39e-1.md) [2](magpie_internal_library_mcp.go-06daf39e-2.md) |
 | [magpie/internal/library/mcp_agent_signin.go](../../magpie/internal/library/mcp_agent_signin.go) | 11 | [1](magpie_internal_library_mcp_agent_signin.go-d289af5e-1.md) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_daemon.go) · page 1/1
 
-Source SHA-256: 426c508862a8db83c07f79054e398324f94d88c8dfda70e7465b381377b0b77f
+Source SHA-256: fcb8e2bfda757df52ec2b6752e9ee4b5a275abf495d3a502823dfc2a0594acbf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -36,17 +36,21 @@ Source SHA-256: 426c508862a8db83c07f79054e398324f94d88c8dfda70e7465b381377b0b77f
 | RestartCodexDaemon | function_declaration |  | [293](../../magpie/internal/provider/codex_daemon.go#L293) |
 | restartCodexDaemon | function_declaration |  | [303](../../magpie/internal/provider/codex_daemon.go#L303) |
 | codexDaemonCommand | function_declaration |  | [320](../../magpie/internal/provider/codex_daemon.go#L320) |
-| CodexDaemonCheck | struct_type |  | [343](../../magpie/internal/provider/codex_daemon.go#L343) |
-| Behind | field_declaration | CodexDaemonCheck | [345](../../magpie/internal/provider/codex_daemon.go#L345) |
-| Since | field_declaration | CodexDaemonCheck | [347](../../magpie/internal/provider/codex_daemon.go#L347) |
-| Attached | field_declaration | CodexDaemonCheck | [350](../../magpie/internal/provider/codex_daemon.go#L350) |
-| Restarted | field_declaration | CodexDaemonCheck | [352](../../magpie/internal/provider/codex_daemon.go#L352) |
-| Err | field_declaration | CodexDaemonCheck | [353](../../magpie/internal/provider/codex_daemon.go#L353) |
-| codexRestarting | var_spec |  | [357](../../magpie/internal/provider/codex_daemon.go#L357) |
-| KeepCodexDaemonCurrent | function_declaration |  | [363](../../magpie/internal/provider/codex_daemon.go#L363) |
-| pidFileBehind | function_declaration |  | [398](../../magpie/internal/provider/codex_daemon.go#L398) |
-| daemonStarted | function_declaration |  | [410](../../magpie/internal/provider/codex_daemon.go#L410) |
-| codexClients | function_declaration |  | [432](../../magpie/internal/provider/codex_daemon.go#L432) |
-| isCodexClient | function_declaration |  | [448](../../magpie/internal/provider/codex_daemon.go#L448) |
-| splitExe | function_declaration |  | [475](../../magpie/internal/provider/codex_daemon.go#L475) |
-| CodexHome | function_declaration |  | [487](../../magpie/internal/provider/codex_daemon.go#L487) |
+| daemonProxyVars | var_spec |  | [334](../../magpie/internal/provider/codex_daemon.go#L334) |
+| daemonLoginEnv | var_spec |  | [339](../../magpie/internal/provider/codex_daemon.go#L339) |
+| daemonLoginPath | var_spec |  | [340](../../magpie/internal/provider/codex_daemon.go#L340) |
+| codexDaemonEnv | function_declaration |  | [354](../../magpie/internal/provider/codex_daemon.go#L354) |
+| CodexDaemonCheck | struct_type |  | [390](../../magpie/internal/provider/codex_daemon.go#L390) |
+| Behind | field_declaration | CodexDaemonCheck | [392](../../magpie/internal/provider/codex_daemon.go#L392) |
+| Since | field_declaration | CodexDaemonCheck | [394](../../magpie/internal/provider/codex_daemon.go#L394) |
+| Attached | field_declaration | CodexDaemonCheck | [397](../../magpie/internal/provider/codex_daemon.go#L397) |
+| Restarted | field_declaration | CodexDaemonCheck | [399](../../magpie/internal/provider/codex_daemon.go#L399) |
+| Err | field_declaration | CodexDaemonCheck | [400](../../magpie/internal/provider/codex_daemon.go#L400) |
+| codexRestarting | var_spec |  | [404](../../magpie/internal/provider/codex_daemon.go#L404) |
+| KeepCodexDaemonCurrent | function_declaration |  | [410](../../magpie/internal/provider/codex_daemon.go#L410) |
+| pidFileBehind | function_declaration |  | [445](../../magpie/internal/provider/codex_daemon.go#L445) |
+| daemonStarted | function_declaration |  | [457](../../magpie/internal/provider/codex_daemon.go#L457) |
+| codexClients | function_declaration |  | [479](../../magpie/internal/provider/codex_daemon.go#L479) |
+| isCodexClient | function_declaration |  | [495](../../magpie/internal/provider/codex_daemon.go#L495) |
+| splitExe | function_declaration |  | [522](../../magpie/internal/provider/codex_daemon.go#L522) |
+| CodexHome | function_declaration |  | [534](../../magpie/internal/provider/codex_daemon.go#L534) |

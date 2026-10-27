@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.js) · page 1/8
 
-Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
+Source SHA-256: 06f5631b4e14299acab803d834598577569409f636fc0563002e092891fd334a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -90,21 +90,21 @@ Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
 | renewing | VariableDeclaration |  | [312](../../magpie/internal/plugin/host.js#L312) |
 | unrenewed | VariableDeclaration |  | [313](../../magpie/internal/plugin/host.js#L313) |
 | config | VariableDeclaration |  | [314](../../magpie/internal/plugin/host.js#L314) |
-| via | VariableDeclaration |  | [325](../../magpie/internal/plugin/host.js#L325) |
-| bunFetch | VariableDeclaration |  | [326](../../magpie/internal/plugin/host.js#L326) |
-| proxyVar | FunctionDeclaration |  | [328](../../magpie/internal/plugin/host.js#L328) |
-| globalProxy | VariableDeclaration |  | [332](../../magpie/internal/plugin/host.js#L332) |
-| hostOf | FunctionDeclaration |  | [341](../../magpie/internal/plugin/host.js#L341) |
-| u | VariableDeclaration | hostOf | [343](../../magpie/internal/plugin/host.js#L343) |
-| loopback | FunctionDeclaration |  | [350](../../magpie/internal/plugin/host.js#L350) |
-| lanWait | VariableDeclaration |  | [364](../../magpie/internal/plugin/host.js#L364) |
-| lanKeep | VariableDeclaration |  | [365](../../magpie/internal/plugin/host.js#L365) |
-| lanSeen | VariableDeclaration |  | [366](../../magpie/internal/plugin/host.js#L366) |
-| ipBytes | FunctionDeclaration |  | [370](../../magpie/internal/plugin/host.js#L370) |
-| v4 | VariableDeclaration | ipBytes | [374](../../magpie/internal/plugin/host.js#L374) |
-| [a, b, c, d] | VariableDeclaration | ipBytes | [376](../../magpie/internal/plugin/host.js#L376) |
-| a | BindingElement | ipBytes.[a, b, c, d] | [376](../../magpie/internal/plugin/host.js#L376) |
-| b | BindingElement | ipBytes.[a, b, c, d] | [376](../../magpie/internal/plugin/host.js#L376) |
-| c | BindingElement | ipBytes.[a, b, c, d] | [376](../../magpie/internal/plugin/host.js#L376) |
-| d | BindingElement | ipBytes.[a, b, c, d] | [376](../../magpie/internal/plugin/host.js#L376) |
-| [head, tail] | VariableDeclaration | ipBytes | [379](../../magpie/internal/plugin/host.js#L379) |
+| loadWait | VariableDeclaration |  | [323](../../magpie/internal/plugin/host.js#L323) |
+| listWait | VariableDeclaration |  | [324](../../magpie/internal/plugin/host.js#L324) |
+| Late | ClassDeclaration |  | [329](../../magpie/internal/plugin/host.js#L329) |
+| inTime | FunctionDeclaration |  | [330](../../magpie/internal/plugin/host.js#L330) |
+| timer | VariableDeclaration | inTime | [331](../../magpie/internal/plugin/host.js#L331) |
+| late | VariableDeclaration | inTime | [332](../../magpie/internal/plugin/host.js#L332) |
+| via | VariableDeclaration |  | [347](../../magpie/internal/plugin/host.js#L347) |
+| bunFetch | VariableDeclaration |  | [348](../../magpie/internal/plugin/host.js#L348) |
+| proxyVar | FunctionDeclaration |  | [350](../../magpie/internal/plugin/host.js#L350) |
+| globalProxy | VariableDeclaration |  | [354](../../magpie/internal/plugin/host.js#L354) |
+| hostOf | FunctionDeclaration |  | [363](../../magpie/internal/plugin/host.js#L363) |
+| u | VariableDeclaration | hostOf | [365](../../magpie/internal/plugin/host.js#L365) |
+| loopback | FunctionDeclaration |  | [372](../../magpie/internal/plugin/host.js#L372) |
+| lanWait | VariableDeclaration |  | [386](../../magpie/internal/plugin/host.js#L386) |
+| lanKeep | VariableDeclaration |  | [387](../../magpie/internal/plugin/host.js#L387) |
+| lanSeen | VariableDeclaration |  | [388](../../magpie/internal/plugin/host.js#L388) |
+| ipBytes | FunctionDeclaration |  | [392](../../magpie/internal/plugin/host.js#L392) |
+| v4 | VariableDeclaration | ipBytes | [396](../../magpie/internal/plugin/host.js#L396) |

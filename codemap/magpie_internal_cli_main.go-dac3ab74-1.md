@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/main.go) · page 1/1
 
-Source SHA-256: 683c446c2fac9424e537ab8f048d82b50af6f1deefb6e7437f53142628ce909f
+Source SHA-256: e0195547a2fa5e83e429bf82ca887a6f9fad4607e86549149c2f9bfdc3e71952
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,17 +20,17 @@ Source SHA-256: 683c446c2fac9424e537ab8f048d82b50af6f1deefb6e7437f53142628ce909f
 | syncAgentsOnChange | function_declaration |  | [222](../../magpie/internal/cli/main.go#L222) |
 | startUp | var_spec |  | [227](../../magpie/internal/cli/main.go#L227) |
 | run | function_declaration |  | [250](../../magpie/internal/cli/main.go#L250) |
-| set | function_declaration |  | [526](../../magpie/internal/cli/main.go#L526) |
-| modelAlias | function_declaration |  | [582](../../magpie/internal/cli/main.go#L582) |
-| fieldAsValue | function_declaration |  | [590](../../magpie/internal/cli/main.go#L590) |
-| showField | function_declaration |  | [606](../../magpie/internal/cli/main.go#L606) |
-| disconnect | function_declaration |  | [620](../../magpie/internal/cli/main.go#L620) |
-| fieldForValue | function_declaration |  | [645](../../magpie/internal/cli/main.go#L645) |
-| list | function_declaration |  | [676](../../magpie/internal/cli/main.go#L676) |
-| row | struct_type | list | [680](../../magpie/internal/cli/main.go#L680) |
-| name | field_declaration | list.row | [680](../../magpie/internal/cli/main.go#L680) |
-| vals | field_declaration | list.row | [680](../../magpie/internal/cli/main.go#L680) |
-| path | field_declaration | list.row | [680](../../magpie/internal/cli/main.go#L680) |
-| tilde | function_declaration |  | [751](../../magpie/internal/cli/main.go#L751) |
-| profiles | function_declaration |  | [758](../../magpie/internal/cli/main.go#L758) |
-| pad | function_declaration |  | [829](../../magpie/internal/cli/main.go#L829) |
+| set | function_declaration |  | [527](../../magpie/internal/cli/main.go#L527) |
+| modelAlias | function_declaration |  | [583](../../magpie/internal/cli/main.go#L583) |
+| fieldAsValue | function_declaration |  | [591](../../magpie/internal/cli/main.go#L591) |
+| showField | function_declaration |  | [607](../../magpie/internal/cli/main.go#L607) |
+| disconnect | function_declaration |  | [621](../../magpie/internal/cli/main.go#L621) |
+| fieldForValue | function_declaration |  | [646](../../magpie/internal/cli/main.go#L646) |
+| list | function_declaration |  | [677](../../magpie/internal/cli/main.go#L677) |
+| row | struct_type | list | [681](../../magpie/internal/cli/main.go#L681) |
+| name | field_declaration | list.row | [681](../../magpie/internal/cli/main.go#L681) |
+| vals | field_declaration | list.row | [681](../../magpie/internal/cli/main.go#L681) |
+| path | field_declaration | list.row | [681](../../magpie/internal/cli/main.go#L681) |
+| tilde | function_declaration |  | [752](../../magpie/internal/cli/main.go#L752) |
+| profiles | function_declaration |  | [759](../../magpie/internal/cli/main.go#L759) |
+| pad | function_declaration |  | [830](../../magpie/internal/cli/main.go#L830) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.js) · page 3/8
 
-Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
+Source SHA-256: 06f5631b4e14299acab803d834598577569409f636fc0563002e092891fd334a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| readAuthState | FunctionDeclaration |  | [725](../../magpie/internal/plugin/host.js#L725) |
-| v | VariableDeclaration | readAuthState | [727](../../magpie/internal/plugin/host.js#L727) |
-| why | VariableDeclaration | readAuthState | [729](../../magpie/internal/plugin/host.js#L729) |
-| bak | VariableDeclaration | readAuthState | [730](../../magpie/internal/plugin/host.js#L730) |
-| authSeen | VariableDeclaration |  | [755](../../magpie/internal/plugin/host.js#L755) |
-| AUTH_SETTLED | VariableDeclaration |  | [756](../../magpie/internal/plugin/host.js#L756) |
-| readAuth | FunctionDeclaration |  | [760](../../magpie/internal/plugin/host.js#L760) |
-| st | VariableDeclaration | readAuth | [761](../../magpie/internal/plugin/host.js#L761) |
-| e | VariableDeclaration | readAuth | [765](../../magpie/internal/plugin/host.js#L765) |
-| same | VariableDeclaration | readAuth | [766](../../magpie/internal/plugin/host.js#L766) |
-| buf | VariableDeclaration | readAuth | [768](../../magpie/internal/plugin/host.js#L768) |
-| s | VariableDeclaration | readAuth | [773](../../magpie/internal/plugin/host.js#L773) |
-| authCopy | FunctionDeclaration |  | [780](../../magpie/internal/plugin/host.js#L780) |
-| all | VariableDeclaration | authCopy | [781](../../magpie/internal/plugin/host.js#L781) |
-| v | VariableDeclaration | authCopy | [782](../../magpie/internal/plugin/host.js#L782) |
-| writeDurable | FunctionDeclaration |  | [791](../../magpie/internal/plugin/host.js#L791) |
-| tmp | VariableDeclaration | writeDurable | [792](../../magpie/internal/plugin/host.js#L792) |
-| f | VariableDeclaration | writeDurable | [794](../../magpie/internal/plugin/host.js#L794) |
-| off | VariableDeclaration | writeDurable | [796](../../magpie/internal/plugin/host.js#L796) |
-| i | VariableDeclaration | writeDurable | [802](../../magpie/internal/plugin/host.js#L802) |
-| e | VariableDeclaration | writeDurable | [805](../../magpie/internal/plugin/host.js#L805) |
-| e | VariableDeclaration | writeDurable | [810](../../magpie/internal/plugin/host.js#L810) |
-| badStamp | FunctionDeclaration |  | [819](../../magpie/internal/plugin/host.js#L819) |
-| p | VariableDeclaration | badStamp | [820](../../magpie/internal/plugin/host.js#L820) |
-| keepBad | FunctionDeclaration |  | [827](../../magpie/internal/plugin/host.js#L827) |
-| stamp | VariableDeclaration | keepBad | [828](../../magpie/internal/plugin/host.js#L828) |
-| i | VariableDeclaration | keepBad | [829](../../magpie/internal/plugin/host.js#L829) |
-| name | VariableDeclaration | keepBad | [830](../../magpie/internal/plugin/host.js#L830) |
-| f | VariableDeclaration | keepBad | [831](../../magpie/internal/plugin/host.js#L831) |
-| e | VariableDeclaration | keepBad | [834](../../magpie/internal/plugin/host.js#L834) |
-| old | VariableDeclaration | keepBad | [836](../../magpie/internal/plugin/host.js#L836) |
-| off | VariableDeclaration | keepBad | [844](../../magpie/internal/plugin/host.js#L844) |
-| e | VariableDeclaration | keepBad | [846](../../magpie/internal/plugin/host.js#L846) |
-| keepAuth | FunctionDeclaration |  | [863](../../magpie/internal/plugin/host.js#L863) |
-| buf | VariableDeclaration | keepAuth | [864](../../magpie/internal/plugin/host.js#L864) |
-| bak | VariableDeclaration | keepAuth | [870](../../magpie/internal/plugin/host.js#L870) |
-| old | VariableDeclaration | keepAuth | [871](../../magpie/internal/plugin/host.js#L871) |
-| writeAuth | FunctionDeclaration |  | [878](../../magpie/internal/plugin/host.js#L878) |
-| pause | FunctionDeclaration |  | [884](../../magpie/internal/plugin/host.js#L884) |
-| AUTH_LOCK_STALE | VariableDeclaration |  | [894](../../magpie/internal/plugin/host.js#L894) |
-| lockAuth | FunctionDeclaration |  | [896](../../magpie/internal/plugin/host.js#L896) |
-| lock | VariableDeclaration | lockAuth | [897](../../magpie/internal/plugin/host.js#L897) |
-| start | VariableDeclaration | lockAuth | [899](../../magpie/internal/plugin/host.js#L899) |
-| e | VariableDeclaration | lockAuth | [907](../../magpie/internal/plugin/host.js#L907) |
-| old | VariableDeclaration | lockAuth | [910](../../magpie/internal/plugin/host.js#L910) |
-| changeAuth | FunctionDeclaration |  | [925](../../magpie/internal/plugin/host.js#L925) |
-| unlock | VariableDeclaration | changeAuth | [926](../../magpie/internal/plugin/host.js#L926) |
-| { all, known } | VariableDeclaration | changeAuth | [928](../../magpie/internal/plugin/host.js#L928) |
-| all | BindingElement | changeAuth.{ all, known } | [928](../../magpie/internal/plugin/host.js#L928) |
-| known | BindingElement | changeAuth.{ all, known } | [928](../../magpie/internal/plugin/host.js#L928) |
-| out | VariableDeclaration | changeAuth | [929](../../magpie/internal/plugin/host.js#L929) |
-| setAuth | FunctionDeclaration |  | [939](../../magpie/internal/plugin/host.js#L939) |
-| removeAuth | FunctionDeclaration |  | [947](../../magpie/internal/plugin/host.js#L947) |
-| scope | VariableDeclaration |  | [958](../../magpie/internal/plugin/host.js#L958) |
-| providerOf | VariableDeclaration |  | [960](../../magpie/internal/plugin/host.js#L960) |
-| accountsOf | FunctionDeclaration |  | [964](../../magpie/internal/plugin/host.js#L964) |
-| keyFor | FunctionDeclaration |  | [972](../../magpie/internal/plugin/host.js#L972) |
-| s | VariableDeclaration | keyFor | [973](../../magpie/internal/plugin/host.js#L973) |
-| accountKey | FunctionDeclaration |  | [979](../../magpie/internal/plugin/host.js#L979) |
-| freshKey | FunctionDeclaration |  | [986](../../magpie/internal/plugin/host.js#L986) |
-| all | VariableDeclaration | freshKey | [987](../../magpie/internal/plugin/host.js#L987) |
-| k | VariableDeclaration | freshKey | [990](../../magpie/internal/plugin/host.js#L990) |
-| inScope | FunctionDeclaration |  | [995](../../magpie/internal/plugin/host.js#L995) |
-| whoOf | FunctionDeclaration |  | [999](../../magpie/internal/plugin/host.js#L999) |
-| hintOf | FunctionDeclaration |  | [1004](../../magpie/internal/plugin/host.js#L1004) |
-| secretOf | FunctionDeclaration |  | [1008](../../magpie/internal/plugin/host.js#L1008) |
-| uidOf | FunctionDeclaration |  | [1014](../../magpie/internal/plugin/host.js#L1014) |
-| settle | FunctionDeclaration |  | [1022](../../magpie/internal/plugin/host.js#L1022) |
-| k | VariableDeclaration | settle | [1023](../../magpie/internal/plugin/host.js#L1023) |
-| now | VariableDeclaration | settle.k | [1024](../../magpie/internal/plugin/host.js#L1024) |
-| who | VariableDeclaration | settle.k | [1026](../../magpie/internal/plugin/host.js#L1026) |
-| secret | VariableDeclaration | settle.k | [1027](../../magpie/internal/plugin/host.js#L1027) |
-| k | VariableDeclaration | settle.k | [1028](../../magpie/internal/plugin/host.js#L1028) |
-| was | VariableDeclaration | settle.k | [1030](../../magpie/internal/plugin/host.js#L1030) |
-| other | VariableDeclaration | settle.k | [1031](../../magpie/internal/plugin/host.js#L1031) |
-| stub | FunctionDeclaration |  | [1051](../../magpie/internal/plugin/host.js#L1051) |
-| get | MethodDeclaration | stub | [1053](../../magpie/internal/plugin/host.js#L1053) |
-| apply | MethodDeclaration | stub | [1057](../../magpie/internal/plugin/host.js#L1057) |
-| makeClient | FunctionDeclaration |  | [1063](../../magpie/internal/plugin/host.js#L1063) |
-| known | VariableDeclaration | makeClient | [1064](../../magpie/internal/plugin/host.js#L1064) |
-| set | PropertyAssignment | makeClient.known | [1067](../../magpie/internal/plugin/host.js#L1067) |
-| id | VariableDeclaration | makeClient.known.set | [1068](../../magpie/internal/plugin/host.js#L1068) |
-| body | VariableDeclaration | makeClient.known.set | [1069](../../magpie/internal/plugin/host.js#L1069) |
-| key | VariableDeclaration | makeClient.known.set | [1074](../../magpie/internal/plugin/host.js#L1074) |
-| kept | VariableDeclaration | makeClient.known.set | [1075](../../magpie/internal/plugin/host.js#L1075) |
-| remove | PropertyAssignment | makeClient.known | [1086](../../magpie/internal/plugin/host.js#L1086) |
-| id | VariableDeclaration | makeClient.known.remove | [1087](../../magpie/internal/plugin/host.js#L1087) |
-| showToast | PropertyAssignment | makeClient.known | [1093](../../magpie/internal/plugin/host.js#L1093) |
-| b | VariableDeclaration | makeClient.known.showToast | [1094](../../magpie/internal/plugin/host.js#L1094) |
-| log | PropertyAssignment | makeClient.known | [1100](../../magpie/internal/plugin/host.js#L1100) |
-| b | VariableDeclaration | makeClient.known.log | [1101](../../magpie/internal/plugin/host.js#L1101) |
-| get | PropertyAssignment | makeClient.known | [1107](../../magpie/internal/plugin/host.js#L1107) |
-| wrap | VariableDeclaration | makeClient | [1110](../../magpie/internal/plugin/host.js#L1110) |
-| get | MethodDeclaration | makeClient.wrap | [1112](../../magpie/internal/plugin/host.js#L1112) |
-| v | VariableDeclaration | makeClient.wrap.get | [1114](../../magpie/internal/plugin/host.js#L1114) |
-| INDEX_FILES | VariableDeclaration |  | [1126](../../magpie/internal/plugin/host.js#L1126) |
-| readJSON | FunctionDeclaration |  | [1128](../../magpie/internal/plugin/host.js#L1128) |
-| entries | FunctionDeclaration |  | [1141](../../magpie/internal/plugin/host.js#L1141) |
-| stat | VariableDeclaration | entries | [1142](../../magpie/internal/plugin/host.js#L1142) |
-| out | VariableDeclaration | entries | [1145](../../magpie/internal/plugin/host.js#L1145) |
+| readFileSteady | FunctionDeclaration |  | [720](../../magpie/internal/plugin/host.js#L720) |
+| i | VariableDeclaration | readFileSteady | [721](../../magpie/internal/plugin/host.js#L721) |
+| e | VariableDeclaration | readFileSteady | [724](../../magpie/internal/plugin/host.js#L724) |
+| describeBad | FunctionDeclaration |  | [735](../../magpie/internal/plugin/host.js#L735) |
+| authRecovered | VariableDeclaration |  | [741](../../magpie/internal/plugin/host.js#L741) |
+| authUnread | VariableDeclaration |  | [742](../../magpie/internal/plugin/host.js#L742) |
+| readAuthState | FunctionDeclaration |  | [747](../../magpie/internal/plugin/host.js#L747) |
+| v | VariableDeclaration | readAuthState | [749](../../magpie/internal/plugin/host.js#L749) |
+| why | VariableDeclaration | readAuthState | [751](../../magpie/internal/plugin/host.js#L751) |
+| bak | VariableDeclaration | readAuthState | [752](../../magpie/internal/plugin/host.js#L752) |
+| authSeen | VariableDeclaration |  | [777](../../magpie/internal/plugin/host.js#L777) |
+| AUTH_SETTLED | VariableDeclaration |  | [778](../../magpie/internal/plugin/host.js#L778) |
+| readAuth | FunctionDeclaration |  | [782](../../magpie/internal/plugin/host.js#L782) |
+| st | VariableDeclaration | readAuth | [783](../../magpie/internal/plugin/host.js#L783) |
+| e | VariableDeclaration | readAuth | [787](../../magpie/internal/plugin/host.js#L787) |
+| same | VariableDeclaration | readAuth | [788](../../magpie/internal/plugin/host.js#L788) |
+| buf | VariableDeclaration | readAuth | [790](../../magpie/internal/plugin/host.js#L790) |
+| s | VariableDeclaration | readAuth | [795](../../magpie/internal/plugin/host.js#L795) |
+| authCopy | FunctionDeclaration |  | [802](../../magpie/internal/plugin/host.js#L802) |
+| all | VariableDeclaration | authCopy | [803](../../magpie/internal/plugin/host.js#L803) |
+| v | VariableDeclaration | authCopy | [804](../../magpie/internal/plugin/host.js#L804) |
+| writeDurable | FunctionDeclaration |  | [813](../../magpie/internal/plugin/host.js#L813) |
+| tmp | VariableDeclaration | writeDurable | [814](../../magpie/internal/plugin/host.js#L814) |
+| f | VariableDeclaration | writeDurable | [816](../../magpie/internal/plugin/host.js#L816) |
+| off | VariableDeclaration | writeDurable | [818](../../magpie/internal/plugin/host.js#L818) |
+| i | VariableDeclaration | writeDurable | [824](../../magpie/internal/plugin/host.js#L824) |
+| e | VariableDeclaration | writeDurable | [827](../../magpie/internal/plugin/host.js#L827) |
+| e | VariableDeclaration | writeDurable | [832](../../magpie/internal/plugin/host.js#L832) |
+| badStamp | FunctionDeclaration |  | [841](../../magpie/internal/plugin/host.js#L841) |
+| p | VariableDeclaration | badStamp | [842](../../magpie/internal/plugin/host.js#L842) |
+| keepBad | FunctionDeclaration |  | [849](../../magpie/internal/plugin/host.js#L849) |
+| stamp | VariableDeclaration | keepBad | [850](../../magpie/internal/plugin/host.js#L850) |
+| i | VariableDeclaration | keepBad | [851](../../magpie/internal/plugin/host.js#L851) |
+| name | VariableDeclaration | keepBad | [852](../../magpie/internal/plugin/host.js#L852) |
+| f | VariableDeclaration | keepBad | [853](../../magpie/internal/plugin/host.js#L853) |
+| e | VariableDeclaration | keepBad | [856](../../magpie/internal/plugin/host.js#L856) |
+| old | VariableDeclaration | keepBad | [858](../../magpie/internal/plugin/host.js#L858) |
+| off | VariableDeclaration | keepBad | [866](../../magpie/internal/plugin/host.js#L866) |
+| e | VariableDeclaration | keepBad | [868](../../magpie/internal/plugin/host.js#L868) |
+| keepAuth | FunctionDeclaration |  | [885](../../magpie/internal/plugin/host.js#L885) |
+| buf | VariableDeclaration | keepAuth | [886](../../magpie/internal/plugin/host.js#L886) |
+| bak | VariableDeclaration | keepAuth | [892](../../magpie/internal/plugin/host.js#L892) |
+| old | VariableDeclaration | keepAuth | [893](../../magpie/internal/plugin/host.js#L893) |
+| writeAuth | FunctionDeclaration |  | [900](../../magpie/internal/plugin/host.js#L900) |
+| pause | FunctionDeclaration |  | [906](../../magpie/internal/plugin/host.js#L906) |
+| AUTH_LOCK_STALE | VariableDeclaration |  | [916](../../magpie/internal/plugin/host.js#L916) |
+| lockAuth | FunctionDeclaration |  | [918](../../magpie/internal/plugin/host.js#L918) |
+| lock | VariableDeclaration | lockAuth | [919](../../magpie/internal/plugin/host.js#L919) |
+| start | VariableDeclaration | lockAuth | [921](../../magpie/internal/plugin/host.js#L921) |
+| e | VariableDeclaration | lockAuth | [929](../../magpie/internal/plugin/host.js#L929) |
+| old | VariableDeclaration | lockAuth | [932](../../magpie/internal/plugin/host.js#L932) |
+| changeAuth | FunctionDeclaration |  | [947](../../magpie/internal/plugin/host.js#L947) |
+| unlock | VariableDeclaration | changeAuth | [948](../../magpie/internal/plugin/host.js#L948) |
+| { all, known } | VariableDeclaration | changeAuth | [950](../../magpie/internal/plugin/host.js#L950) |
+| all | BindingElement | changeAuth.{ all, known } | [950](../../magpie/internal/plugin/host.js#L950) |
+| known | BindingElement | changeAuth.{ all, known } | [950](../../magpie/internal/plugin/host.js#L950) |
+| out | VariableDeclaration | changeAuth | [951](../../magpie/internal/plugin/host.js#L951) |
+| setAuth | FunctionDeclaration |  | [961](../../magpie/internal/plugin/host.js#L961) |
+| removeAuth | FunctionDeclaration |  | [969](../../magpie/internal/plugin/host.js#L969) |
+| scope | VariableDeclaration |  | [980](../../magpie/internal/plugin/host.js#L980) |
+| providerOf | VariableDeclaration |  | [982](../../magpie/internal/plugin/host.js#L982) |
+| accountsOf | FunctionDeclaration |  | [986](../../magpie/internal/plugin/host.js#L986) |
+| keyFor | FunctionDeclaration |  | [994](../../magpie/internal/plugin/host.js#L994) |
+| s | VariableDeclaration | keyFor | [995](../../magpie/internal/plugin/host.js#L995) |
+| accountKey | FunctionDeclaration |  | [1001](../../magpie/internal/plugin/host.js#L1001) |
+| freshKey | FunctionDeclaration |  | [1008](../../magpie/internal/plugin/host.js#L1008) |
+| all | VariableDeclaration | freshKey | [1009](../../magpie/internal/plugin/host.js#L1009) |
+| k | VariableDeclaration | freshKey | [1012](../../magpie/internal/plugin/host.js#L1012) |
+| inScope | FunctionDeclaration |  | [1017](../../magpie/internal/plugin/host.js#L1017) |
+| whoOf | FunctionDeclaration |  | [1021](../../magpie/internal/plugin/host.js#L1021) |
+| hintOf | FunctionDeclaration |  | [1026](../../magpie/internal/plugin/host.js#L1026) |
+| secretOf | FunctionDeclaration |  | [1030](../../magpie/internal/plugin/host.js#L1030) |
+| uidOf | FunctionDeclaration |  | [1036](../../magpie/internal/plugin/host.js#L1036) |
+| settle | FunctionDeclaration |  | [1044](../../magpie/internal/plugin/host.js#L1044) |
+| k | VariableDeclaration | settle | [1045](../../magpie/internal/plugin/host.js#L1045) |
+| now | VariableDeclaration | settle.k | [1046](../../magpie/internal/plugin/host.js#L1046) |
+| who | VariableDeclaration | settle.k | [1048](../../magpie/internal/plugin/host.js#L1048) |
+| secret | VariableDeclaration | settle.k | [1049](../../magpie/internal/plugin/host.js#L1049) |
+| k | VariableDeclaration | settle.k | [1050](../../magpie/internal/plugin/host.js#L1050) |
+| was | VariableDeclaration | settle.k | [1052](../../magpie/internal/plugin/host.js#L1052) |
+| other | VariableDeclaration | settle.k | [1053](../../magpie/internal/plugin/host.js#L1053) |
+| stub | FunctionDeclaration |  | [1073](../../magpie/internal/plugin/host.js#L1073) |
+| get | MethodDeclaration | stub | [1075](../../magpie/internal/plugin/host.js#L1075) |
+| apply | MethodDeclaration | stub | [1079](../../magpie/internal/plugin/host.js#L1079) |
+| makeClient | FunctionDeclaration |  | [1085](../../magpie/internal/plugin/host.js#L1085) |
+| known | VariableDeclaration | makeClient | [1086](../../magpie/internal/plugin/host.js#L1086) |
+| set | PropertyAssignment | makeClient.known | [1089](../../magpie/internal/plugin/host.js#L1089) |
+| id | VariableDeclaration | makeClient.known.set | [1090](../../magpie/internal/plugin/host.js#L1090) |
+| body | VariableDeclaration | makeClient.known.set | [1091](../../magpie/internal/plugin/host.js#L1091) |
+| key | VariableDeclaration | makeClient.known.set | [1096](../../magpie/internal/plugin/host.js#L1096) |
+| kept | VariableDeclaration | makeClient.known.set | [1097](../../magpie/internal/plugin/host.js#L1097) |
+| remove | PropertyAssignment | makeClient.known | [1108](../../magpie/internal/plugin/host.js#L1108) |
+| id | VariableDeclaration | makeClient.known.remove | [1109](../../magpie/internal/plugin/host.js#L1109) |
+| showToast | PropertyAssignment | makeClient.known | [1115](../../magpie/internal/plugin/host.js#L1115) |
+| b | VariableDeclaration | makeClient.known.showToast | [1116](../../magpie/internal/plugin/host.js#L1116) |
+| log | PropertyAssignment | makeClient.known | [1122](../../magpie/internal/plugin/host.js#L1122) |
+| b | VariableDeclaration | makeClient.known.log | [1123](../../magpie/internal/plugin/host.js#L1123) |
+| get | PropertyAssignment | makeClient.known | [1129](../../magpie/internal/plugin/host.js#L1129) |
+| wrap | VariableDeclaration | makeClient | [1132](../../magpie/internal/plugin/host.js#L1132) |
+| get | MethodDeclaration | makeClient.wrap | [1134](../../magpie/internal/plugin/host.js#L1134) |

@@ -4,27 +4,34 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/find.go) · page 1/1
 
-Source SHA-256: 13d1d5a5182fdccaa583c5bb26ccc85f222ef53c3876ee3edcba62cd21f3b88f
+Source SHA-256: 228085f14024a4f4c391181516a2038e4176d65f0d14db3437ec8ed0863381b1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Find | function_declaration |  | [18](../../magpie/internal/pii/find.go#L18) |
-| chunkSize | const_spec |  | [53](../../magpie/internal/pii/find.go#L53) |
-| sep | const_spec |  | [57](../../magpie/internal/pii/find.go#L57) |
-| part | struct_type |  | [59](../../magpie/internal/pii/find.go#L59) |
-| text | field_declaration | part | [59](../../magpie/internal/pii/find.go#L59) |
-| at | field_declaration | part | [59](../../magpie/internal/pii/find.go#L59) |
-| join | function_declaration |  | [62](../../magpie/internal/pii/find.go#L62) |
-| within | function_declaration |  | [87](../../magpie/internal/pii/find.go#L87) |
-| cache | var_spec |  | [99](../../magpie/internal/pii/find.go#L99) |
-| lru | struct_type |  | [101](../../magpie/internal/pii/find.go#L101) |
-| mu | field_declaration | lru | [102](../../magpie/internal/pii/find.go#L102) |
-| max | field_declaration | lru | [103](../../magpie/internal/pii/find.go#L103) |
-| ll | field_declaration | lru | [104](../../magpie/internal/pii/find.go#L104) |
-| m | field_declaration | lru | [105](../../magpie/internal/pii/find.go#L105) |
-| entry | struct_type |  | [108](../../magpie/internal/pii/find.go#L108) |
-| k | field_declaration | entry | [109](../../magpie/internal/pii/find.go#L109) |
-| fs | field_declaration | entry | [110](../../magpie/internal/pii/find.go#L110) |
-| newLRU | function_declaration |  | [113](../../magpie/internal/pii/find.go#L113) |
-| get | method_declaration | *lru | [115](../../magpie/internal/pii/find.go#L115) |
-| put | method_declaration | *lru | [124](../../magpie/internal/pii/find.go#L124) |
+| Find | function_declaration |  | [20](../../magpie/internal/pii/find.go#L20) |
+| FindContext | function_declaration |  | [29](../../magpie/internal/pii/find.go#L29) |
+| result | struct_type | FindContext | [46](../../magpie/internal/pii/find.go#L46) |
+| out | field_declaration | FindContext.result | [47](../../magpie/internal/pii/find.go#L47) |
+| err | field_declaration | FindContext.result | [48](../../magpie/internal/pii/find.go#L48) |
+| waitErr | function_declaration |  | [86](../../magpie/internal/pii/find.go#L86) |
+| cached | function_declaration |  | [91](../../magpie/internal/pii/find.go#L91) |
+| fits | function_declaration |  | [107](../../magpie/internal/pii/find.go#L107) |
+| chunkSize | const_spec |  | [118](../../magpie/internal/pii/find.go#L118) |
+| sep | const_spec |  | [122](../../magpie/internal/pii/find.go#L122) |
+| part | struct_type |  | [124](../../magpie/internal/pii/find.go#L124) |
+| text | field_declaration | part | [124](../../magpie/internal/pii/find.go#L124) |
+| at | field_declaration | part | [124](../../magpie/internal/pii/find.go#L124) |
+| join | function_declaration |  | [127](../../magpie/internal/pii/find.go#L127) |
+| within | function_declaration |  | [152](../../magpie/internal/pii/find.go#L152) |
+| cache | var_spec |  | [164](../../magpie/internal/pii/find.go#L164) |
+| lru | struct_type |  | [166](../../magpie/internal/pii/find.go#L166) |
+| mu | field_declaration | lru | [167](../../magpie/internal/pii/find.go#L167) |
+| max | field_declaration | lru | [168](../../magpie/internal/pii/find.go#L168) |
+| ll | field_declaration | lru | [169](../../magpie/internal/pii/find.go#L169) |
+| m | field_declaration | lru | [170](../../magpie/internal/pii/find.go#L170) |
+| entry | struct_type |  | [173](../../magpie/internal/pii/find.go#L173) |
+| k | field_declaration | entry | [174](../../magpie/internal/pii/find.go#L174) |
+| fs | field_declaration | entry | [175](../../magpie/internal/pii/find.go#L175) |
+| newLRU | function_declaration |  | [178](../../magpie/internal/pii/find.go#L178) |
+| get | method_declaration | *lru | [180](../../magpie/internal/pii/find.go#L180) |
+| put | method_declaration | *lru | [189](../../magpie/internal/pii/find.go#L189) |

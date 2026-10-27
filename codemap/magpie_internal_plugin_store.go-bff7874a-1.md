@@ -4,85 +4,86 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/store.go) · page 1/1
 
-Source SHA-256: 1b15944886a7a69f9794fb15cbfdf1ab76bee01cd876237bfcbbce0faea67aa0
+Source SHA-256: 87ee9c97f8eaf65f03b401d2cbe9b59c34a791a17cff70fd21e5b5a585120490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Entry | struct_type |  | [47](../../magpie/internal/plugin/store.go#L47) |
-| Spec | field_declaration | Entry | [51](../../magpie/internal/plugin/store.go#L51) |
-| Off | field_declaration | Entry | [53](../../magpie/internal/plugin/store.go#L53) |
-| Options | field_declaration | Entry | [56](../../magpie/internal/plugin/store.go#L56) |
-| List | struct_type |  | [60](../../magpie/internal/plugin/store.go#L60) |
-| Plugins | field_declaration | List | [61](../../magpie/internal/plugin/store.go#L61) |
-| Config | field_declaration | List | [65](../../magpie/internal/plugin/store.go#L65) |
-| Prefer | field_declaration | List | [70](../../magpie/internal/plugin/store.go#L70) |
-| listMu | var_spec |  | [73](../../magpie/internal/plugin/store.go#L73) |
-| installMu | var_spec |  | [81](../../magpie/internal/plugin/store.go#L81) |
-| runBun | function_declaration |  | [84](../../magpie/internal/plugin/store.go#L84) |
-| Dir | function_declaration |  | [91](../../magpie/internal/plugin/store.go#L91) |
-| AuthPath | function_declaration |  | [94](../../magpie/internal/plugin/store.go#L94) |
-| authLockStale | const_spec |  | [98](../../magpie/internal/plugin/store.go#L98) |
-| lockAuth | function_declaration |  | [104](../../magpie/internal/plugin/store.go#L104) |
-| listPath | function_declaration |  | [123](../../magpie/internal/plugin/store.go#L123) |
-| ListPath | function_declaration |  | [126](../../magpie/internal/plugin/store.go#L126) |
-| pluginsList | var_spec |  | [132](../../magpie/internal/plugin/store.go#L132) |
-| list | function_declaration |  | [141](../../magpie/internal/plugin/store.go#L141) |
-| Load | function_declaration |  | [165](../../magpie/internal/plugin/store.go#L165) |
-| clonePlugins | function_declaration |  | [171](../../magpie/internal/plugin/store.go#L171) |
-| cloneMap | function_declaration |  | [184](../../magpie/internal/plugin/store.go#L184) |
-| cloneJSON | function_declaration |  | [197](../../magpie/internal/plugin/store.go#L197) |
-| writeWhole | function_declaration |  | [217](../../magpie/internal/plugin/store.go#L217) |
-| save | function_declaration |  | [221](../../magpie/internal/plugin/store.go#L221) |
-| listSeen | var_spec |  | [243](../../magpie/internal/plugin/store.go#L243) |
-| listStamp | function_declaration |  | [253](../../magpie/internal/plugin/store.go#L253) |
-| hostStale | var_spec |  | [267](../../magpie/internal/plugin/store.go#L267) |
-| checkList | function_declaration |  | [272](../../magpie/internal/plugin/store.go#L272) |
-| IsPath | function_declaration |  | [293](../../magpie/internal/plugin/store.go#L293) |
-| driveRooted | var_spec |  | [297](../../magpie/internal/plugin/store.go#L297) |
-| pkgName | var_spec |  | [299](../../magpie/internal/plugin/store.go#L299) |
-| gitSpec | var_spec |  | [305](../../magpie/internal/plugin/store.go#L305) |
-| IsGit | function_declaration |  | [310](../../magpie/internal/plugin/store.go#L310) |
-| gitName | function_declaration |  | [315](../../magpie/internal/plugin/store.go#L315) |
-| Dependencies | field_declaration | gitName | [317](../../magpie/internal/plugin/store.go#L317) |
-| Name | function_declaration |  | [334](../../magpie/internal/plugin/store.go#L334) |
-| Target | function_declaration |  | [353](../../magpie/internal/plugin/store.go#L353) |
-| Add | function_declaration |  | [368](../../magpie/internal/plugin/store.go#L368) |
-| AddExact | function_declaration |  | [378](../../magpie/internal/plugin/store.go#L378) |
-| add | function_declaration |  | [382](../../magpie/internal/plugin/store.go#L382) |
-| indexFiles | var_spec |  | [468](../../magpie/internal/plugin/store.go#L468) |
-| notPlugin | function_declaration |  | [475](../../magpie/internal/plugin/store.go#L475) |
-| Name | field_declaration | notPlugin | [493](../../magpie/internal/plugin/store.go#L493) |
-| Main | field_declaration | notPlugin | [494](../../magpie/internal/plugin/store.go#L494) |
-| Exports | field_declaration | notPlugin | [495](../../magpie/internal/plugin/store.go#L495) |
-| Bin | field_declaration | notPlugin | [496](../../magpie/internal/plugin/store.go#L496) |
-| Update | function_declaration |  | [528](../../magpie/internal/plugin/store.go#L528) |
-| indexOf | function_declaration |  | [567](../../magpie/internal/plugin/store.go#L567) |
-| Remove | function_declaration |  | [575](../../magpie/internal/plugin/store.go#L575) |
-| SetOff | function_declaration |  | [601](../../magpie/internal/plugin/store.go#L601) |
-| Prefer | function_declaration |  | [622](../../magpie/internal/plugin/store.go#L622) |
-| SetOptions | function_declaration |  | [646](../../magpie/internal/plugin/store.go#L646) |
-| ShortName | function_declaration |  | [676](../../magpie/internal/plugin/store.go#L676) |
-| bareName | function_declaration |  | [688](../../magpie/internal/plugin/store.go#L688) |
-| Called | function_declaration |  | [698](../../magpie/internal/plugin/store.go#L698) |
-| install | function_declaration |  | [704](../../magpie/internal/plugin/store.go#L704) |
-| bunAdd | function_declaration |  | [746](../../magpie/internal/plugin/store.go#L746) |
-| installAt | function_declaration |  | [769](../../magpie/internal/plugin/store.go#L769) |
-| minAge | var_spec |  | [797](../../magpie/internal/plugin/store.go#L797) |
-| ageText | function_declaration |  | [800](../../magpie/internal/plugin/store.go#L800) |
-| plural | function_declaration |  | [815](../../magpie/internal/plugin/store.go#L815) |
-| newestOf | var_spec |  | [824](../../magpie/internal/plugin/store.go#L824) |
-| piAgent | const_spec |  | [842](../../magpie/internal/plugin/store.go#L842) |
-| IsPi | function_declaration |  | [846](../../magpie/internal/plugin/store.go#L846) |
-| Pi | field_declaration | IsPi | [869](../../magpie/internal/plugin/store.go#L869) |
-| Keywords | field_declaration | IsPi | [870](../../magpie/internal/plugin/store.go#L870) |
-| Deps | field_declaration | IsPi | [871](../../magpie/internal/plugin/store.go#L871) |
-| Peers | field_declaration | IsPi | [872](../../magpie/internal/plugin/store.go#L872) |
-| ensurePi | function_declaration |  | [894](../../magpie/internal/plugin/store.go#L894) |
-| reinstall | function_declaration |  | [910](../../magpie/internal/plugin/store.go#L910) |
-| lastLines | function_declaration |  | [932](../../magpie/internal/plugin/store.go#L932) |
-| command | function_declaration |  | [940](../../magpie/internal/plugin/store.go#L940) |
-| env | function_declaration |  | [945](../../magpie/internal/plugin/store.go#L945) |
-| Version | function_declaration |  | [949](../../magpie/internal/plugin/store.go#L949) |
-| Version | field_declaration | Version | [955](../../magpie/internal/plugin/store.go#L955) |
-| PackageName | function_declaration |  | [965](../../magpie/internal/plugin/store.go#L965) |
-| Name | field_declaration | PackageName | [974](../../magpie/internal/plugin/store.go#L974) |
+| Entry | struct_type |  | [48](../../magpie/internal/plugin/store.go#L48) |
+| Spec | field_declaration | Entry | [52](../../magpie/internal/plugin/store.go#L52) |
+| Off | field_declaration | Entry | [54](../../magpie/internal/plugin/store.go#L54) |
+| Options | field_declaration | Entry | [57](../../magpie/internal/plugin/store.go#L57) |
+| List | struct_type |  | [61](../../magpie/internal/plugin/store.go#L61) |
+| Plugins | field_declaration | List | [62](../../magpie/internal/plugin/store.go#L62) |
+| Config | field_declaration | List | [66](../../magpie/internal/plugin/store.go#L66) |
+| Prefer | field_declaration | List | [71](../../magpie/internal/plugin/store.go#L71) |
+| listMu | var_spec |  | [74](../../magpie/internal/plugin/store.go#L74) |
+| installMu | var_spec |  | [82](../../magpie/internal/plugin/store.go#L82) |
+| runBun | function_declaration |  | [85](../../magpie/internal/plugin/store.go#L85) |
+| mendPackageJSON | function_declaration |  | [101](../../magpie/internal/plugin/store.go#L101) |
+| Dir | function_declaration |  | [121](../../magpie/internal/plugin/store.go#L121) |
+| AuthPath | function_declaration |  | [124](../../magpie/internal/plugin/store.go#L124) |
+| authLockStale | const_spec |  | [128](../../magpie/internal/plugin/store.go#L128) |
+| lockAuth | function_declaration |  | [134](../../magpie/internal/plugin/store.go#L134) |
+| listPath | function_declaration |  | [153](../../magpie/internal/plugin/store.go#L153) |
+| ListPath | function_declaration |  | [156](../../magpie/internal/plugin/store.go#L156) |
+| pluginsList | var_spec |  | [162](../../magpie/internal/plugin/store.go#L162) |
+| list | function_declaration |  | [171](../../magpie/internal/plugin/store.go#L171) |
+| Load | function_declaration |  | [195](../../magpie/internal/plugin/store.go#L195) |
+| clonePlugins | function_declaration |  | [201](../../magpie/internal/plugin/store.go#L201) |
+| cloneMap | function_declaration |  | [214](../../magpie/internal/plugin/store.go#L214) |
+| cloneJSON | function_declaration |  | [227](../../magpie/internal/plugin/store.go#L227) |
+| writeWhole | function_declaration |  | [247](../../magpie/internal/plugin/store.go#L247) |
+| save | function_declaration |  | [251](../../magpie/internal/plugin/store.go#L251) |
+| listSeen | var_spec |  | [273](../../magpie/internal/plugin/store.go#L273) |
+| listStamp | function_declaration |  | [283](../../magpie/internal/plugin/store.go#L283) |
+| hostStale | var_spec |  | [297](../../magpie/internal/plugin/store.go#L297) |
+| checkList | function_declaration |  | [302](../../magpie/internal/plugin/store.go#L302) |
+| IsPath | function_declaration |  | [323](../../magpie/internal/plugin/store.go#L323) |
+| driveRooted | var_spec |  | [327](../../magpie/internal/plugin/store.go#L327) |
+| pkgName | var_spec |  | [329](../../magpie/internal/plugin/store.go#L329) |
+| gitSpec | var_spec |  | [335](../../magpie/internal/plugin/store.go#L335) |
+| IsGit | function_declaration |  | [340](../../magpie/internal/plugin/store.go#L340) |
+| gitName | function_declaration |  | [345](../../magpie/internal/plugin/store.go#L345) |
+| Dependencies | field_declaration | gitName | [347](../../magpie/internal/plugin/store.go#L347) |
+| Name | function_declaration |  | [364](../../magpie/internal/plugin/store.go#L364) |
+| Target | function_declaration |  | [383](../../magpie/internal/plugin/store.go#L383) |
+| Add | function_declaration |  | [398](../../magpie/internal/plugin/store.go#L398) |
+| AddExact | function_declaration |  | [408](../../magpie/internal/plugin/store.go#L408) |
+| add | function_declaration |  | [412](../../magpie/internal/plugin/store.go#L412) |
+| indexFiles | var_spec |  | [498](../../magpie/internal/plugin/store.go#L498) |
+| notPlugin | function_declaration |  | [505](../../magpie/internal/plugin/store.go#L505) |
+| Name | field_declaration | notPlugin | [523](../../magpie/internal/plugin/store.go#L523) |
+| Main | field_declaration | notPlugin | [524](../../magpie/internal/plugin/store.go#L524) |
+| Exports | field_declaration | notPlugin | [525](../../magpie/internal/plugin/store.go#L525) |
+| Bin | field_declaration | notPlugin | [526](../../magpie/internal/plugin/store.go#L526) |
+| Update | function_declaration |  | [558](../../magpie/internal/plugin/store.go#L558) |
+| indexOf | function_declaration |  | [597](../../magpie/internal/plugin/store.go#L597) |
+| Remove | function_declaration |  | [605](../../magpie/internal/plugin/store.go#L605) |
+| SetOff | function_declaration |  | [631](../../magpie/internal/plugin/store.go#L631) |
+| Prefer | function_declaration |  | [652](../../magpie/internal/plugin/store.go#L652) |
+| SetOptions | function_declaration |  | [676](../../magpie/internal/plugin/store.go#L676) |
+| ShortName | function_declaration |  | [706](../../magpie/internal/plugin/store.go#L706) |
+| bareName | function_declaration |  | [718](../../magpie/internal/plugin/store.go#L718) |
+| Called | function_declaration |  | [728](../../magpie/internal/plugin/store.go#L728) |
+| install | function_declaration |  | [734](../../magpie/internal/plugin/store.go#L734) |
+| bunAdd | function_declaration |  | [778](../../magpie/internal/plugin/store.go#L778) |
+| installAt | function_declaration |  | [801](../../magpie/internal/plugin/store.go#L801) |
+| minAge | var_spec |  | [829](../../magpie/internal/plugin/store.go#L829) |
+| ageText | function_declaration |  | [832](../../magpie/internal/plugin/store.go#L832) |
+| plural | function_declaration |  | [847](../../magpie/internal/plugin/store.go#L847) |
+| newestOf | var_spec |  | [856](../../magpie/internal/plugin/store.go#L856) |
+| piAgent | const_spec |  | [874](../../magpie/internal/plugin/store.go#L874) |
+| IsPi | function_declaration |  | [878](../../magpie/internal/plugin/store.go#L878) |
+| Pi | field_declaration | IsPi | [901](../../magpie/internal/plugin/store.go#L901) |
+| Keywords | field_declaration | IsPi | [902](../../magpie/internal/plugin/store.go#L902) |
+| Deps | field_declaration | IsPi | [903](../../magpie/internal/plugin/store.go#L903) |
+| Peers | field_declaration | IsPi | [904](../../magpie/internal/plugin/store.go#L904) |
+| ensurePi | function_declaration |  | [926](../../magpie/internal/plugin/store.go#L926) |
+| reinstall | function_declaration |  | [942](../../magpie/internal/plugin/store.go#L942) |
+| lastLines | function_declaration |  | [964](../../magpie/internal/plugin/store.go#L964) |
+| command | function_declaration |  | [972](../../magpie/internal/plugin/store.go#L972) |
+| env | function_declaration |  | [977](../../magpie/internal/plugin/store.go#L977) |
+| Version | function_declaration |  | [981](../../magpie/internal/plugin/store.go#L981) |
+| Version | field_declaration | Version | [987](../../magpie/internal/plugin/store.go#L987) |
+| PackageName | function_declaration |  | [997](../../magpie/internal/plugin/store.go#L997) |
+| Name | field_declaration | PackageName | [1006](../../magpie/internal/plugin/store.go#L1006) |

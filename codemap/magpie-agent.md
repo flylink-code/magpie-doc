@@ -30,13 +30,13 @@
 | [magpie/internal/agent/cindy.go](../../magpie/internal/agent/cindy.go) | 16 | [1](magpie_internal_agent_cindy.go-08ff8d5d-1.md) |
 | [magpie/internal/agent/claude.go](../../magpie/internal/agent/claude.go) | 82 | [1](magpie_internal_agent_claude.go-a939d854-1.md) |
 | [magpie/internal/agent/claude_budget.go](../../magpie/internal/agent/claude_budget.go) | 11 | [1](magpie_internal_agent_claude_budget.go-1264ce33-1.md) |
-| [magpie/internal/agent/claudedesktop.go](../../magpie/internal/agent/claudedesktop.go) | 54 | [1](magpie_internal_agent_claudedesktop.go-1edf66d8-1.md) |
+| [magpie/internal/agent/claudedesktop.go](../../magpie/internal/agent/claudedesktop.go) | 65 | [1](magpie_internal_agent_claudedesktop.go-1edf66d8-1.md) |
 | [magpie/internal/agent/claudescience.go](../../magpie/internal/agent/claudescience.go) | 35 | [1](magpie_internal_agent_claudescience.go-59e9846b-1.md) |
 | [magpie/internal/agent/cline.go](../../magpie/internal/agent/cline.go) | 20 | [1](magpie_internal_agent_cline.go-056bd9e6-1.md) |
 | [magpie/internal/agent/cliupdate.go](../../magpie/internal/agent/cliupdate.go) | 99 | [1](magpie_internal_agent_cliupdate.go-856f1253-1.md) |
 | [magpie/internal/agent/cliupdate_shim.go](../../magpie/internal/agent/cliupdate_shim.go) | 15 | [1](magpie_internal_agent_cliupdate_shim.go-d799fd96-1.md) |
 | [magpie/internal/agent/codebuddy.go](../../magpie/internal/agent/codebuddy.go) | 3 | [1](magpie_internal_agent_codebuddy.go-90d057ad-1.md) |
-| [magpie/internal/agent/codex.go](../../magpie/internal/agent/codex.go) | 60 | [1](magpie_internal_agent_codex.go-38666842-1.md) |
+| [magpie/internal/agent/codex.go](../../magpie/internal/agent/codex.go) | 61 | [1](magpie_internal_agent_codex.go-38666842-1.md) |
 | [magpie/internal/agent/codex_app.go](../../magpie/internal/agent/codex_app.go) | 7 | [1](magpie_internal_agent_codex_app.go-cc9de6ff-1.md) |
 | [magpie/internal/agent/codex_async.go](../../magpie/internal/agent/codex_async.go) | 22 | [1](magpie_internal_agent_codex_async.go-5c886e70-1.md) |
 | [magpie/internal/agent/codex_daemon.go](../../magpie/internal/agent/codex_daemon.go) | 13 | [1](magpie_internal_agent_codex_daemon.go-b8a4e623-1.md) |
@@ -74,7 +74,7 @@
 | [magpie/internal/agent/jcode.go](../../magpie/internal/agent/jcode.go) | 29 | [1](magpie_internal_agent_jcode.go-3e5d98db-1.md) |
 | [magpie/internal/agent/keptaway.go](../../magpie/internal/agent/keptaway.go) | 21 | [1](magpie_internal_agent_keptaway.go-a17c5709-1.md) |
 | [magpie/internal/agent/kimi.go](../../magpie/internal/agent/kimi.go) | 18 | [1](magpie_internal_agent_kimi.go-22b6f5fb-1.md) |
-| [magpie/internal/agent/kirocrew.go](../../magpie/internal/agent/kirocrew.go) | 43 | [1](magpie_internal_agent_kirocrew.go-16545844-1.md) |
+| [magpie/internal/agent/kirocrew.go](../../magpie/internal/agent/kirocrew.go) | 53 | [1](magpie_internal_agent_kirocrew.go-16545844-1.md) |
 | [magpie/internal/agent/legacy.go](../../magpie/internal/agent/legacy.go) | 5 | [1](magpie_internal_agent_legacy.go-38895a9b-1.md) |
 | [magpie/internal/agent/lody.go](../../magpie/internal/agent/lody.go) | 22 | [1](magpie_internal_agent_lody.go-a2bdfc52-1.md) |
 | [magpie/internal/agent/minimax.go](../../magpie/internal/agent/minimax.go) | 25 | [1](magpie_internal_agent_minimax.go-b44f6ae5-1.md) |

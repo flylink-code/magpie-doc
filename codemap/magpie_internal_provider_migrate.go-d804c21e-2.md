@@ -4,27 +4,27 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate.go) · page 2/2
 
-Source SHA-256: fc5ec50682c50ea076394dacc10f686d4318bbd0021440137bf2fd1a13bc0714
+Source SHA-256: f43541f5ab960e09057b6c2466748680a858be87a47b4efc78faaaf4d10ed955
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Move | function_declaration |  | [569](../../magpie/internal/provider/migrate.go#L569) |
-| Adopt | function_declaration |  | [604](../../magpie/internal/provider/migrate.go#L604) |
-| move | function_declaration |  | [653](../../magpie/internal/provider/migrate.go#L653) |
-| refused | function_declaration |  | [745](../../magpie/internal/provider/migrate.go#L745) |
-| pluginListed | function_declaration |  | [750](../../magpie/internal/provider/migrate.go#L750) |
-| keepOrder | function_declaration |  | [757](../../magpie/internal/provider/migrate.go#L757) |
-| commitMove | function_declaration |  | [791](../../magpie/internal/provider/migrate.go#L791) |
-| tidyMoved | function_declaration |  | [829](../../magpie/internal/provider/migrate.go#L829) |
-| sameMoved | function_declaration |  | [860](../../magpie/internal/provider/migrate.go#L860) |
-| putBack | function_declaration |  | [868](../../magpie/internal/provider/migrate.go#L868) |
-| handBack | function_declaration |  | [908](../../magpie/internal/provider/migrate.go#L908) |
-| MoveRetiring | function_declaration |  | [998](../../magpie/internal/provider/migrate.go#L998) |
-| HandOver | function_declaration |  | [1036](../../magpie/internal/provider/migrate.go#L1036) |
-| pluginReady | function_declaration |  | [1085](../../magpie/internal/provider/migrate.go#L1085) |
-| keepMovedCurrent | function_declaration |  | [1098](../../magpie/internal/provider/migrate.go#L1098) |
-| KeepRetiringMoved | function_declaration |  | [1116](../../magpie/internal/provider/migrate.go#L1116) |
-| nextRetiringRun | function_declaration |  | [1146](../../magpie/internal/provider/migrate.go#L1146) |
-| MovedOnto | function_declaration |  | [1158](../../magpie/internal/provider/migrate.go#L1158) |
-| RemovePlugin | function_declaration |  | [1179](../../magpie/internal/provider/migrate.go#L1179) |
-| SetPluginOff | function_declaration |  | [1207](../../magpie/internal/provider/migrate.go#L1207) |
+| Move | function_declaration |  | [579](../../magpie/internal/provider/migrate.go#L579) |
+| Adopt | function_declaration |  | [614](../../magpie/internal/provider/migrate.go#L614) |
+| move | function_declaration |  | [663](../../magpie/internal/provider/migrate.go#L663) |
+| refused | function_declaration |  | [755](../../magpie/internal/provider/migrate.go#L755) |
+| pluginListed | function_declaration |  | [760](../../magpie/internal/provider/migrate.go#L760) |
+| keepOrder | function_declaration |  | [767](../../magpie/internal/provider/migrate.go#L767) |
+| commitMove | function_declaration |  | [801](../../magpie/internal/provider/migrate.go#L801) |
+| tidyMoved | function_declaration |  | [839](../../magpie/internal/provider/migrate.go#L839) |
+| sameMoved | function_declaration |  | [870](../../magpie/internal/provider/migrate.go#L870) |
+| putBack | function_declaration |  | [878](../../magpie/internal/provider/migrate.go#L878) |
+| handBack | function_declaration |  | [918](../../magpie/internal/provider/migrate.go#L918) |
+| MoveRetiring | function_declaration |  | [1008](../../magpie/internal/provider/migrate.go#L1008) |
+| HandOver | function_declaration |  | [1046](../../magpie/internal/provider/migrate.go#L1046) |
+| pluginReady | function_declaration |  | [1095](../../magpie/internal/provider/migrate.go#L1095) |
+| keepMovedCurrent | function_declaration |  | [1108](../../magpie/internal/provider/migrate.go#L1108) |
+| KeepRetiringMoved | function_declaration |  | [1126](../../magpie/internal/provider/migrate.go#L1126) |
+| nextRetiringRun | function_declaration |  | [1156](../../magpie/internal/provider/migrate.go#L1156) |
+| MovedOnto | function_declaration |  | [1168](../../magpie/internal/provider/migrate.go#L1168) |
+| RemovePlugin | function_declaration |  | [1189](../../magpie/internal/provider/migrate.go#L1189) |
+| SetPluginOff | function_declaration |  | [1217](../../magpie/internal/provider/migrate.go#L1217) |

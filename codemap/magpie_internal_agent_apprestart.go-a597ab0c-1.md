@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/apprestart.go) · page 1/1
 
-Source SHA-256: 9256716182363a7513ca2ba9631764fb7d07dbd0da6eca88742149faabd1a0da
+Source SHA-256: 6965dfe48c00c42d3774bf3808a823509b53a0ca6880ad4aefaff186d4310f8c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -42,15 +42,15 @@ Source SHA-256: 9256716182363a7513ca2ba9631764fb7d07dbd0da6eca88742149faabd1a0da
 | Since | field_declaration | AppRun | [186](../../magpie/internal/agent/apprestart.go#L186) |
 | AppBehind | method_declaration | *Agent | [194](../../magpie/internal/agent/apprestart.go#L194) |
 | appReads | method_declaration | *Agent | [221](../../magpie/internal/agent/apprestart.go#L221) |
-| desktopSetsHere | var_spec |  | [252](../../magpie/internal/agent/apprestart.go#L252) |
-| restarting | var_spec |  | [259](../../magpie/internal/agent/apprestart.go#L259) |
-| noticeRestartNotHere | var_spec |  | [265](../../magpie/internal/agent/apprestart.go#L265) |
-| noticeRestartCurrent | var_spec |  | [266](../../magpie/internal/agent/apprestart.go#L266) |
-| noticeRestartAsk | var_spec |  | [267](../../magpie/internal/agent/apprestart.go#L267) |
-| noticeRestartStillOpen | var_spec |  | [268](../../magpie/internal/agent/apprestart.go#L268) |
-| noticeRestartStillThere | var_spec |  | [269](../../magpie/internal/agent/apprestart.go#L269) |
-| noticeRestartNoOpen | var_spec |  | [270](../../magpie/internal/agent/apprestart.go#L270) |
-| restartErr | function_declaration |  | [273](../../magpie/internal/agent/apprestart.go#L273) |
-| RestartApp | method_declaration | *Agent | [282](../../magpie/internal/agent/apprestart.go#L282) |
-| waitGone | function_declaration |  | [336](../../magpie/internal/agent/apprestart.go#L336) |
-| reopenBundle | function_declaration |  | [355](../../magpie/internal/agent/apprestart.go#L355) |
+| desktopSetsHere | var_spec |  | [262](../../magpie/internal/agent/apprestart.go#L262) |
+| restarting | var_spec |  | [269](../../magpie/internal/agent/apprestart.go#L269) |
+| noticeRestartNotHere | var_spec |  | [275](../../magpie/internal/agent/apprestart.go#L275) |
+| noticeRestartCurrent | var_spec |  | [276](../../magpie/internal/agent/apprestart.go#L276) |
+| noticeRestartAsk | var_spec |  | [277](../../magpie/internal/agent/apprestart.go#L277) |
+| noticeRestartStillOpen | var_spec |  | [278](../../magpie/internal/agent/apprestart.go#L278) |
+| noticeRestartStillThere | var_spec |  | [279](../../magpie/internal/agent/apprestart.go#L279) |
+| noticeRestartNoOpen | var_spec |  | [280](../../magpie/internal/agent/apprestart.go#L280) |
+| restartErr | function_declaration |  | [283](../../magpie/internal/agent/apprestart.go#L283) |
+| RestartApp | method_declaration | *Agent | [292](../../magpie/internal/agent/apprestart.go#L292) |
+| waitGone | function_declaration |  | [346](../../magpie/internal/agent/apprestart.go#L346) |
+| reopenBundle | function_declaration |  | [365](../../magpie/internal/agent/apprestart.go#L365) |

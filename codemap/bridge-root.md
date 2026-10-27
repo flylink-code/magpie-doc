@@ -14,4 +14,4 @@
 | [plugins/magpie-agent-cursor-bridge/setup.cmd](../../plugins/magpie-agent-cursor-bridge/setup.cmd) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.cmd-b0a20fde-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.command](../../plugins/magpie-agent-cursor-bridge/setup.command) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.command-64ad0145-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.ps1](../../plugins/magpie-agent-cursor-bridge/setup.ps1) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.ps1-e4490972-1.md) |
-| [plugins/magpie-agent-cursor-bridge/source.patch](../../plugins/magpie-agent-cursor-bridge/source.patch) | 61 | [1](plugins_magpie-agent-cursor-bridge_source.patch-02a44523-1.md) |
+| [plugins/magpie-agent-cursor-bridge/source.patch](../../plugins/magpie-agent-cursor-bridge/source.patch) | 64 | [1](plugins_magpie-agent-cursor-bridge_source.patch-02a44523-1.md) |

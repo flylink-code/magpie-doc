@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/responses.go) · page 1/3
 
-Source SHA-256: 1017ff5469a33f30d0ed09c6b9490b0c0da754adfaa239d0b3a419e3c0ac859b
+Source SHA-256: 76fc1ff4c7d01200dc5fe95a9b542e50f449dc2cfaf5860e8375d7ad49029e6c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -81,30 +81,30 @@ Source SHA-256: 1017ff5469a33f30d0ed09c6b9490b0c0da754adfaa239d0b3a419e3c0ac859b
 | textFormat | function_declaration |  | [285](../../magpie/internal/gateway/responses.go#L285) |
 | sentRaw | function_declaration |  | [303](../../magpie/internal/gateway/responses.go#L303) |
 | parseResponses | function_declaration |  | [310](../../magpie/internal/gateway/responses.go#L310) |
-| Type | field_declaration | parseResponses | [491](../../magpie/internal/gateway/responses.go#L491) |
-| Name | field_declaration | parseResponses | [492](../../magpie/internal/gateway/responses.go#L492) |
-| Mode | field_declaration | parseResponses | [493](../../magpie/internal/gateway/responses.go#L493) |
-| Tools | field_declaration | parseResponses | [494](../../magpie/internal/gateway/responses.go#L494) |
-| Type | field_declaration | parseResponses | [495](../../magpie/internal/gateway/responses.go#L495) |
-| Name | field_declaration | parseResponses | [496](../../magpie/internal/gateway/responses.go#L496) |
-| Namespace | field_declaration | parseResponses | [497](../../magpie/internal/gateway/responses.go#L497) |
-| toolCallItem | function_declaration |  | [546](../../magpie/internal/gateway/responses.go#L546) |
-| toolResultItem | function_declaration |  | [554](../../magpie/internal/gateway/responses.go#L554) |
-| joinToolRuns | function_declaration |  | [592](../../magpie/internal/gateway/responses.go#L592) |
-| item | struct_type | joinToolRuns | [604](../../magpie/internal/gateway/responses.go#L604) |
-| Type | field_declaration | joinToolRuns.item | [605](../../magpie/internal/gateway/responses.go#L605) |
-| Role | field_declaration | joinToolRuns.item | [606](../../magpie/internal/gateway/responses.go#L606) |
-| CallID | field_declaration | joinToolRuns.item | [607](../../magpie/internal/gateway/responses.go#L607) |
-| orphanedToolOutputs | function_declaration |  | [697](../../magpie/internal/gateway/responses.go#L697) |
-| Type | field_declaration | orphanedToolOutputs | [716](../../magpie/internal/gateway/responses.go#L716) |
-| CallID | field_declaration | orphanedToolOutputs | [717](../../magpie/internal/gateway/responses.go#L717) |
-| Output | field_declaration | orphanedToolOutputs | [718](../../magpie/internal/gateway/responses.go#L718) |
-| pairToolItems | function_declaration |  | [788](../../magpie/internal/gateway/responses.go#L788) |
-| item | struct_type | pairToolItems | [800](../../magpie/internal/gateway/responses.go#L800) |
-| Type | field_declaration | pairToolItems.item | [801](../../magpie/internal/gateway/responses.go#L801) |
-| CallID | field_declaration | pairToolItems.item | [802](../../magpie/internal/gateway/responses.go#L802) |
-| mergeTurns | function_declaration |  | [850](../../magpie/internal/gateway/responses.go#L850) |
-| responsesParts | function_declaration |  | [862](../../magpie/internal/gateway/responses.go#L862) |
-| Type | field_declaration | responsesParts | [871](../../magpie/internal/gateway/responses.go#L871) |
-| Text | field_declaration | responsesParts | [872](../../magpie/internal/gateway/responses.go#L872) |
-| ImageURL | field_declaration | responsesParts | [873](../../magpie/internal/gateway/responses.go#L873) |
+| readResponses | function_declaration |  | [317](../../magpie/internal/gateway/responses.go#L317) |
+| Type | field_declaration | readResponses | [507](../../magpie/internal/gateway/responses.go#L507) |
+| Name | field_declaration | readResponses | [508](../../magpie/internal/gateway/responses.go#L508) |
+| Mode | field_declaration | readResponses | [509](../../magpie/internal/gateway/responses.go#L509) |
+| Tools | field_declaration | readResponses | [510](../../magpie/internal/gateway/responses.go#L510) |
+| Type | field_declaration | readResponses | [511](../../magpie/internal/gateway/responses.go#L511) |
+| Name | field_declaration | readResponses | [512](../../magpie/internal/gateway/responses.go#L512) |
+| Namespace | field_declaration | readResponses | [513](../../magpie/internal/gateway/responses.go#L513) |
+| toolCallItem | function_declaration |  | [562](../../magpie/internal/gateway/responses.go#L562) |
+| toolResultItem | function_declaration |  | [570](../../magpie/internal/gateway/responses.go#L570) |
+| joinToolRuns | function_declaration |  | [608](../../magpie/internal/gateway/responses.go#L608) |
+| item | struct_type | joinToolRuns | [620](../../magpie/internal/gateway/responses.go#L620) |
+| Type | field_declaration | joinToolRuns.item | [621](../../magpie/internal/gateway/responses.go#L621) |
+| Role | field_declaration | joinToolRuns.item | [622](../../magpie/internal/gateway/responses.go#L622) |
+| CallID | field_declaration | joinToolRuns.item | [623](../../magpie/internal/gateway/responses.go#L623) |
+| orphanedToolOutputs | function_declaration |  | [713](../../magpie/internal/gateway/responses.go#L713) |
+| Type | field_declaration | orphanedToolOutputs | [732](../../magpie/internal/gateway/responses.go#L732) |
+| CallID | field_declaration | orphanedToolOutputs | [733](../../magpie/internal/gateway/responses.go#L733) |
+| Output | field_declaration | orphanedToolOutputs | [734](../../magpie/internal/gateway/responses.go#L734) |
+| pairToolItems | function_declaration |  | [804](../../magpie/internal/gateway/responses.go#L804) |
+| item | struct_type | pairToolItems | [816](../../magpie/internal/gateway/responses.go#L816) |
+| Type | field_declaration | pairToolItems.item | [817](../../magpie/internal/gateway/responses.go#L817) |
+| CallID | field_declaration | pairToolItems.item | [818](../../magpie/internal/gateway/responses.go#L818) |
+| mergeTurns | function_declaration |  | [866](../../magpie/internal/gateway/responses.go#L866) |
+| responsesParts | function_declaration |  | [878](../../magpie/internal/gateway/responses.go#L878) |
+| Type | field_declaration | responsesParts | [887](../../magpie/internal/gateway/responses.go#L887) |
+| Text | field_declaration | responsesParts | [888](../../magpie/internal/gateway/responses.go#L888) |

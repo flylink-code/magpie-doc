@@ -4,7 +4,7 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/pii.go) · page 1/1
 
-Source SHA-256: 728724c2dbd61e9e13117af92f81a362747852c7c41fc709daf24613cd6dcc4e
+Source SHA-256: afa6a6d0aa621df67203875c683e7be07d5a615614358d7c7d5f7eb0ba52960b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -41,6 +41,8 @@ Source SHA-256: 728724c2dbd61e9e13117af92f81a362747852c7c41fc709daf24613cd6dcc4e
 | LoadMS | field_declaration | Status | [125](../../magpie/internal/pii/pii.go#L125) |
 | GPUError | field_declaration | Status | [126](../../magpie/internal/pii/pii.go#L126) |
 | Failed | field_declaration | Status | [128](../../magpie/internal/pii/pii.go#L128) |
-| Now | function_declaration |  | [132](../../magpie/internal/pii/pii.go#L132) |
-| Remove | function_declaration |  | [151](../../magpie/internal/pii/pii.go#L151) |
-| idleAfter | var_spec |  | [161](../../magpie/internal/pii/pii.go#L161) |
+| Loading | field_declaration | Status | [131](../../magpie/internal/pii/pii.go#L131) |
+| Waiting | field_declaration | Status | [132](../../magpie/internal/pii/pii.go#L132) |
+| Now | function_declaration |  | [136](../../magpie/internal/pii/pii.go#L136) |
+| Remove | function_declaration |  | [156](../../magpie/internal/pii/pii.go#L156) |
+| idleAfter | var_spec |  | [166](../../magpie/internal/pii/pii.go#L166) |

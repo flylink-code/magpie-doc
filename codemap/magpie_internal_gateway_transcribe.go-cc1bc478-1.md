@@ -4,22 +4,22 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/transcribe.go) · page 1/1
 
-Source SHA-256: 2540577e605d5988a097145b0053ef04e21412fc66b8fb8bd68a0e34f9859c97
+Source SHA-256: c9c08f41813dd4058053188eae7c1194d062ebf322f61fec3bbc46556645fc66
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| transcribe | method_declaration | *Server | [26](../../magpie/internal/gateway/transcribe.go#L26) |
-| audioForm | struct_type |  | [48](../../magpie/internal/gateway/transcribe.go#L48) |
-| raw | field_declaration | audioForm | [49](../../magpie/internal/gateway/transcribe.go#L49) |
-| ctype | field_declaration | audioForm | [50](../../magpie/internal/gateway/transcribe.go#L50) |
-| boundary | field_declaration | audioForm | [51](../../magpie/internal/gateway/transcribe.go#L51) |
-| model | field_declaration | audioForm | [52](../../magpie/internal/gateway/transcribe.go#L52) |
-| prompt | field_declaration | audioForm | [53](../../magpie/internal/gateway/transcribe.go#L53) |
-| masked | field_declaration | audioForm | [55](../../magpie/internal/gateway/transcribe.go#L55) |
-| readAudioForm | function_declaration |  | [60](../../magpie/internal/gateway/transcribe.go#L60) |
-| mask | method_declaration | *audioForm | [96](../../magpie/internal/gateway/transcribe.go#L96) |
-| forModel | method_declaration | *audioForm | [110](../../magpie/internal/gateway/transcribe.go#L110) |
-| answerType | method_declaration | *audioForm | [151](../../magpie/internal/gateway/transcribe.go#L151) |
-| answeredTokens | function_declaration |  | [160](../../magpie/internal/gateway/transcribe.go#L160) |
-| Usage | field_declaration | answeredTokens | [162](../../magpie/internal/gateway/transcribe.go#L162) |
-| Output | field_declaration | answeredTokens | [163](../../magpie/internal/gateway/transcribe.go#L163) |
+| transcribe | method_declaration | *Server | [27](../../magpie/internal/gateway/transcribe.go#L27) |
+| audioForm | struct_type |  | [49](../../magpie/internal/gateway/transcribe.go#L49) |
+| raw | field_declaration | audioForm | [50](../../magpie/internal/gateway/transcribe.go#L50) |
+| ctype | field_declaration | audioForm | [51](../../magpie/internal/gateway/transcribe.go#L51) |
+| boundary | field_declaration | audioForm | [52](../../magpie/internal/gateway/transcribe.go#L52) |
+| model | field_declaration | audioForm | [53](../../magpie/internal/gateway/transcribe.go#L53) |
+| prompt | field_declaration | audioForm | [54](../../magpie/internal/gateway/transcribe.go#L54) |
+| masked | field_declaration | audioForm | [56](../../magpie/internal/gateway/transcribe.go#L56) |
+| readAudioForm | function_declaration |  | [61](../../magpie/internal/gateway/transcribe.go#L61) |
+| mask | method_declaration | *audioForm | [97](../../magpie/internal/gateway/transcribe.go#L97) |
+| forModel | method_declaration | *audioForm | [111](../../magpie/internal/gateway/transcribe.go#L111) |
+| answerType | method_declaration | *audioForm | [152](../../magpie/internal/gateway/transcribe.go#L152) |
+| answeredTokens | function_declaration |  | [161](../../magpie/internal/gateway/transcribe.go#L161) |
+| Usage | field_declaration | answeredTokens | [163](../../magpie/internal/gateway/transcribe.go#L163) |
+| Output | field_declaration | answeredTokens | [164](../../magpie/internal/gateway/transcribe.go#L164) |

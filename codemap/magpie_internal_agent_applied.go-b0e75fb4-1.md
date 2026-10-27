@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/applied.go) · page 1/1
 
-Source SHA-256: 4772af7c186ff856d1fc233dba60200e37a4a3de782ed53e3ace10c90d85850c
+Source SHA-256: d5024fc766f4277533784e472a0ee9bb58dcff7ab82fa7bb701637db8c93c056
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -60,12 +60,12 @@ Source SHA-256: 4772af7c186ff856d1fc233dba60200e37a4a3de782ed53e3ace10c90d85850c
 | connect | method_declaration | *Agent | [554](../../magpie/internal/agent/applied.go#L554) |
 | connectWas | function_declaration |  | [702](../../magpie/internal/agent/applied.go#L702) |
 | Disconnect | method_declaration | *Agent | [724](../../magpie/internal/agent/applied.go#L724) |
-| DisconnectOffline | method_declaration | *Agent | [792](../../magpie/internal/agent/applied.go#L792) |
-| reconnection | struct_type |  | [806](../../magpie/internal/agent/applied.go#L806) |
-| Magpie | field_declaration | reconnection | [807](../../magpie/internal/agent/applied.go#L807) |
-| Routed | field_declaration | reconnection | [808](../../magpie/internal/agent/applied.go#L808) |
-| Left | field_declaration | reconnection | [809](../../magpie/internal/agent/applied.go#L809) |
-| reconnect | method_declaration | *Agent | [815](../../magpie/internal/agent/applied.go#L815) |
-| lastJSONLTime | function_declaration |  | [864](../../magpie/internal/agent/applied.go#L864) |
-| sameHost | function_declaration |  | [903](../../magpie/internal/agent/applied.go#L903) |
-| wiringOff | function_declaration |  | [911](../../magpie/internal/agent/applied.go#L911) |
+| DisconnectOffline | method_declaration | *Agent | [794](../../magpie/internal/agent/applied.go#L794) |
+| reconnection | struct_type |  | [808](../../magpie/internal/agent/applied.go#L808) |
+| Magpie | field_declaration | reconnection | [809](../../magpie/internal/agent/applied.go#L809) |
+| Routed | field_declaration | reconnection | [810](../../magpie/internal/agent/applied.go#L810) |
+| Left | field_declaration | reconnection | [811](../../magpie/internal/agent/applied.go#L811) |
+| reconnect | method_declaration | *Agent | [817](../../magpie/internal/agent/applied.go#L817) |
+| lastJSONLTime | function_declaration |  | [866](../../magpie/internal/agent/applied.go#L866) |
+| sameHost | function_declaration |  | [905](../../magpie/internal/agent/applied.go#L905) |
+| wiringOff | function_declaration |  | [913](../../magpie/internal/agent/applied.go#L913) |

@@ -4,50 +4,60 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/kirocrew.go) · page 1/1
 
-Source SHA-256: bd34583957822a9ae6cfcd22e74cf0bba1e2c095baf76f2e31117774c212c1ce
+Source SHA-256: 6680d521518335045eb9fe5c74409a3020d954a2200869121b77fafb113c4c2b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| kiroCrewApp | var_spec |  | [54](../../magpie/internal/agent/kirocrew.go#L54) |
-| kiroCrewHarness | struct_type |  | [60](../../magpie/internal/agent/kirocrew.go#L60) |
-| id | field_declaration | kiroCrewHarness | [61](../../magpie/internal/agent/kirocrew.go#L61) |
-| agent | field_declaration | kiroCrewHarness | [61](../../magpie/internal/agent/kirocrew.go#L61) |
-| name | field_declaration | kiroCrewHarness | [61](../../magpie/internal/agent/kirocrew.go#L61) |
-| icon | field_declaration | kiroCrewHarness | [61](../../magpie/internal/agent/kirocrew.go#L61) |
-| adapter | field_declaration | kiroCrewHarness | [62](../../magpie/internal/agent/kirocrew.go#L62) |
-| env | field_declaration | kiroCrewHarness | [62](../../magpie/internal/agent/kirocrew.go#L62) |
-| npm | field_declaration | kiroCrewHarness | [63](../../magpie/internal/agent/kirocrew.go#L63) |
-| dispatch | field_declaration | kiroCrewHarness | [64](../../magpie/internal/agent/kirocrew.go#L64) |
-| kiroCrewHarnesses | var_spec |  | [69](../../magpie/internal/agent/kirocrew.go#L69) |
-| kiroCrewHarnessOf | function_declaration |  | [77](../../magpie/internal/agent/kirocrew.go#L77) |
-| kiroCrewBackend | const_spec |  | [87](../../magpie/internal/agent/kirocrew.go#L87) |
-| kiroCrewMember | const_spec |  | [88](../../magpie/internal/agent/kirocrew.go#L88) |
-| kiroCrewWasKey | const_spec |  | [91](../../magpie/internal/agent/kirocrew.go#L91) |
-| kiroCrewWroteKey | const_spec |  | [92](../../magpie/internal/agent/kirocrew.go#L92) |
-| noticeKiroCrew | var_spec |  | [96](../../magpie/internal/agent/kirocrew.go#L96) |
-| noticeKiroCrewAdapter | var_spec |  | [97](../../magpie/internal/agent/kirocrew.go#L97) |
-| noticeKiroCrewPinned | var_spec |  | [98](../../magpie/internal/agent/kirocrew.go#L98) |
-| kiroCrewNote | const_spec |  | [104](../../magpie/internal/agent/kirocrew.go#L104) |
-| kiroCrewPinnedNote | const_spec |  | [105](../../magpie/internal/agent/kirocrew.go#L105) |
-| errKiroCrewNoHarness | var_spec |  | [109](../../magpie/internal/agent/kirocrew.go#L109) |
-| errKiroCrewPinned | var_spec |  | [110](../../magpie/internal/agent/kirocrew.go#L110) |
-| errKiroCrewHarness | var_spec |  | [111](../../magpie/internal/agent/kirocrew.go#L111) |
-| kiroCrewWired | var_spec |  | [116](../../magpie/internal/agent/kirocrew.go#L116) |
-| a | var_spec |  | [118](../../magpie/internal/agent/kirocrew.go#L118) |
-| kiroCrewHasAdapter | var_spec |  | [138](../../magpie/internal/agent/kirocrew.go#L138) |
-| kiroCrewFinds | function_declaration |  | [148](../../magpie/internal/agent/kirocrew.go#L148) |
-| kiroCrewHome | function_declaration |  | [204](../../magpie/internal/agent/kirocrew.go#L204) |
-| kiroCrewUnsafe | function_declaration |  | [223](../../magpie/internal/agent/kirocrew.go#L223) |
-| kiroCrewWas | struct_type |  | [241](../../magpie/internal/agent/kirocrew.go#L241) |
-| Set | field_declaration | kiroCrewWas | [242](../../magpie/internal/agent/kirocrew.go#L242) |
-| Raw | field_declaration | kiroCrewWas | [243](../../magpie/internal/agent/kirocrew.go#L243) |
-| kiroCrewStash | struct_type |  | [246](../../magpie/internal/agent/kirocrew.go#L246) |
-| Backend | field_declaration | kiroCrewStash | [247](../../magpie/internal/agent/kirocrew.go#L247) |
-| Member | field_declaration | kiroCrewStash | [248](../../magpie/internal/agent/kirocrew.go#L248) |
-| Made | field_declaration | kiroCrewStash | [249](../../magpie/internal/agent/kirocrew.go#L249) |
-| kiroCrewWrote | struct_type |  | [254](../../magpie/internal/agent/kirocrew.go#L254) |
-| Backend | field_declaration | kiroCrewWrote | [255](../../magpie/internal/agent/kirocrew.go#L255) |
-| Member | field_declaration | kiroCrewWrote | [256](../../magpie/internal/agent/kirocrew.go#L256) |
-| kiroCrewWroteNow | function_declaration |  | [259](../../magpie/internal/agent/kirocrew.go#L259) |
-| kiroCrewWasOf | function_declaration |  | [265](../../magpie/internal/agent/kirocrew.go#L265) |
-| kiroCrew | function_declaration |  | [273](../../magpie/internal/agent/kirocrew.go#L273) |
+| kiroCrewOS | var_spec |  | [62](../../magpie/internal/agent/kirocrew.go#L62) |
+| kiroCrewApp | var_spec |  | [65](../../magpie/internal/agent/kirocrew.go#L65) |
+| kiroCrewHarness | struct_type |  | [71](../../magpie/internal/agent/kirocrew.go#L71) |
+| id | field_declaration | kiroCrewHarness | [72](../../magpie/internal/agent/kirocrew.go#L72) |
+| agent | field_declaration | kiroCrewHarness | [72](../../magpie/internal/agent/kirocrew.go#L72) |
+| name | field_declaration | kiroCrewHarness | [72](../../magpie/internal/agent/kirocrew.go#L72) |
+| icon | field_declaration | kiroCrewHarness | [72](../../magpie/internal/agent/kirocrew.go#L72) |
+| adapter | field_declaration | kiroCrewHarness | [73](../../magpie/internal/agent/kirocrew.go#L73) |
+| env | field_declaration | kiroCrewHarness | [73](../../magpie/internal/agent/kirocrew.go#L73) |
+| npm | field_declaration | kiroCrewHarness | [74](../../magpie/internal/agent/kirocrew.go#L74) |
+| dispatch | field_declaration | kiroCrewHarness | [75](../../magpie/internal/agent/kirocrew.go#L75) |
+| kiroCrewHarnesses | var_spec |  | [80](../../magpie/internal/agent/kirocrew.go#L80) |
+| kiroCrewHarnessOf | function_declaration |  | [88](../../magpie/internal/agent/kirocrew.go#L88) |
+| kiroCrewBackend | const_spec |  | [98](../../magpie/internal/agent/kirocrew.go#L98) |
+| kiroCrewMember | const_spec |  | [99](../../magpie/internal/agent/kirocrew.go#L99) |
+| kiroCrewWasKey | const_spec |  | [102](../../magpie/internal/agent/kirocrew.go#L102) |
+| kiroCrewWroteKey | const_spec |  | [103](../../magpie/internal/agent/kirocrew.go#L103) |
+| kiroCrewJoinedKey | const_spec |  | [106](../../magpie/internal/agent/kirocrew.go#L106) |
+| noticeKiroCrew | var_spec |  | [110](../../magpie/internal/agent/kirocrew.go#L110) |
+| noticeKiroCrewAdapter | var_spec |  | [111](../../magpie/internal/agent/kirocrew.go#L111) |
+| noticeKiroCrewPinned | var_spec |  | [112](../../magpie/internal/agent/kirocrew.go#L112) |
+| noticeKiroCrewJoined | var_spec |  | [113](../../magpie/internal/agent/kirocrew.go#L113) |
+| kiroCrewNote | const_spec |  | [119](../../magpie/internal/agent/kirocrew.go#L119) |
+| kiroCrewPinnedNote | const_spec |  | [120](../../magpie/internal/agent/kirocrew.go#L120) |
+| errKiroCrewNoHarness | var_spec |  | [124](../../magpie/internal/agent/kirocrew.go#L124) |
+| errKiroCrewPinned | var_spec |  | [125](../../magpie/internal/agent/kirocrew.go#L125) |
+| errKiroCrewHarness | var_spec |  | [126](../../magpie/internal/agent/kirocrew.go#L126) |
+| kiroCrewAgent | function_declaration |  | [130](../../magpie/internal/agent/kirocrew.go#L130) |
+| kiroCrewWired | var_spec |  | [149](../../magpie/internal/agent/kirocrew.go#L149) |
+| kiroCrewJoined | struct_type |  | [156](../../magpie/internal/agent/kirocrew.go#L156) |
+| Agent | field_declaration | kiroCrewJoined | [157](../../magpie/internal/agent/kirocrew.go#L157) |
+| Off | field_declaration | kiroCrewJoined | [158](../../magpie/internal/agent/kirocrew.go#L158) |
+| kiroCrewJoinedNow | function_declaration |  | [161](../../magpie/internal/agent/kirocrew.go#L161) |
+| kiroCrewJoin | var_spec |  | [169](../../magpie/internal/agent/kirocrew.go#L169) |
+| kiroCrewLeave | var_spec |  | [186](../../magpie/internal/agent/kirocrew.go#L186) |
+| kiroCrewUserLeft | function_declaration |  | [208](../../magpie/internal/agent/kirocrew.go#L208) |
+| kiroCrewHasAdapter | var_spec |  | [216](../../magpie/internal/agent/kirocrew.go#L216) |
+| kiroCrewFinds | function_declaration |  | [226](../../magpie/internal/agent/kirocrew.go#L226) |
+| kiroCrewHome | function_declaration |  | [290](../../magpie/internal/agent/kirocrew.go#L290) |
+| kiroCrewUnsafe | function_declaration |  | [309](../../magpie/internal/agent/kirocrew.go#L309) |
+| kiroCrewWas | struct_type |  | [327](../../magpie/internal/agent/kirocrew.go#L327) |
+| Set | field_declaration | kiroCrewWas | [328](../../magpie/internal/agent/kirocrew.go#L328) |
+| Raw | field_declaration | kiroCrewWas | [329](../../magpie/internal/agent/kirocrew.go#L329) |
+| kiroCrewStash | struct_type |  | [332](../../magpie/internal/agent/kirocrew.go#L332) |
+| Backend | field_declaration | kiroCrewStash | [333](../../magpie/internal/agent/kirocrew.go#L333) |
+| Member | field_declaration | kiroCrewStash | [334](../../magpie/internal/agent/kirocrew.go#L334) |
+| Made | field_declaration | kiroCrewStash | [335](../../magpie/internal/agent/kirocrew.go#L335) |
+| kiroCrewWrote | struct_type |  | [340](../../magpie/internal/agent/kirocrew.go#L340) |
+| Backend | field_declaration | kiroCrewWrote | [341](../../magpie/internal/agent/kirocrew.go#L341) |
+| Member | field_declaration | kiroCrewWrote | [342](../../magpie/internal/agent/kirocrew.go#L342) |
+| kiroCrewWroteNow | function_declaration |  | [345](../../magpie/internal/agent/kirocrew.go#L345) |
+| kiroCrewWasOf | function_declaration |  | [351](../../magpie/internal/agent/kirocrew.go#L351) |
+| kiroCrew | function_declaration |  | [359](../../magpie/internal/agent/kirocrew.go#L359) |

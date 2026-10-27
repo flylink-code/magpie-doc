@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/middleware/points.go](../../magpie/internal/middleware/points.go) | 77 | [1](magpie_internal_middleware_points.go-ca4a3bb6-1.md) |
 | [magpie/internal/middleware/run.go](../../magpie/internal/middleware/run.go) | 47 | [1](magpie_internal_middleware_run.go-f3f2ac4d-1.md) |
 | [magpie/internal/routes/round.go](../../magpie/internal/routes/round.go) | 8 | [1](magpie_internal_routes_round.go-b88ea5df-1.md) |
 | [magpie/internal/routes/routes.go](../../magpie/internal/routes/routes.go) | 23 | [1](magpie_internal_routes_routes.go-b8b6f339-1.md) |

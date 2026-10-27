@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/session_parent.go) · page 1/1
 
-Source SHA-256: d758efee884cad1e762b49665b914f3dc080cbdcb902e27ee91acf64b87ee3ed
+Source SHA-256: 62ecb3125a3e87b0cb36e55de8373c0f23686d0ca9b351e17ace14134893c26b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -19,6 +19,6 @@ Source SHA-256: d758efee884cad1e762b49665b914f3dc080cbdcb902e27ee91acf64b87ee3ed
 | Forked | field_declaration | sessionMetadata | [37](../../magpie/internal/gateway/session_parent.go#L37) |
 | Installation | field_declaration | sessionMetadata | [38](../../magpie/internal/gateway/session_parent.go#L38) |
 | requestSessionMetadata | function_declaration |  | [41](../../magpie/internal/gateway/session_parent.go#L41) |
-| metadataOf | function_declaration |  | [85](../../magpie/internal/gateway/session_parent.go#L85) |
-| requestCallKind | function_declaration |  | [93](../../magpie/internal/gateway/session_parent.go#L93) |
-| titleParentSession | function_declaration |  | [110](../../magpie/internal/gateway/session_parent.go#L110) |
+| metadataOf | function_declaration |  | [87](../../magpie/internal/gateway/session_parent.go#L87) |
+| requestCallKind | function_declaration |  | [95](../../magpie/internal/gateway/session_parent.go#L95) |
+| titleParentSession | function_declaration |  | [112](../../magpie/internal/gateway/session_parent.go#L112) |

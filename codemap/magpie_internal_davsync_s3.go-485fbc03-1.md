@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/davsync/s3.go) · page 1/1
 
-Source SHA-256: 178364007fb8a6c55064f19c22ab1d711ffc680cbf46d7c67d75dd8ab182c26f
+Source SHA-256: 510c8423bf3260638f863106ab876b363559da5f0a95f016131db272a0bcc081
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,18 +25,19 @@ Source SHA-256: 178364007fb8a6c55064f19c22ab1d711ffc680cbf46d7c67d75dd8ab182c26f
 | bucketURL | method_declaration | *s3 | [100](../../magpie/internal/davsync/s3.go#L100) |
 | send | method_declaration | *s3 | [112](../../magpie/internal/davsync/s3.go#L112) |
 | sendTo | method_declaration | *s3 | [116](../../magpie/internal/davsync/s3.go#L116) |
-| s3Error | struct_type |  | [136](../../magpie/internal/davsync/s3.go#L136) |
-| Status | field_declaration | s3Error | [137](../../magpie/internal/davsync/s3.go#L137) |
-| Code | field_declaration | s3Error | [138](../../magpie/internal/davsync/s3.go#L138) |
-| Message | field_declaration | s3Error | [139](../../magpie/internal/davsync/s3.go#L139) |
-| Region | field_declaration | s3Error | [140](../../magpie/internal/davsync/s3.go#L140) |
-| After | field_declaration | s3Error | [141](../../magpie/internal/davsync/s3.go#L141) |
-| readError | function_declaration |  | [144](../../magpie/internal/davsync/s3.go#L144) |
-| String | method_declaration | s3Error | [155](../../magpie/internal/davsync/s3.go#L155) |
-| explain | method_declaration | *s3 | [165](../../magpie/internal/davsync/s3.go#L165) |
-| get | method_declaration | *s3 | [198](../../magpie/internal/davsync/s3.go#L198) |
-| unconditional | var_spec |  | [229](../../magpie/internal/davsync/s3.go#L229) |
-| put | method_declaration | *s3 | [234](../../magpie/internal/davsync/s3.go#L234) |
-| noConditions | function_declaration |  | [290](../../magpie/internal/davsync/s3.go#L290) |
-| head | method_declaration | *s3 | [299](../../magpie/internal/davsync/s3.go#L299) |
-| bareETag | function_declaration |  | [315](../../magpie/internal/davsync/s3.go#L315) |
+| unsigned | function_declaration |  | [149](../../magpie/internal/davsync/s3.go#L149) |
+| s3Error | struct_type |  | [155](../../magpie/internal/davsync/s3.go#L155) |
+| Status | field_declaration | s3Error | [156](../../magpie/internal/davsync/s3.go#L156) |
+| Code | field_declaration | s3Error | [157](../../magpie/internal/davsync/s3.go#L157) |
+| Message | field_declaration | s3Error | [158](../../magpie/internal/davsync/s3.go#L158) |
+| Region | field_declaration | s3Error | [159](../../magpie/internal/davsync/s3.go#L159) |
+| After | field_declaration | s3Error | [160](../../magpie/internal/davsync/s3.go#L160) |
+| readError | function_declaration |  | [163](../../magpie/internal/davsync/s3.go#L163) |
+| String | method_declaration | s3Error | [174](../../magpie/internal/davsync/s3.go#L174) |
+| explain | method_declaration | *s3 | [184](../../magpie/internal/davsync/s3.go#L184) |
+| get | method_declaration | *s3 | [217](../../magpie/internal/davsync/s3.go#L217) |
+| unconditional | var_spec |  | [248](../../magpie/internal/davsync/s3.go#L248) |
+| put | method_declaration | *s3 | [253](../../magpie/internal/davsync/s3.go#L253) |
+| noConditions | function_declaration |  | [309](../../magpie/internal/davsync/s3.go#L309) |
+| head | method_declaration | *s3 | [318](../../magpie/internal/davsync/s3.go#L318) |
+| bareETag | function_declaration |  | [334](../../magpie/internal/davsync/s3.go#L334) |

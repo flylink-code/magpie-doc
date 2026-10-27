@@ -9,6 +9,8 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/gui/quota_alert_notify.go](../../magpie/internal/gui/quota_alert_notify.go) | 17 | [1](magpie_internal_gui_quota_alert_notify.go-4d7b9b05-1.md) |
+| [magpie/internal/gui/scheme_linux.go](../../magpie/internal/gui/scheme_linux.go) | 5 | [1](magpie_internal_gui_scheme_linux.go-71bdccbe-1.md) |
 | [magpie/internal/gui/scheme_other.go](../../magpie/internal/gui/scheme_other.go) | 2 | [1](magpie_internal_gui_scheme_other.go-7eaf51de-1.md) |
 | [magpie/internal/gui/scheme_windows.go](../../magpie/internal/gui/scheme_windows.go) | 2 | [1](magpie_internal_gui_scheme_windows.go-e83631d5-1.md) |
 | [magpie/internal/gui/sessions.go](../../magpie/internal/gui/sessions.go) | 40 | [1](magpie_internal_gui_sessions.go-c2e6cb8d-1.md) |

@@ -4,17 +4,19 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/logins.go) · page 2/2
 
-Source SHA-256: 6559dd9f112629b87c4b54bdeb5e229eba63b15776ac924917f8ae1124171fde
+Source SHA-256: 3dbc0f04af40712c6dd51051568716112eedd16cb06ef67a13343872f0b30e1e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SignedInError | struct_type |  | [1425](../../magpie/internal/provider/logins.go#L1425) |
-| Agent | field_declaration | SignedInError | [1425](../../magpie/internal/provider/logins.go#L1425) |
-| User | field_declaration | SignedInError | [1425](../../magpie/internal/provider/logins.go#L1425) |
-| Error | method_declaration | *SignedInError | [1427](../../magpie/internal/provider/logins.go#L1427) |
-| loginAgentName | function_declaration |  | [1432](../../magpie/internal/provider/logins.go#L1432) |
-| ForgetAccounts | function_declaration |  | [1444](../../magpie/internal/provider/logins.go#L1444) |
-| forgetAccountCaches | function_declaration |  | [1461](../../magpie/internal/provider/logins.go#L1461) |
-| claudeSignInOfAnother | function_declaration |  | [1480](../../magpie/internal/provider/logins.go#L1480) |
-| claudeHolders | function_declaration |  | [1488](../../magpie/internal/provider/logins.go#L1488) |
-| claudeSignInOwner | function_declaration |  | [1519](../../magpie/internal/provider/logins.go#L1519) |
+| nextOnForget | function_declaration |  | [1370](../../magpie/internal/provider/logins.go#L1370) |
+| forgetLogin | function_declaration |  | [1389](../../magpie/internal/provider/logins.go#L1389) |
+| SignedInError | struct_type |  | [1438](../../magpie/internal/provider/logins.go#L1438) |
+| Agent | field_declaration | SignedInError | [1438](../../magpie/internal/provider/logins.go#L1438) |
+| User | field_declaration | SignedInError | [1438](../../magpie/internal/provider/logins.go#L1438) |
+| Error | method_declaration | *SignedInError | [1440](../../magpie/internal/provider/logins.go#L1440) |
+| loginAgentName | function_declaration |  | [1445](../../magpie/internal/provider/logins.go#L1445) |
+| ForgetAccounts | function_declaration |  | [1457](../../magpie/internal/provider/logins.go#L1457) |
+| forgetAccountCaches | function_declaration |  | [1474](../../magpie/internal/provider/logins.go#L1474) |
+| claudeSignInOfAnother | function_declaration |  | [1493](../../magpie/internal/provider/logins.go#L1493) |
+| claudeHolders | function_declaration |  | [1501](../../magpie/internal/provider/logins.go#L1501) |
+| claudeSignInOwner | function_declaration |  | [1532](../../magpie/internal/provider/logins.go#L1532) |

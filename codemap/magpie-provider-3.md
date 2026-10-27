@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/provider/session_identity.go](../../magpie/internal/provider/session_identity.go) | 17 | [1](magpie_internal_provider_session_identity.go-33e60a4f-1.md) |
 | [magpie/internal/provider/side_logins.go](../../magpie/internal/provider/side_logins.go) | 21 | [1](magpie_internal_provider_side_logins.go-25f79815-1.md) |
 | [magpie/internal/provider/signin.go](../../magpie/internal/provider/signin.go) | 105 | [1](magpie_internal_provider_signin.go-e94adcb5-1.md) [2](magpie_internal_provider_signin.go-e94adcb5-2.md) |
 | [magpie/internal/provider/signin_revoked.go](../../magpie/internal/provider/signin_revoked.go) | 16 | [1](magpie_internal_provider_signin_revoked.go-9aba575f-1.md) |

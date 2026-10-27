@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/otel/otel.go) · page 1/1
 
-Source SHA-256: 03aa334e179a34a1e9102854869dc7d272977e7ccc5a3071c78686ca15ac5dc9
+Source SHA-256: 1f6cbb68c022362cd1375a082ce74a6c6aaa449c0f5ef00cabe3dcb9217bdc9d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/gateway/kimi_schema.go](../../magpie/internal/gateway/kimi_schema.go) | 20 | [1](magpie_internal_gateway_kimi_schema.go-10877c40-1.md) |
 | [magpie/internal/gateway/lan.go](../../magpie/internal/gateway/lan.go) | 41 | [1](magpie_internal_gateway_lan.go-14b1b8a0-1.md) |
 | [magpie/internal/gateway/limit.go](../../magpie/internal/gateway/limit.go) | 3 | [1](magpie_internal_gateway_limit.go-b4bdbaa1-1.md) |
 | [magpie/internal/gateway/listen.go](../../magpie/internal/gateway/listen.go) | 2 | [1](magpie_internal_gateway_listen.go-85b60492-1.md) |
@@ -17,7 +18,7 @@
 | [magpie/internal/gateway/listen_reuseport.go](../../magpie/internal/gateway/listen_reuseport.go) | 1 | [1](magpie_internal_gateway_listen_reuseport.go-e784807c-1.md) |
 | [magpie/internal/gateway/loop_guard.go](../../magpie/internal/gateway/loop_guard.go) | 53 | [1](magpie_internal_gateway_loop_guard.go-63a4a973-1.md) |
 | [magpie/internal/gateway/mantle.go](../../magpie/internal/gateway/mantle.go) | 4 | [1](magpie_internal_gateway_mantle.go-b1d52d27-1.md) |
-| [magpie/internal/gateway/masked.go](../../magpie/internal/gateway/masked.go) | 21 | [1](magpie_internal_gateway_masked.go-d7c76bae-1.md) |
+| [magpie/internal/gateway/masked.go](../../magpie/internal/gateway/masked.go) | 22 | [1](magpie_internal_gateway_masked.go-d7c76bae-1.md) |
 | [magpie/internal/gateway/maxoutput.go](../../magpie/internal/gateway/maxoutput.go) | 17 | [1](magpie_internal_gateway_maxoutput.go-a324bcdb-1.md) |
 | [magpie/internal/gateway/mcp.go](../../magpie/internal/gateway/mcp.go) | 6 | [1](magpie_internal_gateway_mcp.go-71f88be9-1.md) |
 | [magpie/internal/gateway/member.go](../../magpie/internal/gateway/member.go) | 30 | [1](magpie_internal_gateway_member.go-fdb6afe8-1.md) |
@@ -49,8 +50,8 @@
 | [magpie/internal/gateway/reqlog.go](../../magpie/internal/gateway/reqlog.go) | 5 | [1](magpie_internal_gateway_reqlog.go-a98f96c2-1.md) |
 | [magpie/internal/gateway/request_bounds.go](../../magpie/internal/gateway/request_bounds.go) | 23 | [1](magpie_internal_gateway_request_bounds.go-36a03dfc-1.md) |
 | [magpie/internal/gateway/response_id.go](../../magpie/internal/gateway/response_id.go) | 6 | [1](magpie_internal_gateway_response_id.go-4b16543b-1.md) |
-| [magpie/internal/gateway/responses.go](../../magpie/internal/gateway/responses.go) | 210 | [1](magpie_internal_gateway_responses.go-f9294c80-1.md) [2](magpie_internal_gateway_responses.go-f9294c80-2.md) [3](magpie_internal_gateway_responses.go-f9294c80-3.md) |
-| [magpie/internal/gateway/routing.go](../../magpie/internal/gateway/routing.go) | 171 | [1](magpie_internal_gateway_routing.go-2f3f748d-1.md) [2](magpie_internal_gateway_routing.go-2f3f748d-2.md) |
+| [magpie/internal/gateway/responses.go](../../magpie/internal/gateway/responses.go) | 211 | [1](magpie_internal_gateway_responses.go-f9294c80-1.md) [2](magpie_internal_gateway_responses.go-f9294c80-2.md) [3](magpie_internal_gateway_responses.go-f9294c80-3.md) |
+| [magpie/internal/gateway/routing.go](../../magpie/internal/gateway/routing.go) | 172 | [1](magpie_internal_gateway_routing.go-2f3f748d-1.md) [2](magpie_internal_gateway_routing.go-2f3f748d-2.md) |
 | [magpie/internal/gateway/rpm.go](../../magpie/internal/gateway/rpm.go) | 37 | [1](magpie_internal_gateway_rpm.go-21a217ab-1.md) |
 | [magpie/internal/gateway/rules.go](../../magpie/internal/gateway/rules.go) | 78 | [1](magpie_internal_gateway_rules.go-cff08e5a-1.md) |
 | [magpie/internal/gateway/science.go](../../magpie/internal/gateway/science.go) | 11 | [1](magpie_internal_gateway_science.go-99196aef-1.md) |
@@ -75,7 +76,7 @@
 | [magpie/internal/gateway/stamped.go](../../magpie/internal/gateway/stamped.go) | 7 | [1](magpie_internal_gateway_stamped.go-6e951b80-1.md) |
 | [magpie/internal/gateway/strict_refused.go](../../magpie/internal/gateway/strict_refused.go) | 4 | [1](magpie_internal_gateway_strict_refused.go-e641f7a7-1.md) |
 | [magpie/internal/gateway/textcalls.go](../../magpie/internal/gateway/textcalls.go) | 66 | [1](magpie_internal_gateway_textcalls.go-b0219b64-1.md) |
-| [magpie/internal/gateway/tier_record.go](../../magpie/internal/gateway/tier_record.go) | 12 | [1](magpie_internal_gateway_tier_record.go-a1edd73e-1.md) |
+| [magpie/internal/gateway/tier_record.go](../../magpie/internal/gateway/tier_record.go) | 13 | [1](magpie_internal_gateway_tier_record.go-a1edd73e-1.md) |
 | [magpie/internal/gateway/title_link.go](../../magpie/internal/gateway/title_link.go) | 22 | [1](magpie_internal_gateway_title_link.go-17105145-1.md) |
 | [magpie/internal/gateway/tls.go](../../magpie/internal/gateway/tls.go) | 41 | [1](magpie_internal_gateway_tls.go-cf2512ce-1.md) |
 | [magpie/internal/gateway/tool_loop.go](../../magpie/internal/gateway/tool_loop.go) | 28 | [1](magpie_internal_gateway_tool_loop.go-8c69a03a-1.md) |
@@ -88,7 +89,7 @@
 | [magpie/internal/gateway/turndone.go](../../magpie/internal/gateway/turndone.go) | 32 | [1](magpie_internal_gateway_turndone.go-fb6086dd-1.md) |
 | [magpie/internal/gateway/undeclared_tools.go](../../magpie/internal/gateway/undeclared_tools.go) | 11 | [1](magpie_internal_gateway_undeclared_tools.go-aa86bde1-1.md) |
 | [magpie/internal/gateway/unknown_model.go](../../magpie/internal/gateway/unknown_model.go) | 1 | [1](magpie_internal_gateway_unknown_model.go-c14c27b5-1.md) |
-| [magpie/internal/gateway/unrouted.go](../../magpie/internal/gateway/unrouted.go) | 40 | [1](magpie_internal_gateway_unrouted.go-db52330a-1.md) |
+| [magpie/internal/gateway/unrouted.go](../../magpie/internal/gateway/unrouted.go) | 45 | [1](magpie_internal_gateway_unrouted.go-db52330a-1.md) |
 | [magpie/internal/gateway/upstream.go](../../magpie/internal/gateway/upstream.go) | 37 | [1](magpie_internal_gateway_upstream.go-1036d2de-1.md) |
 | [magpie/internal/gateway/upstream_transport.go](../../magpie/internal/gateway/upstream_transport.go) | 10 | [1](magpie_internal_gateway_upstream_transport.go-f4e9ed1b-1.md) |
 | [magpie/internal/gateway/usage_api.go](../../magpie/internal/gateway/usage_api.go) | 6 | [1](magpie_internal_gateway_usage_api.go-0d0c8012-1.md) |
@@ -106,7 +107,6 @@
 | [magpie/internal/gateway/wsl.go](../../magpie/internal/gateway/wsl.go) | 16 | [1](magpie_internal_gateway_wsl.go-bad4864b-1.md) |
 | [magpie/internal/gateway/zenfree.go](../../magpie/internal/gateway/zenfree.go) | 15 | [1](magpie_internal_gateway_zenfree.go-a9e15236-1.md) |
 | [magpie/internal/gwbudget/gwbudget.go](../../magpie/internal/gwbudget/gwbudget.go) | 16 | [1](magpie_internal_gwbudget_gwbudget.go-70b7d297-1.md) |
-| [magpie/internal/gwmw/gwmw.go](../../magpie/internal/gwmw/gwmw.go) | 62 | [1](magpie_internal_gwmw_gwmw.go-03371e8a-1.md) |
+| [magpie/internal/gwmw/gwmw.go](../../magpie/internal/gwmw/gwmw.go) | 65 | [1](magpie_internal_gwmw_gwmw.go-03371e8a-1.md) |
 | [magpie/internal/gwtool/gwtool.go](../../magpie/internal/gwtool/gwtool.go) | 6 | [1](magpie_internal_gwtool_gwtool.go-a2ba097e-1.md) |
 | [magpie/internal/middleware/middleware.go](../../magpie/internal/middleware/middleware.go) | 88 | [1](magpie_internal_middleware_middleware.go-37badf68-1.md) |
-| [magpie/internal/middleware/points.go](../../magpie/internal/middleware/points.go) | 77 | [1](magpie_internal_middleware_points.go-ca4a3bb6-1.md) |

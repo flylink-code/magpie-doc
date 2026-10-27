@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/parse_memo.go) · page 1/1
 
-Source SHA-256: 878657ce957c36d31bf5accf14248029fe46d9e43a150987726f020bfa333710
+Source SHA-256: 27b08396b65d6aa9104d26b5631d5d45b4ef785ccf3a4567b2caaeacb947270a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

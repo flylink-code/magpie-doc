@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 12/12
 
-Source SHA-256: 0b6a9c54457a178ce32ffe27aa98579c8f73942e1d9907982b5abc32222de5ae
+Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -96,12 +96,14 @@ Source SHA-256: 0b6a9c54457a178ce32ffe27aa98579c8f73942e1d9907982b5abc32222de5ae
 | u | VariableDeclaration | refreshUsage.run | [3599](../../magpie/internal/gui/assets/plugins/usage/page.js#L3599) |
 | flight | VariableDeclaration | refreshUsage | [3613](../../magpie/internal/gui/assets/plugins/usage/page.js#L3613) |
 | want | VariableDeclaration | refreshUsage.flight | [3617](../../magpie/internal/gui/assets/plugins/usage/page.js#L3617) |
-| tab | VariableDeclaration |  | [3633](../../magpie/internal/gui/assets/plugins/usage/page.js#L3633) |
-| per | VariableDeclaration |  | [3636](../../magpie/internal/gui/assets/plugins/usage/page.js#L3636) |
-| id | BindingElement |  | [3637](../../magpie/internal/gui/assets/plugins/usage/page.js#L3637) |
-| v | VariableDeclaration |  | [3644](../../magpie/internal/gui/assets/plugins/usage/page.js#L3644) |
-| [k, x] | VariableDeclaration |  | [3647](../../magpie/internal/gui/assets/plugins/usage/page.js#L3647) |
-| k | BindingElement | [k, x] | [3647](../../magpie/internal/gui/assets/plugins/usage/page.js#L3647) |
-| x | BindingElement | [k, x] | [3647](../../magpie/internal/gui/assets/plugins/usage/page.js#L3647) |
-| u | VariableDeclaration |  | [3648](../../magpie/internal/gui/assets/plugins/usage/page.js#L3648) |
-| k | VariableDeclaration |  | [3649](../../magpie/internal/gui/assets/plugins/usage/page.js#L3649) |
+| usageSecond | VariableDeclaration |  | [3629](../../magpie/internal/gui/assets/plugins/usage/page.js#L3629) |
+| usageTicks | FunctionDeclaration |  | [3630](../../magpie/internal/gui/assets/plugins/usage/page.js#L3630) |
+| tab | VariableDeclaration |  | [3645](../../magpie/internal/gui/assets/plugins/usage/page.js#L3645) |
+| per | VariableDeclaration |  | [3648](../../magpie/internal/gui/assets/plugins/usage/page.js#L3648) |
+| id | BindingElement |  | [3649](../../magpie/internal/gui/assets/plugins/usage/page.js#L3649) |
+| v | VariableDeclaration |  | [3656](../../magpie/internal/gui/assets/plugins/usage/page.js#L3656) |
+| [k, x] | VariableDeclaration |  | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
+| k | BindingElement | [k, x] | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
+| x | BindingElement | [k, x] | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
+| u | VariableDeclaration |  | [3660](../../magpie/internal/gui/assets/plugins/usage/page.js#L3660) |
+| k | VariableDeclaration |  | [3661](../../magpie/internal/gui/assets/plugins/usage/page.js#L3661) |

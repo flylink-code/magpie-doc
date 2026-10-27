@@ -23,7 +23,7 @@
 | [magpie/internal/davsync/lock.go](../../magpie/internal/davsync/lock.go) | 4 | [1](magpie_internal_davsync_lock.go-53c1cf3f-1.md) |
 | [magpie/internal/davsync/notbackup.go](../../magpie/internal/davsync/notbackup.go) | 28 | [1](magpie_internal_davsync_notbackup.go-7e9a73cd-1.md) |
 | [magpie/internal/davsync/restore.go](../../magpie/internal/davsync/restore.go) | 9 | [1](magpie_internal_davsync_restore.go-7a1b24a8-1.md) |
-| [magpie/internal/davsync/s3.go](../../magpie/internal/davsync/s3.go) | 32 | [1](magpie_internal_davsync_s3.go-485fbc03-1.md) |
+| [magpie/internal/davsync/s3.go](../../magpie/internal/davsync/s3.go) | 33 | [1](magpie_internal_davsync_s3.go-485fbc03-1.md) |
 | [magpie/internal/davsync/sigv4.go](../../magpie/internal/davsync/sigv4.go) | 9 | [1](magpie_internal_davsync_sigv4.go-18c1e7b6-1.md) |
 | [magpie/internal/davsync/stall.go](../../magpie/internal/davsync/stall.go) | 27 | [1](magpie_internal_davsync_stall.go-6014483c-1.md) |
 | [magpie/internal/davsync/usage.go](../../magpie/internal/davsync/usage.go) | 45 | [1](magpie_internal_davsync_usage.go-fccacdda-1.md) |
@@ -54,7 +54,7 @@
 | [magpie/internal/settings/migrate.go](../../magpie/internal/settings/migrate.go) | 2 | [1](magpie_internal_settings_migrate.go-8e52394e-1.md) |
 | [magpie/internal/settings/origins.go](../../magpie/internal/settings/origins.go) | 4 | [1](magpie_internal_settings_origins.go-73025a20-1.md) |
 | [magpie/internal/settings/otel.go](../../magpie/internal/settings/otel.go) | 13 | [1](magpie_internal_settings_otel.go-cf22fa17-1.md) |
-| [magpie/internal/settings/settings.go](../../magpie/internal/settings/settings.go) | 224 | [1](magpie_internal_settings_settings.go-df15a1ce-1.md) [2](magpie_internal_settings_settings.go-df15a1ce-2.md) [3](magpie_internal_settings_settings.go-df15a1ce-3.md) |
+| [magpie/internal/settings/settings.go](../../magpie/internal/settings/settings.go) | 225 | [1](magpie_internal_settings_settings.go-df15a1ce-1.md) [2](magpie_internal_settings_settings.go-df15a1ce-2.md) [3](magpie_internal_settings_settings.go-df15a1ce-3.md) |
 | [magpie/internal/source/source.go](../../magpie/internal/source/source.go) | 21 | [1](magpie_internal_source_source.go-4f7752bd-1.md) |
 | [magpie/internal/sqlitedb/sqlitedb.go](../../magpie/internal/sqlitedb/sqlitedb.go) | 2 | [1](magpie_internal_sqlitedb_sqlitedb.go-3bb8d978-1.md) |
 | [magpie/internal/steady/steady.go](../../magpie/internal/steady/steady.go) | 15 | [1](magpie_internal_steady_steady.go-e66bbf3b-1.md) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate.go) · page 1/2
 
-Source SHA-256: fc5ec50682c50ea076394dacc10f686d4318bbd0021440137bf2fd1a13bc0714
+Source SHA-256: f43541f5ab960e09057b6c2466748680a858be87a47b4efc78faaaf4d10ed955
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -84,27 +84,27 @@ Source SHA-256: fc5ec50682c50ea076394dacc10f686d4318bbd0021440137bf2fd1a13bc0714
 | Accounts | field_declaration | MoveCandidate | [335](../../magpie/internal/provider/migrate.go#L335) |
 | Error | field_declaration | MoveCandidate | [337](../../magpie/internal/provider/migrate.go#L337) |
 | Why | field_declaration | MoveCandidate | [338](../../magpie/internal/provider/migrate.go#L338) |
-| MoveCandidates | function_declaration |  | [343](../../magpie/internal/provider/migrate.go#L343) |
-| init | function_declaration |  | [366](../../magpie/internal/provider/migrate.go#L366) |
-| MovePackage | function_declaration |  | [369](../../magpie/internal/provider/migrate.go#L369) |
-| migrationsPath | function_declaration |  | [376](../../magpie/internal/provider/migrate.go#L376) |
-| migrationsMu | var_spec |  | [378](../../magpie/internal/provider/migrate.go#L378) |
-| readMigrations | function_declaration |  | [382](../../magpie/internal/provider/migrate.go#L382) |
-| readMigrationsFile | function_declaration |  | [384](../../magpie/internal/provider/migrate.go#L384) |
-| parseMigrations | function_declaration |  | [399](../../magpie/internal/provider/migrate.go#L399) |
-| validMigrations | function_declaration |  | [405](../../magpie/internal/provider/migrate.go#L405) |
-| MigrationOf | function_declaration |  | [411](../../magpie/internal/provider/migrate.go#L411) |
-| Moved | function_declaration |  | [417](../../magpie/internal/provider/migrate.go#L417) |
-| movedAgent | function_declaration |  | [426](../../magpie/internal/provider/migrate.go#L426) |
-| OnPlugins | function_declaration |  | [436](../../magpie/internal/provider/migrate.go#L436) |
-| movingNow | function_declaration |  | [447](../../magpie/internal/provider/migrate.go#L447) |
-| setMigration | function_declaration |  | [452](../../magpie/internal/provider/migrate.go#L452) |
-| lockMoves | function_declaration |  | [482](../../magpie/internal/provider/migrate.go#L482) |
-| installPlugin | var_spec |  | [513](../../magpie/internal/provider/migrate.go#L513) |
-| err | var_spec |  | [538](../../magpie/internal/provider/migrate.go#L538) |
-| pluginProviders | var_spec |  | [554](../../magpie/internal/provider/migrate.go#L554) |
-| removePlugin | var_spec |  | [555](../../magpie/internal/provider/migrate.go#L555) |
-| addPlugin | var_spec |  | [558](../../magpie/internal/provider/migrate.go#L558) |
-| upgradePlugin | var_spec |  | [559](../../magpie/internal/provider/migrate.go#L559) |
-| addPluginExact | var_spec |  | [562](../../magpie/internal/provider/migrate.go#L562) |
-| importAuth | var_spec |  | [564](../../magpie/internal/provider/migrate.go#L564) |
+| MoveCandidates | function_declaration |  | [350](../../magpie/internal/provider/migrate.go#L350) |
+| init | function_declaration |  | [376](../../magpie/internal/provider/migrate.go#L376) |
+| MovePackage | function_declaration |  | [379](../../magpie/internal/provider/migrate.go#L379) |
+| migrationsPath | function_declaration |  | [386](../../magpie/internal/provider/migrate.go#L386) |
+| migrationsMu | var_spec |  | [388](../../magpie/internal/provider/migrate.go#L388) |
+| readMigrations | function_declaration |  | [392](../../magpie/internal/provider/migrate.go#L392) |
+| readMigrationsFile | function_declaration |  | [394](../../magpie/internal/provider/migrate.go#L394) |
+| parseMigrations | function_declaration |  | [409](../../magpie/internal/provider/migrate.go#L409) |
+| validMigrations | function_declaration |  | [415](../../magpie/internal/provider/migrate.go#L415) |
+| MigrationOf | function_declaration |  | [421](../../magpie/internal/provider/migrate.go#L421) |
+| Moved | function_declaration |  | [427](../../magpie/internal/provider/migrate.go#L427) |
+| movedAgent | function_declaration |  | [436](../../magpie/internal/provider/migrate.go#L436) |
+| OnPlugins | function_declaration |  | [446](../../magpie/internal/provider/migrate.go#L446) |
+| movingNow | function_declaration |  | [457](../../magpie/internal/provider/migrate.go#L457) |
+| setMigration | function_declaration |  | [462](../../magpie/internal/provider/migrate.go#L462) |
+| lockMoves | function_declaration |  | [492](../../magpie/internal/provider/migrate.go#L492) |
+| installPlugin | var_spec |  | [523](../../magpie/internal/provider/migrate.go#L523) |
+| err | var_spec |  | [548](../../magpie/internal/provider/migrate.go#L548) |
+| pluginProviders | var_spec |  | [564](../../magpie/internal/provider/migrate.go#L564) |
+| removePlugin | var_spec |  | [565](../../magpie/internal/provider/migrate.go#L565) |
+| addPlugin | var_spec |  | [568](../../magpie/internal/provider/migrate.go#L568) |
+| upgradePlugin | var_spec |  | [569](../../magpie/internal/provider/migrate.go#L569) |
+| addPluginExact | var_spec |  | [572](../../magpie/internal/provider/migrate.go#L572) |
+| importAuth | var_spec |  | [574](../../magpie/internal/provider/migrate.go#L574) |

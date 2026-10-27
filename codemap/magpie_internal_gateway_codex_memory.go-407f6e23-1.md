@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_memory.go) · page 1/1
 
-Source SHA-256: 141a39cf2f5f30de45083779d55a9868f8c81b361730f0c24e341d985a880be6
+Source SHA-256: 3e97205856b3280d97aea1da9e20c40be877ab0e76b80f258d4414381318e4ea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,5 +12,5 @@ Source SHA-256: 141a39cf2f5f30de45083779d55a9868f8c81b361730f0c24e341d985a880be6
 | codexTurnKey | function_declaration |  | [22](../../magpie/internal/gateway/codex_memory.go#L22) |
 | rememberCodexTurn | method_declaration | *Server | [28](../../magpie/internal/gateway/codex_memory.go#L28) |
 | isReviewCall | function_declaration |  | [38](../../magpie/internal/gateway/codex_memory.go#L38) |
-| freeOnChatGPT | function_declaration |  | [47](../../magpie/internal/gateway/codex_memory.go#L47) |
-| codexMemoryStandIn | method_declaration | *Server | [68](../../magpie/internal/gateway/codex_memory.go#L68) |
+| freeOnChatGPT | function_declaration |  | [48](../../magpie/internal/gateway/codex_memory.go#L48) |
+| codexMemoryStandIn | method_declaration | *Server | [69](../../magpie/internal/gateway/codex_memory.go#L69) |

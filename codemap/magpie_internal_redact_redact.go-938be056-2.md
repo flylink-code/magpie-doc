@@ -4,39 +4,42 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/redact.go) · page 2/2
 
-Source SHA-256: 37be462bf5515872d11dba7884b0a84cb5f1dad80754c0ed44216a6802cc8cd0
+Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Hint | function_declaration |  | [608](../../magpie/internal/redact/redact.go#L608) |
-| anyCases | var_spec |  | [633](../../magpie/internal/redact/redact.go#L633) |
-| anyCase | function_declaration |  | [637](../../magpie/internal/redact/redact.go#L637) |
-| Mask | function_declaration |  | [647](../../magpie/internal/redact/redact.go#L647) |
-| Preview | function_declaration |  | [655](../../magpie/internal/redact/redact.go#L655) |
-| mask | function_declaration |  | [684](../../magpie/internal/redact/redact.go#L684) |
-| unescapedView | function_declaration |  | [802](../../magpie/internal/redact/redact.go#L802) |
-| unescapedPut | function_declaration |  | [832](../../magpie/internal/redact/redact.go#L832) |
-| outsideEscapes | function_declaration |  | [854](../../magpie/internal/redact/redact.go#L854) |
-| edges | struct_type | outsideEscapes | [860](../../magpie/internal/redact/redact.go#L860) |
-| from | field_declaration | outsideEscapes.edges | [860](../../magpie/internal/redact/redact.go#L860) |
-| to | field_declaration | outsideEscapes.edges | [860](../../magpie/internal/redact/redact.go#L860) |
-| noNumbers | function_declaration |  | [902](../../magpie/internal/redact/redact.go#L902) |
-| jsonNumber | function_declaration |  | [914](../../magpie/internal/redact/redact.go#L914) |
-| inDecimal | function_declaration |  | [955](../../magpie/internal/redact/redact.go#L955) |
-| by | method_declaration | rule | [962](../../magpie/internal/redact/redact.go#L962) |
-| matches | method_declaration | rule | [972](../../magpie/internal/redact/redact.go#L972) |
-| lowerASCII | function_declaration |  | [1027](../../magpie/internal/redact/redact.go#L1027) |
-| takes | method_declaration | rule | [1039](../../magpie/internal/redact/redact.go#L1039) |
-| apply | function_declaration |  | [1056](../../magpie/internal/redact/redact.go#L1056) |
-| allows | method_declaration | Options | [1116](../../magpie/internal/redact/redact.go#L1116) |
-| containsAny | function_declaration |  | [1125](../../magpie/internal/redact/redact.go#L1125) |
-| placeholderBody | var_spec |  | [1138](../../magpie/internal/redact/redact.go#L1138) |
-| Restore | function_declaration |  | [1148](../../magpie/internal/redact/redact.go#L1148) |
-| restore | function_declaration |  | [1152](../../magpie/internal/redact/redact.go#L1152) |
-| canonical | function_declaration |  | [1196](../../magpie/internal/redact/redact.go#L1196) |
-| isWordByte | function_declaration |  | [1201](../../magpie/internal/redact/redact.go#L1201) |
-| braces | function_declaration |  | [1209](../../magpie/internal/redact/redact.go#L1209) |
-| maxPlaceholder | const_spec |  | [1237](../../magpie/internal/redact/redact.go#L1237) |
-| partialTail | function_declaration |  | [1244](../../magpie/internal/redact/redact.go#L1244) |
-| braceTail | function_declaration |  | [1253](../../magpie/internal/redact/redact.go#L1253) |
-| wordTail | function_declaration |  | [1292](../../magpie/internal/redact/redact.go#L1292) |
+| Head | field_declaration | Hit | [627](../../magpie/internal/redact/redact.go#L627) |
+| Len | field_declaration | Hit | [628](../../magpie/internal/redact/redact.go#L628) |
+| Value | function_declaration |  | [633](../../magpie/internal/redact/redact.go#L633) |
+| Hint | function_declaration |  | [643](../../magpie/internal/redact/redact.go#L643) |
+| anyCases | var_spec |  | [668](../../magpie/internal/redact/redact.go#L668) |
+| anyCase | function_declaration |  | [672](../../magpie/internal/redact/redact.go#L672) |
+| Mask | function_declaration |  | [682](../../magpie/internal/redact/redact.go#L682) |
+| Preview | function_declaration |  | [690](../../magpie/internal/redact/redact.go#L690) |
+| mask | function_declaration |  | [719](../../magpie/internal/redact/redact.go#L719) |
+| unescapedView | function_declaration |  | [837](../../magpie/internal/redact/redact.go#L837) |
+| unescapedPut | function_declaration |  | [867](../../magpie/internal/redact/redact.go#L867) |
+| outsideEscapes | function_declaration |  | [889](../../magpie/internal/redact/redact.go#L889) |
+| edges | struct_type | outsideEscapes | [895](../../magpie/internal/redact/redact.go#L895) |
+| from | field_declaration | outsideEscapes.edges | [895](../../magpie/internal/redact/redact.go#L895) |
+| to | field_declaration | outsideEscapes.edges | [895](../../magpie/internal/redact/redact.go#L895) |
+| noNumbers | function_declaration |  | [937](../../magpie/internal/redact/redact.go#L937) |
+| jsonNumber | function_declaration |  | [949](../../magpie/internal/redact/redact.go#L949) |
+| inDecimal | function_declaration |  | [990](../../magpie/internal/redact/redact.go#L990) |
+| by | method_declaration | rule | [997](../../magpie/internal/redact/redact.go#L997) |
+| matches | method_declaration | rule | [1007](../../magpie/internal/redact/redact.go#L1007) |
+| lowerASCII | function_declaration |  | [1062](../../magpie/internal/redact/redact.go#L1062) |
+| takes | method_declaration | rule | [1074](../../magpie/internal/redact/redact.go#L1074) |
+| apply | function_declaration |  | [1091](../../magpie/internal/redact/redact.go#L1091) |
+| allows | method_declaration | Options | [1151](../../magpie/internal/redact/redact.go#L1151) |
+| containsAny | function_declaration |  | [1160](../../magpie/internal/redact/redact.go#L1160) |
+| placeholderBody | var_spec |  | [1173](../../magpie/internal/redact/redact.go#L1173) |
+| Restore | function_declaration |  | [1183](../../magpie/internal/redact/redact.go#L1183) |
+| restore | function_declaration |  | [1187](../../magpie/internal/redact/redact.go#L1187) |
+| canonical | function_declaration |  | [1231](../../magpie/internal/redact/redact.go#L1231) |
+| isWordByte | function_declaration |  | [1236](../../magpie/internal/redact/redact.go#L1236) |
+| braces | function_declaration |  | [1244](../../magpie/internal/redact/redact.go#L1244) |
+| maxPlaceholder | const_spec |  | [1272](../../magpie/internal/redact/redact.go#L1272) |
+| partialTail | function_declaration |  | [1279](../../magpie/internal/redact/redact.go#L1279) |
+| braceTail | function_declaration |  | [1288](../../magpie/internal/redact/redact.go#L1288) |
+| wordTail | function_declaration |  | [1327](../../magpie/internal/redact/redact.go#L1327) |

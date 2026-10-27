@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/gateway.go) · page 1/3
 
-Source SHA-256: b0e045670005e42aa342ae8800bc9c4e5cf67b8911d86a3bcbb70788ebc55925
+Source SHA-256: 71f7e7d8d7a5a8b5ad6342531472b5e91ef1c55c2f4685e91dcae197f4f854a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -92,19 +92,19 @@ Source SHA-256: b0e045670005e42aa342ae8800bc9c4e5cf67b8911d86a3bcbb70788ebc55925
 | titlePrompts | field_declaration | Server | [424](../../magpie/internal/gateway/gateway.go#L424) |
 | compactFails | field_declaration | Server | [428](../../magpie/internal/gateway/gateway.go#L428) |
 | codexTurns | field_declaration | Server | [431](../../magpie/internal/gateway/gateway.go#L431) |
-| lnMu | field_declaration | Server | [434](../../magpie/internal/gateway/gateway.go#L434) |
-| ln | field_declaration | Server | [435](../../magpie/internal/gateway/gateway.go#L435) |
-| frontOnce | field_declaration | Server | [437](../../magpie/internal/gateway/gateway.go#L437) |
-| front | field_declaration | Server | [438](../../magpie/internal/gateway/gateway.go#L438) |
-| handedOff | field_declaration | Server | [441](../../magpie/internal/gateway/gateway.go#L441) |
-| tls | field_declaration | Server | [443](../../magpie/internal/gateway/gateway.go#L443) |
-| sightMu | field_declaration | Server | [445](../../magpie/internal/gateway/gateway.go#L445) |
-| sights | field_declaration | Server | [446](../../magpie/internal/gateway/gateway.go#L446) |
-| sightOrder | field_declaration | Server | [447](../../magpie/internal/gateway/gateway.go#L447) |
-| lanes | field_declaration | Server | [450](../../magpie/internal/gateway/gateway.go#L450) |
-| rpms | field_declaration | Server | [453](../../magpie/internal/gateway/gateway.go#L453) |
-| requestLimits | field_declaration | Server | [454](../../magpie/internal/gateway/gateway.go#L454) |
-| agTurnedAway | field_declaration | Server | [460](../../magpie/internal/gateway/gateway.go#L460) |
-| New | function_declaration |  | [464](../../magpie/internal/gateway/gateway.go#L464) |
-| Recent | method_declaration | *Server | [478](../../magpie/internal/gateway/gateway.go#L478) |
-| RouteCall | method_declaration | *Server | [490](../../magpie/internal/gateway/gateway.go#L490) |
+| codexLeads | field_declaration | Server | [434](../../magpie/internal/gateway/gateway.go#L434) |
+| lnMu | field_declaration | Server | [437](../../magpie/internal/gateway/gateway.go#L437) |
+| ln | field_declaration | Server | [438](../../magpie/internal/gateway/gateway.go#L438) |
+| frontOnce | field_declaration | Server | [440](../../magpie/internal/gateway/gateway.go#L440) |
+| front | field_declaration | Server | [441](../../magpie/internal/gateway/gateway.go#L441) |
+| handedOff | field_declaration | Server | [444](../../magpie/internal/gateway/gateway.go#L444) |
+| tls | field_declaration | Server | [446](../../magpie/internal/gateway/gateway.go#L446) |
+| sightMu | field_declaration | Server | [448](../../magpie/internal/gateway/gateway.go#L448) |
+| sights | field_declaration | Server | [449](../../magpie/internal/gateway/gateway.go#L449) |
+| sightOrder | field_declaration | Server | [450](../../magpie/internal/gateway/gateway.go#L450) |
+| lanes | field_declaration | Server | [453](../../magpie/internal/gateway/gateway.go#L453) |
+| rpms | field_declaration | Server | [456](../../magpie/internal/gateway/gateway.go#L456) |
+| requestLimits | field_declaration | Server | [457](../../magpie/internal/gateway/gateway.go#L457) |
+| agTurnedAway | field_declaration | Server | [463](../../magpie/internal/gateway/gateway.go#L463) |
+| New | function_declaration |  | [467](../../magpie/internal/gateway/gateway.go#L467) |
+| Recent | method_declaration | *Server | [481](../../magpie/internal/gateway/gateway.go#L481) |

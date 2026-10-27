@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.js) · page 7/8
 
-Source SHA-256: 25ef7cf0d2813cc25a2e3675c28b5fa9ce9ec87f1b5a621803a193ab3929dbac
+Source SHA-256: 06f5631b4e14299acab803d834598577569409f636fc0563002e092891fd334a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| stale | VariableDeclaration | lockRenew | [2216](../../magpie/internal/plugin/host.js#L2216) |
-| changed | FunctionDeclaration |  | [2229](../../magpie/internal/plugin/host.js#L2229) |
-| renew | FunctionDeclaration |  | [2233](../../magpie/internal/plugin/host.js#L2233) |
-| was | VariableDeclaration | renew | [2234](../../magpie/internal/plugin/host.js#L2234) |
-| at | VariableDeclaration | renew | [2235](../../magpie/internal/plugin/host.js#L2235) |
-| unlock | VariableDeclaration | renew | [2237](../../magpie/internal/plugin/host.js#L2237) |
-| renewLocked | FunctionDeclaration |  | [2245](../../magpie/internal/plugin/host.js#L2245) |
-| now | VariableDeclaration | renewLocked | [2248](../../magpie/internal/plugin/host.js#L2248) |
-| at | VariableDeclaration | renewLocked | [2254](../../magpie/internal/plugin/host.js#L2254) |
-| got | VariableDeclaration | renewLocked | [2257](../../magpie/internal/plugin/host.js#L2257) |
-| e | VariableDeclaration | renewLocked | [2260](../../magpie/internal/plugin/host.js#L2260) |
-| { type: _t, ...fields } | VariableDeclaration | renewLocked | [2277](../../magpie/internal/plugin/host.js#L2277) |
-| _t | BindingElement | renewLocked.{ type: _t, ...fields } | [2277](../../magpie/internal/plugin/host.js#L2277) |
-| fields | BindingElement | renewLocked.{ type: _t, ...fields } | [2277](../../magpie/internal/plugin/host.js#L2277) |
-| kept | VariableDeclaration | renewLocked | [2278](../../magpie/internal/plugin/host.js#L2278) |
-| options | FunctionDeclaration |  | [2294](../../magpie/internal/plugin/host.js#L2294) |
-| a | VariableDeclaration | options | [2297](../../magpie/internal/plugin/host.js#L2297) |
-| stored | VariableDeclaration | options | [2298](../../magpie/internal/plugin/host.js#L2298) |
-| opts | VariableDeclaration | options | [2299](../../magpie/internal/plugin/host.js#L2299) |
-| p | VariableDeclaration | options | [2301](../../magpie/internal/plugin/host.js#L2301) |
-| load | FunctionDeclaration |  | [2309](../../magpie/internal/plugin/host.js#L2309) |
-| provider | BindingElement | load | [2309](../../magpie/internal/plugin/host.js#L2309) |
-| account | BindingElement | load | [2309](../../magpie/internal/plugin/host.js#L2309) |
-| proxy | BindingElement | load | [2309](../../magpie/internal/plugin/host.js#L2309) |
-| key | VariableDeclaration | load | [2310](../../magpie/internal/plugin/host.js#L2310) |
-| o | VariableDeclaration | load | [2311](../../magpie/internal/plugin/host.js#L2311) |
-| usage | FunctionDeclaration |  | [2348](../../magpie/internal/plugin/host.js#L2348) |
-| provider | BindingElement | usage | [2348](../../magpie/internal/plugin/host.js#L2348) |
-| account | BindingElement | usage | [2348](../../magpie/internal/plugin/host.js#L2348) |
-| proxy | BindingElement | usage | [2348](../../magpie/internal/plugin/host.js#L2348) |
-| usageOf | FunctionDeclaration |  | [2352](../../magpie/internal/plugin/host.js#L2352) |
-| a | VariableDeclaration | usageOf | [2353](../../magpie/internal/plugin/host.js#L2353) |
-| key | VariableDeclaration | usageOf | [2355](../../magpie/internal/plugin/host.js#L2355) |
-| p | VariableDeclaration | usageOf | [2358](../../magpie/internal/plugin/host.js#L2358) |
-| u | VariableDeclaration | usageOf | [2359](../../magpie/internal/plugin/host.js#L2359) |
-| when | VariableDeclaration | usageOf | [2360](../../magpie/internal/plugin/host.js#L2360) |
-| d | VariableDeclaration | usageOf.when | [2362](../../magpie/internal/plugin/host.js#L2362) |
-| text | VariableDeclaration | usageOf | [2365](../../magpie/internal/plugin/host.js#L2365) |
-| num | VariableDeclaration | usageOf | [2366](../../magpie/internal/plugin/host.js#L2366) |
-| ids | VariableDeclaration | usageOf | [2367](../../magpie/internal/plugin/host.js#L2367) |
-| checkin | FunctionDeclaration |  | [2421](../../magpie/internal/plugin/host.js#L2421) |
-| provider | BindingElement | checkin | [2421](../../magpie/internal/plugin/host.js#L2421) |
-| account | BindingElement | checkin | [2421](../../magpie/internal/plugin/host.js#L2421) |
-| proxy | BindingElement | checkin | [2421](../../magpie/internal/plugin/host.js#L2421) |
-| checkinOutcomes | VariableDeclaration |  | [2425](../../magpie/internal/plugin/host.js#L2425) |
-| checkinOf | FunctionDeclaration |  | [2427](../../magpie/internal/plugin/host.js#L2427) |
-| a | VariableDeclaration | checkinOf | [2428](../../magpie/internal/plugin/host.js#L2428) |
-| key | VariableDeclaration | checkinOf | [2430](../../magpie/internal/plugin/host.js#L2430) |
-| p | VariableDeclaration | checkinOf | [2433](../../magpie/internal/plugin/host.js#L2433) |
-| r | VariableDeclaration | checkinOf | [2434](../../magpie/internal/plugin/host.js#L2434) |
-| num | VariableDeclaration | checkinOf | [2435](../../magpie/internal/plugin/host.js#L2435) |
-| message | VariableDeclaration | checkinOf | [2436](../../magpie/internal/plugin/host.js#L2436) |
-| sdkHeaders | FunctionDeclaration |  | [2444](../../magpie/internal/plugin/host.js#L2444) |
-| bodyOf | FunctionDeclaration |  | [2454](../../magpie/internal/plugin/host.js#L2454) |
-| b | VariableDeclaration | bodyOf | [2456](../../magpie/internal/plugin/host.js#L2456) |
-| doFetch | FunctionDeclaration |  | [2464](../../magpie/internal/plugin/host.js#L2464) |
-| key | VariableDeclaration | doFetch | [2465](../../magpie/internal/plugin/host.js#L2465) |
-| fetchAs | FunctionDeclaration |  | [2469](../../magpie/internal/plugin/host.js#L2469) |
-| { controller: ctl, gate } | VariableDeclaration | fetchAs | [2470](../../magpie/internal/plugin/host.js#L2470) |
-| ctl | BindingElement | fetchAs.{ controller: ctl, gate } | [2470](../../magpie/internal/plugin/host.js#L2470) |
-| gate | BindingElement | fetchAs.{ controller: ctl, gate } | [2470](../../magpie/internal/plugin/host.js#L2470) |
-| { provider, model, npm, url, method, headers, body, session } | VariableDeclaration | fetchAs | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| provider | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| model | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| npm | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| url | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| method | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| headers | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| body | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| session | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2471](../../magpie/internal/plugin/host.js#L2471) |
-| o | VariableDeclaration | fetchAs | [2473](../../magpie/internal/plugin/host.js#L2473) |
-| h | VariableDeclaration | fetchAs | [2475](../../magpie/internal/plugin/host.js#L2475) |
-| [k, v] | VariableDeclaration | fetchAs | [2476](../../magpie/internal/plugin/host.js#L2476) |
-| k | BindingElement | fetchAs.[k, v] | [2476](../../magpie/internal/plugin/host.js#L2476) |
-| v | BindingElement | fetchAs.[k, v] | [2476](../../magpie/internal/plugin/host.js#L2476) |
-| [k, v] | VariableDeclaration | fetchAs | [2477](../../magpie/internal/plugin/host.js#L2477) |
-| k | BindingElement | fetchAs.[k, v] | [2477](../../magpie/internal/plugin/host.js#L2477) |
-| v | BindingElement | fetchAs.[k, v] | [2477](../../magpie/internal/plugin/host.js#L2477) |
-| [k, v] | VariableDeclaration | fetchAs | [2478](../../magpie/internal/plugin/host.js#L2478) |
-| k | BindingElement | fetchAs.[k, v] | [2478](../../magpie/internal/plugin/host.js#L2478) |
-| v | BindingElement | fetchAs.[k, v] | [2478](../../magpie/internal/plugin/host.js#L2478) |
-| said | VariableDeclaration | fetchAs | [2483](../../magpie/internal/plugin/host.js#L2483) |
-| p | VariableDeclaration | fetchAs | [2484](../../magpie/internal/plugin/host.js#L2484) |
-| m | VariableDeclaration | fetchAs | [2484](../../magpie/internal/plugin/host.js#L2484) |
-| x | VariableDeclaration | fetchAs | [2490](../../magpie/internal/plugin/host.js#L2490) |
-| fn | VariableDeclaration | fetchAs | [2491](../../magpie/internal/plugin/host.js#L2491) |
-| out | VariableDeclaration | fetchAs | [2492](../../magpie/internal/plugin/host.js#L2492) |
-| e | VariableDeclaration | fetchAs | [2504](../../magpie/internal/plugin/host.js#L2504) |
-| [k, v] | VariableDeclaration | fetchAs | [2508](../../magpie/internal/plugin/host.js#L2508) |
-| k | BindingElement | fetchAs.[k, v] | [2508](../../magpie/internal/plugin/host.js#L2508) |
-| v | BindingElement | fetchAs.[k, v] | [2508](../../magpie/internal/plugin/host.js#L2508) |
-| f | VariableDeclaration | fetchAs | [2510](../../magpie/internal/plugin/host.js#L2510) |
-| res | VariableDeclaration | fetchAs | [2514](../../magpie/internal/plugin/host.js#L2514) |
-| rh | VariableDeclaration | fetchAs | [2523](../../magpie/internal/plugin/host.js#L2523) |
-| head | VariableDeclaration | fetchAs | [2525](../../magpie/internal/plugin/host.js#L2525) |
-| chunk | VariableDeclaration | fetchAs | [2537](../../magpie/internal/plugin/host.js#L2537) |
-| bytes | VariableDeclaration | fetchAs | [2540](../../magpie/internal/plugin/host.js#L2540) |
-| off | VariableDeclaration | fetchAs | [2541](../../magpie/internal/plugin/host.js#L2541) |
-| n | VariableDeclaration | fetchAs | [2544](../../magpie/internal/plugin/host.js#L2544) |
-| data | VariableDeclaration | fetchAs | [2547](../../magpie/internal/plugin/host.js#L2547) |
+| t | VariableDeclaration | fresh | [2208](../../magpie/internal/plugin/host.js#L2208) |
+| RENEW_LOCK_STALE | VariableDeclaration |  | [2222](../../magpie/internal/plugin/host.js#L2222) |
+| alive | FunctionDeclaration |  | [2224](../../magpie/internal/plugin/host.js#L2224) |
+| e | VariableDeclaration | alive | [2228](../../magpie/internal/plugin/host.js#L2228) |
+| lockRenew | FunctionDeclaration |  | [2233](../../magpie/internal/plugin/host.js#L2233) |
+| lock | VariableDeclaration | lockRenew | [2234](../../magpie/internal/plugin/host.js#L2234) |
+| me | VariableDeclaration | lockRenew | [2235](../../magpie/internal/plugin/host.js#L2235) |
+| start | VariableDeclaration | lockRenew | [2237](../../magpie/internal/plugin/host.js#L2237) |
+| wait | VariableDeclaration | lockRenew | [2237](../../magpie/internal/plugin/host.js#L2237) |
+| e | VariableDeclaration | lockRenew | [2245](../../magpie/internal/plugin/host.js#L2245) |
+| raw | VariableDeclaration | lockRenew | [2248](../../magpie/internal/plugin/host.js#L2248) |
+| h | VariableDeclaration | lockRenew | [2249](../../magpie/internal/plugin/host.js#L2249) |
+| age | VariableDeclaration | lockRenew | [2250](../../magpie/internal/plugin/host.js#L2250) |
+| stale | VariableDeclaration | lockRenew | [2258](../../magpie/internal/plugin/host.js#L2258) |
+| changed | FunctionDeclaration |  | [2271](../../magpie/internal/plugin/host.js#L2271) |
+| renew | FunctionDeclaration |  | [2275](../../magpie/internal/plugin/host.js#L2275) |
+| was | VariableDeclaration | renew | [2276](../../magpie/internal/plugin/host.js#L2276) |
+| at | VariableDeclaration | renew | [2277](../../magpie/internal/plugin/host.js#L2277) |
+| unlock | VariableDeclaration | renew | [2279](../../magpie/internal/plugin/host.js#L2279) |
+| renewLocked | FunctionDeclaration |  | [2287](../../magpie/internal/plugin/host.js#L2287) |
+| now | VariableDeclaration | renewLocked | [2290](../../magpie/internal/plugin/host.js#L2290) |
+| at | VariableDeclaration | renewLocked | [2296](../../magpie/internal/plugin/host.js#L2296) |
+| got | VariableDeclaration | renewLocked | [2299](../../magpie/internal/plugin/host.js#L2299) |
+| e | VariableDeclaration | renewLocked | [2302](../../magpie/internal/plugin/host.js#L2302) |
+| { type: _t, ...fields } | VariableDeclaration | renewLocked | [2319](../../magpie/internal/plugin/host.js#L2319) |
+| _t | BindingElement | renewLocked.{ type: _t, ...fields } | [2319](../../magpie/internal/plugin/host.js#L2319) |
+| fields | BindingElement | renewLocked.{ type: _t, ...fields } | [2319](../../magpie/internal/plugin/host.js#L2319) |
+| kept | VariableDeclaration | renewLocked | [2320](../../magpie/internal/plugin/host.js#L2320) |
+| options | FunctionDeclaration |  | [2336](../../magpie/internal/plugin/host.js#L2336) |
+| a | VariableDeclaration | options | [2339](../../magpie/internal/plugin/host.js#L2339) |
+| stored | VariableDeclaration | options | [2340](../../magpie/internal/plugin/host.js#L2340) |
+| opts | VariableDeclaration | options | [2341](../../magpie/internal/plugin/host.js#L2341) |
+| p | VariableDeclaration | options | [2343](../../magpie/internal/plugin/host.js#L2343) |
+| load | FunctionDeclaration |  | [2351](../../magpie/internal/plugin/host.js#L2351) |
+| provider | BindingElement | load | [2351](../../magpie/internal/plugin/host.js#L2351) |
+| account | BindingElement | load | [2351](../../magpie/internal/plugin/host.js#L2351) |
+| proxy | BindingElement | load | [2351](../../magpie/internal/plugin/host.js#L2351) |
+| key | VariableDeclaration | load | [2352](../../magpie/internal/plugin/host.js#L2352) |
+| o | VariableDeclaration | load | [2353](../../magpie/internal/plugin/host.js#L2353) |
+| usage | FunctionDeclaration |  | [2390](../../magpie/internal/plugin/host.js#L2390) |
+| provider | BindingElement | usage | [2390](../../magpie/internal/plugin/host.js#L2390) |
+| account | BindingElement | usage | [2390](../../magpie/internal/plugin/host.js#L2390) |
+| proxy | BindingElement | usage | [2390](../../magpie/internal/plugin/host.js#L2390) |
+| usageOf | FunctionDeclaration |  | [2394](../../magpie/internal/plugin/host.js#L2394) |
+| a | VariableDeclaration | usageOf | [2395](../../magpie/internal/plugin/host.js#L2395) |
+| key | VariableDeclaration | usageOf | [2397](../../magpie/internal/plugin/host.js#L2397) |
+| p | VariableDeclaration | usageOf | [2400](../../magpie/internal/plugin/host.js#L2400) |
+| u | VariableDeclaration | usageOf | [2401](../../magpie/internal/plugin/host.js#L2401) |
+| when | VariableDeclaration | usageOf | [2402](../../magpie/internal/plugin/host.js#L2402) |
+| d | VariableDeclaration | usageOf.when | [2404](../../magpie/internal/plugin/host.js#L2404) |
+| text | VariableDeclaration | usageOf | [2407](../../magpie/internal/plugin/host.js#L2407) |
+| num | VariableDeclaration | usageOf | [2408](../../magpie/internal/plugin/host.js#L2408) |
+| ids | VariableDeclaration | usageOf | [2409](../../magpie/internal/plugin/host.js#L2409) |
+| checkin | FunctionDeclaration |  | [2463](../../magpie/internal/plugin/host.js#L2463) |
+| provider | BindingElement | checkin | [2463](../../magpie/internal/plugin/host.js#L2463) |
+| account | BindingElement | checkin | [2463](../../magpie/internal/plugin/host.js#L2463) |
+| proxy | BindingElement | checkin | [2463](../../magpie/internal/plugin/host.js#L2463) |
+| checkinOutcomes | VariableDeclaration |  | [2467](../../magpie/internal/plugin/host.js#L2467) |
+| checkinOf | FunctionDeclaration |  | [2469](../../magpie/internal/plugin/host.js#L2469) |
+| a | VariableDeclaration | checkinOf | [2470](../../magpie/internal/plugin/host.js#L2470) |
+| key | VariableDeclaration | checkinOf | [2472](../../magpie/internal/plugin/host.js#L2472) |
+| p | VariableDeclaration | checkinOf | [2475](../../magpie/internal/plugin/host.js#L2475) |
+| r | VariableDeclaration | checkinOf | [2476](../../magpie/internal/plugin/host.js#L2476) |
+| num | VariableDeclaration | checkinOf | [2477](../../magpie/internal/plugin/host.js#L2477) |
+| message | VariableDeclaration | checkinOf | [2478](../../magpie/internal/plugin/host.js#L2478) |
+| sdkHeaders | FunctionDeclaration |  | [2486](../../magpie/internal/plugin/host.js#L2486) |
+| bodyOf | FunctionDeclaration |  | [2496](../../magpie/internal/plugin/host.js#L2496) |
+| b | VariableDeclaration | bodyOf | [2498](../../magpie/internal/plugin/host.js#L2498) |
+| doFetch | FunctionDeclaration |  | [2506](../../magpie/internal/plugin/host.js#L2506) |
+| key | VariableDeclaration | doFetch | [2507](../../magpie/internal/plugin/host.js#L2507) |
+| fetchAs | FunctionDeclaration |  | [2511](../../magpie/internal/plugin/host.js#L2511) |
+| { controller: ctl, gate } | VariableDeclaration | fetchAs | [2512](../../magpie/internal/plugin/host.js#L2512) |
+| ctl | BindingElement | fetchAs.{ controller: ctl, gate } | [2512](../../magpie/internal/plugin/host.js#L2512) |
+| gate | BindingElement | fetchAs.{ controller: ctl, gate } | [2512](../../magpie/internal/plugin/host.js#L2512) |
+| { provider, model, npm, url, method, headers, body, session } | VariableDeclaration | fetchAs | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| provider | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| model | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| npm | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| url | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| method | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| headers | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| body | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| session | BindingElement | fetchAs.{ provider, model, npm, url, method, headers, body, session } | [2513](../../magpie/internal/plugin/host.js#L2513) |
+| o | VariableDeclaration | fetchAs | [2515](../../magpie/internal/plugin/host.js#L2515) |
+| h | VariableDeclaration | fetchAs | [2517](../../magpie/internal/plugin/host.js#L2517) |
+| [k, v] | VariableDeclaration | fetchAs | [2518](../../magpie/internal/plugin/host.js#L2518) |
+| k | BindingElement | fetchAs.[k, v] | [2518](../../magpie/internal/plugin/host.js#L2518) |
+| v | BindingElement | fetchAs.[k, v] | [2518](../../magpie/internal/plugin/host.js#L2518) |
+| [k, v] | VariableDeclaration | fetchAs | [2519](../../magpie/internal/plugin/host.js#L2519) |
+| k | BindingElement | fetchAs.[k, v] | [2519](../../magpie/internal/plugin/host.js#L2519) |
+| v | BindingElement | fetchAs.[k, v] | [2519](../../magpie/internal/plugin/host.js#L2519) |
+| [k, v] | VariableDeclaration | fetchAs | [2520](../../magpie/internal/plugin/host.js#L2520) |
+| k | BindingElement | fetchAs.[k, v] | [2520](../../magpie/internal/plugin/host.js#L2520) |
+| v | BindingElement | fetchAs.[k, v] | [2520](../../magpie/internal/plugin/host.js#L2520) |
+| said | VariableDeclaration | fetchAs | [2525](../../magpie/internal/plugin/host.js#L2525) |
+| p | VariableDeclaration | fetchAs | [2526](../../magpie/internal/plugin/host.js#L2526) |
+| m | VariableDeclaration | fetchAs | [2526](../../magpie/internal/plugin/host.js#L2526) |
+| x | VariableDeclaration | fetchAs | [2532](../../magpie/internal/plugin/host.js#L2532) |
+| fn | VariableDeclaration | fetchAs | [2533](../../magpie/internal/plugin/host.js#L2533) |
+| out | VariableDeclaration | fetchAs | [2534](../../magpie/internal/plugin/host.js#L2534) |

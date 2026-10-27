@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_kimi.go) · page 1/1
 
-Source SHA-256: e3696ba63d6c7b7984a0f8a825bdf7c9283e9dd6cbe3da75ed6a5c7b8fc8edd0
+Source SHA-256: edb455ec1d7f67cd9064478df816ccf2946bd08fe79cc3fb408602c86bb25c62
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

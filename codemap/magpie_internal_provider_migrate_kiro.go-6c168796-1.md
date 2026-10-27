@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate_kiro.go) · page 1/1
 
-Source SHA-256: 47848eb97427dc090978dec9446b3b8ee10ac88b287c868d9410d0a74810e2f4
+Source SHA-256: e695155f9bb9601a13fbe7efbdfe5b3381927516bf5b143d81a3e396af3a5fbc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

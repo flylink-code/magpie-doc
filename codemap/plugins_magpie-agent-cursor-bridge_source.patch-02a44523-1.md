@@ -4,68 +4,71 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/source.patch) · page 1/1
 
-Source SHA-256: a93ecb8eb0bc5b28ebd9a15d0a8f44e7dcde3b9382450638c6e321252d315adb
+Source SHA-256: 8e846083d65e6fb60de7079950fefd251564efe987be3558ac2807fa2e98e8a0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| server/src/config.rs | patch target |  | [4](../../plugins/magpie-agent-cursor-bridge/source.patch#L4) |
-| server/src/cursor/services/model_catalog.rs | patch target |  | [30](../../plugins/magpie-agent-cursor-bridge/source.patch#L30) |
-| ModelPickerDisplayConfiguration | patch struct | server/src/cursor/services/model_catalog.rs | [40](../../plugins/magpie-agent-cursor-bridge/source.patch#L40) |
-| RoutedModelViewConfig | patch struct | server/src/cursor/services/model_catalog.rs | [48](../../plugins/magpie-agent-cursor-bridge/source.patch#L48) |
-| NamedModelsViewConfig | patch struct | server/src/cursor/services/model_catalog.rs | [54](../../plugins/magpie-agent-cursor-bridge/source.patch#L54) |
-| NoAutoButton | patch struct | server/src/cursor/services/model_catalog.rs | [60](../../plugins/magpie-agent-cursor-bridge/source.patch#L60) |
-| AvailableModelsAddition | patch impl | server/src/cursor/services/model_catalog.rs | [62](../../plugins/magpie-agent-cursor-bridge/source.patch#L62) |
-| with_local_picker | patch fn | server/src/cursor/services/model_catalog.rs | [63](../../plugins/magpie-agent-cursor-bridge/source.patch#L63) |
-| LocalCatalogOnly | patch struct | server/src/cursor/services/model_catalog.rs | [87](../../plugins/magpie-agent-cursor-bridge/source.patch#L87) |
-| catalog_response | patch fn | server/src/cursor/services/model_catalog.rs | [140](../../plugins/magpie-agent-cursor-bridge/source.patch#L140) |
-| bridge_picker_hides_auto_using_cursor_wire_fields | patch fn | server/src/cursor/services/model_catalog.rs | [165](../../plugins/magpie-agent-cursor-bridge/source.patch#L165) |
-| bridge_catalogue_excludes_subscription_models_without_polling_upstream | patch fn | server/src/cursor/services/model_catalog.rs | [183](../../plugins/magpie-agent-cursor-bridge/source.patch#L183) |
-| bridge_usable_catalogue_is_local_even_with_an_authenticated_request | patch fn | server/src/cursor/services/model_catalog.rs | [212](../../plugins/magpie-agent-cursor-bridge/source.patch#L212) |
-| ordinary_byok_keeps_the_upstream_catalogue | patch fn | server/src/cursor/services/model_catalog.rs | [227](../../plugins/magpie-agent-cursor-bridge/source.patch#L227) |
-| server/src/local_app/mod.rs | patch target |  | [242](../../plugins/magpie-agent-cursor-bridge/source.patch#L242) |
-| initialize_bridge_ca | patch fn | server/src/local_app/mod.rs | [248](../../plugins/magpie-agent-cursor-bridge/source.patch#L248) |
-| start_proxy_only | patch fn | server/src/local_app/mod.rs | [262](../../plugins/magpie-agent-cursor-bridge/source.patch#L262) |
-| stop_proxy_only | patch fn | server/src/local_app/mod.rs | [275](../../plugins/magpie-agent-cursor-bridge/source.patch#L275) |
-| server/src/store/models.rs | patch target |  | [285](../../plugins/magpie-agent-cursor-bridge/source.patch#L285) |
-| replace_bridge_models | patch fn | server/src/store/models.rs | [291](../../plugins/magpie-agent-cursor-bridge/source.patch#L291) |
-| server/src/bin/cursor-magpie-bridge.rs | patch target |  | [319](../../plugins/magpie-agent-cursor-bridge/source.patch#L319) |
-| Connection | patch struct | server/src/bin/cursor-magpie-bridge.rs | [329](../../plugins/magpie-agent-cursor-bridge/source.patch#L329) |
-| BridgeModel | patch struct | server/src/bin/cursor-magpie-bridge.rs | [331](../../plugins/magpie-agent-cursor-bridge/source.patch#L331) |
-| catalogue | patch fn | server/src/bin/cursor-magpie-bridge.rs | [333](../../plugins/magpie-agent-cursor-bridge/source.patch#L333) |
-| main | patch fn | server/src/bin/cursor-magpie-bridge.rs | [356](../../plugins/magpie-agent-cursor-bridge/source.patch#L356) |
-| tests | patch mod | server/src/bin/cursor-magpie-bridge.rs | [444](../../plugins/magpie-agent-cursor-bridge/source.patch#L444) |
-| config | patch fn | server/src/bin/cursor-magpie-bridge.rs | [446](../../plugins/magpie-agent-cursor-bridge/source.patch#L446) |
-| selected_model_first_and_route_preserved | patch fn | server/src/bin/cursor-magpie-bridge.rs | [448](../../plugins/magpie-agent-cursor-bridge/source.patch#L448) |
-| rejects_remote_and_duplicate_models | patch fn | server/src/bin/cursor-magpie-bridge.rs | [456](../../plugins/magpie-agent-cursor-bridge/source.patch#L456) |
-| catalogue_update_is_atomic_and_retains_last_valid_models | patch fn | server/src/bin/cursor-magpie-bridge.rs | [461](../../plugins/magpie-agent-cursor-bridge/source.patch#L461) |
-| server/examples/magpie_smoke.rs | patch target |  | [480](../../plugins/magpie-agent-cursor-bridge/source.patch#L480) |
-| append | patch fn | server/examples/magpie_smoke.rs | [487](../../plugins/magpie-agent-cursor-bridge/source.patch#L487) |
-| main | patch fn | server/examples/magpie_smoke.rs | [493](../../plugins/magpie-agent-cursor-bridge/source.patch#L493) |
-| server/src/api/cursor/bidi.rs | patch target |  | [533](../../plugins/magpie-agent-cursor-bridge/source.patch#L533) |
-| wire_structure | patch fn | server/src/api/cursor/bidi.rs | [539](../../plugins/magpie-agent-cursor-bridge/source.patch#L539) |
-| scan | patch fn | server/src/api/cursor/bidi.rs | [540](../../plugins/magpie-agent-cursor-bridge/source.patch#L540) |
-| bridge_structure_tests | patch mod | server/src/api/cursor/bidi.rs | [628](../../plugins/magpie-agent-cursor-bridge/source.patch#L628) |
-| diagnostic_never_displays_field_values | patch fn | server/src/api/cursor/bidi.rs | [630](../../plugins/magpie-agent-cursor-bridge/source.patch#L630) |
-| server/tests/bridge_bidi_wire.rs | patch target |  | [642](../../plugins/magpie-agent-cursor-bridge/source.patch#L642) |
-| request | patch fn | server/tests/bridge_bidi_wire.rs | [647](../../plugins/magpie-agent-cursor-bridge/source.patch#L647) |
-| bridge_bidi_hex_and_binary_preserve_state_blob_references | patch fn | server/tests/bridge_bidi_wire.rs | [657](../../plugins/magpie-agent-cursor-bridge/source.patch#L657) |
-| bridge_bidi_rejects_ambiguous_and_empty_envelopes | patch fn | server/tests/bridge_bidi_wire.rs | [682](../../plugins/magpie-agent-cursor-bridge/source.patch#L682) |
-| ErrorString | patch trait | server/tests/bridge_bidi_wire.rs | [689](../../plugins/magpie-agent-cursor-bridge/source.patch#L689) |
-| ErrorString | patch impl | server/tests/bridge_bidi_wire.rs | [690](../../plugins/magpie-agent-cursor-bridge/source.patch#L690) |
-| unwrap_err_string | patch fn | server/tests/bridge_bidi_wire.rs | [691](../../plugins/magpie-agent-cursor-bridge/source.patch#L691) |
-| bridge_bidi_invalid_state_reproduces_cursor_error_without_tls | patch fn | server/tests/bridge_bidi_wire.rs | [695](../../plugins/magpie-agent-cursor-bridge/source.patch#L695) |
-| server/src/cursor/compile/context.rs | patch target |  | [707](../../plugins/magpie-agent-cursor-bridge/source.patch#L707) |
-| bridge_json_numbers | patch mod | server/src/cursor/compile/context.rs | [723](../../plugins/magpie-agent-cursor-bridge/source.patch#L723) |
-| nested_tool_schemas_preserve_integer_limits_and_fractional_constraints | patch fn | server/src/cursor/compile/context.rs | [725](../../plugins/magpie-agent-cursor-bridge/source.patch#L725) |
-| number | patch fn | server/src/cursor/compile/context.rs | [727](../../plugins/magpie-agent-cursor-bridge/source.patch#L727) |
-| object | patch fn | server/src/cursor/compile/context.rs | [728](../../plugins/magpie-agent-cursor-bridge/source.patch#L728) |
-| protobuf_schema_numbers_restore_json_integers | patch fn | server/src/cursor/compile/context.rs | [744](../../plugins/magpie-agent-cursor-bridge/source.patch#L744) |
-| server/src/cursor/services/analytics.rs | patch target |  | [754](../../plugins/magpie-agent-cursor-bridge/source.patch#L754) |
-| patch_upstream | patch fn | server/src/cursor/services/analytics.rs | [787](../../plugins/magpie-agent-cursor-bridge/source.patch#L787) |
-| local_response | patch fn | server/src/cursor/services/analytics.rs | [798](../../plugins/magpie-agent-cursor-bridge/source.patch#L798) |
-| configure_agent_protocol | patch fn | server/src/cursor/services/analytics.rs | [815](../../plugins/magpie-agent-cursor-bridge/source.patch#L815) |
-| bridge_protocol_tests | patch mod | server/src/cursor/services/analytics.rs | [837](../../plugins/magpie-agent-cursor-bridge/source.patch#L837) |
-| bridge_selects_agent_run_for_every_supported_hash | patch fn | server/src/cursor/services/analytics.rs | [841](../../plugins/magpie-agent-cursor-bridge/source.patch#L841) |
-| ordinary_byok_retains_upstream_runtime_selection | patch fn | server/src/cursor/services/analytics.rs | [854](../../plugins/magpie-agent-cursor-bridge/source.patch#L854) |
-| upstream_bootstrap_preserves_framing_and_other_gates | patch fn | server/src/cursor/services/analytics.rs | [864](../../plugins/magpie-agent-cursor-bridge/source.patch#L864) |
-| bridge_fallback_explicitly_disables_cached_local_loop | patch fn | server/src/cursor/services/analytics.rs | [890](../../plugins/magpie-agent-cursor-bridge/source.patch#L890) |
+| server/examples/magpie_smoke.rs | patch target |  | [5](../../plugins/magpie-agent-cursor-bridge/source.patch#L5) |
+| append | patch fn | server/examples/magpie_smoke.rs | [12](../../plugins/magpie-agent-cursor-bridge/source.patch#L12) |
+| main | patch fn | server/examples/magpie_smoke.rs | [18](../../plugins/magpie-agent-cursor-bridge/source.patch#L18) |
+| server/src/api/cursor/bidi.rs | patch target |  | [58](../../plugins/magpie-agent-cursor-bridge/source.patch#L58) |
+| wire_structure | patch fn | server/src/api/cursor/bidi.rs | [64](../../plugins/magpie-agent-cursor-bridge/source.patch#L64) |
+| scan | patch fn | server/src/api/cursor/bidi.rs | [65](../../plugins/magpie-agent-cursor-bridge/source.patch#L65) |
+| bridge_structure_tests | patch mod | server/src/api/cursor/bidi.rs | [153](../../plugins/magpie-agent-cursor-bridge/source.patch#L153) |
+| diagnostic_never_displays_field_values | patch fn | server/src/api/cursor/bidi.rs | [155](../../plugins/magpie-agent-cursor-bridge/source.patch#L155) |
+| server/src/bin/cursor-magpie-bridge.rs | patch target |  | [167](../../plugins/magpie-agent-cursor-bridge/source.patch#L167) |
+| Connection | patch struct | server/src/bin/cursor-magpie-bridge.rs | [177](../../plugins/magpie-agent-cursor-bridge/source.patch#L177) |
+| BridgeModel | patch struct | server/src/bin/cursor-magpie-bridge.rs | [179](../../plugins/magpie-agent-cursor-bridge/source.patch#L179) |
+| catalogue | patch fn | server/src/bin/cursor-magpie-bridge.rs | [181](../../plugins/magpie-agent-cursor-bridge/source.patch#L181) |
+| main | patch fn | server/src/bin/cursor-magpie-bridge.rs | [204](../../plugins/magpie-agent-cursor-bridge/source.patch#L204) |
+| tests | patch mod | server/src/bin/cursor-magpie-bridge.rs | [292](../../plugins/magpie-agent-cursor-bridge/source.patch#L292) |
+| config | patch fn | server/src/bin/cursor-magpie-bridge.rs | [294](../../plugins/magpie-agent-cursor-bridge/source.patch#L294) |
+| selected_model_first_and_route_preserved | patch fn | server/src/bin/cursor-magpie-bridge.rs | [296](../../plugins/magpie-agent-cursor-bridge/source.patch#L296) |
+| rejects_remote_and_duplicate_models | patch fn | server/src/bin/cursor-magpie-bridge.rs | [304](../../plugins/magpie-agent-cursor-bridge/source.patch#L304) |
+| catalogue_update_is_atomic_and_retains_last_valid_models | patch fn | server/src/bin/cursor-magpie-bridge.rs | [309](../../plugins/magpie-agent-cursor-bridge/source.patch#L309) |
+| server/src/config.rs | patch target |  | [327](../../plugins/magpie-agent-cursor-bridge/source.patch#L327) |
+| server/src/cursor/compile/context.rs | patch target |  | [353](../../plugins/magpie-agent-cursor-bridge/source.patch#L353) |
+| bridge_json_numbers | patch mod | server/src/cursor/compile/context.rs | [369](../../plugins/magpie-agent-cursor-bridge/source.patch#L369) |
+| nested_tool_schemas_preserve_integer_limits_and_fractional_constraints | patch fn | server/src/cursor/compile/context.rs | [371](../../plugins/magpie-agent-cursor-bridge/source.patch#L371) |
+| number | patch fn | server/src/cursor/compile/context.rs | [373](../../plugins/magpie-agent-cursor-bridge/source.patch#L373) |
+| object | patch fn | server/src/cursor/compile/context.rs | [374](../../plugins/magpie-agent-cursor-bridge/source.patch#L374) |
+| protobuf_schema_numbers_restore_json_integers | patch fn | server/src/cursor/compile/context.rs | [390](../../plugins/magpie-agent-cursor-bridge/source.patch#L390) |
+| server/src/cursor/services/analytics.rs | patch target |  | [400](../../plugins/magpie-agent-cursor-bridge/source.patch#L400) |
+| patch_upstream | patch fn | server/src/cursor/services/analytics.rs | [433](../../plugins/magpie-agent-cursor-bridge/source.patch#L433) |
+| local_response | patch fn | server/src/cursor/services/analytics.rs | [444](../../plugins/magpie-agent-cursor-bridge/source.patch#L444) |
+| configure_agent_protocol | patch fn | server/src/cursor/services/analytics.rs | [461](../../plugins/magpie-agent-cursor-bridge/source.patch#L461) |
+| bridge_protocol_tests | patch mod | server/src/cursor/services/analytics.rs | [483](../../plugins/magpie-agent-cursor-bridge/source.patch#L483) |
+| bridge_selects_agent_run_for_every_supported_hash | patch fn | server/src/cursor/services/analytics.rs | [487](../../plugins/magpie-agent-cursor-bridge/source.patch#L487) |
+| ordinary_byok_retains_upstream_runtime_selection | patch fn | server/src/cursor/services/analytics.rs | [500](../../plugins/magpie-agent-cursor-bridge/source.patch#L500) |
+| upstream_bootstrap_preserves_framing_and_other_gates | patch fn | server/src/cursor/services/analytics.rs | [510](../../plugins/magpie-agent-cursor-bridge/source.patch#L510) |
+| bridge_fallback_explicitly_disables_cached_local_loop | patch fn | server/src/cursor/services/analytics.rs | [536](../../plugins/magpie-agent-cursor-bridge/source.patch#L536) |
+| server/src/cursor/services/model_catalog.rs | patch target |  | [551](../../plugins/magpie-agent-cursor-bridge/source.patch#L551) |
+| ModelPickerDisplayConfiguration | patch struct | server/src/cursor/services/model_catalog.rs | [561](../../plugins/magpie-agent-cursor-bridge/source.patch#L561) |
+| RoutedModelViewConfig | patch struct | server/src/cursor/services/model_catalog.rs | [569](../../plugins/magpie-agent-cursor-bridge/source.patch#L569) |
+| NamedModelsViewConfig | patch struct | server/src/cursor/services/model_catalog.rs | [575](../../plugins/magpie-agent-cursor-bridge/source.patch#L575) |
+| NoAutoButton | patch struct | server/src/cursor/services/model_catalog.rs | [581](../../plugins/magpie-agent-cursor-bridge/source.patch#L581) |
+| AvailableModelsAddition | patch impl | server/src/cursor/services/model_catalog.rs | [583](../../plugins/magpie-agent-cursor-bridge/source.patch#L583) |
+| with_local_picker | patch fn | server/src/cursor/services/model_catalog.rs | [584](../../plugins/magpie-agent-cursor-bridge/source.patch#L584) |
+| LocalCatalogOnly | patch struct | server/src/cursor/services/model_catalog.rs | [608](../../plugins/magpie-agent-cursor-bridge/source.patch#L608) |
+| catalog_response | patch fn | server/src/cursor/services/model_catalog.rs | [661](../../plugins/magpie-agent-cursor-bridge/source.patch#L661) |
+| bridge_picker_hides_auto_using_cursor_wire_fields | patch fn | server/src/cursor/services/model_catalog.rs | [686](../../plugins/magpie-agent-cursor-bridge/source.patch#L686) |
+| bridge_catalogue_excludes_subscription_models_without_polling_upstream | patch fn | server/src/cursor/services/model_catalog.rs | [704](../../plugins/magpie-agent-cursor-bridge/source.patch#L704) |
+| bridge_usable_catalogue_is_local_even_with_an_authenticated_request | patch fn | server/src/cursor/services/model_catalog.rs | [733](../../plugins/magpie-agent-cursor-bridge/source.patch#L733) |
+| ordinary_byok_keeps_the_upstream_catalogue | patch fn | server/src/cursor/services/model_catalog.rs | [748](../../plugins/magpie-agent-cursor-bridge/source.patch#L748) |
+| server/src/local_app/mod.rs | patch target |  | [763](../../plugins/magpie-agent-cursor-bridge/source.patch#L763) |
+| initialize_bridge_ca | patch fn | server/src/local_app/mod.rs | [769](../../plugins/magpie-agent-cursor-bridge/source.patch#L769) |
+| start_proxy_only | patch fn | server/src/local_app/mod.rs | [783](../../plugins/magpie-agent-cursor-bridge/source.patch#L783) |
+| stop_proxy_only | patch fn | server/src/local_app/mod.rs | [796](../../plugins/magpie-agent-cursor-bridge/source.patch#L796) |
+| server/src/network.rs | patch target |  | [806](../../plugins/magpie-agent-cursor-bridge/source.patch#L806) |
+| bridge | patch fn | server/src/network.rs | [826](../../plugins/magpie-agent-cursor-bridge/source.patch#L826) |
+| bridge_provider_client_ignores_system_proxy | patch fn | server/src/network.rs | [856](../../plugins/magpie-agent-cursor-bridge/source.patch#L856) |
+| server/src/store/models.rs | patch target |  | [906](../../plugins/magpie-agent-cursor-bridge/source.patch#L906) |
+| replace_bridge_models | patch fn | server/src/store/models.rs | [912](../../plugins/magpie-agent-cursor-bridge/source.patch#L912) |
+| server/tests/bridge_bidi_wire.rs | patch target |  | [940](../../plugins/magpie-agent-cursor-bridge/source.patch#L940) |
+| request | patch fn | server/tests/bridge_bidi_wire.rs | [945](../../plugins/magpie-agent-cursor-bridge/source.patch#L945) |
+| bridge_bidi_hex_and_binary_preserve_state_blob_references | patch fn | server/tests/bridge_bidi_wire.rs | [955](../../plugins/magpie-agent-cursor-bridge/source.patch#L955) |
+| bridge_bidi_rejects_ambiguous_and_empty_envelopes | patch fn | server/tests/bridge_bidi_wire.rs | [980](../../plugins/magpie-agent-cursor-bridge/source.patch#L980) |
+| ErrorString | patch trait | server/tests/bridge_bidi_wire.rs | [987](../../plugins/magpie-agent-cursor-bridge/source.patch#L987) |
+| ErrorString | patch impl | server/tests/bridge_bidi_wire.rs | [988](../../plugins/magpie-agent-cursor-bridge/source.patch#L988) |
+| unwrap_err_string | patch fn | server/tests/bridge_bidi_wire.rs | [989](../../plugins/magpie-agent-cursor-bridge/source.patch#L989) |
+| bridge_bidi_invalid_state_reproduces_cursor_error_without_tls | patch fn | server/tests/bridge_bidi_wire.rs | [993](../../plugins/magpie-agent-cursor-bridge/source.patch#L993) |
