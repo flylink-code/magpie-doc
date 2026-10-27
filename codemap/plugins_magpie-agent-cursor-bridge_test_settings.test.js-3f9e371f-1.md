@@ -4,7 +4,7 @@
 
 [Module](bridge-test.md) · [Source](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js) · page 1/1
 
-Source SHA-256: 91a4537bb113321cfcb2f7ce54239eed0fcf31ffce8f96a13ee889ce379705aa
+Source SHA-256: 427a40193075e121d76d86110c5f45533dec8d1d67c09713b7583e497095802f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -28,9 +28,16 @@ Source SHA-256: 91a4537bb113321cfcb2f7ce54239eed0fcf31ffce8f96a13ee889ce379705aa
 | [s,j] | VariableDeclaration |  | [28](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L28) |
 | s | BindingElement | [s,j] | [28](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L28) |
 | j | BindingElement | [s,j] | [28](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L28) |
-| [s,j] | VariableDeclaration |  | [34](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L34) |
-| s | BindingElement | [s,j] | [34](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L34) |
-| j | BindingElement | [s,j] | [34](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L34) |
-| removed | VariableDeclaration |  | [39](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L39) |
-| [s] | VariableDeclaration |  | [45](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L45) |
-| s | BindingElement | [s] | [45](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L45) |
+| [s,j] | VariableDeclaration |  | [35](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L35) |
+| s | BindingElement | [s,j] | [35](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L35) |
+| j | BindingElement | [s,j] | [35](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L35) |
+| [s,j] | VariableDeclaration |  | [46](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L46) |
+| s | BindingElement | [s,j] | [46](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L46) |
+| j | BindingElement | [s,j] | [46](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L46) |
+| journal | VariableDeclaration |  | [49](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L49) |
+| [s,j] | VariableDeclaration |  | [57](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L57) |
+| s | BindingElement | [s,j] | [57](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L57) |
+| j | BindingElement | [s,j] | [57](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L57) |
+| removed | VariableDeclaration |  | [62](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L62) |
+| [s] | VariableDeclaration |  | [68](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L68) |
+| s | BindingElement | [s] | [68](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js#L68) |

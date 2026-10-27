@@ -9,7 +9,7 @@ Read AGENTS.md → choose module → file/symbol page → source. [Method, comma
 | bridge-lib | 7 | 167 | [open](codemap/bridge-lib.md) |
 | bridge-root | 7 | 231 | [open](codemap/bridge-root.md) |
 | bridge-scripts | 3 | 0 | [open](codemap/bridge-scripts.md) |
-| bridge-test | 10 | 242 | [open](codemap/bridge-test.md) |
+| bridge-test | 10 | 249 | [open](codemap/bridge-test.md) |
 | magpie-agent | 121 | 2648 | [open](codemap/magpie-agent.md) |
 | magpie-agentplug | 1 | 56 | [open](codemap/magpie-agentplug.md) |
 | magpie-cli | 86 | 1247 | [open](codemap/magpie-cli.md) |
@@ -24,6 +24,6 @@ Read AGENTS.md → choose module → file/symbol page → source. [Method, comma
 | magpie-usage | 45 | 1408 | [open](codemap/magpie-usage.md) |
 | tooling | 2 | 164 | [open](codemap/tooling.md) |
 
-Total: 1231 source files, 47394 extracted symbols, 0 parser diagnostics.
+Total: 1231 source files, 47401 extracted symbols, 0 parser diagnostics.
 
 Scope includes Go/Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT/Patch use lexical navigation.

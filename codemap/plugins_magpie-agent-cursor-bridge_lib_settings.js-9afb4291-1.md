@@ -4,7 +4,7 @@
 
 [Module](bridge-lib.md) · [Source](../../plugins/magpie-agent-cursor-bridge/lib/settings.js) · page 1/1
 
-Source SHA-256: d574d923a55591f7dd70bfd046e2f76263843d7fe8a253650a874617ff3c042a
+Source SHA-256: 948462e3d97aa856f4e62e05f842452c78efe5e269ad0d11dd469789d79b0036
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,32 +26,32 @@ Source SHA-256: d574d923a55591f7dd70bfd046e2f76263843d7fe8a253650a874617ff3c042a
 | text | BindingElement | applyProxy.{text,data} | [36](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L36) |
 | data | BindingElement | applyProxy.{text,data} | [36](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L36) |
 | previous | VariableDeclaration | applyProxy | [37](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L37) |
-| journal | VariableDeclaration | applyProxy | [39](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L39) |
-| updated | VariableDeclaration | applyProxy | [40](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L40) |
-| [key,value] | VariableDeclaration | applyProxy | [41](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L41) |
-| key | BindingElement | applyProxy.[key,value] | [41](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L41) |
-| value | BindingElement | applyProxy.[key,value] | [41](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L41) |
-| applied | VariableDeclaration | applyProxy | [42](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L42) |
-| prior | VariableDeclaration | applyProxy | [43](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L43) |
-| restoreProxy | FunctionDeclaration |  | [57](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L57) |
-| journal | VariableDeclaration | restoreProxy | [59](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L59) |
-| {text,data} | VariableDeclaration | restoreProxy | [60](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L60) |
-| text | BindingElement | restoreProxy.{text,data} | [60](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L60) |
-| data | BindingElement | restoreProxy.{text,data} | [60](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L60) |
-| updated | VariableDeclaration | restoreProxy | [64](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L64) |
-| skipped | VariableDeclaration | restoreProxy | [65](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L65) |
-| [key,entry] | VariableDeclaration | restoreProxy | [66](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L66) |
-| key | BindingElement | restoreProxy.[key,entry] | [66](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L66) |
-| entry | BindingElement | restoreProxy.[key,entry] | [66](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L66) |
-| PROXY_KEYS | VariableDeclaration |  | [77](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L77) |
-| clearStaleProxy | FunctionDeclaration |  | [86](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L86) |
-| {text,data} | VariableDeclaration | clearStaleProxy | [88](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L88) |
-| text | BindingElement | clearStaleProxy.{text,data} | [88](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L88) |
-| data | BindingElement | clearStaleProxy.{text,data} | [88](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L88) |
-| current | VariableDeclaration | clearStaleProxy | [89](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L89) |
-| loopback | VariableDeclaration | clearStaleProxy | [90](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L90) |
-| updated | VariableDeclaration | clearStaleProxy | [92](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L92) |
-| removed | VariableDeclaration | clearStaleProxy | [93](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L93) |
-| key | VariableDeclaration | clearStaleProxy | [94](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L94) |
-| value | VariableDeclaration | clearStaleProxy | [97](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L97) |
-| ours | VariableDeclaration | clearStaleProxy | [98](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L98) |
+| journal | VariableDeclaration | applyProxy | [43](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L43) |
+| updated | VariableDeclaration | applyProxy | [44](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L44) |
+| [key,value] | VariableDeclaration | applyProxy | [45](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L45) |
+| key | BindingElement | applyProxy.[key,value] | [45](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L45) |
+| value | BindingElement | applyProxy.[key,value] | [45](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L45) |
+| applied | VariableDeclaration | applyProxy | [46](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L46) |
+| prior | VariableDeclaration | applyProxy | [47](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L47) |
+| restoreProxy | FunctionDeclaration |  | [61](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L61) |
+| journal | VariableDeclaration | restoreProxy | [63](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L63) |
+| {text,data} | VariableDeclaration | restoreProxy | [64](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L64) |
+| text | BindingElement | restoreProxy.{text,data} | [64](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L64) |
+| data | BindingElement | restoreProxy.{text,data} | [64](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L64) |
+| updated | VariableDeclaration | restoreProxy | [66](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L66) |
+| skipped | VariableDeclaration | restoreProxy | [67](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L67) |
+| [key,entry] | VariableDeclaration | restoreProxy | [68](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L68) |
+| key | BindingElement | restoreProxy.[key,entry] | [68](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L68) |
+| entry | BindingElement | restoreProxy.[key,entry] | [68](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L68) |
+| PROXY_KEYS | VariableDeclaration |  | [79](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L79) |
+| clearStaleProxy | FunctionDeclaration |  | [88](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L88) |
+| {text,data} | VariableDeclaration | clearStaleProxy | [90](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L90) |
+| text | BindingElement | clearStaleProxy.{text,data} | [90](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L90) |
+| data | BindingElement | clearStaleProxy.{text,data} | [90](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L90) |
+| current | VariableDeclaration | clearStaleProxy | [91](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L91) |
+| loopback | VariableDeclaration | clearStaleProxy | [92](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L92) |
+| updated | VariableDeclaration | clearStaleProxy | [94](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L94) |
+| removed | VariableDeclaration | clearStaleProxy | [95](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L95) |
+| key | VariableDeclaration | clearStaleProxy | [96](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L96) |
+| value | VariableDeclaration | clearStaleProxy | [99](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L99) |
+| ours | VariableDeclaration | clearStaleProxy | [100](../../plugins/magpie-agent-cursor-bridge/lib/settings.js#L100) |
