@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/tencent_usage.go) · page 1/1
 
-Source SHA-256: 17ddbca9fdfa38d2fb66309f251fb39f4dbf5f3b5182d425a1523b52db08be19
+Source SHA-256: 850a07a5a24e9713432af157bd5d5428a0f6eaef8dc1790221536be43d8e4836
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

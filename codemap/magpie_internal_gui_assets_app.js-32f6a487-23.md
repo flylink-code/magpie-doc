@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 23/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| find | VariableDeclaration |  | [8580](../../magpie/internal/gui/assets/app.js#L8580) |
-| el | VariableDeclaration |  | [8590](../../magpie/internal/gui/assets/app.js#L8590) |
-| i | VariableDeclaration |  | [8591](../../magpie/internal/gui/assets/app.js#L8591) |
-| ours | VariableDeclaration |  | [8593](../../magpie/internal/gui/assets/app.js#L8593) |
-| full | VariableDeclaration |  | [8595](../../magpie/internal/gui/assets/app.js#L8595) |
-| modalOrigin | VariableDeclaration |  | [8604](../../magpie/internal/gui/assets/app.js#L8604) |
-| modalDone | VariableDeclaration |  | [8604](../../magpie/internal/gui/assets/app.js#L8604) |
-| originRect | FunctionDeclaration |  | [8606](../../magpie/internal/gui/assets/app.js#L8606) |
-| at | VariableDeclaration | originRect | [8607](../../magpie/internal/gui/assets/app.js#L8607) |
-| r | VariableDeclaration | originRect | [8609](../../magpie/internal/gui/assets/app.js#L8609) |
-| rowOwnRect | FunctionDeclaration |  | [8618](../../magpie/internal/gui/assets/app.js#L8618) |
-| r | VariableDeclaration | rowOwnRect | [8619](../../magpie/internal/gui/assets/app.js#L8619) |
-| who | VariableDeclaration | rowOwnRect | [8619](../../magpie/internal/gui/assets/app.js#L8619) |
-| end | VariableDeclaration | rowOwnRect | [8622](../../magpie/internal/gui/assets/app.js#L8622) |
-| text | VariableDeclaration | rowOwnRect | [8623](../../magpie/internal/gui/assets/app.js#L8623) |
-| walk | VariableDeclaration | rowOwnRect | [8623](../../magpie/internal/gui/assets/app.js#L8623) |
-| n | VariableDeclaration | rowOwnRect | [8624](../../magpie/internal/gui/assets/app.js#L8624) |
-| w | VariableDeclaration | rowOwnRect | [8628](../../magpie/internal/gui/assets/app.js#L8628) |
-| left | VariableDeclaration | rowOwnRect | [8629](../../magpie/internal/gui/assets/app.js#L8629) |
-| fromRect | FunctionDeclaration |  | [8633](../../magpie/internal/gui/assets/app.js#L8633) |
-| s | VariableDeclaration | fromRect | [8634](../../magpie/internal/gui/assets/app.js#L8634) |
-| dx | VariableDeclaration | fromRect | [8635](../../magpie/internal/gui/assets/app.js#L8635) |
-| dy | VariableDeclaration | fromRect | [8635](../../magpie/internal/gui/assets/app.js#L8635) |
-| MORPH_REST | VariableDeclaration |  | [8643](../../magpie/internal/gui/assets/app.js#L8643) |
-| morphFrom | FunctionDeclaration |  | [8644](../../magpie/internal/gui/assets/app.js#L8644) |
-| s | VariableDeclaration | morphFrom | [8645](../../magpie/internal/gui/assets/app.js#L8645) |
-| w | VariableDeclaration | morphFrom | [8646](../../magpie/internal/gui/assets/app.js#L8646) |
-| h | VariableDeclaration | morphFrom | [8646](../../magpie/internal/gui/assets/app.js#L8646) |
-| r | VariableDeclaration | morphFrom | [8647](../../magpie/internal/gui/assets/app.js#L8647) |
-| VEIL_OFF | VariableDeclaration |  | [8654](../../magpie/internal/gui/assets/app.js#L8654) |
-| unveil | VariableDeclaration |  | [8655](../../magpie/internal/gui/assets/app.js#L8655) |
-| p | VariableDeclaration | unveil | [8655](../../magpie/internal/gui/assets/app.js#L8655) |
-| modalReturnFocus | VariableDeclaration |  | [8656](../../magpie/internal/gui/assets/app.js#L8656) |
-| modalFormBase | VariableDeclaration |  | [8656](../../magpie/internal/gui/assets/app.js#L8656) |
-| formValues | FunctionDeclaration |  | [8657](../../magpie/internal/gui/assets/app.js#L8657) |
-| modalFormValues | FunctionDeclaration |  | [8664](../../magpie/internal/gui/assets/app.js#L8664) |
-| modalFormDirty | FunctionDeclaration |  | [8665](../../magpie/internal/gui/assets/app.js#L8665) |
-| markModalSaved | FunctionDeclaration |  | [8668](../../magpie/internal/gui/assets/app.js#L8668) |
-| modalBackgroundElements | VariableDeclaration |  | [8669](../../magpie/internal/gui/assets/app.js#L8669) |
-| modalBackground | FunctionDeclaration |  | [8670](../../magpie/internal/gui/assets/app.js#L8670) |
-| modal | VariableDeclaration | modalBackground | [8677](../../magpie/internal/gui/assets/app.js#L8677) |
-| pop | VariableDeclaration | modalBackground | [8677](../../magpie/internal/gui/assets/app.js#L8677) |
-| element | VariableDeclaration | modalBackground | [8680](../../magpie/internal/gui/assets/app.js#L8680) |
-| element | VariableDeclaration | modalBackground | [8682](../../magpie/internal/gui/assets/app.js#L8682) |
-| modal | VariableDeclaration |  | [8688](../../magpie/internal/gui/assets/app.js#L8688) |
-| controls | VariableDeclaration |  | [8689](../../magpie/internal/gui/assets/app.js#L8689) |
-| first | VariableDeclaration |  | [8692](../../magpie/internal/gui/assets/app.js#L8692) |
-| last | VariableDeclaration |  | [8692](../../magpie/internal/gui/assets/app.js#L8692) |
-| boundary | VariableDeclaration |  | [8693](../../magpie/internal/gui/assets/app.js#L8693) |
-| modalHold | VariableDeclaration |  | [8714](../../magpie/internal/gui/assets/app.js#L8714) |
-| modalDepth | FunctionDeclaration |  | [8722](../../magpie/internal/gui/assets/app.js#L8722) |
-| moves | VariableDeclaration | modalDepth | [8725](../../magpie/internal/gui/assets/app.js#L8725) |
-| x | VariableDeclaration | modalDepth | [8726](../../magpie/internal/gui/assets/app.js#L8726) |
-| c | VariableDeclaration | modalDepth | [8727](../../magpie/internal/gui/assets/app.js#L8727) |
-| t | VariableDeclaration | modalDepth | [8727](../../magpie/internal/gui/assets/app.js#L8727) |
-| m | VariableDeclaration | modalDepth | [8729](../../magpie/internal/gui/assets/app.js#L8729) |
-| y | VariableDeclaration | modalDepth | [8738](../../magpie/internal/gui/assets/app.js#L8738) |
-| x | VariableDeclaration | modalDepth | [8739](../../magpie/internal/gui/assets/app.js#L8739) |
-| x | VariableDeclaration | modalDepth | [8740](../../magpie/internal/gui/assets/app.js#L8740) |
-| modalMark | FunctionDeclaration |  | [8743](../../magpie/internal/gui/assets/app.js#L8743) |
-| d | VariableDeclaration | modalMark | [8744](../../magpie/internal/gui/assets/app.js#L8744) |
-| y | VariableDeclaration | modalMark | [8744](../../magpie/internal/gui/assets/app.js#L8744) |
-| modalCap | VariableDeclaration |  | [8750](../../magpie/internal/gui/assets/app.js#L8750) |
-| holdModal | FunctionDeclaration |  | [8751](../../magpie/internal/gui/assets/app.js#L8751) |
-| m | VariableDeclaration | holdModal | [8752](../../magpie/internal/gui/assets/app.js#L8752) |
-| d | VariableDeclaration | holdModal | [8752](../../magpie/internal/gui/assets/app.js#L8752) |
-| y | VariableDeclaration | holdModal | [8756](../../magpie/internal/gui/assets/app.js#L8756) |
-| want | VariableDeclaration | holdModal | [8758](../../magpie/internal/gui/assets/app.js#L8758) |
-| c | VariableDeclaration | holdModal | [8759](../../magpie/internal/gui/assets/app.js#L8759) |
-| h | VariableDeclaration | holdModal | [8759](../../magpie/internal/gui/assets/app.js#L8759) |
-| space | VariableDeclaration | holdModal | [8760](../../magpie/internal/gui/assets/app.js#L8760) |
-| body | VariableDeclaration | holdModal | [8780](../../magpie/internal/gui/assets/app.js#L8780) |
-| cap | VariableDeclaration | holdModal | [8784](../../magpie/internal/gui/assets/app.js#L8784) |
-| m | VariableDeclaration |  | [8793](../../magpie/internal/gui/assets/app.js#L8793) |
-| d | VariableDeclaration |  | [8793](../../magpie/internal/gui/assets/app.js#L8793) |
-| later | VariableDeclaration |  | [8793](../../magpie/internal/gui/assets/app.js#L8793) |
-| openModal | FunctionDeclaration |  | [8804](../../magpie/internal/gui/assets/app.js#L8804) |
-| m | VariableDeclaration | openModal | [8805](../../magpie/internal/gui/assets/app.js#L8805) |
-| d | VariableDeclaration | openModal | [8805](../../magpie/internal/gui/assets/app.js#L8805) |
-| fresh | VariableDeclaration | openModal | [8806](../../magpie/internal/gui/assets/app.js#L8806) |
-| top | VariableDeclaration | openModal | [8807](../../magpie/internal/gui/assets/app.js#L8807) |
-| names | VariableDeclaration | openModal | [8809](../../magpie/internal/gui/assets/app.js#L8809) |
-| namesAt | VariableDeclaration | openModal | [8810](../../magpie/internal/gui/assets/app.js#L8810) |
-| active | VariableDeclaration | openModal | [8818](../../magpie/internal/gui/assets/app.js#L8818) |
-| focusID | VariableDeclaration | openModal | [8819](../../magpie/internal/gui/assets/app.js#L8819) |
-| focusLabel | VariableDeclaration | openModal | [8820](../../magpie/internal/gui/assets/app.js#L8820) |
-| focusIndex | VariableDeclaration | openModal | [8821](../../magpie/internal/gui/assets/app.js#L8821) |
-| title | VariableDeclaration | openModal | [8827](../../magpie/internal/gui/assets/app.js#L8827) |
-| focus | VariableDeclaration | openModal | [8833](../../magpie/internal/gui/assets/app.js#L8833) |
-| body | VariableDeclaration | openModal | [8837](../../magpie/internal/gui/assets/app.js#L8837) |
-| nextNames | VariableDeclaration | openModal | [8839](../../magpie/internal/gui/assets/app.js#L8839) |
-| a | VariableDeclaration | openModal | [8853](../../magpie/internal/gui/assets/app.js#L8853) |
-| to | VariableDeclaration | openModal | [8861](../../magpie/internal/gui/assets/app.js#L8861) |
-| from | VariableDeclaration | openModal | [8861](../../magpie/internal/gui/assets/app.js#L8861) |
-| grow | VariableDeclaration | openModal | [8862](../../magpie/internal/gui/assets/app.js#L8862) |
-| x0 | VariableDeclaration | openModal | [8868](../../magpie/internal/gui/assets/app.js#L8868) |
-| y0 | VariableDeclaration | openModal | [8868](../../magpie/internal/gui/assets/app.js#L8868) |
-| follow | VariableDeclaration | openModal | [8869](../../magpie/internal/gui/assets/app.js#L8869) |
-| now | VariableDeclaration | openModal.follow | [8870](../../magpie/internal/gui/assets/app.js#L8870) |
-| stop | VariableDeclaration | openModal | [8874](../../magpie/internal/gui/assets/app.js#L8874) |
+| modalCap | VariableDeclaration |  | [8535](../../magpie/internal/gui/assets/app.js#L8535) |
+| holdModal | FunctionDeclaration |  | [8536](../../magpie/internal/gui/assets/app.js#L8536) |
+| m | VariableDeclaration | holdModal | [8537](../../magpie/internal/gui/assets/app.js#L8537) |
+| d | VariableDeclaration | holdModal | [8537](../../magpie/internal/gui/assets/app.js#L8537) |
+| y | VariableDeclaration | holdModal | [8541](../../magpie/internal/gui/assets/app.js#L8541) |
+| want | VariableDeclaration | holdModal | [8543](../../magpie/internal/gui/assets/app.js#L8543) |
+| c | VariableDeclaration | holdModal | [8544](../../magpie/internal/gui/assets/app.js#L8544) |
+| h | VariableDeclaration | holdModal | [8544](../../magpie/internal/gui/assets/app.js#L8544) |
+| space | VariableDeclaration | holdModal | [8545](../../magpie/internal/gui/assets/app.js#L8545) |
+| body | VariableDeclaration | holdModal | [8565](../../magpie/internal/gui/assets/app.js#L8565) |
+| cap | VariableDeclaration | holdModal | [8569](../../magpie/internal/gui/assets/app.js#L8569) |
+| m | VariableDeclaration |  | [8578](../../magpie/internal/gui/assets/app.js#L8578) |
+| d | VariableDeclaration |  | [8578](../../magpie/internal/gui/assets/app.js#L8578) |
+| later | VariableDeclaration |  | [8578](../../magpie/internal/gui/assets/app.js#L8578) |
+| openModal | FunctionDeclaration |  | [8589](../../magpie/internal/gui/assets/app.js#L8589) |
+| m | VariableDeclaration | openModal | [8590](../../magpie/internal/gui/assets/app.js#L8590) |
+| d | VariableDeclaration | openModal | [8590](../../magpie/internal/gui/assets/app.js#L8590) |
+| fresh | VariableDeclaration | openModal | [8591](../../magpie/internal/gui/assets/app.js#L8591) |
+| top | VariableDeclaration | openModal | [8592](../../magpie/internal/gui/assets/app.js#L8592) |
+| names | VariableDeclaration | openModal | [8594](../../magpie/internal/gui/assets/app.js#L8594) |
+| namesAt | VariableDeclaration | openModal | [8595](../../magpie/internal/gui/assets/app.js#L8595) |
+| active | VariableDeclaration | openModal | [8603](../../magpie/internal/gui/assets/app.js#L8603) |
+| focusID | VariableDeclaration | openModal | [8604](../../magpie/internal/gui/assets/app.js#L8604) |
+| focusLabel | VariableDeclaration | openModal | [8605](../../magpie/internal/gui/assets/app.js#L8605) |
+| focusIndex | VariableDeclaration | openModal | [8606](../../magpie/internal/gui/assets/app.js#L8606) |
+| title | VariableDeclaration | openModal | [8612](../../magpie/internal/gui/assets/app.js#L8612) |
+| focus | VariableDeclaration | openModal | [8618](../../magpie/internal/gui/assets/app.js#L8618) |
+| body | VariableDeclaration | openModal | [8622](../../magpie/internal/gui/assets/app.js#L8622) |
+| nextNames | VariableDeclaration | openModal | [8624](../../magpie/internal/gui/assets/app.js#L8624) |
+| a | VariableDeclaration | openModal | [8638](../../magpie/internal/gui/assets/app.js#L8638) |
+| to | VariableDeclaration | openModal | [8646](../../magpie/internal/gui/assets/app.js#L8646) |
+| from | VariableDeclaration | openModal | [8646](../../magpie/internal/gui/assets/app.js#L8646) |
+| grow | VariableDeclaration | openModal | [8647](../../magpie/internal/gui/assets/app.js#L8647) |
+| x0 | VariableDeclaration | openModal | [8653](../../magpie/internal/gui/assets/app.js#L8653) |
+| y0 | VariableDeclaration | openModal | [8653](../../magpie/internal/gui/assets/app.js#L8653) |
+| follow | VariableDeclaration | openModal | [8654](../../magpie/internal/gui/assets/app.js#L8654) |
+| now | VariableDeclaration | openModal.follow | [8655](../../magpie/internal/gui/assets/app.js#L8655) |
+| stop | VariableDeclaration | openModal | [8659](../../magpie/internal/gui/assets/app.js#L8659) |
+| frame | FunctionDeclaration |  | [8664](../../magpie/internal/gui/assets/app.js#L8664) |
+| body | VariableDeclaration | frame | [8666](../../magpie/internal/gui/assets/app.js#L8666) |
+| closeModal | FunctionDeclaration |  | [8671](../../magpie/internal/gui/assets/app.js#L8671) |
+| m | VariableDeclaration | closeModal | [8672](../../magpie/internal/gui/assets/app.js#L8672) |
+| d | VariableDeclaration | closeModal | [8672](../../magpie/internal/gui/assets/app.js#L8672) |
+| a | VariableDeclaration | closeModal | [8678](../../magpie/internal/gui/assets/app.js#L8678) |
+| was | VariableDeclaration | closeModal | [8680](../../magpie/internal/gui/assets/app.js#L8680) |
+| to | VariableDeclaration | closeModal | [8682](../../magpie/internal/gui/assets/app.js#L8682) |
+| from | VariableDeclaration | closeModal | [8682](../../magpie/internal/gui/assets/app.js#L8682) |
+| clip | VariableDeclaration | closeModal | [8684](../../magpie/internal/gui/assets/app.js#L8684) |
+| shape | VariableDeclaration | closeModal | [8685](../../magpie/internal/gui/assets/app.js#L8685) |
+| moves | VariableDeclaration | closeModal | [8686](../../magpie/internal/gui/assets/app.js#L8686) |
+| done | VariableDeclaration | closeModal | [8695](../../magpie/internal/gui/assets/app.js#L8695) |
+| a | VariableDeclaration | closeModal.done | [8707](../../magpie/internal/gui/assets/app.js#L8707) |
+| sheet | VariableDeclaration | closeModal.done | [8711](../../magpie/internal/gui/assets/app.js#L8711) |
+| option | VariableDeclaration | closeModal.done | [8713](../../magpie/internal/gui/assets/app.js#L8713) |
+| modalBackdrop | VariableDeclaration |  | [8721](../../magpie/internal/gui/assets/app.js#L8721) |
+| thumbs | VariableDeclaration |  | [8741](../../magpie/internal/gui/assets/app.js#L8741) |
+| THUMB_MS | VariableDeclaration |  | [8742](../../magpie/internal/gui/assets/app.js#L8742) |
+| THUMB_EASE | VariableDeclaration |  | [8742](../../magpie/internal/gui/assets/app.js#L8742) |
+| thumbKeys | VariableDeclaration |  | [8743](../../magpie/internal/gui/assets/app.js#L8743) |
+| thumbKey | FunctionDeclaration |  | [8744](../../magpie/internal/gui/assets/app.js#L8744) |
+| path | VariableDeclaration | thumbKey | [8745](../../magpie/internal/gui/assets/app.js#L8745) |
+| node | VariableDeclaration | thumbKey | [8746](../../magpie/internal/gui/assets/app.js#L8746) |
+| thumbTo | FunctionDeclaration |  | [8753](../../magpie/internal/gui/assets/app.js#L8753) |
+| to | VariableDeclaration | thumbTo | [8755](../../magpie/internal/gui/assets/app.js#L8755) |
+| thumbAt | VariableDeclaration |  | [8762](../../magpie/internal/gui/assets/app.js#L8762) |
+| thumbGlide | VariableDeclaration |  | [8763](../../magpie/internal/gui/assets/app.js#L8763) |
+| thumbPut | FunctionDeclaration |  | [8765](../../magpie/internal/gui/assets/app.js#L8765) |
+| a | VariableDeclaration | thumbPut | [8766](../../magpie/internal/gui/assets/app.js#L8766) |
+| thumbNow | FunctionDeclaration |  | [8773](../../magpie/internal/gui/assets/app.js#L8773) |
+| cs | VariableDeclaration | thumbNow | [8775](../../magpie/internal/gui/assets/app.js#L8775) |
+| m | VariableDeclaration | thumbNow | [8775](../../magpie/internal/gui/assets/app.js#L8775) |
+| thumbPick | VariableDeclaration |  | [8779](../../magpie/internal/gui/assets/app.js#L8779) |
+| thumbSame | VariableDeclaration |  | [8780](../../magpie/internal/gui/assets/app.js#L8780) |
+| thumbFit | VariableDeclaration |  | [8783](../../magpie/internal/gui/assets/app.js#L8783) |
+| { target: box } | VariableDeclaration | thumbFit | [8784](../../magpie/internal/gui/assets/app.js#L8784) |
+| box | BindingElement | thumbFit.{ target: box } | [8784](../../magpie/internal/gui/assets/app.js#L8784) |
+| th | VariableDeclaration | thumbFit | [8786](../../magpie/internal/gui/assets/app.js#L8786) |
+| on | VariableDeclaration | thumbFit | [8786](../../magpie/internal/gui/assets/app.js#L8786) |
+| to | VariableDeclaration | thumbFit | [8787](../../magpie/internal/gui/assets/app.js#L8787) |
+| control | VariableDeclaration | thumbFit | [8789](../../magpie/internal/gui/assets/app.js#L8789) |
+| last | VariableDeclaration | thumbFit | [8790](../../magpie/internal/gui/assets/app.js#L8790) |
+| pick | VariableDeclaration | thumbFit | [8791](../../magpie/internal/gui/assets/app.js#L8791) |
+| slide | FunctionDeclaration |  | [8797](../../magpie/internal/gui/assets/app.js#L8797) |
+| control | VariableDeclaration | slide | [8798](../../magpie/internal/gui/assets/app.js#L8798) |
+| last | VariableDeclaration | slide | [8799](../../magpie/internal/gui/assets/app.js#L8799) |
+| th | VariableDeclaration | slide | [8800](../../magpie/internal/gui/assets/app.js#L8800) |
+| on | VariableDeclaration | slide | [8808](../../magpie/internal/gui/assets/app.js#L8808) |
+| to | VariableDeclaration | slide | [8811](../../magpie/internal/gui/assets/app.js#L8811) |
+| pick | VariableDeclaration | slide | [8813](../../magpie/internal/gui/assets/app.js#L8813) |
+| from | VariableDeclaration | slide | [8817](../../magpie/internal/gui/assets/app.js#L8817) |
+| f | VariableDeclaration | slide | [8821](../../magpie/internal/gui/assets/app.js#L8821) |
+| t | VariableDeclaration | slide | [8821](../../magpie/internal/gui/assets/app.js#L8821) |
+| PROTOS | VariableDeclaration |  | [8826](../../magpie/internal/gui/assets/app.js#L8826) |
+| VERTEX_EP_HINT | VariableDeclaration |  | [8829](../../magpie/internal/gui/assets/app.js#L8829) |
+| apiLabel | VariableDeclaration |  | [8831](../../magpie/internal/gui/assets/app.js#L8831) |
+| k | BindingElement | apiLabel | [8831](../../magpie/internal/gui/assets/app.js#L8831) |
+| vertexBase | FunctionDeclaration |  | [8835](../../magpie/internal/gui/assets/app.js#L8835) |
+| project | VariableDeclaration | vertexBase | [8836](../../magpie/internal/gui/assets/app.js#L8836) |
+| loc | VariableDeclaration | vertexBase | [8836](../../magpie/internal/gui/assets/app.js#L8836) |
+| host | VariableDeclaration | vertexBase | [8838](../../magpie/internal/gui/assets/app.js#L8838) |

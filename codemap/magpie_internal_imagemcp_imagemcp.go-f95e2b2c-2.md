@@ -4,14 +4,15 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/imagemcp/imagemcp.go) · page 2/2
 
-Source SHA-256: df8e077eccd2381128dc24a716da6e13736f9eaf5386a53efa518b04f42eba56
+Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| film | method_declaration | *server | [769](../../magpie/internal/imagemcp/imagemcp.go#L769) |
-| ID | field_declaration | *server.film | [816](../../magpie/internal/imagemcp/imagemcp.go#L816) |
-| Status | field_declaration | *server.film | [817](../../magpie/internal/imagemcp/imagemcp.go#L817) |
-| Model | field_declaration | *server.film | [818](../../magpie/internal/imagemcp/imagemcp.go#L818) |
-| Seconds | field_declaration | *server.film | [819](../../magpie/internal/imagemcp/imagemcp.go#L819) |
-| Error | field_declaration | *server.film | [820](../../magpie/internal/imagemcp/imagemcp.go#L820) |
-| Message | field_declaration | *server.film | [821](../../magpie/internal/imagemcp/imagemcp.go#L821) |
+| Message | field_declaration | gatewaySaid | [766](../../magpie/internal/imagemcp/imagemcp.go#L766) |
+| film | method_declaration | *server | [777](../../magpie/internal/imagemcp/imagemcp.go#L777) |
+| ID | field_declaration | *server.film | [824](../../magpie/internal/imagemcp/imagemcp.go#L824) |
+| Status | field_declaration | *server.film | [825](../../magpie/internal/imagemcp/imagemcp.go#L825) |
+| Model | field_declaration | *server.film | [826](../../magpie/internal/imagemcp/imagemcp.go#L826) |
+| Seconds | field_declaration | *server.film | [827](../../magpie/internal/imagemcp/imagemcp.go#L827) |
+| Error | field_declaration | *server.film | [828](../../magpie/internal/imagemcp/imagemcp.go#L828) |
+| Message | field_declaration | *server.film | [829](../../magpie/internal/imagemcp/imagemcp.go#L829) |

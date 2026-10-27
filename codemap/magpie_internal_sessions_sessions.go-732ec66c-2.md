@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/sessions.go) · page 2/3
 
-Source SHA-256: 33b9a5937f46972fb3144ba4b8b48ca6dfc93d3ed1d830465766ef37951b413c
+Source SHA-256: f0a8fd3ae7a6561c98875fdeebfa1c9345418fc2ed50249cb21832d018ae6785
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,97 +14,97 @@ Source SHA-256: 33b9a5937f46972fb3144ba4b8b48ca6dfc93d3ed1d830465766ef37951b413c
 | Tools | field_declaration | day | [256](../../magpie/internal/sessions/sessions.go#L256) |
 | Skills | field_declaration | day | [257](../../magpie/internal/sessions/sessions.go#L257) |
 | tool | method_declaration | *state | [262](../../magpie/internal/sessions/sessions.go#L262) |
-| idleGap | const_spec |  | [282](../../magpie/internal/sessions/sessions.go#L282) |
-| dateOf | function_declaration |  | [285](../../magpie/internal/sessions/sessions.go#L285) |
-| day | method_declaration | *state | [292](../../magpie/internal/sessions/sessions.go#L292) |
-| use | method_declaration | *state | [305](../../magpie/internal/sessions/sessions.go#L305) |
-| unuse | method_declaration | *state | [325](../../magpie/internal/sessions/sessions.go#L325) |
-| saw | method_declaration | *state | [340](../../magpie/internal/sessions/sessions.go#L340) |
-| clone | method_declaration | *state | [360](../../magpie/internal/sessions/sessions.go#L360) |
-| file | struct_type |  | [398](../../magpie/internal/sessions/sessions.go#L398) |
-| agent | field_declaration | file | [399](../../magpie/internal/sessions/sessions.go#L399) |
-| key | field_declaration | file | [400](../../magpie/internal/sessions/sessions.go#L400) |
-| path | field_declaration | file | [401](../../magpie/internal/sessions/sessions.go#L401) |
-| main | field_declaration | file | [402](../../magpie/internal/sessions/sessions.go#L402) |
-| size | field_declaration | file | [403](../../magpie/internal/sessions/sessions.go#L403) |
-| mod | field_declaration | file | [404](../../magpie/internal/sessions/sessions.go#L404) |
-| sid | field_declaration | file | [407](../../magpie/internal/sessions/sessions.go#L407) |
-| parent | field_declaration | file | [408](../../magpie/internal/sessions/sessions.go#L408) |
-| oc | field_declaration | file | [409](../../magpie/internal/sessions/sessions.go#L409) |
-| manifest | field_declaration | file | [413](../../magpie/internal/sessions/sessions.go#L413) |
-| hermes | field_declaration | file | [414](../../magpie/internal/sessions/sessions.go#L414) |
-| alma | field_declaration | file | [416](../../magpie/internal/sessions/sessions.go#L416) |
-| rev | field_declaration | file | [417](../../magpie/internal/sessions/sessions.go#L417) |
-| agy | field_declaration | file | [419](../../magpie/internal/sessions/sessions.go#L419) |
-| readOnly | field_declaration | file | [420](../../magpie/internal/sessions/sessions.go#L420) |
-| editor | field_declaration | file | [421](../../magpie/internal/sessions/sessions.go#L421) |
-| wsl | field_declaration | file | [425](../../magpie/internal/sessions/sessions.go#L425) |
-| cold | field_declaration | file | [426](../../magpie/internal/sessions/sessions.go#L426) |
-| ClaudeDir | function_declaration |  | [430](../../magpie/internal/sessions/sessions.go#L430) |
-| CodexDir | function_declaration |  | [433](../../magpie/internal/sessions/sessions.go#L433) |
-| stat | function_declaration |  | [435](../../magpie/internal/sessions/sessions.go#L435) |
-| statFiles | function_declaration |  | [449](../../magpie/internal/sessions/sessions.go#L449) |
-| ccFiles | function_declaration |  | [492](../../magpie/internal/sessions/sessions.go#L492) |
-| filesHook | var_spec |  | [536](../../magpie/internal/sessions/sessions.go#L536) |
-| allFiles | function_declaration |  | [538](../../magpie/internal/sessions/sessions.go#L538) |
-| distinctPaths | function_declaration |  | [555](../../magpie/internal/sessions/sessions.go#L555) |
-| Dirs | function_declaration |  | [569](../../magpie/internal/sessions/sessions.go#L569) |
-| dir | field_declaration | Dirs | [573](../../magpie/internal/sessions/sessions.go#L573) |
-| sessions | field_declaration | Dirs | [573](../../magpie/internal/sessions/sessions.go#L573) |
-| rolloutName | var_spec |  | [614](../../magpie/internal/sessions/sessions.go#L614) |
-| zstSuffix | const_spec |  | [617](../../magpie/internal/sessions/sessions.go#L617) |
-| codexFiles | function_declaration |  | [624](../../magpie/internal/sessions/sessions.go#L624) |
-| warmListing | var_spec |  | [644](../../magpie/internal/sessions/sessions.go#L644) |
-| warmListingFor | const_spec |  | [650](../../magpie/internal/sessions/sessions.go#L650) |
-| forgetWarmListing | function_declaration |  | [652](../../magpie/internal/sessions/sessions.go#L652) |
-| listCodexFiles | function_declaration |  | [659](../../magpie/internal/sessions/sessions.go#L659) |
-| CodexDirs | function_declaration |  | [668](../../magpie/internal/sessions/sessions.go#L668) |
-| walkLinked | function_declaration |  | [680](../../magpie/internal/sessions/sessions.go#L680) |
-| codexFilesIn | function_declaration |  | [698](../../magpie/internal/sessions/sessions.go#L698) |
-| rolloutTwin | function_declaration |  | [735](../../magpie/internal/sessions/sessions.go#L735) |
-| storeMu | var_spec |  | [748](../../magpie/internal/sessions/sessions.go#L748) |
-| mu | var_spec |  | [749](../../magpie/internal/sessions/sessions.go#L749) |
-| cache | var_spec |  | [750](../../magpie/internal/sessions/sessions.go#L750) |
-| parsing | var_spec |  | [756](../../magpie/internal/sessions/sessions.go#L756) |
-| loaded | var_spec |  | [757](../../magpie/internal/sessions/sessions.go#L757) |
-| cacheGeneration | var_spec |  | [758](../../magpie/internal/sessions/sessions.go#L758) |
-| cacheZone | var_spec |  | [760](../../magpie/internal/sessions/sessions.go#L760) |
-| CachePath | function_declaration |  | [764](../../magpie/internal/sessions/sessions.go#L764) |
-| cacheVersion | const_spec |  | [785](../../magpie/internal/sessions/sessions.go#L785) |
-| cacheFile | struct_type |  | [787](../../magpie/internal/sessions/sessions.go#L787) |
-| Version | field_declaration | cacheFile | [788](../../magpie/internal/sessions/sessions.go#L788) |
-| Zone | field_declaration | cacheFile | [789](../../magpie/internal/sessions/sessions.go#L789) |
-| Files | field_declaration | cacheFile | [790](../../magpie/internal/sessions/sessions.go#L790) |
-| zone | function_declaration |  | [795](../../magpie/internal/sessions/sessions.go#L795) |
-| loadCache | function_declaration |  | [802](../../magpie/internal/sessions/sessions.go#L802) |
-| saveCache | function_declaration |  | [823](../../magpie/internal/sessions/sessions.go#L823) |
-| saving | var_spec |  | [849](../../magpie/internal/sessions/sessions.go#L849) |
-| save | struct_type |  | [856](../../magpie/internal/sessions/sessions.go#L856) |
-| path | field_declaration | save | [858](../../magpie/internal/sessions/sessions.go#L858) |
-| init | function_declaration |  | [861](../../magpie/internal/sessions/sessions.go#L861) |
-| Saved | function_declaration |  | [865](../../magpie/internal/sessions/sessions.go#L865) |
-| saved | function_declaration |  | [868](../../magpie/internal/sessions/sessions.go#L868) |
-| saveHook | var_spec |  | [877](../../magpie/internal/sessions/sessions.go#L877) |
-| writeCache | function_declaration |  | [879](../../magpie/internal/sessions/sessions.go#L879) |
-| refresh | function_declaration |  | [907](../../magpie/internal/sessions/sessions.go#L907) |
-| job | struct_type | refresh | [968](../../magpie/internal/sessions/sessions.go#L968) |
-| f | field_declaration | refresh.job | [969](../../magpie/internal/sessions/sessions.go#L969) |
-| old | field_declaration | refresh.job | [970](../../magpie/internal/sessions/sessions.go#L970) |
-| parsed | field_declaration | refresh.job | [971](../../magpie/internal/sessions/sessions.go#L971) |
-| waitParsing | function_declaration |  | [1059](../../magpie/internal/sessions/sessions.go#L1059) |
-| checkpointEvery | var_spec |  | [1089](../../magpie/internal/sessions/sessions.go#L1089) |
-| parseHook | var_spec |  | [1092](../../magpie/internal/sessions/sessions.go#L1092) |
-| progress | var_spec |  | [1096](../../magpie/internal/sessions/sessions.go#L1096) |
-| indexing | struct_type |  | [1098](../../magpie/internal/sessions/sessions.go#L1098) |
-| guard | field_declaration | indexing | [1099](../../magpie/internal/sessions/sessions.go#L1099) |
-| active | field_declaration | indexing | [1100](../../magpie/internal/sessions/sessions.go#L1100) |
-| on | field_declaration | indexing | [1101](../../magpie/internal/sessions/sessions.go#L1101) |
-| files | field_declaration | indexing | [1102](../../magpie/internal/sessions/sessions.go#L1102) |
-| read | field_declaration | indexing | [1102](../../magpie/internal/sessions/sessions.go#L1102) |
-| todo | field_declaration | indexing | [1103](../../magpie/internal/sessions/sessions.go#L1103) |
-| bytes | field_declaration | indexing | [1103](../../magpie/internal/sessions/sessions.go#L1103) |
-| start | method_declaration | *indexing | [1106](../../magpie/internal/sessions/sessions.go#L1106) |
-| finish | method_declaration | *indexing | [1122](../../magpie/internal/sessions/sessions.go#L1122) |
-| Progress | struct_type |  | [1131](../../magpie/internal/sessions/sessions.go#L1131) |
-| Indexing | field_declaration | Progress | [1132](../../magpie/internal/sessions/sessions.go#L1132) |
-| Files | field_declaration | Progress | [1133](../../magpie/internal/sessions/sessions.go#L1133) |
+| idleGap | const_spec |  | [276](../../magpie/internal/sessions/sessions.go#L276) |
+| dateOf | function_declaration |  | [279](../../magpie/internal/sessions/sessions.go#L279) |
+| day | method_declaration | *state | [286](../../magpie/internal/sessions/sessions.go#L286) |
+| use | method_declaration | *state | [295](../../magpie/internal/sessions/sessions.go#L295) |
+| unuse | method_declaration | *state | [304](../../magpie/internal/sessions/sessions.go#L304) |
+| saw | method_declaration | *state | [317](../../magpie/internal/sessions/sessions.go#L317) |
+| clone | method_declaration | *state | [337](../../magpie/internal/sessions/sessions.go#L337) |
+| file | struct_type |  | [365](../../magpie/internal/sessions/sessions.go#L365) |
+| agent | field_declaration | file | [366](../../magpie/internal/sessions/sessions.go#L366) |
+| key | field_declaration | file | [367](../../magpie/internal/sessions/sessions.go#L367) |
+| path | field_declaration | file | [368](../../magpie/internal/sessions/sessions.go#L368) |
+| main | field_declaration | file | [369](../../magpie/internal/sessions/sessions.go#L369) |
+| size | field_declaration | file | [370](../../magpie/internal/sessions/sessions.go#L370) |
+| mod | field_declaration | file | [371](../../magpie/internal/sessions/sessions.go#L371) |
+| sid | field_declaration | file | [374](../../magpie/internal/sessions/sessions.go#L374) |
+| parent | field_declaration | file | [375](../../magpie/internal/sessions/sessions.go#L375) |
+| oc | field_declaration | file | [376](../../magpie/internal/sessions/sessions.go#L376) |
+| manifest | field_declaration | file | [380](../../magpie/internal/sessions/sessions.go#L380) |
+| hermes | field_declaration | file | [381](../../magpie/internal/sessions/sessions.go#L381) |
+| alma | field_declaration | file | [383](../../magpie/internal/sessions/sessions.go#L383) |
+| rev | field_declaration | file | [384](../../magpie/internal/sessions/sessions.go#L384) |
+| agy | field_declaration | file | [386](../../magpie/internal/sessions/sessions.go#L386) |
+| readOnly | field_declaration | file | [387](../../magpie/internal/sessions/sessions.go#L387) |
+| editor | field_declaration | file | [388](../../magpie/internal/sessions/sessions.go#L388) |
+| wsl | field_declaration | file | [392](../../magpie/internal/sessions/sessions.go#L392) |
+| cold | field_declaration | file | [393](../../magpie/internal/sessions/sessions.go#L393) |
+| ClaudeDir | function_declaration |  | [397](../../magpie/internal/sessions/sessions.go#L397) |
+| CodexDir | function_declaration |  | [400](../../magpie/internal/sessions/sessions.go#L400) |
+| stat | function_declaration |  | [402](../../magpie/internal/sessions/sessions.go#L402) |
+| statFiles | function_declaration |  | [418](../../magpie/internal/sessions/sessions.go#L418) |
+| statOne | var_spec |  | [465](../../magpie/internal/sessions/sessions.go#L465) |
+| parallel | function_declaration |  | [474](../../magpie/internal/sessions/sessions.go#L474) |
+| ccFiles | function_declaration |  | [505](../../magpie/internal/sessions/sessions.go#L505) |
+| listCCFiles | function_declaration |  | [509](../../magpie/internal/sessions/sessions.go#L509) |
+| filesHook | var_spec |  | [553](../../magpie/internal/sessions/sessions.go#L553) |
+| allFiles | function_declaration |  | [555](../../magpie/internal/sessions/sessions.go#L555) |
+| distinctPaths | function_declaration |  | [572](../../magpie/internal/sessions/sessions.go#L572) |
+| Dirs | function_declaration |  | [586](../../magpie/internal/sessions/sessions.go#L586) |
+| dir | field_declaration | Dirs | [590](../../magpie/internal/sessions/sessions.go#L590) |
+| sessions | field_declaration | Dirs | [590](../../magpie/internal/sessions/sessions.go#L590) |
+| rolloutName | var_spec |  | [631](../../magpie/internal/sessions/sessions.go#L631) |
+| zstSuffix | const_spec |  | [634](../../magpie/internal/sessions/sessions.go#L634) |
+| codexFiles | function_declaration |  | [641](../../magpie/internal/sessions/sessions.go#L641) |
+| warmListing | var_spec |  | [661](../../magpie/internal/sessions/sessions.go#L661) |
+| warmListingFor | const_spec |  | [667](../../magpie/internal/sessions/sessions.go#L667) |
+| forgetWarmListing | function_declaration |  | [669](../../magpie/internal/sessions/sessions.go#L669) |
+| listCodexFiles | function_declaration |  | [676](../../magpie/internal/sessions/sessions.go#L676) |
+| CodexDirs | function_declaration |  | [685](../../magpie/internal/sessions/sessions.go#L685) |
+| walkLinked | function_declaration |  | [697](../../magpie/internal/sessions/sessions.go#L697) |
+| codexFilesIn | function_declaration |  | [715](../../magpie/internal/sessions/sessions.go#L715) |
+| rolloutsListed | var_spec |  | [759](../../magpie/internal/sessions/sessions.go#L759) |
+| listedRollouts | function_declaration |  | [767](../../magpie/internal/sessions/sessions.go#L767) |
+| rolloutTwin | function_declaration |  | [817](../../magpie/internal/sessions/sessions.go#L817) |
+| storeMu | var_spec |  | [830](../../magpie/internal/sessions/sessions.go#L830) |
+| mu | var_spec |  | [831](../../magpie/internal/sessions/sessions.go#L831) |
+| cache | var_spec |  | [832](../../magpie/internal/sessions/sessions.go#L832) |
+| parsing | var_spec |  | [838](../../magpie/internal/sessions/sessions.go#L838) |
+| loaded | var_spec |  | [839](../../magpie/internal/sessions/sessions.go#L839) |
+| cacheGeneration | var_spec |  | [840](../../magpie/internal/sessions/sessions.go#L840) |
+| cacheZone | var_spec |  | [842](../../magpie/internal/sessions/sessions.go#L842) |
+| CachePath | function_declaration |  | [846](../../magpie/internal/sessions/sessions.go#L846) |
+| cacheVersion | const_spec |  | [867](../../magpie/internal/sessions/sessions.go#L867) |
+| cacheFile | struct_type |  | [869](../../magpie/internal/sessions/sessions.go#L869) |
+| Version | field_declaration | cacheFile | [870](../../magpie/internal/sessions/sessions.go#L870) |
+| Zone | field_declaration | cacheFile | [871](../../magpie/internal/sessions/sessions.go#L871) |
+| Files | field_declaration | cacheFile | [872](../../magpie/internal/sessions/sessions.go#L872) |
+| zone | function_declaration |  | [877](../../magpie/internal/sessions/sessions.go#L877) |
+| loadCache | function_declaration |  | [884](../../magpie/internal/sessions/sessions.go#L884) |
+| saveCache | function_declaration |  | [905](../../magpie/internal/sessions/sessions.go#L905) |
+| saving | var_spec |  | [931](../../magpie/internal/sessions/sessions.go#L931) |
+| save | struct_type |  | [938](../../magpie/internal/sessions/sessions.go#L938) |
+| path | field_declaration | save | [940](../../magpie/internal/sessions/sessions.go#L940) |
+| init | function_declaration |  | [943](../../magpie/internal/sessions/sessions.go#L943) |
+| Saved | function_declaration |  | [947](../../magpie/internal/sessions/sessions.go#L947) |
+| saved | function_declaration |  | [950](../../magpie/internal/sessions/sessions.go#L950) |
+| saveHook | var_spec |  | [959](../../magpie/internal/sessions/sessions.go#L959) |
+| writeCache | function_declaration |  | [961](../../magpie/internal/sessions/sessions.go#L961) |
+| refresh | function_declaration |  | [989](../../magpie/internal/sessions/sessions.go#L989) |
+| job | struct_type | refresh | [1050](../../magpie/internal/sessions/sessions.go#L1050) |
+| f | field_declaration | refresh.job | [1051](../../magpie/internal/sessions/sessions.go#L1051) |
+| old | field_declaration | refresh.job | [1052](../../magpie/internal/sessions/sessions.go#L1052) |
+| parsed | field_declaration | refresh.job | [1053](../../magpie/internal/sessions/sessions.go#L1053) |
+| waitParsing | function_declaration |  | [1141](../../magpie/internal/sessions/sessions.go#L1141) |
+| checkpointEvery | var_spec |  | [1171](../../magpie/internal/sessions/sessions.go#L1171) |
+| parseHook | var_spec |  | [1174](../../magpie/internal/sessions/sessions.go#L1174) |
+| progress | var_spec |  | [1178](../../magpie/internal/sessions/sessions.go#L1178) |
+| indexing | struct_type |  | [1180](../../magpie/internal/sessions/sessions.go#L1180) |
+| guard | field_declaration | indexing | [1181](../../magpie/internal/sessions/sessions.go#L1181) |
+| active | field_declaration | indexing | [1182](../../magpie/internal/sessions/sessions.go#L1182) |
+| on | field_declaration | indexing | [1183](../../magpie/internal/sessions/sessions.go#L1183) |
+| files | field_declaration | indexing | [1184](../../magpie/internal/sessions/sessions.go#L1184) |
+| read | field_declaration | indexing | [1184](../../magpie/internal/sessions/sessions.go#L1184) |
+| todo | field_declaration | indexing | [1185](../../magpie/internal/sessions/sessions.go#L1185) |
+| bytes | field_declaration | indexing | [1185](../../magpie/internal/sessions/sessions.go#L1185) |

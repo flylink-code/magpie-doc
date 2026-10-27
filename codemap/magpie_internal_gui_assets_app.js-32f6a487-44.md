@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 44/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| c | VariableDeclaration | packUsage.heights | [16027](../../magpie/internal/gui/assets/app.js#L16027) |
-| g | VariableDeclaration | packUsage.heights | [16028](../../magpie/internal/gui/assets/app.js#L16028) |
-| columns | VariableDeclaration | packUsage | [16031](../../magpie/internal/gui/assets/app.js#L16031) |
-| best | VariableDeclaration | packUsage | [16032](../../magpie/internal/gui/assets/app.js#L16032) |
-| c | VariableDeclaration | packUsage | [16038](../../magpie/internal/gui/assets/app.js#L16038) |
-| n | VariableDeclaration | packUsage | [16039](../../magpie/internal/gui/assets/app.js#L16039) |
-| p | VariableDeclaration | packUsage | [16041](../../magpie/internal/gui/assets/app.js#L16041) |
-| last | VariableDeclaration | packUsage | [16052](../../magpie/internal/gui/assets/app.js#L16052) |
-| c | BindingElement | packUsage.last | [16052](../../magpie/internal/gui/assets/app.js#L16052) |
-| c | BindingElement | packUsage | [16053](../../magpie/internal/gui/assets/app.js#L16053) |
-| top | BindingElement | packUsage | [16053](../../magpie/internal/gui/assets/app.js#L16053) |
-| h | BindingElement | packUsage | [16053](../../magpie/internal/gui/assets/app.js#L16053) |
-| area | VariableDeclaration | packUsage | [16055](../../magpie/internal/gui/assets/app.js#L16055) |
-| min | VariableDeclaration | packUsage | [16057](../../magpie/internal/gui/assets/app.js#L16057) |
-| usagePack | VariableDeclaration |  | [16067](../../magpie/internal/gui/assets/app.js#L16067) |
-| packUsageNow | FunctionDeclaration |  | [16068](../../magpie/internal/gui/assets/app.js#L16068) |
-| card | VariableDeclaration | packUsageNow | [16072](../../magpie/internal/gui/assets/app.js#L16072) |
-| part | VariableDeclaration | packUsageNow | [16074](../../magpie/internal/gui/assets/app.js#L16074) |
-| usageArranging | VariableDeclaration |  | [16081](../../magpie/internal/gui/assets/app.js#L16081) |
-| usageRenderPending | VariableDeclaration |  | [16081](../../magpie/internal/gui/assets/app.js#L16081) |
-| usageHandle | FunctionDeclaration |  | [16082](../../magpie/internal/gui/assets/app.js#L16082) |
-| b | VariableDeclaration | usageHandle | [16083](../../magpie/internal/gui/assets/app.js#L16083) |
-| step | VariableDeclaration | usageHandle | [16089](../../magpie/internal/gui/assets/app.js#L16089) |
-| keys | VariableDeclaration | usageHandle | [16092](../../magpie/internal/gui/assets/app.js#L16092) |
-| list | VariableDeclaration | usageHandle | [16099](../../magpie/internal/gui/assets/app.js#L16099) |
-| usageKeys | VariableDeclaration |  | [16110](../../magpie/internal/gui/assets/app.js#L16110) |
-| moveUsage | FunctionDeclaration |  | [16115](../../magpie/internal/gui/assets/app.js#L16115) |
-| keys | VariableDeclaration | moveUsage | [16116](../../magpie/internal/gui/assets/app.js#L16116) |
-| from | VariableDeclaration | moveUsage | [16117](../../magpie/internal/gui/assets/app.js#L16117) |
-| prev | VariableDeclaration | moveUsage | [16120](../../magpie/internal/gui/assets/app.js#L16120) |
-| order | VariableDeclaration | moveUsage | [16121](../../magpie/internal/gui/assets/app.js#L16121) |
-| s | VariableDeclaration | moveUsage | [16125](../../magpie/internal/gui/assets/app.js#L16125) |
-| e | VariableDeclaration | moveUsage | [16127](../../magpie/internal/gui/assets/app.js#L16127) |
-| creditDays | FunctionDeclaration |  | [16138](../../magpie/internal/gui/assets/app.js#L16138) |
-| box | VariableDeclaration | creditDays | [16139](../../magpie/internal/gui/assets/app.js#L16139) |
-| { since, days } | VariableDeclaration | creditDays | [16140](../../magpie/internal/gui/assets/app.js#L16140) |
-| since | BindingElement | creditDays.{ since, days } | [16140](../../magpie/internal/gui/assets/app.js#L16140) |
-| days | BindingElement | creditDays.{ since, days } | [16140](../../magpie/internal/gui/assets/app.js#L16140) |
-| by | VariableDeclaration | creditDays | [16141](../../magpie/internal/gui/assets/app.js#L16141) |
-| key | VariableDeclaration | creditDays | [16142](../../magpie/internal/gui/assets/app.js#L16142) |
-| today | VariableDeclaration | creditDays | [16143](../../magpie/internal/gui/assets/app.js#L16143) |
-| range | VariableDeclaration | creditDays | [16147](../../magpie/internal/gui/assets/app.js#L16147) |
-| last | VariableDeclaration | creditDays | [16148](../../magpie/internal/gui/assets/app.js#L16148) |
-| n | VariableDeclaration | creditDays | [16149](../../magpie/internal/gui/assets/app.js#L16149) |
-| list | VariableDeclaration | creditDays | [16152](../../magpie/internal/gui/assets/app.js#L16152) |
-| i | VariableDeclaration | creditDays | [16153](../../magpie/internal/gui/assets/app.js#L16153) |
-| d | VariableDeclaration | creditDays | [16154](../../magpie/internal/gui/assets/app.js#L16154) |
-| num | VariableDeclaration | creditDays | [16158](../../magpie/internal/gui/assets/app.js#L16158) |
-| dayName | VariableDeclaration | creditDays | [16159](../../magpie/internal/gui/assets/app.js#L16159) |
-| sum | VariableDeclaration | creditDays | [16160](../../magpie/internal/gui/assets/app.js#L16160) |
-| head | VariableDeclaration | creditDays | [16161](../../magpie/internal/gui/assets/app.js#L16161) |
-| name | VariableDeclaration | creditDays | [16162](../../magpie/internal/gui/assets/app.js#L16162) |
-| bars | VariableDeclaration | creditDays | [16167](../../magpie/internal/gui/assets/app.js#L16167) |
-| peak | VariableDeclaration | creditDays | [16168](../../magpie/internal/gui/assets/app.js#L16168) |
-| d | VariableDeclaration | creditDays | [16169](../../magpie/internal/gui/assets/app.js#L16169) |
-| b | VariableDeclaration | creditDays | [16170](../../magpie/internal/gui/assets/app.js#L16170) |
-| fill | VariableDeclaration | creditDays | [16171](../../magpie/internal/gui/assets/app.js#L16171) |
-| quotaRange | VariableDeclaration |  | [16193](../../magpie/internal/gui/assets/app.js#L16193) |
-| v | VariableDeclaration |  | [16194](../../magpie/internal/gui/assets/app.js#L16194) |
-| QUOTA_RANGES | VariableDeclaration |  | [16195](../../magpie/internal/gui/assets/app.js#L16195) |
-| v | VariableDeclaration |  | [16198](../../magpie/internal/gui/assets/app.js#L16198) |
-| id | BindingElement | v | [16198](../../magpie/internal/gui/assets/app.js#L16198) |
-| renderQuotaTrend | FunctionDeclaration |  | [16203](../../magpie/internal/gui/assets/app.js#L16203) |
-| b | VariableDeclaration | renderQuotaTrend | [16204](../../magpie/internal/gui/assets/app.js#L16204) |
-| cur | VariableDeclaration | renderQuotaTrend | [16208](../../magpie/internal/gui/assets/app.js#L16208) |
-| id | BindingElement | renderQuotaTrend.cur | [16208](../../magpie/internal/gui/assets/app.js#L16208) |
-| v | BindingElement | renderQuotaTrend | [16215](../../magpie/internal/gui/assets/app.js#L16215) |
-| name | BindingElement | renderQuotaTrend | [16215](../../magpie/internal/gui/assets/app.js#L16215) |
-| note | BindingElement | renderQuotaTrend | [16215](../../magpie/internal/gui/assets/app.js#L16215) |
-| quotaHistOf | FunctionDeclaration |  | [16219](../../magpie/internal/gui/assets/app.js#L16219) |
-| user | VariableDeclaration | quotaHistOf | [16220](../../magpie/internal/gui/assets/app.js#L16220) |
-| quotaLines | FunctionDeclaration |  | [16224](../../magpie/internal/gui/assets/app.js#L16224) |
-| h | VariableDeclaration | quotaLines | [16225](../../magpie/internal/gui/assets/app.js#L16225) |
-| out | VariableDeclaration | quotaLines | [16227](../../magpie/internal/gui/assets/app.js#L16227) |
-| w | VariableDeclaration | quotaLines | [16228](../../magpie/internal/gui/assets/app.js#L16228) |
-| name | VariableDeclaration | quotaLines | [16231](../../magpie/internal/gui/assets/app.js#L16231) |
-| l | VariableDeclaration | quotaLines | [16232](../../magpie/internal/gui/assets/app.js#L16232) |
-| quotaCycleBreak | FunctionDeclaration |  | [16243](../../magpie/internal/gui/assets/app.js#L16243) |
-| moved | VariableDeclaration | quotaCycleBreak | [16247](../../magpie/internal/gui/assets/app.js#L16247) |
-| slack | VariableDeclaration | quotaCycleBreak | [16247](../../magpie/internal/gui/assets/app.js#L16247) |
-| rolling | VariableDeclaration | quotaCycleBreak | [16248](../../magpie/internal/gui/assets/app.js#L16248) |
-| quotaRecordedCycles | FunctionDeclaration |  | [16255](../../magpie/internal/gui/assets/app.js#L16255) |
-| cycles | VariableDeclaration | quotaRecordedCycles | [16256](../../magpie/internal/gui/assets/app.js#L16256) |
-| p | VariableDeclaration | quotaRecordedCycles | [16257](../../magpie/internal/gui/assets/app.js#L16257) |
-| c | VariableDeclaration | quotaRecordedCycles | [16258](../../magpie/internal/gui/assets/app.js#L16258) |
-| prev | VariableDeclaration | quotaRecordedCycles | [16259](../../magpie/internal/gui/assets/app.js#L16259) |
-| start | VariableDeclaration | quotaRecordedCycles | [16261](../../magpie/internal/gui/assets/app.js#L16261) |
-| quotaPastCycles | FunctionDeclaration |  | [16275](../../magpie/internal/gui/assets/app.js#L16275) |
-| longest | VariableDeclaration | quotaPastCycles | [16276](../../magpie/internal/gui/assets/app.js#L16276) |
-| span | VariableDeclaration | quotaPastCycles.longest | [16277](../../magpie/internal/gui/assets/app.js#L16277) |
-| quotaCyclePicks | VariableDeclaration |  | [16282](../../magpie/internal/gui/assets/app.js#L16282) |
-| quotaCycleHolds | VariableDeclaration |  | [16283](../../magpie/internal/gui/assets/app.js#L16283) |
-| quotaCycleHoldsOf | FunctionDeclaration |  | [16284](../../magpie/internal/gui/assets/app.js#L16284) |
-| key | VariableDeclaration | quotaCycleHoldsOf | [16286](../../magpie/internal/gui/assets/app.js#L16286) |
-| entry | VariableDeclaration | quotaCycleHoldsOf | [16288](../../magpie/internal/gui/assets/app.js#L16288) |
-| args | VariableDeclaration | quotaCycleHoldsOf | [16290](../../magpie/internal/gui/assets/app.js#L16290) |
-| quotaHistoryView | FunctionDeclaration |  | [16305](../../magpie/internal/gui/assets/app.js#L16305) |
-| past | VariableDeclaration | quotaHistoryView | [16307](../../magpie/internal/gui/assets/app.js#L16307) |
-| picked | VariableDeclaration | quotaHistoryView | [16308](../../magpie/internal/gui/assets/app.js#L16308) |
-| shown | VariableDeclaration | quotaHistoryView | [16310](../../magpie/internal/gui/assets/app.js#L16310) |
+| fill | VariableDeclaration | creditDays | [15979](../../magpie/internal/gui/assets/app.js#L15979) |
+| quotaRange | VariableDeclaration |  | [16001](../../magpie/internal/gui/assets/app.js#L16001) |
+| v | VariableDeclaration |  | [16002](../../magpie/internal/gui/assets/app.js#L16002) |
+| QUOTA_RANGES | VariableDeclaration |  | [16003](../../magpie/internal/gui/assets/app.js#L16003) |
+| v | VariableDeclaration |  | [16006](../../magpie/internal/gui/assets/app.js#L16006) |
+| id | BindingElement | v | [16006](../../magpie/internal/gui/assets/app.js#L16006) |
+| renderQuotaTrend | FunctionDeclaration |  | [16011](../../magpie/internal/gui/assets/app.js#L16011) |
+| b | VariableDeclaration | renderQuotaTrend | [16012](../../magpie/internal/gui/assets/app.js#L16012) |
+| cur | VariableDeclaration | renderQuotaTrend | [16016](../../magpie/internal/gui/assets/app.js#L16016) |
+| id | BindingElement | renderQuotaTrend.cur | [16016](../../magpie/internal/gui/assets/app.js#L16016) |
+| v | BindingElement | renderQuotaTrend | [16023](../../magpie/internal/gui/assets/app.js#L16023) |
+| name | BindingElement | renderQuotaTrend | [16023](../../magpie/internal/gui/assets/app.js#L16023) |
+| note | BindingElement | renderQuotaTrend | [16023](../../magpie/internal/gui/assets/app.js#L16023) |
+| quotaHistOf | FunctionDeclaration |  | [16027](../../magpie/internal/gui/assets/app.js#L16027) |
+| user | VariableDeclaration | quotaHistOf | [16028](../../magpie/internal/gui/assets/app.js#L16028) |
+| quotaLines | FunctionDeclaration |  | [16032](../../magpie/internal/gui/assets/app.js#L16032) |
+| h | VariableDeclaration | quotaLines | [16033](../../magpie/internal/gui/assets/app.js#L16033) |
+| out | VariableDeclaration | quotaLines | [16035](../../magpie/internal/gui/assets/app.js#L16035) |
+| w | VariableDeclaration | quotaLines | [16036](../../magpie/internal/gui/assets/app.js#L16036) |
+| name | VariableDeclaration | quotaLines | [16039](../../magpie/internal/gui/assets/app.js#L16039) |
+| l | VariableDeclaration | quotaLines | [16040](../../magpie/internal/gui/assets/app.js#L16040) |
+| quotaCycleBreak | FunctionDeclaration |  | [16051](../../magpie/internal/gui/assets/app.js#L16051) |
+| moved | VariableDeclaration | quotaCycleBreak | [16055](../../magpie/internal/gui/assets/app.js#L16055) |
+| slack | VariableDeclaration | quotaCycleBreak | [16055](../../magpie/internal/gui/assets/app.js#L16055) |
+| rolling | VariableDeclaration | quotaCycleBreak | [16056](../../magpie/internal/gui/assets/app.js#L16056) |
+| quotaRecordedCycles | FunctionDeclaration |  | [16063](../../magpie/internal/gui/assets/app.js#L16063) |
+| cycles | VariableDeclaration | quotaRecordedCycles | [16064](../../magpie/internal/gui/assets/app.js#L16064) |
+| p | VariableDeclaration | quotaRecordedCycles | [16065](../../magpie/internal/gui/assets/app.js#L16065) |
+| c | VariableDeclaration | quotaRecordedCycles | [16066](../../magpie/internal/gui/assets/app.js#L16066) |
+| prev | VariableDeclaration | quotaRecordedCycles | [16067](../../magpie/internal/gui/assets/app.js#L16067) |
+| start | VariableDeclaration | quotaRecordedCycles | [16069](../../magpie/internal/gui/assets/app.js#L16069) |
+| quotaPastCycles | FunctionDeclaration |  | [16083](../../magpie/internal/gui/assets/app.js#L16083) |
+| longest | VariableDeclaration | quotaPastCycles | [16084](../../magpie/internal/gui/assets/app.js#L16084) |
+| span | VariableDeclaration | quotaPastCycles.longest | [16085](../../magpie/internal/gui/assets/app.js#L16085) |
+| quotaCyclePicks | VariableDeclaration |  | [16090](../../magpie/internal/gui/assets/app.js#L16090) |
+| quotaCycleHolds | VariableDeclaration |  | [16091](../../magpie/internal/gui/assets/app.js#L16091) |
+| quotaCycleHoldsOf | FunctionDeclaration |  | [16092](../../magpie/internal/gui/assets/app.js#L16092) |
+| key | VariableDeclaration | quotaCycleHoldsOf | [16094](../../magpie/internal/gui/assets/app.js#L16094) |
+| entry | VariableDeclaration | quotaCycleHoldsOf | [16096](../../magpie/internal/gui/assets/app.js#L16096) |
+| args | VariableDeclaration | quotaCycleHoldsOf | [16098](../../magpie/internal/gui/assets/app.js#L16098) |
+| quotaHistoryView | FunctionDeclaration |  | [16113](../../magpie/internal/gui/assets/app.js#L16113) |
+| past | VariableDeclaration | quotaHistoryView | [16115](../../magpie/internal/gui/assets/app.js#L16115) |
+| picked | VariableDeclaration | quotaHistoryView | [16116](../../magpie/internal/gui/assets/app.js#L16116) |
+| shown | VariableDeclaration | quotaHistoryView | [16118](../../magpie/internal/gui/assets/app.js#L16118) |
+| points | VariableDeclaration | quotaHistoryView.shown | [16119](../../magpie/internal/gui/assets/app.js#L16119) |
+| last | VariableDeclaration | quotaHistoryView.shown | [16120](../../magpie/internal/gui/assets/app.js#L16120) |
+| quotaHistoryCard | FunctionDeclaration |  | [16125](../../magpie/internal/gui/assets/app.js#L16125) |
+| picked | BindingElement | quotaHistoryCard | [16125](../../magpie/internal/gui/assets/app.js#L16125) |
+| shown | BindingElement | quotaHistoryCard | [16125](../../magpie/internal/gui/assets/app.js#L16125) |
+| estimates | VariableDeclaration | quotaHistoryCard | [16126](../../magpie/internal/gui/assets/app.js#L16126) |
+| windows | VariableDeclaration | quotaHistoryCard | [16127](../../magpie/internal/gui/assets/app.js#L16127) |
+| name | VariableDeclaration | quotaHistoryCard.windows | [16128](../../magpie/internal/gui/assets/app.js#L16128) |
+| last | VariableDeclaration | quotaHistoryCard.windows | [16129](../../magpie/internal/gui/assets/app.js#L16129) |
+| base | VariableDeclaration | quotaHistoryCard.windows | [16130](../../magpie/internal/gui/assets/app.js#L16130) |
+| est | VariableDeclaration | quotaHistoryCard.windows | [16133](../../magpie/internal/gui/assets/app.js#L16133) |
+| at | VariableDeclaration | quotaHistoryCard | [16138](../../magpie/internal/gui/assets/app.js#L16138) |
+| quotaCycleLength | FunctionDeclaration |  | [16141](../../magpie/internal/gui/assets/app.js#L16141) |
+| minutes | VariableDeclaration | quotaCycleLength | [16142](../../magpie/internal/gui/assets/app.js#L16142) |
+| days | VariableDeclaration | quotaCycleLength | [16143](../../magpie/internal/gui/assets/app.js#L16143) |
+| hours | VariableDeclaration | quotaCycleLength | [16144](../../magpie/internal/gui/assets/app.js#L16144) |
+| n | BindingElement | quotaCycleLength | [16145](../../magpie/internal/gui/assets/app.js#L16145) |
+| n | BindingElement | quotaCycleLength | [16145](../../magpie/internal/gui/assets/app.js#L16145) |
+| unit | BindingElement | quotaCycleLength | [16145](../../magpie/internal/gui/assets/app.js#L16145) |
+| quotaCycle | FunctionDeclaration |  | [16150](../../magpie/internal/gui/assets/app.js#L16150) |
+| last | VariableDeclaration | quotaCycle | [16151](../../magpie/internal/gui/assets/app.js#L16151) |
+| reset | VariableDeclaration | quotaCycle | [16152](../../magpie/internal/gui/assets/app.js#L16152) |
+| start | VariableDeclaration | quotaCycle | [16153](../../magpie/internal/gui/assets/app.js#L16153) |
+| i | VariableDeclaration | quotaCycle | [16155](../../magpie/internal/gui/assets/app.js#L16155) |
+| quotaEtaSpan | VariableDeclaration |  | [16166](../../magpie/internal/gui/assets/app.js#L16166) |
+| quotaEta | FunctionDeclaration |  | [16173](../../magpie/internal/gui/assets/app.js#L16173) |
+| c | VariableDeclaration | quotaEta | [16174](../../magpie/internal/gui/assets/app.js#L16174) |
+| cycle | VariableDeclaration | quotaEta | [16177](../../magpie/internal/gui/assets/app.js#L16177) |
+| i | VariableDeclaration | quotaEta | [16178](../../magpie/internal/gui/assets/app.js#L16178) |
+| pts | VariableDeclaration | quotaEta | [16180](../../magpie/internal/gui/assets/app.js#L16180) |
+| last | VariableDeclaration | quotaEta | [16180](../../magpie/internal/gui/assets/app.js#L16180) |
+| t0 | VariableDeclaration | quotaEta | [16182](../../magpie/internal/gui/assets/app.js#L16182) |
+| n | VariableDeclaration | quotaEta | [16182](../../magpie/internal/gui/assets/app.js#L16182) |
+| sx | VariableDeclaration | quotaEta | [16183](../../magpie/internal/gui/assets/app.js#L16183) |
+| sy | VariableDeclaration | quotaEta | [16183](../../magpie/internal/gui/assets/app.js#L16183) |
+| sxx | VariableDeclaration | quotaEta | [16183](../../magpie/internal/gui/assets/app.js#L16183) |
+| sxy | VariableDeclaration | quotaEta | [16183](../../magpie/internal/gui/assets/app.js#L16183) |
+| p | VariableDeclaration | quotaEta | [16184](../../magpie/internal/gui/assets/app.js#L16184) |
+| x | VariableDeclaration | quotaEta | [16184](../../magpie/internal/gui/assets/app.js#L16184) |
+| den | VariableDeclaration | quotaEta | [16185](../../magpie/internal/gui/assets/app.js#L16185) |
+| slope | VariableDeclaration | quotaEta | [16187](../../magpie/internal/gui/assets/app.js#L16187) |
+| out | VariableDeclaration | quotaEta | [16189](../../magpie/internal/gui/assets/app.js#L16189) |
+| quotaEtaText | FunctionDeclaration |  | [16197](../../magpie/internal/gui/assets/app.js#L16197) |
+| p | VariableDeclaration | quotaEtaText | [16198](../../magpie/internal/gui/assets/app.js#L16198) |
+| quotaSpan | FunctionDeclaration |  | [16203](../../magpie/internal/gui/assets/app.js#L16203) |
+| x0 | VariableDeclaration | quotaSpan | [16205](../../magpie/internal/gui/assets/app.js#L16205) |
+| x1 | VariableDeclaration | quotaSpan | [16205](../../magpie/internal/gui/assets/app.js#L16205) |
+| l | VariableDeclaration | quotaSpan | [16206](../../magpie/internal/gui/assets/app.js#L16206) |
+| c | VariableDeclaration | quotaSpan | [16207](../../magpie/internal/gui/assets/app.js#L16207) |
+| quotaPaths | FunctionDeclaration |  | [16217](../../magpie/internal/gui/assets/app.js#L16217) |
+| X | VariableDeclaration | quotaPaths | [16218](../../magpie/internal/gui/assets/app.js#L16218) |
+| Y | VariableDeclaration | quotaPaths | [16218](../../magpie/internal/gui/assets/app.js#L16218) |
+| d | VariableDeclaration | quotaPaths | [16219](../../magpie/internal/gui/assets/app.js#L16219) |
+| prev | VariableDeclaration | quotaPaths | [16219](../../magpie/internal/gui/assets/app.js#L16219) |
+| i | VariableDeclaration | quotaPaths | [16220](../../magpie/internal/gui/assets/app.js#L16220) |
+| p | VariableDeclaration | quotaPaths | [16221](../../magpie/internal/gui/assets/app.js#L16221) |

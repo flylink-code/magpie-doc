@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/backup/backup.go) · page 1/1
 
-Source SHA-256: 753fcfc29a09d44b39788affbcbf44feb1170647af35d3ac2b9524e4756ce413
+Source SHA-256: ac9ef0dcd9b62539457a09bd740a984a496bf7e51edd09b4a130dbcb02262cd0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

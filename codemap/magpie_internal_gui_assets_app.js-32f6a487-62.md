@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 62/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| val | VariableDeclaration | maskTip | [22199](../../magpie/internal/gui/assets/app.js#L22199) |
-| place | VariableDeclaration | maskTip | [22203](../../magpie/internal/gui/assets/app.js#L22203) |
-| a | VariableDeclaration | maskTip.place | [22204](../../magpie/internal/gui/assets/app.js#L22204) |
-| b | VariableDeclaration | maskTip.place | [22204](../../magpie/internal/gui/assets/app.js#L22204) |
-| left | VariableDeclaration | maskTip.place | [22205](../../magpie/internal/gui/assets/app.js#L22205) |
-| above | VariableDeclaration | maskTip.place | [22206](../../magpie/internal/gui/assets/app.js#L22206) |
-| maskTipOff | FunctionDeclaration |  | [22220](../../magpie/internal/gui/assets/app.js#L22220) |
-| maskTipOn | FunctionDeclaration |  | [22224](../../magpie/internal/gui/assets/app.js#L22224) |
-| maskSnipTexts | FunctionDeclaration |  | [22231](../../magpie/internal/gui/assets/app.js#L22231) |
-| core | VariableDeclaration | maskSnipTexts | [22232](../../magpie/internal/gui/assets/app.js#L22232) |
-| all | VariableDeclaration | maskSnipTexts | [22233](../../magpie/internal/gui/assets/app.js#L22233) |
-| maskPlace | FunctionDeclaration |  | [22238](../../magpie/internal/gui/assets/app.js#L22238) |
-| kind | VariableDeclaration | maskPlace | [22239](../../magpie/internal/gui/assets/app.js#L22239) |
-| mark | VariableDeclaration | maskPlace | [22240](../../magpie/internal/gui/assets/app.js#L22240) |
-| maskedBadge | FunctionDeclaration |  | [22248](../../magpie/internal/gui/assets/app.js#L22248) |
-| warned | VariableDeclaration | maskedBadge | [22251](../../magpie/internal/gui/assets/app.js#L22251) |
-| b | VariableDeclaration | maskedBadge | [22252](../../magpie/internal/gui/assets/app.js#L22252) |
-| kinds | VariableDeclaration | maskedBadge | [22255](../../magpie/internal/gui/assets/app.js#L22255) |
-| k | BindingElement | maskedBadge.kinds | [22255](../../magpie/internal/gui/assets/app.js#L22255) |
-| n | BindingElement | maskedBadge.kinds | [22255](../../magpie/internal/gui/assets/app.js#L22255) |
-| openMaskRecord | FunctionDeclaration |  | [22265](../../magpie/internal/gui/assets/app.js#L22265) |
-| ruleDraft | VariableDeclaration |  | [22275](../../magpie/internal/gui/assets/app.js#L22275) |
-| renderRedactRules | FunctionDeclaration |  | [22276](../../magpie/internal/gui/assets/app.js#L22276) |
-| rules | VariableDeclaration | renderRedactRules | [22277](../../magpie/internal/gui/assets/app.js#L22277) |
-| set | VariableDeclaration | renderRedactRules | [22278](../../magpie/internal/gui/assets/app.js#L22278) |
-| d | VariableDeclaration | renderRedactRules | [22281](../../magpie/internal/gui/assets/app.js#L22281) |
-| kind | VariableDeclaration | renderRedactRules | [22282](../../magpie/internal/gui/assets/app.js#L22282) |
-| match | VariableDeclaration | renderRedactRules | [22283](../../magpie/internal/gui/assets/app.js#L22283) |
-| by | VariableDeclaration | renderRedactRules | [22286](../../magpie/internal/gui/assets/app.js#L22286) |
-| add | VariableDeclaration | renderRedactRules | [22287](../../magpie/internal/gui/assets/app.js#L22287) |
-| r | VariableDeclaration | renderRedactRules | [22291](../../magpie/internal/gui/assets/app.js#L22291) |
-| i | VariableDeclaration | renderRedactRules | [22295](../../magpie/internal/gui/assets/app.js#L22295) |
-| head | VariableDeclaration | renderRedactRules | [22302](../../magpie/internal/gui/assets/app.js#L22302) |
-| same | VariableDeclaration | renderRedactRules | [22308](../../magpie/internal/gui/assets/app.js#L22308) |
-| ed | VariableDeclaration | renderRedactRules | [22312](../../magpie/internal/gui/assets/app.js#L22312) |
-| x | VariableDeclaration | renderRedactRules | [22318](../../magpie/internal/gui/assets/app.js#L22318) |
-| MASK_SECRET_KINDS | VariableDeclaration |  | [22329](../../magpie/internal/gui/assets/app.js#L22329) |
-| MASK_PERSONAL_KINDS | VariableDeclaration |  | [22330](../../magpie/internal/gui/assets/app.js#L22330) |
-| MASK_ACT_SUB | VariableDeclaration |  | [22331](../../magpie/internal/gui/assets/app.js#L22331) |
-| maskActAll | VariableDeclaration |  | [22336](../../magpie/internal/gui/assets/app.js#L22336) |
-| maskRuleKind | FunctionDeclaration |  | [22338](../../magpie/internal/gui/assets/app.js#L22338) |
-| x | VariableDeclaration | maskRuleKind | [22339](../../magpie/internal/gui/assets/app.js#L22339) |
-| maskActKinds | FunctionDeclaration |  | [22342](../../magpie/internal/gui/assets/app.js#L22342) |
-| acts | VariableDeclaration | maskActKinds | [22343](../../magpie/internal/gui/assets/app.js#L22343) |
-| first | VariableDeclaration | maskActKinds | [22343](../../magpie/internal/gui/assets/app.js#L22343) |
-| rest | VariableDeclaration | maskActKinds | [22343](../../magpie/internal/gui/assets/app.js#L22343) |
-| add | VariableDeclaration | maskActKinds | [22344](../../magpie/internal/gui/assets/app.js#L22344) |
-| k | VariableDeclaration | maskActKinds | [22349](../../magpie/internal/gui/assets/app.js#L22349) |
-| r | VariableDeclaration | maskActKinds | [22350](../../magpie/internal/gui/assets/app.js#L22350) |
-| k | VariableDeclaration | maskActKinds | [22353](../../magpie/internal/gui/assets/app.js#L22353) |
-| k | VariableDeclaration | maskActKinds | [22355](../../magpie/internal/gui/assets/app.js#L22355) |
-| renderMaskActions | FunctionDeclaration |  | [22358](../../magpie/internal/gui/assets/app.js#L22358) |
-| box | VariableDeclaration | renderMaskActions | [22359](../../magpie/internal/gui/assets/app.js#L22359) |
-| acts | VariableDeclaration | renderMaskActions | [22362](../../magpie/internal/gui/assets/app.js#L22362) |
-| set | VariableDeclaration | renderMaskActions | [22363](../../magpie/internal/gui/assets/app.js#L22363) |
-| row | VariableDeclaration | renderMaskActions | [22366](../../magpie/internal/gui/assets/app.js#L22366) |
-| r | VariableDeclaration | renderMaskActions.row | [22367](../../magpie/internal/gui/assets/app.js#L22367) |
-| who | VariableDeclaration | renderMaskActions.row | [22368](../../magpie/internal/gui/assets/app.js#L22368) |
-| val | VariableDeclaration | renderMaskActions.row | [22368](../../magpie/internal/gui/assets/app.js#L22368) |
-| { first, rest } | VariableDeclaration | renderMaskActions | [22375](../../magpie/internal/gui/assets/app.js#L22375) |
-| first | BindingElement | renderMaskActions.{ first, rest } | [22375](../../magpie/internal/gui/assets/app.js#L22375) |
-| rest | BindingElement | renderMaskActions.{ first, rest } | [22375](../../magpie/internal/gui/assets/app.js#L22375) |
-| k | VariableDeclaration | renderMaskActions | [22379](../../magpie/internal/gui/assets/app.js#L22379) |
-| now | VariableDeclaration | renderMaskActions | [22380](../../magpie/internal/gui/assets/app.js#L22380) |
-| r | VariableDeclaration | renderMaskActions | [22381](../../magpie/internal/gui/assets/app.js#L22381) |
-| next | VariableDeclaration | renderMaskActions.r | [22383](../../magpie/internal/gui/assets/app.js#L22383) |
-| more | VariableDeclaration | renderMaskActions | [22393](../../magpie/internal/gui/assets/app.js#L22393) |
-| allow | VariableDeclaration | renderMaskActions | [22398](../../magpie/internal/gui/assets/app.js#L22398) |
-| i | VariableDeclaration | renderMaskActions | [22399](../../magpie/internal/gui/assets/app.js#L22399) |
-| save | VariableDeclaration | renderMaskActions | [22402](../../magpie/internal/gui/assets/app.js#L22402) |
-| v | VariableDeclaration | renderMaskActions.save | [22403](../../magpie/internal/gui/assets/app.js#L22403) |
-| maskTry | VariableDeclaration |  | [22418](../../magpie/internal/gui/assets/app.js#L22418) |
-| renderMaskTry | FunctionDeclaration |  | [22419](../../magpie/internal/gui/assets/app.js#L22419) |
-| box | VariableDeclaration | renderMaskTry | [22420](../../magpie/internal/gui/assets/app.js#L22420) |
-| r | VariableDeclaration | renderMaskTry | [22423](../../magpie/internal/gui/assets/app.js#L22423) |
-| who | VariableDeclaration | renderMaskTry | [22424](../../magpie/internal/gui/assets/app.js#L22424) |
-| area | VariableDeclaration | renderMaskTry | [22427](../../magpie/internal/gui/assets/app.js#L22427) |
-| out | VariableDeclaration | renderMaskTry | [22433](../../magpie/internal/gui/assets/app.js#L22433) |
-| maskTryRun | FunctionDeclaration |  | [22445](../../magpie/internal/gui/assets/app.js#L22445) |
-| seq | VariableDeclaration | maskTryRun | [22446](../../magpie/internal/gui/assets/app.js#L22446) |
-| text | VariableDeclaration | maskTryRun | [22446](../../magpie/internal/gui/assets/app.js#L22446) |
-| maskTryDraw | FunctionDeclaration |  | [22454](../../magpie/internal/gui/assets/app.js#L22454) |
-| res | VariableDeclaration | maskTryDraw | [22456](../../magpie/internal/gui/assets/app.js#L22456) |
-| hits | VariableDeclaration | maskTryDraw | [22459](../../magpie/internal/gui/assets/app.js#L22459) |
-| info | VariableDeclaration | maskTryDraw | [22460](../../magpie/internal/gui/assets/app.js#L22460) |
-| head | VariableDeclaration | maskTryDraw | [22461](../../magpie/internal/gui/assets/app.js#L22461) |
-| text | VariableDeclaration | maskTryDraw | [22467](../../magpie/internal/gui/assets/app.js#L22467) |
-| at | VariableDeclaration | maskTryDraw | [22468](../../magpie/internal/gui/assets/app.js#L22468) |
-| m | VariableDeclaration | maskTryDraw | [22469](../../magpie/internal/gui/assets/app.js#L22469) |
-| h | VariableDeclaration | maskTryDraw | [22471](../../magpie/internal/gui/assets/app.js#L22471) |
-| kind | VariableDeclaration | maskTryDraw | [22472](../../magpie/internal/gui/assets/app.js#L22472) |
-| mark | VariableDeclaration | maskTryDraw | [22473](../../magpie/internal/gui/assets/app.js#L22473) |
-| seen | VariableDeclaration | maskTryDraw | [22483](../../magpie/internal/gui/assets/app.js#L22483) |
-| list | VariableDeclaration | maskTryDraw | [22483](../../magpie/internal/gui/assets/app.js#L22483) |
-| h | VariableDeclaration | maskTryDraw | [22484](../../magpie/internal/gui/assets/app.js#L22484) |
-| line | VariableDeclaration | maskTryDraw | [22487](../../magpie/internal/gui/assets/app.js#L22487) |
-| act | VariableDeclaration | maskTryDraw | [22488](../../magpie/internal/gui/assets/app.js#L22488) |
-| ruleEdit | VariableDeclaration |  | [22503](../../magpie/internal/gui/assets/app.js#L22503) |
-| editRedactRule | FunctionDeclaration |  | [22504](../../magpie/internal/gui/assets/app.js#L22504) |
-| d | VariableDeclaration | editRedactRule | [22505](../../magpie/internal/gui/assets/app.js#L22505) |
+| r | VariableDeclaration | maskActKinds | [22198](../../magpie/internal/gui/assets/app.js#L22198) |
+| k | VariableDeclaration | maskActKinds | [22201](../../magpie/internal/gui/assets/app.js#L22201) |
+| k | VariableDeclaration | maskActKinds | [22203](../../magpie/internal/gui/assets/app.js#L22203) |
+| renderMaskActions | FunctionDeclaration |  | [22206](../../magpie/internal/gui/assets/app.js#L22206) |
+| box | VariableDeclaration | renderMaskActions | [22207](../../magpie/internal/gui/assets/app.js#L22207) |
+| acts | VariableDeclaration | renderMaskActions | [22210](../../magpie/internal/gui/assets/app.js#L22210) |
+| set | VariableDeclaration | renderMaskActions | [22211](../../magpie/internal/gui/assets/app.js#L22211) |
+| row | VariableDeclaration | renderMaskActions | [22214](../../magpie/internal/gui/assets/app.js#L22214) |
+| r | VariableDeclaration | renderMaskActions.row | [22215](../../magpie/internal/gui/assets/app.js#L22215) |
+| who | VariableDeclaration | renderMaskActions.row | [22216](../../magpie/internal/gui/assets/app.js#L22216) |
+| val | VariableDeclaration | renderMaskActions.row | [22216](../../magpie/internal/gui/assets/app.js#L22216) |
+| { first, rest } | VariableDeclaration | renderMaskActions | [22223](../../magpie/internal/gui/assets/app.js#L22223) |
+| first | BindingElement | renderMaskActions.{ first, rest } | [22223](../../magpie/internal/gui/assets/app.js#L22223) |
+| rest | BindingElement | renderMaskActions.{ first, rest } | [22223](../../magpie/internal/gui/assets/app.js#L22223) |
+| k | VariableDeclaration | renderMaskActions | [22227](../../magpie/internal/gui/assets/app.js#L22227) |
+| now | VariableDeclaration | renderMaskActions | [22228](../../magpie/internal/gui/assets/app.js#L22228) |
+| r | VariableDeclaration | renderMaskActions | [22229](../../magpie/internal/gui/assets/app.js#L22229) |
+| next | VariableDeclaration | renderMaskActions.r | [22231](../../magpie/internal/gui/assets/app.js#L22231) |
+| more | VariableDeclaration | renderMaskActions | [22241](../../magpie/internal/gui/assets/app.js#L22241) |
+| allow | VariableDeclaration | renderMaskActions | [22246](../../magpie/internal/gui/assets/app.js#L22246) |
+| i | VariableDeclaration | renderMaskActions | [22247](../../magpie/internal/gui/assets/app.js#L22247) |
+| save | VariableDeclaration | renderMaskActions | [22250](../../magpie/internal/gui/assets/app.js#L22250) |
+| v | VariableDeclaration | renderMaskActions.save | [22251](../../magpie/internal/gui/assets/app.js#L22251) |
+| maskTry | VariableDeclaration |  | [22266](../../magpie/internal/gui/assets/app.js#L22266) |
+| renderMaskTry | FunctionDeclaration |  | [22267](../../magpie/internal/gui/assets/app.js#L22267) |
+| box | VariableDeclaration | renderMaskTry | [22268](../../magpie/internal/gui/assets/app.js#L22268) |
+| r | VariableDeclaration | renderMaskTry | [22271](../../magpie/internal/gui/assets/app.js#L22271) |
+| who | VariableDeclaration | renderMaskTry | [22272](../../magpie/internal/gui/assets/app.js#L22272) |
+| area | VariableDeclaration | renderMaskTry | [22275](../../magpie/internal/gui/assets/app.js#L22275) |
+| out | VariableDeclaration | renderMaskTry | [22281](../../magpie/internal/gui/assets/app.js#L22281) |
+| maskTryRun | FunctionDeclaration |  | [22293](../../magpie/internal/gui/assets/app.js#L22293) |
+| seq | VariableDeclaration | maskTryRun | [22294](../../magpie/internal/gui/assets/app.js#L22294) |
+| text | VariableDeclaration | maskTryRun | [22294](../../magpie/internal/gui/assets/app.js#L22294) |
+| maskTryDraw | FunctionDeclaration |  | [22302](../../magpie/internal/gui/assets/app.js#L22302) |
+| res | VariableDeclaration | maskTryDraw | [22304](../../magpie/internal/gui/assets/app.js#L22304) |
+| hits | VariableDeclaration | maskTryDraw | [22307](../../magpie/internal/gui/assets/app.js#L22307) |
+| info | VariableDeclaration | maskTryDraw | [22308](../../magpie/internal/gui/assets/app.js#L22308) |
+| head | VariableDeclaration | maskTryDraw | [22309](../../magpie/internal/gui/assets/app.js#L22309) |
+| text | VariableDeclaration | maskTryDraw | [22315](../../magpie/internal/gui/assets/app.js#L22315) |
+| at | VariableDeclaration | maskTryDraw | [22316](../../magpie/internal/gui/assets/app.js#L22316) |
+| m | VariableDeclaration | maskTryDraw | [22317](../../magpie/internal/gui/assets/app.js#L22317) |
+| h | VariableDeclaration | maskTryDraw | [22319](../../magpie/internal/gui/assets/app.js#L22319) |
+| kind | VariableDeclaration | maskTryDraw | [22320](../../magpie/internal/gui/assets/app.js#L22320) |
+| mark | VariableDeclaration | maskTryDraw | [22321](../../magpie/internal/gui/assets/app.js#L22321) |
+| seen | VariableDeclaration | maskTryDraw | [22331](../../magpie/internal/gui/assets/app.js#L22331) |
+| list | VariableDeclaration | maskTryDraw | [22331](../../magpie/internal/gui/assets/app.js#L22331) |
+| h | VariableDeclaration | maskTryDraw | [22332](../../magpie/internal/gui/assets/app.js#L22332) |
+| line | VariableDeclaration | maskTryDraw | [22335](../../magpie/internal/gui/assets/app.js#L22335) |
+| act | VariableDeclaration | maskTryDraw | [22336](../../magpie/internal/gui/assets/app.js#L22336) |
+| ruleEdit | VariableDeclaration |  | [22351](../../magpie/internal/gui/assets/app.js#L22351) |
+| editRedactRule | FunctionDeclaration |  | [22352](../../magpie/internal/gui/assets/app.js#L22352) |
+| d | VariableDeclaration | editRedactRule | [22353](../../magpie/internal/gui/assets/app.js#L22353) |
+| kind | VariableDeclaration | editRedactRule | [22354](../../magpie/internal/gui/assets/app.js#L22354) |
+| match | VariableDeclaration | editRedactRule | [22355](../../magpie/internal/gui/assets/app.js#L22355) |
+| by | VariableDeclaration | editRedactRule | [22360](../../magpie/internal/gui/assets/app.js#L22360) |
+| save | VariableDeclaration | editRedactRule | [22365](../../magpie/internal/gui/assets/app.js#L22365) |
+| cancel | VariableDeclaration | editRedactRule | [22366](../../magpie/internal/gui/assets/app.js#L22366) |
+| rule | VariableDeclaration | editRedactRule | [22371](../../magpie/internal/gui/assets/app.js#L22371) |
+| i | VariableDeclaration | editRedactRule | [22377](../../magpie/internal/gui/assets/app.js#L22377) |
+| tail | VariableDeclaration | editRedactRule | [22387](../../magpie/internal/gui/assets/app.js#L22387) |
+| head | VariableDeclaration | editRedactRule | [22391](../../magpie/internal/gui/assets/app.js#L22391) |
+| portDraft | VariableDeclaration |  | [22403](../../magpie/internal/gui/assets/app.js#L22403) |
+| portSays | FunctionDeclaration |  | [22406](../../magpie/internal/gui/assets/app.js#L22406) |
+| x | VariableDeclaration | portSays | [22407](../../magpie/internal/gui/assets/app.js#L22407) |
+| renderPort | FunctionDeclaration |  | [22413](../../magpie/internal/gui/assets/app.js#L22413) |
+| box | VariableDeclaration | renderPort | [22414](../../magpie/internal/gui/assets/app.js#L22414) |
+| r | VariableDeclaration | renderPort | [22415](../../magpie/internal/gui/assets/app.js#L22415) |
+| who | VariableDeclaration | renderPort | [22416](../../magpie/internal/gui/assets/app.js#L22416) |
+| sub | VariableDeclaration | renderPort | [22418](../../magpie/internal/gui/assets/app.js#L22418) |
+| d | VariableDeclaration | renderPort | [22419](../../magpie/internal/gui/assets/app.js#L22419) |
+| now | VariableDeclaration | renderPort | [22420](../../magpie/internal/gui/assets/app.js#L22420) |
+| field | VariableDeclaration | renderPort | [22421](../../magpie/internal/gui/assets/app.js#L22421) |
+| save | VariableDeclaration | renderPort | [22425](../../magpie/internal/gui/assets/app.js#L22425) |
+| p | VariableDeclaration | renderPort | [22436](../../magpie/internal/gui/assets/app.js#L22436) |
+| n | VariableDeclaration | renderPort | [22446](../../magpie/internal/gui/assets/app.js#L22446) |
+| val | VariableDeclaration | renderPort | [22455](../../magpie/internal/gui/assets/app.js#L22455) |
+| renderBareIds | FunctionDeclaration |  | [22465](../../magpie/internal/gui/assets/app.js#L22465) |
+| corsDraft | VariableDeclaration |  | [22475](../../magpie/internal/gui/assets/app.js#L22475) |
+| corsSays | FunctionDeclaration |  | [22478](../../magpie/internal/gui/assets/app.js#L22478) |
+| renderCORS | FunctionDeclaration |  | [22483](../../magpie/internal/gui/assets/app.js#L22483) |
+| box | VariableDeclaration | renderCORS | [22484](../../magpie/internal/gui/assets/app.js#L22484) |
+| origins | VariableDeclaration | renderCORS | [22486](../../magpie/internal/gui/assets/app.js#L22486) |
+| d | VariableDeclaration | renderCORS | [22487](../../magpie/internal/gui/assets/app.js#L22487) |
+| set | VariableDeclaration | renderCORS | [22488](../../magpie/internal/gui/assets/app.js#L22488) |
+| field | VariableDeclaration | renderCORS | [22491](../../magpie/internal/gui/assets/app.js#L22491) |
+| add | VariableDeclaration | renderCORS | [22496](../../magpie/internal/gui/assets/app.js#L22496) |
+| r | VariableDeclaration | renderCORS | [22504](../../magpie/internal/gui/assets/app.js#L22504) |
+| who | VariableDeclaration | renderCORS | [22505](../../magpie/internal/gui/assets/app.js#L22505) |
+| val | VariableDeclaration | renderCORS | [22508](../../magpie/internal/gui/assets/app.js#L22508) |
+| o | VariableDeclaration | renderCORS | [22512](../../magpie/internal/gui/assets/app.js#L22512) |
+| row | VariableDeclaration | renderCORS | [22513](../../magpie/internal/gui/assets/app.js#L22513) |
+| w | VariableDeclaration | renderCORS | [22514](../../magpie/internal/gui/assets/app.js#L22514) |
+| x | VariableDeclaration | renderCORS | [22516](../../magpie/internal/gui/assets/app.js#L22516) |
+| v | VariableDeclaration | renderCORS | [22518](../../magpie/internal/gui/assets/app.js#L22518) |
+| allowDraft | VariableDeclaration |  | [22535](../../magpie/internal/gui/assets/app.js#L22535) |
+| allowSays | FunctionDeclaration |  | [22536](../../magpie/internal/gui/assets/app.js#L22536) |
+| out | VariableDeclaration | allowSays | [22538](../../magpie/internal/gui/assets/app.js#L22538) |
+| renderAllow | FunctionDeclaration |  | [22543](../../magpie/internal/gui/assets/app.js#L22543) |
+| box | VariableDeclaration | renderAllow | [22544](../../magpie/internal/gui/assets/app.js#L22544) |
+| env | VariableDeclaration | renderAllow | [22546](../../magpie/internal/gui/assets/app.js#L22546) |

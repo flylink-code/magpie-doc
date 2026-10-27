@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_backend.go) · page 1/2
 
-Source SHA-256: 5993b0d802b259ecaef6c5abb1c927e652170e4b56d2162ad89b9e46d0e9b003
+Source SHA-256: c055c655bacb941c386c2147123789d791a99af680f05afe66267941e3b1a86c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,96 +15,96 @@ Source SHA-256: 5993b0d802b259ecaef6c5abb1c927e652170e4b56d2162ad89b9e46d0e9b003
 | codexCompactPrompt | const_spec |  | [51](../../magpie/internal/gateway/codex_backend.go#L51) |
 | codexSummaryPrefix | const_spec |  | [61](../../magpie/internal/gateway/codex_backend.go#L61) |
 | codexBackend | method_declaration | *Server | [63](../../magpie/internal/gateway/codex_backend.go#L63) |
-| sealedTaskError | function_declaration |  | [280](../../magpie/internal/gateway/codex_backend.go#L280) |
-| sealedWayOut | function_declaration |  | [296](../../magpie/internal/gateway/codex_backend.go#L296) |
-| sealedTaskItself | const_spec |  | [309](../../magpie/internal/gateway/codex_backend.go#L309) |
-| canSeal | function_declaration |  | [316](../../magpie/internal/gateway/codex_backend.go#L316) |
-| sealedReader | method_declaration | *Server | [339](../../magpie/internal/gateway/codex_backend.go#L339) |
-| sealedReaders | method_declaration | *Server | [348](../../magpie/internal/gateway/codex_backend.go#L348) |
-| leadProvider | function_declaration |  | [379](../../magpie/internal/gateway/codex_backend.go#L379) |
-| sealerKeep | const_spec |  | [404](../../magpie/internal/gateway/codex_backend.go#L404) |
-| loggedAnswer | struct_type |  | [409](../../magpie/internal/gateway/codex_backend.go#L409) |
-| provider | field_declaration | loggedAnswer | [410](../../magpie/internal/gateway/codex_backend.go#L410) |
-| who | field_declaration | loggedAnswer | [410](../../magpie/internal/gateway/codex_backend.go#L410) |
-| at | field_declaration | loggedAnswer | [411](../../magpie/internal/gateway/codex_backend.go#L411) |
-| loggedAnswers | function_declaration |  | [428](../../magpie/internal/gateway/codex_backend.go#L428) |
-| loggedAnswerers | function_declaration |  | [467](../../magpie/internal/gateway/codex_backend.go#L467) |
-| leadFirst | function_declaration |  | [480](../../magpie/internal/gateway/codex_backend.go#L480) |
-| hasSealedAgentMessage | function_declaration |  | [527](../../magpie/internal/gateway/codex_backend.go#L527) |
-| Type | field_declaration | hasSealedAgentMessage | [538](../../magpie/internal/gateway/codex_backend.go#L538) |
-| Content | field_declaration | hasSealedAgentMessage | [539](../../magpie/internal/gateway/codex_backend.go#L539) |
-| Type | field_declaration | hasSealedAgentMessage | [546](../../magpie/internal/gateway/codex_backend.go#L546) |
-| EncryptedContent | field_declaration | hasSealedAgentMessage | [547](../../magpie/internal/gateway/codex_backend.go#L547) |
-| withoutSealedMessages | function_declaration |  | [568](../../magpie/internal/gateway/codex_backend.go#L568) |
-| compactSigninHeld | function_declaration |  | [649](../../magpie/internal/gateway/codex_backend.go#L649) |
-| compactHeldError | function_declaration |  | [671](../../magpie/internal/gateway/codex_backend.go#L671) |
-| sealedCompactHeldError | function_declaration |  | [678](../../magpie/internal/gateway/codex_backend.go#L678) |
-| compactOn | function_declaration |  | [693](../../magpie/internal/gateway/codex_backend.go#L693) |
-| codexAccounts | function_declaration |  | [728](../../magpie/internal/gateway/codex_backend.go#L728) |
-| codexSealedFor | function_declaration |  | [768](../../magpie/internal/gateway/codex_backend.go#L768) |
-| sealedCompact | function_declaration |  | [796](../../magpie/internal/gateway/codex_backend.go#L796) |
-| withModel | function_declaration |  | [846](../../magpie/internal/gateway/codex_backend.go#L846) |
-| marshalJSON | function_declaration |  | [861](../../magpie/internal/gateway/codex_backend.go#L861) |
-| relayOnCredits | function_declaration |  | [873](../../magpie/internal/gateway/codex_backend.go#L873) |
-| codexUpstream | method_declaration | *Server | [885](../../magpie/internal/gateway/codex_backend.go#L885) |
-| codexUpstreamOn | method_declaration | *Server | [891](../../magpie/internal/gateway/codex_backend.go#L891) |
-| codexBusy | function_declaration |  | [1389](../../magpie/internal/gateway/codex_backend.go#L1389) |
-| codexFallsBack | method_declaration | *Server | [1400](../../magpie/internal/gateway/codex_backend.go#L1400) |
-| codexFallBack | method_declaration | *Server | [1422](../../magpie/internal/gateway/codex_backend.go#L1422) |
-| handedOnKey | struct_type |  | [1430](../../magpie/internal/gateway/codex_backend.go#L1430) |
-| handedOnOf | function_declaration |  | [1434](../../magpie/internal/gateway/codex_backend.go#L1434) |
-| fallbacksOnly | function_declaration |  | [1442](../../magpie/internal/gateway/codex_backend.go#L1442) |
-| codexServed | function_declaration |  | [1475](../../magpie/internal/gateway/codex_backend.go#L1475) |
-| unreadableItem | var_spec |  | [1497](../../magpie/internal/gateway/codex_backend.go#L1497) |
-| withoutUnreadable | function_declaration |  | [1501](../../magpie/internal/gateway/codex_backend.go#L1501) |
-| withoutItem | function_declaration |  | [1517](../../magpie/internal/gateway/codex_backend.go#L1517) |
-| ID | field_declaration | withoutItem | [1529](../../magpie/internal/gateway/codex_backend.go#L1529) |
-| codexKeyRefused | function_declaration |  | [1546](../../magpie/internal/gateway/codex_backend.go#L1546) |
-| Error | field_declaration | codexKeyRefused | [1548](../../magpie/internal/gateway/codex_backend.go#L1548) |
-| Message | field_declaration | codexKeyRefused | [1549](../../magpie/internal/gateway/codex_backend.go#L1549) |
-| codexUnreached | function_declaration |  | [1566](../../magpie/internal/gateway/codex_backend.go#L1566) |
-| codexFailedEmpty | function_declaration |  | [1576](../../magpie/internal/gateway/codex_backend.go#L1576) |
-| codexWho | function_declaration |  | [1584](../../magpie/internal/gateway/codex_backend.go#L1584) |
-| codexSaidNothing | function_declaration |  | [1600](../../magpie/internal/gateway/codex_backend.go#L1600) |
-| apiKey | function_declaration |  | [1629](../../magpie/internal/gateway/codex_backend.go#L1629) |
-| hopHeader | function_declaration |  | [1633](../../magpie/internal/gateway/codex_backend.go#L1633) |
-| codexHeader | function_declaration |  | [1651](../../magpie/internal/gateway/codex_backend.go#L1651) |
-| callKind | function_declaration |  | [1674](../../magpie/internal/gateway/codex_backend.go#L1674) |
-| threadSource | function_declaration |  | [1708](../../magpie/internal/gateway/codex_backend.go#L1708) |
-| Source | field_declaration | threadSource | [1713](../../magpie/internal/gateway/codex_backend.go#L1713) |
-| copyHeaders | function_declaration |  | [1726](../../magpie/internal/gateway/codex_backend.go#L1726) |
-| codexModelsWait | var_spec |  | [1740](../../magpie/internal/gateway/codex_backend.go#L1740) |
-| codexModels | method_declaration | *Server | [1745](../../magpie/internal/gateway/codex_backend.go#L1745) |
-| Models | field_declaration | *Server.codexModels | [1759](../../magpie/internal/gateway/codex_backend.go#L1759) |
-| modelsEtag | function_declaration |  | [1900](../../magpie/internal/gateway/codex_backend.go#L1900) |
-| CodexOwnOnly | var_spec |  | [1910](../../magpie/internal/gateway/codex_backend.go#L1910) |
-| codexOwnOnly | function_declaration |  | [1912](../../magpie/internal/gateway/codex_backend.go#L1912) |
-| codexListTag | function_declaration |  | [1915](../../magpie/internal/gateway/codex_backend.go#L1915) |
-| codexInput | function_declaration |  | [1925](../../magpie/internal/gateway/codex_backend.go#L1925) |
-| codexInputAs | function_declaration |  | [1932](../../magpie/internal/gateway/codex_backend.go#L1932) |
-| codexInputItemChanges | function_declaration |  | [2034](../../magpie/internal/gateway/codex_backend.go#L2034) |
-| turnMetadataHeader | const_spec |  | [2064](../../magpie/internal/gateway/codex_backend.go#L2064) |
-| localCompactionTurn | function_declaration |  | [2076](../../magpie/internal/gateway/codex_backend.go#L2076) |
-| Compaction | field_declaration | localCompactionTurn | [2081](../../magpie/internal/gateway/codex_backend.go#L2081) |
-| Implementation | field_declaration | localCompactionTurn | [2082](../../magpie/internal/gateway/codex_backend.go#L2082) |
-| localCompactionMeta | function_declaration |  | [2102](../../magpie/internal/gateway/codex_backend.go#L2102) |
-| bareReasoningRefused | function_declaration |  | [2122](../../magpie/internal/gateway/codex_backend.go#L2122) |
-| refusesInput | function_declaration |  | [2128](../../magpie/internal/gateway/codex_backend.go#L2128) |
-| Error | field_declaration | refusesInput | [2133](../../magpie/internal/gateway/codex_backend.go#L2133) |
-| Param | field_declaration | refusesInput | [2134](../../magpie/internal/gateway/codex_backend.go#L2134) |
-| withoutBareReasoning | function_declaration |  | [2152](../../magpie/internal/gateway/codex_backend.go#L2152) |
-| Type | field_declaration | withoutBareReasoning | [2174](../../magpie/internal/gateway/codex_backend.go#L2174) |
-| Enc | field_declaration | withoutBareReasoning | [2175](../../magpie/internal/gateway/codex_backend.go#L2175) |
-| reasoningLook | struct_type |  | [2197](../../magpie/internal/gateway/codex_backend.go#L2197) |
-| reasoning | field_declaration | reasoningLook | [2198](../../magpie/internal/gateway/codex_backend.go#L2198) |
-| sealed | field_declaration | reasoningLook | [2198](../../magpie/internal/gateway/codex_backend.go#L2198) |
-| text | field_declaration | reasoningLook | [2198](../../magpie/internal/gateway/codex_backend.go#L2198) |
-| typeOK | field_declaration | reasoningLook | [2199](../../magpie/internal/gateway/codex_backend.go#L2199) |
-| encOK | field_declaration | reasoningLook | [2199](../../magpie/internal/gateway/codex_backend.go#L2199) |
-| contentOK | field_declaration | reasoningLook | [2199](../../magpie/internal/gateway/codex_backend.go#L2199) |
-| reasoningOf | function_declaration |  | [2207](../../magpie/internal/gateway/codex_backend.go#L2207) |
-| Type | field_declaration | reasoningOf | [2257](../../magpie/internal/gateway/codex_backend.go#L2257) |
-| Enc | field_declaration | reasoningOf | [2258](../../magpie/internal/gateway/codex_backend.go#L2258) |
-| Type | field_declaration | reasoningOf | [2261](../../magpie/internal/gateway/codex_backend.go#L2261) |
-| Content | field_declaration | reasoningOf | [2262](../../magpie/internal/gateway/codex_backend.go#L2262) |
-| Type | field_declaration | reasoningOf | [2266](../../magpie/internal/gateway/codex_backend.go#L2266) |
+| sealedTaskError | function_declaration |  | [285](../../magpie/internal/gateway/codex_backend.go#L285) |
+| sealedWayOut | function_declaration |  | [301](../../magpie/internal/gateway/codex_backend.go#L301) |
+| sealedTaskItself | const_spec |  | [314](../../magpie/internal/gateway/codex_backend.go#L314) |
+| canSeal | function_declaration |  | [321](../../magpie/internal/gateway/codex_backend.go#L321) |
+| sealedReader | method_declaration | *Server | [344](../../magpie/internal/gateway/codex_backend.go#L344) |
+| sealedReaders | method_declaration | *Server | [353](../../magpie/internal/gateway/codex_backend.go#L353) |
+| leadProvider | function_declaration |  | [384](../../magpie/internal/gateway/codex_backend.go#L384) |
+| sealerKeep | const_spec |  | [409](../../magpie/internal/gateway/codex_backend.go#L409) |
+| loggedAnswer | struct_type |  | [414](../../magpie/internal/gateway/codex_backend.go#L414) |
+| provider | field_declaration | loggedAnswer | [415](../../magpie/internal/gateway/codex_backend.go#L415) |
+| who | field_declaration | loggedAnswer | [415](../../magpie/internal/gateway/codex_backend.go#L415) |
+| at | field_declaration | loggedAnswer | [416](../../magpie/internal/gateway/codex_backend.go#L416) |
+| loggedAnswers | function_declaration |  | [433](../../magpie/internal/gateway/codex_backend.go#L433) |
+| loggedAnswerers | function_declaration |  | [472](../../magpie/internal/gateway/codex_backend.go#L472) |
+| leadFirst | function_declaration |  | [485](../../magpie/internal/gateway/codex_backend.go#L485) |
+| hasSealedAgentMessage | function_declaration |  | [532](../../magpie/internal/gateway/codex_backend.go#L532) |
+| Type | field_declaration | hasSealedAgentMessage | [543](../../magpie/internal/gateway/codex_backend.go#L543) |
+| Content | field_declaration | hasSealedAgentMessage | [544](../../magpie/internal/gateway/codex_backend.go#L544) |
+| Type | field_declaration | hasSealedAgentMessage | [551](../../magpie/internal/gateway/codex_backend.go#L551) |
+| EncryptedContent | field_declaration | hasSealedAgentMessage | [552](../../magpie/internal/gateway/codex_backend.go#L552) |
+| withoutSealedMessages | function_declaration |  | [573](../../magpie/internal/gateway/codex_backend.go#L573) |
+| compactSigninHeld | function_declaration |  | [654](../../magpie/internal/gateway/codex_backend.go#L654) |
+| compactHeldError | function_declaration |  | [676](../../magpie/internal/gateway/codex_backend.go#L676) |
+| sealedCompactHeldError | function_declaration |  | [683](../../magpie/internal/gateway/codex_backend.go#L683) |
+| compactOn | function_declaration |  | [698](../../magpie/internal/gateway/codex_backend.go#L698) |
+| codexAccounts | function_declaration |  | [733](../../magpie/internal/gateway/codex_backend.go#L733) |
+| codexSealedFor | function_declaration |  | [773](../../magpie/internal/gateway/codex_backend.go#L773) |
+| sealedCompact | function_declaration |  | [801](../../magpie/internal/gateway/codex_backend.go#L801) |
+| withModel | function_declaration |  | [851](../../magpie/internal/gateway/codex_backend.go#L851) |
+| marshalJSON | function_declaration |  | [866](../../magpie/internal/gateway/codex_backend.go#L866) |
+| relayOnCredits | function_declaration |  | [878](../../magpie/internal/gateway/codex_backend.go#L878) |
+| codexUpstream | method_declaration | *Server | [890](../../magpie/internal/gateway/codex_backend.go#L890) |
+| codexUpstreamOn | method_declaration | *Server | [896](../../magpie/internal/gateway/codex_backend.go#L896) |
+| codexBusy | function_declaration |  | [1394](../../magpie/internal/gateway/codex_backend.go#L1394) |
+| codexFallsBack | method_declaration | *Server | [1405](../../magpie/internal/gateway/codex_backend.go#L1405) |
+| codexFallBack | method_declaration | *Server | [1427](../../magpie/internal/gateway/codex_backend.go#L1427) |
+| handedOnKey | struct_type |  | [1435](../../magpie/internal/gateway/codex_backend.go#L1435) |
+| handedOnOf | function_declaration |  | [1439](../../magpie/internal/gateway/codex_backend.go#L1439) |
+| fallbacksOnly | function_declaration |  | [1447](../../magpie/internal/gateway/codex_backend.go#L1447) |
+| codexServed | function_declaration |  | [1480](../../magpie/internal/gateway/codex_backend.go#L1480) |
+| unreadableItem | var_spec |  | [1502](../../magpie/internal/gateway/codex_backend.go#L1502) |
+| withoutUnreadable | function_declaration |  | [1506](../../magpie/internal/gateway/codex_backend.go#L1506) |
+| withoutItem | function_declaration |  | [1522](../../magpie/internal/gateway/codex_backend.go#L1522) |
+| ID | field_declaration | withoutItem | [1534](../../magpie/internal/gateway/codex_backend.go#L1534) |
+| codexKeyRefused | function_declaration |  | [1551](../../magpie/internal/gateway/codex_backend.go#L1551) |
+| Error | field_declaration | codexKeyRefused | [1553](../../magpie/internal/gateway/codex_backend.go#L1553) |
+| Message | field_declaration | codexKeyRefused | [1554](../../magpie/internal/gateway/codex_backend.go#L1554) |
+| codexUnreached | function_declaration |  | [1571](../../magpie/internal/gateway/codex_backend.go#L1571) |
+| codexFailedEmpty | function_declaration |  | [1581](../../magpie/internal/gateway/codex_backend.go#L1581) |
+| codexWho | function_declaration |  | [1589](../../magpie/internal/gateway/codex_backend.go#L1589) |
+| codexSaidNothing | function_declaration |  | [1605](../../magpie/internal/gateway/codex_backend.go#L1605) |
+| apiKey | function_declaration |  | [1632](../../magpie/internal/gateway/codex_backend.go#L1632) |
+| hopHeader | function_declaration |  | [1636](../../magpie/internal/gateway/codex_backend.go#L1636) |
+| codexHeader | function_declaration |  | [1654](../../magpie/internal/gateway/codex_backend.go#L1654) |
+| callKind | function_declaration |  | [1677](../../magpie/internal/gateway/codex_backend.go#L1677) |
+| threadSource | function_declaration |  | [1711](../../magpie/internal/gateway/codex_backend.go#L1711) |
+| Source | field_declaration | threadSource | [1716](../../magpie/internal/gateway/codex_backend.go#L1716) |
+| copyHeaders | function_declaration |  | [1729](../../magpie/internal/gateway/codex_backend.go#L1729) |
+| codexModelsWait | var_spec |  | [1743](../../magpie/internal/gateway/codex_backend.go#L1743) |
+| codexListFor | var_spec |  | [1748](../../magpie/internal/gateway/codex_backend.go#L1748) |
+| codexListFetch | const_spec |  | [1752](../../magpie/internal/gateway/codex_backend.go#L1752) |
+| codexLists | var_spec |  | [1760](../../magpie/internal/gateway/codex_backend.go#L1760) |
+| codexListed | struct_type |  | [1767](../../magpie/internal/gateway/codex_backend.go#L1767) |
+| body | field_declaration | codexListed | [1768](../../magpie/internal/gateway/codex_backend.go#L1768) |
+| etag | field_declaration | codexListed | [1769](../../magpie/internal/gateway/codex_backend.go#L1769) |
+| got | field_declaration | codexListed | [1770](../../magpie/internal/gateway/codex_backend.go#L1770) |
+| deny | field_declaration | codexListed | [1772](../../magpie/internal/gateway/codex_backend.go#L1772) |
+| denyBody | field_declaration | codexListed | [1773](../../magpie/internal/gateway/codex_backend.go#L1773) |
+| asked | field_declaration | codexListed | [1775](../../magpie/internal/gateway/codex_backend.go#L1775) |
+| codexListKey | function_declaration |  | [1780](../../magpie/internal/gateway/codex_backend.go#L1780) |
+| codexBackendList | method_declaration | *Server | [1793](../../magpie/internal/gateway/codex_backend.go#L1793) |
+| askCodexList | method_declaration | *Server | [1829](../../magpie/internal/gateway/codex_backend.go#L1829) |
+| Models | field_declaration | *Server.askCodexList | [1869](../../magpie/internal/gateway/codex_backend.go#L1869) |
+| codexModels | method_declaration | *Server | [1884](../../magpie/internal/gateway/codex_backend.go#L1884) |
+| Models | field_declaration | *Server.codexModels | [1897](../../magpie/internal/gateway/codex_backend.go#L1897) |
+| modelsEtag | function_declaration |  | [2025](../../magpie/internal/gateway/codex_backend.go#L2025) |
+| CodexOwnOnly | var_spec |  | [2035](../../magpie/internal/gateway/codex_backend.go#L2035) |
+| codexOwnOnly | function_declaration |  | [2037](../../magpie/internal/gateway/codex_backend.go#L2037) |
+| codexListTag | function_declaration |  | [2040](../../magpie/internal/gateway/codex_backend.go#L2040) |
+| codexInput | function_declaration |  | [2050](../../magpie/internal/gateway/codex_backend.go#L2050) |
+| codexInputAs | function_declaration |  | [2057](../../magpie/internal/gateway/codex_backend.go#L2057) |
+| codexInputItemChanges | function_declaration |  | [2159](../../magpie/internal/gateway/codex_backend.go#L2159) |
+| turnMetadataHeader | const_spec |  | [2189](../../magpie/internal/gateway/codex_backend.go#L2189) |
+| localCompactionTurn | function_declaration |  | [2201](../../magpie/internal/gateway/codex_backend.go#L2201) |
+| Compaction | field_declaration | localCompactionTurn | [2206](../../magpie/internal/gateway/codex_backend.go#L2206) |
+| Implementation | field_declaration | localCompactionTurn | [2207](../../magpie/internal/gateway/codex_backend.go#L2207) |
+| localCompactionMeta | function_declaration |  | [2227](../../magpie/internal/gateway/codex_backend.go#L2227) |
+| bareReasoningRefused | function_declaration |  | [2247](../../magpie/internal/gateway/codex_backend.go#L2247) |
+| refusesInput | function_declaration |  | [2253](../../magpie/internal/gateway/codex_backend.go#L2253) |
+| Error | field_declaration | refusesInput | [2258](../../magpie/internal/gateway/codex_backend.go#L2258) |
+| Param | field_declaration | refusesInput | [2259](../../magpie/internal/gateway/codex_backend.go#L2259) |
+| withoutBareReasoning | function_declaration |  | [2277](../../magpie/internal/gateway/codex_backend.go#L2277) |
+| Type | field_declaration | withoutBareReasoning | [2299](../../magpie/internal/gateway/codex_backend.go#L2299) |

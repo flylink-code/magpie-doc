@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/whatsnew.go) · page 1/1
 
-Source SHA-256: 60ec7c574f339340c7d26378c99fa8676e294d7cdd7f5e414fc5f1f020aa9376
+Source SHA-256: c459f163ccfe9e8ac8dd881c1f7e9b1292eae806ae76f8eb79822e596e82372d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -37,12 +37,13 @@ Source SHA-256: 60ec7c574f339340c7d26378c99fa8676e294d7cdd7f5e414fc5f1f020aa9376
 | Error | field_declaration | whatsNewJSON | [152](../../magpie/internal/gui/whatsnew.go#L152) |
 | URL | field_declaration | whatsNewJSON | [153](../../magpie/internal/gui/whatsnew.go#L153) |
 | get | method_declaration | *whatsNew | [159](../../magpie/internal/gui/whatsnew.go#L159) |
-| before | method_declaration | *whatsNew | [203](../../magpie/internal/gui/whatsnew.go#L203) |
-| backCount | function_declaration |  | [239](../../magpie/internal/gui/whatsnew.go#L239) |
-| withWaiting | function_declaration |  | [254](../../magpie/internal/gui/whatsnew.go#L254) |
-| seen | method_declaration | *whatsNew | [281](../../magpie/internal/gui/whatsnew.go#L281) |
-| fetchNotes | function_declaration |  | [292](../../magpie/internal/gui/whatsnew.go#L292) |
-| pageLang | function_declaration |  | [316](../../magpie/internal/gui/whatsnew.go#L316) |
-| askedLang | function_declaration |  | [325](../../magpie/internal/gui/whatsnew.go#L325) |
-| whatsNewRoutes | function_declaration |  | [335](../../magpie/internal/gui/whatsnew.go#L335) |
-| On | field_declaration | whatsNewRoutes | [355](../../magpie/internal/gui/whatsnew.go#L355) |
+| notesKey | function_declaration |  | [201](../../magpie/internal/gui/whatsnew.go#L201) |
+| before | method_declaration | *whatsNew | [214](../../magpie/internal/gui/whatsnew.go#L214) |
+| backCount | function_declaration |  | [250](../../magpie/internal/gui/whatsnew.go#L250) |
+| withWaiting | function_declaration |  | [265](../../magpie/internal/gui/whatsnew.go#L265) |
+| seen | method_declaration | *whatsNew | [292](../../magpie/internal/gui/whatsnew.go#L292) |
+| fetchNotes | function_declaration |  | [303](../../magpie/internal/gui/whatsnew.go#L303) |
+| pageLang | function_declaration |  | [327](../../magpie/internal/gui/whatsnew.go#L327) |
+| askedLang | function_declaration |  | [336](../../magpie/internal/gui/whatsnew.go#L336) |
+| whatsNewRoutes | function_declaration |  | [346](../../magpie/internal/gui/whatsnew.go#L346) |
+| On | field_declaration | whatsNewRoutes | [366](../../magpie/internal/gui/whatsnew.go#L366) |

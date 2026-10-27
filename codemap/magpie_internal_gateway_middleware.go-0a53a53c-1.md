@@ -4,14 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/middleware.go) · page 1/1
 
-Source SHA-256: d547da63302a68032a8b658938d60138e56be71e6202ae3f73260002c8bcc21b
+Source SHA-256: ff5b4894979b2ab80282c95ef31743d7b2ea8c21e85ee68ada65744b02c1fd29
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | serveAgent | method_declaration | *Server | [22](../../magpie/internal/gateway/middleware.go#L22) |
-| triedKey | struct_type |  | [65](../../magpie/internal/gateway/middleware.go#L65) |
-| triedOn | function_declaration |  | [71](../../magpie/internal/gateway/middleware.go#L71) |
-| middlewareWanted | function_declaration |  | [85](../../magpie/internal/gateway/middleware.go#L85) |
-| gatewayHooks | function_declaration |  | [92](../../magpie/internal/gateway/middleware.go#L92) |
-| gatewayQuery | function_declaration |  | [111](../../magpie/internal/gateway/middleware.go#L111) |
-| gatewayOrigin | function_declaration |  | [127](../../magpie/internal/gateway/middleware.go#L127) |
+| triedKey | struct_type |  | [70](../../magpie/internal/gateway/middleware.go#L70) |
+| triedOn | function_declaration |  | [76](../../magpie/internal/gateway/middleware.go#L76) |
+| middlewareWanted | function_declaration |  | [90](../../magpie/internal/gateway/middleware.go#L90) |
+| gatewayHooks | function_declaration |  | [97](../../magpie/internal/gateway/middleware.go#L97) |
+| gatewayQuery | function_declaration |  | [120](../../magpie/internal/gateway/middleware.go#L120) |
+| gatewayOrigin | function_declaration |  | [136](../../magpie/internal/gateway/middleware.go#L136) |

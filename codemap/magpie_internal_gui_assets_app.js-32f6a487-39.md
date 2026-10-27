@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 39/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| at | VariableDeclaration | runsOutText | [14242](../../magpie/internal/gui/assets/app.js#L14242) |
-| accountAction | FunctionDeclaration |  | [14249](../../magpie/internal/gui/assets/app.js#L14249) |
-| key | VariableDeclaration | accountAction | [14250](../../magpie/internal/gui/assets/app.js#L14250) |
-| e | VariableDeclaration | accountAction | [14260](../../magpie/internal/gui/assets/app.js#L14260) |
-| acctModels | VariableDeclaration |  | [14275](../../magpie/internal/gui/assets/app.js#L14275) |
-| accountModelsOf | FunctionDeclaration |  | [14276](../../magpie/internal/gui/assets/app.js#L14276) |
-| accountModelsDraft | FunctionDeclaration |  | [14280](../../magpie/internal/gui/assets/app.js#L14280) |
-| a | VariableDeclaration | accountModelsDraft | [14281](../../magpie/internal/gui/assets/app.js#L14281) |
-| own | VariableDeclaration | accountModelsDraft | [14283](../../magpie/internal/gui/assets/app.js#L14283) |
-| saveAccountModelsDraft | FunctionDeclaration |  | [14287](../../magpie/internal/gui/assets/app.js#L14287) |
-| accountModels | FunctionDeclaration |  | [14293](../../magpie/internal/gui/assets/app.js#L14293) |
-| own | VariableDeclaration | accountModels | [14294](../../magpie/internal/gui/assets/app.js#L14294) |
-| pill | VariableDeclaration | accountModels | [14295](../../magpie/internal/gui/assets/app.js#L14295) |
-| open | VariableDeclaration | accountModels | [14297](../../magpie/internal/gui/assets/app.js#L14297) |
-| box | VariableDeclaration | accountModels | [14302](../../magpie/internal/gui/assets/app.js#L14302) |
-| chips | VariableDeclaration | accountModels | [14303](../../magpie/internal/gui/assets/app.js#L14303) |
-| ids | VariableDeclaration | accountModels | [14305](../../magpie/internal/gui/assets/app.js#L14305) |
-| id | VariableDeclaration | accountModels | [14306](../../magpie/internal/gui/assets/app.js#L14306) |
-| foot | VariableDeclaration | accountModels | [14307](../../magpie/internal/gui/assets/app.js#L14307) |
-| save | VariableDeclaration | accountModels | [14308](../../magpie/internal/gui/assets/app.js#L14308) |
-| post | VariableDeclaration | accountModels | [14309](../../magpie/internal/gui/assets/app.js#L14309) |
-| was | VariableDeclaration | accountModels.post | [14310](../../magpie/internal/gui/assets/app.js#L14310) |
-| draw | VariableDeclaration | accountModels | [14314](../../magpie/internal/gui/assets/app.js#L14314) |
-| tells | VariableDeclaration | accountModels.draw | [14316](../../magpie/internal/gui/assets/app.js#L14316) |
-| id | VariableDeclaration | accountModels.draw | [14317](../../magpie/internal/gui/assets/app.js#L14317) |
-| m | VariableDeclaration | accountModels.draw | [14318](../../magpie/internal/gui/assets/app.js#L14318) |
-| on | VariableDeclaration | accountModels.draw | [14319](../../magpie/internal/gui/assets/app.js#L14319) |
-| c | VariableDeclaration | accountModels.draw | [14320](../../magpie/internal/gui/assets/app.js#L14320) |
-| tell | VariableDeclaration | accountModels.draw | [14322](../../magpie/internal/gui/assets/app.js#L14322) |
-| all | VariableDeclaration | accountModels | [14333](../../magpie/internal/gui/assets/app.js#L14333) |
-| x | VariableDeclaration | accountModels | [14336](../../magpie/internal/gui/assets/app.js#L14336) |
-| keyWeight | FunctionDeclaration |  | [14345](../../magpie/internal/gui/assets/app.js#L14345) |
-| b | VariableDeclaration | keyWeight | [14346](../../magpie/internal/gui/assets/app.js#L14346) |
-| i | VariableDeclaration | keyWeight | [14349](../../magpie/internal/gui/assets/app.js#L14349) |
-| done | VariableDeclaration | keyWeight | [14356](../../magpie/internal/gui/assets/app.js#L14356) |
-| save | VariableDeclaration | keyWeight | [14357](../../magpie/internal/gui/assets/app.js#L14357) |
-| n | VariableDeclaration | keyWeight.save | [14360](../../magpie/internal/gui/assets/app.js#L14360) |
-| addingKey | VariableDeclaration |  | [14375](../../magpie/internal/gui/assets/app.js#L14375) |
-| renderKeyAccounts | FunctionDeclaration |  | [14376](../../magpie/internal/gui/assets/app.js#L14376) |
-| list | VariableDeclaration | renderKeyAccounts | [14377](../../magpie/internal/gui/assets/app.js#L14377) |
-| several | VariableDeclaration | renderKeyAccounts | [14380](../../magpie/internal/gui/assets/app.js#L14380) |
-| weightOf | VariableDeclaration | renderKeyAccounts | [14382](../../magpie/internal/gui/assets/app.js#L14382) |
-| weights | VariableDeclaration | renderKeyAccounts | [14383](../../magpie/internal/gui/assets/app.js#L14383) |
-| fold | VariableDeclaration | renderKeyAccounts | [14386](../../magpie/internal/gui/assets/app.js#L14386) |
-| folds | VariableDeclaration | renderKeyAccounts | [14387](../../magpie/internal/gui/assets/app.js#L14387) |
-| k | VariableDeclaration | renderKeyAccounts | [14389](../../magpie/internal/gui/assets/app.js#L14389) |
-| row | VariableDeclaration | renderKeyAccounts | [14390](../../magpie/internal/gui/assets/app.js#L14390) |
-| dot | VariableDeclaration | renderKeyAccounts | [14393](../../magpie/internal/gui/assets/app.js#L14393) |
-| name | VariableDeclaration | renderKeyAccounts | [14397](../../magpie/internal/gui/assets/app.js#L14397) |
-| i | VariableDeclaration | renderKeyAccounts | [14400](../../magpie/internal/gui/assets/app.js#L14400) |
-| done | VariableDeclaration | renderKeyAccounts | [14402](../../magpie/internal/gui/assets/app.js#L14402) |
-| edit | VariableDeclaration | renderKeyAccounts | [14415](../../magpie/internal/gui/assets/app.js#L14415) |
-| i | VariableDeclaration | renderKeyAccounts | [14422](../../magpie/internal/gui/assets/app.js#L14422) |
-| over | VariableDeclaration | renderKeyAccounts | [14424](../../magpie/internal/gui/assets/app.js#L14424) |
-| done | VariableDeclaration | renderKeyAccounts | [14425](../../magpie/internal/gui/assets/app.js#L14425) |
-| shown | VariableDeclaration | renderKeyAccounts | [14433](../../magpie/internal/gui/assets/app.js#L14433) |
-| cp | VariableDeclaration | renderKeyAccounts | [14442](../../magpie/internal/gui/assets/app.js#L14442) |
-| err | VariableDeclaration | renderKeyAccounts | [14447](../../magpie/internal/gui/assets/app.js#L14447) |
-| restLine | VariableDeclaration | renderKeyAccounts | [14452](../../magpie/internal/gui/assets/app.js#L14452) |
-| r | VariableDeclaration | renderKeyAccounts | [14454](../../magpie/internal/gui/assets/app.js#L14454) |
-| go | VariableDeclaration | renderKeyAccounts | [14458](../../magpie/internal/gui/assets/app.js#L14458) |
-| err | VariableDeclaration | renderKeyAccounts | [14468](../../magpie/internal/gui/assets/app.js#L14468) |
-| proto | VariableDeclaration | renderKeyAccounts | [14475](../../magpie/internal/gui/assets/app.js#L14475) |
-| lacks | VariableDeclaration | renderKeyAccounts | [14480](../../magpie/internal/gui/assets/app.js#L14480) |
-| n | VariableDeclaration | renderKeyAccounts | [14482](../../magpie/internal/gui/assets/app.js#L14482) |
-| [amPill, amBox] | VariableDeclaration | renderKeyAccounts | [14487](../../magpie/internal/gui/assets/app.js#L14487) |
-| amPill | BindingElement | renderKeyAccounts.[amPill, amBox] | [14487](../../magpie/internal/gui/assets/app.js#L14487) |
-| amBox | BindingElement | renderKeyAccounts.[amPill, amBox] | [14487](../../magpie/internal/gui/assets/app.js#L14487) |
-| rm | VariableDeclaration | renderKeyAccounts | [14493](../../magpie/internal/gui/assets/app.js#L14493) |
-| first | VariableDeclaration | renderKeyAccounts | [14499](../../magpie/internal/gui/assets/app.js#L14499) |
-| box | VariableDeclaration | renderKeyAccounts | [14511](../../magpie/internal/gui/assets/app.js#L14511) |
-| keys | VariableDeclaration | renderKeyAccounts | [14512](../../magpie/internal/gui/assets/app.js#L14512) |
-| count | VariableDeclaration | renderKeyAccounts | [14517](../../magpie/internal/gui/assets/app.js#L14517) |
-| add | VariableDeclaration | renderKeyAccounts | [14518](../../magpie/internal/gui/assets/app.js#L14518) |
-| counted | VariableDeclaration | renderKeyAccounts | [14519](../../magpie/internal/gui/assets/app.js#L14519) |
-| n | VariableDeclaration | renderKeyAccounts.counted | [14520](../../magpie/internal/gui/assets/app.js#L14520) |
-| go | VariableDeclaration | renderKeyAccounts | [14526](../../magpie/internal/gui/assets/app.js#L14526) |
-| e | VariableDeclaration | renderKeyAccounts.go | [14531](../../magpie/internal/gui/assets/app.js#L14531) |
-| { added = 0, had = 0 } | VariableDeclaration | renderKeyAccounts.go | [14536](../../magpie/internal/gui/assets/app.js#L14536) |
-| added | BindingElement | renderKeyAccounts.go.{ added = 0, had = 0 } | [14536](../../magpie/internal/gui/assets/app.js#L14536) |
-| had | BindingElement | renderKeyAccounts.go.{ added = 0, had = 0 } | [14536](../../magpie/internal/gui/assets/app.js#L14536) |
-| one | VariableDeclaration | renderKeyAccounts | [14545](../../magpie/internal/gui/assets/app.js#L14545) |
-| x | VariableDeclaration | renderKeyAccounts | [14547](../../magpie/internal/gui/assets/app.js#L14547) |
-| proto | VariableDeclaration | renderKeyAccounts | [14549](../../magpie/internal/gui/assets/app.js#L14549) |
-| bar | VariableDeclaration | renderKeyAccounts | [14550](../../magpie/internal/gui/assets/app.js#L14550) |
-| box | VariableDeclaration | renderKeyAccounts | [14558](../../magpie/internal/gui/assets/app.js#L14558) |
-| name | VariableDeclaration | renderKeyAccounts | [14560](../../magpie/internal/gui/assets/app.js#L14560) |
-| key | VariableDeclaration | renderKeyAccounts | [14564](../../magpie/internal/gui/assets/app.js#L14564) |
-| text | VariableDeclaration | renderKeyAccounts | [14569](../../magpie/internal/gui/assets/app.js#L14569) |
-| add | VariableDeclaration | renderKeyAccounts | [14575](../../magpie/internal/gui/assets/app.js#L14575) |
-| go | VariableDeclaration | renderKeyAccounts | [14578](../../magpie/internal/gui/assets/app.js#L14578) |
-| id | VariableDeclaration | renderKeyAccounts.go | [14581](../../magpie/internal/gui/assets/app.js#L14581) |
-| i | VariableDeclaration | renderKeyAccounts | [14587](../../magpie/internal/gui/assets/app.js#L14587) |
-| x | VariableDeclaration | renderKeyAccounts | [14588](../../magpie/internal/gui/assets/app.js#L14588) |
-| fields | VariableDeclaration | renderKeyAccounts | [14590](../../magpie/internal/gui/assets/app.js#L14590) |
-| proto | VariableDeclaration | renderKeyAccounts | [14592](../../magpie/internal/gui/assets/app.js#L14592) |
-| bar | VariableDeclaration | renderKeyAccounts | [14593](../../magpie/internal/gui/assets/app.js#L14593) |
-| g | VariableDeclaration | renderKeyAccounts | [14594](../../magpie/internal/gui/assets/app.js#L14594) |
-| many | VariableDeclaration | renderKeyAccounts | [14595](../../magpie/internal/gui/assets/app.js#L14595) |
-| add | VariableDeclaration | renderKeyAccounts | [14605](../../magpie/internal/gui/assets/app.js#L14605) |
+| err | VariableDeclaration | renderKeyAccounts | [14260](../../magpie/internal/gui/assets/app.js#L14260) |
+| proto | VariableDeclaration | renderKeyAccounts | [14267](../../magpie/internal/gui/assets/app.js#L14267) |
+| plan | VariableDeclaration | renderKeyAccounts | [14269](../../magpie/internal/gui/assets/app.js#L14269) |
+| lacks | VariableDeclaration | renderKeyAccounts | [14274](../../magpie/internal/gui/assets/app.js#L14274) |
+| n | VariableDeclaration | renderKeyAccounts | [14276](../../magpie/internal/gui/assets/app.js#L14276) |
+| [amPill, amBox] | VariableDeclaration | renderKeyAccounts | [14281](../../magpie/internal/gui/assets/app.js#L14281) |
+| amPill | BindingElement | renderKeyAccounts.[amPill, amBox] | [14281](../../magpie/internal/gui/assets/app.js#L14281) |
+| amBox | BindingElement | renderKeyAccounts.[amPill, amBox] | [14281](../../magpie/internal/gui/assets/app.js#L14281) |
+| rm | VariableDeclaration | renderKeyAccounts | [14287](../../magpie/internal/gui/assets/app.js#L14287) |
+| first | VariableDeclaration | renderKeyAccounts | [14293](../../magpie/internal/gui/assets/app.js#L14293) |
+| box | VariableDeclaration | renderKeyAccounts | [14305](../../magpie/internal/gui/assets/app.js#L14305) |
+| keys | VariableDeclaration | renderKeyAccounts | [14306](../../magpie/internal/gui/assets/app.js#L14306) |
+| count | VariableDeclaration | renderKeyAccounts | [14311](../../magpie/internal/gui/assets/app.js#L14311) |
+| add | VariableDeclaration | renderKeyAccounts | [14312](../../magpie/internal/gui/assets/app.js#L14312) |
+| counted | VariableDeclaration | renderKeyAccounts | [14313](../../magpie/internal/gui/assets/app.js#L14313) |
+| n | VariableDeclaration | renderKeyAccounts.counted | [14314](../../magpie/internal/gui/assets/app.js#L14314) |
+| go | VariableDeclaration | renderKeyAccounts | [14320](../../magpie/internal/gui/assets/app.js#L14320) |
+| e | VariableDeclaration | renderKeyAccounts.go | [14325](../../magpie/internal/gui/assets/app.js#L14325) |
+| { added = 0, had = 0 } | VariableDeclaration | renderKeyAccounts.go | [14330](../../magpie/internal/gui/assets/app.js#L14330) |
+| added | BindingElement | renderKeyAccounts.go.{ added = 0, had = 0 } | [14330](../../magpie/internal/gui/assets/app.js#L14330) |
+| had | BindingElement | renderKeyAccounts.go.{ added = 0, had = 0 } | [14330](../../magpie/internal/gui/assets/app.js#L14330) |
+| one | VariableDeclaration | renderKeyAccounts | [14339](../../magpie/internal/gui/assets/app.js#L14339) |
+| x | VariableDeclaration | renderKeyAccounts | [14341](../../magpie/internal/gui/assets/app.js#L14341) |
+| proto | VariableDeclaration | renderKeyAccounts | [14343](../../magpie/internal/gui/assets/app.js#L14343) |
+| bar | VariableDeclaration | renderKeyAccounts | [14344](../../magpie/internal/gui/assets/app.js#L14344) |
+| box | VariableDeclaration | renderKeyAccounts | [14352](../../magpie/internal/gui/assets/app.js#L14352) |
+| name | VariableDeclaration | renderKeyAccounts | [14354](../../magpie/internal/gui/assets/app.js#L14354) |
+| key | VariableDeclaration | renderKeyAccounts | [14358](../../magpie/internal/gui/assets/app.js#L14358) |
+| text | VariableDeclaration | renderKeyAccounts | [14363](../../magpie/internal/gui/assets/app.js#L14363) |
+| add | VariableDeclaration | renderKeyAccounts | [14369](../../magpie/internal/gui/assets/app.js#L14369) |
+| go | VariableDeclaration | renderKeyAccounts | [14372](../../magpie/internal/gui/assets/app.js#L14372) |
+| id | VariableDeclaration | renderKeyAccounts.go | [14375](../../magpie/internal/gui/assets/app.js#L14375) |
+| i | VariableDeclaration | renderKeyAccounts | [14381](../../magpie/internal/gui/assets/app.js#L14381) |
+| x | VariableDeclaration | renderKeyAccounts | [14382](../../magpie/internal/gui/assets/app.js#L14382) |
+| fields | VariableDeclaration | renderKeyAccounts | [14384](../../magpie/internal/gui/assets/app.js#L14384) |
+| proto | VariableDeclaration | renderKeyAccounts | [14386](../../magpie/internal/gui/assets/app.js#L14386) |
+| bar | VariableDeclaration | renderKeyAccounts | [14387](../../magpie/internal/gui/assets/app.js#L14387) |
+| g | VariableDeclaration | renderKeyAccounts | [14388](../../magpie/internal/gui/assets/app.js#L14388) |
+| many | VariableDeclaration | renderKeyAccounts | [14389](../../magpie/internal/gui/assets/app.js#L14389) |
+| add | VariableDeclaration | renderKeyAccounts | [14399](../../magpie/internal/gui/assets/app.js#L14399) |
+| ic | VariableDeclaration | renderKeyAccounts | [14400](../../magpie/internal/gui/assets/app.js#L14400) |
+| KEYS_FOLD | VariableDeclaration |  | [14415](../../magpie/internal/gui/assets/app.js#L14415) |
+| KEYS_FIRST | VariableDeclaration |  | [14415](../../magpie/internal/gui/assets/app.js#L14415) |
+| KEYS_PAGE | VariableDeclaration |  | [14415](../../magpie/internal/gui/assets/app.js#L14415) |
+| keysOpen | VariableDeclaration |  | [14416](../../magpie/internal/gui/assets/app.js#L14416) |
+| keyFold | FunctionDeclaration |  | [14417](../../magpie/internal/gui/assets/app.js#L14417) |
+| all | VariableDeclaration | keyFold | [14418](../../magpie/internal/gui/assets/app.js#L14418) |
+| open | VariableDeclaration | keyFold | [14420](../../magpie/internal/gui/assets/app.js#L14420) |
+| matched | VariableDeclaration | keyFold | [14422](../../magpie/internal/gui/assets/app.js#L14422) |
+| keyMatches | FunctionDeclaration |  | [14427](../../magpie/internal/gui/assets/app.js#L14427) |
+| words | VariableDeclaration | keyMatches | [14428](../../magpie/internal/gui/assets/app.js#L14428) |
+| resting | VariableDeclaration | keyMatches | [14430](../../magpie/internal/gui/assets/app.js#L14430) |
+| text | VariableDeclaration | keyMatches | [14431](../../magpie/internal/gui/assets/app.js#L14431) |
+| keyDead | FunctionDeclaration |  | [14437](../../magpie/internal/gui/assets/app.js#L14437) |
+| keyFoldRows | FunctionDeclaration |  | [14443](../../magpie/internal/gui/assets/app.js#L14443) |
+| all | VariableDeclaration | keyFoldRows | [14444](../../magpie/internal/gui/assets/app.js#L14444) |
+| more | VariableDeclaration | keyFoldRows | [14446](../../magpie/internal/gui/assets/app.js#L14446) |
+| ic | VariableDeclaration | keyFoldRows | [14448](../../magpie/internal/gui/assets/app.js#L14448) |
+| on | VariableDeclaration | keyFoldRows | [14450](../../magpie/internal/gui/assets/app.js#L14450) |
+| dead | VariableDeclaration | keyFoldRows | [14450](../../magpie/internal/gui/assets/app.js#L14450) |
+| after | VariableDeclaration | keyFoldRows | [14456](../../magpie/internal/gui/assets/app.js#L14456) |
+| bar | VariableDeclaration | keyFoldRows | [14457](../../magpie/internal/gui/assets/app.js#L14457) |
+| q | VariableDeclaration | keyFoldRows | [14459](../../magpie/internal/gui/assets/app.js#L14459) |
+| list | VariableDeclaration | keyFoldRows | [14467](../../magpie/internal/gui/assets/app.js#L14467) |
+| fresh | VariableDeclaration | keyFoldRows | [14467](../../magpie/internal/gui/assets/app.js#L14467) |
+| fbar | VariableDeclaration | keyFoldRows | [14468](../../magpie/internal/gui/assets/app.js#L14468) |
+| fq | VariableDeclaration | keyFoldRows | [14468](../../magpie/internal/gui/assets/app.js#L14468) |
+| count | VariableDeclaration | keyFoldRows | [14475](../../magpie/internal/gui/assets/app.js#L14475) |
+| fewer | VariableDeclaration | keyFoldRows | [14476](../../magpie/internal/gui/assets/app.js#L14476) |
+| removeMany | VariableDeclaration | keyFoldRows | [14481](../../magpie/internal/gui/assets/app.js#L14481) |
+| b | VariableDeclaration | keyFoldRows.removeMany | [14483](../../magpie/internal/gui/assets/app.js#L14483) |
+| off | VariableDeclaration | keyFoldRows | [14492](../../magpie/internal/gui/assets/app.js#L14492) |
+| dead | VariableDeclaration | keyFoldRows | [14492](../../magpie/internal/gui/assets/app.js#L14492) |
+| typed | VariableDeclaration | keyFoldRows | [14493](../../magpie/internal/gui/assets/app.js#L14493) |
+| b | VariableDeclaration | keyFoldRows | [14494](../../magpie/internal/gui/assets/app.js#L14494) |
+| focusKeyFilter | FunctionDeclaration |  | [14504](../../magpie/internal/gui/assets/app.js#L14504) |
+| splitKeys | FunctionDeclaration |  | [14510](../../magpie/internal/gui/assets/app.js#L14510) |
+| out | VariableDeclaration | splitKeys | [14511](../../magpie/internal/gui/assets/app.js#L14511) |
+| f | VariableDeclaration | splitKeys | [14512](../../magpie/internal/gui/assets/app.js#L14512) |
+| KEY_FAIL | VariableDeclaration |  | [14519](../../magpie/internal/gui/assets/app.js#L14519) |
+| PROTO_OPTS | VariableDeclaration |  | [14525](../../magpie/internal/gui/assets/app.js#L14525) |
+| keyLacksURL | FunctionDeclaration |  | [14534](../../magpie/internal/gui/assets/app.js#L14534) |
+| protoPicker | FunctionDeclaration |  | [14541](../../magpie/internal/gui/assets/app.js#L14541) |
+| have | VariableDeclaration | protoPicker | [14543](../../magpie/internal/gui/assets/app.js#L14543) |
+| planPicker | FunctionDeclaration |  | [14550](../../magpie/internal/gui/assets/app.js#L14550) |
+| pr | VariableDeclaration | planPicker | [14551](../../magpie/internal/gui/assets/app.js#L14551) |
+| rs | VariableDeclaration | planPicker | [14551](../../magpie/internal/gui/assets/app.js#L14551) |
+| own | VariableDeclaration | planPicker | [14553](../../magpie/internal/gui/assets/app.js#L14553) |
+| pickPill | FunctionDeclaration |  | [14560](../../magpie/internal/gui/assets/app.js#L14560) |
+| pill | VariableDeclaration | pickPill | [14561](../../magpie/internal/gui/assets/app.js#L14561) |
+| paint | VariableDeclaration | pickPill | [14564](../../magpie/internal/gui/assets/app.js#L14564) |
+| pointerAt | VariableDeclaration |  | [14583](../../magpie/internal/gui/assets/app.js#L14583) |
+| hoverFocus | FunctionDeclaration |  | [14585](../../magpie/internal/gui/assets/app.js#L14585) |
+| protoMenu | VariableDeclaration |  | [14588](../../magpie/internal/gui/assets/app.js#L14588) |
+| closeProtoMenu | FunctionDeclaration |  | [14589](../../magpie/internal/gui/assets/app.js#L14589) |
+| done | VariableDeclaration | closeProtoMenu | [14598](../../magpie/internal/gui/assets/app.js#L14598) |
+| scrollCloses | FunctionDeclaration |  | [14611](../../magpie/internal/gui/assets/app.js#L14611) |
+| placeMenu | FunctionDeclaration |  | [14628](../../magpie/internal/gui/assets/app.js#L14628) |
+| r | VariableDeclaration | placeMenu | [14629](../../magpie/internal/gui/assets/app.js#L14629) |
+| h | VariableDeclaration | placeMenu | [14629](../../magpie/internal/gui/assets/app.js#L14629) |

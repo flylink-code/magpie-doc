@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 40/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ic | VariableDeclaration | renderKeyAccounts | [14606](../../magpie/internal/gui/assets/app.js#L14606) |
-| KEYS_FOLD | VariableDeclaration |  | [14621](../../magpie/internal/gui/assets/app.js#L14621) |
-| KEYS_FIRST | VariableDeclaration |  | [14621](../../magpie/internal/gui/assets/app.js#L14621) |
-| KEYS_PAGE | VariableDeclaration |  | [14621](../../magpie/internal/gui/assets/app.js#L14621) |
-| keysOpen | VariableDeclaration |  | [14622](../../magpie/internal/gui/assets/app.js#L14622) |
-| keyFold | FunctionDeclaration |  | [14623](../../magpie/internal/gui/assets/app.js#L14623) |
-| all | VariableDeclaration | keyFold | [14624](../../magpie/internal/gui/assets/app.js#L14624) |
-| open | VariableDeclaration | keyFold | [14626](../../magpie/internal/gui/assets/app.js#L14626) |
-| matched | VariableDeclaration | keyFold | [14628](../../magpie/internal/gui/assets/app.js#L14628) |
-| keyMatches | FunctionDeclaration |  | [14633](../../magpie/internal/gui/assets/app.js#L14633) |
-| words | VariableDeclaration | keyMatches | [14634](../../magpie/internal/gui/assets/app.js#L14634) |
-| resting | VariableDeclaration | keyMatches | [14636](../../magpie/internal/gui/assets/app.js#L14636) |
-| text | VariableDeclaration | keyMatches | [14637](../../magpie/internal/gui/assets/app.js#L14637) |
-| keyDead | FunctionDeclaration |  | [14643](../../magpie/internal/gui/assets/app.js#L14643) |
-| keyFoldRows | FunctionDeclaration |  | [14649](../../magpie/internal/gui/assets/app.js#L14649) |
-| all | VariableDeclaration | keyFoldRows | [14650](../../magpie/internal/gui/assets/app.js#L14650) |
-| more | VariableDeclaration | keyFoldRows | [14652](../../magpie/internal/gui/assets/app.js#L14652) |
-| ic | VariableDeclaration | keyFoldRows | [14654](../../magpie/internal/gui/assets/app.js#L14654) |
-| on | VariableDeclaration | keyFoldRows | [14656](../../magpie/internal/gui/assets/app.js#L14656) |
-| dead | VariableDeclaration | keyFoldRows | [14656](../../magpie/internal/gui/assets/app.js#L14656) |
-| after | VariableDeclaration | keyFoldRows | [14662](../../magpie/internal/gui/assets/app.js#L14662) |
-| bar | VariableDeclaration | keyFoldRows | [14663](../../magpie/internal/gui/assets/app.js#L14663) |
-| q | VariableDeclaration | keyFoldRows | [14665](../../magpie/internal/gui/assets/app.js#L14665) |
-| list | VariableDeclaration | keyFoldRows | [14673](../../magpie/internal/gui/assets/app.js#L14673) |
-| fresh | VariableDeclaration | keyFoldRows | [14673](../../magpie/internal/gui/assets/app.js#L14673) |
-| fbar | VariableDeclaration | keyFoldRows | [14674](../../magpie/internal/gui/assets/app.js#L14674) |
-| fq | VariableDeclaration | keyFoldRows | [14674](../../magpie/internal/gui/assets/app.js#L14674) |
-| count | VariableDeclaration | keyFoldRows | [14681](../../magpie/internal/gui/assets/app.js#L14681) |
-| fewer | VariableDeclaration | keyFoldRows | [14682](../../magpie/internal/gui/assets/app.js#L14682) |
-| removeMany | VariableDeclaration | keyFoldRows | [14687](../../magpie/internal/gui/assets/app.js#L14687) |
-| b | VariableDeclaration | keyFoldRows.removeMany | [14689](../../magpie/internal/gui/assets/app.js#L14689) |
-| off | VariableDeclaration | keyFoldRows | [14698](../../magpie/internal/gui/assets/app.js#L14698) |
-| dead | VariableDeclaration | keyFoldRows | [14698](../../magpie/internal/gui/assets/app.js#L14698) |
-| typed | VariableDeclaration | keyFoldRows | [14699](../../magpie/internal/gui/assets/app.js#L14699) |
-| b | VariableDeclaration | keyFoldRows | [14700](../../magpie/internal/gui/assets/app.js#L14700) |
-| focusKeyFilter | FunctionDeclaration |  | [14710](../../magpie/internal/gui/assets/app.js#L14710) |
-| splitKeys | FunctionDeclaration |  | [14716](../../magpie/internal/gui/assets/app.js#L14716) |
-| out | VariableDeclaration | splitKeys | [14717](../../magpie/internal/gui/assets/app.js#L14717) |
-| f | VariableDeclaration | splitKeys | [14718](../../magpie/internal/gui/assets/app.js#L14718) |
-| KEY_FAIL | VariableDeclaration |  | [14725](../../magpie/internal/gui/assets/app.js#L14725) |
-| PROTO_OPTS | VariableDeclaration |  | [14731](../../magpie/internal/gui/assets/app.js#L14731) |
-| keyLacksURL | FunctionDeclaration |  | [14740](../../magpie/internal/gui/assets/app.js#L14740) |
-| protoPicker | FunctionDeclaration |  | [14747](../../magpie/internal/gui/assets/app.js#L14747) |
-| have | VariableDeclaration | protoPicker | [14749](../../magpie/internal/gui/assets/app.js#L14749) |
-| opts | VariableDeclaration | protoPicker | [14751](../../magpie/internal/gui/assets/app.js#L14751) |
-| pill | VariableDeclaration | protoPicker | [14752](../../magpie/internal/gui/assets/app.js#L14752) |
-| paint | VariableDeclaration | protoPicker | [14755](../../magpie/internal/gui/assets/app.js#L14755) |
-| pointerAt | VariableDeclaration |  | [14775](../../magpie/internal/gui/assets/app.js#L14775) |
-| hoverFocus | FunctionDeclaration |  | [14777](../../magpie/internal/gui/assets/app.js#L14777) |
-| protoMenu | VariableDeclaration |  | [14780](../../magpie/internal/gui/assets/app.js#L14780) |
-| closeProtoMenu | FunctionDeclaration |  | [14781](../../magpie/internal/gui/assets/app.js#L14781) |
-| done | VariableDeclaration | closeProtoMenu | [14790](../../magpie/internal/gui/assets/app.js#L14790) |
-| scrollCloses | FunctionDeclaration |  | [14803](../../magpie/internal/gui/assets/app.js#L14803) |
-| placeMenu | FunctionDeclaration |  | [14820](../../magpie/internal/gui/assets/app.js#L14820) |
-| r | VariableDeclaration | placeMenu | [14821](../../magpie/internal/gui/assets/app.js#L14821) |
-| h | VariableDeclaration | placeMenu | [14821](../../magpie/internal/gui/assets/app.js#L14821) |
-| pad | VariableDeclaration | placeMenu | [14821](../../magpie/internal/gui/assets/app.js#L14821) |
-| top | VariableDeclaration | placeMenu | [14821](../../magpie/internal/gui/assets/app.js#L14821) |
-| y | VariableDeclaration | placeMenu | [14822](../../magpie/internal/gui/assets/app.js#L14822) |
-| below | VariableDeclaration | placeMenu | [14823](../../magpie/internal/gui/assets/app.js#L14823) |
-| above | VariableDeclaration | placeMenu | [14823](../../magpie/internal/gui/assets/app.js#L14823) |
-| w | VariableDeclaration | placeMenu | [14830](../../magpie/internal/gui/assets/app.js#L14830) |
-| left | VariableDeclaration | placeMenu | [14831](../../magpie/internal/gui/assets/app.js#L14831) |
-| openProtoMenu | FunctionDeclaration |  | [14835](../../magpie/internal/gui/assets/app.js#L14835) |
-| multi | VariableDeclaration | openProtoMenu | [14837](../../magpie/internal/gui/assets/app.js#L14837) |
-| picked | VariableDeclaration | openProtoMenu | [14838](../../magpie/internal/gui/assets/app.js#L14838) |
-| isOn | VariableDeclaration | openProtoMenu | [14839](../../magpie/internal/gui/assets/app.js#L14839) |
-| box | VariableDeclaration | openProtoMenu | [14840](../../magpie/internal/gui/assets/app.js#L14840) |
-| filter | VariableDeclaration | openProtoMenu | [14843](../../magpie/internal/gui/assets/app.js#L14843) |
-| top | VariableDeclaration | openProtoMenu | [14845](../../magpie/internal/gui/assets/app.js#L14845) |
-| tick | VariableDeclaration | openProtoMenu | [14852](../../magpie/internal/gui/assets/app.js#L14852) |
-| items | VariableDeclaration | openProtoMenu | [14857](../../magpie/internal/gui/assets/app.js#L14857) |
-| b | VariableDeclaration | openProtoMenu.items | [14858](../../magpie/internal/gui/assets/app.js#L14858) |
-| words | VariableDeclaration | openProtoMenu.items | [14862](../../magpie/internal/gui/assets/app.js#L14862) |
-| q | VariableDeclaration | openProtoMenu | [14883](../../magpie/internal/gui/assets/app.js#L14883) |
-| outside | VariableDeclaration | openProtoMenu | [14890](../../magpie/internal/gui/assets/app.js#L14890) |
-| scroll | VariableDeclaration | openProtoMenu | [14893](../../magpie/internal/gui/assets/app.js#L14893) |
-| keys | VariableDeclaration | openProtoMenu | [14897](../../magpie/internal/gui/assets/app.js#L14897) |
-| shown | VariableDeclaration | openProtoMenu.keys | [14898](../../magpie/internal/gui/assets/app.js#L14898) |
-| i | VariableDeclaration | openProtoMenu.keys | [14899](../../magpie/internal/gui/assets/app.js#L14899) |
-| n | VariableDeclaration | openProtoMenu.keys | [14903](../../magpie/internal/gui/assets/app.js#L14903) |
-| from | VariableDeclaration | openProtoMenu.keys | [14903](../../magpie/internal/gui/assets/app.js#L14903) |
-| first | VariableDeclaration | openProtoMenu.keys | [14906](../../magpie/internal/gui/assets/app.js#L14906) |
-| done | VariableDeclaration | openProtoMenu | [14917](../../magpie/internal/gui/assets/app.js#L14917) |
-| keyPill | FunctionDeclaration |  | [14926](../../magpie/internal/gui/assets/app.js#L14926) |
-| on | VariableDeclaration | keyPill | [14927](../../magpie/internal/gui/assets/app.js#L14927) |
-| keyFingerprint | FunctionDeclaration |  | [14933](../../magpie/internal/gui/assets/app.js#L14933) |
-| h | VariableDeclaration | keyFingerprint | [14935](../../magpie/internal/gui/assets/app.js#L14935) |
-| apiField | VariableDeclaration |  | [14942](../../magpie/internal/gui/assets/app.js#L14942) |
-| API_NAMES | VariableDeclaration |  | [14944](../../magpie/internal/gui/assets/app.js#L14944) |
-| urlHint | VariableDeclaration |  | [14946](../../magpie/internal/gui/assets/app.js#L14946) |
-| WORKSPACE | VariableDeclaration |  | [14954](../../magpie/internal/gui/assets/app.js#L14954) |
-| workspaceOf | FunctionDeclaration |  | [14955](../../magpie/internal/gui/assets/app.js#L14955) |
-| strip | VariableDeclaration | workspaceOf | [14957](../../magpie/internal/gui/assets/app.js#L14957) |
-| [a, b] | VariableDeclaration | workspaceOf | [14958](../../magpie/internal/gui/assets/app.js#L14958) |
-| a | BindingElement | workspaceOf.[a, b] | [14958](../../magpie/internal/gui/assets/app.js#L14958) |
-| b | BindingElement | workspaceOf.[a, b] | [14958](../../magpie/internal/gui/assets/app.js#L14958) |
-| u | VariableDeclaration | workspaceOf | [14959](../../magpie/internal/gui/assets/app.js#L14959) |
-| ws | VariableDeclaration | workspaceOf | [14962](../../magpie/internal/gui/assets/app.js#L14962) |
-| respellURL | FunctionDeclaration |  | [14967](../../magpie/internal/gui/assets/app.js#L14967) |
+| pad | VariableDeclaration | placeMenu | [14629](../../magpie/internal/gui/assets/app.js#L14629) |
+| top | VariableDeclaration | placeMenu | [14629](../../magpie/internal/gui/assets/app.js#L14629) |
+| y | VariableDeclaration | placeMenu | [14630](../../magpie/internal/gui/assets/app.js#L14630) |
+| below | VariableDeclaration | placeMenu | [14631](../../magpie/internal/gui/assets/app.js#L14631) |
+| above | VariableDeclaration | placeMenu | [14631](../../magpie/internal/gui/assets/app.js#L14631) |
+| w | VariableDeclaration | placeMenu | [14638](../../magpie/internal/gui/assets/app.js#L14638) |
+| left | VariableDeclaration | placeMenu | [14639](../../magpie/internal/gui/assets/app.js#L14639) |
+| openProtoMenu | FunctionDeclaration |  | [14643](../../magpie/internal/gui/assets/app.js#L14643) |
+| multi | VariableDeclaration | openProtoMenu | [14645](../../magpie/internal/gui/assets/app.js#L14645) |
+| picked | VariableDeclaration | openProtoMenu | [14646](../../magpie/internal/gui/assets/app.js#L14646) |
+| isOn | VariableDeclaration | openProtoMenu | [14647](../../magpie/internal/gui/assets/app.js#L14647) |
+| box | VariableDeclaration | openProtoMenu | [14648](../../magpie/internal/gui/assets/app.js#L14648) |
+| filter | VariableDeclaration | openProtoMenu | [14651](../../magpie/internal/gui/assets/app.js#L14651) |
+| top | VariableDeclaration | openProtoMenu | [14653](../../magpie/internal/gui/assets/app.js#L14653) |
+| tick | VariableDeclaration | openProtoMenu | [14660](../../magpie/internal/gui/assets/app.js#L14660) |
+| items | VariableDeclaration | openProtoMenu | [14665](../../magpie/internal/gui/assets/app.js#L14665) |
+| b | VariableDeclaration | openProtoMenu.items | [14666](../../magpie/internal/gui/assets/app.js#L14666) |
+| words | VariableDeclaration | openProtoMenu.items | [14670](../../magpie/internal/gui/assets/app.js#L14670) |
+| q | VariableDeclaration | openProtoMenu | [14691](../../magpie/internal/gui/assets/app.js#L14691) |
+| outside | VariableDeclaration | openProtoMenu | [14698](../../magpie/internal/gui/assets/app.js#L14698) |
+| scroll | VariableDeclaration | openProtoMenu | [14701](../../magpie/internal/gui/assets/app.js#L14701) |
+| keys | VariableDeclaration | openProtoMenu | [14705](../../magpie/internal/gui/assets/app.js#L14705) |
+| shown | VariableDeclaration | openProtoMenu.keys | [14706](../../magpie/internal/gui/assets/app.js#L14706) |
+| i | VariableDeclaration | openProtoMenu.keys | [14707](../../magpie/internal/gui/assets/app.js#L14707) |
+| n | VariableDeclaration | openProtoMenu.keys | [14711](../../magpie/internal/gui/assets/app.js#L14711) |
+| from | VariableDeclaration | openProtoMenu.keys | [14711](../../magpie/internal/gui/assets/app.js#L14711) |
+| first | VariableDeclaration | openProtoMenu.keys | [14714](../../magpie/internal/gui/assets/app.js#L14714) |
+| done | VariableDeclaration | openProtoMenu | [14725](../../magpie/internal/gui/assets/app.js#L14725) |
+| keyPill | FunctionDeclaration |  | [14734](../../magpie/internal/gui/assets/app.js#L14734) |
+| on | VariableDeclaration | keyPill | [14735](../../magpie/internal/gui/assets/app.js#L14735) |
+| keyFingerprint | FunctionDeclaration |  | [14741](../../magpie/internal/gui/assets/app.js#L14741) |
+| h | VariableDeclaration | keyFingerprint | [14743](../../magpie/internal/gui/assets/app.js#L14743) |
+| apiField | VariableDeclaration |  | [14750](../../magpie/internal/gui/assets/app.js#L14750) |
+| API_NAMES | VariableDeclaration |  | [14752](../../magpie/internal/gui/assets/app.js#L14752) |
+| urlHint | VariableDeclaration |  | [14754](../../magpie/internal/gui/assets/app.js#L14754) |
+| WORKSPACE | VariableDeclaration |  | [14762](../../magpie/internal/gui/assets/app.js#L14762) |
+| workspaceOf | FunctionDeclaration |  | [14763](../../magpie/internal/gui/assets/app.js#L14763) |
+| strip | VariableDeclaration | workspaceOf | [14765](../../magpie/internal/gui/assets/app.js#L14765) |
+| [a, b] | VariableDeclaration | workspaceOf | [14766](../../magpie/internal/gui/assets/app.js#L14766) |
+| a | BindingElement | workspaceOf.[a, b] | [14766](../../magpie/internal/gui/assets/app.js#L14766) |
+| b | BindingElement | workspaceOf.[a, b] | [14766](../../magpie/internal/gui/assets/app.js#L14766) |
+| u | VariableDeclaration | workspaceOf | [14767](../../magpie/internal/gui/assets/app.js#L14767) |
+| ws | VariableDeclaration | workspaceOf | [14770](../../magpie/internal/gui/assets/app.js#L14770) |
+| respellURL | FunctionDeclaration |  | [14775](../../magpie/internal/gui/assets/app.js#L14775) |
+| curlOf | FunctionDeclaration |  | [14793](../../magpie/internal/gui/assets/app.js#L14793) |
+| s | VariableDeclaration | curlOf | [14794](../../magpie/internal/gui/assets/app.js#L14794) |
+| head | VariableDeclaration | curlOf | [14795](../../magpie/internal/gui/assets/app.js#L14795) |
+| cmd | VariableDeclaration | curlOf | [14797](../../magpie/internal/gui/assets/app.js#L14797) |
+| ps | VariableDeclaration | curlOf | [14797](../../magpie/internal/gui/assets/app.js#L14797) |
+| words | VariableDeclaration | curlOf | [14800](../../magpie/internal/gui/assets/app.js#L14800) |
+| w | VariableDeclaration | curlOf | [14801](../../magpie/internal/gui/assets/app.js#L14801) |
+| i | VariableDeclaration | curlOf | [14802](../../magpie/internal/gui/assets/app.js#L14802) |
+| c | VariableDeclaration | curlOf | [14803](../../magpie/internal/gui/assets/app.js#L14803) |
+| j | VariableDeclaration | curlOf | [14808](../../magpie/internal/gui/assets/app.js#L14808) |
+| k | VariableDeclaration | curlOf | [14810](../../magpie/internal/gui/assets/app.js#L14810) |
+| esc | VariableDeclaration | curlOf | [14817](../../magpie/internal/gui/assets/app.js#L14817) |
+| valued | VariableDeclaration | curlOf | [14827](../../magpie/internal/gui/assets/app.js#L14827) |
+| url | VariableDeclaration | curlOf | [14828](../../magpie/internal/gui/assets/app.js#L14828) |
+| body | VariableDeclaration | curlOf | [14828](../../magpie/internal/gui/assets/app.js#L14828) |
+| headers | VariableDeclaration | curlOf | [14829](../../magpie/internal/gui/assets/app.js#L14829) |
+| i | VariableDeclaration | curlOf | [14830](../../magpie/internal/gui/assets/app.js#L14830) |
+| x | VariableDeclaration | curlOf | [14831](../../magpie/internal/gui/assets/app.js#L14831) |
+| opt | VariableDeclaration | curlOf | [14832](../../magpie/internal/gui/assets/app.js#L14832) |
+| val | VariableDeclaration | curlOf | [14832](../../magpie/internal/gui/assets/app.js#L14832) |
+| out | VariableDeclaration | curlOf | [14841](../../magpie/internal/gui/assets/app.js#L14841) |
+| at | VariableDeclaration | curlOf | [14842](../../magpie/internal/gui/assets/app.js#L14842) |
+| h | VariableDeclaration | curlOf | [14848](../../magpie/internal/gui/assets/app.js#L14848) |
+| m | VariableDeclaration | curlOf | [14849](../../magpie/internal/gui/assets/app.js#L14849) |
+| v | VariableDeclaration | curlOf | [14851](../../magpie/internal/gui/assets/app.js#L14851) |
+| b | VariableDeclaration | curlOf | [14858](../../magpie/internal/gui/assets/app.js#L14858) |
+| j | VariableDeclaration | curlOf | [14859](../../magpie/internal/gui/assets/app.js#L14859) |
+| moveWhy | FunctionDeclaration |  | [14869](../../magpie/internal/gui/assets/app.js#L14869) |
+| a | VariableDeclaration | moveWhy | [14870](../../magpie/internal/gui/assets/app.js#L14870) |
+| moveSaid | VariableDeclaration |  | [14891](../../magpie/internal/gui/assets/app.js#L14891) |
+| renderMove | FunctionDeclaration |  | [14892](../../magpie/internal/gui/assets/app.js#L14892) |
+| m | VariableDeclaration | renderMove | [14893](../../magpie/internal/gui/assets/app.js#L14893) |
+| box | VariableDeclaration | renderMove | [14894](../../magpie/internal/gui/assets/app.js#L14894) |
+| onPlugin | VariableDeclaration | renderMove | [14895](../../magpie/internal/gui/assets/app.js#L14895) |
+| said | VariableDeclaration | renderMove | [14896](../../magpie/internal/gui/assets/app.js#L14896) |
+| why | VariableDeclaration | renderMove | [14900](../../magpie/internal/gui/assets/app.js#L14900) |
+| say | VariableDeclaration | renderMove | [14902](../../magpie/internal/gui/assets/app.js#L14902) |
+| going | VariableDeclaration | renderMove | [14906](../../magpie/internal/gui/assets/app.js#L14906) |
+| failed | VariableDeclaration | renderMove | [14907](../../magpie/internal/gui/assets/app.js#L14907) |
+| idle | VariableDeclaration | renderMove | [14909](../../magpie/internal/gui/assets/app.js#L14909) |
+| b | VariableDeclaration | renderMove | [14910](../../magpie/internal/gui/assets/app.js#L14910) |
+| picks | VariableDeclaration | renderMove | [14921](../../magpie/internal/gui/assets/app.js#L14921) |
+| was | VariableDeclaration | renderMove | [14922](../../magpie/internal/gui/assets/app.js#L14922) |
+| changed | VariableDeclaration | renderMove | [14923](../../magpie/internal/gui/assets/app.js#L14923) |
+| now | VariableDeclaration | renderMove | [14928](../../magpie/internal/gui/assets/app.js#L14928) |
+| accts | VariableDeclaration | renderMove | [14929](../../magpie/internal/gui/assets/app.js#L14929) |
+| models | VariableDeclaration | renderMove | [14929](../../magpie/internal/gui/assets/app.js#L14929) |
+| e | VariableDeclaration | renderMove | [14937](../../magpie/internal/gui/assets/app.js#L14937) |
+| note | VariableDeclaration | renderMove | [14948](../../magpie/internal/gui/assets/app.js#L14948) |
+| providerAction | FunctionDeclaration |  | [14956](../../magpie/internal/gui/assets/app.js#L14956) |
+| was | VariableDeclaration | providerAction | [14960](../../magpie/internal/gui/assets/app.js#L14960) |
+| e | VariableDeclaration | providerAction | [14973](../../magpie/internal/gui/assets/app.js#L14973) |
+| b | VariableDeclaration | providerAction | [14988](../../magpie/internal/gui/assets/app.js#L14988) |
+| saving | FunctionDeclaration |  | [14996](../../magpie/internal/gui/assets/app.js#L14996) |
+| doneSaving | FunctionDeclaration |  | [15003](../../magpie/internal/gui/assets/app.js#L15003) |
+| saidMoved | FunctionDeclaration |  | [15012](../../magpie/internal/gui/assets/app.js#L15012) |

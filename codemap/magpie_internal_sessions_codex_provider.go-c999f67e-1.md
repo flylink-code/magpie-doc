@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex_provider.go) · page 1/1
 
-Source SHA-256: 80fb00eccecf8a995f688114150aa140592fc07732cc2d6443f2a1a5b0abf875
+Source SHA-256: c2e459a3ba3c39cd927101b49f12f320b6345bfde70739486b74cd88d934c779
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -46,3 +46,10 @@ Source SHA-256: 80fb00eccecf8a995f688114150aa140592fc07732cc2d6443f2a1a5b0abf875
 | setMetaProvider | function_declaration |  | [476](../../magpie/internal/sessions/codex_provider.go#L476) |
 | rewriteCodexProvider | function_declaration |  | [493](../../magpie/internal/sessions/codex_provider.go#L493) |
 | moveCodexThread | function_declaration |  | [575](../../magpie/internal/sessions/codex_provider.go#L575) |
+| RelabelCodexThreads | function_declaration |  | [611](../../magpie/internal/sessions/codex_provider.go#L611) |
+| row | struct_type | RelabelCodexThreads | [615](../../magpie/internal/sessions/codex_provider.go#L615) |
+| db | field_declaration | RelabelCodexThreads.row | [615](../../magpie/internal/sessions/codex_provider.go#L615) |
+| id | field_declaration | RelabelCodexThreads.row | [615](../../magpie/internal/sessions/codex_provider.go#L615) |
+| path | field_declaration | RelabelCodexThreads.row | [615](../../magpie/internal/sessions/codex_provider.go#L615) |
+| relabelHead | function_declaration |  | [692](../../magpie/internal/sessions/codex_provider.go#L692) |
+| sameDir | function_declaration |  | [740](../../magpie/internal/sessions/codex_provider.go#L740) |

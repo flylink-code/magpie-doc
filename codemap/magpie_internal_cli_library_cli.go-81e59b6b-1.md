@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/library_cli.go) · page 1/1
 
-Source SHA-256: 6714fe703e3826155fb679cc871742157105d341b05f9d79f20794c61c8946f0
+Source SHA-256: a4598b449f447c35dbcd43a0780579cefa6e573d0522519c522cdd5ccd0fc58c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

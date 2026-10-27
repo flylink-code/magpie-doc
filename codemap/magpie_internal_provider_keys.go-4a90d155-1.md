@@ -4,63 +4,66 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/keys.go) · page 1/1
 
-Source SHA-256: 3e69cdde62ce336b7da9c786067daeaabcd90f3ec57df6e552dc9687e6aa274d
+Source SHA-256: ff6e291c1197b36aaefd6f67b3f20e0c5b82b33d76d0d2575ca8e6b13fa50f64
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| KeyAccount | struct_type |  | [23](../../magpie/internal/provider/keys.go#L23) |
-| Name | field_declaration | KeyAccount | [24](../../magpie/internal/provider/keys.go#L24) |
-| Key | field_declaration | KeyAccount | [25](../../magpie/internal/provider/keys.go#L25) |
-| Off | field_declaration | KeyAccount | [26](../../magpie/internal/provider/keys.go#L26) |
-| Protocol | field_declaration | KeyAccount | [29](../../magpie/internal/provider/keys.go#L29) |
-| Weight | field_declaration | KeyAccount | [33](../../magpie/internal/provider/keys.go#L33) |
-| KeyInfo | struct_type |  | [37](../../magpie/internal/provider/keys.go#L37) |
-| ID | field_declaration | KeyInfo | [38](../../magpie/internal/provider/keys.go#L38) |
-| Name | field_declaration | KeyInfo | [39](../../magpie/internal/provider/keys.go#L39) |
-| Masked | field_declaration | KeyInfo | [40](../../magpie/internal/provider/keys.go#L40) |
-| Active | field_declaration | KeyInfo | [41](../../magpie/internal/provider/keys.go#L41) |
-| On | field_declaration | KeyInfo | [42](../../magpie/internal/provider/keys.go#L42) |
-| Protocol | field_declaration | KeyInfo | [44](../../magpie/internal/provider/keys.go#L44) |
-| Weight | field_declaration | KeyInfo | [45](../../magpie/internal/provider/keys.go#L45) |
-| Rest | field_declaration | KeyInfo | [49](../../magpie/internal/provider/keys.go#L49) |
-| KeyRest | struct_type |  | [54](../../magpie/internal/provider/keys.go#L54) |
-| Why | field_declaration | KeyRest | [55](../../magpie/internal/provider/keys.go#L55) |
-| Status | field_declaration | KeyRest | [56](../../magpie/internal/provider/keys.go#L56) |
-| Until | field_declaration | KeyRest | [57](../../magpie/internal/provider/keys.go#L57) |
-| Key | field_declaration | KeyRest | [58](../../magpie/internal/provider/keys.go#L58) |
-| RestKey | method_declaration | Provider | [63](../../magpie/internal/provider/keys.go#L63) |
-| RestKeys | method_declaration | Provider | [69](../../magpie/internal/provider/keys.go#L69) |
-| severalOn | method_declaration | Provider | [81](../../magpie/internal/provider/keys.go#L81) |
-| keyID | function_declaration |  | [93](../../magpie/internal/provider/keys.go#L93) |
-| KeyID | function_declaration |  | [99](../../magpie/internal/provider/keys.go#L99) |
-| KeyList | method_declaration | Provider | [102](../../magpie/internal/provider/keys.go#L102) |
-| KeysOn | method_declaration | Provider | [116](../../magpie/internal/provider/keys.go#L116) |
-| keysListed | var_spec |  | [137](../../magpie/internal/provider/keys.go#L137) |
-| KeysListed | function_declaration |  | [142](../../magpie/internal/provider/keys.go#L142) |
-| AddKey | function_declaration |  | [146](../../magpie/internal/provider/keys.go#L146) |
-| AnonymousKey | method_declaration | Provider | [185](../../magpie/internal/provider/keys.go#L185) |
-| HasKey | method_declaration | Provider | [193](../../magpie/internal/provider/keys.go#L193) |
-| SplitKeys | function_declaration |  | [205](../../magpie/internal/provider/keys.go#L205) |
-| AddKeys | function_declaration |  | [223](../../magpie/internal/provider/keys.go#L223) |
-| keyReadsAtOnce | const_spec |  | [268](../../magpie/internal/provider/keys.go#L268) |
-| keySlots | struct_type |  | [271](../../magpie/internal/provider/keys.go#L271) |
-| m | field_declaration | keySlots | [273](../../magpie/internal/provider/keys.go#L273) |
-| take | method_declaration | *keySlots | [278](../../magpie/internal/provider/keys.go#L278) |
-| first | method_declaration | *Provider | [298](../../magpie/internal/provider/keys.go#L298) |
-| setFirst | method_declaration | *Provider | [302](../../magpie/internal/provider/keys.go#L302) |
-| keyProtocolOK | function_declaration |  | [306](../../magpie/internal/provider/keys.go#L306) |
-| SetKeyProtocol | function_declaration |  | [315](../../magpie/internal/provider/keys.go#L315) |
-| MaxKeyWeight | const_spec |  | [336](../../magpie/internal/provider/keys.go#L336) |
-| SetKeyWeight | function_declaration |  | [340](../../magpie/internal/provider/keys.go#L340) |
-| WeightOf | method_declaration | KeyAccount | [364](../../magpie/internal/provider/keys.go#L364) |
-| WithKey | method_declaration | Provider | [368](../../magpie/internal/provider/keys.go#L368) |
-| findKey | function_declaration |  | [389](../../magpie/internal/provider/keys.go#L389) |
-| KeyOf | function_declaration |  | [404](../../magpie/internal/provider/keys.go#L404) |
-| UseKey | function_declaration |  | [421](../../magpie/internal/provider/keys.go#L421) |
-| promote | function_declaration |  | [442](../../magpie/internal/provider/keys.go#L442) |
-| SetKeyOn | function_declaration |  | [455](../../magpie/internal/provider/keys.go#L455) |
-| RemoveKey | function_declaration |  | [481](../../magpie/internal/provider/keys.go#L481) |
-| RemoveKeys | function_declaration |  | [502](../../magpie/internal/provider/keys.go#L502) |
-| RenameKey | function_declaration |  | [537](../../magpie/internal/provider/keys.go#L537) |
-| ReplaceKey | function_declaration |  | [561](../../magpie/internal/provider/keys.go#L561) |
-| moveKeyed | function_declaration |  | [593](../../magpie/internal/provider/keys.go#L593) |
+| KeyAccount | struct_type |  | [24](../../magpie/internal/provider/keys.go#L24) |
+| Name | field_declaration | KeyAccount | [25](../../magpie/internal/provider/keys.go#L25) |
+| Key | field_declaration | KeyAccount | [26](../../magpie/internal/provider/keys.go#L26) |
+| Off | field_declaration | KeyAccount | [27](../../magpie/internal/provider/keys.go#L27) |
+| Protocol | field_declaration | KeyAccount | [30](../../magpie/internal/provider/keys.go#L30) |
+| Weight | field_declaration | KeyAccount | [34](../../magpie/internal/provider/keys.go#L34) |
+| Plan | field_declaration | KeyAccount | [39](../../magpie/internal/provider/keys.go#L39) |
+| KeyInfo | struct_type |  | [43](../../magpie/internal/provider/keys.go#L43) |
+| ID | field_declaration | KeyInfo | [44](../../magpie/internal/provider/keys.go#L44) |
+| Name | field_declaration | KeyInfo | [45](../../magpie/internal/provider/keys.go#L45) |
+| Masked | field_declaration | KeyInfo | [46](../../magpie/internal/provider/keys.go#L46) |
+| Active | field_declaration | KeyInfo | [47](../../magpie/internal/provider/keys.go#L47) |
+| On | field_declaration | KeyInfo | [48](../../magpie/internal/provider/keys.go#L48) |
+| Protocol | field_declaration | KeyInfo | [50](../../magpie/internal/provider/keys.go#L50) |
+| Weight | field_declaration | KeyInfo | [51](../../magpie/internal/provider/keys.go#L51) |
+| Plan | field_declaration | KeyInfo | [52](../../magpie/internal/provider/keys.go#L52) |
+| Rest | field_declaration | KeyInfo | [56](../../magpie/internal/provider/keys.go#L56) |
+| KeyRest | struct_type |  | [61](../../magpie/internal/provider/keys.go#L61) |
+| Why | field_declaration | KeyRest | [62](../../magpie/internal/provider/keys.go#L62) |
+| Status | field_declaration | KeyRest | [63](../../magpie/internal/provider/keys.go#L63) |
+| Until | field_declaration | KeyRest | [64](../../magpie/internal/provider/keys.go#L64) |
+| Key | field_declaration | KeyRest | [65](../../magpie/internal/provider/keys.go#L65) |
+| RestKey | method_declaration | Provider | [70](../../magpie/internal/provider/keys.go#L70) |
+| RestKeys | method_declaration | Provider | [76](../../magpie/internal/provider/keys.go#L76) |
+| severalOn | method_declaration | Provider | [88](../../magpie/internal/provider/keys.go#L88) |
+| keyID | function_declaration |  | [100](../../magpie/internal/provider/keys.go#L100) |
+| KeyID | function_declaration |  | [106](../../magpie/internal/provider/keys.go#L106) |
+| KeyList | method_declaration | Provider | [109](../../magpie/internal/provider/keys.go#L109) |
+| KeysOn | method_declaration | Provider | [123](../../magpie/internal/provider/keys.go#L123) |
+| keysListed | var_spec |  | [144](../../magpie/internal/provider/keys.go#L144) |
+| KeysListed | function_declaration |  | [149](../../magpie/internal/provider/keys.go#L149) |
+| AddKey | function_declaration |  | [153](../../magpie/internal/provider/keys.go#L153) |
+| AnonymousKey | method_declaration | Provider | [192](../../magpie/internal/provider/keys.go#L192) |
+| HasKey | method_declaration | Provider | [200](../../magpie/internal/provider/keys.go#L200) |
+| SplitKeys | function_declaration |  | [212](../../magpie/internal/provider/keys.go#L212) |
+| AddKeys | function_declaration |  | [230](../../magpie/internal/provider/keys.go#L230) |
+| keyReadsAtOnce | const_spec |  | [275](../../magpie/internal/provider/keys.go#L275) |
+| keySlots | struct_type |  | [278](../../magpie/internal/provider/keys.go#L278) |
+| m | field_declaration | keySlots | [280](../../magpie/internal/provider/keys.go#L280) |
+| take | method_declaration | *keySlots | [285](../../magpie/internal/provider/keys.go#L285) |
+| first | method_declaration | *Provider | [305](../../magpie/internal/provider/keys.go#L305) |
+| setFirst | method_declaration | *Provider | [309](../../magpie/internal/provider/keys.go#L309) |
+| keyProtocolOK | function_declaration |  | [313](../../magpie/internal/provider/keys.go#L313) |
+| SetKeyProtocol | function_declaration |  | [322](../../magpie/internal/provider/keys.go#L322) |
+| SetKeyPlan | function_declaration |  | [345](../../magpie/internal/provider/keys.go#L345) |
+| MaxKeyWeight | const_spec |  | [378](../../magpie/internal/provider/keys.go#L378) |
+| SetKeyWeight | function_declaration |  | [382](../../magpie/internal/provider/keys.go#L382) |
+| WeightOf | method_declaration | KeyAccount | [406](../../magpie/internal/provider/keys.go#L406) |
+| WithKey | method_declaration | Provider | [412](../../magpie/internal/provider/keys.go#L412) |
+| findKey | function_declaration |  | [435](../../magpie/internal/provider/keys.go#L435) |
+| KeyOf | function_declaration |  | [450](../../magpie/internal/provider/keys.go#L450) |
+| UseKey | function_declaration |  | [467](../../magpie/internal/provider/keys.go#L467) |
+| promote | function_declaration |  | [488](../../magpie/internal/provider/keys.go#L488) |
+| SetKeyOn | function_declaration |  | [501](../../magpie/internal/provider/keys.go#L501) |
+| RemoveKey | function_declaration |  | [527](../../magpie/internal/provider/keys.go#L527) |
+| RemoveKeys | function_declaration |  | [548](../../magpie/internal/provider/keys.go#L548) |
+| RenameKey | function_declaration |  | [583](../../magpie/internal/provider/keys.go#L583) |
+| ReplaceKey | function_declaration |  | [607](../../magpie/internal/provider/keys.go#L607) |
+| moveKeyed | function_declaration |  | [639](../../magpie/internal/provider/keys.go#L639) |

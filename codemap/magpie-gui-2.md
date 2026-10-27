@@ -9,11 +9,12 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/gui/quota_alert.go](../../magpie/internal/gui/quota_alert.go) | 15 | [1](magpie_internal_gui_quota_alert.go-1d29a95f-1.md) |
 | [magpie/internal/gui/quota_alert_notify.go](../../magpie/internal/gui/quota_alert_notify.go) | 17 | [1](magpie_internal_gui_quota_alert_notify.go-4d7b9b05-1.md) |
 | [magpie/internal/gui/scheme_linux.go](../../magpie/internal/gui/scheme_linux.go) | 5 | [1](magpie_internal_gui_scheme_linux.go-71bdccbe-1.md) |
 | [magpie/internal/gui/scheme_other.go](../../magpie/internal/gui/scheme_other.go) | 2 | [1](magpie_internal_gui_scheme_other.go-7eaf51de-1.md) |
 | [magpie/internal/gui/scheme_windows.go](../../magpie/internal/gui/scheme_windows.go) | 2 | [1](magpie_internal_gui_scheme_windows.go-e83631d5-1.md) |
-| [magpie/internal/gui/sessions.go](../../magpie/internal/gui/sessions.go) | 40 | [1](magpie_internal_gui_sessions.go-c2e6cb8d-1.md) |
+| [magpie/internal/gui/sessions.go](../../magpie/internal/gui/sessions.go) | 42 | [1](magpie_internal_gui_sessions.go-c2e6cb8d-1.md) |
 | [magpie/internal/gui/sessions_codex.go](../../magpie/internal/gui/sessions_codex.go) | 2 | [1](magpie_internal_gui_sessions_codex.go-03d73f78-1.md) |
 | [magpie/internal/gui/sessions_manage.go](../../magpie/internal/gui/sessions_manage.go) | 67 | [1](magpie_internal_gui_sessions_manage.go-a601cc70-1.md) |
 | [magpie/internal/gui/space_darwin.go](../../magpie/internal/gui/space_darwin.go) | 11 | [1](magpie_internal_gui_space_darwin.go-8978fc8b-1.md) |
@@ -46,7 +47,7 @@
 | [magpie/internal/gui/trayusage_tray.go](../../magpie/internal/gui/trayusage_tray.go) | 2 | [1](magpie_internal_gui_trayusage_tray.go-59b40bc8-1.md) |
 | [magpie/internal/gui/tune.go](../../magpie/internal/gui/tune.go) | 23 | [1](magpie_internal_gui_tune.go-881ec432-1.md) |
 | [magpie/internal/gui/turn_done.go](../../magpie/internal/gui/turn_done.go) | 7 | [1](magpie_internal_gui_turn_done.go-516c87b7-1.md) |
-| [magpie/internal/gui/update.go](../../magpie/internal/gui/update.go) | 91 | [1](magpie_internal_gui_update.go-c7f6f67f-1.md) |
+| [magpie/internal/gui/update.go](../../magpie/internal/gui/update.go) | 93 | [1](magpie_internal_gui_update.go-c7f6f67f-1.md) |
 | [magpie/internal/gui/update_wait.go](../../magpie/internal/gui/update_wait.go) | 14 | [1](magpie_internal_gui_update_wait.go-19428dae-1.md) |
 | [magpie/internal/gui/usage.go](../../magpie/internal/gui/usage.go) | 18 | [1](magpie_internal_gui_usage.go-9ded785e-1.md) |
 | [magpie/internal/gui/web.go](../../magpie/internal/gui/web.go) | 44 | [1](magpie_internal_gui_web.go-3764d9bc-1.md) |
@@ -55,7 +56,7 @@
 | [magpie/internal/gui/webview2.go](../../magpie/internal/gui/webview2.go) | 7 | [1](magpie_internal_gui_webview2.go-36dfce66-1.md) |
 | [magpie/internal/gui/webview2_other.go](../../magpie/internal/gui/webview2_other.go) | 1 | [1](magpie_internal_gui_webview2_other.go-2c544ed1-1.md) |
 | [magpie/internal/gui/webview2_windows.go](../../magpie/internal/gui/webview2_windows.go) | 9 | [1](magpie_internal_gui_webview2_windows.go-fa2ffcfb-1.md) |
-| [magpie/internal/gui/whatsnew.go](../../magpie/internal/gui/whatsnew.go) | 38 | [1](magpie_internal_gui_whatsnew.go-1fbac1b3-1.md) |
+| [magpie/internal/gui/whatsnew.go](../../magpie/internal/gui/whatsnew.go) | 39 | [1](magpie_internal_gui_whatsnew.go-1fbac1b3-1.md) |
 | [magpie/internal/gui/window_peer.go](../../magpie/internal/gui/window_peer.go) | 2 | [1](magpie_internal_gui_window_peer.go-d7643a1f-1.md) |
 | [magpie/internal/gui/window_rule.go](../../magpie/internal/gui/window_rule.go) | 7 | [1](magpie_internal_gui_window_rule.go-756908d6-1.md) |
 | [magpie/internal/gui/windowshape/doc.go](../../magpie/internal/gui/windowshape/doc.go) | 0 | [1](magpie_internal_gui_windowshape_doc.go-01147f66-1.md) |

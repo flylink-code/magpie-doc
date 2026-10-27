@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/volcengine_usage.go) · page 1/1
 
-Source SHA-256: 7bd3001f653c3640afeef0ae0dfc9a07e6240c2ccc8c54b6bfc3e75f3e39f377
+Source SHA-256: d1a49ef257b27ab3fe08c2e47e7cb7a4d294e7540ae76df86f35ba140a4f75ef
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

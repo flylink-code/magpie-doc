@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/gateway.go) · page 2/3
 
-Source SHA-256: 71f7e7d8d7a5a8b5ad6342531472b5e91ef1c55c2f4685e91dcae197f4f854a9
+Source SHA-256: 2c3e0488cc02c6d73d4e5f47d15db7cbc4938c49b53ee21c615920283c37c639
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -49,62 +49,62 @@ Source SHA-256: 71f7e7d8d7a5a8b5ad6342531472b5e91ef1c55c2f4685e91dcae197f4f854a9
 | geminiModels | method_declaration | *Server | [1645](../../magpie/internal/gateway/gateway.go#L1645) |
 | estimate | function_declaration |  | [1654](../../magpie/internal/gateway/gateway.go#L1654) |
 | serve | method_declaration | *Server | [1668](../../magpie/internal/gateway/gateway.go#L1668) |
-| refusedError | function_declaration |  | [3796](../../magpie/internal/gateway/gateway.go#L3796) |
-| sinceStart | function_declaration |  | [3802](../../magpie/internal/gateway/gateway.go#L3802) |
-| attempt | method_declaration | *Server | [3811](../../magpie/internal/gateway/gateway.go#L3811) |
-| firstElsewhere | function_declaration |  | [3967](../../magpie/internal/gateway/gateway.go#L3967) |
-| autoPicks | function_declaration |  | [3972](../../magpie/internal/gateway/gateway.go#L3972) |
-| lastUserText | function_declaration |  | [3978](../../magpie/internal/gateway/gateway.go#L3978) |
-| markOpenRouterSharedPool | function_declaration |  | [3995](../../magpie/internal/gateway/gateway.go#L3995) |
-| markAntigravityTurnsAway | function_declaration |  | [4004](../../magpie/internal/gateway/gateway.go#L4004) |
-| markAntigravityRefused | function_declaration |  | [4018](../../magpie/internal/gateway/gateway.go#L4018) |
-| forward | method_declaration | *Server | [4031](../../magpie/internal/gateway/gateway.go#L4031) |
-| forwardOnce | method_declaration | *Server | [4079](../../magpie/internal/gateway/gateway.go#L4079) |
-| countsTokens | function_declaration |  | [4302](../../magpie/internal/gateway/gateway.go#L4302) |
-| fromClaudeCode | function_declaration |  | [4308](../../magpie/internal/gateway/gateway.go#L4308) |
-| claudeCodeHeader | function_declaration |  | [4315](../../magpie/internal/gateway/gateway.go#L4315) |
-| fromCodex | function_declaration |  | [4332](../../magpie/internal/gateway/gateway.go#L4332) |
-| codexClientHeader | function_declaration |  | [4346](../../magpie/internal/gateway/gateway.go#L4346) |
-| passthrough | method_declaration | *Server | [4359](../../magpie/internal/gateway/gateway.go#L4359) |
-| cutMidReply | function_declaration |  | [5129](../../magpie/internal/gateway/gateway.go#L5129) |
-| streamFailure | function_declaration |  | [5135](../../magpie/internal/gateway/gateway.go#L5135) |
-| eventStream | function_declaration |  | [5166](../../magpie/internal/gateway/gateway.go#L5166) |
-| fits | method_declaration | *Server | [5187](../../magpie/internal/gateway/gateway.go#L5187) |
-| markUnfit | method_declaration | *Server | [5193](../../magpie/internal/gateway/gateway.go#L5193) |
-| usable | method_declaration | *Server | [5206](../../magpie/internal/gateway/gateway.go#L5206) |
-| forwardTranslated | method_declaration | *Server | [5229](../../magpie/internal/gateway/gateway.go#L5229) |
-| toolsWithoutEffort | var_spec |  | [5688](../../magpie/internal/gateway/gateway.go#L5688) |
-| mandatoryReasoning | var_spec |  | [5691](../../magpie/internal/gateway/gateway.go#L5691) |
-| servesElsewhere | method_declaration | *Server | [5695](../../magpie/internal/gateway/gateway.go#L5695) |
-| additionalToolsItem | const_spec |  | [5702](../../magpie/internal/gateway/gateway.go#L5702) |
-| loadsInPlace | function_declaration |  | [5713](../../magpie/internal/gateway/gateway.go#L5713) |
-| cacheKeyField | const_spec |  | [5723](../../magpie/internal/gateway/gateway.go#L5723) |
-| refusesField | function_declaration |  | [5728](../../magpie/internal/gateway/gateway.go#L5728) |
-| tierField | const_spec |  | [5734](../../magpie/internal/gateway/gateway.go#L5734) |
-| optionalFields | var_spec |  | [5739](../../magpie/internal/gateway/gateway.go#L5739) |
-| refusedOptional | function_declaration |  | [5745](../../magpie/internal/gateway/gateway.go#L5745) |
-| unknownOptionalField | var_spec |  | [5769](../../magpie/internal/gateway/gateway.go#L5769) |
-| unquotedUnsupportedOptionalField | var_spec |  | [5770](../../magpie/internal/gateway/gateway.go#L5770) |
-| rejectedOptionalField | var_spec |  | [5771](../../magpie/internal/gateway/gateway.go#L5771) |
-| leadingRejectedOptionalField | var_spec |  | [5777](../../magpie/internal/gateway/gateway.go#L5777) |
-| unsupportedOptionalField | function_declaration |  | [5779](../../magpie/internal/gateway/gateway.go#L5779) |
-| hasOptionalErrorObject | function_declaration |  | [5865](../../magpie/internal/gateway/gateway.go#L5865) |
-| withoutRefused | method_declaration | *Server | [5881](../../magpie/internal/gateway/gateway.go#L5881) |
-| messageField | function_declaration |  | [5905](../../magpie/internal/gateway/gateway.go#L5905) |
-| refusedInMessages | function_declaration |  | [5914](../../magpie/internal/gateway/gateway.go#L5914) |
-| fieldAtPosition | var_spec |  | [5957](../../magpie/internal/gateway/gateway.go#L5957) |
-| badRequest | function_declaration |  | [5960](../../magpie/internal/gateway/gateway.go#L5960) |
-| wrongEndpoint | function_declaration |  | [5966](../../magpie/internal/gateway/gateway.go#L5966) |
-| wrongAPINote | function_declaration |  | [6010](../../magpie/internal/gateway/gateway.go#L6010) |
-| asksResponses | function_declaration |  | [6046](../../magpie/internal/gateway/gateway.go#L6046) |
-| translate | method_declaration | *Server | [6059](../../magpie/internal/gateway/gateway.go#L6059) |
-| emptyReply | const_spec |  | [6230](../../magpie/internal/gateway/gateway.go#L6230) |
-| emptyFails | function_declaration |  | [6240](../../magpie/internal/gateway/gateway.go#L6240) |
-| repliesCounted | function_declaration |  | [6251](../../magpie/internal/gateway/gateway.go#L6251) |
-| uncounted | function_declaration |  | [6256](../../magpie/internal/gateway/gateway.go#L6256) |
-| answersNothing | function_declaration |  | [6263](../../magpie/internal/gateway/gateway.go#L6263) |
-| saysSomething | function_declaration |  | [6269](../../magpie/internal/gateway/gateway.go#L6269) |
-| pathOf | function_declaration |  | [6281](../../magpie/internal/gateway/gateway.go#L6281) |
-| upstreamPath | function_declaration |  | [6302](../../magpie/internal/gateway/gateway.go#L6302) |
-| parse | function_declaration |  | [6315](../../magpie/internal/gateway/gateway.go#L6315) |
-| parseIn | function_declaration |  | [6320](../../magpie/internal/gateway/gateway.go#L6320) |
+| refusedError | function_declaration |  | [3826](../../magpie/internal/gateway/gateway.go#L3826) |
+| sinceStart | function_declaration |  | [3832](../../magpie/internal/gateway/gateway.go#L3832) |
+| attempt | method_declaration | *Server | [3841](../../magpie/internal/gateway/gateway.go#L3841) |
+| firstElsewhere | function_declaration |  | [4002](../../magpie/internal/gateway/gateway.go#L4002) |
+| autoPicks | function_declaration |  | [4007](../../magpie/internal/gateway/gateway.go#L4007) |
+| lastUserText | function_declaration |  | [4013](../../magpie/internal/gateway/gateway.go#L4013) |
+| markOpenRouterSharedPool | function_declaration |  | [4030](../../magpie/internal/gateway/gateway.go#L4030) |
+| markAntigravityTurnsAway | function_declaration |  | [4039](../../magpie/internal/gateway/gateway.go#L4039) |
+| markAntigravityRefused | function_declaration |  | [4054](../../magpie/internal/gateway/gateway.go#L4054) |
+| forward | method_declaration | *Server | [4067](../../magpie/internal/gateway/gateway.go#L4067) |
+| forwardOnce | method_declaration | *Server | [4115](../../magpie/internal/gateway/gateway.go#L4115) |
+| countsTokens | function_declaration |  | [4339](../../magpie/internal/gateway/gateway.go#L4339) |
+| fromClaudeCode | function_declaration |  | [4345](../../magpie/internal/gateway/gateway.go#L4345) |
+| claudeCodeHeader | function_declaration |  | [4352](../../magpie/internal/gateway/gateway.go#L4352) |
+| fromCodex | function_declaration |  | [4369](../../magpie/internal/gateway/gateway.go#L4369) |
+| codexAsSent | function_declaration |  | [4382](../../magpie/internal/gateway/gateway.go#L4382) |
+| codexClientHeader | function_declaration |  | [4390](../../magpie/internal/gateway/gateway.go#L4390) |
+| passthrough | method_declaration | *Server | [4403](../../magpie/internal/gateway/gateway.go#L4403) |
+| cutMidReply | function_declaration |  | [5198](../../magpie/internal/gateway/gateway.go#L5198) |
+| streamFailure | function_declaration |  | [5204](../../magpie/internal/gateway/gateway.go#L5204) |
+| eventStream | function_declaration |  | [5235](../../magpie/internal/gateway/gateway.go#L5235) |
+| fits | method_declaration | *Server | [5256](../../magpie/internal/gateway/gateway.go#L5256) |
+| markUnfit | method_declaration | *Server | [5262](../../magpie/internal/gateway/gateway.go#L5262) |
+| usable | method_declaration | *Server | [5275](../../magpie/internal/gateway/gateway.go#L5275) |
+| forwardTranslated | method_declaration | *Server | [5298](../../magpie/internal/gateway/gateway.go#L5298) |
+| toolsWithoutEffort | var_spec |  | [5786](../../magpie/internal/gateway/gateway.go#L5786) |
+| effortRequired | var_spec |  | [5794](../../magpie/internal/gateway/gateway.go#L5794) |
+| mandatoryReasoning | var_spec |  | [5797](../../magpie/internal/gateway/gateway.go#L5797) |
+| servesElsewhere | method_declaration | *Server | [5801](../../magpie/internal/gateway/gateway.go#L5801) |
+| additionalToolsItem | const_spec |  | [5808](../../magpie/internal/gateway/gateway.go#L5808) |
+| loadsInPlace | function_declaration |  | [5819](../../magpie/internal/gateway/gateway.go#L5819) |
+| cacheKeyField | const_spec |  | [5829](../../magpie/internal/gateway/gateway.go#L5829) |
+| refusesField | function_declaration |  | [5834](../../magpie/internal/gateway/gateway.go#L5834) |
+| tierField | const_spec |  | [5840](../../magpie/internal/gateway/gateway.go#L5840) |
+| optionalFields | var_spec |  | [5845](../../magpie/internal/gateway/gateway.go#L5845) |
+| refusedOptional | function_declaration |  | [5851](../../magpie/internal/gateway/gateway.go#L5851) |
+| unknownOptionalField | var_spec |  | [5875](../../magpie/internal/gateway/gateway.go#L5875) |
+| unquotedUnsupportedOptionalField | var_spec |  | [5876](../../magpie/internal/gateway/gateway.go#L5876) |
+| rejectedOptionalField | var_spec |  | [5877](../../magpie/internal/gateway/gateway.go#L5877) |
+| leadingRejectedOptionalField | var_spec |  | [5883](../../magpie/internal/gateway/gateway.go#L5883) |
+| unsupportedOptionalField | function_declaration |  | [5885](../../magpie/internal/gateway/gateway.go#L5885) |
+| hasOptionalErrorObject | function_declaration |  | [5971](../../magpie/internal/gateway/gateway.go#L5971) |
+| withoutRefused | method_declaration | *Server | [5987](../../magpie/internal/gateway/gateway.go#L5987) |
+| messageField | function_declaration |  | [6011](../../magpie/internal/gateway/gateway.go#L6011) |
+| refusedInMessages | function_declaration |  | [6020](../../magpie/internal/gateway/gateway.go#L6020) |
+| fieldAtPosition | var_spec |  | [6063](../../magpie/internal/gateway/gateway.go#L6063) |
+| badRequest | function_declaration |  | [6066](../../magpie/internal/gateway/gateway.go#L6066) |
+| wrongEndpoint | function_declaration |  | [6072](../../magpie/internal/gateway/gateway.go#L6072) |
+| wrongAPINote | function_declaration |  | [6116](../../magpie/internal/gateway/gateway.go#L6116) |
+| asksResponses | function_declaration |  | [6152](../../magpie/internal/gateway/gateway.go#L6152) |
+| translate | method_declaration | *Server | [6165](../../magpie/internal/gateway/gateway.go#L6165) |
+| emptyReply | const_spec |  | [6336](../../magpie/internal/gateway/gateway.go#L6336) |
+| emptyFails | function_declaration |  | [6346](../../magpie/internal/gateway/gateway.go#L6346) |
+| repliesCounted | function_declaration |  | [6357](../../magpie/internal/gateway/gateway.go#L6357) |
+| uncounted | function_declaration |  | [6362](../../magpie/internal/gateway/gateway.go#L6362) |
+| answersNothing | function_declaration |  | [6369](../../magpie/internal/gateway/gateway.go#L6369) |
+| saysSomething | function_declaration |  | [6375](../../magpie/internal/gateway/gateway.go#L6375) |
+| pathOf | function_declaration |  | [6387](../../magpie/internal/gateway/gateway.go#L6387) |
+| upstreamPath | function_declaration |  | [6408](../../magpie/internal/gateway/gateway.go#L6408) |

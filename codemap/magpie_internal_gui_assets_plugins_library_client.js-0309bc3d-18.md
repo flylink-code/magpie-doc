@@ -4,29 +4,30 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 18/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| who | VariableDeclaration | skillSheet | [5322](../../magpie/internal/gui/assets/plugins/library/client.js#L5322) |
-| meta | VariableDeclaration | skillSheet | [5324](../../magpie/internal/gui/assets/plugins/library/client.js#L5324) |
-| about | VariableDeclaration | skillSheet | [5332](../../magpie/internal/gui/assets/plugins/library/client.js#L5332) |
-| src | VariableDeclaration | skillSheet | [5335](../../magpie/internal/gui/assets/plugins/library/client.js#L5335) |
-| agentsBox | VariableDeclaration | skillSheet | [5338](../../magpie/internal/gui/assets/plugins/library/client.js#L5338) |
-| drawAgents | VariableDeclaration | skillSheet | [5339](../../magpie/internal/gui/assets/plugins/library/client.js#L5339) |
-| bar | VariableDeclaration | skillSheet | [5342](../../magpie/internal/gui/assets/plugins/library/client.js#L5342) |
-| save | VariableDeclaration | skillSheet | [5344](../../magpie/internal/gui/assets/plugins/library/client.js#L5344) |
-| go | VariableDeclaration | skillSheet | [5346](../../magpie/internal/gui/assets/plugins/library/client.js#L5346) |
-| openLib | FunctionDeclaration |  | [5362](../../magpie/internal/gui/assets/plugins/library/client.js#L5362) |
-| closeLibModal | FunctionDeclaration |  | [5363](../../magpie/internal/gui/assets/plugins/library/client.js#L5363) |
-| quietLoad | FunctionDeclaration |  | [5373](../../magpie/internal/gui/assets/plugins/library/client.js#L5373) |
-| shelf | VariableDeclaration |  | [5377](../../magpie/internal/gui/assets/plugins/library/client.js#L5377) |
-| mount | MethodDeclaration |  | [5382](../../magpie/internal/gui/assets/plugins/library/client.js#L5382) |
-| open | PropertyAssignment |  | [5399](../../magpie/internal/gui/assets/plugins/library/client.js#L5399) |
-| relang | PropertyAssignment |  | [5400](../../magpie/internal/gui/assets/plugins/library/client.js#L5400) |
-| server | PropertyAssignment |  | [5405](../../magpie/internal/gui/assets/plugins/library/client.js#L5405) |
-| x | VariableDeclaration | server | [5412](../../magpie/internal/gui/assets/plugins/library/client.js#L5412) |
-| redraw | PropertyAssignment |  | [5418](../../magpie/internal/gui/assets/plugins/library/client.js#L5418) |
-| close | PropertyAssignment |  | [5420](../../magpie/internal/gui/assets/plugins/library/client.js#L5420) |
-| dirty | PropertyAssignment |  | [5421](../../magpie/internal/gui/assets/plugins/library/client.js#L5421) |
-| discard | PropertyAssignment |  | [5422](../../magpie/internal/gui/assets/plugins/library/client.js#L5422) |
+| head | VariableDeclaration | skillSheet | [5332](../../magpie/internal/gui/assets/plugins/library/client.js#L5332) |
+| who | VariableDeclaration | skillSheet | [5333](../../magpie/internal/gui/assets/plugins/library/client.js#L5333) |
+| meta | VariableDeclaration | skillSheet | [5335](../../magpie/internal/gui/assets/plugins/library/client.js#L5335) |
+| about | VariableDeclaration | skillSheet | [5343](../../magpie/internal/gui/assets/plugins/library/client.js#L5343) |
+| src | VariableDeclaration | skillSheet | [5346](../../magpie/internal/gui/assets/plugins/library/client.js#L5346) |
+| agentsBox | VariableDeclaration | skillSheet | [5349](../../magpie/internal/gui/assets/plugins/library/client.js#L5349) |
+| drawAgents | VariableDeclaration | skillSheet | [5350](../../magpie/internal/gui/assets/plugins/library/client.js#L5350) |
+| bar | VariableDeclaration | skillSheet | [5353](../../magpie/internal/gui/assets/plugins/library/client.js#L5353) |
+| save | VariableDeclaration | skillSheet | [5355](../../magpie/internal/gui/assets/plugins/library/client.js#L5355) |
+| go | VariableDeclaration | skillSheet | [5357](../../magpie/internal/gui/assets/plugins/library/client.js#L5357) |
+| openLib | FunctionDeclaration |  | [5373](../../magpie/internal/gui/assets/plugins/library/client.js#L5373) |
+| closeLibModal | FunctionDeclaration |  | [5374](../../magpie/internal/gui/assets/plugins/library/client.js#L5374) |
+| quietLoad | FunctionDeclaration |  | [5384](../../magpie/internal/gui/assets/plugins/library/client.js#L5384) |
+| shelf | VariableDeclaration |  | [5388](../../magpie/internal/gui/assets/plugins/library/client.js#L5388) |
+| mount | MethodDeclaration |  | [5393](../../magpie/internal/gui/assets/plugins/library/client.js#L5393) |
+| open | PropertyAssignment |  | [5410](../../magpie/internal/gui/assets/plugins/library/client.js#L5410) |
+| relang | PropertyAssignment |  | [5411](../../magpie/internal/gui/assets/plugins/library/client.js#L5411) |
+| server | PropertyAssignment |  | [5416](../../magpie/internal/gui/assets/plugins/library/client.js#L5416) |
+| x | VariableDeclaration | server | [5423](../../magpie/internal/gui/assets/plugins/library/client.js#L5423) |
+| redraw | PropertyAssignment |  | [5429](../../magpie/internal/gui/assets/plugins/library/client.js#L5429) |
+| close | PropertyAssignment |  | [5431](../../magpie/internal/gui/assets/plugins/library/client.js#L5431) |
+| dirty | PropertyAssignment |  | [5432](../../magpie/internal/gui/assets/plugins/library/client.js#L5432) |
+| discard | PropertyAssignment |  | [5433](../../magpie/internal/gui/assets/plugins/library/client.js#L5433) |

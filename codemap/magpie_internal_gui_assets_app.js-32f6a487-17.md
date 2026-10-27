@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 17/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| said | VariableDeclaration | unmovedLine | [6428](../../magpie/internal/gui/assets/app.js#L6428) |
-| why | VariableDeclaration | unmovedLine | [6429](../../magpie/internal/gui/assets/app.js#L6429) |
-| acts | VariableDeclaration | unmovedLine | [6432](../../magpie/internal/gui/assets/app.js#L6432) |
-| b | VariableDeclaration | unmovedLine | [6433](../../magpie/internal/gui/assets/app.js#L6433) |
-| now | VariableDeclaration | unmovedLine | [6443](../../magpie/internal/gui/assets/app.js#L6443) |
-| accts | VariableDeclaration | unmovedLine | [6444](../../magpie/internal/gui/assets/app.js#L6444) |
-| models | VariableDeclaration | unmovedLine | [6444](../../magpie/internal/gui/assets/app.js#L6444) |
-| e | VariableDeclaration | unmovedLine | [6452](../../magpie/internal/gui/assets/app.js#L6452) |
-| renderExcluded | FunctionDeclaration |  | [6464](../../magpie/internal/gui/assets/app.js#L6464) |
-| box | VariableDeclaration | renderExcluded | [6465](../../magpie/internal/gui/assets/app.js#L6465) |
-| x | VariableDeclaration | renderExcluded | [6467](../../magpie/internal/gui/assets/app.js#L6467) |
-| r | VariableDeclaration | renderExcluded | [6469](../../magpie/internal/gui/assets/app.js#L6469) |
-| back | VariableDeclaration | renderExcluded | [6473](../../magpie/internal/gui/assets/app.js#L6473) |
-| quiet | VariableDeclaration | renderExcluded | [6475](../../magpie/internal/gui/assets/app.js#L6475) |
-| out | VariableDeclaration | renderExcluded | [6478](../../magpie/internal/gui/assets/app.js#L6478) |
-| again | VariableDeclaration | renderExcluded | [6488](../../magpie/internal/gui/assets/app.js#L6488) |
-| rm | VariableDeclaration | renderExcluded | [6494](../../magpie/internal/gui/assets/app.js#L6494) |
-| askForgetSaved | FunctionDeclaration |  | [6507](../../magpie/internal/gui/assets/app.js#L6507) |
-| ed | VariableDeclaration | askForgetSaved | [6508](../../magpie/internal/gui/assets/app.js#L6508) |
-| head | VariableDeclaration | askForgetSaved | [6509](../../magpie/internal/gui/assets/app.js#L6509) |
-| bar | VariableDeclaration | askForgetSaved | [6513](../../magpie/internal/gui/assets/app.js#L6513) |
-| go | VariableDeclaration | askForgetSaved | [6514](../../magpie/internal/gui/assets/app.js#L6514) |
-| [i, user] | VariableDeclaration | askForgetSaved | [6519](../../magpie/internal/gui/assets/app.js#L6519) |
-| i | BindingElement | askForgetSaved.[i, user] | [6519](../../magpie/internal/gui/assets/app.js#L6519) |
-| user | BindingElement | askForgetSaved.[i, user] | [6519](../../magpie/internal/gui/assets/app.js#L6519) |
-| last | VariableDeclaration | askForgetSaved | [6520](../../magpie/internal/gui/assets/app.js#L6520) |
-| cancel | VariableDeclaration | askForgetSaved | [6529](../../magpie/internal/gui/assets/app.js#L6529) |
-| askForgetAccount | FunctionDeclaration |  | [6543](../../magpie/internal/gui/assets/app.js#L6543) |
-| ed | VariableDeclaration | askForgetAccount | [6544](../../magpie/internal/gui/assets/app.js#L6544) |
-| head | VariableDeclaration | askForgetAccount | [6545](../../magpie/internal/gui/assets/app.js#L6545) |
-| bar | VariableDeclaration | askForgetAccount | [6551](../../magpie/internal/gui/assets/app.js#L6551) |
-| go | VariableDeclaration | askForgetAccount | [6552](../../magpie/internal/gui/assets/app.js#L6552) |
-| cancel | VariableDeclaration | askForgetAccount | [6562](../../magpie/internal/gui/assets/app.js#L6562) |
-| askSignOutLogin | FunctionDeclaration |  | [6576](../../magpie/internal/gui/assets/app.js#L6576) |
-| ed | VariableDeclaration | askSignOutLogin | [6577](../../magpie/internal/gui/assets/app.js#L6577) |
-| head | VariableDeclaration | askSignOutLogin | [6578](../../magpie/internal/gui/assets/app.js#L6578) |
-| bar | VariableDeclaration | askSignOutLogin | [6582](../../magpie/internal/gui/assets/app.js#L6582) |
-| go | VariableDeclaration | askSignOutLogin | [6583](../../magpie/internal/gui/assets/app.js#L6583) |
-| cancel | VariableDeclaration | askSignOutLogin | [6591](../../magpie/internal/gui/assets/app.js#L6591) |
-| accountPlan | FunctionDeclaration |  | [6604](../../magpie/internal/gui/assets/app.js#L6604) |
-| agent | VariableDeclaration | accountPlan | [6606](../../magpie/internal/gui/assets/app.js#L6606) |
-| cap | VariableDeclaration | accountPlan | [6607](../../magpie/internal/gui/assets/app.js#L6607) |
-| named | VariableDeclaration | accountPlan | [6609](../../magpie/internal/gui/assets/app.js#L6609) |
-| w | VariableDeclaration | accountPlan.named | [6611](../../magpie/internal/gui/assets/app.js#L6611) |
-| i | VariableDeclaration | accountPlan.named | [6612](../../magpie/internal/gui/assets/app.js#L6612) |
-| copy | FunctionDeclaration |  | [6648](../../magpie/internal/gui/assets/app.js#L6648) |
-| done | VariableDeclaration | copy | [6649](../../magpie/internal/gui/assets/app.js#L6649) |
-| res | VariableDeclaration | copy | [6650](../../magpie/internal/gui/assets/app.js#L6650) |
-| copyByCommand | FunctionDeclaration |  | [6660](../../magpie/internal/gui/assets/app.js#L6660) |
-| was | VariableDeclaration | copyByCommand | [6661](../../magpie/internal/gui/assets/app.js#L6661) |
-| box | VariableDeclaration | copyByCommand | [6662](../../magpie/internal/gui/assets/app.js#L6662) |
-| ok | VariableDeclaration | copyByCommand | [6667](../../magpie/internal/gui/assets/app.js#L6667) |
-| flashCopied | FunctionDeclaration |  | [6682](../../magpie/internal/gui/assets/app.js#L6682) |
-| copyBtn | FunctionDeclaration |  | [6697](../../magpie/internal/gui/assets/app.js#L6697) |
-| b | VariableDeclaration | copyBtn | [6698](../../magpie/internal/gui/assets/app.js#L6698) |
-| decideEntry | VariableDeclaration |  | [6706](../../magpie/internal/gui/assets/app.js#L6706) |
-| segsMade | VariableDeclaration |  | [6708](../../magpie/internal/gui/assets/app.js#L6708) |
-| segs | FunctionDeclaration |  | [6709](../../magpie/internal/gui/assets/app.js#L6709) |
-| box | VariableDeclaration | segs | [6710](../../magpie/internal/gui/assets/app.js#L6710) |
-| kind | VariableDeclaration | segs | [6711](../../magpie/internal/gui/assets/app.js#L6711) |
-| id | BindingElement | segs.kind | [6711](../../magpie/internal/gui/assets/app.js#L6711) |
-| key | VariableDeclaration | segs | [6718](../../magpie/internal/gui/assets/app.js#L6718) |
-| [id, name] | VariableDeclaration | segs | [6719](../../magpie/internal/gui/assets/app.js#L6719) |
-| id | BindingElement | segs.[id, name] | [6719](../../magpie/internal/gui/assets/app.js#L6719) |
-| name | BindingElement | segs.[id, name] | [6719](../../magpie/internal/gui/assets/app.js#L6719) |
-| b | VariableDeclaration | segs | [6720](../../magpie/internal/gui/assets/app.js#L6720) |
-| x | VariableDeclaration | segs | [6724](../../magpie/internal/gui/assets/app.js#L6724) |
-| segsPlace | FunctionDeclaration |  | [6741](../../magpie/internal/gui/assets/app.js#L6741) |
-| home | VariableDeclaration | segsPlace | [6742](../../magpie/internal/gui/assets/app.js#L6742) |
-| segsPress | VariableDeclaration |  | [6753](../../magpie/internal/gui/assets/app.js#L6753) |
-| optAt | VariableDeclaration |  | [6754](../../magpie/internal/gui/assets/app.js#L6754) |
-| segsWho | FunctionDeclaration |  | [6758](../../magpie/internal/gui/assets/app.js#L6758) |
-| place | VariableDeclaration | segsWho | [6759](../../magpie/internal/gui/assets/app.js#L6759) |
-| home | VariableDeclaration | segsWho | [6761](../../magpie/internal/gui/assets/app.js#L6761) |
-| rows | VariableDeclaration | segsWho | [6761](../../magpie/internal/gui/assets/app.js#L6761) |
-| n | VariableDeclaration | segsWho | [6762](../../magpie/internal/gui/assets/app.js#L6762) |
-| b | VariableDeclaration |  | [6766](../../magpie/internal/gui/assets/app.js#L6766) |
-| p | VariableDeclaration |  | [6771](../../magpie/internal/gui/assets/app.js#L6771) |
-| b | VariableDeclaration |  | [6774](../../magpie/internal/gui/assets/app.js#L6774) |
-| clicked | VariableDeclaration |  | [6777](../../magpie/internal/gui/assets/app.js#L6777) |
-| seen | VariableDeclaration |  | [6778](../../magpie/internal/gui/assets/app.js#L6778) |
-| NAME_SORTS | VariableDeclaration |  | [6791](../../magpie/internal/gui/assets/app.js#L6791) |
-| sortOf | FunctionDeclaration |  | [6792](../../magpie/internal/gui/assets/app.js#L6792) |
-| v | VariableDeclaration | sortOf | [6793](../../magpie/internal/gui/assets/app.js#L6793) |
-| id | BindingElement | sortOf | [6795](../../magpie/internal/gui/assets/app.js#L6795) |
-| sortBy | FunctionDeclaration |  | [6797](../../magpie/internal/gui/assets/app.js#L6797) |
-| box | VariableDeclaration | sortBy | [6798](../../magpie/internal/gui/assets/app.js#L6798) |
-| tips | VariableDeclaration | sortBy | [6804](../../magpie/internal/gui/assets/app.js#L6804) |
-| [i, b] | VariableDeclaration | sortBy | [6805](../../magpie/internal/gui/assets/app.js#L6805) |
-| i | BindingElement | sortBy.[i, b] | [6805](../../magpie/internal/gui/assets/app.js#L6805) |
-| b | BindingElement | sortBy.[i, b] | [6805](../../magpie/internal/gui/assets/app.js#L6805) |
-| byName | VariableDeclaration |  | [6809](../../magpie/internal/gui/assets/app.js#L6809) |
-| KEYWORDS | VariableDeclaration |  | [6813](../../magpie/internal/gui/assets/app.js#L6813) |
-| highlight | FunctionDeclaration |  | [6819](../../magpie/internal/gui/assets/app.js#L6819) |
-| re | VariableDeclaration | highlight | [6820](../../magpie/internal/gui/assets/app.js#L6820) |
-| out | VariableDeclaration | highlight | [6823](../../magpie/internal/gui/assets/app.js#L6823) |
-| kw | VariableDeclaration | highlight | [6824](../../magpie/internal/gui/assets/app.js#L6824) |
-| m | VariableDeclaration | highlight | [6825](../../magpie/internal/gui/assets/app.js#L6825) |
-| v | VariableDeclaration | highlight | [6830](../../magpie/internal/gui/assets/app.js#L6830) |
-| s | VariableDeclaration | highlight | [6832](../../magpie/internal/gui/assets/app.js#L6832) |
+| acts | VariableDeclaration | renderMovable | [6436](../../magpie/internal/gui/assets/app.js#L6436) |
+| hide | VariableDeclaration | renderMovable | [6437](../../magpie/internal/gui/assets/app.js#L6437) |
+| review | VariableDeclaration | renderMovable | [6440](../../magpie/internal/gui/assets/app.js#L6440) |
+| unmovedSaid | VariableDeclaration |  | [6454](../../magpie/internal/gui/assets/app.js#L6454) |
+| unmovedLine | FunctionDeclaration |  | [6455](../../magpie/internal/gui/assets/app.js#L6455) |
+| card | VariableDeclaration | unmovedLine | [6456](../../magpie/internal/gui/assets/app.js#L6456) |
+| body | VariableDeclaration | unmovedLine | [6459](../../magpie/internal/gui/assets/app.js#L6459) |
+| said | VariableDeclaration | unmovedLine | [6460](../../magpie/internal/gui/assets/app.js#L6460) |
+| why | VariableDeclaration | unmovedLine | [6461](../../magpie/internal/gui/assets/app.js#L6461) |
+| acts | VariableDeclaration | unmovedLine | [6464](../../magpie/internal/gui/assets/app.js#L6464) |
+| b | VariableDeclaration | unmovedLine | [6465](../../magpie/internal/gui/assets/app.js#L6465) |
+| now | VariableDeclaration | unmovedLine | [6475](../../magpie/internal/gui/assets/app.js#L6475) |
+| accts | VariableDeclaration | unmovedLine | [6476](../../magpie/internal/gui/assets/app.js#L6476) |
+| models | VariableDeclaration | unmovedLine | [6476](../../magpie/internal/gui/assets/app.js#L6476) |
+| e | VariableDeclaration | unmovedLine | [6484](../../magpie/internal/gui/assets/app.js#L6484) |
+| renderExcluded | FunctionDeclaration |  | [6496](../../magpie/internal/gui/assets/app.js#L6496) |
+| box | VariableDeclaration | renderExcluded | [6497](../../magpie/internal/gui/assets/app.js#L6497) |
+| x | VariableDeclaration | renderExcluded | [6499](../../magpie/internal/gui/assets/app.js#L6499) |
+| r | VariableDeclaration | renderExcluded | [6501](../../magpie/internal/gui/assets/app.js#L6501) |
+| back | VariableDeclaration | renderExcluded | [6505](../../magpie/internal/gui/assets/app.js#L6505) |
+| quiet | VariableDeclaration | renderExcluded | [6507](../../magpie/internal/gui/assets/app.js#L6507) |
+| out | VariableDeclaration | renderExcluded | [6510](../../magpie/internal/gui/assets/app.js#L6510) |
+| again | VariableDeclaration | renderExcluded | [6520](../../magpie/internal/gui/assets/app.js#L6520) |
+| rm | VariableDeclaration | renderExcluded | [6526](../../magpie/internal/gui/assets/app.js#L6526) |
+| askForgetSaved | FunctionDeclaration |  | [6539](../../magpie/internal/gui/assets/app.js#L6539) |
+| ed | VariableDeclaration | askForgetSaved | [6540](../../magpie/internal/gui/assets/app.js#L6540) |
+| head | VariableDeclaration | askForgetSaved | [6541](../../magpie/internal/gui/assets/app.js#L6541) |
+| bar | VariableDeclaration | askForgetSaved | [6545](../../magpie/internal/gui/assets/app.js#L6545) |
+| go | VariableDeclaration | askForgetSaved | [6546](../../magpie/internal/gui/assets/app.js#L6546) |
+| [i, user] | VariableDeclaration | askForgetSaved | [6551](../../magpie/internal/gui/assets/app.js#L6551) |
+| i | BindingElement | askForgetSaved.[i, user] | [6551](../../magpie/internal/gui/assets/app.js#L6551) |
+| user | BindingElement | askForgetSaved.[i, user] | [6551](../../magpie/internal/gui/assets/app.js#L6551) |
+| last | VariableDeclaration | askForgetSaved | [6552](../../magpie/internal/gui/assets/app.js#L6552) |
+| cancel | VariableDeclaration | askForgetSaved | [6561](../../magpie/internal/gui/assets/app.js#L6561) |
+| askForgetAccount | FunctionDeclaration |  | [6575](../../magpie/internal/gui/assets/app.js#L6575) |
+| ed | VariableDeclaration | askForgetAccount | [6576](../../magpie/internal/gui/assets/app.js#L6576) |
+| head | VariableDeclaration | askForgetAccount | [6577](../../magpie/internal/gui/assets/app.js#L6577) |
+| bar | VariableDeclaration | askForgetAccount | [6583](../../magpie/internal/gui/assets/app.js#L6583) |
+| go | VariableDeclaration | askForgetAccount | [6584](../../magpie/internal/gui/assets/app.js#L6584) |
+| cancel | VariableDeclaration | askForgetAccount | [6594](../../magpie/internal/gui/assets/app.js#L6594) |
+| askSignOutLogin | FunctionDeclaration |  | [6608](../../magpie/internal/gui/assets/app.js#L6608) |
+| ed | VariableDeclaration | askSignOutLogin | [6609](../../magpie/internal/gui/assets/app.js#L6609) |
+| head | VariableDeclaration | askSignOutLogin | [6610](../../magpie/internal/gui/assets/app.js#L6610) |
+| bar | VariableDeclaration | askSignOutLogin | [6614](../../magpie/internal/gui/assets/app.js#L6614) |
+| go | VariableDeclaration | askSignOutLogin | [6615](../../magpie/internal/gui/assets/app.js#L6615) |
+| cancel | VariableDeclaration | askSignOutLogin | [6623](../../magpie/internal/gui/assets/app.js#L6623) |
+| accountPlan | FunctionDeclaration |  | [6636](../../magpie/internal/gui/assets/app.js#L6636) |
+| agent | VariableDeclaration | accountPlan | [6638](../../magpie/internal/gui/assets/app.js#L6638) |
+| cap | VariableDeclaration | accountPlan | [6639](../../magpie/internal/gui/assets/app.js#L6639) |
+| named | VariableDeclaration | accountPlan | [6641](../../magpie/internal/gui/assets/app.js#L6641) |
+| w | VariableDeclaration | accountPlan.named | [6643](../../magpie/internal/gui/assets/app.js#L6643) |
+| i | VariableDeclaration | accountPlan.named | [6644](../../magpie/internal/gui/assets/app.js#L6644) |
+| copy | FunctionDeclaration |  | [6680](../../magpie/internal/gui/assets/app.js#L6680) |
+| done | VariableDeclaration | copy | [6681](../../magpie/internal/gui/assets/app.js#L6681) |
+| res | VariableDeclaration | copy | [6682](../../magpie/internal/gui/assets/app.js#L6682) |
+| copyByCommand | FunctionDeclaration |  | [6692](../../magpie/internal/gui/assets/app.js#L6692) |
+| was | VariableDeclaration | copyByCommand | [6693](../../magpie/internal/gui/assets/app.js#L6693) |
+| box | VariableDeclaration | copyByCommand | [6694](../../magpie/internal/gui/assets/app.js#L6694) |
+| ok | VariableDeclaration | copyByCommand | [6699](../../magpie/internal/gui/assets/app.js#L6699) |
+| flashCopied | FunctionDeclaration |  | [6714](../../magpie/internal/gui/assets/app.js#L6714) |
+| copyBtn | FunctionDeclaration |  | [6729](../../magpie/internal/gui/assets/app.js#L6729) |
+| b | VariableDeclaration | copyBtn | [6730](../../magpie/internal/gui/assets/app.js#L6730) |
+| decideEntry | VariableDeclaration |  | [6738](../../magpie/internal/gui/assets/app.js#L6738) |
+| segsMade | VariableDeclaration |  | [6740](../../magpie/internal/gui/assets/app.js#L6740) |
+| segs | FunctionDeclaration |  | [6741](../../magpie/internal/gui/assets/app.js#L6741) |
+| box | VariableDeclaration | segs | [6742](../../magpie/internal/gui/assets/app.js#L6742) |
+| kind | VariableDeclaration | segs | [6743](../../magpie/internal/gui/assets/app.js#L6743) |
+| id | BindingElement | segs.kind | [6743](../../magpie/internal/gui/assets/app.js#L6743) |
+| key | VariableDeclaration | segs | [6750](../../magpie/internal/gui/assets/app.js#L6750) |
+| [id, name] | VariableDeclaration | segs | [6751](../../magpie/internal/gui/assets/app.js#L6751) |
+| id | BindingElement | segs.[id, name] | [6751](../../magpie/internal/gui/assets/app.js#L6751) |
+| name | BindingElement | segs.[id, name] | [6751](../../magpie/internal/gui/assets/app.js#L6751) |
+| b | VariableDeclaration | segs | [6752](../../magpie/internal/gui/assets/app.js#L6752) |
+| x | VariableDeclaration | segs | [6756](../../magpie/internal/gui/assets/app.js#L6756) |
+| segsPlace | FunctionDeclaration |  | [6773](../../magpie/internal/gui/assets/app.js#L6773) |
+| home | VariableDeclaration | segsPlace | [6774](../../magpie/internal/gui/assets/app.js#L6774) |
+| segsPress | VariableDeclaration |  | [6785](../../magpie/internal/gui/assets/app.js#L6785) |
+| optAt | VariableDeclaration |  | [6786](../../magpie/internal/gui/assets/app.js#L6786) |
+| segsWho | FunctionDeclaration |  | [6790](../../magpie/internal/gui/assets/app.js#L6790) |
+| place | VariableDeclaration | segsWho | [6791](../../magpie/internal/gui/assets/app.js#L6791) |
+| home | VariableDeclaration | segsWho | [6793](../../magpie/internal/gui/assets/app.js#L6793) |
+| rows | VariableDeclaration | segsWho | [6793](../../magpie/internal/gui/assets/app.js#L6793) |
+| n | VariableDeclaration | segsWho | [6794](../../magpie/internal/gui/assets/app.js#L6794) |
+| b | VariableDeclaration |  | [6798](../../magpie/internal/gui/assets/app.js#L6798) |
+| p | VariableDeclaration |  | [6803](../../magpie/internal/gui/assets/app.js#L6803) |
+| b | VariableDeclaration |  | [6806](../../magpie/internal/gui/assets/app.js#L6806) |
+| clicked | VariableDeclaration |  | [6809](../../magpie/internal/gui/assets/app.js#L6809) |
+| seen | VariableDeclaration |  | [6810](../../magpie/internal/gui/assets/app.js#L6810) |
+| NAME_SORTS | VariableDeclaration |  | [6823](../../magpie/internal/gui/assets/app.js#L6823) |
+| sortOf | FunctionDeclaration |  | [6824](../../magpie/internal/gui/assets/app.js#L6824) |
+| v | VariableDeclaration | sortOf | [6825](../../magpie/internal/gui/assets/app.js#L6825) |
+| id | BindingElement | sortOf | [6827](../../magpie/internal/gui/assets/app.js#L6827) |
+| sortBy | FunctionDeclaration |  | [6829](../../magpie/internal/gui/assets/app.js#L6829) |
+| box | VariableDeclaration | sortBy | [6830](../../magpie/internal/gui/assets/app.js#L6830) |
+| tips | VariableDeclaration | sortBy | [6836](../../magpie/internal/gui/assets/app.js#L6836) |
+| [i, b] | VariableDeclaration | sortBy | [6837](../../magpie/internal/gui/assets/app.js#L6837) |
+| i | BindingElement | sortBy.[i, b] | [6837](../../magpie/internal/gui/assets/app.js#L6837) |
+| b | BindingElement | sortBy.[i, b] | [6837](../../magpie/internal/gui/assets/app.js#L6837) |
+| byName | VariableDeclaration |  | [6841](../../magpie/internal/gui/assets/app.js#L6841) |
+| KEYWORDS | VariableDeclaration |  | [6845](../../magpie/internal/gui/assets/app.js#L6845) |

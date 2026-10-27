@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 31/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| head | VariableDeclaration | renderModels.drawNames | [11301](../../magpie/internal/gui/assets/app.js#L11301) |
-| fold | VariableDeclaration | renderModels.drawNames | [11302](../../magpie/internal/gui/assets/app.js#L11302) |
-| ids | VariableDeclaration | renderModels.drawNames | [11313](../../magpie/internal/gui/assets/app.js#L11313) |
-| prefs | VariableDeclaration | renderModels.drawNames | [11315](../../magpie/internal/gui/assets/app.js#L11315) |
-| sfx | VariableDeclaration | renderModels.drawNames | [11319](../../magpie/internal/gui/assets/app.js#L11319) |
-| sfxSaid | VariableDeclaration | renderModels.drawNames | [11320](../../magpie/internal/gui/assets/app.js#L11320) |
-| first | VariableDeclaration | renderModels.drawNames | [11321](../../magpie/internal/gui/assets/app.js#L11321) |
-| sayLabel | VariableDeclaration | renderModels.drawNames | [11322](../../magpie/internal/gui/assets/app.js#L11322) |
-| name | VariableDeclaration | renderModels.drawNames.sayLabel | [11323](../../magpie/internal/gui/assets/app.js#L11323) |
-| base | VariableDeclaration | renderModels.drawNames.sayLabel | [11324](../../magpie/internal/gui/assets/app.js#L11324) |
-| label | VariableDeclaration | renderModels.drawNames.sayLabel | [11325](../../magpie/internal/gui/assets/app.js#L11325) |
-| where | VariableDeclaration | renderModels.drawNames | [11334](../../magpie/internal/gui/assets/app.js#L11334) |
-| apis | VariableDeclaration | renderModels.drawNames | [11344](../../magpie/internal/gui/assets/app.js#L11344) |
-| id | VariableDeclaration | renderModels.drawNames | [11345](../../magpie/internal/gui/assets/app.js#L11345) |
-| m | VariableDeclaration | renderModels.drawNames | [11346](../../magpie/internal/gui/assets/app.js#L11346) |
-| own | VariableDeclaration | renderModels.drawNames | [11347](../../magpie/internal/gui/assets/app.js#L11347) |
-| pref | VariableDeclaration | renderModels.drawNames | [11349](../../magpie/internal/gui/assets/app.js#L11349) |
-| savedName | VariableDeclaration | renderModels.drawNames | [11350](../../magpie/internal/gui/assets/app.js#L11350) |
-| levels | VariableDeclaration | renderModels.drawNames | [11351](../../magpie/internal/gui/assets/app.js#L11351) |
-| savedKept | VariableDeclaration | renderModels.drawNames | [11352](../../magpie/internal/gui/assets/app.js#L11352) |
-| nameNow | VariableDeclaration | renderModels.drawNames | [11353](../../magpie/internal/gui/assets/app.js#L11353) |
-| noneNow | VariableDeclaration | renderModels.drawNames | [11357](../../magpie/internal/gui/assets/app.js#L11357) |
-| keptNow | VariableDeclaration | renderModels.drawNames | [11358](../../magpie/internal/gui/assets/app.js#L11358) |
-| imagesNow | VariableDeclaration | renderModels.drawNames | [11359](../../magpie/internal/gui/assets/app.js#L11359) |
-| row | VariableDeclaration | renderModels.drawNames | [11360](../../magpie/internal/gui/assets/app.js#L11360) |
-| name | VariableDeclaration | renderModels.drawNames | [11361](../../magpie/internal/gui/assets/app.js#L11361) |
-| v | VariableDeclaration | renderModels.drawNames | [11364](../../magpie/internal/gui/assets/app.js#L11364) |
-| who | VariableDeclaration | renderModels.drawNames | [11369](../../magpie/internal/gui/assets/app.js#L11369) |
-| sameNow | VariableDeclaration | renderModels.drawNames | [11377](../../magpie/internal/gui/assets/app.js#L11377) |
-| sameBox | VariableDeclaration | renderModels.drawNames | [11378](../../magpie/internal/gui/assets/app.js#L11378) |
-| same | VariableDeclaration | renderModels.drawNames | [11379](../../magpie/internal/gui/assets/app.js#L11379) |
-| v | VariableDeclaration | renderModels.drawNames | [11383](../../magpie/internal/gui/assets/app.js#L11383) |
-| parts | VariableDeclaration | renderModels.drawNames | [11399](../../magpie/internal/gui/assets/app.js#L11399) |
-| tierParts | VariableDeclaration | renderModels.drawNames | [11400](../../magpie/internal/gui/assets/app.js#L11400) |
-| priceNow | VariableDeclaration | renderModels.drawNames | [11401](../../magpie/internal/gui/assets/app.js#L11401) |
-| shown | VariableDeclaration | renderModels.drawNames | [11402](../../magpie/internal/gui/assets/app.js#L11402) |
-| listTier | VariableDeclaration | renderModels.drawNames | [11403](../../magpie/internal/gui/assets/app.js#L11403) |
-| priceBox | VariableDeclaration | renderModels.drawNames | [11404](../../magpie/internal/gui/assets/app.js#L11404) |
-| typed | VariableDeclaration | renderModels.drawNames | [11410](../../magpie/internal/gui/assets/app.js#L11410) |
-| cell | VariableDeclaration | renderModels.drawNames | [11411](../../magpie/internal/gui/assets/app.js#L11411) |
-| i | VariableDeclaration | renderModels.drawNames.cell | [11412](../../magpie/internal/gui/assets/app.js#L11412) |
-| oneHour | VariableDeclaration | renderModels.drawNames | [11421](../../magpie/internal/gui/assets/app.js#L11421) |
-| cells | VariableDeclaration | renderModels.drawNames | [11422](../../magpie/internal/gui/assets/app.js#L11422) |
-| k | BindingElement | renderModels.drawNames.cells | [11422](../../magpie/internal/gui/assets/app.js#L11422) |
-| l | BindingElement | renderModels.drawNames.cells | [11422](../../magpie/internal/gui/assets/app.js#L11422) |
-| box | VariableDeclaration | renderModels.drawNames.cells | [11423](../../magpie/internal/gui/assets/app.js#L11423) |
-| pr | VariableDeclaration | renderModels.drawNames.cells | [11424](../../magpie/internal/gui/assets/app.js#L11424) |
-| value | VariableDeclaration | renderModels.drawNames.cells | [11425](../../magpie/internal/gui/assets/app.js#L11425) |
-| placeholder | VariableDeclaration | renderModels.drawNames.cells | [11426](../../magpie/internal/gui/assets/app.js#L11426) |
-| i | VariableDeclaration | renderModels.drawNames.cells | [11427](../../magpie/internal/gui/assets/app.js#L11427) |
-| tierRow | VariableDeclaration | renderModels.drawNames | [11438](../../magpie/internal/gui/assets/app.js#L11438) |
-| tierNow | VariableDeclaration | renderModels.drawNames | [11440](../../magpie/internal/gui/assets/app.js#L11440) |
-| above | VariableDeclaration | renderModels.drawNames | [11441](../../magpie/internal/gui/assets/app.js#L11441) |
-| overBox | VariableDeclaration | renderModels.drawNames | [11443](../../magpie/internal/gui/assets/app.js#L11443) |
-| tierCells | VariableDeclaration | renderModels.drawNames | [11446](../../magpie/internal/gui/assets/app.js#L11446) |
-| k | BindingElement | renderModels.drawNames.tierCells | [11446](../../magpie/internal/gui/assets/app.js#L11446) |
-| l | BindingElement | renderModels.drawNames.tierCells | [11446](../../magpie/internal/gui/assets/app.js#L11446) |
-| box | VariableDeclaration | renderModels.drawNames.tierCells | [11447](../../magpie/internal/gui/assets/app.js#L11447) |
-| i | VariableDeclaration | renderModels.drawNames.tierCells | [11448](../../magpie/internal/gui/assets/app.js#L11448) |
-| moreTier | VariableDeclaration | renderModels.drawNames | [11453](../../magpie/internal/gui/assets/app.js#L11453) |
-| tierOpen | VariableDeclaration | renderModels.drawNames | [11455](../../magpie/internal/gui/assets/app.js#L11455) |
-| drawTier | VariableDeclaration | renderModels.drawNames | [11457](../../magpie/internal/gui/assets/app.js#L11457) |
-| showPrice | VariableDeclaration | renderModels.drawNames | [11463](../../magpie/internal/gui/assets/app.js#L11463) |
-| pr | VariableDeclaration | renderModels.drawNames.showPrice | [11464](../../magpie/internal/gui/assets/app.js#L11464) |
-| k | VariableDeclaration | renderModels.drawNames.showPrice | [11465](../../magpie/internal/gui/assets/app.js#L11465) |
-| tr | VariableDeclaration | renderModels.drawNames.showPrice | [11466](../../magpie/internal/gui/assets/app.js#L11466) |
-| takePrice | VariableDeclaration | renderModels.drawNames | [11471](../../magpie/internal/gui/assets/app.js#L11471) |
-| v | VariableDeclaration | renderModels.drawNames.takePrice | [11472](../../magpie/internal/gui/assets/app.js#L11472) |
-| tv | VariableDeclaration | renderModels.drawNames.takePrice | [11473](../../magpie/internal/gui/assets/app.js#L11473) |
-| x | VariableDeclaration | renderModels.drawNames.takePrice | [11474](../../magpie/internal/gui/assets/app.js#L11474) |
-| bad | VariableDeclaration | renderModels.drawNames.takePrice | [11482](../../magpie/internal/gui/assets/app.js#L11482) |
-| price | VariableDeclaration | renderModels.drawNames.takePrice | [11483](../../magpie/internal/gui/assets/app.js#L11483) |
-| [i, [k]] | VariableDeclaration | renderModels.drawNames.takePrice | [11484](../../magpie/internal/gui/assets/app.js#L11484) |
-| i | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11484](../../magpie/internal/gui/assets/app.js#L11484) |
-| [k] | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11484](../../magpie/internal/gui/assets/app.js#L11484) |
-| k | BindingElement | renderModels.drawNames.takePrice.[i, [k]].[k] | [11484](../../magpie/internal/gui/assets/app.js#L11484) |
-| n | VariableDeclaration | renderModels.drawNames.takePrice | [11485](../../magpie/internal/gui/assets/app.js#L11485) |
-| n | VariableDeclaration | renderModels.drawNames.takePrice | [11500](../../magpie/internal/gui/assets/app.js#L11500) |
-| from | VariableDeclaration | renderModels.drawNames.takePrice | [11506](../../magpie/internal/gui/assets/app.js#L11506) |
-| size | VariableDeclaration | renderModels.drawNames.takePrice | [11508](../../magpie/internal/gui/assets/app.js#L11508) |
-| tier | VariableDeclaration | renderModels.drawNames.takePrice | [11510](../../magpie/internal/gui/assets/app.js#L11510) |
-| [i, [k]] | VariableDeclaration | renderModels.drawNames.takePrice | [11511](../../magpie/internal/gui/assets/app.js#L11511) |
-| i | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11511](../../magpie/internal/gui/assets/app.js#L11511) |
-| [k] | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11511](../../magpie/internal/gui/assets/app.js#L11511) |
-| k | BindingElement | renderModels.drawNames.takePrice.[i, [k]].[k] | [11511](../../magpie/internal/gui/assets/app.js#L11511) |
-| n | VariableDeclaration | renderModels.drawNames.takePrice | [11512](../../magpie/internal/gui/assets/app.js#L11512) |
-| [img, imgCb] | VariableDeclaration | renderModels.drawNames | [11523](../../magpie/internal/gui/assets/app.js#L11523) |
-| img | BindingElement | renderModels.drawNames.[img, imgCb] | [11523](../../magpie/internal/gui/assets/app.js#L11523) |
-| imgCb | BindingElement | renderModels.drawNames.[img, imgCb] | [11523](../../magpie/internal/gui/assets/app.js#L11523) |
-| x | VariableDeclaration | renderModels.drawNames | [11526](../../magpie/internal/gui/assets/app.js#L11526) |
-| apiNow | VariableDeclaration | renderModels.drawNames | [11533](../../magpie/internal/gui/assets/app.js#L11533) |
-| apiSeg | VariableDeclaration | renderModels.drawNames | [11534](../../magpie/internal/gui/assets/app.js#L11534) |
-| items | VariableDeclaration | renderModels.drawNames | [11536](../../magpie/internal/gui/assets/app.js#L11536) |
-| k | BindingElement | renderModels.drawNames.items | [11536](../../magpie/internal/gui/assets/app.js#L11536) |
-| l | BindingElement | renderModels.drawNames.items | [11536](../../magpie/internal/gui/assets/app.js#L11536) |
-| k | BindingElement | renderModels.drawNames | [11537](../../magpie/internal/gui/assets/app.js#L11537) |
-| k | BindingElement | renderModels.drawNames | [11537](../../magpie/internal/gui/assets/app.js#L11537) |
-| [i, b] | VariableDeclaration | renderModels.drawNames | [11544](../../magpie/internal/gui/assets/app.js#L11544) |
-| i | BindingElement | renderModels.drawNames.[i, b] | [11544](../../magpie/internal/gui/assets/app.js#L11544) |
-| b | BindingElement | renderModels.drawNames.[i, b] | [11544](../../magpie/internal/gui/assets/app.js#L11544) |
+| showPrice | VariableDeclaration | renderModels.drawNames | [11248](../../magpie/internal/gui/assets/app.js#L11248) |
+| pr | VariableDeclaration | renderModels.drawNames.showPrice | [11249](../../magpie/internal/gui/assets/app.js#L11249) |
+| k | VariableDeclaration | renderModels.drawNames.showPrice | [11250](../../magpie/internal/gui/assets/app.js#L11250) |
+| tr | VariableDeclaration | renderModels.drawNames.showPrice | [11251](../../magpie/internal/gui/assets/app.js#L11251) |
+| takePrice | VariableDeclaration | renderModels.drawNames | [11256](../../magpie/internal/gui/assets/app.js#L11256) |
+| v | VariableDeclaration | renderModels.drawNames.takePrice | [11257](../../magpie/internal/gui/assets/app.js#L11257) |
+| tv | VariableDeclaration | renderModels.drawNames.takePrice | [11258](../../magpie/internal/gui/assets/app.js#L11258) |
+| x | VariableDeclaration | renderModels.drawNames.takePrice | [11259](../../magpie/internal/gui/assets/app.js#L11259) |
+| bad | VariableDeclaration | renderModels.drawNames.takePrice | [11267](../../magpie/internal/gui/assets/app.js#L11267) |
+| price | VariableDeclaration | renderModels.drawNames.takePrice | [11268](../../magpie/internal/gui/assets/app.js#L11268) |
+| [i, [k]] | VariableDeclaration | renderModels.drawNames.takePrice | [11269](../../magpie/internal/gui/assets/app.js#L11269) |
+| i | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11269](../../magpie/internal/gui/assets/app.js#L11269) |
+| [k] | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11269](../../magpie/internal/gui/assets/app.js#L11269) |
+| k | BindingElement | renderModels.drawNames.takePrice.[i, [k]].[k] | [11269](../../magpie/internal/gui/assets/app.js#L11269) |
+| n | VariableDeclaration | renderModels.drawNames.takePrice | [11270](../../magpie/internal/gui/assets/app.js#L11270) |
+| n | VariableDeclaration | renderModels.drawNames.takePrice | [11285](../../magpie/internal/gui/assets/app.js#L11285) |
+| from | VariableDeclaration | renderModels.drawNames.takePrice | [11291](../../magpie/internal/gui/assets/app.js#L11291) |
+| size | VariableDeclaration | renderModels.drawNames.takePrice | [11293](../../magpie/internal/gui/assets/app.js#L11293) |
+| tier | VariableDeclaration | renderModels.drawNames.takePrice | [11295](../../magpie/internal/gui/assets/app.js#L11295) |
+| [i, [k]] | VariableDeclaration | renderModels.drawNames.takePrice | [11296](../../magpie/internal/gui/assets/app.js#L11296) |
+| i | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11296](../../magpie/internal/gui/assets/app.js#L11296) |
+| [k] | BindingElement | renderModels.drawNames.takePrice.[i, [k]] | [11296](../../magpie/internal/gui/assets/app.js#L11296) |
+| k | BindingElement | renderModels.drawNames.takePrice.[i, [k]].[k] | [11296](../../magpie/internal/gui/assets/app.js#L11296) |
+| n | VariableDeclaration | renderModels.drawNames.takePrice | [11297](../../magpie/internal/gui/assets/app.js#L11297) |
+| [img, imgCb] | VariableDeclaration | renderModels.drawNames | [11308](../../magpie/internal/gui/assets/app.js#L11308) |
+| img | BindingElement | renderModels.drawNames.[img, imgCb] | [11308](../../magpie/internal/gui/assets/app.js#L11308) |
+| imgCb | BindingElement | renderModels.drawNames.[img, imgCb] | [11308](../../magpie/internal/gui/assets/app.js#L11308) |
+| x | VariableDeclaration | renderModels.drawNames | [11311](../../magpie/internal/gui/assets/app.js#L11311) |
+| apiNow | VariableDeclaration | renderModels.drawNames | [11318](../../magpie/internal/gui/assets/app.js#L11318) |
+| apiSeg | VariableDeclaration | renderModels.drawNames | [11319](../../magpie/internal/gui/assets/app.js#L11319) |
+| items | VariableDeclaration | renderModels.drawNames | [11321](../../magpie/internal/gui/assets/app.js#L11321) |
+| k | BindingElement | renderModels.drawNames.items | [11321](../../magpie/internal/gui/assets/app.js#L11321) |
+| l | BindingElement | renderModels.drawNames.items | [11321](../../magpie/internal/gui/assets/app.js#L11321) |
+| k | BindingElement | renderModels.drawNames | [11322](../../magpie/internal/gui/assets/app.js#L11322) |
+| k | BindingElement | renderModels.drawNames | [11322](../../magpie/internal/gui/assets/app.js#L11322) |
+| [i, b] | VariableDeclaration | renderModels.drawNames | [11329](../../magpie/internal/gui/assets/app.js#L11329) |
+| i | BindingElement | renderModels.drawNames.[i, b] | [11329](../../magpie/internal/gui/assets/app.js#L11329) |
+| b | BindingElement | renderModels.drawNames.[i, b] | [11329](../../magpie/internal/gui/assets/app.js#L11329) |
+| k | BindingElement | renderModels.drawNames | [11331](../../magpie/internal/gui/assets/app.js#L11331) |
+| boxes | VariableDeclaration | renderModels.drawNames | [11339](../../magpie/internal/gui/assets/app.js#L11339) |
+| noneSaid | VariableDeclaration | renderModels.drawNames | [11340](../../magpie/internal/gui/assets/app.js#L11340) |
+| drawNone | VariableDeclaration | renderModels.drawNames | [11342](../../magpie/internal/gui/assets/app.js#L11342) |
+| lv | VariableDeclaration | renderModels.drawNames | [11344](../../magpie/internal/gui/assets/app.js#L11344) |
+| l | VariableDeclaration | renderModels.drawNames | [11346](../../magpie/internal/gui/assets/app.js#L11346) |
+| [tk, cb] | VariableDeclaration | renderModels.drawNames | [11347](../../magpie/internal/gui/assets/app.js#L11347) |
+| tk | BindingElement | renderModels.drawNames.[tk, cb] | [11347](../../magpie/internal/gui/assets/app.js#L11347) |
+| cb | BindingElement | renderModels.drawNames.[tk, cb] | [11347](../../magpie/internal/gui/assets/app.js#L11347) |
+| kept | VariableDeclaration | renderModels.drawNames | [11349](../../magpie/internal/gui/assets/app.js#L11349) |
+| next | VariableDeclaration | renderModels.drawNames | [11350](../../magpie/internal/gui/assets/app.js#L11350) |
+| all | VariableDeclaration | renderModels.drawNames | [11360](../../magpie/internal/gui/assets/app.js#L11360) |
+| unsaved | VariableDeclaration | renderModels.drawNames | [11375](../../magpie/internal/gui/assets/app.js#L11375) |
+| reset | VariableDeclaration | renderModels.drawNames | [11377](../../magpie/internal/gui/assets/app.js#L11377) |
+| [l, cb] | VariableDeclaration | renderModels.drawNames | [11388](../../magpie/internal/gui/assets/app.js#L11388) |
+| l | BindingElement | renderModels.drawNames.[l, cb] | [11388](../../magpie/internal/gui/assets/app.js#L11388) |
+| cb | BindingElement | renderModels.drawNames.[l, cb] | [11388](../../magpie/internal/gui/assets/app.js#L11388) |
+| b | VariableDeclaration | renderModels.drawNames | [11395](../../magpie/internal/gui/assets/app.js#L11395) |
+| drawReset | VariableDeclaration | renderModels.drawNames | [11398](../../magpie/internal/gui/assets/app.js#L11398) |
+| x | VariableDeclaration | renderModels.drawNames.drawReset | [11399](../../magpie/internal/gui/assets/app.js#L11399) |
+| images | VariableDeclaration | renderModels.drawNames.drawReset | [11403](../../magpie/internal/gui/assets/app.js#L11403) |
+| custom | VariableDeclaration | renderModels.drawNames.drawReset | [11404](../../magpie/internal/gui/assets/app.js#L11404) |
+| serves | VariableDeclaration | renderModels | [11425](../../magpie/internal/gui/assets/app.js#L11425) |
+| servesOpts | VariableDeclaration | renderModels | [11426](../../magpie/internal/gui/assets/app.js#L11426) |
+| v | BindingElement | renderModels.servesOpts | [11426](../../magpie/internal/gui/assets/app.js#L11426) |
+| name | BindingElement | renderModels.servesOpts | [11426](../../magpie/internal/gui/assets/app.js#L11426) |
+| tip | BindingElement | renderModels.servesOpts | [11426](../../magpie/internal/gui/assets/app.js#L11426) |
+| b | VariableDeclaration | renderModels.servesOpts | [11427](../../magpie/internal/gui/assets/app.js#L11427) |
+| servesMode | VariableDeclaration | renderModels | [11439](../../magpie/internal/gui/assets/app.js#L11439) |
+| drawServes | VariableDeclaration | renderModels | [11440](../../magpie/internal/gui/assets/app.js#L11440) |
+| now | VariableDeclaration | renderModels.drawServes | [11441](../../magpie/internal/gui/assets/app.js#L11441) |
+| b | VariableDeclaration | renderModels.drawServes | [11442](../../magpie/internal/gui/assets/app.js#L11442) |
+| bulk | VariableDeclaration | renderModels | [11446](../../magpie/internal/gui/assets/app.js#L11446) |
+| allOn | VariableDeclaration | renderModels | [11447](../../magpie/internal/gui/assets/app.js#L11447) |
+| f | VariableDeclaration | renderModels | [11450](../../magpie/internal/gui/assets/app.js#L11450) |
+| ids | VariableDeclaration | renderModels | [11451](../../magpie/internal/gui/assets/app.js#L11451) |
+| allOff | VariableDeclaration | renderModels | [11456](../../magpie/internal/gui/assets/app.js#L11456) |
+| isFree | VariableDeclaration | renderModels | [11463](../../magpie/internal/gui/assets/app.js#L11463) |
+| freeOn | VariableDeclaration | renderModels | [11465](../../magpie/internal/gui/assets/app.js#L11465) |
+| f | VariableDeclaration | renderModels | [11468](../../magpie/internal/gui/assets/app.js#L11468) |
+| workOn | VariableDeclaration | renderModels | [11480](../../magpie/internal/gui/assets/app.js#L11480) |
+| failedPicks | VariableDeclaration | renderModels | [11481](../../magpie/internal/gui/assets/app.js#L11481) |
+| got | VariableDeclaration | renderModels.failedPicks | [11482](../../magpie/internal/gui/assets/app.js#L11482) |
+| ids | VariableDeclaration | renderModels.failedPicks | [11483](../../magpie/internal/gui/assets/app.js#L11483) |
+| [ids, bad] | VariableDeclaration | renderModels | [11487](../../magpie/internal/gui/assets/app.js#L11487) |
+| ids | BindingElement | renderModels.[ids, bad] | [11487](../../magpie/internal/gui/assets/app.js#L11487) |
+| bad | BindingElement | renderModels.[ids, bad] | [11487](../../magpie/internal/gui/assets/app.js#L11487) |
+| drawWorkOn | VariableDeclaration | renderModels | [11494](../../magpie/internal/gui/assets/app.js#L11494) |
+| bad | VariableDeclaration | renderModels.drawWorkOn | [11498](../../magpie/internal/gui/assets/app.js#L11498) |
+| foot | VariableDeclaration | renderModels | [11509](../../magpie/internal/gui/assets/app.js#L11509) |
+| add | VariableDeclaration | renderModels | [11512](../../magpie/internal/gui/assets/app.js#L11512) |
+| addOne | VariableDeclaration | renderModels | [11513](../../magpie/internal/gui/assets/app.js#L11513) |
+| take | VariableDeclaration | renderModels | [11516](../../magpie/internal/gui/assets/app.js#L11516) |
+| refresh | VariableDeclaration | renderModels | [11529](../../magpie/internal/gui/assets/app.js#L11529) |
+| r | VariableDeclaration | renderModels | [11534](../../magpie/internal/gui/assets/app.js#L11534) |
+| e | VariableDeclaration | renderModels | [11544](../../magpie/internal/gui/assets/app.js#L11544) |
+| testAll | VariableDeclaration | renderModels | [11548](../../magpie/internal/gui/assets/app.js#L11548) |
+| ids | VariableDeclaration | renderModels | [11551](../../magpie/internal/gui/assets/app.js#L11551) |
+| got | VariableDeclaration | renderModels | [11554](../../magpie/internal/gui/assets/app.js#L11554) |
+| id | VariableDeclaration | renderModels | [11555](../../magpie/internal/gui/assets/app.js#L11555) |
+| r | VariableDeclaration | renderModels | [11558](../../magpie/internal/gui/assets/app.js#L11558) |
+| bad | VariableDeclaration | renderModels | [11560](../../magpie/internal/gui/assets/app.js#L11560) |

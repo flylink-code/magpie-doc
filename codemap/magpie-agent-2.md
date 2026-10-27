@@ -9,6 +9,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/agent/running_darwin.go](../../magpie/internal/agent/running_darwin.go) | 1 | [1](magpie_internal_agent_running_darwin.go-9924d7c0-1.md) |
 | [magpie/internal/agent/running_other.go](../../magpie/internal/agent/running_other.go) | 1 | [1](magpie_internal_agent_running_other.go-c56b1079-1.md) |
 | [magpie/internal/agent/scope_gone.go](../../magpie/internal/agent/scope_gone.go) | 19 | [1](magpie_internal_agent_scope_gone.go-700c027b-1.md) |
 | [magpie/internal/agent/snow.go](../../magpie/internal/agent/snow.go) | 17 | [1](magpie_internal_agent_snow.go-15bbaaf6-1.md) |

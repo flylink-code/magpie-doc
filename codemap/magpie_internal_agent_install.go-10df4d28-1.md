@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/install.go) · page 1/1
 
-Source SHA-256: d9594fc97e521697f3b5b70e9160c284d39db8722abf59034f6e5baaf2dbd14a
+Source SHA-256: b86c0cfa2bd86c593eff3e70ab5c512e98679dab47fe5bcfcfa43e5b4b060d06
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,15 +20,15 @@ Source SHA-256: d9594fc97e521697f3b5b70e9160c284d39db8722abf59034f6e5baaf2dbd14a
 | Commands | field_declaration | Install | [49](../../magpie/internal/agent/install.go#L49) |
 | Missing | field_declaration | Install | [52](../../magpie/internal/agent/install.go#L52) |
 | vendorInstall | var_spec |  | [61](../../magpie/internal/agent/install.go#L61) |
-| installCommands | function_declaration |  | [95](../../magpie/internal/agent/install.go#L95) |
-| nvmVersion | const_spec |  | [111](../../magpie/internal/agent/install.go#L111) |
-| npmInstall | function_declaration |  | [128](../../magpie/internal/agent/install.go#L128) |
-| nodeHere | function_declaration |  | [151](../../magpie/internal/agent/install.go#L151) |
-| npmIn | function_declaration |  | [167](../../magpie/internal/agent/install.go#L167) |
-| Installs | function_declaration |  | [179](../../magpie/internal/agent/install.go#L179) |
-| npmNeedsAdmin | function_declaration |  | [193](../../magpie/internal/agent/install.go#L193) |
-| npmPrefixes | var_spec |  | [206](../../magpie/internal/agent/install.go#L206) |
-| npmGlobalPrefix | function_declaration |  | [210](../../magpie/internal/agent/install.go#L210) |
-| installsOf | function_declaration |  | [239](../../magpie/internal/agent/install.go#L239) |
-| cliShared | var_spec |  | [262](../../magpie/internal/agent/install.go#L262) |
-| CLIMissing | method_declaration | *Agent | [276](../../magpie/internal/agent/install.go#L276) |
+| installCommands | function_declaration |  | [103](../../magpie/internal/agent/install.go#L103) |
+| nvmVersion | const_spec |  | [119](../../magpie/internal/agent/install.go#L119) |
+| npmInstall | function_declaration |  | [136](../../magpie/internal/agent/install.go#L136) |
+| nodeHere | function_declaration |  | [159](../../magpie/internal/agent/install.go#L159) |
+| npmIn | function_declaration |  | [175](../../magpie/internal/agent/install.go#L175) |
+| Installs | function_declaration |  | [187](../../magpie/internal/agent/install.go#L187) |
+| npmNeedsAdmin | function_declaration |  | [201](../../magpie/internal/agent/install.go#L201) |
+| npmPrefixes | var_spec |  | [214](../../magpie/internal/agent/install.go#L214) |
+| npmGlobalPrefix | function_declaration |  | [218](../../magpie/internal/agent/install.go#L218) |
+| installsOf | function_declaration |  | [247](../../magpie/internal/agent/install.go#L247) |
+| cliShared | var_spec |  | [270](../../magpie/internal/agent/install.go#L270) |
+| CLIMissing | method_declaration | *Agent | [284](../../magpie/internal/agent/install.go#L284) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/draw_workbuddy.go) · page 1/1
 
-Source SHA-256: 2ac29ce15b9d7e4c29c13344e51352ddfb6325ffb2685618cbb83fbee154ccde
+Source SHA-256: a40b767685815ed764275e06c2d90ca50edfe50cf99aad2ee1d794135a69fdda
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/video.go) · page 1/1
 
-Source SHA-256: 18471d5a6e8195a6ce79013951f335726f748c48ede009a3c49a7cdde027d9e6
+Source SHA-256: 32b0a1838e469872a979a7207cf8cb93151d684d561b566050425cde1215bf23
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -64,27 +64,28 @@ Source SHA-256: 18471d5a6e8195a6ce79013951f335726f748c48ede009a3c49a7cdde027d9e6
 | Message | field_declaration | videoState | [494](../../magpie/internal/gateway/video.go#L494) |
 | videoObject | function_declaration |  | [499](../../magpie/internal/gateway/video.go#L499) |
 | videoMaker | function_declaration |  | [545](../../magpie/internal/gateway/video.go#L545) |
-| remoteVideoID | function_declaration |  | [570](../../magpie/internal/gateway/video.go#L570) |
-| theirVideoID | function_declaration |  | [575](../../magpie/internal/gateway/video.go#L575) |
-| remoteVideoBody | function_declaration |  | [582](../../magpie/internal/gateway/video.go#L582) |
-| asOurs | function_declaration |  | [610](../../magpie/internal/gateway/video.go#L610) |
-| filmsOpenAI | function_declaration |  | [624](../../magpie/internal/gateway/video.go#L624) |
-| remoteVideoURL | function_declaration |  | [630](../../magpie/internal/gateway/video.go#L630) |
-| videoStatus | method_declaration | *Server | [635](../../magpie/internal/gateway/video.go#L635) |
-| videosCreate | method_declaration | *Server | [652](../../magpie/internal/gateway/video.go#L652) |
-| videoStart | struct_type |  | [832](../../magpie/internal/gateway/video.go#L832) |
-| p | field_declaration | videoStart | [833](../../magpie/internal/gateway/video.go#L833) |
-| answer | field_declaration | videoStart | [834](../../magpie/internal/gateway/video.go#L834) |
-| field | field_declaration | videoStart | [835](../../magpie/internal/gateway/video.go#L835) |
-| remote | field_declaration | videoStart | [836](../../magpie/internal/gateway/video.go#L836) |
-| custom | field_declaration | videoStart | [836](../../magpie/internal/gateway/video.go#L836) |
-| asked | field_declaration | videoStart | [837](../../magpie/internal/gateway/video.go#L837) |
-| unfit | field_declaration | videoStart | [838](../../magpie/internal/gateway/video.go#L838) |
-| startVideo | method_declaration | *Server | [845](../../magpie/internal/gateway/video.go#L845) |
-| videoAsker | function_declaration |  | [911](../../magpie/internal/gateway/video.go#L911) |
-| videoModelHeld | function_declaration |  | [932](../../magpie/internal/gateway/video.go#L932) |
-| openAIVideo | method_declaration | *Server | [946](../../magpie/internal/gateway/video.go#L946) |
-| videosGet | method_declaration | *Server | [960](../../magpie/internal/gateway/video.go#L960) |
-| videosContent | method_declaration | *Server | [1007](../../magpie/internal/gateway/video.go#L1007) |
-| remoteVideoContent | method_declaration | *Server | [1090](../../magpie/internal/gateway/video.go#L1090) |
-| maskStrings | function_declaration |  | [1130](../../magpie/internal/gateway/video.go#L1130) |
+| remoteVideoID | function_declaration |  | [578](../../magpie/internal/gateway/video.go#L578) |
+| theirVideoID | function_declaration |  | [583](../../magpie/internal/gateway/video.go#L583) |
+| remoteVideoBody | function_declaration |  | [590](../../magpie/internal/gateway/video.go#L590) |
+| asOurs | function_declaration |  | [618](../../magpie/internal/gateway/video.go#L618) |
+| filmsOpenAI | function_declaration |  | [632](../../magpie/internal/gateway/video.go#L632) |
+| remoteVideoURL | function_declaration |  | [638](../../magpie/internal/gateway/video.go#L638) |
+| videoStatus | method_declaration | *Server | [643](../../magpie/internal/gateway/video.go#L643) |
+| videosCreate | method_declaration | *Server | [660](../../magpie/internal/gateway/video.go#L660) |
+| videoStart | struct_type |  | [844](../../magpie/internal/gateway/video.go#L844) |
+| p | field_declaration | videoStart | [845](../../magpie/internal/gateway/video.go#L845) |
+| answer | field_declaration | videoStart | [846](../../magpie/internal/gateway/video.go#L846) |
+| field | field_declaration | videoStart | [847](../../magpie/internal/gateway/video.go#L847) |
+| remote | field_declaration | videoStart | [848](../../magpie/internal/gateway/video.go#L848) |
+| custom | field_declaration | videoStart | [848](../../magpie/internal/gateway/video.go#L848) |
+| asked | field_declaration | videoStart | [849](../../magpie/internal/gateway/video.go#L849) |
+| unfit | field_declaration | videoStart | [850](../../magpie/internal/gateway/video.go#L850) |
+| onKey | field_declaration | videoStart | [853](../../magpie/internal/gateway/video.go#L853) |
+| startVideo | method_declaration | *Server | [860](../../magpie/internal/gateway/video.go#L860) |
+| videoAsker | function_declaration |  | [937](../../magpie/internal/gateway/video.go#L937) |
+| videoModelHeld | function_declaration |  | [958](../../magpie/internal/gateway/video.go#L958) |
+| openAIVideo | method_declaration | *Server | [972](../../magpie/internal/gateway/video.go#L972) |
+| videosGet | method_declaration | *Server | [986](../../magpie/internal/gateway/video.go#L986) |
+| videosContent | method_declaration | *Server | [1033](../../magpie/internal/gateway/video.go#L1033) |
+| remoteVideoContent | method_declaration | *Server | [1116](../../magpie/internal/gateway/video.go#L1116) |
+| maskStrings | function_declaration |  | [1160](../../magpie/internal/gateway/video.go#L1160) |

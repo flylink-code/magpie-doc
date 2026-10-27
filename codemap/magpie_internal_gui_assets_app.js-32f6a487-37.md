@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 37/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| words | VariableDeclaration | accountQuota | [13610](../../magpie/internal/gui/assets/app.js#L13610) |
-| resets | VariableDeclaration | accountQuota | [13611](../../magpie/internal/gui/assets/app.js#L13611) |
-| noPlan | VariableDeclaration | accountQuota | [13617](../../magpie/internal/gui/assets/app.js#L13617) |
-| balance | VariableDeclaration | accountQuota | [13629](../../magpie/internal/gui/assets/app.js#L13629) |
-| counted | VariableDeclaration | accountQuota | [13636](../../magpie/internal/gui/assets/app.js#L13636) |
-| ws | VariableDeclaration | accountQuota | [13637](../../magpie/internal/gui/assets/app.js#L13637) |
-| w | VariableDeclaration | accountQuota | [13642](../../magpie/internal/gui/assets/app.js#L13642) |
-| used | VariableDeclaration | accountQuota | [13643](../../magpie/internal/gui/assets/app.js#L13643) |
-| m | VariableDeclaration | accountQuota | [13644](../../magpie/internal/gui/assets/app.js#L13644) |
-| track | VariableDeclaration | accountQuota | [13645](../../magpie/internal/gui/assets/app.js#L13645) |
-| fill | VariableDeclaration | accountQuota | [13646](../../magpie/internal/gui/assets/app.js#L13646) |
-| at | VariableDeclaration | accountQuota | [13652](../../magpie/internal/gui/assets/app.js#L13652) |
-| out | VariableDeclaration | accountQuota | [13656](../../magpie/internal/gui/assets/app.js#L13656) |
-| poolLine | FunctionDeclaration |  | [13668](../../magpie/internal/gui/assets/app.js#L13668) |
-| pools | VariableDeclaration | poolLine | [13669](../../magpie/internal/gui/assets/app.js#L13669) |
-| w | VariableDeclaration | poolLine | [13670](../../magpie/internal/gui/assets/app.js#L13670) |
-| k | VariableDeclaration | poolLine | [13671](../../magpie/internal/gui/assets/app.js#L13671) |
-| p | VariableDeclaration | poolLine | [13672](../../magpie/internal/gui/assets/app.js#L13672) |
-| p | VariableDeclaration | poolLine | [13676](../../magpie/internal/gui/assets/app.js#L13676) |
-| m | VariableDeclaration | poolLine | [13677](../../magpie/internal/gui/assets/app.js#L13677) |
-| w | VariableDeclaration | poolLine | [13679](../../magpie/internal/gui/assets/app.js#L13679) |
-| track | VariableDeclaration | poolLine | [13680](../../magpie/internal/gui/assets/app.js#L13680) |
-| fill | VariableDeclaration | poolLine | [13681](../../magpie/internal/gui/assets/app.js#L13681) |
-| part | VariableDeclaration | poolLine | [13686](../../magpie/internal/gui/assets/app.js#L13686) |
-| w | VariableDeclaration | poolLine | [13690](../../magpie/internal/gui/assets/app.js#L13690) |
-| CAP_SHARES | VariableDeclaration |  | [13704](../../magpie/internal/gui/assets/app.js#L13704) |
-| accountNameOf | FunctionDeclaration |  | [13709](../../magpie/internal/gui/assets/app.js#L13709) |
-| accountSeatOf | FunctionDeclaration |  | [13710](../../magpie/internal/gui/assets/app.js#L13710) |
-| accountNameButton | FunctionDeclaration |  | [13713](../../magpie/internal/gui/assets/app.js#L13713) |
-| own | VariableDeclaration | accountNameButton | [13714](../../magpie/internal/gui/assets/app.js#L13714) |
-| seat | VariableDeclaration | accountNameButton | [13714](../../magpie/internal/gui/assets/app.js#L13714) |
-| wrap | VariableDeclaration | accountNameButton | [13716](../../magpie/internal/gui/assets/app.js#L13716) |
-| name | VariableDeclaration | accountNameButton | [13719](../../magpie/internal/gui/assets/app.js#L13719) |
-| i | VariableDeclaration | accountNameButton | [13726](../../magpie/internal/gui/assets/app.js#L13726) |
-| over | VariableDeclaration | accountNameButton | [13730](../../magpie/internal/gui/assets/app.js#L13730) |
-| done | VariableDeclaration | accountNameButton | [13731](../../magpie/internal/gui/assets/app.js#L13731) |
-| s | VariableDeclaration | accountNameButton | [13745](../../magpie/internal/gui/assets/app.js#L13745) |
-| accountCapOf | FunctionDeclaration |  | [13751](../../magpie/internal/gui/assets/app.js#L13751) |
-| windowOwnCapOf | FunctionDeclaration |  | [13757](../../magpie/internal/gui/assets/app.js#L13757) |
-| windowCapsOf | FunctionDeclaration |  | [13760](../../magpie/internal/gui/assets/app.js#L13760) |
-| windowCapOf | FunctionDeclaration |  | [13762](../../magpie/internal/gui/assets/app.js#L13762) |
-| own | VariableDeclaration | windowCapOf | [13763](../../magpie/internal/gui/assets/app.js#L13763) |
-| capHeldOf | FunctionDeclaration |  | [13771](../../magpie/internal/gui/assets/app.js#L13771) |
-| now | VariableDeclaration | capHeldOf | [13773](../../magpie/internal/gui/assets/app.js#L13773) |
-| all | VariableDeclaration | capHeldOf | [13777](../../magpie/internal/gui/assets/app.js#L13777) |
-| some | VariableDeclaration | capHeldOf | [13777](../../magpie/internal/gui/assets/app.js#L13777) |
-| w | VariableDeclaration | capHeldOf | [13778](../../magpie/internal/gui/assets/app.js#L13778) |
-| cap | VariableDeclaration | capHeldOf | [13779](../../magpie/internal/gui/assets/app.js#L13779) |
-| r | VariableDeclaration | capHeldOf | [13781](../../magpie/internal/gui/assets/app.js#L13781) |
-| h | VariableDeclaration | capHeldOf | [13783](../../magpie/internal/gui/assets/app.js#L13783) |
-| h | VariableDeclaration | capHeldOf | [13789](../../magpie/internal/gui/assets/app.js#L13789) |
-| directNote | FunctionDeclaration |  | [13794](../../magpie/internal/gui/assets/app.js#L13794) |
-| capHeldNote | FunctionDeclaration |  | [13797](../../magpie/internal/gui/assets/app.js#L13797) |
-| n | VariableDeclaration | capHeldNote | [13801](../../magpie/internal/gui/assets/app.js#L13801) |
-| names | VariableDeclaration | capHeldNote | [13808](../../magpie/internal/gui/assets/app.js#L13808) |
-| n | VariableDeclaration | capHeldNote | [13809](../../magpie/internal/gui/assets/app.js#L13809) |
-| n | VariableDeclaration | capHeldNote | [13815](../../magpie/internal/gui/assets/app.js#L13815) |
-| capMark | FunctionDeclaration |  | [13821](../../magpie/internal/gui/assets/app.js#L13821) |
-| mk | VariableDeclaration | capMark | [13823](../../magpie/internal/gui/assets/app.js#L13823) |
-| windowCapMeter | FunctionDeclaration |  | [13834](../../magpie/internal/gui/assets/app.js#L13834) |
-| own | VariableDeclaration | windowCapMeter | [13836](../../magpie/internal/gui/assets/app.js#L13836) |
-| cap | VariableDeclaration | windowCapMeter | [13836](../../magpie/internal/gui/assets/app.js#L13836) |
-| name | VariableDeclaration | windowCapMeter | [13837](../../magpie/internal/gui/assets/app.js#L13837) |
-| b | VariableDeclaration | windowCapMeter | [13841](../../magpie/internal/gui/assets/app.js#L13841) |
-| reset | VariableDeclaration | windowCapMeter | [13847](../../magpie/internal/gui/assets/app.js#L13847) |
-| set | VariableDeclaration | windowCapMeter | [13853](../../magpie/internal/gui/assets/app.js#L13853) |
-| other | VariableDeclaration | windowCapMeter | [13857](../../magpie/internal/gui/assets/app.js#L13857) |
-| i | VariableDeclaration | windowCapMeter.other | [13858](../../magpie/internal/gui/assets/app.js#L13858) |
-| done | VariableDeclaration | windowCapMeter.other | [13862](../../magpie/internal/gui/assets/app.js#L13862) |
-| finish | VariableDeclaration | windowCapMeter.other | [13863](../../magpie/internal/gui/assets/app.js#L13863) |
-| v | VariableDeclaration | windowCapMeter.other.finish | [13866](../../magpie/internal/gui/assets/app.js#L13866) |
-| mine | VariableDeclaration | windowCapMeter | [13879](../../magpie/internal/gui/assets/app.js#L13879) |
-| shares | VariableDeclaration | windowCapMeter | [13880](../../magpie/internal/gui/assets/app.js#L13880) |
-| opts | VariableDeclaration | windowCapMeter | [13881](../../magpie/internal/gui/assets/app.js#L13881) |
-| n | VariableDeclaration | windowCapMeter | [13885](../../magpie/internal/gui/assets/app.js#L13885) |
-| accountCapPill | FunctionDeclaration |  | [13894](../../magpie/internal/gui/assets/app.js#L13894) |
-| byWindow | VariableDeclaration | accountCapPill | [13896](../../magpie/internal/gui/assets/app.js#L13896) |
-| pill | VariableDeclaration | accountCapPill | [13897](../../magpie/internal/gui/assets/app.js#L13897) |
-| set | VariableDeclaration | accountCapPill | [13905](../../magpie/internal/gui/assets/app.js#L13905) |
-| other | VariableDeclaration | accountCapPill | [13907](../../magpie/internal/gui/assets/app.js#L13907) |
-| i | VariableDeclaration | accountCapPill.other | [13909](../../magpie/internal/gui/assets/app.js#L13909) |
-| done | VariableDeclaration | accountCapPill.other | [13913](../../magpie/internal/gui/assets/app.js#L13913) |
-| finish | VariableDeclaration | accountCapPill.other | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
-| v | VariableDeclaration | accountCapPill.other.finish | [13917](../../magpie/internal/gui/assets/app.js#L13917) |
-| shares | VariableDeclaration | accountCapPill | [13930](../../magpie/internal/gui/assets/app.js#L13930) |
-| opts | VariableDeclaration | accountCapPill | [13931](../../magpie/internal/gui/assets/app.js#L13931) |
-| n | VariableDeclaration | accountCapPill | [13932](../../magpie/internal/gui/assets/app.js#L13932) |
-| LANE_LIMITS | VariableDeclaration |  | [13946](../../magpie/internal/gui/assets/app.js#L13946) |
-| lanesNow | VariableDeclaration |  | [13947](../../magpie/internal/gui/assets/app.js#L13947) |
-| lanesRead | VariableDeclaration |  | [13947](../../magpie/internal/gui/assets/app.js#L13947) |
-| lanesTick | VariableDeclaration |  | [13947](../../magpie/internal/gui/assets/app.js#L13947) |
-| laneOwnOf | FunctionDeclaration |  | [13948](../../magpie/internal/gui/assets/app.js#L13948) |
-| m | VariableDeclaration | laneOwnOf | [13949](../../magpie/internal/gui/assets/app.js#L13949) |
-| k | VariableDeclaration | laneOwnOf | [13950](../../magpie/internal/gui/assets/app.js#L13950) |
-| laneLimitOf | FunctionDeclaration |  | [13953](../../magpie/internal/gui/assets/app.js#L13953) |
-| own | VariableDeclaration | laneLimitOf | [13954](../../magpie/internal/gui/assets/app.js#L13954) |
-| laneText | FunctionDeclaration |  | [13958](../../magpie/internal/gui/assets/app.js#L13958) |
-| p | VariableDeclaration | laneText | [13959](../../magpie/internal/gui/assets/app.js#L13959) |
-| own | VariableDeclaration | laneText | [13960](../../magpie/internal/gui/assets/app.js#L13960) |
-| limit | VariableDeclaration | laneText | [13960](../../magpie/internal/gui/assets/app.js#L13960) |
+| name | VariableDeclaration | windowCapMeter | [13624](../../magpie/internal/gui/assets/app.js#L13624) |
+| b | VariableDeclaration | windowCapMeter | [13628](../../magpie/internal/gui/assets/app.js#L13628) |
+| reset | VariableDeclaration | windowCapMeter | [13634](../../magpie/internal/gui/assets/app.js#L13634) |
+| set | VariableDeclaration | windowCapMeter | [13640](../../magpie/internal/gui/assets/app.js#L13640) |
+| other | VariableDeclaration | windowCapMeter | [13644](../../magpie/internal/gui/assets/app.js#L13644) |
+| i | VariableDeclaration | windowCapMeter.other | [13645](../../magpie/internal/gui/assets/app.js#L13645) |
+| done | VariableDeclaration | windowCapMeter.other | [13649](../../magpie/internal/gui/assets/app.js#L13649) |
+| finish | VariableDeclaration | windowCapMeter.other | [13650](../../magpie/internal/gui/assets/app.js#L13650) |
+| v | VariableDeclaration | windowCapMeter.other.finish | [13653](../../magpie/internal/gui/assets/app.js#L13653) |
+| mine | VariableDeclaration | windowCapMeter | [13666](../../magpie/internal/gui/assets/app.js#L13666) |
+| shares | VariableDeclaration | windowCapMeter | [13667](../../magpie/internal/gui/assets/app.js#L13667) |
+| opts | VariableDeclaration | windowCapMeter | [13668](../../magpie/internal/gui/assets/app.js#L13668) |
+| n | VariableDeclaration | windowCapMeter | [13672](../../magpie/internal/gui/assets/app.js#L13672) |
+| accountCapPill | FunctionDeclaration |  | [13681](../../magpie/internal/gui/assets/app.js#L13681) |
+| byWindow | VariableDeclaration | accountCapPill | [13683](../../magpie/internal/gui/assets/app.js#L13683) |
+| pill | VariableDeclaration | accountCapPill | [13684](../../magpie/internal/gui/assets/app.js#L13684) |
+| set | VariableDeclaration | accountCapPill | [13692](../../magpie/internal/gui/assets/app.js#L13692) |
+| other | VariableDeclaration | accountCapPill | [13694](../../magpie/internal/gui/assets/app.js#L13694) |
+| i | VariableDeclaration | accountCapPill.other | [13696](../../magpie/internal/gui/assets/app.js#L13696) |
+| done | VariableDeclaration | accountCapPill.other | [13700](../../magpie/internal/gui/assets/app.js#L13700) |
+| finish | VariableDeclaration | accountCapPill.other | [13701](../../magpie/internal/gui/assets/app.js#L13701) |
+| v | VariableDeclaration | accountCapPill.other.finish | [13704](../../magpie/internal/gui/assets/app.js#L13704) |
+| shares | VariableDeclaration | accountCapPill | [13717](../../magpie/internal/gui/assets/app.js#L13717) |
+| opts | VariableDeclaration | accountCapPill | [13718](../../magpie/internal/gui/assets/app.js#L13718) |
+| n | VariableDeclaration | accountCapPill | [13719](../../magpie/internal/gui/assets/app.js#L13719) |
+| LANE_LIMITS | VariableDeclaration |  | [13733](../../magpie/internal/gui/assets/app.js#L13733) |
+| lanesNow | VariableDeclaration |  | [13734](../../magpie/internal/gui/assets/app.js#L13734) |
+| lanesRead | VariableDeclaration |  | [13734](../../magpie/internal/gui/assets/app.js#L13734) |
+| lanesTick | VariableDeclaration |  | [13734](../../magpie/internal/gui/assets/app.js#L13734) |
+| laneOwnOf | FunctionDeclaration |  | [13735](../../magpie/internal/gui/assets/app.js#L13735) |
+| m | VariableDeclaration | laneOwnOf | [13736](../../magpie/internal/gui/assets/app.js#L13736) |
+| k | VariableDeclaration | laneOwnOf | [13737](../../magpie/internal/gui/assets/app.js#L13737) |
+| laneLimitOf | FunctionDeclaration |  | [13740](../../magpie/internal/gui/assets/app.js#L13740) |
+| own | VariableDeclaration | laneLimitOf | [13741](../../magpie/internal/gui/assets/app.js#L13741) |
+| laneText | FunctionDeclaration |  | [13745](../../magpie/internal/gui/assets/app.js#L13745) |
+| p | VariableDeclaration | laneText | [13746](../../magpie/internal/gui/assets/app.js#L13746) |
+| own | VariableDeclaration | laneText | [13747](../../magpie/internal/gui/assets/app.js#L13747) |
+| limit | VariableDeclaration | laneText | [13747](../../magpie/internal/gui/assets/app.js#L13747) |
+| lane | VariableDeclaration | laneText | [13748](../../magpie/internal/gui/assets/app.js#L13748) |
+| busy | VariableDeclaration | laneText | [13749](../../magpie/internal/gui/assets/app.js#L13749) |
+| waiting | VariableDeclaration | laneText | [13749](../../magpie/internal/gui/assets/app.js#L13749) |
+| text | VariableDeclaration | laneText | [13750](../../magpie/internal/gui/assets/app.js#L13750) |
+| whose | VariableDeclaration | laneText | [13759](../../magpie/internal/gui/assets/app.js#L13759) |
+| laneLimitPill | FunctionDeclaration |  | [13765](../../magpie/internal/gui/assets/app.js#L13765) |
+| pill | VariableDeclaration | laneLimitPill | [13766](../../magpie/internal/gui/assets/app.js#L13766) |
+| own | VariableDeclaration | laneLimitPill | [13774](../../magpie/internal/gui/assets/app.js#L13774) |
+| set | VariableDeclaration | laneLimitPill | [13775](../../magpie/internal/gui/assets/app.js#L13775) |
+| other | VariableDeclaration | laneLimitPill | [13777](../../magpie/internal/gui/assets/app.js#L13777) |
+| i | VariableDeclaration | laneLimitPill.other | [13778](../../magpie/internal/gui/assets/app.js#L13778) |
+| done | VariableDeclaration | laneLimitPill.other | [13782](../../magpie/internal/gui/assets/app.js#L13782) |
+| finish | VariableDeclaration | laneLimitPill.other | [13783](../../magpie/internal/gui/assets/app.js#L13783) |
+| v | VariableDeclaration | laneLimitPill.other.finish | [13786](../../magpie/internal/gui/assets/app.js#L13786) |
+| base | VariableDeclaration | laneLimitPill | [13799](../../magpie/internal/gui/assets/app.js#L13799) |
+| opts | VariableDeclaration | laneLimitPill | [13800](../../magpie/internal/gui/assets/app.js#L13800) |
+| nums | VariableDeclaration | laneLimitPill | [13801](../../magpie/internal/gui/assets/app.js#L13801) |
+| n | VariableDeclaration | laneLimitPill | [13802](../../magpie/internal/gui/assets/app.js#L13802) |
+| want | VariableDeclaration | laneLimitPill | [13806](../../magpie/internal/gui/assets/app.js#L13806) |
+| refreshLanes | FunctionDeclaration |  | [13814](../../magpie/internal/gui/assets/app.js#L13814) |
+| lanes | VariableDeclaration | refreshLanes | [13816](../../magpie/internal/gui/assets/app.js#L13816) |
+| pill | VariableDeclaration | refreshLanes | [13820](../../magpie/internal/gui/assets/app.js#L13820) |
+| quotaLeft | VariableDeclaration |  | [13827](../../magpie/internal/gui/assets/app.js#L13827) |
+| to100 | FunctionDeclaration |  | [13828](../../magpie/internal/gui/assets/app.js#L13828) |
+| quotaNoShare | FunctionDeclaration |  | [13832](../../magpie/internal/gui/assets/app.js#L13832) |
+| tipLines | FunctionDeclaration |  | [13833](../../magpie/internal/gui/assets/app.js#L13833) |
+| quotaFill | FunctionDeclaration |  | [13834](../../magpie/internal/gui/assets/app.js#L13834) |
+| used | VariableDeclaration | quotaFill | [13836](../../magpie/internal/gui/assets/app.js#L13836) |
+| quotaText | FunctionDeclaration |  | [13839](../../magpie/internal/gui/assets/app.js#L13839) |
+| used | VariableDeclaration | quotaText | [13842](../../magpie/internal/gui/assets/app.js#L13842) |
+| n | VariableDeclaration | quotaText | [13843](../../magpie/internal/gui/assets/app.js#L13843) |
+| pct | VariableDeclaration | quotaText | [13844](../../magpie/internal/gui/assets/app.js#L13844) |
+| count | VariableDeclaration | quotaText | [13845](../../magpie/internal/gui/assets/app.js#L13845) |
+| quotaPace | FunctionDeclaration |  | [13855](../../magpie/internal/gui/assets/app.js#L13855) |
+| s | VariableDeclaration | quotaPace | [13857](../../magpie/internal/gui/assets/app.js#L13857) |
+| e | VariableDeclaration | quotaPace | [13857](../../magpie/internal/gui/assets/app.js#L13857) |
+| d | VariableDeclaration | quotaPace | [13859](../../magpie/internal/gui/assets/app.js#L13859) |
+| n | VariableDeclaration | quotaPace | [13860](../../magpie/internal/gui/assets/app.js#L13860) |
+| paceNumber | FunctionDeclaration |  | [13864](../../magpie/internal/gui/assets/app.js#L13864) |
+| paceLine | FunctionDeclaration |  | [13869](../../magpie/internal/gui/assets/app.js#L13869) |
+| p | VariableDeclaration | paceLine | [13870](../../magpie/internal/gui/assets/app.js#L13870) |
+| span | VariableDeclaration | paceLine | [13872](../../magpie/internal/gui/assets/app.js#L13872) |
+| countFormat | VariableDeclaration |  | [13881](../../magpie/internal/gui/assets/app.js#L13881) |
+| quotaCount | FunctionDeclaration |  | [13882](../../magpie/internal/gui/assets/app.js#L13882) |
+| amount | VariableDeclaration | quotaCount | [13884](../../magpie/internal/gui/assets/app.js#L13884) |
+| n | VariableDeclaration | quotaCount | [13884](../../magpie/internal/gui/assets/app.js#L13884) |
+| FAMILY_FIRST | VariableDeclaration |  | [13895](../../magpie/internal/gui/assets/app.js#L13895) |
+| familyWindows | FunctionDeclaration |  | [13896](../../magpie/internal/gui/assets/app.js#L13896) |
+| fams | VariableDeclaration | familyWindows | [13899](../../magpie/internal/gui/assets/app.js#L13899) |
+| w | VariableDeclaration | familyWindows | [13900](../../magpie/internal/gui/assets/app.js#L13900) |
+| k | VariableDeclaration | familyWindows | [13901](../../magpie/internal/gui/assets/app.js#L13901) |
+| soon | VariableDeclaration | familyWindows | [13906](../../magpie/internal/gui/assets/app.js#L13906) |
+| out | VariableDeclaration | familyWindows | [13907](../../magpie/internal/gui/assets/app.js#L13907) |
+| tiers | VariableDeclaration | familyWindows | [13908](../../magpie/internal/gui/assets/app.js#L13908) |
+| top | VariableDeclaration | familyWindows | [13910](../../magpie/internal/gui/assets/app.js#L13910) |
+| rank | VariableDeclaration | familyWindows | [13913](../../magpie/internal/gui/assets/app.js#L13913) |
+| a | BindingElement | familyWindows | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
+| i | BindingElement | familyWindows | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
+| b | BindingElement | familyWindows | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
+| j | BindingElement | familyWindows | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
+| w | BindingElement | familyWindows | [13914](../../magpie/internal/gui/assets/app.js#L13914) |
+| isPool | VariableDeclaration |  | [13922](../../magpie/internal/gui/assets/app.js#L13922) |

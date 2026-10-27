@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/planquota.go) · page 1/1
 
-Source SHA-256: c47324316379bfbeafce13eb46ec505a592a4f645b2ca52274cd839e217a8e58
+Source SHA-256: 2e62f0f3e6cc954ad292808cb73cfb584ae504eddfc767addce2b456864e2708
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -83,21 +83,21 @@ Source SHA-256: c47324316379bfbeafce13eb46ec505a592a4f645b2ca52274cd839e217a8e58
 | vendorSaid | function_declaration |  | [578](../../magpie/internal/provider/planquota.go#L578) |
 | Error | field_declaration | vendorSaid | [580](../../magpie/internal/provider/planquota.go#L580) |
 | Message | field_declaration | vendorSaid | [581](../../magpie/internal/provider/planquota.go#L581) |
-| Message | field_declaration | vendorSaid | [588](../../magpie/internal/provider/planquota.go#L588) |
-| planKeyWindows | function_declaration |  | [607](../../magpie/internal/provider/planquota.go#L607) |
-| planQuotaCache | var_spec |  | [622](../../magpie/internal/provider/planquota.go#L622) |
-| ForgetPlanQuotas | function_declaration |  | [630](../../magpie/internal/provider/planquota.go#L630) |
-| PlanQuotas | function_declaration |  | [635](../../magpie/internal/provider/planquota.go#L635) |
-| job | struct_type | PlanQuotas | [647](../../magpie/internal/provider/planquota.go#L647) |
-| p | field_declaration | PlanQuotas.job | [648](../../magpie/internal/provider/planquota.go#L648) |
-| src | field_declaration | PlanQuotas.job | [649](../../magpie/internal/provider/planquota.go#L649) |
-| key | field_declaration | PlanQuotas.job | [650](../../magpie/internal/provider/planquota.go#L650) |
-| user | field_declaration | PlanQuotas.job | [651](../../magpie/internal/provider/planquota.go#L651) |
-| ZhipuTeam | struct_type |  | [758](../../magpie/internal/provider/planquota.go#L758) |
-| Org | field_declaration | ZhipuTeam | [759](../../magpie/internal/provider/planquota.go#L759) |
-| Project | field_declaration | ZhipuTeam | [760](../../magpie/internal/provider/planquota.go#L760) |
-| normal | method_declaration | *ZhipuTeam | [764](../../magpie/internal/provider/planquota.go#L764) |
-| TakesZhipuTeam | function_declaration |  | [777](../../magpie/internal/provider/planquota.go#L777) |
-| zhipuKeyTeamWindows | function_declaration |  | [791](../../magpie/internal/provider/planquota.go#L791) |
-| zhipuTeamRoots | function_declaration |  | [803](../../magpie/internal/provider/planquota.go#L803) |
-| zhipuKeyTeamAt | function_declaration |  | [811](../../magpie/internal/provider/planquota.go#L811) |
+| Message | field_declaration | vendorSaid | [591](../../magpie/internal/provider/planquota.go#L591) |
+| planKeyWindows | function_declaration |  | [610](../../magpie/internal/provider/planquota.go#L610) |
+| planQuotaCache | var_spec |  | [625](../../magpie/internal/provider/planquota.go#L625) |
+| ForgetPlanQuotas | function_declaration |  | [633](../../magpie/internal/provider/planquota.go#L633) |
+| PlanQuotas | function_declaration |  | [638](../../magpie/internal/provider/planquota.go#L638) |
+| job | struct_type | PlanQuotas | [650](../../magpie/internal/provider/planquota.go#L650) |
+| p | field_declaration | PlanQuotas.job | [651](../../magpie/internal/provider/planquota.go#L651) |
+| src | field_declaration | PlanQuotas.job | [652](../../magpie/internal/provider/planquota.go#L652) |
+| key | field_declaration | PlanQuotas.job | [653](../../magpie/internal/provider/planquota.go#L653) |
+| user | field_declaration | PlanQuotas.job | [654](../../magpie/internal/provider/planquota.go#L654) |
+| ZhipuTeam | struct_type |  | [763](../../magpie/internal/provider/planquota.go#L763) |
+| Org | field_declaration | ZhipuTeam | [764](../../magpie/internal/provider/planquota.go#L764) |
+| Project | field_declaration | ZhipuTeam | [765](../../magpie/internal/provider/planquota.go#L765) |
+| normal | method_declaration | *ZhipuTeam | [769](../../magpie/internal/provider/planquota.go#L769) |
+| TakesZhipuTeam | function_declaration |  | [782](../../magpie/internal/provider/planquota.go#L782) |
+| zhipuKeyTeamWindows | function_declaration |  | [796](../../magpie/internal/provider/planquota.go#L796) |
+| zhipuTeamRoots | function_declaration |  | [808](../../magpie/internal/provider/planquota.go#L808) |
+| zhipuKeyTeamAt | function_declaration |  | [816](../../magpie/internal/provider/planquota.go#L816) |

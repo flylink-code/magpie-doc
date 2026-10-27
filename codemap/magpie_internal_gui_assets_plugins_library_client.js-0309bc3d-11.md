@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 11/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| named | VariableDeclaration |  | [3190](../../magpie/internal/gui/assets/plugins/library/client.js#L3190) |
-| skillNamed | FunctionDeclaration |  | [3191](../../magpie/internal/gui/assets/plugins/library/client.js#L3191) |
-| groupCard | FunctionDeclaration |  | [3196](../../magpie/internal/gui/assets/plugins/library/client.js#L3196) |
-| card | VariableDeclaration | groupCard | [3197](../../magpie/internal/gui/assets/plugins/library/client.js#L3197) |
-| head | VariableDeclaration | groupCard | [3199](../../magpie/internal/gui/assets/plugins/library/client.js#L3199) |
-| who | VariableDeclaration | groupCard | [3200](../../magpie/internal/gui/assets/plugins/library/client.js#L3200) |
-| title | VariableDeclaration | groupCard | [3201](../../magpie/internal/gui/assets/plugins/library/client.js#L3201) |
-| name | VariableDeclaration | groupCard | [3202](../../magpie/internal/gui/assets/plugins/library/client.js#L3202) |
-| n | VariableDeclaration | groupCard | [3204](../../magpie/internal/gui/assets/plugins/library/client.js#L3204) |
-| sub | VariableDeclaration | groupCard | [3205](../../magpie/internal/gui/assets/plugins/library/client.js#L3205) |
-| shared | VariableDeclaration | groupCard | [3209](../../magpie/internal/gui/assets/plugins/library/client.js#L3209) |
-| readers | VariableDeclaration | groupCard | [3211](../../magpie/internal/gui/assets/plugins/library/client.js#L3211) |
-| note | VariableDeclaration | groupCard | [3212](../../magpie/internal/gui/assets/plugins/library/client.js#L3212) |
-| tags | VariableDeclaration | groupCard | [3217](../../magpie/internal/gui/assets/plugins/library/client.js#L3217) |
-| stale | VariableDeclaration | groupCard | [3219](../../magpie/internal/gui/assets/plugins/library/client.js#L3219) |
-| gone | VariableDeclaration | groupCard | [3220](../../magpie/internal/gui/assets/plugins/library/client.js#L3220) |
-| u | VariableDeclaration | groupCard | [3223](../../magpie/internal/gui/assets/plugins/library/client.js#L3223) |
-| have | VariableDeclaration | groupCard | [3231](../../magpie/internal/gui/assets/plugins/library/client.js#L3231) |
-| acts | VariableDeclaration | groupCard | [3232](../../magpie/internal/gui/assets/plugins/library/client.js#L3232) |
-| rn | VariableDeclaration | groupCard | [3236](../../magpie/internal/gui/assets/plugins/library/client.js#L3236) |
-| un | VariableDeclaration | groupCard | [3238](../../magpie/internal/gui/assets/plugins/library/client.js#L3238) |
-| o | VariableDeclaration | groupCard | [3243](../../magpie/internal/gui/assets/plugins/library/client.js#L3243) |
-| chev | VariableDeclaration | groupCard | [3248](../../magpie/internal/gui/assets/plugins/library/client.js#L3248) |
-| pic | VariableDeclaration | groupCard | [3250](../../magpie/internal/gui/assets/plugins/library/client.js#L3250) |
-| groupChips | FunctionDeclaration |  | [3281](../../magpie/internal/gui/assets/plugins/library/client.js#L3281) |
-| servers | VariableDeclaration | groupChips | [3282](../../magpie/internal/gui/assets/plugins/library/client.js#L3282) |
-| hooks | VariableDeclaration | groupChips | [3282](../../magpie/internal/gui/assets/plugins/library/client.js#L3282) |
-| n | VariableDeclaration | groupChips | [3283](../../magpie/internal/gui/assets/plugins/library/client.js#L3283) |
-| names | VariableDeclaration | groupChips | [3283](../../magpie/internal/gui/assets/plugins/library/client.js#L3283) |
-| own | VariableDeclaration | groupChips | [3284](../../magpie/internal/gui/assets/plugins/library/client.js#L3284) |
-| can | VariableDeclaration | groupChips | [3285](../../magpie/internal/gui/assets/plugins/library/client.js#L3285) |
-| reach | VariableDeclaration | groupChips | [3286](../../magpie/internal/gui/assets/plugins/library/client.js#L3286) |
-| count | VariableDeclaration | groupChips | [3287](../../magpie/internal/gui/assets/plugins/library/client.js#L3287) |
-| itself | VariableDeclaration | groupChips | [3288](../../magpie/internal/gui/assets/plugins/library/client.js#L3288) |
-| full | VariableDeclaration | groupChips | [3289](../../magpie/internal/gui/assets/plugins/library/client.js#L3289) |
-| send | VariableDeclaration | groupChips | [3292](../../magpie/internal/gui/assets/plugins/library/client.js#L3292) |
-| by | VariableDeclaration | groupChips.send | [3293](../../magpie/internal/gui/assets/plugins/library/client.js#L3293) |
-| id | VariableDeclaration | groupChips.send | [3294](../../magpie/internal/gui/assets/plugins/library/client.js#L3294) |
-| a | VariableDeclaration | groupChips.send | [3295](../../magpie/internal/gui/assets/plugins/library/client.js#L3295) |
-| ns | VariableDeclaration | groupChips.send | [3296](../../magpie/internal/gui/assets/plugins/library/client.js#L3296) |
-| k | VariableDeclaration | groupChips.send | [3297](../../magpie/internal/gui/assets/plugins/library/client.js#L3297) |
-| v | VariableDeclaration | groupChips.send | [3301](../../magpie/internal/gui/assets/plugins/library/client.js#L3301) |
-| g | VariableDeclaration | groupChips.send | [3302](../../magpie/internal/gui/assets/plugins/library/client.js#L3302) |
-| box | VariableDeclaration | groupChips | [3305](../../magpie/internal/gui/assets/plugins/library/client.js#L3305) |
-| on | VariableDeclaration | groupChips.box | [3306](../../magpie/internal/gui/assets/plugins/library/client.js#L3306) |
-| off | VariableDeclaration | groupChips.box | [3306](../../magpie/internal/gui/assets/plugins/library/client.js#L3306) |
-| v | VariableDeclaration | groupChips.box | [3309](../../magpie/internal/gui/assets/plugins/library/client.js#L3309) |
-| who | VariableDeclaration | groupChips.box | [3314](../../magpie/internal/gui/assets/plugins/library/client.js#L3314) |
-| still | VariableDeclaration | groupChips.box | [3316](../../magpie/internal/gui/assets/plugins/library/client.js#L3316) |
-| kept | VariableDeclaration | groupChips.box | [3317](../../magpie/internal/gui/assets/plugins/library/client.js#L3317) |
-| e | VariableDeclaration | groupChips.box | [3325](../../magpie/internal/gui/assets/plugins/library/client.js#L3325) |
-| c | VariableDeclaration | groupChips | [3334](../../magpie/internal/gui/assets/plugins/library/client.js#L3334) |
-| a | VariableDeclaration | groupChips | [3335](../../magpie/internal/gui/assets/plugins/library/client.js#L3335) |
-| k | VariableDeclaration | groupChips | [3335](../../magpie/internal/gui/assets/plugins/library/client.js#L3335) |
-| m | VariableDeclaration | groupChips | [3335](../../magpie/internal/gui/assets/plugins/library/client.js#L3335) |
-| every | VariableDeclaration | groupChips | [3352](../../magpie/internal/gui/assets/plugins/library/client.js#L3352) |
-| pickButton | FunctionDeclaration |  | [3366](../../magpie/internal/gui/assets/plugins/library/client.js#L3366) |
-| b | VariableDeclaration | pickButton | [3367](../../magpie/internal/gui/assets/plugins/library/client.js#L3367) |
-| skills | VariableDeclaration | pickButton | [3374](../../magpie/internal/gui/assets/plugins/library/client.js#L3374) |
-| hooks | VariableDeclaration | pickButton | [3374](../../magpie/internal/gui/assets/plugins/library/client.js#L3374) |
-| pickingFor | FunctionDeclaration |  | [3388](../../magpie/internal/gui/assets/plugins/library/client.js#L3388) |
-| n | VariableDeclaration | pickingFor | [3391](../../magpie/internal/gui/assets/plugins/library/client.js#L3391) |
-| n | VariableDeclaration | pickingFor | [3392](../../magpie/internal/gui/assets/plugins/library/client.js#L3392) |
-| pickRow | FunctionDeclaration |  | [3396](../../magpie/internal/gui/assets/plugins/library/client.js#L3396) |
-| box | VariableDeclaration | pickRow | [3397](../../magpie/internal/gui/assets/plugins/library/client.js#L3397) |
-| why | VariableDeclaration | pickRow | [3404](../../magpie/internal/gui/assets/plugins/library/client.js#L3404) |
-| sub | VariableDeclaration | pickRow | [3404](../../magpie/internal/gui/assets/plugins/library/client.js#L3404) |
-| shownSkills | FunctionDeclaration |  | [3414](../../magpie/internal/gui/assets/plugins/library/client.js#L3414) |
-| q | VariableDeclaration | shownSkills | [3415](../../magpie/internal/gui/assets/plugins/library/client.js#L3415) |
-| pickBox | FunctionDeclaration |  | [3422](../../magpie/internal/gui/assets/plugins/library/client.js#L3422) |
-| box | VariableDeclaration | pickBox | [3423](../../magpie/internal/gui/assets/plugins/library/client.js#L3423) |
-| every | VariableDeclaration | pickBox | [3430](../../magpie/internal/gui/assets/plugins/library/client.js#L3430) |
-| n | VariableDeclaration | pickBox | [3431](../../magpie/internal/gui/assets/plugins/library/client.js#L3431) |
-| pickAll | VariableDeclaration |  | [3436](../../magpie/internal/gui/assets/plugins/library/client.js#L3436) |
-| paintPick | FunctionDeclaration |  | [3437](../../magpie/internal/gui/assets/plugins/library/client.js#L3437) |
-| k | VariableDeclaration | paintPick | [3438](../../magpie/internal/gui/assets/plugins/library/client.js#L3438) |
-| row | VariableDeclaration | paintPick | [3441](../../magpie/internal/gui/assets/plugins/library/client.js#L3441) |
-| syncPicks | FunctionDeclaration |  | [3445](../../magpie/internal/gui/assets/plugins/library/client.js#L3445) |
-| b | VariableDeclaration | syncPicks | [3447](../../magpie/internal/gui/assets/plugins/library/client.js#L3447) |
-| bar | VariableDeclaration | syncPicks | [3448](../../magpie/internal/gui/assets/plugins/library/client.js#L3448) |
-| pickBar | FunctionDeclaration |  | [3453](../../magpie/internal/gui/assets/plugins/library/client.js#L3453) |
-| bar | VariableDeclaration | pickBar | [3454](../../magpie/internal/gui/assets/plugins/library/client.js#L3454) |
-| servers | VariableDeclaration | pickBar | [3455](../../magpie/internal/gui/assets/plugins/library/client.js#L3455) |
-| hooks | VariableDeclaration | pickBar | [3455](../../magpie/internal/gui/assets/plugins/library/client.js#L3455) |
-| own | VariableDeclaration | pickBar | [3456](../../magpie/internal/gui/assets/plugins/library/client.js#L3456) |
-| shown | VariableDeclaration | pickBar | [3457](../../magpie/internal/gui/assets/plugins/library/client.js#L3457) |
-| q | VariableDeclaration | pickBar | [3457](../../magpie/internal/gui/assets/plugins/library/client.js#L3457) |
-| every | VariableDeclaration | pickBar | [3458](../../magpie/internal/gui/assets/plugins/library/client.js#L3458) |
-| skills | VariableDeclaration | pickBar | [3461](../../magpie/internal/gui/assets/plugins/library/client.js#L3461) |
-| n | VariableDeclaration | pickBar | [3462](../../magpie/internal/gui/assets/plugins/library/client.js#L3462) |
-| gb | VariableDeclaration | pickBar | [3470](../../magpie/internal/gui/assets/plugins/library/client.js#L3470) |
-| own | VariableDeclaration | pickBar | [3473](../../magpie/internal/gui/assets/plugins/library/client.js#L3473) |
-| ub | VariableDeclaration | pickBar | [3475](../../magpie/internal/gui/assets/plugins/library/client.js#L3475) |
-| u | VariableDeclaration | pickBar.ub | [3476](../../magpie/internal/gui/assets/plugins/library/client.js#L3476) |
-| rm | VariableDeclaration | pickBar | [3487](../../magpie/internal/gui/assets/plugins/library/client.js#L3487) |
-| c | VariableDeclaration | pickBar | [3490](../../magpie/internal/gui/assets/plugins/library/client.js#L3490) |
-| copyConfigButton | FunctionDeclaration |  | [3502](../../magpie/internal/gui/assets/plugins/library/client.js#L3502) |
-| b | VariableDeclaration | copyConfigButton | [3503](../../magpie/internal/gui/assets/plugins/library/client.js#L3503) |
-| opts | VariableDeclaration | copyConfigButton.b | [3504](../../magpie/internal/gui/assets/plugins/library/client.js#L3504) |
-| a | VariableDeclaration | copyConfigButton.b | [3506](../../magpie/internal/gui/assets/plugins/library/client.js#L3506) |
+| live | VariableDeclaration | partHead | [3187](../../magpie/internal/gui/assets/plugins/library/client.js#L3187) |
+| named | VariableDeclaration |  | [3201](../../magpie/internal/gui/assets/plugins/library/client.js#L3201) |
+| skillNamed | FunctionDeclaration |  | [3202](../../magpie/internal/gui/assets/plugins/library/client.js#L3202) |
+| groupCard | FunctionDeclaration |  | [3207](../../magpie/internal/gui/assets/plugins/library/client.js#L3207) |
+| card | VariableDeclaration | groupCard | [3208](../../magpie/internal/gui/assets/plugins/library/client.js#L3208) |
+| head | VariableDeclaration | groupCard | [3210](../../magpie/internal/gui/assets/plugins/library/client.js#L3210) |
+| who | VariableDeclaration | groupCard | [3211](../../magpie/internal/gui/assets/plugins/library/client.js#L3211) |
+| title | VariableDeclaration | groupCard | [3212](../../magpie/internal/gui/assets/plugins/library/client.js#L3212) |
+| name | VariableDeclaration | groupCard | [3213](../../magpie/internal/gui/assets/plugins/library/client.js#L3213) |
+| n | VariableDeclaration | groupCard | [3215](../../magpie/internal/gui/assets/plugins/library/client.js#L3215) |
+| sub | VariableDeclaration | groupCard | [3216](../../magpie/internal/gui/assets/plugins/library/client.js#L3216) |
+| shared | VariableDeclaration | groupCard | [3220](../../magpie/internal/gui/assets/plugins/library/client.js#L3220) |
+| readers | VariableDeclaration | groupCard | [3222](../../magpie/internal/gui/assets/plugins/library/client.js#L3222) |
+| note | VariableDeclaration | groupCard | [3223](../../magpie/internal/gui/assets/plugins/library/client.js#L3223) |
+| tags | VariableDeclaration | groupCard | [3228](../../magpie/internal/gui/assets/plugins/library/client.js#L3228) |
+| stale | VariableDeclaration | groupCard | [3230](../../magpie/internal/gui/assets/plugins/library/client.js#L3230) |
+| gone | VariableDeclaration | groupCard | [3231](../../magpie/internal/gui/assets/plugins/library/client.js#L3231) |
+| u | VariableDeclaration | groupCard | [3234](../../magpie/internal/gui/assets/plugins/library/client.js#L3234) |
+| have | VariableDeclaration | groupCard | [3242](../../magpie/internal/gui/assets/plugins/library/client.js#L3242) |
+| acts | VariableDeclaration | groupCard | [3243](../../magpie/internal/gui/assets/plugins/library/client.js#L3243) |
+| rn | VariableDeclaration | groupCard | [3247](../../magpie/internal/gui/assets/plugins/library/client.js#L3247) |
+| un | VariableDeclaration | groupCard | [3249](../../magpie/internal/gui/assets/plugins/library/client.js#L3249) |
+| o | VariableDeclaration | groupCard | [3254](../../magpie/internal/gui/assets/plugins/library/client.js#L3254) |
+| chev | VariableDeclaration | groupCard | [3259](../../magpie/internal/gui/assets/plugins/library/client.js#L3259) |
+| pic | VariableDeclaration | groupCard | [3261](../../magpie/internal/gui/assets/plugins/library/client.js#L3261) |
+| groupChips | FunctionDeclaration |  | [3292](../../magpie/internal/gui/assets/plugins/library/client.js#L3292) |
+| servers | VariableDeclaration | groupChips | [3293](../../magpie/internal/gui/assets/plugins/library/client.js#L3293) |
+| hooks | VariableDeclaration | groupChips | [3293](../../magpie/internal/gui/assets/plugins/library/client.js#L3293) |
+| n | VariableDeclaration | groupChips | [3294](../../magpie/internal/gui/assets/plugins/library/client.js#L3294) |
+| names | VariableDeclaration | groupChips | [3294](../../magpie/internal/gui/assets/plugins/library/client.js#L3294) |
+| own | VariableDeclaration | groupChips | [3295](../../magpie/internal/gui/assets/plugins/library/client.js#L3295) |
+| can | VariableDeclaration | groupChips | [3296](../../magpie/internal/gui/assets/plugins/library/client.js#L3296) |
+| reach | VariableDeclaration | groupChips | [3297](../../magpie/internal/gui/assets/plugins/library/client.js#L3297) |
+| count | VariableDeclaration | groupChips | [3298](../../magpie/internal/gui/assets/plugins/library/client.js#L3298) |
+| itself | VariableDeclaration | groupChips | [3299](../../magpie/internal/gui/assets/plugins/library/client.js#L3299) |
+| full | VariableDeclaration | groupChips | [3300](../../magpie/internal/gui/assets/plugins/library/client.js#L3300) |
+| send | VariableDeclaration | groupChips | [3303](../../magpie/internal/gui/assets/plugins/library/client.js#L3303) |
+| by | VariableDeclaration | groupChips.send | [3304](../../magpie/internal/gui/assets/plugins/library/client.js#L3304) |
+| id | VariableDeclaration | groupChips.send | [3305](../../magpie/internal/gui/assets/plugins/library/client.js#L3305) |
+| a | VariableDeclaration | groupChips.send | [3306](../../magpie/internal/gui/assets/plugins/library/client.js#L3306) |
+| ns | VariableDeclaration | groupChips.send | [3307](../../magpie/internal/gui/assets/plugins/library/client.js#L3307) |
+| k | VariableDeclaration | groupChips.send | [3308](../../magpie/internal/gui/assets/plugins/library/client.js#L3308) |
+| v | VariableDeclaration | groupChips.send | [3312](../../magpie/internal/gui/assets/plugins/library/client.js#L3312) |
+| g | VariableDeclaration | groupChips.send | [3313](../../magpie/internal/gui/assets/plugins/library/client.js#L3313) |
+| box | VariableDeclaration | groupChips | [3316](../../magpie/internal/gui/assets/plugins/library/client.js#L3316) |
+| on | VariableDeclaration | groupChips.box | [3317](../../magpie/internal/gui/assets/plugins/library/client.js#L3317) |
+| off | VariableDeclaration | groupChips.box | [3317](../../magpie/internal/gui/assets/plugins/library/client.js#L3317) |
+| v | VariableDeclaration | groupChips.box | [3320](../../magpie/internal/gui/assets/plugins/library/client.js#L3320) |
+| who | VariableDeclaration | groupChips.box | [3325](../../magpie/internal/gui/assets/plugins/library/client.js#L3325) |
+| still | VariableDeclaration | groupChips.box | [3327](../../magpie/internal/gui/assets/plugins/library/client.js#L3327) |
+| kept | VariableDeclaration | groupChips.box | [3328](../../magpie/internal/gui/assets/plugins/library/client.js#L3328) |
+| e | VariableDeclaration | groupChips.box | [3336](../../magpie/internal/gui/assets/plugins/library/client.js#L3336) |
+| c | VariableDeclaration | groupChips | [3345](../../magpie/internal/gui/assets/plugins/library/client.js#L3345) |
+| a | VariableDeclaration | groupChips | [3346](../../magpie/internal/gui/assets/plugins/library/client.js#L3346) |
+| k | VariableDeclaration | groupChips | [3346](../../magpie/internal/gui/assets/plugins/library/client.js#L3346) |
+| m | VariableDeclaration | groupChips | [3346](../../magpie/internal/gui/assets/plugins/library/client.js#L3346) |
+| every | VariableDeclaration | groupChips | [3363](../../magpie/internal/gui/assets/plugins/library/client.js#L3363) |
+| pickButton | FunctionDeclaration |  | [3377](../../magpie/internal/gui/assets/plugins/library/client.js#L3377) |
+| b | VariableDeclaration | pickButton | [3378](../../magpie/internal/gui/assets/plugins/library/client.js#L3378) |
+| skills | VariableDeclaration | pickButton | [3385](../../magpie/internal/gui/assets/plugins/library/client.js#L3385) |
+| hooks | VariableDeclaration | pickButton | [3385](../../magpie/internal/gui/assets/plugins/library/client.js#L3385) |
+| pickingFor | FunctionDeclaration |  | [3399](../../magpie/internal/gui/assets/plugins/library/client.js#L3399) |
+| n | VariableDeclaration | pickingFor | [3402](../../magpie/internal/gui/assets/plugins/library/client.js#L3402) |
+| n | VariableDeclaration | pickingFor | [3403](../../magpie/internal/gui/assets/plugins/library/client.js#L3403) |
+| pickRow | FunctionDeclaration |  | [3407](../../magpie/internal/gui/assets/plugins/library/client.js#L3407) |
+| box | VariableDeclaration | pickRow | [3408](../../magpie/internal/gui/assets/plugins/library/client.js#L3408) |
+| why | VariableDeclaration | pickRow | [3415](../../magpie/internal/gui/assets/plugins/library/client.js#L3415) |
+| sub | VariableDeclaration | pickRow | [3415](../../magpie/internal/gui/assets/plugins/library/client.js#L3415) |
+| shownSkills | FunctionDeclaration |  | [3425](../../magpie/internal/gui/assets/plugins/library/client.js#L3425) |
+| q | VariableDeclaration | shownSkills | [3426](../../magpie/internal/gui/assets/plugins/library/client.js#L3426) |
+| pickBox | FunctionDeclaration |  | [3433](../../magpie/internal/gui/assets/plugins/library/client.js#L3433) |
+| box | VariableDeclaration | pickBox | [3434](../../magpie/internal/gui/assets/plugins/library/client.js#L3434) |
+| every | VariableDeclaration | pickBox | [3441](../../magpie/internal/gui/assets/plugins/library/client.js#L3441) |
+| n | VariableDeclaration | pickBox | [3442](../../magpie/internal/gui/assets/plugins/library/client.js#L3442) |
+| pickAll | VariableDeclaration |  | [3447](../../magpie/internal/gui/assets/plugins/library/client.js#L3447) |
+| paintPick | FunctionDeclaration |  | [3448](../../magpie/internal/gui/assets/plugins/library/client.js#L3448) |
+| k | VariableDeclaration | paintPick | [3449](../../magpie/internal/gui/assets/plugins/library/client.js#L3449) |
+| row | VariableDeclaration | paintPick | [3452](../../magpie/internal/gui/assets/plugins/library/client.js#L3452) |
+| syncPicks | FunctionDeclaration |  | [3456](../../magpie/internal/gui/assets/plugins/library/client.js#L3456) |
+| b | VariableDeclaration | syncPicks | [3458](../../magpie/internal/gui/assets/plugins/library/client.js#L3458) |
+| bar | VariableDeclaration | syncPicks | [3459](../../magpie/internal/gui/assets/plugins/library/client.js#L3459) |
+| pickBar | FunctionDeclaration |  | [3464](../../magpie/internal/gui/assets/plugins/library/client.js#L3464) |
+| bar | VariableDeclaration | pickBar | [3465](../../magpie/internal/gui/assets/plugins/library/client.js#L3465) |
+| servers | VariableDeclaration | pickBar | [3466](../../magpie/internal/gui/assets/plugins/library/client.js#L3466) |
+| hooks | VariableDeclaration | pickBar | [3466](../../magpie/internal/gui/assets/plugins/library/client.js#L3466) |
+| own | VariableDeclaration | pickBar | [3467](../../magpie/internal/gui/assets/plugins/library/client.js#L3467) |
+| shown | VariableDeclaration | pickBar | [3468](../../magpie/internal/gui/assets/plugins/library/client.js#L3468) |
+| q | VariableDeclaration | pickBar | [3468](../../magpie/internal/gui/assets/plugins/library/client.js#L3468) |
+| every | VariableDeclaration | pickBar | [3469](../../magpie/internal/gui/assets/plugins/library/client.js#L3469) |
+| skills | VariableDeclaration | pickBar | [3472](../../magpie/internal/gui/assets/plugins/library/client.js#L3472) |
+| n | VariableDeclaration | pickBar | [3473](../../magpie/internal/gui/assets/plugins/library/client.js#L3473) |
+| gb | VariableDeclaration | pickBar | [3481](../../magpie/internal/gui/assets/plugins/library/client.js#L3481) |
+| own | VariableDeclaration | pickBar | [3484](../../magpie/internal/gui/assets/plugins/library/client.js#L3484) |
+| ub | VariableDeclaration | pickBar | [3486](../../magpie/internal/gui/assets/plugins/library/client.js#L3486) |
+| u | VariableDeclaration | pickBar.ub | [3487](../../magpie/internal/gui/assets/plugins/library/client.js#L3487) |
+| rm | VariableDeclaration | pickBar | [3498](../../magpie/internal/gui/assets/plugins/library/client.js#L3498) |
+| c | VariableDeclaration | pickBar | [3501](../../magpie/internal/gui/assets/plugins/library/client.js#L3501) |
+| copyConfigButton | FunctionDeclaration |  | [3513](../../magpie/internal/gui/assets/plugins/library/client.js#L3513) |
+| b | VariableDeclaration | copyConfigButton | [3514](../../magpie/internal/gui/assets/plugins/library/client.js#L3514) |
+| opts | VariableDeclaration | copyConfigButton.b | [3515](../../magpie/internal/gui/assets/plugins/library/client.js#L3515) |

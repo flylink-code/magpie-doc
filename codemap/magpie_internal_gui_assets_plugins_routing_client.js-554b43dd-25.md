@@ -4,28 +4,56 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/routing/client.js) · page 25/25
 
-Source SHA-256: ee482145fe66bac028e371a3cf2025e062889d93bfa76824eca6240614a1484e
+Source SHA-256: dce6fee6295777a9ca5c5d2f08833da8a1e90262deba52d2e4ae14536e38a6bc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tr | BindingElement | routingPage.panelRow.[, how, tr] | [7019](../../magpie/internal/gui/assets/plugins/routing/client.js#L7019) |
-| w | VariableDeclaration | routingPage.panelRow | [7020](../../magpie/internal/gui/assets/plugins/routing/client.js#L7020) |
-| b | VariableDeclaration | routingPage.panelRow | [7021](../../magpie/internal/gui/assets/plugins/routing/client.js#L7021) |
-| ag | VariableDeclaration | routingPage.panelRow | [7023](../../magpie/internal/gui/assets/plugins/routing/client.js#L7023) |
-| asked | VariableDeclaration | routingPage.panelRow | [7024](../../magpie/internal/gui/assets/plugins/routing/client.js#L7024) |
-| when | VariableDeclaration | routingPage.panelRow | [7027](../../magpie/internal/gui/assets/plugins/routing/client.js#L7027) |
-| to | VariableDeclaration | routingPage.panelRow | [7030](../../magpie/internal/gui/assets/plugins/routing/client.js#L7030) |
-| place | VariableDeclaration | routingPage.panelRow | [7032](../../magpie/internal/gui/assets/plugins/routing/client.js#L7032) |
-| last | VariableDeclaration | routingPage.panelRow | [7035](../../magpie/internal/gui/assets/plugins/routing/client.js#L7035) |
-| model | VariableDeclaration | routingPage.panelRow | [7039](../../magpie/internal/gui/assets/plugins/routing/client.js#L7039) |
-| meta | VariableDeclaration | routingPage.panelRow | [7045](../../magpie/internal/gui/assets/plugins/routing/client.js#L7045) |
-| speed | VariableDeclaration | routingPage.panelRow | [7051](../../magpie/internal/gui/assets/plugins/routing/client.js#L7051) |
-| line | VariableDeclaration | routingPage.panelRow | [7056](../../magpie/internal/gui/assets/plugins/routing/client.js#L7056) |
-| stageAsked | VariableDeclaration | routingPage | [7068](../../magpie/internal/gui/assets/plugins/routing/client.js#L7068) |
-| fitReqs | FunctionDeclaration | routingPage | [7073](../../magpie/internal/gui/assets/plugins/routing/client.js#L7073) |
-| v | VariableDeclaration | routingPage.fitReqs | [7074](../../magpie/internal/gui/assets/plugins/routing/client.js#L7074) |
-| above | VariableDeclaration | routingPage.fitReqs | [7076](../../magpie/internal/gui/assets/plugins/routing/client.js#L7076) |
-| room | VariableDeclaration | routingPage.fitReqs | [7077](../../magpie/internal/gui/assets/plugins/routing/client.js#L7077) |
-| h | VariableDeclaration | routingPage.fitReqs | [7078](../../magpie/internal/gui/assets/plugins/routing/client.js#L7078) |
-| fitting | VariableDeclaration | routingPage | [7084](../../magpie/internal/gui/assets/plugins/routing/client.js#L7084) |
-| fitSoon | VariableDeclaration | routingPage | [7085](../../magpie/internal/gui/assets/plugins/routing/client.js#L7085) |
+| head | VariableDeclaration | routingPage.renderPanel | [7028](../../magpie/internal/gui/assets/plugins/routing/client.js#L7028) |
+| sum | VariableDeclaration | routingPage.renderPanel | [7029](../../magpie/internal/gui/assets/plugins/routing/client.js#L7029) |
+| open | VariableDeclaration | routingPage.renderPanel | [7035](../../magpie/internal/gui/assets/plugins/routing/client.js#L7035) |
+| out | VariableDeclaration | routingPage.renderPanel | [7039](../../magpie/internal/gui/assets/plugins/routing/client.js#L7039) |
+| p | VariableDeclaration | routingPage.renderPanel | [7045](../../magpie/internal/gui/assets/plugins/routing/client.js#L7045) |
+| list | VariableDeclaration | routingPage.renderPanel | [7049](../../magpie/internal/gui/assets/plugins/routing/client.js#L7049) |
+| r | VariableDeclaration | routingPage.renderPanel | [7050](../../magpie/internal/gui/assets/plugins/routing/client.js#L7050) |
+| pGhost | FunctionDeclaration | routingPage | [7064](../../magpie/internal/gui/assets/plugins/routing/client.js#L7064) |
+| stage | VariableDeclaration | routingPage.pGhost | [7065](../../magpie/internal/gui/assets/plugins/routing/client.js#L7065) |
+| list | VariableDeclaration | routingPage.pGhost | [7067](../../magpie/internal/gui/assets/plugins/routing/client.js#L7067) |
+| i | VariableDeclaration | routingPage.pGhost | [7068](../../magpie/internal/gui/assets/plugins/routing/client.js#L7068) |
+| row | VariableDeclaration | routingPage.pGhost | [7069](../../magpie/internal/gui/assets/plugins/routing/client.js#L7069) |
+| asked | VariableDeclaration | routingPage.pGhost | [7070](../../magpie/internal/gui/assets/plugins/routing/client.js#L7070) |
+| line | VariableDeclaration | routingPage.pGhost | [7072](../../magpie/internal/gui/assets/plugins/routing/client.js#L7072) |
+| rows | VariableDeclaration | routingPage.pGhost | [7077](../../magpie/internal/gui/assets/plugins/routing/client.js#L7077) |
+| panelPicks | FunctionDeclaration | routingPage | [7085](../../magpie/internal/gui/assets/plugins/routing/client.js#L7085) |
+| gs | VariableDeclaration | routingPage.panelPicks | [7086](../../magpie/internal/gui/assets/plugins/routing/client.js#L7086) |
+| box | VariableDeclaration | routingPage.panelPicks | [7088](../../magpie/internal/gui/assets/plugins/routing/client.js#L7088) |
+| g | VariableDeclaration | routingPage.panelPicks | [7089](../../magpie/internal/gui/assets/plugins/routing/client.js#L7089) |
+| picked | VariableDeclaration | routingPage.panelPicks | [7090](../../magpie/internal/gui/assets/plugins/routing/client.js#L7090) |
+| row | VariableDeclaration | routingPage.panelPicks | [7091](../../magpie/internal/gui/assets/plugins/routing/client.js#L7091) |
+| b | VariableDeclaration | routingPage.panelPicks | [7093](../../magpie/internal/gui/assets/plugins/routing/client.js#L7093) |
+| info | VariableDeclaration | routingPage.panelPicks | [7104](../../magpie/internal/gui/assets/plugins/routing/client.js#L7104) |
+| note | VariableDeclaration | routingPage.panelPicks | [7105](../../magpie/internal/gui/assets/plugins/routing/client.js#L7105) |
+| err | VariableDeclaration | routingPage.panelPicks | [7114](../../magpie/internal/gui/assets/plugins/routing/client.js#L7114) |
+| panelRow | FunctionDeclaration | routingPage | [7122](../../magpie/internal/gui/assets/plugins/routing/client.js#L7122) |
+| [, how, tr] | VariableDeclaration | routingPage.panelRow | [7123](../../magpie/internal/gui/assets/plugins/routing/client.js#L7123) |
+| how | BindingElement | routingPage.panelRow.[, how, tr] | [7123](../../magpie/internal/gui/assets/plugins/routing/client.js#L7123) |
+| tr | BindingElement | routingPage.panelRow.[, how, tr] | [7123](../../magpie/internal/gui/assets/plugins/routing/client.js#L7123) |
+| w | VariableDeclaration | routingPage.panelRow | [7124](../../magpie/internal/gui/assets/plugins/routing/client.js#L7124) |
+| b | VariableDeclaration | routingPage.panelRow | [7125](../../magpie/internal/gui/assets/plugins/routing/client.js#L7125) |
+| ag | VariableDeclaration | routingPage.panelRow | [7127](../../magpie/internal/gui/assets/plugins/routing/client.js#L7127) |
+| asked | VariableDeclaration | routingPage.panelRow | [7128](../../magpie/internal/gui/assets/plugins/routing/client.js#L7128) |
+| when | VariableDeclaration | routingPage.panelRow | [7131](../../magpie/internal/gui/assets/plugins/routing/client.js#L7131) |
+| to | VariableDeclaration | routingPage.panelRow | [7134](../../magpie/internal/gui/assets/plugins/routing/client.js#L7134) |
+| place | VariableDeclaration | routingPage.panelRow | [7136](../../magpie/internal/gui/assets/plugins/routing/client.js#L7136) |
+| last | VariableDeclaration | routingPage.panelRow | [7139](../../magpie/internal/gui/assets/plugins/routing/client.js#L7139) |
+| model | VariableDeclaration | routingPage.panelRow | [7143](../../magpie/internal/gui/assets/plugins/routing/client.js#L7143) |
+| meta | VariableDeclaration | routingPage.panelRow | [7149](../../magpie/internal/gui/assets/plugins/routing/client.js#L7149) |
+| speed | VariableDeclaration | routingPage.panelRow | [7155](../../magpie/internal/gui/assets/plugins/routing/client.js#L7155) |
+| line | VariableDeclaration | routingPage.panelRow | [7160](../../magpie/internal/gui/assets/plugins/routing/client.js#L7160) |
+| stageAsked | VariableDeclaration | routingPage | [7172](../../magpie/internal/gui/assets/plugins/routing/client.js#L7172) |
+| fitReqs | FunctionDeclaration | routingPage | [7177](../../magpie/internal/gui/assets/plugins/routing/client.js#L7177) |
+| v | VariableDeclaration | routingPage.fitReqs | [7178](../../magpie/internal/gui/assets/plugins/routing/client.js#L7178) |
+| above | VariableDeclaration | routingPage.fitReqs | [7180](../../magpie/internal/gui/assets/plugins/routing/client.js#L7180) |
+| room | VariableDeclaration | routingPage.fitReqs | [7181](../../magpie/internal/gui/assets/plugins/routing/client.js#L7181) |
+| h | VariableDeclaration | routingPage.fitReqs | [7182](../../magpie/internal/gui/assets/plugins/routing/client.js#L7182) |
+| fitting | VariableDeclaration | routingPage | [7188](../../magpie/internal/gui/assets/plugins/routing/client.js#L7188) |
+| fitSoon | VariableDeclaration | routingPage | [7189](../../magpie/internal/gui/assets/plugins/routing/client.js#L7189) |

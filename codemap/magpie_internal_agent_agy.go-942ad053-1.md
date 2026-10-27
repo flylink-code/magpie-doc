@@ -4,12 +4,17 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agy.go) · page 1/1
 
-Source SHA-256: 6c1f8b394585557393630823ad9d18b823146c36fd094c18e52c68bfacb693ac
+Source SHA-256: 061af7954a33260c9a2a8f03b3f7e6839761776b0667bdb365fbd8266d08c8f4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| agyModels | const_spec |  | [32](../../magpie/internal/agent/agy.go#L32) |
-| AgyLaunch | function_declaration |  | [40](../../magpie/internal/agent/agy.go#L40) |
-| agyCustom | function_declaration |  | [49](../../magpie/internal/agent/agy.go#L49) |
-| agy | function_declaration |  | [62](../../magpie/internal/agent/agy.go#L62) |
-| noticeAgy | var_spec |  | [192](../../magpie/internal/agent/agy.go#L192) |
+| agyModels | const_spec |  | [44](../../magpie/internal/agent/agy.go#L44) |
+| AgyLaunch | function_declaration |  | [52](../../magpie/internal/agent/agy.go#L52) |
+| AgyStart | function_declaration |  | [63](../../magpie/internal/agent/agy.go#L63) |
+| agyShell | function_declaration |  | [75](../../magpie/internal/agent/agy.go#L75) |
+| agyTyped | function_declaration |  | [87](../../magpie/internal/agent/agy.go#L87) |
+| agyFunction | function_declaration |  | [96](../../magpie/internal/agent/agy.go#L96) |
+| agyCustom | function_declaration |  | [124](../../magpie/internal/agent/agy.go#L124) |
+| agy | function_declaration |  | [137](../../magpie/internal/agent/agy.go#L137) |
+| noticeAgy | var_spec |  | [289](../../magpie/internal/agent/agy.go#L289) |
+| noticeAgyTyped | var_spec |  | [290](../../magpie/internal/agent/agy.go#L290) |

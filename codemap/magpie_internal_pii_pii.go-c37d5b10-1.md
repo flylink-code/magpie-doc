@@ -4,45 +4,75 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/pii.go) · page 1/1
 
-Source SHA-256: afa6a6d0aa621df67203875c683e7be07d5a615614358d7c7d5f7eb0ba52960b
+Source SHA-256: 44013f1b5e99c6f85ec447bbc40a9da9b54d6b67d970cbb184e1cec5168c34a2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| modelURL | var_spec |  | [33](../../magpie/internal/pii/pii.go#L33) |
-| modelSize | var_spec |  | [34](../../magpie/internal/pii/pii.go#L34) |
-| modelSHA | var_spec |  | [35](../../magpie/internal/pii/pii.go#L35) |
-| serveTag | var_spec |  | [43](../../magpie/internal/pii/pii.go#L43) |
-| oldTags | var_spec |  | [44](../../magpie/internal/pii/pii.go#L44) |
-| serveBase | var_spec |  | [45](../../magpie/internal/pii/pii.go#L45) |
-| serveSHA | var_spec |  | [46](../../magpie/internal/pii/pii.go#L46) |
-| target | function_declaration |  | [56](../../magpie/internal/pii/pii.go#L56) |
-| Supported | function_declaration |  | [59](../../magpie/internal/pii/pii.go#L59) |
-| Size | function_declaration |  | [62](../../magpie/internal/pii/pii.go#L62) |
-| dir | var_spec |  | [67](../../magpie/internal/pii/pii.go#L67) |
-| modelPath | function_declaration |  | [69](../../magpie/internal/pii/pii.go#L69) |
-| serveDir | function_declaration |  | [71](../../magpie/internal/pii/pii.go#L71) |
-| tagDir | function_declaration |  | [73](../../magpie/internal/pii/pii.go#L73) |
-| exe | function_declaration |  | [77](../../magpie/internal/pii/pii.go#L77) |
-| exeIn | function_declaration |  | [79](../../magpie/internal/pii/pii.go#L79) |
-| binDir | function_declaration |  | [86](../../magpie/internal/pii/pii.go#L86) |
-| Installed | function_declaration |  | [97](../../magpie/internal/pii/pii.go#L97) |
-| ErrNotInstalled | var_spec |  | [108](../../magpie/internal/pii/pii.go#L108) |
-| Status | struct_type |  | [111](../../magpie/internal/pii/pii.go#L111) |
-| Supported | field_declaration | Status | [112](../../magpie/internal/pii/pii.go#L112) |
-| Installed | field_declaration | Status | [113](../../magpie/internal/pii/pii.go#L113) |
-| Size | field_declaration | Status | [114](../../magpie/internal/pii/pii.go#L114) |
-| Downloading | field_declaration | Status | [116](../../magpie/internal/pii/pii.go#L116) |
-| Done | field_declaration | Status | [117](../../magpie/internal/pii/pii.go#L117) |
-| Total | field_declaration | Status | [118](../../magpie/internal/pii/pii.go#L118) |
-| Error | field_declaration | Status | [119](../../magpie/internal/pii/pii.go#L119) |
-| Running | field_declaration | Status | [122](../../magpie/internal/pii/pii.go#L122) |
-| Device | field_declaration | Status | [123](../../magpie/internal/pii/pii.go#L123) |
-| GPU | field_declaration | Status | [124](../../magpie/internal/pii/pii.go#L124) |
-| LoadMS | field_declaration | Status | [125](../../magpie/internal/pii/pii.go#L125) |
-| GPUError | field_declaration | Status | [126](../../magpie/internal/pii/pii.go#L126) |
-| Failed | field_declaration | Status | [128](../../magpie/internal/pii/pii.go#L128) |
-| Loading | field_declaration | Status | [131](../../magpie/internal/pii/pii.go#L131) |
-| Waiting | field_declaration | Status | [132](../../magpie/internal/pii/pii.go#L132) |
-| Now | function_declaration |  | [136](../../magpie/internal/pii/pii.go#L136) |
-| Remove | function_declaration |  | [156](../../magpie/internal/pii/pii.go#L156) |
-| idleAfter | var_spec |  | [166](../../magpie/internal/pii/pii.go#L166) |
+| modelURL | var_spec |  | [44](../../magpie/internal/pii/pii.go#L44) |
+| modelSize | var_spec |  | [45](../../magpie/internal/pii/pii.go#L45) |
+| modelSHA | var_spec |  | [46](../../magpie/internal/pii/pii.go#L46) |
+| serveTag | var_spec |  | [54](../../magpie/internal/pii/pii.go#L54) |
+| oldTags | var_spec |  | [55](../../magpie/internal/pii/pii.go#L55) |
+| serveBase | var_spec |  | [56](../../magpie/internal/pii/pii.go#L56) |
+| serveSHA | var_spec |  | [57](../../magpie/internal/pii/pii.go#L57) |
+| target | function_declaration |  | [67](../../magpie/internal/pii/pii.go#L67) |
+| Supported | function_declaration |  | [70](../../magpie/internal/pii/pii.go#L70) |
+| Size | function_declaration |  | [73](../../magpie/internal/pii/pii.go#L73) |
+| dir | var_spec |  | [78](../../magpie/internal/pii/pii.go#L78) |
+| modelPath | function_declaration |  | [80](../../magpie/internal/pii/pii.go#L80) |
+| serveDir | function_declaration |  | [82](../../magpie/internal/pii/pii.go#L82) |
+| tagDir | function_declaration |  | [84](../../magpie/internal/pii/pii.go#L84) |
+| exe | function_declaration |  | [88](../../magpie/internal/pii/pii.go#L88) |
+| exeIn | function_declaration |  | [90](../../magpie/internal/pii/pii.go#L90) |
+| binDir | function_declaration |  | [97](../../magpie/internal/pii/pii.go#L97) |
+| Installed | function_declaration |  | [108](../../magpie/internal/pii/pii.go#L108) |
+| ErrNotInstalled | var_spec |  | [119](../../magpie/internal/pii/pii.go#L119) |
+| Status | struct_type |  | [122](../../magpie/internal/pii/pii.go#L122) |
+| Model | field_declaration | Status | [123](../../magpie/internal/pii/pii.go#L123) |
+| Supported | field_declaration | Status | [124](../../magpie/internal/pii/pii.go#L124) |
+| Installed | field_declaration | Status | [125](../../magpie/internal/pii/pii.go#L125) |
+| Size | field_declaration | Status | [126](../../magpie/internal/pii/pii.go#L126) |
+| Downloading | field_declaration | Status | [128](../../magpie/internal/pii/pii.go#L128) |
+| Done | field_declaration | Status | [129](../../magpie/internal/pii/pii.go#L129) |
+| Total | field_declaration | Status | [130](../../magpie/internal/pii/pii.go#L130) |
+| Error | field_declaration | Status | [131](../../magpie/internal/pii/pii.go#L131) |
+| Running | field_declaration | Status | [134](../../magpie/internal/pii/pii.go#L134) |
+| Device | field_declaration | Status | [135](../../magpie/internal/pii/pii.go#L135) |
+| GPU | field_declaration | Status | [136](../../magpie/internal/pii/pii.go#L136) |
+| LoadMS | field_declaration | Status | [137](../../magpie/internal/pii/pii.go#L137) |
+| GPUError | field_declaration | Status | [138](../../magpie/internal/pii/pii.go#L138) |
+| Failed | field_declaration | Status | [140](../../magpie/internal/pii/pii.go#L140) |
+| Loading | field_declaration | Status | [143](../../magpie/internal/pii/pii.go#L143) |
+| Waiting | field_declaration | Status | [144](../../magpie/internal/pii/pii.go#L144) |
+| Now | function_declaration |  | [148](../../magpie/internal/pii/pii.go#L148) |
+| Remove | function_declaration |  | [165](../../magpie/internal/pii/pii.go#L165) |
+| PrivacyFilter | const_spec |  | [177](../../magpie/internal/pii/pii.go#L177) |
+| AstrLinkGuard | const_spec |  | [178](../../magpie/internal/pii/pii.go#L178) |
+| Model | interface_type |  | [182](../../magpie/internal/pii/pii.go#L182) |
+| ID | method_spec | Model | [183](../../magpie/internal/pii/pii.go#L183) |
+| Supported | method_spec | Model | [184](../../magpie/internal/pii/pii.go#L184) |
+| Installed | method_spec | Model | [185](../../magpie/internal/pii/pii.go#L185) |
+| Size | method_spec | Model | [187](../../magpie/internal/pii/pii.go#L187) |
+| Find | method_spec | Model | [188](../../magpie/internal/pii/pii.go#L188) |
+| Now | method_spec | Model | [189](../../magpie/internal/pii/pii.go#L189) |
+| Download | method_spec | Model | [192](../../magpie/internal/pii/pii.go#L192) |
+| Cancel | method_spec | Model | [193](../../magpie/internal/pii/pii.go#L193) |
+| Warm | method_spec | Model | [195](../../magpie/internal/pii/pii.go#L195) |
+| Stop | method_spec | Model | [197](../../magpie/internal/pii/pii.go#L197) |
+| Remove | method_spec | Model | [198](../../magpie/internal/pii/pii.go#L198) |
+| Models | function_declaration |  | [202](../../magpie/internal/pii/pii.go#L202) |
+| Of | function_declaration |  | [205](../../magpie/internal/pii/pii.go#L205) |
+| Choose | function_declaration |  | [218](../../magpie/internal/pii/pii.go#L218) |
+| pfModel | struct_type |  | [230](../../magpie/internal/pii/pii.go#L230) |
+| ID | method_declaration | pfModel | [232](../../magpie/internal/pii/pii.go#L232) |
+| Supported | method_declaration | pfModel | [233](../../magpie/internal/pii/pii.go#L233) |
+| Installed | method_declaration | pfModel | [234](../../magpie/internal/pii/pii.go#L234) |
+| Size | method_declaration | pfModel | [235](../../magpie/internal/pii/pii.go#L235) |
+| Now | method_declaration | pfModel | [236](../../magpie/internal/pii/pii.go#L236) |
+| Download | method_declaration | pfModel | [237](../../magpie/internal/pii/pii.go#L237) |
+| Cancel | method_declaration | pfModel | [238](../../magpie/internal/pii/pii.go#L238) |
+| Warm | method_declaration | pfModel | [239](../../magpie/internal/pii/pii.go#L239) |
+| Stop | method_declaration | pfModel | [240](../../magpie/internal/pii/pii.go#L240) |
+| Remove | method_declaration | pfModel | [241](../../magpie/internal/pii/pii.go#L241) |
+| Find | method_declaration | pfModel | [242](../../magpie/internal/pii/pii.go#L242) |
+| idleAfter | var_spec |  | [247](../../magpie/internal/pii/pii.go#L247) |

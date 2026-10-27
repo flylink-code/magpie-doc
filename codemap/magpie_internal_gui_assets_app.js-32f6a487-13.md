@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 13/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| toggleFold | FunctionDeclaration |  | [4751](../../magpie/internal/gui/assets/app.js#L4751) |
-| openPicker | FunctionDeclaration |  | [4758](../../magpie/internal/gui/assets/app.js#L4758) |
-| again | VariableDeclaration | openPicker | [4760](../../magpie/internal/gui/assets/app.js#L4760) |
-| cur | VariableDeclaration | openPicker | [4763](../../magpie/internal/gui/assets/app.js#L4763) |
-| options | VariableDeclaration | openPicker | [4764](../../magpie/internal/gui/assets/app.js#L4764) |
-| rest | VariableDeclaration | openPicker | [4770](../../magpie/internal/gui/assets/app.js#L4770) |
-| effortPicker | VariableDeclaration | openPicker | [4772](../../magpie/internal/gui/assets/app.js#L4772) |
-| tells | VariableDeclaration | openPicker | [4776](../../magpie/internal/gui/assets/app.js#L4776) |
-| groups | VariableDeclaration | openPicker | [4785](../../magpie/internal/gui/assets/app.js#L4785) |
-| i | VariableDeclaration | openPicker | [4786](../../magpie/internal/gui/assets/app.js#L4786) |
-| [c] | VariableDeclaration | openPicker | [4787](../../magpie/internal/gui/assets/app.js#L4787) |
-| c | BindingElement | openPicker.[c] | [4787](../../magpie/internal/gui/assets/app.js#L4787) |
-| main | VariableDeclaration | openPicker | [4791](../../magpie/internal/gui/assets/app.js#L4791) |
-| mainName | VariableDeclaration | openPicker | [4792](../../magpie/internal/gui/assets/app.js#L4792) |
-| said | VariableDeclaration | openPicker | [4798](../../magpie/internal/gui/assets/app.js#L4798) |
-| main | VariableDeclaration | openPicker | [4799](../../magpie/internal/gui/assets/app.js#L4799) |
-| note | VariableDeclaration | openPicker | [4806](../../magpie/internal/gui/assets/app.js#L4806) |
-| at | VariableDeclaration | openPicker | [4819](../../magpie/internal/gui/assets/app.js#L4819) |
-| run | PropertyAssignment | openPicker | [4820](../../magpie/internal/gui/assets/app.js#L4820) |
-| modelPicker | VariableDeclaration | openPicker | [4822](../../magpie/internal/gui/assets/app.js#L4822) |
-| pop | VariableDeclaration | openPicker | [4825](../../magpie/internal/gui/assets/app.js#L4825) |
-| q | VariableDeclaration | openPicker | [4840](../../magpie/internal/gui/assets/app.js#L4840) |
-| effortName | FunctionDeclaration |  | [4849](../../magpie/internal/gui/assets/app.js#L4849) |
-| EFFORT_ORDER | VariableDeclaration |  | [4859](../../magpie/internal/gui/assets/app.js#L4859) |
-| effortStops | FunctionDeclaration |  | [4865](../../magpie/internal/gui/assets/app.js#L4865) |
-| options | VariableDeclaration | effortStops | [4866](../../magpie/internal/gui/assets/app.js#L4866) |
-| r | VariableDeclaration | effortStops | [4868](../../magpie/internal/gui/assets/app.js#L4868) |
-| i | VariableDeclaration | effortStops | [4869](../../magpie/internal/gui/assets/app.js#L4869) |
-| cut | VariableDeclaration | effortStops | [4870](../../magpie/internal/gui/assets/app.js#L4870) |
-| effortLit | FunctionDeclaration |  | [4877](../../magpie/internal/gui/assets/app.js#L4877) |
-| levels | VariableDeclaration | effortLit | [4878](../../magpie/internal/gui/assets/app.js#L4878) |
-| at | VariableDeclaration | effortLit | [4880](../../magpie/internal/gui/assets/app.js#L4880) |
-| effortIcon | FunctionDeclaration |  | [4885](../../magpie/internal/gui/assets/app.js#L4885) |
-| lit | VariableDeclaration | effortIcon | [4886](../../magpie/internal/gui/assets/app.js#L4886) |
-| e | VariableDeclaration | effortIcon | [4887](../../magpie/internal/gui/assets/app.js#L4887) |
-| s | VariableDeclaration | effortIcon | [4888](../../magpie/internal/gui/assets/app.js#L4888) |
-| effortBars | FunctionDeclaration |  | [4897](../../magpie/internal/gui/assets/app.js#L4897) |
-| e | VariableDeclaration | effortBars | [4898](../../magpie/internal/gui/assets/app.js#L4898) |
-| effortSeg | FunctionDeclaration |  | [4909](../../magpie/internal/gui/assets/app.js#L4909) |
-| options | VariableDeclaration | effortSeg | [4913](../../magpie/internal/gui/assets/app.js#L4913) |
-| last | VariableDeclaration | effortSeg | [4914](../../magpie/internal/gui/assets/app.js#L4914) |
-| box | VariableDeclaration | effortSeg | [4915](../../magpie/internal/gui/assets/app.js#L4915) |
-| head | VariableDeclaration | effortSeg | [4916](../../magpie/internal/gui/assets/app.js#L4916) |
-| value | VariableDeclaration | effortSeg | [4917](../../magpie/internal/gui/assets/app.js#L4917) |
-| track | VariableDeclaration | effortSeg | [4919](../../magpie/internal/gui/assets/app.js#L4919) |
-| rail | VariableDeclaration | effortSeg | [4925](../../magpie/internal/gui/assets/app.js#L4925) |
-| ticks | VariableDeclaration | effortSeg | [4927](../../magpie/internal/gui/assets/app.js#L4927) |
-| dot | VariableDeclaration | effortSeg | [4930](../../magpie/internal/gui/assets/app.js#L4930) |
-| ends | VariableDeclaration | effortSeg | [4935](../../magpie/internal/gui/assets/app.js#L4935) |
-| at | VariableDeclaration | effortSeg | [4939](../../magpie/internal/gui/assets/app.js#L4939) |
-| show | VariableDeclaration | effortSeg | [4940](../../magpie/internal/gui/assets/app.js#L4940) |
-| saving | VariableDeclaration | effortSeg | [4948](../../magpie/internal/gui/assets/app.js#L4948) |
-| commit | VariableDeclaration | effortSeg | [4949](../../magpie/internal/gui/assets/app.js#L4949) |
-| o | VariableDeclaration | effortSeg.commit | [4950](../../magpie/internal/gui/assets/app.js#L4950) |
-| stopAt | VariableDeclaration | effortSeg | [4959](../../magpie/internal/gui/assets/app.js#L4959) |
-| r | VariableDeclaration | effortSeg.stopAt | [4960](../../magpie/internal/gui/assets/app.js#L4960) |
-| to | VariableDeclaration | effortSeg | [4975](../../magpie/internal/gui/assets/app.js#L4975) |
-| effortSaid | FunctionDeclaration |  | [4987](../../magpie/internal/gui/assets/app.js#L4987) |
-| msg | VariableDeclaration | effortSaid | [4988](../../magpie/internal/gui/assets/app.js#L4988) |
-| renderEffortPicker | FunctionDeclaration |  | [4993](../../magpie/internal/gui/assets/app.js#L4993) |
-| range | VariableDeclaration | renderEffortPicker | [4994](../../magpie/internal/gui/assets/app.js#L4994) |
-| options | VariableDeclaration | renderEffortPicker | [4995](../../magpie/internal/gui/assets/app.js#L4995) |
-| selected | VariableDeclaration | renderEffortPicker | [4996](../../magpie/internal/gui/assets/app.js#L4996) |
-| ticks | VariableDeclaration | renderEffortPicker | [5003](../../magpie/internal/gui/assets/app.js#L5003) |
-| dot | VariableDeclaration | renderEffortPicker | [5005](../../magpie/internal/gui/assets/app.js#L5005) |
-| update | VariableDeclaration | renderEffortPicker | [5009](../../magpie/internal/gui/assets/app.js#L5009) |
-| i | VariableDeclaration | renderEffortPicker.update | [5010](../../magpie/internal/gui/assets/app.js#L5010) |
-| fill | VariableDeclaration | renderEffortPicker.update | [5013](../../magpie/internal/gui/assets/app.js#L5013) |
-| opened | VariableDeclaration | renderEffortPicker | [5020](../../magpie/internal/gui/assets/app.js#L5020) |
-| option | VariableDeclaration | renderEffortPicker | [5021](../../magpie/internal/gui/assets/app.js#L5021) |
-| value | VariableDeclaration | renderEffortPicker | [5024](../../magpie/internal/gui/assets/app.js#L5024) |
-| menu | VariableDeclaration | renderEffortPicker | [5042](../../magpie/internal/gui/assets/app.js#L5042) |
-| next | VariableDeclaration | renderEffortPicker | [5053](../../magpie/internal/gui/assets/app.js#L5053) |
-| filter | FunctionDeclaration |  | [5066](../../magpie/internal/gui/assets/app.js#L5066) |
-| q | VariableDeclaration | filter | [5068](../../magpie/internal/gui/assets/app.js#L5068) |
-| source | VariableDeclaration | filter | [5069](../../magpie/internal/gui/assets/app.js#L5069) |
-| scored | VariableDeclaration | filter | [5072](../../magpie/internal/gui/assets/app.js#L5072) |
-| typed | VariableDeclaration | filter | [5076](../../magpie/internal/gui/assets/app.js#L5076) |
-| own | VariableDeclaration | filter | [5083](../../magpie/internal/gui/assets/app.js#L5083) |
-| listed | VariableDeclaration | filter | [5085](../../magpie/internal/gui/assets/app.js#L5085) |
-| updatePickerRailSelection | FunctionDeclaration |  | [5097](../../magpie/internal/gui/assets/app.js#L5097) |
-| rail | VariableDeclaration | updatePickerRailSelection | [5098](../../magpie/internal/gui/assets/app.js#L5098) |
-| active | VariableDeclaration | updatePickerRailSelection | [5099](../../magpie/internal/gui/assets/app.js#L5099) |
-| b | VariableDeclaration | updatePickerRailSelection | [5100](../../magpie/internal/gui/assets/app.js#L5100) |
-| thumb | VariableDeclaration | updatePickerRailSelection | [5101](../../magpie/internal/gui/assets/app.js#L5101) |
-| switchPickerGroup | FunctionDeclaration |  | [5108](../../magpie/internal/gui/assets/app.js#L5108) |
-| railItems | VariableDeclaration | switchPickerGroup | [5110](../../magpie/internal/gui/assets/app.js#L5110) |
-| from | VariableDeclaration | switchPickerGroup | [5111](../../magpie/internal/gui/assets/app.js#L5111) |
-| to | VariableDeclaration | switchPickerGroup | [5112](../../magpie/internal/gui/assets/app.js#L5112) |
-| list | VariableDeclaration | switchPickerGroup | [5117](../../magpie/internal/gui/assets/app.js#L5117) |
-| reduced | VariableDeclaration | switchPickerGroup | [5119](../../magpie/internal/gui/assets/app.js#L5119) |
-| direction | VariableDeclaration | switchPickerGroup | [5121](../../magpie/internal/gui/assets/app.js#L5121) |
-| token | VariableDeclaration | switchPickerGroup | [5122](../../magpie/internal/gui/assets/app.js#L5122) |
-| out | VariableDeclaration | switchPickerGroup | [5124](../../magpie/internal/gui/assets/app.js#L5124) |
-| incoming | VariableDeclaration | switchPickerGroup | [5133](../../magpie/internal/gui/assets/app.js#L5133) |
-| railTip | VariableDeclaration |  | [5145](../../magpie/internal/gui/assets/app.js#L5145) |
-| railTipTimer | VariableDeclaration |  | [5145](../../magpie/internal/gui/assets/app.js#L5145) |
-| railTipShownAt | VariableDeclaration |  | [5145](../../magpie/internal/gui/assets/app.js#L5145) |
-| showRailTip | FunctionDeclaration |  | [5146](../../magpie/internal/gui/assets/app.js#L5146) |
-| warm | VariableDeclaration | showRailTip | [5148](../../magpie/internal/gui/assets/app.js#L5148) |
+| alias | VariableDeclaration | oneRowPerModel | [4754](../../magpie/internal/gui/assets/app.js#L4754) |
+| foldSame | FunctionDeclaration |  | [4768](../../magpie/internal/gui/assets/app.js#L4768) |
+| same | VariableDeclaration | foldSame | [4770](../../magpie/internal/gui/assets/app.js#L4770) |
+| first | VariableDeclaration | foldSame | [4772](../../magpie/internal/gui/assets/app.js#L4772) |
+| row | VariableDeclaration | foldSame | [4773](../../magpie/internal/gui/assets/app.js#L4773) |
+| out | VariableDeclaration | foldSame | [4775](../../magpie/internal/gui/assets/app.js#L4775) |
+| own | VariableDeclaration | foldSame | [4776](../../magpie/internal/gui/assets/app.js#L4776) |
+| toggleFold | FunctionDeclaration |  | [4783](../../magpie/internal/gui/assets/app.js#L4783) |
+| openPicker | FunctionDeclaration |  | [4790](../../magpie/internal/gui/assets/app.js#L4790) |
+| again | VariableDeclaration | openPicker | [4792](../../magpie/internal/gui/assets/app.js#L4792) |
+| cur | VariableDeclaration | openPicker | [4795](../../magpie/internal/gui/assets/app.js#L4795) |
+| options | VariableDeclaration | openPicker | [4796](../../magpie/internal/gui/assets/app.js#L4796) |
+| rest | VariableDeclaration | openPicker | [4802](../../magpie/internal/gui/assets/app.js#L4802) |
+| effortPicker | VariableDeclaration | openPicker | [4804](../../magpie/internal/gui/assets/app.js#L4804) |
+| tells | VariableDeclaration | openPicker | [4808](../../magpie/internal/gui/assets/app.js#L4808) |
+| groups | VariableDeclaration | openPicker | [4817](../../magpie/internal/gui/assets/app.js#L4817) |
+| i | VariableDeclaration | openPicker | [4818](../../magpie/internal/gui/assets/app.js#L4818) |
+| [c] | VariableDeclaration | openPicker | [4819](../../magpie/internal/gui/assets/app.js#L4819) |
+| c | BindingElement | openPicker.[c] | [4819](../../magpie/internal/gui/assets/app.js#L4819) |
+| main | VariableDeclaration | openPicker | [4823](../../magpie/internal/gui/assets/app.js#L4823) |
+| mainName | VariableDeclaration | openPicker | [4824](../../magpie/internal/gui/assets/app.js#L4824) |
+| said | VariableDeclaration | openPicker | [4830](../../magpie/internal/gui/assets/app.js#L4830) |
+| main | VariableDeclaration | openPicker | [4831](../../magpie/internal/gui/assets/app.js#L4831) |
+| note | VariableDeclaration | openPicker | [4838](../../magpie/internal/gui/assets/app.js#L4838) |
+| at | VariableDeclaration | openPicker | [4851](../../magpie/internal/gui/assets/app.js#L4851) |
+| run | PropertyAssignment | openPicker | [4852](../../magpie/internal/gui/assets/app.js#L4852) |
+| modelPicker | VariableDeclaration | openPicker | [4854](../../magpie/internal/gui/assets/app.js#L4854) |
+| pop | VariableDeclaration | openPicker | [4857](../../magpie/internal/gui/assets/app.js#L4857) |
+| q | VariableDeclaration | openPicker | [4872](../../magpie/internal/gui/assets/app.js#L4872) |
+| effortName | FunctionDeclaration |  | [4881](../../magpie/internal/gui/assets/app.js#L4881) |
+| EFFORT_ORDER | VariableDeclaration |  | [4891](../../magpie/internal/gui/assets/app.js#L4891) |
+| effortStops | FunctionDeclaration |  | [4897](../../magpie/internal/gui/assets/app.js#L4897) |
+| options | VariableDeclaration | effortStops | [4898](../../magpie/internal/gui/assets/app.js#L4898) |
+| r | VariableDeclaration | effortStops | [4900](../../magpie/internal/gui/assets/app.js#L4900) |
+| i | VariableDeclaration | effortStops | [4901](../../magpie/internal/gui/assets/app.js#L4901) |
+| cut | VariableDeclaration | effortStops | [4902](../../magpie/internal/gui/assets/app.js#L4902) |
+| effortLit | FunctionDeclaration |  | [4909](../../magpie/internal/gui/assets/app.js#L4909) |
+| levels | VariableDeclaration | effortLit | [4910](../../magpie/internal/gui/assets/app.js#L4910) |
+| at | VariableDeclaration | effortLit | [4912](../../magpie/internal/gui/assets/app.js#L4912) |
+| effortIcon | FunctionDeclaration |  | [4917](../../magpie/internal/gui/assets/app.js#L4917) |
+| lit | VariableDeclaration | effortIcon | [4918](../../magpie/internal/gui/assets/app.js#L4918) |
+| e | VariableDeclaration | effortIcon | [4919](../../magpie/internal/gui/assets/app.js#L4919) |
+| s | VariableDeclaration | effortIcon | [4920](../../magpie/internal/gui/assets/app.js#L4920) |
+| effortBars | FunctionDeclaration |  | [4929](../../magpie/internal/gui/assets/app.js#L4929) |
+| e | VariableDeclaration | effortBars | [4930](../../magpie/internal/gui/assets/app.js#L4930) |
+| effortSeg | FunctionDeclaration |  | [4941](../../magpie/internal/gui/assets/app.js#L4941) |
+| options | VariableDeclaration | effortSeg | [4945](../../magpie/internal/gui/assets/app.js#L4945) |
+| last | VariableDeclaration | effortSeg | [4946](../../magpie/internal/gui/assets/app.js#L4946) |
+| box | VariableDeclaration | effortSeg | [4947](../../magpie/internal/gui/assets/app.js#L4947) |
+| head | VariableDeclaration | effortSeg | [4948](../../magpie/internal/gui/assets/app.js#L4948) |
+| value | VariableDeclaration | effortSeg | [4949](../../magpie/internal/gui/assets/app.js#L4949) |
+| track | VariableDeclaration | effortSeg | [4951](../../magpie/internal/gui/assets/app.js#L4951) |
+| rail | VariableDeclaration | effortSeg | [4957](../../magpie/internal/gui/assets/app.js#L4957) |
+| ticks | VariableDeclaration | effortSeg | [4959](../../magpie/internal/gui/assets/app.js#L4959) |
+| dot | VariableDeclaration | effortSeg | [4962](../../magpie/internal/gui/assets/app.js#L4962) |
+| ends | VariableDeclaration | effortSeg | [4967](../../magpie/internal/gui/assets/app.js#L4967) |
+| at | VariableDeclaration | effortSeg | [4971](../../magpie/internal/gui/assets/app.js#L4971) |
+| show | VariableDeclaration | effortSeg | [4972](../../magpie/internal/gui/assets/app.js#L4972) |
+| saving | VariableDeclaration | effortSeg | [4980](../../magpie/internal/gui/assets/app.js#L4980) |
+| commit | VariableDeclaration | effortSeg | [4981](../../magpie/internal/gui/assets/app.js#L4981) |
+| o | VariableDeclaration | effortSeg.commit | [4982](../../magpie/internal/gui/assets/app.js#L4982) |
+| stopAt | VariableDeclaration | effortSeg | [4991](../../magpie/internal/gui/assets/app.js#L4991) |
+| r | VariableDeclaration | effortSeg.stopAt | [4992](../../magpie/internal/gui/assets/app.js#L4992) |
+| to | VariableDeclaration | effortSeg | [5007](../../magpie/internal/gui/assets/app.js#L5007) |
+| effortSaid | FunctionDeclaration |  | [5019](../../magpie/internal/gui/assets/app.js#L5019) |
+| msg | VariableDeclaration | effortSaid | [5020](../../magpie/internal/gui/assets/app.js#L5020) |
+| renderEffortPicker | FunctionDeclaration |  | [5025](../../magpie/internal/gui/assets/app.js#L5025) |
+| range | VariableDeclaration | renderEffortPicker | [5026](../../magpie/internal/gui/assets/app.js#L5026) |
+| options | VariableDeclaration | renderEffortPicker | [5027](../../magpie/internal/gui/assets/app.js#L5027) |
+| selected | VariableDeclaration | renderEffortPicker | [5028](../../magpie/internal/gui/assets/app.js#L5028) |
+| ticks | VariableDeclaration | renderEffortPicker | [5035](../../magpie/internal/gui/assets/app.js#L5035) |
+| dot | VariableDeclaration | renderEffortPicker | [5037](../../magpie/internal/gui/assets/app.js#L5037) |
+| update | VariableDeclaration | renderEffortPicker | [5041](../../magpie/internal/gui/assets/app.js#L5041) |
+| i | VariableDeclaration | renderEffortPicker.update | [5042](../../magpie/internal/gui/assets/app.js#L5042) |
+| fill | VariableDeclaration | renderEffortPicker.update | [5045](../../magpie/internal/gui/assets/app.js#L5045) |
+| opened | VariableDeclaration | renderEffortPicker | [5052](../../magpie/internal/gui/assets/app.js#L5052) |
+| option | VariableDeclaration | renderEffortPicker | [5053](../../magpie/internal/gui/assets/app.js#L5053) |
+| value | VariableDeclaration | renderEffortPicker | [5056](../../magpie/internal/gui/assets/app.js#L5056) |
+| menu | VariableDeclaration | renderEffortPicker | [5074](../../magpie/internal/gui/assets/app.js#L5074) |
+| next | VariableDeclaration | renderEffortPicker | [5085](../../magpie/internal/gui/assets/app.js#L5085) |
+| filter | FunctionDeclaration |  | [5098](../../magpie/internal/gui/assets/app.js#L5098) |
+| q | VariableDeclaration | filter | [5100](../../magpie/internal/gui/assets/app.js#L5100) |
+| source | VariableDeclaration | filter | [5101](../../magpie/internal/gui/assets/app.js#L5101) |
+| scored | VariableDeclaration | filter | [5104](../../magpie/internal/gui/assets/app.js#L5104) |
+| typed | VariableDeclaration | filter | [5108](../../magpie/internal/gui/assets/app.js#L5108) |
+| own | VariableDeclaration | filter | [5115](../../magpie/internal/gui/assets/app.js#L5115) |
+| listed | VariableDeclaration | filter | [5117](../../magpie/internal/gui/assets/app.js#L5117) |
+| updatePickerRailSelection | FunctionDeclaration |  | [5129](../../magpie/internal/gui/assets/app.js#L5129) |
+| rail | VariableDeclaration | updatePickerRailSelection | [5130](../../magpie/internal/gui/assets/app.js#L5130) |
+| active | VariableDeclaration | updatePickerRailSelection | [5131](../../magpie/internal/gui/assets/app.js#L5131) |
+| b | VariableDeclaration | updatePickerRailSelection | [5132](../../magpie/internal/gui/assets/app.js#L5132) |
+| thumb | VariableDeclaration | updatePickerRailSelection | [5133](../../magpie/internal/gui/assets/app.js#L5133) |
+| switchPickerGroup | FunctionDeclaration |  | [5140](../../magpie/internal/gui/assets/app.js#L5140) |
+| railItems | VariableDeclaration | switchPickerGroup | [5142](../../magpie/internal/gui/assets/app.js#L5142) |
+| from | VariableDeclaration | switchPickerGroup | [5143](../../magpie/internal/gui/assets/app.js#L5143) |
+| to | VariableDeclaration | switchPickerGroup | [5144](../../magpie/internal/gui/assets/app.js#L5144) |
+| list | VariableDeclaration | switchPickerGroup | [5149](../../magpie/internal/gui/assets/app.js#L5149) |
+| reduced | VariableDeclaration | switchPickerGroup | [5151](../../magpie/internal/gui/assets/app.js#L5151) |
+| direction | VariableDeclaration | switchPickerGroup | [5153](../../magpie/internal/gui/assets/app.js#L5153) |
+| token | VariableDeclaration | switchPickerGroup | [5154](../../magpie/internal/gui/assets/app.js#L5154) |

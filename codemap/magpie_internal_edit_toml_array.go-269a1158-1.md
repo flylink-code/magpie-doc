@@ -4,17 +4,18 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/toml_array.go) · page 1/1
 
-Source SHA-256: f84135067d464ae1faf949c1e86490fb2260e4d02c2e602a4eb8d7f9bc00b4b7
+Source SHA-256: 45493af3029e6aa8989cef94ced4156787057c9c6315e33f5d92b7317a84de9e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | SetTOMLArrayTable | function_declaration |  | [13](../../magpie/internal/edit/toml_array.go#L13) |
 | DelTOMLArrayTable | function_declaration |  | [18](../../magpie/internal/edit/toml_array.go#L18) |
 | editTOMLArrayTable | function_declaration |  | [22](../../magpie/internal/edit/toml_array.go#L22) |
-| tomlArraySpan | struct_type |  | [87](../../magpie/internal/edit/toml_array.go#L87) |
-| from | field_declaration | tomlArraySpan | [87](../../magpie/internal/edit/toml_array.go#L87) |
-| to | field_declaration | tomlArraySpan | [87](../../magpie/internal/edit/toml_array.go#L87) |
-| namedTOMLArray | function_declaration |  | [89](../../magpie/internal/edit/toml_array.go#L89) |
-| tomlContentEnd | function_declaration |  | [134](../../magpie/internal/edit/toml_array.go#L134) |
-| tomlDescendant | function_declaration |  | [141](../../magpie/internal/edit/toml_array.go#L141) |
-| tomlHeaderParts | function_declaration |  | [145](../../magpie/internal/edit/toml_array.go#L145) |
+| SetTOMLArrayTables | function_declaration |  | [92](../../magpie/internal/edit/toml_array.go#L92) |
+| tomlArraySpan | struct_type |  | [171](../../magpie/internal/edit/toml_array.go#L171) |
+| from | field_declaration | tomlArraySpan | [171](../../magpie/internal/edit/toml_array.go#L171) |
+| to | field_declaration | tomlArraySpan | [171](../../magpie/internal/edit/toml_array.go#L171) |
+| namedTOMLArray | function_declaration |  | [176](../../magpie/internal/edit/toml_array.go#L176) |
+| tomlContentEnd | function_declaration |  | [221](../../magpie/internal/edit/toml_array.go#L221) |
+| tomlDescendant | function_declaration |  | [228](../../magpie/internal/edit/toml_array.go#L228) |
+| tomlHeaderParts | function_declaration |  | [232](../../magpie/internal/edit/toml_array.go#L232) |

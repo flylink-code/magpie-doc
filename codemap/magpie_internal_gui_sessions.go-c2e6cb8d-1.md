@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/sessions.go) · page 1/1
 
-Source SHA-256: e61013b2d001ae14875e1b6abc52bf9292f1342c052c423fd856b7215a044b5d
+Source SHA-256: ea511f868ac5b3bbed00d970ea618911687ab767e24c698c8ed691043cb35d9a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,30 +21,32 @@ Source SHA-256: e61013b2d001ae14875e1b6abc52bf9292f1342c052c423fd856b7215a044b5d
 | gatewayListed | function_declaration |  | [70](../../magpie/internal/gui/sessions.go#L70) |
 | gatewaySession | function_declaration |  | [76](../../magpie/internal/gui/sessions.go#L76) |
 | sessionRoutes | function_declaration |  | [80](../../magpie/internal/gui/sessions.go#L80) |
-| Agents | field_declaration | sessionRoutes | [166](../../magpie/internal/gui/sessions.go#L166) |
-| Agent | field_declaration | sessionRoutes | [310](../../magpie/internal/gui/sessions.go#L310) |
-| ID | field_declaration | sessionRoutes | [310](../../magpie/internal/gui/sessions.go#L310) |
-| In | field_declaration | sessionRoutes | [310](../../magpie/internal/gui/sessions.go#L310) |
-| Agent | field_declaration | sessionRoutes | [346](../../magpie/internal/gui/sessions.go#L346) |
-| ID | field_declaration | sessionRoutes | [346](../../magpie/internal/gui/sessions.go#L346) |
-| To | field_declaration | sessionRoutes | [346](../../magpie/internal/gui/sessions.go#L346) |
-| Open | field_declaration | sessionRoutes | [347](../../magpie/internal/gui/sessions.go#L347) |
-| sessionMarkdown | function_declaration |  | [386](../../magpie/internal/gui/sessions.go#L386) |
-| wslName | function_declaration |  | [429](../../magpie/internal/gui/sessions.go#L429) |
-| statsMemo | var_spec |  | [440](../../magpie/internal/gui/sessions.go#L440) |
-| statsKept | struct_type |  | [446](../../magpie/internal/gui/sessions.go#L446) |
-| at | field_declaration | statsKept | [447](../../magpie/internal/gui/sessions.go#L447) |
-| st | field_declaration | statsKept | [448](../../magpie/internal/gui/sessions.go#L448) |
-| busy | field_declaration | statsKept | [449](../../magpie/internal/gui/sessions.go#L449) |
-| used | field_declaration | statsKept | [452](../../magpie/internal/gui/sessions.go#L452) |
-| statsMemoMost | const_spec |  | [458](../../magpie/internal/gui/sessions.go#L458) |
-| statsFor | function_declaration |  | [460](../../magpie/internal/gui/sessions.go#L460) |
-| combinedSessionStats | function_declaration |  | [502](../../magpie/internal/gui/sessions.go#L502) |
-| warmSessions | function_declaration |  | [526](../../magpie/internal/gui/sessions.go#L526) |
-| warmSteps | function_declaration |  | [542](../../magpie/internal/gui/sessions.go#L542) |
-| warmCodexEffort | var_spec |  | [556](../../magpie/internal/gui/sessions.go#L556) |
-| warmUp | function_declaration |  | [564](../../magpie/internal/gui/sessions.go#L564) |
-| underTightGC | function_declaration |  | [589](../../magpie/internal/gui/sessions.go#L589) |
-| heldMemory | function_declaration |  | [604](../../magpie/internal/gui/sessions.go#L604) |
-| tightGCPercent | const_spec |  | [610](../../magpie/internal/gui/sessions.go#L610) |
-| openTerminal | function_declaration |  | [615](../../magpie/internal/gui/sessions.go#L615) |
+| Terminal | field_declaration | sessionRoutes | [146](../../magpie/internal/gui/sessions.go#L146) |
+| Dirs | field_declaration | sessionRoutes | [147](../../magpie/internal/gui/sessions.go#L147) |
+| Agents | field_declaration | sessionRoutes | [171](../../magpie/internal/gui/sessions.go#L171) |
+| Agent | field_declaration | sessionRoutes | [315](../../magpie/internal/gui/sessions.go#L315) |
+| ID | field_declaration | sessionRoutes | [315](../../magpie/internal/gui/sessions.go#L315) |
+| In | field_declaration | sessionRoutes | [315](../../magpie/internal/gui/sessions.go#L315) |
+| Agent | field_declaration | sessionRoutes | [351](../../magpie/internal/gui/sessions.go#L351) |
+| ID | field_declaration | sessionRoutes | [351](../../magpie/internal/gui/sessions.go#L351) |
+| To | field_declaration | sessionRoutes | [351](../../magpie/internal/gui/sessions.go#L351) |
+| Open | field_declaration | sessionRoutes | [352](../../magpie/internal/gui/sessions.go#L352) |
+| sessionMarkdown | function_declaration |  | [391](../../magpie/internal/gui/sessions.go#L391) |
+| wslName | function_declaration |  | [434](../../magpie/internal/gui/sessions.go#L434) |
+| statsMemo | var_spec |  | [445](../../magpie/internal/gui/sessions.go#L445) |
+| statsKept | struct_type |  | [451](../../magpie/internal/gui/sessions.go#L451) |
+| at | field_declaration | statsKept | [452](../../magpie/internal/gui/sessions.go#L452) |
+| st | field_declaration | statsKept | [453](../../magpie/internal/gui/sessions.go#L453) |
+| busy | field_declaration | statsKept | [454](../../magpie/internal/gui/sessions.go#L454) |
+| used | field_declaration | statsKept | [457](../../magpie/internal/gui/sessions.go#L457) |
+| statsMemoMost | const_spec |  | [463](../../magpie/internal/gui/sessions.go#L463) |
+| statsFor | function_declaration |  | [465](../../magpie/internal/gui/sessions.go#L465) |
+| combinedSessionStats | function_declaration |  | [507](../../magpie/internal/gui/sessions.go#L507) |
+| warmSessions | function_declaration |  | [531](../../magpie/internal/gui/sessions.go#L531) |
+| warmSteps | function_declaration |  | [547](../../magpie/internal/gui/sessions.go#L547) |
+| warmCodexEffort | var_spec |  | [561](../../magpie/internal/gui/sessions.go#L561) |
+| warmUp | function_declaration |  | [569](../../magpie/internal/gui/sessions.go#L569) |
+| underTightGC | function_declaration |  | [594](../../magpie/internal/gui/sessions.go#L594) |
+| heldMemory | function_declaration |  | [609](../../magpie/internal/gui/sessions.go#L609) |
+| tightGCPercent | const_spec |  | [615](../../magpie/internal/gui/sessions.go#L615) |
+| openTerminal | function_declaration |  | [620](../../magpie/internal/gui/sessions.go#L620) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 7/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| [name, cls, opt, tip] | VariableDeclaration | renderLedger | [1907](../../magpie/internal/gui/assets/plugins/usage/page.js#L1907) |
-| name | BindingElement | renderLedger.[name, cls, opt, tip] | [1907](../../magpie/internal/gui/assets/plugins/usage/page.js#L1907) |
-| cls | BindingElement | renderLedger.[name, cls, opt, tip] | [1907](../../magpie/internal/gui/assets/plugins/usage/page.js#L1907) |
-| opt | BindingElement | renderLedger.[name, cls, opt, tip] | [1907](../../magpie/internal/gui/assets/plugins/usage/page.js#L1907) |
-| tip | BindingElement | renderLedger.[name, cls, opt, tip] | [1907](../../magpie/internal/gui/assets/plugins/usage/page.js#L1907) |
-| th | VariableDeclaration | renderLedger | [1908](../../magpie/internal/gui/assets/plugins/usage/page.js#L1908) |
-| r | VariableDeclaration | renderLedger | [1914](../../magpie/internal/gui/assets/plugins/usage/page.js#L1914) |
-| bad | VariableDeclaration | renderLedger | [1915](../../magpie/internal/gui/assets/plugins/usage/page.js#L1915) |
-| key | VariableDeclaration | renderLedger | [1916](../../magpie/internal/gui/assets/plugins/usage/page.js#L1916) |
-| tr | VariableDeclaration | renderLedger | [1917](../../magpie/internal/gui/assets/plugins/usage/page.js#L1917) |
-| td | VariableDeclaration | renderLedger | [1920](../../magpie/internal/gui/assets/plugins/usage/page.js#L1920) |
-| c | VariableDeclaration | renderLedger.td | [1921](../../magpie/internal/gui/assets/plugins/usage/page.js#L1921) |
-| routed | VariableDeclaration | renderLedger | [1927](../../magpie/internal/gui/assets/plugins/usage/page.js#L1927) |
-| when | VariableDeclaration | renderLedger | [1928](../../magpie/internal/gui/assets/plugins/usage/page.js#L1928) |
-| who | VariableDeclaration | renderLedger | [1935](../../magpie/internal/gui/assets/plugins/usage/page.js#L1935) |
-| name | VariableDeclaration | renderLedger | [1937](../../magpie/internal/gui/assets/plugins/usage/page.js#L1937) |
-| at | VariableDeclaration | renderLedger | [1939](../../magpie/internal/gui/assets/plugins/usage/page.js#L1939) |
-| probe | VariableDeclaration | renderLedger | [1944](../../magpie/internal/gui/assets/plugins/usage/page.js#L1944) |
-| own | VariableDeclaration | renderLedger | [1946](../../magpie/internal/gui/assets/plugins/usage/page.js#L1946) |
-| local | VariableDeclaration | renderLedger | [1952](../../magpie/internal/gui/assets/plugins/usage/page.js#L1952) |
-| where | VariableDeclaration | renderLedger | [1960](../../magpie/internal/gui/assets/plugins/usage/page.js#L1960) |
-| wc | VariableDeclaration | renderLedger | [1961](../../magpie/internal/gui/assets/plugins/usage/page.js#L1961) |
-| badges | VariableDeclaration | renderLedger | [1962](../../magpie/internal/gui/assets/plugins/usage/page.js#L1962) |
-| badge | VariableDeclaration | renderLedger | [1964](../../magpie/internal/gui/assets/plugins/usage/page.js#L1964) |
-| access | VariableDeclaration | renderLedger | [1968](../../magpie/internal/gui/assets/plugins/usage/page.js#L1968) |
-| badge | VariableDeclaration | renderLedger | [1972](../../magpie/internal/gui/assets/plugins/usage/page.js#L1972) |
-| proto | VariableDeclaration | renderLedger | [1976](../../magpie/internal/gui/assets/plugins/usage/page.js#L1976) |
-| k | VariableDeclaration | renderLedger | [1981](../../magpie/internal/gui/assets/plugins/usage/page.js#L1981) |
-| k | VariableDeclaration | renderLedger | [1989](../../magpie/internal/gui/assets/plugins/usage/page.js#L1989) |
-| k | VariableDeclaration | renderLedger | [1994](../../magpie/internal/gui/assets/plugins/usage/page.js#L1994) |
-| i | VariableDeclaration | renderLedger | [2007](../../magpie/internal/gui/assets/plugins/usage/page.js#L2007) |
-| cost | VariableDeclaration | renderLedger | [2012](../../magpie/internal/gui/assets/plugins/usage/page.js#L2012) |
-| reference | VariableDeclaration | renderLedger | [2014](../../magpie/internal/gui/assets/plugins/usage/page.js#L2014) |
-| timed | VariableDeclaration | renderLedger | [2020](../../magpie/internal/gui/assets/plugins/usage/page.js#L2020) |
-| untimed | VariableDeclaration | renderLedger | [2021](../../magpie/internal/gui/assets/plugins/usage/page.js#L2021) |
-| durationBand | VariableDeclaration | renderLedger | [2027](../../magpie/internal/gui/assets/plugins/usage/page.js#L2027) |
-| v | VariableDeclaration | renderLedger | [2031](../../magpie/internal/gui/assets/plugins/usage/page.js#L2031) |
-| floor | VariableDeclaration | renderLedger | [2031](../../magpie/internal/gui/assets/plugins/usage/page.js#L2031) |
-| f | VariableDeclaration | renderLedger | [2031](../../magpie/internal/gui/assets/plugins/usage/page.js#L2031) |
-| ttft | VariableDeclaration | renderLedger | [2032](../../magpie/internal/gui/assets/plugins/usage/page.js#L2032) |
-| st | VariableDeclaration | renderLedger | [2042](../../magpie/internal/gui/assets/plugins/usage/page.js#L2042) |
-| word | VariableDeclaration | renderLedger | [2045](../../magpie/internal/gui/assets/plugins/usage/page.js#L2045) |
-| detail | VariableDeclaration | renderLedger | [2052](../../magpie/internal/gui/assets/plugins/usage/page.js#L2052) |
-| toggle | VariableDeclaration | renderLedger | [2053](../../magpie/internal/gui/assets/plugins/usage/page.js#L2053) |
-| prev | VariableDeclaration | renderLedger | [2077](../../magpie/internal/gui/assets/plugins/usage/page.js#L2077) |
-| next | VariableDeclaration | renderLedger | [2078](../../magpie/internal/gui/assets/plugins/usage/page.js#L2078) |
-| typing | VariableDeclaration |  | [2089](../../magpie/internal/gui/assets/plugins/usage/page.js#L2089) |
-| b | VariableDeclaration |  | [2101](../../magpie/internal/gui/assets/plugins/usage/page.js#L2101) |
-| a | VariableDeclaration |  | [2104](../../magpie/internal/gui/assets/plugins/usage/page.js#L2104) |
-| r | VariableDeclaration |  | [2112](../../magpie/internal/gui/assets/plugins/usage/page.js#L2112) |
-| e | VariableDeclaration |  | [2114](../../magpie/internal/gui/assets/plugins/usage/page.js#L2114) |
-| sessModelNames | VariableDeclaration |  | [2133](../../magpie/internal/gui/assets/plugins/usage/page.js#L2133) |
-| wslBadge | FunctionDeclaration |  | [2137](../../magpie/internal/gui/assets/plugins/usage/page.js#L2137) |
-| b | VariableDeclaration | wslBadge | [2138](../../magpie/internal/gui/assets/plugins/usage/page.js#L2138) |
-| sessModelsText | FunctionDeclaration |  | [2146](../../magpie/internal/gui/assets/plugins/usage/page.js#L2146) |
-| via | VariableDeclaration | sessModelsText | [2147](../../magpie/internal/gui/assets/plugins/usage/page.js#L2147) |
-| sessUsageDetail | FunctionDeclaration |  | [2154](../../magpie/internal/gui/assets/plugins/usage/page.js#L2154) |
-| m | VariableDeclaration | sessUsageDetail | [2156](../../magpie/internal/gui/assets/plugins/usage/page.js#L2156) |
-| x | VariableDeclaration | sessUsageDetail | [2157](../../magpie/internal/gui/assets/plugins/usage/page.js#L2157) |
-| viaText | FunctionDeclaration |  | [2168](../../magpie/internal/gui/assets/plugins/usage/page.js#L2168) |
-| ledExpanded | VariableDeclaration |  | [2172](../../magpie/internal/gui/assets/plugins/usage/page.js#L2172) |
-| LED_KINDS | VariableDeclaration |  | [2173](../../magpie/internal/gui/assets/plugins/usage/page.js#L2173) |
-| LED_ROLES | VariableDeclaration |  | [2174](../../magpie/internal/gui/assets/plugins/usage/page.js#L2174) |
-| ledSaid | FunctionDeclaration |  | [2180](../../magpie/internal/gui/assets/plugins/usage/page.js#L2180) |
-| head | VariableDeclaration | ledSaid | [2181](../../magpie/internal/gui/assets/plugins/usage/page.js#L2181) |
-| m | VariableDeclaration | ledSaid | [2185](../../magpie/internal/gui/assets/plugins/usage/page.js#L2185) |
-| words | VariableDeclaration | ledSaid | [2189](../../magpie/internal/gui/assets/plugins/usage/page.js#L2189) |
-| d | VariableDeclaration | ledSaid | [2192](../../magpie/internal/gui/assets/plugins/usage/page.js#L2192) |
-| sum | VariableDeclaration | ledSaid | [2193](../../magpie/internal/gui/assets/plugins/usage/page.js#L2193) |
-| part | VariableDeclaration | ledSaid | [2198](../../magpie/internal/gui/assets/plugins/usage/page.js#L2198) |
-| more | VariableDeclaration | ledSaid | [2202](../../magpie/internal/gui/assets/plugins/usage/page.js#L2202) |
-| clamped | VariableDeclaration | ledSaid | [2205](../../magpie/internal/gui/assets/plugins/usage/page.js#L2205) |
-| USAGE_TABS | VariableDeclaration |  | [2214](../../magpie/internal/gui/assets/plugins/usage/page.js#L2214) |
-| usageTab | VariableDeclaration |  | [2215](../../magpie/internal/gui/assets/plugins/usage/page.js#L2215) |
-| k | VariableDeclaration |  | [2216](../../magpie/internal/gui/assets/plugins/usage/page.js#L2216) |
-| id | BindingElement |  | [2216](../../magpie/internal/gui/assets/plugins/usage/page.js#L2216) |
-| sessAgent | VariableDeclaration |  | [2217](../../magpie/internal/gui/assets/plugins/usage/page.js#L2217) |
-| sessQuery | VariableDeclaration |  | [2218](../../magpie/internal/gui/assets/plugins/usage/page.js#L2218) |
-| SESS_PAGE | VariableDeclaration |  | [2225](../../magpie/internal/gui/assets/plugins/usage/page.js#L2225) |
-| sessShown | VariableDeclaration |  | [2226](../../magpie/internal/gui/assets/plugins/usage/page.js#L2226) |
-| sessDrawn | VariableDeclaration |  | [2231](../../magpie/internal/gui/assets/plugins/usage/page.js#L2231) |
-| sessTotal | VariableDeclaration |  | [2231](../../magpie/internal/gui/assets/plugins/usage/page.js#L2231) |
-| sessListKey | VariableDeclaration |  | [2234](../../magpie/internal/gui/assets/plugins/usage/page.js#L2234) |
-| SESS_RANGES | VariableDeclaration |  | [2237](../../magpie/internal/gui/assets/plugins/usage/page.js#L2237) |
-| sessRange | VariableDeclaration |  | [2238](../../magpie/internal/gui/assets/plugins/usage/page.js#L2238) |
-| SESS_METRICS | VariableDeclaration |  | [2240](../../magpie/internal/gui/assets/plugins/usage/page.js#L2240) |
-| sessMetric | VariableDeclaration |  | [2241](../../magpie/internal/gui/assets/plugins/usage/page.js#L2241) |
-| SESS_TOPS | VariableDeclaration |  | [2243](../../magpie/internal/gui/assets/plugins/usage/page.js#L2243) |
-| sessTopBy | VariableDeclaration |  | [2244](../../magpie/internal/gui/assets/plugins/usage/page.js#L2244) |
-| r | VariableDeclaration |  | [2246](../../magpie/internal/gui/assets/plugins/usage/page.js#L2246) |
-| id | BindingElement |  | [2247](../../magpie/internal/gui/assets/plugins/usage/page.js#L2247) |
-| m | VariableDeclaration |  | [2248](../../magpie/internal/gui/assets/plugins/usage/page.js#L2248) |
-| id | BindingElement |  | [2249](../../magpie/internal/gui/assets/plugins/usage/page.js#L2249) |
-| b | VariableDeclaration |  | [2250](../../magpie/internal/gui/assets/plugins/usage/page.js#L2250) |
+| optCls | VariableDeclaration | renderLedger | [1910](../../magpie/internal/gui/assets/plugins/usage/page.js#L1910) |
+| [name, cls, opt, tip] | VariableDeclaration | renderLedger | [1911](../../magpie/internal/gui/assets/plugins/usage/page.js#L1911) |
+| name | BindingElement | renderLedger.[name, cls, opt, tip] | [1911](../../magpie/internal/gui/assets/plugins/usage/page.js#L1911) |
+| cls | BindingElement | renderLedger.[name, cls, opt, tip] | [1911](../../magpie/internal/gui/assets/plugins/usage/page.js#L1911) |
+| opt | BindingElement | renderLedger.[name, cls, opt, tip] | [1911](../../magpie/internal/gui/assets/plugins/usage/page.js#L1911) |
+| tip | BindingElement | renderLedger.[name, cls, opt, tip] | [1911](../../magpie/internal/gui/assets/plugins/usage/page.js#L1911) |
+| th | VariableDeclaration | renderLedger | [1912](../../magpie/internal/gui/assets/plugins/usage/page.js#L1912) |
+| r | VariableDeclaration | renderLedger | [1918](../../magpie/internal/gui/assets/plugins/usage/page.js#L1918) |
+| bad | VariableDeclaration | renderLedger | [1919](../../magpie/internal/gui/assets/plugins/usage/page.js#L1919) |
+| key | VariableDeclaration | renderLedger | [1920](../../magpie/internal/gui/assets/plugins/usage/page.js#L1920) |
+| tr | VariableDeclaration | renderLedger | [1921](../../magpie/internal/gui/assets/plugins/usage/page.js#L1921) |
+| td | VariableDeclaration | renderLedger | [1924](../../magpie/internal/gui/assets/plugins/usage/page.js#L1924) |
+| c | VariableDeclaration | renderLedger.td | [1925](../../magpie/internal/gui/assets/plugins/usage/page.js#L1925) |
+| routed | VariableDeclaration | renderLedger | [1931](../../magpie/internal/gui/assets/plugins/usage/page.js#L1931) |
+| when | VariableDeclaration | renderLedger | [1932](../../magpie/internal/gui/assets/plugins/usage/page.js#L1932) |
+| who | VariableDeclaration | renderLedger | [1939](../../magpie/internal/gui/assets/plugins/usage/page.js#L1939) |
+| name | VariableDeclaration | renderLedger | [1941](../../magpie/internal/gui/assets/plugins/usage/page.js#L1941) |
+| at | VariableDeclaration | renderLedger | [1943](../../magpie/internal/gui/assets/plugins/usage/page.js#L1943) |
+| probe | VariableDeclaration | renderLedger | [1948](../../magpie/internal/gui/assets/plugins/usage/page.js#L1948) |
+| own | VariableDeclaration | renderLedger | [1950](../../magpie/internal/gui/assets/plugins/usage/page.js#L1950) |
+| local | VariableDeclaration | renderLedger | [1956](../../magpie/internal/gui/assets/plugins/usage/page.js#L1956) |
+| where | VariableDeclaration | renderLedger | [1964](../../magpie/internal/gui/assets/plugins/usage/page.js#L1964) |
+| wc | VariableDeclaration | renderLedger | [1965](../../magpie/internal/gui/assets/plugins/usage/page.js#L1965) |
+| badges | VariableDeclaration | renderLedger | [1966](../../magpie/internal/gui/assets/plugins/usage/page.js#L1966) |
+| badge | VariableDeclaration | renderLedger | [1968](../../magpie/internal/gui/assets/plugins/usage/page.js#L1968) |
+| access | VariableDeclaration | renderLedger | [1972](../../magpie/internal/gui/assets/plugins/usage/page.js#L1972) |
+| badge | VariableDeclaration | renderLedger | [1976](../../magpie/internal/gui/assets/plugins/usage/page.js#L1976) |
+| proto | VariableDeclaration | renderLedger | [1980](../../magpie/internal/gui/assets/plugins/usage/page.js#L1980) |
+| k | VariableDeclaration | renderLedger | [1985](../../magpie/internal/gui/assets/plugins/usage/page.js#L1985) |
+| k | VariableDeclaration | renderLedger | [1993](../../magpie/internal/gui/assets/plugins/usage/page.js#L1993) |
+| k | VariableDeclaration | renderLedger | [1998](../../magpie/internal/gui/assets/plugins/usage/page.js#L1998) |
+| i | VariableDeclaration | renderLedger | [2011](../../magpie/internal/gui/assets/plugins/usage/page.js#L2011) |
+| cost | VariableDeclaration | renderLedger | [2016](../../magpie/internal/gui/assets/plugins/usage/page.js#L2016) |
+| reference | VariableDeclaration | renderLedger | [2018](../../magpie/internal/gui/assets/plugins/usage/page.js#L2018) |
+| timed | VariableDeclaration | renderLedger | [2024](../../magpie/internal/gui/assets/plugins/usage/page.js#L2024) |
+| untimed | VariableDeclaration | renderLedger | [2025](../../magpie/internal/gui/assets/plugins/usage/page.js#L2025) |
+| durationBand | VariableDeclaration | renderLedger | [2031](../../magpie/internal/gui/assets/plugins/usage/page.js#L2031) |
+| v | VariableDeclaration | renderLedger | [2035](../../magpie/internal/gui/assets/plugins/usage/page.js#L2035) |
+| floor | VariableDeclaration | renderLedger | [2035](../../magpie/internal/gui/assets/plugins/usage/page.js#L2035) |
+| f | VariableDeclaration | renderLedger | [2035](../../magpie/internal/gui/assets/plugins/usage/page.js#L2035) |
+| ttft | VariableDeclaration | renderLedger | [2036](../../magpie/internal/gui/assets/plugins/usage/page.js#L2036) |
+| st | VariableDeclaration | renderLedger | [2046](../../magpie/internal/gui/assets/plugins/usage/page.js#L2046) |
+| word | VariableDeclaration | renderLedger | [2049](../../magpie/internal/gui/assets/plugins/usage/page.js#L2049) |
+| detail | VariableDeclaration | renderLedger | [2056](../../magpie/internal/gui/assets/plugins/usage/page.js#L2056) |
+| toggle | VariableDeclaration | renderLedger | [2057](../../magpie/internal/gui/assets/plugins/usage/page.js#L2057) |
+| prev | VariableDeclaration | renderLedger | [2081](../../magpie/internal/gui/assets/plugins/usage/page.js#L2081) |
+| next | VariableDeclaration | renderLedger | [2082](../../magpie/internal/gui/assets/plugins/usage/page.js#L2082) |
+| typing | VariableDeclaration |  | [2093](../../magpie/internal/gui/assets/plugins/usage/page.js#L2093) |
+| b | VariableDeclaration |  | [2105](../../magpie/internal/gui/assets/plugins/usage/page.js#L2105) |
+| a | VariableDeclaration |  | [2108](../../magpie/internal/gui/assets/plugins/usage/page.js#L2108) |
+| r | VariableDeclaration |  | [2116](../../magpie/internal/gui/assets/plugins/usage/page.js#L2116) |
+| e | VariableDeclaration |  | [2118](../../magpie/internal/gui/assets/plugins/usage/page.js#L2118) |
+| sessModelNames | VariableDeclaration |  | [2137](../../magpie/internal/gui/assets/plugins/usage/page.js#L2137) |
+| wslBadge | FunctionDeclaration |  | [2141](../../magpie/internal/gui/assets/plugins/usage/page.js#L2141) |
+| b | VariableDeclaration | wslBadge | [2142](../../magpie/internal/gui/assets/plugins/usage/page.js#L2142) |
+| sessModelsText | FunctionDeclaration |  | [2150](../../magpie/internal/gui/assets/plugins/usage/page.js#L2150) |
+| via | VariableDeclaration | sessModelsText | [2151](../../magpie/internal/gui/assets/plugins/usage/page.js#L2151) |
+| sessUsageDetail | FunctionDeclaration |  | [2158](../../magpie/internal/gui/assets/plugins/usage/page.js#L2158) |
+| m | VariableDeclaration | sessUsageDetail | [2160](../../magpie/internal/gui/assets/plugins/usage/page.js#L2160) |
+| x | VariableDeclaration | sessUsageDetail | [2161](../../magpie/internal/gui/assets/plugins/usage/page.js#L2161) |
+| viaText | FunctionDeclaration |  | [2172](../../magpie/internal/gui/assets/plugins/usage/page.js#L2172) |
+| ledExpanded | VariableDeclaration |  | [2176](../../magpie/internal/gui/assets/plugins/usage/page.js#L2176) |
+| LED_KINDS | VariableDeclaration |  | [2177](../../magpie/internal/gui/assets/plugins/usage/page.js#L2177) |
+| LED_ROLES | VariableDeclaration |  | [2178](../../magpie/internal/gui/assets/plugins/usage/page.js#L2178) |
+| ledSaid | FunctionDeclaration |  | [2184](../../magpie/internal/gui/assets/plugins/usage/page.js#L2184) |
+| head | VariableDeclaration | ledSaid | [2185](../../magpie/internal/gui/assets/plugins/usage/page.js#L2185) |
+| m | VariableDeclaration | ledSaid | [2189](../../magpie/internal/gui/assets/plugins/usage/page.js#L2189) |
+| words | VariableDeclaration | ledSaid | [2193](../../magpie/internal/gui/assets/plugins/usage/page.js#L2193) |
+| d | VariableDeclaration | ledSaid | [2196](../../magpie/internal/gui/assets/plugins/usage/page.js#L2196) |
+| sum | VariableDeclaration | ledSaid | [2197](../../magpie/internal/gui/assets/plugins/usage/page.js#L2197) |
+| part | VariableDeclaration | ledSaid | [2202](../../magpie/internal/gui/assets/plugins/usage/page.js#L2202) |
+| more | VariableDeclaration | ledSaid | [2206](../../magpie/internal/gui/assets/plugins/usage/page.js#L2206) |
+| clamped | VariableDeclaration | ledSaid | [2209](../../magpie/internal/gui/assets/plugins/usage/page.js#L2209) |
+| USAGE_TABS | VariableDeclaration |  | [2218](../../magpie/internal/gui/assets/plugins/usage/page.js#L2218) |
+| usageTab | VariableDeclaration |  | [2219](../../magpie/internal/gui/assets/plugins/usage/page.js#L2219) |
+| k | VariableDeclaration |  | [2220](../../magpie/internal/gui/assets/plugins/usage/page.js#L2220) |
+| id | BindingElement |  | [2220](../../magpie/internal/gui/assets/plugins/usage/page.js#L2220) |
+| sessAgent | VariableDeclaration |  | [2221](../../magpie/internal/gui/assets/plugins/usage/page.js#L2221) |
+| sessQuery | VariableDeclaration |  | [2222](../../magpie/internal/gui/assets/plugins/usage/page.js#L2222) |
+| SESS_PAGE | VariableDeclaration |  | [2229](../../magpie/internal/gui/assets/plugins/usage/page.js#L2229) |
+| sessShown | VariableDeclaration |  | [2230](../../magpie/internal/gui/assets/plugins/usage/page.js#L2230) |
+| sessDrawn | VariableDeclaration |  | [2235](../../magpie/internal/gui/assets/plugins/usage/page.js#L2235) |
+| sessTotal | VariableDeclaration |  | [2235](../../magpie/internal/gui/assets/plugins/usage/page.js#L2235) |
+| sessListKey | VariableDeclaration |  | [2238](../../magpie/internal/gui/assets/plugins/usage/page.js#L2238) |
+| SESS_RANGES | VariableDeclaration |  | [2241](../../magpie/internal/gui/assets/plugins/usage/page.js#L2241) |
+| sessRange | VariableDeclaration |  | [2242](../../magpie/internal/gui/assets/plugins/usage/page.js#L2242) |
+| SESS_METRICS | VariableDeclaration |  | [2244](../../magpie/internal/gui/assets/plugins/usage/page.js#L2244) |
+| sessMetric | VariableDeclaration |  | [2245](../../magpie/internal/gui/assets/plugins/usage/page.js#L2245) |
+| SESS_TOPS | VariableDeclaration |  | [2247](../../magpie/internal/gui/assets/plugins/usage/page.js#L2247) |
+| sessTopBy | VariableDeclaration |  | [2248](../../magpie/internal/gui/assets/plugins/usage/page.js#L2248) |
+| r | VariableDeclaration |  | [2250](../../magpie/internal/gui/assets/plugins/usage/page.js#L2250) |
 | id | BindingElement |  | [2251](../../magpie/internal/gui/assets/plugins/usage/page.js#L2251) |
-| sessStats | VariableDeclaration |  | [2253](../../magpie/internal/gui/assets/plugins/usage/page.js#L2253) |
-| sessModel | VariableDeclaration |  | [2254](../../magpie/internal/gui/assets/plugins/usage/page.js#L2254) |
-| sessFolder | VariableDeclaration |  | [2255](../../magpie/internal/gui/assets/plugins/usage/page.js#L2255) |
-| sessOver | VariableDeclaration |  | [2259](../../magpie/internal/gui/assets/plugins/usage/page.js#L2259) |
-| sessOverAt | VariableDeclaration |  | [2260](../../magpie/internal/gui/assets/plugins/usage/page.js#L2260) |
+| m | VariableDeclaration |  | [2252](../../magpie/internal/gui/assets/plugins/usage/page.js#L2252) |
+| id | BindingElement |  | [2253](../../magpie/internal/gui/assets/plugins/usage/page.js#L2253) |
+| b | VariableDeclaration |  | [2254](../../magpie/internal/gui/assets/plugins/usage/page.js#L2254) |
+| id | BindingElement |  | [2255](../../magpie/internal/gui/assets/plugins/usage/page.js#L2255) |
+| sessStats | VariableDeclaration |  | [2257](../../magpie/internal/gui/assets/plugins/usage/page.js#L2257) |
+| sessModel | VariableDeclaration |  | [2258](../../magpie/internal/gui/assets/plugins/usage/page.js#L2258) |
+| sessFolder | VariableDeclaration |  | [2259](../../magpie/internal/gui/assets/plugins/usage/page.js#L2259) |
+| sessOver | VariableDeclaration |  | [2263](../../magpie/internal/gui/assets/plugins/usage/page.js#L2263) |

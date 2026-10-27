@@ -13,11 +13,11 @@
 | [magpie/internal/plugin/bun.go](../../magpie/internal/plugin/bun.go) | 32 | [1](magpie_internal_plugin_bun.go-5c88a59e-1.md) |
 | [magpie/internal/plugin/bunupdate.go](../../magpie/internal/plugin/bunupdate.go) | 29 | [1](magpie_internal_plugin_bunupdate.go-bea9179d-1.md) |
 | [magpie/internal/plugin/dist.go](../../magpie/internal/plugin/dist.go) | 26 | [1](magpie_internal_plugin_dist.go-45c4542e-1.md) |
-| [magpie/internal/plugin/gateway.go](../../magpie/internal/plugin/gateway.go) | 38 | [1](magpie_internal_plugin_gateway.go-f2d2c683-1.md) |
+| [magpie/internal/plugin/gateway.go](../../magpie/internal/plugin/gateway.go) | 44 | [1](magpie_internal_plugin_gateway.go-f2d2c683-1.md) |
 | [magpie/internal/plugin/github.go](../../magpie/internal/plugin/github.go) | 71 | [1](magpie_internal_plugin_github.go-b8e433de-1.md) |
 | [magpie/internal/plugin/gitrev.go](../../magpie/internal/plugin/gitrev.go) | 22 | [1](magpie_internal_plugin_gitrev.go-ab4afee0-1.md) |
 | [magpie/internal/plugin/host.go](../../magpie/internal/plugin/host.go) | 236 | [1](magpie_internal_plugin_host.go-c0fedea8-1.md) [2](magpie_internal_plugin_host.go-c0fedea8-2.md) [3](magpie_internal_plugin_host.go-c0fedea8-3.md) |
-| [magpie/internal/plugin/host.js](../../magpie/internal/plugin/host.js) | 764 | [1](magpie_internal_plugin_host.js-245e0b59-1.md) [2](magpie_internal_plugin_host.js-245e0b59-2.md) [3](magpie_internal_plugin_host.js-245e0b59-3.md) [4](magpie_internal_plugin_host.js-245e0b59-4.md) [5](magpie_internal_plugin_host.js-245e0b59-5.md) [6](magpie_internal_plugin_host.js-245e0b59-6.md) [7](magpie_internal_plugin_host.js-245e0b59-7.md) [8](magpie_internal_plugin_host.js-245e0b59-8.md) |
+| [magpie/internal/plugin/host.js](../../magpie/internal/plugin/host.js) | 765 | [1](magpie_internal_plugin_host.js-245e0b59-1.md) [2](magpie_internal_plugin_host.js-245e0b59-2.md) [3](magpie_internal_plugin_host.js-245e0b59-3.md) [4](magpie_internal_plugin_host.js-245e0b59-4.md) [5](magpie_internal_plugin_host.js-245e0b59-5.md) [6](magpie_internal_plugin_host.js-245e0b59-6.md) [7](magpie_internal_plugin_host.js-245e0b59-7.md) [8](magpie_internal_plugin_host.js-245e0b59-8.md) |
 | [magpie/internal/plugin/installcache.go](../../magpie/internal/plugin/installcache.go) | 5 | [1](magpie_internal_plugin_installcache.go-83cff75c-1.md) |
 | [magpie/internal/plugin/market.go](../../magpie/internal/plugin/market.go) | 111 | [1](magpie_internal_plugin_market.go-be843863-1.md) [2](magpie_internal_plugin_market.go-be843863-2.md) |
 | [magpie/internal/plugin/middleware.go](../../magpie/internal/plugin/middleware.go) | 10 | [1](magpie_internal_plugin_middleware.go-5725ec57-1.md) |

@@ -4,17 +4,13 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/nodever_other.go) · page 1/1
 
-Source SHA-256: 146196dad50e79c9ae951eae8cab516c9febee841533a9429995736341fb73d1
+Source SHA-256: c976275a29ca5b58a5eeeb5fcea282b99d43d73d0a3eed6987bc0fe9f34fcdaa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | nvmDir | function_declaration |  | [23](../../magpie/internal/proc/nodever_other.go#L23) |
 | nvmBins | function_declaration |  | [37](../../magpie/internal/proc/nodever_other.go#L37) |
-| nodeVersions | function_declaration |  | [55](../../magpie/internal/proc/nodever_other.go#L55) |
-| parseNodeVersion | function_declaration |  | [77](../../magpie/internal/proc/nodever_other.go#L77) |
-| nodeVersionLess | function_declaration |  | [95](../../magpie/internal/proc/nodever_other.go#L95) |
-| nvmDefault | function_declaration |  | [113](../../magpie/internal/proc/nodever_other.go#L113) |
-| nvmAlias | function_declaration |  | [170](../../magpie/internal/proc/nodever_other.go#L170) |
-| fnmBins | function_declaration |  | [209](../../magpie/internal/proc/nodever_other.go#L209) |
-| nodeBins | function_declaration |  | [231](../../magpie/internal/proc/nodever_other.go#L231) |
-| isDir | function_declaration |  | [239](../../magpie/internal/proc/nodever_other.go#L239) |
+| nvmDefault | function_declaration |  | [61](../../magpie/internal/proc/nodever_other.go#L61) |
+| nvmAlias | function_declaration |  | [118](../../magpie/internal/proc/nodever_other.go#L118) |
+| fnmBins | function_declaration |  | [157](../../magpie/internal/proc/nodever_other.go#L157) |
+| nodeBins | function_declaration |  | [179](../../magpie/internal/proc/nodever_other.go#L179) |

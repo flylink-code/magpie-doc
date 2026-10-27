@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/routing.go) · page 2/2
 
-Source SHA-256: 4766fbb84d7f69baec0b262b4ba836bbe4ae4ac4426c1aefd9026d95f7405972
+Source SHA-256: b276b142e3d75e74e7709d2ba50f4a9ad13746773b8e896996a16a03eb1b74d7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -58,25 +58,26 @@ Source SHA-256: 4766fbb84d7f69baec0b262b4ba836bbe4ae4ac4426c1aefd9026d95f7405972
 | lefts | field_declaration | weighing | [1457](../../magpie/internal/gateway/routing.go#L1457) |
 | tokens | field_declaration | weighing | [1459](../../magpie/internal/gateway/routing.go#L1459) |
 | free | field_declaration | weighing | [1463](../../magpie/internal/gateway/routing.go#L1463) |
-| allowanceKey | struct_type |  | [1466](../../magpie/internal/gateway/routing.go#L1466) |
-| rest | field_declaration | allowanceKey | [1467](../../magpie/internal/gateway/routing.go#L1467) |
-| model | field_declaration | allowanceKey | [1467](../../magpie/internal/gateway/routing.go#L1467) |
-| allowanceKey | method_declaration | candidate | [1470](../../magpie/internal/gateway/routing.go#L1470) |
-| left | struct_type |  | [1474](../../magpie/internal/gateway/routing.go#L1474) |
-| used | field_declaration | left | [1475](../../magpie/internal/gateway/routing.go#L1475) |
-| renews | field_declaration | left | [1476](../../magpie/internal/gateway/routing.go#L1476) |
-| fullest | field_declaration | left | [1479](../../magpie/internal/gateway/routing.go#L1479) |
-| soon | field_declaration | left | [1480](../../magpie/internal/gateway/routing.go#L1480) |
-| pace | field_declaration | left | [1481](../../magpie/internal/gateway/routing.go#L1481) |
-| due | field_declaration | left | [1482](../../magpie/internal/gateway/routing.go#L1482) |
-| restarts | field_declaration | left | [1486](../../magpie/internal/gateway/routing.go#L1486) |
-| dueRestart | field_declaration | left | [1487](../../magpie/internal/gateway/routing.go#L1487) |
-| amount | field_declaration | left | [1490](../../magpie/internal/gateway/routing.go#L1490) |
-| of | field_declaration | left | [1490](../../magpie/internal/gateway/routing.go#L1490) |
-| unit | field_declaration | left | [1491](../../magpie/internal/gateway/routing.go#L1491) |
-| credits | field_declaration | left | [1494](../../magpie/internal/gateway/routing.go#L1494) |
-| learns | function_declaration |  | [1499](../../magpie/internal/gateway/routing.go#L1499) |
-| weigh | function_declaration |  | [1507](../../magpie/internal/gateway/routing.go#L1507) |
-| routingOf | function_declaration |  | [1520](../../magpie/internal/gateway/routing.go#L1520) |
-| goesRound | function_declaration |  | [1530](../../magpie/internal/gateway/routing.go#L1530) |
-| weighRouted | function_declaration |  | [1536](../../magpie/internal/gateway/routing.go#L1536) |
+| speed | field_declaration | weighing | [1468](../../magpie/internal/gateway/routing.go#L1468) |
+| allowanceKey | struct_type |  | [1471](../../magpie/internal/gateway/routing.go#L1471) |
+| rest | field_declaration | allowanceKey | [1472](../../magpie/internal/gateway/routing.go#L1472) |
+| model | field_declaration | allowanceKey | [1472](../../magpie/internal/gateway/routing.go#L1472) |
+| allowanceKey | method_declaration | candidate | [1475](../../magpie/internal/gateway/routing.go#L1475) |
+| left | struct_type |  | [1479](../../magpie/internal/gateway/routing.go#L1479) |
+| used | field_declaration | left | [1480](../../magpie/internal/gateway/routing.go#L1480) |
+| renews | field_declaration | left | [1481](../../magpie/internal/gateway/routing.go#L1481) |
+| fullest | field_declaration | left | [1484](../../magpie/internal/gateway/routing.go#L1484) |
+| soon | field_declaration | left | [1485](../../magpie/internal/gateway/routing.go#L1485) |
+| pace | field_declaration | left | [1486](../../magpie/internal/gateway/routing.go#L1486) |
+| due | field_declaration | left | [1487](../../magpie/internal/gateway/routing.go#L1487) |
+| restarts | field_declaration | left | [1491](../../magpie/internal/gateway/routing.go#L1491) |
+| dueRestart | field_declaration | left | [1492](../../magpie/internal/gateway/routing.go#L1492) |
+| amount | field_declaration | left | [1495](../../magpie/internal/gateway/routing.go#L1495) |
+| of | field_declaration | left | [1495](../../magpie/internal/gateway/routing.go#L1495) |
+| unit | field_declaration | left | [1496](../../magpie/internal/gateway/routing.go#L1496) |
+| credits | field_declaration | left | [1499](../../magpie/internal/gateway/routing.go#L1499) |
+| learns | function_declaration |  | [1504](../../magpie/internal/gateway/routing.go#L1504) |
+| weigh | function_declaration |  | [1512](../../magpie/internal/gateway/routing.go#L1512) |
+| routingOf | function_declaration |  | [1525](../../magpie/internal/gateway/routing.go#L1525) |
+| goesRound | function_declaration |  | [1535](../../magpie/internal/gateway/routing.go#L1535) |
+| weighRouted | function_declaration |  | [1541](../../magpie/internal/gateway/routing.go#L1541) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 41/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| curlOf | FunctionDeclaration |  | [14985](../../magpie/internal/gui/assets/app.js#L14985) |
-| s | VariableDeclaration | curlOf | [14986](../../magpie/internal/gui/assets/app.js#L14986) |
-| head | VariableDeclaration | curlOf | [14987](../../magpie/internal/gui/assets/app.js#L14987) |
-| cmd | VariableDeclaration | curlOf | [14989](../../magpie/internal/gui/assets/app.js#L14989) |
-| ps | VariableDeclaration | curlOf | [14989](../../magpie/internal/gui/assets/app.js#L14989) |
-| words | VariableDeclaration | curlOf | [14992](../../magpie/internal/gui/assets/app.js#L14992) |
-| w | VariableDeclaration | curlOf | [14993](../../magpie/internal/gui/assets/app.js#L14993) |
-| i | VariableDeclaration | curlOf | [14994](../../magpie/internal/gui/assets/app.js#L14994) |
-| c | VariableDeclaration | curlOf | [14995](../../magpie/internal/gui/assets/app.js#L14995) |
-| j | VariableDeclaration | curlOf | [15000](../../magpie/internal/gui/assets/app.js#L15000) |
-| k | VariableDeclaration | curlOf | [15002](../../magpie/internal/gui/assets/app.js#L15002) |
-| esc | VariableDeclaration | curlOf | [15009](../../magpie/internal/gui/assets/app.js#L15009) |
-| valued | VariableDeclaration | curlOf | [15019](../../magpie/internal/gui/assets/app.js#L15019) |
-| url | VariableDeclaration | curlOf | [15020](../../magpie/internal/gui/assets/app.js#L15020) |
-| body | VariableDeclaration | curlOf | [15020](../../magpie/internal/gui/assets/app.js#L15020) |
-| headers | VariableDeclaration | curlOf | [15021](../../magpie/internal/gui/assets/app.js#L15021) |
-| i | VariableDeclaration | curlOf | [15022](../../magpie/internal/gui/assets/app.js#L15022) |
-| x | VariableDeclaration | curlOf | [15023](../../magpie/internal/gui/assets/app.js#L15023) |
-| opt | VariableDeclaration | curlOf | [15024](../../magpie/internal/gui/assets/app.js#L15024) |
-| val | VariableDeclaration | curlOf | [15024](../../magpie/internal/gui/assets/app.js#L15024) |
-| out | VariableDeclaration | curlOf | [15033](../../magpie/internal/gui/assets/app.js#L15033) |
-| at | VariableDeclaration | curlOf | [15034](../../magpie/internal/gui/assets/app.js#L15034) |
-| h | VariableDeclaration | curlOf | [15040](../../magpie/internal/gui/assets/app.js#L15040) |
-| m | VariableDeclaration | curlOf | [15041](../../magpie/internal/gui/assets/app.js#L15041) |
-| v | VariableDeclaration | curlOf | [15043](../../magpie/internal/gui/assets/app.js#L15043) |
-| b | VariableDeclaration | curlOf | [15050](../../magpie/internal/gui/assets/app.js#L15050) |
-| j | VariableDeclaration | curlOf | [15051](../../magpie/internal/gui/assets/app.js#L15051) |
-| moveWhy | FunctionDeclaration |  | [15061](../../magpie/internal/gui/assets/app.js#L15061) |
-| a | VariableDeclaration | moveWhy | [15062](../../magpie/internal/gui/assets/app.js#L15062) |
-| moveSaid | VariableDeclaration |  | [15083](../../magpie/internal/gui/assets/app.js#L15083) |
-| renderMove | FunctionDeclaration |  | [15084](../../magpie/internal/gui/assets/app.js#L15084) |
-| m | VariableDeclaration | renderMove | [15085](../../magpie/internal/gui/assets/app.js#L15085) |
-| box | VariableDeclaration | renderMove | [15086](../../magpie/internal/gui/assets/app.js#L15086) |
-| onPlugin | VariableDeclaration | renderMove | [15087](../../magpie/internal/gui/assets/app.js#L15087) |
-| said | VariableDeclaration | renderMove | [15088](../../magpie/internal/gui/assets/app.js#L15088) |
-| why | VariableDeclaration | renderMove | [15092](../../magpie/internal/gui/assets/app.js#L15092) |
-| say | VariableDeclaration | renderMove | [15094](../../magpie/internal/gui/assets/app.js#L15094) |
-| going | VariableDeclaration | renderMove | [15098](../../magpie/internal/gui/assets/app.js#L15098) |
-| failed | VariableDeclaration | renderMove | [15099](../../magpie/internal/gui/assets/app.js#L15099) |
-| idle | VariableDeclaration | renderMove | [15101](../../magpie/internal/gui/assets/app.js#L15101) |
-| b | VariableDeclaration | renderMove | [15102](../../magpie/internal/gui/assets/app.js#L15102) |
-| picks | VariableDeclaration | renderMove | [15113](../../magpie/internal/gui/assets/app.js#L15113) |
-| was | VariableDeclaration | renderMove | [15114](../../magpie/internal/gui/assets/app.js#L15114) |
-| changed | VariableDeclaration | renderMove | [15115](../../magpie/internal/gui/assets/app.js#L15115) |
-| now | VariableDeclaration | renderMove | [15120](../../magpie/internal/gui/assets/app.js#L15120) |
-| accts | VariableDeclaration | renderMove | [15121](../../magpie/internal/gui/assets/app.js#L15121) |
-| models | VariableDeclaration | renderMove | [15121](../../magpie/internal/gui/assets/app.js#L15121) |
-| e | VariableDeclaration | renderMove | [15129](../../magpie/internal/gui/assets/app.js#L15129) |
-| note | VariableDeclaration | renderMove | [15140](../../magpie/internal/gui/assets/app.js#L15140) |
-| providerAction | FunctionDeclaration |  | [15148](../../magpie/internal/gui/assets/app.js#L15148) |
-| was | VariableDeclaration | providerAction | [15152](../../magpie/internal/gui/assets/app.js#L15152) |
-| e | VariableDeclaration | providerAction | [15165](../../magpie/internal/gui/assets/app.js#L15165) |
-| b | VariableDeclaration | providerAction | [15180](../../magpie/internal/gui/assets/app.js#L15180) |
-| saving | FunctionDeclaration |  | [15188](../../magpie/internal/gui/assets/app.js#L15188) |
-| doneSaving | FunctionDeclaration |  | [15195](../../magpie/internal/gui/assets/app.js#L15195) |
-| saidMoved | FunctionDeclaration |  | [15204](../../magpie/internal/gui/assets/app.js#L15204) |
-| stuck | VariableDeclaration | saidMoved | [15207](../../magpie/internal/gui/assets/app.js#L15207) |
-| moved | VariableDeclaration | saidMoved | [15208](../../magpie/internal/gui/assets/app.js#L15208) |
-| who | VariableDeclaration | saidMoved.moved | [15209](../../magpie/internal/gui/assets/app.js#L15209) |
-| msg | VariableDeclaration | saidMoved | [15214](../../magpie/internal/gui/assets/app.js#L15214) |
-| editorError | FunctionDeclaration |  | [15221](../../magpie/internal/gui/assets/app.js#L15221) |
-| ed | VariableDeclaration | editorError | [15222](../../magpie/internal/gui/assets/app.js#L15222) |
-| box | VariableDeclaration | editorError | [15224](../../magpie/internal/gui/assets/app.js#L15224) |
-| bar | VariableDeclaration | editorError | [15229](../../magpie/internal/gui/assets/app.js#L15229) |
-| slug | FunctionDeclaration |  | [15238](../../magpie/internal/gui/assets/app.js#L15238) |
-| groupSlug | FunctionDeclaration |  | [15241](../../magpie/internal/gui/assets/app.js#L15241) |
-| hostOf | FunctionDeclaration |  | [15242](../../magpie/internal/gui/assets/app.js#L15242) |
-| localAddress | FunctionDeclaration |  | [15247](../../magpie/internal/gui/assets/app.js#L15247) |
-| u | VariableDeclaration | localAddress | [15252](../../magpie/internal/gui/assets/app.js#L15252) |
-| hostSite | FunctionDeclaration |  | [15264](../../magpie/internal/gui/assets/app.js#L15264) |
-| h | VariableDeclaration | hostSite | [15265](../../magpie/internal/gui/assets/app.js#L15265) |
-| u | VariableDeclaration | hostSite | [15267](../../magpie/internal/gui/assets/app.js#L15267) |
-| m | VariableDeclaration | hostSite | [15269](../../magpie/internal/gui/assets/app.js#L15269) |
-| originOf | FunctionDeclaration |  | [15275](../../magpie/internal/gui/assets/app.js#L15275) |
-| u | VariableDeclaration | originOf | [15276](../../magpie/internal/gui/assets/app.js#L15276) |
-| v | VariableDeclaration | originOf | [15278](../../magpie/internal/gui/assets/app.js#L15278) |
-| movedURLs | FunctionDeclaration |  | [15287](../../magpie/internal/gui/assets/app.js#L15287) |
-| at | VariableDeclaration | movedURLs | [15289](../../magpie/internal/gui/assets/app.js#L15289) |
-| out | VariableDeclaration | movedURLs | [15291](../../magpie/internal/gui/assets/app.js#L15291) |
-| atAddress | FunctionDeclaration |  | [15298](../../magpie/internal/gui/assets/app.js#L15298) |
-| out | VariableDeclaration | atAddress | [15299](../../magpie/internal/gui/assets/app.js#L15299) |
-| [k, v] | VariableDeclaration | atAddress | [15300](../../magpie/internal/gui/assets/app.js#L15300) |
-| k | BindingElement | atAddress.[k, v] | [15300](../../magpie/internal/gui/assets/app.js#L15300) |
-| v | BindingElement | atAddress.[k, v] | [15300](../../magpie/internal/gui/assets/app.js#L15300) |
-| view | VariableDeclaration |  | [15309](../../magpie/internal/gui/assets/app.js#L15309) |
-| sheet | VariableDeclaration |  | [15309](../../magpie/internal/gui/assets/app.js#L15309) |
-| from | VariableDeclaration |  | [15315](../../magpie/internal/gui/assets/app.js#L15315) |
-| to | VariableDeclaration |  | [15316](../../magpie/internal/gui/assets/app.js#L15316) |
-| t0 | VariableDeclaration |  | [15318](../../magpie/internal/gui/assets/app.js#L15318) |
-| ease | VariableDeclaration |  | [15318](../../magpie/internal/gui/assets/app.js#L15318) |
-| set | VariableDeclaration |  | [15319](../../magpie/internal/gui/assets/app.js#L15319) |
-| step | VariableDeclaration |  | [15320](../../magpie/internal/gui/assets/app.js#L15320) |
-| x | VariableDeclaration | step | [15322](../../magpie/internal/gui/assets/app.js#L15322) |
-| en | BindingElement |  | [15329](../../magpie/internal/gui/assets/app.js#L15329) |
-| closeAddSheet | FunctionDeclaration |  | [15337](../../magpie/internal/gui/assets/app.js#L15337) |
-| view | VariableDeclaration | closeAddSheet | [15338](../../magpie/internal/gui/assets/app.js#L15338) |
-| sheet | VariableDeclaration | closeAddSheet | [15338](../../magpie/internal/gui/assets/app.js#L15338) |
-| unrollSheet | FunctionDeclaration |  | [15365](../../magpie/internal/gui/assets/app.js#L15365) |
-| from | VariableDeclaration | unrollSheet | [15366](../../magpie/internal/gui/assets/app.js#L15366) |
-| room | VariableDeclaration | unrollSheet | [15366](../../magpie/internal/gui/assets/app.js#L15366) |
+| stuck | VariableDeclaration | saidMoved | [15015](../../magpie/internal/gui/assets/app.js#L15015) |
+| moved | VariableDeclaration | saidMoved | [15016](../../magpie/internal/gui/assets/app.js#L15016) |
+| who | VariableDeclaration | saidMoved.moved | [15017](../../magpie/internal/gui/assets/app.js#L15017) |
+| msg | VariableDeclaration | saidMoved | [15022](../../magpie/internal/gui/assets/app.js#L15022) |
+| editorError | FunctionDeclaration |  | [15029](../../magpie/internal/gui/assets/app.js#L15029) |
+| ed | VariableDeclaration | editorError | [15030](../../magpie/internal/gui/assets/app.js#L15030) |
+| box | VariableDeclaration | editorError | [15032](../../magpie/internal/gui/assets/app.js#L15032) |
+| bar | VariableDeclaration | editorError | [15037](../../magpie/internal/gui/assets/app.js#L15037) |
+| slug | FunctionDeclaration |  | [15046](../../magpie/internal/gui/assets/app.js#L15046) |
+| groupSlug | FunctionDeclaration |  | [15049](../../magpie/internal/gui/assets/app.js#L15049) |
+| hostOf | FunctionDeclaration |  | [15050](../../magpie/internal/gui/assets/app.js#L15050) |
+| localAddress | FunctionDeclaration |  | [15055](../../magpie/internal/gui/assets/app.js#L15055) |
+| u | VariableDeclaration | localAddress | [15060](../../magpie/internal/gui/assets/app.js#L15060) |
+| hostSite | FunctionDeclaration |  | [15072](../../magpie/internal/gui/assets/app.js#L15072) |
+| h | VariableDeclaration | hostSite | [15073](../../magpie/internal/gui/assets/app.js#L15073) |
+| u | VariableDeclaration | hostSite | [15075](../../magpie/internal/gui/assets/app.js#L15075) |
+| m | VariableDeclaration | hostSite | [15077](../../magpie/internal/gui/assets/app.js#L15077) |
+| originOf | FunctionDeclaration |  | [15083](../../magpie/internal/gui/assets/app.js#L15083) |
+| u | VariableDeclaration | originOf | [15084](../../magpie/internal/gui/assets/app.js#L15084) |
+| v | VariableDeclaration | originOf | [15086](../../magpie/internal/gui/assets/app.js#L15086) |
+| movedURLs | FunctionDeclaration |  | [15095](../../magpie/internal/gui/assets/app.js#L15095) |
+| at | VariableDeclaration | movedURLs | [15097](../../magpie/internal/gui/assets/app.js#L15097) |
+| out | VariableDeclaration | movedURLs | [15099](../../magpie/internal/gui/assets/app.js#L15099) |
+| atAddress | FunctionDeclaration |  | [15106](../../magpie/internal/gui/assets/app.js#L15106) |
+| out | VariableDeclaration | atAddress | [15107](../../magpie/internal/gui/assets/app.js#L15107) |
+| [k, v] | VariableDeclaration | atAddress | [15108](../../magpie/internal/gui/assets/app.js#L15108) |
+| k | BindingElement | atAddress.[k, v] | [15108](../../magpie/internal/gui/assets/app.js#L15108) |
+| v | BindingElement | atAddress.[k, v] | [15108](../../magpie/internal/gui/assets/app.js#L15108) |
+| view | VariableDeclaration |  | [15117](../../magpie/internal/gui/assets/app.js#L15117) |
+| sheet | VariableDeclaration |  | [15117](../../magpie/internal/gui/assets/app.js#L15117) |
+| from | VariableDeclaration |  | [15123](../../magpie/internal/gui/assets/app.js#L15123) |
+| to | VariableDeclaration |  | [15124](../../magpie/internal/gui/assets/app.js#L15124) |
+| t0 | VariableDeclaration |  | [15126](../../magpie/internal/gui/assets/app.js#L15126) |
+| ease | VariableDeclaration |  | [15126](../../magpie/internal/gui/assets/app.js#L15126) |
+| set | VariableDeclaration |  | [15127](../../magpie/internal/gui/assets/app.js#L15127) |
+| step | VariableDeclaration |  | [15128](../../magpie/internal/gui/assets/app.js#L15128) |
+| x | VariableDeclaration | step | [15130](../../magpie/internal/gui/assets/app.js#L15130) |
+| en | BindingElement |  | [15137](../../magpie/internal/gui/assets/app.js#L15137) |
+| closeAddSheet | FunctionDeclaration |  | [15145](../../magpie/internal/gui/assets/app.js#L15145) |
+| view | VariableDeclaration | closeAddSheet | [15146](../../magpie/internal/gui/assets/app.js#L15146) |
+| sheet | VariableDeclaration | closeAddSheet | [15146](../../magpie/internal/gui/assets/app.js#L15146) |
+| unrollSheet | FunctionDeclaration |  | [15173](../../magpie/internal/gui/assets/app.js#L15173) |
+| from | VariableDeclaration | unrollSheet | [15174](../../magpie/internal/gui/assets/app.js#L15174) |
+| room | VariableDeclaration | unrollSheet | [15174](../../magpie/internal/gui/assets/app.js#L15174) |
+| to | VariableDeclaration | unrollSheet | [15175](../../magpie/internal/gui/assets/app.js#L15175) |
+| h | VariableDeclaration | unrollSheet | [15176](../../magpie/internal/gui/assets/app.js#L15176) |
+| x0 | VariableDeclaration | unrollSheet | [15179](../../magpie/internal/gui/assets/app.js#L15179) |
+| go | VariableDeclaration | unrollSheet | [15180](../../magpie/internal/gui/assets/app.js#L15180) |
+| pad | VariableDeclaration | unrollSheet | [15182](../../magpie/internal/gui/assets/app.js#L15182) |
+| grow | VariableDeclaration | unrollSheet | [15184](../../magpie/internal/gui/assets/app.js#L15184) |
+| c | VariableDeclaration | unrollSheet | [15188](../../magpie/internal/gui/assets/app.js#L15188) |
+| set | VariableDeclaration | unrollSheet | [15194](../../magpie/internal/gui/assets/app.js#L15194) |
+| follow | VariableDeclaration | unrollSheet | [15195](../../magpie/internal/gui/assets/app.js#L15195) |
+| done | VariableDeclaration | unrollSheet.follow | [15197](../../magpie/internal/gui/assets/app.js#L15197) |
+| end | VariableDeclaration | unrollSheet | [15202](../../magpie/internal/gui/assets/app.js#L15202) |
+| unrollInView | FunctionDeclaration |  | [15213](../../magpie/internal/gui/assets/app.js#L15213) |
+| v | VariableDeclaration | unrollInView | [15214](../../magpie/internal/gui/assets/app.js#L15214) |
+| set | VariableDeclaration | unrollInView | [15216](../../magpie/internal/gui/assets/app.js#L15216) |
+| until | VariableDeclaration | unrollInView | [15217](../../magpie/internal/gui/assets/app.js#L15217) |
+| step | VariableDeclaration | unrollInView | [15218](../../magpie/internal/gui/assets/app.js#L15218) |
+| b | VariableDeclaration | unrollInView.step | [15220](../../magpie/internal/gui/assets/app.js#L15220) |
+| pad | VariableDeclaration | unrollInView.step | [15220](../../magpie/internal/gui/assets/app.js#L15220) |
+| want | VariableDeclaration | unrollInView.step | [15221](../../magpie/internal/gui/assets/app.js#L15221) |
+| to | VariableDeclaration | unrollInView.step | [15222](../../magpie/internal/gui/assets/app.js#L15222) |
+| grown | VariableDeclaration | unrollInView | [15228](../../magpie/internal/gui/assets/app.js#L15228) |
+| frame | VariableDeclaration | unrollInView | [15230](../../magpie/internal/gui/assets/app.js#L15230) |
+| rollUpSheet | FunctionDeclaration |  | [15239](../../magpie/internal/gui/assets/app.js#L15239) |
+| pad | VariableDeclaration | rollUpSheet | [15241](../../magpie/internal/gui/assets/app.js#L15241) |
+| a | VariableDeclaration | rollUpSheet | [15243](../../magpie/internal/gui/assets/app.js#L15243) |
+| done | VariableDeclaration | rollUpSheet | [15248](../../magpie/internal/gui/assets/app.js#L15248) |
+| quotas | VariableDeclaration |  | [15257](../../magpie/internal/gui/assets/app.js#L15257) |
+| quotasAt | VariableDeclaration |  | [15258](../../magpie/internal/gui/assets/app.js#L15258) |
+| quotasKept | VariableDeclaration |  | [15260](../../magpie/internal/gui/assets/app.js#L15260) |
+| kept | VariableDeclaration |  | [15262](../../magpie/internal/gui/assets/app.js#L15262) |
+| quotaHist | VariableDeclaration |  | [15265](../../magpie/internal/gui/assets/app.js#L15265) |
+| QUOTAS_OPEN_GAP | VariableDeclaration |  | [15275](../../magpie/internal/gui/assets/app.js#L15275) |
+| quotasAskedAt | VariableDeclaration |  | [15276](../../magpie/internal/gui/assets/app.js#L15276) |
+| quotasOpened | FunctionDeclaration |  | [15277](../../magpie/internal/gui/assets/app.js#L15277) |
+| quotasLoading | VariableDeclaration |  | [15288](../../magpie/internal/gui/assets/app.js#L15288) |
+| quotasLater | VariableDeclaration |  | [15288](../../magpie/internal/gui/assets/app.js#L15288) |
+| quotasTries | VariableDeclaration |  | [15288](../../magpie/internal/gui/assets/app.js#L15288) |
+| quotaRefreshVersion | VariableDeclaration |  | [15289](../../magpie/internal/gui/assets/app.js#L15289) |
+| quotaRefreshVersions | VariableDeclaration |  | [15290](../../magpie/internal/gui/assets/app.js#L15290) |
+| loadQuotas | FunctionDeclaration |  | [15291](../../magpie/internal/gui/assets/app.js#L15291) |
+| reading | VariableDeclaration | loadQuotas | [15295](../../magpie/internal/gui/assets/app.js#L15295) |
+| same | VariableDeclaration | loadQuotas | [15295](../../magpie/internal/gui/assets/app.js#L15295) |
+| began | VariableDeclaration | loadQuotas | [15295](../../magpie/internal/gui/assets/app.js#L15295) |
+| p | VariableDeclaration | loadQuotas | [15296](../../magpie/internal/gui/assets/app.js#L15296) |
+| [key, version] | VariableDeclaration | loadQuotas.p | [15311](../../magpie/internal/gui/assets/app.js#L15311) |
+| key | BindingElement | loadQuotas.p.[key, version] | [15311](../../magpie/internal/gui/assets/app.js#L15311) |
+| version | BindingElement | loadQuotas.p.[key, version] | [15311](../../magpie/internal/gui/assets/app.js#L15311) |
+| quotaHistSeq | VariableDeclaration |  | [15330](../../magpie/internal/gui/assets/app.js#L15330) |
+| quotaHistV | VariableDeclaration |  | [15330](../../magpie/internal/gui/assets/app.js#L15330) |
+| loadQuotaHist | FunctionDeclaration |  | [15331](../../magpie/internal/gui/assets/app.js#L15331) |
+| seq | VariableDeclaration | loadQuotaHist | [15332](../../magpie/internal/gui/assets/app.js#L15332) |
+| keepRefreshedQuotas | FunctionDeclaration |  | [15343](../../magpie/internal/gui/assets/app.js#L15343) |
+| kept | VariableDeclaration | keepRefreshedQuotas | [15344](../../magpie/internal/gui/assets/app.js#L15344) |
+| out | VariableDeclaration | keepRefreshedQuotas | [15345](../../magpie/internal/gui/assets/app.js#L15345) |
+| key | VariableDeclaration | keepRefreshedQuotas.out | [15346](../../magpie/internal/gui/assets/app.js#L15346) |
+| newer | VariableDeclaration | keepRefreshedQuotas.out | [15346](../../magpie/internal/gui/assets/app.js#L15346) |

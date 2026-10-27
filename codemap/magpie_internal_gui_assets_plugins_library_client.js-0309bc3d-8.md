@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 8/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| f | VariableDeclaration | pasteMany.go | [2290](../../magpie/internal/gui/assets/plugins/library/client.js#L2290) |
-| e | VariableDeclaration | pasteMany.go | [2293](../../magpie/internal/gui/assets/plugins/library/client.js#L2293) |
-| save | PropertyAssignment | pasteMany | [2303](../../magpie/internal/gui/assets/plugins/library/client.js#L2303) |
-| HOOK_EVENTS | VariableDeclaration |  | [2314](../../magpie/internal/gui/assets/plugins/library/client.js#L2314) |
-| HOOK_TOOLS | VariableDeclaration |  | [2321](../../magpie/internal/gui/assets/plugins/library/client.js#L2321) |
-| toolEvent | VariableDeclaration |  | [2322](../../magpie/internal/gui/assets/plugins/library/client.js#L2322) |
-| hookAgentOf | VariableDeclaration |  | [2323](../../magpie/internal/gui/assets/plugins/library/client.js#L2323) |
-| hookAgents | VariableDeclaration |  | [2326](../../magpie/internal/gui/assets/plugins/library/client.js#L2326) |
-| hookBlocked | VariableDeclaration |  | [2328](../../magpie/internal/gui/assets/plugins/library/client.js#L2328) |
-| ha | VariableDeclaration | hookBlocked | [2329](../../magpie/internal/gui/assets/plugins/library/client.js#L2329) |
-| own | VariableDeclaration | hookBlocked | [2331](../../magpie/internal/gui/assets/plugins/library/client.js#L2331) |
-| hookEventLabel | FunctionDeclaration |  | [2335](../../magpie/internal/gui/assets/plugins/library/client.js#L2335) |
-| i | VariableDeclaration | hookEventLabel | [2336](../../magpie/internal/gui/assets/plugins/library/client.js#L2336) |
-| v | BindingElement | hookEventLabel | [2338](../../magpie/internal/gui/assets/plugins/library/client.js#L2338) |
-| hookLine | FunctionDeclaration |  | [2340](../../magpie/internal/gui/assets/plugins/library/client.js#L2340) |
-| s | VariableDeclaration | hookLine | [2341](../../magpie/internal/gui/assets/plugins/library/client.js#L2341) |
-| v | BindingElement | hookLine | [2342](../../magpie/internal/gui/assets/plugins/library/client.js#L2342) |
-| renderHooks | FunctionDeclaration |  | [2346](../../magpie/internal/gui/assets/plugins/library/client.js#L2346) |
-| all | VariableDeclaration | renderHooks | [2348](../../magpie/internal/gui/assets/plugins/library/client.js#L2348) |
-| hooks | VariableDeclaration | renderHooks | [2349](../../magpie/internal/gui/assets/plugins/library/client.js#L2349) |
-| rh | VariableDeclaration | renderHooks | [2355](../../magpie/internal/gui/assets/plugins/library/client.js#L2355) |
-| list | VariableDeclaration | renderHooks | [2361](../../magpie/internal/gui/assets/plugins/library/client.js#L2361) |
-| after | VariableDeclaration | renderHooks | [2365](../../magpie/internal/gui/assets/plugins/library/client.js#L2365) |
-| given | VariableDeclaration | renderHooks | [2369](../../magpie/internal/gui/assets/plugins/library/client.js#L2369) |
-| a | VariableDeclaration | renderHooks | [2370](../../magpie/internal/gui/assets/plugins/library/client.js#L2370) |
-| ha | VariableDeclaration | renderHooks | [2371](../../magpie/internal/gui/assets/plugins/library/client.js#L2371) |
-| skip | VariableDeclaration | renderHooks | [2381](../../magpie/internal/gui/assets/plugins/library/client.js#L2381) |
-| hookRow | FunctionDeclaration |  | [2385](../../magpie/internal/gui/assets/plugins/library/client.js#L2385) |
-| row | VariableDeclaration | hookRow | [2386](../../magpie/internal/gui/assets/plugins/library/client.js#L2386) |
-| who | VariableDeclaration | hookRow | [2387](../../magpie/internal/gui/assets/plugins/library/client.js#L2387) |
-| cmd | VariableDeclaration | hookRow | [2392](../../magpie/internal/gui/assets/plugins/library/client.js#L2392) |
-| editHook | FunctionDeclaration |  | [2403](../../magpie/internal/gui/assets/plugins/library/client.js#L2403) |
-| all | VariableDeclaration | editHook | [2404](../../magpie/internal/gui/assets/plugins/library/client.js#L2404) |
-| d | VariableDeclaration | editHook | [2405](../../magpie/internal/gui/assets/plugins/library/client.js#L2405) |
-| ed | VariableDeclaration | editHook | [2408](../../magpie/internal/gui/assets/plugins/library/client.js#L2408) |
-| head | VariableDeclaration | editHook | [2409](../../magpie/internal/gui/assets/plugins/library/client.js#L2409) |
-| err | VariableDeclaration | editHook | [2412](../../magpie/internal/gui/assets/plugins/library/client.js#L2412) |
-| name | VariableDeclaration | editHook | [2413](../../magpie/internal/gui/assets/plugins/library/client.js#L2413) |
-| desc | VariableDeclaration | editHook | [2418](../../magpie/internal/gui/assets/plugins/library/client.js#L2418) |
-| evBtn | VariableDeclaration | editHook | [2430](../../magpie/internal/gui/assets/plugins/library/client.js#L2430) |
-| opts | VariableDeclaration | editHook | [2436](../../magpie/internal/gui/assets/plugins/library/client.js#L2436) |
-| v | BindingElement | editHook.opts | [2436](../../magpie/internal/gui/assets/plugins/library/client.js#L2436) |
-| n | BindingElement | editHook.opts | [2436](../../magpie/internal/gui/assets/plugins/library/client.js#L2436) |
-| a | VariableDeclaration | editHook | [2438](../../magpie/internal/gui/assets/plugins/library/client.js#L2438) |
-| ha | VariableDeclaration | editHook | [2439](../../magpie/internal/gui/assets/plugins/library/client.js#L2439) |
-| ev | VariableDeclaration | editHook | [2441](../../magpie/internal/gui/assets/plugins/library/client.js#L2441) |
-| m | BindingElement | editHook | [2447](../../magpie/internal/gui/assets/plugins/library/client.js#L2447) |
-| slot | VariableDeclaration | editHook | [2452](../../magpie/internal/gui/assets/plugins/library/client.js#L2452) |
-| cmd | VariableDeclaration | editHook | [2454](../../magpie/internal/gui/assets/plugins/library/client.js#L2454) |
-| to | VariableDeclaration | editHook | [2457](../../magpie/internal/gui/assets/plugins/library/client.js#L2457) |
-| agentsBox | VariableDeclaration | editHook | [2461](../../magpie/internal/gui/assets/plugins/library/client.js#L2461) |
-| drawAgents | FunctionDeclaration | editHook | [2465](../../magpie/internal/gui/assets/plugins/library/client.js#L2465) |
-| draw | FunctionDeclaration | editHook | [2468](../../magpie/internal/gui/assets/plugins/library/client.js#L2468) |
-| m | VariableDeclaration | editHook.draw | [2472](../../magpie/internal/gui/assets/plugins/library/client.js#L2472) |
-| mb | VariableDeclaration | editHook.draw | [2476](../../magpie/internal/gui/assets/plugins/library/client.js#L2476) |
-| v | BindingElement | editHook.draw | [2480](../../magpie/internal/gui/assets/plugins/library/client.js#L2480) |
-| v | BindingElement | editHook.draw | [2483](../../magpie/internal/gui/assets/plugins/library/client.js#L2483) |
-| n | BindingElement | editHook.draw | [2483](../../magpie/internal/gui/assets/plugins/library/client.js#L2483) |
-| bar | VariableDeclaration | editHook | [2491](../../magpie/internal/gui/assets/plugins/library/client.js#L2491) |
-| save | VariableDeclaration | editHook | [2497](../../magpie/internal/gui/assets/plugins/library/client.js#L2497) |
-| hook | VariableDeclaration | editHook.save | [2500](../../magpie/internal/gui/assets/plugins/library/client.js#L2500) |
-| e | VariableDeclaration | editHook.save | [2505](../../magpie/internal/gui/assets/plugins/library/client.js#L2505) |
-| original | VariableDeclaration | editHook | [2509](../../magpie/internal/gui/assets/plugins/library/client.js#L2509) |
-| dirty | PropertyAssignment | editHook | [2510](../../magpie/internal/gui/assets/plugins/library/client.js#L2510) |
-| confirmRemoveEveryHook | FunctionDeclaration |  | [2515](../../magpie/internal/gui/assets/plugins/library/client.js#L2515) |
-| hooks | VariableDeclaration | confirmRemoveEveryHook | [2516](../../magpie/internal/gui/assets/plugins/library/client.js#L2516) |
-| names | VariableDeclaration | confirmRemoveEveryHook | [2516](../../magpie/internal/gui/assets/plugins/library/client.js#L2516) |
-| n | VariableDeclaration | confirmRemoveEveryHook | [2516](../../magpie/internal/gui/assets/plugins/library/client.js#L2516) |
-| subagentAgentOf | VariableDeclaration |  | [2531](../../magpie/internal/gui/assets/plugins/library/client.js#L2531) |
-| subagentAgents | VariableDeclaration |  | [2532](../../magpie/internal/gui/assets/plugins/library/client.js#L2532) |
-| subagentBlocked | VariableDeclaration |  | [2534](../../magpie/internal/gui/assets/plugins/library/client.js#L2534) |
-| sa | VariableDeclaration | subagentBlocked | [2535](../../magpie/internal/gui/assets/plugins/library/client.js#L2535) |
-| unbound | VariableDeclaration |  | [2540](../../magpie/internal/gui/assets/plugins/library/client.js#L2540) |
-| subagentLine | FunctionDeclaration |  | [2541](../../magpie/internal/gui/assets/plugins/library/client.js#L2541) |
-| parts | VariableDeclaration | subagentLine | [2542](../../magpie/internal/gui/assets/plugins/library/client.js#L2542) |
-| renderSubagents | FunctionDeclaration |  | [2548](../../magpie/internal/gui/assets/plugins/library/client.js#L2548) |
-| all | VariableDeclaration | renderSubagents | [2550](../../magpie/internal/gui/assets/plugins/library/client.js#L2550) |
-| subs | VariableDeclaration | renderSubagents | [2551](../../magpie/internal/gui/assets/plugins/library/client.js#L2551) |
-| list | VariableDeclaration | renderSubagents | [2556](../../magpie/internal/gui/assets/plugins/library/client.js#L2556) |
-| after | VariableDeclaration | renderSubagents | [2559](../../magpie/internal/gui/assets/plugins/library/client.js#L2559) |
-| given | VariableDeclaration | renderSubagents | [2565](../../magpie/internal/gui/assets/plugins/library/client.js#L2565) |
-| noSkills | VariableDeclaration | renderSubagents | [2566](../../magpie/internal/gui/assets/plugins/library/client.js#L2566) |
-| noMCP | VariableDeclaration | renderSubagents | [2566](../../magpie/internal/gui/assets/plugins/library/client.js#L2566) |
-| skip | VariableDeclaration | renderSubagents | [2572](../../magpie/internal/gui/assets/plugins/library/client.js#L2572) |
-| subagentRow | FunctionDeclaration |  | [2576](../../magpie/internal/gui/assets/plugins/library/client.js#L2576) |
-| row | VariableDeclaration | subagentRow | [2577](../../magpie/internal/gui/assets/plugins/library/client.js#L2577) |
-| who | VariableDeclaration | subagentRow | [2578](../../magpie/internal/gui/assets/plugins/library/client.js#L2578) |
-| line | VariableDeclaration | subagentRow | [2581](../../magpie/internal/gui/assets/plugins/library/client.js#L2581) |
-| namesPick | FunctionDeclaration |  | [2592](../../magpie/internal/gui/assets/plugins/library/client.js#L2592) |
-| b | VariableDeclaration | namesPick | [2593](../../magpie/internal/gui/assets/plugins/library/client.js#L2593) |
-| draw | VariableDeclaration | namesPick | [2597](../../magpie/internal/gui/assets/plugins/library/client.js#L2597) |
-| opts | VariableDeclaration | namesPick | [2600](../../magpie/internal/gui/assets/plugins/library/client.js#L2600) |
-| editSubagent | FunctionDeclaration |  | [2608](../../magpie/internal/gui/assets/plugins/library/client.js#L2608) |
-| all | VariableDeclaration | editSubagent | [2609](../../magpie/internal/gui/assets/plugins/library/client.js#L2609) |
-| d | VariableDeclaration | editSubagent | [2610](../../magpie/internal/gui/assets/plugins/library/client.js#L2610) |
-| ed | VariableDeclaration | editSubagent | [2612](../../magpie/internal/gui/assets/plugins/library/client.js#L2612) |
-| head | VariableDeclaration | editSubagent | [2613](../../magpie/internal/gui/assets/plugins/library/client.js#L2613) |
-| err | VariableDeclaration | editSubagent | [2616](../../magpie/internal/gui/assets/plugins/library/client.js#L2616) |
-| name | VariableDeclaration | editSubagent | [2617](../../magpie/internal/gui/assets/plugins/library/client.js#L2617) |
-| box | VariableDeclaration | editSubagent | [2620](../../magpie/internal/gui/assets/plugins/library/client.js#L2620) |
+| last | VariableDeclaration | pasteMany.go | [2300](../../magpie/internal/gui/assets/plugins/library/client.js#L2300) |
+| f | VariableDeclaration | pasteMany.go | [2301](../../magpie/internal/gui/assets/plugins/library/client.js#L2301) |
+| e | VariableDeclaration | pasteMany.go | [2304](../../magpie/internal/gui/assets/plugins/library/client.js#L2304) |
+| save | PropertyAssignment | pasteMany | [2314](../../magpie/internal/gui/assets/plugins/library/client.js#L2314) |
+| HOOK_EVENTS | VariableDeclaration |  | [2325](../../magpie/internal/gui/assets/plugins/library/client.js#L2325) |
+| HOOK_TOOLS | VariableDeclaration |  | [2332](../../magpie/internal/gui/assets/plugins/library/client.js#L2332) |
+| toolEvent | VariableDeclaration |  | [2333](../../magpie/internal/gui/assets/plugins/library/client.js#L2333) |
+| hookAgentOf | VariableDeclaration |  | [2334](../../magpie/internal/gui/assets/plugins/library/client.js#L2334) |
+| hookAgents | VariableDeclaration |  | [2337](../../magpie/internal/gui/assets/plugins/library/client.js#L2337) |
+| hookBlocked | VariableDeclaration |  | [2339](../../magpie/internal/gui/assets/plugins/library/client.js#L2339) |
+| ha | VariableDeclaration | hookBlocked | [2340](../../magpie/internal/gui/assets/plugins/library/client.js#L2340) |
+| own | VariableDeclaration | hookBlocked | [2342](../../magpie/internal/gui/assets/plugins/library/client.js#L2342) |
+| hookEventLabel | FunctionDeclaration |  | [2346](../../magpie/internal/gui/assets/plugins/library/client.js#L2346) |
+| i | VariableDeclaration | hookEventLabel | [2347](../../magpie/internal/gui/assets/plugins/library/client.js#L2347) |
+| v | BindingElement | hookEventLabel | [2349](../../magpie/internal/gui/assets/plugins/library/client.js#L2349) |
+| hookLine | FunctionDeclaration |  | [2351](../../magpie/internal/gui/assets/plugins/library/client.js#L2351) |
+| s | VariableDeclaration | hookLine | [2352](../../magpie/internal/gui/assets/plugins/library/client.js#L2352) |
+| v | BindingElement | hookLine | [2353](../../magpie/internal/gui/assets/plugins/library/client.js#L2353) |
+| renderHooks | FunctionDeclaration |  | [2357](../../magpie/internal/gui/assets/plugins/library/client.js#L2357) |
+| all | VariableDeclaration | renderHooks | [2359](../../magpie/internal/gui/assets/plugins/library/client.js#L2359) |
+| hooks | VariableDeclaration | renderHooks | [2360](../../magpie/internal/gui/assets/plugins/library/client.js#L2360) |
+| rh | VariableDeclaration | renderHooks | [2366](../../magpie/internal/gui/assets/plugins/library/client.js#L2366) |
+| list | VariableDeclaration | renderHooks | [2372](../../magpie/internal/gui/assets/plugins/library/client.js#L2372) |
+| after | VariableDeclaration | renderHooks | [2376](../../magpie/internal/gui/assets/plugins/library/client.js#L2376) |
+| given | VariableDeclaration | renderHooks | [2380](../../magpie/internal/gui/assets/plugins/library/client.js#L2380) |
+| a | VariableDeclaration | renderHooks | [2381](../../magpie/internal/gui/assets/plugins/library/client.js#L2381) |
+| ha | VariableDeclaration | renderHooks | [2382](../../magpie/internal/gui/assets/plugins/library/client.js#L2382) |
+| skip | VariableDeclaration | renderHooks | [2392](../../magpie/internal/gui/assets/plugins/library/client.js#L2392) |
+| hookRow | FunctionDeclaration |  | [2396](../../magpie/internal/gui/assets/plugins/library/client.js#L2396) |
+| row | VariableDeclaration | hookRow | [2397](../../magpie/internal/gui/assets/plugins/library/client.js#L2397) |
+| who | VariableDeclaration | hookRow | [2398](../../magpie/internal/gui/assets/plugins/library/client.js#L2398) |
+| cmd | VariableDeclaration | hookRow | [2403](../../magpie/internal/gui/assets/plugins/library/client.js#L2403) |
+| editHook | FunctionDeclaration |  | [2414](../../magpie/internal/gui/assets/plugins/library/client.js#L2414) |
+| all | VariableDeclaration | editHook | [2415](../../magpie/internal/gui/assets/plugins/library/client.js#L2415) |
+| d | VariableDeclaration | editHook | [2416](../../magpie/internal/gui/assets/plugins/library/client.js#L2416) |
+| ed | VariableDeclaration | editHook | [2419](../../magpie/internal/gui/assets/plugins/library/client.js#L2419) |
+| head | VariableDeclaration | editHook | [2420](../../magpie/internal/gui/assets/plugins/library/client.js#L2420) |
+| err | VariableDeclaration | editHook | [2423](../../magpie/internal/gui/assets/plugins/library/client.js#L2423) |
+| name | VariableDeclaration | editHook | [2424](../../magpie/internal/gui/assets/plugins/library/client.js#L2424) |
+| desc | VariableDeclaration | editHook | [2429](../../magpie/internal/gui/assets/plugins/library/client.js#L2429) |
+| evBtn | VariableDeclaration | editHook | [2441](../../magpie/internal/gui/assets/plugins/library/client.js#L2441) |
+| opts | VariableDeclaration | editHook | [2447](../../magpie/internal/gui/assets/plugins/library/client.js#L2447) |
+| v | BindingElement | editHook.opts | [2447](../../magpie/internal/gui/assets/plugins/library/client.js#L2447) |
+| n | BindingElement | editHook.opts | [2447](../../magpie/internal/gui/assets/plugins/library/client.js#L2447) |
+| a | VariableDeclaration | editHook | [2449](../../magpie/internal/gui/assets/plugins/library/client.js#L2449) |
+| ha | VariableDeclaration | editHook | [2450](../../magpie/internal/gui/assets/plugins/library/client.js#L2450) |
+| ev | VariableDeclaration | editHook | [2452](../../magpie/internal/gui/assets/plugins/library/client.js#L2452) |
+| m | BindingElement | editHook | [2458](../../magpie/internal/gui/assets/plugins/library/client.js#L2458) |
+| slot | VariableDeclaration | editHook | [2463](../../magpie/internal/gui/assets/plugins/library/client.js#L2463) |
+| cmd | VariableDeclaration | editHook | [2465](../../magpie/internal/gui/assets/plugins/library/client.js#L2465) |
+| to | VariableDeclaration | editHook | [2468](../../magpie/internal/gui/assets/plugins/library/client.js#L2468) |
+| agentsBox | VariableDeclaration | editHook | [2472](../../magpie/internal/gui/assets/plugins/library/client.js#L2472) |
+| drawAgents | FunctionDeclaration | editHook | [2476](../../magpie/internal/gui/assets/plugins/library/client.js#L2476) |
+| draw | FunctionDeclaration | editHook | [2479](../../magpie/internal/gui/assets/plugins/library/client.js#L2479) |
+| m | VariableDeclaration | editHook.draw | [2483](../../magpie/internal/gui/assets/plugins/library/client.js#L2483) |
+| mb | VariableDeclaration | editHook.draw | [2487](../../magpie/internal/gui/assets/plugins/library/client.js#L2487) |
+| v | BindingElement | editHook.draw | [2491](../../magpie/internal/gui/assets/plugins/library/client.js#L2491) |
+| v | BindingElement | editHook.draw | [2494](../../magpie/internal/gui/assets/plugins/library/client.js#L2494) |
+| n | BindingElement | editHook.draw | [2494](../../magpie/internal/gui/assets/plugins/library/client.js#L2494) |
+| bar | VariableDeclaration | editHook | [2502](../../magpie/internal/gui/assets/plugins/library/client.js#L2502) |
+| save | VariableDeclaration | editHook | [2508](../../magpie/internal/gui/assets/plugins/library/client.js#L2508) |
+| hook | VariableDeclaration | editHook.save | [2511](../../magpie/internal/gui/assets/plugins/library/client.js#L2511) |
+| e | VariableDeclaration | editHook.save | [2516](../../magpie/internal/gui/assets/plugins/library/client.js#L2516) |
+| original | VariableDeclaration | editHook | [2520](../../magpie/internal/gui/assets/plugins/library/client.js#L2520) |
+| dirty | PropertyAssignment | editHook | [2521](../../magpie/internal/gui/assets/plugins/library/client.js#L2521) |
+| confirmRemoveEveryHook | FunctionDeclaration |  | [2526](../../magpie/internal/gui/assets/plugins/library/client.js#L2526) |
+| hooks | VariableDeclaration | confirmRemoveEveryHook | [2527](../../magpie/internal/gui/assets/plugins/library/client.js#L2527) |
+| names | VariableDeclaration | confirmRemoveEveryHook | [2527](../../magpie/internal/gui/assets/plugins/library/client.js#L2527) |
+| n | VariableDeclaration | confirmRemoveEveryHook | [2527](../../magpie/internal/gui/assets/plugins/library/client.js#L2527) |
+| subagentAgentOf | VariableDeclaration |  | [2542](../../magpie/internal/gui/assets/plugins/library/client.js#L2542) |
+| subagentAgents | VariableDeclaration |  | [2543](../../magpie/internal/gui/assets/plugins/library/client.js#L2543) |
+| subagentBlocked | VariableDeclaration |  | [2545](../../magpie/internal/gui/assets/plugins/library/client.js#L2545) |
+| sa | VariableDeclaration | subagentBlocked | [2546](../../magpie/internal/gui/assets/plugins/library/client.js#L2546) |
+| unbound | VariableDeclaration |  | [2551](../../magpie/internal/gui/assets/plugins/library/client.js#L2551) |
+| subagentLine | FunctionDeclaration |  | [2552](../../magpie/internal/gui/assets/plugins/library/client.js#L2552) |
+| parts | VariableDeclaration | subagentLine | [2553](../../magpie/internal/gui/assets/plugins/library/client.js#L2553) |
+| renderSubagents | FunctionDeclaration |  | [2559](../../magpie/internal/gui/assets/plugins/library/client.js#L2559) |
+| all | VariableDeclaration | renderSubagents | [2561](../../magpie/internal/gui/assets/plugins/library/client.js#L2561) |
+| subs | VariableDeclaration | renderSubagents | [2562](../../magpie/internal/gui/assets/plugins/library/client.js#L2562) |
+| list | VariableDeclaration | renderSubagents | [2567](../../magpie/internal/gui/assets/plugins/library/client.js#L2567) |
+| after | VariableDeclaration | renderSubagents | [2570](../../magpie/internal/gui/assets/plugins/library/client.js#L2570) |
+| given | VariableDeclaration | renderSubagents | [2576](../../magpie/internal/gui/assets/plugins/library/client.js#L2576) |
+| noSkills | VariableDeclaration | renderSubagents | [2577](../../magpie/internal/gui/assets/plugins/library/client.js#L2577) |
+| noMCP | VariableDeclaration | renderSubagents | [2577](../../magpie/internal/gui/assets/plugins/library/client.js#L2577) |
+| skip | VariableDeclaration | renderSubagents | [2583](../../magpie/internal/gui/assets/plugins/library/client.js#L2583) |
+| subagentRow | FunctionDeclaration |  | [2587](../../magpie/internal/gui/assets/plugins/library/client.js#L2587) |
+| row | VariableDeclaration | subagentRow | [2588](../../magpie/internal/gui/assets/plugins/library/client.js#L2588) |
+| who | VariableDeclaration | subagentRow | [2589](../../magpie/internal/gui/assets/plugins/library/client.js#L2589) |
+| line | VariableDeclaration | subagentRow | [2592](../../magpie/internal/gui/assets/plugins/library/client.js#L2592) |
+| namesPick | FunctionDeclaration |  | [2603](../../magpie/internal/gui/assets/plugins/library/client.js#L2603) |
+| b | VariableDeclaration | namesPick | [2604](../../magpie/internal/gui/assets/plugins/library/client.js#L2604) |
+| draw | VariableDeclaration | namesPick | [2608](../../magpie/internal/gui/assets/plugins/library/client.js#L2608) |
+| opts | VariableDeclaration | namesPick | [2611](../../magpie/internal/gui/assets/plugins/library/client.js#L2611) |
+| editSubagent | FunctionDeclaration |  | [2619](../../magpie/internal/gui/assets/plugins/library/client.js#L2619) |
+| all | VariableDeclaration | editSubagent | [2620](../../magpie/internal/gui/assets/plugins/library/client.js#L2620) |
+| d | VariableDeclaration | editSubagent | [2621](../../magpie/internal/gui/assets/plugins/library/client.js#L2621) |
+| ed | VariableDeclaration | editSubagent | [2623](../../magpie/internal/gui/assets/plugins/library/client.js#L2623) |
+| head | VariableDeclaration | editSubagent | [2624](../../magpie/internal/gui/assets/plugins/library/client.js#L2624) |
+| err | VariableDeclaration | editSubagent | [2627](../../magpie/internal/gui/assets/plugins/library/client.js#L2627) |
+| name | VariableDeclaration | editSubagent | [2628](../../magpie/internal/gui/assets/plugins/library/client.js#L2628) |

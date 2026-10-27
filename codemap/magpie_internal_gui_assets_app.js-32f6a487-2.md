@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 2/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| page | VariableDeclaration | renderAgentsLoading | [368](../../magpie/internal/gui/assets/app.js#L368) |
-| list | VariableDeclaration | renderAgentsLoading | [371](../../magpie/internal/gui/assets/app.js#L371) |
-| i | VariableDeclaration | renderAgentsLoading | [373](../../magpie/internal/gui/assets/app.js#L373) |
-| row | VariableDeclaration | renderAgentsLoading | [374](../../magpie/internal/gui/assets/app.js#L374) |
-| who | VariableDeclaration | renderAgentsLoading | [375](../../magpie/internal/gui/assets/app.js#L375) |
-| rest | VariableDeclaration | renderAgentsLoading | [379](../../magpie/internal/gui/assets/app.js#L379) |
-| agentArranging | VariableDeclaration |  | [388](../../magpie/internal/gui/assets/app.js#L388) |
-| agentRenderPending | VariableDeclaration |  | [388](../../magpie/internal/gui/assets/app.js#L388) |
-| renderAgents | FunctionDeclaration |  | [389](../../magpie/internal/gui/assets/app.js#L389) |
-| page | VariableDeclaration | renderAgents | [394](../../magpie/internal/gui/assets/app.js#L394) |
-| list | VariableDeclaration | renderAgents | [397](../../magpie/internal/gui/assets/app.js#L397) |
-| e | VariableDeclaration | renderAgents | [401](../../magpie/internal/gui/assets/app.js#L401) |
-| { shown: used, folded } | VariableDeclaration | renderAgents | [405](../../magpie/internal/gui/assets/app.js#L405) |
-| used | BindingElement | renderAgents.{ shown: used, folded } | [405](../../magpie/internal/gui/assets/app.js#L405) |
-| folded | BindingElement | renderAgents.{ shown: used, folded } | [405](../../magpie/internal/gui/assets/app.js#L405) |
-| agentRow | VariableDeclaration | renderAgents | [407](../../magpie/internal/gui/assets/app.js#L407) |
-| row | VariableDeclaration | renderAgents.agentRow | [408](../../magpie/internal/gui/assets/app.js#L408) |
-| who | VariableDeclaration | renderAgents.agentRow | [412](../../magpie/internal/gui/assets/app.js#L412) |
-| fields | VariableDeclaration | renderAgents.agentRow | [416](../../magpie/internal/gui/assets/app.js#L416) |
-| wide | VariableDeclaration | renderAgents.agentRow | [417](../../magpie/internal/gui/assets/app.js#L417) |
-| none | VariableDeclaration | renderAgents.agentRow | [425](../../magpie/internal/gui/assets/app.js#L425) |
-| shownFields | VariableDeclaration | renderAgents.agentRow | [426](../../magpie/internal/gui/assets/app.js#L426) |
-| tiers | VariableDeclaration | renderAgents.agentRow | [427](../../magpie/internal/gui/assets/app.js#L427) |
-| sorted | VariableDeclaration | renderAgents.agentRow | [429](../../magpie/internal/gui/assets/app.js#L429) |
-| plain | VariableDeclaration | renderAgents.agentRow | [430](../../magpie/internal/gui/assets/app.js#L430) |
-| extras | VariableDeclaration | renderAgents.agentRow | [433](../../magpie/internal/gui/assets/app.js#L433) |
-| fieldBtn | VariableDeclaration | renderAgents.agentRow | [434](../../magpie/internal/gui/assets/app.js#L434) |
-| b | VariableDeclaration | renderAgents.agentRow.fieldBtn | [435](../../magpie/internal/gui/assets/app.js#L435) |
-| opt | VariableDeclaration | renderAgents.agentRow.fieldBtn | [436](../../magpie/internal/gui/assets/app.js#L436) |
-| effort | VariableDeclaration | renderAgents.agentRow.fieldBtn | [440](../../magpie/internal/gui/assets/app.js#L440) |
-| shown | VariableDeclaration | renderAgents.agentRow.fieldBtn | [448](../../magpie/internal/gui/assets/app.js#L448) |
-| c | VariableDeclaration | renderAgents.agentRow.fieldBtn | [452](../../magpie/internal/gui/assets/app.js#L452) |
-| fieldState | VariableDeclaration | renderAgents.agentRow.fieldBtn | [456](../../magpie/internal/gui/assets/app.js#L456) |
-| f | VariableDeclaration | renderAgents.agentRow | [462](../../magpie/internal/gui/assets/app.js#L462) |
-| launchOnly | VariableDeclaration | renderAgents.agentRow | [470](../../magpie/internal/gui/assets/app.js#L470) |
-| sum | VariableDeclaration | renderAgents.agentRow | [483](../../magpie/internal/gui/assets/app.js#L483) |
-| openBox | VariableDeclaration | renderAgents.agentRow | [483](../../magpie/internal/gui/assets/app.js#L483) |
-| effortOf | VariableDeclaration | renderAgents.agentRow | [484](../../magpie/internal/gui/assets/app.js#L484) |
-| act | VariableDeclaration | renderAgents.agentRow | [487](../../magpie/internal/gui/assets/app.js#L487) |
-| c | VariableDeclaration | renderAgents.agentRow | [490](../../magpie/internal/gui/assets/app.js#L490) |
-| main | VariableDeclaration | renderAgents.agentRow | [500](../../magpie/internal/gui/assets/app.js#L500) |
-| opt | VariableDeclaration | renderAgents.agentRow | [501](../../magpie/internal/gui/assets/app.js#L501) |
-| v | VariableDeclaration | renderAgents.agentRow | [503](../../magpie/internal/gui/assets/app.js#L503) |
-| mi | VariableDeclaration | renderAgents.agentRow | [505](../../magpie/internal/gui/assets/app.js#L505) |
-| ef | VariableDeclaration | renderAgents.agentRow | [521](../../magpie/internal/gui/assets/app.js#L521) |
-| c | VariableDeclaration | renderAgents.agentRow | [523](../../magpie/internal/gui/assets/app.js#L523) |
-| body | VariableDeclaration | renderAgents.agentRow | [530](../../magpie/internal/gui/assets/app.js#L530) |
-| b | VariableDeclaration | renderAgents.agentRow | [533](../../magpie/internal/gui/assets/app.js#L533) |
-| f | VariableDeclaration | renderAgents.agentRow | [534](../../magpie/internal/gui/assets/app.js#L534) |
-| m | VariableDeclaration | renderAgents.agentRow | [542](../../magpie/internal/gui/assets/app.js#L542) |
-| open | VariableDeclaration | renderAgents.agentRow | [551](../../magpie/internal/gui/assets/app.js#L551) |
-| grow | VariableDeclaration | renderAgents.agentRow | [555](../../magpie/internal/gui/assets/app.js#L555) |
-| r | VariableDeclaration | renderAgents.agentRow | [556](../../magpie/internal/gui/assets/app.js#L556) |
-| settle | VariableDeclaration | renderAgents.agentRow | [564](../../magpie/internal/gui/assets/app.js#L564) |
-| back | VariableDeclaration | renderAgents.agentRow | [577](../../magpie/internal/gui/assets/app.js#L577) |
-| gone | VariableDeclaration | renderAgents.agentRow | [595](../../magpie/internal/gui/assets/app.js#L595) |
-| kind | VariableDeclaration | renderAgents.agentRow | [608](../../magpie/internal/gui/assets/app.js#L608) |
-| line | VariableDeclaration | renderAgents.agentRow | [620](../../magpie/internal/gui/assets/app.js#L620) |
-| sw | VariableDeclaration | renderAgents.agentRow | [627](../../magpie/internal/gui/assets/app.js#L627) |
-| f | VariableDeclaration | renderAgents.agentRow | [632](../../magpie/internal/gui/assets/app.js#L632) |
-| line | VariableDeclaration | renderAgents.agentRow | [640](../../magpie/internal/gui/assets/app.js#L640) |
-| setUp | VariableDeclaration | renderAgents | [652](../../magpie/internal/gui/assets/app.js#L652) |
-| sq | VariableDeclaration | renderAgents | [653](../../magpie/internal/gui/assets/app.js#L653) |
-| a | VariableDeclaration | renderAgents | [658](../../magpie/internal/gui/assets/app.js#L658) |
-| a | VariableDeclaration | renderAgents | [661](../../magpie/internal/gui/assets/app.js#L661) |
-| fold | VariableDeclaration | renderAgents | [662](../../magpie/internal/gui/assets/app.js#L662) |
-| inner | VariableDeclaration | renderAgents | [663](../../magpie/internal/gui/assets/app.js#L663) |
-| byHand | VariableDeclaration | renderAgents | [671](../../magpie/internal/gui/assets/app.js#L671) |
-| unset | VariableDeclaration | renderAgents | [671](../../magpie/internal/gui/assets/app.js#L671) |
-| i | VariableDeclaration | renderAgents | [673](../../magpie/internal/gui/assets/app.js#L673) |
-| rows | VariableDeclaration | renderAgents | [674](../../magpie/internal/gui/assets/app.js#L674) |
-| a | VariableDeclaration | renderAgents.rows | [675](../../magpie/internal/gui/assets/app.js#L675) |
-| row | VariableDeclaration | renderAgents.rows | [676](../../magpie/internal/gui/assets/app.js#L676) |
-| cap | VariableDeclaration | renderAgents | [681](../../magpie/internal/gui/assets/app.js#L681) |
-| c | VariableDeclaration | renderAgents.cap | [682](../../magpie/internal/gui/assets/app.js#L682) |
-| line | VariableDeclaration | renderAgents | [694](../../magpie/internal/gui/assets/app.js#L694) |
-| hc | VariableDeclaration | renderAgents | [698](../../magpie/internal/gui/assets/app.js#L698) |
-| hf | VariableDeclaration | renderAgents | [701](../../magpie/internal/gui/assets/app.js#L701) |
-| hi | VariableDeclaration | renderAgents | [702](../../magpie/internal/gui/assets/app.js#L702) |
-| room | VariableDeclaration | renderAgents | [712](../../magpie/internal/gui/assets/app.js#L712) |
-| more | VariableDeclaration | renderAgents | [722](../../magpie/internal/gui/assets/app.js#L722) |
-| label | VariableDeclaration | renderAgents | [724](../../magpie/internal/gui/assets/app.js#L724) |
-| chev | VariableDeclaration | renderAgents | [725](../../magpie/internal/gui/assets/app.js#L725) |
-| labelFor | VariableDeclaration | renderAgents | [728](../../magpie/internal/gui/assets/app.js#L728) |
-| settle | VariableDeclaration | renderAgents | [738](../../magpie/internal/gui/assets/app.js#L738) |
-| settled | VariableDeclaration | renderAgents | [739](../../magpie/internal/gui/assets/app.js#L739) |
-| room | VariableDeclaration | renderAgents | [751](../../magpie/internal/gui/assets/app.js#L751) |
-| renderProfiles | FunctionDeclaration |  | [785](../../magpie/internal/gui/assets/app.js#L785) |
-| chips | VariableDeclaration | renderProfiles | [786](../../magpie/internal/gui/assets/app.js#L786) |
-| cur | VariableDeclaration | renderProfiles | [796](../../magpie/internal/gui/assets/app.js#L796) |
-| n | VariableDeclaration | renderProfiles | [797](../../magpie/internal/gui/assets/app.js#L797) |
-| p | VariableDeclaration | renderProfiles | [802](../../magpie/internal/gui/assets/app.js#L802) |
-| c | VariableDeclaration | renderProfiles | [803](../../magpie/internal/gui/assets/app.js#L803) |
-| lib | VariableDeclaration | renderProfiles | [806](../../magpie/internal/gui/assets/app.js#L806) |
-| u | VariableDeclaration | renderProfiles | [818](../../magpie/internal/gui/assets/app.js#L818) |
-| x | VariableDeclaration | renderProfiles | [821](../../magpie/internal/gui/assets/app.js#L821) |
-| open | VariableDeclaration | renderProfiles | [830](../../magpie/internal/gui/assets/app.js#L830) |
-| profileArm | VariableDeclaration |  | [838](../../magpie/internal/gui/assets/app.js#L838) |
-| ARM | VariableDeclaration |  | [839](../../magpie/internal/gui/assets/app.js#L839) |
-| armOrDo | FunctionDeclaration |  | [844](../../magpie/internal/gui/assets/app.js#L844) |
+| img | VariableDeclaration | icon | [344](../../magpie/internal/gui/assets/app.js#L344) |
+| status | FunctionDeclaration |  | [363](../../magpie/internal/gui/assets/app.js#L363) |
+| s | VariableDeclaration | status | [364](../../magpie/internal/gui/assets/app.js#L364) |
+| m | VariableDeclaration | status | [370](../../magpie/internal/gui/assets/app.js#L370) |
+| optionFor | FunctionDeclaration |  | [378](../../magpie/internal/gui/assets/app.js#L378) |
+| directSaid | FunctionDeclaration |  | [385](../../magpie/internal/gui/assets/app.js#L385) |
+| renderAgentsLoading | FunctionDeclaration |  | [392](../../magpie/internal/gui/assets/app.js#L392) |
+| page | VariableDeclaration | renderAgentsLoading | [393](../../magpie/internal/gui/assets/app.js#L393) |
+| list | VariableDeclaration | renderAgentsLoading | [396](../../magpie/internal/gui/assets/app.js#L396) |
+| i | VariableDeclaration | renderAgentsLoading | [398](../../magpie/internal/gui/assets/app.js#L398) |
+| row | VariableDeclaration | renderAgentsLoading | [399](../../magpie/internal/gui/assets/app.js#L399) |
+| who | VariableDeclaration | renderAgentsLoading | [400](../../magpie/internal/gui/assets/app.js#L400) |
+| rest | VariableDeclaration | renderAgentsLoading | [404](../../magpie/internal/gui/assets/app.js#L404) |
+| agentArranging | VariableDeclaration |  | [413](../../magpie/internal/gui/assets/app.js#L413) |
+| agentRenderPending | VariableDeclaration |  | [413](../../magpie/internal/gui/assets/app.js#L413) |
+| renderAgents | FunctionDeclaration |  | [414](../../magpie/internal/gui/assets/app.js#L414) |
+| page | VariableDeclaration | renderAgents | [419](../../magpie/internal/gui/assets/app.js#L419) |
+| list | VariableDeclaration | renderAgents | [422](../../magpie/internal/gui/assets/app.js#L422) |
+| e | VariableDeclaration | renderAgents | [426](../../magpie/internal/gui/assets/app.js#L426) |
+| { shown: used, folded } | VariableDeclaration | renderAgents | [430](../../magpie/internal/gui/assets/app.js#L430) |
+| used | BindingElement | renderAgents.{ shown: used, folded } | [430](../../magpie/internal/gui/assets/app.js#L430) |
+| folded | BindingElement | renderAgents.{ shown: used, folded } | [430](../../magpie/internal/gui/assets/app.js#L430) |
+| agentRow | VariableDeclaration | renderAgents | [432](../../magpie/internal/gui/assets/app.js#L432) |
+| row | VariableDeclaration | renderAgents.agentRow | [433](../../magpie/internal/gui/assets/app.js#L433) |
+| who | VariableDeclaration | renderAgents.agentRow | [437](../../magpie/internal/gui/assets/app.js#L437) |
+| fields | VariableDeclaration | renderAgents.agentRow | [441](../../magpie/internal/gui/assets/app.js#L441) |
+| wide | VariableDeclaration | renderAgents.agentRow | [442](../../magpie/internal/gui/assets/app.js#L442) |
+| none | VariableDeclaration | renderAgents.agentRow | [450](../../magpie/internal/gui/assets/app.js#L450) |
+| shownFields | VariableDeclaration | renderAgents.agentRow | [451](../../magpie/internal/gui/assets/app.js#L451) |
+| tiers | VariableDeclaration | renderAgents.agentRow | [452](../../magpie/internal/gui/assets/app.js#L452) |
+| sorted | VariableDeclaration | renderAgents.agentRow | [454](../../magpie/internal/gui/assets/app.js#L454) |
+| plain | VariableDeclaration | renderAgents.agentRow | [455](../../magpie/internal/gui/assets/app.js#L455) |
+| extras | VariableDeclaration | renderAgents.agentRow | [458](../../magpie/internal/gui/assets/app.js#L458) |
+| fieldBtn | VariableDeclaration | renderAgents.agentRow | [459](../../magpie/internal/gui/assets/app.js#L459) |
+| b | VariableDeclaration | renderAgents.agentRow.fieldBtn | [460](../../magpie/internal/gui/assets/app.js#L460) |
+| opt | VariableDeclaration | renderAgents.agentRow.fieldBtn | [461](../../magpie/internal/gui/assets/app.js#L461) |
+| effort | VariableDeclaration | renderAgents.agentRow.fieldBtn | [465](../../magpie/internal/gui/assets/app.js#L465) |
+| shown | VariableDeclaration | renderAgents.agentRow.fieldBtn | [473](../../magpie/internal/gui/assets/app.js#L473) |
+| c | VariableDeclaration | renderAgents.agentRow.fieldBtn | [477](../../magpie/internal/gui/assets/app.js#L477) |
+| fieldState | VariableDeclaration | renderAgents.agentRow.fieldBtn | [481](../../magpie/internal/gui/assets/app.js#L481) |
+| f | VariableDeclaration | renderAgents.agentRow | [487](../../magpie/internal/gui/assets/app.js#L487) |
+| launchOnly | VariableDeclaration | renderAgents.agentRow | [495](../../magpie/internal/gui/assets/app.js#L495) |
+| sum | VariableDeclaration | renderAgents.agentRow | [508](../../magpie/internal/gui/assets/app.js#L508) |
+| openBox | VariableDeclaration | renderAgents.agentRow | [508](../../magpie/internal/gui/assets/app.js#L508) |
+| effortOf | VariableDeclaration | renderAgents.agentRow | [509](../../magpie/internal/gui/assets/app.js#L509) |
+| act | VariableDeclaration | renderAgents.agentRow | [512](../../magpie/internal/gui/assets/app.js#L512) |
+| c | VariableDeclaration | renderAgents.agentRow | [515](../../magpie/internal/gui/assets/app.js#L515) |
+| main | VariableDeclaration | renderAgents.agentRow | [525](../../magpie/internal/gui/assets/app.js#L525) |
+| opt | VariableDeclaration | renderAgents.agentRow | [526](../../magpie/internal/gui/assets/app.js#L526) |
+| v | VariableDeclaration | renderAgents.agentRow | [528](../../magpie/internal/gui/assets/app.js#L528) |
+| mi | VariableDeclaration | renderAgents.agentRow | [530](../../magpie/internal/gui/assets/app.js#L530) |
+| ef | VariableDeclaration | renderAgents.agentRow | [546](../../magpie/internal/gui/assets/app.js#L546) |
+| c | VariableDeclaration | renderAgents.agentRow | [548](../../magpie/internal/gui/assets/app.js#L548) |
+| body | VariableDeclaration | renderAgents.agentRow | [555](../../magpie/internal/gui/assets/app.js#L555) |
+| b | VariableDeclaration | renderAgents.agentRow | [558](../../magpie/internal/gui/assets/app.js#L558) |
+| f | VariableDeclaration | renderAgents.agentRow | [559](../../magpie/internal/gui/assets/app.js#L559) |
+| m | VariableDeclaration | renderAgents.agentRow | [567](../../magpie/internal/gui/assets/app.js#L567) |
+| open | VariableDeclaration | renderAgents.agentRow | [576](../../magpie/internal/gui/assets/app.js#L576) |
+| grow | VariableDeclaration | renderAgents.agentRow | [580](../../magpie/internal/gui/assets/app.js#L580) |
+| r | VariableDeclaration | renderAgents.agentRow | [581](../../magpie/internal/gui/assets/app.js#L581) |
+| settle | VariableDeclaration | renderAgents.agentRow | [589](../../magpie/internal/gui/assets/app.js#L589) |
+| back | VariableDeclaration | renderAgents.agentRow | [602](../../magpie/internal/gui/assets/app.js#L602) |
+| gone | VariableDeclaration | renderAgents.agentRow | [620](../../magpie/internal/gui/assets/app.js#L620) |
+| kind | VariableDeclaration | renderAgents.agentRow | [633](../../magpie/internal/gui/assets/app.js#L633) |
+| line | VariableDeclaration | renderAgents.agentRow | [645](../../magpie/internal/gui/assets/app.js#L645) |
+| sw | VariableDeclaration | renderAgents.agentRow | [652](../../magpie/internal/gui/assets/app.js#L652) |
+| f | VariableDeclaration | renderAgents.agentRow | [657](../../magpie/internal/gui/assets/app.js#L657) |
+| line | VariableDeclaration | renderAgents.agentRow | [665](../../magpie/internal/gui/assets/app.js#L665) |
+| setUp | VariableDeclaration | renderAgents | [677](../../magpie/internal/gui/assets/app.js#L677) |
+| sq | VariableDeclaration | renderAgents | [678](../../magpie/internal/gui/assets/app.js#L678) |
+| a | VariableDeclaration | renderAgents | [683](../../magpie/internal/gui/assets/app.js#L683) |
+| a | VariableDeclaration | renderAgents | [686](../../magpie/internal/gui/assets/app.js#L686) |
+| fold | VariableDeclaration | renderAgents | [687](../../magpie/internal/gui/assets/app.js#L687) |
+| inner | VariableDeclaration | renderAgents | [688](../../magpie/internal/gui/assets/app.js#L688) |
+| byHand | VariableDeclaration | renderAgents | [696](../../magpie/internal/gui/assets/app.js#L696) |
+| unset | VariableDeclaration | renderAgents | [696](../../magpie/internal/gui/assets/app.js#L696) |
+| i | VariableDeclaration | renderAgents | [698](../../magpie/internal/gui/assets/app.js#L698) |
+| rows | VariableDeclaration | renderAgents | [699](../../magpie/internal/gui/assets/app.js#L699) |
+| a | VariableDeclaration | renderAgents.rows | [700](../../magpie/internal/gui/assets/app.js#L700) |
+| row | VariableDeclaration | renderAgents.rows | [701](../../magpie/internal/gui/assets/app.js#L701) |
+| cap | VariableDeclaration | renderAgents | [706](../../magpie/internal/gui/assets/app.js#L706) |
+| c | VariableDeclaration | renderAgents.cap | [707](../../magpie/internal/gui/assets/app.js#L707) |
+| line | VariableDeclaration | renderAgents | [719](../../magpie/internal/gui/assets/app.js#L719) |
+| hc | VariableDeclaration | renderAgents | [723](../../magpie/internal/gui/assets/app.js#L723) |
+| hf | VariableDeclaration | renderAgents | [726](../../magpie/internal/gui/assets/app.js#L726) |
+| hi | VariableDeclaration | renderAgents | [727](../../magpie/internal/gui/assets/app.js#L727) |
+| room | VariableDeclaration | renderAgents | [737](../../magpie/internal/gui/assets/app.js#L737) |
+| more | VariableDeclaration | renderAgents | [747](../../magpie/internal/gui/assets/app.js#L747) |
+| label | VariableDeclaration | renderAgents | [749](../../magpie/internal/gui/assets/app.js#L749) |
+| chev | VariableDeclaration | renderAgents | [750](../../magpie/internal/gui/assets/app.js#L750) |
+| labelFor | VariableDeclaration | renderAgents | [753](../../magpie/internal/gui/assets/app.js#L753) |
+| settle | VariableDeclaration | renderAgents | [763](../../magpie/internal/gui/assets/app.js#L763) |
+| settled | VariableDeclaration | renderAgents | [764](../../magpie/internal/gui/assets/app.js#L764) |
+| room | VariableDeclaration | renderAgents | [776](../../magpie/internal/gui/assets/app.js#L776) |
+| renderProfiles | FunctionDeclaration |  | [810](../../magpie/internal/gui/assets/app.js#L810) |
+| chips | VariableDeclaration | renderProfiles | [811](../../magpie/internal/gui/assets/app.js#L811) |
+| cur | VariableDeclaration | renderProfiles | [821](../../magpie/internal/gui/assets/app.js#L821) |
+| n | VariableDeclaration | renderProfiles | [822](../../magpie/internal/gui/assets/app.js#L822) |
+| p | VariableDeclaration | renderProfiles | [827](../../magpie/internal/gui/assets/app.js#L827) |
+| c | VariableDeclaration | renderProfiles | [828](../../magpie/internal/gui/assets/app.js#L828) |

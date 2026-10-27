@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 24/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| frame | FunctionDeclaration |  | [8879](../../magpie/internal/gui/assets/app.js#L8879) |
-| body | VariableDeclaration | frame | [8881](../../magpie/internal/gui/assets/app.js#L8881) |
-| closeModal | FunctionDeclaration |  | [8886](../../magpie/internal/gui/assets/app.js#L8886) |
-| m | VariableDeclaration | closeModal | [8887](../../magpie/internal/gui/assets/app.js#L8887) |
-| d | VariableDeclaration | closeModal | [8887](../../magpie/internal/gui/assets/app.js#L8887) |
-| a | VariableDeclaration | closeModal | [8893](../../magpie/internal/gui/assets/app.js#L8893) |
-| was | VariableDeclaration | closeModal | [8895](../../magpie/internal/gui/assets/app.js#L8895) |
-| to | VariableDeclaration | closeModal | [8897](../../magpie/internal/gui/assets/app.js#L8897) |
-| from | VariableDeclaration | closeModal | [8897](../../magpie/internal/gui/assets/app.js#L8897) |
-| clip | VariableDeclaration | closeModal | [8899](../../magpie/internal/gui/assets/app.js#L8899) |
-| shape | VariableDeclaration | closeModal | [8900](../../magpie/internal/gui/assets/app.js#L8900) |
-| moves | VariableDeclaration | closeModal | [8901](../../magpie/internal/gui/assets/app.js#L8901) |
-| done | VariableDeclaration | closeModal | [8910](../../magpie/internal/gui/assets/app.js#L8910) |
-| a | VariableDeclaration | closeModal.done | [8922](../../magpie/internal/gui/assets/app.js#L8922) |
-| sheet | VariableDeclaration | closeModal.done | [8926](../../magpie/internal/gui/assets/app.js#L8926) |
-| option | VariableDeclaration | closeModal.done | [8928](../../magpie/internal/gui/assets/app.js#L8928) |
-| modalBackdrop | VariableDeclaration |  | [8936](../../magpie/internal/gui/assets/app.js#L8936) |
-| thumbs | VariableDeclaration |  | [8956](../../magpie/internal/gui/assets/app.js#L8956) |
-| THUMB_MS | VariableDeclaration |  | [8957](../../magpie/internal/gui/assets/app.js#L8957) |
-| THUMB_EASE | VariableDeclaration |  | [8957](../../magpie/internal/gui/assets/app.js#L8957) |
-| thumbKeys | VariableDeclaration |  | [8958](../../magpie/internal/gui/assets/app.js#L8958) |
-| thumbKey | FunctionDeclaration |  | [8959](../../magpie/internal/gui/assets/app.js#L8959) |
-| path | VariableDeclaration | thumbKey | [8960](../../magpie/internal/gui/assets/app.js#L8960) |
-| node | VariableDeclaration | thumbKey | [8961](../../magpie/internal/gui/assets/app.js#L8961) |
-| thumbTo | FunctionDeclaration |  | [8968](../../magpie/internal/gui/assets/app.js#L8968) |
-| to | VariableDeclaration | thumbTo | [8970](../../magpie/internal/gui/assets/app.js#L8970) |
-| thumbAt | VariableDeclaration |  | [8977](../../magpie/internal/gui/assets/app.js#L8977) |
-| thumbGlide | VariableDeclaration |  | [8978](../../magpie/internal/gui/assets/app.js#L8978) |
-| thumbPut | FunctionDeclaration |  | [8980](../../magpie/internal/gui/assets/app.js#L8980) |
-| a | VariableDeclaration | thumbPut | [8981](../../magpie/internal/gui/assets/app.js#L8981) |
-| thumbNow | FunctionDeclaration |  | [8988](../../magpie/internal/gui/assets/app.js#L8988) |
-| cs | VariableDeclaration | thumbNow | [8990](../../magpie/internal/gui/assets/app.js#L8990) |
-| m | VariableDeclaration | thumbNow | [8990](../../magpie/internal/gui/assets/app.js#L8990) |
-| thumbPick | VariableDeclaration |  | [8994](../../magpie/internal/gui/assets/app.js#L8994) |
-| thumbSame | VariableDeclaration |  | [8995](../../magpie/internal/gui/assets/app.js#L8995) |
-| thumbFit | VariableDeclaration |  | [8998](../../magpie/internal/gui/assets/app.js#L8998) |
-| { target: box } | VariableDeclaration | thumbFit | [8999](../../magpie/internal/gui/assets/app.js#L8999) |
-| box | BindingElement | thumbFit.{ target: box } | [8999](../../magpie/internal/gui/assets/app.js#L8999) |
-| th | VariableDeclaration | thumbFit | [9001](../../magpie/internal/gui/assets/app.js#L9001) |
-| on | VariableDeclaration | thumbFit | [9001](../../magpie/internal/gui/assets/app.js#L9001) |
-| to | VariableDeclaration | thumbFit | [9002](../../magpie/internal/gui/assets/app.js#L9002) |
-| control | VariableDeclaration | thumbFit | [9004](../../magpie/internal/gui/assets/app.js#L9004) |
-| last | VariableDeclaration | thumbFit | [9005](../../magpie/internal/gui/assets/app.js#L9005) |
-| pick | VariableDeclaration | thumbFit | [9006](../../magpie/internal/gui/assets/app.js#L9006) |
-| slide | FunctionDeclaration |  | [9012](../../magpie/internal/gui/assets/app.js#L9012) |
-| control | VariableDeclaration | slide | [9013](../../magpie/internal/gui/assets/app.js#L9013) |
-| last | VariableDeclaration | slide | [9014](../../magpie/internal/gui/assets/app.js#L9014) |
-| th | VariableDeclaration | slide | [9015](../../magpie/internal/gui/assets/app.js#L9015) |
-| on | VariableDeclaration | slide | [9023](../../magpie/internal/gui/assets/app.js#L9023) |
-| to | VariableDeclaration | slide | [9026](../../magpie/internal/gui/assets/app.js#L9026) |
-| pick | VariableDeclaration | slide | [9028](../../magpie/internal/gui/assets/app.js#L9028) |
-| from | VariableDeclaration | slide | [9032](../../magpie/internal/gui/assets/app.js#L9032) |
-| f | VariableDeclaration | slide | [9036](../../magpie/internal/gui/assets/app.js#L9036) |
-| t | VariableDeclaration | slide | [9036](../../magpie/internal/gui/assets/app.js#L9036) |
-| PROTOS | VariableDeclaration |  | [9041](../../magpie/internal/gui/assets/app.js#L9041) |
-| VERTEX_EP_HINT | VariableDeclaration |  | [9044](../../magpie/internal/gui/assets/app.js#L9044) |
-| apiLabel | VariableDeclaration |  | [9046](../../magpie/internal/gui/assets/app.js#L9046) |
-| k | BindingElement | apiLabel | [9046](../../magpie/internal/gui/assets/app.js#L9046) |
-| vertexBase | FunctionDeclaration |  | [9050](../../magpie/internal/gui/assets/app.js#L9050) |
-| project | VariableDeclaration | vertexBase | [9051](../../magpie/internal/gui/assets/app.js#L9051) |
-| loc | VariableDeclaration | vertexBase | [9051](../../magpie/internal/gui/assets/app.js#L9051) |
-| host | VariableDeclaration | vertexBase | [9053](../../magpie/internal/gui/assets/app.js#L9053) |
-| vertexOfDraft | FunctionDeclaration |  | [9057](../../magpie/internal/gui/assets/app.js#L9057) |
-| v | VariableDeclaration | vertexOfDraft | [9058](../../magpie/internal/gui/assets/app.js#L9058) |
-| decideOnly | VariableDeclaration |  | [9061](../../magpie/internal/gui/assets/app.js#L9061) |
-| decidesModel | VariableDeclaration |  | [9064](../../magpie/internal/gui/assets/app.js#L9064) |
-| modelAPIs | VariableDeclaration |  | [9071](../../magpie/internal/gui/assets/app.js#L9071) |
-| urls | VariableDeclaration | modelAPIs | [9072](../../magpie/internal/gui/assets/app.js#L9072) |
-| k | BindingElement | modelAPIs | [9073](../../magpie/internal/gui/assets/app.js#L9073) |
-| pickedOf | FunctionDeclaration |  | [9081](../../magpie/internal/gui/assets/app.js#L9081) |
-| on | VariableDeclaration | pickedOf | [9082](../../magpie/internal/gui/assets/app.js#L9082) |
-| picks | VariableDeclaration | pickedOf | [9084](../../magpie/internal/gui/assets/app.js#L9084) |
-| baseAPIOf | FunctionDeclaration |  | [9095](../../magpie/internal/gui/assets/app.js#L9095) |
-| picked | VariableDeclaration | baseAPIOf | [9096](../../magpie/internal/gui/assets/app.js#L9096) |
-| draftOf | FunctionDeclaration |  | [9102](../../magpie/internal/gui/assets/app.js#L9102) |
-| duplicateProvider | FunctionDeclaration |  | [9110](../../magpie/internal/gui/assets/app.js#L9110) |
-| name | VariableDeclaration | duplicateProvider | [9111](../../magpie/internal/gui/assets/app.js#L9111) |
-| d | VariableDeclaration | duplicateProvider | [9113](../../magpie/internal/gui/assets/app.js#L9113) |
-| renderEditor | FunctionDeclaration |  | [9121](../../magpie/internal/gui/assets/app.js#L9121) |
-| kept | VariableDeclaration | renderEditor | [9123](../../magpie/internal/gui/assets/app.js#L9123) |
-| editor | VariableDeclaration | renderEditor | [9126](../../magpie/internal/gui/assets/app.js#L9126) |
-| drawEditor | FunctionDeclaration |  | [9134](../../magpie/internal/gui/assets/app.js#L9134) |
-| pr | VariableDeclaration | drawEditor | [9135](../../magpie/internal/gui/assets/app.js#L9135) |
-| isNew | VariableDeclaration | drawEditor | [9136](../../magpie/internal/gui/assets/app.js#L9136) |
-| custom | VariableDeclaration | drawEditor | [9136](../../magpie/internal/gui/assets/app.js#L9136) |
-| decides | VariableDeclaration | drawEditor | [9136](../../magpie/internal/gui/assets/app.js#L9136) |
-| another | VariableDeclaration | drawEditor | [9139](../../magpie/internal/gui/assets/app.js#L9139) |
-| ed | VariableDeclaration | drawEditor | [9148](../../magpie/internal/gui/assets/app.js#L9148) |
-| h | VariableDeclaration | drawEditor | [9152](../../magpie/internal/gui/assets/app.js#L9152) |
-| copyOf | VariableDeclaration | drawEditor | [9153](../../magpie/internal/gui/assets/app.js#L9153) |
-| at | VariableDeclaration | drawEditor | [9159](../../magpie/internal/gui/assets/app.js#L9159) |
-| site | VariableDeclaration | drawEditor | [9160](../../magpie/internal/gui/assets/app.js#L9160) |
-| b | VariableDeclaration | drawEditor | [9162](../../magpie/internal/gui/assets/app.js#L9162) |
-| pair | VariableDeclaration | drawEditor | [9174](../../magpie/internal/gui/assets/app.js#L9174) |
-| seg | VariableDeclaration | drawEditor | [9176](../../magpie/internal/gui/assets/app.js#L9176) |
-| b | VariableDeclaration | drawEditor | [9178](../../magpie/internal/gui/assets/app.js#L9178) |
-| on | VariableDeclaration | drawEditor | [9196](../../magpie/internal/gui/assets/app.js#L9196) |
-| chips | VariableDeclaration | drawEditor | [9198](../../magpie/internal/gui/assets/app.js#L9198) |
-| a | VariableDeclaration | drawEditor | [9199](../../magpie/internal/gui/assets/app.js#L9199) |
-| c | VariableDeclaration | drawEditor | [9200](../../magpie/internal/gui/assets/app.js#L9200) |
+| vertexOfDraft | FunctionDeclaration |  | [8842](../../magpie/internal/gui/assets/app.js#L8842) |
+| v | VariableDeclaration | vertexOfDraft | [8843](../../magpie/internal/gui/assets/app.js#L8843) |
+| decideOnly | VariableDeclaration |  | [8846](../../magpie/internal/gui/assets/app.js#L8846) |
+| decidesModel | VariableDeclaration |  | [8849](../../magpie/internal/gui/assets/app.js#L8849) |
+| modelAPIs | VariableDeclaration |  | [8856](../../magpie/internal/gui/assets/app.js#L8856) |
+| urls | VariableDeclaration | modelAPIs | [8857](../../magpie/internal/gui/assets/app.js#L8857) |
+| k | BindingElement | modelAPIs | [8858](../../magpie/internal/gui/assets/app.js#L8858) |
+| pickedOf | FunctionDeclaration |  | [8866](../../magpie/internal/gui/assets/app.js#L8866) |
+| on | VariableDeclaration | pickedOf | [8867](../../magpie/internal/gui/assets/app.js#L8867) |
+| picks | VariableDeclaration | pickedOf | [8869](../../magpie/internal/gui/assets/app.js#L8869) |
+| baseAPIOf | FunctionDeclaration |  | [8880](../../magpie/internal/gui/assets/app.js#L8880) |
+| picked | VariableDeclaration | baseAPIOf | [8881](../../magpie/internal/gui/assets/app.js#L8881) |
+| draftOf | FunctionDeclaration |  | [8887](../../magpie/internal/gui/assets/app.js#L8887) |
+| duplicateProvider | FunctionDeclaration |  | [8895](../../magpie/internal/gui/assets/app.js#L8895) |
+| name | VariableDeclaration | duplicateProvider | [8896](../../magpie/internal/gui/assets/app.js#L8896) |
+| d | VariableDeclaration | duplicateProvider | [8898](../../magpie/internal/gui/assets/app.js#L8898) |
+| renderEditor | FunctionDeclaration |  | [8906](../../magpie/internal/gui/assets/app.js#L8906) |
+| kept | VariableDeclaration | renderEditor | [8908](../../magpie/internal/gui/assets/app.js#L8908) |
+| editor | VariableDeclaration | renderEditor | [8911](../../magpie/internal/gui/assets/app.js#L8911) |
+| drawEditor | FunctionDeclaration |  | [8919](../../magpie/internal/gui/assets/app.js#L8919) |
+| pr | VariableDeclaration | drawEditor | [8920](../../magpie/internal/gui/assets/app.js#L8920) |
+| isNew | VariableDeclaration | drawEditor | [8921](../../magpie/internal/gui/assets/app.js#L8921) |
+| custom | VariableDeclaration | drawEditor | [8921](../../magpie/internal/gui/assets/app.js#L8921) |
+| decides | VariableDeclaration | drawEditor | [8921](../../magpie/internal/gui/assets/app.js#L8921) |
+| another | VariableDeclaration | drawEditor | [8924](../../magpie/internal/gui/assets/app.js#L8924) |
+| ed | VariableDeclaration | drawEditor | [8933](../../magpie/internal/gui/assets/app.js#L8933) |
+| h | VariableDeclaration | drawEditor | [8937](../../magpie/internal/gui/assets/app.js#L8937) |
+| copyOf | VariableDeclaration | drawEditor | [8938](../../magpie/internal/gui/assets/app.js#L8938) |
+| at | VariableDeclaration | drawEditor | [8944](../../magpie/internal/gui/assets/app.js#L8944) |
+| site | VariableDeclaration | drawEditor | [8945](../../magpie/internal/gui/assets/app.js#L8945) |
+| b | VariableDeclaration | drawEditor | [8947](../../magpie/internal/gui/assets/app.js#L8947) |
+| pair | VariableDeclaration | drawEditor | [8959](../../magpie/internal/gui/assets/app.js#L8959) |
+| seg | VariableDeclaration | drawEditor | [8961](../../magpie/internal/gui/assets/app.js#L8961) |
+| b | VariableDeclaration | drawEditor | [8963](../../magpie/internal/gui/assets/app.js#L8963) |
+| on | VariableDeclaration | drawEditor | [8981](../../magpie/internal/gui/assets/app.js#L8981) |
+| chips | VariableDeclaration | drawEditor | [8983](../../magpie/internal/gui/assets/app.js#L8983) |
+| a | VariableDeclaration | drawEditor | [8984](../../magpie/internal/gui/assets/app.js#L8984) |
+| c | VariableDeclaration | drawEditor | [8985](../../magpie/internal/gui/assets/app.js#L8985) |
+| name | VariableDeclaration | drawEditor | [8996](../../magpie/internal/gui/assets/app.js#L8996) |
+| url | VariableDeclaration | drawEditor | [8996](../../magpie/internal/gui/assets/app.js#L8996) |
+| hint | VariableDeclaration | drawEditor | [8999](../../magpie/internal/gui/assets/app.js#L8999) |
+| idHint | VariableDeclaration | drawEditor | [9000](../../magpie/internal/gui/assets/app.js#L9000) |
+| wrap | VariableDeclaration | drawEditor | [9003](../../magpie/internal/gui/assets/app.js#L9003) |
+| idField | VariableDeclaration | drawEditor | [9019](../../magpie/internal/gui/assets/app.js#L9019) |
+| idIn | VariableDeclaration | drawEditor.idField | [9020](../../magpie/internal/gui/assets/app.js#L9020) |
+| hint | VariableDeclaration | drawEditor.idField | [9021](../../magpie/internal/gui/assets/app.js#L9021) |
+| idOf | VariableDeclaration | drawEditor.idField | [9022](../../magpie/internal/gui/assets/app.js#L9022) |
+| show | VariableDeclaration | drawEditor.idField | [9023](../../magpie/internal/gui/assets/app.js#L9023) |
+| w | VariableDeclaration | drawEditor.idField | [9030](../../magpie/internal/gui/assets/app.js#L9030) |
+| fillEndpoints | VariableDeclaration | drawEditor | [9035](../../magpie/internal/gui/assets/app.js#L9035) |
+| curlBase | VariableDeclaration | drawEditor | [9038](../../magpie/internal/gui/assets/app.js#L9038) |
+| curlModel | VariableDeclaration | drawEditor | [9038](../../magpie/internal/gui/assets/app.js#L9038) |
+| carried | VariableDeclaration | drawEditor | [9041](../../magpie/internal/gui/assets/app.js#L9041) |
+| searchable | VariableDeclaration | drawEditor | [9043](../../magpie/internal/gui/assets/app.js#L9043) |
+| showSearch | VariableDeclaration | drawEditor | [9044](../../magpie/internal/gui/assets/app.js#L9044) |
+| showLocal | VariableDeclaration | drawEditor | [9047](../../magpie/internal/gui/assets/app.js#L9047) |
+| showTLS | VariableDeclaration | drawEditor | [9050](../../magpie/internal/gui/assets/app.js#L9050) |
+| showAuth | VariableDeclaration | drawEditor | [9053](../../magpie/internal/gui/assets/app.js#L9053) |
+| showCompaction | VariableDeclaration | drawEditor | [9056](../../magpie/internal/gui/assets/app.js#L9056) |
+| carriesCompaction | VariableDeclaration | drawEditor | [9057](../../magpie/internal/gui/assets/app.js#L9057) |
+| seg | VariableDeclaration | drawEditor | [9067](../../magpie/internal/gui/assets/app.js#L9067) |
+| [v, hint] | VariableDeclaration | drawEditor | [9068](../../magpie/internal/gui/assets/app.js#L9068) |
+| v | BindingElement | drawEditor.[v, hint] | [9068](../../magpie/internal/gui/assets/app.js#L9068) |
+| hint | BindingElement | drawEditor.[v, hint] | [9068](../../magpie/internal/gui/assets/app.js#L9068) |
+| b | VariableDeclaration | drawEditor | [9069](../../magpie/internal/gui/assets/app.js#L9069) |
+| from | VariableDeclaration | drawEditor | [9080](../../magpie/internal/gui/assets/app.js#L9080) |
+| to | VariableDeclaration | drawEditor | [9080](../../magpie/internal/gui/assets/app.js#L9080) |
+| showApi | VariableDeclaration | drawEditor | [9094](../../magpie/internal/gui/assets/app.js#L9094) |
+| x | VariableDeclaration | drawEditor.showApi | [9097](../../magpie/internal/gui/assets/app.js#L9097) |
+| urlWrap | VariableDeclaration | drawEditor | [9115](../../magpie/internal/gui/assets/app.js#L9115) |
+| useDetected | VariableDeclaration | drawEditor | [9120](../../magpie/internal/gui/assets/app.js#L9120) |
+| x | VariableDeclaration | drawEditor.useDetected | [9122](../../magpie/internal/gui/assets/app.js#L9122) |
+| v | VariableDeclaration | drawEditor.useDetected | [9126](../../magpie/internal/gui/assets/app.js#L9126) |
+| upstreamField | VariableDeclaration | drawEditor | [9146](../../magpie/internal/gui/assets/app.js#L9146) |
+| [ptk, pcb] | VariableDeclaration | drawEditor.upstreamField | [9147](../../magpie/internal/gui/assets/app.js#L9147) |
+| ptk | BindingElement | drawEditor.upstreamField.[ptk, pcb] | [9147](../../magpie/internal/gui/assets/app.js#L9147) |
+| pcb | BindingElement | drawEditor.upstreamField.[ptk, pcb] | [9147](../../magpie/internal/gui/assets/app.js#L9147) |
+| adv | VariableDeclaration | drawEditor | [9156](../../magpie/internal/gui/assets/app.js#L9156) |
+| of | VariableDeclaration | drawEditor | [9158](../../magpie/internal/gui/assets/app.js#L9158) |
+| advIn | VariableDeclaration | drawEditor | [9161](../../magpie/internal/gui/assets/app.js#L9161) |
+| a | VariableDeclaration | drawEditor | [9166](../../magpie/internal/gui/assets/app.js#L9166) |
+| via | VariableDeclaration | drawEditor | [9169](../../magpie/internal/gui/assets/app.js#L9169) |
+| acct | VariableDeclaration | drawEditor | [9174](../../magpie/internal/gui/assets/app.js#L9174) |
+| cx | VariableDeclaration | drawEditor | [9182](../../magpie/internal/gui/assets/app.js#L9182) |
+| proxies | VariableDeclaration | drawEditor | [9188](../../magpie/internal/gui/assets/app.js#L9188) |
+| perAccount | VariableDeclaration | drawEditor | [9190](../../magpie/internal/gui/assets/app.js#L9190) |
+| urls | VariableDeclaration | drawEditor | [9199](../../magpie/internal/gui/assets/app.js#L9199) |
+| bar | VariableDeclaration | drawEditor | [9202](../../magpie/internal/gui/assets/app.js#L9202) |
+| del | VariableDeclaration | drawEditor | [9204](../../magpie/internal/gui/assets/app.js#L9204) |
+| cancel | VariableDeclaration | drawEditor | [9208](../../magpie/internal/gui/assets/app.js#L9208) |
+| saveBtn | VariableDeclaration | drawEditor | [9210](../../magpie/internal/gui/assets/app.js#L9210) |
+| cx | VariableDeclaration | drawEditor | [9212](../../magpie/internal/gui/assets/app.js#L9212) |
+| ox | VariableDeclaration | drawEditor | [9214](../../magpie/internal/gui/assets/app.js#L9214) |
+| cpx | VariableDeclaration | drawEditor | [9216](../../magpie/internal/gui/assets/app.js#L9216) |
+| proxy | VariableDeclaration | drawEditor | [9218](../../magpie/internal/gui/assets/app.js#L9218) |
+| own | VariableDeclaration | drawEditor | [9220](../../magpie/internal/gui/assets/app.js#L9220) |
+| line | VariableDeclaration | drawEditor | [9222](../../magpie/internal/gui/assets/app.js#L9222) |
+| maxConcurrency | VariableDeclaration | drawEditor | [9226](../../magpie/internal/gui/assets/app.js#L9226) |
+| queue | VariableDeclaration | drawEditor | [9228](../../magpie/internal/gui/assets/app.js#L9228) |
+| priceRate | VariableDeclaration | drawEditor | [9230](../../magpie/internal/gui/assets/app.js#L9230) |

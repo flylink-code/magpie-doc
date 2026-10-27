@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/update.go) · page 1/1
 
-Source SHA-256: 27eb4bc2aaa00d7f44ce85cce1381ce62335aa0953fbb9ce88cd15ec4ecb2336
+Source SHA-256: 20413a53135311b93783de7a97dd2a93138048bea7c2392809e66fae9a1f2b96
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,82 +20,84 @@ Source SHA-256: 27eb4bc2aaa00d7f44ce85cce1381ce62335aa0953fbb9ce88cd15ec4ecb2336
 | self | field_declaration | updater | [39](../../magpie/internal/gui/update.go#L39) |
 | retry | field_declaration | updater | [40](../../magpie/internal/gui/update.go#L40) |
 | mirror | field_declaration | updater | [41](../../magpie/internal/gui/update.go#L41) |
-| staged | field_declaration | updater | [42](../../magpie/internal/gui/update.go#L42) |
-| aside | field_declaration | updater | [43](../../magpie/internal/gui/update.go#L43) |
-| blocked | field_declaration | updater | [47](../../magpie/internal/gui/update.go#L47) |
-| byClock | field_declaration | updater | [48](../../magpie/internal/gui/update.go#L48) |
-| fetch | field_declaration | updater | [52](../../magpie/internal/gui/update.go#L52) |
-| asked | field_declaration | updater | [53](../../magpie/internal/gui/update.go#L53) |
-| done | field_declaration | updater | [54](../../magpie/internal/gui/update.go#L54) |
-| total | field_declaration | updater | [55](../../magpie/internal/gui/update.go#L55) |
-| onReady | field_declaration | updater | [56](../../magpie/internal/gui/update.go#L56) |
-| lang | field_declaration | updater | [59](../../magpie/internal/gui/update.go#L59) |
-| notesIn | field_declaration | updater | [60](../../magpie/internal/gui/update.go#L60) |
-| relangAt | field_declaration | updater | [61](../../magpie/internal/gui/update.go#L61) |
-| waiting | field_declaration | updater | [65](../../magpie/internal/gui/update.go#L65) |
-| waitFrom | field_declaration | updater | [66](../../magpie/internal/gui/update.go#L66) |
-| waitGen | field_declaration | updater | [67](../../magpie/internal/gui/update.go#L67) |
-| gaveUp | field_declaration | updater | [68](../../magpie/internal/gui/update.go#L68) |
-| whenIdle | field_declaration | updater | [69](../../magpie/internal/gui/update.go#L69) |
-| onWait | field_declaration | updater | [70](../../magpie/internal/gui/update.go#L70) |
-| loops | field_declaration | updater | [71](../../magpie/internal/gui/update.go#L71) |
-| autoRestart | field_declaration | updater | [76](../../magpie/internal/gui/update.go#L76) |
-| autoSkip | field_declaration | updater | [77](../../magpie/internal/gui/update.go#L77) |
-| updateJSON | struct_type |  | [80](../../magpie/internal/gui/update.go#L80) |
-| State | field_declaration | updateJSON | [81](../../magpie/internal/gui/update.go#L81) |
-| Current | field_declaration | updateJSON | [82](../../magpie/internal/gui/update.go#L82) |
-| Latest | field_declaration | updateJSON | [83](../../magpie/internal/gui/update.go#L83) |
-| Notes | field_declaration | updateJSON | [84](../../magpie/internal/gui/update.go#L84) |
-| URL | field_declaration | updateJSON | [85](../../magpie/internal/gui/update.go#L85) |
-| Stuck | field_declaration | updateJSON | [86](../../magpie/internal/gui/update.go#L86) |
-| StuckDir | field_declaration | updateJSON | [88](../../magpie/internal/gui/update.go#L88) |
-| Retry | field_declaration | updateJSON | [89](../../magpie/internal/gui/update.go#L89) |
-| Mirror | field_declaration | updateJSON | [92](../../magpie/internal/gui/update.go#L92) |
-| Error | field_declaration | updateJSON | [93](../../magpie/internal/gui/update.go#L93) |
-| Done | field_declaration | updateJSON | [94](../../magpie/internal/gui/update.go#L94) |
-| Blocked | field_declaration | updateJSON | [96](../../magpie/internal/gui/update.go#L96) |
-| Total | field_declaration | updateJSON | [97](../../magpie/internal/gui/update.go#L97) |
-| Size | field_declaration | updateJSON | [100](../../magpie/internal/gui/update.go#L100) |
-| Busy | field_declaration | updateJSON | [104](../../magpie/internal/gui/update.go#L104) |
-| Waiting | field_declaration | updateJSON | [105](../../magpie/internal/gui/update.go#L105) |
-| GaveUp | field_declaration | updateJSON | [106](../../magpie/internal/gui/update.go#L106) |
-| Handover | field_declaration | updateJSON | [110](../../magpie/internal/gui/update.go#L110) |
-| updates | var_spec |  | [113](../../magpie/internal/gui/update.go#L113) |
-| updateDue | function_declaration |  | [119](../../magpie/internal/gui/update.go#L119) |
-| start | method_declaration | *updater | [123](../../magpie/internal/gui/update.go#L123) |
-| bundleOf | var_spec |  | [144](../../magpie/internal/gui/update.go#L144) |
-| executable | var_spec |  | [145](../../magpie/internal/gui/update.go#L145) |
-| place | method_declaration | *updater | [154](../../magpie/internal/gui/update.go#L154) |
-| placeExe | method_declaration | *updater | [168](../../magpie/internal/gui/update.go#L168) |
-| exeStuck | function_declaration |  | [187](../../magpie/internal/gui/update.go#L187) |
-| canElevate | var_spec |  | [200](../../magpie/internal/gui/update.go#L200) |
-| inContainer | var_spec |  | [201](../../magpie/internal/gui/update.go#L201) |
-| check | method_declaration | *updater | [205](../../magpie/internal/gui/update.go#L205) |
-| checkByClock | method_declaration | *updater | [213](../../magpie/internal/gui/update.go#L213) |
-| download | method_declaration | *updater | [226](../../magpie/internal/gui/update.go#L226) |
-| recheck | method_declaration | *updater | [240](../../magpie/internal/gui/update.go#L240) |
-| freshAfter | const_spec |  | [257](../../magpie/internal/gui/update.go#L257) |
-| freshen | method_declaration | *updater | [261](../../magpie/internal/gui/update.go#L261) |
-| latestStale | method_declaration | *updater | [281](../../magpie/internal/gui/update.go#L281) |
-| refreshLatest | method_declaration | *updater | [288](../../magpie/internal/gui/update.go#L288) |
-| begin | method_declaration | *updater | [303](../../magpie/internal/gui/update.go#L303) |
-| run | method_declaration | *updater | [313](../../magpie/internal/gui/update.go#L313) |
-| install | method_declaration | *updater | [408](../../magpie/internal/gui/update.go#L408) |
-| wontStart | method_declaration | *updater | [453](../../magpie/internal/gui/update.go#L453) |
-| assetSize | method_declaration | *updater | [466](../../magpie/internal/gui/update.go#L466) |
-| replaced | method_declaration | *updater | [475](../../magpie/internal/gui/update.go#L475) |
-| json | method_declaration | *updater | [479](../../magpie/internal/gui/update.go#L479) |
-| jsonIn | method_declaration | *updater | [484](../../magpie/internal/gui/update.go#L484) |
-| inLang | method_declaration | *updater | [535](../../magpie/internal/gui/update.go#L535) |
-| relang | method_declaration | *updater | [546](../../magpie/internal/gui/update.go#L546) |
-| updateRoutes | function_declaration |  | [563](../../magpie/internal/gui/update.go#L563) |
-| Latest | field_declaration | updateRoutes | [584](../../magpie/internal/gui/update.go#L584) |
-| Releases | field_declaration | updateRoutes | [585](../../magpie/internal/gui/update.go#L585) |
-| Error | field_declaration | updateRoutes | [586](../../magpie/internal/gui/update.go#L586) |
-| View | field_declaration | updateRoutes | [613](../../magpie/internal/gui/update.go#L613) |
-| When | field_declaration | updateRoutes | [616](../../magpie/internal/gui/update.go#L616) |
-| relaunchBinary | var_spec |  | [658](../../magpie/internal/gui/update.go#L658) |
-| restartToUpdate | function_declaration |  | [665](../../magpie/internal/gui/update.go#L665) |
-| restartInto | function_declaration |  | [672](../../magpie/internal/gui/update.go#L672) |
-| mainShown | function_declaration |  | [723](../../magpie/internal/gui/update.go#L723) |
-| MainShown | method_spec | mainShown | [724](../../magpie/internal/gui/update.go#L724) |
+| network | field_declaration | updater | [42](../../magpie/internal/gui/update.go#L42) |
+| staged | field_declaration | updater | [43](../../magpie/internal/gui/update.go#L43) |
+| aside | field_declaration | updater | [44](../../magpie/internal/gui/update.go#L44) |
+| blocked | field_declaration | updater | [48](../../magpie/internal/gui/update.go#L48) |
+| byClock | field_declaration | updater | [49](../../magpie/internal/gui/update.go#L49) |
+| fetch | field_declaration | updater | [53](../../magpie/internal/gui/update.go#L53) |
+| asked | field_declaration | updater | [54](../../magpie/internal/gui/update.go#L54) |
+| done | field_declaration | updater | [55](../../magpie/internal/gui/update.go#L55) |
+| total | field_declaration | updater | [56](../../magpie/internal/gui/update.go#L56) |
+| onReady | field_declaration | updater | [57](../../magpie/internal/gui/update.go#L57) |
+| lang | field_declaration | updater | [60](../../magpie/internal/gui/update.go#L60) |
+| notesIn | field_declaration | updater | [61](../../magpie/internal/gui/update.go#L61) |
+| relangAt | field_declaration | updater | [62](../../magpie/internal/gui/update.go#L62) |
+| waiting | field_declaration | updater | [66](../../magpie/internal/gui/update.go#L66) |
+| waitFrom | field_declaration | updater | [67](../../magpie/internal/gui/update.go#L67) |
+| waitGen | field_declaration | updater | [68](../../magpie/internal/gui/update.go#L68) |
+| gaveUp | field_declaration | updater | [69](../../magpie/internal/gui/update.go#L69) |
+| whenIdle | field_declaration | updater | [70](../../magpie/internal/gui/update.go#L70) |
+| onWait | field_declaration | updater | [71](../../magpie/internal/gui/update.go#L71) |
+| loops | field_declaration | updater | [72](../../magpie/internal/gui/update.go#L72) |
+| autoRestart | field_declaration | updater | [77](../../magpie/internal/gui/update.go#L77) |
+| autoSkip | field_declaration | updater | [78](../../magpie/internal/gui/update.go#L78) |
+| updateJSON | struct_type |  | [81](../../magpie/internal/gui/update.go#L81) |
+| State | field_declaration | updateJSON | [82](../../magpie/internal/gui/update.go#L82) |
+| Current | field_declaration | updateJSON | [83](../../magpie/internal/gui/update.go#L83) |
+| Latest | field_declaration | updateJSON | [84](../../magpie/internal/gui/update.go#L84) |
+| Notes | field_declaration | updateJSON | [85](../../magpie/internal/gui/update.go#L85) |
+| URL | field_declaration | updateJSON | [86](../../magpie/internal/gui/update.go#L86) |
+| Stuck | field_declaration | updateJSON | [87](../../magpie/internal/gui/update.go#L87) |
+| StuckDir | field_declaration | updateJSON | [89](../../magpie/internal/gui/update.go#L89) |
+| Retry | field_declaration | updateJSON | [90](../../magpie/internal/gui/update.go#L90) |
+| Mirror | field_declaration | updateJSON | [93](../../magpie/internal/gui/update.go#L93) |
+| Network | field_declaration | updateJSON | [96](../../magpie/internal/gui/update.go#L96) |
+| Error | field_declaration | updateJSON | [97](../../magpie/internal/gui/update.go#L97) |
+| Done | field_declaration | updateJSON | [98](../../magpie/internal/gui/update.go#L98) |
+| Blocked | field_declaration | updateJSON | [100](../../magpie/internal/gui/update.go#L100) |
+| Total | field_declaration | updateJSON | [101](../../magpie/internal/gui/update.go#L101) |
+| Size | field_declaration | updateJSON | [104](../../magpie/internal/gui/update.go#L104) |
+| Busy | field_declaration | updateJSON | [108](../../magpie/internal/gui/update.go#L108) |
+| Waiting | field_declaration | updateJSON | [109](../../magpie/internal/gui/update.go#L109) |
+| GaveUp | field_declaration | updateJSON | [110](../../magpie/internal/gui/update.go#L110) |
+| Handover | field_declaration | updateJSON | [114](../../magpie/internal/gui/update.go#L114) |
+| updates | var_spec |  | [117](../../magpie/internal/gui/update.go#L117) |
+| updateDue | function_declaration |  | [123](../../magpie/internal/gui/update.go#L123) |
+| start | method_declaration | *updater | [127](../../magpie/internal/gui/update.go#L127) |
+| bundleOf | var_spec |  | [148](../../magpie/internal/gui/update.go#L148) |
+| executable | var_spec |  | [149](../../magpie/internal/gui/update.go#L149) |
+| place | method_declaration | *updater | [158](../../magpie/internal/gui/update.go#L158) |
+| placeExe | method_declaration | *updater | [172](../../magpie/internal/gui/update.go#L172) |
+| exeStuck | function_declaration |  | [191](../../magpie/internal/gui/update.go#L191) |
+| canElevate | var_spec |  | [204](../../magpie/internal/gui/update.go#L204) |
+| inContainer | var_spec |  | [205](../../magpie/internal/gui/update.go#L205) |
+| check | method_declaration | *updater | [209](../../magpie/internal/gui/update.go#L209) |
+| checkByClock | method_declaration | *updater | [217](../../magpie/internal/gui/update.go#L217) |
+| download | method_declaration | *updater | [230](../../magpie/internal/gui/update.go#L230) |
+| recheck | method_declaration | *updater | [244](../../magpie/internal/gui/update.go#L244) |
+| freshAfter | const_spec |  | [261](../../magpie/internal/gui/update.go#L261) |
+| freshen | method_declaration | *updater | [265](../../magpie/internal/gui/update.go#L265) |
+| latestStale | method_declaration | *updater | [285](../../magpie/internal/gui/update.go#L285) |
+| refreshLatest | method_declaration | *updater | [292](../../magpie/internal/gui/update.go#L292) |
+| begin | method_declaration | *updater | [307](../../magpie/internal/gui/update.go#L307) |
+| run | method_declaration | *updater | [317](../../magpie/internal/gui/update.go#L317) |
+| install | method_declaration | *updater | [419](../../magpie/internal/gui/update.go#L419) |
+| wontStart | method_declaration | *updater | [464](../../magpie/internal/gui/update.go#L464) |
+| assetSize | method_declaration | *updater | [477](../../magpie/internal/gui/update.go#L477) |
+| replaced | method_declaration | *updater | [486](../../magpie/internal/gui/update.go#L486) |
+| json | method_declaration | *updater | [490](../../magpie/internal/gui/update.go#L490) |
+| jsonIn | method_declaration | *updater | [495](../../magpie/internal/gui/update.go#L495) |
+| inLang | method_declaration | *updater | [546](../../magpie/internal/gui/update.go#L546) |
+| relang | method_declaration | *updater | [557](../../magpie/internal/gui/update.go#L557) |
+| updateRoutes | function_declaration |  | [574](../../magpie/internal/gui/update.go#L574) |
+| Latest | field_declaration | updateRoutes | [595](../../magpie/internal/gui/update.go#L595) |
+| Releases | field_declaration | updateRoutes | [596](../../magpie/internal/gui/update.go#L596) |
+| Error | field_declaration | updateRoutes | [597](../../magpie/internal/gui/update.go#L597) |
+| View | field_declaration | updateRoutes | [624](../../magpie/internal/gui/update.go#L624) |
+| When | field_declaration | updateRoutes | [627](../../magpie/internal/gui/update.go#L627) |
+| relaunchBinary | var_spec |  | [669](../../magpie/internal/gui/update.go#L669) |
+| restartToUpdate | function_declaration |  | [676](../../magpie/internal/gui/update.go#L676) |
+| restartInto | function_declaration |  | [683](../../magpie/internal/gui/update.go#L683) |
+| mainShown | function_declaration |  | [734](../../magpie/internal/gui/update.go#L734) |
+| MainShown | method_spec | mainShown | [735](../../magpie/internal/gui/update.go#L735) |

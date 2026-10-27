@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 6/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| rest | VariableDeclaration | changesList | [2129](../../magpie/internal/gui/assets/app.js#L2129) |
-| askDisconnect | FunctionDeclaration |  | [2143](../../magpie/internal/gui/assets/app.js#L2143) |
-| ed | VariableDeclaration | askDisconnect | [2144](../../magpie/internal/gui/assets/app.js#L2144) |
-| head | VariableDeclaration | askDisconnect | [2145](../../magpie/internal/gui/assets/app.js#L2145) |
-| said | VariableDeclaration | askDisconnect | [2151](../../magpie/internal/gui/assets/app.js#L2151) |
-| body | VariableDeclaration | askDisconnect | [2152](../../magpie/internal/gui/assets/app.js#L2152) |
-| show | VariableDeclaration | askDisconnect | [2153](../../magpie/internal/gui/assets/app.js#L2153) |
-| previewBlocked | VariableDeclaration | askDisconnect | [2159](../../magpie/internal/gui/assets/app.js#L2159) |
-| revision | VariableDeclaration | askDisconnect | [2159](../../magpie/internal/gui/assets/app.js#L2159) |
-| offline | VariableDeclaration | askDisconnect | [2159](../../magpie/internal/gui/assets/app.js#L2159) |
-| bar | VariableDeclaration | askDisconnect | [2168](../../magpie/internal/gui/assets/app.js#L2168) |
-| go | VariableDeclaration | askDisconnect | [2169](../../magpie/internal/gui/assets/app.js#L2169) |
-| msg | VariableDeclaration | askDisconnect | [2182](../../magpie/internal/gui/assets/app.js#L2182) |
-| err | VariableDeclaration | askDisconnect | [2185](../../magpie/internal/gui/assets/app.js#L2185) |
-| cancel | VariableDeclaration | askDisconnect | [2199](../../magpie/internal/gui/assets/app.js#L2199) |
-| keepAgent | FunctionDeclaration |  | [2209](../../magpie/internal/gui/assets/app.js#L2209) |
-| e | VariableDeclaration | keepAgent | [2210](../../magpie/internal/gui/assets/app.js#L2210) |
-| reapplyAgent | FunctionDeclaration |  | [2214](../../magpie/internal/gui/assets/app.js#L2214) |
-| msg | VariableDeclaration | reapplyAgent | [2220](../../magpie/internal/gui/assets/app.js#L2220) |
-| e | VariableDeclaration | reapplyAgent | [2223](../../magpie/internal/gui/assets/app.js#L2223) |
-| cliInfo | VariableDeclaration |  | [2236](../../magpie/internal/gui/assets/app.js#L2236) |
-| cliBusy | VariableDeclaration |  | [2237](../../magpie/internal/gui/assets/app.js#L2237) |
-| CLI_UP | VariableDeclaration |  | [2238](../../magpie/internal/gui/assets/app.js#L2238) |
-| CLI_SPIN | VariableDeclaration |  | [2239](../../magpie/internal/gui/assets/app.js#L2239) |
-| cliTag | FunctionDeclaration |  | [2241](../../magpie/internal/gui/assets/app.js#L2241) |
-| box | VariableDeclaration | cliTag | [2242](../../magpie/internal/gui/assets/app.js#L2242) |
-| m | VariableDeclaration | cliTag | [2246](../../magpie/internal/gui/assets/app.js#L2246) |
-| c | VariableDeclaration | cliTag | [2254](../../magpie/internal/gui/assets/app.js#L2254) |
-| v | VariableDeclaration | cliTag | [2258](../../magpie/internal/gui/assets/app.js#L2258) |
-| o | VariableDeclaration | cliTag | [2269](../../magpie/internal/gui/assets/app.js#L2269) |
-| b | VariableDeclaration | cliTag | [2275](../../magpie/internal/gui/assets/app.js#L2275) |
-| v | VariableDeclaration | cliTag | [2286](../../magpie/internal/gui/assets/app.js#L2286) |
-| paintCLIButton | FunctionDeclaration |  | [2293](../../magpie/internal/gui/assets/app.js#L2293) |
-| text | VariableDeclaration | paintCLIButton | [2296](../../magpie/internal/gui/assets/app.js#L2296) |
-| paintCLI | FunctionDeclaration |  | [2303](../../magpie/internal/gui/assets/app.js#L2303) |
-| a | VariableDeclaration | paintCLI | [2304](../../magpie/internal/gui/assets/app.js#L2304) |
-| old | VariableDeclaration | paintCLI | [2306](../../magpie/internal/gui/assets/app.js#L2306) |
-| cliLoading | VariableDeclaration |  | [2309](../../magpie/internal/gui/assets/app.js#L2309) |
-| loadCLIs | FunctionDeclaration |  | [2310](../../magpie/internal/gui/assets/app.js#L2310) |
-| r | VariableDeclaration | loadCLIs | [2313](../../magpie/internal/gui/assets/app.js#L2313) |
-| next | VariableDeclaration | loadCLIs | [2315](../../magpie/internal/gui/assets/app.js#L2315) |
-| was | VariableDeclaration | loadCLIs | [2316](../../magpie/internal/gui/assets/app.js#L2316) |
-| id | VariableDeclaration | loadCLIs | [2318](../../magpie/internal/gui/assets/app.js#L2318) |
-| updateCLI | FunctionDeclaration |  | [2331](../../magpie/internal/gui/assets/app.js#L2331) |
-| from | VariableDeclaration | updateCLI | [2333](../../magpie/internal/gui/assets/app.js#L2333) |
-| c | VariableDeclaration | updateCLI | [2339](../../magpie/internal/gui/assets/app.js#L2339) |
-| e | VariableDeclaration | updateCLI | [2345](../../magpie/internal/gui/assets/app.js#L2345) |
-| versionChange | VariableDeclaration |  | [2359](../../magpie/internal/gui/assets/app.js#L2359) |
-| cliAll | VariableDeclaration |  | [2369](../../magpie/internal/gui/assets/app.js#L2369) |
-| updatable | VariableDeclaration |  | [2371](../../magpie/internal/gui/assets/app.js#L2371) |
-| paintUpdateAll | FunctionDeclaration |  | [2374](../../magpie/internal/gui/assets/app.js#L2374) |
-| list | VariableDeclaration | paintUpdateAll | [2375](../../magpie/internal/gui/assets/app.js#L2375) |
-| bar | VariableDeclaration | paintUpdateAll | [2377](../../magpie/internal/gui/assets/app.js#L2377) |
-| ups | VariableDeclaration | paintUpdateAll | [2378](../../magpie/internal/gui/assets/app.js#L2378) |
-| running | VariableDeclaration | paintUpdateAll | [2379](../../magpie/internal/gui/assets/app.js#L2379) |
-| say | VariableDeclaration | paintUpdateAll | [2387](../../magpie/internal/gui/assets/app.js#L2387) |
-| parts | VariableDeclaration | paintUpdateAll | [2388](../../magpie/internal/gui/assets/app.js#L2388) |
-| b | VariableDeclaration | paintUpdateAll | [2392](../../magpie/internal/gui/assets/app.js#L2392) |
-| behind | VariableDeclaration | paintUpdateAll | [2403](../../magpie/internal/gui/assets/app.js#L2403) |
-| b | VariableDeclaration | paintUpdateAll | [2409](../../magpie/internal/gui/assets/app.js#L2409) |
-| updateAllCLIs | FunctionDeclaration |  | [2419](../../magpie/internal/gui/assets/app.js#L2419) |
-| ups | VariableDeclaration | updateAllCLIs | [2421](../../magpie/internal/gui/assets/app.js#L2421) |
-| a | VariableDeclaration | updateAllCLIs | [2424](../../magpie/internal/gui/assets/app.js#L2424) |
-| err | VariableDeclaration | updateAllCLIs | [2427](../../magpie/internal/gui/assets/app.js#L2427) |
-| updatedSay | FunctionDeclaration |  | [2437](../../magpie/internal/gui/assets/app.js#L2437) |
-| ok | VariableDeclaration | updatedSay | [2438](../../magpie/internal/gui/assets/app.js#L2438) |
-| list | VariableDeclaration | updatedSay | [2438](../../magpie/internal/gui/assets/app.js#L2438) |
-| names | VariableDeclaration | updatedSay | [2440](../../magpie/internal/gui/assets/app.js#L2440) |
-| installInfo | VariableDeclaration |  | [2452](../../magpie/internal/gui/assets/app.js#L2452) |
-| goneSaid | FunctionDeclaration |  | [2457](../../magpie/internal/gui/assets/app.js#L2457) |
-| installsOpen | VariableDeclaration |  | [2462](../../magpie/internal/gui/assets/app.js#L2462) |
-| VIA | VariableDeclaration |  | [2463](../../magpie/internal/gui/assets/app.js#L2463) |
-| loadInstalls | FunctionDeclaration |  | [2465](../../magpie/internal/gui/assets/app.js#L2465) |
-| r | VariableDeclaration | loadInstalls | [2467](../../magpie/internal/gui/assets/app.js#L2467) |
-| installNote | FunctionDeclaration |  | [2476](../../magpie/internal/gui/assets/app.js#L2476) |
-| admin | VariableDeclaration | installNote | [2479](../../magpie/internal/gui/assets/app.js#L2479) |
-| note | VariableDeclaration | installNote | [2480](../../magpie/internal/gui/assets/app.js#L2480) |
-| installNoteFor | FunctionDeclaration |  | [2484](../../magpie/internal/gui/assets/app.js#L2484) |
-| node | VariableDeclaration | installNoteFor | [2485](../../magpie/internal/gui/assets/app.js#L2485) |
-| after | VariableDeclaration | installNoteFor | [2486](../../magpie/internal/gui/assets/app.js#L2486) |
-| s | VariableDeclaration | installNoteFor | [2489](../../magpie/internal/gui/assets/app.js#L2489) |
-| paintInstalls | FunctionDeclaration |  | [2495](../../magpie/internal/gui/assets/app.js#L2495) |
-| list | VariableDeclaration | paintInstalls | [2496](../../magpie/internal/gui/assets/app.js#L2496) |
-| box | VariableDeclaration | paintInstalls | [2498](../../magpie/internal/gui/assets/app.js#L2498) |
-| here | VariableDeclaration | paintInstalls | [2499](../../magpie/internal/gui/assets/app.js#L2499) |
-| items | VariableDeclaration | paintInstalls | [2502](../../magpie/internal/gui/assets/app.js#L2502) |
-| open | VariableDeclaration | paintInstalls | [2509](../../magpie/internal/gui/assets/app.js#L2509) |
-| head | VariableDeclaration | paintInstalls | [2510](../../magpie/internal/gui/assets/app.js#L2510) |
-| parts | VariableDeclaration | paintInstalls | [2521](../../magpie/internal/gui/assets/app.js#L2521) |
-| x | VariableDeclaration | paintInstalls | [2524](../../magpie/internal/gui/assets/app.js#L2524) |
-| r | VariableDeclaration | paintInstalls | [2525](../../magpie/internal/gui/assets/app.js#L2525) |
-| who | VariableDeclaration | paintInstalls | [2527](../../magpie/internal/gui/assets/app.js#L2527) |
-| name | VariableDeclaration | paintInstalls | [2529](../../magpie/internal/gui/assets/app.js#L2529) |
-| m | VariableDeclaration | paintInstalls | [2532](../../magpie/internal/gui/assets/app.js#L2532) |
-| cmds | VariableDeclaration | paintInstalls | [2537](../../magpie/internal/gui/assets/app.js#L2537) |
-| c | VariableDeclaration | paintInstalls | [2538](../../magpie/internal/gui/assets/app.js#L2538) |
-| line | VariableDeclaration | paintInstalls | [2539](../../magpie/internal/gui/assets/app.js#L2539) |
-| agentsGlide | VariableDeclaration |  | [2555](../../magpie/internal/gui/assets/app.js#L2555) |
-| panelOpenAgent | VariableDeclaration |  | [2556](../../magpie/internal/gui/assets/app.js#L2556) |
-| tweak | VariableDeclaration |  | [2571](../../magpie/internal/gui/assets/app.js#L2571) |
+| line | VariableDeclaration | changesList | [2144](../../magpie/internal/gui/assets/app.js#L2144) |
+| op | VariableDeclaration | changesList.line | [2145](../../magpie/internal/gui/assets/app.js#L2145) |
+| r | VariableDeclaration | changesList.line | [2147](../../magpie/internal/gui/assets/app.js#L2147) |
+| code | VariableDeclaration | changesList.line | [2147](../../magpie/internal/gui/assets/app.js#L2147) |
+| ind | VariableDeclaration | changesList.line | [2147](../../magpie/internal/gui/assets/app.js#L2147) |
+| lines | VariableDeclaration | changesList | [2156](../../magpie/internal/gui/assets/app.js#L2156) |
+| FEW | VariableDeclaration | changesList | [2156](../../magpie/internal/gui/assets/app.js#L2156) |
+| rest | VariableDeclaration | changesList | [2159](../../magpie/internal/gui/assets/app.js#L2159) |
+| askDisconnect | FunctionDeclaration |  | [2173](../../magpie/internal/gui/assets/app.js#L2173) |
+| ed | VariableDeclaration | askDisconnect | [2174](../../magpie/internal/gui/assets/app.js#L2174) |
+| head | VariableDeclaration | askDisconnect | [2175](../../magpie/internal/gui/assets/app.js#L2175) |
+| said | VariableDeclaration | askDisconnect | [2181](../../magpie/internal/gui/assets/app.js#L2181) |
+| body | VariableDeclaration | askDisconnect | [2182](../../magpie/internal/gui/assets/app.js#L2182) |
+| show | VariableDeclaration | askDisconnect | [2183](../../magpie/internal/gui/assets/app.js#L2183) |
+| previewBlocked | VariableDeclaration | askDisconnect | [2189](../../magpie/internal/gui/assets/app.js#L2189) |
+| revision | VariableDeclaration | askDisconnect | [2189](../../magpie/internal/gui/assets/app.js#L2189) |
+| offline | VariableDeclaration | askDisconnect | [2189](../../magpie/internal/gui/assets/app.js#L2189) |
+| bar | VariableDeclaration | askDisconnect | [2198](../../magpie/internal/gui/assets/app.js#L2198) |
+| go | VariableDeclaration | askDisconnect | [2199](../../magpie/internal/gui/assets/app.js#L2199) |
+| msg | VariableDeclaration | askDisconnect | [2212](../../magpie/internal/gui/assets/app.js#L2212) |
+| err | VariableDeclaration | askDisconnect | [2215](../../magpie/internal/gui/assets/app.js#L2215) |
+| cancel | VariableDeclaration | askDisconnect | [2229](../../magpie/internal/gui/assets/app.js#L2229) |
+| keepAgent | FunctionDeclaration |  | [2239](../../magpie/internal/gui/assets/app.js#L2239) |
+| e | VariableDeclaration | keepAgent | [2240](../../magpie/internal/gui/assets/app.js#L2240) |
+| reapplyAgent | FunctionDeclaration |  | [2244](../../magpie/internal/gui/assets/app.js#L2244) |
+| msg | VariableDeclaration | reapplyAgent | [2250](../../magpie/internal/gui/assets/app.js#L2250) |
+| e | VariableDeclaration | reapplyAgent | [2253](../../magpie/internal/gui/assets/app.js#L2253) |
+| cliInfo | VariableDeclaration |  | [2266](../../magpie/internal/gui/assets/app.js#L2266) |
+| cliBusy | VariableDeclaration |  | [2267](../../magpie/internal/gui/assets/app.js#L2267) |
+| CLI_UP | VariableDeclaration |  | [2268](../../magpie/internal/gui/assets/app.js#L2268) |
+| CLI_SPIN | VariableDeclaration |  | [2269](../../magpie/internal/gui/assets/app.js#L2269) |
+| cliTag | FunctionDeclaration |  | [2271](../../magpie/internal/gui/assets/app.js#L2271) |
+| box | VariableDeclaration | cliTag | [2272](../../magpie/internal/gui/assets/app.js#L2272) |
+| m | VariableDeclaration | cliTag | [2276](../../magpie/internal/gui/assets/app.js#L2276) |
+| c | VariableDeclaration | cliTag | [2284](../../magpie/internal/gui/assets/app.js#L2284) |
+| v | VariableDeclaration | cliTag | [2288](../../magpie/internal/gui/assets/app.js#L2288) |
+| o | VariableDeclaration | cliTag | [2299](../../magpie/internal/gui/assets/app.js#L2299) |
+| b | VariableDeclaration | cliTag | [2305](../../magpie/internal/gui/assets/app.js#L2305) |
+| v | VariableDeclaration | cliTag | [2316](../../magpie/internal/gui/assets/app.js#L2316) |
+| paintCLIButton | FunctionDeclaration |  | [2323](../../magpie/internal/gui/assets/app.js#L2323) |
+| text | VariableDeclaration | paintCLIButton | [2326](../../magpie/internal/gui/assets/app.js#L2326) |
+| paintCLI | FunctionDeclaration |  | [2333](../../magpie/internal/gui/assets/app.js#L2333) |
+| a | VariableDeclaration | paintCLI | [2334](../../magpie/internal/gui/assets/app.js#L2334) |
+| old | VariableDeclaration | paintCLI | [2336](../../magpie/internal/gui/assets/app.js#L2336) |
+| cliLoading | VariableDeclaration |  | [2339](../../magpie/internal/gui/assets/app.js#L2339) |
+| loadCLIs | FunctionDeclaration |  | [2340](../../magpie/internal/gui/assets/app.js#L2340) |
+| r | VariableDeclaration | loadCLIs | [2343](../../magpie/internal/gui/assets/app.js#L2343) |
+| next | VariableDeclaration | loadCLIs | [2345](../../magpie/internal/gui/assets/app.js#L2345) |
+| was | VariableDeclaration | loadCLIs | [2346](../../magpie/internal/gui/assets/app.js#L2346) |
+| id | VariableDeclaration | loadCLIs | [2348](../../magpie/internal/gui/assets/app.js#L2348) |
+| updateCLI | FunctionDeclaration |  | [2361](../../magpie/internal/gui/assets/app.js#L2361) |
+| from | VariableDeclaration | updateCLI | [2363](../../magpie/internal/gui/assets/app.js#L2363) |
+| c | VariableDeclaration | updateCLI | [2369](../../magpie/internal/gui/assets/app.js#L2369) |
+| e | VariableDeclaration | updateCLI | [2375](../../magpie/internal/gui/assets/app.js#L2375) |
+| versionChange | VariableDeclaration |  | [2389](../../magpie/internal/gui/assets/app.js#L2389) |
+| cliAll | VariableDeclaration |  | [2399](../../magpie/internal/gui/assets/app.js#L2399) |
+| updatable | VariableDeclaration |  | [2401](../../magpie/internal/gui/assets/app.js#L2401) |
+| paintUpdateAll | FunctionDeclaration |  | [2404](../../magpie/internal/gui/assets/app.js#L2404) |
+| list | VariableDeclaration | paintUpdateAll | [2405](../../magpie/internal/gui/assets/app.js#L2405) |
+| bar | VariableDeclaration | paintUpdateAll | [2407](../../magpie/internal/gui/assets/app.js#L2407) |
+| ups | VariableDeclaration | paintUpdateAll | [2408](../../magpie/internal/gui/assets/app.js#L2408) |
+| running | VariableDeclaration | paintUpdateAll | [2409](../../magpie/internal/gui/assets/app.js#L2409) |
+| say | VariableDeclaration | paintUpdateAll | [2417](../../magpie/internal/gui/assets/app.js#L2417) |
+| parts | VariableDeclaration | paintUpdateAll | [2418](../../magpie/internal/gui/assets/app.js#L2418) |
+| b | VariableDeclaration | paintUpdateAll | [2422](../../magpie/internal/gui/assets/app.js#L2422) |
+| behind | VariableDeclaration | paintUpdateAll | [2433](../../magpie/internal/gui/assets/app.js#L2433) |
+| b | VariableDeclaration | paintUpdateAll | [2439](../../magpie/internal/gui/assets/app.js#L2439) |
+| updateAllCLIs | FunctionDeclaration |  | [2449](../../magpie/internal/gui/assets/app.js#L2449) |
+| ups | VariableDeclaration | updateAllCLIs | [2451](../../magpie/internal/gui/assets/app.js#L2451) |
+| a | VariableDeclaration | updateAllCLIs | [2454](../../magpie/internal/gui/assets/app.js#L2454) |
+| err | VariableDeclaration | updateAllCLIs | [2457](../../magpie/internal/gui/assets/app.js#L2457) |
+| updatedSay | FunctionDeclaration |  | [2467](../../magpie/internal/gui/assets/app.js#L2467) |
+| ok | VariableDeclaration | updatedSay | [2468](../../magpie/internal/gui/assets/app.js#L2468) |
+| list | VariableDeclaration | updatedSay | [2468](../../magpie/internal/gui/assets/app.js#L2468) |
+| names | VariableDeclaration | updatedSay | [2470](../../magpie/internal/gui/assets/app.js#L2470) |
+| installInfo | VariableDeclaration |  | [2482](../../magpie/internal/gui/assets/app.js#L2482) |
+| goneSaid | FunctionDeclaration |  | [2487](../../magpie/internal/gui/assets/app.js#L2487) |
+| installsOpen | VariableDeclaration |  | [2492](../../magpie/internal/gui/assets/app.js#L2492) |
+| VIA | VariableDeclaration |  | [2493](../../magpie/internal/gui/assets/app.js#L2493) |
+| loadInstalls | FunctionDeclaration |  | [2495](../../magpie/internal/gui/assets/app.js#L2495) |
+| r | VariableDeclaration | loadInstalls | [2497](../../magpie/internal/gui/assets/app.js#L2497) |
+| installNote | FunctionDeclaration |  | [2506](../../magpie/internal/gui/assets/app.js#L2506) |
+| admin | VariableDeclaration | installNote | [2509](../../magpie/internal/gui/assets/app.js#L2509) |
+| note | VariableDeclaration | installNote | [2510](../../magpie/internal/gui/assets/app.js#L2510) |
+| installNoteFor | FunctionDeclaration |  | [2514](../../magpie/internal/gui/assets/app.js#L2514) |
+| node | VariableDeclaration | installNoteFor | [2515](../../magpie/internal/gui/assets/app.js#L2515) |
+| after | VariableDeclaration | installNoteFor | [2516](../../magpie/internal/gui/assets/app.js#L2516) |
+| s | VariableDeclaration | installNoteFor | [2519](../../magpie/internal/gui/assets/app.js#L2519) |
+| paintInstalls | FunctionDeclaration |  | [2525](../../magpie/internal/gui/assets/app.js#L2525) |
+| list | VariableDeclaration | paintInstalls | [2526](../../magpie/internal/gui/assets/app.js#L2526) |
+| box | VariableDeclaration | paintInstalls | [2528](../../magpie/internal/gui/assets/app.js#L2528) |
+| here | VariableDeclaration | paintInstalls | [2529](../../magpie/internal/gui/assets/app.js#L2529) |
+| items | VariableDeclaration | paintInstalls | [2532](../../magpie/internal/gui/assets/app.js#L2532) |
+| open | VariableDeclaration | paintInstalls | [2539](../../magpie/internal/gui/assets/app.js#L2539) |
+| head | VariableDeclaration | paintInstalls | [2540](../../magpie/internal/gui/assets/app.js#L2540) |
+| parts | VariableDeclaration | paintInstalls | [2551](../../magpie/internal/gui/assets/app.js#L2551) |
+| x | VariableDeclaration | paintInstalls | [2554](../../magpie/internal/gui/assets/app.js#L2554) |
+| r | VariableDeclaration | paintInstalls | [2555](../../magpie/internal/gui/assets/app.js#L2555) |
+| who | VariableDeclaration | paintInstalls | [2557](../../magpie/internal/gui/assets/app.js#L2557) |
+| name | VariableDeclaration | paintInstalls | [2559](../../magpie/internal/gui/assets/app.js#L2559) |

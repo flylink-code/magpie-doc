@@ -4,11 +4,12 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/models.go) · page 3/3
 
-Source SHA-256: d7a9afe967d74348256ad2784fcd4b9e44b1609e1087276f532147482546ab00
+Source SHA-256: bf2de83de637a226a01b0d0587ac623d4766fa50471fb4b4dbbc53ccf698c610
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| DropModelOutput | function_declaration |  | [2960](../../magpie/internal/provider/models.go#L2960) |
-| outputKeyOf | function_declaration |  | [3001](../../magpie/internal/provider/models.go#L3001) |
-| SetContext | function_declaration |  | [3044](../../magpie/internal/provider/models.go#L3044) |
-| DropContext | function_declaration |  | [3080](../../magpie/internal/provider/models.go#L3080) |
+| SetModelOutputs | function_declaration |  | [2938](../../magpie/internal/provider/models.go#L2938) |
+| DropModelOutput | function_declaration |  | [3001](../../magpie/internal/provider/models.go#L3001) |
+| outputKeyOf | function_declaration |  | [3042](../../magpie/internal/provider/models.go#L3042) |
+| SetContext | function_declaration |  | [3085](../../magpie/internal/provider/models.go#L3085) |
+| DropContext | function_declaration |  | [3121](../../magpie/internal/provider/models.go#L3121) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/sessions_manage.go) · page 1/1
 
-Source SHA-256: 6154bc233af4269a78eb2efda6cf20cff568cd1d5168888c353c8ce76c657977
+Source SHA-256: b0c5c7714c24bc4551820c1839cdbe40f3627765a351b51d158bcbb46c547a82
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -22,56 +22,56 @@ Source SHA-256: 6154bc233af4269a78eb2efda6cf20cff568cd1d5168888c353c8ce76c657977
 | sessionManageRoutes | function_declaration |  | [84](../../magpie/internal/gui/sessions_manage.go#L84) |
 | On | field_declaration | sessionManageRoutes | [103](../../magpie/internal/gui/sessions_manage.go#L103) |
 | Clear | field_declaration | sessionManageRoutes | [104](../../magpie/internal/gui/sessions_manage.go#L104) |
-| Agents | field_declaration | sessionManageRoutes | [121](../../magpie/internal/gui/sessions_manage.go#L121) |
-| Agent | field_declaration | sessionManageRoutes | [122](../../magpie/internal/gui/sessions_manage.go#L122) |
-| Sessions | field_declaration | sessionManageRoutes | [123](../../magpie/internal/gui/sessions_manage.go#L123) |
-| Terminal | field_declaration | sessionManageRoutes | [124](../../magpie/internal/gui/sessions_manage.go#L124) |
-| Trash | field_declaration | sessionManageRoutes | [125](../../magpie/internal/gui/sessions_manage.go#L125) |
-| TrashDir | field_declaration | sessionManageRoutes | [126](../../magpie/internal/gui/sessions_manage.go#L126) |
-| Home | field_declaration | sessionManageRoutes | [128](../../magpie/internal/gui/sessions_manage.go#L128) |
-| Recording | field_declaration | sessionManageRoutes | [129](../../magpie/internal/gui/sessions_manage.go#L129) |
-| Recorded | field_declaration | sessionManageRoutes | [131](../../magpie/internal/gui/sessions_manage.go#L131) |
-| Agent | field_declaration | sessionManageRoutes | [245](../../magpie/internal/gui/sessions_manage.go#L245) |
-| IDs | field_declaration | sessionManageRoutes | [246](../../magpie/internal/gui/sessions_manage.go#L246) |
-| refused | struct_type | sessionManageRoutes | [260](../../magpie/internal/gui/sessions_manage.go#L260) |
-| ID | field_declaration | sessionManageRoutes.refused | [261](../../magpie/internal/gui/sessions_manage.go#L261) |
-| Error | field_declaration | sessionManageRoutes.refused | [262](../../magpie/internal/gui/sessions_manage.go#L262) |
-| Active | field_declaration | sessionManageRoutes.refused | [263](../../magpie/internal/gui/sessions_manage.go#L263) |
-| Deleted | field_declaration | sessionManageRoutes | [266](../../magpie/internal/gui/sessions_manage.go#L266) |
-| Refused | field_declaration | sessionManageRoutes | [267](../../magpie/internal/gui/sessions_manage.go#L267) |
-| Moves | field_declaration | sessionManageRoutes | [292](../../magpie/internal/gui/sessions_manage.go#L292) |
-| ID | field_declaration | sessionManageRoutes | [293](../../magpie/internal/gui/sessions_manage.go#L293) |
-| To | field_declaration | sessionManageRoutes | [294](../../magpie/internal/gui/sessions_manage.go#L294) |
-| refused | struct_type | sessionManageRoutes | [301](../../magpie/internal/gui/sessions_manage.go#L301) |
-| ID | field_declaration | sessionManageRoutes.refused | [302](../../magpie/internal/gui/sessions_manage.go#L302) |
-| Error | field_declaration | sessionManageRoutes.refused | [303](../../magpie/internal/gui/sessions_manage.go#L303) |
-| Active | field_declaration | sessionManageRoutes.refused | [304](../../magpie/internal/gui/sessions_manage.go#L304) |
-| Moved | field_declaration | sessionManageRoutes | [307](../../magpie/internal/gui/sessions_manage.go#L307) |
-| Refused | field_declaration | sessionManageRoutes | [308](../../magpie/internal/gui/sessions_manage.go#L308) |
-| Key | field_declaration | sessionManageRoutes | [324](../../magpie/internal/gui/sessions_manage.go#L324) |
-| Keys | field_declaration | sessionManageRoutes | [343](../../magpie/internal/gui/sessions_manage.go#L343) |
-| All | field_declaration | sessionManageRoutes | [344](../../magpie/internal/gui/sessions_manage.go#L344) |
-| refused | struct_type | sessionManageRoutes | [356](../../magpie/internal/gui/sessions_manage.go#L356) |
-| Key | field_declaration | sessionManageRoutes.refused | [357](../../magpie/internal/gui/sessions_manage.go#L357) |
-| Error | field_declaration | sessionManageRoutes.refused | [358](../../magpie/internal/gui/sessions_manage.go#L358) |
-| Purged | field_declaration | sessionManageRoutes | [361](../../magpie/internal/gui/sessions_manage.go#L361) |
-| Refused | field_declaration | sessionManageRoutes | [362](../../magpie/internal/gui/sessions_manage.go#L362) |
-| forgetStats | function_declaration |  | [377](../../magpie/internal/gui/sessions_manage.go#L377) |
-| searchHitMax | const_spec |  | [385](../../magpie/internal/gui/sessions_manage.go#L385) |
-| searchBudget | var_spec |  | [387](../../magpie/internal/gui/sessions_manage.go#L387) |
-| searchHitJSON | struct_type |  | [389](../../magpie/internal/gui/sessions_manage.go#L389) |
-| ID | field_declaration | searchHitJSON | [390](../../magpie/internal/gui/sessions_manage.go#L390) |
-| searchJSON | struct_type |  | [394](../../magpie/internal/gui/sessions_manage.go#L394) |
-| Hits | field_declaration | searchJSON | [395](../../magpie/internal/gui/sessions_manage.go#L395) |
-| Searched | field_declaration | searchJSON | [397](../../magpie/internal/gui/sessions_manage.go#L397) |
-| Total | field_declaration | searchJSON | [398](../../magpie/internal/gui/sessions_manage.go#L398) |
-| Cut | field_declaration | searchJSON | [401](../../magpie/internal/gui/sessions_manage.go#L401) |
-| Unread | field_declaration | searchJSON | [404](../../magpie/internal/gui/sessions_manage.go#L404) |
-| searchSessions | function_declaration |  | [410](../../magpie/internal/gui/sessions_manage.go#L410) |
-| job | struct_type | searchSessions | [416](../../magpie/internal/gui/sessions_manage.go#L416) |
-| s | field_declaration | searchSessions.job | [417](../../magpie/internal/gui/sessions_manage.go#L417) |
-| last | field_declaration | searchSessions.job | [418](../../magpie/internal/gui/sessions_manage.go#L418) |
-| found | struct_type | searchSessions | [444](../../magpie/internal/gui/sessions_manage.go#L444) |
-| i | field_declaration | searchSessions.found | [445](../../magpie/internal/gui/sessions_manage.go#L445) |
-| hit | field_declaration | searchSessions.found | [446](../../magpie/internal/gui/sessions_manage.go#L446) |
-| ok | field_declaration | searchSessions.found | [447](../../magpie/internal/gui/sessions_manage.go#L447) |
+| Agents | field_declaration | sessionManageRoutes | [122](../../magpie/internal/gui/sessions_manage.go#L122) |
+| Agent | field_declaration | sessionManageRoutes | [123](../../magpie/internal/gui/sessions_manage.go#L123) |
+| Sessions | field_declaration | sessionManageRoutes | [124](../../magpie/internal/gui/sessions_manage.go#L124) |
+| Terminal | field_declaration | sessionManageRoutes | [125](../../magpie/internal/gui/sessions_manage.go#L125) |
+| Trash | field_declaration | sessionManageRoutes | [126](../../magpie/internal/gui/sessions_manage.go#L126) |
+| TrashDir | field_declaration | sessionManageRoutes | [127](../../magpie/internal/gui/sessions_manage.go#L127) |
+| Home | field_declaration | sessionManageRoutes | [129](../../magpie/internal/gui/sessions_manage.go#L129) |
+| Recording | field_declaration | sessionManageRoutes | [130](../../magpie/internal/gui/sessions_manage.go#L130) |
+| Recorded | field_declaration | sessionManageRoutes | [132](../../magpie/internal/gui/sessions_manage.go#L132) |
+| Agent | field_declaration | sessionManageRoutes | [246](../../magpie/internal/gui/sessions_manage.go#L246) |
+| IDs | field_declaration | sessionManageRoutes | [247](../../magpie/internal/gui/sessions_manage.go#L247) |
+| refused | struct_type | sessionManageRoutes | [261](../../magpie/internal/gui/sessions_manage.go#L261) |
+| ID | field_declaration | sessionManageRoutes.refused | [262](../../magpie/internal/gui/sessions_manage.go#L262) |
+| Error | field_declaration | sessionManageRoutes.refused | [263](../../magpie/internal/gui/sessions_manage.go#L263) |
+| Active | field_declaration | sessionManageRoutes.refused | [264](../../magpie/internal/gui/sessions_manage.go#L264) |
+| Deleted | field_declaration | sessionManageRoutes | [267](../../magpie/internal/gui/sessions_manage.go#L267) |
+| Refused | field_declaration | sessionManageRoutes | [268](../../magpie/internal/gui/sessions_manage.go#L268) |
+| Moves | field_declaration | sessionManageRoutes | [293](../../magpie/internal/gui/sessions_manage.go#L293) |
+| ID | field_declaration | sessionManageRoutes | [294](../../magpie/internal/gui/sessions_manage.go#L294) |
+| To | field_declaration | sessionManageRoutes | [295](../../magpie/internal/gui/sessions_manage.go#L295) |
+| refused | struct_type | sessionManageRoutes | [302](../../magpie/internal/gui/sessions_manage.go#L302) |
+| ID | field_declaration | sessionManageRoutes.refused | [303](../../magpie/internal/gui/sessions_manage.go#L303) |
+| Error | field_declaration | sessionManageRoutes.refused | [304](../../magpie/internal/gui/sessions_manage.go#L304) |
+| Active | field_declaration | sessionManageRoutes.refused | [305](../../magpie/internal/gui/sessions_manage.go#L305) |
+| Moved | field_declaration | sessionManageRoutes | [308](../../magpie/internal/gui/sessions_manage.go#L308) |
+| Refused | field_declaration | sessionManageRoutes | [309](../../magpie/internal/gui/sessions_manage.go#L309) |
+| Key | field_declaration | sessionManageRoutes | [325](../../magpie/internal/gui/sessions_manage.go#L325) |
+| Keys | field_declaration | sessionManageRoutes | [344](../../magpie/internal/gui/sessions_manage.go#L344) |
+| All | field_declaration | sessionManageRoutes | [345](../../magpie/internal/gui/sessions_manage.go#L345) |
+| refused | struct_type | sessionManageRoutes | [357](../../magpie/internal/gui/sessions_manage.go#L357) |
+| Key | field_declaration | sessionManageRoutes.refused | [358](../../magpie/internal/gui/sessions_manage.go#L358) |
+| Error | field_declaration | sessionManageRoutes.refused | [359](../../magpie/internal/gui/sessions_manage.go#L359) |
+| Purged | field_declaration | sessionManageRoutes | [362](../../magpie/internal/gui/sessions_manage.go#L362) |
+| Refused | field_declaration | sessionManageRoutes | [363](../../magpie/internal/gui/sessions_manage.go#L363) |
+| forgetStats | function_declaration |  | [378](../../magpie/internal/gui/sessions_manage.go#L378) |
+| searchHitMax | const_spec |  | [386](../../magpie/internal/gui/sessions_manage.go#L386) |
+| searchBudget | var_spec |  | [388](../../magpie/internal/gui/sessions_manage.go#L388) |
+| searchHitJSON | struct_type |  | [390](../../magpie/internal/gui/sessions_manage.go#L390) |
+| ID | field_declaration | searchHitJSON | [391](../../magpie/internal/gui/sessions_manage.go#L391) |
+| searchJSON | struct_type |  | [395](../../magpie/internal/gui/sessions_manage.go#L395) |
+| Hits | field_declaration | searchJSON | [396](../../magpie/internal/gui/sessions_manage.go#L396) |
+| Searched | field_declaration | searchJSON | [398](../../magpie/internal/gui/sessions_manage.go#L398) |
+| Total | field_declaration | searchJSON | [399](../../magpie/internal/gui/sessions_manage.go#L399) |
+| Cut | field_declaration | searchJSON | [402](../../magpie/internal/gui/sessions_manage.go#L402) |
+| Unread | field_declaration | searchJSON | [405](../../magpie/internal/gui/sessions_manage.go#L405) |
+| searchSessions | function_declaration |  | [411](../../magpie/internal/gui/sessions_manage.go#L411) |
+| job | struct_type | searchSessions | [417](../../magpie/internal/gui/sessions_manage.go#L417) |
+| s | field_declaration | searchSessions.job | [418](../../magpie/internal/gui/sessions_manage.go#L418) |
+| last | field_declaration | searchSessions.job | [419](../../magpie/internal/gui/sessions_manage.go#L419) |
+| found | struct_type | searchSessions | [445](../../magpie/internal/gui/sessions_manage.go#L445) |
+| i | field_declaration | searchSessions.found | [446](../../magpie/internal/gui/sessions_manage.go#L446) |
+| hit | field_declaration | searchSessions.found | [447](../../magpie/internal/gui/sessions_manage.go#L447) |
+| ok | field_declaration | searchSessions.found | [448](../../magpie/internal/gui/sessions_manage.go#L448) |

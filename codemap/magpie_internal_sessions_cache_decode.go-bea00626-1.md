@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/cache_decode.go) · page 1/1
 
-Source SHA-256: ab174ff77ca8266507cebe5bbe6e791fee5172ab421555b2e3503bb89b94f250
+Source SHA-256: b22a9e3c81fc23e535c833e51eb846a2b9f2c5fabd2ce64a05590fa4db6e43bb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

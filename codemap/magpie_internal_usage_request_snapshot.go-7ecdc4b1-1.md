@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_snapshot.go) · page 1/1
 
-Source SHA-256: 99f77ebf0083852f1d618968028514dfca0c46ae7a035c1032dd4e4f298a00f4
+Source SHA-256: bb377f1585f648663d769a94350fa7df954dfa888263caca91b562be6745b84d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,9 +12,9 @@ Source SHA-256: 99f77ebf0083852f1d618968028514dfca0c46ae7a035c1032dd4e4f298a00f4
 | rowEncodes | var_spec |  | [33](../../magpie/internal/usage/request_snapshot.go#L33) |
 | pack | method_declaration | *rowChunk | [35](../../magpie/internal/usage/request_snapshot.go#L35) |
 | encode | method_declaration | *rowChunk | [53](../../magpie/internal/usage/request_snapshot.go#L53) |
-| unpack | method_declaration | *rowChunk | [111](../../magpie/internal/usage/request_snapshot.go#L111) |
-| keptStrings | type_spec |  | [120](../../magpie/internal/usage/request_snapshot.go#L120) |
-| of | method_declaration | keptStrings | [122](../../magpie/internal/usage/request_snapshot.go#L122) |
-| decodeMapped | function_declaration |  | [137](../../magpie/internal/usage/request_snapshot.go#L137) |
-| unpackInto | method_declaration | *rowChunk | [151](../../magpie/internal/usage/request_snapshot.go#L151) |
-| unpackReusing | method_declaration | *rowChunk | [160](../../magpie/internal/usage/request_snapshot.go#L160) |
+| unpack | method_declaration | *rowChunk | [112](../../magpie/internal/usage/request_snapshot.go#L112) |
+| keptStrings | type_spec |  | [121](../../magpie/internal/usage/request_snapshot.go#L121) |
+| of | method_declaration | keptStrings | [123](../../magpie/internal/usage/request_snapshot.go#L123) |
+| decodeMapped | function_declaration |  | [138](../../magpie/internal/usage/request_snapshot.go#L138) |
+| unpackInto | method_declaration | *rowChunk | [152](../../magpie/internal/usage/request_snapshot.go#L152) |
+| unpackReusing | method_declaration | *rowChunk | [161](../../magpie/internal/usage/request_snapshot.go#L161) |

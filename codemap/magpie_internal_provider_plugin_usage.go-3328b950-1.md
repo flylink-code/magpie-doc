@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/plugin_usage.go) · page 1/1
 
-Source SHA-256: d7974c793e880698cc5e680896a61dae459fd9a666bd785085264af90ef57ea2
+Source SHA-256: d48680211e772efe339b0f0b6443aa8e715d5610aaf41e722a092849c4cdf73a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,13 +16,13 @@ Source SHA-256: d7974c793e880698cc5e680896a61dae459fd9a666bd785085264af90ef57ea2
 | signInGone | var_spec |  | [81](../../magpie/internal/provider/plugin_usage.go#L81) |
 | pluginLoginQuota | function_declaration |  | [85](../../magpie/internal/provider/plugin_usage.go#L85) |
 | quotaOfPlugin | function_declaration |  | [131](../../magpie/internal/provider/plugin_usage.go#L131) |
-| idSet | struct_type |  | [190](../../magpie/internal/provider/plugin_usage.go#L190) |
-| ids | field_declaration | idSet | [191](../../magpie/internal/provider/plugin_usage.go#L191) |
-| bare | field_declaration | idSet | [192](../../magpie/internal/provider/plugin_usage.go#L192) |
-| idSetOf | function_declaration |  | [195](../../magpie/internal/provider/plugin_usage.go#L195) |
-| has | method_declaration | *idSet | [210](../../magpie/internal/provider/plugin_usage.go#L210) |
-| bareID | function_declaration |  | [223](../../magpie/internal/provider/plugin_usage.go#L223) |
-| pluginUsageFetches | function_declaration |  | [234](../../magpie/internal/provider/plugin_usage.go#L234) |
-| pluginUsageFetchesOf | function_declaration |  | [251](../../magpie/internal/provider/plugin_usage.go#L251) |
-| UsageAgent | method_declaration | *Account | [262](../../magpie/internal/provider/plugin_usage.go#L262) |
-| PluginAllowanceForTest | function_declaration |  | [271](../../magpie/internal/provider/plugin_usage.go#L271) |
+| idSet | struct_type |  | [197](../../magpie/internal/provider/plugin_usage.go#L197) |
+| ids | field_declaration | idSet | [198](../../magpie/internal/provider/plugin_usage.go#L198) |
+| bare | field_declaration | idSet | [199](../../magpie/internal/provider/plugin_usage.go#L199) |
+| idSetOf | function_declaration |  | [202](../../magpie/internal/provider/plugin_usage.go#L202) |
+| has | method_declaration | *idSet | [217](../../magpie/internal/provider/plugin_usage.go#L217) |
+| bareID | function_declaration |  | [230](../../magpie/internal/provider/plugin_usage.go#L230) |
+| pluginUsageFetches | function_declaration |  | [241](../../magpie/internal/provider/plugin_usage.go#L241) |
+| pluginUsageFetchesOf | function_declaration |  | [258](../../magpie/internal/provider/plugin_usage.go#L258) |
+| UsageAgent | method_declaration | *Account | [269](../../magpie/internal/provider/plugin_usage.go#L269) |
+| PluginAllowanceForTest | function_declaration |  | [278](../../magpie/internal/provider/plugin_usage.go#L278) |

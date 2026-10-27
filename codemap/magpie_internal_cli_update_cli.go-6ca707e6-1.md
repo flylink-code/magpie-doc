@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/update_cli.go) · page 1/1
 
-Source SHA-256: 2c74d6764d3f81db37bf2fe165302efbedee295ca93dbfcfc5f4e31894e994cc
+Source SHA-256: db4ab8473e1713a729f7a5862e2aa7f5b10624d9bdfc6a36833446c9bef9ff67
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,6 +14,7 @@ Source SHA-256: 2c74d6764d3f81db37bf2fe165302efbedee295ca93dbfcfc5f4e31894e994cc
 | updateEveries | var_spec |  | [26](../../magpie/internal/cli/update_cli.go#L26) |
 | updateAutoCmd | function_declaration |  | [33](../../magpie/internal/cli/update_cli.go#L33) |
 | updateMirrorCmd | function_declaration |  | [78](../../magpie/internal/cli/update_cli.go#L78) |
-| updateFlags | function_declaration |  | [107](../../magpie/internal/cli/update_cli.go#L107) |
-| updateCmd | function_declaration |  | [141](../../magpie/internal/cli/update_cli.go#L141) |
-| via | function_declaration |  | [220](../../magpie/internal/cli/update_cli.go#L220) |
+| updateChannelCmd | function_declaration |  | [109](../../magpie/internal/cli/update_cli.go#L109) |
+| updateFlags | function_declaration |  | [137](../../magpie/internal/cli/update_cli.go#L137) |
+| updateCmd | function_declaration |  | [171](../../magpie/internal/cli/update_cli.go#L171) |
+| via | function_declaration |  | [257](../../magpie/internal/cli/update_cli.go#L257) |

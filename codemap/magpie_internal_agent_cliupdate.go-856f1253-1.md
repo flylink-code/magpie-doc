@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/cliupdate.go) · page 1/1
 
-Source SHA-256: 4030cd7128b83ad208a6878aae2091607862c165a8e57babb08af5ec021067c7
+Source SHA-256: 4ccb6756c6c545c914dd93838ad0f33e38fd6909457ab8b4534b2c1fc6333d0e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -27,83 +27,83 @@ Source SHA-256: 4030cd7128b83ad208a6878aae2091607862c165a8e57babb08af5ec021067c7
 | target | field_declaration | cliSpec | [95](../../magpie/internal/agent/cliupdate.go#L95) |
 | only | field_declaration | cliSpec | [98](../../magpie/internal/agent/cliupdate.go#L98) |
 | cliSpecs | var_spec |  | [101](../../magpie/internal/agent/cliupdate.go#L101) |
-| updater | struct_type |  | [197](../../magpie/internal/agent/cliupdate.go#L197) |
-| via | field_declaration | updater | [198](../../magpie/internal/agent/cliupdate.go#L198) |
-| pkg | field_declaration | updater | [199](../../magpie/internal/agent/cliupdate.go#L199) |
-| cask | field_declaration | updater | [200](../../magpie/internal/agent/cliupdate.go#L200) |
-| brew | field_declaration | updater | [201](../../magpie/internal/agent/cliupdate.go#L201) |
-| cmd | field_declaration | updater | [202](../../magpie/internal/agent/cliupdate.go#L202) |
-| path | field_declaration | updater | [203](../../magpie/internal/agent/cliupdate.go#L203) |
-| admin | field_declaration | updater | [206](../../magpie/internal/agent/cliupdate.go#L206) |
-| prefix | field_declaration | updater | [207](../../magpie/internal/agent/cliupdate.go#L207) |
-| latest | field_declaration | updater | [209](../../magpie/internal/agent/cliupdate.go#L209) |
-| reshim | field_declaration | updater | [212](../../magpie/internal/agent/cliupdate.go#L212) |
-| shown | method_declaration | *updater | [216](../../magpie/internal/agent/cliupdate.go#L216) |
-| brewPath | var_spec |  | [226](../../magpie/internal/agent/cliupdate.go#L226) |
-| howInstalled | function_declaration |  | [230](../../magpie/internal/agent/cliupdate.go#L230) |
-| selfPath | function_declaration |  | [272](../../magpie/internal/agent/cliupdate.go#L272) |
-| fromBrew | function_declaration |  | [289](../../magpie/internal/agent/cliupdate.go#L289) |
-| brewBin | function_declaration |  | [310](../../magpie/internal/agent/cliupdate.go#L310) |
-| fromNodeModules | function_declaration |  | [334](../../magpie/internal/agent/cliupdate.go#L334) |
-| bunxNames | function_declaration |  | [407](../../magpie/internal/agent/cliupdate.go#L407) |
-| shimNames | function_declaration |  | [424](../../magpie/internal/agent/cliupdate.go#L424) |
-| exe | function_declaration |  | [436](../../magpie/internal/agent/cliupdate.go#L436) |
-| isFile | function_declaration |  | [443](../../magpie/internal/agent/cliupdate.go#L443) |
-| isDir | function_declaration |  | [444](../../magpie/internal/agent/cliupdate.go#L444) |
-| versionRe | var_spec |  | [448](../../magpie/internal/agent/cliupdate.go#L448) |
-| parseVersion | function_declaration |  | [451](../../magpie/internal/agent/cliupdate.go#L451) |
-| Newer | function_declaration |  | [460](../../magpie/internal/agent/cliupdate.go#L460) |
-| preNewer | function_declaration |  | [489](../../magpie/internal/agent/cliupdate.go#L489) |
-| memo | struct_type |  | [508](../../magpie/internal/agent/cliupdate.go#L508) |
-| mu | field_declaration | memo | [509](../../magpie/internal/agent/cliupdate.go#L509) |
-| m | field_declaration | memo | [510](../../magpie/internal/agent/cliupdate.go#L510) |
-| memoEntry | struct_type |  | [513](../../magpie/internal/agent/cliupdate.go#L513) |
-| v | field_declaration | memoEntry | [514](../../magpie/internal/agent/cliupdate.go#L514) |
-| stamp | field_declaration | memoEntry | [515](../../magpie/internal/agent/cliupdate.go#L515) |
-| until | field_declaration | memoEntry | [516](../../magpie/internal/agent/cliupdate.go#L516) |
-| ready | field_declaration | memoEntry | [517](../../magpie/internal/agent/cliupdate.go#L517) |
-| get | method_declaration | *memo | [522](../../magpie/internal/agent/cliupdate.go#L522) |
-| forget | method_declaration | *memo | [561](../../magpie/internal/agent/cliupdate.go#L561) |
-| versions | var_spec |  | [569](../../magpie/internal/agent/cliupdate.go#L569) |
-| latests | var_spec |  | [569](../../magpie/internal/agent/cliupdate.go#L569) |
-| installedVersion | function_declaration |  | [575](../../magpie/internal/agent/cliupdate.go#L575) |
-| runVersion | var_spec |  | [597](../../magpie/internal/agent/cliupdate.go#L597) |
-| latestVersion | function_declaration |  | [600](../../magpie/internal/agent/cliupdate.go#L600) |
-| npmRegistry | var_spec |  | [614](../../magpie/internal/agent/cliupdate.go#L614) |
-| npmLatest | function_declaration |  | [616](../../magpie/internal/agent/cliupdate.go#L616) |
-| Version | field_declaration | npmLatest | [629](../../magpie/internal/agent/cliupdate.go#L629) |
-| grokReleases | var_spec |  | [643](../../magpie/internal/agent/cliupdate.go#L643) |
-| grokLatest | function_declaration |  | [648](../../magpie/internal/agent/cliupdate.go#L648) |
-| channelVersion | function_declaration |  | [669](../../magpie/internal/agent/cliupdate.go#L669) |
-| brewLatest | var_spec |  | [695](../../magpie/internal/agent/cliupdate.go#L695) |
-| r | var_spec |  | [709](../../magpie/internal/agent/cliupdate.go#L709) |
-| loginPath | var_spec |  | [732](../../magpie/internal/agent/cliupdate.go#L732) |
-| offPath | function_declaration |  | [736](../../magpie/internal/agent/cliupdate.go#L736) |
-| cliBin | method_declaration | *Agent | [763](../../magpie/internal/agent/cliupdate.go#L763) |
-| CLI | method_declaration | *Agent | [799](../../magpie/internal/agent/cliupdate.go#L799) |
-| InstalledVersion | method_declaration | *Agent | [821](../../magpie/internal/agent/cliupdate.go#L821) |
-| CLIs | function_declaration |  | [832](../../magpie/internal/agent/cliupdate.go#L832) |
-| updating | var_spec |  | [866](../../magpie/internal/agent/cliupdate.go#L866) |
-| canWrite | var_spec |  | [873](../../magpie/internal/agent/cliupdate.go#L873) |
-| adminNPM | var_spec |  | [874](../../magpie/internal/agent/cliupdate.go#L874) |
-| runAdmin | var_spec |  | [879](../../magpie/internal/agent/cliupdate.go#L879) |
-| AdminError | struct_type |  | [889](../../magpie/internal/agent/cliupdate.go#L889) |
-| Agent | field_declaration | AdminError | [890](../../magpie/internal/agent/cliupdate.go#L890) |
-| Prefix | field_declaration | AdminError | [890](../../magpie/internal/agent/cliupdate.go#L890) |
-| Command | field_declaration | AdminError | [890](../../magpie/internal/agent/cliupdate.go#L890) |
-| Via | field_declaration | AdminError | [890](../../magpie/internal/agent/cliupdate.go#L890) |
-| Canceled | field_declaration | AdminError | [891](../../magpie/internal/agent/cliupdate.go#L891) |
-| Err | field_declaration | AdminError | [892](../../magpie/internal/agent/cliupdate.go#L892) |
-| Error | method_declaration | *AdminError | [895](../../magpie/internal/agent/cliupdate.go#L895) |
-| Unwrap | method_declaration | *AdminError | [911](../../magpie/internal/agent/cliupdate.go#L911) |
-| runUpdate | var_spec |  | [915](../../magpie/internal/agent/cliupdate.go#L915) |
-| updateEnv | function_declaration |  | [926](../../magpie/internal/agent/cliupdate.go#L926) |
-| updateTimeout | var_spec |  | [944](../../magpie/internal/agent/cliupdate.go#L944) |
-| UpdateCLI | method_declaration | *Agent | [948](../../magpie/internal/agent/cliupdate.go#L948) |
-| runsBroken | function_declaration |  | [1034](../../magpie/internal/agent/cliupdate.go#L1034) |
-| checkTimeout | var_spec |  | [1049](../../magpie/internal/agent/cliupdate.go#L1049) |
-| runCheck | var_spec |  | [1054](../../magpie/internal/agent/cliupdate.go#L1054) |
-| ee | var_spec |  | [1060](../../magpie/internal/agent/cliupdate.go#L1060) |
-| mendHint | function_declaration |  | [1068](../../magpie/internal/agent/cliupdate.go#L1068) |
-| ansiRe | var_spec |  | [1092](../../magpie/internal/agent/cliupdate.go#L1092) |
-| lastLines | function_declaration |  | [1096](../../magpie/internal/agent/cliupdate.go#L1096) |
+| updater | struct_type |  | [212](../../magpie/internal/agent/cliupdate.go#L212) |
+| via | field_declaration | updater | [213](../../magpie/internal/agent/cliupdate.go#L213) |
+| pkg | field_declaration | updater | [214](../../magpie/internal/agent/cliupdate.go#L214) |
+| cask | field_declaration | updater | [215](../../magpie/internal/agent/cliupdate.go#L215) |
+| brew | field_declaration | updater | [216](../../magpie/internal/agent/cliupdate.go#L216) |
+| cmd | field_declaration | updater | [217](../../magpie/internal/agent/cliupdate.go#L217) |
+| path | field_declaration | updater | [218](../../magpie/internal/agent/cliupdate.go#L218) |
+| admin | field_declaration | updater | [221](../../magpie/internal/agent/cliupdate.go#L221) |
+| prefix | field_declaration | updater | [222](../../magpie/internal/agent/cliupdate.go#L222) |
+| latest | field_declaration | updater | [224](../../magpie/internal/agent/cliupdate.go#L224) |
+| reshim | field_declaration | updater | [227](../../magpie/internal/agent/cliupdate.go#L227) |
+| shown | method_declaration | *updater | [231](../../magpie/internal/agent/cliupdate.go#L231) |
+| brewPath | var_spec |  | [241](../../magpie/internal/agent/cliupdate.go#L241) |
+| howInstalled | function_declaration |  | [245](../../magpie/internal/agent/cliupdate.go#L245) |
+| selfPath | function_declaration |  | [287](../../magpie/internal/agent/cliupdate.go#L287) |
+| fromBrew | function_declaration |  | [304](../../magpie/internal/agent/cliupdate.go#L304) |
+| brewBin | function_declaration |  | [325](../../magpie/internal/agent/cliupdate.go#L325) |
+| fromNodeModules | function_declaration |  | [349](../../magpie/internal/agent/cliupdate.go#L349) |
+| bunxNames | function_declaration |  | [422](../../magpie/internal/agent/cliupdate.go#L422) |
+| shimNames | function_declaration |  | [439](../../magpie/internal/agent/cliupdate.go#L439) |
+| exe | function_declaration |  | [451](../../magpie/internal/agent/cliupdate.go#L451) |
+| isFile | function_declaration |  | [458](../../magpie/internal/agent/cliupdate.go#L458) |
+| isDir | function_declaration |  | [459](../../magpie/internal/agent/cliupdate.go#L459) |
+| versionRe | var_spec |  | [463](../../magpie/internal/agent/cliupdate.go#L463) |
+| parseVersion | function_declaration |  | [466](../../magpie/internal/agent/cliupdate.go#L466) |
+| Newer | function_declaration |  | [475](../../magpie/internal/agent/cliupdate.go#L475) |
+| preNewer | function_declaration |  | [504](../../magpie/internal/agent/cliupdate.go#L504) |
+| memo | struct_type |  | [523](../../magpie/internal/agent/cliupdate.go#L523) |
+| mu | field_declaration | memo | [524](../../magpie/internal/agent/cliupdate.go#L524) |
+| m | field_declaration | memo | [525](../../magpie/internal/agent/cliupdate.go#L525) |
+| memoEntry | struct_type |  | [528](../../magpie/internal/agent/cliupdate.go#L528) |
+| v | field_declaration | memoEntry | [529](../../magpie/internal/agent/cliupdate.go#L529) |
+| stamp | field_declaration | memoEntry | [530](../../magpie/internal/agent/cliupdate.go#L530) |
+| until | field_declaration | memoEntry | [531](../../magpie/internal/agent/cliupdate.go#L531) |
+| ready | field_declaration | memoEntry | [532](../../magpie/internal/agent/cliupdate.go#L532) |
+| get | method_declaration | *memo | [537](../../magpie/internal/agent/cliupdate.go#L537) |
+| forget | method_declaration | *memo | [576](../../magpie/internal/agent/cliupdate.go#L576) |
+| versions | var_spec |  | [584](../../magpie/internal/agent/cliupdate.go#L584) |
+| latests | var_spec |  | [584](../../magpie/internal/agent/cliupdate.go#L584) |
+| installedVersion | function_declaration |  | [590](../../magpie/internal/agent/cliupdate.go#L590) |
+| runVersion | var_spec |  | [612](../../magpie/internal/agent/cliupdate.go#L612) |
+| latestVersion | function_declaration |  | [615](../../magpie/internal/agent/cliupdate.go#L615) |
+| npmRegistry | var_spec |  | [629](../../magpie/internal/agent/cliupdate.go#L629) |
+| npmLatest | function_declaration |  | [631](../../magpie/internal/agent/cliupdate.go#L631) |
+| Version | field_declaration | npmLatest | [644](../../magpie/internal/agent/cliupdate.go#L644) |
+| grokReleases | var_spec |  | [658](../../magpie/internal/agent/cliupdate.go#L658) |
+| grokLatest | function_declaration |  | [663](../../magpie/internal/agent/cliupdate.go#L663) |
+| channelVersion | function_declaration |  | [684](../../magpie/internal/agent/cliupdate.go#L684) |
+| brewLatest | var_spec |  | [710](../../magpie/internal/agent/cliupdate.go#L710) |
+| r | var_spec |  | [724](../../magpie/internal/agent/cliupdate.go#L724) |
+| loginPath | var_spec |  | [747](../../magpie/internal/agent/cliupdate.go#L747) |
+| offPath | function_declaration |  | [751](../../magpie/internal/agent/cliupdate.go#L751) |
+| cliBin | method_declaration | *Agent | [778](../../magpie/internal/agent/cliupdate.go#L778) |
+| CLI | method_declaration | *Agent | [814](../../magpie/internal/agent/cliupdate.go#L814) |
+| InstalledVersion | method_declaration | *Agent | [836](../../magpie/internal/agent/cliupdate.go#L836) |
+| CLIs | function_declaration |  | [847](../../magpie/internal/agent/cliupdate.go#L847) |
+| updating | var_spec |  | [881](../../magpie/internal/agent/cliupdate.go#L881) |
+| canWrite | var_spec |  | [888](../../magpie/internal/agent/cliupdate.go#L888) |
+| adminNPM | var_spec |  | [889](../../magpie/internal/agent/cliupdate.go#L889) |
+| runAdmin | var_spec |  | [894](../../magpie/internal/agent/cliupdate.go#L894) |
+| AdminError | struct_type |  | [904](../../magpie/internal/agent/cliupdate.go#L904) |
+| Agent | field_declaration | AdminError | [905](../../magpie/internal/agent/cliupdate.go#L905) |
+| Prefix | field_declaration | AdminError | [905](../../magpie/internal/agent/cliupdate.go#L905) |
+| Command | field_declaration | AdminError | [905](../../magpie/internal/agent/cliupdate.go#L905) |
+| Via | field_declaration | AdminError | [905](../../magpie/internal/agent/cliupdate.go#L905) |
+| Canceled | field_declaration | AdminError | [906](../../magpie/internal/agent/cliupdate.go#L906) |
+| Err | field_declaration | AdminError | [907](../../magpie/internal/agent/cliupdate.go#L907) |
+| Error | method_declaration | *AdminError | [910](../../magpie/internal/agent/cliupdate.go#L910) |
+| Unwrap | method_declaration | *AdminError | [926](../../magpie/internal/agent/cliupdate.go#L926) |
+| runUpdate | var_spec |  | [930](../../magpie/internal/agent/cliupdate.go#L930) |
+| updateEnv | function_declaration |  | [941](../../magpie/internal/agent/cliupdate.go#L941) |
+| updateTimeout | var_spec |  | [959](../../magpie/internal/agent/cliupdate.go#L959) |
+| UpdateCLI | method_declaration | *Agent | [963](../../magpie/internal/agent/cliupdate.go#L963) |
+| runsBroken | function_declaration |  | [1049](../../magpie/internal/agent/cliupdate.go#L1049) |
+| checkTimeout | var_spec |  | [1064](../../magpie/internal/agent/cliupdate.go#L1064) |
+| runCheck | var_spec |  | [1069](../../magpie/internal/agent/cliupdate.go#L1069) |
+| ee | var_spec |  | [1075](../../magpie/internal/agent/cliupdate.go#L1075) |
+| mendHint | function_declaration |  | [1083](../../magpie/internal/agent/cliupdate.go#L1083) |
+| ansiRe | var_spec |  | [1107](../../magpie/internal/agent/cliupdate.go#L1107) |
+| lastLines | function_declaration |  | [1111](../../magpie/internal/agent/cliupdate.go#L1111) |

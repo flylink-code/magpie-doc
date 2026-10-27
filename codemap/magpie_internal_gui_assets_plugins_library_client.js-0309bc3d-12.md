@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 12/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| c | VariableDeclaration | copyConfigButton.b | [3509](../../magpie/internal/gui/assets/plugins/library/client.js#L3509) |
-| out | VariableDeclaration | copyConfigButton.b | [3510](../../magpie/internal/gui/assets/plugins/library/client.js#L3510) |
-| e | VariableDeclaration | copyConfigButton.b | [3515](../../magpie/internal/gui/assets/plugins/library/client.js#L3515) |
-| nameBar | FunctionDeclaration |  | [3527](../../magpie/internal/gui/assets/plugins/library/client.js#L3527) |
-| f | VariableDeclaration | nameBar | [3529](../../magpie/internal/gui/assets/plugins/library/client.js#L3529) |
-| have | VariableDeclaration | nameBar | [3533](../../magpie/internal/gui/assets/plugins/library/client.js#L3533) |
-| go | VariableDeclaration | nameBar | [3534](../../magpie/internal/gui/assets/plugins/library/client.js#L3534) |
-| sync | VariableDeclaration | nameBar | [3535](../../magpie/internal/gui/assets/plugins/library/client.js#L3535) |
-| v | VariableDeclaration | nameBar.sync | [3536](../../magpie/internal/gui/assets/plugins/library/client.js#L3536) |
-| back | VariableDeclaration | nameBar | [3547](../../magpie/internal/gui/assets/plugins/library/client.js#L3547) |
-| h | VariableDeclaration | nameBar | [3550](../../magpie/internal/gui/assets/plugins/library/client.js#L3550) |
-| b | VariableDeclaration | nameBar | [3551](../../magpie/internal/gui/assets/plugins/library/client.js#L3551) |
-| makeGroup | FunctionDeclaration |  | [3560](../../magpie/internal/gui/assets/plugins/library/client.js#L3560) |
-| v | VariableDeclaration | makeGroup | [3564](../../magpie/internal/gui/assets/plugins/library/client.js#L3564) |
-| e | VariableDeclaration | makeGroup | [3572](../../magpie/internal/gui/assets/plugins/library/client.js#L3572) |
-| ungroup | FunctionDeclaration |  | [3579](../../magpie/internal/gui/assets/plugins/library/client.js#L3579) |
-| v | VariableDeclaration | ungroup | [3581](../../magpie/internal/gui/assets/plugins/library/client.js#L3581) |
-| n | VariableDeclaration | ungroup | [3583](../../magpie/internal/gui/assets/plugins/library/client.js#L3583) |
-| e | VariableDeclaration | ungroup | [3585](../../magpie/internal/gui/assets/plugins/library/client.js#L3585) |
-| renameGroup | FunctionDeclaration |  | [3592](../../magpie/internal/gui/assets/plugins/library/client.js#L3592) |
-| f | VariableDeclaration | renameGroup | [3593](../../magpie/internal/gui/assets/plugins/library/client.js#L3593) |
-| done | VariableDeclaration | renameGroup | [3597](../../magpie/internal/gui/assets/plugins/library/client.js#L3597) |
-| save | VariableDeclaration | renameGroup | [3598](../../magpie/internal/gui/assets/plugins/library/client.js#L3598) |
-| to | VariableDeclaration | renameGroup.save | [3601](../../magpie/internal/gui/assets/plugins/library/client.js#L3601) |
-| v | VariableDeclaration | renameGroup.save | [3604](../../magpie/internal/gui/assets/plugins/library/client.js#L3604) |
-| e | VariableDeclaration | renameGroup.save | [3608](../../magpie/internal/gui/assets/plugins/library/client.js#L3608) |
-| lists | VariableDeclaration |  | [3634](../../magpie/internal/gui/assets/plugins/library/client.js#L3634) |
-| listFrame | VariableDeclaration |  | [3635](../../magpie/internal/gui/assets/plugins/library/client.js#L3635) |
-| syncLists | FunctionDeclaration |  | [3636](../../magpie/internal/gui/assets/plugins/library/client.js#L3636) |
-| vp | VariableDeclaration | syncLists | [3640](../../magpie/internal/gui/assets/plugins/library/client.js#L3640) |
-| w | VariableDeclaration | syncLists | [3641](../../magpie/internal/gui/assets/plugins/library/client.js#L3641) |
-| queueLists | VariableDeclaration |  | [3646](../../magpie/internal/gui/assets/plugins/library/client.js#L3646) |
-| still | VariableDeclaration |  | [3648](../../magpie/internal/gui/assets/plugins/library/client.js#L3648) |
-| settled | VariableDeclaration |  | [3649](../../magpie/internal/gui/assets/plugins/library/client.js#L3649) |
-| w | VariableDeclaration | settled | [3649](../../magpie/internal/gui/assets/plugins/library/client.js#L3649) |
-| wireLists | FunctionDeclaration |  | [3650](../../magpie/internal/gui/assets/plugins/library/client.js#L3650) |
-| w | VariableDeclaration | wireLists | [3653](../../magpie/internal/gui/assets/plugins/library/client.js#L3653) |
-| FILL | VariableDeclaration |  | [3661](../../magpie/internal/gui/assets/plugins/library/client.js#L3661) |
-| filling | VariableDeclaration |  | [3662](../../magpie/internal/gui/assets/plugins/library/client.js#L3662) |
-| fillTask | VariableDeclaration |  | [3663](../../magpie/internal/gui/assets/plugins/library/client.js#L3663) |
-| idle | VariableDeclaration |  | [3664](../../magpie/internal/gui/assets/plugins/library/client.js#L3664) |
-| queueFill | FunctionDeclaration |  | [3667](../../magpie/internal/gui/assets/plugins/library/client.js#L3667) |
-| fillSome | FunctionDeclaration |  | [3671](../../magpie/internal/gui/assets/plugins/library/client.js#L3671) |
-| w | VariableDeclaration | fillSome | [3673](../../magpie/internal/gui/assets/plugins/library/client.js#L3673) |
-| windowed | FunctionDeclaration |  | [3682](../../magpie/internal/gui/assets/plugins/library/client.js#L3682) |
-| box | VariableDeclaration | windowed | [3683](../../magpie/internal/gui/assets/plugins/library/client.js#L3683) |
-| above | VariableDeclaration | windowed | [3684](../../magpie/internal/gui/assets/plugins/library/client.js#L3684) |
-| below | VariableDeclaration | windowed | [3684](../../magpie/internal/gui/assets/plugins/library/client.js#L3684) |
-| items | VariableDeclaration | windowed | [3686](../../magpie/internal/gui/assets/plugins/library/client.js#L3686) |
-| tops | VariableDeclaration | windowed | [3686](../../magpie/internal/gui/assets/plugins/library/client.js#L3686) |
-| from | VariableDeclaration | windowed | [3686](../../magpie/internal/gui/assets/plugins/library/client.js#L3686) |
-| to | VariableDeclaration | windowed | [3686](../../magpie/internal/gui/assets/plugins/library/client.js#L3686) |
-| live | VariableDeclaration | windowed | [3687](../../magpie/internal/gui/assets/plugins/library/client.js#L3687) |
-| w | VariableDeclaration | windowed | [3688](../../magpie/internal/gui/assets/plugins/library/client.js#L3688) |
-| at | VariableDeclaration | windowed | [3690](../../magpie/internal/gui/assets/plugins/library/client.js#L3690) |
-| lo | VariableDeclaration | windowed.at | [3691](../../magpie/internal/gui/assets/plugins/library/client.js#L3691) |
-| hi | VariableDeclaration | windowed.at | [3691](../../magpie/internal/gui/assets/plugins/library/client.js#L3691) |
-| mid | VariableDeclaration | windowed.at | [3692](../../magpie/internal/gui/assets/plugins/library/client.js#L3692) |
-| node | VariableDeclaration | windowed | [3695](../../magpie/internal/gui/assets/plugins/library/client.js#L3695) |
-| it | VariableDeclaration | windowed.node | [3696](../../magpie/internal/gui/assets/plugins/library/client.js#L3696) |
-| n | VariableDeclaration | windowed.node | [3697](../../magpie/internal/gui/assets/plugins/library/client.js#L3697) |
-| pads | VariableDeclaration | windowed | [3702](../../magpie/internal/gui/assets/plugins/library/client.js#L3702) |
-| show | FunctionDeclaration | windowed | [3708](../../magpie/internal/gui/assets/plugins/library/client.js#L3708) |
-| f | VariableDeclaration | windowed.show | [3712](../../magpie/internal/gui/assets/plugins/library/client.js#L3712) |
-| made | VariableDeclaration | windowed.show | [3713](../../magpie/internal/gui/assets/plugins/library/client.js#L3713) |
-| i | VariableDeclaration | windowed.show | [3714](../../magpie/internal/gui/assets/plugins/library/client.js#L3714) |
-| n | VariableDeclaration | windowed.show | [3714](../../magpie/internal/gui/assets/plugins/library/client.js#L3714) |
-| [k, n] | VariableDeclaration | windowed.show | [3716](../../magpie/internal/gui/assets/plugins/library/client.js#L3716) |
-| k | BindingElement | windowed.show.[k, n] | [3716](../../magpie/internal/gui/assets/plugins/library/client.js#L3716) |
-| n | BindingElement | windowed.show.[k, n] | [3716](../../magpie/internal/gui/assets/plugins/library/client.js#L3716) |
-| f | VariableDeclaration | windowed.show | [3719](../../magpie/internal/gui/assets/plugins/library/client.js#L3719) |
-| i | VariableDeclaration | windowed.show | [3720](../../magpie/internal/gui/assets/plugins/library/client.js#L3720) |
-| n | VariableDeclaration | windowed.show | [3720](../../magpie/internal/gui/assets/plugins/library/client.js#L3720) |
-| next | VariableDeclaration | windowed.show | [3724](../../magpie/internal/gui/assets/plugins/library/client.js#L3724) |
-| rows | VariableDeclaration | windowed.show | [3724](../../magpie/internal/gui/assets/plugins/library/client.js#L3724) |
+| a | VariableDeclaration | copyConfigButton.b | [3517](../../magpie/internal/gui/assets/plugins/library/client.js#L3517) |
+| c | VariableDeclaration | copyConfigButton.b | [3520](../../magpie/internal/gui/assets/plugins/library/client.js#L3520) |
+| out | VariableDeclaration | copyConfigButton.b | [3521](../../magpie/internal/gui/assets/plugins/library/client.js#L3521) |
+| e | VariableDeclaration | copyConfigButton.b | [3526](../../magpie/internal/gui/assets/plugins/library/client.js#L3526) |
+| nameBar | FunctionDeclaration |  | [3538](../../magpie/internal/gui/assets/plugins/library/client.js#L3538) |
+| f | VariableDeclaration | nameBar | [3540](../../magpie/internal/gui/assets/plugins/library/client.js#L3540) |
+| have | VariableDeclaration | nameBar | [3544](../../magpie/internal/gui/assets/plugins/library/client.js#L3544) |
+| go | VariableDeclaration | nameBar | [3545](../../magpie/internal/gui/assets/plugins/library/client.js#L3545) |
+| sync | VariableDeclaration | nameBar | [3546](../../magpie/internal/gui/assets/plugins/library/client.js#L3546) |
+| v | VariableDeclaration | nameBar.sync | [3547](../../magpie/internal/gui/assets/plugins/library/client.js#L3547) |
+| back | VariableDeclaration | nameBar | [3558](../../magpie/internal/gui/assets/plugins/library/client.js#L3558) |
+| h | VariableDeclaration | nameBar | [3561](../../magpie/internal/gui/assets/plugins/library/client.js#L3561) |
+| b | VariableDeclaration | nameBar | [3562](../../magpie/internal/gui/assets/plugins/library/client.js#L3562) |
+| makeGroup | FunctionDeclaration |  | [3571](../../magpie/internal/gui/assets/plugins/library/client.js#L3571) |
+| v | VariableDeclaration | makeGroup | [3575](../../magpie/internal/gui/assets/plugins/library/client.js#L3575) |
+| e | VariableDeclaration | makeGroup | [3583](../../magpie/internal/gui/assets/plugins/library/client.js#L3583) |
+| ungroup | FunctionDeclaration |  | [3590](../../magpie/internal/gui/assets/plugins/library/client.js#L3590) |
+| v | VariableDeclaration | ungroup | [3592](../../magpie/internal/gui/assets/plugins/library/client.js#L3592) |
+| n | VariableDeclaration | ungroup | [3594](../../magpie/internal/gui/assets/plugins/library/client.js#L3594) |
+| e | VariableDeclaration | ungroup | [3596](../../magpie/internal/gui/assets/plugins/library/client.js#L3596) |
+| renameGroup | FunctionDeclaration |  | [3603](../../magpie/internal/gui/assets/plugins/library/client.js#L3603) |
+| f | VariableDeclaration | renameGroup | [3604](../../magpie/internal/gui/assets/plugins/library/client.js#L3604) |
+| done | VariableDeclaration | renameGroup | [3608](../../magpie/internal/gui/assets/plugins/library/client.js#L3608) |
+| save | VariableDeclaration | renameGroup | [3609](../../magpie/internal/gui/assets/plugins/library/client.js#L3609) |
+| to | VariableDeclaration | renameGroup.save | [3612](../../magpie/internal/gui/assets/plugins/library/client.js#L3612) |
+| v | VariableDeclaration | renameGroup.save | [3615](../../magpie/internal/gui/assets/plugins/library/client.js#L3615) |
+| e | VariableDeclaration | renameGroup.save | [3619](../../magpie/internal/gui/assets/plugins/library/client.js#L3619) |
+| lists | VariableDeclaration |  | [3645](../../magpie/internal/gui/assets/plugins/library/client.js#L3645) |
+| listFrame | VariableDeclaration |  | [3646](../../magpie/internal/gui/assets/plugins/library/client.js#L3646) |
+| syncLists | FunctionDeclaration |  | [3647](../../magpie/internal/gui/assets/plugins/library/client.js#L3647) |
+| vp | VariableDeclaration | syncLists | [3651](../../magpie/internal/gui/assets/plugins/library/client.js#L3651) |
+| w | VariableDeclaration | syncLists | [3652](../../magpie/internal/gui/assets/plugins/library/client.js#L3652) |
+| queueLists | VariableDeclaration |  | [3657](../../magpie/internal/gui/assets/plugins/library/client.js#L3657) |
+| still | VariableDeclaration |  | [3659](../../magpie/internal/gui/assets/plugins/library/client.js#L3659) |
+| settled | VariableDeclaration |  | [3660](../../magpie/internal/gui/assets/plugins/library/client.js#L3660) |
+| w | VariableDeclaration | settled | [3660](../../magpie/internal/gui/assets/plugins/library/client.js#L3660) |
+| wireLists | FunctionDeclaration |  | [3661](../../magpie/internal/gui/assets/plugins/library/client.js#L3661) |
+| w | VariableDeclaration | wireLists | [3664](../../magpie/internal/gui/assets/plugins/library/client.js#L3664) |
+| FILL | VariableDeclaration |  | [3672](../../magpie/internal/gui/assets/plugins/library/client.js#L3672) |
+| filling | VariableDeclaration |  | [3673](../../magpie/internal/gui/assets/plugins/library/client.js#L3673) |
+| fillTask | VariableDeclaration |  | [3674](../../magpie/internal/gui/assets/plugins/library/client.js#L3674) |
+| idle | VariableDeclaration |  | [3675](../../magpie/internal/gui/assets/plugins/library/client.js#L3675) |
+| queueFill | FunctionDeclaration |  | [3678](../../magpie/internal/gui/assets/plugins/library/client.js#L3678) |
+| fillSome | FunctionDeclaration |  | [3682](../../magpie/internal/gui/assets/plugins/library/client.js#L3682) |
+| w | VariableDeclaration | fillSome | [3684](../../magpie/internal/gui/assets/plugins/library/client.js#L3684) |
+| windowed | FunctionDeclaration |  | [3693](../../magpie/internal/gui/assets/plugins/library/client.js#L3693) |
+| box | VariableDeclaration | windowed | [3694](../../magpie/internal/gui/assets/plugins/library/client.js#L3694) |
+| above | VariableDeclaration | windowed | [3695](../../magpie/internal/gui/assets/plugins/library/client.js#L3695) |
+| below | VariableDeclaration | windowed | [3695](../../magpie/internal/gui/assets/plugins/library/client.js#L3695) |
+| items | VariableDeclaration | windowed | [3697](../../magpie/internal/gui/assets/plugins/library/client.js#L3697) |
+| tops | VariableDeclaration | windowed | [3697](../../magpie/internal/gui/assets/plugins/library/client.js#L3697) |
+| from | VariableDeclaration | windowed | [3697](../../magpie/internal/gui/assets/plugins/library/client.js#L3697) |
+| to | VariableDeclaration | windowed | [3697](../../magpie/internal/gui/assets/plugins/library/client.js#L3697) |
+| live | VariableDeclaration | windowed | [3698](../../magpie/internal/gui/assets/plugins/library/client.js#L3698) |
+| w | VariableDeclaration | windowed | [3699](../../magpie/internal/gui/assets/plugins/library/client.js#L3699) |
+| at | VariableDeclaration | windowed | [3701](../../magpie/internal/gui/assets/plugins/library/client.js#L3701) |
+| lo | VariableDeclaration | windowed.at | [3702](../../magpie/internal/gui/assets/plugins/library/client.js#L3702) |
+| hi | VariableDeclaration | windowed.at | [3702](../../magpie/internal/gui/assets/plugins/library/client.js#L3702) |
+| mid | VariableDeclaration | windowed.at | [3703](../../magpie/internal/gui/assets/plugins/library/client.js#L3703) |
+| node | VariableDeclaration | windowed | [3706](../../magpie/internal/gui/assets/plugins/library/client.js#L3706) |
+| it | VariableDeclaration | windowed.node | [3707](../../magpie/internal/gui/assets/plugins/library/client.js#L3707) |
+| n | VariableDeclaration | windowed.node | [3708](../../magpie/internal/gui/assets/plugins/library/client.js#L3708) |
+| pads | VariableDeclaration | windowed | [3713](../../magpie/internal/gui/assets/plugins/library/client.js#L3713) |
+| show | FunctionDeclaration | windowed | [3719](../../magpie/internal/gui/assets/plugins/library/client.js#L3719) |
+| f | VariableDeclaration | windowed.show | [3723](../../magpie/internal/gui/assets/plugins/library/client.js#L3723) |
+| made | VariableDeclaration | windowed.show | [3724](../../magpie/internal/gui/assets/plugins/library/client.js#L3724) |
 | i | VariableDeclaration | windowed.show | [3725](../../magpie/internal/gui/assets/plugins/library/client.js#L3725) |
 | n | VariableDeclaration | windowed.show | [3725](../../magpie/internal/gui/assets/plugins/library/client.js#L3725) |
-| [k, n] | VariableDeclaration | windowed.show | [3726](../../magpie/internal/gui/assets/plugins/library/client.js#L3726) |
-| k | BindingElement | windowed.show.[k, n] | [3726](../../magpie/internal/gui/assets/plugins/library/client.js#L3726) |
-| n | BindingElement | windowed.show.[k, n] | [3726](../../magpie/internal/gui/assets/plugins/library/client.js#L3726) |
-| prev | VariableDeclaration | windowed.show | [3729](../../magpie/internal/gui/assets/plugins/library/client.js#L3729) |
-| n | VariableDeclaration | windowed.show | [3730](../../magpie/internal/gui/assets/plugins/library/client.js#L3730) |
-| b | VariableDeclaration | windowed | [3741](../../magpie/internal/gui/assets/plugins/library/client.js#L3741) |
-| it | VariableDeclaration | windowed | [3747](../../magpie/internal/gui/assets/plugins/library/client.js#L3747) |
-| r | VariableDeclaration | windowed | [3756](../../magpie/internal/gui/assets/plugins/library/client.js#L3756) |
-| total | VariableDeclaration | windowed | [3757](../../magpie/internal/gui/assets/plugins/library/client.js#L3757) |
-| k | VariableDeclaration | windowed | [3759](../../magpie/internal/gui/assets/plugins/library/client.js#L3759) |
-| view | VariableDeclaration | windowed | [3760](../../magpie/internal/gui/assets/plugins/library/client.js#L3760) |
-| top | VariableDeclaration | windowed | [3761](../../magpie/internal/gui/assets/plugins/library/client.js#L3761) |
-| bottom | VariableDeclaration | windowed | [3761](../../magpie/internal/gui/assets/plugins/library/client.js#L3761) |
-| a | VariableDeclaration | windowed | [3763](../../magpie/internal/gui/assets/plugins/library/client.js#L3763) |
-| b | VariableDeclaration | windowed | [3764](../../magpie/internal/gui/assets/plugins/library/client.js#L3764) |
-| addingProject | VariableDeclaration |  | [3782](../../magpie/internal/gui/assets/plugins/library/client.js#L3782) |
-| openProjects | VariableDeclaration |  | [3783](../../magpie/internal/gui/assets/plugins/library/client.js#L3783) |
-| projectAgents | VariableDeclaration |  | [3784](../../magpie/internal/gui/assets/plugins/library/client.js#L3784) |
-| projectMCPAgents | VariableDeclaration |  | [3787](../../magpie/internal/gui/assets/plugins/library/client.js#L3787) |
-| projectFiles | VariableDeclaration |  | [3788](../../magpie/internal/gui/assets/plugins/library/client.js#L3788) |
-| renderProjects | FunctionDeclaration |  | [3790](../../magpie/internal/gui/assets/plugins/library/client.js#L3790) |
-| rh | VariableDeclaration | renderProjects | [3791](../../magpie/internal/gui/assets/plugins/library/client.js#L3791) |
-| p | VariableDeclaration | renderProjects | [3802](../../magpie/internal/gui/assets/plugins/library/client.js#L3802) |
+| [k, n] | VariableDeclaration | windowed.show | [3727](../../magpie/internal/gui/assets/plugins/library/client.js#L3727) |
+| k | BindingElement | windowed.show.[k, n] | [3727](../../magpie/internal/gui/assets/plugins/library/client.js#L3727) |
+| n | BindingElement | windowed.show.[k, n] | [3727](../../magpie/internal/gui/assets/plugins/library/client.js#L3727) |
+| f | VariableDeclaration | windowed.show | [3730](../../magpie/internal/gui/assets/plugins/library/client.js#L3730) |
+| i | VariableDeclaration | windowed.show | [3731](../../magpie/internal/gui/assets/plugins/library/client.js#L3731) |
+| n | VariableDeclaration | windowed.show | [3731](../../magpie/internal/gui/assets/plugins/library/client.js#L3731) |
+| next | VariableDeclaration | windowed.show | [3735](../../magpie/internal/gui/assets/plugins/library/client.js#L3735) |
+| rows | VariableDeclaration | windowed.show | [3735](../../magpie/internal/gui/assets/plugins/library/client.js#L3735) |
+| i | VariableDeclaration | windowed.show | [3736](../../magpie/internal/gui/assets/plugins/library/client.js#L3736) |
+| n | VariableDeclaration | windowed.show | [3736](../../magpie/internal/gui/assets/plugins/library/client.js#L3736) |
+| [k, n] | VariableDeclaration | windowed.show | [3737](../../magpie/internal/gui/assets/plugins/library/client.js#L3737) |
+| k | BindingElement | windowed.show.[k, n] | [3737](../../magpie/internal/gui/assets/plugins/library/client.js#L3737) |
+| n | BindingElement | windowed.show.[k, n] | [3737](../../magpie/internal/gui/assets/plugins/library/client.js#L3737) |
+| prev | VariableDeclaration | windowed.show | [3740](../../magpie/internal/gui/assets/plugins/library/client.js#L3740) |
+| n | VariableDeclaration | windowed.show | [3741](../../magpie/internal/gui/assets/plugins/library/client.js#L3741) |
+| b | VariableDeclaration | windowed | [3752](../../magpie/internal/gui/assets/plugins/library/client.js#L3752) |
+| it | VariableDeclaration | windowed | [3758](../../magpie/internal/gui/assets/plugins/library/client.js#L3758) |
+| r | VariableDeclaration | windowed | [3767](../../magpie/internal/gui/assets/plugins/library/client.js#L3767) |
+| total | VariableDeclaration | windowed | [3768](../../magpie/internal/gui/assets/plugins/library/client.js#L3768) |
+| k | VariableDeclaration | windowed | [3770](../../magpie/internal/gui/assets/plugins/library/client.js#L3770) |
+| view | VariableDeclaration | windowed | [3771](../../magpie/internal/gui/assets/plugins/library/client.js#L3771) |
+| top | VariableDeclaration | windowed | [3772](../../magpie/internal/gui/assets/plugins/library/client.js#L3772) |
+| bottom | VariableDeclaration | windowed | [3772](../../magpie/internal/gui/assets/plugins/library/client.js#L3772) |
+| a | VariableDeclaration | windowed | [3774](../../magpie/internal/gui/assets/plugins/library/client.js#L3774) |
+| b | VariableDeclaration | windowed | [3775](../../magpie/internal/gui/assets/plugins/library/client.js#L3775) |
+| addingProject | VariableDeclaration |  | [3793](../../magpie/internal/gui/assets/plugins/library/client.js#L3793) |
+| openProjects | VariableDeclaration |  | [3794](../../magpie/internal/gui/assets/plugins/library/client.js#L3794) |
+| projectAgents | VariableDeclaration |  | [3795](../../magpie/internal/gui/assets/plugins/library/client.js#L3795) |
+| projectMCPAgents | VariableDeclaration |  | [3798](../../magpie/internal/gui/assets/plugins/library/client.js#L3798) |
+| projectFiles | VariableDeclaration |  | [3799](../../magpie/internal/gui/assets/plugins/library/client.js#L3799) |
+| renderProjects | FunctionDeclaration |  | [3801](../../magpie/internal/gui/assets/plugins/library/client.js#L3801) |
+| rh | VariableDeclaration | renderProjects | [3802](../../magpie/internal/gui/assets/plugins/library/client.js#L3802) |

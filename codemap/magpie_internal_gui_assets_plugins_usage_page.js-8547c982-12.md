@@ -4,106 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 12/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| w | VariableDeclaration | renderSessTools | [3326](../../magpie/internal/gui/assets/plugins/usage/page.js#L3326) |
-| bar | VariableDeclaration | renderSessTools | [3327](../../magpie/internal/gui/assets/plugins/usage/page.js#L3327) |
-| n | VariableDeclaration | renderSessTools | [3328](../../magpie/internal/gui/assets/plugins/usage/page.js#L3328) |
-| stack | VariableDeclaration | renderSessTools | [3330](../../magpie/internal/gui/assets/plugins/usage/page.js#L3330) |
-| c | VariableDeclaration | renderSessTools | [3332](../../magpie/internal/gui/assets/plugins/usage/page.js#L3332) |
-| part | VariableDeclaration | renderSessTools | [3334](../../magpie/internal/gui/assets/plugins/usage/page.js#L3334) |
-| labels | VariableDeclaration | renderSessTools | [3342](../../magpie/internal/gui/assets/plugins/usage/page.js#L3342) |
-| renderSessSkills | FunctionDeclaration |  | [3351](../../magpie/internal/gui/assets/plugins/usage/page.js#L3351) |
-| box | VariableDeclaration | renderSessSkills | [3352](../../magpie/internal/gui/assets/plugins/usage/page.js#L3352) |
-| su | VariableDeclaration | renderSessSkills | [3353](../../magpie/internal/gui/assets/plugins/usage/page.js#L3353) |
-| head | VariableDeclaration | renderSessSkills | [3356](../../magpie/internal/gui/assets/plugins/usage/page.js#L3356) |
-| names | VariableDeclaration | renderSessSkills | [3361](../../magpie/internal/gui/assets/plugins/usage/page.js#L3361) |
-| peak | VariableDeclaration | renderSessSkills | [3362](../../magpie/internal/gui/assets/plugins/usage/page.js#L3362) |
-| body | VariableDeclaration | renderSessSkills | [3363](../../magpie/internal/gui/assets/plugins/usage/page.js#L3363) |
-| x | VariableDeclaration | renderSessSkills | [3364](../../magpie/internal/gui/assets/plugins/usage/page.js#L3364) |
-| r | VariableDeclaration | renderSessSkills | [3365](../../magpie/internal/gui/assets/plugins/usage/page.js#L3365) |
-| line | VariableDeclaration | renderSessSkills | [3366](../../magpie/internal/gui/assets/plugins/usage/page.js#L3366) |
-| track | VariableDeclaration | renderSessSkills | [3367](../../magpie/internal/gui/assets/plugins/usage/page.js#L3367) |
-| fill | VariableDeclaration | renderSessSkills | [3368](../../magpie/internal/gui/assets/plugins/usage/page.js#L3368) |
-| agents | VariableDeclaration | renderSessSkills | [3372](../../magpie/internal/gui/assets/plugins/usage/page.js#L3372) |
-| share | VariableDeclaration | renderSessSkills | [3373](../../magpie/internal/gui/assets/plugins/usage/page.js#L3373) |
-| a | BindingElement | renderSessSkills.share | [3373](../../magpie/internal/gui/assets/plugins/usage/page.js#L3373) |
-| c | BindingElement | renderSessSkills.share | [3373](../../magpie/internal/gui/assets/plugins/usage/page.js#L3373) |
-| where | VariableDeclaration | renderSessSkills | [3374](../../magpie/internal/gui/assets/plugins/usage/page.js#L3374) |
-| sub | VariableDeclaration | renderSessSkills | [3375](../../magpie/internal/gui/assets/plugins/usage/page.js#L3375) |
-| SESS_BARS | VariableDeclaration |  | [3387](../../magpie/internal/gui/assets/plugins/usage/page.js#L3387) |
-| sessBars | FunctionDeclaration |  | [3388](../../magpie/internal/gui/assets/plugins/usage/page.js#L3388) |
-| body | VariableDeclaration | sessBars | [3391](../../magpie/internal/gui/assets/plugins/usage/page.js#L3391) |
-| shown | VariableDeclaration | sessBars | [3392](../../magpie/internal/gui/assets/plugins/usage/page.js#L3392) |
-| picked | VariableDeclaration | sessBars | [3393](../../magpie/internal/gui/assets/plugins/usage/page.js#L3393) |
-| peak | VariableDeclaration | sessBars | [3395](../../magpie/internal/gui/assets/plugins/usage/page.js#L3395) |
-| x | VariableDeclaration | sessBars | [3396](../../magpie/internal/gui/assets/plugins/usage/page.js#L3396) |
-| r | VariableDeclaration | sessBars | [3397](../../magpie/internal/gui/assets/plugins/usage/page.js#L3397) |
-| track | VariableDeclaration | sessBars | [3400](../../magpie/internal/gui/assets/plugins/usage/page.js#L3400) |
-| fill | VariableDeclaration | sessBars | [3401](../../magpie/internal/gui/assets/plugins/usage/page.js#L3401) |
-| fc | VariableDeclaration | sessBars | [3404](../../magpie/internal/gui/assets/plugins/usage/page.js#L3404) |
-| sessSpent | FunctionDeclaration |  | [3416](../../magpie/internal/gui/assets/plugins/usage/page.js#L3416) |
-| tokens | VariableDeclaration | sessSpent | [3417](../../magpie/internal/gui/assets/plugins/usage/page.js#L3417) |
-| num | VariableDeclaration | sessSpent | [3418](../../magpie/internal/gui/assets/plugins/usage/page.js#L3418) |
-| sc | VariableDeclaration | sessSpent | [3421](../../magpie/internal/gui/assets/plugins/usage/page.js#L3421) |
-| cost | VariableDeclaration | sessSpent | [3422](../../magpie/internal/gui/assets/plugins/usage/page.js#L3422) |
-| sessionItem | FunctionDeclaration |  | [3435](../../magpie/internal/gui/assets/plugins/usage/page.js#L3435) |
-| item | VariableDeclaration | sessionItem | [3436](../../magpie/internal/gui/assets/plugins/usage/page.js#L3436) |
-| r | VariableDeclaration | sessionItem | [3438](../../magpie/internal/gui/assets/plugins/usage/page.js#L3438) |
-| key | VariableDeclaration | sessionItem | [3439](../../magpie/internal/gui/assets/plugins/usage/page.js#L3439) |
-| here | VariableDeclaration | sessionItem | [3440](../../magpie/internal/gui/assets/plugins/usage/page.js#L3440) |
-| unfolded | VariableDeclaration | sessionItem | [3441](../../magpie/internal/gui/assets/plugins/usage/page.js#L3441) |
-| who | VariableDeclaration | sessionItem | [3451](../../magpie/internal/gui/assets/plugins/usage/page.js#L3451) |
-| sub | VariableDeclaration | sessionItem | [3453](../../magpie/internal/gui/assets/plugins/usage/page.js#L3453) |
-| go | VariableDeclaration | sessionItem | [3458](../../magpie/internal/gui/assets/plugins/usage/page.js#L3458) |
-| open | VariableDeclaration | sessionItem | [3462](../../magpie/internal/gui/assets/plugins/usage/page.js#L3462) |
-| o | VariableDeclaration | sessionItem.open | [3468](../../magpie/internal/gui/assets/plugins/usage/page.js#L3468) |
-| next | VariableDeclaration | sessionItem.open | [3469](../../magpie/internal/gui/assets/plugins/usage/page.js#L3469) |
-| sessionDetail | FunctionDeclaration |  | [3483](../../magpie/internal/gui/assets/plugins/usage/page.js#L3483) |
-| d | VariableDeclaration | sessionDetail | [3484](../../magpie/internal/gui/assets/plugins/usage/page.js#L3484) |
-| line | VariableDeclaration | sessionDetail | [3485](../../magpie/internal/gui/assets/plugins/usage/page.js#L3485) |
-| l | VariableDeclaration | sessionDetail.line | [3486](../../magpie/internal/gui/assets/plugins/usage/page.js#L3486) |
-| v | VariableDeclaration | sessionDetail.line | [3488](../../magpie/internal/gui/assets/plugins/usage/page.js#L3488) |
-| code | VariableDeclaration | sessionDetail | [3498](../../magpie/internal/gui/assets/plugins/usage/page.js#L3498) |
-| l | VariableDeclaration | sessionDetail | [3499](../../magpie/internal/gui/assets/plugins/usage/page.js#L3499) |
-| USAGE_EVERY | VariableDeclaration |  | [3524](../../magpie/internal/gui/assets/plugins/usage/page.js#L3524) |
-| usageEvery | VariableDeclaration |  | [3525](../../magpie/internal/gui/assets/plugins/usage/page.js#L3525) |
-| v | VariableDeclaration |  | [3527](../../magpie/internal/gui/assets/plugins/usage/page.js#L3527) |
-| n | BindingElement |  | [3528](../../magpie/internal/gui/assets/plugins/usage/page.js#L3528) |
-| usageLast | VariableDeclaration |  | [3530](../../magpie/internal/gui/assets/plugins/usage/page.js#L3530) |
-| usageReadAt | VariableDeclaration |  | [3530](../../magpie/internal/gui/assets/plugins/usage/page.js#L3530) |
-| sessionsAt | VariableDeclaration |  | [3530](../../magpie/internal/gui/assets/plugins/usage/page.js#L3530) |
-| quotasAsked | VariableDeclaration |  | [3530](../../magpie/internal/gui/assets/plugins/usage/page.js#L3530) |
-| renderUsageEvery | FunctionDeclaration |  | [3532](../../magpie/internal/gui/assets/plugins/usage/page.js#L3532) |
-| cur | VariableDeclaration | renderUsageEvery | [3533](../../magpie/internal/gui/assets/plugins/usage/page.js#L3533) |
-| n | BindingElement | renderUsageEvery.cur | [3533](../../magpie/internal/gui/assets/plugins/usage/page.js#L3533) |
-| b | VariableDeclaration | renderUsageEvery | [3534](../../magpie/internal/gui/assets/plugins/usage/page.js#L3534) |
-| n | BindingElement | renderUsageEvery | [3540](../../magpie/internal/gui/assets/plugins/usage/page.js#L3540) |
-| name | BindingElement | renderUsageEvery | [3540](../../magpie/internal/gui/assets/plugins/usage/page.js#L3540) |
-| r | VariableDeclaration | renderUsageEvery | [3547](../../magpie/internal/gui/assets/plugins/usage/page.js#L3547) |
-| what | VariableDeclaration | renderUsageEvery | [3550](../../magpie/internal/gui/assets/plugins/usage/page.js#L3550) |
-| usageFlight | VariableDeclaration |  | [3566](../../magpie/internal/gui/assets/plugins/usage/page.js#L3566) |
-| usageQueued | VariableDeclaration |  | [3566](../../magpie/internal/gui/assets/plugins/usage/page.js#L3566) |
-| usageQueuedNow | VariableDeclaration |  | [3566](../../magpie/internal/gui/assets/plugins/usage/page.js#L3566) |
-| usageDrawn | FunctionDeclaration |  | [3569](../../magpie/internal/gui/assets/plugins/usage/page.js#L3569) |
-| refreshUsage | FunctionDeclaration |  | [3575](../../magpie/internal/gui/assets/plugins/usage/page.js#L3575) |
-| run | VariableDeclaration | refreshUsage | [3582](../../magpie/internal/gui/assets/plugins/usage/page.js#L3582) |
-| q | VariableDeclaration | refreshUsage.run | [3594](../../magpie/internal/gui/assets/plugins/usage/page.js#L3594) |
-| p | VariableDeclaration | refreshUsage.run | [3598](../../magpie/internal/gui/assets/plugins/usage/page.js#L3598) |
-| read | VariableDeclaration | refreshUsage.run | [3598](../../magpie/internal/gui/assets/plugins/usage/page.js#L3598) |
-| u | VariableDeclaration | refreshUsage.run | [3599](../../magpie/internal/gui/assets/plugins/usage/page.js#L3599) |
-| flight | VariableDeclaration | refreshUsage | [3613](../../magpie/internal/gui/assets/plugins/usage/page.js#L3613) |
-| want | VariableDeclaration | refreshUsage.flight | [3617](../../magpie/internal/gui/assets/plugins/usage/page.js#L3617) |
-| usageSecond | VariableDeclaration |  | [3629](../../magpie/internal/gui/assets/plugins/usage/page.js#L3629) |
-| usageTicks | FunctionDeclaration |  | [3630](../../magpie/internal/gui/assets/plugins/usage/page.js#L3630) |
-| tab | VariableDeclaration |  | [3645](../../magpie/internal/gui/assets/plugins/usage/page.js#L3645) |
-| per | VariableDeclaration |  | [3648](../../magpie/internal/gui/assets/plugins/usage/page.js#L3648) |
-| id | BindingElement |  | [3649](../../magpie/internal/gui/assets/plugins/usage/page.js#L3649) |
-| v | VariableDeclaration |  | [3656](../../magpie/internal/gui/assets/plugins/usage/page.js#L3656) |
-| [k, x] | VariableDeclaration |  | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
-| k | BindingElement | [k, x] | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
-| x | BindingElement | [k, x] | [3659](../../magpie/internal/gui/assets/plugins/usage/page.js#L3659) |
-| u | VariableDeclaration |  | [3660](../../magpie/internal/gui/assets/plugins/usage/page.js#L3660) |
-| k | VariableDeclaration |  | [3661](../../magpie/internal/gui/assets/plugins/usage/page.js#L3661) |
+| bars | VariableDeclaration | renderSessTools | [3330](../../magpie/internal/gui/assets/plugins/usage/page.js#L3330) |
+| w | VariableDeclaration | renderSessTools | [3331](../../magpie/internal/gui/assets/plugins/usage/page.js#L3331) |
+| bar | VariableDeclaration | renderSessTools | [3332](../../magpie/internal/gui/assets/plugins/usage/page.js#L3332) |
+| n | VariableDeclaration | renderSessTools | [3333](../../magpie/internal/gui/assets/plugins/usage/page.js#L3333) |
+| stack | VariableDeclaration | renderSessTools | [3335](../../magpie/internal/gui/assets/plugins/usage/page.js#L3335) |
+| c | VariableDeclaration | renderSessTools | [3337](../../magpie/internal/gui/assets/plugins/usage/page.js#L3337) |
+| part | VariableDeclaration | renderSessTools | [3339](../../magpie/internal/gui/assets/plugins/usage/page.js#L3339) |
+| labels | VariableDeclaration | renderSessTools | [3347](../../magpie/internal/gui/assets/plugins/usage/page.js#L3347) |
+| renderSessSkills | FunctionDeclaration |  | [3356](../../magpie/internal/gui/assets/plugins/usage/page.js#L3356) |
+| box | VariableDeclaration | renderSessSkills | [3357](../../magpie/internal/gui/assets/plugins/usage/page.js#L3357) |
+| su | VariableDeclaration | renderSessSkills | [3358](../../magpie/internal/gui/assets/plugins/usage/page.js#L3358) |
+| head | VariableDeclaration | renderSessSkills | [3361](../../magpie/internal/gui/assets/plugins/usage/page.js#L3361) |
+| names | VariableDeclaration | renderSessSkills | [3366](../../magpie/internal/gui/assets/plugins/usage/page.js#L3366) |
+| peak | VariableDeclaration | renderSessSkills | [3367](../../magpie/internal/gui/assets/plugins/usage/page.js#L3367) |
+| body | VariableDeclaration | renderSessSkills | [3368](../../magpie/internal/gui/assets/plugins/usage/page.js#L3368) |
+| x | VariableDeclaration | renderSessSkills | [3369](../../magpie/internal/gui/assets/plugins/usage/page.js#L3369) |
+| r | VariableDeclaration | renderSessSkills | [3370](../../magpie/internal/gui/assets/plugins/usage/page.js#L3370) |
+| line | VariableDeclaration | renderSessSkills | [3371](../../magpie/internal/gui/assets/plugins/usage/page.js#L3371) |
+| track | VariableDeclaration | renderSessSkills | [3372](../../magpie/internal/gui/assets/plugins/usage/page.js#L3372) |
+| fill | VariableDeclaration | renderSessSkills | [3373](../../magpie/internal/gui/assets/plugins/usage/page.js#L3373) |
+| agents | VariableDeclaration | renderSessSkills | [3377](../../magpie/internal/gui/assets/plugins/usage/page.js#L3377) |
+| share | VariableDeclaration | renderSessSkills | [3378](../../magpie/internal/gui/assets/plugins/usage/page.js#L3378) |
+| a | BindingElement | renderSessSkills.share | [3378](../../magpie/internal/gui/assets/plugins/usage/page.js#L3378) |
+| c | BindingElement | renderSessSkills.share | [3378](../../magpie/internal/gui/assets/plugins/usage/page.js#L3378) |
+| where | VariableDeclaration | renderSessSkills | [3379](../../magpie/internal/gui/assets/plugins/usage/page.js#L3379) |
+| sub | VariableDeclaration | renderSessSkills | [3380](../../magpie/internal/gui/assets/plugins/usage/page.js#L3380) |
+| SESS_BARS | VariableDeclaration |  | [3392](../../magpie/internal/gui/assets/plugins/usage/page.js#L3392) |
+| sessBars | FunctionDeclaration |  | [3393](../../magpie/internal/gui/assets/plugins/usage/page.js#L3393) |
+| body | VariableDeclaration | sessBars | [3396](../../magpie/internal/gui/assets/plugins/usage/page.js#L3396) |
+| shown | VariableDeclaration | sessBars | [3397](../../magpie/internal/gui/assets/plugins/usage/page.js#L3397) |
+| picked | VariableDeclaration | sessBars | [3398](../../magpie/internal/gui/assets/plugins/usage/page.js#L3398) |
+| peak | VariableDeclaration | sessBars | [3400](../../magpie/internal/gui/assets/plugins/usage/page.js#L3400) |
+| x | VariableDeclaration | sessBars | [3401](../../magpie/internal/gui/assets/plugins/usage/page.js#L3401) |
+| r | VariableDeclaration | sessBars | [3402](../../magpie/internal/gui/assets/plugins/usage/page.js#L3402) |
+| track | VariableDeclaration | sessBars | [3405](../../magpie/internal/gui/assets/plugins/usage/page.js#L3405) |
+| fill | VariableDeclaration | sessBars | [3406](../../magpie/internal/gui/assets/plugins/usage/page.js#L3406) |
+| fc | VariableDeclaration | sessBars | [3409](../../magpie/internal/gui/assets/plugins/usage/page.js#L3409) |
+| sessSpent | FunctionDeclaration |  | [3421](../../magpie/internal/gui/assets/plugins/usage/page.js#L3421) |
+| tokens | VariableDeclaration | sessSpent | [3422](../../magpie/internal/gui/assets/plugins/usage/page.js#L3422) |
+| num | VariableDeclaration | sessSpent | [3423](../../magpie/internal/gui/assets/plugins/usage/page.js#L3423) |
+| sc | VariableDeclaration | sessSpent | [3426](../../magpie/internal/gui/assets/plugins/usage/page.js#L3426) |
+| cost | VariableDeclaration | sessSpent | [3427](../../magpie/internal/gui/assets/plugins/usage/page.js#L3427) |
+| sessionItem | FunctionDeclaration |  | [3440](../../magpie/internal/gui/assets/plugins/usage/page.js#L3440) |
+| item | VariableDeclaration | sessionItem | [3441](../../magpie/internal/gui/assets/plugins/usage/page.js#L3441) |
+| r | VariableDeclaration | sessionItem | [3443](../../magpie/internal/gui/assets/plugins/usage/page.js#L3443) |
+| key | VariableDeclaration | sessionItem | [3444](../../magpie/internal/gui/assets/plugins/usage/page.js#L3444) |
+| here | VariableDeclaration | sessionItem | [3445](../../magpie/internal/gui/assets/plugins/usage/page.js#L3445) |
+| unfolded | VariableDeclaration | sessionItem | [3446](../../magpie/internal/gui/assets/plugins/usage/page.js#L3446) |
+| who | VariableDeclaration | sessionItem | [3456](../../magpie/internal/gui/assets/plugins/usage/page.js#L3456) |
+| sub | VariableDeclaration | sessionItem | [3458](../../magpie/internal/gui/assets/plugins/usage/page.js#L3458) |
+| go | VariableDeclaration | sessionItem | [3463](../../magpie/internal/gui/assets/plugins/usage/page.js#L3463) |
+| open | VariableDeclaration | sessionItem | [3467](../../magpie/internal/gui/assets/plugins/usage/page.js#L3467) |
+| o | VariableDeclaration | sessionItem.open | [3473](../../magpie/internal/gui/assets/plugins/usage/page.js#L3473) |
+| next | VariableDeclaration | sessionItem.open | [3474](../../magpie/internal/gui/assets/plugins/usage/page.js#L3474) |
+| sessionDetail | FunctionDeclaration |  | [3488](../../magpie/internal/gui/assets/plugins/usage/page.js#L3488) |
+| d | VariableDeclaration | sessionDetail | [3489](../../magpie/internal/gui/assets/plugins/usage/page.js#L3489) |
+| line | VariableDeclaration | sessionDetail | [3490](../../magpie/internal/gui/assets/plugins/usage/page.js#L3490) |
+| l | VariableDeclaration | sessionDetail.line | [3491](../../magpie/internal/gui/assets/plugins/usage/page.js#L3491) |
+| v | VariableDeclaration | sessionDetail.line | [3493](../../magpie/internal/gui/assets/plugins/usage/page.js#L3493) |
+| code | VariableDeclaration | sessionDetail | [3503](../../magpie/internal/gui/assets/plugins/usage/page.js#L3503) |
+| l | VariableDeclaration | sessionDetail | [3504](../../magpie/internal/gui/assets/plugins/usage/page.js#L3504) |
+| USAGE_EVERY | VariableDeclaration |  | [3529](../../magpie/internal/gui/assets/plugins/usage/page.js#L3529) |
+| usageEvery | VariableDeclaration |  | [3530](../../magpie/internal/gui/assets/plugins/usage/page.js#L3530) |
+| v | VariableDeclaration |  | [3532](../../magpie/internal/gui/assets/plugins/usage/page.js#L3532) |
+| n | BindingElement |  | [3533](../../magpie/internal/gui/assets/plugins/usage/page.js#L3533) |
+| usageLast | VariableDeclaration |  | [3535](../../magpie/internal/gui/assets/plugins/usage/page.js#L3535) |
+| usageReadAt | VariableDeclaration |  | [3535](../../magpie/internal/gui/assets/plugins/usage/page.js#L3535) |
+| sessionsAt | VariableDeclaration |  | [3535](../../magpie/internal/gui/assets/plugins/usage/page.js#L3535) |
+| quotasAsked | VariableDeclaration |  | [3535](../../magpie/internal/gui/assets/plugins/usage/page.js#L3535) |
+| renderUsageEvery | FunctionDeclaration |  | [3537](../../magpie/internal/gui/assets/plugins/usage/page.js#L3537) |
+| cur | VariableDeclaration | renderUsageEvery | [3538](../../magpie/internal/gui/assets/plugins/usage/page.js#L3538) |
+| n | BindingElement | renderUsageEvery.cur | [3538](../../magpie/internal/gui/assets/plugins/usage/page.js#L3538) |
+| b | VariableDeclaration | renderUsageEvery | [3539](../../magpie/internal/gui/assets/plugins/usage/page.js#L3539) |
+| n | BindingElement | renderUsageEvery | [3545](../../magpie/internal/gui/assets/plugins/usage/page.js#L3545) |
+| name | BindingElement | renderUsageEvery | [3545](../../magpie/internal/gui/assets/plugins/usage/page.js#L3545) |
+| r | VariableDeclaration | renderUsageEvery | [3552](../../magpie/internal/gui/assets/plugins/usage/page.js#L3552) |
+| what | VariableDeclaration | renderUsageEvery | [3555](../../magpie/internal/gui/assets/plugins/usage/page.js#L3555) |
+| usageFlight | VariableDeclaration |  | [3571](../../magpie/internal/gui/assets/plugins/usage/page.js#L3571) |
+| usageQueued | VariableDeclaration |  | [3571](../../magpie/internal/gui/assets/plugins/usage/page.js#L3571) |
+| usageQueuedNow | VariableDeclaration |  | [3571](../../magpie/internal/gui/assets/plugins/usage/page.js#L3571) |
+| usageDrawn | FunctionDeclaration |  | [3574](../../magpie/internal/gui/assets/plugins/usage/page.js#L3574) |
+| refreshUsage | FunctionDeclaration |  | [3580](../../magpie/internal/gui/assets/plugins/usage/page.js#L3580) |
+| run | VariableDeclaration | refreshUsage | [3587](../../magpie/internal/gui/assets/plugins/usage/page.js#L3587) |
+| q | VariableDeclaration | refreshUsage.run | [3599](../../magpie/internal/gui/assets/plugins/usage/page.js#L3599) |
+| p | VariableDeclaration | refreshUsage.run | [3603](../../magpie/internal/gui/assets/plugins/usage/page.js#L3603) |
+| read | VariableDeclaration | refreshUsage.run | [3603](../../magpie/internal/gui/assets/plugins/usage/page.js#L3603) |
+| u | VariableDeclaration | refreshUsage.run | [3604](../../magpie/internal/gui/assets/plugins/usage/page.js#L3604) |
+| flight | VariableDeclaration | refreshUsage | [3618](../../magpie/internal/gui/assets/plugins/usage/page.js#L3618) |
+| want | VariableDeclaration | refreshUsage.flight | [3622](../../magpie/internal/gui/assets/plugins/usage/page.js#L3622) |
+| usageSecond | VariableDeclaration |  | [3634](../../magpie/internal/gui/assets/plugins/usage/page.js#L3634) |
+| usageTicks | FunctionDeclaration |  | [3635](../../magpie/internal/gui/assets/plugins/usage/page.js#L3635) |
+| tab | VariableDeclaration |  | [3650](../../magpie/internal/gui/assets/plugins/usage/page.js#L3650) |
+| per | VariableDeclaration |  | [3653](../../magpie/internal/gui/assets/plugins/usage/page.js#L3653) |
+| id | BindingElement |  | [3654](../../magpie/internal/gui/assets/plugins/usage/page.js#L3654) |
+| v | VariableDeclaration |  | [3661](../../magpie/internal/gui/assets/plugins/usage/page.js#L3661) |
+| [k, x] | VariableDeclaration |  | [3664](../../magpie/internal/gui/assets/plugins/usage/page.js#L3664) |
+| k | BindingElement | [k, x] | [3664](../../magpie/internal/gui/assets/plugins/usage/page.js#L3664) |
+| x | BindingElement | [k, x] | [3664](../../magpie/internal/gui/assets/plugins/usage/page.js#L3664) |
+| u | VariableDeclaration |  | [3665](../../magpie/internal/gui/assets/plugins/usage/page.js#L3665) |
+| k | VariableDeclaration |  | [3666](../../magpie/internal/gui/assets/plugins/usage/page.js#L3666) |

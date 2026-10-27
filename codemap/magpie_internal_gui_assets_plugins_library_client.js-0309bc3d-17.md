@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 17/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| m | VariableDeclaration | fetchMarket | [4989](../../magpie/internal/gui/assets/plugins/library/client.js#L4989) |
-| seq | VariableDeclaration | fetchMarket | [4990](../../magpie/internal/gui/assets/plugins/library/client.js#L4990) |
-| r | VariableDeclaration | fetchMarket | [4994](../../magpie/internal/gui/assets/plugins/library/client.js#L4994) |
-| e | VariableDeclaration | fetchMarket | [5003](../../magpie/internal/gui/assets/plugins/library/client.js#L5003) |
-| mine | VariableDeclaration | fetchMarket | [5015](../../magpie/internal/gui/assets/plugins/library/client.js#L5015) |
-| describeSkills | FunctionDeclaration |  | [5020](../../magpie/internal/gui/assets/plugins/library/client.js#L5020) |
-| ids | VariableDeclaration | describeSkills | [5021](../../magpie/internal/gui/assets/plugins/library/client.js#L5021) |
-| about | VariableDeclaration | describeSkills | [5025](../../magpie/internal/gui/assets/plugins/library/client.js#L5025) |
-| x | VariableDeclaration | describeSkills | [5026](../../magpie/internal/gui/assets/plugins/library/client.js#L5026) |
-| [id, d] | VariableDeclaration | describeSkills | [5027](../../magpie/internal/gui/assets/plugins/library/client.js#L5027) |
-| id | BindingElement | describeSkills.[id, d] | [5027](../../magpie/internal/gui/assets/plugins/library/client.js#L5027) |
-| d | BindingElement | describeSkills.[id, d] | [5027](../../magpie/internal/gui/assets/plugins/library/client.js#L5027) |
-| p | VariableDeclaration | describeSkills | [5028](../../magpie/internal/gui/assets/plugins/library/client.js#L5028) |
-| p | VariableDeclaration | describeSkills | [5032](../../magpie/internal/gui/assets/plugins/library/client.js#L5032) |
-| discover | FunctionDeclaration |  | [5035](../../magpie/internal/gui/assets/plugins/library/client.js#L5035) |
-| m | VariableDeclaration | discover | [5036](../../magpie/internal/gui/assets/plugins/library/client.js#L5036) |
-| box | VariableDeclaration | discover | [5037](../../magpie/internal/gui/assets/plugins/library/client.js#L5037) |
-| rh | VariableDeclaration | discover | [5039](../../magpie/internal/gui/assets/plugins/library/client.js#L5039) |
-| note | VariableDeclaration | discover | [5041](../../magpie/internal/gui/assets/plugins/library/client.js#L5041) |
-| find | VariableDeclaration | discover | [5044](../../magpie/internal/gui/assets/plugins/library/client.js#L5044) |
-| inp | VariableDeclaration | discover | [5045](../../magpie/internal/gui/assets/plugins/library/client.js#L5045) |
-| q | VariableDeclaration | discover | [5055](../../magpie/internal/gui/assets/plugins/library/client.js#L5055) |
-| drawMarket | FunctionDeclaration |  | [5072](../../magpie/internal/gui/assets/plugins/library/client.js#L5072) |
-| m | VariableDeclaration | drawMarket | [5074](../../magpie/internal/gui/assets/plugins/library/client.js#L5074) |
-| q | VariableDeclaration | drawMarket | [5075](../../magpie/internal/gui/assets/plugins/library/client.js#L5075) |
-| note | VariableDeclaration | drawMarket | [5077](../../magpie/internal/gui/assets/plugins/library/client.js#L5077) |
-| grid | VariableDeclaration | drawMarket | [5080](../../magpie/internal/gui/assets/plugins/library/client.js#L5080) |
-| i | VariableDeclaration | drawMarket | [5083](../../magpie/internal/gui/assets/plugins/library/client.js#L5083) |
-| c | VariableDeclaration | drawMarket | [5084](../../magpie/internal/gui/assets/plugins/library/client.js#L5084) |
-| top | VariableDeclaration | drawMarket | [5085](../../magpie/internal/gui/assets/plugins/library/client.js#L5085) |
-| lines | VariableDeclaration | drawMarket | [5086](../../magpie/internal/gui/assets/plugins/library/client.js#L5086) |
-| a | VariableDeclaration | drawMarket | [5087](../../magpie/internal/gui/assets/plugins/library/client.js#L5087) |
-| b | VariableDeclaration | drawMarket | [5088](../../magpie/internal/gui/assets/plugins/library/client.js#L5088) |
-| d | VariableDeclaration | drawMarket | [5091](../../magpie/internal/gui/assets/plugins/library/client.js#L5091) |
-| x | VariableDeclaration | drawMarket | [5109](../../magpie/internal/gui/assets/plugins/library/client.js#L5109) |
-| customAt | FunctionDeclaration |  | [5115](../../magpie/internal/gui/assets/plugins/library/client.js#L5115) |
-| box | VariableDeclaration | customAt | [5116](../../magpie/internal/gui/assets/plugins/library/client.js#L5116) |
-| logo | FunctionDeclaration |  | [5127](../../magpie/internal/gui/assets/plugins/library/client.js#L5127) |
-| box | VariableDeclaration | logo | [5128](../../magpie/internal/gui/assets/plugins/library/client.js#L5128) |
-| fallback | VariableDeclaration | logo | [5129](../../magpie/internal/gui/assets/plugins/library/client.js#L5129) |
-| img | VariableDeclaration | logo | [5131](../../magpie/internal/gui/assets/plugins/library/client.js#L5131) |
-| compact | FunctionDeclaration |  | [5149](../../magpie/internal/gui/assets/plugins/library/client.js#L5149) |
-| runsLabel | FunctionDeclaration |  | [5155](../../magpie/internal/gui/assets/plugins/library/client.js#L5155) |
-| needsKey | VariableDeclaration |  | [5159](../../magpie/internal/gui/assets/plugins/library/client.js#L5159) |
-| about | VariableDeclaration |  | [5161](../../magpie/internal/gui/assets/plugins/library/client.js#L5161) |
-| addButton | FunctionDeclaration |  | [5163](../../magpie/internal/gui/assets/plugins/library/client.js#L5163) |
-| b | VariableDeclaration | addButton | [5165](../../magpie/internal/gui/assets/plugins/library/client.js#L5165) |
-| b | VariableDeclaration | addButton | [5170](../../magpie/internal/gui/assets/plugins/library/client.js#L5170) |
-| ok | VariableDeclaration | addButton.b | [5174](../../magpie/internal/gui/assets/plugins/library/client.js#L5174) |
-| serverCard | FunctionDeclaration |  | [5180](../../magpie/internal/gui/assets/plugins/library/client.js#L5180) |
-| c | VariableDeclaration | serverCard | [5181](../../magpie/internal/gui/assets/plugins/library/client.js#L5181) |
-| top | VariableDeclaration | serverCard | [5183](../../magpie/internal/gui/assets/plugins/library/client.js#L5183) |
-| who | VariableDeclaration | serverCard | [5184](../../magpie/internal/gui/assets/plugins/library/client.js#L5184) |
-| nm | VariableDeclaration | serverCard | [5185](../../magpie/internal/gui/assets/plugins/library/client.js#L5185) |
-| meta | VariableDeclaration | serverCard | [5188](../../magpie/internal/gui/assets/plugins/library/client.js#L5188) |
-| k | VariableDeclaration | serverCard | [5191](../../magpie/internal/gui/assets/plugins/library/client.js#L5191) |
-| d | VariableDeclaration | serverCard | [5194](../../magpie/internal/gui/assets/plugins/library/client.js#L5194) |
-| foot | VariableDeclaration | serverCard | [5196](../../magpie/internal/gui/assets/plugins/library/client.js#L5196) |
-| addServer | FunctionDeclaration |  | [5204](../../magpie/internal/gui/assets/plugins/library/client.js#L5204) |
-| body | VariableDeclaration | addServer | [5205](../../magpie/internal/gui/assets/plugins/library/client.js#L5205) |
-| ok | VariableDeclaration | addServer | [5207](../../magpie/internal/gui/assets/plugins/library/client.js#L5207) |
-| serverSheet | FunctionDeclaration |  | [5213](../../magpie/internal/gui/assets/plugins/library/client.js#L5213) |
-| all | VariableDeclaration | serverSheet | [5214](../../magpie/internal/gui/assets/plugins/library/client.js#L5214) |
-| agents | VariableDeclaration | serverSheet | [5217](../../magpie/internal/gui/assets/plugins/library/client.js#L5217) |
-| values | VariableDeclaration | serverSheet | [5218](../../magpie/internal/gui/assets/plugins/library/client.js#L5218) |
-| ed | VariableDeclaration | serverSheet | [5219](../../magpie/internal/gui/assets/plugins/library/client.js#L5219) |
-| head | VariableDeclaration | serverSheet | [5220](../../magpie/internal/gui/assets/plugins/library/client.js#L5220) |
-| who | VariableDeclaration | serverSheet | [5221](../../magpie/internal/gui/assets/plugins/library/client.js#L5221) |
-| meta | VariableDeclaration | serverSheet | [5223](../../magpie/internal/gui/assets/plugins/library/client.js#L5223) |
-| firsts | VariableDeclaration | serverSheet | [5233](../../magpie/internal/gui/assets/plugins/library/client.js#L5233) |
-| i | VariableDeclaration | serverSheet | [5234](../../magpie/internal/gui/assets/plugins/library/client.js#L5234) |
-| f | VariableDeclaration | serverSheet | [5235](../../magpie/internal/gui/assets/plugins/library/client.js#L5235) |
-| hint | VariableDeclaration | serverSheet | [5240](../../magpie/internal/gui/assets/plugins/library/client.js#L5240) |
-| agentsBox | VariableDeclaration | serverSheet | [5243](../../magpie/internal/gui/assets/plugins/library/client.js#L5243) |
-| drawAgents | VariableDeclaration | serverSheet | [5244](../../magpie/internal/gui/assets/plugins/library/client.js#L5244) |
-| err | VariableDeclaration | serverSheet | [5247](../../magpie/internal/gui/assets/plugins/library/client.js#L5247) |
-| bar | VariableDeclaration | serverSheet | [5249](../../magpie/internal/gui/assets/plugins/library/client.js#L5249) |
-| save | VariableDeclaration | serverSheet | [5251](../../magpie/internal/gui/assets/plugins/library/client.js#L5251) |
-| go | VariableDeclaration | serverSheet | [5253](../../magpie/internal/gui/assets/plugins/library/client.js#L5253) |
-| miss | VariableDeclaration | serverSheet.go | [5255](../../magpie/internal/gui/assets/plugins/library/client.js#L5255) |
-| extLink | FunctionDeclaration |  | [5271](../../magpie/internal/gui/assets/plugins/library/client.js#L5271) |
-| a | VariableDeclaration | extLink | [5272](../../magpie/internal/gui/assets/plugins/library/client.js#L5272) |
-| skillCard | FunctionDeclaration |  | [5279](../../magpie/internal/gui/assets/plugins/library/client.js#L5279) |
-| c | VariableDeclaration | skillCard | [5280](../../magpie/internal/gui/assets/plugins/library/client.js#L5280) |
-| top | VariableDeclaration | skillCard | [5282](../../magpie/internal/gui/assets/plugins/library/client.js#L5282) |
-| who | VariableDeclaration | skillCard | [5283](../../magpie/internal/gui/assets/plugins/library/client.js#L5283) |
-| nm | VariableDeclaration | skillCard | [5284](../../magpie/internal/gui/assets/plugins/library/client.js#L5284) |
-| o | VariableDeclaration | skillCard | [5286](../../magpie/internal/gui/assets/plugins/library/client.js#L5286) |
-| meta | VariableDeclaration | skillCard | [5288](../../magpie/internal/gui/assets/plugins/library/client.js#L5288) |
-| d | VariableDeclaration | skillCard | [5292](../../magpie/internal/gui/assets/plugins/library/client.js#L5292) |
-| foot | VariableDeclaration | skillCard | [5294](../../magpie/internal/gui/assets/plugins/library/client.js#L5294) |
-| n | VariableDeclaration | skillCard | [5297](../../magpie/internal/gui/assets/plugins/library/client.js#L5297) |
-| addSkill | FunctionDeclaration |  | [5309](../../magpie/internal/gui/assets/plugins/library/client.js#L5309) |
-| body | VariableDeclaration | addSkill | [5310](../../magpie/internal/gui/assets/plugins/library/client.js#L5310) |
-| ok | VariableDeclaration | addSkill | [5312](../../magpie/internal/gui/assets/plugins/library/client.js#L5312) |
-| skillSheet | FunctionDeclaration |  | [5317](../../magpie/internal/gui/assets/plugins/library/client.js#L5317) |
-| all | VariableDeclaration | skillSheet | [5318](../../magpie/internal/gui/assets/plugins/library/client.js#L5318) |
-| agents | VariableDeclaration | skillSheet | [5319](../../magpie/internal/gui/assets/plugins/library/client.js#L5319) |
-| ed | VariableDeclaration | skillSheet | [5320](../../magpie/internal/gui/assets/plugins/library/client.js#L5320) |
-| head | VariableDeclaration | skillSheet | [5321](../../magpie/internal/gui/assets/plugins/library/client.js#L5321) |
+| fetchMarket | FunctionDeclaration |  | [4999](../../magpie/internal/gui/assets/plugins/library/client.js#L4999) |
+| m | VariableDeclaration | fetchMarket | [5000](../../magpie/internal/gui/assets/plugins/library/client.js#L5000) |
+| seq | VariableDeclaration | fetchMarket | [5001](../../magpie/internal/gui/assets/plugins/library/client.js#L5001) |
+| r | VariableDeclaration | fetchMarket | [5005](../../magpie/internal/gui/assets/plugins/library/client.js#L5005) |
+| e | VariableDeclaration | fetchMarket | [5014](../../magpie/internal/gui/assets/plugins/library/client.js#L5014) |
+| mine | VariableDeclaration | fetchMarket | [5026](../../magpie/internal/gui/assets/plugins/library/client.js#L5026) |
+| describeSkills | FunctionDeclaration |  | [5031](../../magpie/internal/gui/assets/plugins/library/client.js#L5031) |
+| ids | VariableDeclaration | describeSkills | [5032](../../magpie/internal/gui/assets/plugins/library/client.js#L5032) |
+| about | VariableDeclaration | describeSkills | [5036](../../magpie/internal/gui/assets/plugins/library/client.js#L5036) |
+| x | VariableDeclaration | describeSkills | [5037](../../magpie/internal/gui/assets/plugins/library/client.js#L5037) |
+| [id, d] | VariableDeclaration | describeSkills | [5038](../../magpie/internal/gui/assets/plugins/library/client.js#L5038) |
+| id | BindingElement | describeSkills.[id, d] | [5038](../../magpie/internal/gui/assets/plugins/library/client.js#L5038) |
+| d | BindingElement | describeSkills.[id, d] | [5038](../../magpie/internal/gui/assets/plugins/library/client.js#L5038) |
+| p | VariableDeclaration | describeSkills | [5039](../../magpie/internal/gui/assets/plugins/library/client.js#L5039) |
+| p | VariableDeclaration | describeSkills | [5043](../../magpie/internal/gui/assets/plugins/library/client.js#L5043) |
+| discover | FunctionDeclaration |  | [5046](../../magpie/internal/gui/assets/plugins/library/client.js#L5046) |
+| m | VariableDeclaration | discover | [5047](../../magpie/internal/gui/assets/plugins/library/client.js#L5047) |
+| box | VariableDeclaration | discover | [5048](../../magpie/internal/gui/assets/plugins/library/client.js#L5048) |
+| rh | VariableDeclaration | discover | [5050](../../magpie/internal/gui/assets/plugins/library/client.js#L5050) |
+| note | VariableDeclaration | discover | [5052](../../magpie/internal/gui/assets/plugins/library/client.js#L5052) |
+| find | VariableDeclaration | discover | [5055](../../magpie/internal/gui/assets/plugins/library/client.js#L5055) |
+| inp | VariableDeclaration | discover | [5056](../../magpie/internal/gui/assets/plugins/library/client.js#L5056) |
+| q | VariableDeclaration | discover | [5066](../../magpie/internal/gui/assets/plugins/library/client.js#L5066) |
+| drawMarket | FunctionDeclaration |  | [5083](../../magpie/internal/gui/assets/plugins/library/client.js#L5083) |
+| m | VariableDeclaration | drawMarket | [5085](../../magpie/internal/gui/assets/plugins/library/client.js#L5085) |
+| q | VariableDeclaration | drawMarket | [5086](../../magpie/internal/gui/assets/plugins/library/client.js#L5086) |
+| note | VariableDeclaration | drawMarket | [5088](../../magpie/internal/gui/assets/plugins/library/client.js#L5088) |
+| grid | VariableDeclaration | drawMarket | [5091](../../magpie/internal/gui/assets/plugins/library/client.js#L5091) |
+| i | VariableDeclaration | drawMarket | [5094](../../magpie/internal/gui/assets/plugins/library/client.js#L5094) |
+| c | VariableDeclaration | drawMarket | [5095](../../magpie/internal/gui/assets/plugins/library/client.js#L5095) |
+| top | VariableDeclaration | drawMarket | [5096](../../magpie/internal/gui/assets/plugins/library/client.js#L5096) |
+| lines | VariableDeclaration | drawMarket | [5097](../../magpie/internal/gui/assets/plugins/library/client.js#L5097) |
+| a | VariableDeclaration | drawMarket | [5098](../../magpie/internal/gui/assets/plugins/library/client.js#L5098) |
+| b | VariableDeclaration | drawMarket | [5099](../../magpie/internal/gui/assets/plugins/library/client.js#L5099) |
+| d | VariableDeclaration | drawMarket | [5102](../../magpie/internal/gui/assets/plugins/library/client.js#L5102) |
+| x | VariableDeclaration | drawMarket | [5120](../../magpie/internal/gui/assets/plugins/library/client.js#L5120) |
+| customAt | FunctionDeclaration |  | [5126](../../magpie/internal/gui/assets/plugins/library/client.js#L5126) |
+| box | VariableDeclaration | customAt | [5127](../../magpie/internal/gui/assets/plugins/library/client.js#L5127) |
+| logo | FunctionDeclaration |  | [5138](../../magpie/internal/gui/assets/plugins/library/client.js#L5138) |
+| box | VariableDeclaration | logo | [5139](../../magpie/internal/gui/assets/plugins/library/client.js#L5139) |
+| fallback | VariableDeclaration | logo | [5140](../../magpie/internal/gui/assets/plugins/library/client.js#L5140) |
+| img | VariableDeclaration | logo | [5142](../../magpie/internal/gui/assets/plugins/library/client.js#L5142) |
+| compact | FunctionDeclaration |  | [5160](../../magpie/internal/gui/assets/plugins/library/client.js#L5160) |
+| runsLabel | FunctionDeclaration |  | [5166](../../magpie/internal/gui/assets/plugins/library/client.js#L5166) |
+| needsKey | VariableDeclaration |  | [5170](../../magpie/internal/gui/assets/plugins/library/client.js#L5170) |
+| about | VariableDeclaration |  | [5172](../../magpie/internal/gui/assets/plugins/library/client.js#L5172) |
+| addButton | FunctionDeclaration |  | [5174](../../magpie/internal/gui/assets/plugins/library/client.js#L5174) |
+| b | VariableDeclaration | addButton | [5176](../../magpie/internal/gui/assets/plugins/library/client.js#L5176) |
+| b | VariableDeclaration | addButton | [5181](../../magpie/internal/gui/assets/plugins/library/client.js#L5181) |
+| ok | VariableDeclaration | addButton.b | [5185](../../magpie/internal/gui/assets/plugins/library/client.js#L5185) |
+| serverCard | FunctionDeclaration |  | [5191](../../magpie/internal/gui/assets/plugins/library/client.js#L5191) |
+| c | VariableDeclaration | serverCard | [5192](../../magpie/internal/gui/assets/plugins/library/client.js#L5192) |
+| top | VariableDeclaration | serverCard | [5194](../../magpie/internal/gui/assets/plugins/library/client.js#L5194) |
+| who | VariableDeclaration | serverCard | [5195](../../magpie/internal/gui/assets/plugins/library/client.js#L5195) |
+| nm | VariableDeclaration | serverCard | [5196](../../magpie/internal/gui/assets/plugins/library/client.js#L5196) |
+| meta | VariableDeclaration | serverCard | [5199](../../magpie/internal/gui/assets/plugins/library/client.js#L5199) |
+| k | VariableDeclaration | serverCard | [5202](../../magpie/internal/gui/assets/plugins/library/client.js#L5202) |
+| d | VariableDeclaration | serverCard | [5205](../../magpie/internal/gui/assets/plugins/library/client.js#L5205) |
+| foot | VariableDeclaration | serverCard | [5207](../../magpie/internal/gui/assets/plugins/library/client.js#L5207) |
+| addServer | FunctionDeclaration |  | [5215](../../magpie/internal/gui/assets/plugins/library/client.js#L5215) |
+| body | VariableDeclaration | addServer | [5216](../../magpie/internal/gui/assets/plugins/library/client.js#L5216) |
+| ok | VariableDeclaration | addServer | [5218](../../magpie/internal/gui/assets/plugins/library/client.js#L5218) |
+| serverSheet | FunctionDeclaration |  | [5224](../../magpie/internal/gui/assets/plugins/library/client.js#L5224) |
+| all | VariableDeclaration | serverSheet | [5225](../../magpie/internal/gui/assets/plugins/library/client.js#L5225) |
+| agents | VariableDeclaration | serverSheet | [5228](../../magpie/internal/gui/assets/plugins/library/client.js#L5228) |
+| values | VariableDeclaration | serverSheet | [5229](../../magpie/internal/gui/assets/plugins/library/client.js#L5229) |
+| ed | VariableDeclaration | serverSheet | [5230](../../magpie/internal/gui/assets/plugins/library/client.js#L5230) |
+| head | VariableDeclaration | serverSheet | [5231](../../magpie/internal/gui/assets/plugins/library/client.js#L5231) |
+| who | VariableDeclaration | serverSheet | [5232](../../magpie/internal/gui/assets/plugins/library/client.js#L5232) |
+| meta | VariableDeclaration | serverSheet | [5234](../../magpie/internal/gui/assets/plugins/library/client.js#L5234) |
+| firsts | VariableDeclaration | serverSheet | [5244](../../magpie/internal/gui/assets/plugins/library/client.js#L5244) |
+| i | VariableDeclaration | serverSheet | [5245](../../magpie/internal/gui/assets/plugins/library/client.js#L5245) |
+| f | VariableDeclaration | serverSheet | [5246](../../magpie/internal/gui/assets/plugins/library/client.js#L5246) |
+| hint | VariableDeclaration | serverSheet | [5251](../../magpie/internal/gui/assets/plugins/library/client.js#L5251) |
+| agentsBox | VariableDeclaration | serverSheet | [5254](../../magpie/internal/gui/assets/plugins/library/client.js#L5254) |
+| drawAgents | VariableDeclaration | serverSheet | [5255](../../magpie/internal/gui/assets/plugins/library/client.js#L5255) |
+| err | VariableDeclaration | serverSheet | [5258](../../magpie/internal/gui/assets/plugins/library/client.js#L5258) |
+| bar | VariableDeclaration | serverSheet | [5260](../../magpie/internal/gui/assets/plugins/library/client.js#L5260) |
+| save | VariableDeclaration | serverSheet | [5262](../../magpie/internal/gui/assets/plugins/library/client.js#L5262) |
+| go | VariableDeclaration | serverSheet | [5264](../../magpie/internal/gui/assets/plugins/library/client.js#L5264) |
+| miss | VariableDeclaration | serverSheet.go | [5266](../../magpie/internal/gui/assets/plugins/library/client.js#L5266) |
+| extLink | FunctionDeclaration |  | [5282](../../magpie/internal/gui/assets/plugins/library/client.js#L5282) |
+| a | VariableDeclaration | extLink | [5283](../../magpie/internal/gui/assets/plugins/library/client.js#L5283) |
+| skillCard | FunctionDeclaration |  | [5290](../../magpie/internal/gui/assets/plugins/library/client.js#L5290) |
+| c | VariableDeclaration | skillCard | [5291](../../magpie/internal/gui/assets/plugins/library/client.js#L5291) |
+| top | VariableDeclaration | skillCard | [5293](../../magpie/internal/gui/assets/plugins/library/client.js#L5293) |
+| who | VariableDeclaration | skillCard | [5294](../../magpie/internal/gui/assets/plugins/library/client.js#L5294) |
+| nm | VariableDeclaration | skillCard | [5295](../../magpie/internal/gui/assets/plugins/library/client.js#L5295) |
+| o | VariableDeclaration | skillCard | [5297](../../magpie/internal/gui/assets/plugins/library/client.js#L5297) |
+| meta | VariableDeclaration | skillCard | [5299](../../magpie/internal/gui/assets/plugins/library/client.js#L5299) |
+| d | VariableDeclaration | skillCard | [5303](../../magpie/internal/gui/assets/plugins/library/client.js#L5303) |
+| foot | VariableDeclaration | skillCard | [5305](../../magpie/internal/gui/assets/plugins/library/client.js#L5305) |
+| n | VariableDeclaration | skillCard | [5308](../../magpie/internal/gui/assets/plugins/library/client.js#L5308) |
+| addSkill | FunctionDeclaration |  | [5320](../../magpie/internal/gui/assets/plugins/library/client.js#L5320) |
+| body | VariableDeclaration | addSkill | [5321](../../magpie/internal/gui/assets/plugins/library/client.js#L5321) |
+| ok | VariableDeclaration | addSkill | [5323](../../magpie/internal/gui/assets/plugins/library/client.js#L5323) |
+| skillSheet | FunctionDeclaration |  | [5328](../../magpie/internal/gui/assets/plugins/library/client.js#L5328) |
+| all | VariableDeclaration | skillSheet | [5329](../../magpie/internal/gui/assets/plugins/library/client.js#L5329) |
+| agents | VariableDeclaration | skillSheet | [5330](../../magpie/internal/gui/assets/plugins/library/client.js#L5330) |
+| ed | VariableDeclaration | skillSheet | [5331](../../magpie/internal/gui/assets/plugins/library/client.js#L5331) |

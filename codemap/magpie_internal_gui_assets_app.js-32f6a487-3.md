@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 3/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| c | VariableDeclaration | armOrDo | [852](../../magpie/internal/gui/assets/app.js#L852) |
-| disarmProfile | FunctionDeclaration |  | [855](../../magpie/internal/gui/assets/app.js#L855) |
-| c | VariableDeclaration | disarmProfile | [859](../../magpie/internal/gui/assets/app.js#L859) |
-| paintArm | FunctionDeclaration |  | [864](../../magpie/internal/gui/assets/app.js#L864) |
-| s | VariableDeclaration | paintArm | [865](../../magpie/internal/gui/assets/app.js#L865) |
-| a | VariableDeclaration | paintArm | [866](../../magpie/internal/gui/assets/app.js#L866) |
-| on | VariableDeclaration | paintArm | [866](../../magpie/internal/gui/assets/app.js#L866) |
-| profileOpen | VariableDeclaration |  | [877](../../magpie/internal/gui/assets/app.js#L877) |
-| toggleProfile | FunctionDeclaration |  | [879](../../magpie/internal/gui/assets/app.js#L879) |
-| closeProfileDetail | FunctionDeclaration |  | [890](../../magpie/internal/gui/assets/app.js#L890) |
-| c | VariableDeclaration | closeProfileDetail | [895](../../magpie/internal/gui/assets/app.js#L895) |
-| profileEscape | FunctionDeclaration |  | [904](../../magpie/internal/gui/assets/app.js#L904) |
-| chip | VariableDeclaration | profileEscape | [906](../../magpie/internal/gui/assets/app.js#L906) |
-| showProfile | FunctionDeclaration |  | [916](../../magpie/internal/gui/assets/app.js#L916) |
-| chips | VariableDeclaration | showProfile | [917](../../magpie/internal/gui/assets/app.js#L917) |
-| box | VariableDeclaration | showProfile | [917](../../magpie/internal/gui/assets/app.js#L917) |
-| c | VariableDeclaration | showProfile | [920](../../magpie/internal/gui/assets/app.js#L920) |
-| panel | VariableDeclaration | showProfile | [924](../../magpie/internal/gui/assets/app.js#L924) |
-| was | VariableDeclaration | showProfile | [925](../../magpie/internal/gui/assets/app.js#L925) |
-| line | VariableDeclaration | showProfile | [926](../../magpie/internal/gui/assets/app.js#L926) |
-| d | VariableDeclaration | showProfile | [927](../../magpie/internal/gui/assets/app.js#L927) |
-| profileDetail | FunctionDeclaration |  | [936](../../magpie/internal/gui/assets/app.js#L936) |
-| d | VariableDeclaration | profileDetail | [937](../../magpie/internal/gui/assets/app.js#L937) |
-| head | VariableDeclaration | profileDetail | [940](../../magpie/internal/gui/assets/app.js#L940) |
-| apply | VariableDeclaration | profileDetail | [941](../../magpie/internal/gui/assets/app.js#L941) |
-| close | VariableDeclaration | profileDetail | [945](../../magpie/internal/gui/assets/app.js#L945) |
-| chip | VariableDeclaration | profileDetail | [950](../../magpie/internal/gui/assets/app.js#L950) |
-| groups | VariableDeclaration | profileDetail | [958](../../magpie/internal/gui/assets/app.js#L958) |
-| g | VariableDeclaration | profileDetail | [960](../../magpie/internal/gui/assets/app.js#L960) |
-| sec | VariableDeclaration | profileDetail | [961](../../magpie/internal/gui/assets/app.js#L961) |
-| gh | VariableDeclaration | profileDetail | [962](../../magpie/internal/gui/assets/app.js#L962) |
-| rows | VariableDeclaration | profileDetail | [964](../../magpie/internal/gui/assets/app.js#L964) |
-| row | VariableDeclaration | profileDetail | [965](../../magpie/internal/gui/assets/app.js#L965) |
-| v | VariableDeclaration | profileDetail.row | [966](../../magpie/internal/gui/assets/app.js#L966) |
-| f | VariableDeclaration | profileDetail | [970](../../magpie/internal/gui/assets/app.js#L970) |
-| effort | VariableDeclaration | profileDetail | [971](../../magpie/internal/gui/assets/app.js#L971) |
-| main | VariableDeclaration | profileDetail | [973](../../magpie/internal/gui/assets/app.js#L973) |
-| m | VariableDeclaration | profileDetail | [980](../../magpie/internal/gui/assets/app.js#L980) |
-| driftFix | FunctionDeclaration |  | [1005](../../magpie/internal/gui/assets/app.js#L1005) |
-| d | VariableDeclaration | driftFix | [1006](../../magpie/internal/gui/assets/app.js#L1006) |
-| f | VariableDeclaration | driftFix | [1006](../../magpie/internal/gui/assets/app.js#L1006) |
-| want | VariableDeclaration | driftFix | [1007](../../magpie/internal/gui/assets/app.js#L1007) |
-| fix | VariableDeclaration | driftFix | [1008](../../magpie/internal/gui/assets/app.js#L1008) |
-| deaf | VariableDeclaration | driftFix | [1011](../../magpie/internal/gui/assets/app.js#L1011) |
-| explainDrift | FunctionDeclaration |  | [1028](../../magpie/internal/gui/assets/app.js#L1028) |
-| ed | VariableDeclaration | explainDrift | [1029](../../magpie/internal/gui/assets/app.js#L1029) |
-| head | VariableDeclaration | explainDrift | [1030](../../magpie/internal/gui/assets/app.js#L1030) |
-| bar | VariableDeclaration | explainDrift | [1034](../../magpie/internal/gui/assets/app.js#L1034) |
-| ok | VariableDeclaration | explainDrift | [1035](../../magpie/internal/gui/assets/app.js#L1035) |
-| off | VariableDeclaration | explainDrift | [1039](../../magpie/internal/gui/assets/app.js#L1039) |
-| DRIFT_WHY | VariableDeclaration |  | [1052](../../magpie/internal/gui/assets/app.js#L1052) |
-| INFO_I | VariableDeclaration |  | [1061](../../magpie/internal/gui/assets/app.js#L1061) |
-| REAPPLY | VariableDeclaration |  | [1063](../../magpie/internal/gui/assets/app.js#L1063) |
-| UNPLUG | VariableDeclaration |  | [1066](../../magpie/internal/gui/assets/app.js#L1066) |
-| DISCONNECT_TIP | VariableDeclaration |  | [1067](../../magpie/internal/gui/assets/app.js#L1067) |
-| connectField | VariableDeclaration |  | [1076](../../magpie/internal/gui/assets/app.js#L1076) |
-| connectable | FunctionDeclaration |  | [1079](../../magpie/internal/gui/assets/app.js#L1079) |
-| PICKS_IN | VariableDeclaration |  | [1084](../../magpie/internal/gui/assets/app.js#L1084) |
-| connectSaid | FunctionDeclaration |  | [1086](../../magpie/internal/gui/assets/app.js#L1086) |
-| at | VariableDeclaration | connectSaid | [1089](../../magpie/internal/gui/assets/app.js#L1089) |
-| CONNECTED_HOW | VariableDeclaration |  | [1097](../../magpie/internal/gui/assets/app.js#L1097) |
-| connectedSaid | FunctionDeclaration |  | [1104](../../magpie/internal/gui/assets/app.js#L1104) |
-| plain | VariableDeclaration | connectedSaid | [1105](../../magpie/internal/gui/assets/app.js#L1105) |
-| now | VariableDeclaration | connectedSaid | [1108](../../magpie/internal/gui/assets/app.js#L1108) |
-| f | VariableDeclaration | connectedSaid | [1109](../../magpie/internal/gui/assets/app.js#L1109) |
-| model | VariableDeclaration | connectedSaid | [1110](../../magpie/internal/gui/assets/app.js#L1110) |
-| connectSwitch | FunctionDeclaration |  | [1114](../../magpie/internal/gui/assets/app.js#L1114) |
-| s | VariableDeclaration | connectSwitch | [1115](../../magpie/internal/gui/assets/app.js#L1115) |
-| msg | VariableDeclaration | connectSwitch | [1133](../../magpie/internal/gui/assets/app.js#L1133) |
-| err | VariableDeclaration | connectSwitch | [1137](../../magpie/internal/gui/assets/app.js#L1137) |
-| NATIVE_ONLY | VariableDeclaration |  | [1166](../../magpie/internal/gui/assets/app.js#L1166) |
-| NO_PICKER | VariableDeclaration |  | [1174](../../magpie/internal/gui/assets/app.js#L1174) |
-| MENU_FROM_LIST | VariableDeclaration |  | [1178](../../magpie/internal/gui/assets/app.js#L1178) |
-| listsMenu | VariableDeclaration |  | [1182](../../magpie/internal/gui/assets/app.js#L1182) |
-| menuFromList | VariableDeclaration |  | [1183](../../magpie/internal/gui/assets/app.js#L1183) |
-| menuSaid | FunctionDeclaration |  | [1186](../../magpie/internal/gui/assets/app.js#L1186) |
-| names | VariableDeclaration | menuSaid | [1188](../../magpie/internal/gui/assets/app.js#L1188) |
-| menuButton | FunctionDeclaration |  | [1195](../../magpie/internal/gui/assets/app.js#L1195) |
-| b | VariableDeclaration | menuButton | [1196](../../magpie/internal/gui/assets/app.js#L1196) |
-| fillMenuButton | FunctionDeclaration |  | [1204](../../magpie/internal/gui/assets/app.js#L1204) |
-| c | VariableDeclaration | fillMenuButton | [1205](../../magpie/internal/gui/assets/app.js#L1205) |
-| k | VariableDeclaration | fillMenuButton | [1206](../../magpie/internal/gui/assets/app.js#L1206) |
-| pick | VariableDeclaration | fillMenuButton | [1211](../../magpie/internal/gui/assets/app.js#L1211) |
-| CONNECT_COST | VariableDeclaration |  | [1217](../../magpie/internal/gui/assets/app.js#L1217) |
-| STARTS_WITH | VariableDeclaration |  | [1222](../../magpie/internal/gui/assets/app.js#L1222) |
-| agentExpanded | VariableDeclaration |  | [1224](../../magpie/internal/gui/assets/app.js#L1224) |
-| staleSeen | VariableDeclaration |  | [1225](../../magpie/internal/gui/assets/app.js#L1225) |
-| previews | VariableDeclaration |  | [1226](../../magpie/internal/gui/assets/app.js#L1226) |
-| anyMagpieModels | VariableDeclaration |  | [1228](../../magpie/internal/gui/assets/app.js#L1228) |
-| connectKind | FunctionDeclaration |  | [1234](../../magpie/internal/gui/assets/app.js#L1234) |
-| SEEN_KEY | VariableDeclaration |  | [1245](../../magpie/internal/gui/assets/app.js#L1245) |
-| seenTimer | VariableDeclaration |  | [1246](../../magpie/internal/gui/assets/app.js#L1246) |
-| newModels | FunctionDeclaration |  | [1247](../../magpie/internal/gui/assets/app.js#L1247) |
-| seen | VariableDeclaration | newModels | [1249](../../magpie/internal/gui/assets/app.js#L1249) |
-| was | VariableDeclaration | newModels | [1251](../../magpie/internal/gui/assets/app.js#L1251) |
-| now | VariableDeclaration | newModels | [1251](../../magpie/internal/gui/assets/app.js#L1251) |
-| keep | VariableDeclaration | newModels | [1252](../../magpie/internal/gui/assets/app.js#L1252) |
-| staleNow | VariableDeclaration |  | [1259](../../magpie/internal/gui/assets/app.js#L1259) |
-| STALE_HOW | VariableDeclaration |  | [1263](../../magpie/internal/gui/assets/app.js#L1263) |
-| STALE_SHORT | VariableDeclaration |  | [1276](../../magpie/internal/gui/assets/app.js#L1276) |
+| lib | VariableDeclaration | renderProfiles | [831](../../magpie/internal/gui/assets/app.js#L831) |
+| u | VariableDeclaration | renderProfiles | [843](../../magpie/internal/gui/assets/app.js#L843) |
+| x | VariableDeclaration | renderProfiles | [846](../../magpie/internal/gui/assets/app.js#L846) |
+| open | VariableDeclaration | renderProfiles | [855](../../magpie/internal/gui/assets/app.js#L855) |
+| profileArm | VariableDeclaration |  | [863](../../magpie/internal/gui/assets/app.js#L863) |
+| ARM | VariableDeclaration |  | [864](../../magpie/internal/gui/assets/app.js#L864) |
+| armOrDo | FunctionDeclaration |  | [869](../../magpie/internal/gui/assets/app.js#L869) |
+| c | VariableDeclaration | armOrDo | [877](../../magpie/internal/gui/assets/app.js#L877) |
+| disarmProfile | FunctionDeclaration |  | [880](../../magpie/internal/gui/assets/app.js#L880) |
+| c | VariableDeclaration | disarmProfile | [884](../../magpie/internal/gui/assets/app.js#L884) |
+| paintArm | FunctionDeclaration |  | [889](../../magpie/internal/gui/assets/app.js#L889) |
+| s | VariableDeclaration | paintArm | [890](../../magpie/internal/gui/assets/app.js#L890) |
+| a | VariableDeclaration | paintArm | [891](../../magpie/internal/gui/assets/app.js#L891) |
+| on | VariableDeclaration | paintArm | [891](../../magpie/internal/gui/assets/app.js#L891) |
+| profileOpen | VariableDeclaration |  | [902](../../magpie/internal/gui/assets/app.js#L902) |
+| toggleProfile | FunctionDeclaration |  | [904](../../magpie/internal/gui/assets/app.js#L904) |
+| closeProfileDetail | FunctionDeclaration |  | [915](../../magpie/internal/gui/assets/app.js#L915) |
+| c | VariableDeclaration | closeProfileDetail | [920](../../magpie/internal/gui/assets/app.js#L920) |
+| profileEscape | FunctionDeclaration |  | [929](../../magpie/internal/gui/assets/app.js#L929) |
+| chip | VariableDeclaration | profileEscape | [931](../../magpie/internal/gui/assets/app.js#L931) |
+| showProfile | FunctionDeclaration |  | [941](../../magpie/internal/gui/assets/app.js#L941) |
+| chips | VariableDeclaration | showProfile | [942](../../magpie/internal/gui/assets/app.js#L942) |
+| box | VariableDeclaration | showProfile | [942](../../magpie/internal/gui/assets/app.js#L942) |
+| c | VariableDeclaration | showProfile | [945](../../magpie/internal/gui/assets/app.js#L945) |
+| panel | VariableDeclaration | showProfile | [949](../../magpie/internal/gui/assets/app.js#L949) |
+| was | VariableDeclaration | showProfile | [950](../../magpie/internal/gui/assets/app.js#L950) |
+| line | VariableDeclaration | showProfile | [951](../../magpie/internal/gui/assets/app.js#L951) |
+| d | VariableDeclaration | showProfile | [952](../../magpie/internal/gui/assets/app.js#L952) |
+| profileDetail | FunctionDeclaration |  | [961](../../magpie/internal/gui/assets/app.js#L961) |
+| d | VariableDeclaration | profileDetail | [962](../../magpie/internal/gui/assets/app.js#L962) |
+| head | VariableDeclaration | profileDetail | [965](../../magpie/internal/gui/assets/app.js#L965) |
+| apply | VariableDeclaration | profileDetail | [966](../../magpie/internal/gui/assets/app.js#L966) |
+| close | VariableDeclaration | profileDetail | [970](../../magpie/internal/gui/assets/app.js#L970) |
+| chip | VariableDeclaration | profileDetail | [975](../../magpie/internal/gui/assets/app.js#L975) |
+| groups | VariableDeclaration | profileDetail | [983](../../magpie/internal/gui/assets/app.js#L983) |
+| g | VariableDeclaration | profileDetail | [985](../../magpie/internal/gui/assets/app.js#L985) |
+| sec | VariableDeclaration | profileDetail | [986](../../magpie/internal/gui/assets/app.js#L986) |
+| gh | VariableDeclaration | profileDetail | [987](../../magpie/internal/gui/assets/app.js#L987) |
+| rows | VariableDeclaration | profileDetail | [989](../../magpie/internal/gui/assets/app.js#L989) |
+| row | VariableDeclaration | profileDetail | [990](../../magpie/internal/gui/assets/app.js#L990) |
+| v | VariableDeclaration | profileDetail.row | [991](../../magpie/internal/gui/assets/app.js#L991) |
+| f | VariableDeclaration | profileDetail | [995](../../magpie/internal/gui/assets/app.js#L995) |
+| effort | VariableDeclaration | profileDetail | [996](../../magpie/internal/gui/assets/app.js#L996) |
+| main | VariableDeclaration | profileDetail | [998](../../magpie/internal/gui/assets/app.js#L998) |
+| m | VariableDeclaration | profileDetail | [1005](../../magpie/internal/gui/assets/app.js#L1005) |
+| driftFix | FunctionDeclaration |  | [1030](../../magpie/internal/gui/assets/app.js#L1030) |
+| d | VariableDeclaration | driftFix | [1031](../../magpie/internal/gui/assets/app.js#L1031) |
+| f | VariableDeclaration | driftFix | [1031](../../magpie/internal/gui/assets/app.js#L1031) |
+| want | VariableDeclaration | driftFix | [1032](../../magpie/internal/gui/assets/app.js#L1032) |
+| fix | VariableDeclaration | driftFix | [1033](../../magpie/internal/gui/assets/app.js#L1033) |
+| deaf | VariableDeclaration | driftFix | [1036](../../magpie/internal/gui/assets/app.js#L1036) |
+| explainDrift | FunctionDeclaration |  | [1053](../../magpie/internal/gui/assets/app.js#L1053) |
+| ed | VariableDeclaration | explainDrift | [1054](../../magpie/internal/gui/assets/app.js#L1054) |
+| head | VariableDeclaration | explainDrift | [1055](../../magpie/internal/gui/assets/app.js#L1055) |
+| bar | VariableDeclaration | explainDrift | [1059](../../magpie/internal/gui/assets/app.js#L1059) |
+| ok | VariableDeclaration | explainDrift | [1060](../../magpie/internal/gui/assets/app.js#L1060) |
+| off | VariableDeclaration | explainDrift | [1064](../../magpie/internal/gui/assets/app.js#L1064) |
+| DRIFT_WHY | VariableDeclaration |  | [1077](../../magpie/internal/gui/assets/app.js#L1077) |
+| INFO_I | VariableDeclaration |  | [1086](../../magpie/internal/gui/assets/app.js#L1086) |
+| REAPPLY | VariableDeclaration |  | [1088](../../magpie/internal/gui/assets/app.js#L1088) |
+| UNPLUG | VariableDeclaration |  | [1091](../../magpie/internal/gui/assets/app.js#L1091) |
+| DISCONNECT_TIP | VariableDeclaration |  | [1092](../../magpie/internal/gui/assets/app.js#L1092) |
+| connectField | VariableDeclaration |  | [1101](../../magpie/internal/gui/assets/app.js#L1101) |
+| connectable | FunctionDeclaration |  | [1104](../../magpie/internal/gui/assets/app.js#L1104) |
+| PICKS_IN | VariableDeclaration |  | [1109](../../magpie/internal/gui/assets/app.js#L1109) |
+| connectSaid | FunctionDeclaration |  | [1111](../../magpie/internal/gui/assets/app.js#L1111) |
+| at | VariableDeclaration | connectSaid | [1114](../../magpie/internal/gui/assets/app.js#L1114) |
+| CONNECTED_HOW | VariableDeclaration |  | [1122](../../magpie/internal/gui/assets/app.js#L1122) |
+| connectedSaid | FunctionDeclaration |  | [1129](../../magpie/internal/gui/assets/app.js#L1129) |
+| plain | VariableDeclaration | connectedSaid | [1130](../../magpie/internal/gui/assets/app.js#L1130) |
+| now | VariableDeclaration | connectedSaid | [1133](../../magpie/internal/gui/assets/app.js#L1133) |
+| f | VariableDeclaration | connectedSaid | [1134](../../magpie/internal/gui/assets/app.js#L1134) |
+| model | VariableDeclaration | connectedSaid | [1135](../../magpie/internal/gui/assets/app.js#L1135) |
+| connectSwitch | FunctionDeclaration |  | [1139](../../magpie/internal/gui/assets/app.js#L1139) |
+| s | VariableDeclaration | connectSwitch | [1140](../../magpie/internal/gui/assets/app.js#L1140) |
+| msg | VariableDeclaration | connectSwitch | [1158](../../magpie/internal/gui/assets/app.js#L1158) |
+| err | VariableDeclaration | connectSwitch | [1162](../../magpie/internal/gui/assets/app.js#L1162) |
+| NATIVE_ONLY | VariableDeclaration |  | [1191](../../magpie/internal/gui/assets/app.js#L1191) |
+| NO_PICKER | VariableDeclaration |  | [1199](../../magpie/internal/gui/assets/app.js#L1199) |
+| MENU_FROM_LIST | VariableDeclaration |  | [1203](../../magpie/internal/gui/assets/app.js#L1203) |
+| listsMenu | VariableDeclaration |  | [1207](../../magpie/internal/gui/assets/app.js#L1207) |
+| menuFromList | VariableDeclaration |  | [1208](../../magpie/internal/gui/assets/app.js#L1208) |
+| menuSaid | FunctionDeclaration |  | [1211](../../magpie/internal/gui/assets/app.js#L1211) |
+| names | VariableDeclaration | menuSaid | [1213](../../magpie/internal/gui/assets/app.js#L1213) |
+| menuButton | FunctionDeclaration |  | [1220](../../magpie/internal/gui/assets/app.js#L1220) |
+| b | VariableDeclaration | menuButton | [1221](../../magpie/internal/gui/assets/app.js#L1221) |
+| fillMenuButton | FunctionDeclaration |  | [1229](../../magpie/internal/gui/assets/app.js#L1229) |
+| c | VariableDeclaration | fillMenuButton | [1230](../../magpie/internal/gui/assets/app.js#L1230) |
+| k | VariableDeclaration | fillMenuButton | [1231](../../magpie/internal/gui/assets/app.js#L1231) |
+| pick | VariableDeclaration | fillMenuButton | [1236](../../magpie/internal/gui/assets/app.js#L1236) |
+| CONNECT_COST | VariableDeclaration |  | [1242](../../magpie/internal/gui/assets/app.js#L1242) |
+| STARTS_WITH | VariableDeclaration |  | [1247](../../magpie/internal/gui/assets/app.js#L1247) |
+| agentExpanded | VariableDeclaration |  | [1249](../../magpie/internal/gui/assets/app.js#L1249) |
+| staleSeen | VariableDeclaration |  | [1250](../../magpie/internal/gui/assets/app.js#L1250) |
+| previews | VariableDeclaration |  | [1251](../../magpie/internal/gui/assets/app.js#L1251) |
+| anyMagpieModels | VariableDeclaration |  | [1253](../../magpie/internal/gui/assets/app.js#L1253) |
+| connectKind | FunctionDeclaration |  | [1259](../../magpie/internal/gui/assets/app.js#L1259) |
+| SEEN_KEY | VariableDeclaration |  | [1270](../../magpie/internal/gui/assets/app.js#L1270) |
+| seenTimer | VariableDeclaration |  | [1271](../../magpie/internal/gui/assets/app.js#L1271) |
+| newModels | FunctionDeclaration |  | [1272](../../magpie/internal/gui/assets/app.js#L1272) |

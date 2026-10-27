@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 16/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| bar | VariableDeclaration | confirmRemoveGone | [4713](../../magpie/internal/gui/assets/plugins/library/client.js#L4713) |
-| go | VariableDeclaration | confirmRemoveGone | [4714](../../magpie/internal/gui/assets/plugins/library/client.js#L4714) |
-| save | PropertyAssignment | confirmRemoveGone | [4721](../../magpie/internal/gui/assets/plugins/library/client.js#L4721) |
-| removeGone | FunctionDeclaration |  | [4726](../../magpie/internal/gui/assets/plugins/library/client.js#L4726) |
-| v | VariableDeclaration | removeGone | [4728](../../magpie/internal/gui/assets/plugins/library/client.js#L4728) |
-| res | VariableDeclaration | removeGone | [4730](../../magpie/internal/gui/assets/plugins/library/client.js#L4730) |
-| no | VariableDeclaration | removeGone | [4730](../../magpie/internal/gui/assets/plugins/library/client.js#L4730) |
-| out | VariableDeclaration | removeGone | [4731](../../magpie/internal/gui/assets/plugins/library/client.js#L4731) |
-| done | VariableDeclaration | removeGone | [4732](../../magpie/internal/gui/assets/plugins/library/client.js#L4732) |
-| e | VariableDeclaration | removeGone | [4737](../../magpie/internal/gui/assets/plugins/library/client.js#L4737) |
-| confirmUpdateEdited | FunctionDeclaration |  | [4745](../../magpie/internal/gui/assets/plugins/library/client.js#L4745) |
-| ed | VariableDeclaration | confirmUpdateEdited | [4746](../../magpie/internal/gui/assets/plugins/library/client.js#L4746) |
-| head | VariableDeclaration | confirmUpdateEdited | [4747](../../magpie/internal/gui/assets/plugins/library/client.js#L4747) |
-| repo | VariableDeclaration | confirmUpdateEdited | [4748](../../magpie/internal/gui/assets/plugins/library/client.js#L4748) |
-| bar | VariableDeclaration | confirmUpdateEdited | [4754](../../magpie/internal/gui/assets/plugins/library/client.js#L4754) |
-| go | VariableDeclaration | confirmUpdateEdited | [4755](../../magpie/internal/gui/assets/plugins/library/client.js#L4755) |
-| save | PropertyAssignment | confirmUpdateEdited | [4762](../../magpie/internal/gui/assets/plugins/library/client.js#L4762) |
-| confirmRemoveSkill | FunctionDeclaration |  | [4766](../../magpie/internal/gui/assets/plugins/library/client.js#L4766) |
-| ed | VariableDeclaration | confirmRemoveSkill | [4767](../../magpie/internal/gui/assets/plugins/library/client.js#L4767) |
-| head | VariableDeclaration | confirmRemoveSkill | [4768](../../magpie/internal/gui/assets/plugins/library/client.js#L4768) |
-| bar | VariableDeclaration | confirmRemoveSkill | [4774](../../magpie/internal/gui/assets/plugins/library/client.js#L4774) |
-| go | VariableDeclaration | confirmRemoveSkill | [4775](../../magpie/internal/gui/assets/plugins/library/client.js#L4775) |
-| save | PropertyAssignment | confirmRemoveSkill | [4778](../../magpie/internal/gui/assets/plugins/library/client.js#L4778) |
-| viewSkill | FunctionDeclaration |  | [4782](../../magpie/internal/gui/assets/plugins/library/client.js#L4782) |
-| ed | VariableDeclaration | viewSkill | [4783](../../magpie/internal/gui/assets/plugins/library/client.js#L4783) |
-| head | VariableDeclaration | viewSkill | [4784](../../magpie/internal/gui/assets/plugins/library/client.js#L4784) |
-| pre | VariableDeclaration | viewSkill | [4786](../../magpie/internal/gui/assets/plugins/library/client.js#L4786) |
-| bar | VariableDeclaration | viewSkill | [4788](../../magpie/internal/gui/assets/plugins/library/client.js#L4788) |
-| where | VariableDeclaration | viewSkill | [4789](../../magpie/internal/gui/assets/plugins/library/client.js#L4789) |
-| r | VariableDeclaration | viewSkill | [4795](../../magpie/internal/gui/assets/plugins/library/client.js#L4795) |
-| e | VariableDeclaration | viewSkill | [4798](../../magpie/internal/gui/assets/plugins/library/client.js#L4798) |
-| foundSkillRow | FunctionDeclaration |  | [4801](../../magpie/internal/gui/assets/plugins/library/client.js#L4801) |
-| row | VariableDeclaration | foundSkillRow | [4802](../../magpie/internal/gui/assets/plugins/library/client.js#L4802) |
-| who | VariableDeclaration | foundSkillRow | [4803](../../magpie/internal/gui/assets/plugins/library/client.js#L4803) |
-| sub | VariableDeclaration | foundSkillRow | [4805](../../magpie/internal/gui/assets/plugins/library/client.js#L4805) |
-| src | VariableDeclaration | foundSkillRow | [4809](../../magpie/internal/gui/assets/plugins/library/client.js#L4809) |
-| src | VariableDeclaration | foundSkillRow | [4810](../../magpie/internal/gui/assets/plugins/library/client.js#L4810) |
-| src | VariableDeclaration | foundSkillRow | [4811](../../magpie/internal/gui/assets/plugins/library/client.js#L4811) |
-| have | VariableDeclaration | foundSkillRow | [4812](../../magpie/internal/gui/assets/plugins/library/client.js#L4812) |
-| id | VariableDeclaration | foundSkillRow | [4815](../../magpie/internal/gui/assets/plugins/library/client.js#L4815) |
-| a | VariableDeclaration | foundSkillRow | [4815](../../magpie/internal/gui/assets/plugins/library/client.js#L4815) |
-| i | VariableDeclaration | foundSkillRow | [4815](../../magpie/internal/gui/assets/plugins/library/client.js#L4815) |
-| b | VariableDeclaration | foundSkillRow | [4818](../../magpie/internal/gui/assets/plugins/library/client.js#L4818) |
-| rm | VariableDeclaration | foundSkillRow | [4824](../../magpie/internal/gui/assets/plugins/library/client.js#L4824) |
-| endFoundPick | FunctionDeclaration |  | [4836](../../magpie/internal/gui/assets/plugins/library/client.js#L4836) |
-| foundPickButton | FunctionDeclaration |  | [4838](../../magpie/internal/gui/assets/plugins/library/client.js#L4838) |
-| b | VariableDeclaration | foundPickButton | [4839](../../magpie/internal/gui/assets/plugins/library/client.js#L4839) |
-| on | VariableDeclaration | foundPickButton.b | [4840](../../magpie/internal/gui/assets/plugins/library/client.js#L4840) |
-| foundPickRow | FunctionDeclaration |  | [4856](../../magpie/internal/gui/assets/plugins/library/client.js#L4856) |
-| box | VariableDeclaration | foundPickRow | [4857](../../magpie/internal/gui/assets/plugins/library/client.js#L4857) |
-| why | VariableDeclaration | foundPickRow | [4862](../../magpie/internal/gui/assets/plugins/library/client.js#L4862) |
-| sub | VariableDeclaration | foundPickRow | [4862](../../magpie/internal/gui/assets/plugins/library/client.js#L4862) |
-| syncFoundPicks | FunctionDeclaration |  | [4871](../../magpie/internal/gui/assets/plugins/library/client.js#L4871) |
-| b | VariableDeclaration | syncFoundPicks | [4872](../../magpie/internal/gui/assets/plugins/library/client.js#L4872) |
-| bar | VariableDeclaration | syncFoundPicks | [4873](../../magpie/internal/gui/assets/plugins/library/client.js#L4873) |
-| foundPickBar | FunctionDeclaration |  | [4878](../../magpie/internal/gui/assets/plugins/library/client.js#L4878) |
-| bar | VariableDeclaration | foundPickBar | [4879](../../magpie/internal/gui/assets/plugins/library/client.js#L4879) |
-| all | VariableDeclaration | foundPickBar | [4880](../../magpie/internal/gui/assets/plugins/library/client.js#L4880) |
-| some | VariableDeclaration | foundPickBar | [4880](../../magpie/internal/gui/assets/plugins/library/client.js#L4880) |
-| n | VariableDeclaration | foundPickBar | [4880](../../magpie/internal/gui/assets/plugins/library/client.js#L4880) |
-| every | VariableDeclaration | foundPickBar | [4881](../../magpie/internal/gui/assets/plugins/library/client.js#L4881) |
-| rm | VariableDeclaration | foundPickBar | [4886](../../magpie/internal/gui/assets/plugins/library/client.js#L4886) |
-| c | VariableDeclaration | foundPickBar | [4888](../../magpie/internal/gui/assets/plugins/library/client.js#L4888) |
-| confirmRemoveFoundSome | FunctionDeclaration |  | [4898](../../magpie/internal/gui/assets/plugins/library/client.js#L4898) |
-| names | VariableDeclaration | confirmRemoveFoundSome | [4899](../../magpie/internal/gui/assets/plugins/library/client.js#L4899) |
-| n | VariableDeclaration | confirmRemoveFoundSome | [4899](../../magpie/internal/gui/assets/plugins/library/client.js#L4899) |
-| ed | VariableDeclaration | confirmRemoveFoundSome | [4900](../../magpie/internal/gui/assets/plugins/library/client.js#L4900) |
-| head | VariableDeclaration | confirmRemoveFoundSome | [4901](../../magpie/internal/gui/assets/plugins/library/client.js#L4901) |
-| lines | VariableDeclaration | confirmRemoveFoundSome | [4904](../../magpie/internal/gui/assets/plugins/library/client.js#L4904) |
-| f | VariableDeclaration | confirmRemoveFoundSome | [4906](../../magpie/internal/gui/assets/plugins/library/client.js#L4906) |
-| agents | VariableDeclaration | confirmRemoveFoundSome | [4906](../../magpie/internal/gui/assets/plugins/library/client.js#L4906) |
-| agents | VariableDeclaration | confirmRemoveFoundSome | [4913](../../magpie/internal/gui/assets/plugins/library/client.js#L4913) |
-| linked | VariableDeclaration | confirmRemoveFoundSome | [4915](../../magpie/internal/gui/assets/plugins/library/client.js#L4915) |
-| kept | VariableDeclaration | confirmRemoveFoundSome | [4915](../../magpie/internal/gui/assets/plugins/library/client.js#L4915) |
-| shared | VariableDeclaration | confirmRemoveFoundSome | [4915](../../magpie/internal/gui/assets/plugins/library/client.js#L4915) |
-| where | VariableDeclaration | confirmRemoveFoundSome | [4916](../../magpie/internal/gui/assets/plugins/library/client.js#L4916) |
-| l | VariableDeclaration | confirmRemoveFoundSome | [4923](../../magpie/internal/gui/assets/plugins/library/client.js#L4923) |
-| bar | VariableDeclaration | confirmRemoveFoundSome | [4924](../../magpie/internal/gui/assets/plugins/library/client.js#L4924) |
-| go | VariableDeclaration | confirmRemoveFoundSome | [4925](../../magpie/internal/gui/assets/plugins/library/client.js#L4925) |
-| save | PropertyAssignment | confirmRemoveFoundSome | [4928](../../magpie/internal/gui/assets/plugins/library/client.js#L4928) |
-| removeFoundSome | FunctionDeclaration |  | [4935](../../magpie/internal/gui/assets/plugins/library/client.js#L4935) |
-| what | VariableDeclaration | removeFoundSome | [4936](../../magpie/internal/gui/assets/plugins/library/client.js#L4936) |
-| v | VariableDeclaration | removeFoundSome | [4938](../../magpie/internal/gui/assets/plugins/library/client.js#L4938) |
-| res | VariableDeclaration | removeFoundSome | [4940](../../magpie/internal/gui/assets/plugins/library/client.js#L4940) |
-| no | VariableDeclaration | removeFoundSome | [4940](../../magpie/internal/gui/assets/plugins/library/client.js#L4940) |
-| p | VariableDeclaration | removeFoundSome | [4942](../../magpie/internal/gui/assets/plugins/library/client.js#L4942) |
-| gone | VariableDeclaration | removeFoundSome | [4943](../../magpie/internal/gui/assets/plugins/library/client.js#L4943) |
-| x | VariableDeclaration | removeFoundSome | [4944](../../magpie/internal/gui/assets/plugins/library/client.js#L4944) |
-| done | VariableDeclaration | removeFoundSome | [4945](../../magpie/internal/gui/assets/plugins/library/client.js#L4945) |
-| e | VariableDeclaration | removeFoundSome | [4950](../../magpie/internal/gui/assets/plugins/library/client.js#L4950) |
-| confirmRemoveFoundSkill | FunctionDeclaration |  | [4959](../../magpie/internal/gui/assets/plugins/library/client.js#L4959) |
-| ed | VariableDeclaration | confirmRemoveFoundSkill | [4960](../../magpie/internal/gui/assets/plugins/library/client.js#L4960) |
-| head | VariableDeclaration | confirmRemoveFoundSkill | [4961](../../magpie/internal/gui/assets/plugins/library/client.js#L4961) |
-| agents | VariableDeclaration | confirmRemoveFoundSkill | [4964](../../magpie/internal/gui/assets/plugins/library/client.js#L4964) |
-| bar | VariableDeclaration | confirmRemoveFoundSkill | [4970](../../magpie/internal/gui/assets/plugins/library/client.js#L4970) |
-| go | VariableDeclaration | confirmRemoveFoundSkill | [4971](../../magpie/internal/gui/assets/plugins/library/client.js#L4971) |
-| save | PropertyAssignment | confirmRemoveFoundSkill | [4974](../../magpie/internal/gui/assets/plugins/library/client.js#L4974) |
-| market | VariableDeclaration |  | [4982](../../magpie/internal/gui/assets/plugins/library/client.js#L4982) |
-| asked | VariableDeclaration |  | [4986](../../magpie/internal/gui/assets/plugins/library/client.js#L4986) |
-| fetchMarket | FunctionDeclaration |  | [4988](../../magpie/internal/gui/assets/plugins/library/client.js#L4988) |
+| li | VariableDeclaration | confirmRemoveGone | [4718](../../magpie/internal/gui/assets/plugins/library/client.js#L4718) |
+| bar | VariableDeclaration | confirmRemoveGone | [4724](../../magpie/internal/gui/assets/plugins/library/client.js#L4724) |
+| go | VariableDeclaration | confirmRemoveGone | [4725](../../magpie/internal/gui/assets/plugins/library/client.js#L4725) |
+| save | PropertyAssignment | confirmRemoveGone | [4732](../../magpie/internal/gui/assets/plugins/library/client.js#L4732) |
+| removeGone | FunctionDeclaration |  | [4737](../../magpie/internal/gui/assets/plugins/library/client.js#L4737) |
+| v | VariableDeclaration | removeGone | [4739](../../magpie/internal/gui/assets/plugins/library/client.js#L4739) |
+| res | VariableDeclaration | removeGone | [4741](../../magpie/internal/gui/assets/plugins/library/client.js#L4741) |
+| no | VariableDeclaration | removeGone | [4741](../../magpie/internal/gui/assets/plugins/library/client.js#L4741) |
+| out | VariableDeclaration | removeGone | [4742](../../magpie/internal/gui/assets/plugins/library/client.js#L4742) |
+| done | VariableDeclaration | removeGone | [4743](../../magpie/internal/gui/assets/plugins/library/client.js#L4743) |
+| e | VariableDeclaration | removeGone | [4748](../../magpie/internal/gui/assets/plugins/library/client.js#L4748) |
+| confirmUpdateEdited | FunctionDeclaration |  | [4756](../../magpie/internal/gui/assets/plugins/library/client.js#L4756) |
+| ed | VariableDeclaration | confirmUpdateEdited | [4757](../../magpie/internal/gui/assets/plugins/library/client.js#L4757) |
+| head | VariableDeclaration | confirmUpdateEdited | [4758](../../magpie/internal/gui/assets/plugins/library/client.js#L4758) |
+| repo | VariableDeclaration | confirmUpdateEdited | [4759](../../magpie/internal/gui/assets/plugins/library/client.js#L4759) |
+| bar | VariableDeclaration | confirmUpdateEdited | [4765](../../magpie/internal/gui/assets/plugins/library/client.js#L4765) |
+| go | VariableDeclaration | confirmUpdateEdited | [4766](../../magpie/internal/gui/assets/plugins/library/client.js#L4766) |
+| save | PropertyAssignment | confirmUpdateEdited | [4773](../../magpie/internal/gui/assets/plugins/library/client.js#L4773) |
+| confirmRemoveSkill | FunctionDeclaration |  | [4777](../../magpie/internal/gui/assets/plugins/library/client.js#L4777) |
+| ed | VariableDeclaration | confirmRemoveSkill | [4778](../../magpie/internal/gui/assets/plugins/library/client.js#L4778) |
+| head | VariableDeclaration | confirmRemoveSkill | [4779](../../magpie/internal/gui/assets/plugins/library/client.js#L4779) |
+| bar | VariableDeclaration | confirmRemoveSkill | [4785](../../magpie/internal/gui/assets/plugins/library/client.js#L4785) |
+| go | VariableDeclaration | confirmRemoveSkill | [4786](../../magpie/internal/gui/assets/plugins/library/client.js#L4786) |
+| save | PropertyAssignment | confirmRemoveSkill | [4789](../../magpie/internal/gui/assets/plugins/library/client.js#L4789) |
+| viewSkill | FunctionDeclaration |  | [4793](../../magpie/internal/gui/assets/plugins/library/client.js#L4793) |
+| ed | VariableDeclaration | viewSkill | [4794](../../magpie/internal/gui/assets/plugins/library/client.js#L4794) |
+| head | VariableDeclaration | viewSkill | [4795](../../magpie/internal/gui/assets/plugins/library/client.js#L4795) |
+| pre | VariableDeclaration | viewSkill | [4797](../../magpie/internal/gui/assets/plugins/library/client.js#L4797) |
+| bar | VariableDeclaration | viewSkill | [4799](../../magpie/internal/gui/assets/plugins/library/client.js#L4799) |
+| where | VariableDeclaration | viewSkill | [4800](../../magpie/internal/gui/assets/plugins/library/client.js#L4800) |
+| r | VariableDeclaration | viewSkill | [4806](../../magpie/internal/gui/assets/plugins/library/client.js#L4806) |
+| e | VariableDeclaration | viewSkill | [4809](../../magpie/internal/gui/assets/plugins/library/client.js#L4809) |
+| foundSkillRow | FunctionDeclaration |  | [4812](../../magpie/internal/gui/assets/plugins/library/client.js#L4812) |
+| row | VariableDeclaration | foundSkillRow | [4813](../../magpie/internal/gui/assets/plugins/library/client.js#L4813) |
+| who | VariableDeclaration | foundSkillRow | [4814](../../magpie/internal/gui/assets/plugins/library/client.js#L4814) |
+| sub | VariableDeclaration | foundSkillRow | [4816](../../magpie/internal/gui/assets/plugins/library/client.js#L4816) |
+| src | VariableDeclaration | foundSkillRow | [4820](../../magpie/internal/gui/assets/plugins/library/client.js#L4820) |
+| src | VariableDeclaration | foundSkillRow | [4821](../../magpie/internal/gui/assets/plugins/library/client.js#L4821) |
+| src | VariableDeclaration | foundSkillRow | [4822](../../magpie/internal/gui/assets/plugins/library/client.js#L4822) |
+| have | VariableDeclaration | foundSkillRow | [4823](../../magpie/internal/gui/assets/plugins/library/client.js#L4823) |
+| id | VariableDeclaration | foundSkillRow | [4826](../../magpie/internal/gui/assets/plugins/library/client.js#L4826) |
+| a | VariableDeclaration | foundSkillRow | [4826](../../magpie/internal/gui/assets/plugins/library/client.js#L4826) |
+| i | VariableDeclaration | foundSkillRow | [4826](../../magpie/internal/gui/assets/plugins/library/client.js#L4826) |
+| b | VariableDeclaration | foundSkillRow | [4829](../../magpie/internal/gui/assets/plugins/library/client.js#L4829) |
+| rm | VariableDeclaration | foundSkillRow | [4835](../../magpie/internal/gui/assets/plugins/library/client.js#L4835) |
+| endFoundPick | FunctionDeclaration |  | [4847](../../magpie/internal/gui/assets/plugins/library/client.js#L4847) |
+| foundPickButton | FunctionDeclaration |  | [4849](../../magpie/internal/gui/assets/plugins/library/client.js#L4849) |
+| b | VariableDeclaration | foundPickButton | [4850](../../magpie/internal/gui/assets/plugins/library/client.js#L4850) |
+| on | VariableDeclaration | foundPickButton.b | [4851](../../magpie/internal/gui/assets/plugins/library/client.js#L4851) |
+| foundPickRow | FunctionDeclaration |  | [4867](../../magpie/internal/gui/assets/plugins/library/client.js#L4867) |
+| box | VariableDeclaration | foundPickRow | [4868](../../magpie/internal/gui/assets/plugins/library/client.js#L4868) |
+| why | VariableDeclaration | foundPickRow | [4873](../../magpie/internal/gui/assets/plugins/library/client.js#L4873) |
+| sub | VariableDeclaration | foundPickRow | [4873](../../magpie/internal/gui/assets/plugins/library/client.js#L4873) |
+| syncFoundPicks | FunctionDeclaration |  | [4882](../../magpie/internal/gui/assets/plugins/library/client.js#L4882) |
+| b | VariableDeclaration | syncFoundPicks | [4883](../../magpie/internal/gui/assets/plugins/library/client.js#L4883) |
+| bar | VariableDeclaration | syncFoundPicks | [4884](../../magpie/internal/gui/assets/plugins/library/client.js#L4884) |
+| foundPickBar | FunctionDeclaration |  | [4889](../../magpie/internal/gui/assets/plugins/library/client.js#L4889) |
+| bar | VariableDeclaration | foundPickBar | [4890](../../magpie/internal/gui/assets/plugins/library/client.js#L4890) |
+| all | VariableDeclaration | foundPickBar | [4891](../../magpie/internal/gui/assets/plugins/library/client.js#L4891) |
+| some | VariableDeclaration | foundPickBar | [4891](../../magpie/internal/gui/assets/plugins/library/client.js#L4891) |
+| n | VariableDeclaration | foundPickBar | [4891](../../magpie/internal/gui/assets/plugins/library/client.js#L4891) |
+| every | VariableDeclaration | foundPickBar | [4892](../../magpie/internal/gui/assets/plugins/library/client.js#L4892) |
+| rm | VariableDeclaration | foundPickBar | [4897](../../magpie/internal/gui/assets/plugins/library/client.js#L4897) |
+| c | VariableDeclaration | foundPickBar | [4899](../../magpie/internal/gui/assets/plugins/library/client.js#L4899) |
+| confirmRemoveFoundSome | FunctionDeclaration |  | [4909](../../magpie/internal/gui/assets/plugins/library/client.js#L4909) |
+| names | VariableDeclaration | confirmRemoveFoundSome | [4910](../../magpie/internal/gui/assets/plugins/library/client.js#L4910) |
+| n | VariableDeclaration | confirmRemoveFoundSome | [4910](../../magpie/internal/gui/assets/plugins/library/client.js#L4910) |
+| ed | VariableDeclaration | confirmRemoveFoundSome | [4911](../../magpie/internal/gui/assets/plugins/library/client.js#L4911) |
+| head | VariableDeclaration | confirmRemoveFoundSome | [4912](../../magpie/internal/gui/assets/plugins/library/client.js#L4912) |
+| lines | VariableDeclaration | confirmRemoveFoundSome | [4915](../../magpie/internal/gui/assets/plugins/library/client.js#L4915) |
+| f | VariableDeclaration | confirmRemoveFoundSome | [4917](../../magpie/internal/gui/assets/plugins/library/client.js#L4917) |
+| agents | VariableDeclaration | confirmRemoveFoundSome | [4917](../../magpie/internal/gui/assets/plugins/library/client.js#L4917) |
+| agents | VariableDeclaration | confirmRemoveFoundSome | [4924](../../magpie/internal/gui/assets/plugins/library/client.js#L4924) |
+| linked | VariableDeclaration | confirmRemoveFoundSome | [4926](../../magpie/internal/gui/assets/plugins/library/client.js#L4926) |
+| kept | VariableDeclaration | confirmRemoveFoundSome | [4926](../../magpie/internal/gui/assets/plugins/library/client.js#L4926) |
+| shared | VariableDeclaration | confirmRemoveFoundSome | [4926](../../magpie/internal/gui/assets/plugins/library/client.js#L4926) |
+| where | VariableDeclaration | confirmRemoveFoundSome | [4927](../../magpie/internal/gui/assets/plugins/library/client.js#L4927) |
+| l | VariableDeclaration | confirmRemoveFoundSome | [4934](../../magpie/internal/gui/assets/plugins/library/client.js#L4934) |
+| bar | VariableDeclaration | confirmRemoveFoundSome | [4935](../../magpie/internal/gui/assets/plugins/library/client.js#L4935) |
+| go | VariableDeclaration | confirmRemoveFoundSome | [4936](../../magpie/internal/gui/assets/plugins/library/client.js#L4936) |
+| save | PropertyAssignment | confirmRemoveFoundSome | [4939](../../magpie/internal/gui/assets/plugins/library/client.js#L4939) |
+| removeFoundSome | FunctionDeclaration |  | [4946](../../magpie/internal/gui/assets/plugins/library/client.js#L4946) |
+| what | VariableDeclaration | removeFoundSome | [4947](../../magpie/internal/gui/assets/plugins/library/client.js#L4947) |
+| v | VariableDeclaration | removeFoundSome | [4949](../../magpie/internal/gui/assets/plugins/library/client.js#L4949) |
+| res | VariableDeclaration | removeFoundSome | [4951](../../magpie/internal/gui/assets/plugins/library/client.js#L4951) |
+| no | VariableDeclaration | removeFoundSome | [4951](../../magpie/internal/gui/assets/plugins/library/client.js#L4951) |
+| p | VariableDeclaration | removeFoundSome | [4953](../../magpie/internal/gui/assets/plugins/library/client.js#L4953) |
+| gone | VariableDeclaration | removeFoundSome | [4954](../../magpie/internal/gui/assets/plugins/library/client.js#L4954) |
+| x | VariableDeclaration | removeFoundSome | [4955](../../magpie/internal/gui/assets/plugins/library/client.js#L4955) |
+| done | VariableDeclaration | removeFoundSome | [4956](../../magpie/internal/gui/assets/plugins/library/client.js#L4956) |
+| e | VariableDeclaration | removeFoundSome | [4961](../../magpie/internal/gui/assets/plugins/library/client.js#L4961) |
+| confirmRemoveFoundSkill | FunctionDeclaration |  | [4970](../../magpie/internal/gui/assets/plugins/library/client.js#L4970) |
+| ed | VariableDeclaration | confirmRemoveFoundSkill | [4971](../../magpie/internal/gui/assets/plugins/library/client.js#L4971) |
+| head | VariableDeclaration | confirmRemoveFoundSkill | [4972](../../magpie/internal/gui/assets/plugins/library/client.js#L4972) |
+| agents | VariableDeclaration | confirmRemoveFoundSkill | [4975](../../magpie/internal/gui/assets/plugins/library/client.js#L4975) |
+| bar | VariableDeclaration | confirmRemoveFoundSkill | [4981](../../magpie/internal/gui/assets/plugins/library/client.js#L4981) |
+| go | VariableDeclaration | confirmRemoveFoundSkill | [4982](../../magpie/internal/gui/assets/plugins/library/client.js#L4982) |
+| save | PropertyAssignment | confirmRemoveFoundSkill | [4985](../../magpie/internal/gui/assets/plugins/library/client.js#L4985) |
+| market | VariableDeclaration |  | [4993](../../magpie/internal/gui/assets/plugins/library/client.js#L4993) |
+| asked | VariableDeclaration |  | [4997](../../magpie/internal/gui/assets/plugins/library/client.js#L4997) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 8/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| rects | VariableDeclaration | dragRows | [2878](../../magpie/internal/gui/assets/app.js#L2878) |
-| tops | VariableDeclaration | dragRows | [2879](../../magpie/internal/gui/assets/app.js#L2879) |
-| heights | VariableDeclaration | dragRows | [2879](../../magpie/internal/gui/assets/app.js#L2879) |
-| h | VariableDeclaration | dragRows | [2879](../../magpie/internal/gui/assets/app.js#L2879) |
-| scroll | VariableDeclaration | dragRows | [2880](../../magpie/internal/gui/assets/app.js#L2880) |
-| bounds | VariableDeclaration | dragRows | [2883](../../magpie/internal/gui/assets/app.js#L2883) |
-| scroll0 | VariableDeclaration | dragRows | [2883](../../magpie/internal/gui/assets/app.js#L2883) |
-| dragging | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| ended | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| to | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| y | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| frame | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| lastTime | VariableDeclaration | dragRows | [2884](../../magpie/internal/gui/assets/app.js#L2884) |
-| y0 | VariableDeclaration | dragRows | [2885](../../magpie/internal/gui/assets/app.js#L2885) |
-| pointer | VariableDeclaration | dragRows | [2885](../../magpie/internal/gui/assets/app.js#L2885) |
-| paint | VariableDeclaration | dragRows | [2886](../../magpie/internal/gui/assets/app.js#L2886) |
-| dt | VariableDeclaration | dragRows.paint | [2890](../../magpie/internal/gui/assets/app.js#L2890) |
-| edge | VariableDeclaration | dragRows.paint | [2892](../../magpie/internal/gui/assets/app.js#L2892) |
-| speed | VariableDeclaration | dragRows.paint | [2893](../../magpie/internal/gui/assets/app.js#L2893) |
-| dy | VariableDeclaration | dragRows.paint | [2896](../../magpie/internal/gui/assets/app.js#L2896) |
-| lo | VariableDeclaration | dragRows.paint | [2897](../../magpie/internal/gui/assets/app.js#L2897) |
-| hi | VariableDeclaration | dragRows.paint | [2897](../../magpie/internal/gui/assets/app.js#L2897) |
-| d | VariableDeclaration | dragRows.paint | [2898](../../magpie/internal/gui/assets/app.js#L2898) |
-| mid | VariableDeclaration | dragRows.paint | [2900](../../magpie/internal/gui/assets/app.js#L2900) |
-| shift | VariableDeclaration | dragRows.paint | [2911](../../magpie/internal/gui/assets/app.js#L2911) |
-| move | VariableDeclaration | dragRows | [2916](../../magpie/internal/gui/assets/app.js#L2916) |
-| finish | VariableDeclaration | dragRows | [2933](../../magpie/internal/gui/assets/app.js#L2933) |
-| up | VariableDeclaration | dragRows | [2959](../../magpie/internal/gui/assets/app.js#L2959) |
-| cancel | VariableDeclaration | dragRows | [2960](../../magpie/internal/gui/assets/app.js#L2960) |
-| keys | VariableDeclaration | dragRows | [2961](../../magpie/internal/gui/assets/app.js#L2961) |
-| dragCards | FunctionDeclaration |  | [2975](../../magpie/internal/gui/assets/app.js#L2975) |
-| from | VariableDeclaration | dragCards | [2977](../../magpie/internal/gui/assets/app.js#L2977) |
-| rects | VariableDeclaration | dragCards | [2979](../../magpie/internal/gui/assets/app.js#L2979) |
-| scroll | VariableDeclaration | dragCards | [2980](../../magpie/internal/gui/assets/app.js#L2980) |
-| bounds | VariableDeclaration | dragCards | [2983](../../magpie/internal/gui/assets/app.js#L2983) |
-| scroll0 | VariableDeclaration | dragCards | [2983](../../magpie/internal/gui/assets/app.js#L2983) |
-| dragging | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| ended | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| to | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| x | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| y | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| frame | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| lastTime | VariableDeclaration | dragCards | [2984](../../magpie/internal/gui/assets/app.js#L2984) |
-| x0 | VariableDeclaration | dragCards | [2985](../../magpie/internal/gui/assets/app.js#L2985) |
-| y0 | VariableDeclaration | dragCards | [2985](../../magpie/internal/gui/assets/app.js#L2985) |
-| pointer | VariableDeclaration | dragCards | [2985](../../magpie/internal/gui/assets/app.js#L2985) |
-| r0 | VariableDeclaration | dragCards | [2986](../../magpie/internal/gui/assets/app.js#L2986) |
-| paint | VariableDeclaration | dragCards | [2987](../../magpie/internal/gui/assets/app.js#L2987) |
-| dt | VariableDeclaration | dragCards.paint | [2991](../../magpie/internal/gui/assets/app.js#L2991) |
-| edge | VariableDeclaration | dragCards.paint | [2993](../../magpie/internal/gui/assets/app.js#L2993) |
-| speed | VariableDeclaration | dragCards.paint | [2994](../../magpie/internal/gui/assets/app.js#L2994) |
-| dx | VariableDeclaration | dragCards.paint | [2997](../../magpie/internal/gui/assets/app.js#L2997) |
-| dy | VariableDeclaration | dragCards.paint | [2997](../../magpie/internal/gui/assets/app.js#L2997) |
-| cx | VariableDeclaration | dragCards.paint | [2999](../../magpie/internal/gui/assets/app.js#L2999) |
-| cy | VariableDeclaration | dragCards.paint | [2999](../../magpie/internal/gui/assets/app.js#L2999) |
-| best | VariableDeclaration | dragCards.paint | [3000](../../magpie/internal/gui/assets/app.js#L3000) |
-| d | VariableDeclaration | dragCards.paint | [3002](../../magpie/internal/gui/assets/app.js#L3002) |
-| j | VariableDeclaration | dragCards.paint | [3007](../../magpie/internal/gui/assets/app.js#L3007) |
-| move | VariableDeclaration | dragCards | [3012](../../magpie/internal/gui/assets/app.js#L3012) |
-| finish | VariableDeclaration | dragCards | [3029](../../magpie/internal/gui/assets/app.js#L3029) |
-| up | VariableDeclaration | dragCards | [3055](../../magpie/internal/gui/assets/app.js#L3055) |
-| cancel | VariableDeclaration | dragCards | [3056](../../magpie/internal/gui/assets/app.js#L3056) |
-| keys | VariableDeclaration | dragCards | [3057](../../magpie/internal/gui/assets/app.js#L3057) |
-| CODEX_APP_MENU | VariableDeclaration |  | [3074](../../magpie/internal/gui/assets/app.js#L3074) |
-| modelsEntry | FunctionDeclaration |  | [3079](../../magpie/internal/gui/assets/app.js#L3079) |
-| b | VariableDeclaration | modelsEntry | [3080](../../magpie/internal/gui/assets/app.js#L3080) |
-| fillModelsEntry | FunctionDeclaration |  | [3087](../../magpie/internal/gui/assets/app.js#L3087) |
-| c | VariableDeclaration | fillModelsEntry | [3088](../../magpie/internal/gui/assets/app.js#L3088) |
-| words | VariableDeclaration | fillModelsEntry | [3091](../../magpie/internal/gui/assets/app.js#L3091) |
-| [pre, post] | VariableDeclaration | fillModelsEntry | [3094](../../magpie/internal/gui/assets/app.js#L3094) |
-| pre | BindingElement | fillModelsEntry.[pre, post] | [3094](../../magpie/internal/gui/assets/app.js#L3094) |
-| post | BindingElement | fillModelsEntry.[pre, post] | [3094](../../magpie/internal/gui/assets/app.js#L3094) |
-| ctxShort | VariableDeclaration |  | [3102](../../magpie/internal/gui/assets/app.js#L3102) |
-| agentModels | VariableDeclaration |  | [3104](../../magpie/internal/gui/assets/app.js#L3104) |
-| agentModelsLoading | VariableDeclaration |  | [3109](../../magpie/internal/gui/assets/app.js#L3109) |
-| closeAgentModels | FunctionDeclaration |  | [3110](../../magpie/internal/gui/assets/app.js#L3110) |
-| m | VariableDeclaration | closeAgentModels | [3112](../../magpie/internal/gui/assets/app.js#L3112) |
-| f | VariableDeclaration | closeAgentModels | [3126](../../magpie/internal/gui/assets/app.js#L3126) |
-| f | VariableDeclaration | closeAgentModels | [3131](../../magpie/internal/gui/assets/app.js#L3131) |
-| holdAgentModels | FunctionDeclaration |  | [3144](../../magpie/internal/gui/assets/app.js#L3144) |
-| openAgentModels | FunctionDeclaration |  | [3152](../../magpie/internal/gui/assets/app.js#L3152) |
-| again | VariableDeclaration | openAgentModels | [3154](../../magpie/internal/gui/assets/app.js#L3154) |
-| loading | VariableDeclaration | openAgentModels | [3159](../../magpie/internal/gui/assets/app.js#L3159) |
-| away | PropertyAssignment | openAgentModels.loading | [3162](../../magpie/internal/gui/assets/app.js#L3162) |
-| drop | MethodDeclaration | openAgentModels.loading | [3163](../../magpie/internal/gui/assets/app.js#L3163) |
-| models | VariableDeclaration | openAgentModels | [3175](../../magpie/internal/gui/assets/app.js#L3175) |
-| ordered | VariableDeclaration | openAgentModels | [3175](../../magpie/internal/gui/assets/app.js#L3175) |
-| only | VariableDeclaration | openAgentModels | [3175](../../magpie/internal/gui/assets/app.js#L3175) |
-| own | VariableDeclaration | openAgentModels | [3175](../../magpie/internal/gui/assets/app.js#L3175) |
-| ownHidden | VariableDeclaration | openAgentModels | [3175](../../magpie/internal/gui/assets/app.js#L3175) |
-| e | VariableDeclaration | openAgentModels | [3177](../../magpie/internal/gui/assets/app.js#L3177) |
-| box | VariableDeclaration | openAgentModels | [3186](../../magpie/internal/gui/assets/app.js#L3186) |
-| head | VariableDeclaration | openAgentModels | [3189](../../magpie/internal/gui/assets/app.js#L3189) |
-| ownBox | VariableDeclaration | openAgentModels | [3195](../../magpie/internal/gui/assets/app.js#L3195) |
-| ownSw | VariableDeclaration | openAgentModels | [3196](../../magpie/internal/gui/assets/app.js#L3196) |
-| ownSay | VariableDeclaration | openAgentModels | [3201](../../magpie/internal/gui/assets/app.js#L3201) |
-| tools | VariableDeclaration | openAgentModels | [3206](../../magpie/internal/gui/assets/app.js#L3206) |
-| search | VariableDeclaration | openAgentModels | [3207](../../magpie/internal/gui/assets/app.js#L3207) |
-| q | VariableDeclaration | openAgentModels | [3209](../../magpie/internal/gui/assets/app.js#L3209) |
-| seg | VariableDeclaration | openAgentModels | [3215](../../magpie/internal/gui/assets/app.js#L3215) |
+| { shown } | VariableDeclaration | agentHandle | [2878](../../magpie/internal/gui/assets/app.js#L2878) |
+| shown | BindingElement | agentHandle.{ shown } | [2878](../../magpie/internal/gui/assets/app.js#L2878) |
+| i | VariableDeclaration | agentHandle | [2879](../../magpie/internal/gui/assets/app.js#L2879) |
+| dragAgent | FunctionDeclaration |  | [2891](../../magpie/internal/gui/assets/app.js#L2891) |
+| list | VariableDeclaration | dragAgent | [2893](../../magpie/internal/gui/assets/app.js#L2893) |
+| dragRows | FunctionDeclaration |  | [2904](../../magpie/internal/gui/assets/app.js#L2904) |
+| from | VariableDeclaration | dragRows | [2906](../../magpie/internal/gui/assets/app.js#L2906) |
+| rects | VariableDeclaration | dragRows | [2908](../../magpie/internal/gui/assets/app.js#L2908) |
+| tops | VariableDeclaration | dragRows | [2909](../../magpie/internal/gui/assets/app.js#L2909) |
+| heights | VariableDeclaration | dragRows | [2909](../../magpie/internal/gui/assets/app.js#L2909) |
+| h | VariableDeclaration | dragRows | [2909](../../magpie/internal/gui/assets/app.js#L2909) |
+| scroll | VariableDeclaration | dragRows | [2910](../../magpie/internal/gui/assets/app.js#L2910) |
+| bounds | VariableDeclaration | dragRows | [2913](../../magpie/internal/gui/assets/app.js#L2913) |
+| scroll0 | VariableDeclaration | dragRows | [2913](../../magpie/internal/gui/assets/app.js#L2913) |
+| dragging | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| ended | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| to | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| y | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| frame | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| lastTime | VariableDeclaration | dragRows | [2914](../../magpie/internal/gui/assets/app.js#L2914) |
+| y0 | VariableDeclaration | dragRows | [2915](../../magpie/internal/gui/assets/app.js#L2915) |
+| pointer | VariableDeclaration | dragRows | [2915](../../magpie/internal/gui/assets/app.js#L2915) |
+| paint | VariableDeclaration | dragRows | [2916](../../magpie/internal/gui/assets/app.js#L2916) |
+| dt | VariableDeclaration | dragRows.paint | [2920](../../magpie/internal/gui/assets/app.js#L2920) |
+| edge | VariableDeclaration | dragRows.paint | [2922](../../magpie/internal/gui/assets/app.js#L2922) |
+| speed | VariableDeclaration | dragRows.paint | [2923](../../magpie/internal/gui/assets/app.js#L2923) |
+| dy | VariableDeclaration | dragRows.paint | [2926](../../magpie/internal/gui/assets/app.js#L2926) |
+| lo | VariableDeclaration | dragRows.paint | [2927](../../magpie/internal/gui/assets/app.js#L2927) |
+| hi | VariableDeclaration | dragRows.paint | [2927](../../magpie/internal/gui/assets/app.js#L2927) |
+| d | VariableDeclaration | dragRows.paint | [2928](../../magpie/internal/gui/assets/app.js#L2928) |
+| mid | VariableDeclaration | dragRows.paint | [2930](../../magpie/internal/gui/assets/app.js#L2930) |
+| shift | VariableDeclaration | dragRows.paint | [2941](../../magpie/internal/gui/assets/app.js#L2941) |
+| move | VariableDeclaration | dragRows | [2946](../../magpie/internal/gui/assets/app.js#L2946) |
+| finish | VariableDeclaration | dragRows | [2963](../../magpie/internal/gui/assets/app.js#L2963) |
+| up | VariableDeclaration | dragRows | [2989](../../magpie/internal/gui/assets/app.js#L2989) |
+| cancel | VariableDeclaration | dragRows | [2990](../../magpie/internal/gui/assets/app.js#L2990) |
+| keys | VariableDeclaration | dragRows | [2991](../../magpie/internal/gui/assets/app.js#L2991) |
+| dragCards | FunctionDeclaration |  | [3005](../../magpie/internal/gui/assets/app.js#L3005) |
+| from | VariableDeclaration | dragCards | [3007](../../magpie/internal/gui/assets/app.js#L3007) |
+| rects | VariableDeclaration | dragCards | [3009](../../magpie/internal/gui/assets/app.js#L3009) |
+| scroll | VariableDeclaration | dragCards | [3010](../../magpie/internal/gui/assets/app.js#L3010) |
+| bounds | VariableDeclaration | dragCards | [3013](../../magpie/internal/gui/assets/app.js#L3013) |
+| scroll0 | VariableDeclaration | dragCards | [3013](../../magpie/internal/gui/assets/app.js#L3013) |
+| dragging | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| ended | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| to | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| x | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| y | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| frame | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| lastTime | VariableDeclaration | dragCards | [3014](../../magpie/internal/gui/assets/app.js#L3014) |
+| x0 | VariableDeclaration | dragCards | [3015](../../magpie/internal/gui/assets/app.js#L3015) |
+| y0 | VariableDeclaration | dragCards | [3015](../../magpie/internal/gui/assets/app.js#L3015) |
+| pointer | VariableDeclaration | dragCards | [3015](../../magpie/internal/gui/assets/app.js#L3015) |
+| r0 | VariableDeclaration | dragCards | [3016](../../magpie/internal/gui/assets/app.js#L3016) |
+| paint | VariableDeclaration | dragCards | [3017](../../magpie/internal/gui/assets/app.js#L3017) |
+| dt | VariableDeclaration | dragCards.paint | [3021](../../magpie/internal/gui/assets/app.js#L3021) |
+| edge | VariableDeclaration | dragCards.paint | [3023](../../magpie/internal/gui/assets/app.js#L3023) |
+| speed | VariableDeclaration | dragCards.paint | [3024](../../magpie/internal/gui/assets/app.js#L3024) |
+| dx | VariableDeclaration | dragCards.paint | [3027](../../magpie/internal/gui/assets/app.js#L3027) |
+| dy | VariableDeclaration | dragCards.paint | [3027](../../magpie/internal/gui/assets/app.js#L3027) |
+| cx | VariableDeclaration | dragCards.paint | [3029](../../magpie/internal/gui/assets/app.js#L3029) |
+| cy | VariableDeclaration | dragCards.paint | [3029](../../magpie/internal/gui/assets/app.js#L3029) |
+| best | VariableDeclaration | dragCards.paint | [3030](../../magpie/internal/gui/assets/app.js#L3030) |
+| d | VariableDeclaration | dragCards.paint | [3032](../../magpie/internal/gui/assets/app.js#L3032) |
+| j | VariableDeclaration | dragCards.paint | [3037](../../magpie/internal/gui/assets/app.js#L3037) |
+| move | VariableDeclaration | dragCards | [3042](../../magpie/internal/gui/assets/app.js#L3042) |
+| finish | VariableDeclaration | dragCards | [3059](../../magpie/internal/gui/assets/app.js#L3059) |
+| up | VariableDeclaration | dragCards | [3085](../../magpie/internal/gui/assets/app.js#L3085) |
+| cancel | VariableDeclaration | dragCards | [3086](../../magpie/internal/gui/assets/app.js#L3086) |
+| keys | VariableDeclaration | dragCards | [3087](../../magpie/internal/gui/assets/app.js#L3087) |
+| CODEX_APP_MENU | VariableDeclaration |  | [3104](../../magpie/internal/gui/assets/app.js#L3104) |
+| modelsEntry | FunctionDeclaration |  | [3109](../../magpie/internal/gui/assets/app.js#L3109) |
+| b | VariableDeclaration | modelsEntry | [3110](../../magpie/internal/gui/assets/app.js#L3110) |
+| fillModelsEntry | FunctionDeclaration |  | [3117](../../magpie/internal/gui/assets/app.js#L3117) |
+| c | VariableDeclaration | fillModelsEntry | [3118](../../magpie/internal/gui/assets/app.js#L3118) |
+| words | VariableDeclaration | fillModelsEntry | [3121](../../magpie/internal/gui/assets/app.js#L3121) |
+| [pre, post] | VariableDeclaration | fillModelsEntry | [3124](../../magpie/internal/gui/assets/app.js#L3124) |
+| pre | BindingElement | fillModelsEntry.[pre, post] | [3124](../../magpie/internal/gui/assets/app.js#L3124) |
+| post | BindingElement | fillModelsEntry.[pre, post] | [3124](../../magpie/internal/gui/assets/app.js#L3124) |
+| ctxShort | VariableDeclaration |  | [3132](../../magpie/internal/gui/assets/app.js#L3132) |
+| agentModels | VariableDeclaration |  | [3134](../../magpie/internal/gui/assets/app.js#L3134) |
+| agentModelsLoading | VariableDeclaration |  | [3139](../../magpie/internal/gui/assets/app.js#L3139) |
+| closeAgentModels | FunctionDeclaration |  | [3140](../../magpie/internal/gui/assets/app.js#L3140) |
+| m | VariableDeclaration | closeAgentModels | [3142](../../magpie/internal/gui/assets/app.js#L3142) |
+| f | VariableDeclaration | closeAgentModels | [3156](../../magpie/internal/gui/assets/app.js#L3156) |
+| f | VariableDeclaration | closeAgentModels | [3161](../../magpie/internal/gui/assets/app.js#L3161) |
+| holdAgentModels | FunctionDeclaration |  | [3174](../../magpie/internal/gui/assets/app.js#L3174) |
+| openAgentModels | FunctionDeclaration |  | [3182](../../magpie/internal/gui/assets/app.js#L3182) |
+| again | VariableDeclaration | openAgentModels | [3184](../../magpie/internal/gui/assets/app.js#L3184) |
+| loading | VariableDeclaration | openAgentModels | [3189](../../magpie/internal/gui/assets/app.js#L3189) |
+| away | PropertyAssignment | openAgentModels.loading | [3192](../../magpie/internal/gui/assets/app.js#L3192) |
+| drop | MethodDeclaration | openAgentModels.loading | [3193](../../magpie/internal/gui/assets/app.js#L3193) |
+| models | VariableDeclaration | openAgentModels | [3205](../../magpie/internal/gui/assets/app.js#L3205) |
+| ordered | VariableDeclaration | openAgentModels | [3205](../../magpie/internal/gui/assets/app.js#L3205) |
+| only | VariableDeclaration | openAgentModels | [3205](../../magpie/internal/gui/assets/app.js#L3205) |
+| own | VariableDeclaration | openAgentModels | [3205](../../magpie/internal/gui/assets/app.js#L3205) |
+| ownHidden | VariableDeclaration | openAgentModels | [3205](../../magpie/internal/gui/assets/app.js#L3205) |
+| e | VariableDeclaration | openAgentModels | [3207](../../magpie/internal/gui/assets/app.js#L3207) |
+| box | VariableDeclaration | openAgentModels | [3216](../../magpie/internal/gui/assets/app.js#L3216) |
+| head | VariableDeclaration | openAgentModels | [3219](../../magpie/internal/gui/assets/app.js#L3219) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/balance.go) · page 2/2
 
-Source SHA-256: 76176f858ea8562f778ac2b24b08873c7f67dd81fba6210881bc0882ec5ac3c1
+Source SHA-256: 967023ff8c464fd3dfa53b631766fd697a1f6a42157d3326b386b62dc5b86e24
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -39,5 +39,5 @@ Source SHA-256: 76176f858ea8562f778ac2b24b08873c7f67dd81fba6210881bc0882ec5ac3c1
 | job | struct_type | KeyBalances | [1435](../../magpie/internal/provider/balance.go#L1435) |
 | p | field_declaration | KeyBalances.job | [1436](../../magpie/internal/provider/balance.go#L1436) |
 | user | field_declaration | KeyBalances.job | [1437](../../magpie/internal/provider/balance.go#L1437) |
-| cardParts | function_declaration |  | [1550](../../magpie/internal/provider/balance.go#L1550) |
-| balanceAuthorization | function_declaration |  | [1560](../../magpie/internal/provider/balance.go#L1560) |
+| cardParts | function_declaration |  | [1552](../../magpie/internal/provider/balance.go#L1552) |
+| balanceAuthorization | function_declaration |  | [1562](../../magpie/internal/provider/balance.go#L1562) |

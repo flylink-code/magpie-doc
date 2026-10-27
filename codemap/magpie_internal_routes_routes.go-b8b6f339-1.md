@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/routes/routes.go) · page 1/1
 
-Source SHA-256: cf547700c0b34bd0c3f0aa5de98b11b5b3d8b501e2b32f04ace4e6cbe03fc9b8
+Source SHA-256: 71afb6f33b61ca48584fd716d5a00c3c0fcb6a0063129495f34e09831d8f49f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,13 +21,16 @@ Source SHA-256: cf547700c0b34bd0c3f0aa5de98b11b5b3d8b501e2b32f04ace4e6cbe03fc9b8
 | Tokens | field_declaration | Seat | [44](../../magpie/internal/routes/routes.go#L44) |
 | Free | field_declaration | Seat | [48](../../magpie/internal/routes/routes.go#L48) |
 | Credits | field_declaration | Seat | [52](../../magpie/internal/routes/routes.go#L52) |
-| Strategy | struct_type |  | [56](../../magpie/internal/routes/routes.go#L56) |
-| Order | field_declaration | Strategy | [61](../../magpie/internal/routes/routes.go#L61) |
-| Exact | field_declaration | Strategy | [65](../../magpie/internal/routes/routes.go#L65) |
-| ByUse | field_declaration | Strategy | [67](../../magpie/internal/routes/routes.go#L67) |
-| ByFree | field_declaration | Strategy | [71](../../magpie/internal/routes/routes.go#L71) |
-| reg | var_spec |  | [74](../../magpie/internal/routes/routes.go#L74) |
-| Register | function_declaration |  | [81](../../magpie/internal/routes/routes.go#L81) |
-| Find | function_declaration |  | [98](../../magpie/internal/routes/routes.go#L98) |
-| Served | function_declaration |  | [112](../../magpie/internal/routes/routes.go#L112) |
-| Apply | function_declaration |  | [121](../../magpie/internal/routes/routes.go#L121) |
+| TTFT | field_declaration | Seat | [58](../../magpie/internal/routes/routes.go#L58) |
+| TPS | field_declaration | Seat | [58](../../magpie/internal/routes/routes.go#L58) |
+| Strategy | struct_type |  | [62](../../magpie/internal/routes/routes.go#L62) |
+| Order | field_declaration | Strategy | [67](../../magpie/internal/routes/routes.go#L67) |
+| Exact | field_declaration | Strategy | [71](../../magpie/internal/routes/routes.go#L71) |
+| ByUse | field_declaration | Strategy | [73](../../magpie/internal/routes/routes.go#L73) |
+| ByFree | field_declaration | Strategy | [77](../../magpie/internal/routes/routes.go#L77) |
+| BySpeed | field_declaration | Strategy | [80](../../magpie/internal/routes/routes.go#L80) |
+| reg | var_spec |  | [83](../../magpie/internal/routes/routes.go#L83) |
+| Register | function_declaration |  | [90](../../magpie/internal/routes/routes.go#L90) |
+| Find | function_declaration |  | [107](../../magpie/internal/routes/routes.go#L107) |
+| Served | function_declaration |  | [121](../../magpie/internal/routes/routes.go#L121) |
+| Apply | function_declaration |  | [130](../../magpie/internal/routes/routes.go#L130) |

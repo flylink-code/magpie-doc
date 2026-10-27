@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/providers.go) · page 3/4
 
-Source SHA-256: 585c1757608afcc598c8084c4566076e45749c773886cfc179421a6955134404
+Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -86,25 +86,25 @@ Source SHA-256: 585c1757608afcc598c8084c4566076e45749c773886cfc179421a6955134404
 | Typed | field_declaration | providerRoutes | [1277](../../magpie/internal/gui/providers.go#L1277) |
 | Base | field_declaration | providerRoutes | [1280](../../magpie/internal/gui/providers.go#L1280) |
 | NoModels | field_declaration | providerRoutes | [1283](../../magpie/internal/gui/providers.go#L1283) |
-| Results | field_declaration | providerRoutes | [1879](../../magpie/internal/gui/providers.go#L1879) |
-| Provider | field_declaration | providerRoutes | [1880](../../magpie/internal/gui/providers.go#L1880) |
-| listed | struct_type | providerRoutes | [1988](../../magpie/internal/gui/providers.go#L1988) |
-| ID | field_declaration | providerRoutes.listed | [1989](../../magpie/internal/gui/providers.go#L1989) |
-| Name | field_declaration | providerRoutes.listed | [1990](../../magpie/internal/gui/providers.go#L1990) |
-| Count | field_declaration | providerRoutes | [2026](../../magpie/internal/gui/providers.go#L2026) |
-| Dropped | field_declaration | providerRoutes | [2027](../../magpie/internal/gui/providers.go#L2027) |
-| Provider | field_declaration | providerRoutes | [2028](../../magpie/internal/gui/providers.go#L2028) |
-| Agent | field_declaration | providerRoutes | [2048](../../magpie/internal/gui/providers.go#L2048) |
-| User | field_declaration | providerRoutes | [2048](../../magpie/internal/gui/providers.go#L2048) |
-| Bundle | field_declaration | providerRoutes | [2106](../../magpie/internal/gui/providers.go#L2106) |
-| ID | field_declaration | providerRoutes | [2122](../../magpie/internal/gui/providers.go#L2122) |
-| Key | field_declaration | providerRoutes | [2122](../../magpie/internal/gui/providers.go#L2122) |
-| Name | field_declaration | providerRoutes | [2122](../../magpie/internal/gui/providers.go#L2122) |
-| Ref | field_declaration | providerRoutes | [2122](../../magpie/internal/gui/providers.go#L2122) |
-| Refs | field_declaration | providerRoutes | [2123](../../magpie/internal/gui/providers.go#L2123) |
-| Protocol | field_declaration | providerRoutes | [2124](../../magpie/internal/gui/providers.go#L2124) |
-| Weight | field_declaration | providerRoutes | [2125](../../magpie/internal/gui/providers.go#L2125) |
-| Agent | field_declaration | providerRoutes | [2185](../../magpie/internal/gui/providers.go#L2185) |
-| Site | field_declaration | providerRoutes | [2185](../../magpie/internal/gui/providers.go#L2185) |
-| Proxy | field_declaration | providerRoutes | [2188](../../magpie/internal/gui/providers.go#L2188) |
-| User | field_declaration | providerRoutes | [2189](../../magpie/internal/gui/providers.go#L2189) |
+| Results | field_declaration | providerRoutes | [1889](../../magpie/internal/gui/providers.go#L1889) |
+| Provider | field_declaration | providerRoutes | [1890](../../magpie/internal/gui/providers.go#L1890) |
+| listed | struct_type | providerRoutes | [1998](../../magpie/internal/gui/providers.go#L1998) |
+| ID | field_declaration | providerRoutes.listed | [1999](../../magpie/internal/gui/providers.go#L1999) |
+| Name | field_declaration | providerRoutes.listed | [2000](../../magpie/internal/gui/providers.go#L2000) |
+| Count | field_declaration | providerRoutes | [2036](../../magpie/internal/gui/providers.go#L2036) |
+| Dropped | field_declaration | providerRoutes | [2037](../../magpie/internal/gui/providers.go#L2037) |
+| Provider | field_declaration | providerRoutes | [2038](../../magpie/internal/gui/providers.go#L2038) |
+| Agent | field_declaration | providerRoutes | [2058](../../magpie/internal/gui/providers.go#L2058) |
+| User | field_declaration | providerRoutes | [2058](../../magpie/internal/gui/providers.go#L2058) |
+| Bundle | field_declaration | providerRoutes | [2116](../../magpie/internal/gui/providers.go#L2116) |
+| ID | field_declaration | providerRoutes | [2132](../../magpie/internal/gui/providers.go#L2132) |
+| Key | field_declaration | providerRoutes | [2132](../../magpie/internal/gui/providers.go#L2132) |
+| Name | field_declaration | providerRoutes | [2132](../../magpie/internal/gui/providers.go#L2132) |
+| Ref | field_declaration | providerRoutes | [2132](../../magpie/internal/gui/providers.go#L2132) |
+| Refs | field_declaration | providerRoutes | [2133](../../magpie/internal/gui/providers.go#L2133) |
+| Protocol | field_declaration | providerRoutes | [2134](../../magpie/internal/gui/providers.go#L2134) |
+| Weight | field_declaration | providerRoutes | [2135](../../magpie/internal/gui/providers.go#L2135) |
+| Plan | field_declaration | providerRoutes | [2136](../../magpie/internal/gui/providers.go#L2136) |
+| Agent | field_declaration | providerRoutes | [2200](../../magpie/internal/gui/providers.go#L2200) |
+| Site | field_declaration | providerRoutes | [2200](../../magpie/internal/gui/providers.go#L2200) |
+| Proxy | field_declaration | providerRoutes | [2203](../../magpie/internal/gui/providers.go#L2203) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 64/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| b | VariableDeclaration | renderUpdate | [22863](../../magpie/internal/gui/assets/app.js#L22863) |
-| pageShown | VariableDeclaration | renderUpdate | [22864](../../magpie/internal/gui/assets/app.js#L22864) |
-| open | VariableDeclaration | renderUpdate | [22865](../../magpie/internal/gui/assets/app.js#L22865) |
-| dim | VariableDeclaration | renderUpdate | [22866](../../magpie/internal/gui/assets/app.js#L22866) |
-| b | VariableDeclaration | renderUpdate.dim | [22866](../../magpie/internal/gui/assets/app.js#L22866) |
-| page | VariableDeclaration | renderUpdate | [22869](../../magpie/internal/gui/assets/app.js#L22869) |
-| b | VariableDeclaration | renderUpdate.page | [22871](../../magpie/internal/gui/assets/app.js#L22871) |
-| btn | VariableDeclaration | renderUpdate | [22879](../../magpie/internal/gui/assets/app.js#L22879) |
-| b | VariableDeclaration | renderUpdate.btn | [22880](../../magpie/internal/gui/assets/app.js#L22880) |
-| check | VariableDeclaration | renderUpdate | [22888](../../magpie/internal/gui/assets/app.js#L22888) |
-| mine | VariableDeclaration | renderUpdate.check | [22891](../../magpie/internal/gui/assets/app.js#L22891) |
-| next | VariableDeclaration | renderUpdate.check | [22895](../../magpie/internal/gui/assets/app.js#L22895) |
-| e | VariableDeclaration | renderUpdate.check | [22897](../../magpie/internal/gui/assets/app.js#L22897) |
-| again | VariableDeclaration | renderUpdate | [22903](../../magpie/internal/gui/assets/app.js#L22903) |
-| seen | VariableDeclaration | renderUpdate.again | [22904](../../magpie/internal/gui/assets/app.js#L22904) |
-| install | VariableDeclaration | renderUpdate | [22916](../../magpie/internal/gui/assets/app.js#L22916) |
-| a | VariableDeclaration | renderUpdate.install | [22917](../../magpie/internal/gui/assets/app.js#L22917) |
-| busyNow | VariableDeclaration | renderUpdate | [22922](../../magpie/internal/gui/assets/app.js#L22922) |
-| seen | VariableDeclaration | renderUpdate | [22928](../../magpie/internal/gui/assets/app.js#L22928) |
-| n | VariableDeclaration | renderUpdate | [22931](../../magpie/internal/gui/assets/app.js#L22931) |
-| b | VariableDeclaration | renderUpdate | [22935](../../magpie/internal/gui/assets/app.js#L22935) |
-| get | VariableDeclaration | renderUpdate | [22953](../../magpie/internal/gui/assets/app.js#L22953) |
-| a | VariableDeclaration | renderUpdate.get | [22957](../../magpie/internal/gui/assets/app.js#L22957) |
-| e | VariableDeclaration | renderUpdate | [23005](../../magpie/internal/gui/assets/app.js#L23005) |
-| b | VariableDeclaration | renderUpdate | [23018](../../magpie/internal/gui/assets/app.js#L23018) |
-| renderPluginCheckins | FunctionDeclaration |  | [23040](../../magpie/internal/gui/assets/app.js#L23040) |
-| ps | VariableDeclaration | renderPluginCheckins | [23041](../../magpie/internal/gui/assets/app.js#L23041) |
-| row | VariableDeclaration | renderPluginCheckins | [23045](../../magpie/internal/gui/assets/app.js#L23045) |
-| who | VariableDeclaration | renderPluginCheckins | [23047](../../magpie/internal/gui/assets/app.js#L23047) |
-| sub | VariableDeclaration | renderPluginCheckins | [23048](../../magpie/internal/gui/assets/app.js#L23048) |
-| segBox | VariableDeclaration | renderPluginCheckins | [23051](../../magpie/internal/gui/assets/app.js#L23051) |
-| err | VariableDeclaration | renderPluginCheckins | [23057](../../magpie/internal/gui/assets/app.js#L23057) |
-| checkinAccountRows | FunctionDeclaration |  | [23069](../../magpie/internal/gui/assets/app.js#L23069) |
-| accts | VariableDeclaration | checkinAccountRows | [23070](../../magpie/internal/gui/assets/app.js#L23070) |
-| row | VariableDeclaration | checkinAccountRows | [23073](../../magpie/internal/gui/assets/app.js#L23073) |
-| who | VariableDeclaration | checkinAccountRows | [23075](../../magpie/internal/gui/assets/app.js#L23075) |
-| segBox | VariableDeclaration | checkinAccountRows | [23077](../../magpie/internal/gui/assets/app.js#L23077) |
-| err | VariableDeclaration | checkinAccountRows | [23082](../../magpie/internal/gui/assets/app.js#L23082) |
-| wbCheckinLine | FunctionDeclaration |  | [23094](../../magpie/internal/gui/assets/app.js#L23094) |
-| today | VariableDeclaration | wbCheckinLine | [23095](../../magpie/internal/gui/assets/app.js#L23095) |
-| prefsKeep | FunctionDeclaration |  | [23121](../../magpie/internal/gui/assets/app.js#L23121) |
-| prefsBase | VariableDeclaration |  | [23143](../../magpie/internal/gui/assets/app.js#L23143) |
-| prefsQueue | VariableDeclaration |  | [23143](../../magpie/internal/gui/assets/app.js#L23143) |
-| prefsQueued | VariableDeclaration |  | [23143](../../magpie/internal/gui/assets/app.js#L23143) |
-| savePrefs | FunctionDeclaration |  | [23144](../../magpie/internal/gui/assets/app.js#L23144) |
-| change | VariableDeclaration | savePrefs | [23145](../../magpie/internal/gui/assets/app.js#L23145) |
-| k | BindingElement | savePrefs.change | [23145](../../magpie/internal/gui/assets/app.js#L23145) |
-| v | BindingElement | savePrefs.change | [23145](../../magpie/internal/gui/assets/app.js#L23145) |
-| failed | VariableDeclaration | savePrefs | [23149](../../magpie/internal/gui/assets/app.js#L23149) |
-| e | VariableDeclaration | savePrefs | [23153](../../magpie/internal/gui/assets/app.js#L23153) |
-| spoke | VariableDeclaration | savePrefs | [23159](../../magpie/internal/gui/assets/app.js#L23159) |
-| purposeUntil | VariableDeclaration |  | [23189](../../magpie/internal/gui/assets/app.js#L23189) |
-| held | VariableDeclaration |  | [23189](../../magpie/internal/gui/assets/app.js#L23189) |
-| guardUntil | VariableDeclaration |  | [23193](../../magpie/internal/gui/assets/app.js#L23193) |
-| readerScrolls | VariableDeclaration |  | [23195](../../magpie/internal/gui/assets/app.js#L23195) |
-| scrollOnPurpose | FunctionDeclaration |  | [23196](../../magpie/internal/gui/assets/app.js#L23196) |
-| arrived | FunctionDeclaration |  | [23207](../../magpie/internal/gui/assets/app.js#L23207) |
-| SCROLL_KEYS | VariableDeclaration |  | [23211](../../magpie/internal/gui/assets/app.js#L23211) |
-| keyboardFocus | FunctionDeclaration |  | [23214](../../magpie/internal/gui/assets/app.js#L23214) |
-| before | VariableDeclaration | keyboardFocus | [23215](../../magpie/internal/gui/assets/app.js#L23215) |
-| focused | VariableDeclaration | keyboardFocus | [23218](../../magpie/internal/gui/assets/app.js#L23218) |
-| v | VariableDeclaration | keyboardFocus | [23220](../../magpie/internal/gui/assets/app.js#L23220) |
-| r | VariableDeclaration | keyboardFocus | [23222](../../magpie/internal/gui/assets/app.js#L23222) |
-| b | VariableDeclaration | keyboardFocus | [23222](../../magpie/internal/gui/assets/app.js#L23222) |
-| putBack | VariableDeclaration |  | [23235](../../magpie/internal/gui/assets/app.js#L23235) |
-| run | VariableDeclaration |  | [23235](../../magpie/internal/gui/assets/app.js#L23235) |
-| puttingBack | FunctionDeclaration |  | [23236](../../magpie/internal/gui/assets/app.js#L23236) |
-| by | VariableDeclaration | puttingBack | [23237](../../magpie/internal/gui/assets/app.js#L23237) |
-| at | VariableDeclaration | puttingBack | [23237](../../magpie/internal/gui/assets/app.js#L23237) |
-| d | VariableDeclaration | puttingBack | [23237](../../magpie/internal/gui/assets/app.js#L23237) |
-| h | VariableDeclaration | puttingBack | [23237](../../magpie/internal/gui/assets/app.js#L23237) |
-| mine | VariableDeclaration | puttingBack | [23242](../../magpie/internal/gui/assets/app.js#L23242) |
-| p | VariableDeclaration | puttingBack | [23245](../../magpie/internal/gui/assets/app.js#L23245) |
-| givesBack | FunctionDeclaration |  | [23250](../../magpie/internal/gui/assets/app.js#L23250) |
-| now | VariableDeclaration | givesBack | [23252](../../magpie/internal/gui/assets/app.js#L23252) |
-| mine | VariableDeclaration | givesBack | [23252](../../magpie/internal/gui/assets/app.js#L23252) |
-| back | VariableDeclaration | givesBack | [23253](../../magpie/internal/gui/assets/app.js#L23253) |
-| p | VariableDeclaration | givesBack | [23255](../../magpie/internal/gui/assets/app.js#L23255) |
-| touchY | VariableDeclaration |  | [23257](../../magpie/internal/gui/assets/app.js#L23257) |
-| y | VariableDeclaration |  | [23262](../../magpie/internal/gui/assets/app.js#L23262) |
-| flingUntil | VariableDeclaration |  | [23272](../../magpie/internal/gui/assets/app.js#L23272) |
-| flings | VariableDeclaration |  | [23273](../../magpie/internal/gui/assets/app.js#L23273) |
-| downAt | VariableDeclaration |  | [23277](../../magpie/internal/gui/assets/app.js#L23277) |
-| barDrag | VariableDeclaration |  | [23288](../../magpie/internal/gui/assets/app.js#L23288) |
-| barLifted | VariableDeclaration |  | [23291](../../magpie/internal/gui/assets/app.js#L23291) |
-| panning | VariableDeclaration |  | [23301](../../magpie/internal/gui/assets/app.js#L23301) |
-| panEnds | VariableDeclaration |  | [23302](../../magpie/internal/gui/assets/app.js#L23302) |
-| pv | VariableDeclaration |  | [23307](../../magpie/internal/gui/assets/app.js#L23307) |
-| v | VariableDeclaration |  | [23310](../../magpie/internal/gui/assets/app.js#L23310) |
-| bar | VariableDeclaration |  | [23311](../../magpie/internal/gui/assets/app.js#L23311) |
-| typing | VariableDeclaration |  | [23331](../../magpie/internal/gui/assets/app.js#L23331) |
-| readerAt | VariableDeclaration |  | [23338](../../magpie/internal/gui/assets/app.js#L23338) |
-| scrolledFrom | VariableDeclaration |  | [23341](../../magpie/internal/gui/assets/app.js#L23341) |
-| pinOf | VariableDeclaration |  | [23350](../../magpie/internal/gui/assets/app.js#L23350) |
-| pinAt | VariableDeclaration |  | [23350](../../magpie/internal/gui/assets/app.js#L23350) |
-| keepInView | FunctionDeclaration |  | [23351](../../magpie/internal/gui/assets/app.js#L23351) |
-| c | VariableDeclaration | keepInView | [23355](../../magpie/internal/gui/assets/app.js#L23355) |
-| readerLeaves | FunctionDeclaration |  | [23357](../../magpie/internal/gui/assets/app.js#L23357) |
-| p | VariableDeclaration | readerLeaves | [23360](../../magpie/internal/gui/assets/app.js#L23360) |
-| pinnedAt | FunctionDeclaration |  | [23363](../../magpie/internal/gui/assets/app.js#L23363) |
+| failed | VariableDeclaration | savePrefs | [23001](../../magpie/internal/gui/assets/app.js#L23001) |
+| e | VariableDeclaration | savePrefs | [23005](../../magpie/internal/gui/assets/app.js#L23005) |
+| spoke | VariableDeclaration | savePrefs | [23011](../../magpie/internal/gui/assets/app.js#L23011) |
+| purposeUntil | VariableDeclaration |  | [23041](../../magpie/internal/gui/assets/app.js#L23041) |
+| held | VariableDeclaration |  | [23041](../../magpie/internal/gui/assets/app.js#L23041) |
+| guardUntil | VariableDeclaration |  | [23045](../../magpie/internal/gui/assets/app.js#L23045) |
+| readerScrolls | VariableDeclaration |  | [23047](../../magpie/internal/gui/assets/app.js#L23047) |
+| scrollOnPurpose | FunctionDeclaration |  | [23048](../../magpie/internal/gui/assets/app.js#L23048) |
+| arrived | FunctionDeclaration |  | [23059](../../magpie/internal/gui/assets/app.js#L23059) |
+| SCROLL_KEYS | VariableDeclaration |  | [23063](../../magpie/internal/gui/assets/app.js#L23063) |
+| keyboardFocus | FunctionDeclaration |  | [23066](../../magpie/internal/gui/assets/app.js#L23066) |
+| before | VariableDeclaration | keyboardFocus | [23067](../../magpie/internal/gui/assets/app.js#L23067) |
+| focused | VariableDeclaration | keyboardFocus | [23070](../../magpie/internal/gui/assets/app.js#L23070) |
+| v | VariableDeclaration | keyboardFocus | [23072](../../magpie/internal/gui/assets/app.js#L23072) |
+| r | VariableDeclaration | keyboardFocus | [23074](../../magpie/internal/gui/assets/app.js#L23074) |
+| b | VariableDeclaration | keyboardFocus | [23074](../../magpie/internal/gui/assets/app.js#L23074) |
+| putBack | VariableDeclaration |  | [23088](../../magpie/internal/gui/assets/app.js#L23088) |
+| run | VariableDeclaration |  | [23088](../../magpie/internal/gui/assets/app.js#L23088) |
+| puttingBack | FunctionDeclaration |  | [23089](../../magpie/internal/gui/assets/app.js#L23089) |
+| by | VariableDeclaration | puttingBack | [23090](../../magpie/internal/gui/assets/app.js#L23090) |
+| at | VariableDeclaration | puttingBack | [23090](../../magpie/internal/gui/assets/app.js#L23090) |
+| d | VariableDeclaration | puttingBack | [23090](../../magpie/internal/gui/assets/app.js#L23090) |
+| mine | VariableDeclaration | puttingBack | [23095](../../magpie/internal/gui/assets/app.js#L23095) |
+| p | VariableDeclaration | puttingBack | [23098](../../magpie/internal/gui/assets/app.js#L23098) |
+| givesBack | FunctionDeclaration |  | [23103](../../magpie/internal/gui/assets/app.js#L23103) |
+| now | VariableDeclaration | givesBack | [23105](../../magpie/internal/gui/assets/app.js#L23105) |
+| mine | VariableDeclaration | givesBack | [23105](../../magpie/internal/gui/assets/app.js#L23105) |
+| back | VariableDeclaration | givesBack | [23106](../../magpie/internal/gui/assets/app.js#L23106) |
+| p | VariableDeclaration | givesBack | [23108](../../magpie/internal/gui/assets/app.js#L23108) |
+| touchY | VariableDeclaration |  | [23110](../../magpie/internal/gui/assets/app.js#L23110) |
+| y | VariableDeclaration |  | [23115](../../magpie/internal/gui/assets/app.js#L23115) |
+| flingUntil | VariableDeclaration |  | [23125](../../magpie/internal/gui/assets/app.js#L23125) |
+| flings | VariableDeclaration |  | [23126](../../magpie/internal/gui/assets/app.js#L23126) |
+| downAt | VariableDeclaration |  | [23130](../../magpie/internal/gui/assets/app.js#L23130) |
+| barDrag | VariableDeclaration |  | [23141](../../magpie/internal/gui/assets/app.js#L23141) |
+| barLifted | VariableDeclaration |  | [23144](../../magpie/internal/gui/assets/app.js#L23144) |
+| panning | VariableDeclaration |  | [23154](../../magpie/internal/gui/assets/app.js#L23154) |
+| panEnds | VariableDeclaration |  | [23155](../../magpie/internal/gui/assets/app.js#L23155) |
+| pv | VariableDeclaration |  | [23160](../../magpie/internal/gui/assets/app.js#L23160) |
+| v | VariableDeclaration |  | [23163](../../magpie/internal/gui/assets/app.js#L23163) |
+| bar | VariableDeclaration |  | [23164](../../magpie/internal/gui/assets/app.js#L23164) |
+| typing | VariableDeclaration |  | [23184](../../magpie/internal/gui/assets/app.js#L23184) |
+| readerAt | VariableDeclaration |  | [23191](../../magpie/internal/gui/assets/app.js#L23191) |
+| scrolledFrom | VariableDeclaration |  | [23194](../../magpie/internal/gui/assets/app.js#L23194) |
+| pinOf | VariableDeclaration |  | [23203](../../magpie/internal/gui/assets/app.js#L23203) |
+| pinAt | VariableDeclaration |  | [23203](../../magpie/internal/gui/assets/app.js#L23203) |
+| keepInView | FunctionDeclaration |  | [23204](../../magpie/internal/gui/assets/app.js#L23204) |
+| c | VariableDeclaration | keepInView | [23208](../../magpie/internal/gui/assets/app.js#L23208) |
+| readerLeaves | FunctionDeclaration |  | [23210](../../magpie/internal/gui/assets/app.js#L23210) |
+| p | VariableDeclaration | readerLeaves | [23213](../../magpie/internal/gui/assets/app.js#L23213) |
+| pinnedAt | FunctionDeclaration |  | [23216](../../magpie/internal/gui/assets/app.js#L23216) |
+| a | VariableDeclaration | pinnedAt | [23217](../../magpie/internal/gui/assets/app.js#L23217) |
+| pinSizes | VariableDeclaration |  | [23222](../../magpie/internal/gui/assets/app.js#L23222) |
+| v | VariableDeclaration | pinSizes | [23223](../../magpie/internal/gui/assets/app.js#L23223) |
+| backToReader | FunctionDeclaration |  | [23225](../../magpie/internal/gui/assets/app.js#L23225) |
+| pinned | VariableDeclaration | backToReader | [23227](../../magpie/internal/gui/assets/app.js#L23227) |
+| want | VariableDeclaration | backToReader | [23231](../../magpie/internal/gui/assets/app.js#L23231) |
+| f | VariableDeclaration | backToReader | [23238](../../magpie/internal/gui/assets/app.js#L23238) |
+| r | VariableDeclaration | backToReader | [23240](../../magpie/internal/gui/assets/app.js#L23240) |
+| b | VariableDeclaration | backToReader | [23240](../../magpie/internal/gui/assets/app.js#L23240) |
+| onScreen | VariableDeclaration |  | [23248](../../magpie/internal/gui/assets/app.js#L23248) |
+| MOVES | VariableDeclaration |  | [23255](../../magpie/internal/gui/assets/app.js#L23255) |
+| moving | VariableDeclaration |  | [23256](../../magpie/internal/gui/assets/app.js#L23256) |
+| atRest | VariableDeclaration |  | [23258](../../magpie/internal/gui/assets/app.js#L23258) |
+| room | VariableDeclaration |  | [23262](../../magpie/internal/gui/assets/app.js#L23262) |
+| roomOf | VariableDeclaration |  | [23263](../../magpie/internal/gui/assets/app.js#L23263) |
+| setRoom | FunctionDeclaration |  | [23264](../../magpie/internal/gui/assets/app.js#L23264) |
+| r | VariableDeclaration | setRoom | [23266](../../magpie/internal/gui/assets/app.js#L23266) |
+| contentEnd | FunctionDeclaration |  | [23279](../../magpie/internal/gui/assets/app.js#L23279) |
+| top | VariableDeclaration | contentEnd | [23280](../../magpie/internal/gui/assets/app.js#L23280) |
+| end | VariableDeclaration | contentEnd | [23281](../../magpie/internal/gui/assets/app.js#L23281) |
+| c | VariableDeclaration | contentEnd | [23282](../../magpie/internal/gui/assets/app.js#L23282) |
+| fitRoom | FunctionDeclaration |  | [23290](../../magpie/internal/gui/assets/app.js#L23290) |
+| r | VariableDeclaration | fitRoom | [23291](../../magpie/internal/gui/assets/app.js#L23291) |
+| pathIn | VariableDeclaration |  | [23297](../../magpie/internal/gui/assets/app.js#L23297) |
+| p | VariableDeclaration | pathIn | [23297](../../magpie/internal/gui/assets/app.js#L23297) |
+| atPath | VariableDeclaration |  | [23298](../../magpie/internal/gui/assets/app.js#L23298) |
+| standIn | FunctionDeclaration |  | [23299](../../magpie/internal/gui/assets/app.js#L23299) |
+| c | VariableDeclaration | standIn | [23300](../../magpie/internal/gui/assets/app.js#L23300) |
+| s | VariableDeclaration | standIn | [23301](../../magpie/internal/gui/assets/app.js#L23301) |
+| scrolls | VariableDeclaration |  | [23311](../../magpie/internal/gui/assets/app.js#L23311) |
+| laid | FunctionDeclaration |  | [23312](../../magpie/internal/gui/assets/app.js#L23312) |
+| at | VariableDeclaration | laid | [23313](../../magpie/internal/gui/assets/app.js#L23313) |
+| [n] | VariableDeclaration | laid | [23314](../../magpie/internal/gui/assets/app.js#L23314) |
+| n | BindingElement | laid.[n] | [23314](../../magpie/internal/gui/assets/app.js#L23314) |
+| redrawn | VariableDeclaration |  | [23317](../../magpie/internal/gui/assets/app.js#L23317) |
+| n | BindingElement | redrawn | [23317](../../magpie/internal/gui/assets/app.js#L23317) |
+| y | BindingElement | redrawn | [23317](../../magpie/internal/gui/assets/app.js#L23317) |
+| hold | FunctionDeclaration |  | [23318](../../magpie/internal/gui/assets/app.js#L23318) |
+| a | VariableDeclaration | hold | [23323](../../magpie/internal/gui/assets/app.js#L23323) |
+| n | BindingElement | hold.a | [23323](../../magpie/internal/gui/assets/app.js#L23323) |
+| n | BindingElement | hold.a | [23323](../../magpie/internal/gui/assets/app.js#L23323) |
+| n | BindingElement | hold.a | [23323](../../magpie/internal/gui/assets/app.js#L23323) |
+| v | VariableDeclaration | hold | [23325](../../magpie/internal/gui/assets/app.js#L23325) |
+| d | VariableDeclaration | hold | [23325](../../magpie/internal/gui/assets/app.js#L23325) |
+| want | VariableDeclaration | hold | [23327](../../magpie/internal/gui/assets/app.js#L23327) |
+| max | VariableDeclaration | hold | [23328](../../magpie/internal/gui/assets/app.js#L23328) |
+| holding | VariableDeclaration |  | [23357](../../magpie/internal/gui/assets/app.js#L23357) |
+| heldWidth | VariableDeclaration |  | [23361](../../magpie/internal/gui/assets/app.js#L23361) |
+| relaidUntil | VariableDeclaration |  | [23368](../../magpie/internal/gui/assets/app.js#L23368) |

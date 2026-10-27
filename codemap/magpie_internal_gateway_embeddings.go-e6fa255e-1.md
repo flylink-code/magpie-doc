@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/embeddings.go) · page 1/1
 
-Source SHA-256: f345b6de752a6ea88c6b5421407ad0c503051108132ad02bb334019a66872c21
+Source SHA-256: ea24dcb57fa54d2607a43bf07e22ca08b5718de71d02604d1e834b539b897c60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

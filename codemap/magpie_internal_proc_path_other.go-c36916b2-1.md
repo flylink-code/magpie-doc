@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/path_other.go) · page 1/1
 
-Source SHA-256: 41b1fdf769505a4b718b0cf33c5ec8e93ec33389a82dbda4c1a8af6ee15de657
+Source SHA-256: 451b03d927af256d4c5a5cd843f2e01c666809161d044402ea084e6c1380ca63
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -31,4 +31,3 @@ Source SHA-256: 41b1fdf769505a4b718b0cf33c5ec8e93ec33389a82dbda4c1a8af6ee15de657
 | shellMark | const_spec |  | [387](../../magpie/internal/proc/path_other.go#L387) |
 | shellProbe | function_declaration |  | [410](../../magpie/internal/proc/path_other.go#L410) |
 | parseShellEnv | function_declaration |  | [430](../../magpie/internal/proc/path_other.go#L430) |
-| addPath | function_declaration |  | [461](../../magpie/internal/proc/path_other.go#L461) |

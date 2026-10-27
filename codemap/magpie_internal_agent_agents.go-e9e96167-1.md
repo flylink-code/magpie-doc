@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agents.go) · page 1/1
 
-Source SHA-256: c0e7b09524ac2e74da0ef48199842de0190c409498687953aec35b07e3c4dd30
+Source SHA-256: 8bc3424db6ac6b54b93170076b52772d83a278863d88ab1a31e803551d8093bb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,73 +14,73 @@ Source SHA-256: c0e7b09524ac2e74da0ef48199842de0190c409498687953aec35b07e3c4dd30
 | All | function_declaration |  | [79](../../magpie/internal/agent/agents.go#L79) |
 | homes | function_declaration |  | [85](../../magpie/internal/agent/agents.go#L85) |
 | builtins | function_declaration |  | [95](../../magpie/internal/agent/agents.go#L95) |
-| jsonGet | function_declaration |  | [168](../../magpie/internal/agent/agents.go#L168) |
-| jsonSet | function_declaration |  | [172](../../magpie/internal/agent/agents.go#L172) |
-| usesMagpie | function_declaration |  | [182](../../magpie/internal/agent/agents.go#L182) |
-| prefixed | function_declaration |  | [193](../../magpie/internal/agent/agents.go#L193) |
-| openCodeSpelled | function_declaration |  | [198](../../magpie/internal/agent/agents.go#L198) |
-| pairGet | function_declaration |  | [217](../../magpie/internal/agent/agents.go#L217) |
-| magpieEffort | function_declaration |  | [235](../../magpie/internal/agent/agents.go#L235) |
-| pairSet | function_declaration |  | [262](../../magpie/internal/agent/agents.go#L262) |
-| hostOf | function_declaration |  | [272](../../magpie/internal/agent/agents.go#L272) |
-| options | function_declaration |  | [276](../../magpie/internal/agent/agents.go#L276) |
-| static | function_declaration |  | [284](../../magpie/internal/agent/agents.go#L284) |
-| ownOptions | function_declaration |  | [294](../../magpie/internal/agent/agents.go#L294) |
-| ownOptionsFrom | function_declaration |  | [302](../../magpie/internal/agent/agents.go#L302) |
-| magpieProviderJSON | function_declaration |  | [356](../../magpie/internal/agent/agents.go#L356) |
-| magpieProviderJSONFor | function_declaration |  | [363](../../magpie/internal/agent/agents.go#L363) |
-| magpieProviderJSONAt | function_declaration |  | [369](../../magpie/internal/agent/agents.go#L369) |
-| piBlockKept | function_declaration |  | [443](../../magpie/internal/agent/agents.go#L443) |
-| openCodeKept | function_declaration |  | [467](../../magpie/internal/agent/agents.go#L467) |
-| Variants | field_declaration | openCodeKept | [484](../../magpie/internal/agent/agents.go#L484) |
-| objectPairs | function_declaration |  | [507](../../magpie/internal/agent/agents.go#L507) |
-| piModelJSON | function_declaration |  | [529](../../magpie/internal/agent/agents.go#L529) |
-| piPromptCache | function_declaration |  | [591](../../magpie/internal/agent/agents.go#L591) |
-| openCodeVariants | function_declaration |  | [620](../../magpie/internal/agent/agents.go#L620) |
-| openCodeFast | const_spec |  | [641](../../magpie/internal/agent/agents.go#L641) |
-| openCodeVariant | function_declaration |  | [657](../../magpie/internal/agent/agents.go#L657) |
-| openCodeReasons | function_declaration |  | [684](../../magpie/internal/agent/agents.go#L684) |
-| orderedJSON | type_spec |  | [698](../../magpie/internal/agent/agents.go#L698) |
-| jsonPair | struct_type |  | [700](../../magpie/internal/agent/agents.go#L700) |
-| k | field_declaration | jsonPair | [701](../../magpie/internal/agent/agents.go#L701) |
-| v | field_declaration | jsonPair | [702](../../magpie/internal/agent/agents.go#L702) |
-| MarshalJSON | method_declaration | orderedJSON | [705](../../magpie/internal/agent/agents.go#L705) |
-| piThinkingLevels | function_declaration |  | [740](../../magpie/internal/agent/agents.go#L740) |
-| openCodeLike | function_declaration |  | [767](../../magpie/internal/agent/agents.go#L767) |
-| openCodeKeyAt | function_declaration |  | [838](../../magpie/internal/agent/agents.go#L838) |
-| openCodeRef | function_declaration |  | [850](../../magpie/internal/agent/agents.go#L850) |
-| openCodeRefAt | function_declaration |  | [856](../../magpie/internal/agent/agents.go#L856) |
-| ownGatewayProvider | function_declaration |  | [872](../../magpie/internal/agent/agents.go#L872) |
-| Options | field_declaration | ownGatewayProvider | [878](../../magpie/internal/agent/agents.go#L878) |
-| BaseURL | field_declaration | ownGatewayProvider | [879](../../magpie/internal/agent/agents.go#L879) |
-| Models | field_declaration | ownGatewayProvider | [881](../../magpie/internal/agent/agents.go#L881) |
-| sameGateway | function_declaration |  | [902](../../magpie/internal/agent/agents.go#L902) |
-| opencode | function_declaration |  | [910](../../magpie/internal/agent/agents.go#L910) |
-| opencodeIn | function_declaration |  | [919](../../magpie/internal/agent/agents.go#L919) |
-| mimocodeIn | function_declaration |  | [927](../../magpie/internal/agent/agents.go#L927) |
-| openCodeDir | function_declaration |  | [938](../../magpie/internal/agent/agents.go#L938) |
-| mimocode | function_declaration |  | [950](../../magpie/internal/agent/agents.go#L950) |
-| deveco | function_declaration |  | [970](../../magpie/internal/agent/agents.go#L970) |
-| devecoDir | function_declaration |  | [978](../../magpie/internal/agent/agents.go#L978) |
-| pi | function_declaration |  | [985](../../magpie/internal/agent/agents.go#L985) |
-| piIn | function_declaration |  | [990](../../magpie/internal/agent/agents.go#L990) |
-| piDir | function_declaration |  | [1000](../../magpie/internal/agent/agents.go#L1000) |
-| homeDir | function_declaration |  | [1011](../../magpie/internal/agent/agents.go#L1011) |
-| beforeMagpie | struct_type |  | [1028](../../magpie/internal/agent/agents.go#L1028) |
-| absent | field_declaration | beforeMagpie | [1029](../../magpie/internal/agent/agents.go#L1029) |
-| files | field_declaration | beforeMagpie | [1030](../../magpie/internal/agent/agents.go#L1030) |
-| take | method_declaration | beforeMagpie | [1035](../../magpie/internal/agent/agents.go#L1035) |
-| restore | method_declaration | beforeMagpie | [1055](../../magpie/internal/agent/agents.go#L1055) |
-| emptyJSON | function_declaration |  | [1087](../../magpie/internal/agent/agents.go#L1087) |
-| piLike | function_declaration |  | [1103](../../magpie/internal/agent/agents.go#L1103) |
-| piLikeKeyed | function_declaration |  | [1110](../../magpie/internal/agent/agents.go#L1110) |
-| goose | function_declaration |  | [1239](../../magpie/internal/agent/agents.go#L1239) |
-| gooseIn | function_declaration |  | [1245](../../magpie/internal/agent/agents.go#L1245) |
-| cursor | function_declaration |  | [1333](../../magpie/internal/agent/agents.go#L1333) |
-| copilot | function_declaration |  | [1371](../../magpie/internal/agent/agents.go#L1371) |
-| crush | function_declaration |  | [1417](../../magpie/internal/agent/agents.go#L1417) |
-| crushIn | function_declaration |  | [1440](../../magpie/internal/agent/agents.go#L1440) |
-| crushAt | function_declaration |  | [1448](../../magpie/internal/agent/agents.go#L1448) |
-| Providers | field_declaration | crushAt | [1482](../../magpie/internal/agent/agents.go#L1482) |
-| noticeGoose | var_spec |  | [1580](../../magpie/internal/agent/agents.go#L1580) |
-| readOwnAuth | function_declaration |  | [1585](../../magpie/internal/agent/agents.go#L1585) |
+| jsonGet | function_declaration |  | [169](../../magpie/internal/agent/agents.go#L169) |
+| jsonSet | function_declaration |  | [173](../../magpie/internal/agent/agents.go#L173) |
+| usesMagpie | function_declaration |  | [183](../../magpie/internal/agent/agents.go#L183) |
+| prefixed | function_declaration |  | [194](../../magpie/internal/agent/agents.go#L194) |
+| openCodeSpelled | function_declaration |  | [199](../../magpie/internal/agent/agents.go#L199) |
+| pairGet | function_declaration |  | [218](../../magpie/internal/agent/agents.go#L218) |
+| magpieEffort | function_declaration |  | [236](../../magpie/internal/agent/agents.go#L236) |
+| pairSet | function_declaration |  | [263](../../magpie/internal/agent/agents.go#L263) |
+| hostOf | function_declaration |  | [273](../../magpie/internal/agent/agents.go#L273) |
+| options | function_declaration |  | [277](../../magpie/internal/agent/agents.go#L277) |
+| static | function_declaration |  | [285](../../magpie/internal/agent/agents.go#L285) |
+| ownOptions | function_declaration |  | [295](../../magpie/internal/agent/agents.go#L295) |
+| ownOptionsFrom | function_declaration |  | [303](../../magpie/internal/agent/agents.go#L303) |
+| magpieProviderJSON | function_declaration |  | [357](../../magpie/internal/agent/agents.go#L357) |
+| magpieProviderJSONFor | function_declaration |  | [364](../../magpie/internal/agent/agents.go#L364) |
+| magpieProviderJSONAt | function_declaration |  | [370](../../magpie/internal/agent/agents.go#L370) |
+| piBlockKept | function_declaration |  | [444](../../magpie/internal/agent/agents.go#L444) |
+| openCodeKept | function_declaration |  | [468](../../magpie/internal/agent/agents.go#L468) |
+| Variants | field_declaration | openCodeKept | [485](../../magpie/internal/agent/agents.go#L485) |
+| objectPairs | function_declaration |  | [508](../../magpie/internal/agent/agents.go#L508) |
+| piModelJSON | function_declaration |  | [530](../../magpie/internal/agent/agents.go#L530) |
+| piPromptCache | function_declaration |  | [592](../../magpie/internal/agent/agents.go#L592) |
+| openCodeVariants | function_declaration |  | [621](../../magpie/internal/agent/agents.go#L621) |
+| openCodeFast | const_spec |  | [642](../../magpie/internal/agent/agents.go#L642) |
+| openCodeVariant | function_declaration |  | [658](../../magpie/internal/agent/agents.go#L658) |
+| openCodeReasons | function_declaration |  | [685](../../magpie/internal/agent/agents.go#L685) |
+| orderedJSON | type_spec |  | [699](../../magpie/internal/agent/agents.go#L699) |
+| jsonPair | struct_type |  | [701](../../magpie/internal/agent/agents.go#L701) |
+| k | field_declaration | jsonPair | [702](../../magpie/internal/agent/agents.go#L702) |
+| v | field_declaration | jsonPair | [703](../../magpie/internal/agent/agents.go#L703) |
+| MarshalJSON | method_declaration | orderedJSON | [706](../../magpie/internal/agent/agents.go#L706) |
+| piThinkingLevels | function_declaration |  | [741](../../magpie/internal/agent/agents.go#L741) |
+| openCodeLike | function_declaration |  | [768](../../magpie/internal/agent/agents.go#L768) |
+| openCodeKeyAt | function_declaration |  | [839](../../magpie/internal/agent/agents.go#L839) |
+| openCodeRef | function_declaration |  | [851](../../magpie/internal/agent/agents.go#L851) |
+| openCodeRefAt | function_declaration |  | [857](../../magpie/internal/agent/agents.go#L857) |
+| ownGatewayProvider | function_declaration |  | [873](../../magpie/internal/agent/agents.go#L873) |
+| Options | field_declaration | ownGatewayProvider | [879](../../magpie/internal/agent/agents.go#L879) |
+| BaseURL | field_declaration | ownGatewayProvider | [880](../../magpie/internal/agent/agents.go#L880) |
+| Models | field_declaration | ownGatewayProvider | [882](../../magpie/internal/agent/agents.go#L882) |
+| sameGateway | function_declaration |  | [903](../../magpie/internal/agent/agents.go#L903) |
+| opencode | function_declaration |  | [911](../../magpie/internal/agent/agents.go#L911) |
+| opencodeIn | function_declaration |  | [920](../../magpie/internal/agent/agents.go#L920) |
+| mimocodeIn | function_declaration |  | [928](../../magpie/internal/agent/agents.go#L928) |
+| openCodeDir | function_declaration |  | [939](../../magpie/internal/agent/agents.go#L939) |
+| mimocode | function_declaration |  | [951](../../magpie/internal/agent/agents.go#L951) |
+| deveco | function_declaration |  | [971](../../magpie/internal/agent/agents.go#L971) |
+| devecoDir | function_declaration |  | [979](../../magpie/internal/agent/agents.go#L979) |
+| pi | function_declaration |  | [986](../../magpie/internal/agent/agents.go#L986) |
+| piIn | function_declaration |  | [991](../../magpie/internal/agent/agents.go#L991) |
+| piDir | function_declaration |  | [1001](../../magpie/internal/agent/agents.go#L1001) |
+| homeDir | function_declaration |  | [1012](../../magpie/internal/agent/agents.go#L1012) |
+| beforeMagpie | struct_type |  | [1029](../../magpie/internal/agent/agents.go#L1029) |
+| absent | field_declaration | beforeMagpie | [1030](../../magpie/internal/agent/agents.go#L1030) |
+| files | field_declaration | beforeMagpie | [1031](../../magpie/internal/agent/agents.go#L1031) |
+| take | method_declaration | beforeMagpie | [1036](../../magpie/internal/agent/agents.go#L1036) |
+| restore | method_declaration | beforeMagpie | [1056](../../magpie/internal/agent/agents.go#L1056) |
+| emptyJSON | function_declaration |  | [1088](../../magpie/internal/agent/agents.go#L1088) |
+| piLike | function_declaration |  | [1104](../../magpie/internal/agent/agents.go#L1104) |
+| piLikeKeyed | function_declaration |  | [1111](../../magpie/internal/agent/agents.go#L1111) |
+| goose | function_declaration |  | [1240](../../magpie/internal/agent/agents.go#L1240) |
+| gooseIn | function_declaration |  | [1246](../../magpie/internal/agent/agents.go#L1246) |
+| cursor | function_declaration |  | [1334](../../magpie/internal/agent/agents.go#L1334) |
+| copilot | function_declaration |  | [1372](../../magpie/internal/agent/agents.go#L1372) |
+| crush | function_declaration |  | [1418](../../magpie/internal/agent/agents.go#L1418) |
+| crushIn | function_declaration |  | [1441](../../magpie/internal/agent/agents.go#L1441) |
+| crushAt | function_declaration |  | [1449](../../magpie/internal/agent/agents.go#L1449) |
+| Providers | field_declaration | crushAt | [1483](../../magpie/internal/agent/agents.go#L1483) |
+| noticeGoose | var_spec |  | [1581](../../magpie/internal/agent/agents.go#L1581) |
+| readOwnAuth | function_declaration |  | [1586](../../magpie/internal/agent/agents.go#L1586) |

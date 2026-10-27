@@ -4,8 +4,8 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/console_windows.go) · page 1/1
 
-Source SHA-256: 84de79d846c936f7be92245d867253dd77675094e3159450d6de038c2dfe9de3
+Source SHA-256: c96f0cf42ed88e9c1b3f508f702762e6372cfddc7c067db7f03fbfa9eb42ddd3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| init | function_declaration |  | [13](../../magpie/internal/cli/console_windows.go#L13) |
+| init | function_declaration |  | [15](../../magpie/internal/cli/console_windows.go#L15) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 6/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| scroll | VariableDeclaration | ledHeatKeepEnd | [1552](../../magpie/internal/gui/assets/plugins/usage/page.js#L1552) |
-| ledHeatShow | FunctionDeclaration |  | [1558](../../magpie/internal/gui/assets/plugins/usage/page.js#L1558) |
-| box | VariableDeclaration | ledHeatShow | [1559](../../magpie/internal/gui/assets/plugins/usage/page.js#L1559) |
-| tip | VariableDeclaration | ledHeatShow | [1559](../../magpie/internal/gui/assets/plugins/usage/page.js#L1559) |
-| b | VariableDeclaration | ledHeatShow | [1564](../../magpie/internal/gui/assets/plugins/usage/page.js#L1564) |
-| c | VariableDeclaration | ledHeatShow | [1564](../../magpie/internal/gui/assets/plugins/usage/page.js#L1564) |
-| w | VariableDeclaration | ledHeatShow | [1565](../../magpie/internal/gui/assets/plugins/usage/page.js#L1565) |
-| hgt | VariableDeclaration | ledHeatShow | [1565](../../magpie/internal/gui/assets/plugins/usage/page.js#L1565) |
-| left | VariableDeclaration | ledHeatShow | [1566](../../magpie/internal/gui/assets/plugins/usage/page.js#L1566) |
-| top | VariableDeclaration | ledHeatShow | [1567](../../magpie/internal/gui/assets/plugins/usage/page.js#L1567) |
-| ledHScroll | FunctionDeclaration |  | [1574](../../magpie/internal/gui/assets/plugins/usage/page.js#L1574) |
-| wrap | VariableDeclaration | ledHScroll | [1575](../../magpie/internal/gui/assets/plugins/usage/page.js#L1575) |
-| bar | VariableDeclaration | ledHScroll | [1575](../../magpie/internal/gui/assets/plugins/usage/page.js#L1575) |
-| over | VariableDeclaration | ledHScroll | [1576](../../magpie/internal/gui/assets/plugins/usage/page.js#L1576) |
-| view | VariableDeclaration | ledHScroll | [1584](../../magpie/internal/gui/assets/plugins/usage/page.js#L1584) |
-| pad | VariableDeclaration | ledHScroll | [1585](../../magpie/internal/gui/assets/plugins/usage/page.js#L1585) |
-| bar | VariableDeclaration |  | [1588](../../magpie/internal/gui/assets/plugins/usage/page.js#L1588) |
-| wrap | VariableDeclaration |  | [1589](../../magpie/internal/gui/assets/plugins/usage/page.js#L1589) |
-| ledFitW | VariableDeclaration |  | [1595](../../magpie/internal/gui/assets/plugins/usage/page.js#L1595) |
-| ledFitFrame | VariableDeclaration |  | [1595](../../magpie/internal/gui/assets/plugins/usage/page.js#L1595) |
-| wrap | VariableDeclaration |  | [1600](../../magpie/internal/gui/assets/plugins/usage/page.js#L1600) |
-| ledGrowFrame | VariableDeclaration |  | [1610](../../magpie/internal/gui/assets/plugins/usage/page.js#L1610) |
-| ledGrow | VariableDeclaration |  | [1611](../../magpie/internal/gui/assets/plugins/usage/page.js#L1611) |
-| wrap | VariableDeclaration | ledGrow | [1615](../../magpie/internal/gui/assets/plugins/usage/page.js#L1615) |
-| table | VariableDeclaration | ledGrow | [1615](../../magpie/internal/gui/assets/plugins/usage/page.js#L1615) |
-| LED_COLS | VariableDeclaration |  | [1629](../../magpie/internal/gui/assets/plugins/usage/page.js#L1629) |
-| ledDecode | VariableDeclaration |  | [1641](../../magpie/internal/gui/assets/plugins/usage/page.js#L1641) |
-| think | VariableDeclaration | ledDecode | [1643](../../magpie/internal/gui/assets/plugins/usage/page.js#L1643) |
-| visible | VariableDeclaration | ledDecode | [1643](../../magpie/internal/gui/assets/plugins/usage/page.js#L1643) |
-| n | VariableDeclaration | ledDecode | [1644](../../magpie/internal/gui/assets/plugins/usage/page.js#L1644) |
-| from | VariableDeclaration | ledDecode | [1644](../../magpie/internal/gui/assets/plugins/usage/page.js#L1644) |
-| w | VariableDeclaration | ledDecode | [1645](../../magpie/internal/gui/assets/plugins/usage/page.js#L1645) |
-| LED_CODEX_WINDOW_MS | VariableDeclaration |  | [1658](../../magpie/internal/gui/assets/plugins/usage/page.js#L1658) |
-| LED_CODEX_BODY | VariableDeclaration |  | [1658](../../magpie/internal/gui/assets/plugins/usage/page.js#L1658) |
-| ledCodexTurn | VariableDeclaration |  | [1659](../../magpie/internal/gui/assets/plugins/usage/page.js#L1659) |
-| ledRowSpeed | VariableDeclaration |  | [1661](../../magpie/internal/gui/assets/plugins/usage/page.js#L1661) |
-| d | VariableDeclaration | ledRowSpeed | [1661](../../magpie/internal/gui/assets/plugins/usage/page.js#L1661) |
-| LED_FLOOR_AGENTS | VariableDeclaration |  | [1690](../../magpie/internal/gui/assets/plugins/usage/page.js#L1690) |
-| ledWhole_ | VariableDeclaration |  | [1691](../../magpie/internal/gui/assets/plugins/usage/page.js#L1691) |
-| ledFloor_ | VariableDeclaration |  | [1692](../../magpie/internal/gui/assets/plugins/usage/page.js#L1692) |
-| n | VariableDeclaration | ledFloor_ | [1695](../../magpie/internal/gui/assets/plugins/usage/page.js#L1695) |
-| w | VariableDeclaration | ledFloor_ | [1695](../../magpie/internal/gui/assets/plugins/usage/page.js#L1695) |
-| n | VariableDeclaration | ledFloor_ | [1701](../../magpie/internal/gui/assets/plugins/usage/page.js#L1701) |
-| w | VariableDeclaration | ledFloor_ | [1701](../../magpie/internal/gui/assets/plugins/usage/page.js#L1701) |
-| ledNoSpeed_ | VariableDeclaration |  | [1709](../../magpie/internal/gui/assets/plugins/usage/page.js#L1709) |
-| think | VariableDeclaration | ledNoSpeed_ | [1714](../../magpie/internal/gui/assets/plugins/usage/page.js#L1714) |
-| visible | VariableDeclaration | ledNoSpeed_ | [1714](../../magpie/internal/gui/assets/plugins/usage/page.js#L1714) |
-| n | VariableDeclaration | ledNoSpeed_ | [1715](../../magpie/internal/gui/assets/plugins/usage/page.js#L1715) |
-| from | VariableDeclaration | ledNoSpeed_ | [1717](../../magpie/internal/gui/assets/plugins/usage/page.js#L1717) |
-| w | VariableDeclaration | ledNoSpeed_ | [1717](../../magpie/internal/gui/assets/plugins/usage/page.js#L1717) |
-| little | VariableDeclaration | ledNoSpeed_ | [1718](../../magpie/internal/gui/assets/plugins/usage/page.js#L1718) |
-| ledFloorSpeed | VariableDeclaration |  | [1723](../../magpie/internal/gui/assets/plugins/usage/page.js#L1723) |
-| f | VariableDeclaration | ledFloorSpeed | [1723](../../magpie/internal/gui/assets/plugins/usage/page.js#L1723) |
-| ledFit | FunctionDeclaration |  | [1727](../../magpie/internal/gui/assets/plugins/usage/page.js#L1727) |
-| wrap | VariableDeclaration | ledFit | [1728](../../magpie/internal/gui/assets/plugins/usage/page.js#L1728) |
-| table | VariableDeclaration | ledFit | [1728](../../magpie/internal/gui/assets/plugins/usage/page.js#L1728) |
-| hint | VariableDeclaration | ledFit | [1729](../../magpie/internal/gui/assets/plugins/usage/page.js#L1729) |
-| over | VariableDeclaration | ledFit | [1732](../../magpie/internal/gui/assets/plugins/usage/page.js#L1732) |
-| tight | VariableDeclaration | ledFit | [1733](../../magpie/internal/gui/assets/plugins/usage/page.js#L1733) |
-| renderLedger | FunctionDeclaration |  | [1751](../../magpie/internal/gui/assets/plugins/usage/page.js#L1751) |
-| l | VariableDeclaration | renderLedger | [1752](../../magpie/internal/gui/assets/plugins/usage/page.js#L1752) |
-| callers | VariableDeclaration | renderLedger | [1753](../../magpie/internal/gui/assets/plugins/usage/page.js#L1753) |
-| providers | VariableDeclaration | renderLedger | [1754](../../magpie/internal/gui/assets/plugins/usage/page.js#L1754) |
-| missingAgent | VariableDeclaration | renderLedger | [1755](../../magpie/internal/gui/assets/plugins/usage/page.js#L1755) |
-| missingProvider | VariableDeclaration | renderLedger | [1756](../../magpie/internal/gui/assets/plugins/usage/page.js#L1756) |
-| accounts | VariableDeclaration | renderLedger | [1757](../../magpie/internal/gui/assets/plugins/usage/page.js#L1757) |
-| missingAccount | VariableDeclaration | renderLedger | [1758](../../magpie/internal/gui/assets/plugins/usage/page.js#L1758) |
-| noKey | VariableDeclaration | renderLedger | [1761](../../magpie/internal/gui/assets/plugins/usage/page.js#L1761) |
-| missingCaller | VariableDeclaration | renderLedger | [1762](../../magpie/internal/gui/assets/plugins/usage/page.js#L1762) |
-| computers | VariableDeclaration | renderLedger | [1763](../../magpie/internal/gui/assets/plugins/usage/page.js#L1763) |
-| missingComputer | VariableDeclaration | renderLedger | [1764](../../magpie/internal/gui/assets/plugins/usage/page.js#L1764) |
-| view | VariableDeclaration | renderLedger | [1776](../../magpie/internal/gui/assets/plugins/usage/page.js#L1776) |
-| seg | VariableDeclaration | renderLedger | [1794](../../magpie/internal/gui/assets/plugins/usage/page.js#L1794) |
-| shown | VariableDeclaration | renderLedger | [1798](../../magpie/internal/gui/assets/plugins/usage/page.js#L1798) |
-| [on, name] | VariableDeclaration | renderLedger | [1799](../../magpie/internal/gui/assets/plugins/usage/page.js#L1799) |
-| on | BindingElement | renderLedger.[on, name] | [1799](../../magpie/internal/gui/assets/plugins/usage/page.js#L1799) |
-| name | BindingElement | renderLedger.[on, name] | [1799](../../magpie/internal/gui/assets/plugins/usage/page.js#L1799) |
-| b | VariableDeclaration | renderLedger | [1800](../../magpie/internal/gui/assets/plugins/usage/page.js#L1800) |
-| x | VariableDeclaration | renderLedger | [1804](../../magpie/internal/gui/assets/plugins/usage/page.js#L1804) |
-| sum | VariableDeclaration | renderLedger | [1813](../../magpie/internal/gui/assets/plugins/usage/page.js#L1813) |
-| via | VariableDeclaration | renderLedger | [1826](../../magpie/internal/gui/assets/plugins/usage/page.js#L1826) |
-| thru | VariableDeclaration | renderLedger | [1827](../../magpie/internal/gui/assets/plugins/usage/page.js#L1827) |
-| dir | VariableDeclaration | renderLedger | [1827](../../magpie/internal/gui/assets/plugins/usage/page.js#L1827) |
-| rep | VariableDeclaration | renderLedger | [1827](../../magpie/internal/gui/assets/plugins/usage/page.js#L1827) |
-| all | VariableDeclaration | renderLedger | [1832](../../magpie/internal/gui/assets/plugins/usage/page.js#L1832) |
-| k | VariableDeclaration | renderLedger | [1833](../../magpie/internal/gui/assets/plugins/usage/page.js#L1833) |
-| tile | VariableDeclaration | renderLedger | [1836](../../magpie/internal/gui/assets/plugins/usage/page.js#L1836) |
-| on | VariableDeclaration | renderLedger.tile | [1837](../../magpie/internal/gui/assets/plugins/usage/page.js#L1837) |
-| v | VariableDeclaration | renderLedger.tile | [1842](../../magpie/internal/gui/assets/plugins/usage/page.js#L1842) |
-| next | VariableDeclaration | renderLedger.tile | [1848](../../magpie/internal/gui/assets/plugins/usage/page.js#L1848) |
-| n | VariableDeclaration | renderLedger | [1859](../../magpie/internal/gui/assets/plugins/usage/page.js#L1859) |
-| cells | VariableDeclaration | renderLedger | [1862](../../magpie/internal/gui/assets/plugins/usage/page.js#L1862) |
-| routeFilter | VariableDeclaration | renderLedger | [1878](../../magpie/internal/gui/assets/plugins/usage/page.js#L1878) |
-| wrap | VariableDeclaration | renderLedger | [1890](../../magpie/internal/gui/assets/plugins/usage/page.js#L1890) |
-| pager | VariableDeclaration | renderLedger | [1891](../../magpie/internal/gui/assets/plugins/usage/page.js#L1891) |
-| filtered | VariableDeclaration | renderLedger | [1894](../../magpie/internal/gui/assets/plugins/usage/page.js#L1894) |
-| none | VariableDeclaration | renderLedger | [1895](../../magpie/internal/gui/assets/plugins/usage/page.js#L1895) |
-| table | VariableDeclaration | renderLedger | [1904](../../magpie/internal/gui/assets/plugins/usage/page.js#L1904) |
-| head | VariableDeclaration | renderLedger | [1905](../../magpie/internal/gui/assets/plugins/usage/page.js#L1905) |
-| optCls | VariableDeclaration | renderLedger | [1906](../../magpie/internal/gui/assets/plugins/usage/page.js#L1906) |
+| ledHeatKeepEnd | FunctionDeclaration |  | [1555](../../magpie/internal/gui/assets/plugins/usage/page.js#L1555) |
+| scroll | VariableDeclaration | ledHeatKeepEnd | [1556](../../magpie/internal/gui/assets/plugins/usage/page.js#L1556) |
+| ledHeatShow | FunctionDeclaration |  | [1562](../../magpie/internal/gui/assets/plugins/usage/page.js#L1562) |
+| box | VariableDeclaration | ledHeatShow | [1563](../../magpie/internal/gui/assets/plugins/usage/page.js#L1563) |
+| tip | VariableDeclaration | ledHeatShow | [1563](../../magpie/internal/gui/assets/plugins/usage/page.js#L1563) |
+| b | VariableDeclaration | ledHeatShow | [1568](../../magpie/internal/gui/assets/plugins/usage/page.js#L1568) |
+| c | VariableDeclaration | ledHeatShow | [1568](../../magpie/internal/gui/assets/plugins/usage/page.js#L1568) |
+| w | VariableDeclaration | ledHeatShow | [1569](../../magpie/internal/gui/assets/plugins/usage/page.js#L1569) |
+| hgt | VariableDeclaration | ledHeatShow | [1569](../../magpie/internal/gui/assets/plugins/usage/page.js#L1569) |
+| left | VariableDeclaration | ledHeatShow | [1570](../../magpie/internal/gui/assets/plugins/usage/page.js#L1570) |
+| top | VariableDeclaration | ledHeatShow | [1571](../../magpie/internal/gui/assets/plugins/usage/page.js#L1571) |
+| ledHScroll | FunctionDeclaration |  | [1578](../../magpie/internal/gui/assets/plugins/usage/page.js#L1578) |
+| wrap | VariableDeclaration | ledHScroll | [1579](../../magpie/internal/gui/assets/plugins/usage/page.js#L1579) |
+| bar | VariableDeclaration | ledHScroll | [1579](../../magpie/internal/gui/assets/plugins/usage/page.js#L1579) |
+| over | VariableDeclaration | ledHScroll | [1580](../../magpie/internal/gui/assets/plugins/usage/page.js#L1580) |
+| view | VariableDeclaration | ledHScroll | [1588](../../magpie/internal/gui/assets/plugins/usage/page.js#L1588) |
+| pad | VariableDeclaration | ledHScroll | [1589](../../magpie/internal/gui/assets/plugins/usage/page.js#L1589) |
+| bar | VariableDeclaration |  | [1592](../../magpie/internal/gui/assets/plugins/usage/page.js#L1592) |
+| wrap | VariableDeclaration |  | [1593](../../magpie/internal/gui/assets/plugins/usage/page.js#L1593) |
+| ledFitW | VariableDeclaration |  | [1599](../../magpie/internal/gui/assets/plugins/usage/page.js#L1599) |
+| ledFitFrame | VariableDeclaration |  | [1599](../../magpie/internal/gui/assets/plugins/usage/page.js#L1599) |
+| wrap | VariableDeclaration |  | [1604](../../magpie/internal/gui/assets/plugins/usage/page.js#L1604) |
+| ledGrowFrame | VariableDeclaration |  | [1614](../../magpie/internal/gui/assets/plugins/usage/page.js#L1614) |
+| ledGrow | VariableDeclaration |  | [1615](../../magpie/internal/gui/assets/plugins/usage/page.js#L1615) |
+| wrap | VariableDeclaration | ledGrow | [1619](../../magpie/internal/gui/assets/plugins/usage/page.js#L1619) |
+| table | VariableDeclaration | ledGrow | [1619](../../magpie/internal/gui/assets/plugins/usage/page.js#L1619) |
+| LED_COLS | VariableDeclaration |  | [1633](../../magpie/internal/gui/assets/plugins/usage/page.js#L1633) |
+| ledDecode | VariableDeclaration |  | [1645](../../magpie/internal/gui/assets/plugins/usage/page.js#L1645) |
+| think | VariableDeclaration | ledDecode | [1647](../../magpie/internal/gui/assets/plugins/usage/page.js#L1647) |
+| visible | VariableDeclaration | ledDecode | [1647](../../magpie/internal/gui/assets/plugins/usage/page.js#L1647) |
+| n | VariableDeclaration | ledDecode | [1648](../../magpie/internal/gui/assets/plugins/usage/page.js#L1648) |
+| from | VariableDeclaration | ledDecode | [1648](../../magpie/internal/gui/assets/plugins/usage/page.js#L1648) |
+| w | VariableDeclaration | ledDecode | [1649](../../magpie/internal/gui/assets/plugins/usage/page.js#L1649) |
+| LED_CODEX_WINDOW_MS | VariableDeclaration |  | [1662](../../magpie/internal/gui/assets/plugins/usage/page.js#L1662) |
+| LED_CODEX_BODY | VariableDeclaration |  | [1662](../../magpie/internal/gui/assets/plugins/usage/page.js#L1662) |
+| ledCodexTurn | VariableDeclaration |  | [1663](../../magpie/internal/gui/assets/plugins/usage/page.js#L1663) |
+| ledRowSpeed | VariableDeclaration |  | [1665](../../magpie/internal/gui/assets/plugins/usage/page.js#L1665) |
+| d | VariableDeclaration | ledRowSpeed | [1665](../../magpie/internal/gui/assets/plugins/usage/page.js#L1665) |
+| LED_FLOOR_AGENTS | VariableDeclaration |  | [1694](../../magpie/internal/gui/assets/plugins/usage/page.js#L1694) |
+| ledWhole_ | VariableDeclaration |  | [1695](../../magpie/internal/gui/assets/plugins/usage/page.js#L1695) |
+| ledFloor_ | VariableDeclaration |  | [1696](../../magpie/internal/gui/assets/plugins/usage/page.js#L1696) |
+| n | VariableDeclaration | ledFloor_ | [1699](../../magpie/internal/gui/assets/plugins/usage/page.js#L1699) |
+| w | VariableDeclaration | ledFloor_ | [1699](../../magpie/internal/gui/assets/plugins/usage/page.js#L1699) |
+| n | VariableDeclaration | ledFloor_ | [1705](../../magpie/internal/gui/assets/plugins/usage/page.js#L1705) |
+| w | VariableDeclaration | ledFloor_ | [1705](../../magpie/internal/gui/assets/plugins/usage/page.js#L1705) |
+| ledNoSpeed_ | VariableDeclaration |  | [1713](../../magpie/internal/gui/assets/plugins/usage/page.js#L1713) |
+| think | VariableDeclaration | ledNoSpeed_ | [1718](../../magpie/internal/gui/assets/plugins/usage/page.js#L1718) |
+| visible | VariableDeclaration | ledNoSpeed_ | [1718](../../magpie/internal/gui/assets/plugins/usage/page.js#L1718) |
+| n | VariableDeclaration | ledNoSpeed_ | [1719](../../magpie/internal/gui/assets/plugins/usage/page.js#L1719) |
+| from | VariableDeclaration | ledNoSpeed_ | [1721](../../magpie/internal/gui/assets/plugins/usage/page.js#L1721) |
+| w | VariableDeclaration | ledNoSpeed_ | [1721](../../magpie/internal/gui/assets/plugins/usage/page.js#L1721) |
+| little | VariableDeclaration | ledNoSpeed_ | [1722](../../magpie/internal/gui/assets/plugins/usage/page.js#L1722) |
+| ledFloorSpeed | VariableDeclaration |  | [1727](../../magpie/internal/gui/assets/plugins/usage/page.js#L1727) |
+| f | VariableDeclaration | ledFloorSpeed | [1727](../../magpie/internal/gui/assets/plugins/usage/page.js#L1727) |
+| ledFit | FunctionDeclaration |  | [1731](../../magpie/internal/gui/assets/plugins/usage/page.js#L1731) |
+| wrap | VariableDeclaration | ledFit | [1732](../../magpie/internal/gui/assets/plugins/usage/page.js#L1732) |
+| table | VariableDeclaration | ledFit | [1732](../../magpie/internal/gui/assets/plugins/usage/page.js#L1732) |
+| hint | VariableDeclaration | ledFit | [1733](../../magpie/internal/gui/assets/plugins/usage/page.js#L1733) |
+| over | VariableDeclaration | ledFit | [1736](../../magpie/internal/gui/assets/plugins/usage/page.js#L1736) |
+| tight | VariableDeclaration | ledFit | [1737](../../magpie/internal/gui/assets/plugins/usage/page.js#L1737) |
+| renderLedger | FunctionDeclaration |  | [1755](../../magpie/internal/gui/assets/plugins/usage/page.js#L1755) |
+| l | VariableDeclaration | renderLedger | [1756](../../magpie/internal/gui/assets/plugins/usage/page.js#L1756) |
+| callers | VariableDeclaration | renderLedger | [1757](../../magpie/internal/gui/assets/plugins/usage/page.js#L1757) |
+| providers | VariableDeclaration | renderLedger | [1758](../../magpie/internal/gui/assets/plugins/usage/page.js#L1758) |
+| missingAgent | VariableDeclaration | renderLedger | [1759](../../magpie/internal/gui/assets/plugins/usage/page.js#L1759) |
+| missingProvider | VariableDeclaration | renderLedger | [1760](../../magpie/internal/gui/assets/plugins/usage/page.js#L1760) |
+| accounts | VariableDeclaration | renderLedger | [1761](../../magpie/internal/gui/assets/plugins/usage/page.js#L1761) |
+| missingAccount | VariableDeclaration | renderLedger | [1762](../../magpie/internal/gui/assets/plugins/usage/page.js#L1762) |
+| noKey | VariableDeclaration | renderLedger | [1765](../../magpie/internal/gui/assets/plugins/usage/page.js#L1765) |
+| missingCaller | VariableDeclaration | renderLedger | [1766](../../magpie/internal/gui/assets/plugins/usage/page.js#L1766) |
+| computers | VariableDeclaration | renderLedger | [1767](../../magpie/internal/gui/assets/plugins/usage/page.js#L1767) |
+| missingComputer | VariableDeclaration | renderLedger | [1768](../../magpie/internal/gui/assets/plugins/usage/page.js#L1768) |
+| view | VariableDeclaration | renderLedger | [1780](../../magpie/internal/gui/assets/plugins/usage/page.js#L1780) |
+| seg | VariableDeclaration | renderLedger | [1798](../../magpie/internal/gui/assets/plugins/usage/page.js#L1798) |
+| shown | VariableDeclaration | renderLedger | [1802](../../magpie/internal/gui/assets/plugins/usage/page.js#L1802) |
+| [on, name] | VariableDeclaration | renderLedger | [1803](../../magpie/internal/gui/assets/plugins/usage/page.js#L1803) |
+| on | BindingElement | renderLedger.[on, name] | [1803](../../magpie/internal/gui/assets/plugins/usage/page.js#L1803) |
+| name | BindingElement | renderLedger.[on, name] | [1803](../../magpie/internal/gui/assets/plugins/usage/page.js#L1803) |
+| b | VariableDeclaration | renderLedger | [1804](../../magpie/internal/gui/assets/plugins/usage/page.js#L1804) |
+| x | VariableDeclaration | renderLedger | [1808](../../magpie/internal/gui/assets/plugins/usage/page.js#L1808) |
+| sum | VariableDeclaration | renderLedger | [1817](../../magpie/internal/gui/assets/plugins/usage/page.js#L1817) |
+| via | VariableDeclaration | renderLedger | [1830](../../magpie/internal/gui/assets/plugins/usage/page.js#L1830) |
+| thru | VariableDeclaration | renderLedger | [1831](../../magpie/internal/gui/assets/plugins/usage/page.js#L1831) |
+| dir | VariableDeclaration | renderLedger | [1831](../../magpie/internal/gui/assets/plugins/usage/page.js#L1831) |
+| rep | VariableDeclaration | renderLedger | [1831](../../magpie/internal/gui/assets/plugins/usage/page.js#L1831) |
+| all | VariableDeclaration | renderLedger | [1836](../../magpie/internal/gui/assets/plugins/usage/page.js#L1836) |
+| k | VariableDeclaration | renderLedger | [1837](../../magpie/internal/gui/assets/plugins/usage/page.js#L1837) |
+| tile | VariableDeclaration | renderLedger | [1840](../../magpie/internal/gui/assets/plugins/usage/page.js#L1840) |
+| on | VariableDeclaration | renderLedger.tile | [1841](../../magpie/internal/gui/assets/plugins/usage/page.js#L1841) |
+| v | VariableDeclaration | renderLedger.tile | [1846](../../magpie/internal/gui/assets/plugins/usage/page.js#L1846) |
+| next | VariableDeclaration | renderLedger.tile | [1852](../../magpie/internal/gui/assets/plugins/usage/page.js#L1852) |
+| n | VariableDeclaration | renderLedger | [1863](../../magpie/internal/gui/assets/plugins/usage/page.js#L1863) |
+| cells | VariableDeclaration | renderLedger | [1866](../../magpie/internal/gui/assets/plugins/usage/page.js#L1866) |
+| routeFilter | VariableDeclaration | renderLedger | [1882](../../magpie/internal/gui/assets/plugins/usage/page.js#L1882) |
+| wrap | VariableDeclaration | renderLedger | [1894](../../magpie/internal/gui/assets/plugins/usage/page.js#L1894) |
+| pager | VariableDeclaration | renderLedger | [1895](../../magpie/internal/gui/assets/plugins/usage/page.js#L1895) |
+| filtered | VariableDeclaration | renderLedger | [1898](../../magpie/internal/gui/assets/plugins/usage/page.js#L1898) |
+| none | VariableDeclaration | renderLedger | [1899](../../magpie/internal/gui/assets/plugins/usage/page.js#L1899) |
+| table | VariableDeclaration | renderLedger | [1908](../../magpie/internal/gui/assets/plugins/usage/page.js#L1908) |
+| head | VariableDeclaration | renderLedger | [1909](../../magpie/internal/gui/assets/plugins/usage/page.js#L1909) |

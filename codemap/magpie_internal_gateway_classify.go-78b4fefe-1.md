@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/classify.go) · page 1/1
 
-Source SHA-256: bc03c4c846dbf969111af0d315ad7954aa75efcc353dd758e063dbc3110d728a
+Source SHA-256: 438e4dc86f13e40b3f012f509ecffd0570132719291c5517c1ecaed510f64121
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -50,13 +50,14 @@ Source SHA-256: bc03c4c846dbf969111af0d315ad7954aa75efcc353dd758e063dbc3110d728a
 | firstNumber | var_spec |  | [328](../../magpie/internal/gateway/classify.go#L328) |
 | readIntent | function_declaration |  | [332](../../magpie/internal/gateway/classify.go#L332) |
 | classifyEffort | function_declaration |  | [350](../../magpie/internal/gateway/classify.go#L350) |
-| askClassifier | method_declaration | *Server | [366](../../magpie/internal/gateway/classify.go#L366) |
-| effortPrompt | const_spec |  | [404](../../magpie/internal/gateway/classify.go#L404) |
-| effortBody | function_declaration |  | [410](../../magpie/internal/gateway/classify.go#L410) |
-| readEffort | function_declaration |  | [447](../../magpie/internal/gateway/classify.go#L447) |
-| askChat | method_declaration | *Server | [461](../../magpie/internal/gateway/classify.go#L461) |
-| Choices | field_declaration | *Server.askChat | [477](../../magpie/internal/gateway/classify.go#L477) |
-| Message | field_declaration | *Server.askChat | [478](../../magpie/internal/gateway/classify.go#L478) |
-| Content | field_declaration | *Server.askChat | [479](../../magpie/internal/gateway/classify.go#L479) |
-| Error | field_declaration | *Server.askChat | [482](../../magpie/internal/gateway/classify.go#L482) |
-| Message | field_declaration | *Server.askChat | [483](../../magpie/internal/gateway/classify.go#L483) |
+| askWaited | function_declaration |  | [369](../../magpie/internal/gateway/classify.go#L369) |
+| askClassifier | method_declaration | *Server | [376](../../magpie/internal/gateway/classify.go#L376) |
+| effortPrompt | const_spec |  | [414](../../magpie/internal/gateway/classify.go#L414) |
+| effortBody | function_declaration |  | [420](../../magpie/internal/gateway/classify.go#L420) |
+| readEffort | function_declaration |  | [457](../../magpie/internal/gateway/classify.go#L457) |
+| askChat | method_declaration | *Server | [471](../../magpie/internal/gateway/classify.go#L471) |
+| Choices | field_declaration | *Server.askChat | [487](../../magpie/internal/gateway/classify.go#L487) |
+| Message | field_declaration | *Server.askChat | [488](../../magpie/internal/gateway/classify.go#L488) |
+| Content | field_declaration | *Server.askChat | [489](../../magpie/internal/gateway/classify.go#L489) |
+| Error | field_declaration | *Server.askChat | [492](../../magpie/internal/gateway/classify.go#L492) |
+| Message | field_declaration | *Server.askChat | [493](../../magpie/internal/gateway/classify.go#L493) |

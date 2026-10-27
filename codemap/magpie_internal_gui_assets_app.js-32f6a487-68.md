@@ -4,103 +4,81 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 68/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| frame | VariableDeclaration |  | [24549](../../magpie/internal/gui/assets/app.js#L24549) |
-| fit | VariableDeclaration |  | [24550](../../magpie/internal/gui/assets/app.js#L24550) |
-| cost | VariableDeclaration | fit | [24554](../../magpie/internal/gui/assets/app.js#L24554) |
-| sum | VariableDeclaration | fit | [24554](../../magpie/internal/gui/assets/app.js#L24554) |
-| unpriced | VariableDeclaration | fit | [24554](../../magpie/internal/gui/assets/app.js#L24554) |
-| later | VariableDeclaration |  | [24560](../../magpie/internal/gui/assets/app.js#L24560) |
-| ro | VariableDeclaration |  | [24563](../../magpie/internal/gui/assets/app.js#L24563) |
-| renderPluginDot | FunctionDeclaration |  | [24573](../../magpie/internal/gui/assets/app.js#L24573) |
-| b | VariableDeclaration | renderPluginDot | [24574](../../magpie/internal/gui/assets/app.js#L24574) |
-| u | VariableDeclaration | renderPluginDot | [24576](../../magpie/internal/gui/assets/app.js#L24576) |
-| n | VariableDeclaration | renderPluginDot | [24577](../../magpie/internal/gui/assets/app.js#L24577) |
-| pluginUpdates | VariableDeclaration |  | [24585](../../magpie/internal/gui/assets/app.js#L24585) |
-| accountNames | VariableDeclaration |  | [24601](../../magpie/internal/gui/assets/app.js#L24601) |
-| NOT_ACCOUNTS | VariableDeclaration |  | [24604](../../magpie/internal/gui/assets/app.js#L24604) |
-| noteAccount | FunctionDeclaration |  | [24605](../../magpie/internal/gui/assets/app.js#L24605) |
-| noteAccounts | FunctionDeclaration |  | [24612](../../magpie/internal/gui/assets/app.js#L24612) |
-| v | VariableDeclaration | noteAccounts | [24614](../../magpie/internal/gui/assets/app.js#L24614) |
-| k | VariableDeclaration | noteAccounts | [24618](../../magpie/internal/gui/assets/app.js#L24618) |
-| v | VariableDeclaration | noteAccounts | [24620](../../magpie/internal/gui/assets/app.js#L24620) |
-| w | VariableDeclaration | noteAccounts | [24623](../../magpie/internal/gui/assets/app.js#L24623) |
-| EYE | VariableDeclaration |  | [24629](../../magpie/internal/gui/assets/app.js#L24629) |
-| EYE_OFF | VariableDeclaration |  | [24630](../../magpie/internal/gui/assets/app.js#L24630) |
-| EMAIL | VariableDeclaration |  | [24633](../../magpie/internal/gui/assets/app.js#L24633) |
-| IS_EMAIL | VariableDeclaration |  | [24633](../../magpie/internal/gui/assets/app.js#L24633) |
-| dots | VariableDeclaration |  | [24636](../../magpie/internal/gui/assets/app.js#L24636) |
-| h | VariableDeclaration | dots | [24636](../../magpie/internal/gui/assets/app.js#L24636) |
-| esc | VariableDeclaration |  | [24637](../../magpie/internal/gui/assets/app.js#L24637) |
-| names | FunctionDeclaration |  | [24642](../../magpie/internal/gui/assets/app.js#L24642) |
-| all | VariableDeclaration | names | [24643](../../magpie/internal/gui/assets/app.js#L24643) |
-| not | VariableDeclaration | names | [24643](../../magpie/internal/gui/assets/app.js#L24643) |
-| p | VariableDeclaration | names | [24644](../../magpie/internal/gui/assets/app.js#L24644) |
-| n | VariableDeclaration | names | [24645](../../magpie/internal/gui/assets/app.js#L24645) |
-| l | VariableDeclaration | names | [24646](../../magpie/internal/gui/assets/app.js#L24646) |
-| n | VariableDeclaration | names | [24648](../../magpie/internal/gui/assets/app.js#L24648) |
-| q | VariableDeclaration | names | [24650](../../magpie/internal/gui/assets/app.js#L24650) |
-| n | VariableDeclaration | names | [24651](../../magpie/internal/gui/assets/app.js#L24651) |
-| a | VariableDeclaration | names | [24655](../../magpie/internal/gui/assets/app.js#L24655) |
-| n | VariableDeclaration | names | [24655](../../magpie/internal/gui/assets/app.js#L24655) |
-| findKey | VariableDeclaration |  | [24658](../../magpie/internal/gui/assets/app.js#L24658) |
-| find | VariableDeclaration |  | [24658](../../magpie/internal/gui/assets/app.js#L24658) |
-| finder | FunctionDeclaration |  | [24660](../../magpie/internal/gui/assets/app.js#L24660) |
-| ns | VariableDeclaration | finder | [24661](../../magpie/internal/gui/assets/app.js#L24661) |
-| key | VariableDeclaration | finder | [24661](../../magpie/internal/gui/assets/app.js#L24661) |
-| WORD | VariableDeclaration |  | [24672](../../magpie/internal/gui/assets/app.js#L24672) |
-| JOIN | VariableDeclaration |  | [24672](../../magpie/internal/gui/assets/app.js#L24672) |
-| joined | VariableDeclaration |  | [24673](../../magpie/internal/gui/assets/app.js#L24673) |
-| hits | FunctionDeclaration |  | [24674](../../magpie/internal/gui/assets/app.js#L24674) |
-| m | VariableDeclaration | hits | [24676](../../magpie/internal/gui/assets/app.js#L24676) |
-| name | VariableDeclaration | hits | [24677](../../magpie/internal/gui/assets/app.js#L24677) |
-| end | VariableDeclaration | hits | [24677](../../magpie/internal/gui/assets/app.js#L24677) |
-| OBS | VariableDeclaration |  | [24684](../../magpie/internal/gui/assets/app.js#L24684) |
-| SKIP | VariableDeclaration |  | [24685](../../magpie/internal/gui/assets/app.js#L24685) |
-| NAMELESS | VariableDeclaration |  | [24691](../../magpie/internal/gui/assets/app.js#L24691) |
-| masked | VariableDeclaration |  | [24696](../../magpie/internal/gui/assets/app.js#L24696) |
-| chosen | VariableDeclaration |  | [24696](../../magpie/internal/gui/assets/app.js#L24696) |
-| targets | VariableDeclaration |  | [24704](../../magpie/internal/gui/assets/app.js#L24704) |
-| pages | VariableDeclaration |  | [24705](../../magpie/internal/gui/assets/app.js#L24705) |
-| v | BindingElement | pages | [24705](../../magpie/internal/gui/assets/app.js#L24705) |
-| bs | BindingElement | pages | [24705](../../magpie/internal/gui/assets/app.js#L24705) |
-| view | VariableDeclaration | pages | [24706](../../magpie/internal/gui/assets/app.js#L24706) |
-| mask | FunctionDeclaration | pages | [24708](../../magpie/internal/gui/assets/app.js#L24708) |
-| all | VariableDeclaration | pages.mask | [24709](../../magpie/internal/gui/assets/app.js#L24709) |
-| reOf | VariableDeclaration | pages.mask | [24709](../../magpie/internal/gui/assets/app.js#L24709) |
-| walk | VariableDeclaration | pages.mask | [24710](../../magpie/internal/gui/assets/app.js#L24710) |
-| found | VariableDeclaration | pages.mask | [24710](../../magpie/internal/gui/assets/app.js#L24710) |
-| n | VariableDeclaration | pages.mask | [24711](../../magpie/internal/gui/assets/app.js#L24711) |
-| re | VariableDeclaration | pages.mask | [24713](../../magpie/internal/gui/assets/app.js#L24713) |
-| n | VariableDeclaration | pages.mask | [24717](../../magpie/internal/gui/assets/app.js#L24717) |
-| bits | VariableDeclaration | pages.mask | [24718](../../magpie/internal/gui/assets/app.js#L24718) |
-| last | VariableDeclaration | pages.mask | [24719](../../magpie/internal/gui/assets/app.js#L24719) |
-| m | VariableDeclaration | pages.mask | [24720](../../magpie/internal/gui/assets/app.js#L24720) |
-| s | VariableDeclaration | pages.mask | [24722](../../magpie/internal/gui/assets/app.js#L24722) |
-| run | VariableDeclaration | pages.mask | [24731](../../magpie/internal/gui/assets/app.js#L24731) |
-| e | VariableDeclaration | pages.mask | [24734](../../magpie/internal/gui/assets/app.js#L24734) |
-| out | VariableDeclaration | pages.mask | [24737](../../magpie/internal/gui/assets/app.js#L24737) |
-| last | VariableDeclaration | pages.mask | [24737](../../magpie/internal/gui/assets/app.js#L24737) |
-| m | VariableDeclaration | pages.mask | [24738](../../magpie/internal/gui/assets/app.js#L24738) |
-| unmask | FunctionDeclaration | pages | [24747](../../magpie/internal/gui/assets/app.js#L24747) |
-| s | VariableDeclaration | pages.unmask | [24748](../../magpie/internal/gui/assets/app.js#L24748) |
-| r | VariableDeclaration | pages.unmask | [24749](../../magpie/internal/gui/assets/app.js#L24749) |
-| e | VariableDeclaration | pages.unmask | [24751](../../magpie/internal/gui/assets/app.js#L24751) |
-| watch | VariableDeclaration | pages | [24755](../../magpie/internal/gui/assets/app.js#L24755) |
-| roots | VariableDeclaration | pages.watch | [24758](../../magpie/internal/gui/assets/app.js#L24758) |
-| r | VariableDeclaration | pages.watch | [24759](../../magpie/internal/gui/assets/app.js#L24759) |
-| e | VariableDeclaration | pages.watch | [24760](../../magpie/internal/gui/assets/app.js#L24760) |
-| e | VariableDeclaration | pages.watch | [24763](../../magpie/internal/gui/assets/app.js#L24763) |
-| btns | VariableDeclaration | pages | [24766](../../magpie/internal/gui/assets/app.js#L24766) |
-| btn | VariableDeclaration | pages | [24767](../../magpie/internal/gui/assets/app.js#L24767) |
-| btn | VariableDeclaration | pages | [24775](../../magpie/internal/gui/assets/app.js#L24775) |
-| label | VariableDeclaration | pages | [24780](../../magpie/internal/gui/assets/app.js#L24780) |
-| setMasked | FunctionDeclaration |  | [24794](../../magpie/internal/gui/assets/app.js#L24794) |
-| set | VariableDeclaration | setMasked | [24797](../../magpie/internal/gui/assets/app.js#L24797) |
-| on | PropertyAssignment |  | [24801](../../magpie/internal/gui/assets/app.js#L24801) |
-| set | PropertyAssignment |  | [24802](../../magpie/internal/gui/assets/app.js#L24802) |
-| follow | PropertyAssignment |  | [24803](../../magpie/internal/gui/assets/app.js#L24803) |
-| id | VariableDeclaration |  | [24817](../../magpie/internal/gui/assets/app.js#L24817) |
+| finder | FunctionDeclaration |  | [24536](../../magpie/internal/gui/assets/app.js#L24536) |
+| ns | VariableDeclaration | finder | [24537](../../magpie/internal/gui/assets/app.js#L24537) |
+| key | VariableDeclaration | finder | [24537](../../magpie/internal/gui/assets/app.js#L24537) |
+| WORD | VariableDeclaration |  | [24548](../../magpie/internal/gui/assets/app.js#L24548) |
+| JOIN | VariableDeclaration |  | [24548](../../magpie/internal/gui/assets/app.js#L24548) |
+| joined | VariableDeclaration |  | [24549](../../magpie/internal/gui/assets/app.js#L24549) |
+| shown | VariableDeclaration |  | [24553](../../magpie/internal/gui/assets/app.js#L24553) |
+| low | VariableDeclaration |  | [24553](../../magpie/internal/gui/assets/app.js#L24553) |
+| hits | FunctionDeclaration |  | [24554](../../magpie/internal/gui/assets/app.js#L24554) |
+| m | VariableDeclaration | hits | [24556](../../magpie/internal/gui/assets/app.js#L24556) |
+| name | VariableDeclaration | hits | [24558](../../magpie/internal/gui/assets/app.js#L24558) |
+| end | VariableDeclaration | hits | [24558](../../magpie/internal/gui/assets/app.js#L24558) |
+| OBS | VariableDeclaration |  | [24565](../../magpie/internal/gui/assets/app.js#L24565) |
+| SKIP | VariableDeclaration |  | [24566](../../magpie/internal/gui/assets/app.js#L24566) |
+| NAMELESS | VariableDeclaration |  | [24572](../../magpie/internal/gui/assets/app.js#L24572) |
+| masked | VariableDeclaration |  | [24577](../../magpie/internal/gui/assets/app.js#L24577) |
+| chosen | VariableDeclaration |  | [24577](../../magpie/internal/gui/assets/app.js#L24577) |
+| targets | VariableDeclaration |  | [24585](../../magpie/internal/gui/assets/app.js#L24585) |
+| pages | VariableDeclaration |  | [24586](../../magpie/internal/gui/assets/app.js#L24586) |
+| v | BindingElement | pages | [24586](../../magpie/internal/gui/assets/app.js#L24586) |
+| bs | BindingElement | pages | [24586](../../magpie/internal/gui/assets/app.js#L24586) |
+| view | VariableDeclaration | pages | [24587](../../magpie/internal/gui/assets/app.js#L24587) |
+| mask | FunctionDeclaration | pages | [24589](../../magpie/internal/gui/assets/app.js#L24589) |
+| all | VariableDeclaration | pages.mask | [24590](../../magpie/internal/gui/assets/app.js#L24590) |
+| reOf | VariableDeclaration | pages.mask | [24590](../../magpie/internal/gui/assets/app.js#L24590) |
+| walk | VariableDeclaration | pages.mask | [24591](../../magpie/internal/gui/assets/app.js#L24591) |
+| found | VariableDeclaration | pages.mask | [24591](../../magpie/internal/gui/assets/app.js#L24591) |
+| n | VariableDeclaration | pages.mask | [24592](../../magpie/internal/gui/assets/app.js#L24592) |
+| re | VariableDeclaration | pages.mask | [24594](../../magpie/internal/gui/assets/app.js#L24594) |
+| n | VariableDeclaration | pages.mask | [24598](../../magpie/internal/gui/assets/app.js#L24598) |
+| bits | VariableDeclaration | pages.mask | [24599](../../magpie/internal/gui/assets/app.js#L24599) |
+| last | VariableDeclaration | pages.mask | [24600](../../magpie/internal/gui/assets/app.js#L24600) |
+| m | VariableDeclaration | pages.mask | [24601](../../magpie/internal/gui/assets/app.js#L24601) |
+| s | VariableDeclaration | pages.mask | [24603](../../magpie/internal/gui/assets/app.js#L24603) |
+| run | VariableDeclaration | pages.mask | [24612](../../magpie/internal/gui/assets/app.js#L24612) |
+| e | VariableDeclaration | pages.mask | [24615](../../magpie/internal/gui/assets/app.js#L24615) |
+| out | VariableDeclaration | pages.mask | [24618](../../magpie/internal/gui/assets/app.js#L24618) |
+| last | VariableDeclaration | pages.mask | [24618](../../magpie/internal/gui/assets/app.js#L24618) |
+| m | VariableDeclaration | pages.mask | [24619](../../magpie/internal/gui/assets/app.js#L24619) |
+| unmask | FunctionDeclaration | pages | [24628](../../magpie/internal/gui/assets/app.js#L24628) |
+| s | VariableDeclaration | pages.unmask | [24629](../../magpie/internal/gui/assets/app.js#L24629) |
+| r | VariableDeclaration | pages.unmask | [24630](../../magpie/internal/gui/assets/app.js#L24630) |
+| e | VariableDeclaration | pages.unmask | [24632](../../magpie/internal/gui/assets/app.js#L24632) |
+| watch | VariableDeclaration | pages | [24636](../../magpie/internal/gui/assets/app.js#L24636) |
+| roots | VariableDeclaration | pages.watch | [24639](../../magpie/internal/gui/assets/app.js#L24639) |
+| r | VariableDeclaration | pages.watch | [24640](../../magpie/internal/gui/assets/app.js#L24640) |
+| e | VariableDeclaration | pages.watch | [24641](../../magpie/internal/gui/assets/app.js#L24641) |
+| e | VariableDeclaration | pages.watch | [24644](../../magpie/internal/gui/assets/app.js#L24644) |
+| btns | VariableDeclaration | pages | [24647](../../magpie/internal/gui/assets/app.js#L24647) |
+| btn | VariableDeclaration | pages | [24648](../../magpie/internal/gui/assets/app.js#L24648) |
+| btn | VariableDeclaration | pages | [24656](../../magpie/internal/gui/assets/app.js#L24656) |
+| label | VariableDeclaration | pages | [24661](../../magpie/internal/gui/assets/app.js#L24661) |
+| setMasked | FunctionDeclaration |  | [24675](../../magpie/internal/gui/assets/app.js#L24675) |
+| set | VariableDeclaration | setMasked | [24678](../../magpie/internal/gui/assets/app.js#L24678) |
+| kin | VariableDeclaration |  | [24680](../../magpie/internal/gui/assets/app.js#L24680) |
+| k | VariableDeclaration | kin | [24681](../../magpie/internal/gui/assets/app.js#L24681) |
+| p | VariableDeclaration | kin | [24682](../../magpie/internal/gui/assets/app.js#L24682) |
+| [a, n] | VariableDeclaration | kin | [24682](../../magpie/internal/gui/assets/app.js#L24682) |
+| a | BindingElement | kin.[a, n] | [24682](../../magpie/internal/gui/assets/app.js#L24682) |
+| n | BindingElement | kin.[a, n] | [24682](../../magpie/internal/gui/assets/app.js#L24682) |
+| q | VariableDeclaration | kin | [24683](../../magpie/internal/gui/assets/app.js#L24683) |
+| paint | VariableDeclaration |  | [24686](../../magpie/internal/gui/assets/app.js#L24686) |
+| on | VariableDeclaration | paint | [24687](../../magpie/internal/gui/assets/app.js#L24687) |
+| redraw | VariableDeclaration |  | [24692](../../magpie/internal/gui/assets/app.js#L24692) |
+| set | VariableDeclaration | redraw | [24694](../../magpie/internal/gui/assets/app.js#L24694) |
+| eye | PropertyAssignment |  | [24698](../../magpie/internal/gui/assets/app.js#L24698) |
+| b | VariableDeclaration | eye | [24699](../../magpie/internal/gui/assets/app.js#L24699) |
+| on | VariableDeclaration | eye | [24707](../../magpie/internal/gui/assets/app.js#L24707) |
+| k | VariableDeclaration | eye | [24708](../../magpie/internal/gui/assets/app.js#L24708) |
+| closed | PropertyAssignment |  | [24715](../../magpie/internal/gui/assets/app.js#L24715) |
+| on | PropertyAssignment |  | [24716](../../magpie/internal/gui/assets/app.js#L24716) |
+| set | PropertyAssignment |  | [24717](../../magpie/internal/gui/assets/app.js#L24717) |
+| follow | PropertyAssignment |  | [24718](../../magpie/internal/gui/assets/app.js#L24718) |
+| id | VariableDeclaration |  | [24732](../../magpie/internal/gui/assets/app.js#L24732) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codex.go) · page 1/1
 
-Source SHA-256: a3e5d72b447c3e13e9573e3d32e4271e1f22090e154a7cbc6d9e020b0faed251
+Source SHA-256: 04a8cf22fef2dfb6afed1101c39622a8a495c101c05e1cacfe89415fa5be62a1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -22,50 +22,50 @@ Source SHA-256: a3e5d72b447c3e13e9573e3d32e4271e1f22090e154a7cbc6d9e020b0faed251
 | Models | field_declaration | catalogParses | [217](../../magpie/internal/agent/codex.go#L217) |
 | writeOwnList | function_declaration |  | [228](../../magpie/internal/agent/codex.go#L228) |
 | codexIn | function_declaration |  | [235](../../magpie/internal/agent/codex.go#L235) |
-| Providers | field_declaration | codexIn | [633](../../magpie/internal/agent/codex.go#L633) |
-| ccSwitchProvider | var_spec |  | [1705](../../magpie/internal/agent/codex.go#L1705) |
-| codexBuiltinProvider | var_spec |  | [1711](../../magpie/internal/agent/codex.go#L1711) |
-| contains | function_declaration |  | [1716](../../magpie/internal/agent/codex.go#L1716) |
-| codexAppEfforts | var_spec |  | [1729](../../magpie/internal/agent/codex.go#L1729) |
-| codexAppEffortsOn | var_spec |  | [1730](../../magpie/internal/agent/codex.go#L1730) |
-| codexEnableEfforts | function_declaration |  | [1741](../../magpie/internal/agent/codex.go#L1741) |
-| Desktop | field_declaration | codexEnableEfforts | [1747](../../magpie/internal/agent/codex.go#L1747) |
-| ownCodex | function_declaration |  | [1798](../../magpie/internal/agent/codex.go#L1798) |
-| codexOwnViaMagpie | function_declaration |  | [1819](../../magpie/internal/agent/codex.go#L1819) |
-| codexOwnOf | function_declaration |  | [1836](../../magpie/internal/agent/codex.go#L1836) |
-| codexGatewayURL | function_declaration |  | [1849](../../magpie/internal/agent/codex.go#L1849) |
-| codexKeptGateway | function_declaration |  | [1859](../../magpie/internal/agent/codex.go#L1859) |
-| codexMoveGateway | function_declaration |  | [1885](../../magpie/internal/agent/codex.go#L1885) |
-| isCodexGatewayOn | function_declaration |  | [1900](../../magpie/internal/agent/codex.go#L1900) |
-| codexStaleCache | function_declaration |  | [1908](../../magpie/internal/agent/codex.go#L1908) |
-| codexUsedUp | var_spec |  | [1944](../../magpie/internal/agent/codex.go#L1944) |
-| codexFailover | function_declaration |  | [1951](../../magpie/internal/agent/codex.go#L1951) |
-| EndCodexFailover | function_declaration |  | [1971](../../magpie/internal/agent/codex.go#L1971) |
-| CodexOwnOnly | function_declaration |  | [1994](../../magpie/internal/agent/codex.go#L1994) |
-| CodexSideModel | function_declaration |  | [2019](../../magpie/internal/agent/codex.go#L2019) |
-| CodexSideSet | function_declaration |  | [2032](../../magpie/internal/agent/codex.go#L2032) |
-| codexChatGPT | function_declaration |  | [2052](../../magpie/internal/agent/codex.go#L2052) |
-| codexChatGPTKnown | function_declaration |  | [2064](../../magpie/internal/agent/codex.go#L2064) |
-| Tokens | field_declaration | codexChatGPTKnown | [2069](../../magpie/internal/agent/codex.go#L2069) |
-| Access | field_declaration | codexChatGPTKnown | [2070](../../magpie/internal/agent/codex.go#L2070) |
-| codexReached | function_declaration |  | [2095](../../magpie/internal/agent/codex.go#L2095) |
-| reachedFor | const_spec |  | [2120](../../magpie/internal/agent/codex.go#L2120) |
-| reachedKey | struct_type |  | [2122](../../magpie/internal/agent/codex.go#L2122) |
-| path | field_declaration | reachedKey | [2123](../../magpie/internal/agent/codex.go#L2123) |
-| since | field_declaration | reachedKey | [2124](../../magpie/internal/agent/codex.go#L2124) |
-| db | field_declaration | reachedKey | [2125](../../magpie/internal/agent/codex.go#L2125) |
-| wal | field_declaration | reachedKey | [2125](../../magpie/internal/agent/codex.go#L2125) |
-| fileStamp | struct_type |  | [2128](../../magpie/internal/agent/codex.go#L2128) |
-| size | field_declaration | fileStamp | [2128](../../magpie/internal/agent/codex.go#L2128) |
-| mod | field_declaration | fileStamp | [2128](../../magpie/internal/agent/codex.go#L2128) |
-| stampOf | function_declaration |  | [2130](../../magpie/internal/agent/codex.go#L2130) |
-| reachedRead | struct_type |  | [2138](../../magpie/internal/agent/codex.go#L2138) |
-| key | field_declaration | reachedRead | [2139](../../magpie/internal/agent/codex.go#L2139) |
-| read | field_declaration | reachedRead | [2140](../../magpie/internal/agent/codex.go#L2140) |
-| at | field_declaration | reachedRead | [2141](../../magpie/internal/agent/codex.go#L2141) |
-| to | field_declaration | reachedRead | [2142](../../magpie/internal/agent/codex.go#L2142) |
-| refused | field_declaration | reachedRead | [2143](../../magpie/internal/agent/codex.go#L2143) |
-| reachedMu | var_spec |  | [2147](../../magpie/internal/agent/codex.go#L2147) |
-| reachedMemo | var_spec |  | [2148](../../magpie/internal/agent/codex.go#L2148) |
-| reachedOpens | var_spec |  | [2150](../../magpie/internal/agent/codex.go#L2150) |
-| codexReachedRead | function_declaration |  | [2153](../../magpie/internal/agent/codex.go#L2153) |
+| Providers | field_declaration | codexIn | [693](../../magpie/internal/agent/codex.go#L693) |
+| ccSwitchProvider | var_spec |  | [1768](../../magpie/internal/agent/codex.go#L1768) |
+| codexBuiltinProvider | var_spec |  | [1774](../../magpie/internal/agent/codex.go#L1774) |
+| contains | function_declaration |  | [1779](../../magpie/internal/agent/codex.go#L1779) |
+| codexAppEfforts | var_spec |  | [1792](../../magpie/internal/agent/codex.go#L1792) |
+| codexAppEffortsOn | var_spec |  | [1793](../../magpie/internal/agent/codex.go#L1793) |
+| codexEnableEfforts | function_declaration |  | [1804](../../magpie/internal/agent/codex.go#L1804) |
+| Desktop | field_declaration | codexEnableEfforts | [1810](../../magpie/internal/agent/codex.go#L1810) |
+| ownCodex | function_declaration |  | [1861](../../magpie/internal/agent/codex.go#L1861) |
+| codexOwnViaMagpie | function_declaration |  | [1882](../../magpie/internal/agent/codex.go#L1882) |
+| codexOwnOf | function_declaration |  | [1899](../../magpie/internal/agent/codex.go#L1899) |
+| codexGatewayURL | function_declaration |  | [1912](../../magpie/internal/agent/codex.go#L1912) |
+| codexKeptGateway | function_declaration |  | [1922](../../magpie/internal/agent/codex.go#L1922) |
+| codexMoveGateway | function_declaration |  | [1948](../../magpie/internal/agent/codex.go#L1948) |
+| isCodexGatewayOn | function_declaration |  | [1963](../../magpie/internal/agent/codex.go#L1963) |
+| codexStaleCache | function_declaration |  | [1971](../../magpie/internal/agent/codex.go#L1971) |
+| codexUsedUp | var_spec |  | [2007](../../magpie/internal/agent/codex.go#L2007) |
+| codexFailover | function_declaration |  | [2014](../../magpie/internal/agent/codex.go#L2014) |
+| EndCodexFailover | function_declaration |  | [2034](../../magpie/internal/agent/codex.go#L2034) |
+| CodexOwnOnly | function_declaration |  | [2057](../../magpie/internal/agent/codex.go#L2057) |
+| CodexSideModel | function_declaration |  | [2082](../../magpie/internal/agent/codex.go#L2082) |
+| CodexSideSet | function_declaration |  | [2095](../../magpie/internal/agent/codex.go#L2095) |
+| codexChatGPT | function_declaration |  | [2115](../../magpie/internal/agent/codex.go#L2115) |
+| codexChatGPTKnown | function_declaration |  | [2127](../../magpie/internal/agent/codex.go#L2127) |
+| Tokens | field_declaration | codexChatGPTKnown | [2132](../../magpie/internal/agent/codex.go#L2132) |
+| Access | field_declaration | codexChatGPTKnown | [2133](../../magpie/internal/agent/codex.go#L2133) |
+| codexReached | function_declaration |  | [2158](../../magpie/internal/agent/codex.go#L2158) |
+| reachedFor | const_spec |  | [2183](../../magpie/internal/agent/codex.go#L2183) |
+| reachedKey | struct_type |  | [2185](../../magpie/internal/agent/codex.go#L2185) |
+| path | field_declaration | reachedKey | [2186](../../magpie/internal/agent/codex.go#L2186) |
+| since | field_declaration | reachedKey | [2187](../../magpie/internal/agent/codex.go#L2187) |
+| db | field_declaration | reachedKey | [2188](../../magpie/internal/agent/codex.go#L2188) |
+| wal | field_declaration | reachedKey | [2188](../../magpie/internal/agent/codex.go#L2188) |
+| fileStamp | struct_type |  | [2191](../../magpie/internal/agent/codex.go#L2191) |
+| size | field_declaration | fileStamp | [2191](../../magpie/internal/agent/codex.go#L2191) |
+| mod | field_declaration | fileStamp | [2191](../../magpie/internal/agent/codex.go#L2191) |
+| stampOf | function_declaration |  | [2193](../../magpie/internal/agent/codex.go#L2193) |
+| reachedRead | struct_type |  | [2201](../../magpie/internal/agent/codex.go#L2201) |
+| key | field_declaration | reachedRead | [2202](../../magpie/internal/agent/codex.go#L2202) |
+| read | field_declaration | reachedRead | [2203](../../magpie/internal/agent/codex.go#L2203) |
+| at | field_declaration | reachedRead | [2204](../../magpie/internal/agent/codex.go#L2204) |
+| to | field_declaration | reachedRead | [2205](../../magpie/internal/agent/codex.go#L2205) |
+| refused | field_declaration | reachedRead | [2206](../../magpie/internal/agent/codex.go#L2206) |
+| reachedMu | var_spec |  | [2210](../../magpie/internal/agent/codex.go#L2210) |
+| reachedMemo | var_spec |  | [2211](../../magpie/internal/agent/codex.go#L2211) |
+| reachedOpens | var_spec |  | [2213](../../magpie/internal/agent/codex.go#L2213) |
+| codexReachedRead | function_declaration |  | [2216](../../magpie/internal/agent/codex.go#L2216) |

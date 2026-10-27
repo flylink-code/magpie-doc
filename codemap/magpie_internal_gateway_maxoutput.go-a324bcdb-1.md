@@ -4,24 +4,30 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/maxoutput.go) · page 1/1
 
-Source SHA-256: d44560853ae08f5569f898bfaeb4b0d167fb1620fd94c6e282fa7510b8cb7f60
+Source SHA-256: d577a4c7d9be850715e560d2841cf290753855a47b4732dea225388bcefee4e7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| outputLimit | function_declaration |  | [17](../../magpie/internal/gateway/maxoutput.go#L17) |
-| userOutput | function_declaration |  | [33](../../magpie/internal/gateway/maxoutput.go#L33) |
-| askedOutput | function_declaration |  | [49](../../magpie/internal/gateway/maxoutput.go#L49) |
-| defaultMaxTokens | const_spec |  | [60](../../magpie/internal/gateway/maxoutput.go#L60) |
-| withMaxOutput | function_declaration |  | [66](../../magpie/internal/gateway/maxoutput.go#L66) |
-| MaxTokens | field_declaration | withMaxOutput | [68](../../magpie/internal/gateway/maxoutput.go#L68) |
-| MaxCompletionTokens | field_declaration | withMaxOutput | [69](../../magpie/internal/gateway/maxoutput.go#L69) |
-| MaxOutputTokens | field_declaration | withMaxOutput | [70](../../magpie/internal/gateway/maxoutput.go#L70) |
-| Thinking | field_declaration | withMaxOutput | [71](../../magpie/internal/gateway/maxoutput.go#L71) |
-| Type | field_declaration | withMaxOutput | [72](../../magpie/internal/gateway/maxoutput.go#L72) |
-| Budget | field_declaration | withMaxOutput | [73](../../magpie/internal/gateway/maxoutput.go#L73) |
-| GenerationConfig | field_declaration | withMaxOutput | [75](../../magpie/internal/gateway/maxoutput.go#L75) |
-| replyLeft | function_declaration |  | [124](../../magpie/internal/gateway/maxoutput.go#L124) |
-| windowAndPrompt | var_spec |  | [146](../../magpie/internal/gateway/maxoutput.go#L146) |
-| inputPlusReply | var_spec |  | [151](../../magpie/internal/gateway/maxoutput.go#L151) |
-| leastReplyLeft | const_spec |  | [156](../../magpie/internal/gateway/maxoutput.go#L156) |
-| withReplyCap | function_declaration |  | [162](../../magpie/internal/gateway/maxoutput.go#L162) |
+| outputLimit | function_declaration |  | [18](../../magpie/internal/gateway/maxoutput.go#L18) |
+| userOutput | function_declaration |  | [36](../../magpie/internal/gateway/maxoutput.go#L36) |
+| askedOutput | function_declaration |  | [54](../../magpie/internal/gateway/maxoutput.go#L54) |
+| defaultMaxTokens | const_spec |  | [67](../../magpie/internal/gateway/maxoutput.go#L67) |
+| withMaxOutput | function_declaration |  | [73](../../magpie/internal/gateway/maxoutput.go#L73) |
+| MaxTokens | field_declaration | withMaxOutput | [75](../../magpie/internal/gateway/maxoutput.go#L75) |
+| MaxCompletionTokens | field_declaration | withMaxOutput | [76](../../magpie/internal/gateway/maxoutput.go#L76) |
+| MaxOutputTokens | field_declaration | withMaxOutput | [77](../../magpie/internal/gateway/maxoutput.go#L77) |
+| Thinking | field_declaration | withMaxOutput | [78](../../magpie/internal/gateway/maxoutput.go#L78) |
+| Type | field_declaration | withMaxOutput | [79](../../magpie/internal/gateway/maxoutput.go#L79) |
+| Budget | field_declaration | withMaxOutput | [80](../../magpie/internal/gateway/maxoutput.go#L80) |
+| GenerationConfig | field_declaration | withMaxOutput | [82](../../magpie/internal/gateway/maxoutput.go#L82) |
+| replyLeft | function_declaration |  | [131](../../magpie/internal/gateway/maxoutput.go#L131) |
+| windowAndPrompt | var_spec |  | [153](../../magpie/internal/gateway/maxoutput.go#L153) |
+| inputPlusReply | var_spec |  | [158](../../magpie/internal/gateway/maxoutput.go#L158) |
+| leastReplyLeft | const_spec |  | [163](../../magpie/internal/gateway/maxoutput.go#L163) |
+| withReplyCap | function_declaration |  | [169](../../magpie/internal/gateway/maxoutput.go#L169) |
+| namesOutput | function_declaration |  | [212](../../magpie/internal/gateway/maxoutput.go#L212) |
+| shortByDefault | function_declaration |  | [235](../../magpie/internal/gateway/maxoutput.go#L235) |
+| withOwnOutput | function_declaration |  | [243](../../magpie/internal/gateway/maxoutput.go#L243) |
+| fillsOutput | function_declaration |  | [263](../../magpie/internal/gateway/maxoutput.go#L263) |
+| outputFieldRefused | function_declaration |  | [274](../../magpie/internal/gateway/maxoutput.go#L274) |
+| outputFillRefused | function_declaration |  | [290](../../magpie/internal/gateway/maxoutput.go#L290) |

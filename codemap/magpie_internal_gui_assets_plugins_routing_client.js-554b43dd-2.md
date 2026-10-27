@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/routing/client.js) · page 2/25
 
-Source SHA-256: ee482145fe66bac028e371a3cf2025e062889d93bfa76824eca6240614a1484e
+Source SHA-256: dce6fee6295777a9ca5c5d2f08833da8a1e90262deba52d2e4ae14536e38a6bc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| max440 | PropertyAssignment | routingPage | [274](../../magpie/internal/gui/assets/plugins/routing/client.js#L274) |
-| max760 | PropertyAssignment | routingPage | [274](../../magpie/internal/gui/assets/plugins/routing/client.js#L274) |
-| metaFitting | VariableDeclaration | routingPage | [283](../../magpie/internal/gui/assets/plugins/routing/client.js#L283) |
-| metaFit | VariableDeclaration | routingPage | [284](../../magpie/internal/gui/assets/plugins/routing/client.js#L284) |
-| kept | VariableDeclaration | routingPage.metaFit | [287](../../magpie/internal/gui/assets/plugins/routing/client.js#L287) |
-| under | VariableDeclaration | routingPage.metaFit | [287](../../magpie/internal/gui/assets/plugins/routing/client.js#L287) |
-| p | VariableDeclaration | routingPage.metaFit | [288](../../magpie/internal/gui/assets/plugins/routing/client.js#L288) |
-| wraps | VariableDeclaration | routingPage.metaFit | [290](../../magpie/internal/gui/assets/plugins/routing/client.js#L290) |
-| k | VariableDeclaration | routingPage.metaFit.wraps | [291](../../magpie/internal/gui/assets/plugins/routing/client.js#L291) |
-| [p, top] | VariableDeclaration | routingPage.metaFit | [295](../../magpie/internal/gui/assets/plugins/routing/client.js#L295) |
-| p | BindingElement | routingPage.metaFit.[p, top] | [295](../../magpie/internal/gui/assets/plugins/routing/client.js#L295) |
-| top | BindingElement | routingPage.metaFit.[p, top] | [295](../../magpie/internal/gui/assets/plugins/routing/client.js#L295) |
-| metaW | VariableDeclaration | routingPage | [301](../../magpie/internal/gui/assets/plugins/routing/client.js#L301) |
-| w | VariableDeclaration | routingPage | [302](../../magpie/internal/gui/assets/plugins/routing/client.js#L302) |
-| path | VariableDeclaration | routingPage | [304](../../magpie/internal/gui/assets/plugins/routing/client.js#L304) |
-| p | VariableDeclaration | routingPage.path | [304](../../magpie/internal/gui/assets/plugins/routing/client.js#L304) |
-| setText | VariableDeclaration | routingPage | [305](../../magpie/internal/gui/assets/plugins/routing/client.js#L305) |
-| tick | VariableDeclaration | routingPage | [306](../../magpie/internal/gui/assets/plugins/routing/client.js#L306) |
-| skew | VariableDeclaration | routingPage | [310](../../magpie/internal/gui/assets/plugins/routing/client.js#L310) |
-| now | VariableDeclaration | routingPage | [312](../../magpie/internal/gui/assets/plugins/routing/client.js#L312) |
-| atOf | VariableDeclaration | routingPage | [317](../../magpie/internal/gui/assets/plugins/routing/client.js#L317) |
-| at | VariableDeclaration | routingPage | [318](../../magpie/internal/gui/assets/plugins/routing/client.js#L318) |
-| v | VariableDeclaration | routingPage.at | [320](../../magpie/internal/gui/assets/plugins/routing/client.js#L320) |
-| liftedAt | VariableDeclaration | routingPage | [330](../../magpie/internal/gui/assets/plugins/routing/client.js#L330) |
-| noteLifted | FunctionDeclaration | routingPage | [331](../../magpie/internal/gui/assets/plugins/routing/client.js#L331) |
-| [k, v] | VariableDeclaration | routingPage.noteLifted | [332](../../magpie/internal/gui/assets/plugins/routing/client.js#L332) |
-| k | BindingElement | routingPage.noteLifted.[k, v] | [332](../../magpie/internal/gui/assets/plugins/routing/client.js#L332) |
-| v | BindingElement | routingPage.noteLifted.[k, v] | [332](../../magpie/internal/gui/assets/plugins/routing/client.js#L332) |
-| lifted | VariableDeclaration | routingPage | [336](../../magpie/internal/gui/assets/plugins/routing/client.js#L336) |
-| l | VariableDeclaration | routingPage.lifted | [336](../../magpie/internal/gui/assets/plugins/routing/client.js#L336) |
-| sunkKey | VariableDeclaration | routingPage | [339](../../magpie/internal/gui/assets/plugins/routing/client.js#L339) |
-| known0 | VariableDeclaration | routingPage | [340](../../magpie/internal/gui/assets/plugins/routing/client.js#L340) |
-| dur | FunctionDeclaration | routingPage | [341](../../magpie/internal/gui/assets/plugins/routing/client.js#L341) |
-| s | VariableDeclaration | routingPage.dur | [342](../../magpie/internal/gui/assets/plugins/routing/client.js#L342) |
-| m | VariableDeclaration | routingPage.dur | [344](../../magpie/internal/gui/assets/plugins/routing/client.js#L344) |
-| h | VariableDeclaration | routingPage.dur | [346](../../magpie/internal/gui/assets/plugins/routing/client.js#L346) |
-| mm | VariableDeclaration | routingPage.dur | [346](../../magpie/internal/gui/assets/plugins/routing/client.js#L346) |
-| took | VariableDeclaration | routingPage | [351](../../magpie/internal/gui/assets/plugins/routing/client.js#L351) |
-| fmtLang | VariableDeclaration | routingPage | [354](../../magpie/internal/gui/assets/plugins/routing/client.js#L354) |
-| HM | VariableDeclaration | routingPage | [354](../../magpie/internal/gui/assets/plugins/routing/client.js#L354) |
-| WD | VariableDeclaration | routingPage | [354](../../magpie/internal/gui/assets/plugins/routing/client.js#L354) |
-| clock | FunctionDeclaration | routingPage | [355](../../magpie/internal/gui/assets/plugins/routing/client.js#L355) |
-| d | VariableDeclaration | routingPage.clock | [356](../../magpie/internal/gui/assets/plugins/routing/client.js#L356) |
-| n | VariableDeclaration | routingPage.clock | [356](../../magpie/internal/gui/assets/plugins/routing/client.js#L356) |
-| hm | VariableDeclaration | routingPage.clock | [362](../../magpie/internal/gui/assets/plugins/routing/client.js#L362) |
-| decodeOf | FunctionDeclaration | routingPage | [379](../../magpie/internal/gui/assets/plugins/routing/client.js#L379) |
-| think | VariableDeclaration | routingPage.decodeOf | [381](../../magpie/internal/gui/assets/plugins/routing/client.js#L381) |
-| visible | VariableDeclaration | routingPage.decodeOf | [381](../../magpie/internal/gui/assets/plugins/routing/client.js#L381) |
-| n | VariableDeclaration | routingPage.decodeOf | [382](../../magpie/internal/gui/assets/plugins/routing/client.js#L382) |
-| from | VariableDeclaration | routingPage.decodeOf | [382](../../magpie/internal/gui/assets/plugins/routing/client.js#L382) |
-| w | VariableDeclaration | routingPage.decodeOf | [383](../../magpie/internal/gui/assets/plugins/routing/client.js#L383) |
-| reasoningOf | VariableDeclaration | routingPage | [389](../../magpie/internal/gui/assets/plugins/routing/client.js#L389) |
-| speedOf | VariableDeclaration | routingPage | [390](../../magpie/internal/gui/assets/plugins/routing/client.js#L390) |
-| d | VariableDeclaration | routingPage.speedOf | [391](../../magpie/internal/gui/assets/plugins/routing/client.js#L391) |
-| promptOf | FunctionDeclaration | routingPage | [394](../../magpie/internal/gui/assets/plugins/routing/client.js#L394) |
-| prompt | VariableDeclaration | routingPage.promptOf | [395](../../magpie/internal/gui/assets/plugins/routing/client.js#L395) |
-| read | VariableDeclaration | routingPage.promptOf | [395](../../magpie/internal/gui/assets/plugins/routing/client.js#L395) |
-| u | VariableDeclaration | routingPage.promptOf | [401](../../magpie/internal/gui/assets/plugins/routing/client.js#L401) |
-| tokenBreakdown | FunctionDeclaration | routingPage | [408](../../magpie/internal/gui/assets/plugins/routing/client.js#L408) |
-| input | VariableDeclaration | routingPage.tokenBreakdown | [409](../../magpie/internal/gui/assets/plugins/routing/client.js#L409) |
-| output | VariableDeclaration | routingPage.tokenBreakdown | [409](../../magpie/internal/gui/assets/plugins/routing/client.js#L409) |
-| read | VariableDeclaration | routingPage.tokenBreakdown | [409](../../magpie/internal/gui/assets/plugins/routing/client.js#L409) |
-| write | VariableDeclaration | routingPage.tokenBreakdown | [409](../../magpie/internal/gui/assets/plugins/routing/client.js#L409) |
-| recorded | VariableDeclaration | routingPage.tokenBreakdown | [409](../../magpie/internal/gui/assets/plugins/routing/client.js#L409) |
-| r | VariableDeclaration | routingPage.tokenBreakdown | [410](../../magpie/internal/gui/assets/plugins/routing/client.js#L410) |
-| u | VariableDeclaration | routingPage.tokenBreakdown | [413](../../magpie/internal/gui/assets/plugins/routing/client.js#L413) |
-| lines | VariableDeclaration | routingPage.tokenBreakdown | [421](../../magpie/internal/gui/assets/plugins/routing/client.js#L421) |
-| label | BindingElement | routingPage.tokenBreakdown.lines | [422](../../magpie/internal/gui/assets/plugins/routing/client.js#L422) |
-| n | BindingElement | routingPage.tokenBreakdown.lines | [422](../../magpie/internal/gui/assets/plugins/routing/client.js#L422) |
-| requestMetrics | FunctionDeclaration | routingPage | [427](../../magpie/internal/gui/assets/plugins/routing/client.js#L427) |
-| { prompt, read } | VariableDeclaration | routingPage.requestMetrics | [428](../../magpie/internal/gui/assets/plugins/routing/client.js#L428) |
-| prompt | BindingElement | routingPage.requestMetrics.{ prompt, read } | [428](../../magpie/internal/gui/assets/plugins/routing/client.js#L428) |
-| read | BindingElement | routingPage.requestMetrics.{ prompt, read } | [428](../../magpie/internal/gui/assets/plugins/routing/client.js#L428) |
-| speed | VariableDeclaration | routingPage.requestMetrics | [432](../../magpie/internal/gui/assets/plugins/routing/client.js#L432) |
-| values | VariableDeclaration | routingPage.requestMetrics | [433](../../magpie/internal/gui/assets/plugins/routing/client.js#L433) |
-| metricElement | FunctionDeclaration | routingPage | [445](../../magpie/internal/gui/assets/plugins/routing/client.js#L445) |
-| cls | BindingElement | routingPage.metricElement | [445](../../magpie/internal/gui/assets/plugins/routing/client.js#L445) |
-| label | BindingElement | routingPage.metricElement | [445](../../magpie/internal/gui/assets/plugins/routing/client.js#L445) |
-| value | BindingElement | routingPage.metricElement | [445](../../magpie/internal/gui/assets/plugins/routing/client.js#L445) |
-| help | BindingElement | routingPage.metricElement | [445](../../magpie/internal/gui/assets/plugins/routing/client.js#L445) |
-| metric | VariableDeclaration | routingPage.metricElement | [446](../../magpie/internal/gui/assets/plugins/routing/client.js#L446) |
-| firstNote | FunctionDeclaration | routingPage | [453](../../magpie/internal/gui/assets/plugins/routing/client.js#L453) |
-| s | VariableDeclaration | routingPage.firstNote | [454](../../magpie/internal/gui/assets/plugins/routing/client.js#L454) |
-| v | VariableDeclaration | routingPage.firstNote | [456](../../magpie/internal/gui/assets/plugins/routing/client.js#L456) |
-| { prompt, read } | VariableDeclaration | routingPage.firstNote | [458](../../magpie/internal/gui/assets/plugins/routing/client.js#L458) |
-| prompt | BindingElement | routingPage.firstNote.{ prompt, read } | [458](../../magpie/internal/gui/assets/plugins/routing/client.js#L458) |
-| read | BindingElement | routingPage.firstNote.{ prompt, read } | [458](../../magpie/internal/gui/assets/plugins/routing/client.js#L458) |
-| tokens | VariableDeclaration | routingPage | [462](../../magpie/internal/gui/assets/plugins/routing/client.js#L462) |
-| pct | VariableDeclaration | routingPage | [463](../../magpie/internal/gui/assets/plugins/routing/client.js#L463) |
-| share | VariableDeclaration | routingPage | [466](../../magpie/internal/gui/assets/plugins/routing/client.js#L466) |
-| quota | VariableDeclaration | routingPage | [469](../../magpie/internal/gui/assets/plugins/routing/client.js#L469) |
-| fill | VariableDeclaration | routingPage | [470](../../magpie/internal/gui/assets/plugins/routing/client.js#L470) |
-| FAIL | VariableDeclaration | routingPage | [471](../../magpie/internal/gui/assets/plugins/routing/client.js#L471) |
-| failWord | VariableDeclaration | routingPage | [472](../../magpie/internal/gui/assets/plugins/routing/client.js#L472) |
-| tryOk | VariableDeclaration | routingPage | [475](../../magpie/internal/gui/assets/plugins/routing/client.js#L475) |
-| API | VariableDeclaration | routingPage | [476](../../magpie/internal/gui/assets/plugins/routing/client.js#L476) |
-| MODES | VariableDeclaration | routingPage | [477](../../magpie/internal/gui/assets/plugins/routing/client.js#L477) |
-| modeOf | VariableDeclaration | routingPage | [492](../../magpie/internal/gui/assets/plugins/routing/client.js#L492) |
-| id | BindingElement | routingPage.modeOf | [492](../../magpie/internal/gui/assets/plugins/routing/client.js#L492) |
-| withJS | VariableDeclaration | routingPage | [496](../../magpie/internal/gui/assets/plugins/routing/client.js#L496) |
+| col | VariableDeclaration | routingPage | [278](../../magpie/internal/gui/assets/plugins/routing/client.js#L278) |
+| max440 | PropertyAssignment | routingPage | [278](../../magpie/internal/gui/assets/plugins/routing/client.js#L278) |
+| max760 | PropertyAssignment | routingPage | [278](../../magpie/internal/gui/assets/plugins/routing/client.js#L278) |
+| metaFitting | VariableDeclaration | routingPage | [287](../../magpie/internal/gui/assets/plugins/routing/client.js#L287) |
+| metaFit | VariableDeclaration | routingPage | [288](../../magpie/internal/gui/assets/plugins/routing/client.js#L288) |
+| kept | VariableDeclaration | routingPage.metaFit | [291](../../magpie/internal/gui/assets/plugins/routing/client.js#L291) |
+| under | VariableDeclaration | routingPage.metaFit | [291](../../magpie/internal/gui/assets/plugins/routing/client.js#L291) |
+| p | VariableDeclaration | routingPage.metaFit | [292](../../magpie/internal/gui/assets/plugins/routing/client.js#L292) |
+| wraps | VariableDeclaration | routingPage.metaFit | [294](../../magpie/internal/gui/assets/plugins/routing/client.js#L294) |
+| k | VariableDeclaration | routingPage.metaFit.wraps | [295](../../magpie/internal/gui/assets/plugins/routing/client.js#L295) |
+| [p, top] | VariableDeclaration | routingPage.metaFit | [299](../../magpie/internal/gui/assets/plugins/routing/client.js#L299) |
+| p | BindingElement | routingPage.metaFit.[p, top] | [299](../../magpie/internal/gui/assets/plugins/routing/client.js#L299) |
+| top | BindingElement | routingPage.metaFit.[p, top] | [299](../../magpie/internal/gui/assets/plugins/routing/client.js#L299) |
+| metaW | VariableDeclaration | routingPage | [305](../../magpie/internal/gui/assets/plugins/routing/client.js#L305) |
+| w | VariableDeclaration | routingPage | [306](../../magpie/internal/gui/assets/plugins/routing/client.js#L306) |
+| path | VariableDeclaration | routingPage | [308](../../magpie/internal/gui/assets/plugins/routing/client.js#L308) |
+| p | VariableDeclaration | routingPage.path | [308](../../magpie/internal/gui/assets/plugins/routing/client.js#L308) |
+| setText | VariableDeclaration | routingPage | [309](../../magpie/internal/gui/assets/plugins/routing/client.js#L309) |
+| setAttr | VariableDeclaration | routingPage | [312](../../magpie/internal/gui/assets/plugins/routing/client.js#L312) |
+| tick | VariableDeclaration | routingPage | [313](../../magpie/internal/gui/assets/plugins/routing/client.js#L313) |
+| skew | VariableDeclaration | routingPage | [317](../../magpie/internal/gui/assets/plugins/routing/client.js#L317) |
+| now | VariableDeclaration | routingPage | [319](../../magpie/internal/gui/assets/plugins/routing/client.js#L319) |
+| atOf | VariableDeclaration | routingPage | [324](../../magpie/internal/gui/assets/plugins/routing/client.js#L324) |
+| at | VariableDeclaration | routingPage | [325](../../magpie/internal/gui/assets/plugins/routing/client.js#L325) |
+| v | VariableDeclaration | routingPage.at | [327](../../magpie/internal/gui/assets/plugins/routing/client.js#L327) |
+| liftedAt | VariableDeclaration | routingPage | [337](../../magpie/internal/gui/assets/plugins/routing/client.js#L337) |
+| noteLifted | FunctionDeclaration | routingPage | [338](../../magpie/internal/gui/assets/plugins/routing/client.js#L338) |
+| [k, v] | VariableDeclaration | routingPage.noteLifted | [339](../../magpie/internal/gui/assets/plugins/routing/client.js#L339) |
+| k | BindingElement | routingPage.noteLifted.[k, v] | [339](../../magpie/internal/gui/assets/plugins/routing/client.js#L339) |
+| v | BindingElement | routingPage.noteLifted.[k, v] | [339](../../magpie/internal/gui/assets/plugins/routing/client.js#L339) |
+| lifted | VariableDeclaration | routingPage | [343](../../magpie/internal/gui/assets/plugins/routing/client.js#L343) |
+| l | VariableDeclaration | routingPage.lifted | [343](../../magpie/internal/gui/assets/plugins/routing/client.js#L343) |
+| sunkKey | VariableDeclaration | routingPage | [346](../../magpie/internal/gui/assets/plugins/routing/client.js#L346) |
+| known0 | VariableDeclaration | routingPage | [347](../../magpie/internal/gui/assets/plugins/routing/client.js#L347) |
+| dur | FunctionDeclaration | routingPage | [348](../../magpie/internal/gui/assets/plugins/routing/client.js#L348) |
+| s | VariableDeclaration | routingPage.dur | [349](../../magpie/internal/gui/assets/plugins/routing/client.js#L349) |
+| m | VariableDeclaration | routingPage.dur | [351](../../magpie/internal/gui/assets/plugins/routing/client.js#L351) |
+| h | VariableDeclaration | routingPage.dur | [353](../../magpie/internal/gui/assets/plugins/routing/client.js#L353) |
+| mm | VariableDeclaration | routingPage.dur | [353](../../magpie/internal/gui/assets/plugins/routing/client.js#L353) |
+| took | VariableDeclaration | routingPage | [358](../../magpie/internal/gui/assets/plugins/routing/client.js#L358) |
+| fmtLang | VariableDeclaration | routingPage | [361](../../magpie/internal/gui/assets/plugins/routing/client.js#L361) |
+| HM | VariableDeclaration | routingPage | [361](../../magpie/internal/gui/assets/plugins/routing/client.js#L361) |
+| WD | VariableDeclaration | routingPage | [361](../../magpie/internal/gui/assets/plugins/routing/client.js#L361) |
+| clock | FunctionDeclaration | routingPage | [362](../../magpie/internal/gui/assets/plugins/routing/client.js#L362) |
+| d | VariableDeclaration | routingPage.clock | [363](../../magpie/internal/gui/assets/plugins/routing/client.js#L363) |
+| n | VariableDeclaration | routingPage.clock | [363](../../magpie/internal/gui/assets/plugins/routing/client.js#L363) |
+| hm | VariableDeclaration | routingPage.clock | [369](../../magpie/internal/gui/assets/plugins/routing/client.js#L369) |
+| decodeOf | FunctionDeclaration | routingPage | [386](../../magpie/internal/gui/assets/plugins/routing/client.js#L386) |
+| think | VariableDeclaration | routingPage.decodeOf | [388](../../magpie/internal/gui/assets/plugins/routing/client.js#L388) |
+| visible | VariableDeclaration | routingPage.decodeOf | [388](../../magpie/internal/gui/assets/plugins/routing/client.js#L388) |
+| n | VariableDeclaration | routingPage.decodeOf | [389](../../magpie/internal/gui/assets/plugins/routing/client.js#L389) |
+| from | VariableDeclaration | routingPage.decodeOf | [389](../../magpie/internal/gui/assets/plugins/routing/client.js#L389) |
+| w | VariableDeclaration | routingPage.decodeOf | [390](../../magpie/internal/gui/assets/plugins/routing/client.js#L390) |
+| reasoningOf | VariableDeclaration | routingPage | [396](../../magpie/internal/gui/assets/plugins/routing/client.js#L396) |
+| speedOf | VariableDeclaration | routingPage | [397](../../magpie/internal/gui/assets/plugins/routing/client.js#L397) |
+| d | VariableDeclaration | routingPage.speedOf | [398](../../magpie/internal/gui/assets/plugins/routing/client.js#L398) |
+| promptOf | FunctionDeclaration | routingPage | [401](../../magpie/internal/gui/assets/plugins/routing/client.js#L401) |
+| prompt | VariableDeclaration | routingPage.promptOf | [402](../../magpie/internal/gui/assets/plugins/routing/client.js#L402) |
+| read | VariableDeclaration | routingPage.promptOf | [402](../../magpie/internal/gui/assets/plugins/routing/client.js#L402) |
+| u | VariableDeclaration | routingPage.promptOf | [408](../../magpie/internal/gui/assets/plugins/routing/client.js#L408) |
+| tokenBreakdown | FunctionDeclaration | routingPage | [415](../../magpie/internal/gui/assets/plugins/routing/client.js#L415) |
+| input | VariableDeclaration | routingPage.tokenBreakdown | [416](../../magpie/internal/gui/assets/plugins/routing/client.js#L416) |
+| output | VariableDeclaration | routingPage.tokenBreakdown | [416](../../magpie/internal/gui/assets/plugins/routing/client.js#L416) |
+| read | VariableDeclaration | routingPage.tokenBreakdown | [416](../../magpie/internal/gui/assets/plugins/routing/client.js#L416) |
+| write | VariableDeclaration | routingPage.tokenBreakdown | [416](../../magpie/internal/gui/assets/plugins/routing/client.js#L416) |
+| recorded | VariableDeclaration | routingPage.tokenBreakdown | [416](../../magpie/internal/gui/assets/plugins/routing/client.js#L416) |
+| r | VariableDeclaration | routingPage.tokenBreakdown | [417](../../magpie/internal/gui/assets/plugins/routing/client.js#L417) |
+| u | VariableDeclaration | routingPage.tokenBreakdown | [420](../../magpie/internal/gui/assets/plugins/routing/client.js#L420) |
+| lines | VariableDeclaration | routingPage.tokenBreakdown | [428](../../magpie/internal/gui/assets/plugins/routing/client.js#L428) |
+| label | BindingElement | routingPage.tokenBreakdown.lines | [429](../../magpie/internal/gui/assets/plugins/routing/client.js#L429) |
+| n | BindingElement | routingPage.tokenBreakdown.lines | [429](../../magpie/internal/gui/assets/plugins/routing/client.js#L429) |
+| requestMetrics | FunctionDeclaration | routingPage | [434](../../magpie/internal/gui/assets/plugins/routing/client.js#L434) |
+| { prompt, read } | VariableDeclaration | routingPage.requestMetrics | [435](../../magpie/internal/gui/assets/plugins/routing/client.js#L435) |
+| prompt | BindingElement | routingPage.requestMetrics.{ prompt, read } | [435](../../magpie/internal/gui/assets/plugins/routing/client.js#L435) |
+| read | BindingElement | routingPage.requestMetrics.{ prompt, read } | [435](../../magpie/internal/gui/assets/plugins/routing/client.js#L435) |
+| speed | VariableDeclaration | routingPage.requestMetrics | [439](../../magpie/internal/gui/assets/plugins/routing/client.js#L439) |
+| values | VariableDeclaration | routingPage.requestMetrics | [440](../../magpie/internal/gui/assets/plugins/routing/client.js#L440) |
+| metricElement | FunctionDeclaration | routingPage | [452](../../magpie/internal/gui/assets/plugins/routing/client.js#L452) |
+| cls | BindingElement | routingPage.metricElement | [452](../../magpie/internal/gui/assets/plugins/routing/client.js#L452) |
+| label | BindingElement | routingPage.metricElement | [452](../../magpie/internal/gui/assets/plugins/routing/client.js#L452) |
+| value | BindingElement | routingPage.metricElement | [452](../../magpie/internal/gui/assets/plugins/routing/client.js#L452) |
+| help | BindingElement | routingPage.metricElement | [452](../../magpie/internal/gui/assets/plugins/routing/client.js#L452) |
+| metric | VariableDeclaration | routingPage.metricElement | [453](../../magpie/internal/gui/assets/plugins/routing/client.js#L453) |
+| firstNote | FunctionDeclaration | routingPage | [460](../../magpie/internal/gui/assets/plugins/routing/client.js#L460) |
+| s | VariableDeclaration | routingPage.firstNote | [461](../../magpie/internal/gui/assets/plugins/routing/client.js#L461) |
+| v | VariableDeclaration | routingPage.firstNote | [463](../../magpie/internal/gui/assets/plugins/routing/client.js#L463) |
+| { prompt, read } | VariableDeclaration | routingPage.firstNote | [465](../../magpie/internal/gui/assets/plugins/routing/client.js#L465) |
+| prompt | BindingElement | routingPage.firstNote.{ prompt, read } | [465](../../magpie/internal/gui/assets/plugins/routing/client.js#L465) |
+| read | BindingElement | routingPage.firstNote.{ prompt, read } | [465](../../magpie/internal/gui/assets/plugins/routing/client.js#L465) |
+| tokens | VariableDeclaration | routingPage | [469](../../magpie/internal/gui/assets/plugins/routing/client.js#L469) |
+| pct | VariableDeclaration | routingPage | [470](../../magpie/internal/gui/assets/plugins/routing/client.js#L470) |
+| share | VariableDeclaration | routingPage | [473](../../magpie/internal/gui/assets/plugins/routing/client.js#L473) |
+| quota | VariableDeclaration | routingPage | [476](../../magpie/internal/gui/assets/plugins/routing/client.js#L476) |
+| fill | VariableDeclaration | routingPage | [477](../../magpie/internal/gui/assets/plugins/routing/client.js#L477) |
+| FAIL | VariableDeclaration | routingPage | [478](../../magpie/internal/gui/assets/plugins/routing/client.js#L478) |
+| failWord | VariableDeclaration | routingPage | [479](../../magpie/internal/gui/assets/plugins/routing/client.js#L479) |
+| tryOk | VariableDeclaration | routingPage | [482](../../magpie/internal/gui/assets/plugins/routing/client.js#L482) |
+| API | VariableDeclaration | routingPage | [483](../../magpie/internal/gui/assets/plugins/routing/client.js#L483) |
+| MODES | VariableDeclaration | routingPage | [484](../../magpie/internal/gui/assets/plugins/routing/client.js#L484) |
+| modeOf | VariableDeclaration | routingPage | [500](../../magpie/internal/gui/assets/plugins/routing/client.js#L500) |

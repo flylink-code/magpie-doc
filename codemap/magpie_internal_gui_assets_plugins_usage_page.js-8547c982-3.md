@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 3/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hb | VariableDeclaration | renderUsage | [653](../../magpie/internal/gui/assets/plugins/usage/page.js#L653) |
-| line | VariableDeclaration | renderUsage | [656](../../magpie/internal/gui/assets/plugins/usage/page.js#L656) |
-| hl | VariableDeclaration | renderUsage | [656](../../magpie/internal/gui/assets/plugins/usage/page.js#L656) |
-| b | VariableDeclaration | renderUsage | [664](../../magpie/internal/gui/assets/plugins/usage/page.js#L664) |
-| COUNT_AS | VariableDeclaration |  | [681](../../magpie/internal/gui/assets/plugins/usage/page.js#L681) |
-| countable | FunctionDeclaration |  | [682](../../magpie/internal/gui/assets/plugins/usage/page.js#L682) |
-| pickCountAs | FunctionDeclaration |  | [687](../../magpie/internal/gui/assets/plugins/usage/page.js#L687) |
-| opts | VariableDeclaration | pickCountAs | [688](../../magpie/internal/gui/assets/plugins/usage/page.js#L688) |
-| countClientAs | FunctionDeclaration |  | [694](../../magpie/internal/gui/assets/plugins/usage/page.js#L694) |
-| s | VariableDeclaration | countClientAs | [696](../../magpie/internal/gui/assets/plugins/usage/page.js#L696) |
-| e | VariableDeclaration | countClientAs | [700](../../magpie/internal/gui/assets/plugins/usage/page.js#L700) |
-| hideUsageAgent | FunctionDeclaration |  | [708](../../magpie/internal/gui/assets/plugins/usage/page.js#L708) |
-| prev | VariableDeclaration | hideUsageAgent | [709](../../magpie/internal/gui/assets/plugins/usage/page.js#L709) |
-| cur | VariableDeclaration | hideUsageAgent | [710](../../magpie/internal/gui/assets/plugins/usage/page.js#L710) |
-| agentsHidden | VariableDeclaration | hideUsageAgent | [711](../../magpie/internal/gui/assets/plugins/usage/page.js#L711) |
-| again | VariableDeclaration | hideUsageAgent | [713](../../magpie/internal/gui/assets/plugins/usage/page.js#L713) |
-| to | VariableDeclaration | hideUsageAgent.again | [717](../../magpie/internal/gui/assets/plugins/usage/page.js#L717) |
-| s | VariableDeclaration | hideUsageAgent | [722](../../magpie/internal/gui/assets/plugins/usage/page.js#L722) |
-| e | VariableDeclaration | hideUsageAgent | [724](../../magpie/internal/gui/assets/plugins/usage/page.js#L724) |
-| ledger | VariableDeclaration |  | [739](../../magpie/internal/gui/assets/plugins/usage/page.js#L739) |
-| ledOffset | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledPurpose | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledAgent | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledProvider | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledAccount | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledCallerKey | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledFailed | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledRetried | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledQuery | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledModel | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledRoute | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledComputer | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledDay | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| ledVia | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
-| LED_PAGE | VariableDeclaration |  | [742](../../magpie/internal/gui/assets/plugins/usage/page.js#L742) |
-| ledMetric | VariableDeclaration |  | [744](../../magpie/internal/gui/assets/plugins/usage/page.js#L744) |
-| ledSplit | VariableDeclaration |  | [744](../../magpie/internal/gui/assets/plugins/usage/page.js#L744) |
-| m | VariableDeclaration |  | [746](../../magpie/internal/gui/assets/plugins/usage/page.js#L746) |
-| ledLine | VariableDeclaration |  | [751](../../magpie/internal/gui/assets/plugins/usage/page.js#L751) |
-| ledLent | VariableDeclaration |  | [762](../../magpie/internal/gui/assets/plugins/usage/page.js#L762) |
-| LED_UNLEND | VariableDeclaration |  | [763](../../magpie/internal/gui/assets/plugins/usage/page.js#L763) |
-| agent | PropertyAssignment | LED_UNLEND | [764](../../magpie/internal/gui/assets/plugins/usage/page.js#L764) |
-| provider | PropertyAssignment | LED_UNLEND | [765](../../magpie/internal/gui/assets/plugins/usage/page.js#L765) |
-| model | PropertyAssignment | LED_UNLEND | [766](../../magpie/internal/gui/assets/plugins/usage/page.js#L766) |
-| callerKey | PropertyAssignment | LED_UNLEND | [767](../../magpie/internal/gui/assets/plugins/usage/page.js#L767) |
-| day | PropertyAssignment | LED_UNLEND | [768](../../magpie/internal/gui/assets/plugins/usage/page.js#L768) |
-| purpose | PropertyAssignment | LED_UNLEND | [769](../../magpie/internal/gui/assets/plugins/usage/page.js#L769) |
-| computer | PropertyAssignment | LED_UNLEND | [770](../../magpie/internal/gui/assets/plugins/usage/page.js#L770) |
-| via | PropertyAssignment | LED_UNLEND | [771](../../magpie/internal/gui/assets/plugins/usage/page.js#L771) |
-| ledOwn | VariableDeclaration |  | [774](../../magpie/internal/gui/assets/plugins/usage/page.js#L774) |
-| ledRouteInfo | VariableDeclaration |  | [776](../../magpie/internal/gui/assets/plugins/usage/page.js#L776) |
-| ledBeforeRoute | VariableDeclaration |  | [776](../../magpie/internal/gui/assets/plugins/usage/page.js#L776) |
-| ledRouteOff | FunctionDeclaration |  | [792](../../magpie/internal/gui/assets/plugins/usage/page.js#L792) |
-| k | VariableDeclaration | ledRouteOff | [797](../../magpie/internal/gui/assets/plugins/usage/page.js#L797) |
-| ledLeave | FunctionDeclaration |  | [804](../../magpie/internal/gui/assets/plugins/usage/page.js#L804) |
-| routed | VariableDeclaration | ledLeave | [805](../../magpie/internal/gui/assets/plugins/usage/page.js#L805) |
-| k | VariableDeclaration | ledLeave | [808](../../magpie/internal/gui/assets/plugins/usage/page.js#L808) |
-| ledParams | FunctionDeclaration |  | [814](../../magpie/internal/gui/assets/plugins/usage/page.js#L814) |
-| q | VariableDeclaration | ledParams | [815](../../magpie/internal/gui/assets/plugins/usage/page.js#L815) |
-| k | VariableDeclaration | ledParams | [830](../../magpie/internal/gui/assets/plugins/usage/page.js#L830) |
-| ledFlights | VariableDeclaration |  | [840](../../magpie/internal/gui/assets/plugins/usage/page.js#L840) |
-| ledRead | FunctionDeclaration |  | [841](../../magpie/internal/gui/assets/plugins/usage/page.js#L841) |
-| was | VariableDeclaration | ledRead | [842](../../magpie/internal/gui/assets/plugins/usage/page.js#L842) |
-| ctl | VariableDeclaration | ledRead | [845](../../magpie/internal/gui/assets/plugins/usage/page.js#L845) |
-| f | VariableDeclaration | ledRead | [846](../../magpie/internal/gui/assets/plugins/usage/page.js#L846) |
-| done | VariableDeclaration | ledRead | [848](../../magpie/internal/gui/assets/plugins/usage/page.js#L848) |
-| ledAborted | VariableDeclaration |  | [852](../../magpie/internal/gui/assets/plugins/usage/page.js#L852) |
-| loadLedger | FunctionDeclaration |  | [855](../../magpie/internal/gui/assets/plugins/usage/page.js#L855) |
-| want | VariableDeclaration | loadLedger | [863](../../magpie/internal/gui/assets/plugins/usage/page.js#L863) |
-| l | VariableDeclaration | loadLedger | [864](../../magpie/internal/gui/assets/plugins/usage/page.js#L864) |
-| e | VariableDeclaration | loadLedger | [865](../../magpie/internal/gui/assets/plugins/usage/page.js#L865) |
-| ledPending | FunctionDeclaration |  | [877](../../magpie/internal/gui/assets/plugins/usage/page.js#L877) |
-| wrap | VariableDeclaration | ledPending | [878](../../magpie/internal/gui/assets/plugins/usage/page.js#L878) |
-| renderLedgerLoading | FunctionDeclaration |  | [884](../../magpie/internal/gui/assets/plugins/usage/page.js#L884) |
-| view | VariableDeclaration | renderLedgerLoading | [885](../../magpie/internal/gui/assets/plugins/usage/page.js#L885) |
-| wrap | VariableDeclaration | renderLedgerLoading | [892](../../magpie/internal/gui/assets/plugins/usage/page.js#L892) |
-| i | VariableDeclaration | renderLedgerLoading | [896](../../magpie/internal/gui/assets/plugins/usage/page.js#L896) |
-| r | VariableDeclaration | renderLedgerLoading | [897](../../magpie/internal/gui/assets/plugins/usage/page.js#L897) |
-| ledTime | FunctionDeclaration |  | [903](../../magpie/internal/gui/assets/plugins/usage/page.js#L903) |
-| d | VariableDeclaration | ledTime | [904](../../magpie/internal/gui/assets/plugins/usage/page.js#L904) |
-| now | VariableDeclaration | ledTime | [904](../../magpie/internal/gui/assets/plugins/usage/page.js#L904) |
-| opts | VariableDeclaration | ledTime | [905](../../magpie/internal/gui/assets/plugins/usage/page.js#L905) |
-| ledServed | FunctionDeclaration |  | [912](../../magpie/internal/gui/assets/plugins/usage/page.js#L912) |
-| k | VariableDeclaration | ledServed | [915](../../magpie/internal/gui/assets/plugins/usage/page.js#L915) |
-| k | VariableDeclaration | ledServed | [920](../../magpie/internal/gui/assets/plugins/usage/page.js#L920) |
-| ledProtoOf | VariableDeclaration |  | [932](../../magpie/internal/gui/assets/plugins/usage/page.js#L932) |
-| ledProtos | FunctionDeclaration |  | [934](../../magpie/internal/gui/assets/plugins/usage/page.js#L934) |
-| [a, b] | VariableDeclaration | ledProtos | [936](../../magpie/internal/gui/assets/plugins/usage/page.js#L936) |
-| a | BindingElement | ledProtos.[a, b] | [936](../../magpie/internal/gui/assets/plugins/usage/page.js#L936) |
-| b | BindingElement | ledProtos.[a, b] | [936](../../magpie/internal/gui/assets/plugins/usage/page.js#L936) |
-| from | VariableDeclaration | ledProtos | [937](../../magpie/internal/gui/assets/plugins/usage/page.js#L937) |
-| to | VariableDeclaration | ledProtos | [937](../../magpie/internal/gui/assets/plugins/usage/page.js#L937) |
-| ledProtoBadge | FunctionDeclaration |  | [941](../../magpie/internal/gui/assets/plugins/usage/page.js#L941) |
-| p | VariableDeclaration | ledProtoBadge | [942](../../magpie/internal/gui/assets/plugins/usage/page.js#L942) |
-| k | VariableDeclaration | ledProtoBadge | [944](../../magpie/internal/gui/assets/plugins/usage/page.js#L944) |
-| ledFailed_ | VariableDeclaration |  | [951](../../magpie/internal/gui/assets/plugins/usage/page.js#L951) |
-| ledKey | VariableDeclaration |  | [952](../../magpie/internal/gui/assets/plugins/usage/page.js#L952) |
-| ledOpen | VariableDeclaration |  | [953](../../magpie/internal/gui/assets/plugins/usage/page.js#L953) |
-| ledDetail | FunctionDeclaration |  | [957](../../magpie/internal/gui/assets/plugins/usage/page.js#L957) |
-| dl | VariableDeclaration | ledDetail | [958](../../magpie/internal/gui/assets/plugins/usage/page.js#L958) |
+| hb | VariableDeclaration | renderUsage | [654](../../magpie/internal/gui/assets/plugins/usage/page.js#L654) |
+| line | VariableDeclaration | renderUsage | [657](../../magpie/internal/gui/assets/plugins/usage/page.js#L657) |
+| hl | VariableDeclaration | renderUsage | [657](../../magpie/internal/gui/assets/plugins/usage/page.js#L657) |
+| b | VariableDeclaration | renderUsage | [665](../../magpie/internal/gui/assets/plugins/usage/page.js#L665) |
+| COUNT_AS | VariableDeclaration |  | [682](../../magpie/internal/gui/assets/plugins/usage/page.js#L682) |
+| countable | FunctionDeclaration |  | [683](../../magpie/internal/gui/assets/plugins/usage/page.js#L683) |
+| pickCountAs | FunctionDeclaration |  | [688](../../magpie/internal/gui/assets/plugins/usage/page.js#L688) |
+| opts | VariableDeclaration | pickCountAs | [689](../../magpie/internal/gui/assets/plugins/usage/page.js#L689) |
+| countClientAs | FunctionDeclaration |  | [695](../../magpie/internal/gui/assets/plugins/usage/page.js#L695) |
+| s | VariableDeclaration | countClientAs | [697](../../magpie/internal/gui/assets/plugins/usage/page.js#L697) |
+| e | VariableDeclaration | countClientAs | [701](../../magpie/internal/gui/assets/plugins/usage/page.js#L701) |
+| hideUsageAgent | FunctionDeclaration |  | [709](../../magpie/internal/gui/assets/plugins/usage/page.js#L709) |
+| prev | VariableDeclaration | hideUsageAgent | [710](../../magpie/internal/gui/assets/plugins/usage/page.js#L710) |
+| cur | VariableDeclaration | hideUsageAgent | [711](../../magpie/internal/gui/assets/plugins/usage/page.js#L711) |
+| agentsHidden | VariableDeclaration | hideUsageAgent | [712](../../magpie/internal/gui/assets/plugins/usage/page.js#L712) |
+| again | VariableDeclaration | hideUsageAgent | [714](../../magpie/internal/gui/assets/plugins/usage/page.js#L714) |
+| to | VariableDeclaration | hideUsageAgent.again | [718](../../magpie/internal/gui/assets/plugins/usage/page.js#L718) |
+| s | VariableDeclaration | hideUsageAgent | [723](../../magpie/internal/gui/assets/plugins/usage/page.js#L723) |
+| e | VariableDeclaration | hideUsageAgent | [725](../../magpie/internal/gui/assets/plugins/usage/page.js#L725) |
+| ledger | VariableDeclaration |  | [740](../../magpie/internal/gui/assets/plugins/usage/page.js#L740) |
+| ledOffset | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledPurpose | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledAgent | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledProvider | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledAccount | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledCallerKey | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledFailed | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledRetried | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledQuery | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledModel | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledRoute | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledComputer | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledDay | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| ledVia | VariableDeclaration |  | [741](../../magpie/internal/gui/assets/plugins/usage/page.js#L741) |
+| LED_PAGE | VariableDeclaration |  | [743](../../magpie/internal/gui/assets/plugins/usage/page.js#L743) |
+| ledMetric | VariableDeclaration |  | [745](../../magpie/internal/gui/assets/plugins/usage/page.js#L745) |
+| ledSplit | VariableDeclaration |  | [745](../../magpie/internal/gui/assets/plugins/usage/page.js#L745) |
+| m | VariableDeclaration |  | [747](../../magpie/internal/gui/assets/plugins/usage/page.js#L747) |
+| ledLine | VariableDeclaration |  | [752](../../magpie/internal/gui/assets/plugins/usage/page.js#L752) |
+| ledLent | VariableDeclaration |  | [763](../../magpie/internal/gui/assets/plugins/usage/page.js#L763) |
+| LED_UNLEND | VariableDeclaration |  | [764](../../magpie/internal/gui/assets/plugins/usage/page.js#L764) |
+| agent | PropertyAssignment | LED_UNLEND | [765](../../magpie/internal/gui/assets/plugins/usage/page.js#L765) |
+| provider | PropertyAssignment | LED_UNLEND | [766](../../magpie/internal/gui/assets/plugins/usage/page.js#L766) |
+| model | PropertyAssignment | LED_UNLEND | [767](../../magpie/internal/gui/assets/plugins/usage/page.js#L767) |
+| callerKey | PropertyAssignment | LED_UNLEND | [768](../../magpie/internal/gui/assets/plugins/usage/page.js#L768) |
+| day | PropertyAssignment | LED_UNLEND | [769](../../magpie/internal/gui/assets/plugins/usage/page.js#L769) |
+| purpose | PropertyAssignment | LED_UNLEND | [770](../../magpie/internal/gui/assets/plugins/usage/page.js#L770) |
+| computer | PropertyAssignment | LED_UNLEND | [771](../../magpie/internal/gui/assets/plugins/usage/page.js#L771) |
+| via | PropertyAssignment | LED_UNLEND | [772](../../magpie/internal/gui/assets/plugins/usage/page.js#L772) |
+| ledOwn | VariableDeclaration |  | [775](../../magpie/internal/gui/assets/plugins/usage/page.js#L775) |
+| ledRouteInfo | VariableDeclaration |  | [777](../../magpie/internal/gui/assets/plugins/usage/page.js#L777) |
+| ledBeforeRoute | VariableDeclaration |  | [777](../../magpie/internal/gui/assets/plugins/usage/page.js#L777) |
+| ledRouteOff | FunctionDeclaration |  | [793](../../magpie/internal/gui/assets/plugins/usage/page.js#L793) |
+| k | VariableDeclaration | ledRouteOff | [798](../../magpie/internal/gui/assets/plugins/usage/page.js#L798) |
+| ledLeave | FunctionDeclaration |  | [805](../../magpie/internal/gui/assets/plugins/usage/page.js#L805) |
+| routed | VariableDeclaration | ledLeave | [806](../../magpie/internal/gui/assets/plugins/usage/page.js#L806) |
+| k | VariableDeclaration | ledLeave | [809](../../magpie/internal/gui/assets/plugins/usage/page.js#L809) |
+| ledParams | FunctionDeclaration |  | [815](../../magpie/internal/gui/assets/plugins/usage/page.js#L815) |
+| q | VariableDeclaration | ledParams | [816](../../magpie/internal/gui/assets/plugins/usage/page.js#L816) |
+| k | VariableDeclaration | ledParams | [831](../../magpie/internal/gui/assets/plugins/usage/page.js#L831) |
+| ledFlights | VariableDeclaration |  | [841](../../magpie/internal/gui/assets/plugins/usage/page.js#L841) |
+| ledRead | FunctionDeclaration |  | [842](../../magpie/internal/gui/assets/plugins/usage/page.js#L842) |
+| was | VariableDeclaration | ledRead | [843](../../magpie/internal/gui/assets/plugins/usage/page.js#L843) |
+| ctl | VariableDeclaration | ledRead | [846](../../magpie/internal/gui/assets/plugins/usage/page.js#L846) |
+| f | VariableDeclaration | ledRead | [847](../../magpie/internal/gui/assets/plugins/usage/page.js#L847) |
+| done | VariableDeclaration | ledRead | [849](../../magpie/internal/gui/assets/plugins/usage/page.js#L849) |
+| ledAborted | VariableDeclaration |  | [853](../../magpie/internal/gui/assets/plugins/usage/page.js#L853) |
+| loadLedger | FunctionDeclaration |  | [856](../../magpie/internal/gui/assets/plugins/usage/page.js#L856) |
+| want | VariableDeclaration | loadLedger | [864](../../magpie/internal/gui/assets/plugins/usage/page.js#L864) |
+| l | VariableDeclaration | loadLedger | [865](../../magpie/internal/gui/assets/plugins/usage/page.js#L865) |
+| e | VariableDeclaration | loadLedger | [866](../../magpie/internal/gui/assets/plugins/usage/page.js#L866) |
+| ledPending | FunctionDeclaration |  | [878](../../magpie/internal/gui/assets/plugins/usage/page.js#L878) |
+| wrap | VariableDeclaration | ledPending | [879](../../magpie/internal/gui/assets/plugins/usage/page.js#L879) |
+| renderLedgerLoading | FunctionDeclaration |  | [885](../../magpie/internal/gui/assets/plugins/usage/page.js#L885) |
+| view | VariableDeclaration | renderLedgerLoading | [886](../../magpie/internal/gui/assets/plugins/usage/page.js#L886) |
+| wrap | VariableDeclaration | renderLedgerLoading | [893](../../magpie/internal/gui/assets/plugins/usage/page.js#L893) |
+| i | VariableDeclaration | renderLedgerLoading | [897](../../magpie/internal/gui/assets/plugins/usage/page.js#L897) |
+| r | VariableDeclaration | renderLedgerLoading | [898](../../magpie/internal/gui/assets/plugins/usage/page.js#L898) |
+| ledTime | FunctionDeclaration |  | [904](../../magpie/internal/gui/assets/plugins/usage/page.js#L904) |
+| d | VariableDeclaration | ledTime | [905](../../magpie/internal/gui/assets/plugins/usage/page.js#L905) |
+| now | VariableDeclaration | ledTime | [905](../../magpie/internal/gui/assets/plugins/usage/page.js#L905) |
+| opts | VariableDeclaration | ledTime | [906](../../magpie/internal/gui/assets/plugins/usage/page.js#L906) |
+| ledServed | FunctionDeclaration |  | [913](../../magpie/internal/gui/assets/plugins/usage/page.js#L913) |
+| k | VariableDeclaration | ledServed | [916](../../magpie/internal/gui/assets/plugins/usage/page.js#L916) |
+| k | VariableDeclaration | ledServed | [921](../../magpie/internal/gui/assets/plugins/usage/page.js#L921) |
+| ledProtoOf | VariableDeclaration |  | [933](../../magpie/internal/gui/assets/plugins/usage/page.js#L933) |
+| ledProtos | FunctionDeclaration |  | [935](../../magpie/internal/gui/assets/plugins/usage/page.js#L935) |
+| [a, b] | VariableDeclaration | ledProtos | [937](../../magpie/internal/gui/assets/plugins/usage/page.js#L937) |
+| a | BindingElement | ledProtos.[a, b] | [937](../../magpie/internal/gui/assets/plugins/usage/page.js#L937) |
+| b | BindingElement | ledProtos.[a, b] | [937](../../magpie/internal/gui/assets/plugins/usage/page.js#L937) |
+| from | VariableDeclaration | ledProtos | [938](../../magpie/internal/gui/assets/plugins/usage/page.js#L938) |
+| to | VariableDeclaration | ledProtos | [938](../../magpie/internal/gui/assets/plugins/usage/page.js#L938) |
+| ledProtoBadge | FunctionDeclaration |  | [942](../../magpie/internal/gui/assets/plugins/usage/page.js#L942) |
+| p | VariableDeclaration | ledProtoBadge | [943](../../magpie/internal/gui/assets/plugins/usage/page.js#L943) |
+| k | VariableDeclaration | ledProtoBadge | [945](../../magpie/internal/gui/assets/plugins/usage/page.js#L945) |
+| ledFailed_ | VariableDeclaration |  | [952](../../magpie/internal/gui/assets/plugins/usage/page.js#L952) |
+| ledKey | VariableDeclaration |  | [953](../../magpie/internal/gui/assets/plugins/usage/page.js#L953) |
+| ledOpen | VariableDeclaration |  | [954](../../magpie/internal/gui/assets/plugins/usage/page.js#L954) |
+| ledDetail | FunctionDeclaration |  | [958](../../magpie/internal/gui/assets/plugins/usage/page.js#L958) |
+| dl | VariableDeclaration | ledDetail | [959](../../magpie/internal/gui/assets/plugins/usage/page.js#L959) |

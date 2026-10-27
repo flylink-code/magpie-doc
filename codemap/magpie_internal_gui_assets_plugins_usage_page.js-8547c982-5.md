@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 5/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| { top } | VariableDeclaration | ledLines | [1309](../../magpie/internal/gui/assets/plugins/usage/page.js#L1309) |
-| top | BindingElement | ledLines.{ top } | [1309](../../magpie/internal/gui/assets/plugins/usage/page.js#L1309) |
-| X | VariableDeclaration | ledLines | [1310](../../magpie/internal/gui/assets/plugins/usage/page.js#L1310) |
-| dot | VariableDeclaration | ledLines | [1310](../../magpie/internal/gui/assets/plugins/usage/page.js#L1310) |
-| at | VariableDeclaration | ledLines | [1311](../../magpie/internal/gui/assets/plugins/usage/page.js#L1311) |
-| head | VariableDeclaration | ledLines | [1314](../../magpie/internal/gui/assets/plugins/usage/page.js#L1314) |
-| totals | VariableDeclaration | ledLines | [1315](../../magpie/internal/gui/assets/plugins/usage/page.js#L1315) |
-| series | VariableDeclaration | ledLines | [1317](../../magpie/internal/gui/assets/plugins/usage/page.js#L1317) |
-| s | VariableDeclaration | ledLines.series | [1318](../../magpie/internal/gui/assets/plugins/usage/page.js#L1318) |
-| line | VariableDeclaration | ledLines.series | [1321](../../magpie/internal/gui/assets/plugins/usage/page.js#L1321) |
-| dots | VariableDeclaration | ledLines.series | [1321](../../magpie/internal/gui/assets/plugins/usage/page.js#L1321) |
-| run | VariableDeclaration | ledLines.series | [1321](../../magpie/internal/gui/assets/plugins/usage/page.js#L1321) |
-| end | VariableDeclaration | ledLines.series | [1322](../../magpie/internal/gui/assets/plugins/usage/page.js#L1322) |
-| up | VariableDeclaration | ledLines.series | [1331](../../magpie/internal/gui/assets/plugins/usage/page.js#L1331) |
-| down | VariableDeclaration | ledLines.series | [1332](../../magpie/internal/gui/assets/plugins/usage/page.js#L1332) |
-| c | VariableDeclaration | ledLines | [1342](../../magpie/internal/gui/assets/plugins/usage/page.js#L1342) |
-| under | VariableDeclaration | ledLines | [1346](../../magpie/internal/gui/assets/plugins/usage/page.js#L1346) |
-| parts | VariableDeclaration | ledLines | [1347](../../magpie/internal/gui/assets/plugins/usage/page.js#L1347) |
-| [key, color, vs] | VariableDeclaration | ledLines | [1349](../../magpie/internal/gui/assets/plugins/usage/page.js#L1349) |
-| key | BindingElement | ledLines.[key, color, vs] | [1349](../../magpie/internal/gui/assets/plugins/usage/page.js#L1349) |
-| color | BindingElement | ledLines.[key, color, vs] | [1349](../../magpie/internal/gui/assets/plugins/usage/page.js#L1349) |
-| vs | BindingElement | ledLines.[key, color, vs] | [1349](../../magpie/internal/gui/assets/plugins/usage/page.js#L1349) |
-| over | VariableDeclaration | ledLines | [1350](../../magpie/internal/gui/assets/plugins/usage/page.js#L1350) |
-| drawLedTrend | FunctionDeclaration |  | [1356](../../magpie/internal/gui/assets/plugins/usage/page.js#L1356) |
-| l | VariableDeclaration | drawLedTrend | [1357](../../magpie/internal/gui/assets/plugins/usage/page.js#L1357) |
-| pill | VariableDeclaration | drawLedTrend | [1360](../../magpie/internal/gui/assets/plugins/usage/page.js#L1360) |
-| [id, name] | VariableDeclaration | drawLedTrend.pill | [1362](../../magpie/internal/gui/assets/plugins/usage/page.js#L1362) |
-| id | BindingElement | drawLedTrend.pill.[id, name] | [1362](../../magpie/internal/gui/assets/plugins/usage/page.js#L1362) |
-| name | BindingElement | drawLedTrend.pill.[id, name] | [1362](../../magpie/internal/gui/assets/plugins/usage/page.js#L1362) |
-| b | VariableDeclaration | drawLedTrend.pill | [1363](../../magpie/internal/gui/assets/plugins/usage/page.js#L1363) |
-| keyed | VariableDeclaration | drawLedTrend | [1371](../../magpie/internal/gui/assets/plugins/usage/page.js#L1371) |
-| id | BindingElement | drawLedTrend | [1373](../../magpie/internal/gui/assets/plugins/usage/page.js#L1373) |
-| chart | VariableDeclaration | drawLedTrend | [1374](../../magpie/internal/gui/assets/plugins/usage/page.js#L1374) |
-| rank | VariableDeclaration | drawLedTrend | [1374](../../magpie/internal/gui/assets/plugins/usage/page.js#L1374) |
-| picked | VariableDeclaration | drawLedTrend | [1384](../../magpie/internal/gui/assets/plugins/usage/page.js#L1384) |
-| q | VariableDeclaration | drawLedTrend | [1390](../../magpie/internal/gui/assets/plugins/usage/page.js#L1390) |
-| cut | VariableDeclaration | drawLedTrend | [1390](../../magpie/internal/gui/assets/plugins/usage/page.js#L1390) |
-| off | VariableDeclaration | drawLedTrend | [1390](../../magpie/internal/gui/assets/plugins/usage/page.js#L1390) |
-| q | VariableDeclaration | drawLedTrend | [1398](../../magpie/internal/gui/assets/plugins/usage/page.js#L1398) |
-| ledHeat | VariableDeclaration |  | [1412](../../magpie/internal/gui/assets/plugins/usage/page.js#L1412) |
-| ledHeatWant | VariableDeclaration |  | [1412](../../magpie/internal/gui/assets/plugins/usage/page.js#L1412) |
-| ledHeatMetric | VariableDeclaration |  | [1412](../../magpie/internal/gui/assets/plugins/usage/page.js#L1412) |
-| m | VariableDeclaration |  | [1414](../../magpie/internal/gui/assets/plugins/usage/page.js#L1414) |
-| LED_HEAT | VariableDeclaration |  | [1417](../../magpie/internal/gui/assets/plugins/usage/page.js#L1417) |
-| ledHeatParams | FunctionDeclaration |  | [1418](../../magpie/internal/gui/assets/plugins/usage/page.js#L1418) |
-| q | VariableDeclaration | ledHeatParams | [1419](../../magpie/internal/gui/assets/plugins/usage/page.js#L1419) |
-| loadLedHeat | FunctionDeclaration |  | [1424](../../magpie/internal/gui/assets/plugins/usage/page.js#L1424) |
-| want | VariableDeclaration | loadLedHeat | [1425](../../magpie/internal/gui/assets/plugins/usage/page.js#L1425) |
-| h | VariableDeclaration | loadLedHeat | [1427](../../magpie/internal/gui/assets/plugins/usage/page.js#L1427) |
-| ledHeatDate | VariableDeclaration |  | [1434](../../magpie/internal/gui/assets/plugins/usage/page.js#L1434) |
-| [y, m, d] | VariableDeclaration | ledHeatDate | [1434](../../magpie/internal/gui/assets/plugins/usage/page.js#L1434) |
-| y | BindingElement | ledHeatDate.[y, m, d] | [1434](../../magpie/internal/gui/assets/plugins/usage/page.js#L1434) |
-| m | BindingElement | ledHeatDate.[y, m, d] | [1434](../../magpie/internal/gui/assets/plugins/usage/page.js#L1434) |
-| d | BindingElement | ledHeatDate.[y, m, d] | [1434](../../magpie/internal/gui/assets/plugins/usage/page.js#L1434) |
-| ledHeatTip | FunctionDeclaration |  | [1435](../../magpie/internal/gui/assets/plugins/usage/page.js#L1435) |
-| loc | VariableDeclaration | ledHeatTip | [1436](../../magpie/internal/gui/assets/plugins/usage/page.js#L1436) |
-| tip | VariableDeclaration | ledHeatTip | [1437](../../magpie/internal/gui/assets/plugins/usage/page.js#L1437) |
-| parts | VariableDeclaration | ledHeatTip | [1443](../../magpie/internal/gui/assets/plugins/usage/page.js#L1443) |
-| c | VariableDeclaration | ledHeatTip | [1444](../../magpie/internal/gui/assets/plugins/usage/page.js#L1444) |
-| order | VariableDeclaration | ledHeatTip | [1446](../../magpie/internal/gui/assets/plugins/usage/page.js#L1446) |
-| drawLedHeat | FunctionDeclaration |  | [1451](../../magpie/internal/gui/assets/plugins/usage/page.js#L1451) |
-| box | VariableDeclaration | drawLedHeat | [1452](../../magpie/internal/gui/assets/plugins/usage/page.js#L1452) |
-| h | VariableDeclaration | drawLedHeat | [1452](../../magpie/internal/gui/assets/plugins/usage/page.js#L1452) |
-| at | VariableDeclaration | drawLedHeat | [1453](../../magpie/internal/gui/assets/plugins/usage/page.js#L1453) |
-| first | VariableDeclaration | drawLedHeat | [1456](../../magpie/internal/gui/assets/plugins/usage/page.js#L1456) |
-| last | VariableDeclaration | drawLedHeat | [1456](../../magpie/internal/gui/assets/plugins/usage/page.js#L1456) |
-| days | VariableDeclaration | drawLedHeat | [1457](../../magpie/internal/gui/assets/plugins/usage/page.js#L1457) |
-| d | VariableDeclaration | drawLedHeat | [1458](../../magpie/internal/gui/assets/plugins/usage/page.js#L1458) |
-| x | VariableDeclaration | drawLedHeat | [1459](../../magpie/internal/gui/assets/plugins/usage/page.js#L1459) |
-| value | VariableDeclaration | drawLedHeat | [1462](../../magpie/internal/gui/assets/plugins/usage/page.js#L1462) |
-| lv | VariableDeclaration | drawLedHeat | [1463](../../magpie/internal/gui/assets/plugins/usage/page.js#L1463) |
-| seg | VariableDeclaration | drawLedHeat | [1464](../../magpie/internal/gui/assets/plugins/usage/page.js#L1464) |
-| [id, name] | VariableDeclaration | drawLedHeat | [1466](../../magpie/internal/gui/assets/plugins/usage/page.js#L1466) |
-| id | BindingElement | drawLedHeat.[id, name] | [1466](../../magpie/internal/gui/assets/plugins/usage/page.js#L1466) |
-| name | BindingElement | drawLedHeat.[id, name] | [1466](../../magpie/internal/gui/assets/plugins/usage/page.js#L1466) |
-| b | VariableDeclaration | drawLedHeat | [1467](../../magpie/internal/gui/assets/plugins/usage/page.js#L1467) |
-| scroll | VariableDeclaration | drawLedHeat | [1478](../../magpie/internal/gui/assets/plugins/usage/page.js#L1478) |
-| shape | VariableDeclaration | drawLedHeat | [1481](../../magpie/internal/gui/assets/plugins/usage/page.js#L1481) |
-| grid | VariableDeclaration | drawLedHeat | [1482](../../magpie/internal/gui/assets/plugins/usage/page.js#L1482) |
-| names | VariableDeclaration | drawLedHeat | [1487](../../magpie/internal/gui/assets/plugins/usage/page.js#L1487) |
-| i | VariableDeclaration | drawLedHeat | [1489](../../magpie/internal/gui/assets/plugins/usage/page.js#L1489) |
-| l | VariableDeclaration | drawLedHeat | [1490](../../magpie/internal/gui/assets/plugins/usage/page.js#L1490) |
-| loc | VariableDeclaration | drawLedHeat | [1494](../../magpie/internal/gui/assets/plugins/usage/page.js#L1494) |
-| weeks | VariableDeclaration | drawLedHeat | [1495](../../magpie/internal/gui/assets/plugins/usage/page.js#L1495) |
-| labels | VariableDeclaration | drawLedHeat | [1495](../../magpie/internal/gui/assets/plugins/usage/page.js#L1495) |
-| month | VariableDeclaration | drawLedHeat | [1496](../../magpie/internal/gui/assets/plugins/usage/page.js#L1496) |
-| w | VariableDeclaration | drawLedHeat | [1498](../../magpie/internal/gui/assets/plugins/usage/page.js#L1498) |
-| wd | VariableDeclaration | drawLedHeat | [1498](../../magpie/internal/gui/assets/plugins/usage/page.js#L1498) |
-| m | VariableDeclaration | drawLedHeat | [1505](../../magpie/internal/gui/assets/plugins/usage/page.js#L1505) |
-| c | VariableDeclaration | drawLedHeat | [1510](../../magpie/internal/gui/assets/plugins/usage/page.js#L1510) |
-| m | BindingElement | drawLedHeat | [1517](../../magpie/internal/gui/assets/plugins/usage/page.js#L1517) |
-| w | BindingElement | drawLedHeat | [1517](../../magpie/internal/gui/assets/plugins/usage/page.js#L1517) |
-| cells | VariableDeclaration | drawLedHeat | [1537](../../magpie/internal/gui/assets/plugins/usage/page.js#L1537) |
-| c | VariableDeclaration | drawLedHeat | [1539](../../magpie/internal/gui/assets/plugins/usage/page.js#L1539) |
-| legend | VariableDeclaration | drawLedHeat | [1543](../../magpie/internal/gui/assets/plugins/usage/page.js#L1543) |
-| tip | VariableDeclaration | drawLedHeat | [1545](../../magpie/internal/gui/assets/plugins/usage/page.js#L1545) |
-| ledHeatAtEnd | VariableDeclaration |  | [1549](../../magpie/internal/gui/assets/plugins/usage/page.js#L1549) |
-| ledHeatSetAt | VariableDeclaration |  | [1549](../../magpie/internal/gui/assets/plugins/usage/page.js#L1549) |
-| ledHeatSized | VariableDeclaration |  | [1550](../../magpie/internal/gui/assets/plugins/usage/page.js#L1550) |
-| ledHeatKeepEnd | FunctionDeclaration |  | [1551](../../magpie/internal/gui/assets/plugins/usage/page.js#L1551) |
+| speed | VariableDeclaration | ledLines | [1312](../../magpie/internal/gui/assets/plugins/usage/page.js#L1312) |
+| { top } | VariableDeclaration | ledLines | [1313](../../magpie/internal/gui/assets/plugins/usage/page.js#L1313) |
+| top | BindingElement | ledLines.{ top } | [1313](../../magpie/internal/gui/assets/plugins/usage/page.js#L1313) |
+| X | VariableDeclaration | ledLines | [1314](../../magpie/internal/gui/assets/plugins/usage/page.js#L1314) |
+| dot | VariableDeclaration | ledLines | [1314](../../magpie/internal/gui/assets/plugins/usage/page.js#L1314) |
+| at | VariableDeclaration | ledLines | [1315](../../magpie/internal/gui/assets/plugins/usage/page.js#L1315) |
+| head | VariableDeclaration | ledLines | [1318](../../magpie/internal/gui/assets/plugins/usage/page.js#L1318) |
+| totals | VariableDeclaration | ledLines | [1319](../../magpie/internal/gui/assets/plugins/usage/page.js#L1319) |
+| series | VariableDeclaration | ledLines | [1321](../../magpie/internal/gui/assets/plugins/usage/page.js#L1321) |
+| s | VariableDeclaration | ledLines.series | [1322](../../magpie/internal/gui/assets/plugins/usage/page.js#L1322) |
+| line | VariableDeclaration | ledLines.series | [1325](../../magpie/internal/gui/assets/plugins/usage/page.js#L1325) |
+| dots | VariableDeclaration | ledLines.series | [1325](../../magpie/internal/gui/assets/plugins/usage/page.js#L1325) |
+| run | VariableDeclaration | ledLines.series | [1325](../../magpie/internal/gui/assets/plugins/usage/page.js#L1325) |
+| end | VariableDeclaration | ledLines.series | [1326](../../magpie/internal/gui/assets/plugins/usage/page.js#L1326) |
+| up | VariableDeclaration | ledLines.series | [1335](../../magpie/internal/gui/assets/plugins/usage/page.js#L1335) |
+| down | VariableDeclaration | ledLines.series | [1336](../../magpie/internal/gui/assets/plugins/usage/page.js#L1336) |
+| c | VariableDeclaration | ledLines | [1346](../../magpie/internal/gui/assets/plugins/usage/page.js#L1346) |
+| under | VariableDeclaration | ledLines | [1350](../../magpie/internal/gui/assets/plugins/usage/page.js#L1350) |
+| parts | VariableDeclaration | ledLines | [1351](../../magpie/internal/gui/assets/plugins/usage/page.js#L1351) |
+| [key, color, vs] | VariableDeclaration | ledLines | [1353](../../magpie/internal/gui/assets/plugins/usage/page.js#L1353) |
+| key | BindingElement | ledLines.[key, color, vs] | [1353](../../magpie/internal/gui/assets/plugins/usage/page.js#L1353) |
+| color | BindingElement | ledLines.[key, color, vs] | [1353](../../magpie/internal/gui/assets/plugins/usage/page.js#L1353) |
+| vs | BindingElement | ledLines.[key, color, vs] | [1353](../../magpie/internal/gui/assets/plugins/usage/page.js#L1353) |
+| over | VariableDeclaration | ledLines | [1354](../../magpie/internal/gui/assets/plugins/usage/page.js#L1354) |
+| drawLedTrend | FunctionDeclaration |  | [1360](../../magpie/internal/gui/assets/plugins/usage/page.js#L1360) |
+| l | VariableDeclaration | drawLedTrend | [1361](../../magpie/internal/gui/assets/plugins/usage/page.js#L1361) |
+| pill | VariableDeclaration | drawLedTrend | [1364](../../magpie/internal/gui/assets/plugins/usage/page.js#L1364) |
+| [id, name] | VariableDeclaration | drawLedTrend.pill | [1366](../../magpie/internal/gui/assets/plugins/usage/page.js#L1366) |
+| id | BindingElement | drawLedTrend.pill.[id, name] | [1366](../../magpie/internal/gui/assets/plugins/usage/page.js#L1366) |
+| name | BindingElement | drawLedTrend.pill.[id, name] | [1366](../../magpie/internal/gui/assets/plugins/usage/page.js#L1366) |
+| b | VariableDeclaration | drawLedTrend.pill | [1367](../../magpie/internal/gui/assets/plugins/usage/page.js#L1367) |
+| keyed | VariableDeclaration | drawLedTrend | [1375](../../magpie/internal/gui/assets/plugins/usage/page.js#L1375) |
+| id | BindingElement | drawLedTrend | [1377](../../magpie/internal/gui/assets/plugins/usage/page.js#L1377) |
+| chart | VariableDeclaration | drawLedTrend | [1378](../../magpie/internal/gui/assets/plugins/usage/page.js#L1378) |
+| rank | VariableDeclaration | drawLedTrend | [1378](../../magpie/internal/gui/assets/plugins/usage/page.js#L1378) |
+| picked | VariableDeclaration | drawLedTrend | [1388](../../magpie/internal/gui/assets/plugins/usage/page.js#L1388) |
+| q | VariableDeclaration | drawLedTrend | [1394](../../magpie/internal/gui/assets/plugins/usage/page.js#L1394) |
+| cut | VariableDeclaration | drawLedTrend | [1394](../../magpie/internal/gui/assets/plugins/usage/page.js#L1394) |
+| off | VariableDeclaration | drawLedTrend | [1394](../../magpie/internal/gui/assets/plugins/usage/page.js#L1394) |
+| q | VariableDeclaration | drawLedTrend | [1402](../../magpie/internal/gui/assets/plugins/usage/page.js#L1402) |
+| ledHeat | VariableDeclaration |  | [1416](../../magpie/internal/gui/assets/plugins/usage/page.js#L1416) |
+| ledHeatWant | VariableDeclaration |  | [1416](../../magpie/internal/gui/assets/plugins/usage/page.js#L1416) |
+| ledHeatMetric | VariableDeclaration |  | [1416](../../magpie/internal/gui/assets/plugins/usage/page.js#L1416) |
+| m | VariableDeclaration |  | [1418](../../magpie/internal/gui/assets/plugins/usage/page.js#L1418) |
+| LED_HEAT | VariableDeclaration |  | [1421](../../magpie/internal/gui/assets/plugins/usage/page.js#L1421) |
+| ledHeatParams | FunctionDeclaration |  | [1422](../../magpie/internal/gui/assets/plugins/usage/page.js#L1422) |
+| q | VariableDeclaration | ledHeatParams | [1423](../../magpie/internal/gui/assets/plugins/usage/page.js#L1423) |
+| loadLedHeat | FunctionDeclaration |  | [1428](../../magpie/internal/gui/assets/plugins/usage/page.js#L1428) |
+| want | VariableDeclaration | loadLedHeat | [1429](../../magpie/internal/gui/assets/plugins/usage/page.js#L1429) |
+| h | VariableDeclaration | loadLedHeat | [1431](../../magpie/internal/gui/assets/plugins/usage/page.js#L1431) |
+| ledHeatDate | VariableDeclaration |  | [1438](../../magpie/internal/gui/assets/plugins/usage/page.js#L1438) |
+| [y, m, d] | VariableDeclaration | ledHeatDate | [1438](../../magpie/internal/gui/assets/plugins/usage/page.js#L1438) |
+| y | BindingElement | ledHeatDate.[y, m, d] | [1438](../../magpie/internal/gui/assets/plugins/usage/page.js#L1438) |
+| m | BindingElement | ledHeatDate.[y, m, d] | [1438](../../magpie/internal/gui/assets/plugins/usage/page.js#L1438) |
+| d | BindingElement | ledHeatDate.[y, m, d] | [1438](../../magpie/internal/gui/assets/plugins/usage/page.js#L1438) |
+| ledHeatTip | FunctionDeclaration |  | [1439](../../magpie/internal/gui/assets/plugins/usage/page.js#L1439) |
+| loc | VariableDeclaration | ledHeatTip | [1440](../../magpie/internal/gui/assets/plugins/usage/page.js#L1440) |
+| tip | VariableDeclaration | ledHeatTip | [1441](../../magpie/internal/gui/assets/plugins/usage/page.js#L1441) |
+| parts | VariableDeclaration | ledHeatTip | [1447](../../magpie/internal/gui/assets/plugins/usage/page.js#L1447) |
+| c | VariableDeclaration | ledHeatTip | [1448](../../magpie/internal/gui/assets/plugins/usage/page.js#L1448) |
+| order | VariableDeclaration | ledHeatTip | [1450](../../magpie/internal/gui/assets/plugins/usage/page.js#L1450) |
+| drawLedHeat | FunctionDeclaration |  | [1455](../../magpie/internal/gui/assets/plugins/usage/page.js#L1455) |
+| box | VariableDeclaration | drawLedHeat | [1456](../../magpie/internal/gui/assets/plugins/usage/page.js#L1456) |
+| h | VariableDeclaration | drawLedHeat | [1456](../../magpie/internal/gui/assets/plugins/usage/page.js#L1456) |
+| at | VariableDeclaration | drawLedHeat | [1457](../../magpie/internal/gui/assets/plugins/usage/page.js#L1457) |
+| first | VariableDeclaration | drawLedHeat | [1460](../../magpie/internal/gui/assets/plugins/usage/page.js#L1460) |
+| last | VariableDeclaration | drawLedHeat | [1460](../../magpie/internal/gui/assets/plugins/usage/page.js#L1460) |
+| days | VariableDeclaration | drawLedHeat | [1461](../../magpie/internal/gui/assets/plugins/usage/page.js#L1461) |
+| d | VariableDeclaration | drawLedHeat | [1462](../../magpie/internal/gui/assets/plugins/usage/page.js#L1462) |
+| x | VariableDeclaration | drawLedHeat | [1463](../../magpie/internal/gui/assets/plugins/usage/page.js#L1463) |
+| value | VariableDeclaration | drawLedHeat | [1466](../../magpie/internal/gui/assets/plugins/usage/page.js#L1466) |
+| lv | VariableDeclaration | drawLedHeat | [1467](../../magpie/internal/gui/assets/plugins/usage/page.js#L1467) |
+| seg | VariableDeclaration | drawLedHeat | [1468](../../magpie/internal/gui/assets/plugins/usage/page.js#L1468) |
+| [id, name] | VariableDeclaration | drawLedHeat | [1470](../../magpie/internal/gui/assets/plugins/usage/page.js#L1470) |
+| id | BindingElement | drawLedHeat.[id, name] | [1470](../../magpie/internal/gui/assets/plugins/usage/page.js#L1470) |
+| name | BindingElement | drawLedHeat.[id, name] | [1470](../../magpie/internal/gui/assets/plugins/usage/page.js#L1470) |
+| b | VariableDeclaration | drawLedHeat | [1471](../../magpie/internal/gui/assets/plugins/usage/page.js#L1471) |
+| scroll | VariableDeclaration | drawLedHeat | [1482](../../magpie/internal/gui/assets/plugins/usage/page.js#L1482) |
+| shape | VariableDeclaration | drawLedHeat | [1485](../../magpie/internal/gui/assets/plugins/usage/page.js#L1485) |
+| grid | VariableDeclaration | drawLedHeat | [1486](../../magpie/internal/gui/assets/plugins/usage/page.js#L1486) |
+| names | VariableDeclaration | drawLedHeat | [1491](../../magpie/internal/gui/assets/plugins/usage/page.js#L1491) |
+| i | VariableDeclaration | drawLedHeat | [1493](../../magpie/internal/gui/assets/plugins/usage/page.js#L1493) |
+| l | VariableDeclaration | drawLedHeat | [1494](../../magpie/internal/gui/assets/plugins/usage/page.js#L1494) |
+| loc | VariableDeclaration | drawLedHeat | [1498](../../magpie/internal/gui/assets/plugins/usage/page.js#L1498) |
+| weeks | VariableDeclaration | drawLedHeat | [1499](../../magpie/internal/gui/assets/plugins/usage/page.js#L1499) |
+| labels | VariableDeclaration | drawLedHeat | [1499](../../magpie/internal/gui/assets/plugins/usage/page.js#L1499) |
+| month | VariableDeclaration | drawLedHeat | [1500](../../magpie/internal/gui/assets/plugins/usage/page.js#L1500) |
+| w | VariableDeclaration | drawLedHeat | [1502](../../magpie/internal/gui/assets/plugins/usage/page.js#L1502) |
+| wd | VariableDeclaration | drawLedHeat | [1502](../../magpie/internal/gui/assets/plugins/usage/page.js#L1502) |
+| m | VariableDeclaration | drawLedHeat | [1509](../../magpie/internal/gui/assets/plugins/usage/page.js#L1509) |
+| c | VariableDeclaration | drawLedHeat | [1514](../../magpie/internal/gui/assets/plugins/usage/page.js#L1514) |
+| m | BindingElement | drawLedHeat | [1521](../../magpie/internal/gui/assets/plugins/usage/page.js#L1521) |
+| w | BindingElement | drawLedHeat | [1521](../../magpie/internal/gui/assets/plugins/usage/page.js#L1521) |
+| cells | VariableDeclaration | drawLedHeat | [1541](../../magpie/internal/gui/assets/plugins/usage/page.js#L1541) |
+| c | VariableDeclaration | drawLedHeat | [1543](../../magpie/internal/gui/assets/plugins/usage/page.js#L1543) |
+| legend | VariableDeclaration | drawLedHeat | [1547](../../magpie/internal/gui/assets/plugins/usage/page.js#L1547) |
+| tip | VariableDeclaration | drawLedHeat | [1549](../../magpie/internal/gui/assets/plugins/usage/page.js#L1549) |
+| ledHeatAtEnd | VariableDeclaration |  | [1553](../../magpie/internal/gui/assets/plugins/usage/page.js#L1553) |
+| ledHeatSetAt | VariableDeclaration |  | [1553](../../magpie/internal/gui/assets/plugins/usage/page.js#L1553) |
+| ledHeatSized | VariableDeclaration |  | [1554](../../magpie/internal/gui/assets/plugins/usage/page.js#L1554) |

@@ -10,6 +10,8 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/provider/sentbody.go](../../magpie/internal/provider/sentbody.go) | 10 | [1](magpie_internal_provider_sentbody.go-6f5da547-1.md) |
+| [magpie/internal/provider/served.go](../../magpie/internal/provider/served.go) | 25 | [1](magpie_internal_provider_served.go-3cb1add8-1.md) |
 | [magpie/internal/provider/session_identity.go](../../magpie/internal/provider/session_identity.go) | 17 | [1](magpie_internal_provider_session_identity.go-33e60a4f-1.md) |
 | [magpie/internal/provider/side_logins.go](../../magpie/internal/provider/side_logins.go) | 21 | [1](magpie_internal_provider_side_logins.go-25f79815-1.md) |
 | [magpie/internal/provider/signin.go](../../magpie/internal/provider/signin.go) | 105 | [1](magpie_internal_provider_signin.go-e94adcb5-1.md) [2](magpie_internal_provider_signin.go-e94adcb5-2.md) |
@@ -18,7 +20,7 @@
 | [magpie/internal/provider/sub2api_usage.go](../../magpie/internal/provider/sub2api_usage.go) | 7 | [1](magpie_internal_provider_sub2api_usage.go-232f5962-1.md) |
 | [magpie/internal/provider/subscription_usage.go](../../magpie/internal/provider/subscription_usage.go) | 168 | [1](magpie_internal_provider_subscription_usage.go-2539481f-1.md) [2](magpie_internal_provider_subscription_usage.go-2539481f-2.md) |
 | [magpie/internal/provider/tencent_usage.go](../../magpie/internal/provider/tencent_usage.go) | 43 | [1](magpie_internal_provider_tencent_usage.go-806fc7e5-1.md) |
-| [magpie/internal/provider/test.go](../../magpie/internal/provider/test.go) | 69 | [1](magpie_internal_provider_test.go-f965572b-1.md) |
+| [magpie/internal/provider/test.go](../../magpie/internal/provider/test.go) | 77 | [1](magpie_internal_provider_test.go-f965572b-1.md) |
 | [magpie/internal/provider/test_as.go](../../magpie/internal/provider/test_as.go) | 18 | [1](magpie_internal_provider_test_as.go-16bfb3ef-1.md) |
 | [magpie/internal/provider/trae_checkin.go](../../magpie/internal/provider/trae_checkin.go) | 33 | [1](magpie_internal_provider_trae_checkin.go-08b020be-1.md) |
 | [magpie/internal/provider/translated_probe.go](../../magpie/internal/provider/translated_probe.go) | 4 | [1](magpie_internal_provider_translated_probe.go-b0faaa47-1.md) |

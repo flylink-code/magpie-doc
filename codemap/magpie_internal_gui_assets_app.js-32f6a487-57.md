@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 57/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| id | BindingElement | renderTrayUsage | [20403](../../magpie/internal/gui/assets/app.js#L20403) |
-| name | BindingElement | renderTrayUsage | [20403](../../magpie/internal/gui/assets/app.js#L20403) |
-| rate | VariableDeclaration | renderTrayUsage | [20413](../../magpie/internal/gui/assets/app.js#L20413) |
-| currencySub | VariableDeclaration | renderTrayUsage | [20414](../../magpie/internal/gui/assets/app.js#L20414) |
-| mac | VariableDeclaration | renderTrayUsage | [20419](../../magpie/internal/gui/assets/app.js#L20419) |
-| ids | VariableDeclaration | renderTrayUsage | [20422](../../magpie/internal/gui/assets/app.js#L20422) |
-| pill | VariableDeclaration | renderTrayUsage | [20423](../../magpie/internal/gui/assets/app.js#L20423) |
-| paint | VariableDeclaration | renderTrayUsage | [20425](../../magpie/internal/gui/assets/app.js#L20425) |
-| card | VariableDeclaration | renderTrayUsage.paint | [20426](../../magpie/internal/gui/assets/app.js#L20426) |
-| total | VariableDeclaration | renderTrayUsage.paint | [20427](../../magpie/internal/gui/assets/app.js#L20427) |
-| v | BindingElement | renderTrayUsage.paint.total | [20427](../../magpie/internal/gui/assets/app.js#L20427) |
-| v | BindingElement | renderTrayUsage.paint | [20429](../../magpie/internal/gui/assets/app.js#L20429) |
-| open | VariableDeclaration | renderTrayUsage | [20434](../../magpie/internal/gui/assets/app.js#L20434) |
-| cards | VariableDeclaration | renderTrayUsage.open | [20443](../../magpie/internal/gui/assets/app.js#L20443) |
-| opts | VariableDeclaration | renderTrayUsage.open | [20445](../../magpie/internal/gui/assets/app.js#L20445) |
-| q | VariableDeclaration | renderTrayUsage.open | [20446](../../magpie/internal/gui/assets/app.js#L20446) |
-| [v, name] | VariableDeclaration | renderTrayUsage.open | [20455](../../magpie/internal/gui/assets/app.js#L20455) |
-| v | BindingElement | renderTrayUsage.open.[v, name] | [20455](../../magpie/internal/gui/assets/app.js#L20455) |
-| name | BindingElement | renderTrayUsage.open.[v, name] | [20455](../../magpie/internal/gui/assets/app.js#L20455) |
-| id | VariableDeclaration | renderTrayUsage.open | [20458](../../magpie/internal/gui/assets/app.js#L20458) |
-| loading | VariableDeclaration | renderTrayUsage | [20466](../../magpie/internal/gui/assets/app.js#L20466) |
-| TRAY_EVERY | VariableDeclaration |  | [20498](../../magpie/internal/gui/assets/app.js#L20498) |
-| TRAY_TOTALS | VariableDeclaration |  | [20500](../../magpie/internal/gui/assets/app.js#L20500) |
-| UPDATE_EVERY | VariableDeclaration |  | [20502](../../magpie/internal/gui/assets/app.js#L20502) |
-| proxyCustom | VariableDeclaration |  | [20508](../../magpie/internal/gui/assets/app.js#L20508) |
-| proxyFields | FunctionDeclaration |  | [20511](../../magpie/internal/gui/assets/app.js#L20511) |
-| [, scheme = "", auth, rest] | VariableDeclaration | proxyFields | [20512](../../magpie/internal/gui/assets/app.js#L20512) |
-| scheme | BindingElement | proxyFields.[, scheme = "", auth, rest] | [20512](../../magpie/internal/gui/assets/app.js#L20512) |
-| auth | BindingElement | proxyFields.[, scheme = "", auth, rest] | [20512](../../magpie/internal/gui/assets/app.js#L20512) |
-| rest | BindingElement | proxyFields.[, scheme = "", auth, rest] | [20512](../../magpie/internal/gui/assets/app.js#L20512) |
-| at | VariableDeclaration | proxyFields | [20513](../../magpie/internal/gui/assets/app.js#L20513) |
-| info | VariableDeclaration | proxyFields | [20513](../../magpie/internal/gui/assets/app.js#L20513) |
-| c | VariableDeclaration | proxyFields | [20513](../../magpie/internal/gui/assets/app.js#L20513) |
-| eu | VariableDeclaration | proxyFields | [20514](../../magpie/internal/gui/assets/app.js#L20514) |
-| ep | VariableDeclaration | proxyFields | [20514](../../magpie/internal/gui/assets/app.js#L20514) |
-| dec | VariableDeclaration | proxyFields | [20516](../../magpie/internal/gui/assets/app.js#L20516) |
-| proxyAddress | FunctionDeclaration |  | [20520](../../magpie/internal/gui/assets/app.js#L20520) |
-| enc | VariableDeclaration | proxyAddress | [20523](../../magpie/internal/gui/assets/app.js#L20523) |
-| [, scheme = "", rest] | VariableDeclaration | proxyAddress | [20524](../../magpie/internal/gui/assets/app.js#L20524) |
-| scheme | BindingElement | proxyAddress.[, scheme = "", rest] | [20524](../../magpie/internal/gui/assets/app.js#L20524) |
-| rest | BindingElement | proxyAddress.[, scheme = "", rest] | [20524](../../magpie/internal/gui/assets/app.js#L20524) |
-| proxyDisplay | FunctionDeclaration |  | [20527](../../magpie/internal/gui/assets/app.js#L20527) |
-| renderProxy | FunctionDeclaration |  | [20531](../../magpie/internal/gui/assets/app.js#L20531) |
-| cur | VariableDeclaration | renderProxy | [20532](../../magpie/internal/gui/assets/app.js#L20532) |
-| mode | VariableDeclaration | renderProxy | [20533](../../magpie/internal/gui/assets/app.js#L20533) |
-| sub | VariableDeclaration | renderProxy | [20534](../../magpie/internal/gui/assets/app.js#L20534) |
-| box | VariableDeclaration | renderProxy | [20542](../../magpie/internal/gui/assets/app.js#L20542) |
-| row | VariableDeclaration | renderProxy | [20544](../../magpie/internal/gui/assets/app.js#L20544) |
-| picking | VariableDeclaration | renderProxy | [20546](../../magpie/internal/gui/assets/app.js#L20546) |
-| saveOnLeave | VariableDeclaration | renderProxy | [20547](../../magpie/internal/gui/assets/app.js#L20547) |
-| pick | VariableDeclaration | renderProxy | [20548](../../magpie/internal/gui/assets/app.js#L20548) |
-| fields | VariableDeclaration | renderProxy | [20557](../../magpie/internal/gui/assets/app.js#L20557) |
-| i | VariableDeclaration | renderProxy | [20558](../../magpie/internal/gui/assets/app.js#L20558) |
-| auth | VariableDeclaration | renderProxy | [20561](../../magpie/internal/gui/assets/app.js#L20561) |
-| username | VariableDeclaration | renderProxy | [20562](../../magpie/internal/gui/assets/app.js#L20562) |
-| password | VariableDeclaration | renderProxy | [20563](../../magpie/internal/gui/assets/app.js#L20563) |
-| field | VariableDeclaration | renderProxy | [20564](../../magpie/internal/gui/assets/app.js#L20564) |
-| parsed | VariableDeclaration | renderProxy | [20570](../../magpie/internal/gui/assets/app.js#L20570) |
-| saving | VariableDeclaration | renderProxy | [20577](../../magpie/internal/gui/assets/app.js#L20577) |
-| save | VariableDeclaration | renderProxy | [20578](../../magpie/internal/gui/assets/app.js#L20578) |
-| v | VariableDeclaration | renderProxy.save | [20580](../../magpie/internal/gui/assets/app.js#L20580) |
-| field | VariableDeclaration | renderProxy | [20593](../../magpie/internal/gui/assets/app.js#L20593) |
-| apply | VariableDeclaration | renderProxy | [20598](../../magpie/internal/gui/assets/app.js#L20598) |
-| modes | VariableDeclaration | renderProxy | [20606](../../magpie/internal/gui/assets/app.js#L20606) |
-| button | VariableDeclaration | renderProxy | [20610](../../magpie/internal/gui/assets/app.js#L20610) |
-| proxyCheck | VariableDeclaration |  | [20623](../../magpie/internal/gui/assets/app.js#L20623) |
-| renderProxyCheck | FunctionDeclaration |  | [20624](../../magpie/internal/gui/assets/app.js#L20624) |
-| key | VariableDeclaration | renderProxyCheck | [20625](../../magpie/internal/gui/assets/app.js#L20625) |
-| test | VariableDeclaration | renderProxyCheck | [20627](../../magpie/internal/gui/assets/app.js#L20627) |
-| now | VariableDeclaration | renderProxyCheck | [20638](../../magpie/internal/gui/assets/app.js#L20638) |
-| line | VariableDeclaration | renderProxyCheck | [20644](../../magpie/internal/gui/assets/app.js#L20644) |
-| [text, bad] | VariableDeclaration | renderProxyCheck | [20651](../../magpie/internal/gui/assets/app.js#L20651) |
-| text | BindingElement | renderProxyCheck.[text, bad] | [20651](../../magpie/internal/gui/assets/app.js#L20651) |
-| bad | BindingElement | renderProxyCheck.[text, bad] | [20651](../../magpie/internal/gui/assets/app.js#L20651) |
-| proxyCheckText | FunctionDeclaration |  | [20658](../../magpie/internal/gui/assets/app.js#L20658) |
-| where | VariableDeclaration | proxyCheckText | [20661](../../magpie/internal/gui/assets/app.js#L20661) |
-| d | VariableDeclaration | proxyCheckText | [20662](../../magpie/internal/gui/assets/app.js#L20662) |
-| direct | VariableDeclaration | proxyCheckText | [20663](../../magpie/internal/gui/assets/app.js#L20663) |
-| via | VariableDeclaration | proxyCheckText | [20664](../../magpie/internal/gui/assets/app.js#L20664) |
-| githubTokenErr | VariableDeclaration |  | [20686](../../magpie/internal/gui/assets/app.js#L20686) |
-| githubTokenDraft | VariableDeclaration |  | [20686](../../magpie/internal/gui/assets/app.js#L20686) |
-| renderGitHubToken | FunctionDeclaration |  | [20687](../../magpie/internal/gui/assets/app.js#L20687) |
-| box | VariableDeclaration | renderGitHubToken | [20688](../../magpie/internal/gui/assets/app.js#L20688) |
-| r | VariableDeclaration | renderGitHubToken | [20690](../../magpie/internal/gui/assets/app.js#L20690) |
-| who | VariableDeclaration | renderGitHubToken | [20691](../../magpie/internal/gui/assets/app.js#L20691) |
-| sub | VariableDeclaration | renderGitHubToken | [20692](../../magpie/internal/gui/assets/app.js#L20692) |
-| val | VariableDeclaration | renderGitHubToken | [20694](../../magpie/internal/gui/assets/app.js#L20694) |
-| set | VariableDeclaration | renderGitHubToken | [20697](../../magpie/internal/gui/assets/app.js#L20697) |
-| why | VariableDeclaration | renderGitHubToken | [20700](../../magpie/internal/gui/assets/app.js#L20700) |
-| x | VariableDeclaration | renderGitHubToken | [20703](../../magpie/internal/gui/assets/app.js#L20703) |
-| i | VariableDeclaration | renderGitHubToken | [20713](../../magpie/internal/gui/assets/app.js#L20713) |
-| save | VariableDeclaration | renderGitHubToken | [20716](../../magpie/internal/gui/assets/app.js#L20716) |
-| v | VariableDeclaration | renderGitHubToken | [20717](../../magpie/internal/gui/assets/app.js#L20717) |
-| get | VariableDeclaration | renderGitHubToken | [20720](../../magpie/internal/gui/assets/app.js#L20720) |
-| warmTimes | FunctionDeclaration |  | [20727](../../magpie/internal/gui/assets/app.js#L20727) |
-| nextWarmTime | FunctionDeclaration |  | [20734](../../magpie/internal/gui/assets/app.js#L20734) |
-| [h, m] | VariableDeclaration | nextWarmTime | [20735](../../magpie/internal/gui/assets/app.js#L20735) |
-| h | BindingElement | nextWarmTime.[h, m] | [20735](../../magpie/internal/gui/assets/app.js#L20735) |
-| m | BindingElement | nextWarmTime.[h, m] | [20735](../../magpie/internal/gui/assets/app.js#L20735) |
-| pad | VariableDeclaration | nextWarmTime | [20736](../../magpie/internal/gui/assets/app.js#L20736) |
+| password | VariableDeclaration | renderProxy | [20387](../../magpie/internal/gui/assets/app.js#L20387) |
+| field | VariableDeclaration | renderProxy | [20388](../../magpie/internal/gui/assets/app.js#L20388) |
+| parsed | VariableDeclaration | renderProxy | [20394](../../magpie/internal/gui/assets/app.js#L20394) |
+| saving | VariableDeclaration | renderProxy | [20401](../../magpie/internal/gui/assets/app.js#L20401) |
+| save | VariableDeclaration | renderProxy | [20402](../../magpie/internal/gui/assets/app.js#L20402) |
+| v | VariableDeclaration | renderProxy.save | [20404](../../magpie/internal/gui/assets/app.js#L20404) |
+| field | VariableDeclaration | renderProxy | [20417](../../magpie/internal/gui/assets/app.js#L20417) |
+| apply | VariableDeclaration | renderProxy | [20422](../../magpie/internal/gui/assets/app.js#L20422) |
+| modes | VariableDeclaration | renderProxy | [20430](../../magpie/internal/gui/assets/app.js#L20430) |
+| button | VariableDeclaration | renderProxy | [20434](../../magpie/internal/gui/assets/app.js#L20434) |
+| proxyCheck | VariableDeclaration |  | [20447](../../magpie/internal/gui/assets/app.js#L20447) |
+| renderProxyCheck | FunctionDeclaration |  | [20448](../../magpie/internal/gui/assets/app.js#L20448) |
+| key | VariableDeclaration | renderProxyCheck | [20449](../../magpie/internal/gui/assets/app.js#L20449) |
+| test | VariableDeclaration | renderProxyCheck | [20451](../../magpie/internal/gui/assets/app.js#L20451) |
+| now | VariableDeclaration | renderProxyCheck | [20462](../../magpie/internal/gui/assets/app.js#L20462) |
+| line | VariableDeclaration | renderProxyCheck | [20468](../../magpie/internal/gui/assets/app.js#L20468) |
+| [text, bad] | VariableDeclaration | renderProxyCheck | [20475](../../magpie/internal/gui/assets/app.js#L20475) |
+| text | BindingElement | renderProxyCheck.[text, bad] | [20475](../../magpie/internal/gui/assets/app.js#L20475) |
+| bad | BindingElement | renderProxyCheck.[text, bad] | [20475](../../magpie/internal/gui/assets/app.js#L20475) |
+| proxyCheckText | FunctionDeclaration |  | [20482](../../magpie/internal/gui/assets/app.js#L20482) |
+| where | VariableDeclaration | proxyCheckText | [20485](../../magpie/internal/gui/assets/app.js#L20485) |
+| d | VariableDeclaration | proxyCheckText | [20486](../../magpie/internal/gui/assets/app.js#L20486) |
+| direct | VariableDeclaration | proxyCheckText | [20487](../../magpie/internal/gui/assets/app.js#L20487) |
+| via | VariableDeclaration | proxyCheckText | [20488](../../magpie/internal/gui/assets/app.js#L20488) |
+| githubTokenErr | VariableDeclaration |  | [20510](../../magpie/internal/gui/assets/app.js#L20510) |
+| githubTokenDraft | VariableDeclaration |  | [20510](../../magpie/internal/gui/assets/app.js#L20510) |
+| renderGitHubToken | FunctionDeclaration |  | [20511](../../magpie/internal/gui/assets/app.js#L20511) |
+| box | VariableDeclaration | renderGitHubToken | [20512](../../magpie/internal/gui/assets/app.js#L20512) |
+| r | VariableDeclaration | renderGitHubToken | [20514](../../magpie/internal/gui/assets/app.js#L20514) |
+| who | VariableDeclaration | renderGitHubToken | [20515](../../magpie/internal/gui/assets/app.js#L20515) |
+| sub | VariableDeclaration | renderGitHubToken | [20516](../../magpie/internal/gui/assets/app.js#L20516) |
+| val | VariableDeclaration | renderGitHubToken | [20518](../../magpie/internal/gui/assets/app.js#L20518) |
+| set | VariableDeclaration | renderGitHubToken | [20521](../../magpie/internal/gui/assets/app.js#L20521) |
+| why | VariableDeclaration | renderGitHubToken | [20524](../../magpie/internal/gui/assets/app.js#L20524) |
+| x | VariableDeclaration | renderGitHubToken | [20527](../../magpie/internal/gui/assets/app.js#L20527) |
+| i | VariableDeclaration | renderGitHubToken | [20537](../../magpie/internal/gui/assets/app.js#L20537) |
+| save | VariableDeclaration | renderGitHubToken | [20540](../../magpie/internal/gui/assets/app.js#L20540) |
+| v | VariableDeclaration | renderGitHubToken | [20541](../../magpie/internal/gui/assets/app.js#L20541) |
+| get | VariableDeclaration | renderGitHubToken | [20544](../../magpie/internal/gui/assets/app.js#L20544) |
+| warmTimes | FunctionDeclaration |  | [20551](../../magpie/internal/gui/assets/app.js#L20551) |
+| nextWarmTime | FunctionDeclaration |  | [20558](../../magpie/internal/gui/assets/app.js#L20558) |
+| [h, m] | VariableDeclaration | nextWarmTime | [20559](../../magpie/internal/gui/assets/app.js#L20559) |
+| h | BindingElement | nextWarmTime.[h, m] | [20559](../../magpie/internal/gui/assets/app.js#L20559) |
+| m | BindingElement | nextWarmTime.[h, m] | [20559](../../magpie/internal/gui/assets/app.js#L20559) |
+| pad | VariableDeclaration | nextWarmTime | [20560](../../magpie/internal/gui/assets/app.js#L20560) |
+| at | VariableDeclaration | nextWarmTime | [20561](../../magpie/internal/gui/assets/app.js#L20561) |
+| i | VariableDeclaration | nextWarmTime | [20562](../../magpie/internal/gui/assets/app.js#L20562) |
+| renderWarmAt | FunctionDeclaration |  | [20572](../../magpie/internal/gui/assets/app.js#L20572) |
+| what | VariableDeclaration | renderWarmAt | [20575](../../magpie/internal/gui/assets/app.js#L20575) |
+| list | VariableDeclaration | renderWarmAt | [20585](../../magpie/internal/gui/assets/app.js#L20585) |
+| one | VariableDeclaration | renderWarmAt | [20587](../../magpie/internal/gui/assets/app.js#L20587) |
+| i | VariableDeclaration | renderWarmAt | [20588](../../magpie/internal/gui/assets/app.js#L20588) |
+| rm | VariableDeclaration | renderWarmAt | [20595](../../magpie/internal/gui/assets/app.js#L20595) |
+| add | VariableDeclaration | renderWarmAt | [20604](../../magpie/internal/gui/assets/app.js#L20604) |
+| renderAutoResetOwn | FunctionDeclaration |  | [20620](../../magpie/internal/gui/assets/app.js#L20620) |
+| head | VariableDeclaration | renderAutoResetOwn | [20621](../../magpie/internal/gui/assets/app.js#L20621) |
+| list | VariableDeclaration | renderAutoResetOwn | [20622](../../magpie/internal/gui/assets/app.js#L20622) |
+| on | VariableDeclaration | renderAutoResetOwn | [20624](../../magpie/internal/gui/assets/app.js#L20624) |
+| users | VariableDeclaration | renderAutoResetOwn | [20625](../../magpie/internal/gui/assets/app.js#L20625) |
+| u | VariableDeclaration | renderAutoResetOwn | [20626](../../magpie/internal/gui/assets/app.js#L20626) |
+| after | VariableDeclaration | renderAutoResetOwn | [20628](../../magpie/internal/gui/assets/app.js#L20628) |
+| user | VariableDeclaration | renderAutoResetOwn | [20629](../../magpie/internal/gui/assets/app.js#L20629) |
+| r | VariableDeclaration | renderAutoResetOwn | [20630](../../magpie/internal/gui/assets/app.js#L20630) |
+| who | VariableDeclaration | renderAutoResetOwn | [20632](../../magpie/internal/gui/assets/app.js#L20632) |
+| name | VariableDeclaration | renderAutoResetOwn | [20633](../../magpie/internal/gui/assets/app.js#L20633) |
+| was | VariableDeclaration | renderAutoResetOwn | [20637](../../magpie/internal/gui/assets/app.js#L20637) |
+| cases | VariableDeclaration | renderAutoResetOwn | [20638](../../magpie/internal/gui/assets/app.js#L20638) |
+| c | VariableDeclaration | renderAutoResetOwn | [20639](../../magpie/internal/gui/assets/app.js#L20639) |
+| line | VariableDeclaration | renderAutoResetOwn | [20640](../../magpie/internal/gui/assets/app.js#L20640) |
+| say | VariableDeclaration | renderAutoResetOwn | [20642](../../magpie/internal/gui/assets/app.js#L20642) |
+| pick | VariableDeclaration | renderAutoResetOwn | [20644](../../magpie/internal/gui/assets/app.js#L20644) |
+| now | VariableDeclaration | renderAutoResetOwn.pick | [20648](../../magpie/internal/gui/assets/app.js#L20648) |
+| e | VariableDeclaration | renderAutoResetOwn.pick | [20652](../../magpie/internal/gui/assets/app.js#L20652) |
+| renderWarmAtOwn | FunctionDeclaration |  | [20673](../../magpie/internal/gui/assets/app.js#L20673) |
+| list | VariableDeclaration | renderWarmAtOwn | [20674](../../magpie/internal/gui/assets/app.js#L20674) |
+| own | VariableDeclaration | renderWarmAtOwn | [20676](../../magpie/internal/gui/assets/app.js#L20676) |
+| users | VariableDeclaration | renderWarmAtOwn | [20677](../../magpie/internal/gui/assets/app.js#L20677) |
+| u | VariableDeclaration | renderWarmAtOwn | [20678](../../magpie/internal/gui/assets/app.js#L20678) |
+| save | VariableDeclaration | renderWarmAtOwn | [20680](../../magpie/internal/gui/assets/app.js#L20680) |
+| e | VariableDeclaration | renderWarmAtOwn.save | [20685](../../magpie/internal/gui/assets/app.js#L20685) |
+| user | VariableDeclaration | renderWarmAtOwn | [20690](../../magpie/internal/gui/assets/app.js#L20690) |
+| at | VariableDeclaration | renderWarmAtOwn | [20691](../../magpie/internal/gui/assets/app.js#L20691) |
+| mode | VariableDeclaration | renderWarmAtOwn | [20692](../../magpie/internal/gui/assets/app.js#L20692) |
+| r | VariableDeclaration | renderWarmAtOwn | [20693](../../magpie/internal/gui/assets/app.js#L20693) |
+| who | VariableDeclaration | renderWarmAtOwn | [20695](../../magpie/internal/gui/assets/app.js#L20695) |
+| name | VariableDeclaration | renderWarmAtOwn | [20696](../../magpie/internal/gui/assets/app.js#L20696) |
+| sub | VariableDeclaration | renderWarmAtOwn | [20698](../../magpie/internal/gui/assets/app.js#L20698) |
+| box | VariableDeclaration | renderWarmAtOwn | [20703](../../magpie/internal/gui/assets/app.js#L20703) |
+| i | VariableDeclaration | renderWarmAtOwn | [20705](../../magpie/internal/gui/assets/app.js#L20705) |
+| renderAlerts | FunctionDeclaration |  | [20722](../../magpie/internal/gui/assets/app.js#L20722) |
+| problem | VariableDeclaration | renderAlerts | [20723](../../magpie/internal/gui/assets/app.js#L20723) |
+| sub | VariableDeclaration | renderAlerts | [20725](../../magpie/internal/gui/assets/app.js#L20725) |
+| box | VariableDeclaration | renderAlerts.sub | [20726](../../magpie/internal/gui/assets/app.js#L20726) |
+| field | VariableDeclaration | renderAlerts | [20736](../../magpie/internal/gui/assets/app.js#L20736) |
+| i | VariableDeclaration | renderAlerts.field | [20739](../../magpie/internal/gui/assets/app.js#L20739) |
+| n | VariableDeclaration | renderAlerts.field | [20745](../../magpie/internal/gui/assets/app.js#L20745) |
+| hours | VariableDeclaration | renderAlerts | [20761](../../magpie/internal/gui/assets/app.js#L20761) |
+| r | VariableDeclaration | renderAlerts | [20762](../../magpie/internal/gui/assets/app.js#L20762) |
+| opts | VariableDeclaration | renderAlerts | [20763](../../magpie/internal/gui/assets/app.js#L20763) |
+| mins | VariableDeclaration | renderAlerts | [20768](../../magpie/internal/gui/assets/app.js#L20768) |

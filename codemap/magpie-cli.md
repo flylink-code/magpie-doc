@@ -21,8 +21,11 @@
 | [magpie/internal/awake/hold_windows.go](../../magpie/internal/awake/hold_windows.go) | 6 | [1](magpie_internal_awake_hold_windows.go-c8299b0e-1.md) |
 | [magpie/internal/cli/account_discovery_cli.go](../../magpie/internal/cli/account_discovery_cli.go) | 1 | [1](magpie_internal_cli_account_discovery_cli.go-21e41190-1.md) |
 | [magpie/internal/cli/accounts_cli.go](../../magpie/internal/cli/accounts_cli.go) | 32 | [1](magpie_internal_cli_accounts_cli.go-08fc3463-1.md) |
+| [magpie/internal/cli/agy_cli.go](../../magpie/internal/cli/agy_cli.go) | 7 | [1](magpie_internal_cli_agy_cli.go-aeacb23f-1.md) |
+| [magpie/internal/cli/agy_exec_unix.go](../../magpie/internal/cli/agy_exec_unix.go) | 1 | [1](magpie_internal_cli_agy_exec_unix.go-e1e675e7-1.md) |
+| [magpie/internal/cli/agy_exec_windows.go](../../magpie/internal/cli/agy_exec_windows.go) | 1 | [1](magpie_internal_cli_agy_exec_windows.go-f0f3f683-1.md) |
 | [magpie/internal/cli/autostart_cli.go](../../magpie/internal/cli/autostart_cli.go) | 1 | [1](magpie_internal_cli_autostart_cli.go-8ad54453-1.md) |
-| [magpie/internal/cli/backup_cmd.go](../../magpie/internal/cli/backup_cmd.go) | 5 | [1](magpie_internal_cli_backup_cmd.go-f4d47986-1.md) |
+| [magpie/internal/cli/backup_cmd.go](../../magpie/internal/cli/backup_cmd.go) | 8 | [1](magpie_internal_cli_backup_cmd.go-f4d47986-1.md) |
 | [magpie/internal/cli/builtin_cli.go](../../magpie/internal/cli/builtin_cli.go) | 10 | [1](magpie_internal_cli_builtin_cli.go-6e68a9b5-1.md) |
 | [magpie/internal/cli/claude_code_cli.go](../../magpie/internal/cli/claude_code_cli.go) | 8 | [1](magpie_internal_cli_claude_code_cli.go-e430abc3-1.md) |
 | [magpie/internal/cli/console_windows.go](../../magpie/internal/cli/console_windows.go) | 1 | [1](magpie_internal_cli_console_windows.go-ab4341d2-1.md) |
@@ -42,7 +45,7 @@
 | [magpie/internal/cli/model_cli.go](../../magpie/internal/cli/model_cli.go) | 40 | [1](magpie_internal_cli_model_cli.go-040ce38b-1.md) |
 | [magpie/internal/cli/model_spec_cli.go](../../magpie/internal/cli/model_spec_cli.go) | 9 | [1](magpie_internal_cli_model_spec_cli.go-cecf62de-1.md) |
 | [magpie/internal/cli/plugins_cli.go](../../magpie/internal/cli/plugins_cli.go) | 19 | [1](magpie_internal_cli_plugins_cli.go-c0269796-1.md) |
-| [magpie/internal/cli/providers_cli.go](../../magpie/internal/cli/providers_cli.go) | 50 | [1](magpie_internal_cli_providers_cli.go-6e2597b7-1.md) |
+| [magpie/internal/cli/providers_cli.go](../../magpie/internal/cli/providers_cli.go) | 51 | [1](magpie_internal_cli_providers_cli.go-6e2597b7-1.md) |
 | [magpie/internal/cli/quota_cli.go](../../magpie/internal/cli/quota_cli.go) | 19 | [1](magpie_internal_cli_quota_cli.go-8bb02be7-1.md) |
 | [magpie/internal/cli/quota_refresh_cli.go](../../magpie/internal/cli/quota_refresh_cli.go) | 8 | [1](magpie_internal_cli_quota_refresh_cli.go-4bbd1773-1.md) |
 | [magpie/internal/cli/quota_wait.go](../../magpie/internal/cli/quota_wait.go) | 26 | [1](magpie_internal_cli_quota_wait.go-9eb52416-1.md) |
@@ -53,7 +56,8 @@
 | [magpie/internal/cli/signals_windows.go](../../magpie/internal/cli/signals_windows.go) | 1 | [1](magpie_internal_cli_signals_windows.go-21936a82-1.md) |
 | [magpie/internal/cli/statusline_cli.go](../../magpie/internal/cli/statusline_cli.go) | 14 | [1](magpie_internal_cli_statusline_cli.go-4d5c06fb-1.md) |
 | [magpie/internal/cli/tls_cli.go](../../magpie/internal/cli/tls_cli.go) | 2 | [1](magpie_internal_cli_tls_cli.go-e016d4bc-1.md) |
-| [magpie/internal/cli/update_cli.go](../../magpie/internal/cli/update_cli.go) | 9 | [1](magpie_internal_cli_update_cli.go-6ca707e6-1.md) |
+| [magpie/internal/cli/tool_cli.go](../../magpie/internal/cli/tool_cli.go) | 74 | [1](magpie_internal_cli_tool_cli.go-d4b0d2aa-1.md) |
+| [magpie/internal/cli/update_cli.go](../../magpie/internal/cli/update_cli.go) | 10 | [1](magpie_internal_cli_update_cli.go-6ca707e6-1.md) |
 | [magpie/internal/cli/usage_cli.go](../../magpie/internal/cli/usage_cli.go) | 15 | [1](magpie_internal_cli_usage_cli.go-74468fd1-1.md) |
 | [magpie/internal/cli/visible_cli.go](../../magpie/internal/cli/visible_cli.go) | 5 | [1](magpie_internal_cli_visible_cli.go-ca7416a1-1.md) |
 | [magpie/internal/cli/web_cli.go](../../magpie/internal/cli/web_cli.go) | 7 | [1](magpie_internal_cli_web_cli.go-4b0586d7-1.md) |
@@ -79,11 +83,14 @@
 | [magpie/internal/update/elevate_script.go](../../magpie/internal/update/elevate_script.go) | 5 | [1](magpie_internal_update_elevate_script.go-b20984b3-1.md) |
 | [magpie/internal/update/elevate_windows.go](../../magpie/internal/update/elevate_windows.go) | 22 | [1](magpie_internal_update_elevate_windows.go-2f83bc3d-1.md) |
 | [magpie/internal/update/mirror.go](../../magpie/internal/update/mirror.go) | 17 | [1](magpie_internal_update_mirror.go-18f7f446-1.md) |
-| [magpie/internal/update/notes.go](../../magpie/internal/update/notes.go) | 22 | [1](magpie_internal_update_notes.go-fc515a99-1.md) |
+| [magpie/internal/update/notes.go](../../magpie/internal/update/notes.go) | 26 | [1](magpie_internal_update_notes.go-fc515a99-1.md) |
 | [magpie/internal/update/proc_unix.go](../../magpie/internal/update/proc_unix.go) | 4 | [1](magpie_internal_update_proc_unix.go-a58ed172-1.md) |
 | [magpie/internal/update/proc_windows.go](../../magpie/internal/update/proc_windows.go) | 10 | [1](magpie_internal_update_proc_windows.go-d781a75d-1.md) |
 | [magpie/internal/update/readonly_darwin.go](../../magpie/internal/update/readonly_darwin.go) | 1 | [1](magpie_internal_update_readonly_darwin.go-4dc9df1a-1.md) |
 | [magpie/internal/update/readonly_other.go](../../magpie/internal/update/readonly_other.go) | 1 | [1](magpie_internal_update_readonly_other.go-6260b56d-1.md) |
 | [magpie/internal/update/relink.go](../../magpie/internal/update/relink.go) | 3 | [1](magpie_internal_update_relink.go-87621e67-1.md) |
-| [magpie/internal/update/update.go](../../magpie/internal/update/update.go) | 96 | [1](magpie_internal_update_update.go-4fcab1bc-1.md) |
+| [magpie/internal/update/shellfn.go](../../magpie/internal/update/shellfn.go) | 20 | [1](magpie_internal_update_shellfn.go-936a44e0-1.md) |
+| [magpie/internal/update/shellfn_other.go](../../magpie/internal/update/shellfn_other.go) | 1 | [1](magpie_internal_update_shellfn_other.go-568e2696-1.md) |
+| [magpie/internal/update/shellfn_windows.go](../../magpie/internal/update/shellfn_windows.go) | 5 | [1](magpie_internal_update_shellfn_windows.go-ecac8a44-1.md) |
+| [magpie/internal/update/update.go](../../magpie/internal/update/update.go) | 107 | [1](magpie_internal_update_update.go-4fcab1bc-1.md) [2](magpie_internal_update_update.go-4fcab1bc-2.md) |
 | [magpie/main.go](../../magpie/main.go) | 2 | [1](magpie_main.go-2c61a47a-1.md) |

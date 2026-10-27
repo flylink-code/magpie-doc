@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/chat.go) · page 1/2
 
-Source SHA-256: d5731bbb4d01f8ee065df349821e885395ce3f3359433e2c2c7c2781f62c22ae
+Source SHA-256: b57e3843230e88175c5a017825124c105b47a494fcee950d997aeb88486dd629
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -48,63 +48,63 @@ Source SHA-256: d5731bbb4d01f8ee065df349821e885395ce3f3359433e2c2c7c2781f62c22ae
 | ResponseFormat | field_declaration | cRequest | [69](../../magpie/internal/gateway/chat.go#L69) |
 | AccessPrograms | field_declaration | cRequest | [73](../../magpie/internal/gateway/chat.go#L73) |
 | parseChat | function_declaration |  | [76](../../magpie/internal/gateway/chat.go#L76) |
-| Type | field_declaration | parseChat | [145](../../magpie/internal/gateway/chat.go#L145) |
-| Function | field_declaration | parseChat | [146](../../magpie/internal/gateway/chat.go#L146) |
-| Name | field_declaration | parseChat | [147](../../magpie/internal/gateway/chat.go#L147) |
-| chatParts | function_declaration |  | [158](../../magpie/internal/gateway/chat.go#L158) |
-| Type | field_declaration | chatParts | [167](../../magpie/internal/gateway/chat.go#L167) |
-| Text | field_declaration | chatParts | [168](../../magpie/internal/gateway/chat.go#L168) |
-| ImageURL | field_declaration | chatParts | [169](../../magpie/internal/gateway/chat.go#L169) |
-| URL | field_declaration | chatParts | [170](../../magpie/internal/gateway/chat.go#L170) |
-| File | field_declaration | chatParts | [172](../../magpie/internal/gateway/chat.go#L172) |
-| FileData | field_declaration | chatParts | [173](../../magpie/internal/gateway/chat.go#L173) |
-| FileID | field_declaration | chatParts | [174](../../magpie/internal/gateway/chat.go#L174) |
-| Filename | field_declaration | chatParts | [175](../../magpie/internal/gateway/chat.go#L175) |
-| chatFile | function_declaration |  | [201](../../magpie/internal/gateway/chat.go#L201) |
-| imagePart | function_declaration |  | [218](../../magpie/internal/gateway/chat.go#L218) |
-| dataURL | function_declaration |  | [228](../../magpie/internal/gateway/chat.go#L228) |
-| buildHost | function_declaration |  | [240](../../magpie/internal/gateway/chat.go#L240) |
-| failedAsText | var_spec |  | [256](../../magpie/internal/gateway/chat.go#L256) |
-| chatReplaysReasoning | function_declaration |  | [264](../../magpie/internal/gateway/chat.go#L264) |
-| buildChat | function_declaration |  | [268](../../magpie/internal/gateway/chat.go#L268) |
-| pairToolMessages | function_declaration |  | [562](../../magpie/internal/gateway/chat.go#L562) |
-| toolMsgID | function_declaration |  | [653](../../magpie/internal/gateway/chat.go#L653) |
-| emptyAssistant | function_declaration |  | [660](../../magpie/internal/gateway/chat.go#L660) |
-| silentAssistant | function_declaration |  | [680](../../magpie/internal/gateway/chat.go#L680) |
-| withoutSilentAssistants | function_declaration |  | [736](../../magpie/internal/gateway/chat.go#L736) |
-| joinedUserContent | function_declaration |  | [764](../../magpie/internal/gateway/chat.go#L764) |
-| aiStudioHost | const_spec |  | [798](../../magpie/internal/gateway/chat.go#L798) |
-| geminiCompat | function_declaration |  | [805](../../magpie/internal/gateway/chat.go#L805) |
-| thinkingEffort | function_declaration |  | [828](../../magpie/internal/gateway/chat.go#L828) |
-| ReasoningEffort | field_declaration | thinkingEffort | [833](../../magpie/internal/gateway/chat.go#L833) |
-| Thinking | field_declaration | thinkingEffort | [834](../../magpie/internal/gateway/chat.go#L834) |
-| thinkingConfigField | const_spec |  | [849](../../magpie/internal/gateway/chat.go#L849) |
-| gemini3Levels | var_spec |  | [854](../../magpie/internal/gateway/chat.go#L854) |
-| geminiLevelRefused | var_spec |  | [865](../../magpie/internal/gateway/chat.go#L865) |
-| geminiRefusedLevel | function_declaration |  | [869](../../magpie/internal/gateway/chat.go#L869) |
-| refusesThinkingConfig | function_declaration |  | [879](../../magpie/internal/gateway/chat.go#L879) |
-| aiStudioThinking | function_declaration |  | [891](../../magpie/internal/gateway/chat.go#L891) |
-| cUsage | struct_type |  | [912](../../magpie/internal/gateway/chat.go#L912) |
-| PromptTokens | field_declaration | cUsage | [913](../../magpie/internal/gateway/chat.go#L913) |
-| CompletionTokens | field_declaration | cUsage | [914](../../magpie/internal/gateway/chat.go#L914) |
-| TotalTokens | field_declaration | cUsage | [915](../../magpie/internal/gateway/chat.go#L915) |
-| PromptTokensDetails | field_declaration | cUsage | [916](../../magpie/internal/gateway/chat.go#L916) |
-| CachedTokens | field_declaration | cUsage | [917](../../magpie/internal/gateway/chat.go#L917) |
-| CacheWriteTokens | field_declaration | cUsage | [918](../../magpie/internal/gateway/chat.go#L918) |
-| CompletionTokensDetails | field_declaration | cUsage | [920](../../magpie/internal/gateway/chat.go#L920) |
-| ReasoningTokens | field_declaration | cUsage | [921](../../magpie/internal/gateway/chat.go#L921) |
-| PromptCacheHitTokens | field_declaration | cUsage | [926](../../magpie/internal/gateway/chat.go#L926) |
-| CachedTokens | field_declaration | cUsage | [927](../../magpie/internal/gateway/chat.go#L927) |
-| CacheReadInputTokens | field_declaration | cUsage | [928](../../magpie/internal/gateway/chat.go#L928) |
-| CacheCreationInputTokens | field_declaration | cUsage | [929](../../magpie/internal/gateway/chat.go#L929) |
-| Credit | field_declaration | cUsage | [931](../../magpie/internal/gateway/chat.go#L931) |
-| MagpieDeferred | field_declaration | cUsage | [936](../../magpie/internal/gateway/chat.go#L936) |
-| PromptTokens | field_declaration | cUsage | [937](../../magpie/internal/gateway/chat.go#L937) |
-| CompletionTokens | field_declaration | cUsage | [938](../../magpie/internal/gateway/chat.go#L938) |
-| CachedTokens | field_declaration | cUsage | [939](../../magpie/internal/gateway/chat.go#L939) |
-| CacheWriteTokens | field_declaration | cUsage | [940](../../magpie/internal/gateway/chat.go#L940) |
-| usage | method_declaration | cUsage | [944](../../magpie/internal/gateway/chat.go#L944) |
-| chat | method_declaration | Usage | [978](../../magpie/internal/gateway/chat.go#L978) |
-| chatDecoder | struct_type |  | [987](../../magpie/internal/gateway/chat.go#L987) |
-| started | field_declaration | chatDecoder | [988](../../magpie/internal/gateway/chat.go#L988) |
-| tool | field_declaration | chatDecoder | [989](../../magpie/internal/gateway/chat.go#L989) |
+| readChat | function_declaration |  | [83](../../magpie/internal/gateway/chat.go#L83) |
+| Type | field_declaration | readChat | [164](../../magpie/internal/gateway/chat.go#L164) |
+| Function | field_declaration | readChat | [165](../../magpie/internal/gateway/chat.go#L165) |
+| Name | field_declaration | readChat | [166](../../magpie/internal/gateway/chat.go#L166) |
+| chatParts | function_declaration |  | [177](../../magpie/internal/gateway/chat.go#L177) |
+| Type | field_declaration | chatParts | [186](../../magpie/internal/gateway/chat.go#L186) |
+| Text | field_declaration | chatParts | [187](../../magpie/internal/gateway/chat.go#L187) |
+| ImageURL | field_declaration | chatParts | [188](../../magpie/internal/gateway/chat.go#L188) |
+| URL | field_declaration | chatParts | [189](../../magpie/internal/gateway/chat.go#L189) |
+| Detail | field_declaration | chatParts | [190](../../magpie/internal/gateway/chat.go#L190) |
+| File | field_declaration | chatParts | [192](../../magpie/internal/gateway/chat.go#L192) |
+| FileData | field_declaration | chatParts | [193](../../magpie/internal/gateway/chat.go#L193) |
+| FileID | field_declaration | chatParts | [194](../../magpie/internal/gateway/chat.go#L194) |
+| Filename | field_declaration | chatParts | [195](../../magpie/internal/gateway/chat.go#L195) |
+| chatFile | function_declaration |  | [223](../../magpie/internal/gateway/chat.go#L223) |
+| imagePart | function_declaration |  | [240](../../magpie/internal/gateway/chat.go#L240) |
+| chatImage | function_declaration |  | [253](../../magpie/internal/gateway/chat.go#L253) |
+| chatDetail | function_declaration |  | [262](../../magpie/internal/gateway/chat.go#L262) |
+| responsesDetail | function_declaration |  | [274](../../magpie/internal/gateway/chat.go#L274) |
+| dataURL | function_declaration |  | [282](../../magpie/internal/gateway/chat.go#L282) |
+| buildHost | function_declaration |  | [294](../../magpie/internal/gateway/chat.go#L294) |
+| failedAsText | var_spec |  | [310](../../magpie/internal/gateway/chat.go#L310) |
+| chatReplaysReasoning | function_declaration |  | [318](../../magpie/internal/gateway/chat.go#L318) |
+| buildChat | function_declaration |  | [322](../../magpie/internal/gateway/chat.go#L322) |
+| pairToolMessages | function_declaration |  | [616](../../magpie/internal/gateway/chat.go#L616) |
+| contentText | function_declaration |  | [708](../../magpie/internal/gateway/chat.go#L708) |
+| toolMsgID | function_declaration |  | [727](../../magpie/internal/gateway/chat.go#L727) |
+| emptyAssistant | function_declaration |  | [734](../../magpie/internal/gateway/chat.go#L734) |
+| silentAssistant | function_declaration |  | [754](../../magpie/internal/gateway/chat.go#L754) |
+| withoutSilentAssistants | function_declaration |  | [810](../../magpie/internal/gateway/chat.go#L810) |
+| joinedUserContent | function_declaration |  | [838](../../magpie/internal/gateway/chat.go#L838) |
+| aiStudioHost | const_spec |  | [872](../../magpie/internal/gateway/chat.go#L872) |
+| geminiCompat | function_declaration |  | [879](../../magpie/internal/gateway/chat.go#L879) |
+| thinkingEffort | function_declaration |  | [902](../../magpie/internal/gateway/chat.go#L902) |
+| ReasoningEffort | field_declaration | thinkingEffort | [907](../../magpie/internal/gateway/chat.go#L907) |
+| Thinking | field_declaration | thinkingEffort | [908](../../magpie/internal/gateway/chat.go#L908) |
+| thinkingConfigField | const_spec |  | [923](../../magpie/internal/gateway/chat.go#L923) |
+| gemini3Levels | var_spec |  | [928](../../magpie/internal/gateway/chat.go#L928) |
+| geminiLevelRefused | var_spec |  | [939](../../magpie/internal/gateway/chat.go#L939) |
+| geminiRefusedLevel | function_declaration |  | [943](../../magpie/internal/gateway/chat.go#L943) |
+| refusesThinkingConfig | function_declaration |  | [953](../../magpie/internal/gateway/chat.go#L953) |
+| aiStudioThinking | function_declaration |  | [965](../../magpie/internal/gateway/chat.go#L965) |
+| cUsage | struct_type |  | [986](../../magpie/internal/gateway/chat.go#L986) |
+| PromptTokens | field_declaration | cUsage | [987](../../magpie/internal/gateway/chat.go#L987) |
+| CompletionTokens | field_declaration | cUsage | [988](../../magpie/internal/gateway/chat.go#L988) |
+| TotalTokens | field_declaration | cUsage | [989](../../magpie/internal/gateway/chat.go#L989) |
+| PromptTokensDetails | field_declaration | cUsage | [990](../../magpie/internal/gateway/chat.go#L990) |
+| CachedTokens | field_declaration | cUsage | [991](../../magpie/internal/gateway/chat.go#L991) |
+| CacheWriteTokens | field_declaration | cUsage | [992](../../magpie/internal/gateway/chat.go#L992) |
+| CompletionTokensDetails | field_declaration | cUsage | [994](../../magpie/internal/gateway/chat.go#L994) |
+| ReasoningTokens | field_declaration | cUsage | [995](../../magpie/internal/gateway/chat.go#L995) |
+| PromptCacheHitTokens | field_declaration | cUsage | [1000](../../magpie/internal/gateway/chat.go#L1000) |
+| CachedTokens | field_declaration | cUsage | [1001](../../magpie/internal/gateway/chat.go#L1001) |
+| CacheReadInputTokens | field_declaration | cUsage | [1002](../../magpie/internal/gateway/chat.go#L1002) |
+| CacheCreationInputTokens | field_declaration | cUsage | [1003](../../magpie/internal/gateway/chat.go#L1003) |
+| Credit | field_declaration | cUsage | [1005](../../magpie/internal/gateway/chat.go#L1005) |
+| MagpieDeferred | field_declaration | cUsage | [1010](../../magpie/internal/gateway/chat.go#L1010) |
+| PromptTokens | field_declaration | cUsage | [1011](../../magpie/internal/gateway/chat.go#L1011) |
+| CompletionTokens | field_declaration | cUsage | [1012](../../magpie/internal/gateway/chat.go#L1012) |
+| CachedTokens | field_declaration | cUsage | [1013](../../magpie/internal/gateway/chat.go#L1013) |

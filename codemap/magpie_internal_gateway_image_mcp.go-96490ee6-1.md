@@ -4,94 +4,100 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/image_mcp.go) · page 1/1
 
-Source SHA-256: 7453a9628219c3fb52088c09554f31069ed96f4a89ab21541cde33a4ea94990b
+Source SHA-256: e9140648c9111560343764d60feaaa60d73d31145916a7d984208eb111e27d28
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ImageMCPPath | const_spec |  | [40](../../magpie/internal/gateway/image_mcp.go#L40) |
 | ImageMCPFiles | const_spec |  | [43](../../magpie/internal/gateway/image_mcp.go#L43) |
-| GenerateImageTool | const_spec |  | [47](../../magpie/internal/gateway/image_mcp.go#L47) |
-| GenerateVideoTool | const_spec |  | [48](../../magpie/internal/gateway/image_mcp.go#L48) |
-| GenerationResultTool | const_spec |  | [49](../../magpie/internal/gateway/image_mcp.go#L49) |
-| ImageToolProps | function_declaration |  | [54](../../magpie/internal/gateway/image_mcp.go#L54) |
-| VideoToolProps | function_declaration |  | [68](../../magpie/internal/gateway/image_mcp.go#L68) |
-| ResultToolProps | function_declaration |  | [79](../../magpie/internal/gateway/image_mcp.go#L79) |
-| imageMCPWithin | var_spec |  | [88](../../magpie/internal/gateway/image_mcp.go#L88) |
-| imageMCPPoll | var_spec |  | [91](../../magpie/internal/gateway/image_mcp.go#L91) |
-| imageMCPKeep | const_spec |  | [95](../../magpie/internal/gateway/image_mcp.go#L95) |
-| imageMCPFilesMost | const_spec |  | [98](../../magpie/internal/gateway/image_mcp.go#L98) |
-| imageMCPInline | const_spec |  | [100](../../magpie/internal/gateway/image_mcp.go#L100) |
-| imageMCPJobMost | const_spec |  | [102](../../magpie/internal/gateway/image_mcp.go#L102) |
-| imageMCPFrom | const_spec |  | [105](../../magpie/internal/gateway/image_mcp.go#L105) |
-| imageMCPTools | function_declaration |  | [107](../../magpie/internal/gateway/image_mcp.go#L107) |
-| imageMCPStore | struct_type |  | [143](../../magpie/internal/gateway/image_mcp.go#L143) |
-| mu | field_declaration | imageMCPStore | [144](../../magpie/internal/gateway/image_mcp.go#L144) |
-| jobs | field_declaration | imageMCPStore | [145](../../magpie/internal/gateway/image_mcp.go#L145) |
-| files | field_declaration | imageMCPStore | [146](../../magpie/internal/gateway/image_mcp.go#L146) |
-| order | field_declaration | imageMCPStore | [147](../../magpie/internal/gateway/image_mcp.go#L147) |
-| bytes | field_declaration | imageMCPStore | [148](../../magpie/internal/gateway/image_mcp.go#L148) |
-| running | field_declaration | imageMCPStore | [149](../../magpie/internal/gateway/image_mcp.go#L149) |
-| imageJob | struct_type |  | [154](../../magpie/internal/gateway/image_mcp.go#L154) |
-| id | field_declaration | imageJob | [155](../../magpie/internal/gateway/image_mcp.go#L155) |
-| key | field_declaration | imageJob | [155](../../magpie/internal/gateway/image_mcp.go#L155) |
-| started | field_declaration | imageJob | [156](../../magpie/internal/gateway/image_mcp.go#L156) |
-| done | field_declaration | imageJob | [157](../../magpie/internal/gateway/image_mcp.go#L157) |
-| result | field_declaration | imageJob | [158](../../magpie/internal/gateway/image_mcp.go#L158) |
-| imageFile | struct_type |  | [161](../../magpie/internal/gateway/image_mcp.go#L161) |
-| data | field_declaration | imageFile | [162](../../magpie/internal/gateway/image_mcp.go#L162) |
-| mime | field_declaration | imageFile | [163](../../magpie/internal/gateway/image_mcp.go#L163) |
-| key | field_declaration | imageFile | [163](../../magpie/internal/gateway/image_mcp.go#L163) |
-| made | field_declaration | imageFile | [164](../../magpie/internal/gateway/image_mcp.go#L164) |
-| imageMCP | method_declaration | *Server | [167](../../magpie/internal/gateway/image_mcp.go#L167) |
-| imageMCPCall | method_declaration | *Server | [172](../../magpie/internal/gateway/image_mcp.go#L172) |
-| Name | field_declaration | *Server.imageMCPCall | [187](../../magpie/internal/gateway/image_mcp.go#L187) |
-| Arguments | field_declaration | *Server.imageMCPCall | [188](../../magpie/internal/gateway/image_mcp.go#L188) |
-| ID | field_declaration | *Server.imageMCPCall | [200](../../magpie/internal/gateway/image_mcp.go#L200) |
-| imageGenOff | function_declaration |  | [212](../../magpie/internal/gateway/image_mcp.go#L212) |
-| imageMCPDraw | method_declaration | *Server | [221](../../magpie/internal/gateway/image_mcp.go#L221) |
-| Prompt | field_declaration | *Server.imageMCPDraw | [226](../../magpie/internal/gateway/image_mcp.go#L226) |
-| Size | field_declaration | *Server.imageMCPDraw | [227](../../magpie/internal/gateway/image_mcp.go#L227) |
-| N | field_declaration | *Server.imageMCPDraw | [228](../../magpie/internal/gateway/image_mcp.go#L228) |
-| References | field_declaration | *Server.imageMCPDraw | [229](../../magpie/internal/gateway/image_mcp.go#L229) |
-| Quality | field_declaration | *Server.imageMCPDraw | [230](../../magpie/internal/gateway/image_mcp.go#L230) |
-| Background | field_declaration | *Server.imageMCPDraw | [231](../../magpie/internal/gateway/image_mcp.go#L231) |
-| imageMCPDrawn | method_declaration | *Server | [286](../../magpie/internal/gateway/image_mcp.go#L286) |
-| Model | field_declaration | *Server.imageMCPDrawn | [288](../../magpie/internal/gateway/image_mcp.go#L288) |
-| Data | field_declaration | *Server.imageMCPDrawn | [289](../../magpie/internal/gateway/image_mcp.go#L289) |
-| B64 | field_declaration | *Server.imageMCPDrawn | [290](../../magpie/internal/gateway/image_mcp.go#L290) |
-| URL | field_declaration | *Server.imageMCPDrawn | [291](../../magpie/internal/gateway/image_mcp.go#L291) |
-| Mime | field_declaration | *Server.imageMCPDrawn | [292](../../magpie/internal/gateway/image_mcp.go#L292) |
-| Revised | field_declaration | *Server.imageMCPDrawn | [293](../../magpie/internal/gateway/image_mcp.go#L293) |
-| Text | field_declaration | *Server.imageMCPDrawn | [295](../../magpie/internal/gateway/image_mcp.go#L295) |
-| imageMCPFilm | method_declaration | *Server | [373](../../magpie/internal/gateway/image_mcp.go#L373) |
-| Prompt | field_declaration | *Server.imageMCPFilm | [378](../../magpie/internal/gateway/image_mcp.go#L378) |
-| Seconds | field_declaration | *Server.imageMCPFilm | [379](../../magpie/internal/gateway/image_mcp.go#L379) |
-| Size | field_declaration | *Server.imageMCPFilm | [380](../../magpie/internal/gateway/image_mcp.go#L380) |
-| Image | field_declaration | *Server.imageMCPFilm | [381](../../magpie/internal/gateway/image_mcp.go#L381) |
-| References | field_declaration | *Server.imageMCPFilm | [382](../../magpie/internal/gateway/image_mcp.go#L382) |
-| ID | field_declaration | *Server.imageMCPFilm | [443](../../magpie/internal/gateway/image_mcp.go#L443) |
-| imageMCPVideo | method_declaration | *Server | [453](../../magpie/internal/gateway/image_mcp.go#L453) |
-| Status | field_declaration | *Server.imageMCPVideo | [465](../../magpie/internal/gateway/image_mcp.go#L465) |
-| Model | field_declaration | *Server.imageMCPVideo | [466](../../magpie/internal/gateway/image_mcp.go#L466) |
-| Seconds | field_declaration | *Server.imageMCPVideo | [467](../../magpie/internal/gateway/image_mcp.go#L467) |
-| Error | field_declaration | *Server.imageMCPVideo | [468](../../magpie/internal/gateway/image_mcp.go#L468) |
-| Message | field_declaration | *Server.imageMCPVideo | [469](../../magpie/internal/gateway/image_mcp.go#L469) |
-| imageMCPResult | method_declaration | *Server | [501](../../magpie/internal/gateway/image_mcp.go#L501) |
-| imageMCPStart | method_declaration | *Server | [519](../../magpie/internal/gateway/image_mcp.go#L519) |
-| imageMCPAwait | method_declaration | *Server | [547](../../magpie/internal/gateway/image_mcp.go#L547) |
-| imageMCPKeepFile | method_declaration | *Server | [561](../../magpie/internal/gateway/image_mcp.go#L561) |
-| imageMCPFile | method_declaration | *Server | [583](../../magpie/internal/gateway/image_mcp.go#L583) |
-| imageMCPBase | function_declaration |  | [621](../../magpie/internal/gateway/image_mcp.go#L621) |
-| inProcess | function_declaration |  | [634](../../magpie/internal/gateway/image_mcp.go#L634) |
-| replyRecorder | struct_type |  | [657](../../magpie/internal/gateway/image_mcp.go#L657) |
-| header | field_declaration | replyRecorder | [658](../../magpie/internal/gateway/image_mcp.go#L658) |
-| status | field_declaration | replyRecorder | [659](../../magpie/internal/gateway/image_mcp.go#L659) |
-| body | field_declaration | replyRecorder | [660](../../magpie/internal/gateway/image_mcp.go#L660) |
-| Header | method_declaration | *replyRecorder | [663](../../magpie/internal/gateway/image_mcp.go#L663) |
-| WriteHeader | method_declaration | *replyRecorder | [665](../../magpie/internal/gateway/image_mcp.go#L665) |
-| Write | method_declaration | *replyRecorder | [671](../../magpie/internal/gateway/image_mcp.go#L671) |
-| code | method_declaration | *replyRecorder | [681](../../magpie/internal/gateway/image_mcp.go#L681) |
-| imageMCPSaid | function_declaration |  | [690](../../magpie/internal/gateway/image_mcp.go#L690) |
-| Error | field_declaration | imageMCPSaid | [692](../../magpie/internal/gateway/image_mcp.go#L692) |
-| Message | field_declaration | imageMCPSaid | [693](../../magpie/internal/gateway/image_mcp.go#L693) |
-| randomHex | function_declaration |  | [706](../../magpie/internal/gateway/image_mcp.go#L706) |
+| PendingMeta | const_spec |  | [50](../../magpie/internal/gateway/image_mcp.go#L50) |
+| FilesMeta | const_spec |  | [51](../../magpie/internal/gateway/image_mcp.go#L51) |
+| MadeFile | struct_type |  | [55](../../magpie/internal/gateway/image_mcp.go#L55) |
+| URL | field_declaration | MadeFile | [56](../../magpie/internal/gateway/image_mcp.go#L56) |
+| Inline | field_declaration | MadeFile | [57](../../magpie/internal/gateway/image_mcp.go#L57) |
+| withMeta | function_declaration |  | [61](../../magpie/internal/gateway/image_mcp.go#L61) |
+| GenerateImageTool | const_spec |  | [68](../../magpie/internal/gateway/image_mcp.go#L68) |
+| GenerateVideoTool | const_spec |  | [69](../../magpie/internal/gateway/image_mcp.go#L69) |
+| GenerationResultTool | const_spec |  | [70](../../magpie/internal/gateway/image_mcp.go#L70) |
+| ImageToolProps | function_declaration |  | [75](../../magpie/internal/gateway/image_mcp.go#L75) |
+| VideoToolProps | function_declaration |  | [89](../../magpie/internal/gateway/image_mcp.go#L89) |
+| ResultToolProps | function_declaration |  | [100](../../magpie/internal/gateway/image_mcp.go#L100) |
+| imageMCPWithin | var_spec |  | [109](../../magpie/internal/gateway/image_mcp.go#L109) |
+| imageMCPPoll | var_spec |  | [112](../../magpie/internal/gateway/image_mcp.go#L112) |
+| imageMCPKeep | const_spec |  | [116](../../magpie/internal/gateway/image_mcp.go#L116) |
+| imageMCPFilesMost | const_spec |  | [119](../../magpie/internal/gateway/image_mcp.go#L119) |
+| imageMCPInline | const_spec |  | [121](../../magpie/internal/gateway/image_mcp.go#L121) |
+| imageMCPJobMost | const_spec |  | [123](../../magpie/internal/gateway/image_mcp.go#L123) |
+| imageMCPFrom | const_spec |  | [126](../../magpie/internal/gateway/image_mcp.go#L126) |
+| imageMCPTools | function_declaration |  | [128](../../magpie/internal/gateway/image_mcp.go#L128) |
+| imageMCPStore | struct_type |  | [164](../../magpie/internal/gateway/image_mcp.go#L164) |
+| mu | field_declaration | imageMCPStore | [165](../../magpie/internal/gateway/image_mcp.go#L165) |
+| jobs | field_declaration | imageMCPStore | [166](../../magpie/internal/gateway/image_mcp.go#L166) |
+| files | field_declaration | imageMCPStore | [167](../../magpie/internal/gateway/image_mcp.go#L167) |
+| order | field_declaration | imageMCPStore | [168](../../magpie/internal/gateway/image_mcp.go#L168) |
+| bytes | field_declaration | imageMCPStore | [169](../../magpie/internal/gateway/image_mcp.go#L169) |
+| running | field_declaration | imageMCPStore | [170](../../magpie/internal/gateway/image_mcp.go#L170) |
+| imageJob | struct_type |  | [175](../../magpie/internal/gateway/image_mcp.go#L175) |
+| id | field_declaration | imageJob | [176](../../magpie/internal/gateway/image_mcp.go#L176) |
+| key | field_declaration | imageJob | [176](../../magpie/internal/gateway/image_mcp.go#L176) |
+| started | field_declaration | imageJob | [177](../../magpie/internal/gateway/image_mcp.go#L177) |
+| done | field_declaration | imageJob | [178](../../magpie/internal/gateway/image_mcp.go#L178) |
+| result | field_declaration | imageJob | [179](../../magpie/internal/gateway/image_mcp.go#L179) |
+| imageFile | struct_type |  | [182](../../magpie/internal/gateway/image_mcp.go#L182) |
+| data | field_declaration | imageFile | [183](../../magpie/internal/gateway/image_mcp.go#L183) |
+| mime | field_declaration | imageFile | [184](../../magpie/internal/gateway/image_mcp.go#L184) |
+| key | field_declaration | imageFile | [184](../../magpie/internal/gateway/image_mcp.go#L184) |
+| made | field_declaration | imageFile | [185](../../magpie/internal/gateway/image_mcp.go#L185) |
+| imageMCP | method_declaration | *Server | [188](../../magpie/internal/gateway/image_mcp.go#L188) |
+| imageMCPCall | method_declaration | *Server | [193](../../magpie/internal/gateway/image_mcp.go#L193) |
+| Name | field_declaration | *Server.imageMCPCall | [208](../../magpie/internal/gateway/image_mcp.go#L208) |
+| Arguments | field_declaration | *Server.imageMCPCall | [209](../../magpie/internal/gateway/image_mcp.go#L209) |
+| ID | field_declaration | *Server.imageMCPCall | [221](../../magpie/internal/gateway/image_mcp.go#L221) |
+| imageGenOff | function_declaration |  | [233](../../magpie/internal/gateway/image_mcp.go#L233) |
+| imageMCPDraw | method_declaration | *Server | [242](../../magpie/internal/gateway/image_mcp.go#L242) |
+| Prompt | field_declaration | *Server.imageMCPDraw | [247](../../magpie/internal/gateway/image_mcp.go#L247) |
+| Size | field_declaration | *Server.imageMCPDraw | [248](../../magpie/internal/gateway/image_mcp.go#L248) |
+| N | field_declaration | *Server.imageMCPDraw | [249](../../magpie/internal/gateway/image_mcp.go#L249) |
+| References | field_declaration | *Server.imageMCPDraw | [250](../../magpie/internal/gateway/image_mcp.go#L250) |
+| Quality | field_declaration | *Server.imageMCPDraw | [251](../../magpie/internal/gateway/image_mcp.go#L251) |
+| Background | field_declaration | *Server.imageMCPDraw | [252](../../magpie/internal/gateway/image_mcp.go#L252) |
+| imageMCPDrawn | method_declaration | *Server | [307](../../magpie/internal/gateway/image_mcp.go#L307) |
+| Model | field_declaration | *Server.imageMCPDrawn | [309](../../magpie/internal/gateway/image_mcp.go#L309) |
+| Data | field_declaration | *Server.imageMCPDrawn | [310](../../magpie/internal/gateway/image_mcp.go#L310) |
+| B64 | field_declaration | *Server.imageMCPDrawn | [311](../../magpie/internal/gateway/image_mcp.go#L311) |
+| URL | field_declaration | *Server.imageMCPDrawn | [312](../../magpie/internal/gateway/image_mcp.go#L312) |
+| Mime | field_declaration | *Server.imageMCPDrawn | [313](../../magpie/internal/gateway/image_mcp.go#L313) |
+| Revised | field_declaration | *Server.imageMCPDrawn | [314](../../magpie/internal/gateway/image_mcp.go#L314) |
+| Text | field_declaration | *Server.imageMCPDrawn | [316](../../magpie/internal/gateway/image_mcp.go#L316) |
+| imageMCPFilm | method_declaration | *Server | [397](../../magpie/internal/gateway/image_mcp.go#L397) |
+| Prompt | field_declaration | *Server.imageMCPFilm | [402](../../magpie/internal/gateway/image_mcp.go#L402) |
+| Seconds | field_declaration | *Server.imageMCPFilm | [403](../../magpie/internal/gateway/image_mcp.go#L403) |
+| Size | field_declaration | *Server.imageMCPFilm | [404](../../magpie/internal/gateway/image_mcp.go#L404) |
+| Image | field_declaration | *Server.imageMCPFilm | [405](../../magpie/internal/gateway/image_mcp.go#L405) |
+| References | field_declaration | *Server.imageMCPFilm | [406](../../magpie/internal/gateway/image_mcp.go#L406) |
+| ID | field_declaration | *Server.imageMCPFilm | [467](../../magpie/internal/gateway/image_mcp.go#L467) |
+| imageMCPVideo | method_declaration | *Server | [477](../../magpie/internal/gateway/image_mcp.go#L477) |
+| Status | field_declaration | *Server.imageMCPVideo | [489](../../magpie/internal/gateway/image_mcp.go#L489) |
+| Model | field_declaration | *Server.imageMCPVideo | [490](../../magpie/internal/gateway/image_mcp.go#L490) |
+| Seconds | field_declaration | *Server.imageMCPVideo | [491](../../magpie/internal/gateway/image_mcp.go#L491) |
+| Error | field_declaration | *Server.imageMCPVideo | [492](../../magpie/internal/gateway/image_mcp.go#L492) |
+| Message | field_declaration | *Server.imageMCPVideo | [493](../../magpie/internal/gateway/image_mcp.go#L493) |
+| imageMCPResult | method_declaration | *Server | [526](../../magpie/internal/gateway/image_mcp.go#L526) |
+| imageMCPStart | method_declaration | *Server | [544](../../magpie/internal/gateway/image_mcp.go#L544) |
+| imageMCPAwait | method_declaration | *Server | [572](../../magpie/internal/gateway/image_mcp.go#L572) |
+| imageMCPKeepFile | method_declaration | *Server | [586](../../magpie/internal/gateway/image_mcp.go#L586) |
+| imageMCPFile | method_declaration | *Server | [608](../../magpie/internal/gateway/image_mcp.go#L608) |
+| imageMCPBase | function_declaration |  | [646](../../magpie/internal/gateway/image_mcp.go#L646) |
+| inProcess | function_declaration |  | [659](../../magpie/internal/gateway/image_mcp.go#L659) |
+| replyRecorder | struct_type |  | [682](../../magpie/internal/gateway/image_mcp.go#L682) |
+| header | field_declaration | replyRecorder | [683](../../magpie/internal/gateway/image_mcp.go#L683) |
+| status | field_declaration | replyRecorder | [684](../../magpie/internal/gateway/image_mcp.go#L684) |
+| body | field_declaration | replyRecorder | [685](../../magpie/internal/gateway/image_mcp.go#L685) |
+| Header | method_declaration | *replyRecorder | [688](../../magpie/internal/gateway/image_mcp.go#L688) |
+| WriteHeader | method_declaration | *replyRecorder | [690](../../magpie/internal/gateway/image_mcp.go#L690) |
+| Write | method_declaration | *replyRecorder | [696](../../magpie/internal/gateway/image_mcp.go#L696) |
+| code | method_declaration | *replyRecorder | [706](../../magpie/internal/gateway/image_mcp.go#L706) |
+| imageMCPSaid | function_declaration |  | [715](../../magpie/internal/gateway/image_mcp.go#L715) |
+| Error | field_declaration | imageMCPSaid | [717](../../magpie/internal/gateway/image_mcp.go#L717) |
+| Message | field_declaration | imageMCPSaid | [718](../../magpie/internal/gateway/image_mcp.go#L718) |
+| randomHex | function_declaration |  | [731](../../magpie/internal/gateway/image_mcp.go#L731) |

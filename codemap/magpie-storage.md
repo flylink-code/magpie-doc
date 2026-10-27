@@ -36,7 +36,7 @@
 | [magpie/internal/edit/jsonarray.go](../../magpie/internal/edit/jsonarray.go) | 8 | [1](magpie_internal_edit_jsonarray.go-f17013c9-1.md) |
 | [magpie/internal/edit/text.go](../../magpie/internal/edit/text.go) | 9 | [1](magpie_internal_edit_text.go-ebbf6c5d-1.md) |
 | [magpie/internal/edit/toml.go](../../magpie/internal/edit/toml.go) | 64 | [1](magpie_internal_edit_toml.go-ce82c1a2-1.md) |
-| [magpie/internal/edit/toml_array.go](../../magpie/internal/edit/toml_array.go) | 10 | [1](magpie_internal_edit_toml_array.go-269a1158-1.md) |
+| [magpie/internal/edit/toml_array.go](../../magpie/internal/edit/toml_array.go) | 11 | [1](magpie_internal_edit_toml_array.go-269a1158-1.md) |
 | [magpie/internal/edit/yaml.go](../../magpie/internal/edit/yaml.go) | 23 | [1](magpie_internal_edit_yaml.go-f5a90626-1.md) |
 | [magpie/internal/edit/yaml_top.go](../../magpie/internal/edit/yaml_top.go) | 14 | [1](magpie_internal_edit_yaml_top.go-3f8a1cb3-1.md) |
 | [magpie/internal/filelock/filelock.go](../../magpie/internal/filelock/filelock.go) | 10 | [1](magpie_internal_filelock_filelock.go-fe92a5bb-1.md) |
@@ -54,7 +54,7 @@
 | [magpie/internal/settings/migrate.go](../../magpie/internal/settings/migrate.go) | 2 | [1](magpie_internal_settings_migrate.go-8e52394e-1.md) |
 | [magpie/internal/settings/origins.go](../../magpie/internal/settings/origins.go) | 4 | [1](magpie_internal_settings_origins.go-73025a20-1.md) |
 | [magpie/internal/settings/otel.go](../../magpie/internal/settings/otel.go) | 13 | [1](magpie_internal_settings_otel.go-cf22fa17-1.md) |
-| [magpie/internal/settings/settings.go](../../magpie/internal/settings/settings.go) | 225 | [1](magpie_internal_settings_settings.go-df15a1ce-1.md) [2](magpie_internal_settings_settings.go-df15a1ce-2.md) [3](magpie_internal_settings_settings.go-df15a1ce-3.md) |
+| [magpie/internal/settings/settings.go](../../magpie/internal/settings/settings.go) | 231 | [1](magpie_internal_settings_settings.go-df15a1ce-1.md) [2](magpie_internal_settings_settings.go-df15a1ce-2.md) [3](magpie_internal_settings_settings.go-df15a1ce-3.md) |
 | [magpie/internal/source/source.go](../../magpie/internal/source/source.go) | 21 | [1](magpie_internal_source_source.go-4f7752bd-1.md) |
 | [magpie/internal/sqlitedb/sqlitedb.go](../../magpie/internal/sqlitedb/sqlitedb.go) | 2 | [1](magpie_internal_sqlitedb_sqlitedb.go-3bb8d978-1.md) |
 | [magpie/internal/steady/steady.go](../../magpie/internal/steady/steady.go) | 15 | [1](magpie_internal_steady_steady.go-e66bbf3b-1.md) |

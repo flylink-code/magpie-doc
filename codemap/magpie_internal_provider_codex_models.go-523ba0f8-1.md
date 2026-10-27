@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_models.go) · page 1/1
 
-Source SHA-256: 597f7a5307e2c112e3cdf5ae9e4a1aa299acb5ddc83557b514b4c749986961c4
+Source SHA-256: 79ec80cc27cf988fcbbaa903d8884a93a0c94c952e025148654b034d4d21162b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -56,3 +56,4 @@ Source SHA-256: 597f7a5307e2c112e3cdf5ae9e4a1aa299acb5ddc83557b514b4c749986961c4
 | codexWindowsTag | function_declaration |  | [627](../../magpie/internal/provider/codex_models.go#L627) |
 | codexListed | function_declaration |  | [640](../../magpie/internal/provider/codex_models.go#L640) |
 | CodexTiers | function_declaration |  | [664](../../magpie/internal/provider/codex_models.go#L664) |
+| codexFastTier | const_spec |  | [703](../../magpie/internal/provider/codex_models.go#L703) |

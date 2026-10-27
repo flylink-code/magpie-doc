@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 2/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,86 +25,86 @@ Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
 | u | VariableDeclaration | quotaWho | [364](../../magpie/internal/gui/assets/plugins/usage/page.js#L364) |
 | u | VariableDeclaration | quotaWho | [369](../../magpie/internal/gui/assets/plugins/usage/page.js#L369) |
 | s | VariableDeclaration | quotaWho | [374](../../magpie/internal/gui/assets/plugins/usage/page.js#L374) |
-| ownCalls | FunctionDeclaration |  | [381](../../magpie/internal/gui/assets/plugins/usage/page.js#L381) |
-| quotaReadings | FunctionDeclaration |  | [387](../../magpie/internal/gui/assets/plugins/usage/page.js#L387) |
-| pts | VariableDeclaration | quotaReadings | [388](../../magpie/internal/gui/assets/plugins/usage/page.js#L388) |
-| fitChartLabels | FunctionDeclaration |  | [393](../../magpie/internal/gui/assets/plugins/usage/page.js#L393) |
-| narrow | VariableDeclaration | fitChartLabels | [394](../../magpie/internal/gui/assets/plugins/usage/page.js#L394) |
-| labels | VariableDeclaration | fitChartLabels | [395](../../magpie/internal/gui/assets/plugins/usage/page.js#L395) |
-| spans | VariableDeclaration | fitChartLabels | [396](../../magpie/internal/gui/assets/plugins/usage/page.js#L396) |
-| span | VariableDeclaration | fitChartLabels | [397](../../magpie/internal/gui/assets/plugins/usage/page.js#L397) |
-| box | VariableDeclaration | fitChartLabels | [399](../../magpie/internal/gui/assets/plugins/usage/page.js#L399) |
-| right | VariableDeclaration | fitChartLabels | [400](../../magpie/internal/gui/assets/plugins/usage/page.js#L400) |
-| span | VariableDeclaration | fitChartLabels | [401](../../magpie/internal/gui/assets/plugins/usage/page.js#L401) |
-| range | VariableDeclaration | fitChartLabels | [403](../../magpie/internal/gui/assets/plugins/usage/page.js#L403) |
-| r | VariableDeclaration | fitChartLabels | [405](../../magpie/internal/gui/assets/plugins/usage/page.js#L405) |
-| usageFolded | VariableDeclaration |  | [416](../../magpie/internal/gui/assets/plugins/usage/page.js#L416) |
-| USAGE_FOLDS | VariableDeclaration |  | [418](../../magpie/internal/gui/assets/plugins/usage/page.js#L418) |
-| USAGE_FOLD_TITLES | VariableDeclaration |  | [419](../../magpie/internal/gui/assets/plugins/usage/page.js#L419) |
-| mountUsageFolds | FunctionDeclaration |  | [425](../../magpie/internal/gui/assets/plugins/usage/page.js#L425) |
-| b | VariableDeclaration | mountUsageFolds | [426](../../magpie/internal/gui/assets/plugins/usage/page.js#L426) |
-| id | VariableDeclaration | mountUsageFolds | [429](../../magpie/internal/gui/assets/plugins/usage/page.js#L429) |
-| showUsageFolds | FunctionDeclaration |  | [440](../../magpie/internal/gui/assets/plugins/usage/page.js#L440) |
-| b | VariableDeclaration | showUsageFolds | [441](../../magpie/internal/gui/assets/plugins/usage/page.js#L441) |
-| id | VariableDeclaration | showUsageFolds | [442](../../magpie/internal/gui/assets/plugins/usage/page.js#L442) |
-| folded | VariableDeclaration | showUsageFolds | [442](../../magpie/internal/gui/assets/plugins/usage/page.js#L442) |
-| box | VariableDeclaration | showUsageFolds | [445](../../magpie/internal/gui/assets/plugins/usage/page.js#L445) |
-| usageParts | FunctionDeclaration |  | [451](../../magpie/internal/gui/assets/plugins/usage/page.js#L451) |
-| out | VariableDeclaration | usageParts | [452](../../magpie/internal/gui/assets/plugins/usage/page.js#L452) |
-| x | VariableDeclaration | usageParts | [453](../../magpie/internal/gui/assets/plugins/usage/page.js#L453) |
-| usageWithCache | VariableDeclaration |  | [461](../../magpie/internal/gui/assets/plugins/usage/page.js#L461) |
-| cacheOf | VariableDeclaration |  | [463](../../magpie/internal/gui/assets/plugins/usage/page.js#L463) |
-| usageTokens | VariableDeclaration |  | [464](../../magpie/internal/gui/assets/plugins/usage/page.js#L464) |
-| usageTokensPick | FunctionDeclaration |  | [466](../../magpie/internal/gui/assets/plugins/usage/page.js#L466) |
-| b | VariableDeclaration | usageTokensPick | [467](../../magpie/internal/gui/assets/plugins/usage/page.js#L467) |
-| renderUsage | FunctionDeclaration |  | [487](../../magpie/internal/gui/assets/plugins/usage/page.js#L487) |
-| u | VariableDeclaration | renderUsage | [488](../../magpie/internal/gui/assets/plugins/usage/page.js#L488) |
-| view | VariableDeclaration | renderUsage | [489](../../magpie/internal/gui/assets/plugins/usage/page.js#L489) |
-| stats | VariableDeclaration | renderUsage | [496](../../magpie/internal/gui/assets/plugins/usage/page.js#L496) |
-| empty | VariableDeclaration | renderUsage | [498](../../magpie/internal/gui/assets/plugins/usage/page.js#L498) |
-| id | VariableDeclaration | renderUsage | [500](../../magpie/internal/gui/assets/plugins/usage/page.js#L500) |
-| h | VariableDeclaration | renderUsage | [502](../../magpie/internal/gui/assets/plugins/usage/page.js#L502) |
-| none | VariableDeclaration | renderUsage | [508](../../magpie/internal/gui/assets/plugins/usage/page.js#L508) |
-| tile | VariableDeclaration | renderUsage | [514](../../magpie/internal/gui/assets/plugins/usage/page.js#L514) |
-| t | VariableDeclaration | renderUsage.tile | [515](../../magpie/internal/gui/assets/plugins/usage/page.js#L515) |
-| s | VariableDeclaration | renderUsage.tile | [521](../../magpie/internal/gui/assets/plugins/usage/page.js#L521) |
-| hitRate | VariableDeclaration | renderUsage | [535](../../magpie/internal/gui/assets/plugins/usage/page.js#L535) |
-| hit | VariableDeclaration | renderUsage | [536](../../magpie/internal/gui/assets/plugins/usage/page.js#L536) |
-| chart | VariableDeclaration | renderUsage | [542](../../magpie/internal/gui/assets/plugins/usage/page.js#L542) |
-| bars | VariableDeclaration | renderUsage | [544](../../magpie/internal/gui/assets/plugins/usage/page.js#L544) |
-| peak | VariableDeclaration | renderUsage | [545](../../magpie/internal/gui/assets/plugins/usage/page.js#L545) |
-| labels | VariableDeclaration | renderUsage | [546](../../magpie/internal/gui/assets/plugins/usage/page.js#L546) |
-| n | VariableDeclaration | renderUsage | [547](../../magpie/internal/gui/assets/plugins/usage/page.js#L547) |
-| every | VariableDeclaration | renderUsage | [548](../../magpie/internal/gui/assets/plugins/usage/page.js#L548) |
-| dayOf | VariableDeclaration | renderUsage | [550](../../magpie/internal/gui/assets/plugins/usage/page.js#L550) |
-| b | VariableDeclaration | renderUsage | [552](../../magpie/internal/gui/assets/plugins/usage/page.js#L552) |
-| inp | VariableDeclaration | renderUsage | [553](../../magpie/internal/gui/assets/plugins/usage/page.js#L553) |
-| out | VariableDeclaration | renderUsage | [553](../../magpie/internal/gui/assets/plugins/usage/page.js#L553) |
-| when | VariableDeclaration | renderUsage | [558](../../magpie/internal/gui/assets/plugins/usage/page.js#L558) |
-| last | VariableDeclaration | renderUsage | [561](../../magpie/internal/gui/assets/plugins/usage/page.js#L561) |
-| total | VariableDeclaration | renderUsage | [567](../../magpie/internal/gui/assets/plugins/usage/page.js#L567) |
-| list | VariableDeclaration | renderUsage | [568](../../magpie/internal/gui/assets/plugins/usage/page.js#L568) |
-| box | VariableDeclaration | renderUsage.list | [569](../../magpie/internal/gui/assets/plugins/usage/page.js#L569) |
-| g | VariableDeclaration | renderUsage.list | [571](../../magpie/internal/gui/assets/plugins/usage/page.js#L571) |
-| r | VariableDeclaration | renderUsage.list | [572](../../magpie/internal/gui/assets/plugins/usage/page.js#L572) |
-| who | VariableDeclaration | renderUsage.list | [575](../../magpie/internal/gui/assets/plugins/usage/page.js#L575) |
-| sub | VariableDeclaration | renderUsage.list | [577](../../magpie/internal/gui/assets/plugins/usage/page.js#L577) |
-| gs | VariableDeclaration | renderUsage.list | [594](../../magpie/internal/gui/assets/plugins/usage/page.js#L594) |
-| subLine | VariableDeclaration | renderUsage.list | [596](../../magpie/internal/gui/assets/plugins/usage/page.js#L596) |
-| share | VariableDeclaration | renderUsage.list | [600](../../magpie/internal/gui/assets/plugins/usage/page.js#L600) |
-| fill | VariableDeclaration | renderUsage.list | [601](../../magpie/internal/gui/assets/plugins/usage/page.js#L601) |
-| num | VariableDeclaration | renderUsage.list | [606](../../magpie/internal/gui/assets/plugins/usage/page.js#L606) |
-| hitRate | VariableDeclaration | renderUsage.list | [609](../../magpie/internal/gui/assets/plugins/usage/page.js#L609) |
-| hit | VariableDeclaration | renderUsage.list | [610](../../magpie/internal/gui/assets/plugins/usage/page.js#L610) |
-| hid | VariableDeclaration | renderUsage | [622](../../magpie/internal/gui/assets/plugins/usage/page.js#L622) |
-| hidden | VariableDeclaration | renderUsage | [623](../../magpie/internal/gui/assets/plugins/usage/page.js#L623) |
-| b | VariableDeclaration | renderUsage | [626](../../magpie/internal/gui/assets/plugins/usage/page.js#L626) |
-| counted | VariableDeclaration | renderUsage | [634](../../magpie/internal/gui/assets/plugins/usage/page.js#L634) |
-| as | BindingElement | renderUsage.counted | [634](../../magpie/internal/gui/assets/plugins/usage/page.js#L634) |
-| c | BindingElement | renderUsage.counted | [634](../../magpie/internal/gui/assets/plugins/usage/page.js#L634) |
-| menu | VariableDeclaration | renderUsage | [635](../../magpie/internal/gui/assets/plugins/usage/page.js#L635) |
-| again | VariableDeclaration | renderUsage.menu | [636](../../magpie/internal/gui/assets/plugins/usage/page.js#L636) |
-| run | PropertyAssignment | renderUsage.menu | [640](../../magpie/internal/gui/assets/plugins/usage/page.js#L640) |
+| ownCalls | FunctionDeclaration |  | [382](../../magpie/internal/gui/assets/plugins/usage/page.js#L382) |
+| quotaReadings | FunctionDeclaration |  | [388](../../magpie/internal/gui/assets/plugins/usage/page.js#L388) |
+| pts | VariableDeclaration | quotaReadings | [389](../../magpie/internal/gui/assets/plugins/usage/page.js#L389) |
+| fitChartLabels | FunctionDeclaration |  | [394](../../magpie/internal/gui/assets/plugins/usage/page.js#L394) |
+| narrow | VariableDeclaration | fitChartLabels | [395](../../magpie/internal/gui/assets/plugins/usage/page.js#L395) |
+| labels | VariableDeclaration | fitChartLabels | [396](../../magpie/internal/gui/assets/plugins/usage/page.js#L396) |
+| spans | VariableDeclaration | fitChartLabels | [397](../../magpie/internal/gui/assets/plugins/usage/page.js#L397) |
+| span | VariableDeclaration | fitChartLabels | [398](../../magpie/internal/gui/assets/plugins/usage/page.js#L398) |
+| box | VariableDeclaration | fitChartLabels | [400](../../magpie/internal/gui/assets/plugins/usage/page.js#L400) |
+| right | VariableDeclaration | fitChartLabels | [401](../../magpie/internal/gui/assets/plugins/usage/page.js#L401) |
+| span | VariableDeclaration | fitChartLabels | [402](../../magpie/internal/gui/assets/plugins/usage/page.js#L402) |
+| range | VariableDeclaration | fitChartLabels | [404](../../magpie/internal/gui/assets/plugins/usage/page.js#L404) |
+| r | VariableDeclaration | fitChartLabels | [406](../../magpie/internal/gui/assets/plugins/usage/page.js#L406) |
+| usageFolded | VariableDeclaration |  | [417](../../magpie/internal/gui/assets/plugins/usage/page.js#L417) |
+| USAGE_FOLDS | VariableDeclaration |  | [419](../../magpie/internal/gui/assets/plugins/usage/page.js#L419) |
+| USAGE_FOLD_TITLES | VariableDeclaration |  | [420](../../magpie/internal/gui/assets/plugins/usage/page.js#L420) |
+| mountUsageFolds | FunctionDeclaration |  | [426](../../magpie/internal/gui/assets/plugins/usage/page.js#L426) |
+| b | VariableDeclaration | mountUsageFolds | [427](../../magpie/internal/gui/assets/plugins/usage/page.js#L427) |
+| id | VariableDeclaration | mountUsageFolds | [430](../../magpie/internal/gui/assets/plugins/usage/page.js#L430) |
+| showUsageFolds | FunctionDeclaration |  | [441](../../magpie/internal/gui/assets/plugins/usage/page.js#L441) |
+| b | VariableDeclaration | showUsageFolds | [442](../../magpie/internal/gui/assets/plugins/usage/page.js#L442) |
+| id | VariableDeclaration | showUsageFolds | [443](../../magpie/internal/gui/assets/plugins/usage/page.js#L443) |
+| folded | VariableDeclaration | showUsageFolds | [443](../../magpie/internal/gui/assets/plugins/usage/page.js#L443) |
+| box | VariableDeclaration | showUsageFolds | [446](../../magpie/internal/gui/assets/plugins/usage/page.js#L446) |
+| usageParts | FunctionDeclaration |  | [452](../../magpie/internal/gui/assets/plugins/usage/page.js#L452) |
+| out | VariableDeclaration | usageParts | [453](../../magpie/internal/gui/assets/plugins/usage/page.js#L453) |
+| x | VariableDeclaration | usageParts | [454](../../magpie/internal/gui/assets/plugins/usage/page.js#L454) |
+| usageWithCache | VariableDeclaration |  | [462](../../magpie/internal/gui/assets/plugins/usage/page.js#L462) |
+| cacheOf | VariableDeclaration |  | [464](../../magpie/internal/gui/assets/plugins/usage/page.js#L464) |
+| usageTokens | VariableDeclaration |  | [465](../../magpie/internal/gui/assets/plugins/usage/page.js#L465) |
+| usageTokensPick | FunctionDeclaration |  | [467](../../magpie/internal/gui/assets/plugins/usage/page.js#L467) |
+| b | VariableDeclaration | usageTokensPick | [468](../../magpie/internal/gui/assets/plugins/usage/page.js#L468) |
+| renderUsage | FunctionDeclaration |  | [488](../../magpie/internal/gui/assets/plugins/usage/page.js#L488) |
+| u | VariableDeclaration | renderUsage | [489](../../magpie/internal/gui/assets/plugins/usage/page.js#L489) |
+| view | VariableDeclaration | renderUsage | [490](../../magpie/internal/gui/assets/plugins/usage/page.js#L490) |
+| stats | VariableDeclaration | renderUsage | [497](../../magpie/internal/gui/assets/plugins/usage/page.js#L497) |
+| empty | VariableDeclaration | renderUsage | [499](../../magpie/internal/gui/assets/plugins/usage/page.js#L499) |
+| id | VariableDeclaration | renderUsage | [501](../../magpie/internal/gui/assets/plugins/usage/page.js#L501) |
+| h | VariableDeclaration | renderUsage | [503](../../magpie/internal/gui/assets/plugins/usage/page.js#L503) |
+| none | VariableDeclaration | renderUsage | [509](../../magpie/internal/gui/assets/plugins/usage/page.js#L509) |
+| tile | VariableDeclaration | renderUsage | [515](../../magpie/internal/gui/assets/plugins/usage/page.js#L515) |
+| t | VariableDeclaration | renderUsage.tile | [516](../../magpie/internal/gui/assets/plugins/usage/page.js#L516) |
+| s | VariableDeclaration | renderUsage.tile | [522](../../magpie/internal/gui/assets/plugins/usage/page.js#L522) |
+| hitRate | VariableDeclaration | renderUsage | [536](../../magpie/internal/gui/assets/plugins/usage/page.js#L536) |
+| hit | VariableDeclaration | renderUsage | [537](../../magpie/internal/gui/assets/plugins/usage/page.js#L537) |
+| chart | VariableDeclaration | renderUsage | [543](../../magpie/internal/gui/assets/plugins/usage/page.js#L543) |
+| bars | VariableDeclaration | renderUsage | [545](../../magpie/internal/gui/assets/plugins/usage/page.js#L545) |
+| peak | VariableDeclaration | renderUsage | [546](../../magpie/internal/gui/assets/plugins/usage/page.js#L546) |
+| labels | VariableDeclaration | renderUsage | [547](../../magpie/internal/gui/assets/plugins/usage/page.js#L547) |
+| n | VariableDeclaration | renderUsage | [548](../../magpie/internal/gui/assets/plugins/usage/page.js#L548) |
+| every | VariableDeclaration | renderUsage | [549](../../magpie/internal/gui/assets/plugins/usage/page.js#L549) |
+| dayOf | VariableDeclaration | renderUsage | [551](../../magpie/internal/gui/assets/plugins/usage/page.js#L551) |
+| b | VariableDeclaration | renderUsage | [553](../../magpie/internal/gui/assets/plugins/usage/page.js#L553) |
+| inp | VariableDeclaration | renderUsage | [554](../../magpie/internal/gui/assets/plugins/usage/page.js#L554) |
+| out | VariableDeclaration | renderUsage | [554](../../magpie/internal/gui/assets/plugins/usage/page.js#L554) |
+| when | VariableDeclaration | renderUsage | [559](../../magpie/internal/gui/assets/plugins/usage/page.js#L559) |
+| last | VariableDeclaration | renderUsage | [562](../../magpie/internal/gui/assets/plugins/usage/page.js#L562) |
+| total | VariableDeclaration | renderUsage | [568](../../magpie/internal/gui/assets/plugins/usage/page.js#L568) |
+| list | VariableDeclaration | renderUsage | [569](../../magpie/internal/gui/assets/plugins/usage/page.js#L569) |
+| box | VariableDeclaration | renderUsage.list | [570](../../magpie/internal/gui/assets/plugins/usage/page.js#L570) |
+| g | VariableDeclaration | renderUsage.list | [572](../../magpie/internal/gui/assets/plugins/usage/page.js#L572) |
+| r | VariableDeclaration | renderUsage.list | [573](../../magpie/internal/gui/assets/plugins/usage/page.js#L573) |
+| who | VariableDeclaration | renderUsage.list | [576](../../magpie/internal/gui/assets/plugins/usage/page.js#L576) |
+| sub | VariableDeclaration | renderUsage.list | [578](../../magpie/internal/gui/assets/plugins/usage/page.js#L578) |
+| gs | VariableDeclaration | renderUsage.list | [595](../../magpie/internal/gui/assets/plugins/usage/page.js#L595) |
+| subLine | VariableDeclaration | renderUsage.list | [597](../../magpie/internal/gui/assets/plugins/usage/page.js#L597) |
+| share | VariableDeclaration | renderUsage.list | [601](../../magpie/internal/gui/assets/plugins/usage/page.js#L601) |
+| fill | VariableDeclaration | renderUsage.list | [602](../../magpie/internal/gui/assets/plugins/usage/page.js#L602) |
+| num | VariableDeclaration | renderUsage.list | [607](../../magpie/internal/gui/assets/plugins/usage/page.js#L607) |
+| hitRate | VariableDeclaration | renderUsage.list | [610](../../magpie/internal/gui/assets/plugins/usage/page.js#L610) |
+| hit | VariableDeclaration | renderUsage.list | [611](../../magpie/internal/gui/assets/plugins/usage/page.js#L611) |
+| hid | VariableDeclaration | renderUsage | [623](../../magpie/internal/gui/assets/plugins/usage/page.js#L623) |
+| hidden | VariableDeclaration | renderUsage | [624](../../magpie/internal/gui/assets/plugins/usage/page.js#L624) |
+| b | VariableDeclaration | renderUsage | [627](../../magpie/internal/gui/assets/plugins/usage/page.js#L627) |
+| counted | VariableDeclaration | renderUsage | [635](../../magpie/internal/gui/assets/plugins/usage/page.js#L635) |
+| as | BindingElement | renderUsage.counted | [635](../../magpie/internal/gui/assets/plugins/usage/page.js#L635) |
+| c | BindingElement | renderUsage.counted | [635](../../magpie/internal/gui/assets/plugins/usage/page.js#L635) |
+| menu | VariableDeclaration | renderUsage | [636](../../magpie/internal/gui/assets/plugins/usage/page.js#L636) |
+| again | VariableDeclaration | renderUsage.menu | [637](../../magpie/internal/gui/assets/plugins/usage/page.js#L637) |
 | run | PropertyAssignment | renderUsage.menu | [641](../../magpie/internal/gui/assets/plugins/usage/page.js#L641) |
 | run | PropertyAssignment | renderUsage.menu | [642](../../magpie/internal/gui/assets/plugins/usage/page.js#L642) |
-| sub | VariableDeclaration | renderUsage | [646](../../magpie/internal/gui/assets/plugins/usage/page.js#L646) |
+| run | PropertyAssignment | renderUsage.menu | [643](../../magpie/internal/gui/assets/plugins/usage/page.js#L643) |
+| sub | VariableDeclaration | renderUsage | [647](../../magpie/internal/gui/assets/plugins/usage/page.js#L647) |

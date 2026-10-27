@@ -4,26 +4,27 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/fallback.go) · page 4/4
 
-Source SHA-256: cebfc75f1a42c6e4ce738fdc021b5cccd3297e3098495534c0ffcb47ccc235b9
+Source SHA-256: 071a27738d6779ccd694331c1159c807288f8c7801445a390c6bbb88626849c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| FinishReason | field_declaration | refusedReply | [3234](../../magpie/internal/gateway/fallback.go#L3234) |
-| Message | field_declaration | refusedReply | [3235](../../magpie/internal/gateway/fallback.go#L3235) |
-| Content | field_declaration | refusedReply | [3236](../../magpie/internal/gateway/fallback.go#L3236) |
-| ToolCalls | field_declaration | refusedReply | [3237](../../magpie/internal/gateway/fallback.go#L3237) |
-| Status | field_declaration | refusedReply | [3241](../../magpie/internal/gateway/fallback.go#L3241) |
-| IncompleteDetails | field_declaration | refusedReply | [3242](../../magpie/internal/gateway/fallback.go#L3242) |
-| Reason | field_declaration | refusedReply | [3243](../../magpie/internal/gateway/fallback.go#L3243) |
-| Output | field_declaration | refusedReply | [3245](../../magpie/internal/gateway/fallback.go#L3245) |
-| Candidates | field_declaration | refusedReply | [3247](../../magpie/internal/gateway/fallback.go#L3247) |
-| Content | field_declaration | refusedReply | [3248](../../magpie/internal/gateway/fallback.go#L3248) |
-| Parts | field_declaration | refusedReply | [3249](../../magpie/internal/gateway/fallback.go#L3249) |
-| FinishReason | field_declaration | refusedReply | [3251](../../magpie/internal/gateway/fallback.go#L3251) |
-| PromptFeedback | field_declaration | refusedReply | [3253](../../magpie/internal/gateway/fallback.go#L3253) |
-| BlockReason | field_declaration | refusedReply | [3254](../../magpie/internal/gateway/fallback.go#L3254) |
-| streamStatus | function_declaration |  | [3289](../../magpie/internal/gateway/fallback.go#L3289) |
-| pinTo | function_declaration |  | [3317](../../magpie/internal/gateway/fallback.go#L3317) |
-| unservedTry | function_declaration |  | [3370](../../magpie/internal/gateway/fallback.go#L3370) |
-| unlistedNext | function_declaration |  | [3379](../../magpie/internal/gateway/fallback.go#L3379) |
-| askUnlisted | function_declaration |  | [3402](../../magpie/internal/gateway/fallback.go#L3402) |
+| Choices | field_declaration | refusedReply | [3259](../../magpie/internal/gateway/fallback.go#L3259) |
+| FinishReason | field_declaration | refusedReply | [3260](../../magpie/internal/gateway/fallback.go#L3260) |
+| Message | field_declaration | refusedReply | [3261](../../magpie/internal/gateway/fallback.go#L3261) |
+| Content | field_declaration | refusedReply | [3262](../../magpie/internal/gateway/fallback.go#L3262) |
+| ToolCalls | field_declaration | refusedReply | [3263](../../magpie/internal/gateway/fallback.go#L3263) |
+| Status | field_declaration | refusedReply | [3267](../../magpie/internal/gateway/fallback.go#L3267) |
+| IncompleteDetails | field_declaration | refusedReply | [3268](../../magpie/internal/gateway/fallback.go#L3268) |
+| Reason | field_declaration | refusedReply | [3269](../../magpie/internal/gateway/fallback.go#L3269) |
+| Output | field_declaration | refusedReply | [3271](../../magpie/internal/gateway/fallback.go#L3271) |
+| Candidates | field_declaration | refusedReply | [3273](../../magpie/internal/gateway/fallback.go#L3273) |
+| Content | field_declaration | refusedReply | [3274](../../magpie/internal/gateway/fallback.go#L3274) |
+| Parts | field_declaration | refusedReply | [3275](../../magpie/internal/gateway/fallback.go#L3275) |
+| FinishReason | field_declaration | refusedReply | [3277](../../magpie/internal/gateway/fallback.go#L3277) |
+| PromptFeedback | field_declaration | refusedReply | [3279](../../magpie/internal/gateway/fallback.go#L3279) |
+| BlockReason | field_declaration | refusedReply | [3280](../../magpie/internal/gateway/fallback.go#L3280) |
+| streamStatus | function_declaration |  | [3315](../../magpie/internal/gateway/fallback.go#L3315) |
+| pinTo | function_declaration |  | [3343](../../magpie/internal/gateway/fallback.go#L3343) |
+| unservedTry | function_declaration |  | [3396](../../magpie/internal/gateway/fallback.go#L3396) |
+| unlistedNext | function_declaration |  | [3405](../../magpie/internal/gateway/fallback.go#L3405) |
+| askUnlisted | function_declaration |  | [3428](../../magpie/internal/gateway/fallback.go#L3428) |

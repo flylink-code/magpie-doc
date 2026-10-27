@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/plugins.go) · page 1/1
 
-Source SHA-256: 7f1b0309e4887f780aaa6769409c6d59b54ce57abd052e6df6dee48f17fa521c
+Source SHA-256: e9c110ea2743fd6d88c90e7cfae03d67885c1951559ddcaf3b66a178891d0996
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -38,14 +38,14 @@ Source SHA-256: 7f1b0309e4887f780aaa6769409c6d59b54ce57abd052e6df6dee48f17fa521c
 | pluginAPIs | method_declaration | Provider | [462](../../magpie/internal/provider/plugins.go#L462) |
 | Origin | method_declaration | Provider | [477](../../magpie/internal/provider/plugins.go#L477) |
 | pluginFetch | function_declaration |  | [505](../../magpie/internal/provider/plugins.go#L505) |
-| Model | field_declaration | pluginFetch | [523](../../magpie/internal/provider/plugins.go#L523) |
-| Request | field_declaration | pluginFetch | [524](../../magpie/internal/provider/plugins.go#L524) |
-| SignInHeader | const_spec |  | [598](../../magpie/internal/provider/plugins.go#L598) |
-| notePluginSignIn | function_declaration |  | [602](../../magpie/internal/provider/plugins.go#L602) |
-| notePluginSaid | function_declaration |  | [611](../../magpie/internal/provider/plugins.go#L611) |
-| init | function_declaration |  | [623](../../magpie/internal/provider/plugins.go#L623) |
-| modelAPIID | function_declaration |  | [655](../../magpie/internal/provider/plugins.go#L655) |
-| withModel | function_declaration |  | [662](../../magpie/internal/provider/plugins.go#L662) |
-| firstOf | function_declaration |  | [674](../../magpie/internal/provider/plugins.go#L674) |
-| Do | method_declaration | Provider | [690](../../magpie/internal/provider/plugins.go#L690) |
-| do | method_declaration | Provider | [705](../../magpie/internal/provider/plugins.go#L705) |
+| Model | field_declaration | pluginFetch | [526](../../magpie/internal/provider/plugins.go#L526) |
+| Request | field_declaration | pluginFetch | [527](../../magpie/internal/provider/plugins.go#L527) |
+| SignInHeader | const_spec |  | [601](../../magpie/internal/provider/plugins.go#L601) |
+| notePluginSignIn | function_declaration |  | [605](../../magpie/internal/provider/plugins.go#L605) |
+| notePluginSaid | function_declaration |  | [614](../../magpie/internal/provider/plugins.go#L614) |
+| init | function_declaration |  | [626](../../magpie/internal/provider/plugins.go#L626) |
+| modelAPIID | function_declaration |  | [658](../../magpie/internal/provider/plugins.go#L658) |
+| withModel | function_declaration |  | [665](../../magpie/internal/provider/plugins.go#L665) |
+| firstOf | function_declaration |  | [677](../../magpie/internal/provider/plugins.go#L677) |
+| Do | method_declaration | Provider | [693](../../magpie/internal/provider/plugins.go#L693) |
+| do | method_declaration | Provider | [708](../../magpie/internal/provider/plugins.go#L708) |

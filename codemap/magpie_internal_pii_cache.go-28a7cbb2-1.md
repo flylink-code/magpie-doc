@@ -4,17 +4,24 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/cache.go) · page 1/1
 
-Source SHA-256: e5c10ebfca7c986ed8967cc9a65f429df2239ef33fa329db211cd54d999f00c8
+Source SHA-256: c69e4bd3d2ef436a295aa8536538a305ec2d10abd68fef1451ba4cb1d5a5eccf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | cacheMagic | const_spec |  | [27](../../magpie/internal/pii/cache.go#L27) |
 | cachePath | function_declaration |  | [29](../../magpie/internal/pii/cache.go#L29) |
 | saveAfter | var_spec |  | [33](../../magpie/internal/pii/cache.go#L33) |
-| disk | var_spec |  | [35](../../magpie/internal/pii/cache.go#L35) |
-| loadCache | function_declaration |  | [43](../../magpie/internal/pii/cache.go#L43) |
-| saveSoon | function_declaration |  | [69](../../magpie/internal/pii/cache.go#L69) |
-| saveCache | function_declaration |  | [84](../../magpie/internal/pii/cache.go#L84) |
-| encodeCache | function_declaration |  | [113](../../magpie/internal/pii/cache.go#L113) |
-| errBadCache | var_spec |  | [136](../../magpie/internal/pii/cache.go#L136) |
-| decodeCache | function_declaration |  | [138](../../magpie/internal/pii/cache.go#L138) |
+| diskState | struct_type |  | [37](../../magpie/internal/pii/cache.go#L37) |
+| mu | field_declaration | diskState | [38](../../magpie/internal/pii/cache.go#L38) |
+| loaded | field_declaration | diskState | [39](../../magpie/internal/pii/cache.go#L39) |
+| timer | field_declaration | diskState | [40](../../magpie/internal/pii/cache.go#L40) |
+| saving | field_declaration | diskState | [41](../../magpie/internal/pii/cache.go#L41) |
+| saves | field_declaration | diskState | [44](../../magpie/internal/pii/cache.go#L44) |
+| disk | var_spec |  | [47](../../magpie/internal/pii/cache.go#L47) |
+| loadCache | method_declaration | *backend | [50](../../magpie/internal/pii/cache.go#L50) |
+| saveSoon | method_declaration | *backend | [77](../../magpie/internal/pii/cache.go#L77) |
+| saveCache | function_declaration |  | [95](../../magpie/internal/pii/cache.go#L95) |
+| saveCache | method_declaration | *backend | [97](../../magpie/internal/pii/cache.go#L97) |
+| encodeCache | function_declaration |  | [127](../../magpie/internal/pii/cache.go#L127) |
+| errBadCache | var_spec |  | [150](../../magpie/internal/pii/cache.go#L150) |
+| decodeCache | function_declaration |  | [152](../../magpie/internal/pii/cache.go#L152) |

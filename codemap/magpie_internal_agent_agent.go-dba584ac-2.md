@@ -4,19 +4,20 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agent.go) · page 2/2
 
-Source SHA-256: 6bc73cc7c49ed13c92fda6ea5fc0779e56c729bf4de90aa90c2cee69940848d1
+Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Field | method_declaration | *Agent | [521](../../magpie/internal/agent/agent.go#L521) |
-| Values | method_declaration | *Agent | [536](../../magpie/internal/agent/agent.go#L536) |
-| Picks | method_declaration | *Agent | [549](../../magpie/internal/agent/agent.go#L549) |
-| Own | function_declaration |  | [559](../../magpie/internal/agent/agent.go#L559) |
-| OwnModels | method_declaration | *Agent | [563](../../magpie/internal/agent/agent.go#L563) |
-| Detected | function_declaration |  | [574](../../magpie/internal/agent/agent.go#L574) |
-| Find | function_declaration |  | [585](../../magpie/internal/agent/agent.go#L585) |
-| ids | function_declaration |  | [611](../../magpie/internal/agent/agent.go#L611) |
-| Spell | method_declaration | *Agent | [629](../../magpie/internal/agent/agent.go#L629) |
-| notOffered | method_declaration | *Agent | [678](../../magpie/internal/agent/agent.go#L678) |
-| split | method_declaration | *Agent | [708](../../magpie/internal/agent/agent.go#L708) |
-| atomic | function_declaration |  | [719](../../magpie/internal/agent/agent.go#L719) |
+| goPrograms | var_spec |  | [518](../../magpie/internal/agent/agent.go#L518) |
+| Field | method_declaration | *Agent | [525](../../magpie/internal/agent/agent.go#L525) |
+| Values | method_declaration | *Agent | [540](../../magpie/internal/agent/agent.go#L540) |
+| Picks | method_declaration | *Agent | [553](../../magpie/internal/agent/agent.go#L553) |
+| Own | function_declaration |  | [563](../../magpie/internal/agent/agent.go#L563) |
+| OwnModels | method_declaration | *Agent | [567](../../magpie/internal/agent/agent.go#L567) |
+| Detected | function_declaration |  | [578](../../magpie/internal/agent/agent.go#L578) |
+| Find | function_declaration |  | [589](../../magpie/internal/agent/agent.go#L589) |
+| ids | function_declaration |  | [615](../../magpie/internal/agent/agent.go#L615) |
+| Spell | method_declaration | *Agent | [633](../../magpie/internal/agent/agent.go#L633) |
+| notOffered | method_declaration | *Agent | [682](../../magpie/internal/agent/agent.go#L682) |
+| split | method_declaration | *Agent | [712](../../magpie/internal/agent/agent.go#L712) |
+| atomic | function_declaration |  | [723](../../magpie/internal/agent/agent.go#L723) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/imagemcp/imagemcp.go) · page 1/2
 
-Source SHA-256: df8e077eccd2381128dc24a716da6e13736f9eaf5386a53efa518b04f42eba56
+Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -90,21 +90,21 @@ Source SHA-256: df8e077eccd2381128dc24a716da6e13736f9eaf5386a53efa518b04f42eba56
 | URI | field_declaration | *server.root | [551](../../magpie/internal/imagemcp/imagemcp.go#L551) |
 | filePath | function_declaration |  | [573](../../magpie/internal/imagemcp/imagemcp.go#L573) |
 | reference | function_declaration |  | [588](../../magpie/internal/imagemcp/imagemcp.go#L588) |
-| unslug | var_spec |  | [619](../../magpie/internal/imagemcp/imagemcp.go#L619) |
-| target | function_declaration |  | [624](../../magpie/internal/imagemcp/imagemcp.go#L624) |
-| imageExt | var_spec |  | [679](../../magpie/internal/imagemcp/imagemcp.go#L679) |
-| videoExt | var_spec |  | [680](../../magpie/internal/imagemcp/imagemcp.go#L680) |
-| folderFor | function_declaration |  | [684](../../magpie/internal/imagemcp/imagemcp.go#L684) |
-| extOf | function_declaration |  | [691](../../magpie/internal/imagemcp/imagemcp.go#L691) |
-| filmArgs | struct_type |  | [703](../../magpie/internal/imagemcp/imagemcp.go#L703) |
-| Prompt | field_declaration | filmArgs | [704](../../magpie/internal/imagemcp/imagemcp.go#L704) |
-| Path | field_declaration | filmArgs | [705](../../magpie/internal/imagemcp/imagemcp.go#L705) |
-| Seconds | field_declaration | filmArgs | [706](../../magpie/internal/imagemcp/imagemcp.go#L706) |
-| Size | field_declaration | filmArgs | [707](../../magpie/internal/imagemcp/imagemcp.go#L707) |
-| Image | field_declaration | filmArgs | [708](../../magpie/internal/imagemcp/imagemcp.go#L708) |
-| References | field_declaration | filmArgs | [709](../../magpie/internal/imagemcp/imagemcp.go#L709) |
-| wholeSeconds | function_declaration |  | [713](../../magpie/internal/imagemcp/imagemcp.go#L713) |
-| call | method_declaration | *server | [736](../../magpie/internal/imagemcp/imagemcp.go#L736) |
-| gatewaySaid | function_declaration |  | [755](../../magpie/internal/imagemcp/imagemcp.go#L755) |
-| Error | field_declaration | gatewaySaid | [757](../../magpie/internal/imagemcp/imagemcp.go#L757) |
-| Message | field_declaration | gatewaySaid | [758](../../magpie/internal/imagemcp/imagemcp.go#L758) |
+| Target | function_declaration |  | [623](../../magpie/internal/imagemcp/imagemcp.go#L623) |
+| unslug | var_spec |  | [627](../../magpie/internal/imagemcp/imagemcp.go#L627) |
+| target | function_declaration |  | [632](../../magpie/internal/imagemcp/imagemcp.go#L632) |
+| imageExt | var_spec |  | [687](../../magpie/internal/imagemcp/imagemcp.go#L687) |
+| videoExt | var_spec |  | [688](../../magpie/internal/imagemcp/imagemcp.go#L688) |
+| folderFor | function_declaration |  | [692](../../magpie/internal/imagemcp/imagemcp.go#L692) |
+| extOf | function_declaration |  | [699](../../magpie/internal/imagemcp/imagemcp.go#L699) |
+| filmArgs | struct_type |  | [711](../../magpie/internal/imagemcp/imagemcp.go#L711) |
+| Prompt | field_declaration | filmArgs | [712](../../magpie/internal/imagemcp/imagemcp.go#L712) |
+| Path | field_declaration | filmArgs | [713](../../magpie/internal/imagemcp/imagemcp.go#L713) |
+| Seconds | field_declaration | filmArgs | [714](../../magpie/internal/imagemcp/imagemcp.go#L714) |
+| Size | field_declaration | filmArgs | [715](../../magpie/internal/imagemcp/imagemcp.go#L715) |
+| Image | field_declaration | filmArgs | [716](../../magpie/internal/imagemcp/imagemcp.go#L716) |
+| References | field_declaration | filmArgs | [717](../../magpie/internal/imagemcp/imagemcp.go#L717) |
+| wholeSeconds | function_declaration |  | [721](../../magpie/internal/imagemcp/imagemcp.go#L721) |
+| call | method_declaration | *server | [744](../../magpie/internal/imagemcp/imagemcp.go#L744) |
+| gatewaySaid | function_declaration |  | [763](../../magpie/internal/imagemcp/imagemcp.go#L763) |
+| Error | field_declaration | gatewaySaid | [765](../../magpie/internal/imagemcp/imagemcp.go#L765) |

@@ -4,28 +4,29 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_mcp.go) · page 1/1
 
-Source SHA-256: e08e3f8c34e8669ba85aff5730e431a48e391c994ca227d3003125a3c7f5718a
+Source SHA-256: 585970834c6db7992e035b52222057613807d43b66fab0f1582ca7c87c377606
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | SearchMCPPath | const_spec |  | [30](../../magpie/internal/gateway/search_mcp.go#L30) |
-| searchMCPVersions | var_spec |  | [34](../../magpie/internal/gateway/search_mcp.go#L34) |
-| searchMCPTool | const_spec |  | [36](../../magpie/internal/gateway/search_mcp.go#L36) |
-| mcpMessage | struct_type |  | [38](../../magpie/internal/gateway/search_mcp.go#L38) |
-| JSONRPC | field_declaration | mcpMessage | [39](../../magpie/internal/gateway/search_mcp.go#L39) |
-| ID | field_declaration | mcpMessage | [40](../../magpie/internal/gateway/search_mcp.go#L40) |
-| Method | field_declaration | mcpMessage | [41](../../magpie/internal/gateway/search_mcp.go#L41) |
-| Params | field_declaration | mcpMessage | [42](../../magpie/internal/gateway/search_mcp.go#L42) |
-| searchMCP | method_declaration | *Server | [45](../../magpie/internal/gateway/search_mcp.go#L45) |
-| serveMCP | function_declaration |  | [52](../../magpie/internal/gateway/search_mcp.go#L52) |
-| searchMCPCall | method_declaration | *Server | [117](../../magpie/internal/gateway/search_mcp.go#L117) |
-| Name | field_declaration | *Server.searchMCPCall | [139](../../magpie/internal/gateway/search_mcp.go#L139) |
-| Arguments | field_declaration | *Server.searchMCPCall | [140](../../magpie/internal/gateway/search_mcp.go#L140) |
-| Query | field_declaration | *Server.searchMCPCall | [141](../../magpie/internal/gateway/search_mcp.go#L141) |
-| mcpVersion | function_declaration |  | [168](../../magpie/internal/gateway/search_mcp.go#L168) |
-| ProtocolVersion | field_declaration | mcpVersion | [170](../../magpie/internal/gateway/search_mcp.go#L170) |
-| toolResult | function_declaration |  | [179](../../magpie/internal/gateway/search_mcp.go#L179) |
-| searchMCPError | type_spec |  | [183](../../magpie/internal/gateway/search_mcp.go#L183) |
-| Error | method_declaration | searchMCPError | [185](../../magpie/internal/gateway/search_mcp.go#L185) |
-| searchMCPRun | method_declaration | *Server | [190](../../magpie/internal/gateway/search_mcp.go#L190) |
-| readMCPBody | function_declaration |  | [220](../../magpie/internal/gateway/search_mcp.go#L220) |
+| OwnMCPServers | var_spec |  | [35](../../magpie/internal/gateway/search_mcp.go#L35) |
+| searchMCPVersions | var_spec |  | [44](../../magpie/internal/gateway/search_mcp.go#L44) |
+| searchMCPTool | const_spec |  | [46](../../magpie/internal/gateway/search_mcp.go#L46) |
+| mcpMessage | struct_type |  | [48](../../magpie/internal/gateway/search_mcp.go#L48) |
+| JSONRPC | field_declaration | mcpMessage | [49](../../magpie/internal/gateway/search_mcp.go#L49) |
+| ID | field_declaration | mcpMessage | [50](../../magpie/internal/gateway/search_mcp.go#L50) |
+| Method | field_declaration | mcpMessage | [51](../../magpie/internal/gateway/search_mcp.go#L51) |
+| Params | field_declaration | mcpMessage | [52](../../magpie/internal/gateway/search_mcp.go#L52) |
+| searchMCP | method_declaration | *Server | [55](../../magpie/internal/gateway/search_mcp.go#L55) |
+| serveMCP | function_declaration |  | [62](../../magpie/internal/gateway/search_mcp.go#L62) |
+| searchMCPCall | method_declaration | *Server | [127](../../magpie/internal/gateway/search_mcp.go#L127) |
+| Name | field_declaration | *Server.searchMCPCall | [149](../../magpie/internal/gateway/search_mcp.go#L149) |
+| Arguments | field_declaration | *Server.searchMCPCall | [150](../../magpie/internal/gateway/search_mcp.go#L150) |
+| Query | field_declaration | *Server.searchMCPCall | [151](../../magpie/internal/gateway/search_mcp.go#L151) |
+| mcpVersion | function_declaration |  | [178](../../magpie/internal/gateway/search_mcp.go#L178) |
+| ProtocolVersion | field_declaration | mcpVersion | [180](../../magpie/internal/gateway/search_mcp.go#L180) |
+| toolResult | function_declaration |  | [189](../../magpie/internal/gateway/search_mcp.go#L189) |
+| searchMCPError | type_spec |  | [193](../../magpie/internal/gateway/search_mcp.go#L193) |
+| Error | method_declaration | searchMCPError | [195](../../magpie/internal/gateway/search_mcp.go#L195) |
+| searchMCPRun | method_declaration | *Server | [200](../../magpie/internal/gateway/search_mcp.go#L200) |
+| readMCPBody | function_declaration |  | [230](../../magpie/internal/gateway/search_mcp.go#L230) |

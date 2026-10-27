@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 7/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| onMagpie | VariableDeclaration |  | [2572](../../magpie/internal/gui/assets/app.js#L2572) |
-| agentUsed | VariableDeclaration |  | [2577](../../magpie/internal/gui/assets/app.js#L2577) |
-| importButton | FunctionDeclaration |  | [2581](../../magpie/internal/gui/assets/app.js#L2581) |
-| b | VariableDeclaration | importButton | [2582](../../magpie/internal/gui/assets/app.js#L2582) |
-| unhid | VariableDeclaration |  | [2600](../../magpie/internal/gui/assets/app.js#L2600) |
-| hiddenIds | VariableDeclaration |  | [2601](../../magpie/internal/gui/assets/app.js#L2601) |
-| isHidden | VariableDeclaration |  | [2602](../../magpie/internal/gui/assets/app.js#L2602) |
-| agentSeen | VariableDeclaration |  | [2610](../../magpie/internal/gui/assets/app.js#L2610) |
-| agentSig | VariableDeclaration |  | [2611](../../magpie/internal/gui/assets/app.js#L2611) |
-| unhideCleared | FunctionDeclaration |  | [2612](../../magpie/internal/gui/assets/app.js#L2612) |
-| hidden | VariableDeclaration | unhideCleared | [2613](../../magpie/internal/gui/assets/app.js#L2613) |
-| cleared | VariableDeclaration | unhideCleared | [2614](../../magpie/internal/gui/assets/app.js#L2614) |
-| a | VariableDeclaration | unhideCleared | [2615](../../magpie/internal/gui/assets/app.js#L2615) |
-| was | VariableDeclaration | unhideCleared | [2616](../../magpie/internal/gui/assets/app.js#L2616) |
-| now | VariableDeclaration | unhideCleared | [2616](../../magpie/internal/gui/assets/app.js#L2616) |
-| a | VariableDeclaration | unhideCleared | [2621](../../magpie/internal/gui/assets/app.js#L2621) |
-| arrangeAgents | FunctionDeclaration |  | [2631](../../magpie/internal/gui/assets/app.js#L2631) |
-| s | VariableDeclaration | arrangeAgents | [2632](../../magpie/internal/gui/assets/app.js#L2632) |
-| order | VariableDeclaration | arrangeAgents | [2633](../../magpie/internal/gui/assets/app.js#L2633) |
-| hidden | VariableDeclaration | arrangeAgents | [2633](../../magpie/internal/gui/assets/app.js#L2633) |
-| rank | VariableDeclaration | arrangeAgents | [2634](../../magpie/internal/gui/assets/app.js#L2634) |
-| i | VariableDeclaration | arrangeAgents.rank | [2634](../../magpie/internal/gui/assets/app.js#L2634) |
-| all | VariableDeclaration | arrangeAgents | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| x | BindingElement | arrangeAgents.all | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| i | BindingElement | arrangeAgents.all | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| y | BindingElement | arrangeAgents.all | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| j | BindingElement | arrangeAgents.all | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| a | BindingElement | arrangeAgents.all | [2635](../../magpie/internal/gui/assets/app.js#L2635) |
-| counts | VariableDeclaration | arrangeAgents | [2639](../../magpie/internal/gui/assets/app.js#L2639) |
-| anyUsed | VariableDeclaration | arrangeAgents | [2640](../../magpie/internal/gui/assets/app.js#L2640) |
-| inView | VariableDeclaration | arrangeAgents | [2643](../../magpie/internal/gui/assets/app.js#L2643) |
-| saveArrangement | FunctionDeclaration |  | [2647](../../magpie/internal/gui/assets/app.js#L2647) |
-| prev | VariableDeclaration | saveArrangement | [2648](../../magpie/internal/gui/assets/app.js#L2648) |
-| s | VariableDeclaration | saveArrangement | [2652](../../magpie/internal/gui/assets/app.js#L2652) |
-| e | VariableDeclaration | saveArrangement | [2654](../../magpie/internal/gui/assets/app.js#L2654) |
-| agentsVisibilitySaving | VariableDeclaration |  | [2662](../../magpie/internal/gui/assets/app.js#L2662) |
-| agentsVisibilityRevision | VariableDeclaration |  | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
-| agentsManageButton | FunctionDeclaration |  | [2666](../../magpie/internal/gui/assets/app.js#L2666) |
-| bar | VariableDeclaration | agentsManageButton | [2668](../../magpie/internal/gui/assets/app.js#L2668) |
-| more | VariableDeclaration | agentsManageButton | [2672](../../magpie/internal/gui/assets/app.js#L2672) |
-| button | VariableDeclaration | agentsManageButton | [2675](../../magpie/internal/gui/assets/app.js#L2675) |
-| openAgentsManager | FunctionDeclaration |  | [2686](../../magpie/internal/gui/assets/app.js#L2686) |
-| selected | VariableDeclaration | openAgentsManager | [2688](../../magpie/internal/gui/assets/app.js#L2688) |
-| ed | VariableDeclaration | openAgentsManager | [2689](../../magpie/internal/gui/assets/app.js#L2689) |
-| head | VariableDeclaration | openAgentsManager | [2690](../../magpie/internal/gui/assets/app.js#L2690) |
-| note | VariableDeclaration | openAgentsManager | [2692](../../magpie/internal/gui/assets/app.js#L2692) |
-| search | VariableDeclaration | openAgentsManager | [2693](../../magpie/internal/gui/assets/app.js#L2693) |
-| actions | VariableDeclaration | openAgentsManager | [2697](../../magpie/internal/gui/assets/app.js#L2697) |
-| rows | VariableDeclaration | openAgentsManager | [2698](../../magpie/internal/gui/assets/app.js#L2698) |
-| count | VariableDeclaration | openAgentsManager | [2699](../../magpie/internal/gui/assets/app.js#L2699) |
-| result | VariableDeclaration | openAgentsManager | [2700](../../magpie/internal/gui/assets/app.js#L2700) |
-| bar | VariableDeclaration | openAgentsManager | [2702](../../magpie/internal/gui/assets/app.js#L2702) |
-| button | VariableDeclaration | openAgentsManager | [2703](../../magpie/internal/gui/assets/app.js#L2703) |
-| b | VariableDeclaration | openAgentsManager.button | [2704](../../magpie/internal/gui/assets/app.js#L2704) |
-| matching | VariableDeclaration | openAgentsManager | [2710](../../magpie/internal/gui/assets/app.js#L2710) |
-| hide | VariableDeclaration | openAgentsManager | [2720](../../magpie/internal/gui/assets/app.js#L2720) |
-| show | VariableDeclaration | openAgentsManager | [2721](../../magpie/internal/gui/assets/app.js#L2721) |
-| controls | VariableDeclaration | openAgentsManager | [2724](../../magpie/internal/gui/assets/app.js#L2724) |
-| hidden | VariableDeclaration | openAgentsManager | [2733](../../magpie/internal/gui/assets/app.js#L2733) |
-| row | VariableDeclaration | openAgentsManager | [2734](../../magpie/internal/gui/assets/app.js#L2734) |
-| draw | FunctionDeclaration | openAgentsManager | [2739](../../magpie/internal/gui/assets/app.js#L2739) |
-| a | VariableDeclaration | openAgentsManager.draw | [2741](../../magpie/internal/gui/assets/app.js#L2741) |
-| row | VariableDeclaration | openAgentsManager.draw | [2742](../../magpie/internal/gui/assets/app.js#L2742) |
-| check | VariableDeclaration | openAgentsManager.draw | [2744](../../magpie/internal/gui/assets/app.js#L2744) |
-| save | FunctionDeclaration | openAgentsManager | [2755](../../magpie/internal/gui/assets/app.js#L2755) |
-| ids | VariableDeclaration | openAgentsManager.save | [2757](../../magpie/internal/gui/assets/app.js#L2757) |
-| next | VariableDeclaration | openAgentsManager.save | [2759](../../magpie/internal/gui/assets/app.js#L2759) |
-| s | VariableDeclaration | openAgentsManager.save | [2768](../../magpie/internal/gui/assets/app.js#L2768) |
-| e | VariableDeclaration | openAgentsManager.save | [2779](../../magpie/internal/gui/assets/app.js#L2779) |
-| moveAgent | FunctionDeclaration |  | [2797](../../magpie/internal/gui/assets/app.js#L2797) |
-| { shown, folded } | VariableDeclaration | moveAgent | [2798](../../magpie/internal/gui/assets/app.js#L2798) |
-| shown | BindingElement | moveAgent.{ shown, folded } | [2798](../../magpie/internal/gui/assets/app.js#L2798) |
-| folded | BindingElement | moveAgent.{ shown, folded } | [2798](../../magpie/internal/gui/assets/app.js#L2798) |
-| ids | VariableDeclaration | moveAgent | [2799](../../magpie/internal/gui/assets/app.js#L2799) |
-| from | VariableDeclaration | moveAgent | [2800](../../magpie/internal/gui/assets/app.js#L2800) |
-| s | VariableDeclaration | moveAgent | [2803](../../magpie/internal/gui/assets/app.js#L2803) |
-| setAgentHidden | FunctionDeclaration |  | [2807](../../magpie/internal/gui/assets/app.js#L2807) |
-| s | VariableDeclaration | setAgentHidden | [2808](../../magpie/internal/gui/assets/app.js#L2808) |
-| { all } | VariableDeclaration | setAgentHidden | [2809](../../magpie/internal/gui/assets/app.js#L2809) |
-| all | BindingElement | setAgentHidden.{ all } | [2809](../../magpie/internal/gui/assets/app.js#L2809) |
-| hidden | VariableDeclaration | setAgentHidden | [2810](../../magpie/internal/gui/assets/app.js#L2810) |
-| still | VariableDeclaration | setAgentHidden | [2818](../../magpie/internal/gui/assets/app.js#L2818) |
-| until | VariableDeclaration | setAgentHidden | [2819](../../magpie/internal/gui/assets/app.js#L2819) |
-| ALT | VariableDeclaration |  | [2825](../../magpie/internal/gui/assets/app.js#L2825) |
-| SHIFT | VariableDeclaration |  | [2826](../../magpie/internal/gui/assets/app.js#L2826) |
-| MOVE_UP | VariableDeclaration |  | [2828](../../magpie/internal/gui/assets/app.js#L2828) |
-| MOVE_DOWN | VariableDeclaration |  | [2828](../../magpie/internal/gui/assets/app.js#L2828) |
-| MOVE_TOP | VariableDeclaration |  | [2830](../../magpie/internal/gui/assets/app.js#L2830) |
-| MOVE_BOTTOM | VariableDeclaration |  | [2830](../../magpie/internal/gui/assets/app.js#L2830) |
-| EYE_OFF | VariableDeclaration |  | [2831](../../magpie/internal/gui/assets/app.js#L2831) |
-| EYE | VariableDeclaration |  | [2832](../../magpie/internal/gui/assets/app.js#L2832) |
-| agentHandle | FunctionDeclaration |  | [2838](../../magpie/internal/gui/assets/app.js#L2838) |
-| b | VariableDeclaration | agentHandle | [2839](../../magpie/internal/gui/assets/app.js#L2839) |
-| { shown } | VariableDeclaration | agentHandle | [2848](../../magpie/internal/gui/assets/app.js#L2848) |
-| shown | BindingElement | agentHandle.{ shown } | [2848](../../magpie/internal/gui/assets/app.js#L2848) |
-| i | VariableDeclaration | agentHandle | [2849](../../magpie/internal/gui/assets/app.js#L2849) |
-| dragAgent | FunctionDeclaration |  | [2861](../../magpie/internal/gui/assets/app.js#L2861) |
-| list | VariableDeclaration | dragAgent | [2863](../../magpie/internal/gui/assets/app.js#L2863) |
-| dragRows | FunctionDeclaration |  | [2874](../../magpie/internal/gui/assets/app.js#L2874) |
-| from | VariableDeclaration | dragRows | [2876](../../magpie/internal/gui/assets/app.js#L2876) |
+| m | VariableDeclaration | paintInstalls | [2562](../../magpie/internal/gui/assets/app.js#L2562) |
+| cmds | VariableDeclaration | paintInstalls | [2567](../../magpie/internal/gui/assets/app.js#L2567) |
+| c | VariableDeclaration | paintInstalls | [2568](../../magpie/internal/gui/assets/app.js#L2568) |
+| line | VariableDeclaration | paintInstalls | [2569](../../magpie/internal/gui/assets/app.js#L2569) |
+| agentsGlide | VariableDeclaration |  | [2585](../../magpie/internal/gui/assets/app.js#L2585) |
+| panelOpenAgent | VariableDeclaration |  | [2586](../../magpie/internal/gui/assets/app.js#L2586) |
+| tweak | VariableDeclaration |  | [2601](../../magpie/internal/gui/assets/app.js#L2601) |
+| onMagpie | VariableDeclaration |  | [2602](../../magpie/internal/gui/assets/app.js#L2602) |
+| agentUsed | VariableDeclaration |  | [2607](../../magpie/internal/gui/assets/app.js#L2607) |
+| importButton | FunctionDeclaration |  | [2611](../../magpie/internal/gui/assets/app.js#L2611) |
+| b | VariableDeclaration | importButton | [2612](../../magpie/internal/gui/assets/app.js#L2612) |
+| unhid | VariableDeclaration |  | [2630](../../magpie/internal/gui/assets/app.js#L2630) |
+| hiddenIds | VariableDeclaration |  | [2631](../../magpie/internal/gui/assets/app.js#L2631) |
+| isHidden | VariableDeclaration |  | [2632](../../magpie/internal/gui/assets/app.js#L2632) |
+| agentSeen | VariableDeclaration |  | [2640](../../magpie/internal/gui/assets/app.js#L2640) |
+| agentSig | VariableDeclaration |  | [2641](../../magpie/internal/gui/assets/app.js#L2641) |
+| unhideCleared | FunctionDeclaration |  | [2642](../../magpie/internal/gui/assets/app.js#L2642) |
+| hidden | VariableDeclaration | unhideCleared | [2643](../../magpie/internal/gui/assets/app.js#L2643) |
+| cleared | VariableDeclaration | unhideCleared | [2644](../../magpie/internal/gui/assets/app.js#L2644) |
+| a | VariableDeclaration | unhideCleared | [2645](../../magpie/internal/gui/assets/app.js#L2645) |
+| was | VariableDeclaration | unhideCleared | [2646](../../magpie/internal/gui/assets/app.js#L2646) |
+| now | VariableDeclaration | unhideCleared | [2646](../../magpie/internal/gui/assets/app.js#L2646) |
+| a | VariableDeclaration | unhideCleared | [2651](../../magpie/internal/gui/assets/app.js#L2651) |
+| arrangeAgents | FunctionDeclaration |  | [2661](../../magpie/internal/gui/assets/app.js#L2661) |
+| s | VariableDeclaration | arrangeAgents | [2662](../../magpie/internal/gui/assets/app.js#L2662) |
+| order | VariableDeclaration | arrangeAgents | [2663](../../magpie/internal/gui/assets/app.js#L2663) |
+| hidden | VariableDeclaration | arrangeAgents | [2663](../../magpie/internal/gui/assets/app.js#L2663) |
+| rank | VariableDeclaration | arrangeAgents | [2664](../../magpie/internal/gui/assets/app.js#L2664) |
+| i | VariableDeclaration | arrangeAgents.rank | [2664](../../magpie/internal/gui/assets/app.js#L2664) |
+| all | VariableDeclaration | arrangeAgents | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| x | BindingElement | arrangeAgents.all | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| i | BindingElement | arrangeAgents.all | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| y | BindingElement | arrangeAgents.all | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| j | BindingElement | arrangeAgents.all | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| a | BindingElement | arrangeAgents.all | [2665](../../magpie/internal/gui/assets/app.js#L2665) |
+| counts | VariableDeclaration | arrangeAgents | [2669](../../magpie/internal/gui/assets/app.js#L2669) |
+| anyUsed | VariableDeclaration | arrangeAgents | [2670](../../magpie/internal/gui/assets/app.js#L2670) |
+| inView | VariableDeclaration | arrangeAgents | [2673](../../magpie/internal/gui/assets/app.js#L2673) |
+| saveArrangement | FunctionDeclaration |  | [2677](../../magpie/internal/gui/assets/app.js#L2677) |
+| prev | VariableDeclaration | saveArrangement | [2678](../../magpie/internal/gui/assets/app.js#L2678) |
+| s | VariableDeclaration | saveArrangement | [2682](../../magpie/internal/gui/assets/app.js#L2682) |
+| e | VariableDeclaration | saveArrangement | [2684](../../magpie/internal/gui/assets/app.js#L2684) |
+| agentsVisibilitySaving | VariableDeclaration |  | [2692](../../magpie/internal/gui/assets/app.js#L2692) |
+| agentsVisibilityRevision | VariableDeclaration |  | [2695](../../magpie/internal/gui/assets/app.js#L2695) |
+| agentsManageButton | FunctionDeclaration |  | [2696](../../magpie/internal/gui/assets/app.js#L2696) |
+| bar | VariableDeclaration | agentsManageButton | [2698](../../magpie/internal/gui/assets/app.js#L2698) |
+| more | VariableDeclaration | agentsManageButton | [2702](../../magpie/internal/gui/assets/app.js#L2702) |
+| button | VariableDeclaration | agentsManageButton | [2705](../../magpie/internal/gui/assets/app.js#L2705) |
+| openAgentsManager | FunctionDeclaration |  | [2716](../../magpie/internal/gui/assets/app.js#L2716) |
+| selected | VariableDeclaration | openAgentsManager | [2718](../../magpie/internal/gui/assets/app.js#L2718) |
+| ed | VariableDeclaration | openAgentsManager | [2719](../../magpie/internal/gui/assets/app.js#L2719) |
+| head | VariableDeclaration | openAgentsManager | [2720](../../magpie/internal/gui/assets/app.js#L2720) |
+| note | VariableDeclaration | openAgentsManager | [2722](../../magpie/internal/gui/assets/app.js#L2722) |
+| search | VariableDeclaration | openAgentsManager | [2723](../../magpie/internal/gui/assets/app.js#L2723) |
+| actions | VariableDeclaration | openAgentsManager | [2727](../../magpie/internal/gui/assets/app.js#L2727) |
+| rows | VariableDeclaration | openAgentsManager | [2728](../../magpie/internal/gui/assets/app.js#L2728) |
+| count | VariableDeclaration | openAgentsManager | [2729](../../magpie/internal/gui/assets/app.js#L2729) |
+| result | VariableDeclaration | openAgentsManager | [2730](../../magpie/internal/gui/assets/app.js#L2730) |
+| bar | VariableDeclaration | openAgentsManager | [2732](../../magpie/internal/gui/assets/app.js#L2732) |
+| button | VariableDeclaration | openAgentsManager | [2733](../../magpie/internal/gui/assets/app.js#L2733) |
+| b | VariableDeclaration | openAgentsManager.button | [2734](../../magpie/internal/gui/assets/app.js#L2734) |
+| matching | VariableDeclaration | openAgentsManager | [2740](../../magpie/internal/gui/assets/app.js#L2740) |
+| hide | VariableDeclaration | openAgentsManager | [2750](../../magpie/internal/gui/assets/app.js#L2750) |
+| show | VariableDeclaration | openAgentsManager | [2751](../../magpie/internal/gui/assets/app.js#L2751) |
+| controls | VariableDeclaration | openAgentsManager | [2754](../../magpie/internal/gui/assets/app.js#L2754) |
+| hidden | VariableDeclaration | openAgentsManager | [2763](../../magpie/internal/gui/assets/app.js#L2763) |
+| row | VariableDeclaration | openAgentsManager | [2764](../../magpie/internal/gui/assets/app.js#L2764) |
+| draw | FunctionDeclaration | openAgentsManager | [2769](../../magpie/internal/gui/assets/app.js#L2769) |
+| a | VariableDeclaration | openAgentsManager.draw | [2771](../../magpie/internal/gui/assets/app.js#L2771) |
+| row | VariableDeclaration | openAgentsManager.draw | [2772](../../magpie/internal/gui/assets/app.js#L2772) |
+| check | VariableDeclaration | openAgentsManager.draw | [2774](../../magpie/internal/gui/assets/app.js#L2774) |
+| save | FunctionDeclaration | openAgentsManager | [2785](../../magpie/internal/gui/assets/app.js#L2785) |
+| ids | VariableDeclaration | openAgentsManager.save | [2787](../../magpie/internal/gui/assets/app.js#L2787) |
+| next | VariableDeclaration | openAgentsManager.save | [2789](../../magpie/internal/gui/assets/app.js#L2789) |
+| s | VariableDeclaration | openAgentsManager.save | [2798](../../magpie/internal/gui/assets/app.js#L2798) |
+| e | VariableDeclaration | openAgentsManager.save | [2809](../../magpie/internal/gui/assets/app.js#L2809) |
+| moveAgent | FunctionDeclaration |  | [2827](../../magpie/internal/gui/assets/app.js#L2827) |
+| { shown, folded } | VariableDeclaration | moveAgent | [2828](../../magpie/internal/gui/assets/app.js#L2828) |
+| shown | BindingElement | moveAgent.{ shown, folded } | [2828](../../magpie/internal/gui/assets/app.js#L2828) |
+| folded | BindingElement | moveAgent.{ shown, folded } | [2828](../../magpie/internal/gui/assets/app.js#L2828) |
+| ids | VariableDeclaration | moveAgent | [2829](../../magpie/internal/gui/assets/app.js#L2829) |
+| from | VariableDeclaration | moveAgent | [2830](../../magpie/internal/gui/assets/app.js#L2830) |
+| s | VariableDeclaration | moveAgent | [2833](../../magpie/internal/gui/assets/app.js#L2833) |
+| setAgentHidden | FunctionDeclaration |  | [2837](../../magpie/internal/gui/assets/app.js#L2837) |
+| s | VariableDeclaration | setAgentHidden | [2838](../../magpie/internal/gui/assets/app.js#L2838) |
+| { all } | VariableDeclaration | setAgentHidden | [2839](../../magpie/internal/gui/assets/app.js#L2839) |
+| all | BindingElement | setAgentHidden.{ all } | [2839](../../magpie/internal/gui/assets/app.js#L2839) |
+| hidden | VariableDeclaration | setAgentHidden | [2840](../../magpie/internal/gui/assets/app.js#L2840) |
+| still | VariableDeclaration | setAgentHidden | [2848](../../magpie/internal/gui/assets/app.js#L2848) |
+| until | VariableDeclaration | setAgentHidden | [2849](../../magpie/internal/gui/assets/app.js#L2849) |
+| ALT | VariableDeclaration |  | [2855](../../magpie/internal/gui/assets/app.js#L2855) |
+| SHIFT | VariableDeclaration |  | [2856](../../magpie/internal/gui/assets/app.js#L2856) |
+| MOVE_UP | VariableDeclaration |  | [2858](../../magpie/internal/gui/assets/app.js#L2858) |
+| MOVE_DOWN | VariableDeclaration |  | [2858](../../magpie/internal/gui/assets/app.js#L2858) |
+| MOVE_TOP | VariableDeclaration |  | [2860](../../magpie/internal/gui/assets/app.js#L2860) |
+| MOVE_BOTTOM | VariableDeclaration |  | [2860](../../magpie/internal/gui/assets/app.js#L2860) |
+| EYE_OFF | VariableDeclaration |  | [2861](../../magpie/internal/gui/assets/app.js#L2861) |
+| EYE | VariableDeclaration |  | [2862](../../magpie/internal/gui/assets/app.js#L2862) |
+| agentHandle | FunctionDeclaration |  | [2868](../../magpie/internal/gui/assets/app.js#L2868) |
+| b | VariableDeclaration | agentHandle | [2869](../../magpie/internal/gui/assets/app.js#L2869) |

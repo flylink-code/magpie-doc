@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 1/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -47,64 +47,64 @@ Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
 | discoveryRun | VariableDeclaration |  | [84](../../magpie/internal/gui/assets/app.js#L84) |
 | discoveryPending | VariableDeclaration |  | [84](../../magpie/internal/gui/assets/app.js#L84) |
 | discoveryIgnored | VariableDeclaration |  | [85](../../magpie/internal/gui/assets/app.js#L85) |
-| sseView | VariableDeclaration |  | [89](../../magpie/internal/gui/assets/app.js#L89) |
-| sseShown | VariableDeclaration |  | [91](../../magpie/internal/gui/assets/app.js#L91) |
-| savedModelFavorites | VariableDeclaration |  | [92](../../magpie/internal/gui/assets/app.js#L92) |
-| modelFavorites | VariableDeclaration |  | [94](../../magpie/internal/gui/assets/app.js#L94) |
-| favoriteKey | VariableDeclaration |  | [98](../../magpie/internal/gui/assets/app.js#L98) |
-| isFavorite | VariableDeclaration |  | [99](../../magpie/internal/gui/assets/app.js#L99) |
-| api | FunctionDeclaration |  | [103](../../magpie/internal/gui/assets/app.js#L103) |
-| res | VariableDeclaration | api | [110](../../magpie/internal/gui/assets/app.js#L110) |
-| text | VariableDeclaration | api | [120](../../magpie/internal/gui/assets/app.js#L120) |
-| data | VariableDeclaration | api | [121](../../magpie/internal/gui/assets/app.js#L121) |
-| err | VariableDeclaration | api | [126](../../magpie/internal/gui/assets/app.js#L126) |
-| v | VariableDeclaration | api | [162](../../magpie/internal/gui/assets/app.js#L162) |
-| where | VariableDeclaration | api | [163](../../magpie/internal/gui/assets/app.js#L163) |
-| notJSON | FunctionDeclaration |  | [187](../../magpie/internal/gui/assets/app.js#L187) |
-| body | VariableDeclaration | notJSON | [188](../../magpie/internal/gui/assets/app.js#L188) |
-| html | VariableDeclaration | notJSON | [189](../../magpie/internal/gui/assets/app.js#L189) |
-| title | VariableDeclaration | notJSON | [191](../../magpie/internal/gui/assets/app.js#L191) |
-| what | VariableDeclaration | notJSON | [193](../../magpie/internal/gui/assets/app.js#L193) |
-| el | FunctionDeclaration |  | [201](../../magpie/internal/gui/assets/app.js#L201) |
-| e | VariableDeclaration | el | [202](../../magpie/internal/gui/assets/app.js#L202) |
-| replaceKeeping | FunctionDeclaration |  | [212](../../magpie/internal/gui/assets/app.js#L212) |
-| keep | VariableDeclaration | replaceKeeping | [213](../../magpie/internal/gui/assets/app.js#L213) |
-| n | VariableDeclaration | replaceKeeping | [214](../../magpie/internal/gui/assets/app.js#L214) |
-| at | VariableDeclaration | replaceKeeping | [215](../../magpie/internal/gui/assets/app.js#L215) |
-| n | VariableDeclaration | replaceKeeping | [216](../../magpie/internal/gui/assets/app.js#L216) |
-| svg | FunctionDeclaration |  | [221](../../magpie/internal/gui/assets/app.js#L221) |
-| s | VariableDeclaration | svg | [222](../../magpie/internal/gui/assets/app.js#L222) |
-| CHEV | VariableDeclaration |  | [229](../../magpie/internal/gui/assets/app.js#L229) |
-| DOTS | VariableDeclaration |  | [231](../../magpie/internal/gui/assets/app.js#L231) |
-| CHEV_R | VariableDeclaration |  | [232](../../magpie/internal/gui/assets/app.js#L232) |
-| CHECK | VariableDeclaration |  | [233](../../magpie/internal/gui/assets/app.js#L233) |
-| CROSS | VariableDeclaration |  | [234](../../magpie/internal/gui/assets/app.js#L234) |
-| PLUS | VariableDeclaration |  | [235](../../magpie/internal/gui/assets/app.js#L235) |
-| OUT | VariableDeclaration |  | [236](../../magpie/internal/gui/assets/app.js#L236) |
-| COPY_ICON | VariableDeclaration |  | [237](../../magpie/internal/gui/assets/app.js#L237) |
-| PENCIL | VariableDeclaration |  | [238](../../magpie/internal/gui/assets/app.js#L238) |
-| PUZZLE | VariableDeclaration |  | [239](../../magpie/internal/gui/assets/app.js#L239) |
-| keptIcons | VariableDeclaration |  | [247](../../magpie/internal/gui/assets/app.js#L247) |
-| keepIcons | FunctionDeclaration |  | [248](../../magpie/internal/gui/assets/app.js#L248) |
-| r | VariableDeclaration | keepIcons | [250](../../magpie/internal/gui/assets/app.js#L250) |
-| e | VariableDeclaration | keepIcons | [250](../../magpie/internal/gui/assets/app.js#L250) |
-| maskLoads | VariableDeclaration |  | [264](../../magpie/internal/gui/assets/app.js#L264) |
-| maskShelf | VariableDeclaration |  | [265](../../magpie/internal/gui/assets/app.js#L265) |
-| maskSpan | FunctionDeclaration |  | [266](../../magpie/internal/gui/assets/app.js#L266) |
-| pic | VariableDeclaration | maskSpan | [269](../../magpie/internal/gui/assets/app.js#L269) |
-| m | VariableDeclaration | maskSpan | [270](../../magpie/internal/gui/assets/app.js#L270) |
-| load | VariableDeclaration | maskSpan | [272](../../magpie/internal/gui/assets/app.js#L272) |
-| probe | VariableDeclaration | maskSpan | [275](../../magpie/internal/gui/assets/app.js#L275) |
-| k | VariableDeclaration | maskSpan | [287](../../magpie/internal/gui/assets/app.js#L287) |
-| pngIcons | VariableDeclaration |  | [296](../../magpie/internal/gui/assets/app.js#L296) |
-| icon | FunctionDeclaration |  | [298](../../magpie/internal/gui/assets/app.js#L298) |
-| kept | VariableDeclaration | icon | [299](../../magpie/internal/gui/assets/app.js#L299) |
-| e | VariableDeclaration | icon | [301](../../magpie/internal/gui/assets/app.js#L301) |
-| img | VariableDeclaration | icon | [310](../../magpie/internal/gui/assets/app.js#L310) |
-| img | VariableDeclaration | icon | [320](../../magpie/internal/gui/assets/app.js#L320) |
-| status | FunctionDeclaration |  | [338](../../magpie/internal/gui/assets/app.js#L338) |
-| s | VariableDeclaration | status | [339](../../magpie/internal/gui/assets/app.js#L339) |
-| m | VariableDeclaration | status | [345](../../magpie/internal/gui/assets/app.js#L345) |
-| optionFor | FunctionDeclaration |  | [353](../../magpie/internal/gui/assets/app.js#L353) |
-| directSaid | FunctionDeclaration |  | [360](../../magpie/internal/gui/assets/app.js#L360) |
-| renderAgentsLoading | FunctionDeclaration |  | [367](../../magpie/internal/gui/assets/app.js#L367) |
+| savedModelFavorites | VariableDeclaration |  | [87](../../magpie/internal/gui/assets/app.js#L87) |
+| modelFavorites | VariableDeclaration |  | [89](../../magpie/internal/gui/assets/app.js#L89) |
+| favoriteKey | VariableDeclaration |  | [93](../../magpie/internal/gui/assets/app.js#L93) |
+| isFavorite | VariableDeclaration |  | [94](../../magpie/internal/gui/assets/app.js#L94) |
+| sameReads | VariableDeclaration |  | [101](../../magpie/internal/gui/assets/app.js#L101) |
+| readsSame | VariableDeclaration |  | [102](../../magpie/internal/gui/assets/app.js#L102) |
+| readTags | VariableDeclaration |  | [105](../../magpie/internal/gui/assets/app.js#L105) |
+| sameRead | VariableDeclaration |  | [106](../../magpie/internal/gui/assets/app.js#L106) |
+| api | FunctionDeclaration |  | [110](../../magpie/internal/gui/assets/app.js#L110) |
+| same | VariableDeclaration | api | [117](../../magpie/internal/gui/assets/app.js#L117) |
+| had | VariableDeclaration | api | [118](../../magpie/internal/gui/assets/app.js#L118) |
+| res | VariableDeclaration | api | [119](../../magpie/internal/gui/assets/app.js#L119) |
+| text | VariableDeclaration | api | [130](../../magpie/internal/gui/assets/app.js#L130) |
+| data | VariableDeclaration | api | [131](../../magpie/internal/gui/assets/app.js#L131) |
+| err | VariableDeclaration | api | [136](../../magpie/internal/gui/assets/app.js#L136) |
+| v | VariableDeclaration | api | [172](../../magpie/internal/gui/assets/app.js#L172) |
+| where | VariableDeclaration | api | [173](../../magpie/internal/gui/assets/app.js#L173) |
+| delta | VariableDeclaration | api | [191](../../magpie/internal/gui/assets/app.js#L191) |
+| was | VariableDeclaration | api | [192](../../magpie/internal/gui/assets/app.js#L192) |
+| tag | VariableDeclaration | api | [194](../../magpie/internal/gui/assets/app.js#L194) |
+| notJSON | FunctionDeclaration |  | [207](../../magpie/internal/gui/assets/app.js#L207) |
+| body | VariableDeclaration | notJSON | [208](../../magpie/internal/gui/assets/app.js#L208) |
+| html | VariableDeclaration | notJSON | [209](../../magpie/internal/gui/assets/app.js#L209) |
+| title | VariableDeclaration | notJSON | [211](../../magpie/internal/gui/assets/app.js#L211) |
+| what | VariableDeclaration | notJSON | [213](../../magpie/internal/gui/assets/app.js#L213) |
+| el | FunctionDeclaration |  | [221](../../magpie/internal/gui/assets/app.js#L221) |
+| e | VariableDeclaration | el | [222](../../magpie/internal/gui/assets/app.js#L222) |
+| replaceKeeping | FunctionDeclaration |  | [232](../../magpie/internal/gui/assets/app.js#L232) |
+| keep | VariableDeclaration | replaceKeeping | [233](../../magpie/internal/gui/assets/app.js#L233) |
+| n | VariableDeclaration | replaceKeeping | [234](../../magpie/internal/gui/assets/app.js#L234) |
+| at | VariableDeclaration | replaceKeeping | [235](../../magpie/internal/gui/assets/app.js#L235) |
+| n | VariableDeclaration | replaceKeeping | [236](../../magpie/internal/gui/assets/app.js#L236) |
+| svg | FunctionDeclaration |  | [241](../../magpie/internal/gui/assets/app.js#L241) |
+| s | VariableDeclaration | svg | [242](../../magpie/internal/gui/assets/app.js#L242) |
+| CHEV | VariableDeclaration |  | [249](../../magpie/internal/gui/assets/app.js#L249) |
+| DOTS | VariableDeclaration |  | [251](../../magpie/internal/gui/assets/app.js#L251) |
+| CHEV_R | VariableDeclaration |  | [252](../../magpie/internal/gui/assets/app.js#L252) |
+| CHECK | VariableDeclaration |  | [253](../../magpie/internal/gui/assets/app.js#L253) |
+| CROSS | VariableDeclaration |  | [254](../../magpie/internal/gui/assets/app.js#L254) |
+| PLUS | VariableDeclaration |  | [255](../../magpie/internal/gui/assets/app.js#L255) |
+| OUT | VariableDeclaration |  | [256](../../magpie/internal/gui/assets/app.js#L256) |
+| COPY_ICON | VariableDeclaration |  | [257](../../magpie/internal/gui/assets/app.js#L257) |
+| PENCIL | VariableDeclaration |  | [258](../../magpie/internal/gui/assets/app.js#L258) |
+| PUZZLE | VariableDeclaration |  | [259](../../magpie/internal/gui/assets/app.js#L259) |
+| keptIcons | VariableDeclaration |  | [267](../../magpie/internal/gui/assets/app.js#L267) |
+| keepIcons | FunctionDeclaration |  | [268](../../magpie/internal/gui/assets/app.js#L268) |
+| r | VariableDeclaration | keepIcons | [270](../../magpie/internal/gui/assets/app.js#L270) |
+| e | VariableDeclaration | keepIcons | [270](../../magpie/internal/gui/assets/app.js#L270) |
+| maskLoads | VariableDeclaration |  | [284](../../magpie/internal/gui/assets/app.js#L284) |
+| maskShelf | VariableDeclaration |  | [285](../../magpie/internal/gui/assets/app.js#L285) |
+| maskSpan | FunctionDeclaration |  | [286](../../magpie/internal/gui/assets/app.js#L286) |
+| pic | VariableDeclaration | maskSpan | [289](../../magpie/internal/gui/assets/app.js#L289) |
+| m | VariableDeclaration | maskSpan | [290](../../magpie/internal/gui/assets/app.js#L290) |
+| load | VariableDeclaration | maskSpan | [292](../../magpie/internal/gui/assets/app.js#L292) |
+| probe | VariableDeclaration | maskSpan | [295](../../magpie/internal/gui/assets/app.js#L295) |
+| k | VariableDeclaration | maskSpan | [307](../../magpie/internal/gui/assets/app.js#L307) |
+| pngIcons | VariableDeclaration |  | [316](../../magpie/internal/gui/assets/app.js#L316) |
+| icon | FunctionDeclaration |  | [321](../../magpie/internal/gui/assets/app.js#L321) |
+| kept | VariableDeclaration | icon | [322](../../magpie/internal/gui/assets/app.js#L322) |
+| e | VariableDeclaration | icon | [324](../../magpie/internal/gui/assets/app.js#L324) |
+| img | VariableDeclaration | icon | [333](../../magpie/internal/gui/assets/app.js#L333) |

@@ -4,20 +4,28 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_follow.go) · page 1/1
 
-Source SHA-256: 35cbbe5390496ad40adda5d3930c9deaa39ec2686bdf3ae343053fffffe74b5e
+Source SHA-256: 73c0f63c45d5bc29208f12a538342b1afe08a6fda4641e625bc4e2c4778709e0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexSideSet | var_spec |  | [33](../../magpie/internal/gateway/codex_follow.go#L33) |
-| codexLeadsCap | const_spec |  | [36](../../magpie/internal/gateway/codex_follow.go#L36) |
-| codexLeads | struct_type |  | [41](../../magpie/internal/gateway/codex_follow.go#L41) |
-| mu | field_declaration | codexLeads | [42](../../magpie/internal/gateway/codex_follow.go#L42) |
-| thread | field_declaration | codexLeads | [43](../../magpie/internal/gateway/codex_follow.go#L43) |
-| last | field_declaration | codexLeads | [44](../../magpie/internal/gateway/codex_follow.go#L44) |
-| codexLead | struct_type |  | [47](../../magpie/internal/gateway/codex_follow.go#L47) |
-| model | field_declaration | codexLead | [48](../../magpie/internal/gateway/codex_follow.go#L48) |
-| at | field_declaration | codexLead | [49](../../magpie/internal/gateway/codex_follow.go#L49) |
-| saw | method_declaration | *codexLeads | [53](../../magpie/internal/gateway/codex_follow.go#L53) |
-| of | method_declaration | *codexLeads | [83](../../magpie/internal/gateway/codex_follow.go#L83) |
-| codexFollowTo | method_declaration | *Server | [104](../../magpie/internal/gateway/codex_follow.go#L104) |
-| codexSessionOf | method_declaration | *Server | [144](../../magpie/internal/gateway/codex_follow.go#L144) |
+| CodexSideSet | var_spec |  | [34](../../magpie/internal/gateway/codex_follow.go#L34) |
+| codexLeadsCap | const_spec |  | [37](../../magpie/internal/gateway/codex_follow.go#L37) |
+| codexLeads | struct_type |  | [42](../../magpie/internal/gateway/codex_follow.go#L42) |
+| mu | field_declaration | codexLeads | [43](../../magpie/internal/gateway/codex_follow.go#L43) |
+| thread | field_declaration | codexLeads | [44](../../magpie/internal/gateway/codex_follow.go#L44) |
+| last | field_declaration | codexLeads | [45](../../magpie/internal/gateway/codex_follow.go#L45) |
+| next | field_declaration | codexLeads | [48](../../magpie/internal/gateway/codex_follow.go#L48) |
+| codexLead | struct_type |  | [51](../../magpie/internal/gateway/codex_follow.go#L51) |
+| model | field_declaration | codexLead | [52](../../magpie/internal/gateway/codex_follow.go#L52) |
+| at | field_declaration | codexLead | [53](../../magpie/internal/gateway/codex_follow.go#L53) |
+| saw | method_declaration | *codexLeads | [57](../../magpie/internal/gateway/codex_follow.go#L57) |
+| of | method_declaration | *codexLeads | [92](../../magpie/internal/gateway/codex_follow.go#L92) |
+| lookup | method_declaration | *codexLeads | [99](../../magpie/internal/gateway/codex_follow.go#L99) |
+| codexSideFresh | var_spec |  | [121](../../magpie/internal/gateway/codex_follow.go#L121) |
+| codexSideWait | var_spec |  | [122](../../magpie/internal/gateway/codex_follow.go#L122) |
+| sideOf | method_declaration | *codexLeads | [144](../../magpie/internal/gateway/codex_follow.go#L144) |
+| codexFollowTo | method_declaration | *Server | [172](../../magpie/internal/gateway/codex_follow.go#L172) |
+| codexSessionOf | method_declaration | *Server | [218](../../magpie/internal/gateway/codex_follow.go#L218) |
+| codexSideSession | method_declaration | *Server | [224](../../magpie/internal/gateway/codex_follow.go#L224) |
+| codexMemorySession | method_declaration | *Server | [230](../../magpie/internal/gateway/codex_follow.go#L230) |
+| servedSession | method_declaration | *Server | [236](../../magpie/internal/gateway/codex_follow.go#L236) |

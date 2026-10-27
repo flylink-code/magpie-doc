@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 43/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| folded | VariableDeclaration | renderQuotas | [15697](../../magpie/internal/gui/assets/app.js#L15697) |
-| sub | VariableDeclaration | renderQuotas | [15698](../../magpie/internal/gui/assets/app.js#L15698) |
-| brief | VariableDeclaration | renderQuotas | [15702](../../magpie/internal/gui/assets/app.js#L15702) |
-| history | VariableDeclaration | renderQuotas | [15703](../../magpie/internal/gui/assets/app.js#L15703) |
-| shownSub | VariableDeclaration | renderQuotas | [15704](../../magpie/internal/gui/assets/app.js#L15704) |
-| [meters, every] | VariableDeclaration | renderQuotas | [15705](../../magpie/internal/gui/assets/app.js#L15705) |
-| meters | BindingElement | renderQuotas.[meters, every] | [15705](../../magpie/internal/gui/assets/app.js#L15705) |
-| every | BindingElement | renderQuotas.[meters, every] | [15705](../../magpie/internal/gui/assets/app.js#L15705) |
-| who | VariableDeclaration | renderQuotas | [15707](../../magpie/internal/gui/assets/app.js#L15707) |
-| auto | VariableDeclaration | renderQuotas | [15712](../../magpie/internal/gui/assets/app.js#L15712) |
-| keyLine | VariableDeclaration | renderQuotas | [15724](../../magpie/internal/gui/assets/app.js#L15724) |
-| own | VariableDeclaration | renderQuotas | [15727](../../magpie/internal/gui/assets/app.js#L15727) |
-| curve | VariableDeclaration | renderQuotas | [15734](../../magpie/internal/gui/assets/app.js#L15734) |
-| spend | VariableDeclaration | renderQuotas | [15741](../../magpie/internal/gui/assets/app.js#L15741) |
-| read | VariableDeclaration | renderQuotas | [15746](../../magpie/internal/gui/assets/app.js#L15746) |
-| r | VariableDeclaration | renderQuotas | [15749](../../magpie/internal/gui/assets/app.js#L15749) |
-| use | VariableDeclaration | renderQuotas | [15754](../../magpie/internal/gui/assets/app.js#L15754) |
-| policy | VariableDeclaration | renderQuotas | [15762](../../magpie/internal/gui/assets/app.js#L15762) |
-| credits | VariableDeclaration | renderQuotas | [15765](../../magpie/internal/gui/assets/app.js#L15765) |
-| usageOpen | VariableDeclaration |  | [15795](../../magpie/internal/gui/assets/app.js#L15795) |
-| usageAccts | VariableDeclaration |  | [15795](../../magpie/internal/gui/assets/app.js#L15795) |
-| usageByMore | VariableDeclaration |  | [15795](../../magpie/internal/gui/assets/app.js#L15795) |
-| usageShown | FunctionDeclaration |  | [15806](../../magpie/internal/gui/assets/app.js#L15806) |
-| pick | VariableDeclaration | usageShown | [15807](../../magpie/internal/gui/assets/app.js#L15807) |
-| q | VariableDeclaration | usageShown | [15808](../../magpie/internal/gui/assets/app.js#L15808) |
-| usageAcctKey | VariableDeclaration |  | [15811](../../magpie/internal/gui/assets/app.js#L15811) |
-| usageAcctOpen | FunctionDeclaration |  | [15813](../../magpie/internal/gui/assets/app.js#L15813) |
-| v | VariableDeclaration | usageAcctOpen | [15814](../../magpie/internal/gui/assets/app.js#L15814) |
-| setUsageAccts | FunctionDeclaration |  | [15821](../../magpie/internal/gui/assets/app.js#L15821) |
-| q | VariableDeclaration | setUsageAccts | [15822](../../magpie/internal/gui/assets/app.js#L15822) |
-| KEYS_SHOWN | VariableDeclaration |  | [15834](../../magpie/internal/gui/assets/app.js#L15834) |
-| usageKeysAll | VariableDeclaration |  | [15835](../../magpie/internal/gui/assets/app.js#L15835) |
-| keysFolded | FunctionDeclaration |  | [15837](../../magpie/internal/gui/assets/app.js#L15837) |
-| shown | VariableDeclaration | keysFolded | [15839](../../magpie/internal/gui/assets/app.js#L15839) |
-| q | VariableDeclaration | keysFolded | [15840](../../magpie/internal/gui/assets/app.js#L15840) |
-| rest | VariableDeclaration | keysFolded | [15841](../../magpie/internal/gui/assets/app.js#L15841) |
-| keysMore | FunctionDeclaration |  | [15844](../../magpie/internal/gui/assets/app.js#L15844) |
-| b | VariableDeclaration | keysMore | [15845](../../magpie/internal/gui/assets/app.js#L15845) |
-| ACCTS_FOLD | VariableDeclaration |  | [15861](../../magpie/internal/gui/assets/app.js#L15861) |
-| ACCTS_SHOWN | VariableDeclaration |  | [15861](../../magpie/internal/gui/assets/app.js#L15861) |
-| usageAcctsAll | VariableDeclaration |  | [15862](../../magpie/internal/gui/assets/app.js#L15862) |
-| acctsFolded | FunctionDeclaration |  | [15864](../../magpie/internal/gui/assets/app.js#L15864) |
-| shown | VariableDeclaration | acctsFolded | [15866](../../magpie/internal/gui/assets/app.js#L15866) |
-| q | VariableDeclaration | acctsFolded | [15867](../../magpie/internal/gui/assets/app.js#L15867) |
-| acctsMore | FunctionDeclaration |  | [15874](../../magpie/internal/gui/assets/app.js#L15874) |
-| b | VariableDeclaration | acctsMore | [15875](../../magpie/internal/gui/assets/app.js#L15875) |
-| keysSum | FunctionDeclaration |  | [15888](../../magpie/internal/gui/assets/app.js#L15888) |
-| total | VariableDeclaration | keysSum | [15889](../../magpie/internal/gui/assets/app.js#L15889) |
-| unit | VariableDeclaration | keysSum | [15889](../../magpie/internal/gui/assets/app.js#L15889) |
-| q | VariableDeclaration | keysSum | [15890](../../magpie/internal/gui/assets/app.js#L15890) |
-| m | VariableDeclaration | keysSum | [15891](../../magpie/internal/gui/assets/app.js#L15891) |
-| u | VariableDeclaration | keysSum | [15893](../../magpie/internal/gui/assets/app.js#L15893) |
-| usageMore | FunctionDeclaration |  | [15904](../../magpie/internal/gui/assets/app.js#L15904) |
-| closed | VariableDeclaration | usageMore | [15905](../../magpie/internal/gui/assets/app.js#L15905) |
-| panel | VariableDeclaration | usageMore | [15906](../../magpie/internal/gui/assets/app.js#L15906) |
-| n | VariableDeclaration | usageMore | [15908](../../magpie/internal/gui/assets/app.js#L15908) |
-| pick | VariableDeclaration | usageMore | [15909](../../magpie/internal/gui/assets/app.js#L15909) |
-| opened | VariableDeclaration | usageMore | [15910](../../magpie/internal/gui/assets/app.js#L15910) |
-| fold | VariableDeclaration | usageMore | [15911](../../magpie/internal/gui/assets/app.js#L15911) |
-| label | VariableDeclaration | usageMore | [15913](../../magpie/internal/gui/assets/app.js#L15913) |
-| b | VariableDeclaration | usageMore | [15918](../../magpie/internal/gui/assets/app.js#L15918) |
-| usageAcctFold | FunctionDeclaration |  | [15928](../../magpie/internal/gui/assets/app.js#L15928) |
-| b | VariableDeclaration | usageAcctFold | [15929](../../magpie/internal/gui/assets/app.js#L15929) |
-| byUsageOrder | FunctionDeclaration |  | [15946](../../magpie/internal/gui/assets/app.js#L15946) |
-| order | VariableDeclaration | byUsageOrder | [15947](../../magpie/internal/gui/assets/app.js#L15947) |
-| rank | VariableDeclaration | byUsageOrder | [15948](../../magpie/internal/gui/assets/app.js#L15948) |
-| i | VariableDeclaration | byUsageOrder.rank | [15948](../../magpie/internal/gui/assets/app.js#L15948) |
-| a | BindingElement | byUsageOrder | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
-| i | BindingElement | byUsageOrder | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
-| b | BindingElement | byUsageOrder | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
-| j | BindingElement | byUsageOrder | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
-| q | BindingElement | byUsageOrder | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
-| keyCards | FunctionDeclaration |  | [15962](../../magpie/internal/gui/assets/app.js#L15962) |
-| plan | VariableDeclaration | keyCards | [15963](../../magpie/internal/gui/assets/app.js#L15963) |
-| bal | VariableDeclaration | keyCards | [15964](../../magpie/internal/gui/assets/app.js#L15964) |
-| merged | VariableDeclaration | keyCards | [15965](../../magpie/internal/gui/assets/app.js#L15965) |
-| gone | VariableDeclaration | keyCards | [15965](../../magpie/internal/gui/assets/app.js#L15965) |
-| p | VariableDeclaration | keyCards | [15966](../../magpie/internal/gui/assets/app.js#L15966) |
-| of | VariableDeclaration | keyCards | [15968](../../magpie/internal/gui/assets/app.js#L15968) |
-| b | VariableDeclaration | keyCards | [15969](../../magpie/internal/gui/assets/app.js#L15969) |
-| USAGE_MIN | VariableDeclaration |  | [15996](../../magpie/internal/gui/assets/app.js#L15996) |
-| USAGE_GAP | VariableDeclaration |  | [15996](../../magpie/internal/gui/assets/app.js#L15996) |
-| usagePacked | VariableDeclaration |  | [15997](../../magpie/internal/gui/assets/app.js#L15997) |
-| usagePackFrame | VariableDeclaration |  | [15997](../../magpie/internal/gui/assets/app.js#L15997) |
-| packUsage | FunctionDeclaration |  | [15998](../../magpie/internal/gui/assets/app.js#L15998) |
-| list | VariableDeclaration | packUsage | [15999](../../magpie/internal/gui/assets/app.js#L15999) |
-| cards | VariableDeclaration | packUsage | [16002](../../magpie/internal/gui/assets/app.js#L16002) |
-| width | VariableDeclaration | packUsage | [16002](../../magpie/internal/gui/assets/app.js#L16002) |
-| c | VariableDeclaration | packUsage | [16007](../../magpie/internal/gui/assets/app.js#L16007) |
-| keys | VariableDeclaration | packUsage | [16011](../../magpie/internal/gui/assets/app.js#L16011) |
-| most | VariableDeclaration | packUsage | [16012](../../magpie/internal/gui/assets/app.js#L16012) |
-| place | VariableDeclaration | packUsage | [16013](../../magpie/internal/gui/assets/app.js#L16013) |
-| ends | VariableDeclaration | packUsage.place | [16014](../../magpie/internal/gui/assets/app.js#L16014) |
-| at | VariableDeclaration | packUsage.place | [16014](../../magpie/internal/gui/assets/app.js#L16014) |
-| h | VariableDeclaration | packUsage.place | [16015](../../magpie/internal/gui/assets/app.js#L16015) |
-| low | VariableDeclaration | packUsage.place | [16017](../../magpie/internal/gui/assets/app.js#L16017) |
-| c | VariableDeclaration | packUsage.place | [16017](../../magpie/internal/gui/assets/app.js#L16017) |
-| tall | VariableDeclaration | packUsage.place | [16021](../../magpie/internal/gui/assets/app.js#L16021) |
-| empty | VariableDeclaration | packUsage.place | [16023](../../magpie/internal/gui/assets/app.js#L16023) |
-| heights | VariableDeclaration | packUsage | [16026](../../magpie/internal/gui/assets/app.js#L16026) |
+| pick | VariableDeclaration | usageMore | [15717](../../magpie/internal/gui/assets/app.js#L15717) |
+| opened | VariableDeclaration | usageMore | [15718](../../magpie/internal/gui/assets/app.js#L15718) |
+| fold | VariableDeclaration | usageMore | [15719](../../magpie/internal/gui/assets/app.js#L15719) |
+| label | VariableDeclaration | usageMore | [15721](../../magpie/internal/gui/assets/app.js#L15721) |
+| b | VariableDeclaration | usageMore | [15726](../../magpie/internal/gui/assets/app.js#L15726) |
+| usageAcctFold | FunctionDeclaration |  | [15736](../../magpie/internal/gui/assets/app.js#L15736) |
+| b | VariableDeclaration | usageAcctFold | [15737](../../magpie/internal/gui/assets/app.js#L15737) |
+| byUsageOrder | FunctionDeclaration |  | [15754](../../magpie/internal/gui/assets/app.js#L15754) |
+| order | VariableDeclaration | byUsageOrder | [15755](../../magpie/internal/gui/assets/app.js#L15755) |
+| rank | VariableDeclaration | byUsageOrder | [15756](../../magpie/internal/gui/assets/app.js#L15756) |
+| i | VariableDeclaration | byUsageOrder.rank | [15756](../../magpie/internal/gui/assets/app.js#L15756) |
+| a | BindingElement | byUsageOrder | [15757](../../magpie/internal/gui/assets/app.js#L15757) |
+| i | BindingElement | byUsageOrder | [15757](../../magpie/internal/gui/assets/app.js#L15757) |
+| b | BindingElement | byUsageOrder | [15757](../../magpie/internal/gui/assets/app.js#L15757) |
+| j | BindingElement | byUsageOrder | [15757](../../magpie/internal/gui/assets/app.js#L15757) |
+| q | BindingElement | byUsageOrder | [15757](../../magpie/internal/gui/assets/app.js#L15757) |
+| keyCards | FunctionDeclaration |  | [15770](../../magpie/internal/gui/assets/app.js#L15770) |
+| plan | VariableDeclaration | keyCards | [15771](../../magpie/internal/gui/assets/app.js#L15771) |
+| bal | VariableDeclaration | keyCards | [15772](../../magpie/internal/gui/assets/app.js#L15772) |
+| merged | VariableDeclaration | keyCards | [15773](../../magpie/internal/gui/assets/app.js#L15773) |
+| gone | VariableDeclaration | keyCards | [15773](../../magpie/internal/gui/assets/app.js#L15773) |
+| p | VariableDeclaration | keyCards | [15774](../../magpie/internal/gui/assets/app.js#L15774) |
+| of | VariableDeclaration | keyCards | [15776](../../magpie/internal/gui/assets/app.js#L15776) |
+| b | VariableDeclaration | keyCards | [15777](../../magpie/internal/gui/assets/app.js#L15777) |
+| USAGE_MIN | VariableDeclaration |  | [15804](../../magpie/internal/gui/assets/app.js#L15804) |
+| USAGE_GAP | VariableDeclaration |  | [15804](../../magpie/internal/gui/assets/app.js#L15804) |
+| usagePacked | VariableDeclaration |  | [15805](../../magpie/internal/gui/assets/app.js#L15805) |
+| usagePackFrame | VariableDeclaration |  | [15805](../../magpie/internal/gui/assets/app.js#L15805) |
+| packUsage | FunctionDeclaration |  | [15806](../../magpie/internal/gui/assets/app.js#L15806) |
+| list | VariableDeclaration | packUsage | [15807](../../magpie/internal/gui/assets/app.js#L15807) |
+| cards | VariableDeclaration | packUsage | [15810](../../magpie/internal/gui/assets/app.js#L15810) |
+| width | VariableDeclaration | packUsage | [15810](../../magpie/internal/gui/assets/app.js#L15810) |
+| c | VariableDeclaration | packUsage | [15815](../../magpie/internal/gui/assets/app.js#L15815) |
+| keys | VariableDeclaration | packUsage | [15819](../../magpie/internal/gui/assets/app.js#L15819) |
+| most | VariableDeclaration | packUsage | [15820](../../magpie/internal/gui/assets/app.js#L15820) |
+| place | VariableDeclaration | packUsage | [15821](../../magpie/internal/gui/assets/app.js#L15821) |
+| ends | VariableDeclaration | packUsage.place | [15822](../../magpie/internal/gui/assets/app.js#L15822) |
+| at | VariableDeclaration | packUsage.place | [15822](../../magpie/internal/gui/assets/app.js#L15822) |
+| h | VariableDeclaration | packUsage.place | [15823](../../magpie/internal/gui/assets/app.js#L15823) |
+| low | VariableDeclaration | packUsage.place | [15825](../../magpie/internal/gui/assets/app.js#L15825) |
+| c | VariableDeclaration | packUsage.place | [15825](../../magpie/internal/gui/assets/app.js#L15825) |
+| tall | VariableDeclaration | packUsage.place | [15829](../../magpie/internal/gui/assets/app.js#L15829) |
+| empty | VariableDeclaration | packUsage.place | [15831](../../magpie/internal/gui/assets/app.js#L15831) |
+| heights | VariableDeclaration | packUsage | [15834](../../magpie/internal/gui/assets/app.js#L15834) |
+| c | VariableDeclaration | packUsage.heights | [15835](../../magpie/internal/gui/assets/app.js#L15835) |
+| g | VariableDeclaration | packUsage.heights | [15836](../../magpie/internal/gui/assets/app.js#L15836) |
+| columns | VariableDeclaration | packUsage | [15839](../../magpie/internal/gui/assets/app.js#L15839) |
+| best | VariableDeclaration | packUsage | [15840](../../magpie/internal/gui/assets/app.js#L15840) |
+| c | VariableDeclaration | packUsage | [15846](../../magpie/internal/gui/assets/app.js#L15846) |
+| n | VariableDeclaration | packUsage | [15847](../../magpie/internal/gui/assets/app.js#L15847) |
+| p | VariableDeclaration | packUsage | [15849](../../magpie/internal/gui/assets/app.js#L15849) |
+| last | VariableDeclaration | packUsage | [15860](../../magpie/internal/gui/assets/app.js#L15860) |
+| c | BindingElement | packUsage.last | [15860](../../magpie/internal/gui/assets/app.js#L15860) |
+| c | BindingElement | packUsage | [15861](../../magpie/internal/gui/assets/app.js#L15861) |
+| top | BindingElement | packUsage | [15861](../../magpie/internal/gui/assets/app.js#L15861) |
+| h | BindingElement | packUsage | [15861](../../magpie/internal/gui/assets/app.js#L15861) |
+| area | VariableDeclaration | packUsage | [15863](../../magpie/internal/gui/assets/app.js#L15863) |
+| min | VariableDeclaration | packUsage | [15865](../../magpie/internal/gui/assets/app.js#L15865) |
+| usagePack | VariableDeclaration |  | [15875](../../magpie/internal/gui/assets/app.js#L15875) |
+| packUsageNow | FunctionDeclaration |  | [15876](../../magpie/internal/gui/assets/app.js#L15876) |
+| card | VariableDeclaration | packUsageNow | [15880](../../magpie/internal/gui/assets/app.js#L15880) |
+| part | VariableDeclaration | packUsageNow | [15882](../../magpie/internal/gui/assets/app.js#L15882) |
+| usageArranging | VariableDeclaration |  | [15889](../../magpie/internal/gui/assets/app.js#L15889) |
+| usageRenderPending | VariableDeclaration |  | [15889](../../magpie/internal/gui/assets/app.js#L15889) |
+| usageHandle | FunctionDeclaration |  | [15890](../../magpie/internal/gui/assets/app.js#L15890) |
+| b | VariableDeclaration | usageHandle | [15891](../../magpie/internal/gui/assets/app.js#L15891) |
+| step | VariableDeclaration | usageHandle | [15897](../../magpie/internal/gui/assets/app.js#L15897) |
+| keys | VariableDeclaration | usageHandle | [15900](../../magpie/internal/gui/assets/app.js#L15900) |
+| list | VariableDeclaration | usageHandle | [15907](../../magpie/internal/gui/assets/app.js#L15907) |
+| usageKeys | VariableDeclaration |  | [15918](../../magpie/internal/gui/assets/app.js#L15918) |
+| moveUsage | FunctionDeclaration |  | [15923](../../magpie/internal/gui/assets/app.js#L15923) |
+| keys | VariableDeclaration | moveUsage | [15924](../../magpie/internal/gui/assets/app.js#L15924) |
+| from | VariableDeclaration | moveUsage | [15925](../../magpie/internal/gui/assets/app.js#L15925) |
+| prev | VariableDeclaration | moveUsage | [15928](../../magpie/internal/gui/assets/app.js#L15928) |
+| order | VariableDeclaration | moveUsage | [15929](../../magpie/internal/gui/assets/app.js#L15929) |
+| s | VariableDeclaration | moveUsage | [15933](../../magpie/internal/gui/assets/app.js#L15933) |
+| e | VariableDeclaration | moveUsage | [15935](../../magpie/internal/gui/assets/app.js#L15935) |
+| creditDays | FunctionDeclaration |  | [15946](../../magpie/internal/gui/assets/app.js#L15946) |
+| box | VariableDeclaration | creditDays | [15947](../../magpie/internal/gui/assets/app.js#L15947) |
+| { since, days } | VariableDeclaration | creditDays | [15948](../../magpie/internal/gui/assets/app.js#L15948) |
+| since | BindingElement | creditDays.{ since, days } | [15948](../../magpie/internal/gui/assets/app.js#L15948) |
+| days | BindingElement | creditDays.{ since, days } | [15948](../../magpie/internal/gui/assets/app.js#L15948) |
+| by | VariableDeclaration | creditDays | [15949](../../magpie/internal/gui/assets/app.js#L15949) |
+| key | VariableDeclaration | creditDays | [15950](../../magpie/internal/gui/assets/app.js#L15950) |
+| today | VariableDeclaration | creditDays | [15951](../../magpie/internal/gui/assets/app.js#L15951) |
+| range | VariableDeclaration | creditDays | [15955](../../magpie/internal/gui/assets/app.js#L15955) |
+| last | VariableDeclaration | creditDays | [15956](../../magpie/internal/gui/assets/app.js#L15956) |
+| n | VariableDeclaration | creditDays | [15957](../../magpie/internal/gui/assets/app.js#L15957) |
+| list | VariableDeclaration | creditDays | [15960](../../magpie/internal/gui/assets/app.js#L15960) |
+| i | VariableDeclaration | creditDays | [15961](../../magpie/internal/gui/assets/app.js#L15961) |
+| d | VariableDeclaration | creditDays | [15962](../../magpie/internal/gui/assets/app.js#L15962) |
+| num | VariableDeclaration | creditDays | [15966](../../magpie/internal/gui/assets/app.js#L15966) |
+| dayName | VariableDeclaration | creditDays | [15967](../../magpie/internal/gui/assets/app.js#L15967) |
+| sum | VariableDeclaration | creditDays | [15968](../../magpie/internal/gui/assets/app.js#L15968) |
+| head | VariableDeclaration | creditDays | [15969](../../magpie/internal/gui/assets/app.js#L15969) |
+| name | VariableDeclaration | creditDays | [15970](../../magpie/internal/gui/assets/app.js#L15970) |
+| bars | VariableDeclaration | creditDays | [15975](../../magpie/internal/gui/assets/app.js#L15975) |
+| peak | VariableDeclaration | creditDays | [15976](../../magpie/internal/gui/assets/app.js#L15976) |
+| d | VariableDeclaration | creditDays | [15977](../../magpie/internal/gui/assets/app.js#L15977) |
+| b | VariableDeclaration | creditDays | [15978](../../magpie/internal/gui/assets/app.js#L15978) |

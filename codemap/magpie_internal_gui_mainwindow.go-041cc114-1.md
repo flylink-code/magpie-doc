@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/mainwindow.go) · page 1/1
 
-Source SHA-256: c5377b5327d1df6e2b36cae7cea4b9fa8578ec52cd44b1a18b33973e6fae1b23
+Source SHA-256: 2b2f2825273d06682c92581da733485ef9fd17a0cf65f1dce6cf650545692104
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,5 +13,6 @@ Source SHA-256: c5377b5327d1df6e2b36cae7cea4b9fa8578ec52cd44b1a18b33973e6fae1b23
 | closeHide | const_spec |  | [36](../../magpie/internal/gui/mainwindow.go#L36) |
 | closeLeaveFullscreen | const_spec |  | [37](../../magpie/internal/gui/mainwindow.go#L37) |
 | closeStep | function_declaration |  | [43](../../magpie/internal/gui/mainwindow.go#L43) |
-| hideMain | method_declaration | *host | [52](../../magpie/internal/gui/mainwindow.go#L52) |
-| leaveFullscreenThenHide | method_declaration | *host | [64](../../magpie/internal/gui/mainwindow.go#L64) |
+| mainClosedJS | const_spec |  | [54](../../magpie/internal/gui/mainwindow.go#L54) |
+| hideMain | method_declaration | *host | [58](../../magpie/internal/gui/mainwindow.go#L58) |
+| leaveFullscreenThenHide | method_declaration | *host | [71](../../magpie/internal/gui/mainwindow.go#L71) |

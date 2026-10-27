@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/provider.go) · page 1/2
 
-Source SHA-256: 8e0a3ad0004ac9f0c6166eb3c19cace43f521085f5a2a019220dcfafced3daf4
+Source SHA-256: 6b4ce8647fd293b09af6aff3a41563923bfb045759f4c36352993c478ace8360
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -28,83 +28,83 @@ Source SHA-256: 8e0a3ad0004ac9f0c6166eb3c19cace43f521085f5a2a019220dcfafced3daf4
 | Keys | field_declaration | Provider | [76](../../magpie/internal/provider/provider.go#L76) |
 | KeyProtocol | field_declaration | Provider | [80](../../magpie/internal/provider/provider.go#L80) |
 | KeyWeight | field_declaration | Provider | [82](../../magpie/internal/provider/provider.go#L82) |
-| Chat | field_declaration | Provider | [87](../../magpie/internal/provider/provider.go#L87) |
-| Responses | field_declaration | Provider | [88](../../magpie/internal/provider/provider.go#L88) |
-| Anthropic | field_declaration | Provider | [89](../../magpie/internal/provider/provider.go#L89) |
-| Gemini | field_declaration | Provider | [94](../../magpie/internal/provider/provider.go#L94) |
-| Decide | field_declaration | Provider | [98](../../magpie/internal/provider/provider.go#L98) |
-| BaseAPI | field_declaration | Provider | [104](../../magpie/internal/provider/provider.go#L104) |
-| Fallback | field_declaration | Provider | [110](../../magpie/internal/provider/provider.go#L110) |
-| Routing | field_declaration | Provider | [122](../../magpie/internal/provider/provider.go#L122) |
-| Sink | field_declaration | Provider | [130](../../magpie/internal/provider/provider.go#L130) |
-| Affinity | field_declaration | Provider | [136](../../magpie/internal/provider/provider.go#L136) |
-| KeepLogin | field_declaration | Provider | [142](../../magpie/internal/provider/provider.go#L142) |
-| KeepLoginAs | field_declaration | Provider | [147](../../magpie/internal/provider/provider.go#L147) |
-| SwitchOnly | field_declaration | Provider | [153](../../magpie/internal/provider/provider.go#L153) |
-| MaxConcurrency | field_declaration | Provider | [160](../../magpie/internal/provider/provider.go#L160) |
-| AccountConcurrency | field_declaration | Provider | [165](../../magpie/internal/provider/provider.go#L165) |
-| QueueLimit | field_declaration | Provider | [169](../../magpie/internal/provider/provider.go#L169) |
-| QueueWait | field_declaration | Provider | [173](../../magpie/internal/provider/provider.go#L173) |
-| MaxRPM | field_declaration | Provider | [179](../../magpie/internal/provider/provider.go#L179) |
-| QuotaRest | field_declaration | Provider | [184](../../magpie/internal/provider/provider.go#L184) |
-| QuotaResetAt | field_declaration | Provider | [190](../../magpie/internal/provider/provider.go#L190) |
-| RestCap | field_declaration | Provider | [197](../../magpie/internal/provider/provider.go#L197) |
-| LimitRestOff | field_declaration | Provider | [203](../../magpie/internal/provider/provider.go#L203) |
-| PriceRate | field_declaration | Provider | [210](../../magpie/internal/provider/provider.go#L210) |
-| Headers | field_declaration | Provider | [218](../../magpie/internal/provider/provider.go#L218) |
-| ExtraBody | field_declaration | Provider | [224](../../magpie/internal/provider/provider.go#L224) |
-| Searches | field_declaration | Provider | [231](../../magpie/internal/provider/provider.go#L231) |
-| CodexAsSent | field_declaration | Provider | [240](../../magpie/internal/provider/provider.go#L240) |
-| AdditionalTools | field_declaration | Provider | [249](../../magpie/internal/provider/provider.go#L249) |
-| NativeCompaction | field_declaration | Provider | [261](../../magpie/internal/provider/provider.go#L261) |
-| PassUserAgent | field_declaration | Provider | [271](../../magpie/internal/provider/provider.go#L271) |
-| PinUpstream | field_declaration | Provider | [278](../../magpie/internal/provider/provider.go#L278) |
-| AuthHeader | field_declaration | Provider | [287](../../magpie/internal/provider/provider.go#L287) |
-| Unredacted | field_declaration | Provider | [295](../../magpie/internal/provider/provider.go#L295) |
-| InsecureTLS | field_declaration | Provider | [302](../../magpie/internal/provider/provider.go#L302) |
-| Proxy | field_declaration | Provider | [309](../../magpie/internal/provider/provider.go#L309) |
-| AccountProxies | field_declaration | Provider | [315](../../magpie/internal/provider/provider.go#L315) |
-| AccountModels | field_declaration | Provider | [320](../../magpie/internal/provider/provider.go#L320) |
-| AccountCaps | field_declaration | Provider | [325](../../magpie/internal/provider/provider.go#L325) |
-| AccountWindowCaps | field_declaration | Provider | [331](../../magpie/internal/provider/provider.go#L331) |
-| AccountNames | field_declaration | Provider | [337](../../magpie/internal/provider/provider.go#L337) |
-| BalanceURL | field_declaration | Provider | [343](../../magpie/internal/provider/provider.go#L343) |
-| BalancePath | field_declaration | Provider | [344](../../magpie/internal/provider/provider.go#L344) |
-| BalanceMethod | field_declaration | Provider | [348](../../magpie/internal/provider/provider.go#L348) |
-| BalanceToken | field_declaration | Provider | [354](../../magpie/internal/provider/provider.go#L354) |
-| ZhipuTeam | field_declaration | Provider | [359](../../magpie/internal/provider/provider.go#L359) |
-| Vertex | field_declaration | Provider | [363](../../magpie/internal/provider/provider.go#L363) |
-| ModelsURL | field_declaration | Provider | [368](../../magpie/internal/provider/provider.go#L368) |
-| Models | field_declaration | Provider | [372](../../magpie/internal/provider/provider.go#L372) |
-| NoModels | field_declaration | Provider | [378](../../magpie/internal/provider/provider.go#L378) |
-| PickedFrom | field_declaration | Provider | [382](../../magpie/internal/provider/provider.go#L382) |
-| Delisted | field_declaration | Provider | [391](../../magpie/internal/provider/provider.go#L391) |
-| RefreshEvery | field_declaration | Provider | [395](../../magpie/internal/provider/provider.go#L395) |
-| AutoInclude | field_declaration | Provider | [399](../../magpie/internal/provider/provider.go#L399) |
-| Unlisted | field_declaration | Provider | [403](../../magpie/internal/provider/provider.go#L403) |
-| Off | field_declaration | Provider | [408](../../magpie/internal/provider/provider.go#L408) |
-| Contexts | field_declaration | Provider | [412](../../magpie/internal/provider/provider.go#L412) |
-| Family | field_declaration | Provider | [415](../../magpie/internal/provider/provider.go#L415) |
-| Catalog | field_declaration | Provider | [417](../../magpie/internal/provider/provider.go#L417) |
-| Website | field_declaration | Provider | [418](../../magpie/internal/provider/provider.go#L418) |
-| KeysURL | field_declaration | Provider | [419](../../magpie/internal/provider/provider.go#L419) |
-| IconURL | field_declaration | Provider | [424](../../magpie/internal/provider/provider.go#L424) |
-| Hidden | field_declaration | Provider | [428](../../magpie/internal/provider/provider.go#L428) |
-| Quiet | field_declaration | Provider | [431](../../magpie/internal/provider/provider.go#L431) |
-| Tucked | field_declaration | Provider | [435](../../magpie/internal/provider/provider.go#L435) |
-| Account | field_declaration | Provider | [439](../../magpie/internal/provider/provider.go#L439) |
-| file | struct_type |  | [442](../../magpie/internal/provider/provider.go#L442) |
-| Providers | field_declaration | file | [443](../../magpie/internal/provider/provider.go#L443) |
-| Groups | field_declaration | file | [444](../../magpie/internal/provider/provider.go#L444) |
-| Searches | field_declaration | file | [447](../../magpie/internal/provider/provider.go#L447) |
-| NoAutoGroups | field_declaration | file | [450](../../magpie/internal/provider/provider.go#L450) |
-| Order | field_declaration | file | [454](../../magpie/internal/provider/provider.go#L454) |
-| GroupOrder | field_declaration | file | [458](../../magpie/internal/provider/provider.go#L458) |
-| PluginLeft | field_declaration | file | [462](../../magpie/internal/provider/provider.go#L462) |
-| Path | function_declaration |  | [466](../../magpie/internal/provider/provider.go#L466) |
-| load | function_declaration |  | [472](../../magpie/internal/provider/provider.go#L472) |
-| ErrUnreadable | var_spec |  | [479](../../magpie/internal/provider/provider.go#L479) |
-| unreadableError | struct_type |  | [481](../../magpie/internal/provider/provider.go#L481) |
-| path | field_declaration | unreadableError | [482](../../magpie/internal/provider/provider.go#L482) |
-| err | field_declaration | unreadableError | [483](../../magpie/internal/provider/provider.go#L483) |
-| Error | method_declaration | *unreadableError | [486](../../magpie/internal/provider/provider.go#L486) |
+| KeyPlan | field_declaration | Provider | [84](../../magpie/internal/provider/provider.go#L84) |
+| Chat | field_declaration | Provider | [89](../../magpie/internal/provider/provider.go#L89) |
+| Responses | field_declaration | Provider | [90](../../magpie/internal/provider/provider.go#L90) |
+| Anthropic | field_declaration | Provider | [91](../../magpie/internal/provider/provider.go#L91) |
+| Gemini | field_declaration | Provider | [96](../../magpie/internal/provider/provider.go#L96) |
+| Decide | field_declaration | Provider | [100](../../magpie/internal/provider/provider.go#L100) |
+| BaseAPI | field_declaration | Provider | [106](../../magpie/internal/provider/provider.go#L106) |
+| Fallback | field_declaration | Provider | [112](../../magpie/internal/provider/provider.go#L112) |
+| Routing | field_declaration | Provider | [124](../../magpie/internal/provider/provider.go#L124) |
+| Sink | field_declaration | Provider | [132](../../magpie/internal/provider/provider.go#L132) |
+| Affinity | field_declaration | Provider | [138](../../magpie/internal/provider/provider.go#L138) |
+| KeepLogin | field_declaration | Provider | [144](../../magpie/internal/provider/provider.go#L144) |
+| KeepLoginAs | field_declaration | Provider | [149](../../magpie/internal/provider/provider.go#L149) |
+| SwitchOnly | field_declaration | Provider | [155](../../magpie/internal/provider/provider.go#L155) |
+| MaxConcurrency | field_declaration | Provider | [162](../../magpie/internal/provider/provider.go#L162) |
+| AccountConcurrency | field_declaration | Provider | [167](../../magpie/internal/provider/provider.go#L167) |
+| QueueLimit | field_declaration | Provider | [171](../../magpie/internal/provider/provider.go#L171) |
+| QueueWait | field_declaration | Provider | [175](../../magpie/internal/provider/provider.go#L175) |
+| MaxRPM | field_declaration | Provider | [181](../../magpie/internal/provider/provider.go#L181) |
+| QuotaRest | field_declaration | Provider | [186](../../magpie/internal/provider/provider.go#L186) |
+| QuotaResetAt | field_declaration | Provider | [192](../../magpie/internal/provider/provider.go#L192) |
+| RestCap | field_declaration | Provider | [199](../../magpie/internal/provider/provider.go#L199) |
+| LimitRestOff | field_declaration | Provider | [205](../../magpie/internal/provider/provider.go#L205) |
+| PriceRate | field_declaration | Provider | [212](../../magpie/internal/provider/provider.go#L212) |
+| Headers | field_declaration | Provider | [220](../../magpie/internal/provider/provider.go#L220) |
+| ExtraBody | field_declaration | Provider | [226](../../magpie/internal/provider/provider.go#L226) |
+| Searches | field_declaration | Provider | [233](../../magpie/internal/provider/provider.go#L233) |
+| CodexAsSent | field_declaration | Provider | [242](../../magpie/internal/provider/provider.go#L242) |
+| PromptAsWritten | field_declaration | Provider | [253](../../magpie/internal/provider/provider.go#L253) |
+| AdditionalTools | field_declaration | Provider | [262](../../magpie/internal/provider/provider.go#L262) |
+| Patience | field_declaration | Provider | [272](../../magpie/internal/provider/provider.go#L272) |
+| NativeCompaction | field_declaration | Provider | [284](../../magpie/internal/provider/provider.go#L284) |
+| PassUserAgent | field_declaration | Provider | [294](../../magpie/internal/provider/provider.go#L294) |
+| PinUpstream | field_declaration | Provider | [301](../../magpie/internal/provider/provider.go#L301) |
+| AuthHeader | field_declaration | Provider | [310](../../magpie/internal/provider/provider.go#L310) |
+| Unredacted | field_declaration | Provider | [318](../../magpie/internal/provider/provider.go#L318) |
+| InsecureTLS | field_declaration | Provider | [325](../../magpie/internal/provider/provider.go#L325) |
+| Proxy | field_declaration | Provider | [332](../../magpie/internal/provider/provider.go#L332) |
+| AccountProxies | field_declaration | Provider | [338](../../magpie/internal/provider/provider.go#L338) |
+| AccountModels | field_declaration | Provider | [343](../../magpie/internal/provider/provider.go#L343) |
+| AccountCaps | field_declaration | Provider | [348](../../magpie/internal/provider/provider.go#L348) |
+| AccountWindowCaps | field_declaration | Provider | [354](../../magpie/internal/provider/provider.go#L354) |
+| AccountNames | field_declaration | Provider | [360](../../magpie/internal/provider/provider.go#L360) |
+| BalanceURL | field_declaration | Provider | [366](../../magpie/internal/provider/provider.go#L366) |
+| BalancePath | field_declaration | Provider | [367](../../magpie/internal/provider/provider.go#L367) |
+| BalanceMethod | field_declaration | Provider | [371](../../magpie/internal/provider/provider.go#L371) |
+| BalanceToken | field_declaration | Provider | [377](../../magpie/internal/provider/provider.go#L377) |
+| ZhipuTeam | field_declaration | Provider | [382](../../magpie/internal/provider/provider.go#L382) |
+| Vertex | field_declaration | Provider | [386](../../magpie/internal/provider/provider.go#L386) |
+| ModelsURL | field_declaration | Provider | [391](../../magpie/internal/provider/provider.go#L391) |
+| Models | field_declaration | Provider | [395](../../magpie/internal/provider/provider.go#L395) |
+| NoModels | field_declaration | Provider | [401](../../magpie/internal/provider/provider.go#L401) |
+| PickedFrom | field_declaration | Provider | [405](../../magpie/internal/provider/provider.go#L405) |
+| Delisted | field_declaration | Provider | [414](../../magpie/internal/provider/provider.go#L414) |
+| RefreshEvery | field_declaration | Provider | [418](../../magpie/internal/provider/provider.go#L418) |
+| AutoInclude | field_declaration | Provider | [422](../../magpie/internal/provider/provider.go#L422) |
+| Unlisted | field_declaration | Provider | [426](../../magpie/internal/provider/provider.go#L426) |
+| Off | field_declaration | Provider | [431](../../magpie/internal/provider/provider.go#L431) |
+| Contexts | field_declaration | Provider | [435](../../magpie/internal/provider/provider.go#L435) |
+| Family | field_declaration | Provider | [438](../../magpie/internal/provider/provider.go#L438) |
+| Catalog | field_declaration | Provider | [440](../../magpie/internal/provider/provider.go#L440) |
+| Website | field_declaration | Provider | [441](../../magpie/internal/provider/provider.go#L441) |
+| KeysURL | field_declaration | Provider | [442](../../magpie/internal/provider/provider.go#L442) |
+| IconURL | field_declaration | Provider | [447](../../magpie/internal/provider/provider.go#L447) |
+| Hidden | field_declaration | Provider | [451](../../magpie/internal/provider/provider.go#L451) |
+| Quiet | field_declaration | Provider | [454](../../magpie/internal/provider/provider.go#L454) |
+| Tucked | field_declaration | Provider | [458](../../magpie/internal/provider/provider.go#L458) |
+| Account | field_declaration | Provider | [462](../../magpie/internal/provider/provider.go#L462) |
+| keyView | field_declaration | Provider | [466](../../magpie/internal/provider/provider.go#L466) |
+| file | struct_type |  | [469](../../magpie/internal/provider/provider.go#L469) |
+| Providers | field_declaration | file | [470](../../magpie/internal/provider/provider.go#L470) |
+| Groups | field_declaration | file | [471](../../magpie/internal/provider/provider.go#L471) |
+| Searches | field_declaration | file | [474](../../magpie/internal/provider/provider.go#L474) |
+| NoAutoGroups | field_declaration | file | [477](../../magpie/internal/provider/provider.go#L477) |
+| Order | field_declaration | file | [481](../../magpie/internal/provider/provider.go#L481) |
+| GroupOrder | field_declaration | file | [485](../../magpie/internal/provider/provider.go#L485) |
+| PluginLeft | field_declaration | file | [489](../../magpie/internal/provider/provider.go#L489) |
+| Path | function_declaration |  | [493](../../magpie/internal/provider/provider.go#L493) |
+| load | function_declaration |  | [499](../../magpie/internal/provider/provider.go#L499) |
+| ErrUnreadable | var_spec |  | [506](../../magpie/internal/provider/provider.go#L506) |

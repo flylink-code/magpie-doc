@@ -4,57 +4,62 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/trace.go) · page 3/3
 
-Source SHA-256: 1e6514a600ae6ab11a83af3c95c125b5925af2247b89ae0b2aba29e2099356a6
+Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| totals | field_declaration | trace | [485](../../magpie/internal/gateway/trace.go#L485) |
-| bodies | field_declaration | trace | [488](../../magpie/internal/gateway/trace.go#L488) |
-| turns | field_declaration | trace | [490](../../magpie/internal/gateway/trace.go#L490) |
-| folders | field_declaration | trace | [493](../../magpie/internal/gateway/trace.go#L493) |
-| liftSeq | field_declaration | trace | [496](../../magpie/internal/gateway/trace.go#L496) |
-| lifted | method_declaration | *trace | [500](../../magpie/internal/gateway/trace.go#L500) |
-| sessionFolder | struct_type |  | [507](../../magpie/internal/gateway/trace.go#L507) |
-| folder | field_declaration | sessionFolder | [508](../../magpie/internal/gateway/trace.go#L508) |
-| at | field_declaration | sessionFolder | [509](../../magpie/internal/gateway/trace.go#L509) |
-| Totals | struct_type |  | [513](../../magpie/internal/gateway/trace.go#L513) |
-| Requests | field_declaration | Totals | [514](../../magpie/internal/gateway/trace.go#L514) |
-| Rerouted | field_declaration | Totals | [515](../../magpie/internal/gateway/trace.go#L515) |
-| Errors | field_declaration | Totals | [516](../../magpie/internal/gateway/trace.go#L516) |
-| TraceState | struct_type |  | [520](../../magpie/internal/gateway/trace.go#L520) |
-| Seq | field_declaration | TraceState | [521](../../magpie/internal/gateway/trace.go#L521) |
-| Routes | field_declaration | TraceState | [522](../../magpie/internal/gateway/trace.go#L522) |
-| Totals | field_declaration | TraceState | [523](../../magpie/internal/gateway/trace.go#L523) |
-| IDs | field_declaration | TraceState | [527](../../magpie/internal/gateway/trace.go#L527) |
-| By | field_declaration | TraceState | [531](../../magpie/internal/gateway/trace.go#L531) |
-| Lifted | field_declaration | TraceState | [535](../../magpie/internal/gateway/trace.go#L535) |
-| TraceBy | struct_type |  | [539](../../magpie/internal/gateway/trace.go#L539) |
-| Pid | field_declaration | TraceBy | [540](../../magpie/internal/gateway/trace.go#L540) |
-| Serves | field_declaration | TraceBy | [541](../../magpie/internal/gateway/trace.go#L541) |
-| changed | method_declaration | *trace | [544](../../magpie/internal/gateway/trace.go#L544) |
-| beginFor | method_declaration | *trace | [555](../../magpie/internal/gateway/trace.go#L555) |
-| begin | method_declaration | *trace | [562](../../magpie/internal/gateway/trace.go#L562) |
-| foldersKeep | const_spec |  | [594](../../magpie/internal/gateway/trace.go#L594) |
-| sessionFolder | method_declaration | *trace | [600](../../magpie/internal/gateway/trace.go#L600) |
-| shortFolder | function_declaration |  | [638](../../magpie/internal/gateway/trace.go#L638) |
-| trim | method_declaration | *trace | [653](../../magpie/internal/gateway/trace.go#L653) |
-| drop | method_declaration | *trace | [668](../../magpie/internal/gateway/trace.go#L668) |
-| maskedOf | method_declaration | *trace | [679](../../magpie/internal/gateway/trace.go#L679) |
-| update | method_declaration | *trace | [688](../../magpie/internal/gateway/trace.go#L688) |
-| gatewayTrace | method_declaration | *Server | [727](../../magpie/internal/gateway/trace.go#L727) |
-| ownerURL | function_declaration |  | [748](../../magpie/internal/gateway/trace.go#L748) |
-| OwnerTrace | function_declaration |  | [769](../../magpie/internal/gateway/trace.go#L769) |
-| Object | field_declaration | OwnerTrace | [801](../../magpie/internal/gateway/trace.go#L801) |
-| Seq | field_declaration | OwnerTrace | [802](../../magpie/internal/gateway/trace.go#L802) |
-| Routes | field_declaration | OwnerTrace | [803](../../magpie/internal/gateway/trace.go#L803) |
-| Totals | field_declaration | OwnerTrace | [804](../../magpie/internal/gateway/trace.go#L804) |
-| IDs | field_declaration | OwnerTrace | [805](../../magpie/internal/gateway/trace.go#L805) |
-| Lifted | field_declaration | OwnerTrace | [806](../../magpie/internal/gateway/trace.go#L806) |
-| Pid | field_declaration | OwnerTrace | [807](../../magpie/internal/gateway/trace.go#L807) |
-| Serves | field_declaration | OwnerTrace | [808](../../magpie/internal/gateway/trace.go#L808) |
-| OwnerLanes | function_declaration |  | [820](../../magpie/internal/gateway/trace.go#L820) |
-| Data | field_declaration | OwnerLanes | [839](../../magpie/internal/gateway/trace.go#L839) |
-| Trace | method_declaration | *Server | [849](../../magpie/internal/gateway/trace.go#L849) |
-| traceGather | var_spec |  | [903](../../magpie/internal/gateway/trace.go#L903) |
-| swapped | function_declaration |  | [907](../../magpie/internal/gateway/trace.go#L907) |
-| routeUsage | function_declaration |  | [914](../../magpie/internal/gateway/trace.go#L914) |
+| mu | field_declaration | trace | [495](../../magpie/internal/gateway/trace.go#L495) |
+| seq | field_declaration | trace | [496](../../magpie/internal/gateway/trace.go#L496) |
+| ids | field_declaration | trace | [497](../../magpie/internal/gateway/trace.go#L497) |
+| routes | field_declaration | trace | [498](../../magpie/internal/gateway/trace.go#L498) |
+| wake | field_declaration | trace | [499](../../magpie/internal/gateway/trace.go#L499) |
+| totals | field_declaration | trace | [500](../../magpie/internal/gateway/trace.go#L500) |
+| bodies | field_declaration | trace | [503](../../magpie/internal/gateway/trace.go#L503) |
+| turns | field_declaration | trace | [505](../../magpie/internal/gateway/trace.go#L505) |
+| folders | field_declaration | trace | [508](../../magpie/internal/gateway/trace.go#L508) |
+| liftSeq | field_declaration | trace | [511](../../magpie/internal/gateway/trace.go#L511) |
+| lifted | method_declaration | *trace | [515](../../magpie/internal/gateway/trace.go#L515) |
+| sessionFolder | struct_type |  | [522](../../magpie/internal/gateway/trace.go#L522) |
+| folder | field_declaration | sessionFolder | [523](../../magpie/internal/gateway/trace.go#L523) |
+| at | field_declaration | sessionFolder | [524](../../magpie/internal/gateway/trace.go#L524) |
+| Totals | struct_type |  | [528](../../magpie/internal/gateway/trace.go#L528) |
+| Requests | field_declaration | Totals | [529](../../magpie/internal/gateway/trace.go#L529) |
+| Rerouted | field_declaration | Totals | [530](../../magpie/internal/gateway/trace.go#L530) |
+| Errors | field_declaration | Totals | [531](../../magpie/internal/gateway/trace.go#L531) |
+| TraceState | struct_type |  | [535](../../magpie/internal/gateway/trace.go#L535) |
+| Seq | field_declaration | TraceState | [536](../../magpie/internal/gateway/trace.go#L536) |
+| Routes | field_declaration | TraceState | [537](../../magpie/internal/gateway/trace.go#L537) |
+| Totals | field_declaration | TraceState | [538](../../magpie/internal/gateway/trace.go#L538) |
+| IDs | field_declaration | TraceState | [542](../../magpie/internal/gateway/trace.go#L542) |
+| By | field_declaration | TraceState | [546](../../magpie/internal/gateway/trace.go#L546) |
+| Lifted | field_declaration | TraceState | [550](../../magpie/internal/gateway/trace.go#L550) |
+| TraceBy | struct_type |  | [554](../../magpie/internal/gateway/trace.go#L554) |
+| Pid | field_declaration | TraceBy | [555](../../magpie/internal/gateway/trace.go#L555) |
+| Serves | field_declaration | TraceBy | [556](../../magpie/internal/gateway/trace.go#L556) |
+| changed | method_declaration | *trace | [559](../../magpie/internal/gateway/trace.go#L559) |
+| beginFor | method_declaration | *trace | [570](../../magpie/internal/gateway/trace.go#L570) |
+| begin | method_declaration | *trace | [577](../../magpie/internal/gateway/trace.go#L577) |
+| foldersKeep | const_spec |  | [609](../../magpie/internal/gateway/trace.go#L609) |
+| sessionFolder | method_declaration | *trace | [615](../../magpie/internal/gateway/trace.go#L615) |
+| shortFolder | function_declaration |  | [653](../../magpie/internal/gateway/trace.go#L653) |
+| trim | method_declaration | *trace | [668](../../magpie/internal/gateway/trace.go#L668) |
+| drop | method_declaration | *trace | [683](../../magpie/internal/gateway/trace.go#L683) |
+| maskedOf | method_declaration | *trace | [694](../../magpie/internal/gateway/trace.go#L694) |
+| update | method_declaration | *trace | [703](../../magpie/internal/gateway/trace.go#L703) |
+| gatewayTrace | method_declaration | *Server | [742](../../magpie/internal/gateway/trace.go#L742) |
+| ownerURL | function_declaration |  | [763](../../magpie/internal/gateway/trace.go#L763) |
+| OwnerTrace | function_declaration |  | [784](../../magpie/internal/gateway/trace.go#L784) |
+| Object | field_declaration | OwnerTrace | [816](../../magpie/internal/gateway/trace.go#L816) |
+| Seq | field_declaration | OwnerTrace | [817](../../magpie/internal/gateway/trace.go#L817) |
+| Routes | field_declaration | OwnerTrace | [818](../../magpie/internal/gateway/trace.go#L818) |
+| Totals | field_declaration | OwnerTrace | [819](../../magpie/internal/gateway/trace.go#L819) |
+| IDs | field_declaration | OwnerTrace | [820](../../magpie/internal/gateway/trace.go#L820) |
+| Lifted | field_declaration | OwnerTrace | [821](../../magpie/internal/gateway/trace.go#L821) |
+| Pid | field_declaration | OwnerTrace | [822](../../magpie/internal/gateway/trace.go#L822) |
+| Serves | field_declaration | OwnerTrace | [823](../../magpie/internal/gateway/trace.go#L823) |
+| OwnerLanes | function_declaration |  | [835](../../magpie/internal/gateway/trace.go#L835) |
+| Data | field_declaration | OwnerLanes | [854](../../magpie/internal/gateway/trace.go#L854) |
+| Trace | method_declaration | *Server | [864](../../magpie/internal/gateway/trace.go#L864) |
+| traceGather | var_spec |  | [918](../../magpie/internal/gateway/trace.go#L918) |
+| swapped | function_declaration |  | [922](../../magpie/internal/gateway/trace.go#L922) |
+| routeUsage | function_declaration |  | [929](../../magpie/internal/gateway/trace.go#L929) |

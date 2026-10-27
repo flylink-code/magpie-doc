@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 10/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sessLevels | FunctionDeclaration |  | [2842](../../magpie/internal/gui/assets/plugins/usage/page.js#L2842) |
-| nz | VariableDeclaration | sessLevels | [2843](../../magpie/internal/gui/assets/plugins/usage/page.js#L2843) |
-| most | VariableDeclaration | sessLevels | [2846](../../magpie/internal/gui/assets/plugins/usage/page.js#L2846) |
-| q | VariableDeclaration | sessLevels | [2849](../../magpie/internal/gui/assets/plugins/usage/page.js#L2849) |
-| [a, b, c, top] | VariableDeclaration | sessLevels | [2850](../../magpie/internal/gui/assets/plugins/usage/page.js#L2850) |
-| a | BindingElement | sessLevels.[a, b, c, top] | [2850](../../magpie/internal/gui/assets/plugins/usage/page.js#L2850) |
-| b | BindingElement | sessLevels.[a, b, c, top] | [2850](../../magpie/internal/gui/assets/plugins/usage/page.js#L2850) |
-| c | BindingElement | sessLevels.[a, b, c, top] | [2850](../../magpie/internal/gui/assets/plugins/usage/page.js#L2850) |
-| top | BindingElement | sessLevels.[a, b, c, top] | [2850](../../magpie/internal/gui/assets/plugins/usage/page.js#L2850) |
-| sessLegend | FunctionDeclaration |  | [2853](../../magpie/internal/gui/assets/plugins/usage/page.js#L2853) |
-| l | VariableDeclaration | sessLegend | [2854](../../magpie/internal/gui/assets/plugins/usage/page.js#L2854) |
-| i | VariableDeclaration | sessLegend | [2856](../../magpie/internal/gui/assets/plugins/usage/page.js#L2856) |
-| sessWeekdays | FunctionDeclaration |  | [2861](../../magpie/internal/gui/assets/plugins/usage/page.js#L2861) |
-| loc | VariableDeclaration | sessWeekdays | [2862](../../magpie/internal/gui/assets/plugins/usage/page.js#L2862) |
-| sessCardHead | FunctionDeclaration |  | [2865](../../magpie/internal/gui/assets/plugins/usage/page.js#L2865) |
-| h | VariableDeclaration | sessCardHead | [2866](../../magpie/internal/gui/assets/plugins/usage/page.js#L2866) |
-| sessSegs | FunctionDeclaration |  | [2870](../../magpie/internal/gui/assets/plugins/usage/page.js#L2870) |
-| seg | VariableDeclaration | sessSegs | [2871](../../magpie/internal/gui/assets/plugins/usage/page.js#L2871) |
-| [id, name, off] | VariableDeclaration | sessSegs | [2872](../../magpie/internal/gui/assets/plugins/usage/page.js#L2872) |
-| id | BindingElement | sessSegs.[id, name, off] | [2872](../../magpie/internal/gui/assets/plugins/usage/page.js#L2872) |
-| name | BindingElement | sessSegs.[id, name, off] | [2872](../../magpie/internal/gui/assets/plugins/usage/page.js#L2872) |
-| off | BindingElement | sessSegs.[id, name, off] | [2872](../../magpie/internal/gui/assets/plugins/usage/page.js#L2872) |
-| b | VariableDeclaration | sessSegs | [2873](../../magpie/internal/gui/assets/plugins/usage/page.js#L2873) |
-| renderSessChart | FunctionDeclaration |  | [2885](../../magpie/internal/gui/assets/plugins/usage/page.js#L2885) |
-| perDay | VariableDeclaration | renderSessChart | [2886](../../magpie/internal/gui/assets/plugins/usage/page.js#L2886) |
-| msgs | VariableDeclaration | renderSessChart | [2886](../../magpie/internal/gui/assets/plugins/usage/page.js#L2886) |
-| first | VariableDeclaration | renderSessChart | [2887](../../magpie/internal/gui/assets/plugins/usage/page.js#L2887) |
-| last | VariableDeclaration | renderSessChart | [2887](../../magpie/internal/gui/assets/plugins/usage/page.js#L2887) |
-| n | VariableDeclaration | renderSessChart | [2888](../../magpie/internal/gui/assets/plugins/usage/page.js#L2888) |
-| days | VariableDeclaration | renderSessChart | [2891](../../magpie/internal/gui/assets/plugins/usage/page.js#L2891) |
-| at | VariableDeclaration | renderSessChart | [2891](../../magpie/internal/gui/assets/plugins/usage/page.js#L2891) |
-| i | VariableDeclaration | renderSessChart | [2892](../../magpie/internal/gui/assets/plugins/usage/page.js#L2892) |
-| d | VariableDeclaration | renderSessChart | [2892](../../magpie/internal/gui/assets/plugins/usage/page.js#L2892) |
-| x | VariableDeclaration | renderSessChart | [2893](../../magpie/internal/gui/assets/plugins/usage/page.js#L2893) |
-| r | VariableDeclaration | renderSessChart | [2898](../../magpie/internal/gui/assets/plugins/usage/page.js#L2898) |
-| x | VariableDeclaration | renderSessChart | [2899](../../magpie/internal/gui/assets/plugins/usage/page.js#L2899) |
-| a | VariableDeclaration | renderSessChart | [2904](../../magpie/internal/gui/assets/plugins/usage/page.js#L2904) |
+| s | VariableDeclaration | sessSums | [2833](../../magpie/internal/gui/assets/plugins/usage/page.js#L2833) |
+| sessLevels | FunctionDeclaration |  | [2847](../../magpie/internal/gui/assets/plugins/usage/page.js#L2847) |
+| nz | VariableDeclaration | sessLevels | [2848](../../magpie/internal/gui/assets/plugins/usage/page.js#L2848) |
+| most | VariableDeclaration | sessLevels | [2851](../../magpie/internal/gui/assets/plugins/usage/page.js#L2851) |
+| q | VariableDeclaration | sessLevels | [2854](../../magpie/internal/gui/assets/plugins/usage/page.js#L2854) |
+| [a, b, c, top] | VariableDeclaration | sessLevels | [2855](../../magpie/internal/gui/assets/plugins/usage/page.js#L2855) |
+| a | BindingElement | sessLevels.[a, b, c, top] | [2855](../../magpie/internal/gui/assets/plugins/usage/page.js#L2855) |
+| b | BindingElement | sessLevels.[a, b, c, top] | [2855](../../magpie/internal/gui/assets/plugins/usage/page.js#L2855) |
+| c | BindingElement | sessLevels.[a, b, c, top] | [2855](../../magpie/internal/gui/assets/plugins/usage/page.js#L2855) |
+| top | BindingElement | sessLevels.[a, b, c, top] | [2855](../../magpie/internal/gui/assets/plugins/usage/page.js#L2855) |
+| sessLegend | FunctionDeclaration |  | [2858](../../magpie/internal/gui/assets/plugins/usage/page.js#L2858) |
+| l | VariableDeclaration | sessLegend | [2859](../../magpie/internal/gui/assets/plugins/usage/page.js#L2859) |
+| i | VariableDeclaration | sessLegend | [2861](../../magpie/internal/gui/assets/plugins/usage/page.js#L2861) |
+| sessWeekdays | FunctionDeclaration |  | [2866](../../magpie/internal/gui/assets/plugins/usage/page.js#L2866) |
+| loc | VariableDeclaration | sessWeekdays | [2867](../../magpie/internal/gui/assets/plugins/usage/page.js#L2867) |
+| sessCardHead | FunctionDeclaration |  | [2870](../../magpie/internal/gui/assets/plugins/usage/page.js#L2870) |
+| h | VariableDeclaration | sessCardHead | [2871](../../magpie/internal/gui/assets/plugins/usage/page.js#L2871) |
+| sessSegs | FunctionDeclaration |  | [2875](../../magpie/internal/gui/assets/plugins/usage/page.js#L2875) |
+| seg | VariableDeclaration | sessSegs | [2876](../../magpie/internal/gui/assets/plugins/usage/page.js#L2876) |
+| [id, name, off] | VariableDeclaration | sessSegs | [2877](../../magpie/internal/gui/assets/plugins/usage/page.js#L2877) |
+| id | BindingElement | sessSegs.[id, name, off] | [2877](../../magpie/internal/gui/assets/plugins/usage/page.js#L2877) |
+| name | BindingElement | sessSegs.[id, name, off] | [2877](../../magpie/internal/gui/assets/plugins/usage/page.js#L2877) |
+| off | BindingElement | sessSegs.[id, name, off] | [2877](../../magpie/internal/gui/assets/plugins/usage/page.js#L2877) |
+| b | VariableDeclaration | sessSegs | [2878](../../magpie/internal/gui/assets/plugins/usage/page.js#L2878) |
+| renderSessChart | FunctionDeclaration |  | [2890](../../magpie/internal/gui/assets/plugins/usage/page.js#L2890) |
+| perDay | VariableDeclaration | renderSessChart | [2891](../../magpie/internal/gui/assets/plugins/usage/page.js#L2891) |
+| msgs | VariableDeclaration | renderSessChart | [2891](../../magpie/internal/gui/assets/plugins/usage/page.js#L2891) |
+| first | VariableDeclaration | renderSessChart | [2892](../../magpie/internal/gui/assets/plugins/usage/page.js#L2892) |
+| last | VariableDeclaration | renderSessChart | [2892](../../magpie/internal/gui/assets/plugins/usage/page.js#L2892) |
+| n | VariableDeclaration | renderSessChart | [2893](../../magpie/internal/gui/assets/plugins/usage/page.js#L2893) |
+| days | VariableDeclaration | renderSessChart | [2896](../../magpie/internal/gui/assets/plugins/usage/page.js#L2896) |
+| at | VariableDeclaration | renderSessChart | [2896](../../magpie/internal/gui/assets/plugins/usage/page.js#L2896) |
+| i | VariableDeclaration | renderSessChart | [2897](../../magpie/internal/gui/assets/plugins/usage/page.js#L2897) |
+| d | VariableDeclaration | renderSessChart | [2897](../../magpie/internal/gui/assets/plugins/usage/page.js#L2897) |
+| x | VariableDeclaration | renderSessChart | [2898](../../magpie/internal/gui/assets/plugins/usage/page.js#L2898) |
+| r | VariableDeclaration | renderSessChart | [2903](../../magpie/internal/gui/assets/plugins/usage/page.js#L2903) |
 | x | VariableDeclaration | renderSessChart | [2904](../../magpie/internal/gui/assets/plugins/usage/page.js#L2904) |
-| off | VariableDeclaration | renderSessChart | [2905](../../magpie/internal/gui/assets/plugins/usage/page.js#L2905) |
-| metric | VariableDeclaration | renderSessChart | [2906](../../magpie/internal/gui/assets/plugins/usage/page.js#L2906) |
-| value | VariableDeclaration | renderSessChart | [2907](../../magpie/internal/gui/assets/plugins/usage/page.js#L2907) |
-| show | VariableDeclaration | renderSessChart | [2909](../../magpie/internal/gui/assets/plugins/usage/page.js#L2909) |
-| tip | VariableDeclaration | renderSessChart | [2910](../../magpie/internal/gui/assets/plugins/usage/page.js#L2910) |
-| parts | VariableDeclaration | renderSessChart.tip | [2911](../../magpie/internal/gui/assets/plugins/usage/page.js#L2911) |
-| shape | VariableDeclaration | renderSessChart | [2916](../../magpie/internal/gui/assets/plugins/usage/page.js#L2916) |
-| drawn | VariableDeclaration | renderSessChart | [2921](../../magpie/internal/gui/assets/plugins/usage/page.js#L2921) |
-| same | VariableDeclaration | renderSessChart | [2922](../../magpie/internal/gui/assets/plugins/usage/page.js#L2922) |
-| lv | VariableDeclaration | renderSessChart | [2927](../../magpie/internal/gui/assets/plugins/usage/page.js#L2927) |
-| wrap | VariableDeclaration | renderSessChart | [2941](../../magpie/internal/gui/assets/plugins/usage/page.js#L2941) |
-| step | VariableDeclaration | renderSessChart | [2952](../../magpie/internal/gui/assets/plugins/usage/page.js#L2952) |
-| buckets | VariableDeclaration | renderSessChart | [2953](../../magpie/internal/gui/assets/plugins/usage/page.js#L2953) |
-| i | VariableDeclaration | renderSessChart | [2954](../../magpie/internal/gui/assets/plugins/usage/page.js#L2954) |
-| b | VariableDeclaration | renderSessChart | [2955](../../magpie/internal/gui/assets/plugins/usage/page.js#L2955) |
-| x | VariableDeclaration | renderSessChart | [2956](../../magpie/internal/gui/assets/plugins/usage/page.js#L2956) |
-| k | VariableDeclaration | renderSessChart | [2956](../../magpie/internal/gui/assets/plugins/usage/page.js#L2956) |
-| peak | VariableDeclaration | renderSessChart | [2959](../../magpie/internal/gui/assets/plugins/usage/page.js#L2959) |
-| fill | VariableDeclaration | renderSessChart | [2960](../../magpie/internal/gui/assets/plugins/usage/page.js#L2960) |
-| [top, low] | VariableDeclaration | renderSessChart.fill | [2961](../../magpie/internal/gui/assets/plugins/usage/page.js#L2961) |
-| top | BindingElement | renderSessChart.fill.[top, low] | [2961](../../magpie/internal/gui/assets/plugins/usage/page.js#L2961) |
-| low | BindingElement | renderSessChart.fill.[top, low] | [2961](../../magpie/internal/gui/assets/plugins/usage/page.js#L2961) |
-| label | VariableDeclaration | renderSessChart.fill | [2966](../../magpie/internal/gui/assets/plugins/usage/page.js#L2966) |
-| bars | VariableDeclaration | renderSessChart | [2971](../../magpie/internal/gui/assets/plugins/usage/page.js#L2971) |
-| bars | VariableDeclaration | renderSessChart | [2978](../../magpie/internal/gui/assets/plugins/usage/page.js#L2978) |
-| labels | VariableDeclaration | renderSessChart | [2979](../../magpie/internal/gui/assets/plugins/usage/page.js#L2979) |
-| k | VariableDeclaration | renderSessChart | [2980](../../magpie/internal/gui/assets/plugins/usage/page.js#L2980) |
-| every | VariableDeclaration | renderSessChart | [2981](../../magpie/internal/gui/assets/plugins/usage/page.js#L2981) |
-| bar | VariableDeclaration | renderSessChart | [2983](../../magpie/internal/gui/assets/plugins/usage/page.js#L2983) |
-| label | VariableDeclaration | renderSessChart | [2988](../../magpie/internal/gui/assets/plugins/usage/page.js#L2988) |
-| end | VariableDeclaration | renderSessChart | [2989](../../magpie/internal/gui/assets/plugins/usage/page.js#L2989) |
-| drawHead | FunctionDeclaration | renderSessChart | [2995](../../magpie/internal/gui/assets/plugins/usage/page.js#L2995) |
-| head | VariableDeclaration | renderSessChart.drawHead | [2996](../../magpie/internal/gui/assets/plugins/usage/page.js#L2996) |
-| seg | VariableDeclaration | renderSessChart.drawHead | [2997](../../magpie/internal/gui/assets/plugins/usage/page.js#L2997) |
-| id | BindingElement | renderSessChart.drawHead.seg | [2997](../../magpie/internal/gui/assets/plugins/usage/page.js#L2997) |
-| name | BindingElement | renderSessChart.drawHead.seg | [2997](../../magpie/internal/gui/assets/plugins/usage/page.js#L2997) |
-| SESS_WEEK | VariableDeclaration |  | [3011](../../magpie/internal/gui/assets/plugins/usage/page.js#L3011) |
-| SESS_WEEK_MAX | VariableDeclaration |  | [3011](../../magpie/internal/gui/assets/plugins/usage/page.js#L3011) |
-| sessCalWidth | VariableDeclaration |  | [3020](../../magpie/internal/gui/assets/plugins/usage/page.js#L3020) |
-| { target: chart } | VariableDeclaration | sessCalWidth | [3021](../../magpie/internal/gui/assets/plugins/usage/page.js#L3021) |
-| chart | BindingElement | sessCalWidth.{ target: chart } | [3021](../../magpie/internal/gui/assets/plugins/usage/page.js#L3021) |
-| sessCalFit | FunctionDeclaration |  | [3025](../../magpie/internal/gui/assets/plugins/usage/page.js#L3025) |
-| wrap | VariableDeclaration | sessCalFit | [3026](../../magpie/internal/gui/assets/plugins/usage/page.js#L3026) |
-| cal | VariableDeclaration | sessCalFit | [3026](../../magpie/internal/gui/assets/plugins/usage/page.js#L3026) |
-| ws | VariableDeclaration | sessCalFit | [3028](../../magpie/internal/gui/assets/plugins/usage/page.js#L3028) |
-| side | VariableDeclaration | sessCalFit | [3028](../../magpie/internal/gui/assets/plugins/usage/page.js#L3028) |
-| wd | VariableDeclaration | sessCalFit | [3029](../../magpie/internal/gui/assets/plugins/usage/page.js#L3029) |
-| room | VariableDeclaration | sessCalFit | [3030](../../magpie/internal/gui/assets/plugins/usage/page.js#L3030) |
-| weeks | VariableDeclaration | sessCalFit | [3031](../../magpie/internal/gui/assets/plugins/usage/page.js#L3031) |
-| pad | VariableDeclaration | sessCalFit | [3032](../../magpie/internal/gui/assets/plugins/usage/page.js#L3032) |
-| sessCalendar | FunctionDeclaration |  | [3038](../../magpie/internal/gui/assets/plugins/usage/page.js#L3038) |
-| lv | VariableDeclaration | sessCalendar | [3039](../../magpie/internal/gui/assets/plugins/usage/page.js#L3039) |
-| lead | VariableDeclaration | sessCalendar | [3040](../../magpie/internal/gui/assets/plugins/usage/page.js#L3040) |
-| weeks | VariableDeclaration | sessCalendar | [3041](../../magpie/internal/gui/assets/plugins/usage/page.js#L3041) |
-| cal | VariableDeclaration | sessCalendar | [3042](../../magpie/internal/gui/assets/plugins/usage/page.js#L3042) |
-| names | VariableDeclaration | sessCalendar | [3046](../../magpie/internal/gui/assets/plugins/usage/page.js#L3046) |
-| i | VariableDeclaration | sessCalendar | [3047](../../magpie/internal/gui/assets/plugins/usage/page.js#L3047) |
-| l | VariableDeclaration | sessCalendar | [3048](../../magpie/internal/gui/assets/plugins/usage/page.js#L3048) |
-| loc | VariableDeclaration | sessCalendar | [3052](../../magpie/internal/gui/assets/plugins/usage/page.js#L3052) |
-| month | VariableDeclaration | sessCalendar | [3053](../../magpie/internal/gui/assets/plugins/usage/page.js#L3053) |
-| labelAt | VariableDeclaration | sessCalendar | [3053](../../magpie/internal/gui/assets/plugins/usage/page.js#L3053) |
-| before | VariableDeclaration | sessCalendar | [3056](../../magpie/internal/gui/assets/plugins/usage/page.js#L3056) |
+| a | VariableDeclaration | renderSessChart | [2909](../../magpie/internal/gui/assets/plugins/usage/page.js#L2909) |
+| x | VariableDeclaration | renderSessChart | [2909](../../magpie/internal/gui/assets/plugins/usage/page.js#L2909) |
+| off | VariableDeclaration | renderSessChart | [2910](../../magpie/internal/gui/assets/plugins/usage/page.js#L2910) |
+| metric | VariableDeclaration | renderSessChart | [2911](../../magpie/internal/gui/assets/plugins/usage/page.js#L2911) |
+| value | VariableDeclaration | renderSessChart | [2912](../../magpie/internal/gui/assets/plugins/usage/page.js#L2912) |
+| show | VariableDeclaration | renderSessChart | [2914](../../magpie/internal/gui/assets/plugins/usage/page.js#L2914) |
+| tip | VariableDeclaration | renderSessChart | [2915](../../magpie/internal/gui/assets/plugins/usage/page.js#L2915) |
+| parts | VariableDeclaration | renderSessChart.tip | [2916](../../magpie/internal/gui/assets/plugins/usage/page.js#L2916) |
+| shape | VariableDeclaration | renderSessChart | [2921](../../magpie/internal/gui/assets/plugins/usage/page.js#L2921) |
+| drawn | VariableDeclaration | renderSessChart | [2926](../../magpie/internal/gui/assets/plugins/usage/page.js#L2926) |
+| same | VariableDeclaration | renderSessChart | [2927](../../magpie/internal/gui/assets/plugins/usage/page.js#L2927) |
+| lv | VariableDeclaration | renderSessChart | [2932](../../magpie/internal/gui/assets/plugins/usage/page.js#L2932) |
+| wrap | VariableDeclaration | renderSessChart | [2946](../../magpie/internal/gui/assets/plugins/usage/page.js#L2946) |
+| step | VariableDeclaration | renderSessChart | [2957](../../magpie/internal/gui/assets/plugins/usage/page.js#L2957) |
+| buckets | VariableDeclaration | renderSessChart | [2958](../../magpie/internal/gui/assets/plugins/usage/page.js#L2958) |
+| i | VariableDeclaration | renderSessChart | [2959](../../magpie/internal/gui/assets/plugins/usage/page.js#L2959) |
+| b | VariableDeclaration | renderSessChart | [2960](../../magpie/internal/gui/assets/plugins/usage/page.js#L2960) |
+| x | VariableDeclaration | renderSessChart | [2961](../../magpie/internal/gui/assets/plugins/usage/page.js#L2961) |
+| k | VariableDeclaration | renderSessChart | [2961](../../magpie/internal/gui/assets/plugins/usage/page.js#L2961) |
+| peak | VariableDeclaration | renderSessChart | [2964](../../magpie/internal/gui/assets/plugins/usage/page.js#L2964) |
+| fill | VariableDeclaration | renderSessChart | [2965](../../magpie/internal/gui/assets/plugins/usage/page.js#L2965) |
+| [top, low] | VariableDeclaration | renderSessChart.fill | [2966](../../magpie/internal/gui/assets/plugins/usage/page.js#L2966) |
+| top | BindingElement | renderSessChart.fill.[top, low] | [2966](../../magpie/internal/gui/assets/plugins/usage/page.js#L2966) |
+| low | BindingElement | renderSessChart.fill.[top, low] | [2966](../../magpie/internal/gui/assets/plugins/usage/page.js#L2966) |
+| label | VariableDeclaration | renderSessChart.fill | [2971](../../magpie/internal/gui/assets/plugins/usage/page.js#L2971) |
+| bars | VariableDeclaration | renderSessChart | [2976](../../magpie/internal/gui/assets/plugins/usage/page.js#L2976) |
+| bars | VariableDeclaration | renderSessChart | [2983](../../magpie/internal/gui/assets/plugins/usage/page.js#L2983) |
+| labels | VariableDeclaration | renderSessChart | [2984](../../magpie/internal/gui/assets/plugins/usage/page.js#L2984) |
+| k | VariableDeclaration | renderSessChart | [2985](../../magpie/internal/gui/assets/plugins/usage/page.js#L2985) |
+| every | VariableDeclaration | renderSessChart | [2986](../../magpie/internal/gui/assets/plugins/usage/page.js#L2986) |
+| bar | VariableDeclaration | renderSessChart | [2988](../../magpie/internal/gui/assets/plugins/usage/page.js#L2988) |
+| label | VariableDeclaration | renderSessChart | [2993](../../magpie/internal/gui/assets/plugins/usage/page.js#L2993) |
+| end | VariableDeclaration | renderSessChart | [2994](../../magpie/internal/gui/assets/plugins/usage/page.js#L2994) |
+| drawHead | FunctionDeclaration | renderSessChart | [3000](../../magpie/internal/gui/assets/plugins/usage/page.js#L3000) |
+| head | VariableDeclaration | renderSessChart.drawHead | [3001](../../magpie/internal/gui/assets/plugins/usage/page.js#L3001) |
+| seg | VariableDeclaration | renderSessChart.drawHead | [3002](../../magpie/internal/gui/assets/plugins/usage/page.js#L3002) |
+| id | BindingElement | renderSessChart.drawHead.seg | [3002](../../magpie/internal/gui/assets/plugins/usage/page.js#L3002) |
+| name | BindingElement | renderSessChart.drawHead.seg | [3002](../../magpie/internal/gui/assets/plugins/usage/page.js#L3002) |
+| SESS_WEEK | VariableDeclaration |  | [3016](../../magpie/internal/gui/assets/plugins/usage/page.js#L3016) |
+| SESS_WEEK_MAX | VariableDeclaration |  | [3016](../../magpie/internal/gui/assets/plugins/usage/page.js#L3016) |
+| sessCalWidth | VariableDeclaration |  | [3025](../../magpie/internal/gui/assets/plugins/usage/page.js#L3025) |
+| { target: chart } | VariableDeclaration | sessCalWidth | [3026](../../magpie/internal/gui/assets/plugins/usage/page.js#L3026) |
+| chart | BindingElement | sessCalWidth.{ target: chart } | [3026](../../magpie/internal/gui/assets/plugins/usage/page.js#L3026) |
+| sessCalFit | FunctionDeclaration |  | [3030](../../magpie/internal/gui/assets/plugins/usage/page.js#L3030) |
+| wrap | VariableDeclaration | sessCalFit | [3031](../../magpie/internal/gui/assets/plugins/usage/page.js#L3031) |
+| cal | VariableDeclaration | sessCalFit | [3031](../../magpie/internal/gui/assets/plugins/usage/page.js#L3031) |
+| ws | VariableDeclaration | sessCalFit | [3033](../../magpie/internal/gui/assets/plugins/usage/page.js#L3033) |
+| side | VariableDeclaration | sessCalFit | [3033](../../magpie/internal/gui/assets/plugins/usage/page.js#L3033) |
+| wd | VariableDeclaration | sessCalFit | [3034](../../magpie/internal/gui/assets/plugins/usage/page.js#L3034) |
+| room | VariableDeclaration | sessCalFit | [3035](../../magpie/internal/gui/assets/plugins/usage/page.js#L3035) |
+| weeks | VariableDeclaration | sessCalFit | [3036](../../magpie/internal/gui/assets/plugins/usage/page.js#L3036) |
+| pad | VariableDeclaration | sessCalFit | [3037](../../magpie/internal/gui/assets/plugins/usage/page.js#L3037) |
+| sessCalendar | FunctionDeclaration |  | [3043](../../magpie/internal/gui/assets/plugins/usage/page.js#L3043) |
+| lv | VariableDeclaration | sessCalendar | [3044](../../magpie/internal/gui/assets/plugins/usage/page.js#L3044) |
+| lead | VariableDeclaration | sessCalendar | [3045](../../magpie/internal/gui/assets/plugins/usage/page.js#L3045) |
+| weeks | VariableDeclaration | sessCalendar | [3046](../../magpie/internal/gui/assets/plugins/usage/page.js#L3046) |
+| cal | VariableDeclaration | sessCalendar | [3047](../../magpie/internal/gui/assets/plugins/usage/page.js#L3047) |
+| names | VariableDeclaration | sessCalendar | [3051](../../magpie/internal/gui/assets/plugins/usage/page.js#L3051) |
+| i | VariableDeclaration | sessCalendar | [3052](../../magpie/internal/gui/assets/plugins/usage/page.js#L3052) |
+| l | VariableDeclaration | sessCalendar | [3053](../../magpie/internal/gui/assets/plugins/usage/page.js#L3053) |
+| loc | VariableDeclaration | sessCalendar | [3057](../../magpie/internal/gui/assets/plugins/usage/page.js#L3057) |
+| month | VariableDeclaration | sessCalendar | [3058](../../magpie/internal/gui/assets/plugins/usage/page.js#L3058) |
+| labelAt | VariableDeclaration | sessCalendar | [3058](../../magpie/internal/gui/assets/plugins/usage/page.js#L3058) |

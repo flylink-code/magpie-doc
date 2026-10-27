@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 14/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| show | VariableDeclaration | showRailTip | [5149](../../magpie/internal/gui/assets/app.js#L5149) |
-| r | VariableDeclaration | showRailTip.show | [5153](../../magpie/internal/gui/assets/app.js#L5153) |
-| w | VariableDeclaration | showRailTip.show | [5153](../../magpie/internal/gui/assets/app.js#L5153) |
-| right | VariableDeclaration | showRailTip.show | [5154](../../magpie/internal/gui/assets/app.js#L5154) |
-| hideRailTip | FunctionDeclaration |  | [5163](../../magpie/internal/gui/assets/app.js#L5163) |
-| renderPickerRail | FunctionDeclaration |  | [5169](../../magpie/internal/gui/assets/app.js#L5169) |
-| rail | VariableDeclaration | renderPickerRail | [5170](../../magpie/internal/gui/assets/app.js#L5170) |
-| groups | VariableDeclaration | renderPickerRail | [5173](../../magpie/internal/gui/assets/app.js#L5173) |
-| signature | VariableDeclaration | renderPickerRail | [5174](../../magpie/internal/gui/assets/app.js#L5174) |
-| add | VariableDeclaration | renderPickerRail | [5179](../../magpie/internal/gui/assets/app.js#L5179) |
-| b | VariableDeclaration | renderPickerRail.add | [5180](../../magpie/internal/gui/assets/app.js#L5180) |
-| group | VariableDeclaration | renderPickerRail | [5194](../../magpie/internal/gui/assets/app.js#L5194) |
-| sample | VariableDeclaration | renderPickerRail | [5195](../../magpie/internal/gui/assets/app.js#L5195) |
-| namedFree | FunctionDeclaration |  | [5205](../../magpie/internal/gui/assets/app.js#L5205) |
-| freeBadge | FunctionDeclaration |  | [5210](../../magpie/internal/gui/assets/app.js#L5210) |
-| f | VariableDeclaration | freeBadge | [5211](../../magpie/internal/gui/assets/app.js#L5211) |
-| rateTag | FunctionDeclaration |  | [5221](../../magpie/internal/gui/assets/app.js#L5221) |
-| times | VariableDeclaration | rateTag | [5223](../../magpie/internal/gui/assets/app.js#L5223) |
-| tag | VariableDeclaration | rateTag | [5224](../../magpie/internal/gui/assets/app.js#L5224) |
-| modelTells | FunctionDeclaration |  | [5248](../../magpie/internal/gui/assets/app.js#L5248) |
-| by | VariableDeclaration | modelTells | [5249](../../magpie/internal/gui/assets/app.js#L5249) |
-| x | VariableDeclaration | modelTells | [5250](../../magpie/internal/gui/assets/app.js#L5250) |
-| v | VariableDeclaration | modelTells | [5251](../../magpie/internal/gui/assets/app.js#L5251) |
-| l | VariableDeclaration | modelTells | [5251](../../magpie/internal/gui/assets/app.js#L5251) |
-| k | VariableDeclaration | modelTells | [5253](../../magpie/internal/gui/assets/app.js#L5253) |
-| out | VariableDeclaration | modelTells | [5257](../../magpie/internal/gui/assets/app.js#L5257) |
-| set | VariableDeclaration | modelTells | [5258](../../magpie/internal/gui/assets/app.js#L5258) |
-| ids | VariableDeclaration | modelTells | [5260](../../magpie/internal/gui/assets/app.js#L5260) |
-| segs | VariableDeclaration | modelTells | [5260](../../magpie/internal/gui/assets/app.js#L5260) |
-| first | VariableDeclaration | modelTells | [5261](../../magpie/internal/gui/assets/app.js#L5261) |
-| pre | VariableDeclaration | modelTells | [5262](../../magpie/internal/gui/assets/app.js#L5262) |
-| suf | VariableDeclaration | modelTells | [5264](../../magpie/internal/gui/assets/app.js#L5264) |
-| tells | VariableDeclaration | modelTells | [5266](../../magpie/internal/gui/assets/app.js#L5266) |
-| tellTag | FunctionDeclaration |  | [5275](../../magpie/internal/gui/assets/app.js#L5275) |
-| contextTag | FunctionDeclaration |  | [5283](../../magpie/internal/gui/assets/app.js#L5283) |
-| m | VariableDeclaration | contextTag | [5285](../../magpie/internal/gui/assets/app.js#L5285) |
-| tag | VariableDeclaration | contextTag | [5286](../../magpie/internal/gui/assets/app.js#L5286) |
-| pathTag | FunctionDeclaration |  | [5299](../../magpie/internal/gui/assets/app.js#L5299) |
-| tag | VariableDeclaration | pathTag | [5301](../../magpie/internal/gui/assets/app.js#L5301) |
-| renderList | FunctionDeclaration |  | [5315](../../magpie/internal/gui/assets/app.js#L5315) |
-| list | VariableDeclaration | renderList | [5316](../../magpie/internal/gui/assets/app.js#L5316) |
-| m | VariableDeclaration | renderList | [5318](../../magpie/internal/gui/assets/app.js#L5318) |
-| hasIcons | VariableDeclaration | renderList | [5319](../../magpie/internal/gui/assets/app.js#L5319) |
-| q | VariableDeclaration | renderList | [5320](../../magpie/internal/gui/assets/app.js#L5320) |
-| group | VariableDeclaration | renderList | [5321](../../magpie/internal/gui/assets/app.js#L5321) |
-| li | VariableDeclaration | renderList | [5326](../../magpie/internal/gui/assets/app.js#L5326) |
-| words | VariableDeclaration | renderList | [5329](../../magpie/internal/gui/assets/app.js#L5329) |
-| own | VariableDeclaration | renderList | [5331](../../magpie/internal/gui/assets/app.js#L5331) |
-| tell | VariableDeclaration | renderList | [5333](../../magpie/internal/gui/assets/app.js#L5333) |
-| rate | VariableDeclaration | renderList | [5336](../../magpie/internal/gui/assets/app.js#L5336) |
-| ctx | VariableDeclaration | renderList | [5338](../../magpie/internal/gui/assets/app.js#L5338) |
-| note | VariableDeclaration | renderList | [5342](../../magpie/internal/gui/assets/app.js#L5342) |
-| path | VariableDeclaration | renderList | [5347](../../magpie/internal/gui/assets/app.js#L5347) |
-| n | VariableDeclaration | renderList | [5352](../../magpie/internal/gui/assets/app.js#L5352) |
-| star | VariableDeclaration | renderList | [5356](../../magpie/internal/gui/assets/app.js#L5356) |
-| key | VariableDeclaration | renderList | [5362](../../magpie/internal/gui/assets/app.js#L5362) |
-| ck | VariableDeclaration | renderList | [5370](../../magpie/internal/gui/assets/app.js#L5370) |
-| m | VariableDeclaration | renderList | [5377](../../magpie/internal/gui/assets/app.js#L5377) |
-| BOLT | VariableDeclaration |  | [5387](../../magpie/internal/gui/assets/app.js#L5387) |
-| fastToggle | FunctionDeclaration |  | [5388](../../magpie/internal/gui/assets/app.js#L5388) |
-| b | VariableDeclaration | fastToggle | [5389](../../magpie/internal/gui/assets/app.js#L5389) |
-| name | VariableDeclaration | fastToggle | [5390](../../magpie/internal/gui/assets/app.js#L5390) |
-| agent | VariableDeclaration | fastToggle | [5391](../../magpie/internal/gui/assets/app.js#L5391) |
-| was | VariableDeclaration | fastToggle | [5406](../../magpie/internal/gui/assets/app.js#L5406) |
-| next | VariableDeclaration | fastToggle | [5407](../../magpie/internal/gui/assets/app.js#L5407) |
-| e | VariableDeclaration | fastToggle | [5412](../../magpie/internal/gui/assets/app.js#L5412) |
-| boltIcon | FunctionDeclaration |  | [5420](../../magpie/internal/gui/assets/app.js#L5420) |
-| s | VariableDeclaration | boltIcon | [5422](../../magpie/internal/gui/assets/app.js#L5422) |
-| setFast | FunctionDeclaration |  | [5428](../../magpie/internal/gui/assets/app.js#L5428) |
-| same | VariableDeclaration | setFast | [5429](../../magpie/internal/gui/assets/app.js#L5429) |
-| a | VariableDeclaration | setFast | [5430](../../magpie/internal/gui/assets/app.js#L5430) |
-| f | VariableDeclaration | setFast | [5430](../../magpie/internal/gui/assets/app.js#L5430) |
-| x | VariableDeclaration | setFast | [5430](../../magpie/internal/gui/assets/app.js#L5430) |
-| x | VariableDeclaration | setFast | [5431](../../magpie/internal/gui/assets/app.js#L5431) |
-| anchor | VariableDeclaration | setFast | [5435](../../magpie/internal/gui/assets/app.js#L5435) |
-| fastTag | FunctionDeclaration |  | [5444](../../magpie/internal/gui/assets/app.js#L5444) |
-| s | VariableDeclaration | fastTag | [5445](../../magpie/internal/gui/assets/app.js#L5445) |
-| foldRow | FunctionDeclaration |  | [5453](../../magpie/internal/gui/assets/app.js#L5453) |
-| li | VariableDeclaration | foldRow | [5454](../../magpie/internal/gui/assets/app.js#L5454) |
-| words | VariableDeclaration | foldRow | [5459](../../magpie/internal/gui/assets/app.js#L5459) |
-| chev | VariableDeclaration | foldRow | [5463](../../magpie/internal/gui/assets/app.js#L5463) |
-| keptNote | FunctionDeclaration |  | [5479](../../magpie/internal/gui/assets/app.js#L5479) |
-| li | VariableDeclaration | keptNote | [5480](../../magpie/internal/gui/assets/app.js#L5480) |
-| words | VariableDeclaration | keptNote | [5482](../../magpie/internal/gui/assets/app.js#L5482) |
-| model | VariableDeclaration | keptNote | [5483](../../magpie/internal/gui/assets/app.js#L5483) |
-| via | VariableDeclaration | keptNote | [5485](../../magpie/internal/gui/assets/app.js#L5485) |
-| act | VariableDeclaration | keptNote | [5486](../../magpie/internal/gui/assets/app.js#L5486) |
-| move | FunctionDeclaration |  | [5506](../../magpie/internal/gui/assets/app.js#L5506) |
-| commit | FunctionDeclaration |  | [5512](../../magpie/internal/gui/assets/app.js#L5512) |
-| { agent, field, anchor } | VariableDeclaration | commit | [5514](../../magpie/internal/gui/assets/app.js#L5514) |
-| agent | BindingElement | commit.{ agent, field, anchor } | [5514](../../magpie/internal/gui/assets/app.js#L5514) |
-| field | BindingElement | commit.{ agent, field, anchor } | [5514](../../magpie/internal/gui/assets/app.js#L5514) |
-| anchor | BindingElement | commit.{ agent, field, anchor } | [5514](../../magpie/internal/gui/assets/app.js#L5514) |
-| opt | VariableDeclaration | commit | [5515](../../magpie/internal/gui/assets/app.js#L5515) |
-| tier | VariableDeclaration | commit | [5531](../../magpie/internal/gui/assets/app.js#L5531) |
-| stopPropagation | MethodDeclaration | commit | [5532](../../magpie/internal/gui/assets/app.js#L5532) |
-| asideAccount | FunctionDeclaration |  | [5547](../../magpie/internal/gui/assets/app.js#L5547) |
-| leavesMagpie | FunctionDeclaration |  | [5556](../../magpie/internal/gui/assets/app.js#L5556) |
-| askLeave | FunctionDeclaration |  | [5570](../../magpie/internal/gui/assets/app.js#L5570) |
-| model | VariableDeclaration | askLeave | [5571](../../magpie/internal/gui/assets/app.js#L5571) |
+| out | VariableDeclaration | switchPickerGroup | [5156](../../magpie/internal/gui/assets/app.js#L5156) |
+| incoming | VariableDeclaration | switchPickerGroup | [5165](../../magpie/internal/gui/assets/app.js#L5165) |
+| railTip | VariableDeclaration |  | [5177](../../magpie/internal/gui/assets/app.js#L5177) |
+| railTipTimer | VariableDeclaration |  | [5177](../../magpie/internal/gui/assets/app.js#L5177) |
+| railTipShownAt | VariableDeclaration |  | [5177](../../magpie/internal/gui/assets/app.js#L5177) |
+| showRailTip | FunctionDeclaration |  | [5178](../../magpie/internal/gui/assets/app.js#L5178) |
+| warm | VariableDeclaration | showRailTip | [5180](../../magpie/internal/gui/assets/app.js#L5180) |
+| show | VariableDeclaration | showRailTip | [5181](../../magpie/internal/gui/assets/app.js#L5181) |
+| r | VariableDeclaration | showRailTip.show | [5185](../../magpie/internal/gui/assets/app.js#L5185) |
+| w | VariableDeclaration | showRailTip.show | [5185](../../magpie/internal/gui/assets/app.js#L5185) |
+| right | VariableDeclaration | showRailTip.show | [5186](../../magpie/internal/gui/assets/app.js#L5186) |
+| hideRailTip | FunctionDeclaration |  | [5195](../../magpie/internal/gui/assets/app.js#L5195) |
+| renderPickerRail | FunctionDeclaration |  | [5201](../../magpie/internal/gui/assets/app.js#L5201) |
+| rail | VariableDeclaration | renderPickerRail | [5202](../../magpie/internal/gui/assets/app.js#L5202) |
+| groups | VariableDeclaration | renderPickerRail | [5205](../../magpie/internal/gui/assets/app.js#L5205) |
+| signature | VariableDeclaration | renderPickerRail | [5206](../../magpie/internal/gui/assets/app.js#L5206) |
+| add | VariableDeclaration | renderPickerRail | [5211](../../magpie/internal/gui/assets/app.js#L5211) |
+| b | VariableDeclaration | renderPickerRail.add | [5212](../../magpie/internal/gui/assets/app.js#L5212) |
+| group | VariableDeclaration | renderPickerRail | [5226](../../magpie/internal/gui/assets/app.js#L5226) |
+| sample | VariableDeclaration | renderPickerRail | [5227](../../magpie/internal/gui/assets/app.js#L5227) |
+| namedFree | FunctionDeclaration |  | [5237](../../magpie/internal/gui/assets/app.js#L5237) |
+| freeBadge | FunctionDeclaration |  | [5242](../../magpie/internal/gui/assets/app.js#L5242) |
+| f | VariableDeclaration | freeBadge | [5243](../../magpie/internal/gui/assets/app.js#L5243) |
+| rateTag | FunctionDeclaration |  | [5253](../../magpie/internal/gui/assets/app.js#L5253) |
+| times | VariableDeclaration | rateTag | [5255](../../magpie/internal/gui/assets/app.js#L5255) |
+| tag | VariableDeclaration | rateTag | [5256](../../magpie/internal/gui/assets/app.js#L5256) |
+| modelTells | FunctionDeclaration |  | [5280](../../magpie/internal/gui/assets/app.js#L5280) |
+| by | VariableDeclaration | modelTells | [5281](../../magpie/internal/gui/assets/app.js#L5281) |
+| x | VariableDeclaration | modelTells | [5282](../../magpie/internal/gui/assets/app.js#L5282) |
+| v | VariableDeclaration | modelTells | [5283](../../magpie/internal/gui/assets/app.js#L5283) |
+| l | VariableDeclaration | modelTells | [5283](../../magpie/internal/gui/assets/app.js#L5283) |
+| k | VariableDeclaration | modelTells | [5285](../../magpie/internal/gui/assets/app.js#L5285) |
+| out | VariableDeclaration | modelTells | [5289](../../magpie/internal/gui/assets/app.js#L5289) |
+| set | VariableDeclaration | modelTells | [5290](../../magpie/internal/gui/assets/app.js#L5290) |
+| ids | VariableDeclaration | modelTells | [5292](../../magpie/internal/gui/assets/app.js#L5292) |
+| segs | VariableDeclaration | modelTells | [5292](../../magpie/internal/gui/assets/app.js#L5292) |
+| first | VariableDeclaration | modelTells | [5293](../../magpie/internal/gui/assets/app.js#L5293) |
+| pre | VariableDeclaration | modelTells | [5294](../../magpie/internal/gui/assets/app.js#L5294) |
+| suf | VariableDeclaration | modelTells | [5296](../../magpie/internal/gui/assets/app.js#L5296) |
+| tells | VariableDeclaration | modelTells | [5298](../../magpie/internal/gui/assets/app.js#L5298) |
+| tellTag | FunctionDeclaration |  | [5307](../../magpie/internal/gui/assets/app.js#L5307) |
+| contextTag | FunctionDeclaration |  | [5315](../../magpie/internal/gui/assets/app.js#L5315) |
+| m | VariableDeclaration | contextTag | [5317](../../magpie/internal/gui/assets/app.js#L5317) |
+| tag | VariableDeclaration | contextTag | [5318](../../magpie/internal/gui/assets/app.js#L5318) |
+| pathTag | FunctionDeclaration |  | [5331](../../magpie/internal/gui/assets/app.js#L5331) |
+| tag | VariableDeclaration | pathTag | [5333](../../magpie/internal/gui/assets/app.js#L5333) |
+| renderList | FunctionDeclaration |  | [5347](../../magpie/internal/gui/assets/app.js#L5347) |
+| list | VariableDeclaration | renderList | [5348](../../magpie/internal/gui/assets/app.js#L5348) |
+| m | VariableDeclaration | renderList | [5350](../../magpie/internal/gui/assets/app.js#L5350) |
+| hasIcons | VariableDeclaration | renderList | [5351](../../magpie/internal/gui/assets/app.js#L5351) |
+| q | VariableDeclaration | renderList | [5352](../../magpie/internal/gui/assets/app.js#L5352) |
+| group | VariableDeclaration | renderList | [5353](../../magpie/internal/gui/assets/app.js#L5353) |
+| li | VariableDeclaration | renderList | [5358](../../magpie/internal/gui/assets/app.js#L5358) |
+| words | VariableDeclaration | renderList | [5361](../../magpie/internal/gui/assets/app.js#L5361) |
+| own | VariableDeclaration | renderList | [5363](../../magpie/internal/gui/assets/app.js#L5363) |
+| tell | VariableDeclaration | renderList | [5365](../../magpie/internal/gui/assets/app.js#L5365) |
+| rate | VariableDeclaration | renderList | [5368](../../magpie/internal/gui/assets/app.js#L5368) |
+| ctx | VariableDeclaration | renderList | [5370](../../magpie/internal/gui/assets/app.js#L5370) |
+| note | VariableDeclaration | renderList | [5374](../../magpie/internal/gui/assets/app.js#L5374) |
+| path | VariableDeclaration | renderList | [5379](../../magpie/internal/gui/assets/app.js#L5379) |
+| n | VariableDeclaration | renderList | [5384](../../magpie/internal/gui/assets/app.js#L5384) |
+| star | VariableDeclaration | renderList | [5388](../../magpie/internal/gui/assets/app.js#L5388) |
+| key | VariableDeclaration | renderList | [5394](../../magpie/internal/gui/assets/app.js#L5394) |
+| ck | VariableDeclaration | renderList | [5402](../../magpie/internal/gui/assets/app.js#L5402) |
+| m | VariableDeclaration | renderList | [5409](../../magpie/internal/gui/assets/app.js#L5409) |
+| BOLT | VariableDeclaration |  | [5419](../../magpie/internal/gui/assets/app.js#L5419) |
+| fastToggle | FunctionDeclaration |  | [5420](../../magpie/internal/gui/assets/app.js#L5420) |
+| b | VariableDeclaration | fastToggle | [5421](../../magpie/internal/gui/assets/app.js#L5421) |
+| name | VariableDeclaration | fastToggle | [5422](../../magpie/internal/gui/assets/app.js#L5422) |
+| agent | VariableDeclaration | fastToggle | [5423](../../magpie/internal/gui/assets/app.js#L5423) |
+| was | VariableDeclaration | fastToggle | [5438](../../magpie/internal/gui/assets/app.js#L5438) |
+| next | VariableDeclaration | fastToggle | [5439](../../magpie/internal/gui/assets/app.js#L5439) |
+| e | VariableDeclaration | fastToggle | [5444](../../magpie/internal/gui/assets/app.js#L5444) |
+| boltIcon | FunctionDeclaration |  | [5452](../../magpie/internal/gui/assets/app.js#L5452) |
+| s | VariableDeclaration | boltIcon | [5454](../../magpie/internal/gui/assets/app.js#L5454) |
+| setFast | FunctionDeclaration |  | [5460](../../magpie/internal/gui/assets/app.js#L5460) |
+| same | VariableDeclaration | setFast | [5461](../../magpie/internal/gui/assets/app.js#L5461) |
+| a | VariableDeclaration | setFast | [5462](../../magpie/internal/gui/assets/app.js#L5462) |
+| f | VariableDeclaration | setFast | [5462](../../magpie/internal/gui/assets/app.js#L5462) |
+| x | VariableDeclaration | setFast | [5462](../../magpie/internal/gui/assets/app.js#L5462) |
+| x | VariableDeclaration | setFast | [5463](../../magpie/internal/gui/assets/app.js#L5463) |
+| anchor | VariableDeclaration | setFast | [5467](../../magpie/internal/gui/assets/app.js#L5467) |
+| fastTag | FunctionDeclaration |  | [5476](../../magpie/internal/gui/assets/app.js#L5476) |
+| s | VariableDeclaration | fastTag | [5477](../../magpie/internal/gui/assets/app.js#L5477) |
+| foldRow | FunctionDeclaration |  | [5485](../../magpie/internal/gui/assets/app.js#L5485) |
+| li | VariableDeclaration | foldRow | [5486](../../magpie/internal/gui/assets/app.js#L5486) |
+| words | VariableDeclaration | foldRow | [5491](../../magpie/internal/gui/assets/app.js#L5491) |
+| chev | VariableDeclaration | foldRow | [5495](../../magpie/internal/gui/assets/app.js#L5495) |
+| keptNote | FunctionDeclaration |  | [5511](../../magpie/internal/gui/assets/app.js#L5511) |
+| li | VariableDeclaration | keptNote | [5512](../../magpie/internal/gui/assets/app.js#L5512) |
+| words | VariableDeclaration | keptNote | [5514](../../magpie/internal/gui/assets/app.js#L5514) |
+| model | VariableDeclaration | keptNote | [5515](../../magpie/internal/gui/assets/app.js#L5515) |
+| via | VariableDeclaration | keptNote | [5517](../../magpie/internal/gui/assets/app.js#L5517) |
+| act | VariableDeclaration | keptNote | [5518](../../magpie/internal/gui/assets/app.js#L5518) |
+| move | FunctionDeclaration |  | [5538](../../magpie/internal/gui/assets/app.js#L5538) |
+| commit | FunctionDeclaration |  | [5544](../../magpie/internal/gui/assets/app.js#L5544) |
+| { agent, field, anchor } | VariableDeclaration | commit | [5546](../../magpie/internal/gui/assets/app.js#L5546) |
+| agent | BindingElement | commit.{ agent, field, anchor } | [5546](../../magpie/internal/gui/assets/app.js#L5546) |
+| field | BindingElement | commit.{ agent, field, anchor } | [5546](../../magpie/internal/gui/assets/app.js#L5546) |
+| anchor | BindingElement | commit.{ agent, field, anchor } | [5546](../../magpie/internal/gui/assets/app.js#L5546) |

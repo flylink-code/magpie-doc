@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 6/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| li | VariableDeclaration | paintTools | [1645](../../magpie/internal/gui/assets/plugins/library/client.js#L1645) |
-| txt | VariableDeclaration | paintTools | [1646](../../magpie/internal/gui/assets/plugins/library/client.js#L1646) |
-| parts | VariableDeclaration | paintTools | [1652](../../magpie/internal/gui/assets/plugins/library/client.js#L1652) |
-| cant | VariableDeclaration | paintTools | [1655](../../magpie/internal/gui/assets/plugins/library/client.js#L1655) |
-| foot | VariableDeclaration | paintTools | [1657](../../magpie/internal/gui/assets/plugins/library/client.js#L1657) |
-| h | VariableDeclaration | paintTools | [1658](../../magpie/internal/gui/assets/plugins/library/client.js#L1658) |
-| toolsSending | VariableDeclaration |  | [1668](../../magpie/internal/gui/assets/plugins/library/client.js#L1668) |
-| toolsOffOf | VariableDeclaration |  | [1669](../../magpie/internal/gui/assets/plugins/library/client.js#L1669) |
-| toolSwitch | FunctionDeclaration |  | [1670](../../magpie/internal/gui/assets/plugins/library/client.js#L1670) |
-| s | VariableDeclaration | toolSwitch | [1671](../../magpie/internal/gui/assets/plugins/library/client.js#L1671) |
-| now | VariableDeclaration | toolSwitch | [1675](../../magpie/internal/gui/assets/plugins/library/client.js#L1675) |
-| cur | VariableDeclaration | toolSwitch | [1679](../../magpie/internal/gui/assets/plugins/library/client.js#L1679) |
-| setToolsOff | FunctionDeclaration |  | [1684](../../magpie/internal/gui/assets/plugins/library/client.js#L1684) |
-| w | VariableDeclaration | setToolsOff | [1685](../../magpie/internal/gui/assets/plugins/library/client.js#L1685) |
-| me | VariableDeclaration | setToolsOff | [1687](../../magpie/internal/gui/assets/plugins/library/client.js#L1687) |
-| sent | VariableDeclaration | setToolsOff | [1689](../../magpie/internal/gui/assets/plugins/library/client.js#L1689) |
-| v | VariableDeclaration | setToolsOff | [1689](../../magpie/internal/gui/assets/plugins/library/client.js#L1689) |
-| e | VariableDeclaration | setToolsOff | [1698](../../magpie/internal/gui/assets/plugins/library/client.js#L1698) |
-| box | VariableDeclaration | setToolsOff | [1702](../../magpie/internal/gui/assets/plugins/library/client.js#L1702) |
-| off | VariableDeclaration | setToolsOff | [1703](../../magpie/internal/gui/assets/plugins/library/client.js#L1703) |
-| s | VariableDeclaration | setToolsOff | [1704](../../magpie/internal/gui/assets/plugins/library/client.js#L1704) |
-| on | VariableDeclaration | setToolsOff | [1705](../../magpie/internal/gui/assets/plugins/library/client.js#L1705) |
-| checkHealth | FunctionDeclaration |  | [1713](../../magpie/internal/gui/assets/plugins/library/client.js#L1713) |
-| keys | VariableDeclaration | checkHealth | [1715](../../magpie/internal/gui/assets/plugins/library/client.js#L1715) |
-| [name, key] | VariableDeclaration | checkHealth | [1716](../../magpie/internal/gui/assets/plugins/library/client.js#L1716) |
-| name | BindingElement | checkHealth.[name, key] | [1716](../../magpie/internal/gui/assets/plugins/library/client.js#L1716) |
-| key | BindingElement | checkHealth.[name, key] | [1716](../../magpie/internal/gui/assets/plugins/library/client.js#L1716) |
-| got | VariableDeclaration | checkHealth | [1717](../../magpie/internal/gui/assets/plugins/library/client.js#L1717) |
-| failed | VariableDeclaration | checkHealth | [1717](../../magpie/internal/gui/assets/plugins/library/client.js#L1717) |
-| e | VariableDeclaration | checkHealth | [1718](../../magpie/internal/gui/assets/plugins/library/client.js#L1718) |
-| signIns | VariableDeclaration | checkHealth | [1719](../../magpie/internal/gui/assets/plugins/library/client.js#L1719) |
-| [name, key] | VariableDeclaration | checkHealth | [1720](../../magpie/internal/gui/assets/plugins/library/client.js#L1720) |
-| name | BindingElement | checkHealth.[name, key] | [1720](../../magpie/internal/gui/assets/plugins/library/client.js#L1720) |
-| key | BindingElement | checkHealth.[name, key] | [1720](../../magpie/internal/gui/assets/plugins/library/client.js#L1720) |
-| h | VariableDeclaration | checkHealth | [1723](../../magpie/internal/gui/assets/plugins/library/client.js#L1723) |
-| s | VariableDeclaration | checkHealth | [1727](../../magpie/internal/gui/assets/plugins/library/client.js#L1727) |
-| healthWords | FunctionDeclaration |  | [1739](../../magpie/internal/gui/assets/plugins/library/client.js#L1739) |
-| names | VariableDeclaration | healthWords | [1745](../../magpie/internal/gui/assets/plugins/library/client.js#L1745) |
-| text | VariableDeclaration | healthWords | [1746](../../magpie/internal/gui/assets/plugins/library/client.js#L1746) |
-| why | VariableDeclaration | healthWords | [1750](../../magpie/internal/gui/assets/plugins/library/client.js#L1750) |
-| more | VariableDeclaration | healthWords | [1755](../../magpie/internal/gui/assets/plugins/library/client.js#L1755) |
-| n | VariableDeclaration | healthWords | [1763](../../magpie/internal/gui/assets/plugins/library/client.js#L1763) |
-| paintHealth | FunctionDeclaration |  | [1782](../../magpie/internal/gui/assets/plugins/library/client.js#L1782) |
-| boxes | VariableDeclaration | paintHealth | [1783](../../magpie/internal/gui/assets/plugins/library/client.js#L1783) |
-| b | VariableDeclaration | paintHealth | [1784](../../magpie/internal/gui/assets/plugins/library/client.js#L1784) |
-| e | VariableDeclaration | paintHealth | [1785](../../magpie/internal/gui/assets/plugins/library/client.js#L1785) |
-| s | VariableDeclaration | paintHealth | [1790](../../magpie/internal/gui/assets/plugins/library/client.js#L1790) |
-| [text, tip] | VariableDeclaration | paintHealth | [1804](../../magpie/internal/gui/assets/plugins/library/client.js#L1804) |
-| text | BindingElement | paintHealth.[text, tip] | [1804](../../magpie/internal/gui/assets/plugins/library/client.js#L1804) |
-| tip | BindingElement | paintHealth.[text, tip] | [1804](../../magpie/internal/gui/assets/plugins/library/client.js#L1804) |
-| places | VariableDeclaration | paintHealth | [1807](../../magpie/internal/gui/assets/plugins/library/client.js#L1807) |
-| open | VariableDeclaration | paintHealth | [1820](../../magpie/internal/gui/assets/plugins/library/client.js#L1820) |
-| name | VariableDeclaration | paintHealth | [1826](../../magpie/internal/gui/assets/plugins/library/client.js#L1826) |
-| box | VariableDeclaration | paintHealth | [1827](../../magpie/internal/gui/assets/plugins/library/client.js#L1827) |
-| mcpSigning | VariableDeclaration |  | [1832](../../magpie/internal/gui/assets/plugins/library/client.js#L1832) |
-| signInBox | FunctionDeclaration |  | [1839](../../magpie/internal/gui/assets/plugins/library/client.js#L1839) |
-| box | VariableDeclaration | signInBox | [1840](../../magpie/internal/gui/assets/plugins/library/client.js#L1840) |
-| draw | VariableDeclaration | signInBox | [1841](../../magpie/internal/gui/assets/plugins/library/client.js#L1841) |
-| cur | VariableDeclaration | signInBox.draw | [1843](../../magpie/internal/gui/assets/plugins/library/client.js#L1843) |
-| sg | VariableDeclaration | signInBox.draw | [1844](../../magpie/internal/gui/assets/plugins/library/client.js#L1844) |
-| line | VariableDeclaration | signInBox.draw | [1845](../../magpie/internal/gui/assets/plugins/library/client.js#L1845) |
-| link | VariableDeclaration | signInBox.draw | [1864](../../magpie/internal/gui/assets/plugins/library/client.js#L1864) |
-| u | VariableDeclaration | signInBox.draw | [1865](../../magpie/internal/gui/assets/plugins/library/client.js#L1865) |
-| cp | VariableDeclaration | signInBox.draw | [1867](../../magpie/internal/gui/assets/plugins/library/client.js#L1867) |
-| start | FunctionDeclaration | signInBox | [1874](../../magpie/internal/gui/assets/plugins/library/client.js#L1874) |
-| was | VariableDeclaration | signInBox.start | [1875](../../magpie/internal/gui/assets/plugins/library/client.js#L1875) |
-| saved | VariableDeclaration | signInBox.start | [1880](../../magpie/internal/gui/assets/plugins/library/client.js#L1880) |
-| st | VariableDeclaration | signInBox.start | [1886](../../magpie/internal/gui/assets/plugins/library/client.js#L1886) |
-| e | VariableDeclaration | signInBox.start | [1891](../../magpie/internal/gui/assets/plugins/library/client.js#L1891) |
-| follow | FunctionDeclaration | signInBox | [1900](../../magpie/internal/gui/assets/plugins/library/client.js#L1900) |
-| st | VariableDeclaration | signInBox.follow | [1903](../../magpie/internal/gui/assets/plugins/library/client.js#L1903) |
-| signOut | FunctionDeclaration | signInBox | [1917](../../magpie/internal/gui/assets/plugins/library/client.js#L1917) |
-| e | VariableDeclaration | signInBox.signOut | [1923](../../magpie/internal/gui/assets/plugins/library/client.js#L1923) |
-| foundServerRow | FunctionDeclaration |  | [1930](../../magpie/internal/gui/assets/plugins/library/client.js#L1930) |
-| s | VariableDeclaration | foundServerRow | [1931](../../magpie/internal/gui/assets/plugins/library/client.js#L1931) |
-| row | VariableDeclaration | foundServerRow | [1932](../../magpie/internal/gui/assets/plugins/library/client.js#L1932) |
-| who | VariableDeclaration | foundServerRow | [1933](../../magpie/internal/gui/assets/plugins/library/client.js#L1933) |
-| nm | VariableDeclaration | foundServerRow | [1934](../../magpie/internal/gui/assets/plugins/library/client.js#L1934) |
-| sub | VariableDeclaration | foundServerRow | [1936](../../magpie/internal/gui/assets/plugins/library/client.js#L1936) |
-| have | VariableDeclaration | foundServerRow | [1939](../../magpie/internal/gui/assets/plugins/library/client.js#L1939) |
-| id | VariableDeclaration | foundServerRow | [1940](../../magpie/internal/gui/assets/plugins/library/client.js#L1940) |
-| a | VariableDeclaration | foundServerRow | [1940](../../magpie/internal/gui/assets/plugins/library/client.js#L1940) |
-| i | VariableDeclaration | foundServerRow | [1940](../../magpie/internal/gui/assets/plugins/library/client.js#L1940) |
-| b | VariableDeclaration | foundServerRow | [1943](../../magpie/internal/gui/assets/plugins/library/client.js#L1943) |
-| rm | VariableDeclaration | foundServerRow | [1947](../../magpie/internal/gui/assets/plugins/library/client.js#L1947) |
-| confirmRemoveFoundServer | FunctionDeclaration |  | [1954](../../magpie/internal/gui/assets/plugins/library/client.js#L1954) |
-| s | VariableDeclaration | confirmRemoveFoundServer | [1955](../../magpie/internal/gui/assets/plugins/library/client.js#L1955) |
-| ed | VariableDeclaration | confirmRemoveFoundServer | [1956](../../magpie/internal/gui/assets/plugins/library/client.js#L1956) |
-| head | VariableDeclaration | confirmRemoveFoundServer | [1957](../../magpie/internal/gui/assets/plugins/library/client.js#L1957) |
-| agents | VariableDeclaration | confirmRemoveFoundServer | [1960](../../magpie/internal/gui/assets/plugins/library/client.js#L1960) |
-| bar | VariableDeclaration | confirmRemoveFoundServer | [1963](../../magpie/internal/gui/assets/plugins/library/client.js#L1963) |
-| go | VariableDeclaration | confirmRemoveFoundServer | [1964](../../magpie/internal/gui/assets/plugins/library/client.js#L1964) |
-| save | PropertyAssignment | confirmRemoveFoundServer | [1967](../../magpie/internal/gui/assets/plugins/library/client.js#L1967) |
-| words | FunctionDeclaration |  | [1972](../../magpie/internal/gui/assets/plugins/library/client.js#L1972) |
-| out | VariableDeclaration | words | [1973](../../magpie/internal/gui/assets/plugins/library/client.js#L1973) |
-| cur | VariableDeclaration | words | [1974](../../magpie/internal/gui/assets/plugins/library/client.js#L1974) |
-| q | VariableDeclaration | words | [1974](../../magpie/internal/gui/assets/plugins/library/client.js#L1974) |
-| any | VariableDeclaration | words | [1974](../../magpie/internal/gui/assets/plugins/library/client.js#L1974) |
-| i | VariableDeclaration | words | [1975](../../magpie/internal/gui/assets/plugins/library/client.js#L1975) |
-| c | VariableDeclaration | words | [1976](../../magpie/internal/gui/assets/plugins/library/client.js#L1976) |
+| tl | VariableDeclaration | paintTools | [1653](../../magpie/internal/gui/assets/plugins/library/client.js#L1653) |
+| li | VariableDeclaration | paintTools | [1654](../../magpie/internal/gui/assets/plugins/library/client.js#L1654) |
+| txt | VariableDeclaration | paintTools | [1655](../../magpie/internal/gui/assets/plugins/library/client.js#L1655) |
+| parts | VariableDeclaration | paintTools | [1661](../../magpie/internal/gui/assets/plugins/library/client.js#L1661) |
+| cant | VariableDeclaration | paintTools | [1664](../../magpie/internal/gui/assets/plugins/library/client.js#L1664) |
+| foot | VariableDeclaration | paintTools | [1666](../../magpie/internal/gui/assets/plugins/library/client.js#L1666) |
+| h | VariableDeclaration | paintTools | [1667](../../magpie/internal/gui/assets/plugins/library/client.js#L1667) |
+| toolsSending | VariableDeclaration |  | [1677](../../magpie/internal/gui/assets/plugins/library/client.js#L1677) |
+| toolsOffOf | VariableDeclaration |  | [1678](../../magpie/internal/gui/assets/plugins/library/client.js#L1678) |
+| toolSwitch | FunctionDeclaration |  | [1679](../../magpie/internal/gui/assets/plugins/library/client.js#L1679) |
+| s | VariableDeclaration | toolSwitch | [1680](../../magpie/internal/gui/assets/plugins/library/client.js#L1680) |
+| now | VariableDeclaration | toolSwitch | [1684](../../magpie/internal/gui/assets/plugins/library/client.js#L1684) |
+| cur | VariableDeclaration | toolSwitch | [1688](../../magpie/internal/gui/assets/plugins/library/client.js#L1688) |
+| setToolsOff | FunctionDeclaration |  | [1693](../../magpie/internal/gui/assets/plugins/library/client.js#L1693) |
+| w | VariableDeclaration | setToolsOff | [1694](../../magpie/internal/gui/assets/plugins/library/client.js#L1694) |
+| me | VariableDeclaration | setToolsOff | [1696](../../magpie/internal/gui/assets/plugins/library/client.js#L1696) |
+| sent | VariableDeclaration | setToolsOff | [1698](../../magpie/internal/gui/assets/plugins/library/client.js#L1698) |
+| v | VariableDeclaration | setToolsOff | [1698](../../magpie/internal/gui/assets/plugins/library/client.js#L1698) |
+| e | VariableDeclaration | setToolsOff | [1707](../../magpie/internal/gui/assets/plugins/library/client.js#L1707) |
+| box | VariableDeclaration | setToolsOff | [1711](../../magpie/internal/gui/assets/plugins/library/client.js#L1711) |
+| off | VariableDeclaration | setToolsOff | [1712](../../magpie/internal/gui/assets/plugins/library/client.js#L1712) |
+| s | VariableDeclaration | setToolsOff | [1713](../../magpie/internal/gui/assets/plugins/library/client.js#L1713) |
+| on | VariableDeclaration | setToolsOff | [1714](../../magpie/internal/gui/assets/plugins/library/client.js#L1714) |
+| checkHealth | FunctionDeclaration |  | [1722](../../magpie/internal/gui/assets/plugins/library/client.js#L1722) |
+| keys | VariableDeclaration | checkHealth | [1724](../../magpie/internal/gui/assets/plugins/library/client.js#L1724) |
+| [name, key] | VariableDeclaration | checkHealth | [1725](../../magpie/internal/gui/assets/plugins/library/client.js#L1725) |
+| name | BindingElement | checkHealth.[name, key] | [1725](../../magpie/internal/gui/assets/plugins/library/client.js#L1725) |
+| key | BindingElement | checkHealth.[name, key] | [1725](../../magpie/internal/gui/assets/plugins/library/client.js#L1725) |
+| got | VariableDeclaration | checkHealth | [1726](../../magpie/internal/gui/assets/plugins/library/client.js#L1726) |
+| failed | VariableDeclaration | checkHealth | [1726](../../magpie/internal/gui/assets/plugins/library/client.js#L1726) |
+| e | VariableDeclaration | checkHealth | [1727](../../magpie/internal/gui/assets/plugins/library/client.js#L1727) |
+| signIns | VariableDeclaration | checkHealth | [1728](../../magpie/internal/gui/assets/plugins/library/client.js#L1728) |
+| [name, key] | VariableDeclaration | checkHealth | [1729](../../magpie/internal/gui/assets/plugins/library/client.js#L1729) |
+| name | BindingElement | checkHealth.[name, key] | [1729](../../magpie/internal/gui/assets/plugins/library/client.js#L1729) |
+| key | BindingElement | checkHealth.[name, key] | [1729](../../magpie/internal/gui/assets/plugins/library/client.js#L1729) |
+| h | VariableDeclaration | checkHealth | [1732](../../magpie/internal/gui/assets/plugins/library/client.js#L1732) |
+| s | VariableDeclaration | checkHealth | [1736](../../magpie/internal/gui/assets/plugins/library/client.js#L1736) |
+| healthWords | FunctionDeclaration |  | [1748](../../magpie/internal/gui/assets/plugins/library/client.js#L1748) |
+| names | VariableDeclaration | healthWords | [1754](../../magpie/internal/gui/assets/plugins/library/client.js#L1754) |
+| text | VariableDeclaration | healthWords | [1755](../../magpie/internal/gui/assets/plugins/library/client.js#L1755) |
+| why | VariableDeclaration | healthWords | [1759](../../magpie/internal/gui/assets/plugins/library/client.js#L1759) |
+| more | VariableDeclaration | healthWords | [1764](../../magpie/internal/gui/assets/plugins/library/client.js#L1764) |
+| n | VariableDeclaration | healthWords | [1772](../../magpie/internal/gui/assets/plugins/library/client.js#L1772) |
+| paintHealth | FunctionDeclaration |  | [1791](../../magpie/internal/gui/assets/plugins/library/client.js#L1791) |
+| boxes | VariableDeclaration | paintHealth | [1792](../../magpie/internal/gui/assets/plugins/library/client.js#L1792) |
+| b | VariableDeclaration | paintHealth | [1793](../../magpie/internal/gui/assets/plugins/library/client.js#L1793) |
+| e | VariableDeclaration | paintHealth | [1794](../../magpie/internal/gui/assets/plugins/library/client.js#L1794) |
+| s | VariableDeclaration | paintHealth | [1799](../../magpie/internal/gui/assets/plugins/library/client.js#L1799) |
+| [text, tip] | VariableDeclaration | paintHealth | [1813](../../magpie/internal/gui/assets/plugins/library/client.js#L1813) |
+| text | BindingElement | paintHealth.[text, tip] | [1813](../../magpie/internal/gui/assets/plugins/library/client.js#L1813) |
+| tip | BindingElement | paintHealth.[text, tip] | [1813](../../magpie/internal/gui/assets/plugins/library/client.js#L1813) |
+| places | VariableDeclaration | paintHealth | [1816](../../magpie/internal/gui/assets/plugins/library/client.js#L1816) |
+| open | VariableDeclaration | paintHealth | [1829](../../magpie/internal/gui/assets/plugins/library/client.js#L1829) |
+| name | VariableDeclaration | paintHealth | [1835](../../magpie/internal/gui/assets/plugins/library/client.js#L1835) |
+| box | VariableDeclaration | paintHealth | [1836](../../magpie/internal/gui/assets/plugins/library/client.js#L1836) |
+| mcpSigning | VariableDeclaration |  | [1841](../../magpie/internal/gui/assets/plugins/library/client.js#L1841) |
+| signInBox | FunctionDeclaration |  | [1848](../../magpie/internal/gui/assets/plugins/library/client.js#L1848) |
+| box | VariableDeclaration | signInBox | [1849](../../magpie/internal/gui/assets/plugins/library/client.js#L1849) |
+| draw | VariableDeclaration | signInBox | [1850](../../magpie/internal/gui/assets/plugins/library/client.js#L1850) |
+| cur | VariableDeclaration | signInBox.draw | [1852](../../magpie/internal/gui/assets/plugins/library/client.js#L1852) |
+| sg | VariableDeclaration | signInBox.draw | [1853](../../magpie/internal/gui/assets/plugins/library/client.js#L1853) |
+| line | VariableDeclaration | signInBox.draw | [1854](../../magpie/internal/gui/assets/plugins/library/client.js#L1854) |
+| link | VariableDeclaration | signInBox.draw | [1873](../../magpie/internal/gui/assets/plugins/library/client.js#L1873) |
+| u | VariableDeclaration | signInBox.draw | [1874](../../magpie/internal/gui/assets/plugins/library/client.js#L1874) |
+| cp | VariableDeclaration | signInBox.draw | [1876](../../magpie/internal/gui/assets/plugins/library/client.js#L1876) |
+| start | FunctionDeclaration | signInBox | [1883](../../magpie/internal/gui/assets/plugins/library/client.js#L1883) |
+| was | VariableDeclaration | signInBox.start | [1884](../../magpie/internal/gui/assets/plugins/library/client.js#L1884) |
+| saved | VariableDeclaration | signInBox.start | [1889](../../magpie/internal/gui/assets/plugins/library/client.js#L1889) |
+| st | VariableDeclaration | signInBox.start | [1895](../../magpie/internal/gui/assets/plugins/library/client.js#L1895) |
+| e | VariableDeclaration | signInBox.start | [1900](../../magpie/internal/gui/assets/plugins/library/client.js#L1900) |
+| follow | FunctionDeclaration | signInBox | [1909](../../magpie/internal/gui/assets/plugins/library/client.js#L1909) |
+| st | VariableDeclaration | signInBox.follow | [1912](../../magpie/internal/gui/assets/plugins/library/client.js#L1912) |
+| signOut | FunctionDeclaration | signInBox | [1926](../../magpie/internal/gui/assets/plugins/library/client.js#L1926) |
+| e | VariableDeclaration | signInBox.signOut | [1932](../../magpie/internal/gui/assets/plugins/library/client.js#L1932) |
+| foundServerRow | FunctionDeclaration |  | [1939](../../magpie/internal/gui/assets/plugins/library/client.js#L1939) |
+| s | VariableDeclaration | foundServerRow | [1940](../../magpie/internal/gui/assets/plugins/library/client.js#L1940) |
+| row | VariableDeclaration | foundServerRow | [1941](../../magpie/internal/gui/assets/plugins/library/client.js#L1941) |
+| who | VariableDeclaration | foundServerRow | [1942](../../magpie/internal/gui/assets/plugins/library/client.js#L1942) |
+| nm | VariableDeclaration | foundServerRow | [1943](../../magpie/internal/gui/assets/plugins/library/client.js#L1943) |
+| sub | VariableDeclaration | foundServerRow | [1945](../../magpie/internal/gui/assets/plugins/library/client.js#L1945) |
+| have | VariableDeclaration | foundServerRow | [1948](../../magpie/internal/gui/assets/plugins/library/client.js#L1948) |
+| id | VariableDeclaration | foundServerRow | [1949](../../magpie/internal/gui/assets/plugins/library/client.js#L1949) |
+| a | VariableDeclaration | foundServerRow | [1949](../../magpie/internal/gui/assets/plugins/library/client.js#L1949) |
+| i | VariableDeclaration | foundServerRow | [1949](../../magpie/internal/gui/assets/plugins/library/client.js#L1949) |
+| b | VariableDeclaration | foundServerRow | [1952](../../magpie/internal/gui/assets/plugins/library/client.js#L1952) |
+| rm | VariableDeclaration | foundServerRow | [1956](../../magpie/internal/gui/assets/plugins/library/client.js#L1956) |
+| confirmRemoveFoundServer | FunctionDeclaration |  | [1963](../../magpie/internal/gui/assets/plugins/library/client.js#L1963) |
+| s | VariableDeclaration | confirmRemoveFoundServer | [1964](../../magpie/internal/gui/assets/plugins/library/client.js#L1964) |
+| ed | VariableDeclaration | confirmRemoveFoundServer | [1965](../../magpie/internal/gui/assets/plugins/library/client.js#L1965) |
+| head | VariableDeclaration | confirmRemoveFoundServer | [1966](../../magpie/internal/gui/assets/plugins/library/client.js#L1966) |
+| agents | VariableDeclaration | confirmRemoveFoundServer | [1969](../../magpie/internal/gui/assets/plugins/library/client.js#L1969) |
+| bar | VariableDeclaration | confirmRemoveFoundServer | [1972](../../magpie/internal/gui/assets/plugins/library/client.js#L1972) |
+| go | VariableDeclaration | confirmRemoveFoundServer | [1973](../../magpie/internal/gui/assets/plugins/library/client.js#L1973) |
+| save | PropertyAssignment | confirmRemoveFoundServer | [1976](../../magpie/internal/gui/assets/plugins/library/client.js#L1976) |
+| words | FunctionDeclaration |  | [1981](../../magpie/internal/gui/assets/plugins/library/client.js#L1981) |
+| out | VariableDeclaration | words | [1982](../../magpie/internal/gui/assets/plugins/library/client.js#L1982) |
+| cur | VariableDeclaration | words | [1983](../../magpie/internal/gui/assets/plugins/library/client.js#L1983) |
+| q | VariableDeclaration | words | [1983](../../magpie/internal/gui/assets/plugins/library/client.js#L1983) |
+| any | VariableDeclaration | words | [1983](../../magpie/internal/gui/assets/plugins/library/client.js#L1983) |
+| i | VariableDeclaration | words | [1984](../../magpie/internal/gui/assets/plugins/library/client.js#L1984) |

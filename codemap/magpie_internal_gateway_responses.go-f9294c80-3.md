@@ -4,18 +4,19 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/responses.go) · page 3/3
 
-Source SHA-256: 76fc1ff4c7d01200dc5fe95a9b542e50f449dc2cfaf5860e8375d7ad49029e6c
+Source SHA-256: 7004f1570857952680dd97b24c97cd1bbe779dd5b1b735cfe0996c51de92cc70
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| release | method_declaration | *responsesEncoder | [1774](../../magpie/internal/gateway/responses.go#L1774) |
-| response | method_declaration | *responsesEncoder | [1788](../../magpie/internal/gateway/responses.go#L1788) |
-| start | method_declaration | *responsesEncoder | [1803](../../magpie/internal/gateway/responses.go#L1803) |
-| closeItem | method_declaration | *responsesEncoder | [1822](../../magpie/internal/gateway/responses.go#L1822) |
-| closeAs | method_declaration | *responsesEncoder | [1828](../../magpie/internal/gateway/responses.go#L1828) |
-| openItem | method_declaration | *responsesEncoder | [1873](../../magpie/internal/gateway/responses.go#L1873) |
-| event | method_declaration | *responsesEncoder | [1889](../../magpie/internal/gateway/responses.go#L1889) |
-| keepalive | method_declaration | *responsesEncoder | [1995](../../magpie/internal/gateway/responses.go#L1995) |
-| finish | method_declaration | *responsesEncoder | [2004](../../magpie/internal/gateway/responses.go#L2004) |
-| responsesSearchItem | function_declaration |  | [2029](../../magpie/internal/gateway/responses.go#L2029) |
-| renderResponses | function_declaration |  | [2043](../../magpie/internal/gateway/responses.go#L2043) |
+| write | method_declaration | *responsesEncoder | [1768](../../magpie/internal/gateway/responses.go#L1768) |
+| release | method_declaration | *responsesEncoder | [1777](../../magpie/internal/gateway/responses.go#L1777) |
+| response | method_declaration | *responsesEncoder | [1791](../../magpie/internal/gateway/responses.go#L1791) |
+| start | method_declaration | *responsesEncoder | [1806](../../magpie/internal/gateway/responses.go#L1806) |
+| closeItem | method_declaration | *responsesEncoder | [1825](../../magpie/internal/gateway/responses.go#L1825) |
+| closeAs | method_declaration | *responsesEncoder | [1831](../../magpie/internal/gateway/responses.go#L1831) |
+| openItem | method_declaration | *responsesEncoder | [1876](../../magpie/internal/gateway/responses.go#L1876) |
+| event | method_declaration | *responsesEncoder | [1892](../../magpie/internal/gateway/responses.go#L1892) |
+| keepalive | method_declaration | *responsesEncoder | [1998](../../magpie/internal/gateway/responses.go#L1998) |
+| finish | method_declaration | *responsesEncoder | [2007](../../magpie/internal/gateway/responses.go#L2007) |
+| responsesSearchItem | function_declaration |  | [2032](../../magpie/internal/gateway/responses.go#L2032) |
+| renderResponses | function_declaration |  | [2046](../../magpie/internal/gateway/responses.go#L2046) |

@@ -4,44 +4,44 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/i18n.js) · page 1/1
 
-Source SHA-256: 43d4db808dcea7ab9333d4397caf36005b670c0952f3712fd042322b7ccb042b
+Source SHA-256: 019fb5baa1e12696fa4f5b1a25663f3a5795446483f28ebdf7afef7e932cbbad
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | I18N | VariableDeclaration |  | [5](../../magpie/internal/gui/assets/i18n.js#L5) |
-| NOTICES | VariableDeclaration |  | [15862](../../magpie/internal/gui/assets/i18n.js#L15862) |
-| locale | VariableDeclaration |  | [15971](../../magpie/internal/gui/assets/i18n.js#L15971) |
-| setLocale | FunctionDeclaration |  | [15972](../../magpie/internal/gui/assets/i18n.js#L15972) |
-| p | VariableDeclaration | setLocale | [15973](../../magpie/internal/gui/assets/i18n.js#L15973) |
-| sys | VariableDeclaration | setLocale | [15974](../../magpie/internal/gui/assets/i18n.js#L15974) |
-| lang | VariableDeclaration | setLocale | [15978](../../magpie/internal/gui/assets/i18n.js#L15978) |
-| sysLocale | FunctionDeclaration |  | [15985](../../magpie/internal/gui/assets/i18n.js#L15985) |
-| LANG_TAGS | VariableDeclaration |  | [15996](../../magpie/internal/gui/assets/i18n.js#L15996) |
-| intlLang | FunctionDeclaration |  | [15997](../../magpie/internal/gui/assets/i18n.js#L15997) |
-| sys | VariableDeclaration | intlLang | [15999](../../magpie/internal/gui/assets/i18n.js#L15999) |
-| t | FunctionDeclaration |  | [16003](../../magpie/internal/gui/assets/i18n.js#L16003) |
-| out | VariableDeclaration | t | [16004](../../magpie/internal/gui/assets/i18n.js#L16004) |
-| k | VariableDeclaration | t | [16005](../../magpie/internal/gui/assets/i18n.js#L16005) |
-| noticeRes | VariableDeclaration |  | [16015](../../magpie/internal/gui/assets/i18n.js#L16015) |
-| tNotice | FunctionDeclaration |  | [16016](../../magpie/internal/gui/assets/i18n.js#L16016) |
-| parts | VariableDeclaration | tNotice | [16020](../../magpie/internal/gui/assets/i18n.js#L16020) |
-| names | VariableDeclaration | tNotice | [16020](../../magpie/internal/gui/assets/i18n.js#L16020) |
-| re | VariableDeclaration | tNotice | [16021](../../magpie/internal/gui/assets/i18n.js#L16021) |
-| out | VariableDeclaration | tNotice | [16030](../../magpie/internal/gui/assets/i18n.js#L16030) |
-| rest | VariableDeclaration | tNotice | [16031](../../magpie/internal/gui/assets/i18n.js#L16031) |
-| hit | VariableDeclaration | tNotice | [16033](../../magpie/internal/gui/assets/i18n.js#L16033) |
-| n | VariableDeclaration | tNotice | [16034](../../magpie/internal/gui/assets/i18n.js#L16034) |
-| m | VariableDeclaration | tNotice | [16035](../../magpie/internal/gui/assets/i18n.js#L16035) |
-| vars | VariableDeclaration | tNotice | [16039](../../magpie/internal/gui/assets/i18n.js#L16039) |
-| NOTE_HEADINGS | VariableDeclaration |  | [16055](../../magpie/internal/gui/assets/i18n.js#L16055) |
-| noteHeadingKeys | VariableDeclaration |  | [16065](../../magpie/internal/gui/assets/i18n.js#L16065) |
-| tHeading | FunctionDeclaration |  | [16066](../../magpie/internal/gui/assets/i18n.js#L16066) |
-| k | BindingElement | tHeading | [16067](../../magpie/internal/gui/assets/i18n.js#L16067) |
-| ws | BindingElement | tHeading | [16067](../../magpie/internal/gui/assets/i18n.js#L16067) |
-| k | VariableDeclaration | tHeading | [16068](../../magpie/internal/gui/assets/i18n.js#L16068) |
-| withNotice | FunctionDeclaration |  | [16074](../../magpie/internal/gui/assets/i18n.js#L16074) |
-| translateStatic | FunctionDeclaration |  | [16082](../../magpie/internal/gui/assets/i18n.js#L16082) |
-| e | VariableDeclaration | translateStatic | [16083](../../magpie/internal/gui/assets/i18n.js#L16083) |
-| e | VariableDeclaration | translateStatic | [16087](../../magpie/internal/gui/assets/i18n.js#L16087) |
-| keys | VariableDeclaration | translateStatic | [16092](../../magpie/internal/gui/assets/i18n.js#L16092) |
-| e | VariableDeclaration | translateStatic | [16095](../../magpie/internal/gui/assets/i18n.js#L16095) |
+| NOTICES | VariableDeclaration |  | [15982](../../magpie/internal/gui/assets/i18n.js#L15982) |
+| locale | VariableDeclaration |  | [16092](../../magpie/internal/gui/assets/i18n.js#L16092) |
+| setLocale | FunctionDeclaration |  | [16093](../../magpie/internal/gui/assets/i18n.js#L16093) |
+| p | VariableDeclaration | setLocale | [16094](../../magpie/internal/gui/assets/i18n.js#L16094) |
+| sys | VariableDeclaration | setLocale | [16095](../../magpie/internal/gui/assets/i18n.js#L16095) |
+| lang | VariableDeclaration | setLocale | [16099](../../magpie/internal/gui/assets/i18n.js#L16099) |
+| sysLocale | FunctionDeclaration |  | [16106](../../magpie/internal/gui/assets/i18n.js#L16106) |
+| LANG_TAGS | VariableDeclaration |  | [16117](../../magpie/internal/gui/assets/i18n.js#L16117) |
+| intlLang | FunctionDeclaration |  | [16118](../../magpie/internal/gui/assets/i18n.js#L16118) |
+| sys | VariableDeclaration | intlLang | [16120](../../magpie/internal/gui/assets/i18n.js#L16120) |
+| t | FunctionDeclaration |  | [16124](../../magpie/internal/gui/assets/i18n.js#L16124) |
+| out | VariableDeclaration | t | [16125](../../magpie/internal/gui/assets/i18n.js#L16125) |
+| k | VariableDeclaration | t | [16126](../../magpie/internal/gui/assets/i18n.js#L16126) |
+| noticeRes | VariableDeclaration |  | [16136](../../magpie/internal/gui/assets/i18n.js#L16136) |
+| tNotice | FunctionDeclaration |  | [16137](../../magpie/internal/gui/assets/i18n.js#L16137) |
+| parts | VariableDeclaration | tNotice | [16141](../../magpie/internal/gui/assets/i18n.js#L16141) |
+| names | VariableDeclaration | tNotice | [16141](../../magpie/internal/gui/assets/i18n.js#L16141) |
+| re | VariableDeclaration | tNotice | [16142](../../magpie/internal/gui/assets/i18n.js#L16142) |
+| out | VariableDeclaration | tNotice | [16151](../../magpie/internal/gui/assets/i18n.js#L16151) |
+| rest | VariableDeclaration | tNotice | [16152](../../magpie/internal/gui/assets/i18n.js#L16152) |
+| hit | VariableDeclaration | tNotice | [16154](../../magpie/internal/gui/assets/i18n.js#L16154) |
+| n | VariableDeclaration | tNotice | [16155](../../magpie/internal/gui/assets/i18n.js#L16155) |
+| m | VariableDeclaration | tNotice | [16156](../../magpie/internal/gui/assets/i18n.js#L16156) |
+| vars | VariableDeclaration | tNotice | [16160](../../magpie/internal/gui/assets/i18n.js#L16160) |
+| NOTE_HEADINGS | VariableDeclaration |  | [16176](../../magpie/internal/gui/assets/i18n.js#L16176) |
+| noteHeadingKeys | VariableDeclaration |  | [16186](../../magpie/internal/gui/assets/i18n.js#L16186) |
+| tHeading | FunctionDeclaration |  | [16187](../../magpie/internal/gui/assets/i18n.js#L16187) |
+| k | BindingElement | tHeading | [16188](../../magpie/internal/gui/assets/i18n.js#L16188) |
+| ws | BindingElement | tHeading | [16188](../../magpie/internal/gui/assets/i18n.js#L16188) |
+| k | VariableDeclaration | tHeading | [16189](../../magpie/internal/gui/assets/i18n.js#L16189) |
+| withNotice | FunctionDeclaration |  | [16195](../../magpie/internal/gui/assets/i18n.js#L16195) |
+| translateStatic | FunctionDeclaration |  | [16203](../../magpie/internal/gui/assets/i18n.js#L16203) |
+| e | VariableDeclaration | translateStatic | [16204](../../magpie/internal/gui/assets/i18n.js#L16204) |
+| e | VariableDeclaration | translateStatic | [16208](../../magpie/internal/gui/assets/i18n.js#L16208) |
+| keys | VariableDeclaration | translateStatic | [16213](../../magpie/internal/gui/assets/i18n.js#L16213) |
+| e | VariableDeclaration | translateStatic | [16216](../../magpie/internal/gui/assets/i18n.js#L16216) |

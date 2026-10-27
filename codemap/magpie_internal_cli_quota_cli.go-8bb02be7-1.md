@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/quota_cli.go) · page 1/1
 
-Source SHA-256: 0ada17f1dbfd1cea0387f98bc2143837a514bdcef1984cfd700c3467be08b621
+Source SHA-256: 86ad3c86e55a886e907be2f8c0ddae1c04a51e4bad17ad16556a6047cadc0404
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

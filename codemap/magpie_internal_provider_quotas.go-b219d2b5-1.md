@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/quotas.go) · page 1/1
 
-Source SHA-256: 7fa7d34103098a61dec76ab8e8404f1cf1f03e8687079652b9e9f17ac11a8aa2
+Source SHA-256: 853b787536efaccb99919678b80b7b7feb2d16ca599a54b7a0d5fc135d0cc241
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -46,13 +46,15 @@ Source SHA-256: 7fa7d34103098a61dec76ab8e8404f1cf1f03e8687079652b9e9f17ac11a8aa2
 | Limit | field_declaration | QuotaSpan | [133](../../magpie/internal/provider/quotas.go#L133) |
 | Unit | field_declaration | QuotaSpan | [134](../../magpie/internal/provider/quotas.go#L134) |
 | Pool | field_declaration | QuotaSpan | [135](../../magpie/internal/provider/quotas.go#L135) |
-| Holds | field_declaration | QuotaSpan | [139](../../magpie/internal/provider/quotas.go#L139) |
-| HoldsWhy | field_declaration | QuotaSpan | [140](../../magpie/internal/provider/quotas.go#L140) |
-| ReckonHolds | var_spec |  | [147](../../magpie/internal/provider/quotas.go#L147) |
-| QuotaReport | function_declaration |  | [150](../../magpie/internal/provider/quotas.go#L150) |
-| KeptQuotaReport | function_declaration |  | [158](../../magpie/internal/provider/quotas.go#L158) |
-| quotaReport | function_declaration |  | [174](../../magpie/internal/provider/quotas.go#L174) |
-| kind | field_declaration | quotaReport | [182](../../magpie/internal/provider/quotas.go#L182) |
-| qs | field_declaration | quotaReport | [183](../../magpie/internal/provider/quotas.go#L183) |
-| ResetClock | function_declaration |  | [207](../../magpie/internal/provider/quotas.go#L207) |
-| PlanTerm | function_declaration |  | [224](../../magpie/internal/provider/quotas.go#L224) |
+| RunsOutAt | field_declaration | QuotaSpan | [140](../../magpie/internal/provider/quotas.go#L140) |
+| RunsOut | field_declaration | QuotaSpan | [141](../../magpie/internal/provider/quotas.go#L141) |
+| Holds | field_declaration | QuotaSpan | [145](../../magpie/internal/provider/quotas.go#L145) |
+| HoldsWhy | field_declaration | QuotaSpan | [146](../../magpie/internal/provider/quotas.go#L146) |
+| ReckonHolds | var_spec |  | [153](../../magpie/internal/provider/quotas.go#L153) |
+| QuotaReport | function_declaration |  | [156](../../magpie/internal/provider/quotas.go#L156) |
+| KeptQuotaReport | function_declaration |  | [164](../../magpie/internal/provider/quotas.go#L164) |
+| quotaReport | function_declaration |  | [180](../../magpie/internal/provider/quotas.go#L180) |
+| kind | field_declaration | quotaReport | [188](../../magpie/internal/provider/quotas.go#L188) |
+| qs | field_declaration | quotaReport | [189](../../magpie/internal/provider/quotas.go#L189) |
+| ResetClock | function_declaration |  | [213](../../magpie/internal/provider/quotas.go#L213) |
+| PlanTerm | function_declaration |  | [230](../../magpie/internal/provider/quotas.go#L230) |

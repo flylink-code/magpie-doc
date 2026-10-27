@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/quota_last.go) · page 1/1
 
-Source SHA-256: ca8e2a12df3d83f0c332b078ee82e7ee5d4522ebbf6c5f396c9432cfff21934e
+Source SHA-256: b8aab73db08f8d857447642e20e313339264882d3a97795de9049cf50a9f9a59
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

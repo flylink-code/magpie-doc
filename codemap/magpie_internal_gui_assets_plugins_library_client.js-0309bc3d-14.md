@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/library/client.js) · page 14/18
 
-Source SHA-256: 13c89f8142a2a9afa9c083108c4271b71641d8eb6116e279bb63d091d98848f9
+Source SHA-256: bdbb2deb12df42839e43a8fd921cfa099178d8d08e0aefc0d050053b8dd47523
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| head | VariableDeclaration | openSkillHow | [4097](../../magpie/internal/gui/assets/plugins/library/client.js#L4097) |
-| list | VariableDeclaration | openSkillHow | [4103](../../magpie/internal/gui/assets/plugins/library/client.js#L4103) |
-| busy | VariableDeclaration | openSkillHow | [4104](../../magpie/internal/gui/assets/plugins/library/client.js#L4104) |
-| draw | VariableDeclaration | openSkillHow | [4105](../../magpie/internal/gui/assets/plugins/library/client.js#L4105) |
-| row | VariableDeclaration | openSkillHow.draw | [4106](../../magpie/internal/gui/assets/plugins/library/client.js#L4106) |
-| who | VariableDeclaration | openSkillHow.draw | [4108](../../magpie/internal/gui/assets/plugins/library/client.js#L4108) |
-| v | VariableDeclaration | openSkillHow.draw | [4116](../../magpie/internal/gui/assets/plugins/library/client.js#L4116) |
-| now | VariableDeclaration | openSkillHow.draw | [4118](../../magpie/internal/gui/assets/plugins/library/client.js#L4118) |
-| e | VariableDeclaration | openSkillHow.draw | [4121](../../magpie/internal/gui/assets/plugins/library/client.js#L4121) |
-| bar | VariableDeclaration | openSkillHow | [4132](../../magpie/internal/gui/assets/plugins/library/client.js#L4132) |
-| done | VariableDeclaration | openSkillHow | [4133](../../magpie/internal/gui/assets/plugins/library/client.js#L4133) |
-| save | PropertyAssignment | openSkillHow | [4136](../../magpie/internal/gui/assets/plugins/library/client.js#L4136) |
-| everyButtons | FunctionDeclaration |  | [4143](../../magpie/internal/gui/assets/plugins/library/client.js#L4143) |
-| ids | VariableDeclaration | everyButtons | [4144](../../magpie/internal/gui/assets/plugins/library/client.js#L4144) |
-| n | VariableDeclaration | everyButtons | [4144](../../magpie/internal/gui/assets/plugins/library/client.js#L4144) |
-| skills | VariableDeclaration | everyButtons | [4144](../../magpie/internal/gui/assets/plugins/library/client.js#L4144) |
-| items | VariableDeclaration | everyButtons | [4145](../../magpie/internal/gui/assets/plugins/library/client.js#L4145) |
-| can | VariableDeclaration | everyButtons | [4146](../../magpie/internal/gui/assets/plugins/library/client.js#L4146) |
-| on | VariableDeclaration | everyButtons | [4147](../../magpie/internal/gui/assets/plugins/library/client.js#L4147) |
-| off | VariableDeclaration | everyButtons | [4150](../../magpie/internal/gui/assets/plugins/library/client.js#L4150) |
-| confirmEveryOff | FunctionDeclaration |  | [4156](../../magpie/internal/gui/assets/plugins/library/client.js#L4156) |
-| skills | VariableDeclaration | confirmEveryOff | [4157](../../magpie/internal/gui/assets/plugins/library/client.js#L4157) |
-| n | VariableDeclaration | confirmEveryOff | [4157](../../magpie/internal/gui/assets/plugins/library/client.js#L4157) |
-| agents | VariableDeclaration | confirmEveryOff | [4157](../../magpie/internal/gui/assets/plugins/library/client.js#L4157) |
-| ed | VariableDeclaration | confirmEveryOff | [4158](../../magpie/internal/gui/assets/plugins/library/client.js#L4158) |
-| head | VariableDeclaration | confirmEveryOff | [4159](../../magpie/internal/gui/assets/plugins/library/client.js#L4159) |
-| bar | VariableDeclaration | confirmEveryOff | [4165](../../magpie/internal/gui/assets/plugins/library/client.js#L4165) |
-| go | VariableDeclaration | confirmEveryOff | [4166](../../magpie/internal/gui/assets/plugins/library/client.js#L4166) |
-| save | PropertyAssignment | confirmEveryOff | [4169](../../magpie/internal/gui/assets/plugins/library/client.js#L4169) |
-| everyOf | FunctionDeclaration |  | [4173](../../magpie/internal/gui/assets/plugins/library/client.js#L4173) |
-| v | VariableDeclaration | everyOf | [4175](../../magpie/internal/gui/assets/plugins/library/client.js#L4175) |
-| m | VariableDeclaration | everyOf | [4177](../../magpie/internal/gui/assets/plugins/library/client.js#L4177) |
-| n | VariableDeclaration | everyOf | [4179](../../magpie/internal/gui/assets/plugins/library/client.js#L4179) |
-| n | VariableDeclaration | everyOf | [4182](../../magpie/internal/gui/assets/plugins/library/client.js#L4182) |
-| e | VariableDeclaration | everyOf | [4187](../../magpie/internal/gui/assets/plugins/library/client.js#L4187) |
-| byAgentButton | FunctionDeclaration |  | [4199](../../magpie/internal/gui/assets/plugins/library/client.js#L4199) |
-| b | VariableDeclaration | byAgentButton | [4200](../../magpie/internal/gui/assets/plugins/library/client.js#L4200) |
-| byAgentRows | FunctionDeclaration |  | [4207](../../magpie/internal/gui/assets/plugins/library/client.js#L4207) |
-| items | VariableDeclaration | byAgentRows | [4208](../../magpie/internal/gui/assets/plugins/library/client.js#L4208) |
-| can | VariableDeclaration | byAgentRows | [4209](../../magpie/internal/gui/assets/plugins/library/client.js#L4209) |
-| has | VariableDeclaration | byAgentRows | [4211](../../magpie/internal/gui/assets/plugins/library/client.js#L4211) |
-| missing | VariableDeclaration | byAgentRows | [4212](../../magpie/internal/gui/assets/plugins/library/client.js#L4212) |
-| openByAgent | FunctionDeclaration |  | [4217](../../magpie/internal/gui/assets/plugins/library/client.js#L4217) |
-| skills | VariableDeclaration | openByAgent | [4218](../../magpie/internal/gui/assets/plugins/library/client.js#L4218) |
-| items | VariableDeclaration | openByAgent | [4218](../../magpie/internal/gui/assets/plugins/library/client.js#L4218) |
-| ed | VariableDeclaration | openByAgent | [4219](../../magpie/internal/gui/assets/plugins/library/client.js#L4219) |
-| head | VariableDeclaration | openByAgent | [4220](../../magpie/internal/gui/assets/plugins/library/client.js#L4220) |
-| list | VariableDeclaration | openByAgent | [4226](../../magpie/internal/gui/assets/plugins/library/client.js#L4226) |
-| busy | VariableDeclaration | openByAgent | [4227](../../magpie/internal/gui/assets/plugins/library/client.js#L4227) |
-| listed | VariableDeclaration | openByAgent | [4228](../../magpie/internal/gui/assets/plugins/library/client.js#L4228) |
-| draw | VariableDeclaration | openByAgent | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| a | BindingElement | openByAgent.draw | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| has | BindingElement | openByAgent.draw | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| missing | BindingElement | openByAgent.draw | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| shy | BindingElement | openByAgent.draw | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| gone | BindingElement | openByAgent.draw | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
-| row | VariableDeclaration | openByAgent.draw | [4230](../../magpie/internal/gui/assets/plugins/library/client.js#L4230) |
-| who | VariableDeclaration | openByAgent.draw | [4232](../../magpie/internal/gui/assets/plugins/library/client.js#L4232) |
-| name | VariableDeclaration | openByAgent.draw | [4233](../../magpie/internal/gui/assets/plugins/library/client.js#L4233) |
-| hidden | VariableDeclaration | openByAgent.draw | [4236](../../magpie/internal/gui/assets/plugins/library/client.js#L4236) |
-| on | VariableDeclaration | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
-| off | VariableDeclaration | openByAgent.draw | [4242](../../magpie/internal/gui/assets/plugins/library/client.js#L4242) |
-| everyFor | FunctionDeclaration | openByAgent | [4251](../../magpie/internal/gui/assets/plugins/library/client.js#L4251) |
-| x | VariableDeclaration | openByAgent.everyFor | [4253](../../magpie/internal/gui/assets/plugins/library/client.js#L4253) |
-| v | VariableDeclaration | openByAgent.everyFor | [4256](../../magpie/internal/gui/assets/plugins/library/client.js#L4256) |
-| n | VariableDeclaration | openByAgent.everyFor | [4258](../../magpie/internal/gui/assets/plugins/library/client.js#L4258) |
-| e | VariableDeclaration | openByAgent.everyFor | [4263](../../magpie/internal/gui/assets/plugins/library/client.js#L4263) |
-| bar | VariableDeclaration | openByAgent | [4271](../../magpie/internal/gui/assets/plugins/library/client.js#L4271) |
-| done | VariableDeclaration | openByAgent | [4272](../../magpie/internal/gui/assets/plugins/library/client.js#L4272) |
-| save | PropertyAssignment | openByAgent | [4275](../../magpie/internal/gui/assets/plugins/library/client.js#L4275) |
-| removeEveryButton | FunctionDeclaration |  | [4285](../../magpie/internal/gui/assets/plugins/library/client.js#L4285) |
-| skills | VariableDeclaration | removeEveryButton | [4286](../../magpie/internal/gui/assets/plugins/library/client.js#L4286) |
-| hooks | VariableDeclaration | removeEveryButton | [4286](../../magpie/internal/gui/assets/plugins/library/client.js#L4286) |
-| b | VariableDeclaration | removeEveryButton | [4287](../../magpie/internal/gui/assets/plugins/library/client.js#L4287) |
-| confirmRemoveEvery | FunctionDeclaration |  | [4296](../../magpie/internal/gui/assets/plugins/library/client.js#L4296) |
-| ed | VariableDeclaration | confirmRemoveEvery | [4297](../../magpie/internal/gui/assets/plugins/library/client.js#L4297) |
-| head | VariableDeclaration | confirmRemoveEvery | [4298](../../magpie/internal/gui/assets/plugins/library/client.js#L4298) |
-| l | VariableDeclaration | confirmRemoveEvery | [4301](../../magpie/internal/gui/assets/plugins/library/client.js#L4301) |
-| bar | VariableDeclaration | confirmRemoveEvery | [4302](../../magpie/internal/gui/assets/plugins/library/client.js#L4302) |
-| label | VariableDeclaration | confirmRemoveEvery | [4303](../../magpie/internal/gui/assets/plugins/library/client.js#L4303) |
-| go | VariableDeclaration | confirmRemoveEvery | [4304](../../magpie/internal/gui/assets/plugins/library/client.js#L4304) |
-| save | PropertyAssignment | confirmRemoveEvery | [4307](../../magpie/internal/gui/assets/plugins/library/client.js#L4307) |
-| takenFrom | VariableDeclaration |  | [4310](../../magpie/internal/gui/assets/plugins/library/client.js#L4310) |
-| agents | VariableDeclaration | takenFrom | [4311](../../magpie/internal/gui/assets/plugins/library/client.js#L4311) |
-| confirmRemoveEverySkill | FunctionDeclaration |  | [4318](../../magpie/internal/gui/assets/plugins/library/client.js#L4318) |
-| skills | VariableDeclaration | confirmRemoveEverySkill | [4319](../../magpie/internal/gui/assets/plugins/library/client.js#L4319) |
-| names | VariableDeclaration | confirmRemoveEverySkill | [4319](../../magpie/internal/gui/assets/plugins/library/client.js#L4319) |
-| n | VariableDeclaration | confirmRemoveEverySkill | [4319](../../magpie/internal/gui/assets/plugins/library/client.js#L4319) |
-| linked | VariableDeclaration | confirmRemoveEverySkill | [4320](../../magpie/internal/gui/assets/plugins/library/client.js#L4320) |
-| kept | VariableDeclaration | confirmRemoveEverySkill | [4320](../../magpie/internal/gui/assets/plugins/library/client.js#L4320) |
-| projects | VariableDeclaration | confirmRemoveEverySkill | [4321](../../magpie/internal/gui/assets/plugins/library/client.js#L4321) |
-| where | VariableDeclaration | confirmRemoveEverySkill | [4322](../../magpie/internal/gui/assets/plugins/library/client.js#L4322) |
-| confirmRemoveEveryServer | FunctionDeclaration |  | [4332](../../magpie/internal/gui/assets/plugins/library/client.js#L4332) |
-| servers | VariableDeclaration | confirmRemoveEveryServer | [4333](../../magpie/internal/gui/assets/plugins/library/client.js#L4333) |
-| names | VariableDeclaration | confirmRemoveEveryServer | [4333](../../magpie/internal/gui/assets/plugins/library/client.js#L4333) |
-| n | VariableDeclaration | confirmRemoveEveryServer | [4333](../../magpie/internal/gui/assets/plugins/library/client.js#L4333) |
-| projects | VariableDeclaration | confirmRemoveEveryServer | [4334](../../magpie/internal/gui/assets/plugins/library/client.js#L4334) |
-| signed | VariableDeclaration | confirmRemoveEveryServer | [4335](../../magpie/internal/gui/assets/plugins/library/client.js#L4335) |
-| removeEvery | FunctionDeclaration |  | [4348](../../magpie/internal/gui/assets/plugins/library/client.js#L4348) |
-| what | VariableDeclaration | removeEvery | [4349](../../magpie/internal/gui/assets/plugins/library/client.js#L4349) |
+| ed | VariableDeclaration | openSkillHow | [4107](../../magpie/internal/gui/assets/plugins/library/client.js#L4107) |
+| head | VariableDeclaration | openSkillHow | [4108](../../magpie/internal/gui/assets/plugins/library/client.js#L4108) |
+| list | VariableDeclaration | openSkillHow | [4114](../../magpie/internal/gui/assets/plugins/library/client.js#L4114) |
+| busy | VariableDeclaration | openSkillHow | [4115](../../magpie/internal/gui/assets/plugins/library/client.js#L4115) |
+| draw | VariableDeclaration | openSkillHow | [4116](../../magpie/internal/gui/assets/plugins/library/client.js#L4116) |
+| row | VariableDeclaration | openSkillHow.draw | [4117](../../magpie/internal/gui/assets/plugins/library/client.js#L4117) |
+| who | VariableDeclaration | openSkillHow.draw | [4119](../../magpie/internal/gui/assets/plugins/library/client.js#L4119) |
+| v | VariableDeclaration | openSkillHow.draw | [4127](../../magpie/internal/gui/assets/plugins/library/client.js#L4127) |
+| now | VariableDeclaration | openSkillHow.draw | [4129](../../magpie/internal/gui/assets/plugins/library/client.js#L4129) |
+| e | VariableDeclaration | openSkillHow.draw | [4132](../../magpie/internal/gui/assets/plugins/library/client.js#L4132) |
+| bar | VariableDeclaration | openSkillHow | [4143](../../magpie/internal/gui/assets/plugins/library/client.js#L4143) |
+| done | VariableDeclaration | openSkillHow | [4144](../../magpie/internal/gui/assets/plugins/library/client.js#L4144) |
+| save | PropertyAssignment | openSkillHow | [4147](../../magpie/internal/gui/assets/plugins/library/client.js#L4147) |
+| everyButtons | FunctionDeclaration |  | [4154](../../magpie/internal/gui/assets/plugins/library/client.js#L4154) |
+| ids | VariableDeclaration | everyButtons | [4155](../../magpie/internal/gui/assets/plugins/library/client.js#L4155) |
+| n | VariableDeclaration | everyButtons | [4155](../../magpie/internal/gui/assets/plugins/library/client.js#L4155) |
+| skills | VariableDeclaration | everyButtons | [4155](../../magpie/internal/gui/assets/plugins/library/client.js#L4155) |
+| items | VariableDeclaration | everyButtons | [4156](../../magpie/internal/gui/assets/plugins/library/client.js#L4156) |
+| can | VariableDeclaration | everyButtons | [4157](../../magpie/internal/gui/assets/plugins/library/client.js#L4157) |
+| on | VariableDeclaration | everyButtons | [4158](../../magpie/internal/gui/assets/plugins/library/client.js#L4158) |
+| off | VariableDeclaration | everyButtons | [4161](../../magpie/internal/gui/assets/plugins/library/client.js#L4161) |
+| confirmEveryOff | FunctionDeclaration |  | [4167](../../magpie/internal/gui/assets/plugins/library/client.js#L4167) |
+| skills | VariableDeclaration | confirmEveryOff | [4168](../../magpie/internal/gui/assets/plugins/library/client.js#L4168) |
+| n | VariableDeclaration | confirmEveryOff | [4168](../../magpie/internal/gui/assets/plugins/library/client.js#L4168) |
+| agents | VariableDeclaration | confirmEveryOff | [4168](../../magpie/internal/gui/assets/plugins/library/client.js#L4168) |
+| ed | VariableDeclaration | confirmEveryOff | [4169](../../magpie/internal/gui/assets/plugins/library/client.js#L4169) |
+| head | VariableDeclaration | confirmEveryOff | [4170](../../magpie/internal/gui/assets/plugins/library/client.js#L4170) |
+| bar | VariableDeclaration | confirmEveryOff | [4176](../../magpie/internal/gui/assets/plugins/library/client.js#L4176) |
+| go | VariableDeclaration | confirmEveryOff | [4177](../../magpie/internal/gui/assets/plugins/library/client.js#L4177) |
+| save | PropertyAssignment | confirmEveryOff | [4180](../../magpie/internal/gui/assets/plugins/library/client.js#L4180) |
+| everyOf | FunctionDeclaration |  | [4184](../../magpie/internal/gui/assets/plugins/library/client.js#L4184) |
+| v | VariableDeclaration | everyOf | [4186](../../magpie/internal/gui/assets/plugins/library/client.js#L4186) |
+| m | VariableDeclaration | everyOf | [4188](../../magpie/internal/gui/assets/plugins/library/client.js#L4188) |
+| n | VariableDeclaration | everyOf | [4190](../../magpie/internal/gui/assets/plugins/library/client.js#L4190) |
+| n | VariableDeclaration | everyOf | [4193](../../magpie/internal/gui/assets/plugins/library/client.js#L4193) |
+| e | VariableDeclaration | everyOf | [4198](../../magpie/internal/gui/assets/plugins/library/client.js#L4198) |
+| byAgentButton | FunctionDeclaration |  | [4210](../../magpie/internal/gui/assets/plugins/library/client.js#L4210) |
+| b | VariableDeclaration | byAgentButton | [4211](../../magpie/internal/gui/assets/plugins/library/client.js#L4211) |
+| byAgentRows | FunctionDeclaration |  | [4218](../../magpie/internal/gui/assets/plugins/library/client.js#L4218) |
+| items | VariableDeclaration | byAgentRows | [4219](../../magpie/internal/gui/assets/plugins/library/client.js#L4219) |
+| can | VariableDeclaration | byAgentRows | [4220](../../magpie/internal/gui/assets/plugins/library/client.js#L4220) |
+| has | VariableDeclaration | byAgentRows | [4222](../../magpie/internal/gui/assets/plugins/library/client.js#L4222) |
+| missing | VariableDeclaration | byAgentRows | [4223](../../magpie/internal/gui/assets/plugins/library/client.js#L4223) |
+| openByAgent | FunctionDeclaration |  | [4228](../../magpie/internal/gui/assets/plugins/library/client.js#L4228) |
+| skills | VariableDeclaration | openByAgent | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
+| items | VariableDeclaration | openByAgent | [4229](../../magpie/internal/gui/assets/plugins/library/client.js#L4229) |
+| ed | VariableDeclaration | openByAgent | [4230](../../magpie/internal/gui/assets/plugins/library/client.js#L4230) |
+| head | VariableDeclaration | openByAgent | [4231](../../magpie/internal/gui/assets/plugins/library/client.js#L4231) |
+| list | VariableDeclaration | openByAgent | [4237](../../magpie/internal/gui/assets/plugins/library/client.js#L4237) |
+| busy | VariableDeclaration | openByAgent | [4238](../../magpie/internal/gui/assets/plugins/library/client.js#L4238) |
+| listed | VariableDeclaration | openByAgent | [4239](../../magpie/internal/gui/assets/plugins/library/client.js#L4239) |
+| draw | VariableDeclaration | openByAgent | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| a | BindingElement | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| has | BindingElement | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| missing | BindingElement | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| shy | BindingElement | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| gone | BindingElement | openByAgent.draw | [4240](../../magpie/internal/gui/assets/plugins/library/client.js#L4240) |
+| row | VariableDeclaration | openByAgent.draw | [4241](../../magpie/internal/gui/assets/plugins/library/client.js#L4241) |
+| who | VariableDeclaration | openByAgent.draw | [4243](../../magpie/internal/gui/assets/plugins/library/client.js#L4243) |
+| name | VariableDeclaration | openByAgent.draw | [4244](../../magpie/internal/gui/assets/plugins/library/client.js#L4244) |
+| hidden | VariableDeclaration | openByAgent.draw | [4247](../../magpie/internal/gui/assets/plugins/library/client.js#L4247) |
+| on | VariableDeclaration | openByAgent.draw | [4251](../../magpie/internal/gui/assets/plugins/library/client.js#L4251) |
+| off | VariableDeclaration | openByAgent.draw | [4253](../../magpie/internal/gui/assets/plugins/library/client.js#L4253) |
+| everyFor | FunctionDeclaration | openByAgent | [4262](../../magpie/internal/gui/assets/plugins/library/client.js#L4262) |
+| x | VariableDeclaration | openByAgent.everyFor | [4264](../../magpie/internal/gui/assets/plugins/library/client.js#L4264) |
+| v | VariableDeclaration | openByAgent.everyFor | [4267](../../magpie/internal/gui/assets/plugins/library/client.js#L4267) |
+| n | VariableDeclaration | openByAgent.everyFor | [4269](../../magpie/internal/gui/assets/plugins/library/client.js#L4269) |
+| e | VariableDeclaration | openByAgent.everyFor | [4274](../../magpie/internal/gui/assets/plugins/library/client.js#L4274) |
+| bar | VariableDeclaration | openByAgent | [4282](../../magpie/internal/gui/assets/plugins/library/client.js#L4282) |
+| done | VariableDeclaration | openByAgent | [4283](../../magpie/internal/gui/assets/plugins/library/client.js#L4283) |
+| save | PropertyAssignment | openByAgent | [4286](../../magpie/internal/gui/assets/plugins/library/client.js#L4286) |
+| removeEveryButton | FunctionDeclaration |  | [4296](../../magpie/internal/gui/assets/plugins/library/client.js#L4296) |
+| skills | VariableDeclaration | removeEveryButton | [4297](../../magpie/internal/gui/assets/plugins/library/client.js#L4297) |
+| hooks | VariableDeclaration | removeEveryButton | [4297](../../magpie/internal/gui/assets/plugins/library/client.js#L4297) |
+| b | VariableDeclaration | removeEveryButton | [4298](../../magpie/internal/gui/assets/plugins/library/client.js#L4298) |
+| confirmRemoveEvery | FunctionDeclaration |  | [4307](../../magpie/internal/gui/assets/plugins/library/client.js#L4307) |
+| ed | VariableDeclaration | confirmRemoveEvery | [4308](../../magpie/internal/gui/assets/plugins/library/client.js#L4308) |
+| head | VariableDeclaration | confirmRemoveEvery | [4309](../../magpie/internal/gui/assets/plugins/library/client.js#L4309) |
+| l | VariableDeclaration | confirmRemoveEvery | [4312](../../magpie/internal/gui/assets/plugins/library/client.js#L4312) |
+| bar | VariableDeclaration | confirmRemoveEvery | [4313](../../magpie/internal/gui/assets/plugins/library/client.js#L4313) |
+| label | VariableDeclaration | confirmRemoveEvery | [4314](../../magpie/internal/gui/assets/plugins/library/client.js#L4314) |
+| go | VariableDeclaration | confirmRemoveEvery | [4315](../../magpie/internal/gui/assets/plugins/library/client.js#L4315) |
+| save | PropertyAssignment | confirmRemoveEvery | [4318](../../magpie/internal/gui/assets/plugins/library/client.js#L4318) |
+| takenFrom | VariableDeclaration |  | [4321](../../magpie/internal/gui/assets/plugins/library/client.js#L4321) |
+| agents | VariableDeclaration | takenFrom | [4322](../../magpie/internal/gui/assets/plugins/library/client.js#L4322) |
+| confirmRemoveEverySkill | FunctionDeclaration |  | [4329](../../magpie/internal/gui/assets/plugins/library/client.js#L4329) |
+| skills | VariableDeclaration | confirmRemoveEverySkill | [4330](../../magpie/internal/gui/assets/plugins/library/client.js#L4330) |
+| names | VariableDeclaration | confirmRemoveEverySkill | [4330](../../magpie/internal/gui/assets/plugins/library/client.js#L4330) |
+| n | VariableDeclaration | confirmRemoveEverySkill | [4330](../../magpie/internal/gui/assets/plugins/library/client.js#L4330) |
+| linked | VariableDeclaration | confirmRemoveEverySkill | [4331](../../magpie/internal/gui/assets/plugins/library/client.js#L4331) |
+| kept | VariableDeclaration | confirmRemoveEverySkill | [4331](../../magpie/internal/gui/assets/plugins/library/client.js#L4331) |
+| projects | VariableDeclaration | confirmRemoveEverySkill | [4332](../../magpie/internal/gui/assets/plugins/library/client.js#L4332) |
+| where | VariableDeclaration | confirmRemoveEverySkill | [4333](../../magpie/internal/gui/assets/plugins/library/client.js#L4333) |
+| confirmRemoveEveryServer | FunctionDeclaration |  | [4343](../../magpie/internal/gui/assets/plugins/library/client.js#L4343) |
+| servers | VariableDeclaration | confirmRemoveEveryServer | [4344](../../magpie/internal/gui/assets/plugins/library/client.js#L4344) |
+| names | VariableDeclaration | confirmRemoveEveryServer | [4344](../../magpie/internal/gui/assets/plugins/library/client.js#L4344) |
+| n | VariableDeclaration | confirmRemoveEveryServer | [4344](../../magpie/internal/gui/assets/plugins/library/client.js#L4344) |
+| projects | VariableDeclaration | confirmRemoveEveryServer | [4345](../../magpie/internal/gui/assets/plugins/library/client.js#L4345) |
+| signed | VariableDeclaration | confirmRemoveEveryServer | [4346](../../magpie/internal/gui/assets/plugins/library/client.js#L4346) |
+| removeEvery | FunctionDeclaration |  | [4359](../../magpie/internal/gui/assets/plugins/library/client.js#L4359) |

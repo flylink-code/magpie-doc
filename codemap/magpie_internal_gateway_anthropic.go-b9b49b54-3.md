@@ -4,11 +4,12 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/anthropic.go) · page 3/3
 
-Source SHA-256: dd97e5fac44ea24e6b480bc9b5999a45f6940b63a9063deb80716987ee3fee4a
+Source SHA-256: 24e14068128fb6cb5a810403d7aad9c487f251eb3e6370e59fe96cd0b6e9aa2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| idClock | var_spec |  | [1772](../../magpie/internal/gateway/anthropic.go#L1772) |
-| newID | function_declaration |  | [1774](../../magpie/internal/gateway/anthropic.go#L1774) |
-| objectSchema | function_declaration |  | [1784](../../magpie/internal/gateway/anthropic.go#L1784) |
-| stopDetails | function_declaration |  | [1800](../../magpie/internal/gateway/anthropic.go#L1800) |
+| idSeq | var_spec |  | [1787](../../magpie/internal/gateway/anthropic.go#L1787) |
+| idClock | var_spec |  | [1791](../../magpie/internal/gateway/anthropic.go#L1791) |
+| newID | function_declaration |  | [1793](../../magpie/internal/gateway/anthropic.go#L1793) |
+| objectSchema | function_declaration |  | [1803](../../magpie/internal/gateway/anthropic.go#L1803) |
+| stopDetails | function_declaration |  | [1819](../../magpie/internal/gateway/anthropic.go#L1819) |

@@ -13,8 +13,11 @@
 | [magpie/build/race-shards.sh](../../magpie/build/race-shards.sh) | 0 | [1](magpie_build_race-shards.sh-ae0d4b68-1.md) |
 | [magpie/internal/beat/beat.go](../../magpie/internal/beat/beat.go) | 2 | [1](magpie_internal_beat_beat.go-1b53bd62-1.md) |
 | [magpie/internal/dirent/dirent.go](../../magpie/internal/dirent/dirent.go) | 1 | [1](magpie_internal_dirent_dirent.go-80b6801d-1.md) |
+| [magpie/internal/dirent/stats.go](../../magpie/internal/dirent/stats.go) | 5 | [1](magpie_internal_dirent_stats.go-ea615149-1.md) |
+| [magpie/internal/dirent/stats_darwin.go](../../magpie/internal/dirent/stats_darwin.go) | 19 | [1](magpie_internal_dirent_stats_darwin.go-a723e004-1.md) |
+| [magpie/internal/dirent/stats_other.go](../../magpie/internal/dirent/stats_other.go) | 1 | [1](magpie_internal_dirent_stats_other.go-755109f2-1.md) |
 | [magpie/internal/fx/fx.go](../../magpie/internal/fx/fx.go) | 24 | [1](magpie_internal_fx_fx.go-6211c532-1.md) |
-| [magpie/internal/imagemcp/imagemcp.go](../../magpie/internal/imagemcp/imagemcp.go) | 107 | [1](magpie_internal_imagemcp_imagemcp.go-f95e2b2c-1.md) [2](magpie_internal_imagemcp_imagemcp.go-f95e2b2c-2.md) |
+| [magpie/internal/imagemcp/imagemcp.go](../../magpie/internal/imagemcp/imagemcp.go) | 108 | [1](magpie_internal_imagemcp_imagemcp.go-f95e2b2c-1.md) [2](magpie_internal_imagemcp_imagemcp.go-f95e2b2c-2.md) |
 | [magpie/internal/imagemcp/wsl.go](../../magpie/internal/imagemcp/wsl.go) | 11 | [1](magpie_internal_imagemcp_wsl.go-3e20e297-1.md) |
 | [magpie/internal/libc/libc.go](../../magpie/internal/libc/libc.go) | 3 | [1](magpie_internal_libc_libc.go-396f7f60-1.md) |
 | [magpie/internal/netguard/netguard.go](../../magpie/internal/netguard/netguard.go) | 8 | [1](magpie_internal_netguard_netguard.go-d40db76e-1.md) |
@@ -46,8 +49,9 @@
 | [magpie/internal/proc/mem_darwin.go](../../magpie/internal/proc/mem_darwin.go) | 1 | [1](magpie_internal_proc_mem_darwin.go-1740bacc-1.md) |
 | [magpie/internal/proc/mem_linux.go](../../magpie/internal/proc/mem_linux.go) | 1 | [1](magpie_internal_proc_mem_linux.go-9e87a422-1.md) |
 | [magpie/internal/proc/mem_other.go](../../magpie/internal/proc/mem_other.go) | 1 | [1](magpie_internal_proc_mem_other.go-869dbc8d-1.md) |
-| [magpie/internal/proc/nodever_other.go](../../magpie/internal/proc/nodever_other.go) | 10 | [1](magpie_internal_proc_nodever_other.go-b74b893c-1.md) |
-| [magpie/internal/proc/path_other.go](../../magpie/internal/proc/path_other.go) | 24 | [1](magpie_internal_proc_path_other.go-c36916b2-1.md) |
+| [magpie/internal/proc/nodever.go](../../magpie/internal/proc/nodever.go) | 9 | [1](magpie_internal_proc_nodever.go-ef04255d-1.md) |
+| [magpie/internal/proc/nodever_other.go](../../magpie/internal/proc/nodever_other.go) | 6 | [1](magpie_internal_proc_nodever_other.go-b74b893c-1.md) |
+| [magpie/internal/proc/path_other.go](../../magpie/internal/proc/path_other.go) | 23 | [1](magpie_internal_proc_path_other.go-c36916b2-1.md) |
 | [magpie/internal/proc/path_windows.go](../../magpie/internal/proc/path_windows.go) | 7 | [1](magpie_internal_proc_path_windows.go-2cd577fb-1.md) |
 | [magpie/internal/proc/peak_darwin.go](../../magpie/internal/proc/peak_darwin.go) | 1 | [1](magpie_internal_proc_peak_darwin.go-ff442ba7-1.md) |
 | [magpie/internal/proc/peak_linux.go](../../magpie/internal/proc/peak_linux.go) | 1 | [1](magpie_internal_proc_peak_linux.go-c99e8d31-1.md) |

@@ -4,14 +4,14 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/path_windows.go) · page 1/1
 
-Source SHA-256: 0df9eb4e600bcb4ccfd8c52eb1b5d81a17276e297ddf7563d275059305c4b22d
+Source SHA-256: 935b1418dbc4d5e2d687b4694a088a1625df1059c72a1c931c17caeca0416f83
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| UserPath | function_declaration |  | [15](../../magpie/internal/proc/path_windows.go#L15) |
-| UserBinDirs | function_declaration |  | [20](../../magpie/internal/proc/path_windows.go#L20) |
-| LoginPath | function_declaration |  | [51](../../magpie/internal/proc/path_windows.go#L51) |
-| root | field_declaration | LoginPath | [54](../../magpie/internal/proc/path_windows.go#L54) |
-| path | field_declaration | LoginPath | [55](../../magpie/internal/proc/path_windows.go#L55) |
-| LoginEnv | function_declaration |  | [84](../../magpie/internal/proc/path_windows.go#L84) |
-| ShellPath | function_declaration |  | [88](../../magpie/internal/proc/path_windows.go#L88) |
+| UserPath | function_declaration |  | [20](../../magpie/internal/proc/path_windows.go#L20) |
+| UserBinDirs | function_declaration |  | [29](../../magpie/internal/proc/path_windows.go#L29) |
+| LoginPath | function_declaration |  | [63](../../magpie/internal/proc/path_windows.go#L63) |
+| root | field_declaration | LoginPath | [66](../../magpie/internal/proc/path_windows.go#L66) |
+| path | field_declaration | LoginPath | [67](../../magpie/internal/proc/path_windows.go#L67) |
+| LoginEnv | function_declaration |  | [96](../../magpie/internal/proc/path_windows.go#L96) |
+| ShellPath | function_declaration |  | [100](../../magpie/internal/proc/path_windows.go#L100) |

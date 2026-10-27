@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 27/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| r | VariableDeclaration | drawEditor | [9999](../../magpie/internal/gui/assets/app.js#L9999) |
-| e | VariableDeclaration | drawEditor | [10003](../../magpie/internal/gui/assets/app.js#L10003) |
-| bar | VariableDeclaration | drawEditor | [10014](../../magpie/internal/gui/assets/app.js#L10014) |
-| del | VariableDeclaration | drawEditor | [10016](../../magpie/internal/gui/assets/app.js#L10016) |
-| more | VariableDeclaration | drawEditor | [10022](../../magpie/internal/gui/assets/app.js#L10022) |
-| dup | VariableDeclaration | drawEditor | [10028](../../magpie/internal/gui/assets/app.js#L10028) |
-| cancel | VariableDeclaration | drawEditor | [10034](../../magpie/internal/gui/assets/app.js#L10034) |
-| saveBtn | VariableDeclaration | drawEditor | [10036](../../magpie/internal/gui/assets/app.js#L10036) |
-| save | VariableDeclaration | drawEditor | [10037](../../magpie/internal/gui/assets/app.js#L10037) |
-| body | VariableDeclaration | drawEditor.save | [10039](../../magpie/internal/gui/assets/app.js#L10039) |
-| xb | VariableDeclaration | drawEditor.save | [10041](../../magpie/internal/gui/assets/app.js#L10041) |
-| cx | VariableDeclaration | drawEditor.save | [10065](../../magpie/internal/gui/assets/app.js#L10065) |
-| ox | VariableDeclaration | drawEditor.save | [10069](../../magpie/internal/gui/assets/app.js#L10069) |
-| cpx | VariableDeclaration | drawEditor.save | [10072](../../magpie/internal/gui/assets/app.js#L10072) |
-| own | VariableDeclaration | drawEditor.save | [10079](../../magpie/internal/gui/assets/app.js#L10079) |
-| line | VariableDeclaration | drawEditor.save | [10081](../../magpie/internal/gui/assets/app.js#L10081) |
-| queue | VariableDeclaration | drawEditor.save | [10089](../../magpie/internal/gui/assets/app.js#L10089) |
-| org | VariableDeclaration | drawEditor.save | [10099](../../magpie/internal/gui/assets/app.js#L10099) |
-| project | VariableDeclaration | drawEditor.save | [10099](../../magpie/internal/gui/assets/app.js#L10099) |
-| a | VariableDeclaration | drawEditor.save | [10117](../../magpie/internal/gui/assets/app.js#L10117) |
-| picked | VariableDeclaration | drawEditor.save | [10122](../../magpie/internal/gui/assets/app.js#L10122) |
-| okMsg | VariableDeclaration | drawEditor.save | [10125](../../magpie/internal/gui/assets/app.js#L10125) |
-| slot | VariableDeclaration | drawEditor | [10131](../../magpie/internal/gui/assets/app.js#L10131) |
-| contextsText | FunctionDeclaration |  | [10139](../../magpie/internal/gui/assets/app.js#L10139) |
-| size | VariableDeclaration | contextsText | [10141](../../magpie/internal/gui/assets/app.js#L10141) |
-| out | VariableDeclaration | contextsText | [10142](../../magpie/internal/gui/assets/app.js#L10142) |
-| [id, n] | VariableDeclaration | contextsText | [10143](../../magpie/internal/gui/assets/app.js#L10143) |
-| id | BindingElement | contextsText.[id, n] | [10143](../../magpie/internal/gui/assets/app.js#L10143) |
-| n | BindingElement | contextsText.[id, n] | [10143](../../magpie/internal/gui/assets/app.js#L10143) |
-| contextPicks | FunctionDeclaration |  | [10151](../../magpie/internal/gui/assets/app.js#L10151) |
-| size | VariableDeclaration | contextPicks | [10153](../../magpie/internal/gui/assets/app.js#L10153) |
-| picks | VariableDeclaration | contextPicks | [10154](../../magpie/internal/gui/assets/app.js#L10154) |
-| big | VariableDeclaration | contextPicks | [10157](../../magpie/internal/gui/assets/app.js#L10157) |
-| tops | VariableDeclaration | contextPicks | [10159](../../magpie/internal/gui/assets/app.js#L10159) |
-| value | VariableDeclaration | contextPicks | [10160](../../magpie/internal/gui/assets/app.js#L10160) |
-| on | VariableDeclaration | contextPicks.value | [10161](../../magpie/internal/gui/assets/app.js#L10161) |
-| row | VariableDeclaration | contextPicks | [10169](../../magpie/internal/gui/assets/app.js#L10169) |
-| same | VariableDeclaration | contextPicks | [10170](../../magpie/internal/gui/assets/app.js#L10170) |
-| light | VariableDeclaration | contextPicks | [10171](../../magpie/internal/gui/assets/app.js#L10171) |
-| [i, b] | VariableDeclaration | contextPicks.light | [10172](../../magpie/internal/gui/assets/app.js#L10172) |
-| i | BindingElement | contextPicks.light.[i, b] | [10172](../../magpie/internal/gui/assets/app.js#L10172) |
-| b | BindingElement | contextPicks.light.[i, b] | [10172](../../magpie/internal/gui/assets/app.js#L10172) |
-| v | VariableDeclaration | contextPicks.light | [10173](../../magpie/internal/gui/assets/app.js#L10173) |
-| pk | VariableDeclaration | contextPicks | [10177](../../magpie/internal/gui/assets/app.js#L10177) |
-| b | VariableDeclaration | contextPicks | [10178](../../magpie/internal/gui/assets/app.js#L10178) |
-| wrap | VariableDeclaration | contextPicks | [10190](../../magpie/internal/gui/assets/app.js#L10190) |
-| outputField | FunctionDeclaration |  | [10200](../../magpie/internal/gui/assets/app.js#L10200) |
-| ox | VariableDeclaration | outputField | [10201](../../magpie/internal/gui/assets/app.js#L10201) |
-| sizes | VariableDeclaration | outputField | [10203](../../magpie/internal/gui/assets/app.js#L10203) |
-| row | VariableDeclaration | outputField | [10204](../../magpie/internal/gui/assets/app.js#L10204) |
-| same | VariableDeclaration | outputField | [10205](../../magpie/internal/gui/assets/app.js#L10205) |
-| light | VariableDeclaration | outputField | [10206](../../magpie/internal/gui/assets/app.js#L10206) |
-| [i, b] | VariableDeclaration | outputField.light | [10207](../../magpie/internal/gui/assets/app.js#L10207) |
-| i | BindingElement | outputField.light.[i, b] | [10207](../../magpie/internal/gui/assets/app.js#L10207) |
-| b | BindingElement | outputField.light.[i, b] | [10207](../../magpie/internal/gui/assets/app.js#L10207) |
-| v | VariableDeclaration | outputField | [10209](../../magpie/internal/gui/assets/app.js#L10209) |
-| b | VariableDeclaration | outputField | [10210](../../magpie/internal/gui/assets/app.js#L10210) |
-| wrap | VariableDeclaration | outputField | [10217](../../magpie/internal/gui/assets/app.js#L10217) |
-| nativeCompactionField | FunctionDeclaration |  | [10227](../../magpie/internal/gui/assets/app.js#L10227) |
-| [ntk, ncb] | VariableDeclaration | nativeCompactionField | [10228](../../magpie/internal/gui/assets/app.js#L10228) |
-| ntk | BindingElement | nativeCompactionField.[ntk, ncb] | [10228](../../magpie/internal/gui/assets/app.js#L10228) |
-| ncb | BindingElement | nativeCompactionField.[ntk, ncb] | [10228](../../magpie/internal/gui/assets/app.js#L10228) |
-| row | VariableDeclaration | nativeCompactionField | [10231](../../magpie/internal/gui/assets/app.js#L10231) |
-| refresh | VariableDeclaration | nativeCompactionField | [10232](../../magpie/internal/gui/assets/app.js#L10232) |
-| e | VariableDeclaration | nativeCompactionField.refresh | [10232](../../magpie/internal/gui/assets/app.js#L10232) |
-| compactField | FunctionDeclaration |  | [10240](../../magpie/internal/gui/assets/app.js#L10240) |
-| cp | VariableDeclaration | compactField | [10241](../../magpie/internal/gui/assets/app.js#L10241) |
-| sizes | VariableDeclaration | compactField | [10243](../../magpie/internal/gui/assets/app.js#L10243) |
-| row | VariableDeclaration | compactField | [10244](../../magpie/internal/gui/assets/app.js#L10244) |
-| same | VariableDeclaration | compactField | [10245](../../magpie/internal/gui/assets/app.js#L10245) |
-| light | VariableDeclaration | compactField | [10246](../../magpie/internal/gui/assets/app.js#L10246) |
-| [i, b] | VariableDeclaration | compactField.light | [10247](../../magpie/internal/gui/assets/app.js#L10247) |
-| i | BindingElement | compactField.light.[i, b] | [10247](../../magpie/internal/gui/assets/app.js#L10247) |
-| b | BindingElement | compactField.light.[i, b] | [10247](../../magpie/internal/gui/assets/app.js#L10247) |
-| v | VariableDeclaration | compactField | [10249](../../magpie/internal/gui/assets/app.js#L10249) |
-| b | VariableDeclaration | compactField | [10250](../../magpie/internal/gui/assets/app.js#L10250) |
-| wrap | VariableDeclaration | compactField | [10257](../../magpie/internal/gui/assets/app.js#L10257) |
-| compactError | FunctionDeclaration |  | [10262](../../magpie/internal/gui/assets/app.js#L10262) |
-| outputError | FunctionDeclaration |  | [10267](../../magpie/internal/gui/assets/app.js#L10267) |
-| parseContexts | FunctionDeclaration |  | [10274](../../magpie/internal/gui/assets/app.js#L10274) |
-| map | VariableDeclaration | parseContexts | [10275](../../magpie/internal/gui/assets/app.js#L10275) |
-| part | VariableDeclaration | parseContexts | [10276](../../magpie/internal/gui/assets/app.js#L10276) |
-| i | VariableDeclaration | parseContexts | [10277](../../magpie/internal/gui/assets/app.js#L10277) |
-| id | VariableDeclaration | parseContexts | [10278](../../magpie/internal/gui/assets/app.js#L10278) |
-| v | VariableDeclaration | parseContexts | [10278](../../magpie/internal/gui/assets/app.js#L10278) |
-| m | VariableDeclaration | parseContexts | [10279](../../magpie/internal/gui/assets/app.js#L10279) |
-| n | VariableDeclaration | parseContexts | [10281](../../magpie/internal/gui/assets/app.js#L10281) |
-| fetchImportIcon | FunctionDeclaration |  | [10290](../../magpie/internal/gui/assets/app.js#L10290) |
-| host | VariableDeclaration | fetchImportIcon | [10291](../../magpie/internal/gui/assets/app.js#L10291) |
-| note | VariableDeclaration | fetchImportIcon | [10292](../../magpie/internal/gui/assets/app.js#L10292) |
-| old | VariableDeclaration | fetchImportIcon | [10297](../../magpie/internal/gui/assets/app.js#L10297) |
-| now | VariableDeclaration | fetchImportIcon | [10298](../../magpie/internal/gui/assets/app.js#L10298) |
-| discoverLocalProviders | FunctionDeclaration |  | [10308](../../magpie/internal/gui/assets/app.js#L10308) |
-| run | VariableDeclaration | discoverLocalProviders | [10311](../../magpie/internal/gui/assets/app.js#L10311) |
-| result | VariableDeclaration | discoverLocalProviders | [10314](../../magpie/internal/gui/assets/app.js#L10314) |
-| renderProviderDiscovery | FunctionDeclaration |  | [10329](../../magpie/internal/gui/assets/app.js#L10329) |
-| hint | VariableDeclaration | renderProviderDiscovery | [10330](../../magpie/internal/gui/assets/app.js#L10330) |
-| fresh | VariableDeclaration | renderProviderDiscovery | [10331](../../magpie/internal/gui/assets/app.js#L10331) |
-| count | VariableDeclaration | renderProviderDiscovery | [10332](../../magpie/internal/gui/assets/app.js#L10332) |
-| compact | VariableDeclaration | renderProviderDiscovery | [10332](../../magpie/internal/gui/assets/app.js#L10332) |
+| row | VariableDeclaration | nativeCompactionField | [10016](../../magpie/internal/gui/assets/app.js#L10016) |
+| refresh | VariableDeclaration | nativeCompactionField | [10017](../../magpie/internal/gui/assets/app.js#L10017) |
+| e | VariableDeclaration | nativeCompactionField.refresh | [10017](../../magpie/internal/gui/assets/app.js#L10017) |
+| compactField | FunctionDeclaration |  | [10025](../../magpie/internal/gui/assets/app.js#L10025) |
+| cp | VariableDeclaration | compactField | [10026](../../magpie/internal/gui/assets/app.js#L10026) |
+| sizes | VariableDeclaration | compactField | [10028](../../magpie/internal/gui/assets/app.js#L10028) |
+| row | VariableDeclaration | compactField | [10029](../../magpie/internal/gui/assets/app.js#L10029) |
+| same | VariableDeclaration | compactField | [10030](../../magpie/internal/gui/assets/app.js#L10030) |
+| light | VariableDeclaration | compactField | [10031](../../magpie/internal/gui/assets/app.js#L10031) |
+| [i, b] | VariableDeclaration | compactField.light | [10032](../../magpie/internal/gui/assets/app.js#L10032) |
+| i | BindingElement | compactField.light.[i, b] | [10032](../../magpie/internal/gui/assets/app.js#L10032) |
+| b | BindingElement | compactField.light.[i, b] | [10032](../../magpie/internal/gui/assets/app.js#L10032) |
+| v | VariableDeclaration | compactField | [10034](../../magpie/internal/gui/assets/app.js#L10034) |
+| b | VariableDeclaration | compactField | [10035](../../magpie/internal/gui/assets/app.js#L10035) |
+| wrap | VariableDeclaration | compactField | [10042](../../magpie/internal/gui/assets/app.js#L10042) |
+| compactError | FunctionDeclaration |  | [10047](../../magpie/internal/gui/assets/app.js#L10047) |
+| outputError | FunctionDeclaration |  | [10052](../../magpie/internal/gui/assets/app.js#L10052) |
+| parseContexts | FunctionDeclaration |  | [10059](../../magpie/internal/gui/assets/app.js#L10059) |
+| map | VariableDeclaration | parseContexts | [10060](../../magpie/internal/gui/assets/app.js#L10060) |
+| part | VariableDeclaration | parseContexts | [10061](../../magpie/internal/gui/assets/app.js#L10061) |
+| i | VariableDeclaration | parseContexts | [10062](../../magpie/internal/gui/assets/app.js#L10062) |
+| id | VariableDeclaration | parseContexts | [10063](../../magpie/internal/gui/assets/app.js#L10063) |
+| v | VariableDeclaration | parseContexts | [10063](../../magpie/internal/gui/assets/app.js#L10063) |
+| m | VariableDeclaration | parseContexts | [10064](../../magpie/internal/gui/assets/app.js#L10064) |
+| n | VariableDeclaration | parseContexts | [10066](../../magpie/internal/gui/assets/app.js#L10066) |
+| fetchImportIcon | FunctionDeclaration |  | [10075](../../magpie/internal/gui/assets/app.js#L10075) |
+| host | VariableDeclaration | fetchImportIcon | [10076](../../magpie/internal/gui/assets/app.js#L10076) |
+| note | VariableDeclaration | fetchImportIcon | [10077](../../magpie/internal/gui/assets/app.js#L10077) |
+| old | VariableDeclaration | fetchImportIcon | [10082](../../magpie/internal/gui/assets/app.js#L10082) |
+| now | VariableDeclaration | fetchImportIcon | [10083](../../magpie/internal/gui/assets/app.js#L10083) |
+| discoverLocalProviders | FunctionDeclaration |  | [10093](../../magpie/internal/gui/assets/app.js#L10093) |
+| run | VariableDeclaration | discoverLocalProviders | [10096](../../magpie/internal/gui/assets/app.js#L10096) |
+| result | VariableDeclaration | discoverLocalProviders | [10099](../../magpie/internal/gui/assets/app.js#L10099) |
+| renderProviderDiscovery | FunctionDeclaration |  | [10114](../../magpie/internal/gui/assets/app.js#L10114) |
+| hint | VariableDeclaration | renderProviderDiscovery | [10115](../../magpie/internal/gui/assets/app.js#L10115) |
+| fresh | VariableDeclaration | renderProviderDiscovery | [10116](../../magpie/internal/gui/assets/app.js#L10116) |
+| count | VariableDeclaration | renderProviderDiscovery | [10117](../../magpie/internal/gui/assets/app.js#L10117) |
+| compact | VariableDeclaration | renderProviderDiscovery | [10117](../../magpie/internal/gui/assets/app.js#L10117) |
+| parent | VariableDeclaration | renderProviderDiscovery | [10121](../../magpie/internal/gui/assets/app.js#L10121) |
+| sources | VariableDeclaration | renderProviderDiscovery | [10124](../../magpie/internal/gui/assets/app.js#L10124) |
+| review | VariableDeclaration | renderProviderDiscovery | [10126](../../magpie/internal/gui/assets/app.js#L10126) |
+| id | VariableDeclaration |  | [10135](../../magpie/internal/gui/assets/app.js#L10135) |
+| c | VariableDeclaration |  | [10136](../../magpie/internal/gui/assets/app.js#L10136) |
+| openImportApps | FunctionDeclaration |  | [10148](../../magpie/internal/gui/assets/app.js#L10148) |
+| sources | VariableDeclaration | openImportApps | [10152](../../magpie/internal/gui/assets/app.js#L10152) |
+| picks | VariableDeclaration | openImportApps | [10153](../../magpie/internal/gui/assets/app.js#L10153) |
+| s | VariableDeclaration | openImportApps | [10154](../../magpie/internal/gui/assets/app.js#L10154) |
+| it | VariableDeclaration | openImportApps | [10154](../../magpie/internal/gui/assets/app.js#L10154) |
+| offered | VariableDeclaration | openImportApps | [10156](../../magpie/internal/gui/assets/app.js#L10156) |
+| tab | VariableDeclaration | openImportApps | [10162](../../magpie/internal/gui/assets/app.js#L10162) |
+| e | VariableDeclaration | openImportApps | [10164](../../magpie/internal/gui/assets/app.js#L10164) |
+| appIcon | VariableDeclaration |  | [10173](../../magpie/internal/gui/assets/app.js#L10173) |
+| renderImportApps | FunctionDeclaration |  | [10175](../../magpie/internal/gui/assets/app.js#L10175) |
+| ed | VariableDeclaration | renderImportApps | [10176](../../magpie/internal/gui/assets/app.js#L10176) |
+| h | VariableDeclaration | renderImportApps | [10178](../../magpie/internal/gui/assets/app.js#L10178) |
+| bar | VariableDeclaration | renderImportApps | [10181](../../magpie/internal/gui/assets/app.js#L10181) |
+| count | VariableDeclaration | renderImportApps | [10182](../../magpie/internal/gui/assets/app.js#L10182) |
+| cancel | VariableDeclaration | renderImportApps | [10183](../../magpie/internal/gui/assets/app.js#L10183) |
+| go | VariableDeclaration | renderImportApps | [10185](../../magpie/internal/gui/assets/app.js#L10185) |
+| recount | VariableDeclaration | renderImportApps | [10186](../../magpie/internal/gui/assets/app.js#L10186) |
+| n | VariableDeclaration | renderImportApps.recount | [10187](../../magpie/internal/gui/assets/app.js#L10187) |
+| tabs | VariableDeclaration | renderImportApps | [10205](../../magpie/internal/gui/assets/app.js#L10205) |
+| list | VariableDeclaration | renderImportApps | [10207](../../magpie/internal/gui/assets/app.js#L10207) |
+| secs | VariableDeclaration | renderImportApps | [10208](../../magpie/internal/gui/assets/app.js#L10208) |
+| pickable | VariableDeclaration | renderImportApps | [10209](../../magpie/internal/gui/assets/app.js#L10209) |
+| showTab | VariableDeclaration | renderImportApps | [10213](../../magpie/internal/gui/assets/app.js#L10213) |
+| [sid, [tab, sec]] | VariableDeclaration | renderImportApps.showTab | [10215](../../magpie/internal/gui/assets/app.js#L10215) |
+| sid | BindingElement | renderImportApps.showTab.[sid, [tab, sec]] | [10215](../../magpie/internal/gui/assets/app.js#L10215) |
+| [tab, sec] | BindingElement | renderImportApps.showTab.[sid, [tab, sec]] | [10215](../../magpie/internal/gui/assets/app.js#L10215) |
+| tab | BindingElement | renderImportApps.showTab.[sid, [tab, sec]].[tab, sec] | [10215](../../magpie/internal/gui/assets/app.js#L10215) |
+| sec | BindingElement | renderImportApps.showTab.[sid, [tab, sec]].[tab, sec] | [10215](../../magpie/internal/gui/assets/app.js#L10215) |
+| s | VariableDeclaration | renderImportApps | [10222](../../magpie/internal/gui/assets/app.js#L10222) |
+| sec | VariableDeclaration | renderImportApps | [10223](../../magpie/internal/gui/assets/app.js#L10223) |
+| tab | VariableDeclaration | renderImportApps | [10224](../../magpie/internal/gui/assets/app.js#L10224) |
+| tlogo | VariableDeclaration | renderImportApps | [10226](../../magpie/internal/gui/assets/app.js#L10226) |
+| n | VariableDeclaration | renderImportApps | [10230](../../magpie/internal/gui/assets/app.js#L10230) |
+| sh | VariableDeclaration | renderImportApps | [10236](../../magpie/internal/gui/assets/app.js#L10236) |
+| logo | VariableDeclaration | renderImportApps | [10237](../../magpie/internal/gui/assets/app.js#L10237) |
+| mine | VariableDeclaration | renderImportApps | [10247](../../magpie/internal/gui/assets/app.js#L10247) |
+| boxes | VariableDeclaration | renderImportApps | [10248](../../magpie/internal/gui/assets/app.js#L10248) |
+| all | VariableDeclaration | renderImportApps | [10249](../../magpie/internal/gui/assets/app.js#L10249) |
+| allState | VariableDeclaration | renderImportApps | [10251](../../magpie/internal/gui/assets/app.js#L10251) |
+| n | VariableDeclaration | renderImportApps.allState | [10252](../../magpie/internal/gui/assets/app.js#L10252) |
+| tick | VariableDeclaration | renderImportApps | [10256](../../magpie/internal/gui/assets/app.js#L10256) |
+| it | VariableDeclaration | renderImportApps | [10257](../../magpie/internal/gui/assets/app.js#L10257) |
+| lab | VariableDeclaration | renderImportApps | [10259](../../magpie/internal/gui/assets/app.js#L10259) |
+| x | VariableDeclaration | renderImportApps | [10261](../../magpie/internal/gui/assets/app.js#L10261) |
+| b | VariableDeclaration | renderImportApps | [10262](../../magpie/internal/gui/assets/app.js#L10262) |
+| picks | VariableDeclaration | renderImportApps | [10274](../../magpie/internal/gui/assets/app.js#L10274) |
+| [k, v] | VariableDeclaration | renderImportApps | [10275](../../magpie/internal/gui/assets/app.js#L10275) |
+| k | BindingElement | renderImportApps.[k, v] | [10275](../../magpie/internal/gui/assets/app.js#L10275) |
+| v | BindingElement | renderImportApps.[k, v] | [10275](../../magpie/internal/gui/assets/app.js#L10275) |
+| [source, ref] | VariableDeclaration | renderImportApps | [10277](../../magpie/internal/gui/assets/app.js#L10277) |
+| source | BindingElement | renderImportApps.[source, ref] | [10277](../../magpie/internal/gui/assets/app.js#L10277) |
+| ref | BindingElement | renderImportApps.[source, ref] | [10277](../../magpie/internal/gui/assets/app.js#L10277) |
+| r | VariableDeclaration | renderImportApps | [10282](../../magpie/internal/gui/assets/app.js#L10282) |
+| e | VariableDeclaration | renderImportApps | [10297](../../magpie/internal/gui/assets/app.js#L10297) |
+| importAppRow | FunctionDeclaration |  | [10307](../../magpie/internal/gui/assets/app.js#L10307) |
+| p | VariableDeclaration | importAppRow | [10308](../../magpie/internal/gui/assets/app.js#L10308) |
+| pick | VariableDeclaration | importAppRow | [10309](../../magpie/internal/gui/assets/app.js#L10309) |

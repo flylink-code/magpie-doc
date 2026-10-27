@@ -4,29 +4,30 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/hermes.go) · page 1/1
 
-Source SHA-256: 6ce82ad614f98713885cffefc85267e61fd49f6f2d6592a09bdde2e0828a7c60
+Source SHA-256: 22850d75220bc5d0240e656b6242de92d8cdd30bc9ee3dd09fa322964ed1995f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hermes | function_declaration |  | [37](../../magpie/internal/agent/hermes.go#L37) |
-| hermesIn | function_declaration |  | [42](../../magpie/internal/agent/hermes.go#L42) |
-| hermesProfileID | var_spec |  | [203](../../magpie/internal/agent/hermes.go#L203) |
-| hermesProfiles | function_declaration |  | [214](../../magpie/internal/agent/hermes.go#L214) |
-| hermesOthers | function_declaration |  | [244](../../magpie/internal/agent/hermes.go#L244) |
-| hermesUnwireProfile | function_declaration |  | [263](../../magpie/internal/agent/hermes.go#L263) |
-| hermesProviderEntry | struct_type |  | [274](../../magpie/internal/agent/hermes.go#L274) |
-| Name | field_declaration | hermesProviderEntry | [275](../../magpie/internal/agent/hermes.go#L275) |
-| BaseURL | field_declaration | hermesProviderEntry | [276](../../magpie/internal/agent/hermes.go#L276) |
-| APIKey | field_declaration | hermesProviderEntry | [277](../../magpie/internal/agent/hermes.go#L277) |
-| APIMode | field_declaration | hermesProviderEntry | [278](../../magpie/internal/agent/hermes.go#L278) |
-| Headers | field_declaration | hermesProviderEntry | [279](../../magpie/internal/agent/hermes.go#L279) |
-| Models | field_declaration | hermesProviderEntry | [280](../../magpie/internal/agent/hermes.go#L280) |
-| hermesProviderAt | function_declaration |  | [286](../../magpie/internal/agent/hermes.go#L286) |
-| hermesKept | function_declaration |  | [305](../../magpie/internal/agent/hermes.go#L305) |
-| hermesEnvRef | var_spec |  | [316](../../magpie/internal/agent/hermes.go#L316) |
-| hermesSecretSource | var_spec |  | [321](../../magpie/internal/agent/hermes.go#L321) |
-| hermesRefVar | function_declaration |  | [325](../../magpie/internal/agent/hermes.go#L325) |
-| hermesEnvFile | function_declaration |  | [338](../../magpie/internal/agent/hermes.go#L338) |
-| hermesKey | function_declaration |  | [346](../../magpie/internal/agent/hermes.go#L346) |
-| hermesKeptKey | function_declaration |  | [375](../../magpie/internal/agent/hermes.go#L375) |
-| noticeHermes | var_spec |  | [401](../../magpie/internal/agent/hermes.go#L401) |
+| hermes | function_declaration |  | [40](../../magpie/internal/agent/hermes.go#L40) |
+| hermesIn | function_declaration |  | [45](../../magpie/internal/agent/hermes.go#L45) |
+| hermesProfileID | var_spec |  | [217](../../magpie/internal/agent/hermes.go#L217) |
+| hermesProfiles | function_declaration |  | [228](../../magpie/internal/agent/hermes.go#L228) |
+| hermesOthers | function_declaration |  | [258](../../magpie/internal/agent/hermes.go#L258) |
+| hermesFollow | function_declaration |  | [279](../../magpie/internal/agent/hermes.go#L279) |
+| hermesUnwireProfile | function_declaration |  | [308](../../magpie/internal/agent/hermes.go#L308) |
+| hermesProviderEntry | struct_type |  | [319](../../magpie/internal/agent/hermes.go#L319) |
+| Name | field_declaration | hermesProviderEntry | [320](../../magpie/internal/agent/hermes.go#L320) |
+| BaseURL | field_declaration | hermesProviderEntry | [321](../../magpie/internal/agent/hermes.go#L321) |
+| APIKey | field_declaration | hermesProviderEntry | [322](../../magpie/internal/agent/hermes.go#L322) |
+| APIMode | field_declaration | hermesProviderEntry | [323](../../magpie/internal/agent/hermes.go#L323) |
+| Headers | field_declaration | hermesProviderEntry | [324](../../magpie/internal/agent/hermes.go#L324) |
+| Models | field_declaration | hermesProviderEntry | [325](../../magpie/internal/agent/hermes.go#L325) |
+| hermesProviderAt | function_declaration |  | [331](../../magpie/internal/agent/hermes.go#L331) |
+| hermesKept | function_declaration |  | [350](../../magpie/internal/agent/hermes.go#L350) |
+| hermesEnvRef | var_spec |  | [361](../../magpie/internal/agent/hermes.go#L361) |
+| hermesSecretSource | var_spec |  | [366](../../magpie/internal/agent/hermes.go#L366) |
+| hermesRefVar | function_declaration |  | [370](../../magpie/internal/agent/hermes.go#L370) |
+| hermesEnvFile | function_declaration |  | [383](../../magpie/internal/agent/hermes.go#L383) |
+| hermesKey | function_declaration |  | [391](../../magpie/internal/agent/hermes.go#L391) |
+| hermesKeptKey | function_declaration |  | [420](../../magpie/internal/agent/hermes.go#L420) |
+| noticeHermes | var_spec |  | [446](../../magpie/internal/agent/hermes.go#L446) |

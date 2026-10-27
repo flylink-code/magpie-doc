@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 20/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| pluginSignIn | FunctionDeclaration |  | [7509](../../magpie/internal/gui/assets/app.js#L7509) |
-| go | VariableDeclaration | pluginSignIn | [7510](../../magpie/internal/gui/assets/app.js#L7510) |
-| openProvider | FunctionDeclaration |  | [7522](../../magpie/internal/gui/assets/app.js#L7522) |
-| markAdded | FunctionDeclaration |  | [7535](../../magpie/internal/gui/assets/app.js#L7535) |
-| nm | VariableDeclaration | markAdded | [7537](../../magpie/internal/gui/assets/app.js#L7537) |
-| shortName | VariableDeclaration |  | [7544](../../magpie/internal/gui/assets/app.js#L7544) |
-| chinaOf | VariableDeclaration |  | [7547](../../magpie/internal/gui/assets/app.js#L7547) |
-| globalOf | VariableDeclaration |  | [7548](../../magpie/internal/gui/assets/app.js#L7548) |
-| pairTile | FunctionDeclaration |  | [7553](../../magpie/internal/gui/assets/app.js#L7553) |
-| both | VariableDeclaration | pairTile | [7554](../../magpie/internal/gui/assets/app.js#L7554) |
-| b | VariableDeclaration | pairTile | [7555](../../magpie/internal/gui/assets/app.js#L7555) |
-| added | VariableDeclaration | pairTile | [7556](../../magpie/internal/gui/assets/app.js#L7556) |
-| next | VariableDeclaration | pairTile | [7559](../../magpie/internal/gui/assets/app.js#L7559) |
-| regionAt | VariableDeclaration |  | [7570](../../magpie/internal/gui/assets/app.js#L7570) |
-| presetProvider | VariableDeclaration |  | [7573](../../magpie/internal/gui/assets/app.js#L7573) |
-| subTile | FunctionDeclaration |  | [7576](../../magpie/internal/gui/assets/app.js#L7576) |
-| have | VariableDeclaration | subTile | [7577](../../magpie/internal/gui/assets/app.js#L7577) |
-| n | VariableDeclaration | subTile | [7578](../../magpie/internal/gui/assets/app.js#L7578) |
-| b | VariableDeclaration | subTile | [7579](../../magpie/internal/gui/assets/app.js#L7579) |
-| tile | FunctionDeclaration |  | [7595](../../magpie/internal/gui/assets/app.js#L7595) |
-| b | VariableDeclaration | tile | [7596](../../magpie/internal/gui/assets/app.js#L7596) |
-| have | VariableDeclaration | tile | [7602](../../magpie/internal/gui/assets/app.js#L7602) |
-| pageLangs | FunctionDeclaration |  | [7611](../../magpie/internal/gui/assets/app.js#L7611) |
-| l | VariableDeclaration | pageLangs | [7612](../../magpie/internal/gui/assets/app.js#L7612) |
-| partnerShown | FunctionDeclaration |  | [7617](../../magpie/internal/gui/assets/app.js#L7617) |
-| partnerNote | FunctionDeclaration |  | [7623](../../magpie/internal/gui/assets/app.js#L7623) |
-| n | VariableDeclaration | partnerNote | [7624](../../magpie/internal/gui/assets/app.js#L7624) |
-| l | VariableDeclaration | partnerNote | [7625](../../magpie/internal/gui/assets/app.js#L7625) |
-| countPartner | FunctionDeclaration |  | [7631](../../magpie/internal/gui/assets/app.js#L7631) |
-| markNewPartners | FunctionDeclaration |  | [7640](../../magpie/internal/gui/assets/app.js#L7640) |
-| list | VariableDeclaration | markNewPartners | [7641](../../magpie/internal/gui/assets/app.js#L7641) |
-| fresh | VariableDeclaration | markNewPartners | [7642](../../magpie/internal/gui/assets/app.js#L7642) |
-| title | VariableDeclaration | markNewPartners | [7643](../../magpie/internal/gui/assets/app.js#L7643) |
-| nav | VariableDeclaration | markNewPartners | [7644](../../magpie/internal/gui/assets/app.js#L7644) |
-| [b, cls] | VariableDeclaration | markNewPartners | [7645](../../magpie/internal/gui/assets/app.js#L7645) |
-| b | BindingElement | markNewPartners.[b, cls] | [7645](../../magpie/internal/gui/assets/app.js#L7645) |
-| cls | BindingElement | markNewPartners.[b, cls] | [7645](../../magpie/internal/gui/assets/app.js#L7645) |
-| newPartnerTiles | VariableDeclaration |  | [7655](../../magpie/internal/gui/assets/app.js#L7655) |
-| newPartnerDotsIn | VariableDeclaration |  | [7656](../../magpie/internal/gui/assets/app.js#L7656) |
-| partnerTile | FunctionDeclaration |  | [7659](../../magpie/internal/gui/assets/app.js#L7659) |
-| b | VariableDeclaration | partnerTile | [7660](../../magpie/internal/gui/assets/app.js#L7660) |
-| open | VariableDeclaration | partnerTile | [7662](../../magpie/internal/gui/assets/app.js#L7662) |
-| d | VariableDeclaration | partnerTile | [7666](../../magpie/internal/gui/assets/app.js#L7666) |
-| fieldIDs | VariableDeclaration |  | [7678](../../magpie/internal/gui/assets/app.js#L7678) |
-| field | FunctionDeclaration |  | [7679](../../magpie/internal/gui/assets/app.js#L7679) |
-| l | VariableDeclaration | field | [7680](../../magpie/internal/gui/assets/app.js#L7680) |
-| wrap | VariableDeclaration | field | [7681](../../magpie/internal/gui/assets/app.js#L7681) |
-| inputSelector | VariableDeclaration | field | [7683](../../magpie/internal/gui/assets/app.js#L7683) |
-| inputs | VariableDeclaration | field | [7684](../../magpie/internal/gui/assets/app.js#L7684) |
-| input | VariableDeclaration | field | [7686](../../magpie/internal/gui/assets/app.js#L7686) |
-| help | VariableDeclaration | field | [7693](../../magpie/internal/gui/assets/app.js#L7693) |
-| input | VariableDeclaration | field | [7696](../../magpie/internal/gui/assets/app.js#L7696) |
-| decimalOf | FunctionDeclaration |  | [7704](../../magpie/internal/gui/assets/app.js#L7704) |
-| tokensTyped | FunctionDeclaration |  | [7711](../../magpie/internal/gui/assets/app.js#L7711) |
-| x | VariableDeclaration | tokensTyped | [7712](../../magpie/internal/gui/assets/app.js#L7712) |
-| n | VariableDeclaration | tokensTyped | [7714](../../magpie/internal/gui/assets/app.js#L7714) |
-| tokenSize | FunctionDeclaration |  | [7717](../../magpie/internal/gui/assets/app.js#L7717) |
-| samePrice | FunctionDeclaration |  | [7722](../../magpie/internal/gui/assets/app.js#L7722) |
-| norm | VariableDeclaration | samePrice | [7723](../../magpie/internal/gui/assets/app.js#L7723) |
-| input | FunctionDeclaration |  | [7727](../../magpie/internal/gui/assets/app.js#L7727) |
-| i | VariableDeclaration | input | [7728](../../magpie/internal/gui/assets/app.js#L7728) |
-| providerDraftRef | VariableDeclaration |  | [7744](../../magpie/internal/gui/assets/app.js#L7744) |
-| providerDraftBase | VariableDeclaration |  | [7744](../../magpie/internal/gui/assets/app.js#L7744) |
-| providerDraftValue | FunctionDeclaration |  | [7745](../../magpie/internal/gui/assets/app.js#L7745) |
-| providerDirty | FunctionDeclaration |  | [7748](../../magpie/internal/gui/assets/app.js#L7748) |
-| active | VariableDeclaration | providerDirty | [7750](../../magpie/internal/gui/assets/app.js#L7750) |
-| backdropClick | FunctionDeclaration |  | [7761](../../magpie/internal/gui/assets/app.js#L7761) |
-| down | VariableDeclaration | backdropClick | [7762](../../magpie/internal/gui/assets/app.js#L7762) |
-| up | VariableDeclaration | backdropClick | [7762](../../magpie/internal/gui/assets/app.js#L7762) |
-| confirmationPending | VariableDeclaration |  | [7767](../../magpie/internal/gui/assets/app.js#L7767) |
-| confirmAction | FunctionDeclaration |  | [7768](../../magpie/internal/gui/assets/app.js#L7768) |
-| dialog | VariableDeclaration | confirmAction | [7770](../../magpie/internal/gui/assets/app.js#L7770) |
-| heading | VariableDeclaration | confirmAction | [7774](../../magpie/internal/gui/assets/app.js#L7774) |
-| description | VariableDeclaration | confirmAction | [7775](../../magpie/internal/gui/assets/app.js#L7775) |
-| bar | VariableDeclaration | confirmAction | [7776](../../magpie/internal/gui/assets/app.js#L7776) |
-| cancel | VariableDeclaration | confirmAction | [7777](../../magpie/internal/gui/assets/app.js#L7777) |
-| accept | VariableDeclaration | confirmAction | [7778](../../magpie/internal/gui/assets/app.js#L7778) |
-| previousFocus | VariableDeclaration | confirmAction | [7782](../../magpie/internal/gui/assets/app.js#L7782) |
-| finish | VariableDeclaration | confirmAction | [7786](../../magpie/internal/gui/assets/app.js#L7786) |
-| onBackdrop | VariableDeclaration | confirmAction | [7795](../../magpie/internal/gui/assets/app.js#L7795) |
-| rect | VariableDeclaration | confirmAction.onBackdrop | [7796](../../magpie/internal/gui/assets/app.js#L7796) |
-| boundary | VariableDeclaration | confirmAction | [7804](../../magpie/internal/gui/assets/app.js#L7804) |
-| confirmRemoval | FunctionDeclaration |  | [7816](../../magpie/internal/gui/assets/app.js#L7816) |
-| confirmDiscard | FunctionDeclaration |  | [7819](../../magpie/internal/gui/assets/app.js#L7819) |
-| cancelEdit | FunctionDeclaration |  | [7822](../../magpie/internal/gui/assets/app.js#L7822) |
-| priceTypedError | FunctionDeclaration |  | [7838](../../magpie/internal/gui/assets/app.js#L7838) |
-| id | VariableDeclaration | priceTypedError | [7839](../../magpie/internal/gui/assets/app.js#L7839) |
-| row | VariableDeclaration | priceTypedError | [7841](../../magpie/internal/gui/assets/app.js#L7841) |
-| modelPrefsOfDraft | FunctionDeclaration |  | [7849](../../magpie/internal/gui/assets/app.js#L7849) |
-| x | VariableDeclaration | modelPrefsOfDraft | [7850](../../magpie/internal/gui/assets/app.js#L7850) |
-| PROXY_HINT | VariableDeclaration |  | [7859](../../magpie/internal/gui/assets/app.js#L7859) |
-| proxyPicker | FunctionDeclaration |  | [7864](../../magpie/internal/gui/assets/app.js#L7864) |
-| box | VariableDeclaration | proxyPicker | [7865](../../magpie/internal/gui/assets/app.js#L7865) |
-| hint | VariableDeclaration | proxyPicker | [7866](../../magpie/internal/gui/assets/app.js#L7866) |
-| addr | VariableDeclaration | proxyPicker | [7867](../../magpie/internal/gui/assets/app.js#L7867) |
-| seg | VariableDeclaration | proxyPicker | [7871](../../magpie/internal/gui/assets/app.js#L7871) |
-| row | VariableDeclaration | proxyPicker | [7880](../../magpie/internal/gui/assets/app.js#L7880) |
-| concurrencyField | FunctionDeclaration |  | [7892](../../magpie/internal/gui/assets/app.js#L7892) |
-| plugin | VariableDeclaration | concurrencyField | [7893](../../magpie/internal/gui/assets/app.js#L7893) |
-| box | VariableDeclaration | concurrencyField | [7894](../../magpie/internal/gui/assets/app.js#L7894) |
+| box | VariableDeclaration | concurrencyField | [7596](../../magpie/internal/gui/assets/app.js#L7596) |
+| queue | VariableDeclaration | concurrencyField | [7605](../../magpie/internal/gui/assets/app.js#L7605) |
+| wait | VariableDeclaration | concurrencyField | [7607](../../magpie/internal/gui/assets/app.js#L7607) |
+| rpm | VariableDeclaration | concurrencyField | [7612](../../magpie/internal/gui/assets/app.js#L7612) |
+| [b, max, k] | VariableDeclaration | concurrencyField | [7614](../../magpie/internal/gui/assets/app.js#L7614) |
+| b | BindingElement | concurrencyField.[b, max, k] | [7614](../../magpie/internal/gui/assets/app.js#L7614) |
+| max | BindingElement | concurrencyField.[b, max, k] | [7614](../../magpie/internal/gui/assets/app.js#L7614) |
+| k | BindingElement | concurrencyField.[b, max, k] | [7614](../../magpie/internal/gui/assets/app.js#L7614) |
+| priceRateField | FunctionDeclaration |  | [7632](../../magpie/internal/gui/assets/app.js#L7632) |
+| box | VariableDeclaration | priceRateField | [7633](../../magpie/internal/gui/assets/app.js#L7633) |
+| pluginOptionsField | FunctionDeclaration |  | [7645](../../magpie/internal/gui/assets/app.js#L7645) |
+| opts | VariableDeclaration | pluginOptionsField | [7646](../../magpie/internal/gui/assets/app.js#L7646) |
+| now | VariableDeclaration | pluginOptionsField | [7648](../../magpie/internal/gui/assets/app.js#L7648) |
+| set | VariableDeclaration | pluginOptionsField | [7649](../../magpie/internal/gui/assets/app.js#L7649) |
+| own | VariableDeclaration | pluginOptionsField.set | [7650](../../magpie/internal/gui/assets/app.js#L7650) |
+| box | VariableDeclaration | pluginOptionsField | [7654](../../magpie/internal/gui/assets/app.js#L7654) |
+| o | VariableDeclaration | pluginOptionsField | [7655](../../magpie/internal/gui/assets/app.js#L7655) |
+| row | VariableDeclaration | pluginOptionsField | [7656](../../magpie/internal/gui/assets/app.js#L7656) |
+| text | VariableDeclaration | pluginOptionsField | [7658](../../magpie/internal/gui/assets/app.js#L7658) |
+| draw | VariableDeclaration | pluginOptionsField | [7661](../../magpie/internal/gui/assets/app.js#L7661) |
+| seg | VariableDeclaration | pluginOptionsField.draw | [7662](../../magpie/internal/gui/assets/app.js#L7662) |
+| savePluginOptions | FunctionDeclaration |  | [7678](../../magpie/internal/gui/assets/app.js#L7678) |
+| pid | VariableDeclaration | savePluginOptions | [7679](../../magpie/internal/gui/assets/app.js#L7679) |
+| [key, on] | VariableDeclaration | savePluginOptions | [7681](../../magpie/internal/gui/assets/app.js#L7681) |
+| key | BindingElement | savePluginOptions.[key, on] | [7681](../../magpie/internal/gui/assets/app.js#L7681) |
+| on | BindingElement | savePluginOptions.[key, on] | [7681](../../magpie/internal/gui/assets/app.js#L7681) |
+| priceRateOfDraft | FunctionDeclaration |  | [7687](../../magpie/internal/gui/assets/app.js#L7687) |
+| v | VariableDeclaration | priceRateOfDraft | [7688](../../magpie/internal/gui/assets/app.js#L7688) |
+| n | VariableDeclaration | priceRateOfDraft | [7690](../../magpie/internal/gui/assets/app.js#L7690) |
+| shown | FunctionDeclaration |  | [7696](../../magpie/internal/gui/assets/app.js#L7696) |
+| d | VariableDeclaration | shown | [7697](../../magpie/internal/gui/assets/app.js#L7697) |
+| foldMoves | VariableDeclaration |  | [7707](../../magpie/internal/gui/assets/app.js#L7707) |
+| sum | VariableDeclaration |  | [7709](../../magpie/internal/gui/assets/app.js#L7709) |
+| d | VariableDeclaration |  | [7710](../../magpie/internal/gui/assets/app.js#L7710) |
+| inner | VariableDeclaration |  | [7710](../../magpie/internal/gui/assets/app.js#L7710) |
+| was | VariableDeclaration |  | [7712](../../magpie/internal/gui/assets/app.js#L7712) |
+| closing | VariableDeclaration |  | [7713](../../magpie/internal/gui/assets/app.js#L7713) |
+| box | VariableDeclaration |  | [7719](../../magpie/internal/gui/assets/app.js#L7719) |
+| from | VariableDeclaration |  | [7722](../../magpie/internal/gui/assets/app.js#L7722) |
+| boxFrom | VariableDeclaration |  | [7723](../../magpie/internal/gui/assets/app.js#L7723) |
+| fade | VariableDeclaration |  | [7724](../../magpie/internal/gui/assets/app.js#L7724) |
+| x | VariableDeclaration |  | [7725](../../magpie/internal/gui/assets/app.js#L7725) |
+| to | VariableDeclaration |  | [7729](../../magpie/internal/gui/assets/app.js#L7729) |
+| boxTo | VariableDeclaration |  | [7730](../../magpie/internal/gui/assets/app.js#L7730) |
+| shape | VariableDeclaration |  | [7734](../../magpie/internal/gui/assets/app.js#L7734) |
+| pad | VariableDeclaration |  | [7735](../../magpie/internal/gui/assets/app.js#L7735) |
+| grow | VariableDeclaration |  | [7736](../../magpie/internal/gui/assets/app.js#L7736) |
+| anims | VariableDeclaration |  | [7740](../../magpie/internal/gui/assets/app.js#L7740) |
+| i | VariableDeclaration |  | [7747](../../magpie/internal/gui/assets/app.js#L7747) |
+| row | VariableDeclaration |  | [7748](../../magpie/internal/gui/assets/app.js#L7748) |
+| move | VariableDeclaration |  | [7754](../../magpie/internal/gui/assets/app.js#L7754) |
+| advancedSet | FunctionDeclaration |  | [7766](../../magpie/internal/gui/assets/app.js#L7766) |
+| k | BindingElement | advancedSet | [7767](../../magpie/internal/gui/assets/app.js#L7767) |
+| priceRateError | FunctionDeclaration |  | [7773](../../magpie/internal/gui/assets/app.js#L7773) |
+| concurrencyDraft | FunctionDeclaration |  | [7777](../../magpie/internal/gui/assets/app.js#L7777) |
+| queueOfDraft | FunctionDeclaration |  | [7785](../../magpie/internal/gui/assets/app.js#L7785) |
+| out | VariableDeclaration | queueOfDraft | [7786](../../magpie/internal/gui/assets/app.js#L7786) |
+| [k, max] | VariableDeclaration | queueOfDraft | [7787](../../magpie/internal/gui/assets/app.js#L7787) |
+| k | BindingElement | queueOfDraft.[k, max] | [7787](../../magpie/internal/gui/assets/app.js#L7787) |
+| max | BindingElement | queueOfDraft.[k, max] | [7787](../../magpie/internal/gui/assets/app.js#L7787) |
+| v | VariableDeclaration | queueOfDraft | [7788](../../magpie/internal/gui/assets/app.js#L7788) |
+| queueError | FunctionDeclaration |  | [7795](../../magpie/internal/gui/assets/app.js#L7795) |
+| concurrencyOfDraft | FunctionDeclaration |  | [7805](../../magpie/internal/gui/assets/app.js#L7805) |
+| v | VariableDeclaration | concurrencyOfDraft | [7806](../../magpie/internal/gui/assets/app.js#L7806) |
+| concurrencyError | FunctionDeclaration |  | [7811](../../magpie/internal/gui/assets/app.js#L7811) |
+| proxyDraft | FunctionDeclaration |  | [7815](../../magpie/internal/gui/assets/app.js#L7815) |
+| v | VariableDeclaration | proxyDraft | [7816](../../magpie/internal/gui/assets/app.js#L7816) |
+| accountProxies | VariableDeclaration | proxyDraft | [7818](../../magpie/internal/gui/assets/app.js#L7818) |
+| [u, x] | VariableDeclaration | proxyDraft | [7819](../../magpie/internal/gui/assets/app.js#L7819) |
+| u | BindingElement | proxyDraft.[u, x] | [7819](../../magpie/internal/gui/assets/app.js#L7819) |
+| x | BindingElement | proxyDraft.[u, x] | [7819](../../magpie/internal/gui/assets/app.js#L7819) |
+| asTyped | FunctionDeclaration |  | [7825](../../magpie/internal/gui/assets/app.js#L7825) |
+| keys | VariableDeclaration | asTyped | [7828](../../magpie/internal/gui/assets/app.js#L7828) |
+| body | VariableDeclaration | asTyped | [7829](../../magpie/internal/gui/assets/app.js#L7829) |
+| xb | VariableDeclaration | asTyped | [7838](../../magpie/internal/gui/assets/app.js#L7838) |
+| proxy | VariableDeclaration | asTyped | [7840](../../magpie/internal/gui/assets/app.js#L7840) |
+| proxyOfDraft | FunctionDeclaration |  | [7850](../../magpie/internal/gui/assets/app.js#L7850) |
+| ACCOUNT_PROXY_HINT | VariableDeclaration |  | [7862](../../magpie/internal/gui/assets/app.js#L7862) |
+| accountProxyPicker | FunctionDeclaration |  | [7863](../../magpie/internal/gui/assets/app.js#L7863) |
+| ls | VariableDeclaration | accountProxyPicker | [7864](../../magpie/internal/gui/assets/app.js#L7864) |
+| KEY_PROXY_HINT | VariableDeclaration |  | [7871](../../magpie/internal/gui/assets/app.js#L7871) |
+| keyProxyPicker | FunctionDeclaration |  | [7872](../../magpie/internal/gui/assets/app.js#L7872) |
+| proxyLines | FunctionDeclaration |  | [7881](../../magpie/internal/gui/assets/app.js#L7881) |
+| box | VariableDeclaration | proxyLines | [7884](../../magpie/internal/gui/assets/app.js#L7884) |
+| tail | VariableDeclaration | proxyLines | [7885](../../magpie/internal/gui/assets/app.js#L7885) |
+| it | VariableDeclaration | proxyLines | [7887](../../magpie/internal/gui/assets/app.js#L7887) |
+| q | VariableDeclaration | proxyLines | [7891](../../magpie/internal/gui/assets/app.js#L7891) |
+| tools | VariableDeclaration | proxyLines | [7892](../../magpie/internal/gui/assets/app.js#L7892) |
+| draw | VariableDeclaration | proxyLines | [7893](../../magpie/internal/gui/assets/app.js#L7893) |
+| n | VariableDeclaration | proxyLines.draw | [7894](../../magpie/internal/gui/assets/app.js#L7894) |
+| add | VariableDeclaration | proxyLines.draw | [7895](../../magpie/internal/gui/assets/app.js#L7895) |
+| own | VariableDeclaration | proxyLines.draw | [7897](../../magpie/internal/gui/assets/app.js#L7897) |
+| it | VariableDeclaration | proxyLines.draw | [7898](../../magpie/internal/gui/assets/app.js#L7898) |
+| more | VariableDeclaration | proxyLines.draw | [7899](../../magpie/internal/gui/assets/app.js#L7899) |
+| matched | VariableDeclaration | proxyLines.draw | [7905](../../magpie/internal/gui/assets/app.js#L7905) |
+| it | VariableDeclaration | proxyLines.draw | [7906](../../magpie/internal/gui/assets/app.js#L7906) |
+| close | VariableDeclaration | proxyLines | [7910](../../magpie/internal/gui/assets/app.js#L7910) |
+| openTools | VariableDeclaration | proxyLines | [7911](../../magpie/internal/gui/assets/app.js#L7911) |
+| f | VariableDeclaration | proxyLines.openTools | [7913](../../magpie/internal/gui/assets/app.js#L7913) |
+| fewer | VariableDeclaration | proxyLines.openTools | [7920](../../magpie/internal/gui/assets/app.js#L7920) |

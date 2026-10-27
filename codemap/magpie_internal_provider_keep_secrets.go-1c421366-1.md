@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/keep_secrets.go) · page 1/1
 
-Source SHA-256: 3c7b78369a339f255828c6ca8f8376a890f59e4dd3a7769615f51cc3f9c0efe1
+Source SHA-256: 4a27613964dafc5c634ae76d53145d57fe3aa9c369b17c8f48058ce117b2dcac
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

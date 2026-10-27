@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/source/source.go) · page 1/1
 
-Source SHA-256: 00bc66fe8ab0d168520ddd373c523b1ec999c68b3d6a642f92580442b6cc1ae4
+Source SHA-256: db00c65429cdb121d22cb041408d77e8df69208bcd82d503bb44a48d2c37d822
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,16 +16,16 @@ Source SHA-256: 00bc66fe8ab0d168520ddd373c523b1ec999c68b3d6a642f92580442b6cc1ae4
 | NPMMirror | const_spec |  | [33](../../magpie/internal/source/source.go#L33) |
 | China | var_spec |  | [37](../../magpie/internal/source/source.go#L37) |
 | chinaFirst | function_declaration |  | [45](../../magpie/internal/source/source.go#L45) |
-| Enabled | function_declaration |  | [77](../../magpie/internal/source/source.go#L77) |
-| npmBase | function_declaration |  | [85](../../magpie/internal/source/source.go#L85) |
-| githubBase | function_declaration |  | [92](../../magpie/internal/source/source.go#L92) |
-| URLs | function_declaration |  | [102](../../magpie/internal/source/source.go#L102) |
-| faithful | function_declaration |  | [122](../../magpie/internal/source/source.go#L122) |
-| distinct | function_declaration |  | [131](../../magpie/internal/source/source.go#L131) |
-| Do | function_declaration |  | [144](../../magpie/internal/source/source.go#L144) |
-| mirrorable | function_declaration |  | [153](../../magpie/internal/source/source.go#L153) |
-| DoOfficial | function_declaration |  | [182](../../magpie/internal/source/source.go#L182) |
-| DoFaithful | function_declaration |  | [189](../../magpie/internal/source/source.go#L189) |
-| do | function_declaration |  | [196](../../magpie/internal/source/source.go#L196) |
-| candidateContext | function_declaration |  | [262](../../magpie/internal/source/source.go#L262) |
-| retryable | function_declaration |  | [280](../../magpie/internal/source/source.go#L280) |
+| Enabled | function_declaration |  | [79](../../magpie/internal/source/source.go#L79) |
+| npmBase | function_declaration |  | [87](../../magpie/internal/source/source.go#L87) |
+| githubBase | function_declaration |  | [94](../../magpie/internal/source/source.go#L94) |
+| URLs | function_declaration |  | [104](../../magpie/internal/source/source.go#L104) |
+| faithful | function_declaration |  | [124](../../magpie/internal/source/source.go#L124) |
+| distinct | function_declaration |  | [133](../../magpie/internal/source/source.go#L133) |
+| Do | function_declaration |  | [146](../../magpie/internal/source/source.go#L146) |
+| mirrorable | function_declaration |  | [155](../../magpie/internal/source/source.go#L155) |
+| DoOfficial | function_declaration |  | [184](../../magpie/internal/source/source.go#L184) |
+| DoFaithful | function_declaration |  | [191](../../magpie/internal/source/source.go#L191) |
+| do | function_declaration |  | [198](../../magpie/internal/source/source.go#L198) |
+| candidateContext | function_declaration |  | [264](../../magpie/internal/source/source.go#L264) |
+| retryable | function_declaration |  | [282](../../magpie/internal/source/source.go#L282) |

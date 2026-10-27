@@ -4,73 +4,83 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codeassist.go) · page 1/1
 
-Source SHA-256: 2a9501da430851d67884e52d9760d1f1fa71490b6687cb68b9f07368a3a14f35
+Source SHA-256: e5a0af47b8c57db59ea0cd6a524f1f19992a2dc3946c42dd981aaa73911a12d3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| skipSignature | const_spec |  | [28](../../magpie/internal/gateway/codeassist.go#L28) |
-| unsafeToolID | var_spec |  | [30](../../magpie/internal/gateway/codeassist.go#L30) |
-| antigravityBaseOf | var_spec |  | [34](../../magpie/internal/gateway/codeassist.go#L34) |
-| accountAgent | function_declaration |  | [40](../../magpie/internal/gateway/codeassist.go#L40) |
-| antigravityTurnsAway | function_declaration |  | [54](../../magpie/internal/gateway/codeassist.go#L54) |
-| antigravityRefuses | function_declaration |  | [63](../../magpie/internal/gateway/codeassist.go#L63) |
-| antigravityTurnedAway | function_declaration |  | [73](../../magpie/internal/gateway/codeassist.go#L73) |
-| agForeseeing | const_spec |  | [81](../../magpie/internal/gateway/codeassist.go#L81) |
-| antigravityForeseen | method_declaration | *Server | [88](../../magpie/internal/gateway/codeassist.go#L88) |
-| antigravityTurnedAwayHint | const_spec |  | [103](../../magpie/internal/gateway/codeassist.go#L103) |
-| turnedAwayStatus | const_spec |  | [110](../../magpie/internal/gateway/codeassist.go#L110) |
-| turnedAwayErrType | const_spec |  | [114](../../magpie/internal/gateway/codeassist.go#L114) |
-| codeAssistID | function_declaration |  | [125](../../magpie/internal/gateway/codeassist.go#L125) |
-| codeAssistBody | function_declaration |  | [143](../../magpie/internal/gateway/codeassist.go#L143) |
-| buildCodeAssist | function_declaration |  | [156](../../magpie/internal/gateway/codeassist.go#L156) |
-| buildCodeAssistSent | function_declaration |  | [166](../../magpie/internal/gateway/codeassist.go#L166) |
-| dropSecondAnswers | function_declaration |  | [433](../../magpie/internal/gateway/codeassist.go#L433) |
-| interruptedToolNote | const_spec |  | [477](../../magpie/internal/gateway/codeassist.go#L477) |
-| pairFunctionTurns | function_declaration |  | [493](../../magpie/internal/gateway/codeassist.go#L493) |
-| thinkingConfig | function_declaration |  | [572](../../magpie/internal/gateway/codeassist.go#L572) |
-| geminiVersion | var_spec |  | [618](../../magpie/internal/gateway/codeassist.go#L618) |
-| geminiGeneration | function_declaration |  | [626](../../magpie/internal/gateway/codeassist.go#L626) |
-| plainSchema | function_declaration |  | [638](../../magpie/internal/gateway/codeassist.go#L638) |
-| codeAssistDecoder | struct_type |  | [832](../../magpie/internal/gateway/codeassist.go#L832) |
-| started | field_declaration | codeAssistDecoder | [833](../../magpie/internal/gateway/codeassist.go#L833) |
-| tools | field_declaration | codeAssistDecoder | [834](../../magpie/internal/gateway/codeassist.go#L834) |
-| stopped | field_declaration | codeAssistDecoder | [835](../../magpie/internal/gateway/codeassist.go#L835) |
-| searched | field_declaration | codeAssistDecoder | [838](../../magpie/internal/gateway/codeassist.go#L838) |
-| usage | field_declaration | codeAssistDecoder | [839](../../magpie/internal/gateway/codeassist.go#L839) |
-| held | field_declaration | codeAssistDecoder | [842](../../magpie/internal/gateway/codeassist.go#L842) |
-| decode | method_declaration | *codeAssistDecoder | [845](../../magpie/internal/gateway/codeassist.go#L845) |
-| Response | field_declaration | *codeAssistDecoder.decode | [847](../../magpie/internal/gateway/codeassist.go#L847) |
-| Error | field_declaration | *codeAssistDecoder.decode | [848](../../magpie/internal/gateway/codeassist.go#L848) |
-| Message | field_declaration | *codeAssistDecoder.decode | [849](../../magpie/internal/gateway/codeassist.go#L849) |
-| callMarker | const_spec |  | [965](../../magpie/internal/gateway/codeassist.go#L965) |
-| geminiNamespace | const_spec |  | [967](../../magpie/internal/gateway/codeassist.go#L967) |
-| toolOfCall | function_declaration |  | [970](../../magpie/internal/gateway/codeassist.go#L970) |
-| maxHeld | const_spec |  | [981](../../magpie/internal/gateway/codeassist.go#L981) |
-| text | method_declaration | *codeAssistDecoder | [984](../../magpie/internal/gateway/codeassist.go#L984) |
-| flush | method_declaration | *codeAssistDecoder | [1024](../../magpie/internal/gateway/codeassist.go#L1024) |
-| ctrl46 | const_spec |  | [1032](../../magpie/internal/gateway/codeassist.go#L1032) |
-| textCall | function_declaration |  | [1038](../../magpie/internal/gateway/codeassist.go#L1038) |
-| isIdent | function_declaration |  | [1061](../../magpie/internal/gateway/codeassist.go#L1061) |
-| closeBrace | function_declaration |  | [1067](../../magpie/internal/gateway/codeassist.go#L1067) |
-| textArgs | function_declaration |  | [1095](../../magpie/internal/gateway/codeassist.go#L1095) |
-| nextKey | function_declaration |  | [1155](../../magpie/internal/gateway/codeassist.go#L1155) |
-| geminiChunk | struct_type |  | [1183](../../magpie/internal/gateway/codeassist.go#L1183) |
-| Candidates | field_declaration | geminiChunk | [1184](../../magpie/internal/gateway/codeassist.go#L1184) |
-| Content | field_declaration | geminiChunk | [1185](../../magpie/internal/gateway/codeassist.go#L1185) |
-| Parts | field_declaration | geminiChunk | [1186](../../magpie/internal/gateway/codeassist.go#L1186) |
-| FinishReason | field_declaration | geminiChunk | [1188](../../magpie/internal/gateway/codeassist.go#L1188) |
-| GroundingMetadata | field_declaration | geminiChunk | [1189](../../magpie/internal/gateway/codeassist.go#L1189) |
-| WebSearchQueries | field_declaration | geminiChunk | [1190](../../magpie/internal/gateway/codeassist.go#L1190) |
-| GroundingChunks | field_declaration | geminiChunk | [1191](../../magpie/internal/gateway/codeassist.go#L1191) |
-| Web | field_declaration | geminiChunk | [1192](../../magpie/internal/gateway/codeassist.go#L1192) |
-| Title | field_declaration | geminiChunk | [1193](../../magpie/internal/gateway/codeassist.go#L1193) |
-| URI | field_declaration | geminiChunk | [1194](../../magpie/internal/gateway/codeassist.go#L1194) |
-| UsageMetadata | field_declaration | geminiChunk | [1199](../../magpie/internal/gateway/codeassist.go#L1199) |
-| Prompt | field_declaration | geminiChunk | [1200](../../magpie/internal/gateway/codeassist.go#L1200) |
-| Candidates | field_declaration | geminiChunk | [1201](../../magpie/internal/gateway/codeassist.go#L1201) |
-| Thoughts | field_declaration | geminiChunk | [1202](../../magpie/internal/gateway/codeassist.go#L1202) |
-| Cached | field_declaration | geminiChunk | [1203](../../magpie/internal/gateway/codeassist.go#L1203) |
-| ModelVersion | field_declaration | geminiChunk | [1205](../../magpie/internal/gateway/codeassist.go#L1205) |
-| ResponseID | field_declaration | geminiChunk | [1206](../../magpie/internal/gateway/codeassist.go#L1206) |
-| stopFromGemini | function_declaration |  | [1209](../../magpie/internal/gateway/codeassist.go#L1209) |
-| hasResponse | function_declaration |  | [1223](../../magpie/internal/gateway/codeassist.go#L1223) |
+| skipSignature | const_spec |  | [30](../../magpie/internal/gateway/codeassist.go#L30) |
+| unsafeToolID | var_spec |  | [32](../../magpie/internal/gateway/codeassist.go#L32) |
+| antigravityBaseOf | var_spec |  | [36](../../magpie/internal/gateway/codeassist.go#L36) |
+| accountAgent | function_declaration |  | [42](../../magpie/internal/gateway/codeassist.go#L42) |
+| antigravityTurnsAway | function_declaration |  | [57](../../magpie/internal/gateway/codeassist.go#L57) |
+| agTurnedAway | var_spec |  | [94](../../magpie/internal/gateway/codeassist.go#L94) |
+| antigravityTurnsCodexAway | function_declaration |  | [104](../../magpie/internal/gateway/codeassist.go#L104) |
+| antigravityTurnsHermesAway | function_declaration |  | [112](../../magpie/internal/gateway/codeassist.go#L112) |
+| zeroWidth | const_spec |  | [118](../../magpie/internal/gateway/codeassist.go#L118) |
+| antigravityCloak | function_declaration |  | [126](../../magpie/internal/gateway/codeassist.go#L126) |
+| asciiLower | function_declaration |  | [163](../../magpie/internal/gateway/codeassist.go#L163) |
+| antigravityRefuses | function_declaration |  | [177](../../magpie/internal/gateway/codeassist.go#L177) |
+| antigravityTurnedAway | function_declaration |  | [187](../../magpie/internal/gateway/codeassist.go#L187) |
+| agForeseeing | const_spec |  | [195](../../magpie/internal/gateway/codeassist.go#L195) |
+| antigravityForeseen | method_declaration | *Server | [204](../../magpie/internal/gateway/codeassist.go#L204) |
+| antigravityTurnedAwayHint | const_spec |  | [222](../../magpie/internal/gateway/codeassist.go#L222) |
+| antigravityCodexHint | const_spec |  | [227](../../magpie/internal/gateway/codeassist.go#L227) |
+| antigravityHermesHint | const_spec |  | [231](../../magpie/internal/gateway/codeassist.go#L231) |
+| antigravityHint | function_declaration |  | [235](../../magpie/internal/gateway/codeassist.go#L235) |
+| turnedAwayStatus | const_spec |  | [250](../../magpie/internal/gateway/codeassist.go#L250) |
+| turnedAwayErrType | const_spec |  | [254](../../magpie/internal/gateway/codeassist.go#L254) |
+| codeAssistID | function_declaration |  | [265](../../magpie/internal/gateway/codeassist.go#L265) |
+| codeAssistBody | function_declaration |  | [283](../../magpie/internal/gateway/codeassist.go#L283) |
+| buildCodeAssist | function_declaration |  | [306](../../magpie/internal/gateway/codeassist.go#L306) |
+| buildCodeAssistSent | function_declaration |  | [316](../../magpie/internal/gateway/codeassist.go#L316) |
+| dropSecondAnswers | function_declaration |  | [583](../../magpie/internal/gateway/codeassist.go#L583) |
+| interruptedToolNote | const_spec |  | [627](../../magpie/internal/gateway/codeassist.go#L627) |
+| pairFunctionTurns | function_declaration |  | [643](../../magpie/internal/gateway/codeassist.go#L643) |
+| thinkingConfig | function_declaration |  | [722](../../magpie/internal/gateway/codeassist.go#L722) |
+| geminiVersion | var_spec |  | [768](../../magpie/internal/gateway/codeassist.go#L768) |
+| geminiGeneration | function_declaration |  | [776](../../magpie/internal/gateway/codeassist.go#L776) |
+| plainSchema | function_declaration |  | [788](../../magpie/internal/gateway/codeassist.go#L788) |
+| codeAssistDecoder | struct_type |  | [982](../../magpie/internal/gateway/codeassist.go#L982) |
+| started | field_declaration | codeAssistDecoder | [983](../../magpie/internal/gateway/codeassist.go#L983) |
+| tools | field_declaration | codeAssistDecoder | [984](../../magpie/internal/gateway/codeassist.go#L984) |
+| stopped | field_declaration | codeAssistDecoder | [985](../../magpie/internal/gateway/codeassist.go#L985) |
+| searched | field_declaration | codeAssistDecoder | [988](../../magpie/internal/gateway/codeassist.go#L988) |
+| usage | field_declaration | codeAssistDecoder | [989](../../magpie/internal/gateway/codeassist.go#L989) |
+| held | field_declaration | codeAssistDecoder | [992](../../magpie/internal/gateway/codeassist.go#L992) |
+| decode | method_declaration | *codeAssistDecoder | [995](../../magpie/internal/gateway/codeassist.go#L995) |
+| Response | field_declaration | *codeAssistDecoder.decode | [997](../../magpie/internal/gateway/codeassist.go#L997) |
+| Error | field_declaration | *codeAssistDecoder.decode | [998](../../magpie/internal/gateway/codeassist.go#L998) |
+| Message | field_declaration | *codeAssistDecoder.decode | [999](../../magpie/internal/gateway/codeassist.go#L999) |
+| callMarker | const_spec |  | [1115](../../magpie/internal/gateway/codeassist.go#L1115) |
+| geminiNamespace | const_spec |  | [1117](../../magpie/internal/gateway/codeassist.go#L1117) |
+| toolOfCall | function_declaration |  | [1120](../../magpie/internal/gateway/codeassist.go#L1120) |
+| maxHeld | const_spec |  | [1131](../../magpie/internal/gateway/codeassist.go#L1131) |
+| text | method_declaration | *codeAssistDecoder | [1134](../../magpie/internal/gateway/codeassist.go#L1134) |
+| flush | method_declaration | *codeAssistDecoder | [1174](../../magpie/internal/gateway/codeassist.go#L1174) |
+| ctrl46 | const_spec |  | [1182](../../magpie/internal/gateway/codeassist.go#L1182) |
+| textCall | function_declaration |  | [1188](../../magpie/internal/gateway/codeassist.go#L1188) |
+| isIdent | function_declaration |  | [1211](../../magpie/internal/gateway/codeassist.go#L1211) |
+| closeBrace | function_declaration |  | [1217](../../magpie/internal/gateway/codeassist.go#L1217) |
+| textArgs | function_declaration |  | [1245](../../magpie/internal/gateway/codeassist.go#L1245) |
+| nextKey | function_declaration |  | [1305](../../magpie/internal/gateway/codeassist.go#L1305) |
+| geminiChunk | struct_type |  | [1333](../../magpie/internal/gateway/codeassist.go#L1333) |
+| Candidates | field_declaration | geminiChunk | [1334](../../magpie/internal/gateway/codeassist.go#L1334) |
+| Content | field_declaration | geminiChunk | [1335](../../magpie/internal/gateway/codeassist.go#L1335) |
+| Parts | field_declaration | geminiChunk | [1336](../../magpie/internal/gateway/codeassist.go#L1336) |
+| FinishReason | field_declaration | geminiChunk | [1338](../../magpie/internal/gateway/codeassist.go#L1338) |
+| GroundingMetadata | field_declaration | geminiChunk | [1339](../../magpie/internal/gateway/codeassist.go#L1339) |
+| WebSearchQueries | field_declaration | geminiChunk | [1340](../../magpie/internal/gateway/codeassist.go#L1340) |
+| GroundingChunks | field_declaration | geminiChunk | [1341](../../magpie/internal/gateway/codeassist.go#L1341) |
+| Web | field_declaration | geminiChunk | [1342](../../magpie/internal/gateway/codeassist.go#L1342) |
+| Title | field_declaration | geminiChunk | [1343](../../magpie/internal/gateway/codeassist.go#L1343) |
+| URI | field_declaration | geminiChunk | [1344](../../magpie/internal/gateway/codeassist.go#L1344) |
+| UsageMetadata | field_declaration | geminiChunk | [1349](../../magpie/internal/gateway/codeassist.go#L1349) |
+| Prompt | field_declaration | geminiChunk | [1350](../../magpie/internal/gateway/codeassist.go#L1350) |
+| Candidates | field_declaration | geminiChunk | [1351](../../magpie/internal/gateway/codeassist.go#L1351) |
+| Thoughts | field_declaration | geminiChunk | [1352](../../magpie/internal/gateway/codeassist.go#L1352) |
+| Cached | field_declaration | geminiChunk | [1353](../../magpie/internal/gateway/codeassist.go#L1353) |
+| ModelVersion | field_declaration | geminiChunk | [1355](../../magpie/internal/gateway/codeassist.go#L1355) |
+| ResponseID | field_declaration | geminiChunk | [1356](../../magpie/internal/gateway/codeassist.go#L1356) |
+| stopFromGemini | function_declaration |  | [1359](../../magpie/internal/gateway/codeassist.go#L1359) |
+| hasResponse | function_declaration |  | [1373](../../magpie/internal/gateway/codeassist.go#L1373) |
+| antigravityRound | function_declaration |  | [1389](../../magpie/internal/gateway/codeassist.go#L1389) |

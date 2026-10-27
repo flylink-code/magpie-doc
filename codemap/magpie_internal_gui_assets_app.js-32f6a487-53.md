@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 53/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mod | VariableDeclaration |  | [18976](../../magpie/internal/gui/assets/app.js#L18976) |
-| k | VariableDeclaration |  | [18978](../../magpie/internal/gui/assets/app.js#L18978) |
-| i | VariableDeclaration |  | [18983](../../magpie/internal/gui/assets/app.js#L18983) |
-| n | VariableDeclaration |  | [18984](../../magpie/internal/gui/assets/app.js#L18984) |
-| mod | VariableDeclaration |  | [18993](../../magpie/internal/gui/assets/app.js#L18993) |
-| fontList | VariableDeclaration |  | [19001](../../magpie/internal/gui/assets/app.js#L19001) |
-| fontListError | VariableDeclaration |  | [19001](../../magpie/internal/gui/assets/app.js#L19001) |
-| fontFlight | VariableDeclaration |  | [19001](../../magpie/internal/gui/assets/app.js#L19001) |
-| fontRevision | VariableDeclaration |  | [19001](../../magpie/internal/gui/assets/app.js#L19001) |
-| fontDrafts | VariableDeclaration |  | [19002](../../magpie/internal/gui/assets/app.js#L19002) |
-| fontChoices | FunctionDeclaration |  | [19003](../../magpie/internal/gui/assets/app.js#L19003) |
-| k | BindingElement | fontChoices | [19004](../../magpie/internal/gui/assets/app.js#L19004) |
-| d | BindingElement | fontChoices | [19004](../../magpie/internal/gui/assets/app.js#L19004) |
-| fonts | VariableDeclaration |  | [19010](../../magpie/internal/gui/assets/app.js#L19010) |
-| loadFonts | FunctionDeclaration |  | [19016](../../magpie/internal/gui/assets/app.js#L19016) |
-| chooseFont | FunctionDeclaration |  | [19031](../../magpie/internal/gui/assets/app.js#L19031) |
-| revision | VariableDeclaration | chooseFont | [19032](../../magpie/internal/gui/assets/app.js#L19032) |
-| closestFont | FunctionDeclaration |  | [19042](../../magpie/internal/gui/assets/app.js#L19042) |
-| exact | VariableDeclaration | closestFont | [19043](../../magpie/internal/gui/assets/app.js#L19043) |
-| matching | VariableDeclaration | closestFont | [19045](../../magpie/internal/gui/assets/app.js#L19045) |
-| renderFonts | FunctionDeclaration |  | [19051](../../magpie/internal/gui/assets/app.js#L19051) |
-| current | VariableDeclaration | renderFonts | [19052](../../magpie/internal/gui/assets/app.js#L19052) |
-| [key, id, label] | VariableDeclaration | renderFonts | [19053](../../magpie/internal/gui/assets/app.js#L19053) |
-| key | BindingElement | renderFonts.[key, id, label] | [19053](../../magpie/internal/gui/assets/app.js#L19053) |
-| id | BindingElement | renderFonts.[key, id, label] | [19053](../../magpie/internal/gui/assets/app.js#L19053) |
-| label | BindingElement | renderFonts.[key, id, label] | [19053](../../magpie/internal/gui/assets/app.js#L19053) |
-| row | VariableDeclaration | renderFonts | [19054](../../magpie/internal/gui/assets/app.js#L19054) |
-| chosen | VariableDeclaration | renderFonts | [19057](../../magpie/internal/gui/assets/app.js#L19057) |
-| family | VariableDeclaration | renderFonts | [19057](../../magpie/internal/gui/assets/app.js#L19057) |
-| missing | VariableDeclaration | renderFonts | [19058](../../magpie/internal/gui/assets/app.js#L19058) |
-| note | VariableDeclaration | renderFonts | [19059](../../magpie/internal/gui/assets/app.js#L19059) |
-| pill | VariableDeclaration | renderFonts | [19065](../../magpie/internal/gui/assets/app.js#L19065) |
-| style | VariableDeclaration | renderFonts | [19065](../../magpie/internal/gui/assets/app.js#L19065) |
-| paint | VariableDeclaration | renderFonts | [19066](../../magpie/internal/gui/assets/app.js#L19066) |
-| options | VariableDeclaration | renderFonts | [19078](../../magpie/internal/gui/assets/app.js#L19078) |
-| next | VariableDeclaration | renderFonts | [19084](../../magpie/internal/gui/assets/app.js#L19084) |
-| styles | VariableDeclaration | renderFonts | [19091](../../magpie/internal/gui/assets/app.js#L19091) |
-| applyPrefs | FunctionDeclaration |  | [19102](../../magpie/internal/gui/assets/app.js#L19102) |
-| root | VariableDeclaration | applyPrefs | [19105](../../magpie/internal/gui/assets/app.js#L19105) |
-| want | VariableDeclaration | applyPrefs | [19107](../../magpie/internal/gui/assets/app.js#L19107) |
-| b | VariableDeclaration | applyPrefs | [19123](../../magpie/internal/gui/assets/app.js#L19123) |
-| kept | VariableDeclaration | applyPrefs | [19129](../../magpie/internal/gui/assets/app.js#L19129) |
-| got | VariableDeclaration | applyPrefs | [19141](../../magpie/internal/gui/assets/app.js#L19141) |
-| moved | VariableDeclaration | applyPrefs | [19142](../../magpie/internal/gui/assets/app.js#L19142) |
-| was | VariableDeclaration | applyPrefs | [19154](../../magpie/internal/gui/assets/app.js#L19154) |
-| barIcon | VariableDeclaration |  | [19162](../../magpie/internal/gui/assets/app.js#L19162) |
-| renderBarIcon | FunctionDeclaration |  | [19163](../../magpie/internal/gui/assets/app.js#L19163) |
-| loginItemsURL | VariableDeclaration |  | [19177](../../magpie/internal/gui/assets/app.js#L19177) |
-| renderLoginAllow | FunctionDeclaration |  | [19178](../../magpie/internal/gui/assets/app.js#L19178) |
-| who | VariableDeclaration | renderLoginAllow | [19179](../../magpie/internal/gui/assets/app.js#L19179) |
-| sub | VariableDeclaration | renderLoginAllow | [19180](../../magpie/internal/gui/assets/app.js#L19180) |
-| open | VariableDeclaration | renderLoginAllow | [19189](../../magpie/internal/gui/assets/app.js#L19189) |
-| loadSettings | FunctionDeclaration |  | [19197](../../magpie/internal/gui/assets/app.js#L19197) |
-| since | VariableDeclaration | loadSettings | [19198](../../magpie/internal/gui/assets/app.js#L19198) |
-| s | VariableDeclaration | loadSettings | [19201](../../magpie/internal/gui/assets/app.js#L19201) |
-| prefsWrites | VariableDeclaration |  | [19222](../../magpie/internal/gui/assets/app.js#L19222) |
-| prefsBusy | VariableDeclaration |  | [19222](../../magpie/internal/gui/assets/app.js#L19222) |
-| prefWrite | FunctionDeclaration |  | [19224](../../magpie/internal/gui/assets/app.js#L19224) |
-| writingPrefs | FunctionDeclaration |  | [19225](../../magpie/internal/gui/assets/app.js#L19225) |
-| prefsSettled | VariableDeclaration |  | [19230](../../magpie/internal/gui/assets/app.js#L19230) |
-| GITHUB_SVG | VariableDeclaration |  | [19232](../../magpie/internal/gui/assets/app.js#L19232) |
-| DISCORD_SVG | VariableDeclaration |  | [19233](../../magpie/internal/gui/assets/app.js#L19233) |
-| WARM_TABS | VariableDeclaration |  | [19242](../../magpie/internal/gui/assets/app.js#L19242) |
-| warmTab | VariableDeclaration |  | [19243](../../magpie/internal/gui/assets/app.js#L19243) |
-| k | VariableDeclaration |  | [19244](../../magpie/internal/gui/assets/app.js#L19244) |
-| setWarmTab | FunctionDeclaration |  | [19245](../../magpie/internal/gui/assets/app.js#L19245) |
-| [id, list] | VariableDeclaration | setWarmTab | [19251](../../magpie/internal/gui/assets/app.js#L19251) |
-| id | BindingElement | setWarmTab.[id, list] | [19251](../../magpie/internal/gui/assets/app.js#L19251) |
-| list | BindingElement | setWarmTab.[id, list] | [19251](../../magpie/internal/gui/assets/app.js#L19251) |
-| b | VariableDeclaration | setWarmTab | [19252](../../magpie/internal/gui/assets/app.js#L19252) |
-| on | VariableDeclaration | setWarmTab | [19252](../../magpie/internal/gui/assets/app.js#L19252) |
-| tabKeys | FunctionDeclaration |  | [19261](../../magpie/internal/gui/assets/app.js#L19261) |
-| shown | VariableDeclaration | tabKeys | [19263](../../magpie/internal/gui/assets/app.js#L19263) |
-| i | VariableDeclaration | tabKeys | [19264](../../magpie/internal/gui/assets/app.js#L19264) |
-| j | VariableDeclaration | tabKeys | [19266](../../magpie/internal/gui/assets/app.js#L19266) |
-| b | VariableDeclaration | tabKeys | [19270](../../magpie/internal/gui/assets/app.js#L19270) |
-| tabs | VariableDeclaration |  | [19276](../../magpie/internal/gui/assets/app.js#L19276) |
-| b | VariableDeclaration |  | [19278](../../magpie/internal/gui/assets/app.js#L19278) |
-| SET_TABS | VariableDeclaration |  | [19292](../../magpie/internal/gui/assets/app.js#L19292) |
-| setTab | VariableDeclaration |  | [19293](../../magpie/internal/gui/assets/app.js#L19293) |
-| k | VariableDeclaration |  | [19294](../../magpie/internal/gui/assets/app.js#L19294) |
-| setShown | VariableDeclaration |  | [19295](../../magpie/internal/gui/assets/app.js#L19295) |
-| setQuery | VariableDeclaration |  | [19296](../../magpie/internal/gui/assets/app.js#L19296) |
-| partShows | VariableDeclaration |  | [19300](../../magpie/internal/gui/assets/app.js#L19300) |
-| rows | VariableDeclaration | partShows | [19301](../../magpie/internal/gui/assets/app.js#L19301) |
-| n | VariableDeclaration | partShows | [19303](../../magpie/internal/gui/assets/app.js#L19303) |
-| setSetTab | FunctionDeclaration |  | [19307](../../magpie/internal/gui/assets/app.js#L19307) |
-| id | VariableDeclaration | setSetTab | [19313](../../magpie/internal/gui/assets/app.js#L19313) |
-| id | VariableDeclaration | setSetTab | [19316](../../magpie/internal/gui/assets/app.js#L19316) |
-| b | VariableDeclaration | setSetTab | [19317](../../magpie/internal/gui/assets/app.js#L19317) |
-| on | VariableDeclaration | setSetTab | [19317](../../magpie/internal/gui/assets/app.js#L19317) |
-| tabs | VariableDeclaration |  | [19330](../../magpie/internal/gui/assets/app.js#L19330) |
-| b | VariableDeclaration |  | [19332](../../magpie/internal/gui/assets/app.js#L19332) |
-| sv | VariableDeclaration |  | [19338](../../magpie/internal/gui/assets/app.js#L19338) |
-| head | VariableDeclaration |  | [19338](../../magpie/internal/gui/assets/app.js#L19338) |
-| setText | VariableDeclaration |  | [19356](../../magpie/internal/gui/assets/app.js#L19356) |
-| findSettings | FunctionDeclaration |  | [19357](../../magpie/internal/gui/assets/app.js#L19357) |
-| v | VariableDeclaration | findSettings | [19358](../../magpie/internal/gui/assets/app.js#L19358) |
-| words | VariableDeclaration | findSettings | [19360](../../magpie/internal/gui/assets/app.js#L19360) |
-| any | VariableDeclaration | findSettings | [19361](../../magpie/internal/gui/assets/app.js#L19361) |
+| prefsWrites | VariableDeclaration |  | [19037](../../magpie/internal/gui/assets/app.js#L19037) |
+| prefsBusy | VariableDeclaration |  | [19037](../../magpie/internal/gui/assets/app.js#L19037) |
+| prefWrite | FunctionDeclaration |  | [19039](../../magpie/internal/gui/assets/app.js#L19039) |
+| writingPrefs | FunctionDeclaration |  | [19040](../../magpie/internal/gui/assets/app.js#L19040) |
+| prefsSettled | VariableDeclaration |  | [19045](../../magpie/internal/gui/assets/app.js#L19045) |
+| GITHUB_SVG | VariableDeclaration |  | [19047](../../magpie/internal/gui/assets/app.js#L19047) |
+| DISCORD_SVG | VariableDeclaration |  | [19048](../../magpie/internal/gui/assets/app.js#L19048) |
+| WARM_TABS | VariableDeclaration |  | [19057](../../magpie/internal/gui/assets/app.js#L19057) |
+| warmTab | VariableDeclaration |  | [19058](../../magpie/internal/gui/assets/app.js#L19058) |
+| k | VariableDeclaration |  | [19059](../../magpie/internal/gui/assets/app.js#L19059) |
+| setWarmTab | FunctionDeclaration |  | [19060](../../magpie/internal/gui/assets/app.js#L19060) |
+| [id, list] | VariableDeclaration | setWarmTab | [19066](../../magpie/internal/gui/assets/app.js#L19066) |
+| id | BindingElement | setWarmTab.[id, list] | [19066](../../magpie/internal/gui/assets/app.js#L19066) |
+| list | BindingElement | setWarmTab.[id, list] | [19066](../../magpie/internal/gui/assets/app.js#L19066) |
+| b | VariableDeclaration | setWarmTab | [19067](../../magpie/internal/gui/assets/app.js#L19067) |
+| on | VariableDeclaration | setWarmTab | [19067](../../magpie/internal/gui/assets/app.js#L19067) |
+| tabKeys | FunctionDeclaration |  | [19076](../../magpie/internal/gui/assets/app.js#L19076) |
+| shown | VariableDeclaration | tabKeys | [19078](../../magpie/internal/gui/assets/app.js#L19078) |
+| i | VariableDeclaration | tabKeys | [19079](../../magpie/internal/gui/assets/app.js#L19079) |
+| j | VariableDeclaration | tabKeys | [19081](../../magpie/internal/gui/assets/app.js#L19081) |
+| b | VariableDeclaration | tabKeys | [19085](../../magpie/internal/gui/assets/app.js#L19085) |
+| tabs | VariableDeclaration |  | [19091](../../magpie/internal/gui/assets/app.js#L19091) |
+| b | VariableDeclaration |  | [19093](../../magpie/internal/gui/assets/app.js#L19093) |
+| SET_TABS | VariableDeclaration |  | [19107](../../magpie/internal/gui/assets/app.js#L19107) |
+| setTab | VariableDeclaration |  | [19108](../../magpie/internal/gui/assets/app.js#L19108) |
+| k | VariableDeclaration |  | [19109](../../magpie/internal/gui/assets/app.js#L19109) |
+| setShown | VariableDeclaration |  | [19110](../../magpie/internal/gui/assets/app.js#L19110) |
+| setQuery | VariableDeclaration |  | [19111](../../magpie/internal/gui/assets/app.js#L19111) |
+| partShows | VariableDeclaration |  | [19115](../../magpie/internal/gui/assets/app.js#L19115) |
+| rows | VariableDeclaration | partShows | [19116](../../magpie/internal/gui/assets/app.js#L19116) |
+| n | VariableDeclaration | partShows | [19118](../../magpie/internal/gui/assets/app.js#L19118) |
+| setSetTab | FunctionDeclaration |  | [19122](../../magpie/internal/gui/assets/app.js#L19122) |
+| id | VariableDeclaration | setSetTab | [19128](../../magpie/internal/gui/assets/app.js#L19128) |
+| id | VariableDeclaration | setSetTab | [19131](../../magpie/internal/gui/assets/app.js#L19131) |
+| b | VariableDeclaration | setSetTab | [19132](../../magpie/internal/gui/assets/app.js#L19132) |
+| on | VariableDeclaration | setSetTab | [19132](../../magpie/internal/gui/assets/app.js#L19132) |
+| tabs | VariableDeclaration |  | [19145](../../magpie/internal/gui/assets/app.js#L19145) |
+| b | VariableDeclaration |  | [19147](../../magpie/internal/gui/assets/app.js#L19147) |
+| sv | VariableDeclaration |  | [19153](../../magpie/internal/gui/assets/app.js#L19153) |
+| head | VariableDeclaration |  | [19153](../../magpie/internal/gui/assets/app.js#L19153) |
+| setText | VariableDeclaration |  | [19171](../../magpie/internal/gui/assets/app.js#L19171) |
+| findSettings | FunctionDeclaration |  | [19172](../../magpie/internal/gui/assets/app.js#L19172) |
+| v | VariableDeclaration | findSettings | [19173](../../magpie/internal/gui/assets/app.js#L19173) |
+| words | VariableDeclaration | findSettings | [19175](../../magpie/internal/gui/assets/app.js#L19175) |
+| any | VariableDeclaration | findSettings | [19176](../../magpie/internal/gui/assets/app.js#L19176) |
+| id | VariableDeclaration | findSettings | [19177](../../magpie/internal/gui/assets/app.js#L19177) |
+| page | VariableDeclaration | findSettings | [19178](../../magpie/internal/gui/assets/app.js#L19178) |
+| tab | VariableDeclaration | findSettings | [19178](../../magpie/internal/gui/assets/app.js#L19178) |
+| part | VariableDeclaration | findSettings | [19179](../../magpie/internal/gui/assets/app.js#L19179) |
+| hits | VariableDeclaration | findSettings | [19180](../../magpie/internal/gui/assets/app.js#L19180) |
+| head | VariableDeclaration | findSettings | [19180](../../magpie/internal/gui/assets/app.js#L19180) |
+| lit | VariableDeclaration | findSettings | [19181](../../magpie/internal/gui/assets/app.js#L19181) |
+| n | VariableDeclaration | findSettings | [19182](../../magpie/internal/gui/assets/app.js#L19182) |
+| pane | VariableDeclaration | findSettings | [19188](../../magpie/internal/gui/assets/app.js#L19188) |
+| says | VariableDeclaration | findSettings | [19188](../../magpie/internal/gui/assets/app.js#L19188) |
+| hit | VariableDeclaration | findSettings | [19193](../../magpie/internal/gui/assets/app.js#L19193) |
+| shows | VariableDeclaration | findSettings | [19195](../../magpie/internal/gui/assets/app.js#L19195) |
+| a | VariableDeclaration | findSettings | [19196](../../magpie/internal/gui/assets/app.js#L19196) |
+| box | VariableDeclaration | findSettings | [19205](../../magpie/internal/gui/assets/app.js#L19205) |
+| h | VariableDeclaration | findSettings | [19209](../../magpie/internal/gui/assets/app.js#L19209) |
+| next | VariableDeclaration | findSettings | [19210](../../magpie/internal/gui/assets/app.js#L19210) |
+| none | VariableDeclaration | findSettings | [19217](../../magpie/internal/gui/assets/app.js#L19217) |
+| searchSettings | FunctionDeclaration |  | [19221](../../magpie/internal/gui/assets/app.js#L19221) |
+| v | VariableDeclaration | searchSettings | [19224](../../magpie/internal/gui/assets/app.js#L19224) |
+| n | VariableDeclaration | searchSettings | [19226](../../magpie/internal/gui/assets/app.js#L19226) |
+| q | VariableDeclaration |  | [19231](../../magpie/internal/gui/assets/app.js#L19231) |
+| again | VariableDeclaration |  | [19241](../../magpie/internal/gui/assets/app.js#L19241) |
+| cliView | VariableDeclaration |  | [19254](../../magpie/internal/gui/assets/app.js#L19254) |
+| cliAt | VariableDeclaration |  | [19254](../../magpie/internal/gui/assets/app.js#L19254) |
+| cliAsk | VariableDeclaration |  | [19254](../../magpie/internal/gui/assets/app.js#L19254) |
+| exeName | VariableDeclaration |  | [19255](../../magpie/internal/gui/assets/app.js#L19255) |
+| renderCLI | FunctionDeclaration |  | [19256](../../magpie/internal/gui/assets/app.js#L19256) |
+| sub | VariableDeclaration | renderCLI | [19258](../../magpie/internal/gui/assets/app.js#L19258) |
+| shells | VariableDeclaration | renderCLI | [19259](../../magpie/internal/gui/assets/app.js#L19259) |
+| note | VariableDeclaration | renderCLI | [19260](../../magpie/internal/gui/assets/app.js#L19260) |
+| add | VariableDeclaration | renderCLI | [19262](../../magpie/internal/gui/assets/app.js#L19262) |
+| go | VariableDeclaration | renderCLI | [19265](../../magpie/internal/gui/assets/app.js#L19265) |
+| e | VariableDeclaration | renderCLI.go | [19273](../../magpie/internal/gui/assets/app.js#L19273) |
+| paint | VariableDeclaration | renderCLI | [19275](../../magpie/internal/gui/assets/app.js#L19275) |
+| line | VariableDeclaration | renderCLI.paint | [19288](../../magpie/internal/gui/assets/app.js#L19288) |
+| b | VariableDeclaration | renderCLI.paint | [19296](../../magpie/internal/gui/assets/app.js#L19296) |
+| mirrorEditing | VariableDeclaration |  | [19320](../../magpie/internal/gui/assets/app.js#L19320) |
+| mirrorDraft | VariableDeclaration |  | [19320](../../magpie/internal/gui/assets/app.js#L19320) |
+| mirrorErr | VariableDeclaration |  | [19320](../../magpie/internal/gui/assets/app.js#L19320) |
+| setUpdateMirror | FunctionDeclaration |  | [19321](../../magpie/internal/gui/assets/app.js#L19321) |
+| renderUpdateMirror | FunctionDeclaration |  | [19325](../../magpie/internal/gui/assets/app.js#L19325) |
+| who | VariableDeclaration | renderUpdateMirror | [19327](../../magpie/internal/gui/assets/app.js#L19327) |
+| val | VariableDeclaration | renderUpdateMirror | [19327](../../magpie/internal/gui/assets/app.js#L19327) |
+| sub | VariableDeclaration | renderUpdateMirror | [19330](../../magpie/internal/gui/assets/app.js#L19330) |
+| m | VariableDeclaration | renderUpdateMirror | [19332](../../magpie/internal/gui/assets/app.js#L19332) |
+| official | VariableDeclaration | renderUpdateMirror | [19339](../../magpie/internal/gui/assets/app.js#L19339) |
+| change | VariableDeclaration | renderUpdateMirror | [19341](../../magpie/internal/gui/assets/app.js#L19341) |
+| add | VariableDeclaration | renderUpdateMirror | [19345](../../magpie/internal/gui/assets/app.js#L19345) |
+| i | VariableDeclaration | renderUpdateMirror | [19351](../../magpie/internal/gui/assets/app.js#L19351) |
+| save | VariableDeclaration | renderUpdateMirror | [19355](../../magpie/internal/gui/assets/app.js#L19355) |
+| v | VariableDeclaration | renderUpdateMirror | [19357](../../magpie/internal/gui/assets/app.js#L19357) |
+| cancel | VariableDeclaration | renderUpdateMirror | [19361](../../magpie/internal/gui/assets/app.js#L19361) |
+| renderSettings | FunctionDeclaration |  | [19368](../../magpie/internal/gui/assets/app.js#L19368) |
+| s | VariableDeclaration | renderSettings | [19369](../../magpie/internal/gui/assets/app.js#L19369) |
+| keep | VariableDeclaration | renderSettings | [19370](../../magpie/internal/gui/assets/app.js#L19370) |

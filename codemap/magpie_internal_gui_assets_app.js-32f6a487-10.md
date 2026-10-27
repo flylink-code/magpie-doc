@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 10/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| openAgentMenu | FunctionDeclaration |  | [3624](../../magpie/internal/gui/assets/app.js#L3624) |
-| again | VariableDeclaration | openAgentMenu | [3626](../../magpie/internal/gui/assets/app.js#L3626) |
-| { shown } | VariableDeclaration | openAgentMenu | [3629](../../magpie/internal/gui/assets/app.js#L3629) |
-| shown | BindingElement | openAgentMenu.{ shown } | [3629](../../magpie/internal/gui/assets/app.js#L3629) |
-| i | VariableDeclaration | openAgentMenu | [3630](../../magpie/internal/gui/assets/app.js#L3630) |
-| reapply | VariableDeclaration | openAgentMenu | [3631](../../magpie/internal/gui/assets/app.js#L3631) |
-| acts | VariableDeclaration | openAgentMenu | [3632](../../magpie/internal/gui/assets/app.js#L3632) |
-| run | PropertyAssignment | openAgentMenu.acts | [3633](../../magpie/internal/gui/assets/app.js#L3633) |
-| run | PropertyAssignment | openAgentMenu.acts | [3635](../../magpie/internal/gui/assets/app.js#L3635) |
-| run | PropertyAssignment | openAgentMenu.acts | [3637](../../magpie/internal/gui/assets/app.js#L3637) |
-| run | PropertyAssignment | openAgentMenu.acts | [3638](../../magpie/internal/gui/assets/app.js#L3638) |
-| run | PropertyAssignment | openAgentMenu.acts | [3640](../../magpie/internal/gui/assets/app.js#L3640) |
-| run | PropertyAssignment | openAgentMenu.acts | [3642](../../magpie/internal/gui/assets/app.js#L3642) |
-| run | PropertyAssignment | openAgentMenu.acts | [3643](../../magpie/internal/gui/assets/app.js#L3643) |
-| run | PropertyAssignment | openAgentMenu.acts | [3645](../../magpie/internal/gui/assets/app.js#L3645) |
-| run | PropertyAssignment | openAgentMenu.acts | [3646](../../magpie/internal/gui/assets/app.js#L3646) |
-| openRowMenu | FunctionDeclaration |  | [3653](../../magpie/internal/gui/assets/app.js#L3653) |
-| box | VariableDeclaration | openRowMenu | [3654](../../magpie/internal/gui/assets/app.js#L3654) |
-| items | VariableDeclaration | openRowMenu | [3656](../../magpie/internal/gui/assets/app.js#L3656) |
-| o | VariableDeclaration | openRowMenu | [3657](../../magpie/internal/gui/assets/app.js#L3657) |
-| b | VariableDeclaration | openRowMenu | [3659](../../magpie/internal/gui/assets/app.js#L3659) |
-| outside | VariableDeclaration | openRowMenu | [3679](../../magpie/internal/gui/assets/app.js#L3679) |
-| scroll | VariableDeclaration | openRowMenu | [3681](../../magpie/internal/gui/assets/app.js#L3681) |
-| keys | VariableDeclaration | openRowMenu | [3682](../../magpie/internal/gui/assets/app.js#L3682) |
-| k | VariableDeclaration | openRowMenu.keys | [3683](../../magpie/internal/gui/assets/app.js#L3683) |
-| n | VariableDeclaration | openRowMenu.keys | [3688](../../magpie/internal/gui/assets/app.js#L3688) |
-| at | VariableDeclaration | openRowMenu.keys | [3688](../../magpie/internal/gui/assets/app.js#L3688) |
-| TIERS | VariableDeclaration |  | [3703](../../magpie/internal/gui/assets/app.js#L3703) |
-| TIER_EFFORTS | VariableDeclaration |  | [3705](../../magpie/internal/gui/assets/app.js#L3705) |
-| FOLLOWS_MODEL | VariableDeclaration |  | [3709](../../magpie/internal/gui/assets/app.js#L3709) |
-| OMP_UNSET | VariableDeclaration |  | [3716](../../magpie/internal/gui/assets/app.js#L3716) |
-| OMP_OWN_PICK | VariableDeclaration |  | [3720](../../magpie/internal/gui/assets/app.js#L3720) |
-| OMP_ROLES | VariableDeclaration |  | [3721](../../magpie/internal/gui/assets/app.js#L3721) |
-| ompAgent | VariableDeclaration |  | [3723](../../magpie/internal/gui/assets/app.js#L3723) |
-| menuRoles | VariableDeclaration |  | [3726](../../magpie/internal/gui/assets/app.js#L3726) |
-| roleLevel | VariableDeclaration |  | [3727](../../magpie/internal/gui/assets/app.js#L3727) |
-| grouped | VariableDeclaration |  | [3728](../../magpie/internal/gui/assets/app.js#L3728) |
-| ROLE_MODELS | VariableDeclaration |  | [3730](../../magpie/internal/gui/assets/app.js#L3730) |
-| PICKS_ITSELF | VariableDeclaration |  | [3733](../../magpie/internal/gui/assets/app.js#L3733) |
-| SUB_EFFORT | VariableDeclaration |  | [3741](../../magpie/internal/gui/assets/app.js#L3741) |
-| MEMORIES | VariableDeclaration |  | [3742](../../magpie/internal/gui/assets/app.js#L3742) |
-| SUB_MODEL | VariableDeclaration |  | [3749](../../magpie/internal/gui/assets/app.js#L3749) |
-| AUTO_MODE | VariableDeclaration |  | [3759](../../magpie/internal/gui/assets/app.js#L3759) |
-| AUTO_MODE_UNSET | VariableDeclaration |  | [3760](../../magpie/internal/gui/assets/app.js#L3760) |
-| leadPicks | VariableDeclaration |  | [3761](../../magpie/internal/gui/assets/app.js#L3761) |
-| LEAD_PICKS | VariableDeclaration |  | [3762](../../magpie/internal/gui/assets/app.js#L3762) |
-| CLAUDE_PICKS | VariableDeclaration |  | [3767](../../magpie/internal/gui/assets/app.js#L3767) |
-| claudePicks | VariableDeclaration |  | [3768](../../magpie/internal/gui/assets/app.js#L3768) |
-| codexSub | VariableDeclaration |  | [3775](../../magpie/internal/gui/assets/app.js#L3775) |
-| codexOwnSub | VariableDeclaration |  | [3776](../../magpie/internal/gui/assets/app.js#L3776) |
-| codexRowed | VariableDeclaration |  | [3778](../../magpie/internal/gui/assets/app.js#L3778) |
-| SAME_AS_LEAD | VariableDeclaration |  | [3779](../../magpie/internal/gui/assets/app.js#L3779) |
-| SUB_MODEL_UNSET | VariableDeclaration |  | [3780](../../magpie/internal/gui/assets/app.js#L3780) |
-| SUB_MODEL_UNSET_PLAIN | VariableDeclaration |  | [3781](../../magpie/internal/gui/assets/app.js#L3781) |
-| SUB_MODEL_SET | VariableDeclaration |  | [3782](../../magpie/internal/gui/assets/app.js#L3782) |
-| SUB_MODEL_OLD | VariableDeclaration |  | [3783](../../magpie/internal/gui/assets/app.js#L3783) |
-| codexSubSaid | FunctionDeclaration |  | [3786](../../magpie/internal/gui/assets/app.js#L3786) |
-| opt | VariableDeclaration | codexSubSaid | [3787](../../magpie/internal/gui/assets/app.js#L3787) |
-| main | VariableDeclaration | codexSubSaid | [3788](../../magpie/internal/gui/assets/app.js#L3788) |
-| lead | VariableDeclaration | codexSubSaid | [3789](../../magpie/internal/gui/assets/app.js#L3789) |
-| old | VariableDeclaration | codexSubSaid | [3790](../../magpie/internal/gui/assets/app.js#L3790) |
-| name | VariableDeclaration | codexSubSaid | [3791](../../magpie/internal/gui/assets/app.js#L3791) |
-| line | VariableDeclaration | codexSubSaid | [3792](../../magpie/internal/gui/assets/app.js#L3792) |
-| extra | VariableDeclaration |  | [3795](../../magpie/internal/gui/assets/app.js#L3795) |
-| EXTRA_GLYPH | VariableDeclaration |  | [3796](../../magpie/internal/gui/assets/app.js#L3796) |
-| MEMORIES_DEFAULT | VariableDeclaration |  | [3816](../../magpie/internal/gui/assets/app.js#L3816) |
-| SAME_SESSION | VariableDeclaration |  | [3817](../../magpie/internal/gui/assets/app.js#L3817) |
-| extraField | FunctionDeclaration |  | [3818](../../magpie/internal/gui/assets/app.js#L3818) |
-| said | VariableDeclaration | extraField | [3820](../../magpie/internal/gui/assets/app.js#L3820) |
-| set | VariableDeclaration | extraField | [3821](../../magpie/internal/gui/assets/app.js#L3821) |
-| b | VariableDeclaration | extraField | [3822](../../magpie/internal/gui/assets/app.js#L3822) |
-| opt | VariableDeclaration | extraField | [3824](../../magpie/internal/gui/assets/app.js#L3824) |
-| menuTitle | FunctionDeclaration |  | [3835](../../magpie/internal/gui/assets/app.js#L3835) |
-| subEffortTitle | FunctionDeclaration |  | [3843](../../magpie/internal/gui/assets/app.js#L3843) |
-| agentPrefsButton | FunctionDeclaration |  | [3850](../../magpie/internal/gui/assets/app.js#L3850) |
-| b | VariableDeclaration | agentPrefsButton | [3851](../../magpie/internal/gui/assets/app.js#L3851) |
-| c | VariableDeclaration | agentPrefsButton | [3853](../../magpie/internal/gui/assets/app.js#L3853) |
-| names | VariableDeclaration | agentPrefsButton | [3857](../../magpie/internal/gui/assets/app.js#L3857) |
-| launchButton | FunctionDeclaration |  | [3868](../../magpie/internal/gui/assets/app.js#L3868) |
-| b | VariableDeclaration | launchButton | [3869](../../magpie/internal/gui/assets/app.js#L3869) |
-| launchSolo | FunctionDeclaration |  | [3882](../../magpie/internal/gui/assets/app.js#L3882) |
-| b | VariableDeclaration | launchSolo | [3883](../../magpie/internal/gui/assets/app.js#L3883) |
-| c | VariableDeclaration | launchSolo | [3887](../../magpie/internal/gui/assets/app.js#L3887) |
-| LAUNCH_GLYPH | VariableDeclaration |  | [3896](../../magpie/internal/gui/assets/app.js#L3896) |
-| tierMenu | FunctionDeclaration |  | [3898](../../magpie/internal/gui/assets/app.js#L3898) |
-| omp | VariableDeclaration | tierMenu | [3899](../../magpie/internal/gui/assets/app.js#L3899) |
-| tiers | VariableDeclaration | tierMenu | [3900](../../magpie/internal/gui/assets/app.js#L3900) |
-| main | VariableDeclaration | tierMenu | [3904](../../magpie/internal/gui/assets/app.js#L3904) |
-| mainName | VariableDeclaration | tierMenu | [3905](../../magpie/internal/gui/assets/app.js#L3905) |
-| unset | VariableDeclaration | tierMenu | [3906](../../magpie/internal/gui/assets/app.js#L3906) |
-| effortOf | VariableDeclaration | tierMenu | [3912](../../magpie/internal/gui/assets/app.js#L3912) |
-| level | VariableDeclaration | tierMenu | [3913](../../magpie/internal/gui/assets/app.js#L3913) |
-| custom | VariableDeclaration | tierMenu | [3914](../../magpie/internal/gui/assets/app.js#L3914) |
-| name | VariableDeclaration | tierMenu | [3915](../../magpie/internal/gui/assets/app.js#L3915) |
-| model | VariableDeclaration | tierMenu | [3920](../../magpie/internal/gui/assets/app.js#L3920) |
-| e | VariableDeclaration | tierMenu | [3924](../../magpie/internal/gui/assets/app.js#L3924) |
-| levelUnset | VariableDeclaration |  | [3931](../../magpie/internal/gui/assets/app.js#L3931) |
-| UNROLL | VariableDeclaration |  | [3936](../../magpie/internal/gui/assets/app.js#L3936) |
-| ROW_OPEN | VariableDeclaration |  | [3941](../../magpie/internal/gui/assets/app.js#L3941) |
-| ROW_CLOSE | VariableDeclaration |  | [3942](../../magpie/internal/gui/assets/app.js#L3942) |
+| w | VariableDeclaration | openAgentModels | [3611](../../magpie/internal/gui/assets/app.js#L3611) |
+| x | VariableDeclaration | openAgentModels | [3613](../../magpie/internal/gui/assets/app.js#L3613) |
+| below | VariableDeclaration | openAgentModels | [3616](../../magpie/internal/gui/assets/app.js#L3616) |
+| above | VariableDeclaration | openAgentModels | [3616](../../magpie/internal/gui/assets/app.js#L3616) |
+| want | VariableDeclaration | openAgentModels | [3617](../../magpie/internal/gui/assets/app.js#L3617) |
+| agentMenu | VariableDeclaration |  | [3643](../../magpie/internal/gui/assets/app.js#L3643) |
+| closeAgentMenu | FunctionDeclaration |  | [3644](../../magpie/internal/gui/assets/app.js#L3644) |
+| openAgentMenu | FunctionDeclaration |  | [3654](../../magpie/internal/gui/assets/app.js#L3654) |
+| again | VariableDeclaration | openAgentMenu | [3656](../../magpie/internal/gui/assets/app.js#L3656) |
+| { shown } | VariableDeclaration | openAgentMenu | [3659](../../magpie/internal/gui/assets/app.js#L3659) |
+| shown | BindingElement | openAgentMenu.{ shown } | [3659](../../magpie/internal/gui/assets/app.js#L3659) |
+| i | VariableDeclaration | openAgentMenu | [3660](../../magpie/internal/gui/assets/app.js#L3660) |
+| reapply | VariableDeclaration | openAgentMenu | [3661](../../magpie/internal/gui/assets/app.js#L3661) |
+| acts | VariableDeclaration | openAgentMenu | [3662](../../magpie/internal/gui/assets/app.js#L3662) |
+| run | PropertyAssignment | openAgentMenu.acts | [3663](../../magpie/internal/gui/assets/app.js#L3663) |
+| run | PropertyAssignment | openAgentMenu.acts | [3665](../../magpie/internal/gui/assets/app.js#L3665) |
+| run | PropertyAssignment | openAgentMenu.acts | [3667](../../magpie/internal/gui/assets/app.js#L3667) |
+| run | PropertyAssignment | openAgentMenu.acts | [3668](../../magpie/internal/gui/assets/app.js#L3668) |
+| run | PropertyAssignment | openAgentMenu.acts | [3670](../../magpie/internal/gui/assets/app.js#L3670) |
+| run | PropertyAssignment | openAgentMenu.acts | [3672](../../magpie/internal/gui/assets/app.js#L3672) |
+| run | PropertyAssignment | openAgentMenu.acts | [3673](../../magpie/internal/gui/assets/app.js#L3673) |
+| run | PropertyAssignment | openAgentMenu.acts | [3675](../../magpie/internal/gui/assets/app.js#L3675) |
+| run | PropertyAssignment | openAgentMenu.acts | [3676](../../magpie/internal/gui/assets/app.js#L3676) |
+| openRowMenu | FunctionDeclaration |  | [3683](../../magpie/internal/gui/assets/app.js#L3683) |
+| box | VariableDeclaration | openRowMenu | [3684](../../magpie/internal/gui/assets/app.js#L3684) |
+| items | VariableDeclaration | openRowMenu | [3686](../../magpie/internal/gui/assets/app.js#L3686) |
+| o | VariableDeclaration | openRowMenu | [3687](../../magpie/internal/gui/assets/app.js#L3687) |
+| b | VariableDeclaration | openRowMenu | [3689](../../magpie/internal/gui/assets/app.js#L3689) |
+| outside | VariableDeclaration | openRowMenu | [3709](../../magpie/internal/gui/assets/app.js#L3709) |
+| scroll | VariableDeclaration | openRowMenu | [3711](../../magpie/internal/gui/assets/app.js#L3711) |
+| keys | VariableDeclaration | openRowMenu | [3712](../../magpie/internal/gui/assets/app.js#L3712) |
+| k | VariableDeclaration | openRowMenu.keys | [3713](../../magpie/internal/gui/assets/app.js#L3713) |
+| n | VariableDeclaration | openRowMenu.keys | [3718](../../magpie/internal/gui/assets/app.js#L3718) |
+| at | VariableDeclaration | openRowMenu.keys | [3718](../../magpie/internal/gui/assets/app.js#L3718) |
+| TIERS | VariableDeclaration |  | [3733](../../magpie/internal/gui/assets/app.js#L3733) |
+| TIER_EFFORTS | VariableDeclaration |  | [3735](../../magpie/internal/gui/assets/app.js#L3735) |
+| FOLLOWS_MODEL | VariableDeclaration |  | [3739](../../magpie/internal/gui/assets/app.js#L3739) |
+| OMP_UNSET | VariableDeclaration |  | [3746](../../magpie/internal/gui/assets/app.js#L3746) |
+| OMP_OWN_PICK | VariableDeclaration |  | [3750](../../magpie/internal/gui/assets/app.js#L3750) |
+| OMP_ROLES | VariableDeclaration |  | [3751](../../magpie/internal/gui/assets/app.js#L3751) |
+| ompAgent | VariableDeclaration |  | [3753](../../magpie/internal/gui/assets/app.js#L3753) |
+| menuRoles | VariableDeclaration |  | [3756](../../magpie/internal/gui/assets/app.js#L3756) |
+| roleLevel | VariableDeclaration |  | [3757](../../magpie/internal/gui/assets/app.js#L3757) |
+| grouped | VariableDeclaration |  | [3758](../../magpie/internal/gui/assets/app.js#L3758) |
+| ROLE_MODELS | VariableDeclaration |  | [3760](../../magpie/internal/gui/assets/app.js#L3760) |
+| PICKS_ITSELF | VariableDeclaration |  | [3763](../../magpie/internal/gui/assets/app.js#L3763) |
+| SUB_EFFORT | VariableDeclaration |  | [3771](../../magpie/internal/gui/assets/app.js#L3771) |
+| MEMORIES | VariableDeclaration |  | [3772](../../magpie/internal/gui/assets/app.js#L3772) |
+| SUB_MODEL | VariableDeclaration |  | [3779](../../magpie/internal/gui/assets/app.js#L3779) |
+| AUTO_MODE | VariableDeclaration |  | [3789](../../magpie/internal/gui/assets/app.js#L3789) |
+| AUTO_MODE_UNSET | VariableDeclaration |  | [3790](../../magpie/internal/gui/assets/app.js#L3790) |
+| leadPicks | VariableDeclaration |  | [3791](../../magpie/internal/gui/assets/app.js#L3791) |
+| LEAD_PICKS | VariableDeclaration |  | [3792](../../magpie/internal/gui/assets/app.js#L3792) |
+| CLAUDE_PICKS | VariableDeclaration |  | [3797](../../magpie/internal/gui/assets/app.js#L3797) |
+| claudePicks | VariableDeclaration |  | [3798](../../magpie/internal/gui/assets/app.js#L3798) |
+| codexSub | VariableDeclaration |  | [3805](../../magpie/internal/gui/assets/app.js#L3805) |
+| codexOwnSub | VariableDeclaration |  | [3806](../../magpie/internal/gui/assets/app.js#L3806) |
+| codexRowed | VariableDeclaration |  | [3808](../../magpie/internal/gui/assets/app.js#L3808) |
+| SAME_AS_LEAD | VariableDeclaration |  | [3809](../../magpie/internal/gui/assets/app.js#L3809) |
+| SUB_MODEL_UNSET | VariableDeclaration |  | [3810](../../magpie/internal/gui/assets/app.js#L3810) |
+| SUB_MODEL_UNSET_PLAIN | VariableDeclaration |  | [3811](../../magpie/internal/gui/assets/app.js#L3811) |
+| SUB_MODEL_SET | VariableDeclaration |  | [3812](../../magpie/internal/gui/assets/app.js#L3812) |
+| SUB_MODEL_OLD | VariableDeclaration |  | [3813](../../magpie/internal/gui/assets/app.js#L3813) |
+| codexSubSaid | FunctionDeclaration |  | [3816](../../magpie/internal/gui/assets/app.js#L3816) |
+| opt | VariableDeclaration | codexSubSaid | [3817](../../magpie/internal/gui/assets/app.js#L3817) |
+| main | VariableDeclaration | codexSubSaid | [3818](../../magpie/internal/gui/assets/app.js#L3818) |
+| lead | VariableDeclaration | codexSubSaid | [3819](../../magpie/internal/gui/assets/app.js#L3819) |
+| old | VariableDeclaration | codexSubSaid | [3820](../../magpie/internal/gui/assets/app.js#L3820) |
+| name | VariableDeclaration | codexSubSaid | [3821](../../magpie/internal/gui/assets/app.js#L3821) |
+| line | VariableDeclaration | codexSubSaid | [3822](../../magpie/internal/gui/assets/app.js#L3822) |
+| extra | VariableDeclaration |  | [3825](../../magpie/internal/gui/assets/app.js#L3825) |
+| EXTRA_GLYPH | VariableDeclaration |  | [3826](../../magpie/internal/gui/assets/app.js#L3826) |
+| MEMORIES_DEFAULT | VariableDeclaration |  | [3846](../../magpie/internal/gui/assets/app.js#L3846) |
+| SAME_SESSION | VariableDeclaration |  | [3847](../../magpie/internal/gui/assets/app.js#L3847) |
+| extraField | FunctionDeclaration |  | [3848](../../magpie/internal/gui/assets/app.js#L3848) |
+| said | VariableDeclaration | extraField | [3850](../../magpie/internal/gui/assets/app.js#L3850) |
+| set | VariableDeclaration | extraField | [3851](../../magpie/internal/gui/assets/app.js#L3851) |
+| b | VariableDeclaration | extraField | [3852](../../magpie/internal/gui/assets/app.js#L3852) |
+| opt | VariableDeclaration | extraField | [3854](../../magpie/internal/gui/assets/app.js#L3854) |
+| menuTitle | FunctionDeclaration |  | [3865](../../magpie/internal/gui/assets/app.js#L3865) |
+| subEffortTitle | FunctionDeclaration |  | [3873](../../magpie/internal/gui/assets/app.js#L3873) |
+| agentPrefsButton | FunctionDeclaration |  | [3880](../../magpie/internal/gui/assets/app.js#L3880) |
+| b | VariableDeclaration | agentPrefsButton | [3881](../../magpie/internal/gui/assets/app.js#L3881) |
+| c | VariableDeclaration | agentPrefsButton | [3883](../../magpie/internal/gui/assets/app.js#L3883) |
+| names | VariableDeclaration | agentPrefsButton | [3887](../../magpie/internal/gui/assets/app.js#L3887) |
+| launchButton | FunctionDeclaration |  | [3898](../../magpie/internal/gui/assets/app.js#L3898) |
+| b | VariableDeclaration | launchButton | [3899](../../magpie/internal/gui/assets/app.js#L3899) |
+| launchSolo | FunctionDeclaration |  | [3914](../../magpie/internal/gui/assets/app.js#L3914) |
+| b | VariableDeclaration | launchSolo | [3915](../../magpie/internal/gui/assets/app.js#L3915) |
+| c | VariableDeclaration | launchSolo | [3919](../../magpie/internal/gui/assets/app.js#L3919) |
+| LAUNCH_GLYPH | VariableDeclaration |  | [3928](../../magpie/internal/gui/assets/app.js#L3928) |
+| tierMenu | FunctionDeclaration |  | [3930](../../magpie/internal/gui/assets/app.js#L3930) |
+| omp | VariableDeclaration | tierMenu | [3931](../../magpie/internal/gui/assets/app.js#L3931) |
+| tiers | VariableDeclaration | tierMenu | [3932](../../magpie/internal/gui/assets/app.js#L3932) |
+| main | VariableDeclaration | tierMenu | [3936](../../magpie/internal/gui/assets/app.js#L3936) |
+| mainName | VariableDeclaration | tierMenu | [3937](../../magpie/internal/gui/assets/app.js#L3937) |
+| unset | VariableDeclaration | tierMenu | [3938](../../magpie/internal/gui/assets/app.js#L3938) |
+| effortOf | VariableDeclaration | tierMenu | [3944](../../magpie/internal/gui/assets/app.js#L3944) |
+| level | VariableDeclaration | tierMenu | [3945](../../magpie/internal/gui/assets/app.js#L3945) |
+| custom | VariableDeclaration | tierMenu | [3946](../../magpie/internal/gui/assets/app.js#L3946) |

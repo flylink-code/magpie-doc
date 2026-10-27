@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 55/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| renderSync | FunctionDeclaration |  | [19855](../../magpie/internal/gui/assets/app.js#L19855) |
-| box | VariableDeclaration | renderSync | [19856](../../magpie/internal/gui/assets/app.js#L19856) |
-| row | VariableDeclaration | renderSync | [19863](../../magpie/internal/gui/assets/app.js#L19863) |
-| r | VariableDeclaration | renderSync.row | [19864](../../magpie/internal/gui/assets/app.js#L19864) |
-| who | VariableDeclaration | renderSync.row | [19865](../../magpie/internal/gui/assets/app.js#L19865) |
-| s | VariableDeclaration | renderSync.row | [19867](../../magpie/internal/gui/assets/app.js#L19867) |
-| val | VariableDeclaration | renderSync.row | [19869](../../magpie/internal/gui/assets/app.js#L19869) |
-| btn | VariableDeclaration | renderSync | [19875](../../magpie/internal/gui/assets/app.js#L19875) |
-| b | VariableDeclaration | renderSync.btn | [19875](../../magpie/internal/gui/assets/app.js#L19875) |
-| toggle | VariableDeclaration | renderSync | [19876](../../magpie/internal/gui/assets/app.js#L19876) |
-| parts | VariableDeclaration | renderSync | [19877](../../magpie/internal/gui/assets/app.js#L19877) |
-| goes | VariableDeclaration | renderSync | [19884](../../magpie/internal/gui/assets/app.js#L19884) |
-| status | VariableDeclaration | renderSync | [19888](../../magpie/internal/gui/assets/app.js#L19888) |
-| s3 | VariableDeclaration | renderSync | [19890](../../magpie/internal/gui/assets/app.js#L19890) |
-| github | VariableDeclaration | renderSync | [19891](../../magpie/internal/gui/assets/app.js#L19891) |
-| hostOf | VariableDeclaration | renderSync | [19893](../../magpie/internal/gui/assets/app.js#L19893) |
-| host | VariableDeclaration | renderSync | [19895](../../magpie/internal/gui/assets/app.js#L19895) |
-| kind | VariableDeclaration | renderSync | [19900](../../magpie/internal/gui/assets/app.js#L19900) |
-| sub | VariableDeclaration | renderSync | [19903](../../magpie/internal/gui/assets/app.js#L19903) |
-| n | VariableDeclaration | renderSync | [19927](../../magpie/internal/gui/assets/app.js#L19927) |
-| r | VariableDeclaration | renderSync | [19927](../../magpie/internal/gui/assets/app.js#L19927) |
-| lines | VariableDeclaration | renderSync | [19928](../../magpie/internal/gui/assets/app.js#L19928) |
-| who | VariableDeclaration | renderSync | [19932](../../magpie/internal/gui/assets/app.js#L19932) |
-| l | VariableDeclaration | renderSync | [19933](../../magpie/internal/gui/assets/app.js#L19933) |
-| val | VariableDeclaration | renderSync | [19935](../../magpie/internal/gui/assets/app.js#L19935) |
-| x | VariableDeclaration | renderSync | [19938](../../magpie/internal/gui/assets/app.js#L19938) |
-| every | VariableDeclaration | renderSync | [19948](../../magpie/internal/gui/assets/app.js#L19948) |
-| askRestore | FunctionDeclaration |  | [19966](../../magpie/internal/gui/assets/app.js#L19966) |
-| ed | VariableDeclaration | askRestore | [19967](../../magpie/internal/gui/assets/app.js#L19967) |
-| head | VariableDeclaration | askRestore | [19968](../../magpie/internal/gui/assets/app.js#L19968) |
-| goes | VariableDeclaration | askRestore | [19971](../../magpie/internal/gui/assets/app.js#L19971) |
-| err | VariableDeclaration | askRestore | [19976](../../magpie/internal/gui/assets/app.js#L19976) |
-| bar | VariableDeclaration | askRestore | [19978](../../magpie/internal/gui/assets/app.js#L19978) |
-| go | VariableDeclaration | askRestore | [19979](../../magpie/internal/gui/assets/app.js#L19979) |
-| r | VariableDeclaration | askRestore | [19985](../../magpie/internal/gui/assets/app.js#L19985) |
-| x | VariableDeclaration | askRestore | [19991](../../magpie/internal/gui/assets/app.js#L19991) |
-| cancel | VariableDeclaration | askRestore | [19997](../../magpie/internal/gui/assets/app.js#L19997) |
-| serverFileSaid | FunctionDeclaration |  | [20009](../../magpie/internal/gui/assets/app.js#L20009) |
-| size | VariableDeclaration | serverFileSaid | [20010](../../magpie/internal/gui/assets/app.js#L20010) |
-| s | VariableDeclaration | serverFileSaid | [20015](../../magpie/internal/gui/assets/app.js#L20015) |
-| askUpload | FunctionDeclaration |  | [20028](../../magpie/internal/gui/assets/app.js#L20028) |
-| ed | VariableDeclaration | askUpload | [20029](../../magpie/internal/gui/assets/app.js#L20029) |
-| head | VariableDeclaration | askUpload | [20030](../../magpie/internal/gui/assets/app.js#L20030) |
-| err | VariableDeclaration | askUpload | [20036](../../magpie/internal/gui/assets/app.js#L20036) |
-| bar | VariableDeclaration | askUpload | [20038](../../magpie/internal/gui/assets/app.js#L20038) |
-| go | VariableDeclaration | askUpload | [20039](../../magpie/internal/gui/assets/app.js#L20039) |
-| r | VariableDeclaration | askUpload | [20045](../../magpie/internal/gui/assets/app.js#L20045) |
-| x | VariableDeclaration | askUpload | [20048](../../magpie/internal/gui/assets/app.js#L20048) |
-| cancel | VariableDeclaration | askUpload | [20054](../../magpie/internal/gui/assets/app.js#L20054) |
-| refreshAfterSync | FunctionDeclaration |  | [20066](../../magpie/internal/gui/assets/app.js#L20066) |
-| syncWhen | FunctionDeclaration |  | [20071](../../magpie/internal/gui/assets/app.js#L20071) |
-| d | VariableDeclaration | syncWhen | [20072](../../magpie/internal/gui/assets/app.js#L20072) |
-| time | VariableDeclaration | syncWhen | [20073](../../magpie/internal/gui/assets/app.js#L20073) |
-| localAddresses | FunctionDeclaration |  | [20080](../../magpie/internal/gui/assets/app.js#L20080) |
-| given | VariableDeclaration | localAddresses | [20081](../../magpie/internal/gui/assets/app.js#L20081) |
-| h | VariableDeclaration | localAddresses | [20083](../../magpie/internal/gui/assets/app.js#L20083) |
-| v4 | VariableDeclaration | localAddresses | [20087](../../magpie/internal/gui/assets/app.js#L20087) |
-| a | VariableDeclaration | localAddresses | [20089](../../magpie/internal/gui/assets/app.js#L20089) |
-| b | VariableDeclaration | localAddresses | [20089](../../magpie/internal/gui/assets/app.js#L20089) |
-| tick | FunctionDeclaration |  | [20096](../../magpie/internal/gui/assets/app.js#L20096) |
-| l | VariableDeclaration | tick | [20097](../../magpie/internal/gui/assets/app.js#L20097) |
-| c | VariableDeclaration | tick | [20098](../../magpie/internal/gui/assets/app.js#L20098) |
-| syncBar | FunctionDeclaration |  | [20105](../../magpie/internal/gui/assets/app.js#L20105) |
-| bar | VariableDeclaration | syncBar | [20106](../../magpie/internal/gui/assets/app.js#L20106) |
-| error | VariableDeclaration | syncBar | [20108](../../magpie/internal/gui/assets/app.js#L20108) |
-| davForm | FunctionDeclaration |  | [20116](../../magpie/internal/gui/assets/app.js#L20116) |
-| ed | VariableDeclaration | davForm | [20117](../../magpie/internal/gui/assets/app.js#L20117) |
-| active | VariableDeclaration | davForm | [20118](../../magpie/internal/gui/assets/app.js#L20118) |
-| kind | VariableDeclaration | davForm | [20119](../../magpie/internal/gui/assets/app.js#L20119) |
-| saved | VariableDeclaration | davForm | [20120](../../magpie/internal/gui/assets/app.js#L20120) |
-| servers | VariableDeclaration | davForm | [20121](../../magpie/internal/gui/assets/app.js#L20121) |
-| server | VariableDeclaration | davForm | [20122](../../magpie/internal/gui/assets/app.js#L20122) |
-| dav | VariableDeclaration | davForm | [20123](../../magpie/internal/gui/assets/app.js#L20123) |
-| bk | VariableDeclaration | davForm | [20123](../../magpie/internal/gui/assets/app.js#L20123) |
-| gh | VariableDeclaration | davForm | [20123](../../magpie/internal/gui/assets/app.js#L20123) |
-| url | VariableDeclaration | davForm | [20124](../../magpie/internal/gui/assets/app.js#L20124) |
-| user | VariableDeclaration | davForm | [20125](../../magpie/internal/gui/assets/app.js#L20125) |
-| pass | VariableDeclaration | davForm | [20126](../../magpie/internal/gui/assets/app.js#L20126) |
-| [bucketName, prefixName] | VariableDeclaration | davForm | [20128](../../magpie/internal/gui/assets/app.js#L20128) |
-| bucketName | BindingElement | davForm.[bucketName, prefixName] | [20128](../../magpie/internal/gui/assets/app.js#L20128) |
-| prefixName | BindingElement | davForm.[bucketName, prefixName] | [20128](../../magpie/internal/gui/assets/app.js#L20128) |
-| m | VariableDeclaration | davForm.[bucketName, prefixName] | [20128](../../magpie/internal/gui/assets/app.js#L20128) |
-| endpoint | VariableDeclaration | davForm | [20129](../../magpie/internal/gui/assets/app.js#L20129) |
-| bucket | VariableDeclaration | davForm | [20130](../../magpie/internal/gui/assets/app.js#L20130) |
-| prefix | VariableDeclaration | davForm | [20131](../../magpie/internal/gui/assets/app.js#L20131) |
-| region | VariableDeclaration | davForm | [20132](../../magpie/internal/gui/assets/app.js#L20132) |
-| keyID | VariableDeclaration | davForm | [20133](../../magpie/internal/gui/assets/app.js#L20133) |
-| secret | VariableDeclaration | davForm | [20134](../../magpie/internal/gui/assets/app.js#L20134) |
-| [pathL, pathStyle] | VariableDeclaration | davForm | [20135](../../magpie/internal/gui/assets/app.js#L20135) |
-| pathL | BindingElement | davForm.[pathL, pathStyle] | [20135](../../magpie/internal/gui/assets/app.js#L20135) |
-| pathStyle | BindingElement | davForm.[pathL, pathStyle] | [20135](../../magpie/internal/gui/assets/app.js#L20135) |
-| ghParts | VariableDeclaration | davForm | [20136](../../magpie/internal/gui/assets/app.js#L20136) |
-| repo | VariableDeclaration | davForm | [20137](../../magpie/internal/gui/assets/app.js#L20137) |
-| branch | VariableDeclaration | davForm | [20138](../../magpie/internal/gui/assets/app.js#L20138) |
-| ghPrefix | VariableDeclaration | davForm | [20139](../../magpie/internal/gui/assets/app.js#L20139) |
-| token | VariableDeclaration | davForm | [20140](../../magpie/internal/gui/assets/app.js#L20140) |
-| phrase | VariableDeclaration | davForm | [20141](../../magpie/internal/gui/assets/app.js#L20141) |
-| [keysL, keys] | VariableDeclaration | davForm | [20142](../../magpie/internal/gui/assets/app.js#L20142) |
-| keysL | BindingElement | davForm.[keysL, keys] | [20142](../../magpie/internal/gui/assets/app.js#L20142) |
-| keys | BindingElement | davForm.[keysL, keys] | [20142](../../magpie/internal/gui/assets/app.js#L20142) |
+| h | VariableDeclaration | localAddresses | [19907](../../magpie/internal/gui/assets/app.js#L19907) |
+| v4 | VariableDeclaration | localAddresses | [19911](../../magpie/internal/gui/assets/app.js#L19911) |
+| a | VariableDeclaration | localAddresses | [19913](../../magpie/internal/gui/assets/app.js#L19913) |
+| b | VariableDeclaration | localAddresses | [19913](../../magpie/internal/gui/assets/app.js#L19913) |
+| tick | FunctionDeclaration |  | [19920](../../magpie/internal/gui/assets/app.js#L19920) |
+| l | VariableDeclaration | tick | [19921](../../magpie/internal/gui/assets/app.js#L19921) |
+| c | VariableDeclaration | tick | [19922](../../magpie/internal/gui/assets/app.js#L19922) |
+| syncBar | FunctionDeclaration |  | [19929](../../magpie/internal/gui/assets/app.js#L19929) |
+| bar | VariableDeclaration | syncBar | [19930](../../magpie/internal/gui/assets/app.js#L19930) |
+| error | VariableDeclaration | syncBar | [19932](../../magpie/internal/gui/assets/app.js#L19932) |
+| davForm | FunctionDeclaration |  | [19940](../../magpie/internal/gui/assets/app.js#L19940) |
+| ed | VariableDeclaration | davForm | [19941](../../magpie/internal/gui/assets/app.js#L19941) |
+| active | VariableDeclaration | davForm | [19942](../../magpie/internal/gui/assets/app.js#L19942) |
+| kind | VariableDeclaration | davForm | [19943](../../magpie/internal/gui/assets/app.js#L19943) |
+| saved | VariableDeclaration | davForm | [19944](../../magpie/internal/gui/assets/app.js#L19944) |
+| servers | VariableDeclaration | davForm | [19945](../../magpie/internal/gui/assets/app.js#L19945) |
+| server | VariableDeclaration | davForm | [19946](../../magpie/internal/gui/assets/app.js#L19946) |
+| dav | VariableDeclaration | davForm | [19947](../../magpie/internal/gui/assets/app.js#L19947) |
+| bk | VariableDeclaration | davForm | [19947](../../magpie/internal/gui/assets/app.js#L19947) |
+| gh | VariableDeclaration | davForm | [19947](../../magpie/internal/gui/assets/app.js#L19947) |
+| url | VariableDeclaration | davForm | [19948](../../magpie/internal/gui/assets/app.js#L19948) |
+| user | VariableDeclaration | davForm | [19949](../../magpie/internal/gui/assets/app.js#L19949) |
+| pass | VariableDeclaration | davForm | [19950](../../magpie/internal/gui/assets/app.js#L19950) |
+| [bucketName, prefixName] | VariableDeclaration | davForm | [19952](../../magpie/internal/gui/assets/app.js#L19952) |
+| bucketName | BindingElement | davForm.[bucketName, prefixName] | [19952](../../magpie/internal/gui/assets/app.js#L19952) |
+| prefixName | BindingElement | davForm.[bucketName, prefixName] | [19952](../../magpie/internal/gui/assets/app.js#L19952) |
+| m | VariableDeclaration | davForm.[bucketName, prefixName] | [19952](../../magpie/internal/gui/assets/app.js#L19952) |
+| endpoint | VariableDeclaration | davForm | [19953](../../magpie/internal/gui/assets/app.js#L19953) |
+| bucket | VariableDeclaration | davForm | [19954](../../magpie/internal/gui/assets/app.js#L19954) |
+| prefix | VariableDeclaration | davForm | [19955](../../magpie/internal/gui/assets/app.js#L19955) |
+| region | VariableDeclaration | davForm | [19956](../../magpie/internal/gui/assets/app.js#L19956) |
+| keyID | VariableDeclaration | davForm | [19957](../../magpie/internal/gui/assets/app.js#L19957) |
+| secret | VariableDeclaration | davForm | [19958](../../magpie/internal/gui/assets/app.js#L19958) |
+| [pathL, pathStyle] | VariableDeclaration | davForm | [19959](../../magpie/internal/gui/assets/app.js#L19959) |
+| pathL | BindingElement | davForm.[pathL, pathStyle] | [19959](../../magpie/internal/gui/assets/app.js#L19959) |
+| pathStyle | BindingElement | davForm.[pathL, pathStyle] | [19959](../../magpie/internal/gui/assets/app.js#L19959) |
+| ghParts | VariableDeclaration | davForm | [19960](../../magpie/internal/gui/assets/app.js#L19960) |
+| repo | VariableDeclaration | davForm | [19961](../../magpie/internal/gui/assets/app.js#L19961) |
+| branch | VariableDeclaration | davForm | [19962](../../magpie/internal/gui/assets/app.js#L19962) |
+| ghPrefix | VariableDeclaration | davForm | [19963](../../magpie/internal/gui/assets/app.js#L19963) |
+| token | VariableDeclaration | davForm | [19964](../../magpie/internal/gui/assets/app.js#L19964) |
+| phrase | VariableDeclaration | davForm | [19965](../../magpie/internal/gui/assets/app.js#L19965) |
+| [keysL, keys] | VariableDeclaration | davForm | [19966](../../magpie/internal/gui/assets/app.js#L19966) |
+| keysL | BindingElement | davForm.[keysL, keys] | [19966](../../magpie/internal/gui/assets/app.js#L19966) |
+| keys | BindingElement | davForm.[keysL, keys] | [19966](../../magpie/internal/gui/assets/app.js#L19966) |
+| [agentsL, agents] | VariableDeclaration | davForm | [19967](../../magpie/internal/gui/assets/app.js#L19967) |
+| agentsL | BindingElement | davForm.[agentsL, agents] | [19967](../../magpie/internal/gui/assets/app.js#L19967) |
+| agents | BindingElement | davForm.[agentsL, agents] | [19967](../../magpie/internal/gui/assets/app.js#L19967) |
+| [libL, lib] | VariableDeclaration | davForm | [19968](../../magpie/internal/gui/assets/app.js#L19968) |
+| libL | BindingElement | davForm.[libL, lib] | [19968](../../magpie/internal/gui/assets/app.js#L19968) |
+| lib | BindingElement | davForm.[libL, lib] | [19968](../../magpie/internal/gui/assets/app.js#L19968) |
+| [useL, use] | VariableDeclaration | davForm | [19970](../../magpie/internal/gui/assets/app.js#L19970) |
+| useL | BindingElement | davForm.[useL, use] | [19970](../../magpie/internal/gui/assets/app.js#L19970) |
+| use | BindingElement | davForm.[useL, use] | [19970](../../magpie/internal/gui/assets/app.js#L19970) |
+| what | VariableDeclaration | davForm | [19971](../../magpie/internal/gui/assets/app.js#L19971) |
+| davFields | VariableDeclaration | davForm | [19973](../../magpie/internal/gui/assets/app.js#L19973) |
+| s3Fields | VariableDeclaration | davForm | [19976](../../magpie/internal/gui/assets/app.js#L19976) |
+| ghFields | VariableDeclaration | davForm | [19983](../../magpie/internal/gui/assets/app.js#L19983) |
+| to | VariableDeclaration | davForm | [19988](../../magpie/internal/gui/assets/app.js#L19988) |
+| id | BindingElement | davForm.to | [19988](../../magpie/internal/gui/assets/app.js#L19988) |
+| n | BindingElement | davForm.to | [19988](../../magpie/internal/gui/assets/app.js#L19988) |
+| where | VariableDeclaration | davForm | [19989](../../magpie/internal/gui/assets/app.js#L19989) |
+| save | VariableDeclaration | davForm | [19990](../../magpie/internal/gui/assets/app.js#L19990) |
+| other | VariableDeclaration | davForm | [19991](../../magpie/internal/gui/assets/app.js#L19991) |
+| show | VariableDeclaration | davForm | [19992](../../magpie/internal/gui/assets/app.js#L19992) |
+| x | VariableDeclaration | davForm.show | [19993](../../magpie/internal/gui/assets/app.js#L19993) |
+| x | VariableDeclaration | davForm.show | [19994](../../magpie/internal/gui/assets/app.js#L19994) |
+| x | VariableDeclaration | davForm.show | [19995](../../magpie/internal/gui/assets/app.js#L19995) |
+| off | VariableDeclaration | davForm | [20007](../../magpie/internal/gui/assets/app.js#L20007) |
+| cancel | VariableDeclaration | davForm | [20008](../../magpie/internal/gui/assets/app.js#L20008) |
+| say | VariableDeclaration | davForm | [20009](../../magpie/internal/gui/assets/app.js#L20009) |
+| b | VariableDeclaration | davForm | [20013](../../magpie/internal/gui/assets/app.js#L20013) |
+| p | VariableDeclaration | davForm | [20013](../../magpie/internal/gui/assets/app.js#L20013) |
+| repository | VariableDeclaration | davForm | [20015](../../magpie/internal/gui/assets/app.js#L20015) |
+| ghFolder | VariableDeclaration | davForm | [20016](../../magpie/internal/gui/assets/app.js#L20016) |
+| where | VariableDeclaration | davForm | [20021](../../magpie/internal/gui/assets/app.js#L20021) |
+| r | VariableDeclaration | davForm | [20027](../../magpie/internal/gui/assets/app.js#L20027) |
+| e | VariableDeclaration | davForm | [20032](../../magpie/internal/gui/assets/app.js#L20032) |
+| exportForm | FunctionDeclaration |  | [20040](../../magpie/internal/gui/assets/app.js#L20040) |
+| ed | VariableDeclaration | exportForm | [20041](../../magpie/internal/gui/assets/app.js#L20041) |
+| p1 | VariableDeclaration | exportForm | [20042](../../magpie/internal/gui/assets/app.js#L20042) |
+| p2 | VariableDeclaration | exportForm | [20043](../../magpie/internal/gui/assets/app.js#L20043) |
+| [keysL, keys] | VariableDeclaration | exportForm | [20044](../../magpie/internal/gui/assets/app.js#L20044) |
+| keysL | BindingElement | exportForm.[keysL, keys] | [20044](../../magpie/internal/gui/assets/app.js#L20044) |
+| keys | BindingElement | exportForm.[keysL, keys] | [20044](../../magpie/internal/gui/assets/app.js#L20044) |
+| [libL, lib] | VariableDeclaration | exportForm | [20045](../../magpie/internal/gui/assets/app.js#L20045) |
+| libL | BindingElement | exportForm.[libL, lib] | [20045](../../magpie/internal/gui/assets/app.js#L20045) |
+| lib | BindingElement | exportForm.[libL, lib] | [20045](../../magpie/internal/gui/assets/app.js#L20045) |
+| what | VariableDeclaration | exportForm | [20046](../../magpie/internal/gui/assets/app.js#L20046) |
+| go | VariableDeclaration | exportForm | [20050](../../magpie/internal/gui/assets/app.js#L20050) |
+| cancel | VariableDeclaration | exportForm | [20051](../../magpie/internal/gui/assets/app.js#L20051) |
+| say | VariableDeclaration | exportForm | [20052](../../magpie/internal/gui/assets/app.js#L20052) |
+| r | VariableDeclaration | exportForm | [20059](../../magpie/internal/gui/assets/app.js#L20059) |
+| e | VariableDeclaration | exportForm | [20061](../../magpie/internal/gui/assets/app.js#L20061) |
+| importForm | FunctionDeclaration |  | [20069](../../magpie/internal/gui/assets/app.js#L20069) |
+| ed | VariableDeclaration | importForm | [20070](../../magpie/internal/gui/assets/app.js#L20070) |
+| data | VariableDeclaration | importForm | [20071](../../magpie/internal/gui/assets/app.js#L20071) |
+| file | VariableDeclaration | importForm | [20072](../../magpie/internal/gui/assets/app.js#L20072) |
+| name | VariableDeclaration | importForm | [20076](../../magpie/internal/gui/assets/app.js#L20076) |
+| pick | VariableDeclaration | importForm | [20077](../../magpie/internal/gui/assets/app.js#L20077) |

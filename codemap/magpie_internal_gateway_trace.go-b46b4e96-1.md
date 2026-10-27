@@ -4,107 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/trace.go) · page 1/3
 
-Source SHA-256: 1e6514a600ae6ab11a83af3c95c125b5925af2247b89ae0b2aba29e2099356a6
+Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| traceKeep | const_spec |  | [30](../../magpie/internal/gateway/trace.go#L30) |
-| Route | struct_type |  | [33](../../magpie/internal/gateway/trace.go#L33) |
-| callerKey | field_declaration | Route | [37](../../magpie/internal/gateway/trace.go#L37) |
-| imageTurn | field_declaration | Route | [38](../../magpie/internal/gateway/trace.go#L38) |
-| imageCaller | field_declaration | Route | [39](../../magpie/internal/gateway/trace.go#L39) |
-| imageProvider | field_declaration | Route | [40](../../magpie/internal/gateway/trace.go#L40) |
-| turn | field_declaration | Route | [44](../../magpie/internal/gateway/trace.go#L44) |
-| dirOf | field_declaration | Route | [45](../../magpie/internal/gateway/trace.go#L45) |
-| tools | field_declaration | Route | [46](../../magpie/internal/gateway/trace.go#L46) |
-| Seq | field_declaration | Route | [47](../../magpie/internal/gateway/trace.go#L47) |
-| ID | field_declaration | Route | [48](../../magpie/internal/gateway/trace.go#L48) |
-| Time | field_declaration | Route | [49](../../magpie/internal/gateway/trace.go#L49) |
-| Agent | field_declaration | Route | [50](../../magpie/internal/gateway/trace.go#L50) |
-| ParentSession | field_declaration | Route | [51](../../magpie/internal/gateway/trace.go#L51) |
-| Session | field_declaration | Route | [52](../../magpie/internal/gateway/trace.go#L52) |
-| TitleLink | field_declaration | Route | [53](../../magpie/internal/gateway/trace.go#L53) |
-| ParentMatched | field_declaration | Route | [54](../../magpie/internal/gateway/trace.go#L54) |
-| Usage | field_declaration | Route | [55](../../magpie/internal/gateway/trace.go#L55) |
-| Kind | field_declaration | Route | [56](../../magpie/internal/gateway/trace.go#L56) |
-| For | field_declaration | Route | [57](../../magpie/internal/gateway/trace.go#L57) |
-| Model | field_declaration | Route | [58](../../magpie/internal/gateway/trace.go#L58) |
-| Effort | field_declaration | Route | [59](../../magpie/internal/gateway/trace.go#L59) |
-| Tier | field_declaration | Route | [60](../../magpie/internal/gateway/trace.go#L60) |
-| Provider | field_declaration | Route | [61](../../magpie/internal/gateway/trace.go#L61) |
-| Group | field_declaration | Route | [62](../../magpie/internal/gateway/trace.go#L62) |
-| Rule | field_declaration | Route | [63](../../magpie/internal/gateway/trace.go#L63) |
-| SealedTask | field_declaration | Route | [64](../../magpie/internal/gateway/trace.go#L64) |
-| LeadAccount | field_declaration | Route | [65](../../magpie/internal/gateway/trace.go#L65) |
-| Compaction | field_declaration | Route | [69](../../magpie/internal/gateway/trace.go#L69) |
-| Subagent | field_declaration | Route | [72](../../magpie/internal/gateway/trace.go#L72) |
-| Sub | field_declaration | Route | [75](../../magpie/internal/gateway/trace.go#L75) |
-| SubagentEffort | field_declaration | Route | [78](../../magpie/internal/gateway/trace.go#L78) |
-| SubagentID | field_declaration | Route | [83](../../magpie/internal/gateway/trace.go#L83) |
-| Nested | field_declaration | Route | [86](../../magpie/internal/gateway/trace.go#L86) |
-| Affinity | field_declaration | Route | [87](../../magpie/internal/gateway/trace.go#L87) |
-| Pinned | field_declaration | Route | [88](../../magpie/internal/gateway/trace.go#L88) |
-| Order | field_declaration | Route | [89](../../magpie/internal/gateway/trace.go#L89) |
-| Left | field_declaration | Route | [90](../../magpie/internal/gateway/trace.go#L90) |
-| Tries | field_declaration | Route | [91](../../magpie/internal/gateway/trace.go#L91) |
-| Masked | field_declaration | Route | [94](../../magpie/internal/gateway/trace.go#L94) |
-| Done | field_declaration | Route | [95](../../magpie/internal/gateway/trace.go#L95) |
-| Status | field_declaration | Route | [96](../../magpie/internal/gateway/trace.go#L96) |
-| Error | field_declaration | Route | [97](../../magpie/internal/gateway/trace.go#L97) |
-| Millis | field_declaration | Route | [98](../../magpie/internal/gateway/trace.go#L98) |
-| Tokens | field_declaration | Route | [99](../../magpie/internal/gateway/trace.go#L99) |
-| Output | field_declaration | Route | [100](../../magpie/internal/gateway/trace.go#L100) |
-| Reasoning | field_declaration | Route | [103](../../magpie/internal/gateway/trace.go#L103) |
-| TTFT | field_declaration | Route | [107](../../magpie/internal/gateway/trace.go#L107) |
-| FirstText | field_declaration | Route | [108](../../magpie/internal/gateway/trace.go#L108) |
-| FirstReasoning | field_declaration | Route | [110](../../magpie/internal/gateway/trace.go#L110) |
-| ReasoningHidden | field_declaration | Route | [111](../../magpie/internal/gateway/trace.go#L111) |
-| Flow | field_declaration | Route | [113](../../magpie/internal/gateway/trace.go#L113) |
-| Sent | field_declaration | Route | [118](../../magpie/internal/gateway/trace.go#L118) |
-| Own | field_declaration | Route | [119](../../magpie/internal/gateway/trace.go#L119) |
-| Retried | field_declaration | Route | [120](../../magpie/internal/gateway/trace.go#L120) |
-| Queued | field_declaration | Route | [121](../../magpie/internal/gateway/trace.go#L121) |
-| Served | field_declaration | Route | [125](../../magpie/internal/gateway/trace.go#L125) |
-| Swapped | field_declaration | Route | [126](../../magpie/internal/gateway/trace.go#L126) |
-| Routed | field_declaration | Route | [127](../../magpie/internal/gateway/trace.go#L127) |
-| Upstream | field_declaration | Route | [129](../../magpie/internal/gateway/trace.go#L129) |
-| Prompt | field_declaration | Route | [132](../../magpie/internal/gateway/trace.go#L132) |
-| Conv | field_declaration | Route | [135](../../magpie/internal/gateway/trace.go#L135) |
-| Folder | field_declaration | Route | [139](../../magpie/internal/gateway/trace.go#L139) |
-| Archive | field_declaration | Route | [143](../../magpie/internal/gateway/trace.go#L143) |
-| RouteUsage | struct_type |  | [148](../../magpie/internal/gateway/trace.go#L148) |
-| Provider | field_declaration | RouteUsage | [149](../../magpie/internal/gateway/trace.go#L149) |
-| Model | field_declaration | RouteUsage | [150](../../magpie/internal/gateway/trace.go#L150) |
-| Input | field_declaration | RouteUsage | [151](../../magpie/internal/gateway/trace.go#L151) |
-| Output | field_declaration | RouteUsage | [152](../../magpie/internal/gateway/trace.go#L152) |
-| CacheRead | field_declaration | RouteUsage | [153](../../magpie/internal/gateway/trace.go#L153) |
-| CacheWrite | field_declaration | RouteUsage | [154](../../magpie/internal/gateway/trace.go#L154) |
-| Reasoning | field_declaration | RouteUsage | [155](../../magpie/internal/gateway/trace.go#L155) |
-| CacheUnknown | field_declaration | RouteUsage | [158](../../magpie/internal/gateway/trace.go#L158) |
-| PricingRecord | method_declaration | RouteUsage | [162](../../magpie/internal/gateway/trace.go#L162) |
-| GroupRef | struct_type |  | [168](../../magpie/internal/gateway/trace.go#L168) |
-| ID | field_declaration | GroupRef | [169](../../magpie/internal/gateway/trace.go#L169) |
-| Ref | field_declaration | GroupRef | [172](../../magpie/internal/gateway/trace.go#L172) |
-| Name | field_declaration | GroupRef | [173](../../magpie/internal/gateway/trace.go#L173) |
-| Routing | field_declaration | GroupRef | [174](../../magpie/internal/gateway/trace.go#L174) |
-| Affinity | field_declaration | GroupRef | [175](../../magpie/internal/gateway/trace.go#L175) |
-| Auto | field_declaration | GroupRef | [176](../../magpie/internal/gateway/trace.go#L176) |
-| Sink | field_declaration | GroupRef | [177](../../magpie/internal/gateway/trace.go#L177) |
-| Members | field_declaration | GroupRef | [178](../../magpie/internal/gateway/trace.go#L178) |
-| Subs | field_declaration | GroupRef | [180](../../magpie/internal/gateway/trace.go#L180) |
-| Via | field_declaration | GroupRef | [183](../../magpie/internal/gateway/trace.go#L183) |
-| Fast | field_declaration | GroupRef | [185](../../magpie/internal/gateway/trace.go#L185) |
-| Paused | field_declaration | GroupRef | [188](../../magpie/internal/gateway/trace.go#L188) |
-| SubGroup | struct_type |  | [192](../../magpie/internal/gateway/trace.go#L192) |
-| ID | field_declaration | SubGroup | [193](../../magpie/internal/gateway/trace.go#L193) |
-| Ref | field_declaration | SubGroup | [194](../../magpie/internal/gateway/trace.go#L194) |
-| Name | field_declaration | SubGroup | [195](../../magpie/internal/gateway/trace.go#L195) |
-| Routing | field_declaration | SubGroup | [196](../../magpie/internal/gateway/trace.go#L196) |
-| In | field_declaration | SubGroup | [197](../../magpie/internal/gateway/trace.go#L197) |
-| Rules | field_declaration | SubGroup | [198](../../magpie/internal/gateway/trace.go#L198) |
-| NestedRule | struct_type |  | [202](../../magpie/internal/gateway/trace.go#L202) |
-| Group | field_declaration | NestedRule | [203](../../magpie/internal/gateway/trace.go#L203) |
-| Name | field_declaration | NestedRule | [204](../../magpie/internal/gateway/trace.go#L204) |
-| Rule | field_declaration | NestedRule | [205](../../magpie/internal/gateway/trace.go#L205) |
-| groupRef | function_declaration |  | [209](../../magpie/internal/gateway/trace.go#L209) |
-| Weighed | struct_type |  | [234](../../magpie/internal/gateway/trace.go#L234) |
+| traceKeep | const_spec |  | [31](../../magpie/internal/gateway/trace.go#L31) |
+| Route | struct_type |  | [34](../../magpie/internal/gateway/trace.go#L34) |
+| callerKey | field_declaration | Route | [38](../../magpie/internal/gateway/trace.go#L38) |
+| imageTurn | field_declaration | Route | [39](../../magpie/internal/gateway/trace.go#L39) |
+| imageCaller | field_declaration | Route | [40](../../magpie/internal/gateway/trace.go#L40) |
+| imageProvider | field_declaration | Route | [41](../../magpie/internal/gateway/trace.go#L41) |
+| turn | field_declaration | Route | [45](../../magpie/internal/gateway/trace.go#L45) |
+| dirOf | field_declaration | Route | [46](../../magpie/internal/gateway/trace.go#L46) |
+| tools | field_declaration | Route | [47](../../magpie/internal/gateway/trace.go#L47) |
+| Seq | field_declaration | Route | [48](../../magpie/internal/gateway/trace.go#L48) |
+| ID | field_declaration | Route | [49](../../magpie/internal/gateway/trace.go#L49) |
+| Time | field_declaration | Route | [50](../../magpie/internal/gateway/trace.go#L50) |
+| Agent | field_declaration | Route | [51](../../magpie/internal/gateway/trace.go#L51) |
+| ParentSession | field_declaration | Route | [52](../../magpie/internal/gateway/trace.go#L52) |
+| Session | field_declaration | Route | [53](../../magpie/internal/gateway/trace.go#L53) |
+| TitleLink | field_declaration | Route | [54](../../magpie/internal/gateway/trace.go#L54) |
+| ParentMatched | field_declaration | Route | [55](../../magpie/internal/gateway/trace.go#L55) |
+| Usage | field_declaration | Route | [56](../../magpie/internal/gateway/trace.go#L56) |
+| Kind | field_declaration | Route | [57](../../magpie/internal/gateway/trace.go#L57) |
+| For | field_declaration | Route | [58](../../magpie/internal/gateway/trace.go#L58) |
+| Model | field_declaration | Route | [59](../../magpie/internal/gateway/trace.go#L59) |
+| Effort | field_declaration | Route | [60](../../magpie/internal/gateway/trace.go#L60) |
+| Tier | field_declaration | Route | [61](../../magpie/internal/gateway/trace.go#L61) |
+| Provider | field_declaration | Route | [62](../../magpie/internal/gateway/trace.go#L62) |
+| Group | field_declaration | Route | [63](../../magpie/internal/gateway/trace.go#L63) |
+| Rule | field_declaration | Route | [64](../../magpie/internal/gateway/trace.go#L64) |
+| SealedTask | field_declaration | Route | [65](../../magpie/internal/gateway/trace.go#L65) |
+| LeadAccount | field_declaration | Route | [66](../../magpie/internal/gateway/trace.go#L66) |
+| Compaction | field_declaration | Route | [70](../../magpie/internal/gateway/trace.go#L70) |
+| Subagent | field_declaration | Route | [73](../../magpie/internal/gateway/trace.go#L73) |
+| Sub | field_declaration | Route | [76](../../magpie/internal/gateway/trace.go#L76) |
+| SubagentEffort | field_declaration | Route | [79](../../magpie/internal/gateway/trace.go#L79) |
+| SubagentID | field_declaration | Route | [84](../../magpie/internal/gateway/trace.go#L84) |
+| Nested | field_declaration | Route | [87](../../magpie/internal/gateway/trace.go#L87) |
+| Affinity | field_declaration | Route | [88](../../magpie/internal/gateway/trace.go#L88) |
+| Pinned | field_declaration | Route | [89](../../magpie/internal/gateway/trace.go#L89) |
+| Order | field_declaration | Route | [90](../../magpie/internal/gateway/trace.go#L90) |
+| Left | field_declaration | Route | [91](../../magpie/internal/gateway/trace.go#L91) |
+| Tries | field_declaration | Route | [92](../../magpie/internal/gateway/trace.go#L92) |
+| Masked | field_declaration | Route | [95](../../magpie/internal/gateway/trace.go#L95) |
+| Done | field_declaration | Route | [96](../../magpie/internal/gateway/trace.go#L96) |
+| Status | field_declaration | Route | [97](../../magpie/internal/gateway/trace.go#L97) |
+| Error | field_declaration | Route | [98](../../magpie/internal/gateway/trace.go#L98) |
+| Millis | field_declaration | Route | [99](../../magpie/internal/gateway/trace.go#L99) |
+| Tokens | field_declaration | Route | [100](../../magpie/internal/gateway/trace.go#L100) |
+| Output | field_declaration | Route | [101](../../magpie/internal/gateway/trace.go#L101) |
+| Reasoning | field_declaration | Route | [104](../../magpie/internal/gateway/trace.go#L104) |
+| TTFT | field_declaration | Route | [108](../../magpie/internal/gateway/trace.go#L108) |
+| FirstText | field_declaration | Route | [109](../../magpie/internal/gateway/trace.go#L109) |
+| FirstReasoning | field_declaration | Route | [111](../../magpie/internal/gateway/trace.go#L111) |
+| ReasoningHidden | field_declaration | Route | [112](../../magpie/internal/gateway/trace.go#L112) |
+| Flow | field_declaration | Route | [114](../../magpie/internal/gateway/trace.go#L114) |
+| Sent | field_declaration | Route | [119](../../magpie/internal/gateway/trace.go#L119) |
+| Own | field_declaration | Route | [120](../../magpie/internal/gateway/trace.go#L120) |
+| Retried | field_declaration | Route | [121](../../magpie/internal/gateway/trace.go#L121) |
+| Queued | field_declaration | Route | [122](../../magpie/internal/gateway/trace.go#L122) |
+| Phase | field_declaration | Route | [126](../../magpie/internal/gateway/trace.go#L126) |
+| Masking | field_declaration | Route | [127](../../magpie/internal/gateway/trace.go#L127) |
+| Served | field_declaration | Route | [131](../../magpie/internal/gateway/trace.go#L131) |
+| Swapped | field_declaration | Route | [132](../../magpie/internal/gateway/trace.go#L132) |
+| Routed | field_declaration | Route | [133](../../magpie/internal/gateway/trace.go#L133) |
+| Upstream | field_declaration | Route | [135](../../magpie/internal/gateway/trace.go#L135) |
+| Prompt | field_declaration | Route | [138](../../magpie/internal/gateway/trace.go#L138) |
+| Conv | field_declaration | Route | [141](../../magpie/internal/gateway/trace.go#L141) |
+| Folder | field_declaration | Route | [145](../../magpie/internal/gateway/trace.go#L145) |
+| Archive | field_declaration | Route | [149](../../magpie/internal/gateway/trace.go#L149) |
+| RouteUsage | struct_type |  | [154](../../magpie/internal/gateway/trace.go#L154) |
+| Provider | field_declaration | RouteUsage | [155](../../magpie/internal/gateway/trace.go#L155) |
+| Model | field_declaration | RouteUsage | [156](../../magpie/internal/gateway/trace.go#L156) |
+| Input | field_declaration | RouteUsage | [157](../../magpie/internal/gateway/trace.go#L157) |
+| Output | field_declaration | RouteUsage | [158](../../magpie/internal/gateway/trace.go#L158) |
+| CacheRead | field_declaration | RouteUsage | [159](../../magpie/internal/gateway/trace.go#L159) |
+| CacheWrite | field_declaration | RouteUsage | [160](../../magpie/internal/gateway/trace.go#L160) |
+| Reasoning | field_declaration | RouteUsage | [161](../../magpie/internal/gateway/trace.go#L161) |
+| CacheUnknown | field_declaration | RouteUsage | [164](../../magpie/internal/gateway/trace.go#L164) |
+| PricingRecord | method_declaration | RouteUsage | [168](../../magpie/internal/gateway/trace.go#L168) |
+| GroupRef | struct_type |  | [174](../../magpie/internal/gateway/trace.go#L174) |
+| ID | field_declaration | GroupRef | [175](../../magpie/internal/gateway/trace.go#L175) |
+| Ref | field_declaration | GroupRef | [178](../../magpie/internal/gateway/trace.go#L178) |
+| Name | field_declaration | GroupRef | [179](../../magpie/internal/gateway/trace.go#L179) |
+| Routing | field_declaration | GroupRef | [180](../../magpie/internal/gateway/trace.go#L180) |
+| Affinity | field_declaration | GroupRef | [181](../../magpie/internal/gateway/trace.go#L181) |
+| Auto | field_declaration | GroupRef | [182](../../magpie/internal/gateway/trace.go#L182) |
+| Sink | field_declaration | GroupRef | [183](../../magpie/internal/gateway/trace.go#L183) |
+| Members | field_declaration | GroupRef | [184](../../magpie/internal/gateway/trace.go#L184) |
+| Subs | field_declaration | GroupRef | [186](../../magpie/internal/gateway/trace.go#L186) |
+| Via | field_declaration | GroupRef | [189](../../magpie/internal/gateway/trace.go#L189) |
+| Fast | field_declaration | GroupRef | [191](../../magpie/internal/gateway/trace.go#L191) |
+| Paused | field_declaration | GroupRef | [194](../../magpie/internal/gateway/trace.go#L194) |
+| SubGroup | struct_type |  | [198](../../magpie/internal/gateway/trace.go#L198) |
+| ID | field_declaration | SubGroup | [199](../../magpie/internal/gateway/trace.go#L199) |
+| Ref | field_declaration | SubGroup | [200](../../magpie/internal/gateway/trace.go#L200) |
+| Name | field_declaration | SubGroup | [201](../../magpie/internal/gateway/trace.go#L201) |
+| Routing | field_declaration | SubGroup | [202](../../magpie/internal/gateway/trace.go#L202) |
+| In | field_declaration | SubGroup | [203](../../magpie/internal/gateway/trace.go#L203) |
+| Rules | field_declaration | SubGroup | [204](../../magpie/internal/gateway/trace.go#L204) |
+| NestedRule | struct_type |  | [208](../../magpie/internal/gateway/trace.go#L208) |
+| Group | field_declaration | NestedRule | [209](../../magpie/internal/gateway/trace.go#L209) |
+| Name | field_declaration | NestedRule | [210](../../magpie/internal/gateway/trace.go#L210) |
+| Rule | field_declaration | NestedRule | [211](../../magpie/internal/gateway/trace.go#L211) |

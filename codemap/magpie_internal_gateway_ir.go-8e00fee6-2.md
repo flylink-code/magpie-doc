@@ -4,104 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/ir.go) · page 2/2
 
-Source SHA-256: cd859903b7c200a2caa287b3db851a06b584e6dbebdac171483d98ea763cf1e9
+Source SHA-256: 1f57d974087bcc19108b4a8bf7bbc17b855504f38ea0af3c673d5f2429925707
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| KStop | const_spec |  | [304](../../magpie/internal/gateway/ir.go#L304) |
-| KUsage | const_spec |  | [305](../../magpie/internal/gateway/ir.go#L305) |
-| KError | const_spec |  | [306](../../magpie/internal/gateway/ir.go#L306) |
-| KSearch | const_spec |  | [307](../../magpie/internal/gateway/ir.go#L307) |
-| KImage | const_spec |  | [308](../../magpie/internal/gateway/ir.go#L308) |
-| KThinkStart | const_spec |  | [312](../../magpie/internal/gateway/ir.go#L312) |
-| KSealed | const_spec |  | [316](../../magpie/internal/gateway/ir.go#L316) |
-| KTextSig | const_spec |  | [318](../../magpie/internal/gateway/ir.go#L318) |
-| KAlive | const_spec |  | [323](../../magpie/internal/gateway/ir.go#L323) |
-| Event | struct_type |  | [327](../../magpie/internal/gateway/ir.go#L327) |
-| Kind | field_declaration | Event | [328](../../magpie/internal/gateway/ir.go#L328) |
-| Status | field_declaration | Event | [329](../../magpie/internal/gateway/ir.go#L329) |
-| Text | field_declaration | Event | [330](../../magpie/internal/gateway/ir.go#L330) |
-| ID | field_declaration | Event | [331](../../magpie/internal/gateway/ir.go#L331) |
-| Name | field_declaration | Event | [332](../../magpie/internal/gateway/ir.go#L332) |
-| MsgID | field_declaration | Event | [333](../../magpie/internal/gateway/ir.go#L333) |
-| Model | field_declaration | Event | [334](../../magpie/internal/gateway/ir.go#L334) |
-| Stop | field_declaration | Event | [335](../../magpie/internal/gateway/ir.go#L335) |
-| Code | field_declaration | Event | [339](../../magpie/internal/gateway/ir.go#L339) |
-| RequestID | field_declaration | Event | [340](../../magpie/internal/gateway/ir.go#L340) |
-| Usage | field_declaration | Event | [341](../../magpie/internal/gateway/ir.go#L341) |
-| Hits | field_declaration | Event | [342](../../magpie/internal/gateway/ir.go#L342) |
-| SafeguardResults | field_declaration | Event | [343](../../magpie/internal/gateway/ir.go#L343) |
-| StopDetails | field_declaration | Event | [346](../../magpie/internal/gateway/ir.go#L346) |
-| Wait | field_declaration | Event | [350](../../magpie/internal/gateway/ir.go#L350) |
-| Said | field_declaration | Event | [354](../../magpie/internal/gateway/ir.go#L354) |
-| Usage | struct_type |  | [358](../../magpie/internal/gateway/ir.go#L358) |
-| Input | field_declaration | Usage | [359](../../magpie/internal/gateway/ir.go#L359) |
-| Output | field_declaration | Usage | [360](../../magpie/internal/gateway/ir.go#L360) |
-| CacheRead | field_declaration | Usage | [361](../../magpie/internal/gateway/ir.go#L361) |
-| CacheWrite | field_declaration | Usage | [362](../../magpie/internal/gateway/ir.go#L362) |
-| CacheWrite1h | field_declaration | Usage | [367](../../magpie/internal/gateway/ir.go#L367) |
-| cacheCreationReported | field_declaration | Usage | [370](../../magpie/internal/gateway/ir.go#L370) |
-| cacheCreationHasCounts | field_declaration | Usage | [373](../../magpie/internal/gateway/ir.go#L373) |
-| cacheUnknown | field_declaration | Usage | [376](../../magpie/internal/gateway/ir.go#L376) |
-| Reasoning | field_declaration | Usage | [378](../../magpie/internal/gateway/ir.go#L378) |
-| Served | field_declaration | Usage | [381](../../magpie/internal/gateway/ir.go#L381) |
-| Upstream | field_declaration | Usage | [384](../../magpie/internal/gateway/ir.go#L384) |
-| RequestID | field_declaration | Usage | [388](../../magpie/internal/gateway/ir.go#L388) |
-| ResponseID | field_declaration | Usage | [390](../../magpie/internal/gateway/ir.go#L390) |
-| ErrType | field_declaration | Usage | [391](../../magpie/internal/gateway/ir.go#L391) |
-| Stop | field_declaration | Usage | [395](../../magpie/internal/gateway/ir.go#L395) |
-| Tier | field_declaration | Usage | [398](../../magpie/internal/gateway/ir.go#L398) |
-| Deferred | field_declaration | Usage | [402](../../magpie/internal/gateway/ir.go#L402) |
-| Credits | field_declaration | Usage | [406](../../magpie/internal/gateway/ir.go#L406) |
-| cacheNotCounted | method_declaration | Usage | [414](../../magpie/internal/gateway/ir.go#L414) |
-| billed | method_declaration | Usage | [418](../../magpie/internal/gateway/ir.go#L418) |
-| prompt | method_declaration | Usage | [434](../../magpie/internal/gateway/ir.go#L434) |
-| add | method_declaration | *Usage | [438](../../magpie/internal/gateway/ir.go#L438) |
-| Result | struct_type |  | [489](../../magpie/internal/gateway/ir.go#L489) |
-| ID | field_declaration | Result | [490](../../magpie/internal/gateway/ir.go#L490) |
-| Model | field_declaration | Result | [491](../../magpie/internal/gateway/ir.go#L491) |
-| Parts | field_declaration | Result | [492](../../magpie/internal/gateway/ir.go#L492) |
-| Stop | field_declaration | Result | [493](../../magpie/internal/gateway/ir.go#L493) |
-| Usage | field_declaration | Result | [494](../../magpie/internal/gateway/ir.go#L494) |
-| SafeguardResults | field_declaration | Result | [495](../../magpie/internal/gateway/ir.go#L495) |
-| StopDetails | field_declaration | Result | [496](../../magpie/internal/gateway/ir.go#L496) |
-| collector | struct_type |  | [501](../../magpie/internal/gateway/ir.go#L501) |
-| res | field_declaration | collector | [502](../../magpie/internal/gateway/ir.go#L502) |
-| args | field_declaration | collector | [503](../../magpie/internal/gateway/ir.go#L503) |
-| text | field_declaration | collector | [507](../../magpie/internal/gateway/ir.go#L507) |
-| textAt | field_declaration | collector | [508](../../magpie/internal/gateway/ir.go#L508) |
-| fresh | field_declaration | collector | [510](../../magpie/internal/gateway/ir.go#L510) |
-| err | field_declaration | collector | [511](../../magpie/internal/gateway/ir.go#L511) |
-| errStatus | field_declaration | collector | [513](../../magpie/internal/gateway/ir.go#L513) |
-| errCode | field_declaration | collector | [514](../../magpie/internal/gateway/ir.go#L514) |
-| errSaid | field_declaration | collector | [515](../../magpie/internal/gateway/ir.go#L515) |
-| last | method_declaration | *collector | [518](../../magpie/internal/gateway/ir.go#L518) |
-| open | method_declaration | *collector | [527](../../magpie/internal/gateway/ir.go#L527) |
-| grow | method_declaration | *collector | [538](../../magpie/internal/gateway/ir.go#L538) |
-| flush | method_declaration | *collector | [548](../../magpie/internal/gateway/ir.go#L548) |
-| closeTool | method_declaration | *collector | [556](../../magpie/internal/gateway/ir.go#L556) |
-| add | method_declaration | *collector | [567](../../magpie/internal/gateway/ir.go#L567) |
-| finish | method_declaration | *collector | [648](../../magpie/internal/gateway/ir.go#L648) |
-| saidAnything | function_declaration |  | [668](../../magpie/internal/gateway/ir.go#L668) |
-| argsOf | function_declaration |  | [678](../../magpie/internal/gateway/ir.go#L678) |
-| argsString | function_declaration |  | [686](../../magpie/internal/gateway/ir.go#L686) |
-| parseArgs | function_declaration |  | [690](../../magpie/internal/gateway/ir.go#L690) |
-| text | function_declaration |  | [703](../../magpie/internal/gateway/ir.go#L703) |
-| stringOrText | function_declaration |  | [715](../../magpie/internal/gateway/ir.go#L715) |
-| Type | field_declaration | stringOrText | [724](../../magpie/internal/gateway/ir.go#L724) |
-| Text | field_declaration | stringOrText | [725](../../magpie/internal/gateway/ir.go#L725) |
-| ToolName | field_declaration | stringOrText | [726](../../magpie/internal/gateway/ir.go#L726) |
-| toolOutput | function_declaration |  | [754](../../magpie/internal/gateway/ir.go#L754) |
-| Type | field_declaration | toolOutput | [757](../../magpie/internal/gateway/ir.go#L757) |
-| Source | field_declaration | toolOutput | [758](../../magpie/internal/gateway/ir.go#L758) |
-| MediaType | field_declaration | toolOutput | [759](../../magpie/internal/gateway/ir.go#L759) |
-| Data | field_declaration | toolOutput | [760](../../magpie/internal/gateway/ir.go#L760) |
-| URL | field_declaration | toolOutput | [761](../../magpie/internal/gateway/ir.go#L761) |
-| ImageURL | field_declaration | toolOutput | [763](../../magpie/internal/gateway/ir.go#L763) |
-| URL | field_declaration | toolOutput | [781](../../magpie/internal/gateway/ir.go#L781) |
-| effortOf | function_declaration |  | [795](../../magpie/internal/gateway/ir.go#L795) |
-| effortRank | var_spec |  | [808](../../magpie/internal/gateway/ir.go#L808) |
-| ByStrength | function_declaration |  | [812](../../magpie/internal/gateway/ir.go#L812) |
-| fitEffort | function_declaration |  | [833](../../magpie/internal/gateway/ir.go#L833) |
-| budgetOf | function_declaration |  | [842](../../magpie/internal/gateway/ir.go#L842) |
-| effortOfBudget | function_declaration |  | [857](../../magpie/internal/gateway/ir.go#L857) |
+| KToolArgs | const_spec |  | [307](../../magpie/internal/gateway/ir.go#L307) |
+| KStop | const_spec |  | [308](../../magpie/internal/gateway/ir.go#L308) |
+| KUsage | const_spec |  | [309](../../magpie/internal/gateway/ir.go#L309) |
+| KError | const_spec |  | [310](../../magpie/internal/gateway/ir.go#L310) |
+| KSearch | const_spec |  | [311](../../magpie/internal/gateway/ir.go#L311) |
+| KImage | const_spec |  | [312](../../magpie/internal/gateway/ir.go#L312) |
+| KThinkStart | const_spec |  | [316](../../magpie/internal/gateway/ir.go#L316) |
+| KSealed | const_spec |  | [320](../../magpie/internal/gateway/ir.go#L320) |
+| KTextSig | const_spec |  | [322](../../magpie/internal/gateway/ir.go#L322) |
+| KAlive | const_spec |  | [327](../../magpie/internal/gateway/ir.go#L327) |
+| Event | struct_type |  | [331](../../magpie/internal/gateway/ir.go#L331) |
+| Kind | field_declaration | Event | [332](../../magpie/internal/gateway/ir.go#L332) |
+| Status | field_declaration | Event | [333](../../magpie/internal/gateway/ir.go#L333) |
+| Text | field_declaration | Event | [334](../../magpie/internal/gateway/ir.go#L334) |
+| ID | field_declaration | Event | [335](../../magpie/internal/gateway/ir.go#L335) |
+| Name | field_declaration | Event | [336](../../magpie/internal/gateway/ir.go#L336) |
+| MsgID | field_declaration | Event | [337](../../magpie/internal/gateway/ir.go#L337) |
+| Model | field_declaration | Event | [338](../../magpie/internal/gateway/ir.go#L338) |
+| Stop | field_declaration | Event | [339](../../magpie/internal/gateway/ir.go#L339) |
+| Code | field_declaration | Event | [343](../../magpie/internal/gateway/ir.go#L343) |
+| RequestID | field_declaration | Event | [344](../../magpie/internal/gateway/ir.go#L344) |
+| Usage | field_declaration | Event | [345](../../magpie/internal/gateway/ir.go#L345) |
+| Hits | field_declaration | Event | [346](../../magpie/internal/gateway/ir.go#L346) |
+| SafeguardResults | field_declaration | Event | [347](../../magpie/internal/gateway/ir.go#L347) |
+| StopDetails | field_declaration | Event | [350](../../magpie/internal/gateway/ir.go#L350) |
+| Wait | field_declaration | Event | [354](../../magpie/internal/gateway/ir.go#L354) |
+| Said | field_declaration | Event | [358](../../magpie/internal/gateway/ir.go#L358) |
+| Usage | struct_type |  | [362](../../magpie/internal/gateway/ir.go#L362) |
+| Input | field_declaration | Usage | [363](../../magpie/internal/gateway/ir.go#L363) |
+| Output | field_declaration | Usage | [364](../../magpie/internal/gateway/ir.go#L364) |
+| CacheRead | field_declaration | Usage | [365](../../magpie/internal/gateway/ir.go#L365) |
+| CacheWrite | field_declaration | Usage | [366](../../magpie/internal/gateway/ir.go#L366) |
+| CacheWrite1h | field_declaration | Usage | [371](../../magpie/internal/gateway/ir.go#L371) |
+| cacheCreationReported | field_declaration | Usage | [374](../../magpie/internal/gateway/ir.go#L374) |
+| cacheCreationHasCounts | field_declaration | Usage | [377](../../magpie/internal/gateway/ir.go#L377) |
+| cacheUnknown | field_declaration | Usage | [380](../../magpie/internal/gateway/ir.go#L380) |
+| Reasoning | field_declaration | Usage | [382](../../magpie/internal/gateway/ir.go#L382) |
+| Served | field_declaration | Usage | [385](../../magpie/internal/gateway/ir.go#L385) |
+| Upstream | field_declaration | Usage | [388](../../magpie/internal/gateway/ir.go#L388) |
+| RequestID | field_declaration | Usage | [392](../../magpie/internal/gateway/ir.go#L392) |
+| ResponseID | field_declaration | Usage | [394](../../magpie/internal/gateway/ir.go#L394) |
+| ErrType | field_declaration | Usage | [395](../../magpie/internal/gateway/ir.go#L395) |
+| Stop | field_declaration | Usage | [399](../../magpie/internal/gateway/ir.go#L399) |
+| Tier | field_declaration | Usage | [402](../../magpie/internal/gateway/ir.go#L402) |
+| Deferred | field_declaration | Usage | [406](../../magpie/internal/gateway/ir.go#L406) |
+| Credits | field_declaration | Usage | [410](../../magpie/internal/gateway/ir.go#L410) |
+| cacheNotCounted | method_declaration | Usage | [418](../../magpie/internal/gateway/ir.go#L418) |
+| billed | method_declaration | Usage | [422](../../magpie/internal/gateway/ir.go#L422) |
+| prompt | method_declaration | Usage | [438](../../magpie/internal/gateway/ir.go#L438) |
+| add | method_declaration | *Usage | [442](../../magpie/internal/gateway/ir.go#L442) |
+| Result | struct_type |  | [493](../../magpie/internal/gateway/ir.go#L493) |
+| ID | field_declaration | Result | [494](../../magpie/internal/gateway/ir.go#L494) |
+| Model | field_declaration | Result | [495](../../magpie/internal/gateway/ir.go#L495) |
+| Parts | field_declaration | Result | [496](../../magpie/internal/gateway/ir.go#L496) |
+| Stop | field_declaration | Result | [497](../../magpie/internal/gateway/ir.go#L497) |
+| Usage | field_declaration | Result | [498](../../magpie/internal/gateway/ir.go#L498) |
+| SafeguardResults | field_declaration | Result | [499](../../magpie/internal/gateway/ir.go#L499) |
+| StopDetails | field_declaration | Result | [500](../../magpie/internal/gateway/ir.go#L500) |
+| collector | struct_type |  | [505](../../magpie/internal/gateway/ir.go#L505) |
+| res | field_declaration | collector | [506](../../magpie/internal/gateway/ir.go#L506) |
+| args | field_declaration | collector | [507](../../magpie/internal/gateway/ir.go#L507) |
+| text | field_declaration | collector | [511](../../magpie/internal/gateway/ir.go#L511) |
+| textAt | field_declaration | collector | [512](../../magpie/internal/gateway/ir.go#L512) |
+| fresh | field_declaration | collector | [514](../../magpie/internal/gateway/ir.go#L514) |
+| err | field_declaration | collector | [515](../../magpie/internal/gateway/ir.go#L515) |
+| errStatus | field_declaration | collector | [517](../../magpie/internal/gateway/ir.go#L517) |
+| errCode | field_declaration | collector | [518](../../magpie/internal/gateway/ir.go#L518) |
+| errSaid | field_declaration | collector | [519](../../magpie/internal/gateway/ir.go#L519) |
+| last | method_declaration | *collector | [522](../../magpie/internal/gateway/ir.go#L522) |
+| open | method_declaration | *collector | [531](../../magpie/internal/gateway/ir.go#L531) |
+| grow | method_declaration | *collector | [542](../../magpie/internal/gateway/ir.go#L542) |
+| flush | method_declaration | *collector | [552](../../magpie/internal/gateway/ir.go#L552) |
+| closeTool | method_declaration | *collector | [560](../../magpie/internal/gateway/ir.go#L560) |
+| add | method_declaration | *collector | [571](../../magpie/internal/gateway/ir.go#L571) |
+| finish | method_declaration | *collector | [652](../../magpie/internal/gateway/ir.go#L652) |
+| saidAnything | function_declaration |  | [672](../../magpie/internal/gateway/ir.go#L672) |
+| argsOf | function_declaration |  | [682](../../magpie/internal/gateway/ir.go#L682) |
+| argsString | function_declaration |  | [690](../../magpie/internal/gateway/ir.go#L690) |
+| parseArgs | function_declaration |  | [694](../../magpie/internal/gateway/ir.go#L694) |
+| text | function_declaration |  | [707](../../magpie/internal/gateway/ir.go#L707) |
+| stringOrText | function_declaration |  | [719](../../magpie/internal/gateway/ir.go#L719) |
+| Type | field_declaration | stringOrText | [728](../../magpie/internal/gateway/ir.go#L728) |
+| Text | field_declaration | stringOrText | [729](../../magpie/internal/gateway/ir.go#L729) |
+| ToolName | field_declaration | stringOrText | [730](../../magpie/internal/gateway/ir.go#L730) |
+| toolOutput | function_declaration |  | [758](../../magpie/internal/gateway/ir.go#L758) |
+| Type | field_declaration | toolOutput | [761](../../magpie/internal/gateway/ir.go#L761) |
+| Source | field_declaration | toolOutput | [762](../../magpie/internal/gateway/ir.go#L762) |
+| MediaType | field_declaration | toolOutput | [763](../../magpie/internal/gateway/ir.go#L763) |
+| Data | field_declaration | toolOutput | [764](../../magpie/internal/gateway/ir.go#L764) |
+| URL | field_declaration | toolOutput | [765](../../magpie/internal/gateway/ir.go#L765) |
+| ImageURL | field_declaration | toolOutput | [767](../../magpie/internal/gateway/ir.go#L767) |
+| Detail | field_declaration | toolOutput | [768](../../magpie/internal/gateway/ir.go#L768) |
+| URL | field_declaration | toolOutput | [787](../../magpie/internal/gateway/ir.go#L787) |
+| Detail | field_declaration | toolOutput | [788](../../magpie/internal/gateway/ir.go#L788) |
+| effortOf | function_declaration |  | [804](../../magpie/internal/gateway/ir.go#L804) |
+| effortRank | var_spec |  | [817](../../magpie/internal/gateway/ir.go#L817) |
+| ByStrength | function_declaration |  | [821](../../magpie/internal/gateway/ir.go#L821) |
+| fitEffort | function_declaration |  | [842](../../magpie/internal/gateway/ir.go#L842) |
+| budgetOf | function_declaration |  | [851](../../magpie/internal/gateway/ir.go#L851) |
+| effortOfBudget | function_declaration |  | [866](../../magpie/internal/gateway/ir.go#L866) |

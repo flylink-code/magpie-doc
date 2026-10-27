@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/vision.go) · page 1/1
 
-Source SHA-256: 61331ee3b94e3903a3242b04e3200918a1cda05a2301980005cb16998cdd4315
+Source SHA-256: d1ad6767dc86d955b58318211ab8f0ffd1e3e07254250f912556547673783894
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -50,7 +50,7 @@ Source SHA-256: 61331ee3b94e3903a3242b04e3200918a1cda05a2301980005cb16998cdd4315
 | Error | field_declaration | *Server.askVisionWith | [408](../../magpie/internal/gateway/vision.go#L408) |
 | Message | field_declaration | *Server.askVisionWith | [409](../../magpie/internal/gateway/vision.go#L409) |
 | seenBody | method_declaration | *Server | [432](../../magpie/internal/gateway/vision.go#L432) |
-| result | struct_type | *Server.seenBody | [442](../../magpie/internal/gateway/vision.go#L442) |
-| text | field_declaration | *Server.seenBody.result | [443](../../magpie/internal/gateway/vision.go#L443) |
-| err | field_declaration | *Server.seenBody.result | [444](../../magpie/internal/gateway/vision.go#L444) |
-| smallModelWhere | function_declaration |  | [486](../../magpie/internal/gateway/vision.go#L486) |
+| result | struct_type | *Server.seenBody | [445](../../magpie/internal/gateway/vision.go#L445) |
+| text | field_declaration | *Server.seenBody.result | [446](../../magpie/internal/gateway/vision.go#L446) |
+| err | field_declaration | *Server.seenBody.result | [447](../../magpie/internal/gateway/vision.go#L447) |
+| smallModelWhere | function_declaration |  | [489](../../magpie/internal/gateway/vision.go#L489) |

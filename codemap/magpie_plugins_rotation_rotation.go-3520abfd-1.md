@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/rotation/rotation.go) · page 1/1
 
-Source SHA-256: 48eda7a3a59ceb1dd1a072dfb82b026e942da04080b2f5076605b9c3831adaa9
+Source SHA-256: ca5dfe8061b9d55bb4316cd8807750077f54f74072c628f2df4e4ce978490324
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

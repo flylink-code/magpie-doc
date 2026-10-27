@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 51/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| n | VariableDeclaration | ledCredits | [18451](../../magpie/internal/gui/assets/app.js#L18451) |
-| s | VariableDeclaration | ledCredits | [18452](../../magpie/internal/gui/assets/app.js#L18452) |
-| ledTook | VariableDeclaration |  | [18458](../../magpie/internal/gui/assets/app.js#L18458) |
-| ledMoney | FunctionDeclaration |  | [18461](../../magpie/internal/gui/assets/app.js#L18461) |
-| sign | VariableDeclaration | ledMoney | [18462](../../magpie/internal/gui/assets/app.js#L18462) |
-| LED_METRICS | VariableDeclaration |  | [18467](../../magpie/internal/gui/assets/app.js#L18467) |
-| LED_SHOWN | VariableDeclaration |  | [18468](../../magpie/internal/gui/assets/app.js#L18468) |
-| allTokens | VariableDeclaration |  | [18469](../../magpie/internal/gui/assets/app.js#L18469) |
-| cacheHitOf | VariableDeclaration |  | [18472](../../magpie/internal/gui/assets/app.js#L18472) |
-| prompt | VariableDeclaration | cacheHitOf | [18473](../../magpie/internal/gui/assets/app.js#L18473) |
-| cacheLeftOut | VariableDeclaration |  | [18477](../../magpie/internal/gui/assets/app.js#L18477) |
-| ledSpeed | VariableDeclaration |  | [18482](../../magpie/internal/gui/assets/app.js#L18482) |
-| ledFloor | VariableDeclaration |  | [18485](../../magpie/internal/gui/assets/app.js#L18485) |
-| ledGroupSpeed | FunctionDeclaration |  | [18497](../../magpie/internal/gui/assets/app.js#L18497) |
-| v | VariableDeclaration | ledGroupSpeed | [18498](../../magpie/internal/gui/assets/app.js#L18498) |
-| f | VariableDeclaration | ledGroupSpeed | [18498](../../magpie/internal/gui/assets/app.js#L18498) |
-| kv | VariableDeclaration | ledGroupSpeed | [18498](../../magpie/internal/gui/assets/app.js#L18498) |
-| kf | VariableDeclaration | ledGroupSpeed | [18498](../../magpie/internal/gui/assets/app.js#L18498) |
-| tok | VariableDeclaration | ledGroupSpeed | [18500](../../magpie/internal/gui/assets/app.js#L18500) |
-| count | VariableDeclaration | ledGroupSpeed | [18501](../../magpie/internal/gui/assets/app.js#L18501) |
-| vTitle | VariableDeclaration | ledGroupSpeed | [18502](../../magpie/internal/gui/assets/app.js#L18502) |
-| fTitle | VariableDeclaration | ledGroupSpeed | [18504](../../magpie/internal/gui/assets/app.js#L18504) |
-| measured | VariableDeclaration | ledGroupSpeed | [18508](../../magpie/internal/gui/assets/app.js#L18508) |
-| floor | VariableDeclaration | ledGroupSpeed | [18509](../../magpie/internal/gui/assets/app.js#L18509) |
-| [a, b] | VariableDeclaration | ledGroupSpeed | [18511](../../magpie/internal/gui/assets/app.js#L18511) |
-| a | BindingElement | ledGroupSpeed.[a, b] | [18511](../../magpie/internal/gui/assets/app.js#L18511) |
-| b | BindingElement | ledGroupSpeed.[a, b] | [18511](../../magpie/internal/gui/assets/app.js#L18511) |
-| say | VariableDeclaration | ledGroupSpeed | [18512](../../magpie/internal/gui/assets/app.js#L18512) |
-| main | VariableDeclaration | ledGroupSpeed | [18513](../../magpie/internal/gui/assets/app.js#L18513) |
-| other | VariableDeclaration | ledGroupSpeed | [18513](../../magpie/internal/gui/assets/app.js#L18513) |
-| ledTTFT | VariableDeclaration |  | [18517](../../magpie/internal/gui/assets/app.js#L18517) |
-| ledValue | VariableDeclaration |  | [18519](../../magpie/internal/gui/assets/app.js#L18519) |
-| ledRankValue | VariableDeclaration |  | [18522](../../magpie/internal/gui/assets/app.js#L18522) |
-| ledPart | VariableDeclaration |  | [18524](../../magpie/internal/gui/assets/app.js#L18524) |
-| ledFormat | VariableDeclaration |  | [18526](../../magpie/internal/gui/assets/app.js#L18526) |
-| ledFormatLong | VariableDeclaration |  | [18527](../../magpie/internal/gui/assets/app.js#L18527) |
-| ledAxis | FunctionDeclaration |  | [18530](../../magpie/internal/gui/assets/app.js#L18530) |
-| e | VariableDeclaration | ledAxis | [18532](../../magpie/internal/gui/assets/app.js#L18532) |
-| m | VariableDeclaration | ledAxis | [18533](../../magpie/internal/gui/assets/app.js#L18533) |
-| ledCategories | FunctionDeclaration |  | [18539](../../magpie/internal/gui/assets/app.js#L18539) |
-| list | VariableDeclaration | ledCategories | [18540](../../magpie/internal/gui/assets/app.js#L18540) |
-| top | VariableDeclaration | ledCategories | [18541](../../magpie/internal/gui/assets/app.js#L18541) |
-| ledWhen | FunctionDeclaration |  | [18546](../../magpie/internal/gui/assets/app.js#L18546) |
-| d | VariableDeclaration | ledWhen | [18547](../../magpie/internal/gui/assets/app.js#L18547) |
-| lang | VariableDeclaration | ledWhen | [18547](../../magpie/internal/gui/assets/app.js#L18547) |
-| day | VariableDeclaration | ledWhen | [18549](../../magpie/internal/gui/assets/app.js#L18549) |
-| ledTick | FunctionDeclaration |  | [18552](../../magpie/internal/gui/assets/app.js#L18552) |
-| d | VariableDeclaration | ledTick | [18553](../../magpie/internal/gui/assets/app.js#L18553) |
-| SVGNS | VariableDeclaration |  | [18558](../../magpie/internal/gui/assets/app.js#L18558) |
-| sv | FunctionDeclaration |  | [18559](../../magpie/internal/gui/assets/app.js#L18559) |
-| e | VariableDeclaration | sv | [18560](../../magpie/internal/gui/assets/app.js#L18560) |
-| k | VariableDeclaration | sv | [18561](../../magpie/internal/gui/assets/app.js#L18561) |
-| drawLedColumns | FunctionDeclaration |  | [18569](../../magpie/internal/gui/assets/app.js#L18569) |
-| plot | VariableDeclaration | drawLedColumns | [18573](../../magpie/internal/gui/assets/app.js#L18573) |
-| W | VariableDeclaration | drawLedColumns | [18575](../../magpie/internal/gui/assets/app.js#L18575) |
-| H | VariableDeclaration | drawLedColumns | [18575](../../magpie/internal/gui/assets/app.js#L18575) |
-| pts | VariableDeclaration | drawLedColumns | [18575](../../magpie/internal/gui/assets/app.js#L18575) |
-| n | VariableDeclaration | drawLedColumns | [18575](../../magpie/internal/gui/assets/app.js#L18575) |
-| { top } | VariableDeclaration | drawLedColumns | [18577](../../magpie/internal/gui/assets/app.js#L18577) |
-| top | BindingElement | drawLedColumns.{ top } | [18577](../../magpie/internal/gui/assets/app.js#L18577) |
-| totals | VariableDeclaration | drawLedColumns | [18578](../../magpie/internal/gui/assets/app.js#L18578) |
-| speed | VariableDeclaration | drawLedColumns | [18581](../../magpie/internal/gui/assets/app.js#L18581) |
-| max | VariableDeclaration | drawLedColumns | [18582](../../magpie/internal/gui/assets/app.js#L18582) |
-| topV | VariableDeclaration | drawLedColumns | [18587](../../magpie/internal/gui/assets/app.js#L18587) |
-| selectable | VariableDeclaration | drawLedColumns | [18588](../../magpie/internal/gui/assets/app.js#L18588) |
-| g | VariableDeclaration | drawLedColumns | [18589](../../magpie/internal/gui/assets/app.js#L18589) |
-| labs | VariableDeclaration | drawLedColumns | [18594](../../magpie/internal/gui/assets/app.js#L18594) |
-| lab | VariableDeclaration | drawLedColumns.labs | [18595](../../magpie/internal/gui/assets/app.js#L18595) |
-| widest | VariableDeclaration | drawLedColumns | [18600](../../magpie/internal/gui/assets/app.js#L18600) |
-| M | VariableDeclaration | drawLedColumns | [18601](../../magpie/internal/gui/assets/app.js#L18601) |
-| pw | VariableDeclaration | drawLedColumns | [18602](../../magpie/internal/gui/assets/app.js#L18602) |
-| ph | VariableDeclaration | drawLedColumns | [18602](../../magpie/internal/gui/assets/app.js#L18602) |
-| slot | VariableDeclaration | drawLedColumns | [18602](../../magpie/internal/gui/assets/app.js#L18602) |
-| bw | VariableDeclaration | drawLedColumns | [18602](../../magpie/internal/gui/assets/app.js#L18602) |
-| Y | VariableDeclaration | drawLedColumns | [18603](../../magpie/internal/gui/assets/app.js#L18603) |
-| y | VariableDeclaration | drawLedColumns | [18605](../../magpie/internal/gui/assets/app.js#L18605) |
-| room | VariableDeclaration | drawLedColumns | [18610](../../magpie/internal/gui/assets/app.js#L18610) |
-| every | VariableDeclaration | drawLedColumns | [18610](../../magpie/internal/gui/assets/app.js#L18610) |
-| x | VariableDeclaration | drawLedColumns | [18613](../../magpie/internal/gui/assets/app.js#L18613) |
-| hot | VariableDeclaration | drawLedColumns | [18617](../../magpie/internal/gui/assets/app.js#L18617) |
-| selected | VariableDeclaration | drawLedColumns | [18619](../../magpie/internal/gui/assets/app.js#L18619) |
-| segs | VariableDeclaration | drawLedColumns | [18623](../../magpie/internal/gui/assets/app.js#L18623) |
-| x | VariableDeclaration | drawLedColumns | [18625](../../magpie/internal/gui/assets/app.js#L18625) |
-| y0 | VariableDeclaration | drawLedColumns | [18626](../../magpie/internal/gui/assets/app.js#L18626) |
-| draw | VariableDeclaration | drawLedColumns | [18627](../../magpie/internal/gui/assets/app.js#L18627) |
-| by | VariableDeclaration | drawLedColumns | [18632](../../magpie/internal/gui/assets/app.js#L18632) |
-| c | VariableDeclaration | drawLedColumns | [18637](../../magpie/internal/gui/assets/app.js#L18637) |
-| v | VariableDeclaration | drawLedColumns | [18638](../../magpie/internal/gui/assets/app.js#L18638) |
-| top | VariableDeclaration | drawLedColumns | [18648](../../magpie/internal/gui/assets/app.js#L18648) |
-| stacked | VariableDeclaration | drawLedColumns | [18658](../../magpie/internal/gui/assets/app.js#L18658) |
-| c | VariableDeclaration | drawLedColumns | [18659](../../magpie/internal/gui/assets/app.js#L18659) |
-| v | VariableDeclaration | drawLedColumns | [18659](../../magpie/internal/gui/assets/app.js#L18659) |
-| day | VariableDeclaration | drawLedColumns | [18665](../../magpie/internal/gui/assets/app.js#L18665) |
-| hit | VariableDeclaration | drawLedColumns | [18666](../../magpie/internal/gui/assets/app.js#L18666) |
-| pick | VariableDeclaration | drawLedColumns | [18667](../../magpie/internal/gui/assets/app.js#L18667) |
-| tip | VariableDeclaration | drawLedColumns | [18673](../../magpie/internal/gui/assets/app.js#L18673) |
-| name | VariableDeclaration | drawLedColumns | [18676](../../magpie/internal/gui/assets/app.js#L18676) |
-| at | VariableDeclaration | drawLedColumns | [18677](../../magpie/internal/gui/assets/app.js#L18677) |
-| r | VariableDeclaration | drawLedColumns.at | [18678](../../magpie/internal/gui/assets/app.js#L18678) |
-| i | VariableDeclaration | drawLedColumns.at | [18679](../../magpie/internal/gui/assets/app.js#L18679) |
+| H | VariableDeclaration | drawLedColumns | [18390](../../magpie/internal/gui/assets/app.js#L18390) |
+| pts | VariableDeclaration | drawLedColumns | [18390](../../magpie/internal/gui/assets/app.js#L18390) |
+| n | VariableDeclaration | drawLedColumns | [18390](../../magpie/internal/gui/assets/app.js#L18390) |
+| { top } | VariableDeclaration | drawLedColumns | [18392](../../magpie/internal/gui/assets/app.js#L18392) |
+| top | BindingElement | drawLedColumns.{ top } | [18392](../../magpie/internal/gui/assets/app.js#L18392) |
+| totals | VariableDeclaration | drawLedColumns | [18393](../../magpie/internal/gui/assets/app.js#L18393) |
+| speed | VariableDeclaration | drawLedColumns | [18396](../../magpie/internal/gui/assets/app.js#L18396) |
+| max | VariableDeclaration | drawLedColumns | [18397](../../magpie/internal/gui/assets/app.js#L18397) |
+| topV | VariableDeclaration | drawLedColumns | [18402](../../magpie/internal/gui/assets/app.js#L18402) |
+| selectable | VariableDeclaration | drawLedColumns | [18403](../../magpie/internal/gui/assets/app.js#L18403) |
+| g | VariableDeclaration | drawLedColumns | [18404](../../magpie/internal/gui/assets/app.js#L18404) |
+| labs | VariableDeclaration | drawLedColumns | [18409](../../magpie/internal/gui/assets/app.js#L18409) |
+| lab | VariableDeclaration | drawLedColumns.labs | [18410](../../magpie/internal/gui/assets/app.js#L18410) |
+| widest | VariableDeclaration | drawLedColumns | [18415](../../magpie/internal/gui/assets/app.js#L18415) |
+| M | VariableDeclaration | drawLedColumns | [18416](../../magpie/internal/gui/assets/app.js#L18416) |
+| pw | VariableDeclaration | drawLedColumns | [18417](../../magpie/internal/gui/assets/app.js#L18417) |
+| ph | VariableDeclaration | drawLedColumns | [18417](../../magpie/internal/gui/assets/app.js#L18417) |
+| slot | VariableDeclaration | drawLedColumns | [18417](../../magpie/internal/gui/assets/app.js#L18417) |
+| bw | VariableDeclaration | drawLedColumns | [18417](../../magpie/internal/gui/assets/app.js#L18417) |
+| Y | VariableDeclaration | drawLedColumns | [18418](../../magpie/internal/gui/assets/app.js#L18418) |
+| y | VariableDeclaration | drawLedColumns | [18420](../../magpie/internal/gui/assets/app.js#L18420) |
+| room | VariableDeclaration | drawLedColumns | [18425](../../magpie/internal/gui/assets/app.js#L18425) |
+| every | VariableDeclaration | drawLedColumns | [18425](../../magpie/internal/gui/assets/app.js#L18425) |
+| x | VariableDeclaration | drawLedColumns | [18428](../../magpie/internal/gui/assets/app.js#L18428) |
+| hot | VariableDeclaration | drawLedColumns | [18432](../../magpie/internal/gui/assets/app.js#L18432) |
+| selected | VariableDeclaration | drawLedColumns | [18434](../../magpie/internal/gui/assets/app.js#L18434) |
+| segs | VariableDeclaration | drawLedColumns | [18438](../../magpie/internal/gui/assets/app.js#L18438) |
+| x | VariableDeclaration | drawLedColumns | [18440](../../magpie/internal/gui/assets/app.js#L18440) |
+| y0 | VariableDeclaration | drawLedColumns | [18441](../../magpie/internal/gui/assets/app.js#L18441) |
+| draw | VariableDeclaration | drawLedColumns | [18442](../../magpie/internal/gui/assets/app.js#L18442) |
+| by | VariableDeclaration | drawLedColumns | [18447](../../magpie/internal/gui/assets/app.js#L18447) |
+| c | VariableDeclaration | drawLedColumns | [18452](../../magpie/internal/gui/assets/app.js#L18452) |
+| v | VariableDeclaration | drawLedColumns | [18453](../../magpie/internal/gui/assets/app.js#L18453) |
+| top | VariableDeclaration | drawLedColumns | [18463](../../magpie/internal/gui/assets/app.js#L18463) |
+| stacked | VariableDeclaration | drawLedColumns | [18473](../../magpie/internal/gui/assets/app.js#L18473) |
+| c | VariableDeclaration | drawLedColumns | [18474](../../magpie/internal/gui/assets/app.js#L18474) |
+| v | VariableDeclaration | drawLedColumns | [18474](../../magpie/internal/gui/assets/app.js#L18474) |
+| day | VariableDeclaration | drawLedColumns | [18480](../../magpie/internal/gui/assets/app.js#L18480) |
+| hit | VariableDeclaration | drawLedColumns | [18481](../../magpie/internal/gui/assets/app.js#L18481) |
+| pick | VariableDeclaration | drawLedColumns | [18482](../../magpie/internal/gui/assets/app.js#L18482) |
+| tip | VariableDeclaration | drawLedColumns | [18488](../../magpie/internal/gui/assets/app.js#L18488) |
+| name | VariableDeclaration | drawLedColumns | [18491](../../magpie/internal/gui/assets/app.js#L18491) |
+| at | VariableDeclaration | drawLedColumns | [18492](../../magpie/internal/gui/assets/app.js#L18492) |
+| r | VariableDeclaration | drawLedColumns.at | [18493](../../magpie/internal/gui/assets/app.js#L18493) |
+| i | VariableDeclaration | drawLedColumns.at | [18494](../../magpie/internal/gui/assets/app.js#L18494) |
+| p | VariableDeclaration | drawLedColumns.at | [18495](../../magpie/internal/gui/assets/app.js#L18495) |
+| by | VariableDeclaration | drawLedColumns.at | [18502](../../magpie/internal/gui/assets/app.js#L18502) |
+| rows | VariableDeclaration | drawLedColumns.at | [18503](../../magpie/internal/gui/assets/app.js#L18503) |
+| [nm, color, v, part] | VariableDeclaration | drawLedColumns.at | [18505](../../magpie/internal/gui/assets/app.js#L18505) |
+| nm | BindingElement | drawLedColumns.at.[nm, color, v, part] | [18505](../../magpie/internal/gui/assets/app.js#L18505) |
+| color | BindingElement | drawLedColumns.at.[nm, color, v, part] | [18505](../../magpie/internal/gui/assets/app.js#L18505) |
+| v | BindingElement | drawLedColumns.at.[nm, color, v, part] | [18505](../../magpie/internal/gui/assets/app.js#L18505) |
+| part | BindingElement | drawLedColumns.at.[nm, color, v, part] | [18505](../../magpie/internal/gui/assets/app.js#L18505) |
+| row | VariableDeclaration | drawLedColumns.at | [18506](../../magpie/internal/gui/assets/app.js#L18506) |
+| sw | VariableDeclaration | drawLedColumns.at | [18507](../../magpie/internal/gui/assets/app.js#L18507) |
+| sum | VariableDeclaration | drawLedColumns.at | [18513](../../magpie/internal/gui/assets/app.js#L18513) |
+| calls | VariableDeclaration | drawLedColumns.at | [18514](../../magpie/internal/gui/assets/app.js#L18514) |
+| x | VariableDeclaration | drawLedColumns.at | [18523](../../magpie/internal/gui/assets/app.js#L18523) |
+| w | VariableDeclaration | drawLedColumns.at | [18523](../../magpie/internal/gui/assets/app.js#L18523) |
+| r | VariableDeclaration | drawLedColumns | [18531](../../magpie/internal/gui/assets/app.js#L18531) |
+| dimDay | VariableDeclaration | drawLedColumns | [18532](../../magpie/internal/gui/assets/app.js#L18532) |
+| color | VariableDeclaration | drawLedColumns | [18533](../../magpie/internal/gui/assets/app.js#L18533) |
+| drawLedRank | FunctionDeclaration |  | [18548](../../magpie/internal/gui/assets/app.js#L18548) |
+| kept | VariableDeclaration | drawLedRank | [18550](../../magpie/internal/gui/assets/app.js#L18550) |
+| { top, rest, list } | VariableDeclaration | drawLedRank | [18552](../../magpie/internal/gui/assets/app.js#L18552) |
+| top | BindingElement | drawLedRank.{ top, rest, list } | [18552](../../magpie/internal/gui/assets/app.js#L18552) |
+| rest | BindingElement | drawLedRank.{ top, rest, list } | [18552](../../magpie/internal/gui/assets/app.js#L18552) |
+| list | BindingElement | drawLedRank.{ top, rest, list } | [18552](../../magpie/internal/gui/assets/app.js#L18552) |
+| colors | VariableDeclaration | drawLedRank | [18554](../../magpie/internal/gui/assets/app.js#L18554) |
+| x | VariableDeclaration | drawLedRank | [18555](../../magpie/internal/gui/assets/app.js#L18555) |
+| sum | VariableDeclaration | drawLedRank | [18558](../../magpie/internal/gui/assets/app.js#L18558) |
+| leader | VariableDeclaration | drawLedRank | [18559](../../magpie/internal/gui/assets/app.js#L18559) |
+| one | VariableDeclaration | drawLedRank | [18560](../../magpie/internal/gui/assets/app.js#L18560) |
+| b | VariableDeclaration | drawLedRank.one | [18561](../../magpie/internal/gui/assets/app.js#L18561) |
+| v | VariableDeclaration | drawLedRank.one | [18563](../../magpie/internal/gui/assets/app.js#L18563) |
+| gs | VariableDeclaration | drawLedRank.one | [18563](../../magpie/internal/gui/assets/app.js#L18563) |
+| l1 | VariableDeclaration | drawLedRank.one | [18564](../../magpie/internal/gui/assets/app.js#L18564) |
+| sw | VariableDeclaration | drawLedRank.one | [18565](../../magpie/internal/gui/assets/app.js#L18565) |
+| nm | VariableDeclaration | drawLedRank.one | [18569](../../magpie/internal/gui/assets/app.js#L18569) |
+| val | VariableDeclaration | drawLedRank.one | [18571](../../magpie/internal/gui/assets/app.js#L18571) |
+| bar | VariableDeclaration | drawLedRank.one | [18574](../../magpie/internal/gui/assets/app.js#L18574) |
+| fill | VariableDeclaration | drawLedRank.one | [18574](../../magpie/internal/gui/assets/app.js#L18574) |
+| more | VariableDeclaration | drawLedRank.one | [18578](../../magpie/internal/gui/assets/app.js#L18578) |
+| hit | VariableDeclaration | drawLedRank.one | [18586](../../magpie/internal/gui/assets/app.js#L18586) |
+| l2 | VariableDeclaration | drawLedRank.one | [18590](../../magpie/internal/gui/assets/app.js#L18590) |
+| x | VariableDeclaration | drawLedRank | [18601](../../magpie/internal/gui/assets/app.js#L18601) |
+| tot | VariableDeclaration | drawLedRank | [18603](../../magpie/internal/gui/assets/app.js#L18603) |
+| k | VariableDeclaration | drawLedRank.tot | [18604](../../magpie/internal/gui/assets/app.js#L18604) |
+| ledRankEdges | FunctionDeclaration |  | [18616](../../magpie/internal/gui/assets/app.js#L18616) |
+| end | VariableDeclaration | ledRankEdges | [18617](../../magpie/internal/gui/assets/app.js#L18617) |
+| rail | VariableDeclaration | ledRankEdges | [18620](../../magpie/internal/gui/assets/app.js#L18620) |
+| h | VariableDeclaration | ledRankEdges | [18624](../../magpie/internal/gui/assets/app.js#L18624) |
+| thumb | VariableDeclaration | ledRankEdges | [18624](../../magpie/internal/gui/assets/app.js#L18624) |
+| quotaFocus | VariableDeclaration |  | [18631](../../magpie/internal/gui/assets/app.js#L18631) |
+| quotaFocusUntil | VariableDeclaration |  | [18632](../../magpie/internal/gui/assets/app.js#L18632) |
+| sessions | VariableDeclaration |  | [18633](../../magpie/internal/gui/assets/app.js#L18633) |
+| fmtBytes | FunctionDeclaration |  | [18634](../../magpie/internal/gui/assets/app.js#L18634) |
+| u | VariableDeclaration | fmtBytes | [18635](../../magpie/internal/gui/assets/app.js#L18635) |
+| i | VariableDeclaration | fmtBytes | [18636](../../magpie/internal/gui/assets/app.js#L18636) |
+| ago | FunctionDeclaration |  | [18641](../../magpie/internal/gui/assets/app.js#L18641) |

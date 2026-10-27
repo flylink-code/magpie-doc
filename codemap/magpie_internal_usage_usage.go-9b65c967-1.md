@@ -4,107 +4,107 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/usage.go) · page 1/2
 
-Source SHA-256: bc7fa790ea3ed680c01bcd2df11bc9ffb1b2cf610505ffb463845b5f328584f3
+Source SHA-256: d6e7f362ce2a9488f8eee699fd7b76104b6884b8f277388c8dc05f0870021b4c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Record | struct_type |  | [26](../../magpie/internal/usage/usage.go#L26) |
-| Operation | field_declaration | Record | [27](../../magpie/internal/usage/usage.go#L27) |
-| RouteID | field_declaration | Record | [28](../../magpie/internal/usage/usage.go#L28) |
-| Time | field_declaration | Record | [29](../../magpie/internal/usage/usage.go#L29) |
-| Agent | field_declaration | Record | [30](../../magpie/internal/usage/usage.go#L30) |
-| Provider | field_declaration | Record | [31](../../magpie/internal/usage/usage.go#L31) |
-| Host | field_declaration | Record | [32](../../magpie/internal/usage/usage.go#L32) |
-| ProviderKeyID | field_declaration | Record | [33](../../magpie/internal/usage/usage.go#L33) |
-| ProviderKeyName | field_declaration | Record | [34](../../magpie/internal/usage/usage.go#L34) |
-| ProviderAccount | field_declaration | Record | [40](../../magpie/internal/usage/usage.go#L40) |
-| CallerKeyID | field_declaration | Record | [41](../../magpie/internal/usage/usage.go#L41) |
-| CallerKeyName | field_declaration | Record | [42](../../magpie/internal/usage/usage.go#L42) |
-| SessionProvider | field_declaration | Record | [46](../../magpie/internal/usage/usage.go#L46) |
-| SessionAccount | field_declaration | Record | [47](../../magpie/internal/usage/usage.go#L47) |
-| SessionOfficialLogin | field_declaration | Record | [50](../../magpie/internal/usage/usage.go#L50) |
-| Model | field_declaration | Record | [51](../../magpie/internal/usage/usage.go#L51) |
-| Requested | field_declaration | Record | [56](../../magpie/internal/usage/usage.go#L56) |
-| Served | field_declaration | Record | [57](../../magpie/internal/usage/usage.go#L57) |
-| Upstream | field_declaration | Record | [60](../../magpie/internal/usage/usage.go#L60) |
-| Input | field_declaration | Record | [61](../../magpie/internal/usage/usage.go#L61) |
-| Output | field_declaration | Record | [62](../../magpie/internal/usage/usage.go#L62) |
-| CacheRead | field_declaration | Record | [69](../../magpie/internal/usage/usage.go#L69) |
-| CacheWrite | field_declaration | Record | [70](../../magpie/internal/usage/usage.go#L70) |
-| CacheWrite1h | field_declaration | Record | [76](../../magpie/internal/usage/usage.go#L76) |
-| CacheUnknown | field_declaration | Record | [82](../../magpie/internal/usage/usage.go#L82) |
-| Reasoning | field_declaration | Record | [83](../../magpie/internal/usage/usage.go#L83) |
-| Effort | field_declaration | Record | [86](../../magpie/internal/usage/usage.go#L86) |
-| TierAsked | field_declaration | Record | [96](../../magpie/internal/usage/usage.go#L96) |
-| TierSent | field_declaration | Record | [97](../../magpie/internal/usage/usage.go#L97) |
-| TierServed | field_declaration | Record | [98](../../magpie/internal/usage/usage.go#L98) |
-| Millis | field_declaration | Record | [99](../../magpie/internal/usage/usage.go#L99) |
-| TTFT | field_declaration | Record | [104](../../magpie/internal/usage/usage.go#L104) |
-| FirstText | field_declaration | Record | [105](../../magpie/internal/usage/usage.go#L105) |
-| Compaction | field_declaration | Record | [108](../../magpie/internal/usage/usage.go#L108) |
-| FirstReasoning | field_declaration | Record | [110](../../magpie/internal/usage/usage.go#L110) |
-| ReasoningHidden | field_declaration | Record | [111](../../magpie/internal/usage/usage.go#L111) |
-| Sent | field_declaration | Record | [117](../../magpie/internal/usage/usage.go#L117) |
-| Own | field_declaration | Record | [126](../../magpie/internal/usage/usage.go#L126) |
-| Retried | field_declaration | Record | [127](../../magpie/internal/usage/usage.go#L127) |
-| Queued | field_declaration | Record | [128](../../magpie/internal/usage/usage.go#L128) |
-| Flow | field_declaration | Record | [135](../../magpie/internal/usage/usage.go#L135) |
-| Status | field_declaration | Record | [136](../../magpie/internal/usage/usage.go#L136) |
-| Error | field_declaration | Record | [142](../../magpie/internal/usage/usage.go#L142) |
-| ErrType | field_declaration | Record | [143](../../magpie/internal/usage/usage.go#L143) |
-| RequestID | field_declaration | Record | [144](../../magpie/internal/usage/usage.go#L144) |
-| ResponseID | field_declaration | Record | [146](../../magpie/internal/usage/usage.go#L146) |
-| Endpoint | field_declaration | Record | [147](../../magpie/internal/usage/usage.go#L147) |
-| Stop | field_declaration | Record | [152](../../magpie/internal/usage/usage.go#L152) |
-| Session | field_declaration | Record | [156](../../magpie/internal/usage/usage.go#L156) |
-| NativeSession | field_declaration | Record | [158](../../magpie/internal/usage/usage.go#L158) |
-| Subagent | field_declaration | Record | [165](../../magpie/internal/usage/usage.go#L165) |
-| ParentAgent | field_declaration | Record | [166](../../magpie/internal/usage/usage.go#L166) |
-| Rejected | field_declaration | Record | [168](../../magpie/internal/usage/usage.go#L168) |
-| Tries | field_declaration | Record | [178](../../magpie/internal/usage/usage.go#L178) |
-| HandedOn | field_declaration | Record | [179](../../magpie/internal/usage/usage.go#L179) |
-| Kind | field_declaration | Record | [182](../../magpie/internal/usage/usage.go#L182) |
-| Via | field_declaration | Record | [186](../../magpie/internal/usage/usage.go#L186) |
-| Archive | field_declaration | Record | [190](../../magpie/internal/usage/usage.go#L190) |
-| Computer | field_declaration | Record | [194](../../magpie/internal/usage/usage.go#L194) |
-| Source | field_declaration | Record | [200](../../magpie/internal/usage/usage.go#L200) |
-| OwnCost | field_declaration | Record | [204](../../magpie/internal/usage/usage.go#L204) |
-| Credits | field_declaration | Record | [207](../../magpie/internal/usage/usage.go#L207) |
-| Watched | field_declaration | Record | [211](../../magpie/internal/usage/usage.go#L211) |
-| Local | field_declaration | Record | [214](../../magpie/internal/usage/usage.go#L214) |
-| BodyIn | field_declaration | Record | [218](../../magpie/internal/usage/usage.go#L218) |
-| BodyOut | field_declaration | Record | [219](../../magpie/internal/usage/usage.go#L219) |
-| Path | function_declaration |  | [223](../../magpie/internal/usage/usage.go#L223) |
-| mu | var_spec |  | [225](../../magpie/internal/usage/usage.go#L225) |
-| loads | var_spec |  | [229](../../magpie/internal/usage/usage.go#L229) |
-| Append | function_declaration |  | [233](../../magpie/internal/usage/usage.go#L233) |
-| IsRejected | method_declaration | Record | [262](../../magpie/internal/usage/usage.go#L262) |
-| IsReported | method_declaration | Record | [270](../../magpie/internal/usage/usage.go#L270) |
-| Load | function_declaration |  | [274](../../magpie/internal/usage/usage.go#L274) |
-| Known | struct_type |  | [299](../../magpie/internal/usage/usage.go#L299) |
-| ID | field_declaration | Known | [300](../../magpie/internal/usage/usage.go#L300) |
-| Names | field_declaration | Known | [301](../../magpie/internal/usage/usage.go#L301) |
-| UA | field_declaration | Known | [302](../../magpie/internal/usage/usage.go#L302) |
-| Agents | var_spec |  | [307](../../magpie/internal/usage/usage.go#L307) |
-| PluginAgents | var_spec |  | [311](../../magpie/internal/usage/usage.go#L311) |
-| builtinAgents | var_spec |  | [313](../../magpie/internal/usage/usage.go#L313) |
-| knownAgents | function_declaration |  | [321](../../magpie/internal/usage/usage.go#L321) |
-| IsAgent | function_declaration |  | [335](../../magpie/internal/usage/usage.go#L335) |
-| AgentOf | function_declaration |  | [341](../../magpie/internal/usage/usage.go#L341) |
-| Period | type_spec |  | [367](../../magpie/internal/usage/usage.go#L367) |
-| Today | const_spec |  | [370](../../magpie/internal/usage/usage.go#L370) |
-| Week | const_spec |  | [371](../../magpie/internal/usage/usage.go#L371) |
-| Month | const_spec |  | [372](../../magpie/internal/usage/usage.go#L372) |
-| All | const_spec |  | [373](../../magpie/internal/usage/usage.go#L373) |
-| Periods | var_spec |  | [377](../../magpie/internal/usage/usage.go#L377) |
-| CostAt | method_declaration | Record | [382](../../magpie/internal/usage/usage.go#L382) |
-| Totals | struct_type |  | [390](../../magpie/internal/usage/usage.go#L390) |
-| Calls | field_declaration | Totals | [394](../../magpie/internal/usage/usage.go#L394) |
-| Errors | field_declaration | Totals | [395](../../magpie/internal/usage/usage.go#L395) |
-| Retried | field_declaration | Totals | [396](../../magpie/internal/usage/usage.go#L396) |
-| Loops | field_declaration | Totals | [399](../../magpie/internal/usage/usage.go#L399) |
-| Input | field_declaration | Totals | [400](../../magpie/internal/usage/usage.go#L400) |
-| Output | field_declaration | Totals | [401](../../magpie/internal/usage/usage.go#L401) |
-| CacheRead | field_declaration | Totals | [402](../../magpie/internal/usage/usage.go#L402) |
-| CacheWrite | field_declaration | Totals | [403](../../magpie/internal/usage/usage.go#L403) |
-| CacheWrite1h | field_declaration | Totals | [405](../../magpie/internal/usage/usage.go#L405) |
+| Record | struct_type |  | [29](../../magpie/internal/usage/usage.go#L29) |
+| Operation | field_declaration | Record | [30](../../magpie/internal/usage/usage.go#L30) |
+| RouteID | field_declaration | Record | [31](../../magpie/internal/usage/usage.go#L31) |
+| Time | field_declaration | Record | [32](../../magpie/internal/usage/usage.go#L32) |
+| Agent | field_declaration | Record | [33](../../magpie/internal/usage/usage.go#L33) |
+| Provider | field_declaration | Record | [34](../../magpie/internal/usage/usage.go#L34) |
+| Host | field_declaration | Record | [35](../../magpie/internal/usage/usage.go#L35) |
+| ProviderKeyID | field_declaration | Record | [36](../../magpie/internal/usage/usage.go#L36) |
+| ProviderKeyName | field_declaration | Record | [37](../../magpie/internal/usage/usage.go#L37) |
+| ProviderAccount | field_declaration | Record | [43](../../magpie/internal/usage/usage.go#L43) |
+| CallerKeyID | field_declaration | Record | [44](../../magpie/internal/usage/usage.go#L44) |
+| CallerKeyName | field_declaration | Record | [45](../../magpie/internal/usage/usage.go#L45) |
+| SessionProvider | field_declaration | Record | [49](../../magpie/internal/usage/usage.go#L49) |
+| SessionAccount | field_declaration | Record | [50](../../magpie/internal/usage/usage.go#L50) |
+| SessionOfficialLogin | field_declaration | Record | [53](../../magpie/internal/usage/usage.go#L53) |
+| Model | field_declaration | Record | [54](../../magpie/internal/usage/usage.go#L54) |
+| Requested | field_declaration | Record | [59](../../magpie/internal/usage/usage.go#L59) |
+| Served | field_declaration | Record | [60](../../magpie/internal/usage/usage.go#L60) |
+| Upstream | field_declaration | Record | [63](../../magpie/internal/usage/usage.go#L63) |
+| Input | field_declaration | Record | [64](../../magpie/internal/usage/usage.go#L64) |
+| Output | field_declaration | Record | [65](../../magpie/internal/usage/usage.go#L65) |
+| CacheRead | field_declaration | Record | [72](../../magpie/internal/usage/usage.go#L72) |
+| CacheWrite | field_declaration | Record | [73](../../magpie/internal/usage/usage.go#L73) |
+| CacheWrite1h | field_declaration | Record | [79](../../magpie/internal/usage/usage.go#L79) |
+| CacheUnknown | field_declaration | Record | [85](../../magpie/internal/usage/usage.go#L85) |
+| Reasoning | field_declaration | Record | [86](../../magpie/internal/usage/usage.go#L86) |
+| Effort | field_declaration | Record | [89](../../magpie/internal/usage/usage.go#L89) |
+| TierAsked | field_declaration | Record | [99](../../magpie/internal/usage/usage.go#L99) |
+| TierSent | field_declaration | Record | [100](../../magpie/internal/usage/usage.go#L100) |
+| TierServed | field_declaration | Record | [101](../../magpie/internal/usage/usage.go#L101) |
+| Millis | field_declaration | Record | [102](../../magpie/internal/usage/usage.go#L102) |
+| TTFT | field_declaration | Record | [107](../../magpie/internal/usage/usage.go#L107) |
+| FirstText | field_declaration | Record | [108](../../magpie/internal/usage/usage.go#L108) |
+| Compaction | field_declaration | Record | [111](../../magpie/internal/usage/usage.go#L111) |
+| FirstReasoning | field_declaration | Record | [113](../../magpie/internal/usage/usage.go#L113) |
+| ReasoningHidden | field_declaration | Record | [114](../../magpie/internal/usage/usage.go#L114) |
+| Sent | field_declaration | Record | [120](../../magpie/internal/usage/usage.go#L120) |
+| Own | field_declaration | Record | [129](../../magpie/internal/usage/usage.go#L129) |
+| Masking | field_declaration | Record | [134](../../magpie/internal/usage/usage.go#L134) |
+| Retried | field_declaration | Record | [135](../../magpie/internal/usage/usage.go#L135) |
+| Queued | field_declaration | Record | [136](../../magpie/internal/usage/usage.go#L136) |
+| Flow | field_declaration | Record | [143](../../magpie/internal/usage/usage.go#L143) |
+| Status | field_declaration | Record | [144](../../magpie/internal/usage/usage.go#L144) |
+| Error | field_declaration | Record | [150](../../magpie/internal/usage/usage.go#L150) |
+| ErrType | field_declaration | Record | [151](../../magpie/internal/usage/usage.go#L151) |
+| RequestID | field_declaration | Record | [152](../../magpie/internal/usage/usage.go#L152) |
+| ResponseID | field_declaration | Record | [154](../../magpie/internal/usage/usage.go#L154) |
+| Endpoint | field_declaration | Record | [155](../../magpie/internal/usage/usage.go#L155) |
+| Stop | field_declaration | Record | [160](../../magpie/internal/usage/usage.go#L160) |
+| Session | field_declaration | Record | [164](../../magpie/internal/usage/usage.go#L164) |
+| NativeSession | field_declaration | Record | [166](../../magpie/internal/usage/usage.go#L166) |
+| Subagent | field_declaration | Record | [173](../../magpie/internal/usage/usage.go#L173) |
+| ParentAgent | field_declaration | Record | [174](../../magpie/internal/usage/usage.go#L174) |
+| Rejected | field_declaration | Record | [176](../../magpie/internal/usage/usage.go#L176) |
+| Tries | field_declaration | Record | [186](../../magpie/internal/usage/usage.go#L186) |
+| HandedOn | field_declaration | Record | [187](../../magpie/internal/usage/usage.go#L187) |
+| Kind | field_declaration | Record | [190](../../magpie/internal/usage/usage.go#L190) |
+| Via | field_declaration | Record | [194](../../magpie/internal/usage/usage.go#L194) |
+| Archive | field_declaration | Record | [198](../../magpie/internal/usage/usage.go#L198) |
+| Computer | field_declaration | Record | [202](../../magpie/internal/usage/usage.go#L202) |
+| Source | field_declaration | Record | [208](../../magpie/internal/usage/usage.go#L208) |
+| OwnCost | field_declaration | Record | [212](../../magpie/internal/usage/usage.go#L212) |
+| Credits | field_declaration | Record | [215](../../magpie/internal/usage/usage.go#L215) |
+| Watched | field_declaration | Record | [219](../../magpie/internal/usage/usage.go#L219) |
+| Local | field_declaration | Record | [222](../../magpie/internal/usage/usage.go#L222) |
+| BodyIn | field_declaration | Record | [226](../../magpie/internal/usage/usage.go#L226) |
+| BodyOut | field_declaration | Record | [227](../../magpie/internal/usage/usage.go#L227) |
+| Path | function_declaration |  | [231](../../magpie/internal/usage/usage.go#L231) |
+| mu | var_spec |  | [233](../../magpie/internal/usage/usage.go#L233) |
+| loads | var_spec |  | [237](../../magpie/internal/usage/usage.go#L237) |
+| Append | function_declaration |  | [241](../../magpie/internal/usage/usage.go#L241) |
+| heldLog | var_spec |  | [279](../../magpie/internal/usage/usage.go#L279) |
+| holdLog | const_spec |  | [284](../../magpie/internal/usage/usage.go#L284) |
+| openLog | function_declaration |  | [288](../../magpie/internal/usage/usage.go#L288) |
+| IsRejected | method_declaration | Record | [318](../../magpie/internal/usage/usage.go#L318) |
+| IsReported | method_declaration | Record | [326](../../magpie/internal/usage/usage.go#L326) |
+| Load | function_declaration |  | [330](../../magpie/internal/usage/usage.go#L330) |
+| Known | struct_type |  | [355](../../magpie/internal/usage/usage.go#L355) |
+| ID | field_declaration | Known | [356](../../magpie/internal/usage/usage.go#L356) |
+| Names | field_declaration | Known | [357](../../magpie/internal/usage/usage.go#L357) |
+| UA | field_declaration | Known | [358](../../magpie/internal/usage/usage.go#L358) |
+| Agents | var_spec |  | [363](../../magpie/internal/usage/usage.go#L363) |
+| PluginAgents | var_spec |  | [367](../../magpie/internal/usage/usage.go#L367) |
+| builtinAgents | var_spec |  | [369](../../magpie/internal/usage/usage.go#L369) |
+| knownAgents | function_declaration |  | [377](../../magpie/internal/usage/usage.go#L377) |
+| IsAgent | function_declaration |  | [391](../../magpie/internal/usage/usage.go#L391) |
+| AgentOf | function_declaration |  | [397](../../magpie/internal/usage/usage.go#L397) |
+| Period | type_spec |  | [423](../../magpie/internal/usage/usage.go#L423) |
+| Today | const_spec |  | [426](../../magpie/internal/usage/usage.go#L426) |
+| Week | const_spec |  | [427](../../magpie/internal/usage/usage.go#L427) |
+| Month | const_spec |  | [428](../../magpie/internal/usage/usage.go#L428) |
+| All | const_spec |  | [429](../../magpie/internal/usage/usage.go#L429) |
+| Periods | var_spec |  | [433](../../magpie/internal/usage/usage.go#L433) |
+| CostAt | method_declaration | Record | [438](../../magpie/internal/usage/usage.go#L438) |
+| Totals | struct_type |  | [446](../../magpie/internal/usage/usage.go#L446) |
+| Calls | field_declaration | Totals | [450](../../magpie/internal/usage/usage.go#L450) |
+| Errors | field_declaration | Totals | [451](../../magpie/internal/usage/usage.go#L451) |
+| Retried | field_declaration | Totals | [452](../../magpie/internal/usage/usage.go#L452) |
+| Loops | field_declaration | Totals | [455](../../magpie/internal/usage/usage.go#L455) |
+| Input | field_declaration | Totals | [456](../../magpie/internal/usage/usage.go#L456) |

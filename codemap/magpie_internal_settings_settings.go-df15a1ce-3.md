@@ -4,32 +4,38 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/settings/settings.go) · page 3/3
 
-Source SHA-256: 7e10b606cec0b8a797e635b30f745632f5582f346d05143263babf1b9df72fef
+Source SHA-256: f0078ddd000a8018862f4d92ccae51c1c1f7273810a82c156cd8436395afd3d6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| parsed | var_spec |  | [1246](../../magpie/internal/settings/settings.go#L1246) |
-| parse | function_declaration |  | [1257](../../magpie/internal/settings/settings.go#L1257) |
-| parses | var_spec |  | [1289](../../magpie/internal/settings/settings.go#L1289) |
-| Parses | function_declaration |  | [1294](../../magpie/internal/settings/settings.go#L1294) |
-| validSettings | function_declaration |  | [1297](../../magpie/internal/settings/settings.go#L1297) |
-| CheckProxy | function_declaration |  | [1306](../../magpie/internal/settings/settings.go#L1306) |
-| DefaultPort | const_spec |  | [1324](../../magpie/internal/settings/settings.go#L1324) |
-| CheckPort | function_declaration |  | [1329](../../magpie/internal/settings/settings.go#L1329) |
-| GatewayAddr | function_declaration |  | [1339](../../magpie/internal/settings/settings.go#L1339) |
-| SavedAddr | function_declaration |  | [1349](../../magpie/internal/settings/settings.go#L1349) |
-| Save | function_declaration |  | [1358](../../magpie/internal/settings/settings.go#L1358) |
-| SetGatewayConversations | function_declaration |  | [1366](../../magpie/internal/settings/settings.go#L1366) |
-| EditCheckinOff | function_declaration |  | [1377](../../magpie/internal/settings/settings.go#L1377) |
-| EditUsageAliases | function_declaration |  | [1397](../../magpie/internal/settings/settings.go#L1397) |
-| SetRedactModel | function_declaration |  | [1417](../../magpie/internal/settings/settings.go#L1417) |
-| save | function_declaration |  | [1426](../../magpie/internal/settings/settings.go#L1426) |
-| normal | method_declaration | Settings | [1663](../../magpie/internal/settings/settings.go#L1663) |
-| at | field_declaration | Settings.normal | [1701](../../magpie/internal/settings/settings.go#L1701) |
-| ats | field_declaration | Settings.normal | [1702](../../magpie/internal/settings/settings.go#L1702) |
-| Clock | function_declaration |  | [1736](../../magpie/internal/settings/settings.go#L1736) |
-| clocks | function_declaration |  | [1748](../../magpie/internal/settings/settings.go#L1748) |
-| ids | function_declaration |  | [1767](../../magpie/internal/settings/settings.go#L1767) |
-| clientAgents | function_declaration |  | [1779](../../magpie/internal/settings/settings.go#L1779) |
-| ClientAgentsNow | function_declaration |  | [1799](../../magpie/internal/settings/settings.go#L1799) |
-| ClientAgents | field_declaration | ClientAgentsNow | [1807](../../magpie/internal/settings/settings.go#L1807) |
+| Shared | function_declaration |  | [1202](../../magpie/internal/settings/settings.go#L1202) |
+| sharedFor | function_declaration |  | [1224](../../magpie/internal/settings/settings.go#L1224) |
+| load | function_declaration |  | [1237](../../magpie/internal/settings/settings.go#L1237) |
+| loadChecked | function_declaration |  | [1243](../../magpie/internal/settings/settings.go#L1243) |
+| parsed | var_spec |  | [1263](../../magpie/internal/settings/settings.go#L1263) |
+| parse | function_declaration |  | [1274](../../magpie/internal/settings/settings.go#L1274) |
+| parses | var_spec |  | [1306](../../magpie/internal/settings/settings.go#L1306) |
+| Parses | function_declaration |  | [1311](../../magpie/internal/settings/settings.go#L1311) |
+| validSettings | function_declaration |  | [1314](../../magpie/internal/settings/settings.go#L1314) |
+| CheckProxy | function_declaration |  | [1323](../../magpie/internal/settings/settings.go#L1323) |
+| DefaultPort | const_spec |  | [1341](../../magpie/internal/settings/settings.go#L1341) |
+| CheckPort | function_declaration |  | [1346](../../magpie/internal/settings/settings.go#L1346) |
+| GatewayAddr | function_declaration |  | [1356](../../magpie/internal/settings/settings.go#L1356) |
+| SavedAddr | function_declaration |  | [1366](../../magpie/internal/settings/settings.go#L1366) |
+| Save | function_declaration |  | [1375](../../magpie/internal/settings/settings.go#L1375) |
+| SetGatewayConversations | function_declaration |  | [1383](../../magpie/internal/settings/settings.go#L1383) |
+| EditCheckinOff | function_declaration |  | [1394](../../magpie/internal/settings/settings.go#L1394) |
+| EditUsageAliases | function_declaration |  | [1414](../../magpie/internal/settings/settings.go#L1414) |
+| SetRedactModel | function_declaration |  | [1434](../../magpie/internal/settings/settings.go#L1434) |
+| SetRedactModelName | function_declaration |  | [1444](../../magpie/internal/settings/settings.go#L1444) |
+| UseRedactModel | function_declaration |  | [1454](../../magpie/internal/settings/settings.go#L1454) |
+| save | function_declaration |  | [1463](../../magpie/internal/settings/settings.go#L1463) |
+| normal | method_declaration | Settings | [1703](../../magpie/internal/settings/settings.go#L1703) |
+| at | field_declaration | Settings.normal | [1741](../../magpie/internal/settings/settings.go#L1741) |
+| ats | field_declaration | Settings.normal | [1742](../../magpie/internal/settings/settings.go#L1742) |
+| Clock | function_declaration |  | [1776](../../magpie/internal/settings/settings.go#L1776) |
+| clocks | function_declaration |  | [1788](../../magpie/internal/settings/settings.go#L1788) |
+| ids | function_declaration |  | [1807](../../magpie/internal/settings/settings.go#L1807) |
+| clientAgents | function_declaration |  | [1819](../../magpie/internal/settings/settings.go#L1819) |
+| ClientAgentsNow | function_declaration |  | [1839](../../magpie/internal/settings/settings.go#L1839) |
+| ClientAgents | field_declaration | ClientAgentsNow | [1847](../../magpie/internal/settings/settings.go#L1847) |

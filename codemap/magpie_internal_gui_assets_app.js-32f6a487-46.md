@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 46/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| shown | VariableDeclaration | quotaCurve | [16514](../../magpie/internal/gui/assets/app.js#L16514) |
-| r | VariableDeclaration | quotaCurve | [16517](../../magpie/internal/gui/assets/app.js#L16517) |
-| longest | VariableDeclaration | quotaCurve | [16538](../../magpie/internal/gui/assets/app.js#L16538) |
-| latest | VariableDeclaration | quotaCurve | [16538](../../magpie/internal/gui/assets/app.js#L16538) |
-| c | VariableDeclaration | quotaCurve | [16540](../../magpie/internal/gui/assets/app.js#L16540) |
-| p | VariableDeclaration | quotaCurve | [16543](../../magpie/internal/gui/assets/app.js#L16543) |
-| curveZoom | FunctionDeclaration |  | [16555](../../magpie/internal/gui/assets/app.js#L16555) |
-| flip | VariableDeclaration | curveZoom | [16558](../../magpie/internal/gui/assets/app.js#L16558) |
-| big | VariableDeclaration | curveZoom.flip | [16560](../../magpie/internal/gui/assets/app.js#L16560) |
-| balanceAmount | FunctionDeclaration |  | [16568](../../magpie/internal/gui/assets/app.js#L16568) |
-| n | VariableDeclaration | balanceAmount | [16569](../../magpie/internal/gui/assets/app.js#L16569) |
-| cur | VariableDeclaration | balanceAmount | [16572](../../magpie/internal/gui/assets/app.js#L16572) |
-| m | VariableDeclaration | balanceAmount | [16574](../../magpie/internal/gui/assets/app.js#L16574) |
-| balanceCurve | FunctionDeclaration |  | [16583](../../magpie/internal/gui/assets/app.js#L16583) |
-| tr | VariableDeclaration | balanceCurve | [16585](../../magpie/internal/gui/assets/app.js#L16585) |
-| pts | VariableDeclaration | balanceCurve | [16587](../../magpie/internal/gui/assets/app.js#L16587) |
-| box | VariableDeclaration | balanceCurve | [16588](../../magpie/internal/gui/assets/app.js#L16588) |
-| head | VariableDeclaration | balanceCurve | [16589](../../magpie/internal/gui/assets/app.js#L16589) |
-| out | VariableDeclaration | balanceCurve | [16590](../../magpie/internal/gui/assets/app.js#L16590) |
-| pace | VariableDeclaration | balanceCurve | [16591](../../magpie/internal/gui/assets/app.js#L16591) |
-| W | VariableDeclaration | balanceCurve | [16594](../../magpie/internal/gui/assets/app.js#L16594) |
-| H | VariableDeclaration | balanceCurve | [16594](../../magpie/internal/gui/assets/app.js#L16594) |
-| g | VariableDeclaration | balanceCurve | [16595](../../magpie/internal/gui/assets/app.js#L16595) |
-| axis | VariableDeclaration | balanceCurve | [16597](../../magpie/internal/gui/assets/app.js#L16597) |
-| legend | VariableDeclaration | balanceCurve | [16598](../../magpie/internal/gui/assets/app.js#L16598) |
-| k | VariableDeclaration | balanceCurve | [16599](../../magpie/internal/gui/assets/app.js#L16599) |
-| sw | VariableDeclaration | balanceCurve | [16600](../../magpie/internal/gui/assets/app.js#L16600) |
-| last | VariableDeclaration | balanceCurve | [16602](../../magpie/internal/gui/assets/app.js#L16602) |
-| now | VariableDeclaration | balanceCurve | [16608](../../magpie/internal/gui/assets/app.js#L16608) |
-| x0 | VariableDeclaration | balanceCurve | [16609](../../magpie/internal/gui/assets/app.js#L16609) |
-| x1 | VariableDeclaration | balanceCurve | [16609](../../magpie/internal/gui/assets/app.js#L16609) |
-| top | VariableDeclaration | balanceCurve | [16613](../../magpie/internal/gui/assets/app.js#L16613) |
-| X | VariableDeclaration | balanceCurve | [16614](../../magpie/internal/gui/assets/app.js#L16614) |
-| Y | VariableDeclaration | balanceCurve | [16614](../../magpie/internal/gui/assets/app.js#L16614) |
-| f | VariableDeclaration | balanceCurve | [16616](../../magpie/internal/gui/assets/app.js#L16616) |
-| from | VariableDeclaration | balanceCurve | [16618](../../magpie/internal/gui/assets/app.js#L16618) |
-| slope | VariableDeclaration | balanceCurve | [16618](../../magpie/internal/gui/assets/app.js#L16618) |
-| end | VariableDeclaration | balanceCurve | [16619](../../magpie/internal/gui/assets/app.js#L16619) |
-| d | VariableDeclaration | balanceCurve | [16622](../../magpie/internal/gui/assets/app.js#L16622) |
-| i | VariableDeclaration | balanceCurve | [16623](../../magpie/internal/gui/assets/app.js#L16623) |
-| p | VariableDeclaration | balanceCurve | [16624](../../magpie/internal/gui/assets/app.js#L16624) |
-| next | VariableDeclaration | balanceCurve | [16624](../../magpie/internal/gui/assets/app.js#L16624) |
-| setQuotaRange | FunctionDeclaration |  | [16639](../../magpie/internal/gui/assets/app.js#L16639) |
-| quotaWindowLine | FunctionDeclaration |  | [16648](../../magpie/internal/gui/assets/app.js#L16648) |
-| sparkClips | VariableDeclaration |  | [16659](../../magpie/internal/gui/assets/app.js#L16659) |
-| quotaSpark | FunctionDeclaration |  | [16660](../../magpie/internal/gui/assets/app.js#L16660) |
-| line | VariableDeclaration | quotaSpark | [16662](../../magpie/internal/gui/assets/app.js#L16662) |
-| now | VariableDeclaration | quotaSpark | [16664](../../magpie/internal/gui/assets/app.js#L16664) |
-| c | VariableDeclaration | quotaSpark | [16664](../../magpie/internal/gui/assets/app.js#L16664) |
-| x1 | VariableDeclaration | quotaSpark | [16665](../../magpie/internal/gui/assets/app.js#L16665) |
-| W | VariableDeclaration | quotaSpark | [16667](../../magpie/internal/gui/assets/app.js#L16667) |
-| H | VariableDeclaration | quotaSpark | [16667](../../magpie/internal/gui/assets/app.js#L16667) |
-| g | VariableDeclaration | quotaSpark | [16668](../../magpie/internal/gui/assets/app.js#L16668) |
-| gap | VariableDeclaration | quotaSpark | [16671](../../magpie/internal/gui/assets/app.js#L16671) |
-| s | VariableDeclaration | quotaSpark | [16673](../../magpie/internal/gui/assets/app.js#L16673) |
-| pace | VariableDeclaration | quotaSpark | [16675](../../magpie/internal/gui/assets/app.js#L16675) |
-| sparkGap | FunctionDeclaration |  | [16684](../../magpie/internal/gui/assets/app.js#L16684) |
-| pts | VariableDeclaration | sparkGap | [16685](../../magpie/internal/gui/assets/app.js#L16685) |
-| p | VariableDeclaration | sparkGap | [16686](../../magpie/internal/gui/assets/app.js#L16686) |
-| X | VariableDeclaration | sparkGap | [16692](../../magpie/internal/gui/assets/app.js#L16692) |
-| Y | VariableDeclaration | sparkGap | [16693](../../magpie/internal/gui/assets/app.js#L16693) |
-| E | VariableDeclaration | sparkGap | [16694](../../magpie/internal/gui/assets/app.js#L16694) |
-| a | VariableDeclaration | sparkGap | [16695](../../magpie/internal/gui/assets/app.js#L16695) |
-| b | VariableDeclaration | sparkGap | [16695](../../magpie/internal/gui/assets/app.js#L16695) |
-| poly | VariableDeclaration | sparkGap | [16696](../../magpie/internal/gui/assets/app.js#L16696) |
-| id | VariableDeclaration | sparkGap | [16698](../../magpie/internal/gui/assets/app.js#L16698) |
-| box | VariableDeclaration | sparkGap | [16699](../../magpie/internal/gui/assets/app.js#L16699) |
-| defs | VariableDeclaration | sparkGap | [16700](../../magpie/internal/gui/assets/app.js#L16700) |
-| above | VariableDeclaration | sparkGap | [16702](../../magpie/internal/gui/assets/app.js#L16702) |
-| below | VariableDeclaration | sparkGap | [16704](../../magpie/internal/gui/assets/app.js#L16704) |
-| planTerm | FunctionDeclaration |  | [16715](../../magpie/internal/gui/assets/app.js#L16715) |
-| date | VariableDeclaration | planTerm | [16717](../../magpie/internal/gui/assets/app.js#L16717) |
-| planSpan | FunctionDeclaration |  | [16720](../../magpie/internal/gui/assets/app.js#L16720) |
-| s | VariableDeclaration | planSpan | [16721](../../magpie/internal/gui/assets/app.js#L16721) |
-| panelArranging | VariableDeclaration |  | [16729](../../magpie/internal/gui/assets/app.js#L16729) |
-| panelPeek | VariableDeclaration |  | [16729](../../magpie/internal/gui/assets/app.js#L16729) |
-| profBtn | VariableDeclaration |  | [16740](../../magpie/internal/gui/assets/app.js#L16740) |
-| profBox | VariableDeclaration |  | [16740](../../magpie/internal/gui/assets/app.js#L16740) |
-| placeProfiles | FunctionDeclaration |  | [16741](../../magpie/internal/gui/assets/app.js#L16741) |
-| r | VariableDeclaration | placeProfiles | [16743](../../magpie/internal/gui/assets/app.js#L16743) |
-| top | VariableDeclaration | placeProfiles | [16743](../../magpie/internal/gui/assets/app.js#L16743) |
-| openProfiles | FunctionDeclaration |  | [16747](../../magpie/internal/gui/assets/app.js#L16747) |
-| closeProfiles | FunctionDeclaration |  | [16752](../../magpie/internal/gui/assets/app.js#L16752) |
-| f | VariableDeclaration | closeProfiles | [16758](../../magpie/internal/gui/assets/app.js#L16758) |
-| panelTab | VariableDeclaration |  | [16771](../../magpie/internal/gui/assets/app.js#L16771) |
-| setPanelTab | FunctionDeclaration |  | [16773](../../magpie/internal/gui/assets/app.js#L16773) |
-| tabs | VariableDeclaration | setPanelTab | [16774](../../magpie/internal/gui/assets/app.js#L16774) |
-| b | VariableDeclaration | setPanelTab | [16777](../../magpie/internal/gui/assets/app.js#L16777) |
-| b | VariableDeclaration | setPanelTab | [16784](../../magpie/internal/gui/assets/app.js#L16784) |
-| flashCard | FunctionDeclaration |  | [16799](../../magpie/internal/gui/assets/app.js#L16799) |
-| animation | VariableDeclaration | flashCard | [16808](../../magpie/internal/gui/assets/app.js#L16808) |
-| keepQuotaFlash | FunctionDeclaration |  | [16819](../../magpie/internal/gui/assets/app.js#L16819) |
-| view | VariableDeclaration | keepQuotaFlash | [16820](../../magpie/internal/gui/assets/app.js#L16820) |
-| scroll | VariableDeclaration | keepQuotaFlash | [16820](../../magpie/internal/gui/assets/app.js#L16820) |
-| flashes | VariableDeclaration | keepQuotaFlash | [16821](../../magpie/internal/gui/assets/app.js#L16821) |
-| animation | VariableDeclaration | keepQuotaFlash.flashes | [16822](../../magpie/internal/gui/assets/app.js#L16822) |
-| selector | VariableDeclaration | keepQuotaFlash.flashes | [16824](../../magpie/internal/gui/assets/app.js#L16824) |
-| { selector, elapsed } | VariableDeclaration | keepQuotaFlash | [16829](../../magpie/internal/gui/assets/app.js#L16829) |
-| selector | BindingElement | keepQuotaFlash.{ selector, elapsed } | [16829](../../magpie/internal/gui/assets/app.js#L16829) |
-| elapsed | BindingElement | keepQuotaFlash.{ selector, elapsed } | [16829](../../magpie/internal/gui/assets/app.js#L16829) |
+| sparkGap | FunctionDeclaration |  | [16492](../../magpie/internal/gui/assets/app.js#L16492) |
+| pts | VariableDeclaration | sparkGap | [16493](../../magpie/internal/gui/assets/app.js#L16493) |
+| p | VariableDeclaration | sparkGap | [16494](../../magpie/internal/gui/assets/app.js#L16494) |
+| X | VariableDeclaration | sparkGap | [16500](../../magpie/internal/gui/assets/app.js#L16500) |
+| Y | VariableDeclaration | sparkGap | [16501](../../magpie/internal/gui/assets/app.js#L16501) |
+| E | VariableDeclaration | sparkGap | [16502](../../magpie/internal/gui/assets/app.js#L16502) |
+| a | VariableDeclaration | sparkGap | [16503](../../magpie/internal/gui/assets/app.js#L16503) |
+| b | VariableDeclaration | sparkGap | [16503](../../magpie/internal/gui/assets/app.js#L16503) |
+| poly | VariableDeclaration | sparkGap | [16504](../../magpie/internal/gui/assets/app.js#L16504) |
+| id | VariableDeclaration | sparkGap | [16506](../../magpie/internal/gui/assets/app.js#L16506) |
+| box | VariableDeclaration | sparkGap | [16507](../../magpie/internal/gui/assets/app.js#L16507) |
+| defs | VariableDeclaration | sparkGap | [16508](../../magpie/internal/gui/assets/app.js#L16508) |
+| above | VariableDeclaration | sparkGap | [16510](../../magpie/internal/gui/assets/app.js#L16510) |
+| below | VariableDeclaration | sparkGap | [16512](../../magpie/internal/gui/assets/app.js#L16512) |
+| planTerm | FunctionDeclaration |  | [16523](../../magpie/internal/gui/assets/app.js#L16523) |
+| date | VariableDeclaration | planTerm | [16525](../../magpie/internal/gui/assets/app.js#L16525) |
+| planSpan | FunctionDeclaration |  | [16528](../../magpie/internal/gui/assets/app.js#L16528) |
+| s | VariableDeclaration | planSpan | [16529](../../magpie/internal/gui/assets/app.js#L16529) |
+| panelArranging | VariableDeclaration |  | [16537](../../magpie/internal/gui/assets/app.js#L16537) |
+| panelPeek | VariableDeclaration |  | [16537](../../magpie/internal/gui/assets/app.js#L16537) |
+| profBtn | VariableDeclaration |  | [16551](../../magpie/internal/gui/assets/app.js#L16551) |
+| profBox | VariableDeclaration |  | [16551](../../magpie/internal/gui/assets/app.js#L16551) |
+| placeProfiles | FunctionDeclaration |  | [16552](../../magpie/internal/gui/assets/app.js#L16552) |
+| r | VariableDeclaration | placeProfiles | [16554](../../magpie/internal/gui/assets/app.js#L16554) |
+| top | VariableDeclaration | placeProfiles | [16554](../../magpie/internal/gui/assets/app.js#L16554) |
+| openProfiles | FunctionDeclaration |  | [16558](../../magpie/internal/gui/assets/app.js#L16558) |
+| closeProfiles | FunctionDeclaration |  | [16563](../../magpie/internal/gui/assets/app.js#L16563) |
+| f | VariableDeclaration | closeProfiles | [16569](../../magpie/internal/gui/assets/app.js#L16569) |
+| panelTab | VariableDeclaration |  | [16582](../../magpie/internal/gui/assets/app.js#L16582) |
+| setPanelTab | FunctionDeclaration |  | [16584](../../magpie/internal/gui/assets/app.js#L16584) |
+| tabs | VariableDeclaration | setPanelTab | [16585](../../magpie/internal/gui/assets/app.js#L16585) |
+| b | VariableDeclaration | setPanelTab | [16588](../../magpie/internal/gui/assets/app.js#L16588) |
+| b | VariableDeclaration | setPanelTab | [16595](../../magpie/internal/gui/assets/app.js#L16595) |
+| flashCard | FunctionDeclaration |  | [16610](../../magpie/internal/gui/assets/app.js#L16610) |
+| animation | VariableDeclaration | flashCard | [16619](../../magpie/internal/gui/assets/app.js#L16619) |
+| keepQuotaFlash | FunctionDeclaration |  | [16630](../../magpie/internal/gui/assets/app.js#L16630) |
+| view | VariableDeclaration | keepQuotaFlash | [16631](../../magpie/internal/gui/assets/app.js#L16631) |
+| scroll | VariableDeclaration | keepQuotaFlash | [16631](../../magpie/internal/gui/assets/app.js#L16631) |
+| flashes | VariableDeclaration | keepQuotaFlash | [16632](../../magpie/internal/gui/assets/app.js#L16632) |
+| animation | VariableDeclaration | keepQuotaFlash.flashes | [16633](../../magpie/internal/gui/assets/app.js#L16633) |
+| selector | VariableDeclaration | keepQuotaFlash.flashes | [16635](../../magpie/internal/gui/assets/app.js#L16635) |
+| { selector, elapsed } | VariableDeclaration | keepQuotaFlash | [16640](../../magpie/internal/gui/assets/app.js#L16640) |
+| selector | BindingElement | keepQuotaFlash.{ selector, elapsed } | [16640](../../magpie/internal/gui/assets/app.js#L16640) |
+| elapsed | BindingElement | keepQuotaFlash.{ selector, elapsed } | [16640](../../magpie/internal/gui/assets/app.js#L16640) |
+| card | VariableDeclaration | keepQuotaFlash | [16641](../../magpie/internal/gui/assets/app.js#L16641) |
+| focusQuotaCard | FunctionDeclaration |  | [16652](../../magpie/internal/gui/assets/app.js#L16652) |
+| box | VariableDeclaration | focusQuotaCard | [16655](../../magpie/internal/gui/assets/app.js#L16655) |
+| id | VariableDeclaration | focusQuotaCard | [16658](../../magpie/internal/gui/assets/app.js#L16658) |
+| target | VariableDeclaration | focusQuotaCard | [16660](../../magpie/internal/gui/assets/app.js#L16660) |
+| quota | VariableDeclaration | focusQuotaCard | [16663](../../magpie/internal/gui/assets/app.js#L16663) |
+| panelQuotaFocus | FunctionDeclaration |  | [16677](../../magpie/internal/gui/assets/app.js#L16677) |
+| panelUseFocus | FunctionDeclaration |  | [16692](../../magpie/internal/gui/assets/app.js#L16692) |
+| id | BindingElement | panelUseFocus | [16693](../../magpie/internal/gui/assets/app.js#L16693) |
+| moved | VariableDeclaration | panelUseFocus | [16694](../../magpie/internal/gui/assets/app.js#L16694) |
+| tabs | VariableDeclaration |  | [16705](../../magpie/internal/gui/assets/app.js#L16705) |
+| b | VariableDeclaration |  | [16708](../../magpie/internal/gui/assets/app.js#L16708) |
+| panelUse | VariableDeclaration |  | [16724](../../magpie/internal/gui/assets/app.js#L16724) |
+| PANEL_USE_PERIODS | VariableDeclaration |  | [16726](../../magpie/internal/gui/assets/app.js#L16726) |
+| panelUsePeriod | VariableDeclaration |  | [16727](../../magpie/internal/gui/assets/app.js#L16727) |
+| panelUseProvider | VariableDeclaration |  | [16727](../../magpie/internal/gui/assets/app.js#L16727) |
+| panelUseMetric | VariableDeclaration |  | [16727](../../magpie/internal/gui/assets/app.js#L16727) |
+| panelUseComputer | VariableDeclaration |  | [16727](../../magpie/internal/gui/assets/app.js#L16727) |
+| panelUseDay | VariableDeclaration |  | [16727](../../magpie/internal/gui/assets/app.js#L16727) |
+| p | VariableDeclaration |  | [16729](../../magpie/internal/gui/assets/app.js#L16729) |
+| m | VariableDeclaration |  | [16729](../../magpie/internal/gui/assets/app.js#L16729) |
+| id | BindingElement |  | [16730](../../magpie/internal/gui/assets/app.js#L16730) |
+| panelUseAt | VariableDeclaration |  | [16733](../../magpie/internal/gui/assets/app.js#L16733) |
+| panelUseFlight | VariableDeclaration |  | [16741](../../magpie/internal/gui/assets/app.js#L16741) |
+| panelUseQueued | VariableDeclaration |  | [16741](../../magpie/internal/gui/assets/app.js#L16741) |
+| panelUseQueuedLoud | VariableDeclaration |  | [16741](../../magpie/internal/gui/assets/app.js#L16741) |
+| loadPanelUse | FunctionDeclaration |  | [16742](../../magpie/internal/gui/assets/app.js#L16742) |
+| q | VariableDeclaration | loadPanelUse | [16745](../../magpie/internal/gui/assets/app.js#L16745) |
+| want | VariableDeclaration | loadPanelUse | [16749](../../magpie/internal/gui/assets/app.js#L16749) |
+| read | VariableDeclaration | loadPanelUse | [16754](../../magpie/internal/gui/assets/app.js#L16754) |
+| l | VariableDeclaration | loadPanelUse.read | [16756](../../magpie/internal/gui/assets/app.js#L16756) |
+| now | VariableDeclaration | loadPanelUse.read | [16757](../../magpie/internal/gui/assets/app.js#L16757) |
+| same | VariableDeclaration | loadPanelUse.read | [16762](../../magpie/internal/gui/assets/app.js#L16762) |
+| e | VariableDeclaration | loadPanelUse.read | [16766](../../magpie/internal/gui/assets/app.js#L16766) |
+| flight | VariableDeclaration | loadPanelUse | [16772](../../magpie/internal/gui/assets/app.js#L16772) |
+| loud | VariableDeclaration | loadPanelUse.flight | [16776](../../magpie/internal/gui/assets/app.js#L16776) |
+| panelUseShown | FunctionDeclaration |  | [16784](../../magpie/internal/gui/assets/app.js#L16784) |
+| again | VariableDeclaration |  | [16793](../../magpie/internal/gui/assets/app.js#L16793) |
+| renderPanelUse | FunctionDeclaration |  | [16798](../../magpie/internal/gui/assets/app.js#L16798) |
+| box | VariableDeclaration | renderPanelUse | [16799](../../magpie/internal/gui/assets/app.js#L16799) |
+| v | VariableDeclaration | renderPanelUse | [16801](../../magpie/internal/gui/assets/app.js#L16801) |
+| keep | VariableDeclaration | renderPanelUse | [16801](../../magpie/internal/gui/assets/app.js#L16801) |
+| focusDay | VariableDeclaration | renderPanelUse | [16802](../../magpie/internal/gui/assets/app.js#L16802) |
+| l | VariableDeclaration | renderPanelUse | [16803](../../magpie/internal/gui/assets/app.js#L16803) |
+| bar | VariableDeclaration | renderPanelUse | [16805](../../magpie/internal/gui/assets/app.js#L16805) |
+| per | VariableDeclaration | renderPanelUse | [16806](../../magpie/internal/gui/assets/app.js#L16806) |
+| [id, name] | VariableDeclaration | renderPanelUse | [16807](../../magpie/internal/gui/assets/app.js#L16807) |
+| id | BindingElement | renderPanelUse.[id, name] | [16807](../../magpie/internal/gui/assets/app.js#L16807) |
+| name | BindingElement | renderPanelUse.[id, name] | [16807](../../magpie/internal/gui/assets/app.js#L16807) |
+| b | VariableDeclaration | renderPanelUse | [16808](../../magpie/internal/gui/assets/app.js#L16808) |
+| pick | VariableDeclaration | renderPanelUse | [16819](../../magpie/internal/gui/assets/app.js#L16819) |
+| opts | VariableDeclaration | renderPanelUse | [16821](../../magpie/internal/gui/assets/app.js#L16821) |
+| comp | VariableDeclaration | renderPanelUse | [16825](../../magpie/internal/gui/assets/app.js#L16825) |
+| copts | VariableDeclaration | renderPanelUse | [16827](../../magpie/internal/gui/assets/app.js#L16827) |
+| open | VariableDeclaration | renderPanelUse | [16830](../../magpie/internal/gui/assets/app.js#L16830) |
+| again | VariableDeclaration | renderPanelUse | [16838](../../magpie/internal/gui/assets/app.js#L16838) |

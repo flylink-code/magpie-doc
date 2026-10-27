@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/stats.go) · page 1/2
 
-Source SHA-256: c0966de61a7aeacd172c8374dad0b8d1b64e71cfac8603ab15b54515393beebb
+Source SHA-256: 27d1c4aff35a29aeb315cf57a138e575224ac562c386e34610c2f6a8fa40e0f8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Stats | struct_type |  | [16](../../magpie/internal/sessions/stats.go#L16) |
-| From | field_declaration | Stats | [17](../../magpie/internal/sessions/stats.go#L17) |
-| To | field_declaration | Stats | [18](../../magpie/internal/sessions/stats.go#L18) |
-| Days | field_declaration | Stats | [19](../../magpie/internal/sessions/stats.go#L19) |
-| Sessions | field_declaration | Stats | [23](../../magpie/internal/sessions/stats.go#L23) |
-| Keys | field_declaration | Stats | [29](../../magpie/internal/sessions/stats.go#L29) |
-| Summary | struct_type |  | [33](../../magpie/internal/sessions/stats.go#L33) |
-| Key | field_declaration | Summary | [34](../../magpie/internal/sessions/stats.go#L34) |
-| Agent | field_declaration | Summary | [35](../../magpie/internal/sessions/stats.go#L35) |
-| ID | field_declaration | Summary | [36](../../magpie/internal/sessions/stats.go#L36) |
-| Cwd | field_declaration | Summary | [37](../../magpie/internal/sessions/stats.go#L37) |
-| Title | field_declaration | Summary | [38](../../magpie/internal/sessions/stats.go#L38) |
-| Nickname | field_declaration | Summary | [39](../../magpie/internal/sessions/stats.go#L39) |
-| Last | field_declaration | Summary | [40](../../magpie/internal/sessions/stats.go#L40) |
-| Role | field_declaration | Summary | [41](../../magpie/internal/sessions/stats.go#L41) |
-| ParentSession | field_declaration | Summary | [42](../../magpie/internal/sessions/stats.go#L42) |
-| RootSession | field_declaration | Summary | [43](../../magpie/internal/sessions/stats.go#L43) |
-| ModelEffort | field_declaration | Summary | [44](../../magpie/internal/sessions/stats.go#L44) |
-| Gateway | field_declaration | Summary | [49](../../magpie/internal/sessions/stats.go#L49) |
-| Cost | field_declaration | Summary | [51](../../magpie/internal/sessions/stats.go#L51) |
-| Priced | field_declaration | Summary | [52](../../magpie/internal/sessions/stats.go#L52) |
-| Active | field_declaration | Summary | [53](../../magpie/internal/sessions/stats.go#L53) |
-| Models | field_declaration | Summary | [54](../../magpie/internal/sessions/stats.go#L54) |
-| Days | field_declaration | Summary | [55](../../magpie/internal/sessions/stats.go#L55) |
-| Prompts | field_declaration | Summary | [58](../../magpie/internal/sessions/stats.go#L58) |
-| Replies | field_declaration | Summary | [59](../../magpie/internal/sessions/stats.go#L59) |
-| ToolCalls | field_declaration | Summary | [60](../../magpie/internal/sessions/stats.go#L60) |
-| tools | field_declaration | Summary | [62](../../magpie/internal/sessions/stats.go#L62) |
-| skills | field_declaration | Summary | [63](../../magpie/internal/sessions/stats.go#L63) |
-| skillLast | field_declaration | Summary | [64](../../magpie/internal/sessions/stats.go#L64) |
-| perDay | field_declaration | Summary | [65](../../magpie/internal/sessions/stats.go#L65) |
-| summaryDay | struct_type |  | [69](../../magpie/internal/sessions/stats.go#L69) |
-| messages | field_declaration | summaryDay | [70](../../magpie/internal/sessions/stats.go#L70) |
-| output | field_declaration | summaryDay | [70](../../magpie/internal/sessions/stats.go#L70) |
-| tools | field_declaration | summaryDay | [71](../../magpie/internal/sessions/stats.go#L71) |
-| Day | struct_type |  | [76](../../magpie/internal/sessions/stats.go#L76) |
-| Date | field_declaration | Day | [77](../../magpie/internal/sessions/stats.go#L77) |
-| Usage | field_declaration | Day | [78](../../magpie/internal/sessions/stats.go#L78) |
-| Active | field_declaration | Day | [79](../../magpie/internal/sessions/stats.go#L79) |
-| Usage | struct_type |  | [83](../../magpie/internal/sessions/stats.go#L83) |
-| Agent | field_declaration | Usage | [84](../../magpie/internal/sessions/stats.go#L84) |
-| Cwd | field_declaration | Usage | [85](../../magpie/internal/sessions/stats.go#L85) |
-| Model | field_declaration | Usage | [86](../../magpie/internal/sessions/stats.go#L86) |
-| Cost | field_declaration | Usage | [88](../../magpie/internal/sessions/stats.go#L88) |
-| Priced | field_declaration | Usage | [89](../../magpie/internal/sessions/stats.go#L89) |
-| Active | struct_type |  | [94](../../magpie/internal/sessions/stats.go#L94) |
-| Agent | field_declaration | Active | [95](../../magpie/internal/sessions/stats.go#L95) |
-| Cwd | field_declaration | Active | [96](../../magpie/internal/sessions/stats.go#L96) |
-| Seconds | field_declaration | Active | [97](../../magpie/internal/sessions/stats.go#L97) |
-| Hours | field_declaration | Active | [99](../../magpie/internal/sessions/stats.go#L99) |
-| StatsFor | function_declaration |  | [106](../../magpie/internal/sessions/stats.go#L106) |
-| StatsAt | function_declaration |  | [111](../../magpie/internal/sessions/stats.go#L111) |
-| StatsAndNative | function_declaration |  | [117](../../magpie/internal/sessions/stats.go#L117) |
-| statsAt | function_declaration |  | [122](../../magpie/internal/sessions/stats.go#L122) |
-| statsIn | function_declaration |  | [125](../../magpie/internal/sessions/stats.go#L125) |
-| statsRead | function_declaration |  | [135](../../magpie/internal/sessions/stats.go#L135) |
-| uk | struct_type | statsRead | [185](../../magpie/internal/sessions/stats.go#L185) |
-| date | field_declaration | statsRead.uk | [185](../../magpie/internal/sessions/stats.go#L185) |
-| agent | field_declaration | statsRead.uk | [185](../../magpie/internal/sessions/stats.go#L185) |
-| cwd | field_declaration | statsRead.uk | [185](../../magpie/internal/sessions/stats.go#L185) |
-| model | field_declaration | statsRead.uk | [185](../../magpie/internal/sessions/stats.go#L185) |
-| ak | struct_type | statsRead | [186](../../magpie/internal/sessions/stats.go#L186) |
-| date | field_declaration | statsRead.ak | [186](../../magpie/internal/sessions/stats.go#L186) |
-| agent | field_declaration | statsRead.ak | [186](../../magpie/internal/sessions/stats.go#L186) |
-| cwd | field_declaration | statsRead.ak | [186](../../magpie/internal/sessions/stats.go#L186) |
-| act0 | struct_type | statsRead | [187](../../magpie/internal/sessions/stats.go#L187) |
-| ms | field_declaration | statsRead.act0 | [188](../../magpie/internal/sessions/stats.go#L188) |
-| hours | field_declaration | statsRead.act0 | [189](../../magpie/internal/sessions/stats.go#L189) |
-| share | struct_type | statsRead | [195](../../magpie/internal/sessions/stats.go#L195) |
-| models | field_declaration | statsRead.share | [196](../../magpie/internal/sessions/stats.go#L196) |
-| active | field_declaration | statsRead.share | [197](../../magpie/internal/sessions/stats.go#L197) |
-| dates | field_declaration | statsRead.share | [198](../../magpie/internal/sessions/stats.go#L198) |
-| prompts | field_declaration | statsRead.share | [199](../../magpie/internal/sessions/stats.go#L199) |
-| replies | field_declaration | statsRead.share | [199](../../magpie/internal/sessions/stats.go#L199) |
-| tools | field_declaration | statsRead.share | [200](../../magpie/internal/sessions/stats.go#L200) |
-| skills | field_declaration | statsRead.share | [200](../../magpie/internal/sessions/stats.go#L200) |
-| skillLast | field_declaration | statsRead.share | [201](../../magpie/internal/sessions/stats.go#L201) |
-| perDate | field_declaration | statsRead.share | [202](../../magpie/internal/sessions/stats.go#L202) |
-| clip | function_declaration |  | [410](../../magpie/internal/sessions/stats.go#L410) |
-| Overview | struct_type |  | [420](../../magpie/internal/sessions/stats.go#L420) |
-| Count | field_declaration | Overview | [421](../../magpie/internal/sessions/stats.go#L421) |
-| Median | field_declaration | Overview | [422](../../magpie/internal/sessions/stats.go#L422) |
-| P90 | field_declaration | Overview | [423](../../magpie/internal/sessions/stats.go#L423) |
-| Days | field_declaration | Overview | [424](../../magpie/internal/sessions/stats.go#L424) |
-| Top | field_declaration | Overview | [427](../../magpie/internal/sessions/stats.go#L427) |
-| Messages | field_declaration | Overview | [430](../../magpie/internal/sessions/stats.go#L430) |
-| Output | field_declaration | Overview | [431](../../magpie/internal/sessions/stats.go#L431) |
-| Shape | field_declaration | Overview | [434](../../magpie/internal/sessions/stats.go#L434) |
-| Tools | field_declaration | Overview | [435](../../magpie/internal/sessions/stats.go#L435) |
-| Skills | field_declaration | Overview | [436](../../magpie/internal/sessions/stats.go#L436) |
-| Shape | struct_type |  | [441](../../magpie/internal/sessions/stats.go#L441) |
-| Edges | field_declaration | Shape | [442](../../magpie/internal/sessions/stats.go#L442) |
-| Counts | field_declaration | Shape | [443](../../magpie/internal/sessions/stats.go#L443) |
-| Total | field_declaration | Shape | [444](../../magpie/internal/sessions/stats.go#L444) |
-| shapeEdges | var_spec |  | [448](../../magpie/internal/sessions/stats.go#L448) |
-| ToolUse | struct_type |  | [455](../../magpie/internal/sessions/stats.go#L455) |
-| Calls | field_declaration | ToolUse | [456](../../magpie/internal/sessions/stats.go#L456) |
-| Sessions | field_declaration | ToolUse | [457](../../magpie/internal/sessions/stats.go#L457) |
-| Top | field_declaration | ToolUse | [458](../../magpie/internal/sessions/stats.go#L458) |
-| Categories | field_declaration | ToolUse | [459](../../magpie/internal/sessions/stats.go#L459) |
+| Stats | struct_type |  | [18](../../magpie/internal/sessions/stats.go#L18) |
+| From | field_declaration | Stats | [19](../../magpie/internal/sessions/stats.go#L19) |
+| To | field_declaration | Stats | [20](../../magpie/internal/sessions/stats.go#L20) |
+| Days | field_declaration | Stats | [21](../../magpie/internal/sessions/stats.go#L21) |
+| Sessions | field_declaration | Stats | [25](../../magpie/internal/sessions/stats.go#L25) |
+| Keys | field_declaration | Stats | [31](../../magpie/internal/sessions/stats.go#L31) |
+| Summary | struct_type |  | [35](../../magpie/internal/sessions/stats.go#L35) |
+| Key | field_declaration | Summary | [36](../../magpie/internal/sessions/stats.go#L36) |
+| Agent | field_declaration | Summary | [37](../../magpie/internal/sessions/stats.go#L37) |
+| ID | field_declaration | Summary | [38](../../magpie/internal/sessions/stats.go#L38) |
+| Cwd | field_declaration | Summary | [39](../../magpie/internal/sessions/stats.go#L39) |
+| Title | field_declaration | Summary | [40](../../magpie/internal/sessions/stats.go#L40) |
+| Nickname | field_declaration | Summary | [41](../../magpie/internal/sessions/stats.go#L41) |
+| Last | field_declaration | Summary | [42](../../magpie/internal/sessions/stats.go#L42) |
+| Role | field_declaration | Summary | [43](../../magpie/internal/sessions/stats.go#L43) |
+| ParentSession | field_declaration | Summary | [44](../../magpie/internal/sessions/stats.go#L44) |
+| RootSession | field_declaration | Summary | [45](../../magpie/internal/sessions/stats.go#L45) |
+| ModelEffort | field_declaration | Summary | [46](../../magpie/internal/sessions/stats.go#L46) |
+| Gateway | field_declaration | Summary | [51](../../magpie/internal/sessions/stats.go#L51) |
+| Cost | field_declaration | Summary | [53](../../magpie/internal/sessions/stats.go#L53) |
+| Priced | field_declaration | Summary | [54](../../magpie/internal/sessions/stats.go#L54) |
+| Active | field_declaration | Summary | [55](../../magpie/internal/sessions/stats.go#L55) |
+| Models | field_declaration | Summary | [56](../../magpie/internal/sessions/stats.go#L56) |
+| Days | field_declaration | Summary | [57](../../magpie/internal/sessions/stats.go#L57) |
+| Prompts | field_declaration | Summary | [60](../../magpie/internal/sessions/stats.go#L60) |
+| Replies | field_declaration | Summary | [61](../../magpie/internal/sessions/stats.go#L61) |
+| ToolCalls | field_declaration | Summary | [62](../../magpie/internal/sessions/stats.go#L62) |
+| tools | field_declaration | Summary | [66](../../magpie/internal/sessions/stats.go#L66) |
+| skills | field_declaration | Summary | [67](../../magpie/internal/sessions/stats.go#L67) |
+| perDay | field_declaration | Summary | [68](../../magpie/internal/sessions/stats.go#L68) |
+| summaryDay | struct_type |  | [72](../../magpie/internal/sessions/stats.go#L72) |
+| day | field_declaration | summaryDay | [73](../../magpie/internal/sessions/stats.go#L73) |
+| messages | field_declaration | summaryDay | [74](../../magpie/internal/sessions/stats.go#L74) |
+| output | field_declaration | summaryDay | [74](../../magpie/internal/sessions/stats.go#L74) |
+| tools | field_declaration | summaryDay | [75](../../magpie/internal/sessions/stats.go#L75) |
+| counts | type_spec |  | [79](../../magpie/internal/sessions/stats.go#L79) |
+| nameCount | struct_type |  | [81](../../magpie/internal/sessions/stats.go#L81) |
+| name | field_declaration | nameCount | [82](../../magpie/internal/sessions/stats.go#L82) |
+| n | field_declaration | nameCount | [83](../../magpie/internal/sessions/stats.go#L83) |
+| last | field_declaration | nameCount | [84](../../magpie/internal/sessions/stats.go#L84) |
+| of | method_declaration | counts | [88](../../magpie/internal/sessions/stats.go#L88) |
+| countsOf | function_declaration |  | [96](../../magpie/internal/sessions/stats.go#L96) |
+| Day | struct_type |  | [110](../../magpie/internal/sessions/stats.go#L110) |
+| Date | field_declaration | Day | [111](../../magpie/internal/sessions/stats.go#L111) |
+| Usage | field_declaration | Day | [112](../../magpie/internal/sessions/stats.go#L112) |
+| Active | field_declaration | Day | [113](../../magpie/internal/sessions/stats.go#L113) |
+| Usage | struct_type |  | [117](../../magpie/internal/sessions/stats.go#L117) |
+| Agent | field_declaration | Usage | [118](../../magpie/internal/sessions/stats.go#L118) |
+| Cwd | field_declaration | Usage | [119](../../magpie/internal/sessions/stats.go#L119) |
+| Model | field_declaration | Usage | [120](../../magpie/internal/sessions/stats.go#L120) |
+| Cost | field_declaration | Usage | [122](../../magpie/internal/sessions/stats.go#L122) |
+| Priced | field_declaration | Usage | [123](../../magpie/internal/sessions/stats.go#L123) |
+| Active | struct_type |  | [128](../../magpie/internal/sessions/stats.go#L128) |
+| Agent | field_declaration | Active | [129](../../magpie/internal/sessions/stats.go#L129) |
+| Cwd | field_declaration | Active | [130](../../magpie/internal/sessions/stats.go#L130) |
+| Seconds | field_declaration | Active | [131](../../magpie/internal/sessions/stats.go#L131) |
+| Hours | field_declaration | Active | [133](../../magpie/internal/sessions/stats.go#L133) |
+| StatsFor | function_declaration |  | [140](../../magpie/internal/sessions/stats.go#L140) |
+| StatsAt | function_declaration |  | [145](../../magpie/internal/sessions/stats.go#L145) |
+| StatsAndNative | function_declaration |  | [151](../../magpie/internal/sessions/stats.go#L151) |
+| statsAt | function_declaration |  | [156](../../magpie/internal/sessions/stats.go#L156) |
+| statsIn | function_declaration |  | [159](../../magpie/internal/sessions/stats.go#L159) |
+| statsRead | function_declaration |  | [169](../../magpie/internal/sessions/stats.go#L169) |
+| uk | struct_type | statsRead | [219](../../magpie/internal/sessions/stats.go#L219) |
+| date | field_declaration | statsRead.uk | [219](../../magpie/internal/sessions/stats.go#L219) |
+| agent | field_declaration | statsRead.uk | [219](../../magpie/internal/sessions/stats.go#L219) |
+| cwd | field_declaration | statsRead.uk | [219](../../magpie/internal/sessions/stats.go#L219) |
+| model | field_declaration | statsRead.uk | [219](../../magpie/internal/sessions/stats.go#L219) |
+| ak | struct_type | statsRead | [220](../../magpie/internal/sessions/stats.go#L220) |
+| date | field_declaration | statsRead.ak | [220](../../magpie/internal/sessions/stats.go#L220) |
+| agent | field_declaration | statsRead.ak | [220](../../magpie/internal/sessions/stats.go#L220) |
+| cwd | field_declaration | statsRead.ak | [220](../../magpie/internal/sessions/stats.go#L220) |
+| act0 | struct_type | statsRead | [221](../../magpie/internal/sessions/stats.go#L221) |
+| ms | field_declaration | statsRead.act0 | [222](../../magpie/internal/sessions/stats.go#L222) |
+| hours | field_declaration | statsRead.act0 | [223](../../magpie/internal/sessions/stats.go#L223) |
+| dayShare | struct_type | statsRead | [229](../../magpie/internal/sessions/stats.go#L229) |
+| messages | field_declaration | statsRead.dayShare | [230](../../magpie/internal/sessions/stats.go#L230) |
+| output | field_declaration | statsRead.dayShare | [230](../../magpie/internal/sessions/stats.go#L230) |
+| tools | field_declaration | statsRead.dayShare | [231](../../magpie/internal/sessions/stats.go#L231) |
+| share | struct_type | statsRead | [233](../../magpie/internal/sessions/stats.go#L233) |
+| models | field_declaration | statsRead.share | [234](../../magpie/internal/sessions/stats.go#L234) |
+| active | field_declaration | statsRead.share | [235](../../magpie/internal/sessions/stats.go#L235) |
+| dates | field_declaration | statsRead.share | [236](../../magpie/internal/sessions/stats.go#L236) |
+| prompts | field_declaration | statsRead.share | [237](../../magpie/internal/sessions/stats.go#L237) |
+| replies | field_declaration | statsRead.share | [237](../../magpie/internal/sessions/stats.go#L237) |
+| tools | field_declaration | statsRead.share | [238](../../magpie/internal/sessions/stats.go#L238) |
+| skills | field_declaration | statsRead.share | [238](../../magpie/internal/sessions/stats.go#L238) |
+| skillLast | field_declaration | statsRead.share | [239](../../magpie/internal/sessions/stats.go#L239) |
+| perDate | field_declaration | statsRead.share | [240](../../magpie/internal/sessions/stats.go#L240) |
+| titleKept | const_spec |  | [452](../../magpie/internal/sessions/stats.go#L452) |
+| clip | function_declaration |  | [457](../../magpie/internal/sessions/stats.go#L457) |
+| Overview | struct_type |  | [467](../../magpie/internal/sessions/stats.go#L467) |
+| Count | field_declaration | Overview | [468](../../magpie/internal/sessions/stats.go#L468) |
+| Median | field_declaration | Overview | [469](../../magpie/internal/sessions/stats.go#L469) |
+| P90 | field_declaration | Overview | [470](../../magpie/internal/sessions/stats.go#L470) |
+| Days | field_declaration | Overview | [471](../../magpie/internal/sessions/stats.go#L471) |
+| Top | field_declaration | Overview | [474](../../magpie/internal/sessions/stats.go#L474) |
+| Messages | field_declaration | Overview | [477](../../magpie/internal/sessions/stats.go#L477) |
+| Output | field_declaration | Overview | [478](../../magpie/internal/sessions/stats.go#L478) |
+| Shape | field_declaration | Overview | [481](../../magpie/internal/sessions/stats.go#L481) |

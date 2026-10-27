@@ -4,14 +4,14 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/web_cli.go) · page 1/1
 
-Source SHA-256: 030fe9e769b1bb7f55274745565907e12e25626f1409b34fc0125dde08edfc35
+Source SHA-256: fff2161ee82b3e90a2e31484b3e1f5d83bfba2ac56f4fdad391107093c3a0bcd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| webAddr | const_spec |  | [17](../../magpie/internal/cli/web_cli.go#L17) |
-| webCmd | function_declaration |  | [25](../../magpie/internal/cli/web_cli.go#L25) |
-| printWeb | function_declaration |  | [89](../../magpie/internal/cli/web_cli.go#L89) |
-| lanWarning | function_declaration |  | [115](../../magpie/internal/cli/web_cli.go#L115) |
-| webLink | function_declaration |  | [124](../../magpie/internal/cli/web_cli.go#L124) |
-| proxyLink | function_declaration |  | [147](../../magpie/internal/cli/web_cli.go#L147) |
-| serveCmd | function_declaration |  | [169](../../magpie/internal/cli/web_cli.go#L169) |
+| webAddr | const_spec |  | [18](../../magpie/internal/cli/web_cli.go#L18) |
+| webCmd | function_declaration |  | [26](../../magpie/internal/cli/web_cli.go#L26) |
+| printWeb | function_declaration |  | [94](../../magpie/internal/cli/web_cli.go#L94) |
+| lanWarning | function_declaration |  | [120](../../magpie/internal/cli/web_cli.go#L120) |
+| webLink | function_declaration |  | [129](../../magpie/internal/cli/web_cli.go#L129) |
+| proxyLink | function_declaration |  | [152](../../magpie/internal/cli/web_cli.go#L152) |
+| serveCmd | function_declaration |  | [174](../../magpie/internal/cli/web_cli.go#L174) |

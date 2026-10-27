@@ -4,107 +4,107 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/settings/settings.go) · page 2/3
 
-Source SHA-256: 7e10b606cec0b8a797e635b30f745632f5582f346d05143263babf1b9df72fef
+Source SHA-256: f0078ddd000a8018862f4d92ccae51c1c1f7273810a82c156cd8436395afd3d6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexDescriptions | field_declaration | Settings | [504](../../magpie/internal/settings/settings.go#L504) |
-| CodexPredictions | field_declaration | Settings | [511](../../magpie/internal/settings/settings.go#L511) |
-| CodexAutoReview | field_declaration | Settings | [522](../../magpie/internal/settings/settings.go#L522) |
-| CodexSubagentModel | field_declaration | Settings | [529](../../magpie/internal/settings/settings.go#L529) |
-| DesktopSubagentModel | field_declaration | Settings | [533](../../magpie/internal/settings/settings.go#L533) |
-| DesktopSubagentEffort | field_declaration | Settings | [536](../../magpie/internal/settings/settings.go#L536) |
-| FullContext | field_declaration | Settings | [544](../../magpie/internal/settings/settings.go#L544) |
-| DesktopLongest | field_declaration | Settings | [551](../../magpie/internal/settings/settings.go#L551) |
-| GuideHidden | field_declaration | Settings | [555](../../magpie/internal/settings/settings.go#L555) |
-| CompactAt | field_declaration | Settings | [559](../../magpie/internal/settings/settings.go#L559) |
-| CodexAsyncCompact | field_declaration | Settings | [568](../../magpie/internal/settings/settings.go#L568) |
-| CodexAsyncCompactPercent | field_declaration | Settings | [570](../../magpie/internal/settings/settings.go#L570) |
-| ChinaMirror | field_declaration | Settings | [575](../../magpie/internal/settings/settings.go#L575) |
-| TextSize | field_declaration | Settings | [579](../../magpie/internal/settings/settings.go#L579) |
-| UIFont | field_declaration | Settings | [582](../../magpie/internal/settings/settings.go#L582) |
-| CodeFont | field_declaration | Settings | [583](../../magpie/internal/settings/settings.go#L583) |
-| AgentOrder | field_declaration | Settings | [589](../../magpie/internal/settings/settings.go#L589) |
-| AgentsHidden | field_declaration | Settings | [590](../../magpie/internal/settings/settings.go#L590) |
-| AgentsShown | field_declaration | Settings | [591](../../magpie/internal/settings/settings.go#L591) |
-| UsageOrder | field_declaration | Settings | [596](../../magpie/internal/settings/settings.go#L596) |
-| PanelUsageHidden | field_declaration | Settings | [601](../../magpie/internal/settings/settings.go#L601) |
-| UsageAgentsHidden | field_declaration | Settings | [606](../../magpie/internal/settings/settings.go#L606) |
-| ClientAgents | field_declaration | Settings | [615](../../magpie/internal/settings/settings.go#L615) |
-| Visible | field_declaration | Settings | [619](../../magpie/internal/settings/settings.go#L619) |
-| HiddenModels | field_declaration | Settings | [623](../../magpie/internal/settings/settings.go#L623) |
-| DisabledModels | field_declaration | Settings | [628](../../magpie/internal/settings/settings.go#L628) |
-| PickedModels | field_declaration | Settings | [634](../../magpie/internal/settings/settings.go#L634) |
-| OwnModelsHidden | field_declaration | Settings | [639](../../magpie/internal/settings/settings.go#L639) |
-| AgentEfforts | field_declaration | Settings | [644](../../magpie/internal/settings/settings.go#L644) |
-| OrderedModels | field_declaration | Settings | [648](../../magpie/internal/settings/settings.go#L648) |
-| FastPicks | field_declaration | Settings | [653](../../magpie/internal/settings/settings.go#L653) |
-| UltraPicks | field_declaration | Settings | [657](../../magpie/internal/settings/settings.go#L657) |
-| ModelNames | field_declaration | Settings | [673](../../magpie/internal/settings/settings.go#L673) |
-| ModelEfforts | field_declaration | Settings | [680](../../magpie/internal/settings/settings.go#L680) |
-| ModelReasonless | field_declaration | Settings | [687](../../magpie/internal/settings/settings.go#L687) |
-| ModelImages | field_declaration | Settings | [690](../../magpie/internal/settings/settings.go#L690) |
-| ModelPrices | field_declaration | Settings | [699](../../magpie/internal/settings/settings.go#L699) |
-| ModelOutputs | field_declaration | Settings | [706](../../magpie/internal/settings/settings.go#L706) |
-| ModelCompacts | field_declaration | Settings | [712](../../magpie/internal/settings/settings.go#L712) |
-| ModelWires | field_declaration | Settings | [721](../../magpie/internal/settings/settings.go#L721) |
-| ModelAPIs | field_declaration | Settings | [727](../../magpie/internal/settings/settings.go#L727) |
-| ModelSameAs | field_declaration | Settings | [735](../../magpie/internal/settings/settings.go#L735) |
-| UsageAliases | field_declaration | Settings | [744](../../magpie/internal/settings/settings.go#L744) |
-| ModelKinds | field_declaration | Settings | [750](../../magpie/internal/settings/settings.go#L750) |
-| Window | field_declaration | Settings | [755](../../magpie/internal/settings/settings.go#L755) |
-| WindowMaximised | field_declaration | Settings | [759](../../magpie/internal/settings/settings.go#L759) |
-| ModelPrice | struct_type |  | [765](../../magpie/internal/settings/settings.go#L765) |
-| Input | field_declaration | ModelPrice | [766](../../magpie/internal/settings/settings.go#L766) |
-| Output | field_declaration | ModelPrice | [767](../../magpie/internal/settings/settings.go#L767) |
-| CacheRead | field_declaration | ModelPrice | [768](../../magpie/internal/settings/settings.go#L768) |
-| CacheWrite | field_declaration | ModelPrice | [769](../../magpie/internal/settings/settings.go#L769) |
-| CacheWrite1h | field_declaration | ModelPrice | [773](../../magpie/internal/settings/settings.go#L773) |
-| Tiers | field_declaration | ModelPrice | [776](../../magpie/internal/settings/settings.go#L776) |
-| priceParts | var_spec |  | [784](../../magpie/internal/settings/settings.go#L784) |
-| Price | method_declaration | ModelPrice | [789](../../magpie/internal/settings/settings.go#L789) |
-| StatedPrice | function_declaration |  | [819](../../magpie/internal/settings/settings.go#L819) |
-| CheckModelPrice | function_declaration |  | [836](../../magpie/internal/settings/settings.go#L836) |
-| AnyProvider | const_spec |  | [854](../../magpie/internal/settings/settings.go#L854) |
-| anArticle | function_declaration |  | [858](../../magpie/internal/settings/settings.go#L858) |
-| Arrange | function_declaration |  | [868](../../magpie/internal/settings/settings.go#L868) |
-| ImageTimeoutDefault | const_spec |  | [902](../../magpie/internal/settings/settings.go#L902) |
-| ImageTimeoutMost | const_spec |  | [903](../../magpie/internal/settings/settings.go#L903) |
-| ImageWait | method_declaration | Settings | [910](../../magpie/internal/settings/settings.go#L910) |
-| ClassifyTimeoutDefault | const_spec |  | [923](../../magpie/internal/settings/settings.go#L923) |
-| ClassifyTimeoutMost | const_spec |  | [924](../../magpie/internal/settings/settings.go#L924) |
-| ClassifyWait | method_declaration | Settings | [931](../../magpie/internal/settings/settings.go#L931) |
-| Themes | var_spec |  | [941](../../magpie/internal/settings/settings.go#L941) |
-| Langs | var_spec |  | [942](../../magpie/internal/settings/settings.go#L942) |
-| Trays | var_spec |  | [943](../../magpie/internal/settings/settings.go#L943) |
-| Currencies | var_spec |  | [944](../../magpie/internal/settings/settings.go#L944) |
-| Warmups | var_spec |  | [946](../../magpie/internal/settings/settings.go#L946) |
-| TrayEvery | var_spec |  | [948](../../magpie/internal/settings/settings.go#L948) |
-| UpdateEveries | var_spec |  | [950](../../magpie/internal/settings/settings.go#L950) |
-| TextSizes | var_spec |  | [953](../../magpie/internal/settings/settings.go#L953) |
-| SearchFirstModel | const_spec |  | [959](../../magpie/internal/settings/settings.go#L959) |
-| SearchFirstAPI | const_spec |  | [960](../../magpie/internal/settings/settings.go#L960) |
-| DefaultTextSize | var_spec |  | [968](../../magpie/internal/settings/settings.go#L968) |
-| validTerminalBundleID | var_spec |  | [975](../../magpie/internal/settings/settings.go#L975) |
-| providerID | var_spec |  | [980](../../magpie/internal/settings/settings.go#L980) |
-| CheckModelKey | function_declaration |  | [993](../../magpie/internal/settings/settings.go#L993) |
-| perModelFields | function_declaration |  | [1009](../../magpie/internal/settings/settings.go#L1009) |
-| PerModelKeys | function_declaration |  | [1025](../../magpie/internal/settings/settings.go#L1025) |
-| CarryPerModel | function_declaration |  | [1036](../../magpie/internal/settings/settings.go#L1036) |
-| WorkingWindow | const_spec |  | [1046](../../magpie/internal/settings/settings.go#L1046) |
-| LightweightOn | method_declaration | Settings | [1053](../../magpie/internal/settings/settings.go#L1053) |
-| Working | method_declaration | Settings | [1057](../../magpie/internal/settings/settings.go#L1057) |
-| Compact | method_declaration | Settings | [1067](../../magpie/internal/settings/settings.go#L1067) |
-| KeepOwn | method_declaration | *Settings | [1088](../../magpie/internal/settings/settings.go#L1088) |
-| RenamePerModel | method_declaration | *Settings | [1113](../../magpie/internal/settings/settings.go#L1113) |
-| renameInMap | function_declaration |  | [1130](../../magpie/internal/settings/settings.go#L1130) |
-| Path | function_declaration |  | [1146](../../magpie/internal/settings/settings.go#L1146) |
-| Dir | function_declaration |  | [1150](../../magpie/internal/settings/settings.go#L1150) |
-| Portable | function_declaration |  | [1153](../../magpie/internal/settings/settings.go#L1153) |
-| fileMu | var_spec |  | [1157](../../magpie/internal/settings/settings.go#L1157) |
-| Load | function_declaration |  | [1160](../../magpie/internal/settings/settings.go#L1160) |
-| LoadChecked | function_declaration |  | [1173](../../magpie/internal/settings/settings.go#L1173) |
-| Shared | function_declaration |  | [1185](../../magpie/internal/settings/settings.go#L1185) |
-| sharedFor | function_declaration |  | [1207](../../magpie/internal/settings/settings.go#L1207) |
-| load | function_declaration |  | [1220](../../magpie/internal/settings/settings.go#L1220) |
-| loadChecked | function_declaration |  | [1226](../../magpie/internal/settings/settings.go#L1226) |
+| CodexAgentsV1 | field_declaration | Settings | [503](../../magpie/internal/settings/settings.go#L503) |
+| CodexTitles | field_declaration | Settings | [509](../../magpie/internal/settings/settings.go#L509) |
+| CodexDescriptions | field_declaration | Settings | [515](../../magpie/internal/settings/settings.go#L515) |
+| CodexPredictions | field_declaration | Settings | [522](../../magpie/internal/settings/settings.go#L522) |
+| CodexAutoReview | field_declaration | Settings | [533](../../magpie/internal/settings/settings.go#L533) |
+| CodexSubagentModel | field_declaration | Settings | [540](../../magpie/internal/settings/settings.go#L540) |
+| DesktopSubagentModel | field_declaration | Settings | [544](../../magpie/internal/settings/settings.go#L544) |
+| DesktopSubagentEffort | field_declaration | Settings | [547](../../magpie/internal/settings/settings.go#L547) |
+| FullContext | field_declaration | Settings | [555](../../magpie/internal/settings/settings.go#L555) |
+| DesktopLongest | field_declaration | Settings | [562](../../magpie/internal/settings/settings.go#L562) |
+| GuideHidden | field_declaration | Settings | [566](../../magpie/internal/settings/settings.go#L566) |
+| CompactAt | field_declaration | Settings | [570](../../magpie/internal/settings/settings.go#L570) |
+| CodexAsyncCompact | field_declaration | Settings | [579](../../magpie/internal/settings/settings.go#L579) |
+| CodexAsyncCompactPercent | field_declaration | Settings | [581](../../magpie/internal/settings/settings.go#L581) |
+| ChinaMirror | field_declaration | Settings | [586](../../magpie/internal/settings/settings.go#L586) |
+| TextSize | field_declaration | Settings | [590](../../magpie/internal/settings/settings.go#L590) |
+| UIFont | field_declaration | Settings | [593](../../magpie/internal/settings/settings.go#L593) |
+| CodeFont | field_declaration | Settings | [594](../../magpie/internal/settings/settings.go#L594) |
+| AgentOrder | field_declaration | Settings | [600](../../magpie/internal/settings/settings.go#L600) |
+| AgentsHidden | field_declaration | Settings | [601](../../magpie/internal/settings/settings.go#L601) |
+| AgentsShown | field_declaration | Settings | [602](../../magpie/internal/settings/settings.go#L602) |
+| UsageOrder | field_declaration | Settings | [607](../../magpie/internal/settings/settings.go#L607) |
+| PanelUsageHidden | field_declaration | Settings | [612](../../magpie/internal/settings/settings.go#L612) |
+| UsageAgentsHidden | field_declaration | Settings | [617](../../magpie/internal/settings/settings.go#L617) |
+| ClientAgents | field_declaration | Settings | [626](../../magpie/internal/settings/settings.go#L626) |
+| Visible | field_declaration | Settings | [630](../../magpie/internal/settings/settings.go#L630) |
+| HiddenModels | field_declaration | Settings | [634](../../magpie/internal/settings/settings.go#L634) |
+| DisabledModels | field_declaration | Settings | [639](../../magpie/internal/settings/settings.go#L639) |
+| PickedModels | field_declaration | Settings | [645](../../magpie/internal/settings/settings.go#L645) |
+| OwnModelsHidden | field_declaration | Settings | [650](../../magpie/internal/settings/settings.go#L650) |
+| AgentEfforts | field_declaration | Settings | [655](../../magpie/internal/settings/settings.go#L655) |
+| OrderedModels | field_declaration | Settings | [659](../../magpie/internal/settings/settings.go#L659) |
+| FastPicks | field_declaration | Settings | [664](../../magpie/internal/settings/settings.go#L664) |
+| UltraPicks | field_declaration | Settings | [668](../../magpie/internal/settings/settings.go#L668) |
+| ModelNames | field_declaration | Settings | [684](../../magpie/internal/settings/settings.go#L684) |
+| ModelEfforts | field_declaration | Settings | [691](../../magpie/internal/settings/settings.go#L691) |
+| ModelReasonless | field_declaration | Settings | [698](../../magpie/internal/settings/settings.go#L698) |
+| ModelImages | field_declaration | Settings | [701](../../magpie/internal/settings/settings.go#L701) |
+| ModelPrices | field_declaration | Settings | [710](../../magpie/internal/settings/settings.go#L710) |
+| ModelOutputs | field_declaration | Settings | [717](../../magpie/internal/settings/settings.go#L717) |
+| ModelCompacts | field_declaration | Settings | [723](../../magpie/internal/settings/settings.go#L723) |
+| ModelWires | field_declaration | Settings | [732](../../magpie/internal/settings/settings.go#L732) |
+| ModelAPIs | field_declaration | Settings | [738](../../magpie/internal/settings/settings.go#L738) |
+| ModelSameAs | field_declaration | Settings | [746](../../magpie/internal/settings/settings.go#L746) |
+| UsageAliases | field_declaration | Settings | [755](../../magpie/internal/settings/settings.go#L755) |
+| ModelKinds | field_declaration | Settings | [761](../../magpie/internal/settings/settings.go#L761) |
+| Window | field_declaration | Settings | [766](../../magpie/internal/settings/settings.go#L766) |
+| WindowMaximised | field_declaration | Settings | [770](../../magpie/internal/settings/settings.go#L770) |
+| ModelPrice | struct_type |  | [776](../../magpie/internal/settings/settings.go#L776) |
+| Input | field_declaration | ModelPrice | [777](../../magpie/internal/settings/settings.go#L777) |
+| Output | field_declaration | ModelPrice | [778](../../magpie/internal/settings/settings.go#L778) |
+| CacheRead | field_declaration | ModelPrice | [779](../../magpie/internal/settings/settings.go#L779) |
+| CacheWrite | field_declaration | ModelPrice | [780](../../magpie/internal/settings/settings.go#L780) |
+| CacheWrite1h | field_declaration | ModelPrice | [784](../../magpie/internal/settings/settings.go#L784) |
+| Tiers | field_declaration | ModelPrice | [787](../../magpie/internal/settings/settings.go#L787) |
+| priceParts | var_spec |  | [795](../../magpie/internal/settings/settings.go#L795) |
+| Price | method_declaration | ModelPrice | [800](../../magpie/internal/settings/settings.go#L800) |
+| StatedPrice | function_declaration |  | [830](../../magpie/internal/settings/settings.go#L830) |
+| CheckModelPrice | function_declaration |  | [847](../../magpie/internal/settings/settings.go#L847) |
+| AnyProvider | const_spec |  | [865](../../magpie/internal/settings/settings.go#L865) |
+| UpdateStable | const_spec |  | [869](../../magpie/internal/settings/settings.go#L869) |
+| anArticle | function_declaration |  | [873](../../magpie/internal/settings/settings.go#L873) |
+| Arrange | function_declaration |  | [883](../../magpie/internal/settings/settings.go#L883) |
+| ImageTimeoutDefault | const_spec |  | [917](../../magpie/internal/settings/settings.go#L917) |
+| ImageTimeoutMost | const_spec |  | [918](../../magpie/internal/settings/settings.go#L918) |
+| ImageWait | method_declaration | Settings | [925](../../magpie/internal/settings/settings.go#L925) |
+| ClassifyTimeoutDefault | const_spec |  | [938](../../magpie/internal/settings/settings.go#L938) |
+| ClassifyTimeoutMost | const_spec |  | [939](../../magpie/internal/settings/settings.go#L939) |
+| ClassifyWait | method_declaration | Settings | [946](../../magpie/internal/settings/settings.go#L946) |
+| Themes | var_spec |  | [956](../../magpie/internal/settings/settings.go#L956) |
+| Langs | var_spec |  | [957](../../magpie/internal/settings/settings.go#L957) |
+| Trays | var_spec |  | [958](../../magpie/internal/settings/settings.go#L958) |
+| Currencies | var_spec |  | [959](../../magpie/internal/settings/settings.go#L959) |
+| Warmups | var_spec |  | [961](../../magpie/internal/settings/settings.go#L961) |
+| TrayEvery | var_spec |  | [963](../../magpie/internal/settings/settings.go#L963) |
+| UpdateChannels | var_spec |  | [965](../../magpie/internal/settings/settings.go#L965) |
+| UpdateEveries | var_spec |  | [967](../../magpie/internal/settings/settings.go#L967) |
+| TextSizes | var_spec |  | [970](../../magpie/internal/settings/settings.go#L970) |
+| SearchFirstModel | const_spec |  | [976](../../magpie/internal/settings/settings.go#L976) |
+| SearchFirstAPI | const_spec |  | [977](../../magpie/internal/settings/settings.go#L977) |
+| DefaultTextSize | var_spec |  | [985](../../magpie/internal/settings/settings.go#L985) |
+| validTerminalBundleID | var_spec |  | [992](../../magpie/internal/settings/settings.go#L992) |
+| providerID | var_spec |  | [997](../../magpie/internal/settings/settings.go#L997) |
+| CheckModelKey | function_declaration |  | [1010](../../magpie/internal/settings/settings.go#L1010) |
+| perModelFields | function_declaration |  | [1026](../../magpie/internal/settings/settings.go#L1026) |
+| PerModelKeys | function_declaration |  | [1042](../../magpie/internal/settings/settings.go#L1042) |
+| CarryPerModel | function_declaration |  | [1053](../../magpie/internal/settings/settings.go#L1053) |
+| WorkingWindow | const_spec |  | [1063](../../magpie/internal/settings/settings.go#L1063) |
+| LightweightOn | method_declaration | Settings | [1070](../../magpie/internal/settings/settings.go#L1070) |
+| Working | method_declaration | Settings | [1074](../../magpie/internal/settings/settings.go#L1074) |
+| Compact | method_declaration | Settings | [1084](../../magpie/internal/settings/settings.go#L1084) |
+| KeepOwn | method_declaration | *Settings | [1105](../../magpie/internal/settings/settings.go#L1105) |
+| RenamePerModel | method_declaration | *Settings | [1130](../../magpie/internal/settings/settings.go#L1130) |
+| renameInMap | function_declaration |  | [1147](../../magpie/internal/settings/settings.go#L1147) |
+| Path | function_declaration |  | [1163](../../magpie/internal/settings/settings.go#L1163) |
+| Dir | function_declaration |  | [1167](../../magpie/internal/settings/settings.go#L1167) |
+| Portable | function_declaration |  | [1170](../../magpie/internal/settings/settings.go#L1170) |
+| fileMu | var_spec |  | [1174](../../magpie/internal/settings/settings.go#L1174) |
+| Load | function_declaration |  | [1177](../../magpie/internal/settings/settings.go#L1177) |
+| LoadChecked | function_declaration |  | [1190](../../magpie/internal/settings/settings.go#L1190) |

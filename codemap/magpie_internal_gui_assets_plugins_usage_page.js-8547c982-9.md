@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 9/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| a | VariableDeclaration | sessIndexHero.paint | [2538](../../magpie/internal/gui/assets/plugins/usage/page.js#L2538) |
-| r | VariableDeclaration | sessIndexHero.paint | [2538](../../magpie/internal/gui/assets/plugins/usage/page.js#L2538) |
-| c | VariableDeclaration | sessIndexHero.paint | [2538](../../magpie/internal/gui/assets/plugins/usage/page.js#L2538) |
-| since | VariableDeclaration | sessIndexHero.paint | [2540](../../magpie/internal/gui/assets/plugins/usage/page.js#L2540) |
-| fresh | VariableDeclaration | sessIndexHero.paint | [2543](../../magpie/internal/gui/assets/plugins/usage/page.js#L2543) |
-| near | VariableDeclaration | sessIndexHero.paint | [2549](../../magpie/internal/gui/assets/plugins/usage/page.js#L2549) |
-| g | VariableDeclaration | sessIndexHero.paint | [2553](../../magpie/internal/gui/assets/plugins/usage/page.js#L2553) |
-| loop | VariableDeclaration | sessIndexHero | [2566](../../magpie/internal/gui/assets/plugins/usage/page.js#L2566) |
-| hexA | FunctionDeclaration |  | [2576](../../magpie/internal/gui/assets/plugins/usage/page.js#L2576) |
-| m | VariableDeclaration | hexA | [2577](../../magpie/internal/gui/assets/plugins/usage/page.js#L2577) |
-| n | VariableDeclaration | hexA | [2579](../../magpie/internal/gui/assets/plugins/usage/page.js#L2579) |
-| sessKey | VariableDeclaration |  | [2582](../../magpie/internal/gui/assets/plugins/usage/page.js#L2582) |
-| sessTokens | VariableDeclaration |  | [2583](../../magpie/internal/gui/assets/plugins/usage/page.js#L2583) |
-| sessCost | FunctionDeclaration |  | [2585](../../magpie/internal/gui/assets/plugins/usage/page.js#L2585) |
-| renderSessRange | FunctionDeclaration |  | [2590](../../magpie/internal/gui/assets/plugins/usage/page.js#L2590) |
-| seg | VariableDeclaration | renderSessRange | [2591](../../magpie/internal/gui/assets/plugins/usage/page.js#L2591) |
-| [id, name] | VariableDeclaration | renderSessRange | [2593](../../magpie/internal/gui/assets/plugins/usage/page.js#L2593) |
-| id | BindingElement | renderSessRange.[id, name] | [2593](../../magpie/internal/gui/assets/plugins/usage/page.js#L2593) |
-| name | BindingElement | renderSessRange.[id, name] | [2593](../../magpie/internal/gui/assets/plugins/usage/page.js#L2593) |
-| b | VariableDeclaration | renderSessRange | [2594](../../magpie/internal/gui/assets/plugins/usage/page.js#L2594) |
-| sessDate | VariableDeclaration |  | [2609](../../magpie/internal/gui/assets/plugins/usage/page.js#L2609) |
-| [y, m, day] | VariableDeclaration | sessDate | [2609](../../magpie/internal/gui/assets/plugins/usage/page.js#L2609) |
-| y | BindingElement | sessDate.[y, m, day] | [2609](../../magpie/internal/gui/assets/plugins/usage/page.js#L2609) |
-| m | BindingElement | sessDate.[y, m, day] | [2609](../../magpie/internal/gui/assets/plugins/usage/page.js#L2609) |
-| day | BindingElement | sessDate.[y, m, day] | [2609](../../magpie/internal/gui/assets/plugins/usage/page.js#L2609) |
-| sessISO | VariableDeclaration |  | [2610](../../magpie/internal/gui/assets/plugins/usage/page.js#L2610) |
-| sessDay | VariableDeclaration |  | [2611](../../magpie/internal/gui/assets/plugins/usage/page.js#L2611) |
-| fmtDur | FunctionDeclaration |  | [2613](../../magpie/internal/gui/assets/plugins/usage/page.js#L2613) |
-| m | VariableDeclaration | fmtDur | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
-| renderSessions | FunctionDeclaration |  | [2621](../../magpie/internal/gui/assets/plugins/usage/page.js#L2621) |
-| view | VariableDeclaration | renderSessions | [2622](../../magpie/internal/gui/assets/plugins/usage/page.js#L2622) |
-| all | VariableDeclaration | renderSessions | [2626](../../magpie/internal/gui/assets/plugins/usage/page.js#L2626) |
-| st | VariableDeclaration | renderSessions | [2627](../../magpie/internal/gui/assets/plugins/usage/page.js#L2627) |
-| rows | VariableDeclaration | renderSessions | [2628](../../magpie/internal/gui/assets/plugins/usage/page.js#L2628) |
-| acts | VariableDeclaration | renderSessions | [2629](../../magpie/internal/gui/assets/plugins/usage/page.js#L2629) |
-| agents | VariableDeclaration | renderSessions | [2632](../../magpie/internal/gui/assets/plugins/usage/page.js#L2632) |
-| id | BindingElement | renderSessions | [2633](../../magpie/internal/gui/assets/plugins/usage/page.js#L2633) |
-| seg | VariableDeclaration | renderSessions | [2634](../../magpie/internal/gui/assets/plugins/usage/page.js#L2634) |
-| opts | VariableDeclaration | renderSessions | [2636](../../magpie/internal/gui/assets/plugins/usage/page.js#L2636) |
-| was | VariableDeclaration | renderSessions | [2639](../../magpie/internal/gui/assets/plugins/usage/page.js#L2639) |
-| [id, name] | VariableDeclaration | renderSessions | [2642](../../magpie/internal/gui/assets/plugins/usage/page.js#L2642) |
-| id | BindingElement | renderSessions.[id, name] | [2642](../../magpie/internal/gui/assets/plugins/usage/page.js#L2642) |
-| name | BindingElement | renderSessions.[id, name] | [2642](../../magpie/internal/gui/assets/plugins/usage/page.js#L2642) |
-| b | VariableDeclaration | renderSessions | [2643](../../magpie/internal/gui/assets/plugins/usage/page.js#L2643) |
-| b | VariableDeclaration | renderSessions | [2649](../../magpie/internal/gui/assets/plugins/usage/page.js#L2649) |
-| picked | VariableDeclaration | renderSessions | [2654](../../magpie/internal/gui/assets/plugins/usage/page.js#L2654) |
-| byAgent | VariableDeclaration | renderSessions | [2662](../../magpie/internal/gui/assets/plugins/usage/page.js#L2662) |
-| byModel | VariableDeclaration | renderSessions | [2663](../../magpie/internal/gui/assets/plugins/usage/page.js#L2663) |
-| byFolder | VariableDeclaration | renderSessions | [2664](../../magpie/internal/gui/assets/plugins/usage/page.js#L2664) |
-| spent | VariableDeclaration | renderSessions | [2665](../../magpie/internal/gui/assets/plugins/usage/page.js#L2665) |
-| m | VariableDeclaration | renderSessions.spent | [2666](../../magpie/internal/gui/assets/plugins/usage/page.js#L2666) |
-| r | VariableDeclaration | renderSessions.spent | [2667](../../magpie/internal/gui/assets/plugins/usage/page.js#L2667) |
-| models | VariableDeclaration | renderSessions | [2670](../../magpie/internal/gui/assets/plugins/usage/page.js#L2670) |
-| v | BindingElement | renderSessions.models | [2670](../../magpie/internal/gui/assets/plugins/usage/page.js#L2670) |
-| n | BindingElement | renderSessions.models | [2670](../../magpie/internal/gui/assets/plugins/usage/page.js#L2670) |
-| folders | VariableDeclaration | renderSessions | [2671](../../magpie/internal/gui/assets/plugins/usage/page.js#L2671) |
-| v | BindingElement | renderSessions.folders | [2671](../../magpie/internal/gui/assets/plugins/usage/page.js#L2671) |
-| n | BindingElement | renderSessions.folders | [2671](../../magpie/internal/gui/assets/plugins/usage/page.js#L2671) |
-| inRange | VariableDeclaration | renderSessions | [2681](../../magpie/internal/gui/assets/plugins/usage/page.js#L2681) |
-| from | VariableDeclaration | renderSessions | [2682](../../magpie/internal/gui/assets/plugins/usage/page.js#L2682) |
-| q | VariableDeclaration | renderSessions | [2683](../../magpie/internal/gui/assets/plugins/usage/page.js#L2683) |
-| list | VariableDeclaration | renderSessions | [2684](../../magpie/internal/gui/assets/plugins/usage/page.js#L2684) |
-| used | VariableDeclaration | renderSessions | [2690](../../magpie/internal/gui/assets/plugins/usage/page.js#L2690) |
-| tot | VariableDeclaration | renderSessions | [2691](../../magpie/internal/gui/assets/plugins/usage/page.js#L2691) |
-| unpriced | VariableDeclaration | renderSessions | [2692](../../magpie/internal/gui/assets/plugins/usage/page.js#L2692) |
-| r | VariableDeclaration | renderSessions | [2693](../../magpie/internal/gui/assets/plugins/usage/page.js#L2693) |
-| k | VariableDeclaration | renderSessions | [2694](../../magpie/internal/gui/assets/plugins/usage/page.js#L2694) |
-| active | VariableDeclaration | renderSessions | [2699](../../magpie/internal/gui/assets/plugins/usage/page.js#L2699) |
-| c | VariableDeclaration | renderSessions | [2701](../../magpie/internal/gui/assets/plugins/usage/page.js#L2701) |
-| unpricedNote | VariableDeclaration | renderSessions | [2702](../../magpie/internal/gui/assets/plugins/usage/page.js#L2702) |
-| unpricedModels | VariableDeclaration | renderSessions | [2704](../../magpie/internal/gui/assets/plugins/usage/page.js#L2704) |
-| ov | VariableDeclaration | renderSessions | [2710](../../magpie/internal/gui/assets/plugins/usage/page.js#L2710) |
-| stale | VariableDeclaration | renderSessions | [2711](../../magpie/internal/gui/assets/plugins/usage/page.js#L2711) |
-| stats | VariableDeclaration | renderSessions | [2713](../../magpie/internal/gui/assets/plugins/usage/page.js#L2713) |
-| box | VariableDeclaration | renderSessions | [2715](../../magpie/internal/gui/assets/plugins/usage/page.js#L2715) |
-| chart | VariableDeclaration | renderSessions | [2717](../../magpie/internal/gui/assets/plugins/usage/page.js#L2717) |
-| grid | VariableDeclaration | renderSessions | [2718](../../magpie/internal/gui/assets/plugins/usage/page.js#L2718) |
-| head | VariableDeclaration | renderSessions | [2719](../../magpie/internal/gui/assets/plugins/usage/page.js#L2719) |
-| filtered | VariableDeclaration | renderSessions | [2723](../../magpie/internal/gui/assets/plugins/usage/page.js#L2723) |
-| history | VariableDeclaration | renderSessions | [2729](../../magpie/internal/gui/assets/plugins/usage/page.js#L2729) |
-| tile | VariableDeclaration | renderSessions | [2748](../../magpie/internal/gui/assets/plugins/usage/page.js#L2748) |
-| e | VariableDeclaration | renderSessions.tile | [2749](../../magpie/internal/gui/assets/plugins/usage/page.js#L2749) |
-| b | VariableDeclaration | renderSessions.tile | [2753](../../magpie/internal/gui/assets/plugins/usage/page.js#L2753) |
-| part | VariableDeclaration | renderSessions.tile | [2754](../../magpie/internal/gui/assets/plugins/usage/page.js#L2754) |
-| days | VariableDeclaration | renderSessions | [2761](../../magpie/internal/gui/assets/plugins/usage/page.js#L2761) |
-| prompt | VariableDeclaration | renderSessions | [2768](../../magpie/internal/gui/assets/plugins/usage/page.js#L2768) |
-| byCwd | VariableDeclaration | renderSessions | [2773](../../magpie/internal/gui/assets/plugins/usage/page.js#L2773) |
-| lead | VariableDeclaration | renderSessions | [2774](../../magpie/internal/gui/assets/plugins/usage/page.js#L2774) |
-| spentAll | VariableDeclaration | renderSessions | [2774](../../magpie/internal/gui/assets/plugins/usage/page.js#L2774) |
-| actsIn | VariableDeclaration | renderSessions | [2777](../../magpie/internal/gui/assets/plugins/usage/page.js#L2777) |
-| key | VariableDeclaration | renderSessions | [2792](../../magpie/internal/gui/assets/plugins/usage/page.js#L2792) |
-| page | VariableDeclaration | renderSessions | [2794](../../magpie/internal/gui/assets/plugins/usage/page.js#L2794) |
-| s | VariableDeclaration | renderSessions | [2797](../../magpie/internal/gui/assets/plugins/usage/page.js#L2797) |
-| more | VariableDeclaration | renderSessions | [2799](../../magpie/internal/gui/assets/plugins/usage/page.js#L2799) |
-| dirs | VariableDeclaration | renderSessions | [2806](../../magpie/internal/gui/assets/plugins/usage/page.js#L2806) |
-| parts | VariableDeclaration | renderSessions | [2813](../../magpie/internal/gui/assets/plugins/usage/page.js#L2813) |
-| sessSums | FunctionDeclaration |  | [2824](../../magpie/internal/gui/assets/plugins/usage/page.js#L2824) |
-| m | VariableDeclaration | sessSums | [2825](../../magpie/internal/gui/assets/plugins/usage/page.js#L2825) |
-| r | VariableDeclaration | sessSums | [2826](../../magpie/internal/gui/assets/plugins/usage/page.js#L2826) |
-| s | VariableDeclaration | sessSums | [2828](../../magpie/internal/gui/assets/plugins/usage/page.js#L2828) |
+| wave | VariableDeclaration | sessIndexHero.paint | [2542](../../magpie/internal/gui/assets/plugins/usage/page.js#L2542) |
+| a | VariableDeclaration | sessIndexHero.paint | [2543](../../magpie/internal/gui/assets/plugins/usage/page.js#L2543) |
+| r | VariableDeclaration | sessIndexHero.paint | [2543](../../magpie/internal/gui/assets/plugins/usage/page.js#L2543) |
+| c | VariableDeclaration | sessIndexHero.paint | [2543](../../magpie/internal/gui/assets/plugins/usage/page.js#L2543) |
+| since | VariableDeclaration | sessIndexHero.paint | [2545](../../magpie/internal/gui/assets/plugins/usage/page.js#L2545) |
+| fresh | VariableDeclaration | sessIndexHero.paint | [2548](../../magpie/internal/gui/assets/plugins/usage/page.js#L2548) |
+| near | VariableDeclaration | sessIndexHero.paint | [2554](../../magpie/internal/gui/assets/plugins/usage/page.js#L2554) |
+| g | VariableDeclaration | sessIndexHero.paint | [2558](../../magpie/internal/gui/assets/plugins/usage/page.js#L2558) |
+| loop | VariableDeclaration | sessIndexHero | [2571](../../magpie/internal/gui/assets/plugins/usage/page.js#L2571) |
+| hexA | FunctionDeclaration |  | [2581](../../magpie/internal/gui/assets/plugins/usage/page.js#L2581) |
+| m | VariableDeclaration | hexA | [2582](../../magpie/internal/gui/assets/plugins/usage/page.js#L2582) |
+| n | VariableDeclaration | hexA | [2584](../../magpie/internal/gui/assets/plugins/usage/page.js#L2584) |
+| sessKey | VariableDeclaration |  | [2587](../../magpie/internal/gui/assets/plugins/usage/page.js#L2587) |
+| sessTokens | VariableDeclaration |  | [2588](../../magpie/internal/gui/assets/plugins/usage/page.js#L2588) |
+| sessCost | FunctionDeclaration |  | [2590](../../magpie/internal/gui/assets/plugins/usage/page.js#L2590) |
+| renderSessRange | FunctionDeclaration |  | [2595](../../magpie/internal/gui/assets/plugins/usage/page.js#L2595) |
+| seg | VariableDeclaration | renderSessRange | [2596](../../magpie/internal/gui/assets/plugins/usage/page.js#L2596) |
+| [id, name] | VariableDeclaration | renderSessRange | [2598](../../magpie/internal/gui/assets/plugins/usage/page.js#L2598) |
+| id | BindingElement | renderSessRange.[id, name] | [2598](../../magpie/internal/gui/assets/plugins/usage/page.js#L2598) |
+| name | BindingElement | renderSessRange.[id, name] | [2598](../../magpie/internal/gui/assets/plugins/usage/page.js#L2598) |
+| b | VariableDeclaration | renderSessRange | [2599](../../magpie/internal/gui/assets/plugins/usage/page.js#L2599) |
+| sessDate | VariableDeclaration |  | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
+| [y, m, day] | VariableDeclaration | sessDate | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
+| y | BindingElement | sessDate.[y, m, day] | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
+| m | BindingElement | sessDate.[y, m, day] | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
+| day | BindingElement | sessDate.[y, m, day] | [2614](../../magpie/internal/gui/assets/plugins/usage/page.js#L2614) |
+| sessISO | VariableDeclaration |  | [2615](../../magpie/internal/gui/assets/plugins/usage/page.js#L2615) |
+| sessDay | VariableDeclaration |  | [2616](../../magpie/internal/gui/assets/plugins/usage/page.js#L2616) |
+| fmtDur | FunctionDeclaration |  | [2618](../../magpie/internal/gui/assets/plugins/usage/page.js#L2618) |
+| m | VariableDeclaration | fmtDur | [2619](../../magpie/internal/gui/assets/plugins/usage/page.js#L2619) |
+| renderSessions | FunctionDeclaration |  | [2626](../../magpie/internal/gui/assets/plugins/usage/page.js#L2626) |
+| view | VariableDeclaration | renderSessions | [2627](../../magpie/internal/gui/assets/plugins/usage/page.js#L2627) |
+| all | VariableDeclaration | renderSessions | [2631](../../magpie/internal/gui/assets/plugins/usage/page.js#L2631) |
+| st | VariableDeclaration | renderSessions | [2632](../../magpie/internal/gui/assets/plugins/usage/page.js#L2632) |
+| rows | VariableDeclaration | renderSessions | [2633](../../magpie/internal/gui/assets/plugins/usage/page.js#L2633) |
+| acts | VariableDeclaration | renderSessions | [2634](../../magpie/internal/gui/assets/plugins/usage/page.js#L2634) |
+| agents | VariableDeclaration | renderSessions | [2637](../../magpie/internal/gui/assets/plugins/usage/page.js#L2637) |
+| id | BindingElement | renderSessions | [2638](../../magpie/internal/gui/assets/plugins/usage/page.js#L2638) |
+| seg | VariableDeclaration | renderSessions | [2639](../../magpie/internal/gui/assets/plugins/usage/page.js#L2639) |
+| opts | VariableDeclaration | renderSessions | [2641](../../magpie/internal/gui/assets/plugins/usage/page.js#L2641) |
+| was | VariableDeclaration | renderSessions | [2644](../../magpie/internal/gui/assets/plugins/usage/page.js#L2644) |
+| [id, name] | VariableDeclaration | renderSessions | [2647](../../magpie/internal/gui/assets/plugins/usage/page.js#L2647) |
+| id | BindingElement | renderSessions.[id, name] | [2647](../../magpie/internal/gui/assets/plugins/usage/page.js#L2647) |
+| name | BindingElement | renderSessions.[id, name] | [2647](../../magpie/internal/gui/assets/plugins/usage/page.js#L2647) |
+| b | VariableDeclaration | renderSessions | [2648](../../magpie/internal/gui/assets/plugins/usage/page.js#L2648) |
+| b | VariableDeclaration | renderSessions | [2654](../../magpie/internal/gui/assets/plugins/usage/page.js#L2654) |
+| picked | VariableDeclaration | renderSessions | [2659](../../magpie/internal/gui/assets/plugins/usage/page.js#L2659) |
+| byAgent | VariableDeclaration | renderSessions | [2667](../../magpie/internal/gui/assets/plugins/usage/page.js#L2667) |
+| byModel | VariableDeclaration | renderSessions | [2668](../../magpie/internal/gui/assets/plugins/usage/page.js#L2668) |
+| byFolder | VariableDeclaration | renderSessions | [2669](../../magpie/internal/gui/assets/plugins/usage/page.js#L2669) |
+| spent | VariableDeclaration | renderSessions | [2670](../../magpie/internal/gui/assets/plugins/usage/page.js#L2670) |
+| m | VariableDeclaration | renderSessions.spent | [2671](../../magpie/internal/gui/assets/plugins/usage/page.js#L2671) |
+| r | VariableDeclaration | renderSessions.spent | [2672](../../magpie/internal/gui/assets/plugins/usage/page.js#L2672) |
+| models | VariableDeclaration | renderSessions | [2675](../../magpie/internal/gui/assets/plugins/usage/page.js#L2675) |
+| v | BindingElement | renderSessions.models | [2675](../../magpie/internal/gui/assets/plugins/usage/page.js#L2675) |
+| n | BindingElement | renderSessions.models | [2675](../../magpie/internal/gui/assets/plugins/usage/page.js#L2675) |
+| folders | VariableDeclaration | renderSessions | [2676](../../magpie/internal/gui/assets/plugins/usage/page.js#L2676) |
+| v | BindingElement | renderSessions.folders | [2676](../../magpie/internal/gui/assets/plugins/usage/page.js#L2676) |
+| n | BindingElement | renderSessions.folders | [2676](../../magpie/internal/gui/assets/plugins/usage/page.js#L2676) |
+| inRange | VariableDeclaration | renderSessions | [2686](../../magpie/internal/gui/assets/plugins/usage/page.js#L2686) |
+| from | VariableDeclaration | renderSessions | [2687](../../magpie/internal/gui/assets/plugins/usage/page.js#L2687) |
+| q | VariableDeclaration | renderSessions | [2688](../../magpie/internal/gui/assets/plugins/usage/page.js#L2688) |
+| list | VariableDeclaration | renderSessions | [2689](../../magpie/internal/gui/assets/plugins/usage/page.js#L2689) |
+| used | VariableDeclaration | renderSessions | [2695](../../magpie/internal/gui/assets/plugins/usage/page.js#L2695) |
+| tot | VariableDeclaration | renderSessions | [2696](../../magpie/internal/gui/assets/plugins/usage/page.js#L2696) |
+| unpriced | VariableDeclaration | renderSessions | [2697](../../magpie/internal/gui/assets/plugins/usage/page.js#L2697) |
+| r | VariableDeclaration | renderSessions | [2698](../../magpie/internal/gui/assets/plugins/usage/page.js#L2698) |
+| k | VariableDeclaration | renderSessions | [2699](../../magpie/internal/gui/assets/plugins/usage/page.js#L2699) |
+| active | VariableDeclaration | renderSessions | [2704](../../magpie/internal/gui/assets/plugins/usage/page.js#L2704) |
+| c | VariableDeclaration | renderSessions | [2706](../../magpie/internal/gui/assets/plugins/usage/page.js#L2706) |
+| unpricedNote | VariableDeclaration | renderSessions | [2707](../../magpie/internal/gui/assets/plugins/usage/page.js#L2707) |
+| unpricedModels | VariableDeclaration | renderSessions | [2709](../../magpie/internal/gui/assets/plugins/usage/page.js#L2709) |
+| ov | VariableDeclaration | renderSessions | [2715](../../magpie/internal/gui/assets/plugins/usage/page.js#L2715) |
+| stale | VariableDeclaration | renderSessions | [2716](../../magpie/internal/gui/assets/plugins/usage/page.js#L2716) |
+| stats | VariableDeclaration | renderSessions | [2718](../../magpie/internal/gui/assets/plugins/usage/page.js#L2718) |
+| box | VariableDeclaration | renderSessions | [2720](../../magpie/internal/gui/assets/plugins/usage/page.js#L2720) |
+| chart | VariableDeclaration | renderSessions | [2722](../../magpie/internal/gui/assets/plugins/usage/page.js#L2722) |
+| grid | VariableDeclaration | renderSessions | [2723](../../magpie/internal/gui/assets/plugins/usage/page.js#L2723) |
+| head | VariableDeclaration | renderSessions | [2724](../../magpie/internal/gui/assets/plugins/usage/page.js#L2724) |
+| filtered | VariableDeclaration | renderSessions | [2728](../../magpie/internal/gui/assets/plugins/usage/page.js#L2728) |
+| history | VariableDeclaration | renderSessions | [2734](../../magpie/internal/gui/assets/plugins/usage/page.js#L2734) |
+| tile | VariableDeclaration | renderSessions | [2753](../../magpie/internal/gui/assets/plugins/usage/page.js#L2753) |
+| e | VariableDeclaration | renderSessions.tile | [2754](../../magpie/internal/gui/assets/plugins/usage/page.js#L2754) |
+| b | VariableDeclaration | renderSessions.tile | [2758](../../magpie/internal/gui/assets/plugins/usage/page.js#L2758) |
+| part | VariableDeclaration | renderSessions.tile | [2759](../../magpie/internal/gui/assets/plugins/usage/page.js#L2759) |
+| days | VariableDeclaration | renderSessions | [2766](../../magpie/internal/gui/assets/plugins/usage/page.js#L2766) |
+| prompt | VariableDeclaration | renderSessions | [2773](../../magpie/internal/gui/assets/plugins/usage/page.js#L2773) |
+| byCwd | VariableDeclaration | renderSessions | [2778](../../magpie/internal/gui/assets/plugins/usage/page.js#L2778) |
+| lead | VariableDeclaration | renderSessions | [2779](../../magpie/internal/gui/assets/plugins/usage/page.js#L2779) |
+| spentAll | VariableDeclaration | renderSessions | [2779](../../magpie/internal/gui/assets/plugins/usage/page.js#L2779) |
+| actsIn | VariableDeclaration | renderSessions | [2782](../../magpie/internal/gui/assets/plugins/usage/page.js#L2782) |
+| key | VariableDeclaration | renderSessions | [2797](../../magpie/internal/gui/assets/plugins/usage/page.js#L2797) |
+| page | VariableDeclaration | renderSessions | [2799](../../magpie/internal/gui/assets/plugins/usage/page.js#L2799) |
+| s | VariableDeclaration | renderSessions | [2802](../../magpie/internal/gui/assets/plugins/usage/page.js#L2802) |
+| more | VariableDeclaration | renderSessions | [2804](../../magpie/internal/gui/assets/plugins/usage/page.js#L2804) |
+| dirs | VariableDeclaration | renderSessions | [2811](../../magpie/internal/gui/assets/plugins/usage/page.js#L2811) |
+| parts | VariableDeclaration | renderSessions | [2818](../../magpie/internal/gui/assets/plugins/usage/page.js#L2818) |
+| sessSums | FunctionDeclaration |  | [2829](../../magpie/internal/gui/assets/plugins/usage/page.js#L2829) |
+| m | VariableDeclaration | sessSums | [2830](../../magpie/internal/gui/assets/plugins/usage/page.js#L2830) |
+| r | VariableDeclaration | sessSums | [2831](../../magpie/internal/gui/assets/plugins/usage/page.js#L2831) |

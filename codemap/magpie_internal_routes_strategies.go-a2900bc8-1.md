@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/routes/strategies.go) · page 1/1
 
-Source SHA-256: 3b10196cf61b719629095d98f013b8b6cb7dd321133370c2413ddc0871176161
+Source SHA-256: 2443a900740954d0e711d0abee27d03fc075c9378a612a36490474c0b1a3108e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

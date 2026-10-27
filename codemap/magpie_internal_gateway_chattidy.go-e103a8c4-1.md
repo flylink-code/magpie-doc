@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/chattidy.go) · page 1/1
 
-Source SHA-256: 270796526589fed6ac8b83547f4d0347f975a5b321f5a267bc83ccf4269c8026
+Source SHA-256: 16b0b2113ee875aa728a74675e5633cdc7b42d303f80b3260dcca17e4bf7aece
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -57,13 +57,18 @@ Source SHA-256: 270796526589fed6ac8b83547f4d0347f975a5b321f5a267bc83ccf4269c8026
 | Text | field_declaration | reasoningText | [564](../../magpie/internal/gateway/chattidy.go#L564) |
 | Summary | field_declaration | reasoningText | [565](../../magpie/internal/gateway/chattidy.go#L565) |
 | noReasoning | const_spec |  | [588](../../magpie/internal/gateway/chattidy.go#L588) |
-| withReasoningOnToolTurns | function_declaration |  | [599](../../magpie/internal/gateway/chattidy.go#L599) |
-| silentAssistantsOut | function_declaration |  | [635](../../magpie/internal/gateway/chattidy.go#L635) |
-| anySilentAssistant | function_declaration |  | [667](../../magpie/internal/gateway/chattidy.go#L667) |
-| textSaysSomething | function_declaration |  | [703](../../magpie/internal/gateway/chattidy.go#L703) |
-| jsonStringIs | function_declaration |  | [724](../../magpie/internal/gateway/chattidy.go#L724) |
-| reasoningDetailsAsContent | function_declaration |  | [742](../../magpie/internal/gateway/chattidy.go#L742) |
-| withoutMessageReasoning | function_declaration |  | [761](../../magpie/internal/gateway/chattidy.go#L761) |
-| editMessages | function_declaration |  | [772](../../magpie/internal/gateway/chattidy.go#L772) |
-| withoutMessageFields | function_declaration |  | [811](../../magpie/internal/gateway/chattidy.go#L811) |
-| mistralThinking | function_declaration |  | [830](../../magpie/internal/gateway/chattidy.go#L830) |
+| withReasoningOnToolTurns | function_declaration |  | [600](../../magpie/internal/gateway/chattidy.go#L600) |
+| asReasoningContent | function_declaration |  | [639](../../magpie/internal/gateway/chattidy.go#L639) |
+| silentAssistantsOut | function_declaration |  | [649](../../magpie/internal/gateway/chattidy.go#L649) |
+| anySilentAssistant | function_declaration |  | [681](../../magpie/internal/gateway/chattidy.go#L681) |
+| textSaysSomething | function_declaration |  | [717](../../magpie/internal/gateway/chattidy.go#L717) |
+| jsonStringIs | function_declaration |  | [738](../../magpie/internal/gateway/chattidy.go#L738) |
+| reasoningDetailsAsContent | function_declaration |  | [756](../../magpie/internal/gateway/chattidy.go#L756) |
+| withoutMessageReasoning | function_declaration |  | [775](../../magpie/internal/gateway/chattidy.go#L775) |
+| editMessages | function_declaration |  | [786](../../magpie/internal/gateway/chattidy.go#L786) |
+| withoutMessageFields | function_declaration |  | [825](../../magpie/internal/gateway/chattidy.go#L825) |
+| mistralThinking | function_declaration |  | [844](../../magpie/internal/gateway/chattidy.go#L844) |
+| toolPairsOut | function_declaration |  | [896](../../magpie/internal/gateway/chattidy.go#L896) |
+| chatCalls | function_declaration |  | [944](../../magpie/internal/gateway/chattidy.go#L944) |
+| toolsPaired | function_declaration |  | [953](../../magpie/internal/gateway/chattidy.go#L953) |
+| joinSplitChatCalls | function_declaration |  | [997](../../magpie/internal/gateway/chattidy.go#L997) |

@@ -27,7 +27,7 @@
 | [magpie/internal/library/market_addr.go](../../magpie/internal/library/market_addr.go) | 19 | [1](magpie_internal_library_market_addr.go-4d5bfd99-1.md) |
 | [magpie/internal/library/mcp.go](../../magpie/internal/library/mcp.go) | 113 | [1](magpie_internal_library_mcp.go-06daf39e-1.md) [2](magpie_internal_library_mcp.go-06daf39e-2.md) |
 | [magpie/internal/library/mcp_agent_signin.go](../../magpie/internal/library/mcp_agent_signin.go) | 11 | [1](magpie_internal_library_mcp_agent_signin.go-d289af5e-1.md) |
-| [magpie/internal/library/mcp_check.go](../../magpie/internal/library/mcp_check.go) | 87 | [1](magpie_internal_library_mcp_check.go-deebd4ae-1.md) |
+| [magpie/internal/library/mcp_check.go](../../magpie/internal/library/mcp_check.go) | 89 | [1](magpie_internal_library_mcp_check.go-deebd4ae-1.md) |
 | [magpie/internal/library/mcp_check_net_other.go](../../magpie/internal/library/mcp_check_net_other.go) | 1 | [1](magpie_internal_library_mcp_check_net_other.go-c4a75289-1.md) |
 | [magpie/internal/library/mcp_check_net_windows.go](../../magpie/internal/library/mcp_check_net_windows.go) | 1 | [1](magpie_internal_library_mcp_check_net_windows.go-9daad567-1.md) |
 | [magpie/internal/library/mcp_check_wsl.go](../../magpie/internal/library/mcp_check_wsl.go) | 2 | [1](magpie_internal_library_mcp_check_wsl.go-1a29f0ac-1.md) |
@@ -90,7 +90,7 @@
 | [magpie/internal/sessions/codex_discovery_windows.go](../../magpie/internal/sessions/codex_discovery_windows.go) | 8 | [1](magpie_internal_sessions_codex_discovery_windows.go-1a077c09-1.md) |
 | [magpie/internal/sessions/codex_fingerprint.go](../../magpie/internal/sessions/codex_fingerprint.go) | 4 | [1](magpie_internal_sessions_codex_fingerprint.go-31bdfe88-1.md) |
 | [magpie/internal/sessions/codex_portable.go](../../magpie/internal/sessions/codex_portable.go) | 22 | [1](magpie_internal_sessions_codex_portable.go-64871c11-1.md) |
-| [magpie/internal/sessions/codex_provider.go](../../magpie/internal/sessions/codex_provider.go) | 38 | [1](magpie_internal_sessions_codex_provider.go-c999f67e-1.md) |
+| [magpie/internal/sessions/codex_provider.go](../../magpie/internal/sessions/codex_provider.go) | 45 | [1](magpie_internal_sessions_codex_provider.go-c999f67e-1.md) |
 | [magpie/internal/sessions/codex_titles.go](../../magpie/internal/sessions/codex_titles.go) | 18 | [1](magpie_internal_sessions_codex_titles.go-3c05ca27-1.md) |
 | [magpie/internal/sessions/codex_usage.go](../../magpie/internal/sessions/codex_usage.go) | 100 | [1](magpie_internal_sessions_codex_usage.go-1709157c-1.md) |
 | [magpie/internal/sessions/content.go](../../magpie/internal/sessions/content.go) | 61 | [1](magpie_internal_sessions_content.go-8cdef3fd-1.md) |

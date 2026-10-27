@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 34/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| e | VariableDeclaration | startPluginSignIn | [12338](../../magpie/internal/gui/assets/app.js#L12338) |
-| pluginAnswer | FunctionDeclaration |  | [12347](../../magpie/internal/gui/assets/app.js#L12347) |
-| flow | VariableDeclaration | pluginAnswer | [12348](../../magpie/internal/gui/assets/app.js#L12348) |
-| r | VariableDeclaration | pluginAnswer | [12350](../../magpie/internal/gui/assets/app.js#L12350) |
-| e | VariableDeclaration | pluginAnswer | [12357](../../magpie/internal/gui/assets/app.js#L12357) |
-| pluginKey | FunctionDeclaration |  | [12363](../../magpie/internal/gui/assets/app.js#L12363) |
-| flow | VariableDeclaration | pluginKey | [12364](../../magpie/internal/gui/assets/app.js#L12364) |
-| st | VariableDeclaration | pluginKey | [12368](../../magpie/internal/gui/assets/app.js#L12368) |
-| e | VariableDeclaration | pluginKey | [12370](../../magpie/internal/gui/assets/app.js#L12370) |
-| renderPluginAsk | FunctionDeclaration |  | [12377](../../magpie/internal/gui/assets/app.js#L12377) |
-| box | VariableDeclaration | renderPluginAsk | [12378](../../magpie/internal/gui/assets/app.js#L12378) |
-| tt | VariableDeclaration | renderPluginAsk | [12379](../../magpie/internal/gui/assets/app.js#L12379) |
-| flow | VariableDeclaration | renderPluginAsk | [12381](../../magpie/internal/gui/assets/app.js#L12381) |
-| close | VariableDeclaration | renderPluginAsk | [12382](../../magpie/internal/gui/assets/app.js#L12382) |
-| ch | VariableDeclaration | renderPluginAsk | [12387](../../magpie/internal/gui/assets/app.js#L12387) |
-| b | VariableDeclaration | renderPluginAsk | [12390](../../magpie/internal/gui/assets/app.js#L12390) |
-| q | VariableDeclaration | renderPluginAsk | [12397](../../magpie/internal/gui/assets/app.js#L12397) |
-| form | VariableDeclaration | renderPluginAsk | [12398](../../magpie/internal/gui/assets/app.js#L12398) |
-| why | VariableDeclaration | renderPluginAsk | [12399](../../magpie/internal/gui/assets/app.js#L12399) |
-| ch | VariableDeclaration | renderPluginAsk | [12402](../../magpie/internal/gui/assets/app.js#L12402) |
-| o | VariableDeclaration | renderPluginAsk | [12404](../../magpie/internal/gui/assets/app.js#L12404) |
-| b | VariableDeclaration | renderPluginAsk | [12405](../../magpie/internal/gui/assets/app.js#L12405) |
-| key | VariableDeclaration | renderPluginAsk | [12412](../../magpie/internal/gui/assets/app.js#L12412) |
-| way | VariableDeclaration | renderPluginAsk | [12416](../../magpie/internal/gui/assets/app.js#L12416) |
-| own | VariableDeclaration | renderPluginAsk | [12417](../../magpie/internal/gui/assets/app.js#L12417) |
-| label | VariableDeclaration | renderPluginAsk | [12418](../../magpie/internal/gui/assets/app.js#L12418) |
-| inp | VariableDeclaration | renderPluginAsk | [12422](../../magpie/internal/gui/assets/app.js#L12422) |
-| go | VariableDeclaration | renderPluginAsk | [12426](../../magpie/internal/gui/assets/app.js#L12426) |
-| submit | VariableDeclaration | renderPluginAsk | [12430](../../magpie/internal/gui/assets/app.js#L12430) |
-| renderStepPlan | FunctionDeclaration |  | [12448](../../magpie/internal/gui/assets/app.js#L12448) |
-| box | VariableDeclaration | renderStepPlan | [12449](../../magpie/internal/gui/assets/app.js#L12449) |
-| row | VariableDeclaration | renderStepPlan | [12451](../../magpie/internal/gui/assets/app.js#L12451) |
-| side | VariableDeclaration | renderStepPlan | [12452](../../magpie/internal/gui/assets/app.js#L12452) |
-| out | VariableDeclaration | renderStepPlan | [12453](../../magpie/internal/gui/assets/app.js#L12453) |
-| e | VariableDeclaration | renderStepPlan | [12455](../../magpie/internal/gui/assets/app.js#L12455) |
-| steps | VariableDeclaration | renderStepPlan | [12462](../../magpie/internal/gui/assets/app.js#L12462) |
-| s1 | VariableDeclaration | renderStepPlan | [12463](../../magpie/internal/gui/assets/app.js#L12463) |
-| open | VariableDeclaration | renderStepPlan | [12464](../../magpie/internal/gui/assets/app.js#L12464) |
-| s2 | VariableDeclaration | renderStepPlan | [12467](../../magpie/internal/gui/assets/app.js#L12467) |
-| bm | VariableDeclaration | renderStepPlan | [12469](../../magpie/internal/gui/assets/app.js#L12469) |
-| cp | VariableDeclaration | renderStepPlan | [12472](../../magpie/internal/gui/assets/app.js#L12472) |
-| s3 | VariableDeclaration | renderStepPlan | [12475](../../magpie/internal/gui/assets/app.js#L12475) |
-| pair | VariableDeclaration | renderStepPlan | [12476](../../magpie/internal/gui/assets/app.js#L12476) |
-| paste | VariableDeclaration | renderStepPlan | [12477](../../magpie/internal/gui/assets/app.js#L12477) |
-| go | VariableDeclaration | renderStepPlan | [12478](../../magpie/internal/gui/assets/app.js#L12478) |
-| save | VariableDeclaration | renderStepPlan | [12479](../../magpie/internal/gui/assets/app.js#L12479) |
-| e | VariableDeclaration | renderStepPlan.save | [12486](../../magpie/internal/gui/assets/app.js#L12486) |
-| side | VariableDeclaration | renderStepPlan | [12494](../../magpie/internal/gui/assets/app.js#L12494) |
-| cancelSignIn | FunctionDeclaration |  | [12503](../../magpie/internal/gui/assets/app.js#L12503) |
-| proxyShown | FunctionDeclaration |  | [12514](../../magpie/internal/gui/assets/app.js#L12514) |
-| proxyName | FunctionDeclaration |  | [12517](../../magpie/internal/gui/assets/app.js#L12517) |
-| signInThrough | FunctionDeclaration |  | [12522](../../magpie/internal/gui/assets/app.js#L12522) |
-| f | VariableDeclaration | signInThrough | [12523](../../magpie/internal/gui/assets/app.js#L12523) |
-| o | VariableDeclaration | signInThrough | [12524](../../magpie/internal/gui/assets/app.js#L12524) |
-| signInProxyChoices | FunctionDeclaration |  | [12535](../../magpie/internal/gui/assets/app.js#L12535) |
-| p | VariableDeclaration | signInProxyChoices | [12536](../../magpie/internal/gui/assets/app.js#L12536) |
-| own | VariableDeclaration | signInProxyChoices | [12537](../../magpie/internal/gui/assets/app.js#L12537) |
-| me | VariableDeclaration | signInProxyChoices | [12538](../../magpie/internal/gui/assets/app.js#L12538) |
-| others | VariableDeclaration | signInProxyChoices | [12539](../../magpie/internal/gui/assets/app.js#L12539) |
-| opts | VariableDeclaration | signInProxyChoices | [12540](../../magpie/internal/gui/assets/app.js#L12540) |
-| seen | VariableDeclaration | signInProxyChoices | [12541](../../magpie/internal/gui/assets/app.js#L12541) |
-| add | VariableDeclaration | signInProxyChoices | [12542](../../magpie/internal/gui/assets/app.js#L12542) |
-| [u, v] | VariableDeclaration | signInProxyChoices | [12550](../../magpie/internal/gui/assets/app.js#L12550) |
-| u | BindingElement | signInProxyChoices.[u, v] | [12550](../../magpie/internal/gui/assets/app.js#L12550) |
-| v | BindingElement | signInProxyChoices.[u, v] | [12550](../../magpie/internal/gui/assets/app.js#L12550) |
-| signInProxyLink | FunctionDeclaration |  | [12558](../../magpie/internal/gui/assets/app.js#L12558) |
-| b | VariableDeclaration | signInProxyLink | [12559](../../magpie/internal/gui/assets/app.js#L12559) |
-| flow | VariableDeclaration | signInProxyLink | [12566](../../magpie/internal/gui/assets/app.js#L12566) |
-| signInProxyForm | FunctionDeclaration |  | [12578](../../magpie/internal/gui/assets/app.js#L12578) |
-| flow | VariableDeclaration | signInProxyForm | [12579](../../magpie/internal/gui/assets/app.js#L12579) |
-| form | VariableDeclaration | signInProxyForm | [12580](../../magpie/internal/gui/assets/app.js#L12580) |
-| label | VariableDeclaration | signInProxyForm | [12581](../../magpie/internal/gui/assets/app.js#L12581) |
-| inp | VariableDeclaration | signInProxyForm | [12582](../../magpie/internal/gui/assets/app.js#L12582) |
-| go | VariableDeclaration | signInProxyForm | [12586](../../magpie/internal/gui/assets/app.js#L12586) |
-| submit | VariableDeclaration | signInProxyForm | [12590](../../magpie/internal/gui/assets/app.js#L12590) |
-| GHE_HOST | VariableDeclaration |  | [12605](../../magpie/internal/gui/assets/app.js#L12605) |
-| copilotHostSwitch | FunctionDeclaration |  | [12609](../../magpie/internal/gui/assets/app.js#L12609) |
-| site | VariableDeclaration | copilotHostSwitch | [12611](../../magpie/internal/gui/assets/app.js#L12611) |
-| b | VariableDeclaration | copilotHostSwitch | [12612](../../magpie/internal/gui/assets/app.js#L12612) |
-| renderCopilotGHE | FunctionDeclaration |  | [12625](../../magpie/internal/gui/assets/app.js#L12625) |
-| box | VariableDeclaration | renderCopilotGHE | [12626](../../magpie/internal/gui/assets/app.js#L12626) |
-| tt | VariableDeclaration | renderCopilotGHE | [12627](../../magpie/internal/gui/assets/app.js#L12627) |
-| flow | VariableDeclaration | renderCopilotGHE | [12629](../../magpie/internal/gui/assets/app.js#L12629) |
-| label | VariableDeclaration | renderCopilotGHE | [12630](../../magpie/internal/gui/assets/app.js#L12630) |
-| form | VariableDeclaration | renderCopilotGHE | [12633](../../magpie/internal/gui/assets/app.js#L12633) |
-| inp | VariableDeclaration | renderCopilotGHE | [12634](../../magpie/internal/gui/assets/app.js#L12634) |
-| go | VariableDeclaration | renderCopilotGHE | [12636](../../magpie/internal/gui/assets/app.js#L12636) |
-| why | VariableDeclaration | renderCopilotGHE | [12639](../../magpie/internal/gui/assets/app.js#L12639) |
-| submit | VariableDeclaration | renderCopilotGHE | [12641](../../magpie/internal/gui/assets/app.js#L12641) |
-| host | VariableDeclaration | renderCopilotGHE.submit | [12644](../../magpie/internal/gui/assets/app.js#L12644) |
-| close | VariableDeclaration | renderCopilotGHE | [12652](../../magpie/internal/gui/assets/app.js#L12652) |
-| back | VariableDeclaration | renderCopilotGHE | [12654](../../magpie/internal/gui/assets/app.js#L12654) |
-| dropSigningIn | FunctionDeclaration |  | [12666](../../magpie/internal/gui/assets/app.js#L12666) |
-| p | VariableDeclaration | dropSigningIn | [12667](../../magpie/internal/gui/assets/app.js#L12667) |
-| renderSigning | FunctionDeclaration |  | [12675](../../magpie/internal/gui/assets/app.js#L12675) |
-| box | VariableDeclaration | renderSigning | [12676](../../magpie/internal/gui/assets/app.js#L12676) |
-| tt | VariableDeclaration | renderSigning | [12677](../../magpie/internal/gui/assets/app.js#L12677) |
-| go | VariableDeclaration | renderSigning | [12684](../../magpie/internal/gui/assets/app.js#L12684) |
-| o | VariableDeclaration | renderSigning | [12685](../../magpie/internal/gui/assets/app.js#L12685) |
-| close | VariableDeclaration | renderSigning | [12687](../../magpie/internal/gui/assets/app.js#L12687) |
+| [u, v] | VariableDeclaration | signInProxyChoices | [12336](../../magpie/internal/gui/assets/app.js#L12336) |
+| u | BindingElement | signInProxyChoices.[u, v] | [12336](../../magpie/internal/gui/assets/app.js#L12336) |
+| v | BindingElement | signInProxyChoices.[u, v] | [12336](../../magpie/internal/gui/assets/app.js#L12336) |
+| signInProxyLink | FunctionDeclaration |  | [12344](../../magpie/internal/gui/assets/app.js#L12344) |
+| b | VariableDeclaration | signInProxyLink | [12345](../../magpie/internal/gui/assets/app.js#L12345) |
+| flow | VariableDeclaration | signInProxyLink | [12352](../../magpie/internal/gui/assets/app.js#L12352) |
+| signInProxyForm | FunctionDeclaration |  | [12364](../../magpie/internal/gui/assets/app.js#L12364) |
+| flow | VariableDeclaration | signInProxyForm | [12365](../../magpie/internal/gui/assets/app.js#L12365) |
+| form | VariableDeclaration | signInProxyForm | [12366](../../magpie/internal/gui/assets/app.js#L12366) |
+| label | VariableDeclaration | signInProxyForm | [12367](../../magpie/internal/gui/assets/app.js#L12367) |
+| inp | VariableDeclaration | signInProxyForm | [12368](../../magpie/internal/gui/assets/app.js#L12368) |
+| go | VariableDeclaration | signInProxyForm | [12372](../../magpie/internal/gui/assets/app.js#L12372) |
+| submit | VariableDeclaration | signInProxyForm | [12376](../../magpie/internal/gui/assets/app.js#L12376) |
+| GHE_HOST | VariableDeclaration |  | [12391](../../magpie/internal/gui/assets/app.js#L12391) |
+| copilotHostSwitch | FunctionDeclaration |  | [12395](../../magpie/internal/gui/assets/app.js#L12395) |
+| site | VariableDeclaration | copilotHostSwitch | [12397](../../magpie/internal/gui/assets/app.js#L12397) |
+| b | VariableDeclaration | copilotHostSwitch | [12398](../../magpie/internal/gui/assets/app.js#L12398) |
+| renderCopilotGHE | FunctionDeclaration |  | [12411](../../magpie/internal/gui/assets/app.js#L12411) |
+| box | VariableDeclaration | renderCopilotGHE | [12412](../../magpie/internal/gui/assets/app.js#L12412) |
+| tt | VariableDeclaration | renderCopilotGHE | [12413](../../magpie/internal/gui/assets/app.js#L12413) |
+| flow | VariableDeclaration | renderCopilotGHE | [12415](../../magpie/internal/gui/assets/app.js#L12415) |
+| label | VariableDeclaration | renderCopilotGHE | [12416](../../magpie/internal/gui/assets/app.js#L12416) |
+| form | VariableDeclaration | renderCopilotGHE | [12419](../../magpie/internal/gui/assets/app.js#L12419) |
+| inp | VariableDeclaration | renderCopilotGHE | [12420](../../magpie/internal/gui/assets/app.js#L12420) |
+| go | VariableDeclaration | renderCopilotGHE | [12422](../../magpie/internal/gui/assets/app.js#L12422) |
+| why | VariableDeclaration | renderCopilotGHE | [12425](../../magpie/internal/gui/assets/app.js#L12425) |
+| submit | VariableDeclaration | renderCopilotGHE | [12427](../../magpie/internal/gui/assets/app.js#L12427) |
+| host | VariableDeclaration | renderCopilotGHE.submit | [12430](../../magpie/internal/gui/assets/app.js#L12430) |
+| close | VariableDeclaration | renderCopilotGHE | [12438](../../magpie/internal/gui/assets/app.js#L12438) |
+| back | VariableDeclaration | renderCopilotGHE | [12440](../../magpie/internal/gui/assets/app.js#L12440) |
+| dropSigningIn | FunctionDeclaration |  | [12452](../../magpie/internal/gui/assets/app.js#L12452) |
+| p | VariableDeclaration | dropSigningIn | [12453](../../magpie/internal/gui/assets/app.js#L12453) |
+| renderSigning | FunctionDeclaration |  | [12461](../../magpie/internal/gui/assets/app.js#L12461) |
+| box | VariableDeclaration | renderSigning | [12462](../../magpie/internal/gui/assets/app.js#L12462) |
+| tt | VariableDeclaration | renderSigning | [12463](../../magpie/internal/gui/assets/app.js#L12463) |
+| go | VariableDeclaration | renderSigning | [12470](../../magpie/internal/gui/assets/app.js#L12470) |
+| o | VariableDeclaration | renderSigning | [12471](../../magpie/internal/gui/assets/app.js#L12471) |
+| close | VariableDeclaration | renderSigning | [12473](../../magpie/internal/gui/assets/app.js#L12473) |
+| imp | VariableDeclaration | renderSigning | [12476](../../magpie/internal/gui/assets/app.js#L12476) |
+| close | VariableDeclaration | renderSigning | [12493](../../magpie/internal/gui/assets/app.js#L12493) |
+| sites | VariableDeclaration | renderSigning | [12496](../../magpie/internal/gui/assets/app.js#L12496) |
+| flow | VariableDeclaration | renderSigning | [12497](../../magpie/internal/gui/assets/app.js#L12497) |
+| [id, label, host] | VariableDeclaration | renderSigning | [12498](../../magpie/internal/gui/assets/app.js#L12498) |
+| id | BindingElement | renderSigning.[id, label, host] | [12498](../../magpie/internal/gui/assets/app.js#L12498) |
+| label | BindingElement | renderSigning.[id, label, host] | [12498](../../magpie/internal/gui/assets/app.js#L12498) |
+| host | BindingElement | renderSigning.[id, label, host] | [12498](../../magpie/internal/gui/assets/app.js#L12498) |
+| b | VariableDeclaration | renderSigning | [12499](../../magpie/internal/gui/assets/app.js#L12499) |
+| labels | VariableDeclaration | renderSigning | [12509](../../magpie/internal/gui/assets/app.js#L12509) |
+| label | BindingElement | renderSigning.labels | [12509](../../magpie/internal/gui/assets/app.js#L12509) |
+| ways | VariableDeclaration | renderSigning | [12510](../../magpie/internal/gui/assets/app.js#L12510) |
+| b | VariableDeclaration | renderSigning | [12513](../../magpie/internal/gui/assets/app.js#L12513) |
+| again | VariableDeclaration | renderSigning | [12529](../../magpie/internal/gui/assets/app.js#L12529) |
+| o | VariableDeclaration | renderSigning | [12530](../../magpie/internal/gui/assets/app.js#L12530) |
+| close | VariableDeclaration | renderSigning | [12532](../../magpie/internal/gui/assets/app.js#L12532) |
+| acts | VariableDeclaration | renderSigning | [12534](../../magpie/internal/gui/assets/app.js#L12534) |
+| ghe | VariableDeclaration | renderSigning | [12535](../../magpie/internal/gui/assets/app.js#L12535) |
+| x | VariableDeclaration | renderSigning | [12548](../../magpie/internal/gui/assets/app.js#L12548) |
+| code | VariableDeclaration | renderSigning | [12561](../../magpie/internal/gui/assets/app.js#L12561) |
+| link | VariableDeclaration | renderSigning | [12569](../../magpie/internal/gui/assets/app.js#L12569) |
+| u | VariableDeclaration | renderSigning | [12570](../../magpie/internal/gui/assets/app.js#L12570) |
+| cp | VariableDeclaration | renderSigning | [12572](../../magpie/internal/gui/assets/app.js#L12572) |
+| acts | VariableDeclaration | renderSigning | [12576](../../magpie/internal/gui/assets/app.js#L12576) |
+| open | VariableDeclaration | renderSigning | [12577](../../magpie/internal/gui/assets/app.js#L12577) |
+| flow | VariableDeclaration | renderSigning | [12580](../../magpie/internal/gui/assets/app.js#L12580) |
+| same | VariableDeclaration | renderSigning | [12581](../../magpie/internal/gui/assets/app.js#L12581) |
+| ghe | VariableDeclaration | renderSigning | [12588](../../magpie/internal/gui/assets/app.js#L12588) |
+| flow | VariableDeclaration | renderSigning | [12599](../../magpie/internal/gui/assets/app.js#L12599) |
+| what | VariableDeclaration | renderSigning | [12600](../../magpie/internal/gui/assets/app.js#L12600) |
+| s | VariableDeclaration | renderSigning | [12605](../../magpie/internal/gui/assets/app.js#L12605) |
+| keys | VariableDeclaration | renderSigning | [12607](../../magpie/internal/gui/assets/app.js#L12607) |
+| form | VariableDeclaration | renderSigning | [12619](../../magpie/internal/gui/assets/app.js#L12619) |
+| url | VariableDeclaration | renderSigning | [12620](../../magpie/internal/gui/assets/app.js#L12620) |
+| submit | VariableDeclaration | renderSigning | [12624](../../magpie/internal/gui/assets/app.js#L12624) |
+| why | VariableDeclaration | renderSigning | [12627](../../magpie/internal/gui/assets/app.js#L12627) |
+| finish | VariableDeclaration | renderSigning | [12629](../../magpie/internal/gui/assets/app.js#L12629) |
+| err | VariableDeclaration | renderSigning.finish | [12640](../../magpie/internal/gui/assets/app.js#L12640) |
+| keyWay | VariableDeclaration | renderSigning | [12660](../../magpie/internal/gui/assets/app.js#L12660) |
+| acts | VariableDeclaration | renderSigning | [12663](../../magpie/internal/gui/assets/app.js#L12663) |
+| k | VariableDeclaration | renderSigning | [12664](../../magpie/internal/gui/assets/app.js#L12664) |
+| others | VariableDeclaration | renderSigning | [12675](../../magpie/internal/gui/assets/app.js#L12675) |
+| acts | VariableDeclaration | renderSigning | [12678](../../magpie/internal/gui/assets/app.js#L12678) |
+| other | VariableDeclaration | renderSigning | [12679](../../magpie/internal/gui/assets/app.js#L12679) |
+| imp | VariableDeclaration | renderSigning | [12689](../../magpie/internal/gui/assets/app.js#L12689) |
+| acts | VariableDeclaration | renderSigning | [12692](../../magpie/internal/gui/assets/app.js#L12692) |
+| x | VariableDeclaration | renderSigning | [12697](../../magpie/internal/gui/assets/app.js#L12697) |
+| accountArranging | VariableDeclaration |  | [12706](../../magpie/internal/gui/assets/app.js#L12706) |
+| accountSaving | VariableDeclaration |  | [12706](../../magpie/internal/gui/assets/app.js#L12706) |
+| accountRenderPending | VariableDeclaration |  | [12706](../../magpie/internal/gui/assets/app.js#L12706) |
+| accountArrangementDone | FunctionDeclaration |  | [12707](../../magpie/internal/gui/assets/app.js#L12707) |
+| arrangeAccountRows | FunctionDeclaration |  | [12711](../../magpie/internal/gui/assets/app.js#L12711) |
+| rows | VariableDeclaration | arrangeAccountRows | [12712](../../magpie/internal/gui/assets/app.js#L12712) |
+| move | VariableDeclaration | arrangeAccountRows | [12715](../../magpie/internal/gui/assets/app.js#L12715) |
+| current | VariableDeclaration | arrangeAccountRows.move | [12716](../../magpie/internal/gui/assets/app.js#L12716) |
+| from | VariableDeclaration | arrangeAccountRows.move | [12717](../../magpie/internal/gui/assets/app.js#L12717) |
+| before | VariableDeclaration | arrangeAccountRows.move | [12721](../../magpie/internal/gui/assets/app.js#L12721) |
+| focus | VariableDeclaration | arrangeAccountRows.move | [12722](../../magpie/internal/gui/assets/app.js#L12722) |
+| order | VariableDeclaration | arrangeAccountRows.move | [12726](../../magpie/internal/gui/assets/app.js#L12726) |
+| shown | VariableDeclaration | arrangeAccountRows.move | [12730](../../magpie/internal/gui/assets/app.js#L12730) |
+| next | VariableDeclaration | arrangeAccountRows.move | [12730](../../magpie/internal/gui/assets/app.js#L12730) |
+| e | VariableDeclaration | arrangeAccountRows.move | [12737](../../magpie/internal/gui/assets/app.js#L12737) |

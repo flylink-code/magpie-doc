@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/app.js) · page 38/68
 
-Source SHA-256: 9ca5e77a5c619e5b8cc0f143e57bbf38582c5831dff3e1b5145ac5fa818a75bb
+Source SHA-256: 4e018a07a9f03d4c47025cc4495d1ee466af7a2e76131f016312ebb90282c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lane | VariableDeclaration | laneText | [13961](../../magpie/internal/gui/assets/app.js#L13961) |
-| busy | VariableDeclaration | laneText | [13962](../../magpie/internal/gui/assets/app.js#L13962) |
-| waiting | VariableDeclaration | laneText | [13962](../../magpie/internal/gui/assets/app.js#L13962) |
-| text | VariableDeclaration | laneText | [13963](../../magpie/internal/gui/assets/app.js#L13963) |
-| whose | VariableDeclaration | laneText | [13972](../../magpie/internal/gui/assets/app.js#L13972) |
-| laneLimitPill | FunctionDeclaration |  | [13978](../../magpie/internal/gui/assets/app.js#L13978) |
-| pill | VariableDeclaration | laneLimitPill | [13979](../../magpie/internal/gui/assets/app.js#L13979) |
-| own | VariableDeclaration | laneLimitPill | [13987](../../magpie/internal/gui/assets/app.js#L13987) |
-| set | VariableDeclaration | laneLimitPill | [13988](../../magpie/internal/gui/assets/app.js#L13988) |
-| other | VariableDeclaration | laneLimitPill | [13990](../../magpie/internal/gui/assets/app.js#L13990) |
-| i | VariableDeclaration | laneLimitPill.other | [13991](../../magpie/internal/gui/assets/app.js#L13991) |
-| done | VariableDeclaration | laneLimitPill.other | [13995](../../magpie/internal/gui/assets/app.js#L13995) |
-| finish | VariableDeclaration | laneLimitPill.other | [13996](../../magpie/internal/gui/assets/app.js#L13996) |
-| v | VariableDeclaration | laneLimitPill.other.finish | [13999](../../magpie/internal/gui/assets/app.js#L13999) |
-| base | VariableDeclaration | laneLimitPill | [14012](../../magpie/internal/gui/assets/app.js#L14012) |
-| opts | VariableDeclaration | laneLimitPill | [14013](../../magpie/internal/gui/assets/app.js#L14013) |
-| nums | VariableDeclaration | laneLimitPill | [14014](../../magpie/internal/gui/assets/app.js#L14014) |
-| n | VariableDeclaration | laneLimitPill | [14015](../../magpie/internal/gui/assets/app.js#L14015) |
-| want | VariableDeclaration | laneLimitPill | [14019](../../magpie/internal/gui/assets/app.js#L14019) |
-| refreshLanes | FunctionDeclaration |  | [14027](../../magpie/internal/gui/assets/app.js#L14027) |
-| lanes | VariableDeclaration | refreshLanes | [14029](../../magpie/internal/gui/assets/app.js#L14029) |
-| pill | VariableDeclaration | refreshLanes | [14033](../../magpie/internal/gui/assets/app.js#L14033) |
-| quotaLeft | VariableDeclaration |  | [14040](../../magpie/internal/gui/assets/app.js#L14040) |
-| to100 | FunctionDeclaration |  | [14041](../../magpie/internal/gui/assets/app.js#L14041) |
-| tipLines | FunctionDeclaration |  | [14042](../../magpie/internal/gui/assets/app.js#L14042) |
-| quotaFill | FunctionDeclaration |  | [14043](../../magpie/internal/gui/assets/app.js#L14043) |
-| used | VariableDeclaration | quotaFill | [14044](../../magpie/internal/gui/assets/app.js#L14044) |
-| quotaText | FunctionDeclaration |  | [14047](../../magpie/internal/gui/assets/app.js#L14047) |
-| used | VariableDeclaration | quotaText | [14050](../../magpie/internal/gui/assets/app.js#L14050) |
-| n | VariableDeclaration | quotaText | [14051](../../magpie/internal/gui/assets/app.js#L14051) |
-| pct | VariableDeclaration | quotaText | [14052](../../magpie/internal/gui/assets/app.js#L14052) |
-| count | VariableDeclaration | quotaText | [14053](../../magpie/internal/gui/assets/app.js#L14053) |
-| quotaPace | FunctionDeclaration |  | [14063](../../magpie/internal/gui/assets/app.js#L14063) |
-| s | VariableDeclaration | quotaPace | [14065](../../magpie/internal/gui/assets/app.js#L14065) |
-| e | VariableDeclaration | quotaPace | [14065](../../magpie/internal/gui/assets/app.js#L14065) |
-| d | VariableDeclaration | quotaPace | [14067](../../magpie/internal/gui/assets/app.js#L14067) |
-| n | VariableDeclaration | quotaPace | [14068](../../magpie/internal/gui/assets/app.js#L14068) |
-| paceNumber | FunctionDeclaration |  | [14072](../../magpie/internal/gui/assets/app.js#L14072) |
-| paceLine | FunctionDeclaration |  | [14077](../../magpie/internal/gui/assets/app.js#L14077) |
-| p | VariableDeclaration | paceLine | [14078](../../magpie/internal/gui/assets/app.js#L14078) |
-| span | VariableDeclaration | paceLine | [14080](../../magpie/internal/gui/assets/app.js#L14080) |
-| countFormat | VariableDeclaration |  | [14089](../../magpie/internal/gui/assets/app.js#L14089) |
-| quotaCount | FunctionDeclaration |  | [14090](../../magpie/internal/gui/assets/app.js#L14090) |
-| amount | VariableDeclaration | quotaCount | [14092](../../magpie/internal/gui/assets/app.js#L14092) |
-| n | VariableDeclaration | quotaCount | [14092](../../magpie/internal/gui/assets/app.js#L14092) |
-| FAMILY_FIRST | VariableDeclaration |  | [14103](../../magpie/internal/gui/assets/app.js#L14103) |
-| familyWindows | FunctionDeclaration |  | [14104](../../magpie/internal/gui/assets/app.js#L14104) |
-| fams | VariableDeclaration | familyWindows | [14107](../../magpie/internal/gui/assets/app.js#L14107) |
-| w | VariableDeclaration | familyWindows | [14108](../../magpie/internal/gui/assets/app.js#L14108) |
-| k | VariableDeclaration | familyWindows | [14109](../../magpie/internal/gui/assets/app.js#L14109) |
-| soon | VariableDeclaration | familyWindows | [14114](../../magpie/internal/gui/assets/app.js#L14114) |
-| out | VariableDeclaration | familyWindows | [14115](../../magpie/internal/gui/assets/app.js#L14115) |
-| tiers | VariableDeclaration | familyWindows | [14116](../../magpie/internal/gui/assets/app.js#L14116) |
-| top | VariableDeclaration | familyWindows | [14118](../../magpie/internal/gui/assets/app.js#L14118) |
-| rank | VariableDeclaration | familyWindows | [14121](../../magpie/internal/gui/assets/app.js#L14121) |
-| a | BindingElement | familyWindows | [14122](../../magpie/internal/gui/assets/app.js#L14122) |
-| i | BindingElement | familyWindows | [14122](../../magpie/internal/gui/assets/app.js#L14122) |
-| b | BindingElement | familyWindows | [14122](../../magpie/internal/gui/assets/app.js#L14122) |
-| j | BindingElement | familyWindows | [14122](../../magpie/internal/gui/assets/app.js#L14122) |
-| w | BindingElement | familyWindows | [14122](../../magpie/internal/gui/assets/app.js#L14122) |
-| isPool | VariableDeclaration |  | [14130](../../magpie/internal/gui/assets/app.js#L14130) |
-| poolOfModel | VariableDeclaration |  | [14133](../../magpie/internal/gui/assets/app.js#L14133) |
-| poolWord | VariableDeclaration |  | [14136](../../magpie/internal/gui/assets/app.js#L14136) |
-| [a, b] | VariableDeclaration | poolWord | [14136](../../magpie/internal/gui/assets/app.js#L14136) |
-| a | BindingElement | poolWord.[a, b] | [14136](../../magpie/internal/gui/assets/app.js#L14136) |
-| b | BindingElement | poolWord.[a, b] | [14136](../../magpie/internal/gui/assets/app.js#L14136) |
-| poolWindows | FunctionDeclaration |  | [14137](../../magpie/internal/gui/assets/app.js#L14137) |
-| pools | VariableDeclaration | poolWindows | [14138](../../magpie/internal/gui/assets/app.js#L14138) |
-| w | VariableDeclaration | poolWindows | [14139](../../magpie/internal/gui/assets/app.js#L14139) |
-| hours | VariableDeclaration | poolWindows | [14143](../../magpie/internal/gui/assets/app.js#L14143) |
-| m | VariableDeclaration | poolWindows.hours | [14144](../../magpie/internal/gui/assets/app.js#L14144) |
-| first | VariableDeclaration | poolWindows | [14150](../../magpie/internal/gui/assets/app.js#L14150) |
-| i | VariableDeclaration | poolWindows.first | [14150](../../magpie/internal/gui/assets/app.js#L14150) |
-| rest | VariableDeclaration | poolWindows | [14151](../../magpie/internal/gui/assets/app.js#L14151) |
-| fam | VariableDeclaration | poolWindows | [14152](../../magpie/internal/gui/assets/app.js#L14152) |
-| out | VariableDeclaration | poolWindows | [14153](../../magpie/internal/gui/assets/app.js#L14153) |
-| pool | VariableDeclaration | poolWindows | [14154](../../magpie/internal/gui/assets/app.js#L14154) |
-| members | VariableDeclaration | poolWindows | [14155](../../magpie/internal/gui/assets/app.js#L14155) |
-| own | VariableDeclaration | poolWindows | [14156](../../magpie/internal/gui/assets/app.js#L14156) |
-| mine | VariableDeclaration | poolWindows | [14164](../../magpie/internal/gui/assets/app.js#L14164) |
-| f | VariableDeclaration | poolWindows.mine | [14164](../../magpie/internal/gui/assets/app.js#L14164) |
-| w | VariableDeclaration | poolWindows | [14168](../../magpie/internal/gui/assets/app.js#L14168) |
-| pooledModels | VariableDeclaration |  | [14174](../../magpie/internal/gui/assets/app.js#L14174) |
-| poolTip | FunctionDeclaration |  | [14176](../../magpie/internal/gui/assets/app.js#L14176) |
-| ringName | FunctionDeclaration |  | [14181](../../magpie/internal/gui/assets/app.js#L14181) |
-| tiersText | FunctionDeclaration |  | [14186](../../magpie/internal/gui/assets/app.js#L14186) |
-| setQuotaLeft | FunctionDeclaration |  | [14191](../../magpie/internal/gui/assets/app.js#L14191) |
-| m | VariableDeclaration | setQuotaLeft | [14196](../../magpie/internal/gui/assets/app.js#L14196) |
-| e | VariableDeclaration | setQuotaLeft | [14201](../../magpie/internal/gui/assets/app.js#L14201) |
-| resetClock | FunctionDeclaration |  | [14209](../../magpie/internal/gui/assets/app.js#L14209) |
-| lang | VariableDeclaration | resetClock | [14210](../../magpie/internal/gui/assets/app.js#L14210) |
-| time | VariableDeclaration | resetClock | [14211](../../magpie/internal/gui/assets/app.js#L14211) |
-| day | VariableDeclaration | resetClock | [14212](../../magpie/internal/gui/assets/app.js#L14212) |
-| days | VariableDeclaration | resetClock | [14213](../../magpie/internal/gui/assets/app.js#L14213) |
-| untilText | FunctionDeclaration |  | [14220](../../magpie/internal/gui/assets/app.js#L14220) |
-| mins | VariableDeclaration | untilText | [14222](../../magpie/internal/gui/assets/app.js#L14222) |
-| h | VariableDeclaration | untilText | [14224](../../magpie/internal/gui/assets/app.js#L14224) |
-| resetText | FunctionDeclaration |  | [14229](../../magpie/internal/gui/assets/app.js#L14229) |
-| resetInText | FunctionDeclaration |  | [14233](../../magpie/internal/gui/assets/app.js#L14233) |
-| runsOutText | FunctionDeclaration |  | [14241](../../magpie/internal/gui/assets/app.js#L14241) |
+| poolOfModel | VariableDeclaration |  | [13925](../../magpie/internal/gui/assets/app.js#L13925) |
+| poolWord | VariableDeclaration |  | [13928](../../magpie/internal/gui/assets/app.js#L13928) |
+| [a, b] | VariableDeclaration | poolWord | [13928](../../magpie/internal/gui/assets/app.js#L13928) |
+| a | BindingElement | poolWord.[a, b] | [13928](../../magpie/internal/gui/assets/app.js#L13928) |
+| b | BindingElement | poolWord.[a, b] | [13928](../../magpie/internal/gui/assets/app.js#L13928) |
+| poolWindows | FunctionDeclaration |  | [13929](../../magpie/internal/gui/assets/app.js#L13929) |
+| pools | VariableDeclaration | poolWindows | [13930](../../magpie/internal/gui/assets/app.js#L13930) |
+| w | VariableDeclaration | poolWindows | [13931](../../magpie/internal/gui/assets/app.js#L13931) |
+| hours | VariableDeclaration | poolWindows | [13935](../../magpie/internal/gui/assets/app.js#L13935) |
+| m | VariableDeclaration | poolWindows.hours | [13936](../../magpie/internal/gui/assets/app.js#L13936) |
+| first | VariableDeclaration | poolWindows | [13942](../../magpie/internal/gui/assets/app.js#L13942) |
+| i | VariableDeclaration | poolWindows.first | [13942](../../magpie/internal/gui/assets/app.js#L13942) |
+| rest | VariableDeclaration | poolWindows | [13943](../../magpie/internal/gui/assets/app.js#L13943) |
+| fam | VariableDeclaration | poolWindows | [13944](../../magpie/internal/gui/assets/app.js#L13944) |
+| out | VariableDeclaration | poolWindows | [13945](../../magpie/internal/gui/assets/app.js#L13945) |
+| pool | VariableDeclaration | poolWindows | [13946](../../magpie/internal/gui/assets/app.js#L13946) |
+| members | VariableDeclaration | poolWindows | [13947](../../magpie/internal/gui/assets/app.js#L13947) |
+| own | VariableDeclaration | poolWindows | [13948](../../magpie/internal/gui/assets/app.js#L13948) |
+| mine | VariableDeclaration | poolWindows | [13956](../../magpie/internal/gui/assets/app.js#L13956) |
+| f | VariableDeclaration | poolWindows.mine | [13956](../../magpie/internal/gui/assets/app.js#L13956) |
+| w | VariableDeclaration | poolWindows | [13960](../../magpie/internal/gui/assets/app.js#L13960) |
+| pooledModels | VariableDeclaration |  | [13966](../../magpie/internal/gui/assets/app.js#L13966) |
+| poolTip | FunctionDeclaration |  | [13968](../../magpie/internal/gui/assets/app.js#L13968) |
+| ringName | FunctionDeclaration |  | [13973](../../magpie/internal/gui/assets/app.js#L13973) |
+| tiersText | FunctionDeclaration |  | [13978](../../magpie/internal/gui/assets/app.js#L13978) |
+| setQuotaLeft | FunctionDeclaration |  | [13983](../../magpie/internal/gui/assets/app.js#L13983) |
+| m | VariableDeclaration | setQuotaLeft | [13988](../../magpie/internal/gui/assets/app.js#L13988) |
+| e | VariableDeclaration | setQuotaLeft | [13993](../../magpie/internal/gui/assets/app.js#L13993) |
+| resetClock | FunctionDeclaration |  | [14001](../../magpie/internal/gui/assets/app.js#L14001) |
+| lang | VariableDeclaration | resetClock | [14002](../../magpie/internal/gui/assets/app.js#L14002) |
+| time | VariableDeclaration | resetClock | [14003](../../magpie/internal/gui/assets/app.js#L14003) |
+| day | VariableDeclaration | resetClock | [14004](../../magpie/internal/gui/assets/app.js#L14004) |
+| days | VariableDeclaration | resetClock | [14005](../../magpie/internal/gui/assets/app.js#L14005) |
+| untilText | FunctionDeclaration |  | [14012](../../magpie/internal/gui/assets/app.js#L14012) |
+| mins | VariableDeclaration | untilText | [14014](../../magpie/internal/gui/assets/app.js#L14014) |
+| h | VariableDeclaration | untilText | [14016](../../magpie/internal/gui/assets/app.js#L14016) |
+| resetText | FunctionDeclaration |  | [14021](../../magpie/internal/gui/assets/app.js#L14021) |
+| resetInText | FunctionDeclaration |  | [14025](../../magpie/internal/gui/assets/app.js#L14025) |
+| runsOutText | FunctionDeclaration |  | [14033](../../magpie/internal/gui/assets/app.js#L14033) |
+| at | VariableDeclaration | runsOutText | [14034](../../magpie/internal/gui/assets/app.js#L14034) |
+| accountAction | FunctionDeclaration |  | [14041](../../magpie/internal/gui/assets/app.js#L14041) |
+| key | VariableDeclaration | accountAction | [14042](../../magpie/internal/gui/assets/app.js#L14042) |
+| e | VariableDeclaration | accountAction | [14052](../../magpie/internal/gui/assets/app.js#L14052) |
+| acctModels | VariableDeclaration |  | [14067](../../magpie/internal/gui/assets/app.js#L14067) |
+| accountModelsOf | FunctionDeclaration |  | [14068](../../magpie/internal/gui/assets/app.js#L14068) |
+| accountModelsDraft | FunctionDeclaration |  | [14072](../../magpie/internal/gui/assets/app.js#L14072) |
+| a | VariableDeclaration | accountModelsDraft | [14073](../../magpie/internal/gui/assets/app.js#L14073) |
+| own | VariableDeclaration | accountModelsDraft | [14075](../../magpie/internal/gui/assets/app.js#L14075) |
+| saveAccountModelsDraft | FunctionDeclaration |  | [14079](../../magpie/internal/gui/assets/app.js#L14079) |
+| accountModels | FunctionDeclaration |  | [14085](../../magpie/internal/gui/assets/app.js#L14085) |
+| own | VariableDeclaration | accountModels | [14086](../../magpie/internal/gui/assets/app.js#L14086) |
+| pill | VariableDeclaration | accountModels | [14087](../../magpie/internal/gui/assets/app.js#L14087) |
+| open | VariableDeclaration | accountModels | [14089](../../magpie/internal/gui/assets/app.js#L14089) |
+| box | VariableDeclaration | accountModels | [14094](../../magpie/internal/gui/assets/app.js#L14094) |
+| chips | VariableDeclaration | accountModels | [14095](../../magpie/internal/gui/assets/app.js#L14095) |
+| ids | VariableDeclaration | accountModels | [14097](../../magpie/internal/gui/assets/app.js#L14097) |
+| id | VariableDeclaration | accountModels | [14098](../../magpie/internal/gui/assets/app.js#L14098) |
+| foot | VariableDeclaration | accountModels | [14099](../../magpie/internal/gui/assets/app.js#L14099) |
+| save | VariableDeclaration | accountModels | [14100](../../magpie/internal/gui/assets/app.js#L14100) |
+| post | VariableDeclaration | accountModels | [14101](../../magpie/internal/gui/assets/app.js#L14101) |
+| was | VariableDeclaration | accountModels.post | [14102](../../magpie/internal/gui/assets/app.js#L14102) |
+| draw | VariableDeclaration | accountModels | [14106](../../magpie/internal/gui/assets/app.js#L14106) |
+| tells | VariableDeclaration | accountModels.draw | [14108](../../magpie/internal/gui/assets/app.js#L14108) |
+| id | VariableDeclaration | accountModels.draw | [14109](../../magpie/internal/gui/assets/app.js#L14109) |
+| m | VariableDeclaration | accountModels.draw | [14110](../../magpie/internal/gui/assets/app.js#L14110) |
+| on | VariableDeclaration | accountModels.draw | [14111](../../magpie/internal/gui/assets/app.js#L14111) |
+| c | VariableDeclaration | accountModels.draw | [14112](../../magpie/internal/gui/assets/app.js#L14112) |
+| tell | VariableDeclaration | accountModels.draw | [14114](../../magpie/internal/gui/assets/app.js#L14114) |
+| all | VariableDeclaration | accountModels | [14125](../../magpie/internal/gui/assets/app.js#L14125) |
+| x | VariableDeclaration | accountModels | [14128](../../magpie/internal/gui/assets/app.js#L14128) |
+| keyWeight | FunctionDeclaration |  | [14137](../../magpie/internal/gui/assets/app.js#L14137) |
+| b | VariableDeclaration | keyWeight | [14138](../../magpie/internal/gui/assets/app.js#L14138) |
+| i | VariableDeclaration | keyWeight | [14141](../../magpie/internal/gui/assets/app.js#L14141) |
+| done | VariableDeclaration | keyWeight | [14148](../../magpie/internal/gui/assets/app.js#L14148) |
+| save | VariableDeclaration | keyWeight | [14149](../../magpie/internal/gui/assets/app.js#L14149) |
+| n | VariableDeclaration | keyWeight.save | [14152](../../magpie/internal/gui/assets/app.js#L14152) |
+| addingKey | VariableDeclaration |  | [14167](../../magpie/internal/gui/assets/app.js#L14167) |
+| renderKeyAccounts | FunctionDeclaration |  | [14168](../../magpie/internal/gui/assets/app.js#L14168) |
+| list | VariableDeclaration | renderKeyAccounts | [14169](../../magpie/internal/gui/assets/app.js#L14169) |
+| several | VariableDeclaration | renderKeyAccounts | [14172](../../magpie/internal/gui/assets/app.js#L14172) |
+| weightOf | VariableDeclaration | renderKeyAccounts | [14174](../../magpie/internal/gui/assets/app.js#L14174) |
+| weights | VariableDeclaration | renderKeyAccounts | [14175](../../magpie/internal/gui/assets/app.js#L14175) |
+| fold | VariableDeclaration | renderKeyAccounts | [14178](../../magpie/internal/gui/assets/app.js#L14178) |
+| folds | VariableDeclaration | renderKeyAccounts | [14179](../../magpie/internal/gui/assets/app.js#L14179) |
+| k | VariableDeclaration | renderKeyAccounts | [14181](../../magpie/internal/gui/assets/app.js#L14181) |
+| row | VariableDeclaration | renderKeyAccounts | [14182](../../magpie/internal/gui/assets/app.js#L14182) |
+| dot | VariableDeclaration | renderKeyAccounts | [14185](../../magpie/internal/gui/assets/app.js#L14185) |
+| name | VariableDeclaration | renderKeyAccounts | [14189](../../magpie/internal/gui/assets/app.js#L14189) |
+| i | VariableDeclaration | renderKeyAccounts | [14192](../../magpie/internal/gui/assets/app.js#L14192) |
+| done | VariableDeclaration | renderKeyAccounts | [14194](../../magpie/internal/gui/assets/app.js#L14194) |
+| edit | VariableDeclaration | renderKeyAccounts | [14207](../../magpie/internal/gui/assets/app.js#L14207) |
+| i | VariableDeclaration | renderKeyAccounts | [14214](../../magpie/internal/gui/assets/app.js#L14214) |
+| over | VariableDeclaration | renderKeyAccounts | [14216](../../magpie/internal/gui/assets/app.js#L14216) |
+| done | VariableDeclaration | renderKeyAccounts | [14217](../../magpie/internal/gui/assets/app.js#L14217) |
+| shown | VariableDeclaration | renderKeyAccounts | [14225](../../magpie/internal/gui/assets/app.js#L14225) |
+| cp | VariableDeclaration | renderKeyAccounts | [14234](../../magpie/internal/gui/assets/app.js#L14234) |
+| err | VariableDeclaration | renderKeyAccounts | [14239](../../magpie/internal/gui/assets/app.js#L14239) |
+| restLine | VariableDeclaration | renderKeyAccounts | [14244](../../magpie/internal/gui/assets/app.js#L14244) |
+| r | VariableDeclaration | renderKeyAccounts | [14246](../../magpie/internal/gui/assets/app.js#L14246) |
+| go | VariableDeclaration | renderKeyAccounts | [14250](../../magpie/internal/gui/assets/app.js#L14250) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/page.js) · page 8/12
 
-Source SHA-256: dacb60ca8a731346568c9835c64b47d7840b11a0744f87d96fd7ad639ef27a45
+Source SHA-256: d12aa4b99e5b38d827755ab7d177f151b5d33862866dba0da50d7face985f490
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sessOverLoading | VariableDeclaration |  | [2261](../../magpie/internal/gui/assets/plugins/usage/page.js#L2261) |
-| sessTopOpen | VariableDeclaration |  | [2262](../../magpie/internal/gui/assets/plugins/usage/page.js#L2262) |
-| sessListOpen | VariableDeclaration |  | [2263](../../magpie/internal/gui/assets/plugins/usage/page.js#L2263) |
-| sessFull | VariableDeclaration |  | [2264](../../magpie/internal/gui/assets/plugins/usage/page.js#L2264) |
-| renderUsageTab | FunctionDeclaration |  | [2266](../../magpie/internal/gui/assets/plugins/usage/page.js#L2266) |
-| seg | VariableDeclaration | renderUsageTab | [2267](../../magpie/internal/gui/assets/plugins/usage/page.js#L2267) |
-| [id, name] | VariableDeclaration | renderUsageTab | [2269](../../magpie/internal/gui/assets/plugins/usage/page.js#L2269) |
-| id | BindingElement | renderUsageTab.[id, name] | [2269](../../magpie/internal/gui/assets/plugins/usage/page.js#L2269) |
-| name | BindingElement | renderUsageTab.[id, name] | [2269](../../magpie/internal/gui/assets/plugins/usage/page.js#L2269) |
-| b | VariableDeclaration | renderUsageTab | [2270](../../magpie/internal/gui/assets/plugins/usage/page.js#L2270) |
-| on | VariableDeclaration | renderUsageTab | [2283](../../magpie/internal/gui/assets/plugins/usage/page.js#L2283) |
-| sessDays | VariableDeclaration |  | [2294](../../magpie/internal/gui/assets/plugins/usage/page.js#L2294) |
-| id | BindingElement | sessDays | [2294](../../magpie/internal/gui/assets/plugins/usage/page.js#L2294) |
-| loadSessions | FunctionDeclaration |  | [2295](../../magpie/internal/gui/assets/plugins/usage/page.js#L2295) |
-| first | VariableDeclaration | loadSessions | [2296](../../magpie/internal/gui/assets/plugins/usage/page.js#L2296) |
-| range | VariableDeclaration | loadSessions | [2298](../../magpie/internal/gui/assets/plugins/usage/page.js#L2298) |
-| q | VariableDeclaration | loadSessions | [2298](../../magpie/internal/gui/assets/plugins/usage/page.js#L2298) |
-| stop | VariableDeclaration | loadSessions | [2299](../../magpie/internal/gui/assets/plugins/usage/page.js#L2299) |
-| s | VariableDeclaration | loadSessions | [2300](../../magpie/internal/gui/assets/plugins/usage/page.js#L2300) |
-| st | VariableDeclaration | loadSessions | [2300](../../magpie/internal/gui/assets/plugins/usage/page.js#L2300) |
-| o | VariableDeclaration | loadSessions | [2300](../../magpie/internal/gui/assets/plugins/usage/page.js#L2300) |
-| fresh | VariableDeclaration | loadSessions | [2305](../../magpie/internal/gui/assets/plugins/usage/page.js#L2305) |
-| sessOverReads | VariableDeclaration |  | [2317](../../magpie/internal/gui/assets/plugins/usage/page.js#L2317) |
-| sessOverview | FunctionDeclaration |  | [2318](../../magpie/internal/gui/assets/plugins/usage/page.js#L2318) |
-| read | VariableDeclaration | sessOverview | [2319](../../magpie/internal/gui/assets/plugins/usage/page.js#L2319) |
-| sessOverQ | VariableDeclaration |  | [2328](../../magpie/internal/gui/assets/plugins/usage/page.js#L2328) |
-| loadSessOverview | FunctionDeclaration |  | [2331](../../magpie/internal/gui/assets/plugins/usage/page.js#L2331) |
-| q | VariableDeclaration | loadSessOverview | [2332](../../magpie/internal/gui/assets/plugins/usage/page.js#L2332) |
-| done | VariableDeclaration | loadSessOverview | [2335](../../magpie/internal/gui/assets/plugins/usage/page.js#L2335) |
-| renderSessionsLoading | FunctionDeclaration |  | [2345](../../magpie/internal/gui/assets/plugins/usage/page.js#L2345) |
-| view | VariableDeclaration | renderSessionsLoading | [2346](../../magpie/internal/gui/assets/plugins/usage/page.js#L2346) |
-| stats | VariableDeclaration | renderSessionsLoading | [2356](../../magpie/internal/gui/assets/plugins/usage/page.js#L2356) |
-| i | VariableDeclaration | renderSessionsLoading | [2360](../../magpie/internal/gui/assets/plugins/usage/page.js#L2360) |
-| tile | VariableDeclaration | renderSessionsLoading | [2361](../../magpie/internal/gui/assets/plugins/usage/page.js#L2361) |
-| list | VariableDeclaration | renderSessionsLoading | [2365](../../magpie/internal/gui/assets/plugins/usage/page.js#L2365) |
-| i | VariableDeclaration | renderSessionsLoading | [2368](../../magpie/internal/gui/assets/plugins/usage/page.js#L2368) |
-| r | VariableDeclaration | renderSessionsLoading | [2369](../../magpie/internal/gui/assets/plugins/usage/page.js#L2369) |
-| SESS_INDEX_SHOW | VariableDeclaration |  | [2376](../../magpie/internal/gui/assets/plugins/usage/page.js#L2376) |
-| sessWatchIndex | FunctionDeclaration |  | [2382](../../magpie/internal/gui/assets/plugins/usage/page.js#L2382) |
-| on | VariableDeclaration | sessWatchIndex | [2383](../../magpie/internal/gui/assets/plugins/usage/page.js#L2383) |
-| timer | VariableDeclaration | sessWatchIndex | [2383](../../magpie/internal/gui/assets/plugins/usage/page.js#L2383) |
-| shown | VariableDeclaration | sessWatchIndex | [2383](../../magpie/internal/gui/assets/plugins/usage/page.js#L2383) |
-| since | VariableDeclaration | sessWatchIndex | [2383](../../magpie/internal/gui/assets/plugins/usage/page.js#L2383) |
-| tick | VariableDeclaration | sessWatchIndex | [2384](../../magpie/internal/gui/assets/plugins/usage/page.js#L2384) |
-| p | VariableDeclaration | sessWatchIndex.tick | [2386](../../magpie/internal/gui/assets/plugins/usage/page.js#L2386) |
-| long | VariableDeclaration | sessWatchIndex.tick | [2395](../../magpie/internal/gui/assets/plugins/usage/page.js#L2395) |
-| stats | VariableDeclaration | sessWatchIndex.tick | [2397](../../magpie/internal/gui/assets/plugins/usage/page.js#L2397) |
-| hero | VariableDeclaration | sessWatchIndex.tick | [2398](../../magpie/internal/gui/assets/plugins/usage/page.js#L2398) |
-| SESS_TIPS | VariableDeclaration |  | [2422](../../magpie/internal/gui/assets/plugins/usage/page.js#L2422) |
-| sessIndexHero | FunctionDeclaration |  | [2428](../../magpie/internal/gui/assets/plugins/usage/page.js#L2428) |
-| hero | VariableDeclaration | sessIndexHero | [2429](../../magpie/internal/gui/assets/plugins/usage/page.js#L2429) |
-| field | VariableDeclaration | sessIndexHero | [2431](../../magpie/internal/gui/assets/plugins/usage/page.js#L2431) |
-| cv | VariableDeclaration | sessIndexHero | [2432](../../magpie/internal/gui/assets/plugins/usage/page.js#L2432) |
-| words | VariableDeclaration | sessIndexHero | [2435](../../magpie/internal/gui/assets/plugins/usage/page.js#L2435) |
-| head | VariableDeclaration | sessIndexHero | [2436](../../magpie/internal/gui/assets/plugins/usage/page.js#L2436) |
-| pct | VariableDeclaration | sessIndexHero | [2438](../../magpie/internal/gui/assets/plugins/usage/page.js#L2438) |
-| num | VariableDeclaration | sessIndexHero | [2439](../../magpie/internal/gui/assets/plugins/usage/page.js#L2439) |
-| line | VariableDeclaration | sessIndexHero | [2441](../../magpie/internal/gui/assets/plugins/usage/page.js#L2441) |
-| tip | VariableDeclaration | sessIndexHero | [2442](../../magpie/internal/gui/assets/plugins/usage/page.js#L2442) |
-| bar | VariableDeclaration | sessIndexHero | [2444](../../magpie/internal/gui/assets/plugins/usage/page.js#L2444) |
-| fill | VariableDeclaration | sessIndexHero | [2445](../../magpie/internal/gui/assets/plugins/usage/page.js#L2445) |
-| reduced | VariableDeclaration | sessIndexHero | [2449](../../magpie/internal/gui/assets/plugins/usage/page.js#L2449) |
-| frac | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| shown | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| known | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| tipAt | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| tipI | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| rate | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| last | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
-| done | VariableDeclaration | sessIndexHero | [2451](../../magpie/internal/gui/assets/plugins/usage/page.js#L2451) |
-| f | VariableDeclaration | sessIndexHero | [2467](../../magpie/internal/gui/assets/plugins/usage/page.js#L2467) |
-| r | VariableDeclaration | sessIndexHero | [2470](../../magpie/internal/gui/assets/plugins/usage/page.js#L2470) |
-| left | VariableDeclaration | sessIndexHero | [2479](../../magpie/internal/gui/assets/plugins/usage/page.js#L2479) |
-| ctx | VariableDeclaration | sessIndexHero | [2495](../../magpie/internal/gui/assets/plugins/usage/page.js#L2495) |
-| GAP | VariableDeclaration | sessIndexHero | [2496](../../magpie/internal/gui/assets/plugins/usage/page.js#L2496) |
-| W | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| H | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| dpr | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| dots | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| ink | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| accent | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| frame | VariableDeclaration | sessIndexHero | [2497](../../magpie/internal/gui/assets/plugins/usage/page.js#L2497) |
-| colours | VariableDeclaration | sessIndexHero | [2498](../../magpie/internal/gui/assets/plugins/usage/page.js#L2498) |
-| c | VariableDeclaration | sessIndexHero.colours | [2499](../../magpie/internal/gui/assets/plugins/usage/page.js#L2499) |
-| size | VariableDeclaration | sessIndexHero | [2503](../../magpie/internal/gui/assets/plugins/usage/page.js#L2503) |
-| r | VariableDeclaration | sessIndexHero.size | [2505](../../magpie/internal/gui/assets/plugins/usage/page.js#L2505) |
-| cols | VariableDeclaration | sessIndexHero.size | [2510](../../magpie/internal/gui/assets/plugins/usage/page.js#L2510) |
-| rows | VariableDeclaration | sessIndexHero.size | [2510](../../magpie/internal/gui/assets/plugins/usage/page.js#L2510) |
-| ox | VariableDeclaration | sessIndexHero.size | [2511](../../magpie/internal/gui/assets/plugins/usage/page.js#L2511) |
-| oy | VariableDeclaration | sessIndexHero.size | [2511](../../magpie/internal/gui/assets/plugins/usage/page.js#L2511) |
-| j | VariableDeclaration | sessIndexHero.size | [2513](../../magpie/internal/gui/assets/plugins/usage/page.js#L2513) |
-| i | VariableDeclaration | sessIndexHero.size | [2513](../../magpie/internal/gui/assets/plugins/usage/page.js#L2513) |
-| seed | VariableDeclaration | sessIndexHero.size | [2514](../../magpie/internal/gui/assets/plugins/usage/page.js#L2514) |
-| paint | FunctionDeclaration | sessIndexHero | [2520](../../magpie/internal/gui/assets/plugins/usage/page.js#L2520) |
-| T | VariableDeclaration | sessIndexHero.paint | [2523](../../magpie/internal/gui/assets/plugins/usage/page.js#L2523) |
-| scan | VariableDeclaration | sessIndexHero.paint | [2528](../../magpie/internal/gui/assets/plugins/usage/page.js#L2528) |
-| gx | VariableDeclaration | sessIndexHero.paint | [2530](../../magpie/internal/gui/assets/plugins/usage/page.js#L2530) |
-| glow | VariableDeclaration | sessIndexHero.paint | [2531](../../magpie/internal/gui/assets/plugins/usage/page.js#L2531) |
-| d | VariableDeclaration | sessIndexHero.paint | [2536](../../magpie/internal/gui/assets/plugins/usage/page.js#L2536) |
-| wave | VariableDeclaration | sessIndexHero.paint | [2537](../../magpie/internal/gui/assets/plugins/usage/page.js#L2537) |
+| sessOverAt | VariableDeclaration |  | [2264](../../magpie/internal/gui/assets/plugins/usage/page.js#L2264) |
+| sessOverLoading | VariableDeclaration |  | [2265](../../magpie/internal/gui/assets/plugins/usage/page.js#L2265) |
+| sessTopOpen | VariableDeclaration |  | [2266](../../magpie/internal/gui/assets/plugins/usage/page.js#L2266) |
+| sessListOpen | VariableDeclaration |  | [2267](../../magpie/internal/gui/assets/plugins/usage/page.js#L2267) |
+| sessFull | VariableDeclaration |  | [2268](../../magpie/internal/gui/assets/plugins/usage/page.js#L2268) |
+| renderUsageTab | FunctionDeclaration |  | [2270](../../magpie/internal/gui/assets/plugins/usage/page.js#L2270) |
+| seg | VariableDeclaration | renderUsageTab | [2271](../../magpie/internal/gui/assets/plugins/usage/page.js#L2271) |
+| [id, name] | VariableDeclaration | renderUsageTab | [2273](../../magpie/internal/gui/assets/plugins/usage/page.js#L2273) |
+| id | BindingElement | renderUsageTab.[id, name] | [2273](../../magpie/internal/gui/assets/plugins/usage/page.js#L2273) |
+| name | BindingElement | renderUsageTab.[id, name] | [2273](../../magpie/internal/gui/assets/plugins/usage/page.js#L2273) |
+| b | VariableDeclaration | renderUsageTab | [2274](../../magpie/internal/gui/assets/plugins/usage/page.js#L2274) |
+| on | VariableDeclaration | renderUsageTab | [2287](../../magpie/internal/gui/assets/plugins/usage/page.js#L2287) |
+| sessDays | VariableDeclaration |  | [2298](../../magpie/internal/gui/assets/plugins/usage/page.js#L2298) |
+| id | BindingElement | sessDays | [2298](../../magpie/internal/gui/assets/plugins/usage/page.js#L2298) |
+| loadSessions | FunctionDeclaration |  | [2299](../../magpie/internal/gui/assets/plugins/usage/page.js#L2299) |
+| first | VariableDeclaration | loadSessions | [2300](../../magpie/internal/gui/assets/plugins/usage/page.js#L2300) |
+| range | VariableDeclaration | loadSessions | [2302](../../magpie/internal/gui/assets/plugins/usage/page.js#L2302) |
+| q | VariableDeclaration | loadSessions | [2302](../../magpie/internal/gui/assets/plugins/usage/page.js#L2302) |
+| stop | VariableDeclaration | loadSessions | [2303](../../magpie/internal/gui/assets/plugins/usage/page.js#L2303) |
+| s | VariableDeclaration | loadSessions | [2304](../../magpie/internal/gui/assets/plugins/usage/page.js#L2304) |
+| st | VariableDeclaration | loadSessions | [2304](../../magpie/internal/gui/assets/plugins/usage/page.js#L2304) |
+| o | VariableDeclaration | loadSessions | [2304](../../magpie/internal/gui/assets/plugins/usage/page.js#L2304) |
+| fresh | VariableDeclaration | loadSessions | [2309](../../magpie/internal/gui/assets/plugins/usage/page.js#L2309) |
+| sessOverReads | VariableDeclaration |  | [2322](../../magpie/internal/gui/assets/plugins/usage/page.js#L2322) |
+| sessOverview | FunctionDeclaration |  | [2323](../../magpie/internal/gui/assets/plugins/usage/page.js#L2323) |
+| read | VariableDeclaration | sessOverview | [2324](../../magpie/internal/gui/assets/plugins/usage/page.js#L2324) |
+| sessOverQ | VariableDeclaration |  | [2333](../../magpie/internal/gui/assets/plugins/usage/page.js#L2333) |
+| loadSessOverview | FunctionDeclaration |  | [2336](../../magpie/internal/gui/assets/plugins/usage/page.js#L2336) |
+| q | VariableDeclaration | loadSessOverview | [2337](../../magpie/internal/gui/assets/plugins/usage/page.js#L2337) |
+| done | VariableDeclaration | loadSessOverview | [2340](../../magpie/internal/gui/assets/plugins/usage/page.js#L2340) |
+| renderSessionsLoading | FunctionDeclaration |  | [2350](../../magpie/internal/gui/assets/plugins/usage/page.js#L2350) |
+| view | VariableDeclaration | renderSessionsLoading | [2351](../../magpie/internal/gui/assets/plugins/usage/page.js#L2351) |
+| stats | VariableDeclaration | renderSessionsLoading | [2361](../../magpie/internal/gui/assets/plugins/usage/page.js#L2361) |
+| i | VariableDeclaration | renderSessionsLoading | [2365](../../magpie/internal/gui/assets/plugins/usage/page.js#L2365) |
+| tile | VariableDeclaration | renderSessionsLoading | [2366](../../magpie/internal/gui/assets/plugins/usage/page.js#L2366) |
+| list | VariableDeclaration | renderSessionsLoading | [2370](../../magpie/internal/gui/assets/plugins/usage/page.js#L2370) |
+| i | VariableDeclaration | renderSessionsLoading | [2373](../../magpie/internal/gui/assets/plugins/usage/page.js#L2373) |
+| r | VariableDeclaration | renderSessionsLoading | [2374](../../magpie/internal/gui/assets/plugins/usage/page.js#L2374) |
+| SESS_INDEX_SHOW | VariableDeclaration |  | [2381](../../magpie/internal/gui/assets/plugins/usage/page.js#L2381) |
+| sessWatchIndex | FunctionDeclaration |  | [2387](../../magpie/internal/gui/assets/plugins/usage/page.js#L2387) |
+| on | VariableDeclaration | sessWatchIndex | [2388](../../magpie/internal/gui/assets/plugins/usage/page.js#L2388) |
+| timer | VariableDeclaration | sessWatchIndex | [2388](../../magpie/internal/gui/assets/plugins/usage/page.js#L2388) |
+| shown | VariableDeclaration | sessWatchIndex | [2388](../../magpie/internal/gui/assets/plugins/usage/page.js#L2388) |
+| since | VariableDeclaration | sessWatchIndex | [2388](../../magpie/internal/gui/assets/plugins/usage/page.js#L2388) |
+| tick | VariableDeclaration | sessWatchIndex | [2389](../../magpie/internal/gui/assets/plugins/usage/page.js#L2389) |
+| p | VariableDeclaration | sessWatchIndex.tick | [2391](../../magpie/internal/gui/assets/plugins/usage/page.js#L2391) |
+| long | VariableDeclaration | sessWatchIndex.tick | [2400](../../magpie/internal/gui/assets/plugins/usage/page.js#L2400) |
+| stats | VariableDeclaration | sessWatchIndex.tick | [2402](../../magpie/internal/gui/assets/plugins/usage/page.js#L2402) |
+| hero | VariableDeclaration | sessWatchIndex.tick | [2403](../../magpie/internal/gui/assets/plugins/usage/page.js#L2403) |
+| SESS_TIPS | VariableDeclaration |  | [2427](../../magpie/internal/gui/assets/plugins/usage/page.js#L2427) |
+| sessIndexHero | FunctionDeclaration |  | [2433](../../magpie/internal/gui/assets/plugins/usage/page.js#L2433) |
+| hero | VariableDeclaration | sessIndexHero | [2434](../../magpie/internal/gui/assets/plugins/usage/page.js#L2434) |
+| field | VariableDeclaration | sessIndexHero | [2436](../../magpie/internal/gui/assets/plugins/usage/page.js#L2436) |
+| cv | VariableDeclaration | sessIndexHero | [2437](../../magpie/internal/gui/assets/plugins/usage/page.js#L2437) |
+| words | VariableDeclaration | sessIndexHero | [2440](../../magpie/internal/gui/assets/plugins/usage/page.js#L2440) |
+| head | VariableDeclaration | sessIndexHero | [2441](../../magpie/internal/gui/assets/plugins/usage/page.js#L2441) |
+| pct | VariableDeclaration | sessIndexHero | [2443](../../magpie/internal/gui/assets/plugins/usage/page.js#L2443) |
+| num | VariableDeclaration | sessIndexHero | [2444](../../magpie/internal/gui/assets/plugins/usage/page.js#L2444) |
+| line | VariableDeclaration | sessIndexHero | [2446](../../magpie/internal/gui/assets/plugins/usage/page.js#L2446) |
+| tip | VariableDeclaration | sessIndexHero | [2447](../../magpie/internal/gui/assets/plugins/usage/page.js#L2447) |
+| bar | VariableDeclaration | sessIndexHero | [2449](../../magpie/internal/gui/assets/plugins/usage/page.js#L2449) |
+| fill | VariableDeclaration | sessIndexHero | [2450](../../magpie/internal/gui/assets/plugins/usage/page.js#L2450) |
+| reduced | VariableDeclaration | sessIndexHero | [2454](../../magpie/internal/gui/assets/plugins/usage/page.js#L2454) |
+| frac | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| shown | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| known | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| tipAt | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| tipI | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| rate | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| last | VariableDeclaration | sessIndexHero | [2455](../../magpie/internal/gui/assets/plugins/usage/page.js#L2455) |
+| done | VariableDeclaration | sessIndexHero | [2456](../../magpie/internal/gui/assets/plugins/usage/page.js#L2456) |
+| f | VariableDeclaration | sessIndexHero | [2472](../../magpie/internal/gui/assets/plugins/usage/page.js#L2472) |
+| r | VariableDeclaration | sessIndexHero | [2475](../../magpie/internal/gui/assets/plugins/usage/page.js#L2475) |
+| left | VariableDeclaration | sessIndexHero | [2484](../../magpie/internal/gui/assets/plugins/usage/page.js#L2484) |
+| ctx | VariableDeclaration | sessIndexHero | [2500](../../magpie/internal/gui/assets/plugins/usage/page.js#L2500) |
+| GAP | VariableDeclaration | sessIndexHero | [2501](../../magpie/internal/gui/assets/plugins/usage/page.js#L2501) |
+| W | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| H | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| dpr | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| dots | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| ink | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| accent | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| frame | VariableDeclaration | sessIndexHero | [2502](../../magpie/internal/gui/assets/plugins/usage/page.js#L2502) |
+| colours | VariableDeclaration | sessIndexHero | [2503](../../magpie/internal/gui/assets/plugins/usage/page.js#L2503) |
+| c | VariableDeclaration | sessIndexHero.colours | [2504](../../magpie/internal/gui/assets/plugins/usage/page.js#L2504) |
+| size | VariableDeclaration | sessIndexHero | [2508](../../magpie/internal/gui/assets/plugins/usage/page.js#L2508) |
+| r | VariableDeclaration | sessIndexHero.size | [2510](../../magpie/internal/gui/assets/plugins/usage/page.js#L2510) |
+| cols | VariableDeclaration | sessIndexHero.size | [2515](../../magpie/internal/gui/assets/plugins/usage/page.js#L2515) |
+| rows | VariableDeclaration | sessIndexHero.size | [2515](../../magpie/internal/gui/assets/plugins/usage/page.js#L2515) |
+| ox | VariableDeclaration | sessIndexHero.size | [2516](../../magpie/internal/gui/assets/plugins/usage/page.js#L2516) |
+| oy | VariableDeclaration | sessIndexHero.size | [2516](../../magpie/internal/gui/assets/plugins/usage/page.js#L2516) |
+| j | VariableDeclaration | sessIndexHero.size | [2518](../../magpie/internal/gui/assets/plugins/usage/page.js#L2518) |
+| i | VariableDeclaration | sessIndexHero.size | [2518](../../magpie/internal/gui/assets/plugins/usage/page.js#L2518) |
+| seed | VariableDeclaration | sessIndexHero.size | [2519](../../magpie/internal/gui/assets/plugins/usage/page.js#L2519) |
+| paint | FunctionDeclaration | sessIndexHero | [2525](../../magpie/internal/gui/assets/plugins/usage/page.js#L2525) |
+| T | VariableDeclaration | sessIndexHero.paint | [2528](../../magpie/internal/gui/assets/plugins/usage/page.js#L2528) |
+| scan | VariableDeclaration | sessIndexHero.paint | [2533](../../magpie/internal/gui/assets/plugins/usage/page.js#L2533) |
+| gx | VariableDeclaration | sessIndexHero.paint | [2535](../../magpie/internal/gui/assets/plugins/usage/page.js#L2535) |
+| glow | VariableDeclaration | sessIndexHero.paint | [2536](../../magpie/internal/gui/assets/plugins/usage/page.js#L2536) |
+| d | VariableDeclaration | sessIndexHero.paint | [2541](../../magpie/internal/gui/assets/plugins/usage/page.js#L2541) |
