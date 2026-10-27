@@ -8,8 +8,8 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [plugins/magpie-agent-cursor-bridge/test/agent.test.js](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) | 52 | [1](plugins_magpie-agent-cursor-bridge_test_agent.test.js-a9d01baa-1.md) |
-| [plugins/magpie-agent-cursor-bridge/test/config.test.js](../../plugins/magpie-agent-cursor-bridge/test/config.test.js) | 3 | [1](plugins_magpie-agent-cursor-bridge_test_config.test.js-50ae5afb-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/agent.test.js](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) | 58 | [1](plugins_magpie-agent-cursor-bridge_test_agent.test.js-a9d01baa-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/config.test.js](../../plugins/magpie-agent-cursor-bridge/test/config.test.js) | 4 | [1](plugins_magpie-agent-cursor-bridge_test_config.test.js-50ae5afb-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/install.test.js](../../plugins/magpie-agent-cursor-bridge/test/install.test.js) | 59 | [1](plugins_magpie-agent-cursor-bridge_test_install.test.js-d67a2ae9-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/lock.test.js](../../plugins/magpie-agent-cursor-bridge/test/lock.test.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_lock.test.js-26b0e50f-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/magpie.test.js](../../plugins/magpie-agent-cursor-bridge/test/magpie.test.js) | 11 | [1](plugins_magpie-agent-cursor-bridge_test_magpie.test.js-d2cb6265-1.md) |

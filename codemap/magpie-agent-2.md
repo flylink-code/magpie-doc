@@ -9,6 +9,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/agent/route.go](../../magpie/internal/agent/route.go) | 22 | [1](magpie_internal_agent_route.go-4e68d33d-1.md) |
 | [magpie/internal/agent/running_darwin.go](../../magpie/internal/agent/running_darwin.go) | 1 | [1](magpie_internal_agent_running_darwin.go-9924d7c0-1.md) |
 | [magpie/internal/agent/running_other.go](../../magpie/internal/agent/running_other.go) | 1 | [1](magpie_internal_agent_running_other.go-c56b1079-1.md) |
 | [magpie/internal/agent/scope_gone.go](../../magpie/internal/agent/scope_gone.go) | 19 | [1](magpie_internal_agent_scope_gone.go-700c027b-1.md) |
@@ -22,7 +23,7 @@
 | [magpie/internal/agent/workbuddy.go](../../magpie/internal/agent/workbuddy.go) | 28 | [1](magpie_internal_agent_workbuddy.go-df94b485-1.md) |
 | [magpie/internal/agent/writable_other.go](../../magpie/internal/agent/writable_other.go) | 1 | [1](magpie_internal_agent_writable_other.go-ad0dd4eb-1.md) |
 | [magpie/internal/agent/writable_windows.go](../../magpie/internal/agent/writable_windows.go) | 1 | [1](magpie_internal_agent_writable_windows.go-4dcaf9c3-1.md) |
-| [magpie/internal/agent/wsl.go](../../magpie/internal/agent/wsl.go) | 115 | [1](magpie_internal_agent_wsl.go-408ebd0c-1.md) [2](magpie_internal_agent_wsl.go-408ebd0c-2.md) |
+| [magpie/internal/agent/wsl.go](../../magpie/internal/agent/wsl.go) | 116 | [1](magpie_internal_agent_wsl.go-408ebd0c-1.md) [2](magpie_internal_agent_wsl.go-408ebd0c-2.md) |
 | [magpie/internal/agent/wsl_fake.go](../../magpie/internal/agent/wsl_fake.go) | 3 | [1](magpie_internal_agent_wsl_fake.go-af219f28-1.md) |
 | [magpie/internal/agent/zcode.go](../../magpie/internal/agent/zcode.go) | 48 | [1](magpie_internal_agent_zcode.go-92ed26d4-1.md) |
 | [magpie/internal/agent/zed.go](../../magpie/internal/agent/zed.go) | 15 | [1](magpie_internal_agent_zed.go-5f8f0d77-1.md) |

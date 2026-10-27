@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/market.go) · page 2/2
 
-Source SHA-256: 163786b46aae8824f10bf9ed02821618c6aff2a133dd2ffc85acb10e1a2ecf6e
+Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -41,22 +41,22 @@ Source SHA-256: 163786b46aae8824f10bf9ed02821618c6aff2a133dd2ffc85acb10e1a2ecf6e
 | cachedAbout | function_declaration |  | [974](../../magpie/internal/library/market.go#L974) |
 | SkillsAbout | function_declaration |  | [988](../../magpie/internal/library/market.go#L988) |
 | InstallMarketSkill | function_declaration |  | [1042](../../magpie/internal/library/market.go#L1042) |
-| Icon | function_declaration |  | [1074](../../magpie/internal/library/market.go#L1074) |
-| offered | function_declaration |  | [1098](../../magpie/internal/library/market.go#L1098) |
-| fetchImage | function_declaration |  | [1123](../../magpie/internal/library/market.go#L1123) |
-| client | var_spec |  | [1140](../../magpie/internal/library/market.go#L1140) |
-| registryTimeout | var_spec |  | [1147](../../magpie/internal/library/market.go#L1147) |
-| registryClient | var_spec |  | [1151](../../magpie/internal/library/market.go#L1151) |
-| SearchError | struct_type |  | [1155](../../magpie/internal/library/market.go#L1155) |
-| Source | field_declaration | SearchError | [1156](../../magpie/internal/library/market.go#L1156) |
-| Err | field_declaration | SearchError | [1157](../../magpie/internal/library/market.go#L1157) |
-| Error | method_declaration | *SearchError | [1160](../../magpie/internal/library/market.go#L1160) |
-| Unwrap | method_declaration | *SearchError | [1161](../../magpie/internal/library/market.go#L1161) |
-| retryPause | var_spec |  | [1165](../../magpie/internal/library/market.go#L1165) |
-| metaDescRe | var_spec |  | [1167](../../magpie/internal/library/market.go#L1167) |
-| metaDescription | function_declaration |  | [1170](../../magpie/internal/library/market.go#L1170) |
-| get | function_declaration |  | [1178](../../magpie/internal/library/market.go#L1178) |
-| getBy | function_declaration |  | [1183](../../magpie/internal/library/market.go#L1183) |
-| getJSON | function_declaration |  | [1218](../../magpie/internal/library/market.go#L1218) |
-| getJSONBy | function_declaration |  | [1227](../../magpie/internal/library/market.go#L1227) |
-| loadLocked | function_declaration |  | [1236](../../magpie/internal/library/market.go#L1236) |
+| Icon | function_declaration |  | [1076](../../magpie/internal/library/market.go#L1076) |
+| offered | function_declaration |  | [1100](../../magpie/internal/library/market.go#L1100) |
+| fetchImage | function_declaration |  | [1125](../../magpie/internal/library/market.go#L1125) |
+| client | var_spec |  | [1142](../../magpie/internal/library/market.go#L1142) |
+| registryTimeout | var_spec |  | [1149](../../magpie/internal/library/market.go#L1149) |
+| registryClient | var_spec |  | [1153](../../magpie/internal/library/market.go#L1153) |
+| SearchError | struct_type |  | [1157](../../magpie/internal/library/market.go#L1157) |
+| Source | field_declaration | SearchError | [1158](../../magpie/internal/library/market.go#L1158) |
+| Err | field_declaration | SearchError | [1159](../../magpie/internal/library/market.go#L1159) |
+| Error | method_declaration | *SearchError | [1162](../../magpie/internal/library/market.go#L1162) |
+| Unwrap | method_declaration | *SearchError | [1163](../../magpie/internal/library/market.go#L1163) |
+| retryPause | var_spec |  | [1167](../../magpie/internal/library/market.go#L1167) |
+| metaDescRe | var_spec |  | [1169](../../magpie/internal/library/market.go#L1169) |
+| metaDescription | function_declaration |  | [1172](../../magpie/internal/library/market.go#L1172) |
+| get | function_declaration |  | [1180](../../magpie/internal/library/market.go#L1180) |
+| getBy | function_declaration |  | [1185](../../magpie/internal/library/market.go#L1185) |
+| getJSON | function_declaration |  | [1220](../../magpie/internal/library/market.go#L1220) |
+| getJSONBy | function_declaration |  | [1229](../../magpie/internal/library/market.go#L1229) |
+| loadLocked | function_declaration |  | [1238](../../magpie/internal/library/market.go#L1238) |

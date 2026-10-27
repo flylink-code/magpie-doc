@@ -4,12 +4,16 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/dirent/stats.go) · page 1/1
 
-Source SHA-256: d021d4816e8d93a97c79d58b767717297a57613dc7e62fafa34f60ed8f5dee18
+Source SHA-256: bf1e70b282428a0adb198092544e6c8beb4e4ed5343bd14b3274de61cd9cd238
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Stat | struct_type |  | [11](../../magpie/internal/dirent/stats.go#L11) |
-| Mode | field_declaration | Stat | [12](../../magpie/internal/dirent/stats.go#L12) |
-| Size | field_declaration | Stat | [13](../../magpie/internal/dirent/stats.go#L13) |
-| Mod | field_declaration | Stat | [14](../../magpie/internal/dirent/stats.go#L14) |
-| Stats | function_declaration |  | [22](../../magpie/internal/dirent/stats.go#L22) |
+| Stat | struct_type |  | [13](../../magpie/internal/dirent/stats.go#L13) |
+| Mode | field_declaration | Stat | [14](../../magpie/internal/dirent/stats.go#L14) |
+| Size | field_declaration | Stat | [15](../../magpie/internal/dirent/stats.go#L15) |
+| Mod | field_declaration | Stat | [16](../../magpie/internal/dirent/stats.go#L16) |
+| Entry | struct_type |  | [20](../../magpie/internal/dirent/stats.go#L20) |
+| Name | field_declaration | Entry | [21](../../magpie/internal/dirent/stats.go#L21) |
+| Listing | type_spec |  | [29](../../magpie/internal/dirent/stats.go#L29) |
+| Get | method_declaration | Listing | [32](../../magpie/internal/dirent/stats.go#L32) |
+| Stats | function_declaration |  | [44](../../magpie/internal/dirent/stats.go#L44) |

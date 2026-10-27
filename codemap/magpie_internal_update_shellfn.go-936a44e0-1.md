@@ -4,27 +4,31 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/shellfn.go) · page 1/1
 
-Source SHA-256: 8bf341251ffee0cfa14ee18854f9ccf65aef2b02527b395ed24fdec65fda3ccd
+Source SHA-256: 83f78a1aa1a4f8735a7d1934d41b840446f4216fc559dabc5f8c745e9b5fbcab
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ShellBody | type_spec |  | [34](../../magpie/internal/update/shellfn.go#L34) |
-| fnProfile | struct_type |  | [37](../../magpie/internal/update/shellfn.go#L37) |
-| Kind | field_declaration | fnProfile | [38](../../magpie/internal/update/shellfn.go#L38) |
-| Path | field_declaration | fnProfile | [39](../../magpie/internal/update/shellfn.go#L39) |
-| Create | field_declaration | fnProfile | [40](../../magpie/internal/update/shellfn.go#L40) |
+| ShellProfile | struct_type |  | [37](../../magpie/internal/update/shellfn.go#L37) |
+| Kind | field_declaration | ShellProfile | [38](../../magpie/internal/update/shellfn.go#L38) |
+| Path | field_declaration | ShellProfile | [39](../../magpie/internal/update/shellfn.go#L39) |
+| Create | field_declaration | ShellProfile | [40](../../magpie/internal/update/shellfn.go#L40) |
 | fnProfiles | var_spec |  | [45](../../magpie/internal/update/shellfn.go#L45) |
 | fnHome | var_spec |  | [46](../../magpie/internal/update/shellfn.go#L46) |
 | fnMu | var_spec |  | [54](../../magpie/internal/update/shellfn.go#L54) |
 | fnOpen | function_declaration |  | [56](../../magpie/internal/update/shellfn.go#L56) |
 | fnClose | function_declaration |  | [57](../../magpie/internal/update/shellfn.go#L57) |
 | ShellFunction | function_declaration |  | [63](../../magpie/internal/update/shellfn.go#L63) |
-| DropShellFunction | function_declaration |  | [89](../../magpie/internal/update/shellfn.go#L89) |
-| ShellFunctionIn | function_declaration |  | [105](../../magpie/internal/update/shellfn.go#L105) |
-| fnInHome | function_declaration |  | [120](../../magpie/internal/update/shellfn.go#L120) |
-| setFnBlock | function_declaration |  | [131](../../magpie/internal/update/shellfn.go#L131) |
-| lines | function_declaration |  | [164](../../magpie/internal/update/shellfn.go#L164) |
-| fnFind | function_declaration |  | [167](../../magpie/internal/update/shellfn.go#L167) |
-| withFnBlock | function_declaration |  | [180](../../magpie/internal/update/shellfn.go#L180) |
-| clone | function_declaration |  | [229](../../magpie/internal/update/shellfn.go#L229) |
-| TildeHome | function_declaration |  | [232](../../magpie/internal/update/shellfn.go#L232) |
+| DropShellFunction | function_declaration |  | [73](../../magpie/internal/update/shellfn.go#L73) |
+| ShellFunctionIn | function_declaration |  | [76](../../magpie/internal/update/shellfn.go#L76) |
+| homeProfiles | function_declaration |  | [79](../../magpie/internal/update/shellfn.go#L79) |
+| ShellFunctionAt | function_declaration |  | [92](../../magpie/internal/update/shellfn.go#L92) |
+| DropShellFunctionAt | function_declaration |  | [113](../../magpie/internal/update/shellfn.go#L113) |
+| ShellFunctionInAt | function_declaration |  | [129](../../magpie/internal/update/shellfn.go#L129) |
+| fnInHome | function_declaration |  | [141](../../magpie/internal/update/shellfn.go#L141) |
+| setFnBlock | function_declaration |  | [152](../../magpie/internal/update/shellfn.go#L152) |
+| lines | function_declaration |  | [185](../../magpie/internal/update/shellfn.go#L185) |
+| fnFind | function_declaration |  | [188](../../magpie/internal/update/shellfn.go#L188) |
+| withFnBlock | function_declaration |  | [201](../../magpie/internal/update/shellfn.go#L201) |
+| clone | function_declaration |  | [250](../../magpie/internal/update/shellfn.go#L250) |
+| TildeHome | function_declaration |  | [253](../../magpie/internal/update/shellfn.go#L253) |

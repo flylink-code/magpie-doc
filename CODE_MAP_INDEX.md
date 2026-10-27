@@ -7,23 +7,23 @@ Read AGENTS.md → choose module → file/symbol page → source. [Method, comma
 | Module | Files | Symbols | Map |
 | --- | ---: | ---: | --- |
 | bridge-lib | 7 | 167 | [open](codemap/bridge-lib.md) |
-| bridge-root | 7 | 231 | [open](codemap/bridge-root.md) |
+| bridge-root | 7 | 260 | [open](codemap/bridge-root.md) |
 | bridge-scripts | 3 | 0 | [open](codemap/bridge-scripts.md) |
-| bridge-test | 10 | 249 | [open](codemap/bridge-test.md) |
-| magpie-agent | 121 | 2648 | [open](codemap/magpie-agent.md) |
-| magpie-agentplug | 1 | 56 | [open](codemap/magpie-agentplug.md) |
-| magpie-cli | 86 | 1247 | [open](codemap/magpie-cli.md) |
-| magpie-gateway | 210 | 7090 | [open](codemap/magpie-gateway.md) |
+| bridge-test | 10 | 256 | [open](codemap/bridge-test.md) |
+| magpie-agent | 122 | 2668 | [open](codemap/magpie-agent.md) |
+| magpie-agentplug | 1 | 57 | [open](codemap/magpie-agentplug.md) |
+| magpie-cli | 86 | 1254 | [open](codemap/magpie-cli.md) |
+| magpie-gateway | 211 | 7093 | [open](codemap/magpie-gateway.md) |
 | magpie-gui | 168 | 17421 | [open](codemap/magpie-gui.md) |
 | magpie-plugin | 42 | 2275 | [open](codemap/magpie-plugin.md) |
 | magpie-privacy | 33 | 1079 | [open](codemap/magpie-privacy.md) |
-| magpie-provider | 236 | 6685 | [open](codemap/magpie-provider.md) |
-| magpie-sessions | 139 | 4777 | [open](codemap/magpie-sessions.md) |
+| magpie-provider | 237 | 6692 | [open](codemap/magpie-provider.md) |
+| magpie-sessions | 139 | 4796 | [open](codemap/magpie-sessions.md) |
 | magpie-storage | 50 | 1167 | [open](codemap/magpie-storage.md) |
-| magpie-sys | 71 | 737 | [open](codemap/magpie-sys.md) |
-| magpie-usage | 45 | 1408 | [open](codemap/magpie-usage.md) |
+| magpie-sys | 71 | 741 | [open](codemap/magpie-sys.md) |
+| magpie-usage | 45 | 1418 | [open](codemap/magpie-usage.md) |
 | tooling | 2 | 164 | [open](codemap/tooling.md) |
 
-Total: 1231 source files, 47401 extracted symbols, 0 parser diagnostics.
+Total: 1234 source files, 47508 extracted symbols, 0 parser diagnostics.
 
 Scope includes Go/Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT/Patch use lexical navigation.

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate.go) · page 2/2
 
-Source SHA-256: f43541f5ab960e09057b6c2466748680a858be87a47b4efc78faaaf4d10ed955
+Source SHA-256: 5059041357728bc3f285dd5752bb925ffc81eb7ffa94cb89af98905e43626ce3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,5 +26,7 @@ Source SHA-256: f43541f5ab960e09057b6c2466748680a858be87a47b4efc78faaaf4d10ed955
 | KeepRetiringMoved | function_declaration |  | [1126](../../magpie/internal/provider/migrate.go#L1126) |
 | nextRetiringRun | function_declaration |  | [1156](../../magpie/internal/provider/migrate.go#L1156) |
 | MovedOnto | function_declaration |  | [1168](../../magpie/internal/provider/migrate.go#L1168) |
-| RemovePlugin | function_declaration |  | [1189](../../magpie/internal/provider/migrate.go#L1189) |
-| SetPluginOff | function_declaration |  | [1217](../../magpie/internal/provider/migrate.go#L1217) |
+| PluginAgentGoing | var_spec |  | [1189](../../magpie/internal/provider/migrate.go#L1189) |
+| agentGoing | function_declaration |  | [1193](../../magpie/internal/provider/migrate.go#L1193) |
+| RemovePlugin | function_declaration |  | [1210](../../magpie/internal/provider/migrate.go#L1210) |
+| SetPluginOff | function_declaration |  | [1243](../../magpie/internal/provider/migrate.go#L1243) |

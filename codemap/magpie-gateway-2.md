@@ -108,5 +108,5 @@
 | [magpie/internal/gateway/wire_effort.go](../../magpie/internal/gateway/wire_effort.go) | 9 | [1](magpie_internal_gateway_wire_effort.go-2b6ffe2f-1.md) |
 | [magpie/internal/gateway/workdir.go](../../magpie/internal/gateway/workdir.go) | 8 | [1](magpie_internal_gateway_workdir.go-76e98dd6-1.md) |
 | [magpie/internal/gateway/wsl.go](../../magpie/internal/gateway/wsl.go) | 16 | [1](magpie_internal_gateway_wsl.go-bad4864b-1.md) |
+| [magpie/internal/gateway/zcode_trial.go](../../magpie/internal/gateway/zcode_trial.go) | 3 | [1](magpie_internal_gateway_zcode_trial.go-e9af8e53-1.md) |
 | [magpie/internal/gateway/zenfree.go](../../magpie/internal/gateway/zenfree.go) | 15 | [1](magpie_internal_gateway_zenfree.go-a9e15236-1.md) |
-| [magpie/internal/gwbudget/gwbudget.go](../../magpie/internal/gwbudget/gwbudget.go) | 16 | [1](magpie_internal_gwbudget_gwbudget.go-70b7d297-1.md) |

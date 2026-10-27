@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/shellfn_other.go) · page 1/1
 
-Source SHA-256: 469679a554053e2df3dbb67ea608b4668324688d754bb1218c44a671dfce5603
+Source SHA-256: c7164933ec7dd5a96003c49a77508bcbbc2a13d452aae1c03a4bcc3f4e3dcf85
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

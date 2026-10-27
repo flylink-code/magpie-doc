@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/provider/gemini_api.go](../../magpie/internal/provider/gemini_api.go) | 3 | [1](magpie_internal_provider_gemini_api.go-1f33bb24-1.md) |
 | [magpie/internal/provider/google.go](../../magpie/internal/provider/google.go) | 180 | [1](magpie_internal_provider_google.go-849a0e6d-1.md) [2](magpie_internal_provider_google.go-849a0e6d-2.md) |
 | [magpie/internal/provider/google_import.go](../../magpie/internal/provider/google_import.go) | 21 | [1](magpie_internal_provider_google_import.go-6e5997df-1.md) |
 | [magpie/internal/provider/grok.go](../../magpie/internal/provider/grok.go) | 40 | [1](magpie_internal_provider_grok.go-1b460172-1.md) |
@@ -53,7 +54,7 @@
 | [magpie/internal/provider/login_usage.go](../../magpie/internal/provider/login_usage.go) | 27 | [1](magpie_internal_provider_login_usage.go-19ee96de-1.md) |
 | [magpie/internal/provider/logins.go](../../magpie/internal/provider/logins.go) | 112 | [1](magpie_internal_provider_logins.go-c372e7db-1.md) [2](magpie_internal_provider_logins.go-c372e7db-2.md) |
 | [magpie/internal/provider/logins_on.go](../../magpie/internal/provider/logins_on.go) | 13 | [1](magpie_internal_provider_logins_on.go-7bc7c437-1.md) |
-| [magpie/internal/provider/migrate.go](../../magpie/internal/provider/migrate.go) | 120 | [1](magpie_internal_provider_migrate.go-d804c21e-1.md) [2](magpie_internal_provider_migrate.go-d804c21e-2.md) |
+| [magpie/internal/provider/migrate.go](../../magpie/internal/provider/migrate.go) | 122 | [1](magpie_internal_provider_migrate.go-d804c21e-1.md) [2](magpie_internal_provider_migrate.go-d804c21e-2.md) |
 | [magpie/internal/provider/migrate_factory.go](../../magpie/internal/provider/migrate_factory.go) | 2 | [1](magpie_internal_provider_migrate_factory.go-c9a64f64-1.md) |
 | [magpie/internal/provider/migrate_kiro.go](../../magpie/internal/provider/migrate_kiro.go) | 4 | [1](magpie_internal_provider_migrate_kiro.go-6c168796-1.md) |
 | [magpie/internal/provider/migrate_mimo.go](../../magpie/internal/provider/migrate_mimo.go) | 8 | [1](magpie_internal_provider_migrate_mimo.go-ca4bcd3c-1.md) |
@@ -109,4 +110,3 @@
 | [magpie/internal/provider/routing.go](../../magpie/internal/provider/routing.go) | 58 | [1](magpie_internal_provider_routing.go-572e4bca-1.md) |
 | [magpie/internal/provider/rulefolder.go](../../magpie/internal/provider/rulefolder.go) | 9 | [1](magpie_internal_provider_rulefolder.go-a03b4842-1.md) |
 | [magpie/internal/provider/ruleparse.go](../../magpie/internal/provider/ruleparse.go) | 11 | [1](magpie_internal_provider_ruleparse.go-9d3c4a77-1.md) |
-| [magpie/internal/provider/search_api.go](../../magpie/internal/provider/search_api.go) | 33 | [1](magpie_internal_provider_search_api.go-ab4ff0dd-1.md) |

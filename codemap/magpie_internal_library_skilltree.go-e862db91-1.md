@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skilltree.go) · page 1/1
 
-Source SHA-256: 7b7aa66a233d68c6171fb68f4f905ebd1ebdf2a360ca320a7fda6c0b745d7079
+Source SHA-256: 7203a7a9db57248336f8e166abd0f34958491205631d91d176442c082c580863
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,15 +17,16 @@ Source SHA-256: 7b7aa66a233d68c6171fb68f4f905ebd1ebdf2a360ca320a7fda6c0b745d7079
 | has | method_declaration | *repoSet | [49](../../magpie/internal/library/skilltree.go#L49) |
 | add | method_declaration | *repoSet | [55](../../magpie/internal/library/skilltree.go#L55) |
 | rawURL | var_spec |  | [63](../../magpie/internal/library/skilltree.go#L63) |
-| fetchSkillFiles | function_declaration |  | [78](../../magpie/internal/library/skilltree.go#L78) |
-| file | struct_type | fetchSkillFiles | [111](../../magpie/internal/library/skilltree.go#L111) |
-| path | field_declaration | fetchSkillFiles.file | [112](../../magpie/internal/library/skilltree.go#L112) |
-| sha | field_declaration | fetchSkillFiles.file | [112](../../magpie/internal/library/skilltree.go#L112) |
-| exec | field_declaration | fetchSkillFiles.file | [113](../../magpie/internal/library/skilltree.go#L113) |
-| LeftOut | struct_type |  | [213](../../magpie/internal/library/skilltree.go#L213) |
-| Path | field_declaration | LeftOut | [214](../../magpie/internal/library/skilltree.go#L214) |
-| Size | field_declaration | LeftOut | [215](../../magpie/internal/library/skilltree.go#L215) |
-| leftOut | var_spec |  | [220](../../magpie/internal/library/skilltree.go#L220) |
-| tookLeftOut | function_declaration |  | [227](../../magpie/internal/library/skilltree.go#L227) |
-| mb | function_declaration |  | [242](../../magpie/internal/library/skilltree.go#L242) |
-| fetchBlob | function_declaration |  | [248](../../magpie/internal/library/skilltree.go#L248) |
+| fetchSkillFiles | function_declaration |  | [82](../../magpie/internal/library/skilltree.go#L82) |
+| file | struct_type | fetchSkillFiles | [123](../../magpie/internal/library/skilltree.go#L123) |
+| path | field_declaration | fetchSkillFiles.file | [124](../../magpie/internal/library/skilltree.go#L124) |
+| sha | field_declaration | fetchSkillFiles.file | [124](../../magpie/internal/library/skilltree.go#L124) |
+| exec | field_declaration | fetchSkillFiles.file | [125](../../magpie/internal/library/skilltree.go#L125) |
+| inRepoDir | function_declaration |  | [229](../../magpie/internal/library/skilltree.go#L229) |
+| LeftOut | struct_type |  | [235](../../magpie/internal/library/skilltree.go#L235) |
+| Path | field_declaration | LeftOut | [236](../../magpie/internal/library/skilltree.go#L236) |
+| Size | field_declaration | LeftOut | [237](../../magpie/internal/library/skilltree.go#L237) |
+| leftOut | var_spec |  | [242](../../magpie/internal/library/skilltree.go#L242) |
+| tookLeftOut | function_declaration |  | [249](../../magpie/internal/library/skilltree.go#L249) |
+| mb | function_declaration |  | [264](../../magpie/internal/library/skilltree.go#L264) |
+| fetchBlob | function_declaration |  | [270](../../magpie/internal/library/skilltree.go#L270) |

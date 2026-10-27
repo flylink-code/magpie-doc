@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/one_listing.go) · page 1/1
 
-Source SHA-256: 31b3907d9c878a4bf321fd0c3ddcf2d7d47a5f8bb4e6daaa2be22dedea1e939c
+Source SHA-256: 1f247579616e934620103ab7acaf209f573d7f715663d658cf8dc36899d25fca
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,5 +12,9 @@ Source SHA-256: 31b3907d9c878a4bf321fd0c3ddcf2d7d47a5f8bb4e6daaa2be22dedea1e939c
 | heldList | struct_type |  | [21](../../magpie/internal/sessions/one_listing.go#L21) |
 | at | field_declaration | heldList | [22](../../magpie/internal/sessions/one_listing.go#L22) |
 | files | field_declaration | heldList | [23](../../magpie/internal/sessions/one_listing.go#L23) |
-| OneListing | function_declaration |  | [30](../../magpie/internal/sessions/one_listing.go#L30) |
-| heldFiles | function_declaration |  | [46](../../magpie/internal/sessions/one_listing.go#L46) |
+| ready | field_declaration | heldList | [26](../../magpie/internal/sessions/one_listing.go#L26) |
+| OneListing | function_declaration |  | [33](../../magpie/internal/sessions/one_listing.go#L33) |
+| ShareListing | function_declaration |  | [47](../../magpie/internal/sessions/one_listing.go#L47) |
+| letGo | function_declaration |  | [56](../../magpie/internal/sessions/one_listing.go#L56) |
+| heldWaiting | var_spec |  | [67](../../magpie/internal/sessions/one_listing.go#L67) |
+| heldFiles | function_declaration |  | [72](../../magpie/internal/sessions/one_listing.go#L72) |

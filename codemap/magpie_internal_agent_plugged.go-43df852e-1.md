@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/plugged.go) · page 1/1
 
-Source SHA-256: fa7a94a70f680363c3cdd72aeb3d42e407cf3d1a085ef149a44019a1843cc5ab
+Source SHA-256: 8b6f49bb1e4217cefd36ca8b8d96fa5bfd33fc08cff6f69b7bea00d910948e07
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,19 +15,23 @@ Source SHA-256: fa7a94a70f680363c3cdd72aeb3d42e407cf3d1a085ef149a44019a1843cc5ab
 | Mark | field_declaration | pluggedStash | [51](../../magpie/internal/agent/plugged.go#L51) |
 | Value | field_declaration | pluggedStash | [52](../../magpie/internal/agent/plugged.go#L52) |
 | Wrote | field_declaration | pluggedStash | [55](../../magpie/internal/agent/plugged.go#L55) |
-| PluginErrors | function_declaration |  | [60](../../magpie/internal/agent/plugged.go#L60) |
-| PluginAgentOf | function_declaration |  | [68](../../magpie/internal/agent/plugged.go#L68) |
-| pluggedAgents | function_declaration |  | [80](../../magpie/internal/agent/plugged.go#L80) |
-| PluginPath | function_declaration |  | [112](../../magpie/internal/agent/plugged.go#L112) |
-| pluggedPath | function_declaration |  | [119](../../magpie/internal/agent/plugged.go#L119) |
-| pluggedFile | struct_type |  | [133](../../magpie/internal/agent/plugged.go#L133) |
-| path | field_declaration | pluggedFile | [134](../../magpie/internal/agent/plugged.go#L134) |
-| format | field_declaration | pluggedFile | [134](../../magpie/internal/agent/plugged.go#L134) |
-| get | method_declaration | pluggedFile | [138](../../magpie/internal/agent/plugged.go#L138) |
-| raw | method_declaration | pluggedFile | [149](../../magpie/internal/agent/plugged.go#L149) |
-| back | method_declaration | pluggedFile | [165](../../magpie/internal/agent/plugged.go#L165) |
-| set | method_declaration | pluggedFile | [175](../../magpie/internal/agent/plugged.go#L175) |
-| del | method_declaration | pluggedFile | [198](../../magpie/internal/agent/plugged.go#L198) |
-| plugged | function_declaration |  | [212](../../magpie/internal/agent/plugged.go#L212) |
-| pluggedIcon | function_declaration |  | [465](../../magpie/internal/agent/plugged.go#L465) |
-| sortedKeys | function_declaration |  | [476](../../magpie/internal/agent/plugged.go#L476) |
+| Spec | field_declaration | pluggedStash | [59](../../magpie/internal/agent/plugged.go#L59) |
+| Format | field_declaration | pluggedStash | [60](../../magpie/internal/agent/plugged.go#L60) |
+| PluginErrors | function_declaration |  | [65](../../magpie/internal/agent/plugged.go#L65) |
+| PluginAgentOf | function_declaration |  | [73](../../magpie/internal/agent/plugged.go#L73) |
+| pluggedAgents | function_declaration |  | [85](../../magpie/internal/agent/plugged.go#L85) |
+| PluginPath | function_declaration |  | [117](../../magpie/internal/agent/plugged.go#L117) |
+| pluggedPath | function_declaration |  | [124](../../magpie/internal/agent/plugged.go#L124) |
+| pluggedFile | struct_type |  | [138](../../magpie/internal/agent/plugged.go#L138) |
+| path | field_declaration | pluggedFile | [139](../../magpie/internal/agent/plugged.go#L139) |
+| format | field_declaration | pluggedFile | [139](../../magpie/internal/agent/plugged.go#L139) |
+| get | method_declaration | pluggedFile | [143](../../magpie/internal/agent/plugged.go#L143) |
+| raw | method_declaration | pluggedFile | [154](../../magpie/internal/agent/plugged.go#L154) |
+| back | method_declaration | pluggedFile | [170](../../magpie/internal/agent/plugged.go#L170) |
+| set | method_declaration | pluggedFile | [180](../../magpie/internal/agent/plugged.go#L180) |
+| del | method_declaration | pluggedFile | [203](../../magpie/internal/agent/plugged.go#L203) |
+| wired | method_declaration | pluggedFile | [218](../../magpie/internal/agent/plugged.go#L218) |
+| restore | method_declaration | pluggedFile | [228](../../magpie/internal/agent/plugged.go#L228) |
+| plugged | function_declaration |  | [249](../../magpie/internal/agent/plugged.go#L249) |
+| pluggedIcon | function_declaration |  | [475](../../magpie/internal/agent/plugged.go#L475) |
+| sortedKeys | function_declaration |  | [486](../../magpie/internal/agent/plugged.go#L486) |

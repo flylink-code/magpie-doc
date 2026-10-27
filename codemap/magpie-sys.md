@@ -13,7 +13,7 @@
 | [magpie/build/race-shards.sh](../../magpie/build/race-shards.sh) | 0 | [1](magpie_build_race-shards.sh-ae0d4b68-1.md) |
 | [magpie/internal/beat/beat.go](../../magpie/internal/beat/beat.go) | 2 | [1](magpie_internal_beat_beat.go-1b53bd62-1.md) |
 | [magpie/internal/dirent/dirent.go](../../magpie/internal/dirent/dirent.go) | 1 | [1](magpie_internal_dirent_dirent.go-80b6801d-1.md) |
-| [magpie/internal/dirent/stats.go](../../magpie/internal/dirent/stats.go) | 5 | [1](magpie_internal_dirent_stats.go-ea615149-1.md) |
+| [magpie/internal/dirent/stats.go](../../magpie/internal/dirent/stats.go) | 9 | [1](magpie_internal_dirent_stats.go-ea615149-1.md) |
 | [magpie/internal/dirent/stats_darwin.go](../../magpie/internal/dirent/stats_darwin.go) | 19 | [1](magpie_internal_dirent_stats_darwin.go-a723e004-1.md) |
 | [magpie/internal/dirent/stats_other.go](../../magpie/internal/dirent/stats_other.go) | 1 | [1](magpie_internal_dirent_stats_other.go-755109f2-1.md) |
 | [magpie/internal/fx/fx.go](../../magpie/internal/fx/fx.go) | 24 | [1](magpie_internal_fx_fx.go-6211c532-1.md) |

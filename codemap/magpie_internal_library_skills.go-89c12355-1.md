@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skills.go) · page 1/2
 
-Source SHA-256: c51e64aedc74aee4f880fa69cd2b3f3533d4be42b02f56aa221c9e463a55865f
+Source SHA-256: 7a01b7e89f35e1de006e71f54615ccd61241fb7deaa8b7206547bbc303fc5fda
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -80,31 +80,31 @@ Source SHA-256: c51e64aedc74aee4f880fa69cd2b3f3533d4be42b02f56aa221c9e463a55865f
 | expand | function_declaration |  | [739](../../magpie/internal/library/skills.go#L739) |
 | tarballURL | var_spec |  | [751](../../magpie/internal/library/skills.go#L751) |
 | remote | method_declaration | *Source | [760](../../magpie/internal/library/skills.go#L760) |
-| fetch | function_declaration |  | [768](../../magpie/internal/library/skills.go#L768) |
-| untar | function_declaration |  | [838](../../magpie/internal/library/skills.go#L838) |
-| candidates | function_declaration |  | [896](../../magpie/internal/library/skills.go#L896) |
-| inHidden | function_declaration |  | [939](../../magpie/internal/library/skills.go#L939) |
-| unhiddenFirst | function_declaration |  | [950](../../magpie/internal/library/skills.go#L950) |
-| skillsCommand | function_declaration |  | [981](../../magpie/internal/library/skills.go#L981) |
-| ProbeSkills | function_declaration |  | [1014](../../magpie/internal/library/skills.go#L1014) |
-| cachedProbe | function_declaration |  | [1065](../../magpie/internal/library/skills.go#L1065) |
-| InstallSkills | function_declaration |  | [1081](../../magpie/internal/library/skills.go#L1081) |
-| installed | struct_type |  | [1091](../../magpie/internal/library/skills.go#L1091) |
-| added | field_declaration | installed | [1092](../../magpie/internal/library/skills.go#L1092) |
-| had | field_declaration | installed | [1092](../../magpie/internal/library/skills.go#L1092) |
-| skipped | field_declaration | installed | [1093](../../magpie/internal/library/skills.go#L1093) |
-| skip | method_declaration | *installed | [1096](../../magpie/internal/library/skills.go#L1096) |
-| installChange | function_declaration |  | [1104](../../magpie/internal/library/skills.go#L1104) |
-| fromSameSource | function_declaration |  | [1123](../../magpie/internal/library/skills.go#L1123) |
-| installFrom | function_declaration |  | [1143](../../magpie/internal/library/skills.go#L1143) |
-| UpdateSkill | function_declaration |  | [1245](../../magpie/internal/library/skills.go#L1245) |
-| UpdateSkills | function_declaration |  | [1288](../../magpie/internal/library/skills.go#L1288) |
-| UpdateSomeSkills | function_declaration |  | [1292](../../magpie/internal/library/skills.go#L1292) |
-| updateSkills | function_declaration |  | [1299](../../magpie/internal/library/skills.go#L1299) |
-| updatable | function_declaration |  | [1385](../../magpie/internal/library/skills.go#L1385) |
-| fetcher | struct_type |  | [1395](../../magpie/internal/library/skills.go#L1395) |
-| mu | field_declaration | fetcher | [1396](../../magpie/internal/library/skills.go#L1396) |
-| got | field_declaration | fetcher | [1397](../../magpie/internal/library/skills.go#L1397) |
-| dirs | field_declaration | fetcher | [1398](../../magpie/internal/library/skills.go#L1398) |
-| fetched | struct_type |  | [1401](../../magpie/internal/library/skills.go#L1401) |
-| once | field_declaration | fetched | [1402](../../magpie/internal/library/skills.go#L1402) |
+| fetch | function_declaration |  | [771](../../magpie/internal/library/skills.go#L771) |
+| fetchPart | function_declaration |  | [776](../../magpie/internal/library/skills.go#L776) |
+| fetchWhole | function_declaration |  | [785](../../magpie/internal/library/skills.go#L785) |
+| untar | function_declaration |  | [852](../../magpie/internal/library/skills.go#L852) |
+| candidates | function_declaration |  | [910](../../magpie/internal/library/skills.go#L910) |
+| inHidden | function_declaration |  | [953](../../magpie/internal/library/skills.go#L953) |
+| unhiddenFirst | function_declaration |  | [964](../../magpie/internal/library/skills.go#L964) |
+| skillsCommand | function_declaration |  | [995](../../magpie/internal/library/skills.go#L995) |
+| ProbeSkills | function_declaration |  | [1028](../../magpie/internal/library/skills.go#L1028) |
+| probeSkills | function_declaration |  | [1034](../../magpie/internal/library/skills.go#L1034) |
+| cachedProbe | function_declaration |  | [1089](../../magpie/internal/library/skills.go#L1089) |
+| probeKey | function_declaration |  | [1093](../../magpie/internal/library/skills.go#L1093) |
+| cachedProbeFor | function_declaration |  | [1097](../../magpie/internal/library/skills.go#L1097) |
+| InstallSkills | function_declaration |  | [1119](../../magpie/internal/library/skills.go#L1119) |
+| installed | struct_type |  | [1129](../../magpie/internal/library/skills.go#L1129) |
+| added | field_declaration | installed | [1130](../../magpie/internal/library/skills.go#L1130) |
+| had | field_declaration | installed | [1130](../../magpie/internal/library/skills.go#L1130) |
+| skipped | field_declaration | installed | [1131](../../magpie/internal/library/skills.go#L1131) |
+| skip | method_declaration | *installed | [1134](../../magpie/internal/library/skills.go#L1134) |
+| installChange | function_declaration |  | [1142](../../magpie/internal/library/skills.go#L1142) |
+| fromSameSource | function_declaration |  | [1161](../../magpie/internal/library/skills.go#L1161) |
+| installFrom | function_declaration |  | [1181](../../magpie/internal/library/skills.go#L1181) |
+| UpdateSkill | function_declaration |  | [1283](../../magpie/internal/library/skills.go#L1283) |
+| UpdateSkills | function_declaration |  | [1326](../../magpie/internal/library/skills.go#L1326) |
+| UpdateSomeSkills | function_declaration |  | [1330](../../magpie/internal/library/skills.go#L1330) |
+| updateSkills | function_declaration |  | [1337](../../magpie/internal/library/skills.go#L1337) |
+| updatable | function_declaration |  | [1423](../../magpie/internal/library/skills.go#L1423) |
+| fetcher | struct_type |  | [1436](../../magpie/internal/library/skills.go#L1436) |

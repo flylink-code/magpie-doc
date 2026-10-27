@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/shellfn_windows.go) · page 1/1
 
-Source SHA-256: db4492c22189fd6284eb8c72f0ccac0755a7da018b7316495bb9bee08c167fd2
+Source SHA-256: e209f9f160f863bb01eec1ecaa5e9caf13b74dd4554f6b93d82ebadbcd824ac5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

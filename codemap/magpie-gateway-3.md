@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/gwbudget/gwbudget.go](../../magpie/internal/gwbudget/gwbudget.go) | 16 | [1](magpie_internal_gwbudget_gwbudget.go-70b7d297-1.md) |
 | [magpie/internal/gwmw/gwmw.go](../../magpie/internal/gwmw/gwmw.go) | 65 | [1](magpie_internal_gwmw_gwmw.go-03371e8a-1.md) |
 | [magpie/internal/gwtool/gwtool.go](../../magpie/internal/gwtool/gwtool.go) | 6 | [1](magpie_internal_gwtool_gwtool.go-a2ba097e-1.md) |
 | [magpie/internal/middleware/middleware.go](../../magpie/internal/middleware/middleware.go) | 88 | [1](magpie_internal_middleware_middleware.go-37badf68-1.md) |

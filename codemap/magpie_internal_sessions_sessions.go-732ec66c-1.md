@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/sessions.go) · page 1/3
 
-Source SHA-256: f0a8fd3ae7a6561c98875fdeebfa1c9345418fc2ed50249cb21832d018ae6785
+Source SHA-256: a701623ba2c1f76cbc0d644abf3c6abff55391c6142ba3d8b09e9d6334d40f1b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

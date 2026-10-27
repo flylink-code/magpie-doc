@@ -4,22 +4,23 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/wsl.go) · page 2/2
 
-Source SHA-256: df131446b297289a378c271869a6122d4e301e332664f3435763b683fa9d9512
+Source SHA-256: 87be1f45f62a6e0d9d8820b6c810810ca00e4e82af070e339bb82bc10a7dd719
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| wslProbeScript | var_spec |  | [1281](../../magpie/internal/agent/wsl.go#L1281) |
-| wslProbe | function_declaration |  | [1311](../../magpie/internal/agent/wsl.go#L1311) |
-| parseProbe | function_declaration |  | [1330](../../magpie/internal/agent/wsl.go#L1330) |
-| onWindowsDrive | function_declaration |  | [1407](../../magpie/internal/agent/wsl.go#L1407) |
-| parseDistros | function_declaration |  | [1420](../../magpie/internal/agent/wsl.go#L1420) |
-| decodeWSL | function_declaration |  | [1433](../../magpie/internal/agent/wsl.go#L1433) |
-| wslConfig | function_declaration |  | [1450](../../magpie/internal/agent/wsl.go#L1450) |
-| decodeText | function_declaration |  | [1458](../../magpie/internal/agent/wsl.go#L1458) |
-| wslMirrored | function_declaration |  | [1471](../../magpie/internal/agent/wsl.go#L1471) |
-| wslOff | function_declaration |  | [1478](../../magpie/internal/agent/wsl.go#L1478) |
-| wslSetting | function_declaration |  | [1486](../../magpie/internal/agent/wsl.go#L1486) |
-| noticeWSLNotMirrored | var_spec |  | [1516](../../magpie/internal/agent/wsl.go#L1516) |
-| noticeWSLNoMode | var_spec |  | [1517](../../magpie/internal/agent/wsl.go#L1517) |
-| noticeWSLNoRelay | var_spec |  | [1518](../../magpie/internal/agent/wsl.go#L1518) |
-| noticeWSLAsleep | var_spec |  | [1519](../../magpie/internal/agent/wsl.go#L1519) |
+| wslProbeVersion | const_spec |  | [1280](../../magpie/internal/agent/wsl.go#L1280) |
+| wslProbeScript | var_spec |  | [1300](../../magpie/internal/agent/wsl.go#L1300) |
+| wslProbe | function_declaration |  | [1330](../../magpie/internal/agent/wsl.go#L1330) |
+| parseProbe | function_declaration |  | [1349](../../magpie/internal/agent/wsl.go#L1349) |
+| onWindowsDrive | function_declaration |  | [1426](../../magpie/internal/agent/wsl.go#L1426) |
+| parseDistros | function_declaration |  | [1439](../../magpie/internal/agent/wsl.go#L1439) |
+| decodeWSL | function_declaration |  | [1452](../../magpie/internal/agent/wsl.go#L1452) |
+| wslConfig | function_declaration |  | [1469](../../magpie/internal/agent/wsl.go#L1469) |
+| decodeText | function_declaration |  | [1477](../../magpie/internal/agent/wsl.go#L1477) |
+| wslMirrored | function_declaration |  | [1490](../../magpie/internal/agent/wsl.go#L1490) |
+| wslOff | function_declaration |  | [1497](../../magpie/internal/agent/wsl.go#L1497) |
+| wslSetting | function_declaration |  | [1505](../../magpie/internal/agent/wsl.go#L1505) |
+| noticeWSLNotMirrored | var_spec |  | [1535](../../magpie/internal/agent/wsl.go#L1535) |
+| noticeWSLNoMode | var_spec |  | [1536](../../magpie/internal/agent/wsl.go#L1536) |
+| noticeWSLNoRelay | var_spec |  | [1537](../../magpie/internal/agent/wsl.go#L1537) |
+| noticeWSLAsleep | var_spec |  | [1538](../../magpie/internal/agent/wsl.go#L1538) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skillcheck.go) · page 1/1
 
-Source SHA-256: e494d8ae2101eccdedc97bf14eddc54f2ec34a855ed0bb534d84e214b983bebb
+Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -36,10 +36,12 @@ Source SHA-256: e494d8ae2101eccdedc97bf14eddc54f2ec34a855ed0bb534d84e214b983bebb
 | Committer | field_declaration | commit | [114](../../magpie/internal/library/skillcheck.go#L114) |
 | Date | field_declaration | commit | [115](../../magpie/internal/library/skillcheck.go#L115) |
 | lastCommit | function_declaration |  | [123](../../magpie/internal/library/skillcheck.go#L123) |
-| apiGet | function_declaration |  | [162](../../magpie/internal/library/skillcheck.go#L162) |
-| hashDir | function_declaration |  | [195](../../magpie/internal/library/skillcheck.go#L195) |
-| hashFiles | function_declaration |  | [200](../../magpie/internal/library/skillcheck.go#L200) |
-| hashWalk | function_declaration |  | [207](../../magpie/internal/library/skillcheck.go#L207) |
-| firstLine | function_declaration |  | [263](../../magpie/internal/library/skillcheck.go#L263) |
-| CheckSkills | function_declaration |  | [280](../../magpie/internal/library/skillcheck.go#L280) |
-| checkSkill | function_declaration |  | [388](../../magpie/internal/library/skillcheck.go#L388) |
+| cacheBody | const_spec |  | [160](../../magpie/internal/library/skillcheck.go#L160) |
+| errOverCap | var_spec |  | [163](../../magpie/internal/library/skillcheck.go#L163) |
+| apiGet | function_declaration |  | [172](../../magpie/internal/library/skillcheck.go#L172) |
+| hashDir | function_declaration |  | [216](../../magpie/internal/library/skillcheck.go#L216) |
+| hashFiles | function_declaration |  | [221](../../magpie/internal/library/skillcheck.go#L221) |
+| hashWalk | function_declaration |  | [228](../../magpie/internal/library/skillcheck.go#L228) |
+| firstLine | function_declaration |  | [284](../../magpie/internal/library/skillcheck.go#L284) |
+| CheckSkills | function_declaration |  | [301](../../magpie/internal/library/skillcheck.go#L301) |
+| checkSkill | function_declaration |  | [409](../../magpie/internal/library/skillcheck.go#L409) |

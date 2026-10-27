@@ -11,7 +11,7 @@
 | --- | ---: | --- |
 | [magpie/internal/agent/agent.go](../../magpie/internal/agent/agent.go) | 113 | [1](magpie_internal_agent_agent.go-dba584ac-1.md) [2](magpie_internal_agent_agent.go-dba584ac-2.md) |
 | [magpie/internal/agent/agents.go](../../magpie/internal/agent/agents.go) | 76 | [1](magpie_internal_agent_agents.go-e9e96167-1.md) |
-| [magpie/internal/agent/agy.go](../../magpie/internal/agent/agy.go) | 10 | [1](magpie_internal_agent_agy.go-942ad053-1.md) |
+| [magpie/internal/agent/agy.go](../../magpie/internal/agent/agy.go) | 15 | [1](magpie_internal_agent_agy.go-942ad053-1.md) |
 | [magpie/internal/agent/aionui.go](../../magpie/internal/agent/aionui.go) | 14 | [1](magpie_internal_agent_aionui.go-733b27fe-1.md) |
 | [magpie/internal/agent/air.go](../../magpie/internal/agent/air.go) | 7 | [1](magpie_internal_agent_air.go-6cfb1458-1.md) |
 | [magpie/internal/agent/alma.go](../../magpie/internal/agent/alma.go) | 53 | [1](magpie_internal_agent_alma.go-79b247c7-1.md) |
@@ -92,7 +92,8 @@
 | [magpie/internal/agent/pencil.go](../../magpie/internal/agent/pencil.go) | 4 | [1](magpie_internal_agent_pencil.go-a95af9cc-1.md) |
 | [magpie/internal/agent/penguin.go](../../magpie/internal/agent/penguin.go) | 22 | [1](magpie_internal_agent_penguin.go-d8e5d7ea-1.md) |
 | [magpie/internal/agent/pi.go](../../magpie/internal/agent/pi.go) | 9 | [1](magpie_internal_agent_pi.go-e24ac2b9-1.md) |
-| [magpie/internal/agent/plugged.go](../../magpie/internal/agent/plugged.go) | 23 | [1](magpie_internal_agent_plugged.go-43df852e-1.md) |
+| [magpie/internal/agent/plugged.go](../../magpie/internal/agent/plugged.go) | 27 | [1](magpie_internal_agent_plugged.go-43df852e-1.md) |
+| [magpie/internal/agent/plugged_gone.go](../../magpie/internal/agent/plugged_gone.go) | 10 | [1](magpie_internal_agent_plugged_gone.go-58d9a8ce-1.md) |
 | [magpie/internal/agent/preview.go](../../magpie/internal/agent/preview.go) | 28 | [1](magpie_internal_agent_preview.go-379b846a-1.md) |
 | [magpie/internal/agent/primeagent.go](../../magpie/internal/agent/primeagent.go) | 3 | [1](magpie_internal_agent_primeagent.go-79ad8e46-1.md) |
 | [magpie/internal/agent/qoder.go](../../magpie/internal/agent/qoder.go) | 31 | [1](magpie_internal_agent_qoder.go-c6de02b9-1.md) |
@@ -108,4 +109,3 @@
 | [magpie/internal/agent/rescan.go](../../magpie/internal/agent/rescan.go) | 1 | [1](magpie_internal_agent_rescan.go-12b2091c-1.md) |
 | [magpie/internal/agent/reseat.go](../../magpie/internal/agent/reseat.go) | 19 | [1](magpie_internal_agent_reseat.go-be20336b-1.md) |
 | [magpie/internal/agent/rewire.go](../../magpie/internal/agent/rewire.go) | 8 | [1](magpie_internal_agent_rewire.go-c5be56d4-1.md) |
-| [magpie/internal/agent/route.go](../../magpie/internal/agent/route.go) | 22 | [1](magpie_internal_agent_route.go-4e68d33d-1.md) |

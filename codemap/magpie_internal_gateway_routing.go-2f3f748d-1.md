@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/routing.go) · page 1/2
 
-Source SHA-256: b276b142e3d75e74e7709d2ba50f4a9ad13746773b8e896996a16a03eb1b74d7
+Source SHA-256: 61d0e07d3ad4b5ccbf74cd09035d7c642427a34839cf2b8c88f960ea38c79a1e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

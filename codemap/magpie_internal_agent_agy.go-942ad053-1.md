@@ -4,17 +4,22 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agy.go) · page 1/1
 
-Source SHA-256: 061af7954a33260c9a2a8f03b3f7e6839761776b0667bdb365fbd8266d08c8f4
+Source SHA-256: 2183deafc49886ae75a6957c9e95f384392227c3f4ab27feb1b115d1bd1fb2c2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| agyModels | const_spec |  | [44](../../magpie/internal/agent/agy.go#L44) |
-| AgyLaunch | function_declaration |  | [52](../../magpie/internal/agent/agy.go#L52) |
-| AgyStart | function_declaration |  | [63](../../magpie/internal/agent/agy.go#L63) |
-| agyShell | function_declaration |  | [75](../../magpie/internal/agent/agy.go#L75) |
-| agyTyped | function_declaration |  | [87](../../magpie/internal/agent/agy.go#L87) |
-| agyFunction | function_declaration |  | [96](../../magpie/internal/agent/agy.go#L96) |
-| agyCustom | function_declaration |  | [124](../../magpie/internal/agent/agy.go#L124) |
-| agy | function_declaration |  | [137](../../magpie/internal/agent/agy.go#L137) |
-| noticeAgy | var_spec |  | [289](../../magpie/internal/agent/agy.go#L289) |
-| noticeAgyTyped | var_spec |  | [290](../../magpie/internal/agent/agy.go#L290) |
+| agyModels | const_spec |  | [46](../../magpie/internal/agent/agy.go#L46) |
+| AgyLaunch | function_declaration |  | [54](../../magpie/internal/agent/agy.go#L54) |
+| agyLaunchAt | function_declaration |  | [60](../../magpie/internal/agent/agy.go#L60) |
+| AgyStart | function_declaration |  | [70](../../magpie/internal/agent/agy.go#L70) |
+| agyShell | function_declaration |  | [82](../../magpie/internal/agent/agy.go#L82) |
+| agyFunction | function_declaration |  | [95](../../magpie/internal/agent/agy.go#L95) |
+| agyDistroProfiles | function_declaration |  | [129](../../magpie/internal/agent/agy.go#L129) |
+| distroLoginShell | function_declaration |  | [141](../../magpie/internal/agent/agy.go#L141) |
+| agyDistroModel | const_spec |  | [164](../../magpie/internal/agent/agy.go#L164) |
+| agyDistroFunction | function_declaration |  | [170](../../magpie/internal/agent/agy.go#L170) |
+| agyCustom | function_declaration |  | [192](../../magpie/internal/agent/agy.go#L192) |
+| agy | function_declaration |  | [205](../../magpie/internal/agent/agy.go#L205) |
+| agyIn | function_declaration |  | [209](../../magpie/internal/agent/agy.go#L209) |
+| noticeAgy | var_spec |  | [402](../../magpie/internal/agent/agy.go#L402) |
+| noticeAgyTyped | var_spec |  | [403](../../magpie/internal/agent/agy.go#L403) |

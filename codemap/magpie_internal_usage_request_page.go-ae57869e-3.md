@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_page.go) · page 3/3
 
-Source SHA-256: 8f70322a837296f282d2632639508e71b7782969835589c9095000f8523d2a91
+Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -37,16 +37,18 @@ Source SHA-256: 8f70322a837296f282d2632639508e71b7782969835589c9095000f8523d2a91
 | pairing | var_spec |  | [1534](../../magpie/internal/usage/request_page.go#L1534) |
 | pairRows | function_declaration |  | [1536](../../magpie/internal/usage/request_page.go#L1536) |
 | visit | method_declaration | *pairedRows | [1567](../../magpie/internal/usage/request_page.go#L1567) |
-| visitChunk | method_declaration | *pairedRows | [1580](../../magpie/internal/usage/request_page.go#L1580) |
-| buildRequestBlocksOf | function_declaration |  | [1593](../../magpie/internal/usage/request_page.go#L1593) |
-| buildRequestBlocksIn | function_declaration |  | [1599](../../magpie/internal/usage/request_page.go#L1599) |
-| pageFromLedger | function_declaration |  | [1852](../../magpie/internal/usage/request_page.go#L1852) |
-| pageFromLedgerAt | function_declaration |  | [1858](../../magpie/internal/usage/request_page.go#L1858) |
-| computerShares | function_declaration |  | [1936](../../magpie/internal/usage/request_page.go#L1936) |
-| addCallerRow | function_declaration |  | [1949](../../magpie/internal/usage/request_page.go#L1949) |
-| addAccountRow | function_declaration |  | [1964](../../magpie/internal/usage/request_page.go#L1964) |
-| callerGroups | function_declaration |  | [1978](../../magpie/internal/usage/request_page.go#L1978) |
-| prefetchEach | function_declaration |  | [2004](../../magpie/internal/usage/request_page.go#L2004) |
-| slot | struct_type | prefetchEach | [2005](../../magpie/internal/usage/request_page.go#L2005) |
-| done | field_declaration | prefetchEach.slot | [2006](../../magpie/internal/usage/request_page.go#L2006) |
-| v | field_declaration | prefetchEach.slot | [2007](../../magpie/internal/usage/request_page.go#L2007) |
+| visitActors | method_declaration | *pairedRows | [1584](../../magpie/internal/usage/request_page.go#L1584) |
+| visitingActors | var_spec |  | [1599](../../magpie/internal/usage/request_page.go#L1599) |
+| visitChunk | method_declaration | *pairedRows | [1602](../../magpie/internal/usage/request_page.go#L1602) |
+| buildRequestBlocksOf | function_declaration |  | [1615](../../magpie/internal/usage/request_page.go#L1615) |
+| buildRequestBlocksIn | function_declaration |  | [1621](../../magpie/internal/usage/request_page.go#L1621) |
+| pageFromLedger | function_declaration |  | [1874](../../magpie/internal/usage/request_page.go#L1874) |
+| pageFromLedgerAt | function_declaration |  | [1880](../../magpie/internal/usage/request_page.go#L1880) |
+| computerShares | function_declaration |  | [1958](../../magpie/internal/usage/request_page.go#L1958) |
+| addCallerRow | function_declaration |  | [1971](../../magpie/internal/usage/request_page.go#L1971) |
+| addAccountRow | function_declaration |  | [1986](../../magpie/internal/usage/request_page.go#L1986) |
+| callerGroups | function_declaration |  | [2000](../../magpie/internal/usage/request_page.go#L2000) |
+| prefetchEach | function_declaration |  | [2026](../../magpie/internal/usage/request_page.go#L2026) |
+| slot | struct_type | prefetchEach | [2027](../../magpie/internal/usage/request_page.go#L2027) |
+| done | field_declaration | prefetchEach.slot | [2028](../../magpie/internal/usage/request_page.go#L2028) |
+| v | field_declaration | prefetchEach.slot | [2029](../../magpie/internal/usage/request_page.go#L2029) |

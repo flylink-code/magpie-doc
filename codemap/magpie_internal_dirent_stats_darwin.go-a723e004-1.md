@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/dirent/stats_darwin.go) · page 1/1
 
-Source SHA-256: c855d4579d4f9878b272738557038e14801979fbb2ba10aa93ff94b0cd8d0d85
+Source SHA-256: cb838044b3946f84f3bfd07af108fceeb44ca3a3218a3822a13de0fda27e47ff
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

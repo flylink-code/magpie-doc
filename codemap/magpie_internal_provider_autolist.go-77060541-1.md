@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/autolist.go) · page 1/1
 
-Source SHA-256: 502c025dd3ecc62775bf49514913535e8d6663269d4161dd2e915ca154be6d09
+Source SHA-256: 76de7824c76829f53be82d3b02ba5d3208e69f30a4c4ad1c5f9a831c6f089744
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

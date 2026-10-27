@@ -4,26 +4,28 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/plugins_cli.go) · page 1/1
 
-Source SHA-256: f9fc90e70df6e40908347b90614cd2f62652059f0ddd3b960c2abbb44879ab92
+Source SHA-256: 57bf48377d2f473a56ef2150e1f84290a67f0a6aefa177038e66496c435c51bb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| pluginUsage | const_spec |  | [22](../../magpie/internal/cli/plugins_cli.go#L22) |
-| pluginCmd | function_declaration |  | [39](../../magpie/internal/cli/plugins_cli.go#L39) |
-| listPlugins | function_declaration |  | [180](../../magpie/internal/cli/plugins_cli.go#L180) |
-| installedName | function_declaration |  | [297](../../magpie/internal/cli/plugins_cli.go#L297) |
-| pluginOptions | function_declaration |  | [312](../../magpie/internal/cli/plugins_cli.go#L312) |
-| pluginProvider | function_declaration |  | [370](../../magpie/internal/cli/plugins_cli.go#L370) |
-| pluginSignInCLI | var_spec |  | [392](../../magpie/internal/cli/plugins_cli.go#L392) |
-| pluginLogin | function_declaration |  | [400](../../magpie/internal/cli/plugins_cli.go#L400) |
-| sayStillOff | function_declaration |  | [547](../../magpie/internal/cli/plugins_cli.go#L547) |
-| keyPrompt | function_declaration |  | [555](../../magpie/internal/cli/plugins_cli.go#L555) |
-| askNumber | function_declaration |  | [563](../../magpie/internal/cli/plugins_cli.go#L563) |
-| promptTerminal | var_spec |  | [580](../../magpie/internal/cli/plugins_cli.go#L580) |
-| promptHidden | var_spec |  | [581](../../magpie/internal/cli/plugins_cli.go#L581) |
-| askPrompt | function_declaration |  | [584](../../magpie/internal/cli/plugins_cli.go#L584) |
-| mwPoints | function_declaration |  | [622](../../magpie/internal/cli/plugins_cli.go#L622) |
-| toolsLine | function_declaration |  | [637](../../magpie/internal/cli/plugins_cli.go#L637) |
-| pageLine | function_declaration |  | [648](../../magpie/internal/cli/plugins_cli.go#L648) |
-| panelsLine | function_declaration |  | [658](../../magpie/internal/cli/plugins_cli.go#L658) |
-| readsText | function_declaration |  | [670](../../magpie/internal/cli/plugins_cli.go#L670) |
+| pluginUsage | const_spec |  | [23](../../magpie/internal/cli/plugins_cli.go#L23) |
+| pluginCmd | function_declaration |  | [40](../../magpie/internal/cli/plugins_cli.go#L40) |
+| listPlugins | function_declaration |  | [188](../../magpie/internal/cli/plugins_cli.go#L188) |
+| installedName | function_declaration |  | [305](../../magpie/internal/cli/plugins_cli.go#L305) |
+| pluginOptions | function_declaration |  | [320](../../magpie/internal/cli/plugins_cli.go#L320) |
+| pluginProvider | function_declaration |  | [378](../../magpie/internal/cli/plugins_cli.go#L378) |
+| pluginSignInCLI | var_spec |  | [400](../../magpie/internal/cli/plugins_cli.go#L400) |
+| pluginLogin | function_declaration |  | [408](../../magpie/internal/cli/plugins_cli.go#L408) |
+| sayStillOff | function_declaration |  | [555](../../magpie/internal/cli/plugins_cli.go#L555) |
+| keyPrompt | function_declaration |  | [563](../../magpie/internal/cli/plugins_cli.go#L563) |
+| askNumber | function_declaration |  | [571](../../magpie/internal/cli/plugins_cli.go#L571) |
+| promptTerminal | var_spec |  | [588](../../magpie/internal/cli/plugins_cli.go#L588) |
+| promptHidden | var_spec |  | [589](../../magpie/internal/cli/plugins_cli.go#L589) |
+| askPrompt | function_declaration |  | [592](../../magpie/internal/cli/plugins_cli.go#L592) |
+| mwPoints | function_declaration |  | [630](../../magpie/internal/cli/plugins_cli.go#L630) |
+| toolsLine | function_declaration |  | [645](../../magpie/internal/cli/plugins_cli.go#L645) |
+| pageLine | function_declaration |  | [656](../../magpie/internal/cli/plugins_cli.go#L656) |
+| panelsLine | function_declaration |  | [666](../../magpie/internal/cli/plugins_cli.go#L666) |
+| readsText | function_declaration |  | [678](../../magpie/internal/cli/plugins_cli.go#L678) |
+| wiredPluginAgent | function_declaration |  | [688](../../magpie/internal/cli/plugins_cli.go#L688) |
+| sayAgentBack | function_declaration |  | [698](../../magpie/internal/cli/plugins_cli.go#L698) |

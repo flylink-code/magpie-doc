@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/manage.go) · page 1/1
 
-Source SHA-256: 86c2561188a32154166ee75ab997a2475e8a30980fdef583b7b1e32ad454efc9
+Source SHA-256: 9cbb49f4c821d9da89e891b416bf379e2fe3403591e50f886c370b6226e80e5e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -34,33 +34,33 @@ Source SHA-256: 86c2561188a32154166ee75ab997a2475e8a30980fdef583b7b1e32ad454efc9
 | Manage | function_declaration |  | [156](../../magpie/internal/sessions/manage.go#L156) |
 | idInFile | function_declaration |  | [174](../../magpie/internal/sessions/manage.go#L174) |
 | nativeIDs | function_declaration |  | [182](../../magpie/internal/sessions/manage.go#L182) |
-| listAgent | function_declaration |  | [205](../../magpie/internal/sessions/manage.go#L205) |
-| listed | function_declaration |  | [255](../../magpie/internal/sessions/manage.go#L255) |
-| TrashDir | function_declaration |  | [266](../../magpie/internal/sessions/manage.go#L266) |
-| Trashed | struct_type |  | [269](../../magpie/internal/sessions/manage.go#L269) |
-| Key | field_declaration | Trashed | [270](../../magpie/internal/sessions/manage.go#L270) |
-| Agent | field_declaration | Trashed | [271](../../magpie/internal/sessions/manage.go#L271) |
-| ID | field_declaration | Trashed | [272](../../magpie/internal/sessions/manage.go#L272) |
-| Title | field_declaration | Trashed | [273](../../magpie/internal/sessions/manage.go#L273) |
-| Cwd | field_declaration | Trashed | [274](../../magpie/internal/sessions/manage.go#L274) |
-| Last | field_declaration | Trashed | [275](../../magpie/internal/sessions/manage.go#L275) |
-| Deleted | field_declaration | Trashed | [276](../../magpie/internal/sessions/manage.go#L276) |
-| Size | field_declaration | Trashed | [277](../../magpie/internal/sessions/manage.go#L277) |
-| Items | field_declaration | Trashed | [278](../../magpie/internal/sessions/manage.go#L278) |
-| Gateway | field_declaration | Trashed | [281](../../magpie/internal/sessions/manage.go#L281) |
-| moved | struct_type |  | [286](../../magpie/internal/sessions/manage.go#L286) |
-| From | field_declaration | moved | [287](../../magpie/internal/sessions/manage.go#L287) |
-| Name | field_declaration | moved | [288](../../magpie/internal/sessions/manage.go#L288) |
-| manifest | const_spec |  | [292](../../magpie/internal/sessions/manage.go#L292) |
-| Delete | function_declaration |  | [302](../../magpie/internal/sessions/manage.go#L302) |
-| sessionPaths | function_declaration |  | [389](../../magpie/internal/sessions/manage.go#L389) |
-| inside | function_declaration |  | [476](../../magpie/internal/sessions/manage.go#L476) |
-| recent | function_declaration |  | [486](../../magpie/internal/sessions/manage.go#L486) |
-| sizeOf | function_declaration |  | [501](../../magpie/internal/sessions/manage.go#L501) |
-| writeManifest | function_declaration |  | [514](../../magpie/internal/sessions/manage.go#L514) |
-| move | function_declaration |  | [528](../../magpie/internal/sessions/manage.go#L528) |
-| copyAll | function_declaration |  | [547](../../magpie/internal/sessions/manage.go#L547) |
-| Trash | function_declaration |  | [592](../../magpie/internal/sessions/manage.go#L592) |
-| trashFolder | function_declaration |  | [614](../../magpie/internal/sessions/manage.go#L614) |
-| Purge | function_declaration |  | [626](../../magpie/internal/sessions/manage.go#L626) |
-| Restore | function_declaration |  | [646](../../magpie/internal/sessions/manage.go#L646) |
+| listAgent | function_declaration |  | [204](../../magpie/internal/sessions/manage.go#L204) |
+| listed | function_declaration |  | [253](../../magpie/internal/sessions/manage.go#L253) |
+| TrashDir | function_declaration |  | [264](../../magpie/internal/sessions/manage.go#L264) |
+| Trashed | struct_type |  | [267](../../magpie/internal/sessions/manage.go#L267) |
+| Key | field_declaration | Trashed | [268](../../magpie/internal/sessions/manage.go#L268) |
+| Agent | field_declaration | Trashed | [269](../../magpie/internal/sessions/manage.go#L269) |
+| ID | field_declaration | Trashed | [270](../../magpie/internal/sessions/manage.go#L270) |
+| Title | field_declaration | Trashed | [271](../../magpie/internal/sessions/manage.go#L271) |
+| Cwd | field_declaration | Trashed | [272](../../magpie/internal/sessions/manage.go#L272) |
+| Last | field_declaration | Trashed | [273](../../magpie/internal/sessions/manage.go#L273) |
+| Deleted | field_declaration | Trashed | [274](../../magpie/internal/sessions/manage.go#L274) |
+| Size | field_declaration | Trashed | [275](../../magpie/internal/sessions/manage.go#L275) |
+| Items | field_declaration | Trashed | [276](../../magpie/internal/sessions/manage.go#L276) |
+| Gateway | field_declaration | Trashed | [279](../../magpie/internal/sessions/manage.go#L279) |
+| moved | struct_type |  | [284](../../magpie/internal/sessions/manage.go#L284) |
+| From | field_declaration | moved | [285](../../magpie/internal/sessions/manage.go#L285) |
+| Name | field_declaration | moved | [286](../../magpie/internal/sessions/manage.go#L286) |
+| manifest | const_spec |  | [290](../../magpie/internal/sessions/manage.go#L290) |
+| Delete | function_declaration |  | [300](../../magpie/internal/sessions/manage.go#L300) |
+| sessionPaths | function_declaration |  | [386](../../magpie/internal/sessions/manage.go#L386) |
+| inside | function_declaration |  | [473](../../magpie/internal/sessions/manage.go#L473) |
+| recent | function_declaration |  | [483](../../magpie/internal/sessions/manage.go#L483) |
+| sizeOf | function_declaration |  | [498](../../magpie/internal/sessions/manage.go#L498) |
+| writeManifest | function_declaration |  | [511](../../magpie/internal/sessions/manage.go#L511) |
+| move | function_declaration |  | [525](../../magpie/internal/sessions/manage.go#L525) |
+| copyAll | function_declaration |  | [544](../../magpie/internal/sessions/manage.go#L544) |
+| Trash | function_declaration |  | [589](../../magpie/internal/sessions/manage.go#L589) |
+| trashFolder | function_declaration |  | [611](../../magpie/internal/sessions/manage.go#L611) |
+| Purge | function_declaration |  | [623](../../magpie/internal/sessions/manage.go#L623) |
+| Restore | function_declaration |  | [643](../../magpie/internal/sessions/manage.go#L643) |

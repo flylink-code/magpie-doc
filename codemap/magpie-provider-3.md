@@ -10,6 +10,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/provider/search_api.go](../../magpie/internal/provider/search_api.go) | 33 | [1](magpie_internal_provider_search_api.go-ab4ff0dd-1.md) |
 | [magpie/internal/provider/sentbody.go](../../magpie/internal/provider/sentbody.go) | 10 | [1](magpie_internal_provider_sentbody.go-6f5da547-1.md) |
 | [magpie/internal/provider/served.go](../../magpie/internal/provider/served.go) | 25 | [1](magpie_internal_provider_served.go-3cb1add8-1.md) |
 | [magpie/internal/provider/session_identity.go](../../magpie/internal/provider/session_identity.go) | 17 | [1](magpie_internal_provider_session_identity.go-33e60a4f-1.md) |

@@ -54,11 +54,11 @@
 | [magpie/internal/library/skill_gone.go](../../magpie/internal/library/skill_gone.go) | 11 | [1](magpie_internal_library_skill_gone.go-c00b6ea2-1.md) |
 | [magpie/internal/library/skill_groups.go](../../magpie/internal/library/skill_groups.go) | 8 | [1](magpie_internal_library_skill_groups.go-ccf50a86-1.md) |
 | [magpie/internal/library/skill_how.go](../../magpie/internal/library/skill_how.go) | 7 | [1](magpie_internal_library_skill_how.go-a353b1cf-1.md) |
-| [magpie/internal/library/skillcheck.go](../../magpie/internal/library/skillcheck.go) | 35 | [1](magpie_internal_library_skillcheck.go-4859bba5-1.md) |
+| [magpie/internal/library/skillcheck.go](../../magpie/internal/library/skillcheck.go) | 37 | [1](magpie_internal_library_skillcheck.go-4859bba5-1.md) |
 | [magpie/internal/library/skillgit.go](../../magpie/internal/library/skillgit.go) | 24 | [1](magpie_internal_library_skillgit.go-43570963-1.md) |
-| [magpie/internal/library/skillnew.go](../../magpie/internal/library/skillnew.go) | 35 | [1](magpie_internal_library_skillnew.go-6cda1d9e-1.md) |
-| [magpie/internal/library/skills.go](../../magpie/internal/library/skills.go) | 174 | [1](magpie_internal_library_skills.go-89c12355-1.md) [2](magpie_internal_library_skills.go-89c12355-2.md) |
-| [magpie/internal/library/skilltree.go](../../magpie/internal/library/skilltree.go) | 21 | [1](magpie_internal_library_skilltree.go-e862db91-1.md) |
+| [magpie/internal/library/skillnew.go](../../magpie/internal/library/skillnew.go) | 38 | [1](magpie_internal_library_skillnew.go-6cda1d9e-1.md) |
+| [magpie/internal/library/skills.go](../../magpie/internal/library/skills.go) | 182 | [1](magpie_internal_library_skills.go-89c12355-1.md) [2](magpie_internal_library_skills.go-89c12355-2.md) |
+| [magpie/internal/library/skilltree.go](../../magpie/internal/library/skilltree.go) | 22 | [1](magpie_internal_library_skilltree.go-e862db91-1.md) |
 | [magpie/internal/library/subagents.go](../../magpie/internal/library/subagents.go) | 50 | [1](magpie_internal_library_subagents.go-edb3c493-1.md) |
 | [magpie/internal/library/sync.go](../../magpie/internal/library/sync.go) | 99 | [1](magpie_internal_library_sync.go-de3c5f98-1.md) |
 | [magpie/internal/library/targets.go](../../magpie/internal/library/targets.go) | 41 | [1](magpie_internal_library_targets.go-b9256004-1.md) |

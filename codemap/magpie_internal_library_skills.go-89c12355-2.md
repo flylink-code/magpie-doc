@@ -4,81 +4,89 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skills.go) · page 2/2
 
-Source SHA-256: c51e64aedc74aee4f880fa69cd2b3f3533d4be42b02f56aa221c9e463a55865f
+Source SHA-256: 7a01b7e89f35e1de006e71f54615ccd61241fb7deaa8b7206547bbc303fc5fda
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dir | field_declaration | fetched | [1403](../../magpie/internal/library/skills.go#L1403) |
-| err | field_declaration | fetched | [1404](../../magpie/internal/library/skills.go#L1404) |
-| fetch | method_declaration | *fetcher | [1407](../../magpie/internal/library/skills.go#L1407) |
-| clean | method_declaration | *fetcher | [1430](../../magpie/internal/library/skills.go#L1430) |
-| skillUpdate | struct_type |  | [1437](../../magpie/internal/library/skills.go#L1437) |
-| name | field_declaration | skillUpdate | [1438](../../magpie/internal/library/skills.go#L1438) |
-| src | field_declaration | skillUpdate | [1439](../../magpie/internal/library/skills.go#L1439) |
-| adopt | field_declaration | skillUpdate | [1440](../../magpie/internal/library/skills.go#L1440) |
-| from | field_declaration | skillUpdate | [1441](../../magpie/internal/library/skills.go#L1441) |
-| commit | field_declaration | skillUpdate | [1442](../../magpie/internal/library/skills.go#L1442) |
-| prepare | method_declaration | *fetcher | [1445](../../magpie/internal/library/skills.go#L1445) |
-| apply | method_declaration | *skillUpdate | [1493](../../magpie/internal/library/skills.go#L1493) |
-| SkillAgents | function_declaration |  | [1549](../../magpie/internal/library/skills.go#L1549) |
-| EverySkillAgents | function_declaration |  | [1563](../../magpie/internal/library/skills.go#L1563) |
-| SomeSkillsAgents | function_declaration |  | [1572](../../magpie/internal/library/skills.go#L1572) |
-| skillsAgents | function_declaration |  | [1584](../../magpie/internal/library/skills.go#L1584) |
-| RemoveSkill | function_declaration |  | [1607](../../magpie/internal/library/skills.go#L1607) |
-| RemoveSkills | function_declaration |  | [1617](../../magpie/internal/library/skills.go#L1617) |
-| removeSkill | function_declaration |  | [1644](../../magpie/internal/library/skills.go#L1644) |
-| UseLibrarySkill | function_declaration |  | [1678](../../magpie/internal/library/skills.go#L1678) |
-| UseLibrarySkills | function_declaration |  | [1687](../../magpie/internal/library/skills.go#L1687) |
-| KeepAgentSkill | function_declaration |  | [1714](../../magpie/internal/library/skills.go#L1714) |
-| KeepAgentSkills | function_declaration |  | [1720](../../magpie/internal/library/skills.go#L1720) |
-| ownSkill | function_declaration |  | [1735](../../magpie/internal/library/skills.go#L1735) |
-| sharing | function_declaration |  | [1752](../../magpie/internal/library/skills.go#L1752) |
-| FoundSkill | struct_type |  | [1765](../../magpie/internal/library/skills.go#L1765) |
-| Name | field_declaration | FoundSkill | [1766](../../magpie/internal/library/skills.go#L1766) |
-| Description | field_declaration | FoundSkill | [1767](../../magpie/internal/library/skills.go#L1767) |
-| Agents | field_declaration | FoundSkill | [1768](../../magpie/internal/library/skills.go#L1768) |
-| Others | field_declaration | FoundSkill | [1769](../../magpie/internal/library/skills.go#L1769) |
-| Copies | field_declaration | FoundSkill | [1773](../../magpie/internal/library/skills.go#L1773) |
-| Link | field_declaration | FoundSkill | [1774](../../magpie/internal/library/skills.go#L1774) |
-| Shared | field_declaration | FoundSkill | [1778](../../magpie/internal/library/skills.go#L1778) |
-| Library | field_declaration | FoundSkill | [1782](../../magpie/internal/library/skills.go#L1782) |
-| real | field_declaration | FoundSkill | [1783](../../magpie/internal/library/skills.go#L1783) |
-| at | field_declaration | FoundSkill | [1784](../../magpie/internal/library/skills.go#L1784) |
-| foundSkills | function_declaration |  | [1787](../../magpie/internal/library/skills.go#L1787) |
-| place | struct_type | foundSkills | [1793](../../magpie/internal/library/skills.go#L1793) |
-| dir | field_declaration | foundSkills.place | [1794](../../magpie/internal/library/skills.go#L1794) |
-| agent | field_declaration | foundSkills.place | [1794](../../magpie/internal/library/skills.go#L1794) |
-| lib | field_declaration | foundSkills.place | [1795](../../magpie/internal/library/skills.go#L1795) |
-| linkVia | function_declaration |  | [1872](../../magpie/internal/library/skills.go#L1872) |
-| currentVersion | function_declaration |  | [1908](../../magpie/internal/library/skills.go#L1908) |
-| ImportSkill | function_declaration |  | [1926](../../magpie/internal/library/skills.go#L1926) |
-| ImportSkills | function_declaration |  | [1933](../../magpie/internal/library/skills.go#L1933) |
-| importSkill | function_declaration |  | [1956](../../magpie/internal/library/skills.go#L1956) |
-| RemoveFoundSkill | function_declaration |  | [2028](../../magpie/internal/library/skills.go#L2028) |
-| RemoveFoundSkills | function_declaration |  | [2039](../../magpie/internal/library/skills.go#L2039) |
-| removeFound | function_declaration |  | [2065](../../magpie/internal/library/skills.go#L2065) |
-| entry | struct_type | removeFound | [2071](../../magpie/internal/library/skills.go#L2071) |
-| who | field_declaration | removeFound.entry | [2071](../../magpie/internal/library/skills.go#L2071) |
-| p | field_declaration | removeFound.entry | [2071](../../magpie/internal/library/skills.go#L2071) |
-| copyDir | function_declaration |  | [2121](../../magpie/internal/library/skills.go#L2121) |
-| move | function_declaration |  | [2167](../../magpie/internal/library/skills.go#L2167) |
-| leftBehind | struct_type |  | [2185](../../magpie/internal/library/skills.go#L2185) |
-| err | field_declaration | leftBehind | [2185](../../magpie/internal/library/skills.go#L2185) |
-| Error | method_declaration | *leftBehind | [2187](../../magpie/internal/library/skills.go#L2187) |
-| Unwrap | method_declaration | *leftBehind | [2188](../../magpie/internal/library/skills.go#L2188) |
-| setAside | function_declaration |  | [2192](../../magpie/internal/library/skills.go#L2192) |
-| sameTree | function_declaration |  | [2214](../../magpie/internal/library/skills.go#L2214) |
-| walked | type_spec |  | [2218](../../magpie/internal/library/skills.go#L2218) |
-| sameTreeIn | function_declaration |  | [2222](../../magpie/internal/library/skills.go#L2222) |
-| compareTrees | function_declaration |  | [2253](../../magpie/internal/library/skills.go#L2253) |
-| treeEntry | struct_type |  | [2271](../../magpie/internal/library/skills.go#L2271) |
-| size | field_declaration | treeEntry | [2272](../../magpie/internal/library/skills.go#L2272) |
-| link | field_declaration | treeEntry | [2273](../../magpie/internal/library/skills.go#L2273) |
-| tree | struct_type |  | [2278](../../magpie/internal/library/skills.go#L2278) |
-| files | field_declaration | tree | [2279](../../magpie/internal/library/skills.go#L2279) |
-| stamp | field_declaration | tree | [2280](../../magpie/internal/library/skills.go#L2280) |
-| settled | field_declaration | tree | [2281](../../magpie/internal/library/skills.go#L2281) |
-| treeOf | function_declaration |  | [2286](../../magpie/internal/library/skills.go#L2286) |
-| sameFile | function_declaration |  | [2341](../../magpie/internal/library/skills.go#L2341) |
-| SkillText | function_declaration |  | [2370](../../magpie/internal/library/skills.go#L2370) |
-| SkillPath | function_declaration |  | [2382](../../magpie/internal/library/skills.go#L2382) |
+| mu | field_declaration | fetcher | [1437](../../magpie/internal/library/skills.go#L1437) |
+| got | field_declaration | fetcher | [1438](../../magpie/internal/library/skills.go#L1438) |
+| dirs | field_declaration | fetcher | [1439](../../magpie/internal/library/skills.go#L1439) |
+| fetched | struct_type |  | [1442](../../magpie/internal/library/skills.go#L1442) |
+| once | field_declaration | fetched | [1443](../../magpie/internal/library/skills.go#L1443) |
+| dir | field_declaration | fetched | [1444](../../magpie/internal/library/skills.go#L1444) |
+| err | field_declaration | fetched | [1445](../../magpie/internal/library/skills.go#L1445) |
+| part | field_declaration | fetched | [1446](../../magpie/internal/library/skills.go#L1446) |
+| under | field_declaration | fetched | [1447](../../magpie/internal/library/skills.go#L1447) |
+| fetch | method_declaration | *fetcher | [1450](../../magpie/internal/library/skills.go#L1450) |
+| get | method_declaration | *fetcher | [1460](../../magpie/internal/library/skills.go#L1460) |
+| clean | method_declaration | *fetcher | [1483](../../magpie/internal/library/skills.go#L1483) |
+| skillUpdate | struct_type |  | [1490](../../magpie/internal/library/skills.go#L1490) |
+| name | field_declaration | skillUpdate | [1491](../../magpie/internal/library/skills.go#L1491) |
+| src | field_declaration | skillUpdate | [1492](../../magpie/internal/library/skills.go#L1492) |
+| adopt | field_declaration | skillUpdate | [1493](../../magpie/internal/library/skills.go#L1493) |
+| from | field_declaration | skillUpdate | [1494](../../magpie/internal/library/skills.go#L1494) |
+| commit | field_declaration | skillUpdate | [1495](../../magpie/internal/library/skills.go#L1495) |
+| prepare | method_declaration | *fetcher | [1498](../../magpie/internal/library/skills.go#L1498) |
+| apply | method_declaration | *skillUpdate | [1555](../../magpie/internal/library/skills.go#L1555) |
+| SkillAgents | function_declaration |  | [1611](../../magpie/internal/library/skills.go#L1611) |
+| EverySkillAgents | function_declaration |  | [1625](../../magpie/internal/library/skills.go#L1625) |
+| SomeSkillsAgents | function_declaration |  | [1634](../../magpie/internal/library/skills.go#L1634) |
+| skillsAgents | function_declaration |  | [1646](../../magpie/internal/library/skills.go#L1646) |
+| RemoveSkill | function_declaration |  | [1669](../../magpie/internal/library/skills.go#L1669) |
+| RemoveSkills | function_declaration |  | [1679](../../magpie/internal/library/skills.go#L1679) |
+| removeSkill | function_declaration |  | [1706](../../magpie/internal/library/skills.go#L1706) |
+| UseLibrarySkill | function_declaration |  | [1740](../../magpie/internal/library/skills.go#L1740) |
+| UseLibrarySkills | function_declaration |  | [1749](../../magpie/internal/library/skills.go#L1749) |
+| KeepAgentSkill | function_declaration |  | [1776](../../magpie/internal/library/skills.go#L1776) |
+| KeepAgentSkills | function_declaration |  | [1782](../../magpie/internal/library/skills.go#L1782) |
+| ownSkill | function_declaration |  | [1797](../../magpie/internal/library/skills.go#L1797) |
+| sharing | function_declaration |  | [1814](../../magpie/internal/library/skills.go#L1814) |
+| FoundSkill | struct_type |  | [1827](../../magpie/internal/library/skills.go#L1827) |
+| Name | field_declaration | FoundSkill | [1828](../../magpie/internal/library/skills.go#L1828) |
+| Description | field_declaration | FoundSkill | [1829](../../magpie/internal/library/skills.go#L1829) |
+| Agents | field_declaration | FoundSkill | [1830](../../magpie/internal/library/skills.go#L1830) |
+| Others | field_declaration | FoundSkill | [1831](../../magpie/internal/library/skills.go#L1831) |
+| Copies | field_declaration | FoundSkill | [1835](../../magpie/internal/library/skills.go#L1835) |
+| Link | field_declaration | FoundSkill | [1836](../../magpie/internal/library/skills.go#L1836) |
+| Shared | field_declaration | FoundSkill | [1840](../../magpie/internal/library/skills.go#L1840) |
+| Library | field_declaration | FoundSkill | [1844](../../magpie/internal/library/skills.go#L1844) |
+| real | field_declaration | FoundSkill | [1845](../../magpie/internal/library/skills.go#L1845) |
+| at | field_declaration | FoundSkill | [1846](../../magpie/internal/library/skills.go#L1846) |
+| foundSkills | function_declaration |  | [1849](../../magpie/internal/library/skills.go#L1849) |
+| place | struct_type | foundSkills | [1855](../../magpie/internal/library/skills.go#L1855) |
+| dir | field_declaration | foundSkills.place | [1856](../../magpie/internal/library/skills.go#L1856) |
+| agent | field_declaration | foundSkills.place | [1856](../../magpie/internal/library/skills.go#L1856) |
+| lib | field_declaration | foundSkills.place | [1857](../../magpie/internal/library/skills.go#L1857) |
+| linkVia | function_declaration |  | [1934](../../magpie/internal/library/skills.go#L1934) |
+| currentVersion | function_declaration |  | [1970](../../magpie/internal/library/skills.go#L1970) |
+| ImportSkill | function_declaration |  | [1988](../../magpie/internal/library/skills.go#L1988) |
+| ImportSkills | function_declaration |  | [1995](../../magpie/internal/library/skills.go#L1995) |
+| importSkill | function_declaration |  | [2018](../../magpie/internal/library/skills.go#L2018) |
+| RemoveFoundSkill | function_declaration |  | [2090](../../magpie/internal/library/skills.go#L2090) |
+| RemoveFoundSkills | function_declaration |  | [2101](../../magpie/internal/library/skills.go#L2101) |
+| removeFound | function_declaration |  | [2127](../../magpie/internal/library/skills.go#L2127) |
+| entry | struct_type | removeFound | [2133](../../magpie/internal/library/skills.go#L2133) |
+| who | field_declaration | removeFound.entry | [2133](../../magpie/internal/library/skills.go#L2133) |
+| p | field_declaration | removeFound.entry | [2133](../../magpie/internal/library/skills.go#L2133) |
+| copyDir | function_declaration |  | [2183](../../magpie/internal/library/skills.go#L2183) |
+| move | function_declaration |  | [2229](../../magpie/internal/library/skills.go#L2229) |
+| leftBehind | struct_type |  | [2247](../../magpie/internal/library/skills.go#L2247) |
+| err | field_declaration | leftBehind | [2247](../../magpie/internal/library/skills.go#L2247) |
+| Error | method_declaration | *leftBehind | [2249](../../magpie/internal/library/skills.go#L2249) |
+| Unwrap | method_declaration | *leftBehind | [2250](../../magpie/internal/library/skills.go#L2250) |
+| setAside | function_declaration |  | [2254](../../magpie/internal/library/skills.go#L2254) |
+| sameTree | function_declaration |  | [2276](../../magpie/internal/library/skills.go#L2276) |
+| walked | type_spec |  | [2280](../../magpie/internal/library/skills.go#L2280) |
+| sameTreeIn | function_declaration |  | [2284](../../magpie/internal/library/skills.go#L2284) |
+| compareTrees | function_declaration |  | [2315](../../magpie/internal/library/skills.go#L2315) |
+| treeEntry | struct_type |  | [2333](../../magpie/internal/library/skills.go#L2333) |
+| size | field_declaration | treeEntry | [2334](../../magpie/internal/library/skills.go#L2334) |
+| link | field_declaration | treeEntry | [2335](../../magpie/internal/library/skills.go#L2335) |
+| tree | struct_type |  | [2340](../../magpie/internal/library/skills.go#L2340) |
+| files | field_declaration | tree | [2341](../../magpie/internal/library/skills.go#L2341) |
+| stamp | field_declaration | tree | [2342](../../magpie/internal/library/skills.go#L2342) |
+| settled | field_declaration | tree | [2343](../../magpie/internal/library/skills.go#L2343) |
+| treeOf | function_declaration |  | [2348](../../magpie/internal/library/skills.go#L2348) |
+| sameFile | function_declaration |  | [2403](../../magpie/internal/library/skills.go#L2403) |
+| SkillText | function_declaration |  | [2432](../../magpie/internal/library/skills.go#L2432) |
+| SkillPath | function_declaration |  | [2444](../../magpie/internal/library/skills.go#L2444) |

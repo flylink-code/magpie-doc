@@ -29,6 +29,7 @@
 | [magpie/internal/provider/account_models.go](../../magpie/internal/provider/account_models.go) | 18 | [1](magpie_internal_provider_account_models.go-3dcd2145-1.md) |
 | [magpie/internal/provider/account_names.go](../../magpie/internal/provider/account_names.go) | 9 | [1](magpie_internal_provider_account_names.go-222ab041-1.md) |
 | [magpie/internal/provider/account_order.go](../../magpie/internal/provider/account_order.go) | 4 | [1](magpie_internal_provider_account_order.go-600f6d51-1.md) |
+| [magpie/internal/provider/account_relist.go](../../magpie/internal/provider/account_relist.go) | 5 | [1](magpie_internal_provider_account_relist.go-813598d8-1.md) |
 | [magpie/internal/provider/account_seats.go](../../magpie/internal/provider/account_seats.go) | 14 | [1](magpie_internal_provider_account_seats.go-de98501a-1.md) |
 | [magpie/internal/provider/agenteffort.go](../../magpie/internal/provider/agenteffort.go) | 2 | [1](magpie_internal_provider_agenteffort.go-27815d8e-1.md) |
 | [magpie/internal/provider/allowance_renewed.go](../../magpie/internal/provider/allowance_renewed.go) | 9 | [1](magpie_internal_provider_allowance_renewed.go-96cb3ce9-1.md) |
@@ -109,4 +110,3 @@
 | [magpie/internal/provider/flat.go](../../magpie/internal/provider/flat.go) | 5 | [1](magpie_internal_provider_flat.go-3d200581-1.md) |
 | [magpie/internal/provider/fold.go](../../magpie/internal/provider/fold.go) | 18 | [1](magpie_internal_provider_fold.go-9519431b-1.md) |
 | [magpie/internal/provider/forget_account.go](../../magpie/internal/provider/forget_account.go) | 3 | [1](magpie_internal_provider_forget_account.go-a7962fda-1.md) |
-| [magpie/internal/provider/gemini_api.go](../../magpie/internal/provider/gemini_api.go) | 3 | [1](magpie_internal_provider_gemini_api.go-1f33bb24-1.md) |

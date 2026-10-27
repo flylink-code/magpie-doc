@@ -8,4 +8,4 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie/internal/agentplug/agentplug.go](../../magpie/internal/agentplug/agentplug.go) | 56 | [1](magpie_internal_agentplug_agentplug.go-594b09f8-1.md) |
+| [magpie/internal/agentplug/agentplug.go](../../magpie/internal/agentplug/agentplug.go) | 57 | [1](magpie_internal_agentplug_agentplug.go-594b09f8-1.md) |
