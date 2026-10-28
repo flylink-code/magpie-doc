@@ -9,7 +9,7 @@ Source SHA-256: 2d779326cffe367a21a10d42364837350345f7ea100d475c97beb75cde8f3366
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Name | const_spec |  | [29](../../magpie/internal/daemon/daemon.go#L29) |
-| Status | struct_type |  | [32](../../magpie/internal/daemon/daemon.go#L32) |
+| Status | type_spec |  | [32](../../magpie/internal/daemon/daemon.go#L32) |
 | Installed | field_declaration | Status | [33](../../magpie/internal/daemon/daemon.go#L33) |
 | Enabled | field_declaration | Status | [34](../../magpie/internal/daemon/daemon.go#L34) |
 | Running | field_declaration | Status | [35](../../magpie/internal/daemon/daemon.go#L35) |
@@ -19,19 +19,11 @@ Source SHA-256: 2d779326cffe367a21a10d42364837350345f7ea100d475c97beb75cde8f3366
 | File | field_declaration | Status | [39](../../magpie/internal/daemon/daemon.go#L39) |
 | Logs | field_declaration | Status | [40](../../magpie/internal/daemon/daemon.go#L40) |
 | Advice | field_declaration | Status | [41](../../magpie/internal/daemon/daemon.go#L41) |
-| manager | interface_type |  | [45](../../magpie/internal/daemon/daemon.go#L45) |
-| file | method_spec | manager | [46](../../magpie/internal/daemon/daemon.go#L46) |
-| logs | method_spec | manager | [47](../../magpie/internal/daemon/daemon.go#L47) |
-| install | method_spec | manager | [48](../../magpie/internal/daemon/daemon.go#L48) |
-| uninstall | method_spec | manager | [49](../../magpie/internal/daemon/daemon.go#L49) |
-| start | method_spec | manager | [50](../../magpie/internal/daemon/daemon.go#L50) |
-| stop | method_spec | manager | [51](../../magpie/internal/daemon/daemon.go#L51) |
-| restart | method_spec | manager | [52](../../magpie/internal/daemon/daemon.go#L52) |
-| status | method_spec | manager | [53](../../magpie/internal/daemon/daemon.go#L53) |
+| manager | type_spec |  | [45](../../magpie/internal/daemon/daemon.go#L45) |
 | goos | var_spec |  | [57](../../magpie/internal/daemon/daemon.go#L57) |
 | ErrUnsupported | var_spec |  | [60](../../magpie/internal/daemon/daemon.go#L60) |
 | current | function_declaration |  | [62](../../magpie/internal/daemon/daemon.go#L62) |
-| Options | struct_type |  | [77](../../magpie/internal/daemon/daemon.go#L77) |
+| Options | type_spec |  | [77](../../magpie/internal/daemon/daemon.go#L77) |
 | Web | field_declaration | Options | [80](../../magpie/internal/daemon/daemon.go#L80) |
 | Key | field_declaration | Options | [83](../../magpie/internal/daemon/daemon.go#L83) |
 | Install | function_declaration |  | [89](../../magpie/internal/daemon/daemon.go#L89) |
@@ -63,5 +55,6 @@ Source SHA-256: 2d779326cffe367a21a10d42364837350345f7ea100d475c97beb75cde8f3366
 | sameFile | function_declaration |  | [351](../../magpie/internal/daemon/daemon.go#L351) |
 | carried | var_spec |  | [364](../../magpie/internal/daemon/daemon.go#L364) |
 | environ | function_declaration |  | [375](../../magpie/internal/daemon/daemon.go#L375) |
+| out | var_spec | environ | [376](../../magpie/internal/daemon/daemon.go#L376) |
 | run | function_declaration |  | [392](../../magpie/internal/daemon/daemon.go#L392) |
 | private | function_declaration |  | [410](../../magpie/internal/daemon/daemon.go#L410) |

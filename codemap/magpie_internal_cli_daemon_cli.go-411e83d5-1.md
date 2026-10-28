@@ -10,7 +10,7 @@ Source SHA-256: bb282436ffc2d8bfabc86e05d1f20f389116961d0e5c0f007bf8325479b32b1f
 | --- | --- | --- | ---: |
 | daemonUsage | const_spec |  | [17](../../magpie/internal/cli/daemon_cli.go#L17) |
 | daemonWait | var_spec |  | [21](../../magpie/internal/cli/daemon_cli.go#L21) |
-| daemonWeb | struct_type |  | [25](../../magpie/internal/cli/daemon_cli.go#L25) |
+| daemonWeb | type_spec |  | [25](../../magpie/internal/cli/daemon_cli.go#L25) |
 | set | field_declaration | daemonWeb | [26](../../magpie/internal/cli/daemon_cli.go#L26) |
 | on | field_declaration | daemonWeb | [27](../../magpie/internal/cli/daemon_cli.go#L27) |
 | addr | field_declaration | daemonWeb | [28](../../magpie/internal/cli/daemon_cli.go#L28) |

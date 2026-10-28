@@ -8,13 +8,14 @@ Source SHA-256: 154b08d0dec790a9f9ac1a54edc951a2e7a1106d7365ecbd0cc2671ef0721bb9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| idTidy | struct_type |  | [17](../../magpie/internal/gateway/itemids.go#L17) |
+| idTidy | type_spec |  | [17](../../magpie/internal/gateway/itemids.go#L17) |
 | buf | field_declaration | idTidy | [18](../../magpie/internal/gateway/itemids.go#L18) |
 | ids | field_declaration | idTidy | [19](../../magpie/internal/gateway/itemids.go#L19) |
-| idOf | struct_type |  | [22](../../magpie/internal/gateway/itemids.go#L22) |
+| idOf | type_spec |  | [22](../../magpie/internal/gateway/itemids.go#L22) |
 | id | field_declaration | idOf | [22](../../magpie/internal/gateway/itemids.go#L22) |
-| typ | field_declaration | idOf | [22](../../magpie/internal/gateway/itemids.go#L22) |
-| write | method_declaration | *idTidy | [24](../../magpie/internal/gateway/itemids.go#L24) |
-| flush | method_declaration | *idTidy | [31](../../magpie/internal/gateway/itemids.go#L31) |
-| event | method_declaration | *idTidy | [37](../../magpie/internal/gateway/itemids.go#L37) |
-| ended | method_declaration | *idTidy | [85](../../magpie/internal/gateway/itemids.go#L85) |
+| write | method_declaration |  | [24](../../magpie/internal/gateway/itemids.go#L24) |
+| flush | method_declaration |  | [31](../../magpie/internal/gateway/itemids.go#L31) |
+| event | method_declaration |  | [37](../../magpie/internal/gateway/itemids.go#L37) |
+| m | var_spec | event | [66](../../magpie/internal/gateway/itemids.go#L66) |
+| ended | method_declaration |  | [85](../../magpie/internal/gateway/itemids.go#L85) |
+| m | var_spec | ended | [96](../../magpie/internal/gateway/itemids.go#L96) |

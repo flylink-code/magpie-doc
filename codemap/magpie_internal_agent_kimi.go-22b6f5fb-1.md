@@ -13,16 +13,21 @@ Source SHA-256: 005694da290c3d751189811d6cd3f73b4dee4f2054302a66b1659528b1962a6b
 | KimiDir | function_declaration |  | [40](../../magpie/internal/agent/kimi.go#L40) |
 | kimiDir | function_declaration |  | [44](../../magpie/internal/agent/kimi.go#L44) |
 | kimiModelTables | function_declaration |  | [65](../../magpie/internal/agent/kimi.go#L65) |
+| out | var_spec | kimiModelTables | [66](../../magpie/internal/agent/kimi.go#L66) |
+| was | var_spec | kimiModelTables | [75](../../magpie/internal/agent/kimi.go#L75) |
+| caps | var_spec | kimiModelTables | [96](../../magpie/internal/agent/kimi.go#L96) |
 | kimiOwn | function_declaration |  | [136](../../magpie/internal/agent/kimi.go#L136) |
 | kimiInt | function_declaration |  | [145](../../magpie/internal/agent/kimi.go#L145) |
 | setWrote | function_declaration |  | [150](../../magpie/internal/agent/kimi.go#L150) |
 | kimiWroteKey | function_declaration |  | [159](../../magpie/internal/agent/kimi.go#L159) |
 | kimiWrote | function_declaration |  | [161](../../magpie/internal/agent/kimi.go#L161) |
 | kimiEfforts | function_declaration |  | [175](../../magpie/internal/agent/kimi.go#L175) |
+| levels | var_spec | kimiEfforts | [176](../../magpie/internal/agent/kimi.go#L176) |
 | kimi | function_declaration |  | [198](../../magpie/internal/agent/kimi.go#L198) |
 | kimiProvider | function_declaration |  | [205](../../magpie/internal/agent/kimi.go#L205) |
 | kimiIn | function_declaration |  | [219](../../magpie/internal/agent/kimi.go#L219) |
 | kimiOwnOptions | function_declaration |  | [333](../../magpie/internal/agent/kimi.go#L333) |
+| out | var_spec | kimiOwnOptions | [336](../../magpie/internal/agent/kimi.go#L336) |
 | kimiModelKey | function_declaration |  | [360](../../magpie/internal/agent/kimi.go#L360) |
 | kimiModelTableForKey | function_declaration |  | [375](../../magpie/internal/agent/kimi.go#L375) |
 | noticeKimi | var_spec |  | [390](../../magpie/internal/agent/kimi.go#L390) |

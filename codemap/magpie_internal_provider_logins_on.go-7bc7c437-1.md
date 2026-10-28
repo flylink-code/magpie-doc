@@ -11,13 +11,19 @@ Source SHA-256: 90418681aee84f81ea7a32ee346fc0ba78a5c05fb99895f6b4c6df9814ee3b9b
 | savedTokenMu | var_spec |  | [26](../../magpie/internal/provider/logins_on.go#L26) |
 | SetLoginOn | function_declaration |  | [30](../../magpie/internal/provider/logins_on.go#L30) |
 | pausedOwn | function_declaration |  | [87](../../magpie/internal/provider/logins_on.go#L87) |
-| OwnPaused | method_declaration | Provider | [105](../../magpie/internal/provider/logins_on.go#L105) |
-| AlsoOn | method_declaration | Provider | [121](../../magpie/internal/provider/logins_on.go#L121) |
-| alsoOn | method_declaration | Provider | [131](../../magpie/internal/provider/logins_on.go#L131) |
-| Token | method_declaration | *Account | [182](../../magpie/internal/provider/logins_on.go#L182) |
+| OwnPaused | method_declaration |  | [105](../../magpie/internal/provider/logins_on.go#L105) |
+| AlsoOn | method_declaration |  | [121](../../magpie/internal/provider/logins_on.go#L121) |
+| alsoOn | method_declaration |  | [131](../../magpie/internal/provider/logins_on.go#L131) |
+| out | var_spec | alsoOn | [147](../../magpie/internal/provider/logins_on.go#L147) |
+| Token | method_declaration |  | [182](../../magpie/internal/provider/logins_on.go#L182) |
 | savedLoginToken | function_declaration |  | [200](../../magpie/internal/provider/logins_on.go#L200) |
 | renewSavedLogin | function_declaration |  | [208](../../magpie/internal/provider/logins_on.go#L208) |
 | renewSavedLoginFrom | function_declaration |  | [216](../../magpie/internal/provider/logins_on.go#L216) |
 | renewSaved | function_declaration |  | [220](../../magpie/internal/provider/logins_on.go#L220) |
+| l | var_spec | renewSaved | [225](../../magpie/internal/provider/logins_on.go#L225) |
+| auth | var_spec | renewSaved | [259](../../magpie/internal/provider/logins_on.go#L259) |
+| raw | var_spec | renewSaved | [262](../../magpie/internal/provider/logins_on.go#L262) |
+| a | var_spec | renewSaved | [263](../../magpie/internal/provider/logins_on.go#L263) |
 | heldByCodex | function_declaration |  | [304](../../magpie/internal/provider/logins_on.go#L304) |
 | savedRefreshFailed | function_declaration |  | [319](../../magpie/internal/provider/logins_on.go#L319) |
+| refused | var_spec | savedRefreshFailed | [320](../../magpie/internal/provider/logins_on.go#L320) |

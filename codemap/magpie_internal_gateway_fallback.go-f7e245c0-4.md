@@ -8,23 +8,78 @@ Source SHA-256: 071a27738d6779ccd694331c1159c807288f8c7801445a390c6bbb88626849c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Choices | field_declaration | refusedReply | [3259](../../magpie/internal/gateway/fallback.go#L3259) |
-| FinishReason | field_declaration | refusedReply | [3260](../../magpie/internal/gateway/fallback.go#L3260) |
-| Message | field_declaration | refusedReply | [3261](../../magpie/internal/gateway/fallback.go#L3261) |
-| Content | field_declaration | refusedReply | [3262](../../magpie/internal/gateway/fallback.go#L3262) |
-| ToolCalls | field_declaration | refusedReply | [3263](../../magpie/internal/gateway/fallback.go#L3263) |
-| Status | field_declaration | refusedReply | [3267](../../magpie/internal/gateway/fallback.go#L3267) |
-| IncompleteDetails | field_declaration | refusedReply | [3268](../../magpie/internal/gateway/fallback.go#L3268) |
-| Reason | field_declaration | refusedReply | [3269](../../magpie/internal/gateway/fallback.go#L3269) |
-| Output | field_declaration | refusedReply | [3271](../../magpie/internal/gateway/fallback.go#L3271) |
-| Candidates | field_declaration | refusedReply | [3273](../../magpie/internal/gateway/fallback.go#L3273) |
-| Content | field_declaration | refusedReply | [3274](../../magpie/internal/gateway/fallback.go#L3274) |
-| Parts | field_declaration | refusedReply | [3275](../../magpie/internal/gateway/fallback.go#L3275) |
-| FinishReason | field_declaration | refusedReply | [3277](../../magpie/internal/gateway/fallback.go#L3277) |
-| PromptFeedback | field_declaration | refusedReply | [3279](../../magpie/internal/gateway/fallback.go#L3279) |
-| BlockReason | field_declaration | refusedReply | [3280](../../magpie/internal/gateway/fallback.go#L3280) |
+| Text | field_declaration | streamEvent::v | [2879](../../magpie/internal/gateway/fallback.go#L2879) |
+| Candidates | field_declaration | streamEvent::v | [2880](../../magpie/internal/gateway/fallback.go#L2880) |
+| Content | field_declaration | streamEvent::v::Candidates | [2881](../../magpie/internal/gateway/fallback.go#L2881) |
+| Parts | field_declaration | streamEvent::v::Candidates::Content | [2882](../../magpie/internal/gateway/fallback.go#L2882) |
+| FinishReason | field_declaration | streamEvent::v::Candidates | [2884](../../magpie/internal/gateway/fallback.go#L2884) |
+| PromptFeedback | field_declaration | streamEvent::v | [2886](../../magpie/internal/gateway/fallback.go#L2886) |
+| BlockReason | field_declaration | streamEvent::v::PromptFeedback | [2887](../../magpie/internal/gateway/fallback.go#L2887) |
+| m | var_spec | streamEvent | [2899](../../magpie/internal/gateway/fallback.go#L2899) |
+| d | var_spec | streamEvent | [2953](../../magpie/internal/gateway/fallback.go#L2953) |
+| StopReason | field_declaration | streamEvent::d | [2954](../../magpie/internal/gateway/fallback.go#L2954) |
+| StopDetails | field_declaration | streamEvent::d | [2955](../../magpie/internal/gateway/fallback.go#L2955) |
+| part | var_spec | streamEvent | [2974](../../magpie/internal/gateway/fallback.go#L2974) |
+| Text | field_declaration | streamEvent::part | [2975](../../magpie/internal/gateway/fallback.go#L2975) |
+| Thought | field_declaration | streamEvent::part | [2976](../../magpie/internal/gateway/fallback.go#L2976) |
+| replyEvent | function_declaration |  | [3061](../../magpie/internal/gateway/fallback.go#L3061) |
+| anthropicDeltaThinks | function_declaration |  | [3083](../../magpie/internal/gateway/fallback.go#L3083) |
+| d | var_spec | anthropicDeltaThinks | [3084](../../magpie/internal/gateway/fallback.go#L3084) |
+| Type | field_declaration | anthropicDeltaThinks::d | [3085](../../magpie/internal/gateway/fallback.go#L3085) |
+| Thinking | field_declaration | anthropicDeltaThinks::d | [3086](../../magpie/internal/gateway/fallback.go#L3086) |
+| anthropicDeltaSays | function_declaration |  | [3093](../../magpie/internal/gateway/fallback.go#L3093) |
+| d | var_spec | anthropicDeltaSays | [3094](../../magpie/internal/gateway/fallback.go#L3094) |
+| Type | field_declaration | anthropicDeltaSays::d | [3095](../../magpie/internal/gateway/fallback.go#L3095) |
+| Text | field_declaration | anthropicDeltaSays::d | [3096](../../magpie/internal/gateway/fallback.go#L3096) |
+| Thinking | field_declaration | anthropicDeltaSays::d | [3097](../../magpie/internal/gateway/fallback.go#L3097) |
+| errorCode | function_declaration |  | [3114](../../magpie/internal/gateway/fallback.go#L3114) |
+| e | var_spec | errorCode | [3115](../../magpie/internal/gateway/fallback.go#L3115) |
+| Code | field_declaration | errorCode::e | [3116](../../magpie/internal/gateway/fallback.go#L3116) |
+| Type | field_declaration | errorCode::e | [3117](../../magpie/internal/gateway/fallback.go#L3117) |
+| policyCode | var_spec |  | [3131](../../magpie/internal/gateway/fallback.go#L3131) |
+| flaggedWords | var_spec |  | [3135](../../magpie/internal/gateway/fallback.go#L3135) |
+| policyRefusal | function_declaration |  | [3143](../../magpie/internal/gateway/fallback.go#L3143) |
+| e | var_spec | policyRefusal | [3144](../../magpie/internal/gateway/fallback.go#L3144) |
+| Code | field_declaration | policyRefusal::e | [3145](../../magpie/internal/gateway/fallback.go#L3145) |
+| Type | field_declaration | policyRefusal::e | [3146](../../magpie/internal/gateway/fallback.go#L3146) |
+| Message | field_declaration | policyRefusal::e | [3147](../../magpie/internal/gateway/fallback.go#L3147) |
+| Error | field_declaration | policyRefusal::e | [3148](../../magpie/internal/gateway/fallback.go#L3148) |
+| Code | field_declaration | policyRefusal::e::Error | [3149](../../magpie/internal/gateway/fallback.go#L3149) |
+| Type | field_declaration | policyRefusal::e::Error | [3150](../../magpie/internal/gateway/fallback.go#L3150) |
+| Message | field_declaration | policyRefusal::e::Error | [3151](../../magpie/internal/gateway/fallback.go#L3151) |
+| highRiskRefusal | const_spec |  | [3193](../../magpie/internal/gateway/fallback.go#L3193) |
+| filterRefused | function_declaration |  | [3205](../../magpie/internal/gateway/fallback.go#L3205) |
+| refusedCode | function_declaration |  | [3224](../../magpie/internal/gateway/fallback.go#L3224) |
+| v | var_spec | refusedCode | [3225](../../magpie/internal/gateway/fallback.go#L3225) |
+| Error | field_declaration | refusedCode::v | [3226](../../magpie/internal/gateway/fallback.go#L3226) |
+| Response | field_declaration | refusedCode::v | [3227](../../magpie/internal/gateway/fallback.go#L3227) |
+| Error | field_declaration | refusedCode::v::Response | [3228](../../magpie/internal/gateway/fallback.go#L3228) |
+| refusedReply | function_declaration |  | [3252](../../magpie/internal/gateway/fallback.go#L3252) |
+| v | var_spec | refusedReply | [3253](../../magpie/internal/gateway/fallback.go#L3253) |
+| StopReason | field_declaration | refusedReply::v | [3255](../../magpie/internal/gateway/fallback.go#L3255) |
+| StopDetails | field_declaration | refusedReply::v | [3256](../../magpie/internal/gateway/fallback.go#L3256) |
+| Content | field_declaration | refusedReply::v | [3257](../../magpie/internal/gateway/fallback.go#L3257) |
+| Choices | field_declaration | refusedReply::v | [3259](../../magpie/internal/gateway/fallback.go#L3259) |
+| FinishReason | field_declaration | refusedReply::v::Choices | [3260](../../magpie/internal/gateway/fallback.go#L3260) |
+| Message | field_declaration | refusedReply::v::Choices | [3261](../../magpie/internal/gateway/fallback.go#L3261) |
+| Content | field_declaration | refusedReply::v::Choices::Message | [3262](../../magpie/internal/gateway/fallback.go#L3262) |
+| ToolCalls | field_declaration | refusedReply::v::Choices::Message | [3263](../../magpie/internal/gateway/fallback.go#L3263) |
+| Status | field_declaration | refusedReply::v | [3267](../../magpie/internal/gateway/fallback.go#L3267) |
+| IncompleteDetails | field_declaration | refusedReply::v | [3268](../../magpie/internal/gateway/fallback.go#L3268) |
+| Reason | field_declaration | refusedReply::v::IncompleteDetails | [3269](../../magpie/internal/gateway/fallback.go#L3269) |
+| Output | field_declaration | refusedReply::v | [3271](../../magpie/internal/gateway/fallback.go#L3271) |
+| Candidates | field_declaration | refusedReply::v | [3273](../../magpie/internal/gateway/fallback.go#L3273) |
+| Content | field_declaration | refusedReply::v::Candidates | [3274](../../magpie/internal/gateway/fallback.go#L3274) |
+| Parts | field_declaration | refusedReply::v::Candidates::Content | [3275](../../magpie/internal/gateway/fallback.go#L3275) |
+| FinishReason | field_declaration | refusedReply::v::Candidates | [3277](../../magpie/internal/gateway/fallback.go#L3277) |
+| PromptFeedback | field_declaration | refusedReply::v | [3279](../../magpie/internal/gateway/fallback.go#L3279) |
+| BlockReason | field_declaration | refusedReply::v::PromptFeedback | [3280](../../magpie/internal/gateway/fallback.go#L3280) |
 | streamStatus | function_declaration |  | [3315](../../magpie/internal/gateway/fallback.go#L3315) |
 | pinTo | function_declaration |  | [3343](../../magpie/internal/gateway/fallback.go#L3343) |
+| out | var_spec | pinTo | [3345](../../magpie/internal/gateway/fallback.go#L3345) |
+| order | var_spec | pinTo | [3346](../../magpie/internal/gateway/fallback.go#L3346) |
+| rests | var_spec | pinTo | [3347](../../magpie/internal/gateway/fallback.go#L3347) |
+| have | var_spec | pinTo | [3380](../../magpie/internal/gateway/fallback.go#L3380) |
 | unservedTry | function_declaration |  | [3396](../../magpie/internal/gateway/fallback.go#L3396) |
 | unlistedNext | function_declaration |  | [3405](../../magpie/internal/gateway/fallback.go#L3405) |
 | askUnlisted | function_declaration |  | [3428](../../magpie/internal/gateway/fallback.go#L3428) |

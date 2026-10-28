@@ -9,7 +9,7 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | traceKeep | const_spec |  | [31](../../magpie/internal/gateway/trace.go#L31) |
-| Route | struct_type |  | [34](../../magpie/internal/gateway/trace.go#L34) |
+| Route | type_spec |  | [34](../../magpie/internal/gateway/trace.go#L34) |
 | callerKey | field_declaration | Route | [38](../../magpie/internal/gateway/trace.go#L38) |
 | imageTurn | field_declaration | Route | [39](../../magpie/internal/gateway/trace.go#L39) |
 | imageCaller | field_declaration | Route | [40](../../magpie/internal/gateway/trace.go#L40) |
@@ -74,7 +74,7 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Conv | field_declaration | Route | [141](../../magpie/internal/gateway/trace.go#L141) |
 | Folder | field_declaration | Route | [145](../../magpie/internal/gateway/trace.go#L145) |
 | Archive | field_declaration | Route | [149](../../magpie/internal/gateway/trace.go#L149) |
-| RouteUsage | struct_type |  | [154](../../magpie/internal/gateway/trace.go#L154) |
+| RouteUsage | type_spec |  | [154](../../magpie/internal/gateway/trace.go#L154) |
 | Provider | field_declaration | RouteUsage | [155](../../magpie/internal/gateway/trace.go#L155) |
 | Model | field_declaration | RouteUsage | [156](../../magpie/internal/gateway/trace.go#L156) |
 | Input | field_declaration | RouteUsage | [157](../../magpie/internal/gateway/trace.go#L157) |
@@ -83,8 +83,8 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | CacheWrite | field_declaration | RouteUsage | [160](../../magpie/internal/gateway/trace.go#L160) |
 | Reasoning | field_declaration | RouteUsage | [161](../../magpie/internal/gateway/trace.go#L161) |
 | CacheUnknown | field_declaration | RouteUsage | [164](../../magpie/internal/gateway/trace.go#L164) |
-| PricingRecord | method_declaration | RouteUsage | [168](../../magpie/internal/gateway/trace.go#L168) |
-| GroupRef | struct_type |  | [174](../../magpie/internal/gateway/trace.go#L174) |
+| PricingRecord | method_declaration |  | [168](../../magpie/internal/gateway/trace.go#L168) |
+| GroupRef | type_spec |  | [174](../../magpie/internal/gateway/trace.go#L174) |
 | ID | field_declaration | GroupRef | [175](../../magpie/internal/gateway/trace.go#L175) |
 | Ref | field_declaration | GroupRef | [178](../../magpie/internal/gateway/trace.go#L178) |
 | Name | field_declaration | GroupRef | [179](../../magpie/internal/gateway/trace.go#L179) |
@@ -97,14 +97,14 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Via | field_declaration | GroupRef | [189](../../magpie/internal/gateway/trace.go#L189) |
 | Fast | field_declaration | GroupRef | [191](../../magpie/internal/gateway/trace.go#L191) |
 | Paused | field_declaration | GroupRef | [194](../../magpie/internal/gateway/trace.go#L194) |
-| SubGroup | struct_type |  | [198](../../magpie/internal/gateway/trace.go#L198) |
+| SubGroup | type_spec |  | [198](../../magpie/internal/gateway/trace.go#L198) |
 | ID | field_declaration | SubGroup | [199](../../magpie/internal/gateway/trace.go#L199) |
 | Ref | field_declaration | SubGroup | [200](../../magpie/internal/gateway/trace.go#L200) |
 | Name | field_declaration | SubGroup | [201](../../magpie/internal/gateway/trace.go#L201) |
 | Routing | field_declaration | SubGroup | [202](../../magpie/internal/gateway/trace.go#L202) |
 | In | field_declaration | SubGroup | [203](../../magpie/internal/gateway/trace.go#L203) |
 | Rules | field_declaration | SubGroup | [204](../../magpie/internal/gateway/trace.go#L204) |
-| NestedRule | struct_type |  | [208](../../magpie/internal/gateway/trace.go#L208) |
+| NestedRule | type_spec |  | [208](../../magpie/internal/gateway/trace.go#L208) |
 | Group | field_declaration | NestedRule | [209](../../magpie/internal/gateway/trace.go#L209) |
 | Name | field_declaration | NestedRule | [210](../../magpie/internal/gateway/trace.go#L210) |
 | Rule | field_declaration | NestedRule | [211](../../magpie/internal/gateway/trace.go#L211) |

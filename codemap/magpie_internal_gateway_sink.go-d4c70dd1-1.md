@@ -8,10 +8,12 @@ Source SHA-256: 96866fff91aa38e4169210544948762019b022143bcf15588ae5a590d730dc1c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sinking | struct_type |  | [30](../../magpie/internal/gateway/sink.go#L30) |
+| sinking | type_spec |  | [30](../../magpie/internal/gateway/sink.go#L30) |
 | at | field_declaration | sinking | [31](../../magpie/internal/gateway/sink.go#L31) |
 | n | field_declaration | sinking | [32](../../magpie/internal/gateway/sink.go#L32) |
 | sunk | var_spec |  | [35](../../magpie/internal/gateway/sink.go#L35) |
+| m | field_declaration | sunk | [37](../../magpie/internal/gateway/sink.go#L37) |
+| n | field_declaration | sunk | [38](../../magpie/internal/gateway/sink.go#L38) |
 | sink | function_declaration |  | [42](../../magpie/internal/gateway/sink.go#L42) |
 | unsink | function_declaration |  | [52](../../magpie/internal/gateway/sink.go#L52) |
 | sunkAt | function_declaration |  | [59](../../magpie/internal/gateway/sink.go#L59) |

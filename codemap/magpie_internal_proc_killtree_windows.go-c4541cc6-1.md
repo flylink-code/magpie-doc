@@ -11,4 +11,7 @@ Source SHA-256: d79b9a39f8d3afe5eab1ab6fdb3868a828dbbefa4f8f6075a28d43a640be9c0a
 | cancelTree | function_declaration |  | [17](../../magpie/internal/proc/killtree_windows.go#L17) |
 | killDescendants | function_declaration |  | [27](../../magpie/internal/proc/killtree_windows.go#L27) |
 | descendants | function_declaration |  | [39](../../magpie/internal/proc/killtree_windows.go#L39) |
+| e | var_spec | descendants | [46](../../magpie/internal/proc/killtree_windows.go#L46) |
+| out | var_spec | descendants | [53](../../magpie/internal/proc/killtree_windows.go#L53) |
 | started | function_declaration |  | [80](../../magpie/internal/proc/killtree_windows.go#L80) |
+| c | var_spec | started | [86](../../magpie/internal/proc/killtree_windows.go#L86) |

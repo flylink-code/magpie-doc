@@ -9,22 +9,23 @@ Source SHA-256: 8ca7e7b2cd733f4790565cab68bc7e9d65b7233a3502e2d81621249a5e797a6f
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ollamaBalanceURL | var_spec |  | [16](../../magpie/internal/provider/ollama_usage.go#L16) |
-| ollamaBalance | struct_type |  | [33](../../magpie/internal/provider/ollama_usage.go#L33) |
+| ollamaBalance | type_spec |  | [33](../../magpie/internal/provider/ollama_usage.go#L33) |
 | Included | field_declaration | ollamaBalance | [34](../../magpie/internal/provider/ollama_usage.go#L34) |
-| Balance | field_declaration | ollamaBalance | [35](../../magpie/internal/provider/ollama_usage.go#L35) |
-| Allowance | field_declaration | ollamaBalance | [36](../../magpie/internal/provider/ollama_usage.go#L36) |
-| Period | field_declaration | ollamaBalance | [37](../../magpie/internal/provider/ollama_usage.go#L37) |
-| From | field_declaration | ollamaBalance | [38](../../magpie/internal/provider/ollama_usage.go#L38) |
-| Until | field_declaration | ollamaBalance | [39](../../magpie/internal/provider/ollama_usage.go#L39) |
-| Session | field_declaration | ollamaBalance | [41](../../magpie/internal/provider/ollama_usage.go#L41) |
-| Weekly | field_declaration | ollamaBalance | [42](../../magpie/internal/provider/ollama_usage.go#L42) |
+| Balance | field_declaration | ollamaBalance::Included | [35](../../magpie/internal/provider/ollama_usage.go#L35) |
+| Allowance | field_declaration | ollamaBalance::Included | [36](../../magpie/internal/provider/ollama_usage.go#L36) |
+| Period | field_declaration | ollamaBalance::Included | [37](../../magpie/internal/provider/ollama_usage.go#L37) |
+| From | field_declaration | ollamaBalance::Included::Period | [38](../../magpie/internal/provider/ollama_usage.go#L38) |
+| Until | field_declaration | ollamaBalance::Included::Period | [39](../../magpie/internal/provider/ollama_usage.go#L39) |
+| Session | field_declaration | ollamaBalance::Included | [41](../../magpie/internal/provider/ollama_usage.go#L41) |
+| Weekly | field_declaration | ollamaBalance::Included | [42](../../magpie/internal/provider/ollama_usage.go#L42) |
 | Purchased | field_declaration | ollamaBalance | [44](../../magpie/internal/provider/ollama_usage.go#L44) |
-| Balance | field_declaration | ollamaBalance | [45](../../magpie/internal/provider/ollama_usage.go#L45) |
-| ollamaLimit | struct_type |  | [50](../../magpie/internal/provider/ollama_usage.go#L50) |
+| Balance | field_declaration | ollamaBalance::Purchased | [45](../../magpie/internal/provider/ollama_usage.go#L45) |
+| ollamaLimit | type_spec |  | [50](../../magpie/internal/provider/ollama_usage.go#L50) |
 | Remaining | field_declaration | ollamaLimit | [51](../../magpie/internal/provider/ollama_usage.go#L51) |
 | ResetsAt | field_declaration | ollamaLimit | [52](../../magpie/internal/provider/ollama_usage.go#L52) |
-| window | method_declaration | *ollamaLimit | [57](../../magpie/internal/provider/ollama_usage.go#L57) |
+| window | method_declaration |  | [57](../../magpie/internal/provider/ollama_usage.go#L57) |
 | errNoBalance | var_spec |  | [74](../../magpie/internal/provider/ollama_usage.go#L74) |
 | parseOllamaBalance | function_declaration |  | [76](../../magpie/internal/provider/ollama_usage.go#L76) |
+| r | var_spec | parseOllamaBalance | [77](../../magpie/internal/provider/ollama_usage.go#L77) |
 | readOllamaPlan | function_declaration |  | [89](../../magpie/internal/provider/ollama_usage.go#L89) |
 | readOllamaCredits | function_declaration |  | [142](../../magpie/internal/provider/ollama_usage.go#L142) |

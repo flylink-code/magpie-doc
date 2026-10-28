@@ -9,5 +9,7 @@ Source SHA-256: 406ab0cd162eb0a44e18e7922fa4e24df8d8a2541c409d955cc775e9f621b692
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | FakeWSL | function_declaration |  | [15](../../magpie/internal/agent/wsl_fake.go#L15) |
+| names | var_spec | FakeWSL | [23](../../magpie/internal/agent/wsl_fake.go#L23) |
+| run | var_spec | FakeWSL | [41](../../magpie/internal/agent/wsl_fake.go#L41) |
 | fakeStop | var_spec |  | [64](../../magpie/internal/agent/wsl_fake.go#L64) |
 | StopFakeWSL | function_declaration |  | [69](../../magpie/internal/agent/wsl_fake.go#L69) |

@@ -9,5 +9,6 @@ Source SHA-256: 0d8576d73d786d930b50ee0a3089881706e6e6ab54367cbebdd4b446b2c2b090
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CleanAccounts | function_declaration |  | [21](../../magpie/internal/access/accounts.go#L21) |
-| AllowsAccount | method_declaration | Identity | [68](../../magpie/internal/access/accounts.go#L68) |
+| out | var_spec | CleanAccounts | [22](../../magpie/internal/access/accounts.go#L22) |
+| AllowsAccount | method_declaration |  | [68](../../magpie/internal/access/accounts.go#L68) |
 | ReplaceAccount | function_declaration |  | [89](../../magpie/internal/access/accounts.go#L89) |

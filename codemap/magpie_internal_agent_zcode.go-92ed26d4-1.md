@@ -12,46 +12,57 @@ Source SHA-256: b161fd3d7d2c2d882bd3225a2a1c74c27b9a2a32cbf7b347969e2550f1ef7b7c
 | zcode | function_declaration |  | [65](../../magpie/internal/agent/zcode.go#L65) |
 | zcodeProviderJSON | function_declaration |  | [131](../../magpie/internal/agent/zcode.go#L131) |
 | zcodeVariants | function_declaration |  | [169](../../magpie/internal/agent/zcode.go#L169) |
-| Provider | field_declaration | zcodeVariants | [171](../../magpie/internal/agent/zcode.go#L171) |
-| Models | field_declaration | zcodeVariants | [172](../../magpie/internal/agent/zcode.go#L172) |
-| Reasoning | field_declaration | zcodeVariants | [173](../../magpie/internal/agent/zcode.go#L173) |
-| DefaultVariant | field_declaration | zcodeVariants | [174](../../magpie/internal/agent/zcode.go#L174) |
+| c | var_spec | zcodeVariants | [170](../../magpie/internal/agent/zcode.go#L170) |
+| Provider | field_declaration | zcodeVariants::c | [171](../../magpie/internal/agent/zcode.go#L171) |
+| Models | field_declaration | zcodeVariants::c::Provider | [172](../../magpie/internal/agent/zcode.go#L172) |
+| Reasoning | field_declaration | zcodeVariants::c::Provider::Models | [173](../../magpie/internal/agent/zcode.go#L173) |
+| DefaultVariant | field_declaration | zcodeVariants::c::Provider::Models::Reasoning | [174](../../magpie/internal/agent/zcode.go#L174) |
 | zcodeAddress | function_declaration |  | [195](../../magpie/internal/agent/zcode.go#L195) |
 | zcodeKept | function_declaration |  | [210](../../magpie/internal/agent/zcode.go#L210) |
-| Config | field_declaration | zcodeKept | [212](../../magpie/internal/agent/zcode.go#L212) |
-| ProviderConfigRules | field_declaration | zcodeKept | [213](../../magpie/internal/agent/zcode.go#L213) |
-| ProviderRules | field_declaration | zcodeKept | [214](../../magpie/internal/agent/zcode.go#L214) |
-| ProviderID | field_declaration | zcodeKept | [215](../../magpie/internal/agent/zcode.go#L215) |
-| Config | field_declaration | zcodeKept | [216](../../magpie/internal/agent/zcode.go#L216) |
-| Access | field_declaration | zcodeKept | [217](../../magpie/internal/agent/zcode.go#L217) |
-| APIKey | field_declaration | zcodeKept | [218](../../magpie/internal/agent/zcode.go#L218) |
-| API | field_declaration | zcodeKept | [220](../../magpie/internal/agent/zcode.go#L220) |
-| BaseURL | field_declaration | zcodeKept | [221](../../magpie/internal/agent/zcode.go#L221) |
+| r | var_spec | zcodeKept | [211](../../magpie/internal/agent/zcode.go#L211) |
+| Config | field_declaration | zcodeKept::r | [212](../../magpie/internal/agent/zcode.go#L212) |
+| ProviderConfigRules | field_declaration | zcodeKept::r::Config | [213](../../magpie/internal/agent/zcode.go#L213) |
+| ProviderRules | field_declaration | zcodeKept::r::Config::ProviderConfigRules | [214](../../magpie/internal/agent/zcode.go#L214) |
+| ProviderID | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules | [215](../../magpie/internal/agent/zcode.go#L215) |
+| Config | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules | [216](../../magpie/internal/agent/zcode.go#L216) |
+| Access | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules::Config | [217](../../magpie/internal/agent/zcode.go#L217) |
+| APIKey | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules::Config::Access | [218](../../magpie/internal/agent/zcode.go#L218) |
+| API | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules::Config | [220](../../magpie/internal/agent/zcode.go#L220) |
+| BaseURL | field_declaration | zcodeKept::r::Config::ProviderConfigRules::ProviderRules::Config::API | [221](../../magpie/internal/agent/zcode.go#L221) |
 | zcodeKinds | var_spec |  | [243](../../magpie/internal/agent/zcode.go#L243) |
 | zcodeFormat | function_declaration |  | [255](../../magpie/internal/agent/zcode.go#L255) |
 | zcodeRuleFormat | function_declaration |  | [283](../../magpie/internal/agent/zcode.go#L283) |
-| Config | field_declaration | zcodeRuleFormat | [285](../../magpie/internal/agent/zcode.go#L285) |
-| ProviderConfigRules | field_declaration | zcodeRuleFormat | [286](../../magpie/internal/agent/zcode.go#L286) |
-| ProviderRules | field_declaration | zcodeRuleFormat | [287](../../magpie/internal/agent/zcode.go#L287) |
-| ProviderID | field_declaration | zcodeRuleFormat | [288](../../magpie/internal/agent/zcode.go#L288) |
-| Config | field_declaration | zcodeRuleFormat | [289](../../magpie/internal/agent/zcode.go#L289) |
-| API | field_declaration | zcodeRuleFormat | [290](../../magpie/internal/agent/zcode.go#L290) |
-| Type | field_declaration | zcodeRuleFormat | [291](../../magpie/internal/agent/zcode.go#L291) |
+| r | var_spec | zcodeRuleFormat | [284](../../magpie/internal/agent/zcode.go#L284) |
+| Config | field_declaration | zcodeRuleFormat::r | [285](../../magpie/internal/agent/zcode.go#L285) |
+| ProviderConfigRules | field_declaration | zcodeRuleFormat::r::Config | [286](../../magpie/internal/agent/zcode.go#L286) |
+| ProviderRules | field_declaration | zcodeRuleFormat::r::Config::ProviderConfigRules | [287](../../magpie/internal/agent/zcode.go#L287) |
+| ProviderID | field_declaration | zcodeRuleFormat::r::Config::ProviderConfigRules::ProviderRules | [288](../../magpie/internal/agent/zcode.go#L288) |
+| Config | field_declaration | zcodeRuleFormat::r::Config::ProviderConfigRules::ProviderRules | [289](../../magpie/internal/agent/zcode.go#L289) |
+| API | field_declaration | zcodeRuleFormat::r::Config::ProviderConfigRules::ProviderRules::Config | [290](../../magpie/internal/agent/zcode.go#L290) |
+| Type | field_declaration | zcodeRuleFormat::r::Config::ProviderConfigRules::ProviderRules::Config::API | [291](../../magpie/internal/agent/zcode.go#L291) |
 | onAnotherMachine | function_declaration |  | [310](../../magpie/internal/agent/zcode.go#L310) |
 | zcodeMaxOutput | const_spec |  | [325](../../magpie/internal/agent/zcode.go#L325) |
 | zcodeOutput | function_declaration |  | [327](../../magpie/internal/agent/zcode.go#L327) |
 | zcodeLevels | function_declaration |  | [331](../../magpie/internal/agent/zcode.go#L331) |
+| out | var_spec | zcodeLevels | [332](../../magpie/internal/agent/zcode.go#L332) |
 | zcodeDefaultLevel | function_declaration |  | [346](../../magpie/internal/agent/zcode.go#L346) |
 | zcodeRuled | function_declaration |  | [358](../../magpie/internal/agent/zcode.go#L358) |
-| Config | field_declaration | zcodeRuled | [360](../../magpie/internal/agent/zcode.go#L360) |
-| ProviderConfigRules | field_declaration | zcodeRuled | [361](../../magpie/internal/agent/zcode.go#L361) |
-| ProviderRules | field_declaration | zcodeRuled | [362](../../magpie/internal/agent/zcode.go#L362) |
-| ProviderID | field_declaration | zcodeRuled | [363](../../magpie/internal/agent/zcode.go#L363) |
+| c | var_spec | zcodeRuled | [359](../../magpie/internal/agent/zcode.go#L359) |
+| Config | field_declaration | zcodeRuled::c | [360](../../magpie/internal/agent/zcode.go#L360) |
+| ProviderConfigRules | field_declaration | zcodeRuled::c::Config | [361](../../magpie/internal/agent/zcode.go#L361) |
+| ProviderRules | field_declaration | zcodeRuled::c::Config::ProviderConfigRules | [362](../../magpie/internal/agent/zcode.go#L362) |
+| ProviderID | field_declaration | zcodeRuled::c::Config::ProviderConfigRules::ProviderRules | [363](../../magpie/internal/agent/zcode.go#L363) |
 | zcodeRules | function_declaration |  | [384](../../magpie/internal/agent/zcode.go#L384) |
+| old | var_spec | zcodeRules | [406](../../magpie/internal/agent/zcode.go#L406) |
+| providers | var_spec | zcodeRules | [407](../../magpie/internal/agent/zcode.go#L407) |
+| models | var_spec | zcodeRules | [417](../../magpie/internal/agent/zcode.go#L417) |
+| ids | var_spec | zcodeRules | [443](../../magpie/internal/agent/zcode.go#L443) |
 | zcodeSearchedKey | const_spec |  | [553](../../magpie/internal/agent/zcode.go#L553) |
 | zcodeWebSearch | function_declaration |  | [560](../../magpie/internal/agent/zcode.go#L560) |
 | zcodeSearched | function_declaration |  | [588](../../magpie/internal/agent/zcode.go#L588) |
+| m | var_spec | zcodeSearched | [594](../../magpie/internal/agent/zcode.go#L594) |
 | zcodeSearchedPut | function_declaration |  | [608](../../magpie/internal/agent/zcode.go#L608) |
+| keep | var_spec | zcodeSearchedPut | [609](../../magpie/internal/agent/zcode.go#L609) |
 | zcodeObj | function_declaration |  | [621](../../magpie/internal/agent/zcode.go#L621) |
 | zcodeList | function_declaration |  | [630](../../magpie/internal/agent/zcode.go#L630) |
 | zcodeNonNil | function_declaration |  | [632](../../magpie/internal/agent/zcode.go#L632) |

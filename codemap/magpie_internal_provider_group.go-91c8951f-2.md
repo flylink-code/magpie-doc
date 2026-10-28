@@ -8,20 +8,44 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| membersIn | function_declaration |  | [864](../../magpie/internal/provider/group.go#L864) |
+| membersOff | function_declaration |  | [869](../../magpie/internal/provider/group.go#L869) |
+| out | var_spec | membersOff | [870](../../magpie/internal/provider/group.go#L870) |
+| walk | var_spec | membersOff | [873](../../magpie/internal/provider/group.go#L873) |
+| groupEntries | function_declaration |  | [925](../../magpie/internal/provider/group.go#L925) |
+| entryOf | type_spec |  | [931](../../magpie/internal/provider/group.go#L931) |
+| entriesBy | function_declaration |  | [935](../../magpie/internal/provider/group.go#L935) |
+| buildGroupEntries | function_declaration |  | [948](../../magpie/internal/provider/group.go#L948) |
+| out | var_spec | buildGroupEntries | [949](../../magpie/internal/provider/group.go#L949) |
+| fixed | var_spec | buildGroupEntries | [961](../../magpie/internal/provider/group.go#L961) |
+| efforts | var_spec | buildGroupEntries | [975](../../magpie/internal/provider/group.go#L975) |
+| imageInput | var_spec | buildGroupEntries | [977](../../magpie/internal/provider/group.go#L977) |
+| smallestWindow | function_declaration |  | [1126](../../magpie/internal/provider/group.go#L1126) |
+| largestWindow | function_declaration |  | [1133](../../magpie/internal/provider/group.go#L1133) |
+| smallestWindowBy | function_declaration |  | [1142](../../magpie/internal/provider/group.go#L1142) |
 | levelsUnknown | function_declaration |  | [1163](../../magpie/internal/provider/group.go#L1163) |
-| Quiet | method_declaration | Entry | [1186](../../magpie/internal/provider/group.go#L1186) |
+| Quiet | method_declaration |  | [1186](../../magpie/internal/provider/group.go#L1186) |
 | SaveGroup | function_declaration |  | [1192](../../magpie/internal/provider/group.go#L1192) |
+| err | var_spec | SaveGroup | [1219](../../magpie/internal/provider/group.go#L1219) |
+| off | var_spec | SaveGroup | [1246](../../magpie/internal/provider/group.go#L1246) |
 | groupsInGroup | function_declaration |  | [1336](../../magpie/internal/provider/group.go#L1336) |
 | wayTo | function_declaration |  | [1363](../../magpie/internal/provider/group.go#L1363) |
 | depthOf | function_declaration |  | [1382](../../magpie/internal/provider/group.go#L1382) |
 | GroupsWith | function_declaration |  | [1397](../../magpie/internal/provider/group.go#L1397) |
+| out | var_spec | GroupsWith | [1398](../../magpie/internal/provider/group.go#L1398) |
 | MemberGroups | function_declaration |  | [1412](../../magpie/internal/provider/group.go#L1412) |
 | DeleteGroup | function_declaration |  | [1435](../../magpie/internal/provider/group.go#L1435) |
+| names | var_spec | DeleteGroup | [1441](../../magpie/internal/provider/group.go#L1441) |
 | DeleteGroups | function_declaration |  | [1475](../../magpie/internal/provider/group.go#L1475) |
+| left | var_spec | DeleteGroups | [1477](../../magpie/internal/provider/group.go#L1477) |
+| next | var_spec | DeleteGroups | [1504](../../magpie/internal/provider/group.go#L1504) |
+| last | var_spec | DeleteGroups | [1505](../../magpie/internal/provider/group.go#L1505) |
 | SwitchGroup | function_declaration |  | [1523](../../magpie/internal/provider/group.go#L1523) |
 | PickGroup | function_declaration |  | [1553](../../magpie/internal/provider/group.go#L1553) |
 | DisabledGroup | function_declaration |  | [1578](../../magpie/internal/provider/group.go#L1578) |
 | RemovedGroups | function_declaration |  | [1595](../../magpie/internal/provider/group.go#L1595) |
+| out | var_spec | RemovedGroups | [1596](../../magpie/internal/provider/group.go#L1596) |
 | ShowGroup | function_declaration |  | [1606](../../magpie/internal/provider/group.go#L1606) |
 | RenameGroup | function_declaration |  | [1619](../../magpie/internal/provider/group.go#L1619) |
 | renameGroupPicks | function_declaration |  | [1697](../../magpie/internal/provider/group.go#L1697) |
+| out | var_spec | renameGroupPicks | [1707](../../magpie/internal/provider/group.go#L1707) |

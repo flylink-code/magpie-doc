@@ -11,7 +11,12 @@ Source SHA-256: 397c37f80ddcff5e7b50e1b5df3cc503bf46b2e229f2b0dbd7dd54e253ba6bb7
 | lookFresh | const_spec |  | [25](../../magpie/internal/proc/look.go#L25) |
 | lookFreshInTests | var_spec |  | [29](../../magpie/internal/proc/look.go#L29) |
 | looks | var_spec |  | [31](../../magpie/internal/proc/look.go#L31) |
-| lookAnswer | struct_type |  | [40](../../magpie/internal/proc/look.go#L40) |
+| gen | field_declaration | looks | [33](../../magpie/internal/proc/look.go#L33) |
+| env | field_declaration | looks | [34](../../magpie/internal/proc/look.go#L34) |
+| stamp | field_declaration | looks | [35](../../magpie/internal/proc/look.go#L35) |
+| checked | field_declaration | looks | [36](../../magpie/internal/proc/look.go#L36) |
+| m | field_declaration | looks | [37](../../magpie/internal/proc/look.go#L37) |
+| lookAnswer | type_spec |  | [40](../../magpie/internal/proc/look.go#L40) |
 | path | field_declaration | lookAnswer | [41](../../magpie/internal/proc/look.go#L41) |
 | err | field_declaration | lookAnswer | [42](../../magpie/internal/proc/look.go#L42) |
 | LookPath | function_declaration |  | [49](../../magpie/internal/proc/look.go#L49) |
@@ -20,4 +25,5 @@ Source SHA-256: 397c37f80ddcff5e7b50e1b5df3cc503bf46b2e229f2b0dbd7dd54e253ba6bb7
 | looked | function_declaration |  | [78](../../magpie/internal/proc/look.go#L78) |
 | lookWindow | function_declaration |  | [110](../../magpie/internal/proc/look.go#L110) |
 | lookStamp | function_declaration |  | [119](../../magpie/internal/proc/look.go#L119) |
+| b | var_spec | lookStamp | [120](../../magpie/internal/proc/look.go#L120) |
 | findDirs | function_declaration |  | [141](../../magpie/internal/proc/look.go#L141) |

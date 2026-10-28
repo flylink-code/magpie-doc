@@ -14,14 +14,14 @@ Source SHA-256: 0361c2e78b2a31772c0e7f2ab68f5a444c43df99b34b2f6b707bd1fb28e729f5
 | traeSignedOut | const_spec |  | [62](../../magpie/internal/provider/trae_checkin.go#L62) |
 | traeOwnAppOnly | const_spec |  | [63](../../magpie/internal/provider/trae_checkin.go#L63) |
 | traeDeviceChecked | const_spec |  | [64](../../magpie/internal/provider/trae_checkin.go#L64) |
-| traeCheckinStatus | struct_type |  | [68](../../magpie/internal/provider/trae_checkin.go#L68) |
+| traeCheckinStatus | type_spec |  | [68](../../magpie/internal/provider/trae_checkin.go#L68) |
 | Code | field_declaration | traeCheckinStatus | [69](../../magpie/internal/provider/trae_checkin.go#L69) |
 | Message | field_declaration | traeCheckinStatus | [70](../../magpie/internal/provider/trae_checkin.go#L70) |
 | Enable | field_declaration | traeCheckinStatus | [71](../../magpie/internal/provider/trae_checkin.go#L71) |
 | CheckedIn | field_declaration | traeCheckinStatus | [72](../../magpie/internal/provider/trae_checkin.go#L72) |
 | Credits | field_declaration | traeCheckinStatus | [73](../../magpie/internal/provider/trae_checkin.go#L73) |
 | ExtraCredits | field_declaration | traeCheckinStatus | [74](../../magpie/internal/provider/trae_checkin.go#L74) |
-| traeAccount | struct_type |  | [78](../../magpie/internal/provider/trae_checkin.go#L78) |
+| traeAccount | type_spec |  | [78](../../magpie/internal/provider/trae_checkin.go#L78) |
 | User | field_declaration | traeAccount | [79](../../magpie/internal/provider/trae_checkin.go#L79) |
 | On | field_declaration | traeAccount | [80](../../magpie/internal/provider/trae_checkin.go#L80) |
 | uid | field_declaration | traeAccount | [81](../../magpie/internal/provider/trae_checkin.go#L81) |
@@ -31,13 +31,20 @@ Source SHA-256: 0361c2e78b2a31772c0e7f2ab68f5a444c43df99b34b2f6b707bd1fb28e729f5
 | traeCheckinKey | function_declaration |  | [88](../../magpie/internal/provider/trae_checkin.go#L88) |
 | traeCheckinMu | var_spec |  | [95](../../magpie/internal/provider/trae_checkin.go#L95) |
 | newTraeCheckiner | function_declaration |  | [97](../../magpie/internal/provider/trae_checkin.go#L97) |
+| out | var_spec | newTraeCheckiner | [99](../../magpie/internal/provider/trae_checkin.go#L99) |
 | traeCheckin | function_declaration |  | [109](../../magpie/internal/provider/trae_checkin.go#L109) |
+| st | var_spec | traeCheckin | [110](../../magpie/internal/provider/trae_checkin.go#L110) |
+| got | var_spec | traeCheckin | [123](../../magpie/internal/provider/trae_checkin.go#L123) |
 | traeRefused | function_declaration |  | [145](../../magpie/internal/provider/trae_checkin.go#L145) |
 | orStr | function_declaration |  | [158](../../magpie/internal/provider/trae_checkin.go#L158) |
 | traeCall | function_declaration |  | [166](../../magpie/internal/provider/trae_checkin.go#L166) |
 | CheckInTrae | function_declaration |  | [197](../../magpie/internal/provider/trae_checkin.go#L197) |
 | TraeCheckins | function_declaration |  | [203](../../magpie/internal/provider/trae_checkin.go#L203) |
+| out | var_spec | TraeCheckins | [205](../../magpie/internal/provider/trae_checkin.go#L205) |
 | HasTrae | function_declaration |  | [220](../../magpie/internal/provider/trae_checkin.go#L220) |
 | traeCards | function_declaration |  | [223](../../magpie/internal/provider/trae_checkin.go#L223) |
+| out | var_spec | traeCards | [224](../../magpie/internal/provider/trae_checkin.go#L224) |
 | traeCheckinAccounts | function_declaration |  | [235](../../magpie/internal/provider/trae_checkin.go#L235) |
+| out | var_spec | traeCheckinAccounts | [242](../../magpie/internal/provider/trae_checkin.go#L242) |
+| body | var_spec | traeCheckinAccounts | [251](../../magpie/internal/provider/trae_checkin.go#L251) |
 | KeepTraeCheckedIn | function_declaration |  | [263](../../magpie/internal/provider/trae_checkin.go#L263) |

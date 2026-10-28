@@ -18,43 +18,49 @@ Source SHA-256: d1a49ef257b27ab3fe08c2e47e7cb7a4d294e7540ae76df86f35ba140a4f75ef
 | volcPlanOf | function_declaration |  | [61](../../magpie/internal/provider/volcengine_usage.go#L61) |
 | volcRegion | function_declaration |  | [82](../../magpie/internal/provider/volcengine_usage.go#L82) |
 | volcPlanQuotas | function_declaration |  | [95](../../magpie/internal/provider/volcengine_usage.go#L95) |
-| job | struct_type | volcPlanQuotas | [96](../../magpie/internal/provider/volcengine_usage.go#L96) |
-| p | field_declaration | volcPlanQuotas.job | [97](../../magpie/internal/provider/volcengine_usage.go#L97) |
-| action | field_declaration | volcPlanQuotas.job | [98](../../magpie/internal/provider/volcengine_usage.go#L98) |
-| plan | field_declaration | volcPlanQuotas.job | [98](../../magpie/internal/provider/volcengine_usage.go#L98) |
-| region | field_declaration | volcPlanQuotas.job | [98](../../magpie/internal/provider/volcengine_usage.go#L98) |
+| job | type_spec | volcPlanQuotas | [96](../../magpie/internal/provider/volcengine_usage.go#L96) |
+| p | field_declaration | volcPlanQuotas::job | [97](../../magpie/internal/provider/volcengine_usage.go#L97) |
+| action | field_declaration | volcPlanQuotas::job | [98](../../magpie/internal/provider/volcengine_usage.go#L98) |
+| jobs | var_spec | volcPlanQuotas | [101](../../magpie/internal/provider/volcengine_usage.go#L101) |
+| keyless | var_spec | volcPlanQuotas | [103](../../magpie/internal/provider/volcengine_usage.go#L103) |
+| missing | var_spec | volcPlanQuotas | [123](../../magpie/internal/provider/volcengine_usage.go#L123) |
+| wg | var_spec | volcPlanQuotas | [132](../../magpie/internal/provider/volcengine_usage.go#L132) |
 | volcPlanQuota | function_declaration |  | [147](../../magpie/internal/provider/volcengine_usage.go#L147) |
-| Result | field_declaration | volcPlanQuota | [155](../../magpie/internal/provider/volcengine_usage.go#L155) |
+| env | var_spec | volcPlanQuota | [154](../../magpie/internal/provider/volcengine_usage.go#L154) |
+| Result | field_declaration | volcPlanQuota::env | [155](../../magpie/internal/provider/volcengine_usage.go#L155) |
+| ws | var_spec | volcPlanQuota | [158](../../magpie/internal/provider/volcengine_usage.go#L158) |
+| tier | var_spec | volcPlanQuota | [160](../../magpie/internal/provider/volcengine_usage.go#L160) |
 | volcHead | function_declaration |  | [177](../../magpie/internal/provider/volcengine_usage.go#L177) |
 | volcSign | function_declaration |  | [189](../../magpie/internal/provider/volcengine_usage.go#L189) |
+| signed | const_spec | volcSign | [193](../../magpie/internal/provider/volcengine_usage.go#L193) |
 | volcQuery | function_declaration |  | [217](../../magpie/internal/provider/volcengine_usage.go#L217) |
 | volcMAC | function_declaration |  | [221](../../magpie/internal/provider/volcengine_usage.go#L221) |
 | volcHex | function_declaration |  | [227](../../magpie/internal/provider/volcengine_usage.go#L227) |
 | volcOpenAPICall | function_declaration |  | [235](../../magpie/internal/provider/volcengine_usage.go#L235) |
-| ResponseMetadata | field_declaration | volcOpenAPICall | [258](../../magpie/internal/provider/volcengine_usage.go#L258) |
-| Error | field_declaration | volcOpenAPICall | [259](../../magpie/internal/provider/volcengine_usage.go#L259) |
-| Code | field_declaration | volcOpenAPICall | [259](../../magpie/internal/provider/volcengine_usage.go#L259) |
-| Message | field_declaration | volcOpenAPICall | [259](../../magpie/internal/provider/volcengine_usage.go#L259) |
+| env | var_spec | volcOpenAPICall | [257](../../magpie/internal/provider/volcengine_usage.go#L257) |
+| ResponseMetadata | field_declaration | volcOpenAPICall::env | [258](../../magpie/internal/provider/volcengine_usage.go#L258) |
+| Error | field_declaration | volcOpenAPICall::env::ResponseMetadata | [259](../../magpie/internal/provider/volcengine_usage.go#L259) |
+| Code | field_declaration | volcOpenAPICall::env::ResponseMetadata::Error | [259](../../magpie/internal/provider/volcengine_usage.go#L259) |
 | volcRefusesKey | function_declaration |  | [282](../../magpie/internal/provider/volcengine_usage.go#L282) |
 | volcReadCodingPlan | function_declaration |  | [298](../../magpie/internal/provider/volcengine_usage.go#L298) |
-| QuotaUsage | field_declaration | volcReadCodingPlan | [300](../../magpie/internal/provider/volcengine_usage.go#L300) |
-| Level | field_declaration | volcReadCodingPlan | [301](../../magpie/internal/provider/volcengine_usage.go#L301) |
-| Percent | field_declaration | volcReadCodingPlan | [302](../../magpie/internal/provider/volcengine_usage.go#L302) |
-| ResetTimestamp | field_declaration | volcReadCodingPlan | [303](../../magpie/internal/provider/volcengine_usage.go#L303) |
+| r | var_spec | volcReadCodingPlan | [299](../../magpie/internal/provider/volcengine_usage.go#L299) |
+| QuotaUsage | field_declaration | volcReadCodingPlan::r | [300](../../magpie/internal/provider/volcengine_usage.go#L300) |
+| Level | field_declaration | volcReadCodingPlan::r::QuotaUsage | [301](../../magpie/internal/provider/volcengine_usage.go#L301) |
+| Percent | field_declaration | volcReadCodingPlan::r::QuotaUsage | [302](../../magpie/internal/provider/volcengine_usage.go#L302) |
+| ResetTimestamp | field_declaration | volcReadCodingPlan::r::QuotaUsage | [303](../../magpie/internal/provider/volcengine_usage.go#L303) |
+| out | var_spec | volcReadCodingPlan | [309](../../magpie/internal/provider/volcengine_usage.go#L309) |
 | volcReadAFP | function_declaration |  | [332](../../magpie/internal/provider/volcengine_usage.go#L332) |
-| bucket | struct_type | volcReadAFP | [333](../../magpie/internal/provider/volcengine_usage.go#L333) |
-| Used | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| Quota | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| Total | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| Percent | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| ResetTime | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| ResetTimestamp | field_declaration | volcReadAFP.bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
-| Tier | field_declaration | volcReadAFP | [337](../../magpie/internal/provider/volcengine_usage.go#L337) |
-| AFPFiveHour | field_declaration | volcReadAFP | [338](../../magpie/internal/provider/volcengine_usage.go#L338) |
-| AFPWeekly | field_declaration | volcReadAFP | [339](../../magpie/internal/provider/volcengine_usage.go#L339) |
-| AFPMonthly | field_declaration | volcReadAFP | [340](../../magpie/internal/provider/volcengine_usage.go#L340) |
+| bucket | type_spec | volcReadAFP | [333](../../magpie/internal/provider/volcengine_usage.go#L333) |
+| Used | field_declaration | volcReadAFP::bucket | [334](../../magpie/internal/provider/volcengine_usage.go#L334) |
+| r | var_spec | volcReadAFP | [336](../../magpie/internal/provider/volcengine_usage.go#L336) |
+| Tier | field_declaration | volcReadAFP::r | [337](../../magpie/internal/provider/volcengine_usage.go#L337) |
+| AFPFiveHour | field_declaration | volcReadAFP::r | [338](../../magpie/internal/provider/volcengine_usage.go#L338) |
+| AFPWeekly | field_declaration | volcReadAFP::r | [339](../../magpie/internal/provider/volcengine_usage.go#L339) |
+| AFPMonthly | field_declaration | volcReadAFP::r | [340](../../magpie/internal/provider/volcengine_usage.go#L340) |
+| out | var_spec | volcReadAFP | [345](../../magpie/internal/provider/volcengine_usage.go#L345) |
 | level | field_declaration | volcReadAFP | [347](../../magpie/internal/provider/volcengine_usage.go#L347) |
 | b | field_declaration | volcReadAFP | [348](../../magpie/internal/provider/volcengine_usage.go#L348) |
 | volcWindow | function_declaration |  | [377](../../magpie/internal/provider/volcengine_usage.go#L377) |
 | volcNum | function_declaration |  | [390](../../magpie/internal/provider/volcengine_usage.go#L390) |
 | volcTime | function_declaration |  | [403](../../magpie/internal/provider/volcengine_usage.go#L403) |
+| t | var_spec | volcTime | [415](../../magpie/internal/provider/volcengine_usage.go#L415) |

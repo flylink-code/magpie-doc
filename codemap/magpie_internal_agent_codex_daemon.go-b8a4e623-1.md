@@ -11,10 +11,13 @@ Source SHA-256: 2669d6856c49ca8823035f7a973b2ab6988191a4b34f483a04df4e7d72d02a01
 | codexRestartAll | var_spec |  | [30](../../magpie/internal/agent/codex_daemon.go#L30) |
 | keepCodexDaemon | var_spec |  | [34](../../magpie/internal/agent/codex_daemon.go#L34) |
 | codexDaemonSeen | var_spec |  | [39](../../magpie/internal/agent/codex_daemon.go#L39) |
+| at | field_declaration | codexDaemonSeen | [41](../../magpie/internal/agent/codex_daemon.go#L41) |
+| check | field_declaration | codexDaemonSeen | [42](../../magpie/internal/agent/codex_daemon.go#L42) |
 | codexDaemonCheck | function_declaration |  | [48](../../magpie/internal/agent/codex_daemon.go#L48) |
 | codexDaemonNotice | function_declaration |  | [66](../../magpie/internal/agent/codex_daemon.go#L66) |
 | codexDaemonEvery | const_spec |  | [79](../../magpie/internal/agent/codex_daemon.go#L79) |
 | KeepCodexDaemonCurrent | function_declaration |  | [87](../../magpie/internal/agent/codex_daemon.go#L87) |
+| c | var_spec | KeepCodexDaemonCurrent | [103](../../magpie/internal/agent/codex_daemon.go#L103) |
 | daemonCheck | var_spec |  | [114](../../magpie/internal/agent/codex_daemon.go#L114) |
 | codexDaemonNext | function_declaration |  | [118](../../magpie/internal/agent/codex_daemon.go#L118) |
 | CodexDaemonRestarted | function_declaration |  | [127](../../magpie/internal/agent/codex_daemon.go#L127) |

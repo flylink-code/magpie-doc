@@ -11,3 +11,4 @@ Source SHA-256: aad341245d2a5a8a5cc861eacda7f2c46cf2ec5f0fde44c6349a901ff094380a
 | dirLink | function_declaration |  | [20](../../magpie/internal/library/dirlink_windows.go#L20) |
 | junction | function_declaration |  | [33](../../magpie/internal/library/dirlink_windows.go#L33) |
 | setMountPoint | function_declaration |  | [51](../../magpie/internal/library/dirlink_windows.go#L51) |
+| n | var_spec | setMountPoint | [79](../../magpie/internal/library/dirlink_windows.go#L79) |

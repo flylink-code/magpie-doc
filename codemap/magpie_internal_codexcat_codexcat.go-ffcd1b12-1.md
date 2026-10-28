@@ -16,14 +16,14 @@ Source SHA-256: e469a27cf5ca1cffc0d3241786893c56fd132b57834c365db92958420b090bce
 | Catalog | function_declaration |  | [94](../../magpie/internal/codexcat/codexcat.go#L94) |
 | CatalogAt | function_declaration |  | [99](../../magpie/internal/codexcat/codexcat.go#L99) |
 | Models | field_declaration | CatalogAt | [101](../../magpie/internal/codexcat/codexcat.go#L101) |
-| level | struct_type |  | [111](../../magpie/internal/codexcat/codexcat.go#L111) |
+| level | type_spec |  | [111](../../magpie/internal/codexcat/codexcat.go#L111) |
 | Effort | field_declaration | level | [112](../../magpie/internal/codexcat/codexcat.go#L112) |
 | Description | field_declaration | level | [113](../../magpie/internal/codexcat/codexcat.go#L113) |
-| tier | struct_type |  | [115](../../magpie/internal/codexcat/codexcat.go#L115) |
+| tier | type_spec |  | [115](../../magpie/internal/codexcat/codexcat.go#L115) |
 | ID | field_declaration | tier | [116](../../magpie/internal/codexcat/codexcat.go#L116) |
 | Name | field_declaration | tier | [117](../../magpie/internal/codexcat/codexcat.go#L117) |
 | Description | field_declaration | tier | [118](../../magpie/internal/codexcat/codexcat.go#L118) |
-| model | struct_type |  | [120](../../magpie/internal/codexcat/codexcat.go#L120) |
+| model | type_spec |  | [120](../../magpie/internal/codexcat/codexcat.go#L120) |
 | Slug | field_declaration | model | [121](../../magpie/internal/codexcat/codexcat.go#L121) |
 | DisplayName | field_declaration | model | [122](../../magpie/internal/codexcat/codexcat.go#L122) |
 | Description | field_declaration | model | [123](../../magpie/internal/codexcat/codexcat.go#L123) |
@@ -38,8 +38,8 @@ Source SHA-256: e469a27cf5ca1cffc0d3241786893c56fd132b57834c365db92958420b090bce
 | DefVerbosity | field_declaration | model | [132](../../magpie/internal/codexcat/codexcat.go#L132) |
 | ApplyPatch | field_declaration | model | [133](../../magpie/internal/codexcat/codexcat.go#L133) |
 | Truncation | field_declaration | model | [134](../../magpie/internal/codexcat/codexcat.go#L134) |
-| Mode | field_declaration | model | [135](../../magpie/internal/codexcat/codexcat.go#L135) |
-| Limit | field_declaration | model | [136](../../magpie/internal/codexcat/codexcat.go#L136) |
+| Mode | field_declaration | model::Truncation | [135](../../magpie/internal/codexcat/codexcat.go#L135) |
+| Limit | field_declaration | model::Truncation | [136](../../magpie/internal/codexcat/codexcat.go#L136) |
 | Tools | field_declaration | model | [138](../../magpie/internal/codexcat/codexcat.go#L138) |
 | Modalities | field_declaration | model | [139](../../magpie/internal/codexcat/codexcat.go#L139) |
 | Context | field_declaration | model | [140](../../magpie/internal/codexcat/codexcat.go#L140) |
@@ -53,26 +53,29 @@ Source SHA-256: e469a27cf5ca1cffc0d3241786893c56fd132b57834c365db92958420b090bce
 | AutoReview | field_declaration | model | [183](../../magpie/internal/codexcat/codexcat.go#L183) |
 | Entries | function_declaration |  | [190](../../magpie/internal/codexcat/codexcat.go#L190) |
 | entriesAt | function_declaration |  | [194](../../magpie/internal/codexcat/codexcat.go#L194) |
+| entries | var_spec | entriesAt | [199](../../magpie/internal/codexcat/codexcat.go#L199) |
 | owned | var_spec |  | [285](../../magpie/internal/codexcat/codexcat.go#L285) |
-| keepTrue | var_spec |  | [285](../../magpie/internal/codexcat/codexcat.go#L285) |
 | Keep | function_declaration |  | [311](../../magpie/internal/codexcat/codexcat.go#L311) |
-| list | struct_type | Keep | [312](../../magpie/internal/codexcat/codexcat.go#L312) |
-| Models | field_declaration | Keep.list | [313](../../magpie/internal/codexcat/codexcat.go#L313) |
+| list | type_spec | Keep | [312](../../magpie/internal/codexcat/codexcat.go#L312) |
+| Models | field_declaration | Keep::list | [313](../../magpie/internal/codexcat/codexcat.go#L313) |
+| was | var_spec | Keep | [320](../../magpie/internal/codexcat/codexcat.go#L320) |
+| now | var_spec | Keep | [342](../../magpie/internal/codexcat/codexcat.go#L342) |
 | datedSuffix | var_spec |  | [367](../../magpie/internal/codexcat/codexcat.go#L367) |
 | agentsEffort | function_declaration |  | [375](../../magpie/internal/codexcat/codexcat.go#L375) |
 | gptModel | var_spec |  | [392](../../magpie/internal/codexcat/codexcat.go#L392) |
 | ownTiers | function_declaration |  | [398](../../magpie/internal/codexcat/codexcat.go#L398) |
+| ts | var_spec | ownTiers | [405](../../magpie/internal/codexcat/codexcat.go#L405) |
 | fastTier | var_spec |  | [427](../../magpie/internal/codexcat/codexcat.go#L427) |
 | namedTiers | function_declaration |  | [431](../../magpie/internal/codexcat/codexcat.go#L431) |
 | ServiceTiers | function_declaration |  | [460](../../magpie/internal/codexcat/codexcat.go#L460) |
+| ts | var_spec | ServiceTiers | [471](../../magpie/internal/codexcat/codexcat.go#L471) |
 | Order | function_declaration |  | [495](../../magpie/internal/codexcat/codexcat.go#L495) |
-| ranked | struct_type | Order | [496](../../magpie/internal/codexcat/codexcat.go#L496) |
-| i | field_declaration | Order.ranked | [497](../../magpie/internal/codexcat/codexcat.go#L497) |
-| by | field_declaration | Order.ranked | [497](../../magpie/internal/codexcat/codexcat.go#L497) |
-| was | field_declaration | Order.ranked | [497](../../magpie/internal/codexcat/codexcat.go#L497) |
+| ranked | type_spec | Order | [496](../../magpie/internal/codexcat/codexcat.go#L496) |
+| i | field_declaration | Order::ranked | [497](../../magpie/internal/codexcat/codexcat.go#L497) |
 | CacheEntries | function_declaration |  | [540](../../magpie/internal/codexcat/codexcat.go#L540) |
-| ETag | field_declaration | CacheEntries | [546](../../magpie/internal/codexcat/codexcat.go#L546) |
-| Models | field_declaration | CacheEntries | [547](../../magpie/internal/codexcat/codexcat.go#L547) |
+| cache | var_spec | CacheEntries | [545](../../magpie/internal/codexcat/codexcat.go#L545) |
+| ETag | field_declaration | CacheEntries::cache | [546](../../magpie/internal/codexcat/codexcat.go#L546) |
+| Models | field_declaration | CacheEntries::cache | [547](../../magpie/internal/codexcat/codexcat.go#L547) |
 | V1 | function_declaration |  | [597](../../magpie/internal/codexcat/codexcat.go#L597) |
 | Stamp | function_declaration |  | [600](../../magpie/internal/codexcat/codexcat.go#L600) |
 | unstamp | function_declaration |  | [603](../../magpie/internal/codexcat/codexcat.go#L603) |

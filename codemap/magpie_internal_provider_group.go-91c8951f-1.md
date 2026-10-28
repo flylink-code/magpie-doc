@@ -16,18 +16,18 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 | AffinityOff | const_spec |  | [59](../../magpie/internal/provider/group.go#L59) |
 | AffinityStrict | const_spec |  | [65](../../magpie/internal/provider/group.go#L65) |
 | EffortAuto | const_spec |  | [70](../../magpie/internal/provider/group.go#L70) |
-| Ruled | method_declaration | Group | [75](../../magpie/internal/provider/group.go#L75) |
+| Ruled | method_declaration |  | [75](../../magpie/internal/provider/group.go#L75) |
 | Manual | const_spec |  | [84](../../magpie/internal/provider/group.go#L84) |
-| Picked | method_declaration | Group | [88](../../magpie/internal/provider/group.go#L88) |
-| routes | method_declaration | Group | [100](../../magpie/internal/provider/group.go#L100) |
-| IsOff | method_declaration | Group | [111](../../magpie/internal/provider/group.go#L111) |
-| Live | method_declaration | Group | [115](../../magpie/internal/provider/group.go#L115) |
+| Picked | method_declaration |  | [88](../../magpie/internal/provider/group.go#L88) |
+| routes | method_declaration |  | [100](../../magpie/internal/provider/group.go#L100) |
+| IsOff | method_declaration |  | [111](../../magpie/internal/provider/group.go#L111) |
+| Live | method_declaration |  | [115](../../magpie/internal/provider/group.go#L115) |
 | PatienceOff | const_spec |  | [126](../../magpie/internal/provider/group.go#L126) |
 | PatienceDefault | const_spec |  | [127](../../magpie/internal/provider/group.go#L127) |
 | PatienceLongest | const_spec |  | [128](../../magpie/internal/provider/group.go#L128) |
-| Waits | method_declaration | Group | [133](../../magpie/internal/provider/group.go#L133) |
+| Waits | method_declaration |  | [133](../../magpie/internal/provider/group.go#L133) |
 | ContextSmallest | const_spec |  | [145](../../magpie/internal/provider/group.go#L145) |
-| Group | struct_type |  | [148](../../magpie/internal/provider/group.go#L148) |
+| Group | type_spec |  | [148](../../magpie/internal/provider/group.go#L148) |
 | ID | field_declaration | Group | [149](../../magpie/internal/provider/group.go#L149) |
 | Name | field_declaration | Group | [150](../../magpie/internal/provider/group.go#L150) |
 | Members | field_declaration | Group | [151](../../magpie/internal/provider/group.go#L151) |
@@ -53,7 +53,7 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 | Spelled | field_declaration | Group | [243](../../magpie/internal/provider/group.go#L243) |
 | Hidden | field_declaration | Group | [245](../../magpie/internal/provider/group.go#L245) |
 | Disabled | field_declaration | Group | [251](../../magpie/internal/provider/group.go#L251) |
-| Member | struct_type |  | [255](../../magpie/internal/provider/group.go#L255) |
+| Member | type_spec |  | [255](../../magpie/internal/provider/group.go#L255) |
 | ID | field_declaration | Member | [256](../../magpie/internal/provider/group.go#L256) |
 | Path | field_declaration | Member | [260](../../magpie/internal/provider/group.go#L260) |
 | Via | field_declaration | Member | [263](../../magpie/internal/provider/group.go#L263) |
@@ -63,21 +63,24 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 | Fast | field_declaration | Member | [272](../../magpie/internal/provider/group.go#L272) |
 | At | field_declaration | Member | [276](../../magpie/internal/provider/group.go#L276) |
 | Also | field_declaration | Member | [281](../../magpie/internal/provider/group.go#L281) |
-| In | method_declaration | Member | [288](../../magpie/internal/provider/group.go#L288) |
-| Homed | method_declaration | Member | [306](../../magpie/internal/provider/group.go#L306) |
-| only | method_declaration | Member | [321](../../magpie/internal/provider/group.go#L321) |
-| Groups | method_declaration | Member | [328](../../magpie/internal/provider/group.go#L328) |
-| Below | method_declaration | Member | [338](../../magpie/internal/provider/group.go#L338) |
+| In | method_declaration |  | [288](../../magpie/internal/provider/group.go#L288) |
+| Homed | method_declaration |  | [306](../../magpie/internal/provider/group.go#L306) |
+| only | method_declaration |  | [321](../../magpie/internal/provider/group.go#L321) |
+| Groups | method_declaration |  | [328](../../magpie/internal/provider/group.go#L328) |
+| Below | method_declaration |  | [338](../../magpie/internal/provider/group.go#L338) |
 | maxNest | const_spec |  | [350](../../magpie/internal/provider/group.go#L350) |
 | Groups | function_declaration |  | [356](../../magpie/internal/provider/group.go#L356) |
 | groupsIn | function_declaration |  | [365](../../magpie/internal/provider/group.go#L365) |
 | cloneGroups | function_declaration |  | [371](../../magpie/internal/provider/group.go#L371) |
 | groupsBuilt | var_spec |  | [400](../../magpie/internal/provider/group.go#L400) |
 | buildGroupsIn | function_declaration |  | [402](../../magpie/internal/provider/group.go#L402) |
+| out | var_spec | buildGroupsIn | [405](../../magpie/internal/provider/group.go#L405) |
+| have | var_spec | buildGroupsIn | [407](../../magpie/internal/provider/group.go#L407) |
 | withoutRemoved | function_declaration |  | [453](../../magpie/internal/provider/group.go#L453) |
-| own | method_declaration | Group | [488](../../magpie/internal/provider/group.go#L488) |
+| own | method_declaration |  | [488](../../magpie/internal/provider/group.go#L488) |
 | AutoGroupsOn | function_declaration |  | [514](../../magpie/internal/provider/group.go#L514) |
 | SetAutoGroups | function_declaration |  | [524](../../magpie/internal/provider/group.go#L524) |
+| held | var_spec | SetAutoGroups | [538](../../magpie/internal/provider/group.go#L538) |
 | AutoGroupID | function_declaration |  | [562](../../magpie/internal/provider/group.go#L562) |
 | groupDots | var_spec |  | [564](../../magpie/internal/provider/group.go#L564) |
 | GroupSlug | function_declaration |  | [571](../../magpie/internal/provider/group.go#L571) |
@@ -88,6 +91,8 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 | foundGroups | function_declaration |  | [625](../../magpie/internal/provider/group.go#L625) |
 | foundFrom | function_declaration |  | [631](../../magpie/internal/provider/group.go#L631) |
 | autoGroups | function_declaration |  | [659](../../magpie/internal/provider/group.go#L659) |
+| order | var_spec | autoGroups | [660](../../magpie/internal/provider/group.go#L660) |
+| out | var_spec | autoGroups | [671](../../magpie/internal/provider/group.go#L671) |
 | sameModel | function_declaration |  | [712](../../magpie/internal/provider/group.go#L712) |
 | snapshotDate | function_declaration |  | [734](../../magpie/internal/provider/group.go#L734) |
 | modelGaps | var_spec |  | [750](../../magpie/internal/provider/group.go#L750) |
@@ -97,14 +102,9 @@ Source SHA-256: 77c2d73fa037e93c61d1307fdbd5948dc4ade77f4a15d67150ab54b611cf49aa
 | GroupFor | function_declaration |  | [769](../../magpie/internal/provider/group.go#L769) |
 | groupForIn | function_declaration |  | [778](../../magpie/internal/provider/group.go#L778) |
 | groupNamed | function_declaration |  | [794](../../magpie/internal/provider/group.go#L794) |
+| hit | var_spec | groupNamed | [799](../../magpie/internal/provider/group.go#L799) |
 | GroupFinder | function_declaration |  | [824](../../magpie/internal/provider/group.go#L824) |
+| entries | var_spec | GroupFinder | [826](../../magpie/internal/provider/group.go#L826) |
+| all | var_spec | GroupFinder | [827](../../magpie/internal/provider/group.go#L827) |
+| read | var_spec | GroupFinder | [828](../../magpie/internal/provider/group.go#L828) |
 | groupOf | function_declaration |  | [850](../../magpie/internal/provider/group.go#L850) |
-| membersIn | function_declaration |  | [864](../../magpie/internal/provider/group.go#L864) |
-| membersOff | function_declaration |  | [869](../../magpie/internal/provider/group.go#L869) |
-| groupEntries | function_declaration |  | [925](../../magpie/internal/provider/group.go#L925) |
-| entryOf | type_spec |  | [931](../../magpie/internal/provider/group.go#L931) |
-| entriesBy | function_declaration |  | [935](../../magpie/internal/provider/group.go#L935) |
-| buildGroupEntries | function_declaration |  | [948](../../magpie/internal/provider/group.go#L948) |
-| smallestWindow | function_declaration |  | [1126](../../magpie/internal/provider/group.go#L1126) |
-| largestWindow | function_declaration |  | [1133](../../magpie/internal/provider/group.go#L1133) |
-| smallestWindowBy | function_declaration |  | [1142](../../magpie/internal/provider/group.go#L1142) |

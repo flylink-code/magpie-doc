@@ -10,23 +10,32 @@ Source SHA-256: 585970834c6db7992e035b52222057613807d43b66fab0f1582ca7c87c377606
 | --- | --- | --- | ---: |
 | SearchMCPPath | const_spec |  | [30](../../magpie/internal/gateway/search_mcp.go#L30) |
 | OwnMCPServers | var_spec |  | [35](../../magpie/internal/gateway/search_mcp.go#L35) |
+| Name | field_declaration | OwnMCPServers | [35](../../magpie/internal/gateway/search_mcp.go#L35) |
 | searchMCPVersions | var_spec |  | [44](../../magpie/internal/gateway/search_mcp.go#L44) |
 | searchMCPTool | const_spec |  | [46](../../magpie/internal/gateway/search_mcp.go#L46) |
-| mcpMessage | struct_type |  | [48](../../magpie/internal/gateway/search_mcp.go#L48) |
+| mcpMessage | type_spec |  | [48](../../magpie/internal/gateway/search_mcp.go#L48) |
 | JSONRPC | field_declaration | mcpMessage | [49](../../magpie/internal/gateway/search_mcp.go#L49) |
 | ID | field_declaration | mcpMessage | [50](../../magpie/internal/gateway/search_mcp.go#L50) |
 | Method | field_declaration | mcpMessage | [51](../../magpie/internal/gateway/search_mcp.go#L51) |
 | Params | field_declaration | mcpMessage | [52](../../magpie/internal/gateway/search_mcp.go#L52) |
-| searchMCP | method_declaration | *Server | [55](../../magpie/internal/gateway/search_mcp.go#L55) |
+| searchMCP | method_declaration |  | [55](../../magpie/internal/gateway/search_mcp.go#L55) |
 | serveMCP | function_declaration |  | [62](../../magpie/internal/gateway/search_mcp.go#L62) |
-| searchMCPCall | method_declaration | *Server | [127](../../magpie/internal/gateway/search_mcp.go#L127) |
-| Name | field_declaration | *Server.searchMCPCall | [149](../../magpie/internal/gateway/search_mcp.go#L149) |
-| Arguments | field_declaration | *Server.searchMCPCall | [150](../../magpie/internal/gateway/search_mcp.go#L150) |
-| Query | field_declaration | *Server.searchMCPCall | [151](../../magpie/internal/gateway/search_mcp.go#L151) |
+| msgs | var_spec | serveMCP | [86](../../magpie/internal/gateway/search_mcp.go#L86) |
+| err | var_spec | serveMCP | [87](../../magpie/internal/gateway/search_mcp.go#L87) |
+| m | var_spec | serveMCP | [91](../../magpie/internal/gateway/search_mcp.go#L91) |
+| out | var_spec | serveMCP | [99](../../magpie/internal/gateway/search_mcp.go#L99) |
+| searchMCPCall | method_declaration |  | [127](../../magpie/internal/gateway/search_mcp.go#L127) |
+| p | var_spec | searchMCPCall | [148](../../magpie/internal/gateway/search_mcp.go#L148) |
+| Name | field_declaration | searchMCPCall::p | [149](../../magpie/internal/gateway/search_mcp.go#L149) |
+| Arguments | field_declaration | searchMCPCall::p | [150](../../magpie/internal/gateway/search_mcp.go#L150) |
+| Query | field_declaration | searchMCPCall::p::Arguments | [151](../../magpie/internal/gateway/search_mcp.go#L151) |
+| said | var_spec | searchMCPCall | [158](../../magpie/internal/gateway/search_mcp.go#L158) |
+| err | var_spec | searchMCPCall | [159](../../magpie/internal/gateway/search_mcp.go#L159) |
 | mcpVersion | function_declaration |  | [178](../../magpie/internal/gateway/search_mcp.go#L178) |
-| ProtocolVersion | field_declaration | mcpVersion | [180](../../magpie/internal/gateway/search_mcp.go#L180) |
+| p | var_spec | mcpVersion | [179](../../magpie/internal/gateway/search_mcp.go#L179) |
+| ProtocolVersion | field_declaration | mcpVersion::p | [180](../../magpie/internal/gateway/search_mcp.go#L180) |
 | toolResult | function_declaration |  | [189](../../magpie/internal/gateway/search_mcp.go#L189) |
 | searchMCPError | type_spec |  | [193](../../magpie/internal/gateway/search_mcp.go#L193) |
-| Error | method_declaration | searchMCPError | [195](../../magpie/internal/gateway/search_mcp.go#L195) |
-| searchMCPRun | method_declaration | *Server | [200](../../magpie/internal/gateway/search_mcp.go#L200) |
+| Error | method_declaration |  | [195](../../magpie/internal/gateway/search_mcp.go#L195) |
+| searchMCPRun | method_declaration |  | [200](../../magpie/internal/gateway/search_mcp.go#L200) |
 | readMCPBody | function_declaration |  | [230](../../magpie/internal/gateway/search_mcp.go#L230) |

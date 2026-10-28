@@ -9,22 +9,23 @@ Source SHA-256: 4c739f8c3cc03fe986b6e3d5a228f955261d9e712bb9442a9ec78b12428c5e07
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | openChamberDir | function_declaration |  | [37](../../magpie/internal/agent/openchamber.go#L37) |
-| ocStore | struct_type |  | [50](../../magpie/internal/agent/openchamber.go#L50) |
+| ocStore | type_spec |  | [50](../../magpie/internal/agent/openchamber.go#L50) |
 | dir | field_declaration | ocStore | [50](../../magpie/internal/agent/openchamber.go#L50) |
-| prefs | method_declaration | ocStore | [52](../../magpie/internal/agent/openchamber.go#L52) |
-| settings | method_declaration | ocStore | [53](../../magpie/internal/agent/openchamber.go#L53) |
-| hasPrefs | method_declaration | ocStore | [57](../../magpie/internal/agent/openchamber.go#L57) |
-| Version | field_declaration | ocStore.hasPrefs | [66](../../magpie/internal/agent/openchamber.go#L66) |
-| Fields | field_declaration | ocStore.hasPrefs | [67](../../magpie/internal/agent/openchamber.go#L67) |
-| get | method_declaration | ocStore | [75](../../magpie/internal/agent/openchamber.go#L75) |
-| set | method_declaration | ocStore | [86](../../magpie/internal/agent/openchamber.go#L86) |
-| model | method_declaration | ocStore | [121](../../magpie/internal/agent/openchamber.go#L121) |
-| small | method_declaration | ocStore | [122](../../magpie/internal/agent/openchamber.go#L122) |
-| projectModels | method_declaration | ocStore | [131](../../magpie/internal/agent/openchamber.go#L131) |
-| Label | field_declaration | ocStore.projectModels | [137](../../magpie/internal/agent/openchamber.go#L137) |
-| Path | field_declaration | ocStore.projectModels | [137](../../magpie/internal/agent/openchamber.go#L137) |
-| DefaultModel | field_declaration | ocStore.projectModels | [137](../../magpie/internal/agent/openchamber.go#L137) |
+| prefs | method_declaration |  | [52](../../magpie/internal/agent/openchamber.go#L52) |
+| settings | method_declaration |  | [53](../../magpie/internal/agent/openchamber.go#L53) |
+| hasPrefs | method_declaration |  | [57](../../magpie/internal/agent/openchamber.go#L57) |
+| doc | var_spec | hasPrefs | [65](../../magpie/internal/agent/openchamber.go#L65) |
+| Version | field_declaration | hasPrefs::doc | [66](../../magpie/internal/agent/openchamber.go#L66) |
+| Fields | field_declaration | hasPrefs::doc | [67](../../magpie/internal/agent/openchamber.go#L67) |
+| get | method_declaration |  | [75](../../magpie/internal/agent/openchamber.go#L75) |
+| set | method_declaration |  | [86](../../magpie/internal/agent/openchamber.go#L86) |
+| model | method_declaration |  | [121](../../magpie/internal/agent/openchamber.go#L121) |
+| small | method_declaration |  | [122](../../magpie/internal/agent/openchamber.go#L122) |
+| projectModels | method_declaration |  | [131](../../magpie/internal/agent/openchamber.go#L131) |
+| ps | var_spec | projectModels | [136](../../magpie/internal/agent/openchamber.go#L136) |
+| Label | field_declaration | projectModels::ps | [137](../../magpie/internal/agent/openchamber.go#L137) |
 | openChamberOnMagpie | function_declaration |  | [156](../../magpie/internal/agent/openchamber.go#L156) |
 | openChamber | function_declaration |  | [162](../../magpie/internal/agent/openchamber.go#L162) |
+| notes | var_spec | openChamber | [188](../../magpie/internal/agent/openchamber.go#L188) |
 | noticeOpenchamber1 | var_spec |  | [254](../../magpie/internal/agent/openchamber.go#L254) |
 | noticeOpenchamber2 | var_spec |  | [255](../../magpie/internal/agent/openchamber.go#L255) |

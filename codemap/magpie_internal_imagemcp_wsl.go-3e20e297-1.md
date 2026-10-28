@@ -8,14 +8,12 @@ Source SHA-256: fa7fae5df90b71fc82f94fca4bbd0de81f1e919a8116e191cc9d79a1fcc59f63
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| wslSide | struct_type |  | [21](../../magpie/internal/imagemcp/wsl.go#L21) |
+| wslSide | type_spec |  | [21](../../magpie/internal/imagemcp/wsl.go#L21) |
 | distro | field_declaration | wslSide | [22](../../magpie/internal/imagemcp/wsl.go#L22) |
-| mount | field_declaration | wslSide | [22](../../magpie/internal/imagemcp/wsl.go#L22) |
-| home | field_declaration | wslSide | [22](../../magpie/internal/imagemcp/wsl.go#L22) |
-| share | field_declaration | wslSide | [22](../../magpie/internal/imagemcp/wsl.go#L22) |
 | wsl | var_spec |  | [26](../../magpie/internal/imagemcp/wsl.go#L26) |
 | options | function_declaration |  | [30](../../magpie/internal/imagemcp/wsl.go#L30) |
-| local | method_declaration | *wslSide | [72](../../magpie/internal/imagemcp/wsl.go#L72) |
-| shown | method_declaration | *wslSide | [87](../../magpie/internal/imagemcp/wsl.go#L87) |
+| w | var_spec | options | [34](../../magpie/internal/imagemcp/wsl.go#L34) |
+| local | method_declaration |  | [72](../../magpie/internal/imagemcp/wsl.go#L72) |
+| shown | method_declaration |  | [87](../../magpie/internal/imagemcp/wsl.go#L87) |
 | isLetter | function_declaration |  | [112](../../magpie/internal/imagemcp/wsl.go#L112) |
 | shownPath | function_declaration |  | [115](../../magpie/internal/imagemcp/wsl.go#L115) |

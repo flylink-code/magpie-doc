@@ -9,7 +9,10 @@ Source SHA-256: 1ff7f83290540594439863f5578c1f88c3c56268ce8a5f658f417571b6921e67
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | gw | var_spec |  | [20](../../magpie/internal/tui/gateway.go#L20) |
+| here | field_declaration | gw | [21](../../magpie/internal/tui/gateway.go#L21) |
+| err | field_declaration | gw | [22](../../magpie/internal/tui/gateway.go#L22) |
 | gatewayWatch | var_spec |  | [26](../../magpie/internal/tui/gateway.go#L26) |
 | serveGateway | function_declaration |  | [31](../../magpie/internal/tui/gateway.go#L31) |
+| wg | var_spec | serveGateway | [32](../../magpie/internal/tui/gateway.go#L32) |
 | gatewayStatus | function_declaration |  | [83](../../magpie/internal/tui/gateway.go#L83) |
 | gatewayGoneNote | function_declaration |  | [94](../../magpie/internal/tui/gateway.go#L94) |

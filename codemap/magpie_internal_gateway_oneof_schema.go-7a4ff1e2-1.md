@@ -9,5 +9,6 @@ Source SHA-256: 1f1b490a2d5135f77b8b97a0a658dd76c2f8d64823dae8eaa163e07b8c424466
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | toolOneOfAsAnyOf | function_declaration |  | [19](../../magpie/internal/gateway/oneof_schema.go#L19) |
+| at | var_spec | toolOneOfAsAnyOf | [30](../../magpie/internal/gateway/oneof_schema.go#L30) |
 | collectOneOf | function_declaration |  | [44](../../magpie/internal/gateway/oneof_schema.go#L44) |
 | keyBefore | function_declaration |  | [84](../../magpie/internal/gateway/oneof_schema.go#L84) |

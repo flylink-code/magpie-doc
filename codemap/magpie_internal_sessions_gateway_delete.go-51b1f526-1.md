@@ -11,17 +11,23 @@ Source SHA-256: c63111789032ec8477f139269bbafc5392dea02a3949dc141455e7caf48ead39
 | gatewayTrash | const_spec |  | [31](../../magpie/internal/sessions/gateway_delete.go#L31) |
 | hiddenMu | var_spec |  | [33](../../magpie/internal/sessions/gateway_delete.go#L33) |
 | gatewayHiddenPath | function_declaration |  | [35](../../magpie/internal/sessions/gateway_delete.go#L35) |
-| hiddenGateway | struct_type |  | [37](../../magpie/internal/sessions/gateway_delete.go#L37) |
+| hiddenGateway | type_spec |  | [37](../../magpie/internal/sessions/gateway_delete.go#L37) |
 | Agent | field_declaration | hiddenGateway | [38](../../magpie/internal/sessions/gateway_delete.go#L38) |
 | ID | field_declaration | hiddenGateway | [39](../../magpie/internal/sessions/gateway_delete.go#L39) |
 | Last | field_declaration | hiddenGateway | [40](../../magpie/internal/sessions/gateway_delete.go#L40) |
 | readHidden | function_declaration |  | [43](../../magpie/internal/sessions/gateway_delete.go#L43) |
+| out | var_spec | readHidden | [44](../../magpie/internal/sessions/gateway_delete.go#L44) |
 | writeHidden | function_declaration |  | [52](../../magpie/internal/sessions/gateway_delete.go#L52) |
 | keepUnreadHidden | function_declaration |  | [80](../../magpie/internal/sessions/gateway_delete.go#L80) |
 | GatewayHidden | function_declaration |  | [86](../../magpie/internal/sessions/gateway_delete.go#L86) |
 | GatewaySizes | function_declaration |  | [102](../../magpie/internal/sessions/gateway_delete.go#L102) |
 | DeleteGateway | function_declaration |  | [122](../../magpie/internal/sessions/gateway_delete.go#L122) |
 | restoreGateway | function_declaration |  | [180](../../magpie/internal/sessions/gateway_delete.go#L180) |
+| back | var_spec | restoreGateway | [183](../../magpie/internal/sessions/gateway_delete.go#L183) |
 | gatewayTrashFiles | function_declaration |  | [215](../../magpie/internal/sessions/gateway_delete.go#L215) |
 | clearGatewayTrash | function_declaration |  | [231](../../magpie/internal/sessions/gateway_delete.go#L231) |
+| errs | var_spec | clearGatewayTrash | [233](../../magpie/internal/sessions/gateway_delete.go#L233) |
 | isGatewayKey | function_declaration |  | [244](../../magpie/internal/sessions/gateway_delete.go#L244) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 81: ERROR

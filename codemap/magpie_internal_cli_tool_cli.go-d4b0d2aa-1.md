@@ -13,72 +13,98 @@ Source SHA-256: 6cceb607371a804a9b2bcab0b7094b358ce0382718c7dad17ceff0c53d35c9c0
 | toolCallMost | var_spec |  | [62](../../magpie/internal/cli/tool_cli.go#L62) |
 | toolWaitMost | var_spec |  | [67](../../magpie/internal/cli/tool_cli.go#L67) |
 | toolPoll | var_spec |  | [68](../../magpie/internal/cli/tool_cli.go#L68) |
-| toolGateway | struct_type |  | [72](../../magpie/internal/cli/tool_cli.go#L72) |
+| toolGateway | type_spec |  | [72](../../magpie/internal/cli/tool_cli.go#L72) |
 | base | field_declaration | toolGateway | [73](../../magpie/internal/cli/tool_cli.go#L73) |
 | client | field_declaration | toolGateway | [74](../../magpie/internal/cli/tool_cli.go#L74) |
 | next | field_declaration | toolGateway | [75](../../magpie/internal/cli/tool_cli.go#L75) |
 | newToolGateway | function_declaration |  | [78](../../magpie/internal/cli/tool_cli.go#L78) |
-| errNoMagpie | struct_type |  | [87](../../magpie/internal/cli/tool_cli.go#L87) |
+| errNoMagpie | type_spec |  | [87](../../magpie/internal/cli/tool_cli.go#L87) |
 | base | field_declaration | errNoMagpie | [88](../../magpie/internal/cli/tool_cli.go#L88) |
 | err | field_declaration | errNoMagpie | [89](../../magpie/internal/cli/tool_cli.go#L89) |
-| Error | method_declaration | errNoMagpie | [92](../../magpie/internal/cli/tool_cli.go#L92) |
-| do | method_declaration | *toolGateway | [96](../../magpie/internal/cli/tool_cli.go#L96) |
-| rpc | method_declaration | *toolGateway | [116](../../magpie/internal/cli/tool_cli.go#L116) |
-| Result | field_declaration | *toolGateway.rpc | [135](../../magpie/internal/cli/tool_cli.go#L135) |
-| Error | field_declaration | *toolGateway.rpc | [136](../../magpie/internal/cli/tool_cli.go#L136) |
-| Message | field_declaration | *toolGateway.rpc | [137](../../magpie/internal/cli/tool_cli.go#L137) |
-| fetch | method_declaration | *toolGateway | [152](../../magpie/internal/cli/tool_cli.go#L152) |
-| toolParam | struct_type |  | [174](../../magpie/internal/cli/tool_cli.go#L174) |
+| Error | method_declaration |  | [92](../../magpie/internal/cli/tool_cli.go#L92) |
+| do | method_declaration |  | [96](../../magpie/internal/cli/tool_cli.go#L96) |
+| rpc | method_declaration |  | [116](../../magpie/internal/cli/tool_cli.go#L116) |
+| m | var_spec | rpc | [134](../../magpie/internal/cli/tool_cli.go#L134) |
+| Result | field_declaration | rpc::m | [135](../../magpie/internal/cli/tool_cli.go#L135) |
+| Error | field_declaration | rpc::m | [136](../../magpie/internal/cli/tool_cli.go#L136) |
+| Message | field_declaration | rpc::m::Error | [137](../../magpie/internal/cli/tool_cli.go#L137) |
+| fetch | method_declaration |  | [152](../../magpie/internal/cli/tool_cli.go#L152) |
+| toolParam | type_spec |  | [174](../../magpie/internal/cli/tool_cli.go#L174) |
 | Type | field_declaration | toolParam | [175](../../magpie/internal/cli/tool_cli.go#L175) |
 | Description | field_declaration | toolParam | [176](../../magpie/internal/cli/tool_cli.go#L176) |
 | Items | field_declaration | toolParam | [177](../../magpie/internal/cli/tool_cli.go#L177) |
 | Enum | field_declaration | toolParam | [178](../../magpie/internal/cli/tool_cli.go#L178) |
 | Minimum | field_declaration | toolParam | [179](../../magpie/internal/cli/tool_cli.go#L179) |
 | Maximum | field_declaration | toolParam | [180](../../magpie/internal/cli/tool_cli.go#L180) |
-| kind | method_declaration | toolParam | [184](../../magpie/internal/cli/tool_cli.go#L184) |
-| listedTool | struct_type |  | [199](../../magpie/internal/cli/tool_cli.go#L199) |
+| kind | method_declaration |  | [184](../../magpie/internal/cli/tool_cli.go#L184) |
+| listedTool | type_spec |  | [199](../../magpie/internal/cli/tool_cli.go#L199) |
 | Server | field_declaration | listedTool | [200](../../magpie/internal/cli/tool_cli.go#L200) |
 | path | field_declaration | listedTool | [201](../../magpie/internal/cli/tool_cli.go#L201) |
 | Name | field_declaration | listedTool | [202](../../magpie/internal/cli/tool_cli.go#L202) |
 | Description | field_declaration | listedTool | [203](../../magpie/internal/cli/tool_cli.go#L203) |
 | InputSchema | field_declaration | listedTool | [204](../../magpie/internal/cli/tool_cli.go#L204) |
-| Properties | field_declaration | listedTool | [205](../../magpie/internal/cli/tool_cli.go#L205) |
-| Required | field_declaration | listedTool | [206](../../magpie/internal/cli/tool_cli.go#L206) |
-| params | method_declaration | listedTool | [212](../../magpie/internal/cli/tool_cli.go#L212) |
-| required | method_declaration | listedTool | [230](../../magpie/internal/cli/tool_cli.go#L230) |
-| wordsParam | method_declaration | listedTool | [234](../../magpie/internal/cli/tool_cli.go#L234) |
+| Properties | field_declaration | listedTool::InputSchema | [205](../../magpie/internal/cli/tool_cli.go#L205) |
+| Required | field_declaration | listedTool::InputSchema | [206](../../magpie/internal/cli/tool_cli.go#L206) |
+| params | method_declaration |  | [212](../../magpie/internal/cli/tool_cli.go#L212) |
+| names | var_spec | params | [213](../../magpie/internal/cli/tool_cli.go#L213) |
+| required | method_declaration |  | [230](../../magpie/internal/cli/tool_cli.go#L230) |
+| wordsParam | method_declaration |  | [234](../../magpie/internal/cli/tool_cli.go#L234) |
+| texts | var_spec | wordsParam | [235](../../magpie/internal/cli/tool_cli.go#L235) |
 | listTools | function_declaration |  | [252](../../magpie/internal/cli/tool_cli.go#L252) |
-| Tools | field_declaration | listTools | [266](../../magpie/internal/cli/tool_cli.go#L266) |
+| out | var_spec | listTools | [253](../../magpie/internal/cli/tool_cli.go#L253) |
+| notes | var_spec | listTools | [254](../../magpie/internal/cli/tool_cli.go#L254) |
+| no | var_spec | listTools | [258](../../magpie/internal/cli/tool_cli.go#L258) |
+| l | var_spec | listTools | [265](../../magpie/internal/cli/tool_cli.go#L265) |
+| Tools | field_declaration | listTools::l | [266](../../magpie/internal/cli/tool_cli.go#L266) |
 | findTool | function_declaration |  | [282](../../magpie/internal/cli/tool_cli.go#L282) |
 | firstSentence | function_declaration |  | [292](../../magpie/internal/cli/tool_cli.go#L292) |
 | paramShape | function_declaration |  | [304](../../magpie/internal/cli/tool_cli.go#L304) |
+| shape | var_spec | paramShape | [305](../../magpie/internal/cli/tool_cli.go#L305) |
+| vs | var_spec | paramShape | [329](../../magpie/internal/cli/tool_cli.go#L329) |
 | toolsCmd | function_declaration |  | [339](../../magpie/internal/cli/tool_cli.go#L339) |
+| ps | var_spec | toolsCmd | [371](../../magpie/internal/cli/tool_cli.go#L371) |
 | toolHelp | function_declaration |  | [394](../../magpie/internal/cli/tool_cli.go#L394) |
+| b | var_spec | toolHelp | [395](../../magpie/internal/cli/tool_cli.go#L395) |
 | unknownTool | function_declaration |  | [415](../../magpie/internal/cli/tool_cli.go#L415) |
-| toolCall | struct_type |  | [431](../../magpie/internal/cli/tool_cli.go#L431) |
+| names | var_spec | unknownTool | [416](../../magpie/internal/cli/tool_cli.go#L416) |
+| toolCall | type_spec |  | [431](../../magpie/internal/cli/tool_cli.go#L431) |
 | args | field_declaration | toolCall | [432](../../magpie/internal/cli/tool_cli.go#L432) |
 | output | field_declaration | toolCall | [433](../../magpie/internal/cli/tool_cli.go#L433) |
 | json | field_declaration | toolCall | [434](../../magpie/internal/cli/tool_cli.go#L434) |
 | parseToolArgs | function_declaration |  | [439](../../magpie/internal/cli/tool_cli.go#L439) |
+| words | var_spec | parseToolArgs | [442](../../magpie/internal/cli/tool_cli.go#L442) |
+| missing | var_spec | parseToolArgs | [535](../../magpie/internal/cli/tool_cli.go#L535) |
 | paramKey | function_declaration |  | [548](../../magpie/internal/cli/tool_cli.go#L548) |
 | paramList | function_declaration |  | [561](../../magpie/internal/cli/tool_cli.go#L561) |
+| ps | var_spec | paramList | [562](../../magpie/internal/cli/tool_cli.go#L562) |
 | paramValue | function_declaration |  | [573](../../magpie/internal/cli/tool_cli.go#L573) |
+| v | var_spec | paramValue | [574](../../magpie/internal/cli/tool_cli.go#L574) |
 | localFile | function_declaration |  | [609](../../magpie/internal/cli/tool_cli.go#L609) |
-| toolAnswer | struct_type |  | [624](../../magpie/internal/cli/tool_cli.go#L624) |
+| toolAnswer | type_spec |  | [624](../../magpie/internal/cli/tool_cli.go#L624) |
 | Content | field_declaration | toolAnswer | [625](../../magpie/internal/cli/tool_cli.go#L625) |
-| Type | field_declaration | toolAnswer | [626](../../magpie/internal/cli/tool_cli.go#L626) |
-| Text | field_declaration | toolAnswer | [627](../../magpie/internal/cli/tool_cli.go#L627) |
-| Data | field_declaration | toolAnswer | [628](../../magpie/internal/cli/tool_cli.go#L628) |
-| MimeType | field_declaration | toolAnswer | [629](../../magpie/internal/cli/tool_cli.go#L629) |
+| Type | field_declaration | toolAnswer::Content | [626](../../magpie/internal/cli/tool_cli.go#L626) |
+| Text | field_declaration | toolAnswer::Content | [627](../../magpie/internal/cli/tool_cli.go#L627) |
+| Data | field_declaration | toolAnswer::Content | [628](../../magpie/internal/cli/tool_cli.go#L628) |
+| MimeType | field_declaration | toolAnswer::Content | [629](../../magpie/internal/cli/tool_cli.go#L629) |
 | IsError | field_declaration | toolAnswer | [631](../../magpie/internal/cli/tool_cli.go#L631) |
 | Meta | field_declaration | toolAnswer | [632](../../magpie/internal/cli/tool_cli.go#L632) |
-| text | method_declaration | toolAnswer | [635](../../magpie/internal/cli/tool_cli.go#L635) |
+| text | method_declaration |  | [635](../../magpie/internal/cli/tool_cli.go#L635) |
+| b | var_spec | text | [636](../../magpie/internal/cli/tool_cli.go#L636) |
 | stillMakingText | var_spec |  | [647](../../magpie/internal/cli/tool_cli.go#L647) |
-| pending | method_declaration | toolAnswer | [649](../../magpie/internal/cli/tool_cli.go#L649) |
+| pending | method_declaration |  | [649](../../magpie/internal/cli/tool_cli.go#L649) |
+| id | var_spec | pending | [650](../../magpie/internal/cli/tool_cli.go#L650) |
 | callTool | function_declaration |  | [664](../../magpie/internal/cli/tool_cli.go#L664) |
+| a | var_spec | callTool | [668](../../magpie/internal/cli/tool_cli.go#L668) |
 | toolCmd | function_declaration |  | [682](../../magpie/internal/cli/tool_cli.go#L682) |
-| made | struct_type |  | [737](../../magpie/internal/cli/tool_cli.go#L737) |
+| out | var_spec | toolCmd | [704](../../magpie/internal/cli/tool_cli.go#L704) |
+| a | var_spec | toolCmd | [710](../../magpie/internal/cli/tool_cli.go#L710) |
+| a | var_spec | toolCmd | [717](../../magpie/internal/cli/tool_cli.go#L717) |
+| made | type_spec |  | [737](../../magpie/internal/cli/tool_cli.go#L737) |
 | data | field_declaration | made | [738](../../magpie/internal/cli/tool_cli.go#L738) |
 | url | field_declaration | made | [739](../../magpie/internal/cli/tool_cli.go#L739) |
 | saveMade | function_declaration |  | [744](../../magpie/internal/cli/tool_cli.go#L744) |
+| inline | var_spec | saveMade | [745](../../magpie/internal/cli/tool_cli.go#L745) |
+| files | var_spec | saveMade | [756](../../magpie/internal/cli/tool_cli.go#L756) |
+| all | var_spec | saveMade | [760](../../magpie/internal/cli/tool_cli.go#L760) |
+| saved | var_spec | saveMade | [785](../../magpie/internal/cli/tool_cli.go#L785) |
 | madeExt | function_declaration |  | [817](../../magpie/internal/cli/tool_cli.go#L817) |

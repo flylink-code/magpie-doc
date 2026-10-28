@@ -12,6 +12,8 @@ Source SHA-256: 162a1043a9c293c6ad46d08d94980dedba771886156cd5353a75880040ec6098
 | ompSessionRoots | function_declaration |  | [33](../../magpie/internal/sessions/omp.go#L33) |
 | ompRootsIn | function_declaration |  | [43](../../magpie/internal/sessions/omp.go#L43) |
 | ompFiles | function_declaration |  | [49](../../magpie/internal/sessions/omp.go#L49) |
+| out | var_spec | ompFiles | [50](../../magpie/internal/sessions/omp.go#L50) |
 | ompFilesIn | function_declaration |  | [61](../../magpie/internal/sessions/omp.go#L61) |
+| out | var_spec | ompFilesIn | [62](../../magpie/internal/sessions/omp.go#L62) |
 | ompProfile | function_declaration |  | [72](../../magpie/internal/sessions/omp.go#L72) |
 | ompFilesUnder | function_declaration |  | [89](../../magpie/internal/sessions/omp.go#L89) |

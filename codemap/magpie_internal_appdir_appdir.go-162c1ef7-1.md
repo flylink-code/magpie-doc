@@ -19,7 +19,7 @@ Source SHA-256: 7137566867289db9dba4293365b4dce970e16bda924a1d5302d54d76b48a799b
 | shared | function_declaration |  | [129](../../magpie/internal/appdir/appdir.go#L129) |
 | hasFiles | function_declaration |  | [141](../../magpie/internal/appdir/appdir.go#L141) |
 | sharedFolder | var_spec |  | [153](../../magpie/internal/appdir/appdir.go#L153) |
-| dirs | var_spec |  | [154](../../magpie/internal/appdir/appdir.go#L154) |
+| dirs | var_spec | sharedFolder | [154](../../magpie/internal/appdir/appdir.go#L154) |
 | installed | function_declaration |  | [177](../../magpie/internal/appdir/appdir.go#L177) |
 | Beside | function_declaration |  | [194](../../magpie/internal/appdir/appdir.go#L194) |
 | within | function_declaration |  | [209](../../magpie/internal/appdir/appdir.go#L209) |

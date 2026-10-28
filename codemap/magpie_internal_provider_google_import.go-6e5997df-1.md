@@ -8,24 +8,29 @@ Source SHA-256: 1bdf3ae5807d1aa769344f8e778a584ea3a5f9bf161dc4dde3c89e013c7abc30
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ImportedAccount | struct_type |  | [29](../../magpie/internal/provider/google_import.go#L29) |
+| ImportedAccount | type_spec |  | [29](../../magpie/internal/provider/google_import.go#L29) |
 | User | field_declaration | ImportedAccount | [32](../../magpie/internal/provider/google_import.go#L32) |
 | Status | field_declaration | ImportedAccount | [36](../../magpie/internal/provider/google_import.go#L36) |
 | Plan | field_declaration | ImportedAccount | [37](../../magpie/internal/provider/google_import.go#L37) |
 | Error | field_declaration | ImportedAccount | [38](../../magpie/internal/provider/google_import.go#L38) |
 | File | field_declaration | ImportedAccount | [42](../../magpie/internal/provider/google_import.go#L42) |
-| googleImport | struct_type |  | [46](../../magpie/internal/provider/google_import.go#L46) |
+| googleImport | type_spec |  | [46](../../magpie/internal/provider/google_import.go#L46) |
 | n | field_declaration | googleImport | [47](../../magpie/internal/provider/google_import.go#L47) |
 | email | field_declaration | googleImport | [48](../../magpie/internal/provider/google_import.go#L48) |
-| refreshToken | field_declaration | googleImport | [48](../../magpie/internal/provider/google_import.go#L48) |
-| project | field_declaration | googleImport | [48](../../magpie/internal/provider/google_import.go#L48) |
 | err | field_declaration | googleImport | [49](../../magpie/internal/provider/google_import.go#L49) |
 | file | field_declaration | googleImport | [50](../../magpie/internal/provider/google_import.go#L50) |
 | maxGoogleImport | const_spec |  | [54](../../magpie/internal/provider/google_import.go#L54) |
 | parseGoogleImport | function_declaration |  | [59](../../magpie/internal/provider/google_import.go#L59) |
+| out | var_spec | parseGoogleImport | [64](../../magpie/internal/provider/google_import.go#L64) |
+| v | var_spec | parseGoogleImport | [70](../../magpie/internal/provider/google_import.go#L70) |
+| walk | var_spec | parseGoogleImport | [74](../../magpie/internal/provider/google_import.go#L74) |
 | googleEntry | function_declaration |  | [139](../../magpie/internal/provider/google_import.go#L139) |
 | jsonStr | function_declaration |  | [166](../../magpie/internal/provider/google_import.go#L166) |
 | ImportGoogleAccounts | function_declaration |  | [178](../../magpie/internal/provider/google_import.go#L178) |
+| all | var_spec | ImportGoogleAccounts | [186](../../magpie/internal/provider/google_import.go#L186) |
+| a | var_spec | ImportGoogleAccounts | [212](../../magpie/internal/provider/google_import.go#L212) |
+| wg | var_spec | ImportGoogleAccounts | [222](../../magpie/internal/provider/google_import.go#L222) |
 | importGoogleAccount | function_declaration |  | [261](../../magpie/internal/provider/google_import.go#L261) |
-| AccessToken | field_declaration | importGoogleAccount | [268](../../magpie/internal/provider/google_import.go#L268) |
-| ExpiresIn | field_declaration | importGoogleAccount | [269](../../magpie/internal/provider/google_import.go#L269) |
+| tok | var_spec | importGoogleAccount | [267](../../magpie/internal/provider/google_import.go#L267) |
+| AccessToken | field_declaration | importGoogleAccount::tok | [268](../../magpie/internal/provider/google_import.go#L268) |
+| ExpiresIn | field_declaration | importGoogleAccount::tok | [269](../../magpie/internal/provider/google_import.go#L269) |

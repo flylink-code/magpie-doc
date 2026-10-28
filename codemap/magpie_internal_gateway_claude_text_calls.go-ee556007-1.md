@@ -11,10 +11,11 @@ Source SHA-256: d4c39db985eeb9c7e7a9ed116f5d6dd23a0deef1b1ce0f2a5a588f1987dbcfc7
 | textCallOpen | const_spec |  | [11](../../magpie/internal/gateway/claude_text_calls.go#L11) |
 | textCallsAsk | const_spec |  | [15](../../magpie/internal/gateway/claude_text_calls.go#L15) |
 | pastCallsNote | const_spec |  | [20](../../magpie/internal/gateway/claude_text_calls.go#L20) |
-| textCalls | struct_type |  | [27](../../magpie/internal/gateway/claude_text_calls.go#L27) |
+| textCalls | type_spec |  | [27](../../magpie/internal/gateway/claude_text_calls.go#L27) |
 | mid | field_declaration | textCalls | [28](../../magpie/internal/gateway/claude_text_calls.go#L28) |
 | line | field_declaration | textCalls | [29](../../magpie/internal/gateway/claude_text_calls.go#L29) |
 | seen | field_declaration | textCalls | [30](../../magpie/internal/gateway/claude_text_calls.go#L30) |
 | held | field_declaration | textCalls | [31](../../magpie/internal/gateway/claude_text_calls.go#L31) |
-| push | method_declaration | *textCalls | [36](../../magpie/internal/gateway/claude_text_calls.go#L36) |
-| end | method_declaration | *textCalls | [69](../../magpie/internal/gateway/claude_text_calls.go#L69) |
+| push | method_declaration |  | [36](../../magpie/internal/gateway/claude_text_calls.go#L36) |
+| out | var_spec | push | [41](../../magpie/internal/gateway/claude_text_calls.go#L41) |
+| end | method_declaration |  | [69](../../magpie/internal/gateway/claude_text_calls.go#L69) |

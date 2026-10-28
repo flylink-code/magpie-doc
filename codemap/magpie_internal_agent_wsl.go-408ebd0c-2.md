@@ -8,12 +8,29 @@ Source SHA-256: 87be1f45f62a6e0d9d8820b6c810810ca00e4e82af070e339bb82bc10a7dd719
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| wslWas | function_declaration |  | [1097](../../magpie/internal/agent/wsl.go#L1097) |
+| wslForgetOldBins | function_declaration |  | [1115](../../magpie/internal/agent/wsl.go#L1115) |
+| wslRunningLocked | function_declaration |  | [1137](../../magpie/internal/agent/wsl.go#L1137) |
+| wslUp | function_declaration |  | [1158](../../magpie/internal/agent/wsl.go#L1158) |
+| WSLRunning | function_declaration |  | [1168](../../magpie/internal/agent/wsl.go#L1168) |
+| wslSave | function_declaration |  | [1171](../../magpie/internal/agent/wsl.go#L1171) |
+| wslSaveLocked | function_declaration |  | [1181](../../magpie/internal/agent/wsl.go#L1181) |
+| wslRemember | function_declaration |  | [1195](../../magpie/internal/agent/wsl.go#L1195) |
+| wslLastSeen | function_declaration |  | [1209](../../magpie/internal/agent/wsl.go#L1209) |
+| wslClaudeStandIn | function_declaration |  | [1223](../../magpie/internal/agent/wsl.go#L1223) |
+| ds | var_spec | wslClaudeStandIn | [1226](../../magpie/internal/agent/wsl.go#L1226) |
+| wslClaudeClassifier | function_declaration |  | [1246](../../magpie/internal/agent/wsl.go#L1246) |
+| ds | var_spec | wslClaudeClassifier | [1249](../../magpie/internal/agent/wsl.go#L1249) |
+| wslList | function_declaration |  | [1268](../../magpie/internal/agent/wsl.go#L1268) |
 | wslProbeVersion | const_spec |  | [1280](../../magpie/internal/agent/wsl.go#L1280) |
 | wslProbeScript | var_spec |  | [1300](../../magpie/internal/agent/wsl.go#L1300) |
 | wslProbe | function_declaration |  | [1330](../../magpie/internal/agent/wsl.go#L1330) |
 | parseProbe | function_declaration |  | [1349](../../magpie/internal/agent/wsl.go#L1349) |
+| ns | var_spec | parseProbe | [1351](../../magpie/internal/agent/wsl.go#L1351) |
+| win | var_spec | parseProbe | [1353](../../magpie/internal/agent/wsl.go#L1353) |
 | onWindowsDrive | function_declaration |  | [1426](../../magpie/internal/agent/wsl.go#L1426) |
 | parseDistros | function_declaration |  | [1439](../../magpie/internal/agent/wsl.go#L1439) |
+| out | var_spec | parseDistros | [1441](../../magpie/internal/agent/wsl.go#L1441) |
 | decodeWSL | function_declaration |  | [1452](../../magpie/internal/agent/wsl.go#L1452) |
 | wslConfig | function_declaration |  | [1469](../../magpie/internal/agent/wsl.go#L1469) |
 | decodeText | function_declaration |  | [1477](../../magpie/internal/agent/wsl.go#L1477) |
@@ -24,3 +41,6 @@ Source SHA-256: 87be1f45f62a6e0d9d8820b6c810810ca00e4e82af070e339bb82bc10a7dd719
 | noticeWSLNoMode | var_spec |  | [1536](../../magpie/internal/agent/wsl.go#L1536) |
 | noticeWSLNoRelay | var_spec |  | [1537](../../magpie/internal/agent/wsl.go#L1537) |
 | noticeWSLAsleep | var_spec |  | [1538](../../magpie/internal/agent/wsl.go#L1538) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 1185: ERROR

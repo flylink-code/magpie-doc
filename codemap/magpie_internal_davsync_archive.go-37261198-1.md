@@ -8,12 +8,12 @@ Source SHA-256: 2484fc4149a367524d2a8e7fbdd866acb97db54fb7b088918d706d77dda5d3c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Bucket | struct_type |  | [15](../../magpie/internal/davsync/archive.go#L15) |
+| Bucket | type_spec |  | [15](../../magpie/internal/davsync/archive.go#L15) |
 | s | field_declaration | Bucket | [15](../../magpie/internal/davsync/archive.go#L15) |
 | ErrNoObject | var_spec |  | [18](../../magpie/internal/davsync/archive.go#L18) |
 | S3Bucket | function_declaration |  | [22](../../magpie/internal/davsync/archive.go#L22) |
-| at | method_declaration | *Bucket | [35](../../magpie/internal/davsync/archive.go#L35) |
-| Where | method_declaration | *Bucket | [42](../../magpie/internal/davsync/archive.go#L42) |
-| Put | method_declaration | *Bucket | [45](../../magpie/internal/davsync/archive.go#L45) |
-| Get | method_declaration | *Bucket | [61](../../magpie/internal/davsync/archive.go#L61) |
-| Open | method_declaration | *Bucket | [73](../../magpie/internal/davsync/archive.go#L73) |
+| at | method_declaration |  | [35](../../magpie/internal/davsync/archive.go#L35) |
+| Where | method_declaration |  | [42](../../magpie/internal/davsync/archive.go#L42) |
+| Put | method_declaration |  | [45](../../magpie/internal/davsync/archive.go#L45) |
+| Get | method_declaration |  | [61](../../magpie/internal/davsync/archive.go#L61) |
+| Open | method_declaration |  | [73](../../magpie/internal/davsync/archive.go#L73) |

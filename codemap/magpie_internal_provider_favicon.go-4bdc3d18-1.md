@@ -11,17 +11,23 @@ Source SHA-256: 7b2a7ca1ab12d4a408633916ae01646d00c4b4af68e73e22aed25f65f22e198e
 | FaviconFor | function_declaration |  | [35](../../magpie/internal/provider/favicon.go#L35) |
 | faviconSites | function_declaration |  | [45](../../magpie/internal/provider/favicon.go#L45) |
 | favicon | function_declaration |  | [69](../../magpie/internal/provider/favicon.go#L69) |
+| last | var_spec | favicon | [72](../../magpie/internal/provider/favicon.go#L72) |
+| cands | var_spec | favicon | [75](../../magpie/internal/provider/favicon.go#L75) |
 | statusLogo | function_declaration |  | [127](../../magpie/internal/provider/favicon.go#L127) |
-| Success | field_declaration | statusLogo | [143](../../magpie/internal/provider/favicon.go#L143) |
-| Data | field_declaration | statusLogo | [144](../../magpie/internal/provider/favicon.go#L144) |
-| SystemName | field_declaration | statusLogo | [145](../../magpie/internal/provider/favicon.go#L145) |
-| Logo | field_declaration | statusLogo | [146](../../magpie/internal/provider/favicon.go#L146) |
+| st | var_spec | statusLogo | [142](../../magpie/internal/provider/favicon.go#L142) |
+| Success | field_declaration | statusLogo::st | [143](../../magpie/internal/provider/favicon.go#L143) |
+| Data | field_declaration | statusLogo::st | [144](../../magpie/internal/provider/favicon.go#L144) |
+| SystemName | field_declaration | statusLogo::st::Data | [145](../../magpie/internal/provider/favicon.go#L145) |
+| Logo | field_declaration | statusLogo::st::Data | [146](../../magpie/internal/provider/favicon.go#L146) |
 | panelName | function_declaration |  | [165](../../magpie/internal/provider/favicon.go#L165) |
 | siteLabel | function_declaration |  | [175](../../magpie/internal/provider/favicon.go#L175) |
 | letterIcon | function_declaration |  | [191](../../magpie/internal/provider/favicon.go#L191) |
+| mark | var_spec | letterIcon | [197](../../magpie/internal/provider/favicon.go#L197) |
+| text | var_spec | letterIcon | [214](../../magpie/internal/provider/favicon.go#L214) |
 | iconUA | const_spec |  | [225](../../magpie/internal/provider/favicon.go#L225) |
 | linkTag | var_spec |  | [228](../../magpie/internal/provider/favicon.go#L228) |
 | tagAttr | var_spec |  | [229](../../magpie/internal/provider/favicon.go#L229) |
 | headDone | var_spec |  | [230](../../magpie/internal/provider/favicon.go#L230) |
 | pageIcons | function_declaration |  | [236](../../magpie/internal/provider/favicon.go#L236) |
+| svg | var_spec | pageIcons | [256](../../magpie/internal/provider/favicon.go#L256) |
 | dataURI | function_declaration |  | [299](../../magpie/internal/provider/favicon.go#L299) |

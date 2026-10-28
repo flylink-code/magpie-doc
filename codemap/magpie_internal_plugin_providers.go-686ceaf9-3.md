@@ -8,6 +8,22 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Error | field_declaration | Usage | [1052](../../magpie/internal/plugin/providers.go#L1052) |
+| User | field_declaration | Usage | [1053](../../magpie/internal/plugin/providers.go#L1053) |
+| SignIn | field_declaration | Usage | [1054](../../magpie/internal/plugin/providers.go#L1054) |
+| Windows | field_declaration | Usage | [1055](../../magpie/internal/plugin/providers.go#L1055) |
+| Resets | field_declaration | Usage | [1056](../../magpie/internal/plugin/providers.go#L1056) |
+| UsageResets | type_spec |  | [1060](../../magpie/internal/plugin/providers.go#L1060) |
+| Count | field_declaration | UsageResets | [1061](../../magpie/internal/plugin/providers.go#L1061) |
+| Until | field_declaration | UsageResets | [1062](../../magpie/internal/plugin/providers.go#L1062) |
+| ByWindow | field_declaration | UsageResets | [1063](../../magpie/internal/plugin/providers.go#L1063) |
+| FiveHour | field_declaration | UsageResets | [1064](../../magpie/internal/plugin/providers.go#L1064) |
+| Weekly | field_declaration | UsageResets | [1065](../../magpie/internal/plugin/providers.go#L1065) |
+| Team | field_declaration | UsageResets | [1066](../../magpie/internal/plugin/providers.go#L1066) |
+| Each | field_declaration | UsageResets | [1067](../../magpie/internal/plugin/providers.go#L1067) |
+| Until | field_declaration | UsageResets::Each | [1068](../../magpie/internal/plugin/providers.go#L1068) |
+| Window | field_declaration | UsageResets::Each | [1069](../../magpie/internal/plugin/providers.go#L1069) |
+| UsageWindow | type_spec |  | [1073](../../magpie/internal/plugin/providers.go#L1073) |
 | Name | field_declaration | UsageWindow | [1074](../../magpie/internal/plugin/providers.go#L1074) |
 | Used | field_declaration | UsageWindow | [1075](../../magpie/internal/plugin/providers.go#L1075) |
 | ResetsAt | field_declaration | UsageWindow | [1076](../../magpie/internal/plugin/providers.go#L1076) |
@@ -23,10 +39,12 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 | Aside | field_declaration | UsageWindow | [1086](../../magpie/internal/plugin/providers.go#L1086) |
 | RunsOutAt | field_declaration | UsageWindow | [1090](../../magpie/internal/plugin/providers.go#L1090) |
 | RunsOut | field_declaration | UsageWindow | [1091](../../magpie/internal/plugin/providers.go#L1091) |
-| Checkin | struct_type |  | [1097](../../magpie/internal/plugin/providers.go#L1097) |
+| Checkin | type_spec |  | [1097](../../magpie/internal/plugin/providers.go#L1097) |
 | Outcome | field_declaration | Checkin | [1098](../../magpie/internal/plugin/providers.go#L1098) |
 | Credit | field_declaration | Checkin | [1099](../../magpie/internal/plugin/providers.go#L1099) |
 | Streak | field_declaration | Checkin | [1100](../../magpie/internal/plugin/providers.go#L1100) |
 | Message | field_declaration | Checkin | [1101](../../magpie/internal/plugin/providers.go#L1101) |
 | AccountCheckin | function_declaration |  | [1106](../../magpie/internal/plugin/providers.go#L1106) |
+| c | var_spec | AccountCheckin | [1107](../../magpie/internal/plugin/providers.go#L1107) |
 | AccountUsage | function_declaration |  | [1113](../../magpie/internal/plugin/providers.go#L1113) |
+| u | var_spec | AccountUsage | [1114](../../magpie/internal/plugin/providers.go#L1114) |

@@ -10,4 +10,4 @@ Source SHA-256: bcdfc4d0537c108f1319d20a969f18cdc3664d00b65999ed6be3b7949c9dd2ff
 | --- | --- | --- | ---: |
 | museContext | const_spec |  | [13](../../magpie/internal/gateway/muse.go#L13) |
 | museOutput | const_spec |  | [14](../../magpie/internal/gateway/muse.go#L14) |
-| museModels | method_declaration | *Server | [24](../../magpie/internal/gateway/muse.go#L24) |
+| museModels | method_declaration |  | [24](../../magpie/internal/gateway/muse.go#L24) |

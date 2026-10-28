@@ -24,10 +24,13 @@ Source SHA-256: 6ed8fd9ef6599f0f2d01d09f803ff2c7818b59b633fcbe82e515ff45cc585be1
 | InContainer | function_declaration |  | [136](../../magpie/internal/gateway/lan.go#L136) |
 | inContainer | function_declaration |  | [140](../../magpie/internal/gateway/lan.go#L140) |
 | LANURLs | function_declaration |  | [158](../../magpie/internal/gateway/lan.go#L158) |
-| listen | method_declaration | *Server | [190](../../magpie/internal/gateway/lan.go#L190) |
-| Relisten | method_declaration | *Server | [201](../../magpie/internal/gateway/lan.go#L201) |
+| out | var_spec | LANURLs | [170](../../magpie/internal/gateway/lan.go#L170) |
+| listen | method_declaration |  | [190](../../magpie/internal/gateway/lan.go#L190) |
+| Relisten | method_declaration |  | [201](../../magpie/internal/gateway/lan.go#L201) |
 | lanGuard | function_declaration |  | [246](../../magpie/internal/gateway/lan.go#L246) |
+| ok | var_spec | lanGuard | [278](../../magpie/internal/gateway/lan.go#L278) |
 | callbacks | var_spec |  | [293](../../magpie/internal/gateway/lan.go#L293) |
+| tokens | field_declaration | callbacks | [295](../../magpie/internal/gateway/lan.go#L295) |
 | addCallback | function_declaration |  | [300](../../magpie/internal/gateway/lan.go#L300) |
 | dropCallback | function_declaration |  | [306](../../magpie/internal/gateway/lan.go#L306) |
 | ownCallback | function_declaration |  | [324](../../magpie/internal/gateway/lan.go#L324) |
@@ -36,13 +39,16 @@ Source SHA-256: 6ed8fd9ef6599f0f2d01d09f803ff2c7818b59b633fcbe82e515ff45cc585be1
 | containerHostNames | var_spec |  | [376](../../magpie/internal/gateway/lan.go#L376) |
 | ownHost | function_declaration |  | [382](../../magpie/internal/gateway/lan.go#L382) |
 | callerGuard | function_declaration |  | [406](../../magpie/internal/gateway/lan.go#L406) |
+| ok | var_spec | callerGuard | [409](../../magpie/internal/gateway/lan.go#L409) |
 | identifyCaller | function_declaration |  | [419](../../magpie/internal/gateway/lan.go#L419) |
+| who | var_spec | identifyCaller | [420](../../magpie/internal/gateway/lan.go#L420) |
 | accountOf | function_declaration |  | [463](../../magpie/internal/gateway/lan.go#L463) |
 | appendUsage | function_declaration |  | [470](../../magpie/internal/gateway/lan.go#L470) |
-| lanKeyed | struct_type |  | [487](../../magpie/internal/gateway/lan.go#L487) |
+| lanKeyed | type_spec |  | [487](../../magpie/internal/gateway/lan.go#L487) |
 | sharedWith | function_declaration |  | [491](../../magpie/internal/gateway/lan.go#L491) |
 | callerKey | function_declaration |  | [498](../../magpie/internal/gateway/lan.go#L498) |
 | callerKeys | function_declaration |  | [515](../../magpie/internal/gateway/lan.go#L515) |
+| out | var_spec | callerKeys | [516](../../magpie/internal/gateway/lan.go#L516) |
 | managedKey | function_declaration |  | [538](../../magpie/internal/gateway/lan.go#L538) |
 | refusedKey | function_declaration |  | [546](../../magpie/internal/gateway/lan.go#L546) |
 | local | function_declaration |  | [559](../../magpie/internal/gateway/lan.go#L559) |

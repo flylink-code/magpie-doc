@@ -10,11 +10,15 @@ Source SHA-256: bb377f1585f648663d769a94350fa7df954dfa888263caca91b562be6745b84d
 | --- | --- | --- | ---: |
 | rowDecodes | var_spec |  | [25](../../magpie/internal/usage/request_snapshot.go#L25) |
 | rowEncodes | var_spec |  | [33](../../magpie/internal/usage/request_snapshot.go#L33) |
-| pack | method_declaration | *rowChunk | [35](../../magpie/internal/usage/request_snapshot.go#L35) |
-| encode | method_declaration | *rowChunk | [53](../../magpie/internal/usage/request_snapshot.go#L53) |
-| unpack | method_declaration | *rowChunk | [112](../../magpie/internal/usage/request_snapshot.go#L112) |
+| pack | method_declaration |  | [35](../../magpie/internal/usage/request_snapshot.go#L35) |
+| encode | method_declaration |  | [53](../../magpie/internal/usage/request_snapshot.go#L53) |
+| locations | var_spec | encode | [71](../../magpie/internal/usage/request_snapshot.go#L71) |
+| unpack | method_declaration |  | [112](../../magpie/internal/usage/request_snapshot.go#L112) |
 | keptStrings | type_spec |  | [121](../../magpie/internal/usage/request_snapshot.go#L121) |
-| of | method_declaration | keptStrings | [123](../../magpie/internal/usage/request_snapshot.go#L123) |
+| of | method_declaration |  | [123](../../magpie/internal/usage/request_snapshot.go#L123) |
 | decodeMapped | function_declaration |  | [138](../../magpie/internal/usage/request_snapshot.go#L138) |
-| unpackInto | method_declaration | *rowChunk | [152](../../magpie/internal/usage/request_snapshot.go#L152) |
-| unpackReusing | method_declaration | *rowChunk | [161](../../magpie/internal/usage/request_snapshot.go#L161) |
+| err | var_spec | decodeMapped | [139](../../magpie/internal/usage/request_snapshot.go#L139) |
+| unpackInto | method_declaration |  | [152](../../magpie/internal/usage/request_snapshot.go#L152) |
+| unpackReusing | method_declaration |  | [161](../../magpie/internal/usage/request_snapshot.go#L161) |
+| text | var_spec | unpackReusing | [220](../../magpie/internal/usage/request_snapshot.go#L220) |
+| n | var_spec | unpackReusing | [227](../../magpie/internal/usage/request_snapshot.go#L227) |

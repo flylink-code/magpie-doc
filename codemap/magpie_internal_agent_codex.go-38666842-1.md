@@ -14,30 +14,48 @@ Source SHA-256: 04a8cf22fef2dfb6afed1101c39622a8a495c101c05e1cacfe89415fa5be62a1
 | codexV1ReadErrorNotice | var_spec |  | [94](../../magpie/internal/agent/codex.go#L94) |
 | multiAgentV2OnIn | function_declaration |  | [105](../../magpie/internal/agent/codex.go#L105) |
 | codexMultiAgentV2On | function_declaration |  | [131](../../magpie/internal/agent/codex.go#L131) |
+| doc | var_spec | codexMultiAgentV2On | [139](../../magpie/internal/agent/codex.go#L139) |
 | codexSubAgentsV1Warning | function_declaration |  | [167](../../magpie/internal/agent/codex.go#L167) |
 | CodexSubAgentsV1Warning | function_declaration |  | [184](../../magpie/internal/agent/codex.go#L184) |
 | codexRunning | var_spec |  | [196](../../magpie/internal/agent/codex.go#L196) |
 | codexEfforts | function_declaration |  | [201](../../magpie/internal/agent/codex.go#L201) |
 | catalogParses | function_declaration |  | [215](../../magpie/internal/agent/codex.go#L215) |
-| Models | field_declaration | catalogParses | [217](../../magpie/internal/agent/codex.go#L217) |
+| v | var_spec | catalogParses | [216](../../magpie/internal/agent/codex.go#L216) |
+| Models | field_declaration | catalogParses::v | [217](../../magpie/internal/agent/codex.go#L217) |
 | writeOwnList | function_declaration |  | [228](../../magpie/internal/agent/codex.go#L228) |
 | codexIn | function_declaration |  | [235](../../magpie/internal/agent/codex.go#L235) |
-| Providers | field_declaration | codexIn | [693](../../magpie/internal/agent/codex.go#L693) |
+| dropSubEffort | var_spec | codexIn | [412](../../magpie/internal/agent/codex.go#L412) |
+| ids | var_spec | codexIn | [604](../../magpie/internal/agent/codex.go#L604) |
+| threads | var_spec | codexIn | [652](../../magpie/internal/agent/codex.go#L652) |
+| cfg | var_spec | codexIn | [692](../../magpie/internal/agent/codex.go#L692) |
+| Providers | field_declaration | codexIn::cfg | [693](../../magpie/internal/agent/codex.go#L693) |
+| was | var_spec | codexIn | [808](../../magpie/internal/agent/codex.go#L808) |
+| own | var_spec | codexIn | [1000](../../magpie/internal/agent/codex.go#L1000) |
+| back | var_spec | codexIn | [1081](../../magpie/internal/agent/codex.go#L1081) |
+| out | var_spec | codexIn | [1551](../../magpie/internal/agent/codex.go#L1551) |
+| err | var_spec | codexIn | [1582](../../magpie/internal/agent/codex.go#L1582) |
+| out | var_spec | codexIn | [1654](../../magpie/internal/agent/codex.go#L1654) |
 | ccSwitchProvider | var_spec |  | [1768](../../magpie/internal/agent/codex.go#L1768) |
 | codexBuiltinProvider | var_spec |  | [1774](../../magpie/internal/agent/codex.go#L1774) |
 | contains | function_declaration |  | [1779](../../magpie/internal/agent/codex.go#L1779) |
 | codexAppEfforts | var_spec |  | [1792](../../magpie/internal/agent/codex.go#L1792) |
 | codexAppEffortsOn | var_spec |  | [1793](../../magpie/internal/agent/codex.go#L1793) |
 | codexEnableEfforts | function_declaration |  | [1804](../../magpie/internal/agent/codex.go#L1804) |
-| Desktop | field_declaration | codexEnableEfforts | [1810](../../magpie/internal/agent/codex.go#L1810) |
+| cfg | var_spec | codexEnableEfforts | [1809](../../magpie/internal/agent/codex.go#L1809) |
+| Desktop | field_declaration | codexEnableEfforts::cfg | [1810](../../magpie/internal/agent/codex.go#L1810) |
 | ownCodex | function_declaration |  | [1861](../../magpie/internal/agent/codex.go#L1861) |
+| out | var_spec | ownCodex | [1867](../../magpie/internal/agent/codex.go#L1867) |
 | codexOwnViaMagpie | function_declaration |  | [1882](../../magpie/internal/agent/codex.go#L1882) |
 | codexOwnOf | function_declaration |  | [1899](../../magpie/internal/agent/codex.go#L1899) |
 | codexGatewayURL | function_declaration |  | [1912](../../magpie/internal/agent/codex.go#L1912) |
 | codexKeptGateway | function_declaration |  | [1922](../../magpie/internal/agent/codex.go#L1922) |
+| table | var_spec | codexKeptGateway | [1934](../../magpie/internal/agent/codex.go#L1934) |
 | codexMoveGateway | function_declaration |  | [1948](../../magpie/internal/agent/codex.go#L1948) |
 | isCodexGatewayOn | function_declaration |  | [1963](../../magpie/internal/agent/codex.go#L1963) |
 | codexStaleCache | function_declaration |  | [1971](../../magpie/internal/agent/codex.go#L1971) |
+| c | var_spec | codexStaleCache | [1976](../../magpie/internal/agent/codex.go#L1976) |
+| etag | var_spec | codexStaleCache | [1980](../../magpie/internal/agent/codex.go#L1980) |
+| at | var_spec | codexStaleCache | [1986](../../magpie/internal/agent/codex.go#L1986) |
 | codexUsedUp | var_spec |  | [2007](../../magpie/internal/agent/codex.go#L2007) |
 | codexFailover | function_declaration |  | [2014](../../magpie/internal/agent/codex.go#L2014) |
 | EndCodexFailover | function_declaration |  | [2034](../../magpie/internal/agent/codex.go#L2034) |
@@ -46,20 +64,19 @@ Source SHA-256: 04a8cf22fef2dfb6afed1101c39622a8a495c101c05e1cacfe89415fa5be62a1
 | CodexSideSet | function_declaration |  | [2095](../../magpie/internal/agent/codex.go#L2095) |
 | codexChatGPT | function_declaration |  | [2115](../../magpie/internal/agent/codex.go#L2115) |
 | codexChatGPTKnown | function_declaration |  | [2127](../../magpie/internal/agent/codex.go#L2127) |
-| Tokens | field_declaration | codexChatGPTKnown | [2132](../../magpie/internal/agent/codex.go#L2132) |
-| Access | field_declaration | codexChatGPTKnown | [2133](../../magpie/internal/agent/codex.go#L2133) |
+| a | var_spec | codexChatGPTKnown | [2131](../../magpie/internal/agent/codex.go#L2131) |
+| Tokens | field_declaration | codexChatGPTKnown::a | [2132](../../magpie/internal/agent/codex.go#L2132) |
+| Access | field_declaration | codexChatGPTKnown::a::Tokens | [2133](../../magpie/internal/agent/codex.go#L2133) |
 | codexReached | function_declaration |  | [2158](../../magpie/internal/agent/codex.go#L2158) |
 | reachedFor | const_spec |  | [2183](../../magpie/internal/agent/codex.go#L2183) |
-| reachedKey | struct_type |  | [2185](../../magpie/internal/agent/codex.go#L2185) |
+| reachedKey | type_spec |  | [2185](../../magpie/internal/agent/codex.go#L2185) |
 | path | field_declaration | reachedKey | [2186](../../magpie/internal/agent/codex.go#L2186) |
 | since | field_declaration | reachedKey | [2187](../../magpie/internal/agent/codex.go#L2187) |
 | db | field_declaration | reachedKey | [2188](../../magpie/internal/agent/codex.go#L2188) |
-| wal | field_declaration | reachedKey | [2188](../../magpie/internal/agent/codex.go#L2188) |
-| fileStamp | struct_type |  | [2191](../../magpie/internal/agent/codex.go#L2191) |
+| fileStamp | type_spec |  | [2191](../../magpie/internal/agent/codex.go#L2191) |
 | size | field_declaration | fileStamp | [2191](../../magpie/internal/agent/codex.go#L2191) |
-| mod | field_declaration | fileStamp | [2191](../../magpie/internal/agent/codex.go#L2191) |
 | stampOf | function_declaration |  | [2193](../../magpie/internal/agent/codex.go#L2193) |
-| reachedRead | struct_type |  | [2201](../../magpie/internal/agent/codex.go#L2201) |
+| reachedRead | type_spec |  | [2201](../../magpie/internal/agent/codex.go#L2201) |
 | key | field_declaration | reachedRead | [2202](../../magpie/internal/agent/codex.go#L2202) |
 | read | field_declaration | reachedRead | [2203](../../magpie/internal/agent/codex.go#L2203) |
 | at | field_declaration | reachedRead | [2204](../../magpie/internal/agent/codex.go#L2204) |
@@ -69,3 +86,5 @@ Source SHA-256: 04a8cf22fef2dfb6afed1101c39622a8a495c101c05e1cacfe89415fa5be62a1
 | reachedMemo | var_spec |  | [2211](../../magpie/internal/agent/codex.go#L2211) |
 | reachedOpens | var_spec |  | [2213](../../magpie/internal/agent/codex.go#L2213) |
 | codexReachedRead | function_declaration |  | [2216](../../magpie/internal/agent/codex.go#L2216) |
+| ts | var_spec | codexReachedRead | [2234](../../magpie/internal/agent/codex.go#L2234) |
+| body | var_spec | codexReachedRead | [2235](../../magpie/internal/agent/codex.go#L2235) |

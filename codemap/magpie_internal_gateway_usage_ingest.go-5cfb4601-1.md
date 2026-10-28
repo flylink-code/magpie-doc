@@ -17,20 +17,29 @@ Source SHA-256: 801caf1c820824bd5c1348fe841d25af2c639164aaf0d1b89fefe11f59777d0c
 | ingestFuture | const_spec |  | [63](../../magpie/internal/gateway/usage_ingest.go#L63) |
 | ingestEarliest | var_spec |  | [69](../../magpie/internal/gateway/usage_ingest.go#L69) |
 | ingestFields | var_spec |  | [77](../../magpie/internal/gateway/usage_ingest.go#L77) |
-| ingestFault | struct_type |  | [80](../../magpie/internal/gateway/usage_ingest.go#L80) |
+| ingestFault | type_spec |  | [80](../../magpie/internal/gateway/usage_ingest.go#L80) |
 | index | field_declaration | ingestFault | [81](../../magpie/internal/gateway/usage_ingest.go#L81) |
 | field | field_declaration | ingestFault | [82](../../magpie/internal/gateway/usage_ingest.go#L82) |
 | msg | field_declaration | ingestFault | [83](../../magpie/internal/gateway/usage_ingest.go#L83) |
-| Error | method_declaration | *ingestFault | [86](../../magpie/internal/gateway/usage_ingest.go#L86) |
-| usageIngest | method_declaration | *Server | [90](../../magpie/internal/gateway/usage_ingest.go#L90) |
-| result | struct_type | *Server.usageIngest | [142](../../magpie/internal/gateway/usage_ingest.go#L142) |
-| Index | field_declaration | *Server.usageIngest.result | [143](../../magpie/internal/gateway/usage_ingest.go#L143) |
-| RID | field_declaration | *Server.usageIngest.result | [144](../../magpie/internal/gateway/usage_ingest.go#L144) |
-| Status | field_declaration | *Server.usageIngest.result | [145](../../magpie/internal/gateway/usage_ingest.go#L145) |
-| Accepted | field_declaration | *Server.usageIngest | [148](../../magpie/internal/gateway/usage_ingest.go#L148) |
-| Skipped | field_declaration | *Server.usageIngest | [149](../../magpie/internal/gateway/usage_ingest.go#L149) |
-| Records | field_declaration | *Server.usageIngest | [150](../../magpie/internal/gateway/usage_ingest.go#L150) |
+| Error | method_declaration |  | [86](../../magpie/internal/gateway/usage_ingest.go#L86) |
+| usageIngest | method_declaration |  | [90](../../magpie/internal/gateway/usage_ingest.go#L90) |
+| tooBig | var_spec | usageIngest | [120](../../magpie/internal/gateway/usage_ingest.go#L120) |
+| result | type_spec | usageIngest | [142](../../magpie/internal/gateway/usage_ingest.go#L142) |
+| Index | field_declaration | usageIngest::result | [143](../../magpie/internal/gateway/usage_ingest.go#L143) |
+| RID | field_declaration | usageIngest::result | [144](../../magpie/internal/gateway/usage_ingest.go#L144) |
+| Status | field_declaration | usageIngest::result | [145](../../magpie/internal/gateway/usage_ingest.go#L145) |
+| Accepted | field_declaration | usageIngest | [148](../../magpie/internal/gateway/usage_ingest.go#L148) |
+| Skipped | field_declaration | usageIngest | [149](../../magpie/internal/gateway/usage_ingest.go#L149) |
+| Records | field_declaration | usageIngest | [150](../../magpie/internal/gateway/usage_ingest.go#L150) |
 | parseIngest | function_declaration |  | [168](../../magpie/internal/gateway/usage_ingest.go#L168) |
+| raws | var_spec | parseIngest | [170](../../magpie/internal/gateway/usage_ingest.go#L170) |
 | parseReported | function_declaration |  | [200](../../magpie/internal/gateway/usage_ingest.go#L200) |
+| rec | var_spec | parseReported | [201](../../magpie/internal/gateway/usage_ingest.go#L201) |
+| fields | var_spec | parseReported | [202](../../magpie/internal/gateway/usage_ingest.go#L202) |
+| s | var_spec | parseReported | [224](../../magpie/internal/gateway/usage_ingest.go#L224) |
+| n | var_spec | parseReported | [247](../../magpie/internal/gateway/usage_ingest.go#L247) |
+| f | var_spec | parseReported | [264](../../magpie/internal/gateway/usage_ingest.go#L264) |
+| ts | var_spec | parseReported | [293](../../magpie/internal/gateway/usage_ingest.go#L293) |
 | k | field_declaration | parseReported | [309](../../magpie/internal/gateway/usage_ingest.go#L309) |
 | to | field_declaration | parseReported | [310](../../magpie/internal/gateway/usage_ingest.go#L310) |
+| c | var_spec | parseReported | [364](../../magpie/internal/gateway/usage_ingest.go#L364) |

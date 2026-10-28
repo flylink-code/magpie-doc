@@ -10,18 +10,19 @@ Source SHA-256: f1649a0b3156cf337c03fa4e0506646b0bac87b05b1abdaf3cb9a5bd2ecbb977
 | --- | --- | --- | ---: |
 | v6Broken | const_spec |  | [26](../../magpie/internal/netproxy/v4fallback.go#L26) |
 | v4Only | var_spec |  | [28](../../magpie/internal/netproxy/v4fallback.go#L28) |
+| at | field_declaration | v4Only | [30](../../magpie/internal/netproxy/v4fallback.go#L30) |
 | v4Since | function_declaration |  | [33](../../magpie/internal/netproxy/v4fallback.go#L33) |
 | markV4 | function_declaration |  | [44](../../magpie/internal/netproxy/v4fallback.go#L44) |
 | v4Fallback | function_declaration |  | [55](../../magpie/internal/netproxy/v4fallback.go#L55) |
-| v6Conn | struct_type |  | [77](../../magpie/internal/netproxy/v4fallback.go#L77) |
+| v6Conn | type_spec |  | [77](../../magpie/internal/netproxy/v4fallback.go#L77) |
 | addr | field_declaration | v6Conn | [79](../../magpie/internal/netproxy/v4fallback.go#L79) |
 | mu | field_declaration | v6Conn | [80](../../magpie/internal/netproxy/v4fallback.go#L80) |
 | read | field_declaration | v6Conn | [81](../../magpie/internal/netproxy/v4fallback.go#L81) |
 | shut | field_declaration | v6Conn | [82](../../magpie/internal/netproxy/v4fallback.go#L82) |
-| Read | method_declaration | *v6Conn | [85](../../magpie/internal/netproxy/v4fallback.go#L85) |
-| Write | method_declaration | *v6Conn | [91](../../magpie/internal/netproxy/v4fallback.go#L91) |
-| Close | method_declaration | *v6Conn | [97](../../magpie/internal/netproxy/v4fallback.go#L97) |
-| seen | method_declaration | *v6Conn | [104](../../magpie/internal/netproxy/v4fallback.go#L104) |
+| Read | method_declaration |  | [85](../../magpie/internal/netproxy/v4fallback.go#L85) |
+| Write | method_declaration |  | [91](../../magpie/internal/netproxy/v4fallback.go#L91) |
+| Close | method_declaration |  | [97](../../magpie/internal/netproxy/v4fallback.go#L97) |
+| seen | method_declaration |  | [104](../../magpie/internal/netproxy/v4fallback.go#L104) |
 | v4Retry | function_declaration |  | [124](../../magpie/internal/netproxy/v4fallback.go#L124) |
 | idempotent | function_declaration |  | [155](../../magpie/internal/netproxy/v4fallback.go#L155) |
 | hostPort | function_declaration |  | [164](../../magpie/internal/netproxy/v4fallback.go#L164) |

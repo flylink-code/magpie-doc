@@ -8,21 +8,23 @@ Source SHA-256: 8ebb3ac369277c6547e9f834d7d71992e036545587145a751c42a1fcadd962f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Setup | struct_type |  | [15](../../magpie/internal/library/setup.go#L15) |
+| Setup | type_spec |  | [15](../../magpie/internal/library/setup.go#L15) |
 | Instructions | field_declaration | Setup | [16](../../magpie/internal/library/setup.go#L16) |
 | MCP | field_declaration | Setup | [17](../../magpie/internal/library/setup.go#L17) |
 | Skills | field_declaration | Setup | [18](../../magpie/internal/library/setup.go#L18) |
-| SetupInstructions | struct_type |  | [23](../../magpie/internal/library/setup.go#L23) |
+| SetupInstructions | type_spec |  | [23](../../magpie/internal/library/setup.go#L23) |
 | Set | field_declaration | SetupInstructions | [24](../../magpie/internal/library/setup.go#L24) |
 | Shared | field_declaration | SetupInstructions | [25](../../magpie/internal/library/setup.go#L25) |
 | Agents | field_declaration | SetupInstructions | [26](../../magpie/internal/library/setup.go#L26) |
 | Extra | field_declaration | SetupInstructions | [27](../../magpie/internal/library/setup.go#L27) |
-| Empty | method_declaration | *Setup | [31](../../magpie/internal/library/setup.go#L31) |
-| Summary | method_declaration | *Setup | [39](../../magpie/internal/library/setup.go#L39) |
-| GivesInstructions | method_declaration | *Setup | [71](../../magpie/internal/library/setup.go#L71) |
-| On | method_declaration | *Setup | [85](../../magpie/internal/library/setup.go#L85) |
+| Empty | method_declaration |  | [31](../../magpie/internal/library/setup.go#L31) |
+| Summary | method_declaration |  | [39](../../magpie/internal/library/setup.go#L39) |
+| parts | var_spec | Summary | [55](../../magpie/internal/library/setup.go#L55) |
+| GivesInstructions | method_declaration |  | [71](../../magpie/internal/library/setup.go#L71) |
+| On | method_declaration |  | [85](../../magpie/internal/library/setup.go#L85) |
 | extras | function_declaration |  | [99](../../magpie/internal/library/setup.go#L99) |
 | Snapshot | function_declaration |  | [116](../../magpie/internal/library/setup.go#L116) |
 | Holds | function_declaration |  | [147](../../magpie/internal/library/setup.go#L147) |
 | Restore | function_declaration |  | [196](../../magpie/internal/library/setup.go#L196) |
+| missing | var_spec | Restore | [197](../../magpie/internal/library/setup.go#L197) |
 | InUse | function_declaration |  | [263](../../magpie/internal/library/setup.go#L263) |

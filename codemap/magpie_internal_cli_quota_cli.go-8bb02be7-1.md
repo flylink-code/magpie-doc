@@ -10,10 +10,12 @@ Source SHA-256: 86ad3c86e55a886e907be2f8c0ddae1c04a51e4bad17ad16556a6047cadc0404
 | --- | --- | --- | ---: |
 | quotaUsage | const_spec |  | [17](../../magpie/internal/cli/quota_cli.go#L17) |
 | quotaCmd | function_declaration |  | [79](../../magpie/internal/cli/quota_cli.go#L79) |
+| only | var_spec | quotaCmd | [102](../../magpie/internal/cli/quota_cli.go#L102) |
 | printQuotas | function_declaration |  | [146](../../magpie/internal/cli/quota_cli.go#L146) |
 | balanceCell | function_declaration |  | [178](../../magpie/internal/cli/quota_cli.go#L178) |
 | resetsCell | function_declaration |  | [189](../../magpie/internal/cli/quota_cli.go#L189) |
 | quotaResetCmd | function_declaration |  | [204](../../magpie/internal/cli/quota_cli.go#L204) |
+| held | var_spec | quotaResetCmd | [223](../../magpie/internal/cli/quota_cli.go#L223) |
 | quotaAutoResetCmd | function_declaration |  | [268](../../magpie/internal/cli/quota_cli.go#L268) |
 | autoResetSay | function_declaration |  | [331](../../magpie/internal/cli/quota_cli.go#L331) |
 | printResetsUsed | function_declaration |  | [346](../../magpie/internal/cli/quota_cli.go#L346) |
@@ -25,5 +27,6 @@ Source SHA-256: 86ad3c86e55a886e907be2f8c0ddae1c04a51e4bad17ad16556a6047cadc0404
 | quotaMatches | function_declaration |  | [522](../../magpie/internal/cli/quota_cli.go#L522) |
 | withUntold | function_declaration |  | [540](../../magpie/internal/cli/quota_cli.go#L540) |
 | quotaHistoryCmd | function_declaration |  | [556](../../magpie/internal/cli/quota_cli.go#L556) |
+| only | var_spec | quotaHistoryCmd | [558](../../magpie/internal/cli/quota_cli.go#L558) |
 | quotaPointsCell | function_declaration |  | [625](../../magpie/internal/cli/quota_cli.go#L625) |
 | quotaNewRun | function_declaration |  | [650](../../magpie/internal/cli/quota_cli.go#L650) |

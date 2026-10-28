@@ -11,21 +11,27 @@ Source SHA-256: 992f77fb39738e67dd32a0130a62ef5d505353c6b1194bc83eac3bd2af510647
 | ClineVersion | const_spec |  | [17](../../magpie/internal/provider/cline.go#L17) |
 | clineHeaders | var_spec |  | [25](../../magpie/internal/provider/cline.go#L25) |
 | ClineClient | function_declaration |  | [36](../../magpie/internal/provider/cline.go#L36) |
-| IsCline | method_declaration | Provider | [44](../../magpie/internal/provider/cline.go#L44) |
+| IsCline | method_declaration |  | [44](../../magpie/internal/provider/cline.go#L44) |
 | clineFreePrefix | const_spec |  | [54](../../magpie/internal/provider/cline.go#L54) |
-| clineFeed | method_declaration | Provider | [62](../../magpie/internal/provider/cline.go#L62) |
-| entry | struct_type | Provider.clineFeed | [81](../../magpie/internal/provider/cline.go#L81) |
-| ID | field_declaration | Provider.clineFeed.entry | [82](../../magpie/internal/provider/cline.go#L82) |
-| Name | field_declaration | Provider.clineFeed.entry | [83](../../magpie/internal/provider/cline.go#L83) |
-| ClinePass | field_declaration | Provider.clineFeed | [86](../../magpie/internal/provider/cline.go#L86) |
-| Free | field_declaration | Provider.clineFeed | [87](../../magpie/internal/provider/cline.go#L87) |
+| clineFeed | method_declaration |  | [62](../../magpie/internal/provider/cline.go#L62) |
+| entry | type_spec | clineFeed | [81](../../magpie/internal/provider/cline.go#L81) |
+| ID | field_declaration | clineFeed::entry | [82](../../magpie/internal/provider/cline.go#L82) |
+| Name | field_declaration | clineFeed::entry | [83](../../magpie/internal/provider/cline.go#L83) |
+| feed | var_spec | clineFeed | [85](../../magpie/internal/provider/cline.go#L85) |
+| ClinePass | field_declaration | clineFeed::feed | [86](../../magpie/internal/provider/cline.go#L86) |
+| Free | field_declaration | clineFeed::feed | [87](../../magpie/internal/provider/cline.go#L87) |
+| ms | var_spec | clineFeed | [92](../../magpie/internal/provider/cline.go#L92) |
 | clineFree | var_spec |  | [123](../../magpie/internal/provider/cline.go#L123) |
 | clineFreeName | function_declaration |  | [131](../../magpie/internal/provider/cline.go#L131) |
 | isClineFree | function_declaration |  | [142](../../magpie/internal/provider/cline.go#L142) |
-| clineFreeModel | method_declaration | Provider | [156](../../magpie/internal/provider/cline.go#L156) |
-| ClinePinnable | method_declaration | Provider | [173](../../magpie/internal/provider/cline.go#L173) |
+| clineFreeModel | method_declaration |  | [156](../../magpie/internal/provider/cline.go#L156) |
+| ClinePinnable | method_declaration |  | [173](../../magpie/internal/provider/cline.go#L173) |
 | clineMakers | var_spec |  | [188](../../magpie/internal/provider/cline.go#L188) |
-| ClinePin | method_declaration | Provider | [206](../../magpie/internal/provider/cline.go#L206) |
-| ClinePassAsked | method_declaration | Provider | [233](../../magpie/internal/provider/cline.go#L233) |
+| name | field_declaration | clineMakers | [189](../../magpie/internal/provider/cline.go#L189) |
+| exact | field_declaration | clineMakers | [190](../../magpie/internal/provider/cline.go#L190) |
+| upstream | field_declaration | clineMakers | [191](../../magpie/internal/provider/cline.go#L191) |
+| openRouter | field_declaration | clineMakers | [192](../../magpie/internal/provider/cline.go#L192) |
+| ClinePin | method_declaration |  | [206](../../magpie/internal/provider/cline.go#L206) |
+| ClinePassAsked | method_declaration |  | [233](../../magpie/internal/provider/cline.go#L233) |
 | clinePassDeepSeek | function_declaration |  | [244](../../magpie/internal/provider/cline.go#L244) |
-| ClinePassHas | method_declaration | Provider | [258](../../magpie/internal/provider/cline.go#L258) |
+| ClinePassHas | method_declaration |  | [258](../../magpie/internal/provider/cline.go#L258) |

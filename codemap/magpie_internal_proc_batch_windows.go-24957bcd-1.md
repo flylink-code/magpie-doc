@@ -9,6 +9,7 @@ Source SHA-256: 487c97a4d84315e65b21749cd3af19cfd18438f9f9c2c40790e5b6ae49c7e7a5
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | batch | function_declaration |  | [28](../../magpie/internal/proc/batch_windows.go#L28) |
+| b | var_spec | batch | [41](../../magpie/internal/proc/batch_windows.go#L41) |
 | errBatchArg | var_spec |  | [63](../../magpie/internal/proc/batch_windows.go#L63) |
 | quoteBatchArg | function_declaration |  | [65](../../magpie/internal/proc/batch_windows.go#L65) |
 | comSpec | function_declaration |  | [105](../../magpie/internal/proc/batch_windows.go#L105) |

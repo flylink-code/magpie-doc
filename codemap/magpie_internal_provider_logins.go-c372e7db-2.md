@@ -8,12 +8,30 @@ Source SHA-256: 3dbc0f04af40712c6dd51051568716112eedd16cb06ef67a13343872f0b30e1e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Logins | function_declaration |  | [924](../../magpie/internal/provider/logins.go#L924) |
+| side | var_spec | Logins | [931](../../magpie/internal/provider/logins.go#L931) |
+| id | field_declaration | Logins | [954](../../magpie/internal/provider/logins.go#L954) |
+| list | field_declaration | Logins | [955](../../magpie/internal/provider/logins.go#L955) |
+| out | var_spec | Logins | [986](../../magpie/internal/provider/logins.go#L986) |
+| InUseLogin | function_declaration |  | [1034](../../magpie/internal/provider/logins.go#L1034) |
+| FirstLogin | function_declaration |  | [1045](../../magpie/internal/provider/logins.go#L1045) |
+| inUseLogin | function_declaration |  | [1052](../../magpie/internal/provider/logins.go#L1052) |
+| inUseOf | function_declaration |  | [1064](../../magpie/internal/provider/logins.go#L1064) |
+| nextWithRoom | function_declaration |  | [1100](../../magpie/internal/provider/logins.go#L1100) |
+| loginRoom | function_declaration |  | [1118](../../magpie/internal/provider/logins.go#L1118) |
+| SwitchLogin | function_declaration |  | [1138](../../magpie/internal/provider/logins.go#L1138) |
+| switchLogin | function_declaration |  | [1154](../../magpie/internal/provider/logins.go#L1154) |
+| switchSavedLogin | function_declaration |  | [1184](../../magpie/internal/provider/logins.go#L1184) |
+| target | var_spec | switchSavedLogin | [1199](../../magpie/internal/provider/logins.go#L1199) |
+| err | var_spec | switchSavedLogin | [1258](../../magpie/internal/provider/logins.go#L1258) |
+| putClaudeLogin | function_declaration |  | [1281](../../magpie/internal/provider/logins.go#L1281) |
+| acct | var_spec | putClaudeLogin | [1313](../../magpie/internal/provider/logins.go#L1313) |
+| ForgetLogin | function_declaration |  | [1331](../../magpie/internal/provider/logins.go#L1331) |
 | nextOnForget | function_declaration |  | [1370](../../magpie/internal/provider/logins.go#L1370) |
 | forgetLogin | function_declaration |  | [1389](../../magpie/internal/provider/logins.go#L1389) |
-| SignedInError | struct_type |  | [1438](../../magpie/internal/provider/logins.go#L1438) |
+| SignedInError | type_spec |  | [1438](../../magpie/internal/provider/logins.go#L1438) |
 | Agent | field_declaration | SignedInError | [1438](../../magpie/internal/provider/logins.go#L1438) |
-| User | field_declaration | SignedInError | [1438](../../magpie/internal/provider/logins.go#L1438) |
-| Error | method_declaration | *SignedInError | [1440](../../magpie/internal/provider/logins.go#L1440) |
+| Error | method_declaration |  | [1440](../../magpie/internal/provider/logins.go#L1440) |
 | loginAgentName | function_declaration |  | [1445](../../magpie/internal/provider/logins.go#L1445) |
 | ForgetAccounts | function_declaration |  | [1457](../../magpie/internal/provider/logins.go#L1457) |
 | forgetAccountCaches | function_declaration |  | [1474](../../magpie/internal/provider/logins.go#L1474) |

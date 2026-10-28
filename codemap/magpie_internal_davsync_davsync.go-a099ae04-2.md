@@ -8,6 +8,7 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| PasswordSet | field_declaration | OtherView | [485](../../magpie/internal/davsync/davsync.go#L485) |
 | Endpoint | field_declaration | OtherView | [486](../../magpie/internal/davsync/davsync.go#L486) |
 | Region | field_declaration | OtherView | [487](../../magpie/internal/davsync/davsync.go#L487) |
 | PathStyle | field_declaration | OtherView | [488](../../magpie/internal/davsync/davsync.go#L488) |
@@ -15,6 +16,7 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | Status | function_declaration |  | [493](../../magpie/internal/davsync/davsync.go#L493) |
 | Dismiss | function_declaration |  | [534](../../magpie/internal/davsync/davsync.go#L534) |
 | loadState | function_declaration |  | [543](../../magpie/internal/davsync/davsync.go#L543) |
+| st | var_spec | loadState | [544](../../magpie/internal/davsync/davsync.go#L544) |
 | saveState | function_declaration |  | [555](../../magpie/internal/davsync/davsync.go#L555) |
 | stateKey | function_declaration |  | [564](../../magpie/internal/davsync/davsync.go#L564) |
 | cacheName | const_spec |  | [578](../../magpie/internal/davsync/davsync.go#L578) |
@@ -27,18 +29,27 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | Now | function_declaration |  | [639](../../magpie/internal/davsync/davsync.go#L639) |
 | SyncNow | function_declaration |  | [642](../../magpie/internal/davsync/davsync.go#L642) |
 | syncNow | function_declaration |  | [644](../../magpie/internal/davsync/davsync.go#L644) |
+| nb | var_spec | syncNow | [674](../../magpie/internal/davsync/davsync.go#L674) |
 | maxWait | const_spec |  | [692](../../magpie/internal/davsync/davsync.go#L692) |
 | limitWait | const_spec |  | [693](../../magpie/internal/davsync/davsync.go#L693) |
 | backoff | function_declaration |  | [700](../../magpie/internal/davsync/davsync.go#L700) |
 | backoffFrom | function_declaration |  | [703](../../magpie/internal/davsync/davsync.go#L703) |
+| rl | var_spec | backoffFrom | [704](../../magpie/internal/davsync/davsync.go#L704) |
 | poll | var_spec |  | [716](../../magpie/internal/davsync/davsync.go#L716) |
 | Run | function_declaration |  | [722](../../magpie/internal/davsync/davsync.go#L722) |
 | run | function_declaration |  | [724](../../magpie/internal/davsync/davsync.go#L724) |
+| tried | var_spec | run | [728](../../magpie/internal/davsync/davsync.go#L728) |
+| gap | var_spec | run | [729](../../magpie/internal/davsync/davsync.go#L729) |
+| rl | var_spec | run | [765](../../magpie/internal/davsync/davsync.go#L765) |
 | collect | function_declaration |  | [770](../../magpie/internal/davsync/davsync.go#L770) |
 | hashes | function_declaration |  | [786](../../magpie/internal/davsync/davsync.go#L786) |
+| s | var_spec | hashes | [788](../../magpie/internal/davsync/davsync.go#L788) |
 | orEmpty | function_declaration |  | [819](../../magpie/internal/davsync/davsync.go#L819) |
 | take | function_declaration |  | [831](../../magpie/internal/davsync/davsync.go#L831) |
 | changed | function_declaration |  | [924](../../magpie/internal/davsync/davsync.go#L924) |
+| t | var_spec | changed | [945](../../magpie/internal/davsync/davsync.go#L945) |
 | bring | function_declaration |  | [956](../../magpie/internal/davsync/davsync.go#L956) |
 | keepUnseenGatewayKeys | function_declaration |  | [1025](../../magpie/internal/davsync/davsync.go#L1025) |
 | syncOnce | function_declaration |  | [1042](../../magpie/internal/davsync/davsync.go#L1042) |
+| bringIn | var_spec | syncOnce | [1173](../../magpie/internal/davsync/davsync.go#L1173) |
+| saved | var_spec | syncOnce | [1205](../../magpie/internal/davsync/davsync.go#L1205) |

@@ -18,7 +18,7 @@ Source SHA-256: 96f45a7afacef5f72b1682485fca5506b340ab83fe69560869a0fd1ce76bf7ac
 | openPencilDir | function_declaration |  | [144](../../magpie/internal/agent/openpencil.go#L144) |
 | openPencilDirOn | function_declaration |  | [150](../../magpie/internal/agent/openpencil.go#L150) |
 | openPencilWindowsApp | function_declaration |  | [166](../../magpie/internal/agent/openpencil.go#L166) |
-| openPencilAgent | struct_type |  | [180](../../magpie/internal/agent/openpencil.go#L180) |
+| openPencilAgent | type_spec |  | [180](../../magpie/internal/agent/openpencil.go#L180) |
 | ID | field_declaration | openPencilAgent | [181](../../magpie/internal/agent/openpencil.go#L181) |
 | Preset | field_declaration | openPencilAgent | [182](../../magpie/internal/agent/openpencil.go#L182) |
 | DisplayName | field_declaration | openPencilAgent | [183](../../magpie/internal/agent/openpencil.go#L183) |
@@ -29,7 +29,9 @@ Source SHA-256: 96f45a7afacef5f72b1682485fca5506b340ab83fe69560869a0fd1ce76bf7ac
 | BaseURL | field_declaration | openPencilAgent | [188](../../magpie/internal/agent/openpencil.go#L188) |
 | Enabled | field_declaration | openPencilAgent | [189](../../magpie/internal/agent/openpencil.go#L189) |
 | openPencilEntry | function_declaration |  | [196](../../magpie/internal/agent/openpencil.go#L196) |
+| ms | var_spec | openPencilEntry | [197](../../magpie/internal/agent/openpencil.go#L197) |
 | openPencilWired | function_declaration |  | [221](../../magpie/internal/agent/openpencil.go#L221) |
 | openPencilAgents | function_declaration |  | [230](../../magpie/internal/agent/openpencil.go#L230) |
 | openPencilWire | function_declaration |  | [264](../../magpie/internal/agent/openpencil.go#L264) |
 | openPencilUnwire | function_declaration |  | [298](../../magpie/internal/agent/openpencil.go#L298) |
+| rest | var_spec | openPencilUnwire | [305](../../magpie/internal/agent/openpencil.go#L305) |

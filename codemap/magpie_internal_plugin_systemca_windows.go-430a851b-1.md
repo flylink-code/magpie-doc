@@ -10,3 +10,5 @@ Source SHA-256: a6d5768d89507127dc2f2a7a0d6e00787856f7557b1492671117e0cb566f8537
 | --- | --- | --- | ---: |
 | systemCABundle | function_declaration |  | [9](../../magpie/internal/plugin/systemca_windows.go#L9) |
 | systemRoots | function_declaration |  | [14](../../magpie/internal/plugin/systemca_windows.go#L14) |
+| certs | var_spec | systemRoots | [24](../../magpie/internal/plugin/systemca_windows.go#L24) |
+| c | var_spec | systemRoots | [25](../../magpie/internal/plugin/systemca_windows.go#L25) |

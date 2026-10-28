@@ -8,5 +8,5 @@ Source SHA-256: e3de0f2ecf88fd36e27cd105847c3d153cadfef51272fd25ab3dfccd134d7817
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| watchTrayUsage | method_declaration | *host | [20](../../magpie/internal/gui/trayusage_tray.go#L20) |
-| trayCellClick | method_declaration | *host | [115](../../magpie/internal/gui/trayusage_tray.go#L115) |
+| watchTrayUsage | method_declaration |  | [20](../../magpie/internal/gui/trayusage_tray.go#L20) |
+| trayCellClick | method_declaration |  | [115](../../magpie/internal/gui/trayusage_tray.go#L115) |

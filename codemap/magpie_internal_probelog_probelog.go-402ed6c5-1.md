@@ -11,7 +11,7 @@ Source SHA-256: c740196ee63190dba80d5ed6250737af6c53e0e7f2cdd8fdd050f5d82445d223
 | KindTest | const_spec |  | [24](../../magpie/internal/probelog/probelog.go#L24) |
 | KindDetect | const_spec |  | [25](../../magpie/internal/probelog/probelog.go#L25) |
 | KindList | const_spec |  | [26](../../magpie/internal/probelog/probelog.go#L26) |
-| Row | struct_type |  | [30](../../magpie/internal/probelog/probelog.go#L30) |
+| Row | type_spec |  | [30](../../magpie/internal/probelog/probelog.go#L30) |
 | Time | field_declaration | Row | [31](../../magpie/internal/probelog/probelog.go#L31) |
 | Kind | field_declaration | Row | [32](../../magpie/internal/probelog/probelog.go#L32) |
 | Provider | field_declaration | Row | [33](../../magpie/internal/probelog/probelog.go#L33) |
@@ -23,13 +23,10 @@ Source SHA-256: c740196ee63190dba80d5ed6250737af6c53e0e7f2cdd8fdd050f5d82445d223
 | Millis | field_declaration | Row | [39](../../magpie/internal/probelog/probelog.go#L39) |
 | Error | field_declaration | Row | [40](../../magpie/internal/probelog/probelog.go#L40) |
 | Sink | var_spec |  | [44](../../magpie/internal/probelog/probelog.go#L44) |
-| meta | struct_type |  | [46](../../magpie/internal/probelog/probelog.go#L46) |
+| meta | type_spec |  | [46](../../magpie/internal/probelog/probelog.go#L46) |
 | kind | field_declaration | meta | [47](../../magpie/internal/probelog/probelog.go#L47) |
-| provider | field_declaration | meta | [47](../../magpie/internal/probelog/probelog.go#L47) |
-| account | field_declaration | meta | [47](../../magpie/internal/probelog/probelog.go#L47) |
-| model | field_declaration | meta | [47](../../magpie/internal/probelog/probelog.go#L47) |
 | done | field_declaration | meta | [48](../../magpie/internal/probelog/probelog.go#L48) |
-| key | struct_type |  | [51](../../magpie/internal/probelog/probelog.go#L51) |
+| key | type_spec |  | [51](../../magpie/internal/probelog/probelog.go#L51) |
 | from | function_declaration |  | [53](../../magpie/internal/probelog/probelog.go#L53) |
 | With | function_declaration |  | [64](../../magpie/internal/probelog/probelog.go#L64) |
 | WithModel | function_declaration |  | [72](../../magpie/internal/probelog/probelog.go#L72) |
@@ -40,7 +37,7 @@ Source SHA-256: c740196ee63190dba80d5ed6250737af6c53e0e7f2cdd8fdd050f5d82445d223
 | NoteResult | function_declaration |  | [134](../../magpie/internal/probelog/probelog.go#L134) |
 | split | function_declaration |  | [147](../../magpie/internal/probelog/probelog.go#L147) |
 | Transport | function_declaration |  | [172](../../magpie/internal/probelog/probelog.go#L172) |
-| transport | struct_type |  | [174](../../magpie/internal/probelog/probelog.go#L174) |
+| transport | type_spec |  | [174](../../magpie/internal/probelog/probelog.go#L174) |
 | next | field_declaration | transport | [174](../../magpie/internal/probelog/probelog.go#L174) |
-| RoundTrip | method_declaration | transport | [176](../../magpie/internal/probelog/probelog.go#L176) |
-| Unwrap | method_declaration | transport | [192](../../magpie/internal/probelog/probelog.go#L192) |
+| RoundTrip | method_declaration |  | [176](../../magpie/internal/probelog/probelog.go#L176) |
+| Unwrap | method_declaration |  | [192](../../magpie/internal/probelog/probelog.go#L192) |

@@ -8,76 +8,91 @@ Source SHA-256: c4826649978ca8792dae895e4ef27199d7a549eeb7fb52d852b08a078f33c204
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| gPart | struct_type |  | [21](../../magpie/internal/gateway/gemini.go#L21) |
+| gPart | type_spec |  | [21](../../magpie/internal/gateway/gemini.go#L21) |
 | Text | field_declaration | gPart | [22](../../magpie/internal/gateway/gemini.go#L22) |
 | Thought | field_declaration | gPart | [23](../../magpie/internal/gateway/gemini.go#L23) |
 | Signature | field_declaration | gPart | [24](../../magpie/internal/gateway/gemini.go#L24) |
 | InlineData | field_declaration | gPart | [25](../../magpie/internal/gateway/gemini.go#L25) |
-| MimeType | field_declaration | gPart | [26](../../magpie/internal/gateway/gemini.go#L26) |
-| Data | field_declaration | gPart | [27](../../magpie/internal/gateway/gemini.go#L27) |
+| MimeType | field_declaration | gPart::InlineData | [26](../../magpie/internal/gateway/gemini.go#L26) |
+| Data | field_declaration | gPart::InlineData | [27](../../magpie/internal/gateway/gemini.go#L27) |
 | FileData | field_declaration | gPart | [29](../../magpie/internal/gateway/gemini.go#L29) |
-| MimeType | field_declaration | gPart | [30](../../magpie/internal/gateway/gemini.go#L30) |
-| FileURI | field_declaration | gPart | [31](../../magpie/internal/gateway/gemini.go#L31) |
+| MimeType | field_declaration | gPart::FileData | [30](../../magpie/internal/gateway/gemini.go#L30) |
+| FileURI | field_declaration | gPart::FileData | [31](../../magpie/internal/gateway/gemini.go#L31) |
 | FunctionCall | field_declaration | gPart | [33](../../magpie/internal/gateway/gemini.go#L33) |
-| ID | field_declaration | gPart | [34](../../magpie/internal/gateway/gemini.go#L34) |
-| Name | field_declaration | gPart | [35](../../magpie/internal/gateway/gemini.go#L35) |
-| Args | field_declaration | gPart | [36](../../magpie/internal/gateway/gemini.go#L36) |
+| ID | field_declaration | gPart::FunctionCall | [34](../../magpie/internal/gateway/gemini.go#L34) |
+| Name | field_declaration | gPart::FunctionCall | [35](../../magpie/internal/gateway/gemini.go#L35) |
+| Args | field_declaration | gPart::FunctionCall | [36](../../magpie/internal/gateway/gemini.go#L36) |
 | FunctionResponse | field_declaration | gPart | [38](../../magpie/internal/gateway/gemini.go#L38) |
-| ID | field_declaration | gPart | [39](../../magpie/internal/gateway/gemini.go#L39) |
-| Name | field_declaration | gPart | [40](../../magpie/internal/gateway/gemini.go#L40) |
-| Response | field_declaration | gPart | [41](../../magpie/internal/gateway/gemini.go#L41) |
-| Parts | field_declaration | gPart | [44](../../magpie/internal/gateway/gemini.go#L44) |
-| gContent | struct_type |  | [48](../../magpie/internal/gateway/gemini.go#L48) |
+| ID | field_declaration | gPart::FunctionResponse | [39](../../magpie/internal/gateway/gemini.go#L39) |
+| Name | field_declaration | gPart::FunctionResponse | [40](../../magpie/internal/gateway/gemini.go#L40) |
+| Response | field_declaration | gPart::FunctionResponse | [41](../../magpie/internal/gateway/gemini.go#L41) |
+| Parts | field_declaration | gPart::FunctionResponse | [44](../../magpie/internal/gateway/gemini.go#L44) |
+| gContent | type_spec |  | [48](../../magpie/internal/gateway/gemini.go#L48) |
 | Role | field_declaration | gContent | [49](../../magpie/internal/gateway/gemini.go#L49) |
 | Parts | field_declaration | gContent | [50](../../magpie/internal/gateway/gemini.go#L50) |
-| gRequest | struct_type |  | [53](../../magpie/internal/gateway/gemini.go#L53) |
+| gRequest | type_spec |  | [53](../../magpie/internal/gateway/gemini.go#L53) |
 | Model | field_declaration | gRequest | [54](../../magpie/internal/gateway/gemini.go#L54) |
 | Stream | field_declaration | gRequest | [55](../../magpie/internal/gateway/gemini.go#L55) |
 | Contents | field_declaration | gRequest | [56](../../magpie/internal/gateway/gemini.go#L56) |
 | SystemInstruction | field_declaration | gRequest | [57](../../magpie/internal/gateway/gemini.go#L57) |
 | Tools | field_declaration | gRequest | [58](../../magpie/internal/gateway/gemini.go#L58) |
-| FunctionDeclarations | field_declaration | gRequest | [59](../../magpie/internal/gateway/gemini.go#L59) |
-| Name | field_declaration | gRequest | [60](../../magpie/internal/gateway/gemini.go#L60) |
-| Description | field_declaration | gRequest | [61](../../magpie/internal/gateway/gemini.go#L61) |
-| Parameters | field_declaration | gRequest | [62](../../magpie/internal/gateway/gemini.go#L62) |
-| ParametersJSONSchema | field_declaration | gRequest | [63](../../magpie/internal/gateway/gemini.go#L63) |
-| GoogleSearch | field_declaration | gRequest | [65](../../magpie/internal/gateway/gemini.go#L65) |
-| GoogleSnake | field_declaration | gRequest | [66](../../magpie/internal/gateway/gemini.go#L66) |
+| FunctionDeclarations | field_declaration | gRequest::Tools | [59](../../magpie/internal/gateway/gemini.go#L59) |
+| Name | field_declaration | gRequest::Tools::FunctionDeclarations | [60](../../magpie/internal/gateway/gemini.go#L60) |
+| Description | field_declaration | gRequest::Tools::FunctionDeclarations | [61](../../magpie/internal/gateway/gemini.go#L61) |
+| Parameters | field_declaration | gRequest::Tools::FunctionDeclarations | [62](../../magpie/internal/gateway/gemini.go#L62) |
+| ParametersJSONSchema | field_declaration | gRequest::Tools::FunctionDeclarations | [63](../../magpie/internal/gateway/gemini.go#L63) |
+| GoogleSearch | field_declaration | gRequest::Tools | [65](../../magpie/internal/gateway/gemini.go#L65) |
+| GoogleSnake | field_declaration | gRequest::Tools | [66](../../magpie/internal/gateway/gemini.go#L66) |
 | ToolConfig | field_declaration | gRequest | [68](../../magpie/internal/gateway/gemini.go#L68) |
-| FunctionCallingConfig | field_declaration | gRequest | [69](../../magpie/internal/gateway/gemini.go#L69) |
-| Mode | field_declaration | gRequest | [70](../../magpie/internal/gateway/gemini.go#L70) |
-| AllowedFunctionNames | field_declaration | gRequest | [71](../../magpie/internal/gateway/gemini.go#L71) |
+| FunctionCallingConfig | field_declaration | gRequest::ToolConfig | [69](../../magpie/internal/gateway/gemini.go#L69) |
+| Mode | field_declaration | gRequest::ToolConfig::FunctionCallingConfig | [70](../../magpie/internal/gateway/gemini.go#L70) |
+| AllowedFunctionNames | field_declaration | gRequest::ToolConfig::FunctionCallingConfig | [71](../../magpie/internal/gateway/gemini.go#L71) |
 | GenerationConfig | field_declaration | gRequest | [74](../../magpie/internal/gateway/gemini.go#L74) |
-| MaxOutputTokens | field_declaration | gRequest | [75](../../magpie/internal/gateway/gemini.go#L75) |
-| Temperature | field_declaration | gRequest | [76](../../magpie/internal/gateway/gemini.go#L76) |
-| TopP | field_declaration | gRequest | [77](../../magpie/internal/gateway/gemini.go#L77) |
-| StopSequences | field_declaration | gRequest | [78](../../magpie/internal/gateway/gemini.go#L78) |
-| ResponseMimeType | field_declaration | gRequest | [79](../../magpie/internal/gateway/gemini.go#L79) |
-| ResponseSchema | field_declaration | gRequest | [80](../../magpie/internal/gateway/gemini.go#L80) |
-| ResponseJSONSchema | field_declaration | gRequest | [81](../../magpie/internal/gateway/gemini.go#L81) |
-| ThinkingConfig | field_declaration | gRequest | [82](../../magpie/internal/gateway/gemini.go#L82) |
-| gThinking | struct_type |  | [87](../../magpie/internal/gateway/gemini.go#L87) |
+| MaxOutputTokens | field_declaration | gRequest::GenerationConfig | [75](../../magpie/internal/gateway/gemini.go#L75) |
+| Temperature | field_declaration | gRequest::GenerationConfig | [76](../../magpie/internal/gateway/gemini.go#L76) |
+| TopP | field_declaration | gRequest::GenerationConfig | [77](../../magpie/internal/gateway/gemini.go#L77) |
+| StopSequences | field_declaration | gRequest::GenerationConfig | [78](../../magpie/internal/gateway/gemini.go#L78) |
+| ResponseMimeType | field_declaration | gRequest::GenerationConfig | [79](../../magpie/internal/gateway/gemini.go#L79) |
+| ResponseSchema | field_declaration | gRequest::GenerationConfig | [80](../../magpie/internal/gateway/gemini.go#L80) |
+| ResponseJSONSchema | field_declaration | gRequest::GenerationConfig | [81](../../magpie/internal/gateway/gemini.go#L81) |
+| ThinkingConfig | field_declaration | gRequest::GenerationConfig | [82](../../magpie/internal/gateway/gemini.go#L82) |
+| gThinking | type_spec |  | [87](../../magpie/internal/gateway/gemini.go#L87) |
 | ThinkingBudget | field_declaration | gThinking | [88](../../magpie/internal/gateway/gemini.go#L88) |
 | ThinkingLevel | field_declaration | gThinking | [89](../../magpie/internal/gateway/gemini.go#L89) |
 | IncludeThoughts | field_declaration | gThinking | [90](../../magpie/internal/gateway/gemini.go#L90) |
-| effort | method_declaration | *gThinking | [96](../../magpie/internal/gateway/gemini.go#L96) |
+| effort | method_declaration |  | [96](../../magpie/internal/gateway/gemini.go#L96) |
 | buildGemini | function_declaration |  | [113](../../magpie/internal/gateway/gemini.go#L113) |
 | geminiRequest | function_declaration |  | [125](../../magpie/internal/gateway/gemini.go#L125) |
-| Request | field_declaration | geminiRequest | [127](../../magpie/internal/gateway/gemini.go#L127) |
+| wrap | var_spec | geminiRequest | [126](../../magpie/internal/gateway/gemini.go#L126) |
+| Request | field_declaration | geminiRequest::wrap | [127](../../magpie/internal/gateway/gemini.go#L127) |
 | geminiCamel | function_declaration |  | [149](../../magpie/internal/gateway/gemini.go#L149) |
+| v | var_spec | geminiCamel | [155](../../magpie/internal/gateway/gemini.go#L155) |
 | geminiOwn | var_spec |  | [173](../../magpie/internal/gateway/gemini.go#L173) |
 | camelKeys | function_declaration |  | [176](../../magpie/internal/gateway/gemini.go#L176) |
 | snakeToCamel | function_declaration |  | [205](../../magpie/internal/gateway/gemini.go#L205) |
 | parseGemini | function_declaration |  | [215](../../magpie/internal/gateway/gemini.go#L215) |
+| g | var_spec | parseGemini | [217](../../magpie/internal/gateway/gemini.go#L217) |
+| allowed | var_spec | parseGemini | [327](../../magpie/internal/gateway/gemini.go#L327) |
 | geminiText | function_declaration |  | [375](../../magpie/internal/gateway/gemini.go#L375) |
+| s | var_spec | geminiText | [379](../../magpie/internal/gateway/gemini.go#L379) |
+| c | var_spec | geminiText | [383](../../magpie/internal/gateway/gemini.go#L383) |
+| parts | var_spec | geminiText | [385](../../magpie/internal/gateway/gemini.go#L385) |
+| b | var_spec | geminiText | [391](../../magpie/internal/gateway/gemini.go#L391) |
 | functionResponseParts | function_declaration |  | [409](../../magpie/internal/gateway/gemini.go#L409) |
+| part | var_spec | functionResponseParts | [411](../../magpie/internal/gateway/gemini.go#L411) |
 | functionResponseText | function_declaration |  | [440](../../magpie/internal/gateway/gemini.go#L440) |
+| m | var_spec | functionResponseText | [444](../../magpie/internal/gateway/gemini.go#L444) |
+| s | var_spec | functionResponseText | [447](../../magpie/internal/gateway/gemini.go#L447) |
+| s | var_spec | functionResponseText | [454](../../magpie/internal/gateway/gemini.go#L454) |
+| s | var_spec | functionResponseText | [461](../../magpie/internal/gateway/gemini.go#L461) |
 | firstJSON | function_declaration |  | [468](../../magpie/internal/gateway/gemini.go#L468) |
 | jsonSchema | function_declaration |  | [479](../../magpie/internal/gateway/gemini.go#L479) |
+| v | var_spec | jsonSchema | [483](../../magpie/internal/gateway/gemini.go#L483) |
+| walk | var_spec | jsonSchema | [487](../../magpie/internal/gateway/gemini.go#L487) |
 | stopToGemini | function_declaration |  | [537](../../magpie/internal/gateway/gemini.go#L537) |
-| gemini | method_declaration | Usage | [549](../../magpie/internal/gateway/gemini.go#L549) |
+| gemini | method_declaration |  | [549](../../magpie/internal/gateway/gemini.go#L549) |
 | geminiParts | function_declaration |  | [563](../../magpie/internal/gateway/gemini.go#L563) |
-| geminiEncoder | struct_type |  | [600](../../magpie/internal/gateway/gemini.go#L600) |
+| geminiEncoder | type_spec |  | [600](../../magpie/internal/gateway/gemini.go#L600) |
 | w | field_declaration | geminiEncoder | [601](../../magpie/internal/gateway/gemini.go#L601) |
 | model | field_declaration | geminiEncoder | [602](../../magpie/internal/gateway/gemini.go#L602) |
 | id | field_declaration | geminiEncoder | [603](../../magpie/internal/gateway/gemini.go#L603) |
@@ -85,11 +100,11 @@ Source SHA-256: c4826649978ca8792dae895e4ef27199d7a549eeb7fb52d852b08a078f33c204
 | tool | field_declaration | geminiEncoder | [605](../../magpie/internal/gateway/gemini.go#L605) |
 | args | field_declaration | geminiEncoder | [606](../../magpie/internal/gateway/gemini.go#L606) |
 | col | field_declaration | geminiEncoder | [607](../../magpie/internal/gateway/gemini.go#L607) |
-| chunk | method_declaration | *geminiEncoder | [610](../../magpie/internal/gateway/gemini.go#L610) |
-| keepalive | method_declaration | *geminiEncoder | [631](../../magpie/internal/gateway/gemini.go#L631) |
-| start | method_declaration | *geminiEncoder | [633](../../magpie/internal/gateway/gemini.go#L633) |
-| flushTool | method_declaration | *geminiEncoder | [649](../../magpie/internal/gateway/gemini.go#L649) |
-| event | method_declaration | *geminiEncoder | [659](../../magpie/internal/gateway/gemini.go#L659) |
-| finish | method_declaration | *geminiEncoder | [692](../../magpie/internal/gateway/gemini.go#L692) |
+| chunk | method_declaration |  | [610](../../magpie/internal/gateway/gemini.go#L610) |
+| keepalive | method_declaration |  | [631](../../magpie/internal/gateway/gemini.go#L631) |
+| start | method_declaration |  | [633](../../magpie/internal/gateway/gemini.go#L633) |
+| flushTool | method_declaration |  | [649](../../magpie/internal/gateway/gemini.go#L649) |
+| event | method_declaration |  | [659](../../magpie/internal/gateway/gemini.go#L659) |
+| finish | method_declaration |  | [692](../../magpie/internal/gateway/gemini.go#L692) |
 | renderGemini | function_declaration |  | [702](../../magpie/internal/gateway/gemini.go#L702) |
 | geminiModel | function_declaration |  | [719](../../magpie/internal/gateway/gemini.go#L719) |

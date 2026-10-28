@@ -9,19 +9,25 @@ Source SHA-256: 3be41c46283b8503ca2ddd80003c933a869a8bd88a0070f99a9aab0b150c2d9d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | AlphaSearchPath | const_spec |  | [25](../../magpie/internal/gateway/codex_search.go#L25) |
-| alphaSearchRequest | struct_type |  | [29](../../magpie/internal/gateway/codex_search.go#L29) |
+| alphaSearchRequest | type_spec |  | [29](../../magpie/internal/gateway/codex_search.go#L29) |
 | Model | field_declaration | alphaSearchRequest | [30](../../magpie/internal/gateway/codex_search.go#L30) |
 | Commands | field_declaration | alphaSearchRequest | [31](../../magpie/internal/gateway/codex_search.go#L31) |
-| SearchQuery | field_declaration | alphaSearchRequest | [32](../../magpie/internal/gateway/codex_search.go#L32) |
-| ImageQuery | field_declaration | alphaSearchRequest | [33](../../magpie/internal/gateway/codex_search.go#L33) |
-| alphaQuery | struct_type |  | [37](../../magpie/internal/gateway/codex_search.go#L37) |
+| SearchQuery | field_declaration | alphaSearchRequest::Commands | [32](../../magpie/internal/gateway/codex_search.go#L32) |
+| ImageQuery | field_declaration | alphaSearchRequest::Commands | [33](../../magpie/internal/gateway/codex_search.go#L33) |
+| alphaQuery | type_spec |  | [37](../../magpie/internal/gateway/codex_search.go#L37) |
 | Q | field_declaration | alphaQuery | [38](../../magpie/internal/gateway/codex_search.go#L38) |
 | Domains | field_declaration | alphaQuery | [39](../../magpie/internal/gateway/codex_search.go#L39) |
-| alphaSearchReply | struct_type |  | [44](../../magpie/internal/gateway/codex_search.go#L44) |
+| alphaSearchReply | type_spec |  | [44](../../magpie/internal/gateway/codex_search.go#L44) |
 | EncryptedOutput | field_declaration | alphaSearchReply | [45](../../magpie/internal/gateway/codex_search.go#L45) |
 | Output | field_declaration | alphaSearchReply | [46](../../magpie/internal/gateway/codex_search.go#L46) |
-| alphaSearch | method_declaration | *Server | [55](../../magpie/internal/gateway/codex_search.go#L55) |
-| alphaSearchBody | method_declaration | *Server | [63](../../magpie/internal/gateway/codex_search.go#L63) |
+| alphaSearch | method_declaration |  | [55](../../magpie/internal/gateway/codex_search.go#L55) |
+| alphaSearchBody | method_declaration |  | [63](../../magpie/internal/gateway/codex_search.go#L63) |
+| q | var_spec | alphaSearchBody | [64](../../magpie/internal/gateway/codex_search.go#L64) |
 | chatGPTSearchers | function_declaration |  | [90](../../magpie/internal/gateway/codex_search.go#L90) |
-| alphaSearchOn | method_declaration | *Server | [124](../../magpie/internal/gateway/codex_search.go#L124) |
-| alphaSearchHere | method_declaration | *Server | [195](../../magpie/internal/gateway/codex_search.go#L195) |
+| all | var_spec | chatGPTSearchers | [99](../../magpie/internal/gateway/codex_search.go#L99) |
+| ready | var_spec | chatGPTSearchers | [104](../../magpie/internal/gateway/codex_search.go#L104) |
+| alphaSearchOn | method_declaration |  | [124](../../magpie/internal/gateway/codex_search.go#L124) |
+| errs | var_spec | alphaSearchOn | [132](../../magpie/internal/gateway/codex_search.go#L132) |
+| alphaSearchHere | method_declaration |  | [195](../../magpie/internal/gateway/codex_search.go#L195) |
+| queries | var_spec | alphaSearchHere | [196](../../magpie/internal/gateway/codex_search.go#L196) |
+| said | var_spec | alphaSearchHere | [214](../../magpie/internal/gateway/codex_search.go#L214) |

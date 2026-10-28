@@ -10,9 +10,8 @@ Source SHA-256: 38ecfc6ba6d7e384de97d2215b2df9961f33a3b2574a7896336eb111797596ca
 | --- | --- | --- | ---: |
 | compactLead | const_spec |  | [19](../../magpie/internal/gateway/compacting.go#L19) |
 | compactSystems | var_spec |  | [22](../../magpie/internal/gateway/compacting.go#L22) |
-| compactAsk | struct_type |  | [43](../../magpie/internal/gateway/compacting.go#L43) |
+| compactAsk | type_spec |  | [43](../../magpie/internal/gateway/compacting.go#L43) |
 | ask | field_declaration | compactAsk | [44](../../magpie/internal/gateway/compacting.go#L44) |
-| opens | field_declaration | compactAsk | [44](../../magpie/internal/gateway/compacting.go#L44) |
 | compactAsks | var_spec |  | [48](../../magpie/internal/gateway/compacting.go#L48) |
 | leads | function_declaration |  | [60](../../magpie/internal/gateway/compacting.go#L60) |
 | compacting | function_declaration |  | [66](../../magpie/internal/gateway/compacting.go#L66) |

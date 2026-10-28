@@ -12,13 +12,12 @@ Source SHA-256: 5d4ed6fedab663d0586271a591776f2e849fa9a4bdea5fdd3972e7cb41d12dba
 | AionUiLink | function_declaration |  | [38](../../magpie/internal/agent/aionui.go#L38) |
 | aionuiDir | function_declaration |  | [50](../../magpie/internal/agent/aionui.go#L50) |
 | aionuiHas | function_declaration |  | [63](../../magpie/internal/agent/aionui.go#L63) |
-| aionuiStatus | struct_type |  | [85](../../magpie/internal/agent/aionui.go#L85) |
+| n | var_spec | aionuiHas | [74](../../magpie/internal/agent/aionui.go#L74) |
+| aionuiStatus | type_spec |  | [85](../../magpie/internal/agent/aionui.go#L85) |
 | mu | field_declaration | aionuiStatus | [86](../../magpie/internal/agent/aionui.go#L86) |
 | gw | field_declaration | aionuiStatus | [87](../../magpie/internal/agent/aionui.go#L87) |
 | db | field_declaration | aionuiStatus | [88](../../magpie/internal/agent/aionui.go#L88) |
-| wal | field_declaration | aionuiStatus | [88](../../magpie/internal/agent/aionui.go#L88) |
 | at | field_declaration | aionuiStatus | [89](../../magpie/internal/agent/aionui.go#L89) |
 | has | field_declaration | aionuiStatus | [90](../../magpie/internal/agent/aionui.go#L90) |
-| known | field_declaration | aionuiStatus | [90](../../magpie/internal/agent/aionui.go#L90) |
-| read | method_declaration | *aionuiStatus | [93](../../magpie/internal/agent/aionui.go#L93) |
+| read | method_declaration |  | [93](../../magpie/internal/agent/aionui.go#L93) |
 | aionui | function_declaration |  | [106](../../magpie/internal/agent/aionui.go#L106) |

@@ -9,7 +9,7 @@ Source SHA-256: 1a6cf0da57596d49237af33a1c50792b3745d774cabbbfa621b4a3991bff083d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | routeWaitMax | const_spec |  | [21](../../magpie/internal/gateway/session_route.go#L21) |
-| SessionRoute | struct_type |  | [24](../../magpie/internal/gateway/session_route.go#L24) |
+| SessionRoute | type_spec |  | [24](../../magpie/internal/gateway/session_route.go#L24) |
 | ID | field_declaration | SessionRoute | [25](../../magpie/internal/gateway/session_route.go#L25) |
 | Time | field_declaration | SessionRoute | [26](../../magpie/internal/gateway/session_route.go#L26) |
 | Kind | field_declaration | SessionRoute | [27](../../magpie/internal/gateway/session_route.go#L27) |
@@ -30,7 +30,7 @@ Source SHA-256: 1a6cf0da57596d49237af33a1c50792b3745d774cabbbfa621b4a3991bff083d
 | Error | field_declaration | SessionRoute | [46](../../magpie/internal/gateway/session_route.go#L46) |
 | Millis | field_declaration | SessionRoute | [47](../../magpie/internal/gateway/session_route.go#L47) |
 | TTFT | field_declaration | SessionRoute | [48](../../magpie/internal/gateway/session_route.go#L48) |
-| RouteTry | struct_type |  | [53](../../magpie/internal/gateway/session_route.go#L53) |
+| RouteTry | type_spec |  | [53](../../magpie/internal/gateway/session_route.go#L53) |
 | Model | field_declaration | RouteTry | [54](../../magpie/internal/gateway/session_route.go#L54) |
 | Effort | field_declaration | RouteTry | [55](../../magpie/internal/gateway/session_route.go#L55) |
 | Tier | field_declaration | RouteTry | [58](../../magpie/internal/gateway/session_route.go#L58) |
@@ -40,5 +40,7 @@ Source SHA-256: 1a6cf0da57596d49237af33a1c50792b3745d774cabbbfa621b4a3991bff083d
 | Fail | field_declaration | RouteTry | [62](../../magpie/internal/gateway/session_route.go#L62) |
 | Millis | field_declaration | RouteTry | [63](../../magpie/internal/gateway/session_route.go#L63) |
 | sessionRouteOf | function_declaration |  | [66](../../magpie/internal/gateway/session_route.go#L66) |
-| sessionRoute | method_declaration | *Server | [105](../../magpie/internal/gateway/session_route.go#L105) |
-| sessionLatest | method_declaration | *trace | [140](../../magpie/internal/gateway/session_route.go#L140) |
+| sessionRoute | method_declaration |  | [105](../../magpie/internal/gateway/session_route.go#L105) |
+| sessionLatest | method_declaration |  | [140](../../magpie/internal/gateway/session_route.go#L140) |
+| seq | var_spec | sessionLatest | [145](../../magpie/internal/gateway/session_route.go#L145) |
+| found | var_spec | sessionLatest | [146](../../magpie/internal/gateway/session_route.go#L146) |

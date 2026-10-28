@@ -8,7 +8,7 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| groupsJSON | struct_type |  | [19](../../magpie/internal/gui/groups.go#L19) |
+| groupsJSON | type_spec |  | [19](../../magpie/internal/gui/groups.go#L19) |
 | Groups | field_declaration | groupsJSON | [20](../../magpie/internal/gui/groups.go#L20) |
 | Models | field_declaration | groupsJSON | [21](../../magpie/internal/gui/groups.go#L21) |
 | Pools | field_declaration | groupsJSON | [22](../../magpie/internal/gui/groups.go#L22) |
@@ -19,7 +19,7 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 | Clock | field_declaration | groupsJSON | [38](../../magpie/internal/gui/groups.go#L38) |
 | Shared | field_declaration | groupsJSON | [41](../../magpie/internal/gui/groups.go#L41) |
 | Imported | field_declaration | groupsJSON | [44](../../magpie/internal/gui/groups.go#L44) |
-| groupJSON | struct_type |  | [47](../../magpie/internal/gui/groups.go#L47) |
+| groupJSON | type_spec |  | [47](../../magpie/internal/gui/groups.go#L47) |
 | Ready | field_declaration | groupJSON | [49](../../magpie/internal/gui/groups.go#L49) |
 | Info | field_declaration | groupJSON | [50](../../magpie/internal/gui/groups.go#L50) |
 | Holds | field_declaration | groupJSON | [53](../../magpie/internal/gui/groups.go#L53) |
@@ -30,11 +30,11 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 | Decides | field_declaration | groupJSON | [65](../../magpie/internal/gui/groups.go#L65) |
 | Ref | field_declaration | groupJSON | [68](../../magpie/internal/gui/groups.go#L68) |
 | ClassifierFailed | field_declaration | groupJSON | [72](../../magpie/internal/gui/groups.go#L72) |
-| classifierFailedJSON | struct_type |  | [75](../../magpie/internal/gui/groups.go#L75) |
+| classifierFailedJSON | type_spec |  | [75](../../magpie/internal/gui/groups.go#L75) |
 | Error | field_declaration | classifierFailedJSON | [76](../../magpie/internal/gui/groups.go#L76) |
 | At | field_declaration | classifierFailedJSON | [77](../../magpie/internal/gui/groups.go#L77) |
 | classifierFailure | var_spec |  | [81](../../magpie/internal/gui/groups.go#L81) |
-| memberJSON | struct_type |  | [83](../../magpie/internal/gui/groups.go#L83) |
+| memberJSON | type_spec |  | [83](../../magpie/internal/gui/groups.go#L83) |
 | ID | field_declaration | memberJSON | [84](../../magpie/internal/gui/groups.go#L84) |
 | Ready | field_declaration | memberJSON | [85](../../magpie/internal/gui/groups.go#L85) |
 | Provider | field_declaration | memberJSON | [86](../../magpie/internal/gui/groups.go#L86) |
@@ -53,7 +53,7 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 | Context | field_declaration | memberJSON | [112](../../magpie/internal/gui/groups.go#L112) |
 | Images | field_declaration | memberJSON | [113](../../magpie/internal/gui/groups.go#L113) |
 | ImagesUnknown | field_declaration | memberJSON | [120](../../magpie/internal/gui/groups.go#L120) |
-| modelRef | struct_type |  | [123](../../magpie/internal/gui/groups.go#L123) |
+| modelRef | type_spec |  | [123](../../magpie/internal/gui/groups.go#L123) |
 | ID | field_declaration | modelRef | [124](../../magpie/internal/gui/groups.go#L124) |
 | Name | field_declaration | modelRef | [125](../../magpie/internal/gui/groups.go#L125) |
 | Provider | field_declaration | modelRef | [126](../../magpie/internal/gui/groups.go#L126) |
@@ -68,7 +68,7 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 | Sub | field_declaration | modelRef | [148](../../magpie/internal/gui/groups.go#L148) |
 | VendorPicks | field_declaration | modelRef | [152](../../magpie/internal/gui/groups.go#L152) |
 | servedRef | function_declaration |  | [156](../../magpie/internal/gui/groups.go#L156) |
-| poolJSON | struct_type |  | [160](../../magpie/internal/gui/groups.go#L160) |
+| poolJSON | type_spec |  | [160](../../magpie/internal/gui/groups.go#L160) |
 | Provider | field_declaration | poolJSON | [161](../../magpie/internal/gui/groups.go#L161) |
 | Name | field_declaration | poolJSON | [162](../../magpie/internal/gui/groups.go#L162) |
 | Icon | field_declaration | poolJSON | [163](../../magpie/internal/gui/groups.go#L163) |
@@ -82,14 +82,21 @@ Source SHA-256: 1f620762c34c4e7e423b327d68bb0eac4b89c57d0ffc589bb45df79f56b45c92
 | imagesUnknown | function_declaration |  | [182](../../magpie/internal/gui/groups.go#L182) |
 | onOf | function_declaration |  | [186](../../magpie/internal/gui/groups.go#L186) |
 | keyPools | function_declaration |  | [207](../../magpie/internal/gui/groups.go#L207) |
-| clockJSON | struct_type |  | [231](../../magpie/internal/gui/groups.go#L231) |
+| out | var_spec | keyPools | [208](../../magpie/internal/gui/groups.go#L208) |
+| clockJSON | type_spec |  | [231](../../magpie/internal/gui/groups.go#L231) |
 | Zone | field_declaration | clockJSON | [232](../../magpie/internal/gui/groups.go#L232) |
 | Offset | field_declaration | clockJSON | [233](../../magpie/internal/gui/groups.go#L233) |
 | groupsState | function_declaration |  | [236](../../magpie/internal/gui/groups.go#L236) |
 | groupRoutes | function_declaration |  | [374](../../magpie/internal/gui/groups.go#L374) |
-| From | field_declaration | groupRoutes | [381](../../magpie/internal/gui/groups.go#L381) |
-| On | field_declaration | groupRoutes | [382](../../magpie/internal/gui/groups.go#L382) |
-| Order | field_declaration | groupRoutes | [385](../../magpie/internal/gui/groups.go#L385) |
-| IDs | field_declaration | groupRoutes | [387](../../magpie/internal/gui/groups.go#L387) |
-| Kind | field_declaration | groupRoutes | [390](../../magpie/internal/gui/groups.go#L390) |
-| Text | field_declaration | groupRoutes | [392](../../magpie/internal/gui/groups.go#L392) |
+| body | var_spec | groupRoutes | [379](../../magpie/internal/gui/groups.go#L379) |
+| From | field_declaration | groupRoutes::body | [381](../../magpie/internal/gui/groups.go#L381) |
+| On | field_declaration | groupRoutes::body | [382](../../magpie/internal/gui/groups.go#L382) |
+| Order | field_declaration | groupRoutes::body | [385](../../magpie/internal/gui/groups.go#L385) |
+| IDs | field_declaration | groupRoutes::body | [387](../../magpie/internal/gui/groups.go#L387) |
+| Kind | field_declaration | groupRoutes::body | [390](../../magpie/internal/gui/groups.go#L390) |
+| Text | field_declaration | groupRoutes::body | [392](../../magpie/internal/gui/groups.go#L392) |
+| err | var_spec | groupRoutes | [399](../../magpie/internal/gui/groups.go#L399) |
+| moved | var_spec | groupRoutes | [400](../../magpie/internal/gui/groups.go#L400) |
+| shared | var_spec | groupRoutes | [401](../../magpie/internal/gui/groups.go#L401) |
+| imported | var_spec | groupRoutes | [402](../../magpie/internal/gui/groups.go#L402) |
+| res | var_spec | groupRoutes | [438](../../magpie/internal/gui/groups.go#L438) |

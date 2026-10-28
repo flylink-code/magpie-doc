@@ -11,7 +11,10 @@ Source SHA-256: af2042e25bfebcf975842e12b04dec88216151db617910794a7631424df2f9a3
 | grokEfforts | var_spec |  | [31](../../magpie/internal/agent/grok.go#L31) |
 | grokModelTable | var_spec |  | [34](../../magpie/internal/agent/grok.go#L34) |
 | grokModelTables | function_declaration |  | [38](../../magpie/internal/agent/grok.go#L38) |
+| out | var_spec | grokModelTables | [39](../../magpie/internal/agent/grok.go#L39) |
+| efforts | var_spec | grokModelTables | [51](../../magpie/internal/agent/grok.go#L51) |
 | grok | function_declaration |  | [65](../../magpie/internal/agent/grok.go#L65) |
 | grokIn | function_declaration |  | [70](../../magpie/internal/agent/grok.go#L70) |
 | grokOwnOptions | function_declaration |  | [246](../../magpie/internal/agent/grok.go#L246) |
+| out | var_spec | grokOwnOptions | [248](../../magpie/internal/agent/grok.go#L248) |
 | noticeGrok | var_spec |  | [298](../../magpie/internal/agent/grok.go#L298) |

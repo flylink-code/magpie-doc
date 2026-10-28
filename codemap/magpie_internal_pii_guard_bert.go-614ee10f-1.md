@@ -13,46 +13,50 @@ Source SHA-256: c82c3bf4ff14e377105919687949a1f4ffa31401aa9adbd9641b5675b4d83a0e
 | inter | const_spec |  | [22](../../magpie/internal/pii/guard/bert.go#L22) |
 | layers | const_spec |  | [23](../../magpie/internal/pii/guard/bert.go#L23) |
 | maxPos | const_spec |  | [24](../../magpie/internal/pii/guard/bert.go#L24) |
-| qmat | struct_type |  | [29](../../magpie/internal/pii/guard/bert.go#L29) |
+| qmat | type_spec |  | [29](../../magpie/internal/pii/guard/bert.go#L29) |
 | k | field_declaration | qmat | [30](../../magpie/internal/pii/guard/bert.go#L30) |
-| n | field_declaration | qmat | [30](../../magpie/internal/pii/guard/bert.go#L30) |
 | w | field_declaration | qmat | [31](../../magpie/internal/pii/guard/bert.go#L31) |
 | scale | field_declaration | qmat | [32](../../magpie/internal/pii/guard/bert.go#L32) |
 | zp | field_declaration | qmat | [33](../../magpie/internal/pii/guard/bert.go#L33) |
 | sum | field_declaration | qmat | [34](../../magpie/internal/pii/guard/bert.go#L34) |
-| layer | struct_type |  | [37](../../magpie/internal/pii/guard/bert.go#L37) |
+| layer | type_spec |  | [37](../../magpie/internal/pii/guard/bert.go#L37) |
 | qkv | field_declaration | layer | [38](../../magpie/internal/pii/guard/bert.go#L38) |
 | qkvBias | field_declaration | layer | [39](../../magpie/internal/pii/guard/bert.go#L39) |
 | attnOut | field_declaration | layer | [40](../../magpie/internal/pii/guard/bert.go#L40) |
 | attnBias | field_declaration | layer | [41](../../magpie/internal/pii/guard/bert.go#L41) |
 | ln1w | field_declaration | layer | [42](../../magpie/internal/pii/guard/bert.go#L42) |
-| ln1b | field_declaration | layer | [42](../../magpie/internal/pii/guard/bert.go#L42) |
 | up | field_declaration | layer | [43](../../magpie/internal/pii/guard/bert.go#L43) |
 | upBias | field_declaration | layer | [44](../../magpie/internal/pii/guard/bert.go#L44) |
 | smooth | field_declaration | layer | [45](../../magpie/internal/pii/guard/bert.go#L45) |
 | down | field_declaration | layer | [46](../../magpie/internal/pii/guard/bert.go#L46) |
 | downBias | field_declaration | layer | [47](../../magpie/internal/pii/guard/bert.go#L47) |
 | ln2w | field_declaration | layer | [48](../../magpie/internal/pii/guard/bert.go#L48) |
-| ln2b | field_declaration | layer | [48](../../magpie/internal/pii/guard/bert.go#L48) |
-| net | struct_type |  | [51](../../magpie/internal/pii/guard/bert.go#L51) |
+| net | type_spec |  | [51](../../magpie/internal/pii/guard/bert.go#L51) |
 | word | field_declaration | net | [56](../../magpie/internal/pii/guard/bert.go#L56) |
 | wordScale | field_declaration | net | [57](../../magpie/internal/pii/guard/bert.go#L57) |
 | wordZP | field_declaration | net | [58](../../magpie/internal/pii/guard/bert.go#L58) |
 | pos | field_declaration | net | [59](../../magpie/internal/pii/guard/bert.go#L59) |
-| typ | field_declaration | net | [59](../../magpie/internal/pii/guard/bert.go#L59) |
 | posIDs | field_declaration | net | [60](../../magpie/internal/pii/guard/bert.go#L60) |
 | embLNw | field_declaration | net | [61](../../magpie/internal/pii/guard/bert.go#L61) |
-| embLNb | field_declaration | net | [61](../../magpie/internal/pii/guard/bert.go#L61) |
 | layers | field_declaration | net | [62](../../magpie/internal/pii/guard/bert.go#L62) |
 | cls | field_declaration | net | [63](../../magpie/internal/pii/guard/bert.go#L63) |
 | clsBias | field_declaration | net | [64](../../magpie/internal/pii/guard/bert.go#L64) |
 | labels | field_declaration | net | [65](../../magpie/internal/pii/guard/bert.go#L65) |
 | loadNet | function_declaration |  | [68](../../magpie/internal/pii/guard/bert.go#L68) |
+| missing | var_spec | loadNet | [73](../../magpie/internal/pii/guard/bert.go#L73) |
 | quant | function_declaration |  | [190](../../magpie/internal/pii/guard/bert.go#L190) |
-| matmul | method_declaration | *qmat | [213](../../magpie/internal/pii/guard/bert.go#L213) |
+| matmul | method_declaration |  | [213](../../magpie/internal/pii/guard/bert.go#L213) |
+| sum | var_spec | matmul | [218](../../magpie/internal/pii/guard/bert.go#L218) |
+| acc | var_spec | matmul | [228](../../magpie/internal/pii/guard/bert.go#L228) |
 | threads | var_spec |  | [254](../../magpie/internal/pii/guard/bert.go#L254) |
 | parallel | function_declaration |  | [257](../../magpie/internal/pii/guard/bert.go#L257) |
+| wg | var_spec | parallel | [263](../../magpie/internal/pii/guard/bert.go#L263) |
 | layerNorm | function_declaration |  | [276](../../magpie/internal/pii/guard/bert.go#L276) |
-| logits | method_declaration | *net | [299](../../magpie/internal/pii/guard/bert.go#L299) |
+| mean | var_spec | layerNorm | [279](../../magpie/internal/pii/guard/bert.go#L279) |
+| vr | var_spec | layerNorm | [284](../../magpie/internal/pii/guard/bert.go#L284) |
+| logits | method_declaration |  | [299](../../magpie/internal/pii/guard/bert.go#L299) |
 | skipNorm | function_declaration |  | [347](../../magpie/internal/pii/guard/bert.go#L347) |
 | attention | function_declaration |  | [360](../../magpie/internal/pii/guard/bert.go#L360) |
+| d | const_spec | attention | [361](../../magpie/internal/pii/guard/bert.go#L361) |
+| qs | var_spec | attention | [384](../../magpie/internal/pii/guard/bert.go#L384) |
+| sum | var_spec | attention | [396](../../magpie/internal/pii/guard/bert.go#L396) |

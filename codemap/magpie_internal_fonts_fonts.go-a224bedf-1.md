@@ -8,13 +8,13 @@ Source SHA-256: 940516217cb125222afe29be4ef5411ce1cb0e0440cc345b2b3b8393237addf7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Face | struct_type |  | [16](../../magpie/internal/fonts/fonts.go#L16) |
+| Face | type_spec |  | [16](../../magpie/internal/fonts/fonts.go#L16) |
 | Family | field_declaration | Face | [17](../../magpie/internal/fonts/fonts.go#L17) |
 | Name | field_declaration | Face | [18](../../magpie/internal/fonts/fonts.go#L18) |
 | Weight | field_declaration | Face | [19](../../magpie/internal/fonts/fonts.go#L19) |
 | Style | field_declaration | Face | [20](../../magpie/internal/fonts/fonts.go#L20) |
 | Stretch | field_declaration | Face | [21](../../magpie/internal/fonts/fonts.go#L21) |
-| Family | struct_type |  | [24](../../magpie/internal/fonts/fonts.go#L24) |
+| Family | type_spec |  | [24](../../magpie/internal/fonts/fonts.go#L24) |
 | Name | field_declaration | Family | [25](../../magpie/internal/fonts/fonts.go#L25) |
 | Styles | field_declaration | Family | [26](../../magpie/internal/fonts/fonts.go#L26) |
 | Validate | function_declaration |  | [31](../../magpie/internal/fonts/fonts.go#L31) |

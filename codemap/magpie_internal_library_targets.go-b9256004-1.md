@@ -8,10 +8,9 @@ Source SHA-256: 8c1db7e74c30af5710108ad21c361f803ed5588bdcb430b72b9ce73bdd218a27
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Target | struct_type |  | [23](../../magpie/internal/library/targets.go#L23) |
+| Target | type_spec |  | [23](../../magpie/internal/library/targets.go#L23) |
 | Agent | field_declaration | Target | [24](../../magpie/internal/library/targets.go#L24) |
 | Instructions | field_declaration | Target | [28](../../magpie/internal/library/targets.go#L28) |
-| Override | field_declaration | Target | [28](../../magpie/internal/library/targets.go#L28) |
 | MCP | field_declaration | Target | [29](../../magpie/internal/library/targets.go#L29) |
 | Skills | field_declaration | Target | [30](../../magpie/internal/library/targets.go#L30) |
 | SkillsAlso | field_declaration | Target | [33](../../magpie/internal/library/targets.go#L33) |
@@ -34,6 +33,7 @@ Source SHA-256: 8c1db7e74c30af5710108ad21c361f803ed5588bdcb430b72b9ce73bdd218a27
 | reasonixState | function_declaration |  | [522](../../magpie/internal/library/targets.go#L522) |
 | pluginMCP | var_spec |  | [542](../../magpie/internal/library/targets.go#L542) |
 | pluginTarget | function_declaration |  | [555](../../magpie/internal/library/targets.go#L555) |
+| l | var_spec | pluginTarget | [557](../../magpie/internal/library/targets.go#L557) |
 | wslTargetOf | function_declaration |  | [589](../../magpie/internal/library/targets.go#L589) |
 | ownFolder | var_spec |  | [633](../../magpie/internal/library/targets.go#L633) |
 | wslOwnFolder | function_declaration |  | [641](../../magpie/internal/library/targets.go#L641) |
@@ -41,11 +41,17 @@ Source SHA-256: 8c1db7e74c30af5710108ad21c361f803ed5588bdcb430b72b9ce73bdd218a27
 | Targets | function_declaration |  | [683](../../magpie/internal/library/targets.go#L683) |
 | everyTarget | function_declaration |  | [688](../../magpie/internal/library/targets.go#L688) |
 | targets | function_declaration |  | [690](../../magpie/internal/library/targets.go#L690) |
-| held | method_declaration | *Library | [736](../../magpie/internal/library/targets.go#L736) |
+| out | var_spec | targets | [691](../../magpie/internal/library/targets.go#L691) |
+| held | method_declaration |  | [736](../../magpie/internal/library/targets.go#L736) |
+| out | var_spec | held | [749](../../magpie/internal/library/targets.go#L749) |
 | readsShared | var_spec |  | [765](../../magpie/internal/library/targets.go#L765) |
 | readsWith | function_declaration |  | [772](../../magpie/internal/library/targets.go#L772) |
-| open | method_declaration | *Target | [796](../../magpie/internal/library/targets.go#L796) |
+| open | method_declaration |  | [796](../../magpie/internal/library/targets.go#L796) |
 | targetByID | function_declaration |  | [809](../../magpie/internal/library/targets.go#L809) |
 | Takes | function_declaration |  | [822](../../magpie/internal/library/targets.go#L822) |
+| a | var_spec | Takes | [823](../../magpie/internal/library/targets.go#L823) |
+| err | var_spec | Takes | [830](../../magpie/internal/library/targets.go#L830) |
+| has | var_spec | Takes | [842](../../magpie/internal/library/targets.go#L842) |
 | noPlace | function_declaration |  | [864](../../magpie/internal/library/targets.go#L864) |
 | takenBy | function_declaration |  | [884](../../magpie/internal/library/targets.go#L884) |
+| ids | var_spec | takenBy | [885](../../magpie/internal/library/targets.go#L885) |

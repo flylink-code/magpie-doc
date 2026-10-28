@@ -13,4 +13,6 @@ Source SHA-256: c05e60f3aaaac02ca3da13a18d05a366687e514f64352753915416b3dc187409
 | empryo | function_declaration |  | [33](../../magpie/internal/agent/empryo.go#L33) |
 | empryoIn | function_declaration |  | [36](../../magpie/internal/agent/empryo.go#L36) |
 | empryoAt | function_declaration |  | [40](../../magpie/internal/agent/empryo.go#L40) |
+| list | var_spec | empryoAt | [74](../../magpie/internal/agent/empryo.go#L74) |
+| own | var_spec | empryoAt | [168](../../magpie/internal/agent/empryo.go#L168) |
 | noticeEmpryo | var_spec |  | [181](../../magpie/internal/agent/empryo.go#L181) |

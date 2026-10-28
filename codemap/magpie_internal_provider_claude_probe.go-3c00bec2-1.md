@@ -12,5 +12,5 @@ Source SHA-256: e38e7361581e245e4bd6645bc83477f2f06c299700ef05fd070f5bf62012976c
 | claudeCLIProbe | var_spec |  | [23](../../magpie/internal/provider/claude_probe.go#L23) |
 | ProbeClaudeVia | function_declaration |  | [26](../../magpie/internal/provider/claude_probe.go#L26) |
 | claudeWait | const_spec |  | [30](../../magpie/internal/provider/claude_probe.go#L30) |
-| testClaude | method_declaration | Provider | [33](../../magpie/internal/provider/claude_probe.go#L33) |
-| isClaudeAccount | method_declaration | Provider | [71](../../magpie/internal/provider/claude_probe.go#L71) |
+| testClaude | method_declaration |  | [33](../../magpie/internal/provider/claude_probe.go#L33) |
+| isClaudeAccount | method_declaration |  | [71](../../magpie/internal/provider/claude_probe.go#L71) |

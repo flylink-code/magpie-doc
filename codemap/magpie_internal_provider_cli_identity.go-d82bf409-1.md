@@ -8,7 +8,7 @@ Source SHA-256: e2c7bec140e176a39101821bffc648182aa9cdd8697b5f788dfed473a2c545c0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cliIdentity | struct_type |  | [27](../../magpie/internal/provider/cli_identity.go#L27) |
+| cliIdentity | type_spec |  | [27](../../magpie/internal/provider/cli_identity.go#L27) |
 | name | field_declaration | cliIdentity | [29](../../magpie/internal/provider/cli_identity.go#L29) |
 | exe | field_declaration | cliIdentity | [30](../../magpie/internal/provider/cli_identity.go#L30) |
 | ask | field_declaration | cliIdentity | [31](../../magpie/internal/provider/cli_identity.go#L31) |
@@ -22,9 +22,8 @@ Source SHA-256: e2c7bec140e176a39101821bffc648182aa9cdd8697b5f788dfed473a2c545c0
 | retry | field_declaration | cliIdentity | [43](../../magpie/internal/provider/cli_identity.go#L43) |
 | read | field_declaration | cliIdentity | [44](../../magpie/internal/provider/cli_identity.go#L44) |
 | user | field_declaration | cliIdentity | [45](../../magpie/internal/provider/cli_identity.go#L45) |
-| plan | field_declaration | cliIdentity | [45](../../magpie/internal/provider/cli_identity.go#L45) |
 | ok | field_declaration | cliIdentity | [46](../../magpie/internal/provider/cli_identity.go#L46) |
-| keptIdentity | struct_type |  | [49](../../magpie/internal/provider/cli_identity.go#L49) |
+| keptIdentity | type_spec |  | [49](../../magpie/internal/provider/cli_identity.go#L49) |
 | User | field_declaration | keptIdentity | [50](../../magpie/internal/provider/cli_identity.go#L50) |
 | Plan | field_declaration | keptIdentity | [51](../../magpie/internal/provider/cli_identity.go#L51) |
 | OK | field_declaration | keptIdentity | [52](../../magpie/internal/provider/cli_identity.go#L52) |
@@ -34,12 +33,13 @@ Source SHA-256: e2c7bec140e176a39101821bffc648182aa9cdd8697b5f788dfed473a2c545c0
 | keepsIdentities | function_declaration |  | [72](../../magpie/internal/provider/cli_identity.go#L72) |
 | identityPath | function_declaration |  | [74](../../magpie/internal/provider/cli_identity.go#L74) |
 | readIdentities | function_declaration |  | [76](../../magpie/internal/provider/cli_identity.go#L76) |
-| keep | method_declaration | *cliIdentity | [84](../../magpie/internal/provider/cli_identity.go#L84) |
-| get | method_declaration | *cliIdentity | [103](../../magpie/internal/provider/cli_identity.go#L103) |
-| unchanged | method_declaration | *cliIdentity | [147](../../magpie/internal/provider/cli_identity.go#L147) |
+| keep | method_declaration |  | [84](../../magpie/internal/provider/cli_identity.go#L84) |
+| get | method_declaration |  | [103](../../magpie/internal/provider/cli_identity.go#L103) |
+| unchanged | method_declaration |  | [147](../../magpie/internal/provider/cli_identity.go#L147) |
 | unchangedAsk | const_spec |  | [155](../../magpie/internal/provider/cli_identity.go#L155) |
 | firstAsk | var_spec |  | [158](../../magpie/internal/provider/cli_identity.go#L158) |
 | slowAsk | var_spec |  | [161](../../magpie/internal/provider/cli_identity.go#L161) |
 | slowestAsk | const_spec |  | [165](../../magpie/internal/provider/cli_identity.go#L165) |
-| refresh | method_declaration | *cliIdentity | [169](../../magpie/internal/provider/cli_identity.go#L169) |
-| forget | method_declaration | *cliIdentity | [212](../../magpie/internal/provider/cli_identity.go#L212) |
+| refresh | method_declaration |  | [169](../../magpie/internal/provider/cli_identity.go#L169) |
+| m | var_spec | refresh | [178](../../magpie/internal/provider/cli_identity.go#L178) |
+| forget | method_declaration |  | [212](../../magpie/internal/provider/cli_identity.go#L212) |

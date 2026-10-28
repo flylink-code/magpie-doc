@@ -8,10 +8,12 @@ Source SHA-256: 8148124e3df08560f1b8c47a1264e35b48885db6313f4e56bc95c00821f4f659
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| seat | struct_type |  | [25](../../magpie/internal/provider/account_seats.go#L25) |
+| seat | type_spec |  | [25](../../magpie/internal/provider/account_seats.go#L25) |
 | Provider | field_declaration | seat | [26](../../magpie/internal/provider/account_seats.go#L26) |
 | User | field_declaration | seat | [27](../../magpie/internal/provider/account_seats.go#L27) |
 | seatMemo | var_spec |  | [30](../../magpie/internal/provider/account_seats.go#L30) |
+| path | field_declaration | seatMemo | [32](../../magpie/internal/provider/account_seats.go#L32) |
+| m | field_declaration | seatMemo | [33](../../magpie/internal/provider/account_seats.go#L33) |
 | seatsPath | function_declaration |  | [36](../../magpie/internal/provider/account_seats.go#L36) |
 | planSeatKey | function_declaration |  | [39](../../magpie/internal/provider/account_seats.go#L39) |
 | seatsLocked | function_declaration |  | [43](../../magpie/internal/provider/account_seats.go#L43) |
@@ -22,3 +24,4 @@ Source SHA-256: 8148124e3df08560f1b8c47a1264e35b48885db6313f4e56bc95c00821f4f659
 | seatCards | function_declaration |  | [109](../../magpie/internal/provider/account_seats.go#L109) |
 | notShown | function_declaration |  | [156](../../magpie/internal/provider/account_seats.go#L156) |
 | SeatNameOf | function_declaration |  | [164](../../magpie/internal/provider/account_seats.go#L164) |
+| plans | var_spec | SeatNameOf | [167](../../magpie/internal/provider/account_seats.go#L167) |

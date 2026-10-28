@@ -14,19 +14,25 @@ Source SHA-256: 2db3d70a8d2de94b28da1a479fd60e8c22c7c2318b5267c718d18aa6afe7b703
 | unphased | function_declaration |  | [34](../../magpie/internal/gateway/phase.go#L34) |
 | anyUnphased | function_declaration |  | [48](../../magpie/internal/gateway/phase.go#L48) |
 | phaseOutput | function_declaration |  | [70](../../magpie/internal/gateway/phase.go#L70) |
-| phaseTidy | struct_type |  | [101](../../magpie/internal/gateway/phase.go#L101) |
+| phaseTidy | type_spec |  | [101](../../magpie/internal/gateway/phase.go#L101) |
 | sse | field_declaration | phaseTidy | [102](../../magpie/internal/gateway/phase.go#L102) |
 | buf | field_declaration | phaseTidy | [103](../../magpie/internal/gateway/phase.go#L103) |
 | held | field_declaration | phaseTidy | [104](../../magpie/internal/gateway/phase.go#L104) |
-| write | method_declaration | *phaseTidy | [107](../../magpie/internal/gateway/phase.go#L107) |
+| write | method_declaration |  | [107](../../magpie/internal/gateway/phase.go#L107) |
 | tidyEvents | function_declaration |  | [121](../../magpie/internal/gateway/phase.go#L121) |
-| flush | method_declaration | *phaseTidy | [137](../../magpie/internal/gateway/phase.go#L137) |
+| flush | method_declaration |  | [137](../../magpie/internal/gateway/phase.go#L137) |
 | eventData | function_declaration |  | [155](../../magpie/internal/gateway/phase.go#L155) |
+| data | var_spec | eventData | [156](../../magpie/internal/gateway/phase.go#L156) |
+| line | var_spec | eventData | [159](../../magpie/internal/gateway/phase.go#L159) |
 | withData | function_declaration |  | [183](../../magpie/internal/gateway/phase.go#L183) |
-| event | method_declaration | *phaseTidy | [200](../../magpie/internal/gateway/phase.go#L200) |
-| hold | method_declaration | *phaseTidy | [232](../../magpie/internal/gateway/phase.go#L232) |
-| release | method_declaration | *phaseTidy | [242](../../magpie/internal/gateway/phase.go#L242) |
-| ended | method_declaration | *phaseTidy | [258](../../magpie/internal/gateway/phase.go#L258) |
+| out | var_spec | withData | [184](../../magpie/internal/gateway/phase.go#L184) |
+| event | method_declaration |  | [200](../../magpie/internal/gateway/phase.go#L200) |
+| hold | method_declaration |  | [232](../../magpie/internal/gateway/phase.go#L232) |
+| release | method_declaration |  | [242](../../magpie/internal/gateway/phase.go#L242) |
+| ended | method_declaration |  | [258](../../magpie/internal/gateway/phase.go#L258) |
+| e | var_spec | ended | [262](../../magpie/internal/gateway/phase.go#L262) |
 | phasedEvent | function_declaration |  | [279](../../magpie/internal/gateway/phase.go#L279) |
+| e | var_spec | phasedEvent | [280](../../magpie/internal/gateway/phase.go#L280) |
 | phaseWhole | function_declaration |  | [294](../../magpie/internal/gateway/phase.go#L294) |
+| res | var_spec | phaseWhole | [295](../../magpie/internal/gateway/phase.go#L295) |
 | decodeNumbers | function_declaration |  | [307](../../magpie/internal/gateway/phase.go#L307) |

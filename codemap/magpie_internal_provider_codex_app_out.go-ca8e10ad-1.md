@@ -11,9 +11,14 @@ Source SHA-256: ebff76c114eb57aa246ce366ad9eaa4030837932fd5b0de9ed48a961d15e6664
 | codexLiveChecks | var_spec |  | [25](../../magpie/internal/provider/codex_app_out.go#L25) |
 | codexRecheckEvery | var_spec |  | [28](../../magpie/internal/provider/codex_app_out.go#L28) |
 | codexRecheck | var_spec |  | [30](../../magpie/internal/provider/codex_app_out.go#L30) |
+| at | field_declaration | codexRecheck | [32](../../magpie/internal/provider/codex_app_out.go#L32) |
 | codexReadNow | var_spec |  | [36](../../magpie/internal/provider/codex_app_out.go#L36) |
 | CodexMayBeUsedUp | function_declaration |  | [48](../../magpie/internal/provider/codex_app_out.go#L48) |
 | codexAppOut | var_spec |  | [74](../../magpie/internal/provider/codex_app_out.go#L74) |
+| user | field_declaration | codexAppOut | [76](../../magpie/internal/provider/codex_app_out.go#L76) |
+| pid | field_declaration | codexAppOut | [77](../../magpie/internal/provider/codex_app_out.go#L77) |
+| tried | field_declaration | codexAppOut | [78](../../magpie/internal/provider/codex_app_out.go#L78) |
+| checked | field_declaration | codexAppOut | [79](../../magpie/internal/provider/codex_app_out.go#L79) |
 | noteCodexAppOut | function_declaration |  | [84](../../magpie/internal/provider/codex_app_out.go#L84) |
 | CodexAppOut | function_declaration |  | [114](../../magpie/internal/provider/codex_app_out.go#L114) |
 | CodexAppReopenOnce | function_declaration |  | [140](../../magpie/internal/provider/codex_app_out.go#L140) |

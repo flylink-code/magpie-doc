@@ -9,7 +9,13 @@ Source SHA-256: 732b03e800cc5c6c5577d2d49a3b4fb746eede621562dea51217c2ffffeafa28
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | held | var_spec |  | [22](../../magpie/internal/provider/hold.go#L22) |
-| rootStamp | struct_type |  | [38](../../magpie/internal/provider/hold.go#L38) |
+| holds | field_declaration | held | [24](../../magpie/internal/provider/hold.go#L24) |
+| gen | field_declaration | held | [25](../../magpie/internal/provider/hold.go#L25) |
+| built | field_declaration | held | [27](../../magpie/internal/provider/hold.go#L27) |
+| env | field_declaration | held | [29](../../magpie/internal/provider/hold.go#L29) |
+| fgen | field_declaration | held | [32](../../magpie/internal/provider/hold.go#L32) |
+| roots | field_declaration | held | [34](../../magpie/internal/provider/hold.go#L34) |
+| rootStamp | type_spec |  | [38](../../magpie/internal/provider/hold.go#L38) |
 | mod | field_declaration | rootStamp | [39](../../magpie/internal/provider/hold.go#L39) |
 | size | field_declaration | rootStamp | [40](../../magpie/internal/provider/hold.go#L40) |
 | ok | field_declaration | rootStamp | [41](../../magpie/internal/provider/hold.go#L41) |
@@ -17,7 +23,8 @@ Source SHA-256: 732b03e800cc5c6c5577d2d49a3b4fb746eede621562dea51217c2ffffeafa28
 | heldFreshLocked | function_declaration |  | [56](../../magpie/internal/provider/hold.go#L56) |
 | environSeed | var_spec |  | [72](../../magpie/internal/provider/hold.go#L72) |
 | environSum | function_declaration |  | [76](../../magpie/internal/provider/hold.go#L76) |
-| heldValue | struct_type |  | [86](../../magpie/internal/provider/hold.go#L86) |
+| h | var_spec | environSum | [77](../../magpie/internal/provider/hold.go#L77) |
+| heldValue | type_spec |  | [86](../../magpie/internal/provider/hold.go#L86) |
 | v | field_declaration | heldValue | [87](../../magpie/internal/provider/hold.go#L87) |
 | at | field_declaration | heldValue | [88](../../magpie/internal/provider/hold.go#L88) |
 | init | function_declaration |  | [91](../../magpie/internal/provider/hold.go#L91) |
@@ -25,10 +32,8 @@ Source SHA-256: 732b03e800cc5c6c5577d2d49a3b4fb746eede621562dea51217c2ffffeafa28
 | Hold | function_declaration |  | [113](../../magpie/internal/provider/hold.go#L113) |
 | Changed | function_declaration |  | [145](../../magpie/internal/provider/hold.go#L145) |
 | dropHeld | function_declaration |  | [152](../../magpie/internal/provider/hold.go#L152) |
-| Stamp | struct_type |  | [168](../../magpie/internal/provider/hold.go#L168) |
+| Stamp | type_spec |  | [168](../../magpie/internal/provider/hold.go#L168) |
 | gen | field_declaration | Stamp | [169](../../magpie/internal/provider/hold.go#L169) |
-| fgen | field_declaration | Stamp | [169](../../magpie/internal/provider/hold.go#L169) |
-| env | field_declaration | Stamp | [169](../../magpie/internal/provider/hold.go#L169) |
 | roots | field_declaration | Stamp | [170](../../magpie/internal/provider/hold.go#L170) |
 | StampNow | function_declaration |  | [174](../../magpie/internal/provider/hold.go#L174) |
 | heldOf | function_declaration |  | [183](../../magpie/internal/provider/hold.go#L183) |
@@ -36,14 +41,18 @@ Source SHA-256: 732b03e800cc5c6c5577d2d49a3b4fb746eede621562dea51217c2ffffeafa28
 | entriesBuilt | var_spec |  | [220](../../magpie/internal/provider/hold.go#L220) |
 | keptFor | var_spec |  | [225](../../magpie/internal/provider/hold.go#L225) |
 | kept | var_spec |  | [235](../../magpie/internal/provider/hold.go#L235) |
+| stamp | field_declaration | kept | [237](../../magpie/internal/provider/hold.go#L237) |
+| at | field_declaration | kept | [238](../../magpie/internal/provider/hold.go#L238) |
+| of | field_declaration | kept | [239](../../magpie/internal/provider/hold.go#L239) |
 | keptOf | function_declaration |  | [244](../../magpie/internal/provider/hold.go#L244) |
 | keptFit | function_declaration |  | [250](../../magpie/internal/provider/hold.go#L250) |
 | holdingNow | function_declaration |  | [279](../../magpie/internal/provider/hold.go#L279) |
 | heldPlugins | function_declaration |  | [287](../../magpie/internal/provider/hold.go#L287) |
-| fromEntries | struct_type |  | [293](../../magpie/internal/provider/hold.go#L293) |
+| fromEntries | type_spec |  | [293](../../magpie/internal/provider/hold.go#L293) |
 | at | field_declaration | fromEntries | [294](../../magpie/internal/provider/hold.go#L294) |
 | n | field_declaration | fromEntries | [295](../../magpie/internal/provider/hold.go#L295) |
 | v | field_declaration | fromEntries | [296](../../magpie/internal/provider/hold.go#L296) |
 | heldFrom | function_declaration |  | [305](../../magpie/internal/provider/hold.go#L305) |
+| at | var_spec | heldFrom | [306](../../magpie/internal/provider/hold.go#L306) |
 | heldSettings | function_declaration |  | [343](../../magpie/internal/provider/hold.go#L343) |
 | HeldSettings | function_declaration |  | [347](../../magpie/internal/provider/hold.go#L347) |

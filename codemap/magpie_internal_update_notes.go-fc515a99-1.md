@@ -8,7 +8,7 @@ Source SHA-256: 6beda370e9cb40a5e6fd6e216541436a8b065ab1d3203de5affcf1f107afbad9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Note | struct_type |  | [20](../../magpie/internal/update/notes.go#L20) |
+| Note | type_spec |  | [20](../../magpie/internal/update/notes.go#L20) |
 | Version | field_declaration | Note | [21](../../magpie/internal/update/notes.go#L21) |
 | Notes | field_declaration | Note | [22](../../magpie/internal/update/notes.go#L22) |
 | URL | field_declaration | Note | [23](../../magpie/internal/update/notes.go#L23) |
@@ -19,7 +19,8 @@ Source SHA-256: 6beda370e9cb40a5e6fd6e216541436a8b065ab1d3203de5affcf1f107afbad9
 | BackCounts | var_spec |  | [61](../../magpie/internal/update/notes.go#L61) |
 | NotesBack | function_declaration |  | [66](../../magpie/internal/update/notes.go#L66) |
 | askNotes | function_declaration |  | [75](../../magpie/internal/update/notes.go#L75) |
-| Releases | field_declaration | askNotes | [92](../../magpie/internal/update/notes.go#L92) |
+| out | var_spec | askNotes | [91](../../magpie/internal/update/notes.go#L91) |
+| Releases | field_declaration | askNotes::out | [92](../../magpie/internal/update/notes.go#L92) |
 | zhMarker | const_spec |  | [105](../../magpie/internal/update/notes.go#L105) |
 | InLang | function_declaration |  | [111](../../magpie/internal/update/notes.go#L111) |
 | withLang | function_declaration |  | [125](../../magpie/internal/update/notes.go#L125) |
@@ -29,8 +30,11 @@ Source SHA-256: 6beda370e9cb40a5e6fd6e216541436a8b065ab1d3203de5affcf1f107afbad9
 | Stable | function_declaration |  | [163](../../magpie/internal/update/notes.go#L163) |
 | withChannel | function_declaration |  | [167](../../magpie/internal/update/notes.go#L167) |
 | Between | function_declaration |  | [184](../../magpie/internal/update/notes.go#L184) |
+| out | var_spec | Between | [185](../../magpie/internal/update/notes.go#L185) |
 | Back | function_declaration |  | [217](../../magpie/internal/update/notes.go#L217) |
+| keep | var_spec | Back | [218](../../magpie/internal/update/notes.go#L218) |
 | heading | var_spec |  | [242](../../magpie/internal/update/notes.go#L242) |
 | installHeadings | var_spec |  | [247](../../magpie/internal/update/notes.go#L247) |
 | StripInstall | function_declaration |  | [253](../../magpie/internal/update/notes.go#L253) |
+| out | var_spec | StripInstall | [254](../../magpie/internal/update/notes.go#L254) |
 | ShowNotes | function_declaration |  | [280](../../magpie/internal/update/notes.go#L280) |

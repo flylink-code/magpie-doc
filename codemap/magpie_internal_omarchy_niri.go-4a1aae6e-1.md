@@ -9,37 +9,40 @@ Source SHA-256: 2df179f62bc4d63eec34871dc11f0935630a77e6ce54d1c95fc373aec97cab65
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Niri | function_declaration |  | [19](../../magpie/internal/omarchy/niri.go#L19) |
-| NiriPanel | struct_type |  | [29](../../magpie/internal/omarchy/niri.go#L29) |
+| NiriPanel | type_spec |  | [29](../../magpie/internal/omarchy/niri.go#L29) |
 | mu | field_declaration | NiriPanel | [30](../../magpie/internal/omarchy/niri.go#L30) |
 | iconX | field_declaration | NiriPanel | [31](../../magpie/internal/omarchy/niri.go#L31) |
 | known | field_declaration | NiriPanel | [32](../../magpie/internal/omarchy/niri.go#L32) |
-| Opening | method_declaration | *NiriPanel | [38](../../magpie/internal/omarchy/niri.go#L38) |
-| take | method_declaration | *NiriPanel | [48](../../magpie/internal/omarchy/niri.go#L48) |
-| Watch | method_declaration | *NiriPanel | [58](../../magpie/internal/omarchy/niri.go#L58) |
-| niriWindow | struct_type |  | [69](../../magpie/internal/omarchy/niri.go#L69) |
+| Opening | method_declaration |  | [38](../../magpie/internal/omarchy/niri.go#L38) |
+| take | method_declaration |  | [48](../../magpie/internal/omarchy/niri.go#L48) |
+| Watch | method_declaration |  | [58](../../magpie/internal/omarchy/niri.go#L58) |
+| niriWindow | type_spec |  | [69](../../magpie/internal/omarchy/niri.go#L69) |
 | ID | field_declaration | niriWindow | [70](../../magpie/internal/omarchy/niri.go#L70) |
 | Title | field_declaration | niriWindow | [71](../../magpie/internal/omarchy/niri.go#L71) |
 | PID | field_declaration | niriWindow | [72](../../magpie/internal/omarchy/niri.go#L72) |
 | IsFloating | field_declaration | niriWindow | [73](../../magpie/internal/omarchy/niri.go#L73) |
 | Layout | field_declaration | niriWindow | [74](../../magpie/internal/omarchy/niri.go#L74) |
-| TileSize | field_declaration | niriWindow | [75](../../magpie/internal/omarchy/niri.go#L75) |
+| TileSize | field_declaration | niriWindow::Layout | [75](../../magpie/internal/omarchy/niri.go#L75) |
 | watchWindows | function_declaration |  | [83](../../magpie/internal/omarchy/niri.go#L83) |
-| WindowsChanged | field_declaration | watchWindows | [104](../../magpie/internal/omarchy/niri.go#L104) |
-| Windows | field_declaration | watchWindows | [105](../../magpie/internal/omarchy/niri.go#L105) |
-| WindowOpenedOrChanged | field_declaration | watchWindows | [107](../../magpie/internal/omarchy/niri.go#L107) |
-| Window | field_declaration | watchWindows | [108](../../magpie/internal/omarchy/niri.go#L108) |
-| WindowClosed | field_declaration | watchWindows | [110](../../magpie/internal/omarchy/niri.go#L110) |
-| ID | field_declaration | watchWindows | [111](../../magpie/internal/omarchy/niri.go#L111) |
-| place | method_declaration | *NiriPanel | [142](../../magpie/internal/omarchy/niri.go#L142) |
-| FocusedOutput | field_declaration | *NiriPanel.place | [145](../../magpie/internal/omarchy/niri.go#L145) |
-| Logical | field_declaration | *NiriPanel.place | [146](../../magpie/internal/omarchy/niri.go#L146) |
-| Width | field_declaration | *NiriPanel.place | [147](../../magpie/internal/omarchy/niri.go#L147) |
+| ev | var_spec | watchWindows | [103](../../magpie/internal/omarchy/niri.go#L103) |
+| WindowsChanged | field_declaration | watchWindows::ev | [104](../../magpie/internal/omarchy/niri.go#L104) |
+| Windows | field_declaration | watchWindows::ev::WindowsChanged | [105](../../magpie/internal/omarchy/niri.go#L105) |
+| WindowOpenedOrChanged | field_declaration | watchWindows::ev | [107](../../magpie/internal/omarchy/niri.go#L107) |
+| Window | field_declaration | watchWindows::ev::WindowOpenedOrChanged | [108](../../magpie/internal/omarchy/niri.go#L108) |
+| WindowClosed | field_declaration | watchWindows::ev | [110](../../magpie/internal/omarchy/niri.go#L110) |
+| ID | field_declaration | watchWindows::ev::WindowClosed | [111](../../magpie/internal/omarchy/niri.go#L111) |
+| place | method_declaration |  | [142](../../magpie/internal/omarchy/niri.go#L142) |
+| out | var_spec | place | [144](../../magpie/internal/omarchy/niri.go#L144) |
+| FocusedOutput | field_declaration | place::out | [145](../../magpie/internal/omarchy/niri.go#L145) |
+| Logical | field_declaration | place::out::FocusedOutput | [146](../../magpie/internal/omarchy/niri.go#L146) |
+| Width | field_declaration | place::out::FocusedOutput::Logical | [147](../../magpie/internal/omarchy/niri.go#L147) |
 | panelSpot | function_declaration |  | [168](../../magpie/internal/omarchy/niri.go#L168) |
 | moveTo | function_declaration |  | [178](../../magpie/internal/omarchy/niri.go#L178) |
 | niriAction | function_declaration |  | [186](../../magpie/internal/omarchy/niri.go#L186) |
 | niriDial | function_declaration |  | [190](../../magpie/internal/omarchy/niri.go#L190) |
 | niriRequest | function_declaration |  | [200](../../magpie/internal/omarchy/niri.go#L200) |
 | niriReply | function_declaration |  | [223](../../magpie/internal/omarchy/niri.go#L223) |
-| Ok | field_declaration | niriReply | [225](../../magpie/internal/omarchy/niri.go#L225) |
-| Err | field_declaration | niriReply | [226](../../magpie/internal/omarchy/niri.go#L226) |
+| r | var_spec | niriReply | [224](../../magpie/internal/omarchy/niri.go#L224) |
+| Ok | field_declaration | niriReply::r | [225](../../magpie/internal/omarchy/niri.go#L225) |
+| Err | field_declaration | niriReply::r | [226](../../magpie/internal/omarchy/niri.go#L226) |
 | cmpErr | function_declaration |  | [243](../../magpie/internal/omarchy/niri.go#L243) |

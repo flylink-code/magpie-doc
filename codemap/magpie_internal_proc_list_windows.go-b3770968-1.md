@@ -9,4 +9,6 @@ Source SHA-256: 66a016933f156475c4819b7172624dec280ee47017a54c97d892bdb906d97f34
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | list | function_declaration |  | [18](../../magpie/internal/proc/list_windows.go#L18) |
+| ps | var_spec | list | [25](../../magpie/internal/proc/list_windows.go#L25) |
 | commandLine | function_declaration |  | [45](../../magpie/internal/proc/list_windows.go#L45) |
+| n | var_spec | commandLine | [53](../../magpie/internal/proc/list_windows.go#L53) |

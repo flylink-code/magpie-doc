@@ -8,8 +8,48 @@ Source SHA-256: 24e14068128fb6cb5a810403d7aad9c487f251eb3e6370e59fe96cd0b6e9aa2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| usage | method_declaration |  | [1357](../../magpie/internal/gateway/anthropic.go#L1357) |
+| anthropic | method_declaration |  | [1370](../../magpie/internal/gateway/anthropic.go#L1370) |
+| stopFromAnthropic | function_declaration |  | [1378](../../magpie/internal/gateway/anthropic.go#L1378) |
+| stopToAnthropic | function_declaration |  | [1397](../../magpie/internal/gateway/anthropic.go#L1397) |
+| anthropicEncoder | type_spec |  | [1410](../../magpie/internal/gateway/anthropic.go#L1410) |
+| id | field_declaration | anthropicEncoder | [1411](../../magpie/internal/gateway/anthropic.go#L1411) |
+| w | field_declaration | anthropicEncoder | [1412](../../magpie/internal/gateway/anthropic.go#L1412) |
+| model | field_declaration | anthropicEncoder | [1413](../../magpie/internal/gateway/anthropic.go#L1413) |
+| index | field_declaration | anthropicEncoder | [1414](../../magpie/internal/gateway/anthropic.go#L1414) |
+| open | field_declaration | anthropicEncoder | [1415](../../magpie/internal/gateway/anthropic.go#L1415) |
+| args | field_declaration | anthropicEncoder | [1416](../../magpie/internal/gateway/anthropic.go#L1416) |
+| fresh | field_declaration | anthropicEncoder | [1419](../../magpie/internal/gateway/anthropic.go#L1419) |
+| started | field_declaration | anthropicEncoder | [1420](../../magpie/internal/gateway/anthropic.go#L1420) |
+| col | field_declaration | anthropicEncoder | [1421](../../magpie/internal/gateway/anthropic.go#L1421) |
+| cite | field_declaration | anthropicEncoder | [1425](../../magpie/internal/gateway/anthropic.go#L1425) |
+| cited | field_declaration | anthropicEncoder | [1426](../../magpie/internal/gateway/anthropic.go#L1426) |
+| anthropicID | function_declaration |  | [1432](../../magpie/internal/gateway/anthropic.go#L1432) |
+| anthropicIDMark | const_spec |  | [1452](../../magpie/internal/gateway/anthropic.go#L1452) |
+| anthropicOutID | function_declaration |  | [1454](../../magpie/internal/gateway/anthropic.go#L1454) |
+| anthropicInID | function_declaration |  | [1461](../../magpie/internal/gateway/anthropic.go#L1461) |
+| safeCallID | function_declaration |  | [1467](../../magpie/internal/gateway/anthropic.go#L1467) |
+| rawCallID | function_declaration |  | [1476](../../magpie/internal/gateway/anthropic.go#L1476) |
+| safeIDChars | var_spec |  | [1487](../../magpie/internal/gateway/anthropic.go#L1487) |
+| start | method_declaration |  | [1489](../../magpie/internal/gateway/anthropic.go#L1489) |
+| close | method_declaration |  | [1505](../../magpie/internal/gateway/anthropic.go#L1505) |
+| openBlock | method_declaration |  | [1518](../../magpie/internal/gateway/anthropic.go#L1518) |
+| thinking | method_declaration |  | [1531](../../magpie/internal/gateway/anthropic.go#L1531) |
+| delta | method_declaration |  | [1539](../../magpie/internal/gateway/anthropic.go#L1539) |
+| sayCited | method_declaration |  | [1548](../../magpie/internal/gateway/anthropic.go#L1548) |
+| event | method_declaration |  | [1568](../../magpie/internal/gateway/anthropic.go#L1568) |
+| keepalive | method_declaration |  | [1663](../../magpie/internal/gateway/anthropic.go#L1663) |
+| finish | method_declaration |  | [1667](../../magpie/internal/gateway/anthropic.go#L1667) |
+| renderAnthropic | function_declaration |  | [1688](../../magpie/internal/gateway/anthropic.go#L1688) |
+| cite | var_spec | renderAnthropic | [1690](../../magpie/internal/gateway/anthropic.go#L1690) |
+| citedBlocks | function_declaration |  | [1743](../../magpie/internal/gateway/anthropic.go#L1743) |
+| blocks | var_spec | citedBlocks | [1744](../../magpie/internal/gateway/anthropic.go#L1744) |
+| open | var_spec | citedBlocks | [1745](../../magpie/internal/gateway/anthropic.go#L1745) |
+| searchResultBlock | function_declaration |  | [1769](../../magpie/internal/gateway/anthropic.go#L1769) |
+| age | var_spec | searchResultBlock | [1774](../../magpie/internal/gateway/anthropic.go#L1774) |
 | idSeq | var_spec |  | [1787](../../magpie/internal/gateway/anthropic.go#L1787) |
 | idClock | var_spec |  | [1791](../../magpie/internal/gateway/anthropic.go#L1791) |
 | newID | function_declaration |  | [1793](../../magpie/internal/gateway/anthropic.go#L1793) |
 | objectSchema | function_declaration |  | [1803](../../magpie/internal/gateway/anthropic.go#L1803) |
+| m | var_spec | objectSchema | [1807](../../magpie/internal/gateway/anthropic.go#L1807) |
 | stopDetails | function_declaration |  | [1819](../../magpie/internal/gateway/anthropic.go#L1819) |

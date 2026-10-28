@@ -10,10 +10,11 @@ Source SHA-256: 5810f71ea115f777af361ce39bd5eee9cff99718ef90e3a62c361b582d16fa41
 | --- | --- | --- | ---: |
 | KindImage | const_spec |  | [24](../../magpie/internal/provider/modelkind.go#L24) |
 | KindVideo | const_spec |  | [25](../../magpie/internal/provider/modelkind.go#L25) |
-| MarksKinds | method_declaration | Provider | [32](../../magpie/internal/provider/modelkind.go#L32) |
-| ModelKind | method_declaration | Provider | [39](../../magpie/internal/provider/modelkind.go#L39) |
+| MarksKinds | method_declaration |  | [32](../../magpie/internal/provider/modelkind.go#L32) |
+| ModelKind | method_declaration |  | [39](../../magpie/internal/provider/modelkind.go#L39) |
 | modelKindIn | function_declaration |  | [46](../../magpie/internal/provider/modelkind.go#L46) |
-| KindModels | method_declaration | Provider | [57](../../magpie/internal/provider/modelkind.go#L57) |
-| hasKindable | method_declaration | Provider | [78](../../magpie/internal/provider/modelkind.go#L78) |
+| KindModels | method_declaration |  | [57](../../magpie/internal/provider/modelkind.go#L57) |
+| out | var_spec | KindModels | [61](../../magpie/internal/provider/modelkind.go#L61) |
+| hasKindable | method_declaration |  | [78](../../magpie/internal/provider/modelkind.go#L78) |
 | SetModelKind | function_declaration |  | [88](../../magpie/internal/provider/modelkind.go#L88) |
 | setModelKind | function_declaration |  | [93](../../magpie/internal/provider/modelkind.go#L93) |

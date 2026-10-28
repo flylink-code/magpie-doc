@@ -10,16 +10,16 @@ Source SHA-256: d0c529c6a1871be4ce02326e91852649b5279290a0d3d5c53ed366b481743fd1
 | --- | --- | --- | ---: |
 | importFingerprint | function_declaration |  | [16](../../magpie/internal/gui/importapps.go#L16) |
 | Source | field_declaration | importFingerprint | [20](../../magpie/internal/gui/importapps.go#L20) |
-| Ref | field_declaration | importFingerprint | [20](../../magpie/internal/gui/importapps.go#L20) |
 | Provider | field_declaration | importFingerprint | [21](../../magpie/internal/gui/importapps.go#L21) |
 | importAppsRoutes | function_declaration |  | [27](../../magpie/internal/gui/importapps.go#L27) |
-| candidate | struct_type | importAppsRoutes | [31](../../magpie/internal/gui/importapps.go#L31) |
-| Fingerprint | field_declaration | importAppsRoutes.candidate | [32](../../magpie/internal/gui/importapps.go#L32) |
-| Source | field_declaration | importAppsRoutes.candidate | [33](../../magpie/internal/gui/importapps.go#L33) |
-| item | struct_type | importAppsRoutes | [49](../../magpie/internal/gui/importapps.go#L49) |
-| Fingerprint | field_declaration | importAppsRoutes.item | [51](../../magpie/internal/gui/importapps.go#L51) |
-| source | struct_type | importAppsRoutes | [53](../../magpie/internal/gui/importapps.go#L53) |
-| Items | field_declaration | importAppsRoutes.source | [55](../../magpie/internal/gui/importapps.go#L55) |
-| Picks | field_declaration | importAppsRoutes | [71](../../magpie/internal/gui/importapps.go#L71) |
+| candidate | type_spec | importAppsRoutes | [31](../../magpie/internal/gui/importapps.go#L31) |
+| Fingerprint | field_declaration | importAppsRoutes::candidate | [32](../../magpie/internal/gui/importapps.go#L32) |
+| Source | field_declaration | importAppsRoutes::candidate | [33](../../magpie/internal/gui/importapps.go#L33) |
+| item | type_spec | importAppsRoutes | [49](../../magpie/internal/gui/importapps.go#L49) |
+| Fingerprint | field_declaration | importAppsRoutes::item | [51](../../magpie/internal/gui/importapps.go#L51) |
+| source | type_spec | importAppsRoutes | [53](../../magpie/internal/gui/importapps.go#L53) |
+| Items | field_declaration | importAppsRoutes::source | [55](../../magpie/internal/gui/importapps.go#L55) |
+| in | var_spec | importAppsRoutes | [71](../../magpie/internal/gui/importapps.go#L71) |
+| Picks | field_declaration | importAppsRoutes::in | [71](../../magpie/internal/gui/importapps.go#L71) |
 | Added | field_declaration | importAppsRoutes | [82](../../magpie/internal/gui/importapps.go#L82) |
 | State | field_declaration | importAppsRoutes | [83](../../magpie/internal/gui/importapps.go#L83) |

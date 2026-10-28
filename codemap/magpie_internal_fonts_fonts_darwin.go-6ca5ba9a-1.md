@@ -10,3 +10,4 @@ Source SHA-256: 09ab9f393b4606224417045465927255b2fcd331930402757dc48d7856a42990
 | --- | --- | --- | ---: |
 | Available | const_spec |  | [18](../../magpie/internal/fonts/fonts_darwin.go#L18) |
 | installed | function_declaration |  | [20](../../magpie/internal/fonts/fonts_darwin.go#L20) |
+| faces | var_spec | installed | [26](../../magpie/internal/fonts/fonts_darwin.go#L26) |

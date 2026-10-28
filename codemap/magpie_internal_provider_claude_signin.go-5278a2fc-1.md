@@ -8,7 +8,7 @@ Source SHA-256: 72f3443af98eb32cabe940f7dd0296b738e166ebf0e9ba0adedd6bc79e2c4e84
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeCLISignIn | struct_type |  | [34](../../magpie/internal/provider/claude_signin.go#L34) |
+| claudeCLISignIn | type_spec |  | [34](../../magpie/internal/provider/claude_signin.go#L34) |
 | mu | field_declaration | claudeCLISignIn | [35](../../magpie/internal/provider/claude_signin.go#L35) |
 | in | field_declaration | claudeCLISignIn | [36](../../magpie/internal/provider/claude_signin.go#L36) |
 | port | field_declaration | claudeCLISignIn | [37](../../magpie/internal/provider/claude_signin.go#L37) |
@@ -16,29 +16,35 @@ Source SHA-256: 72f3443af98eb32cabe940f7dd0296b738e166ebf0e9ba0adedd6bc79e2c4e84
 | claudeURLOpener | var_spec |  | [46](../../magpie/internal/provider/claude_signin.go#L46) |
 | TookOpenedURL | function_declaration |  | [54](../../magpie/internal/provider/claude_signin.go#L54) |
 | claudeSignInEnv | function_declaration |  | [65](../../magpie/internal/provider/claude_signin.go#L65) |
-| claudeCLI | struct_type |  | [80](../../magpie/internal/provider/claude_signin.go#L80) |
+| claudeCLI | type_spec |  | [80](../../magpie/internal/provider/claude_signin.go#L80) |
 | path | field_declaration | claudeCLI | [81](../../magpie/internal/provider/claude_signin.go#L81) |
 | wsl | field_declaration | claudeCLI | [82](../../magpie/internal/provider/claude_signin.go#L82) |
 | findClaudeCLI | function_declaration |  | [85](../../magpie/internal/provider/claude_signin.go#L85) |
 | ClaudeInWSL | function_declaration |  | [98](../../magpie/internal/provider/claude_signin.go#L98) |
 | lookingInWSL | var_spec |  | [114](../../magpie/internal/provider/claude_signin.go#L114) |
-| command | method_declaration | claudeCLI | [116](../../magpie/internal/provider/claude_signin.go#L116) |
-| probe | method_declaration | claudeCLI | [123](../../magpie/internal/provider/claude_signin.go#L123) |
-| env | method_declaration | claudeCLI | [132](../../magpie/internal/provider/claude_signin.go#L132) |
-| proxied | method_declaration | claudeCLI | [143](../../magpie/internal/provider/claude_signin.go#L143) |
+| command | method_declaration |  | [116](../../magpie/internal/provider/claude_signin.go#L116) |
+| probe | method_declaration |  | [123](../../magpie/internal/provider/claude_signin.go#L123) |
+| env | method_declaration |  | [132](../../magpie/internal/provider/claude_signin.go#L132) |
+| proxied | method_declaration |  | [143](../../magpie/internal/provider/claude_signin.go#L143) |
 | startClaudeSignIn | function_declaration |  | [151](../../magpie/internal/provider/claude_signin.go#L151) |
+| said | var_spec | startClaudeSignIn | [205](../../magpie/internal/provider/claude_signin.go#L205) |
+| tail | var_spec | startClaudeSignIn | [210](../../magpie/internal/provider/claude_signin.go#L210) |
+| using | var_spec | startClaudeSignIn | [235](../../magpie/internal/provider/claude_signin.go#L235) |
+| link | var_spec | startClaudeSignIn | [249](../../magpie/internal/provider/claude_signin.go#L249) |
 | claudeLogins | var_spec |  | [289](../../magpie/internal/provider/claude_signin.go#L289) |
-| lastSaid | struct_type |  | [293](../../magpie/internal/provider/claude_signin.go#L293) |
+| lastSaid | type_spec |  | [293](../../magpie/internal/provider/claude_signin.go#L293) |
 | mu | field_declaration | lastSaid | [294](../../magpie/internal/provider/claude_signin.go#L294) |
 | line | field_declaration | lastSaid | [295](../../magpie/internal/provider/claude_signin.go#L295) |
-| set | method_declaration | *lastSaid | [298](../../magpie/internal/provider/claude_signin.go#L298) |
-| get | method_declaration | *lastSaid | [300](../../magpie/internal/provider/claude_signin.go#L300) |
+| set | method_declaration |  | [298](../../magpie/internal/provider/claude_signin.go#L298) |
+| get | method_declaration |  | [300](../../magpie/internal/provider/claude_signin.go#L300) |
 | claudeNoLink | function_declaration |  | [307](../../magpie/internal/provider/claude_signin.go#L307) |
 | claudeCallbackPort | function_declaration |  | [319](../../magpie/internal/provider/claude_signin.go#L319) |
 | isLoopback | function_declaration |  | [331](../../magpie/internal/provider/claude_signin.go#L331) |
 | claudeSignedIn | function_declaration |  | [342](../../magpie/internal/provider/claude_signin.go#L342) |
-| Email | field_declaration | claudeSignedIn | [358](../../magpie/internal/provider/claude_signin.go#L358) |
-| OrgName | field_declaration | claudeSignedIn | [359](../../magpie/internal/provider/claude_signin.go#L359) |
-| SubscriptionType | field_declaration | claudeSignedIn | [360](../../magpie/internal/provider/claude_signin.go#L360) |
-| OAuthAccount | field_declaration | claudeSignedIn | [366](../../magpie/internal/provider/claude_signin.go#L366) |
-| claudePaste | method_declaration | *signInFlow | [388](../../magpie/internal/provider/claude_signin.go#L388) |
+| status | var_spec | claudeSignedIn | [357](../../magpie/internal/provider/claude_signin.go#L357) |
+| Email | field_declaration | claudeSignedIn::status | [358](../../magpie/internal/provider/claude_signin.go#L358) |
+| OrgName | field_declaration | claudeSignedIn::status | [359](../../magpie/internal/provider/claude_signin.go#L359) |
+| SubscriptionType | field_declaration | claudeSignedIn::status | [360](../../magpie/internal/provider/claude_signin.go#L360) |
+| profile | var_spec | claudeSignedIn | [365](../../magpie/internal/provider/claude_signin.go#L365) |
+| OAuthAccount | field_declaration | claudeSignedIn::profile | [366](../../magpie/internal/provider/claude_signin.go#L366) |
+| claudePaste | method_declaration |  | [388](../../magpie/internal/provider/claude_signin.go#L388) |

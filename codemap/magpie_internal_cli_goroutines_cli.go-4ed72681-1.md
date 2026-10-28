@@ -12,6 +12,9 @@ Source SHA-256: a92d2d50c69ab442a631c299f8799d238b6f5a57d84d847c4e1c098a77395768
 | goroutinesWait | const_spec |  | [38](../../magpie/internal/cli/goroutines_cli.go#L38) |
 | goroutinesCmd | function_declaration |  | [41](../../magpie/internal/cli/goroutines_cli.go#L41) |
 | fetchGoroutines | function_declaration |  | [89](../../magpie/internal/cli/goroutines_cli.go#L89) |
-| Error | field_declaration | fetchGoroutines | [106](../../magpie/internal/cli/goroutines_cli.go#L106) |
-| Message | field_declaration | fetchGoroutines | [107](../../magpie/internal/cli/goroutines_cli.go#L107) |
+| st | var_spec | fetchGoroutines | [90](../../magpie/internal/cli/goroutines_cli.go#L90) |
+| e | var_spec | fetchGoroutines | [105](../../magpie/internal/cli/goroutines_cli.go#L105) |
+| Error | field_declaration | fetchGoroutines::e | [106](../../magpie/internal/cli/goroutines_cli.go#L106) |
+| Message | field_declaration | fetchGoroutines::e::Error | [107](../../magpie/internal/cli/goroutines_cli.go#L107) |
 | goroutinesSummary | function_declaration |  | [126](../../magpie/internal/cli/goroutines_cli.go#L126) |
+| b | var_spec | goroutinesSummary | [127](../../magpie/internal/cli/goroutines_cli.go#L127) |

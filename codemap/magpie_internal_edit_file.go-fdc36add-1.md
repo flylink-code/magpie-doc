@@ -23,8 +23,9 @@ Source SHA-256: c1756ad5a53ebf983ef0a70bd855306d21d2eadff34a949d8b456f1d8b9e9415
 | IsLink | function_declaration |  | [294](../../magpie/internal/edit/file.go#L294) |
 | Remove | function_declaration |  | [306](../../magpie/internal/edit/file.go#L306) |
 | Atomically | function_declaration |  | [320](../../magpie/internal/edit/file.go#L320) |
-| saved | struct_type | Atomically | [321](../../magpie/internal/edit/file.go#L321) |
-| path | field_declaration | Atomically.saved | [322](../../magpie/internal/edit/file.go#L322) |
-| data | field_declaration | Atomically.saved | [323](../../magpie/internal/edit/file.go#L323) |
-| mode | field_declaration | Atomically.saved | [324](../../magpie/internal/edit/file.go#L324) |
-| exists | field_declaration | Atomically.saved | [325](../../magpie/internal/edit/file.go#L325) |
+| saved | type_spec | Atomically | [321](../../magpie/internal/edit/file.go#L321) |
+| path | field_declaration | Atomically::saved | [322](../../magpie/internal/edit/file.go#L322) |
+| data | field_declaration | Atomically::saved | [323](../../magpie/internal/edit/file.go#L323) |
+| mode | field_declaration | Atomically::saved | [324](../../magpie/internal/edit/file.go#L324) |
+| exists | field_declaration | Atomically::saved | [325](../../magpie/internal/edit/file.go#L325) |
+| before | var_spec | Atomically | [327](../../magpie/internal/edit/file.go#L327) |

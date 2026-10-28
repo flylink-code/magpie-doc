@@ -8,7 +8,7 @@ Source SHA-256: 267e6fcf7b5c08e7b3fee3470c8e26033a04fab394462405dacaf9303c982d50
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Limit | struct_type |  | [21](../../magpie/internal/access/limit.go#L21) |
+| Limit | type_spec |  | [21](../../magpie/internal/access/limit.go#L21) |
 | Period | field_declaration | Limit | [22](../../magpie/internal/access/limit.go#L22) |
 | Days | field_declaration | Limit | [24](../../magpie/internal/access/limit.go#L24) |
 | Hours | field_declaration | Limit | [26](../../magpie/internal/access/limit.go#L26) |
@@ -17,20 +17,22 @@ Source SHA-256: 267e6fcf7b5c08e7b3fee3470c8e26033a04fab394462405dacaf9303c982d50
 | CacheReads | field_declaration | Limit | [29](../../magpie/internal/access/limit.go#L29) |
 | Since | field_declaration | Limit | [35](../../magpie/internal/access/limit.go#L35) |
 | MaxLimits | const_spec |  | [39](../../magpie/internal/access/limit.go#L39) |
-| Limits | method_declaration | Key | [44](../../magpie/internal/access/limit.go#L44) |
-| Limits | method_declaration | Identity | [47](../../magpie/internal/access/limit.go#L47) |
+| Limits | method_declaration |  | [44](../../magpie/internal/access/limit.go#L44) |
+| Limits | method_declaration |  | [47](../../magpie/internal/access/limit.go#L47) |
 | limitsOf | function_declaration |  | [49](../../magpie/internal/access/limit.go#L49) |
-| limitList | method_declaration | *Key | [63](../../magpie/internal/access/limit.go#L63) |
-| setLimits | method_declaration | *Key | [73](../../magpie/internal/access/limit.go#L73) |
-| sameWindow | method_declaration | *Limit | [87](../../magpie/internal/access/limit.go#L87) |
+| out | var_spec | limitsOf | [50](../../magpie/internal/access/limit.go#L50) |
+| limitList | method_declaration |  | [63](../../magpie/internal/access/limit.go#L63) |
+| out | var_spec | limitList | [64](../../magpie/internal/access/limit.go#L64) |
+| setLimits | method_declaration |  | [73](../../magpie/internal/access/limit.go#L73) |
+| sameWindow | method_declaration |  | [87](../../magpie/internal/access/limit.go#L87) |
 | Periods | var_spec |  | [92](../../magpie/internal/access/limit.go#L92) |
 | MaxDays | const_spec |  | [95](../../magpie/internal/access/limit.go#L95) |
 | MaxHours | const_spec |  | [99](../../magpie/internal/access/limit.go#L99) |
-| cycle | method_declaration | *Limit | [102](../../magpie/internal/access/limit.go#L102) |
-| Limited | method_declaration | *Limit | [113](../../magpie/internal/access/limit.go#L113) |
-| Valid | method_declaration | *Limit | [117](../../magpie/internal/access/limit.go#L117) |
-| Per | method_declaration | *Limit | [153](../../magpie/internal/access/limit.go#L153) |
+| cycle | method_declaration |  | [102](../../magpie/internal/access/limit.go#L102) |
+| Limited | method_declaration |  | [113](../../magpie/internal/access/limit.go#L113) |
+| Valid | method_declaration |  | [117](../../magpie/internal/access/limit.go#L117) |
+| Per | method_declaration |  | [153](../../magpie/internal/access/limit.go#L153) |
 | sinceOf | function_declaration |  | [167](../../magpie/internal/access/limit.go#L167) |
 | epoch | var_spec |  | [179](../../magpie/internal/access/limit.go#L179) |
-| Window | method_declaration | *Limit | [187](../../magpie/internal/access/limit.go#L187) |
+| Window | method_declaration |  | [187](../../magpie/internal/access/limit.go#L187) |
 | Window | function_declaration |  | [209](../../magpie/internal/access/limit.go#L209) |

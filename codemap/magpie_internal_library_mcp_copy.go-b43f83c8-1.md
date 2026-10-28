@@ -8,7 +8,7 @@ Source SHA-256: 6a0d7e5cc24e07bf361f9b6fe5d88aa0a21e81bc7e69f27a302e525dbf1bc73f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ServersConfig | struct_type |  | [19](../../magpie/internal/library/mcp_copy.go#L19) |
+| ServersConfig | type_spec |  | [19](../../magpie/internal/library/mcp_copy.go#L19) |
 | File | field_declaration | ServersConfig | [20](../../magpie/internal/library/mcp_copy.go#L20) |
 | Text | field_declaration | ServersConfig | [21](../../magpie/internal/library/mcp_copy.go#L21) |
 | Skipped | field_declaration | ServersConfig | [22](../../magpie/internal/library/mcp_copy.go#L22) |

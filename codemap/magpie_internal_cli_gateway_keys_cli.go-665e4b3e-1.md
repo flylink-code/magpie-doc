@@ -10,10 +10,13 @@ Source SHA-256: 8dfed8b52b038fa986155d65cd03ba753f9ca385f37abbf3fa23764da96ce57f
 | --- | --- | --- | ---: |
 | gatewayKeys | function_declaration |  | [19](../../magpie/internal/cli/gateway_keys_cli.go#L19) |
 | gatewayKeysTo | function_declaration |  | [21](../../magpie/internal/cli/gateway_keys_cli.go#L21) |
+| own | var_spec | gatewayKeysTo | [46](../../magpie/internal/cli/gateway_keys_cli.go#L46) |
 | gatewayKeyLimit | function_declaration |  | [132](../../magpie/internal/cli/gateway_keys_cli.go#L132) |
 | perPhrase | function_declaration |  | [282](../../magpie/internal/cli/gateway_keys_cli.go#L282) |
 | parseKeyLimit | function_declaration |  | [297](../../magpie/internal/cli/gateway_keys_cli.go#L297) |
 | gatewayKeyModels | function_declaration |  | [365](../../magpie/internal/cli/gateway_keys_cli.go#L365) |
 | limitWords | function_declaration |  | [398](../../magpie/internal/cli/gateway_keys_cli.go#L398) |
+| each | var_spec | limitWords | [403](../../magpie/internal/cli/gateway_keys_cli.go#L403) |
+| parts | var_spec | limitWords | [405](../../magpie/internal/cli/gateway_keys_cli.go#L405) |
 | gatewayKeyAccounts | function_declaration |  | [424](../../magpie/internal/cli/gateway_keys_cli.go#L424) |
 | gatewayKeyQuotas | function_declaration |  | [467](../../magpie/internal/cli/gateway_keys_cli.go#L467) |

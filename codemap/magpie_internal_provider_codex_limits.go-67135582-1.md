@@ -8,7 +8,7 @@ Source SHA-256: 4b77620159b2659378de0a00d6fa6512ecf1e40b4fd894fa474e7e460a4e148a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexLimit | struct_type |  | [20](../../magpie/internal/provider/codex_limits.go#L20) |
+| CodexLimit | type_spec |  | [20](../../magpie/internal/provider/codex_limits.go#L20) |
 | Used | field_declaration | CodexLimit | [21](../../magpie/internal/provider/codex_limits.go#L21) |
 | Span | field_declaration | CodexLimit | [22](../../magpie/internal/provider/codex_limits.go#L22) |
 | Resets | field_declaration | CodexLimit | [23](../../magpie/internal/provider/codex_limits.go#L23) |

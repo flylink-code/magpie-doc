@@ -9,7 +9,7 @@ Source SHA-256: 1b936c03ea072ebf11334ed3fbbdf26a01a5e0353f6df984d95cb13ed00045a6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | AtAddress | function_declaration |  | [19](../../magpie/internal/provider/local_address.go#L19) |
-| AtAddress | method_declaration | *Provider | [26](../../magpie/internal/provider/local_address.go#L26) |
+| AtAddress | method_declaration |  | [26](../../magpie/internal/provider/local_address.go#L26) |
 | AddressOf | function_declaration |  | [32](../../magpie/internal/provider/local_address.go#L32) |
 | atAddress | function_declaration |  | [41](../../magpie/internal/provider/local_address.go#L41) |
 | parseAddress | function_declaration |  | [70](../../magpie/internal/provider/local_address.go#L70) |

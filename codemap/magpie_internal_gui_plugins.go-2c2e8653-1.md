@@ -8,7 +8,7 @@ Source SHA-256: 458a828ec301a19517575c5fa06de51561c53395743839ef03c4b2fc62069c66
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| pluginSubJSON | struct_type |  | [28](../../magpie/internal/gui/plugins.go#L28) |
+| pluginSubJSON | type_spec |  | [28](../../magpie/internal/gui/plugins.go#L28) |
 | ID | field_declaration | pluginSubJSON | [29](../../magpie/internal/gui/plugins.go#L29) |
 | PID | field_declaration | pluginSubJSON | [30](../../magpie/internal/gui/plugins.go#L30) |
 | Name | field_declaration | pluginSubJSON | [31](../../magpie/internal/gui/plugins.go#L31) |
@@ -19,12 +19,13 @@ Source SHA-256: 458a828ec301a19517575c5fa06de51561c53395743839ef03c4b2fc62069c66
 | Single | field_declaration | pluginSubJSON | [36](../../magpie/internal/gui/plugins.go#L36) |
 | Models | field_declaration | pluginSubJSON | [37](../../magpie/internal/gui/plugins.go#L37) |
 | Options | field_declaration | pluginSubJSON | [40](../../magpie/internal/gui/plugins.go#L40) |
-| pluginOptionJSON | struct_type |  | [45](../../magpie/internal/gui/plugins.go#L45) |
+| pluginOptionJSON | type_spec |  | [45](../../magpie/internal/gui/plugins.go#L45) |
 | On | field_declaration | pluginOptionJSON | [47](../../magpie/internal/gui/plugins.go#L47) |
 | pluginOptionKey | var_spec |  | [51](../../magpie/internal/gui/plugins.go#L51) |
 | pluginIcon | function_declaration |  | [56](../../magpie/internal/gui/plugins.go#L56) |
 | pluginSubs | function_declaration |  | [77](../../magpie/internal/gui/plugins.go#L77) |
-| pluginEntryJSON | struct_type |  | [94](../../magpie/internal/gui/plugins.go#L94) |
+| opts | var_spec | pluginSubs | [81](../../magpie/internal/gui/plugins.go#L81) |
+| pluginEntryJSON | type_spec |  | [94](../../magpie/internal/gui/plugins.go#L94) |
 | Error | field_declaration | pluginEntryJSON | [96](../../magpie/internal/gui/plugins.go#L96) |
 | Providers | field_declaration | pluginEntryJSON | [97](../../magpie/internal/gui/plugins.go#L97) |
 | Version | field_declaration | pluginEntryJSON | [98](../../magpie/internal/gui/plugins.go#L98) |
@@ -52,24 +53,24 @@ Source SHA-256: 458a828ec301a19517575c5fa06de51561c53395743839ef03c4b2fc62069c66
 | Actions | field_declaration | pluginEntryJSON | [155](../../magpie/internal/gui/plugins.go#L155) |
 | Clashes | field_declaration | pluginEntryJSON | [160](../../magpie/internal/gui/plugins.go#L160) |
 | Tools | field_declaration | pluginEntryJSON | [164](../../magpie/internal/gui/plugins.go#L164) |
-| pluginToolJSON | struct_type |  | [168](../../magpie/internal/gui/plugins.go#L168) |
+| pluginToolJSON | type_spec |  | [168](../../magpie/internal/gui/plugins.go#L168) |
 | Name | field_declaration | pluginToolJSON | [169](../../magpie/internal/gui/plugins.go#L169) |
 | Description | field_declaration | pluginToolJSON | [170](../../magpie/internal/gui/plugins.go#L170) |
 | MCP | field_declaration | pluginToolJSON | [171](../../magpie/internal/gui/plugins.go#L171) |
-| pluginPageInfoJSON | struct_type |  | [175](../../magpie/internal/gui/plugins.go#L175) |
+| pluginPageInfoJSON | type_spec |  | [175](../../magpie/internal/gui/plugins.go#L175) |
 | Title | field_declaration | pluginPageInfoJSON | [176](../../magpie/internal/gui/plugins.go#L176) |
 | Replaces | field_declaration | pluginPageInfoJSON | [177](../../magpie/internal/gui/plugins.go#L177) |
 | Reads | field_declaration | pluginPageInfoJSON | [178](../../magpie/internal/gui/plugins.go#L178) |
-| pluginPanelInfoJSON | struct_type |  | [182](../../magpie/internal/gui/plugins.go#L182) |
+| pluginPanelInfoJSON | type_spec |  | [182](../../magpie/internal/gui/plugins.go#L182) |
 | Slot | field_declaration | pluginPanelInfoJSON | [183](../../magpie/internal/gui/plugins.go#L183) |
 | Title | field_declaration | pluginPanelInfoJSON | [184](../../magpie/internal/gui/plugins.go#L184) |
-| pluginActionInfoJSON | struct_type |  | [189](../../magpie/internal/gui/plugins.go#L189) |
+| pluginActionInfoJSON | type_spec |  | [189](../../magpie/internal/gui/plugins.go#L189) |
 | Menu | field_declaration | pluginActionInfoJSON | [190](../../magpie/internal/gui/plugins.go#L190) |
 | Title | field_declaration | pluginActionInfoJSON | [191](../../magpie/internal/gui/plugins.go#L191) |
-| pluginClashJSON | struct_type |  | [195](../../magpie/internal/gui/plugins.go#L195) |
+| pluginClashJSON | type_spec |  | [195](../../magpie/internal/gui/plugins.go#L195) |
 | Name | field_declaration | pluginClashJSON | [197](../../magpie/internal/gui/plugins.go#L197) |
 | autoUpdatedFor | const_spec |  | [201](../../magpie/internal/gui/plugins.go#L201) |
-| pluginsJSON | struct_type |  | [203](../../magpie/internal/gui/plugins.go#L203) |
+| pluginsJSON | type_spec |  | [203](../../magpie/internal/gui/plugins.go#L203) |
 | Plugins | field_declaration | pluginsJSON | [204](../../magpie/internal/gui/plugins.go#L204) |
 | Bun | field_declaration | pluginsJSON | [205](../../magpie/internal/gui/plugins.go#L205) |
 | BunVer | field_declaration | pluginsJSON | [206](../../magpie/internal/gui/plugins.go#L206) |
@@ -78,33 +79,32 @@ Source SHA-256: 458a828ec301a19517575c5fa06de51561c53395743839ef03c4b2fc62069c66
 | Movable | field_declaration | pluginsJSON | [213](../../magpie/internal/gui/plugins.go#L213) |
 | Mirror | field_declaration | pluginsJSON | [216](../../magpie/internal/gui/plugins.go#L216) |
 | pluginsState | function_declaration |  | [219](../../magpie/internal/gui/plugins.go#L219) |
+| tools | var_spec | pluginsState | [226](../../magpie/internal/gui/plugins.go#L226) |
+| ts | var_spec | pluginsState | [244](../../magpie/internal/gui/plugins.go#L244) |
+| agentErrs | var_spec | pluginsState | [273](../../magpie/internal/gui/plugins.go#L273) |
 | npmPlugin | function_declaration |  | [377](../../magpie/internal/gui/plugins.go#L377) |
 | npmNames | function_declaration |  | [379](../../magpie/internal/gui/plugins.go#L379) |
 | pluginListings | function_declaration |  | [392](../../magpie/internal/gui/plugins.go#L392) |
 | npmIcons | function_declaration |  | [419](../../magpie/internal/gui/plugins.go#L419) |
-| pluginMarketJSON | struct_type |  | [435](../../magpie/internal/gui/plugins.go#L435) |
+| pluginMarketJSON | type_spec |  | [435](../../magpie/internal/gui/plugins.go#L435) |
 | Listings | field_declaration | pluginMarketJSON | [436](../../magpie/internal/gui/plugins.go#L436) |
 | State | field_declaration | pluginMarketJSON | [437](../../magpie/internal/gui/plugins.go#L437) |
-| pluginListingJSON | struct_type |  | [440](../../magpie/internal/gui/plugins.go#L440) |
+| pluginListingJSON | type_spec |  | [440](../../magpie/internal/gui/plugins.go#L440) |
 | NPM | field_declaration | pluginListingJSON | [442](../../magpie/internal/gui/plugins.go#L442) |
 | pluginMarketState | function_declaration |  | [445](../../magpie/internal/gui/plugins.go#L445) |
+| ls | var_spec | pluginMarketState | [446](../../magpie/internal/gui/plugins.go#L446) |
+| st | var_spec | pluginMarketState | [447](../../magpie/internal/gui/plugins.go#L447) |
 | addPlugin | var_spec |  | [483](../../magpie/internal/gui/plugins.go#L483) |
 | removePlugin | var_spec |  | [484](../../magpie/internal/gui/plugins.go#L484) |
 | updatePlugins | var_spec |  | [485](../../magpie/internal/gui/plugins.go#L485) |
 | upgradePlugin | var_spec |  | [486](../../magpie/internal/gui/plugins.go#L486) |
 | pluginRoutes | function_declaration |  | [489](../../magpie/internal/gui/plugins.go#L489) |
-| On | field_declaration | pluginRoutes | [610](../../magpie/internal/gui/plugins.go#L610) |
-| Spec | field_declaration | pluginRoutes | [624](../../magpie/internal/gui/plugins.go#L624) |
-| Off | field_declaration | pluginRoutes | [625](../../magpie/internal/gui/plugins.go#L625) |
-| Options | field_declaration | pluginRoutes | [626](../../magpie/internal/gui/plugins.go#L626) |
-| Provider | field_declaration | pluginRoutes | [628](../../magpie/internal/gui/plugins.go#L628) |
-| Provider | field_declaration | pluginRoutes | [676](../../magpie/internal/gui/plugins.go#L676) |
-| Method | field_declaration | pluginRoutes | [677](../../magpie/internal/gui/plugins.go#L677) |
-| Inputs | field_declaration | pluginRoutes | [678](../../magpie/internal/gui/plugins.go#L678) |
-| Key | field_declaration | pluginRoutes | [679](../../magpie/internal/gui/plugins.go#L679) |
-| Value | field_declaration | pluginRoutes | [680](../../magpie/internal/gui/plugins.go#L680) |
-| Provider | field_declaration | pluginRoutes | [712](../../magpie/internal/gui/plugins.go#L712) |
-| Method | field_declaration | pluginRoutes | [713](../../magpie/internal/gui/plugins.go#L713) |
-| Inputs | field_declaration | pluginRoutes | [714](../../magpie/internal/gui/plugins.go#L714) |
-| Key | field_declaration | pluginRoutes | [715](../../magpie/internal/gui/plugins.go#L715) |
-| Proxy | field_declaration | pluginRoutes | [716](../../magpie/internal/gui/plugins.go#L716) |
+| m | var_spec | pluginRoutes | [523](../../magpie/internal/gui/plugins.go#L523) |
+| in | var_spec | pluginRoutes | [610](../../magpie/internal/gui/plugins.go#L610) |
+| On | field_declaration | pluginRoutes::in | [610](../../magpie/internal/gui/plugins.go#L610) |
+| in | var_spec | pluginRoutes | [623](../../magpie/internal/gui/plugins.go#L623) |
+| Spec | field_declaration | pluginRoutes::in | [624](../../magpie/internal/gui/plugins.go#L624) |
+| Off | field_declaration | pluginRoutes::in | [625](../../magpie/internal/gui/plugins.go#L625) |
+| Options | field_declaration | pluginRoutes::in | [626](../../magpie/internal/gui/plugins.go#L626) |
+| Provider | field_declaration | pluginRoutes::in | [628](../../magpie/internal/gui/plugins.go#L628) |
+| err | var_spec | pluginRoutes | [640](../../magpie/internal/gui/plugins.go#L640) |

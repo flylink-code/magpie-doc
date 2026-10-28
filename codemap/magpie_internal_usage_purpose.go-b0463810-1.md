@@ -8,7 +8,7 @@ Source SHA-256: 84844b0f7ab9b44361c17d3a4ac9050e2d520483fb751ae4a49334eb7d74a7a8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| PurposeKind | struct_type |  | [8](../../magpie/internal/usage/purpose.go#L8) |
+| PurposeKind | type_spec |  | [8](../../magpie/internal/usage/purpose.go#L8) |
 | Purpose | field_declaration | PurposeKind | [9](../../magpie/internal/usage/purpose.go#L9) |
 | Name | field_declaration | PurposeKind | [10](../../magpie/internal/usage/purpose.go#L10) |
 | purposeKinds | var_spec |  | [13](../../magpie/internal/usage/purpose.go#L13) |

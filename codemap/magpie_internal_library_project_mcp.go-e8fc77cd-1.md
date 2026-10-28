@@ -9,12 +9,17 @@ Source SHA-256: de250501dfe7f21251e246d190c4c35a10378877b71bae155d220467a4aacd48
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | projectMCPFiles | var_spec |  | [40](../../magpie/internal/library/project_mcp.go#L40) |
+| rel | field_declaration | projectMCPFiles | [41](../../magpie/internal/library/project_mcp.go#L41) |
+| format | field_declaration | projectMCPFiles | [42](../../magpie/internal/library/project_mcp.go#L42) |
 | ProjectMCPFile | function_declaration |  | [59](../../magpie/internal/library/project_mcp.go#L59) |
 | ProjectNoSSE | function_declaration |  | [63](../../magpie/internal/library/project_mcp.go#L63) |
-| mcpRel | method_declaration | *Project | [71](../../magpie/internal/library/project_mcp.go#L71) |
+| mcpRel | method_declaration |  | [71](../../magpie/internal/library/project_mcp.go#L71) |
 | formatOfRel | function_declaration |  | [86](../../magpie/internal/library/project_mcp.go#L86) |
-| syncProjectMCP | method_declaration | *Library | [105](../../magpie/internal/library/project_mcp.go#L105) |
+| syncProjectMCP | method_declaration |  | [105](../../magpie/internal/library/project_mcp.go#L105) |
+| mine | var_spec | syncProjectMCP | [171](../../magpie/internal/library/project_mcp.go#L171) |
 | blankFile | function_declaration |  | [252](../../magpie/internal/library/project_mcp.go#L252) |
+| doc | var_spec | blankFile | [260](../../magpie/internal/library/project_mcp.go#L260) |
 | blankMap | function_declaration |  | [269](../../magpie/internal/library/project_mcp.go#L269) |
 | ProjectServer | function_declaration |  | [281](../../magpie/internal/library/project_mcp.go#L281) |
-| renameProjectServers | method_declaration | *Library | [310](../../magpie/internal/library/project_mcp.go#L310) |
+| ids | var_spec | ProjectServer | [290](../../magpie/internal/library/project_mcp.go#L290) |
+| renameProjectServers | method_declaration |  | [310](../../magpie/internal/library/project_mcp.go#L310) |

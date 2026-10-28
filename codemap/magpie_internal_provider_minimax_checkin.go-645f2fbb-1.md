@@ -16,43 +16,54 @@ Source SHA-256: 5a3cb1d46b9e4150cb9a9ae1037e7717efc9f92e463e9fd855adf4c57fa33fbb
 | mmDayClaimable | const_spec |  | [65](../../magpie/internal/provider/minimax_checkin.go#L65) |
 | mmDayClaimed | const_spec |  | [66](../../magpie/internal/provider/minimax_checkin.go#L66) |
 | mmDayDisabled | const_spec |  | [67](../../magpie/internal/provider/minimax_checkin.go#L67) |
-| miniMaxDay | struct_type |  | [71](../../magpie/internal/provider/minimax_checkin.go#L71) |
+| miniMaxDay | type_spec |  | [71](../../magpie/internal/provider/minimax_checkin.go#L71) |
 | DayNo | field_declaration | miniMaxDay | [72](../../magpie/internal/provider/minimax_checkin.go#L72) |
 | Points | field_declaration | miniMaxDay | [73](../../magpie/internal/provider/minimax_checkin.go#L73) |
 | Status | field_declaration | miniMaxDay | [74](../../magpie/internal/provider/minimax_checkin.go#L74) |
 | IsToday | field_declaration | miniMaxDay | [75](../../magpie/internal/provider/minimax_checkin.go#L75) |
-| miniMaxBase | struct_type |  | [78](../../magpie/internal/provider/minimax_checkin.go#L78) |
+| miniMaxBase | type_spec |  | [78](../../magpie/internal/provider/minimax_checkin.go#L78) |
 | Code | field_declaration | miniMaxBase | [79](../../magpie/internal/provider/minimax_checkin.go#L79) |
 | Msg | field_declaration | miniMaxBase | [80](../../magpie/internal/provider/minimax_checkin.go#L80) |
-| miniMaxStatus | struct_type |  | [83](../../magpie/internal/provider/minimax_checkin.go#L83) |
+| miniMaxStatus | type_spec |  | [83](../../magpie/internal/provider/minimax_checkin.go#L83) |
 | Data | field_declaration | miniMaxStatus | [84](../../magpie/internal/provider/minimax_checkin.go#L84) |
-| Days | field_declaration | miniMaxStatus | [85](../../magpie/internal/provider/minimax_checkin.go#L85) |
+| Days | field_declaration | miniMaxStatus::Data | [85](../../magpie/internal/provider/minimax_checkin.go#L85) |
 | Base | field_declaration | miniMaxStatus | [87](../../magpie/internal/provider/minimax_checkin.go#L87) |
-| miniMaxClaim | struct_type |  | [90](../../magpie/internal/provider/minimax_checkin.go#L90) |
+| miniMaxClaim | type_spec |  | [90](../../magpie/internal/provider/minimax_checkin.go#L90) |
 | Data | field_declaration | miniMaxClaim | [91](../../magpie/internal/provider/minimax_checkin.go#L91) |
-| ClaimResult | field_declaration | miniMaxClaim | [92](../../magpie/internal/provider/minimax_checkin.go#L92) |
-| DayNo | field_declaration | miniMaxClaim | [93](../../magpie/internal/provider/minimax_checkin.go#L93) |
-| Points | field_declaration | miniMaxClaim | [94](../../magpie/internal/provider/minimax_checkin.go#L94) |
+| ClaimResult | field_declaration | miniMaxClaim::Data | [92](../../magpie/internal/provider/minimax_checkin.go#L92) |
+| DayNo | field_declaration | miniMaxClaim::Data | [93](../../magpie/internal/provider/minimax_checkin.go#L93) |
+| Points | field_declaration | miniMaxClaim::Data | [94](../../magpie/internal/provider/minimax_checkin.go#L94) |
 | Base | field_declaration | miniMaxClaim | [96](../../magpie/internal/provider/minimax_checkin.go#L96) |
-| miniMaxAccount | struct_type |  | [102](../../magpie/internal/provider/minimax_checkin.go#L102) |
+| miniMaxAccount | type_spec |  | [102](../../magpie/internal/provider/minimax_checkin.go#L102) |
 | User | field_declaration | miniMaxAccount | [103](../../magpie/internal/provider/minimax_checkin.go#L103) |
 | On | field_declaration | miniMaxAccount | [104](../../magpie/internal/provider/minimax_checkin.go#L104) |
 | site | field_declaration | miniMaxAccount | [105](../../magpie/internal/provider/minimax_checkin.go#L105) |
 | uid | field_declaration | miniMaxAccount | [106](../../magpie/internal/provider/minimax_checkin.go#L106) |
 | card | field_declaration | miniMaxAccount | [107](../../magpie/internal/provider/minimax_checkin.go#L107) |
 | via | field_declaration | miniMaxAccount | [108](../../magpie/internal/provider/minimax_checkin.go#L108) |
-| siteID | method_declaration | miniMaxAccount | [111](../../magpie/internal/provider/minimax_checkin.go#L111) |
+| siteID | method_declaration |  | [111](../../magpie/internal/provider/minimax_checkin.go#L111) |
 | miniMaxCheckinPath | function_declaration |  | [118](../../magpie/internal/provider/minimax_checkin.go#L118) |
 | miniMaxCheckinKey | function_declaration |  | [122](../../magpie/internal/provider/minimax_checkin.go#L122) |
 | miniMaxCheckinMu | var_spec |  | [129](../../magpie/internal/provider/minimax_checkin.go#L129) |
 | newMiniMaxCheckiner | function_declaration |  | [131](../../magpie/internal/provider/minimax_checkin.go#L131) |
+| out | var_spec | newMiniMaxCheckiner | [133](../../magpie/internal/provider/minimax_checkin.go#L133) |
 | miniMaxCheckin | function_declaration |  | [144](../../magpie/internal/provider/minimax_checkin.go#L144) |
+| st | var_spec | miniMaxCheckin | [145](../../magpie/internal/provider/minimax_checkin.go#L145) |
+| today | var_spec | miniMaxCheckin | [152](../../magpie/internal/provider/minimax_checkin.go#L152) |
+| got | var_spec | miniMaxCheckin | [167](../../magpie/internal/provider/minimax_checkin.go#L167) |
 | miniMaxCall | function_declaration |  | [192](../../magpie/internal/provider/minimax_checkin.go#L192) |
-| Base | field_declaration | miniMaxCall | [224](../../magpie/internal/provider/minimax_checkin.go#L224) |
+| rd | var_spec | miniMaxCall | [197](../../magpie/internal/provider/minimax_checkin.go#L197) |
+| e | var_spec | miniMaxCall | [223](../../magpie/internal/provider/minimax_checkin.go#L223) |
+| Base | field_declaration | miniMaxCall::e | [224](../../magpie/internal/provider/minimax_checkin.go#L224) |
 | CheckInMiniMax | function_declaration |  | [237](../../magpie/internal/provider/minimax_checkin.go#L237) |
 | MiniMaxCheckins | function_declaration |  | [243](../../magpie/internal/provider/minimax_checkin.go#L243) |
+| out | var_spec | MiniMaxCheckins | [245](../../magpie/internal/provider/minimax_checkin.go#L245) |
 | HasMiniMax | function_declaration |  | [261](../../magpie/internal/provider/minimax_checkin.go#L261) |
 | miniMaxCards | function_declaration |  | [264](../../magpie/internal/provider/minimax_checkin.go#L264) |
+| out | var_spec | miniMaxCards | [265](../../magpie/internal/provider/minimax_checkin.go#L265) |
 | miniMaxCheckinAccounts | function_declaration |  | [277](../../magpie/internal/provider/minimax_checkin.go#L277) |
+| out | var_spec | miniMaxCheckinAccounts | [278](../../magpie/internal/provider/minimax_checkin.go#L278) |
 | miniMaxSiteAccounts | function_declaration |  | [287](../../magpie/internal/provider/minimax_checkin.go#L287) |
+| out | var_spec | miniMaxSiteAccounts | [290](../../magpie/internal/provider/minimax_checkin.go#L290) |
+| body | var_spec | miniMaxSiteAccounts | [303](../../magpie/internal/provider/minimax_checkin.go#L303) |
 | KeepMiniMaxCheckedIn | function_declaration |  | [315](../../magpie/internal/provider/minimax_checkin.go#L315) |

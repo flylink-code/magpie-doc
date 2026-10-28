@@ -15,3 +15,6 @@ Source SHA-256: 1695212d2769697d387523b3459db2580dac086f50d4ad21885f9187be053598
 | stash | function_declaration |  | [67](../../magpie/internal/agent/stash.go#L67) |
 | forget | function_declaration |  | [82](../../magpie/internal/agent/stash.go#L82) |
 | unstash | function_declaration |  | [92](../../magpie/internal/agent/stash.go#L92) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 53: ERROR

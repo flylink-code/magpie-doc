@@ -13,6 +13,9 @@ Source SHA-256: 96a33d56910713186bf3589366b149e9a994e55a1c1a1fb7a9896e1a25a11e4e
 | loadCostCurrency | function_declaration |  | [32](../../magpie/internal/cli/usage_cli.go#L32) |
 | usageCmd | function_declaration |  | [49](../../magpie/internal/cli/usage_cli.go#L49) |
 | usageTo | function_declaration |  | [53](../../magpie/internal/cli/usage_cli.go#L53) |
+| how | const_spec | usageTo | [54](../../magpie/internal/cli/usage_cli.go#L54) |
+| f | var_spec | usageTo | [59](../../magpie/internal/cli/usage_cli.go#L59) |
+| last | var_spec | usageTo | [69](../../magpie/internal/cli/usage_cli.go#L69) |
 | humanWindow | function_declaration |  | [176](../../magpie/internal/cli/usage_cli.go#L176) |
 | boolToInt | function_declaration |  | [187](../../magpie/internal/cli/usage_cli.go#L187) |
 | printUsage | function_declaration |  | [196](../../magpie/internal/cli/usage_cli.go#L196) |

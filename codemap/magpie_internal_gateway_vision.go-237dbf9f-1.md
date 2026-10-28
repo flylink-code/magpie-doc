@@ -11,14 +11,13 @@ Source SHA-256: d1ad6767dc86d955b58318211ab8f0ffd1e3e07254250f912556547673783894
 | init | function_declaration |  | [30](../../magpie/internal/gateway/vision.go#L30) |
 | VisionAgent | const_spec |  | [38](../../magpie/internal/gateway/vision.go#L38) |
 | visionTimeout | var_spec |  | [45](../../magpie/internal/gateway/vision.go#L45) |
-| visionWaitMost | var_spec |  | [45](../../magpie/internal/gateway/vision.go#L45) |
 | visionParallel | const_spec |  | [48](../../magpie/internal/gateway/vision.go#L48) |
 | sightsKept | const_spec |  | [54](../../magpie/internal/gateway/vision.go#L54) |
 | visionSystem | const_spec |  | [56](../../magpie/internal/gateway/vision.go#L56) |
-| describingKey | struct_type |  | [66](../../magpie/internal/gateway/vision.go#L66) |
+| describingKey | type_spec |  | [66](../../magpie/internal/gateway/vision.go#L66) |
 | describing | function_declaration |  | [68](../../magpie/internal/gateway/vision.go#L68) |
-| describeForKey | struct_type |  | [75](../../magpie/internal/gateway/vision.go#L75) |
-| describeFor | struct_type |  | [77](../../magpie/internal/gateway/vision.go#L77) |
+| describeForKey | type_spec |  | [75](../../magpie/internal/gateway/vision.go#L75) |
+| describeFor | type_spec |  | [77](../../magpie/internal/gateway/vision.go#L77) |
 | call | field_declaration | describeFor | [78](../../magpie/internal/gateway/vision.go#L78) |
 | session | field_declaration | describeFor | [79](../../magpie/internal/gateway/vision.go#L79) |
 | withDescribeFor | function_declaration |  | [82](../../magpie/internal/gateway/vision.go#L82) |
@@ -37,20 +36,23 @@ Source SHA-256: d1ad6767dc86d955b58318211ab8f0ffd1e3e07254250f912556547673783894
 | autoDescribes | function_declaration |  | [272](../../magpie/internal/gateway/vision.go#L272) |
 | sees | function_declaration |  | [278](../../magpie/internal/gateway/vision.go#L278) |
 | seesAt | function_declaration |  | [287](../../magpie/internal/gateway/vision.go#L287) |
-| sight | struct_type |  | [297](../../magpie/internal/gateway/vision.go#L297) |
+| sight | type_spec |  | [297](../../magpie/internal/gateway/vision.go#L297) |
 | done | field_declaration | sight | [298](../../magpie/internal/gateway/vision.go#L298) |
 | text | field_declaration | sight | [299](../../magpie/internal/gateway/vision.go#L299) |
 | err | field_declaration | sight | [300](../../magpie/internal/gateway/vision.go#L300) |
-| describe | method_declaration | *Server | [306](../../magpie/internal/gateway/vision.go#L306) |
-| askVision | method_declaration | *Server | [352](../../magpie/internal/gateway/vision.go#L352) |
-| askVisionWith | method_declaration | *Server | [358](../../magpie/internal/gateway/vision.go#L358) |
-| Choices | field_declaration | *Server.askVisionWith | [403](../../magpie/internal/gateway/vision.go#L403) |
-| Message | field_declaration | *Server.askVisionWith | [404](../../magpie/internal/gateway/vision.go#L404) |
-| Content | field_declaration | *Server.askVisionWith | [405](../../magpie/internal/gateway/vision.go#L405) |
-| Error | field_declaration | *Server.askVisionWith | [408](../../magpie/internal/gateway/vision.go#L408) |
-| Message | field_declaration | *Server.askVisionWith | [409](../../magpie/internal/gateway/vision.go#L409) |
-| seenBody | method_declaration | *Server | [432](../../magpie/internal/gateway/vision.go#L432) |
-| result | struct_type | *Server.seenBody | [445](../../magpie/internal/gateway/vision.go#L445) |
-| text | field_declaration | *Server.seenBody.result | [446](../../magpie/internal/gateway/vision.go#L446) |
-| err | field_declaration | *Server.seenBody.result | [447](../../magpie/internal/gateway/vision.go#L447) |
+| describe | method_declaration |  | [306](../../magpie/internal/gateway/vision.go#L306) |
+| askVision | method_declaration |  | [352](../../magpie/internal/gateway/vision.go#L352) |
+| askVisionWith | method_declaration |  | [358](../../magpie/internal/gateway/vision.go#L358) |
+| out | var_spec | askVisionWith | [402](../../magpie/internal/gateway/vision.go#L402) |
+| Choices | field_declaration | askVisionWith::out | [403](../../magpie/internal/gateway/vision.go#L403) |
+| Message | field_declaration | askVisionWith::out::Choices | [404](../../magpie/internal/gateway/vision.go#L404) |
+| Content | field_declaration | askVisionWith::out::Choices::Message | [405](../../magpie/internal/gateway/vision.go#L405) |
+| Error | field_declaration | askVisionWith::out | [408](../../magpie/internal/gateway/vision.go#L408) |
+| Message | field_declaration | askVisionWith::out::Error | [409](../../magpie/internal/gateway/vision.go#L409) |
+| seenBody | method_declaration |  | [432](../../magpie/internal/gateway/vision.go#L432) |
+| srcs | var_spec | seenBody | [436](../../magpie/internal/gateway/vision.go#L436) |
+| result | type_spec | seenBody | [445](../../magpie/internal/gateway/vision.go#L445) |
+| text | field_declaration | seenBody::result | [446](../../magpie/internal/gateway/vision.go#L446) |
+| err | field_declaration | seenBody::result | [447](../../magpie/internal/gateway/vision.go#L447) |
+| wg | var_spec | seenBody | [450](../../magpie/internal/gateway/vision.go#L450) |
 | smallModelWhere | function_declaration |  | [489](../../magpie/internal/gateway/vision.go#L489) |

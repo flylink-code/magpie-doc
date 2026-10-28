@@ -8,15 +8,33 @@ Source SHA-256: 1b5af85dd43a05d3edac12fa37a65cbedbe806f82781b1c48c0aed094dc476f9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| g | var_spec | parseGain | [785](../../magpie/internal/library/rtk.go#L785) |
+| Summary | field_declaration | parseGain::g | [786](../../magpie/internal/library/rtk.go#L786) |
+| Commands | field_declaration | parseGain::g::Summary | [787](../../magpie/internal/library/rtk.go#L787) |
+| Input | field_declaration | parseGain::g::Summary | [788](../../magpie/internal/library/rtk.go#L788) |
+| Saved | field_declaration | parseGain::g::Summary | [789](../../magpie/internal/library/rtk.go#L789) |
+| Pct | field_declaration | parseGain::g::Summary | [790](../../magpie/internal/library/rtk.go#L790) |
+| Daily | field_declaration | parseGain::g | [792](../../magpie/internal/library/rtk.go#L792) |
+| Date | field_declaration | parseGain::g::Daily | [793](../../magpie/internal/library/rtk.go#L793) |
+| Commands | field_declaration | parseGain::g::Daily | [794](../../magpie/internal/library/rtk.go#L794) |
+| Input | field_declaration | parseGain::g::Daily | [795](../../magpie/internal/library/rtk.go#L795) |
+| Saved | field_declaration | parseGain::g::Daily | [796](../../magpie/internal/library/rtk.go#L796) |
+| Pct | field_declaration | parseGain::g::Daily | [797](../../magpie/internal/library/rtk.go#L797) |
+| days | var_spec | parseGain | [808](../../magpie/internal/library/rtk.go#L808) |
+| codexSandbox | function_declaration |  | [825](../../magpie/internal/library/rtk.go#L825) |
 | codexSandboxIn | function_declaration |  | [833](../../magpie/internal/library/rtk.go#L833) |
-| SandboxMode | field_declaration | codexSandboxIn | [835](../../magpie/internal/library/rtk.go#L835) |
-| Windows | field_declaration | codexSandboxIn | [836](../../magpie/internal/library/rtk.go#L836) |
-| Sandbox | field_declaration | codexSandboxIn | [837](../../magpie/internal/library/rtk.go#L837) |
-| Features | field_declaration | codexSandboxIn | [839](../../magpie/internal/library/rtk.go#L839) |
+| c | var_spec | codexSandboxIn | [834](../../magpie/internal/library/rtk.go#L834) |
+| SandboxMode | field_declaration | codexSandboxIn::c | [835](../../magpie/internal/library/rtk.go#L835) |
+| Windows | field_declaration | codexSandboxIn::c | [836](../../magpie/internal/library/rtk.go#L836) |
+| Sandbox | field_declaration | codexSandboxIn::c::Windows | [837](../../magpie/internal/library/rtk.go#L837) |
+| Features | field_declaration | codexSandboxIn::c | [839](../../magpie/internal/library/rtk.go#L839) |
 | shown | function_declaration |  | [858](../../magpie/internal/library/rtk.go#L858) |
 | SetRTK | function_declaration |  | [873](../../magpie/internal/library/rtk.go#L873) |
+| a | var_spec | SetRTK | [876](../../magpie/internal/library/rtk.go#L876) |
 | rtkInstall | function_declaration |  | [929](../../magpie/internal/library/rtk.go#L929) |
+| env | var_spec | rtkInstall | [938](../../magpie/internal/library/rtk.go#L938) |
 | rtkScript | const_spec |  | [961](../../magpie/internal/library/rtk.go#L961) |
 | rtkInstaller | function_declaration |  | [965](../../magpie/internal/library/rtk.go#L965) |
 | InstallRTK | function_declaration |  | [982](../../magpie/internal/library/rtk.go#L982) |
 | RTKTakes | function_declaration |  | [1004](../../magpie/internal/library/rtk.go#L1004) |
+| ids | var_spec | RTKTakes | [1013](../../magpie/internal/library/rtk.go#L1013) |

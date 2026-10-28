@@ -8,10 +8,10 @@ Source SHA-256: 7f3a03bc1a94f070fd63274a7432dab4a963ba00b7379117b17fc3f12c61064b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keyRow | struct_type |  | [17](../../magpie/internal/gui/caller_keys.go#L17) |
+| keyRow | type_spec |  | [17](../../magpie/internal/gui/caller_keys.go#L17) |
 | Used | field_declaration | keyRow | [19](../../magpie/internal/gui/caller_keys.go#L19) |
 | UsedAll | field_declaration | keyRow | [20](../../magpie/internal/gui/caller_keys.go#L20) |
-| keyModelJSON | struct_type |  | [25](../../magpie/internal/gui/caller_keys.go#L25) |
+| keyModelJSON | type_spec |  | [25](../../magpie/internal/gui/caller_keys.go#L25) |
 | ID | field_declaration | keyModelJSON | [26](../../magpie/internal/gui/caller_keys.go#L26) |
 | Name | field_declaration | keyModelJSON | [27](../../magpie/internal/gui/caller_keys.go#L27) |
 | Provider | field_declaration | keyModelJSON | [28](../../magpie/internal/gui/caller_keys.go#L28) |
@@ -22,3 +22,4 @@ Source SHA-256: 7f3a03bc1a94f070fd63274a7432dab4a963ba00b7379117b17fc3f12c61064b
 | Plan | field_declaration | keyModelJSON | [33](../../magpie/internal/gui/caller_keys.go#L33) |
 | withLimits | function_declaration |  | [36](../../magpie/internal/gui/caller_keys.go#L36) |
 | callerKeyRoutes | function_declaration |  | [49](../../magpie/internal/gui/caller_keys.go#L49) |
+| in | var_spec | callerKeyRoutes | [92](../../magpie/internal/gui/caller_keys.go#L92) |

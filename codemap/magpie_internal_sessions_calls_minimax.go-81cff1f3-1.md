@@ -12,15 +12,17 @@ Source SHA-256: 244afcca057a1a444d9c8756004d7e7340f6d821c88e982c33093d754e9e9a57
 | minimaxSessions | function_declaration |  | [44](../../magpie/internal/sessions/calls_minimax.go#L44) |
 | mcodeGateway | const_spec |  | [47](../../magpie/internal/sessions/calls_minimax.go#L47) |
 | minimaxCallFiles | function_declaration |  | [53](../../magpie/internal/sessions/calls_minimax.go#L53) |
+| out | var_spec | minimaxCallFiles | [54](../../magpie/internal/sessions/calls_minimax.go#L54) |
 | minimaxSessionID | function_declaration |  | [74](../../magpie/internal/sessions/calls_minimax.go#L74) |
-| mcodeLine | struct_type |  | [87](../../magpie/internal/sessions/calls_minimax.go#L87) |
+| mcodeLine | type_spec |  | [87](../../magpie/internal/sessions/calls_minimax.go#L87) |
 | MessageID | field_declaration | mcodeLine | [88](../../magpie/internal/sessions/calls_minimax.go#L88) |
 | Message | field_declaration | mcodeLine | [89](../../magpie/internal/sessions/calls_minimax.go#L89) |
-| Role | field_declaration | mcodeLine | [90](../../magpie/internal/sessions/calls_minimax.go#L90) |
-| Provider | field_declaration | mcodeLine | [91](../../magpie/internal/sessions/calls_minimax.go#L91) |
-| Model | field_declaration | mcodeLine | [92](../../magpie/internal/sessions/calls_minimax.go#L92) |
-| Usage | field_declaration | mcodeLine | [93](../../magpie/internal/sessions/calls_minimax.go#L93) |
-| Timestamp | field_declaration | mcodeLine | [94](../../magpie/internal/sessions/calls_minimax.go#L94) |
+| Role | field_declaration | mcodeLine::Message | [90](../../magpie/internal/sessions/calls_minimax.go#L90) |
+| Provider | field_declaration | mcodeLine::Message | [91](../../magpie/internal/sessions/calls_minimax.go#L91) |
+| Model | field_declaration | mcodeLine::Message | [92](../../magpie/internal/sessions/calls_minimax.go#L92) |
+| Usage | field_declaration | mcodeLine::Message | [93](../../magpie/internal/sessions/calls_minimax.go#L93) |
+| Timestamp | field_declaration | mcodeLine::Message | [94](../../magpie/internal/sessions/calls_minimax.go#L94) |
 | mcodeAsst | var_spec |  | [98](../../magpie/internal/sessions/calls_minimax.go#L98) |
 | readMiniMaxCalls | function_declaration |  | [102](../../magpie/internal/sessions/calls_minimax.go#L102) |
+| l | var_spec | readMiniMaxCalls | [117](../../magpie/internal/sessions/calls_minimax.go#L117) |
 | minimaxCall | function_declaration |  | [132](../../magpie/internal/sessions/calls_minimax.go#L132) |

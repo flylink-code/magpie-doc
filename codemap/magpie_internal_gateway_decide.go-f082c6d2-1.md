@@ -12,67 +12,85 @@ Source SHA-256: 334b72a73248bc49fae4dd2d7cb5eec537fe56691eff53eb9f1fb29016ecf13e
 | sureOf | function_declaration |  | [46](../../magpie/internal/gateway/decide.go#L46) |
 | noIntent | const_spec |  | [61](../../magpie/internal/gateway/decide.go#L61) |
 | jevLevels | var_spec |  | [65](../../magpie/internal/gateway/decide.go#L65) |
+| effort | field_declaration | jevLevels | [65](../../magpie/internal/gateway/decide.go#L65) |
 | levelWork | var_spec |  | [74](../../magpie/internal/gateway/decide.go#L74) |
 | levelsOf | function_declaration |  | [87](../../magpie/internal/gateway/decide.go#L87) |
 | jevBody | function_declaration |  | [129](../../magpie/internal/gateway/decide.go#L129) |
 | jevState | function_declaration |  | [177](../../magpie/internal/gateway/decide.go#L177) |
 | intentAsk | function_declaration |  | [194](../../magpie/internal/gateway/decide.go#L194) |
 | priorAsk | function_declaration |  | [204](../../magpie/internal/gateway/decide.go#L204) |
+| keys | var_spec | priorAsk | [205](../../magpie/internal/gateway/decide.go#L205) |
 | levelAsk | function_declaration |  | [220](../../magpie/internal/gateway/decide.go#L220) |
 | effortAsk | function_declaration |  | [228](../../magpie/internal/gateway/decide.go#L228) |
 | readJev | function_declaration |  | [238](../../magpie/internal/gateway/decide.go#L238) |
-| Model | field_declaration | readJev | [240](../../magpie/internal/gateway/decide.go#L240) |
-| Answers | field_declaration | readJev | [241](../../magpie/internal/gateway/decide.go#L241) |
-| Choice | field_declaration | readJev | [242](../../magpie/internal/gateway/decide.go#L242) |
-| Score | field_declaration | readJev | [243](../../magpie/internal/gateway/decide.go#L243) |
-| Confidence | field_declaration | readJev | [244](../../magpie/internal/gateway/decide.go#L244) |
-| Probabilities | field_declaration | readJev | [245](../../magpie/internal/gateway/decide.go#L245) |
-| Usage | field_declaration | readJev | [247](../../magpie/internal/gateway/decide.go#L247) |
-| Input | field_declaration | readJev | [248](../../magpie/internal/gateway/decide.go#L248) |
-| Output | field_declaration | readJev | [249](../../magpie/internal/gateway/decide.go#L249) |
+| out | var_spec | readJev | [239](../../magpie/internal/gateway/decide.go#L239) |
+| Model | field_declaration | readJev::out | [240](../../magpie/internal/gateway/decide.go#L240) |
+| Answers | field_declaration | readJev::out | [241](../../magpie/internal/gateway/decide.go#L241) |
+| Choice | field_declaration | readJev::out::Answers | [242](../../magpie/internal/gateway/decide.go#L242) |
+| Score | field_declaration | readJev::out::Answers | [243](../../magpie/internal/gateway/decide.go#L243) |
+| Confidence | field_declaration | readJev::out::Answers | [244](../../magpie/internal/gateway/decide.go#L244) |
+| Probabilities | field_declaration | readJev::out::Answers | [245](../../magpie/internal/gateway/decide.go#L245) |
+| Usage | field_declaration | readJev::out | [247](../../magpie/internal/gateway/decide.go#L247) |
+| Input | field_declaration | readJev::out::Usage | [248](../../magpie/internal/gateway/decide.go#L248) |
+| Output | field_declaration | readJev::out::Usage | [249](../../magpie/internal/gateway/decide.go#L249) |
+| v | var_spec | readJev | [255](../../magpie/internal/gateway/decide.go#L255) |
 | intentNamed | function_declaration |  | [282](../../magpie/internal/gateway/decide.go#L282) |
 | levelled | var_spec |  | [294](../../magpie/internal/gateway/decide.go#L294) |
-| levelling | struct_type |  | [299](../../magpie/internal/gateway/decide.go#L299) |
+| m | field_declaration | levelled | [296](../../magpie/internal/gateway/decide.go#L296) |
+| levelling | type_spec |  | [299](../../magpie/internal/gateway/decide.go#L299) |
 | levels | field_declaration | levelling | [300](../../magpie/internal/gateway/decide.go#L300) |
 | work | field_declaration | levelling | [301](../../magpie/internal/gateway/decide.go#L301) |
-| jevLevelled | method_declaration | *Server | [308](../../magpie/internal/gateway/decide.go#L308) |
-| Answers | field_declaration | *Server.jevLevelled | [329](../../magpie/internal/gateway/decide.go#L329) |
-| Noul | field_declaration | *Server.jevLevelled | [330](../../magpie/internal/gateway/decide.go#L330) |
-| Score | field_declaration | *Server.jevLevelled | [331](../../magpie/internal/gateway/decide.go#L331) |
+| jevLevelled | method_declaration |  | [308](../../magpie/internal/gateway/decide.go#L308) |
+| out | var_spec | jevLevelled | [328](../../magpie/internal/gateway/decide.go#L328) |
+| Answers | field_declaration | jevLevelled::out | [329](../../magpie/internal/gateway/decide.go#L329) |
+| Noul | field_declaration | jevLevelled::out::Answers | [330](../../magpie/internal/gateway/decide.go#L330) |
+| Score | field_declaration | jevLevelled::out::Answers | [331](../../magpie/internal/gateway/decide.go#L331) |
 | errNoAnswer | var_spec |  | [355](../../magpie/internal/gateway/decide.go#L355) |
-| askJev | method_declaration | *Server | [358](../../magpie/internal/gateway/decide.go#L358) |
+| askJev | method_declaration |  | [358](../../magpie/internal/gateway/decide.go#L358) |
+| err | var_spec | askJev | [378](../../magpie/internal/gateway/decide.go#L378) |
+| l | var_spec | askJev | [383](../../magpie/internal/gateway/decide.go#L383) |
+| err | var_spec | askJev | [385](../../magpie/internal/gateway/decide.go#L385) |
 | maskedState | function_declaration |  | [398](../../magpie/internal/gateway/decide.go#L398) |
-| systemOne | method_declaration | *Server | [419](../../magpie/internal/gateway/decide.go#L419) |
-| Model | field_declaration | *Server.systemOne | [432](../../magpie/internal/gateway/decide.go#L432) |
-| Usage | field_declaration | *Server.systemOne | [433](../../magpie/internal/gateway/decide.go#L433) |
-| Input | field_declaration | *Server.systemOne | [434](../../magpie/internal/gateway/decide.go#L434) |
-| Output | field_declaration | *Server.systemOne | [435](../../magpie/internal/gateway/decide.go#L435) |
-| postDecide | method_declaration | *Server | [453](../../magpie/internal/gateway/decide.go#L453) |
+| all | var_spec | maskedState | [400](../../magpie/internal/gateway/decide.go#L400) |
+| systemOne | method_declaration |  | [419](../../magpie/internal/gateway/decide.go#L419) |
+| use | var_spec | systemOne | [431](../../magpie/internal/gateway/decide.go#L431) |
+| Model | field_declaration | systemOne::use | [432](../../magpie/internal/gateway/decide.go#L432) |
+| Usage | field_declaration | systemOne::use | [433](../../magpie/internal/gateway/decide.go#L433) |
+| Input | field_declaration | systemOne::use::Usage | [434](../../magpie/internal/gateway/decide.go#L434) |
+| Output | field_declaration | systemOne::use::Usage | [435](../../magpie/internal/gateway/decide.go#L435) |
+| keyID | var_spec | systemOne | [439](../../magpie/internal/gateway/decide.go#L439) |
+| postDecide | method_declaration |  | [453](../../magpie/internal/gateway/decide.go#L453) |
 | maxSystemOneBody | const_spec |  | [503](../../magpie/internal/gateway/decide.go#L503) |
-| serveSystemOne | method_declaration | *Server | [510](../../magpie/internal/gateway/decide.go#L510) |
-| Model | field_declaration | *Server.serveSystemOne | [516](../../magpie/internal/gateway/decide.go#L516) |
+| serveSystemOne | method_declaration |  | [510](../../magpie/internal/gateway/decide.go#L510) |
+| q | var_spec | serveSystemOne | [515](../../magpie/internal/gateway/decide.go#L515) |
+| Model | field_declaration | serveSystemOne::q | [516](../../magpie/internal/gateway/decide.go#L516) |
+| held | var_spec | serveSystemOne | [571](../../magpie/internal/gateway/decide.go#L571) |
 | withEffort | function_declaration |  | [592](../../magpie/internal/gateway/decide.go#L592) |
-| ReasoningEffort | field_declaration | withEffort | [594](../../magpie/internal/gateway/decide.go#L594) |
-| Reasoning | field_declaration | withEffort | [595](../../magpie/internal/gateway/decide.go#L595) |
-| Effort | field_declaration | withEffort | [596](../../magpie/internal/gateway/decide.go#L596) |
-| Thinking | field_declaration | withEffort | [598](../../magpie/internal/gateway/decide.go#L598) |
-| Type | field_declaration | withEffort | [599](../../magpie/internal/gateway/decide.go#L599) |
-| OutputConfig | field_declaration | withEffort | [601](../../magpie/internal/gateway/decide.go#L601) |
-| MaxTokens | field_declaration | withEffort | [602](../../magpie/internal/gateway/decide.go#L602) |
+| v | var_spec | withEffort | [593](../../magpie/internal/gateway/decide.go#L593) |
+| ReasoningEffort | field_declaration | withEffort::v | [594](../../magpie/internal/gateway/decide.go#L594) |
+| Reasoning | field_declaration | withEffort::v | [595](../../magpie/internal/gateway/decide.go#L595) |
+| Effort | field_declaration | withEffort::v::Reasoning | [596](../../magpie/internal/gateway/decide.go#L596) |
+| Thinking | field_declaration | withEffort::v | [598](../../magpie/internal/gateway/decide.go#L598) |
+| Type | field_declaration | withEffort::v::Thinking | [599](../../magpie/internal/gateway/decide.go#L599) |
+| OutputConfig | field_declaration | withEffort::v | [601](../../magpie/internal/gateway/decide.go#L601) |
+| MaxTokens | field_declaration | withEffort::v | [602](../../magpie/internal/gateway/decide.go#L602) |
 | requestEffort | function_declaration |  | [659](../../magpie/internal/gateway/decide.go#L659) |
-| Thinking | field_declaration | requestEffort | [664](../../magpie/internal/gateway/decide.go#L664) |
-| Type | field_declaration | requestEffort | [665](../../magpie/internal/gateway/decide.go#L665) |
-| Budget | field_declaration | requestEffort | [666](../../magpie/internal/gateway/decide.go#L666) |
-| OutputConfig | field_declaration | requestEffort | [668](../../magpie/internal/gateway/decide.go#L668) |
-| Effort | field_declaration | requestEffort | [669](../../magpie/internal/gateway/decide.go#L669) |
+| v | var_spec | requestEffort | [663](../../magpie/internal/gateway/decide.go#L663) |
+| Thinking | field_declaration | requestEffort::v | [664](../../magpie/internal/gateway/decide.go#L664) |
+| Type | field_declaration | requestEffort::v::Thinking | [665](../../magpie/internal/gateway/decide.go#L665) |
+| Budget | field_declaration | requestEffort::v::Thinking | [666](../../magpie/internal/gateway/decide.go#L666) |
+| OutputConfig | field_declaration | requestEffort::v | [668](../../magpie/internal/gateway/decide.go#L668) |
+| Effort | field_declaration | requestEffort::v::OutputConfig | [669](../../magpie/internal/gateway/decide.go#L669) |
 | sentEffort | function_declaration |  | [683](../../magpie/internal/gateway/decide.go#L683) |
 | fitFor | function_declaration |  | [696](../../magpie/internal/gateway/decide.go#L696) |
 | fitLevel | function_declaration |  | [708](../../magpie/internal/gateway/decide.go#L708) |
 | withFixedEffort | function_declaration |  | [720](../../magpie/internal/gateway/decide.go#L720) |
-| Reasoning | field_declaration | withFixedEffort | [729](../../magpie/internal/gateway/decide.go#L729) |
-| Thinking | field_declaration | withFixedEffort | [741](../../magpie/internal/gateway/decide.go#L741) |
-| Type | field_declaration | withFixedEffort | [742](../../magpie/internal/gateway/decide.go#L742) |
-| MaxTokens | field_declaration | withFixedEffort | [744](../../magpie/internal/gateway/decide.go#L744) |
+| v | var_spec | withFixedEffort | [728](../../magpie/internal/gateway/decide.go#L728) |
+| Reasoning | field_declaration | withFixedEffort::v | [729](../../magpie/internal/gateway/decide.go#L729) |
+| v | var_spec | withFixedEffort | [740](../../magpie/internal/gateway/decide.go#L740) |
+| Thinking | field_declaration | withFixedEffort::v | [741](../../magpie/internal/gateway/decide.go#L741) |
+| Type | field_declaration | withFixedEffort::v::Thinking | [742](../../magpie/internal/gateway/decide.go#L742) |
+| MaxTokens | field_declaration | withFixedEffort::v | [744](../../magpie/internal/gateway/decide.go#L744) |
 | groupLevels | function_declaration |  | [775](../../magpie/internal/gateway/decide.go#L775) |
 | withinLevels | function_declaration |  | [793](../../magpie/internal/gateway/decide.go#L793) |
 | agentEffort | function_declaration |  | [803](../../magpie/internal/gateway/decide.go#L803) |

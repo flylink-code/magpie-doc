@@ -15,3 +15,4 @@ Source SHA-256: 2d688c8cf5f3c5e22308ef040f9a92468d7b843e7bfc058a59bec87dc2f38089
 | ruleCmd | function_declaration |  | [107](../../magpie/internal/cli/groups_rules_cli.go#L107) |
 | ruleLine | function_declaration |  | [201](../../magpie/internal/cli/groups_rules_cli.go#L201) |
 | pruneRules | function_declaration |  | [214](../../magpie/internal/cli/groups_rules_cli.go#L214) |
+| keep | var_spec | pruneRules | [215](../../magpie/internal/cli/groups_rules_cli.go#L215) |

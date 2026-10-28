@@ -11,17 +11,22 @@ Source SHA-256: c69e4bd3d2ef436a295aa8536538a305ec2d10abd68fef1451ba4cb1d5a5eccf
 | cacheMagic | const_spec |  | [27](../../magpie/internal/pii/cache.go#L27) |
 | cachePath | function_declaration |  | [29](../../magpie/internal/pii/cache.go#L29) |
 | saveAfter | var_spec |  | [33](../../magpie/internal/pii/cache.go#L33) |
-| diskState | struct_type |  | [37](../../magpie/internal/pii/cache.go#L37) |
+| diskState | type_spec |  | [37](../../magpie/internal/pii/cache.go#L37) |
 | mu | field_declaration | diskState | [38](../../magpie/internal/pii/cache.go#L38) |
 | loaded | field_declaration | diskState | [39](../../magpie/internal/pii/cache.go#L39) |
 | timer | field_declaration | diskState | [40](../../magpie/internal/pii/cache.go#L40) |
 | saving | field_declaration | diskState | [41](../../magpie/internal/pii/cache.go#L41) |
 | saves | field_declaration | diskState | [44](../../magpie/internal/pii/cache.go#L44) |
 | disk | var_spec |  | [47](../../magpie/internal/pii/cache.go#L47) |
-| loadCache | method_declaration | *backend | [50](../../magpie/internal/pii/cache.go#L50) |
-| saveSoon | method_declaration | *backend | [77](../../magpie/internal/pii/cache.go#L77) |
+| loadCache | method_declaration |  | [50](../../magpie/internal/pii/cache.go#L50) |
+| saveSoon | method_declaration |  | [77](../../magpie/internal/pii/cache.go#L77) |
 | saveCache | function_declaration |  | [95](../../magpie/internal/pii/cache.go#L95) |
-| saveCache | method_declaration | *backend | [97](../../magpie/internal/pii/cache.go#L97) |
+| saveCache | method_declaration |  | [97](../../magpie/internal/pii/cache.go#L97) |
 | encodeCache | function_declaration |  | [127](../../magpie/internal/pii/cache.go#L127) |
+| b | var_spec | encodeCache | [128](../../magpie/internal/pii/cache.go#L128) |
 | errBadCache | var_spec |  | [150](../../magpie/internal/pii/cache.go#L150) |
 | decodeCache | function_declaration |  | [152](../../magpie/internal/pii/cache.go#L152) |
+| n | var_spec | decodeCache | [157](../../magpie/internal/pii/cache.go#L157) |
+| e | var_spec | decodeCache | [166](../../magpie/internal/pii/cache.go#L166) |
+| spans | var_spec | decodeCache | [170](../../magpie/internal/pii/cache.go#L170) |
+| se | var_spec | decodeCache | [175](../../magpie/internal/pii/cache.go#L175) |

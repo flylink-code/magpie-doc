@@ -13,8 +13,8 @@ Source SHA-256: e1546d54b458e15630ea514bf86622af23fb2ce4a18b3e44c07f1da0da4bd064
 | OneAuthOrder | var_spec |  | [18](../../magpie/internal/catalog/authheader.go#L18) |
 | BothAuthRefused | function_declaration |  | [23](../../magpie/internal/catalog/authheader.go#L23) |
 | OneAuth | function_declaration |  | [46](../../magpie/internal/catalog/authheader.go#L46) |
-| listAuthKey | struct_type |  | [55](../../magpie/internal/catalog/authheader.go#L55) |
-| listAuth | struct_type |  | [57](../../magpie/internal/catalog/authheader.go#L57) |
+| listAuthKey | type_spec |  | [55](../../magpie/internal/catalog/authheader.go#L55) |
+| listAuth | type_spec |  | [57](../../magpie/internal/catalog/authheader.go#L57) |
 | only | field_declaration | listAuth | [58](../../magpie/internal/catalog/authheader.go#L58) |
 | learned | field_declaration | listAuth | [59](../../magpie/internal/catalog/authheader.go#L59) |
 | WithListAuth | function_declaration |  | [66](../../magpie/internal/catalog/authheader.go#L66) |

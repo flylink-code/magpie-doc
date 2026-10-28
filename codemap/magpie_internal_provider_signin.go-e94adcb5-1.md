@@ -14,7 +14,7 @@ Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
 | signInTimeout | var_spec |  | [48](../../magpie/internal/provider/signin.go#L48) |
 | devicePollFloor | var_spec |  | [54](../../magpie/internal/provider/signin.go#L54) |
 | devicePoll | function_declaration |  | [58](../../magpie/internal/provider/signin.go#L58) |
-| SignInState | struct_type |  | [63](../../magpie/internal/provider/signin.go#L63) |
+| SignInState | type_spec |  | [63](../../magpie/internal/provider/signin.go#L63) |
 | ID | field_declaration | SignInState | [64](../../magpie/internal/provider/signin.go#L64) |
 | Agent | field_declaration | SignInState | [65](../../magpie/internal/provider/signin.go#L65) |
 | URL | field_declaration | SignInState | [66](../../magpie/internal/provider/signin.go#L66) |
@@ -35,7 +35,7 @@ Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
 | CallbackBlocked | field_declaration | SignInState | [94](../../magpie/internal/provider/signin.go#L94) |
 | CallbackPort | field_declaration | SignInState | [95](../../magpie/internal/provider/signin.go#L95) |
 | Proxy | field_declaration | SignInState | [98](../../magpie/internal/provider/signin.go#L98) |
-| signInFlow | struct_type |  | [101](../../magpie/internal/provider/signin.go#L101) |
+| signInFlow | type_spec |  | [101](../../magpie/internal/provider/signin.go#L101) |
 | mu | field_declaration | signInFlow | [102](../../magpie/internal/provider/signin.go#L102) |
 | st | field_declaration | signInFlow | [103](../../magpie/internal/provider/signin.go#L103) |
 | verifier | field_declaration | signInFlow | [104](../../magpie/internal/provider/signin.go#L104) |
@@ -49,7 +49,6 @@ Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
 | pluginPorts | field_declaration | signInFlow | [114](../../magpie/internal/provider/signin.go#L114) |
 | pluginKey | field_declaration | signInFlow | [118](../../magpie/internal/provider/signin.go#L118) |
 | nonce | field_declaration | signInFlow | [122](../../magpie/internal/provider/signin.go#L122) |
-| hostID | field_declaration | signInFlow | [122](../../magpie/internal/provider/signin.go#L122) |
 | claimed | field_declaration | signInFlow | [125](../../magpie/internal/provider/signin.go#L125) |
 | finished | field_declaration | signInFlow | [128](../../magpie/internal/provider/signin.go#L128) |
 | kept | field_declaration | signInFlow | [130](../../magpie/internal/provider/signin.go#L130) |
@@ -57,54 +56,55 @@ Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
 | proxy | field_declaration | signInFlow | [137](../../magpie/internal/provider/signin.go#L137) |
 | chosen | field_declaration | signInFlow | [138](../../magpie/internal/provider/signin.go#L138) |
 | user | field_declaration | signInFlow | [140](../../magpie/internal/provider/signin.go#L140) |
-| SignInOptions | struct_type |  | [144](../../magpie/internal/provider/signin.go#L144) |
+| SignInOptions | type_spec |  | [144](../../magpie/internal/provider/signin.go#L144) |
 | Site | field_declaration | SignInOptions | [145](../../magpie/internal/provider/signin.go#L145) |
 | Proxy | field_declaration | SignInOptions | [150](../../magpie/internal/provider/signin.go#L150) |
 | User | field_declaration | SignInOptions | [152](../../magpie/internal/provider/signin.go#L152) |
-| via | method_declaration | *signInFlow | [159](../../magpie/internal/provider/signin.go#L159) |
-| signInKey | struct_type |  | [163](../../magpie/internal/provider/signin.go#L163) |
+| via | method_declaration |  | [159](../../magpie/internal/provider/signin.go#L159) |
+| signInKey | type_spec |  | [163](../../magpie/internal/provider/signin.go#L163) |
 | errSignInOver | var_spec |  | [167](../../magpie/internal/provider/signin.go#L167) |
 | keepLogin | function_declaration |  | [174](../../magpie/internal/provider/signin.go#L174) |
-| keep | method_declaration | *signInFlow | [185](../../magpie/internal/provider/signin.go#L185) |
-| pickProxy | method_declaration | *signInFlow | [199](../../magpie/internal/provider/signin.go#L199) |
+| keep | method_declaration |  | [185](../../magpie/internal/provider/signin.go#L185) |
+| pickProxy | method_declaration |  | [199](../../magpie/internal/provider/signin.go#L199) |
 | signIns | var_spec |  | [213](../../magpie/internal/provider/signin.go#L213) |
+| m | field_declaration | signIns | [215](../../magpie/internal/provider/signin.go#L215) |
 | randomToken | function_declaration |  | [218](../../magpie/internal/provider/signin.go#L218) |
 | StartSignIn | function_declaration |  | [229](../../magpie/internal/provider/signin.go#L229) |
 | StartSignInAt | function_declaration |  | [237](../../magpie/internal/provider/signin.go#L237) |
 | StartSignInWith | function_declaration |  | [243](../../magpie/internal/provider/signin.go#L243) |
-| installThenBegin | method_declaration | *signInFlow | [296](../../magpie/internal/provider/signin.go#L296) |
-| begin | method_declaration | *signInFlow | [328](../../magpie/internal/provider/signin.go#L328) |
+| installing | var_spec | StartSignInWith | [259](../../magpie/internal/provider/signin.go#L259) |
+| installThenBegin | method_declaration |  | [296](../../magpie/internal/provider/signin.go#L296) |
+| begin | method_declaration |  | [328](../../magpie/internal/provider/signin.go#L328) |
+| ln | var_spec | begin | [333](../../magpie/internal/provider/signin.go#L333) |
+| err | var_spec | begin | [334](../../magpie/internal/provider/signin.go#L334) |
 | callbackBlocked | function_declaration |  | [423](../../magpie/internal/provider/signin.go#L423) |
+| errno | var_spec | callbackBlocked | [424](../../magpie/internal/provider/signin.go#L424) |
 | listenCodexCallback | function_declaration |  | [433](../../magpie/internal/provider/signin.go#L433) |
+| err | var_spec | listenCodexCallback | [434](../../magpie/internal/provider/signin.go#L434) |
+| ln | var_spec | listenCodexCallback | [436](../../magpie/internal/provider/signin.go#L436) |
 | SignInStatus | function_declaration |  | [453](../../magpie/internal/provider/signin.go#L453) |
 | CancelSignIn | function_declaration |  | [464](../../magpie/internal/provider/signin.go#L464) |
 | SubmitSignInCallback | function_declaration |  | [476](../../magpie/internal/provider/signin.go#L476) |
-| pastedCallback | method_declaration | *signInFlow | [504](../../magpie/internal/provider/signin.go#L504) |
-| ownCallback | method_declaration | *signInFlow | [555](../../magpie/internal/provider/signin.go#L555) |
-| pastedReply | struct_type |  | [571](../../magpie/internal/provider/signin.go#L571) |
+| pastedCallback | method_declaration |  | [504](../../magpie/internal/provider/signin.go#L504) |
+| ownCallback | method_declaration |  | [555](../../magpie/internal/provider/signin.go#L555) |
+| pastedReply | type_spec |  | [571](../../magpie/internal/provider/signin.go#L571) |
 | h | field_declaration | pastedReply | [572](../../magpie/internal/provider/signin.go#L572) |
 | code | field_declaration | pastedReply | [573](../../magpie/internal/provider/signin.go#L573) |
-| Header | method_declaration | *pastedReply | [576](../../magpie/internal/provider/signin.go#L576) |
-| WriteHeader | method_declaration | *pastedReply | [577](../../magpie/internal/provider/signin.go#L577) |
-| Write | method_declaration | *pastedReply | [582](../../magpie/internal/provider/signin.go#L582) |
-| claim | method_declaration | *signInFlow | [589](../../magpie/internal/provider/signin.go#L589) |
+| Header | method_declaration |  | [576](../../magpie/internal/provider/signin.go#L576) |
+| WriteHeader | method_declaration |  | [577](../../magpie/internal/provider/signin.go#L577) |
+| Write | method_declaration |  | [582](../../magpie/internal/provider/signin.go#L582) |
+| claim | method_declaration |  | [589](../../magpie/internal/provider/signin.go#L589) |
 | WaitSignIn | function_declaration |  | [600](../../magpie/internal/provider/signin.go#L600) |
-| status | method_declaration | *signInFlow | [616](../../magpie/internal/provider/signin.go#L616) |
-| finish | method_declaration | *signInFlow | [625](../../magpie/internal/provider/signin.go#L625) |
-| callback | method_declaration | *signInFlow | [666](../../magpie/internal/provider/signin.go#L666) |
-| googleDone | method_declaration | *signInFlow | [726](../../magpie/internal/provider/signin.go#L726) |
-| exchange | method_declaration | *signInFlow | [745](../../magpie/internal/provider/signin.go#L745) |
+| status | method_declaration |  | [616](../../magpie/internal/provider/signin.go#L616) |
+| finish | method_declaration |  | [625](../../magpie/internal/provider/signin.go#L625) |
+| callback | method_declaration |  | [666](../../magpie/internal/provider/signin.go#L666) |
+| using | var_spec | callback | [713](../../magpie/internal/provider/signin.go#L713) |
+| googleDone | method_declaration |  | [726](../../magpie/internal/provider/signin.go#L726) |
+| exchange | method_declaration |  | [745](../../magpie/internal/provider/signin.go#L745) |
 | postToken | function_declaration |  | [749](../../magpie/internal/provider/signin.go#L749) |
 | postTokenAs | function_declaration |  | [755](../../magpie/internal/provider/signin.go#L755) |
-| Error | field_declaration | postTokenAs | [773](../../magpie/internal/provider/signin.go#L773) |
-| ErrorDescription | field_declaration | postTokenAs | [774](../../magpie/internal/provider/signin.go#L774) |
-| Detail | field_declaration | postTokenAs | [775](../../magpie/internal/provider/signin.go#L775) |
-| Message | field_declaration | postTokenAs | [776](../../magpie/internal/provider/signin.go#L776) |
-| tokenRefused | struct_type |  | [802](../../magpie/internal/provider/signin.go#L802) |
-| status | field_declaration | tokenRefused | [803](../../magpie/internal/provider/signin.go#L803) |
-| msg | field_declaration | tokenRefused | [804](../../magpie/internal/provider/signin.go#L804) |
-| Error | method_declaration | *tokenRefused | [807](../../magpie/internal/provider/signin.go#L807) |
-| claudeLogin | function_declaration |  | [812](../../magpie/internal/provider/signin.go#L812) |
-| codexExchange | function_declaration |  | [825](../../magpie/internal/provider/signin.go#L825) |
-| IDToken | field_declaration | codexExchange | [829](../../magpie/internal/provider/signin.go#L829) |
-| AccessToken | field_declaration | codexExchange | [830](../../magpie/internal/provider/signin.go#L830) |
+| e | var_spec | postTokenAs | [772](../../magpie/internal/provider/signin.go#L772) |
+| Error | field_declaration | postTokenAs::e | [773](../../magpie/internal/provider/signin.go#L773) |
+| ErrorDescription | field_declaration | postTokenAs::e | [774](../../magpie/internal/provider/signin.go#L774) |
+| Detail | field_declaration | postTokenAs::e | [775](../../magpie/internal/provider/signin.go#L775) |
+| Message | field_declaration | postTokenAs::e | [776](../../magpie/internal/provider/signin.go#L776) |

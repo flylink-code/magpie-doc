@@ -12,18 +12,19 @@ Source SHA-256: 15afa24a1c3d23d7ba76c56bd35bb46b454fccd48ed18fcd6c9f6bec117d975d
 | cursorSnapMin | var_spec |  | [22](../../magpie/internal/sessions/cursor_snapshot.go#L22) |
 | cursorSnapStale | var_spec |  | [25](../../magpie/internal/sessions/cursor_snapshot.go#L25) |
 | cursorCopies | var_spec |  | [26](../../magpie/internal/sessions/cursor_snapshot.go#L26) |
-| cursorSnap | struct_type |  | [29](../../magpie/internal/sessions/cursor_snapshot.go#L29) |
+| cursorSnap | type_spec |  | [29](../../magpie/internal/sessions/cursor_snapshot.go#L29) |
 | path | field_declaration | cursorSnap | [30](../../magpie/internal/sessions/cursor_snapshot.go#L30) |
-| dir | field_declaration | cursorSnap | [30](../../magpie/internal/sessions/cursor_snapshot.go#L30) |
-| stamp | field_declaration | cursorSnap | [30](../../magpie/internal/sessions/cursor_snapshot.go#L30) |
 | db | field_declaration | cursorSnap | [31](../../magpie/internal/sessions/cursor_snapshot.go#L31) |
 | users | field_declaration | cursorSnap | [32](../../magpie/internal/sessions/cursor_snapshot.go#L32) |
 | last | field_declaration | cursorSnap | [33](../../magpie/internal/sessions/cursor_snapshot.go#L33) |
 | gone | field_declaration | cursorSnap | [34](../../magpie/internal/sessions/cursor_snapshot.go#L34) |
 | cursorSnaps | var_spec |  | [37](../../magpie/internal/sessions/cursor_snapshot.go#L37) |
+| m | field_declaration | cursorSnaps | [39](../../magpie/internal/sessions/cursor_snapshot.go#L39) |
+| sweep | field_declaration | cursorSnaps | [40](../../magpie/internal/sessions/cursor_snapshot.go#L40) |
 | cursorStamp | function_declaration |  | [44](../../magpie/internal/sessions/cursor_snapshot.go#L44) |
 | sharedCursorStore | function_declaration |  | [58](../../magpie/internal/sessions/cursor_snapshot.go#L58) |
-| release | method_declaration | *cursorSnap | [86](../../magpie/internal/sessions/cursor_snapshot.go#L86) |
-| drop | method_declaration | *cursorSnap | [117](../../magpie/internal/sessions/cursor_snapshot.go#L117) |
+| release | method_declaration |  | [86](../../magpie/internal/sessions/cursor_snapshot.go#L86) |
+| once | var_spec | release | [87](../../magpie/internal/sessions/cursor_snapshot.go#L87) |
+| drop | method_declaration |  | [117](../../magpie/internal/sessions/cursor_snapshot.go#L117) |
 | snapshotCursorStore | function_declaration |  | [124](../../magpie/internal/sessions/cursor_snapshot.go#L124) |
 | sweepCursorSnaps | function_declaration |  | [151](../../magpie/internal/sessions/cursor_snapshot.go#L151) |

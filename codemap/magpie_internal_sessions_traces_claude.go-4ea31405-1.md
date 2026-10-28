@@ -8,36 +8,32 @@ Source SHA-256: d9132f19e94437bfbd771b03bf2a99e846244cb47a23b45b8d549ecd897d291b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeTraceMessage | struct_type |  | [13](../../magpie/internal/sessions/traces_claude.go#L13) |
+| claudeTraceMessage | type_spec |  | [13](../../magpie/internal/sessions/traces_claude.go#L13) |
 | span | field_declaration | claudeTraceMessage | [14](../../magpie/internal/sessions/traces_claude.go#L14) |
 | content | field_declaration | claudeTraceMessage | [15](../../magpie/internal/sessions/traces_claude.go#L15) |
 | stop | field_declaration | claudeTraceMessage | [16](../../magpie/internal/sessions/traces_claude.go#L16) |
-| flushClaude | method_declaration | *traceCursor | [19](../../magpie/internal/sessions/traces_claude.go#L19) |
-| finishClaude | method_declaration | *traceCursor | [32](../../magpie/internal/sessions/traces_claude.go#L32) |
-| claude | method_declaration | *traceCursor | [48](../../magpie/internal/sessions/traces_claude.go#L48) |
-| Type | field_declaration | *traceCursor.claude | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
-| Subtype | field_declaration | *traceCursor.claude | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
-| UUID | field_declaration | *traceCursor.claude | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
-| SessionID | field_declaration | *traceCursor.claude | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
-| Entrypoint | field_declaration | *traceCursor.claude | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
-| Timestamp | field_declaration | *traceCursor.claude | [51](../../magpie/internal/sessions/traces_claude.go#L51) |
-| IsMeta | field_declaration | *traceCursor.claude | [52](../../magpie/internal/sessions/traces_claude.go#L52) |
-| IsApiErrorMessage | field_declaration | *traceCursor.claude | [52](../../magpie/internal/sessions/traces_claude.go#L52) |
-| Message | field_declaration | *traceCursor.claude | [53](../../magpie/internal/sessions/traces_claude.go#L53) |
-| ID | field_declaration | *traceCursor.claude | [54](../../magpie/internal/sessions/traces_claude.go#L54) |
-| Model | field_declaration | *traceCursor.claude | [54](../../magpie/internal/sessions/traces_claude.go#L54) |
-| StopReason | field_declaration | *traceCursor.claude | [55](../../magpie/internal/sessions/traces_claude.go#L55) |
-| Content | field_declaration | *traceCursor.claude | [56](../../magpie/internal/sessions/traces_claude.go#L56) |
-| Usage | field_declaration | *traceCursor.claude | [57](../../magpie/internal/sessions/traces_claude.go#L57) |
-| Input | field_declaration | *traceCursor.claude | [58](../../magpie/internal/sessions/traces_claude.go#L58) |
-| Output | field_declaration | *traceCursor.claude | [59](../../magpie/internal/sessions/traces_claude.go#L59) |
-| CacheRead | field_declaration | *traceCursor.claude | [60](../../magpie/internal/sessions/traces_claude.go#L60) |
-| CacheWrite | field_declaration | *traceCursor.claude | [61](../../magpie/internal/sessions/traces_claude.go#L61) |
-| block | struct_type | *traceCursor.claude | [74](../../magpie/internal/sessions/traces_claude.go#L74) |
-| Type | field_declaration | *traceCursor.claude.block | [75](../../magpie/internal/sessions/traces_claude.go#L75) |
-| ID | field_declaration | *traceCursor.claude.block | [75](../../magpie/internal/sessions/traces_claude.go#L75) |
-| Name | field_declaration | *traceCursor.claude.block | [75](../../magpie/internal/sessions/traces_claude.go#L75) |
-| ToolUseID | field_declaration | *traceCursor.claude.block | [76](../../magpie/internal/sessions/traces_claude.go#L76) |
-| Input | field_declaration | *traceCursor.claude.block | [77](../../magpie/internal/sessions/traces_claude.go#L77) |
-| Content | field_declaration | *traceCursor.claude.block | [77](../../magpie/internal/sessions/traces_claude.go#L77) |
-| IsError | field_declaration | *traceCursor.claude.block | [78](../../magpie/internal/sessions/traces_claude.go#L78) |
+| flushClaude | method_declaration |  | [19](../../magpie/internal/sessions/traces_claude.go#L19) |
+| finishClaude | method_declaration |  | [32](../../magpie/internal/sessions/traces_claude.go#L32) |
+| claude | method_declaration |  | [48](../../magpie/internal/sessions/traces_claude.go#L48) |
+| o | var_spec | claude | [49](../../magpie/internal/sessions/traces_claude.go#L49) |
+| Type | field_declaration | claude::o | [50](../../magpie/internal/sessions/traces_claude.go#L50) |
+| Timestamp | field_declaration | claude::o | [51](../../magpie/internal/sessions/traces_claude.go#L51) |
+| IsMeta | field_declaration | claude::o | [52](../../magpie/internal/sessions/traces_claude.go#L52) |
+| Message | field_declaration | claude::o | [53](../../magpie/internal/sessions/traces_claude.go#L53) |
+| ID | field_declaration | claude::o::Message | [54](../../magpie/internal/sessions/traces_claude.go#L54) |
+| StopReason | field_declaration | claude::o::Message | [55](../../magpie/internal/sessions/traces_claude.go#L55) |
+| Content | field_declaration | claude::o::Message | [56](../../magpie/internal/sessions/traces_claude.go#L56) |
+| Usage | field_declaration | claude::o::Message | [57](../../magpie/internal/sessions/traces_claude.go#L57) |
+| Input | field_declaration | claude::o::Message::Usage | [58](../../magpie/internal/sessions/traces_claude.go#L58) |
+| Output | field_declaration | claude::o::Message::Usage | [59](../../magpie/internal/sessions/traces_claude.go#L59) |
+| CacheRead | field_declaration | claude::o::Message::Usage | [60](../../magpie/internal/sessions/traces_claude.go#L60) |
+| CacheWrite | field_declaration | claude::o::Message::Usage | [61](../../magpie/internal/sessions/traces_claude.go#L61) |
+| block | type_spec | claude | [74](../../magpie/internal/sessions/traces_claude.go#L74) |
+| Type | field_declaration | claude::block | [75](../../magpie/internal/sessions/traces_claude.go#L75) |
+| ToolUseID | field_declaration | claude::block | [76](../../magpie/internal/sessions/traces_claude.go#L76) |
+| Input | field_declaration | claude::block | [77](../../magpie/internal/sessions/traces_claude.go#L77) |
+| IsError | field_declaration | claude::block | [78](../../magpie/internal/sessions/traces_claude.go#L78) |
+| parts | var_spec | claude | [80](../../magpie/internal/sessions/traces_claude.go#L80) |
+| blocks | var_spec | claude | [82](../../magpie/internal/sessions/traces_claude.go#L82) |
+| p | var_spec | claude | [85](../../magpie/internal/sessions/traces_claude.go#L85) |
+| out | var_spec | claude | [90](../../magpie/internal/sessions/traces_claude.go#L90) |

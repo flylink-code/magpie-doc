@@ -12,18 +12,27 @@ Source SHA-256: 451b03d927af256d4c5a5cd843f2e01c666809161d044402ea084e6c1380ca63
 | shellWait | const_spec |  | [66](../../magpie/internal/proc/path_other.go#L66) |
 | setUnset | function_declaration |  | [70](../../magpie/internal/proc/path_other.go#L70) |
 | login | var_spec |  | [78](../../magpie/internal/proc/path_other.go#L78) |
+| dirs | field_declaration | login | [80](../../magpie/internal/proc/path_other.go#L80) |
+| vars | field_declaration | login | [81](../../magpie/internal/proc/path_other.go#L81) |
+| at | field_declaration | login | [82](../../magpie/internal/proc/path_other.go#L82) |
 | LoginPath | function_declaration |  | [89](../../magpie/internal/proc/path_other.go#L89) |
 | ProxyVars | var_spec |  | [112](../../magpie/internal/proc/path_other.go#L112) |
 | shellVars | var_spec |  | [117](../../magpie/internal/proc/path_other.go#L117) |
 | LoginEnv | function_declaration |  | [122](../../magpie/internal/proc/path_other.go#L122) |
 | UserBinDirs | function_declaration |  | [135](../../magpie/internal/proc/path_other.go#L135) |
 | userDirs | function_declaration |  | [137](../../magpie/internal/proc/path_other.go#L137) |
+| known | var_spec | userDirs | [139](../../magpie/internal/proc/path_other.go#L139) |
+| have | var_spec | userDirs | [168](../../magpie/internal/proc/path_other.go#L168) |
 | npmPrefix | function_declaration |  | [179](../../magpie/internal/proc/path_other.go#L179) |
 | shellEnv | function_declaration |  | [211](../../magpie/internal/proc/path_other.go#L211) |
+| wg | var_spec | shellEnv | [222](../../magpie/internal/proc/path_other.go#L222) |
 | termShells | function_declaration |  | [237](../../magpie/internal/proc/path_other.go#L237) |
+| out | var_spec | termShells | [247](../../magpie/internal/proc/path_other.go#L247) |
 | shellDirs | var_spec |  | [265](../../magpie/internal/proc/path_other.go#L265) |
 | FindShell | function_declaration |  | [279](../../magpie/internal/proc/path_other.go#L279) |
 | mergeShellEnv | function_declaration |  | [304](../../magpie/internal/proc/path_other.go#L304) |
+| dirs | var_spec | mergeShellEnv | [305](../../magpie/internal/proc/path_other.go#L305) |
+| merged | var_spec | mergeShellEnv | [313](../../magpie/internal/proc/path_other.go#L313) |
 | askShell | function_declaration |  | [353](../../magpie/internal/proc/path_other.go#L353) |
 | shellAsk | var_spec |  | [363](../../magpie/internal/proc/path_other.go#L363) |
 | askShellAs | function_declaration |  | [365](../../magpie/internal/proc/path_other.go#L365) |

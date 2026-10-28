@@ -8,18 +8,26 @@ Source SHA-256: a4d67ed64d1bf9ee93817af7e3870e03d119720f46754b53b168950e6937522c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| viaLists | struct_type |  | [14](../../magpie/internal/usage/vias_cache.go#L14) |
+| viaLists | type_spec |  | [14](../../magpie/internal/usage/vias_cache.go#L14) |
 | m | field_declaration | viaLists | [15](../../magpie/internal/usage/vias_cache.go#L15) |
 | first | field_declaration | viaLists | [16](../../magpie/internal/usage/vias_cache.go#L16) |
 | viasCache | var_spec |  | [25](../../magpie/internal/usage/vias_cache.go#L25) |
-| ViaIndex | struct_type |  | [42](../../magpie/internal/usage/vias_cache.go#L42) |
+| version | field_declaration | viasCache | [27](../../magpie/internal/usage/vias_cache.go#L27) |
+| clients | field_declaration | viasCache | [28](../../magpie/internal/usage/vias_cache.go#L28) |
+| all | field_declaration | viasCache | [29](../../magpie/internal/usage/vias_cache.go#L29) |
+| window | field_declaration | viasCache | [30](../../magpie/internal/usage/vias_cache.go#L30) |
+| version | field_declaration | viasCache::window | [31](../../magpie/internal/usage/vias_cache.go#L31) |
+| clients | field_declaration | viasCache::window | [32](../../magpie/internal/usage/vias_cache.go#L32) |
+| since | field_declaration | viasCache::window | [33](../../magpie/internal/usage/vias_cache.go#L33) |
+| m | field_declaration | viasCache::window | [34](../../magpie/internal/usage/vias_cache.go#L34) |
+| ViaIndex | type_spec |  | [42](../../magpie/internal/usage/vias_cache.go#L42) |
 | all | field_declaration | ViaIndex | [43](../../magpie/internal/usage/vias_cache.go#L43) |
 | since | field_declaration | ViaIndex | [44](../../magpie/internal/usage/vias_cache.go#L44) |
 | snapshot | field_declaration | ViaIndex | [45](../../magpie/internal/usage/vias_cache.go#L45) |
 | clients | field_declaration | ViaIndex | [46](../../magpie/internal/usage/vias_cache.go#L46) |
 | renames | field_declaration | ViaIndex | [47](../../magpie/internal/usage/vias_cache.go#L47) |
-| Of | method_declaration | ViaIndex | [53](../../magpie/internal/usage/vias_cache.go#L53) |
-| Len | method_declaration | ViaIndex | [65](../../magpie/internal/usage/vias_cache.go#L65) |
-| window | method_declaration | ViaIndex | [80](../../magpie/internal/usage/vias_cache.go#L80) |
+| Of | method_declaration |  | [53](../../magpie/internal/usage/vias_cache.go#L53) |
+| Len | method_declaration |  | [65](../../magpie/internal/usage/vias_cache.go#L65) |
+| window | method_declaration |  | [80](../../magpie/internal/usage/vias_cache.go#L80) |
 | cachedVias | function_declaration |  | [94](../../magpie/internal/usage/vias_cache.go#L94) |
-| complete | method_declaration | *logSnapshot | [114](../../magpie/internal/usage/vias_cache.go#L114) |
+| complete | method_declaration |  | [114](../../magpie/internal/usage/vias_cache.go#L114) |

@@ -11,28 +11,39 @@ Source SHA-256: fbe4573f6fdbd7ae3bec3d0d6b0719d375893d4c63c92a2d80394160a4ddd443
 | toolLoopRepeats | const_spec |  | [38](../../magpie/internal/gateway/tool_loop.go#L38) |
 | toolLoopWho | const_spec |  | [41](../../magpie/internal/gateway/tool_loop.go#L41) |
 | toolResultMarks | var_spec |  | [45](../../magpie/internal/gateway/tool_loop.go#L45) |
-| stoppedToolLoop | method_declaration | *Server | [54](../../magpie/internal/gateway/tool_loop.go#L54) |
+| stoppedToolLoop | method_declaration |  | [54](../../magpie/internal/gateway/tool_loop.go#L54) |
 | mayLoop | function_declaration |  | [74](../../magpie/internal/gateway/tool_loop.go#L74) |
 | conversationKey | var_spec |  | [83](../../magpie/internal/gateway/tool_loop.go#L83) |
 | tailItems | const_spec |  | [94](../../magpie/internal/gateway/tool_loop.go#L94) |
 | tailOf | function_declaration |  | [100](../../magpie/internal/gateway/tool_loop.go#L100) |
-| toolLoop | struct_type |  | [130](../../magpie/internal/gateway/tool_loop.go#L130) |
+| items | var_spec | tailOf | [105](../../magpie/internal/gateway/tool_loop.go#L105) |
+| b | var_spec | tailOf | [113](../../magpie/internal/gateway/tool_loop.go#L113) |
+| toolLoop | type_spec |  | [130](../../magpie/internal/gateway/tool_loop.go#L130) |
 | calls | field_declaration | toolLoop | [131](../../magpie/internal/gateway/tool_loop.go#L131) |
 | turns | field_declaration | toolLoop | [132](../../magpie/internal/gateway/tool_loop.go#L132) |
 | toolLoopOf | function_declaration |  | [137](../../magpie/internal/gateway/tool_loop.go#L137) |
-| exchange | struct_type |  | [155](../../magpie/internal/gateway/tool_loop.go#L155) |
+| exchange | type_spec |  | [155](../../magpie/internal/gateway/tool_loop.go#L155) |
 | sum | field_declaration | exchange | [156](../../magpie/internal/gateway/tool_loop.go#L156) |
 | calls | field_declaration | exchange | [157](../../magpie/internal/gateway/tool_loop.go#L157) |
 | exchanges | function_declaration |  | [164](../../magpie/internal/gateway/tool_loop.go#L164) |
-| run | struct_type | exchanges | [165](../../magpie/internal/gateway/tool_loop.go#L165) |
-| role | field_declaration | exchanges.run | [166](../../magpie/internal/gateway/tool_loop.go#L166) |
-| parts | field_declaration | exchanges.run | [167](../../magpie/internal/gateway/tool_loop.go#L167) |
+| run | type_spec | exchanges | [165](../../magpie/internal/gateway/tool_loop.go#L165) |
+| role | field_declaration | exchanges::run | [166](../../magpie/internal/gateway/tool_loop.go#L166) |
+| parts | field_declaration | exchanges::run | [167](../../magpie/internal/gateway/tool_loop.go#L167) |
+| runs | var_spec | exchanges | [169](../../magpie/internal/gateway/tool_loop.go#L169) |
+| out | var_spec | exchanges | [177](../../magpie/internal/gateway/tool_loop.go#L177) |
 | exchangeOf | function_declaration |  | [196](../../magpie/internal/gateway/tool_loop.go#L196) |
+| calls | var_spec | exchangeOf | [197](../../magpie/internal/gateway/tool_loop.go#L197) |
+| rest | var_spec | exchangeOf | [204](../../magpie/internal/gateway/tool_loop.go#L204) |
 | steadyArgs | function_declaration |  | [244](../../magpie/internal/gateway/tool_loop.go#L244) |
+| v | var_spec | steadyArgs | [245](../../magpie/internal/gateway/tool_loop.go#L245) |
 | resultSum | function_declaration |  | [259](../../magpie/internal/gateway/tool_loop.go#L259) |
+| b | var_spec | resultSum | [260](../../magpie/internal/gateway/tool_loop.go#L260) |
 | runNoise | var_spec |  | [275](../../magpie/internal/gateway/tool_loop.go#L275) |
+| mark | field_declaration | runNoise | [276](../../magpie/internal/gateway/tool_loop.go#L276) |
+| re | field_declaration | runNoise | [277](../../magpie/internal/gateway/tool_loop.go#L277) |
+| with | field_declaration | runNoise | [278](../../magpie/internal/gateway/tool_loop.go#L278) |
 | steadyResult | function_declaration |  | [285](../../magpie/internal/gateway/tool_loop.go#L285) |
-| called | method_declaration | toolLoop | [295](../../magpie/internal/gateway/tool_loop.go#L295) |
-| why | method_declaration | toolLoop | [308](../../magpie/internal/gateway/tool_loop.go#L308) |
-| notice | method_declaration | toolLoop | [313](../../magpie/internal/gateway/tool_loop.go#L313) |
+| called | method_declaration |  | [295](../../magpie/internal/gateway/tool_loop.go#L295) |
+| why | method_declaration |  | [308](../../magpie/internal/gateway/tool_loop.go#L308) |
+| notice | method_declaration |  | [313](../../magpie/internal/gateway/tool_loop.go#L313) |
 | writeLocalText | function_declaration |  | [320](../../magpie/internal/gateway/tool_loop.go#L320) |

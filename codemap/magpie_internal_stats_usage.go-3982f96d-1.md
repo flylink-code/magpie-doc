@@ -8,7 +8,7 @@ Source SHA-256: 5a8ddf146366d7af0dedb2262fa9c8e2fe7ceeecdaae4848fc2da382fcbefa48
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Usage | struct_type |  | [15](../../magpie/internal/stats/usage.go#L15) |
+| Usage | type_spec |  | [15](../../magpie/internal/stats/usage.go#L15) |
 | Agents | field_declaration | Usage | [16](../../magpie/internal/stats/usage.go#L16) |
 | Providers | field_declaration | Usage | [17](../../magpie/internal/stats/usage.go#L17) |
 | Models | field_declaration | Usage | [18](../../magpie/internal/stats/usage.go#L18) |
@@ -16,6 +16,7 @@ Source SHA-256: 5a8ddf146366d7af0dedb2262fa9c8e2fe7ceeecdaae4848fc2da382fcbefa48
 | most | const_spec |  | [23](../../magpie/internal/stats/usage.go#L23) |
 | usage | var_spec |  | [26](../../magpie/internal/stats/usage.go#L26) |
 | readUsage | function_declaration |  | [28](../../magpie/internal/stats/usage.go#L28) |
+| u | var_spec | readUsage | [30](../../magpie/internal/stats/usage.go#L30) |
 | with | function_declaration |  | [53](../../magpie/internal/stats/usage.go#L53) |
 | providerLabel | function_declaration |  | [61](../../magpie/internal/stats/usage.go#L61) |
 | agentLabel | function_declaration |  | [80](../../magpie/internal/stats/usage.go#L80) |

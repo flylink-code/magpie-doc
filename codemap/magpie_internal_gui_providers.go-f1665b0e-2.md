@@ -31,22 +31,23 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | KeyList | field_declaration | providerJSON | [260](../../magpie/internal/gui/providers.go#L260) |
 | Account | field_declaration | providerJSON | [261](../../magpie/internal/gui/providers.go#L261) |
 | Move | field_declaration | providerJSON | [264](../../magpie/internal/gui/providers.go#L264) |
-| moveJSON | struct_type |  | [267](../../magpie/internal/gui/providers.go#L267) |
+| moveJSON | type_spec |  | [267](../../magpie/internal/gui/providers.go#L267) |
 | Package | field_declaration | moveJSON | [268](../../magpie/internal/gui/providers.go#L268) |
 | State | field_declaration | moveJSON | [271](../../magpie/internal/gui/providers.go#L271) |
 | Error | field_declaration | moveJSON | [272](../../magpie/internal/gui/providers.go#L272) |
 | Why | field_declaration | moveJSON | [274](../../magpie/internal/gui/providers.go#L274) |
-| accessKeyJSON | struct_type |  | [280](../../magpie/internal/gui/providers.go#L280) |
+| accessKeyJSON | type_spec |  | [280](../../magpie/internal/gui/providers.go#L280) |
 | Vendor | field_declaration | accessKeyJSON | [281](../../magpie/internal/gui/providers.go#L281) |
 | ID | field_declaration | accessKeyJSON | [282](../../magpie/internal/gui/providers.go#L282) |
 | SecretSet | field_declaration | accessKeyJSON | [283](../../magpie/internal/gui/providers.go#L283) |
 | presetAccessKey | function_declaration |  | [290](../../magpie/internal/gui/providers.go#L290) |
-| stepPlanJSON | struct_type |  | [309](../../magpie/internal/gui/providers.go#L309) |
+| ids | var_spec | presetAccessKey | [292](../../magpie/internal/gui/providers.go#L292) |
+| stepPlanJSON | type_spec |  | [309](../../magpie/internal/gui/providers.go#L309) |
 | Site | field_declaration | stepPlanJSON | [310](../../magpie/internal/gui/providers.go#L310) |
 | SignedIn | field_declaration | stepPlanJSON | [311](../../magpie/internal/gui/providers.go#L311) |
 | URL | field_declaration | stepPlanJSON | [312](../../magpie/internal/gui/providers.go#L312) |
 | Bookmarklet | field_declaration | stepPlanJSON | [313](../../magpie/internal/gui/providers.go#L313) |
-| accountJSON | struct_type |  | [316](../../magpie/internal/gui/providers.go#L316) |
+| accountJSON | type_spec |  | [316](../../magpie/internal/gui/providers.go#L316) |
 | Agent | field_declaration | accountJSON | [318](../../magpie/internal/gui/providers.go#L318) |
 | Name | field_declaration | accountJSON | [319](../../magpie/internal/gui/providers.go#L319) |
 | Icon | field_declaration | accountJSON | [320](../../magpie/internal/gui/providers.go#L320) |
@@ -54,14 +55,14 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | Builtin | field_declaration | accountJSON | [325](../../magpie/internal/gui/providers.go#L325) |
 | WSL | field_declaration | accountJSON | [327](../../magpie/internal/gui/providers.go#L327) |
 | accountLabel | function_declaration |  | [334](../../magpie/internal/gui/providers.go#L334) |
-| providerAgent | struct_type |  | [388](../../magpie/internal/gui/providers.go#L388) |
+| providerAgent | type_spec |  | [388](../../magpie/internal/gui/providers.go#L388) |
 | ID | field_declaration | providerAgent | [389](../../magpie/internal/gui/providers.go#L389) |
 | Name | field_declaration | providerAgent | [390](../../magpie/internal/gui/providers.go#L390) |
 | Icon | field_declaration | providerAgent | [391](../../magpie/internal/gui/providers.go#L391) |
 | Current | field_declaration | providerAgent | [392](../../magpie/internal/gui/providers.go#L392) |
 | Model | field_declaration | providerAgent | [393](../../magpie/internal/gui/providers.go#L393) |
 | Group | field_declaration | providerAgent | [394](../../magpie/internal/gui/providers.go#L394) |
-| presetJSON | struct_type |  | [397](../../magpie/internal/gui/providers.go#L397) |
+| presetJSON | type_spec |  | [397](../../magpie/internal/gui/providers.go#L397) |
 | Added | field_declaration | presetJSON | [399](../../magpie/internal/gui/providers.go#L399) |
 | ZhipuTeam | field_declaration | presetJSON | [402](../../magpie/internal/gui/providers.go#L402) |
 | AccessKey | field_declaration | presetJSON | [407](../../magpie/internal/gui/providers.go#L407) |
@@ -72,7 +73,7 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | Notes | field_declaration | presetJSON | [417](../../magpie/internal/gui/providers.go#L417) |
 | Langs | field_declaration | presetJSON | [418](../../magpie/internal/gui/providers.go#L418) |
 | New | field_declaration | presetJSON | [421](../../magpie/internal/gui/providers.go#L421) |
-| gatewayJSON | struct_type |  | [424](../../magpie/internal/gui/providers.go#L424) |
+| gatewayJSON | type_spec |  | [424](../../magpie/internal/gui/providers.go#L424) |
 | URL | field_declaration | gatewayJSON | [425](../../magpie/internal/gui/providers.go#L425) |
 | LAN | field_declaration | gatewayJSON | [426](../../magpie/internal/gui/providers.go#L426) |
 | LANURLs | field_declaration | gatewayJSON | [427](../../magpie/internal/gui/providers.go#L427) |
@@ -90,7 +91,7 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | Lanes | field_declaration | gatewayJSON | [453](../../magpie/internal/gui/providers.go#L453) |
 | Groups | field_declaration | gatewayJSON | [454](../../magpie/internal/gui/providers.go#L454) |
 | Archive | field_declaration | gatewayJSON | [455](../../magpie/internal/gui/providers.go#L455) |
-| gwGroupJSON | struct_type |  | [459](../../magpie/internal/gui/providers.go#L459) |
+| gwGroupJSON | type_spec |  | [459](../../magpie/internal/gui/providers.go#L459) |
 | ID | field_declaration | gwGroupJSON | [460](../../magpie/internal/gui/providers.go#L460) |
 | Name | field_declaration | gwGroupJSON | [461](../../magpie/internal/gui/providers.go#L461) |
 | Icons | field_declaration | gwGroupJSON | [462](../../magpie/internal/gui/providers.go#L462) |
@@ -100,11 +101,10 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | Context | field_declaration | gwGroupJSON | [469](../../magpie/internal/gui/providers.go#L469) |
 | Output | field_declaration | gwGroupJSON | [470](../../magpie/internal/gui/providers.go#L470) |
 | Members | field_declaration | gwGroupJSON | [471](../../magpie/internal/gui/providers.go#L471) |
-| excludedJSON | struct_type |  | [474](../../magpie/internal/gui/providers.go#L474) |
+| excludedJSON | type_spec |  | [474](../../magpie/internal/gui/providers.go#L474) |
 | Name | field_declaration | excludedJSON | [476](../../magpie/internal/gui/providers.go#L476) |
 | Icon | field_declaration | excludedJSON | [477](../../magpie/internal/gui/providers.go#L477) |
-| providersJSON | struct_type |  | [480](../../magpie/internal/gui/providers.go#L480) |
+| providersJSON | type_spec |  | [480](../../magpie/internal/gui/providers.go#L480) |
 | Providers | field_declaration | providersJSON | [481](../../magpie/internal/gui/providers.go#L481) |
 | Presets | field_declaration | providersJSON | [482](../../magpie/internal/gui/providers.go#L482) |
 | Excluded | field_declaration | providersJSON | [483](../../magpie/internal/gui/providers.go#L483) |
-| Gateway | field_declaration | providersJSON | [484](../../magpie/internal/gui/providers.go#L484) |

@@ -9,19 +9,22 @@ Source SHA-256: bdf9a31ec696ac9344058e3ba30e75ac856b2112714f99604eecf18aa97e942d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | LivePath | function_declaration |  | [28](../../magpie/internal/catalog/live.go#L28) |
-| liveFile | struct_type |  | [32](../../magpie/internal/catalog/live.go#L32) |
+| liveFile | type_spec |  | [32](../../magpie/internal/catalog/live.go#L32) |
 | Fetched | field_declaration | liveFile | [33](../../magpie/internal/catalog/live.go#L33) |
 | Base | field_declaration | liveFile | [34](../../magpie/internal/catalog/live.go#L34) |
 | Models | field_declaration | liveFile | [35](../../magpie/internal/catalog/live.go#L35) |
 | Sides | field_declaration | liveFile | [40](../../magpie/internal/catalog/live.go#L40) |
 | byID | field_declaration | liveFile | [45](../../magpie/internal/catalog/live.go#L45) |
 | readLive | function_declaration |  | [48](../../magpie/internal/catalog/live.go#L48) |
+| f | var_spec | readLive | [50](../../magpie/internal/catalog/live.go#L50) |
 | LiveByID | function_declaration |  | [65](../../magpie/internal/catalog/live.go#L65) |
 | Live | function_declaration |  | [75](../../magpie/internal/catalog/live.go#L75) |
 | LiveAll | function_declaration |  | [91](../../magpie/internal/catalog/live.go#L91) |
 | LiveSplit | function_declaration |  | [104](../../magpie/internal/catalog/live.go#L104) |
 | LiveDrawers | function_declaration |  | [114](../../magpie/internal/catalog/live.go#L114) |
+| out | var_spec | LiveDrawers | [119](../../magpie/internal/catalog/live.go#L119) |
 | LiveVideomakers | function_declaration |  | [130](../../magpie/internal/catalog/live.go#L130) |
+| out | var_spec | LiveVideomakers | [135](../../magpie/internal/catalog/live.go#L135) |
 | Chat | function_declaration |  | [145](../../magpie/internal/catalog/live.go#L145) |
 | SaveLive | function_declaration |  | [156](../../magpie/internal/catalog/live.go#L156) |
 | SaveLiveSides | function_declaration |  | [164](../../magpie/internal/catalog/live.go#L164) |
@@ -32,37 +35,47 @@ Source SHA-256: bdf9a31ec696ac9344058e3ba30e75ac856b2112714f99604eecf18aa97e942d
 | FetchAt | function_declaration |  | [226](../../magpie/internal/catalog/live.go#L226) |
 | ErrAsked | var_spec |  | [235](../../magpie/internal/catalog/live.go#L235) |
 | FetchAtListed | function_declaration |  | [252](../../magpie/internal/catalog/live.go#L252) |
+| urls | var_spec | FetchAtListed | [264](../../magpie/internal/catalog/live.go#L264) |
+| errs | var_spec | FetchAtListed | [274](../../magpie/internal/catalog/live.go#L274) |
 | listAuthFor | function_declaration |  | [295](../../magpie/internal/catalog/live.go#L295) |
-| Listed | struct_type |  | [307](../../magpie/internal/catalog/live.go#L307) |
+| Listed | type_spec |  | [307](../../magpie/internal/catalog/live.go#L307) |
 | askedAt | field_declaration | Listed | [308](../../magpie/internal/catalog/live.go#L308) |
 | lists | field_declaration | Listed | [309](../../magpie/internal/catalog/live.go#L309) |
 | NewListed | function_declaration |  | [313](../../magpie/internal/catalog/live.go#L313) |
-| asked | method_declaration | *Listed | [320](../../magpie/internal/catalog/live.go#L320) |
-| record | method_declaration | *Listed | [329](../../magpie/internal/catalog/live.go#L329) |
-| listed | method_declaration | *Listed | [343](../../magpie/internal/catalog/live.go#L343) |
+| asked | method_declaration |  | [320](../../magpie/internal/catalog/live.go#L320) |
+| record | method_declaration |  | [329](../../magpie/internal/catalog/live.go#L329) |
+| listed | method_declaration |  | [343](../../magpie/internal/catalog/live.go#L343) |
 | listURLs | function_declaration |  | [353](../../magpie/internal/catalog/live.go#L353) |
+| urls | var_spec | listURLs | [354](../../magpie/internal/catalog/live.go#L354) |
 | Versioned | function_declaration |  | [381](../../magpie/internal/catalog/live.go#L381) |
 | FetchURL | function_declaration |  | [399](../../magpie/internal/catalog/live.go#L399) |
 | modelPages | const_spec |  | [411](../../magpie/internal/catalog/live.go#L411) |
 | PageLimit | const_spec |  | [415](../../magpie/internal/catalog/live.go#L415) |
 | fetchOne | function_declaration |  | [422](../../magpie/internal/catalog/live.go#L422) |
+| out | var_spec | fetchOne | [425](../../magpie/internal/catalog/live.go#L425) |
 | Paged | function_declaration |  | [459](../../magpie/internal/catalog/live.go#L459) |
 | fetchPage | function_declaration |  | [495](../../magpie/internal/catalog/live.go#L495) |
-| Data | field_declaration | fetchPage | [549](../../magpie/internal/catalog/live.go#L549) |
-| Models | field_declaration | fetchPage | [550](../../magpie/internal/catalog/live.go#L550) |
-| HasMore | field_declaration | fetchPage | [551](../../magpie/internal/catalog/live.go#L551) |
-| LastID | field_declaration | fetchPage | [552](../../magpie/internal/catalog/live.go#L552) |
+| v | var_spec | fetchPage | [548](../../magpie/internal/catalog/live.go#L548) |
+| Data | field_declaration | fetchPage::v | [549](../../magpie/internal/catalog/live.go#L549) |
+| Models | field_declaration | fetchPage::v | [550](../../magpie/internal/catalog/live.go#L550) |
+| HasMore | field_declaration | fetchPage::v | [551](../../magpie/internal/catalog/live.go#L551) |
+| LastID | field_declaration | fetchPage::v | [552](../../magpie/internal/catalog/live.go#L552) |
+| out | var_spec | fetchPage | [571](../../magpie/internal/catalog/live.go#L571) |
+| pr | var_spec | fetchPage | [628](../../magpie/internal/catalog/live.go#L628) |
 | errorMessage | function_declaration |  | [639](../../magpie/internal/catalog/live.go#L639) |
-| Error | field_declaration | errorMessage | [641](../../magpie/internal/catalog/live.go#L641) |
-| Message | field_declaration | errorMessage | [642](../../magpie/internal/catalog/live.go#L642) |
-| Message | field_declaration | errorMessage | [649](../../magpie/internal/catalog/live.go#L649) |
-| liveModel | struct_type |  | [664](../../magpie/internal/catalog/live.go#L664) |
+| v | var_spec | errorMessage | [640](../../magpie/internal/catalog/live.go#L640) |
+| Error | field_declaration | errorMessage::v | [641](../../magpie/internal/catalog/live.go#L641) |
+| Message | field_declaration | errorMessage::v | [642](../../magpie/internal/catalog/live.go#L642) |
+| e | var_spec | errorMessage | [648](../../magpie/internal/catalog/live.go#L648) |
+| Message | field_declaration | errorMessage::e | [649](../../magpie/internal/catalog/live.go#L649) |
+| s | var_spec | errorMessage | [651](../../magpie/internal/catalog/live.go#L651) |
+| liveModel | type_spec |  | [664](../../magpie/internal/catalog/live.go#L664) |
 | ID | field_declaration | liveModel | [665](../../magpie/internal/catalog/live.go#L665) |
 | Name | field_declaration | liveModel | [666](../../magpie/internal/catalog/live.go#L666) |
 | DisplayName | field_declaration | liveModel | [667](../../magpie/internal/catalog/live.go#L667) |
 | Modalities | field_declaration | liveModel | [668](../../magpie/internal/catalog/live.go#L668) |
-| Input | field_declaration | liveModel | [669](../../magpie/internal/catalog/live.go#L669) |
-| Output | field_declaration | liveModel | [670](../../magpie/internal/catalog/live.go#L670) |
+| Input | field_declaration | liveModel::Modalities | [669](../../magpie/internal/catalog/live.go#L669) |
+| Output | field_declaration | liveModel::Modalities | [670](../../magpie/internal/catalog/live.go#L670) |
 | Endpoints | field_declaration | liveModel | [675](../../magpie/internal/catalog/live.go#L675) |
 | ContextLength | field_declaration | liveModel | [678](../../magpie/internal/catalog/live.go#L678) |
 | Native | field_declaration | liveModel | [684](../../magpie/internal/catalog/live.go#L684) |
@@ -75,8 +88,12 @@ Source SHA-256: bdf9a31ec696ac9344058e3ba30e75ac856b2112714f99604eecf18aa97e942d
 | Price | field_declaration | liveModel | [702](../../magpie/internal/catalog/live.go#L702) |
 | TypeTarget | field_declaration | liveModel | [705](../../magpie/internal/catalog/live.go#L705) |
 | tiersOf | function_declaration |  | [710](../../magpie/internal/catalog/live.go#L710) |
+| out | var_spec | tiersOf | [712](../../magpie/internal/catalog/live.go#L712) |
 | levelsOf | function_declaration |  | [727](../../magpie/internal/catalog/live.go#L727) |
+| out | var_spec | levelsOf | [729](../../magpie/internal/catalog/live.go#L729) |
 | EndpointAPIs | function_declaration |  | [745](../../magpie/internal/catalog/live.go#L745) |
+| out | var_spec | EndpointAPIs | [746](../../magpie/internal/catalog/live.go#L746) |
+| api | var_spec | EndpointAPIs | [748](../../magpie/internal/catalog/live.go#L748) |
 | targetAPIs | function_declaration |  | [769](../../magpie/internal/catalog/live.go#L769) |
 | Decorate | function_declaration |  | [783](../../magpie/internal/catalog/live.go#L783) |
-| sane | method_declaration | Price | [827](../../magpie/internal/catalog/live.go#L827) |
+| sane | method_declaration |  | [827](../../magpie/internal/catalog/live.go#L827) |

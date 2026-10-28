@@ -9,3 +9,4 @@ Source SHA-256: c655e522c0b881035bf49de1bc946488eb2130ea469fce5c81af6819e8f3b2d9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | discoverTerminals | function_declaration |  | [19](../../magpie/internal/gui/terminal_apps_darwin.go#L19) |
+| found | var_spec | discoverTerminals | [25](../../magpie/internal/gui/terminal_apps_darwin.go#L25) |

@@ -9,3 +9,4 @@ Source SHA-256: ff1d6b0bca1986703a47011ff71619c131afd98b983555444877248939d0f8b2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | reusePort | function_declaration |  | [12](../../magpie/internal/gateway/listen_reuseport.go#L12) |
+| err | var_spec | reusePort | [13](../../magpie/internal/gateway/listen_reuseport.go#L13) |

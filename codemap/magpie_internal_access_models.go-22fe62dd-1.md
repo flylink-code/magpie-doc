@@ -9,10 +9,12 @@ Source SHA-256: 74533197e82167ac4f43c0d66f2981891618a3d941e6fef9fd4800d1759cf9e3
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CleanModels | function_declaration |  | [15](../../magpie/internal/access/models.go#L15) |
-| Restricted | method_declaration | Identity | [37](../../magpie/internal/access/models.go#L37) |
-| Allows | method_declaration | Identity | [42](../../magpie/internal/access/models.go#L42) |
+| out | var_spec | CleanModels | [16](../../magpie/internal/access/models.go#L16) |
+| Restricted | method_declaration |  | [37](../../magpie/internal/access/models.go#L37) |
+| Allows | method_declaration |  | [42](../../magpie/internal/access/models.go#L42) |
 | ModelAllowed | function_declaration |  | [57](../../magpie/internal/access/models.go#L57) |
 | globs | var_spec |  | [75](../../magpie/internal/access/models.go#L75) |
+| m | field_declaration | globs | [77](../../magpie/internal/access/models.go#L77) |
 | maxGlobs | const_spec |  | [80](../../magpie/internal/access/models.go#L80) |
 | globRe | function_declaration |  | [82](../../magpie/internal/access/models.go#L82) |
 | compileGlob | function_declaration |  | [99](../../magpie/internal/access/models.go#L99) |

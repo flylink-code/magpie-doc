@@ -8,26 +8,35 @@ Source SHA-256: 699faba5a555798e36dd02b5a251afa4413876b082861c494551efab23ff384b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tool | struct_type |  | [23](../../magpie/internal/claudebridge/mcp.go#L23) |
+| tool | type_spec |  | [23](../../magpie/internal/claudebridge/mcp.go#L23) |
 | Name | field_declaration | tool | [24](../../magpie/internal/claudebridge/mcp.go#L24) |
 | Description | field_declaration | tool | [25](../../magpie/internal/claudebridge/mcp.go#L25) |
 | InputSchema | field_declaration | tool | [26](../../magpie/internal/claudebridge/mcp.go#L26) |
-| rpcRequest | struct_type |  | [29](../../magpie/internal/claudebridge/mcp.go#L29) |
+| rpcRequest | type_spec |  | [29](../../magpie/internal/claudebridge/mcp.go#L29) |
 | JSONRPC | field_declaration | rpcRequest | [30](../../magpie/internal/claudebridge/mcp.go#L30) |
 | ID | field_declaration | rpcRequest | [31](../../magpie/internal/claudebridge/mcp.go#L31) |
 | Method | field_declaration | rpcRequest | [32](../../magpie/internal/claudebridge/mcp.go#L32) |
 | Params | field_declaration | rpcRequest | [33](../../magpie/internal/claudebridge/mcp.go#L33) |
-| callbackRequest | struct_type |  | [36](../../magpie/internal/claudebridge/mcp.go#L36) |
+| callbackRequest | type_spec |  | [36](../../magpie/internal/claudebridge/mcp.go#L36) |
 | ToolCallID | field_declaration | callbackRequest | [37](../../magpie/internal/claudebridge/mcp.go#L37) |
 | Name | field_declaration | callbackRequest | [38](../../magpie/internal/claudebridge/mcp.go#L38) |
 | Arguments | field_declaration | callbackRequest | [39](../../magpie/internal/claudebridge/mcp.go#L39) |
-| callbackResponse | struct_type |  | [42](../../magpie/internal/claudebridge/mcp.go#L42) |
+| callbackResponse | type_spec |  | [42](../../magpie/internal/claudebridge/mcp.go#L42) |
 | Content | field_declaration | callbackResponse | [43](../../magpie/internal/claudebridge/mcp.go#L43) |
 | IsError | field_declaration | callbackResponse | [44](../../magpie/internal/claudebridge/mcp.go#L44) |
 | Tools | field_declaration | callbackResponse | [47](../../magpie/internal/claudebridge/mcp.go#L47) |
 | listWait | var_spec |  | [52](../../magpie/internal/claudebridge/mcp.go#L52) |
 | RunMCP | function_declaration |  | [58](../../magpie/internal/claudebridge/mcp.go#L58) |
-| Name | field_declaration | RunMCP | [152](../../magpie/internal/claudebridge/mcp.go#L152) |
-| Arguments | field_declaration | RunMCP | [153](../../magpie/internal/claudebridge/mcp.go#L153) |
-| Meta | field_declaration | RunMCP | [154](../../magpie/internal/claudebridge/mcp.go#L154) |
+| tools | var_spec | RunMCP | [79](../../magpie/internal/claudebridge/mcp.go#L79) |
+| outMu | var_spec | RunMCP | [96](../../magpie/internal/claudebridge/mcp.go#L96) |
+| toolsMu | var_spec | RunMCP | [103](../../magpie/internal/claudebridge/mcp.go#L103) |
+| listed | var_spec | RunMCP | [104](../../magpie/internal/claudebridge/mcp.go#L104) |
+| req | var_spec | RunMCP | [123](../../magpie/internal/claudebridge/mcp.go#L123) |
+| rpcErr | var_spec | RunMCP | [133](../../magpie/internal/claudebridge/mcp.go#L133) |
+| p | var_spec | RunMCP | [151](../../magpie/internal/claudebridge/mcp.go#L151) |
+| Name | field_declaration | RunMCP::p | [152](../../magpie/internal/claudebridge/mcp.go#L152) |
+| Arguments | field_declaration | RunMCP::p | [153](../../magpie/internal/claudebridge/mcp.go#L153) |
+| Meta | field_declaration | RunMCP::p | [154](../../magpie/internal/claudebridge/mcp.go#L154) |
+| cb | var_spec | RunMCP | [180](../../magpie/internal/claudebridge/mcp.go#L180) |
 | newCallID | function_declaration |  | [206](../../magpie/internal/claudebridge/mcp.go#L206) |
+| b | var_spec | newCallID | [207](../../magpie/internal/claudebridge/mcp.go#L207) |

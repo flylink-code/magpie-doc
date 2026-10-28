@@ -8,8 +8,9 @@ Source SHA-256: 7566aac66e8188e7306e934049650ea67f99cb83d6d2f4728a5279f7e7d1ddf3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ExitError | struct_type |  | [10](../../magpie/internal/update/elevate_script.go#L10) |
+| ExitError | type_spec |  | [10](../../magpie/internal/update/elevate_script.go#L10) |
 | Code | field_declaration | ExitError | [10](../../magpie/internal/update/elevate_script.go#L10) |
-| Error | method_declaration | *ExitError | [12](../../magpie/internal/update/elevate_script.go#L12) |
+| Error | method_declaration |  | [12](../../magpie/internal/update/elevate_script.go#L12) |
 | elevatedScript | function_declaration |  | [17](../../magpie/internal/update/elevate_script.go#L17) |
+| b | var_spec | elevatedScript | [18](../../magpie/internal/update/elevate_script.go#L18) |
 | batchEscape | function_declaration |  | [59](../../magpie/internal/update/elevate_script.go#L59) |

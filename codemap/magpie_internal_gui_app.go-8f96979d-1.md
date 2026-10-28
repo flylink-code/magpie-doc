@@ -13,7 +13,7 @@ Source SHA-256: c9d4466429c7f1714300ae2a9fd853c79aa07f92b88d6f37739a6ecdb845934f
 | appIcon | var_spec |  | [45](../../magpie/internal/gui/app.go#L45) |
 | appIconLarge | var_spec |  | [52](../../magpie/internal/gui/app.go#L52) |
 | appIconFor | function_declaration |  | [58](../../magpie/internal/gui/app.go#L58) |
-| host | struct_type |  | [69](../../magpie/internal/gui/app.go#L69) |
+| host | type_spec |  | [69](../../magpie/internal/gui/app.go#L69) |
 | app | field_declaration | host | [70](../../magpie/internal/gui/app.go#L70) |
 | panel | field_declaration | host | [71](../../magpie/internal/gui/app.go#L71) |
 | main | field_declaration | host | [72](../../magpie/internal/gui/app.go#L72) |
@@ -37,42 +37,44 @@ Source SHA-256: c9d4466429c7f1714300ae2a9fd853c79aa07f92b88d6f37739a6ecdb845934f
 | gone | field_declaration | host | [103](../../magpie/internal/gui/app.go#L103) |
 | loading | field_declaration | host | [106](../../magpie/internal/gui/app.go#L106) |
 | placed | field_declaration | host | [108](../../magpie/internal/gui/app.go#L108) |
-| whenReady | method_declaration | *host | [112](../../magpie/internal/gui/app.go#L112) |
-| HidePanel | method_declaration | *host | [119](../../magpie/internal/gui/app.go#L119) |
-| ShowMain | method_declaration | *host | [126](../../magpie/internal/gui/app.go#L126) |
-| MainShown | method_declaration | *host | [135](../../magpie/internal/gui/app.go#L135) |
-| Import | method_declaration | *host | [138](../../magpie/internal/gui/app.go#L138) |
-| dock | method_declaration | *host | [147](../../magpie/internal/gui/app.go#L147) |
+| whenReady | method_declaration |  | [112](../../magpie/internal/gui/app.go#L112) |
+| HidePanel | method_declaration |  | [119](../../magpie/internal/gui/app.go#L119) |
+| ShowMain | method_declaration |  | [126](../../magpie/internal/gui/app.go#L126) |
+| MainShown | method_declaration |  | [135](../../magpie/internal/gui/app.go#L135) |
+| Import | method_declaration |  | [138](../../magpie/internal/gui/app.go#L138) |
+| dock | method_declaration |  | [147](../../magpie/internal/gui/app.go#L147) |
 | inDock | function_declaration |  | [154](../../magpie/internal/gui/app.go#L154) |
-| Quit | method_declaration | *host | [158](../../magpie/internal/gui/app.go#L158) |
-| OpenURL | method_declaration | *host | [159](../../magpie/internal/gui/app.go#L159) |
-| OpenFolder | method_declaration | *host | [171](../../magpie/internal/gui/app.go#L171) |
-| Copy | method_declaration | *host | [172](../../magpie/internal/gui/app.go#L172) |
-| ChooseFolder | method_declaration | *host | [173](../../magpie/internal/gui/app.go#L173) |
+| Quit | method_declaration |  | [158](../../magpie/internal/gui/app.go#L158) |
+| OpenURL | method_declaration |  | [159](../../magpie/internal/gui/app.go#L159) |
+| OpenFolder | method_declaration |  | [171](../../magpie/internal/gui/app.go#L171) |
+| Copy | method_declaration |  | [172](../../magpie/internal/gui/app.go#L172) |
+| ChooseFolder | method_declaration |  | [173](../../magpie/internal/gui/app.go#L173) |
 | panelTitle | const_spec |  | [183](../../magpie/internal/gui/app.go#L183) |
-| FitPanel | method_declaration | *host | [189](../../magpie/internal/gui/app.go#L189) |
-| fitPanel | method_declaration | *host | [193](../../magpie/internal/gui/app.go#L193) |
-| zoom | method_declaration | *host | [214](../../magpie/internal/gui/app.go#L214) |
-| panelW | method_declaration | *host | [217](../../magpie/internal/gui/app.go#L217) |
-| panelRoom | method_declaration | *host | [221](../../magpie/internal/gui/app.go#L221) |
+| FitPanel | method_declaration |  | [189](../../magpie/internal/gui/app.go#L189) |
+| fitPanel | method_declaration |  | [193](../../magpie/internal/gui/app.go#L193) |
+| zoom | method_declaration |  | [214](../../magpie/internal/gui/app.go#L214) |
+| panelW | method_declaration |  | [217](../../magpie/internal/gui/app.go#L217) |
+| panelRoom | method_declaration |  | [221](../../magpie/internal/gui/app.go#L221) |
 | screenRoom | function_declaration |  | [232](../../magpie/internal/gui/app.go#L232) |
-| SetTextSize | method_declaration | *host | [247](../../magpie/internal/gui/app.go#L247) |
-| applyZoom | method_declaration | *host | [256](../../magpie/internal/gui/app.go#L256) |
-| zoomWindows | method_declaration | *host | [258](../../magpie/internal/gui/app.go#L258) |
+| SetTextSize | method_declaration |  | [247](../../magpie/internal/gui/app.go#L247) |
+| applyZoom | method_declaration |  | [256](../../magpie/internal/gui/app.go#L256) |
+| zoomWindows | method_declaration |  | [258](../../magpie/internal/gui/app.go#L258) |
 | windowsOptions | function_declaration |  | [288](../../magpie/internal/gui/app.go#L288) |
 | panelStart | const_spec |  | [300](../../magpie/internal/gui/app.go#L300) |
 | Run | function_declaration |  | [306](../../magpie/internal/gui/app.go#L306) |
+| ready | var_spec | Run | [470](../../magpie/internal/gui/app.go#L470) |
+| skip | var_spec | Run | [615](../../magpie/internal/gui/app.go#L615) |
 | linuxOptions | function_declaration |  | [635](../../magpie/internal/gui/app.go#L635) |
 | singleInstance | function_declaration |  | [644](../../magpie/internal/gui/app.go#L644) |
-| flap | method_declaration | *host | [673](../../magpie/internal/gui/app.go#L673) |
-| setBird | method_declaration | *host | [692](../../magpie/internal/gui/app.go#L692) |
+| flap | method_declaration |  | [673](../../magpie/internal/gui/app.go#L673) |
+| setBird | method_declaration |  | [692](../../magpie/internal/gui/app.go#L692) |
 | panelOptions | function_declaration |  | [716](../../magpie/internal/gui/app.go#L716) |
 | OpenPanel | var_spec |  | [765](../../magpie/internal/gui/app.go#L765) |
 | OpenView | var_spec |  | [769](../../magpie/internal/gui/app.go#L769) |
 | Started | var_spec |  | [774](../../magpie/internal/gui/app.go#L774) |
-| leaveMenuBar | method_declaration | *host | [781](../../magpie/internal/gui/app.go#L781) |
-| setTrayInBar | method_declaration | *host | [799](../../magpie/internal/gui/app.go#L799) |
-| togglePanel | method_declaration | *host | [813](../../magpie/internal/gui/app.go#L813) |
-| togglePanelNow | method_declaration | *host | [815](../../magpie/internal/gui/app.go#L815) |
-| placePanel | method_declaration | *host | [857](../../magpie/internal/gui/app.go#L857) |
-| hidePanel | method_declaration | *host | [888](../../magpie/internal/gui/app.go#L888) |
+| leaveMenuBar | method_declaration |  | [781](../../magpie/internal/gui/app.go#L781) |
+| setTrayInBar | method_declaration |  | [799](../../magpie/internal/gui/app.go#L799) |
+| togglePanel | method_declaration |  | [813](../../magpie/internal/gui/app.go#L813) |
+| togglePanelNow | method_declaration |  | [815](../../magpie/internal/gui/app.go#L815) |
+| placePanel | method_declaration |  | [857](../../magpie/internal/gui/app.go#L857) |
+| hidePanel | method_declaration |  | [888](../../magpie/internal/gui/app.go#L888) |

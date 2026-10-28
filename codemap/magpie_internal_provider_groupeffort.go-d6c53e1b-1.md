@@ -14,7 +14,11 @@ Source SHA-256: be1e2b1704a3690a9f253f7e8024974e3afee6826307cc9b9b228a7faa291446
 | isModel | function_declaration |  | [63](../../magpie/internal/provider/groupeffort.go#L63) |
 | providersLooked | var_spec |  | [76](../../magpie/internal/provider/groupeffort.go#L76) |
 | providersHave | function_declaration |  | [79](../../magpie/internal/provider/groupeffort.go#L79) |
+| ps | var_spec | providersHave | [82](../../magpie/internal/provider/groupeffort.go#L82) |
 | WithMemberEffort | function_declaration |  | [100](../../magpie/internal/provider/groupeffort.go#L100) |
 | cleanMember | function_declaration |  | [109](../../magpie/internal/provider/groupeffort.go#L109) |
 | fixedLevels | function_declaration |  | [116](../../magpie/internal/provider/groupeffort.go#L116) |
+| out | var_spec | fixedLevels | [117](../../magpie/internal/provider/groupeffort.go#L117) |
 | CleanLevels | function_declaration |  | [129](../../magpie/internal/provider/groupeffort.go#L129) |
+| want | var_spec | CleanLevels | [130](../../magpie/internal/provider/groupeffort.go#L130) |
+| out | var_spec | CleanLevels | [141](../../magpie/internal/provider/groupeffort.go#L141) |

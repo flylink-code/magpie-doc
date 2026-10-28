@@ -11,7 +11,7 @@ Source SHA-256: 49f7a3fc300b3f54b6d381c6734bfeac56f17fc388d5150b5d2fad6890aa3086
 | logBlockRows | const_spec |  | [22](../../magpie/internal/usage/log_index.go#L22) |
 | logStampSettle | const_spec |  | [23](../../magpie/internal/usage/log_index.go#L23) |
 | logFineSettle | const_spec |  | [27](../../magpie/internal/usage/log_index.go#L27) |
-| logSnapshot | struct_type |  | [35](../../magpie/internal/usage/log_index.go#L35) |
+| logSnapshot | type_spec |  | [35](../../magpie/internal/usage/log_index.go#L35) |
 | bytes | field_declaration | logSnapshot | [36](../../magpie/internal/usage/log_index.go#L36) |
 | settled | field_declaration | logSnapshot | [37](../../magpie/internal/usage/log_index.go#L37) |
 | path | field_declaration | logSnapshot | [38](../../magpie/internal/usage/log_index.go#L38) |
@@ -26,16 +26,23 @@ Source SHA-256: 49f7a3fc300b3f54b6d381c6734bfeac56f17fc388d5150b5d2fad6890aa3086
 | keyProviders | field_declaration | logSnapshot | [50](../../magpie/internal/usage/log_index.go#L50) |
 | probes | field_declaration | logSnapshot | [54](../../magpie/internal/usage/log_index.go#L54) |
 | logIndex | var_spec |  | [57](../../magpie/internal/usage/log_index.go#L57) |
+| snapshot | field_declaration | logIndex | [59](../../magpie/internal/usage/log_index.go#L59) |
+| version | field_declaration | logIndex | [60](../../magpie/internal/usage/log_index.go#L60) |
+| reads | field_declaration | logIndex | [61](../../magpie/internal/usage/log_index.go#L61) |
 | logIndexNow | var_spec |  | [64](../../magpie/internal/usage/log_index.go#L64) |
 | logRecordHash | var_spec |  | [65](../../magpie/internal/usage/log_index.go#L65) |
 | logAppends | var_spec |  | [68](../../magpie/internal/usage/log_index.go#L68) |
+| path | field_declaration | logAppends | [70](../../magpie/internal/usage/log_index.go#L70) |
+| base | field_declaration | logAppends | [71](../../magpie/internal/usage/log_index.go#L71) |
 | readLogSnapshot | function_declaration |  | [74](../../magpie/internal/usage/log_index.go#L74) |
+| tail | var_spec | readLogSnapshot | [134](../../magpie/internal/usage/log_index.go#L134) |
+| r | var_spec | readLogSnapshot | [151](../../magpie/internal/usage/log_index.go#L151) |
 | routeRows | type_spec |  | [206](../../magpie/internal/usage/log_index.go#L206) |
-| seen | method_declaration | routeRows | [208](../../magpie/internal/usage/log_index.go#L208) |
-| handedOn | method_declaration | routeRows | [219](../../magpie/internal/usage/log_index.go#L219) |
-| visit | method_declaration | *logSnapshot | [235](../../magpie/internal/usage/log_index.go#L235) |
-| writable | method_declaration | *rowChunk | [253](../../magpie/internal/usage/log_index.go#L253) |
-| freeze | method_declaration | *rowChunk | [269](../../magpie/internal/usage/log_index.go#L269) |
+| seen | method_declaration |  | [208](../../magpie/internal/usage/log_index.go#L208) |
+| handedOn | method_declaration |  | [219](../../magpie/internal/usage/log_index.go#L219) |
+| visit | method_declaration |  | [235](../../magpie/internal/usage/log_index.go#L235) |
+| writable | method_declaration |  | [253](../../magpie/internal/usage/log_index.go#L253) |
+| freeze | method_declaration |  | [269](../../magpie/internal/usage/log_index.go#L269) |
 | resumeLogHash | function_declaration |  | [280](../../magpie/internal/usage/log_index.go#L280) |
 | marshalLogHash | function_declaration |  | [289](../../magpie/internal/usage/log_index.go#L289) |
 | oldInfo | function_declaration |  | [301](../../magpie/internal/usage/log_index.go#L301) |

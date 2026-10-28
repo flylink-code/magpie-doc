@@ -10,10 +10,29 @@ Source SHA-256: a4598b449f447c35dbcd43a0780579cefa6e573d0522519c522cdd5ccd0fc58c
 | --- | --- | --- | ---: |
 | libraryUsage | const_spec |  | [17](../../magpie/internal/cli/library_cli.go#L17) |
 | libraryCmd | function_declaration |  | [44](../../magpie/internal/cli/library_cli.go#L44) |
+| res | var_spec | libraryCmd | [49](../../magpie/internal/cli/library_cli.go#L49) |
+| err | var_spec | libraryCmd | [50](../../magpie/internal/cli/library_cli.go#L50) |
+| unused | var_spec | libraryCmd | [51](../../magpie/internal/cli/library_cli.go#L51) |
+| b | var_spec | libraryCmd | [70](../../magpie/internal/cli/library_cli.go#L70) |
+| as | var_spec | libraryCmd | [82](../../magpie/internal/cli/library_cli.go#L82) |
+| cmd | var_spec | libraryCmd | [92](../../magpie/internal/cli/library_cli.go#L92) |
+| s | var_spec | libraryCmd | [102](../../magpie/internal/cli/library_cli.go#L102) |
+| as | var_spec | libraryCmd | [114](../../magpie/internal/cli/library_cli.go#L114) |
+| as | var_spec | libraryCmd | [126](../../magpie/internal/cli/library_cli.go#L126) |
+| edited | var_spec | libraryCmd | [147](../../magpie/internal/cli/library_cli.go#L147) |
+| gone | var_spec | libraryCmd | [148](../../magpie/internal/cli/library_cli.go#L148) |
 | removeEverySkill | function_declaration |  | [202](../../magpie/internal/cli/library_cli.go#L202) |
+| names | var_spec | removeEverySkill | [217](../../magpie/internal/cli/library_cli.go#L217) |
 | removeGoneSkills | function_declaration |  | [253](../../magpie/internal/cli/library_cli.go#L253) |
+| names | var_spec | removeGoneSkills | [268](../../magpie/internal/cli/library_cli.go#L268) |
 | agentList | function_declaration |  | [310](../../magpie/internal/cli/library_cli.go#L310) |
 | libraryAgents | function_declaration |  | [322](../../magpie/internal/cli/library_cli.go#L322) |
 | printLibraryResult | function_declaration |  | [334](../../magpie/internal/cli/library_cli.go#L334) |
 | libraryStatus | function_declaration |  | [368](../../magpie/internal/cli/library_cli.go#L368) |
+| to | var_spec | libraryStatus | [380](../../magpie/internal/cli/library_cli.go#L380) |
+| found | var_spec | libraryStatus | [410](../../magpie/internal/cli/library_cli.go#L410) |
 | rtkCmd | function_declaration |  | [442](../../magpie/internal/cli/library_cli.go#L442) |
+| v | var_spec | rtkCmd | [443](../../magpie/internal/cli/library_cli.go#L443) |
+| err | var_spec | rtkCmd | [449](../../magpie/internal/cli/library_cli.go#L449) |
+| err | var_spec | rtkCmd | [454](../../magpie/internal/cli/library_cli.go#L454) |
+| err | var_spec | rtkCmd | [460](../../magpie/internal/cli/library_cli.go#L460) |

@@ -8,6 +8,6 @@ Source SHA-256: 1f0912567de31bdfb90907caa2c871d14ef090c69dc72c9b95482b132a2bdd16
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| drawingModel | method_declaration | *Server | [10](../../magpie/internal/gateway/drawing_route.go#L10) |
+| drawingModel | method_declaration |  | [10](../../magpie/internal/gateway/drawing_route.go#L10) |
 | drawingTurnID | function_declaration |  | [32](../../magpie/internal/gateway/drawing_route.go#L32) |
-| codexDrawingProvider | method_declaration | *Server | [40](../../magpie/internal/gateway/drawing_route.go#L40) |
+| codexDrawingProvider | method_declaration |  | [40](../../magpie/internal/gateway/drawing_route.go#L40) |

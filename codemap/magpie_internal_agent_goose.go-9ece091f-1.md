@@ -12,14 +12,17 @@ Source SHA-256: 72aca3cd29c20215bddcf37e64d88241d947d2ec7a0a0823b9c0abf9854953d4
 | gooseThinks | var_spec |  | [51](../../magpie/internal/agent/goose.go#L51) |
 | gooseKeys | var_spec |  | [57](../../magpie/internal/agent/goose.go#L57) |
 | gooseConfigured | function_declaration |  | [73](../../magpie/internal/agent/goose.go#L73) |
+| c | var_spec | gooseConfigured | [76](../../magpie/internal/agent/goose.go#L76) |
 | gooseProviderPath | function_declaration |  | [113](../../magpie/internal/agent/goose.go#L113) |
 | gooseProviderJSON | function_declaration |  | [119](../../magpie/internal/agent/goose.go#L119) |
 | gooseKey | function_declaration |  | [152](../../magpie/internal/agent/goose.go#L152) |
 | gooseProviderKept | function_declaration |  | [161](../../magpie/internal/agent/goose.go#L161) |
+| have | var_spec | gooseProviderKept | [167](../../magpie/internal/agent/goose.go#L167) |
 | writeGooseProvider | function_declaration |  | [182](../../magpie/internal/agent/goose.go#L182) |
 | syncGooseProvider | function_declaration |  | [195](../../magpie/internal/agent/goose.go#L195) |
 | removeGooseProvider | function_declaration |  | [208](../../magpie/internal/agent/goose.go#L208) |
 | gooseNewLayout | function_declaration |  | [236](../../magpie/internal/agent/goose.go#L236) |
+| c | var_spec | gooseNewLayout | [241](../../magpie/internal/agent/goose.go#L241) |
 | gooseActive | function_declaration |  | [252](../../magpie/internal/agent/goose.go#L252) |
 | gooseModel | function_declaration |  | [267](../../magpie/internal/agent/goose.go#L267) |
 | setGooseModel | function_declaration |  | [282](../../magpie/internal/agent/goose.go#L282) |

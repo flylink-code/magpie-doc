@@ -10,5 +10,7 @@ Source SHA-256: d270816038c2f3f3670a8eaf60b914607b44cd15ea7ac4aaf0f8cf74d7a62d27
 | --- | --- | --- | ---: |
 | gemini | function_declaration |  | [23](../../magpie/internal/agent/gemini.go#L23) |
 | geminiIn | function_declaration |  | [28](../../magpie/internal/agent/gemini.go#L28) |
+| env | var_spec | geminiIn | [60](../../magpie/internal/agent/gemini.go#L60) |
+| ms | var_spec | geminiIn | [257](../../magpie/internal/agent/gemini.go#L257) |
 | delModelName | function_declaration |  | [274](../../magpie/internal/agent/gemini.go#L274) |
 | noticeGemini | var_spec |  | [286](../../magpie/internal/agent/gemini.go#L286) |

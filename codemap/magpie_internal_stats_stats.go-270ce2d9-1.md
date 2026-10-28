@@ -13,6 +13,7 @@ Source SHA-256: 4b21544e6f525c8855b64d2985495728a66a75ee60f52ef4a09592946d2784c7
 | Off | function_declaration |  | [44](../../magpie/internal/stats/stats.go#L44) |
 | Run | function_declaration |  | [56](../../magpie/internal/stats/stats.go#L56) |
 | Send | function_declaration |  | [69](../../magpie/internal/stats/stats.go#L69) |
+| uses | var_spec | Send | [96](../../magpie/internal/stats/stats.go#L96) |
 | kind | field_declaration | Send | [105](../../magpie/internal/stats/stats.go#L105) |
 | ids | field_declaration | Send | [106](../../magpie/internal/stats/stats.go#L106) |
 | installID | function_declaration |  | [146](../../magpie/internal/stats/stats.go#L146) |

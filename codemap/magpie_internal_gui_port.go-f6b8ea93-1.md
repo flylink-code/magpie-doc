@@ -8,7 +8,7 @@ Source SHA-256: 0a18d78719a6c2dfb425772d0866fcf6cf192280a46b4b5e3e1d01271897584c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| portJSON | struct_type |  | [19](../../magpie/internal/gui/port.go#L19) |
+| portJSON | type_spec |  | [19](../../magpie/internal/gui/port.go#L19) |
 | Port | field_declaration | portJSON | [20](../../magpie/internal/gui/port.go#L20) |
 | Moved | field_declaration | portJSON | [21](../../magpie/internal/gui/port.go#L21) |
 | Error | field_declaration | portJSON | [22](../../magpie/internal/gui/port.go#L22) |

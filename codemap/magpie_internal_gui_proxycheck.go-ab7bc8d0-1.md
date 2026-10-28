@@ -10,20 +10,24 @@ Source SHA-256: 9464894a27020c6d1f891ca262130e6d22276d97c698c0610304cc56e10859b9
 | --- | --- | --- | ---: |
 | proxyTraceURL | var_spec |  | [33](../../magpie/internal/gui/proxycheck.go#L33) |
 | proxyTraceTimeout | const_spec |  | [36](../../magpie/internal/gui/proxycheck.go#L36) |
-| proxyLeg | struct_type |  | [43](../../magpie/internal/gui/proxycheck.go#L43) |
+| proxyLeg | type_spec |  | [43](../../magpie/internal/gui/proxycheck.go#L43) |
 | IP | field_declaration | proxyLeg | [44](../../magpie/internal/gui/proxycheck.go#L44) |
 | Loc | field_declaration | proxyLeg | [45](../../magpie/internal/gui/proxycheck.go#L45) |
 | Ms | field_declaration | proxyLeg | [46](../../magpie/internal/gui/proxycheck.go#L46) |
 | Error | field_declaration | proxyLeg | [47](../../magpie/internal/gui/proxycheck.go#L47) |
 | Proxied | field_declaration | proxyLeg | [48](../../magpie/internal/gui/proxycheck.go#L48) |
-| proxyCheck | struct_type |  | [55](../../magpie/internal/gui/proxycheck.go#L55) |
+| proxyCheck | type_spec |  | [55](../../magpie/internal/gui/proxycheck.go#L55) |
 | Proxy | field_declaration | proxyCheck | [56](../../magpie/internal/gui/proxycheck.go#L56) |
 | Source | field_declaration | proxyCheck | [57](../../magpie/internal/gui/proxycheck.go#L57) |
 | Through | field_declaration | proxyCheck | [58](../../magpie/internal/gui/proxycheck.go#L58) |
 | Direct | field_declaration | proxyCheck | [59](../../magpie/internal/gui/proxycheck.go#L59) |
 | checkProxy | function_declaration |  | [65](../../magpie/internal/gui/proxycheck.go#L65) |
+| out | var_spec | checkProxy | [66](../../magpie/internal/gui/proxycheck.go#L66) |
+| wg | var_spec | checkProxy | [67](../../magpie/internal/gui/proxycheck.go#L67) |
 | throughLeg | function_declaration |  | [83](../../magpie/internal/gui/proxycheck.go#L83) |
+| remote | var_spec | throughLeg | [84](../../magpie/internal/gui/proxycheck.go#L84) |
 | connectedTo | function_declaration |  | [106](../../magpie/internal/gui/proxycheck.go#L106) |
 | traceLeg | function_declaration |  | [141](../../magpie/internal/gui/proxycheck.go#L141) |
+| leg | var_spec | traceLeg | [155](../../magpie/internal/gui/proxycheck.go#L155) |
 | redactProxyErr | function_declaration |  | [181](../../magpie/internal/gui/proxycheck.go#L181) |
 | handleProxyCheck | function_declaration |  | [196](../../magpie/internal/gui/proxycheck.go#L196) |

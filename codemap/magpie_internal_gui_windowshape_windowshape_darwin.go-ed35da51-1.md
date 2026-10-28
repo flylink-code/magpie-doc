@@ -8,12 +8,13 @@ Source SHA-256: 2e7669f5948d5a564f84d1a9f7439dabb56932ad5ace1764a6cf9218a50c1efb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Shape | struct_type |  | [95](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L95) |
+| Shape | type_spec |  | [95](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L95) |
 | Radius | field_declaration | Shape | [96](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L96) |
 | Lights | field_declaration | Shape | [97](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L97) |
 | Titlebar | field_declaration | Shape | [98](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L98) |
 | Toolbar | field_declaration | Shape | [99](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L99) |
 | Of | function_declaration |  | [103](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L103) |
+| out | var_spec | Of | [104](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L104) |
 | BeginSheet | function_declaration |  | [115](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L115) |
 | SheetTop | function_declaration |  | [120](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L120) |
 | EndSheet | function_declaration |  | [123](../../magpie/internal/gui/windowshape/windowshape_darwin.go#L123) |

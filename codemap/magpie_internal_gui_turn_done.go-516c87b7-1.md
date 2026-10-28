@@ -10,8 +10,6 @@ Source SHA-256: 2aef21709b12b7f2f7488c041a5eeaefa3b33d039078883b4a3304fea32d2c60
 | --- | --- | --- | ---: |
 | turnDoneText | function_declaration |  | [14](../../magpie/internal/gui/turn_done.go#L14) |
 | turnTook | function_declaration |  | [48](../../magpie/internal/gui/turn_done.go#L48) |
-| units | struct_type | turnTook | [51](../../magpie/internal/gui/turn_done.go#L51) |
-| h | field_declaration | turnTook.units | [51](../../magpie/internal/gui/turn_done.go#L51) |
-| m | field_declaration | turnTook.units | [51](../../magpie/internal/gui/turn_done.go#L51) |
-| s | field_declaration | turnTook.units | [51](../../magpie/internal/gui/turn_done.go#L51) |
+| units | type_spec | turnTook | [51](../../magpie/internal/gui/turn_done.go#L51) |
+| h | field_declaration | turnTook::units | [51](../../magpie/internal/gui/turn_done.go#L51) |
 | agentName | function_declaration |  | [76](../../magpie/internal/gui/turn_done.go#L76) |

@@ -9,3 +9,4 @@ Source SHA-256: c62e28d11608d552c7c79f8170302bcc77bcbebe35b1e94cf100d42068255ab6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | newUUID | function_declaration |  | [9](../../magpie/internal/gateway/uuid.go#L9) |
+| b | var_spec | newUUID | [10](../../magpie/internal/gateway/uuid.go#L10) |

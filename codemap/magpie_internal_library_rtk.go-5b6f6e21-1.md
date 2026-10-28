@@ -9,7 +9,7 @@ Source SHA-256: 1b5af85dd43a05d3edac12fa37a65cbedbe806f82781b1c48c0aed094dc476f9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | RTKURL | const_spec |  | [36](../../magpie/internal/library/rtk.go#L36) |
-| rtkSpec | struct_type |  | [39](../../magpie/internal/library/rtk.go#L39) |
+| rtkSpec | type_spec |  | [39](../../magpie/internal/library/rtk.go#L39) |
 | flags | field_declaration | rtkSpec | [40](../../magpie/internal/library/rtk.go#L40) |
 | patch | field_declaration | rtkSpec | [42](../../magpie/internal/library/rtk.go#L42) |
 | has | field_declaration | rtkSpec | [44](../../magpie/internal/library/rtk.go#L44) |
@@ -32,40 +32,50 @@ Source SHA-256: 1b5af85dd43a05d3edac12fa37a65cbedbe806f82781b1c48c0aed094dc476f9
 | agyPlugin | function_declaration |  | [304](../../magpie/internal/library/rtk.go#L304) |
 | agyBlocked | function_declaration |  | [309](../../magpie/internal/library/rtk.go#L309) |
 | older | function_declaration |  | [318](../../magpie/internal/library/rtk.go#L318) |
+| a | var_spec | older | [319](../../magpie/internal/library/rtk.go#L319) |
 | rtkVersion | var_spec |  | [328](../../magpie/internal/library/rtk.go#L328) |
 | semver | var_spec |  | [345](../../magpie/internal/library/rtk.go#L345) |
 | openCodeVersion | var_spec |  | [351](../../magpie/internal/library/rtk.go#L351) |
 | hermesPlugin | function_declaration |  | [377](../../magpie/internal/library/rtk.go#L377) |
 | extensionSpec | function_declaration |  | [380](../../magpie/internal/library/rtk.go#L380) |
 | rm | function_declaration |  | [391](../../magpie/internal/library/rtk.go#L391) |
+| errs | var_spec | rm | [392](../../magpie/internal/library/rtk.go#L392) |
 | dropHook | function_declaration |  | [405](../../magpie/internal/library/rtk.go#L405) |
-| Command | field_declaration | dropHook | [418](../../magpie/internal/library/rtk.go#L418) |
-| Hooks | field_declaration | dropHook | [419](../../magpie/internal/library/rtk.go#L419) |
-| Command | field_declaration | dropHook | [430](../../magpie/internal/library/rtk.go#L430) |
+| list | var_spec | dropHook | [410](../../magpie/internal/library/rtk.go#L410) |
+| keep | var_spec | dropHook | [414](../../magpie/internal/library/rtk.go#L414) |
+| h | var_spec | dropHook | [417](../../magpie/internal/library/rtk.go#L417) |
+| Command | field_declaration | dropHook::h | [418](../../magpie/internal/library/rtk.go#L418) |
+| Hooks | field_declaration | dropHook::h | [419](../../magpie/internal/library/rtk.go#L419) |
+| inner | var_spec | dropHook | [427](../../magpie/internal/library/rtk.go#L427) |
+| c | var_spec | dropHook | [429](../../magpie/internal/library/rtk.go#L429) |
+| Command | field_declaration | dropHook::c | [430](../../magpie/internal/library/rtk.go#L430) |
+| g | var_spec | dropHook | [442](../../magpie/internal/library/rtk.go#L442) |
 | dropLines | function_declaration |  | [468](../../magpie/internal/library/rtk.go#L468) |
+| out | var_spec | dropLines | [477](../../magpie/internal/library/rtk.go#L477) |
 | dropBlock | function_declaration |  | [499](../../magpie/internal/library/rtk.go#L499) |
 | writeOrRemove | function_declaration |  | [513](../../magpie/internal/library/rtk.go#L513) |
 | dropHermesPlugin | function_declaration |  | [522](../../magpie/internal/library/rtk.go#L522) |
-| Plugins | field_declaration | dropHermesPlugin | [527](../../magpie/internal/library/rtk.go#L527) |
-| RTKAgent | struct_type |  | [546](../../magpie/internal/library/rtk.go#L546) |
+| c | var_spec | dropHermesPlugin | [526](../../magpie/internal/library/rtk.go#L526) |
+| Plugins | field_declaration | dropHermesPlugin::c | [527](../../magpie/internal/library/rtk.go#L527) |
+| RTKAgent | type_spec |  | [546](../../magpie/internal/library/rtk.go#L546) |
 | ID | field_declaration | RTKAgent | [547](../../magpie/internal/library/rtk.go#L547) |
 | Name | field_declaration | RTKAgent | [548](../../magpie/internal/library/rtk.go#L548) |
 | Icon | field_declaration | RTKAgent | [549](../../magpie/internal/library/rtk.go#L549) |
 | On | field_declaration | RTKAgent | [550](../../magpie/internal/library/rtk.go#L550) |
 | Blocked | field_declaration | RTKAgent | [553](../../magpie/internal/library/rtk.go#L553) |
 | NoHook | field_declaration | RTKAgent | [555](../../magpie/internal/library/rtk.go#L555) |
-| RTKGain | struct_type |  | [559](../../magpie/internal/library/rtk.go#L559) |
+| RTKGain | type_spec |  | [559](../../magpie/internal/library/rtk.go#L559) |
 | Commands | field_declaration | RTKGain | [560](../../magpie/internal/library/rtk.go#L560) |
 | Input | field_declaration | RTKGain | [561](../../magpie/internal/library/rtk.go#L561) |
 | Saved | field_declaration | RTKGain | [562](../../magpie/internal/library/rtk.go#L562) |
 | Pct | field_declaration | RTKGain | [563](../../magpie/internal/library/rtk.go#L563) |
-| RTKDay | struct_type |  | [567](../../magpie/internal/library/rtk.go#L567) |
+| RTKDay | type_spec |  | [567](../../magpie/internal/library/rtk.go#L567) |
 | Date | field_declaration | RTKDay | [568](../../magpie/internal/library/rtk.go#L568) |
 | Commands | field_declaration | RTKDay | [569](../../magpie/internal/library/rtk.go#L569) |
 | Input | field_declaration | RTKDay | [570](../../magpie/internal/library/rtk.go#L570) |
 | Saved | field_declaration | RTKDay | [571](../../magpie/internal/library/rtk.go#L571) |
 | Pct | field_declaration | RTKDay | [572](../../magpie/internal/library/rtk.go#L572) |
-| RTKView | struct_type |  | [576](../../magpie/internal/library/rtk.go#L576) |
+| RTKView | type_spec |  | [576](../../magpie/internal/library/rtk.go#L576) |
 | Path | field_declaration | RTKView | [577](../../magpie/internal/library/rtk.go#L577) |
 | Version | field_declaration | RTKView | [578](../../magpie/internal/library/rtk.go#L578) |
 | Gain | field_declaration | RTKView | [579](../../magpie/internal/library/rtk.go#L579) |
@@ -93,18 +103,8 @@ Source SHA-256: 1b5af85dd43a05d3edac12fa37a65cbedbe806f82781b1c48c0aed094dc476f9
 | lastLines | function_declaration |  | [674](../../magpie/internal/library/rtk.go#L674) |
 | detected | var_spec |  | [686](../../magpie/internal/library/rtk.go#L686) |
 | rtkAgents | function_declaration |  | [691](../../magpie/internal/library/rtk.go#L691) |
+| out | var_spec | rtkAgents | [695](../../magpie/internal/library/rtk.go#L695) |
 | ReadRTK | function_declaration |  | [710](../../magpie/internal/library/rtk.go#L710) |
 | rtkGain | function_declaration |  | [766](../../magpie/internal/library/rtk.go#L766) |
+| stdout | var_spec | rtkGain | [772](../../magpie/internal/library/rtk.go#L772) |
 | parseGain | function_declaration |  | [784](../../magpie/internal/library/rtk.go#L784) |
-| Summary | field_declaration | parseGain | [786](../../magpie/internal/library/rtk.go#L786) |
-| Commands | field_declaration | parseGain | [787](../../magpie/internal/library/rtk.go#L787) |
-| Input | field_declaration | parseGain | [788](../../magpie/internal/library/rtk.go#L788) |
-| Saved | field_declaration | parseGain | [789](../../magpie/internal/library/rtk.go#L789) |
-| Pct | field_declaration | parseGain | [790](../../magpie/internal/library/rtk.go#L790) |
-| Daily | field_declaration | parseGain | [792](../../magpie/internal/library/rtk.go#L792) |
-| Date | field_declaration | parseGain | [793](../../magpie/internal/library/rtk.go#L793) |
-| Commands | field_declaration | parseGain | [794](../../magpie/internal/library/rtk.go#L794) |
-| Input | field_declaration | parseGain | [795](../../magpie/internal/library/rtk.go#L795) |
-| Saved | field_declaration | parseGain | [796](../../magpie/internal/library/rtk.go#L796) |
-| Pct | field_declaration | parseGain | [797](../../magpie/internal/library/rtk.go#L797) |
-| codexSandbox | function_declaration |  | [825](../../magpie/internal/library/rtk.go#L825) |

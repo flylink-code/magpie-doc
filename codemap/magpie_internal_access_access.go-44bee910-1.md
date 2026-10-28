@@ -14,9 +14,12 @@ Source SHA-256: d574a5db384e82eef5d9186147c97c13dc4452c409f0b5649e47d56863b4275d
 | Managed | function_declaration |  | [31](../../magpie/internal/access/access.go#L31) |
 | Named | function_declaration |  | [39](../../magpie/internal/access/access.go#L39) |
 | own | var_spec |  | [53](../../magpie/internal/access/access.go#L53) |
+| size | field_declaration | own | [55](../../magpie/internal/access/access.go#L55) |
+| mod | field_declaration | own | [56](../../magpie/internal/access/access.go#L56) |
+| secrets | field_declaration | own | [57](../../magpie/internal/access/access.go#L57) |
 | ownSecrets | function_declaration |  | [60](../../magpie/internal/access/access.go#L60) |
 | ownSecret | function_declaration |  | [90](../../magpie/internal/access/access.go#L90) |
-| Key | struct_type |  | [111](../../magpie/internal/access/access.go#L111) |
+| Key | type_spec |  | [111](../../magpie/internal/access/access.go#L111) |
 | ID | field_declaration | Key | [112](../../magpie/internal/access/access.go#L112) |
 | Name | field_declaration | Key | [113](../../magpie/internal/access/access.go#L113) |
 | Off | field_declaration | Key | [114](../../magpie/internal/access/access.go#L114) |
@@ -28,27 +31,27 @@ Source SHA-256: d574a5db384e82eef5d9186147c97c13dc4452c409f0b5649e47d56863b4275d
 | Models | field_declaration | Key | [126](../../magpie/internal/access/access.go#L126) |
 | Accounts | field_declaration | Key | [130](../../magpie/internal/access/access.go#L130) |
 | Quotas | field_declaration | Key | [135](../../magpie/internal/access/access.go#L135) |
-| Identity | struct_type |  | [140](../../magpie/internal/access/access.go#L140) |
+| Identity | type_spec |  | [140](../../magpie/internal/access/access.go#L140) |
 | KeyID | field_declaration | Identity | [141](../../magpie/internal/access/access.go#L141) |
-| KeyName | field_declaration | Identity | [141](../../magpie/internal/access/access.go#L141) |
 | Limit | field_declaration | Identity | [142](../../magpie/internal/access/access.go#L142) |
 | More | field_declaration | Identity | [143](../../magpie/internal/access/access.go#L143) |
 | Models | field_declaration | Identity | [144](../../magpie/internal/access/access.go#L144) |
 | Accounts | field_declaration | Identity | [145](../../magpie/internal/access/access.go#L145) |
 | Quotas | field_declaration | Identity | [146](../../magpie/internal/access/access.go#L146) |
-| contextKey | struct_type |  | [148](../../magpie/internal/access/access.go#L148) |
+| contextKey | type_spec |  | [148](../../magpie/internal/access/access.go#L148) |
 | WithIdentity | function_declaration |  | [150](../../magpie/internal/access/access.go#L150) |
 | Caller | function_declaration |  | [153](../../magpie/internal/access/access.go#L153) |
 | mu | var_spec |  | [158](../../magpie/internal/access/access.go#L158) |
 | Path | function_declaration |  | [160](../../magpie/internal/access/access.go#L160) |
 | load | function_declaration |  | [162](../../magpie/internal/access/access.go#L162) |
+| keys | var_spec | load | [170](../../magpie/internal/access/access.go#L170) |
 | List | function_declaration |  | [176](../../magpie/internal/access/access.go#L176) |
 | LANSecret | function_declaration |  | [208](../../magpie/internal/access/access.go#L208) |
 | Default | function_declaration |  | [245](../../magpie/internal/access/access.go#L245) |
 | Export | function_declaration |  | [263](../../magpie/internal/access/access.go#L263) |
 | Restore | function_declaration |  | [270](../../magpie/internal/access/access.go#L270) |
 | random | function_declaration |  | [276](../../magpie/internal/access/access.go#L276) |
-| Change | struct_type |  | [284](../../magpie/internal/access/access.go#L284) |
+| Change | type_spec |  | [284](../../magpie/internal/access/access.go#L284) |
 | Key | field_declaration | Change | [285](../../magpie/internal/access/access.go#L285) |
 | Name | field_declaration | Change | [286](../../magpie/internal/access/access.go#L286) |
 | Limit | field_declaration | Change | [288](../../magpie/internal/access/access.go#L288) |
@@ -59,6 +62,9 @@ Source SHA-256: d574a5db384e82eef5d9186147c97c13dc4452c409f0b5649e47d56863b4275d
 | Secret | field_declaration | Change | [305](../../magpie/internal/access/access.go#L305) |
 | Now | var_spec |  | [309](../../magpie/internal/access/access.go#L309) |
 | Update | function_declaration |  | [312](../../magpie/internal/access/access.go#L312) |
+| secret | var_spec | Update | [325](../../magpie/internal/access/access.go#L325) |
+| mirror | var_spec | Update | [326](../../magpie/internal/access/access.go#L326) |
+| first | var_spec | Update | [371](../../magpie/internal/access/access.go#L371) |
 | setLegacyMirror | function_declaration |  | [477](../../magpie/internal/access/access.go#L477) |
 | Authenticate | function_declaration |  | [492](../../magpie/internal/access/access.go#L492) |
 | legacyLANKey | function_declaration |  | [517](../../magpie/internal/access/access.go#L517) |

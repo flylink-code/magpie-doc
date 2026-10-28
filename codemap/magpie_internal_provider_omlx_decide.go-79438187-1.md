@@ -9,14 +9,15 @@ Source SHA-256: 9a3dfc9b99a20534e3092f664ce504993593432ae54e445e3650d1a58a55bb6b
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | OMLXPreset | const_spec |  | [12](../../magpie/internal/provider/omlx_decide.go#L12) |
-| omlxDecides | method_declaration | Provider | [23](../../magpie/internal/provider/omlx_decide.go#L23) |
+| omlxDecides | method_declaration |  | [23](../../magpie/internal/provider/omlx_decide.go#L23) |
 | omlxDecisions | function_declaration |  | [28](../../magpie/internal/provider/omlx_decide.go#L28) |
 | listedOMLXDecide | function_declaration |  | [36](../../magpie/internal/provider/omlx_decide.go#L36) |
-| Models | field_declaration | listedOMLXDecide | [38](../../magpie/internal/provider/omlx_decide.go#L38) |
-| ID | field_declaration | listedOMLXDecide | [39](../../magpie/internal/provider/omlx_decide.go#L39) |
-| Alias | field_declaration | listedOMLXDecide | [40](../../magpie/internal/provider/omlx_decide.go#L40) |
-| ModelType | field_declaration | listedOMLXDecide | [41](../../magpie/internal/provider/omlx_decide.go#L41) |
-| EngineType | field_declaration | listedOMLXDecide | [42](../../magpie/internal/provider/omlx_decide.go#L42) |
-| Hidden | field_declaration | listedOMLXDecide | [43](../../magpie/internal/provider/omlx_decide.go#L43) |
-| MaxContextWindow | field_declaration | listedOMLXDecide | [44](../../magpie/internal/provider/omlx_decide.go#L44) |
-| ContextLength | field_declaration | listedOMLXDecide | [45](../../magpie/internal/provider/omlx_decide.go#L45) |
+| out | var_spec | listedOMLXDecide | [37](../../magpie/internal/provider/omlx_decide.go#L37) |
+| Models | field_declaration | listedOMLXDecide::out | [38](../../magpie/internal/provider/omlx_decide.go#L38) |
+| ID | field_declaration | listedOMLXDecide::out::Models | [39](../../magpie/internal/provider/omlx_decide.go#L39) |
+| Alias | field_declaration | listedOMLXDecide::out::Models | [40](../../magpie/internal/provider/omlx_decide.go#L40) |
+| ModelType | field_declaration | listedOMLXDecide::out::Models | [41](../../magpie/internal/provider/omlx_decide.go#L41) |
+| EngineType | field_declaration | listedOMLXDecide::out::Models | [42](../../magpie/internal/provider/omlx_decide.go#L42) |
+| Hidden | field_declaration | listedOMLXDecide::out::Models | [43](../../magpie/internal/provider/omlx_decide.go#L43) |
+| MaxContextWindow | field_declaration | listedOMLXDecide::out::Models | [44](../../magpie/internal/provider/omlx_decide.go#L44) |
+| ContextLength | field_declaration | listedOMLXDecide::out::Models | [45](../../magpie/internal/provider/omlx_decide.go#L45) |

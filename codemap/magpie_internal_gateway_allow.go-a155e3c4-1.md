@@ -11,6 +11,9 @@ Source SHA-256: d201a86ec81031ab9529d6e3b33dafbe7b4d009027627fad3ac0340adc581080
 | AllowIPsEnv | const_spec |  | [32](../../magpie/internal/gateway/allow.go#L32) |
 | AllowIPs | function_declaration |  | [36](../../magpie/internal/gateway/allow.go#L36) |
 | lastAllow | var_spec |  | [46](../../magpie/internal/gateway/allow.go#L46) |
+| list | field_declaration | lastAllow | [48](../../magpie/internal/gateway/allow.go#L48) |
+| read | field_declaration | lastAllow | [49](../../magpie/internal/gateway/allow.go#L49) |
+| warned | field_declaration | lastAllow | [50](../../magpie/internal/gateway/allow.go#L50) |
 | allowList | function_declaration |  | [55](../../magpie/internal/gateway/allow.go#L55) |
 | warnedAllow | var_spec |  | [77](../../magpie/internal/gateway/allow.go#L77) |
 | allowPrefixes | function_declaration |  | [84](../../magpie/internal/gateway/allow.go#L84) |

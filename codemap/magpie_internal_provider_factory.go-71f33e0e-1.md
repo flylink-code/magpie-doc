@@ -13,7 +13,7 @@ Source SHA-256: c7d0990958f2739eba78429e2248621c51141656b752c2e59a5dfae9c57e824d
 | FactoryBaseForTest | function_declaration |  | [35](../../magpie/internal/provider/factory.go#L35) |
 | factoryClient | var_spec |  | [44](../../magpie/internal/provider/factory.go#L44) |
 | factoryMu | var_spec |  | [46](../../magpie/internal/provider/factory.go#L46) |
-| factoryCreds | struct_type |  | [50](../../magpie/internal/provider/factory.go#L50) |
+| factoryCreds | type_spec |  | [50](../../magpie/internal/provider/factory.go#L50) |
 | Access | field_declaration | factoryCreds | [51](../../magpie/internal/provider/factory.go#L51) |
 | Refresh | field_declaration | factoryCreds | [52](../../magpie/internal/provider/factory.go#L52) |
 | ExpiresAt | field_declaration | factoryCreds | [53](../../magpie/internal/provider/factory.go#L53) |
@@ -24,25 +24,27 @@ Source SHA-256: c7d0990958f2739eba78429e2248621c51141656b752c2e59a5dfae9c57e824d
 | Region | field_declaration | factoryCreds | [64](../../magpie/internal/provider/factory.go#L64) |
 | Prem | field_declaration | factoryCreds | [67](../../magpie/internal/provider/factory.go#L67) |
 | Key | field_declaration | factoryCreds | [71](../../magpie/internal/provider/factory.go#L71) |
-| base | method_declaration | factoryCreds | [75](../../magpie/internal/provider/factory.go#L75) |
-| factoryLogin | struct_type |  | [82](../../magpie/internal/provider/factory.go#L82) |
+| base | method_declaration |  | [75](../../magpie/internal/provider/factory.go#L75) |
+| factoryLogin | type_spec |  | [82](../../magpie/internal/provider/factory.go#L82) |
 | creds | field_declaration | factoryLogin | [84](../../magpie/internal/provider/factory.go#L84) |
 | factorySaved | function_declaration |  | [87](../../magpie/internal/provider/factory.go#L87) |
+| c | var_spec | factorySaved | [88](../../magpie/internal/provider/factory.go#L88) |
 | factoryLogins | function_declaration |  | [96](../../magpie/internal/provider/factory.go#L96) |
-| factoryStatus | struct_type |  | [111](../../magpie/internal/provider/factory.go#L111) |
+| out | var_spec | factoryLogins | [97](../../magpie/internal/provider/factory.go#L97) |
+| factoryStatus | type_spec |  | [111](../../magpie/internal/provider/factory.go#L111) |
 | Code | field_declaration | factoryStatus | [112](../../magpie/internal/provider/factory.go#L112) |
 | Msg | field_declaration | factoryStatus | [113](../../magpie/internal/provider/factory.go#L113) |
-| Error | method_declaration | *factoryStatus | [116](../../magpie/internal/provider/factory.go#L116) |
-| factoryWho | struct_type |  | [119](../../magpie/internal/provider/factory.go#L119) |
+| Error | method_declaration |  | [116](../../magpie/internal/provider/factory.go#L116) |
+| factoryWho | type_spec |  | [119](../../magpie/internal/provider/factory.go#L119) |
 | UserID | field_declaration | factoryWho | [120](../../magpie/internal/provider/factory.go#L120) |
 | OrgID | field_declaration | factoryWho | [121](../../magpie/internal/provider/factory.go#L121) |
 | Email | field_declaration | factoryWho | [122](../../magpie/internal/provider/factory.go#L122) |
 | Region | field_declaration | factoryWho | [123](../../magpie/internal/provider/factory.go#L123) |
 | Prem | field_declaration | factoryWho | [124](../../magpie/internal/provider/factory.go#L124) |
 | factoryWhoami | function_declaration |  | [130](../../magpie/internal/provider/factory.go#L130) |
-| factoryModel | struct_type |  | [157](../../magpie/internal/provider/factory.go#L157) |
+| who | var_spec | factoryWhoami | [131](../../magpie/internal/provider/factory.go#L131) |
+| factoryModel | type_spec |  | [157](../../magpie/internal/provider/factory.go#L157) |
 | id | field_declaration | factoryModel | [158](../../magpie/internal/provider/factory.go#L158) |
-| name | field_declaration | factoryModel | [158](../../magpie/internal/provider/factory.go#L158) |
 | api | field_declaration | factoryModel | [159](../../magpie/internal/provider/factory.go#L159) |
 | upstream | field_declaration | factoryModel | [160](../../magpie/internal/provider/factory.go#L160) |
 | context | field_declaration | factoryModel | [161](../../magpie/internal/provider/factory.go#L161) |

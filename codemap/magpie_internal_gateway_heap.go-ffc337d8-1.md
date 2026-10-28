@@ -10,7 +10,7 @@ Source SHA-256: 4b44575313b280dcbfee743c13e876947aabc89d05332a740c83bd68b8a34140
 | --- | --- | --- | ---: |
 | HeapPath | const_spec |  | [24](../../magpie/internal/gateway/heap.go#L24) |
 | HeapStatsHeader | const_spec |  | [27](../../magpie/internal/gateway/heap.go#L27) |
-| HeapStats | struct_type |  | [34](../../magpie/internal/gateway/heap.go#L34) |
+| HeapStats | type_spec |  | [34](../../magpie/internal/gateway/heap.go#L34) |
 | PID | field_declaration | HeapStats | [35](../../magpie/internal/gateway/heap.go#L35) |
 | Program | field_declaration | HeapStats | [36](../../magpie/internal/gateway/heap.go#L36) |
 | Version | field_declaration | HeapStats | [37](../../magpie/internal/gateway/heap.go#L37) |
@@ -27,6 +27,9 @@ Source SHA-256: 4b44575313b280dcbfee743c13e876947aabc89d05332a740c83bd68b8a34140
 | NumGC | field_declaration | HeapStats | [48](../../magpie/internal/gateway/heap.go#L48) |
 | Goroutines | field_declaration | HeapStats | [49](../../magpie/internal/gateway/heap.go#L49) |
 | processStarted | var_spec |  | [53](../../magpie/internal/gateway/heap.go#L53) |
-| heapProfile | method_declaration | *Server | [58](../../magpie/internal/gateway/heap.go#L58) |
+| heapProfile | method_declaration |  | [58](../../magpie/internal/gateway/heap.go#L58) |
+| before | var_spec | heapProfile | [64](../../magpie/internal/gateway/heap.go#L64) |
+| after | var_spec | heapProfile | [70](../../magpie/internal/gateway/heap.go#L70) |
+| buf | var_spec | heapProfile | [72](../../magpie/internal/gateway/heap.go#L72) |
 | heapRefused | function_declaration |  | [111](../../magpie/internal/gateway/heap.go#L111) |
 | profileRefused | function_declaration |  | [117](../../magpie/internal/gateway/heap.go#L117) |

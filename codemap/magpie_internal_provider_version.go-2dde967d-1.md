@@ -10,4 +10,6 @@ Source SHA-256: f465afb78d4ecdb99f9ae2607b3201211699fba13b0b38e9c2b8e42b79cdeebe
 | --- | --- | --- | ---: |
 | claudeSemverRE | var_spec |  | [14](../../magpie/internal/provider/version.go#L14) |
 | compareClaudeVersion | function_declaration |  | [16](../../magpie/internal/provider/version.go#L16) |
+| av | var_spec | compareClaudeVersion | [19](../../magpie/internal/provider/version.go#L19) |
 | randomUUID | function_declaration |  | [37](../../magpie/internal/provider/version.go#L37) |
+| b | var_spec | randomUUID | [38](../../magpie/internal/provider/version.go#L38) |

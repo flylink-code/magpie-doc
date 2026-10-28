@@ -10,6 +10,11 @@ Source SHA-256: a3e5b5c231062e1c6163eff8efe0c60f6c44593505a5ab4666ef6ef42e4e12dc
 | --- | --- | --- | ---: |
 | dshCallFiles | function_declaration |  | [33](../../magpie/internal/sessions/calls_dsh.go#L33) |
 | readDshCalls | function_declaration |  | [44](../../magpie/internal/sessions/calls_dsh.go#L44) |
+| c | var_spec | readDshCalls | [45](../../magpie/internal/sessions/calls_dsh.go#L45) |
+| off | var_spec | readDshCalls | [46](../../magpie/internal/sessions/calls_dsh.go#L46) |
+| e | var_spec | readDshCalls | [77](../../magpie/internal/sessions/calls_dsh.go#L77) |
+| next | var_spec | readDshCalls | [103](../../magpie/internal/sessions/calls_dsh.go#L103) |
+| err | var_spec | readDshCalls | [104](../../magpie/internal/sessions/calls_dsh.go#L104) |
 | dshCall | function_declaration |  | [124](../../magpie/internal/sessions/calls_dsh.go#L124) |
 | dshServed | function_declaration |  | [171](../../magpie/internal/sessions/calls_dsh.go#L171) |
 | dshUpstream | function_declaration |  | [186](../../magpie/internal/sessions/calls_dsh.go#L186) |

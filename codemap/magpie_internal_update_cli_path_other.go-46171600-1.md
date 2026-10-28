@@ -9,5 +9,7 @@ Source SHA-256: b7de90b1a7c236f9af5daef00924fa7dbd02a70869ac3a814c74bc815fd33f35
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | installedShells | function_declaration |  | [17](../../magpie/internal/update/cli_path_other.go#L17) |
+| out | var_spec | installedShells | [19](../../magpie/internal/update/cli_path_other.go#L19) |
 | cliDir | function_declaration |  | [38](../../magpie/internal/update/cli_path_other.go#L38) |
+| cands | var_spec | cliDir | [45](../../magpie/internal/update/cli_path_other.go#L45) |
 | cliPlace | function_declaration |  | [68](../../magpie/internal/update/cli_path_other.go#L68) |

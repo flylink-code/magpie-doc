@@ -9,14 +9,14 @@ Source SHA-256: 2225d69c60ddd83fcc9f1a1b30f027440d1fff26b51f48bd8dd6ad757500c602
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | defaultWindow | const_spec |  | [24](../../magpie/internal/gui/context.go#L24) |
-| ctxPoint | struct_type |  | [26](../../magpie/internal/gui/context.go#L26) |
+| ctxPoint | type_spec |  | [26](../../magpie/internal/gui/context.go#L26) |
 | ID | field_declaration | ctxPoint | [27](../../magpie/internal/gui/context.go#L27) |
 | Time | field_declaration | ctxPoint | [28](../../magpie/internal/gui/context.go#L28) |
 | Tokens | field_declaration | ctxPoint | [29](../../magpie/internal/gui/context.go#L29) |
 | Window | field_declaration | ctxPoint | [30](../../magpie/internal/gui/context.go#L30) |
 | Cache | field_declaration | ctxPoint | [31](../../magpie/internal/gui/context.go#L31) |
 | CacheUnknown | field_declaration | ctxPoint | [34](../../magpie/internal/gui/context.go#L34) |
-| ctxSession | struct_type |  | [37](../../magpie/internal/gui/context.go#L37) |
+| ctxSession | type_spec |  | [37](../../magpie/internal/gui/context.go#L37) |
 | Agent | field_declaration | ctxSession | [38](../../magpie/internal/gui/context.go#L38) |
 | Key | field_declaration | ctxSession | [39](../../magpie/internal/gui/context.go#L39) |
 | Title | field_declaration | ctxSession | [40](../../magpie/internal/gui/context.go#L40) |
@@ -30,15 +30,15 @@ Source SHA-256: 2225d69c60ddd83fcc9f1a1b30f027440d1fff26b51f48bd8dd6ad757500c602
 | Latest | field_declaration | ctxSession | [48](../../magpie/internal/gui/context.go#L48) |
 | LatestID | field_declaration | ctxSession | [49](../../magpie/internal/gui/context.go#L49) |
 | Points | field_declaration | ctxSession | [50](../../magpie/internal/gui/context.go#L50) |
-| ctxScore | struct_type |  | [54](../../magpie/internal/gui/context.go#L54) |
+| ctxScore | type_spec |  | [54](../../magpie/internal/gui/context.go#L54) |
 | Key | field_declaration | ctxScore | [55](../../magpie/internal/gui/context.go#L55) |
 | Points | field_declaration | ctxScore | [56](../../magpie/internal/gui/context.go#L56) |
 | Most | field_declaration | ctxScore | [57](../../magpie/internal/gui/context.go#L57) |
-| ctxTag | struct_type |  | [61](../../magpie/internal/gui/context.go#L61) |
+| ctxTag | type_spec |  | [61](../../magpie/internal/gui/context.go#L61) |
 | Key | field_declaration | ctxTag | [62](../../magpie/internal/gui/context.go#L62) |
 | Tone | field_declaration | ctxTag | [63](../../magpie/internal/gui/context.go#L63) |
 | Value | field_declaration | ctxTag | [64](../../magpie/internal/gui/context.go#L64) |
-| ctxAgent | struct_type |  | [67](../../magpie/internal/gui/context.go#L67) |
+| ctxAgent | type_spec |  | [67](../../magpie/internal/gui/context.go#L67) |
 | Agent | field_declaration | ctxAgent | [68](../../magpie/internal/gui/context.go#L68) |
 | Requests | field_declaration | ctxAgent | [69](../../magpie/internal/gui/context.go#L69) |
 | Sessions | field_declaration | ctxAgent | [70](../../magpie/internal/gui/context.go#L70) |
@@ -60,7 +60,7 @@ Source SHA-256: 2225d69c60ddd83fcc9f1a1b30f027440d1fff26b51f48bd8dd6ad757500c602
 | Models | field_declaration | ctxAgent | [86](../../magpie/internal/gui/context.go#L86) |
 | LatestID | field_declaration | ctxAgent | [87](../../magpie/internal/gui/context.go#L87) |
 | LatestTime | field_declaration | ctxAgent | [88](../../magpie/internal/gui/context.go#L88) |
-| ctxJSON | struct_type |  | [91](../../magpie/internal/gui/context.go#L91) |
+| ctxJSON | type_spec |  | [91](../../magpie/internal/gui/context.go#L91) |
 | Days | field_declaration | ctxJSON | [92](../../magpie/internal/gui/context.go#L92) |
 | Agents | field_declaration | ctxJSON | [93](../../magpie/internal/gui/context.go#L93) |
 | Sessions | field_declaration | ctxJSON | [94](../../magpie/internal/gui/context.go#L94) |
@@ -80,18 +80,19 @@ Source SHA-256: 2225d69c60ddd83fcc9f1a1b30f027440d1fff26b51f48bd8dd6ad757500c602
 | withTools | function_declaration |  | [224](../../magpie/internal/gui/context.go#L224) |
 | toolSessions | function_declaration |  | [233](../../magpie/internal/gui/context.go#L233) |
 | contextOf | function_declaration |  | [246](../../magpie/internal/gui/context.go#L246) |
-| agentAcc | struct_type | contextOf | [249](../../magpie/internal/gui/context.go#L249) |
-| a | field_declaration | contextOf.agentAcc | [250](../../magpie/internal/gui/context.go#L250) |
-| prompts | field_declaration | contextOf.agentAcc | [251](../../magpie/internal/gui/context.go#L251) |
-| bases | field_declaration | contextOf.agentAcc | [251](../../magpie/internal/gui/context.go#L251) |
-| growths | field_declaration | contextOf.agentAcc | [251](../../magpie/internal/gui/context.go#L251) |
-| mcps | field_declaration | contextOf.agentAcc | [252](../../magpie/internal/gui/context.go#L252) |
-| cached | field_declaration | contextOf.agentAcc | [253](../../magpie/internal/gui/context.go#L253) |
-| counted | field_declaration | contextOf.agentAcc | [253](../../magpie/internal/gui/context.go#L253) |
-| parts | field_declaration | contextOf.agentAcc | [254](../../magpie/internal/gui/context.go#L254) |
-| models | field_declaration | contextOf.agentAcc | [255](../../magpie/internal/gui/context.go#L255) |
-| sessions | field_declaration | contextOf.agentAcc | [256](../../magpie/internal/gui/context.go#L256) |
-| fills | field_declaration | contextOf.agentAcc | [257](../../magpie/internal/gui/context.go#L257) |
+| agentAcc | type_spec | contextOf | [249](../../magpie/internal/gui/context.go#L249) |
+| a | field_declaration | contextOf::agentAcc | [250](../../magpie/internal/gui/context.go#L250) |
+| prompts | field_declaration | contextOf::agentAcc | [251](../../magpie/internal/gui/context.go#L251) |
+| mcps | field_declaration | contextOf::agentAcc | [252](../../magpie/internal/gui/context.go#L252) |
+| cached | field_declaration | contextOf::agentAcc | [253](../../magpie/internal/gui/context.go#L253) |
+| parts | field_declaration | contextOf::agentAcc | [254](../../magpie/internal/gui/context.go#L254) |
+| models | field_declaration | contextOf::agentAcc | [255](../../magpie/internal/gui/context.go#L255) |
+| sessions | field_declaration | contextOf::agentAcc | [256](../../magpie/internal/gui/context.go#L256) |
+| fills | field_declaration | contextOf::agentAcc | [257](../../magpie/internal/gui/context.go#L257) |
+| listed | var_spec | contextOf | [261](../../magpie/internal/gui/context.go#L261) |
+| order | var_spec | contextOf | [270](../../magpie/internal/gui/context.go#L270) |
+| codexIDs | var_spec | contextOf | [342](../../magpie/internal/gui/context.go#L342) |
 | scoreAgent | function_declaration |  | [454](../../magpie/internal/gui/context.go#L454) |
 | contextRoutes | function_declaration |  | [522](../../magpie/internal/gui/context.go#L522) |
+| out | var_spec | contextRoutes | [524](../../magpie/internal/gui/context.go#L524) |
 | contextRoutesAPI | function_declaration |  | [552](../../magpie/internal/gui/context.go#L552) |

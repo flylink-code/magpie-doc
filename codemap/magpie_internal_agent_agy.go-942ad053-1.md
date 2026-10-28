@@ -21,5 +21,6 @@ Source SHA-256: 2183deafc49886ae75a6957c9e95f384392227c3f4ab27feb1b115d1bd1fb2c2
 | agyCustom | function_declaration |  | [192](../../magpie/internal/agent/agy.go#L192) |
 | agy | function_declaration |  | [205](../../magpie/internal/agent/agy.go#L205) |
 | agyIn | function_declaration |  | [209](../../magpie/internal/agent/agy.go#L209) |
+| own | var_spec | agyIn | [378](../../magpie/internal/agent/agy.go#L378) |
 | noticeAgy | var_spec |  | [402](../../magpie/internal/agent/agy.go#L402) |
 | noticeAgyTyped | var_spec |  | [403](../../magpie/internal/agent/agy.go#L403) |

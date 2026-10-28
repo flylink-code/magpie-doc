@@ -8,5 +8,6 @@ Source SHA-256: 0c71bf65d864ccac2ae4634a657e2de6caca13e49a0745d520234c7e92c01ea4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TakesInsecureTLS | method_declaration | Provider | [8](../../magpie/internal/provider/insecure_tls.go#L8) |
-| UncheckedHosts | method_declaration | Provider | [15](../../magpie/internal/provider/insecure_tls.go#L15) |
+| TakesInsecureTLS | method_declaration |  | [8](../../magpie/internal/provider/insecure_tls.go#L8) |
+| UncheckedHosts | method_declaration |  | [15](../../magpie/internal/provider/insecure_tls.go#L15) |
+| out | var_spec | UncheckedHosts | [16](../../magpie/internal/provider/insecure_tls.go#L16) |

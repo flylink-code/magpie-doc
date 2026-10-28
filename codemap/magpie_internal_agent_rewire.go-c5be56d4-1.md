@@ -9,8 +9,11 @@ Source SHA-256: d7f1e23bc97a848edf8e76c4fb57fb54828b41bfe96398d7572002f829767354
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | OnGateway | function_declaration |  | [17](../../magpie/internal/agent/rewire.go#L17) |
+| out | var_spec | OnGateway | [18](../../magpie/internal/agent/rewire.go#L18) |
 | Rewire | function_declaration |  | [39](../../magpie/internal/agent/rewire.go#L39) |
+| off | var_spec | Rewire | [40](../../magpie/internal/agent/rewire.go#L40) |
 | Rekey | function_declaration |  | [60](../../magpie/internal/agent/rewire.go#L60) |
+| away | var_spec | Rekey | [61](../../magpie/internal/agent/rewire.go#L61) |
 | setAgain | function_declaration |  | [73](../../magpie/internal/agent/rewire.go#L73) |
 | joinErrs | function_declaration |  | [101](../../magpie/internal/agent/rewire.go#L101) |
 | reset | function_declaration |  | [113](../../magpie/internal/agent/rewire.go#L113) |

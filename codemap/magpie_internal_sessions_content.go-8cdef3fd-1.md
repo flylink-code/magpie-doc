@@ -8,25 +8,27 @@ Source SHA-256: 1bd82299a4634a293701ef398296616378d241a3b2d590d630812243184a918b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Part | struct_type |  | [18](../../magpie/internal/sessions/content.go#L18) |
+| Part | type_spec |  | [18](../../magpie/internal/sessions/content.go#L18) |
 | Role | field_declaration | Part | [19](../../magpie/internal/sessions/content.go#L19) |
 | Kind | field_declaration | Part | [20](../../magpie/internal/sessions/content.go#L20) |
 | Name | field_declaration | Part | [21](../../magpie/internal/sessions/content.go#L21) |
 | Text | field_declaration | Part | [22](../../magpie/internal/sessions/content.go#L22) |
 | Cut | field_declaration | Part | [23](../../magpie/internal/sessions/content.go#L23) |
 | Model | field_declaration | Part | [28](../../magpie/internal/sessions/content.go#L28) |
-| Content | struct_type |  | [32](../../magpie/internal/sessions/content.go#L32) |
+| Content | type_spec |  | [32](../../magpie/internal/sessions/content.go#L32) |
 | Input | field_declaration | Content | [33](../../magpie/internal/sessions/content.go#L33) |
 | Output | field_declaration | Content | [34](../../magpie/internal/sessions/content.go#L34) |
 | Cut | field_declaration | Content | [35](../../magpie/internal/sessions/content.go#L35) |
 | partMax | const_spec |  | [39](../../magpie/internal/sessions/content.go#L39) |
 | contentMax | const_spec |  | [40](../../magpie/internal/sessions/content.go#L40) |
 | errNoPlace | var_spec |  | [43](../../magpie/internal/sessions/content.go#L43) |
-| add | method_declaration | *Content | [47](../../magpie/internal/sessions/content.go#L47) |
+| add | method_declaration |  | [47](../../magpie/internal/sessions/content.go#L47) |
 | keep | function_declaration |  | [72](../../magpie/internal/sessions/content.go#L72) |
 | ContentOf | function_declaration |  | [85](../../magpie/internal/sessions/content.go#L85) |
+| err | var_spec | ContentOf | [90](../../magpie/internal/sessions/content.go#L90) |
 | FindCall | function_declaration |  | [103](../../magpie/internal/sessions/content.go#L103) |
-| ccBlock | struct_type |  | [120](../../magpie/internal/sessions/content.go#L120) |
+| best | var_spec | FindCall | [107](../../magpie/internal/sessions/content.go#L107) |
+| ccBlock | type_spec |  | [120](../../magpie/internal/sessions/content.go#L120) |
 | Type | field_declaration | ccBlock | [121](../../magpie/internal/sessions/content.go#L121) |
 | Text | field_declaration | ccBlock | [122](../../magpie/internal/sessions/content.go#L122) |
 | Thinking | field_declaration | ccBlock | [123](../../magpie/internal/sessions/content.go#L123) |
@@ -35,37 +37,51 @@ Source SHA-256: 1bd82299a4634a293701ef398296616378d241a3b2d590d630812243184a918b
 | Content | field_declaration | ccBlock | [126](../../magpie/internal/sessions/content.go#L126) |
 | claudeContent | function_declaration |  | [133](../../magpie/internal/sessions/content.go#L133) |
 | claudeContentOf | function_declaration |  | [139](../../magpie/internal/sessions/content.go#L139) |
-| Type | field_declaration | claudeContentOf | [153](../../magpie/internal/sessions/content.go#L153) |
-| IsMeta | field_declaration | claudeContentOf | [154](../../magpie/internal/sessions/content.go#L154) |
-| Message | field_declaration | claudeContentOf | [155](../../magpie/internal/sessions/content.go#L155) |
-| ID | field_declaration | claudeContentOf | [156](../../magpie/internal/sessions/content.go#L156) |
-| Model | field_declaration | claudeContentOf | [157](../../magpie/internal/sessions/content.go#L157) |
-| Content | field_declaration | claudeContentOf | [158](../../magpie/internal/sessions/content.go#L158) |
+| l | var_spec | claudeContentOf | [152](../../magpie/internal/sessions/content.go#L152) |
+| Type | field_declaration | claudeContentOf::l | [153](../../magpie/internal/sessions/content.go#L153) |
+| IsMeta | field_declaration | claudeContentOf::l | [154](../../magpie/internal/sessions/content.go#L154) |
+| Message | field_declaration | claudeContentOf::l | [155](../../magpie/internal/sessions/content.go#L155) |
+| ID | field_declaration | claudeContentOf::l::Message | [156](../../magpie/internal/sessions/content.go#L156) |
+| Model | field_declaration | claudeContentOf::l::Message | [157](../../magpie/internal/sessions/content.go#L157) |
+| Content | field_declaration | claudeContentOf::l::Message | [158](../../magpie/internal/sessions/content.go#L158) |
 | claudeParts | function_declaration |  | [190](../../magpie/internal/sessions/content.go#L190) |
+| text | var_spec | claudeParts | [191](../../magpie/internal/sessions/content.go#L191) |
+| blocks | var_spec | claudeParts | [195](../../magpie/internal/sessions/content.go#L195) |
+| parts | var_spec | claudeParts | [199](../../magpie/internal/sessions/content.go#L199) |
 | textPart | function_declaration |  | [219](../../magpie/internal/sessions/content.go#L219) |
 | resultText | function_declaration |  | [228](../../magpie/internal/sessions/content.go#L228) |
-| Type | field_declaration | resultText | [234](../../magpie/internal/sessions/content.go#L234) |
-| Text | field_declaration | resultText | [235](../../magpie/internal/sessions/content.go#L235) |
+| s | var_spec | resultText | [229](../../magpie/internal/sessions/content.go#L229) |
+| blocks | var_spec | resultText | [233](../../magpie/internal/sessions/content.go#L233) |
+| Type | field_declaration | resultText::blocks | [234](../../magpie/internal/sessions/content.go#L234) |
+| Text | field_declaration | resultText::blocks | [235](../../magpie/internal/sessions/content.go#L235) |
+| out | var_spec | resultText | [240](../../magpie/internal/sessions/content.go#L240) |
 | pretty | function_declaration |  | [253](../../magpie/internal/sessions/content.go#L253) |
+| b | var_spec | pretty | [257](../../magpie/internal/sessions/content.go#L257) |
 | cxItem | var_spec |  | [266](../../magpie/internal/sessions/content.go#L266) |
 | codexContent | function_declaration |  | [273](../../magpie/internal/sessions/content.go#L273) |
 | codexContentOf | function_declaration |  | [279](../../magpie/internal/sessions/content.go#L279) |
-| Type | field_declaration | codexContentOf | [302](../../magpie/internal/sessions/content.go#L302) |
-| Payload | field_declaration | codexContentOf | [303](../../magpie/internal/sessions/content.go#L303) |
-| Model | field_declaration | codexContentOf | [304](../../magpie/internal/sessions/content.go#L304) |
-| Payload | field_declaration | codexContentOf | [317](../../magpie/internal/sessions/content.go#L317) |
-| Type | field_declaration | codexContentOf | [318](../../magpie/internal/sessions/content.go#L318) |
-| Role | field_declaration | codexContentOf | [319](../../magpie/internal/sessions/content.go#L319) |
-| Name | field_declaration | codexContentOf | [320](../../magpie/internal/sessions/content.go#L320) |
-| Arguments | field_declaration | codexContentOf | [321](../../magpie/internal/sessions/content.go#L321) |
-| Input | field_declaration | codexContentOf | [322](../../magpie/internal/sessions/content.go#L322) |
-| Output | field_declaration | codexContentOf | [323](../../magpie/internal/sessions/content.go#L323) |
-| Content | field_declaration | codexContentOf | [324](../../magpie/internal/sessions/content.go#L324) |
-| Text | field_declaration | codexContentOf | [325](../../magpie/internal/sessions/content.go#L325) |
-| Summary | field_declaration | codexContentOf | [327](../../magpie/internal/sessions/content.go#L327) |
-| Text | field_declaration | codexContentOf | [328](../../magpie/internal/sessions/content.go#L328) |
-| Action | field_declaration | codexContentOf | [330](../../magpie/internal/sessions/content.go#L330) |
-| Command | field_declaration | codexContentOf | [331](../../magpie/internal/sessions/content.go#L331) |
+| l | var_spec | codexContentOf | [301](../../magpie/internal/sessions/content.go#L301) |
+| Type | field_declaration | codexContentOf::l | [302](../../magpie/internal/sessions/content.go#L302) |
+| Payload | field_declaration | codexContentOf::l | [303](../../magpie/internal/sessions/content.go#L303) |
+| Model | field_declaration | codexContentOf::l::Payload | [304](../../magpie/internal/sessions/content.go#L304) |
+| l | var_spec | codexContentOf | [316](../../magpie/internal/sessions/content.go#L316) |
+| Payload | field_declaration | codexContentOf::l | [317](../../magpie/internal/sessions/content.go#L317) |
+| Type | field_declaration | codexContentOf::l::Payload | [318](../../magpie/internal/sessions/content.go#L318) |
+| Role | field_declaration | codexContentOf::l::Payload | [319](../../magpie/internal/sessions/content.go#L319) |
+| Name | field_declaration | codexContentOf::l::Payload | [320](../../magpie/internal/sessions/content.go#L320) |
+| Arguments | field_declaration | codexContentOf::l::Payload | [321](../../magpie/internal/sessions/content.go#L321) |
+| Input | field_declaration | codexContentOf::l::Payload | [322](../../magpie/internal/sessions/content.go#L322) |
+| Output | field_declaration | codexContentOf::l::Payload | [323](../../magpie/internal/sessions/content.go#L323) |
+| Content | field_declaration | codexContentOf::l::Payload | [324](../../magpie/internal/sessions/content.go#L324) |
+| Text | field_declaration | codexContentOf::l::Payload::Content | [325](../../magpie/internal/sessions/content.go#L325) |
+| Summary | field_declaration | codexContentOf::l::Payload | [327](../../magpie/internal/sessions/content.go#L327) |
+| Text | field_declaration | codexContentOf::l::Payload::Summary | [328](../../magpie/internal/sessions/content.go#L328) |
+| Action | field_declaration | codexContentOf::l::Payload | [330](../../magpie/internal/sessions/content.go#L330) |
+| Command | field_declaration | codexContentOf::l::Payload::Action | [331](../../magpie/internal/sessions/content.go#L331) |
+| s | var_spec | codexContentOf | [340](../../magpie/internal/sessions/content.go#L340) |
+| s | var_spec | codexContentOf | [355](../../magpie/internal/sessions/content.go#L355) |
 | codexOutput | function_declaration |  | [375](../../magpie/internal/sessions/content.go#L375) |
-| Content | field_declaration | codexOutput | [381](../../magpie/internal/sessions/content.go#L381) |
-| Output | field_declaration | codexOutput | [382](../../magpie/internal/sessions/content.go#L382) |
+| s | var_spec | codexOutput | [376](../../magpie/internal/sessions/content.go#L376) |
+| o | var_spec | codexOutput | [380](../../magpie/internal/sessions/content.go#L380) |
+| Content | field_declaration | codexOutput::o | [381](../../magpie/internal/sessions/content.go#L381) |
+| Output | field_declaration | codexOutput::o | [382](../../magpie/internal/sessions/content.go#L382) |

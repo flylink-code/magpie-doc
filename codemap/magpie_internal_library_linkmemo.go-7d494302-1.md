@@ -8,11 +8,10 @@ Source SHA-256: 9b4d4ab6675ab94b7dd65c11afaa9b6947549de981bde0c716648768f8577f7c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| part | struct_type |  | [25](../../magpie/internal/library/linkmemo.go#L25) |
+| part | type_spec |  | [25](../../magpie/internal/library/linkmemo.go#L25) |
 | there | field_declaration | part | [26](../../magpie/internal/library/linkmemo.go#L26) |
-| link | field_declaration | part | [26](../../magpie/internal/library/linkmemo.go#L26) |
 | to | field_declaration | part | [27](../../magpie/internal/library/linkmemo.go#L27) |
-| partMemo | struct_type |  | [30](../../magpie/internal/library/linkmemo.go#L30) |
+| partMemo | type_spec |  | [30](../../magpie/internal/library/linkmemo.go#L30) |
 | m | field_declaration | partMemo | [32](../../magpie/internal/library/linkmemo.go#L32) |
 | reading | var_spec |  | [36](../../magpie/internal/library/linkmemo.go#L36) |
 | readParts | function_declaration |  | [43](../../magpie/internal/library/linkmemo.go#L43) |

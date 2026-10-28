@@ -10,3 +10,4 @@ Source SHA-256: 9ac1e756526eaa633a87c918115ba3abeabf1ede448c9ab5bf465e1809c615ab
 | --- | --- | --- | ---: |
 | wslCommand | var_spec |  | [22](../../magpie/internal/library/mcp_check_wsl.go#L22) |
 | checkSides | function_declaration |  | [32](../../magpie/internal/library/mcp_check_wsl.go#L32) |
+| distros | var_spec | checkSides | [34](../../magpie/internal/library/mcp_check_wsl.go#L34) |

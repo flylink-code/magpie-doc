@@ -20,5 +20,6 @@ Source SHA-256: 374ffca3be186c112ca76290de1f02bad1951074fbaebf8fbc0d8c057943ff7e
 | anteModelJSON | function_declaration |  | [341](../../magpie/internal/agent/ante.go#L341) |
 | anteMaxTokens | function_declaration |  | [375](../../magpie/internal/agent/ante.go#L375) |
 | anteLadder | var_spec |  | [411](../../magpie/internal/agent/ante.go#L411) |
+| ante | field_declaration | anteLadder | [411](../../magpie/internal/agent/ante.go#L411) |
 | anteEfforts | function_declaration |  | [422](../../magpie/internal/agent/ante.go#L422) |
 | noticeAnte | var_spec |  | [434](../../magpie/internal/agent/ante.go#L434) |

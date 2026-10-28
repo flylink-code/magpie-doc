@@ -8,7 +8,7 @@ Source SHA-256: 8cd1de9e48b93e20bc0124aeb1f3594e26b666cdcf9a499dfbc793b7946808dd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| fileBasicInfo | struct_type |  | [17](../../magpie/internal/usage/log_change_windows.go#L17) |
+| fileBasicInfo | type_spec |  | [17](../../magpie/internal/usage/log_change_windows.go#L17) |
 | CreationTime | field_declaration | fileBasicInfo | [18](../../magpie/internal/usage/log_change_windows.go#L18) |
 | LastAccessTime | field_declaration | fileBasicInfo | [19](../../magpie/internal/usage/log_change_windows.go#L19) |
 | LastWriteTime | field_declaration | fileBasicInfo | [20](../../magpie/internal/usage/log_change_windows.go#L20) |
@@ -18,4 +18,5 @@ Source SHA-256: 8cd1de9e48b93e20bc0124aeb1f3594e26b666cdcf9a499dfbc793b7946808dd
 | statLogFile | function_declaration |  | [30](../../magpie/internal/usage/log_change_windows.go#L30) |
 | statLogHandle | function_declaration |  | [70](../../magpie/internal/usage/log_change_windows.go#L70) |
 | stampLogHandle | function_declaration |  | [78](../../magpie/internal/usage/log_change_windows.go#L78) |
+| raw | var_spec | stampLogHandle | [82](../../magpie/internal/usage/log_change_windows.go#L82) |
 | nativeLogChangeTime | function_declaration |  | [101](../../magpie/internal/usage/log_change_windows.go#L101) |

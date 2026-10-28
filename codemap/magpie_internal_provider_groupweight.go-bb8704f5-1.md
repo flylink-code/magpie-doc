@@ -8,7 +8,9 @@ Source SHA-256: 0f608088f718ef90373c778e17f133600c46ef16260cf90bd75c70b1858a079e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| MemberWeight | method_declaration | Group | [10](../../magpie/internal/provider/groupweight.go#L10) |
-| SetMemberWeight | method_declaration | *Group | [14](../../magpie/internal/provider/groupweight.go#L14) |
+| MemberWeight | method_declaration |  | [10](../../magpie/internal/provider/groupweight.go#L10) |
+| SetMemberWeight | method_declaration |  | [14](../../magpie/internal/provider/groupweight.go#L14) |
 | renamedWeights | function_declaration |  | [31](../../magpie/internal/provider/groupweight.go#L31) |
+| out | var_spec | renamedWeights | [32](../../magpie/internal/provider/groupweight.go#L32) |
 | cleanWeights | function_declaration |  | [48](../../magpie/internal/provider/groupweight.go#L48) |
+| err | var_spec | cleanWeights | [49](../../magpie/internal/provider/groupweight.go#L49) |

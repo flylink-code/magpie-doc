@@ -11,7 +11,7 @@ Source SHA-256: 64f73d0269005b922042396b699538e9609d8f9d46b40f6065304c0d797a742d
 | droidModels | const_spec |  | [40](../../magpie/internal/agent/droid.go#L40) |
 | droidModel | const_spec |  | [41](../../magpie/internal/agent/droid.go#L41) |
 | droidID | const_spec |  | [43](../../magpie/internal/agent/droid.go#L43) |
-| droidEntry | struct_type |  | [47](../../magpie/internal/agent/droid.go#L47) |
+| droidEntry | type_spec |  | [47](../../magpie/internal/agent/droid.go#L47) |
 | Model | field_declaration | droidEntry | [48](../../magpie/internal/agent/droid.go#L48) |
 | ID | field_declaration | droidEntry | [49](../../magpie/internal/agent/droid.go#L49) |
 | DisplayName | field_declaration | droidEntry | [50](../../magpie/internal/agent/droid.go#L50) |
@@ -23,13 +23,16 @@ Source SHA-256: 64f73d0269005b922042396b699538e9609d8f9d46b40f6065304c0d797a742d
 | NoImageSupport | field_declaration | droidEntry | [58](../../magpie/internal/agent/droid.go#L58) |
 | droidEntries | function_declaration |  | [62](../../magpie/internal/agent/droid.go#L62) |
 | droidEntriesAt | function_declaration |  | [65](../../magpie/internal/agent/droid.go#L65) |
+| out | var_spec | droidEntriesAt | [66](../../magpie/internal/agent/droid.go#L66) |
 | droidSlug | function_declaration |  | [88](../../magpie/internal/agent/droid.go#L88) |
-| droidCustom | struct_type |  | [94](../../magpie/internal/agent/droid.go#L94) |
+| droidCustom | type_spec |  | [94](../../magpie/internal/agent/droid.go#L94) |
 | raw | field_declaration | droidCustom | [95](../../magpie/internal/agent/droid.go#L95) |
 | id | field_declaration | droidCustom | [96](../../magpie/internal/agent/droid.go#L96) |
-| name | field_declaration | droidCustom | [96](../../magpie/internal/agent/droid.go#L96) |
-| of | field_declaration | droidCustom | [96](../../magpie/internal/agent/droid.go#L96) |
 | droidCustoms | function_declaration |  | [101](../../magpie/internal/agent/droid.go#L101) |
+| out | var_spec | droidCustoms | [106](../../magpie/internal/agent/droid.go#L106) |
 | droid | function_declaration |  | [129](../../magpie/internal/agent/droid.go#L129) |
 | droidIn | function_declaration |  | [134](../../magpie/internal/agent/droid.go#L134) |
+| ms | var_spec | droidIn | [164](../../magpie/internal/agent/droid.go#L164) |
+| had | var_spec | droidIn | [165](../../magpie/internal/agent/droid.go#L165) |
+| own | var_spec | droidIn | [276](../../magpie/internal/agent/droid.go#L276) |
 | noticeDroid | var_spec |  | [296](../../magpie/internal/agent/droid.go#L296) |

@@ -22,9 +22,12 @@ Source SHA-256: b16e9be5b46f2b1c8df576078948a261e2ee7a4507658273f0998842d911b2bd
 | ompDir | function_declaration |  | [127](../../magpie/internal/agent/omp.go#L127) |
 | omp | function_declaration |  | [142](../../magpie/internal/agent/omp.go#L142) |
 | ompProfiles | function_declaration |  | [157](../../magpie/internal/agent/omp.go#L157) |
+| names | var_spec | ompProfiles | [164](../../magpie/internal/agent/omp.go#L164) |
+| out | var_spec | ompProfiles | [176](../../magpie/internal/agent/omp.go#L176) |
 | ompIn | function_declaration |  | [195](../../magpie/internal/agent/omp.go#L195) |
 | ompAt | function_declaration |  | [201](../../magpie/internal/agent/omp.go#L201) |
-| ompModel | struct_type |  | [554](../../magpie/internal/agent/omp.go#L554) |
+| was | var_spec | ompAt | [277](../../magpie/internal/agent/omp.go#L277) |
+| ompModel | type_spec |  | [554](../../magpie/internal/agent/omp.go#L554) |
 | ID | field_declaration | ompModel | [555](../../magpie/internal/agent/omp.go#L555) |
 | Name | field_declaration | ompModel | [556](../../magpie/internal/agent/omp.go#L556) |
 | API | field_declaration | ompModel | [557](../../magpie/internal/agent/omp.go#L557) |
@@ -34,10 +37,10 @@ Source SHA-256: b16e9be5b46f2b1c8df576078948a261e2ee7a4507658273f0998842d911b2bd
 | Context | field_declaration | ompModel | [561](../../magpie/internal/agent/omp.go#L561) |
 | MaxTokens | field_declaration | ompModel | [562](../../magpie/internal/agent/omp.go#L562) |
 | Input | field_declaration | ompModel | [563](../../magpie/internal/agent/omp.go#L563) |
-| ompThinking | struct_type |  | [566](../../magpie/internal/agent/omp.go#L566) |
+| ompThinking | type_spec |  | [566](../../magpie/internal/agent/omp.go#L566) |
 | Mode | field_declaration | ompThinking | [567](../../magpie/internal/agent/omp.go#L567) |
 | Efforts | field_declaration | ompThinking | [568](../../magpie/internal/agent/omp.go#L568) |
-| ompProviderEntry | struct_type |  | [571](../../magpie/internal/agent/omp.go#L571) |
+| ompProviderEntry | type_spec |  | [571](../../magpie/internal/agent/omp.go#L571) |
 | BaseURL | field_declaration | ompProviderEntry | [572](../../magpie/internal/agent/omp.go#L572) |
 | API | field_declaration | ompProviderEntry | [573](../../magpie/internal/agent/omp.go#L573) |
 | Auth | field_declaration | ompProviderEntry | [577](../../magpie/internal/agent/omp.go#L577) |
@@ -51,10 +54,14 @@ Source SHA-256: b16e9be5b46f2b1c8df576078948a261e2ee7a4507658273f0998842d911b2bd
 | ompTakesMax | function_declaration |  | [610](../../magpie/internal/agent/omp.go#L610) |
 | ompProvider | function_declaration |  | [626](../../magpie/internal/agent/omp.go#L626) |
 | ompProviderAt | function_declaration |  | [630](../../magpie/internal/agent/omp.go#L630) |
+| efforts | var_spec | ompProviderAt | [655](../../magpie/internal/agent/omp.go#L655) |
 | ompKept | function_declaration |  | [695](../../magpie/internal/agent/omp.go#L695) |
 | ompOwnOptions | function_declaration |  | [707](../../magpie/internal/agent/omp.go#L707) |
-| Providers | field_declaration | ompOwnOptions | [709](../../magpie/internal/agent/omp.go#L709) |
-| Models | field_declaration | ompOwnOptions | [710](../../magpie/internal/agent/omp.go#L710) |
-| ID | field_declaration | ompOwnOptions | [711](../../magpie/internal/agent/omp.go#L711) |
-| Name | field_declaration | ompOwnOptions | [712](../../magpie/internal/agent/omp.go#L712) |
+| f | var_spec | ompOwnOptions | [708](../../magpie/internal/agent/omp.go#L708) |
+| Providers | field_declaration | ompOwnOptions::f | [709](../../magpie/internal/agent/omp.go#L709) |
+| Models | field_declaration | ompOwnOptions::f::Providers | [710](../../magpie/internal/agent/omp.go#L710) |
+| ID | field_declaration | ompOwnOptions::f::Providers::Models | [711](../../magpie/internal/agent/omp.go#L711) |
+| Name | field_declaration | ompOwnOptions::f::Providers::Models | [712](../../magpie/internal/agent/omp.go#L712) |
+| opts | var_spec | ompOwnOptions | [726](../../magpie/internal/agent/omp.go#L726) |
+| out | var_spec | ompOwnOptions | [739](../../magpie/internal/agent/omp.go#L739) |
 | noticeOmp | var_spec |  | [769](../../magpie/internal/agent/omp.go#L769) |

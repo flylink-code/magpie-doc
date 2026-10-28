@@ -14,19 +14,22 @@ Source SHA-256: 11b7b6d91bd5da2b1c8d120f63f96154fc74df1985da886446e4bc5ee5688232
 | PartnerAdded | const_spec |  | [28](../../magpie/internal/provider/partner_events.go#L28) |
 | partnerCaps | var_spec |  | [33](../../magpie/internal/provider/partner_events.go#L33) |
 | partnerDays | const_spec |  | [36](../../magpie/internal/provider/partner_events.go#L36) |
-| PartnerCount | struct_type |  | [39](../../magpie/internal/provider/partner_events.go#L39) |
+| PartnerCount | type_spec |  | [39](../../magpie/internal/provider/partner_events.go#L39) |
 | Day | field_declaration | PartnerCount | [40](../../magpie/internal/provider/partner_events.go#L40) |
 | ID | field_declaration | PartnerCount | [41](../../magpie/internal/provider/partner_events.go#L41) |
 | What | field_declaration | PartnerCount | [42](../../magpie/internal/provider/partner_events.go#L42) |
 | Count | field_declaration | PartnerCount | [43](../../magpie/internal/provider/partner_events.go#L43) |
-| partnerCounts | struct_type |  | [46](../../magpie/internal/provider/partner_events.go#L46) |
+| partnerCounts | type_spec |  | [46](../../magpie/internal/provider/partner_events.go#L46) |
 | Days | field_declaration | partnerCounts | [48](../../magpie/internal/provider/partner_events.go#L48) |
 | partnerCountMu | var_spec |  | [51](../../magpie/internal/provider/partner_events.go#L51) |
 | partnerCountFile | function_declaration |  | [53](../../magpie/internal/provider/partner_events.go#L53) |
 | partnerCounting | function_declaration |  | [58](../../magpie/internal/provider/partner_events.go#L58) |
 | livePartner | function_declaration |  | [70](../../magpie/internal/provider/partner_events.go#L70) |
 | CountPartner | function_declaration |  | [80](../../magpie/internal/provider/partner_events.go#L80) |
+| live | var_spec | CountPartner | [85](../../magpie/internal/provider/partner_events.go#L85) |
 | PartnerCounts | function_declaration |  | [123](../../magpie/internal/provider/partner_events.go#L123) |
+| out | var_spec | PartnerCounts | [128](../../magpie/internal/provider/partner_events.go#L128) |
 | PartnerCountsSent | function_declaration |  | [152](../../magpie/internal/provider/partner_events.go#L152) |
 | readPartnerCounts | function_declaration |  | [169](../../magpie/internal/provider/partner_events.go#L169) |
+| c | var_spec | readPartnerCounts | [170](../../magpie/internal/provider/partner_events.go#L170) |
 | writePartnerCounts | function_declaration |  | [180](../../magpie/internal/provider/partner_events.go#L180) |

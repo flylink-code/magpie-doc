@@ -8,6 +8,6 @@ Source SHA-256: dfdb65a116c68ad1365fced5d609dd4f14d6f6f1ef61c90e6b75b31c65fa9e94
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CarriesCompaction | method_declaration | Provider | [16](../../magpie/internal/provider/native_compaction.go#L16) |
-| CompactsOn | method_declaration | Provider | [28](../../magpie/internal/provider/native_compaction.go#L28) |
+| CarriesCompaction | method_declaration |  | [16](../../magpie/internal/provider/native_compaction.go#L16) |
+| CompactsOn | method_declaration |  | [28](../../magpie/internal/provider/native_compaction.go#L28) |
 | SetNativeCompaction | function_declaration |  | [39](../../magpie/internal/provider/native_compaction.go#L39) |

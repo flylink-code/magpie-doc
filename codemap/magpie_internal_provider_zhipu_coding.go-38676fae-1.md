@@ -16,4 +16,5 @@ Source SHA-256: cca83a7dc3ac44df147c79c453df45934ecc841095836ef5555a65a7d5a9722e
 | RetryZhipuCoding | function_declaration |  | [67](../../magpie/internal/provider/zhipu_coding.go#L67) |
 | ZhipuNoBalanceHint | function_declaration |  | [116](../../magpie/internal/provider/zhipu_coding.go#L116) |
 | withMessage | function_declaration |  | [129](../../magpie/internal/provider/zhipu_coding.go#L129) |
+| v | var_spec | withMessage | [130](../../magpie/internal/provider/zhipu_coding.go#L130) |
 | LearnZhipuCoding | function_declaration |  | [154](../../magpie/internal/provider/zhipu_coding.go#L154) |

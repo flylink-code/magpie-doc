@@ -10,12 +10,13 @@ Source SHA-256: 47c99a7bae7a42ad27338d3ed79ac11eae9683f1570dcdab732da56bc4bd42fc
 | --- | --- | --- | ---: |
 | keepBackups | const_spec |  | [17](../../magpie/internal/library/backup.go#L17) |
 | BackupDir | function_declaration |  | [21](../../magpie/internal/library/backup.go#L21) |
-| backups | struct_type |  | [25](../../magpie/internal/library/backup.go#L25) |
+| backups | type_spec |  | [25](../../magpie/internal/library/backup.go#L25) |
 | dir | field_declaration | backups | [26](../../magpie/internal/library/backup.go#L26) |
 | done | field_declaration | backups | [27](../../magpie/internal/library/backup.go#L27) |
 | newBackups | function_declaration |  | [30](../../magpie/internal/library/backup.go#L30) |
 | backupNow | var_spec |  | [35](../../magpie/internal/library/backup.go#L35) |
 | freshBackup | function_declaration |  | [43](../../magpie/internal/library/backup.go#L43) |
-| keep | method_declaration | *backups | [63](../../magpie/internal/library/backup.go#L63) |
+| keep | method_declaration |  | [63](../../magpie/internal/library/backup.go#L63) |
 | pruneBackups | function_declaration |  | [97](../../magpie/internal/library/backup.go#L97) |
+| names | var_spec | pruneBackups | [102](../../magpie/internal/library/backup.go#L102) |
 | holdsSkills | function_declaration |  | [117](../../magpie/internal/library/backup.go#L117) |

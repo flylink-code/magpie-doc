@@ -9,5 +9,7 @@ Source SHA-256: da83211a1cbdbb74f565be84bcebbbfa74197528c9a3efae2b7680af3f0ebea7
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | listeningOn | function_declaration |  | [16](../../magpie/internal/proc/listener_darwin.go#L16) |
+| ee | var_spec | listeningOn | [22](../../magpie/internal/proc/listener_darwin.go#L22) |
 | pids | function_declaration |  | [31](../../magpie/internal/proc/listener_darwin.go#L31) |
+| ps | var_spec | pids | [32](../../magpie/internal/proc/listener_darwin.go#L32) |
 | executable | function_declaration |  | [45](../../magpie/internal/proc/listener_darwin.go#L45) |

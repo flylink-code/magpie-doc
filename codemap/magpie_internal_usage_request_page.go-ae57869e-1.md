@@ -8,16 +8,14 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RequestPage | struct_type |  | [34](../../magpie/internal/usage/request_page.go#L34) |
+| RequestPage | type_spec |  | [34](../../magpie/internal/usage/request_page.go#L34) |
 | Rows | field_declaration | RequestPage | [35](../../magpie/internal/usage/request_page.go#L35) |
 | Sum | field_declaration | RequestPage | [36](../../magpie/internal/usage/request_page.go#L36) |
 | Total | field_declaration | RequestPage | [37](../../magpie/internal/usage/request_page.go#L37) |
 | Agents | field_declaration | RequestPage | [38](../../magpie/internal/usage/request_page.go#L38) |
-| Providers | field_declaration | RequestPage | [38](../../magpie/internal/usage/request_page.go#L38) |
 | Purposes | field_declaration | RequestPage | [39](../../magpie/internal/usage/request_page.go#L39) |
 | CallerKeys | field_declaration | RequestPage | [40](../../magpie/internal/usage/request_page.go#L40) |
 | Through | field_declaration | RequestPage | [45](../../magpie/internal/usage/request_page.go#L45) |
-| Direct | field_declaration | RequestPage | [45](../../magpie/internal/usage/request_page.go#L45) |
 | Reported | field_declaration | RequestPage | [48](../../magpie/internal/usage/request_page.go#L48) |
 | Accounts | field_declaration | RequestPage | [51](../../magpie/internal/usage/request_page.go#L51) |
 | Bucket | field_declaration | RequestPage | [52](../../magpie/internal/usage/request_page.go#L52) |
@@ -27,26 +25,17 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 | Computers | field_declaration | RequestPage | [60](../../magpie/internal/usage/request_page.go#L60) |
 | Names | field_declaration | RequestPage | [61](../../magpie/internal/usage/request_page.go#L61) |
 | Heat | field_declaration | RequestPage | [64](../../magpie/internal/usage/request_page.go#L64) |
-| packedRow | struct_type |  | [67](../../magpie/internal/usage/request_page.go#L67) |
+| packedRow | type_spec |  | [67](../../magpie/internal/usage/request_page.go#L67) |
 | Time | field_declaration | packedRow | [68](../../magpie/internal/usage/request_page.go#L68) |
 | Varied | field_declaration | packedRow | [71](../../magpie/internal/usage/request_page.go#L71) |
 | Shape | field_declaration | packedRow | [72](../../magpie/internal/usage/request_page.go#L72) |
 | Tokens | field_declaration | packedRow | [73](../../magpie/internal/usage/request_page.go#L73) |
 | Millis | field_declaration | packedRow | [74](../../magpie/internal/usage/request_page.go#L74) |
-| TTFT | field_declaration | packedRow | [74](../../magpie/internal/usage/request_page.go#L74) |
-| FirstText | field_declaration | packedRow | [74](../../magpie/internal/usage/request_page.go#L74) |
-| Order | field_declaration | packedRow | [74](../../magpie/internal/usage/request_page.go#L74) |
 | Sent | field_declaration | packedRow | [75](../../magpie/internal/usage/request_page.go#L75) |
-| Flow | field_declaration | packedRow | [75](../../magpie/internal/usage/request_page.go#L75) |
-| FirstReasoning | field_declaration | packedRow | [75](../../magpie/internal/usage/request_page.go#L75) |
 | Own | field_declaration | packedRow | [76](../../magpie/internal/usage/request_page.go#L76) |
-| Retried | field_declaration | packedRow | [76](../../magpie/internal/usage/request_page.go#L76) |
-| Queued | field_declaration | packedRow | [76](../../magpie/internal/usage/request_page.go#L76) |
 | RouteID | field_declaration | packedRow | [77](../../magpie/internal/usage/request_page.go#L77) |
 | Cost | field_declaration | packedRow | [78](../../magpie/internal/usage/request_page.go#L78) |
-| Credits | field_declaration | packedRow | [78](../../magpie/internal/usage/request_page.go#L78) |
 | Status | field_declaration | packedRow | [79](../../magpie/internal/usage/request_page.go#L79) |
-| Tries | field_declaration | packedRow | [79](../../magpie/internal/usage/request_page.go#L79) |
 | Masking | field_declaration | packedRow | [80](../../magpie/internal/usage/request_page.go#L80) |
 | Flags | field_declaration | packedRow | [81](../../magpie/internal/usage/request_page.go#L81) |
 | rowHandedOn | const_spec |  | [88](../../magpie/internal/usage/request_page.go#L88) |
@@ -56,7 +45,7 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 | rowOwnCost | const_spec |  | [97](../../magpie/internal/usage/request_page.go#L97) |
 | rowCredits | const_spec |  | [102](../../magpie/internal/usage/request_page.go#L102) |
 | rowCacheUnknown | const_spec |  | [106](../../magpie/internal/usage/request_page.go#L106) |
-| rowChunk | struct_type |  | [108](../../magpie/internal/usage/request_page.go#L108) |
+| rowChunk | type_spec |  | [108](../../magpie/internal/usage/request_page.go#L108) |
 | Archive | field_declaration | rowChunk | [109](../../magpie/internal/usage/request_page.go#L109) |
 | Locations | field_declaration | rowChunk | [110](../../magpie/internal/usage/request_page.go#L110) |
 | Rows | field_declaration | rowChunk | [111](../../magpie/internal/usage/request_page.go#L111) |
@@ -81,30 +70,41 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 | rowTexts | const_spec |  | [145](../../magpie/internal/usage/request_page.go#L145) |
 | rowVaried | var_spec |  | [151](../../magpie/internal/usage/request_page.go#L151) |
 | rowVariedAt | var_spec |  | [154](../../magpie/internal/usage/request_page.go#L154) |
-| text | method_declaration | *rowChunk | [165](../../magpie/internal/usage/request_page.go#L165) |
-| texts | method_declaration | *rowChunk | [173](../../magpie/internal/usage/request_page.go#L173) |
-| setTexts | method_declaration | *rowChunk | [182](../../magpie/internal/usage/request_page.go#L182) |
-| shape | method_declaration | *rowChunk | [190](../../magpie/internal/usage/request_page.go#L190) |
+| text | method_declaration |  | [165](../../magpie/internal/usage/request_page.go#L165) |
+| texts | method_declaration |  | [173](../../magpie/internal/usage/request_page.go#L173) |
+| setTexts | method_declaration |  | [182](../../magpie/internal/usage/request_page.go#L182) |
+| shape | method_declaration |  | [190](../../magpie/internal/usage/request_page.go#L190) |
 | rowText | function_declaration |  | [211](../../magpie/internal/usage/request_page.go#L211) |
-| add | method_declaration | *rowChunk | [214](../../magpie/internal/usage/request_page.go#L214) |
-| row | method_declaration | *rowChunk | [294](../../magpie/internal/usage/request_page.go#L294) |
-| setCodexCompaction | method_declaration | *rowChunk | [341](../../magpie/internal/usage/request_page.go#L341) |
-| rowRef | struct_type |  | [353](../../magpie/internal/usage/request_page.go#L353) |
+| add | method_declaration |  | [214](../../magpie/internal/usage/request_page.go#L214) |
+| t | var_spec | add | [230](../../magpie/internal/usage/request_page.go#L230) |
+| row | method_declaration |  | [294](../../magpie/internal/usage/request_page.go#L294) |
+| setCodexCompaction | method_declaration |  | [341](../../magpie/internal/usage/request_page.go#L341) |
+| rowRef | type_spec |  | [353](../../magpie/internal/usage/request_page.go#L353) |
 | Chunk | field_declaration | rowRef | [354](../../magpie/internal/usage/request_page.go#L354) |
 | Index | field_declaration | rowRef | [355](../../magpie/internal/usage/request_page.go#L355) |
-| row | method_declaration | rowRef | [358](../../magpie/internal/usage/request_page.go#L358) |
+| row | method_declaration |  | [358](../../magpie/internal/usage/request_page.go#L358) |
 | refNewer | function_declaration |  | [359](../../magpie/internal/usage/request_page.go#L359) |
-| timedRef | struct_type |  | [365](../../magpie/internal/usage/request_page.go#L365) |
+| timedRef | type_spec |  | [365](../../magpie/internal/usage/request_page.go#L365) |
 | at | field_declaration | timedRef | [367](../../magpie/internal/usage/request_page.go#L367) |
 | order | field_declaration | timedRef | [368](../../magpie/internal/usage/request_page.go#L368) |
 | timedOf | function_declaration |  | [371](../../magpie/internal/usage/request_page.go#L371) |
-| newer | method_declaration | timedRef | [373](../../magpie/internal/usage/request_page.go#L373) |
+| newer | method_declaration |  | [373](../../magpie/internal/usage/request_page.go#L373) |
 | newestHeap | type_spec |  | [386](../../magpie/internal/usage/request_page.go#L386) |
-| Len | method_declaration | newestHeap | [388](../../magpie/internal/usage/request_page.go#L388) |
-| Less | method_declaration | newestHeap | [389](../../magpie/internal/usage/request_page.go#L389) |
-| Swap | method_declaration | newestHeap | [390](../../magpie/internal/usage/request_page.go#L390) |
-| Push | method_declaration | *newestHeap | [391](../../magpie/internal/usage/request_page.go#L391) |
-| Pop | method_declaration | *newestHeap | [392](../../magpie/internal/usage/request_page.go#L392) |
+| Len | method_declaration |  | [388](../../magpie/internal/usage/request_page.go#L388) |
+| Less | method_declaration |  | [389](../../magpie/internal/usage/request_page.go#L389) |
+| Swap | method_declaration |  | [390](../../magpie/internal/usage/request_page.go#L390) |
+| Push | method_declaration |  | [391](../../magpie/internal/usage/request_page.go#L391) |
+| Pop | method_declaration |  | [392](../../magpie/internal/usage/request_page.go#L392) |
 | rowsIn | function_declaration |  | [395](../../magpie/internal/usage/request_page.go#L395) |
-| chunkRows | struct_type |  | [408](../../magpie/internal/usage/request_page.go#L408) |
+| chunkRows | type_spec |  | [408](../../magpie/internal/usage/request_page.go#L408) |
 | c | field_declaration | chunkRows | [409](../../magpie/internal/usage/request_page.go#L409) |
+| lent | field_declaration | chunkRows | [415](../../magpie/internal/usage/request_page.go#L415) |
+| b | field_declaration | chunkRows | [416](../../magpie/internal/usage/request_page.go#L416) |
+| rowBuffer | type_spec |  | [423](../../magpie/internal/usage/request_page.go#L423) |
+| rows | field_declaration | rowBuffer | [424](../../magpie/internal/usage/request_page.go#L424) |
+| strs | field_declaration | rowBuffer | [425](../../magpie/internal/usage/request_page.go#L425) |
+| shapes | field_declaration | rowBuffer | [426](../../magpie/internal/usage/request_page.go#L426) |
+| decoded | field_declaration | rowBuffer | [427](../../magpie/internal/usage/request_page.go#L427) |
+| open | field_declaration | rowBuffer | [428](../../magpie/internal/usage/request_page.go#L428) |
+| rowBuffers | var_spec |  | [431](../../magpie/internal/usage/request_page.go#L431) |
+| lentRows | function_declaration |  | [434](../../magpie/internal/usage/request_page.go#L434) |

@@ -12,14 +12,14 @@ Source SHA-256: 0bc0ac2176b71ef97ff7f2c3b617d020fc081542a10887e49d5273492e49a38d
 | codexAppOutIdle | var_spec |  | [27](../../magpie/internal/gui/codex_app_out.go#L27) |
 | codexAppOutReopen | var_spec |  | [29](../../magpie/internal/gui/codex_app_out.go#L29) |
 | codexAppOutBundles | var_spec |  | [32](../../magpie/internal/gui/codex_app_out.go#L32) |
-| out | var_spec |  | [37](../../magpie/internal/gui/codex_app_out.go#L37) |
+| out | var_spec | codexAppOutBundles | [37](../../magpie/internal/gui/codex_app_out.go#L37) |
 | codexAgentOut | var_spec |  | [47](../../magpie/internal/gui/codex_app_out.go#L47) |
 | codexAppOutOS | var_spec |  | [51](../../magpie/internal/gui/codex_app_out.go#L51) |
 | codexAppOutUser | var_spec |  | [53](../../magpie/internal/gui/codex_app_out.go#L53) |
 | codexAppOutTried | var_spec |  | [54](../../magpie/internal/gui/codex_app_out.go#L54) |
 | codexAppOutOnce | var_spec |  | [55](../../magpie/internal/gui/codex_app_out.go#L55) |
 | codexAppOutUsedUp | var_spec |  | [56](../../magpie/internal/gui/codex_app_out.go#L56) |
-| codexAppOutJSON | struct_type |  | [61](../../magpie/internal/gui/codex_app_out.go#L61) |
+| codexAppOutJSON | type_spec |  | [61](../../magpie/internal/gui/codex_app_out.go#L61) |
 | User | field_declaration | codexAppOutJSON | [62](../../magpie/internal/gui/codex_app_out.go#L62) |
 | Reopening | field_declaration | codexAppOutJSON | [63](../../magpie/internal/gui/codex_app_out.go#L63) |
 | codexAppOutState | function_declaration |  | [67](../../magpie/internal/gui/codex_app_out.go#L67) |

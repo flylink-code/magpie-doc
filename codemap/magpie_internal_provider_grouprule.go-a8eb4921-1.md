@@ -9,7 +9,7 @@ Source SHA-256: 6c9410a61213b0bd21558c16f706c81cc14fe3b38a639d2ebd38eb9a39156fe9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Efforts | var_spec |  | [41](../../magpie/internal/provider/grouprule.go#L41) |
-| Rule | struct_type |  | [46](../../magpie/internal/provider/grouprule.go#L46) |
+| Rule | type_spec |  | [46](../../magpie/internal/provider/grouprule.go#L46) |
 | Use | field_declaration | Rule | [47](../../magpie/internal/provider/grouprule.go#L47) |
 | More | field_declaration | Rule | [55](../../magpie/internal/provider/grouprule.go#L55) |
 | UseEffort | field_declaration | Rule | [62](../../magpie/internal/provider/grouprule.go#L62) |
@@ -23,12 +23,13 @@ Source SHA-256: 6c9410a61213b0bd21558c16f706c81cc14fe3b38a639d2ebd38eb9a39156fe9
 | Folders | field_declaration | Rule | [92](../../magpie/internal/provider/grouprule.go#L92) |
 | ExceptFolders | field_declaration | Rule | [98](../../magpie/internal/provider/grouprule.go#L98) |
 | Pause | field_declaration | Rule | [105](../../magpie/internal/provider/grouprule.go#L105) |
-| Uses | method_declaration | Rule | [109](../../magpie/internal/provider/grouprule.go#L109) |
-| SetUses | method_declaration | *Rule | [118](../../magpie/internal/provider/grouprule.go#L118) |
-| MapUses | method_declaration | *Rule | [136](../../magpie/internal/provider/grouprule.go#L136) |
-| Without | method_declaration | Rule | [146](../../magpie/internal/provider/grouprule.go#L146) |
-| Names | method_declaration | Rule | [157](../../magpie/internal/provider/grouprule.go#L157) |
-| TimeWindow | struct_type |  | [164](../../magpie/internal/provider/grouprule.go#L164) |
+| Uses | method_declaration |  | [109](../../magpie/internal/provider/grouprule.go#L109) |
+| SetUses | method_declaration |  | [118](../../magpie/internal/provider/grouprule.go#L118) |
+| out | var_spec | SetUses | [119](../../magpie/internal/provider/grouprule.go#L119) |
+| MapUses | method_declaration |  | [136](../../magpie/internal/provider/grouprule.go#L136) |
+| Without | method_declaration |  | [146](../../magpie/internal/provider/grouprule.go#L146) |
+| Names | method_declaration |  | [157](../../magpie/internal/provider/grouprule.go#L157) |
+| TimeWindow | type_spec |  | [164](../../magpie/internal/provider/grouprule.go#L164) |
 | From | field_declaration | TimeWindow | [165](../../magpie/internal/provider/grouprule.go#L165) |
 | To | field_declaration | TimeWindow | [166](../../magpie/internal/provider/grouprule.go#L166) |
 | Days | field_declaration | TimeWindow | [167](../../magpie/internal/provider/grouprule.go#L167) |
@@ -41,14 +42,19 @@ Source SHA-256: 6c9410a61213b0bd21558c16f706c81cc14fe3b38a639d2ebd38eb9a39156fe9
 | dayOrder | var_spec |  | [233](../../magpie/internal/provider/grouprule.go#L233) |
 | clockMinutes | function_declaration |  | [236](../../magpie/internal/provider/grouprule.go#L236) |
 | ParseDay | function_declaration |  | [250](../../magpie/internal/provider/grouprule.go#L250) |
-| clean | method_declaration | *TimeWindow | [265](../../magpie/internal/provider/grouprule.go#L265) |
-| Holds | method_declaration | TimeWindow | [303](../../magpie/internal/provider/grouprule.go#L303) |
-| DaysText | method_declaration | TimeWindow | [331](../../magpie/internal/provider/grouprule.go#L331) |
-| Text | method_declaration | TimeWindow | [358](../../magpie/internal/provider/grouprule.go#L358) |
+| clean | method_declaration |  | [265](../../magpie/internal/provider/grouprule.go#L265) |
+| days | var_spec | clean | [275](../../magpie/internal/provider/grouprule.go#L275) |
+| Holds | method_declaration |  | [303](../../magpie/internal/provider/grouprule.go#L303) |
+| DaysText | method_declaration |  | [331](../../magpie/internal/provider/grouprule.go#L331) |
+| out | var_spec | DaysText | [333](../../magpie/internal/provider/grouprule.go#L333) |
+| Text | method_declaration |  | [358](../../magpie/internal/provider/grouprule.go#L358) |
 | MaxIntent | const_spec |  | [373](../../magpie/internal/provider/grouprule.go#L373) |
-| Conditions | method_declaration | Rule | [376](../../magpie/internal/provider/grouprule.go#L376) |
+| Conditions | method_declaration |  | [376](../../magpie/internal/provider/grouprule.go#L376) |
+| out | var_spec | Conditions | [377](../../magpie/internal/provider/grouprule.go#L377) |
 | cleanRules | function_declaration |  | [412](../../magpie/internal/provider/grouprule.go#L412) |
-| RuleRequest | struct_type |  | [473](../../magpie/internal/provider/grouprule.go#L473) |
+| out | var_spec | cleanRules | [413](../../magpie/internal/provider/grouprule.go#L413) |
+| err | var_spec | cleanRules | [424](../../magpie/internal/provider/grouprule.go#L424) |
+| RuleRequest | type_spec |  | [473](../../magpie/internal/provider/grouprule.go#L473) |
 | Tokens | field_declaration | RuleRequest | [474](../../magpie/internal/provider/grouprule.go#L474) |
 | Images | field_declaration | RuleRequest | [475](../../magpie/internal/provider/grouprule.go#L475) |
 | Thinking | field_declaration | RuleRequest | [476](../../magpie/internal/provider/grouprule.go#L476) |
@@ -58,17 +64,21 @@ Source SHA-256: 6c9410a61213b0bd21558c16f706c81cc14fe3b38a639d2ebd38eb9a39156fe9
 | Compact | field_declaration | RuleRequest | [483](../../magpie/internal/provider/grouprule.go#L483) |
 | At | field_declaration | RuleRequest | [486](../../magpie/internal/provider/grouprule.go#L486) |
 | Folder | field_declaration | RuleRequest | [489](../../magpie/internal/provider/grouprule.go#L489) |
-| Matches | method_declaration | Rule | [494](../../magpie/internal/provider/grouprule.go#L494) |
-| MatchesBesidesIntent | method_declaration | Rule | [503](../../magpie/internal/provider/grouprule.go#L503) |
+| Matches | method_declaration |  | [494](../../magpie/internal/provider/grouprule.go#L494) |
+| MatchesBesidesIntent | method_declaration |  | [503](../../magpie/internal/provider/grouprule.go#L503) |
 | MatchRule | function_declaration |  | [540](../../magpie/internal/provider/grouprule.go#L540) |
 | ThenUses | function_declaration |  | [548](../../magpie/internal/provider/grouprule.go#L548) |
+| out | var_spec | ThenUses | [549](../../magpie/internal/provider/grouprule.go#L549) |
 | Intents | function_declaration |  | [568](../../magpie/internal/provider/grouprule.go#L568) |
+| out | var_spec | Intents | [569](../../magpie/internal/provider/grouprule.go#L569) |
 | ruledEntry | function_declaration |  | [592](../../magpie/internal/provider/grouprule.go#L592) |
-| Pauses | method_declaration | Rule | [684](../../magpie/internal/provider/grouprule.go#L684) |
-| ByFolder | method_declaration | Rule | [699](../../magpie/internal/provider/grouprule.go#L699) |
-| inFolders | method_declaration | Rule | [705](../../magpie/internal/provider/grouprule.go#L705) |
+| out | var_spec | ruledEntry | [596](../../magpie/internal/provider/grouprule.go#L596) |
+| out | var_spec | ruledEntry | [623](../../magpie/internal/provider/grouprule.go#L623) |
+| Pauses | method_declaration |  | [684](../../magpie/internal/provider/grouprule.go#L684) |
+| ByFolder | method_declaration |  | [699](../../magpie/internal/provider/grouprule.go#L699) |
+| inFolders | method_declaration |  | [705](../../magpie/internal/provider/grouprule.go#L705) |
 | PausesByFolder | function_declaration |  | [716](../../magpie/internal/provider/grouprule.go#L716) |
-| Paused | struct_type |  | [724](../../magpie/internal/provider/grouprule.go#L724) |
+| Paused | type_spec |  | [724](../../magpie/internal/provider/grouprule.go#L724) |
 | Member | field_declaration | Paused | [725](../../magpie/internal/provider/grouprule.go#L725) |
 | Group | field_declaration | Paused | [726](../../magpie/internal/provider/grouprule.go#L726) |
 | Rule | field_declaration | Paused | [727](../../magpie/internal/provider/grouprule.go#L727) |
@@ -77,4 +87,5 @@ Source SHA-256: 6c9410a61213b0bd21558c16f706c81cc14fe3b38a639d2ebd38eb9a39156fe9
 | Folder | field_declaration | Paused | [733](../../magpie/internal/provider/grouprule.go#L733) |
 | ByFolder | field_declaration | Paused | [734](../../magpie/internal/provider/grouprule.go#L734) |
 | PausedOut | function_declaration |  | [742](../../magpie/internal/provider/grouprule.go#L742) |
+| hit | var_spec | PausedOut | [750](../../magpie/internal/provider/grouprule.go#L750) |
 | pathNames | function_declaration |  | [779](../../magpie/internal/provider/grouprule.go#L779) |

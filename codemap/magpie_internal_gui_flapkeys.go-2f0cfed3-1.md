@@ -10,20 +10,22 @@ Source SHA-256: 6fd524ac1dd5ba644f0484cbc1910764f1219269229234f6ec11c6c3cb8c1ba7
 | --- | --- | --- | ---: |
 | flapSecs | const_spec |  | [17](../../magpie/internal/gui/flapkeys.go#L17) |
 | flapEvery | const_spec |  | [18](../../magpie/internal/gui/flapkeys.go#L18) |
-| flapKey | struct_type |  | [22](../../magpie/internal/gui/flapkeys.go#L22) |
+| flapKey | type_spec |  | [22](../../magpie/internal/gui/flapkeys.go#L22) |
 | at | field_declaration | flapKey | [22](../../magpie/internal/gui/flapkeys.go#L22) |
-| deg | field_declaration | flapKey | [22](../../magpie/internal/gui/flapkeys.go#L22) |
 | wingKeys | var_spec |  | [25](../../magpie/internal/gui/flapkeys.go#L25) |
 | tailKeys | var_spec |  | [26](../../magpie/internal/gui/flapkeys.go#L26) |
 | bobKeys | var_spec |  | [27](../../magpie/internal/gui/flapkeys.go#L27) |
 | wingAt | var_spec |  | [29](../../magpie/internal/gui/flapkeys.go#L29) |
-| tailAt | var_spec |  | [29](../../magpie/internal/gui/flapkeys.go#L29) |
-| bobAt | var_spec |  | [29](../../magpie/internal/gui/flapkeys.go#L29) |
 | flapAt | function_declaration |  | [33](../../magpie/internal/gui/flapkeys.go#L33) |
 | keyed | function_declaration |  | [39](../../magpie/internal/gui/flapkeys.go#L39) |
 | flapEase | function_declaration |  | [51](../../magpie/internal/gui/flapkeys.go#L51) |
-| flapPath | struct_type |  | [67](../../magpie/internal/gui/flapkeys.go#L67) |
+| flapPath | type_spec |  | [67](../../magpie/internal/gui/flapkeys.go#L67) |
 | ops | field_declaration | flapPath | [68](../../magpie/internal/gui/flapkeys.go#L68) |
 | pts | field_declaration | flapPath | [69](../../magpie/internal/gui/flapkeys.go#L69) |
 | logoPaths | function_declaration |  | [75](../../magpie/internal/gui/flapkeys.go#L75) |
+| good | var_spec | logoPaths | [83](../../magpie/internal/gui/flapkeys.go#L83) |
 | parseFlapPath | function_declaration |  | [92](../../magpie/internal/gui/flapkeys.go#L92) |
+| p | var_spec | parseFlapPath | [93](../../magpie/internal/gui/flapkeys.go#L93) |
+| cmd | var_spec | parseFlapPath | [98](../../magpie/internal/gui/flapkeys.go#L98) |
+| x | var_spec | parseFlapPath | [99](../../magpie/internal/gui/flapkeys.go#L99) |
+| good | var_spec | parseFlapPath | [122](../../magpie/internal/gui/flapkeys.go#L122) |

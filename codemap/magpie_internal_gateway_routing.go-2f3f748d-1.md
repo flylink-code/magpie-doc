@@ -10,16 +10,19 @@ Source SHA-256: 61d0e07d3ad4b5ccbf74cd09035d7c642427a34839cf2b8c88f960ea38c79a1e
 | --- | --- | --- | ---: |
 | usageHalfLife | const_spec |  | [35](../../magpie/internal/gateway/routing.go#L35) |
 | routed | var_spec |  | [37](../../magpie/internal/gateway/routing.go#L37) |
-| slowRun | struct_type |  | [46](../../magpie/internal/gateway/routing.go#L46) |
+| used | field_declaration | routed | [39](../../magpie/internal/gateway/routing.go#L39) |
+| failures | field_declaration | routed | [40](../../magpie/internal/gateway/routing.go#L40) |
+| slow | field_declaration | routed | [41](../../magpie/internal/gateway/routing.go#L41) |
+| slowRun | type_spec |  | [46](../../magpie/internal/gateway/routing.go#L46) |
 | n | field_declaration | slowRun | [47](../../magpie/internal/gateway/routing.go#L47) |
 | at | field_declaration | slowRun | [48](../../magpie/internal/gateway/routing.go#L48) |
-| tokenUse | struct_type |  | [51](../../magpie/internal/gateway/routing.go#L51) |
+| tokenUse | type_spec |  | [51](../../magpie/internal/gateway/routing.go#L51) |
 | n | field_declaration | tokenUse | [52](../../magpie/internal/gateway/routing.go#L52) |
 | at | field_declaration | tokenUse | [53](../../magpie/internal/gateway/routing.go#L53) |
-| now | method_declaration | tokenUse | [56](../../magpie/internal/gateway/routing.go#L56) |
+| now | method_declaration |  | [56](../../magpie/internal/gateway/routing.go#L56) |
 | served | function_declaration |  | [64](../../magpie/internal/gateway/routing.go#L64) |
 | servedCandidate | function_declaration |  | [78](../../magpie/internal/gateway/routing.go#L78) |
-| forbidden | struct_type |  | [93](../../magpie/internal/gateway/routing.go#L93) |
+| forbidden | type_spec |  | [93](../../magpie/internal/gateway/routing.go#L93) |
 | c | field_declaration | forbidden | [94](../../magpie/internal/gateway/routing.go#L94) |
 | rest | field_declaration | forbidden | [95](../../magpie/internal/gateway/routing.go#L95) |
 | try | field_declaration | forbidden | [96](../../magpie/internal/gateway/routing.go#L96) |
@@ -75,16 +78,19 @@ Source SHA-256: 61d0e07d3ad4b5ccbf74cd09035d7c642427a34839cf2b8c88f960ea38c79a1e
 | reloopedError | const_spec |  | [335](../../magpie/internal/gateway/routing.go#L335) |
 | proxyDown | var_spec |  | [339](../../magpie/internal/gateway/routing.go#L339) |
 | wordsOf | function_declaration |  | [346](../../magpie/internal/gateway/routing.go#L346) |
+| v | var_spec | wordsOf | [350](../../magpie/internal/gateway/routing.go#L350) |
+| walk | var_spec | wordsOf | [355](../../magpie/internal/gateway/routing.go#L355) |
 | failure | function_declaration |  | [375](../../magpie/internal/gateway/routing.go#L375) |
 | failureOf | function_declaration |  | [420](../../magpie/internal/gateway/routing.go#L420) |
 | restrictedSaid | function_declaration |  | [440](../../magpie/internal/gateway/routing.go#L440) |
 | restrictedRefused | function_declaration |  | [449](../../magpie/internal/gateway/routing.go#L449) |
 | isWorkBuddy | function_declaration |  | [458](../../magpie/internal/gateway/routing.go#L458) |
 | openRouterSharedPool | function_declaration |  | [471](../../magpie/internal/gateway/routing.go#L471) |
-| Error | field_declaration | openRouterSharedPool | [473](../../magpie/internal/gateway/routing.go#L473) |
-| Metadata | field_declaration | openRouterSharedPool | [474](../../magpie/internal/gateway/routing.go#L474) |
-| LimitSource | field_declaration | openRouterSharedPool | [475](../../magpie/internal/gateway/routing.go#L475) |
-| Rest | struct_type |  | [483](../../magpie/internal/gateway/routing.go#L483) |
+| reply | var_spec | openRouterSharedPool | [472](../../magpie/internal/gateway/routing.go#L472) |
+| Error | field_declaration | openRouterSharedPool::reply | [473](../../magpie/internal/gateway/routing.go#L473) |
+| Metadata | field_declaration | openRouterSharedPool::reply::Error | [474](../../magpie/internal/gateway/routing.go#L474) |
+| LimitSource | field_declaration | openRouterSharedPool::reply::Error::Metadata | [475](../../magpie/internal/gateway/routing.go#L475) |
+| Rest | type_spec |  | [483](../../magpie/internal/gateway/routing.go#L483) |
 | Why | field_declaration | Rest | [484](../../magpie/internal/gateway/routing.go#L484) |
 | Status | field_declaration | Rest | [485](../../magpie/internal/gateway/routing.go#L485) |
 | Until | field_declaration | Rest | [486](../../magpie/internal/gateway/routing.go#L486) |
@@ -94,17 +100,11 @@ Source SHA-256: 61d0e07d3ad4b5ccbf74cd09035d7c642427a34839cf2b8c88f960ea38c79a1e
 | Model | field_declaration | Rest | [504](../../magpie/internal/gateway/routing.go#L504) |
 | Link | field_declaration | Rest | [506](../../magpie/internal/gateway/routing.go#L506) |
 | agent | field_declaration | Rest | [510](../../magpie/internal/gateway/routing.go#L510) |
-| user | field_declaration | Rest | [510](../../magpie/internal/gateway/routing.go#L510) |
 | said | field_declaration | Rest | [511](../../magpie/internal/gateway/routing.go#L511) |
 | hold | field_declaration | Rest | [512](../../magpie/internal/gateway/routing.go#L512) |
 | first | field_declaration | Rest | [519](../../magpie/internal/gateway/routing.go#L519) |
 | askAt | field_declaration | Rest | [520](../../magpie/internal/gateway/routing.go#L520) |
-| asksAt | method_declaration | Rest | [527](../../magpie/internal/gateway/routing.go#L527) |
+| asksAt | method_declaration |  | [527](../../magpie/internal/gateway/routing.go#L527) |
 | renewed | function_declaration |  | [545](../../magpie/internal/gateway/routing.go#L545) |
 | init | function_declaration |  | [558](../../magpie/internal/gateway/routing.go#L558) |
 | staleAllowance | var_spec |  | [561](../../magpie/internal/gateway/routing.go#L561) |
-| codexMayBeUsedUp | var_spec |  | [564](../../magpie/internal/gateway/routing.go#L564) |
-| awaitAllowance | var_spec |  | [567](../../magpie/internal/gateway/routing.go#L567) |
-| allowanceWait | const_spec |  | [571](../../magpie/internal/gateway/routing.go#L571) |
-| narrowing | var_spec |  | [574](../../magpie/internal/gateway/routing.go#L574) |
-| narrowWhenRead | function_declaration |  | [583](../../magpie/internal/gateway/routing.go#L583) |

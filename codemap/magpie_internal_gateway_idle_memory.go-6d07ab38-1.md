@@ -9,12 +9,12 @@ Source SHA-256: e3bc28e46dacafc13b4c53ae22c3eaedd4869cad13dfd1ab4b949778aaa4b2b9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | idleRelease | const_spec |  | [19](../../magpie/internal/gateway/idle_memory.go#L19) |
-| idleMemory | struct_type |  | [23](../../magpie/internal/gateway/idle_memory.go#L23) |
+| idleMemory | type_spec |  | [23](../../magpie/internal/gateway/idle_memory.go#L23) |
 | mu | field_declaration | idleMemory | [24](../../magpie/internal/gateway/idle_memory.go#L24) |
 | due | field_declaration | idleMemory | [25](../../magpie/internal/gateway/idle_memory.go#L25) |
 | rest | field_declaration | idleMemory | [26](../../magpie/internal/gateway/idle_memory.go#L26) |
 | release | field_declaration | idleMemory | [27](../../magpie/internal/gateway/idle_memory.go#L27) |
-| stop | method_declaration | *idleMemory | [31](../../magpie/internal/gateway/idle_memory.go#L31) |
-| restFor | method_declaration | *idleMemory | [40](../../magpie/internal/gateway/idle_memory.go#L40) |
-| armRelease | method_declaration | *Server | [48](../../magpie/internal/gateway/idle_memory.go#L48) |
-| releaseIfResting | method_declaration | *Server | [59](../../magpie/internal/gateway/idle_memory.go#L59) |
+| stop | method_declaration |  | [31](../../magpie/internal/gateway/idle_memory.go#L31) |
+| restFor | method_declaration |  | [40](../../magpie/internal/gateway/idle_memory.go#L40) |
+| armRelease | method_declaration |  | [48](../../magpie/internal/gateway/idle_memory.go#L48) |
+| releaseIfResting | method_declaration |  | [59](../../magpie/internal/gateway/idle_memory.go#L59) |

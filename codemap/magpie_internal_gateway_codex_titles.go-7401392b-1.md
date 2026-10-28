@@ -14,38 +14,44 @@ Source SHA-256: 40e9f747a334fa6dd6568fdb241c17aad9c305b0e6dfbec09a33f714d905dd94
 | codexDescriptionsTo | function_declaration |  | [72](../../magpie/internal/gateway/codex_titles.go#L72) |
 | codexSummariesTo | function_declaration |  | [89](../../magpie/internal/gateway/codex_titles.go#L89) |
 | codexPredictionsTo | function_declaration |  | [105](../../magpie/internal/gateway/codex_titles.go#L105) |
-| titleCheckKey | struct_type |  | [120](../../magpie/internal/gateway/codex_titles.go#L120) |
-| titleShapeKey | struct_type |  | [121](../../magpie/internal/gateway/codex_titles.go#L121) |
+| titleCheckKey | type_spec |  | [120](../../magpie/internal/gateway/codex_titles.go#L120) |
+| titleShapeKey | type_spec |  | [121](../../magpie/internal/gateway/codex_titles.go#L121) |
 | replyTitleShape | function_declaration |  | [125](../../magpie/internal/gateway/codex_titles.go#L125) |
 | replyCheck | function_declaration |  | [131](../../magpie/internal/gateway/codex_titles.go#L131) |
-| codexTitle | method_declaration | *Server | [142](../../magpie/internal/gateway/codex_titles.go#L142) |
-| codexDescription | method_declaration | *Server | [200](../../magpie/internal/gateway/codex_titles.go#L200) |
-| codexSummary | method_declaration | *Server | [208](../../magpie/internal/gateway/codex_titles.go#L208) |
-| codexShaped | method_declaration | *Server | [218](../../magpie/internal/gateway/codex_titles.go#L218) |
-| codexPrediction | method_declaration | *Server | [264](../../magpie/internal/gateway/codex_titles.go#L264) |
+| codexTitle | method_declaration |  | [142](../../magpie/internal/gateway/codex_titles.go#L142) |
+| out | var_spec | codexTitle | [181](../../magpie/internal/gateway/codex_titles.go#L181) |
+| codexDescription | method_declaration |  | [200](../../magpie/internal/gateway/codex_titles.go#L200) |
+| codexSummary | method_declaration |  | [208](../../magpie/internal/gateway/codex_titles.go#L208) |
+| codexShaped | method_declaration |  | [218](../../magpie/internal/gateway/codex_titles.go#L218) |
+| out | var_spec | codexShaped | [249](../../magpie/internal/gateway/codex_titles.go#L249) |
+| codexPrediction | method_declaration |  | [264](../../magpie/internal/gateway/codex_titles.go#L264) |
 | noSuggestion | const_spec |  | [308](../../magpie/internal/gateway/codex_titles.go#L308) |
 | predictionItem | function_declaration |  | [310](../../magpie/internal/gateway/codex_titles.go#L310) |
 | noPrediction | function_declaration |  | [315](../../magpie/internal/gateway/codex_titles.go#L315) |
 | predictionJSON | function_declaration |  | [333](../../magpie/internal/gateway/codex_titles.go#L333) |
+| fields | var_spec | predictionJSON | [343](../../magpie/internal/gateway/codex_titles.go#L343) |
+| v | var_spec | predictionJSON | [351](../../magpie/internal/gateway/codex_titles.go#L351) |
 | noSummary | function_declaration |  | [362](../../magpie/internal/gateway/codex_titles.go#L362) |
 | summaryJSON | function_declaration |  | [377](../../magpie/internal/gateway/codex_titles.go#L377) |
 | noDescription | function_declaration |  | [429](../../magpie/internal/gateway/codex_titles.go#L429) |
 | descriptionJSON | function_declaration |  | [442](../../magpie/internal/gateway/codex_titles.go#L442) |
 | messageText | function_declaration |  | [469](../../magpie/internal/gateway/codex_titles.go#L469) |
+| said | var_spec | messageText | [470](../../magpie/internal/gateway/codex_titles.go#L470) |
 | noTitle | function_declaration |  | [485](../../magpie/internal/gateway/codex_titles.go#L485) |
-| codexTitleOff | method_declaration | *Server | [501](../../magpie/internal/gateway/codex_titles.go#L501) |
-| sentNowhere | method_declaration | *Server | [509](../../magpie/internal/gateway/codex_titles.go#L509) |
-| answeredHere | method_declaration | *Server | [520](../../magpie/internal/gateway/codex_titles.go#L520) |
+| codexTitleOff | method_declaration |  | [501](../../magpie/internal/gateway/codex_titles.go#L501) |
+| sentNowhere | method_declaration |  | [509](../../magpie/internal/gateway/codex_titles.go#L509) |
+| answeredHere | method_declaration |  | [520](../../magpie/internal/gateway/codex_titles.go#L520) |
 | writeTitleReply | function_declaration |  | [544](../../magpie/internal/gateway/codex_titles.go#L544) |
 | writeTitleEnd | function_declaration |  | [551](../../magpie/internal/gateway/codex_titles.go#L551) |
-| titleShape | struct_type |  | [589](../../magpie/internal/gateway/codex_titles.go#L589) |
+| titleShape | type_spec |  | [589](../../magpie/internal/gateway/codex_titles.go#L589) |
 | Properties | field_declaration | titleShape | [590](../../magpie/internal/gateway/codex_titles.go#L590) |
-| Type | field_declaration | titleShape | [591](../../magpie/internal/gateway/codex_titles.go#L591) |
-| MaxLength | field_declaration | titleShape | [592](../../magpie/internal/gateway/codex_titles.go#L592) |
+| Type | field_declaration | titleShape::Properties | [591](../../magpie/internal/gateway/codex_titles.go#L591) |
+| MaxLength | field_declaration | titleShape::Properties | [592](../../magpie/internal/gateway/codex_titles.go#L592) |
 | Required | field_declaration | titleShape | [594](../../magpie/internal/gateway/codex_titles.go#L594) |
 | titleShapeOf | function_declaration |  | [599](../../magpie/internal/gateway/codex_titles.go#L599) |
-| Text | field_declaration | titleShapeOf | [601](../../magpie/internal/gateway/codex_titles.go#L601) |
-| Format | field_declaration | titleShapeOf | [602](../../magpie/internal/gateway/codex_titles.go#L602) |
-| Schema | field_declaration | titleShapeOf | [603](../../magpie/internal/gateway/codex_titles.go#L603) |
+| q | var_spec | titleShapeOf | [600](../../magpie/internal/gateway/codex_titles.go#L600) |
+| Text | field_declaration | titleShapeOf::q | [601](../../magpie/internal/gateway/codex_titles.go#L601) |
+| Format | field_declaration | titleShapeOf::q::Text | [602](../../magpie/internal/gateway/codex_titles.go#L602) |
+| Schema | field_declaration | titleShapeOf::q::Text::Format | [603](../../magpie/internal/gateway/codex_titles.go#L603) |
 | titleJSON | function_declaration |  | [616](../../magpie/internal/gateway/codex_titles.go#L616) |
 | codexSideEffort | function_declaration |  | [689](../../magpie/internal/gateway/codex_titles.go#L689) |

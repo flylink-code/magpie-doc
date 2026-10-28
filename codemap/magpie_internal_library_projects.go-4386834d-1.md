@@ -8,7 +8,7 @@ Source SHA-256: ce674756c364a2410913c0a15599aab6e8ff5b50ebd31d3f4d39ccc2f044ce8f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Project | struct_type |  | [19](../../magpie/internal/library/projects.go#L19) |
+| Project | type_spec |  | [19](../../magpie/internal/library/projects.go#L19) |
 | Dir | field_declaration | Project | [20](../../magpie/internal/library/projects.go#L20) |
 | Copy | field_declaration | Project | [24](../../magpie/internal/library/projects.go#L24) |
 | Skills | field_declaration | Project | [26](../../magpie/internal/library/projects.go#L26) |
@@ -21,23 +21,28 @@ Source SHA-256: ce674756c364a2410913c0a15599aab6e8ff5b50ebd31d3f4d39ccc2f044ce8f
 | MadeFiles | field_declaration | Project | [46](../../magpie/internal/library/projects.go#L46) |
 | projectSkillsDirs | var_spec |  | [63](../../magpie/internal/library/projects.go#L63) |
 | ProjectSkillsDir | function_declaration |  | [85](../../magpie/internal/library/projects.go#L85) |
-| project | method_declaration | *Library | [87](../../magpie/internal/library/projects.go#L87) |
+| project | method_declaration |  | [87](../../magpie/internal/library/projects.go#L87) |
 | ignoreBegin | const_spec |  | [98](../../magpie/internal/library/projects.go#L98) |
 | ignoreEnd | const_spec |  | [99](../../magpie/internal/library/projects.go#L99) |
-| syncProjects | method_declaration | *Library | [103](../../magpie/internal/library/projects.go#L103) |
-| syncProject | method_declaration | *Library | [109](../../magpie/internal/library/projects.go#L109) |
+| syncProjects | method_declaration |  | [103](../../magpie/internal/library/projects.go#L103) |
+| syncProject | method_declaration |  | [109](../../magpie/internal/library/projects.go#L109) |
+| placed | var_spec | syncProject | [130](../../magpie/internal/library/projects.go#L130) |
 | errForeign | var_spec |  | [176](../../magpie/internal/library/projects.go#L176) |
-| place | method_declaration | *Project | [180](../../magpie/internal/library/projects.go#L180) |
-| mkdirs | method_declaration | *Project | [215](../../magpie/internal/library/projects.go#L215) |
-| tidy | method_declaration | *Project | [237](../../magpie/internal/library/projects.go#L237) |
-| writeIgnore | method_declaration | *Project | [258](../../magpie/internal/library/projects.go#L258) |
+| place | method_declaration |  | [180](../../magpie/internal/library/projects.go#L180) |
+| mkdirs | method_declaration |  | [215](../../magpie/internal/library/projects.go#L215) |
+| made | var_spec | mkdirs | [216](../../magpie/internal/library/projects.go#L216) |
+| tidy | method_declaration |  | [237](../../magpie/internal/library/projects.go#L237) |
+| kept | var_spec | tidy | [239](../../magpie/internal/library/projects.go#L239) |
+| writeIgnore | method_declaration |  | [258](../../magpie/internal/library/projects.go#L258) |
 | stripIgnore | function_declaration |  | [302](../../magpie/internal/library/projects.go#L302) |
+| out | var_spec | stripIgnore | [303](../../magpie/internal/library/projects.go#L303) |
 | AddProject | function_declaration |  | [325](../../magpie/internal/library/projects.go#L325) |
 | notGlobal | function_declaration |  | [353](../../magpie/internal/library/projects.go#L353) |
 | RemoveProject | function_declaration |  | [386](../../magpie/internal/library/projects.go#L386) |
 | ProjectSkill | function_declaration |  | [407](../../magpie/internal/library/projects.go#L407) |
+| ids | var_spec | ProjectSkill | [416](../../magpie/internal/library/projects.go#L416) |
 | ProjectCopy | function_declaration |  | [437](../../magpie/internal/library/projects.go#L437) |
-| ProjectView | struct_type |  | [449](../../magpie/internal/library/projects.go#L449) |
+| ProjectView | type_spec |  | [449](../../magpie/internal/library/projects.go#L449) |
 | Dir | field_declaration | ProjectView | [450](../../magpie/internal/library/projects.go#L450) |
 | Name | field_declaration | ProjectView | [451](../../magpie/internal/library/projects.go#L451) |
 | Copy | field_declaration | ProjectView | [452](../../magpie/internal/library/projects.go#L452) |

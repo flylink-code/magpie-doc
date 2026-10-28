@@ -8,18 +8,19 @@ Source SHA-256: 5b3327717156110b89905deae54fe1131f50df0d7ec08299e1c9bf780adaf876
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sessionAvailability | struct_type |  | [16](../../magpie/internal/otlp/otel_sessions.go#L16) |
+| sessionAvailability | type_spec |  | [16](../../magpie/internal/otlp/otel_sessions.go#L16) |
 | config | field_declaration | sessionAvailability | [17](../../magpie/internal/otlp/otel_sessions.go#L17) |
 | agents | field_declaration | sessionAvailability | [18](../../magpie/internal/otlp/otel_sessions.go#L18) |
 | seen | field_declaration | sessionAvailability | [19](../../magpie/internal/otlp/otel_sessions.go#L19) |
-| observedSession | struct_type |  | [22](../../magpie/internal/otlp/otel_sessions.go#L22) |
+| observedSession | type_spec |  | [22](../../magpie/internal/otlp/otel_sessions.go#L22) |
 | agent | field_declaration | observedSession | [23](../../magpie/internal/otlp/otel_sessions.go#L23) |
-| id | field_declaration | observedSession | [23](../../magpie/internal/otlp/otel_sessions.go#L23) |
-| SessionAgent | method_declaration | *Exporter | [27](../../magpie/internal/otlp/otel_sessions.go#L27) |
-| Session | method_declaration | *Exporter | [32](../../magpie/internal/otlp/otel_sessions.go#L32) |
-| SessionFresh | method_declaration | *Exporter | [43](../../magpie/internal/otlp/otel_sessions.go#L43) |
-| sessionObserved | method_declaration | *otelExporter | [55](../../magpie/internal/otlp/otel_sessions.go#L55) |
+| SessionAgent | method_declaration |  | [27](../../magpie/internal/otlp/otel_sessions.go#L27) |
+| Session | method_declaration |  | [32](../../magpie/internal/otlp/otel_sessions.go#L32) |
+| SessionFresh | method_declaration |  | [43](../../magpie/internal/otlp/otel_sessions.go#L43) |
+| sessionObserved | method_declaration |  | [55](../../magpie/internal/otlp/otel_sessions.go#L55) |
 | sessionBody | function_declaration |  | [75](../../magpie/internal/otlp/otel_sessions.go#L75) |
 | sessionRecord | function_declaration |  | [90](../../magpie/internal/otlp/otel_sessions.go#L90) |
-| offerSession | method_declaration | *otelExporter | [103](../../magpie/internal/otlp/otel_sessions.go#L103) |
-| watchSessions | method_declaration | *otelExporter | [113](../../magpie/internal/otlp/otel_sessions.go#L113) |
+| offerSession | method_declaration |  | [103](../../magpie/internal/otlp/otel_sessions.go#L103) |
+| watchSessions | method_declaration |  | [113](../../magpie/internal/otlp/otel_sessions.go#L113) |
+| reader | var_spec | watchSessions | [114](../../magpie/internal/otlp/otel_sessions.go#L114) |
+| prior | var_spec | watchSessions | [115](../../magpie/internal/otlp/otel_sessions.go#L115) |

@@ -9,4 +9,6 @@ Source SHA-256: 37c37d9def62dfc45bba442adca209d563f8115dff581f0da680c6d2fe2237e6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | shapeChatTools | function_declaration |  | [23](../../magpie/internal/gateway/chat_tool_shape.go#L23) |
+| raw | var_spec | shapeChatTools | [41](../../magpie/internal/gateway/chat_tool_shape.go#L41) |
+| m | var_spec | shapeChatTools | [49](../../magpie/internal/gateway/chat_tool_shape.go#L49) |
 | unshapedChatTool | function_declaration |  | [85](../../magpie/internal/gateway/chat_tool_shape.go#L85) |

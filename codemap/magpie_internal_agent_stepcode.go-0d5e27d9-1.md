@@ -11,18 +11,19 @@ Source SHA-256: 6951a3f081ce71dd029d764ec9cee1eef99e5f5dbe43d08a32f017e2f90752f0
 | stepcode | function_declaration |  | [27](../../magpie/internal/agent/stepcode.go#L27) |
 | stepcodeDir | function_declaration |  | [29](../../magpie/internal/agent/stepcode.go#L29) |
 | stepcodeProvider | function_declaration |  | [42](../../magpie/internal/agent/stepcode.go#L42) |
-| stepcodeTOML | struct_type |  | [56](../../magpie/internal/agent/stepcode.go#L56) |
+| stepcodeTOML | type_spec |  | [56](../../magpie/internal/agent/stepcode.go#L56) |
 | Provider | field_declaration | stepcodeTOML | [57](../../magpie/internal/agent/stepcode.go#L57) |
 | Model | field_declaration | stepcodeTOML | [58](../../magpie/internal/agent/stepcode.go#L58) |
 | Scope | field_declaration | stepcodeTOML | [59](../../magpie/internal/agent/stepcode.go#L59) |
 | readStepcodeTOML | function_declaration |  | [62](../../magpie/internal/agent/stepcode.go#L62) |
+| out | var_spec | readStepcodeTOML | [63](../../magpie/internal/agent/stepcode.go#L63) |
 | stepcodeValue | function_declaration |  | [80](../../magpie/internal/agent/stepcode.go#L80) |
 | stepcodeSetString | function_declaration |  | [87](../../magpie/internal/agent/stepcode.go#L87) |
 | stepcodeScopeRaw | function_declaration |  | [94](../../magpie/internal/agent/stepcode.go#L94) |
 | stepcodeValidateModels | function_declaration |  | [106](../../magpie/internal/agent/stepcode.go#L106) |
 | stepcodeJSONEmpty | function_declaration |  | [138](../../magpie/internal/agent/stepcode.go#L138) |
 | stepcodeFileExists | function_declaration |  | [153](../../magpie/internal/agent/stepcode.go#L153) |
-| stepcodeState | struct_type |  | [158](../../magpie/internal/agent/stepcode.go#L158) |
+| stepcodeState | type_spec |  | [158](../../magpie/internal/agent/stepcode.go#L158) |
 | OrigProvider | field_declaration | stepcodeState | [159](../../magpie/internal/agent/stepcode.go#L159) |
 | OrigModel | field_declaration | stepcodeState | [160](../../magpie/internal/agent/stepcode.go#L160) |
 | OrigHasScope | field_declaration | stepcodeState | [161](../../magpie/internal/agent/stepcode.go#L161) |
@@ -35,8 +36,12 @@ Source SHA-256: 6951a3f081ce71dd029d764ec9cee1eef99e5f5dbe43d08a32f017e2f90752f0
 | ModelsFileExisted | field_declaration | stepcodeState | [168](../../magpie/internal/agent/stepcode.go#L168) |
 | ProvidersMapExisted | field_declaration | stepcodeState | [169](../../magpie/internal/agent/stepcode.go#L169) |
 | stepcodeReadStash | function_declaration |  | [172](../../magpie/internal/agent/stepcode.go#L172) |
+| m | var_spec | stepcodeReadStash | [180](../../magpie/internal/agent/stepcode.go#L180) |
 | loadStepcodeState | function_declaration |  | [190](../../magpie/internal/agent/stepcode.go#L190) |
+| state | var_spec | loadStepcodeState | [199](../../magpie/internal/agent/stepcode.go#L199) |
 | stepcodeStoreState | function_declaration |  | [209](../../magpie/internal/agent/stepcode.go#L209) |
 | stepcodeStartup | function_declaration |  | [229](../../magpie/internal/agent/stepcode.go#L229) |
 | stepcodeRenameRefs | function_declaration |  | [261](../../magpie/internal/agent/stepcode.go#L261) |
 | stepcodeIn | function_declaration |  | [309](../../magpie/internal/agent/stepcode.go#L309) |
+| curList | var_spec | stepcodeIn | [357](../../magpie/internal/agent/stepcode.go#L357) |
+| curList | var_spec | stepcodeIn | [561](../../magpie/internal/agent/stepcode.go#L561) |

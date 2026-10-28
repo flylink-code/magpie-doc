@@ -10,11 +10,11 @@ Source SHA-256: 5773380583dd9bdc445a2f16edda9faee8e1a64cb09bb6d8ac58b97ca3c80dcf
 | --- | --- | --- | ---: |
 | LodyScheme | const_spec |  | [20](../../magpie/internal/agent/lody.go#L20) |
 | LodyLink | function_declaration |  | [24](../../magpie/internal/agent/lody.go#L24) |
-| endpoint | struct_type | LodyLink | [51](../../magpie/internal/agent/lody.go#L51) |
-| Protocol | field_declaration | LodyLink.endpoint | [52](../../magpie/internal/agent/lody.go#L52) |
-| BaseURL | field_declaration | LodyLink.endpoint | [53](../../magpie/internal/agent/lody.go#L53) |
-| Targets | field_declaration | LodyLink.endpoint | [54](../../magpie/internal/agent/lody.go#L54) |
-| ModelsURL | field_declaration | LodyLink.endpoint | [55](../../magpie/internal/agent/lody.go#L55) |
+| endpoint | type_spec | LodyLink | [51](../../magpie/internal/agent/lody.go#L51) |
+| Protocol | field_declaration | LodyLink::endpoint | [52](../../magpie/internal/agent/lody.go#L52) |
+| BaseURL | field_declaration | LodyLink::endpoint | [53](../../magpie/internal/agent/lody.go#L53) |
+| Targets | field_declaration | LodyLink::endpoint | [54](../../magpie/internal/agent/lody.go#L54) |
+| ModelsURL | field_declaration | LodyLink::endpoint | [55](../../magpie/internal/agent/lody.go#L55) |
 | Kind | field_declaration | LodyLink | [58](../../magpie/internal/agent/lody.go#L58) |
 | ID | field_declaration | LodyLink | [59](../../magpie/internal/agent/lody.go#L59) |
 | Name | field_declaration | LodyLink | [60](../../magpie/internal/agent/lody.go#L60) |
@@ -24,9 +24,12 @@ Source SHA-256: 5773380583dd9bdc445a2f16edda9faee8e1a64cb09bb6d8ac58b97ca3c80dcf
 | lodyNames | var_spec |  | [84](../../magpie/internal/agent/lody.go#L84) |
 | lodyBundle | function_declaration |  | [89](../../magpie/internal/agent/lody.go#L89) |
 | lody | function_declaration |  | [104](../../magpie/internal/agent/lody.go#L104) |
+| dirs | var_spec | lody | [106](../../magpie/internal/agent/lody.go#L106) |
 | lodyEntries | var_spec |  | [140](../../magpie/internal/agent/lody.go#L140) |
 | lodyGOOS | var_spec |  | [144](../../magpie/internal/agent/lody.go#L144) |
 | startLody | var_spec |  | [148](../../magpie/internal/agent/lody.go#L148) |
 | OpenLody | function_declaration |  | [166](../../magpie/internal/agent/lody.go#L166) |
 | lodyCommand | function_declaration |  | [177](../../magpie/internal/agent/lody.go#L177) |
 | desktopExec | function_declaration |  | [222](../../magpie/internal/agent/lody.go#L222) |
+| argv | var_spec | desktopExec | [236](../../magpie/internal/agent/lody.go#L236) |
+| arg | var_spec | desktopExec | [237](../../magpie/internal/agent/lody.go#L237) |

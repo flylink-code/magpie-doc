@@ -9,22 +9,29 @@ Source SHA-256: d1d381adb5b1db64b3a75586dadcdcacf6442cb5df74299081d67b1be4ee472e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | AgyStart | var_spec |  | [49](../../magpie/internal/sessions/agy.go#L49) |
-| agySummary | struct_type |  | [52](../../magpie/internal/sessions/agy.go#L52) |
+| agySummary | type_spec |  | [52](../../magpie/internal/sessions/agy.go#L52) |
 | Title | field_declaration | agySummary | [53](../../magpie/internal/sessions/agy.go#L53) |
-| Cwd | field_declaration | agySummary | [53](../../magpie/internal/sessions/agy.go#L53) |
 | Last | field_declaration | agySummary | [56](../../magpie/internal/sessions/agy.go#L56) |
 | agySummaries | var_spec |  | [62](../../magpie/internal/sessions/agy.go#L62) |
+| path | field_declaration | agySummaries | [64](../../magpie/internal/sessions/agy.go#L64) |
+| rev | field_declaration | agySummaries | [65](../../magpie/internal/sessions/agy.go#L65) |
+| rows | field_declaration | agySummaries | [66](../../magpie/internal/sessions/agy.go#L66) |
 | agySummariesOf | function_declaration |  | [70](../../magpie/internal/sessions/agy.go#L70) |
 | readAgySummaries | function_declaration |  | [98](../../magpie/internal/sessions/agy.go#L98) |
 | agyRows | function_declaration |  | [107](../../magpie/internal/sessions/agy.go#L107) |
+| id | var_spec | agyRows | [115](../../magpie/internal/sessions/agy.go#L115) |
+| t | var_spec | agyRows | [116](../../magpie/internal/sessions/agy.go#L116) |
+| last | var_spec | agyRows | [117](../../magpie/internal/sessions/agy.go#L117) |
+| uris | var_spec | agyRows | [121](../../magpie/internal/sessions/agy.go#L121) |
 | agyTime | function_declaration |  | [136](../../magpie/internal/sessions/agy.go#L136) |
 | agyFolder | function_declaration |  | [155](../../magpie/internal/sessions/agy.go#L155) |
 | agyTranscripts | function_declaration |  | [178](../../magpie/internal/sessions/agy.go#L178) |
+| out | var_spec | agyTranscripts | [181](../../magpie/internal/sessions/agy.go#L181) |
 | agyFiles | function_declaration |  | [198](../../magpie/internal/sessions/agy.go#L198) |
 | agyFilesIn | function_declaration |  | [204](../../magpie/internal/sessions/agy.go#L204) |
 | agyRev | function_declaration |  | [232](../../magpie/internal/sessions/agy.go#L232) |
 | agyRowOnly | function_declaration |  | [238](../../magpie/internal/sessions/agy.go#L238) |
-| agyLine | struct_type |  | [241](../../magpie/internal/sessions/agy.go#L241) |
+| agyLine | type_spec |  | [241](../../magpie/internal/sessions/agy.go#L241) |
 | Step | field_declaration | agyLine | [242](../../magpie/internal/sessions/agy.go#L242) |
 | Source | field_declaration | agyLine | [243](../../magpie/internal/sessions/agy.go#L243) |
 | Type | field_declaration | agyLine | [244](../../magpie/internal/sessions/agy.go#L244) |
@@ -35,20 +42,26 @@ Source SHA-256: d1d381adb5b1db64b3a75586dadcdcacf6442cb5df74299081d67b1be4ee472e
 | CacheRead | field_declaration | agyLine | [249](../../magpie/internal/sessions/agy.go#L249) |
 | Output | field_declaration | agyLine | [250](../../magpie/internal/sessions/agy.go#L250) |
 | ToolCalls | field_declaration | agyLine | [251](../../magpie/internal/sessions/agy.go#L251) |
-| Name | field_declaration | agyLine | [252](../../magpie/internal/sessions/agy.go#L252) |
-| Args | field_declaration | agyLine | [253](../../magpie/internal/sessions/agy.go#L253) |
-| agyCarry | struct_type |  | [260](../../magpie/internal/sessions/agy.go#L260) |
+| Name | field_declaration | agyLine::ToolCalls | [252](../../magpie/internal/sessions/agy.go#L252) |
+| Args | field_declaration | agyLine::ToolCalls | [253](../../magpie/internal/sessions/agy.go#L253) |
+| agyCarry | type_spec |  | [260](../../magpie/internal/sessions/agy.go#L260) |
 | Tail | field_declaration | agyCarry | [261](../../magpie/internal/sessions/agy.go#L261) |
 | Last | field_declaration | agyCarry | [262](../../magpie/internal/sessions/agy.go#L262) |
 | Steps | field_declaration | agyCarry | [263](../../magpie/internal/sessions/agy.go#L263) |
-| agyCounted | struct_type |  | [266](../../magpie/internal/sessions/agy.go#L266) |
+| agyCounted | type_spec |  | [266](../../magpie/internal/sessions/agy.go#L266) |
 | Date | field_declaration | agyCounted | [267](../../magpie/internal/sessions/agy.go#L267) |
 | Tokens | field_declaration | agyCounted | [268](../../magpie/internal/sessions/agy.go#L268) |
 | agyModel | const_spec |  | [273](../../magpie/internal/sessions/agy.go#L273) |
 | parseAgy | function_declaration |  | [277](../../magpie/internal/sessions/agy.go#L277) |
+| s | var_spec | parseAgy | [288](../../magpie/internal/sessions/agy.go#L288) |
+| off | var_spec | parseAgy | [290](../../magpie/internal/sessions/agy.go#L290) |
 | agyCount | function_declaration |  | [319](../../magpie/internal/sessions/agy.go#L319) |
+| l | var_spec | agyCount | [320](../../magpie/internal/sessions/agy.go#L320) |
 | agyRequest | function_declaration |  | [370](../../magpie/internal/sessions/agy.go#L370) |
 | agySaid | var_spec |  | [380](../../magpie/internal/sessions/agy.go#L380) |
 | agyTranscript | function_declaration |  | [385](../../magpie/internal/sessions/agy.go#L385) |
+| order | var_spec | agyTranscript | [389](../../magpie/internal/sessions/agy.go#L389) |
+| l | var_spec | agyTranscript | [402](../../magpie/internal/sessions/agy.go#L402) |
 | agyParts | function_declaration |  | [426](../../magpie/internal/sessions/agy.go#L426) |
+| out | var_spec | agyParts | [427](../../magpie/internal/sessions/agy.go#L427) |
 | forgetAgySummaries | function_declaration |  | [459](../../magpie/internal/sessions/agy.go#L459) |

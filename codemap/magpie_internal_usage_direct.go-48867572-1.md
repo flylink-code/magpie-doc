@@ -11,4 +11,5 @@ Source SHA-256: 33e289b9bd60374712d9a73f071e1915009ed6a863b0e09c4438013b4158023b
 | Direct | function_declaration |  | [18](../../magpie/internal/usage/direct.go#L18) |
 | Summaries | function_declaration |  | [30](../../magpie/internal/usage/direct.go#L30) |
 | directRows | function_declaration |  | [41](../../magpie/internal/usage/direct.go#L41) |
+| gateways | var_spec | directRows | [58](../../magpie/internal/usage/direct.go#L58) |
 | direct | function_declaration |  | [85](../../magpie/internal/usage/direct.go#L85) |

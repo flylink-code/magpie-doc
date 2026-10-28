@@ -8,10 +8,10 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [plugins/magpie-agent-cursor-bridge/agent.js](../../plugins/magpie-agent-cursor-bridge/agent.js) | 66 | [1](plugins_magpie-agent-cursor-bridge_agent.js-0486eb1d-1.md) |
-| [plugins/magpie-agent-cursor-bridge/bridge.js](../../plugins/magpie-agent-cursor-bridge/bridge.js) | 80 | [1](plugins_magpie-agent-cursor-bridge_bridge.js-4161016d-1.md) |
+| [plugins/magpie-agent-cursor-bridge/agent.js](../../plugins/magpie-agent-cursor-bridge/agent.js) | 4 | [1](plugins_magpie-agent-cursor-bridge_agent.js-0486eb1d-1.md) |
+| [plugins/magpie-agent-cursor-bridge/bridge.js](../../plugins/magpie-agent-cursor-bridge/bridge.js) | 91 | [1](plugins_magpie-agent-cursor-bridge_bridge.js-4161016d-1.md) |
 | [plugins/magpie-agent-cursor-bridge/install.js](../../plugins/magpie-agent-cursor-bridge/install.js) | 23 | [1](plugins_magpie-agent-cursor-bridge_install.js-c97e25ca-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.cmd](../../plugins/magpie-agent-cursor-bridge/setup.cmd) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.cmd-b0a20fde-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.command](../../plugins/magpie-agent-cursor-bridge/setup.command) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.command-64ad0145-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.ps1](../../plugins/magpie-agent-cursor-bridge/setup.ps1) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.ps1-e4490972-1.md) |
-| [plugins/magpie-agent-cursor-bridge/source.patch](../../plugins/magpie-agent-cursor-bridge/source.patch) | 91 | [1](plugins_magpie-agent-cursor-bridge_source.patch-02a44523-1.md) |
+| [plugins/magpie-agent-cursor-bridge/source.patch](../../plugins/magpie-agent-cursor-bridge/source.patch) | 0 | [1](plugins_magpie-agent-cursor-bridge_source.patch-02a44523-1.md) |

@@ -14,61 +14,70 @@ Source SHA-256: f11b50a9cf775237a45bfe51f283ddcac5705c728f63171dd7783743b5ad7fa7
 | canonicalHermesPath | function_declaration |  | [58](../../magpie/internal/sessions/hermes.go#L58) |
 | hermesID | function_declaration |  | [71](../../magpie/internal/sessions/hermes.go#L71) |
 | hermesStoreID | function_declaration |  | [78](../../magpie/internal/sessions/hermes.go#L78) |
-| hermesDB | struct_type |  | [83](../../magpie/internal/sessions/hermes.go#L83) |
+| hermesDB | type_spec |  | [83](../../magpie/internal/sessions/hermes.go#L83) |
 | db | field_declaration | hermesDB | [84](../../magpie/internal/sessions/hermes.go#L84) |
 | sessions | field_declaration | hermesDB | [85](../../magpie/internal/sessions/hermes.go#L85) |
-| messages | field_declaration | hermesDB | [85](../../magpie/internal/sessions/hermes.go#L85) |
-| usage | field_declaration | hermesDB | [85](../../magpie/internal/sessions/hermes.go#L85) |
 | revision | field_declaration | hermesDB | [86](../../magpie/internal/sessions/hermes.go#L86) |
 | hermesRevision | function_declaration |  | [91](../../magpie/internal/sessions/hermes.go#L91) |
+| parts | var_spec | hermesRevision | [92](../../magpie/internal/sessions/hermes.go#L92) |
 | hermesPrinted | var_spec |  | [109](../../magpie/internal/sessions/hermes.go#L109) |
-| hermesPrintSet | struct_type |  | [114](../../magpie/internal/sessions/hermes.go#L114) |
+| stores | field_declaration | hermesPrinted | [111](../../magpie/internal/sessions/hermes.go#L111) |
+| hermesPrintSet | type_spec |  | [114](../../magpie/internal/sessions/hermes.go#L114) |
 | revision | field_declaration | hermesPrintSet | [115](../../magpie/internal/sessions/hermes.go#L115) |
 | prints | field_declaration | hermesPrintSet | [116](../../magpie/internal/sessions/hermes.go#L116) |
 | hermesPrintsFor | function_declaration |  | [122](../../magpie/internal/sessions/hermes.go#L122) |
 | forgetHermesPrints | function_declaration |  | [137](../../magpie/internal/sessions/hermes.go#L137) |
-| fingerprints | method_declaration | *hermesDB | [154](../../magpie/internal/sessions/hermes.go#L154) |
-| hermesQuery | interface_type |  | [242](../../magpie/internal/sessions/hermes.go#L242) |
-| Query | method_spec | hermesQuery | [243](../../magpie/internal/sessions/hermes.go#L243) |
-| QueryRow | method_spec | hermesQuery | [244](../../magpie/internal/sessions/hermes.go#L244) |
+| fingerprints | method_declaration |  | [154](../../magpie/internal/sessions/hermes.go#L154) |
+| b | var_spec | fingerprints | [183](../../magpie/internal/sessions/hermes.go#L183) |
+| hermesQuery | type_spec |  | [242](../../magpie/internal/sessions/hermes.go#L242) |
 | hermesColumns | function_declaration |  | [249](../../magpie/internal/sessions/hermes.go#L249) |
+| cid | var_spec | hermesColumns | [257](../../magpie/internal/sessions/hermes.go#L257) |
+| name | var_spec | hermesColumns | [258](../../magpie/internal/sessions/hermes.go#L258) |
+| def | var_spec | hermesColumns | [259](../../magpie/internal/sessions/hermes.go#L259) |
 | newHermesDB | function_declaration |  | [267](../../magpie/internal/sessions/hermes.go#L267) |
 | hermesExpr | function_declaration |  | [276](../../magpie/internal/sessions/hermes.go#L276) |
 | hermesSelect | function_declaration |  | [283](../../magpie/internal/sessions/hermes.go#L283) |
 | hermesFiles | function_declaration |  | [291](../../magpie/internal/sessions/hermes.go#L291) |
+| out | var_spec | hermesFiles | [292](../../magpie/internal/sessions/hermes.go#L292) |
+| sid | var_spec | hermesFiles | [327](../../magpie/internal/sessions/hermes.go#L327) |
+| start | var_spec | hermesFiles | [328](../../magpie/internal/sessions/hermes.go#L328) |
 | hermesTime | function_declaration |  | [361](../../magpie/internal/sessions/hermes.go#L361) |
-| hermesUsage | struct_type |  | [369](../../magpie/internal/sessions/hermes.go#L369) |
+| hermesUsage | type_spec |  | [369](../../magpie/internal/sessions/hermes.go#L369) |
 | model | field_declaration | hermesUsage | [370](../../magpie/internal/sessions/hermes.go#L370) |
-| upstream | field_declaration | hermesUsage | [370](../../magpie/internal/sessions/hermes.go#L370) |
-| task | field_declaration | hermesUsage | [370](../../magpie/internal/sessions/hermes.go#L370) |
 | reasoning | field_declaration | hermesUsage | [372](../../magpie/internal/sessions/hermes.go#L372) |
-| calls | field_declaration | hermesUsage | [372](../../magpie/internal/sessions/hermes.go#L372) |
 | last | field_declaration | hermesUsage | [373](../../magpie/internal/sessions/hermes.go#L373) |
-| usages | method_declaration | *hermesDB | [376](../../magpie/internal/sessions/hermes.go#L376) |
-| metadata | method_declaration | *hermesDB | [453](../../magpie/internal/sessions/hermes.go#L453) |
-| hermesMessage | struct_type |  | [482](../../magpie/internal/sessions/hermes.go#L482) |
+| usages | method_declaration |  | [376](../../magpie/internal/sessions/hermes.go#L376) |
+| out | var_spec | usages | [402](../../magpie/internal/sessions/hermes.go#L402) |
+| u | var_spec | usages | [404](../../magpie/internal/sessions/hermes.go#L404) |
+| main | var_spec | usages | [431](../../magpie/internal/sessions/hermes.go#L431) |
+| metadata | method_declaration |  | [453](../../magpie/internal/sessions/hermes.go#L453) |
+| u | var_spec | metadata | [454](../../magpie/internal/sessions/hermes.go#L454) |
+| start | var_spec | metadata | [455](../../magpie/internal/sessions/hermes.go#L455) |
+| hermesMessage | type_spec |  | [482](../../magpie/internal/sessions/hermes.go#L482) |
 | role | field_declaration | hermesMessage | [483](../../magpie/internal/sessions/hermes.go#L483) |
-| content | field_declaration | hermesMessage | [483](../../magpie/internal/sessions/hermes.go#L483) |
-| tools | field_declaration | hermesMessage | [483](../../magpie/internal/sessions/hermes.go#L483) |
 | at | field_declaration | hermesMessage | [484](../../magpie/internal/sessions/hermes.go#L484) |
 | id | field_declaration | hermesMessage | [485](../../magpie/internal/sessions/hermes.go#L485) |
-| eachMessage | method_declaration | *hermesDB | [488](../../magpie/internal/sessions/hermes.go#L488) |
-| identity | struct_type | *hermesDB.eachMessage | [494](../../magpie/internal/sessions/hermes.go#L494) |
-| role | field_declaration | *hermesDB.eachMessage.identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
-| content | field_declaration | *hermesDB.eachMessage.identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
-| tools | field_declaration | *hermesDB.eachMessage.identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
-| toolID | field_declaration | *hermesDB.eachMessage.identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
-| toolName | field_declaration | *hermesDB.eachMessage.identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
-| at | field_declaration | *hermesDB.eachMessage.identity | [496](../../magpie/internal/sessions/hermes.go#L496) |
-| representative | struct_type | *hermesDB.eachMessage | [529](../../magpie/internal/sessions/hermes.go#L529) |
-| message | field_declaration | *hermesDB.eachMessage.representative | [530](../../magpie/internal/sessions/hermes.go#L530) |
-| active | field_declaration | *hermesDB.eachMessage.representative | [531](../../magpie/internal/sessions/hermes.go#L531) |
+| eachMessage | method_declaration |  | [488](../../magpie/internal/sessions/hermes.go#L488) |
+| identity | type_spec | eachMessage | [494](../../magpie/internal/sessions/hermes.go#L494) |
+| role | field_declaration | eachMessage::identity | [495](../../magpie/internal/sessions/hermes.go#L495) |
+| at | field_declaration | eachMessage::identity | [496](../../magpie/internal/sessions/hermes.go#L496) |
+| representative | type_spec | eachMessage | [529](../../magpie/internal/sessions/hermes.go#L529) |
+| message | field_declaration | eachMessage::representative | [530](../../magpie/internal/sessions/hermes.go#L530) |
+| active | field_declaration | eachMessage::representative | [531](../../magpie/internal/sessions/hermes.go#L531) |
+| messages | var_spec | eachMessage | [534](../../magpie/internal/sessions/hermes.go#L534) |
+| key | var_spec | eachMessage | [536](../../magpie/internal/sessions/hermes.go#L536) |
+| m | var_spec | eachMessage | [537](../../magpie/internal/sessions/hermes.go#L537) |
+| displayKind | var_spec | eachMessage | [538](../../magpie/internal/sessions/hermes.go#L538) |
+| active | var_spec | eachMessage | [539](../../magpie/internal/sessions/hermes.go#L539) |
 | parseHermes | function_declaration |  | [573](../../magpie/internal/sessions/hermes.go#L573) |
-| hermesTool | struct_type |  | [631](../../magpie/internal/sessions/hermes.go#L631) |
+| hermesTool | type_spec |  | [631](../../magpie/internal/sessions/hermes.go#L631) |
 | Function | field_declaration | hermesTool | [632](../../magpie/internal/sessions/hermes.go#L632) |
-| Name | field_declaration | hermesTool | [633](../../magpie/internal/sessions/hermes.go#L633) |
-| Arguments | field_declaration | hermesTool | [634](../../magpie/internal/sessions/hermes.go#L634) |
+| Name | field_declaration | hermesTool::Function | [633](../../magpie/internal/sessions/hermes.go#L633) |
+| Arguments | field_declaration | hermesTool::Function | [634](../../magpie/internal/sessions/hermes.go#L634) |
 | hermesTools | function_declaration |  | [638](../../magpie/internal/sessions/hermes.go#L638) |
+| tools | var_spec | hermesTools | [639](../../magpie/internal/sessions/hermes.go#L639) |
 | hermesText | function_declaration |  | [644](../../magpie/internal/sessions/hermes.go#L644) |
-| Type | field_declaration | hermesText | [651](../../magpie/internal/sessions/hermes.go#L651) |
-| Text | field_declaration | hermesText | [652](../../magpie/internal/sessions/hermes.go#L652) |
+| parts | var_spec | hermesText | [650](../../magpie/internal/sessions/hermes.go#L650) |
+| Type | field_declaration | hermesText::parts | [651](../../magpie/internal/sessions/hermes.go#L651) |
+| Text | field_declaration | hermesText::parts | [652](../../magpie/internal/sessions/hermes.go#L652) |
+| text | var_spec | hermesText | [655](../../magpie/internal/sessions/hermes.go#L655) |

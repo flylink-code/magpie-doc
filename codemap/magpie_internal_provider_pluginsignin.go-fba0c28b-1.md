@@ -10,15 +10,16 @@ Source SHA-256: b01222ce96cbd74bd25598b6344ecf17ad76b0b7ff840b6b0f38a71831200fa5
 | --- | --- | --- | ---: |
 | StartPluginSignIn | function_declaration |  | [22](../../magpie/internal/provider/pluginsignin.go#L22) |
 | StartPluginSignInWith | function_declaration |  | [28](../../magpie/internal/provider/pluginsignin.go#L28) |
+| installing | var_spec | StartPluginSignInWith | [38](../../magpie/internal/provider/pluginsignin.go#L38) |
 | pluginRunsCLI | var_spec |  | [74](../../magpie/internal/provider/pluginsignin.go#L74) |
 | pluginCLI | function_declaration |  | [79](../../magpie/internal/provider/pluginsignin.go#L79) |
 | PluginCLIMissing | function_declaration |  | [95](../../magpie/internal/provider/pluginsignin.go#L95) |
 | InstallPluginCLI | function_declaration |  | [105](../../magpie/internal/provider/pluginsignin.go#L105) |
-| pluginBegin | method_declaration | *signInFlow | [119](../../magpie/internal/provider/pluginsignin.go#L119) |
+| pluginBegin | method_declaration |  | [119](../../magpie/internal/provider/pluginsignin.go#L119) |
 | deviceCode | var_spec |  | [167](../../magpie/internal/provider/pluginsignin.go#L167) |
 | codeIn | function_declaration |  | [170](../../magpie/internal/provider/pluginsignin.go#L170) |
-| pluginCode | method_declaration | *signInFlow | [178](../../magpie/internal/provider/pluginsignin.go#L178) |
-| pluginDone | method_declaration | *signInFlow | [198](../../magpie/internal/provider/pluginsignin.go#L198) |
+| pluginCode | method_declaration |  | [178](../../magpie/internal/provider/pluginsignin.go#L178) |
+| pluginDone | method_declaration |  | [198](../../magpie/internal/provider/pluginsignin.go#L198) |
 | PluginAPIKey | function_declaration |  | [216](../../magpie/internal/provider/pluginsignin.go#L216) |
 | PluginSignedIn | function_declaration |  | [236](../../magpie/internal/provider/pluginsignin.go#L236) |
 | pluginUsing | function_declaration |  | [245](../../magpie/internal/provider/pluginsignin.go#L245) |

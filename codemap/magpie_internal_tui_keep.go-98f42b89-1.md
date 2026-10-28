@@ -8,7 +8,7 @@ Source SHA-256: 5ff76203cd5859be9f1edd0885bd7504e57d9fc4df7382bfef08df18eba9974e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keeper | struct_type |  | [29](../../magpie/internal/tui/keep.go#L29) |
+| keeper | type_spec |  | [29](../../magpie/internal/tui/keep.go#L29) |
 | goos | field_declaration | keeper | [30](../../magpie/internal/tui/keep.go#L30) |
 | autostartOn | field_declaration | keeper | [31](../../magpie/internal/tui/keep.go#L31) |
 | status | field_declaration | keeper | [32](../../magpie/internal/tui/keep.go#L32) |

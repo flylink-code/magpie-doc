@@ -9,62 +9,73 @@ Source SHA-256: 1fccd0a83c90f9c48b1b9dc4ffac58bec43291f34d24c830e52683f6e5c7bcdf
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | asideRead | var_spec |  | [22](../../magpie/internal/agent/aside_native.go#L22) |
-| values | var_spec |  | [38](../../magpie/internal/agent/aside_native.go#L38) |
+| values | var_spec | asideRead | [38](../../magpie/internal/agent/aside_native.go#L38) |
 | asideMu | var_spec |  | [43](../../magpie/internal/agent/aside_native.go#L43) |
-| asideOwned | struct_type |  | [45](../../magpie/internal/agent/aside_native.go#L45) |
+| asideOwned | type_spec |  | [45](../../magpie/internal/agent/aside_native.go#L45) |
 | Before | field_declaration | asideOwned | [46](../../magpie/internal/agent/aside_native.go#L46) |
 | Last | field_declaration | asideOwned | [47](../../magpie/internal/agent/aside_native.go#L47) |
 | Pending | field_declaration | asideOwned | [48](../../magpie/internal/agent/aside_native.go#L48) |
-| asideRecord | struct_type |  | [51](../../magpie/internal/agent/aside_native.go#L51) |
+| asideRecord | type_spec |  | [51](../../magpie/internal/agent/aside_native.go#L51) |
 | Fields | field_declaration | asideRecord | [52](../../magpie/internal/agent/aside_native.go#L52) |
-| asideConnection | struct_type |  | [55](../../magpie/internal/agent/aside_native.go#L55) |
+| asideConnection | type_spec |  | [55](../../magpie/internal/agent/aside_native.go#L55) |
 | at | field_declaration | asideConnection | [56](../../magpie/internal/agent/aside_native.go#L56) |
 | account | field_declaration | asideConnection | [57](../../magpie/internal/agent/aside_native.go#L57) |
 | path | field_declaration | asideConnection | [58](../../magpie/internal/agent/aside_native.go#L58) |
-| models | field_declaration | asideConnection | [58](../../magpie/internal/agent/aside_native.go#L58) |
-| record | field_declaration | asideConnection | [58](../../magpie/internal/agent/aside_native.go#L58) |
 | snapshot | field_declaration | asideConnection | [59](../../magpie/internal/agent/aside_native.go#L59) |
 | readErr | field_declaration | asideConnection | [60](../../magpie/internal/agent/aside_native.go#L60) |
 | read | field_declaration | asideConnection | [61](../../magpie/internal/agent/aside_native.go#L61) |
 | newAsideConnection | function_declaration |  | [64](../../magpie/internal/agent/aside_native.go#L64) |
-| accountID | method_declaration | *asideConnection | [76](../../magpie/internal/agent/aside_native.go#L76) |
-| runtime | method_declaration | *asideConnection | [78](../../magpie/internal/agent/aside_native.go#L78) |
-| settings | method_declaration | *asideConnection | [82](../../magpie/internal/agent/aside_native.go#L82) |
-| liveSettings | method_declaration | *asideConnection | [95](../../magpie/internal/agent/aside_native.go#L95) |
-| reconcileSettings | method_declaration | *asideConnection | [100](../../magpie/internal/agent/aside_native.go#L100) |
+| accountID | method_declaration |  | [76](../../magpie/internal/agent/aside_native.go#L76) |
+| runtime | method_declaration |  | [78](../../magpie/internal/agent/aside_native.go#L78) |
+| settings | method_declaration |  | [82](../../magpie/internal/agent/aside_native.go#L82) |
+| liveSettings | method_declaration |  | [95](../../magpie/internal/agent/aside_native.go#L95) |
+| reconcileSettings | method_declaration |  | [100](../../magpie/internal/agent/aside_native.go#L100) |
 | jsString | function_declaration |  | [133](../../magpie/internal/agent/aside_native.go#L133) |
 | asideOwnOptions | function_declaration |  | [135](../../magpie/internal/agent/aside_native.go#L135) |
-| Providers | field_declaration | asideOwnOptions | [138](../../magpie/internal/agent/aside_native.go#L138) |
-| Models | field_declaration | asideOwnOptions | [138](../../magpie/internal/agent/aside_native.go#L138) |
-| ID | field_declaration | asideOwnOptions | [138](../../magpie/internal/agent/aside_native.go#L138) |
-| Name | field_declaration | asideOwnOptions | [138](../../magpie/internal/agent/aside_native.go#L138) |
+| s | var_spec | asideOwnOptions | [137](../../magpie/internal/agent/aside_native.go#L137) |
+| Providers | field_declaration | asideOwnOptions::s | [138](../../magpie/internal/agent/aside_native.go#L138) |
+| Models | field_declaration | asideOwnOptions::s::Providers | [138](../../magpie/internal/agent/aside_native.go#L138) |
+| ID | field_declaration | asideOwnOptions::s::Providers::Models | [138](../../magpie/internal/agent/aside_native.go#L138) |
+| out | var_spec | asideOwnOptions | [141](../../magpie/internal/agent/aside_native.go#L141) |
 | asideSameSetting | function_declaration |  | [170](../../magpie/internal/agent/aside_native.go#L170) |
+| x | var_spec | asideSameSetting | [177](../../magpie/internal/agent/aside_native.go#L177) |
 | asideSelection | function_declaration |  | [186](../../magpie/internal/agent/aside_native.go#L186) |
-| Provider | field_declaration | asideSelection | [188](../../magpie/internal/agent/aside_native.go#L188) |
-| ModelID | field_declaration | asideSelection | [189](../../magpie/internal/agent/aside_native.go#L189) |
+| m | var_spec | asideSelection | [187](../../magpie/internal/agent/aside_native.go#L187) |
+| Provider | field_declaration | asideSelection::m | [188](../../magpie/internal/agent/aside_native.go#L188) |
+| ModelID | field_declaration | asideSelection::m | [189](../../magpie/internal/agent/aside_native.go#L189) |
 | asideFieldPath | function_declaration |  | [198](../../magpie/internal/agent/aside_native.go#L198) |
 | asideRaw | function_declaration |  | [208](../../magpie/internal/agent/aside_native.go#L208) |
-| value | method_declaration | *asideConnection | [217](../../magpie/internal/agent/aside_native.go#L217) |
-| ThinkingLevel | field_declaration | *asideConnection.value | [221](../../magpie/internal/agent/aside_native.go#L221) |
-| load | method_declaration | *asideConnection | [229](../../magpie/internal/agent/aside_native.go#L229) |
-| save | method_declaration | *asideConnection | [275](../../magpie/internal/agent/aside_native.go#L275) |
-| provider | method_declaration | *asideConnection | [291](../../magpie/internal/agent/aside_native.go#L291) |
-| Key | field_declaration | *asideConnection.provider | [304](../../magpie/internal/agent/aside_native.go#L304) |
-| URL | field_declaration | *asideConnection.provider | [305](../../magpie/internal/agent/aside_native.go#L305) |
-| API | field_declaration | *asideConnection.provider | [306](../../magpie/internal/agent/aside_native.go#L306) |
-| Models | field_declaration | *asideConnection.provider | [307](../../magpie/internal/agent/aside_native.go#L307) |
-| block | method_declaration | *asideConnection | [327](../../magpie/internal/agent/aside_native.go#L327) |
-| connect | method_declaration | *asideConnection | [333](../../magpie/internal/agent/aside_native.go#L333) |
-| connectLocked | method_declaration | *asideConnection | [339](../../magpie/internal/agent/aside_native.go#L339) |
-| sync | method_declaration | *asideConnection | [350](../../magpie/internal/agent/aside_native.go#L350) |
-| kept | method_declaration | *asideConnection | [362](../../magpie/internal/agent/aside_native.go#L362) |
-| state | method_declaration | *asideConnection | [366](../../magpie/internal/agent/aside_native.go#L366) |
+| roles | var_spec | asideRaw | [210](../../magpie/internal/agent/aside_native.go#L210) |
+| value | method_declaration |  | [217](../../magpie/internal/agent/aside_native.go#L217) |
+| m | var_spec | value | [220](../../magpie/internal/agent/aside_native.go#L220) |
+| ThinkingLevel | field_declaration | value::m | [221](../../magpie/internal/agent/aside_native.go#L221) |
+| load | method_declaration |  | [229](../../magpie/internal/agent/aside_native.go#L229) |
+| selection | var_spec | load | [263](../../magpie/internal/agent/aside_native.go#L263) |
+| save | method_declaration |  | [275](../../magpie/internal/agent/aside_native.go#L275) |
+| provider | method_declaration |  | [291](../../magpie/internal/agent/aside_native.go#L291) |
+| p | var_spec | provider | [303](../../magpie/internal/agent/aside_native.go#L303) |
+| Key | field_declaration | provider::p | [304](../../magpie/internal/agent/aside_native.go#L304) |
+| URL | field_declaration | provider::p | [305](../../magpie/internal/agent/aside_native.go#L305) |
+| API | field_declaration | provider::p | [306](../../magpie/internal/agent/aside_native.go#L306) |
+| Models | field_declaration | provider::p | [307](../../magpie/internal/agent/aside_native.go#L307) |
+| block | method_declaration |  | [327](../../magpie/internal/agent/aside_native.go#L327) |
+| connect | method_declaration |  | [333](../../magpie/internal/agent/aside_native.go#L333) |
+| connectLocked | method_declaration |  | [339](../../magpie/internal/agent/aside_native.go#L339) |
+| sync | method_declaration |  | [350](../../magpie/internal/agent/aside_native.go#L350) |
+| kept | method_declaration |  | [362](../../magpie/internal/agent/aside_native.go#L362) |
+| state | method_declaration |  | [366](../../magpie/internal/agent/aside_native.go#L366) |
 | asideImageOptions | function_declaration |  | [415](../../magpie/internal/agent/aside_native.go#L415) |
+| out | var_spec | asideImageOptions | [416](../../magpie/internal/agent/aside_native.go#L416) |
 | asideImageOffered | function_declaration |  | [429](../../magpie/internal/agent/aside_native.go#L429) |
-| validateSelection | method_declaration | *asideConnection | [443](../../magpie/internal/agent/aside_native.go#L443) |
-| apply | method_declaration | *asideConnection | [467](../../magpie/internal/agent/aside_native.go#L467) |
-| setSetting | method_declaration | *asideConnection | [593](../../magpie/internal/agent/aside_native.go#L593) |
-| plan | method_declaration | *asideConnection | [609](../../magpie/internal/agent/aside_native.go#L609) |
-| planLocked | method_declaration | *asideConnection | [615](../../magpie/internal/agent/aside_native.go#L615) |
-| execute | method_declaration | *asideConnection | [686](../../magpie/internal/agent/aside_native.go#L686) |
-| executeOffline | method_declaration | *asideConnection | [736](../../magpie/internal/agent/aside_native.go#L736) |
+| validateSelection | method_declaration |  | [443](../../magpie/internal/agent/aside_native.go#L443) |
+| apply | method_declaration |  | [467](../../magpie/internal/agent/aside_native.go#L467) |
+| after | var_spec | apply | [515](../../magpie/internal/agent/aside_native.go#L515) |
+| m | var_spec | apply | [517](../../magpie/internal/agent/aside_native.go#L517) |
+| setSetting | method_declaration |  | [593](../../magpie/internal/agent/aside_native.go#L593) |
+| plan | method_declaration |  | [609](../../magpie/internal/agent/aside_native.go#L609) |
+| planLocked | method_declaration |  | [615](../../magpie/internal/agent/aside_native.go#L615) |
+| saved | var_spec | planLocked | [625](../../magpie/internal/agent/aside_native.go#L625) |
+| set | var_spec | planLocked | [636](../../magpie/internal/agent/aside_native.go#L636) |
+| del | var_spec | planLocked | [637](../../magpie/internal/agent/aside_native.go#L637) |
+| execute | method_declaration |  | [686](../../magpie/internal/agent/aside_native.go#L686) |
+| executeOffline | method_declaration |  | [736](../../magpie/internal/agent/aside_native.go#L736) |

@@ -9,4 +9,5 @@ Source SHA-256: b485b3876b83ea67922eababe7c7d258359feba082fc891cb05bec64b4d44e77
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [14](../../magpie/internal/provider/migrate_factory.go#L14) |
+| out | var_spec | init | [23](../../magpie/internal/provider/migrate_factory.go#L23) |
 | factoryKeyBack | function_declaration |  | [90](../../magpie/internal/provider/migrate_factory.go#L90) |

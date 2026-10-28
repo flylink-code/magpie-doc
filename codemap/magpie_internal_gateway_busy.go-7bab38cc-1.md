@@ -8,21 +8,21 @@ Source SHA-256: 962c36633c560d2f56f5c6732cebfee7d4659c4bbb18a725858fd5203bf3397b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Busy | struct_type |  | [26](../../magpie/internal/gateway/busy.go#L26) |
+| Busy | type_spec |  | [26](../../magpie/internal/gateway/busy.go#L26) |
 | Requests | field_declaration | Busy | [27](../../magpie/internal/gateway/busy.go#L27) |
 | Tools | field_declaration | Busy | [28](../../magpie/internal/gateway/busy.go#L28) |
 | Last | field_declaration | Busy | [29](../../magpie/internal/gateway/busy.go#L29) |
 | Bridge | field_declaration | Busy | [30](../../magpie/internal/gateway/busy.go#L30) |
 | BridgeLast | field_declaration | Busy | [31](../../magpie/internal/gateway/busy.go#L31) |
-| Any | method_declaration | Busy | [35](../../magpie/internal/gateway/busy.go#L35) |
-| Busy | method_declaration | *Server | [38](../../magpie/internal/gateway/busy.go#L38) |
-| bridgeTurn | method_declaration | *Server | [51](../../magpie/internal/gateway/busy.go#L51) |
-| counted | method_declaration | *Server | [60](../../magpie/internal/gateway/busy.go#L60) |
-| busyCounters | struct_type |  | [93](../../magpie/internal/gateway/busy.go#L93) |
+| Any | method_declaration |  | [35](../../magpie/internal/gateway/busy.go#L35) |
+| Busy | method_declaration |  | [38](../../magpie/internal/gateway/busy.go#L38) |
+| bridgeTurn | method_declaration |  | [51](../../magpie/internal/gateway/busy.go#L51) |
+| counted | method_declaration |  | [60](../../magpie/internal/gateway/busy.go#L60) |
+| busyCounters | type_spec |  | [93](../../magpie/internal/gateway/busy.go#L93) |
 | inFlight | field_declaration | busyCounters | [94](../../magpie/internal/gateway/busy.go#L94) |
 | lastDone | field_declaration | busyCounters | [95](../../magpie/internal/gateway/busy.go#L95) |
 | active | field_declaration | busyCounters | [96](../../magpie/internal/gateway/busy.go#L96) |
 | bridgeInFlight | field_declaration | busyCounters | [98](../../magpie/internal/gateway/busy.go#L98) |
 | bridgeDone | field_declaration | busyCounters | [99](../../magpie/internal/gateway/busy.go#L99) |
 | idle | field_declaration | busyCounters | [101](../../magpie/internal/gateway/busy.go#L101) |
-| parked | method_declaration | *subscriptionBridge | [105](../../magpie/internal/gateway/busy.go#L105) |
+| parked | method_declaration |  | [105](../../magpie/internal/gateway/busy.go#L105) |

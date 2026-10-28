@@ -14,4 +14,5 @@
 | [plugins/magpie-agent-cursor-bridge/lib/magpie.js](../../plugins/magpie-agent-cursor-bridge/lib/magpie.js) | 14 | [1](plugins_magpie-agent-cursor-bridge_lib_magpie.js-5d3c41ef-1.md) |
 | [plugins/magpie-agent-cursor-bridge/lib/relay.js](../../plugins/magpie-agent-cursor-bridge/lib/relay.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_lib_relay.js-b6235bb8-1.md) |
 | [plugins/magpie-agent-cursor-bridge/lib/settings.js](../../plugins/magpie-agent-cursor-bridge/lib/settings.js) | 47 | [1](plugins_magpie-agent-cursor-bridge_lib_settings.js-9afb4291-1.md) |
+| [plugins/magpie-agent-cursor-bridge/lib/upgrade.js](../../plugins/magpie-agent-cursor-bridge/lib/upgrade.js) | 3 | [1](plugins_magpie-agent-cursor-bridge_lib_upgrade.js-207a2570-1.md) |
 | [plugins/magpie-agent-cursor-bridge/lib/watch.js](../../plugins/magpie-agent-cursor-bridge/lib/watch.js) | 2 | [1](plugins_magpie-agent-cursor-bridge_lib_watch.js-c27a57ea-1.md) |

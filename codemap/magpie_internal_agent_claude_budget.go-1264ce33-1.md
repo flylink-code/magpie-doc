@@ -8,7 +8,7 @@ Source SHA-256: 6f19fbe00053a900db465dae4c12274ab698fbd5a59e2f995235817b2a67cb39
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeBudget | struct_type |  | [25](../../magpie/internal/agent/claude_budget.go#L25) |
+| claudeBudget | type_spec |  | [25](../../magpie/internal/agent/claude_budget.go#L25) |
 | id | field_declaration | claudeBudget | [26](../../magpie/internal/agent/claude_budget.go#L26) |
 | window | field_declaration | claudeBudget | [27](../../magpie/internal/agent/claude_budget.go#L27) |
 | long | field_declaration | claudeBudget | [28](../../magpie/internal/agent/claude_budget.go#L28) |
@@ -19,3 +19,5 @@ Source SHA-256: 6f19fbe00053a900db465dae4c12274ab698fbd5a59e2f995235817b2a67cb39
 | budgetPath | function_declaration |  | [48](../../magpie/internal/agent/claude_budget.go#L48) |
 | claudePlan | function_declaration |  | [60](../../magpie/internal/agent/claude_budget.go#L60) |
 | budgetsRead | function_declaration |  | [131](../../magpie/internal/agent/claude_budget.go#L131) |
+| per | var_spec | budgetsRead | [132](../../magpie/internal/agent/claude_budget.go#L132) |
+| s | var_spec | budgetsRead | [142](../../magpie/internal/agent/claude_budget.go#L142) |

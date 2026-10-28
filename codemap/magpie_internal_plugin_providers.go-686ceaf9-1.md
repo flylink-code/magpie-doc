@@ -8,19 +8,19 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Method | struct_type |  | [26](../../magpie/internal/plugin/providers.go#L26) |
+| Method | type_spec |  | [26](../../magpie/internal/plugin/providers.go#L26) |
 | Type | field_declaration | Method | [27](../../magpie/internal/plugin/providers.go#L27) |
 | Label | field_declaration | Method | [28](../../magpie/internal/plugin/providers.go#L28) |
 | Placeholder | field_declaration | Method | [31](../../magpie/internal/plugin/providers.go#L31) |
 | Keyless | field_declaration | Method | [33](../../magpie/internal/plugin/providers.go#L33) |
-| KeyTitle | method_declaration | Method | [39](../../magpie/internal/plugin/providers.go#L39) |
-| Cost | struct_type |  | [49](../../magpie/internal/plugin/providers.go#L49) |
+| KeyTitle | method_declaration |  | [39](../../magpie/internal/plugin/providers.go#L39) |
+| Cost | type_spec |  | [49](../../magpie/internal/plugin/providers.go#L49) |
 | Input | field_declaration | Cost | [50](../../magpie/internal/plugin/providers.go#L50) |
 | Output | field_declaration | Cost | [51](../../magpie/internal/plugin/providers.go#L51) |
 | Cache | field_declaration | Cost | [52](../../magpie/internal/plugin/providers.go#L52) |
-| Read | field_declaration | Cost | [53](../../magpie/internal/plugin/providers.go#L53) |
-| Write | field_declaration | Cost | [54](../../magpie/internal/plugin/providers.go#L54) |
-| Model | struct_type |  | [59](../../magpie/internal/plugin/providers.go#L59) |
+| Read | field_declaration | Cost::Cache | [53](../../magpie/internal/plugin/providers.go#L53) |
+| Write | field_declaration | Cost::Cache | [54](../../magpie/internal/plugin/providers.go#L54) |
+| Model | type_spec |  | [59](../../magpie/internal/plugin/providers.go#L59) |
 | ID | field_declaration | Model | [60](../../magpie/internal/plugin/providers.go#L60) |
 | Name | field_declaration | Model | [61](../../magpie/internal/plugin/providers.go#L61) |
 | NPM | field_declaration | Model | [62](../../magpie/internal/plugin/providers.go#L62) |
@@ -44,7 +44,7 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 | ServiceTiers | field_declaration | Model | [102](../../magpie/internal/plugin/providers.go#L102) |
 | Decides | field_declaration | Model | [107](../../magpie/internal/plugin/providers.go#L107) |
 | Searches | field_declaration | Model | [111](../../magpie/internal/plugin/providers.go#L111) |
-| Provider | struct_type |  | [115](../../magpie/internal/plugin/providers.go#L115) |
+| Provider | type_spec |  | [115](../../magpie/internal/plugin/providers.go#L115) |
 | ID | field_declaration | Provider | [116](../../magpie/internal/plugin/providers.go#L116) |
 | Spec | field_declaration | Provider | [117](../../magpie/internal/plugin/providers.go#L117) |
 | Name | field_declaration | Provider | [118](../../magpie/internal/plugin/providers.go#L118) |
@@ -66,7 +66,7 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 | Accounts | field_declaration | Provider | [155](../../magpie/internal/plugin/providers.go#L155) |
 | Single | field_declaration | Provider | [157](../../magpie/internal/plugin/providers.go#L157) |
 | MaxConcurrency | field_declaration | Provider | [163](../../magpie/internal/plugin/providers.go#L163) |
-| Option | struct_type |  | [170](../../magpie/internal/plugin/providers.go#L170) |
+| Option | type_spec |  | [170](../../magpie/internal/plugin/providers.go#L170) |
 | Key | field_declaration | Option | [171](../../magpie/internal/plugin/providers.go#L171) |
 | Label | field_declaration | Option | [172](../../magpie/internal/plugin/providers.go#L172) |
 | Description | field_declaration | Option | [173](../../magpie/internal/plugin/providers.go#L173) |
@@ -74,7 +74,7 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 | Confirm | field_declaration | Option | [177](../../magpie/internal/plugin/providers.go#L177) |
 | OptionOn | function_declaration |  | [182](../../magpie/internal/plugin/providers.go#L182) |
 | SetProviderOptions | function_declaration |  | [191](../../magpie/internal/plugin/providers.go#L191) |
-| Account | struct_type |  | [200](../../magpie/internal/plugin/providers.go#L200) |
+| Account | type_spec |  | [200](../../magpie/internal/plugin/providers.go#L200) |
 | Key | field_declaration | Account | [201](../../magpie/internal/plugin/providers.go#L201) |
 | Type | field_declaration | Account | [202](../../magpie/internal/plugin/providers.go#L202) |
 | AccountID | field_declaration | Account | [203](../../magpie/internal/plugin/providers.go#L203) |
@@ -95,16 +95,16 @@ Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
 | ListedAt | function_declaration |  | [235](../../magpie/internal/plugin/providers.go#L235) |
 | forgetProviders | function_declaration |  | [243](../../magpie/internal/plugin/providers.go#L243) |
 | Providers | function_declaration |  | [256](../../magpie/internal/plugin/providers.go#L256) |
+| ps | var_spec | Providers | [257](../../magpie/internal/plugin/providers.go#L257) |
 | commitProviders | function_declaration |  | [269](../../magpie/internal/plugin/providers.go#L269) |
 | sameList | function_declaration |  | [302](../../magpie/internal/plugin/providers.go#L302) |
 | refreshDeadline | var_spec |  | [313](../../magpie/internal/plugin/providers.go#L313) |
 | refreshTries | var_spec |  | [319](../../magpie/internal/plugin/providers.go#L319) |
 | refreshBackoff | var_spec |  | [320](../../magpie/internal/plugin/providers.go#L320) |
 | refreshProviders | var_spec |  | [326](../../magpie/internal/plugin/providers.go#L326) |
-| ps | var_spec |  | [327](../../magpie/internal/plugin/providers.go#L327) |
+| ps | var_spec | refreshProviders | [327](../../magpie/internal/plugin/providers.go#L327) |
 | refreshProvidersWithRetry | function_declaration |  | [339](../../magpie/internal/plugin/providers.go#L339) |
 | refreshProvidersInBackground | function_declaration |  | [368](../../magpie/internal/plugin/providers.go#L368) |
 | ProxyFor | var_spec |  | [392](../../magpie/internal/plugin/providers.go#L392) |
 | listingProxies | function_declaration |  | [398](../../magpie/internal/plugin/providers.go#L398) |
 | keepListed | function_declaration |  | [417](../../magpie/internal/plugin/providers.go#L417) |
-| keepUnloaded | function_declaration |  | [458](../../magpie/internal/plugin/providers.go#L458) |

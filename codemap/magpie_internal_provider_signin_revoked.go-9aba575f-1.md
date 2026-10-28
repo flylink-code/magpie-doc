@@ -14,6 +14,9 @@ Source SHA-256: 6fc39aae5dd7e0a43785a40b5d4e5620904e7a0f88ac848a91f0e1b73a509566
 | RevokedAccount | function_declaration |  | [50](../../magpie/internal/provider/signin_revoked.go#L50) |
 | credentialMark | function_declaration |  | [56](../../magpie/internal/provider/signin_revoked.go#L56) |
 | revoked | var_spec |  | [69](../../magpie/internal/provider/signin_revoked.go#L69) |
+| loaded | field_declaration | revoked | [71](../../magpie/internal/provider/signin_revoked.go#L71) |
+| marks | field_declaration | revoked | [72](../../magpie/internal/provider/signin_revoked.go#L72) |
+| accounts | field_declaration | revoked | [73](../../magpie/internal/provider/signin_revoked.go#L73) |
 | revokedKey | function_declaration |  | [76](../../magpie/internal/provider/signin_revoked.go#L76) |
 | revokedLoad | function_declaration |  | [79](../../magpie/internal/provider/signin_revoked.go#L79) |
 | resetRevoked | function_declaration |  | [96](../../magpie/internal/provider/signin_revoked.go#L96) |
@@ -23,4 +26,5 @@ Source SHA-256: 6fc39aae5dd7e0a43785a40b5d4e5620904e7a0f88ac848a91f0e1b73a509566
 | NoteRevokedSignIn | function_declaration |  | [142](../../magpie/internal/provider/signin_revoked.go#L142) |
 | ServedSignIn | function_declaration |  | [179](../../magpie/internal/provider/signin_revoked.go#L179) |
 | sameAuth | function_declaration |  | [204](../../magpie/internal/provider/signin_revoked.go#L204) |
+| ca | var_spec | sameAuth | [205](../../magpie/internal/provider/signin_revoked.go#L205) |
 | revokedLapse | function_declaration |  | [213](../../magpie/internal/provider/signin_revoked.go#L213) |

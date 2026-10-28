@@ -4,30 +4,30 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/install.js) · page 1/1
 
-Source SHA-256: 505e395bb7f49a16bfc3a1f59d39a60543a73cd6353d7c9a8f2bf23d106f0c8d
+Source SHA-256: 0e1c94892ba6522ab997750d6550bbe37122b629ace518add4ed21332090a749
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | source | VariableDeclaration |  | [8](../../plugins/magpie-agent-cursor-bridge/install.js#L8) |
 | manifest | VariableDeclaration |  | [9](../../plugins/magpie-agent-cursor-bridge/install.js#L9) |
 | command | VariableDeclaration |  | [10](../../plugins/magpie-agent-cursor-bridge/install.js#L10) |
-| rooted | VariableDeclaration |  | [15](../../plugins/magpie-agent-cursor-bridge/install.js#L15) |
-| p | VariableDeclaration |  | [16](../../plugins/magpie-agent-cursor-bridge/install.js#L16) |
-| pathed | FunctionDeclaration |  | [17](../../plugins/magpie-agent-cursor-bridge/install.js#L17) |
-| findMagpie | FunctionDeclaration |  | [30](../../plugins/magpie-agent-cursor-bridge/install.js#L30) |
-| candidates | VariableDeclaration | findMagpie | [33](../../plugins/magpie-agent-cursor-bridge/install.js#L33) |
-| c | VariableDeclaration | findMagpie | [38](../../plugins/magpie-agent-cursor-bridge/install.js#L38) |
-| where | VariableDeclaration | findMagpie | [41](../../plugins/magpie-agent-cursor-bridge/install.js#L41) |
-| macPath | VariableDeclaration | findMagpie | [45](../../plugins/magpie-agent-cursor-bridge/install.js#L45) |
-| isSupported | VariableDeclaration |  | [58](../../plugins/magpie-agent-cursor-bridge/install.js#L58) |
-| domain | VariableDeclaration |  | [60](../../plugins/magpie-agent-cursor-bridge/install.js#L60) |
-| magpie | VariableDeclaration |  | [61](../../plugins/magpie-agent-cursor-bridge/install.js#L61) |
-| lock | VariableDeclaration |  | [66](../../plugins/magpie-agent-cursor-bridge/install.js#L66) |
-| isWin | VariableDeclaration |  | [79](../../plugins/magpie-agent-cursor-bridge/install.js#L79) |
-| enginePath | VariableDeclaration |  | [80](../../plugins/magpie-agent-cursor-bridge/install.js#L80) |
-| release | VariableDeclaration |  | [82](../../plugins/magpie-agent-cursor-bridge/install.js#L82) |
-| configHome | VariableDeclaration |  | [83](../../plugins/magpie-agent-cursor-bridge/install.js#L83) |
-| packagePath | VariableDeclaration |  | [84](../../plugins/magpie-agent-cursor-bridge/install.js#L84) |
-| desktopPlugins | VariableDeclaration |  | [85](../../plugins/magpie-agent-cursor-bridge/install.js#L85) |
-| registered | VariableDeclaration |  | [86](../../plugins/magpie-agent-cursor-bridge/install.js#L86) |
-| error | VariableDeclaration |  | [105](../../plugins/magpie-agent-cursor-bridge/install.js#L105) |
+| rooted | VariableDeclaration |  | [16](../../plugins/magpie-agent-cursor-bridge/install.js#L16) |
+| p | VariableDeclaration |  | [17](../../plugins/magpie-agent-cursor-bridge/install.js#L17) |
+| pathed | FunctionDeclaration |  | [18](../../plugins/magpie-agent-cursor-bridge/install.js#L18) |
+| findMagpie | FunctionDeclaration |  | [31](../../plugins/magpie-agent-cursor-bridge/install.js#L31) |
+| candidates | VariableDeclaration | findMagpie | [34](../../plugins/magpie-agent-cursor-bridge/install.js#L34) |
+| c | VariableDeclaration | findMagpie | [39](../../plugins/magpie-agent-cursor-bridge/install.js#L39) |
+| where | VariableDeclaration | findMagpie | [42](../../plugins/magpie-agent-cursor-bridge/install.js#L42) |
+| macPath | VariableDeclaration | findMagpie | [46](../../plugins/magpie-agent-cursor-bridge/install.js#L46) |
+| isSupported | VariableDeclaration |  | [59](../../plugins/magpie-agent-cursor-bridge/install.js#L59) |
+| domain | VariableDeclaration |  | [61](../../plugins/magpie-agent-cursor-bridge/install.js#L61) |
+| magpie | VariableDeclaration |  | [62](../../plugins/magpie-agent-cursor-bridge/install.js#L62) |
+| lock | VariableDeclaration |  | [67](../../plugins/magpie-agent-cursor-bridge/install.js#L67) |
+| isWin | VariableDeclaration |  | [80](../../plugins/magpie-agent-cursor-bridge/install.js#L80) |
+| enginePath | VariableDeclaration |  | [81](../../plugins/magpie-agent-cursor-bridge/install.js#L81) |
+| release | VariableDeclaration |  | [83](../../plugins/magpie-agent-cursor-bridge/install.js#L83) |
+| configHome | VariableDeclaration |  | [84](../../plugins/magpie-agent-cursor-bridge/install.js#L84) |
+| packagePath | VariableDeclaration |  | [85](../../plugins/magpie-agent-cursor-bridge/install.js#L85) |
+| desktopPlugins | VariableDeclaration |  | [86](../../plugins/magpie-agent-cursor-bridge/install.js#L86) |
+| registered | VariableDeclaration |  | [87](../../plugins/magpie-agent-cursor-bridge/install.js#L87) |
+| error | VariableDeclaration |  | [106](../../plugins/magpie-agent-cursor-bridge/install.js#L106) |

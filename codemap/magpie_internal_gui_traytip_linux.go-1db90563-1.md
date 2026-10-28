@@ -17,4 +17,5 @@ Source SHA-256: 9a2d6a8a95317dc121a52e1ba8d71140357402fe4bf495edc648fde91d7bad5d
 | trayClick | function_declaration |  | [74](../../magpie/internal/gui/traytip_linux.go#L74) |
 | setTrayPassive | function_declaration |  | [87](../../magpie/internal/gui/traytip_linux.go#L87) |
 | traySchemeLight | function_declaration |  | [116](../../magpie/internal/gui/traytip_linux.go#L116) |
+| v | var_spec | traySchemeLight | [122](../../magpie/internal/gui/traytip_linux.go#L122) |
 | watchTrayScheme | function_declaration |  | [132](../../magpie/internal/gui/traytip_linux.go#L132) |

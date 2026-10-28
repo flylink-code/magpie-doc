@@ -13,27 +13,35 @@ Source SHA-256: 5f0ff6aa352d9fa541baac6ad4e1ab3a31af5058d1e205c9ecffd940874b15fe
 | scienceVar | const_spec |  | [48](../../magpie/internal/agent/claudescience.go#L48) |
 | scienceBin | var_spec |  | [52](../../magpie/internal/agent/claudescience.go#L52) |
 | scienceSeen | var_spec |  | [62](../../magpie/internal/agent/claudescience.go#L62) |
+| bin | field_declaration | scienceSeen | [64](../../magpie/internal/agent/claudescience.go#L64) |
+| at | field_declaration | scienceSeen | [65](../../magpie/internal/agent/claudescience.go#L65) |
 | findScience | function_declaration |  | [71](../../magpie/internal/agent/claudescience.go#L71) |
+| at | var_spec | findScience | [72](../../magpie/internal/agent/claudescience.go#L72) |
 | scienceRun | var_spec |  | [104](../../magpie/internal/agent/claudescience.go#L104) |
-| scienceStatus | struct_type |  | [117](../../magpie/internal/agent/claudescience.go#L117) |
+| scienceStatus | type_spec |  | [117](../../magpie/internal/agent/claudescience.go#L117) |
 | Running | field_declaration | scienceStatus | [118](../../magpie/internal/agent/claudescience.go#L118) |
 | PID | field_declaration | scienceStatus | [119](../../magpie/internal/agent/claudescience.go#L119) |
 | Port | field_declaration | scienceStatus | [120](../../magpie/internal/agent/claudescience.go#L120) |
 | Version | field_declaration | scienceStatus | [121](../../magpie/internal/agent/claudescience.go#L121) |
 | scienceDir | var_spec |  | [126](../../magpie/internal/agent/claudescience.go#L126) |
 | scienceLock | function_declaration |  | [136](../../magpie/internal/agent/claudescience.go#L136) |
+| st | var_spec | scienceLock | [137](../../magpie/internal/agent/claudescience.go#L137) |
 | scienceState | function_declaration |  | [146](../../magpie/internal/agent/claudescience.go#L146) |
-| scienceMark | struct_type |  | [160](../../magpie/internal/agent/claudescience.go#L160) |
+| st | var_spec | scienceState | [147](../../magpie/internal/agent/claudescience.go#L147) |
+| scienceMark | type_spec |  | [160](../../magpie/internal/agent/claudescience.go#L160) |
 | URL | field_declaration | scienceMark | [161](../../magpie/internal/agent/claudescience.go#L161) |
 | PID | field_declaration | scienceMark | [162](../../magpie/internal/agent/claudescience.go#L162) |
 | Port | field_declaration | scienceMark | [163](../../magpie/internal/agent/claudescience.go#L163) |
 | scienceMarkPath | function_declaration |  | [166](../../magpie/internal/agent/claudescience.go#L166) |
 | readScienceMark | function_declaration |  | [168](../../magpie/internal/agent/claudescience.go#L168) |
+| m | var_spec | readScienceMark | [169](../../magpie/internal/agent/claudescience.go#L169) |
 | scienceWired | function_declaration |  | [179](../../magpie/internal/agent/claudescience.go#L179) |
 | scienceEnv | function_declaration |  | [183](../../magpie/internal/agent/claudescience.go#L183) |
 | scienceMu | var_spec |  | [197](../../magpie/internal/agent/claudescience.go#L197) |
 | scienceRestart | function_declaration |  | [202](../../magpie/internal/agent/claudescience.go#L202) |
 | scienceServe | function_declaration |  | [220](../../magpie/internal/agent/claudescience.go#L220) |
+| st | var_spec | scienceServe | [228](../../magpie/internal/agent/claudescience.go#L228) |
+| err | var_spec | scienceServe | [230](../../magpie/internal/agent/claudescience.go#L230) |
 | scienceWait | var_spec |  | [242](../../magpie/internal/agent/claudescience.go#L242) |
 | scienceOn | function_declaration |  | [246](../../magpie/internal/agent/claudescience.go#L246) |
 | writeScienceMark | function_declaration |  | [285](../../magpie/internal/agent/claudescience.go#L285) |

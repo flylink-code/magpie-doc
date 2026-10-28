@@ -11,6 +11,7 @@ Source SHA-256: a9f3bba27ea2bc99c1bb208737107291ac662d50f4ecf1e3c0657638838da0d2
 | factoryKeyPrefix | const_spec |  | [28](../../magpie/internal/provider/factory_key.go#L28) |
 | factoryKeyRe | var_spec |  | [30](../../magpie/internal/provider/factory_key.go#L30) |
 | factoryKeysIn | function_declaration |  | [34](../../magpie/internal/provider/factory_key.go#L34) |
+| out | var_spec | factoryKeysIn | [35](../../magpie/internal/provider/factory_key.go#L35) |
 | ImportFactoryKeys | function_declaration |  | [51](../../magpie/internal/provider/factory_key.go#L51) |
 | factoryKeyName | function_declaration |  | [71](../../magpie/internal/provider/factory_key.go#L71) |
 | factoryAddKey | function_declaration |  | [78](../../magpie/internal/provider/factory_key.go#L78) |

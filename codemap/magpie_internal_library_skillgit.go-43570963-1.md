@@ -19,16 +19,22 @@ Source SHA-256: be7471166e2b1c174350f52cdd211983354dc2203b3c536e72d6430543642d79
 | gitURL | function_declaration |  | [140](../../magpie/internal/library/skillgit.go#L140) |
 | sameGitRepo | function_declaration |  | [161](../../magpie/internal/library/skillgit.go#L161) |
 | gitHeads | var_spec |  | [170](../../magpie/internal/library/skillgit.go#L170) |
+| m | field_declaration | gitHeads | [172](../../magpie/internal/library/skillgit.go#L172) |
 | gitHeadOf | function_declaration |  | [175](../../magpie/internal/library/skillgit.go#L175) |
 | noteGitHead | function_declaration |  | [181](../../magpie/internal/library/skillgit.go#L181) |
 | errNoGit | function_declaration |  | [193](../../magpie/internal/library/skillgit.go#L193) |
 | gitEnv | function_declaration |  | [201](../../magpie/internal/library/skillgit.go#L201) |
 | runGit | function_declaration |  | [221](../../magpie/internal/library/skillgit.go#L221) |
+| stderr | var_spec | runGit | [224](../../magpie/internal/library/skillgit.go#L224) |
+| ee | var_spec | runGit | [233](../../magpie/internal/library/skillgit.go#L233) |
 | gitError | function_declaration |  | [241](../../magpie/internal/library/skillgit.go#L241) |
 | gitSaid | function_declaration |  | [268](../../magpie/internal/library/skillgit.go#L268) |
+| keep | var_spec | gitSaid | [269](../../magpie/internal/library/skillgit.go#L269) |
 | gitHost | function_declaration |  | [289](../../magpie/internal/library/skillgit.go#L289) |
 | fetchGit | function_declaration |  | [307](../../magpie/internal/library/skillgit.go#L307) |
 | dirSize | function_declaration |  | [357](../../magpie/internal/library/skillgit.go#L357) |
+| n | var_spec | dirSize | [358](../../magpie/internal/library/skillgit.go#L358) |
 | gitRemoteHead | function_declaration |  | [371](../../magpie/internal/library/skillgit.go#L371) |
 | checkGitSkill | function_declaration |  | [414](../../magpie/internal/library/skillgit.go#L414) |
+| err | var_spec | checkGitSkill | [419](../../magpie/internal/library/skillgit.go#L419) |
 | isGit | function_declaration |  | [461](../../magpie/internal/library/skillgit.go#L461) |

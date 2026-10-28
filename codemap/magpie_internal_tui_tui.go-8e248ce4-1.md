@@ -36,7 +36,7 @@ Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
 | modeName | const_spec |  | [66](../../magpie/internal/tui/tui.go#L66) |
 | modeAsk | const_spec |  | [67](../../magpie/internal/tui/tui.go#L67) |
 | modeGroup | const_spec |  | [68](../../magpie/internal/tui/tui.go#L68) |
-| picker | struct_type |  | [71](../../magpie/internal/tui/tui.go#L71) |
+| picker | type_spec |  | [71](../../magpie/internal/tui/tui.go#L71) |
 | crumbs | field_declaration | picker | [72](../../magpie/internal/tui/tui.go#L72) |
 | input | field_declaration | picker | [73](../../magpie/internal/tui/tui.go#L73) |
 | items | field_declaration | picker | [74](../../magpie/internal/tui/tui.go#L74) |
@@ -49,7 +49,7 @@ Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
 | toggle | field_declaration | picker | [85](../../magpie/internal/tui/tui.go#L85) |
 | refetch | field_declaration | picker | [88](../../magpie/internal/tui/tui.go#L88) |
 | empty | field_declaration | picker | [89](../../magpie/internal/tui/tui.go#L89) |
-| model | struct_type |  | [92](../../magpie/internal/tui/tui.go#L92) |
+| model | type_spec |  | [92](../../magpie/internal/tui/tui.go#L92) |
 | agents | field_declaration | model | [93](../../magpie/internal/tui/tui.go#L93) |
 | hidden | field_declaration | model | [94](../../magpie/internal/tui/tui.go#L94) |
 | values | field_declaration | model | [95](../../magpie/internal/tui/tui.go#L95) |
@@ -61,7 +61,6 @@ Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
 | flash | field_declaration | model | [101](../../magpie/internal/tui/tui.go#L101) |
 | flashOK | field_declaration | model | [102](../../magpie/internal/tui/tui.go#L102) |
 | w | field_declaration | model | [103](../../magpie/internal/tui/tui.go#L103) |
-| h | field_declaration | model | [103](../../magpie/internal/tui/tui.go#L103) |
 | syncing | field_declaration | model | [104](../../magpie/internal/tui/tui.go#L104) |
 | failover | field_declaration | model | [108](../../magpie/internal/tui/tui.go#L108) |
 | page | field_declaration | model | [110](../../magpie/internal/tui/tui.go#L110) |
@@ -97,14 +96,15 @@ Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
 | libView | field_declaration | model | [140](../../magpie/internal/tui/tui.go#L140) |
 | libAgents | field_declaration | model | [141](../../magpie/internal/tui/tui.go#L141) |
 | libErr | field_declaration | model | [142](../../magpie/internal/tui/tui.go#L142) |
-| flashMsg | struct_type |  | [145](../../magpie/internal/tui/tui.go#L145) |
+| flashMsg | type_spec |  | [145](../../magpie/internal/tui/tui.go#L145) |
 | text | field_declaration | flashMsg | [146](../../magpie/internal/tui/tui.go#L146) |
 | ok | field_declaration | flashMsg | [147](../../magpie/internal/tui/tui.go#L147) |
-| syncedMsg | struct_type |  | [150](../../magpie/internal/tui/tui.go#L150) |
+| syncedMsg | type_spec |  | [150](../../magpie/internal/tui/tui.go#L150) |
 | err | field_declaration | syncedMsg | [150](../../magpie/internal/tui/tui.go#L150) |
 | Run | function_declaration |  | [156](../../magpie/internal/tui/tui.go#L156) |
 | newModel | function_declaration |  | [176](../../magpie/internal/tui/tui.go#L176) |
-| reload | method_declaration | *model | [197](../../magpie/internal/tui/tui.go#L197) |
-| goTo | method_declaration | *model | [225](../../magpie/internal/tui/tui.go#L225) |
-| Init | method_declaration | model | [239](../../magpie/internal/tui/tui.go#L239) |
-| modelsMsg | struct_type |  | [251](../../magpie/internal/tui/tui.go#L251) |
+| set | var_spec | newModel | [181](../../magpie/internal/tui/tui.go#L181) |
+| reload | method_declaration |  | [197](../../magpie/internal/tui/tui.go#L197) |
+| goTo | method_declaration |  | [225](../../magpie/internal/tui/tui.go#L225) |
+| Init | method_declaration |  | [239](../../magpie/internal/tui/tui.go#L239) |
+| modelsMsg | type_spec |  | [251](../../magpie/internal/tui/tui.go#L251) |

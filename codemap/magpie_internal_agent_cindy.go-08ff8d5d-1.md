@@ -9,7 +9,7 @@ Source SHA-256: 56669204d649fe39594772c1744887b7c59764b687534b67946ebc0004a9b8b2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CindyScheme | const_spec |  | [28](../../magpie/internal/agent/cindy.go#L28) |
-| cindyEndpoint | struct_type |  | [30](../../magpie/internal/agent/cindy.go#L30) |
+| cindyEndpoint | type_spec |  | [30](../../magpie/internal/agent/cindy.go#L30) |
 | Protocol | field_declaration | cindyEndpoint | [31](../../magpie/internal/agent/cindy.go#L31) |
 | BaseURL | field_declaration | cindyEndpoint | [32](../../magpie/internal/agent/cindy.go#L32) |
 | Targets | field_declaration | cindyEndpoint | [33](../../magpie/internal/agent/cindy.go#L33) |
@@ -21,6 +21,8 @@ Source SHA-256: 56669204d649fe39594772c1744887b7c59764b687534b67946ebc0004a9b8b2
 | Auth | field_declaration | CindyLink | [46](../../magpie/internal/agent/cindy.go#L46) |
 | Endpoints | field_declaration | CindyLink | [47](../../magpie/internal/agent/cindy.go#L47) |
 | cindyHas | function_declaration |  | [66](../../magpie/internal/agent/cindy.go#L66) |
+| n | var_spec | cindyHas | [77](../../magpie/internal/agent/cindy.go#L77) |
 | cindyDirs | function_declaration |  | [89](../../magpie/internal/agent/cindy.go#L89) |
+| have | var_spec | cindyDirs | [94](../../magpie/internal/agent/cindy.go#L94) |
 | cindyAdded | function_declaration |  | [110](../../magpie/internal/agent/cindy.go#L110) |
 | cindy | function_declaration |  | [128](../../magpie/internal/agent/cindy.go#L128) |

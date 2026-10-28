@@ -9,10 +9,11 @@ Source SHA-256: 6f5f19ca954b0ee99a8765496424ce0181893c5e70c3c41a9f5342927b3f6d5b
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | MinBun | const_spec |  | [14](../../magpie/internal/testenv/bun.go#L14) |
-| bunRun | struct_type |  | [18](../../magpie/internal/testenv/bun.go#L18) |
+| bunRun | type_spec |  | [18](../../magpie/internal/testenv/bun.go#L18) |
 | once | field_declaration | bunRun | [19](../../magpie/internal/testenv/bun.go#L19) |
 | version | field_declaration | bunRun | [20](../../magpie/internal/testenv/bun.go#L20) |
 | bunsRun | var_spec |  | [24](../../magpie/internal/testenv/bun.go#L24) |
 | Bun | function_declaration |  | [39](../../magpie/internal/testenv/bun.go#L39) |
 | older | function_declaration |  | [59](../../magpie/internal/testenv/bun.go#L59) |
 | semver | function_declaration |  | [76](../../magpie/internal/testenv/bun.go#L76) |
+| n | var_spec | semver | [77](../../magpie/internal/testenv/bun.go#L77) |

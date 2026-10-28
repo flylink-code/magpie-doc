@@ -11,5 +11,7 @@ Source SHA-256: 88658d56b1dc134f587935852344db290d3e4f409b7067e510641ae6accb0cb6
 | visibleUsage | const_spec |  | [17](../../magpie/internal/cli/visible_cli.go#L17) |
 | visibleNames | function_declaration |  | [40](../../magpie/internal/cli/visible_cli.go#L40) |
 | visibleCmd | function_declaration |  | [51](../../magpie/internal/cli/visible_cli.go#L51) |
+| says | var_spec | visibleCmd | [70](../../magpie/internal/cli/visible_cli.go#L70) |
 | orNone | function_declaration |  | [130](../../magpie/internal/cli/visible_cli.go#L130) |
 | explainHidden | function_declaration |  | [141](../../magpie/internal/cli/visible_cli.go#L141) |
+| order | var_spec | explainHidden | [163](../../magpie/internal/cli/visible_cli.go#L163) |

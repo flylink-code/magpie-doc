@@ -9,4 +9,5 @@ Source SHA-256: bf00e328b7af38e7753b5f64f8e033b13c57d2fff6dab7c85015d6f8a35eb029
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | probeGroup | function_declaration |  | [14](../../magpie/internal/proc/probe_other.go#L14) |
+| g | var_spec | probeGroup | [18](../../magpie/internal/proc/probe_other.go#L18) |
 | killWait | function_declaration |  | [27](../../magpie/internal/proc/probe_other.go#L27) |

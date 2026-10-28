@@ -9,7 +9,7 @@ Source SHA-256: 8b6f49bb1e4217cefd36ca8b8d96fa5bfd33fc08cff6f69b7bea00d910948e07
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [31](../../magpie/internal/agent/plugged.go#L31) |
-| pluggedStash | struct_type |  | [48](../../magpie/internal/agent/plugged.go#L48) |
+| pluggedStash | type_spec |  | [48](../../magpie/internal/agent/plugged.go#L48) |
 | Had | field_declaration | pluggedStash | [49](../../magpie/internal/agent/plugged.go#L49) |
 | Ref | field_declaration | pluggedStash | [50](../../magpie/internal/agent/plugged.go#L50) |
 | Mark | field_declaration | pluggedStash | [51](../../magpie/internal/agent/plugged.go#L51) |
@@ -20,18 +20,26 @@ Source SHA-256: 8b6f49bb1e4217cefd36ca8b8d96fa5bfd33fc08cff6f69b7bea00d910948e07
 | PluginErrors | function_declaration |  | [65](../../magpie/internal/agent/plugged.go#L65) |
 | PluginAgentOf | function_declaration |  | [73](../../magpie/internal/agent/plugged.go#L73) |
 | pluggedAgents | function_declaration |  | [85](../../magpie/internal/agent/plugged.go#L85) |
+| out | var_spec | pluggedAgents | [102](../../magpie/internal/agent/plugged.go#L102) |
 | PluginPath | function_declaration |  | [117](../../magpie/internal/agent/plugged.go#L117) |
 | pluggedPath | function_declaration |  | [124](../../magpie/internal/agent/plugged.go#L124) |
-| pluggedFile | struct_type |  | [138](../../magpie/internal/agent/plugged.go#L138) |
+| pluggedFile | type_spec |  | [138](../../magpie/internal/agent/plugged.go#L138) |
 | path | field_declaration | pluggedFile | [139](../../magpie/internal/agent/plugged.go#L139) |
-| format | field_declaration | pluggedFile | [139](../../magpie/internal/agent/plugged.go#L139) |
-| get | method_declaration | pluggedFile | [143](../../magpie/internal/agent/plugged.go#L143) |
-| raw | method_declaration | pluggedFile | [154](../../magpie/internal/agent/plugged.go#L154) |
-| back | method_declaration | pluggedFile | [170](../../magpie/internal/agent/plugged.go#L170) |
-| set | method_declaration | pluggedFile | [180](../../magpie/internal/agent/plugged.go#L180) |
-| del | method_declaration | pluggedFile | [203](../../magpie/internal/agent/plugged.go#L203) |
-| wired | method_declaration | pluggedFile | [218](../../magpie/internal/agent/plugged.go#L218) |
-| restore | method_declaration | pluggedFile | [228](../../magpie/internal/agent/plugged.go#L228) |
+| get | method_declaration |  | [143](../../magpie/internal/agent/plugged.go#L143) |
+| raw | method_declaration |  | [154](../../magpie/internal/agent/plugged.go#L154) |
+| back | method_declaration |  | [170](../../magpie/internal/agent/plugged.go#L170) |
+| set | method_declaration |  | [180](../../magpie/internal/agent/plugged.go#L180) |
+| del | method_declaration |  | [203](../../magpie/internal/agent/plugged.go#L203) |
+| wired | method_declaration |  | [218](../../magpie/internal/agent/plugged.go#L218) |
+| restore | method_declaration |  | [228](../../magpie/internal/agent/plugged.go#L228) |
+| del | var_spec | restore | [229](../../magpie/internal/agent/plugged.go#L229) |
+| kvs | var_spec | restore | [230](../../magpie/internal/agent/plugged.go#L230) |
 | plugged | function_declaration |  | [249](../../magpie/internal/agent/plugged.go#L249) |
+| st | var_spec | plugged | [256](../../magpie/internal/agent/plugged.go#L256) |
+| model | var_spec | plugged | [277](../../magpie/internal/agent/plugged.go#L277) |
+| models | var_spec | plugged | [278](../../magpie/internal/agent/plugged.go#L278) |
+| kvs | var_spec | plugged | [315](../../magpie/internal/agent/plugged.go#L315) |
+| del | var_spec | plugged | [353](../../magpie/internal/agent/plugged.go#L353) |
+| kvs | var_spec | plugged | [398](../../magpie/internal/agent/plugged.go#L398) |
 | pluggedIcon | function_declaration |  | [475](../../magpie/internal/agent/plugged.go#L475) |
 | sortedKeys | function_declaration |  | [486](../../magpie/internal/agent/plugged.go#L486) |

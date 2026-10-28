@@ -10,11 +10,12 @@ Source SHA-256: 1822a6a88a330e86377244850bcd39f4298c7f723509667da236f46bc0932c60
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [26](../../magpie/internal/agent/plugged_gone.go#L26) |
 | UnwirePlugin | function_declaration |  | [37](../../magpie/internal/agent/plugged_gone.go#L37) |
+| a | var_spec | UnwirePlugin | [38](../../magpie/internal/agent/plugged_gone.go#L38) |
 | pluggedOff | function_declaration |  | [64](../../magpie/internal/agent/plugged_gone.go#L64) |
-| Gone | struct_type |  | [85](../../magpie/internal/agent/plugged_gone.go#L85) |
+| Gone | type_spec |  | [85](../../magpie/internal/agent/plugged_gone.go#L85) |
 | Put | field_declaration | Gone | [86](../../magpie/internal/agent/plugged_gone.go#L86) |
-| Off | field_declaration | Gone | [86](../../magpie/internal/agent/plugged_gone.go#L86) |
 | PluginOff | field_declaration | Gone | [87](../../magpie/internal/agent/plugged_gone.go#L87) |
 | RestoreGone | function_declaration |  | [95](../../magpie/internal/agent/plugged_gone.go#L95) |
 | restoreLeft | function_declaration |  | [122](../../magpie/internal/agent/plugged_gone.go#L122) |
-| holds | method_declaration | pluggedFile | [172](../../magpie/internal/agent/plugged_gone.go#L172) |
+| st | var_spec | restoreLeft | [134](../../magpie/internal/agent/plugged_gone.go#L134) |
+| holds | method_declaration |  | [172](../../magpie/internal/agent/plugged_gone.go#L172) |

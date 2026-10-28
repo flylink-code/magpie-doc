@@ -8,7 +8,7 @@ Source SHA-256: 967023ff8c464fd3dfa53b631766fd697a1f6a42157d3326b386b62dc5b86e24
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| balanceSource | struct_type |  | [30](../../magpie/internal/provider/balance.go#L30) |
+| balanceSource | type_spec |  | [30](../../magpie/internal/provider/balance.go#L30) |
 | url | field_declaration | balanceSource | [31](../../magpie/internal/provider/balance.go#L31) |
 | read | field_declaration | balanceSource | [32](../../magpie/internal/provider/balance.go#L32) |
 | token | field_declaration | balanceSource | [35](../../magpie/internal/provider/balance.go#L35) |
@@ -24,6 +24,7 @@ Source SHA-256: 967023ff8c464fd3dfa53b631766fd697a1f6a42157d3326b386b62dc5b86e24
 | sub2APIProfile | const_spec |  | [134](../../magpie/internal/provider/balance.go#L134) |
 | sub2APIKeyUsage | const_spec |  | [137](../../magpie/internal/provider/balance.go#L137) |
 | tokenQueries | var_spec |  | [143](../../magpie/internal/provider/balance.go#L143) |
+| account | field_declaration | tokenQueries | [143](../../magpie/internal/provider/balance.go#L143) |
 | keyQueryOf | function_declaration |  | [157](../../magpie/internal/provider/balance.go#L157) |
 | BalanceQuery | function_declaration |  | [190](../../magpie/internal/provider/balance.go#L190) |
 | balanceURLPath | function_declaration |  | [196](../../magpie/internal/provider/balance.go#L196) |
@@ -31,80 +32,79 @@ Source SHA-256: 967023ff8c464fd3dfa53b631766fd697a1f6a42157d3326b386b62dc5b86e24
 | errSub2APIKeyUsageWithToken | function_declaration |  | [218](../../magpie/internal/provider/balance.go#L218) |
 | errKeyQueryWithToken | function_declaration |  | [229](../../magpie/internal/provider/balance.go#L229) |
 | balanceRefusal | function_declaration |  | [236](../../magpie/internal/provider/balance.go#L236) |
-| Success | field_declaration | balanceRefusal | [238](../../magpie/internal/provider/balance.go#L238) |
-| Message | field_declaration | balanceRefusal | [239](../../magpie/internal/provider/balance.go#L239) |
+| r | var_spec | balanceRefusal | [237](../../magpie/internal/provider/balance.go#L237) |
+| Success | field_declaration | balanceRefusal::r | [238](../../magpie/internal/provider/balance.go#L238) |
+| Message | field_declaration | balanceRefusal::r | [239](../../magpie/internal/provider/balance.go#L239) |
 | newAPIUserHint | function_declaration |  | [252](../../magpie/internal/provider/balance.go#L252) |
 | TakesBalanceToken | function_declaration |  | [261](../../magpie/internal/provider/balance.go#L261) |
 | money | function_declaration |  | [274](../../magpie/internal/provider/balance.go#L274) |
 | currencySign | function_declaration |  | [278](../../magpie/internal/provider/balance.go#L278) |
 | number | function_declaration |  | [291](../../magpie/internal/provider/balance.go#L291) |
-| deepSeekAmount | struct_type |  | [308](../../magpie/internal/provider/balance.go#L308) |
+| deepSeekAmount | type_spec |  | [308](../../magpie/internal/provider/balance.go#L308) |
 | code | field_declaration | deepSeekAmount | [309](../../magpie/internal/provider/balance.go#L309) |
 | total | field_declaration | deepSeekAmount | [310](../../magpie/internal/provider/balance.go#L310) |
-| granted | field_declaration | deepSeekAmount | [310](../../magpie/internal/provider/balance.go#L310) |
-| topped | field_declaration | deepSeekAmount | [310](../../magpie/internal/provider/balance.go#L310) |
 | split | field_declaration | deepSeekAmount | [311](../../magpie/internal/provider/balance.go#L311) |
 | deepSeekAmounts | function_declaration |  | [315](../../magpie/internal/provider/balance.go#L315) |
-| Infos | field_declaration | deepSeekAmounts | [317](../../magpie/internal/provider/balance.go#L317) |
-| Currency | field_declaration | deepSeekAmounts | [318](../../magpie/internal/provider/balance.go#L318) |
-| Total | field_declaration | deepSeekAmounts | [319](../../magpie/internal/provider/balance.go#L319) |
-| Granted | field_declaration | deepSeekAmounts | [320](../../magpie/internal/provider/balance.go#L320) |
-| Topped | field_declaration | deepSeekAmounts | [321](../../magpie/internal/provider/balance.go#L321) |
+| r | var_spec | deepSeekAmounts | [316](../../magpie/internal/provider/balance.go#L316) |
+| Infos | field_declaration | deepSeekAmounts::r | [317](../../magpie/internal/provider/balance.go#L317) |
+| Currency | field_declaration | deepSeekAmounts::r::Infos | [318](../../magpie/internal/provider/balance.go#L318) |
+| Total | field_declaration | deepSeekAmounts::r::Infos | [319](../../magpie/internal/provider/balance.go#L319) |
+| Granted | field_declaration | deepSeekAmounts::r::Infos | [320](../../magpie/internal/provider/balance.go#L320) |
+| Topped | field_declaration | deepSeekAmounts::r::Infos | [321](../../magpie/internal/provider/balance.go#L321) |
+| amts | var_spec | deepSeekAmounts | [327](../../magpie/internal/provider/balance.go#L327) |
 | readDeepSeek | function_declaration |  | [362](../../magpie/internal/provider/balance.go#L362) |
 | SplitGranted | const_spec |  | [377](../../magpie/internal/provider/balance.go#L377) |
 | SplitTopUp | const_spec |  | [378](../../magpie/internal/provider/balance.go#L378) |
 | SplitWords | function_declaration |  | [383](../../magpie/internal/provider/balance.go#L383) |
 | readDeepSeekSplit | function_declaration |  | [395](../../magpie/internal/provider/balance.go#L395) |
+| out | var_spec | readDeepSeekSplit | [400](../../magpie/internal/provider/balance.go#L400) |
 | readMoonshot | function_declaration |  | [412](../../magpie/internal/provider/balance.go#L412) |
-| Data | field_declaration | readMoonshot | [415](../../magpie/internal/provider/balance.go#L415) |
-| Available | field_declaration | readMoonshot | [416](../../magpie/internal/provider/balance.go#L416) |
+| r | var_spec | readMoonshot | [414](../../magpie/internal/provider/balance.go#L414) |
+| Data | field_declaration | readMoonshot::r | [415](../../magpie/internal/provider/balance.go#L415) |
+| Available | field_declaration | readMoonshot::r::Data | [416](../../magpie/internal/provider/balance.go#L416) |
 | readOpenRouter | function_declaration |  | [431](../../magpie/internal/provider/balance.go#L431) |
-| Data | field_declaration | readOpenRouter | [433](../../magpie/internal/provider/balance.go#L433) |
-| Credits | field_declaration | readOpenRouter | [434](../../magpie/internal/provider/balance.go#L434) |
-| Usage | field_declaration | readOpenRouter | [435](../../magpie/internal/provider/balance.go#L435) |
+| r | var_spec | readOpenRouter | [432](../../magpie/internal/provider/balance.go#L432) |
+| Data | field_declaration | readOpenRouter::r | [433](../../magpie/internal/provider/balance.go#L433) |
+| Credits | field_declaration | readOpenRouter::r::Data | [434](../../magpie/internal/provider/balance.go#L434) |
+| Usage | field_declaration | readOpenRouter::r::Data | [435](../../magpie/internal/provider/balance.go#L435) |
 | readSiliconFlow | function_declaration |  | [450](../../magpie/internal/provider/balance.go#L450) |
-| Data | field_declaration | readSiliconFlow | [453](../../magpie/internal/provider/balance.go#L453) |
-| Total | field_declaration | readSiliconFlow | [454](../../magpie/internal/provider/balance.go#L454) |
+| r | var_spec | readSiliconFlow | [452](../../magpie/internal/provider/balance.go#L452) |
+| Data | field_declaration | readSiliconFlow::r | [453](../../magpie/internal/provider/balance.go#L453) |
+| Total | field_declaration | readSiliconFlow::r::Data | [454](../../magpie/internal/provider/balance.go#L454) |
 | siliconFlowGone | function_declaration |  | [474](../../magpie/internal/provider/balance.go#L474) |
-| Code | field_declaration | siliconFlowGone | [477](../../magpie/internal/provider/balance.go#L477) |
+| r | var_spec | siliconFlowGone | [476](../../magpie/internal/provider/balance.go#L476) |
+| Code | field_declaration | siliconFlowGone::r | [477](../../magpie/internal/provider/balance.go#L477) |
 | readStepFun | function_declaration |  | [492](../../magpie/internal/provider/balance.go#L492) |
-| Balance | field_declaration | readStepFun | [495](../../magpie/internal/provider/balance.go#L495) |
+| r | var_spec | readStepFun | [494](../../magpie/internal/provider/balance.go#L494) |
+| Balance | field_declaration | readStepFun::r | [495](../../magpie/internal/provider/balance.go#L495) |
 | readAiHubMix | function_declaration |  | [512](../../magpie/internal/provider/balance.go#L512) |
-| Remain | field_declaration | readAiHubMix | [514](../../magpie/internal/provider/balance.go#L514) |
+| r | var_spec | readAiHubMix | [513](../../magpie/internal/provider/balance.go#L513) |
+| Remain | field_declaration | readAiHubMix::r | [514](../../magpie/internal/provider/balance.go#L514) |
 | readCommandCode | function_declaration |  | [534](../../magpie/internal/provider/balance.go#L534) |
+| c | var_spec | readCommandCode | [535](../../magpie/internal/provider/balance.go#L535) |
 | readAiHubMixAccount | function_declaration |  | [548](../../magpie/internal/provider/balance.go#L548) |
-| Success | field_declaration | readAiHubMixAccount | [550](../../magpie/internal/provider/balance.go#L550) |
-| Message | field_declaration | readAiHubMixAccount | [551](../../magpie/internal/provider/balance.go#L551) |
-| Data | field_declaration | readAiHubMixAccount | [552](../../magpie/internal/provider/balance.go#L552) |
-| Quota | field_declaration | readAiHubMixAccount | [553](../../magpie/internal/provider/balance.go#L553) |
+| r | var_spec | readAiHubMixAccount | [549](../../magpie/internal/provider/balance.go#L549) |
+| Success | field_declaration | readAiHubMixAccount::r | [550](../../magpie/internal/provider/balance.go#L550) |
+| Message | field_declaration | readAiHubMixAccount::r | [551](../../magpie/internal/provider/balance.go#L551) |
+| Data | field_declaration | readAiHubMixAccount::r | [552](../../magpie/internal/provider/balance.go#L552) |
+| Quota | field_declaration | readAiHubMixAccount::r::Data | [553](../../magpie/internal/provider/balance.go#L553) |
 | readBalancePath | function_declaration |  | [586](../../magpie/internal/provider/balance.go#L586) |
-| BalancePart | struct_type |  | [598](../../magpie/internal/provider/balance.go#L598) |
+| BalancePart | type_spec |  | [598](../../magpie/internal/provider/balance.go#L598) |
 | Label | field_declaration | BalancePart | [599](../../magpie/internal/provider/balance.go#L599) |
 | Text | field_declaration | BalancePart | [600](../../magpie/internal/provider/balance.go#L600) |
 | Percent | field_declaration | BalancePart | [601](../../magpie/internal/provider/balance.go#L601) |
 | Error | field_declaration | BalancePart | [603](../../magpie/internal/provider/balance.go#L603) |
 | joinBalanceParts | function_declaration |  | [608](../../magpie/internal/provider/balance.go#L608) |
 | readBalanceParts | function_declaration |  | [621](../../magpie/internal/provider/balance.go#L621) |
+| out | var_spec | readBalanceParts | [629](../../magpie/internal/provider/balance.go#L629) |
+| first | var_spec | readBalanceParts | [630](../../magpie/internal/provider/balance.go#L630) |
 | readBalanceOne | function_declaration |  | [669](../../magpie/internal/provider/balance.go#L669) |
+| reply | var_spec | readBalanceOne | [685](../../magpie/internal/provider/balance.go#L685) |
 | balanceShare | function_declaration |  | [716](../../magpie/internal/provider/balance.go#L716) |
 | balanceAmount | function_declaration |  | [724](../../magpie/internal/provider/balance.go#L724) |
-| balanceExpr | struct_type |  | [740](../../magpie/internal/provider/balance.go#L740) |
+| balanceExpr | type_spec |  | [740](../../magpie/internal/provider/balance.go#L740) |
 | src | field_declaration | balanceExpr | [741](../../magpie/internal/provider/balance.go#L741) |
 | i | field_declaration | balanceExpr | [742](../../magpie/internal/provider/balance.go#L742) |
 | reply | field_declaration | balanceExpr | [743](../../magpie/internal/provider/balance.go#L743) |
-| balanceVal | struct_type |  | [748](../../magpie/internal/provider/balance.go#L748) |
+| balanceVal | type_spec |  | [748](../../magpie/internal/provider/balance.go#L748) |
 | n | field_declaration | balanceVal | [749](../../magpie/internal/provider/balance.go#L749) |
-| ns | field_declaration | balanceVal | [750](../../magpie/internal/provider/balance.go#L750) |
-| many | field_declaration | balanceVal | [751](../../magpie/internal/provider/balance.go#L751) |
-| items | field_declaration | balanceVal | [754](../../magpie/internal/provider/balance.go#L754) |
-| balanceFuncs | var_spec |  | [758](../../magpie/internal/provider/balance.go#L758) |
-| balanceExtreme | function_declaration |  | [781](../../magpie/internal/provider/balance.go#L781) |
-| space | method_declaration | *balanceExpr | [794](../../magpie/internal/provider/balance.go#L794) |
-| lone | method_declaration | *balanceExpr | [801](../../magpie/internal/provider/balance.go#L801) |
-| number | method_declaration | *balanceExpr | [806](../../magpie/internal/provider/balance.go#L806) |
-| sum | method_declaration | *balanceExpr | [817](../../magpie/internal/provider/balance.go#L817) |
-| product | method_declaration | *balanceExpr | [834](../../magpie/internal/provider/balance.go#L834) |
-| balanceOp | function_declaration |  | [853](../../magpie/internal/provider/balance.go#L853) |
-| unary | method_declaration | *balanceExpr | [892](../../magpie/internal/provider/balance.go#L892) |
-| closed | method_declaration | *balanceExpr | [989](../../magpie/internal/provider/balance.go#L989) |
-| at | method_declaration | *balanceExpr | [1002](../../magpie/internal/provider/balance.go#L1002) |

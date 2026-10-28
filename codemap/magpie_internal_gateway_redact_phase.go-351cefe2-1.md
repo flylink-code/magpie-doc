@@ -9,14 +9,16 @@ Source SHA-256: 14bcafeaac63180111b193928530718fc5a9f8b1ec588b706c335b711708bd85
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | phaseRedact | const_spec |  | [15](../../magpie/internal/gateway/redact_phase.go#L15) |
-| redaction | struct_type |  | [20](../../magpie/internal/gateway/redact_phase.go#L20) |
+| redaction | type_spec |  | [20](../../magpie/internal/gateway/redact_phase.go#L20) |
 | mu | field_declaration | redaction | [21](../../magpie/internal/gateway/redact_phase.go#L21) |
 | now | field_declaration | redaction | [22](../../magpie/internal/gateway/redact_phase.go#L22) |
 | since | field_declaration | redaction | [23](../../magpie/internal/gateway/redact_phase.go#L23) |
 | spent | field_declaration | redaction | [24](../../magpie/internal/gateway/redact_phase.go#L24) |
 | restore | field_declaration | redaction | [25](../../magpie/internal/gateway/redact_phase.go#L25) |
 | noteRedacting | function_declaration |  | [34](../../magpie/internal/gateway/redact_phase.go#L34) |
-| redacting | method_declaration | *inflight | [67](../../magpie/internal/gateway/redact_phase.go#L67) |
-| maskedFor | method_declaration | *inflight | [75](../../magpie/internal/gateway/redact_phase.go#L75) |
+| once | var_spec | noteRedacting | [47](../../magpie/internal/gateway/redact_phase.go#L47) |
+| restore | var_spec | noteRedacting | [51](../../magpie/internal/gateway/redact_phase.go#L51) |
+| redacting | method_declaration |  | [67](../../magpie/internal/gateway/redact_phase.go#L67) |
+| maskedFor | method_declaration |  | [75](../../magpie/internal/gateway/redact_phase.go#L75) |
 | maskingMs | function_declaration |  | [91](../../magpie/internal/gateway/redact_phase.go#L91) |
-| showRedacting | method_declaration | *inflight | [101](../../magpie/internal/gateway/redact_phase.go#L101) |
+| showRedacting | method_declaration |  | [101](../../magpie/internal/gateway/redact_phase.go#L101) |

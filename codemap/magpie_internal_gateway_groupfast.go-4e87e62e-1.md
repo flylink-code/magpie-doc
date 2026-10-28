@@ -11,9 +11,9 @@ Source SHA-256: 75634ff5e1992a384ed55c08982f092d9fc31ebb156e0be48efccb4571cc5bfd
 | claudeFastBeta | const_spec |  | [11](../../magpie/internal/gateway/groupfast.go#L11) |
 | withFast | function_declaration |  | [23](../../magpie/internal/gateway/groupfast.go#L23) |
 | fastPick | function_declaration |  | [39](../../magpie/internal/gateway/groupfast.go#L39) |
-| ownFastKey | struct_type |  | [59](../../magpie/internal/gateway/groupfast.go#L59) |
+| ownFastKey | type_spec |  | [59](../../magpie/internal/gateway/groupfast.go#L59) |
 | withOwnFast | function_declaration |  | [61](../../magpie/internal/gateway/groupfast.go#L61) |
 | isOwnFast | function_declaration |  | [65](../../magpie/internal/gateway/groupfast.go#L65) |
-| ultraKey | struct_type |  | [73](../../magpie/internal/gateway/groupfast.go#L73) |
+| ultraKey | type_spec |  | [73](../../magpie/internal/gateway/groupfast.go#L73) |
 | withUltra | function_declaration |  | [75](../../magpie/internal/gateway/groupfast.go#L75) |
 | isUltra | function_declaration |  | [79](../../magpie/internal/gateway/groupfast.go#L79) |

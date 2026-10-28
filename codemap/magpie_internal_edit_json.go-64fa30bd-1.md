@@ -8,7 +8,7 @@ Source SHA-256: ce8c88e92c8ef3085cd144416b227b8610a0053e1d4462c4d9485eade2651af7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| KV | struct_type |  | [14](../../magpie/internal/edit/json.go#L14) |
+| KV | type_spec |  | [14](../../magpie/internal/edit/json.go#L14) |
 | Path | field_declaration | KV | [15](../../magpie/internal/edit/json.go#L15) |
 | Value | field_declaration | KV | [16](../../magpie/internal/edit/json.go#L16) |
 | GetJSON | function_declaration |  | [20](../../magpie/internal/edit/json.go#L20) |
@@ -16,9 +16,11 @@ Source SHA-256: ce8c88e92c8ef3085cd144416b227b8610a0053e1d4462c4d9485eade2651af7
 | SetJSON | function_declaration |  | [49](../../magpie/internal/edit/json.go#L49) |
 | keepCRLF | function_declaration |  | [70](../../magpie/internal/edit/json.go#L70) |
 | PatchJSON | function_declaration |  | [81](../../magpie/internal/edit/json.go#L81) |
+| err | var_spec | PatchJSON | [87](../../magpie/internal/edit/json.go#L87) |
 | setJSONBytes | function_declaration |  | [106](../../magpie/internal/edit/json.go#L106) |
 | nest | function_declaration |  | [133](../../magpie/internal/edit/json.go#L133) |
 | splitPath | function_declaration |  | [143](../../magpie/internal/edit/json.go#L143) |
+| parts | var_spec | splitPath | [144](../../magpie/internal/edit/json.go#L144) |
 | unescapeKey | function_declaration |  | [159](../../magpie/internal/edit/json.go#L159) |
 | splice | function_declaration |  | [161](../../magpie/internal/edit/json.go#L161) |
 | insertKey | function_declaration |  | [171](../../magpie/internal/edit/json.go#L171) |
@@ -29,3 +31,4 @@ Source SHA-256: ce8c88e92c8ef3085cd144416b227b8610a0053e1d4462c4d9485eade2651af7
 | DelJSON | function_declaration |  | [269](../../magpie/internal/edit/json.go#L269) |
 | pastLineEnd | function_declaration |  | [293](../../magpie/internal/edit/json.go#L293) |
 | delJSONBytes | function_declaration |  | [303](../../magpie/internal/edit/json.go#L303) |
+| out | var_spec | delJSONBytes | [336](../../magpie/internal/edit/json.go#L336) |

@@ -10,4 +10,3 @@ Source SHA-256: 51f03d04ad2d3a429220ce4838a7883b8d6e4b0d452f949638babe609cc750cf
 | --- | --- | --- | ---: |
 | Name | const_spec |  | [16](../../magpie/internal/webview2env/webview2env.go#L16) |
 | Args | var_spec |  | [19](../../magpie/internal/webview2env/webview2env.go#L19) |
-| _ | var_spec |  | [19](../../magpie/internal/webview2env/webview2env.go#L19) |

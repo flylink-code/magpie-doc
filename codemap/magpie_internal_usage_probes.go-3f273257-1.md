@@ -9,10 +9,12 @@ Source SHA-256: 05be58068031213502487a9f14693255bf44307a92a1ec399f317ee80266c28c
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | SourceProbe | const_spec |  | [17](../../magpie/internal/usage/probes.go#L17) |
-| IsProbe | method_declaration | Record | [20](../../magpie/internal/usage/probes.go#L20) |
-| IsProbe | method_declaration | Row | [24](../../magpie/internal/usage/probes.go#L24) |
-| probeRow | struct_type |  | [28](../../magpie/internal/usage/probes.go#L28) |
+| IsProbe | method_declaration |  | [20](../../magpie/internal/usage/probes.go#L20) |
+| IsProbe | method_declaration |  | [24](../../magpie/internal/usage/probes.go#L24) |
+| probeRow | type_spec |  | [28](../../magpie/internal/usage/probes.go#L28) |
 | off | field_declaration | probeRow | [30](../../magpie/internal/usage/probes.go#L30) |
 | init | function_declaration |  | [33](../../magpie/internal/usage/probes.go#L33) |
 | clipProbeError | function_declaration |  | [43](../../magpie/internal/usage/probes.go#L43) |
+| most | const_spec | clipProbeError | [44](../../magpie/internal/usage/probes.go#L44) |
 | probeChunk | function_declaration |  | [60](../../magpie/internal/usage/probes.go#L60) |
+| c | var_spec | probeChunk | [61](../../magpie/internal/usage/probes.go#L61) |

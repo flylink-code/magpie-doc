@@ -12,4 +12,6 @@ Source SHA-256: 921705d19757df3b5f4c4766e77718ff4157de010da8cb752f12123241ff4019
 | morphKeys | var_spec |  | [32](../../magpie/internal/agent/morph.go#L32) |
 | morph | function_declaration |  | [34](../../magpie/internal/agent/morph.go#L34) |
 | morphIn | function_declaration |  | [38](../../magpie/internal/agent/morph.go#L38) |
+| del | var_spec | morphIn | [51](../../magpie/internal/agent/morph.go#L51) |
+| kvs | var_spec | morphIn | [52](../../magpie/internal/agent/morph.go#L52) |
 | noticeMorph | var_spec |  | [177](../../magpie/internal/agent/morph.go#L177) |

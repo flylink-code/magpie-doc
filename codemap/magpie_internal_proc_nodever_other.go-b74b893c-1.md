@@ -12,5 +12,8 @@ Source SHA-256: c976275a29ca5b58a5eeeb5fcea282b99d43d73d0a3eed6987bc0fe9f34fcdaa
 | nvmBins | function_declaration |  | [37](../../magpie/internal/proc/nodever_other.go#L37) |
 | nvmDefault | function_declaration |  | [61](../../magpie/internal/proc/nodever_other.go#L61) |
 | nvmAlias | function_declaration |  | [118](../../magpie/internal/proc/nodever_other.go#L118) |
+| ls | var_spec | nvmAlias | [125](../../magpie/internal/proc/nodever_other.go#L125) |
 | fnmBins | function_declaration |  | [157](../../magpie/internal/proc/nodever_other.go#L157) |
+| bins | var_spec | fnmBins | [159](../../magpie/internal/proc/nodever_other.go#L159) |
 | nodeBins | function_declaration |  | [179](../../magpie/internal/proc/nodever_other.go#L179) |
+| bins | var_spec | nodeBins | [180](../../magpie/internal/proc/nodever_other.go#L180) |

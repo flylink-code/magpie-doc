@@ -11,8 +11,9 @@ Source SHA-256: 5b2f281434f6b4325535496102ad618c1d2cacdbf99239f3140a996eed38939f
 | customToolRefusal | var_spec |  | [25](../../magpie/internal/gateway/custom_tool.go#L25) |
 | customToolRefused | function_declaration |  | [29](../../magpie/internal/gateway/custom_tool.go#L29) |
 | hasCustomTool | function_declaration |  | [34](../../magpie/internal/gateway/custom_tool.go#L34) |
+| m | var_spec | hasCustomTool | [38](../../magpie/internal/gateway/custom_tool.go#L38) |
 | customIn | function_declaration |  | [56](../../magpie/internal/gateway/custom_tool.go#L56) |
-| customStream | struct_type |  | [77](../../magpie/internal/gateway/custom_tool.go#L77) |
+| customStream | type_spec |  | [77](../../magpie/internal/gateway/custom_tool.go#L77) |
 | pend | field_declaration | customStream | [78](../../magpie/internal/gateway/custom_tool.go#L78) |
 | depth | field_declaration | customStream | [79](../../magpie/internal/gateway/custom_tool.go#L79) |
 | str | field_declaration | customStream | [80](../../magpie/internal/gateway/custom_tool.go#L80) |
@@ -24,6 +25,7 @@ Source SHA-256: 5b2f281434f6b4325535496102ad618c1d2cacdbf99239f3140a996eed38939f
 | value | field_declaration | customStream | [86](../../magpie/internal/gateway/custom_tool.go#L86) |
 | in | field_declaration | customStream | [87](../../magpie/internal/gateway/custom_tool.go#L87) |
 | over | field_declaration | customStream | [88](../../magpie/internal/gateway/custom_tool.go#L88) |
-| feed | method_declaration | *customStream | [93](../../magpie/internal/gateway/custom_tool.go#L93) |
-| take | method_declaration | *customStream | [157](../../magpie/internal/gateway/custom_tool.go#L157) |
+| feed | method_declaration |  | [93](../../magpie/internal/gateway/custom_tool.go#L93) |
+| take | method_declaration |  | [157](../../magpie/internal/gateway/custom_tool.go#L157) |
+| text | var_spec | take | [192](../../magpie/internal/gateway/custom_tool.go#L192) |
 | highSurrogate | function_declaration |  | [206](../../magpie/internal/gateway/custom_tool.go#L206) |

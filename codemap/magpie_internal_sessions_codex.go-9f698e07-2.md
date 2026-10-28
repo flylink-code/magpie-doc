@@ -8,8 +8,16 @@ Source SHA-256: fca6347fe4102874f616389bc5bdd6c48a0026b5951876c4f2fdc879f261d03e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| cxCompactionIn | function_declaration |  | [516](../../magpie/internal/sessions/codex.go#L516) |
+| codexBody | function_declaration |  | [526](../../magpie/internal/sessions/codex.go#L526) |
+| l | var_spec | codexBody | [546](../../magpie/internal/sessions/codex.go#L546) |
+| cxFastPrompt | function_declaration |  | [655](../../magpie/internal/sessions/codex.go#L655) |
+| strEnd | function_declaration |  | [692](../../magpie/internal/sessions/codex.go#L692) |
+| cxCounted | function_declaration |  | [705](../../magpie/internal/sessions/codex.go#L705) |
+| cxTotal | var_spec |  | [710](../../magpie/internal/sessions/codex.go#L710) |
 | cxLast | var_spec |  | [711](../../magpie/internal/sessions/codex.go#L711) |
 | cxInfo | var_spec |  | [712](../../magpie/internal/sessions/codex.go#L712) |
 | cxUsageIn | function_declaration |  | [717](../../magpie/internal/sessions/codex.go#L717) |
+| u | var_spec | cxUsageIn | [727](../../magpie/internal/sessions/codex.go#L727) |
 | cxFastCount | function_declaration |  | [736](../../magpie/internal/sessions/codex.go#L736) |
 | cxPrompt | function_declaration |  | [754](../../magpie/internal/sessions/codex.go#L754) |

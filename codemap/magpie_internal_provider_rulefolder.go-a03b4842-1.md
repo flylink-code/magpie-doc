@@ -17,3 +17,4 @@ Source SHA-256: eb85722f4b1ebd00d78cf948ac35343355f510e1476d0c26b1eb465c9d5f80c4
 | FolderUnder | function_declaration |  | [69](../../magpie/internal/provider/rulefolder.go#L69) |
 | cleanFolder | function_declaration |  | [79](../../magpie/internal/provider/rulefolder.go#L79) |
 | cleanFolders | function_declaration |  | [91](../../magpie/internal/provider/rulefolder.go#L91) |
+| out | var_spec | cleanFolders | [92](../../magpie/internal/provider/rulefolder.go#L92) |

@@ -12,12 +12,12 @@ Source SHA-256: 7fec81d3f7e7426946297d44c48f7bd8dd2418fd0d2b3732d5ebe9f566d02037
 | kimiSessions | function_declaration |  | [61](../../magpie/internal/sessions/calls_kimi.go#L61) |
 | kimiGateway | const_spec |  | [64](../../magpie/internal/sessions/calls_kimi.go#L64) |
 | kimiCallFiles | function_declaration |  | [69](../../magpie/internal/sessions/calls_kimi.go#L69) |
-| kimiUsage | struct_type |  | [71](../../magpie/internal/sessions/calls_kimi.go#L71) |
+| kimiUsage | type_spec |  | [71](../../magpie/internal/sessions/calls_kimi.go#L71) |
 | InputOther | field_declaration | kimiUsage | [72](../../magpie/internal/sessions/calls_kimi.go#L72) |
 | Output | field_declaration | kimiUsage | [73](../../magpie/internal/sessions/calls_kimi.go#L73) |
 | InputCacheRead | field_declaration | kimiUsage | [74](../../magpie/internal/sessions/calls_kimi.go#L74) |
 | InputCacheCreation | field_declaration | kimiUsage | [75](../../magpie/internal/sessions/calls_kimi.go#L75) |
-| kimiRecord | struct_type |  | [78](../../magpie/internal/sessions/calls_kimi.go#L78) |
+| kimiRecord | type_spec |  | [78](../../magpie/internal/sessions/calls_kimi.go#L78) |
 | Type | field_declaration | kimiRecord | [79](../../magpie/internal/sessions/calls_kimi.go#L79) |
 | AgentID | field_declaration | kimiRecord | [80](../../magpie/internal/sessions/calls_kimi.go#L80) |
 | Model | field_declaration | kimiRecord | [81](../../magpie/internal/sessions/calls_kimi.go#L81) |
@@ -26,5 +26,6 @@ Source SHA-256: 7fec81d3f7e7426946297d44c48f7bd8dd2418fd0d2b3732d5ebe9f566d02037
 | kimiUsageRecord | var_spec |  | [86](../../magpie/internal/sessions/calls_kimi.go#L86) |
 | kimiCallsBegin | function_declaration |  | [91](../../magpie/internal/sessions/calls_kimi.go#L91) |
 | kimiCallLine | function_declaration |  | [97](../../magpie/internal/sessions/calls_kimi.go#L97) |
+| rec | var_spec | kimiCallLine | [102](../../magpie/internal/sessions/calls_kimi.go#L102) |
 | kimiCall | function_declaration |  | [112](../../magpie/internal/sessions/calls_kimi.go#L112) |
 | kimiCallKey | function_declaration |  | [141](../../magpie/internal/sessions/calls_kimi.go#L141) |

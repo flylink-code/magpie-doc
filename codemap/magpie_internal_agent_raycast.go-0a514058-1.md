@@ -10,20 +10,20 @@ Source SHA-256: a0fde034107892d2e1d0fd1f860c3e763890c929bb376dcb76bdbdfe1838de0b
 | --- | --- | --- | ---: |
 | raycastApp | var_spec |  | [50](../../magpie/internal/agent/raycast.go#L50) |
 | raycast | function_declaration |  | [52](../../magpie/internal/agent/raycast.go#L52) |
-| raycastSupported | struct_type |  | [95](../../magpie/internal/agent/raycast.go#L95) |
+| raycastSupported | type_spec |  | [95](../../magpie/internal/agent/raycast.go#L95) |
 | Supported | field_declaration | raycastSupported | [96](../../magpie/internal/agent/raycast.go#L96) |
-| raycastAbilities | struct_type |  | [99](../../magpie/internal/agent/raycast.go#L99) |
+| raycastAbilities | type_spec |  | [99](../../magpie/internal/agent/raycast.go#L99) |
 | Temperature | field_declaration | raycastAbilities | [100](../../magpie/internal/agent/raycast.go#L100) |
 | Vision | field_declaration | raycastAbilities | [101](../../magpie/internal/agent/raycast.go#L101) |
 | SystemMessage | field_declaration | raycastAbilities | [102](../../magpie/internal/agent/raycast.go#L102) |
 | Tools | field_declaration | raycastAbilities | [103](../../magpie/internal/agent/raycast.go#L103) |
 | ReasoningEffort | field_declaration | raycastAbilities | [104](../../magpie/internal/agent/raycast.go#L104) |
-| raycastModel | struct_type |  | [107](../../magpie/internal/agent/raycast.go#L107) |
+| raycastModel | type_spec |  | [107](../../magpie/internal/agent/raycast.go#L107) |
 | ID | field_declaration | raycastModel | [108](../../magpie/internal/agent/raycast.go#L108) |
 | Name | field_declaration | raycastModel | [109](../../magpie/internal/agent/raycast.go#L109) |
 | Context | field_declaration | raycastModel | [110](../../magpie/internal/agent/raycast.go#L110) |
 | Abilities | field_declaration | raycastModel | [111](../../magpie/internal/agent/raycast.go#L111) |
-| raycastProvider | struct_type |  | [114](../../magpie/internal/agent/raycast.go#L114) |
+| raycastProvider | type_spec |  | [114](../../magpie/internal/agent/raycast.go#L114) |
 | ID | field_declaration | raycastProvider | [115](../../magpie/internal/agent/raycast.go#L115) |
 | Name | field_declaration | raycastProvider | [116](../../magpie/internal/agent/raycast.go#L116) |
 | BaseURL | field_declaration | raycastProvider | [117](../../magpie/internal/agent/raycast.go#L117) |
@@ -31,13 +31,18 @@ Source SHA-256: a0fde034107892d2e1d0fd1f860c3e763890c929bb376dcb76bdbdfe1838de0b
 | Models | field_declaration | raycastProvider | [119](../../magpie/internal/agent/raycast.go#L119) |
 | raycastProviderYAML | function_declaration |  | [128](../../magpie/internal/agent/raycast.go#L128) |
 | raycastWired | function_declaration |  | [144](../../magpie/internal/agent/raycast.go#L144) |
-| Providers | field_declaration | raycastWired | [150](../../magpie/internal/agent/raycast.go#L150) |
-| ID | field_declaration | raycastWired | [151](../../magpie/internal/agent/raycast.go#L151) |
+| doc | var_spec | raycastWired | [149](../../magpie/internal/agent/raycast.go#L149) |
+| Providers | field_declaration | raycastWired::doc | [150](../../magpie/internal/agent/raycast.go#L150) |
+| ID | field_declaration | raycastWired::doc::Providers | [151](../../magpie/internal/agent/raycast.go#L151) |
 | ID | field_declaration | raycastWired | [158](../../magpie/internal/agent/raycast.go#L158) |
 | raycastIndex | function_declaration |  | [166](../../magpie/internal/agent/raycast.go#L166) |
 | raycastWire | function_declaration |  | [183](../../magpie/internal/agent/raycast.go#L183) |
+| want | var_spec | raycastWire | [184](../../magpie/internal/agent/raycast.go#L184) |
+| bad | var_spec | raycastWire | [194](../../magpie/internal/agent/raycast.go#L194) |
 | raycastUnwire | function_declaration |  | [232](../../magpie/internal/agent/raycast.go#L232) |
+| rest | var_spec | raycastUnwire | [251](../../magpie/internal/agent/raycast.go#L251) |
 | mergeYAMLKept | function_declaration |  | [262](../../magpie/internal/agent/raycast.go#L262) |
 | yamlID | function_declaration |  | [304](../../magpie/internal/agent/raycast.go#L304) |
 | yamlItemByID | function_declaration |  | [317](../../magpie/internal/agent/raycast.go#L317) |
 | sameYAMLNode | function_declaration |  | [331](../../magpie/internal/agent/raycast.go#L331) |
+| x | var_spec | sameYAMLNode | [332](../../magpie/internal/agent/raycast.go#L332) |

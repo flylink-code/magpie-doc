@@ -9,7 +9,9 @@ Source SHA-256: c9a10f2dc3a0613b83a9331f2887487bf4d1ea3b9397a7125f271d3ed3c8552c
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | zcodeDevices | var_spec |  | [30](../../magpie/internal/provider/zcode_device.go#L30) |
+| m | field_declaration | zcodeDevices | [32](../../magpie/internal/provider/zcode_device.go#L32) |
 | zcodeUUIDRe | var_spec |  | [35](../../magpie/internal/provider/zcode_device.go#L35) |
 | zcodeDevicePath | function_declaration |  | [37](../../magpie/internal/provider/zcode_device.go#L37) |
 | zcodeDeviceMid | function_declaration |  | [41](../../magpie/internal/provider/zcode_device.go#L41) |
+| b | var_spec | zcodeDeviceMid | [54](../../magpie/internal/provider/zcode_device.go#L54) |
 | zcodeDeviceHeader | function_declaration |  | [69](../../magpie/internal/provider/zcode_device.go#L69) |

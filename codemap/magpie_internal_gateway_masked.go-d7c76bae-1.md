@@ -8,25 +8,28 @@ Source SHA-256: a5f1e294c71ca3621123fe2247dd5365e8a39705b3089060a909af8414f9eda8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Masked | struct_type |  | [18](../../magpie/internal/gateway/masked.go#L18) |
+| Masked | type_spec |  | [18](../../magpie/internal/gateway/masked.go#L18) |
 | N | field_declaration | Masked | [19](../../magpie/internal/gateway/masked.go#L19) |
 | Distinct | field_declaration | Masked | [20](../../magpie/internal/gateway/masked.go#L20) |
 | Warned | field_declaration | Masked | [21](../../magpie/internal/gateway/masked.go#L21) |
 | Kinds | field_declaration | Masked | [22](../../magpie/internal/gateway/masked.go#L22) |
 | By | field_declaration | Masked | [23](../../magpie/internal/gateway/masked.go#L23) |
 | Key | field_declaration | Masked | [26](../../magpie/internal/gateway/masked.go#L26) |
-| maskHits | struct_type |  | [31](../../magpie/internal/gateway/masked.go#L31) |
+| maskHits | type_spec |  | [31](../../magpie/internal/gateway/masked.go#L31) |
 | n | field_declaration | maskHits | [32](../../magpie/internal/gateway/masked.go#L32) |
 | hits | field_declaration | maskHits | [33](../../magpie/internal/gateway/masked.go#L33) |
 | took | field_declaration | maskHits | [34](../../magpie/internal/gateway/masked.go#L34) |
 | key | field_declaration | maskHits | [37](../../magpie/internal/gateway/masked.go#L37) |
-| add | method_declaration | *maskHits | [40](../../magpie/internal/gateway/masked.go#L40) |
+| add | method_declaration |  | [40](../../magpie/internal/gateway/masked.go#L40) |
 | noteMasked | function_declaration |  | [50](../../magpie/internal/gateway/masked.go#L50) |
 | noteMaskedUntil | function_declaration |  | [60](../../magpie/internal/gateway/masked.go#L60) |
 | noteBlocked | function_declaration |  | [94](../../magpie/internal/gateway/masked.go#L94) |
 | valuesOf | function_declaration |  | [98](../../magpie/internal/gateway/masked.go#L98) |
+| out | var_spec | valuesOf | [99](../../magpie/internal/gateway/masked.go#L99) |
 | snipRunes | const_spec |  | [107](../../magpie/internal/gateway/masked.go#L107) |
 | snipsOf | function_declaration |  | [112](../../magpie/internal/gateway/masked.go#L112) |
 | snipWith | function_declaration |  | [166](../../magpie/internal/gateway/masked.go#L166) |
+| found | var_spec | snipWith | [167](../../magpie/internal/gateway/masked.go#L167) |
 | quoteEscaped | function_declaration |  | [182](../../magpie/internal/gateway/masked.go#L182) |
 | unescapeSnip | function_declaration |  | [192](../../magpie/internal/gateway/masked.go#L192) |
+| b | var_spec | unescapeSnip | [196](../../magpie/internal/gateway/masked.go#L196) |

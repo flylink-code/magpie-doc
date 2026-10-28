@@ -8,11 +8,11 @@ Source SHA-256: d3298121a3a1c8b25f0f9bbcb1ca559f5b3bec63490e7e986051b67d4c37395a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| group | struct_type |  | [14](../../magpie/internal/proc/tree_other.go#L14) |
+| group | type_spec |  | [14](../../magpie/internal/proc/tree_other.go#L14) |
 | ownGroup | function_declaration |  | [16](../../magpie/internal/proc/tree_other.go#L16) |
-| join | method_declaration | group | [23](../../magpie/internal/proc/tree_other.go#L23) |
-| kill | method_declaration | group | [38](../../magpie/internal/proc/tree_other.go#L38) |
-| term | method_declaration | group | [64](../../magpie/internal/proc/tree_other.go#L64) |
+| join | method_declaration |  | [23](../../magpie/internal/proc/tree_other.go#L23) |
+| kill | method_declaration |  | [38](../../magpie/internal/proc/tree_other.go#L38) |
+| term | method_declaration |  | [64](../../magpie/internal/proc/tree_other.go#L64) |
 | signalGroup | var_spec |  | [68](../../magpie/internal/proc/tree_other.go#L68) |
 | killFor | var_spec |  | [71](../../magpie/internal/proc/tree_other.go#L71) |
-| sweep | method_declaration | group | [75](../../magpie/internal/proc/tree_other.go#L75) |
+| sweep | method_declaration |  | [75](../../magpie/internal/proc/tree_other.go#L75) |

@@ -9,3 +9,4 @@ Source SHA-256: ec54c82e7355c9fffc665eb47bf7de78a6fb4c420f740e02cb72fd69598e9bd6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | NativeEndpoints | function_declaration |  | [11](../../magpie/internal/provider/native_endpoints.go#L11) |
+| out | var_spec | NativeEndpoints | [17](../../magpie/internal/provider/native_endpoints.go#L17) |

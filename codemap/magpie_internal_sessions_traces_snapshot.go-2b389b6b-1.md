@@ -8,7 +8,7 @@ Source SHA-256: 78ccf31a042d5d6972ed83fb00ebb3abb0359bf90ae6e63b8fb2c24b2f7abf5f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| traceSnapshot | struct_type |  | [12](../../magpie/internal/sessions/traces_snapshot.go#L12) |
+| traceSnapshot | type_spec |  | [12](../../magpie/internal/sessions/traces_snapshot.go#L12) |
 | size | field_declaration | traceSnapshot | [13](../../magpie/internal/sessions/traces_snapshot.go#L13) |
 | mod | field_declaration | traceSnapshot | [14](../../magpie/internal/sessions/traces_snapshot.go#L14) |
 | done | field_declaration | traceSnapshot | [15](../../magpie/internal/sessions/traces_snapshot.go#L15) |
@@ -18,5 +18,6 @@ Source SHA-256: 78ccf31a042d5d6972ed83fb00ebb3abb0359bf90ae6e63b8fb2c24b2f7abf5f
 | gemini | field_declaration | traceSnapshot | [19](../../magpie/internal/sessions/traces_snapshot.go#L19) |
 | settled | field_declaration | traceSnapshot | [20](../../magpie/internal/sessions/traces_snapshot.go#L20) |
 | oc | field_declaration | traceSnapshot | [21](../../magpie/internal/sessions/traces_snapshot.go#L21) |
-| snapshot | method_declaration | *TraceReader | [24](../../magpie/internal/sessions/traces_snapshot.go#L24) |
-| observations | method_declaration | *TraceReader | [33](../../magpie/internal/sessions/traces_snapshot.go#L33) |
+| snapshot | method_declaration |  | [24](../../magpie/internal/sessions/traces_snapshot.go#L24) |
+| observations | method_declaration |  | [33](../../magpie/internal/sessions/traces_snapshot.go#L33) |
+| out | var_spec | observations | [34](../../magpie/internal/sessions/traces_snapshot.go#L34) |

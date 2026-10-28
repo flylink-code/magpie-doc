@@ -10,3 +10,4 @@ Source SHA-256: 3df8769f2a68c6d49cd7cda3e264ae79955ac3f03b2387b1216b6d4841860553
 | --- | --- | --- | ---: |
 | openCodeSeed | function_declaration |  | [25](../../magpie/internal/gateway/opencode_session.go#L25) |
 | logOpenCodeRefusal | function_declaration |  | [45](../../magpie/internal/gateway/opencode_session.go#L45) |
+| names | var_spec | logOpenCodeRefusal | [46](../../magpie/internal/gateway/opencode_session.go#L46) |

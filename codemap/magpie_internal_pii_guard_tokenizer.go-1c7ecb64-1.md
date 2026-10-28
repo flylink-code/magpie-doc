@@ -9,7 +9,7 @@ Source SHA-256: f5e1c8a6aaa05d60c72fca0d64ae21cd87cd7fea32d03aa9d05b9fb411907076
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | vocabSize | const_spec |  | [24](../../magpie/internal/pii/guard/tokenizer.go#L24) |
-| tokenizer | struct_type |  | [26](../../magpie/internal/pii/guard/tokenizer.go#L26) |
+| tokenizer | type_spec |  | [26](../../magpie/internal/pii/guard/tokenizer.go#L26) |
 | pieces | field_declaration | tokenizer | [27](../../magpie/internal/pii/guard/tokenizer.go#L27) |
 | scores | field_declaration | tokenizer | [28](../../magpie/internal/pii/guard/tokenizer.go#L28) |
 | maxLen | field_declaration | tokenizer | [29](../../magpie/internal/pii/guard/tokenizer.go#L29) |
@@ -18,43 +18,48 @@ Source SHA-256: f5e1c8a6aaa05d60c72fca0d64ae21cd87cd7fea32d03aa9d05b9fb411907076
 | special | field_declaration | tokenizer | [32](../../magpie/internal/pii/guard/tokenizer.go#L32) |
 | trie | field_declaration | tokenizer | [33](../../magpie/internal/pii/guard/tokenizer.go#L33) |
 | norm | field_declaration | tokenizer | [34](../../magpie/internal/pii/guard/tokenizer.go#L34) |
-| special | struct_type |  | [37](../../magpie/internal/pii/guard/tokenizer.go#L37) |
+| special | type_spec |  | [37](../../magpie/internal/pii/guard/tokenizer.go#L37) |
 | text | field_declaration | special | [38](../../magpie/internal/pii/guard/tokenizer.go#L38) |
 | id | field_declaration | special | [39](../../magpie/internal/pii/guard/tokenizer.go#L39) |
 | lstrip | field_declaration | special | [40](../../magpie/internal/pii/guard/tokenizer.go#L40) |
-| token | struct_type |  | [45](../../magpie/internal/pii/guard/tokenizer.go#L45) |
+| token | type_spec |  | [45](../../magpie/internal/pii/guard/tokenizer.go#L45) |
 | id | field_declaration | token | [46](../../magpie/internal/pii/guard/tokenizer.go#L46) |
 | start | field_declaration | token | [47](../../magpie/internal/pii/guard/tokenizer.go#L47) |
-| end | field_declaration | token | [47](../../magpie/internal/pii/guard/tokenizer.go#L47) |
 | loadTokenizer | function_declaration |  | [50](../../magpie/internal/pii/guard/tokenizer.go#L50) |
-| AddedTokens | field_declaration | loadTokenizer | [56](../../magpie/internal/pii/guard/tokenizer.go#L56) |
-| ID | field_declaration | loadTokenizer | [57](../../magpie/internal/pii/guard/tokenizer.go#L57) |
-| Content | field_declaration | loadTokenizer | [58](../../magpie/internal/pii/guard/tokenizer.go#L58) |
-| Special | field_declaration | loadTokenizer | [59](../../magpie/internal/pii/guard/tokenizer.go#L59) |
-| Lstrip | field_declaration | loadTokenizer | [60](../../magpie/internal/pii/guard/tokenizer.go#L60) |
-| Normalizer | field_declaration | loadTokenizer | [62](../../magpie/internal/pii/guard/tokenizer.go#L62) |
-| Type | field_declaration | loadTokenizer | [63](../../magpie/internal/pii/guard/tokenizer.go#L63) |
-| Normalizers | field_declaration | loadTokenizer | [64](../../magpie/internal/pii/guard/tokenizer.go#L64) |
-| Type | field_declaration | loadTokenizer | [65](../../magpie/internal/pii/guard/tokenizer.go#L65) |
-| Charmap | field_declaration | loadTokenizer | [66](../../magpie/internal/pii/guard/tokenizer.go#L66) |
-| Charmap | field_declaration | loadTokenizer | [68](../../magpie/internal/pii/guard/tokenizer.go#L68) |
-| Model | field_declaration | loadTokenizer | [70](../../magpie/internal/pii/guard/tokenizer.go#L70) |
-| Type | field_declaration | loadTokenizer | [71](../../magpie/internal/pii/guard/tokenizer.go#L71) |
-| UnkID | field_declaration | loadTokenizer | [72](../../magpie/internal/pii/guard/tokenizer.go#L72) |
-| Vocab | field_declaration | loadTokenizer | [73](../../magpie/internal/pii/guard/tokenizer.go#L73) |
-| encode | method_declaration | *tokenizer | [125](../../magpie/internal/pii/guard/tokenizer.go#L125) |
-| nextSpecial | method_declaration | *tokenizer | [144](../../magpie/internal/pii/guard/tokenizer.go#L144) |
-| nchar | struct_type |  | [170](../../magpie/internal/pii/guard/tokenizer.go#L170) |
+| f | var_spec | loadTokenizer | [55](../../magpie/internal/pii/guard/tokenizer.go#L55) |
+| AddedTokens | field_declaration | loadTokenizer::f | [56](../../magpie/internal/pii/guard/tokenizer.go#L56) |
+| ID | field_declaration | loadTokenizer::f::AddedTokens | [57](../../magpie/internal/pii/guard/tokenizer.go#L57) |
+| Content | field_declaration | loadTokenizer::f::AddedTokens | [58](../../magpie/internal/pii/guard/tokenizer.go#L58) |
+| Special | field_declaration | loadTokenizer::f::AddedTokens | [59](../../magpie/internal/pii/guard/tokenizer.go#L59) |
+| Lstrip | field_declaration | loadTokenizer::f::AddedTokens | [60](../../magpie/internal/pii/guard/tokenizer.go#L60) |
+| Normalizer | field_declaration | loadTokenizer::f | [62](../../magpie/internal/pii/guard/tokenizer.go#L62) |
+| Type | field_declaration | loadTokenizer::f::Normalizer | [63](../../magpie/internal/pii/guard/tokenizer.go#L63) |
+| Normalizers | field_declaration | loadTokenizer::f::Normalizer | [64](../../magpie/internal/pii/guard/tokenizer.go#L64) |
+| Type | field_declaration | loadTokenizer::f::Normalizer::Normalizers | [65](../../magpie/internal/pii/guard/tokenizer.go#L65) |
+| Charmap | field_declaration | loadTokenizer::f::Normalizer::Normalizers | [66](../../magpie/internal/pii/guard/tokenizer.go#L66) |
+| Charmap | field_declaration | loadTokenizer::f::Normalizer | [68](../../magpie/internal/pii/guard/tokenizer.go#L68) |
+| Model | field_declaration | loadTokenizer::f | [70](../../magpie/internal/pii/guard/tokenizer.go#L70) |
+| Type | field_declaration | loadTokenizer::f::Model | [71](../../magpie/internal/pii/guard/tokenizer.go#L71) |
+| UnkID | field_declaration | loadTokenizer::f::Model | [72](../../magpie/internal/pii/guard/tokenizer.go#L72) |
+| Vocab | field_declaration | loadTokenizer::f::Model | [73](../../magpie/internal/pii/guard/tokenizer.go#L73) |
+| p | var_spec | loadTokenizer | [85](../../magpie/internal/pii/guard/tokenizer.go#L85) |
+| encode | method_declaration |  | [125](../../magpie/internal/pii/guard/tokenizer.go#L125) |
+| out | var_spec | encode | [126](../../magpie/internal/pii/guard/tokenizer.go#L126) |
+| nextSpecial | method_declaration |  | [144](../../magpie/internal/pii/guard/tokenizer.go#L144) |
+| nchar | type_spec |  | [170](../../magpie/internal/pii/guard/tokenizer.go#L170) |
 | r | field_declaration | nchar | [171](../../magpie/internal/pii/guard/tokenizer.go#L171) |
 | s | field_declaration | nchar | [172](../../magpie/internal/pii/guard/tokenizer.go#L172) |
-| e | field_declaration | nchar | [172](../../magpie/internal/pii/guard/tokenizer.go#L172) |
-| encodePlain | method_declaration | *tokenizer | [175](../../magpie/internal/pii/guard/tokenizer.go#L175) |
+| encodePlain | method_declaration |  | [175](../../magpie/internal/pii/guard/tokenizer.go#L175) |
 | pretokenize | function_declaration |  | [204](../../magpie/internal/pii/guard/tokenizer.go#L204) |
-| normalize | method_declaration | *tokenizer | [240](../../magpie/internal/pii/guard/tokenizer.go#L240) |
-| transform | method_declaration | *tokenizer | [279](../../magpie/internal/pii/guard/tokenizer.go#L279) |
-| unigram | method_declaration | *tokenizer | [326](../../magpie/internal/pii/guard/tokenizer.go#L326) |
-| node | struct_type | *tokenizer.unigram | [339](../../magpie/internal/pii/guard/tokenizer.go#L339) |
-| score | field_declaration | *tokenizer.unigram.node | [340](../../magpie/internal/pii/guard/tokenizer.go#L340) |
-| from | field_declaration | *tokenizer.unigram.node | [341](../../magpie/internal/pii/guard/tokenizer.go#L341) |
-| id | field_declaration | *tokenizer.unigram.node | [342](../../magpie/internal/pii/guard/tokenizer.go#L342) |
-| set | field_declaration | *tokenizer.unigram.node | [343](../../magpie/internal/pii/guard/tokenizer.go#L343) |
+| out | var_spec | pretokenize | [205](../../magpie/internal/pii/guard/tokenizer.go#L205) |
+| normalize | method_declaration |  | [240](../../magpie/internal/pii/guard/tokenizer.go#L240) |
+| orig | var_spec | normalize | [245](../../magpie/internal/pii/guard/tokenizer.go#L245) |
+| transform | method_declaration |  | [279](../../magpie/internal/pii/guard/tokenizer.go#L279) |
+| unigram | method_declaration |  | [326](../../magpie/internal/pii/guard/tokenizer.go#L326) |
+| sb | var_spec | unigram | [327](../../magpie/internal/pii/guard/tokenizer.go#L327) |
+| node | type_spec | unigram | [339](../../magpie/internal/pii/guard/tokenizer.go#L339) |
+| score | field_declaration | unigram::node | [340](../../magpie/internal/pii/guard/tokenizer.go#L340) |
+| from | field_declaration | unigram::node | [341](../../magpie/internal/pii/guard/tokenizer.go#L341) |
+| id | field_declaration | unigram::node | [342](../../magpie/internal/pii/guard/tokenizer.go#L342) |
+| set | field_declaration | unigram::node | [343](../../magpie/internal/pii/guard/tokenizer.go#L343) |
+| rev | var_spec | unigram | [377](../../magpie/internal/pii/guard/tokenizer.go#L377) |

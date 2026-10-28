@@ -8,14 +8,16 @@ Source SHA-256: 40cf18fbe362b25e555c73c6267549058314cb349e0afbeb88faa5b19f041dfc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| GoneError | struct_type |  | [24](../../magpie/internal/library/skill_gone.go#L24) |
+| GoneError | type_spec |  | [24](../../magpie/internal/library/skill_gone.go#L24) |
 | Name | field_declaration | GoneError | [25](../../magpie/internal/library/skill_gone.go#L25) |
 | Source | field_declaration | GoneError | [26](../../magpie/internal/library/skill_gone.go#L26) |
-| Error | method_declaration | *GoneError | [29](../../magpie/internal/library/skill_gone.go#L29) |
+| Error | method_declaration |  | [29](../../magpie/internal/library/skill_gone.go#L29) |
 | goneFrom | function_declaration |  | [37](../../magpie/internal/library/skill_gone.go#L37) |
 | absent | function_declaration |  | [55](../../magpie/internal/library/skill_gone.go#L55) |
 | leftOutAt | function_declaration |  | [61](../../magpie/internal/library/skill_gone.go#L61) |
 | markGone | function_declaration |  | [74](../../magpie/internal/library/skill_gone.go#L74) |
-| setGone | method_declaration | *Library | [91](../../magpie/internal/library/skill_gone.go#L91) |
+| setGone | method_declaration |  | [91](../../magpie/internal/library/skill_gone.go#L91) |
 | goneCheck | function_declaration |  | [107](../../magpie/internal/library/skill_gone.go#L107) |
 | RemoveGoneSkills | function_declaration |  | [115](../../magpie/internal/library/skill_gone.go#L115) |
+| take | var_spec | RemoveGoneSkills | [122](../../magpie/internal/library/skill_gone.go#L122) |
+| left | var_spec | RemoveGoneSkills | [123](../../magpie/internal/library/skill_gone.go#L123) |

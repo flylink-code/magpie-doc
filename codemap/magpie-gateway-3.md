@@ -10,14 +10,14 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie/internal/gwbudget/gwbudget.go](../../magpie/internal/gwbudget/gwbudget.go) | 16 | [1](magpie_internal_gwbudget_gwbudget.go-70b7d297-1.md) |
-| [magpie/internal/gwmw/gwmw.go](../../magpie/internal/gwmw/gwmw.go) | 65 | [1](magpie_internal_gwmw_gwmw.go-03371e8a-1.md) |
-| [magpie/internal/gwtool/gwtool.go](../../magpie/internal/gwtool/gwtool.go) | 6 | [1](magpie_internal_gwtool_gwtool.go-a2ba097e-1.md) |
-| [magpie/internal/middleware/middleware.go](../../magpie/internal/middleware/middleware.go) | 88 | [1](magpie_internal_middleware_middleware.go-37badf68-1.md) |
-| [magpie/internal/middleware/points.go](../../magpie/internal/middleware/points.go) | 77 | [1](magpie_internal_middleware_points.go-ca4a3bb6-1.md) |
-| [magpie/internal/middleware/run.go](../../magpie/internal/middleware/run.go) | 47 | [1](magpie_internal_middleware_run.go-f3f2ac4d-1.md) |
-| [magpie/internal/routes/fastest.go](../../magpie/internal/routes/fastest.go) | 15 | [1](magpie_internal_routes_fastest.go-9cdeb2ee-1.md) |
-| [magpie/internal/routes/round.go](../../magpie/internal/routes/round.go) | 8 | [1](magpie_internal_routes_round.go-b88ea5df-1.md) |
-| [magpie/internal/routes/routes.go](../../magpie/internal/routes/routes.go) | 26 | [1](magpie_internal_routes_routes.go-b8b6f339-1.md) |
-| [magpie/internal/routes/strategies.go](../../magpie/internal/routes/strategies.go) | 21 | [1](magpie_internal_routes_strategies.go-a2900bc8-1.md) |
-| [magpie/internal/upstream/upstream.go](../../magpie/internal/upstream/upstream.go) | 53 | [1](magpie_internal_upstream_upstream.go-ecb2df3b-1.md) |
+| [magpie/internal/gwbudget/gwbudget.go](../../magpie/internal/gwbudget/gwbudget.go) | 15 | [1](magpie_internal_gwbudget_gwbudget.go-70b7d297-1.md) |
+| [magpie/internal/gwmw/gwmw.go](../../magpie/internal/gwmw/gwmw.go) | 48 | [1](magpie_internal_gwmw_gwmw.go-03371e8a-1.md) |
+| [magpie/internal/gwtool/gwtool.go](../../magpie/internal/gwtool/gwtool.go) | 10 | [1](magpie_internal_gwtool_gwtool.go-a2ba097e-1.md) |
+| [magpie/internal/middleware/middleware.go](../../magpie/internal/middleware/middleware.go) | 86 | [1](magpie_internal_middleware_middleware.go-37badf68-1.md) |
+| [magpie/internal/middleware/points.go](../../magpie/internal/middleware/points.go) | 83 | [1](magpie_internal_middleware_points.go-ca4a3bb6-1.md) |
+| [magpie/internal/middleware/run.go](../../magpie/internal/middleware/run.go) | 46 | [1](magpie_internal_middleware_run.go-f3f2ac4d-1.md) |
+| [magpie/internal/routes/fastest.go](../../magpie/internal/routes/fastest.go) | 13 | [1](magpie_internal_routes_fastest.go-9cdeb2ee-1.md) |
+| [magpie/internal/routes/round.go](../../magpie/internal/routes/round.go) | 9 | [1](magpie_internal_routes_round.go-b88ea5df-1.md) |
+| [magpie/internal/routes/routes.go](../../magpie/internal/routes/routes.go) | 27 | [1](magpie_internal_routes_routes.go-b8b6f339-1.md) |
+| [magpie/internal/routes/strategies.go](../../magpie/internal/routes/strategies.go) | 19 | [1](magpie_internal_routes_strategies.go-a2900bc8-1.md) |
+| [magpie/internal/upstream/upstream.go](../../magpie/internal/upstream/upstream.go) | 55 | [1](magpie_internal_upstream_upstream.go-ecb2df3b-1.md) |

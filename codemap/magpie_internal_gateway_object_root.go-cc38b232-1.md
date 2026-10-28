@@ -10,7 +10,9 @@ Source SHA-256: 5f8cda1a03c5a07ede4592c64544b6e8a0f0da116e574cac8e76c4edb41ce69f
 | --- | --- | --- | ---: |
 | rootUnionRefusal | var_spec |  | [28](../../magpie/internal/gateway/object_root.go#L28) |
 | rootUnionRefused | function_declaration |  | [31](../../magpie/internal/gateway/object_root.go#L31) |
-| foldsRoots | method_declaration | *Server | [35](../../magpie/internal/gateway/object_root.go#L35) |
+| foldsRoots | method_declaration |  | [35](../../magpie/internal/gateway/object_root.go#L35) |
 | objectRootsBody | function_declaration |  | [41](../../magpie/internal/gateway/object_root.go#L41) |
+| m | var_spec | objectRootsBody | [47](../../magpie/internal/gateway/object_root.go#L47) |
 | foldTools | function_declaration |  | [64](../../magpie/internal/gateway/object_root.go#L64) |
 | objectRootsReq | function_declaration |  | [91](../../magpie/internal/gateway/object_root.go#L91) |
+| tools | var_spec | objectRootsReq | [92](../../magpie/internal/gateway/object_root.go#L92) |

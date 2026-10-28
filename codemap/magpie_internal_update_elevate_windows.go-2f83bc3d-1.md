@@ -10,7 +10,7 @@ Source SHA-256: 0924db3f5f3b56e1ca46d33fc8afde7020ecd2bf624404419b1d4e094a955aa5
 | --- | --- | --- | ---: |
 | CanRunElevated | function_declaration |  | [19](../../magpie/internal/update/elevate_windows.go#L19) |
 | shellExecuteEx | var_spec |  | [21](../../magpie/internal/update/elevate_windows.go#L21) |
-| shellExecuteInfo | struct_type |  | [24](../../magpie/internal/update/elevate_windows.go#L24) |
+| shellExecuteInfo | type_spec |  | [24](../../magpie/internal/update/elevate_windows.go#L24) |
 | cbSize | field_declaration | shellExecuteInfo | [25](../../magpie/internal/update/elevate_windows.go#L25) |
 | fMask | field_declaration | shellExecuteInfo | [26](../../magpie/internal/update/elevate_windows.go#L26) |
 | hwnd | field_declaration | shellExecuteInfo | [27](../../magpie/internal/update/elevate_windows.go#L27) |
@@ -30,3 +30,5 @@ Source SHA-256: 0924db3f5f3b56e1ca46d33fc8afde7020ecd2bf624404419b1d4e094a955aa5
 | seeMaskNoAsync | const_spec |  | [44](../../magpie/internal/update/elevate_windows.go#L44) |
 | seeMaskFlagNoUI | const_spec |  | [45](../../magpie/internal/update/elevate_windows.go#L45) |
 | RunElevated | function_declaration |  | [55](../../magpie/internal/update/elevate_windows.go#L55) |
+| code | var_spec | RunElevated | [111](../../magpie/internal/update/elevate_windows.go#L111) |
+| out | var_spec | RunElevated | [116](../../magpie/internal/update/elevate_windows.go#L116) |

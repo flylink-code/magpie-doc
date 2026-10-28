@@ -8,26 +8,26 @@ Source SHA-256: d9e387939d4d554f447ac5159a066e69435159eacbf48b6a173ac5393b199760
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tuneAdvice | struct_type |  | [23](../../magpie/internal/gui/tune.go#L23) |
+| tuneAdvice | type_spec |  | [23](../../magpie/internal/gui/tune.go#L23) |
 | Knob | field_declaration | tuneAdvice | [24](../../magpie/internal/gui/tune.go#L24) |
 | Model | field_declaration | tuneAdvice | [25](../../magpie/internal/gui/tune.go#L25) |
 | Setting | field_declaration | tuneAdvice | [26](../../magpie/internal/gui/tune.go#L26) |
 | Compact | field_declaration | tuneAdvice | [27](../../magpie/internal/gui/tune.go#L27) |
 | TTL | field_declaration | tuneAdvice | [28](../../magpie/internal/gui/tune.go#L28) |
-| tuneAgent | struct_type |  | [31](../../magpie/internal/gui/tune.go#L31) |
+| tuneAgent | type_spec |  | [31](../../magpie/internal/gui/tune.go#L31) |
 | Agent | field_declaration | tuneAgent | [32](../../magpie/internal/gui/tune.go#L32) |
 | Calls | field_declaration | tuneAgent | [33](../../magpie/internal/gui/tune.go#L33) |
 | Advice | field_declaration | tuneAgent | [34](../../magpie/internal/gui/tune.go#L34) |
-| tuneState | struct_type |  | [37](../../magpie/internal/gui/tune.go#L37) |
+| tuneState | type_spec |  | [37](../../magpie/internal/gui/tune.go#L37) |
 | Days | field_declaration | tuneState | [38](../../magpie/internal/gui/tune.go#L38) |
 | Agents | field_declaration | tuneState | [39](../../magpie/internal/gui/tune.go#L39) |
 | tuneOf | function_declaration |  | [43](../../magpie/internal/gui/tune.go#L43) |
+| main | var_spec | tuneOf | [60](../../magpie/internal/gui/tune.go#L60) |
 | knob | field_declaration | tuneOf | [93](../../magpie/internal/gui/tune.go#L93) |
 | calls | field_declaration | tuneOf | [94](../../magpie/internal/gui/tune.go#L94) |
 | codexWindow | function_declaration |  | [137](../../magpie/internal/gui/tune.go#L137) |
 | tuneRoutes | function_declaration |  | [172](../../magpie/internal/gui/tune.go#L172) |
-| change | struct_type | tuneRoutes | [181](../../magpie/internal/gui/tune.go#L181) |
-| Agent | field_declaration | tuneRoutes.change | [182](../../magpie/internal/gui/tune.go#L182) |
-| Knob | field_declaration | tuneRoutes.change | [182](../../magpie/internal/gui/tune.go#L182) |
-| Model | field_declaration | tuneRoutes.change | [182](../../magpie/internal/gui/tune.go#L182) |
-| Value | field_declaration | tuneRoutes.change | [182](../../magpie/internal/gui/tune.go#L182) |
+| change | type_spec | tuneRoutes | [181](../../magpie/internal/gui/tune.go#L181) |
+| Agent | field_declaration | tuneRoutes::change | [182](../../magpie/internal/gui/tune.go#L182) |
+| in | var_spec | tuneRoutes | [185](../../magpie/internal/gui/tune.go#L185) |
+| in | var_spec | tuneRoutes | [198](../../magpie/internal/gui/tune.go#L198) |

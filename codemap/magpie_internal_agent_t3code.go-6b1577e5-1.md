@@ -14,6 +14,14 @@ Source SHA-256: 56474a2c36faf7f8a39fa64eac2c0f84e0b04d706325e96c0f48132e406a2c8d
 | t3InstanceJSON | function_declaration |  | [133](../../magpie/internal/agent/t3code.go#L133) |
 | t3Env | var_spec |  | [175](../../magpie/internal/agent/t3code.go#L175) |
 | t3EnvOf | function_declaration |  | [179](../../magpie/internal/agent/t3code.go#L179) |
+| env | var_spec | t3EnvOf | [184](../../magpie/internal/agent/t3code.go#L184) |
 | t3Merged | function_declaration |  | [207](../../magpie/internal/agent/t3code.go#L207) |
+| have | var_spec | t3Merged | [213](../../magpie/internal/agent/t3code.go#L213) |
+| name | var_spec | t3Merged | [217](../../magpie/internal/agent/t3code.go#L217) |
+| on | var_spec | t3Merged | [221](../../magpie/internal/agent/t3code.go#L221) |
+| theirs | var_spec | t3Merged | [225](../../magpie/internal/agent/t3code.go#L225) |
+| w | var_spec | t3Merged | [238](../../magpie/internal/agent/t3code.go#L238) |
 | t3EffortLabels | var_spec |  | [247](../../magpie/internal/agent/t3code.go#L247) |
 | t3Capabilities | function_declaration |  | [258](../../magpie/internal/agent/t3code.go#L258) |
+| descriptors | var_spec | t3Capabilities | [259](../../magpie/internal/agent/t3code.go#L259) |
+| options | var_spec | t3Capabilities | [260](../../magpie/internal/agent/t3code.go#L260) |

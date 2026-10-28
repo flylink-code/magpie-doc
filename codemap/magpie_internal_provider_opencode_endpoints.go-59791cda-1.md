@@ -11,6 +11,6 @@ Source SHA-256: 269c20657d0d016fb5a3ea956b87076ca36a8103ff4813820244bb9f83044cdb
 | openCodeRoot | function_declaration |  | [15](../../magpie/internal/provider/opencode_endpoints.go#L15) |
 | openCodeGateway | function_declaration |  | [38](../../magpie/internal/provider/opencode_endpoints.go#L38) |
 | openCodeGemini | function_declaration |  | [64](../../magpie/internal/provider/opencode_endpoints.go#L64) |
-| openCodeEndpoints | method_declaration | *Provider | [85](../../magpie/internal/provider/opencode_endpoints.go#L85) |
-| openCodeCatalogs | method_declaration | Provider | [107](../../magpie/internal/provider/opencode_endpoints.go#L107) |
-| NamedOnlyOn | method_declaration | Provider | [122](../../magpie/internal/provider/opencode_endpoints.go#L122) |
+| openCodeEndpoints | method_declaration |  | [85](../../magpie/internal/provider/opencode_endpoints.go#L85) |
+| openCodeCatalogs | method_declaration |  | [107](../../magpie/internal/provider/opencode_endpoints.go#L107) |
+| NamedOnlyOn | method_declaration |  | [122](../../magpie/internal/provider/opencode_endpoints.go#L122) |

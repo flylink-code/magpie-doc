@@ -10,5 +10,7 @@ Source SHA-256: d71ea3eaee6ab8ce8c688cb0084c49b11f84e7f1ba66de527248cd32b3b27b84
 | --- | --- | --- | ---: |
 | CodexCatalogPath | const_spec |  | [19](../../magpie/internal/gateway/codex_catalog.go#L19) |
 | codexCatalogMost | const_spec |  | [25](../../magpie/internal/gateway/codex_catalog.go#L25) |
-| codexCatalog | method_declaration | *Server | [33](../../magpie/internal/gateway/codex_catalog.go#L33) |
+| codexCatalog | method_declaration |  | [33](../../magpie/internal/gateway/codex_catalog.go#L33) |
+| b | var_spec | codexCatalog | [40](../../magpie/internal/gateway/codex_catalog.go#L40) |
+| one | var_spec | codexCatalog | [44](../../magpie/internal/gateway/codex_catalog.go#L44) |
 | codexTiers | function_declaration |  | [75](../../magpie/internal/gateway/codex_catalog.go#L75) |

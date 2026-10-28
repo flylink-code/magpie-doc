@@ -16,3 +16,4 @@ Source SHA-256: d912af945ed7200c4483a01486e6ab027a0e9b820ef07ff7f7de2f8d0d49d949
 | hostPort | function_declaration |  | [183](../../magpie/internal/gateway/cors.go#L183) |
 | corsAllowed | function_declaration |  | [199](../../magpie/internal/gateway/cors.go#L199) |
 | corsHeaders | function_declaration |  | [212](../../magpie/internal/gateway/cors.go#L212) |
+| out | var_spec | corsHeaders | [213](../../magpie/internal/gateway/cors.go#L213) |

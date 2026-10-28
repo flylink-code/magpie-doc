@@ -9,8 +9,13 @@ Source SHA-256: b04edf53e1d5b48dcdbbd2906516530abf660f1a5a9049bee6a9a036715d2e29
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | nameWords | function_declaration |  | [16](../../magpie/internal/provider/closest.go#L16) |
+| out | var_spec | nameWords | [17](../../magpie/internal/provider/closest.go#L17) |
+| b | var_spec | nameWords | [18](../../magpie/internal/provider/closest.go#L18) |
 | squashed | function_declaration |  | [47](../../magpie/internal/provider/closest.go#L47) |
 | Closest | function_declaration |  | [53](../../magpie/internal/provider/closest.go#L53) |
-| scored | struct_type | Closest | [59](../../magpie/internal/provider/closest.go#L59) |
-| id | field_declaration | Closest.scored | [60](../../magpie/internal/provider/closest.go#L60) |
-| score | field_declaration | Closest.scored | [61](../../magpie/internal/provider/closest.go#L61) |
+| scored | type_spec | Closest | [59](../../magpie/internal/provider/closest.go#L59) |
+| id | field_declaration | Closest::scored | [60](../../magpie/internal/provider/closest.go#L60) |
+| score | field_declaration | Closest::scored | [61](../../magpie/internal/provider/closest.go#L61) |
+| hits | var_spec | Closest | [63](../../magpie/internal/provider/closest.go#L63) |
+| from | var_spec | Closest | [67](../../magpie/internal/provider/closest.go#L67) |
+| out | var_spec | Closest | [95](../../magpie/internal/provider/closest.go#L95) |

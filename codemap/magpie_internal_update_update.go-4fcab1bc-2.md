@@ -8,9 +8,21 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Unwrap | method_declaration |  | [908](../../magpie/internal/update/update.go#L908) |
+| Network | function_declaration |  | [912](../../magpie/internal/update/update.go#L912) |
+| fetch | function_declaration |  | [919](../../magpie/internal/update/update.go#L919) |
+| have | var_spec | fetch | [925](../../magpie/internal/update/update.go#L925) |
+| body | var_spec | fetch | [972](../../magpie/internal/update/update.go#L972) |
+| readErr | type_spec |  | [1005](../../magpie/internal/update/update.go#L1005) |
+| r | field_declaration | readErr | [1006](../../magpie/internal/update/update.go#L1006) |
+| err | field_declaration | readErr | [1007](../../magpie/internal/update/update.go#L1007) |
+| Read | method_declaration |  | [1010](../../magpie/internal/update/update.go#L1010) |
+| counter | type_spec |  | [1019](../../magpie/internal/update/update.go#L1019) |
+| r | field_declaration | counter | [1020](../../magpie/internal/update/update.go#L1020) |
+| done | field_declaration | counter | [1021](../../magpie/internal/update/update.go#L1021) |
 | total | field_declaration | counter | [1022](../../magpie/internal/update/update.go#L1022) |
 | report | field_declaration | counter | [1023](../../magpie/internal/update/update.go#L1023) |
-| Read | method_declaration | *counter | [1026](../../magpie/internal/update/update.go#L1026) |
+| Read | method_declaration |  | [1026](../../magpie/internal/update/update.go#L1026) |
 | Alive | function_declaration |  | [1034](../../magpie/internal/update/update.go#L1034) |
 | OpenBeside | function_declaration |  | [1040](../../magpie/internal/update/update.go#L1040) |
 | openBeside | function_declaration |  | [1048](../../magpie/internal/update/update.go#L1048) |

@@ -9,12 +9,13 @@ Source SHA-256: 6c17a725a40dd0f1652cd0c8c3c3a58952d3ad259c610f735a0745d8778d019e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ollamaVersion | const_spec |  | [27](../../magpie/internal/gateway/ollama.go#L27) |
-| ollamaVersion | method_declaration | *Server | [29](../../magpie/internal/gateway/ollama.go#L29) |
-| ollamaTags | method_declaration | *Server | [36](../../magpie/internal/gateway/ollama.go#L36) |
+| ollamaVersion | method_declaration |  | [29](../../magpie/internal/gateway/ollama.go#L29) |
+| ollamaTags | method_declaration |  | [36](../../magpie/internal/gateway/ollama.go#L36) |
 | ollamaName | function_declaration |  | [50](../../magpie/internal/gateway/ollama.go#L50) |
-| ollamaShow | method_declaration | *Server | [66](../../magpie/internal/gateway/ollama.go#L66) |
-| Model | field_declaration | *Server.ollamaShow | [72](../../magpie/internal/gateway/ollama.go#L72) |
-| Name | field_declaration | *Server.ollamaShow | [73](../../magpie/internal/gateway/ollama.go#L73) |
+| ollamaShow | method_declaration |  | [66](../../magpie/internal/gateway/ollama.go#L66) |
+| req | var_spec | ollamaShow | [71](../../magpie/internal/gateway/ollama.go#L71) |
+| Model | field_declaration | ollamaShow::req | [72](../../magpie/internal/gateway/ollama.go#L72) |
+| Name | field_declaration | ollamaShow::req | [73](../../magpie/internal/gateway/ollama.go#L73) |
 | ollamaCapabilities | function_declaration |  | [116](../../magpie/internal/gateway/ollama.go#L116) |
 | ollamaArch | const_spec |  | [129](../../magpie/internal/gateway/ollama.go#L129) |
 | ollamaDefaultContext | const_spec |  | [133](../../magpie/internal/gateway/ollama.go#L133) |

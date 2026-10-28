@@ -9,12 +9,18 @@ Source SHA-256: 93dde94bb8e385ad2cba5aada233adb8f1c123f969487c6303da0737266b4301
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | searchAsFunction | function_declaration |  | [24](../../magpie/internal/gateway/toolsearch.go#L24) |
+| m | var_spec | searchAsFunction | [30](../../magpie/internal/gateway/toolsearch.go#L30) |
+| named | var_spec | searchAsFunction | [64](../../magpie/internal/gateway/toolsearch.go#L64) |
+| rt | var_spec | searchAsFunction | [71](../../magpie/internal/gateway/toolsearch.go#L71) |
 | undefer | function_declaration |  | [96](../../magpie/internal/gateway/toolsearch.go#L96) |
 | marshalPlain | function_declaration |  | [108](../../magpie/internal/gateway/toolsearch.go#L108) |
-| searchTidy | struct_type |  | [124](../../magpie/internal/gateway/toolsearch.go#L124) |
+| b | var_spec | marshalPlain | [112](../../magpie/internal/gateway/toolsearch.go#L112) |
+| searchTidy | type_spec |  | [124](../../magpie/internal/gateway/toolsearch.go#L124) |
 | buf | field_declaration | searchTidy | [125](../../magpie/internal/gateway/toolsearch.go#L125) |
-| write | method_declaration | *searchTidy | [128](../../magpie/internal/gateway/toolsearch.go#L128) |
-| flush | method_declaration | *searchTidy | [139](../../magpie/internal/gateway/toolsearch.go#L139) |
+| write | method_declaration |  | [128](../../magpie/internal/gateway/toolsearch.go#L128) |
+| flush | method_declaration |  | [139](../../magpie/internal/gateway/toolsearch.go#L139) |
 | searchLines | function_declaration |  | [145](../../magpie/internal/gateway/toolsearch.go#L145) |
+| out | var_spec | searchLines | [149](../../magpie/internal/gateway/toolsearch.go#L149) |
 | searchLine | function_declaration |  | [162](../../magpie/internal/gateway/toolsearch.go#L162) |
+| ev | var_spec | searchLine | [174](../../magpie/internal/gateway/toolsearch.go#L174) |
 | searchCall | function_declaration |  | [202](../../magpie/internal/gateway/toolsearch.go#L202) |

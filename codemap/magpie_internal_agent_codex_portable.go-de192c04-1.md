@@ -9,7 +9,6 @@ Source SHA-256: 4dab794c1a5a893863a9e3709dffa0f748ed6ca6b5afd979e3c7cc2a7a52d36d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | codexPortEvery | var_spec |  | [20](../../magpie/internal/agent/codex_portable.go#L20) |
-| codexPortAfter | var_spec |  | [20](../../magpie/internal/agent/codex_portable.go#L20) |
 | codexPortUnwire | const_spec |  | [24](../../magpie/internal/agent/codex_portable.go#L24) |
 | portCodexHome | function_declaration |  | [28](../../magpie/internal/agent/codex_portable.go#L28) |
 | PortCodexRollouts | function_declaration |  | [42](../../magpie/internal/agent/codex_portable.go#L42) |

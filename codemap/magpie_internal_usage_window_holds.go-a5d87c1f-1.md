@@ -11,22 +11,23 @@ Source SHA-256: 642fce2f8f7c321434f8cba5f7acf91445980d8662de8127cb12e5dde609f91f
 | init | function_declaration |  | [24](../../magpie/internal/usage/window_holds.go#L24) |
 | WithWindowHolds | function_declaration |  | [28](../../magpie/internal/usage/window_holds.go#L28) |
 | holdsSince | function_declaration |  | [42](../../magpie/internal/usage/window_holds.go#L42) |
+| since | var_spec | holdsSince | [43](../../magpie/internal/usage/window_holds.go#L43) |
 | readAtOf | function_declaration |  | [56](../../magpie/internal/usage/window_holds.go#L56) |
 | holdsBounds | function_declaration |  | [69](../../magpie/internal/usage/window_holds.go#L69) |
-| dryRun | struct_type |  | [96](../../magpie/internal/usage/window_holds.go#L96) |
+| dryRun | type_spec |  | [96](../../magpie/internal/usage/window_holds.go#L96) |
 | lastLeft | field_declaration | dryRun | [96](../../magpie/internal/usage/window_holds.go#L96) |
-| firstDry | field_declaration | dryRun | [96](../../magpie/internal/usage/window_holds.go#L96) |
-| refilled | field_declaration | dryRun | [96](../../magpie/internal/usage/window_holds.go#L96) |
-| holds | method_declaration | dryRun | [98](../../magpie/internal/usage/window_holds.go#L98) |
+| holds | method_declaration |  | [98](../../magpie/internal/usage/window_holds.go#L98) |
 | dryRuns | function_declaration |  | [104](../../magpie/internal/usage/window_holds.go#L104) |
+| run | var_spec | dryRuns | [136](../../magpie/internal/usage/window_holds.go#L136) |
+| lastLeft | var_spec | dryRuns | [137](../../magpie/internal/usage/window_holds.go#L137) |
 | windowHolds | function_declaration |  | [180](../../magpie/internal/usage/window_holds.go#L180) |
-| slot | struct_type | windowHolds | [181](../../magpie/internal/usage/window_holds.go#L181) |
-| q | field_declaration | windowHolds.slot | [181](../../magpie/internal/usage/window_holds.go#L181) |
-| w | field_declaration | windowHolds.slot | [181](../../magpie/internal/usage/window_holds.go#L181) |
-| span | struct_type | windowHolds | [182](../../magpie/internal/usage/window_holds.go#L182) |
-| start | field_declaration | windowHolds.span | [182](../../magpie/internal/usage/window_holds.go#L182) |
-| end | field_declaration | windowHolds.span | [182](../../magpie/internal/usage/window_holds.go#L182) |
-| runKey | struct_type | windowHolds | [210](../../magpie/internal/usage/window_holds.go#L210) |
-| account | field_declaration | windowHolds.runKey | [211](../../magpie/internal/usage/window_holds.go#L211) |
-| run | field_declaration | windowHolds.runKey | [212](../../magpie/internal/usage/window_holds.go#L212) |
+| slot | type_spec | windowHolds | [181](../../magpie/internal/usage/window_holds.go#L181) |
+| q | field_declaration | windowHolds::slot | [181](../../magpie/internal/usage/window_holds.go#L181) |
+| span | type_spec | windowHolds | [182](../../magpie/internal/usage/window_holds.go#L182) |
+| start | field_declaration | windowHolds::span | [182](../../magpie/internal/usage/window_holds.go#L182) |
+| runKey | type_spec | windowHolds | [210](../../magpie/internal/usage/window_holds.go#L210) |
+| account | field_declaration | windowHolds::runKey | [211](../../magpie/internal/usage/window_holds.go#L211) |
+| run | field_declaration | windowHolds::runKey | [212](../../magpie/internal/usage/window_holds.go#L212) |
+| runs | var_spec | windowHolds | [222](../../magpie/internal/usage/window_holds.go#L222) |
 | apiPricer | function_declaration |  | [299](../../magpie/internal/usage/window_holds.go#L299) |
+| pr | var_spec | apiPricer | [307](../../magpie/internal/usage/window_holds.go#L307) |

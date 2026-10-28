@@ -11,7 +11,7 @@ Source SHA-256: 10f4078c3d2eb9f953f145b5b8c3c9787557809b7a7836a5c608692ed6845363
 | pluginCheckinBy | function_declaration |  | [30](../../magpie/internal/provider/plugin_checkin.go#L30) |
 | pluginCheckinPath | function_declaration |  | [32](../../magpie/internal/provider/plugin_checkin.go#L32) |
 | pluginCheckinMu | var_spec |  | [34](../../magpie/internal/provider/plugin_checkin.go#L34) |
-| pluginCheckinAcct | struct_type |  | [37](../../magpie/internal/provider/plugin_checkin.go#L37) |
+| pluginCheckinAcct | type_spec |  | [37](../../magpie/internal/provider/plugin_checkin.go#L37) |
 | User | field_declaration | pluginCheckinAcct | [38](../../magpie/internal/provider/plugin_checkin.go#L38) |
 | On | field_declaration | pluginCheckinAcct | [39](../../magpie/internal/provider/plugin_checkin.go#L39) |
 | key | field_declaration | pluginCheckinAcct | [40](../../magpie/internal/provider/plugin_checkin.go#L40) |
@@ -20,32 +20,37 @@ Source SHA-256: 10f4078c3d2eb9f953f145b5b8c3c9787557809b7a7836a5c608692ed6845363
 | do | field_declaration | pluginCheckinAcct | [45](../../magpie/internal/provider/plugin_checkin.go#L45) |
 | pluginCheckinKey | function_declaration |  | [56](../../magpie/internal/provider/plugin_checkin.go#L56) |
 | pluginCheckinLegacyKey | function_declaration |  | [60](../../magpie/internal/provider/plugin_checkin.go#L60) |
-| pluginCheckinProvider | struct_type |  | [69](../../magpie/internal/provider/plugin_checkin.go#L69) |
+| pluginCheckinProvider | type_spec |  | [69](../../magpie/internal/provider/plugin_checkin.go#L69) |
 | ID | field_declaration | pluginCheckinProvider | [70](../../magpie/internal/provider/plugin_checkin.go#L70) |
-| Name | field_declaration | pluginCheckinProvider | [70](../../magpie/internal/provider/plugin_checkin.go#L70) |
 | accounts | field_declaration | pluginCheckinProvider | [71](../../magpie/internal/provider/plugin_checkin.go#L71) |
 | pluginCheckinProviders | var_spec |  | [76](../../magpie/internal/provider/plugin_checkin.go#L76) |
-| out | var_spec |  | [77](../../magpie/internal/provider/plugin_checkin.go#L77) |
+| out | var_spec | pluginCheckinProviders | [77](../../magpie/internal/provider/plugin_checkin.go#L77) |
 | pluginCheckinAdopted | var_spec |  | [108](../../magpie/internal/provider/plugin_checkin.go#L108) |
 | adoptLegacyPluginCheckins | function_declaration |  | [127](../../magpie/internal/provider/plugin_checkin.go#L127) |
+| order | var_spec | adoptLegacyPluginCheckins | [141](../../magpie/internal/provider/plugin_checkin.go#L141) |
 | adoptLegacyCheckinFile | function_declaration |  | [170](../../magpie/internal/provider/plugin_checkin.go#L170) |
 | adoptLegacyCheckinOff | function_declaration |  | [207](../../magpie/internal/provider/plugin_checkin.go#L207) |
+| out | var_spec | adoptLegacyCheckinOff | [216](../../magpie/internal/provider/plugin_checkin.go#L216) |
 | pluginChecksIn | function_declaration |  | [239](../../magpie/internal/provider/plugin_checkin.go#L239) |
 | PluginCheckinOn | function_declaration |  | [244](../../magpie/internal/provider/plugin_checkin.go#L244) |
 | pluginRechecks | function_declaration |  | [267](../../magpie/internal/provider/plugin_checkin.go#L267) |
-| checkiner | method_declaration | pluginCheckinProvider | [269](../../magpie/internal/provider/plugin_checkin.go#L269) |
-| pluginCheckiner | struct_type |  | [281](../../magpie/internal/provider/plugin_checkin.go#L281) |
+| checkiner | method_declaration |  | [269](../../magpie/internal/provider/plugin_checkin.go#L269) |
+| out | var_spec | checkiner | [271](../../magpie/internal/provider/plugin_checkin.go#L271) |
+| pluginCheckiner | type_spec |  | [281](../../magpie/internal/provider/plugin_checkin.go#L281) |
 | now | field_declaration | pluginCheckiner | [282](../../magpie/internal/provider/plugin_checkin.go#L282) |
 | only | field_declaration | pluginCheckiner | [283](../../magpie/internal/provider/plugin_checkin.go#L283) |
-| clock | method_declaration | pluginCheckiner | [286](../../magpie/internal/provider/plugin_checkin.go#L286) |
-| checkinNow | method_declaration | pluginCheckiner | [288](../../magpie/internal/provider/plugin_checkin.go#L288) |
+| clock | method_declaration |  | [286](../../magpie/internal/provider/plugin_checkin.go#L286) |
+| checkinNow | method_declaration |  | [288](../../magpie/internal/provider/plugin_checkin.go#L288) |
+| out | var_spec | checkinNow | [292](../../magpie/internal/provider/plugin_checkin.go#L292) |
 | CheckInPlugins | function_declaration |  | [308](../../magpie/internal/provider/plugin_checkin.go#L308) |
-| PluginCheckin | struct_type |  | [325](../../magpie/internal/provider/plugin_checkin.go#L325) |
+| PluginCheckin | type_spec |  | [325](../../magpie/internal/provider/plugin_checkin.go#L325) |
 | ID | field_declaration | PluginCheckin | [326](../../magpie/internal/provider/plugin_checkin.go#L326) |
 | Name | field_declaration | PluginCheckin | [327](../../magpie/internal/provider/plugin_checkin.go#L327) |
 | On | field_declaration | PluginCheckin | [328](../../magpie/internal/provider/plugin_checkin.go#L328) |
 | Checkins | field_declaration | PluginCheckin | [329](../../magpie/internal/provider/plugin_checkin.go#L329) |
 | PluginCheckins | function_declaration |  | [334](../../magpie/internal/provider/plugin_checkin.go#L334) |
+| out | var_spec | PluginCheckins | [337](../../magpie/internal/provider/plugin_checkin.go#L337) |
 | HasPluginCheckin | function_declaration |  | [355](../../magpie/internal/provider/plugin_checkin.go#L355) |
 | pluginCheckinMarks | function_declaration |  | [359](../../magpie/internal/provider/plugin_checkin.go#L359) |
+| on | var_spec | pluginCheckinMarks | [366](../../magpie/internal/provider/plugin_checkin.go#L366) |
 | KeepPluginsCheckedIn | function_declaration |  | [380](../../magpie/internal/provider/plugin_checkin.go#L380) |

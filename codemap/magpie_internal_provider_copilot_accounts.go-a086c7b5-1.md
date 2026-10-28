@@ -11,9 +11,10 @@ Source SHA-256: bd5fa7a1c0fb656258e04ef986dba2267ce9da95c6f244752591896bf2b5c873
 | copilotConfigDir | function_declaration |  | [28](../../magpie/internal/provider/copilot_accounts.go#L28) |
 | CopilotAccountName | function_declaration |  | [41](../../magpie/internal/provider/copilot_accounts.go#L41) |
 | copilotSavedName | function_declaration |  | [53](../../magpie/internal/provider/copilot_accounts.go#L53) |
-| Host | field_declaration | copilotSavedName | [58](../../magpie/internal/provider/copilot_accounts.go#L58) |
+| a | var_spec | copilotSavedName | [57](../../magpie/internal/provider/copilot_accounts.go#L57) |
+| Host | field_declaration | copilotSavedName::a | [58](../../magpie/internal/provider/copilot_accounts.go#L58) |
 | copilotRenamed | function_declaration |  | [72](../../magpie/internal/provider/copilot_accounts.go#L72) |
-| renameTo | method_declaration | *savedLogin | [80](../../magpie/internal/provider/copilot_accounts.go#L80) |
+| renameTo | method_declaration |  | [80](../../magpie/internal/provider/copilot_accounts.go#L80) |
 | renameMu | var_spec |  | [94](../../magpie/internal/provider/copilot_accounts.go#L94) |
 | renameFailedAt | var_spec |  | [95](../../magpie/internal/provider/copilot_accounts.go#L95) |
 | renameDue | function_declaration |  | [98](../../magpie/internal/provider/copilot_accounts.go#L98) |
@@ -21,11 +22,14 @@ Source SHA-256: bd5fa7a1c0fb656258e04ef986dba2267ce9da95c6f244752591896bf2b5c873
 | moveAccountSettings | function_declaration |  | [149](../../magpie/internal/provider/copilot_accounts.go#L149) |
 | moveKey | function_declaration |  | [179](../../magpie/internal/provider/copilot_accounts.go#L179) |
 | copilotSaved | function_declaration |  | [193](../../magpie/internal/provider/copilot_accounts.go#L193) |
-| copilotLoginApp | struct_type |  | [206](../../magpie/internal/provider/copilot_accounts.go#L206) |
+| app | var_spec | copilotSaved | [194](../../magpie/internal/provider/copilot_accounts.go#L194) |
+| copilotLoginApp | type_spec |  | [206](../../magpie/internal/provider/copilot_accounts.go#L206) |
 | app | field_declaration | copilotLoginApp | [208](../../magpie/internal/provider/copilot_accounts.go#L208) |
 | copilotLogins | function_declaration |  | [213](../../magpie/internal/provider/copilot_accounts.go#L213) |
+| out | var_spec | copilotLogins | [216](../../magpie/internal/provider/copilot_accounts.go#L216) |
 | copilotOwnUser | function_declaration |  | [237](../../magpie/internal/provider/copilot_accounts.go#L237) |
 | copilotSide | function_declaration |  | [245](../../magpie/internal/provider/copilot_accounts.go#L245) |
+| out | var_spec | copilotSide | [246](../../magpie/internal/provider/copilot_accounts.go#L246) |
 | copilotLoginList | function_declaration |  | [253](../../magpie/internal/provider/copilot_accounts.go#L253) |
 | switchCopilotLogin | function_declaration |  | [255](../../magpie/internal/provider/copilot_accounts.go#L255) |
 | setCopilotLoginOn | function_declaration |  | [259](../../magpie/internal/provider/copilot_accounts.go#L259) |
@@ -35,7 +39,10 @@ Source SHA-256: bd5fa7a1c0fb656258e04ef986dba2267ce9da95c6f244752591896bf2b5c873
 | copilotProbeEditor | function_declaration |  | [306](../../magpie/internal/provider/copilot_accounts.go#L306) |
 | copilotAccount | function_declaration |  | [319](../../magpie/internal/provider/copilot_accounts.go#L319) |
 | copilotAlsoOn | function_declaration |  | [328](../../magpie/internal/provider/copilot_accounts.go#L328) |
+| out | var_spec | copilotAlsoOn | [329](../../magpie/internal/provider/copilot_accounts.go#L329) |
 | copilotPlans | var_spec |  | [343](../../magpie/internal/provider/copilot_accounts.go#L343) |
 | copilotUser | function_declaration |  | [351](../../magpie/internal/provider/copilot_accounts.go#L351) |
-| Login | field_declaration | copilotUser | [371](../../magpie/internal/provider/copilot_accounts.go#L371) |
+| gh | var_spec | copilotUser | [370](../../magpie/internal/provider/copilot_accounts.go#L370) |
+| Login | field_declaration | copilotUser::gh | [371](../../magpie/internal/provider/copilot_accounts.go#L371) |
+| cp | var_spec | copilotUser | [381](../../magpie/internal/provider/copilot_accounts.go#L381) |
 | GitHubUserURL | var_spec |  | [394](../../magpie/internal/provider/copilot_accounts.go#L394) |

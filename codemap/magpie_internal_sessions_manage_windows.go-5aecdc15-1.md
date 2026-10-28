@@ -10,4 +10,6 @@ Source SHA-256: 208304f139ef317ffa21814c72144250a022e529cefa4ac899f0b7532969146d
 | --- | --- | --- | ---: |
 | crossDeviceErr | const_spec |  | [12](../../magpie/internal/sessions/manage_windows.go#L12) |
 | copySymlink | function_declaration |  | [14](../../magpie/internal/sessions/manage_windows.go#L14) |
+| flags | var_spec | copySymlink | [39](../../magpie/internal/sessions/manage_windows.go#L39) |
+| allowUnprivilegedCreate | const_spec | copySymlink | [43](../../magpie/internal/sessions/manage_windows.go#L43) |
 | windowsSymlinkPath | function_declaration |  | [57](../../magpie/internal/sessions/manage_windows.go#L57) |

@@ -13,52 +13,57 @@ Source SHA-256: 863374bb400494719431ab757bddcb18f8adfa033851759aef28672d429cca17
 | copilotAutoV2Version | const_spec |  | [60](../../magpie/internal/provider/copilot_auto.go#L60) |
 | copilotAutoReuse | const_spec |  | [65](../../magpie/internal/provider/copilot_auto.go#L65) |
 | copilotAutoModel | var_spec |  | [68](../../magpie/internal/provider/copilot_auto.go#L68) |
-| copilotAutoSession | struct_type |  | [70](../../magpie/internal/provider/copilot_auto.go#L70) |
+| copilotAutoSession | type_spec |  | [70](../../magpie/internal/provider/copilot_auto.go#L70) |
 | Token | field_declaration | copilotAutoSession | [71](../../magpie/internal/provider/copilot_auto.go#L71) |
 | Model | field_declaration | copilotAutoSession | [72](../../magpie/internal/provider/copilot_auto.go#L72) |
 | ExpiresAt | field_declaration | copilotAutoSession | [73](../../magpie/internal/provider/copilot_auto.go#L73) |
 | Via | field_declaration | copilotAutoSession | [76](../../magpie/internal/provider/copilot_auto.go#L76) |
-| Skipped | field_declaration | copilotAutoSession | [76](../../magpie/internal/provider/copilot_auto.go#L76) |
 | AutoFallback | const_spec |  | [81](../../magpie/internal/provider/copilot_auto.go#L81) |
-| AutoPick | struct_type |  | [89](../../magpie/internal/provider/copilot_auto.go#L89) |
+| AutoPick | type_spec |  | [89](../../magpie/internal/provider/copilot_auto.go#L89) |
 | Model | field_declaration | AutoPick | [90](../../magpie/internal/provider/copilot_auto.go#L90) |
 | Via | field_declaration | AutoPick | [91](../../magpie/internal/provider/copilot_auto.go#L91) |
 | Skipped | field_declaration | AutoPick | [92](../../magpie/internal/provider/copilot_auto.go#L92) |
 | Refused | field_declaration | AutoPick | [93](../../magpie/internal/provider/copilot_auto.go#L93) |
 | API | field_declaration | AutoPick | [94](../../magpie/internal/provider/copilot_auto.go#L94) |
 | Session | field_declaration | AutoPick | [95](../../magpie/internal/provider/copilot_auto.go#L95) |
-| autoPicks | struct_type |  | [98](../../magpie/internal/provider/copilot_auto.go#L98) |
+| autoPicks | type_spec |  | [98](../../magpie/internal/provider/copilot_auto.go#L98) |
 | mu | field_declaration | autoPicks | [99](../../magpie/internal/provider/copilot_auto.go#L99) |
 | list | field_declaration | autoPicks | [100](../../magpie/internal/provider/copilot_auto.go#L100) |
 | onPick | field_declaration | autoPicks | [101](../../magpie/internal/provider/copilot_auto.go#L101) |
-| autoPicksKey | struct_type |  | [104](../../magpie/internal/provider/copilot_auto.go#L104) |
+| autoPicksKey | type_spec |  | [104](../../magpie/internal/provider/copilot_auto.go#L104) |
 | WithAutoPicks | function_declaration |  | [109](../../magpie/internal/provider/copilot_auto.go#L109) |
 | notePick | function_declaration |  | [119](../../magpie/internal/provider/copilot_auto.go#L119) |
 | pickRefused | function_declaration |  | [140](../../magpie/internal/provider/copilot_auto.go#L140) |
 | copilotAutoMu | var_spec |  | [159](../../magpie/internal/provider/copilot_auto.go#L159) |
 | copilotAutoSessions | var_spec |  | [160](../../magpie/internal/provider/copilot_auto.go#L160) |
-| copilotAutoKey | struct_type |  | [163](../../magpie/internal/provider/copilot_auto.go#L163) |
-| copilotAutoPromptKey | struct_type |  | [165](../../magpie/internal/provider/copilot_auto.go#L165) |
+| copilotAutoKey | type_spec |  | [163](../../magpie/internal/provider/copilot_auto.go#L163) |
+| copilotAutoPromptKey | type_spec |  | [165](../../magpie/internal/provider/copilot_auto.go#L165) |
 | WithAutoPrompt | function_declaration |  | [169](../../magpie/internal/provider/copilot_auto.go#L169) |
 | copilotAutoResolve | function_declaration |  | [176](../../magpie/internal/provider/copilot_auto.go#L176) |
-| Token | field_declaration | copilotAutoResolve | [215](../../magpie/internal/provider/copilot_auto.go#L215) |
-| Selected | field_declaration | copilotAutoResolve | [216](../../magpie/internal/provider/copilot_auto.go#L216) |
-| Available | field_declaration | copilotAutoResolve | [217](../../magpie/internal/provider/copilot_auto.go#L217) |
-| ExpiresAt | field_declaration | copilotAutoResolve | [218](../../magpie/internal/provider/copilot_auto.go#L218) |
-| ID | field_declaration | copilotAutoResolve | [230](../../magpie/internal/provider/copilot_auto.go#L230) |
+| v | var_spec | copilotAutoResolve | [214](../../magpie/internal/provider/copilot_auto.go#L214) |
+| Token | field_declaration | copilotAutoResolve::v | [215](../../magpie/internal/provider/copilot_auto.go#L215) |
+| Selected | field_declaration | copilotAutoResolve::v | [216](../../magpie/internal/provider/copilot_auto.go#L216) |
+| Available | field_declaration | copilotAutoResolve::v | [217](../../magpie/internal/provider/copilot_auto.go#L217) |
+| ExpiresAt | field_declaration | copilotAutoResolve::v | [218](../../magpie/internal/provider/copilot_auto.go#L218) |
+| model | var_spec | copilotAutoResolve | [227](../../magpie/internal/provider/copilot_auto.go#L227) |
+| m | var_spec | copilotAutoResolve | [229](../../magpie/internal/provider/copilot_auto.go#L229) |
+| ID | field_declaration | copilotAutoResolve::m | [230](../../magpie/internal/provider/copilot_auto.go#L230) |
 | copilotAutoRoute | function_declaration |  | [272](../../magpie/internal/provider/copilot_auto.go#L272) |
-| Token | field_declaration | copilotAutoRoute | [296](../../magpie/internal/provider/copilot_auto.go#L296) |
-| Selected | field_declaration | copilotAutoRoute | [297](../../magpie/internal/provider/copilot_auto.go#L297) |
-| ID | field_declaration | copilotAutoRoute | [298](../../magpie/internal/provider/copilot_auto.go#L298) |
-| Endpoints | field_declaration | copilotAutoRoute | [299](../../magpie/internal/provider/copilot_auto.go#L299) |
-| ExpiresAt | field_declaration | copilotAutoRoute | [301](../../magpie/internal/provider/copilot_auto.go#L301) |
+| v | var_spec | copilotAutoRoute | [295](../../magpie/internal/provider/copilot_auto.go#L295) |
+| Token | field_declaration | copilotAutoRoute::v | [296](../../magpie/internal/provider/copilot_auto.go#L296) |
+| Selected | field_declaration | copilotAutoRoute::v | [297](../../magpie/internal/provider/copilot_auto.go#L297) |
+| ID | field_declaration | copilotAutoRoute::v::Selected | [298](../../magpie/internal/provider/copilot_auto.go#L298) |
+| Endpoints | field_declaration | copilotAutoRoute::v::Selected | [299](../../magpie/internal/provider/copilot_auto.go#L299) |
+| ExpiresAt | field_declaration | copilotAutoRoute::v | [301](../../magpie/internal/provider/copilot_auto.go#L301) |
 | copilotAutoFallback | function_declaration |  | [329](../../magpie/internal/provider/copilot_auto.go#L329) |
-| ResolveAuto | method_declaration | Provider | [351](../../magpie/internal/provider/copilot_auto.go#L351) |
-| AutoNext | method_declaration | Provider | [365](../../magpie/internal/provider/copilot_auto.go#L365) |
+| ResolveAuto | method_declaration |  | [351](../../magpie/internal/provider/copilot_auto.go#L351) |
+| AutoNext | method_declaration |  | [365](../../magpie/internal/provider/copilot_auto.go#L365) |
 | CopilotRefusal | function_declaration |  | [378](../../magpie/internal/provider/copilot_auto.go#L378) |
 | copilotAutoSign | function_declaration |  | [384](../../magpie/internal/provider/copilot_auto.go#L384) |
+| m | var_spec | copilotAutoSign | [404](../../magpie/internal/provider/copilot_auto.go#L404) |
 | copilotAutoHeld | function_declaration |  | [422](../../magpie/internal/provider/copilot_auto.go#L422) |
 | copilotSeenMu | var_spec |  | [439](../../magpie/internal/provider/copilot_auto.go#L439) |
 | copilotSeen | var_spec |  | [440](../../magpie/internal/provider/copilot_auto.go#L440) |
 | copilotSeenAPIs | function_declaration |  | [443](../../magpie/internal/provider/copilot_auto.go#L443) |
+| out | var_spec | copilotSeenAPIs | [446](../../magpie/internal/provider/copilot_auto.go#L446) |
 | ForgetCopilotForTest | function_declaration |  | [457](../../magpie/internal/provider/copilot_auto.go#L457) |

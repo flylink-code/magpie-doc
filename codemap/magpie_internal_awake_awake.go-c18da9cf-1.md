@@ -15,8 +15,9 @@ Source SHA-256: 0b088fcd4c09d0a46afee541505dd591232c24e6b8fd76b1e065c349956a1f55
 | Off | const_spec |  | [43](../../magpie/internal/awake/awake.go#L43) |
 | System | const_spec |  | [44](../../magpie/internal/awake/awake.go#L44) |
 | Display | const_spec |  | [45](../../magpie/internal/awake/awake.go#L45) |
-| State | struct_type |  | [49](../../magpie/internal/awake/awake.go#L49) |
+| State | type_spec |  | [49](../../magpie/internal/awake/awake.go#L49) |
 | Busy | field_declaration | State | [50](../../magpie/internal/awake/awake.go#L50) |
 | Last | field_declaration | State | [51](../../magpie/internal/awake/awake.go#L51) |
 | want | function_declaration |  | [55](../../magpie/internal/awake/awake.go#L55) |
 | Keep | function_declaration |  | [61](../../magpie/internal/awake/awake.go#L61) |
+| release | var_spec | Keep | [62](../../magpie/internal/awake/awake.go#L62) |

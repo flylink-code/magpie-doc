@@ -12,3 +12,4 @@ Source SHA-256: 9da1c30c5cdd65c939881e7d0c4c326de57127c607f8c7dd5d16b1f4a3af799c
 | maxAllowLen | const_spec |  | [13](../../magpie/internal/settings/masking.go#L13) |
 | redactActions | function_declaration |  | [19](../../magpie/internal/settings/masking.go#L19) |
 | redactAllow | function_declaration |  | [42](../../magpie/internal/settings/masking.go#L42) |
+| out | var_spec | redactAllow | [43](../../magpie/internal/settings/masking.go#L43) |

@@ -13,5 +13,6 @@ Source SHA-256: 27100ee8844722280d0ce26566c88c6bc58f642724d4a5f0e74a7a8de2b286ee
 | muse | function_declaration |  | [33](../../magpie/internal/agent/muse.go#L33) |
 | museIn | function_declaration |  | [37](../../magpie/internal/agent/muse.go#L37) |
 | museAt | function_declaration |  | [41](../../magpie/internal/agent/muse.go#L41) |
+| own | var_spec | museAt | [152](../../magpie/internal/agent/muse.go#L152) |
 | museIcon | function_declaration |  | [164](../../magpie/internal/agent/muse.go#L164) |
 | noticeMuse | var_spec |  | [173](../../magpie/internal/agent/muse.go#L173) |

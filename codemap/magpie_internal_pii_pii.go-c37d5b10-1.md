@@ -27,7 +27,7 @@ Source SHA-256: 44013f1b5e99c6f85ec447bbc40a9da9b54d6b67d970cbb184e1cec5168c34a2
 | binDir | function_declaration |  | [97](../../magpie/internal/pii/pii.go#L97) |
 | Installed | function_declaration |  | [108](../../magpie/internal/pii/pii.go#L108) |
 | ErrNotInstalled | var_spec |  | [119](../../magpie/internal/pii/pii.go#L119) |
-| Status | struct_type |  | [122](../../magpie/internal/pii/pii.go#L122) |
+| Status | type_spec |  | [122](../../magpie/internal/pii/pii.go#L122) |
 | Model | field_declaration | Status | [123](../../magpie/internal/pii/pii.go#L123) |
 | Supported | field_declaration | Status | [124](../../magpie/internal/pii/pii.go#L124) |
 | Installed | field_declaration | Status | [125](../../magpie/internal/pii/pii.go#L125) |
@@ -48,31 +48,20 @@ Source SHA-256: 44013f1b5e99c6f85ec447bbc40a9da9b54d6b67d970cbb184e1cec5168c34a2
 | Remove | function_declaration |  | [165](../../magpie/internal/pii/pii.go#L165) |
 | PrivacyFilter | const_spec |  | [177](../../magpie/internal/pii/pii.go#L177) |
 | AstrLinkGuard | const_spec |  | [178](../../magpie/internal/pii/pii.go#L178) |
-| Model | interface_type |  | [182](../../magpie/internal/pii/pii.go#L182) |
-| ID | method_spec | Model | [183](../../magpie/internal/pii/pii.go#L183) |
-| Supported | method_spec | Model | [184](../../magpie/internal/pii/pii.go#L184) |
-| Installed | method_spec | Model | [185](../../magpie/internal/pii/pii.go#L185) |
-| Size | method_spec | Model | [187](../../magpie/internal/pii/pii.go#L187) |
-| Find | method_spec | Model | [188](../../magpie/internal/pii/pii.go#L188) |
-| Now | method_spec | Model | [189](../../magpie/internal/pii/pii.go#L189) |
-| Download | method_spec | Model | [192](../../magpie/internal/pii/pii.go#L192) |
-| Cancel | method_spec | Model | [193](../../magpie/internal/pii/pii.go#L193) |
-| Warm | method_spec | Model | [195](../../magpie/internal/pii/pii.go#L195) |
-| Stop | method_spec | Model | [197](../../magpie/internal/pii/pii.go#L197) |
-| Remove | method_spec | Model | [198](../../magpie/internal/pii/pii.go#L198) |
+| Model | type_spec |  | [182](../../magpie/internal/pii/pii.go#L182) |
 | Models | function_declaration |  | [202](../../magpie/internal/pii/pii.go#L202) |
 | Of | function_declaration |  | [205](../../magpie/internal/pii/pii.go#L205) |
 | Choose | function_declaration |  | [218](../../magpie/internal/pii/pii.go#L218) |
-| pfModel | struct_type |  | [230](../../magpie/internal/pii/pii.go#L230) |
-| ID | method_declaration | pfModel | [232](../../magpie/internal/pii/pii.go#L232) |
-| Supported | method_declaration | pfModel | [233](../../magpie/internal/pii/pii.go#L233) |
-| Installed | method_declaration | pfModel | [234](../../magpie/internal/pii/pii.go#L234) |
-| Size | method_declaration | pfModel | [235](../../magpie/internal/pii/pii.go#L235) |
-| Now | method_declaration | pfModel | [236](../../magpie/internal/pii/pii.go#L236) |
-| Download | method_declaration | pfModel | [237](../../magpie/internal/pii/pii.go#L237) |
-| Cancel | method_declaration | pfModel | [238](../../magpie/internal/pii/pii.go#L238) |
-| Warm | method_declaration | pfModel | [239](../../magpie/internal/pii/pii.go#L239) |
-| Stop | method_declaration | pfModel | [240](../../magpie/internal/pii/pii.go#L240) |
-| Remove | method_declaration | pfModel | [241](../../magpie/internal/pii/pii.go#L241) |
-| Find | method_declaration | pfModel | [242](../../magpie/internal/pii/pii.go#L242) |
+| pfModel | type_spec |  | [230](../../magpie/internal/pii/pii.go#L230) |
+| ID | method_declaration |  | [232](../../magpie/internal/pii/pii.go#L232) |
+| Supported | method_declaration |  | [233](../../magpie/internal/pii/pii.go#L233) |
+| Installed | method_declaration |  | [234](../../magpie/internal/pii/pii.go#L234) |
+| Size | method_declaration |  | [235](../../magpie/internal/pii/pii.go#L235) |
+| Now | method_declaration |  | [236](../../magpie/internal/pii/pii.go#L236) |
+| Download | method_declaration |  | [237](../../magpie/internal/pii/pii.go#L237) |
+| Cancel | method_declaration |  | [238](../../magpie/internal/pii/pii.go#L238) |
+| Warm | method_declaration |  | [239](../../magpie/internal/pii/pii.go#L239) |
+| Stop | method_declaration |  | [240](../../magpie/internal/pii/pii.go#L240) |
+| Remove | method_declaration |  | [241](../../magpie/internal/pii/pii.go#L241) |
+| Find | method_declaration |  | [242](../../magpie/internal/pii/pii.go#L242) |
 | idleAfter | var_spec |  | [247](../../magpie/internal/pii/pii.go#L247) |

@@ -8,7 +8,7 @@ Source SHA-256: 9876776f01654e15b0faa0c8cfcdfd35a0820cebd44d501d24daebbc84fd2cbd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| shim | struct_type |  | [30](../../magpie/internal/agent/cliupdate_shim.go#L30) |
+| shim | type_spec |  | [30](../../magpie/internal/agent/cliupdate_shim.go#L30) |
 | kind | field_declaration | shim | [31](../../magpie/internal/agent/cliupdate_shim.go#L31) |
 | mgr | field_declaration | shim | [32](../../magpie/internal/agent/cliupdate_shim.go#L32) |
 | name | field_declaration | shim | [33](../../magpie/internal/agent/cliupdate_shim.go#L33) |

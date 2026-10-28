@@ -9,10 +9,11 @@ Source SHA-256: 595630a83e7c71d937d2223589f216e4f6bbc43e2d23f5159ceb43fd8ae744e2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | RenameProvider | function_declaration |  | [14](../../magpie/internal/agent/rename.go#L14) |
-| move | struct_type | RenameProvider | [17](../../magpie/internal/agent/rename.go#L17) |
-| a | field_declaration | RenameProvider.move | [18](../../magpie/internal/agent/rename.go#L18) |
-| key | field_declaration | RenameProvider.move | [19](../../magpie/internal/agent/rename.go#L19) |
-| val | field_declaration | RenameProvider.move | [19](../../magpie/internal/agent/rename.go#L19) |
+| move | type_spec | RenameProvider | [17](../../magpie/internal/agent/rename.go#L17) |
+| a | field_declaration | RenameProvider::move | [18](../../magpie/internal/agent/rename.go#L18) |
+| key | field_declaration | RenameProvider::move | [19](../../magpie/internal/agent/rename.go#L19) |
+| moves | var_spec | RenameProvider | [23](../../magpie/internal/agent/rename.go#L23) |
+| moved | var_spec | RenameProvider | [61](../../magpie/internal/agent/rename.go#L61) |
 | MoveOffAccountIDs | function_declaration |  | [94](../../magpie/internal/agent/rename.go#L94) |
 | renameRef | function_declaration |  | [103](../../magpie/internal/agent/rename.go#L103) |
 | renameRefList | function_declaration |  | [115](../../magpie/internal/agent/rename.go#L115) |

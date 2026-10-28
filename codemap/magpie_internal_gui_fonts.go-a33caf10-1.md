@@ -12,3 +12,5 @@ Source SHA-256: 4d49c61c52bdff3b980b9ce76f0c22b502ac4d32f09300154de817a3435d6174
 | sameFont | function_declaration |  | [15](../../magpie/internal/gui/fonts.go#L15) |
 | fontSettingsJS | function_declaration |  | [19](../../magpie/internal/gui/fonts.go#L19) |
 | fontRoutes | function_declaration |  | [26](../../magpie/internal/gui/fonts.go#L26) |
+| mu | var_spec | fontRoutes | [27](../../magpie/internal/gui/fonts.go#L27) |
+| cached | var_spec | fontRoutes | [28](../../magpie/internal/gui/fonts.go#L28) |

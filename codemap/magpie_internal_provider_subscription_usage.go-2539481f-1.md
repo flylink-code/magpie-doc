@@ -8,7 +8,7 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| QuotaWindow | struct_type |  | [29](../../magpie/internal/provider/subscription_usage.go#L29) |
+| QuotaWindow | type_spec |  | [29](../../magpie/internal/provider/subscription_usage.go#L29) |
 | Unlimited | field_declaration | QuotaWindow | [30](../../magpie/internal/provider/subscription_usage.go#L30) |
 | Name | field_declaration | QuotaWindow | [31](../../magpie/internal/provider/subscription_usage.go#L31) |
 | Used | field_declaration | QuotaWindow | [32](../../magpie/internal/provider/subscription_usage.go#L32) |
@@ -35,7 +35,7 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | StartsAt | field_declaration | QuotaWindow | [106](../../magpie/internal/provider/subscription_usage.go#L106) |
 | matches | field_declaration | QuotaWindow | [108](../../magpie/internal/provider/subscription_usage.go#L108) |
 | partial | field_declaration | QuotaWindow | [113](../../magpie/internal/provider/subscription_usage.go#L113) |
-| SubscriptionQuota | struct_type |  | [118](../../magpie/internal/provider/subscription_usage.go#L118) |
+| SubscriptionQuota | type_spec |  | [118](../../magpie/internal/provider/subscription_usage.go#L118) |
 | Provider | field_declaration | SubscriptionQuota | [119](../../magpie/internal/provider/subscription_usage.go#L119) |
 | Name | field_declaration | SubscriptionQuota | [120](../../magpie/internal/provider/subscription_usage.go#L120) |
 | Icon | field_declaration | SubscriptionQuota | [121](../../magpie/internal/provider/subscription_usage.go#L121) |
@@ -73,6 +73,10 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | readSeq | field_declaration | SubscriptionQuota | [213](../../magpie/internal/provider/subscription_usage.go#L213) |
 | glmPlan | field_declaration | SubscriptionQuota | [216](../../magpie/internal/provider/subscription_usage.go#L216) |
 | subscriptionUsageCache | var_spec |  | [219](../../magpie/internal/provider/subscription_usage.go#L219) |
+| at | field_declaration | subscriptionUsageCache | [221](../../magpie/internal/provider/subscription_usage.go#L221) |
+| data | field_declaration | subscriptionUsageCache | [222](../../magpie/internal/provider/subscription_usage.go#L222) |
+| pending | field_declaration | subscriptionUsageCache | [223](../../magpie/internal/provider/subscription_usage.go#L223) |
+| asked | field_declaration | subscriptionUsageCache | [224](../../magpie/internal/provider/subscription_usage.go#L224) |
 | OnSubscriptionUsage | function_declaration |  | [231](../../magpie/internal/provider/subscription_usage.go#L231) |
 | onSubscriptionUsage | var_spec |  | [239](../../magpie/internal/provider/subscription_usage.go#L239) |
 | toldUsage | function_declaration |  | [245](../../magpie/internal/provider/subscription_usage.go#L245) |
@@ -80,31 +84,27 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | SubscriptionUsage | function_declaration |  | [261](../../magpie/internal/provider/subscription_usage.go#L261) |
 | SubscriptionUsageReading | function_declaration |  | [322](../../magpie/internal/provider/subscription_usage.go#L322) |
 | visibleQuotas | function_declaration |  | [330](../../magpie/internal/provider/subscription_usage.go#L330) |
+| chosen | var_spec | visibleQuotas | [335](../../magpie/internal/provider/subscription_usage.go#L335) |
+| base | var_spec | visibleQuotas | [345](../../magpie/internal/provider/subscription_usage.go#L345) |
 | exposedIDs | function_declaration |  | [364](../../magpie/internal/provider/subscription_usage.go#L364) |
 | chosenWindows | function_declaration |  | [381](../../magpie/internal/provider/subscription_usage.go#L381) |
+| out | var_spec | chosenWindows | [382](../../magpie/internal/provider/subscription_usage.go#L382) |
 | fetchSubscriptionUsage | function_declaration |  | [401](../../magpie/internal/provider/subscription_usage.go#L401) |
+| fetches | var_spec | fetchSubscriptionUsage | [437](../../magpie/internal/provider/subscription_usage.go#L437) |
+| wg | var_spec | fetchSubscriptionUsage | [513](../../magpie/internal/provider/subscription_usage.go#L513) |
 | accountsOf | function_declaration |  | [524](../../magpie/internal/provider/subscription_usage.go#L524) |
 | withUser | function_declaration |  | [532](../../magpie/internal/provider/subscription_usage.go#L532) |
 | perLogin | function_declaration |  | [542](../../magpie/internal/provider/subscription_usage.go#L542) |
+| out | var_spec | perLogin | [543](../../magpie/internal/provider/subscription_usage.go#L543) |
 | accountJSON | function_declaration |  | [554](../../magpie/internal/provider/subscription_usage.go#L554) |
-| accountStatusError | struct_type |  | [580](../../magpie/internal/provider/subscription_usage.go#L580) |
+| accountStatusError | type_spec |  | [580](../../magpie/internal/provider/subscription_usage.go#L580) |
 | status | field_declaration | accountStatusError | [581](../../magpie/internal/provider/subscription_usage.go#L581) |
 | retryAfter | field_declaration | accountStatusError | [582](../../magpie/internal/provider/subscription_usage.go#L582) |
 | body | field_declaration | accountStatusError | [583](../../magpie/internal/provider/subscription_usage.go#L583) |
-| Error | method_declaration | *accountStatusError | [586](../../magpie/internal/provider/subscription_usage.go#L586) |
+| Error | method_declaration |  | [586](../../magpie/internal/provider/subscription_usage.go#L586) |
 | claudeSubscriptionUsage | function_declaration |  | [592](../../magpie/internal/provider/subscription_usage.go#L592) |
+| err | var_spec | claudeSubscriptionUsage | [600](../../magpie/internal/provider/subscription_usage.go#L600) |
 | readNow | function_declaration |  | [612](../../magpie/internal/provider/subscription_usage.go#L612) |
 | claudeReadAt | function_declaration |  | [622](../../magpie/internal/provider/subscription_usage.go#L622) |
 | claudeUsage | var_spec |  | [638](../../magpie/internal/provider/subscription_usage.go#L638) |
-| claudeUsageEntry | struct_type |  | [643](../../magpie/internal/provider/subscription_usage.go#L643) |
-| at | field_declaration | claudeUsageEntry | [644](../../magpie/internal/provider/subscription_usage.go#L644) |
-| ws | field_declaration | claudeUsageEntry | [645](../../magpie/internal/provider/subscription_usage.go#L645) |
-| heard | field_declaration | claudeUsageEntry | [646](../../magpie/internal/provider/subscription_usage.go#L646) |
-| heardSeq | field_declaration | claudeUsageEntry | [647](../../magpie/internal/provider/subscription_usage.go#L647) |
-| tried | field_declaration | claudeUsageEntry | [648](../../magpie/internal/provider/subscription_usage.go#L648) |
-| asked | field_declaration | claudeUsageEntry | [649](../../magpie/internal/provider/subscription_usage.go#L649) |
-| wait | field_declaration | claudeUsageEntry | [650](../../magpie/internal/provider/subscription_usage.go#L650) |
-| err | field_declaration | claudeUsageEntry | [651](../../magpie/internal/provider/subscription_usage.go#L651) |
-| whole | field_declaration | claudeUsageEntry | [652](../../magpie/internal/provider/subscription_usage.go#L652) |
-| windows | method_declaration | claudeUsageEntry | [656](../../magpie/internal/provider/subscription_usage.go#L656) |
-| claudeAskFloor | const_spec |  | [671](../../magpie/internal/provider/subscription_usage.go#L671) |
+| m | field_declaration | claudeUsage | [640](../../magpie/internal/provider/subscription_usage.go#L640) |

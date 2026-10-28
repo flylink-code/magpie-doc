@@ -21,13 +21,13 @@ Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 | videoSchema | var_spec |  | [75](../../magpie/internal/imagemcp/imagemcp.go#L75) |
 | resultSchema | var_spec |  | [88](../../magpie/internal/imagemcp/imagemcp.go#L88) |
 | schema | var_spec |  | [99](../../magpie/internal/imagemcp/imagemcp.go#L99) |
-| rpc | struct_type |  | [112](../../magpie/internal/imagemcp/imagemcp.go#L112) |
+| rpc | type_spec |  | [112](../../magpie/internal/imagemcp/imagemcp.go#L112) |
 | ID | field_declaration | rpc | [113](../../magpie/internal/imagemcp/imagemcp.go#L113) |
 | Method | field_declaration | rpc | [114](../../magpie/internal/imagemcp/imagemcp.go#L114) |
 | Params | field_declaration | rpc | [115](../../magpie/internal/imagemcp/imagemcp.go#L115) |
 | Result | field_declaration | rpc | [116](../../magpie/internal/imagemcp/imagemcp.go#L116) |
 | Error | field_declaration | rpc | [117](../../magpie/internal/imagemcp/imagemcp.go#L117) |
-| server | struct_type |  | [120](../../magpie/internal/imagemcp/imagemcp.go#L120) |
+| server | type_spec |  | [120](../../magpie/internal/imagemcp/imagemcp.go#L120) |
 | gateway | field_declaration | server | [121](../../magpie/internal/imagemcp/imagemcp.go#L121) |
 | client | field_declaration | server | [122](../../magpie/internal/imagemcp/imagemcp.go#L122) |
 | outMu | field_declaration | server | [124](../../magpie/internal/imagemcp/imagemcp.go#L124) |
@@ -40,33 +40,39 @@ Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 | jobs | field_declaration | server | [132](../../magpie/internal/imagemcp/imagemcp.go#L132) |
 | nextJob | field_declaration | server | [133](../../magpie/internal/imagemcp/imagemcp.go#L133) |
 | running | field_declaration | server | [134](../../magpie/internal/imagemcp/imagemcp.go#L134) |
-| job | struct_type |  | [139](../../magpie/internal/imagemcp/imagemcp.go#L139) |
+| job | type_spec |  | [139](../../magpie/internal/imagemcp/imagemcp.go#L139) |
 | id | field_declaration | job | [140](../../magpie/internal/imagemcp/imagemcp.go#L140) |
-| tool | field_declaration | job | [140](../../magpie/internal/imagemcp/imagemcp.go#L140) |
 | started | field_declaration | job | [141](../../magpie/internal/imagemcp/imagemcp.go#L141) |
 | done | field_declaration | job | [142](../../magpie/internal/imagemcp/imagemcp.go#L142) |
 | text | field_declaration | job | [143](../../magpie/internal/imagemcp/imagemcp.go#L143) |
 | err | field_declaration | job | [144](../../magpie/internal/imagemcp/imagemcp.go#L144) |
-| start | method_declaration | *server | [148](../../magpie/internal/imagemcp/imagemcp.go#L148) |
-| await | method_declaration | *server | [169](../../magpie/internal/imagemcp/imagemcp.go#L169) |
+| start | method_declaration |  | [148](../../magpie/internal/imagemcp/imagemcp.go#L148) |
+| await | method_declaration |  | [169](../../magpie/internal/imagemcp/imagemcp.go#L169) |
 | stillGoing | function_declaration |  | [191](../../magpie/internal/imagemcp/imagemcp.go#L191) |
 | ToolTimeout | function_declaration |  | [204](../../magpie/internal/imagemcp/imagemcp.go#L204) |
 | callLongest | function_declaration |  | [214](../../magpie/internal/imagemcp/imagemcp.go#L214) |
 | Run | function_declaration |  | [219](../../magpie/internal/imagemcp/imagemcp.go#L219) |
-| send | method_declaration | *server | [246](../../magpie/internal/imagemcp/imagemcp.go#L246) |
-| serve | method_declaration | *server | [252](../../magpie/internal/imagemcp/imagemcp.go#L252) |
-| handle | method_declaration | *server | [284](../../magpie/internal/imagemcp/imagemcp.go#L284) |
-| Capabilities | field_declaration | *server.handle | [290](../../magpie/internal/imagemcp/imagemcp.go#L290) |
-| Roots | field_declaration | *server.handle | [291](../../magpie/internal/imagemcp/imagemcp.go#L291) |
-| ClientInfo | field_declaration | *server.handle | [293](../../magpie/internal/imagemcp/imagemcp.go#L293) |
-| Name | field_declaration | *server.handle | [294](../../magpie/internal/imagemcp/imagemcp.go#L294) |
-| Version | field_declaration | *server.handle | [295](../../magpie/internal/imagemcp/imagemcp.go#L295) |
-| Name | field_declaration | *server.handle | [320](../../magpie/internal/imagemcp/imagemcp.go#L320) |
-| Arguments | field_declaration | *server.handle | [321](../../magpie/internal/imagemcp/imagemcp.go#L321) |
-| Meta | field_declaration | *server.handle | [322](../../magpie/internal/imagemcp/imagemcp.go#L322) |
-| ProgressToken | field_declaration | *server.handle | [323](../../magpie/internal/imagemcp/imagemcp.go#L323) |
-| ID | field_declaration | *server.handle | [333](../../magpie/internal/imagemcp/imagemcp.go#L333) |
-| args | struct_type |  | [371](../../magpie/internal/imagemcp/imagemcp.go#L371) |
+| send | method_declaration |  | [246](../../magpie/internal/imagemcp/imagemcp.go#L246) |
+| serve | method_declaration |  | [252](../../magpie/internal/imagemcp/imagemcp.go#L252) |
+| m | var_spec | serve | [256](../../magpie/internal/imagemcp/imagemcp.go#L256) |
+| handle | method_declaration |  | [284](../../magpie/internal/imagemcp/imagemcp.go#L284) |
+| result | var_spec | handle | [285](../../magpie/internal/imagemcp/imagemcp.go#L285) |
+| rpcErr | var_spec | handle | [286](../../magpie/internal/imagemcp/imagemcp.go#L286) |
+| p | var_spec | handle | [289](../../magpie/internal/imagemcp/imagemcp.go#L289) |
+| Capabilities | field_declaration | handle::p | [290](../../magpie/internal/imagemcp/imagemcp.go#L290) |
+| Roots | field_declaration | handle::p::Capabilities | [291](../../magpie/internal/imagemcp/imagemcp.go#L291) |
+| ClientInfo | field_declaration | handle::p | [293](../../magpie/internal/imagemcp/imagemcp.go#L293) |
+| Name | field_declaration | handle::p::ClientInfo | [294](../../magpie/internal/imagemcp/imagemcp.go#L294) |
+| Version | field_declaration | handle::p::ClientInfo | [295](../../magpie/internal/imagemcp/imagemcp.go#L295) |
+| p | var_spec | handle | [319](../../magpie/internal/imagemcp/imagemcp.go#L319) |
+| Name | field_declaration | handle::p | [320](../../magpie/internal/imagemcp/imagemcp.go#L320) |
+| Arguments | field_declaration | handle::p | [321](../../magpie/internal/imagemcp/imagemcp.go#L321) |
+| Meta | field_declaration | handle::p | [322](../../magpie/internal/imagemcp/imagemcp.go#L322) |
+| ProgressToken | field_declaration | handle::p::Meta | [323](../../magpie/internal/imagemcp/imagemcp.go#L323) |
+| j | var_spec | handle | [330](../../magpie/internal/imagemcp/imagemcp.go#L330) |
+| a | var_spec | handle | [332](../../magpie/internal/imagemcp/imagemcp.go#L332) |
+| ID | field_declaration | handle::a | [333](../../magpie/internal/imagemcp/imagemcp.go#L333) |
+| args | type_spec |  | [371](../../magpie/internal/imagemcp/imagemcp.go#L371) |
 | Prompt | field_declaration | args | [372](../../magpie/internal/imagemcp/imagemcp.go#L372) |
 | Path | field_declaration | args | [373](../../magpie/internal/imagemcp/imagemcp.go#L373) |
 | Size | field_declaration | args | [374](../../magpie/internal/imagemcp/imagemcp.go#L374) |
@@ -74,20 +80,26 @@ Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 | References | field_declaration | args | [376](../../magpie/internal/imagemcp/imagemcp.go#L376) |
 | Quality | field_declaration | args | [377](../../magpie/internal/imagemcp/imagemcp.go#L377) |
 | Background | field_declaration | args | [378](../../magpie/internal/imagemcp/imagemcp.go#L378) |
-| generate | method_declaration | *server | [383](../../magpie/internal/imagemcp/imagemcp.go#L383) |
-| Model | field_declaration | *server.generate | [429](../../magpie/internal/imagemcp/imagemcp.go#L429) |
-| Data | field_declaration | *server.generate | [430](../../magpie/internal/imagemcp/imagemcp.go#L430) |
-| B64 | field_declaration | *server.generate | [431](../../magpie/internal/imagemcp/imagemcp.go#L431) |
-| URL | field_declaration | *server.generate | [432](../../magpie/internal/imagemcp/imagemcp.go#L432) |
-| Mime | field_declaration | *server.generate | [433](../../magpie/internal/imagemcp/imagemcp.go#L433) |
-| Revised | field_declaration | *server.generate | [434](../../magpie/internal/imagemcp/imagemcp.go#L434) |
-| Text | field_declaration | *server.generate | [436](../../magpie/internal/imagemcp/imagemcp.go#L436) |
-| Error | field_declaration | *server.generate | [437](../../magpie/internal/imagemcp/imagemcp.go#L437) |
-| Message | field_declaration | *server.generate | [438](../../magpie/internal/imagemcp/imagemcp.go#L438) |
-| project | method_declaration | *server | [516](../../magpie/internal/imagemcp/imagemcp.go#L516) |
-| root | method_declaration | *server | [535](../../magpie/internal/imagemcp/imagemcp.go#L535) |
-| Roots | field_declaration | *server.root | [550](../../magpie/internal/imagemcp/imagemcp.go#L550) |
-| URI | field_declaration | *server.root | [551](../../magpie/internal/imagemcp/imagemcp.go#L551) |
+| generate | method_declaration |  | [383](../../magpie/internal/imagemcp/imagemcp.go#L383) |
+| a | var_spec | generate | [384](../../magpie/internal/imagemcp/imagemcp.go#L384) |
+| images | var_spec | generate | [405](../../magpie/internal/imagemcp/imagemcp.go#L405) |
+| out | var_spec | generate | [428](../../magpie/internal/imagemcp/imagemcp.go#L428) |
+| Model | field_declaration | generate::out | [429](../../magpie/internal/imagemcp/imagemcp.go#L429) |
+| Data | field_declaration | generate::out | [430](../../magpie/internal/imagemcp/imagemcp.go#L430) |
+| B64 | field_declaration | generate::out::Data | [431](../../magpie/internal/imagemcp/imagemcp.go#L431) |
+| URL | field_declaration | generate::out::Data | [432](../../magpie/internal/imagemcp/imagemcp.go#L432) |
+| Mime | field_declaration | generate::out::Data | [433](../../magpie/internal/imagemcp/imagemcp.go#L433) |
+| Revised | field_declaration | generate::out::Data | [434](../../magpie/internal/imagemcp/imagemcp.go#L434) |
+| Text | field_declaration | generate::out | [436](../../magpie/internal/imagemcp/imagemcp.go#L436) |
+| Error | field_declaration | generate::out | [437](../../magpie/internal/imagemcp/imagemcp.go#L437) |
+| Message | field_declaration | generate::out::Error | [438](../../magpie/internal/imagemcp/imagemcp.go#L438) |
+| saved | var_spec | generate | [455](../../magpie/internal/imagemcp/imagemcp.go#L455) |
+| b | var_spec | generate | [495](../../magpie/internal/imagemcp/imagemcp.go#L495) |
+| project | method_declaration |  | [516](../../magpie/internal/imagemcp/imagemcp.go#L516) |
+| root | method_declaration |  | [535](../../magpie/internal/imagemcp/imagemcp.go#L535) |
+| r | var_spec | root | [549](../../magpie/internal/imagemcp/imagemcp.go#L549) |
+| Roots | field_declaration | root::r | [550](../../magpie/internal/imagemcp/imagemcp.go#L550) |
+| URI | field_declaration | root::r::Roots | [551](../../magpie/internal/imagemcp/imagemcp.go#L551) |
 | filePath | function_declaration |  | [573](../../magpie/internal/imagemcp/imagemcp.go#L573) |
 | reference | function_declaration |  | [588](../../magpie/internal/imagemcp/imagemcp.go#L588) |
 | Target | function_declaration |  | [623](../../magpie/internal/imagemcp/imagemcp.go#L623) |
@@ -96,15 +108,3 @@ Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
 | imageExt | var_spec |  | [687](../../magpie/internal/imagemcp/imagemcp.go#L687) |
 | videoExt | var_spec |  | [688](../../magpie/internal/imagemcp/imagemcp.go#L688) |
 | folderFor | function_declaration |  | [692](../../magpie/internal/imagemcp/imagemcp.go#L692) |
-| extOf | function_declaration |  | [699](../../magpie/internal/imagemcp/imagemcp.go#L699) |
-| filmArgs | struct_type |  | [711](../../magpie/internal/imagemcp/imagemcp.go#L711) |
-| Prompt | field_declaration | filmArgs | [712](../../magpie/internal/imagemcp/imagemcp.go#L712) |
-| Path | field_declaration | filmArgs | [713](../../magpie/internal/imagemcp/imagemcp.go#L713) |
-| Seconds | field_declaration | filmArgs | [714](../../magpie/internal/imagemcp/imagemcp.go#L714) |
-| Size | field_declaration | filmArgs | [715](../../magpie/internal/imagemcp/imagemcp.go#L715) |
-| Image | field_declaration | filmArgs | [716](../../magpie/internal/imagemcp/imagemcp.go#L716) |
-| References | field_declaration | filmArgs | [717](../../magpie/internal/imagemcp/imagemcp.go#L717) |
-| wholeSeconds | function_declaration |  | [721](../../magpie/internal/imagemcp/imagemcp.go#L721) |
-| call | method_declaration | *server | [744](../../magpie/internal/imagemcp/imagemcp.go#L744) |
-| gatewaySaid | function_declaration |  | [763](../../magpie/internal/imagemcp/imagemcp.go#L763) |
-| Error | field_declaration | gatewaySaid | [765](../../magpie/internal/imagemcp/imagemcp.go#L765) |

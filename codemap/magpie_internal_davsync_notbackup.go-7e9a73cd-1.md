@@ -8,7 +8,7 @@ Source SHA-256: 72e6599f05e80d3a8f1bc1b2ba275497699e8614c2d5458eac2384f748692ecd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ServerFile | struct_type |  | [27](../../magpie/internal/davsync/notbackup.go#L27) |
+| ServerFile | type_spec |  | [27](../../magpie/internal/davsync/notbackup.go#L27) |
 | What | field_declaration | ServerFile | [31](../../magpie/internal/davsync/notbackup.go#L31) |
 | Size | field_declaration | ServerFile | [32](../../magpie/internal/davsync/notbackup.go#L32) |
 | Title | field_declaration | ServerFile | [33](../../magpie/internal/davsync/notbackup.go#L33) |
@@ -16,21 +16,24 @@ Source SHA-256: 72e6599f05e80d3a8f1bc1b2ba275497699e8614c2d5458eac2384f748692ecd
 | Type | field_declaration | ServerFile | [35](../../magpie/internal/davsync/notbackup.go#L35) |
 | Moved | field_declaration | ServerFile | [36](../../magpie/internal/davsync/notbackup.go#L36) |
 | Replace | field_declaration | ServerFile | [39](../../magpie/internal/davsync/notbackup.go#L39) |
-| notBackup | struct_type |  | [44](../../magpie/internal/davsync/notbackup.go#L44) |
+| notBackup | type_spec |  | [44](../../magpie/internal/davsync/notbackup.go#L44) |
 | f | field_declaration | notBackup | [45](../../magpie/internal/davsync/notbackup.go#L45) |
 | where | field_declaration | notBackup | [46](../../magpie/internal/davsync/notbackup.go#L46) |
 | cmd | field_declaration | notBackup | [47](../../magpie/internal/davsync/notbackup.go#L47) |
 | err | field_declaration | notBackup | [48](../../magpie/internal/davsync/notbackup.go#L48) |
-| Unwrap | method_declaration | *notBackup | [51](../../magpie/internal/davsync/notbackup.go#L51) |
-| Error | method_declaration | *notBackup | [53](../../magpie/internal/davsync/notbackup.go#L53) |
+| Unwrap | method_declaration |  | [51](../../magpie/internal/davsync/notbackup.go#L51) |
+| Error | method_declaration |  | [53](../../magpie/internal/davsync/notbackup.go#L53) |
 | fileWhere | function_declaration |  | [92](../../magpie/internal/davsync/notbackup.go#L92) |
 | cmdOf | function_declaration |  | [108](../../magpie/internal/davsync/notbackup.go#L108) |
 | described | function_declaration |  | [120](../../magpie/internal/davsync/notbackup.go#L120) |
+| nb | var_spec | described | [124](../../magpie/internal/davsync/notbackup.go#L124) |
 | titleRe | var_spec |  | [131](../../magpie/internal/davsync/notbackup.go#L131) |
 | rootRe | var_spec |  | [132](../../magpie/internal/davsync/notbackup.go#L132) |
 | whatIs | function_declaration |  | [135](../../magpie/internal/davsync/notbackup.go#L135) |
-| Format | field_declaration | whatIs | [163](../../magpie/internal/davsync/notbackup.go#L163) |
+| top | var_spec | whatIs | [162](../../magpie/internal/davsync/notbackup.go#L162) |
+| Format | field_declaration | whatIs::top | [163](../../magpie/internal/davsync/notbackup.go#L163) |
 | backupHead | function_declaration |  | [183](../../magpie/internal/davsync/notbackup.go#L183) |
+| want | const_spec | backupHead | [190](../../magpie/internal/davsync/notbackup.go#L190) |
 | clip | function_declaration |  | [194](../../magpie/internal/davsync/notbackup.go#L194) |
 | gzipMagic | var_spec |  | [206](../../magpie/internal/davsync/notbackup.go#L206) |
 | zstdMagic | var_spec |  | [207](../../magpie/internal/davsync/notbackup.go#L207) |

@@ -10,9 +10,11 @@ Source SHA-256: 3246b77a72012612de45b9c6366ff4236ac9dbbbe48a30bbadbbf942d96c002c
 | --- | --- | --- | ---: |
 | WSLNets | var_spec |  | [43](../../magpie/internal/gateway/wsl.go#L43) |
 | wslNets | function_declaration |  | [45](../../magpie/internal/gateway/wsl.go#L45) |
+| out | var_spec | wslNets | [53](../../magpie/internal/gateway/wsl.go#L53) |
 | OnWSLNet | function_declaration |  | [70](../../magpie/internal/gateway/wsl.go#L70) |
 | wslKeyPrefix | const_spec |  | [91](../../magpie/internal/gateway/wsl.go#L91) |
 | wslKey | var_spec |  | [93](../../magpie/internal/gateway/wsl.go#L93) |
+| v | field_declaration | wslKey | [95](../../magpie/internal/gateway/wsl.go#L95) |
 | wslKeyPath | function_declaration |  | [98](../../magpie/internal/gateway/wsl.go#L98) |
 | WSLKey | function_declaration |  | [104](../../magpie/internal/gateway/wsl.go#L104) |
 | WSLKeyMade | function_declaration |  | [143](../../magpie/internal/gateway/wsl.go#L143) |
@@ -21,6 +23,6 @@ Source SHA-256: 3246b77a72012612de45b9c6366ff4236ac9dbbbe48a30bbadbbf942d96c002c
 | fromWSL | function_declaration |  | [184](../../magpie/internal/gateway/wsl.go#L184) |
 | asFromLoopback | function_declaration |  | [205](../../magpie/internal/gateway/wsl.go#L205) |
 | wslWatch | var_spec |  | [232](../../magpie/internal/gateway/wsl.go#L232) |
-| serveWSL | method_declaration | *Server | [236](../../magpie/internal/gateway/wsl.go#L236) |
+| serveWSL | method_declaration |  | [236](../../magpie/internal/gateway/wsl.go#L236) |
 | wslServeEverywhere | var_spec |  | [286](../../magpie/internal/gateway/wsl.go#L286) |
-| onLoopback | method_declaration | *Server | [290](../../magpie/internal/gateway/wsl.go#L290) |
+| onLoopback | method_declaration |  | [290](../../magpie/internal/gateway/wsl.go#L290) |

@@ -9,5 +9,7 @@ Source SHA-256: 4f9b85fb0ced204d91454dc6ed0bed28ddaf7f153058f7eae27784c135d3367f
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | HistoricalWindowHolds | function_declaration |  | [15](../../magpie/internal/usage/window_holds_history.go#L15) |
+| last | var_spec | HistoricalWindowHolds | [33](../../magpie/internal/usage/window_holds_history.go#L33) |
 | withRecordedWindowStarts | function_declaration |  | [86](../../magpie/internal/usage/window_holds_history.go#L86) |
+| observed | var_spec | withRecordedWindowStarts | [105](../../magpie/internal/usage/window_holds_history.go#L105) |
 | withSpansOf | function_declaration |  | [148](../../magpie/internal/usage/window_holds_history.go#L148) |

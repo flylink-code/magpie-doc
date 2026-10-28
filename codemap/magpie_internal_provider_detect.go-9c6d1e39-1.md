@@ -9,20 +9,26 @@ Source SHA-256: 9189dea654785dcd145be6eb0d8469b9f6d6378b6f67c163962f0d207604b6f2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | detectProtocols | var_spec |  | [28](../../magpie/internal/provider/detect.go#L28) |
-| Detection | struct_type |  | [31](../../magpie/internal/provider/detect.go#L31) |
+| Detection | type_spec |  | [31](../../magpie/internal/provider/detect.go#L31) |
 | Base | field_declaration | Detection | [36](../../magpie/internal/provider/detect.go#L36) |
 | DetectBase | function_declaration |  | [44](../../magpie/internal/provider/detect.go#L44) |
 | ErrNoURL | var_spec |  | [70](../../magpie/internal/provider/detect.go#L70) |
-| Detect | method_declaration | Provider | [82](../../magpie/internal/provider/detect.go#L82) |
-| detecting | method_declaration | Provider | [124](../../magpie/internal/provider/detect.go#L124) |
-| detectOne | method_declaration | Provider | [158](../../magpie/internal/provider/detect.go#L158) |
-| DetectDecide | method_declaration | Provider | [182](../../magpie/internal/provider/detect.go#L182) |
-| ModelDetection | struct_type |  | [213](../../magpie/internal/provider/detect.go#L213) |
+| Detect | method_declaration |  | [82](../../magpie/internal/provider/detect.go#L82) |
+| ids | var_spec | Detect | [89](../../magpie/internal/provider/detect.go#L89) |
+| wg | var_spec | Detect | [101](../../magpie/internal/provider/detect.go#L101) |
+| ask | var_spec | Detect | [107](../../magpie/internal/provider/detect.go#L107) |
+| detecting | method_declaration |  | [124](../../magpie/internal/provider/detect.go#L124) |
+| detectOne | method_declaration |  | [158](../../magpie/internal/provider/detect.go#L158) |
+| DetectDecide | method_declaration |  | [182](../../magpie/internal/provider/detect.go#L182) |
+| ModelDetection | type_spec |  | [213](../../magpie/internal/provider/detect.go#L213) |
 | Model | field_declaration | ModelDetection | [214](../../magpie/internal/provider/detect.go#L214) |
 | Results | field_declaration | ModelDetection | [215](../../magpie/internal/provider/detect.go#L215) |
 | DetectMax | const_spec |  | [221](../../magpie/internal/provider/detect.go#L221) |
 | DetectWide | const_spec |  | [222](../../magpie/internal/provider/detect.go#L222) |
 | detectWait | const_spec |  | [223](../../magpie/internal/provider/detect.go#L223) |
-| DetectModels | method_declaration | Provider | [232](../../magpie/internal/provider/detect.go#L232) |
-| detectModels | method_declaration | Provider | [298](../../magpie/internal/provider/detect.go#L298) |
+| DetectModels | method_declaration |  | [232](../../magpie/internal/provider/detect.go#L232) |
+| ids | var_spec | DetectModels | [237](../../magpie/internal/provider/detect.go#L237) |
+| wg | var_spec | DetectModels | [252](../../magpie/internal/provider/detect.go#L252) |
+| detectModels | method_declaration |  | [298](../../magpie/internal/provider/detect.go#L298) |
+| ids | var_spec | detectModels | [299](../../magpie/internal/provider/detect.go#L299) |
 | detectModel | function_declaration |  | [325](../../magpie/internal/provider/detect.go#L325) |

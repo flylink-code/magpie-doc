@@ -10,11 +10,10 @@ Source SHA-256: 62b4b25ebe1466aa3ccf25ae6e943aab7bbe2bfb5ad13e6079e3a56c29b3d021
 | --- | --- | --- | ---: |
 | Install | function_declaration |  | [32](../../magpie/internal/netproxy/netproxy.go#L32) |
 | PingAfter | var_spec |  | [46](../../magpie/internal/netproxy/netproxy.go#L46) |
-| PingWait | var_spec |  | [46](../../magpie/internal/netproxy/netproxy.go#L46) |
 | HTTP2Health | function_declaration |  | [57](../../magpie/internal/netproxy/netproxy.go#L57) |
 | Func | function_declaration |  | [64](../../magpie/internal/netproxy/netproxy.go#L64) |
-| choiceKey | struct_type |  | [81](../../magpie/internal/netproxy/netproxy.go#L81) |
-| holdKey | struct_type |  | [83](../../magpie/internal/netproxy/netproxy.go#L83) |
+| choiceKey | type_spec |  | [81](../../magpie/internal/netproxy/netproxy.go#L81) |
+| holdKey | type_spec |  | [83](../../magpie/internal/netproxy/netproxy.go#L83) |
 | Hold | function_declaration |  | [89](../../magpie/internal/netproxy/netproxy.go#L89) |
 | Held | function_declaration |  | [95](../../magpie/internal/netproxy/netproxy.go#L95) |
 | With | function_declaration |  | [115](../../magpie/internal/netproxy/netproxy.go#L115) |
@@ -23,21 +22,24 @@ Source SHA-256: 62b4b25ebe1466aa3ccf25ae6e943aab7bbe2bfb5ad13e6079e3a56c29b3d021
 | forChoice | function_declaration |  | [139](../../magpie/internal/netproxy/netproxy.go#L139) |
 | HTTP1 | var_spec |  | [150](../../magpie/internal/netproxy/netproxy.go#L150) |
 | Dispatch | function_declaration |  | [162](../../magpie/internal/netproxy/netproxy.go#L162) |
-| dispatch | struct_type |  | [167](../../magpie/internal/netproxy/netproxy.go#L167) |
+| dispatch | type_spec |  | [167](../../magpie/internal/netproxy/netproxy.go#L167) |
 | base | field_declaration | dispatch | [168](../../magpie/internal/netproxy/netproxy.go#L168) |
 | mu | field_declaration | dispatch | [169](../../magpie/internal/netproxy/netproxy.go#L169) |
 | own | field_declaration | dispatch | [170](../../magpie/internal/netproxy/netproxy.go#L170) |
-| route | struct_type |  | [176](../../magpie/internal/netproxy/netproxy.go#L176) |
+| route | type_spec |  | [176](../../magpie/internal/netproxy/netproxy.go#L176) |
 | choice | field_declaration | route | [177](../../magpie/internal/netproxy/netproxy.go#L177) |
 | h1 | field_declaration | route | [178](../../magpie/internal/netproxy/netproxy.go#L178) |
 | unchecked | field_declaration | route | [179](../../magpie/internal/netproxy/netproxy.go#L179) |
-| RoundTrip | method_declaration | *dispatch | [182](../../magpie/internal/netproxy/netproxy.go#L182) |
-| transport | method_declaration | *dispatch | [190](../../magpie/internal/netproxy/netproxy.go#L190) |
+| RoundTrip | method_declaration |  | [182](../../magpie/internal/netproxy/netproxy.go#L182) |
+| transport | method_declaration |  | [190](../../magpie/internal/netproxy/netproxy.go#L190) |
 | http1Only | function_declaration |  | [228](../../magpie/internal/netproxy/netproxy.go#L228) |
-| CloseIdleConnections | method_declaration | *dispatch | [238](../../magpie/internal/netproxy/netproxy.go#L238) |
+| h1 | var_spec | http1Only | [229](../../magpie/internal/netproxy/netproxy.go#L229) |
+| CloseIdleConnections | method_declaration |  | [238](../../magpie/internal/netproxy/netproxy.go#L238) |
 | For | function_declaration |  | [248](../../magpie/internal/netproxy/netproxy.go#L248) |
 | Env | function_declaration |  | [274](../../magpie/internal/netproxy/netproxy.go#L274) |
 | EnvWith | function_declaration |  | [278](../../magpie/internal/netproxy/netproxy.go#L278) |
+| p | var_spec | EnvWith | [282](../../magpie/internal/netproxy/netproxy.go#L282) |
+| bypass | var_spec | EnvWith | [283](../../magpie/internal/netproxy/netproxy.go#L283) |
 | proxyVar | function_declaration |  | [313](../../magpie/internal/netproxy/netproxy.go#L313) |
 | withProxy | function_declaration |  | [323](../../magpie/internal/netproxy/netproxy.go#L323) |
 | Parse | function_declaration |  | [347](../../magpie/internal/netproxy/netproxy.go#L347) |
@@ -46,17 +48,23 @@ Source SHA-256: 62b4b25ebe1466aa3ccf25ae6e943aab7bbe2bfb5ad13e6079e3a56c29b3d021
 | fromEnv | function_declaration |  | [402](../../magpie/internal/netproxy/netproxy.go#L402) |
 | envOf | function_declaration |  | [413](../../magpie/internal/netproxy/netproxy.go#L413) |
 | noProxy | function_declaration |  | [426](../../magpie/internal/netproxy/netproxy.go#L426) |
-| Proxy | struct_type |  | [451](../../magpie/internal/netproxy/netproxy.go#L451) |
+| Proxy | type_spec |  | [451](../../magpie/internal/netproxy/netproxy.go#L451) |
 | URL | field_declaration | Proxy | [452](../../magpie/internal/netproxy/netproxy.go#L452) |
 | HTTP | field_declaration | Proxy | [453](../../magpie/internal/netproxy/netproxy.go#L453) |
 | SOCKS | field_declaration | Proxy | [454](../../magpie/internal/netproxy/netproxy.go#L454) |
 | Bypass | field_declaration | Proxy | [455](../../magpie/internal/netproxy/netproxy.go#L455) |
 | sysCache | var_spec |  | [458](../../magpie/internal/netproxy/netproxy.go#L458) |
+| at | field_declaration | sysCache | [460](../../magpie/internal/netproxy/netproxy.go#L460) |
+| p | field_declaration | sysCache | [461](../../magpie/internal/netproxy/netproxy.go#L461) |
+| failed | field_declaration | sysCache | [462](../../magpie/internal/netproxy/netproxy.go#L462) |
+| reading | field_declaration | sysCache | [465](../../magpie/internal/netproxy/netproxy.go#L465) |
+| since | field_declaration | sysCache | [466](../../magpie/internal/netproxy/netproxy.go#L466) |
 | systemKeep | var_spec |  | [477](../../magpie/internal/netproxy/netproxy.go#L477) |
 | noneKeep | var_spec |  | [478](../../magpie/internal/netproxy/netproxy.go#L478) |
 | readWait | var_spec |  | [479](../../magpie/internal/netproxy/netproxy.go#L479) |
 | readSystem | var_spec |  | [480](../../magpie/internal/netproxy/netproxy.go#L480) |
 | System | function_declaration |  | [487](../../magpie/internal/netproxy/netproxy.go#L487) |
+| wait | var_spec | System | [502](../../magpie/internal/netproxy/netproxy.go#L502) |
 | refreshSystem | function_declaration |  | [523](../../magpie/internal/netproxy/netproxy.go#L523) |
 | loopback | function_declaration |  | [534](../../magpie/internal/netproxy/netproxy.go#L534) |
 | bypassed | function_declaration |  | [544](../../magpie/internal/netproxy/netproxy.go#L544) |

@@ -10,8 +10,11 @@ Source SHA-256: 7ec8a3d238b8a6c266d7d095b12f2e82bd72d73138413c22033a74bc1f767546
 | --- | --- | --- | ---: |
 | procGetApplicationUserModelID | var_spec |  | [19](../../magpie/internal/agent/apprestart_windows.go#L19) |
 | listWinProcs | function_declaration |  | [24](../../magpie/internal/agent/apprestart_windows.go#L24) |
+| out | var_spec | listWinProcs | [33](../../magpie/internal/agent/apprestart_windows.go#L33) |
 | readWinProc | function_declaration |  | [47](../../magpie/internal/agent/apprestart_windows.go#L47) |
+| created | var_spec | readWinProc | [59](../../magpie/internal/agent/apprestart_windows.go#L59) |
 | closeWinProcs | function_declaration |  | [75](../../magpie/internal/agent/apprestart_windows.go#L75) |
 | endWinTree | function_declaration |  | [87](../../magpie/internal/agent/apprestart_windows.go#L87) |
 | launchWin | function_declaration |  | [96](../../magpie/internal/agent/apprestart_windows.go#L96) |
 | shellOpen | function_declaration |  | [112](../../magpie/internal/agent/apprestart_windows.go#L112) |
+| a | var_spec | shellOpen | [117](../../magpie/internal/agent/apprestart_windows.go#L117) |

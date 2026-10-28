@@ -13,27 +13,36 @@ Source SHA-256: db5db13822b1db31ebb7ffd481c55a25a4b9062ef5156e76ccd7cf0696939ad2
 | noticeJcode | var_spec |  | [41](../../magpie/internal/agent/jcode.go#L41) |
 | jcodeContext | const_spec |  | [45](../../magpie/internal/agent/jcode.go#L45) |
 | jcodeDir | function_declaration |  | [49](../../magpie/internal/agent/jcode.go#L49) |
-| jcodeModel | struct_type |  | [58](../../magpie/internal/agent/jcode.go#L58) |
+| jcodeModel | type_spec |  | [58](../../magpie/internal/agent/jcode.go#L58) |
 | ID | field_declaration | jcodeModel | [59](../../magpie/internal/agent/jcode.go#L59) |
 | Reasoning | field_declaration | jcodeModel | [60](../../magpie/internal/agent/jcode.go#L60) |
 | ReasoningEffort | field_declaration | jcodeModel | [61](../../magpie/internal/agent/jcode.go#L61) |
 | ContextWindow | field_declaration | jcodeModel | [62](../../magpie/internal/agent/jcode.go#L62) |
 | Input | field_declaration | jcodeModel | [63](../../magpie/internal/agent/jcode.go#L63) |
-| jcodeConf | struct_type |  | [67](../../magpie/internal/agent/jcode.go#L67) |
+| jcodeConf | type_spec |  | [67](../../magpie/internal/agent/jcode.go#L67) |
 | Provider | field_declaration | jcodeConf | [68](../../magpie/internal/agent/jcode.go#L68) |
-| DefaultProvider | field_declaration | jcodeConf | [69](../../magpie/internal/agent/jcode.go#L69) |
-| DefaultModel | field_declaration | jcodeConf | [70](../../magpie/internal/agent/jcode.go#L70) |
+| DefaultProvider | field_declaration | jcodeConf::Provider | [69](../../magpie/internal/agent/jcode.go#L69) |
+| DefaultModel | field_declaration | jcodeConf::Provider | [70](../../magpie/internal/agent/jcode.go#L70) |
 | Providers | field_declaration | jcodeConf | [72](../../magpie/internal/agent/jcode.go#L72) |
-| BaseURL | field_declaration | jcodeConf | [73](../../magpie/internal/agent/jcode.go#L73) |
-| APIKey | field_declaration | jcodeConf | [74](../../magpie/internal/agent/jcode.go#L74) |
-| Models | field_declaration | jcodeConf | [75](../../magpie/internal/agent/jcode.go#L75) |
+| BaseURL | field_declaration | jcodeConf::Providers | [73](../../magpie/internal/agent/jcode.go#L73) |
+| APIKey | field_declaration | jcodeConf::Providers | [74](../../magpie/internal/agent/jcode.go#L74) |
+| Models | field_declaration | jcodeConf::Providers | [75](../../magpie/internal/agent/jcode.go#L75) |
 | jcodeRead | function_declaration |  | [81](../../magpie/internal/agent/jcode.go#L81) |
+| c | var_spec | jcodeRead | [82](../../magpie/internal/agent/jcode.go#L82) |
 | jcodeWant | function_declaration |  | [101](../../magpie/internal/agent/jcode.go#L101) |
+| out | var_spec | jcodeWant | [106](../../magpie/internal/agent/jcode.go#L106) |
+| levels | var_spec | jcodeWant | [116](../../magpie/internal/agent/jcode.go#L116) |
 | jcodeArray | function_declaration |  | [133](../../magpie/internal/agent/jcode.go#L133) |
+| b | var_spec | jcodeArray | [137](../../magpie/internal/agent/jcode.go#L137) |
+| q | var_spec | jcodeArray | [145](../../magpie/internal/agent/jcode.go#L145) |
 | jcodeSame | function_declaration |  | [164](../../magpie/internal/agent/jcode.go#L164) |
-| jcodePick | struct_type |  | [174](../../magpie/internal/agent/jcode.go#L174) |
+| jcodePick | type_spec |  | [174](../../magpie/internal/agent/jcode.go#L174) |
 | Provider | field_declaration | jcodePick | [175](../../magpie/internal/agent/jcode.go#L175) |
 | Model | field_declaration | jcodePick | [176](../../magpie/internal/agent/jcode.go#L176) |
 | jcode | function_declaration |  | [179](../../magpie/internal/agent/jcode.go#L179) |
 | jcodeAt | function_declaration |  | [181](../../magpie/internal/agent/jcode.go#L181) |
+| err | var_spec | jcodeAt | [199](../../magpie/internal/agent/jcode.go#L199) |
+| was | var_spec | jcodeAt | [267](../../magpie/internal/agent/jcode.go#L267) |
 | jcodeOwn | function_declaration |  | [364](../../magpie/internal/agent/jcode.go#L364) |
+| was | var_spec | jcodeOwn | [365](../../magpie/internal/agent/jcode.go#L365) |
+| out | var_spec | jcodeOwn | [367](../../magpie/internal/agent/jcode.go#L367) |

@@ -15,6 +15,8 @@ Source SHA-256: eff064059669fa684e685f587ddf25c6576e86dd01f2606b0cc56ef225667d17
 | Stuck | function_declaration |  | [43](../../magpie/internal/update/admin.go#L43) |
 | run | var_spec |  | [54](../../magpie/internal/update/admin.go#L54) |
 | asAdmin | function_declaration |  | [59](../../magpie/internal/update/admin.go#L59) |
+| out | var_spec | asAdmin | [60](../../magpie/internal/update/admin.go#L60) |
+| err | var_spec | asAdmin | [61](../../magpie/internal/update/admin.go#L61) |
 | swapScript | function_declaration |  | [86](../../magpie/internal/update/admin.go#L86) |
 | shellQuote | function_declaration |  | [92](../../magpie/internal/update/admin.go#L92) |
 | appleString | function_declaration |  | [95](../../magpie/internal/update/admin.go#L95) |

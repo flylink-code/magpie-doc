@@ -12,20 +12,23 @@ Source SHA-256: 9d5a10dabff4166afc5e1b81a97148bd8800e1ea1593c331918bf6027d98e21a
 | codexLimitsScan | const_spec |  | [31](../../magpie/internal/gateway/codex_limits.go#L31) |
 | heardCodexLimits | function_declaration |  | [34](../../magpie/internal/gateway/codex_limits.go#L34) |
 | codexHeaderLimits | function_declaration |  | [53](../../magpie/internal/gateway/codex_limits.go#L53) |
+| out | var_spec | codexHeaderLimits | [54](../../magpie/internal/gateway/codex_limits.go#L54) |
 | codexEventLimits | function_declaration |  | [79](../../magpie/internal/gateway/codex_limits.go#L79) |
-| window | struct_type | codexEventLimits | [80](../../magpie/internal/gateway/codex_limits.go#L80) |
-| Used | field_declaration | codexEventLimits.window | [81](../../magpie/internal/gateway/codex_limits.go#L81) |
-| Minutes | field_declaration | codexEventLimits.window | [82](../../magpie/internal/gateway/codex_limits.go#L82) |
-| ResetAt | field_declaration | codexEventLimits.window | [83](../../magpie/internal/gateway/codex_limits.go#L83) |
-| ResetAfter | field_declaration | codexEventLimits.window | [84](../../magpie/internal/gateway/codex_limits.go#L84) |
-| Type | field_declaration | codexEventLimits | [87](../../magpie/internal/gateway/codex_limits.go#L87) |
-| Metered | field_declaration | codexEventLimits | [88](../../magpie/internal/gateway/codex_limits.go#L88) |
-| RateLimits | field_declaration | codexEventLimits | [89](../../magpie/internal/gateway/codex_limits.go#L89) |
-| Primary | field_declaration | codexEventLimits | [90](../../magpie/internal/gateway/codex_limits.go#L90) |
-| Secondary | field_declaration | codexEventLimits | [91](../../magpie/internal/gateway/codex_limits.go#L91) |
-| codexLimitsTap | struct_type |  | [118](../../magpie/internal/gateway/codex_limits.go#L118) |
+| window | type_spec | codexEventLimits | [80](../../magpie/internal/gateway/codex_limits.go#L80) |
+| Used | field_declaration | codexEventLimits::window | [81](../../magpie/internal/gateway/codex_limits.go#L81) |
+| Minutes | field_declaration | codexEventLimits::window | [82](../../magpie/internal/gateway/codex_limits.go#L82) |
+| ResetAt | field_declaration | codexEventLimits::window | [83](../../magpie/internal/gateway/codex_limits.go#L83) |
+| ResetAfter | field_declaration | codexEventLimits::window | [84](../../magpie/internal/gateway/codex_limits.go#L84) |
+| ev | var_spec | codexEventLimits | [86](../../magpie/internal/gateway/codex_limits.go#L86) |
+| Type | field_declaration | codexEventLimits::ev | [87](../../magpie/internal/gateway/codex_limits.go#L87) |
+| Metered | field_declaration | codexEventLimits::ev | [88](../../magpie/internal/gateway/codex_limits.go#L88) |
+| RateLimits | field_declaration | codexEventLimits::ev | [89](../../magpie/internal/gateway/codex_limits.go#L89) |
+| Primary | field_declaration | codexEventLimits::ev::RateLimits | [90](../../magpie/internal/gateway/codex_limits.go#L90) |
+| Secondary | field_declaration | codexEventLimits::ev::RateLimits | [91](../../magpie/internal/gateway/codex_limits.go#L91) |
+| out | var_spec | codexEventLimits | [100](../../magpie/internal/gateway/codex_limits.go#L100) |
+| codexLimitsTap | type_spec |  | [118](../../magpie/internal/gateway/codex_limits.go#L118) |
 | note | field_declaration | codexLimitsTap | [120](../../magpie/internal/gateway/codex_limits.go#L120) |
 | buf | field_declaration | codexLimitsTap | [121](../../magpie/internal/gateway/codex_limits.go#L121) |
 | done | field_declaration | codexLimitsTap | [122](../../magpie/internal/gateway/codex_limits.go#L122) |
-| Read | method_declaration | *codexLimitsTap | [125](../../magpie/internal/gateway/codex_limits.go#L125) |
-| look | method_declaration | *codexLimitsTap | [135](../../magpie/internal/gateway/codex_limits.go#L135) |
+| Read | method_declaration |  | [125](../../magpie/internal/gateway/codex_limits.go#L125) |
+| look | method_declaration |  | [135](../../magpie/internal/gateway/codex_limits.go#L135) |

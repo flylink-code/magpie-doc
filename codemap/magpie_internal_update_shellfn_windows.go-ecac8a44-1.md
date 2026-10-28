@@ -9,6 +9,7 @@ Source SHA-256: e209f9f160f863bb01eec1ecaa5e9caf13b74dd4554f6b93d82ebadbcd824ac5
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | shellProfiles | function_declaration |  | [18](../../magpie/internal/update/shellfn_windows.go#L18) |
+| out | var_spec | shellProfiles | [24](../../magpie/internal/update/shellfn_windows.go#L24) |
 | pwshInstalled | function_declaration |  | [45](../../magpie/internal/update/shellfn_windows.go#L45) |
 | runsProfile | function_declaration |  | [51](../../magpie/internal/update/shellfn_windows.go#L51) |
 | policy | function_declaration |  | [60](../../magpie/internal/update/shellfn_windows.go#L60) |

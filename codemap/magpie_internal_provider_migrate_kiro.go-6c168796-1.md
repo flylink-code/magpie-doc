@@ -9,6 +9,9 @@ Source SHA-256: e695155f9bb9601a13fbe7efbdfe5b3381927516bf5b143d81a3e396af3a5fbc
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [21](../../magpie/internal/provider/migrate_kiro.go#L21) |
+| out | var_spec | init | [27](../../magpie/internal/provider/migrate_kiro.go#L27) |
+| k | var_spec | init | [115](../../magpie/internal/provider/migrate_kiro.go#L115) |
 | kiroOut | function_declaration |  | [125](../../magpie/internal/provider/migrate_kiro.go#L125) |
+| t | var_spec | kiroOut | [130](../../magpie/internal/provider/migrate_kiro.go#L130) |
 | setKiroKey | function_declaration |  | [154](../../magpie/internal/provider/migrate_kiro.go#L154) |
 | kiroForgetHome | function_declaration |  | [176](../../magpie/internal/provider/migrate_kiro.go#L176) |

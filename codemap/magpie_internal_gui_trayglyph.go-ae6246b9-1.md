@@ -11,6 +11,7 @@ Source SHA-256: 5fe1b3495872e4ba9976bf4bde02480eef7fb784538857432238821caa5debb2
 | trayGlyphLight | var_spec |  | [21](../../magpie/internal/gui/trayglyph.go#L21) |
 | trayGlyphDark | var_spec |  | [22](../../magpie/internal/gui/trayglyph.go#L22) |
 | trayGlyph | function_declaration |  | [28](../../magpie/internal/gui/trayglyph.go#L28) |
+| buf | var_spec | trayGlyph | [41](../../magpie/internal/gui/trayglyph.go#L41) |
 | trayIconFor | function_declaration |  | [52](../../magpie/internal/gui/trayglyph.go#L52) |
 | linuxTrayIcon | function_declaration |  | [67](../../magpie/internal/gui/trayglyph.go#L67) |
 | portalLight | function_declaration |  | [78](../../magpie/internal/gui/trayglyph.go#L78) |

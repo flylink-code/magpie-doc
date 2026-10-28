@@ -12,4 +12,6 @@ Source SHA-256: 251554a933056226f704eb0de531005a266f1464af18269e5ae1a6842a645206
 | imageToolRefused | const_spec |  | [23](../../magpie/internal/gateway/image_tool.go#L23) |
 | mayDropImageTool | function_declaration |  | [27](../../magpie/internal/gateway/image_tool.go#L27) |
 | withoutImageTool | function_declaration |  | [33](../../magpie/internal/gateway/image_tool.go#L33) |
+| m | var_spec | withoutImageTool | [39](../../magpie/internal/gateway/image_tool.go#L39) |
 | withoutImageToolReq | function_declaration |  | [69](../../magpie/internal/gateway/image_tool.go#L69) |
+| kept | var_spec | withoutImageToolReq | [70](../../magpie/internal/gateway/image_tool.go#L70) |

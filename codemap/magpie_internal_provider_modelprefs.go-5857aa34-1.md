@@ -15,6 +15,7 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | touchedIf | function_declaration |  | [71](../../magpie/internal/provider/modelprefs.go#L71) |
 | setModelName | function_declaration |  | [78](../../magpie/internal/provider/modelprefs.go#L78) |
 | SetModelPrice | function_declaration |  | [120](../../magpie/internal/provider/modelprefs.go#L120) |
+| key | var_spec | SetModelPrice | [125](../../magpie/internal/provider/modelprefs.go#L125) |
 | AnyPriceKey | function_declaration |  | [161](../../magpie/internal/provider/modelprefs.go#L161) |
 | PriceKey | function_declaration |  | [179](../../magpie/internal/provider/modelprefs.go#L179) |
 | DropModelPrice | function_declaration |  | [214](../../magpie/internal/provider/modelprefs.go#L214) |
@@ -22,18 +23,19 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | SetModelEfforts | function_declaration |  | [241](../../magpie/internal/provider/modelprefs.go#L241) |
 | setModelEfforts | function_declaration |  | [245](../../magpie/internal/provider/modelprefs.go#L245) |
 | keptEfforts | function_declaration |  | [281](../../magpie/internal/provider/modelprefs.go#L281) |
+| keep | var_spec | keptEfforts | [283](../../magpie/internal/provider/modelprefs.go#L283) |
 | SetModelReasonless | function_declaration |  | [315](../../magpie/internal/provider/modelprefs.go#L315) |
 | setModelReasonless | function_declaration |  | [319](../../magpie/internal/provider/modelprefs.go#L319) |
 | Reasonless | function_declaration |  | [346](../../magpie/internal/provider/modelprefs.go#L346) |
-| ModelEfforts | method_declaration | Provider | [352](../../magpie/internal/provider/modelprefs.go#L352) |
+| ModelEfforts | method_declaration |  | [352](../../magpie/internal/provider/modelprefs.go#L352) |
 | effortsKept | function_declaration |  | [366](../../magpie/internal/provider/modelprefs.go#L366) |
 | SetModelImage | function_declaration |  | [382](../../magpie/internal/provider/modelprefs.go#L382) |
 | setModelImage | function_declaration |  | [386](../../magpie/internal/provider/modelprefs.go#L386) |
 | SetModelAPI | function_declaration |  | [430](../../magpie/internal/provider/modelprefs.go#L430) |
 | setModelAPI | function_declaration |  | [434](../../magpie/internal/provider/modelprefs.go#L434) |
-| ModelAPI | method_declaration | Provider | [472](../../magpie/internal/provider/modelprefs.go#L472) |
+| ModelAPI | method_declaration |  | [472](../../magpie/internal/provider/modelprefs.go#L472) |
 | modelAPI | function_declaration |  | [487](../../magpie/internal/provider/modelprefs.go#L487) |
-| ModelPref | struct_type |  | [499](../../magpie/internal/provider/modelprefs.go#L499) |
+| ModelPref | type_spec |  | [499](../../magpie/internal/provider/modelprefs.go#L499) |
 | Name | field_declaration | ModelPref | [500](../../magpie/internal/provider/modelprefs.go#L500) |
 | Efforts | field_declaration | ModelPref | [501](../../magpie/internal/provider/modelprefs.go#L501) |
 | Reasonless | field_declaration | ModelPref | [504](../../magpie/internal/provider/modelprefs.go#L504) |
@@ -51,10 +53,10 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | ApplyImage | function_declaration |  | [649](../../magpie/internal/provider/modelprefs.go#L649) |
 | vendorSees | function_declaration |  | [658](../../magpie/internal/provider/modelprefs.go#L658) |
 | renameModelPrefs | function_declaration |  | [677](../../magpie/internal/provider/modelprefs.go#L677) |
-| Label | method_declaration | Entry | [701](../../magpie/internal/provider/modelprefs.go#L701) |
+| Label | method_declaration |  | [701](../../magpie/internal/provider/modelprefs.go#L701) |
 | Labels | function_declaration |  | [721](../../magpie/internal/provider/modelprefs.go#L721) |
-| PlainName | method_declaration | Entry | [746](../../magpie/internal/provider/modelprefs.go#L746) |
-| Thinks | method_declaration | Entry | [754](../../magpie/internal/provider/modelprefs.go#L754) |
+| PlainName | method_declaration |  | [746](../../magpie/internal/provider/modelprefs.go#L746) |
+| Thinks | method_declaration |  | [754](../../magpie/internal/provider/modelprefs.go#L754) |
 | SuffixOn | const_spec |  | [760](../../magpie/internal/provider/modelprefs.go#L760) |
 | SuffixOwn | const_spec |  | [761](../../magpie/internal/provider/modelprefs.go#L761) |
 | SuffixOff | const_spec |  | [762](../../magpie/internal/provider/modelprefs.go#L762) |
@@ -65,9 +67,9 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | SetCodexAsyncCompact | function_declaration |  | [837](../../magpie/internal/provider/modelprefs.go#L837) |
 | SetFullContext | function_declaration |  | [855](../../magpie/internal/provider/modelprefs.go#L855) |
 | SetPlainNames | function_declaration |  | [870](../../magpie/internal/provider/modelprefs.go#L870) |
-| ModelNames | method_declaration | Provider | [878](../../magpie/internal/provider/modelprefs.go#L878) |
+| ModelNames | method_declaration |  | [878](../../magpie/internal/provider/modelprefs.go#L878) |
 | EffortsOf | function_declaration |  | [890](../../magpie/internal/provider/modelprefs.go#L890) |
-| serves | method_declaration | Provider | [894](../../magpie/internal/provider/modelprefs.go#L894) |
+| serves | method_declaration |  | [894](../../magpie/internal/provider/modelprefs.go#L894) |
 | ServesModel | function_declaration |  | [906](../../magpie/internal/provider/modelprefs.go#L906) |
 | UpstreamName | function_declaration |  | [925](../../magpie/internal/provider/modelprefs.go#L925) |
 | UpstreamNameIn | function_declaration |  | [933](../../magpie/internal/provider/modelprefs.go#L933) |
@@ -77,10 +79,11 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | SentNameOnIn | function_declaration |  | [1014](../../magpie/internal/provider/modelprefs.go#L1014) |
 | antigravitySentID | function_declaration |  | [1022](../../magpie/internal/provider/modelprefs.go#L1022) |
 | AntigravitySentID | function_declaration |  | [1043](../../magpie/internal/provider/modelprefs.go#L1043) |
+| levels | var_spec | AntigravitySentID | [1057](../../magpie/internal/provider/modelprefs.go#L1057) |
 | nearestEffort | function_declaration |  | [1075](../../magpie/internal/provider/modelprefs.go#L1075) |
 | SetUpstreamName | function_declaration |  | [1139](../../magpie/internal/provider/modelprefs.go#L1139) |
 | DropUpstreamName | function_declaration |  | [1179](../../magpie/internal/provider/modelprefs.go#L1179) |
 | HasUpstreamName | function_declaration |  | [1212](../../magpie/internal/provider/modelprefs.go#L1212) |
 | wireKey | function_declaration |  | [1232](../../magpie/internal/provider/modelprefs.go#L1232) |
-| UpstreamNames | method_declaration | Provider | [1250](../../magpie/internal/provider/modelprefs.go#L1250) |
-| asksOwnBackend | method_declaration | Provider | [1275](../../magpie/internal/provider/modelprefs.go#L1275) |
+| UpstreamNames | method_declaration |  | [1250](../../magpie/internal/provider/modelprefs.go#L1250) |
+| asksOwnBackend | method_declaration |  | [1275](../../magpie/internal/provider/modelprefs.go#L1275) |

@@ -9,14 +9,7 @@ Source SHA-256: cae21a7fd3090ca7bf5ed58df78f4cc3fd05f99276dc04e755b7d57d81089c0a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [20](../../magpie/internal/provider/migrate_zcode.go#L20) |
-| Site | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Device | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Key | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Base | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| JWT | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Token | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Org | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Project | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Plan | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
-| Source | field_declaration | init | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
+| out | var_spec | init | [26](../../magpie/internal/provider/migrate_zcode.go#L26) |
+| s | var_spec | init | [34](../../magpie/internal/provider/migrate_zcode.go#L34) |
+| Site | field_declaration | init::s | [35](../../magpie/internal/provider/migrate_zcode.go#L35) |
 | zcodeOut | function_declaration |  | [82](../../magpie/internal/provider/migrate_zcode.go#L82) |

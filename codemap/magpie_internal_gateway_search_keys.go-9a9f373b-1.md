@@ -8,7 +8,7 @@ Source SHA-256: 5086de4da640f5f65f23be0d85c531bda1d6dd631c2a9b94e6ecb3b816b8a189
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keyRest | struct_type |  | [26](../../magpie/internal/gateway/search_keys.go#L26) |
+| keyRest | type_spec |  | [26](../../magpie/internal/gateway/search_keys.go#L26) |
 | Until | field_declaration | keyRest | [27](../../magpie/internal/gateway/search_keys.go#L27) |
 | Why | field_declaration | keyRest | [28](../../magpie/internal/gateway/search_keys.go#L28) |
 | searchRests | var_spec |  | [33](../../magpie/internal/gateway/search_keys.go#L33) |
@@ -24,5 +24,6 @@ Source SHA-256: 5086de4da640f5f65f23be0d85c531bda1d6dd631c2a9b94e6ecb3b816b8a189
 | wakeSearchKey | function_declaration |  | [90](../../magpie/internal/gateway/search_keys.go#L90) |
 | searchKeyRest | function_declaration |  | [93](../../magpie/internal/gateway/search_keys.go#L93) |
 | searchKeyOrder | function_declaration |  | [109](../../magpie/internal/gateway/search_keys.go#L109) |
+| resting | var_spec | searchKeyOrder | [117](../../magpie/internal/gateway/search_keys.go#L117) |
 | forgetSearchKeys | function_declaration |  | [132](../../magpie/internal/gateway/search_keys.go#L132) |
 | keyLabel | function_declaration |  | [139](../../magpie/internal/gateway/search_keys.go#L139) |

@@ -8,7 +8,7 @@ Source SHA-256: 1e7774ea66db0b698f05b807fef8d67c3028f8fb575e1c3ae3c9df615dc721e1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SearchAPI | struct_type |  | [15](../../magpie/internal/provider/search_api.go#L15) |
+| SearchAPI | type_spec |  | [15](../../magpie/internal/provider/search_api.go#L15) |
 | Vendor | field_declaration | SearchAPI | [16](../../magpie/internal/provider/search_api.go#L16) |
 | Key | field_declaration | SearchAPI | [19](../../magpie/internal/provider/search_api.go#L19) |
 | Pick | field_declaration | SearchAPI | [24](../../magpie/internal/provider/search_api.go#L24) |
@@ -16,22 +16,23 @@ Source SHA-256: 1e7774ea66db0b698f05b807fef8d67c3028f8fb575e1c3ae3c9df615dc721e1
 | Off | field_declaration | SearchAPI | [31](../../magpie/internal/provider/search_api.go#L31) |
 | SearchPickTurns | const_spec |  | [36](../../magpie/internal/provider/search_api.go#L36) |
 | SearchPickOrder | const_spec |  | [37](../../magpie/internal/provider/search_api.go#L37) |
-| SearchVendor | struct_type |  | [41](../../magpie/internal/provider/search_api.go#L41) |
+| SearchVendor | type_spec |  | [41](../../magpie/internal/provider/search_api.go#L41) |
 | ID | field_declaration | SearchVendor | [42](../../magpie/internal/provider/search_api.go#L42) |
-| Name | field_declaration | SearchVendor | [42](../../magpie/internal/provider/search_api.go#L42) |
 | Base | field_declaration | SearchVendor | [43](../../magpie/internal/provider/search_api.go#L43) |
 | KeysURL | field_declaration | SearchVendor | [44](../../magpie/internal/provider/search_api.go#L44) |
 | KeyOptional | field_declaration | SearchVendor | [47](../../magpie/internal/provider/search_api.go#L47) |
 | YouFreeSearch | const_spec |  | [53](../../magpie/internal/provider/search_api.go#L53) |
 | SearchVendors | var_spec |  | [56](../../magpie/internal/provider/search_api.go#L56) |
 | SearchVendorOf | function_declaration |  | [67](../../magpie/internal/provider/search_api.go#L67) |
-| Keys | method_declaration | SearchAPI | [77](../../magpie/internal/provider/search_api.go#L77) |
-| MaskedKey | method_declaration | SearchAPI | [89](../../magpie/internal/provider/search_api.go#L89) |
+| Keys | method_declaration |  | [77](../../magpie/internal/provider/search_api.go#L77) |
+| out | var_spec | Keys | [78](../../magpie/internal/provider/search_api.go#L78) |
+| MaskedKey | method_declaration |  | [89](../../magpie/internal/provider/search_api.go#L89) |
 | MaskSearchKey | function_declaration |  | [100](../../magpie/internal/provider/search_api.go#L100) |
-| Name | method_declaration | SearchAPI | [108](../../magpie/internal/provider/search_api.go#L108) |
-| Base | method_declaration | SearchAPI | [116](../../magpie/internal/provider/search_api.go#L116) |
-| Ready | method_declaration | SearchAPI | [126](../../magpie/internal/provider/search_api.go#L126) |
-| check | method_declaration | SearchAPI | [132](../../magpie/internal/provider/search_api.go#L132) |
+| Name | method_declaration |  | [108](../../magpie/internal/provider/search_api.go#L108) |
+| Base | method_declaration |  | [116](../../magpie/internal/provider/search_api.go#L116) |
+| Ready | method_declaration |  | [126](../../magpie/internal/provider/search_api.go#L126) |
+| check | method_declaration |  | [132](../../magpie/internal/provider/search_api.go#L132) |
+| ids | var_spec | check | [135](../../magpie/internal/provider/search_api.go#L135) |
 | SearchAPIs | function_declaration |  | [166](../../magpie/internal/provider/search_api.go#L166) |
 | SearchAPIsSet | function_declaration |  | [172](../../magpie/internal/provider/search_api.go#L172) |
 | StoredSearchAPIs | function_declaration |  | [187](../../magpie/internal/provider/search_api.go#L187) |

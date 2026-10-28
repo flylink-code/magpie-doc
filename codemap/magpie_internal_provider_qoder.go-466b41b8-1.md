@@ -13,5 +13,7 @@ Source SHA-256: 1cc384f252c934381aaa166c3accbaff171ac83eae84fb72512cc54ad654e937
 | QoderCNID | const_spec |  | [34](../../magpie/internal/provider/qoder.go#L34) |
 | qoderWho | function_declaration |  | [36](../../magpie/internal/provider/qoder.go#L36) |
 | qoderSaved | function_declaration |  | [38](../../magpie/internal/provider/qoder.go#L38) |
+| c | var_spec | qoderSaved | [39](../../magpie/internal/provider/qoder.go#L39) |
 | migrateQoder | function_declaration |  | [51](../../magpie/internal/provider/qoder.go#L51) |
+| c | var_spec | migrateQoder | [68](../../magpie/internal/provider/qoder.go#L68) |
 | qoderLoginsOf | function_declaration |  | [104](../../magpie/internal/provider/qoder.go#L104) |

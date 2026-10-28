@@ -15,10 +15,11 @@ Source SHA-256: 84bf9aff98a65a611276522c0528be1d1f878850d63de93cdc2f393c34211a53
 | errNoHead | var_spec |  | [102](../../magpie/internal/plugin/gitrev.go#L102) |
 | remoteHead | var_spec |  | [106](../../magpie/internal/plugin/gitrev.go#L106) |
 | githubHead | function_declaration |  | [127](../../magpie/internal/plugin/gitrev.go#L127) |
-| SHA | field_declaration | githubHead | [137](../../magpie/internal/plugin/gitrev.go#L137) |
+| cs | var_spec | githubHead | [136](../../magpie/internal/plugin/gitrev.go#L136) |
+| SHA | field_declaration | githubHead::cs | [137](../../magpie/internal/plugin/gitrev.go#L137) |
 | lsRemote | function_declaration |  | [150](../../magpie/internal/plugin/gitrev.go#L150) |
 | headTTL | const_spec |  | [180](../../magpie/internal/plugin/gitrev.go#L180) |
-| headAnswer | struct_type |  | [182](../../magpie/internal/plugin/gitrev.go#L182) |
+| headAnswer | type_spec |  | [182](../../magpie/internal/plugin/gitrev.go#L182) |
 | sha | field_declaration | headAnswer | [183](../../magpie/internal/plugin/gitrev.go#L183) |
 | err | field_declaration | headAnswer | [184](../../magpie/internal/plugin/gitrev.go#L184) |
 | at | field_declaration | headAnswer | [185](../../magpie/internal/plugin/gitrev.go#L185) |
@@ -28,5 +29,7 @@ Source SHA-256: 84bf9aff98a65a611276522c0528be1d1f878850d63de93cdc2f393c34211a53
 | GitHeadCached | function_declaration |  | [215](../../magpie/internal/plugin/gitrev.go#L215) |
 | GitBehind | function_declaration |  | [223](../../magpie/internal/plugin/gitrev.go#L223) |
 | GitHeads | function_declaration |  | [231](../../magpie/internal/plugin/gitrev.go#L231) |
+| mu | var_spec | GitHeads | [233](../../magpie/internal/plugin/gitrev.go#L233) |
+| wg | var_spec | GitHeads | [234](../../magpie/internal/plugin/gitrev.go#L234) |
 | ShortCommit | function_declaration |  | [257](../../magpie/internal/plugin/gitrev.go#L257) |
 | short | function_declaration |  | [260](../../magpie/internal/plugin/gitrev.go#L260) |

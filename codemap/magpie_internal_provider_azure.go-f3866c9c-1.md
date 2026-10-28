@@ -11,9 +11,10 @@ Source SHA-256: ed4254534bae9c2c7d58419fd746dc40c43c06d83a6605fa6ee70f25ae16125d
 | AzurePreset | const_spec |  | [24](../../magpie/internal/provider/azure.go#L24) |
 | azureHosts | var_spec |  | [27](../../magpie/internal/provider/azure.go#L27) |
 | AzureHost | function_declaration |  | [30](../../magpie/internal/provider/azure.go#L30) |
-| IsAzure | method_declaration | Provider | [45](../../magpie/internal/provider/azure.go#L45) |
+| IsAzure | method_declaration |  | [45](../../magpie/internal/provider/azure.go#L45) |
 | AzureBase | function_declaration |  | [62](../../magpie/internal/provider/azure.go#L62) |
-| azureEndpoints | method_declaration | *Provider | [90](../../magpie/internal/provider/azure.go#L90) |
+| azureEndpoints | method_declaration |  | [90](../../magpie/internal/provider/azure.go#L90) |
 | asAzure | function_declaration |  | [108](../../magpie/internal/provider/azure.go#L108) |
 | azureDeploymentsVersion | const_spec |  | [124](../../magpie/internal/provider/azure.go#L124) |
-| azureModels | method_declaration | Provider | [130](../../magpie/internal/provider/azure.go#L130) |
+| azureModels | method_declaration |  | [130](../../magpie/internal/provider/azure.go#L130) |
+| errs | var_spec | azureModels | [149](../../magpie/internal/provider/azure.go#L149) |

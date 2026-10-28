@@ -24,15 +24,21 @@ Source SHA-256: 944b450b881abeed67df711a605985936b368e3f97319bc8d46791e11c9f7b20
 | SwitchOnly | function_declaration |  | [116](../../magpie/internal/provider/routing.go#L116) |
 | SetAffinity | function_declaration |  | [131](../../magpie/internal/provider/routing.go#L131) |
 | usedCache | var_spec |  | [140](../../magpie/internal/provider/routing.go#L140) |
+| m | field_declaration | usedCache | [142](../../magpie/internal/provider/routing.go#L142) |
+| at | field_declaration | usedCache | [143](../../magpie/internal/provider/routing.go#L143) |
+| loading | field_declaration | usedCache | [144](../../magpie/internal/provider/routing.go#L144) |
+| renewed | field_declaration | usedCache | [148](../../magpie/internal/provider/routing.go#L148) |
+| generation | field_declaration | usedCache | [149](../../magpie/internal/provider/routing.go#L149) |
+| seen | field_declaration | usedCache | [153](../../magpie/internal/provider/routing.go#L153) |
+| stale | field_declaration | usedCache | [157](../../magpie/internal/provider/routing.go#L157) |
 | firstWait | var_spec |  | [163](../../magpie/internal/provider/routing.go#L163) |
 | Allowance | type_spec |  | [166](../../magpie/internal/provider/routing.go#L166) |
-| Limit | struct_type |  | [169](../../magpie/internal/provider/routing.go#L169) |
+| Limit | type_spec |  | [169](../../magpie/internal/provider/routing.go#L169) |
 | Used | field_declaration | Limit | [170](../../magpie/internal/provider/routing.go#L170) |
 | Resets | field_declaration | Limit | [171](../../magpie/internal/provider/routing.go#L171) |
 | Span | field_declaration | Limit | [172](../../magpie/internal/provider/routing.go#L172) |
 | Model | field_declaration | Limit | [173](../../magpie/internal/provider/routing.go#L173) |
 | Amount | field_declaration | Limit | [176](../../magpie/internal/provider/routing.go#L176) |
-| Of | field_declaration | Limit | [176](../../magpie/internal/provider/routing.go#L176) |
 | Unit | field_declaration | Limit | [177](../../magpie/internal/provider/routing.go#L177) |
 | matches | field_declaration | Limit | [178](../../magpie/internal/provider/routing.go#L178) |
 | partial | field_declaration | Limit | [179](../../magpie/internal/provider/routing.go#L179) |
@@ -40,29 +46,36 @@ Source SHA-256: 944b450b881abeed67df711a605985936b368e3f97319bc8d46791e11c9f7b20
 | ResetRunsOut | field_declaration | Limit | [185](../../magpie/internal/provider/routing.go#L185) |
 | RunsOut | field_declaration | Limit | [188](../../magpie/internal/provider/routing.go#L188) |
 | Credits | field_declaration | Limit | [191](../../magpie/internal/provider/routing.go#L191) |
-| OnCredits | method_declaration | Allowance | [198](../../magpie/internal/provider/routing.go#L198) |
-| Restarts | method_declaration | Allowance | [213](../../magpie/internal/provider/routing.go#L213) |
-| heldUp | method_declaration | Allowance | [226](../../magpie/internal/provider/routing.go#L226) |
+| OnCredits | method_declaration |  | [198](../../magpie/internal/provider/routing.go#L198) |
+| Restarts | method_declaration |  | [213](../../magpie/internal/provider/routing.go#L213) |
+| heldUp | method_declaration |  | [226](../../magpie/internal/provider/routing.go#L226) |
 | restarted | function_declaration |  | [244](../../magpie/internal/provider/routing.go#L244) |
-| applies | method_declaration | Limit | [251](../../magpie/internal/provider/routing.go#L251) |
-| For | method_declaration | Allowance | [259](../../magpie/internal/provider/routing.go#L259) |
-| Fullest | method_declaration | Allowance | [290](../../magpie/internal/provider/routing.go#L290) |
-| Count | method_declaration | Allowance | [311](../../magpie/internal/provider/routing.go#L311) |
-| Renewal | method_declaration | Allowance | [336](../../magpie/internal/provider/routing.go#L336) |
-| Full | method_declaration | Allowance | [371](../../magpie/internal/provider/routing.go#L371) |
-| Pooled | method_declaration | Allowance | [389](../../magpie/internal/provider/routing.go#L389) |
+| applies | method_declaration |  | [251](../../magpie/internal/provider/routing.go#L251) |
+| For | method_declaration |  | [259](../../magpie/internal/provider/routing.go#L259) |
+| ls | var_spec | For | [261](../../magpie/internal/provider/routing.go#L261) |
+| Fullest | method_declaration |  | [290](../../magpie/internal/provider/routing.go#L290) |
+| Count | method_declaration |  | [311](../../magpie/internal/provider/routing.go#L311) |
+| Renewal | method_declaration |  | [336](../../magpie/internal/provider/routing.go#L336) |
+| ls | var_spec | Renewal | [339](../../magpie/internal/provider/routing.go#L339) |
+| Full | method_declaration |  | [371](../../magpie/internal/provider/routing.go#L371) |
+| t | var_spec | Full | [373](../../magpie/internal/provider/routing.go#L373) |
+| Pooled | method_declaration |  | [389](../../magpie/internal/provider/routing.go#L389) |
 | budgetSpan | const_spec |  | [412](../../magpie/internal/provider/routing.go#L412) |
 | weekSpan | const_spec |  | [417](../../magpie/internal/provider/routing.go#L417) |
 | FreshPace | const_spec |  | [421](../../magpie/internal/provider/routing.go#L421) |
-| Pace | method_declaration | Allowance | [445](../../magpie/internal/provider/routing.go#L445) |
+| Pace | method_declaration |  | [445](../../magpie/internal/provider/routing.go#L445) |
 | Allowances | function_declaration |  | [504](../../magpie/internal/provider/routing.go#L504) |
+| renewed | var_spec | Allowances | [539](../../magpie/internal/provider/routing.go#L539) |
 | OnRenewed | function_declaration |  | [596](../../magpie/internal/provider/routing.go#L596) |
 | renewedHooks | var_spec |  | [602](../../magpie/internal/provider/routing.go#L602) |
+| fs | field_declaration | renewedHooks | [604](../../magpie/internal/provider/routing.go#L604) |
 | renewedNow | function_declaration |  | [611](../../magpie/internal/provider/routing.go#L611) |
 | tellRenewed | function_declaration |  | [617](../../magpie/internal/provider/routing.go#L617) |
 | AwaitAllowance | function_declaration |  | [633](../../magpie/internal/provider/routing.go#L633) |
 | forgetAllowance | function_declaration |  | [669](../../magpie/internal/provider/routing.go#L669) |
 | StaleAllowance | function_declaration |  | [700](../../magpie/internal/provider/routing.go#L700) |
-| restartedBy | method_declaration | Allowance | [726](../../magpie/internal/provider/routing.go#L726) |
+| restartedBy | method_declaration |  | [726](../../magpie/internal/provider/routing.go#L726) |
 | routedAllowance | function_declaration |  | [738](../../magpie/internal/provider/routing.go#L738) |
 | allowanceOf | function_declaration |  | [747](../../magpie/internal/provider/routing.go#L747) |
+| raw | var_spec | allowanceOf | [751](../../magpie/internal/provider/routing.go#L751) |
+| a | var_spec | allowanceOf | [769](../../magpie/internal/provider/routing.go#L769) |

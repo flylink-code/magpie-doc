@@ -9,7 +9,6 @@ Source SHA-256: 759d9acb859d3901370058bfbd41aefb17f2d198f2c8803101b8eb55b16dcee2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | warming | var_spec |  | [20](../../magpie/internal/sessions/quiet.go#L20) |
-| asking | var_spec |  | [20](../../magpie/internal/sessions/quiet.go#L20) |
 | quietSlots | var_spec |  | [21](../../magpie/internal/sessions/quiet.go#L21) |
 | quietReaders | function_declaration |  | [25](../../magpie/internal/sessions/quiet.go#L25) |
 | scanReaders | function_declaration |  | [33](../../magpie/internal/sessions/quiet.go#L33) |
@@ -18,5 +17,4 @@ Source SHA-256: 759d9acb859d3901370058bfbd41aefb17f2d198f2c8803101b8eb55b16dcee2
 | quiet | function_declaration |  | [52](../../magpie/internal/sessions/quiet.go#L52) |
 | readSlot | function_declaration |  | [57](../../magpie/internal/sessions/quiet.go#L57) |
 | reading | var_spec |  | [74](../../magpie/internal/sessions/quiet.go#L74) |
-| readPeak | var_spec |  | [74](../../magpie/internal/sessions/quiet.go#L74) |
 | readBegin | function_declaration |  | [76](../../magpie/internal/sessions/quiet.go#L76) |

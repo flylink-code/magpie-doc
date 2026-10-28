@@ -9,11 +9,14 @@ Source SHA-256: e5b80b7dd14370efd635744542cdf794cfe26f88141bd1d0b42597d7918e1cac
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | DecideAsk | function_declaration |  | [14](../../magpie/internal/provider/decide_wire.go#L14) |
+| q | var_spec | DecideAsk | [15](../../magpie/internal/provider/decide_wire.go#L15) |
 | DecideAnswer | function_declaration |  | [47](../../magpie/internal/provider/decide_wire.go#L47) |
-| Result | field_declaration | DecideAnswer | [51](../../magpie/internal/provider/decide_wire.go#L51) |
-| Model | field_declaration | DecideAnswer | [58](../../magpie/internal/provider/decide_wire.go#L58) |
-| Answers | field_declaration | DecideAnswer | [59](../../magpie/internal/provider/decide_wire.go#L59) |
-| Usage | field_declaration | DecideAnswer | [60](../../magpie/internal/provider/decide_wire.go#L60) |
-| Input | field_declaration | DecideAnswer | [61](../../magpie/internal/provider/decide_wire.go#L61) |
-| Output | field_declaration | DecideAnswer | [62](../../magpie/internal/provider/decide_wire.go#L62) |
+| env | var_spec | DecideAnswer | [50](../../magpie/internal/provider/decide_wire.go#L50) |
+| Result | field_declaration | DecideAnswer::env | [51](../../magpie/internal/provider/decide_wire.go#L51) |
+| v | var_spec | DecideAnswer | [57](../../magpie/internal/provider/decide_wire.go#L57) |
+| Model | field_declaration | DecideAnswer::v | [58](../../magpie/internal/provider/decide_wire.go#L58) |
+| Answers | field_declaration | DecideAnswer::v | [59](../../magpie/internal/provider/decide_wire.go#L59) |
+| Usage | field_declaration | DecideAnswer::v | [60](../../magpie/internal/provider/decide_wire.go#L60) |
+| Input | field_declaration | DecideAnswer::v::Usage | [61](../../magpie/internal/provider/decide_wire.go#L61) |
+| Output | field_declaration | DecideAnswer::v::Usage | [62](../../magpie/internal/provider/decide_wire.go#L62) |
 | Confidence | function_declaration |  | [89](../../magpie/internal/provider/decide_wire.go#L89) |

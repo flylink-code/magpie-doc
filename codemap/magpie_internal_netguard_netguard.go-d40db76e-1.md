@@ -9,7 +9,7 @@ Source SHA-256: a8dbd56f9106cbdca29b4df6c139250bc8f401d5675d2752f85ea430ab6b6f12
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | specialNets | var_spec |  | [12](../../magpie/internal/netguard/netguard.go#L12) |
-| out | var_spec |  | [13](../../magpie/internal/netguard/netguard.go#L13) |
+| out | var_spec | specialNets | [13](../../magpie/internal/netguard/netguard.go#L13) |
 | nat64 | var_spec |  | [36](../../magpie/internal/netguard/netguard.go#L36) |
 | fakeNet | var_spec |  | [37](../../magpie/internal/netguard/netguard.go#L37) |
 | loonNet | var_spec |  | [38](../../magpie/internal/netguard/netguard.go#L38) |

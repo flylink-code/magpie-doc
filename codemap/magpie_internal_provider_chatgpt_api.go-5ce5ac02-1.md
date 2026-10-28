@@ -23,7 +23,7 @@ Source SHA-256: 3717d3074ec6bef65a5113e62ba44fe23cc9e776bf023f7b257958fa37d2de36
 | SIWCUsageURL | const_spec |  | [70](../../magpie/internal/provider/chatgpt_api.go#L70) |
 | siwcClient | var_spec |  | [73](../../magpie/internal/provider/chatgpt_api.go#L73) |
 | ErrSIWCSignIn | var_spec |  | [77](../../magpie/internal/provider/chatgpt_api.go#L77) |
-| siwcCreds | struct_type |  | [81](../../magpie/internal/provider/chatgpt_api.go#L81) |
+| siwcCreds | type_spec |  | [81](../../magpie/internal/provider/chatgpt_api.go#L81) |
 | ClientID | field_declaration | siwcCreds | [82](../../magpie/internal/provider/chatgpt_api.go#L82) |
 | HostID | field_declaration | siwcCreds | [83](../../magpie/internal/provider/chatgpt_api.go#L83) |
 | Subject | field_declaration | siwcCreds | [84](../../magpie/internal/provider/chatgpt_api.go#L84) |
@@ -34,6 +34,7 @@ Source SHA-256: 3717d3074ec6bef65a5113e62ba44fe23cc9e776bf023f7b257958fa37d2de36
 | Expires | field_declaration | siwcCreds | [89](../../magpie/internal/provider/chatgpt_api.go#L89) |
 | Scopes | field_declaration | siwcCreds | [90](../../magpie/internal/provider/chatgpt_api.go#L90) |
 | siwcSaved | function_declaration |  | [93](../../magpie/internal/provider/chatgpt_api.go#L93) |
+| c | var_spec | siwcSaved | [94](../../magpie/internal/provider/chatgpt_api.go#L94) |
 | siwcSide | function_declaration |  | [101](../../magpie/internal/provider/chatgpt_api.go#L101) |
 | siwcLoginList | function_declaration |  | [108](../../magpie/internal/provider/chatgpt_api.go#L108) |
 | switchSIWCLogin | function_declaration |  | [110](../../magpie/internal/provider/chatgpt_api.go#L110) |
@@ -43,55 +44,63 @@ Source SHA-256: 3717d3074ec6bef65a5113e62ba44fe23cc9e776bf023f7b257958fa37d2de36
 | siwcHostID | function_declaration |  | [145](../../magpie/internal/provider/chatgpt_api.go#L145) |
 | listenSIWCCallback | function_declaration |  | [168](../../magpie/internal/provider/chatgpt_api.go#L168) |
 | siwcAuthorize | function_declaration |  | [176](../../magpie/internal/provider/chatgpt_api.go#L176) |
-| siwcDone | method_declaration | *signInFlow | [193](../../magpie/internal/provider/chatgpt_api.go#L193) |
+| siwcDone | method_declaration |  | [193](../../magpie/internal/provider/chatgpt_api.go#L193) |
 | siwcSignedIn | function_declaration |  | [205](../../magpie/internal/provider/chatgpt_api.go#L205) |
 | siwcCheckID | function_declaration |  | [255](../../magpie/internal/provider/chatgpt_api.go#L255) |
 | siwcPlan | function_declaration |  | [282](../../magpie/internal/provider/chatgpt_api.go#L282) |
-| siwcTokenReply | struct_type |  | [292](../../magpie/internal/provider/chatgpt_api.go#L292) |
+| siwcTokenReply | type_spec |  | [292](../../magpie/internal/provider/chatgpt_api.go#L292) |
 | Access | field_declaration | siwcTokenReply | [293](../../magpie/internal/provider/chatgpt_api.go#L293) |
 | Refresh | field_declaration | siwcTokenReply | [294](../../magpie/internal/provider/chatgpt_api.go#L294) |
 | IDToken | field_declaration | siwcTokenReply | [295](../../magpie/internal/provider/chatgpt_api.go#L295) |
 | ExpiresIn | field_declaration | siwcTokenReply | [296](../../magpie/internal/provider/chatgpt_api.go#L296) |
 | Scope | field_declaration | siwcTokenReply | [297](../../magpie/internal/provider/chatgpt_api.go#L297) |
-| siwcTokenError | struct_type |  | [301](../../magpie/internal/provider/chatgpt_api.go#L301) |
+| siwcTokenError | type_spec |  | [301](../../magpie/internal/provider/chatgpt_api.go#L301) |
 | Status | field_declaration | siwcTokenError | [302](../../magpie/internal/provider/chatgpt_api.go#L302) |
 | Code | field_declaration | siwcTokenError | [303](../../magpie/internal/provider/chatgpt_api.go#L303) |
 | Msg | field_declaration | siwcTokenError | [304](../../magpie/internal/provider/chatgpt_api.go#L304) |
-| Error | method_declaration | *siwcTokenError | [307](../../magpie/internal/provider/chatgpt_api.go#L307) |
+| Error | method_declaration |  | [307](../../magpie/internal/provider/chatgpt_api.go#L307) |
 | siwcPostToken | function_declaration |  | [311](../../magpie/internal/provider/chatgpt_api.go#L311) |
-| Error | field_declaration | siwcPostToken | [326](../../magpie/internal/provider/chatgpt_api.go#L326) |
-| Desc | field_declaration | siwcPostToken | [327](../../magpie/internal/provider/chatgpt_api.go#L327) |
-| Code | field_declaration | siwcPostToken | [328](../../magpie/internal/provider/chatgpt_api.go#L328) |
+| e | var_spec | siwcPostToken | [325](../../magpie/internal/provider/chatgpt_api.go#L325) |
+| Error | field_declaration | siwcPostToken::e | [326](../../magpie/internal/provider/chatgpt_api.go#L326) |
+| Desc | field_declaration | siwcPostToken::e | [327](../../magpie/internal/provider/chatgpt_api.go#L327) |
+| Code | field_declaration | siwcPostToken::e | [328](../../magpie/internal/provider/chatgpt_api.go#L328) |
+| tok | var_spec | siwcPostToken | [345](../../magpie/internal/provider/chatgpt_api.go#L345) |
 | siwcFromToken | function_declaration |  | [353](../../magpie/internal/provider/chatgpt_api.go#L353) |
 | siwcDead | var_spec |  | [373](../../magpie/internal/provider/chatgpt_api.go#L373) |
 | siwcRefreshing | var_spec |  | [380](../../magpie/internal/provider/chatgpt_api.go#L380) |
 | siwcFresh | function_declaration |  | [385](../../magpie/internal/provider/chatgpt_api.go#L385) |
+| te | var_spec | siwcFresh | [403](../../magpie/internal/provider/chatgpt_api.go#L403) |
 | siwcRevoke | function_declaration |  | [442](../../magpie/internal/provider/chatgpt_api.go#L442) |
-| Revoke | field_declaration | siwcRevoke | [452](../../magpie/internal/provider/chatgpt_api.go#L452) |
+| d | var_spec | siwcRevoke | [451](../../magpie/internal/provider/chatgpt_api.go#L451) |
+| Revoke | field_declaration | siwcRevoke::d | [452](../../magpie/internal/provider/chatgpt_api.go#L452) |
 | siwcFetchModels | function_declaration |  | [479](../../magpie/internal/provider/chatgpt_api.go#L479) |
 | siwcWithCodex | function_declaration |  | [517](../../magpie/internal/provider/chatgpt_api.go#L517) |
 | parseSIWCModels | function_declaration |  | [534](../../magpie/internal/provider/chatgpt_api.go#L534) |
-| Models | field_declaration | parseSIWCModels | [536](../../magpie/internal/provider/chatgpt_api.go#L536) |
-| Slug | field_declaration | parseSIWCModels | [537](../../magpie/internal/provider/chatgpt_api.go#L537) |
-| DisplayName | field_declaration | parseSIWCModels | [538](../../magpie/internal/provider/chatgpt_api.go#L538) |
-| Visibility | field_declaration | parseSIWCModels | [539](../../magpie/internal/provider/chatgpt_api.go#L539) |
-| Input | field_declaration | parseSIWCModels | [540](../../magpie/internal/provider/chatgpt_api.go#L540) |
-| Levels | field_declaration | parseSIWCModels | [541](../../magpie/internal/provider/chatgpt_api.go#L541) |
-| Effort | field_declaration | parseSIWCModels | [542](../../magpie/internal/provider/chatgpt_api.go#L542) |
-| Context | field_declaration | parseSIWCModels | [544](../../magpie/internal/provider/chatgpt_api.go#L544) |
-| Max | field_declaration | parseSIWCModels | [545](../../magpie/internal/provider/chatgpt_api.go#L545) |
+| list | var_spec | parseSIWCModels | [535](../../magpie/internal/provider/chatgpt_api.go#L535) |
+| Models | field_declaration | parseSIWCModels::list | [536](../../magpie/internal/provider/chatgpt_api.go#L536) |
+| Slug | field_declaration | parseSIWCModels::list::Models | [537](../../magpie/internal/provider/chatgpt_api.go#L537) |
+| DisplayName | field_declaration | parseSIWCModels::list::Models | [538](../../magpie/internal/provider/chatgpt_api.go#L538) |
+| Visibility | field_declaration | parseSIWCModels::list::Models | [539](../../magpie/internal/provider/chatgpt_api.go#L539) |
+| Input | field_declaration | parseSIWCModels::list::Models | [540](../../magpie/internal/provider/chatgpt_api.go#L540) |
+| Levels | field_declaration | parseSIWCModels::list::Models | [541](../../magpie/internal/provider/chatgpt_api.go#L541) |
+| Effort | field_declaration | parseSIWCModels::list::Models::Levels | [542](../../magpie/internal/provider/chatgpt_api.go#L542) |
+| Context | field_declaration | parseSIWCModels::list::Models | [544](../../magpie/internal/provider/chatgpt_api.go#L544) |
+| Max | field_declaration | parseSIWCModels::list::Models | [545](../../magpie/internal/provider/chatgpt_api.go#L545) |
 | siwcDropped | var_spec |  | [578](../../magpie/internal/provider/chatgpt_api.go#L578) |
 | siwcHostedTools | var_spec |  | [584](../../magpie/internal/provider/chatgpt_api.go#L584) |
 | siwcBody | function_declaration |  | [591](../../magpie/internal/provider/chatgpt_api.go#L591) |
+| m | var_spec | siwcBody | [594](../../magpie/internal/provider/chatgpt_api.go#L594) |
 | siwcOwnTools | function_declaration |  | [646](../../magpie/internal/provider/chatgpt_api.go#L646) |
 | siwcErrorCode | function_declaration |  | [656](../../magpie/internal/provider/chatgpt_api.go#L656) |
-| Error | field_declaration | siwcErrorCode | [658](../../magpie/internal/provider/chatgpt_api.go#L658) |
-| Code | field_declaration | siwcErrorCode | [659](../../magpie/internal/provider/chatgpt_api.go#L659) |
-| Type | field_declaration | siwcErrorCode | [660](../../magpie/internal/provider/chatgpt_api.go#L660) |
-| Param | field_declaration | siwcErrorCode | [661](../../magpie/internal/provider/chatgpt_api.go#L661) |
-| Detail | field_declaration | siwcErrorCode | [663](../../magpie/internal/provider/chatgpt_api.go#L663) |
+| e | var_spec | siwcErrorCode | [657](../../magpie/internal/provider/chatgpt_api.go#L657) |
+| Error | field_declaration | siwcErrorCode::e | [658](../../magpie/internal/provider/chatgpt_api.go#L658) |
+| Code | field_declaration | siwcErrorCode::e::Error | [659](../../magpie/internal/provider/chatgpt_api.go#L659) |
+| Type | field_declaration | siwcErrorCode::e::Error | [660](../../magpie/internal/provider/chatgpt_api.go#L660) |
+| Param | field_declaration | siwcErrorCode::e::Error | [661](../../magpie/internal/provider/chatgpt_api.go#L661) |
+| Detail | field_declaration | siwcErrorCode::e | [663](../../magpie/internal/provider/chatgpt_api.go#L663) |
 | siwcExplain | function_declaration |  | [691](../../magpie/internal/provider/chatgpt_api.go#L691) |
 | siwcProvider | function_declaration |  | [717](../../magpie/internal/provider/chatgpt_api.go#L717) |
 | siwcAccount | function_declaration |  | [746](../../magpie/internal/provider/chatgpt_api.go#L746) |
 | SIWCForTest | function_declaration |  | [755](../../magpie/internal/provider/chatgpt_api.go#L755) |
 | siwcAlsoOn | function_declaration |  | [762](../../magpie/internal/provider/chatgpt_api.go#L762) |
+| out | var_spec | siwcAlsoOn | [763](../../magpie/internal/provider/chatgpt_api.go#L763) |

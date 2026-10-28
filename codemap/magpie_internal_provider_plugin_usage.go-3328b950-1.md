@@ -9,6 +9,7 @@ Source SHA-256: d48680211e772efe339b0f0b6443aa8e715d5610aaf41e722a092849c4cdf73a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | movedCards | var_spec |  | [22](../../magpie/internal/provider/plugin_usage.go#L22) |
+| name | field_declaration | movedCards | [22](../../magpie/internal/provider/plugin_usage.go#L22) |
 | builtinHost | function_declaration |  | [39](../../magpie/internal/provider/plugin_usage.go#L39) |
 | movedNames | var_spec |  | [58](../../magpie/internal/provider/plugin_usage.go#L58) |
 | pluginCard | function_declaration |  | [61](../../magpie/internal/provider/plugin_usage.go#L61) |
@@ -16,13 +17,15 @@ Source SHA-256: d48680211e772efe339b0f0b6443aa8e715d5610aaf41e722a092849c4cdf73a
 | signInGone | var_spec |  | [81](../../magpie/internal/provider/plugin_usage.go#L81) |
 | pluginLoginQuota | function_declaration |  | [85](../../magpie/internal/provider/plugin_usage.go#L85) |
 | quotaOfPlugin | function_declaration |  | [131](../../magpie/internal/provider/plugin_usage.go#L131) |
-| idSet | struct_type |  | [197](../../magpie/internal/provider/plugin_usage.go#L197) |
+| idSet | type_spec |  | [197](../../magpie/internal/provider/plugin_usage.go#L197) |
 | ids | field_declaration | idSet | [198](../../magpie/internal/provider/plugin_usage.go#L198) |
 | bare | field_declaration | idSet | [199](../../magpie/internal/provider/plugin_usage.go#L199) |
 | idSetOf | function_declaration |  | [202](../../magpie/internal/provider/plugin_usage.go#L202) |
-| has | method_declaration | *idSet | [217](../../magpie/internal/provider/plugin_usage.go#L217) |
+| has | method_declaration |  | [217](../../magpie/internal/provider/plugin_usage.go#L217) |
 | bareID | function_declaration |  | [230](../../magpie/internal/provider/plugin_usage.go#L230) |
 | pluginUsageFetches | function_declaration |  | [241](../../magpie/internal/provider/plugin_usage.go#L241) |
+| out | var_spec | pluginUsageFetches | [242](../../magpie/internal/provider/plugin_usage.go#L242) |
 | pluginUsageFetchesOf | function_declaration |  | [258](../../magpie/internal/provider/plugin_usage.go#L258) |
-| UsageAgent | method_declaration | *Account | [269](../../magpie/internal/provider/plugin_usage.go#L269) |
+| UsageAgent | method_declaration |  | [269](../../magpie/internal/provider/plugin_usage.go#L269) |
 | PluginAllowanceForTest | function_declaration |  | [278](../../magpie/internal/provider/plugin_usage.go#L278) |
+| u | var_spec | PluginAllowanceForTest | [279](../../magpie/internal/provider/plugin_usage.go#L279) |

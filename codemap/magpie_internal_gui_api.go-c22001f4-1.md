@@ -13,30 +13,20 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | cliQuiet | function_declaration |  | [87](../../magpie/internal/gui/api.go#L87) |
 | setCLIQuiet | function_declaration |  | [93](../../magpie/internal/gui/api.go#L93) |
 | cliBehindRoutes | function_declaration |  | [101](../../magpie/internal/gui/api.go#L101) |
-| Shell | field_declaration | cliBehindRoutes | [120](../../magpie/internal/gui/api.go#L120) |
+| in | var_spec | cliBehindRoutes | [119](../../magpie/internal/gui/api.go#L119) |
+| Shell | field_declaration | cliBehindRoutes::in | [120](../../magpie/internal/gui/api.go#L120) |
 | cliBehindOnce | var_spec |  | [135](../../magpie/internal/gui/api.go#L135) |
 | cliBehindMu | var_spec |  | [136](../../magpie/internal/gui/api.go#L136) |
 | cliBehindVal | var_spec |  | [137](../../magpie/internal/gui/api.go#L137) |
 | Version | var_spec |  | [140](../../magpie/internal/gui/api.go#L140) |
 | assets | var_spec |  | [143](../../magpie/internal/gui/api.go#L143) |
-| Windows | interface_type |  | [146](../../magpie/internal/gui/api.go#L146) |
-| HidePanel | method_spec | Windows | [147](../../magpie/internal/gui/api.go#L147) |
-| ShowMain | method_spec | Windows | [149](../../magpie/internal/gui/api.go#L149) |
-| Quit | method_spec | Windows | [150](../../magpie/internal/gui/api.go#L150) |
-| OpenURL | method_spec | Windows | [153](../../magpie/internal/gui/api.go#L153) |
-| OpenFolder | method_spec | Windows | [155](../../magpie/internal/gui/api.go#L155) |
-| ChooseFolder | method_spec | Windows | [158](../../magpie/internal/gui/api.go#L158) |
-| Copy | method_spec | Windows | [161](../../magpie/internal/gui/api.go#L161) |
-| FitPanel | method_spec | Windows | [163](../../magpie/internal/gui/api.go#L163) |
-| TintPanel | method_spec | Windows | [167](../../magpie/internal/gui/api.go#L167) |
-| TintTitleBar | method_spec | Windows | [170](../../magpie/internal/gui/api.go#L170) |
-| SetTextSize | method_spec | Windows | [173](../../magpie/internal/gui/api.go#L173) |
-| fieldJSON | struct_type |  | [176](../../magpie/internal/gui/api.go#L176) |
+| Windows | type_spec |  | [146](../../magpie/internal/gui/api.go#L146) |
+| fieldJSON | type_spec |  | [176](../../magpie/internal/gui/api.go#L176) |
 | Key | field_declaration | fieldJSON | [177](../../magpie/internal/gui/api.go#L177) |
 | Label | field_declaration | fieldJSON | [178](../../magpie/internal/gui/api.go#L178) |
 | Value | field_declaration | fieldJSON | [179](../../magpie/internal/gui/api.go#L179) |
 | Options | field_declaration | fieldJSON | [180](../../magpie/internal/gui/api.go#L180) |
-| agentJSON | struct_type |  | [183](../../magpie/internal/gui/api.go#L183) |
+| agentJSON | type_spec |  | [183](../../magpie/internal/gui/api.go#L183) |
 | ID | field_declaration | agentJSON | [184](../../magpie/internal/gui/api.go#L184) |
 | Name | field_declaration | agentJSON | [185](../../magpie/internal/gui/api.go#L185) |
 | Icon | field_declaration | agentJSON | [186](../../magpie/internal/gui/api.go#L186) |
@@ -59,21 +49,21 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | Failover | field_declaration | agentJSON | [229](../../magpie/internal/gui/api.go#L229) |
 | CLIMissing | field_declaration | agentJSON | [233](../../magpie/internal/gui/api.go#L233) |
 | Native | field_declaration | agentJSON | [234](../../magpie/internal/gui/api.go#L234) |
-| clientJSON | struct_type |  | [239](../../magpie/internal/gui/api.go#L239) |
+| clientJSON | type_spec |  | [239](../../magpie/internal/gui/api.go#L239) |
 | ID | field_declaration | clientJSON | [240](../../magpie/internal/gui/api.go#L240) |
 | Name | field_declaration | clientJSON | [241](../../magpie/internal/gui/api.go#L241) |
 | Icon | field_declaration | clientJSON | [242](../../magpie/internal/gui/api.go#L242) |
-| profileJSON | struct_type |  | [245](../../magpie/internal/gui/api.go#L245) |
+| profileJSON | type_spec |  | [245](../../magpie/internal/gui/api.go#L245) |
 | Name | field_declaration | profileJSON | [246](../../magpie/internal/gui/api.go#L246) |
 | Summary | field_declaration | profileJSON | [247](../../magpie/internal/gui/api.go#L247) |
 | Library | field_declaration | profileJSON | [250](../../magpie/internal/gui/api.go#L250) |
 | Agents | field_declaration | profileJSON | [253](../../magpie/internal/gui/api.go#L253) |
 | InUse | field_declaration | profileJSON | [257](../../magpie/internal/gui/api.go#L257) |
-| profileLibraryJSON | struct_type |  | [260](../../magpie/internal/gui/api.go#L260) |
+| profileLibraryJSON | type_spec |  | [260](../../magpie/internal/gui/api.go#L260) |
 | Servers | field_declaration | profileLibraryJSON | [261](../../magpie/internal/gui/api.go#L261) |
 | Skills | field_declaration | profileLibraryJSON | [262](../../magpie/internal/gui/api.go#L262) |
 | Instructions | field_declaration | profileLibraryJSON | [263](../../magpie/internal/gui/api.go#L263) |
-| stateJSON | struct_type |  | [266](../../magpie/internal/gui/api.go#L266) |
+| stateJSON | type_spec |  | [266](../../magpie/internal/gui/api.go#L266) |
 | Agents | field_declaration | stateJSON | [267](../../magpie/internal/gui/api.go#L267) |
 | Clients | field_declaration | stateJSON | [268](../../magpie/internal/gui/api.go#L268) |
 | Profiles | field_declaration | stateJSON | [269](../../magpie/internal/gui/api.go#L269) |
@@ -87,19 +77,19 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | Recovered | field_declaration | stateJSON | [291](../../magpie/internal/gui/api.go#L291) |
 | Last | field_declaration | stateJSON | [294](../../magpie/internal/gui/api.go#L294) |
 | Served | field_declaration | stateJSON | [298](../../magpie/internal/gui/api.go#L298) |
-| unlistedJSON | struct_type |  | [303](../../magpie/internal/gui/api.go#L303) |
+| unlistedJSON | type_spec |  | [303](../../magpie/internal/gui/api.go#L303) |
 | ID | field_declaration | unlistedJSON | [304](../../magpie/internal/gui/api.go#L304) |
 | Name | field_declaration | unlistedJSON | [305](../../magpie/internal/gui/api.go#L305) |
 | Provider | field_declaration | unlistedJSON | [306](../../magpie/internal/gui/api.go#L306) |
 | Icon | field_declaration | unlistedJSON | [307](../../magpie/internal/gui/api.go#L307) |
 | Groups | field_declaration | unlistedJSON | [308](../../magpie/internal/gui/api.go#L308) |
 | unlistedModels | function_declaration |  | [312](../../magpie/internal/gui/api.go#L312) |
-| fxJSON | struct_type |  | [333](../../magpie/internal/gui/api.go#L333) |
+| fxJSON | type_spec |  | [333](../../magpie/internal/gui/api.go#L333) |
 | Rate | field_declaration | fxJSON | [334](../../magpie/internal/gui/api.go#L334) |
 | At | field_declaration | fxJSON | [335](../../magpie/internal/gui/api.go#L335) |
 | Stale | field_declaration | fxJSON | [336](../../magpie/internal/gui/api.go#L336) |
 | currentFX | function_declaration |  | [342](../../magpie/internal/gui/api.go#L342) |
-| settingsJSON | struct_type |  | [353](../../magpie/internal/gui/api.go#L353) |
+| settingsJSON | type_spec |  | [353](../../magpie/internal/gui/api.go#L353) |
 | Version | field_declaration | settingsJSON | [355](../../magpie/internal/gui/api.go#L355) |
 | Dir | field_declaration | settingsJSON | [356](../../magpie/internal/gui/api.go#L356) |
 | Gateway | field_declaration | settingsJSON | [357](../../magpie/internal/gui/api.go#L357) |
@@ -108,3 +98,13 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | PublicURL | field_declaration | settingsJSON | [368](../../magpie/internal/gui/api.go#L368) |
 | AddrEnv | field_declaration | settingsJSON | [370](../../magpie/internal/gui/api.go#L370) |
 | AllowIPsEnv | field_declaration | settingsJSON | [374](../../magpie/internal/gui/api.go#L374) |
+| AllowIPsFromEnv | field_declaration | settingsJSON | [375](../../magpie/internal/gui/api.go#L375) |
+| OnNetwork | field_declaration | settingsJSON | [376](../../magpie/internal/gui/api.go#L376) |
+| Portable | field_declaration | settingsJSON | [378](../../magpie/internal/gui/api.go#L378) |
+| WSL | field_declaration | settingsJSON | [381](../../magpie/internal/gui/api.go#L381) |
+| Rekeyed | field_declaration | settingsJSON | [384](../../magpie/internal/gui/api.go#L384) |
+| Notice | field_declaration | settingsJSON | [388](../../magpie/internal/gui/api.go#L388) |
+| TerminalApps | field_declaration | settingsJSON | [390](../../magpie/internal/gui/api.go#L390) |
+| TerminalDefault | field_declaration | settingsJSON | [391](../../magpie/internal/gui/api.go#L391) |
+| OTelEnv | field_declaration | settingsJSON | [392](../../magpie/internal/gui/api.go#L392) |
+| NoAccountsEnv | field_declaration | settingsJSON | [395](../../magpie/internal/gui/api.go#L395) |

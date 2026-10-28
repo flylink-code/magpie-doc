@@ -9,6 +9,8 @@ Source SHA-256: 72aee4993dcee0044a380bd7250a0d101dde10a91e1ff368f9958e3daa92b897
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | codexFingerprintKey | var_spec |  | [15](../../magpie/internal/sessions/codex_fingerprint.go#L15) |
+| path | field_declaration | codexFingerprintKey | [17](../../magpie/internal/sessions/codex_fingerprint.go#L17) |
+| key | field_declaration | codexFingerprintKey | [18](../../magpie/internal/sessions/codex_fingerprint.go#L18) |
 | CodexPromptDigest | function_declaration |  | [23](../../magpie/internal/sessions/codex_fingerprint.go#L23) |
 | codexFingerprint | function_declaration |  | [25](../../magpie/internal/sessions/codex_fingerprint.go#L25) |
 | codexTitleKey | function_declaration |  | [38](../../magpie/internal/sessions/codex_fingerprint.go#L38) |

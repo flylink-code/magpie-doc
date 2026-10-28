@@ -10,3 +10,4 @@ Source SHA-256: 17a23a1759a28652c648304a40e433d2c3865081ccefbe05814e0df52b8b287e
 | --- | --- | --- | ---: |
 | grokToolPatterns | function_declaration |  | [26](../../magpie/internal/gateway/grok_schema.go#L26) |
 | ecmaClassForRust | function_declaration |  | [40](../../magpie/internal/gateway/grok_schema.go#L40) |
+| b | var_spec | ecmaClassForRust | [41](../../magpie/internal/gateway/grok_schema.go#L41) |

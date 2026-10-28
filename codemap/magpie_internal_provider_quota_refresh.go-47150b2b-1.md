@@ -8,21 +8,22 @@ Source SHA-256: 78b25ae22c619fc77ab8cacb0d0006b004b0e93cae99898aacde218a6e098981
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cardRefresh | struct_type |  | [16](../../magpie/internal/provider/quota_refresh.go#L16) |
+| cardRefresh | type_spec |  | [16](../../magpie/internal/provider/quota_refresh.go#L16) |
 | provider | field_declaration | cardRefresh | [16](../../magpie/internal/provider/quota_refresh.go#L16) |
-| user | field_declaration | cardRefresh | [16](../../magpie/internal/provider/quota_refresh.go#L16) |
-| cardRefreshKey | struct_type |  | [18](../../magpie/internal/provider/quota_refresh.go#L18) |
-| quotaReadKey | struct_type |  | [20](../../magpie/internal/provider/quota_refresh.go#L20) |
+| cardRefreshKey | type_spec |  | [18](../../magpie/internal/provider/quota_refresh.go#L18) |
+| quotaReadKey | type_spec |  | [20](../../magpie/internal/provider/quota_refresh.go#L20) |
 | quotaReadSequence | var_spec |  | [22](../../magpie/internal/provider/quota_refresh.go#L22) |
 | quotaReading | function_declaration |  | [28](../../magpie/internal/provider/quota_refresh.go#L28) |
 | keepReading | function_declaration |  | [39](../../magpie/internal/provider/quota_refresh.go#L39) |
 | refreshing | function_declaration |  | [45](../../magpie/internal/provider/quota_refresh.go#L45) |
 | wantsCard | function_declaration |  | [52](../../magpie/internal/provider/quota_refresh.go#L52) |
-| wants | method_declaration | cardRefresh | [57](../../magpie/internal/provider/quota_refresh.go#L57) |
+| wants | method_declaration |  | [57](../../magpie/internal/provider/quota_refresh.go#L57) |
 | refreshLogins | function_declaration |  | [63](../../magpie/internal/provider/quota_refresh.go#L63) |
+| out | var_spec | refreshLogins | [68](../../magpie/internal/provider/quota_refresh.go#L68) |
 | forgetLoginReading | function_declaration |  | [81](../../magpie/internal/provider/quota_refresh.go#L81) |
 | RefreshUsage | function_declaration |  | [96](../../magpie/internal/provider/quota_refresh.go#L96) |
 | RefreshReport | function_declaration |  | [107](../../magpie/internal/provider/quota_refresh.go#L107) |
 | refreshCards | function_declaration |  | [116](../../magpie/internal/provider/quota_refresh.go#L116) |
+| wg | var_spec | refreshCards | [147](../../magpie/internal/provider/quota_refresh.go#L147) |
 | cacheCards | function_declaration |  | [170](../../magpie/internal/provider/quota_refresh.go#L170) |
 | mergeCards | function_declaration |  | [189](../../magpie/internal/provider/quota_refresh.go#L189) |

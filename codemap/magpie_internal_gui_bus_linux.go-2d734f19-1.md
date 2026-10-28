@@ -10,3 +10,4 @@ Source SHA-256: ab95b44daecaa2d6d37a4e617cbbcd33f60afbba81ebe15c0fa5d304cacd4c26
 | --- | --- | --- | ---: |
 | sessionBus | function_declaration |  | [14](../../magpie/internal/gui/bus_linux.go#L14) |
 | dropTrayName | function_declaration |  | [26](../../magpie/internal/gui/bus_linux.go#L26) |
+| owner | var_spec | dropTrayName | [34](../../magpie/internal/gui/bus_linux.go#L34) |

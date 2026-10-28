@@ -8,27 +8,29 @@ Source SHA-256: 0bd7c90f8e937b567d331ec4d6aae1b590673e430da9d5268293457e5bb9d62d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lanes | struct_type |  | [29](../../magpie/internal/gateway/concurrency.go#L29) |
+| lanes | type_spec |  | [29](../../magpie/internal/gateway/concurrency.go#L29) |
 | mu | field_declaration | lanes | [30](../../magpie/internal/gateway/concurrency.go#L30) |
 | m | field_declaration | lanes | [31](../../magpie/internal/gateway/concurrency.go#L31) |
-| lane | struct_type |  | [36](../../magpie/internal/gateway/concurrency.go#L36) |
+| lane | type_spec |  | [36](../../magpie/internal/gateway/concurrency.go#L36) |
 | limit | field_declaration | lane | [37](../../magpie/internal/gateway/concurrency.go#L37) |
 | busy | field_declaration | lane | [38](../../magpie/internal/gateway/concurrency.go#L38) |
 | queue | field_declaration | lane | [39](../../magpie/internal/gateway/concurrency.go#L39) |
 | errQueueFull | var_spec |  | [63](../../magpie/internal/gateway/concurrency.go#L63) |
 | errQueueWait | var_spec |  | [64](../../magpie/internal/gateway/concurrency.go#L64) |
-| acquire | method_declaration | *lanes | [71](../../magpie/internal/gateway/concurrency.go#L71) |
-| take | method_declaration | *lanes | [81](../../magpie/internal/gateway/concurrency.go#L81) |
-| free | method_declaration | *lanes | [149](../../magpie/internal/gateway/concurrency.go#L149) |
-| laneMate | method_declaration | *Server | [164](../../magpie/internal/gateway/concurrency.go#L164) |
-| ready | method_declaration | *Server | [184](../../magpie/internal/gateway/concurrency.go#L184) |
+| acquire | method_declaration |  | [71](../../magpie/internal/gateway/concurrency.go#L71) |
+| take | method_declaration |  | [81](../../magpie/internal/gateway/concurrency.go#L81) |
+| timeout | var_spec | take | [116](../../magpie/internal/gateway/concurrency.go#L116) |
+| free | method_declaration |  | [149](../../magpie/internal/gateway/concurrency.go#L149) |
+| laneMate | method_declaration |  | [164](../../magpie/internal/gateway/concurrency.go#L164) |
+| ready | method_declaration |  | [184](../../magpie/internal/gateway/concurrency.go#L184) |
 | laneMessage | function_declaration |  | [190](../../magpie/internal/gateway/concurrency.go#L190) |
-| releaser | method_declaration | *lanes | [202](../../magpie/internal/gateway/concurrency.go#L202) |
-| grant | method_declaration | *lane | [216](../../magpie/internal/gateway/concurrency.go#L216) |
-| drop | method_declaration | *lanes | [225](../../magpie/internal/gateway/concurrency.go#L225) |
-| Lane | struct_type |  | [233](../../magpie/internal/gateway/concurrency.go#L233) |
+| releaser | method_declaration |  | [202](../../magpie/internal/gateway/concurrency.go#L202) |
+| once | var_spec | releaser | [203](../../magpie/internal/gateway/concurrency.go#L203) |
+| grant | method_declaration |  | [216](../../magpie/internal/gateway/concurrency.go#L216) |
+| drop | method_declaration |  | [225](../../magpie/internal/gateway/concurrency.go#L225) |
+| Lane | type_spec |  | [233](../../magpie/internal/gateway/concurrency.go#L233) |
 | Busy | field_declaration | Lane | [234](../../magpie/internal/gateway/concurrency.go#L234) |
 | Waiting | field_declaration | Lane | [235](../../magpie/internal/gateway/concurrency.go#L235) |
 | Limit | field_declaration | Lane | [236](../../magpie/internal/gateway/concurrency.go#L236) |
-| concurrency | method_declaration | *Server | [249](../../magpie/internal/gateway/concurrency.go#L249) |
-| Lanes | method_declaration | *Server | [268](../../magpie/internal/gateway/concurrency.go#L268) |
+| concurrency | method_declaration |  | [249](../../magpie/internal/gateway/concurrency.go#L249) |
+| Lanes | method_declaration |  | [268](../../magpie/internal/gateway/concurrency.go#L268) |

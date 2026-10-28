@@ -8,16 +8,6 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| AllowIPsFromEnv | field_declaration | settingsJSON | [375](../../magpie/internal/gui/api.go#L375) |
-| OnNetwork | field_declaration | settingsJSON | [376](../../magpie/internal/gui/api.go#L376) |
-| Portable | field_declaration | settingsJSON | [378](../../magpie/internal/gui/api.go#L378) |
-| WSL | field_declaration | settingsJSON | [381](../../magpie/internal/gui/api.go#L381) |
-| Rekeyed | field_declaration | settingsJSON | [384](../../magpie/internal/gui/api.go#L384) |
-| Notice | field_declaration | settingsJSON | [388](../../magpie/internal/gui/api.go#L388) |
-| TerminalApps | field_declaration | settingsJSON | [390](../../magpie/internal/gui/api.go#L390) |
-| TerminalDefault | field_declaration | settingsJSON | [391](../../magpie/internal/gui/api.go#L391) |
-| OTelEnv | field_declaration | settingsJSON | [392](../../magpie/internal/gui/api.go#L392) |
-| NoAccountsEnv | field_declaration | settingsJSON | [395](../../magpie/internal/gui/api.go#L395) |
 | GatewayOn | field_declaration | settingsJSON | [398](../../magpie/internal/gui/api.go#L398) |
 | GatewayWhy | field_declaration | settingsJSON | [399](../../magpie/internal/gui/api.go#L399) |
 | Web | field_declaration | settingsJSON | [400](../../magpie/internal/gui/api.go#L400) |
@@ -68,7 +58,7 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | CheckinPlugins | field_declaration | settingsJSON | [501](../../magpie/internal/gui/api.go#L501) |
 | FX | field_declaration | settingsJSON | [503](../../magpie/internal/gui/api.go#L503) |
 | NotifyProblem | field_declaration | settingsJSON | [506](../../magpie/internal/gui/api.go#L506) |
-| searchAPIJSON | struct_type |  | [510](../../magpie/internal/gui/api.go#L510) |
+| searchAPIJSON | type_spec |  | [510](../../magpie/internal/gui/api.go#L510) |
 | Vendor | field_declaration | searchAPIJSON | [511](../../magpie/internal/gui/api.go#L511) |
 | Name | field_declaration | searchAPIJSON | [512](../../magpie/internal/gui/api.go#L512) |
 | Key | field_declaration | searchAPIJSON | [513](../../magpie/internal/gui/api.go#L513) |
@@ -78,7 +68,7 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | Pick | field_declaration | searchAPIJSON | [520](../../magpie/internal/gui/api.go#L520) |
 | Quota | field_declaration | searchAPIJSON | [521](../../magpie/internal/gui/api.go#L521) |
 | Off | field_declaration | searchAPIJSON | [523](../../magpie/internal/gui/api.go#L523) |
-| searchChoiceJSON | struct_type |  | [528](../../magpie/internal/gui/api.go#L528) |
+| searchChoiceJSON | type_spec |  | [528](../../magpie/internal/gui/api.go#L528) |
 | ID | field_declaration | searchChoiceJSON | [529](../../magpie/internal/gui/api.go#L529) |
 | Name | field_declaration | searchChoiceJSON | [530](../../magpie/internal/gui/api.go#L530) |
 | Icon | field_declaration | searchChoiceJSON | [531](../../magpie/internal/gui/api.go#L531) |
@@ -87,7 +77,7 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | Models | field_declaration | searchChoiceJSON | [534](../../magpie/internal/gui/api.go#L534) |
 | Service | field_declaration | searchChoiceJSON | [537](../../magpie/internal/gui/api.go#L537) |
 | Own | field_declaration | searchChoiceJSON | [539](../../magpie/internal/gui/api.go#L539) |
-| searchVendorJSON | struct_type |  | [542](../../magpie/internal/gui/api.go#L542) |
+| searchVendorJSON | type_spec |  | [542](../../magpie/internal/gui/api.go#L542) |
 | ID | field_declaration | searchVendorJSON | [543](../../magpie/internal/gui/api.go#L543) |
 | Name | field_declaration | searchVendorJSON | [544](../../magpie/internal/gui/api.go#L544) |
 | KeysURL | field_declaration | searchVendorJSON | [545](../../magpie/internal/gui/api.go#L545) |
@@ -95,7 +85,7 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | KeyOptional | field_declaration | searchVendorJSON | [548](../../magpie/internal/gui/api.go#L548) |
 | Base | field_declaration | searchVendorJSON | [550](../../magpie/internal/gui/api.go#L550) |
 | searchState | function_declaration |  | [553](../../magpie/internal/gui/api.go#L553) |
-| searchFailedJSON | struct_type |  | [596](../../magpie/internal/gui/api.go#L596) |
+| searchFailedJSON | type_spec |  | [596](../../magpie/internal/gui/api.go#L596) |
 | Searcher | field_declaration | searchFailedJSON | [597](../../magpie/internal/gui/api.go#L597) |
 | Why | field_declaration | searchFailedJSON | [598](../../magpie/internal/gui/api.go#L598) |
 | NothingFound | field_declaration | searchFailedJSON | [599](../../magpie/internal/gui/api.go#L599) |
@@ -104,7 +94,17 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 | loginState | var_spec |  | [606](../../magpie/internal/gui/api.go#L606) |
 | settingsState | function_declaration |  | [608](../../magpie/internal/gui/api.go#L608) |
 | latest | function_declaration |  | [721](../../magpie/internal/gui/api.go#L721) |
+| out | var_spec | latest | [722](../../magpie/internal/gui/api.go#L722) |
 | onDock | var_spec |  | [733](../../magpie/internal/gui/api.go#L733) |
 | assetTypes | var_spec |  | [738](../../magpie/internal/gui/api.go#L738) |
 | init | function_declaration |  | [741](../../magpie/internal/gui/api.go#L741) |
 | revalidated | function_declaration |  | [762](../../magpie/internal/gui/api.go#L762) |
+| pageFile | var_spec |  | [798](../../magpie/internal/gui/api.go#L798) |
+| versionedPage | function_declaration |  | [803](../../magpie/internal/gui/api.go#L803) |
+| Handler | function_declaration |  | [818](../../magpie/internal/gui/api.go#L818) |
+| in | var_spec | Handler | [900](../../magpie/internal/gui/api.go#L900) |
+| Agent | field_declaration | Handler::in | [900](../../magpie/internal/gui/api.go#L900) |
+| in | var_spec | Handler | [964](../../magpie/internal/gui/api.go#L964) |
+| Field | field_declaration | Handler::in | [964](../../magpie/internal/gui/api.go#L964) |
+| in | var_spec | Handler | [1055](../../magpie/internal/gui/api.go#L1055) |
+| Revision | field_declaration | Handler::in | [1056](../../magpie/internal/gui/api.go#L1056) |

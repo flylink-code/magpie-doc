@@ -8,15 +8,6 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| failed | field_declaration | matchKey | [1247](../../magpie/internal/usage/request_page.go#L1247) |
-| hasID | field_declaration | matchKey | [1247](../../magpie/internal/usage/request_page.go#L1247) |
-| matchTokens | function_declaration |  | [1256](../../magpie/internal/usage/request_page.go#L1256) |
-| matchEnd | struct_type |  | [1258](../../magpie/internal/usage/request_page.go#L1258) |
-| at | field_declaration | matchEnd | [1259](../../magpie/internal/usage/request_page.go#L1259) |
-| index | field_declaration | matchEnd | [1260](../../magpie/internal/usage/request_page.go#L1260) |
-| matchGroup | struct_type |  | [1262](../../magpie/internal/usage/request_page.go#L1262) |
-| ends | field_declaration | matchGroup | [1263](../../magpie/internal/usage/request_page.go#L1263) |
-| counts | field_declaration | matchGroup | [1264](../../magpie/internal/usage/request_page.go#L1264) |
 | agyMatchSession | const_spec |  | [1271](../../magpie/internal/usage/request_page.go#L1271) |
 | agyStepLongest | const_spec |  | [1276](../../magpie/internal/usage/request_page.go#L1276) |
 | matchedLocal | function_declaration |  | [1278](../../magpie/internal/usage/request_page.go#L1278) |
@@ -26,29 +17,40 @@ Source SHA-256: 6b5d8fa7b2d42bdad1df60d61a172d0045871598fc21eb78305ce0b12a529e70
 | buildRequestBlocks | function_declaration |  | [1468](../../magpie/internal/usage/request_page.go#L1468) |
 | buildRequestBlocksWithCodex | function_declaration |  | [1476](../../magpie/internal/usage/request_page.go#L1476) |
 | ownStrings | function_declaration |  | [1483](../../magpie/internal/usage/request_page.go#L1483) |
-| pairedRows | struct_type |  | [1525](../../magpie/internal/usage/request_page.go#L1525) |
+| pairedRows | type_spec |  | [1525](../../magpie/internal/usage/request_page.go#L1525) |
 | all | field_declaration | pairedRows | [1526](../../magpie/internal/usage/request_page.go#L1526) |
 | skip | field_declaration | pairedRows | [1527](../../magpie/internal/usage/request_page.go#L1527) |
-| matched | field_declaration | pairedRows | [1527](../../magpie/internal/usage/request_page.go#L1527) |
 | pairs | field_declaration | pairedRows | [1528](../../magpie/internal/usage/request_page.go#L1528) |
 | compactions | field_declaration | pairedRows | [1529](../../magpie/internal/usage/request_page.go#L1529) |
 | since | field_declaration | pairedRows | [1530](../../magpie/internal/usage/request_page.go#L1530) |
-| until | field_declaration | pairedRows | [1530](../../magpie/internal/usage/request_page.go#L1530) |
 | pairing | var_spec |  | [1534](../../magpie/internal/usage/request_page.go#L1534) |
 | pairRows | function_declaration |  | [1536](../../magpie/internal/usage/request_page.go#L1536) |
-| visit | method_declaration | *pairedRows | [1567](../../magpie/internal/usage/request_page.go#L1567) |
-| visitActors | method_declaration | *pairedRows | [1584](../../magpie/internal/usage/request_page.go#L1584) |
+| visit | method_declaration |  | [1567](../../magpie/internal/usage/request_page.go#L1567) |
+| rows | var_spec | visit | [1568](../../magpie/internal/usage/request_page.go#L1568) |
+| r | var_spec | visit | [1573](../../magpie/internal/usage/request_page.go#L1573) |
+| visitActors | method_declaration |  | [1584](../../magpie/internal/usage/request_page.go#L1584) |
+| r | var_spec | visitActors | [1587](../../magpie/internal/usage/request_page.go#L1587) |
 | visitingActors | var_spec |  | [1599](../../magpie/internal/usage/request_page.go#L1599) |
-| visitChunk | method_declaration | *pairedRows | [1602](../../magpie/internal/usage/request_page.go#L1602) |
+| visitChunk | method_declaration |  | [1602](../../magpie/internal/usage/request_page.go#L1602) |
 | buildRequestBlocksOf | function_declaration |  | [1615](../../magpie/internal/usage/request_page.go#L1615) |
 | buildRequestBlocksIn | function_declaration |  | [1621](../../magpie/internal/usage/request_page.go#L1621) |
+| ps | var_spec | buildRequestBlocksIn | [1623](../../magpie/internal/usage/request_page.go#L1623) |
+| first | var_spec | buildRequestBlocksIn | [1672](../../magpie/internal/usage/request_page.go#L1672) |
+| r | var_spec | buildRequestBlocksIn | [1677](../../magpie/internal/usage/request_page.go#L1677) |
+| page | var_spec | buildRequestBlocksIn | [1779](../../magpie/internal/usage/request_page.go#L1779) |
+| base | var_spec | buildRequestBlocksIn | [1815](../../magpie/internal/usage/request_page.go#L1815) |
+| chartSince | var_spec | buildRequestBlocksIn | [1816](../../magpie/internal/usage/request_page.go#L1816) |
 | pageFromLedger | function_declaration |  | [1874](../../magpie/internal/usage/request_page.go#L1874) |
 | pageFromLedgerAt | function_declaration |  | [1880](../../magpie/internal/usage/request_page.go#L1880) |
+| d | var_spec | pageFromLedgerAt | [1907](../../magpie/internal/usage/request_page.go#L1907) |
 | computerShares | function_declaration |  | [1958](../../magpie/internal/usage/request_page.go#L1958) |
 | addCallerRow | function_declaration |  | [1971](../../magpie/internal/usage/request_page.go#L1971) |
 | addAccountRow | function_declaration |  | [1986](../../magpie/internal/usage/request_page.go#L1986) |
 | callerGroups | function_declaration |  | [2000](../../magpie/internal/usage/request_page.go#L2000) |
 | prefetchEach | function_declaration |  | [2026](../../magpie/internal/usage/request_page.go#L2026) |
-| slot | struct_type | prefetchEach | [2027](../../magpie/internal/usage/request_page.go#L2027) |
-| done | field_declaration | prefetchEach.slot | [2028](../../magpie/internal/usage/request_page.go#L2028) |
-| v | field_declaration | prefetchEach.slot | [2029](../../magpie/internal/usage/request_page.go#L2029) |
+| slot | type_spec | prefetchEach | [2027](../../magpie/internal/usage/request_page.go#L2027) |
+| done | field_declaration | prefetchEach::slot | [2028](../../magpie/internal/usage/request_page.go#L2028) |
+| v | field_declaration | prefetchEach::slot | [2029](../../magpie/internal/usage/request_page.go#L2029) |
+| order | var_spec | prefetchEach | [2032](../../magpie/internal/usage/request_page.go#L2032) |
+| own | var_spec | prefetchEach | [2039](../../magpie/internal/usage/request_page.go#L2039) |
+| zero | var_spec | prefetchEach | [2077](../../magpie/internal/usage/request_page.go#L2077) |

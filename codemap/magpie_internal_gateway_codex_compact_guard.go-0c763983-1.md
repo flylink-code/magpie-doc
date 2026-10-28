@@ -10,19 +10,20 @@ Source SHA-256: 0152272df59a3879ad338d288c9c1325cccb6f0c35769c0192772c5d25609450
 | --- | --- | --- | ---: |
 | compactFailsMost | const_spec |  | [36](../../magpie/internal/gateway/codex_compact_guard.go#L36) |
 | compactHeldFor | const_spec |  | [37](../../magpie/internal/gateway/codex_compact_guard.go#L37) |
-| compactFails | struct_type |  | [40](../../magpie/internal/gateway/codex_compact_guard.go#L40) |
+| compactFails | type_spec |  | [40](../../magpie/internal/gateway/codex_compact_guard.go#L40) |
 | mu | field_declaration | compactFails | [41](../../magpie/internal/gateway/codex_compact_guard.go#L41) |
 | m | field_declaration | compactFails | [42](../../magpie/internal/gateway/codex_compact_guard.go#L42) |
-| compactFail | struct_type |  | [45](../../magpie/internal/gateway/codex_compact_guard.go#L45) |
+| compactFail | type_spec |  | [45](../../magpie/internal/gateway/codex_compact_guard.go#L45) |
 | n | field_declaration | compactFail | [46](../../magpie/internal/gateway/codex_compact_guard.go#L46) |
 | last | field_declaration | compactFail | [47](../../magpie/internal/gateway/codex_compact_guard.go#L47) |
 | why | field_declaration | compactFail | [48](../../magpie/internal/gateway/codex_compact_guard.go#L48) |
 | compactKey | function_declaration |  | [53](../../magpie/internal/gateway/codex_compact_guard.go#L53) |
-| Model | field_declaration | compactKey | [55](../../magpie/internal/gateway/codex_compact_guard.go#L55) |
-| Key | field_declaration | compactKey | [56](../../magpie/internal/gateway/codex_compact_guard.go#L56) |
-| held | method_declaration | *compactFails | [66](../../magpie/internal/gateway/codex_compact_guard.go#L66) |
-| failed | method_declaration | *compactFails | [83](../../magpie/internal/gateway/codex_compact_guard.go#L83) |
-| done | method_declaration | *compactFails | [109](../../magpie/internal/gateway/codex_compact_guard.go#L109) |
-| wholeReplyKey | struct_type |  | [121](../../magpie/internal/gateway/codex_compact_guard.go#L121) |
+| q | var_spec | compactKey | [54](../../magpie/internal/gateway/codex_compact_guard.go#L54) |
+| Model | field_declaration | compactKey::q | [55](../../magpie/internal/gateway/codex_compact_guard.go#L55) |
+| Key | field_declaration | compactKey::q | [56](../../magpie/internal/gateway/codex_compact_guard.go#L56) |
+| held | method_declaration |  | [66](../../magpie/internal/gateway/codex_compact_guard.go#L66) |
+| failed | method_declaration |  | [83](../../magpie/internal/gateway/codex_compact_guard.go#L83) |
+| done | method_declaration |  | [109](../../magpie/internal/gateway/codex_compact_guard.go#L109) |
+| wholeReplyKey | type_spec |  | [121](../../magpie/internal/gateway/codex_compact_guard.go#L121) |
 | wantsWhole | function_declaration |  | [123](../../magpie/internal/gateway/codex_compact_guard.go#L123) |
 | askWhole | function_declaration |  | [128](../../magpie/internal/gateway/codex_compact_guard.go#L128) |

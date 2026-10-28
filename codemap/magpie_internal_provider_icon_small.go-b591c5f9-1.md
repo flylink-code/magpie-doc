@@ -14,4 +14,5 @@ Source SHA-256: 823dd677bb4d9cd6a17654d397dd2d3ed2287d3508dc0f047d02b79499ccfe78
 | smallIconDir | function_declaration |  | [33](../../magpie/internal/provider/icon_small.go#L33) |
 | IconServed | function_declaration |  | [40](../../magpie/internal/provider/icon_small.go#L40) |
 | scaledIcon | function_declaration |  | [83](../../magpie/internal/provider/icon_small.go#L83) |
+| out | var_spec | scaledIcon | [106](../../magpie/internal/provider/icon_small.go#L106) |
 | pruneSmallIcons | function_declaration |  | [114](../../magpie/internal/provider/icon_small.go#L114) |

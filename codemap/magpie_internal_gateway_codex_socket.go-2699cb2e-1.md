@@ -16,27 +16,29 @@ Source SHA-256: 60c234a952cb2d161cae77c463976aaa703b8a45e50bbd314f085831ff17627c
 | codexShunMu | var_spec |  | [77](../../magpie/internal/gateway/codex_socket.go#L77) |
 | codexShun | var_spec |  | [78](../../magpie/internal/gateway/codex_socket.go#L78) |
 | codexTooBig | var_spec |  | [81](../../magpie/internal/gateway/codex_socket.go#L81) |
-| tooBig | struct_type |  | [84](../../magpie/internal/gateway/codex_socket.go#L84) |
+| tooBig | type_spec |  | [84](../../magpie/internal/gateway/codex_socket.go#L84) |
 | size | field_declaration | tooBig | [85](../../magpie/internal/gateway/codex_socket.go#L85) |
 | until | field_declaration | tooBig | [86](../../magpie/internal/gateway/codex_socket.go#L86) |
 | codexMessageTooBig | function_declaration |  | [91](../../magpie/internal/gateway/codex_socket.go#L91) |
 | refusedTooBig | function_declaration |  | [102](../../magpie/internal/gateway/codex_socket.go#L102) |
 | codexShunned | function_declaration |  | [116](../../magpie/internal/gateway/codex_socket.go#L116) |
 | shunCodexSocket | function_declaration |  | [127](../../magpie/internal/gateway/codex_socket.go#L127) |
-| codexSocket | struct_type |  | [139](../../magpie/internal/gateway/codex_socket.go#L139) |
+| codexSocket | type_spec |  | [139](../../magpie/internal/gateway/codex_socket.go#L139) |
 | next | field_declaration | codexSocket | [139](../../magpie/internal/gateway/codex_socket.go#L139) |
-| RoundTrip | method_declaration | codexSocket | [141](../../magpie/internal/gateway/codex_socket.go#L141) |
+| RoundTrip | method_declaration |  | [141](../../magpie/internal/gateway/codex_socket.go#L141) |
 | errCodexSocketFallBack | var_spec |  | [158](../../magpie/internal/gateway/codex_socket.go#L158) |
 | codexSocketMessage | function_declaration |  | [162](../../magpie/internal/gateway/codex_socket.go#L162) |
 | codexCreate | function_declaration |  | [208](../../magpie/internal/gateway/codex_socket.go#L208) |
 | withClientMetadata | function_declaration |  | [220](../../magpie/internal/gateway/codex_socket.go#L220) |
 | codexSocketHeaders | function_declaration |  | [255](../../magpie/internal/gateway/codex_socket.go#L255) |
-| socket | method_declaration | codexSocket | [273](../../magpie/internal/gateway/codex_socket.go#L273) |
+| socket | method_declaration |  | [273](../../magpie/internal/gateway/codex_socket.go#L273) |
 | codexSocketEnded | function_declaration |  | [384](../../magpie/internal/gateway/codex_socket.go#L384) |
 | codexSocketError | function_declaration |  | [394](../../magpie/internal/gateway/codex_socket.go#L394) |
+| b | var_spec | codexSocketError | [414](../../magpie/internal/gateway/codex_socket.go#L414) |
 | codexLimitHeaders | function_declaration |  | [436](../../magpie/internal/gateway/codex_socket.go#L436) |
 | sseEvent | function_declaration |  | [490](../../magpie/internal/gateway/codex_socket.go#L490) |
-| codexSocketBody | struct_type |  | [509](../../magpie/internal/gateway/codex_socket.go#L509) |
+| b | var_spec | sseEvent | [492](../../magpie/internal/gateway/codex_socket.go#L492) |
+| codexSocketBody | type_spec |  | [509](../../magpie/internal/gateway/codex_socket.go#L509) |
 | c | field_declaration | codexSocketBody | [510](../../magpie/internal/gateway/codex_socket.go#L510) |
 | ctx | field_declaration | codexSocketBody | [511](../../magpie/internal/gateway/codex_socket.go#L511) |
 | cancel | field_declaration | codexSocketBody | [512](../../magpie/internal/gateway/codex_socket.go#L512) |
@@ -44,6 +46,6 @@ Source SHA-256: 60c234a952cb2d161cae77c463976aaa703b8a45e50bbd314f085831ff17627c
 | done | field_declaration | codexSocketBody | [514](../../magpie/internal/gateway/codex_socket.go#L514) |
 | err | field_declaration | codexSocketBody | [515](../../magpie/internal/gateway/codex_socket.go#L515) |
 | closed | field_declaration | codexSocketBody | [516](../../magpie/internal/gateway/codex_socket.go#L516) |
-| frame | method_declaration | *codexSocketBody | [520](../../magpie/internal/gateway/codex_socket.go#L520) |
-| Read | method_declaration | *codexSocketBody | [549](../../magpie/internal/gateway/codex_socket.go#L549) |
-| Close | method_declaration | *codexSocketBody | [576](../../magpie/internal/gateway/codex_socket.go#L576) |
+| frame | method_declaration |  | [520](../../magpie/internal/gateway/codex_socket.go#L520) |
+| Read | method_declaration |  | [549](../../magpie/internal/gateway/codex_socket.go#L549) |
+| Close | method_declaration |  | [576](../../magpie/internal/gateway/codex_socket.go#L576) |

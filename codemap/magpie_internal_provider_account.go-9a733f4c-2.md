@@ -8,61 +8,77 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| claudeCredential | function_declaration |  | [588](../../magpie/internal/provider/account.go#L588) |
+| cacheClaudeCredential | function_declaration |  | [611](../../magpie/internal/provider/account.go#L611) |
+| forgetClaudeCredential | function_declaration |  | [618](../../magpie/internal/provider/account.go#L618) |
+| saveClaudeCredential | function_declaration |  | [627](../../magpie/internal/provider/account.go#L627) |
+| writeClaudeCredential | function_declaration |  | [636](../../magpie/internal/provider/account.go#L636) |
+| one | var_spec | writeClaudeCredential | [648](../../magpie/internal/provider/account.go#L648) |
 | claudeExecutable | var_spec |  | [677](../../magpie/internal/provider/account.go#L677) |
 | claudeIdentity | function_declaration |  | [687](../../magpie/internal/provider/account.go#L687) |
 | askClaudeStatus | function_declaration |  | [722](../../magpie/internal/provider/account.go#L722) |
-| LoggedIn | field_declaration | askClaudeStatus | [742](../../magpie/internal/provider/account.go#L742) |
-| Email | field_declaration | askClaudeStatus | [743](../../magpie/internal/provider/account.go#L743) |
-| SubscriptionType | field_declaration | askClaudeStatus | [744](../../magpie/internal/provider/account.go#L744) |
+| status | var_spec | askClaudeStatus | [741](../../magpie/internal/provider/account.go#L741) |
+| LoggedIn | field_declaration | askClaudeStatus::status | [742](../../magpie/internal/provider/account.go#L742) |
+| Email | field_declaration | askClaudeStatus::status | [743](../../magpie/internal/provider/account.go#L743) |
+| SubscriptionType | field_declaration | askClaudeStatus::status | [744](../../magpie/internal/provider/account.go#L744) |
 | withoutClaudeWiring | function_declaration |  | [757](../../magpie/internal/provider/account.go#L757) |
 | claudeAccount | function_declaration |  | [769](../../magpie/internal/provider/account.go#L769) |
-| Unnamed | method_declaration | *Account | [807](../../magpie/internal/provider/account.go#L807) |
+| Unnamed | method_declaration |  | [807](../../magpie/internal/provider/account.go#L807) |
 | ClaudeOwnName | function_declaration |  | [811](../../magpie/internal/provider/account.go#L811) |
-| StandIn | method_declaration | *Account | [821](../../magpie/internal/provider/account.go#L821) |
+| StandIn | method_declaration |  | [821](../../magpie/internal/provider/account.go#L821) |
 | claudeProvider | function_declaration |  | [824](../../magpie/internal/provider/account.go#L824) |
 | refreshRefused | type_spec |  | [843](../../magpie/internal/provider/account.go#L843) |
-| Error | method_declaration | refreshRefused | [845](../../magpie/internal/provider/account.go#L845) |
+| Error | method_declaration |  | [845](../../magpie/internal/provider/account.go#L845) |
 | refreshFailed | function_declaration |  | [850](../../magpie/internal/provider/account.go#L850) |
 | Accounts | function_declaration |  | [858](../../magpie/internal/provider/account.go#L858) |
+| out | var_spec | Accounts | [868](../../magpie/internal/provider/account.go#L868) |
 | builtinOrder | var_spec |  | [892](../../magpie/internal/provider/account.go#L892) |
 | placeMoved | function_declaration |  | [897](../../magpie/internal/provider/account.go#L897) |
+| rest | var_spec | placeMoved | [904](../../magpie/internal/provider/account.go#L904) |
 | readJSON | function_declaration |  | [921](../../magpie/internal/provider/account.go#L921) |
 | jwtClaims | function_declaration |  | [931](../../magpie/internal/provider/account.go#L931) |
+| m | var_spec | jwtClaims | [940](../../magpie/internal/provider/account.go#L940) |
 | claimString | function_declaration |  | [947](../../magpie/internal/provider/account.go#L947) |
+| v | var_spec | claimString | [948](../../magpie/internal/provider/account.go#L948) |
 | codexClientID | const_spec |  | [962](../../magpie/internal/provider/account.go#L962) |
 | codexTokenURL | var_spec |  | [966](../../magpie/internal/provider/account.go#L966) |
 | CodexTokenURLForTest | function_declaration |  | [970](../../magpie/internal/provider/account.go#L970) |
 | CodexBase | var_spec |  | [978](../../magpie/internal/provider/account.go#L978) |
 | codexMu | var_spec |  | [986](../../magpie/internal/provider/account.go#L986) |
-| codexAuth | struct_type |  | [988](../../magpie/internal/provider/account.go#L988) |
+| codexAuth | type_spec |  | [988](../../magpie/internal/provider/account.go#L988) |
 | AuthMode | field_declaration | codexAuth | [989](../../magpie/internal/provider/account.go#L989) |
 | Tokens | field_declaration | codexAuth | [990](../../magpie/internal/provider/account.go#L990) |
-| IDToken | field_declaration | codexAuth | [991](../../magpie/internal/provider/account.go#L991) |
-| AccessToken | field_declaration | codexAuth | [992](../../magpie/internal/provider/account.go#L992) |
-| RefreshToken | field_declaration | codexAuth | [993](../../magpie/internal/provider/account.go#L993) |
-| AccountID | field_declaration | codexAuth | [994](../../magpie/internal/provider/account.go#L994) |
+| IDToken | field_declaration | codexAuth::Tokens | [991](../../magpie/internal/provider/account.go#L991) |
+| AccessToken | field_declaration | codexAuth::Tokens | [992](../../magpie/internal/provider/account.go#L992) |
+| RefreshToken | field_declaration | codexAuth::Tokens | [993](../../magpie/internal/provider/account.go#L993) |
+| AccountID | field_declaration | codexAuth::Tokens | [994](../../magpie/internal/provider/account.go#L994) |
 | codexAccount | function_declaration |  | [998](../../magpie/internal/provider/account.go#L998) |
+| a | var_spec | codexAccount | [1006](../../magpie/internal/provider/account.go#L1006) |
 | codexToken | function_declaration |  | [1044](../../magpie/internal/provider/account.go#L1044) |
 | codexTokenRenewing | function_declaration |  | [1054](../../magpie/internal/provider/account.go#L1054) |
+| a | var_spec | codexTokenRenewing | [1059](../../magpie/internal/provider/account.go#L1059) |
+| se | var_spec | codexTokenRenewing | [1079](../../magpie/internal/provider/account.go#L1079) |
+| raw | var_spec | codexTokenRenewing | [1083](../../magpie/internal/provider/account.go#L1083) |
 | codexAccountID | function_declaration |  | [1112](../../magpie/internal/provider/account.go#L1112) |
 | codexRefresh | function_declaration |  | [1121](../../magpie/internal/provider/account.go#L1121) |
-| IDToken | field_declaration | codexRefresh | [1153](../../magpie/internal/provider/account.go#L1153) |
-| AccessToken | field_declaration | codexRefresh | [1154](../../magpie/internal/provider/account.go#L1154) |
-| RefreshToken | field_declaration | codexRefresh | [1155](../../magpie/internal/provider/account.go#L1155) |
+| fresh | var_spec | codexRefresh | [1152](../../magpie/internal/provider/account.go#L1152) |
+| IDToken | field_declaration | codexRefresh::fresh | [1153](../../magpie/internal/provider/account.go#L1153) |
+| AccessToken | field_declaration | codexRefresh::fresh | [1154](../../magpie/internal/provider/account.go#L1154) |
+| RefreshToken | field_declaration | codexRefresh::fresh | [1155](../../magpie/internal/provider/account.go#L1155) |
 | CopilotTokenURL | var_spec |  | [1176](../../magpie/internal/provider/account.go#L1176) |
 | copilotBase | const_spec |  | [1178](../../magpie/internal/provider/account.go#L1178) |
 | copilotHeaders | var_spec |  | [1180](../../magpie/internal/provider/account.go#L1180) |
 | copilotAPIHeaders | var_spec |  | [1194](../../magpie/internal/provider/account.go#L1194) |
-| copilotSession | struct_type |  | [1200](../../magpie/internal/provider/account.go#L1200) |
+| copilotSession | type_spec |  | [1200](../../magpie/internal/provider/account.go#L1200) |
 | Token | field_declaration | copilotSession | [1201](../../magpie/internal/provider/account.go#L1201) |
 | ExpiresAt | field_declaration | copilotSession | [1202](../../magpie/internal/provider/account.go#L1202) |
 | Endpoints | field_declaration | copilotSession | [1203](../../magpie/internal/provider/account.go#L1203) |
-| API | field_declaration | copilotSession | [1204](../../magpie/internal/provider/account.go#L1204) |
+| API | field_declaration | copilotSession::Endpoints | [1204](../../magpie/internal/provider/account.go#L1204) |
 | direct | field_declaration | copilotSession | [1206](../../magpie/internal/provider/account.go#L1206) |
-| headers | method_declaration | copilotSession | [1210](../../magpie/internal/provider/account.go#L1210) |
+| headers | method_declaration |  | [1210](../../magpie/internal/provider/account.go#L1210) |
 | copilotMu | var_spec |  | [1218](../../magpie/internal/provider/account.go#L1218) |
 | copilotSessions | var_spec |  | [1219](../../magpie/internal/provider/account.go#L1219) |
-| copilotApp | struct_type |  | [1222](../../magpie/internal/provider/account.go#L1222) |
+| copilotApp | type_spec |  | [1222](../../magpie/internal/provider/account.go#L1222) |
 | User | field_declaration | copilotApp | [1223](../../magpie/internal/provider/account.go#L1223) |
 | Token | field_declaration | copilotApp | [1224](../../magpie/internal/provider/account.go#L1224) |
 | Host | field_declaration | copilotApp | [1227](../../magpie/internal/provider/account.go#L1227) |
@@ -70,41 +86,25 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 | src | field_declaration | copilotApp | [1229](../../magpie/internal/provider/account.go#L1229) |
 | copilotLogin | function_declaration |  | [1237](../../magpie/internal/provider/account.go#L1237) |
 | copilotEditorLogins | function_declaration |  | [1257](../../magpie/internal/provider/account.go#L1257) |
+| apps | var_spec | copilotEditorLogins | [1259](../../magpie/internal/provider/account.go#L1259) |
+| keys | var_spec | copilotEditorLogins | [1264](../../magpie/internal/provider/account.go#L1264) |
 | copilotSameAccount | function_declaration |  | [1290](../../magpie/internal/provider/account.go#L1290) |
 | copilotRefusals | var_spec |  | [1298](../../magpie/internal/provider/account.go#L1298) |
+| at | field_declaration | copilotRefusals | [1300](../../magpie/internal/provider/account.go#L1300) |
+| status | field_declaration | copilotRefusals | [1301](../../magpie/internal/provider/account.go#L1301) |
 | copilotRefusedToken | function_declaration |  | [1304](../../magpie/internal/provider/account.go#L1304) |
 | copilotStaleToken | function_declaration |  | [1314](../../magpie/internal/provider/account.go#L1314) |
 | copilotRefuse | function_declaration |  | [1320](../../magpie/internal/provider/account.go#L1320) |
 | copilotStandIn | function_declaration |  | [1329](../../magpie/internal/provider/account.go#L1329) |
-| session | method_declaration | copilotApp | [1340](../../magpie/internal/provider/account.go#L1340) |
-| trade | method_declaration | copilotApp | [1350](../../magpie/internal/provider/account.go#L1350) |
+| session | method_declaration |  | [1340](../../magpie/internal/provider/account.go#L1340) |
+| trade | method_declaration |  | [1350](../../magpie/internal/provider/account.go#L1350) |
 | copilotProvider | function_declaration |  | [1383](../../magpie/internal/provider/account.go#L1383) |
 | copilotNoEndpoint | const_spec |  | [1449](../../magpie/internal/provider/account.go#L1449) |
 | copilotExplain | function_declaration |  | [1452](../../magpie/internal/provider/account.go#L1452) |
 | bodyModel | function_declaration |  | [1460](../../magpie/internal/provider/account.go#L1460) |
-| Model | field_declaration | bodyModel | [1462](../../magpie/internal/provider/account.go#L1462) |
+| v | var_spec | bodyModel | [1461](../../magpie/internal/provider/account.go#L1461) |
+| Model | field_declaration | bodyModel::v | [1462](../../magpie/internal/provider/account.go#L1462) |
 | lastRole | function_declaration |  | [1471](../../magpie/internal/provider/account.go#L1471) |
-| Messages | field_declaration | lastRole | [1473](../../magpie/internal/provider/account.go#L1473) |
-| Role | field_declaration | lastRole | [1474](../../magpie/internal/provider/account.go#L1474) |
-| Content | field_declaration | lastRole | [1475](../../magpie/internal/provider/account.go#L1475) |
-| Input | field_declaration | lastRole | [1477](../../magpie/internal/provider/account.go#L1477) |
-| Type | field_declaration | lastRole | [1485](../../magpie/internal/provider/account.go#L1485) |
-| Role | field_declaration | lastRole | [1505](../../magpie/internal/provider/account.go#L1505) |
-| copilotToken | function_declaration |  | [1513](../../magpie/internal/provider/account.go#L1513) |
-| copilotAPIs | function_declaration |  | [1557](../../magpie/internal/provider/account.go#L1557) |
-| copilotInternal | var_spec |  | [1565](../../magpie/internal/provider/account.go#L1565) |
-| copilotTermsMu | var_spec |  | [1571](../../magpie/internal/provider/account.go#L1571) |
-| copilotTerms | var_spec |  | [1572](../../magpie/internal/provider/account.go#L1572) |
-| copilotPicks | var_spec |  | [1573](../../magpie/internal/provider/account.go#L1573) |
-| copilotAccept | function_declaration |  | [1578](../../magpie/internal/provider/account.go#L1578) |
-| copilotBaseModel | const_spec |  | [1622](../../magpie/internal/provider/account.go#L1622) |
-| copilotModels | function_declaration |  | [1624](../../magpie/internal/provider/account.go#L1624) |
-| Data | field_declaration | copilotModels | [1645](../../magpie/internal/provider/account.go#L1645) |
-| ID | field_declaration | copilotModels | [1646](../../magpie/internal/provider/account.go#L1646) |
-| Name | field_declaration | copilotModels | [1647](../../magpie/internal/provider/account.go#L1647) |
-| Vendor | field_declaration | copilotModels | [1648](../../magpie/internal/provider/account.go#L1648) |
-| Picker | field_declaration | copilotModels | [1649](../../magpie/internal/provider/account.go#L1649) |
-| Category | field_declaration | copilotModels | [1650](../../magpie/internal/provider/account.go#L1650) |
-| Default | field_declaration | copilotModels | [1651](../../magpie/internal/provider/account.go#L1651) |
-| Fallback | field_declaration | copilotModels | [1652](../../magpie/internal/provider/account.go#L1652) |
-| Endpoints | field_declaration | copilotModels | [1653](../../magpie/internal/provider/account.go#L1653) |
+| v | var_spec | lastRole | [1472](../../magpie/internal/provider/account.go#L1472) |
+| Messages | field_declaration | lastRole::v | [1473](../../magpie/internal/provider/account.go#L1473) |
+| Role | field_declaration | lastRole::v::Messages | [1474](../../magpie/internal/provider/account.go#L1474) |

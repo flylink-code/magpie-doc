@@ -11,14 +11,15 @@ Source SHA-256: 56f8c84d1f751b9d9aa487dd5481f521cc94144c09a7ece70e16e66bd7a5f9ca
 | Env | var_spec |  | [36](../../magpie/internal/ghtoken/ghtoken.go#L36) |
 | Token | function_declaration |  | [42](../../magpie/internal/ghtoken/ghtoken.go#L42) |
 | refused | var_spec |  | [57](../../magpie/internal/ghtoken/ghtoken.go#L57) |
+| m | field_declaration | refused | [59](../../magpie/internal/ghtoken/ghtoken.go#L59) |
 | isRefused | function_declaration |  | [62](../../magpie/internal/ghtoken/ghtoken.go#L62) |
 | markRefused | function_declaration |  | [68](../../magpie/internal/ghtoken/ghtoken.go#L68) |
 | Do | function_declaration |  | [80](../../magpie/internal/ghtoken/ghtoken.go#L80) |
 | Authorize | function_declaration |  | [111](../../magpie/internal/ghtoken/ghtoken.go#L111) |
 | authorize | function_declaration |  | [118](../../magpie/internal/ghtoken/ghtoken.go#L118) |
 | Refused | function_declaration |  | [133](../../magpie/internal/ghtoken/ghtoken.go#L133) |
-| Limited | struct_type |  | [144](../../magpie/internal/ghtoken/ghtoken.go#L144) |
+| Limited | type_spec |  | [144](../../magpie/internal/ghtoken/ghtoken.go#L144) |
 | Until | field_declaration | Limited | [145](../../magpie/internal/ghtoken/ghtoken.go#L145) |
 | Token | field_declaration | Limited | [146](../../magpie/internal/ghtoken/ghtoken.go#L146) |
-| Error | method_declaration | Limited | [149](../../magpie/internal/ghtoken/ghtoken.go#L149) |
+| Error | method_declaration |  | [149](../../magpie/internal/ghtoken/ghtoken.go#L149) |
 | LimitedBy | function_declaration |  | [165](../../magpie/internal/ghtoken/ghtoken.go#L165) |

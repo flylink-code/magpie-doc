@@ -9,8 +9,9 @@ Source SHA-256: 0204fba724362f3cebd737567fb6a659d220273de87bfb69893430d93d45be31
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | kimiFilesIn | function_declaration |  | [61](../../magpie/internal/sessions/kimi.go#L61) |
+| out | var_spec | kimiFilesIn | [63](../../magpie/internal/sessions/kimi.go#L63) |
 | kimiFiles | function_declaration |  | [86](../../magpie/internal/sessions/kimi.go#L86) |
-| kimiState | struct_type |  | [89](../../magpie/internal/sessions/kimi.go#L89) |
+| kimiState | type_spec |  | [89](../../magpie/internal/sessions/kimi.go#L89) |
 | Title | field_declaration | kimiState | [90](../../magpie/internal/sessions/kimi.go#L90) |
 | TitleKind | field_declaration | kimiState | [91](../../magpie/internal/sessions/kimi.go#L91) |
 | IsCustomTitle | field_declaration | kimiState | [92](../../magpie/internal/sessions/kimi.go#L92) |
@@ -20,33 +21,49 @@ Source SHA-256: 0204fba724362f3cebd737567fb6a659d220273de87bfb69893430d93d45be31
 | CreatedAt | field_declaration | kimiState | [96](../../magpie/internal/sessions/kimi.go#L96) |
 | ForkedFrom | field_declaration | kimiState | [97](../../magpie/internal/sessions/kimi.go#L97) |
 | kimiStateOf | function_declaration |  | [101](../../magpie/internal/sessions/kimi.go#L101) |
+| st | var_spec | kimiStateOf | [102](../../magpie/internal/sessions/kimi.go#L102) |
 | kimiIndex | var_spec |  | [111](../../magpie/internal/sessions/kimi.go#L111) |
+| path | field_declaration | kimiIndex | [113](../../magpie/internal/sessions/kimi.go#L113) |
+| size | field_declaration | kimiIndex | [114](../../magpie/internal/sessions/kimi.go#L114) |
+| modified | field_declaration | kimiIndex | [115](../../magpie/internal/sessions/kimi.go#L115) |
+| workDirs | field_declaration | kimiIndex | [116](../../magpie/internal/sessions/kimi.go#L116) |
 | kimiIndexedWorkDir | function_declaration |  | [122](../../magpie/internal/sessions/kimi.go#L122) |
-| SessionID | field_declaration | kimiIndexedWorkDir | [135](../../magpie/internal/sessions/kimi.go#L135) |
-| WorkDir | field_declaration | kimiIndexedWorkDir | [136](../../magpie/internal/sessions/kimi.go#L136) |
-| names | method_declaration | kimiState | [149](../../magpie/internal/sessions/kimi.go#L149) |
+| l | var_spec | kimiIndexedWorkDir | [134](../../magpie/internal/sessions/kimi.go#L134) |
+| SessionID | field_declaration | kimiIndexedWorkDir::l | [135](../../magpie/internal/sessions/kimi.go#L135) |
+| WorkDir | field_declaration | kimiIndexedWorkDir::l | [136](../../magpie/internal/sessions/kimi.go#L136) |
+| names | method_declaration |  | [149](../../magpie/internal/sessions/kimi.go#L149) |
 | kimiTime | function_declaration |  | [162](../../magpie/internal/sessions/kimi.go#L162) |
-| kimiWire | struct_type |  | [175](../../magpie/internal/sessions/kimi.go#L175) |
+| n | var_spec | kimiTime | [163](../../magpie/internal/sessions/kimi.go#L163) |
+| s | var_spec | kimiTime | [167](../../magpie/internal/sessions/kimi.go#L167) |
+| kimiWire | type_spec |  | [175](../../magpie/internal/sessions/kimi.go#L175) |
 | Type | field_declaration | kimiWire | [176](../../magpie/internal/sessions/kimi.go#L176) |
 | Time | field_declaration | kimiWire | [177](../../magpie/internal/sessions/kimi.go#L177) |
 | Model | field_declaration | kimiWire | [178](../../magpie/internal/sessions/kimi.go#L178) |
 | Usage | field_declaration | kimiWire | [179](../../magpie/internal/sessions/kimi.go#L179) |
 | Input | field_declaration | kimiWire | [180](../../magpie/internal/sessions/kimi.go#L180) |
-| Type | field_declaration | kimiWire | [181](../../magpie/internal/sessions/kimi.go#L181) |
-| Text | field_declaration | kimiWire | [182](../../magpie/internal/sessions/kimi.go#L182) |
+| Type | field_declaration | kimiWire::Input | [181](../../magpie/internal/sessions/kimi.go#L181) |
+| Text | field_declaration | kimiWire::Input | [182](../../magpie/internal/sessions/kimi.go#L182) |
 | Origin | field_declaration | kimiWire | [184](../../magpie/internal/sessions/kimi.go#L184) |
-| Kind | field_declaration | kimiWire | [185](../../magpie/internal/sessions/kimi.go#L185) |
+| Kind | field_declaration | kimiWire::Origin | [185](../../magpie/internal/sessions/kimi.go#L185) |
 | Event | field_declaration | kimiWire | [187](../../magpie/internal/sessions/kimi.go#L187) |
-| Type | field_declaration | kimiWire | [188](../../magpie/internal/sessions/kimi.go#L188) |
-| Name | field_declaration | kimiWire | [189](../../magpie/internal/sessions/kimi.go#L189) |
-| FinishReason | field_declaration | kimiWire | [190](../../magpie/internal/sessions/kimi.go#L190) |
+| Type | field_declaration | kimiWire::Event | [188](../../magpie/internal/sessions/kimi.go#L188) |
+| Name | field_declaration | kimiWire::Event | [189](../../magpie/internal/sessions/kimi.go#L189) |
+| FinishReason | field_declaration | kimiWire::Event | [190](../../magpie/internal/sessions/kimi.go#L190) |
 | kimiForked | var_spec |  | [195](../../magpie/internal/sessions/kimi.go#L195) |
 | kimiCounts | var_spec |  | [196](../../magpie/internal/sessions/kimi.go#L196) |
-| kimiCarry | struct_type |  | [202](../../magpie/internal/sessions/kimi.go#L202) |
+| kimiCarry | type_spec |  | [202](../../magpie/internal/sessions/kimi.go#L202) |
 | Tail | field_declaration | kimiCarry | [203](../../magpie/internal/sessions/kimi.go#L203) |
 | Created | field_declaration | kimiCarry | [204](../../magpie/internal/sessions/kimi.go#L204) |
 | Forked | field_declaration | kimiCarry | [205](../../magpie/internal/sessions/kimi.go#L205) |
 | Since | field_declaration | kimiCarry | [206](../../magpie/internal/sessions/kimi.go#L206) |
 | parseKimi | function_declaration |  | [215](../../magpie/internal/sessions/kimi.go#L215) |
+| c | var_spec | parseKimi | [216](../../magpie/internal/sessions/kimi.go#L216) |
+| st | var_spec | parseKimi | [217](../../magpie/internal/sessions/kimi.go#L217) |
+| s | var_spec | parseKimi | [233](../../magpie/internal/sessions/kimi.go#L233) |
+| off | var_spec | parseKimi | [234](../../magpie/internal/sessions/kimi.go#L234) |
+| r | var_spec | parseKimi | [242](../../magpie/internal/sessions/kimi.go#L242) |
 | kimiCount | function_declaration |  | [268](../../magpie/internal/sessions/kimi.go#L268) |
-| Time | field_declaration | kimiCount | [280](../../magpie/internal/sessions/kimi.go#L280) |
+| r | var_spec | kimiCount | [276](../../magpie/internal/sessions/kimi.go#L276) |
+| t | var_spec | kimiCount | [279](../../magpie/internal/sessions/kimi.go#L279) |
+| Time | field_declaration | kimiCount::t | [280](../../magpie/internal/sessions/kimi.go#L280) |
+| text | var_spec | kimiCount | [309](../../magpie/internal/sessions/kimi.go#L309) |

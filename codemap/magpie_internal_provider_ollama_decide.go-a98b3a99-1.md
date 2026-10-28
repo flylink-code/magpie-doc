@@ -8,14 +8,15 @@ Source SHA-256: ee10f5640ef588562bb85c8a2113793258959e6a6391f73123e4f1ded1b08b8c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ollamaDecides | method_declaration | Provider | [23](../../magpie/internal/provider/ollama_decide.go#L23) |
+| ollamaDecides | method_declaration |  | [23](../../magpie/internal/provider/ollama_decide.go#L23) |
 | ollamaCloudContext | const_spec |  | [29](../../magpie/internal/provider/ollama_decide.go#L29) |
 | ollamaDecisions | function_declaration |  | [33](../../magpie/internal/provider/ollama_decide.go#L33) |
 | listedOllamaDecide | function_declaration |  | [41](../../magpie/internal/provider/ollama_decide.go#L41) |
-| Models | field_declaration | listedOllamaDecide | [43](../../magpie/internal/provider/ollama_decide.go#L43) |
-| Name | field_declaration | listedOllamaDecide | [44](../../magpie/internal/provider/ollama_decide.go#L44) |
-| Model | field_declaration | listedOllamaDecide | [45](../../magpie/internal/provider/ollama_decide.go#L45) |
-| RemoteHost | field_declaration | listedOllamaDecide | [46](../../magpie/internal/provider/ollama_decide.go#L46) |
-| Capabilities | field_declaration | listedOllamaDecide | [47](../../magpie/internal/provider/ollama_decide.go#L47) |
-| Details | field_declaration | listedOllamaDecide | [48](../../magpie/internal/provider/ollama_decide.go#L48) |
-| ContextLength | field_declaration | listedOllamaDecide | [49](../../magpie/internal/provider/ollama_decide.go#L49) |
+| out | var_spec | listedOllamaDecide | [42](../../magpie/internal/provider/ollama_decide.go#L42) |
+| Models | field_declaration | listedOllamaDecide::out | [43](../../magpie/internal/provider/ollama_decide.go#L43) |
+| Name | field_declaration | listedOllamaDecide::out::Models | [44](../../magpie/internal/provider/ollama_decide.go#L44) |
+| Model | field_declaration | listedOllamaDecide::out::Models | [45](../../magpie/internal/provider/ollama_decide.go#L45) |
+| RemoteHost | field_declaration | listedOllamaDecide::out::Models | [46](../../magpie/internal/provider/ollama_decide.go#L46) |
+| Capabilities | field_declaration | listedOllamaDecide::out::Models | [47](../../magpie/internal/provider/ollama_decide.go#L47) |
+| Details | field_declaration | listedOllamaDecide::out::Models | [48](../../magpie/internal/provider/ollama_decide.go#L48) |
+| ContextLength | field_declaration | listedOllamaDecide::out::Models::Details | [49](../../magpie/internal/provider/ollama_decide.go#L49) |

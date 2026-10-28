@@ -10,17 +10,28 @@ Source SHA-256: 5f91d7b846d5fae4844f0e1733a92cd0ecb81ceffbc1737f8ccc90575b9f9844
 | --- | --- | --- | ---: |
 | spawnMore | const_spec |  | [34](../../magpie/internal/gateway/codex_spawn_models.go#L34) |
 | spawnMost | const_spec |  | [38](../../magpie/internal/gateway/codex_spawn_models.go#L38) |
-| spawnChoice | struct_type |  | [40](../../magpie/internal/gateway/codex_spawn_models.go#L40) |
+| spawnChoice | type_spec |  | [40](../../magpie/internal/gateway/codex_spawn_models.go#L40) |
 | slug | field_declaration | spawnChoice | [40](../../magpie/internal/gateway/codex_spawn_models.go#L40) |
-| name | field_declaration | spawnChoice | [40](../../magpie/internal/gateway/codex_spawn_models.go#L40) |
 | spawnAgentModels | function_declaration |  | [46](../../magpie/internal/gateway/codex_spawn_models.go#L46) |
 | moreSpawnInput | function_declaration |  | [87](../../magpie/internal/gateway/codex_spawn_models.go#L87) |
+| out | var_spec | moreSpawnInput | [92](../../magpie/internal/gateway/codex_spawn_models.go#L92) |
 | moreSpawnItem | function_declaration |  | [116](../../magpie/internal/gateway/codex_spawn_models.go#L116) |
+| it | var_spec | moreSpawnItem | [117](../../magpie/internal/gateway/codex_spawn_models.go#L117) |
+| kind | var_spec | moreSpawnItem | [121](../../magpie/internal/gateway/codex_spawn_models.go#L121) |
 | withMembers | function_declaration |  | [137](../../magpie/internal/gateway/codex_spawn_models.go#L137) |
 | moreSpawnTools | function_declaration |  | [156](../../magpie/internal/gateway/codex_spawn_models.go#L156) |
+| tools | var_spec | moreSpawnTools | [157](../../magpie/internal/gateway/codex_spawn_models.go#L157) |
+| kind | var_spec | moreSpawnTools | [168](../../magpie/internal/gateway/codex_spawn_models.go#L168) |
+| inner | var_spec | moreSpawnTools | [170](../../magpie/internal/gateway/codex_spawn_models.go#L170) |
 | rawJSON | function_declaration |  | [190](../../magpie/internal/gateway/codex_spawn_models.go#L190) |
+| b | var_spec | rawJSON | [191](../../magpie/internal/gateway/codex_spawn_models.go#L191) |
 | moreSpawnModels | function_declaration |  | [203](../../magpie/internal/gateway/codex_spawn_models.go#L203) |
-| Properties | field_declaration | moreSpawnModels | [212](../../magpie/internal/gateway/codex_spawn_models.go#L212) |
+| name | var_spec | moreSpawnModels | [204](../../magpie/internal/gateway/codex_spawn_models.go#L204) |
+| params | var_spec | moreSpawnModels | [211](../../magpie/internal/gateway/codex_spawn_models.go#L211) |
+| Properties | field_declaration | moreSpawnModels::params | [212](../../magpie/internal/gateway/codex_spawn_models.go#L212) |
+| lines | var_spec | moreSpawnModels | [217](../../magpie/internal/gateway/codex_spawn_models.go#L217) |
 | spawnChoices | function_declaration |  | [257](../../magpie/internal/gateway/codex_spawn_models.go#L257) |
-| own | struct_type | spawnChoices | [269](../../magpie/internal/gateway/codex_spawn_models.go#L269) |
-| at | field_declaration | spawnChoices.own | [271](../../magpie/internal/gateway/codex_spawn_models.go#L271) |
+| out | var_spec | spawnChoices | [259](../../magpie/internal/gateway/codex_spawn_models.go#L259) |
+| own | type_spec | spawnChoices | [269](../../magpie/internal/gateway/codex_spawn_models.go#L269) |
+| at | field_declaration | spawnChoices::own | [271](../../magpie/internal/gateway/codex_spawn_models.go#L271) |
+| owns | var_spec | spawnChoices | [273](../../magpie/internal/gateway/codex_spawn_models.go#L273) |

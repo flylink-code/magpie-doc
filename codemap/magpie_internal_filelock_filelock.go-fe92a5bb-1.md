@@ -11,10 +11,10 @@ Source SHA-256: bbe40d4117ad84bcdbc205ab92c070d39bc080be14b2007ee9c684714253bf37
 | Wait | const_spec |  | [20](../../magpie/internal/filelock/filelock.go#L20) |
 | mkdirAll | var_spec |  | [23](../../magpie/internal/filelock/filelock.go#L23) |
 | Lock | function_declaration |  | [32](../../magpie/internal/filelock/filelock.go#L32) |
-| Mutex | struct_type |  | [68](../../magpie/internal/filelock/filelock.go#L68) |
+| Mutex | type_spec |  | [68](../../magpie/internal/filelock/filelock.go#L68) |
 | mu | field_declaration | Mutex | [69](../../magpie/internal/filelock/filelock.go#L69) |
 | Path | field_declaration | Mutex | [71](../../magpie/internal/filelock/filelock.go#L71) |
 | Locked | field_declaration | Mutex | [75](../../magpie/internal/filelock/filelock.go#L75) |
 | unlock | field_declaration | Mutex | [76](../../magpie/internal/filelock/filelock.go#L76) |
-| Lock | method_declaration | *Mutex | [79](../../magpie/internal/filelock/filelock.go#L79) |
-| Unlock | method_declaration | *Mutex | [87](../../magpie/internal/filelock/filelock.go#L87) |
+| Lock | method_declaration |  | [79](../../magpie/internal/filelock/filelock.go#L79) |
+| Unlock | method_declaration |  | [87](../../magpie/internal/filelock/filelock.go#L87) |

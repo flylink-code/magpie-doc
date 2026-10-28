@@ -14,7 +14,7 @@ Source SHA-256: de4f7e31b9144072106e138813b0db4d83c69faf94dd9c4ce0731f9811486994
 | zcodeZaiAPI | var_spec |  | [50](../../magpie/internal/provider/zcode.go#L50) |
 | zcodeBigModelAPI | var_spec |  | [51](../../magpie/internal/provider/zcode.go#L51) |
 | zcodeAppVersion | const_spec |  | [55](../../magpie/internal/provider/zcode.go#L55) |
-| zcodeKey | struct_type |  | [58](../../magpie/internal/provider/zcode.go#L58) |
+| zcodeKey | type_spec |  | [58](../../magpie/internal/provider/zcode.go#L58) |
 | Key | field_declaration | zcodeKey | [59](../../magpie/internal/provider/zcode.go#L59) |
 | Base | field_declaration | zcodeKey | [60](../../magpie/internal/provider/zcode.go#L60) |
 | JWT | field_declaration | zcodeKey | [61](../../magpie/internal/provider/zcode.go#L61) |
@@ -25,24 +25,31 @@ Source SHA-256: de4f7e31b9144072106e138813b0db4d83c69faf94dd9c4ce0731f9811486994
 | zcodeCredentialsPath | function_declaration |  | [76](../../magpie/internal/provider/zcode.go#L76) |
 | zcodeSecret | function_declaration |  | [83](../../magpie/internal/provider/zcode.go#L83) |
 | zcodeDecrypt | function_declaration |  | [104](../../magpie/internal/provider/zcode.go#L104) |
+| raw | var_spec | zcodeDecrypt | [113](../../magpie/internal/provider/zcode.go#L113) |
 | zcodeOwn | function_declaration |  | [136](../../magpie/internal/provider/zcode.go#L136) |
-| Email | field_declaration | zcodeOwn | [182](../../magpie/internal/provider/zcode.go#L182) |
-| Name | field_declaration | zcodeOwn | [183](../../magpie/internal/provider/zcode.go#L183) |
-| ID | field_declaration | zcodeOwn | [184](../../magpie/internal/provider/zcode.go#L184) |
+| store | var_spec | zcodeOwn | [137](../../magpie/internal/provider/zcode.go#L137) |
+| info | var_spec | zcodeOwn | [181](../../magpie/internal/provider/zcode.go#L181) |
+| Email | field_declaration | zcodeOwn::info | [182](../../magpie/internal/provider/zcode.go#L182) |
+| Name | field_declaration | zcodeOwn::info | [183](../../magpie/internal/provider/zcode.go#L183) |
+| ID | field_declaration | zcodeOwn::info | [184](../../magpie/internal/provider/zcode.go#L184) |
 | zcodeConfigKey | function_declaration |  | [200](../../magpie/internal/provider/zcode.go#L200) |
-| Provider | field_declaration | zcodeConfigKey | [202](../../magpie/internal/provider/zcode.go#L202) |
-| Options | field_declaration | zcodeConfigKey | [203](../../magpie/internal/provider/zcode.go#L203) |
-| APIKey | field_declaration | zcodeConfigKey | [204](../../magpie/internal/provider/zcode.go#L204) |
+| cfg | var_spec | zcodeConfigKey | [201](../../magpie/internal/provider/zcode.go#L201) |
+| Provider | field_declaration | zcodeConfigKey::cfg | [202](../../magpie/internal/provider/zcode.go#L202) |
+| Options | field_declaration | zcodeConfigKey::cfg::Provider | [203](../../magpie/internal/provider/zcode.go#L203) |
+| APIKey | field_declaration | zcodeConfigKey::cfg::Provider::Options | [204](../../magpie/internal/provider/zcode.go#L204) |
 | ids | field_declaration | zcodeConfigKey | [212](../../magpie/internal/provider/zcode.go#L212) |
 | base | field_declaration | zcodeConfigKey | [213](../../magpie/internal/provider/zcode.go#L213) |
 | zcodeWho | function_declaration |  | [234](../../magpie/internal/provider/zcode.go#L234) |
 | firstNonEmpty | function_declaration |  | [239](../../magpie/internal/provider/zcode.go#L239) |
-| zcodeLoginKey | struct_type |  | [250](../../magpie/internal/provider/zcode.go#L250) |
+| zcodeLoginKey | type_spec |  | [250](../../magpie/internal/provider/zcode.go#L250) |
 | key | field_declaration | zcodeLoginKey | [252](../../magpie/internal/provider/zcode.go#L252) |
 | zcodeSaved | function_declaration |  | [255](../../magpie/internal/provider/zcode.go#L255) |
+| k | var_spec | zcodeSaved | [256](../../magpie/internal/provider/zcode.go#L256) |
 | zcodeLogins | function_declaration |  | [267](../../magpie/internal/provider/zcode.go#L267) |
+| out | var_spec | zcodeLogins | [272](../../magpie/internal/provider/zcode.go#L272) |
 | zhipuTerm | function_declaration |  | [292](../../magpie/internal/provider/zcode.go#L292) |
-| zhipuSubscription | struct_type |  | [300](../../magpie/internal/provider/zcode.go#L300) |
+| subs | var_spec | zhipuTerm | [293](../../magpie/internal/provider/zcode.go#L293) |
+| zhipuSubscription | type_spec |  | [300](../../magpie/internal/provider/zcode.go#L300) |
 | Status | field_declaration | zhipuSubscription | [301](../../magpie/internal/provider/zcode.go#L301) |
 | Valid | field_declaration | zhipuSubscription | [302](../../magpie/internal/provider/zcode.go#L302) |
 | AutoRenew | field_declaration | zhipuSubscription | [303](../../magpie/internal/provider/zcode.go#L303) |
@@ -53,7 +60,9 @@ Source SHA-256: de4f7e31b9144072106e138813b0db4d83c69faf94dd9c4ce0731f9811486994
 | zcodeRoot | function_declaration |  | [345](../../magpie/internal/provider/zcode.go#L345) |
 | zcodeCall | function_declaration |  | [356](../../magpie/internal/provider/zcode.go#L356) |
 | zcodeCallH | function_declaration |  | [362](../../magpie/internal/provider/zcode.go#L362) |
-| Code | field_declaration | zcodeCallH | [389](../../magpie/internal/provider/zcode.go#L389) |
-| Msg | field_declaration | zcodeCallH | [390](../../magpie/internal/provider/zcode.go#L390) |
-| Data | field_declaration | zcodeCallH | [391](../../magpie/internal/provider/zcode.go#L391) |
+| rd | var_spec | zcodeCallH | [363](../../magpie/internal/provider/zcode.go#L363) |
+| env | var_spec | zcodeCallH | [388](../../magpie/internal/provider/zcode.go#L388) |
+| Code | field_declaration | zcodeCallH::env | [389](../../magpie/internal/provider/zcode.go#L389) |
+| Msg | field_declaration | zcodeCallH::env | [390](../../magpie/internal/provider/zcode.go#L390) |
+| Data | field_declaration | zcodeCallH::env | [391](../../magpie/internal/provider/zcode.go#L391) |
 | zcodeGet | function_declaration |  | [415](../../magpie/internal/provider/zcode.go#L415) |

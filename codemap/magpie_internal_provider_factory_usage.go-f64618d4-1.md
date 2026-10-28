@@ -8,22 +8,26 @@ Source SHA-256: 96a513010201e2bf22d8b0fb417da49f9ddbb342b02115d79c726f44d5defec1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| factoryWindow | struct_type |  | [22](../../magpie/internal/provider/factory_usage.go#L22) |
+| factoryWindow | type_spec |  | [22](../../magpie/internal/provider/factory_usage.go#L22) |
 | Used | field_declaration | factoryWindow | [23](../../magpie/internal/provider/factory_usage.go#L23) |
 | End | field_declaration | factoryWindow | [24](../../magpie/internal/provider/factory_usage.go#L24) |
-| factoryPool | struct_type |  | [27](../../magpie/internal/provider/factory_usage.go#L27) |
+| factoryPool | type_spec |  | [27](../../magpie/internal/provider/factory_usage.go#L27) |
 | FiveHour | field_declaration | factoryPool | [28](../../magpie/internal/provider/factory_usage.go#L28) |
 | Weekly | field_declaration | factoryPool | [29](../../magpie/internal/provider/factory_usage.go#L29) |
 | Monthly | field_declaration | factoryPool | [30](../../magpie/internal/provider/factory_usage.go#L30) |
-| factoryLimits | struct_type |  | [33](../../magpie/internal/provider/factory_usage.go#L33) |
+| factoryLimits | type_spec |  | [33](../../magpie/internal/provider/factory_usage.go#L33) |
 | Limits | field_declaration | factoryLimits | [34](../../magpie/internal/provider/factory_usage.go#L34) |
-| Standard | field_declaration | factoryLimits | [35](../../magpie/internal/provider/factory_usage.go#L35) |
-| Core | field_declaration | factoryLimits | [36](../../magpie/internal/provider/factory_usage.go#L36) |
+| Standard | field_declaration | factoryLimits::Limits | [35](../../magpie/internal/provider/factory_usage.go#L35) |
+| Core | field_declaration | factoryLimits::Limits | [36](../../magpie/internal/provider/factory_usage.go#L36) |
 | Extra | field_declaration | factoryLimits | [38](../../magpie/internal/provider/factory_usage.go#L38) |
 | ExtraAllowed | field_declaration | factoryLimits | [39](../../magpie/internal/provider/factory_usage.go#L39) |
 | factoryWhen | function_declaration |  | [44](../../magpie/internal/provider/factory_usage.go#L44) |
+| s | var_spec | factoryWhen | [45](../../magpie/internal/provider/factory_usage.go#L45) |
+| n | var_spec | factoryWhen | [56](../../magpie/internal/provider/factory_usage.go#L56) |
 | factoryQuota | function_declaration |  | [68](../../magpie/internal/provider/factory_usage.go#L68) |
+| out | var_spec | factoryQuota | [69](../../magpie/internal/provider/factory_usage.go#L69) |
 | win | field_declaration | factoryQuota | [76](../../magpie/internal/provider/factory_usage.go#L76) |
 | name | field_declaration | factoryQuota | [77](../../magpie/internal/provider/factory_usage.go#L77) |
 | span | field_declaration | factoryQuota | [78](../../magpie/internal/provider/factory_usage.go#L78) |
 | FactoryAllowanceForTest | function_declaration |  | [102](../../magpie/internal/provider/factory_usage.go#L102) |
+| l | var_spec | FactoryAllowanceForTest | [103](../../magpie/internal/provider/factory_usage.go#L103) |

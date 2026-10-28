@@ -9,18 +9,21 @@ Source SHA-256: 8343b1fa764757eeac8b295b0f82b3cb3533928aa2d5e8d41ce8d81bc81cdcf3
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | cursorEfforts | var_spec |  | [31](../../magpie/internal/provider/cursor_models.go#L31) |
+| word | field_declaration | cursorEfforts | [31](../../magpie/internal/provider/cursor_models.go#L31) |
 | cursorLevelRank | var_spec |  | [36](../../magpie/internal/provider/cursor_models.go#L36) |
 | splitCursorID | function_declaration |  | [42](../../magpie/internal/provider/cursor_models.go#L42) |
 | cursorLabel | function_declaration |  | [71](../../magpie/internal/provider/cursor_models.go#L71) |
 | withoutWords | function_declaration |  | [82](../../magpie/internal/provider/cursor_models.go#L82) |
-| cursorFamily | struct_type |  | [96](../../magpie/internal/provider/cursor_models.go#L96) |
+| cursorFamily | type_spec |  | [96](../../magpie/internal/provider/cursor_models.go#L96) |
 | id | field_declaration | cursorFamily | [97](../../magpie/internal/provider/cursor_models.go#L97) |
 | variants | field_declaration | cursorFamily | [98](../../magpie/internal/provider/cursor_models.go#L98) |
 | efforts | field_declaration | cursorFamily | [99](../../magpie/internal/provider/cursor_models.go#L99) |
-| byEffort | method_declaration | *cursorFamily | [106](../../magpie/internal/provider/cursor_models.go#L106) |
-| model | method_declaration | *cursorFamily | [130](../../magpie/internal/provider/cursor_models.go#L130) |
+| byEffort | method_declaration |  | [106](../../magpie/internal/provider/cursor_models.go#L106) |
+| model | method_declaration |  | [130](../../magpie/internal/provider/cursor_models.go#L130) |
 | cursorFamilies | function_declaration |  | [151](../../magpie/internal/provider/cursor_models.go#L151) |
+| out | var_spec | cursorFamilies | [152](../../magpie/internal/provider/cursor_models.go#L152) |
 | collapseCursorModels | function_declaration |  | [170](../../magpie/internal/provider/cursor_models.go#L170) |
+| out | var_spec | collapseCursorModels | [171](../../magpie/internal/provider/cursor_models.go#L171) |
 | cursorCapacity | var_spec |  | [184](../../magpie/internal/provider/cursor_models.go#L184) |
 | withoutCursorCapacity | function_declaration |  | [190](../../magpie/internal/provider/cursor_models.go#L190) |
 | CursorVariants | function_declaration |  | [215](../../magpie/internal/provider/cursor_models.go#L215) |
@@ -28,3 +31,4 @@ Source SHA-256: 8343b1fa764757eeac8b295b0f82b3cb3533928aa2d5e8d41ce8d81bc81cdcf3
 | CursorBase | function_declaration |  | [237](../../magpie/internal/provider/cursor_models.go#L237) |
 | cursorBaseIn | function_declaration |  | [245](../../magpie/internal/provider/cursor_models.go#L245) |
 | cursorPicks | function_declaration |  | [261](../../magpie/internal/provider/cursor_models.go#L261) |
+| out | var_spec | cursorPicks | [266](../../magpie/internal/provider/cursor_models.go#L266) |

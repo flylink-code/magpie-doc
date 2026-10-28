@@ -10,12 +10,13 @@ Source SHA-256: 008aac37b1ab2d2f725f9ea76ceeb91d91cf79c7b335750ac9e9412022d07e75
 | --- | --- | --- | ---: |
 | codexListTagFor | var_spec |  | [24](../../magpie/internal/provider/codex_list_tag.go#L24) |
 | codexListSettled | const_spec |  | [29](../../magpie/internal/provider/codex_list_tag.go#L29) |
-| codexListStamp | struct_type |  | [37](../../magpie/internal/provider/codex_list_tag.go#L37) |
+| codexListStamp | type_spec |  | [37](../../magpie/internal/provider/codex_list_tag.go#L37) |
 | gen | field_declaration | codexListStamp | [38](../../magpie/internal/provider/codex_list_tag.go#L38) |
-| fgen | field_declaration | codexListStamp | [38](../../magpie/internal/provider/codex_list_tag.go#L38) |
-| env | field_declaration | codexListStamp | [38](../../magpie/internal/provider/codex_list_tag.go#L38) |
 | files | field_declaration | codexListStamp | [39](../../magpie/internal/provider/codex_list_tag.go#L39) |
 | codexListStampNow | function_declaration |  | [42](../../magpie/internal/provider/codex_list_tag.go#L42) |
-| settled | method_declaration | codexListStamp | [56](../../magpie/internal/provider/codex_list_tag.go#L56) |
+| settled | method_declaration |  | [56](../../magpie/internal/provider/codex_list_tag.go#L56) |
 | codexListTags | var_spec |  | [65](../../magpie/internal/provider/codex_list_tag.go#L65) |
+| stamp | field_declaration | codexListTags | [67](../../magpie/internal/provider/codex_list_tag.go#L67) |
+| at | field_declaration | codexListTags | [68](../../magpie/internal/provider/codex_list_tag.go#L68) |
+| of | field_declaration | codexListTags | [69](../../magpie/internal/provider/codex_list_tag.go#L69) |
 | codexListTag | function_declaration |  | [74](../../magpie/internal/provider/codex_list_tag.go#L74) |

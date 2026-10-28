@@ -10,29 +10,37 @@ Source SHA-256: caa719dda8e0f3a0b2a1454b1ab0a912e004f4942c8b4ddab834a6397081eb68
 | --- | --- | --- | ---: |
 | AlmaDir | function_declaration |  | [45](../../magpie/internal/sessions/alma.go#L45) |
 | almaDB | function_declaration |  | [53](../../magpie/internal/sessions/alma.go#L53) |
-| almaStore | struct_type |  | [63](../../magpie/internal/sessions/alma.go#L63) |
+| almaStore | type_spec |  | [63](../../magpie/internal/sessions/alma.go#L63) |
 | db | field_declaration | almaStore | [64](../../magpie/internal/sessions/alma.go#L64) |
 | threads | field_declaration | almaStore | [65](../../magpie/internal/sessions/alma.go#L65) |
-| messages | field_declaration | almaStore | [65](../../magpie/internal/sessions/alma.go#L65) |
-| workspaces | field_declaration | almaStore | [65](../../magpie/internal/sessions/alma.go#L65) |
 | usage | field_declaration | almaStore | [66](../../magpie/internal/sessions/alma.go#L66) |
-| aux | field_declaration | almaStore | [66](../../magpie/internal/sessions/alma.go#L66) |
 | almaTime | function_declaration |  | [69](../../magpie/internal/sessions/alma.go#L69) |
 | almaCronTitle | const_spec |  | [75](../../magpie/internal/sessions/alma.go#L75) |
 | almaFiles | function_declaration |  | [82](../../magpie/internal/sessions/alma.go#L82) |
+| conds | var_spec | almaFiles | [111](../../magpie/internal/sessions/alma.go#L111) |
+| out | var_spec | almaFiles | [136](../../magpie/internal/sessions/alma.go#L136) |
+| id | var_spec | almaFiles | [138](../../magpie/internal/sessions/alma.go#L138) |
+| n | var_spec | almaFiles | [139](../../magpie/internal/sessions/alma.go#L139) |
 | almaExpr | function_declaration |  | [170](../../magpie/internal/sessions/alma.go#L170) |
 | almaColumn | function_declaration |  | [179](../../magpie/internal/sessions/alma.go#L179) |
-| almaMessage | struct_type |  | [190](../../magpie/internal/sessions/alma.go#L190) |
+| almaMessage | type_spec |  | [190](../../magpie/internal/sessions/alma.go#L190) |
 | Role | field_declaration | almaMessage | [191](../../magpie/internal/sessions/alma.go#L191) |
 | Parts | field_declaration | almaMessage | [192](../../magpie/internal/sessions/alma.go#L192) |
-| Type | field_declaration | almaMessage | [193](../../magpie/internal/sessions/alma.go#L193) |
-| Text | field_declaration | almaMessage | [194](../../magpie/internal/sessions/alma.go#L194) |
-| ToolName | field_declaration | almaMessage | [195](../../magpie/internal/sessions/alma.go#L195) |
-| Input | field_declaration | almaMessage | [196](../../magpie/internal/sessions/alma.go#L196) |
-| almaMeta | struct_type |  | [200](../../magpie/internal/sessions/alma.go#L200) |
+| Type | field_declaration | almaMessage::Parts | [193](../../magpie/internal/sessions/alma.go#L193) |
+| Text | field_declaration | almaMessage::Parts | [194](../../magpie/internal/sessions/alma.go#L194) |
+| ToolName | field_declaration | almaMessage::Parts | [195](../../magpie/internal/sessions/alma.go#L195) |
+| Input | field_declaration | almaMessage::Parts | [196](../../magpie/internal/sessions/alma.go#L196) |
+| almaMeta | type_spec |  | [200](../../magpie/internal/sessions/alma.go#L200) |
 | Indicator | field_declaration | almaMeta | [201](../../magpie/internal/sessions/alma.go#L201) |
 | almaModel | function_declaration |  | [206](../../magpie/internal/sessions/alma.go#L206) |
 | parseAlma | function_declaration |  | [229](../../magpie/internal/sessions/alma.go#L229) |
-| Skill | field_declaration | parseAlma | [316](../../magpie/internal/sessions/alma.go#L316) |
+| named | var_spec | parseAlma | [246](../../magpie/internal/sessions/alma.go#L246) |
+| raw | var_spec | parseAlma | [268](../../magpie/internal/sessions/alma.go#L268) |
+| m | var_spec | parseAlma | [272](../../magpie/internal/sessions/alma.go#L272) |
+| md | var_spec | parseAlma | [276](../../magpie/internal/sessions/alma.go#L276) |
+| in | var_spec | parseAlma | [315](../../magpie/internal/sessions/alma.go#L315) |
+| Skill | field_declaration | parseAlma::in | [316](../../magpie/internal/sessions/alma.go#L316) |
 | name | field_declaration | parseAlma | [336](../../magpie/internal/sessions/alma.go#L336) |
 | cols | field_declaration | parseAlma | [337](../../magpie/internal/sessions/alma.go#L337) |
+| model | var_spec | parseAlma | [350](../../magpie/internal/sessions/alma.go#L350) |
+| in | var_spec | parseAlma | [351](../../magpie/internal/sessions/alma.go#L351) |

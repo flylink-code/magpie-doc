@@ -10,19 +10,20 @@ Source SHA-256: fe92949ee48bc342d28e79f5747a45dda46b6a050994a389b7657afa982d1305
 | --- | --- | --- | ---: |
 | ThisComputer | const_spec |  | [27](../../magpie/internal/usage/shared.go#L27) |
 | SharedDays | const_spec |  | [30](../../magpie/internal/usage/shared.go#L30) |
-| SharedDay | struct_type |  | [33](../../magpie/internal/usage/shared.go#L33) |
+| SharedDay | type_spec |  | [33](../../magpie/internal/usage/shared.go#L33) |
 | Computer | field_declaration | SharedDay | [34](../../magpie/internal/usage/shared.go#L34) |
 | Name | field_declaration | SharedDay | [35](../../magpie/internal/usage/shared.go#L35) |
 | Day | field_declaration | SharedDay | [36](../../magpie/internal/usage/shared.go#L36) |
 | Calls | field_declaration | SharedDay | [37](../../magpie/internal/usage/shared.go#L37) |
-| SharedCall | struct_type |  | [42](../../magpie/internal/usage/shared.go#L42) |
+| SharedCall | type_spec |  | [42](../../magpie/internal/usage/shared.go#L42) |
 | Source | field_declaration | SharedCall | [44](../../magpie/internal/usage/shared.go#L44) |
 | dir | function_declaration |  | [47](../../magpie/internal/usage/shared.go#L47) |
 | OthersDir | function_declaration |  | [50](../../magpie/internal/usage/shared.go#L50) |
-| computerFile | struct_type |  | [53](../../magpie/internal/usage/shared.go#L53) |
+| computerFile | type_spec |  | [53](../../magpie/internal/usage/shared.go#L53) |
 | ID | field_declaration | computerFile | [54](../../magpie/internal/usage/shared.go#L54) |
 | Name | field_declaration | computerFile | [55](../../magpie/internal/usage/shared.go#L55) |
 | Computer | function_declaration |  | [60](../../magpie/internal/usage/shared.go#L60) |
+| c | var_spec | Computer | [62](../../magpie/internal/usage/shared.go#L62) |
 | validID | function_declaration |  | [89](../../magpie/internal/usage/shared.go#L89) |
 | ValidComputer | function_declaration |  | [103](../../magpie/internal/usage/shared.go#L103) |
 | OwnDays | function_declaration |  | [109](../../magpie/internal/usage/shared.go#L109) |
@@ -32,14 +33,14 @@ Source SHA-256: fe92949ee48bc342d28e79f5747a45dda46b6a050994a389b7657afa982d1305
 | latestDay | function_declaration |  | [164](../../magpie/internal/usage/shared.go#L164) |
 | sharedNames | function_declaration |  | [176](../../magpie/internal/usage/shared.go#L176) |
 | SharedKept | function_declaration |  | [198](../../magpie/internal/usage/shared.go#L198) |
+| out | var_spec | SharedKept | [199](../../magpie/internal/usage/shared.go#L199) |
 | DropShared | function_declaration |  | [217](../../magpie/internal/usage/shared.go#L217) |
 | DropAllShared | function_declaration |  | [230](../../magpie/internal/usage/shared.go#L230) |
-| sharedSource | struct_type |  | [233](../../magpie/internal/usage/shared.go#L233) |
+| sharedSource | type_spec |  | [233](../../magpie/internal/usage/shared.go#L233) |
 | path | field_declaration | sharedSource | [234](../../magpie/internal/usage/shared.go#L234) |
-| computer | field_declaration | sharedSource | [234](../../magpie/internal/usage/shared.go#L234) |
-| day | field_declaration | sharedSource | [234](../../magpie/internal/usage/shared.go#L234) |
 | size | field_declaration | sharedSource | [235](../../magpie/internal/usage/shared.go#L235) |
 | mod | field_declaration | sharedSource | [236](../../magpie/internal/usage/shared.go#L236) |
 | sharedSources | function_declaration |  | [241](../../magpie/internal/usage/shared.go#L241) |
 | readShared | function_declaration |  | [273](../../magpie/internal/usage/shared.go#L273) |
+| d | var_spec | readShared | [274](../../magpie/internal/usage/shared.go#L274) |
 | sharedRecords | function_declaration |  | [284](../../magpie/internal/usage/shared.go#L284) |

@@ -11,7 +11,7 @@ Source SHA-256: f02b294e7de6e6a0be04577b86d431080c3fec17328f56c4e0fd11b74abe5490
 | nodeModulesOf | var_spec |  | [26](../../magpie/internal/agent/nativemodels.go#L26) |
 | findNodeModules | function_declaration |  | [28](../../magpie/internal/agent/nativemodels.go#L28) |
 | safeProvider | function_declaration |  | [54](../../magpie/internal/agent/nativemodels.go#L54) |
-| registryModel | struct_type |  | [59](../../magpie/internal/agent/nativemodels.go#L59) |
+| registryModel | type_spec |  | [59](../../magpie/internal/agent/nativemodels.go#L59) |
 | ID | field_declaration | registryModel | [60](../../magpie/internal/agent/nativemodels.go#L60) |
 | Name | field_declaration | registryModel | [61](../../magpie/internal/agent/nativemodels.go#L61) |
 | Type | field_declaration | registryModel | [62](../../magpie/internal/agent/nativemodels.go#L62) |
@@ -19,12 +19,16 @@ Source SHA-256: f02b294e7de6e6a0be04577b86d431080c3fec17328f56c4e0fd11b74abe5490
 | Input | field_declaration | registryModel | [64](../../magpie/internal/agent/nativemodels.go#L64) |
 | Context | field_declaration | registryModel | [65](../../magpie/internal/agent/nativemodels.go#L65) |
 | Output | field_declaration | registryModel | [66](../../magpie/internal/agent/nativemodels.go#L66) |
-| chat | method_declaration | registryModel | [69](../../magpie/internal/agent/nativemodels.go#L69) |
-| model | method_declaration | registryModel | [73](../../magpie/internal/agent/nativemodels.go#L73) |
+| chat | method_declaration |  | [69](../../magpie/internal/agent/nativemodels.go#L69) |
+| model | method_declaration |  | [73](../../magpie/internal/agent/nativemodels.go#L73) |
 | orderedObject | function_declaration |  | [87](../../magpie/internal/agent/nativemodels.go#L87) |
+| v | var_spec | orderedObject | [98](../../magpie/internal/agent/nativemodels.go#L98) |
 | modelsIn | function_declaration |  | [110](../../magpie/internal/agent/nativemodels.go#L110) |
+| out | var_spec | modelsIn | [111](../../magpie/internal/agent/nativemodels.go#L111) |
+| m | var_spec | modelsIn | [114](../../magpie/internal/agent/nativemodels.go#L114) |
 | piPackages | var_spec |  | [125](../../magpie/internal/agent/nativemodels.go#L125) |
 | piRegistry | function_declaration |  | [130](../../magpie/internal/agent/nativemodels.go#L130) |
+| out | var_spec | piRegistry | [139](../../magpie/internal/agent/nativemodels.go#L139) |
 | ompRegistry | function_declaration |  | [157](../../magpie/internal/agent/nativemodels.go#L157) |
 | codexServed | function_declaration |  | [179](../../magpie/internal/agent/nativemodels.go#L179) |
 | nativeProviderNames | var_spec |  | [192](../../magpie/internal/agent/nativemodels.go#L192) |

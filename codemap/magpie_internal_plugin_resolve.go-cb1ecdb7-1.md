@@ -12,4 +12,7 @@ Source SHA-256: a150a0e69ec7e4020352b45d2db8bdb1f036eba719e5714419296379b8b56f75
 | npmPrefix | const_spec |  | [19](../../magpie/internal/plugin/resolve.go#L19) |
 | callNames | function_declaration |  | [25](../../magpie/internal/plugin/resolve.go#L25) |
 | resolve | function_declaration |  | [44](../../magpie/internal/plugin/resolve.go#L44) |
+| found | var_spec | resolve | [64](../../magpie/internal/plugin/resolve.go#L64) |
+| b | var_spec | resolve | [85](../../magpie/internal/plugin/resolve.go#L85) |
 | listNames | function_declaration |  | [108](../../magpie/internal/plugin/resolve.go#L108) |
+| out | var_spec | listNames | [109](../../magpie/internal/plugin/resolve.go#L109) |

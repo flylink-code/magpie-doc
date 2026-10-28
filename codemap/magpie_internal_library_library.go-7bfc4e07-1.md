@@ -8,7 +8,7 @@ Source SHA-256: f21587733707ed7d9d61eb98647a113da19f3963bc4a59fb6dc32f071da06db2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Library | struct_type |  | [23](../../magpie/internal/library/library.go#L23) |
+| Library | type_spec |  | [23](../../magpie/internal/library/library.go#L23) |
 | Instructions | field_declaration | Library | [24](../../magpie/internal/library/library.go#L24) |
 | MCP | field_declaration | Library | [25](../../magpie/internal/library/library.go#L25) |
 | Skills | field_declaration | Library | [26](../../magpie/internal/library/library.go#L26) |
@@ -25,15 +25,15 @@ Source SHA-256: f21587733707ed7d9d61eb98647a113da19f3963bc4a59fb6dc32f071da06db2
 | hashes | field_declaration | Library | [59](../../magpie/internal/library/library.go#L59) |
 | untouched | field_declaration | Library | [62](../../magpie/internal/library/library.go#L62) |
 | blockedSkills | field_declaration | Library | [65](../../magpie/internal/library/library.go#L65) |
-| Instructions | struct_type |  | [71](../../magpie/internal/library/library.go#L71) |
+| Instructions | type_spec |  | [71](../../magpie/internal/library/library.go#L71) |
 | Agents | field_declaration | Instructions | [72](../../magpie/internal/library/library.go#L72) |
 | Sets | field_declaration | Instructions | [75](../../magpie/internal/library/library.go#L75) |
 | Active | field_declaration | Instructions | [76](../../magpie/internal/library/library.go#L76) |
-| InstrSet | struct_type |  | [80](../../magpie/internal/library/library.go#L80) |
+| InstrSet | type_spec |  | [80](../../magpie/internal/library/library.go#L80) |
 | ID | field_declaration | InstrSet | [81](../../magpie/internal/library/library.go#L81) |
 | Name | field_declaration | InstrSet | [82](../../magpie/internal/library/library.go#L82) |
 | File | field_declaration | InstrSet | [86](../../magpie/internal/library/library.go#L86) |
-| Applied | struct_type |  | [90](../../magpie/internal/library/library.go#L90) |
+| Applied | type_spec |  | [90](../../magpie/internal/library/library.go#L90) |
 | Instructions | field_declaration | Applied | [91](../../magpie/internal/library/library.go#L91) |
 | InstrHash | field_declaration | Applied | [92](../../magpie/internal/library/library.go#L92) |
 | MCP | field_declaration | Applied | [93](../../magpie/internal/library/library.go#L93) |
@@ -44,16 +44,16 @@ Source SHA-256: f21587733707ed7d9d61eb98647a113da19f3963bc4a59fb6dc32f071da06db2
 | Subagents | field_declaration | Applied | [106](../../magpie/internal/library/library.go#L106) |
 | Startup | field_declaration | Applied | [110](../../magpie/internal/library/library.go#L110) |
 | mu | var_spec |  | [113](../../magpie/internal/library/library.go#L113) |
-| lock | struct_type |  | [117](../../magpie/internal/library/library.go#L117) |
+| lock | type_spec |  | [117](../../magpie/internal/library/library.go#L117) |
 | held | field_declaration | lock | [119](../../magpie/internal/library/library.go#L119) |
-| Lock | method_declaration | *lock | [122](../../magpie/internal/library/library.go#L122) |
+| Lock | method_declaration |  | [122](../../magpie/internal/library/library.go#L122) |
 | Dir | function_declaration |  | [128](../../magpie/internal/library/library.go#L128) |
 | path | function_declaration |  | [130](../../magpie/internal/library/library.go#L130) |
 | load | function_declaration |  | [132](../../magpie/internal/library/library.go#L132) |
-| save | method_declaration | *Library | [150](../../magpie/internal/library/library.go#L150) |
-| applied | method_declaration | *Library | [182](../../magpie/internal/library/library.go#L182) |
-| server | method_declaration | *Library | [191](../../magpie/internal/library/library.go#L191) |
-| skill | method_declaration | *Library | [200](../../magpie/internal/library/library.go#L200) |
+| save | method_declaration |  | [150](../../magpie/internal/library/library.go#L150) |
+| applied | method_declaration |  | [182](../../magpie/internal/library/library.go#L182) |
+| server | method_declaration |  | [191](../../magpie/internal/library/library.go#L191) |
+| skill | method_declaration |  | [200](../../magpie/internal/library/library.go#L200) |
 | nameRe | var_spec |  | [211](../../magpie/internal/library/library.go#L211) |
 | checkName | function_declaration |  | [213](../../magpie/internal/library/library.go#L213) |
 | agentRe | var_spec |  | [222](../../magpie/internal/library/library.go#L222) |

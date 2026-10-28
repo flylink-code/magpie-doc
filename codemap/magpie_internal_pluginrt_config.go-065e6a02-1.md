@@ -10,12 +10,12 @@ Source SHA-256: caac4bd427d21d8d362cda0fdd1b7970bada3edf57b8e258c3ee3f6c4f1df4d8
 | --- | --- | --- | ---: |
 | PresetEssentials | const_spec |  | [46](../../magpie/internal/pluginrt/config.go#L46) |
 | PresetAll | const_spec |  | [47](../../magpie/internal/pluginrt/config.go#L47) |
-| File | struct_type |  | [51](../../magpie/internal/pluginrt/config.go#L51) |
+| File | type_spec |  | [51](../../magpie/internal/pluginrt/config.go#L51) |
 | Preset | field_declaration | File | [52](../../magpie/internal/pluginrt/config.go#L52) |
 | Settled | field_declaration | File | [56](../../magpie/internal/pluginrt/config.go#L56) |
 | Plugins | field_declaration | File | [57](../../magpie/internal/pluginrt/config.go#L57) |
 | settled | const_spec |  | [64](../../magpie/internal/pluginrt/config.go#L64) |
-| Row | struct_type |  | [67](../../magpie/internal/pluginrt/config.go#L67) |
+| Row | type_spec |  | [67](../../magpie/internal/pluginrt/config.go#L67) |
 | ID | field_declaration | Row | [68](../../magpie/internal/pluginrt/config.go#L68) |
 | Enabled | field_declaration | Row | [69](../../magpie/internal/pluginrt/config.go#L69) |
 | Config | field_declaration | Row | [70](../../magpie/internal/pluginrt/config.go#L70) |
@@ -23,12 +23,13 @@ Source SHA-256: caac4bd427d21d8d362cda0fdd1b7970bada3edf57b8e258c3ee3f6c4f1df4d8
 | inProcess | var_spec |  | [77](../../magpie/internal/pluginrt/config.go#L77) |
 | fileLock | var_spec |  | [78](../../magpie/internal/pluginrt/config.go#L78) |
 | Load | function_declaration |  | [84](../../magpie/internal/pluginrt/config.go#L84) |
+| f | var_spec | Load | [92](../../magpie/internal/pluginrt/config.go#L92) |
 | Source | type_spec |  | [105](../../magpie/internal/pluginrt/config.go#L105) |
 | FromDefault | const_spec |  | [108](../../magpie/internal/pluginrt/config.go#L108) |
 | FromPreset | const_spec |  | [109](../../magpie/internal/pluginrt/config.go#L109) |
 | FromUser | const_spec |  | [110](../../magpie/internal/pluginrt/config.go#L110) |
 | FromInUse | const_spec |  | [111](../../magpie/internal/pluginrt/config.go#L111) |
-| Composed | struct_type |  | [115](../../magpie/internal/pluginrt/config.go#L115) |
+| Composed | type_spec |  | [115](../../magpie/internal/pluginrt/config.go#L115) |
 | ID | field_declaration | Composed | [116](../../magpie/internal/pluginrt/config.go#L116) |
 | Enabled | field_declaration | Composed | [117](../../magpie/internal/pluginrt/config.go#L117) |
 | Source | field_declaration | Composed | [118](../../magpie/internal/pluginrt/config.go#L118) |
@@ -41,6 +42,7 @@ Source SHA-256: caac4bd427d21d8d362cda0fdd1b7970bada3edf57b8e258c3ee3f6c4f1df4d8
 | Settle | function_declaration |  | [197](../../magpie/internal/pluginrt/config.go#L197) |
 | Set | function_declaration |  | [219](../../magpie/internal/pluginrt/config.go#L219) |
 | SetConfig | function_declaration |  | [234](../../magpie/internal/pluginrt/config.go#L234) |
+| s | var_spec | SetConfig | [235](../../magpie/internal/pluginrt/config.go#L235) |
 | SetPreset | function_declaration |  | [264](../../magpie/internal/pluginrt/config.go#L264) |
 | update | function_declaration |  | [271](../../magpie/internal/pluginrt/config.go#L271) |
 | header | const_spec |  | [285](../../magpie/internal/pluginrt/config.go#L285) |
@@ -49,5 +51,6 @@ Source SHA-256: caac4bd427d21d8d362cda0fdd1b7970bada3edf57b8e258c3ee3f6c4f1df4d8
 | def | var_spec |  | [327](../../magpie/internal/pluginrt/config.go#L327) |
 | Refresh | function_declaration |  | [334](../../magpie/internal/pluginrt/config.go#L334) |
 | KeepFresh | function_declaration |  | [363](../../magpie/internal/pluginrt/config.go#L363) |
+| b | var_spec | KeepFresh | [366](../../magpie/internal/pluginrt/config.go#L366) |
 | allOn | function_declaration |  | [397](../../magpie/internal/pluginrt/config.go#L397) |
 | Running | function_declaration |  | [406](../../magpie/internal/pluginrt/config.go#L406) |

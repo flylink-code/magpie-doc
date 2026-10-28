@@ -11,3 +11,5 @@ Source SHA-256: 32b0d56a310a060a6f763a3bede3a6f4d6b9a3f7a852b1926e602712902008a0
 | rtkPathDir | function_declaration |  | [17](../../magpie/internal/library/rtk_path_windows.go#L17) |
 | rtkOnPath | function_declaration |  | [23](../../magpie/internal/library/rtk_path_windows.go#L23) |
 | settingChanged | function_declaration |  | [58](../../magpie/internal/library/rtk_path_windows.go#L58) |
+| hwndBroadcast | const_spec | settingChanged | [59](../../magpie/internal/library/rtk_path_windows.go#L59) |
+| res | var_spec | settingChanged | [61](../../magpie/internal/library/rtk_path_windows.go#L61) |

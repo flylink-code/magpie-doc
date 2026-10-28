@@ -9,14 +9,20 @@ Source SHA-256: f92115a4fcc007719ffacd0a27c7865a59fd0fbb47be63c37e14206c347e80b6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | backupRoutes | function_declaration |  | [21](../../magpie/internal/gui/backup.go#L21) |
-| Pass | field_declaration | backupRoutes | [24](../../magpie/internal/gui/backup.go#L24) |
-| Keys | field_declaration | backupRoutes | [25](../../magpie/internal/gui/backup.go#L25) |
-| Library | field_declaration | backupRoutes | [26](../../magpie/internal/gui/backup.go#L26) |
-| Data | field_declaration | backupRoutes | [63](../../magpie/internal/gui/backup.go#L63) |
-| Pass | field_declaration | backupRoutes | [64](../../magpie/internal/gui/backup.go#L64) |
-| Agents | field_declaration | backupRoutes | [65](../../magpie/internal/gui/backup.go#L65) |
-| Library | field_declaration | backupRoutes | [66](../../magpie/internal/gui/backup.go#L66) |
-| Minutes | field_declaration | backupRoutes | [120](../../magpie/internal/gui/backup.go#L120) |
+| in | var_spec | backupRoutes | [23](../../magpie/internal/gui/backup.go#L23) |
+| Pass | field_declaration | backupRoutes::in | [24](../../magpie/internal/gui/backup.go#L24) |
+| Keys | field_declaration | backupRoutes::in | [25](../../magpie/internal/gui/backup.go#L25) |
+| Library | field_declaration | backupRoutes::in | [26](../../magpie/internal/gui/backup.go#L26) |
+| in | var_spec | backupRoutes | [62](../../magpie/internal/gui/backup.go#L62) |
+| Data | field_declaration | backupRoutes::in | [63](../../magpie/internal/gui/backup.go#L63) |
+| Pass | field_declaration | backupRoutes::in | [64](../../magpie/internal/gui/backup.go#L64) |
+| Agents | field_declaration | backupRoutes::in | [65](../../magpie/internal/gui/backup.go#L65) |
+| Library | field_declaration | backupRoutes::in | [66](../../magpie/internal/gui/backup.go#L66) |
+| err | var_spec | backupRoutes | [100](../../magpie/internal/gui/backup.go#L100) |
+| brought | var_spec | backupRoutes | [101](../../magpie/internal/gui/backup.go#L101) |
+| c | var_spec | backupRoutes | [104](../../magpie/internal/gui/backup.go#L104) |
+| in | var_spec | backupRoutes | [120](../../magpie/internal/gui/backup.go#L120) |
+| Minutes | field_declaration | backupRoutes::in | [120](../../magpie/internal/gui/backup.go#L120) |
 | Brought | field_declaration | backupRoutes | [148](../../magpie/internal/gui/backup.go#L148) |
 | busy | function_declaration |  | [158](../../magpie/internal/gui/backup.go#L158) |
 | downloads | function_declaration |  | [167](../../magpie/internal/gui/backup.go#L167) |

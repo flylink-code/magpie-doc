@@ -14,13 +14,14 @@ Source SHA-256: 469f5b284b0862eb1e3b8bc957631e34702d4373a8cbc3c878d4f7326c9518d3
 | devinImagesAt | var_spec |  | [40](../../magpie/internal/provider/devin_images.go#L40) |
 | parseDevinModelConfigs | function_declaration |  | [74](../../magpie/internal/provider/devin_images.go#L74) |
 | withDevinImages | function_declaration |  | [101](../../magpie/internal/provider/devin_images.go#L101) |
-| images | method_declaration | DevinFamily | [117](../../magpie/internal/provider/devin_images.go#L117) |
+| images | method_declaration |  | [117](../../magpie/internal/provider/devin_images.go#L117) |
+| said | var_spec | images | [118](../../magpie/internal/provider/devin_images.go#L118) |
 | devinPB | type_spec |  | [133](../../magpie/internal/provider/devin_images.go#L133) |
-| bytes | method_declaration | devinPB | [135](../../magpie/internal/provider/devin_images.go#L135) |
-| str | method_declaration | devinPB | [140](../../magpie/internal/provider/devin_images.go#L140) |
-| devinField | struct_type |  | [142](../../magpie/internal/provider/devin_images.go#L142) |
+| bytes | method_declaration |  | [135](../../magpie/internal/provider/devin_images.go#L135) |
+| str | method_declaration |  | [140](../../magpie/internal/provider/devin_images.go#L140) |
+| devinField | type_spec |  | [142](../../magpie/internal/provider/devin_images.go#L142) |
 | num | field_declaration | devinField | [143](../../magpie/internal/provider/devin_images.go#L143) |
-| wire | field_declaration | devinField | [143](../../magpie/internal/provider/devin_images.go#L143) |
 | n | field_declaration | devinField | [144](../../magpie/internal/provider/devin_images.go#L144) |
 | data | field_declaration | devinField | [145](../../magpie/internal/provider/devin_images.go#L145) |
 | devinFields | function_declaration |  | [149](../../magpie/internal/provider/devin_images.go#L149) |
+| out | var_spec | devinFields | [150](../../magpie/internal/provider/devin_images.go#L150) |

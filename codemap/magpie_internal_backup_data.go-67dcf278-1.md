@@ -16,3 +16,4 @@ Source SHA-256: e815c80d82b801e2402c017a20c6250b3f05b9e1a63756120a9799d5a195a8b0
 | derived | function_declaration |  | [40](../../magpie/internal/backup/data.go#L40) |
 | SealData | function_declaration |  | [56](../../magpie/internal/backup/data.go#L56) |
 | OpenData | function_declaration |  | [75](../../magpie/internal/backup/data.go#L75) |
+| e | var_spec | OpenData | [76](../../magpie/internal/backup/data.go#L76) |

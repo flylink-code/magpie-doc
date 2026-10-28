@@ -17,5 +17,7 @@ Source SHA-256: f9ad674be43a559ec0ad76a7d9ed106fe8bfeaabd9c78b322b9ae01a0f2b4b55
 | scienceObject | function_declaration |  | [74](../../magpie/internal/gateway/science.go#L74) |
 | scienceModels | function_declaration |  | [86](../../magpie/internal/gateway/science.go#L86) |
 | sciencePicked | var_spec |  | [97](../../magpie/internal/gateway/science.go#L97) |
+| model | field_declaration | sciencePicked | [99](../../magpie/internal/gateway/science.go#L99) |
+| from | field_declaration | sciencePicked | [100](../../magpie/internal/gateway/science.go#L100) |
 | sciencePickedPath | function_declaration |  | [103](../../magpie/internal/gateway/science.go#L103) |
 | scienceTurn | function_declaration |  | [109](../../magpie/internal/gateway/science.go#L109) |

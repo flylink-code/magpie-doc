@@ -8,7 +8,7 @@ Source SHA-256: abed79b74e4591b8bfc0303de11981aa1f02355eb007063da9467e09856cce2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| builtinJSON | struct_type |  | [28](../../magpie/internal/gui/builtins.go#L28) |
+| builtinJSON | type_spec |  | [28](../../magpie/internal/gui/builtins.go#L28) |
 | ID | field_declaration | builtinJSON | [29](../../magpie/internal/gui/builtins.go#L29) |
 | Name | field_declaration | builtinJSON | [30](../../magpie/internal/gui/builtins.go#L30) |
 | Sub | field_declaration | builtinJSON | [31](../../magpie/internal/gui/builtins.go#L31) |
@@ -27,6 +27,9 @@ Source SHA-256: abed79b74e4591b8bfc0303de11981aa1f02355eb007063da9467e09856cce2f
 | builtinsOff | function_declaration |  | [84](../../magpie/internal/gui/builtins.go#L84) |
 | builtinConfig | function_declaration |  | [96](../../magpie/internal/gui/builtins.go#L96) |
 | builtinRoutes | function_declaration |  | [110](../../magpie/internal/gui/builtins.go#L110) |
-| ID | field_declaration | builtinRoutes | [116](../../magpie/internal/gui/builtins.go#L116) |
-| On | field_declaration | builtinRoutes | [117](../../magpie/internal/gui/builtins.go#L117) |
-| Config | field_declaration | builtinRoutes | [118](../../magpie/internal/gui/builtins.go#L118) |
+| in | var_spec | builtinRoutes | [115](../../magpie/internal/gui/builtins.go#L115) |
+| ID | field_declaration | builtinRoutes::in | [116](../../magpie/internal/gui/builtins.go#L116) |
+| On | field_declaration | builtinRoutes::in | [117](../../magpie/internal/gui/builtins.go#L117) |
+| Config | field_declaration | builtinRoutes::in | [118](../../magpie/internal/gui/builtins.go#L118) |
+| b | var_spec | builtinRoutes | [124](../../magpie/internal/gui/builtins.go#L124) |
+| err | var_spec | builtinRoutes | [145](../../magpie/internal/gui/builtins.go#L145) |

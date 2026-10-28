@@ -13,6 +13,9 @@ Source SHA-256: 04c4cfb69b7a07c7f4c3906013b954523e535371198d1739ebc7a544110a26b3
 | snowOutput | const_spec |  | [53](../../magpie/internal/agent/snow.go#L53) |
 | snow | function_declaration |  | [56](../../magpie/internal/agent/snow.go#L56) |
 | snowIn | function_declaration |  | [61](../../magpie/internal/agent/snow.go#L61) |
+| raw | var_spec | snowIn | [145](../../magpie/internal/agent/snow.go#L145) |
+| wrote | var_spec | snowIn | [146](../../magpie/internal/agent/snow.go#L146) |
+| err | var_spec | snowIn | [417](../../magpie/internal/agent/snow.go#L417) |
 | snowOurKey | function_declaration |  | [446](../../magpie/internal/agent/snow.go#L446) |
 | snowIsOurs | function_declaration |  | [452](../../magpie/internal/agent/snow.go#L452) |
 | snowSynced | var_spec |  | [461](../../magpie/internal/agent/snow.go#L461) |
@@ -23,5 +26,6 @@ Source SHA-256: 04c4cfb69b7a07c7f4c3906013b954523e535371198d1739ebc7a544110a26b3
 | snowProfiles | function_declaration |  | [581](../../magpie/internal/agent/snow.go#L581) |
 | snowFindProfile | function_declaration |  | [605](../../magpie/internal/agent/snow.go#L605) |
 | snowOwnOptions | function_declaration |  | [620](../../magpie/internal/agent/snow.go#L620) |
+| out | var_spec | snowOwnOptions | [623](../../magpie/internal/agent/snow.go#L623) |
 | jsonString | function_declaration |  | [638](../../magpie/internal/agent/snow.go#L638) |
 | noticeSnow | var_spec |  | [642](../../magpie/internal/agent/snow.go#L642) |

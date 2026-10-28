@@ -12,9 +12,12 @@ Source SHA-256: 0d9fa7480bd90fa6197950fb1ae2dc2661a946e2131339fe713e0170633f3a9a
 | grokVersionRe | var_spec |  | [42](../../magpie/internal/provider/grok_install.go#L42) |
 | grokMaxBinary | const_spec |  | [45](../../magpie/internal/provider/grok_install.go#L45) |
 | grokPlatform | function_declaration |  | [48](../../magpie/internal/provider/grok_install.go#L48) |
+| sys | var_spec | grokPlatform | [49](../../magpie/internal/provider/grok_install.go#L49) |
 | installGrokBuild | function_declaration |  | [69](../../magpie/internal/provider/grok_install.go#L69) |
 | grokStableVersion | function_declaration |  | [133](../../magpie/internal/provider/grok_install.go#L133) |
+| body | var_spec | grokStableVersion | [136](../../magpie/internal/provider/grok_install.go#L136) |
 | grokGet | function_declaration |  | [150](../../magpie/internal/provider/grok_install.go#L150) |
 | grokOpen | function_declaration |  | [159](../../magpie/internal/provider/grok_install.go#L159) |
 | grokDownload | function_declaration |  | [176](../../magpie/internal/provider/grok_install.go#L176) |
+| r | var_spec | grokDownload | [182](../../magpie/internal/provider/grok_install.go#L182) |
 | grokNoteInstaller | function_declaration |  | [211](../../magpie/internal/provider/grok_install.go#L211) |

@@ -15,12 +15,14 @@ Source SHA-256: 41e03e6a8dccb04dac6305d0bd757966355760280b617c1f4a41306f27e81335
 | faint | var_spec |  | [157](../../magpie/internal/cli/main.go#L157) |
 | green | var_spec |  | [158](../../magpie/internal/cli/main.go#L158) |
 | Main | function_declaration |  | [162](../../magpie/internal/cli/main.go#L162) |
+| e | var_spec | Main | [201](../../magpie/internal/cli/main.go#L201) |
 | runTUI | function_declaration |  | [214](../../magpie/internal/cli/main.go#L214) |
 | tuiRun | var_spec |  | [219](../../magpie/internal/cli/main.go#L219) |
 | syncAgentsOnChange | function_declaration |  | [226](../../magpie/internal/cli/main.go#L226) |
 | startUp | var_spec |  | [231](../../magpie/internal/cli/main.go#L231) |
 | run | function_declaration |  | [259](../../magpie/internal/cli/main.go#L259) |
 | set | function_declaration |  | [552](../../magpie/internal/cli/main.go#L552) |
+| keys | var_spec | set | [555](../../magpie/internal/cli/main.go#L555) |
 | modelAlias | function_declaration |  | [608](../../magpie/internal/cli/main.go#L608) |
 | fieldAsValue | function_declaration |  | [616](../../magpie/internal/cli/main.go#L616) |
 | showField | function_declaration |  | [632](../../magpie/internal/cli/main.go#L632) |
@@ -28,10 +30,10 @@ Source SHA-256: 41e03e6a8dccb04dac6305d0bd757966355760280b617c1f4a41306f27e81335
 | goneDefault | function_declaration |  | [673](../../magpie/internal/cli/main.go#L673) |
 | fieldForValue | function_declaration |  | [692](../../magpie/internal/cli/main.go#L692) |
 | list | function_declaration |  | [723](../../magpie/internal/cli/main.go#L723) |
-| row | struct_type | list | [727](../../magpie/internal/cli/main.go#L727) |
-| name | field_declaration | list.row | [727](../../magpie/internal/cli/main.go#L727) |
-| vals | field_declaration | list.row | [727](../../magpie/internal/cli/main.go#L727) |
-| path | field_declaration | list.row | [727](../../magpie/internal/cli/main.go#L727) |
+| row | type_spec | list | [727](../../magpie/internal/cli/main.go#L727) |
+| name | field_declaration | list::row | [727](../../magpie/internal/cli/main.go#L727) |
+| rows | var_spec | list | [728](../../magpie/internal/cli/main.go#L728) |
+| parts | var_spec | list | [748](../../magpie/internal/cli/main.go#L748) |
 | tilde | function_declaration |  | [798](../../magpie/internal/cli/main.go#L798) |
 | profiles | function_declaration |  | [805](../../magpie/internal/cli/main.go#L805) |
 | pad | function_declaration |  | [876](../../magpie/internal/cli/main.go#L876) |

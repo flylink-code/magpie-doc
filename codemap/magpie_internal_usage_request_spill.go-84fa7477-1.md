@@ -8,19 +8,20 @@ Source SHA-256: e2c59ae736ab95bef6e0afa007e913e4010bb039e624d902ec47953b12fe8fc4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| archiveSpill | struct_type |  | [16](../../magpie/internal/usage/request_spill.go#L16) |
+| archiveSpill | type_spec |  | [16](../../magpie/internal/usage/request_spill.go#L16) |
 | f | field_declaration | archiveSpill | [17](../../magpie/internal/usage/request_spill.go#L17) |
 | w | field_declaration | archiveSpill | [18](../../magpie/internal/usage/request_spill.go#L18) |
 | off | field_declaration | archiveSpill | [19](../../magpie/internal/usage/request_spill.go#L19) |
 | err | field_declaration | archiveSpill | [20](../../magpie/internal/usage/request_spill.go#L20) |
 | held | field_declaration | archiveSpill | [21](../../magpie/internal/usage/request_spill.go#L21) |
-| spilled | struct_type |  | [26](../../magpie/internal/usage/request_spill.go#L26) |
+| spilled | type_spec |  | [26](../../magpie/internal/usage/request_spill.go#L26) |
 | copies | field_declaration | spilled | [27](../../magpie/internal/usage/request_spill.go#L27) |
 | src | field_declaration | spilled | [28](../../magpie/internal/usage/request_spill.go#L28) |
 | off | field_declaration | spilled | [29](../../magpie/internal/usage/request_spill.go#L29) |
-| n | field_declaration | spilled | [29](../../magpie/internal/usage/request_spill.go#L29) |
 | newArchiveSpill | function_declaration |  | [32](../../magpie/internal/usage/request_spill.go#L32) |
-| put | method_declaration | *archiveSpill | [41](../../magpie/internal/usage/request_spill.go#L41) |
-| hand | method_declaration | *archiveSpill | [66](../../magpie/internal/usage/request_spill.go#L66) |
-| done | method_declaration | *archiveSpill | [73](../../magpie/internal/usage/request_spill.go#L73) |
-| pagesRank | method_declaration | *rowChunk | [107](../../magpie/internal/usage/request_spill.go#L107) |
+| put | method_declaration |  | [41](../../magpie/internal/usage/request_spill.go#L41) |
+| hand | method_declaration |  | [66](../../magpie/internal/usage/request_spill.go#L66) |
+| done | method_declaration |  | [73](../../magpie/internal/usage/request_spill.go#L73) |
+| m | var_spec | done | [85](../../magpie/internal/usage/request_spill.go#L85) |
+| archive | var_spec | done | [93](../../magpie/internal/usage/request_spill.go#L93) |
+| pagesRank | method_declaration |  | [107](../../magpie/internal/usage/request_spill.go#L107) |

@@ -9,3 +9,7 @@ Source SHA-256: d644af5a6025b323665733377a82633130e7a0e856d879147a183561e38f926d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ZedBody | function_declaration |  | [36](../../magpie/internal/provider/zed_body.go#L36) |
+| m | var_spec | ZedBody | [42](../../magpie/internal/provider/zed_body.go#L42) |
+| out | var_spec | ZedBody | [108](../../magpie/internal/provider/zed_body.go#L108) |
+| out | var_spec | ZedBody | [140](../../magpie/internal/provider/zed_body.go#L140) |
+| b | var_spec | ZedBody | [163](../../magpie/internal/provider/zed_body.go#L163) |

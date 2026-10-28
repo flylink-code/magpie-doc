@@ -8,6 +8,6 @@ Source SHA-256: d81d21e9e8333cdb6c6c89ab3c960eea91c36fe57615eeaabb372c11a4f0a4ca
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Front | method_declaration | *Server | [14](../../magpie/internal/gateway/oneport.go#L14) |
+| Front | method_declaration |  | [14](../../magpie/internal/gateway/oneport.go#L14) |
 | clientPrefixes | var_spec |  | [24](../../magpie/internal/gateway/oneport.go#L24) |
 | ClientPath | function_declaration |  | [38](../../magpie/internal/gateway/oneport.go#L38) |

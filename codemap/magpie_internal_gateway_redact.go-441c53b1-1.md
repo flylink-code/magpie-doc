@@ -10,22 +10,21 @@ Source SHA-256: 7d71d41e9854994200472f92617f862424d6b8af23acb3dc7a76fae85e4d56ed
 | --- | --- | --- | ---: |
 | redacted | function_declaration |  | [22](../../magpie/internal/gateway/redact.go#L22) |
 | redactedHits | function_declaration |  | [30](../../magpie/internal/gateway/redact.go#L30) |
-| out | struct_type | redactedHits | [35](../../magpie/internal/gateway/redact.go#L35) |
-| b | field_declaration | redactedHits.out | [36](../../magpie/internal/gateway/redact.go#L36) |
-| h | field_declaration | redactedHits.out | [37](../../magpie/internal/gateway/redact.go#L37) |
+| out | type_spec | redactedHits | [35](../../magpie/internal/gateway/redact.go#L35) |
+| b | field_declaration | redactedHits::out | [36](../../magpie/internal/gateway/redact.go#L36) |
+| h | field_declaration | redactedHits::out | [37](../../magpie/internal/gateway/redact.go#L37) |
 | toldBack | function_declaration |  | [70](../../magpie/internal/gateway/redact.go#L70) |
-| Put | method_spec | toldBack | [71](../../magpie/internal/gateway/redact.go#L71) |
 | redactedPrompt | function_declaration |  | [86](../../magpie/internal/gateway/redact.go#L86) |
 | redactedPromptHits | function_declaration |  | [92](../../magpie/internal/gateway/redact.go#L92) |
 | maskedText | function_declaration |  | [107](../../magpie/internal/gateway/redact.go#L107) |
 | maskTextHits | function_declaration |  | [115](../../magpie/internal/gateway/redact.go#L115) |
-| out | struct_type | maskTextHits | [120](../../magpie/internal/gateway/redact.go#L120) |
-| s | field_declaration | maskTextHits.out | [121](../../magpie/internal/gateway/redact.go#L121) |
-| h | field_declaration | maskTextHits.out | [122](../../magpie/internal/gateway/redact.go#L122) |
+| out | type_spec | maskTextHits | [120](../../magpie/internal/gateway/redact.go#L120) |
+| s | field_declaration | maskTextHits::out | [121](../../magpie/internal/gateway/redact.go#L121) |
+| h | field_declaration | maskTextHits::out | [122](../../magpie/internal/gateway/redact.go#L122) |
 | hitsOf | function_declaration |  | [150](../../magpie/internal/gateway/redact.go#L150) |
-| maskBlocked | struct_type |  | [163](../../magpie/internal/gateway/redact.go#L163) |
+| maskBlocked | type_spec |  | [163](../../magpie/internal/gateway/redact.go#L163) |
 | hit | field_declaration | maskBlocked | [163](../../magpie/internal/gateway/redact.go#L163) |
-| Error | method_declaration | maskBlocked | [165](../../magpie/internal/gateway/redact.go#L165) |
+| Error | method_declaration |  | [165](../../magpie/internal/gateway/redact.go#L165) |
 | blocked | function_declaration |  | [175](../../magpie/internal/gateway/redact.go#L175) |
 | maskStatus | function_declaration |  | [188](../../magpie/internal/gateway/redact.go#L188) |
 | restored | function_declaration |  | [197](../../magpie/internal/gateway/redact.go#L197) |

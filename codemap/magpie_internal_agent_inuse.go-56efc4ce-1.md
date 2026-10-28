@@ -8,5 +8,6 @@ Source SHA-256: 80f553ab1436e0b026f5b5267041fa6b9d11b1183cc2f2485694719269f552b4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Models | method_declaration | *Agent | [14](../../magpie/internal/agent/inuse.go#L14) |
+| Models | method_declaration |  | [14](../../magpie/internal/agent/inuse.go#L14) |
+| out | var_spec | Models | [15](../../magpie/internal/agent/inuse.go#L15) |
 | modelRef | function_declaration |  | [54](../../magpie/internal/agent/inuse.go#L54) |

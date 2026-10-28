@@ -9,10 +9,8 @@ Source SHA-256: c61261b2fed73e1519811386849edf60908ac1d2e05a9e59e9e7db7c26b0c492
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | minKnown | const_spec |  | [29](../../magpie/internal/redact/known.go#L29) |
-| knownValue | struct_type |  | [31](../../magpie/internal/redact/known.go#L31) |
+| knownValue | type_spec |  | [31](../../magpie/internal/redact/known.go#L31) |
 | v | field_declaration | knownValue | [31](../../magpie/internal/redact/known.go#L31) |
-| p | field_declaration | knownValue | [31](../../magpie/internal/redact/known.go#L31) |
-| kind | field_declaration | knownValue | [31](../../magpie/internal/redact/known.go#L31) |
 | known | var_spec |  | [36](../../magpie/internal/redact/known.go#L36) |
 | knownBits | var_spec |  | [39](../../magpie/internal/redact/known.go#L39) |
 | knownGen | var_spec |  | [42](../../magpie/internal/redact/known.go#L42) |
@@ -21,11 +19,15 @@ Source SHA-256: c61261b2fed73e1519811386849edf60908ac1d2e05a9e59e9e7db7c26b0c492
 | reindexKnown | function_declaration |  | [78](../../magpie/internal/redact/known.go#L78) |
 | kindOf | function_declaration |  | [89](../../magpie/internal/redact/known.go#L89) |
 | kindCats | var_spec |  | [102](../../magpie/internal/redact/known.go#L102) |
-| coversKind | method_declaration | Options | [127](../../magpie/internal/redact/known.go#L127) |
+| coversKind | method_declaration |  | [127](../../magpie/internal/redact/known.go#L127) |
 | knownSpans | function_declaration |  | [142](../../magpie/internal/redact/known.go#L142) |
+| out | var_spec | knownSpans | [151](../../magpie/internal/redact/known.go#L151) |
+| best | var_spec | knownSpans | [156](../../magpie/internal/redact/known.go#L156) |
 | standsAlone | function_declaration |  | [179](../../magpie/internal/redact/known.go#L179) |
 | sentEntries | const_spec |  | [228](../../magpie/internal/redact/known.go#L228) |
 | sentKnown | var_spec |  | [230](../../magpie/internal/redact/known.go#L230) |
+| cur | field_declaration | sentKnown | [232](../../magpie/internal/redact/known.go#L232) |
 | sentKnownSpans | function_declaration |  | [237](../../magpie/internal/redact/known.go#L237) |
+| k | var_spec | sentKnownSpans | [250](../../magpie/internal/redact/known.go#L250) |
 | sentKnownAdd | function_declaration |  | [272](../../magpie/internal/redact/known.go#L272) |
 | resetSent | function_declaration |  | [280](../../magpie/internal/redact/known.go#L280) |

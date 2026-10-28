@@ -1,10 +1,99 @@
 {
   "roots": ["plugins/magpie-agent-cursor-bridge", "magpie", "doc"],
-  "extensions": [".go", ".rs", ".ts", ".tsx", ".js", ".mjs", ".cjs", ".py", ".ps1", ".bat", ".cmd", ".sh", ".command", ".patch"],
-  "excludeSegments": ["examples", "node_modules", "target", "dist", "dist-ssr", "release", "generated", "gen", ".git", ".github", ".codemap-fixture", "artifacts", "__pycache__", ".pnpm-store", "testdata", "site", "codemap"],
+  "extensions": [".go", ".rs", ".ts", ".tsx", ".mts", ".cts", ".js", ".jsx", ".mjs", ".cjs", ".py", ".ps1", ".bat", ".cmd", ".sh", ".command", ".patch"],
+  "excludeSegments": ["examples", "node_modules", "target", "dist", "dist-ssr", "release", "generated", "gen", ".git", ".github", ".codemap-fixture", "artifacts", "__pycache__", ".pnpm-store", "testdata", "site", "codemap", ".native-source", ".native-target"],
   "excludePatterns": ["^magpie/.*_test\\.go$", "^magpie/internal/gui/tests/", "^magpie/.*\\.patch$"],
   "outputDir": "doc/codemap",
   "indexFile": "doc/CODE_MAP_INDEX.md",
   "cacheFile": "doc/.codemap-cache.json",
-  "pageRows": 100
+  "pageRows": 100,
+  "hubCount": 40,
+  "defaultModule": "tooling",
+  "modules": {
+    "plugins/magpie-agent-cursor-bridge/lib/": "bridge-lib",
+    "plugins/magpie-agent-cursor-bridge/scripts/": "bridge-scripts",
+    "plugins/magpie-agent-cursor-bridge/test/": "bridge-test",
+    "plugins/magpie-agent-cursor-bridge/*/": "bridge-*",
+    "plugins/magpie-agent-cursor-bridge/": "bridge-root",
+
+    "magpie/internal/agentplug/": "magpie-agentplug",
+
+    "magpie/internal/agent/": "magpie-agent",
+    "magpie/internal/agentenv/": "magpie-agent",
+
+    "magpie/internal/plugin/": "magpie-plugin",
+    "magpie/internal/pluginrt/": "magpie-plugin",
+    "magpie/internal/jsmod/": "magpie-plugin",
+    "magpie/plugins/": "magpie-plugin",
+
+    "magpie/internal/gateway/": "magpie-gateway",
+    "magpie/internal/gwbudget/": "magpie-gateway",
+    "magpie/internal/gwmw/": "magpie-gateway",
+    "magpie/internal/gwtool/": "magpie-gateway",
+    "magpie/internal/routes/": "magpie-gateway",
+    "magpie/internal/upstream/": "magpie-gateway",
+    "magpie/internal/middleware/": "magpie-gateway",
+
+    "magpie/internal/provider/": "magpie-provider",
+    "magpie/internal/catalog/": "magpie-provider",
+    "magpie/internal/codexcat/": "magpie-provider",
+    "magpie/internal/claudebridge/": "magpie-provider",
+    "magpie/internal/claudecode/": "magpie-provider",
+    "magpie/internal/qoder/": "magpie-provider",
+    "magpie/internal/mcpauth/": "magpie-provider",
+
+    "magpie/internal/gui/": "magpie-gui",
+    "magpie/internal/tui/": "magpie-gui",
+    "magpie/internal/fonts/": "magpie-gui",
+    "magpie/internal/iconproxy/": "magpie-gui",
+    "magpie/internal/webview2env/": "magpie-gui",
+    "magpie/internal/shortcut/": "magpie-gui",
+
+    "magpie/internal/cli/": "magpie-cli",
+    "magpie/internal/daemon/": "magpie-cli",
+    "magpie/internal/handoff/": "magpie-cli",
+    "magpie/internal/autostart/": "magpie-cli",
+    "magpie/internal/awake/": "magpie-cli",
+    "magpie/internal/update/": "magpie-cli",
+    "magpie/internal/omarchy/": "magpie-cli",
+
+    "magpie/internal/sessions/": "magpie-sessions",
+    "magpie/internal/codexsummary/": "magpie-sessions",
+    "magpie/internal/library/": "magpie-sessions",
+
+    "magpie/internal/usage/": "magpie-usage",
+    "magpie/internal/usageapi/": "magpie-usage",
+    "magpie/internal/budget/": "magpie-usage",
+    "magpie/internal/stats/": "magpie-usage",
+    "magpie/internal/otlp/": "magpie-usage",
+    "magpie/internal/probelog/": "magpie-usage",
+
+    "magpie/internal/redact/": "magpie-privacy",
+    "magpie/internal/masking/": "magpie-privacy",
+    "magpie/internal/maskrec/": "magpie-privacy",
+    "magpie/internal/pii/": "magpie-privacy",
+    "magpie/internal/access/": "magpie-privacy",
+    "magpie/internal/ghtoken/": "magpie-privacy",
+    "magpie/native/": "magpie-privacy",
+
+    "magpie/internal/settings/": "magpie-storage",
+    "magpie/internal/profile/": "magpie-storage",
+    "magpie/internal/appdir/": "magpie-storage",
+    "magpie/internal/desktopdir/": "magpie-storage",
+    "magpie/internal/davsync/": "magpie-storage",
+    "magpie/internal/backup/": "magpie-storage",
+    "magpie/internal/edit/": "magpie-storage",
+    "magpie/internal/filelock/": "magpie-storage",
+    "magpie/internal/filememo/": "magpie-storage",
+    "magpie/internal/lastgood/": "magpie-storage",
+    "magpie/internal/sqlitedb/": "magpie-storage",
+    "magpie/internal/source/": "magpie-storage",
+    "magpie/internal/steady/": "magpie-storage",
+
+    "magpie/internal/": "magpie-sys",
+    "magpie/build/": "magpie-sys",
+    "magpie/": "magpie-cli",
+
+    "doc/": "tooling"
+  }
 }

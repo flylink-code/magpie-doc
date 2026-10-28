@@ -8,7 +8,7 @@ Source SHA-256: b5d4cd10bab2cdb2d8b96238ec667395fc34c89de7437ce8ed0710f48336ac63
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Group | struct_type |  | [15](../../magpie/internal/profile/details.go#L15) |
+| Group | type_spec |  | [15](../../magpie/internal/profile/details.go#L15) |
 | ID | field_declaration | Group | [16](../../magpie/internal/profile/details.go#L16) |
 | Name | field_declaration | Group | [17](../../magpie/internal/profile/details.go#L17) |
 | Icon | field_declaration | Group | [18](../../magpie/internal/profile/details.go#L18) |
@@ -17,11 +17,11 @@ Source SHA-256: b5d4cd10bab2cdb2d8b96238ec667395fc34c89de7437ce8ed0710f48336ac63
 | Skills | field_declaration | Group | [23](../../magpie/internal/profile/details.go#L23) |
 | Instructions | field_declaration | Group | [24](../../magpie/internal/profile/details.go#L24) |
 | Models | field_declaration | Group | [27](../../magpie/internal/profile/details.go#L27) |
-| Models | struct_type |  | [32](../../magpie/internal/profile/details.go#L32) |
+| Models | type_spec |  | [32](../../magpie/internal/profile/details.go#L32) |
 | Hidden | field_declaration | Models | [33](../../magpie/internal/profile/details.go#L33) |
 | Only | field_declaration | Models | [34](../../magpie/internal/profile/details.go#L34) |
 | Picked | field_declaration | Models | [35](../../magpie/internal/profile/details.go#L35) |
-| Item | struct_type |  | [42](../../magpie/internal/profile/details.go#L42) |
+| Item | type_spec |  | [42](../../magpie/internal/profile/details.go#L42) |
 | Key | field_declaration | Item | [43](../../magpie/internal/profile/details.go#L43) |
 | Label | field_declaration | Item | [44](../../magpie/internal/profile/details.go#L44) |
 | Value | field_declaration | Item | [45](../../magpie/internal/profile/details.go#L45) |
@@ -31,4 +31,9 @@ Source SHA-256: b5d4cd10bab2cdb2d8b96238ec667395fc34c89de7437ce8ed0710f48336ac63
 | secretValue | var_spec |  | [56](../../magpie/internal/profile/details.go#L56) |
 | secret | function_declaration |  | [59](../../magpie/internal/profile/details.go#L59) |
 | Details | function_declaration |  | [69](../../magpie/internal/profile/details.go#L69) |
+| order | var_spec | Details | [71](../../magpie/internal/profile/details.go#L71) |
+| unknown | var_spec | Details | [112](../../magpie/internal/profile/details.go#L112) |
+| out | var_spec | Details | [120](../../magpie/internal/profile/details.go#L120) |
+| rest | var_spec | Details | [152](../../magpie/internal/profile/details.go#L152) |
 | givenTo | function_declaration |  | [180](../../magpie/internal/profile/details.go#L180) |
+| out | var_spec | givenTo | [181](../../magpie/internal/profile/details.go#L181) |

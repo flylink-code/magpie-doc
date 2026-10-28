@@ -11,7 +11,7 @@ Source SHA-256: 2bb7e0701fbab7463e5f154513e955521c4e2e277a6428981e9c2d4bd813dd7c
 | ResetUsedWeek | const_spec |  | [33](../../magpie/internal/provider/codex_resets_used.go#L33) |
 | ResetUsedExpiring | const_spec |  | [34](../../magpie/internal/provider/codex_resets_used.go#L34) |
 | ResetUsedByHand | const_spec |  | [35](../../magpie/internal/provider/codex_resets_used.go#L35) |
-| ResetUse | struct_type |  | [39](../../magpie/internal/provider/codex_resets_used.go#L39) |
+| ResetUse | type_spec |  | [39](../../magpie/internal/provider/codex_resets_used.go#L39) |
 | User | field_declaration | ResetUse | [40](../../magpie/internal/provider/codex_resets_used.go#L40) |
 | At | field_declaration | ResetUse | [41](../../magpie/internal/provider/codex_resets_used.go#L41) |
 | Why | field_declaration | ResetUse | [42](../../magpie/internal/provider/codex_resets_used.go#L42) |
@@ -22,5 +22,7 @@ Source SHA-256: 2bb7e0701fbab7463e5f154513e955521c4e2e277a6428981e9c2d4bd813dd7c
 | resetsUsedPath | function_declaration |  | [55](../../magpie/internal/provider/codex_resets_used.go#L55) |
 | resetsUsedMu | var_spec |  | [60](../../magpie/internal/provider/codex_resets_used.go#L60) |
 | readResetsUsed | function_declaration |  | [64](../../magpie/internal/provider/codex_resets_used.go#L64) |
+| us | var_spec | readResetsUsed | [72](../../magpie/internal/provider/codex_resets_used.go#L72) |
 | noteResetUsed | function_declaration |  | [82](../../magpie/internal/provider/codex_resets_used.go#L82) |
 | ResetsUsed | function_declaration |  | [110](../../magpie/internal/provider/codex_resets_used.go#L110) |
+| out | var_spec | ResetsUsed | [118](../../magpie/internal/provider/codex_resets_used.go#L118) |

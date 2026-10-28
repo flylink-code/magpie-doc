@@ -8,17 +8,17 @@ Source SHA-256: cd27ec7270b93c9cea7a7191851136e18790a235e8be78f22b381275e8a29ce5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WindowHolds | struct_type |  | [22](../../magpie/internal/provider/window_holds.go#L22) |
+| WindowHolds | type_spec |  | [22](../../magpie/internal/provider/window_holds.go#L22) |
 | Tokens | field_declaration | WindowHolds | [23](../../magpie/internal/provider/window_holds.go#L23) |
 | Cost | field_declaration | WindowHolds | [24](../../magpie/internal/provider/window_holds.go#L24) |
 | Priced | field_declaration | WindowHolds | [25](../../magpie/internal/provider/window_holds.go#L25) |
 | Used | field_declaration | WindowHolds | [26](../../magpie/internal/provider/window_holds.go#L26) |
 | Routed | field_declaration | WindowHolds | [27](../../magpie/internal/provider/window_holds.go#L27) |
-| Calls | field_declaration | WindowHolds | [28](../../magpie/internal/provider/window_holds.go#L28) |
-| Tokens | field_declaration | WindowHolds | [29](../../magpie/internal/provider/window_holds.go#L29) |
-| CacheRead | field_declaration | WindowHolds | [30](../../magpie/internal/provider/window_holds.go#L30) |
-| CacheWrite | field_declaration | WindowHolds | [31](../../magpie/internal/provider/window_holds.go#L31) |
-| Cost | field_declaration | WindowHolds | [32](../../magpie/internal/provider/window_holds.go#L32) |
+| Calls | field_declaration | WindowHolds::Routed | [28](../../magpie/internal/provider/window_holds.go#L28) |
+| Tokens | field_declaration | WindowHolds::Routed | [29](../../magpie/internal/provider/window_holds.go#L29) |
+| CacheRead | field_declaration | WindowHolds::Routed | [30](../../magpie/internal/provider/window_holds.go#L30) |
+| CacheWrite | field_declaration | WindowHolds::Routed | [31](../../magpie/internal/provider/window_holds.go#L31) |
+| Cost | field_declaration | WindowHolds::Routed | [32](../../magpie/internal/provider/window_holds.go#L32) |
 | Since | field_declaration | WindowHolds | [34](../../magpie/internal/provider/window_holds.go#L34) |
 | HoldsFloor | const_spec |  | [39](../../magpie/internal/provider/window_holds.go#L39) |
 | HoldsLow | const_spec |  | [44](../../magpie/internal/provider/window_holds.go#L44) |
@@ -26,5 +26,5 @@ Source SHA-256: cd27ec7270b93c9cea7a7191851136e18790a235e8be78f22b381275e8a29ce5
 | HoldsBeforeLog | const_spec |  | [46](../../magpie/internal/provider/window_holds.go#L46) |
 | HoldsNoneRouted | const_spec |  | [47](../../magpie/internal/provider/window_holds.go#L47) |
 | HoldsCredits | const_spec |  | [48](../../magpie/internal/provider/window_holds.go#L48) |
-| Bounds | method_declaration | QuotaWindow | [54](../../magpie/internal/provider/window_holds.go#L54) |
-| Counts | method_declaration | QuotaWindow | [75](../../magpie/internal/provider/window_holds.go#L75) |
+| Bounds | method_declaration |  | [54](../../magpie/internal/provider/window_holds.go#L54) |
+| Counts | method_declaration |  | [75](../../magpie/internal/provider/window_holds.go#L75) |

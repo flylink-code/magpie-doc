@@ -8,6 +8,18 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| claudeUsageEntry | type_spec |  | [643](../../magpie/internal/provider/subscription_usage.go#L643) |
+| at | field_declaration | claudeUsageEntry | [644](../../magpie/internal/provider/subscription_usage.go#L644) |
+| ws | field_declaration | claudeUsageEntry | [645](../../magpie/internal/provider/subscription_usage.go#L645) |
+| heard | field_declaration | claudeUsageEntry | [646](../../magpie/internal/provider/subscription_usage.go#L646) |
+| heardSeq | field_declaration | claudeUsageEntry | [647](../../magpie/internal/provider/subscription_usage.go#L647) |
+| tried | field_declaration | claudeUsageEntry | [648](../../magpie/internal/provider/subscription_usage.go#L648) |
+| asked | field_declaration | claudeUsageEntry | [649](../../magpie/internal/provider/subscription_usage.go#L649) |
+| wait | field_declaration | claudeUsageEntry | [650](../../magpie/internal/provider/subscription_usage.go#L650) |
+| err | field_declaration | claudeUsageEntry | [651](../../magpie/internal/provider/subscription_usage.go#L651) |
+| whole | field_declaration | claudeUsageEntry | [652](../../magpie/internal/provider/subscription_usage.go#L652) |
+| windows | method_declaration |  | [656](../../magpie/internal/provider/subscription_usage.go#L656) |
+| claudeAskFloor | const_spec |  | [671](../../magpie/internal/provider/subscription_usage.go#L671) |
 | claudeUsageWaitMin | const_spec |  | [672](../../magpie/internal/provider/subscription_usage.go#L672) |
 | claudeUsageWaitMax | const_spec |  | [673](../../magpie/internal/provider/subscription_usage.go#L673) |
 | claudeUsageWait | var_spec |  | [679](../../magpie/internal/provider/subscription_usage.go#L679) |
@@ -18,6 +30,8 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | AskClaudeUsage | function_declaration |  | [731](../../magpie/internal/provider/subscription_usage.go#L731) |
 | AskUsage | function_declaration |  | [748](../../magpie/internal/provider/subscription_usage.go#L748) |
 | claudeWindows | function_declaration |  | [773](../../magpie/internal/provider/subscription_usage.go#L773) |
+| ws | var_spec | claudeWindows | [826](../../magpie/internal/provider/subscription_usage.go#L826) |
+| err | var_spec | claudeWindows | [827](../../magpie/internal/provider/subscription_usage.go#L827) |
 | errClaudeNotAsked | var_spec |  | [869](../../magpie/internal/provider/subscription_usage.go#L869) |
 | errClaudeSaved | var_spec |  | [870](../../magpie/internal/provider/subscription_usage.go#L870) |
 | savedRefresh | function_declaration |  | [878](../../magpie/internal/provider/subscription_usage.go#L878) |
@@ -25,42 +39,48 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | claudeScopeModel | function_declaration |  | [899](../../magpie/internal/provider/subscription_usage.go#L899) |
 | codexSubscriptionUsage | function_declaration |  | [903](../../magpie/internal/provider/subscription_usage.go#L903) |
 | codexUntil | function_declaration |  | [930](../../magpie/internal/provider/subscription_usage.go#L930) |
+| a | var_spec | codexUntil | [931](../../magpie/internal/provider/subscription_usage.go#L931) |
 | codexWindows | function_declaration |  | [948](../../magpie/internal/provider/subscription_usage.go#L948) |
+| data | var_spec | codexWindows | [949](../../magpie/internal/provider/subscription_usage.go#L949) |
 | codexGoesOnCredits | function_declaration |  | [981](../../magpie/internal/provider/subscription_usage.go#L981) |
-| codexUsage | struct_type |  | [997](../../magpie/internal/provider/subscription_usage.go#L997) |
+| codexUsage | type_spec |  | [997](../../magpie/internal/provider/subscription_usage.go#L997) |
 | PlanType | field_declaration | codexUsage | [998](../../magpie/internal/provider/subscription_usage.go#L998) |
 | Credits | field_declaration | codexUsage | [1001](../../magpie/internal/provider/subscription_usage.go#L1001) |
-| Has | field_declaration | codexUsage | [1002](../../magpie/internal/provider/subscription_usage.go#L1002) |
-| Unlimited | field_declaration | codexUsage | [1003](../../magpie/internal/provider/subscription_usage.go#L1003) |
-| Balance | field_declaration | codexUsage | [1004](../../magpie/internal/provider/subscription_usage.go#L1004) |
-| OverageReached | field_declaration | codexUsage | [1006](../../magpie/internal/provider/subscription_usage.go#L1006) |
+| Has | field_declaration | codexUsage::Credits | [1002](../../magpie/internal/provider/subscription_usage.go#L1002) |
+| Unlimited | field_declaration | codexUsage::Credits | [1003](../../magpie/internal/provider/subscription_usage.go#L1003) |
+| Balance | field_declaration | codexUsage::Credits | [1004](../../magpie/internal/provider/subscription_usage.go#L1004) |
+| OverageReached | field_declaration | codexUsage::Credits | [1006](../../magpie/internal/provider/subscription_usage.go#L1006) |
 | RateLimit | field_declaration | codexUsage | [1008](../../magpie/internal/provider/subscription_usage.go#L1008) |
-| Allowed | field_declaration | codexUsage | [1011](../../magpie/internal/provider/subscription_usage.go#L1011) |
-| Primary | field_declaration | codexUsage | [1012](../../magpie/internal/provider/subscription_usage.go#L1012) |
-| Secondary | field_declaration | codexUsage | [1013](../../magpie/internal/provider/subscription_usage.go#L1013) |
+| Allowed | field_declaration | codexUsage::RateLimit | [1011](../../magpie/internal/provider/subscription_usage.go#L1011) |
+| Primary | field_declaration | codexUsage::RateLimit | [1012](../../magpie/internal/provider/subscription_usage.go#L1012) |
+| Secondary | field_declaration | codexUsage::RateLimit | [1013](../../magpie/internal/provider/subscription_usage.go#L1013) |
 | SpendControl | field_declaration | codexUsage | [1015](../../magpie/internal/provider/subscription_usage.go#L1015) |
-| Reached | field_declaration | codexUsage | [1016](../../magpie/internal/provider/subscription_usage.go#L1016) |
+| Reached | field_declaration | codexUsage::SpendControl | [1016](../../magpie/internal/provider/subscription_usage.go#L1016) |
 | ReachedType | field_declaration | codexUsage | [1020](../../magpie/internal/provider/subscription_usage.go#L1020) |
-| Type | field_declaration | codexUsage | [1021](../../magpie/internal/provider/subscription_usage.go#L1021) |
+| Type | field_declaration | codexUsage::ReachedType | [1021](../../magpie/internal/provider/subscription_usage.go#L1021) |
 | Resets | field_declaration | codexUsage | [1023](../../magpie/internal/provider/subscription_usage.go#L1023) |
-| Available | field_declaration | codexUsage | [1024](../../magpie/internal/provider/subscription_usage.go#L1024) |
+| Available | field_declaration | codexUsage::Resets | [1024](../../magpie/internal/provider/subscription_usage.go#L1024) |
 | codexWorkspacePlans | var_spec |  | [1034](../../magpie/internal/provider/subscription_usage.go#L1034) |
 | codexReservePlans | var_spec |  | [1042](../../magpie/internal/provider/subscription_usage.go#L1042) |
 | codexHeld | function_declaration |  | [1068](../../magpie/internal/provider/subscription_usage.go#L1068) |
-| codexWindow | struct_type |  | [1086](../../magpie/internal/provider/subscription_usage.go#L1086) |
+| codexWindow | type_spec |  | [1086](../../magpie/internal/provider/subscription_usage.go#L1086) |
 | UsedPercent | field_declaration | codexWindow | [1087](../../magpie/internal/provider/subscription_usage.go#L1087) |
 | LimitWindowSecs | field_declaration | codexWindow | [1088](../../magpie/internal/provider/subscription_usage.go#L1088) |
 | ResetAt | field_declaration | codexWindow | [1089](../../magpie/internal/provider/subscription_usage.go#L1089) |
 | ResetAfterSecs | field_declaration | codexWindow | [1090](../../magpie/internal/provider/subscription_usage.go#L1090) |
 | quotaDurationName | function_declaration |  | [1093](../../magpie/internal/provider/subscription_usage.go#L1093) |
-| window | method_declaration | codexWindow | [1103](../../magpie/internal/provider/subscription_usage.go#L1103) |
+| window | method_declaration |  | [1103](../../magpie/internal/provider/subscription_usage.go#L1103) |
 | copilotSubscriptionUsage | function_declaration |  | [1113](../../magpie/internal/provider/subscription_usage.go#L1113) |
-| Snapshots | field_declaration | copilotSubscriptionUsage | [1117](../../magpie/internal/provider/subscription_usage.go#L1117) |
-| Reset | field_declaration | copilotSubscriptionUsage | [1118](../../magpie/internal/provider/subscription_usage.go#L1118) |
-| ResetDay | field_declaration | copilotSubscriptionUsage | [1119](../../magpie/internal/provider/subscription_usage.go#L1119) |
+| data | var_spec | copilotSubscriptionUsage | [1115](../../magpie/internal/provider/subscription_usage.go#L1115) |
+| Snapshots | field_declaration | copilotSubscriptionUsage::data | [1117](../../magpie/internal/provider/subscription_usage.go#L1117) |
+| Reset | field_declaration | copilotSubscriptionUsage::data | [1118](../../magpie/internal/provider/subscription_usage.go#L1118) |
+| ResetDay | field_declaration | copilotSubscriptionUsage::data | [1119](../../magpie/internal/provider/subscription_usage.go#L1119) |
+| res | var_spec | copilotSubscriptionUsage | [1128](../../magpie/internal/provider/subscription_usage.go#L1128) |
+| unlimited | var_spec | copilotSubscriptionUsage | [1146](../../magpie/internal/provider/subscription_usage.go#L1146) |
+| resets | var_spec | copilotSubscriptionUsage | [1147](../../magpie/internal/provider/subscription_usage.go#L1147) |
 | id | field_declaration | copilotSubscriptionUsage | [1157](../../magpie/internal/provider/subscription_usage.go#L1157) |
-| name | field_declaration | copilotSubscriptionUsage | [1157](../../magpie/internal/provider/subscription_usage.go#L1157) |
-| copilotQuotaWire | struct_type |  | [1211](../../magpie/internal/provider/subscription_usage.go#L1211) |
+| used | var_spec | copilotSubscriptionUsage | [1188](../../magpie/internal/provider/subscription_usage.go#L1188) |
+| copilotQuotaWire | type_spec |  | [1211](../../magpie/internal/provider/subscription_usage.go#L1211) |
 | Unlimited | field_declaration | copilotQuotaWire | [1212](../../magpie/internal/provider/subscription_usage.go#L1212) |
 | HasQuota | field_declaration | copilotQuotaWire | [1213](../../magpie/internal/provider/subscription_usage.go#L1213) |
 | Entitlement | field_declaration | copilotQuotaWire | [1214](../../magpie/internal/provider/subscription_usage.go#L1214) |
@@ -68,11 +88,11 @@ Source SHA-256: 13ed38d3aaad53bcc5798e1e7e564594fdc3fdb9d0fe4acb54f5aff16d01c4f7
 | Percent | field_declaration | copilotQuotaWire | [1216](../../magpie/internal/provider/subscription_usage.go#L1216) |
 | Overage | field_declaration | copilotQuotaWire | [1217](../../magpie/internal/provider/subscription_usage.go#L1217) |
 | ResetAt | field_declaration | copilotQuotaWire | [1218](../../magpie/internal/provider/subscription_usage.go#L1218) |
-| copilotNumber | struct_type |  | [1223](../../magpie/internal/provider/subscription_usage.go#L1223) |
+| copilotNumber | type_spec |  | [1223](../../magpie/internal/provider/subscription_usage.go#L1223) |
 | n | field_declaration | copilotNumber | [1224](../../magpie/internal/provider/subscription_usage.go#L1224) |
 | ok | field_declaration | copilotNumber | [1225](../../magpie/internal/provider/subscription_usage.go#L1225) |
-| UnmarshalJSON | method_declaration | *copilotNumber | [1228](../../magpie/internal/provider/subscription_usage.go#L1228) |
-| value | method_declaration | copilotNumber | [1236](../../magpie/internal/provider/subscription_usage.go#L1236) |
+| UnmarshalJSON | method_declaration |  | [1228](../../magpie/internal/provider/subscription_usage.go#L1228) |
+| value | method_declaration |  | [1236](../../magpie/internal/provider/subscription_usage.go#L1236) |
 | compactNumber | function_declaration |  | [1238](../../magpie/internal/provider/subscription_usage.go#L1238) |
-| Count | method_declaration | QuotaWindow | [1248](../../magpie/internal/provider/subscription_usage.go#L1248) |
+| Count | method_declaration |  | [1248](../../magpie/internal/provider/subscription_usage.go#L1248) |
 | groupedNumber | function_declaration |  | [1260](../../magpie/internal/provider/subscription_usage.go#L1260) |

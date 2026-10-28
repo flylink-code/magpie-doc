@@ -10,12 +10,15 @@ Source SHA-256: b22ccf09d0155c30aa69a95acc41156c9f26244f5464d2cc29a481401a780d4e
 | --- | --- | --- | ---: |
 | PublicCatalogs | var_spec |  | [18](../../magpie/internal/catalog/public.go#L18) |
 | PublicDrawers | function_declaration |  | [24](../../magpie/internal/catalog/public.go#L24) |
-| Data | field_declaration | PublicDrawers | [51](../../magpie/internal/catalog/public.go#L51) |
-| ID | field_declaration | PublicDrawers | [59](../../magpie/internal/catalog/public.go#L59) |
-| Name | field_declaration | PublicDrawers | [60](../../magpie/internal/catalog/public.go#L60) |
-| Types | field_declaration | PublicDrawers | [61](../../magpie/internal/catalog/public.go#L61) |
-| Out | field_declaration | PublicDrawers | [62](../../magpie/internal/catalog/public.go#L62) |
-| In | field_declaration | PublicDrawers | [63](../../magpie/internal/catalog/public.go#L63) |
-| Release | field_declaration | PublicDrawers | [64](../../magpie/internal/catalog/public.go#L64) |
+| list | var_spec | PublicDrawers | [50](../../magpie/internal/catalog/public.go#L50) |
+| Data | field_declaration | PublicDrawers::list | [51](../../magpie/internal/catalog/public.go#L51) |
+| out | var_spec | PublicDrawers | [56](../../magpie/internal/catalog/public.go#L56) |
+| m | var_spec | PublicDrawers | [58](../../magpie/internal/catalog/public.go#L58) |
+| ID | field_declaration | PublicDrawers::m | [59](../../magpie/internal/catalog/public.go#L59) |
+| Name | field_declaration | PublicDrawers::m | [60](../../magpie/internal/catalog/public.go#L60) |
+| Types | field_declaration | PublicDrawers::m | [61](../../magpie/internal/catalog/public.go#L61) |
+| Out | field_declaration | PublicDrawers::m | [62](../../magpie/internal/catalog/public.go#L62) |
+| In | field_declaration | PublicDrawers::m | [63](../../magpie/internal/catalog/public.go#L63) |
+| Release | field_declaration | PublicDrawers::m | [64](../../magpie/internal/catalog/public.go#L64) |
 | WithDrawers | function_declaration |  | [87](../../magpie/internal/catalog/public.go#L87) |
 | imageInputOf | function_declaration |  | [96](../../magpie/internal/catalog/public.go#L96) |

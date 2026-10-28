@@ -9,14 +9,18 @@ Source SHA-256: 4885ba932bf470b6d215b22e9ef9f577f465095af05221041c30749b9003c3e6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ExtraBody | type_spec |  | [49](../../magpie/internal/provider/extrabody.go#L49) |
-| UnmarshalJSON | method_declaration | *ExtraBody | [53](../../magpie/internal/provider/extrabody.go#L53) |
+| UnmarshalJSON | method_declaration |  | [53](../../magpie/internal/provider/extrabody.go#L53) |
+| m | var_spec | UnmarshalJSON | [54](../../magpie/internal/provider/extrabody.go#L54) |
 | ExtraBodyReserved | var_spec |  | [67](../../magpie/internal/provider/extrabody.go#L67) |
 | codexOwned | var_spec |  | [73](../../magpie/internal/provider/extrabody.go#L73) |
-| extraBodyTakes | method_declaration | Provider | [77](../../magpie/internal/provider/extrabody.go#L77) |
+| extraBodyTakes | method_declaration |  | [77](../../magpie/internal/provider/extrabody.go#L77) |
 | SessionPlaceholder | const_spec |  | [89](../../magpie/internal/provider/extrabody.go#L89) |
 | extraName | function_declaration |  | [92](../../magpie/internal/provider/extrabody.go#L92) |
 | ExtraBodyOK | function_declaration |  | [98](../../magpie/internal/provider/extrabody.go#L98) |
 | cleanExtraBody | function_declaration |  | [119](../../magpie/internal/provider/extrabody.go#L119) |
-| WithExtraBody | method_declaration | Provider | [144](../../magpie/internal/provider/extrabody.go#L144) |
+| WithExtraBody | method_declaration |  | [144](../../magpie/internal/provider/extrabody.go#L144) |
+| m | var_spec | WithExtraBody | [151](../../magpie/internal/provider/extrabody.go#L151) |
+| v | var_spec | WithExtraBody | [166](../../magpie/internal/provider/extrabody.go#L166) |
+| out | var_spec | WithExtraBody | [175](../../magpie/internal/provider/extrabody.go#L175) |
 | withSession | function_declaration |  | [186](../../magpie/internal/provider/extrabody.go#L186) |
-| tested | method_declaration | Provider | [205](../../magpie/internal/provider/extrabody.go#L205) |
+| tested | method_declaration |  | [205](../../magpie/internal/provider/extrabody.go#L205) |

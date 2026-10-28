@@ -12,13 +12,16 @@ Source SHA-256: 62ecb3125a3e87b0cb36e55de8373c0f23686d0ca9b351e17ace14134893c26b
 | isDescriptionKind | function_declaration |  | [14](../../magpie/internal/gateway/session_parent.go#L14) |
 | isSummaryKind | function_declaration |  | [20](../../magpie/internal/gateway/session_parent.go#L20) |
 | isPredictionKind | function_declaration |  | [26](../../magpie/internal/gateway/session_parent.go#L26) |
-| sessionMetadata | struct_type |  | [33](../../magpie/internal/gateway/session_parent.go#L33) |
+| sessionMetadata | type_spec |  | [33](../../magpie/internal/gateway/session_parent.go#L33) |
 | Turn | field_declaration | sessionMetadata | [34](../../magpie/internal/gateway/session_parent.go#L34) |
 | Source | field_declaration | sessionMetadata | [35](../../magpie/internal/gateway/session_parent.go#L35) |
 | Parent | field_declaration | sessionMetadata | [36](../../magpie/internal/gateway/session_parent.go#L36) |
 | Forked | field_declaration | sessionMetadata | [37](../../magpie/internal/gateway/session_parent.go#L37) |
 | Installation | field_declaration | sessionMetadata | [38](../../magpie/internal/gateway/session_parent.go#L38) |
 | requestSessionMetadata | function_declaration |  | [41](../../magpie/internal/gateway/session_parent.go#L41) |
+| metadata | var_spec | requestSessionMetadata | [42](../../magpie/internal/gateway/session_parent.go#L42) |
+| m | var_spec | requestSessionMetadata | [43](../../magpie/internal/gateway/session_parent.go#L43) |
+| text | var_spec | requestSessionMetadata | [51](../../magpie/internal/gateway/session_parent.go#L51) |
 | metadataOf | function_declaration |  | [87](../../magpie/internal/gateway/session_parent.go#L87) |
 | requestCallKind | function_declaration |  | [95](../../magpie/internal/gateway/session_parent.go#L95) |
 | titleParentSession | function_declaration |  | [112](../../magpie/internal/gateway/session_parent.go#L112) |

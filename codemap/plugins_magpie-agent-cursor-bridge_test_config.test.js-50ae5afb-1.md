@@ -4,11 +4,10 @@
 
 [Module](bridge-test.md) · [Source](../../plugins/magpie-agent-cursor-bridge/test/config.test.js) · page 1/1
 
-Source SHA-256: 5f81f25950c8b5b73808624b44618267ce18cb52eca6e111b0538f6822389f0a
+Source SHA-256: 7f0e1cc127f7651d85778f01ecc63f38d0454e2b9f06d768b7295fb660351b19
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| c | VariableDeclaration |  | [8](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L8) |
-| scratchRoot | VariableDeclaration |  | [12](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L12) |
-| out | VariableDeclaration |  | [20](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L20) |
-| gateway | VariableDeclaration |  | [22](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L22) |
+| c | VariableDeclaration |  | [5](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L5) |
+| out | VariableDeclaration |  | [8](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L8) |
+| gateway | VariableDeclaration |  | [10](../../plugins/magpie-agent-cursor-bridge/test/config.test.js#L10) |

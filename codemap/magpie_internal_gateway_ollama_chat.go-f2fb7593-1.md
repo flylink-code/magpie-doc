@@ -8,7 +8,7 @@ Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ollamaMessage | struct_type |  | [30](../../magpie/internal/gateway/ollama_chat.go#L30) |
+| ollamaMessage | type_spec |  | [30](../../magpie/internal/gateway/ollama_chat.go#L30) |
 | Role | field_declaration | ollamaMessage | [31](../../magpie/internal/gateway/ollama_chat.go#L31) |
 | Content | field_declaration | ollamaMessage | [32](../../magpie/internal/gateway/ollama_chat.go#L32) |
 | Thinking | field_declaration | ollamaMessage | [33](../../magpie/internal/gateway/ollama_chat.go#L33) |
@@ -16,13 +16,13 @@ Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
 | ToolCalls | field_declaration | ollamaMessage | [35](../../magpie/internal/gateway/ollama_chat.go#L35) |
 | ToolName | field_declaration | ollamaMessage | [36](../../magpie/internal/gateway/ollama_chat.go#L36) |
 | ToolCallID | field_declaration | ollamaMessage | [37](../../magpie/internal/gateway/ollama_chat.go#L37) |
-| ollamaToolCall | struct_type |  | [42](../../magpie/internal/gateway/ollama_chat.go#L42) |
+| ollamaToolCall | type_spec |  | [42](../../magpie/internal/gateway/ollama_chat.go#L42) |
 | ID | field_declaration | ollamaToolCall | [43](../../magpie/internal/gateway/ollama_chat.go#L43) |
 | Function | field_declaration | ollamaToolCall | [44](../../magpie/internal/gateway/ollama_chat.go#L44) |
-| Index | field_declaration | ollamaToolCall | [45](../../magpie/internal/gateway/ollama_chat.go#L45) |
-| Name | field_declaration | ollamaToolCall | [46](../../magpie/internal/gateway/ollama_chat.go#L46) |
-| Arguments | field_declaration | ollamaToolCall | [47](../../magpie/internal/gateway/ollama_chat.go#L47) |
-| ollamaRequest | struct_type |  | [53](../../magpie/internal/gateway/ollama_chat.go#L53) |
+| Index | field_declaration | ollamaToolCall::Function | [45](../../magpie/internal/gateway/ollama_chat.go#L45) |
+| Name | field_declaration | ollamaToolCall::Function | [46](../../magpie/internal/gateway/ollama_chat.go#L46) |
+| Arguments | field_declaration | ollamaToolCall::Function | [47](../../magpie/internal/gateway/ollama_chat.go#L47) |
+| ollamaRequest | type_spec |  | [53](../../magpie/internal/gateway/ollama_chat.go#L53) |
 | Model | field_declaration | ollamaRequest | [54](../../magpie/internal/gateway/ollama_chat.go#L54) |
 | Messages | field_declaration | ollamaRequest | [55](../../magpie/internal/gateway/ollama_chat.go#L55) |
 | Prompt | field_declaration | ollamaRequest | [56](../../magpie/internal/gateway/ollama_chat.go#L56) |
@@ -33,16 +33,21 @@ Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
 | Options | field_declaration | ollamaRequest | [61](../../magpie/internal/gateway/ollama_chat.go#L61) |
 | Stream | field_declaration | ollamaRequest | [62](../../magpie/internal/gateway/ollama_chat.go#L62) |
 | Think | field_declaration | ollamaRequest | [63](../../magpie/internal/gateway/ollama_chat.go#L63) |
-| ollamaChat | method_declaration | *Server | [66](../../magpie/internal/gateway/ollama_chat.go#L66) |
+| ollamaChat | method_declaration |  | [66](../../magpie/internal/gateway/ollama_chat.go#L66) |
+| req | var_spec | ollamaChat | [73](../../magpie/internal/gateway/ollama_chat.go#L73) |
 | ollamaChatBody | function_declaration |  | [124](../../magpie/internal/gateway/ollama_chat.go#L124) |
+| msgs | var_spec | ollamaChatBody | [125](../../magpie/internal/gateway/ollama_chat.go#L125) |
+| err | var_spec | ollamaChatBody | [132](../../magpie/internal/gateway/ollama_chat.go#L132) |
+| name | var_spec | ollamaChatBody | [146](../../magpie/internal/gateway/ollama_chat.go#L146) |
 | ollamaMessages | function_declaration |  | [188](../../magpie/internal/gateway/ollama_chat.go#L188) |
-| call | struct_type | ollamaMessages | [189](../../magpie/internal/gateway/ollama_chat.go#L189) |
-| id | field_declaration | ollamaMessages.call | [189](../../magpie/internal/gateway/ollama_chat.go#L189) |
-| name | field_declaration | ollamaMessages.call | [189](../../magpie/internal/gateway/ollama_chat.go#L189) |
+| call | type_spec | ollamaMessages | [189](../../magpie/internal/gateway/ollama_chat.go#L189) |
+| id | field_declaration | ollamaMessages::call | [189](../../magpie/internal/gateway/ollama_chat.go#L189) |
+| open | var_spec | ollamaMessages | [190](../../magpie/internal/gateway/ollama_chat.go#L190) |
+| str | var_spec | ollamaMessages | [213](../../magpie/internal/gateway/ollama_chat.go#L213) |
 | ollamaContent | function_declaration |  | [265](../../magpie/internal/gateway/ollama_chat.go#L265) |
 | ollamaImageType | function_declaration |  | [285](../../magpie/internal/gateway/ollama_chat.go#L285) |
 | ollamaNow | function_declaration |  | [297](../../magpie/internal/gateway/ollama_chat.go#L297) |
-| ollamaWriter | struct_type |  | [302](../../magpie/internal/gateway/ollama_chat.go#L302) |
+| ollamaWriter | type_spec |  | [302](../../magpie/internal/gateway/ollama_chat.go#L302) |
 | w | field_declaration | ollamaWriter | [303](../../magpie/internal/gateway/ollama_chat.go#L303) |
 | header | field_declaration | ollamaWriter | [304](../../magpie/internal/gateway/ollama_chat.go#L304) |
 | model | field_declaration | ollamaWriter | [305](../../magpie/internal/gateway/ollama_chat.go#L305) |
@@ -56,21 +61,21 @@ Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
 | started | field_declaration | ollamaWriter | [314](../../magpie/internal/gateway/ollama_chat.go#L314) |
 | done | field_declaration | ollamaWriter | [315](../../magpie/internal/gateway/ollama_chat.go#L315) |
 | content | field_declaration | ollamaWriter | [317](../../magpie/internal/gateway/ollama_chat.go#L317) |
-| thinking | field_declaration | ollamaWriter | [317](../../magpie/internal/gateway/ollama_chat.go#L317) |
 | calls | field_declaration | ollamaWriter | [318](../../magpie/internal/gateway/ollama_chat.go#L318) |
 | args | field_declaration | ollamaWriter | [319](../../magpie/internal/gateway/ollama_chat.go#L319) |
 | finishReason | field_declaration | ollamaWriter | [320](../../magpie/internal/gateway/ollama_chat.go#L320) |
 | promptTokens | field_declaration | ollamaWriter | [321](../../magpie/internal/gateway/ollama_chat.go#L321) |
 | outputTokens | field_declaration | ollamaWriter | [322](../../magpie/internal/gateway/ollama_chat.go#L322) |
 | firstToken | field_declaration | ollamaWriter | [323](../../magpie/internal/gateway/ollama_chat.go#L323) |
-| Header | method_declaration | *ollamaWriter | [326](../../magpie/internal/gateway/ollama_chat.go#L326) |
-| Unwrap | method_declaration | *ollamaWriter | [328](../../magpie/internal/gateway/ollama_chat.go#L328) |
-| WriteHeader | method_declaration | *ollamaWriter | [330](../../magpie/internal/gateway/ollama_chat.go#L330) |
-| Write | method_declaration | *ollamaWriter | [345](../../magpie/internal/gateway/ollama_chat.go#L345) |
-| Flush | method_declaration | *ollamaWriter | [365](../../magpie/internal/gateway/ollama_chat.go#L365) |
-| sseLine | method_declaration | *ollamaWriter | [372](../../magpie/internal/gateway/ollama_chat.go#L372) |
-| chunk | method_declaration | *ollamaWriter | [395](../../magpie/internal/gateway/ollama_chat.go#L395) |
-| part | method_declaration | *ollamaWriter | [449](../../magpie/internal/gateway/ollama_chat.go#L449) |
-| toolCalls | method_declaration | *ollamaWriter | [488](../../magpie/internal/gateway/ollama_chat.go#L488) |
-| line | method_declaration | *ollamaWriter | [516](../../magpie/internal/gateway/ollama_chat.go#L516) |
-| finish | method_declaration | *ollamaWriter | [528](../../magpie/internal/gateway/ollama_chat.go#L528) |
+| Header | method_declaration |  | [326](../../magpie/internal/gateway/ollama_chat.go#L326) |
+| Unwrap | method_declaration |  | [328](../../magpie/internal/gateway/ollama_chat.go#L328) |
+| WriteHeader | method_declaration |  | [330](../../magpie/internal/gateway/ollama_chat.go#L330) |
+| Write | method_declaration |  | [345](../../magpie/internal/gateway/ollama_chat.go#L345) |
+| Flush | method_declaration |  | [365](../../magpie/internal/gateway/ollama_chat.go#L365) |
+| sseLine | method_declaration |  | [372](../../magpie/internal/gateway/ollama_chat.go#L372) |
+| chunk | method_declaration |  | [395](../../magpie/internal/gateway/ollama_chat.go#L395) |
+| part | method_declaration |  | [449](../../magpie/internal/gateway/ollama_chat.go#L449) |
+| toolCalls | method_declaration |  | [488](../../magpie/internal/gateway/ollama_chat.go#L488) |
+| out | var_spec | toolCalls | [489](../../magpie/internal/gateway/ollama_chat.go#L489) |
+| line | method_declaration |  | [516](../../magpie/internal/gateway/ollama_chat.go#L516) |
+| finish | method_declaration |  | [528](../../magpie/internal/gateway/ollama_chat.go#L528) |

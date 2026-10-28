@@ -8,5 +8,5 @@ Source SHA-256: d9330d2db31a7751c72f5f17690dcfaf9f86bbd7940d9db0c25eb3e791c8120f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TintTitleBar | method_declaration | *host | [9](../../magpie/internal/gui/titletint_other.go#L9) |
+| TintTitleBar | method_declaration |  | [9](../../magpie/internal/gui/titletint_other.go#L9) |
 | windowChrome | function_declaration |  | [11](../../magpie/internal/gui/titletint_other.go#L11) |

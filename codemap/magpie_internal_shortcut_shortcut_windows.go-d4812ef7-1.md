@@ -15,3 +15,4 @@ Source SHA-256: 524b3cb19fec38bdf324a2100034e9bdd6c8cf151e0ec1fb75388e27a3805b24
 | writeShortcut | function_declaration |  | [46](../../magpie/internal/shortcut/shortcut_windows.go#L46) |
 | programs | function_declaration |  | [49](../../magpie/internal/shortcut/shortcut_windows.go#L49) |
 | write | function_declaration |  | [64](../../magpie/internal/shortcut/shortcut_windows.go#L64) |
+| oe | var_spec | write | [69](../../magpie/internal/shortcut/shortcut_windows.go#L69) |

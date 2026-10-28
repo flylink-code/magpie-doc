@@ -8,5 +8,5 @@ Source SHA-256: 5ec247b3ca07bf109dc9dc349c6f13bfaa6bf838c6096825ffd79ebd0937eefe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SkipsRedaction | method_declaration | Provider | [10](../../magpie/internal/provider/unredacted.go#L10) |
+| SkipsRedaction | method_declaration |  | [10](../../magpie/internal/provider/unredacted.go#L10) |
 | LocalAddresses | function_declaration |  | [20](../../magpie/internal/provider/unredacted.go#L20) |

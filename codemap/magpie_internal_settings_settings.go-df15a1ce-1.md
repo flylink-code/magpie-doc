@@ -9,7 +9,7 @@ Source SHA-256: f0078ddd000a8018862f4d92ccae51c1c1f7273810a82c156cd8436395afd3d6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CodexAutoReviewSession | const_spec |  | [40](../../magpie/internal/settings/settings.go#L40) |
-| Settings | struct_type |  | [43](../../magpie/internal/settings/settings.go#L43) |
+| Settings | type_spec |  | [43](../../magpie/internal/settings/settings.go#L43) |
 | Theme | field_declaration | Settings | [44](../../magpie/internal/settings/settings.go#L44) |
 | Colorblind | field_declaration | Settings | [48](../../magpie/internal/settings/settings.go#L48) |
 | Lang | field_declaration | Settings | [49](../../magpie/internal/settings/settings.go#L49) |

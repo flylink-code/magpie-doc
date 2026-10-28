@@ -10,28 +10,29 @@ Source SHA-256: e798c741221837f3d475be9f8c6e265b942bf427ff58cc484c675a6b8378700b
 | --- | --- | --- | ---: |
 | stallAfter | var_spec |  | [21](../../magpie/internal/davsync/stall.go#L21) |
 | metaLimit | var_spec |  | [22](../../magpie/internal/davsync/stall.go#L22) |
-| errStalled | struct_type |  | [26](../../magpie/internal/davsync/stall.go#L26) |
+| errStalled | type_spec |  | [26](../../magpie/internal/davsync/stall.go#L26) |
 | method | field_declaration | errStalled | [27](../../magpie/internal/davsync/stall.go#L27) |
 | after | field_declaration | errStalled | [28](../../magpie/internal/davsync/stall.go#L28) |
 | idle | field_declaration | errStalled | [29](../../magpie/internal/davsync/stall.go#L29) |
-| Error | method_declaration | *errStalled | [32](../../magpie/internal/davsync/stall.go#L32) |
+| Error | method_declaration |  | [32](../../magpie/internal/davsync/stall.go#L32) |
 | syncClient | var_spec |  | [40](../../magpie/internal/davsync/stall.go#L40) |
-| stallTransport | struct_type |  | [44](../../magpie/internal/davsync/stall.go#L44) |
+| stallTransport | type_spec |  | [44](../../magpie/internal/davsync/stall.go#L44) |
 | base | field_declaration | stallTransport | [44](../../magpie/internal/davsync/stall.go#L44) |
-| RoundTrip | method_declaration | stallTransport | [46](../../magpie/internal/davsync/stall.go#L46) |
+| RoundTrip | method_declaration |  | [46](../../magpie/internal/davsync/stall.go#L46) |
 | cause | function_declaration |  | [73](../../magpie/internal/davsync/stall.go#L73) |
-| watch | struct_type |  | [81](../../magpie/internal/davsync/stall.go#L81) |
+| s | var_spec | cause | [74](../../magpie/internal/davsync/stall.go#L74) |
+| watch | type_spec |  | [81](../../magpie/internal/davsync/stall.go#L81) |
 | mu | field_declaration | watch | [82](../../magpie/internal/davsync/stall.go#L82) |
 | timer | field_declaration | watch | [83](../../magpie/internal/davsync/stall.go#L83) |
 | after | field_declaration | watch | [84](../../magpie/internal/davsync/stall.go#L84) |
 | moving | field_declaration | watch | [85](../../magpie/internal/davsync/stall.go#L85) |
 | start | field_declaration | watch | [86](../../magpie/internal/davsync/stall.go#L86) |
-| allSent | method_declaration | *watch | [94](../../magpie/internal/davsync/stall.go#L94) |
-| moved | method_declaration | *watch | [104](../../magpie/internal/davsync/stall.go#L104) |
-| watched | struct_type |  | [114](../../magpie/internal/davsync/stall.go#L114) |
+| allSent | method_declaration |  | [94](../../magpie/internal/davsync/stall.go#L94) |
+| moved | method_declaration |  | [104](../../magpie/internal/davsync/stall.go#L104) |
+| watched | type_spec |  | [114](../../magpie/internal/davsync/stall.go#L114) |
 | w | field_declaration | watched | [116](../../magpie/internal/davsync/stall.go#L116) |
 | ctx | field_declaration | watched | [117](../../magpie/internal/davsync/stall.go#L117) |
 | done | field_declaration | watched | [118](../../magpie/internal/davsync/stall.go#L118) |
 | once | field_declaration | watched | [119](../../magpie/internal/davsync/stall.go#L119) |
-| Read | method_declaration | *watched | [122](../../magpie/internal/davsync/stall.go#L122) |
-| Close | method_declaration | *watched | [136](../../magpie/internal/davsync/stall.go#L136) |
+| Read | method_declaration |  | [122](../../magpie/internal/davsync/stall.go#L122) |
+| Close | method_declaration |  | [136](../../magpie/internal/davsync/stall.go#L136) |

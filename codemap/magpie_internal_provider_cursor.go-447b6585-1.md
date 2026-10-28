@@ -12,13 +12,15 @@ Source SHA-256: 71cfe3fd7325e213f57a0df47fa22485e20b853a31de936a2925d779ac5c8c1c
 | isCursorAgent | function_declaration |  | [54](../../magpie/internal/provider/cursor.go#L54) |
 | cursorStatus | var_spec |  | [59](../../magpie/internal/provider/cursor.go#L59) |
 | cursorSignInMark | function_declaration |  | [65](../../magpie/internal/provider/cursor.go#L65) |
-| AuthInfo | field_declaration | cursorSignInMark | [75](../../magpie/internal/provider/cursor.go#L75) |
+| c | var_spec | cursorSignInMark | [74](../../magpie/internal/provider/cursor.go#L74) |
+| AuthInfo | field_declaration | cursorSignInMark::c | [75](../../magpie/internal/provider/cursor.go#L75) |
 | cursorIdentity | function_declaration |  | [84](../../magpie/internal/provider/cursor.go#L84) |
 | forgetCursorStatus | function_declaration |  | [92](../../magpie/internal/provider/cursor.go#L92) |
 | askCursorStatus | function_declaration |  | [103](../../magpie/internal/provider/cursor.go#L103) |
 | parseCursorAbout | function_declaration |  | [129](../../magpie/internal/provider/cursor.go#L129) |
-| SubscriptionTier | field_declaration | parseCursorAbout | [135](../../magpie/internal/provider/cursor.go#L135) |
-| UserEmail | field_declaration | parseCursorAbout | [136](../../magpie/internal/provider/cursor.go#L136) |
+| about | var_spec | parseCursorAbout | [134](../../magpie/internal/provider/cursor.go#L134) |
+| SubscriptionTier | field_declaration | parseCursorAbout::about | [135](../../magpie/internal/provider/cursor.go#L135) |
+| UserEmail | field_declaration | parseCursorAbout::about | [136](../../magpie/internal/provider/cursor.go#L136) |
 | cursorSignedOut | var_spec |  | [146](../../magpie/internal/provider/cursor.go#L146) |
 | ansi | var_spec |  | [148](../../magpie/internal/provider/cursor.go#L148) |
 | cursorDefaultContext | const_spec |  | [152](../../magpie/internal/provider/cursor.go#L152) |
@@ -29,8 +31,12 @@ Source SHA-256: 71cfe3fd7325e213f57a0df47fa22485e20b853a31de936a2925d779ac5c8c1c
 | cursorLoginURL | var_spec |  | [200](../../magpie/internal/provider/cursor.go#L200) |
 | cursorAuthFile | function_declaration |  | [203](../../magpie/internal/provider/cursor.go#L203) |
 | cursorTok | var_spec |  | [227](../../magpie/internal/provider/cursor.go#L227) |
+| tok | field_declaration | cursorTok | [229](../../magpie/internal/provider/cursor.go#L229) |
+| at | field_declaration | cursorTok | [230](../../magpie/internal/provider/cursor.go#L230) |
+| ask | field_declaration | cursorTok | [231](../../magpie/internal/provider/cursor.go#L231) |
 | cursorTokenTTL | const_spec |  | [237](../../magpie/internal/provider/cursor.go#L237) |
 | cursorKeychainToken | function_declaration |  | [241](../../magpie/internal/provider/cursor.go#L241) |
 | readCursorToken | function_declaration |  | [269](../../magpie/internal/provider/cursor.go#L269) |
 | cursorTokenOf | function_declaration |  | [272](../../magpie/internal/provider/cursor.go#L272) |
-| AccessToken | field_declaration | cursorTokenOf | [286](../../magpie/internal/provider/cursor.go#L286) |
+| a | var_spec | cursorTokenOf | [285](../../magpie/internal/provider/cursor.go#L285) |
+| AccessToken | field_declaration | cursorTokenOf::a | [286](../../magpie/internal/provider/cursor.go#L286) |

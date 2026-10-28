@@ -17,11 +17,20 @@ Source SHA-256: 2381ba6296855db397d8a1af0af3933153e5624655389a11691cb35887fb7f9e
 | astrbot | function_declaration |  | [111](../../magpie/internal/agent/astrbot.go#L111) |
 | astrbotAt | function_declaration |  | [113](../../magpie/internal/agent/astrbot.go#L113) |
 | astrbotOwn | function_declaration |  | [313](../../magpie/internal/agent/astrbot.go#L313) |
+| out | var_spec | astrbotOwn | [314](../../magpie/internal/agent/astrbot.go#L314) |
 | astrbotWired | function_declaration |  | [343](../../magpie/internal/agent/astrbot.go#L343) |
+| wantSource | var_spec | astrbotWired | [344](../../magpie/internal/agent/astrbot.go#L344) |
+| wantModels | var_spec | astrbotWired | [345](../../magpie/internal/agent/astrbot.go#L345) |
+| err | var_spec | astrbotWired | [352](../../magpie/internal/agent/astrbot.go#L352) |
 | astrbotSourceOwned | var_spec |  | [366](../../magpie/internal/agent/astrbot.go#L366) |
 | astrbotModelOwned | var_spec |  | [367](../../magpie/internal/agent/astrbot.go#L367) |
 | astrbotKeep | function_declaration |  | [373](../../magpie/internal/agent/astrbot.go#L373) |
+| m | var_spec | astrbotKeep | [376](../../magpie/internal/agent/astrbot.go#L376) |
+| out | var_spec | astrbotKeep | [381](../../magpie/internal/agent/astrbot.go#L381) |
 | astrbotList | function_declaration |  | [400](../../magpie/internal/agent/astrbot.go#L400) |
+| items | var_spec | astrbotList | [418](../../magpie/internal/agent/astrbot.go#L418) |
+| b | var_spec | astrbotList | [425](../../magpie/internal/agent/astrbot.go#L425) |
+| was | var_spec | astrbotList | [441](../../magpie/internal/agent/astrbot.go#L441) |
 | astrbotSourceJSON | function_declaration |  | [454](../../magpie/internal/agent/astrbot.go#L454) |
 | astrbotModelJSON | function_declaration |  | [475](../../magpie/internal/agent/astrbot.go#L475) |
 | noticeAstrbot | var_spec |  | [493](../../magpie/internal/agent/astrbot.go#L493) |

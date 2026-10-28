@@ -8,6 +8,6 @@ Source SHA-256: cc7022d2b23140f2a409a9f366d79ec009146156225b0e34ff9e62f9335025c5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Settings | struct_type |  | [17](../../magpie/plugins/gateway/gateway.go#L17) |
+| Settings | type_spec |  | [17](../../magpie/plugins/gateway/gateway.go#L17) |
 | CallsPage | field_declaration | Settings | [18](../../magpie/plugins/gateway/gateway.go#L18) |
 | init | function_declaration |  | [21](../../magpie/plugins/gateway/gateway.go#L21) |

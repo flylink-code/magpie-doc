@@ -8,19 +8,20 @@ Source SHA-256: 904c860b1bf66b60399a988f6af74cdebf0a1e93ee9d17fb850f1b3369359e04
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| systemd | struct_type |  | [15](../../magpie/internal/daemon/systemd.go#L15) |
+| systemd | type_spec |  | [15](../../magpie/internal/daemon/systemd.go#L15) |
 | unit | const_spec |  | [17](../../magpie/internal/daemon/systemd.go#L17) |
-| file | method_declaration | systemd | [19](../../magpie/internal/daemon/systemd.go#L19) |
-| logs | method_declaration | systemd | [28](../../magpie/internal/daemon/systemd.go#L28) |
+| file | method_declaration |  | [19](../../magpie/internal/daemon/systemd.go#L19) |
+| logs | method_declaration |  | [28](../../magpie/internal/daemon/systemd.go#L28) |
 | unitText | function_declaration |  | [31](../../magpie/internal/daemon/systemd.go#L31) |
+| b | var_spec | unitText | [32](../../magpie/internal/daemon/systemd.go#L32) |
 | unitQuote | function_declaration |  | [55](../../magpie/internal/daemon/systemd.go#L55) |
-| install | method_declaration | systemd | [60](../../magpie/internal/daemon/systemd.go#L60) |
-| uninstall | method_declaration | systemd | [81](../../magpie/internal/daemon/systemd.go#L81) |
-| start | method_declaration | systemd | [98](../../magpie/internal/daemon/systemd.go#L98) |
-| stop | method_declaration | systemd | [99](../../magpie/internal/daemon/systemd.go#L99) |
-| restart | method_declaration | systemd | [100](../../magpie/internal/daemon/systemd.go#L100) |
-| status | method_declaration | systemd | [102](../../magpie/internal/daemon/systemd.go#L102) |
-| reachable | method_declaration | systemd | [140](../../magpie/internal/daemon/systemd.go#L140) |
+| install | method_declaration |  | [60](../../magpie/internal/daemon/systemd.go#L60) |
+| uninstall | method_declaration |  | [81](../../magpie/internal/daemon/systemd.go#L81) |
+| start | method_declaration |  | [98](../../magpie/internal/daemon/systemd.go#L98) |
+| stop | method_declaration |  | [99](../../magpie/internal/daemon/systemd.go#L99) |
+| restart | method_declaration |  | [100](../../magpie/internal/daemon/systemd.go#L100) |
+| status | method_declaration |  | [102](../../magpie/internal/daemon/systemd.go#L102) |
+| reachable | method_declaration |  | [140](../../magpie/internal/daemon/systemd.go#L140) |
 | wsl | function_declaration |  | [161](../../magpie/internal/daemon/systemd.go#L161) |
 | lingerAdvice | function_declaration |  | [170](../../magpie/internal/daemon/systemd.go#L170) |
 | Linger | function_declaration |  | [186](../../magpie/internal/daemon/systemd.go#L186) |

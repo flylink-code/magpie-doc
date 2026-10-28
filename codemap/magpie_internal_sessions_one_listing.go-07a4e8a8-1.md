@@ -9,7 +9,10 @@ Source SHA-256: 1f247579616e934620103ab7acaf209f573d7f715663d658cf8dc36899d25fca
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | held | var_spec |  | [14](../../magpie/internal/sessions/one_listing.go#L14) |
-| heldList | struct_type |  | [21](../../magpie/internal/sessions/one_listing.go#L21) |
+| n | field_declaration | held | [16](../../magpie/internal/sessions/one_listing.go#L16) |
+| since | field_declaration | held | [17](../../magpie/internal/sessions/one_listing.go#L17) |
+| lists | field_declaration | held | [18](../../magpie/internal/sessions/one_listing.go#L18) |
+| heldList | type_spec |  | [21](../../magpie/internal/sessions/one_listing.go#L21) |
 | at | field_declaration | heldList | [22](../../magpie/internal/sessions/one_listing.go#L22) |
 | files | field_declaration | heldList | [23](../../magpie/internal/sessions/one_listing.go#L23) |
 | ready | field_declaration | heldList | [26](../../magpie/internal/sessions/one_listing.go#L26) |

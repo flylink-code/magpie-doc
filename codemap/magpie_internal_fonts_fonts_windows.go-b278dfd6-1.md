@@ -9,11 +9,19 @@ Source SHA-256: fc3535a419598fa80844ff99ff641fdb92b05362680ada17f07b87070439b69d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Available | const_spec |  | [14](../../magpie/internal/fonts/fonts_windows.go#L14) |
-| dwrite | struct_type |  | [18](../../magpie/internal/fonts/fonts_windows.go#L18) |
+| dwrite | type_spec |  | [18](../../magpie/internal/fonts/fonts_windows.go#L18) |
 | vtbl | field_declaration | dwrite | [18](../../magpie/internal/fonts/fonts_windows.go#L18) |
-| call | method_declaration | *dwrite | [21](../../magpie/internal/fonts/fonts_windows.go#L21) |
-| release | method_declaration | *dwrite | [27](../../magpie/internal/fonts/fonts_windows.go#L27) |
+| call | method_declaration |  | [21](../../magpie/internal/fonts/fonts_windows.go#L21) |
+| release | method_declaration |  | [27](../../magpie/internal/fonts/fonts_windows.go#L27) |
 | failed | function_declaration |  | [28](../../magpie/internal/fonts/fonts_windows.go#L28) |
 | installed | function_declaration |  | [30](../../magpie/internal/fonts/fonts_windows.go#L30) |
+| factory | var_spec | installed | [36](../../magpie/internal/fonts/fonts_windows.go#L36) |
+| collection | var_spec | installed | [42](../../magpie/internal/fonts/fonts_windows.go#L42) |
+| faces | var_spec | installed | [48](../../magpie/internal/fonts/fonts_windows.go#L48) |
+| family | var_spec | installed | [50](../../magpie/internal/fonts/fonts_windows.go#L50) |
 | familyFaces | function_declaration |  | [60](../../magpie/internal/fonts/fonts_windows.go#L60) |
+| faces | var_spec | familyFaces | [65](../../magpie/internal/fonts/fonts_windows.go#L65) |
+| font | var_spec | familyFaces | [67](../../magpie/internal/fonts/fonts_windows.go#L67) |
 | fontString | function_declaration |  | [89](../../magpie/internal/fonts/fonts_windows.go#L89) |
+| names | var_spec | fontString | [90](../../magpie/internal/fonts/fonts_windows.go#L90) |
+| index | var_spec | fontString | [99](../../magpie/internal/fonts/fonts_windows.go#L99) |

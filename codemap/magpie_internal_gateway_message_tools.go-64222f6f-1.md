@@ -9,6 +9,8 @@ Source SHA-256: b9abf6b389e7d50c440e5a566841f8b2a0bb92f8686633cbb4a5f802d841c030
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | liftMessageTools | function_declaration |  | [29](../../magpie/internal/gateway/message_tools.go#L29) |
-| Messages | field_declaration | liftMessageTools | [37](../../magpie/internal/gateway/message_tools.go#L37) |
-| Tools | field_declaration | liftMessageTools | [38](../../magpie/internal/gateway/message_tools.go#L38) |
+| v | var_spec | liftMessageTools | [36](../../magpie/internal/gateway/message_tools.go#L36) |
+| Messages | field_declaration | liftMessageTools::v | [37](../../magpie/internal/gateway/message_tools.go#L37) |
+| Tools | field_declaration | liftMessageTools::v | [38](../../magpie/internal/gateway/message_tools.go#L38) |
+| mm | var_spec | liftMessageTools | [69](../../magpie/internal/gateway/message_tools.go#L69) |
 | chatToolKey | function_declaration |  | [90](../../magpie/internal/gateway/message_tools.go#L90) |

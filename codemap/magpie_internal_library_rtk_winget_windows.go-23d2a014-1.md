@@ -9,5 +9,6 @@ Source SHA-256: 76597a4cf04253cb1e38477f495746e8404da6766caa7fd6321d583b90ebf460
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | rtkWingetLocations | function_declaration |  | [14](../../magpie/internal/library/rtk_winget_windows.go#L14) |
+| uninstall | const_spec | rtkWingetLocations | [15](../../magpie/internal/library/rtk_winget_windows.go#L15) |
 | key | field_declaration | rtkWingetLocations | [17](../../magpie/internal/library/rtk_winget_windows.go#L17) |
 | view | field_declaration | rtkWingetLocations | [18](../../magpie/internal/library/rtk_winget_windows.go#L18) |

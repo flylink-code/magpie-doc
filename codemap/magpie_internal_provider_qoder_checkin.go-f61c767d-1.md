@@ -9,20 +9,20 @@ Source SHA-256: 12cc419c4ae87e92065e169bf9573eabd2670c73bc5a0a4975086c4368c72d5d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | qoderCampaignURLs | var_spec |  | [39](../../magpie/internal/provider/qoder_checkin.go#L39) |
-| qoderCampaign | struct_type |  | [46](../../magpie/internal/provider/qoder_checkin.go#L46) |
+| qoderCampaign | type_spec |  | [46](../../magpie/internal/provider/qoder_checkin.go#L46) |
 | ID | field_declaration | qoderCampaign | [47](../../magpie/internal/provider/qoder_checkin.go#L47) |
 | ActionType | field_declaration | qoderCampaign | [48](../../magpie/internal/provider/qoder_checkin.go#L48) |
 | ClaimStatus | field_declaration | qoderCampaign | [49](../../magpie/internal/provider/qoder_checkin.go#L49) |
 | StartAt | field_declaration | qoderCampaign | [50](../../magpie/internal/provider/qoder_checkin.go#L50) |
 | EndAt | field_declaration | qoderCampaign | [51](../../magpie/internal/provider/qoder_checkin.go#L51) |
 | Benefit | field_declaration | qoderCampaign | [52](../../magpie/internal/provider/qoder_checkin.go#L52) |
-| Amount | field_declaration | qoderCampaign | [53](../../magpie/internal/provider/qoder_checkin.go#L53) |
-| qoderClaim | struct_type |  | [57](../../magpie/internal/provider/qoder_checkin.go#L57) |
+| Amount | field_declaration | qoderCampaign::Benefit | [53](../../magpie/internal/provider/qoder_checkin.go#L53) |
+| qoderClaim | type_spec |  | [57](../../magpie/internal/provider/qoder_checkin.go#L57) |
 | Status | field_declaration | qoderClaim | [58](../../magpie/internal/provider/qoder_checkin.go#L58) |
 | Benefit | field_declaration | qoderClaim | [59](../../magpie/internal/provider/qoder_checkin.go#L59) |
-| Amount | field_declaration | qoderClaim | [60](../../magpie/internal/provider/qoder_checkin.go#L60) |
+| Amount | field_declaration | qoderClaim::Benefit | [60](../../magpie/internal/provider/qoder_checkin.go#L60) |
 | Data | field_declaration | qoderClaim | [62](../../magpie/internal/provider/qoder_checkin.go#L62) |
-| qoderCheckinAcct | struct_type |  | [67](../../magpie/internal/provider/qoder_checkin.go#L67) |
+| qoderCheckinAcct | type_spec |  | [67](../../magpie/internal/provider/qoder_checkin.go#L67) |
 | User | field_declaration | qoderCheckinAcct | [68](../../magpie/internal/provider/qoder_checkin.go#L68) |
 | On | field_declaration | qoderCheckinAcct | [69](../../magpie/internal/provider/qoder_checkin.go#L69) |
 | site | field_declaration | qoderCheckinAcct | [70](../../magpie/internal/provider/qoder_checkin.go#L70) |
@@ -33,17 +33,30 @@ Source SHA-256: 12cc419c4ae87e92065e169bf9573eabd2670c73bc5a0a4975086c4368c72d5d
 | qoderCheckinKey | function_declaration |  | [78](../../magpie/internal/provider/qoder_checkin.go#L78) |
 | qoderCheckinMu | var_spec |  | [85](../../magpie/internal/provider/qoder_checkin.go#L85) |
 | newQoderCheckiner | function_declaration |  | [87](../../magpie/internal/provider/qoder_checkin.go#L87) |
+| out | var_spec | newQoderCheckiner | [89](../../magpie/internal/provider/qoder_checkin.go#L89) |
 | qoderCheckin | function_declaration |  | [100](../../magpie/internal/provider/qoder_checkin.go#L100) |
-| Campaigns | field_declaration | qoderCheckin | [102](../../magpie/internal/provider/qoder_checkin.go#L102) |
-| active | method_declaration | qoderCampaign | [163](../../magpie/internal/provider/qoder_checkin.go#L163) |
+| list | var_spec | qoderCheckin | [101](../../magpie/internal/provider/qoder_checkin.go#L101) |
+| Campaigns | field_declaration | qoderCheckin::list | [102](../../magpie/internal/provider/qoder_checkin.go#L102) |
+| daily | var_spec | qoderCheckin | [107](../../magpie/internal/provider/qoder_checkin.go#L107) |
+| credit | var_spec | qoderCheckin | [113](../../magpie/internal/provider/qoder_checkin.go#L113) |
+| until | var_spec | qoderCheckin | [114](../../magpie/internal/provider/qoder_checkin.go#L114) |
+| why | var_spec | qoderCheckin | [116](../../magpie/internal/provider/qoder_checkin.go#L116) |
+| got | var_spec | qoderCheckin | [126](../../magpie/internal/provider/qoder_checkin.go#L126) |
+| active | method_declaration |  | [163](../../magpie/internal/provider/qoder_checkin.go#L163) |
 | qoderWhen | function_declaration |  | [168](../../magpie/internal/provider/qoder_checkin.go#L168) |
 | qoderCall | function_declaration |  | [176](../../magpie/internal/provider/qoder_checkin.go#L176) |
-| Error | field_declaration | qoderCall | [202](../../magpie/internal/provider/qoder_checkin.go#L202) |
-| Message | field_declaration | qoderCall | [203](../../magpie/internal/provider/qoder_checkin.go#L203) |
-| Message | field_declaration | qoderCall | [205](../../magpie/internal/provider/qoder_checkin.go#L205) |
+| rd | var_spec | qoderCall | [177](../../magpie/internal/provider/qoder_checkin.go#L177) |
+| e | var_spec | qoderCall | [201](../../magpie/internal/provider/qoder_checkin.go#L201) |
+| Error | field_declaration | qoderCall::e | [202](../../magpie/internal/provider/qoder_checkin.go#L202) |
+| Message | field_declaration | qoderCall::e::Error | [203](../../magpie/internal/provider/qoder_checkin.go#L203) |
+| Message | field_declaration | qoderCall::e | [205](../../magpie/internal/provider/qoder_checkin.go#L205) |
 | CheckInQoder | function_declaration |  | [219](../../magpie/internal/provider/qoder_checkin.go#L219) |
 | QoderCheckins | function_declaration |  | [225](../../magpie/internal/provider/qoder_checkin.go#L225) |
+| out | var_spec | QoderCheckins | [227](../../magpie/internal/provider/qoder_checkin.go#L227) |
 | HasQoder | function_declaration |  | [243](../../magpie/internal/provider/qoder_checkin.go#L243) |
 | qoderCards | function_declaration |  | [246](../../magpie/internal/provider/qoder_checkin.go#L246) |
+| out | var_spec | qoderCards | [247](../../magpie/internal/provider/qoder_checkin.go#L247) |
 | qoderCheckinAccounts | function_declaration |  | [259](../../magpie/internal/provider/qoder_checkin.go#L259) |
+| out | var_spec | qoderCheckinAccounts | [260](../../magpie/internal/provider/qoder_checkin.go#L260) |
+| body | var_spec | qoderCheckinAccounts | [275](../../magpie/internal/provider/qoder_checkin.go#L275) |
 | KeepQoderCheckedIn | function_declaration |  | [288](../../magpie/internal/provider/qoder_checkin.go#L288) |

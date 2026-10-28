@@ -12,12 +12,15 @@ Source SHA-256: fd867a91a88dc9848d86eac3bd50b26f50ea25a8e3a49d0884b1f4e44fc20544
 | IsPattern | function_declaration |  | [33](../../magpie/internal/provider/groupmatch.go#L33) |
 | compilePattern | function_declaration |  | [42](../../magpie/internal/provider/groupmatch.go#L42) |
 | CleanPatterns | function_declaration |  | [62](../../magpie/internal/provider/groupmatch.go#L62) |
+| out | var_spec | CleanPatterns | [63](../../magpie/internal/provider/groupmatch.go#L63) |
 | PatternMatches | function_declaration |  | [81](../../magpie/internal/provider/groupmatch.go#L81) |
 | matchesIn | function_declaration |  | [90](../../magpie/internal/provider/groupmatch.go#L90) |
+| res | var_spec | matchesIn | [94](../../magpie/internal/provider/groupmatch.go#L94) |
+| out | var_spec | matchesIn | [105](../../magpie/internal/provider/groupmatch.go#L105) |
 | withMatches | function_declaration |  | [119](../../magpie/internal/provider/groupmatch.go#L119) |
 | ownMembers | function_declaration |  | [132](../../magpie/internal/provider/groupmatch.go#L132) |
-| stored | method_declaration | Group | [148](../../magpie/internal/provider/groupmatch.go#L148) |
-| PatternHit | struct_type |  | [159](../../magpie/internal/provider/groupmatch.go#L159) |
+| stored | method_declaration |  | [148](../../magpie/internal/provider/groupmatch.go#L148) |
+| PatternHit | type_spec |  | [159](../../magpie/internal/provider/groupmatch.go#L159) |
 | Pattern | field_declaration | PatternHit | [160](../../magpie/internal/provider/groupmatch.go#L160) |
 | Models | field_declaration | PatternHit | [161](../../magpie/internal/provider/groupmatch.go#L161) |
 | PatternHits | function_declaration |  | [167](../../magpie/internal/provider/groupmatch.go#L167) |

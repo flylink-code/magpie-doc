@@ -11,9 +11,12 @@ Source SHA-256: 890932abad4002a4adf680b45c65e6f14a66e8b312e5e7081021a4d749c7e70b
 | ErrOff | var_spec |  | [18](../../magpie/internal/davsync/restore.go#L18) |
 | SetAuto | function_declaration |  | [22](../../magpie/internal/davsync/restore.go#L22) |
 | Restore | function_declaration |  | [50](../../magpie/internal/davsync/restore.go#L50) |
+| brought | var_spec | Restore | [51](../../magpie/internal/davsync/restore.go#L51) |
 | Upload | function_declaration |  | [126](../../magpie/internal/davsync/restore.go#L126) |
+| nb | var_spec | Upload | [149](../../magpie/internal/davsync/restore.go#L149) |
 | Undo | function_declaration |  | [192](../../magpie/internal/davsync/restore.go#L192) |
-| syncs | method_declaration | Config | [233](../../magpie/internal/davsync/restore.go#L233) |
+| back | var_spec | Undo | [193](../../magpie/internal/davsync/restore.go#L193) |
+| syncs | method_declaration |  | [233](../../magpie/internal/davsync/restore.go#L233) |
 | withKeys | function_declaration |  | [237](../../magpie/internal/davsync/restore.go#L237) |
 | keepHere | function_declaration |  | [241](../../magpie/internal/davsync/restore.go#L241) |
 | isFile | function_declaration |  | [268](../../magpie/internal/davsync/restore.go#L268) |

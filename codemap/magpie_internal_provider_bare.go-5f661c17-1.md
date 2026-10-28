@@ -10,9 +10,10 @@ Source SHA-256: e82f744d07cc768d0379b57923145511abd0a07428b7f6d071efdcd623215e0c
 | --- | --- | --- | ---: |
 | BareModelIDs | function_declaration |  | [27](../../magpie/internal/provider/bare.go#L27) |
 | SetBareModelIDs | function_declaration |  | [32](../../magpie/internal/provider/bare.go#L32) |
-| Bare | struct_type |  | [43](../../magpie/internal/provider/bare.go#L43) |
+| Bare | type_spec |  | [43](../../magpie/internal/provider/bare.go#L43) |
 | ID | field_declaration | Bare | [44](../../magpie/internal/provider/bare.go#L44) |
 | Of | field_declaration | Bare | [45](../../magpie/internal/provider/bare.go#L45) |
 | BareEntries | function_declaration |  | [50](../../magpie/internal/provider/bare.go#L50) |
+| out | var_spec | BareEntries | [58](../../magpie/internal/provider/bare.go#L58) |
 | bareTarget | function_declaration |  | [76](../../magpie/internal/provider/bare.go#L76) |
 | BareEntry | function_declaration |  | [101](../../magpie/internal/provider/bare.go#L101) |

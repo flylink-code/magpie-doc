@@ -11,20 +11,22 @@ Source SHA-256: b84ca5536e39bfc0500b4dd2b4afd80e2ce0a03bd10494add408e59e3a2fa013
 | JevLatest | const_spec |  | [34](../../magpie/internal/provider/decide.go#L34) |
 | BailianDecision | const_spec |  | [38](../../magpie/internal/provider/decide.go#L38) |
 | bailianDecides | function_declaration |  | [44](../../magpie/internal/provider/decide.go#L44) |
-| bailianApart | method_declaration | Provider | [52](../../magpie/internal/provider/decide.go#L52) |
-| ownDecideModels | method_declaration | Provider | [59](../../magpie/internal/provider/decide.go#L59) |
-| Decides | method_declaration | Provider | [75](../../magpie/internal/provider/decide.go#L75) |
-| DecideOnly | method_declaration | Provider | [78](../../magpie/internal/provider/decide.go#L78) |
-| DecidesModel | method_declaration | Provider | [85](../../magpie/internal/provider/decide.go#L85) |
-| isDecision | method_declaration | Provider | [107](../../magpie/internal/provider/decide.go#L107) |
-| pluginMarks | method_declaration | Provider | [119](../../magpie/internal/provider/decide.go#L119) |
-| pluginDecisions | method_declaration | Provider | [130](../../magpie/internal/provider/decide.go#L130) |
+| bailianApart | method_declaration |  | [52](../../magpie/internal/provider/decide.go#L52) |
+| ownDecideModels | method_declaration |  | [59](../../magpie/internal/provider/decide.go#L59) |
+| out | var_spec | ownDecideModels | [60](../../magpie/internal/provider/decide.go#L60) |
+| Decides | method_declaration |  | [75](../../magpie/internal/provider/decide.go#L75) |
+| DecideOnly | method_declaration |  | [78](../../magpie/internal/provider/decide.go#L78) |
+| DecidesModel | method_declaration |  | [85](../../magpie/internal/provider/decide.go#L85) |
+| isDecision | method_declaration |  | [107](../../magpie/internal/provider/decide.go#L107) |
+| pluginMarks | method_declaration |  | [119](../../magpie/internal/provider/decide.go#L119) |
+| pluginDecisions | method_declaration |  | [130](../../magpie/internal/provider/decide.go#L130) |
+| out | var_spec | pluginDecisions | [131](../../magpie/internal/provider/decide.go#L131) |
 | openRouterDecisions | function_declaration |  | [146](../../magpie/internal/provider/decide.go#L146) |
-| listsDecisions | method_declaration | Provider | [156](../../magpie/internal/provider/decide.go#L156) |
-| serverMarksDecisions | method_declaration | Provider | [164](../../magpie/internal/provider/decide.go#L164) |
+| listsDecisions | method_declaration |  | [156](../../magpie/internal/provider/decide.go#L156) |
+| serverMarksDecisions | method_declaration |  | [164](../../magpie/internal/provider/decide.go#L164) |
 | decisionsID | function_declaration |  | [170](../../magpie/internal/provider/decide.go#L170) |
-| DecisionModels | method_declaration | Provider | [175](../../magpie/internal/provider/decide.go#L175) |
-| decideListDue | method_declaration | Provider | [192](../../magpie/internal/provider/decide.go#L192) |
+| DecisionModels | method_declaration |  | [175](../../magpie/internal/provider/decide.go#L175) |
+| decideListDue | method_declaration |  | [192](../../magpie/internal/provider/decide.go#L192) |
 | OpenRouterJev | const_spec |  | [220](../../magpie/internal/provider/decide.go#L220) |
 | CloudflareJev | const_spec |  | [223](../../magpie/internal/provider/decide.go#L223) |
 | CloudflareClefModel | const_spec |  | [224](../../magpie/internal/provider/decide.go#L224) |
@@ -35,59 +37,72 @@ Source SHA-256: b84ca5536e39bfc0500b4dd2b4afd80e2ce0a03bd10494add408e59e3a2fa013
 | ViaVercel | const_spec |  | [249](../../magpie/internal/provider/decide.go#L249) |
 | ViaVercelEval | const_spec |  | [250](../../magpie/internal/provider/decide.go#L250) |
 | ViaCloudflare | const_spec |  | [251](../../magpie/internal/provider/decide.go#L251) |
-| DecideVia | method_declaration | Provider | [257](../../magpie/internal/provider/decide.go#L257) |
-| Jev | method_declaration | Provider | [275](../../magpie/internal/provider/decide.go#L275) |
-| decideModels | method_declaration | Provider | [335](../../magpie/internal/provider/decide.go#L335) |
-| decideFact | struct_type |  | [345](../../magpie/internal/provider/decide.go#L345) |
+| DecideVia | method_declaration |  | [257](../../magpie/internal/provider/decide.go#L257) |
+| Jev | method_declaration |  | [275](../../magpie/internal/provider/decide.go#L275) |
+| jevs | var_spec | Jev | [313](../../magpie/internal/provider/decide.go#L313) |
+| decideModels | method_declaration |  | [335](../../magpie/internal/provider/decide.go#L335) |
+| decideFact | type_spec |  | [345](../../magpie/internal/provider/decide.go#L345) |
 | context | field_declaration | decideFact | [346](../../magpie/internal/provider/decide.go#L346) |
 | images | field_declaration | decideFact | [347](../../magpie/internal/provider/decide.go#L347) |
 | decideFactOf | function_declaration |  | [350](../../magpie/internal/provider/decide.go#L350) |
 | withDecideFacts | function_declaration |  | [366](../../magpie/internal/provider/decide.go#L366) |
-| decideListed | method_declaration | Provider | [384](../../magpie/internal/provider/decide.go#L384) |
-| vercelTypeSafe | method_declaration | Provider | [433](../../magpie/internal/provider/decide.go#L433) |
-| DecideURL | method_declaration | Provider | [447](../../magpie/internal/provider/decide.go#L447) |
-| DecideModelURL | method_declaration | Provider | [469](../../magpie/internal/provider/decide.go#L469) |
-| cloudflareBase | method_declaration | Provider | [483](../../magpie/internal/provider/decide.go#L483) |
+| decideListed | method_declaration |  | [384](../../magpie/internal/provider/decide.go#L384) |
+| out | var_spec | decideListed | [410](../../magpie/internal/provider/decide.go#L410) |
+| vercelTypeSafe | method_declaration |  | [433](../../magpie/internal/provider/decide.go#L433) |
+| DecideURL | method_declaration |  | [447](../../magpie/internal/provider/decide.go#L447) |
+| err | var_spec | DecideURL | [457](../../magpie/internal/provider/decide.go#L457) |
+| DecideModelURL | method_declaration |  | [469](../../magpie/internal/provider/decide.go#L469) |
+| cloudflareBase | method_declaration |  | [483](../../magpie/internal/provider/decide.go#L483) |
 | cfAccounts | var_spec |  | [499](../../magpie/internal/provider/decide.go#L499) |
+| m | field_declaration | cfAccounts | [501](../../magpie/internal/provider/decide.go#L501) |
 | cfNoAccount | const_spec |  | [505](../../magpie/internal/provider/decide.go#L505) |
-| cloudflareAccount | method_declaration | Provider | [509](../../magpie/internal/provider/decide.go#L509) |
-| Result | field_declaration | Provider.cloudflareAccount | [540](../../magpie/internal/provider/decide.go#L540) |
-| ID | field_declaration | Provider.cloudflareAccount | [541](../../magpie/internal/provider/decide.go#L541) |
+| cloudflareAccount | method_declaration |  | [509](../../magpie/internal/provider/decide.go#L509) |
+| out | var_spec | cloudflareAccount | [539](../../magpie/internal/provider/decide.go#L539) |
+| Result | field_declaration | cloudflareAccount::out | [540](../../magpie/internal/provider/decide.go#L540) |
+| ID | field_declaration | cloudflareAccount::out::Result | [541](../../magpie/internal/provider/decide.go#L541) |
 | Deciders | function_declaration |  | [556](../../magpie/internal/provider/decide.go#L556) |
 | OfferedDeciders | function_declaration |  | [569](../../magpie/internal/provider/decide.go#L569) |
 | deciders | function_declaration |  | [578](../../magpie/internal/provider/decide.go#L578) |
+| out | var_spec | deciders | [579](../../magpie/internal/provider/decide.go#L579) |
 | IsDecider | function_declaration |  | [610](../../magpie/internal/provider/decide.go#L610) |
 | RouteDecider | function_declaration |  | [619](../../magpie/internal/provider/decide.go#L619) |
-| hit | struct_type | RouteDecider | [667](../../magpie/internal/provider/decide.go#L667) |
-| p | field_declaration | RouteDecider.hit | [668](../../magpie/internal/provider/decide.go#L668) |
-| m | field_declaration | RouteDecider.hit | [669](../../magpie/internal/provider/decide.go#L669) |
+| on | var_spec | RouteDecider | [624](../../magpie/internal/provider/decide.go#L624) |
+| listed | var_spec | RouteDecider | [651](../../magpie/internal/provider/decide.go#L651) |
+| hit | type_spec | RouteDecider | [667](../../magpie/internal/provider/decide.go#L667) |
+| p | field_declaration | RouteDecider::hit | [668](../../magpie/internal/provider/decide.go#L668) |
+| m | field_declaration | RouteDecider::hit | [669](../../magpie/internal/provider/decide.go#L669) |
+| hits | var_spec | RouteDecider | [671](../../magpie/internal/provider/decide.go#L671) |
 | decideAmbiguous | function_declaration |  | [694](../../magpie/internal/provider/decide.go#L694) |
-| decideRouteError | struct_type |  | [705](../../magpie/internal/provider/decide.go#L705) |
+| decideRouteError | type_spec |  | [705](../../magpie/internal/provider/decide.go#L705) |
 | msg | field_declaration | decideRouteError | [706](../../magpie/internal/provider/decide.go#L706) |
 | status | field_declaration | decideRouteError | [707](../../magpie/internal/provider/decide.go#L707) |
-| Error | method_declaration | *decideRouteError | [710](../../magpie/internal/provider/decide.go#L710) |
+| Error | method_declaration |  | [710](../../magpie/internal/provider/decide.go#L710) |
 | decideBadRequest | function_declaration |  | [712](../../magpie/internal/provider/decide.go#L712) |
 | decideNotFound | function_declaration |  | [716](../../magpie/internal/provider/decide.go#L716) |
 | DecideRouteStatus | function_declaration |  | [723](../../magpie/internal/provider/decide.go#L723) |
+| e | var_spec | DecideRouteStatus | [724](../../magpie/internal/provider/decide.go#L724) |
 | resolveDecideModel | function_declaration |  | [738](../../magpie/internal/provider/decide.go#L738) |
 | deciderByID | function_declaration |  | [758](../../magpie/internal/provider/decide.go#L758) |
-| fetchDecide | method_declaration | Provider | [774](../../magpie/internal/provider/decide.go#L774) |
-| decideAsked | method_declaration | Provider | [904](../../magpie/internal/provider/decide.go#L904) |
-| AskSystemOne | method_declaration | Provider | [920](../../magpie/internal/provider/decide.go#L920) |
-| Answers | field_declaration | Provider.AskSystemOne | [953](../../magpie/internal/provider/decide.go#L953) |
+| fetchDecide | method_declaration |  | [774](../../magpie/internal/provider/decide.go#L774) |
+| decideAsked | method_declaration |  | [904](../../magpie/internal/provider/decide.go#L904) |
+| AskSystemOne | method_declaration |  | [920](../../magpie/internal/provider/decide.go#L920) |
+| out | var_spec | AskSystemOne | [952](../../magpie/internal/provider/decide.go#L952) |
+| Answers | field_declaration | AskSystemOne::out | [953](../../magpie/internal/provider/decide.go#L953) |
 | listedDecide | function_declaration |  | [967](../../magpie/internal/provider/decide.go#L967) |
-| Models | field_declaration | listedDecide | [969](../../magpie/internal/provider/decide.go#L969) |
-| Name | field_declaration | listedDecide | [970](../../magpie/internal/provider/decide.go#L970) |
-| Data | field_declaration | listedDecide | [973](../../magpie/internal/provider/decide.go#L973) |
-| listedFacts | struct_type |  | [1008](../../magpie/internal/provider/decide.go#L1008) |
+| out | var_spec | listedDecide | [968](../../magpie/internal/provider/decide.go#L968) |
+| Models | field_declaration | listedDecide::out | [969](../../magpie/internal/provider/decide.go#L969) |
+| Name | field_declaration | listedDecide::out::Models | [970](../../magpie/internal/provider/decide.go#L970) |
+| Data | field_declaration | listedDecide::out | [973](../../magpie/internal/provider/decide.go#L973) |
+| ms | var_spec | listedDecide | [978](../../magpie/internal/provider/decide.go#L978) |
+| listedFacts | type_spec |  | [1008](../../magpie/internal/provider/decide.go#L1008) |
 | ID | field_declaration | listedFacts | [1009](../../magpie/internal/provider/decide.go#L1009) |
 | ContextLength | field_declaration | listedFacts | [1010](../../magpie/internal/provider/decide.go#L1010) |
 | ContextWindow | field_declaration | listedFacts | [1011](../../magpie/internal/provider/decide.go#L1011) |
 | Architecture | field_declaration | listedFacts | [1012](../../magpie/internal/provider/decide.go#L1012) |
-| InputModalities | field_declaration | listedFacts | [1013](../../magpie/internal/provider/decide.go#L1013) |
+| InputModalities | field_declaration | listedFacts::Architecture | [1013](../../magpie/internal/provider/decide.go#L1013) |
 | Modalities | field_declaration | listedFacts | [1015](../../magpie/internal/provider/decide.go#L1015) |
-| Input | field_declaration | listedFacts | [1016](../../magpie/internal/provider/decide.go#L1016) |
-| model | method_declaration | listedFacts | [1020](../../magpie/internal/provider/decide.go#L1020) |
+| Input | field_declaration | listedFacts::Modalities | [1016](../../magpie/internal/provider/decide.go#L1016) |
+| model | method_declaration |  | [1020](../../magpie/internal/provider/decide.go#L1020) |
 | jevID | function_declaration |  | [1031](../../magpie/internal/provider/decide.go#L1031) |
-| checkKey | method_declaration | Provider | [1046](../../magpie/internal/provider/decide.go#L1046) |
-| testDecide | method_declaration | Provider | [1068](../../magpie/internal/provider/decide.go#L1068) |
+| checkKey | method_declaration |  | [1046](../../magpie/internal/provider/decide.go#L1046) |
+| testDecide | method_declaration |  | [1068](../../magpie/internal/provider/decide.go#L1068) |

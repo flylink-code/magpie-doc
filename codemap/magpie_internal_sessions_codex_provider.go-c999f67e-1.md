@@ -9,7 +9,7 @@ Source SHA-256: bf3a55ff40616b7fa202edc86b83d6dd6111a06dc5b139ec5ababe1eb1be01ae
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | codexProviderRe | var_spec |  | [40](../../magpie/internal/sessions/codex_provider.go#L40) |
-| CodexMove | struct_type |  | [43](../../magpie/internal/sessions/codex_provider.go#L43) |
+| CodexMove | type_spec |  | [43](../../magpie/internal/sessions/codex_provider.go#L43) |
 | ID | field_declaration | CodexMove | [44](../../magpie/internal/sessions/codex_provider.go#L44) |
 | From | field_declaration | CodexMove | [45](../../magpie/internal/sessions/codex_provider.go#L45) |
 | To | field_declaration | CodexMove | [46](../../magpie/internal/sessions/codex_provider.go#L46) |
@@ -18,38 +18,55 @@ Source SHA-256: bf3a55ff40616b7fa202edc86b83d6dd6111a06dc5b139ec5ababe1eb1be01ae
 | DB | field_declaration | CodexMove | [49](../../magpie/internal/sessions/codex_provider.go#L49) |
 | codexMetaProvider | function_declaration |  | [55](../../magpie/internal/sessions/codex_provider.go#L55) |
 | codexHomeOf | function_declaration |  | [79](../../magpie/internal/sessions/codex_provider.go#L79) |
-| codexConfig | struct_type |  | [95](../../magpie/internal/sessions/codex_provider.go#L95) |
+| codexConfig | type_spec |  | [95](../../magpie/internal/sessions/codex_provider.go#L95) |
 | Provider | field_declaration | codexConfig | [96](../../magpie/internal/sessions/codex_provider.go#L96) |
 | Profile | field_declaration | codexConfig | [97](../../magpie/internal/sessions/codex_provider.go#L97) |
 | SQLiteHome | field_declaration | codexConfig | [98](../../magpie/internal/sessions/codex_provider.go#L98) |
 | Profiles | field_declaration | codexConfig | [99](../../magpie/internal/sessions/codex_provider.go#L99) |
-| Provider | field_declaration | codexConfig | [100](../../magpie/internal/sessions/codex_provider.go#L100) |
+| Provider | field_declaration | codexConfig::Profiles | [100](../../magpie/internal/sessions/codex_provider.go#L100) |
 | readCodexConfig | function_declaration |  | [108](../../magpie/internal/sessions/codex_provider.go#L108) |
+| c | var_spec | readCodexConfig | [110](../../magpie/internal/sessions/codex_provider.go#L110) |
 | CodexProviderIn | function_declaration |  | [120](../../magpie/internal/sessions/codex_provider.go#L120) |
 | codexStateDBs | function_declaration |  | [133](../../magpie/internal/sessions/codex_provider.go#L133) |
 | codexProviders | function_declaration |  | [147](../../magpie/internal/sessions/codex_provider.go#L147) |
+| main | var_spec | codexProviders | [156](../../magpie/internal/sessions/codex_provider.go#L156) |
 | MoveCodexProvider | function_declaration |  | [192](../../magpie/internal/sessions/codex_provider.go#L192) |
+| mine | var_spec | MoveCodexProvider | [207](../../magpie/internal/sessions/codex_provider.go#L207) |
+| fs | var_spec | MoveCodexProvider | [214](../../magpie/internal/sessions/codex_provider.go#L214) |
+| paths | var_spec | MoveCodexProvider | [222](../../magpie/internal/sessions/codex_provider.go#L222) |
 | moveCodexPaths | function_declaration |  | [238](../../magpie/internal/sessions/codex_provider.go#L238) |
-| item | struct_type | moveCodexPaths | [256](../../magpie/internal/sessions/codex_provider.go#L256) |
-| From | field_declaration | moveCodexPaths.item | [257](../../magpie/internal/sessions/codex_provider.go#L257) |
-| Name | field_declaration | moveCodexPaths.item | [258](../../magpie/internal/sessions/codex_provider.go#L258) |
+| item | type_spec | moveCodexPaths | [256](../../magpie/internal/sessions/codex_provider.go#L256) |
+| From | field_declaration | moveCodexPaths::item | [257](../../magpie/internal/sessions/codex_provider.go#L257) |
+| Name | field_declaration | moveCodexPaths::item | [258](../../magpie/internal/sessions/codex_provider.go#L258) |
+| items | var_spec | moveCodexPaths | [260](../../magpie/internal/sessions/codex_provider.go#L260) |
 | ID | field_declaration | moveCodexPaths | [270](../../magpie/internal/sessions/codex_provider.go#L270) |
 | From | field_declaration | moveCodexPaths | [271](../../magpie/internal/sessions/codex_provider.go#L271) |
 | To | field_declaration | moveCodexPaths | [272](../../magpie/internal/sessions/codex_provider.go#L272) |
 | At | field_declaration | moveCodexPaths | [273](../../magpie/internal/sessions/codex_provider.go#L273) |
 | Items | field_declaration | moveCodexPaths | [274](../../magpie/internal/sessions/codex_provider.go#L274) |
 | CodexThreadProviders | function_declaration |  | [322](../../magpie/internal/sessions/codex_provider.go#L322) |
+| out | var_spec | CodexThreadProviders | [323](../../magpie/internal/sessions/codex_provider.go#L323) |
+| s | var_spec | CodexThreadProviders | [336](../../magpie/internal/sessions/codex_provider.go#L336) |
 | codexThreadsOn | function_declaration |  | [351](../../magpie/internal/sessions/codex_provider.go#L351) |
+| out | var_spec | codexThreadsOn | [352](../../magpie/internal/sessions/codex_provider.go#L352) |
+| id | var_spec | codexThreadsOn | [365](../../magpie/internal/sessions/codex_provider.go#L365) |
 | MoveCodexThreads | function_declaration |  | [387](../../magpie/internal/sessions/codex_provider.go#L387) |
+| moved | var_spec | MoveCodexThreads | [417](../../magpie/internal/sessions/codex_provider.go#L417) |
+| first | var_spec | MoveCodexThreads | [418](../../magpie/internal/sessions/codex_provider.go#L418) |
 | contains | function_declaration |  | [437](../../magpie/internal/sessions/codex_provider.go#L437) |
 | keptCopy | function_declaration |  | [447](../../magpie/internal/sessions/codex_provider.go#L447) |
 | setMetaProvider | function_declaration |  | [475](../../magpie/internal/sessions/codex_provider.go#L475) |
 | rewriteCodexProvider | function_declaration |  | [492](../../magpie/internal/sessions/codex_provider.go#L492) |
+| w | var_spec | rewriteCodexProvider | [513](../../magpie/internal/sessions/codex_provider.go#L513) |
+| z | var_spec | rewriteCodexProvider | [514](../../magpie/internal/sessions/codex_provider.go#L514) |
 | moveCodexThread | function_declaration |  | [574](../../magpie/internal/sessions/codex_provider.go#L574) |
+| n | var_spec | moveCodexThread | [584](../../magpie/internal/sessions/codex_provider.go#L584) |
 | RelabelCodexThreads | function_declaration |  | [610](../../magpie/internal/sessions/codex_provider.go#L610) |
-| row | struct_type | RelabelCodexThreads | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
-| db | field_declaration | RelabelCodexThreads.row | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
-| id | field_declaration | RelabelCodexThreads.row | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
-| path | field_declaration | RelabelCodexThreads.row | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
+| row | type_spec | RelabelCodexThreads | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
+| db | field_declaration | RelabelCodexThreads::row | [614](../../magpie/internal/sessions/codex_provider.go#L614) |
+| rows | var_spec | RelabelCodexThreads | [615](../../magpie/internal/sessions/codex_provider.go#L615) |
+| id | var_spec | RelabelCodexThreads | [628](../../magpie/internal/sessions/codex_provider.go#L628) |
+| moved | var_spec | RelabelCodexThreads | [645](../../magpie/internal/sessions/codex_provider.go#L645) |
+| first | var_spec | RelabelCodexThreads | [646](../../magpie/internal/sessions/codex_provider.go#L646) |
 | relabelHead | function_declaration |  | [691](../../magpie/internal/sessions/codex_provider.go#L691) |
 | sameDir | function_declaration |  | [739](../../magpie/internal/sessions/codex_provider.go#L739) |

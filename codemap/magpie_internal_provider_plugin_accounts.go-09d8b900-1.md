@@ -12,22 +12,27 @@ Source SHA-256: b6c9b9b4e5e7077762700c49218a06ad922ed54c33ce7154caa26c37eba97431
 | pluginLabels | function_declaration |  | [31](../../magpie/internal/provider/plugin_accounts.go#L31) |
 | pluginNames | function_declaration |  | [63](../../magpie/internal/provider/plugin_accounts.go#L63) |
 | pluginOwnNames | function_declaration |  | [70](../../magpie/internal/provider/plugin_accounts.go#L70) |
-| pluginLogin | struct_type |  | [91](../../magpie/internal/provider/plugin_accounts.go#L91) |
+| pluginLogin | type_spec |  | [91](../../magpie/internal/provider/plugin_accounts.go#L91) |
 | acct | field_declaration | pluginLogin | [93](../../magpie/internal/provider/plugin_accounts.go#L93) |
 | cliMarked | function_declaration |  | [99](../../magpie/internal/provider/plugin_accounts.go#L99) |
 | pluginOwn | function_declaration |  | [107](../../magpie/internal/provider/plugin_accounts.go#L107) |
-| Source | field_declaration | pluginOwn | [119](../../magpie/internal/provider/plugin_accounts.go#L119) |
+| s | var_spec | pluginOwn | [119](../../magpie/internal/provider/plugin_accounts.go#L119) |
+| Source | field_declaration | pluginOwn::s | [119](../../magpie/internal/provider/plugin_accounts.go#L119) |
 | pluginOwnUser | var_spec |  | [129](../../magpie/internal/provider/plugin_accounts.go#L129) |
 | pluginLogins | function_declaration |  | [167](../../magpie/internal/provider/plugin_accounts.go#L167) |
+| out | var_spec | pluginLogins | [217](../../magpie/internal/provider/plugin_accounts.go#L217) |
 | pluginSide | function_declaration |  | [226](../../magpie/internal/provider/plugin_accounts.go#L226) |
+| out | var_spec | pluginSide | [227](../../magpie/internal/provider/plugin_accounts.go#L227) |
 | pluginOfAgent | function_declaration |  | [236](../../magpie/internal/provider/plugin_accounts.go#L236) |
 | pluginLoginList | function_declaration |  | [249](../../magpie/internal/provider/plugin_accounts.go#L249) |
 | switchPluginLogin | function_declaration |  | [251](../../magpie/internal/provider/plugin_accounts.go#L251) |
 | setPluginLoginOn | function_declaration |  | [255](../../magpie/internal/provider/plugin_accounts.go#L255) |
 | forgetPluginLogin | function_declaration |  | [263](../../magpie/internal/provider/plugin_accounts.go#L263) |
+| err | var_spec | forgetPluginLogin | [272](../../magpie/internal/provider/plugin_accounts.go#L272) |
 | firstGoes | function_declaration |  | [314](../../magpie/internal/provider/plugin_accounts.go#L314) |
 | signOutPlugin | function_declaration |  | [316](../../magpie/internal/provider/plugin_accounts.go#L316) |
 | pluginAlsoOn | function_declaration |  | [323](../../magpie/internal/provider/plugin_accounts.go#L323) |
+| out | var_spec | pluginAlsoOn | [324](../../magpie/internal/provider/plugin_accounts.go#L324) |
 | keepPluginPlan | function_declaration |  | [335](../../magpie/internal/provider/plugin_accounts.go#L335) |
 | notePluginLapse | function_declaration |  | [356](../../magpie/internal/provider/plugin_accounts.go#L356) |
 | pluginSignInTold | var_spec |  | [367](../../magpie/internal/provider/plugin_accounts.go#L367) |

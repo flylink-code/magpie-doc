@@ -8,7 +8,15 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| MarketSkill | struct_type |  | [771](../../magpie/internal/library/market.go#L771) |
+| fromRegistry | function_declaration |  | [494](../../magpie/internal/library/market.go#L494) |
+| shortName | function_declaration |  | [619](../../magpie/internal/library/market.go#L619) |
+| lastPart | function_declaration |  | [641](../../magpie/internal/library/market.go#L641) |
+| githubOwner | function_declaration |  | [643](../../magpie/internal/library/market.go#L643) |
+| marketServer | function_declaration |  | [652](../../magpie/internal/library/market.go#L652) |
+| InstallServer | function_declaration |  | [665](../../magpie/internal/library/market.go#L665) |
+| serverIcon | function_declaration |  | [738](../../magpie/internal/library/market.go#L738) |
+| skillIcon | function_declaration |  | [757](../../magpie/internal/library/market.go#L757) |
+| MarketSkill | type_spec |  | [771](../../magpie/internal/library/market.go#L771) |
 | ID | field_declaration | MarketSkill | [772](../../magpie/internal/library/market.go#L772) |
 | Source | field_declaration | MarketSkill | [773](../../magpie/internal/library/market.go#L773) |
 | SkillID | field_declaration | MarketSkill | [774](../../magpie/internal/library/market.go#L774) |
@@ -20,7 +28,7 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 | Description | field_declaration | MarketSkill | [782](../../magpie/internal/library/market.go#L782) |
 | Have | field_declaration | MarketSkill | [783](../../magpie/internal/library/market.go#L783) |
 | featuredSkills | var_spec |  | [791](../../magpie/internal/library/market.go#L791) |
-| skillsShEntry | struct_type |  | [799](../../magpie/internal/library/market.go#L799) |
+| skillsShEntry | type_spec |  | [799](../../magpie/internal/library/market.go#L799) |
 | Source | field_declaration | skillsShEntry | [800](../../magpie/internal/library/market.go#L800) |
 | SkillID | field_declaration | skillsShEntry | [801](../../magpie/internal/library/market.go#L801) |
 | Name | field_declaration | skillsShEntry | [802](../../magpie/internal/library/market.go#L802) |
@@ -30,16 +38,29 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 | skillsSnapshot | var_spec |  | [811](../../magpie/internal/library/market.go#L811) |
 | repoRe | var_spec |  | [813](../../magpie/internal/library/market.go#L813) |
 | popular | var_spec |  | [815](../../magpie/internal/library/market.go#L815) |
+| list | field_declaration | popular | [817](../../magpie/internal/library/market.go#L817) |
+| at | field_declaration | popular | [818](../../magpie/internal/library/market.go#L818) |
 | marketCache | function_declaration |  | [821](../../magpie/internal/library/market.go#L821) |
 | popularSkills | function_declaration |  | [832](../../magpie/internal/library/market.go#L832) |
+| list | var_spec | popularSkills | [847](../../magpie/internal/library/market.go#L847) |
 | fetchPopular | function_declaration |  | [855](../../magpie/internal/library/market.go#L855) |
+| key | const_spec | fetchPopular | [861](../../magpie/internal/library/market.go#L861) |
+| list | var_spec | fetchPopular | [867](../../magpie/internal/library/market.go#L867) |
 | searchSkillsSh | function_declaration |  | [874](../../magpie/internal/library/market.go#L874) |
-| Skills | field_declaration | searchSkillsSh | [876](../../magpie/internal/library/market.go#L876) |
+| body | var_spec | searchSkillsSh | [875](../../magpie/internal/library/market.go#L875) |
+| Skills | field_declaration | searchSkillsSh::body | [876](../../magpie/internal/library/market.go#L876) |
 | MarketSkills | function_declaration |  | [887](../../magpie/internal/library/market.go#L887) |
-| haveSkill | method_declaration | *Library | [950](../../magpie/internal/library/market.go#L950) |
+| list | var_spec | MarketSkills | [889](../../magpie/internal/library/market.go#L889) |
+| err | var_spec | MarketSkills | [890](../../magpie/internal/library/market.go#L890) |
+| found | var_spec | MarketSkills | [903](../../magpie/internal/library/market.go#L903) |
+| haveSkill | method_declaration |  | [950](../../magpie/internal/library/market.go#L950) |
 | abouts | var_spec |  | [968](../../magpie/internal/library/market.go#L968) |
+| m | field_declaration | abouts | [970](../../magpie/internal/library/market.go#L970) |
+| loaded | field_declaration | abouts | [971](../../magpie/internal/library/market.go#L971) |
 | cachedAbout | function_declaration |  | [974](../../magpie/internal/library/market.go#L974) |
 | SkillsAbout | function_declaration |  | [988](../../magpie/internal/library/market.go#L988) |
+| wg | var_spec | SkillsAbout | [991](../../magpie/internal/library/market.go#L991) |
+| mu | var_spec | SkillsAbout | [992](../../magpie/internal/library/market.go#L992) |
 | InstallMarketSkill | function_declaration |  | [1042](../../magpie/internal/library/market.go#L1042) |
 | Icon | function_declaration |  | [1076](../../magpie/internal/library/market.go#L1076) |
 | offered | function_declaration |  | [1100](../../magpie/internal/library/market.go#L1100) |
@@ -47,11 +68,11 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 | client | var_spec |  | [1142](../../magpie/internal/library/market.go#L1142) |
 | registryTimeout | var_spec |  | [1149](../../magpie/internal/library/market.go#L1149) |
 | registryClient | var_spec |  | [1153](../../magpie/internal/library/market.go#L1153) |
-| SearchError | struct_type |  | [1157](../../magpie/internal/library/market.go#L1157) |
+| SearchError | type_spec |  | [1157](../../magpie/internal/library/market.go#L1157) |
 | Source | field_declaration | SearchError | [1158](../../magpie/internal/library/market.go#L1158) |
 | Err | field_declaration | SearchError | [1159](../../magpie/internal/library/market.go#L1159) |
-| Error | method_declaration | *SearchError | [1162](../../magpie/internal/library/market.go#L1162) |
-| Unwrap | method_declaration | *SearchError | [1163](../../magpie/internal/library/market.go#L1163) |
+| Error | method_declaration |  | [1162](../../magpie/internal/library/market.go#L1162) |
+| Unwrap | method_declaration |  | [1163](../../magpie/internal/library/market.go#L1163) |
 | retryPause | var_spec |  | [1167](../../magpie/internal/library/market.go#L1167) |
 | metaDescRe | var_spec |  | [1169](../../magpie/internal/library/market.go#L1169) |
 | metaDescription | function_declaration |  | [1172](../../magpie/internal/library/market.go#L1172) |

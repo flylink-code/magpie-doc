@@ -23,69 +23,87 @@ Source SHA-256: 32b0a1838e469872a979a7207cf8cb93151d684d561b566050425cde1215bf23
 | AutoVideomaker | function_declaration |  | [175](../../magpie/internal/gateway/video.go#L175) |
 | bareVideomaker | function_declaration |  | [190](../../magpie/internal/gateway/video.go#L190) |
 | grokVideoFamily | const_spec |  | [215](../../magpie/internal/gateway/video.go#L215) |
-| filming | struct_type |  | [218](../../magpie/internal/gateway/video.go#L218) |
+| filming | type_spec |  | [218](../../magpie/internal/gateway/video.go#L218) |
 | Model | field_declaration | filming | [219](../../magpie/internal/gateway/video.go#L219) |
-| Prompt | field_declaration | filming | [219](../../magpie/internal/gateway/video.go#L219) |
-| Seconds | field_declaration | filming | [219](../../magpie/internal/gateway/video.go#L219) |
-| Size | field_declaration | filming | [219](../../magpie/internal/gateway/video.go#L219) |
 | Start | field_declaration | filming | [220](../../magpie/internal/gateway/video.go#L220) |
 | References | field_declaration | filming | [221](../../magpie/internal/gateway/video.go#L221) |
 | Extra | field_declaration | filming | [225](../../magpie/internal/gateway/video.go#L225) |
 | filmingRead | var_spec |  | [229](../../magpie/internal/gateway/video.go#L229) |
 | readFilming | function_declaration |  | [233](../../magpie/internal/gateway/video.go#L233) |
-| Model | field_declaration | readFilming | [278](../../magpie/internal/gateway/video.go#L278) |
-| Prompt | field_declaration | readFilming | [279](../../magpie/internal/gateway/video.go#L279) |
-| Seconds | field_declaration | readFilming | [280](../../magpie/internal/gateway/video.go#L280) |
-| Size | field_declaration | readFilming | [281](../../magpie/internal/gateway/video.go#L281) |
-| InputReference | field_declaration | readFilming | [282](../../magpie/internal/gateway/video.go#L282) |
-| ReferenceImages | field_declaration | readFilming | [283](../../magpie/internal/gateway/video.go#L283) |
+| f | var_spec | readFilming | [234](../../magpie/internal/gateway/video.go#L234) |
+| in | var_spec | readFilming | [277](../../magpie/internal/gateway/video.go#L277) |
+| Model | field_declaration | readFilming::in | [278](../../magpie/internal/gateway/video.go#L278) |
+| Prompt | field_declaration | readFilming::in | [279](../../magpie/internal/gateway/video.go#L279) |
+| Seconds | field_declaration | readFilming::in | [280](../../magpie/internal/gateway/video.go#L280) |
+| Size | field_declaration | readFilming::in | [281](../../magpie/internal/gateway/video.go#L281) |
+| InputReference | field_declaration | readFilming::in | [282](../../magpie/internal/gateway/video.go#L282) |
+| ReferenceImages | field_declaration | readFilming::in | [283](../../magpie/internal/gateway/video.go#L283) |
+| all | var_spec | readFilming | [289](../../magpie/internal/gateway/video.go#L289) |
 | decimalNumber | var_spec |  | [333](../../magpie/internal/gateway/video.go#L333) |
 | parseSeconds | function_declaration |  | [337](../../magpie/internal/gateway/video.go#L337) |
 | videoResolution | function_declaration |  | [358](../../magpie/internal/gateway/video.go#L358) |
 | pixelResolution | function_declaration |  | [366](../../magpie/internal/gateway/video.go#L366) |
 | volcengineVideoBody | function_declaration |  | [388](../../magpie/internal/gateway/video.go#L388) |
 | grokVideoBody | function_declaration |  | [414](../../magpie/internal/gateway/video.go#L414) |
+| refs | var_spec | grokVideoBody | [433](../../magpie/internal/gateway/video.go#L433) |
 | videoID | function_declaration |  | [444](../../magpie/internal/gateway/video.go#L444) |
 | signer | function_declaration |  | [450](../../magpie/internal/gateway/video.go#L450) |
 | idPart | var_spec |  | [460](../../magpie/internal/gateway/video.go#L460) |
 | parseVideoID | function_declaration |  | [463](../../magpie/internal/gateway/video.go#L463) |
-| videoState | struct_type |  | [480](../../magpie/internal/gateway/video.go#L480) |
+| videoState | type_spec |  | [480](../../magpie/internal/gateway/video.go#L480) |
 | Status | field_declaration | videoState | [481](../../magpie/internal/gateway/video.go#L481) |
 | Progress | field_declaration | videoState | [482](../../magpie/internal/gateway/video.go#L482) |
 | Model | field_declaration | videoState | [483](../../magpie/internal/gateway/video.go#L483) |
 | Video | field_declaration | videoState | [484](../../magpie/internal/gateway/video.go#L484) |
-| URL | field_declaration | videoState | [485](../../magpie/internal/gateway/video.go#L485) |
-| Duration | field_declaration | videoState | [486](../../magpie/internal/gateway/video.go#L486) |
+| URL | field_declaration | videoState::Video | [485](../../magpie/internal/gateway/video.go#L485) |
+| Duration | field_declaration | videoState::Video | [486](../../magpie/internal/gateway/video.go#L486) |
 | Content | field_declaration | videoState | [488](../../magpie/internal/gateway/video.go#L488) |
-| VideoURL | field_declaration | videoState | [489](../../magpie/internal/gateway/video.go#L489) |
+| VideoURL | field_declaration | videoState::Content | [489](../../magpie/internal/gateway/video.go#L489) |
 | Duration | field_declaration | videoState | [491](../../magpie/internal/gateway/video.go#L491) |
 | Error | field_declaration | videoState | [492](../../magpie/internal/gateway/video.go#L492) |
-| Code | field_declaration | videoState | [493](../../magpie/internal/gateway/video.go#L493) |
-| Message | field_declaration | videoState | [494](../../magpie/internal/gateway/video.go#L494) |
+| Code | field_declaration | videoState::Error | [493](../../magpie/internal/gateway/video.go#L493) |
+| Message | field_declaration | videoState::Error | [494](../../magpie/internal/gateway/video.go#L494) |
 | videoObject | function_declaration |  | [499](../../magpie/internal/gateway/video.go#L499) |
 | videoMaker | function_declaration |  | [545](../../magpie/internal/gateway/video.go#L545) |
 | remoteVideoID | function_declaration |  | [578](../../magpie/internal/gateway/video.go#L578) |
 | theirVideoID | function_declaration |  | [583](../../magpie/internal/gateway/video.go#L583) |
 | remoteVideoBody | function_declaration |  | [590](../../magpie/internal/gateway/video.go#L590) |
+| refs | var_spec | remoteVideoBody | [605](../../magpie/internal/gateway/video.go#L605) |
 | asOurs | function_declaration |  | [618](../../magpie/internal/gateway/video.go#L618) |
+| obj | var_spec | asOurs | [619](../../magpie/internal/gateway/video.go#L619) |
 | filmsOpenAI | function_declaration |  | [632](../../magpie/internal/gateway/video.go#L632) |
 | remoteVideoURL | function_declaration |  | [638](../../magpie/internal/gateway/video.go#L638) |
-| videoStatus | method_declaration | *Server | [643](../../magpie/internal/gateway/video.go#L643) |
-| videosCreate | method_declaration | *Server | [660](../../magpie/internal/gateway/video.go#L660) |
-| videoStart | struct_type |  | [844](../../magpie/internal/gateway/video.go#L844) |
+| videoStatus | method_declaration |  | [643](../../magpie/internal/gateway/video.go#L643) |
+| st | var_spec | videoStatus | [644](../../magpie/internal/gateway/video.go#L644) |
+| videosCreate | method_declaration |  | [660](../../magpie/internal/gateway/video.go#L660) |
+| paused | var_spec | videosCreate | [721](../../magpie/internal/gateway/video.go#L721) |
+| keeps | var_spec | videosCreate | [726](../../magpie/internal/gateway/video.go#L726) |
+| unmask | var_spec | videosCreate | [740](../../magpie/internal/gateway/video.go#L740) |
+| hits | var_spec | videosCreate | [742](../../magpie/internal/gateway/video.go#L742) |
+| extra | var_spec | videosCreate | [747](../../magpie/internal/gateway/video.go#L747) |
+| done | var_spec | videosCreate | [765](../../magpie/internal/gateway/video.go#L765) |
+| v | var_spec | videosCreate | [772](../../magpie/internal/gateway/video.go#L772) |
+| code | var_spec | videosCreate | [773](../../magpie/internal/gateway/video.go#L773) |
+| skipped | var_spec | videosCreate | [774](../../magpie/internal/gateway/video.go#L774) |
+| started | var_spec | videosCreate | [800](../../magpie/internal/gateway/video.go#L800) |
+| videoStart | type_spec |  | [844](../../magpie/internal/gateway/video.go#L844) |
 | p | field_declaration | videoStart | [845](../../magpie/internal/gateway/video.go#L845) |
 | answer | field_declaration | videoStart | [846](../../magpie/internal/gateway/video.go#L846) |
 | field | field_declaration | videoStart | [847](../../magpie/internal/gateway/video.go#L847) |
 | remote | field_declaration | videoStart | [848](../../magpie/internal/gateway/video.go#L848) |
-| custom | field_declaration | videoStart | [848](../../magpie/internal/gateway/video.go#L848) |
 | asked | field_declaration | videoStart | [849](../../magpie/internal/gateway/video.go#L849) |
 | unfit | field_declaration | videoStart | [850](../../magpie/internal/gateway/video.go#L850) |
 | onKey | field_declaration | videoStart | [853](../../magpie/internal/gateway/video.go#L853) |
-| startVideo | method_declaration | *Server | [860](../../magpie/internal/gateway/video.go#L860) |
+| startVideo | method_declaration |  | [860](../../magpie/internal/gateway/video.go#L860) |
+| keys | var_spec | startVideo | [863](../../magpie/internal/gateway/video.go#L863) |
+| ok | var_spec | startVideo | [889](../../magpie/internal/gateway/video.go#L889) |
+| body | var_spec | startVideo | [905](../../magpie/internal/gateway/video.go#L905) |
+| err | var_spec | startVideo | [914](../../magpie/internal/gateway/video.go#L914) |
 | videoAsker | function_declaration |  | [937](../../magpie/internal/gateway/video.go#L937) |
 | videoModelHeld | function_declaration |  | [958](../../magpie/internal/gateway/video.go#L958) |
-| openAIVideo | method_declaration | *Server | [972](../../magpie/internal/gateway/video.go#L972) |
-| videosGet | method_declaration | *Server | [986](../../magpie/internal/gateway/video.go#L986) |
-| videosContent | method_declaration | *Server | [1033](../../magpie/internal/gateway/video.go#L1033) |
-| remoteVideoContent | method_declaration | *Server | [1116](../../magpie/internal/gateway/video.go#L1116) |
+| openAIVideo | method_declaration |  | [972](../../magpie/internal/gateway/video.go#L972) |
+| videosGet | method_declaration |  | [986](../../magpie/internal/gateway/video.go#L986) |
+| videosContent | method_declaration |  | [1033](../../magpie/internal/gateway/video.go#L1033) |
+| remoteVideoContent | method_declaration |  | [1116](../../magpie/internal/gateway/video.go#L1116) |
 | maskStrings | function_declaration |  | [1160](../../magpie/internal/gateway/video.go#L1160) |
+| err | var_spec | maskStrings | [1166](../../magpie/internal/gateway/video.go#L1166) |

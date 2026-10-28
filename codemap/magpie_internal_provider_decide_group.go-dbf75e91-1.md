@@ -9,6 +9,7 @@ Source SHA-256: 0c98312b2f8037f893c9ff2b8f1ee93c7e850246763a7ca7440b10148cc9dcd2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | decidingMember | function_declaration |  | [21](../../magpie/internal/provider/decide_group.go#L21) |
-| Decides | method_declaration | Group | [38](../../magpie/internal/provider/decide_group.go#L38) |
+| Decides | method_declaration |  | [38](../../magpie/internal/provider/decide_group.go#L38) |
 | DecisionGroup | function_declaration |  | [45](../../magpie/internal/provider/decide_group.go#L45) |
 | cleanDecisionGroup | function_declaration |  | [52](../../magpie/internal/provider/decide_group.go#L52) |
+| deciders | var_spec | cleanDecisionGroup | [53](../../magpie/internal/provider/decide_group.go#L53) |

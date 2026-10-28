@@ -10,7 +10,7 @@ Source SHA-256: 636b849b00a45e24992913d5bd50329dbce661512306049d94e5a0c34db6dfa4
 | --- | --- | --- | ---: |
 | processMemoryInfo | var_spec |  | [11](../../magpie/internal/proc/rss_windows.go#L11) |
 | memoryStatus | var_spec |  | [12](../../magpie/internal/proc/rss_windows.go#L12) |
-| processMemoryCounters | struct_type |  | [16](../../magpie/internal/proc/rss_windows.go#L16) |
+| processMemoryCounters | type_spec |  | [16](../../magpie/internal/proc/rss_windows.go#L16) |
 | cb | field_declaration | processMemoryCounters | [17](../../magpie/internal/proc/rss_windows.go#L17) |
 | pageFaultCount | field_declaration | processMemoryCounters | [18](../../magpie/internal/proc/rss_windows.go#L18) |
 | peakWorkingSetSize | field_declaration | processMemoryCounters | [19](../../magpie/internal/proc/rss_windows.go#L19) |
@@ -21,11 +21,13 @@ Source SHA-256: 636b849b00a45e24992913d5bd50329dbce661512306049d94e5a0c34db6dfa4
 | quotaNonPagedPoolUsage | field_declaration | processMemoryCounters | [24](../../magpie/internal/proc/rss_windows.go#L24) |
 | pagefileUsage | field_declaration | processMemoryCounters | [25](../../magpie/internal/proc/rss_windows.go#L25) |
 | peakPagefileUsage | field_declaration | processMemoryCounters | [26](../../magpie/internal/proc/rss_windows.go#L26) |
-| rss | method_declaration | *Tree | [31](../../magpie/internal/proc/rss_windows.go#L31) |
-| assigned | field_declaration | *Tree.rss | [37](../../magpie/internal/proc/rss_windows.go#L37) |
-| listed | field_declaration | *Tree.rss | [37](../../magpie/internal/proc/rss_windows.go#L37) |
-| ids | field_declaration | *Tree.rss | [38](../../magpie/internal/proc/rss_windows.go#L38) |
-| memoryStatusEx | struct_type |  | [68](../../magpie/internal/proc/rss_windows.go#L68) |
+| rss | method_declaration |  | [31](../../magpie/internal/proc/rss_windows.go#L31) |
+| list | var_spec | rss | [36](../../magpie/internal/proc/rss_windows.go#L36) |
+| assigned | field_declaration | rss::list | [37](../../magpie/internal/proc/rss_windows.go#L37) |
+| ids | field_declaration | rss::list | [38](../../magpie/internal/proc/rss_windows.go#L38) |
+| total | var_spec | rss | [48](../../magpie/internal/proc/rss_windows.go#L48) |
+| c | var_spec | rss | [55](../../magpie/internal/proc/rss_windows.go#L55) |
+| memoryStatusEx | type_spec |  | [68](../../magpie/internal/proc/rss_windows.go#L68) |
 | length | field_declaration | memoryStatusEx | [69](../../magpie/internal/proc/rss_windows.go#L69) |
 | memoryLoad | field_declaration | memoryStatusEx | [70](../../magpie/internal/proc/rss_windows.go#L70) |
 | totalPhys | field_declaration | memoryStatusEx | [71](../../magpie/internal/proc/rss_windows.go#L71) |

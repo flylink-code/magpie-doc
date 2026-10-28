@@ -15,12 +15,23 @@ Source SHA-256: a992e883212e295cc73261e737db44db3e5eacbafbff8e55019b20ed7a82982d
 | hermesCurrentSummary | const_spec |  | [17](../../magpie/internal/sessions/hermes_display.go#L17) |
 | hermesLegacySummary | const_spec |  | [18](../../magpie/internal/sessions/hermes_display.go#L18) |
 | hermesDisplayContent | function_declaration |  | [24](../../magpie/internal/sessions/hermes_display.go#L24) |
+| parts | var_spec | hermesDisplayContent | [35](../../magpie/internal/sessions/hermes_display.go#L35) |
+| out | var_spec | hermesDisplayContent | [43](../../magpie/internal/sessions/hermes_display.go#L43) |
 | hermesDisplayText | function_declaration |  | [56](../../magpie/internal/sessions/hermes_display.go#L56) |
 | hermesStartsSummary | function_declaration |  | [80](../../magpie/internal/sessions/hermes_display.go#L80) |
 | hermesDisplayParts | function_declaration |  | [84](../../magpie/internal/sessions/hermes_display.go#L84) |
-| Text | field_declaration | hermesDisplayParts | [91](../../magpie/internal/sessions/hermes_display.go#L91) |
+| node | var_spec | hermesDisplayParts | [90](../../magpie/internal/sessions/hermes_display.go#L90) |
+| Text | field_declaration | hermesDisplayParts::node | [91](../../magpie/internal/sessions/hermes_display.go#L91) |
 | hermesPartWithText | function_declaration |  | [165](../../magpie/internal/sessions/hermes_display.go#L165) |
+| stringPart | var_spec | hermesPartWithText | [166](../../magpie/internal/sessions/hermes_display.go#L166) |
+| node | var_spec | hermesPartWithText | [170](../../magpie/internal/sessions/hermes_display.go#L170) |
 | hermesStripPriorHeader | function_declaration |  | [190](../../magpie/internal/sessions/hermes_display.go#L190) |
+| text | var_spec | hermesStripPriorHeader | [192](../../magpie/internal/sessions/hermes_display.go#L192) |
 | hermesPythonQuote | function_declaration |  | [230](../../magpie/internal/sessions/hermes_display.go#L230) |
+| b | var_spec | hermesPythonQuote | [231](../../magpie/internal/sessions/hermes_display.go#L231) |
+| out | var_spec | hermesPythonQuote | [238](../../magpie/internal/sessions/hermes_display.go#L238) |
 | hermesPartsHaveLiveContent | function_declaration |  | [252](../../magpie/internal/sessions/hermes_display.go#L252) |
-| Text | field_declaration | hermesPartsHaveLiveContent | [259](../../magpie/internal/sessions/hermes_display.go#L259) |
+| text | var_spec | hermesPartsHaveLiveContent | [254](../../magpie/internal/sessions/hermes_display.go#L254) |
+| node | var_spec | hermesPartsHaveLiveContent | [258](../../magpie/internal/sessions/hermes_display.go#L258) |
+| Text | field_declaration | hermesPartsHaveLiveContent::node | [259](../../magpie/internal/sessions/hermes_display.go#L259) |
+| shape | var_spec | hermesPartsHaveLiveContent | [264](../../magpie/internal/sessions/hermes_display.go#L264) |

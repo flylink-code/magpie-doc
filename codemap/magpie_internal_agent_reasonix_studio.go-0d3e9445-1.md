@@ -9,11 +9,14 @@ Source SHA-256: b09bbb132eb358a4a19db3945bb8ec67d3ea21a0e372db9459b0eeeb502da4ea
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | reasonixStudioVersions | var_spec |  | [13](../../magpie/internal/agent/reasonix_studio.go#L13) |
+| m | field_declaration | reasonixStudioVersions | [15](../../magpie/internal/agent/reasonix_studio.go#L15) |
 | reasonixStudioPackage | function_declaration |  | [21](../../magpie/internal/agent/reasonix_studio.go#L21) |
 | reasonixStudioArchiveVersion | function_declaration |  | [42](../../magpie/internal/agent/reasonix_studio.go#L42) |
-| Files | field_declaration | reasonixStudioArchiveVersion | [57](../../magpie/internal/agent/reasonix_studio.go#L57) |
-| Size | field_declaration | reasonixStudioArchiveVersion | [58](../../magpie/internal/agent/reasonix_studio.go#L58) |
-| Offset | field_declaration | reasonixStudioArchiveVersion | [59](../../magpie/internal/agent/reasonix_studio.go#L59) |
-| Unpacked | field_declaration | reasonixStudioArchiveVersion | [60](../../magpie/internal/agent/reasonix_studio.go#L60) |
-| Name | field_declaration | reasonixStudioArchiveVersion | [76](../../magpie/internal/agent/reasonix_studio.go#L76) |
-| Version | field_declaration | reasonixStudioArchiveVersion | [76](../../magpie/internal/agent/reasonix_studio.go#L76) |
+| prefix | var_spec | reasonixStudioArchiveVersion | [43](../../magpie/internal/agent/reasonix_studio.go#L43) |
+| archive | var_spec | reasonixStudioArchiveVersion | [56](../../magpie/internal/agent/reasonix_studio.go#L56) |
+| Files | field_declaration | reasonixStudioArchiveVersion::archive | [57](../../magpie/internal/agent/reasonix_studio.go#L57) |
+| Size | field_declaration | reasonixStudioArchiveVersion::archive::Files | [58](../../magpie/internal/agent/reasonix_studio.go#L58) |
+| Offset | field_declaration | reasonixStudioArchiveVersion::archive::Files | [59](../../magpie/internal/agent/reasonix_studio.go#L59) |
+| Unpacked | field_declaration | reasonixStudioArchiveVersion::archive::Files | [60](../../magpie/internal/agent/reasonix_studio.go#L60) |
+| pkg | var_spec | reasonixStudioArchiveVersion | [76](../../magpie/internal/agent/reasonix_studio.go#L76) |
+| Name | field_declaration | reasonixStudioArchiveVersion::pkg | [76](../../magpie/internal/agent/reasonix_studio.go#L76) |

@@ -12,20 +12,20 @@ Source SHA-256: 0ea5cd96e6babb9cda7da97c887bada309dae53d37c0200e3e0c6ce73feac12c
 | usageLimit | var_spec |  | [50](../../magpie/internal/middleware/points.go#L50) |
 | usageQueue | var_spec |  | [52](../../magpie/internal/middleware/points.go#L52) |
 | strategyName | var_spec |  | [55](../../magpie/internal/middleware/points.go#L55) |
-| strat | struct_type |  | [58](../../magpie/internal/middleware/points.go#L58) |
+| strat | type_spec |  | [58](../../magpie/internal/middleware/points.go#L58) |
 | name | field_declaration | strat | [59](../../magpie/internal/middleware/points.go#L59) |
 | h | field_declaration | strat | [60](../../magpie/internal/middleware/points.go#L60) |
-| points | struct_type |  | [65](../../magpie/internal/middleware/points.go#L65) |
+| points | type_spec |  | [65](../../magpie/internal/middleware/points.go#L65) |
 | in | field_declaration | points | [66](../../magpie/internal/middleware/points.go#L66) |
 | sem | field_declaration | points | [67](../../magpie/internal/middleware/points.go#L67) |
-| discover | method_declaration | *mw | [72](../../magpie/internal/middleware/points.go#L72) |
-| keys | method_declaration | *inst | [101](../../magpie/internal/middleware/points.go#L101) |
-| member | method_declaration | *inst | [133](../../magpie/internal/middleware/points.go#L133) |
-| take | method_declaration | *points | [154](../../magpie/internal/middleware/points.go#L154) |
-| give | method_declaration | *points | [174](../../magpie/internal/middleware/points.go#L174) |
-| routing | method_declaration | *mw | [182](../../magpie/internal/middleware/points.go#L182) |
+| discover | method_declaration |  | [72](../../magpie/internal/middleware/points.go#L72) |
+| keys | method_declaration |  | [101](../../magpie/internal/middleware/points.go#L101) |
+| member | method_declaration |  | [133](../../magpie/internal/middleware/points.go#L133) |
+| take | method_declaration |  | [154](../../magpie/internal/middleware/points.go#L154) |
+| give | method_declaration |  | [174](../../magpie/internal/middleware/points.go#L174) |
+| routing | method_declaration |  | [182](../../magpie/internal/middleware/points.go#L182) |
 | badPrefix | var_spec |  | [198](../../magpie/internal/middleware/points.go#L198) |
-| seatJSON | struct_type |  | [201](../../magpie/internal/middleware/points.go#L201) |
+| seatJSON | type_spec |  | [201](../../magpie/internal/middleware/points.go#L201) |
 | Key | field_declaration | seatJSON | [202](../../magpie/internal/middleware/points.go#L202) |
 | Account | field_declaration | seatJSON | [203](../../magpie/internal/middleware/points.go#L203) |
 | Known | field_declaration | seatJSON | [204](../../magpie/internal/middleware/points.go#L204) |
@@ -37,9 +37,10 @@ Source SHA-256: 0ea5cd96e6babb9cda7da97c887bada309dae53d37c0200e3e0c6ce73feac12c
 | Resting | field_declaration | seatJSON | [210](../../magpie/internal/middleware/points.go#L210) |
 | Tokens | field_declaration | seatJSON | [211](../../magpie/internal/middleware/points.go#L211) |
 | errBusy | var_spec |  | [214](../../magpie/internal/middleware/points.go#L214) |
-| strategy | method_declaration | *mw | [217](../../magpie/internal/middleware/points.go#L217) |
-| order | method_declaration | *mw | [232](../../magpie/internal/middleware/points.go#L232) |
-| usageRow | struct_type |  | [287](../../magpie/internal/middleware/points.go#L287) |
+| strategy | method_declaration |  | [217](../../magpie/internal/middleware/points.go#L217) |
+| order | method_declaration |  | [232](../../magpie/internal/middleware/points.go#L232) |
+| list2 | var_spec | order | [269](../../magpie/internal/middleware/points.go#L269) |
+| usageRow | type_spec |  | [287](../../magpie/internal/middleware/points.go#L287) |
 | Time | field_declaration | usageRow | [288](../../magpie/internal/middleware/points.go#L288) |
 | Operation | field_declaration | usageRow | [289](../../magpie/internal/middleware/points.go#L289) |
 | Agent | field_declaration | usageRow | [290](../../magpie/internal/middleware/points.go#L290) |
@@ -66,21 +67,26 @@ Source SHA-256: 0ea5cd96e6babb9cda7da97c887bada309dae53d37c0200e3e0c6ce73feac12c
 | Tries | field_declaration | usageRow | [311](../../magpie/internal/middleware/points.go#L311) |
 | Cost | field_declaration | usageRow | [312](../../magpie/internal/middleware/points.go#L312) |
 | rowOf | function_declaration |  | [315](../../magpie/internal/middleware/points.go#L315) |
-| use | method_declaration | *mw | [338](../../magpie/internal/middleware/points.go#L338) |
+| use | method_declaration |  | [338](../../magpie/internal/middleware/points.go#L338) |
+| optsV | var_spec | use | [345](../../magpie/internal/middleware/points.go#L345) |
 | Points | function_declaration |  | [361](../../magpie/internal/middleware/points.go#L361) |
-| observer | struct_type |  | [363](../../magpie/internal/middleware/points.go#L363) |
+| observer | type_spec |  | [363](../../magpie/internal/middleware/points.go#L363) |
 | mu | field_declaration | observer | [364](../../magpie/internal/middleware/points.go#L364) |
 | queue | field_declaration | observer | [365](../../magpie/internal/middleware/points.go#L365) |
 | using | field_declaration | observer | [366](../../magpie/internal/middleware/points.go#L366) |
 | serving | field_declaration | observer | [367](../../magpie/internal/middleware/points.go#L367) |
 | removes | field_declaration | observer | [368](../../magpie/internal/middleware/points.go#L368) |
-| Bodies | method_declaration | *observer | [371](../../magpie/internal/middleware/points.go#L371) |
-| Begin | method_declaration | *observer | [372](../../magpie/internal/middleware/points.go#L372) |
-| Ledger | method_declaration | *observer | [376](../../magpie/internal/middleware/points.go#L376) |
-| Serve | method_declaration | *observer | [402](../../magpie/internal/middleware/points.go#L402) |
-| refresh | method_declaration | *observer | [472](../../magpie/internal/middleware/points.go#L472) |
-| swap | method_declaration | *observer | [483](../../magpie/internal/middleware/points.go#L483) |
-| Routing | struct_type |  | [502](../../magpie/internal/middleware/points.go#L502) |
+| Bodies | method_declaration |  | [371](../../magpie/internal/middleware/points.go#L371) |
+| Begin | method_declaration |  | [372](../../magpie/internal/middleware/points.go#L372) |
+| Ledger | method_declaration |  | [376](../../magpie/internal/middleware/points.go#L376) |
+| Serve | method_declaration |  | [402](../../magpie/internal/middleware/points.go#L402) |
+| wg | var_spec | Serve | [405](../../magpie/internal/middleware/points.go#L405) |
+| cost | var_spec | Serve | [430](../../magpie/internal/middleware/points.go#L430) |
+| priced | var_spec | Serve | [431](../../magpie/internal/middleware/points.go#L431) |
+| once | var_spec | Serve | [458](../../magpie/internal/middleware/points.go#L458) |
+| refresh | method_declaration |  | [472](../../magpie/internal/middleware/points.go#L472) |
+| swap | method_declaration |  | [483](../../magpie/internal/middleware/points.go#L483) |
+| Routing | type_spec |  | [502](../../magpie/internal/middleware/points.go#L502) |
 | ID | field_declaration | Routing | [503](../../magpie/internal/middleware/points.go#L503) |
 | Name | field_declaration | Routing | [504](../../magpie/internal/middleware/points.go#L504) |
 | Plugin | field_declaration | Routing | [505](../../magpie/internal/middleware/points.go#L505) |

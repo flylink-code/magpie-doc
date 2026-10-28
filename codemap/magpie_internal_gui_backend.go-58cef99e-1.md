@@ -10,7 +10,6 @@ Source SHA-256: 8d634d5ca6b2062dd86812aa4ae5025b0f8b3cc27b337728ab9c476d827aed4d
 | --- | --- | --- | ---: |
 | served | var_spec |  | [20](../../magpie/internal/gui/backend.go#L20) |
 | backendCtx | var_spec |  | [23](../../magpie/internal/gui/backend.go#L23) |
-| endBackend | var_spec |  | [23](../../magpie/internal/gui/backend.go#L23) |
 | serving | var_spec |  | [26](../../magpie/internal/gui/backend.go#L26) |
 | stopServing | function_declaration |  | [30](../../magpie/internal/gui/backend.go#L30) |
 | startBackend | function_declaration |  | [40](../../magpie/internal/gui/backend.go#L40) |
@@ -19,5 +18,7 @@ Source SHA-256: 8d634d5ca6b2062dd86812aa4ae5025b0f8b3cc27b337728ab9c476d827aed4d
 | takenSaid | var_spec |  | [104](../../magpie/internal/gui/backend.go#L104) |
 | gatewayMu | var_spec |  | [108](../../magpie/internal/gui/backend.go#L108) |
 | servedRun | var_spec |  | [112](../../magpie/internal/gui/backend.go#L112) |
+| stop | field_declaration | servedRun | [113](../../magpie/internal/gui/backend.go#L113) |
+| done | field_declaration | servedRun | [114](../../magpie/internal/gui/backend.go#L114) |
 | serveGateway | function_declaration |  | [119](../../magpie/internal/gui/backend.go#L119) |
 | serveGatewayLocked | function_declaration |  | [125](../../magpie/internal/gui/backend.go#L125) |

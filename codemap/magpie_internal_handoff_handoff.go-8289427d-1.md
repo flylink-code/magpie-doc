@@ -12,18 +12,19 @@ Source SHA-256: 83bfbfa5b4b68748c077929c0c587697bc33f7dcced8a1809276594521752e7b
 | self | var_spec |  | [29](../../magpie/internal/handoff/handoff.go#L29) |
 | pointerName | const_spec |  | [32](../../magpie/internal/handoff/handoff.go#L32) |
 | pointerFresh | const_spec |  | [36](../../magpie/internal/handoff/handoff.go#L36) |
-| pointer | struct_type |  | [39](../../magpie/internal/handoff/handoff.go#L39) |
+| pointer | type_spec |  | [39](../../magpie/internal/handoff/handoff.go#L39) |
 | PID | field_declaration | pointer | [40](../../magpie/internal/handoff/handoff.go#L40) |
 | Sock | field_declaration | pointer | [41](../../magpie/internal/handoff/handoff.go#L41) |
 | Exe | field_declaration | pointer | [42](../../magpie/internal/handoff/handoff.go#L42) |
 | At | field_declaration | pointer | [43](../../magpie/internal/handoff/handoff.go#L43) |
-| Hello | struct_type |  | [47](../../magpie/internal/handoff/handoff.go#L47) |
+| Hello | type_spec |  | [47](../../magpie/internal/handoff/handoff.go#L47) |
 | PID | field_declaration | Hello | [48](../../magpie/internal/handoff/handoff.go#L48) |
 | Version | field_declaration | Hello | [49](../../magpie/internal/handoff/handoff.go#L49) |
-| Meta | struct_type |  | [53](../../magpie/internal/handoff/handoff.go#L53) |
+| Meta | type_spec |  | [53](../../magpie/internal/handoff/handoff.go#L53) |
 | Addr | field_declaration | Meta | [55](../../magpie/internal/handoff/handoff.go#L55) |
 | Callbacks | field_declaration | Meta | [58](../../magpie/internal/handoff/handoff.go#L58) |
 | PID | field_declaration | Meta | [60](../../magpie/internal/handoff/handoff.go#L60) |
 | ackLine | const_spec |  | [64](../../magpie/internal/handoff/handoff.go#L64) |
 | readPointer | function_declaration |  | [68](../../magpie/internal/handoff/handoff.go#L68) |
+| p | var_spec | readPointer | [73](../../magpie/internal/handoff/handoff.go#L73) |
 | sameExe | function_declaration |  | [87](../../magpie/internal/handoff/handoff.go#L87) |

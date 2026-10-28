@@ -8,20 +8,22 @@ Source SHA-256: 0140e0d050c4deb0a7bb7dfa22a67397ec71b406ac937e8a84a5b0b42d5af205
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| traceJSON | struct_type |  | [21](../../magpie/internal/gui/trace.go#L21) |
+| traceJSON | type_spec |  | [21](../../magpie/internal/gui/trace.go#L21) |
 | Mine | field_declaration | traceJSON | [23](../../magpie/internal/gui/trace.go#L23) |
 | Now | field_declaration | traceJSON | [24](../../magpie/internal/gui/trace.go#L24) |
 | Routes | field_declaration | traceJSON | [25](../../magpie/internal/gui/trace.go#L25) |
-| routeJSON | struct_type |  | [28](../../magpie/internal/gui/trace.go#L28) |
+| routeJSON | type_spec |  | [28](../../magpie/internal/gui/trace.go#L28) |
 | SessionTitle | field_declaration | routeJSON | [30](../../magpie/internal/gui/trace.go#L30) |
 | Cost | field_declaration | routeJSON | [31](../../magpie/internal/gui/trace.go#L31) |
 | Priced | field_declaration | routeJSON | [32](../../magpie/internal/gui/trace.go#L32) |
 | Unpriced | field_declaration | routeJSON | [33](../../magpie/internal/gui/trace.go#L33) |
 | titleHistory | var_spec |  | [38](../../magpie/internal/gui/trace.go#L38) |
+| days | field_declaration | titleHistory | [40](../../magpie/internal/gui/trace.go#L40) |
 | rememberTitleHistory | function_declaration |  | [43](../../magpie/internal/gui/trace.go#L43) |
 | recalledTitleHistory | function_declaration |  | [74](../../magpie/internal/gui/trace.go#L74) |
 | pricedRoutes | function_declaration |  | [80](../../magpie/internal/gui/trace.go#L80) |
 | cacheCounted | function_declaration |  | [126](../../magpie/internal/gui/trace.go#L126) |
+| out | var_spec | cacheCounted | [127](../../magpie/internal/gui/trace.go#L127) |
 | cacheNotCounted | function_declaration |  | [145](../../magpie/internal/gui/trace.go#L145) |
 | publicRefs | function_declaration |  | [151](../../magpie/internal/gui/trace.go#L151) |
 | publicRoute | function_declaration |  | [173](../../magpie/internal/gui/trace.go#L173) |
@@ -31,9 +33,13 @@ Source SHA-256: 0140e0d050c4deb0a7bb7dfa22a67397ec71b406ac937e8a84a5b0b42d5af205
 | argView | function_declaration |  | [250](../../magpie/internal/gui/trace.go#L250) |
 | quotaView | function_declaration |  | [255](../../magpie/internal/gui/trace.go#L255) |
 | traceRoutes | function_declaration |  | [275](../../magpie/internal/gui/trace.go#L275) |
-| IDs | field_declaration | traceRoutes | [280](../../magpie/internal/gui/trace.go#L280) |
-| Groups | field_declaration | traceRoutes | [281](../../magpie/internal/gui/trace.go#L281) |
-| RouteIDs | field_declaration | traceRoutes | [282](../../magpie/internal/gui/trace.go#L282) |
-| Day | field_declaration | traceRoutes | [283](../../magpie/internal/gui/trace.go#L283) |
-| Sessions | field_declaration | traceRoutes | [287](../../magpie/internal/gui/trace.go#L287) |
-| Key | field_declaration | traceRoutes | [392](../../magpie/internal/gui/trace.go#L392) |
+| in | var_spec | traceRoutes | [279](../../magpie/internal/gui/trace.go#L279) |
+| IDs | field_declaration | traceRoutes::in | [280](../../magpie/internal/gui/trace.go#L280) |
+| Groups | field_declaration | traceRoutes::in | [281](../../magpie/internal/gui/trace.go#L281) |
+| RouteIDs | field_declaration | traceRoutes::in | [282](../../magpie/internal/gui/trace.go#L282) |
+| Day | field_declaration | traceRoutes::in | [283](../../magpie/internal/gui/trace.go#L283) |
+| Sessions | field_declaration | traceRoutes::in | [287](../../magpie/internal/gui/trace.go#L287) |
+| rows | var_spec | traceRoutes | [302](../../magpie/internal/gui/trace.go#L302) |
+| wait | var_spec | traceRoutes | [364](../../magpie/internal/gui/trace.go#L364) |
+| in | var_spec | traceRoutes | [391](../../magpie/internal/gui/trace.go#L391) |
+| Key | field_declaration | traceRoutes::in | [392](../../magpie/internal/gui/trace.go#L392) |

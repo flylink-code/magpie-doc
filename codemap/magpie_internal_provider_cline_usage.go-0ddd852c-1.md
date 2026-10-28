@@ -10,22 +10,30 @@ Source SHA-256: a3b1b511ac7af1b957302d05601c0a57d4681d9c96abd32df1afde57da174031
 | --- | --- | --- | ---: |
 | clineUsageAPI | var_spec |  | [26](../../magpie/internal/provider/cline_usage.go#L26) |
 | clineLimits | var_spec |  | [30](../../magpie/internal/provider/cline_usage.go#L30) |
+| typ | field_declaration | clineLimits | [31](../../magpie/internal/provider/cline_usage.go#L31) |
+| span | field_declaration | clineLimits | [32](../../magpie/internal/provider/cline_usage.go#L32) |
 | clineKeyUsage | function_declaration |  | [41](../../magpie/internal/provider/cline_usage.go#L41) |
-| Limits | field_declaration | clineKeyUsage | [44](../../magpie/internal/provider/cline_usage.go#L44) |
-| Type | field_declaration | clineKeyUsage | [45](../../magpie/internal/provider/cline_usage.go#L45) |
-| PercentUsed | field_declaration | clineKeyUsage | [46](../../magpie/internal/provider/cline_usage.go#L46) |
-| ResetsAt | field_declaration | clineKeyUsage | [47](../../magpie/internal/provider/cline_usage.go#L47) |
+| lim | var_spec | clineKeyUsage | [43](../../magpie/internal/provider/cline_usage.go#L43) |
+| Limits | field_declaration | clineKeyUsage::lim | [44](../../magpie/internal/provider/cline_usage.go#L44) |
+| Type | field_declaration | clineKeyUsage::lim::Limits | [45](../../magpie/internal/provider/cline_usage.go#L45) |
+| PercentUsed | field_declaration | clineKeyUsage::lim::Limits | [46](../../magpie/internal/provider/cline_usage.go#L46) |
+| ResetsAt | field_declaration | clineKeyUsage::lim::Limits | [47](../../magpie/internal/provider/cline_usage.go#L47) |
+| nf | var_spec | clineKeyUsage | [68](../../magpie/internal/provider/cline_usage.go#L68) |
 | clineLimitsUnread | const_spec |  | [95](../../magpie/internal/provider/cline_usage.go#L95) |
 | clineCredits | function_declaration |  | [99](../../magpie/internal/provider/cline_usage.go#L99) |
-| ID | field_declaration | clineCredits | [101](../../magpie/internal/provider/cline_usage.go#L101) |
-| ClineUserID | field_declaration | clineCredits | [102](../../magpie/internal/provider/cline_usage.go#L102) |
-| Subject | field_declaration | clineCredits | [103](../../magpie/internal/provider/cline_usage.go#L103) |
-| Balance | field_declaration | clineCredits | [114](../../magpie/internal/provider/cline_usage.go#L114) |
+| me | var_spec | clineCredits | [100](../../magpie/internal/provider/cline_usage.go#L100) |
+| ID | field_declaration | clineCredits::me | [101](../../magpie/internal/provider/cline_usage.go#L101) |
+| ClineUserID | field_declaration | clineCredits::me | [102](../../magpie/internal/provider/cline_usage.go#L102) |
+| Subject | field_declaration | clineCredits::me | [103](../../magpie/internal/provider/cline_usage.go#L103) |
+| last | var_spec | clineCredits | [108](../../magpie/internal/provider/cline_usage.go#L108) |
+| b | var_spec | clineCredits | [113](../../magpie/internal/provider/cline_usage.go#L113) |
+| Balance | field_declaration | clineCredits::b | [114](../../magpie/internal/provider/cline_usage.go#L114) |
 | clineUSD | function_declaration |  | [130](../../magpie/internal/provider/cline_usage.go#L130) |
 | clineStatus | type_spec |  | [138](../../magpie/internal/provider/cline_usage.go#L138) |
-| Error | method_declaration | clineStatus | [140](../../magpie/internal/provider/cline_usage.go#L140) |
+| Error | method_declaration |  | [140](../../magpie/internal/provider/cline_usage.go#L140) |
 | clineGet | function_declaration |  | [146](../../magpie/internal/provider/cline_usage.go#L146) |
-| Success | field_declaration | clineGet | [163](../../magpie/internal/provider/cline_usage.go#L163) |
-| Error | field_declaration | clineGet | [164](../../magpie/internal/provider/cline_usage.go#L164) |
-| Data | field_declaration | clineGet | [165](../../magpie/internal/provider/cline_usage.go#L165) |
+| env | var_spec | clineGet | [162](../../magpie/internal/provider/cline_usage.go#L162) |
+| Success | field_declaration | clineGet::env | [163](../../magpie/internal/provider/cline_usage.go#L163) |
+| Error | field_declaration | clineGet::env | [164](../../magpie/internal/provider/cline_usage.go#L164) |
+| Data | field_declaration | clineGet::env | [165](../../magpie/internal/provider/cline_usage.go#L165) |
 | clineKeyCard | function_declaration |  | [185](../../magpie/internal/provider/cline_usage.go#L185) |

@@ -11,6 +11,6 @@ Source SHA-256: b070dbf4bf3037a371d524d4807418ec17d7921c4a718629a19f8946b465bc57
 | mcpClient | var_spec |  | [21](../../magpie/internal/gateway/mcp.go#L21) |
 | mcpTransport | function_declaration |  | [23](../../magpie/internal/gateway/mcp.go#L23) |
 | mcpHop | var_spec |  | [31](../../magpie/internal/gateway/mcp.go#L31) |
-| mcpProxy | method_declaration | *Server | [43](../../magpie/internal/gateway/mcp.go#L43) |
+| mcpProxy | method_declaration |  | [43](../../magpie/internal/gateway/mcp.go#L43) |
 | mcpRefused | function_declaration |  | [162](../../magpie/internal/gateway/mcp.go#L162) |
 | loopbackHost | function_declaration |  | [173](../../magpie/internal/gateway/mcp.go#L173) |

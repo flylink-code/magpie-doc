@@ -10,12 +10,18 @@ Source SHA-256: 16ec60042138f788d010cb6d3fbacd4e07765ad682509298dd5719305b85774b
 | --- | --- | --- | ---: |
 | ParseTokens | function_declaration |  | [19](../../magpie/internal/provider/ruleparse.go#L19) |
 | ParseDays | function_declaration |  | [41](../../magpie/internal/provider/ruleparse.go#L41) |
+| out | var_spec | ParseDays | [42](../../magpie/internal/provider/ruleparse.go#L42) |
 | ParseTimeWindow | function_declaration |  | [72](../../magpie/internal/provider/ruleparse.go#L72) |
-| InZoneHere | method_declaration | *Rule | [89](../../magpie/internal/provider/ruleparse.go#L89) |
+| InZoneHere | method_declaration |  | [89](../../magpie/internal/provider/ruleparse.go#L89) |
 | zoneErr | function_declaration |  | [96](../../magpie/internal/provider/ruleparse.go#L96) |
 | UnknownRuleWord | const_spec |  | [101](../../magpie/internal/provider/ruleparse.go#L101) |
 | ParseRule | function_declaration |  | [106](../../magpie/internal/provider/ruleparse.go#L106) |
+| uses | var_spec | ParseRule | [114](../../magpie/internal/provider/ruleparse.go#L114) |
 | GroupMember | function_declaration |  | [265](../../magpie/internal/provider/ruleparse.go#L265) |
+| hits | var_spec | GroupMember | [276](../../magpie/internal/provider/ruleparse.go#L276) |
 | RuleWords | function_declaration |  | [296](../../magpie/internal/provider/ruleparse.go#L296) |
-| Line | method_declaration | Rule | [322](../../magpie/internal/provider/ruleparse.go#L322) |
+| out | var_spec | RuleWords | [297](../../magpie/internal/provider/ruleparse.go#L297) |
+| w | var_spec | RuleWords | [298](../../magpie/internal/provider/ruleparse.go#L298) |
+| Line | method_declaration |  | [322](../../magpie/internal/provider/ruleparse.go#L322) |
 | parseFolders | function_declaration |  | [375](../../magpie/internal/provider/ruleparse.go#L375) |
+| out | var_spec | parseFolders | [376](../../magpie/internal/provider/ruleparse.go#L376) |

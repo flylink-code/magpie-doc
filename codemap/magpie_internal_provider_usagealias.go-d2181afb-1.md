@@ -11,9 +11,8 @@ Source SHA-256: f79be4350e9934de7d322c5f9bab6af5e73a38ccae696eded4d50e5b3bae5f35
 | SetUsageAlias | function_declaration |  | [30](../../magpie/internal/provider/usagealias.go#L30) |
 | checkAliasName | function_declaration |  | [71](../../magpie/internal/provider/usagealias.go#L71) |
 | aliasLoop | function_declaration |  | [89](../../magpie/internal/provider/usagealias.go#L89) |
-| aliasEntry | struct_type |  | [111](../../magpie/internal/provider/usagealias.go#L111) |
+| aliasEntry | type_spec |  | [111](../../magpie/internal/provider/usagealias.go#L111) |
 | from | field_declaration | aliasEntry | [111](../../magpie/internal/provider/usagealias.go#L111) |
-| to | field_declaration | aliasEntry | [111](../../magpie/internal/provider/usagealias.go#L111) |
 | aliasIndex | function_declaration |  | [115](../../magpie/internal/provider/usagealias.go#L115) |
 | UsageAliasFor | function_declaration |  | [134](../../magpie/internal/provider/usagealias.go#L134) |
 | UsageAliases | function_declaration |  | [147](../../magpie/internal/provider/usagealias.go#L147) |
@@ -22,3 +21,4 @@ Source SHA-256: f79be4350e9934de7d322c5f9bab6af5e73a38ccae696eded4d50e5b3bae5f35
 | UsageAlias | function_declaration |  | [173](../../magpie/internal/provider/usagealias.go#L173) |
 | UsageAliasIn | function_declaration |  | [176](../../magpie/internal/provider/usagealias.go#L176) |
 | usageAliasOf | function_declaration |  | [178](../../magpie/internal/provider/usagealias.go#L178) |
+| memo | var_spec | usageAliasOf | [206](../../magpie/internal/provider/usagealias.go#L206) |

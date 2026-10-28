@@ -8,23 +8,38 @@ Source SHA-256: 192e820b2aaf8071cd3ab2801624df8cbd9557e95e95dfadcde418598ad4db42
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ocTraceState | struct_type |  | [16](../../magpie/internal/sessions/traces_opencode_db.go#L16) |
+| ocTraceState | type_spec |  | [16](../../magpie/internal/sessions/traces_opencode_db.go#L16) |
 | messages | field_declaration | ocTraceState | [17](../../magpie/internal/sessions/traces_opencode_db.go#L17) |
 | order | field_declaration | ocTraceState | [18](../../magpie/internal/sessions/traces_opencode_db.go#L18) |
 | bytes | field_declaration | ocTraceState | [19](../../magpie/internal/sessions/traces_opencode_db.go#L19) |
 | sizes | field_declaration | ocTraceState | [20](../../magpie/internal/sessions/traces_opencode_db.go#L20) |
 | message | field_declaration | ocTraceState | [21](../../magpie/internal/sessions/traces_opencode_db.go#L21) |
-| part | field_declaration | ocTraceState | [21](../../magpie/internal/sessions/traces_opencode_db.go#L21) |
 | turns | field_declaration | ocTraceState | [22](../../magpie/internal/sessions/traces_opencode_db.go#L22) |
 | v2 | field_declaration | ocTraceState | [23](../../magpie/internal/sessions/traces_opencode_db.go#L23) |
-| ocTracePosition | struct_type |  | [25](../../magpie/internal/sessions/traces_opencode_db.go#L25) |
+| ocTracePosition | type_spec |  | [25](../../magpie/internal/sessions/traces_opencode_db.go#L25) |
 | at | field_declaration | ocTracePosition | [26](../../magpie/internal/sessions/traces_opencode_db.go#L26) |
 | id | field_declaration | ocTracePosition | [27](../../magpie/internal/sessions/traces_opencode_db.go#L27) |
-| pollOpenCodeDB | method_declaration | *TraceReader | [30](../../magpie/internal/sessions/traces_opencode_db.go#L30) |
-| readRows | method_declaration | *ocTraceState | [165](../../magpie/internal/sessions/traces_opencode_db.go#L165) |
+| pollOpenCodeDB | method_declaration |  | [30](../../magpie/internal/sessions/traces_opencode_db.go#L30) |
+| q | const_spec | pollOpenCodeDB | [38](../../magpie/internal/sessions/traces_opencode_db.go#L38) |
+| files | var_spec | pollOpenCodeDB | [39](../../magpie/internal/sessions/traces_opencode_db.go#L39) |
+| out | var_spec | pollOpenCodeDB | [51](../../magpie/internal/sessions/traces_opencode_db.go#L51) |
+| raw | var_spec | pollOpenCodeDB | [105](../../magpie/internal/sessions/traces_opencode_db.go#L105) |
+| doc | var_spec | pollOpenCodeDB | [108](../../magpie/internal/sessions/traces_opencode_db.go#L108) |
+| readRows | method_declaration |  | [165](../../magpie/internal/sessions/traces_opencode_db.go#L165) |
+| id | var_spec | readRows | [179](../../magpie/internal/sessions/traces_opencode_db.go#L179) |
+| at | var_spec | readRows | [180](../../magpie/internal/sessions/traces_opencode_db.go#L180) |
+| raw | var_spec | readRows | [181](../../magpie/internal/sessions/traces_opencode_db.go#L181) |
+| p | var_spec | readRows | [196](../../magpie/internal/sessions/traces_opencode_db.go#L196) |
+| m | var_spec | readRows | [216](../../magpie/internal/sessions/traces_opencode_db.go#L216) |
 | normalizeOCMessage | function_declaration |  | [241](../../magpie/internal/sessions/traces_opencode_db.go#L241) |
 | stripOCPart | function_declaration |  | [258](../../magpie/internal/sessions/traces_opencode_db.go#L258) |
-| put | method_declaration | *ocTraceState | [265](../../magpie/internal/sessions/traces_opencode_db.go#L265) |
-| trim | method_declaration | *ocTraceState | [281](../../magpie/internal/sessions/traces_opencode_db.go#L281) |
-| user | method_declaration | *ocTraceState | [325](../../magpie/internal/sessions/traces_opencode_db.go#L325) |
+| put | method_declaration |  | [265](../../magpie/internal/sessions/traces_opencode_db.go#L265) |
+| trim | method_declaration |  | [281](../../magpie/internal/sessions/traces_opencode_db.go#L281) |
+| user | method_declaration |  | [325](../../magpie/internal/sessions/traces_opencode_db.go#L325) |
+| id | var_spec | user | [329](../../magpie/internal/sessions/traces_opencode_db.go#L329) |
+| raw | var_spec | user | [330](../../magpie/internal/sessions/traces_opencode_db.go#L330) |
+| user | var_spec | user | [350](../../magpie/internal/sessions/traces_opencode_db.go#L350) |
+| pid | var_spec | user | [361](../../magpie/internal/sessions/traces_opencode_db.go#L361) |
+| b | var_spec | user | [362](../../magpie/internal/sessions/traces_opencode_db.go#L362) |
+| p | var_spec | user | [365](../../magpie/internal/sessions/traces_opencode_db.go#L365) |
 | sortTraceOCFiles | function_declaration |  | [378](../../magpie/internal/sessions/traces_opencode_db.go#L378) |

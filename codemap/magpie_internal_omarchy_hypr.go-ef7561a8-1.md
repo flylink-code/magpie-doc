@@ -10,19 +10,18 @@ Source SHA-256: 5f96fa26ec9318b21564a8ff87e469d07116e89c7af9104f1b2adfbd1ef0841c
 | --- | --- | --- | ---: |
 | Hyprland | function_declaration |  | [23](../../magpie/internal/omarchy/hypr.go#L23) |
 | PanelGap | const_spec |  | [29](../../magpie/internal/omarchy/hypr.go#L29) |
-| hyprMonitor | struct_type |  | [31](../../magpie/internal/omarchy/hypr.go#L31) |
+| hyprMonitor | type_spec |  | [31](../../magpie/internal/omarchy/hypr.go#L31) |
 | Name | field_declaration | hyprMonitor | [32](../../magpie/internal/omarchy/hypr.go#L32) |
 | X | field_declaration | hyprMonitor | [33](../../magpie/internal/omarchy/hypr.go#L33) |
-| Y | field_declaration | hyprMonitor | [33](../../magpie/internal/omarchy/hypr.go#L33) |
 | Width | field_declaration | hyprMonitor | [34](../../magpie/internal/omarchy/hypr.go#L34) |
-| Height | field_declaration | hyprMonitor | [34](../../magpie/internal/omarchy/hypr.go#L34) |
 | Scale | field_declaration | hyprMonitor | [35](../../magpie/internal/omarchy/hypr.go#L35) |
 | Transform | field_declaration | hyprMonitor | [36](../../magpie/internal/omarchy/hypr.go#L36) |
 | Reserved | field_declaration | hyprMonitor | [37](../../magpie/internal/omarchy/hypr.go#L37) |
-| size | method_declaration | hyprMonitor | [42](../../magpie/internal/omarchy/hypr.go#L42) |
+| size | method_declaration |  | [42](../../magpie/internal/omarchy/hypr.go#L42) |
 | PanelAt | function_declaration |  | [61](../../magpie/internal/omarchy/hypr.go#L61) |
-| X | field_declaration | PanelAt | [62](../../magpie/internal/omarchy/hypr.go#L62) |
-| Y | field_declaration | PanelAt | [62](../../magpie/internal/omarchy/hypr.go#L62) |
+| cur | var_spec | PanelAt | [62](../../magpie/internal/omarchy/hypr.go#L62) |
+| X | field_declaration | PanelAt::cur | [62](../../magpie/internal/omarchy/hypr.go#L62) |
+| mons | var_spec | PanelAt | [63](../../magpie/internal/omarchy/hypr.go#L63) |
 | panelAt | function_declaration |  | [73](../../magpie/internal/omarchy/hypr.go#L73) |
 | PlacePanel | function_declaration |  | [93](../../magpie/internal/omarchy/hypr.go#L93) |
 | panelRule | function_declaration |  | [100](../../magpie/internal/omarchy/hypr.go#L100) |
@@ -31,12 +30,14 @@ Source SHA-256: 5f96fa26ec9318b21564a8ff87e469d07116e89c7af9104f1b2adfbd1ef0841c
 | StopClicks | function_declaration |  | [123](../../magpie/internal/omarchy/hypr.go#L123) |
 | WatchClicks | function_declaration |  | [129](../../magpie/internal/omarchy/hypr.go#L129) |
 | ClickedOutside | function_declaration |  | [149](../../magpie/internal/omarchy/hypr.go#L149) |
-| X | field_declaration | ClickedOutside | [150](../../magpie/internal/omarchy/hypr.go#L150) |
-| Y | field_declaration | ClickedOutside | [150](../../magpie/internal/omarchy/hypr.go#L150) |
-| Title | field_declaration | ClickedOutside | [152](../../magpie/internal/omarchy/hypr.go#L152) |
-| At | field_declaration | ClickedOutside | [153](../../magpie/internal/omarchy/hypr.go#L153) |
-| Size | field_declaration | ClickedOutside | [154](../../magpie/internal/omarchy/hypr.go#L154) |
+| cur | var_spec | ClickedOutside | [150](../../magpie/internal/omarchy/hypr.go#L150) |
+| X | field_declaration | ClickedOutside::cur | [150](../../magpie/internal/omarchy/hypr.go#L150) |
+| clients | var_spec | ClickedOutside | [151](../../magpie/internal/omarchy/hypr.go#L151) |
+| Title | field_declaration | ClickedOutside::clients | [152](../../magpie/internal/omarchy/hypr.go#L152) |
+| At | field_declaration | ClickedOutside::clients | [153](../../magpie/internal/omarchy/hypr.go#L153) |
+| Size | field_declaration | ClickedOutside::clients | [154](../../magpie/internal/omarchy/hypr.go#L154) |
 | outside | function_declaration |  | [167](../../magpie/internal/omarchy/hypr.go#L167) |
 | regexpQuote | function_declaration |  | [174](../../magpie/internal/omarchy/hypr.go#L174) |
+| b | var_spec | regexpQuote | [175](../../magpie/internal/omarchy/hypr.go#L175) |
 | hyprJSON | function_declaration |  | [185](../../magpie/internal/omarchy/hypr.go#L185) |
 | hyprctl | function_declaration |  | [195](../../magpie/internal/omarchy/hypr.go#L195) |

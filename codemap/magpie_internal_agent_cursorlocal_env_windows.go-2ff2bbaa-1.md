@@ -9,3 +9,5 @@ Source SHA-256: d985ea6f13ae3f9a8dcd1b1dc5cfde69e8897a2bc30d7d6dee0186350b1485dc
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | setUserEnv | function_declaration |  | [14](../../magpie/internal/agent/cursorlocal_env_windows.go#L14) |
+| hwndBroadcast | const_spec | setUserEnv | [33](../../magpie/internal/agent/cursorlocal_env_windows.go#L33) |
+| res | var_spec | setUserEnv | [35](../../magpie/internal/agent/cursorlocal_env_windows.go#L35) |

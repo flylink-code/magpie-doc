@@ -9,3 +9,4 @@ Source SHA-256: b88f94af47bfaee7d18d38ef964cb1da1cd405b78adca7d5c3864cc03442d483
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | cursorLocalInstalls | function_declaration |  | [16](../../magpie/internal/agent/cursorlocal_installs_windows.go#L16) |
+| dirs | var_spec | cursorLocalInstalls | [17](../../magpie/internal/agent/cursorlocal_installs_windows.go#L17) |

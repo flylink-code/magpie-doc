@@ -11,16 +11,18 @@ Source SHA-256: 745db6abc750e87afc944e7bf5dc783456833f985b7d23ab9fa1aafdd2d1f78d
 | kiroTokenFile | const_spec |  | [30](../../magpie/internal/provider/kiro_accounts.go#L30) |
 | kiroAccountsDir | function_declaration |  | [33](../../magpie/internal/provider/kiro_accounts.go#L33) |
 | kiroLegacyPath | function_declaration |  | [37](../../magpie/internal/provider/kiro_accounts.go#L37) |
-| kiroLogin | struct_type |  | [41](../../magpie/internal/provider/kiro_accounts.go#L41) |
+| kiroLogin | type_spec |  | [41](../../magpie/internal/provider/kiro_accounts.go#L41) |
 | Home | field_declaration | kiroLogin | [43](../../magpie/internal/provider/kiro_accounts.go#L43) |
 | kiroOwnUser | function_declaration |  | [48](../../magpie/internal/provider/kiro_accounts.go#L48) |
 | kiroLogins | function_declaration |  | [58](../../magpie/internal/provider/kiro_accounts.go#L58) |
+| out | var_spec | kiroLogins | [60](../../magpie/internal/provider/kiro_accounts.go#L60) |
 | kiroAdoptLegacy | function_declaration |  | [73](../../magpie/internal/provider/kiro_accounts.go#L73) |
 | kiroAdopt | var_spec |  | [99](../../magpie/internal/provider/kiro_accounts.go#L99) |
+| tried | field_declaration | kiroAdopt | [101](../../magpie/internal/provider/kiro_accounts.go#L101) |
 | newKiroHome | function_declaration |  | [105](../../magpie/internal/provider/kiro_accounts.go#L105) |
 | removeKiroHome | function_declaration |  | [111](../../magpie/internal/provider/kiro_accounts.go#L111) |
 | addKiroLogin | function_declaration |  | [120](../../magpie/internal/provider/kiro_accounts.go#L120) |
-| kiroSaved | struct_type |  | [132](../../magpie/internal/provider/kiro_accounts.go#L132) |
+| kiroSaved | type_spec |  | [132](../../magpie/internal/provider/kiro_accounts.go#L132) |
 | AccessToken | field_declaration | kiroSaved | [133](../../magpie/internal/provider/kiro_accounts.go#L133) |
 | RefreshToken | field_declaration | kiroSaved | [134](../../magpie/internal/provider/kiro_accounts.go#L134) |
 | ExpiresAt | field_declaration | kiroSaved | [135](../../magpie/internal/provider/kiro_accounts.go#L135) |
@@ -31,3 +33,4 @@ Source SHA-256: 745db6abc750e87afc944e7bf5dc783456833f985b7d23ab9fa1aafdd2d1f78d
 | ClientID | field_declaration | kiroSaved | [140](../../magpie/internal/provider/kiro_accounts.go#L140) |
 | ClientSecret | field_declaration | kiroSaved | [141](../../magpie/internal/provider/kiro_accounts.go#L141) |
 | readKiroFile | function_declaration |  | [145](../../magpie/internal/provider/kiro_accounts.go#L145) |
+| t | var_spec | readKiroFile | [150](../../magpie/internal/provider/kiro_accounts.go#L150) |

@@ -9,6 +9,9 @@ Source SHA-256: 8dfaafd554470b8ce7b384d68e8e9c28367bcbc603bef130027d6a4f8fc07ef3
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | SetAccountOrder | function_declaration |  | [8](../../magpie/internal/provider/account_order.go#L8) |
+| available | var_spec | SetAccountOrder | [21](../../magpie/internal/provider/account_order.go#L21) |
 | arrangeLogins | function_declaration |  | [46](../../magpie/internal/provider/account_order.go#L46) |
 | arrangeLoginsAs | function_declaration |  | [52](../../magpie/internal/provider/account_order.go#L52) |
+| available | var_spec | arrangeLoginsAs | [53](../../magpie/internal/provider/account_order.go#L53) |
+| first | var_spec | arrangeLoginsAs | [54](../../magpie/internal/provider/account_order.go#L54) |
 | validateAccountOrder | function_declaration |  | [114](../../magpie/internal/provider/account_order.go#L114) |

@@ -12,6 +12,8 @@ Source SHA-256: 8a8df8aec22a87bbf3d4a7b04c1001f80bff04b5cc6be78c7bd48a5a6c8ccffc
 | dockGood | var_spec |  | [270](../../magpie/internal/gui/dockflap_darwin.go#L270) |
 | dockFlapping | var_spec |  | [271](../../magpie/internal/gui/dockflap_darwin.go#L271) |
 | dockReady | function_declaration |  | [277](../../magpie/internal/gui/dockflap_darwin.go#L277) |
+| capp | var_spec | dockReady | [290](../../magpie/internal/gui/dockflap_darwin.go#L290) |
+| ops | var_spec | dockReady | [296](../../magpie/internal/gui/dockflap_darwin.go#L296) |
 | floats | function_declaration |  | [318](../../magpie/internal/gui/dockflap_darwin.go#L318) |
 | dockAt | function_declaration |  | [326](../../magpie/internal/gui/dockflap_darwin.go#L326) |
 | dockFlap | function_declaration |  | [337](../../magpie/internal/gui/dockflap_darwin.go#L337) |

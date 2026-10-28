@@ -11,14 +11,12 @@ Source SHA-256: 7c08c674d3a5d1249a822be1771113bf2d5d9c0bf0772beee15e89e4ef4c199d
 | speedHalfLife | const_spec |  | [24](../../magpie/internal/gateway/speed.go#L24) |
 | speedStale | const_spec |  | [25](../../magpie/internal/gateway/speed.go#L25) |
 | speedMost | const_spec |  | [29](../../magpie/internal/gateway/speed.go#L29) |
-| speedRec | struct_type |  | [31](../../magpie/internal/gateway/speed.go#L31) |
+| speedRec | type_spec |  | [31](../../magpie/internal/gateway/speed.go#L31) |
 | ttft | field_declaration | speedRec | [32](../../magpie/internal/gateway/speed.go#L32) |
-| ttftW | field_declaration | speedRec | [32](../../magpie/internal/gateway/speed.go#L32) |
 | tps | field_declaration | speedRec | [33](../../magpie/internal/gateway/speed.go#L33) |
-| tpsW | field_declaration | speedRec | [33](../../magpie/internal/gateway/speed.go#L33) |
 | at | field_declaration | speedRec | [34](../../magpie/internal/gateway/speed.go#L34) |
-| tpsAt | field_declaration | speedRec | [34](../../magpie/internal/gateway/speed.go#L34) |
 | speeds | var_spec |  | [37](../../magpie/internal/gateway/speed.go#L37) |
+| m | field_declaration | speeds | [39](../../magpie/internal/gateway/speed.go#L39) |
 | decayed | function_declaration |  | [42](../../magpie/internal/gateway/speed.go#L42) |
 | fold | function_declaration |  | [50](../../magpie/internal/gateway/speed.go#L50) |
 | noteSpeed | function_declaration |  | [59](../../magpie/internal/gateway/speed.go#L59) |

@@ -9,7 +9,9 @@ Source SHA-256: 72c0284deaae97cfabaa43373eb9e54931ccf88d7b3a6d7abae2887554f19e1e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | accountsCmd | function_declaration |  | [29](../../magpie/internal/cli/accounts_cli.go#L29) |
-| accountRow | struct_type |  | [297](../../magpie/internal/cli/accounts_cli.go#L297) |
+| usage | const_spec | accountsCmd | [33](../../magpie/internal/cli/accounts_cli.go#L33) |
+| host | var_spec | accountsCmd | [132](../../magpie/internal/cli/accounts_cli.go#L132) |
+| accountRow | type_spec |  | [297](../../magpie/internal/cli/accounts_cli.go#L297) |
 | Agent | field_declaration | accountRow | [298](../../magpie/internal/cli/accounts_cli.go#L298) |
 | User | field_declaration | accountRow | [299](../../magpie/internal/cli/accounts_cli.go#L299) |
 | Plan | field_declaration | accountRow | [300](../../magpie/internal/cli/accounts_cli.go#L300) |
@@ -24,14 +26,22 @@ Source SHA-256: 72c0284deaae97cfabaa43373eb9e54931ccf88d7b3a6d7abae2887554f19e1e
 | Balance | field_declaration | accountRow | [312](../../magpie/internal/cli/accounts_cli.go#L312) |
 | Alias | field_declaration | accountRow | [315](../../magpie/internal/cli/accounts_cli.go#L315) |
 | Seat | field_declaration | accountRow | [316](../../magpie/internal/cli/accounts_cli.go#L316) |
-| quotaSpan | type_alias |  | [319](../../magpie/internal/cli/accounts_cli.go#L319) |
 | accountRows | function_declaration |  | [323](../../magpie/internal/cli/accounts_cli.go#L323) |
+| mu | var_spec | accountRows | [330](../../magpie/internal/cli/accounts_cli.go#L330) |
+| wg | var_spec | accountRows | [331](../../magpie/internal/cli/accounts_cli.go#L331) |
 | quotaCell | function_declaration |  | [377](../../magpie/internal/cli/accounts_cli.go#L377) |
 | quotaReadingCell | function_declaration |  | [405](../../magpie/internal/cli/accounts_cli.go#L405) |
 | untilShort | function_declaration |  | [420](../../magpie/internal/cli/accounts_cli.go#L420) |
 | addAccount | function_declaration |  | [434](../../magpie/internal/cli/accounts_cli.go#L434) |
+| yes | var_spec | addAccount | [438](../../magpie/internal/cli/accounts_cli.go#L438) |
 | importUsage | const_spec |  | [529](../../magpie/internal/cli/accounts_cli.go#L529) |
 | importAccounts | function_declaration |  | [541](../../magpie/internal/cli/accounts_cli.go#L541) |
+| rest | var_spec | importAccounts | [543](../../magpie/internal/cli/accounts_cli.go#L543) |
+| id | var_spec | importAccounts | [555](../../magpie/internal/cli/accounts_cli.go#L555) |
+| say | var_spec | importAccounts | [586](../../magpie/internal/cli/accounts_cli.go#L586) |
+| answer | var_spec | importAccounts | [604](../../magpie/internal/cli/accounts_cli.go#L604) |
+| res | var_spec | importAccounts | [614](../../magpie/internal/cli/accounts_cli.go#L614) |
+| err | var_spec | importAccounts | [615](../../magpie/internal/cli/accounts_cli.go#L615) |
 | openInBrowser | var_spec |  | [661](../../magpie/internal/cli/accounts_cli.go#L661) |
 | openURLInBrowser | function_declaration |  | [663](../../magpie/internal/cli/accounts_cli.go#L663) |
 | refreshAccounts | function_declaration |  | [674](../../magpie/internal/cli/accounts_cli.go#L674) |
@@ -39,4 +49,7 @@ Source SHA-256: 72c0284deaae97cfabaa43373eb9e54931ccf88d7b3a6d7abae2887554f19e1e
 | checkinAll | var_spec |  | [811](../../magpie/internal/cli/accounts_cli.go#L811) |
 | checkinWhy | function_declaration |  | [820](../../magpie/internal/cli/accounts_cli.go#L820) |
 | accountNamed | function_declaration |  | [830](../../magpie/internal/cli/accounts_cli.go#L830) |
+| names | var_spec | accountNamed | [841](../../magpie/internal/cli/accounts_cli.go#L841) |
 | switchOnlyCmd | function_declaration |  | [872](../../magpie/internal/cli/accounts_cli.go#L872) |
+| usage | const_spec | switchOnlyCmd | [873](../../magpie/internal/cli/accounts_cli.go#L873) |
+| on | var_spec | switchOnlyCmd | [885](../../magpie/internal/cli/accounts_cli.go#L885) |

@@ -8,4 +8,5 @@ Source SHA-256: 3323c2d7ff927188ff80b51add332dad8cabeeb77efe744c9826aa4a05a59ffb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| stage | method_declaration | *asideConnection | [12](../../magpie/internal/agent/aside_stage.go#L12) |
+| stage | method_declaration |  | [12](../../magpie/internal/agent/aside_stage.go#L12) |
+| saved | var_spec | stage | [30](../../magpie/internal/agent/aside_stage.go#L30) |

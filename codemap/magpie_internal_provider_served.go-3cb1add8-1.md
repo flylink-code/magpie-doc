@@ -10,6 +10,9 @@ Source SHA-256: e50377a185710e778d088130e11a26070db0c2521cc9ce095c9c474613406dfb
 | --- | --- | --- | ---: |
 | servedKeep | const_spec |  | [24](../../magpie/internal/provider/served.go#L24) |
 | servedAt | var_spec |  | [26](../../magpie/internal/provider/served.go#L26) |
+| m | field_declaration | servedAt | [28](../../magpie/internal/provider/served.go#L28) |
+| path | field_declaration | servedAt | [29](../../magpie/internal/provider/served.go#L29) |
+| by | field_declaration | servedAt | [32](../../magpie/internal/provider/served.go#L32) |
 | OnServedMoved | function_declaration |  | [41](../../magpie/internal/provider/served.go#L41) |
 | onServedMoved | var_spec |  | [49](../../magpie/internal/provider/served.go#L49) |
 | servedMoved | function_declaration |  | [51](../../magpie/internal/provider/served.go#L51) |
@@ -20,16 +23,20 @@ Source SHA-256: e50377a185710e778d088130e11a26070db0c2521cc9ce095c9c474613406dfb
 | servedFlushAfter | var_spec |  | [98](../../magpie/internal/provider/served.go#L98) |
 | writeBehind | function_declaration |  | [101](../../magpie/internal/provider/served.go#L101) |
 | servedFlush | var_spec |  | [109](../../magpie/internal/provider/served.go#L109) |
+| pending | field_declaration | servedFlush | [111](../../magpie/internal/provider/served.go#L111) |
+| writes | field_declaration | servedFlush | [112](../../magpie/internal/provider/served.go#L112) |
 | NoteServed | function_declaration |  | [118](../../magpie/internal/provider/served.go#L118) |
 | FlushServed | function_declaration |  | [153](../../magpie/internal/provider/served.go#L153) |
 | flushServed | function_declaration |  | [159](../../magpie/internal/provider/served.go#L159) |
 | LastServed | function_declaration |  | [193](../../magpie/internal/provider/served.go#L193) |
 | readServed | function_declaration |  | [211](../../magpie/internal/provider/served.go#L211) |
 | withServed | function_declaration |  | [224](../../magpie/internal/provider/served.go#L224) |
-| servedBy | struct_type |  | [250](../../magpie/internal/provider/served.go#L250) |
+| latest | var_spec | withServed | [229](../../magpie/internal/provider/served.go#L229) |
+| servedBy | type_spec |  | [250](../../magpie/internal/provider/served.go#L250) |
 | served | field_declaration | servedBy | [251](../../magpie/internal/provider/served.go#L251) |
 | keys | field_declaration | servedBy | [252](../../magpie/internal/provider/served.go#L252) |
-| at | method_declaration | *servedBy | [257](../../magpie/internal/provider/served.go#L257) |
+| at | method_declaration |  | [257](../../magpie/internal/provider/served.go#L257) |
+| at | var_spec | at | [258](../../magpie/internal/provider/served.go#L258) |
 | cardsServed | function_declaration |  | [298](../../magpie/internal/provider/served.go#L298) |
 | kind | field_declaration | cardsServed | [302](../../magpie/internal/provider/served.go#L302) |
 | qs | field_declaration | cardsServed | [303](../../magpie/internal/provider/served.go#L303) |

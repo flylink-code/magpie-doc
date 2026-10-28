@@ -8,4 +8,4 @@ Source SHA-256: 9bc59e6c68cc3502d815836eb5bb10a6f4844ace84eedb8ff141d6f57cb29ce4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| fontsChanged | method_declaration | *host | [10](../../magpie/internal/gui/fonts_desktop.go#L10) |
+| fontsChanged | method_declaration |  | [10](../../magpie/internal/gui/fonts_desktop.go#L10) |

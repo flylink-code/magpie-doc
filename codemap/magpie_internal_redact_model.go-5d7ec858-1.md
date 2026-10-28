@@ -8,14 +8,15 @@ Source SHA-256: 46c6b445baf8a7a27f7220fc91aae9db3776f3508488a6fe06d59cff02d64817
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Found | struct_type |  | [17](../../magpie/internal/redact/model.go#L17) |
+| Found | type_spec |  | [17](../../magpie/internal/redact/model.go#L17) |
 | Start | field_declaration | Found | [18](../../magpie/internal/redact/model.go#L18) |
-| End | field_declaration | Found | [18](../../magpie/internal/redact/model.go#L18) |
 | Label | field_declaration | Found | [19](../../magpie/internal/redact/model.go#L19) |
 | Model | type_spec |  | [25](../../magpie/internal/redact/model.go#L25) |
 | modelKinds | var_spec |  | [30](../../magpie/internal/redact/model.go#L30) |
 | modelCat | function_declaration |  | [40](../../magpie/internal/redact/model.go#L40) |
 | modelSpans | function_declaration |  | [51](../../magpie/internal/redact/model.go#L51) |
+| out | var_spec | modelSpans | [55](../../magpie/internal/redact/model.go#L55) |
+| person | var_spec | modelSpans | [87](../../magpie/internal/redact/model.go#L87) |
 | isSpace | function_declaration |  | [98](../../magpie/internal/redact/model.go#L98) |
 | delimiter | function_declaration |  | [107](../../magpie/internal/redact/model.go#L107) |
 | modelTakes | function_declaration |  | [117](../../magpie/internal/redact/model.go#L117) |
@@ -32,6 +33,7 @@ Source SHA-256: 46c6b445baf8a7a27f7220fc91aae9db3776f3508488a6fe06d59cff02d64817
 | madeID | function_declaration |  | [204](../../magpie/internal/redact/model.go#L204) |
 | keyHeads | var_spec |  | [227](../../magpie/internal/redact/model.go#L227) |
 | withModel | function_declaration |  | [231](../../magpie/internal/redact/model.go#L231) |
+| ask | var_spec | withModel | [235](../../magpie/internal/redact/model.go#L235) |
 | modelFits | function_declaration |  | [297](../../magpie/internal/redact/model.go#L297) |
 | wordByte | function_declaration |  | [344](../../magpie/internal/redact/model.go#L344) |
 | personFits | function_declaration |  | [348](../../magpie/internal/redact/model.go#L348) |

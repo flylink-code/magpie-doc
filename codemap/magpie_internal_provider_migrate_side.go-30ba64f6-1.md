@@ -9,6 +9,10 @@ Source SHA-256: 9a480d56955bf9db9bfb51490129cb55331b07ed73b85eebedd28a19f4a4e614
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [17](../../magpie/internal/provider/migrate_side.go#L17) |
+| out | var_spec | init | [23](../../magpie/internal/provider/migrate_side.go#L23) |
+| out | var_spec | init | [103](../../magpie/internal/provider/migrate_side.go#L103) |
+| exp | var_spec | init | [109](../../magpie/internal/provider/migrate_side.go#L109) |
+| out | var_spec | init | [145](../../magpie/internal/provider/migrate_side.go#L145) |
 | devinServer | const_spec |  | [242](../../magpie/internal/provider/migrate_side.go#L242) |
 | cursorCLIMark | const_spec |  | [243](../../magpie/internal/provider/migrate_side.go#L243) |
 | ownUser | function_declaration |  | [247](../../magpie/internal/provider/migrate_side.go#L247) |

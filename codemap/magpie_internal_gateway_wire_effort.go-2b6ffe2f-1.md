@@ -9,11 +9,11 @@ Source SHA-256: 23eefb2711b94138c170675731c19b6568041994df1dede4d0593ae85c1e9bbb
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | thinkingBackOn | function_declaration |  | [12](../../magpie/internal/gateway/wire_effort.go#L12) |
-| wireAt | struct_type |  | [23](../../magpie/internal/gateway/wire_effort.go#L23) |
+| wireAt | type_spec |  | [23](../../magpie/internal/gateway/wire_effort.go#L23) |
 | effort | field_declaration | wireAt | [24](../../magpie/internal/gateway/wire_effort.go#L24) |
 | set | field_declaration | wireAt | [25](../../magpie/internal/gateway/wire_effort.go#L25) |
 | tier | field_declaration | wireAt | [28](../../magpie/internal/gateway/wire_effort.go#L28) |
-| wireAtKey | struct_type |  | [31](../../magpie/internal/gateway/wire_effort.go#L31) |
+| wireAtKey | type_spec |  | [31](../../magpie/internal/gateway/wire_effort.go#L31) |
 | withWireAt | function_declaration |  | [34](../../magpie/internal/gateway/wire_effort.go#L34) |
 | noteWireEffort | function_declaration |  | [40](../../magpie/internal/gateway/wire_effort.go#L40) |
 | wireEffort | function_declaration |  | [57](../../magpie/internal/gateway/wire_effort.go#L57) |

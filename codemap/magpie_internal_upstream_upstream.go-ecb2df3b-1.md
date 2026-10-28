@@ -8,7 +8,7 @@ Source SHA-256: b7a44abfaa43e5369782113cf41f03e3158eba8bf0d363d9c49ac5ac7e72117e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Vendor | struct_type |  | [28](../../magpie/internal/upstream/upstream.go#L28) |
+| Vendor | type_spec |  | [28](../../magpie/internal/upstream/upstream.go#L28) |
 | ID | field_declaration | Vendor | [29](../../magpie/internal/upstream/upstream.go#L29) |
 | Name | field_declaration | Vendor | [30](../../magpie/internal/upstream/upstream.go#L30) |
 | Page | field_declaration | Vendor | [34](../../magpie/internal/upstream/upstream.go#L34) |
@@ -18,7 +18,7 @@ Source SHA-256: b7a44abfaa43e5369782113cf41f03e3158eba8bf0d363d9c49ac5ac7e72117e
 | Vendors | var_spec |  | [44](../../magpie/internal/upstream/upstream.go#L44) |
 | VendorOf | function_declaration |  | [72](../../magpie/internal/upstream/upstream.go#L72) |
 | hostOf | function_declaration |  | [84](../../magpie/internal/upstream/upstream.go#L84) |
-| Status | struct_type |  | [99](../../magpie/internal/upstream/upstream.go#L99) |
+| Status | type_spec |  | [99](../../magpie/internal/upstream/upstream.go#L99) |
 | Vendor | field_declaration | Status | [100](../../magpie/internal/upstream/upstream.go#L100) |
 | Name | field_declaration | Status | [101](../../magpie/internal/upstream/upstream.go#L101) |
 | Page | field_declaration | Status | [102](../../magpie/internal/upstream/upstream.go#L102) |
@@ -27,10 +27,10 @@ Source SHA-256: b7a44abfaa43e5369782113cf41f03e3158eba8bf0d363d9c49ac5ac7e72117e
 | Incidents | field_declaration | Status | [108](../../magpie/internal/upstream/upstream.go#L108) |
 | Read | field_declaration | Status | [109](../../magpie/internal/upstream/upstream.go#L109) |
 | Error | field_declaration | Status | [110](../../magpie/internal/upstream/upstream.go#L110) |
-| Part | struct_type |  | [115](../../magpie/internal/upstream/upstream.go#L115) |
+| Part | type_spec |  | [115](../../magpie/internal/upstream/upstream.go#L115) |
 | Name | field_declaration | Part | [116](../../magpie/internal/upstream/upstream.go#L116) |
 | Status | field_declaration | Part | [117](../../magpie/internal/upstream/upstream.go#L117) |
-| Incident | struct_type |  | [121](../../magpie/internal/upstream/upstream.go#L121) |
+| Incident | type_spec |  | [121](../../magpie/internal/upstream/upstream.go#L121) |
 | Name | field_declaration | Incident | [122](../../magpie/internal/upstream/upstream.go#L122) |
 | Impact | field_declaration | Incident | [123](../../magpie/internal/upstream/upstream.go#L123) |
 | URL | field_declaration | Incident | [124](../../magpie/internal/upstream/upstream.go#L124) |
@@ -41,23 +41,25 @@ Source SHA-256: b7a44abfaa43e5369782113cf41f03e3158eba8bf0d363d9c49ac5ac7e72117e
 | now | var_spec |  | [136](../../magpie/internal/upstream/upstream.go#L136) |
 | client | var_spec |  | [137](../../magpie/internal/upstream/upstream.go#L137) |
 | Of | function_declaration |  | [143](../../magpie/internal/upstream/upstream.go#L143) |
+| out | var_spec | Of | [146](../../magpie/internal/upstream/upstream.go#L146) |
 | Wait | function_declaration |  | [168](../../magpie/internal/upstream/upstream.go#L168) |
 | ask | function_declaration |  | [181](../../magpie/internal/upstream/upstream.go#L181) |
 | Forget | function_declaration |  | [196](../../magpie/internal/upstream/upstream.go#L196) |
-| summary | struct_type |  | [204](../../magpie/internal/upstream/upstream.go#L204) |
+| summary | type_spec |  | [204](../../magpie/internal/upstream/upstream.go#L204) |
 | Components | field_declaration | summary | [205](../../magpie/internal/upstream/upstream.go#L205) |
-| ID | field_declaration | summary | [206](../../magpie/internal/upstream/upstream.go#L206) |
-| Name | field_declaration | summary | [207](../../magpie/internal/upstream/upstream.go#L207) |
-| Status | field_declaration | summary | [208](../../magpie/internal/upstream/upstream.go#L208) |
-| Group | field_declaration | summary | [209](../../magpie/internal/upstream/upstream.go#L209) |
+| ID | field_declaration | summary::Components | [206](../../magpie/internal/upstream/upstream.go#L206) |
+| Name | field_declaration | summary::Components | [207](../../magpie/internal/upstream/upstream.go#L207) |
+| Status | field_declaration | summary::Components | [208](../../magpie/internal/upstream/upstream.go#L208) |
+| Group | field_declaration | summary::Components | [209](../../magpie/internal/upstream/upstream.go#L209) |
 | Incidents | field_declaration | summary | [211](../../magpie/internal/upstream/upstream.go#L211) |
-| Name | field_declaration | summary | [212](../../magpie/internal/upstream/upstream.go#L212) |
-| Status | field_declaration | summary | [213](../../magpie/internal/upstream/upstream.go#L213) |
-| Impact | field_declaration | summary | [214](../../magpie/internal/upstream/upstream.go#L214) |
-| Shortlink | field_declaration | summary | [215](../../magpie/internal/upstream/upstream.go#L215) |
-| Components | field_declaration | summary | [216](../../magpie/internal/upstream/upstream.go#L216) |
-| ID | field_declaration | summary | [217](../../magpie/internal/upstream/upstream.go#L217) |
-| Name | field_declaration | summary | [218](../../magpie/internal/upstream/upstream.go#L218) |
+| Name | field_declaration | summary::Incidents | [212](../../magpie/internal/upstream/upstream.go#L212) |
+| Status | field_declaration | summary::Incidents | [213](../../magpie/internal/upstream/upstream.go#L213) |
+| Impact | field_declaration | summary::Incidents | [214](../../magpie/internal/upstream/upstream.go#L214) |
+| Shortlink | field_declaration | summary::Incidents | [215](../../magpie/internal/upstream/upstream.go#L215) |
+| Components | field_declaration | summary::Incidents | [216](../../magpie/internal/upstream/upstream.go#L216) |
+| ID | field_declaration | summary::Incidents::Components | [217](../../magpie/internal/upstream/upstream.go#L217) |
+| Name | field_declaration | summary::Incidents::Components | [218](../../magpie/internal/upstream/upstream.go#L218) |
 | level | var_spec |  | [224](../../magpie/internal/upstream/upstream.go#L224) |
 | levelName | var_spec |  | [225](../../magpie/internal/upstream/upstream.go#L225) |
 | read | function_declaration |  | [227](../../magpie/internal/upstream/upstream.go#L227) |
+| sum | var_spec | read | [252](../../magpie/internal/upstream/upstream.go#L252) |

@@ -8,7 +8,7 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Options | struct_type |  | [38](../../magpie/internal/redact/redact.go#L38) |
+| Options | type_spec |  | [38](../../magpie/internal/redact/redact.go#L38) |
 | Secrets | field_declaration | Options | [39](../../magpie/internal/redact/redact.go#L39) |
 | Personal | field_declaration | Options | [40](../../magpie/internal/redact/redact.go#L40) |
 | Words | field_declaration | Options | [41](../../magpie/internal/redact/redact.go#L41) |
@@ -22,8 +22,8 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | Seen | field_declaration | Options | [66](../../magpie/internal/redact/redact.go#L66) |
 | found | field_declaration | Options | [69](../../magpie/internal/redact/redact.go#L69) |
 | sent | field_declaration | Options | [72](../../magpie/internal/redact/redact.go#L72) |
-| covers | method_declaration | Options | [78](../../magpie/internal/redact/redact.go#L78) |
-| rule | struct_type |  | [97](../../magpie/internal/redact/redact.go#L97) |
+| covers | method_declaration |  | [78](../../magpie/internal/redact/redact.go#L78) |
+| rule | type_spec |  | [97](../../magpie/internal/redact/redact.go#L97) |
 | kind | field_declaration | rule | [98](../../magpie/internal/redact/redact.go#L98) |
 | re | field_declaration | rule | [99](../../magpie/internal/redact/redact.go#L99) |
 | markers | field_declaration | rule | [100](../../magpie/internal/redact/redact.go#L100) |
@@ -33,7 +33,6 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | at | field_declaration | rule | [108](../../magpie/internal/redact/redact.go#L108) |
 | fix | field_declaration | rule | [111](../../magpie/internal/redact/redact.go#L111) |
 | back | field_declaration | rule | [115](../../magpie/internal/redact/redact.go#L115) |
-| ahead | field_declaration | rule | [115](../../magpie/internal/redact/redact.go#L115) |
 | cat | field_declaration | rule | [117](../../magpie/internal/redact/redact.go#L117) |
 | yours | field_declaration | rule | [119](../../magpie/internal/redact/redact.go#L119) |
 | anyGroup | field_declaration | rule | [122](../../magpie/internal/redact/redact.go#L122) |
@@ -50,10 +49,10 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | cjkNamed | function_declaration |  | [211](../../magpie/internal/redact/redact.go#L211) |
 | fieldNames | type_spec |  | [218](../../magpie/internal/redact/redact.go#L218) |
 | re | field_declaration | fieldNames | [218](../../magpie/internal/redact/redact.go#L218) |
-| marker | field_declaration | fieldNames | [218](../../magpie/internal/redact/redact.go#L218) |
 | secretNames | var_spec |  | [222](../../magpie/internal/redact/redact.go#L222) |
-| pattern | method_declaration | fieldNames | [230](../../magpie/internal/redact/redact.go#L230) |
-| markers | method_declaration | fieldNames | [240](../../magpie/internal/redact/redact.go#L240) |
+| pattern | method_declaration |  | [230](../../magpie/internal/redact/redact.go#L230) |
+| markers | method_declaration |  | [240](../../magpie/internal/redact/redact.go#L240) |
+| out | var_spec | markers | [241](../../magpie/internal/redact/redact.go#L241) |
 | quote | const_spec |  | [255](../../magpie/internal/redact/redact.go#L255) |
 | secretCh | const_spec |  | [257](../../magpie/internal/redact/redact.go#L257) |
 | placeholderRe | var_spec |  | [261](../../magpie/internal/redact/redact.go#L261) |
@@ -77,6 +76,7 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | fileHost | function_declaration |  | [450](../../magpie/internal/redact/redact.go#L450) |
 | chineseID | function_declaration |  | [456](../../magpie/internal/redact/redact.go#L456) |
 | luhn | function_declaration |  | [465](../../magpie/internal/redact/redact.go#L465) |
+| ds | var_spec | luhn | [466](../../magpie/internal/redact/redact.go#L466) |
 | mu | var_spec |  | [491](../../magpie/internal/redact/redact.go#L491) |
 | values | var_spec |  | [492](../../magpie/internal/redact/redact.go#L492) |
 | kinds | var_spec |  | [493](../../magpie/internal/redact/redact.go#L493) |
@@ -90,10 +90,9 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | tag | function_declaration |  | [550](../../magpie/internal/redact/redact.go#L550) |
 | placeholder | function_declaration |  | [556](../../magpie/internal/redact/redact.go#L556) |
 | makeRoom | function_declaration |  | [571](../../magpie/internal/redact/redact.go#L571) |
-| put | method_declaration | Options | [588](../../magpie/internal/redact/redact.go#L588) |
-| span | struct_type |  | [597](../../magpie/internal/redact/redact.go#L597) |
+| put | method_declaration |  | [588](../../magpie/internal/redact/redact.go#L588) |
+| span | type_spec |  | [597](../../magpie/internal/redact/redact.go#L597) |
 | start | field_declaration | span | [598](../../magpie/internal/redact/redact.go#L598) |
-| end | field_declaration | span | [598](../../magpie/internal/redact/redact.go#L598) |
 | kind | field_declaration | span | [599](../../magpie/internal/redact/redact.go#L599) |
 | by | field_declaration | span | [600](../../magpie/internal/redact/redact.go#L600) |
 | ByRule | const_spec |  | [607](../../magpie/internal/redact/redact.go#L607) |
@@ -103,8 +102,9 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 | ByKnown | const_spec |  | [611](../../magpie/internal/redact/redact.go#L611) |
 | Warn | const_spec |  | [617](../../magpie/internal/redact/redact.go#L617) |
 | Block | const_spec |  | [618](../../magpie/internal/redact/redact.go#L618) |
-| Hit | struct_type |  | [625](../../magpie/internal/redact/redact.go#L625) |
+| Hit | type_spec |  | [625](../../magpie/internal/redact/redact.go#L625) |
 | Kind | field_declaration | Hit | [626](../../magpie/internal/redact/redact.go#L626) |
-| By | field_declaration | Hit | [626](../../magpie/internal/redact/redact.go#L626) |
-| Placeholder | field_declaration | Hit | [626](../../magpie/internal/redact/redact.go#L626) |
-| Action | field_declaration | Hit | [626](../../magpie/internal/redact/redact.go#L626) |
+| Head | field_declaration | Hit | [627](../../magpie/internal/redact/redact.go#L627) |
+| Len | field_declaration | Hit | [628](../../magpie/internal/redact/redact.go#L628) |
+| Value | function_declaration |  | [633](../../magpie/internal/redact/redact.go#L633) |
+| Hint | function_declaration |  | [643](../../magpie/internal/redact/redact.go#L643) |

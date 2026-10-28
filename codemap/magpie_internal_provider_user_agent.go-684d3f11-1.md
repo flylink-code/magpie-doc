@@ -8,5 +8,5 @@ Source SHA-256: 98f17fac1c286473eee084305870a4099ce1118682700ebbc3f801e47972532d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| PassesUserAgent | method_declaration | Provider | [9](../../magpie/internal/provider/user_agent.go#L9) |
-| OwnClient | method_declaration | Provider | [17](../../magpie/internal/provider/user_agent.go#L17) |
+| PassesUserAgent | method_declaration |  | [9](../../magpie/internal/provider/user_agent.go#L9) |
+| OwnClient | method_declaration |  | [17](../../magpie/internal/provider/user_agent.go#L17) |

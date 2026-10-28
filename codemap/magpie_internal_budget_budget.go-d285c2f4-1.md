@@ -8,32 +8,32 @@ Source SHA-256: e3f9386f1ff042eaa294885dcfb6c29ef69f6e578635476b4534a6aadfcd53e9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sums | struct_type |  | [49](../../magpie/internal/budget/budget.go#L49) |
+| sums | type_spec |  | [49](../../magpie/internal/budget/budget.go#L49) |
 | start | field_declaration | sums | [50](../../magpie/internal/budget/budget.go#L50) |
 | calls | field_declaration | sums | [51](../../magpie/internal/budget/budget.go#L51) |
 | input | field_declaration | sums | [52](../../magpie/internal/budget/budget.go#L52) |
-| output | field_declaration | sums | [52](../../magpie/internal/budget/budget.go#L52) |
-| cacheRead | field_declaration | sums | [52](../../magpie/internal/budget/budget.go#L52) |
-| cacheWrite | field_declaration | sums | [52](../../magpie/internal/budget/budget.go#L52) |
 | cost | field_declaration | sums | [53](../../magpie/internal/budget/budget.go#L53) |
 | unpriced | field_declaration | sums | [54](../../magpie/internal/budget/budget.go#L54) |
-| add | method_declaration | *sums | [57](../../magpie/internal/budget/budget.go#L57) |
-| tokens | method_declaration | *sums | [69](../../magpie/internal/budget/budget.go#L69) |
-| held | struct_type |  | [77](../../magpie/internal/budget/budget.go#L77) |
+| add | method_declaration |  | [57](../../magpie/internal/budget/budget.go#L57) |
+| tokens | method_declaration |  | [69](../../magpie/internal/budget/budget.go#L69) |
+| held | type_spec |  | [77](../../magpie/internal/budget/budget.go#L77) |
 | n | field_declaration | held | [78](../../magpie/internal/budget/budget.go#L78) |
 | tokens | field_declaration | held | [79](../../magpie/internal/budget/budget.go#L79) |
 | cost | field_declaration | held | [80](../../magpie/internal/budget/budget.go#L80) |
-| window | struct_type |  | [85](../../magpie/internal/budget/budget.go#L85) |
+| window | type_spec |  | [85](../../magpie/internal/budget/budget.go#L85) |
 | key | field_declaration | window | [86](../../magpie/internal/budget/budget.go#L86) |
 | start | field_declaration | window | [87](../../magpie/internal/budget/budget.go#L87) |
 | state | var_spec |  | [90](../../magpie/internal/budget/budget.go#L90) |
+| sums | field_declaration | state | [92](../../magpie/internal/budget/budget.go#L92) |
+| held | field_declaration | state | [93](../../magpie/internal/budget/budget.go#L93) |
 | slot | function_declaration |  | [96](../../magpie/internal/budget/budget.go#L96) |
 | counts | function_declaration |  | [101](../../magpie/internal/budget/budget.go#L101) |
 | sumsFor | function_declaration |  | [108](../../magpie/internal/budget/budget.go#L108) |
+| next | var_spec | sumsFor | [112](../../magpie/internal/budget/budget.go#L112) |
 | read | function_declaration |  | [132](../../magpie/internal/budget/budget.go#L132) |
 | Forget | function_declaration |  | [145](../../magpie/internal/budget/budget.go#L145) |
 | Append | function_declaration |  | [155](../../magpie/internal/budget/budget.go#L155) |
-| Status | struct_type |  | [179](../../magpie/internal/budget/budget.go#L179) |
+| Status | type_spec |  | [179](../../magpie/internal/budget/budget.go#L179) |
 | Period | field_declaration | Status | [180](../../magpie/internal/budget/budget.go#L180) |
 | Days | field_declaration | Status | [182](../../magpie/internal/budget/budget.go#L182) |
 | Hours | field_declaration | Status | [183](../../magpie/internal/budget/budget.go#L183) |
@@ -55,21 +55,28 @@ Source SHA-256: e3f9386f1ff042eaa294885dcfb6c29ef69f6e578635476b4534a6aadfcd53e9
 | status | function_declaration |  | [204](../../magpie/internal/budget/budget.go#L204) |
 | Of | function_declaration |  | [224](../../magpie/internal/budget/budget.go#L224) |
 | All | function_declaration |  | [235](../../magpie/internal/budget/budget.go#L235) |
+| out | var_spec | All | [237](../../magpie/internal/budget/budget.go#L237) |
 | Binding | function_declaration |  | [257](../../magpie/internal/budget/budget.go#L257) |
-| share | method_declaration | *Status | [280](../../magpie/internal/budget/budget.go#L280) |
-| Refusal | struct_type |  | [292](../../magpie/internal/budget/budget.go#L292) |
+| b | var_spec | Binding | [258](../../magpie/internal/budget/budget.go#L258) |
+| share | method_declaration |  | [280](../../magpie/internal/budget/budget.go#L280) |
+| f | var_spec | share | [281](../../magpie/internal/budget/budget.go#L281) |
+| Refusal | type_spec |  | [292](../../magpie/internal/budget/budget.go#L292) |
 | Key | field_declaration | Refusal | [294](../../magpie/internal/budget/budget.go#L294) |
-| Error | method_declaration | *Refusal | [299](../../magpie/internal/budget/budget.go#L299) |
-| RetryAfter | method_declaration | *Refusal | [318](../../magpie/internal/budget/budget.go#L318) |
-| ResetAt | method_declaration | *Refusal | [323](../../magpie/internal/budget/budget.go#L323) |
-| Limiter | struct_type |  | [327](../../magpie/internal/budget/budget.go#L327) |
-| Reserve | method_declaration | Limiter | [329](../../magpie/internal/budget/budget.go#L329) |
+| Error | method_declaration |  | [299](../../magpie/internal/budget/budget.go#L299) |
+| RetryAfter | method_declaration |  | [318](../../magpie/internal/budget/budget.go#L318) |
+| ResetAt | method_declaration |  | [323](../../magpie/internal/budget/budget.go#L323) |
+| Limiter | type_spec |  | [327](../../magpie/internal/budget/budget.go#L327) |
+| Reserve | method_declaration |  | [329](../../magpie/internal/budget/budget.go#L329) |
 | Reserve | function_declaration |  | [341](../../magpie/internal/budget/budget.go#L341) |
-| hold | struct_type | Reserve | [375](../../magpie/internal/budget/budget.go#L375) |
-| k | field_declaration | Reserve.hold | [376](../../magpie/internal/budget/budget.go#L376) |
-| h | field_declaration | Reserve.hold | [377](../../magpie/internal/budget/budget.go#L377) |
-| est | field_declaration | Reserve.hold | [378](../../magpie/internal/budget/budget.go#L378) |
-| cost | field_declaration | Reserve.hold | [379](../../magpie/internal/budget/budget.go#L379) |
+| ht | var_spec | Reserve | [359](../../magpie/internal/budget/budget.go#L359) |
+| hc | var_spec | Reserve | [360](../../magpie/internal/budget/budget.go#L360) |
+| hold | type_spec | Reserve | [375](../../magpie/internal/budget/budget.go#L375) |
+| k | field_declaration | Reserve::hold | [376](../../magpie/internal/budget/budget.go#L376) |
+| h | field_declaration | Reserve::hold | [377](../../magpie/internal/budget/budget.go#L377) |
+| est | field_declaration | Reserve::hold | [378](../../magpie/internal/budget/budget.go#L378) |
+| cost | field_declaration | Reserve::hold | [379](../../magpie/internal/budget/budget.go#L379) |
+| holds | var_spec | Reserve | [381](../../magpie/internal/budget/budget.go#L381) |
 | priceOf | function_declaration |  | [434](../../magpie/internal/budget/budget.go#L434) |
 | ModelOf | function_declaration |  | [447](../../magpie/internal/budget/budget.go#L447) |
-| Model | field_declaration | ModelOf | [449](../../magpie/internal/budget/budget.go#L449) |
+| v | var_spec | ModelOf | [448](../../magpie/internal/budget/budget.go#L448) |
+| Model | field_declaration | ModelOf::v | [449](../../magpie/internal/budget/budget.go#L449) |

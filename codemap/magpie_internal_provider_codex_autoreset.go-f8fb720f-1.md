@@ -21,21 +21,25 @@ Source SHA-256: 8f90cfde53f4b25964ef4d31167c283ad4b805dfa74a666f9882e20f8497e1ce
 | SetCodexAutoResetCase | function_declaration |  | [109](../../magpie/internal/provider/codex_autoreset.go#L109) |
 | setCodexAutoReset | function_declaration |  | [122](../../magpie/internal/provider/codex_autoreset.go#L122) |
 | autoReset | var_spec |  | [145](../../magpie/internal/provider/codex_autoreset.go#L145) |
-| autoResets | struct_type |  | [147](../../magpie/internal/provider/codex_autoreset.go#L147) |
+| autoResets | type_spec |  | [147](../../magpie/internal/provider/codex_autoreset.go#L147) |
 | file | field_declaration | autoResets | [149](../../magpie/internal/provider/codex_autoreset.go#L149) |
 | path | field_declaration | autoResets | [150](../../magpie/internal/provider/codex_autoreset.go#L150) |
 | spent | field_declaration | autoResets | [154](../../magpie/internal/provider/codex_autoreset.go#L154) |
 | next | field_declaration | autoResets | [156](../../magpie/internal/provider/codex_autoreset.go#L156) |
-| autoResetSpent | struct_type |  | [159](../../magpie/internal/provider/codex_autoreset.go#L159) |
+| autoResetSpent | type_spec |  | [159](../../magpie/internal/provider/codex_autoreset.go#L159) |
 | Until | field_declaration | autoResetSpent | [160](../../magpie/internal/provider/codex_autoreset.go#L160) |
 | At | field_declaration | autoResetSpent | [161](../../magpie/internal/provider/codex_autoreset.go#L161) |
 | Out | field_declaration | autoResetSpent | [162](../../magpie/internal/provider/codex_autoreset.go#L162) |
 | autoResetWait | var_spec |  | [167](../../magpie/internal/provider/codex_autoreset.go#L167) |
-| where | method_declaration | *autoResets | [169](../../magpie/internal/provider/codex_autoreset.go#L169) |
+| where | method_declaration |  | [169](../../magpie/internal/provider/codex_autoreset.go#L169) |
 | AutoUseCodexReset | function_declaration |  | [176](../../magpie/internal/provider/codex_autoreset.go#L176) |
-| use | method_declaration | *autoResets | [203](../../magpie/internal/provider/codex_autoreset.go#L203) |
+| who | var_spec | AutoUseCodexReset | [187](../../magpie/internal/provider/codex_autoreset.go#L187) |
+| windows | var_spec | AutoUseCodexReset | [189](../../magpie/internal/provider/codex_autoreset.go#L189) |
+| resets | var_spec | AutoUseCodexReset | [190](../../magpie/internal/provider/codex_autoreset.go#L190) |
+| err | var_spec | AutoUseCodexReset | [191](../../magpie/internal/provider/codex_autoreset.go#L191) |
+| use | method_declaration |  | [203](../../magpie/internal/provider/codex_autoreset.go#L203) |
 | weekUsedUp | function_declaration |  | [246](../../magpie/internal/provider/codex_autoreset.go#L246) |
-| load | method_declaration | *autoResets | [263](../../magpie/internal/provider/codex_autoreset.go#L263) |
+| load | method_declaration |  | [263](../../magpie/internal/provider/codex_autoreset.go#L263) |
 | autoResetAny | const_spec |  | [315](../../magpie/internal/provider/codex_autoreset.go#L315) |
 | autoResetWeek | const_spec |  | [316](../../magpie/internal/provider/codex_autoreset.go#L316) |
-| save | method_declaration | *autoResets | [323](../../magpie/internal/provider/codex_autoreset.go#L323) |
+| save | method_declaration |  | [323](../../magpie/internal/provider/codex_autoreset.go#L323) |

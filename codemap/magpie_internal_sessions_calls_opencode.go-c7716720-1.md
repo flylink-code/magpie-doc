@@ -10,10 +10,15 @@ Source SHA-256: 2191428143e55e4764ace7c5f27de2e957b2d2fc2abf74481bcb4dd2bb21d05e
 | --- | --- | --- | ---: |
 | ocGatewayProvider | function_declaration |  | [30](../../magpie/internal/sessions/calls_opencode.go#L30) |
 | ocCallList | var_spec |  | [34](../../magpie/internal/sessions/calls_opencode.go#L34) |
+| stamp | field_declaration | ocCallList | [36](../../magpie/internal/sessions/calls_opencode.go#L36) |
+| files | field_declaration | ocCallList | [37](../../magpie/internal/sessions/calls_opencode.go#L37) |
 | openCodeCallFiles | function_declaration |  | [41](../../magpie/internal/sessions/calls_opencode.go#L41) |
+| out | var_spec | openCodeCallFiles | [52](../../magpie/internal/sessions/calls_opencode.go#L52) |
 | ocStamp | function_declaration |  | [67](../../magpie/internal/sessions/calls_opencode.go#L67) |
+| b | var_spec | ocStamp | [68](../../magpie/internal/sessions/calls_opencode.go#L68) |
 | ocCallDBs | var_spec |  | [82](../../magpie/internal/sessions/calls_opencode.go#L82) |
-| ocCallHandle | struct_type |  | [87](../../magpie/internal/sessions/calls_opencode.go#L87) |
+| m | field_declaration | ocCallDBs | [84](../../magpie/internal/sessions/calls_opencode.go#L84) |
+| ocCallHandle | type_spec |  | [87](../../magpie/internal/sessions/calls_opencode.go#L87) |
 | db | field_declaration | ocCallHandle | [88](../../magpie/internal/sessions/calls_opencode.go#L88) |
 | users | field_declaration | ocCallHandle | [89](../../magpie/internal/sessions/calls_opencode.go#L89) |
 | idle | field_declaration | ocCallHandle | [90](../../magpie/internal/sessions/calls_opencode.go#L90) |
@@ -21,10 +26,16 @@ Source SHA-256: 2191428143e55e4764ace7c5f27de2e957b2d2fc2abf74481bcb4dd2bb21d05e
 | withOCCallDB | function_declaration |  | [95](../../magpie/internal/sessions/calls_opencode.go#L95) |
 | resetOCCalls | function_declaration |  | [134](../../magpie/internal/sessions/calls_opencode.go#L134) |
 | readOpenCodeCalls | function_declaration |  | [153](../../magpie/internal/sessions/calls_opencode.go#L153) |
+| info | var_spec | readOpenCodeCalls | [155](../../magpie/internal/sessions/calls_opencode.go#L155) |
+| msgs | var_spec | readOpenCodeCalls | [156](../../magpie/internal/sessions/calls_opencode.go#L156) |
+| store | var_spec | readOpenCodeCalls | [170](../../magpie/internal/sessions/calls_opencode.go#L170) |
+| n | var_spec | readOpenCodeCalls | [172](../../magpie/internal/sessions/calls_opencode.go#L172) |
+| m | var_spec | readOpenCodeCalls | [187](../../magpie/internal/sessions/calls_opencode.go#L187) |
 | ocCall | function_declaration |  | [207](../../magpie/internal/sessions/calls_opencode.go#L207) |
 | ocError | function_declaration |  | [254](../../magpie/internal/sessions/calls_opencode.go#L254) |
-| Name | field_declaration | ocError | [259](../../magpie/internal/sessions/calls_opencode.go#L259) |
-| Type | field_declaration | ocError | [260](../../magpie/internal/sessions/calls_opencode.go#L260) |
-| Message | field_declaration | ocError | [261](../../magpie/internal/sessions/calls_opencode.go#L261) |
-| Data | field_declaration | ocError | [262](../../magpie/internal/sessions/calls_opencode.go#L262) |
-| Message | field_declaration | ocError | [263](../../magpie/internal/sessions/calls_opencode.go#L263) |
+| e | var_spec | ocError | [258](../../magpie/internal/sessions/calls_opencode.go#L258) |
+| Name | field_declaration | ocError::e | [259](../../magpie/internal/sessions/calls_opencode.go#L259) |
+| Type | field_declaration | ocError::e | [260](../../magpie/internal/sessions/calls_opencode.go#L260) |
+| Message | field_declaration | ocError::e | [261](../../magpie/internal/sessions/calls_opencode.go#L261) |
+| Data | field_declaration | ocError::e | [262](../../magpie/internal/sessions/calls_opencode.go#L262) |
+| Message | field_declaration | ocError::e::Data | [263](../../magpie/internal/sessions/calls_opencode.go#L263) |

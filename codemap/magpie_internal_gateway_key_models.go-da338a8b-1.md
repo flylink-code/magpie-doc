@@ -8,7 +8,7 @@ Source SHA-256: b114bde739a76a94ba24bbddde685dbb530fb326f2c4fc2f9b886d6ccf083393
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| magpieChoseKey | struct_type |  | [28](../../magpie/internal/gateway/key_models.go#L28) |
+| magpieChoseKey | type_spec |  | [28](../../magpie/internal/gateway/key_models.go#L28) |
 | magpieChose | function_declaration |  | [30](../../magpie/internal/gateway/key_models.go#L30) |
 | keyHolds | function_declaration |  | [35](../../magpie/internal/gateway/key_models.go#L35) |
 | accountHolds | function_declaration |  | [51](../../magpie/internal/gateway/key_models.go#L51) |
@@ -19,20 +19,22 @@ Source SHA-256: b114bde739a76a94ba24bbddde685dbb530fb326f2c4fc2f9b886d6ccf083393
 | groupAllowed | function_declaration |  | [100](../../magpie/internal/gateway/key_models.go#L100) |
 | groupKeeps | function_declaration |  | [106](../../magpie/internal/gateway/key_models.go#L106) |
 | membersAllowed | function_declaration |  | [119](../../magpie/internal/gateway/key_models.go#L119) |
-| keyList | struct_type |  | [138](../../magpie/internal/gateway/key_models.go#L138) |
+| keyList | type_spec |  | [138](../../magpie/internal/gateway/key_models.go#L138) |
 | who | field_declaration | keyList | [139](../../magpie/internal/gateway/key_models.go#L139) |
 | find | field_declaration | keyList | [140](../../magpie/internal/gateway/key_models.go#L140) |
 | refs | field_declaration | keyList | [141](../../magpie/internal/gateway/key_models.go#L141) |
 | newKeyList | function_declaration |  | [144](../../magpie/internal/gateway/key_models.go#L144) |
-| entryAllowed | method_declaration | *keyList | [151](../../magpie/internal/gateway/key_models.go#L151) |
-| accountServes | method_declaration | *keyList | [176](../../magpie/internal/gateway/key_models.go#L176) |
+| entryAllowed | method_declaration |  | [151](../../magpie/internal/gateway/key_models.go#L151) |
+| accountServes | method_declaration |  | [176](../../magpie/internal/gateway/key_models.go#L176) |
 | accountServes | function_declaration |  | [191](../../magpie/internal/gateway/key_models.go#L191) |
 | accountServesOn | function_declaration |  | [199](../../magpie/internal/gateway/key_models.go#L199) |
 | keyAllowed | function_declaration |  | [224](../../magpie/internal/gateway/key_models.go#L224) |
 | allowedCandidates | function_declaration |  | [247](../../magpie/internal/gateway/key_models.go#L247) |
+| unlisted | var_spec | allowedCandidates | [279](../../magpie/internal/gateway/key_models.go#L279) |
+| unlistedW | var_spec | allowedCandidates | [280](../../magpie/internal/gateway/key_models.go#L280) |
 | accountAllowed | function_declaration |  | [295](../../magpie/internal/gateway/key_models.go#L295) |
 | allowedKey | function_declaration |  | [312](../../magpie/internal/gateway/key_models.go#L312) |
-| onKeys | method_declaration | *Server | [334](../../magpie/internal/gateway/key_models.go#L334) |
+| onKeys | method_declaration |  | [334](../../magpie/internal/gateway/key_models.go#L334) |
 | keyModelError | function_declaration |  | [357](../../magpie/internal/gateway/key_models.go#L357) |
 | keyAccountsError | function_declaration |  | [364](../../magpie/internal/gateway/key_models.go#L364) |
 | keyAccountNames | function_declaration |  | [372](../../magpie/internal/gateway/key_models.go#L372) |

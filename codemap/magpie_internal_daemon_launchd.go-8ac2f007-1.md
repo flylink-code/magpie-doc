@@ -8,22 +8,23 @@ Source SHA-256: 1293ae9eb60711e92ac648c9ead4ac1090e3414310069c2ea48cf0514a5b70df
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| launchd | struct_type |  | [13](../../magpie/internal/daemon/launchd.go#L13) |
+| launchd | type_spec |  | [13](../../magpie/internal/daemon/launchd.go#L13) |
 | Label | const_spec |  | [16](../../magpie/internal/daemon/launchd.go#L16) |
 | home | function_declaration |  | [18](../../magpie/internal/daemon/launchd.go#L18) |
-| file | method_declaration | launchd | [23](../../magpie/internal/daemon/launchd.go#L23) |
+| file | method_declaration |  | [23](../../magpie/internal/daemon/launchd.go#L23) |
 | logFile | function_declaration |  | [27](../../magpie/internal/daemon/launchd.go#L27) |
-| logs | method_declaration | launchd | [29](../../magpie/internal/daemon/launchd.go#L29) |
+| logs | method_declaration |  | [29](../../magpie/internal/daemon/launchd.go#L29) |
 | domain | function_declaration |  | [31](../../magpie/internal/daemon/launchd.go#L31) |
 | service | function_declaration |  | [32](../../magpie/internal/daemon/launchd.go#L32) |
 | plist | function_declaration |  | [35](../../magpie/internal/daemon/launchd.go#L35) |
-| install | method_declaration | launchd | [66](../../magpie/internal/daemon/launchd.go#L66) |
-| uninstall | method_declaration | launchd | [82](../../magpie/internal/daemon/launchd.go#L82) |
-| loaded | method_declaration | launchd | [94](../../magpie/internal/daemon/launchd.go#L94) |
-| unload | method_declaration | launchd | [101](../../magpie/internal/daemon/launchd.go#L101) |
-| start | method_declaration | launchd | [107](../../magpie/internal/daemon/launchd.go#L107) |
-| stop | method_declaration | launchd | [118](../../magpie/internal/daemon/launchd.go#L118) |
-| restart | method_declaration | launchd | [126](../../magpie/internal/daemon/launchd.go#L126) |
-| status | method_declaration | launchd | [134](../../magpie/internal/daemon/launchd.go#L134) |
+| b | var_spec | plist | [37](../../magpie/internal/daemon/launchd.go#L37) |
+| install | method_declaration |  | [66](../../magpie/internal/daemon/launchd.go#L66) |
+| uninstall | method_declaration |  | [82](../../magpie/internal/daemon/launchd.go#L82) |
+| loaded | method_declaration |  | [94](../../magpie/internal/daemon/launchd.go#L94) |
+| unload | method_declaration |  | [101](../../magpie/internal/daemon/launchd.go#L101) |
+| start | method_declaration |  | [107](../../magpie/internal/daemon/launchd.go#L107) |
+| stop | method_declaration |  | [118](../../magpie/internal/daemon/launchd.go#L118) |
+| restart | method_declaration |  | [126](../../magpie/internal/daemon/launchd.go#L126) |
+| status | method_declaration |  | [134](../../magpie/internal/daemon/launchd.go#L134) |
 | mapped | function_declaration |  | [166](../../magpie/internal/daemon/launchd.go#L166) |
 | launchctl | function_declaration |  | [174](../../magpie/internal/daemon/launchd.go#L174) |

@@ -9,14 +9,16 @@ Source SHA-256: 5d6541464e8417c43d46d3f211b384f2a42fb5074d7e9b0b23e09898498bd9f5
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | summaryCacheSessions | const_spec |  | [16](../../magpie/internal/usage/summary_cache.go#L16) |
-| summaryEntry | struct_type |  | [18](../../magpie/internal/usage/summary_cache.go#L18) |
+| summaryEntry | type_spec |  | [18](../../magpie/internal/usage/summary_cache.go#L18) |
 | version | field_declaration | summaryEntry | [19](../../magpie/internal/usage/summary_cache.go#L19) |
 | meta | field_declaration | summaryEntry | [20](../../magpie/internal/usage/summary_cache.go#L20) |
 | value | field_declaration | summaryEntry | [23](../../magpie/internal/usage/summary_cache.go#L23) |
-| summaryKey | struct_type |  | [28](../../magpie/internal/usage/summary_cache.go#L28) |
+| summaryKey | type_spec |  | [28](../../magpie/internal/usage/summary_cache.go#L28) |
 | p | field_declaration | summaryKey | [29](../../magpie/internal/usage/summary_cache.go#L29) |
 | zone | field_declaration | summaryKey | [30](../../magpie/internal/usage/summary_cache.go#L30) |
 | summaries | var_spec |  | [33](../../magpie/internal/usage/summary_cache.go#L33) |
+| entries | field_declaration | summaries | [35](../../magpie/internal/usage/summary_cache.go#L35) |
+| worked | field_declaration | summaries | [36](../../magpie/internal/usage/summary_cache.go#L36) |
 | indexedSummary | function_declaration |  | [39](../../magpie/internal/usage/summary_cache.go#L39) |
 | ReadAhead | function_declaration |  | [48](../../magpie/internal/usage/summary_cache.go#L48) |
 | SummarizeTop | function_declaration |  | [57](../../magpie/internal/usage/summary_cache.go#L57) |

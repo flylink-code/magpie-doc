@@ -9,15 +9,18 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | goPrograms | var_spec |  | [518](../../magpie/internal/agent/agent.go#L518) |
-| Field | method_declaration | *Agent | [525](../../magpie/internal/agent/agent.go#L525) |
-| Values | method_declaration | *Agent | [540](../../magpie/internal/agent/agent.go#L540) |
-| Picks | method_declaration | *Agent | [553](../../magpie/internal/agent/agent.go#L553) |
+| m | field_declaration | goPrograms | [520](../../magpie/internal/agent/agent.go#L520) |
+| Field | method_declaration |  | [525](../../magpie/internal/agent/agent.go#L525) |
+| Values | method_declaration |  | [540](../../magpie/internal/agent/agent.go#L540) |
+| Picks | method_declaration |  | [553](../../magpie/internal/agent/agent.go#L553) |
 | Own | function_declaration |  | [563](../../magpie/internal/agent/agent.go#L563) |
-| OwnModels | method_declaration | *Agent | [567](../../magpie/internal/agent/agent.go#L567) |
+| OwnModels | method_declaration |  | [567](../../magpie/internal/agent/agent.go#L567) |
 | Detected | function_declaration |  | [578](../../magpie/internal/agent/agent.go#L578) |
+| out | var_spec | Detected | [579](../../magpie/internal/agent/agent.go#L579) |
 | Find | function_declaration |  | [589](../../magpie/internal/agent/agent.go#L589) |
+| prefix | var_spec | Find | [592](../../magpie/internal/agent/agent.go#L592) |
 | ids | function_declaration |  | [615](../../magpie/internal/agent/agent.go#L615) |
-| Spell | method_declaration | *Agent | [633](../../magpie/internal/agent/agent.go#L633) |
-| notOffered | method_declaration | *Agent | [682](../../magpie/internal/agent/agent.go#L682) |
-| split | method_declaration | *Agent | [712](../../magpie/internal/agent/agent.go#L712) |
+| Spell | method_declaration |  | [633](../../magpie/internal/agent/agent.go#L633) |
+| notOffered | method_declaration |  | [682](../../magpie/internal/agent/agent.go#L682) |
+| split | method_declaration |  | [712](../../magpie/internal/agent/agent.go#L712) |
 | atomic | function_declaration |  | [723](../../magpie/internal/agent/agent.go#L723) |

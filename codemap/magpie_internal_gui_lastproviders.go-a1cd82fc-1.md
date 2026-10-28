@@ -9,11 +9,14 @@ Source SHA-256: 0a869c866e68f1bae8ee23b3b51fd973fab9b4979c1da5d8c2f0f002cd915819
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | lastProviders | var_spec |  | [27](../../magpie/internal/gui/lastproviders.go#L27) |
-| providersFile | struct_type |  | [33](../../magpie/internal/gui/lastproviders.go#L33) |
+| kept | field_declaration | lastProviders | [29](../../magpie/internal/gui/lastproviders.go#L29) |
+| read | field_declaration | lastProviders | [30](../../magpie/internal/gui/lastproviders.go#L30) |
+| providersFile | type_spec |  | [33](../../magpie/internal/gui/lastproviders.go#L33) |
 | Version | field_declaration | providersFile | [34](../../magpie/internal/gui/lastproviders.go#L34) |
 | Providers | field_declaration | providersFile | [35](../../magpie/internal/gui/lastproviders.go#L35) |
 | lastProvidersPath | function_declaration |  | [38](../../magpie/internal/gui/lastproviders.go#L38) |
 | keepProviders | function_declaration |  | [42](../../magpie/internal/gui/lastproviders.go#L42) |
 | lastKnownProviders | function_declaration |  | [75](../../magpie/internal/gui/lastproviders.go#L75) |
-| Version | field_declaration | lastKnownProviders | [84](../../magpie/internal/gui/lastproviders.go#L84) |
-| Providers | field_declaration | lastKnownProviders | [85](../../magpie/internal/gui/lastproviders.go#L85) |
+| f | var_spec | lastKnownProviders | [83](../../magpie/internal/gui/lastproviders.go#L83) |
+| Version | field_declaration | lastKnownProviders::f | [84](../../magpie/internal/gui/lastproviders.go#L84) |
+| Providers | field_declaration | lastKnownProviders::f | [85](../../magpie/internal/gui/lastproviders.go#L85) |

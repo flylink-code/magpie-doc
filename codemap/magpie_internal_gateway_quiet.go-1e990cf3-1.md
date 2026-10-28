@@ -12,3 +12,6 @@ Source SHA-256: 9042d8ee9e11601a40a6871698f5a828a242a38597b6167b4c7162389b350476
 | withoutReasoningAsk | function_declaration |  | [45](../../magpie/internal/gateway/quiet.go#L45) |
 | withoutAnyReasoning | function_declaration |  | [58](../../magpie/internal/gateway/quiet.go#L58) |
 | withoutReasoningFields | function_declaration |  | [62](../../magpie/internal/gateway/quiet.go#L62) |
+| m | var_spec | withoutReasoningFields | [65](../../magpie/internal/gateway/quiet.go#L65) |
+| tc | var_spec | withoutReasoningFields | [119](../../magpie/internal/gateway/quiet.go#L119) |
+| out | var_spec | withoutReasoningFields | [137](../../magpie/internal/gateway/quiet.go#L137) |

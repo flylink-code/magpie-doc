@@ -10,11 +10,15 @@ Source SHA-256: f72608aa1f15e5e5334619ee6dffa603ff1ad73235fbfceb31a02082193092e4
 | --- | --- | --- | ---: |
 | deepseekToolPatterns | function_declaration |  | [22](../../magpie/internal/gateway/deepseek_schema.go#L22) |
 | toolPatterns | function_declaration |  | [35](../../magpie/internal/gateway/deepseek_schema.go#L35) |
-| patternTarget | struct_type |  | [67](../../magpie/internal/gateway/deepseek_schema.go#L67) |
+| targets | var_spec | toolPatterns | [41](../../magpie/internal/gateway/deepseek_schema.go#L41) |
+| patternTarget | type_spec |  | [67](../../magpie/internal/gateway/deepseek_schema.go#L67) |
 | index | field_declaration | patternTarget | [68](../../magpie/internal/gateway/deepseek_schema.go#L68) |
 | rawLen | field_declaration | patternTarget | [69](../../magpie/internal/gateway/deepseek_schema.go#L69) |
 | replacement | field_declaration | patternTarget | [70](../../magpie/internal/gateway/deepseek_schema.go#L70) |
 | collectPatterns | function_declaration |  | [73](../../magpie/internal/gateway/deepseek_schema.go#L73) |
+| pattern | var_spec | collectPatterns | [82](../../magpie/internal/gateway/deepseek_schema.go#L82) |
 | encodeJSONStringNoHTMLEscape | function_declaration |  | [121](../../magpie/internal/gateway/deepseek_schema.go#L121) |
+| b | var_spec | encodeJSONStringNoHTMLEscape | [122](../../magpie/internal/gateway/deepseek_schema.go#L122) |
 | unicodeNullEscape | function_declaration |  | [148](../../magpie/internal/gateway/deepseek_schema.go#L148) |
+| out | var_spec | unicodeNullEscape | [149](../../magpie/internal/gateway/deepseek_schema.go#L149) |
 | deepseekTokenField | function_declaration |  | [177](../../magpie/internal/gateway/deepseek_schema.go#L177) |

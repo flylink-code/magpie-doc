@@ -9,9 +9,11 @@ Source SHA-256: ee30d80ae50ed6ba3fe47834109674484c9cb2beae3f2d4cb3a551044a687b25
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | codexImagesFit | function_declaration |  | [43](../../magpie/internal/gateway/codex_images.go#L43) |
-| fitJob | struct_type |  | [124](../../magpie/internal/gateway/codex_images.go#L124) |
+| jobs | var_spec | codexImagesFit | [52](../../magpie/internal/gateway/codex_images.go#L52) |
+| kind | var_spec | codexImagesFit | [63](../../magpie/internal/gateway/codex_images.go#L63) |
+| out | var_spec | codexImagesFit | [99](../../magpie/internal/gateway/codex_images.go#L99) |
+| fitJob | type_spec |  | [124](../../magpie/internal/gateway/codex_images.go#L124) |
 | at | field_declaration | fitJob | [125](../../magpie/internal/gateway/codex_images.go#L125) |
-| end | field_declaration | fitJob | [125](../../magpie/internal/gateway/codex_images.go#L125) |
 | url | field_declaration | fitJob | [126](../../magpie/internal/gateway/codex_images.go#L126) |
 | l | field_declaration | fitJob | [127](../../magpie/internal/gateway/codex_images.go#L127) |
 | key | field_declaration | fitJob | [128](../../magpie/internal/gateway/codex_images.go#L128) |
@@ -20,44 +22,55 @@ Source SHA-256: ee30d80ae50ed6ba3fe47834109674484c9cb2beae3f2d4cb3a551044a687b25
 | fitWorkers | const_spec |  | [136](../../magpie/internal/gateway/codex_images.go#L136) |
 | fitBudget | const_spec |  | [145](../../magpie/internal/gateway/codex_images.go#L145) |
 | fitAll | function_declaration |  | [149](../../magpie/internal/gateway/codex_images.go#L149) |
+| todo | var_spec | fitAll | [151](../../magpie/internal/gateway/codex_images.go#L151) |
+| order | var_spec | fitAll | [170](../../magpie/internal/gateway/codex_images.go#L170) |
 | fitInHand | function_declaration |  | [200](../../magpie/internal/gateway/codex_images.go#L200) |
+| out | var_spec | fitInHand | [201](../../magpie/internal/gateway/codex_images.go#L201) |
 | fitBatch | function_declaration |  | [220](../../magpie/internal/gateway/codex_images.go#L220) |
-| imageLimits | struct_type |  | [240](../../magpie/internal/gateway/codex_images.go#L240) |
+| wg | var_spec | fitBatch | [222](../../magpie/internal/gateway/codex_images.go#L222) |
+| imageLimits | type_spec |  | [240](../../magpie/internal/gateway/codex_images.go#L240) |
 | side | field_declaration | imageLimits | [240](../../magpie/internal/gateway/codex_images.go#L240) |
-| patches | field_declaration | imageLimits | [240](../../magpie/internal/gateway/codex_images.go#L240) |
 | codexPatch | const_spec |  | [243](../../magpie/internal/gateway/codex_images.go#L243) |
 | codexImageLimits | function_declaration |  | [245](../../magpie/internal/gateway/codex_images.go#L245) |
-| fit | method_declaration | imageLimits | [255](../../magpie/internal/gateway/codex_images.go#L255) |
-| size | method_declaration | imageLimits | [264](../../magpie/internal/gateway/codex_images.go#L264) |
+| fit | method_declaration |  | [255](../../magpie/internal/gateway/codex_images.go#L255) |
+| size | method_declaration |  | [264](../../magpie/internal/gateway/codex_images.go#L264) |
 | codexImageMaxBytes | const_spec |  | [291](../../magpie/internal/gateway/codex_images.go#L291) |
 | holdsMost | const_spec |  | [295](../../magpie/internal/gateway/codex_images.go#L295) |
 | imageHolds | function_declaration |  | [301](../../magpie/internal/gateway/codex_images.go#L301) |
 | fitHolds | function_declaration |  | [330](../../magpie/internal/gateway/codex_images.go#L330) |
-| fitEntry | struct_type |  | [352](../../magpie/internal/gateway/codex_images.go#L352) |
+| fitEntry | type_spec |  | [352](../../magpie/internal/gateway/codex_images.go#L352) |
 | mime | field_declaration | fitEntry | [353](../../magpie/internal/gateway/codex_images.go#L353) |
 | data | field_declaration | fitEntry | [354](../../magpie/internal/gateway/codex_images.go#L354) |
-| url | method_declaration | fitEntry | [358](../../magpie/internal/gateway/codex_images.go#L358) |
+| url | method_declaration |  | [358](../../magpie/internal/gateway/codex_images.go#L358) |
 | fitKey | function_declaration |  | [366](../../magpie/internal/gateway/codex_images.go#L366) |
+| n | var_spec | fitKey | [368](../../magpie/internal/gateway/codex_images.go#L368) |
+| k | var_spec | fitKey | [373](../../magpie/internal/gateway/codex_images.go#L373) |
 | fitted | var_spec |  | [389](../../magpie/internal/gateway/codex_images.go#L389) |
 | fittedBudget | var_spec |  | [395](../../magpie/internal/gateway/codex_images.go#L395) |
 | fittedIdle | var_spec |  | [396](../../magpie/internal/gateway/codex_images.go#L396) |
 | fittedMost | var_spec |  | [397](../../magpie/internal/gateway/codex_images.go#L397) |
-| fitCache | struct_type |  | [400](../../magpie/internal/gateway/codex_images.go#L400) |
+| fitCache | type_spec |  | [400](../../magpie/internal/gateway/codex_images.go#L400) |
 | m | field_declaration | fitCache | [402](../../magpie/internal/gateway/codex_images.go#L402) |
 | order | field_declaration | fitCache | [403](../../magpie/internal/gateway/codex_images.go#L403) |
 | bytes | field_declaration | fitCache | [404](../../magpie/internal/gateway/codex_images.go#L404) |
-| fitItem | struct_type |  | [407](../../magpie/internal/gateway/codex_images.go#L407) |
+| fitItem | type_spec |  | [407](../../magpie/internal/gateway/codex_images.go#L407) |
 | key | field_declaration | fitItem | [408](../../magpie/internal/gateway/codex_images.go#L408) |
 | e | field_declaration | fitItem | [409](../../magpie/internal/gateway/codex_images.go#L409) |
 | used | field_declaration | fitItem | [410](../../magpie/internal/gateway/codex_images.go#L410) |
-| letGo | method_declaration | *fitCache | [414](../../magpie/internal/gateway/codex_images.go#L414) |
-| get | method_declaration | *fitCache | [423](../../magpie/internal/gateway/codex_images.go#L423) |
-| put | method_declaration | *fitCache | [436](../../magpie/internal/gateway/codex_images.go#L436) |
-| drop | method_declaration | *fitCache | [449](../../magpie/internal/gateway/codex_images.go#L449) |
+| letGo | method_declaration |  | [414](../../magpie/internal/gateway/codex_images.go#L414) |
+| get | method_declaration |  | [423](../../magpie/internal/gateway/codex_images.go#L423) |
+| put | method_declaration |  | [436](../../magpie/internal/gateway/codex_images.go#L436) |
+| drop | method_declaration |  | [449](../../magpie/internal/gateway/codex_images.go#L449) |
 | refits | var_spec |  | [456](../../magpie/internal/gateway/codex_images.go#L456) |
 | codexImageRefit | function_declaration |  | [460](../../magpie/internal/gateway/codex_images.go#L460) |
+| src | var_spec | codexImageRefit | [483](../../magpie/internal/gateway/codex_images.go#L483) |
+| out | var_spec | codexImageRefit | [500](../../magpie/internal/gateway/codex_images.go#L500) |
 | triangleResize | function_declaration |  | [517](../../magpie/internal/gateway/codex_images.go#L517) |
-| tap | struct_type |  | [567](../../magpie/internal/gateway/codex_images.go#L567) |
+| r | var_spec | triangleResize | [530](../../magpie/internal/gateway/codex_images.go#L530) |
+| c | var_spec | triangleResize | [546](../../magpie/internal/gateway/codex_images.go#L546) |
+| tap | type_spec |  | [567](../../magpie/internal/gateway/codex_images.go#L567) |
 | from | field_declaration | tap | [568](../../magpie/internal/gateway/codex_images.go#L568) |
 | w | field_declaration | tap | [569](../../magpie/internal/gateway/codex_images.go#L569) |
 | triangleWeights | function_declaration |  | [574](../../magpie/internal/gateway/codex_images.go#L574) |
+| ws | var_spec | triangleWeights | [583](../../magpie/internal/gateway/codex_images.go#L583) |
+| sum | var_spec | triangleWeights | [584](../../magpie/internal/gateway/codex_images.go#L584) |

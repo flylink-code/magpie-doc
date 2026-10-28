@@ -8,7 +8,8 @@ Source SHA-256: 4c84f80c1a19a9e8f6b6576f2770325188da7b7449405eef8c07214ba2840d18
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| reloadGroups | method_declaration | *model | [21](../../magpie/internal/tui/routing.go#L21) |
+| reloadGroups | method_declaration |  | [21](../../magpie/internal/tui/routing.go#L21) |
+| removed | var_spec | reloadGroups | [23](../../magpie/internal/tui/routing.go#L23) |
 | routings | var_spec |  | [37](../../magpie/internal/tui/routing.go#L37) |
 | routingName | function_declaration |  | [39](../../magpie/internal/tui/routing.go#L39) |
 | groupRouting | function_declaration |  | [62](../../magpie/internal/tui/routing.go#L62) |
@@ -17,23 +18,28 @@ Source SHA-256: 4c84f80c1a19a9e8f6b6576f2770325188da7b7449405eef8c07214ba2840d18
 | findGroup | function_declaration |  | [102](../../magpie/internal/tui/routing.go#L102) |
 | nextRouting | function_declaration |  | [111](../../magpie/internal/tui/routing.go#L111) |
 | nextStays | function_declaration |  | [117](../../magpie/internal/tui/routing.go#L117) |
-| updateGroups | method_declaration | model | [123](../../magpie/internal/tui/routing.go#L123) |
-| pickMsg | struct_type |  | [191](../../magpie/internal/tui/routing.go#L191) |
+| updateGroups | method_declaration |  | [123](../../magpie/internal/tui/routing.go#L123) |
+| pickMsg | type_spec |  | [191](../../magpie/internal/tui/routing.go#L191) |
 | group | field_declaration | pickMsg | [191](../../magpie/internal/tui/routing.go#L191) |
-| newGroup | field_declaration | pickMsg | [191](../../magpie/internal/tui/routing.go#L191) |
 | memberOptions | function_declaration |  | [194](../../magpie/internal/tui/routing.go#L194) |
-| openMemberPicker | method_declaration | *model | [227](../../magpie/internal/tui/routing.go#L227) |
-| openClassifier | method_declaration | *model | [267](../../magpie/internal/tui/routing.go#L267) |
+| out | var_spec | memberOptions | [195](../../magpie/internal/tui/routing.go#L195) |
+| openMemberPicker | method_declaration |  | [227](../../magpie/internal/tui/routing.go#L227) |
+| skip | var_spec | openMemberPicker | [228](../../magpie/internal/tui/routing.go#L228) |
+| openClassifier | method_declaration |  | [267](../../magpie/internal/tui/routing.go#L267) |
+| items | var_spec | openClassifier | [269](../../magpie/internal/tui/routing.go#L269) |
 | ruleHint | const_spec |  | [298](../../magpie/internal/tui/routing.go#L298) |
-| openRule | method_declaration | *model | [305](../../magpie/internal/tui/routing.go#L305) |
+| openRule | method_declaration |  | [305](../../magpie/internal/tui/routing.go#L305) |
 | putRule | function_declaration |  | [327](../../magpie/internal/tui/routing.go#L327) |
-| group | method_declaration | model | [350](../../magpie/internal/tui/routing.go#L350) |
-| updateGroup | method_declaration | model | [360](../../magpie/internal/tui/routing.go#L360) |
+| group | method_declaration |  | [350](../../magpie/internal/tui/routing.go#L350) |
+| updateGroup | method_declaration |  | [360](../../magpie/internal/tui/routing.go#L360) |
+| err | var_spec | updateGroup | [482](../../magpie/internal/tui/routing.go#L482) |
+| rules | var_spec | updateGroup | [539](../../magpie/internal/tui/routing.go#L539) |
 | nextMemberEffort | function_declaration |  | [554](../../magpie/internal/tui/routing.go#L554) |
-| renamedMsg | struct_type |  | [560](../../magpie/internal/tui/routing.go#L560) |
+| renamedMsg | type_spec |  | [560](../../magpie/internal/tui/routing.go#L560) |
 | from | field_declaration | renamedMsg | [560](../../magpie/internal/tui/routing.go#L560) |
-| to | field_declaration | renamedMsg | [560](../../magpie/internal/tui/routing.go#L560) |
-| viewGroups | method_declaration | model | [562](../../magpie/internal/tui/routing.go#L562) |
-| viewGroup | method_declaration | model | [622](../../magpie/internal/tui/routing.go#L622) |
-| groupRows | method_declaration | model | [704](../../magpie/internal/tui/routing.go#L704) |
+| viewGroups | method_declaration |  | [562](../../magpie/internal/tui/routing.go#L562) |
+| b | var_spec | viewGroups | [563](../../magpie/internal/tui/routing.go#L563) |
+| viewGroup | method_declaration |  | [622](../../magpie/internal/tui/routing.go#L622) |
+| b | var_spec | viewGroup | [624](../../magpie/internal/tui/routing.go#L624) |
+| groupRows | method_declaration |  | [704](../../magpie/internal/tui/routing.go#L704) |
 | groupWindow | function_declaration |  | [723](../../magpie/internal/tui/routing.go#L723) |

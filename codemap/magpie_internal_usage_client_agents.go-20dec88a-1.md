@@ -8,11 +8,12 @@ Source SHA-256: d981795e122c8912bf5485e4442c910bf21430fa6f98892538f7fe3448249fb9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| clientMap | struct_type |  | [14](../../magpie/internal/usage/client_agents.go#L14) |
+| clientMap | type_spec |  | [14](../../magpie/internal/usage/client_agents.go#L14) |
 | m | field_declaration | clientMap | [15](../../magpie/internal/usage/client_agents.go#L15) |
 | key | field_declaration | clientMap | [16](../../magpie/internal/usage/client_agents.go#L16) |
 | clientAs | var_spec |  | [19](../../magpie/internal/usage/client_agents.go#L19) |
 | readClientAgents | function_declaration |  | [24](../../magpie/internal/usage/client_agents.go#L24) |
+| b | var_spec | readClientAgents | [29](../../magpie/internal/usage/client_agents.go#L29) |
 | clientAgentsKey | function_declaration |  | [39](../../magpie/internal/usage/client_agents.go#L39) |
 | ReportedAs | function_declaration |  | [46](../../magpie/internal/usage/client_agents.go#L46) |
 | reportedAs | function_declaration |  | [53](../../magpie/internal/usage/client_agents.go#L53) |

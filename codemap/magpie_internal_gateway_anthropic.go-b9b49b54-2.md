@@ -8,103 +8,103 @@ Source SHA-256: 24e14068128fb6cb5a810403d7aad9c487f251eb3e6370e59fe96cd0b6e9aa2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| thinkingOffAsTaken | function_declaration |  | [605](../../magpie/internal/gateway/anthropic.go#L605) |
+| thinking | var_spec | thinkingOffAsTaken | [617](../../magpie/internal/gateway/anthropic.go#L617) |
+| q | var_spec | thinkingOffAsTaken | [651](../../magpie/internal/gateway/anthropic.go#L651) |
+| out | var_spec | thinkingOffAsTaken | [671](../../magpie/internal/gateway/anthropic.go#L671) |
+| asksBetweenTools | var_spec |  | [685](../../magpie/internal/gateway/anthropic.go#L685) |
+| thinkingOffRefused | var_spec |  | [690](../../magpie/internal/gateway/anthropic.go#L690) |
+| withBetweenTools | function_declaration |  | [694](../../magpie/internal/gateway/anthropic.go#L694) |
+| samplingRefused | function_declaration |  | [715](../../magpie/internal/gateway/anthropic.go#L715) |
+| samplingAsTaken | function_declaration |  | [741](../../magpie/internal/gateway/anthropic.go#L741) |
+| hasSampling | function_declaration |  | [755](../../magpie/internal/gateway/anthropic.go#L755) |
+| samplingDeprecated | var_spec |  | [763](../../magpie/internal/gateway/anthropic.go#L763) |
+| withoutSampling | function_declaration |  | [767](../../magpie/internal/gateway/anthropic.go#L767) |
+| AdaptiveThinking | function_declaration |  | [776](../../magpie/internal/gateway/anthropic.go#L776) |
+| effortInOutputConfig | var_spec |  | [786](../../magpie/internal/gateway/anthropic.go#L786) |
+| deepseekHost | const_spec |  | [790](../../magpie/internal/gateway/anthropic.go#L790) |
+| deepseekEfforts | var_spec |  | [797](../../magpie/internal/gateway/anthropic.go#L797) |
+| outputEffortAt | function_declaration |  | [808](../../magpie/internal/gateway/anthropic.go#L808) |
+| AdaptiveWithEffort | function_declaration |  | [818](../../magpie/internal/gateway/anthropic.go#L818) |
+| glmOutputEffort | var_spec |  | [821](../../magpie/internal/gateway/anthropic.go#L821) |
 | withOutputEffort | function_declaration |  | [827](../../magpie/internal/gateway/anthropic.go#L827) |
-| OutputConfig | field_declaration | withOutputEffort | [830](../../magpie/internal/gateway/anthropic.go#L830) |
+| v | var_spec | withOutputEffort | [829](../../magpie/internal/gateway/anthropic.go#L829) |
+| OutputConfig | field_declaration | withOutputEffort::v | [830](../../magpie/internal/gateway/anthropic.go#L830) |
 | imageBlock | function_declaration |  | [844](../../magpie/internal/gateway/anthropic.go#L844) |
 | Type | field_declaration | imageBlock | [847](../../magpie/internal/gateway/anthropic.go#L847) |
 | MediaType | field_declaration | imageBlock | [848](../../magpie/internal/gateway/anthropic.go#L848) |
 | Data | field_declaration | imageBlock | [849](../../magpie/internal/gateway/anthropic.go#L849) |
 | URL | field_declaration | imageBlock | [850](../../magpie/internal/gateway/anthropic.go#L850) |
-| aMessage | struct_type |  | [861](../../magpie/internal/gateway/anthropic.go#L861) |
+| aMessage | type_spec |  | [861](../../magpie/internal/gateway/anthropic.go#L861) |
 | Role | field_declaration | aMessage | [862](../../magpie/internal/gateway/anthropic.go#L862) |
 | Content | field_declaration | aMessage | [863](../../magpie/internal/gateway/anthropic.go#L863) |
 | interruptedTool | const_spec |  | [868](../../magpie/internal/gateway/anthropic.go#L868) |
 | buildAnthropic | function_declaration |  | [871](../../magpie/internal/gateway/anthropic.go#L871) |
 | anthropicBody | function_declaration |  | [879](../../magpie/internal/gateway/anthropic.go#L879) |
+| msgs | var_spec | anthropicBody | [885](../../magpie/internal/gateway/anthropic.go#L885) |
+| results | var_spec | anthropicBody | [897](../../magpie/internal/gateway/anthropic.go#L897) |
+| blocks | var_spec | anthropicBody | [917](../../magpie/internal/gateway/anthropic.go#L917) |
+| tools | var_spec | anthropicBody | [1044](../../magpie/internal/gateway/anthropic.go#L1044) |
+| tc | var_spec | anthropicBody | [1061](../../magpie/internal/gateway/anthropic.go#L1061) |
 | pairToolBlocks | function_declaration |  | [1097](../../magpie/internal/gateway/anthropic.go#L1097) |
+| pending | var_spec | pairToolBlocks | [1099](../../magpie/internal/gateway/anthropic.go#L1099) |
+| blocks | var_spec | pairToolBlocks | [1110](../../magpie/internal/gateway/anthropic.go#L1110) |
+| kept | var_spec | pairToolBlocks | [1133](../../magpie/internal/gateway/anthropic.go#L1133) |
 | resultSaid | function_declaration |  | [1165](../../magpie/internal/gateway/anthropic.go#L1165) |
-| anthropicDecoder | struct_type |  | [1186](../../magpie/internal/gateway/anthropic.go#L1186) |
+| s | var_spec | resultSaid | [1166](../../magpie/internal/gateway/anthropic.go#L1166) |
+| blocks | var_spec | resultSaid | [1173](../../magpie/internal/gateway/anthropic.go#L1173) |
+| anthropicDecoder | type_spec |  | [1186](../../magpie/internal/gateway/anthropic.go#L1186) |
 | server | field_declaration | anthropicDecoder | [1187](../../magpie/internal/gateway/anthropic.go#L1187) |
 | whole | field_declaration | anthropicDecoder | [1188](../../magpie/internal/gateway/anthropic.go#L1188) |
-| decode | method_declaration | *anthropicDecoder | [1191](../../magpie/internal/gateway/anthropic.go#L1191) |
-| Type | field_declaration | *anthropicDecoder.decode | [1193](../../magpie/internal/gateway/anthropic.go#L1193) |
-| Index | field_declaration | *anthropicDecoder.decode | [1194](../../magpie/internal/gateway/anthropic.go#L1194) |
-| ContentBlock | field_declaration | *anthropicDecoder.decode | [1195](../../magpie/internal/gateway/anthropic.go#L1195) |
-| Type | field_declaration | *anthropicDecoder.decode | [1196](../../magpie/internal/gateway/anthropic.go#L1196) |
-| Input | field_declaration | *anthropicDecoder.decode | [1197](../../magpie/internal/gateway/anthropic.go#L1197) |
-| Delta | field_declaration | *anthropicDecoder.decode | [1199](../../magpie/internal/gateway/anthropic.go#L1199) |
-| Type | field_declaration | *anthropicDecoder.decode | [1200](../../magpie/internal/gateway/anthropic.go#L1200) |
+| decode | method_declaration |  | [1191](../../magpie/internal/gateway/anthropic.go#L1191) |
+| ev | var_spec | decode | [1192](../../magpie/internal/gateway/anthropic.go#L1192) |
+| Type | field_declaration | decode::ev | [1193](../../magpie/internal/gateway/anthropic.go#L1193) |
+| Index | field_declaration | decode::ev | [1194](../../magpie/internal/gateway/anthropic.go#L1194) |
+| ContentBlock | field_declaration | decode::ev | [1195](../../magpie/internal/gateway/anthropic.go#L1195) |
+| Type | field_declaration | decode::ev::ContentBlock | [1196](../../magpie/internal/gateway/anthropic.go#L1196) |
+| Input | field_declaration | decode::ev::ContentBlock | [1197](../../magpie/internal/gateway/anthropic.go#L1197) |
+| Delta | field_declaration | decode::ev | [1199](../../magpie/internal/gateway/anthropic.go#L1199) |
+| Type | field_declaration | decode::ev::Delta | [1200](../../magpie/internal/gateway/anthropic.go#L1200) |
 | fullInput | function_declaration |  | [1230](../../magpie/internal/gateway/anthropic.go#L1230) |
+| m | var_spec | fullInput | [1231](../../magpie/internal/gateway/anthropic.go#L1231) |
 | decodeAnthropic | function_declaration |  | [1236](../../magpie/internal/gateway/anthropic.go#L1236) |
-| Type | field_declaration | decodeAnthropic | [1238](../../magpie/internal/gateway/anthropic.go#L1238) |
-| Message | field_declaration | decodeAnthropic | [1239](../../magpie/internal/gateway/anthropic.go#L1239) |
-| ID | field_declaration | decodeAnthropic | [1240](../../magpie/internal/gateway/anthropic.go#L1240) |
-| Model | field_declaration | decodeAnthropic | [1241](../../magpie/internal/gateway/anthropic.go#L1241) |
-| Usage | field_declaration | decodeAnthropic | [1242](../../magpie/internal/gateway/anthropic.go#L1242) |
-| Index | field_declaration | decodeAnthropic | [1244](../../magpie/internal/gateway/anthropic.go#L1244) |
-| ContentBlock | field_declaration | decodeAnthropic | [1245](../../magpie/internal/gateway/anthropic.go#L1245) |
-| Type | field_declaration | decodeAnthropic | [1246](../../magpie/internal/gateway/anthropic.go#L1246) |
-| ID | field_declaration | decodeAnthropic | [1247](../../magpie/internal/gateway/anthropic.go#L1247) |
-| Name | field_declaration | decodeAnthropic | [1248](../../magpie/internal/gateway/anthropic.go#L1248) |
-| Text | field_declaration | decodeAnthropic | [1249](../../magpie/internal/gateway/anthropic.go#L1249) |
-| Thinking | field_declaration | decodeAnthropic | [1251](../../magpie/internal/gateway/anthropic.go#L1251) |
-| Signature | field_declaration | decodeAnthropic | [1252](../../magpie/internal/gateway/anthropic.go#L1252) |
-| Delta | field_declaration | decodeAnthropic | [1254](../../magpie/internal/gateway/anthropic.go#L1254) |
-| Type | field_declaration | decodeAnthropic | [1255](../../magpie/internal/gateway/anthropic.go#L1255) |
-| Text | field_declaration | decodeAnthropic | [1256](../../magpie/internal/gateway/anthropic.go#L1256) |
-| PartialJSON | field_declaration | decodeAnthropic | [1257](../../magpie/internal/gateway/anthropic.go#L1257) |
-| Thinking | field_declaration | decodeAnthropic | [1258](../../magpie/internal/gateway/anthropic.go#L1258) |
-| Signature | field_declaration | decodeAnthropic | [1259](../../magpie/internal/gateway/anthropic.go#L1259) |
-| StopReason | field_declaration | decodeAnthropic | [1260](../../magpie/internal/gateway/anthropic.go#L1260) |
-| SafeguardResults | field_declaration | decodeAnthropic | [1262](../../magpie/internal/gateway/anthropic.go#L1262) |
-| StopDetails | field_declaration | decodeAnthropic | [1263](../../magpie/internal/gateway/anthropic.go#L1263) |
-| Usage | field_declaration | decodeAnthropic | [1265](../../magpie/internal/gateway/anthropic.go#L1265) |
-| Error | field_declaration | decodeAnthropic | [1266](../../magpie/internal/gateway/anthropic.go#L1266) |
-| Type | field_declaration | decodeAnthropic | [1267](../../magpie/internal/gateway/anthropic.go#L1267) |
-| Message | field_declaration | decodeAnthropic | [1268](../../magpie/internal/gateway/anthropic.go#L1268) |
-| Block | field_declaration | decodeAnthropic | [1303](../../magpie/internal/gateway/anthropic.go#L1303) |
-| aUsage | struct_type |  | [1336](../../magpie/internal/gateway/anthropic.go#L1336) |
+| ev | var_spec | decodeAnthropic | [1237](../../magpie/internal/gateway/anthropic.go#L1237) |
+| Type | field_declaration | decodeAnthropic::ev | [1238](../../magpie/internal/gateway/anthropic.go#L1238) |
+| Message | field_declaration | decodeAnthropic::ev | [1239](../../magpie/internal/gateway/anthropic.go#L1239) |
+| ID | field_declaration | decodeAnthropic::ev::Message | [1240](../../magpie/internal/gateway/anthropic.go#L1240) |
+| Model | field_declaration | decodeAnthropic::ev::Message | [1241](../../magpie/internal/gateway/anthropic.go#L1241) |
+| Usage | field_declaration | decodeAnthropic::ev::Message | [1242](../../magpie/internal/gateway/anthropic.go#L1242) |
+| Index | field_declaration | decodeAnthropic::ev | [1244](../../magpie/internal/gateway/anthropic.go#L1244) |
+| ContentBlock | field_declaration | decodeAnthropic::ev | [1245](../../magpie/internal/gateway/anthropic.go#L1245) |
+| Type | field_declaration | decodeAnthropic::ev::ContentBlock | [1246](../../magpie/internal/gateway/anthropic.go#L1246) |
+| ID | field_declaration | decodeAnthropic::ev::ContentBlock | [1247](../../magpie/internal/gateway/anthropic.go#L1247) |
+| Name | field_declaration | decodeAnthropic::ev::ContentBlock | [1248](../../magpie/internal/gateway/anthropic.go#L1248) |
+| Text | field_declaration | decodeAnthropic::ev::ContentBlock | [1249](../../magpie/internal/gateway/anthropic.go#L1249) |
+| Thinking | field_declaration | decodeAnthropic::ev::ContentBlock | [1251](../../magpie/internal/gateway/anthropic.go#L1251) |
+| Signature | field_declaration | decodeAnthropic::ev::ContentBlock | [1252](../../magpie/internal/gateway/anthropic.go#L1252) |
+| Delta | field_declaration | decodeAnthropic::ev | [1254](../../magpie/internal/gateway/anthropic.go#L1254) |
+| Type | field_declaration | decodeAnthropic::ev::Delta | [1255](../../magpie/internal/gateway/anthropic.go#L1255) |
+| Text | field_declaration | decodeAnthropic::ev::Delta | [1256](../../magpie/internal/gateway/anthropic.go#L1256) |
+| PartialJSON | field_declaration | decodeAnthropic::ev::Delta | [1257](../../magpie/internal/gateway/anthropic.go#L1257) |
+| Thinking | field_declaration | decodeAnthropic::ev::Delta | [1258](../../magpie/internal/gateway/anthropic.go#L1258) |
+| Signature | field_declaration | decodeAnthropic::ev::Delta | [1259](../../magpie/internal/gateway/anthropic.go#L1259) |
+| StopReason | field_declaration | decodeAnthropic::ev::Delta | [1260](../../magpie/internal/gateway/anthropic.go#L1260) |
+| SafeguardResults | field_declaration | decodeAnthropic::ev::Delta | [1262](../../magpie/internal/gateway/anthropic.go#L1262) |
+| StopDetails | field_declaration | decodeAnthropic::ev::Delta | [1263](../../magpie/internal/gateway/anthropic.go#L1263) |
+| Usage | field_declaration | decodeAnthropic::ev | [1265](../../magpie/internal/gateway/anthropic.go#L1265) |
+| Error | field_declaration | decodeAnthropic::ev | [1266](../../magpie/internal/gateway/anthropic.go#L1266) |
+| Type | field_declaration | decodeAnthropic::ev::Error | [1267](../../magpie/internal/gateway/anthropic.go#L1267) |
+| Message | field_declaration | decodeAnthropic::ev::Error | [1268](../../magpie/internal/gateway/anthropic.go#L1268) |
+| whole | var_spec | decodeAnthropic | [1302](../../magpie/internal/gateway/anthropic.go#L1302) |
+| Block | field_declaration | decodeAnthropic::whole | [1303](../../magpie/internal/gateway/anthropic.go#L1303) |
+| review | var_spec | decodeAnthropic | [1324](../../magpie/internal/gateway/anthropic.go#L1324) |
+| aUsage | type_spec |  | [1336](../../magpie/internal/gateway/anthropic.go#L1336) |
 | InputTokens | field_declaration | aUsage | [1337](../../magpie/internal/gateway/anthropic.go#L1337) |
 | OutputTokens | field_declaration | aUsage | [1338](../../magpie/internal/gateway/anthropic.go#L1338) |
 | CacheReadInputTokens | field_declaration | aUsage | [1339](../../magpie/internal/gateway/anthropic.go#L1339) |
 | CacheCreationInputTokens | field_declaration | aUsage | [1340](../../magpie/internal/gateway/anthropic.go#L1340) |
 | CacheCreation | field_declaration | aUsage | [1344](../../magpie/internal/gateway/anthropic.go#L1344) |
 | CacheUnknown | field_declaration | aUsage | [1349](../../magpie/internal/gateway/anthropic.go#L1349) |
-| aCacheCreation | struct_type |  | [1352](../../magpie/internal/gateway/anthropic.go#L1352) |
+| aCacheCreation | type_spec |  | [1352](../../magpie/internal/gateway/anthropic.go#L1352) |
 | Ephemeral5m | field_declaration | aCacheCreation | [1353](../../magpie/internal/gateway/anthropic.go#L1353) |
 | Ephemeral1h | field_declaration | aCacheCreation | [1354](../../magpie/internal/gateway/anthropic.go#L1354) |
-| usage | method_declaration | aUsage | [1357](../../magpie/internal/gateway/anthropic.go#L1357) |
-| anthropic | method_declaration | Usage | [1370](../../magpie/internal/gateway/anthropic.go#L1370) |
-| stopFromAnthropic | function_declaration |  | [1378](../../magpie/internal/gateway/anthropic.go#L1378) |
-| stopToAnthropic | function_declaration |  | [1397](../../magpie/internal/gateway/anthropic.go#L1397) |
-| anthropicEncoder | struct_type |  | [1410](../../magpie/internal/gateway/anthropic.go#L1410) |
-| id | field_declaration | anthropicEncoder | [1411](../../magpie/internal/gateway/anthropic.go#L1411) |
-| w | field_declaration | anthropicEncoder | [1412](../../magpie/internal/gateway/anthropic.go#L1412) |
-| model | field_declaration | anthropicEncoder | [1413](../../magpie/internal/gateway/anthropic.go#L1413) |
-| index | field_declaration | anthropicEncoder | [1414](../../magpie/internal/gateway/anthropic.go#L1414) |
-| open | field_declaration | anthropicEncoder | [1415](../../magpie/internal/gateway/anthropic.go#L1415) |
-| args | field_declaration | anthropicEncoder | [1416](../../magpie/internal/gateway/anthropic.go#L1416) |
-| fresh | field_declaration | anthropicEncoder | [1419](../../magpie/internal/gateway/anthropic.go#L1419) |
-| started | field_declaration | anthropicEncoder | [1420](../../magpie/internal/gateway/anthropic.go#L1420) |
-| col | field_declaration | anthropicEncoder | [1421](../../magpie/internal/gateway/anthropic.go#L1421) |
-| cite | field_declaration | anthropicEncoder | [1425](../../magpie/internal/gateway/anthropic.go#L1425) |
-| cited | field_declaration | anthropicEncoder | [1426](../../magpie/internal/gateway/anthropic.go#L1426) |
-| anthropicID | function_declaration |  | [1432](../../magpie/internal/gateway/anthropic.go#L1432) |
-| anthropicIDMark | const_spec |  | [1452](../../magpie/internal/gateway/anthropic.go#L1452) |
-| anthropicOutID | function_declaration |  | [1454](../../magpie/internal/gateway/anthropic.go#L1454) |
-| anthropicInID | function_declaration |  | [1461](../../magpie/internal/gateway/anthropic.go#L1461) |
-| safeCallID | function_declaration |  | [1467](../../magpie/internal/gateway/anthropic.go#L1467) |
-| rawCallID | function_declaration |  | [1476](../../magpie/internal/gateway/anthropic.go#L1476) |
-| safeIDChars | var_spec |  | [1487](../../magpie/internal/gateway/anthropic.go#L1487) |
-| start | method_declaration | *anthropicEncoder | [1489](../../magpie/internal/gateway/anthropic.go#L1489) |
-| close | method_declaration | *anthropicEncoder | [1505](../../magpie/internal/gateway/anthropic.go#L1505) |
-| openBlock | method_declaration | *anthropicEncoder | [1518](../../magpie/internal/gateway/anthropic.go#L1518) |
-| thinking | method_declaration | *anthropicEncoder | [1531](../../magpie/internal/gateway/anthropic.go#L1531) |
-| delta | method_declaration | *anthropicEncoder | [1539](../../magpie/internal/gateway/anthropic.go#L1539) |
-| sayCited | method_declaration | *anthropicEncoder | [1548](../../magpie/internal/gateway/anthropic.go#L1548) |
-| event | method_declaration | *anthropicEncoder | [1568](../../magpie/internal/gateway/anthropic.go#L1568) |
-| keepalive | method_declaration | *anthropicEncoder | [1663](../../magpie/internal/gateway/anthropic.go#L1663) |
-| finish | method_declaration | *anthropicEncoder | [1667](../../magpie/internal/gateway/anthropic.go#L1667) |
-| renderAnthropic | function_declaration |  | [1688](../../magpie/internal/gateway/anthropic.go#L1688) |
-| citedBlocks | function_declaration |  | [1743](../../magpie/internal/gateway/anthropic.go#L1743) |
-| searchResultBlock | function_declaration |  | [1769](../../magpie/internal/gateway/anthropic.go#L1769) |

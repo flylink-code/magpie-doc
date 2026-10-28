@@ -10,8 +10,11 @@ Source SHA-256: e166bde1feafcfb3a6aeec8788f675a3712ef9356ad7c036d6690ef383786a37
 | --- | --- | --- | ---: |
 | cliOnly | var_spec |  | [25](../../magpie/internal/agent/gone.go#L25) |
 | goneOS | var_spec |  | [29](../../magpie/internal/agent/gone.go#L29) |
-| cliHeld | method_declaration | *Agent | [34](../../magpie/internal/agent/gone.go#L34) |
+| cliHeld | method_declaration |  | [34](../../magpie/internal/agent/gone.go#L34) |
+| at | var_spec | cliHeld | [57](../../magpie/internal/agent/gone.go#L57) |
 | extensionHere | function_declaration |  | [132](../../magpie/internal/agent/gone.go#L132) |
 | appHere | function_declaration |  | [156](../../magpie/internal/agent/gone.go#L156) |
 | jetBrainsHere | function_declaration |  | [171](../../magpie/internal/agent/gone.go#L171) |
+| dirs | var_spec | jetBrainsHere | [172](../../magpie/internal/agent/gone.go#L172) |
 | zedAgentsHere | function_declaration |  | [190](../../magpie/internal/agent/gone.go#L190) |
+| d | var_spec | zedAgentsHere | [191](../../magpie/internal/agent/gone.go#L191) |

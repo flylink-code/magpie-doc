@@ -12,9 +12,8 @@ Source SHA-256: 05c333f3c8c068e53856bc44a8a1974e957225fd5689579b4f5af34589dbe229
 | upstreamTransport | function_declaration |  | [25](../../magpie/internal/gateway/upstream_transport.go#L25) |
 | upstreamHeaderWait | var_spec |  | [34](../../magpie/internal/gateway/upstream_transport.go#L34) |
 | vendorTransport | function_declaration |  | [38](../../magpie/internal/gateway/upstream_transport.go#L38) |
-| drawsApart | struct_type |  | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
+| drawsApart | type_spec |  | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
 | any | field_declaration | drawsApart | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
-| draws | field_declaration | drawsApart | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
-| RoundTrip | method_declaration | drawsApart | [55](../../magpie/internal/gateway/upstream_transport.go#L55) |
-| replayable | struct_type |  | [74](../../magpie/internal/gateway/upstream_transport.go#L74) |
-| RoundTrip | method_declaration | replayable | [76](../../magpie/internal/gateway/upstream_transport.go#L76) |
+| RoundTrip | method_declaration |  | [55](../../magpie/internal/gateway/upstream_transport.go#L55) |
+| replayable | type_spec |  | [74](../../magpie/internal/gateway/upstream_transport.go#L74) |
+| RoundTrip | method_declaration |  | [76](../../magpie/internal/gateway/upstream_transport.go#L76) |

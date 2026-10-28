@@ -12,10 +12,10 @@ Source SHA-256: 4ef29b09476280587cd0688256e04ca94b0d697bede0c2990f8561456f979407
 | SetRateURL | function_declaration |  | [30](../../magpie/internal/fx/fx.go#L30) |
 | TTL | const_spec |  | [37](../../magpie/internal/fx/fx.go#L37) |
 | Fallback | const_spec |  | [43](../../magpie/internal/fx/fx.go#L43) |
-| Rate | struct_type |  | [48](../../magpie/internal/fx/fx.go#L48) |
+| Rate | type_spec |  | [48](../../magpie/internal/fx/fx.go#L48) |
 | CNYPerUSD | field_declaration | Rate | [49](../../magpie/internal/fx/fx.go#L49) |
 | At | field_declaration | Rate | [50](../../magpie/internal/fx/fx.go#L50) |
-| Stale | method_declaration | Rate | [55](../../magpie/internal/fx/fx.go#L55) |
+| Stale | method_declaration |  | [55](../../magpie/internal/fx/fx.go#L55) |
 | retryAfter | const_spec |  | [60](../../magpie/internal/fx/fx.go#L60) |
 | mu | var_spec |  | [63](../../magpie/internal/fx/fx.go#L63) |
 | mem | var_spec |  | [64](../../magpie/internal/fx/fx.go#L64) |
@@ -27,8 +27,10 @@ Source SHA-256: 4ef29b09476280587cd0688256e04ca94b0d697bede0c2990f8561456f979407
 | Soon | function_declaration |  | [136](../../magpie/internal/fx/fx.go#L136) |
 | Settle | function_declaration |  | [162](../../magpie/internal/fx/fx.go#L162) |
 | Reset | function_declaration |  | [169](../../magpie/internal/fx/fx.go#L169) |
-| erAPI | struct_type |  | [177](../../magpie/internal/fx/fx.go#L177) |
+| erAPI | type_spec |  | [177](../../magpie/internal/fx/fx.go#L177) |
 | Rates | field_declaration | erAPI | [178](../../magpie/internal/fx/fx.go#L178) |
 | fetchLive | function_declaration |  | [181](../../magpie/internal/fx/fx.go#L181) |
+| v | var_spec | fetchLive | [199](../../magpie/internal/fx/fx.go#L199) |
 | readCache | function_declaration |  | [210](../../magpie/internal/fx/fx.go#L210) |
+| r | var_spec | readCache | [215](../../magpie/internal/fx/fx.go#L215) |
 | writeCache | function_declaration |  | [222](../../magpie/internal/fx/fx.go#L222) |

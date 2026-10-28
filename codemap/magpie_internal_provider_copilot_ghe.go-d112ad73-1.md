@@ -19,4 +19,4 @@ Source SHA-256: 6654669abc66e77c2351b7533e7667b978a937c20d2e3a97388b0c108358f704
 | copilotUserURL | function_declaration |  | [96](../../magpie/internal/provider/copilot_ghe.go#L96) |
 | gitHubUserURL | function_declaration |  | [103](../../magpie/internal/provider/copilot_ghe.go#L103) |
 | copilotBaseOf | function_declaration |  | [112](../../magpie/internal/provider/copilot_ghe.go#L112) |
-| apiBase | method_declaration | copilotSession | [120](../../magpie/internal/provider/copilot_ghe.go#L120) |
+| apiBase | method_declaration |  | [120](../../magpie/internal/provider/copilot_ghe.go#L120) |

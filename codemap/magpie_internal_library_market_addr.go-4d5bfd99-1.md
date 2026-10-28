@@ -15,12 +15,14 @@ Source SHA-256: 8a49533ef5102411bf1c9ea8603c017f5366d124f61df295cdc1122e388b2fce
 | normAddr | function_declaration |  | [31](../../magpie/internal/library/market_addr.go#L31) |
 | address | function_declaration |  | [75](../../magpie/internal/library/market_addr.go#L75) |
 | addrsOf | function_declaration |  | [98](../../magpie/internal/library/market_addr.go#L98) |
+| out | var_spec | addrsOf | [99](../../magpie/internal/library/market_addr.go#L99) |
 | packageOf | function_declaration |  | [110](../../magpie/internal/library/market_addr.go#L110) |
 | hostOf | function_declaration |  | [130](../../magpie/internal/library/market_addr.go#L130) |
 | addrScore | function_declaration |  | [142](../../magpie/internal/library/market_addr.go#L142) |
 | addrTerms | function_declaration |  | [174](../../magpie/internal/library/market_addr.go#L174) |
+| terms | var_spec | addrTerms | [175](../../magpie/internal/library/market_addr.go#L175) |
 | siteName | function_declaration |  | [202](../../magpie/internal/library/market_addr.go#L202) |
-| Custom | struct_type |  | [221](../../magpie/internal/library/market_addr.go#L221) |
+| Custom | type_spec |  | [221](../../magpie/internal/library/market_addr.go#L221) |
 | Name | field_declaration | Custom | [222](../../magpie/internal/library/market_addr.go#L222) |
 | Transport | field_declaration | Custom | [223](../../magpie/internal/library/market_addr.go#L223) |
 | URL | field_declaration | Custom | [224](../../magpie/internal/library/market_addr.go#L224) |

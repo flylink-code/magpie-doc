@@ -8,7 +8,7 @@ Source SHA-256: e76ce4d73bdc06e129324a2b3a2bb9abae111da0ee2f6ea306609a672ca3481e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| logFileInfo | struct_type |  | [11](../../magpie/internal/usage/log_file.go#L11) |
+| logFileInfo | type_spec |  | [11](../../magpie/internal/usage/log_file.go#L11) |
 | changeTime | field_declaration | logFileInfo | [13](../../magpie/internal/usage/log_file.go#L13) |
 | logChangeTime | var_spec |  | [16](../../magpie/internal/usage/log_file.go#L16) |
 | logChangeStamp | function_declaration |  | [18](../../magpie/internal/usage/log_file.go#L18) |

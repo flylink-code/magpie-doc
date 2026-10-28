@@ -8,9 +8,10 @@ Source SHA-256: 3720f5dd71a1df98b143d51694532bce70ab39174c00c86ce84537e279abe88d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| usageEncoder | struct_type |  | [8](../../magpie/internal/gateway/response_id.go#L8) |
+| usageEncoder | type_spec |  | [8](../../magpie/internal/gateway/response_id.go#L8) |
 | usage | field_declaration | usageEncoder | [10](../../magpie/internal/gateway/response_id.go#L10) |
-| capture | method_declaration | *usageEncoder | [13](../../magpie/internal/gateway/response_id.go#L13) |
-| event | method_declaration | *usageEncoder | [30](../../magpie/internal/gateway/response_id.go#L30) |
-| finish | method_declaration | *usageEncoder | [35](../../magpie/internal/gateway/response_id.go#L35) |
+| capture | method_declaration |  | [13](../../magpie/internal/gateway/response_id.go#L13) |
+| id | var_spec | capture | [14](../../magpie/internal/gateway/response_id.go#L14) |
+| event | method_declaration |  | [30](../../magpie/internal/gateway/response_id.go#L30) |
+| finish | method_declaration |  | [35](../../magpie/internal/gateway/response_id.go#L35) |
 | renderUsage | function_declaration |  | [42](../../magpie/internal/gateway/response_id.go#L42) |

@@ -10,6 +10,7 @@ Source SHA-256: dc2cb3a3fa5fd4cbcd9ab572300b86e6ede9ae0c8af3337f3544971c5cc83429
 | --- | --- | --- | ---: |
 | CodexSubagentModel | function_declaration |  | [26](../../magpie/internal/provider/codex_subagent.go#L26) |
 | CodexSubagentModels | function_declaration |  | [35](../../magpie/internal/provider/codex_subagent.go#L35) |
+| chatgpt | var_spec | CodexSubagentModels | [36](../../magpie/internal/provider/codex_subagent.go#L36) |
 | chatGPTEntry | function_declaration |  | [48](../../magpie/internal/provider/codex_subagent.go#L48) |
 | CodexSubagentUnserved | function_declaration |  | [54](../../magpie/internal/provider/codex_subagent.go#L54) |
 | SetCodexSubagentModel | function_declaration |  | [80](../../magpie/internal/provider/codex_subagent.go#L80) |

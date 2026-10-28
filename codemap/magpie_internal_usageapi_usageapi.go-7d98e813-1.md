@@ -8,18 +8,16 @@ Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Client | struct_type |  | [23](../../magpie/internal/usageapi/usageapi.go#L23) |
+| Client | type_spec |  | [23](../../magpie/internal/usageapi/usageapi.go#L23) |
 | ID | field_declaration | Client | [23](../../magpie/internal/usageapi/usageapi.go#L23) |
-| Name | field_declaration | Client | [23](../../magpie/internal/usageapi/usageapi.go#L23) |
-| Icon | field_declaration | Client | [23](../../magpie/internal/usageapi/usageapi.go#L23) |
 | Clients | var_spec |  | [28](../../magpie/internal/usageapi/usageapi.go#L28) |
 | clients | function_declaration |  | [30](../../magpie/internal/usageapi/usageapi.go#L30) |
 | Tilde | function_declaration |  | [42](../../magpie/internal/usageapi/usageapi.go#L42) |
-| Group | struct_type |  | [50](../../magpie/internal/usageapi/usageapi.go#L50) |
+| Group | type_spec |  | [50](../../magpie/internal/usageapi/usageapi.go#L50) |
 | Name | field_declaration | Group | [52](../../magpie/internal/usageapi/usageapi.go#L52) |
 | Sub | field_declaration | Group | [53](../../magpie/internal/usageapi/usageapi.go#L53) |
 | Icon | field_declaration | Group | [54](../../magpie/internal/usageapi/usageapi.go#L54) |
-| Usage | struct_type |  | [57](../../magpie/internal/usageapi/usageapi.go#L57) |
+| Usage | type_spec |  | [57](../../magpie/internal/usageapi/usageapi.go#L57) |
 | Agents | field_declaration | Usage | [59](../../magpie/internal/usageapi/usageapi.go#L59) |
 | Models | field_declaration | Usage | [60](../../magpie/internal/usageapi/usageapi.go#L60) |
 | Accounts | field_declaration | Usage | [61](../../magpie/internal/usageapi/usageapi.go#L61) |
@@ -37,7 +35,7 @@ Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
 | PeriodOf | function_declaration |  | [186](../../magpie/internal/usageapi/usageapi.go#L186) |
 | FilterOf | function_declaration |  | [193](../../magpie/internal/usageapi/usageapi.go#L193) |
 | viaOf | function_declaration |  | [199](../../magpie/internal/usageapi/usageapi.go#L199) |
-| Row | struct_type |  | [208](../../magpie/internal/usageapi/usageapi.go#L208) |
+| Row | type_spec |  | [208](../../magpie/internal/usageapi/usageapi.go#L208) |
 | CallerKeyLabel | field_declaration | Row | [210](../../magpie/internal/usageapi/usageapi.go#L210) |
 | AgentName | field_declaration | Row | [211](../../magpie/internal/usageapi/usageapi.go#L211) |
 | Icon | field_declaration | Row | [212](../../magpie/internal/usageapi/usageapi.go#L212) |
@@ -45,7 +43,7 @@ Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
 | Access | field_declaration | Row | [214](../../magpie/internal/usageapi/usageapi.go#L214) |
 | PricingModel | field_declaration | Row | [215](../../magpie/internal/usageapi/usageapi.go#L215) |
 | ComputerName | field_declaration | Row | [217](../../magpie/internal/usageapi/usageapi.go#L217) |
-| Ledger | struct_type |  | [220](../../magpie/internal/usageapi/usageapi.go#L220) |
+| Ledger | type_spec |  | [220](../../magpie/internal/usageapi/usageapi.go#L220) |
 | CallerKeys | field_declaration | Ledger | [221](../../magpie/internal/usageapi/usageapi.go#L221) |
 | Period | field_declaration | Ledger | [222](../../magpie/internal/usageapi/usageapi.go#L222) |
 | Rows | field_declaration | Ledger | [223](../../magpie/internal/usageapi/usageapi.go#L223) |
@@ -64,14 +62,14 @@ Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
 | Purposes | field_declaration | Ledger | [248](../../magpie/internal/usageapi/usageapi.go#L248) |
 | Accounts | field_declaration | Ledger | [251](../../magpie/internal/usageapi/usageapi.go#L251) |
 | Computers | field_declaration | Ledger | [254](../../magpie/internal/usageapi/usageapi.go#L254) |
-| Share | struct_type |  | [258](../../magpie/internal/usageapi/usageapi.go#L258) |
+| Share | type_spec |  | [258](../../magpie/internal/usageapi/usageapi.go#L258) |
 | Name | field_declaration | Share | [260](../../magpie/internal/usageapi/usageapi.go#L260) |
 | Icon | field_declaration | Share | [261](../../magpie/internal/usageapi/usageapi.go#L261) |
-| Account | struct_type |  | [268](../../magpie/internal/usageapi/usageapi.go#L268) |
+| Account | type_spec |  | [268](../../magpie/internal/usageapi/usageapi.go#L268) |
 | ID | field_declaration | Account | [269](../../magpie/internal/usageapi/usageapi.go#L269) |
 | Name | field_declaration | Account | [270](../../magpie/internal/usageapi/usageapi.go#L270) |
 | Providers | field_declaration | Account | [271](../../magpie/internal/usageapi/usageapi.go#L271) |
-| Named | struct_type |  | [274](../../magpie/internal/usageapi/usageapi.go#L274) |
+| Named | type_spec |  | [274](../../magpie/internal/usageapi/usageapi.go#L274) |
 | ID | field_declaration | Named | [275](../../magpie/internal/usageapi/usageapi.go#L275) |
 | Name | field_declaration | Named | [276](../../magpie/internal/usageapi/usageapi.go#L276) |
 | Icon | field_declaration | Named | [277](../../magpie/internal/usageapi/usageapi.go#L277) |

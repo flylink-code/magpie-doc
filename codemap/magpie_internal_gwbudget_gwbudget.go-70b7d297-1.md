@@ -8,18 +8,17 @@ Source SHA-256: b24903eace273d1f3125f61de8eb5839354250a1628f9e484ac2cda3424aab33
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Refusal | interface_type |  | [22](../../magpie/internal/gwbudget/gwbudget.go#L22) |
-| RetryAfter | method_spec | Refusal | [25](../../magpie/internal/gwbudget/gwbudget.go#L25) |
-| ResetAt | method_spec | Refusal | [27](../../magpie/internal/gwbudget/gwbudget.go#L27) |
-| Limiter | interface_type |  | [33](../../magpie/internal/gwbudget/gwbudget.go#L33) |
-| Reserve | method_spec | Limiter | [34](../../magpie/internal/gwbudget/gwbudget.go#L34) |
+| Refusal | type_spec |  | [22](../../magpie/internal/gwbudget/gwbudget.go#L22) |
+| Limiter | type_spec |  | [33](../../magpie/internal/gwbudget/gwbudget.go#L33) |
 | mu | var_spec |  | [38](../../magpie/internal/gwbudget/gwbudget.go#L38) |
 | limiters | var_spec |  | [39](../../magpie/internal/gwbudget/gwbudget.go#L39) |
 | refresh | var_spec |  | [40](../../magpie/internal/gwbudget/gwbudget.go#L40) |
 | asking | var_spec |  | [41](../../magpie/internal/gwbudget/gwbudget.go#L41) |
 | lastAsk | var_spec |  | [42](../../magpie/internal/gwbudget/gwbudget.go#L42) |
 | Limit | function_declaration |  | [47](../../magpie/internal/gwbudget/gwbudget.go#L47) |
+| once | var_spec | Limit | [52](../../magpie/internal/gwbudget/gwbudget.go#L52) |
 | Refresh | function_declaration |  | [70](../../magpie/internal/gwbudget/gwbudget.go#L70) |
+| once | var_spec | Refresh | [74](../../magpie/internal/gwbudget/gwbudget.go#L74) |
 | served | function_declaration |  | [84](../../magpie/internal/gwbudget/gwbudget.go#L84) |
 | ForgetRefreshForTest | function_declaration |  | [95](../../magpie/internal/gwbudget/gwbudget.go#L95) |
 | ErrUnlimited | var_spec |  | [99](../../magpie/internal/gwbudget/gwbudget.go#L99) |

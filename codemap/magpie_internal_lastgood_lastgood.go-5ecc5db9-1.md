@@ -12,22 +12,23 @@ Source SHA-256: 8cbe17ca3339ed493ec9364c8eb6aa5f9f57fb0792de446e613fd689a7afae86
 | JSON | function_declaration |  | [39](../../magpie/internal/lastgood/lastgood.go#L39) |
 | Bak | function_declaration |  | [45](../../magpie/internal/lastgood/lastgood.go#L45) |
 | ErrUnreadable | var_spec |  | [49](../../magpie/internal/lastgood/lastgood.go#L49) |
-| UnreadableError | struct_type |  | [52](../../magpie/internal/lastgood/lastgood.go#L52) |
+| UnreadableError | type_spec |  | [52](../../magpie/internal/lastgood/lastgood.go#L52) |
 | Path | field_declaration | UnreadableError | [53](../../magpie/internal/lastgood/lastgood.go#L53) |
 | Err | field_declaration | UnreadableError | [54](../../magpie/internal/lastgood/lastgood.go#L54) |
-| Error | method_declaration | *UnreadableError | [57](../../magpie/internal/lastgood/lastgood.go#L57) |
-| Unwrap | method_declaration | *UnreadableError | [61](../../magpie/internal/lastgood/lastgood.go#L61) |
+| Error | method_declaration |  | [57](../../magpie/internal/lastgood/lastgood.go#L57) |
+| Unwrap | method_declaration |  | [61](../../magpie/internal/lastgood/lastgood.go#L61) |
 | Read | function_declaration |  | [69](../../magpie/internal/lastgood/lastgood.go#L69) |
 | Fallback | function_declaration |  | [83](../../magpie/internal/lastgood/lastgood.go#L83) |
 | describe | function_declaration |  | [93](../../magpie/internal/lastgood/lastgood.go#L93) |
 | Keep | function_declaration |  | [112](../../magpie/internal/lastgood/lastgood.go#L112) |
 | Into | function_declaration |  | [133](../../magpie/internal/lastgood/lastgood.go#L133) |
+| v | var_spec | Into | [134](../../magpie/internal/lastgood/lastgood.go#L134) |
 | KeepUnparsed | function_declaration |  | [144](../../magpie/internal/lastgood/lastgood.go#L144) |
 | now | var_spec |  | [160](../../magpie/internal/lastgood/lastgood.go#L160) |
 | KeepBad | function_declaration |  | [166](../../magpie/internal/lastgood/lastgood.go#L166) |
 | keptAlready | function_declaration |  | [207](../../magpie/internal/lastgood/lastgood.go#L207) |
 | globEscape | function_declaration |  | [222](../../magpie/internal/lastgood/lastgood.go#L222) |
-| Note | struct_type |  | [230](../../magpie/internal/lastgood/lastgood.go#L230) |
+| Note | type_spec |  | [230](../../magpie/internal/lastgood/lastgood.go#L230) |
 | File | field_declaration | Note | [231](../../magpie/internal/lastgood/lastgood.go#L231) |
 | Path | field_declaration | Note | [232](../../magpie/internal/lastgood/lastgood.go#L232) |
 | Why | field_declaration | Note | [233](../../magpie/internal/lastgood/lastgood.go#L233) |

@@ -8,103 +8,103 @@ Source SHA-256: 39f0ec20de26a9c9dfb996926a046b406275d701d909b455091f116dbffdb207
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Response | field_declaration | controlReply | [1731](../../magpie/internal/gateway/claude_subscription.go#L1731) |
+| Rewound | field_declaration | controlReply::Response | [1732](../../magpie/internal/gateway/claude_subscription.go#L1732) |
+| letGo | method_declaration |  | [1746](../../magpie/internal/gateway/claude_subscription.go#L1746) |
+| rewind | method_declaration |  | [1791](../../magpie/internal/gateway/claude_subscription.go#L1791) |
+| answered | method_declaration |  | [1833](../../magpie/internal/gateway/claude_subscription.go#L1833) |
+| reply | var_spec | answered | [1834](../../magpie/internal/gateway/claude_subscription.go#L1834) |
+| park | method_declaration |  | [1850](../../magpie/internal/gateway/claude_subscription.go#L1850) |
+| waiting | type_spec | park | [1878](../../magpie/internal/gateway/claude_subscription.go#L1878) |
+| run | field_declaration | park::waiting | [1879](../../magpie/internal/gateway/claude_subscription.go#L1879) |
+| at | field_declaration | park::waiting | [1880](../../magpie/internal/gateway/claude_subscription.go#L1880) |
+| parked | var_spec | park | [1882](../../magpie/internal/gateway/claude_subscription.go#L1882) |
+| turnKey | function_declaration |  | [1914](../../magpie/internal/gateway/claude_subscription.go#L1914) |
+| conversationKeys | function_declaration |  | [1927](../../magpie/internal/gateway/claude_subscription.go#L1927) |
+| keys | var_spec | conversationKeys | [1930](../../magpie/internal/gateway/claude_subscription.go#L1930) |
+| historyKey | function_declaration |  | [1940](../../magpie/internal/gateway/claude_subscription.go#L1940) |
+| heard | method_declaration |  | [1947](../../magpie/internal/gateway/claude_subscription.go#L1947) |
+| follows | method_declaration |  | [1960](../../magpie/internal/gateway/claude_subscription.go#L1960) |
+| hashMessages | function_declaration |  | [1985](../../magpie/internal/gateway/claude_subscription.go#L1985) |
 | messageWords | function_declaration |  | [2003](../../magpie/internal/gateway/claude_subscription.go#L2003) |
 | claudeCLIArgs | function_declaration |  | [2018](../../magpie/internal/gateway/claude_subscription.go#L2018) |
 | inClaudeDir | function_declaration |  | [2045](../../magpie/internal/gateway/claude_subscription.go#L2045) |
 | cleanClaudeEnv | function_declaration |  | [2060](../../magpie/internal/gateway/claude_subscription.go#L2060) |
-| lockedWriter | struct_type |  | [2090](../../magpie/internal/gateway/claude_subscription.go#L2090) |
+| lockedWriter | type_spec |  | [2090](../../magpie/internal/gateway/claude_subscription.go#L2090) |
 | run | field_declaration | lockedWriter | [2090](../../magpie/internal/gateway/claude_subscription.go#L2090) |
-| Write | method_declaration | *lockedWriter | [2092](../../magpie/internal/gateway/claude_subscription.go#L2092) |
-| attach | method_declaration | *subscriptionRun | [2101](../../magpie/internal/gateway/claude_subscription.go#L2101) |
-| emit | method_declaration | *subscriptionRun | [2109](../../magpie/internal/gateway/claude_subscription.go#L2109) |
-| closeSegment | method_declaration | *subscriptionRun | [2134](../../magpie/internal/gateway/claude_subscription.go#L2134) |
-| endSegment | method_declaration | *subscriptionRun | [2140](../../magpie/internal/gateway/claude_subscription.go#L2140) |
-| readOutput | method_declaration | *subscriptionRun | [2153](../../magpie/internal/gateway/claude_subscription.go#L2153) |
-| Type | field_declaration | *subscriptionRun.readOutput | [2301](../../magpie/internal/gateway/claude_subscription.go#L2301) |
-| Subtype | field_declaration | *subscriptionRun.readOutput | [2302](../../magpie/internal/gateway/claude_subscription.go#L2302) |
-| IsError | field_declaration | *subscriptionRun.readOutput | [2303](../../magpie/internal/gateway/claude_subscription.go#L2303) |
-| SessionID | field_declaration | *subscriptionRun.readOutput | [2305](../../magpie/internal/gateway/claude_subscription.go#L2305) |
-| Result | field_declaration | *subscriptionRun.readOutput | [2306](../../magpie/internal/gateway/claude_subscription.go#L2306) |
-| StructuredOutput | field_declaration | *subscriptionRun.readOutput | [2309](../../magpie/internal/gateway/claude_subscription.go#L2309) |
-| Errors | field_declaration | *subscriptionRun.readOutput | [2310](../../magpie/internal/gateway/claude_subscription.go#L2310) |
-| RequestID | field_declaration | *subscriptionRun.readOutput | [2314](../../magpie/internal/gateway/claude_subscription.go#L2314) |
-| APIErrorStatus | field_declaration | *subscriptionRun.readOutput | [2315](../../magpie/internal/gateway/claude_subscription.go#L2315) |
-| ErrorKind | field_declaration | *subscriptionRun.readOutput | [2316](../../magpie/internal/gateway/claude_subscription.go#L2316) |
-| ToolUseResult | field_declaration | *subscriptionRun.readOutput | [2319](../../magpie/internal/gateway/claude_subscription.go#L2319) |
-| RateLimitInfo | field_declaration | *subscriptionRun.readOutput | [2321](../../magpie/internal/gateway/claude_subscription.go#L2321) |
-| Response | field_declaration | *subscriptionRun.readOutput | [2323](../../magpie/internal/gateway/claude_subscription.go#L2323) |
-| CommandUUID | field_declaration | *subscriptionRun.readOutput | [2326](../../magpie/internal/gateway/claude_subscription.go#L2326) |
-| State | field_declaration | *subscriptionRun.readOutput | [2327](../../magpie/internal/gateway/claude_subscription.go#L2327) |
-| Message | field_declaration | *subscriptionRun.readOutput | [2330](../../magpie/internal/gateway/claude_subscription.go#L2330) |
-| Event | field_declaration | *subscriptionRun.readOutput | [2331](../../magpie/internal/gateway/claude_subscription.go#L2331) |
-| Type | field_declaration | *subscriptionRun.readOutput | [2332](../../magpie/internal/gateway/claude_subscription.go#L2332) |
-| Index | field_declaration | *subscriptionRun.readOutput | [2333](../../magpie/internal/gateway/claude_subscription.go#L2333) |
-| Message | field_declaration | *subscriptionRun.readOutput | [2334](../../magpie/internal/gateway/claude_subscription.go#L2334) |
-| ID | field_declaration | *subscriptionRun.readOutput | [2335](../../magpie/internal/gateway/claude_subscription.go#L2335) |
-| Model | field_declaration | *subscriptionRun.readOutput | [2336](../../magpie/internal/gateway/claude_subscription.go#L2336) |
-| Usage | field_declaration | *subscriptionRun.readOutput | [2337](../../magpie/internal/gateway/claude_subscription.go#L2337) |
-| ContentBlock | field_declaration | *subscriptionRun.readOutput | [2339](../../magpie/internal/gateway/claude_subscription.go#L2339) |
-| Type | field_declaration | *subscriptionRun.readOutput | [2340](../../magpie/internal/gateway/claude_subscription.go#L2340) |
-| ID | field_declaration | *subscriptionRun.readOutput | [2341](../../magpie/internal/gateway/claude_subscription.go#L2341) |
-| Name | field_declaration | *subscriptionRun.readOutput | [2342](../../magpie/internal/gateway/claude_subscription.go#L2342) |
-| Text | field_declaration | *subscriptionRun.readOutput | [2343](../../magpie/internal/gateway/claude_subscription.go#L2343) |
-| Delta | field_declaration | *subscriptionRun.readOutput | [2345](../../magpie/internal/gateway/claude_subscription.go#L2345) |
-| Type | field_declaration | *subscriptionRun.readOutput | [2346](../../magpie/internal/gateway/claude_subscription.go#L2346) |
-| Text | field_declaration | *subscriptionRun.readOutput | [2347](../../magpie/internal/gateway/claude_subscription.go#L2347) |
-| Thinking | field_declaration | *subscriptionRun.readOutput | [2348](../../magpie/internal/gateway/claude_subscription.go#L2348) |
-| Signature | field_declaration | *subscriptionRun.readOutput | [2349](../../magpie/internal/gateway/claude_subscription.go#L2349) |
-| PartialJSON | field_declaration | *subscriptionRun.readOutput | [2350](../../magpie/internal/gateway/claude_subscription.go#L2350) |
-| StopReason | field_declaration | *subscriptionRun.readOutput | [2351](../../magpie/internal/gateway/claude_subscription.go#L2351) |
-| SafeguardResults | field_declaration | *subscriptionRun.readOutput | [2352](../../magpie/internal/gateway/claude_subscription.go#L2352) |
-| StopDetails | field_declaration | *subscriptionRun.readOutput | [2353](../../magpie/internal/gateway/claude_subscription.go#L2353) |
-| Usage | field_declaration | *subscriptionRun.readOutput | [2355](../../magpie/internal/gateway/claude_subscription.go#L2355) |
-| ID | field_declaration | *subscriptionRun.readOutput | [2362](../../magpie/internal/gateway/claude_subscription.go#L2362) |
-| Model | field_declaration | *subscriptionRun.readOutput | [2363](../../magpie/internal/gateway/claude_subscription.go#L2363) |
-| StopReason | field_declaration | *subscriptionRun.readOutput | [2364](../../magpie/internal/gateway/claude_subscription.go#L2364) |
-| Usage | field_declaration | *subscriptionRun.readOutput | [2365](../../magpie/internal/gateway/claude_subscription.go#L2365) |
-| SafeguardResults | field_declaration | *subscriptionRun.readOutput | [2366](../../magpie/internal/gateway/claude_subscription.go#L2366) |
-| StopDetails | field_declaration | *subscriptionRun.readOutput | [2367](../../magpie/internal/gateway/claude_subscription.go#L2367) |
-| Content | field_declaration | *subscriptionRun.readOutput | [2368](../../magpie/internal/gateway/claude_subscription.go#L2368) |
-| Type | field_declaration | *subscriptionRun.readOutput | [2369](../../magpie/internal/gateway/claude_subscription.go#L2369) |
-| Text | field_declaration | *subscriptionRun.readOutput | [2370](../../magpie/internal/gateway/claude_subscription.go#L2370) |
-| Thinking | field_declaration | *subscriptionRun.readOutput | [2371](../../magpie/internal/gateway/claude_subscription.go#L2371) |
-| Signature | field_declaration | *subscriptionRun.readOutput | [2372](../../magpie/internal/gateway/claude_subscription.go#L2372) |
-| ID | field_declaration | *subscriptionRun.readOutput | [2373](../../magpie/internal/gateway/claude_subscription.go#L2373) |
-| Name | field_declaration | *subscriptionRun.readOutput | [2374](../../magpie/internal/gateway/claude_subscription.go#L2374) |
-| Input | field_declaration | *subscriptionRun.readOutput | [2375](../../magpie/internal/gateway/claude_subscription.go#L2375) |
-| Content | field_declaration | *subscriptionRun.readOutput | [2489](../../magpie/internal/gateway/claude_subscription.go#L2489) |
-| Query | field_declaration | *subscriptionRun.readOutput | [2536](../../magpie/internal/gateway/claude_subscription.go#L2536) |
-| Results | field_declaration | *subscriptionRun.readOutput | [2537](../../magpie/internal/gateway/claude_subscription.go#L2537) |
-| Content | field_declaration | *subscriptionRun.readOutput | [2543](../../magpie/internal/gateway/claude_subscription.go#L2543) |
-| Event | field_declaration | *subscriptionRun.readOutput | [2573](../../magpie/internal/gateway/claude_subscription.go#L2573) |
-| Block | field_declaration | *subscriptionRun.readOutput | [2574](../../magpie/internal/gateway/claude_subscription.go#L2574) |
-| unstreamedQuiet | var_spec |  | [2633](../../magpie/internal/gateway/claude_subscription.go#L2633) |
-| cliUsage | struct_type |  | [2635](../../magpie/internal/gateway/claude_subscription.go#L2635) |
-| Input | field_declaration | cliUsage | [2636](../../magpie/internal/gateway/claude_subscription.go#L2636) |
-| Output | field_declaration | cliUsage | [2637](../../magpie/internal/gateway/claude_subscription.go#L2637) |
-| CacheRead | field_declaration | cliUsage | [2638](../../magpie/internal/gateway/claude_subscription.go#L2638) |
-| CacheWrite | field_declaration | cliUsage | [2639](../../magpie/internal/gateway/claude_subscription.go#L2639) |
-| CacheCreation | field_declaration | cliUsage | [2640](../../magpie/internal/gateway/claude_subscription.go#L2640) |
-| OutputDetails | field_declaration | cliUsage | [2641](../../magpie/internal/gateway/claude_subscription.go#L2641) |
-| Thinking | field_declaration | cliUsage | [2642](../../magpie/internal/gateway/claude_subscription.go#L2642) |
-| claudeLimits | function_declaration |  | [2651](../../magpie/internal/gateway/claude_subscription.go#L2651) |
-| window | struct_type | claudeLimits | [2652](../../magpie/internal/gateway/claude_subscription.go#L2652) |
-| Utilization | field_declaration | claudeLimits.window | [2653](../../magpie/internal/gateway/claude_subscription.go#L2653) |
-| ResetsAt | field_declaration | claudeLimits.window | [2654](../../magpie/internal/gateway/claude_subscription.go#L2654) |
-| Status | field_declaration | claudeLimits | [2657](../../magpie/internal/gateway/claude_subscription.go#L2657) |
-| RateLimitType | field_declaration | claudeLimits | [2658](../../magpie/internal/gateway/claude_subscription.go#L2658) |
-| Utilization | field_declaration | claudeLimits | [2659](../../magpie/internal/gateway/claude_subscription.go#L2659) |
-| ResetsAt | field_declaration | claudeLimits | [2660](../../magpie/internal/gateway/claude_subscription.go#L2660) |
-| UnifiedWindows | field_declaration | claudeLimits | [2661](../../magpie/internal/gateway/claude_subscription.go#L2661) |
-| carryUpdate | method_declaration | Usage | [2683](../../magpie/internal/gateway/claude_subscription.go#L2683) |
-| plus | method_declaration | Usage | [2690](../../magpie/internal/gateway/claude_subscription.go#L2690) |
-| a | field_declaration | Usage.plus | [2694](../../magpie/internal/gateway/claude_subscription.go#L2694) |
-| b | field_declaration | Usage.plus | [2694](../../magpie/internal/gateway/claude_subscription.go#L2694) |
-| gateway | method_declaration | cliUsage | [2712](../../magpie/internal/gateway/claude_subscription.go#L2712) |
-| renderClaudePrompt | function_declaration |  | [2723](../../magpie/internal/gateway/claude_subscription.go#L2723) |
-| envElsewhereNote | const_spec |  | [2848](../../magpie/internal/gateway/claude_subscription.go#L2848) |
-| toolChoiceAsk | function_declaration |  | [2850](../../magpie/internal/gateway/claude_subscription.go#L2850) |
-| leanSystem | function_declaration |  | [2865](../../magpie/internal/gateway/claude_subscription.go#L2865) |
-| historyChunk | const_spec |  | [2873](../../magpie/internal/gateway/claude_subscription.go#L2873) |
-| cacheMark1h | function_declaration |  | [2878](../../magpie/internal/gateway/claude_subscription.go#L2878) |
-| historyOpen | const_spec |  | [2885](../../magpie/internal/gateway/claude_subscription.go#L2885) |
+| Write | method_declaration |  | [2092](../../magpie/internal/gateway/claude_subscription.go#L2092) |
+| attach | method_declaration |  | [2101](../../magpie/internal/gateway/claude_subscription.go#L2101) |
+| emit | method_declaration |  | [2109](../../magpie/internal/gateway/claude_subscription.go#L2109) |
+| closeSegment | method_declaration |  | [2134](../../magpie/internal/gateway/claude_subscription.go#L2134) |
+| endSegment | method_declaration |  | [2140](../../magpie/internal/gateway/claude_subscription.go#L2140) |
+| readOutput | method_declaration |  | [2153](../../magpie/internal/gateway/claude_subscription.go#L2153) |
+| before | var_spec | readOutput | [2170](../../magpie/internal/gateway/claude_subscription.go#L2170) |
+| reqID | var_spec | readOutput | [2171](../../magpie/internal/gateway/claude_subscription.go#L2171) |
+| calls | var_spec | readOutput | [2201](../../magpie/internal/gateway/claude_subscription.go#L2201) |
+| pmu | var_spec | readOutput | [2204](../../magpie/internal/gateway/claude_subscription.go#L2204) |
+| quiet | var_spec | readOutput | [2205](../../magpie/internal/gateway/claude_subscription.go#L2205) |
+| envelope | var_spec | readOutput | [2300](../../magpie/internal/gateway/claude_subscription.go#L2300) |
+| Type | field_declaration | readOutput::envelope | [2301](../../magpie/internal/gateway/claude_subscription.go#L2301) |
+| Subtype | field_declaration | readOutput::envelope | [2302](../../magpie/internal/gateway/claude_subscription.go#L2302) |
+| IsError | field_declaration | readOutput::envelope | [2303](../../magpie/internal/gateway/claude_subscription.go#L2303) |
+| SessionID | field_declaration | readOutput::envelope | [2305](../../magpie/internal/gateway/claude_subscription.go#L2305) |
+| Result | field_declaration | readOutput::envelope | [2306](../../magpie/internal/gateway/claude_subscription.go#L2306) |
+| StructuredOutput | field_declaration | readOutput::envelope | [2309](../../magpie/internal/gateway/claude_subscription.go#L2309) |
+| Errors | field_declaration | readOutput::envelope | [2310](../../magpie/internal/gateway/claude_subscription.go#L2310) |
+| RequestID | field_declaration | readOutput::envelope | [2314](../../magpie/internal/gateway/claude_subscription.go#L2314) |
+| APIErrorStatus | field_declaration | readOutput::envelope | [2315](../../magpie/internal/gateway/claude_subscription.go#L2315) |
+| ErrorKind | field_declaration | readOutput::envelope | [2316](../../magpie/internal/gateway/claude_subscription.go#L2316) |
+| ToolUseResult | field_declaration | readOutput::envelope | [2319](../../magpie/internal/gateway/claude_subscription.go#L2319) |
+| RateLimitInfo | field_declaration | readOutput::envelope | [2321](../../magpie/internal/gateway/claude_subscription.go#L2321) |
+| Response | field_declaration | readOutput::envelope | [2323](../../magpie/internal/gateway/claude_subscription.go#L2323) |
+| CommandUUID | field_declaration | readOutput::envelope | [2326](../../magpie/internal/gateway/claude_subscription.go#L2326) |
+| State | field_declaration | readOutput::envelope | [2327](../../magpie/internal/gateway/claude_subscription.go#L2327) |
+| Message | field_declaration | readOutput::envelope | [2330](../../magpie/internal/gateway/claude_subscription.go#L2330) |
+| Event | field_declaration | readOutput::envelope | [2331](../../magpie/internal/gateway/claude_subscription.go#L2331) |
+| Type | field_declaration | readOutput::envelope::Event | [2332](../../magpie/internal/gateway/claude_subscription.go#L2332) |
+| Index | field_declaration | readOutput::envelope::Event | [2333](../../magpie/internal/gateway/claude_subscription.go#L2333) |
+| Message | field_declaration | readOutput::envelope::Event | [2334](../../magpie/internal/gateway/claude_subscription.go#L2334) |
+| ID | field_declaration | readOutput::envelope::Event::Message | [2335](../../magpie/internal/gateway/claude_subscription.go#L2335) |
+| Model | field_declaration | readOutput::envelope::Event::Message | [2336](../../magpie/internal/gateway/claude_subscription.go#L2336) |
+| Usage | field_declaration | readOutput::envelope::Event::Message | [2337](../../magpie/internal/gateway/claude_subscription.go#L2337) |
+| ContentBlock | field_declaration | readOutput::envelope::Event | [2339](../../magpie/internal/gateway/claude_subscription.go#L2339) |
+| Type | field_declaration | readOutput::envelope::Event::ContentBlock | [2340](../../magpie/internal/gateway/claude_subscription.go#L2340) |
+| ID | field_declaration | readOutput::envelope::Event::ContentBlock | [2341](../../magpie/internal/gateway/claude_subscription.go#L2341) |
+| Name | field_declaration | readOutput::envelope::Event::ContentBlock | [2342](../../magpie/internal/gateway/claude_subscription.go#L2342) |
+| Text | field_declaration | readOutput::envelope::Event::ContentBlock | [2343](../../magpie/internal/gateway/claude_subscription.go#L2343) |
+| Delta | field_declaration | readOutput::envelope::Event | [2345](../../magpie/internal/gateway/claude_subscription.go#L2345) |
+| Type | field_declaration | readOutput::envelope::Event::Delta | [2346](../../magpie/internal/gateway/claude_subscription.go#L2346) |
+| Text | field_declaration | readOutput::envelope::Event::Delta | [2347](../../magpie/internal/gateway/claude_subscription.go#L2347) |
+| Thinking | field_declaration | readOutput::envelope::Event::Delta | [2348](../../magpie/internal/gateway/claude_subscription.go#L2348) |
+| Signature | field_declaration | readOutput::envelope::Event::Delta | [2349](../../magpie/internal/gateway/claude_subscription.go#L2349) |
+| PartialJSON | field_declaration | readOutput::envelope::Event::Delta | [2350](../../magpie/internal/gateway/claude_subscription.go#L2350) |
+| StopReason | field_declaration | readOutput::envelope::Event::Delta | [2351](../../magpie/internal/gateway/claude_subscription.go#L2351) |
+| SafeguardResults | field_declaration | readOutput::envelope::Event::Delta | [2352](../../magpie/internal/gateway/claude_subscription.go#L2352) |
+| StopDetails | field_declaration | readOutput::envelope::Event::Delta | [2353](../../magpie/internal/gateway/claude_subscription.go#L2353) |
+| Usage | field_declaration | readOutput::envelope::Event | [2355](../../magpie/internal/gateway/claude_subscription.go#L2355) |
+| whole | var_spec | readOutput | [2361](../../magpie/internal/gateway/claude_subscription.go#L2361) |
+| ID | field_declaration | readOutput::whole | [2362](../../magpie/internal/gateway/claude_subscription.go#L2362) |
+| Model | field_declaration | readOutput::whole | [2363](../../magpie/internal/gateway/claude_subscription.go#L2363) |
+| StopReason | field_declaration | readOutput::whole | [2364](../../magpie/internal/gateway/claude_subscription.go#L2364) |
+| Usage | field_declaration | readOutput::whole | [2365](../../magpie/internal/gateway/claude_subscription.go#L2365) |
+| SafeguardResults | field_declaration | readOutput::whole | [2366](../../magpie/internal/gateway/claude_subscription.go#L2366) |
+| StopDetails | field_declaration | readOutput::whole | [2367](../../magpie/internal/gateway/claude_subscription.go#L2367) |
+| Content | field_declaration | readOutput::whole | [2368](../../magpie/internal/gateway/claude_subscription.go#L2368) |
+| Type | field_declaration | readOutput::whole::Content | [2369](../../magpie/internal/gateway/claude_subscription.go#L2369) |
+| Text | field_declaration | readOutput::whole::Content | [2370](../../magpie/internal/gateway/claude_subscription.go#L2370) |
+| Thinking | field_declaration | readOutput::whole::Content | [2371](../../magpie/internal/gateway/claude_subscription.go#L2371) |
+| Signature | field_declaration | readOutput::whole::Content | [2372](../../magpie/internal/gateway/claude_subscription.go#L2372) |
+| ID | field_declaration | readOutput::whole::Content | [2373](../../magpie/internal/gateway/claude_subscription.go#L2373) |
+| Name | field_declaration | readOutput::whole::Content | [2374](../../magpie/internal/gateway/claude_subscription.go#L2374) |
+| Input | field_declaration | readOutput::whole::Content | [2375](../../magpie/internal/gateway/claude_subscription.go#L2375) |
+| kind | var_spec | readOutput | [2475](../../magpie/internal/gateway/claude_subscription.go#L2475) |
+| raws | var_spec | readOutput | [2488](../../magpie/internal/gateway/claude_subscription.go#L2488) |
+| Content | field_declaration | readOutput::raws | [2489](../../magpie/internal/gateway/claude_subscription.go#L2489) |
+| searched | var_spec | readOutput | [2535](../../magpie/internal/gateway/claude_subscription.go#L2535) |
+| Query | field_declaration | readOutput::searched | [2536](../../magpie/internal/gateway/claude_subscription.go#L2536) |
+| Results | field_declaration | readOutput::searched | [2537](../../magpie/internal/gateway/claude_subscription.go#L2537) |
+| hits | var_spec | readOutput | [2540](../../magpie/internal/gateway/claude_subscription.go#L2540) |
+| found | var_spec | readOutput | [2542](../../magpie/internal/gateway/claude_subscription.go#L2542) |
+| Content | field_declaration | readOutput::found | [2543](../../magpie/internal/gateway/claude_subscription.go#L2543) |
+| raw | var_spec | readOutput | [2572](../../magpie/internal/gateway/claude_subscription.go#L2572) |
+| Event | field_declaration | readOutput::raw | [2573](../../magpie/internal/gateway/claude_subscription.go#L2573) |

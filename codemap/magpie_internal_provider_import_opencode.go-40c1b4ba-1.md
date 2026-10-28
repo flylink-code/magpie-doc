@@ -11,5 +11,8 @@ Source SHA-256: 5b4473621256ad183dd025fddae4f472170b046dfa7d0124a1eb331664fc19b9
 | openCodeAuthPath | function_declaration |  | [23](../../magpie/internal/provider/import_opencode.go#L23) |
 | openCodePresets | var_spec |  | [34](../../magpie/internal/provider/import_opencode.go#L34) |
 | readOpenCodeAuth | function_declaration |  | [43](../../magpie/internal/provider/import_opencode.go#L43) |
-| Type | field_declaration | readOpenCodeAuth | [55](../../magpie/internal/provider/import_opencode.go#L55) |
-| Key | field_declaration | readOpenCodeAuth | [56](../../magpie/internal/provider/import_opencode.go#L56) |
+| all | var_spec | readOpenCodeAuth | [48](../../magpie/internal/provider/import_opencode.go#L48) |
+| out | var_spec | readOpenCodeAuth | [52](../../magpie/internal/provider/import_opencode.go#L52) |
+| e | var_spec | readOpenCodeAuth | [54](../../magpie/internal/provider/import_opencode.go#L54) |
+| Type | field_declaration | readOpenCodeAuth::e | [55](../../magpie/internal/provider/import_opencode.go#L55) |
+| Key | field_declaration | readOpenCodeAuth::e | [56](../../magpie/internal/provider/import_opencode.go#L56) |

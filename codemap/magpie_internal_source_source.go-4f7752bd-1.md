@@ -27,5 +27,9 @@ Source SHA-256: db00c65429cdb121d22cb041408d77e8df69208bcd82d503bb44a48d2c37d822
 | DoOfficial | function_declaration |  | [184](../../magpie/internal/source/source.go#L184) |
 | DoFaithful | function_declaration |  | [191](../../magpie/internal/source/source.go#L191) |
 | do | function_declaration |  | [198](../../magpie/internal/source/source.go#L198) |
+| last | var_spec | do | [199](../../magpie/internal/source/source.go#L199) |
+| cancel | var_spec | do | [226](../../magpie/internal/source/source.go#L226) |
+| stop | var_spec | do | [227](../../magpie/internal/source/source.go#L227) |
 | candidateContext | function_declaration |  | [264](../../magpie/internal/source/source.go#L264) |
+| d | var_spec | candidateContext | [268](../../magpie/internal/source/source.go#L268) |
 | retryable | function_declaration |  | [282](../../magpie/internal/source/source.go#L282) |

@@ -8,23 +8,26 @@ Source SHA-256: 28902513edfd720c7895c1d48827b9fffe751ed1d5a1ecba459c34d0e4bf2880
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| team | method_declaration | zcodeKey | [56](../../magpie/internal/provider/zcode_team.go#L56) |
+| team | method_declaration |  | [56](../../magpie/internal/provider/zcode_team.go#L56) |
 | zcodeBizRoot | function_declaration |  | [59](../../magpie/internal/provider/zcode_team.go#L59) |
 | zcodeTeamHeaders | function_declaration |  | [68](../../magpie/internal/provider/zcode_team.go#L68) |
 | zcodeWhen | function_declaration |  | [81](../../magpie/internal/provider/zcode_team.go#L81) |
+| t | var_spec | zcodeWhen | [88](../../magpie/internal/provider/zcode_team.go#L88) |
 | zcodeOwnTeam | function_declaration |  | [103](../../magpie/internal/provider/zcode_team.go#L103) |
-| Domain | field_declaration | zcodeOwnTeam | [106](../../magpie/internal/provider/zcode_team.go#L106) |
-| Sel | field_declaration | zcodeOwnTeam | [107](../../magpie/internal/provider/zcode_team.go#L107) |
-| Kind | field_declaration | zcodeOwnTeam | [108](../../magpie/internal/provider/zcode_team.go#L108) |
-| Org | field_declaration | zcodeOwnTeam | [109](../../magpie/internal/provider/zcode_team.go#L109) |
-| Project | field_declaration | zcodeOwnTeam | [110](../../magpie/internal/provider/zcode_team.go#L110) |
-| Legacy | field_declaration | zcodeOwnTeam | [112](../../magpie/internal/provider/zcode_team.go#L112) |
+| set | var_spec | zcodeOwnTeam | [105](../../magpie/internal/provider/zcode_team.go#L105) |
+| Domain | field_declaration | zcodeOwnTeam::set | [106](../../magpie/internal/provider/zcode_team.go#L106) |
+| Sel | field_declaration | zcodeOwnTeam::set | [107](../../magpie/internal/provider/zcode_team.go#L107) |
+| Kind | field_declaration | zcodeOwnTeam::set::Sel | [108](../../magpie/internal/provider/zcode_team.go#L108) |
+| Org | field_declaration | zcodeOwnTeam::set::Sel | [109](../../magpie/internal/provider/zcode_team.go#L109) |
+| Project | field_declaration | zcodeOwnTeam::set::Sel | [110](../../magpie/internal/provider/zcode_team.go#L110) |
+| Legacy | field_declaration | zcodeOwnTeam::set | [112](../../magpie/internal/provider/zcode_team.go#L112) |
 | zhipuPersonalResets | function_declaration |  | [164](../../magpie/internal/provider/zcode_team.go#L164) |
 | zhipuResets | function_declaration |  | [173](../../magpie/internal/provider/zcode_team.go#L173) |
-| reset | struct_type | zhipuResets | [174](../../magpie/internal/provider/zcode_team.go#L174) |
-| Available | field_declaration | zhipuResets.reset | [175](../../magpie/internal/provider/zcode_team.go#L175) |
-| Expire | field_declaration | zhipuResets.reset | [176](../../magpie/internal/provider/zcode_team.go#L176) |
-| FiveHour | field_declaration | zhipuResets | [179](../../magpie/internal/provider/zcode_team.go#L179) |
-| Week | field_declaration | zhipuResets | [180](../../magpie/internal/provider/zcode_team.go#L180) |
+| reset | type_spec | zhipuResets | [174](../../magpie/internal/provider/zcode_team.go#L174) |
+| Available | field_declaration | zhipuResets::reset | [175](../../magpie/internal/provider/zcode_team.go#L175) |
+| Expire | field_declaration | zhipuResets::reset | [176](../../magpie/internal/provider/zcode_team.go#L176) |
+| data | var_spec | zhipuResets | [178](../../magpie/internal/provider/zcode_team.go#L178) |
+| FiveHour | field_declaration | zhipuResets::data | [179](../../magpie/internal/provider/zcode_team.go#L179) |
+| Week | field_declaration | zhipuResets::data | [180](../../magpie/internal/provider/zcode_team.go#L180) |
 | zhipuTeamOf | function_declaration |  | [211](../../magpie/internal/provider/zcode_team.go#L211) |
 | zcodeNum | function_declaration |  | [221](../../magpie/internal/provider/zcode_team.go#L221) |

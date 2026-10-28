@@ -8,103 +8,103 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| pageFile | var_spec |  | [798](../../magpie/internal/gui/api.go#L798) |
-| versionedPage | function_declaration |  | [803](../../magpie/internal/gui/api.go#L803) |
-| Handler | function_declaration |  | [818](../../magpie/internal/gui/api.go#L818) |
-| Agent | field_declaration | Handler | [900](../../magpie/internal/gui/api.go#L900) |
-| Field | field_declaration | Handler | [900](../../magpie/internal/gui/api.go#L900) |
-| Value | field_declaration | Handler | [900](../../magpie/internal/gui/api.go#L900) |
-| Field | field_declaration | Handler | [964](../../magpie/internal/gui/api.go#L964) |
-| Value | field_declaration | Handler | [964](../../magpie/internal/gui/api.go#L964) |
-| Revision | field_declaration | Handler | [1056](../../magpie/internal/gui/api.go#L1056) |
-| Name | field_declaration | Handler | [1113](../../magpie/internal/gui/api.go#L1113) |
+| how | var_spec | Handler | [1085](../../magpie/internal/gui/api.go#L1085) |
+| c | var_spec | Handler | [1092](../../magpie/internal/gui/api.go#L1092) |
+| in | var_spec | Handler | [1113](../../magpie/internal/gui/api.go#L1113) |
+| Name | field_declaration | Handler::in | [1113](../../magpie/internal/gui/api.go#L1113) |
+| err | var_spec | Handler | [1116](../../magpie/internal/gui/api.go#L1116) |
+| applied | var_spec | Handler | [1117](../../magpie/internal/gui/api.go#L1117) |
+| p | var_spec | Handler | [1120](../../magpie/internal/gui/api.go#L1120) |
+| ps | var_spec | Handler | [1125](../../magpie/internal/gui/api.go#L1125) |
 | Changed | field_declaration | Handler | [1147](../../magpie/internal/gui/api.go#L1147) |
 | Library | field_declaration | Handler | [1149](../../magpie/internal/gui/api.go#L1149) |
-| On | field_declaration | Handler | [1411](../../magpie/internal/gui/api.go#L1411) |
-| Reads | field_declaration | Handler | [1432](../../magpie/internal/gui/api.go#L1432) |
-| Off | field_declaration | Handler | [1450](../../magpie/internal/gui/api.go#L1450) |
-| Version | field_declaration | Handler | [1469](../../magpie/internal/gui/api.go#L1469) |
-| On | field_declaration | Handler | [1489](../../magpie/internal/gui/api.go#L1489) |
-| Mode | field_declaration | Handler | [1490](../../magpie/internal/gui/api.go#L1490) |
-| On | field_declaration | Handler | [1509](../../magpie/internal/gui/api.go#L1509) |
-| On | field_declaration | Handler | [1523](../../magpie/internal/gui/api.go#L1523) |
-| Hidden | field_declaration | Handler | [1536](../../magpie/internal/gui/api.go#L1536) |
-| On | field_declaration | Handler | [1552](../../magpie/internal/gui/api.go#L1552) |
-| On | field_declaration | Handler | [1578](../../magpie/internal/gui/api.go#L1578) |
-| At | field_declaration | Handler | [1579](../../magpie/internal/gui/api.go#L1579) |
-| On | field_declaration | Handler | [1600](../../magpie/internal/gui/api.go#L1600) |
-| Percent | field_declaration | Handler | [1601](../../magpie/internal/gui/api.go#L1601) |
-| Model | field_declaration | Handler | [1620](../../magpie/internal/gui/api.go#L1620) |
-| Model | field_declaration | Handler | [1643](../../magpie/internal/gui/api.go#L1643) |
-| Models | field_declaration | Handler | [1668](../../magpie/internal/gui/api.go#L1668) |
-| Model | field_declaration | Handler | [1683](../../magpie/internal/gui/api.go#L1683) |
-| Model | field_declaration | Handler | [1706](../../magpie/internal/gui/api.go#L1706) |
-| User | field_declaration | Handler | [1732](../../magpie/internal/gui/api.go#L1732) |
-| At | field_declaration | Handler | [1732](../../magpie/internal/gui/api.go#L1732) |
-| User | field_declaration | Handler | [1747](../../magpie/internal/gui/api.go#L1747) |
-| On | field_declaration | Handler | [1748](../../magpie/internal/gui/api.go#L1748) |
-| When | field_declaration | Handler | [1749](../../magpie/internal/gui/api.go#L1749) |
-| User | field_declaration | Handler | [1773](../../magpie/internal/gui/api.go#L1773) |
-| On | field_declaration | Handler | [1774](../../magpie/internal/gui/api.go#L1774) |
-| On | field_declaration | Handler | [1793](../../magpie/internal/gui/api.go#L1793) |
-| On | field_declaration | Handler | [1808](../../magpie/internal/gui/api.go#L1808) |
-| On | field_declaration | Handler | [1823](../../magpie/internal/gui/api.go#L1823) |
-| On | field_declaration | Handler | [1838](../../magpie/internal/gui/api.go#L1838) |
-| Provider | field_declaration | Handler | [1854](../../magpie/internal/gui/api.go#L1854) |
-| On | field_declaration | Handler | [1855](../../magpie/internal/gui/api.go#L1855) |
-| Provider | field_declaration | Handler | [1881](../../magpie/internal/gui/api.go#L1881) |
-| Key | field_declaration | Handler | [1882](../../magpie/internal/gui/api.go#L1882) |
-| On | field_declaration | Handler | [1883](../../magpie/internal/gui/api.go#L1883) |
-| Key | field_declaration | Handler | [1918](../../magpie/internal/gui/api.go#L1918) |
-| On | field_declaration | Handler | [1919](../../magpie/internal/gui/api.go#L1919) |
-| Size | field_declaration | Handler | [1948](../../magpie/internal/gui/api.go#L1948) |
-| Order | field_declaration | Handler | [1966](../../magpie/internal/gui/api.go#L1966) |
-| Hidden | field_declaration | Handler | [1966](../../magpie/internal/gui/api.go#L1966) |
-| Shown | field_declaration | Handler | [1966](../../magpie/internal/gui/api.go#L1966) |
-| Order | field_declaration | Handler | [1986](../../magpie/internal/gui/api.go#L1986) |
-| PanelHidden | field_declaration | Handler | [1987](../../magpie/internal/gui/api.go#L1987) |
-| AgentsHidden | field_declaration | Handler | [1988](../../magpie/internal/gui/api.go#L1988) |
-| Count | field_declaration | Handler | [1989](../../magpie/internal/gui/api.go#L1989) |
-| Client | field_declaration | Handler | [1989](../../magpie/internal/gui/api.go#L1989) |
-| As | field_declaration | Handler | [1989](../../magpie/internal/gui/api.go#L1989) |
-| On | field_declaration | Handler | [2020](../../magpie/internal/gui/api.go#L2020) |
-| On | field_declaration | Handler | [2034](../../magpie/internal/gui/api.go#L2034) |
-| NewKey | field_declaration | Handler | [2034](../../magpie/internal/gui/api.go#L2034) |
-| Origins | field_declaration | Handler | [2061](../../magpie/internal/gui/api.go#L2061) |
-| IPs | field_declaration | Handler | [2085](../../magpie/internal/gui/api.go#L2085) |
-| Port | field_declaration | Handler | [2118](../../magpie/internal/gui/api.go#L2118) |
-| Rules | field_declaration | Handler | [2133](../../magpie/internal/gui/api.go#L2133) |
-| At | field_declaration | Handler | [2151](../../magpie/internal/gui/api.go#L2151) |
-| Was | field_declaration | Handler | [2152](../../magpie/internal/gui/api.go#L2152) |
-| Rule | field_declaration | Handler | [2153](../../magpie/internal/gui/api.go#L2153) |
-| Actions | field_declaration | Handler | [2176](../../magpie/internal/gui/api.go#L2176) |
-| Allow | field_declaration | Handler | [2193](../../magpie/internal/gui/api.go#L2193) |
-| Token | field_declaration | Handler | [2211](../../magpie/internal/gui/api.go#L2211) |
-| Mirror | field_declaration | Handler | [2235](../../magpie/internal/gui/api.go#L2235) |
-| Vendor | field_declaration | Handler | [2260](../../magpie/internal/gui/api.go#L2260) |
-| Key | field_declaration | Handler | [2260](../../magpie/internal/gui/api.go#L2260) |
-| URL | field_declaration | Handler | [2260](../../magpie/internal/gui/api.go#L2260) |
-| Pick | field_declaration | Handler | [2260](../../magpie/internal/gui/api.go#L2260) |
-| Remove | field_declaration | Handler | [2261](../../magpie/internal/gui/api.go#L2261) |
-| On | field_declaration | Handler | [2262](../../magpie/internal/gui/api.go#L2262) |
-| Arrange | field_declaration | Handler | [2263](../../magpie/internal/gui/api.go#L2263) |
-| Vendor | field_declaration | Handler | [2289](../../magpie/internal/gui/api.go#L2289) |
-| Vendor | field_declaration | Handler | [2306](../../magpie/internal/gui/api.go#L2306) |
-| Fresh | field_declaration | Handler | [2307](../../magpie/internal/gui/api.go#L2307) |
-| noFramedAPI | function_declaration |  | [2365](../../magpie/internal/gui/api.go#L2365) |
-| held | function_declaration |  | [2382](../../magpie/internal/gui/api.go#L2382) |
-| state | function_declaration |  | [2406](../../magpie/internal/gui/api.go#L2406) |
-| signInOpened | struct_type |  | [2485](../../magpie/internal/gui/api.go#L2485) |
-| OpenError | field_declaration | signInOpened | [2487](../../magpie/internal/gui/api.go#L2487) |
-| mcpSignInOpened | struct_type |  | [2491](../../magpie/internal/gui/api.go#L2491) |
-| OpenError | field_declaration | mcpSignInOpened | [2493](../../magpie/internal/gui/api.go#L2493) |
-| openError | function_declaration |  | [2498](../../magpie/internal/gui/api.go#L2498) |
-| writeJSON | function_declaration |  | [2508](../../magpie/internal/gui/api.go#L2508) |
-| writeJSONSame | function_declaration |  | [2520](../../magpie/internal/gui/api.go#L2520) |
-| sentRows | var_spec |  | [2541](../../magpie/internal/gui/api.go#L2541) |
-| sentRowsKept | const_spec |  | [2547](../../magpie/internal/gui/api.go#L2547) |
-| writeJSONRows | function_declaration |  | [2556](../../magpie/internal/gui/api.go#L2556) |
-| fail | function_declaration |  | [2653](../../magpie/internal/gui/api.go#L2653) |
-| tilde | function_declaration |  | [2705](../../magpie/internal/gui/api.go#L2705) |
-| codexUsers | function_declaration |  | [2713](../../magpie/internal/gui/api.go#L2713) |
-| editRedactRule | function_declaration |  | [2728](../../magpie/internal/gui/api.go#L2728) |
+| body | var_spec | Handler | [1190](../../magpie/internal/gui/api.go#L1190) |
+| in | var_spec | Handler | [1191](../../magpie/internal/gui/api.go#L1191) |
+| fields | var_spec | Handler | [1209](../../magpie/internal/gui/api.go#L1209) |
+| in | var_spec | Handler | [1411](../../magpie/internal/gui/api.go#L1411) |
+| On | field_declaration | Handler::in | [1411](../../magpie/internal/gui/api.go#L1411) |
+| in | var_spec | Handler | [1431](../../magpie/internal/gui/api.go#L1431) |
+| Reads | field_declaration | Handler::in | [1432](../../magpie/internal/gui/api.go#L1432) |
+| in | var_spec | Handler | [1449](../../magpie/internal/gui/api.go#L1449) |
+| Off | field_declaration | Handler::in | [1450](../../magpie/internal/gui/api.go#L1450) |
+| in | var_spec | Handler | [1468](../../magpie/internal/gui/api.go#L1468) |
+| Version | field_declaration | Handler::in | [1469](../../magpie/internal/gui/api.go#L1469) |
+| in | var_spec | Handler | [1488](../../magpie/internal/gui/api.go#L1488) |
+| On | field_declaration | Handler::in | [1489](../../magpie/internal/gui/api.go#L1489) |
+| Mode | field_declaration | Handler::in | [1490](../../magpie/internal/gui/api.go#L1490) |
+| in | var_spec | Handler | [1509](../../magpie/internal/gui/api.go#L1509) |
+| On | field_declaration | Handler::in | [1509](../../magpie/internal/gui/api.go#L1509) |
+| in | var_spec | Handler | [1523](../../magpie/internal/gui/api.go#L1523) |
+| On | field_declaration | Handler::in | [1523](../../magpie/internal/gui/api.go#L1523) |
+| in | var_spec | Handler | [1536](../../magpie/internal/gui/api.go#L1536) |
+| Hidden | field_declaration | Handler::in | [1536](../../magpie/internal/gui/api.go#L1536) |
+| in | var_spec | Handler | [1552](../../magpie/internal/gui/api.go#L1552) |
+| On | field_declaration | Handler::in | [1552](../../magpie/internal/gui/api.go#L1552) |
+| in | var_spec | Handler | [1577](../../magpie/internal/gui/api.go#L1577) |
+| On | field_declaration | Handler::in | [1578](../../magpie/internal/gui/api.go#L1578) |
+| At | field_declaration | Handler::in | [1579](../../magpie/internal/gui/api.go#L1579) |
+| in | var_spec | Handler | [1599](../../magpie/internal/gui/api.go#L1599) |
+| On | field_declaration | Handler::in | [1600](../../magpie/internal/gui/api.go#L1600) |
+| Percent | field_declaration | Handler::in | [1601](../../magpie/internal/gui/api.go#L1601) |
+| in | var_spec | Handler | [1620](../../magpie/internal/gui/api.go#L1620) |
+| Model | field_declaration | Handler::in | [1620](../../magpie/internal/gui/api.go#L1620) |
+| in | var_spec | Handler | [1643](../../magpie/internal/gui/api.go#L1643) |
+| Model | field_declaration | Handler::in | [1643](../../magpie/internal/gui/api.go#L1643) |
+| in | var_spec | Handler | [1668](../../magpie/internal/gui/api.go#L1668) |
+| Models | field_declaration | Handler::in | [1668](../../magpie/internal/gui/api.go#L1668) |
+| in | var_spec | Handler | [1683](../../magpie/internal/gui/api.go#L1683) |
+| Model | field_declaration | Handler::in | [1683](../../magpie/internal/gui/api.go#L1683) |
+| in | var_spec | Handler | [1706](../../magpie/internal/gui/api.go#L1706) |
+| Model | field_declaration | Handler::in | [1706](../../magpie/internal/gui/api.go#L1706) |
+| in | var_spec | Handler | [1732](../../magpie/internal/gui/api.go#L1732) |
+| User | field_declaration | Handler::in | [1732](../../magpie/internal/gui/api.go#L1732) |
+| in | var_spec | Handler | [1746](../../magpie/internal/gui/api.go#L1746) |
+| User | field_declaration | Handler::in | [1747](../../magpie/internal/gui/api.go#L1747) |
+| On | field_declaration | Handler::in | [1748](../../magpie/internal/gui/api.go#L1748) |
+| When | field_declaration | Handler::in | [1749](../../magpie/internal/gui/api.go#L1749) |
+| in | var_spec | Handler | [1772](../../magpie/internal/gui/api.go#L1772) |
+| User | field_declaration | Handler::in | [1773](../../magpie/internal/gui/api.go#L1773) |
+| On | field_declaration | Handler::in | [1774](../../magpie/internal/gui/api.go#L1774) |
+| in | var_spec | Handler | [1793](../../magpie/internal/gui/api.go#L1793) |
+| On | field_declaration | Handler::in | [1793](../../magpie/internal/gui/api.go#L1793) |
+| in | var_spec | Handler | [1808](../../magpie/internal/gui/api.go#L1808) |
+| On | field_declaration | Handler::in | [1808](../../magpie/internal/gui/api.go#L1808) |
+| in | var_spec | Handler | [1823](../../magpie/internal/gui/api.go#L1823) |
+| On | field_declaration | Handler::in | [1823](../../magpie/internal/gui/api.go#L1823) |
+| in | var_spec | Handler | [1838](../../magpie/internal/gui/api.go#L1838) |
+| On | field_declaration | Handler::in | [1838](../../magpie/internal/gui/api.go#L1838) |
+| in | var_spec | Handler | [1853](../../magpie/internal/gui/api.go#L1853) |
+| Provider | field_declaration | Handler::in | [1854](../../magpie/internal/gui/api.go#L1854) |
+| On | field_declaration | Handler::in | [1855](../../magpie/internal/gui/api.go#L1855) |
+| in | var_spec | Handler | [1880](../../magpie/internal/gui/api.go#L1880) |
+| Provider | field_declaration | Handler::in | [1881](../../magpie/internal/gui/api.go#L1881) |
+| Key | field_declaration | Handler::in | [1882](../../magpie/internal/gui/api.go#L1882) |
+| On | field_declaration | Handler::in | [1883](../../magpie/internal/gui/api.go#L1883) |
+| in | var_spec | Handler | [1917](../../magpie/internal/gui/api.go#L1917) |
+| Key | field_declaration | Handler::in | [1918](../../magpie/internal/gui/api.go#L1918) |
+| On | field_declaration | Handler::in | [1919](../../magpie/internal/gui/api.go#L1919) |
+| in | var_spec | Handler | [1948](../../magpie/internal/gui/api.go#L1948) |
+| Size | field_declaration | Handler::in | [1948](../../magpie/internal/gui/api.go#L1948) |
+| in | var_spec | Handler | [1966](../../magpie/internal/gui/api.go#L1966) |
+| Order | field_declaration | Handler::in | [1966](../../magpie/internal/gui/api.go#L1966) |
+| in | var_spec | Handler | [1985](../../magpie/internal/gui/api.go#L1985) |
+| Order | field_declaration | Handler::in | [1986](../../magpie/internal/gui/api.go#L1986) |
+| PanelHidden | field_declaration | Handler::in | [1987](../../magpie/internal/gui/api.go#L1987) |
+| AgentsHidden | field_declaration | Handler::in | [1988](../../magpie/internal/gui/api.go#L1988) |
+| Count | field_declaration | Handler::in | [1989](../../magpie/internal/gui/api.go#L1989) |
+| Client | field_declaration | Handler::in::Count | [1989](../../magpie/internal/gui/api.go#L1989) |
+| in | var_spec | Handler | [2020](../../magpie/internal/gui/api.go#L2020) |
+| On | field_declaration | Handler::in | [2020](../../magpie/internal/gui/api.go#L2020) |
+| in | var_spec | Handler | [2034](../../magpie/internal/gui/api.go#L2034) |
+| On | field_declaration | Handler::in | [2034](../../magpie/internal/gui/api.go#L2034) |
+| in | var_spec | Handler | [2061](../../magpie/internal/gui/api.go#L2061) |
+| Origins | field_declaration | Handler::in | [2061](../../magpie/internal/gui/api.go#L2061) |
+| in | var_spec | Handler | [2085](../../magpie/internal/gui/api.go#L2085) |
+| IPs | field_declaration | Handler::in | [2085](../../magpie/internal/gui/api.go#L2085) |
+| in | var_spec | Handler | [2118](../../magpie/internal/gui/api.go#L2118) |
+| Port | field_declaration | Handler::in | [2118](../../magpie/internal/gui/api.go#L2118) |
+| in | var_spec | Handler | [2133](../../magpie/internal/gui/api.go#L2133) |
+| Rules | field_declaration | Handler::in | [2133](../../magpie/internal/gui/api.go#L2133) |
+| in | var_spec | Handler | [2150](../../magpie/internal/gui/api.go#L2150) |
+| At | field_declaration | Handler::in | [2151](../../magpie/internal/gui/api.go#L2151) |
+| Was | field_declaration | Handler::in | [2152](../../magpie/internal/gui/api.go#L2152) |

@@ -8,21 +8,23 @@ Source SHA-256: cdf193f271a614f381e7e926c6bdc63f1d6f61d9dfa1120178f880134fa08067
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| wordPart | struct_type |  | [23](../../magpie/internal/gateway/claude_lost_media.go#L23) |
+| wordPart | type_spec |  | [23](../../magpie/internal/gateway/claude_lost_media.go#L23) |
 | kind | field_declaration | wordPart | [24](../../magpie/internal/gateway/claude_lost_media.go#L24) |
 | words | field_declaration | wordPart | [25](../../magpie/internal/gateway/claude_lost_media.go#L25) |
 | media | field_declaration | wordPart | [26](../../magpie/internal/gateway/claude_lost_media.go#L26) |
 | messageParts | function_declaration |  | [32](../../magpie/internal/gateway/claude_lost_media.go#L32) |
-| heardPart | struct_type |  | [71](../../magpie/internal/gateway/claude_lost_media.go#L71) |
+| s | var_spec | messageParts | [37](../../magpie/internal/gateway/claude_lost_media.go#L37) |
+| heardPart | type_spec |  | [71](../../magpie/internal/gateway/claude_lost_media.go#L71) |
 | kind | field_declaration | heardPart | [72](../../magpie/internal/gateway/claude_lost_media.go#L72) |
 | n | field_declaration | heardPart | [73](../../magpie/internal/gateway/claude_lost_media.go#L73) |
 | sum | field_declaration | heardPart | [74](../../magpie/internal/gateway/claude_lost_media.go#L74) |
 | media | field_declaration | heardPart | [75](../../magpie/internal/gateway/claude_lost_media.go#L75) |
 | words | field_declaration | heardPart | [76](../../magpie/internal/gateway/claude_lost_media.go#L76) |
-| heardRun | struct_type |  | [81](../../magpie/internal/gateway/claude_lost_media.go#L81) |
+| heardRun | type_spec |  | [81](../../magpie/internal/gateway/claude_lost_media.go#L81) |
 | role | field_declaration | heardRun | [82](../../magpie/internal/gateway/claude_lost_media.go#L82) |
 | parts | field_declaration | heardRun | [83](../../magpie/internal/gateway/claude_lost_media.go#L83) |
 | heardRuns | function_declaration |  | [87](../../magpie/internal/gateway/claude_lost_media.go#L87) |
+| out | var_spec | heardRuns | [88](../../magpie/internal/gateway/claude_lost_media.go#L88) |
 | isMedia | function_declaration |  | [108](../../magpie/internal/gateway/claude_lost_media.go#L108) |
 | lostMedia | function_declaration |  | [119](../../magpie/internal/gateway/claude_lost_media.go#L119) |
 | lostFromRun | function_declaration |  | [140](../../magpie/internal/gateway/claude_lost_media.go#L140) |

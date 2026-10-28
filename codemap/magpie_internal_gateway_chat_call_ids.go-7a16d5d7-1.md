@@ -9,10 +9,17 @@ Source SHA-256: ac64e08303d14b93715b0fdebe3c57b06a9bb1a1046bbb31b48b16d584017c9e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | chatCallIDs | function_declaration |  | [22](../../magpie/internal/gateway/chat_call_ids.go#L22) |
-| Name | field_declaration | chatCallIDs | [41](../../magpie/internal/gateway/chat_call_ids.go#L41) |
-| Arguments | field_declaration | chatCallIDs | [42](../../magpie/internal/gateway/chat_call_ids.go#L42) |
+| open | var_spec | chatCallIDs | [24](../../magpie/internal/gateway/chat_call_ids.go#L24) |
+| role | var_spec | chatCallIDs | [27](../../magpie/internal/gateway/chat_call_ids.go#L27) |
+| calls | var_spec | chatCallIDs | [31](../../magpie/internal/gateway/chat_call_ids.go#L31) |
+| fn | var_spec | chatCallIDs | [40](../../magpie/internal/gateway/chat_call_ids.go#L40) |
+| Name | field_declaration | chatCallIDs::fn | [41](../../magpie/internal/gateway/chat_call_ids.go#L41) |
+| Arguments | field_declaration | chatCallIDs::fn | [42](../../magpie/internal/gateway/chat_call_ids.go#L42) |
 | callID | function_declaration |  | [68](../../magpie/internal/gateway/chat_call_ids.go#L68) |
+| id | var_spec | callID | [69](../../magpie/internal/gateway/chat_call_ids.go#L69) |
 | placedCallID | function_declaration |  | [76](../../magpie/internal/gateway/chat_call_ids.go#L76) |
 | streamCallIDs | type_spec |  | [83](../../magpie/internal/gateway/chat_call_ids.go#L83) |
-| mend | method_declaration | streamCallIDs | [89](../../magpie/internal/gateway/chat_call_ids.go#L89) |
+| mend | method_declaration |  | [89](../../magpie/internal/gateway/chat_call_ids.go#L89) |
+| calls | var_spec | mend | [90](../../magpie/internal/gateway/chat_call_ids.go#L90) |
 | wholeCallIDs | function_declaration |  | [123](../../magpie/internal/gateway/chat_call_ids.go#L123) |
+| calls | var_spec | wholeCallIDs | [124](../../magpie/internal/gateway/chat_call_ids.go#L124) |

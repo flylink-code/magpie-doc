@@ -8,25 +8,34 @@ Source SHA-256: 85855f86c656766a1629dc36adc712d351be094487b5c69bda42abf97074290c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexPortState | struct_type |  | [49](../../magpie/internal/sessions/codex_portable.go#L49) |
+| codexPortState | type_spec |  | [49](../../magpie/internal/sessions/codex_portable.go#L49) |
 | Homes | field_declaration | codexPortState | [50](../../magpie/internal/sessions/codex_portable.go#L50) |
-| codexPortHome | struct_type |  | [53](../../magpie/internal/sessions/codex_portable.go#L53) |
+| codexPortHome | type_spec |  | [53](../../magpie/internal/sessions/codex_portable.go#L53) |
 | Since | field_declaration | codexPortHome | [54](../../magpie/internal/sessions/codex_portable.go#L54) |
 | Pending | field_declaration | codexPortHome | [55](../../magpie/internal/sessions/codex_portable.go#L55) |
 | codexPortFirst | var_spec |  | [60](../../magpie/internal/sessions/codex_portable.go#L60) |
 | codexPortSlack | const_spec |  | [64](../../magpie/internal/sessions/codex_portable.go#L64) |
 | codexPortPath | function_declaration |  | [66](../../magpie/internal/sessions/codex_portable.go#L66) |
-| CodexPort | struct_type |  | [69](../../magpie/internal/sessions/codex_portable.go#L69) |
+| CodexPort | type_spec |  | [69](../../magpie/internal/sessions/codex_portable.go#L69) |
 | Rewritten | field_declaration | CodexPort | [70](../../magpie/internal/sessions/codex_portable.go#L70) |
 | Held | field_declaration | CodexPort | [71](../../magpie/internal/sessions/codex_portable.go#L71) |
 | Done | field_declaration | CodexPort | [72](../../magpie/internal/sessions/codex_portable.go#L72) |
 | PortCodexRollouts | function_declaration |  | [79](../../magpie/internal/sessions/codex_portable.go#L79) |
+| res | var_spec | PortCodexRollouts | [80](../../magpie/internal/sessions/codex_portable.go#L80) |
+| st | var_spec | PortCodexRollouts | [91](../../magpie/internal/sessions/codex_portable.go#L91) |
+| due | var_spec | PortCodexRollouts | [109](../../magpie/internal/sessions/codex_portable.go#L109) |
+| pending | var_spec | PortCodexRollouts | [136](../../magpie/internal/sessions/codex_portable.go#L136) |
 | uniq | function_declaration |  | [177](../../magpie/internal/sessions/codex_portable.go#L177) |
+| out | var_spec | uniq | [178](../../magpie/internal/sessions/codex_portable.go#L178) |
 | errRolloutHeld | var_spec |  | [189](../../magpie/internal/sessions/codex_portable.go#L189) |
 | codexRolloutName | var_spec |  | [193](../../magpie/internal/sessions/codex_portable.go#L193) |
 | codexThreadOf | function_declaration |  | [197](../../magpie/internal/sessions/codex_portable.go#L197) |
 | magpieMark | var_spec |  | [205](../../magpie/internal/sessions/codex_portable.go#L205) |
 | portRollout | function_declaration |  | [209](../../magpie/internal/sessions/codex_portable.go#L209) |
+| w | var_spec | portRollout | [234](../../magpie/internal/sessions/codex_portable.go#L234) |
+| z | var_spec | portRollout | [235](../../magpie/internal/sessions/codex_portable.go#L235) |
 | portLine | function_declaration |  | [323](../../magpie/internal/sessions/codex_portable.go#L323) |
+| v | var_spec | portLine | [331](../../magpie/internal/sessions/codex_portable.go#L331) |
+| buf | var_spec | portLine | [339](../../magpie/internal/sessions/codex_portable.go#L339) |
 | portValue | function_declaration |  | [350](../../magpie/internal/sessions/codex_portable.go#L350) |
 | portList | function_declaration |  | [401](../../magpie/internal/sessions/codex_portable.go#L401) |

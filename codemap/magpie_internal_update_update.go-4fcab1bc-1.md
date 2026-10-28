@@ -10,12 +10,12 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 | --- | --- | --- | ---: |
 | Site | const_spec |  | [42](../../magpie/internal/update/update.go#L42) |
 | Feed | function_declaration |  | [46](../../magpie/internal/update/update.go#L46) |
-| Release | struct_type |  | [54](../../magpie/internal/update/update.go#L54) |
+| Release | type_spec |  | [54](../../magpie/internal/update/update.go#L54) |
 | Version | field_declaration | Release | [55](../../magpie/internal/update/update.go#L55) |
 | Notes | field_declaration | Release | [56](../../magpie/internal/update/update.go#L56) |
 | URL | field_declaration | Release | [57](../../magpie/internal/update/update.go#L57) |
 | Assets | field_declaration | Release | [58](../../magpie/internal/update/update.go#L58) |
-| Asset | struct_type |  | [62](../../magpie/internal/update/update.go#L62) |
+| Asset | type_spec |  | [62](../../magpie/internal/update/update.go#L62) |
 | URL | field_declaration | Asset | [63](../../magpie/internal/update/update.go#L63) |
 | Size | field_declaration | Asset | [64](../../magpie/internal/update/update.go#L64) |
 | SHA256 | field_declaration | Asset | [65](../../magpie/internal/update/update.go#L65) |
@@ -23,14 +23,16 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 | proxied | function_declaration |  | [74](../../magpie/internal/update/update.go#L74) |
 | Latest | function_declaration |  | [81](../../magpie/internal/update/update.go#L81) |
 | LatestIn | function_declaration |  | [86](../../magpie/internal/update/update.go#L86) |
+| r | var_spec | LatestIn | [99](../../magpie/internal/update/update.go#L99) |
 | Released | function_declaration |  | [113](../../magpie/internal/update/update.go#L113) |
 | describe | var_spec |  | [119](../../magpie/internal/update/update.go#L119) |
 | Newer | function_declaration |  | [123](../../magpie/internal/update/update.go#L123) |
 | comparePre | function_declaration |  | [140](../../magpie/internal/update/update.go#L140) |
-| semver | struct_type |  | [171](../../magpie/internal/update/update.go#L171) |
+| semver | type_spec |  | [171](../../magpie/internal/update/update.go#L171) |
 | n | field_declaration | semver | [172](../../magpie/internal/update/update.go#L172) |
 | pre | field_declaration | semver | [173](../../magpie/internal/update/update.go#L173) |
 | parse | function_declaration |  | [176](../../magpie/internal/update/update.go#L176) |
+| s | var_spec | parse | [185](../../magpie/internal/update/update.go#L185) |
 | GUI | var_spec |  | [200](../../magpie/internal/update/update.go#L200) |
 | AppAsset | function_declaration |  | [203](../../magpie/internal/update/update.go#L203) |
 | BinaryAsset | function_declaration |  | [204](../../magpie/internal/update/update.go#L204) |
@@ -50,6 +52,7 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 | relaunchLog | function_declaration |  | [380](../../magpie/internal/update/update.go#L380) |
 | relaunchCommand | function_declaration |  | [403](../../magpie/internal/update/update.go#L403) |
 | relaunchScript | function_declaration |  | [408](../../magpie/internal/update/update.go#L408) |
+| b | var_spec | relaunchScript | [417](../../magpie/internal/update/update.go#L417) |
 | bundleExecutableKey | var_spec |  | [431](../../magpie/internal/update/update.go#L431) |
 | bundleExecutable | function_declaration |  | [436](../../magpie/internal/update/update.go#L436) |
 | retried | function_declaration |  | [452](../../magpie/internal/update/update.go#L452) |
@@ -59,28 +62,33 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 | StageBinary | function_declaration |  | [511](../../magpie/internal/update/update.go#L511) |
 | InstallBinary | function_declaration |  | [540](../../magpie/internal/update/update.go#L540) |
 | InstallBinaryAside | function_declaration |  | [550](../../magpie/internal/update/update.go#L550) |
-| saidError | struct_type |  | [594](../../magpie/internal/update/update.go#L594) |
+| old | var_spec | InstallBinaryAside | [551](../../magpie/internal/update/update.go#L551) |
+| err | var_spec | InstallBinaryAside | [569](../../magpie/internal/update/update.go#L569) |
+| saidError | type_spec |  | [594](../../magpie/internal/update/update.go#L594) |
 | said | field_declaration | saidError | [595](../../magpie/internal/update/update.go#L595) |
 | err | field_declaration | saidError | [596](../../magpie/internal/update/update.go#L596) |
-| Error | method_declaration | *saidError | [599](../../magpie/internal/update/update.go#L599) |
-| Unwrap | method_declaration | *saidError | [600](../../magpie/internal/update/update.go#L600) |
+| Error | method_declaration |  | [599](../../magpie/internal/update/update.go#L599) |
+| Unwrap | method_declaration |  | [600](../../magpie/internal/update/update.go#L600) |
 | renameFile | var_spec |  | [603](../../magpie/internal/update/update.go#L603) |
 | asideWaits | var_spec |  | [608](../../magpie/internal/update/update.go#L608) |
 | heldFor | var_spec |  | [617](../../magpie/internal/update/update.go#L617) |
 | waitHeld | function_declaration |  | [622](../../magpie/internal/update/update.go#L622) |
 | trialled | var_spec |  | [643](../../magpie/internal/update/update.go#L643) |
-| trialNote | struct_type |  | [645](../../magpie/internal/update/update.go#L645) |
+| trialNote | type_spec |  | [645](../../magpie/internal/update/update.go#L645) |
 | mu | field_declaration | trialNote | [646](../../magpie/internal/update/update.go#L646) |
 | path | field_declaration | trialNote | [647](../../magpie/internal/update/update.go#L647) |
 | size | field_declaration | trialNote | [648](../../magpie/internal/update/update.go#L648) |
 | mod | field_declaration | trialNote | [649](../../magpie/internal/update/update.go#L649) |
-| passed | method_declaration | *trialNote | [652](../../magpie/internal/update/update.go#L652) |
-| note | method_declaration | *trialNote | [662](../../magpie/internal/update/update.go#L662) |
+| passed | method_declaration |  | [652](../../magpie/internal/update/update.go#L652) |
+| note | method_declaration |  | [662](../../magpie/internal/update/update.go#L662) |
 | errSharingViolation | const_spec |  | [676](../../magpie/internal/update/update.go#L676) |
 | errLockViolation | const_spec |  | [677](../../magpie/internal/update/update.go#L677) |
 | moveIn | function_declaration |  | [686](../../magpie/internal/update/update.go#L686) |
 | heldOpen | function_declaration |  | [698](../../magpie/internal/update/update.go#L698) |
 | moveAside | function_declaration |  | [707](../../magpie/internal/update/update.go#L707) |
+| err | var_spec | moveAside | [708](../../magpie/internal/update/update.go#L708) |
+| le | var_spec | moveAside | [723](../../magpie/internal/update/update.go#L723) |
+| hint | var_spec | moveAside | [727](../../magpie/internal/update/update.go#L727) |
 | oldName | function_declaration |  | [741](../../magpie/internal/update/update.go#L741) |
 | RemoveOld | function_declaration |  | [753](../../magpie/internal/update/update.go#L753) |
 | Replaced | function_declaration |  | [764](../../magpie/internal/update/update.go#L764) |
@@ -90,21 +98,13 @@ Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
 | RelaunchBinary | function_declaration |  | [812](../../magpie/internal/update/update.go#L812) |
 | RelaunchArgs | function_declaration |  | [824](../../magpie/internal/update/update.go#L824) |
 | AwaitPredecessor | function_declaration |  | [836](../../magpie/internal/update/update.go#L836) |
-| progressKey | struct_type |  | [848](../../magpie/internal/update/update.go#L848) |
+| progressKey | type_spec |  | [848](../../magpie/internal/update/update.go#L848) |
 | WithProgress | function_declaration |  | [852](../../magpie/internal/update/update.go#L852) |
 | retryWaits | var_spec |  | [860](../../magpie/internal/update/update.go#L860) |
 | download | function_declaration |  | [866](../../magpie/internal/update/update.go#L866) |
-| NetError | struct_type |  | [894](../../magpie/internal/update/update.go#L894) |
+| err | var_spec | download | [871](../../magpie/internal/update/update.go#L871) |
+| NetError | type_spec |  | [894](../../magpie/internal/update/update.go#L894) |
 | File | field_declaration | NetError | [895](../../magpie/internal/update/update.go#L895) |
 | Err | field_declaration | NetError | [896](../../magpie/internal/update/update.go#L896) |
-| Error | method_declaration | *NetError | [899](../../magpie/internal/update/update.go#L899) |
-| Unwrap | method_declaration | *NetError | [908](../../magpie/internal/update/update.go#L908) |
-| Network | function_declaration |  | [912](../../magpie/internal/update/update.go#L912) |
-| fetch | function_declaration |  | [919](../../magpie/internal/update/update.go#L919) |
-| readErr | struct_type |  | [1005](../../magpie/internal/update/update.go#L1005) |
-| r | field_declaration | readErr | [1006](../../magpie/internal/update/update.go#L1006) |
-| err | field_declaration | readErr | [1007](../../magpie/internal/update/update.go#L1007) |
-| Read | method_declaration | *readErr | [1010](../../magpie/internal/update/update.go#L1010) |
-| counter | struct_type |  | [1019](../../magpie/internal/update/update.go#L1019) |
-| r | field_declaration | counter | [1020](../../magpie/internal/update/update.go#L1020) |
-| done | field_declaration | counter | [1021](../../magpie/internal/update/update.go#L1021) |
+| Error | method_declaration |  | [899](../../magpie/internal/update/update.go#L899) |
+| ue | var_spec | Error | [901](../../magpie/internal/update/update.go#L901) |

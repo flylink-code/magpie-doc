@@ -8,15 +8,15 @@ Source SHA-256: a0d317dab7921a7f36da3e0d7c32edc775607e8586a8a00ec6b61e1d79cd3aef
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| EditedError | struct_type |  | [26](../../magpie/internal/library/skill_changed.go#L26) |
+| EditedError | type_spec |  | [26](../../magpie/internal/library/skill_changed.go#L26) |
 | Name | field_declaration | EditedError | [26](../../magpie/internal/library/skill_changed.go#L26) |
-| From | field_declaration | EditedError | [26](../../magpie/internal/library/skill_changed.go#L26) |
-| Error | method_declaration | *EditedError | [28](../../magpie/internal/library/skill_changed.go#L28) |
+| Error | method_declaration |  | [28](../../magpie/internal/library/skill_changed.go#L28) |
 | editedError | function_declaration |  | [37](../../magpie/internal/library/skill_changed.go#L37) |
 | edits | var_spec |  | [48](../../magpie/internal/library/skill_changed.go#L48) |
-| editMemo | struct_type |  | [53](../../magpie/internal/library/skill_changed.go#L53) |
+| m | field_declaration | edits | [50](../../magpie/internal/library/skill_changed.go#L50) |
+| editMemo | type_spec |  | [53](../../magpie/internal/library/skill_changed.go#L53) |
 | at | field_declaration | editMemo | [54](../../magpie/internal/library/skill_changed.go#L54) |
 | hash | field_declaration | editMemo | [55](../../magpie/internal/library/skill_changed.go#L55) |
 | libraryHash | function_declaration |  | [60](../../magpie/internal/library/skill_changed.go#L60) |
-| editState | method_declaration | *Library | [88](../../magpie/internal/library/skill_changed.go#L88) |
+| editState | method_declaration |  | [88](../../magpie/internal/library/skill_changed.go#L88) |
 | keepReplaced | function_declaration |  | [134](../../magpie/internal/library/skill_changed.go#L134) |

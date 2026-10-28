@@ -8,8 +8,9 @@ Source SHA-256: 6019565d069f9bf86708834f579a11ff1fc1e11ee685a2a506df37ba3e75d7ca
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Process | struct_type |  | [11](../../magpie/internal/proc/list.go#L11) |
+| Process | type_spec |  | [11](../../magpie/internal/proc/list.go#L11) |
 | PID | field_declaration | Process | [12](../../magpie/internal/proc/list.go#L12) |
 | Args | field_declaration | Process | [13](../../magpie/internal/proc/list.go#L13) |
 | List | function_declaration |  | [19](../../magpie/internal/proc/list.go#L19) |
 | parseList | function_declaration |  | [23](../../magpie/internal/proc/list.go#L23) |
+| ps | var_spec | parseList | [24](../../magpie/internal/proc/list.go#L24) |

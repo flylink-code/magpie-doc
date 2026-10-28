@@ -9,3 +9,4 @@ Source SHA-256: 454ec54303bf66a62979ecf089eb09f51dd0b03b5c5ea111e2ad5e76c21c533a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | agyExecOS | function_declaration |  | [14](../../magpie/internal/cli/agy_exec_windows.go#L14) |
+| ee | var_spec | agyExecOS | [20](../../magpie/internal/cli/agy_exec_windows.go#L20) |

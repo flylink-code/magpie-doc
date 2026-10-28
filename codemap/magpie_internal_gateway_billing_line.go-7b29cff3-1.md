@@ -12,4 +12,7 @@ Source SHA-256: c291e460bc38f32af00858cadc74e93613f22987a8f3513d3c50082dd2e6d7a4
 | keepsBillingLine | function_declaration |  | [30](../../magpie/internal/gateway/billing_line.go#L30) |
 | dropsBillingLine | function_declaration |  | [36](../../magpie/internal/gateway/billing_line.go#L36) |
 | withoutBillingLine | function_declaration |  | [45](../../magpie/internal/gateway/billing_line.go#L45) |
+| out | var_spec | withoutBillingLine | [53](../../magpie/internal/gateway/billing_line.go#L53) |
+| blocks | var_spec | withoutBillingLine | [62](../../magpie/internal/gateway/billing_line.go#L62) |
 | billingJSON | function_declaration |  | [105](../../magpie/internal/gateway/billing_line.go#L105) |
+| b | var_spec | billingJSON | [106](../../magpie/internal/gateway/billing_line.go#L106) |

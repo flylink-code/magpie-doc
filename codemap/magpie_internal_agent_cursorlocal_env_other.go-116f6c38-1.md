@@ -10,3 +10,5 @@ Source SHA-256: 578ba261d923aa6d5c95924fdb9c827cc89ebb2b4262742b856e8c51641bd059
 | --- | --- | --- | ---: |
 | cursorLocalEnvD | function_declaration |  | [17](../../magpie/internal/agent/cursorlocal_env_other.go#L17) |
 | setUserEnv | function_declaration |  | [29](../../magpie/internal/agent/cursorlocal_env_other.go#L29) |
+| b | var_spec | setUserEnv | [40](../../magpie/internal/agent/cursorlocal_env_other.go#L40) |
+| kv | var_spec | setUserEnv | [41](../../magpie/internal/agent/cursorlocal_env_other.go#L41) |

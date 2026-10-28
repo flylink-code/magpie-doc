@@ -9,6 +9,7 @@ Source SHA-256: bacbe58621035a8397a77f251ef73bd0a3fcb9cc60503f1598156f535ee87525
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | byFamily | var_spec |  | [15](../../magpie/internal/agent/icons.go#L15) |
+| prefix | field_declaration | byFamily | [15](../../magpie/internal/agent/icons.go#L15) |
 | providerIcon | function_declaration |  | [32](../../magpie/internal/agent/icons.go#L32) |
 | modelIcon | function_declaration |  | [47](../../magpie/internal/agent/icons.go#L47) |
 | ModelIcon | function_declaration |  | [67](../../magpie/internal/agent/icons.go#L67) |

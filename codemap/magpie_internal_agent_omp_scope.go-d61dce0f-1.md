@@ -9,6 +9,7 @@ Source SHA-256: f3767155e29fe9432e30ba8bba90b0fb343425213fef81884ef919d5278403f9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ompScopePlain | function_declaration |  | [27](../../magpie/internal/agent/omp_scope.go#L27) |
+| out | var_spec | ompScopePlain | [31](../../magpie/internal/agent/omp_scope.go#L31) |
 | ompEvery | const_spec |  | [46](../../magpie/internal/agent/omp_scope.go#L46) |
 | ompTakes | function_declaration |  | [52](../../magpie/internal/agent/omp_scope.go#L52) |
 | ompScopeTakes | function_declaration |  | [62](../../magpie/internal/agent/omp_scope.go#L62) |
@@ -18,4 +19,5 @@ Source SHA-256: f3767155e29fe9432e30ba8bba90b0fb343425213fef81884ef919d5278403f9
 | ompScopeWithout | function_declaration |  | [134](../../magpie/internal/agent/omp_scope.go#L134) |
 | ompScopeOnce | function_declaration |  | [162](../../magpie/internal/agent/omp_scope.go#L162) |
 | ompScopeFoldersOnMagpie | function_declaration |  | [189](../../magpie/internal/agent/omp_scope.go#L189) |
+| walk | var_spec | ompScopeFoldersOnMagpie | [198](../../magpie/internal/agent/omp_scope.go#L198) |
 | ompScopeLeavesOut | function_declaration |  | [216](../../magpie/internal/agent/omp_scope.go#L216) |

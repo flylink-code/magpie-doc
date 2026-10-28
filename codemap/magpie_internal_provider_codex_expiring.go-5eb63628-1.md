@@ -14,16 +14,20 @@ Source SHA-256: 1f7e645156c7a44f7a5f7e4240f666f88628782b4494f3395972beb932d89bce
 | resetExpiryWatch | var_spec |  | [45](../../magpie/internal/provider/codex_expiring.go#L45) |
 | resetExpiryFar | var_spec |  | [48](../../magpie/internal/provider/codex_expiring.go#L48) |
 | expiring | var_spec |  | [51](../../magpie/internal/provider/codex_expiring.go#L51) |
-| expiringResets | struct_type |  | [53](../../magpie/internal/provider/codex_expiring.go#L53) |
+| expiringResets | type_spec |  | [53](../../magpie/internal/provider/codex_expiring.go#L53) |
 | next | field_declaration | expiringResets | [55](../../magpie/internal/provider/codex_expiring.go#L55) |
 | until | field_declaration | expiringResets | [56](../../magpie/internal/provider/codex_expiring.go#L56) |
-| check | method_declaration | *expiringResets | [65](../../magpie/internal/provider/codex_expiring.go#L65) |
+| check | method_declaration |  | [65](../../magpie/internal/provider/codex_expiring.go#L65) |
 | nextResetLook | function_declaration |  | [121](../../magpie/internal/provider/codex_expiring.go#L121) |
 | expiringResetSpent | function_declaration |  | [137](../../magpie/internal/provider/codex_expiring.go#L137) |
 | resetRunsOut | function_declaration |  | [156](../../magpie/internal/provider/codex_expiring.go#L156) |
 | windowsUsed | function_declaration |  | [165](../../magpie/internal/provider/codex_expiring.go#L165) |
 | minTime | function_declaration |  | [174](../../magpie/internal/provider/codex_expiring.go#L174) |
 | SpendExpiringCodexResets | function_declaration |  | [183](../../magpie/internal/provider/codex_expiring.go#L183) |
+| who | var_spec | SpendExpiringCodexResets | [194](../../magpie/internal/provider/codex_expiring.go#L194) |
+| windows | var_spec | SpendExpiringCodexResets | [196](../../magpie/internal/provider/codex_expiring.go#L196) |
+| resets | var_spec | SpendExpiringCodexResets | [197](../../magpie/internal/provider/codex_expiring.go#L197) |
+| err | var_spec | SpendExpiringCodexResets | [198](../../magpie/internal/provider/codex_expiring.go#L198) |
 | stillExpiring | var_spec |  | [224](../../magpie/internal/provider/codex_expiring.go#L224) |
 | spendExpiringNow | function_declaration |  | [231](../../magpie/internal/provider/codex_expiring.go#L231) |
 | KeepResetsFromRunningOut | function_declaration |  | [243](../../magpie/internal/provider/codex_expiring.go#L243) |

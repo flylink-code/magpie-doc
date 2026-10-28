@@ -9,7 +9,9 @@ Source SHA-256: 2abfa9ceadd61e2ac509e21af0a1fdb14f0fc1e471a96361b3682f594c7bdaf6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | keyAllowances | var_spec |  | [22](../../magpie/internal/provider/key_allowance.go#L22) |
-| keyAllowance | struct_type |  | [30](../../magpie/internal/provider/key_allowance.go#L30) |
+| m | field_declaration | keyAllowances | [24](../../magpie/internal/provider/key_allowance.go#L24) |
+| gen | field_declaration | keyAllowances | [27](../../magpie/internal/provider/key_allowance.go#L27) |
+| keyAllowance | type_spec |  | [30](../../magpie/internal/provider/key_allowance.go#L30) |
 | a | field_declaration | keyAllowance | [31](../../magpie/internal/provider/key_allowance.go#L31) |
 | at | field_declaration | keyAllowance | [32](../../magpie/internal/provider/key_allowance.go#L32) |
 | loading | field_declaration | keyAllowance | [33](../../magpie/internal/provider/key_allowance.go#L33) |
@@ -22,9 +24,13 @@ Source SHA-256: 2abfa9ceadd61e2ac509e21af0a1fdb14f0fc1e471a96361b3682f594c7bdaf6
 | keyAllowanceID | function_declaration |  | [69](../../magpie/internal/provider/key_allowance.go#L69) |
 | KeyAllowanceID | function_declaration |  | [73](../../magpie/internal/provider/key_allowance.go#L73) |
 | KeyAllowance | function_declaration |  | [85](../../magpie/internal/provider/key_allowance.go#L85) |
+| seed | var_spec | KeyAllowance | [94](../../magpie/internal/provider/key_allowance.go#L94) |
 | readKeyAllowance | function_declaration |  | [124](../../magpie/internal/provider/key_allowance.go#L124) |
-| keep | method_declaration | *keyAllowance | [164](../../magpie/internal/provider/key_allowance.go#L164) |
+| keep | method_declaration |  | [164](../../magpie/internal/provider/key_allowance.go#L164) |
 | keyWindows | function_declaration |  | [174](../../magpie/internal/provider/key_allowance.go#L174) |
+| r | var_spec | keyWindows | [180](../../magpie/internal/provider/key_allowance.go#L180) |
+| err | var_spec | keyWindows | [181](../../magpie/internal/provider/key_allowance.go#L181) |
+| parts | var_spec | keyWindows | [186](../../magpie/internal/provider/key_allowance.go#L186) |
 | keyCardTag | function_declaration |  | [194](../../magpie/internal/provider/key_allowance.go#L194) |
 | lastKeyAllowance | function_declaration |  | [203](../../magpie/internal/provider/key_allowance.go#L203) |
 | noteKeyAllowance | function_declaration |  | [217](../../magpie/internal/provider/key_allowance.go#L217) |

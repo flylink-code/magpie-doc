@@ -11,4 +11,5 @@ Source SHA-256: 0c830b8c2bb4da72e94cb80e6eba91cb149dce93a1bac23365460581a115b880
 | mantleRoutes | function_declaration |  | [26](../../magpie/internal/gateway/mantle.go#L26) |
 | mantleRouteKey | function_declaration |  | [32](../../magpie/internal/gateway/mantle.go#L32) |
 | mantleWrongRoute | var_spec |  | [36](../../magpie/internal/gateway/mantle.go#L36) |
-| mantleReroute | method_declaration | *Server | [41](../../magpie/internal/gateway/mantle.go#L41) |
+| mantleReroute | method_declaration |  | [41](../../magpie/internal/gateway/mantle.go#L41) |
+| ab | var_spec | mantleReroute | [57](../../magpie/internal/gateway/mantle.go#L57) |

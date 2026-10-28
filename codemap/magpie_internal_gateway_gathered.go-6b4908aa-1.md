@@ -9,17 +9,22 @@ Source SHA-256: 72ef649f4d64a83525069391256a73a1acb368f59f2e2a1267b4a8a81fc1d788
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | gathers | function_declaration |  | [22](../../magpie/internal/gateway/gathered.go#L22) |
-| gathered | struct_type |  | [28](../../magpie/internal/gateway/gathered.go#L28) |
+| gathered | type_spec |  | [28](../../magpie/internal/gateway/gathered.go#L28) |
 | h | field_declaration | gathered | [29](../../magpie/internal/gateway/gathered.go#L29) |
 | status | field_declaration | gathered | [30](../../magpie/internal/gateway/gathered.go#L30) |
 | buf | field_declaration | gathered | [31](../../magpie/internal/gateway/gathered.go#L31) |
-| Header | method_declaration | *gathered | [34](../../magpie/internal/gateway/gathered.go#L34) |
-| WriteHeader | method_declaration | *gathered | [35](../../magpie/internal/gateway/gathered.go#L35) |
-| Write | method_declaration | *gathered | [36](../../magpie/internal/gateway/gathered.go#L36) |
-| finish | method_declaration | *gathered | [44](../../magpie/internal/gateway/gathered.go#L44) |
-| Type | field_declaration | *gathered.finish | [59](../../magpie/internal/gateway/gathered.go#L59) |
-| Response | field_declaration | *gathered.finish | [60](../../magpie/internal/gateway/gathered.go#L60) |
-| Item | field_declaration | *gathered.finish | [61](../../magpie/internal/gateway/gathered.go#L61) |
-| OutputIndex | field_declaration | *gathered.finish | [62](../../magpie/internal/gateway/gathered.go#L62) |
-| Delta | field_declaration | *gathered.finish | [63](../../magpie/internal/gateway/gathered.go#L63) |
+| Header | method_declaration |  | [34](../../magpie/internal/gateway/gathered.go#L34) |
+| WriteHeader | method_declaration |  | [35](../../magpie/internal/gateway/gathered.go#L35) |
+| Write | method_declaration |  | [36](../../magpie/internal/gateway/gathered.go#L36) |
+| finish | method_declaration |  | [44](../../magpie/internal/gateway/gathered.go#L44) |
+| resp | var_spec | finish | [53](../../magpie/internal/gateway/gathered.go#L53) |
+| text | var_spec | finish | [55](../../magpie/internal/gateway/gathered.go#L55) |
+| e | var_spec | finish | [58](../../magpie/internal/gateway/gathered.go#L58) |
+| Type | field_declaration | finish::e | [59](../../magpie/internal/gateway/gathered.go#L59) |
+| Response | field_declaration | finish::e | [60](../../magpie/internal/gateway/gathered.go#L60) |
+| Item | field_declaration | finish::e | [61](../../magpie/internal/gateway/gathered.go#L61) |
+| OutputIndex | field_declaration | finish::e | [62](../../magpie/internal/gateway/gathered.go#L62) |
+| Delta | field_declaration | finish::e | [63](../../magpie/internal/gateway/gathered.go#L63) |
 | withStreamedOutput | function_declaration |  | [116](../../magpie/internal/gateway/gathered.go#L116) |
+| m | var_spec | withStreamedOutput | [120](../../magpie/internal/gateway/gathered.go#L120) |
+| out | var_spec | withStreamedOutput | [124](../../magpie/internal/gateway/gathered.go#L124) |

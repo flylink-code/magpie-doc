@@ -8,7 +8,7 @@ Source SHA-256: 5dd04e3fe411a3cf97ff9e44e48c7d010e8b38643d55d2535018c2ff222e37b4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Hit | struct_type |  | [29](../../magpie/internal/sessions/search.go#L29) |
+| Hit | type_spec |  | [29](../../magpie/internal/sessions/search.go#L29) |
 | Role | field_declaration | Hit | [30](../../magpie/internal/sessions/search.go#L30) |
 | Kind | field_declaration | Hit | [31](../../magpie/internal/sessions/search.go#L31) |
 | Before | field_declaration | Hit | [32](../../magpie/internal/sessions/search.go#L32) |
@@ -18,24 +18,29 @@ Source SHA-256: 5dd04e3fe411a3cf97ff9e44e48c7d010e8b38643d55d2535018c2ff222e37b4
 | hitAfter | const_spec |  | [39](../../magpie/internal/sessions/search.go#L39) |
 | errFound | var_spec |  | [43](../../magpie/internal/sessions/search.go#L43) |
 | fold | function_declaration |  | [47](../../magpie/internal/sessions/search.go#L47) |
+| b | var_spec | fold | [48](../../magpie/internal/sessions/search.go#L48) |
 | NeedleOf | function_declaration |  | [57](../../magpie/internal/sessions/search.go#L57) |
 | hitIn | function_declaration |  | [63](../../magpie/internal/sessions/search.go#L63) |
 | said | function_declaration |  | [88](../../magpie/internal/sessions/search.go#L88) |
 | searched | function_declaration |  | [94](../../magpie/internal/sessions/search.go#L94) |
-| matcher | struct_type |  | [100](../../magpie/internal/sessions/search.go#L100) |
+| matcher | type_spec |  | [100](../../magpie/internal/sessions/search.go#L100) |
 | needle | field_declaration | matcher | [101](../../magpie/internal/sessions/search.go#L101) |
 | hit | field_declaration | matcher | [102](../../magpie/internal/sessions/search.go#L102) |
 | found | field_declaration | matcher | [103](../../magpie/internal/sessions/search.go#L103) |
-| add | method_declaration | *matcher | [107](../../magpie/internal/sessions/search.go#L107) |
+| add | method_declaration |  | [107](../../magpie/internal/sessions/search.go#L107) |
 | rawNeedle | function_declaration |  | [127](../../magpie/internal/sessions/search.go#L127) |
 | mayHold | function_declaration |  | [149](../../magpie/internal/sessions/search.go#L149) |
 | containsFold | function_declaration |  | [182](../../magpie/internal/sessions/search.go#L182) |
 | equalFoldASCII | function_declaration |  | [210](../../magpie/internal/sessions/search.go#L210) |
 | SearchSession | function_declaration |  | [225](../../magpie/internal/sessions/search.go#L225) |
+| keep | var_spec | SearchSession | [233](../../magpie/internal/sessions/search.go#L233) |
+| words | var_spec | SearchSession | [237](../../magpie/internal/sessions/search.go#L237) |
 | linesFile | function_declaration |  | [264](../../magpie/internal/sessions/search.go#L264) |
 | SearchGateway | function_declaration |  | [276](../../magpie/internal/sessions/search.go#L276) |
 | gatewayTitles | var_spec |  | [297](../../magpie/internal/sessions/search.go#L297) |
 | gatewayTitleLines | const_spec |  | [299](../../magpie/internal/sessions/search.go#L299) |
 | GatewayTitle | function_declaration |  | [304](../../magpie/internal/sessions/search.go#L304) |
+| names | var_spec | GatewayTitle | [320](../../magpie/internal/sessions/search.go#L320) |
 | gatewayFileTitle | function_declaration |  | [355](../../magpie/internal/sessions/search.go#L355) |
+| turn | var_spec | gatewayFileTitle | [374](../../magpie/internal/sessions/search.go#L374) |
 | firstAsked | function_declaration |  | [389](../../magpie/internal/sessions/search.go#L389) |

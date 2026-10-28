@@ -10,12 +10,21 @@ Source SHA-256: 80930143b86989b27097be2320c6585d70ed5f9eca6230557df7fc279971226f
 | --- | --- | --- | ---: |
 | desktopManifest | const_spec |  | [38](../../magpie/internal/library/desktop_skills.go#L38) |
 | desktopSkillRoots | function_declaration |  | [43](../../magpie/internal/library/desktop_skills.go#L43) |
+| out | var_spec | desktopSkillRoots | [45](../../magpie/internal/library/desktop_skills.go#L45) |
 | isFile | function_declaration |  | [70](../../magpie/internal/library/desktop_skills.go#L70) |
 | desktopCopy | function_declaration |  | [77](../../magpie/internal/library/desktop_skills.go#L77) |
 | desktopEdited | function_declaration |  | [83](../../magpie/internal/library/desktop_skills.go#L83) |
 | desktopStamp | function_declaration |  | [98](../../magpie/internal/library/desktop_skills.go#L98) |
 | isoStamp | function_declaration |  | [109](../../magpie/internal/library/desktop_skills.go#L109) |
 | fixUpdatedAt | function_declaration |  | [114](../../magpie/internal/library/desktop_skills.go#L114) |
+| b | var_spec | fixUpdatedAt | [119](../../magpie/internal/library/desktop_skills.go#L119) |
 | manifestEntry | function_declaration |  | [139](../../magpie/internal/library/desktop_skills.go#L139) |
 | writeManifest | function_declaration |  | [152](../../magpie/internal/library/desktop_skills.go#L152) |
-| syncDesktopSkills | method_declaration | *Library | [235](../../magpie/internal/library/desktop_skills.go#L235) |
+| list | var_spec | writeManifest | [159](../../magpie/internal/library/desktop_skills.go#L159) |
+| b | var_spec | writeManifest | [175](../../magpie/internal/library/desktop_skills.go#L175) |
+| added | var_spec | writeManifest | [208](../../magpie/internal/library/desktop_skills.go#L208) |
+| syncDesktopSkills | method_declaration |  | [235](../../magpie/internal/library/desktop_skills.go#L235) |
+| mine | var_spec | syncDesktopSkills | [239](../../magpie/internal/library/desktop_skills.go#L239) |
+| drop | var_spec | syncDesktopSkills | [249](../../magpie/internal/library/desktop_skills.go#L249) |
+| err | var_spec | syncDesktopSkills | [258](../../magpie/internal/library/desktop_skills.go#L258) |
+| err | var_spec | syncDesktopSkills | [282](../../magpie/internal/library/desktop_skills.go#L282) |

@@ -10,8 +10,15 @@ Source SHA-256: 3a5ae34592eb20766af7593001ffa0f38f8bcdf384c0d32bb0b2216144f6f229
 | --- | --- | --- | ---: |
 | codexConfigPath | function_declaration |  | [13](../../magpie/internal/provider/import_codex.go#L13) |
 | readCodexConfig | function_declaration |  | [17](../../magpie/internal/provider/import_codex.go#L17) |
+| ids | var_spec | readCodexConfig | [23](../../magpie/internal/provider/import_codex.go#L23) |
+| profiles | var_spec | readCodexConfig | [24](../../magpie/internal/provider/import_codex.go#L24) |
+| out | var_spec | readCodexConfig | [34](../../magpie/internal/provider/import_codex.go#L34) |
+| models | var_spec | readCodexConfig | [52](../../magpie/internal/provider/import_codex.go#L52) |
+| eps | var_spec | readCodexConfig | [73](../../magpie/internal/provider/import_codex.go#L73) |
 | codexTableID | function_declaration |  | [90](../../magpie/internal/provider/import_codex.go#L90) |
 | codexImportModels | function_declaration |  | [105](../../magpie/internal/provider/import_codex.go#L105) |
-| Models | field_declaration | codexImportModels | [123](../../magpie/internal/provider/import_codex.go#L123) |
-| Slug | field_declaration | codexImportModels | [124](../../magpie/internal/provider/import_codex.go#L124) |
-| Visibility | field_declaration | codexImportModels | [125](../../magpie/internal/provider/import_codex.go#L125) |
+| list | var_spec | codexImportModels | [122](../../magpie/internal/provider/import_codex.go#L122) |
+| Models | field_declaration | codexImportModels::list | [123](../../magpie/internal/provider/import_codex.go#L123) |
+| Slug | field_declaration | codexImportModels::list::Models | [124](../../magpie/internal/provider/import_codex.go#L124) |
+| Visibility | field_declaration | codexImportModels::list::Models | [125](../../magpie/internal/provider/import_codex.go#L125) |
+| models | var_spec | codexImportModels | [131](../../magpie/internal/provider/import_codex.go#L131) |

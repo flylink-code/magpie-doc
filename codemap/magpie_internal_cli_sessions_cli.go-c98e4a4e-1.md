@@ -11,27 +11,28 @@ Source SHA-256: 4c0dd966acdb02d4eb42eaa2a8f668ff72d85c011df7cc23b2463215d8ea264d
 | sessionsUsage | const_spec |  | [18](../../magpie/internal/cli/sessions_cli.go#L18) |
 | sessionsCmd | function_declaration |  | [23](../../magpie/internal/cli/sessions_cli.go#L23) |
 | relocateClaudeTo | function_declaration |  | [30](../../magpie/internal/cli/sessions_cli.go#L30) |
-| sessionsOpts | struct_type |  | [61](../../magpie/internal/cli/sessions_cli.go#L61) |
+| usage | const_spec | relocateClaudeTo | [31](../../magpie/internal/cli/sessions_cli.go#L31) |
+| in | var_spec | relocateClaudeTo | [32](../../magpie/internal/cli/sessions_cli.go#L32) |
+| sessionsOpts | type_spec |  | [61](../../magpie/internal/cli/sessions_cli.go#L61) |
 | days | field_declaration | sessionsOpts | [62](../../magpie/internal/cli/sessions_cli.go#L62) |
 | model | field_declaration | sessionsOpts | [63](../../magpie/internal/cli/sessions_cli.go#L63) |
-| folder | field_declaration | sessionsOpts | [63](../../magpie/internal/cli/sessions_cli.go#L63) |
 | limit | field_declaration | sessionsOpts | [64](../../magpie/internal/cli/sessions_cli.go#L64) |
 | json | field_declaration | sessionsOpts | [65](../../magpie/internal/cli/sessions_cli.go#L65) |
 | parseSessionsArgs | function_declaration |  | [68](../../magpie/internal/cli/sessions_cli.go#L68) |
 | sessionsTo | function_declaration |  | [131](../../magpie/internal/cli/sessions_cli.go#L131) |
 | resolve | function_declaration |  | [150](../../magpie/internal/cli/sessions_cli.go#L150) |
+| found | var_spec | resolve | [174](../../magpie/internal/cli/sessions_cli.go#L174) |
 | agentNames | function_declaration |  | [193](../../magpie/internal/cli/sessions_cli.go#L193) |
 | sessionList | function_declaration |  | [202](../../magpie/internal/cli/sessions_cli.go#L202) |
-| row | struct_type | sessionList | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| when | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| who | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| where | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| title | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| tokens | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| cost | field_declaration | sessionList.row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
+| models | var_spec | sessionList | [203](../../magpie/internal/cli/sessions_cli.go#L203) |
+| row | type_spec | sessionList | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
+| when | field_declaration | sessionList::row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
+| wn | var_spec | sessionList | [255](../../magpie/internal/cli/sessions_cli.go#L255) |
 | hasModel | function_declaration |  | [275](../../magpie/internal/cli/sessions_cli.go#L275) |
 | sessionStats | function_declaration |  | [286](../../magpie/internal/cli/sessions_cli.go#L286) |
+| models | var_spec | sessionStats | [288](../../magpie/internal/cli/sessions_cli.go#L288) |
 | dirList | function_declaration |  | [392](../../magpie/internal/cli/sessions_cli.go#L392) |
+| out | var_spec | dirList | [393](../../magpie/internal/cli/sessions_cli.go#L393) |
 | rangeName | function_declaration |  | [400](../../magpie/internal/cli/sessions_cli.go#L400) |
 | rollupCost | function_declaration |  | [411](../../magpie/internal/cli/sessions_cli.go#L411) |
 | hitRate | function_declaration |  | [421](../../magpie/internal/cli/sessions_cli.go#L421) |

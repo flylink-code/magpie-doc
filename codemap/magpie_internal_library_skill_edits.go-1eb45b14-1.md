@@ -8,13 +8,14 @@ Source SHA-256: 1efc2799c2b4ff23f8f14505d71ff4f8e0a3d1b0e22b12651d9f00bf58594e80
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| takeEdits | method_declaration | *Library | [27](../../magpie/internal/library/skill_edits.go#L27) |
-| edit | struct_type | *Library.takeEdits | [40](../../magpie/internal/library/skill_edits.go#L40) |
-| agent | field_declaration | *Library.takeEdits.edit | [41](../../magpie/internal/library/skill_edits.go#L41) |
-| path | field_declaration | *Library.takeEdits.edit | [41](../../magpie/internal/library/skill_edits.go#L41) |
-| at | field_declaration | *Library.takeEdits.edit | [42](../../magpie/internal/library/skill_edits.go#L42) |
+| takeEdits | method_declaration |  | [27](../../magpie/internal/library/skill_edits.go#L27) |
+| edit | type_spec | takeEdits | [40](../../magpie/internal/library/skill_edits.go#L40) |
+| agent | field_declaration | takeEdits::edit | [41](../../magpie/internal/library/skill_edits.go#L41) |
+| at | field_declaration | takeEdits::edit | [42](../../magpie/internal/library/skill_edits.go#L42) |
+| edits | var_spec | takeEdits | [44](../../magpie/internal/library/skill_edits.go#L44) |
 | copiedAt | function_declaration |  | [130](../../magpie/internal/library/skill_edits.go#L130) |
 | changedAt | function_declaration |  | [142](../../magpie/internal/library/skill_edits.go#L142) |
+| at | var_spec | changedAt | [143](../../magpie/internal/library/skill_edits.go#L143) |
 | skipInSkill | function_declaration |  | [166](../../magpie/internal/library/skill_edits.go#L166) |
 | keepLibrarySkill | function_declaration |  | [172](../../magpie/internal/library/skill_edits.go#L172) |
 | mirrorDir | function_declaration |  | [184](../../magpie/internal/library/skill_edits.go#L184) |

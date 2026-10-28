@@ -9,12 +9,14 @@ Source SHA-256: ccccd0fdf3fa00183187ae95aa9e921ecfff0b479f7db485a60830d424f1782d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Gateway | function_declaration |  | [21](../../magpie/internal/plugin/gateway.go#L21) |
-| Magpie | field_declaration | Gateway | [37](../../magpie/internal/plugin/gateway.go#L37) |
-| Hooks | field_declaration | Gateway | [38](../../magpie/internal/plugin/gateway.go#L38) |
+| pkg | var_spec | Gateway | [36](../../magpie/internal/plugin/gateway.go#L36) |
+| Magpie | field_declaration | Gateway::pkg | [37](../../magpie/internal/plugin/gateway.go#L37) |
+| Hooks | field_declaration | Gateway::pkg::Magpie | [38](../../magpie/internal/plugin/gateway.go#L38) |
 | GatewayOnly | function_declaration |  | [50](../../magpie/internal/plugin/gateway.go#L50) |
-| Main | field_declaration | GatewayOnly | [62](../../magpie/internal/plugin/gateway.go#L62) |
-| Exports | field_declaration | GatewayOnly | [63](../../magpie/internal/plugin/gateway.go#L63) |
-| GatewayContext | struct_type |  | [82](../../magpie/internal/plugin/gateway.go#L82) |
+| pkg | var_spec | GatewayOnly | [61](../../magpie/internal/plugin/gateway.go#L61) |
+| Main | field_declaration | GatewayOnly::pkg | [62](../../magpie/internal/plugin/gateway.go#L62) |
+| Exports | field_declaration | GatewayOnly::pkg | [63](../../magpie/internal/plugin/gateway.go#L63) |
+| GatewayContext | type_spec |  | [82](../../magpie/internal/plugin/gateway.go#L82) |
 | Origin | field_declaration | GatewayContext | [83](../../magpie/internal/plugin/gateway.go#L83) |
 | Protocol | field_declaration | GatewayContext | [84](../../magpie/internal/plugin/gateway.go#L84) |
 | Model | field_declaration | GatewayContext | [85](../../magpie/internal/plugin/gateway.go#L85) |
@@ -24,21 +26,22 @@ Source SHA-256: ccccd0fdf3fa00183187ae95aa9e921ecfff0b479f7db485a60830d424f1782d
 | Session | field_declaration | GatewayContext | [89](../../magpie/internal/plugin/gateway.go#L89) |
 | Cwd | field_declaration | GatewayContext | [90](../../magpie/internal/plugin/gateway.go#L90) |
 | Query | field_declaration | GatewayContext | [91](../../magpie/internal/plugin/gateway.go#L91) |
-| GatewayState | struct_type |  | [96](../../magpie/internal/plugin/gateway.go#L96) |
+| GatewayState | type_spec |  | [96](../../magpie/internal/plugin/gateway.go#L96) |
 | Calls | field_declaration | GatewayState | [97](../../magpie/internal/plugin/gateway.go#L97) |
 | Failures | field_declaration | GatewayState | [98](../../magpie/internal/plugin/gateway.go#L98) |
 | AvgMillis | field_declaration | GatewayState | [99](../../magpie/internal/plugin/gateway.go#L99) |
 | LastOutcome | field_declaration | GatewayState | [100](../../magpie/internal/plugin/gateway.go#L100) |
 | LastBytes | field_declaration | GatewayState | [101](../../magpie/internal/plugin/gateway.go#L101) |
 | GatewayStates | function_declaration |  | [106](../../magpie/internal/plugin/gateway.go#L106) |
+| states | var_spec | GatewayStates | [120](../../magpie/internal/plugin/gateway.go#L120) |
 | HasGateway | function_declaration |  | [132](../../magpie/internal/plugin/gateway.go#L132) |
-| gatewaySeen | struct_type |  | [150](../../magpie/internal/plugin/gateway.go#L150) |
+| gatewaySeen | type_spec |  | [150](../../magpie/internal/plugin/gateway.go#L150) |
 | on | field_declaration | gatewaySeen | [151](../../magpie/internal/plugin/gateway.go#L151) |
 | gen | field_declaration | gatewaySeen | [152](../../magpie/internal/plugin/gateway.go#L152) |
 | list | field_declaration | gatewaySeen | [153](../../magpie/internal/plugin/gateway.go#L153) |
 | until | field_declaration | gatewaySeen | [154](../../magpie/internal/plugin/gateway.go#L154) |
 | hasGateway | var_spec |  | [157](../../magpie/internal/plugin/gateway.go#L157) |
-| GatewayRun | struct_type |  | [161](../../magpie/internal/plugin/gateway.go#L161) |
+| GatewayRun | type_spec |  | [161](../../magpie/internal/plugin/gateway.go#L161) |
 | Body | field_declaration | GatewayRun | [162](../../magpie/internal/plugin/gateway.go#L162) |
 | h | field_declaration | GatewayRun | [164](../../magpie/internal/plugin/gateway.go#L164) |
 | id | field_declaration | GatewayRun | [165](../../magpie/internal/plugin/gateway.go#L165) |
@@ -47,8 +50,9 @@ Source SHA-256: ccccd0fdf3fa00183187ae95aa9e921ecfff0b479f7db485a60830d424f1782d
 | closed | field_declaration | GatewayRun | [168](../../magpie/internal/plugin/gateway.go#L168) |
 | finished | field_declaration | GatewayRun | [169](../../magpie/internal/plugin/gateway.go#L169) |
 | GatewayBegin | function_declaration |  | [174](../../magpie/internal/plugin/gateway.go#L174) |
-| ID | field_declaration | GatewayBegin | [202](../../magpie/internal/plugin/gateway.go#L202) |
-| Token | field_declaration | GatewayBegin | [203](../../magpie/internal/plugin/gateway.go#L203) |
-| Body | field_declaration | GatewayBegin | [204](../../magpie/internal/plugin/gateway.go#L204) |
-| Finish | method_declaration | *GatewayRun | [219](../../magpie/internal/plugin/gateway.go#L219) |
-| Close | method_declaration | *GatewayRun | [246](../../magpie/internal/plugin/gateway.go#L246) |
+| out | var_spec | GatewayBegin | [201](../../magpie/internal/plugin/gateway.go#L201) |
+| ID | field_declaration | GatewayBegin::out | [202](../../magpie/internal/plugin/gateway.go#L202) |
+| Token | field_declaration | GatewayBegin::out | [203](../../magpie/internal/plugin/gateway.go#L203) |
+| Body | field_declaration | GatewayBegin::out | [204](../../magpie/internal/plugin/gateway.go#L204) |
+| Finish | method_declaration |  | [219](../../magpie/internal/plugin/gateway.go#L219) |
+| Close | method_declaration |  | [246](../../magpie/internal/plugin/gateway.go#L246) |

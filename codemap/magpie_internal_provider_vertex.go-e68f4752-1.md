@@ -9,22 +9,22 @@ Source SHA-256: 5a6a3d8a25e4e6e6f8eee8e73093bfe52674d8c964e2b62ecd5913ca21dc87ac
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | VertexPreset | const_spec |  | [55](../../magpie/internal/provider/vertex.go#L55) |
-| Vertex | struct_type |  | [59](../../magpie/internal/provider/vertex.go#L59) |
+| Vertex | type_spec |  | [59](../../magpie/internal/provider/vertex.go#L59) |
 | Project | field_declaration | Vertex | [62](../../magpie/internal/provider/vertex.go#L62) |
 | Location | field_declaration | Vertex | [65](../../magpie/internal/provider/vertex.go#L65) |
 | Credentials | field_declaration | Vertex | [68](../../magpie/internal/provider/vertex.go#L68) |
 | Impersonate | field_declaration | Vertex | [71](../../magpie/internal/provider/vertex.go#L71) |
-| IsVertex | method_declaration | Provider | [75](../../magpie/internal/provider/vertex.go#L75) |
-| Normal | method_declaration | *Vertex | [80](../../magpie/internal/provider/vertex.go#L80) |
+| IsVertex | method_declaration |  | [75](../../magpie/internal/provider/vertex.go#L75) |
+| Normal | method_declaration |  | [80](../../magpie/internal/provider/vertex.go#L80) |
 | vertexProject | var_spec |  | [100](../../magpie/internal/provider/vertex.go#L100) |
 | vertexLocation | var_spec |  | [102](../../magpie/internal/provider/vertex.go#L102) |
 | vertexAccount | var_spec |  | [103](../../magpie/internal/provider/vertex.go#L103) |
-| check | method_declaration | *Vertex | [107](../../magpie/internal/provider/vertex.go#L107) |
+| check | method_declaration |  | [107](../../magpie/internal/provider/vertex.go#L107) |
 | vertexHost | function_declaration |  | [124](../../magpie/internal/provider/vertex.go#L124) |
 | vertexRoot | var_spec |  | [137](../../magpie/internal/provider/vertex.go#L137) |
 | googleIAMCredentials | var_spec |  | [138](../../magpie/internal/provider/vertex.go#L138) |
 | VertexForTest | function_declaration |  | [144](../../magpie/internal/provider/vertex.go#L144) |
-| vertexBase | method_declaration | Provider | [158](../../magpie/internal/provider/vertex.go#L158) |
+| vertexBase | method_declaration |  | [158](../../magpie/internal/provider/vertex.go#L158) |
 | VertexPath | function_declaration |  | [173](../../magpie/internal/provider/vertex.go#L173) |
 | VertexWholePath | function_declaration |  | [179](../../magpie/internal/provider/vertex.go#L179) |
 | vertexTest | function_declaration |  | [189](../../magpie/internal/provider/vertex.go#L189) |
@@ -35,7 +35,8 @@ Source SHA-256: 5a6a3d8a25e4e6e6f8eee8e73093bfe52674d8c964e2b62ecd5913ca21dc87ac
 | vertexRefreshLead | const_spec |  | [237](../../magpie/internal/provider/vertex.go#L237) |
 | vertexMintWait | var_spec |  | [241](../../magpie/internal/provider/vertex.go#L241) |
 | vertexTokens | var_spec |  | [247](../../magpie/internal/provider/vertex.go#L247) |
-| vertexToken | struct_type |  | [252](../../magpie/internal/provider/vertex.go#L252) |
+| m | field_declaration | vertexTokens | [249](../../magpie/internal/provider/vertex.go#L249) |
+| vertexToken | type_spec |  | [252](../../magpie/internal/provider/vertex.go#L252) |
 | held | field_declaration | vertexToken | [255](../../magpie/internal/provider/vertex.go#L255) |
 | stamp | field_declaration | vertexToken | [256](../../magpie/internal/provider/vertex.go#L256) |
 | token | field_declaration | vertexToken | [257](../../magpie/internal/provider/vertex.go#L257) |
@@ -43,12 +44,12 @@ Source SHA-256: 5a6a3d8a25e4e6e6f8eee8e73093bfe52674d8c964e2b62ecd5913ca21dc87ac
 | mints | field_declaration | vertexToken | [262](../../magpie/internal/provider/vertex.go#L262) |
 | failed | field_declaration | vertexToken | [263](../../magpie/internal/provider/vertex.go#L263) |
 | forgetVertexTokens | function_declaration |  | [266](../../magpie/internal/provider/vertex.go#L266) |
-| vertexAccessToken | method_declaration | Provider | [275](../../magpie/internal/provider/vertex.go#L275) |
+| vertexAccessToken | method_declaration |  | [275](../../magpie/internal/provider/vertex.go#L275) |
 | vertexCredentialsFile | function_declaration |  | [339](../../magpie/internal/provider/vertex.go#L339) |
 | gcloudDir | function_declaration |  | [355](../../magpie/internal/provider/vertex.go#L355) |
 | vertexEnvPath | function_declaration |  | [373](../../magpie/internal/provider/vertex.go#L373) |
 | homePath | function_declaration |  | [389](../../magpie/internal/provider/vertex.go#L389) |
-| googleCreds | struct_type |  | [403](../../magpie/internal/provider/vertex.go#L403) |
+| googleCreds | type_spec |  | [403](../../magpie/internal/provider/vertex.go#L403) |
 | Type | field_declaration | googleCreds | [404](../../magpie/internal/provider/vertex.go#L404) |
 | ClientID | field_declaration | googleCreds | [406](../../magpie/internal/provider/vertex.go#L406) |
 | ClientSecret | field_declaration | googleCreds | [407](../../magpie/internal/provider/vertex.go#L407) |
@@ -61,17 +62,24 @@ Source SHA-256: 5a6a3d8a25e4e6e6f8eee8e73093bfe52674d8c964e2b62ecd5913ca21dc87ac
 | Source | field_declaration | googleCreds | [416](../../magpie/internal/provider/vertex.go#L416) |
 | UniverseDomain | field_declaration | googleCreds | [418](../../magpie/internal/provider/vertex.go#L418) |
 | mintVertex | function_declaration |  | [423](../../magpie/internal/provider/vertex.go#L423) |
-| mint | method_declaration | googleCreds | [447](../../magpie/internal/provider/vertex.go#L447) |
+| c | var_spec | mintVertex | [428](../../magpie/internal/provider/vertex.go#L428) |
+| mint | method_declaration |  | [447](../../magpie/internal/provider/vertex.go#L447) |
+| r | var_spec | mint | [458](../../magpie/internal/provider/vertex.go#L458) |
+| src | var_spec | mint | [474](../../magpie/internal/provider/vertex.go#L474) |
 | impersonationURL | var_spec |  | [492](../../magpie/internal/provider/vertex.go#L492) |
-| impersonated | method_declaration | googleCreds | [496](../../magpie/internal/provider/vertex.go#L496) |
-| personRefused | struct_type |  | [510](../../magpie/internal/provider/vertex.go#L510) |
-| Unwrap | method_declaration | personRefused | [512](../../magpie/internal/provider/vertex.go#L512) |
+| impersonated | method_declaration |  | [496](../../magpie/internal/provider/vertex.go#L496) |
+| personRefused | type_spec |  | [510](../../magpie/internal/provider/vertex.go#L510) |
+| Unwrap | method_declaration |  | [512](../../magpie/internal/provider/vertex.go#L512) |
 | legacyADC | var_spec |  | [516](../../magpie/internal/provider/vertex.go#L516) |
 | signInAgain | function_declaration |  | [522](../../magpie/internal/provider/vertex.go#L522) |
-| signed | method_declaration | googleCreds | [542](../../magpie/internal/provider/vertex.go#L542) |
+| signed | method_declaration |  | [542](../../magpie/internal/provider/vertex.go#L542) |
+| key | var_spec | signed | [550](../../magpie/internal/provider/vertex.go#L550) |
 | tokenGrant | function_declaration |  | [582](../../magpie/internal/provider/vertex.go#L582) |
-| AccessToken | field_declaration | tokenGrant | [584](../../magpie/internal/provider/vertex.go#L584) |
-| ExpiresIn | field_declaration | tokenGrant | [585](../../magpie/internal/provider/vertex.go#L585) |
+| out | var_spec | tokenGrant | [583](../../magpie/internal/provider/vertex.go#L583) |
+| AccessToken | field_declaration | tokenGrant::out | [584](../../magpie/internal/provider/vertex.go#L584) |
+| ExpiresIn | field_declaration | tokenGrant::out | [585](../../magpie/internal/provider/vertex.go#L585) |
 | impersonateFor | function_declaration |  | [598](../../magpie/internal/provider/vertex.go#L598) |
-| AccessToken | field_declaration | impersonateFor | [612](../../magpie/internal/provider/vertex.go#L612) |
-| ExpireTime | field_declaration | impersonateFor | [613](../../magpie/internal/provider/vertex.go#L613) |
+| out | var_spec | impersonateFor | [611](../../magpie/internal/provider/vertex.go#L611) |
+| AccessToken | field_declaration | impersonateFor::out | [612](../../magpie/internal/provider/vertex.go#L612) |
+| ExpireTime | field_declaration | impersonateFor::out | [613](../../magpie/internal/provider/vertex.go#L613) |
+| r | var_spec | impersonateFor | [617](../../magpie/internal/provider/vertex.go#L617) |

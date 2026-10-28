@@ -13,11 +13,13 @@ Source SHA-256: bd0f84e432d4779e334d50bd03429d78eac558141789f82655e8cf113e3809cd
 | tierWord | function_declaration |  | [55](../../magpie/internal/gateway/tier_record.go#L55) |
 | noteWireTier | function_declaration |  | [66](../../magpie/internal/gateway/tier_record.go#L66) |
 | upstreamTier | function_declaration |  | [77](../../magpie/internal/gateway/tier_record.go#L77) |
-| Tier | field_declaration | upstreamTier | [82](../../magpie/internal/gateway/tier_record.go#L82) |
-| Response | field_declaration | upstreamTier | [83](../../magpie/internal/gateway/tier_record.go#L83) |
-| Tier | field_declaration | upstreamTier | [84](../../magpie/internal/gateway/tier_record.go#L84) |
-| Usage | field_declaration | upstreamTier | [86](../../magpie/internal/gateway/tier_record.go#L86) |
-| Tier | field_declaration | upstreamTier | [87](../../magpie/internal/gateway/tier_record.go#L87) |
-| Message | field_declaration | upstreamTier | [89](../../magpie/internal/gateway/tier_record.go#L89) |
-| Usage | field_declaration | upstreamTier | [90](../../magpie/internal/gateway/tier_record.go#L90) |
-| Tier | field_declaration | upstreamTier | [91](../../magpie/internal/gateway/tier_record.go#L91) |
+| v | var_spec | upstreamTier | [81](../../magpie/internal/gateway/tier_record.go#L81) |
+| Tier | field_declaration | upstreamTier::v | [82](../../magpie/internal/gateway/tier_record.go#L82) |
+| Response | field_declaration | upstreamTier::v | [83](../../magpie/internal/gateway/tier_record.go#L83) |
+| Tier | field_declaration | upstreamTier::v::Response | [84](../../magpie/internal/gateway/tier_record.go#L84) |
+| Usage | field_declaration | upstreamTier::v | [86](../../magpie/internal/gateway/tier_record.go#L86) |
+| Tier | field_declaration | upstreamTier::v::Usage | [87](../../magpie/internal/gateway/tier_record.go#L87) |
+| Message | field_declaration | upstreamTier::v | [89](../../magpie/internal/gateway/tier_record.go#L89) |
+| Usage | field_declaration | upstreamTier::v::Message | [90](../../magpie/internal/gateway/tier_record.go#L90) |
+| Tier | field_declaration | upstreamTier::v::Message::Usage | [91](../../magpie/internal/gateway/tier_record.go#L91) |
+| s | var_spec | upstreamTier | [99](../../magpie/internal/gateway/tier_record.go#L99) |

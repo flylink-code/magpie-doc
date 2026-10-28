@@ -9,7 +9,7 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | groupRef | function_declaration |  | [215](../../magpie/internal/gateway/trace.go#L215) |
-| Weighed | struct_type |  | [240](../../magpie/internal/gateway/trace.go#L240) |
+| Weighed | type_spec |  | [240](../../magpie/internal/gateway/trace.go#L240) |
 | ID | field_declaration | Weighed | [241](../../magpie/internal/gateway/trace.go#L241) |
 | Provider | field_declaration | Weighed | [242](../../magpie/internal/gateway/trace.go#L242) |
 | Name | field_declaration | Weighed | [243](../../magpie/internal/gateway/trace.go#L243) |
@@ -58,7 +58,7 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Via | field_declaration | Weighed | [316](../../magpie/internal/gateway/trace.go#L316) |
 | UsedRenews | field_declaration | Weighed | [320](../../magpie/internal/gateway/trace.go#L320) |
 | Sunk | field_declaration | Weighed | [324](../../magpie/internal/gateway/trace.go#L324) |
-| Try | struct_type |  | [328](../../magpie/internal/gateway/trace.go#L328) |
+| Try | type_spec |  | [328](../../magpie/internal/gateway/trace.go#L328) |
 | ID | field_declaration | Try | [329](../../magpie/internal/gateway/trace.go#L329) |
 | Model | field_declaration | Try | [330](../../magpie/internal/gateway/trace.go#L330) |
 | Effort | field_declaration | Try | [331](../../magpie/internal/gateway/trace.go#L331) |
@@ -95,16 +95,16 @@ Source SHA-256: d10b5f0cb196da8de4a1890f9bedc75073649f5a5a9e08cf4e974c60ca2c769e
 | Reset | field_declaration | Try | [398](../../magpie/internal/gateway/trace.go#L398) |
 | Credits | field_declaration | Try | [402](../../magpie/internal/gateway/trace.go#L402) |
 | Auto | field_declaration | Try | [405](../../magpie/internal/gateway/trace.go#L405) |
-| AutoReset | struct_type |  | [412](../../magpie/internal/gateway/trace.go#L412) |
+| AutoReset | type_spec |  | [412](../../magpie/internal/gateway/trace.go#L412) |
 | Who | field_declaration | AutoReset | [413](../../magpie/internal/gateway/trace.go#L413) |
 | Text | field_declaration | AutoReset | [414](../../magpie/internal/gateway/trace.go#L414) |
 | Agent | field_declaration | AutoReset | [415](../../magpie/internal/gateway/trace.go#L415) |
-| planned | struct_type |  | [418](../../magpie/internal/gateway/trace.go#L418) |
+| planned | type_spec |  | [418](../../magpie/internal/gateway/trace.go#L418) |
 | order | field_declaration | planned | [419](../../magpie/internal/gateway/trace.go#L419) |
-| left | field_declaration | planned | [419](../../magpie/internal/gateway/trace.go#L419) |
 | held | field_declaration | planned | [422](../../magpie/internal/gateway/trace.go#L422) |
 | capped | field_declaration | planned | [426](../../magpie/internal/gateway/trace.go#L426) |
 | unlisted | field_declaration | planned | [432](../../magpie/internal/gateway/trace.go#L432) |
 | unlistedW | field_declaration | planned | [433](../../magpie/internal/gateway/trace.go#L433) |
 | weighed | function_declaration |  | [436](../../magpie/internal/gateway/trace.go#L436) |
-| trace | struct_type |  | [494](../../magpie/internal/gateway/trace.go#L494) |
+| trace | type_spec |  | [494](../../magpie/internal/gateway/trace.go#L494) |
+| mu | field_declaration | trace | [495](../../magpie/internal/gateway/trace.go#L495) |

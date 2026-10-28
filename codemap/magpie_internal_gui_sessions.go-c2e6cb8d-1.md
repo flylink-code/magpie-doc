@@ -8,11 +8,11 @@ Source SHA-256: 6279674e5c9a59a892d5d5092cb924d3f3955ea13fe36534c044e4c148f11acd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sessionJSON | struct_type |  | [28](../../magpie/internal/gui/sessions.go#L28) |
+| sessionJSON | type_spec |  | [28](../../magpie/internal/gui/sessions.go#L28) |
 | Name | field_declaration | sessionJSON | [30](../../magpie/internal/gui/sessions.go#L30) |
 | Icon | field_declaration | sessionJSON | [31](../../magpie/internal/gui/sessions.go#L31) |
 | Via | field_declaration | sessionJSON | [34](../../magpie/internal/gui/sessions.go#L34) |
-| sessionsJSON | struct_type |  | [37](../../magpie/internal/gui/sessions.go#L37) |
+| sessionsJSON | type_spec |  | [37](../../magpie/internal/gui/sessions.go#L37) |
 | Sessions | field_declaration | sessionsJSON | [38](../../magpie/internal/gui/sessions.go#L38) |
 | Terminal | field_declaration | sessionsJSON | [41](../../magpie/internal/gui/sessions.go#L41) |
 | Dirs | field_declaration | sessionsJSON | [42](../../magpie/internal/gui/sessions.go#L42) |
@@ -21,20 +21,23 @@ Source SHA-256: 6279674e5c9a59a892d5d5092cb924d3f3955ea13fe36534c044e4c148f11acd
 | gatewayListed | function_declaration |  | [70](../../magpie/internal/gui/sessions.go#L70) |
 | gatewaySession | function_declaration |  | [76](../../magpie/internal/gui/sessions.go#L76) |
 | sessionRoutes | function_declaration |  | [80](../../magpie/internal/gui/sessions.go#L80) |
+| modelEffort | var_spec | sessionRoutes | [119](../../magpie/internal/gui/sessions.go#L119) |
 | Terminal | field_declaration | sessionRoutes | [146](../../magpie/internal/gui/sessions.go#L146) |
 | Dirs | field_declaration | sessionRoutes | [147](../../magpie/internal/gui/sessions.go#L147) |
 | Agents | field_declaration | sessionRoutes | [172](../../magpie/internal/gui/sessions.go#L172) |
-| Agent | field_declaration | sessionRoutes | [317](../../magpie/internal/gui/sessions.go#L317) |
-| ID | field_declaration | sessionRoutes | [317](../../magpie/internal/gui/sessions.go#L317) |
-| In | field_declaration | sessionRoutes | [317](../../magpie/internal/gui/sessions.go#L317) |
-| Agent | field_declaration | sessionRoutes | [353](../../magpie/internal/gui/sessions.go#L353) |
-| ID | field_declaration | sessionRoutes | [353](../../magpie/internal/gui/sessions.go#L353) |
-| To | field_declaration | sessionRoutes | [353](../../magpie/internal/gui/sessions.go#L353) |
-| Open | field_declaration | sessionRoutes | [354](../../magpie/internal/gui/sessions.go#L354) |
+| in | var_spec | sessionRoutes | [317](../../magpie/internal/gui/sessions.go#L317) |
+| Agent | field_declaration | sessionRoutes::in | [317](../../magpie/internal/gui/sessions.go#L317) |
+| in | var_spec | sessionRoutes | [352](../../magpie/internal/gui/sessions.go#L352) |
+| Agent | field_declaration | sessionRoutes::in | [353](../../magpie/internal/gui/sessions.go#L353) |
+| Open | field_declaration | sessionRoutes::in | [354](../../magpie/internal/gui/sessions.go#L354) |
 | sessionMarkdown | function_declaration |  | [393](../../magpie/internal/gui/sessions.go#L393) |
+| t | var_spec | sessionMarkdown | [395](../../magpie/internal/gui/sessions.go#L395) |
+| b | var_spec | sessionMarkdown | [412](../../magpie/internal/gui/sessions.go#L412) |
 | wslName | function_declaration |  | [436](../../magpie/internal/gui/sessions.go#L436) |
 | statsMemo | var_spec |  | [447](../../magpie/internal/gui/sessions.go#L447) |
-| statsKept | struct_type |  | [453](../../magpie/internal/gui/sessions.go#L453) |
+| m | field_declaration | statsMemo | [449](../../magpie/internal/gui/sessions.go#L449) |
+| asks | field_declaration | statsMemo | [450](../../magpie/internal/gui/sessions.go#L450) |
+| statsKept | type_spec |  | [453](../../magpie/internal/gui/sessions.go#L453) |
 | at | field_declaration | statsKept | [454](../../magpie/internal/gui/sessions.go#L454) |
 | st | field_declaration | statsKept | [455](../../magpie/internal/gui/sessions.go#L455) |
 | busy | field_declaration | statsKept | [456](../../magpie/internal/gui/sessions.go#L456) |
@@ -42,6 +45,7 @@ Source SHA-256: 6279674e5c9a59a892d5d5092cb924d3f3955ea13fe36534c044e4c148f11acd
 | statsMemoMost | const_spec |  | [465](../../magpie/internal/gui/sessions.go#L465) |
 | statsFor | function_declaration |  | [467](../../magpie/internal/gui/sessions.go#L467) |
 | combinedSessionStats | function_declaration |  | [514](../../magpie/internal/gui/sessions.go#L514) |
+| since | var_spec | combinedSessionStats | [516](../../magpie/internal/gui/sessions.go#L516) |
 | warmSessions | function_declaration |  | [538](../../magpie/internal/gui/sessions.go#L538) |
 | warmSteps | function_declaration |  | [554](../../magpie/internal/gui/sessions.go#L554) |
 | warmCodexEffort | var_spec |  | [568](../../magpie/internal/gui/sessions.go#L568) |
@@ -50,3 +54,5 @@ Source SHA-256: 6279674e5c9a59a892d5d5092cb924d3f3955ea13fe36534c044e4c148f11acd
 | heldMemory | function_declaration |  | [616](../../magpie/internal/gui/sessions.go#L616) |
 | tightGCPercent | const_spec |  | [622](../../magpie/internal/gui/sessions.go#L622) |
 | openTerminal | function_declaration |  | [627](../../magpie/internal/gui/sessions.go#L627) |
+| found | var_spec | openTerminal | [628](../../magpie/internal/gui/sessions.go#L628) |
+| err | var_spec | openTerminal | [630](../../magpie/internal/gui/sessions.go#L630) |

@@ -14,5 +14,5 @@ Source SHA-256: 2b2f2825273d06682c92581da733485ef9fd17a0cf65f1dce6cf650545692104
 | closeLeaveFullscreen | const_spec |  | [37](../../magpie/internal/gui/mainwindow.go#L37) |
 | closeStep | function_declaration |  | [43](../../magpie/internal/gui/mainwindow.go#L43) |
 | mainClosedJS | const_spec |  | [54](../../magpie/internal/gui/mainwindow.go#L54) |
-| hideMain | method_declaration | *host | [58](../../magpie/internal/gui/mainwindow.go#L58) |
-| leaveFullscreenThenHide | method_declaration | *host | [71](../../magpie/internal/gui/mainwindow.go#L71) |
+| hideMain | method_declaration |  | [58](../../magpie/internal/gui/mainwindow.go#L58) |
+| leaveFullscreenThenHide | method_declaration |  | [71](../../magpie/internal/gui/mainwindow.go#L71) |

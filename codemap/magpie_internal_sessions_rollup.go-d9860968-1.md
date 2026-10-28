@@ -8,7 +8,7 @@ Source SHA-256: 140b21625a0324f44b9e1133b3e230f8d3ac1023ba701e02ff19bd577e4f3114
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Rollup | struct_type |  | [11](../../magpie/internal/sessions/rollup.go#L11) |
+| Rollup | type_spec |  | [11](../../magpie/internal/sessions/rollup.go#L11) |
 | From | field_declaration | Rollup | [12](../../magpie/internal/sessions/rollup.go#L12) |
 | To | field_declaration | Rollup | [13](../../magpie/internal/sessions/rollup.go#L13) |
 | Model | field_declaration | Rollup | [14](../../magpie/internal/sessions/rollup.go#L14) |
@@ -20,14 +20,14 @@ Source SHA-256: 140b21625a0324f44b9e1133b3e230f8d3ac1023ba701e02ff19bd577e4f3114
 | Days | field_declaration | Rollup | [23](../../magpie/internal/sessions/rollup.go#L23) |
 | Models | field_declaration | Rollup | [24](../../magpie/internal/sessions/rollup.go#L24) |
 | Folders | field_declaration | Rollup | [25](../../magpie/internal/sessions/rollup.go#L25) |
-| DayTotal | struct_type |  | [29](../../magpie/internal/sessions/rollup.go#L29) |
+| DayTotal | type_spec |  | [29](../../magpie/internal/sessions/rollup.go#L29) |
 | Date | field_declaration | DayTotal | [30](../../magpie/internal/sessions/rollup.go#L30) |
 | Cost | field_declaration | DayTotal | [32](../../magpie/internal/sessions/rollup.go#L32) |
 | Active | field_declaration | DayTotal | [33](../../magpie/internal/sessions/rollup.go#L33) |
-| Share | struct_type |  | [37](../../magpie/internal/sessions/rollup.go#L37) |
+| Share | type_spec |  | [37](../../magpie/internal/sessions/rollup.go#L37) |
 | Name | field_declaration | Share | [38](../../magpie/internal/sessions/rollup.go#L38) |
 | Cost | field_declaration | Share | [40](../../magpie/internal/sessions/rollup.go#L40) |
 | Duration | function_declaration |  | [45](../../magpie/internal/sessions/rollup.go#L45) |
-| Spent | method_declaration | Tokens | [61](../../magpie/internal/sessions/rollup.go#L61) |
-| Sum | method_declaration | Stats | [64](../../magpie/internal/sessions/rollup.go#L64) |
+| Spent | method_declaration |  | [61](../../magpie/internal/sessions/rollup.go#L61) |
+| Sum | method_declaration |  | [64](../../magpie/internal/sessions/rollup.go#L64) |
 | ranked | function_declaration |  | [133](../../magpie/internal/sessions/rollup.go#L133) |

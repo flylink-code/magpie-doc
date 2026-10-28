@@ -10,10 +10,11 @@ Source SHA-256: 8f91eb23b04b9948b8f5b1c894b546b92ada4c0eae7ab0dca3d0b445a87265dd
 | --- | --- | --- | ---: |
 | specUsage | const_spec |  | [14](../../magpie/internal/cli/model_spec_cli.go#L14) |
 | modelSpec | function_declaration |  | [36](../../magpie/internal/cli/model_spec_cli.go#L36) |
+| c | var_spec | modelSpec | [59](../../magpie/internal/cli/model_spec_cli.go#L59) |
 | isHelp | function_declaration |  | [113](../../magpie/internal/cli/model_spec_cli.go#L113) |
 | specTokens | function_declaration |  | [117](../../magpie/internal/cli/model_spec_cli.go#L117) |
 | showSpec | function_declaration |  | [133](../../magpie/internal/cli/model_spec_cli.go#L133) |
 | name | field_declaration | showSpec | [165](../../magpie/internal/cli/model_spec_cli.go#L165) |
-| flag | field_declaration | showSpec | [165](../../magpie/internal/cli/model_spec_cli.go#L165) |
 | part | field_declaration | showSpec | [166](../../magpie/internal/cli/model_spec_cli.go#L166) |
 | modelSpecs | function_declaration |  | [179](../../magpie/internal/cli/model_spec_cli.go#L179) |
+| parts | var_spec | modelSpecs | [190](../../magpie/internal/cli/model_spec_cli.go#L190) |

@@ -17,6 +17,11 @@ Source SHA-256: 3156a28003978e68b94ca85750db4f923c881e3e0292ff4f35c8395c2b86eb58
 | splitName | function_declaration |  | [74](../../magpie/internal/redact/shape.go#L74) |
 | shapeByte | function_declaration |  | [81](../../magpie/internal/redact/shape.go#L81) |
 | shapeOf | function_declaration |  | [86](../../magpie/internal/redact/shape.go#L86) |
+| stream | var_spec | shapeOf | [114](../../magpie/internal/redact/shape.go#L114) |
+| c | var_spec | shapeOf | [119](../../magpie/internal/redact/shape.go#L119) |
+| upper | const_spec | shapeOf | [130](../../magpie/internal/redact/shape.go#L130) |
+| lower | const_spec | shapeOf | [131](../../magpie/internal/redact/shape.go#L131) |
+| digit | const_spec | shapeOf | [132](../../magpie/internal/redact/shape.go#L132) |
 | shaped | function_declaration |  | [167](../../magpie/internal/redact/shape.go#L167) |
 | restoreShapes | function_declaration |  | [193](../../magpie/internal/redact/shape.go#L193) |
 | shapeTail | function_declaration |  | [209](../../magpie/internal/redact/shape.go#L209) |

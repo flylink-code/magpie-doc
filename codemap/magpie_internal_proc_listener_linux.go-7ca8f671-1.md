@@ -9,5 +9,6 @@ Source SHA-256: 1fe528564eee97e200471f8fe1e4578bd7c448aa555fde81acbfc01cdaddb5d5
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | listeningOn | function_declaration |  | [15](../../magpie/internal/proc/listener_linux.go#L15) |
+| ps | var_spec | listeningOn | [38](../../magpie/internal/proc/listener_linux.go#L38) |
 | listenInodes | function_declaration |  | [64](../../magpie/internal/proc/listener_linux.go#L64) |
 | executable | function_declaration |  | [79](../../magpie/internal/proc/listener_linux.go#L79) |

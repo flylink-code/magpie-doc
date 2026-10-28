@@ -11,9 +11,11 @@ Source SHA-256: b2e1ae944a5fde423528f6a64c5c85a55faed1c8876cbe3bb640b8728a4f135e
 | setPageZoom | function_declaration |  | [27](../../magpie/internal/gui/zoom_windows_arm64.go#L27) |
 | zoomsAfterLoad | const_spec |  | [35](../../magpie/internal/gui/zoom_windows_arm64.go#L35) |
 | putZoomFactor | function_declaration |  | [39](../../magpie/internal/gui/zoom_windows_arm64.go#L39) |
+| putZoomFactorSlot | const_spec | putZoomFactor | [52](../../magpie/internal/gui/zoom_windows_arm64.go#L52) |
 | webviewController | function_declaration |  | [67](../../magpie/internal/gui/zoom_windows_arm64.go#L67) |
 | flushInstructionCache | var_spec |  | [94](../../magpie/internal/gui/zoom_windows_arm64.go#L94) |
 | thunkOnce | var_spec |  | [96](../../magpie/internal/gui/zoom_windows_arm64.go#L96) |
 | thunkAddr | var_spec |  | [97](../../magpie/internal/gui/zoom_windows_arm64.go#L97) |
 | thunkErr | var_spec |  | [98](../../magpie/internal/gui/zoom_windows_arm64.go#L98) |
 | doubleThunk | function_declaration |  | [110](../../magpie/internal/gui/zoom_windows_arm64.go#L110) |
+| old | var_spec | doubleThunk | [121](../../magpie/internal/gui/zoom_windows_arm64.go#L121) |

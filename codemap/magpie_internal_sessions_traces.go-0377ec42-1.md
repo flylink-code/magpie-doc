@@ -8,47 +8,29 @@ Source SHA-256: 6a057cdf277e33a52bf5478cd716dda7cc961d3e076b711ef8762ce7e5c5e122
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TraceSpan | struct_type |  | [21](../../magpie/internal/sessions/traces.go#L21) |
+| TraceSpan | type_spec |  | [21](../../magpie/internal/sessions/traces.go#L21) |
 | Agent | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Session | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Turn | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| ID | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Parent | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Name | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Kind | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Model | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Provider | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
-| Served | field_declaration | TraceSpan | [22](../../magpie/internal/sessions/traces.go#L22) |
 | Start | field_declaration | TraceSpan | [23](../../magpie/internal/sessions/traces.go#L23) |
-| End | field_declaration | TraceSpan | [23](../../magpie/internal/sessions/traces.go#L23) |
 | Input | field_declaration | TraceSpan | [24](../../magpie/internal/sessions/traces.go#L24) |
-| Output | field_declaration | TraceSpan | [24](../../magpie/internal/sessions/traces.go#L24) |
 | Tokens | field_declaration | TraceSpan | [25](../../magpie/internal/sessions/traces.go#L25) |
 | Reasoning | field_declaration | TraceSpan | [26](../../magpie/internal/sessions/traces.go#L26) |
 | Error | field_declaration | TraceSpan | [27](../../magpie/internal/sessions/traces.go#L27) |
-| Inferred | field_declaration | TraceSpan | [27](../../magpie/internal/sessions/traces.go#L27) |
 | Update | field_declaration | TraceSpan | [28](../../magpie/internal/sessions/traces.go#L28) |
 | Pending | field_declaration | TraceSpan | [29](../../magpie/internal/sessions/traces.go#L29) |
-| traceTurn | struct_type |  | [32](../../magpie/internal/sessions/traces.go#L32) |
+| traceTurn | type_spec |  | [32](../../magpie/internal/sessions/traces.go#L32) |
 | id | field_declaration | traceTurn | [33](../../magpie/internal/sessions/traces.go#L33) |
 | start | field_declaration | traceTurn | [34](../../magpie/internal/sessions/traces.go#L34) |
-| last | field_declaration | traceTurn | [34](../../magpie/internal/sessions/traces.go#L34) |
 | input | field_declaration | traceTurn | [35](../../magpie/internal/sessions/traces.go#L35) |
-| output | field_declaration | traceTurn | [35](../../magpie/internal/sessions/traces.go#L35) |
-| model | field_declaration | traceTurn | [35](../../magpie/internal/sessions/traces.go#L35) |
 | failed | field_declaration | traceTurn | [36](../../magpie/internal/sessions/traces.go#L36) |
-| completed | field_declaration | traceTurn | [36](../../magpie/internal/sessions/traces.go#L36) |
 | finishAfter | field_declaration | traceTurn | [37](../../magpie/internal/sessions/traces.go#L37) |
 | codex | field_declaration | traceTurn | [38](../../magpie/internal/sessions/traces.go#L38) |
 | piTimingGrace | const_spec |  | [43](../../magpie/internal/sessions/traces.go#L43) |
-| traceCursor | struct_type |  | [45](../../magpie/internal/sessions/traces.go#L45) |
+| traceCursor | type_spec |  | [45](../../magpie/internal/sessions/traces.go#L45) |
 | info | field_declaration | traceCursor | [46](../../magpie/internal/sessions/traces.go#L46) |
 | offset | field_declaration | traceCursor | [47](../../magpie/internal/sessions/traces.go#L47) |
 | size | field_declaration | traceCursor | [48](../../magpie/internal/sessions/traces.go#L48) |
 | mod | field_declaration | traceCursor | [49](../../magpie/internal/sessions/traces.go#L49) |
 | agent | field_declaration | traceCursor | [50](../../magpie/internal/sessions/traces.go#L50) |
-| session | field_declaration | traceCursor | [50](../../magpie/internal/sessions/traces.go#L50) |
-| provider | field_declaration | traceCursor | [50](../../magpie/internal/sessions/traces.go#L50) |
 | scope | field_declaration | traceCursor | [51](../../magpie/internal/sessions/traces.go#L51) |
 | turns | field_declaration | traceCursor | [52](../../magpie/internal/sessions/traces.go#L52) |
 | current | field_declaration | traceCursor | [53](../../magpie/internal/sessions/traces.go#L53) |
@@ -56,7 +38,7 @@ Source SHA-256: 6a057cdf277e33a52bf5478cd716dda7cc961d3e076b711ef8762ce7e5c5e122
 | parents | field_declaration | traceCursor | [55](../../magpie/internal/sessions/traces.go#L55) |
 | claudeMessage | field_declaration | traceCursor | [56](../../magpie/internal/sessions/traces.go#L56) |
 | codexBase | field_declaration | traceCursor | [57](../../magpie/internal/sessions/traces.go#L57) |
-| TraceReader | struct_type |  | [63](../../magpie/internal/sessions/traces.go#L63) |
+| TraceReader | type_spec |  | [63](../../magpie/internal/sessions/traces.go#L63) |
 | visible | field_declaration | TraceReader | [64](../../magpie/internal/sessions/traces.go#L64) |
 | identities | field_declaration | TraceReader | [65](../../magpie/internal/sessions/traces.go#L65) |
 | Since | field_declaration | TraceReader | [66](../../magpie/internal/sessions/traces.go#L66) |
@@ -72,39 +54,57 @@ Source SHA-256: 6a057cdf277e33a52bf5478cd716dda7cc961d3e076b711ef8762ce7e5c5e122
 | TraceID | function_declaration |  | [116](../../magpie/internal/sessions/traces.go#L116) |
 | traceSpanID | function_declaration |  | [120](../../magpie/internal/sessions/traces.go#L120) |
 | traceTime | function_declaration |  | [121](../../magpie/internal/sessions/traces.go#L121) |
-| span | method_declaration | *traceCursor | [136](../../magpie/internal/sessions/traces.go#L136) |
-| root | method_declaration | *traceCursor | [139](../../magpie/internal/sessions/traces.go#L139) |
-| turn | method_declaration | *traceCursor | [147](../../magpie/internal/sessions/traces.go#L147) |
-| Poll | method_declaration | *TraceReader | [168](../../magpie/internal/sessions/traces.go#L168) |
+| n | var_spec | traceTime | [122](../../magpie/internal/sessions/traces.go#L122) |
+| s | var_spec | traceTime | [129](../../magpie/internal/sessions/traces.go#L129) |
+| span | method_declaration |  | [136](../../magpie/internal/sessions/traces.go#L136) |
+| root | method_declaration |  | [139](../../magpie/internal/sessions/traces.go#L139) |
+| turn | method_declaration |  | [147](../../magpie/internal/sessions/traces.go#L147) |
+| oldest | var_spec | turn | [151](../../magpie/internal/sessions/traces.go#L151) |
+| at | var_spec | turn | [152](../../magpie/internal/sessions/traces.go#L152) |
+| Poll | method_declaration |  | [168](../../magpie/internal/sessions/traces.go#L168) |
+| result | var_spec | Poll | [171](../../magpie/internal/sessions/traces.go#L171) |
+| long | var_spec | Poll | [174](../../magpie/internal/sessions/traces.go#L174) |
+| line | var_spec | Poll | [236](../../magpie/internal/sessions/traces.go#L236) |
 | nextTraceLine | function_declaration |  | [286](../../magpie/internal/sessions/traces.go#L286) |
 | newTraceCursor | function_declaration |  | [315](../../magpie/internal/sessions/traces.go#L315) |
-| line | method_declaration | *traceCursor | [326](../../magpie/internal/sessions/traces.go#L326) |
-| interruptCodexTurn | method_declaration | *traceCursor | [339](../../magpie/internal/sessions/traces.go#L339) |
-| endCodexTurn | method_declaration | *traceCursor | [365](../../magpie/internal/sessions/traces.go#L365) |
-| codex | method_declaration | *traceCursor | [371](../../magpie/internal/sessions/traces.go#L371) |
-| Type | field_declaration | *traceCursor.codex | [373](../../magpie/internal/sessions/traces.go#L373) |
-| Timestamp | field_declaration | *traceCursor.codex | [374](../../magpie/internal/sessions/traces.go#L374) |
-| Payload | field_declaration | *traceCursor.codex | [375](../../magpie/internal/sessions/traces.go#L375) |
-| Type | field_declaration | *traceCursor.codex | [381](../../magpie/internal/sessions/traces.go#L381) |
-| ID | field_declaration | *traceCursor.codex | [381](../../magpie/internal/sessions/traces.go#L381) |
-| Model | field_declaration | *traceCursor.codex | [381](../../magpie/internal/sessions/traces.go#L381) |
-| Role | field_declaration | *traceCursor.codex | [381](../../magpie/internal/sessions/traces.go#L381) |
-| Name | field_declaration | *traceCursor.codex | [382](../../magpie/internal/sessions/traces.go#L382) |
-| Content | field_declaration | *traceCursor.codex | [383](../../magpie/internal/sessions/traces.go#L383) |
-| Metadata | field_declaration | *traceCursor.codex | [384](../../magpie/internal/sessions/traces.go#L384) |
-| TurnID | field_declaration | *traceCursor.codex | [385](../../magpie/internal/sessions/traces.go#L385) |
-| BaseInstructions | field_declaration | *traceCursor.codex | [387](../../magpie/internal/sessions/traces.go#L387) |
-| CallID | field_declaration | *traceCursor.codex | [388](../../magpie/internal/sessions/traces.go#L388) |
-| Input | field_declaration | *traceCursor.codex | [389](../../magpie/internal/sessions/traces.go#L389) |
-| Arguments | field_declaration | *traceCursor.codex | [389](../../magpie/internal/sessions/traces.go#L389) |
-| Output | field_declaration | *traceCursor.codex | [389](../../magpie/internal/sessions/traces.go#L389) |
-| TurnID | field_declaration | *traceCursor.codex | [390](../../magpie/internal/sessions/traces.go#L390) |
-| ResponseID | field_declaration | *traceCursor.codex | [391](../../magpie/internal/sessions/traces.go#L391) |
-| ModelProvider | field_declaration | *traceCursor.codex | [392](../../magpie/internal/sessions/traces.go#L392) |
-| StartedAt | field_declaration | *traceCursor.codex | [393](../../magpie/internal/sessions/traces.go#L393) |
-| CompletedAt | field_declaration | *traceCursor.codex | [394](../../magpie/internal/sessions/traces.go#L394) |
-| StartedAtMS | field_declaration | *traceCursor.codex | [395](../../magpie/internal/sessions/traces.go#L395) |
-| CompletedAtMS | field_declaration | *traceCursor.codex | [396](../../magpie/internal/sessions/traces.go#L396) |
-| DurationMS | field_declaration | *traceCursor.codex | [397](../../magpie/internal/sessions/traces.go#L397) |
-| LastAgentMessage | field_declaration | *traceCursor.codex | [398](../../magpie/internal/sessions/traces.go#L398) |
-| Usage | field_declaration | *traceCursor.codex | [399](../../magpie/internal/sessions/traces.go#L399) |
+| line | method_declaration |  | [326](../../magpie/internal/sessions/traces.go#L326) |
+| interruptCodexTurn | method_declaration |  | [339](../../magpie/internal/sessions/traces.go#L339) |
+| endCodexTurn | method_declaration |  | [365](../../magpie/internal/sessions/traces.go#L365) |
+| codex | method_declaration |  | [371](../../magpie/internal/sessions/traces.go#L371) |
+| o | var_spec | codex | [372](../../magpie/internal/sessions/traces.go#L372) |
+| Type | field_declaration | codex::o | [373](../../magpie/internal/sessions/traces.go#L373) |
+| Timestamp | field_declaration | codex::o | [374](../../magpie/internal/sessions/traces.go#L374) |
+| Payload | field_declaration | codex::o | [375](../../magpie/internal/sessions/traces.go#L375) |
+| p | var_spec | codex | [380](../../magpie/internal/sessions/traces.go#L380) |
+| Type | field_declaration | codex::p | [381](../../magpie/internal/sessions/traces.go#L381) |
+| Name | field_declaration | codex::p | [382](../../magpie/internal/sessions/traces.go#L382) |
+| Content | field_declaration | codex::p | [383](../../magpie/internal/sessions/traces.go#L383) |
+| Metadata | field_declaration | codex::p | [384](../../magpie/internal/sessions/traces.go#L384) |
+| TurnID | field_declaration | codex::p::Metadata | [385](../../magpie/internal/sessions/traces.go#L385) |
+| BaseInstructions | field_declaration | codex::p | [387](../../magpie/internal/sessions/traces.go#L387) |
+| CallID | field_declaration | codex::p | [388](../../magpie/internal/sessions/traces.go#L388) |
+| Input | field_declaration | codex::p | [389](../../magpie/internal/sessions/traces.go#L389) |
+| TurnID | field_declaration | codex::p | [390](../../magpie/internal/sessions/traces.go#L390) |
+| ResponseID | field_declaration | codex::p | [391](../../magpie/internal/sessions/traces.go#L391) |
+| ModelProvider | field_declaration | codex::p | [392](../../magpie/internal/sessions/traces.go#L392) |
+| StartedAt | field_declaration | codex::p | [393](../../magpie/internal/sessions/traces.go#L393) |
+| CompletedAt | field_declaration | codex::p | [394](../../magpie/internal/sessions/traces.go#L394) |
+| StartedAtMS | field_declaration | codex::p | [395](../../magpie/internal/sessions/traces.go#L395) |
+| CompletedAtMS | field_declaration | codex::p | [396](../../magpie/internal/sessions/traces.go#L396) |
+| DurationMS | field_declaration | codex::p | [397](../../magpie/internal/sessions/traces.go#L397) |
+| LastAgentMessage | field_declaration | codex::p | [398](../../magpie/internal/sessions/traces.go#L398) |
+| Usage | field_declaration | codex::p | [399](../../magpie/internal/sessions/traces.go#L399) |
+| Input | field_declaration | codex::p::Usage | [400](../../magpie/internal/sessions/traces.go#L400) |
+| Cached | field_declaration | codex::p::Usage | [401](../../magpie/internal/sessions/traces.go#L401) |
+| CacheWrite | field_declaration | codex::p::Usage | [402](../../magpie/internal/sessions/traces.go#L402) |
+| Output | field_declaration | codex::p::Usage | [403](../../magpie/internal/sessions/traces.go#L403) |
+| Reasoning | field_declaration | codex::p::Usage | [404](../../magpie/internal/sessions/traces.go#L404) |
+| Item | field_declaration | codex::p | [406](../../magpie/internal/sessions/traces.go#L406) |
+| Type | field_declaration | codex::p::Item | [407](../../magpie/internal/sessions/traces.go#L407) |
+| Kind | field_declaration | codex::p::Item | [408](../../magpie/internal/sessions/traces.go#L408) |
+| Command | field_declaration | codex::p::Item | [409](../../magpie/internal/sessions/traces.go#L409) |
+| Arguments | field_declaration | codex::p::Item | [410](../../magpie/internal/sessions/traces.go#L410) |
+| Content | field_declaration | codex::p::Item | [411](../../magpie/internal/sessions/traces.go#L411) |
+| Output | field_declaration | codex::p::Item | [412](../../magpie/internal/sessions/traces.go#L412) |
+| Result | field_declaration | codex::p::Item | [413](../../magpie/internal/sessions/traces.go#L413) |
+| Changes | field_declaration | codex::p::Item | [414](../../magpie/internal/sessions/traces.go#L414) |

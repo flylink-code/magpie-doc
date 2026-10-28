@@ -11,7 +11,11 @@ Source SHA-256: 50d403f78e8c7f9e041ddc8cc00b1eb5c68851f8c1ec0368523562ade490abcd
 | errFrame | var_spec |  | [22](../../magpie/internal/sessions/frames.go#L22) |
 | frameDecoders | var_spec |  | [27](../../magpie/internal/sessions/frames.go#L27) |
 | readFrame | function_declaration |  | [39](../../magpie/internal/sessions/frames.go#L39) |
+| n | var_spec | readFrame | [44](../../magpie/internal/sessions/frames.go#L44) |
 | frameHeaderLen | function_declaration |  | [113](../../magpie/internal/sessions/frames.go#L113) |
 | blockLen | function_declaration |  | [137](../../magpie/internal/sessions/frames.go#L137) |
 | frameSize | function_declaration |  | [154](../../magpie/internal/sessions/frames.go#L154) |
+| h | var_spec | frameSize | [155](../../magpie/internal/sessions/frames.go#L155) |
 | scanFrames | function_declaration |  | [190](../../magpie/internal/sessions/frames.go#L190) |
+| frame | var_spec | scanFrames | [207](../../magpie/internal/sessions/frames.go#L207) |
+| n | var_spec | scanFrames | [211](../../magpie/internal/sessions/frames.go#L211) |

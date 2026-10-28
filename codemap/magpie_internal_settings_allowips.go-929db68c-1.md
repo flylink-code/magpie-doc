@@ -11,3 +11,4 @@ Source SHA-256: 49e04e240d02daaed688e0b53c1eb681db12784fd990924898ca2e58f4aa6d07
 | SplitAllowIPs | function_declaration |  | [12](../../magpie/internal/settings/allowips.go#L12) |
 | ParseAllowIP | function_declaration |  | [19](../../magpie/internal/settings/allowips.go#L19) |
 | CleanAllowIPs | function_declaration |  | [45](../../magpie/internal/settings/allowips.go#L45) |
+| out | var_spec | CleanAllowIPs | [46](../../magpie/internal/settings/allowips.go#L46) |

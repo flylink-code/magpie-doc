@@ -8,14 +8,14 @@ Source SHA-256: 65fa5d856f89a407e981f7a6a27557498244def9a90de136276cb1a0eb2fda2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Bundle | struct_type |  | [24](../../magpie/internal/library/carry.go#L24) |
+| Bundle | type_spec |  | [24](../../magpie/internal/library/carry.go#L24) |
 | Instructions | field_declaration | Bundle | [25](../../magpie/internal/library/carry.go#L25) |
 | Texts | field_declaration | Bundle | [26](../../magpie/internal/library/carry.go#L26) |
 | Extra | field_declaration | Bundle | [27](../../magpie/internal/library/carry.go#L27) |
 | MCP | field_declaration | Bundle | [28](../../magpie/internal/library/carry.go#L28) |
 | Skills | field_declaration | Bundle | [29](../../magpie/internal/library/carry.go#L29) |
 | Icons | field_declaration | Bundle | [30](../../magpie/internal/library/carry.go#L30) |
-| CarriedSkill | struct_type |  | [34](../../magpie/internal/library/carry.go#L34) |
+| CarriedSkill | type_spec |  | [34](../../magpie/internal/library/carry.go#L34) |
 | Name | field_declaration | CarriedSkill | [35](../../magpie/internal/library/carry.go#L35) |
 | Source | field_declaration | CarriedSkill | [36](../../magpie/internal/library/carry.go#L36) |
 | Agents | field_declaration | CarriedSkill | [37](../../magpie/internal/library/carry.go#L37) |
@@ -28,17 +28,17 @@ Source SHA-256: 65fa5d856f89a407e981f7a6a27557498244def9a90de136276cb1a0eb2fda2f
 | sorted | function_declaration |  | [104](../../magpie/internal/library/carry.go#L104) |
 | orNone | function_declaration |  | [108](../../magpie/internal/library/carry.go#L108) |
 | readSkills | function_declaration |  | [118](../../magpie/internal/library/carry.go#L118) |
-| file | struct_type | readSkills | [119](../../magpie/internal/library/carry.go#L119) |
-| skill | field_declaration | readSkills.file | [120](../../magpie/internal/library/carry.go#L120) |
-| rel | field_declaration | readSkills.file | [121](../../magpie/internal/library/carry.go#L121) |
-| p | field_declaration | readSkills.file | [121](../../magpie/internal/library/carry.go#L121) |
-| size | field_declaration | readSkills.file | [122](../../magpie/internal/library/carry.go#L122) |
-| runs | field_declaration | readSkills.file | [123](../../magpie/internal/library/carry.go#L123) |
-| check | method_declaration | *Bundle | [188](../../magpie/internal/library/carry.go#L188) |
+| file | type_spec | readSkills | [119](../../magpie/internal/library/carry.go#L119) |
+| skill | field_declaration | readSkills::file | [120](../../magpie/internal/library/carry.go#L120) |
+| rel | field_declaration | readSkills::file | [121](../../magpie/internal/library/carry.go#L121) |
+| size | field_declaration | readSkills::file | [122](../../magpie/internal/library/carry.go#L122) |
+| runs | field_declaration | readSkills::file | [123](../../magpie/internal/library/carry.go#L123) |
+| files | var_spec | readSkills | [125](../../magpie/internal/library/carry.go#L125) |
+| check | method_declaration |  | [188](../../magpie/internal/library/carry.go#L188) |
 | localFile | function_declaration |  | [235](../../magpie/internal/library/carry.go#L235) |
-| WithoutSecrets | method_declaration | *Bundle | [242](../../magpie/internal/library/carry.go#L242) |
+| WithoutSecrets | method_declaration |  | [242](../../magpie/internal/library/carry.go#L242) |
 | blank | function_declaration |  | [256](../../magpie/internal/library/carry.go#L256) |
-| WithSecrets | method_declaration | *Bundle | [273](../../magpie/internal/library/carry.go#L273) |
+| WithSecrets | method_declaration |  | [273](../../magpie/internal/library/carry.go#L273) |
 | filled | function_declaration |  | [296](../../magpie/internal/library/carry.go#L296) |
 | Put | function_declaration |  | [317](../../magpie/internal/library/carry.go#L317) |
 | sameSource | function_declaration |  | [461](../../magpie/internal/library/carry.go#L461) |
@@ -47,3 +47,4 @@ Source SHA-256: 65fa5d856f89a407e981f7a6a27557498244def9a90de136276cb1a0eb2fda2f
 | keepLeft | function_declaration |  | [494](../../magpie/internal/library/carry.go#L494) |
 | isDir | function_declaration |  | [525](../../magpie/internal/library/carry.go#L525) |
 | Changed | function_declaration |  | [532](../../magpie/internal/library/carry.go#L532) |
+| t | var_spec | Changed | [533](../../magpie/internal/library/carry.go#L533) |

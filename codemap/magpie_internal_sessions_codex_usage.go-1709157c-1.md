@@ -8,7 +8,7 @@ Source SHA-256: 76e37e811dd64b358bd1f6448aeab7f2c01b6af9e52ac327712eaec28d2e2e9b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexUsageState | struct_type |  | [14](../../magpie/internal/sessions/codex_usage.go#L14) |
+| codexUsageState | type_spec |  | [14](../../magpie/internal/sessions/codex_usage.go#L14) |
 | Pending | field_declaration | codexUsageState | [17](../../magpie/internal/sessions/codex_usage.go#L17) |
 | Entries | field_declaration | codexUsageState | [18](../../magpie/internal/sessions/codex_usage.go#L18) |
 | Intervals | field_declaration | codexUsageState | [19](../../magpie/internal/sessions/codex_usage.go#L19) |
@@ -26,85 +26,79 @@ Source SHA-256: 76e37e811dd64b358bd1f6448aeab7f2c01b6af9e52ac327712eaec28d2e2e9b
 | SnapshotThread | field_declaration | codexUsageState | [31](../../magpie/internal/sessions/codex_usage.go#L31) |
 | SnapshotTotal | field_declaration | codexUsageState | [32](../../magpie/internal/sessions/codex_usage.go#L32) |
 | SnapshotOffset | field_declaration | codexUsageState | [33](../../magpie/internal/sessions/codex_usage.go#L33) |
-| cxHistorySnapshot | struct_type |  | [39](../../magpie/internal/sessions/codex_usage.go#L39) |
+| cxHistorySnapshot | type_spec |  | [39](../../magpie/internal/sessions/codex_usage.go#L39) |
 | HistoryMode | field_declaration | cxHistorySnapshot | [40](../../magpie/internal/sessions/codex_usage.go#L40) |
 | HistoryBase | field_declaration | cxHistorySnapshot | [41](../../magpie/internal/sessions/codex_usage.go#L41) |
 | HistoryStart | field_declaration | cxHistorySnapshot | [42](../../magpie/internal/sessions/codex_usage.go#L42) |
-| beginSnapshot | method_declaration | *codexUsageState | [45](../../magpie/internal/sessions/codex_usage.go#L45) |
-| alignSnapshot | method_declaration | *codexUsageState | [51](../../magpie/internal/sessions/codex_usage.go#L51) |
-| codexCounterBase | struct_type |  | [72](../../magpie/internal/sessions/codex_usage.go#L72) |
+| beginSnapshot | method_declaration |  | [45](../../magpie/internal/sessions/codex_usage.go#L45) |
+| alignSnapshot | method_declaration |  | [51](../../magpie/internal/sessions/codex_usage.go#L51) |
+| codexCounterBase | type_spec |  | [72](../../magpie/internal/sessions/codex_usage.go#L72) |
 | Session | field_declaration | codexCounterBase | [73](../../magpie/internal/sessions/codex_usage.go#L73) |
 | Epoch | field_declaration | codexCounterBase | [74](../../magpie/internal/sessions/codex_usage.go#L74) |
 | At | field_declaration | codexCounterBase | [75](../../magpie/internal/sessions/codex_usage.go#L75) |
 | PreviousAt | field_declaration | codexCounterBase | [76](../../magpie/internal/sessions/codex_usage.go#L76) |
 | Base | field_declaration | codexCounterBase | [77](../../magpie/internal/sessions/codex_usage.go#L77) |
-| Start | field_declaration | codexCounterBase | [77](../../magpie/internal/sessions/codex_usage.go#L77) |
 | Confirmed | field_declaration | codexCounterBase | [78](../../magpie/internal/sessions/codex_usage.go#L78) |
-| cxRecordedUsage | struct_type |  | [81](../../magpie/internal/sessions/codex_usage.go#L81) |
+| cxRecordedUsage | type_spec |  | [81](../../magpie/internal/sessions/codex_usage.go#L81) |
 | ThreadID | field_declaration | cxRecordedUsage | [82](../../magpie/internal/sessions/codex_usage.go#L82) |
 | SessionID | field_declaration | cxRecordedUsage | [83](../../magpie/internal/sessions/codex_usage.go#L83) |
 | TurnID | field_declaration | cxRecordedUsage | [84](../../magpie/internal/sessions/codex_usage.go#L84) |
 | ResponseID | field_declaration | cxRecordedUsage | [85](../../magpie/internal/sessions/codex_usage.go#L85) |
 | Usage | field_declaration | cxRecordedUsage | [86](../../magpie/internal/sessions/codex_usage.go#L86) |
 | ThreadUsage | field_declaration | cxRecordedUsage | [87](../../magpie/internal/sessions/codex_usage.go#L87) |
-| cxCompaction | struct_type |  | [90](../../magpie/internal/sessions/codex_usage.go#L90) |
+| cxCompaction | type_spec |  | [90](../../magpie/internal/sessions/codex_usage.go#L90) |
 | ResponseID | field_declaration | cxCompaction | [91](../../magpie/internal/sessions/codex_usage.go#L91) |
 | Record | field_declaration | cxCompaction | [92](../../magpie/internal/sessions/codex_usage.go#L92) |
-| codexContribution | struct_type |  | [95](../../magpie/internal/sessions/codex_usage.go#L95) |
+| codexContribution | type_spec |  | [95](../../magpie/internal/sessions/codex_usage.go#L95) |
 | ResponseID | field_declaration | codexContribution | [96](../../magpie/internal/sessions/codex_usage.go#L96) |
-| Session | field_declaration | codexContribution | [96](../../magpie/internal/sessions/codex_usage.go#L96) |
-| ThreadID | field_declaration | codexContribution | [96](../../magpie/internal/sessions/codex_usage.go#L96) |
-| Turn | field_declaration | codexContribution | [96](../../magpie/internal/sessions/codex_usage.go#L96) |
-| Model | field_declaration | codexContribution | [96](../../magpie/internal/sessions/codex_usage.go#L96) |
 | ThreadIDConflict | field_declaration | codexContribution | [97](../../magpie/internal/sessions/codex_usage.go#L97) |
 | Epoch | field_declaration | codexContribution | [98](../../magpie/internal/sessions/codex_usage.go#L98) |
 | At | field_declaration | codexContribution | [99](../../magpie/internal/sessions/codex_usage.go#L99) |
-| Updated | field_declaration | codexContribution | [99](../../magpie/internal/sessions/codex_usage.go#L99) |
 | Usage | field_declaration | codexContribution | [100](../../magpie/internal/sessions/codex_usage.go#L100) |
 | Total | field_declaration | codexContribution | [101](../../magpie/internal/sessions/codex_usage.go#L101) |
 | CountTotal | field_declaration | codexContribution | [102](../../magpie/internal/sessions/codex_usage.go#L102) |
 | CountEpoch | field_declaration | codexContribution | [103](../../magpie/internal/sessions/codex_usage.go#L103) |
 | ExpectedCount | field_declaration | codexContribution | [104](../../magpie/internal/sessions/codex_usage.go#L104) |
 | Compaction | field_declaration | codexContribution | [105](../../magpie/internal/sessions/codex_usage.go#L105) |
-| codexChange | struct_type |  | [108](../../magpie/internal/sessions/codex_usage.go#L108) |
+| codexChange | type_spec |  | [108](../../magpie/internal/sessions/codex_usage.go#L108) |
 | Index | field_declaration | codexChange | [109](../../magpie/internal/sessions/codex_usage.go#L109) |
 | Old | field_declaration | codexChange | [110](../../magpie/internal/sessions/codex_usage.go#L110) |
 | Value | field_declaration | codexChange | [111](../../magpie/internal/sessions/codex_usage.go#L111) |
-| compacted | method_declaration | *codexUsageState | [116](../../magpie/internal/sessions/codex_usage.go#L116) |
-| projectCount | method_declaration | *codexUsageState | [158](../../magpie/internal/sessions/codex_usage.go#L158) |
-| confirmBase | method_declaration | *codexUsageState | [206](../../magpie/internal/sessions/codex_usage.go#L206) |
-| clone | method_declaration | *codexUsageState | [217](../../magpie/internal/sessions/codex_usage.go#L217) |
-| UnmarshalJSON | method_declaration | *cxUsage | [230](../../magpie/internal/sessions/codex_usage.go#L230) |
-| Input | field_declaration | *cxUsage.UnmarshalJSON | [234](../../magpie/internal/sessions/codex_usage.go#L234) |
-| Output | field_declaration | *cxUsage.UnmarshalJSON | [235](../../magpie/internal/sessions/codex_usage.go#L235) |
-| Cached | field_declaration | *cxUsage.UnmarshalJSON | [236](../../magpie/internal/sessions/codex_usage.go#L236) |
-| CacheWrite | field_declaration | *cxUsage.UnmarshalJSON | [237](../../magpie/internal/sessions/codex_usage.go#L237) |
-| Reasoning | field_declaration | *cxUsage.UnmarshalJSON | [238](../../magpie/internal/sessions/codex_usage.go#L238) |
-| Known | field_declaration | *cxUsage.UnmarshalJSON | [239](../../magpie/internal/sessions/codex_usage.go#L239) |
-| valid | method_declaration | cxUsage | [259](../../magpie/internal/sessions/codex_usage.go#L259) |
-| equal | method_declaration | cxUsage | [263](../../magpie/internal/sessions/codex_usage.go#L263) |
-| covers | method_declaration | cxUsage | [267](../../magpie/internal/sessions/codex_usage.go#L267) |
-| less | method_declaration | cxUsage | [271](../../magpie/internal/sessions/codex_usage.go#L271) |
-| plus | method_declaration | cxUsage | [275](../../magpie/internal/sessions/codex_usage.go#L275) |
-| zero | method_declaration | cxUsage | [279](../../magpie/internal/sessions/codex_usage.go#L279) |
-| matches | method_declaration | cxUsage | [283](../../magpie/internal/sessions/codex_usage.go#L283) |
+| compacted | method_declaration |  | [116](../../magpie/internal/sessions/codex_usage.go#L116) |
+| change | var_spec | compacted | [129](../../magpie/internal/sessions/codex_usage.go#L129) |
+| projectCount | method_declaration |  | [158](../../magpie/internal/sessions/codex_usage.go#L158) |
+| base | var_spec | projectCount | [183](../../magpie/internal/sessions/codex_usage.go#L183) |
+| confirmBase | method_declaration |  | [206](../../magpie/internal/sessions/codex_usage.go#L206) |
+| clone | method_declaration |  | [217](../../magpie/internal/sessions/codex_usage.go#L217) |
+| UnmarshalJSON | method_declaration |  | [230](../../magpie/internal/sessions/codex_usage.go#L230) |
+| wire | var_spec | UnmarshalJSON | [233](../../magpie/internal/sessions/codex_usage.go#L233) |
+| Input | field_declaration | UnmarshalJSON::wire | [234](../../magpie/internal/sessions/codex_usage.go#L234) |
+| Output | field_declaration | UnmarshalJSON::wire | [235](../../magpie/internal/sessions/codex_usage.go#L235) |
+| Cached | field_declaration | UnmarshalJSON::wire | [236](../../magpie/internal/sessions/codex_usage.go#L236) |
+| CacheWrite | field_declaration | UnmarshalJSON::wire | [237](../../magpie/internal/sessions/codex_usage.go#L237) |
+| Reasoning | field_declaration | UnmarshalJSON::wire | [238](../../magpie/internal/sessions/codex_usage.go#L238) |
+| Known | field_declaration | UnmarshalJSON::wire | [239](../../magpie/internal/sessions/codex_usage.go#L239) |
+| valid | method_declaration |  | [259](../../magpie/internal/sessions/codex_usage.go#L259) |
+| equal | method_declaration |  | [263](../../magpie/internal/sessions/codex_usage.go#L263) |
+| covers | method_declaration |  | [267](../../magpie/internal/sessions/codex_usage.go#L267) |
+| less | method_declaration |  | [271](../../magpie/internal/sessions/codex_usage.go#L271) |
+| plus | method_declaration |  | [275](../../magpie/internal/sessions/codex_usage.go#L275) |
+| zero | method_declaration |  | [279](../../magpie/internal/sessions/codex_usage.go#L279) |
+| matches | method_declaration |  | [283](../../magpie/internal/sessions/codex_usage.go#L283) |
 | codexCheckpoint | function_declaration |  | [297](../../magpie/internal/sessions/codex_usage.go#L297) |
 | sameCodexInterval | function_declaration |  | [307](../../magpie/internal/sessions/codex_usage.go#L307) |
-| model | method_declaration | *codexUsageState | [314](../../magpie/internal/sessions/codex_usage.go#L314) |
-| context | method_declaration | *codexUsageState | [321](../../magpie/internal/sessions/codex_usage.go#L321) |
-| advance | method_declaration | *codexUsageState | [339](../../magpie/internal/sessions/codex_usage.go#L339) |
-| codexInterval | struct_type |  | [349](../../magpie/internal/sessions/codex_usage.go#L349) |
+| model | method_declaration |  | [314](../../magpie/internal/sessions/codex_usage.go#L314) |
+| context | method_declaration |  | [321](../../magpie/internal/sessions/codex_usage.go#L321) |
+| advance | method_declaration |  | [339](../../magpie/internal/sessions/codex_usage.go#L339) |
+| codexInterval | type_spec |  | [349](../../magpie/internal/sessions/codex_usage.go#L349) |
 | Session | field_declaration | codexInterval | [350](../../magpie/internal/sessions/codex_usage.go#L350) |
 | Epoch | field_declaration | codexInterval | [351](../../magpie/internal/sessions/codex_usage.go#L351) |
-| TotalInput | field_declaration | codexInterval | [351](../../magpie/internal/sessions/codex_usage.go#L351) |
-| TotalOutput | field_declaration | codexInterval | [351](../../magpie/internal/sessions/codex_usage.go#L351) |
-| Input | field_declaration | codexInterval | [351](../../magpie/internal/sessions/codex_usage.go#L351) |
-| Output | field_declaration | codexInterval | [351](../../magpie/internal/sessions/codex_usage.go#L351) |
 | Valid | field_declaration | codexInterval | [352](../../magpie/internal/sessions/codex_usage.go#L352) |
 | codexIntervalKey | function_declaration |  | [355](../../magpie/internal/sessions/codex_usage.go#L355) |
 | mergeCodexThreadID | function_declaration |  | [363](../../magpie/internal/sessions/codex_usage.go#L363) |
-| index | method_declaration | *codexUsageState | [376](../../magpie/internal/sessions/codex_usage.go#L376) |
-| record | method_declaration | *codexUsageState | [388](../../magpie/internal/sessions/codex_usage.go#L388) |
-| count | method_declaration | *codexUsageState | [497](../../magpie/internal/sessions/codex_usage.go#L497) |
+| index | method_declaration |  | [376](../../magpie/internal/sessions/codex_usage.go#L376) |
+| record | method_declaration |  | [388](../../magpie/internal/sessions/codex_usage.go#L388) |
+| count | method_declaration |  | [497](../../magpie/internal/sessions/codex_usage.go#L497) |
+| projected | var_spec | count | [589](../../magpie/internal/sessions/codex_usage.go#L589) |
 | codexState | function_declaration |  | [648](../../magpie/internal/sessions/codex_usage.go#L648) |
 | codexApply | function_declaration |  | [655](../../magpie/internal/sessions/codex_usage.go#L655) |

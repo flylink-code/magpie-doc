@@ -8,7 +8,7 @@ Source SHA-256: c6c673ae87e5db31d6238c8d774c9c58d9d9b76c79099d9c6c6ba93e2dc2588c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| NativeConnection | struct_type |  | [13](../../magpie/internal/agent/native.go#L13) |
+| NativeConnection | type_spec |  | [13](../../magpie/internal/agent/native.go#L13) |
 | Read | field_declaration | NativeConnection | [14](../../magpie/internal/agent/native.go#L14) |
 | Connect | field_declaration | NativeConnection | [15](../../magpie/internal/agent/native.go#L15) |
 | Apply | field_declaration | NativeConnection | [16](../../magpie/internal/agent/native.go#L16) |
@@ -19,35 +19,36 @@ Source SHA-256: c6c673ae87e5db31d6238c8d774c9c58d9d9b76c79099d9c6c6ba93e2dc2588c
 | OfflineAction | type_spec |  | [23](../../magpie/internal/agent/native.go#L23) |
 | OfflineStage | const_spec |  | [26](../../magpie/internal/agent/native.go#L26) |
 | OfflineDisconnect | const_spec |  | [27](../../magpie/internal/agent/native.go#L27) |
-| RuntimeUnavailableError | struct_type |  | [32](../../magpie/internal/agent/native.go#L32) |
+| RuntimeUnavailableError | type_spec |  | [32](../../magpie/internal/agent/native.go#L32) |
 | Agent | field_declaration | RuntimeUnavailableError | [33](../../magpie/internal/agent/native.go#L33) |
 | Operation | field_declaration | RuntimeUnavailableError | [34](../../magpie/internal/agent/native.go#L34) |
 | Offline | field_declaration | RuntimeUnavailableError | [35](../../magpie/internal/agent/native.go#L35) |
 | Cause | field_declaration | RuntimeUnavailableError | [36](../../magpie/internal/agent/native.go#L36) |
-| Error | method_declaration | *RuntimeUnavailableError | [39](../../magpie/internal/agent/native.go#L39) |
-| Unwrap | method_declaration | *RuntimeUnavailableError | [42](../../magpie/internal/agent/native.go#L42) |
-| NativeState | struct_type |  | [44](../../magpie/internal/agent/native.go#L44) |
+| Error | method_declaration |  | [39](../../magpie/internal/agent/native.go#L39) |
+| Unwrap | method_declaration |  | [42](../../magpie/internal/agent/native.go#L42) |
+| NativeState | type_spec |  | [44](../../magpie/internal/agent/native.go#L44) |
 | Provider | field_declaration | NativeState | [45](../../magpie/internal/agent/native.go#L45) |
 | Detail | field_declaration | NativeState | [46](../../magpie/internal/agent/native.go#L46) |
 | Runtime | field_declaration | NativeState | [47](../../magpie/internal/agent/native.go#L47) |
 | Fields | field_declaration | NativeState | [48](../../magpie/internal/agent/native.go#L48) |
-| NativeField | struct_type |  | [51](../../magpie/internal/agent/native.go#L51) |
+| NativeField | type_spec |  | [51](../../magpie/internal/agent/native.go#L51) |
 | Value | field_declaration | NativeField | [52](../../magpie/internal/agent/native.go#L52) |
 | Status | field_declaration | NativeField | [53](../../magpie/internal/agent/native.go#L53) |
 | Detail | field_declaration | NativeField | [54](../../magpie/internal/agent/native.go#L54) |
-| PlannedFile | struct_type |  | [57](../../magpie/internal/agent/native.go#L57) |
+| PlannedFile | type_spec |  | [57](../../magpie/internal/agent/native.go#L57) |
 | Path | field_declaration | PlannedFile | [58](../../magpie/internal/agent/native.go#L58) |
 | Before | field_declaration | PlannedFile | [59](../../magpie/internal/agent/native.go#L59) |
 | After | field_declaration | PlannedFile | [60](../../magpie/internal/agent/native.go#L60) |
-| PlannedSetting | struct_type |  | [63](../../magpie/internal/agent/native.go#L63) |
+| PlannedSetting | type_spec |  | [63](../../magpie/internal/agent/native.go#L63) |
 | Key | field_declaration | PlannedSetting | [64](../../magpie/internal/agent/native.go#L64) |
 | Before | field_declaration | PlannedSetting | [65](../../magpie/internal/agent/native.go#L65) |
 | After | field_declaration | PlannedSetting | [66](../../magpie/internal/agent/native.go#L66) |
-| DisconnectPlan | struct_type |  | [69](../../magpie/internal/agent/native.go#L69) |
+| DisconnectPlan | type_spec |  | [69](../../magpie/internal/agent/native.go#L69) |
 | Files | field_declaration | DisconnectPlan | [70](../../magpie/internal/agent/native.go#L70) |
 | Settings | field_declaration | DisconnectPlan | [71](../../magpie/internal/agent/native.go#L71) |
-| Revision | method_declaration | *DisconnectPlan | [76](../../magpie/internal/agent/native.go#L76) |
-| Agent | field_declaration | *DisconnectPlan.Revision | [78](../../magpie/internal/agent/native.go#L78) |
-| Plan | field_declaration | *DisconnectPlan.Revision | [79](../../magpie/internal/agent/native.go#L79) |
-| Preview | method_declaration | *DisconnectPlan | [85](../../magpie/internal/agent/native.go#L85) |
-| CheckFiles | method_declaration | *DisconnectPlan | [100](../../magpie/internal/agent/native.go#L100) |
+| Revision | method_declaration |  | [76](../../magpie/internal/agent/native.go#L76) |
+| Agent | field_declaration | Revision | [78](../../magpie/internal/agent/native.go#L78) |
+| Plan | field_declaration | Revision | [79](../../magpie/internal/agent/native.go#L79) |
+| Preview | method_declaration |  | [85](../../magpie/internal/agent/native.go#L85) |
+| changes | var_spec | Preview | [86](../../magpie/internal/agent/native.go#L86) |
+| CheckFiles | method_declaration |  | [100](../../magpie/internal/agent/native.go#L100) |

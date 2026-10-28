@@ -10,14 +10,13 @@ Source SHA-256: e31d7ca632810333efd8abb0d31dea06d19ffc6d858282e62280edbae8bf3547
 | --- | --- | --- | ---: |
 | AgentHeader | const_spec |  | [28](../../magpie/internal/gateway/remote_magpie.go#L28) |
 | ViaHeader | const_spec |  | [29](../../magpie/internal/gateway/remote_magpie.go#L29) |
-| caller | struct_type |  | [37](../../magpie/internal/gateway/remote_magpie.go#L37) |
+| caller | type_spec |  | [37](../../magpie/internal/gateway/remote_magpie.go#L37) |
 | agent | field_declaration | caller | [38](../../magpie/internal/gateway/remote_magpie.go#L38) |
-| via | field_declaration | caller | [38](../../magpie/internal/gateway/remote_magpie.go#L38) |
 | session | field_declaration | caller | [39](../../magpie/internal/gateway/remote_magpie.go#L39) |
 | native | field_declaration | caller | [40](../../magpie/internal/gateway/remote_magpie.go#L40) |
 | compact | field_declaration | caller | [43](../../magpie/internal/gateway/remote_magpie.go#L43) |
 | ua | field_declaration | caller | [46](../../magpie/internal/gateway/remote_magpie.go#L46) |
-| callerCtx | struct_type |  | [49](../../magpie/internal/gateway/remote_magpie.go#L49) |
+| callerCtx | type_spec |  | [49](../../magpie/internal/gateway/remote_magpie.go#L49) |
 | withCaller | function_declaration |  | [53](../../magpie/internal/gateway/remote_magpie.go#L53) |
 | callerOf | function_declaration |  | [87](../../magpie/internal/gateway/remote_magpie.go#L87) |
 | label | function_declaration |  | [96](../../magpie/internal/gateway/remote_magpie.go#L96) |

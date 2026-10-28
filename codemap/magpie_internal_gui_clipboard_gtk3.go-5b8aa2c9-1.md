@@ -9,3 +9,7 @@ Source SHA-256: 78882e2df75b28782226bf43bfacc69af369b683e7c236c9d5d454baaa9a216b
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | copyText | function_declaration |  | [24](../../magpie/internal/gui/clipboard_gtk3.go#L24) |
+| display | var_spec | copyText | [27](../../magpie/internal/gui/clipboard_gtk3.go#L27) |
+| out | var_spec | copyText | [38](../../magpie/internal/gui/clipboard_gtk3.go#L38) |
+| n | var_spec | copyText | [39](../../magpie/internal/gui/clipboard_gtk3.go#L39) |
+| held | var_spec | copyText | [45](../../magpie/internal/gui/clipboard_gtk3.go#L45) |

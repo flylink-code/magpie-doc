@@ -11,26 +11,34 @@ Source SHA-256: f8c5f877c0defedab1fa15c5fe741108d06e891e10a560d594346db9b9574e12
 | quotaWaitMin | const_spec |  | [22](../../magpie/internal/cli/quota_wait.go#L22) |
 | quotaWaitMax | const_spec |  | [23](../../magpie/internal/cli/quota_wait.go#L23) |
 | quotaWaitMargin | const_spec |  | [24](../../magpie/internal/cli/quota_wait.go#L24) |
-| exitError | struct_type |  | [29](../../magpie/internal/cli/quota_wait.go#L29) |
+| exitError | type_spec |  | [29](../../magpie/internal/cli/quota_wait.go#L29) |
 | code | field_declaration | exitError | [30](../../magpie/internal/cli/quota_wait.go#L30) |
 | err | field_declaration | exitError | [31](../../magpie/internal/cli/quota_wait.go#L31) |
-| Error | method_declaration | exitError | [34](../../magpie/internal/cli/quota_wait.go#L34) |
-| Unwrap | method_declaration | exitError | [41](../../magpie/internal/cli/quota_wait.go#L41) |
+| Error | method_declaration |  | [34](../../magpie/internal/cli/quota_wait.go#L34) |
+| Unwrap | method_declaration |  | [41](../../magpie/internal/cli/quota_wait.go#L41) |
 | errWaitTimeout | var_spec |  | [44](../../magpie/internal/cli/quota_wait.go#L44) |
-| quotaTarget | struct_type |  | [48](../../magpie/internal/cli/quota_wait.go#L48) |
+| quotaTarget | type_spec |  | [48](../../magpie/internal/cli/quota_wait.go#L48) |
 | provider | field_declaration | quotaTarget | [49](../../magpie/internal/cli/quota_wait.go#L49) |
 | user | field_declaration | quotaTarget | [50](../../magpie/internal/cli/quota_wait.go#L50) |
 | label | field_declaration | quotaTarget | [51](../../magpie/internal/cli/quota_wait.go#L51) |
-| has | method_declaration | quotaTarget | [54](../../magpie/internal/cli/quota_wait.go#L54) |
+| has | method_declaration |  | [54](../../magpie/internal/cli/quota_wait.go#L54) |
 | resolveQuotaTarget | function_declaration |  | [62](../../magpie/internal/cli/quota_wait.go#L62) |
-| quotaWait | struct_type |  | [107](../../magpie/internal/cli/quota_wait.go#L107) |
+| hits | var_spec | resolveQuotaTarget | [83](../../magpie/internal/cli/quota_wait.go#L83) |
+| names | var_spec | resolveQuotaTarget | [93](../../magpie/internal/cli/quota_wait.go#L93) |
+| quotaWait | type_spec |  | [107](../../magpie/internal/cli/quota_wait.go#L107) |
 | read | field_declaration | quotaWait | [109](../../magpie/internal/cli/quota_wait.go#L109) |
 | skip | field_declaration | quotaWait | [113](../../magpie/internal/cli/quota_wait.go#L113) |
 | now | field_declaration | quotaWait | [114](../../magpie/internal/cli/quota_wait.go#L114) |
 | sleep | field_declaration | quotaWait | [115](../../magpie/internal/cli/quota_wait.go#L115) |
 | say | field_declaration | quotaWait | [116](../../magpie/internal/cli/quota_wait.go#L116) |
 | readable | function_declaration |  | [121](../../magpie/internal/cli/quota_wait.go#L121) |
-| run | method_declaration | quotaWait | [128](../../magpie/internal/cli/quota_wait.go#L128) |
+| run | method_declaration |  | [128](../../magpie/internal/cli/quota_wait.go#L128) |
+| deadline | var_spec | run | [129](../../magpie/internal/cli/quota_wait.go#L129) |
+| back | var_spec | run | [141](../../magpie/internal/cli/quota_wait.go#L141) |
+| d | var_spec | run | [162](../../magpie/internal/cli/quota_wait.go#L162) |
+| line | var_spec | run | [163](../../magpie/internal/cli/quota_wait.go#L163) |
 | roundWait | function_declaration |  | [208](../../magpie/internal/cli/quota_wait.go#L208) |
 | sleepCtx | function_declaration |  | [215](../../magpie/internal/cli/quota_wait.go#L215) |
 | quotaWaitCmd | function_declaration |  | [231](../../magpie/internal/cli/quota_wait.go#L231) |
+| arg | var_spec | quotaWaitCmd | [232](../../magpie/internal/cli/quota_wait.go#L232) |
+| timeout | var_spec | quotaWaitCmd | [233](../../magpie/internal/cli/quota_wait.go#L233) |

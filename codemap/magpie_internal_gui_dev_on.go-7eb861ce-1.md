@@ -11,6 +11,7 @@ Source SHA-256: 677646fbafaef9ed4a3105a26c337d6aa2368e61e6fe37c9455f0135e6065bce
 | assetsDir | function_declaration |  | [37](../../magpie/internal/gui/dev_on.go#L37) |
 | staticFS | function_declaration |  | [42](../../magpie/internal/gui/dev_on.go#L42) |
 | stamp | function_declaration |  | [45](../../magpie/internal/gui/dev_on.go#L45) |
+| newest | var_spec | stamp | [46](../../magpie/internal/gui/dev_on.go#L46) |
 | boot | var_spec |  | [59](../../magpie/internal/gui/dev_on.go#L59) |
 | reloadJS | const_spec |  | [64](../../magpie/internal/gui/dev_on.go#L64) |
 | devRoutes | function_declaration |  | [77](../../magpie/internal/gui/dev_on.go#L77) |
@@ -20,21 +21,21 @@ Source SHA-256: 677646fbafaef9ed4a3105a26c337d6aa2368e61e6fe37c9455f0135e6065bce
 | devRole | function_declaration |  | [141](../../magpie/internal/gui/dev_on.go#L141) |
 | devBackend | function_declaration |  | [150](../../magpie/internal/gui/dev_on.go#L150) |
 | remoteWindows | type_spec |  | [181](../../magpie/internal/gui/dev_on.go#L181) |
-| do | method_declaration | remoteWindows | [183](../../magpie/internal/gui/dev_on.go#L183) |
-| post | method_declaration | remoteWindows | [186](../../magpie/internal/gui/dev_on.go#L186) |
-| HidePanel | method_declaration | remoteWindows | [197](../../magpie/internal/gui/dev_on.go#L197) |
-| ShowMain | method_declaration | remoteWindows | [198](../../magpie/internal/gui/dev_on.go#L198) |
-| Quit | method_declaration | remoteWindows | [199](../../magpie/internal/gui/dev_on.go#L199) |
-| OpenURL | method_declaration | remoteWindows | [200](../../magpie/internal/gui/dev_on.go#L200) |
-| OpenFolder | method_declaration | remoteWindows | [206](../../magpie/internal/gui/dev_on.go#L206) |
-| ChooseFolder | method_declaration | remoteWindows | [214](../../magpie/internal/gui/dev_on.go#L214) |
-| Copy | method_declaration | remoteWindows | [226](../../magpie/internal/gui/dev_on.go#L226) |
-| FitPanel | method_declaration | remoteWindows | [231](../../magpie/internal/gui/dev_on.go#L231) |
-| TintPanel | method_declaration | remoteWindows | [234](../../magpie/internal/gui/dev_on.go#L234) |
-| TintTitleBar | method_declaration | remoteWindows | [238](../../magpie/internal/gui/dev_on.go#L238) |
-| SetTextSize | method_declaration | remoteWindows | [245](../../magpie/internal/gui/dev_on.go#L245) |
+| do | method_declaration |  | [183](../../magpie/internal/gui/dev_on.go#L183) |
+| post | method_declaration |  | [186](../../magpie/internal/gui/dev_on.go#L186) |
+| HidePanel | method_declaration |  | [197](../../magpie/internal/gui/dev_on.go#L197) |
+| ShowMain | method_declaration |  | [198](../../magpie/internal/gui/dev_on.go#L198) |
+| Quit | method_declaration |  | [199](../../magpie/internal/gui/dev_on.go#L199) |
+| OpenURL | method_declaration |  | [200](../../magpie/internal/gui/dev_on.go#L200) |
+| OpenFolder | method_declaration |  | [206](../../magpie/internal/gui/dev_on.go#L206) |
+| ChooseFolder | method_declaration |  | [214](../../magpie/internal/gui/dev_on.go#L214) |
+| Copy | method_declaration |  | [226](../../magpie/internal/gui/dev_on.go#L226) |
+| FitPanel | method_declaration |  | [231](../../magpie/internal/gui/dev_on.go#L231) |
+| TintPanel | method_declaration |  | [234](../../magpie/internal/gui/dev_on.go#L234) |
+| TintTitleBar | method_declaration |  | [238](../../magpie/internal/gui/dev_on.go#L238) |
+| SetTextSize | method_declaration |  | [245](../../magpie/internal/gui/dev_on.go#L245) |
 | backendClient | var_spec |  | [251](../../magpie/internal/gui/dev_on.go#L251) |
-| d | var_spec |  | [253](../../magpie/internal/gui/dev_on.go#L253) |
+| d | var_spec | backendClient | [253](../../magpie/internal/gui/dev_on.go#L253) |
 | devShell | function_declaration |  | [272](../../magpie/internal/gui/dev_on.go#L272) |
 | stash | function_declaration |  | [367](../../magpie/internal/gui/dev_on.go#L367) |
-| retryKey | struct_type |  | [383](../../magpie/internal/gui/dev_on.go#L383) |
+| retryKey | type_spec |  | [383](../../magpie/internal/gui/dev_on.go#L383) |

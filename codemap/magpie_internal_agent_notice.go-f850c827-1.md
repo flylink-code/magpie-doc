@@ -11,6 +11,6 @@ Source SHA-256: 66c069f78b8d41851fe9c9791820125303456992d10360a07aaf2e12541a9f04
 | notice | type_spec |  | [16](../../magpie/internal/agent/notice.go#L16) |
 | notices | var_spec |  | [18](../../magpie/internal/agent/notice.go#L18) |
 | newNotice | function_declaration |  | [22](../../magpie/internal/agent/notice.go#L22) |
-| say | method_declaration | notice | [29](../../magpie/internal/agent/notice.go#L29) |
-| String | method_declaration | notice | [38](../../magpie/internal/agent/notice.go#L38) |
+| say | method_declaration |  | [29](../../magpie/internal/agent/notice.go#L29) |
+| String | method_declaration |  | [38](../../magpie/internal/agent/notice.go#L38) |
 | Notices | function_declaration |  | [41](../../magpie/internal/agent/notice.go#L41) |

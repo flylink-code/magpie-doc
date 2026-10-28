@@ -9,4 +9,5 @@ Source SHA-256: 6628fd78c7c7461ad2c14b4b472c6a3820086ecb27a0512d36d505d71dcd0b8f
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | refreshPath | function_declaration |  | [12](../../magpie/internal/provider/install_windows.go#L12) |
+| path | var_spec | refreshPath | [14](../../magpie/internal/provider/install_windows.go#L14) |
 | registryPath | function_declaration |  | [25](../../magpie/internal/provider/install_windows.go#L25) |

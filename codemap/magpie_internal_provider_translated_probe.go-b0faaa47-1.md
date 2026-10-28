@@ -10,5 +10,5 @@ Source SHA-256: 5a1d9a18bfe6e2449e49ff0e4c8eadb9fd6674f6b99aed1583ab7c94631eb3cf
 | --- | --- | --- | ---: |
 | translatedProbe | var_spec |  | [21](../../magpie/internal/provider/translated_probe.go#L21) |
 | ProbeTranslatedVia | function_declaration |  | [24](../../magpie/internal/provider/translated_probe.go#L24) |
-| testsTranslated | method_declaration | Provider | [31](../../magpie/internal/provider/translated_probe.go#L31) |
-| testTranslated | method_declaration | Provider | [36](../../magpie/internal/provider/translated_probe.go#L36) |
+| testsTranslated | method_declaration |  | [31](../../magpie/internal/provider/translated_probe.go#L31) |
+| testTranslated | method_declaration |  | [36](../../magpie/internal/provider/translated_probe.go#L36) |

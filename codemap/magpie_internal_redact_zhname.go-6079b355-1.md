@@ -18,12 +18,13 @@ Source SHA-256: 5eec597962b2fdb89dd3c7230e2455c6a2731c88c3ed4f567027f07fa7498e6b
 | zhAfter | var_spec |  | [43](../../magpie/internal/redact/zhname.go#L43) |
 | zhTitles | var_spec |  | [46](../../magpie/internal/redact/zhname.go#L46) |
 | isSurname | var_spec |  | [51](../../magpie/internal/redact/zhname.go#L51) |
-| isNick | var_spec |  | [51](../../magpie/internal/redact/zhname.go#L51) |
-| notGiven | var_spec |  | [51](../../magpie/internal/redact/zhname.go#L51) |
 | mayStart | var_spec |  | [52](../../magpie/internal/redact/zhname.go#L52) |
 | runes | function_declaration |  | [55](../../magpie/internal/redact/zhname.go#L55) |
 | zhFirsts | function_declaration |  | [63](../../magpie/internal/redact/zhname.go#L63) |
+| b | var_spec | zhFirsts | [64](../../magpie/internal/redact/zhname.go#L64) |
 | zhNameSpans | function_declaration |  | [74](../../magpie/internal/redact/zhname.go#L74) |
+| cs | var_spec | zhNameSpans | [78](../../magpie/internal/redact/zhname.go#L78) |
+| out | var_spec | zhNameSpans | [113](../../magpie/internal/redact/zhname.go#L113) |
 | joined | function_declaration |  | [124](../../magpie/internal/redact/zhname.go#L124) |
 | zhName | function_declaration |  | [136](../../magpie/internal/redact/zhname.go#L136) |
 | zhTotal | function_declaration |  | [218](../../magpie/internal/redact/zhname.go#L218) |

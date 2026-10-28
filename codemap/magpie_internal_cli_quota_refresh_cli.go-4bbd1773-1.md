@@ -10,6 +10,9 @@ Source SHA-256: dd8fdbec1b26fc0a192fea9e85379c1d86816501fd7fa2a83550281e350375e5
 | --- | --- | --- | ---: |
 | quotaRefreshGap | const_spec |  | [20](../../magpie/internal/cli/quota_refresh_cli.go#L20) |
 | quotaRefreshCmd | function_declaration |  | [24](../../magpie/internal/cli/quota_refresh_cli.go#L24) |
+| names | var_spec | quotaRefreshCmd | [26](../../magpie/internal/cli/quota_refresh_cli.go#L26) |
+| id | var_spec | quotaRefreshCmd | [38](../../magpie/internal/cli/quota_refresh_cli.go#L38) |
+| qs | var_spec | quotaRefreshCmd | [60](../../magpie/internal/cli/quota_refresh_cli.go#L60) |
 | refreshedCard | function_declaration |  | [97](../../magpie/internal/cli/quota_refresh_cli.go#L97) |
 | refreshStampsPath | function_declaration |  | [106](../../magpie/internal/cli/quota_refresh_cli.go#L106) |
 | refreshStampKey | function_declaration |  | [108](../../magpie/internal/cli/quota_refresh_cli.go#L108) |

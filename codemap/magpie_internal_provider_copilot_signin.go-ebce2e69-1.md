@@ -15,11 +15,13 @@ Source SHA-256: 4f359fe37dd8c93169b02ee8c4dd9c9f2f071723aed782f479df277bf333cd3d
 | gitHubTokenURL | var_spec |  | [37](../../magpie/internal/provider/copilot_signin.go#L37) |
 | gitHubForm | function_declaration |  | [40](../../magpie/internal/provider/copilot_signin.go#L40) |
 | startCopilotSignIn | function_declaration |  | [61](../../magpie/internal/provider/copilot_signin.go#L61) |
-| DeviceCode | field_declaration | startCopilotSignIn | [68](../../magpie/internal/provider/copilot_signin.go#L68) |
-| UserCode | field_declaration | startCopilotSignIn | [69](../../magpie/internal/provider/copilot_signin.go#L69) |
-| URI | field_declaration | startCopilotSignIn | [70](../../magpie/internal/provider/copilot_signin.go#L70) |
-| ExpiresIn | field_declaration | startCopilotSignIn | [71](../../magpie/internal/provider/copilot_signin.go#L71) |
-| Interval | field_declaration | startCopilotSignIn | [72](../../magpie/internal/provider/copilot_signin.go#L72) |
-| Token | field_declaration | startCopilotSignIn | [102](../../magpie/internal/provider/copilot_signin.go#L102) |
-| Error | field_declaration | startCopilotSignIn | [103](../../magpie/internal/provider/copilot_signin.go#L103) |
-| Desc | field_declaration | startCopilotSignIn | [104](../../magpie/internal/provider/copilot_signin.go#L104) |
+| dc | var_spec | startCopilotSignIn | [67](../../magpie/internal/provider/copilot_signin.go#L67) |
+| DeviceCode | field_declaration | startCopilotSignIn::dc | [68](../../magpie/internal/provider/copilot_signin.go#L68) |
+| UserCode | field_declaration | startCopilotSignIn::dc | [69](../../magpie/internal/provider/copilot_signin.go#L69) |
+| URI | field_declaration | startCopilotSignIn::dc | [70](../../magpie/internal/provider/copilot_signin.go#L70) |
+| ExpiresIn | field_declaration | startCopilotSignIn::dc | [71](../../magpie/internal/provider/copilot_signin.go#L71) |
+| Interval | field_declaration | startCopilotSignIn::dc | [72](../../magpie/internal/provider/copilot_signin.go#L72) |
+| tok | var_spec | startCopilotSignIn | [101](../../magpie/internal/provider/copilot_signin.go#L101) |
+| Token | field_declaration | startCopilotSignIn::tok | [102](../../magpie/internal/provider/copilot_signin.go#L102) |
+| Error | field_declaration | startCopilotSignIn::tok | [103](../../magpie/internal/provider/copilot_signin.go#L103) |
+| Desc | field_declaration | startCopilotSignIn::tok | [104](../../magpie/internal/provider/copilot_signin.go#L104) |

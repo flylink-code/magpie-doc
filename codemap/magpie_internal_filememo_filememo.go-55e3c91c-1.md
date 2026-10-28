@@ -8,7 +8,7 @@ Source SHA-256: c5ec7020fc214b2ab64d34ad27aca11d3d8e34e1ddb48a8fdf22c864b9099d60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| entry | struct_type |  | [18](../../magpie/internal/filememo/filememo.go#L18) |
+| entry | type_spec |  | [18](../../magpie/internal/filememo/filememo.go#L18) |
 | mod | field_declaration | entry | [19](../../magpie/internal/filememo/filememo.go#L19) |
 | size | field_declaration | entry | [20](../../magpie/internal/filememo/filememo.go#L20) |
 | v | field_declaration | entry | [21](../../magpie/internal/filememo/filememo.go#L21) |
@@ -23,7 +23,7 @@ Source SHA-256: c5ec7020fc214b2ab64d34ad27aca11d3d8e34e1ddb48a8fdf22c864b9099d60
 | gone | var_spec |  | [47](../../magpie/internal/filememo/filememo.go#L47) |
 | missing | var_spec |  | [54](../../magpie/internal/filememo/filememo.go#L54) |
 | stats | var_spec |  | [56](../../magpie/internal/filememo/filememo.go#L56) |
-| missingFile | struct_type |  | [59](../../magpie/internal/filememo/filememo.go#L59) |
+| missingFile | type_spec |  | [59](../../magpie/internal/filememo/filememo.go#L59) |
 | err | field_declaration | missingFile | [60](../../magpie/internal/filememo/filememo.go#L60) |
 | checked | field_declaration | missingFile | [61](../../magpie/internal/filememo/filememo.go#L61) |
 | gen | field_declaration | missingFile | [62](../../magpie/internal/filememo/filememo.go#L62) |
@@ -37,4 +37,7 @@ Source SHA-256: c5ec7020fc214b2ab64d34ad27aca11d3d8e34e1ddb48a8fdf22c864b9099d60
 | Gen | function_declaration |  | [126](../../magpie/internal/filememo/filememo.go#L126) |
 | Look | function_declaration |  | [131](../../magpie/internal/filememo/filememo.go#L131) |
 | Read | function_declaration |  | [147](../../magpie/internal/filememo/filememo.go#L147) |
+| zero | var_spec | Read | [148](../../magpie/internal/filememo/filememo.go#L148) |
 | statFile | function_declaration |  | [216](../../magpie/internal/filememo/filememo.go#L216) |
+| fi | var_spec | statFile | [221](../../magpie/internal/filememo/filememo.go#L221) |
+| err | var_spec | statFile | [222](../../magpie/internal/filememo/filememo.go#L222) |

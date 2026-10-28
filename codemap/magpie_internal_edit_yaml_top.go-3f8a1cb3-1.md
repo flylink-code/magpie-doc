@@ -11,14 +11,17 @@ Source SHA-256: 247c08d5f141394c6a0a9207f1158ac403c04b2886d4362603f17e2a9b3c9e17
 | GetYAMLTop | function_declaration |  | [15](../../magpie/internal/edit/yaml_top.go#L15) |
 | SetYAMLTop | function_declaration |  | [35](../../magpie/internal/edit/yaml_top.go#L35) |
 | DelYAMLTop | function_declaration |  | [62](../../magpie/internal/edit/yaml_top.go#L62) |
+| out | var_spec | DelYAMLTop | [76](../../magpie/internal/edit/yaml_top.go#L76) |
 | yamlPlain | var_spec |  | [91](../../magpie/internal/edit/yaml_top.go#L91) |
 | yamlTopLiteral | function_declaration |  | [93](../../magpie/internal/edit/yaml_top.go#L93) |
+| decoded | var_spec | yamlTopLiteral | [95](../../magpie/internal/edit/yaml_top.go#L95) |
 | parseYAMLTop | function_declaration |  | [105](../../magpie/internal/edit/yaml_top.go#L105) |
-| yamlTopEntry | struct_type |  | [119](../../magpie/internal/edit/yaml_top.go#L119) |
+| yamlTopEntry | type_spec |  | [119](../../magpie/internal/edit/yaml_top.go#L119) |
 | key | field_declaration | yamlTopEntry | [120](../../magpie/internal/edit/yaml_top.go#L120) |
 | from | field_declaration | yamlTopEntry | [121](../../magpie/internal/edit/yaml_top.go#L121) |
-| to | field_declaration | yamlTopEntry | [121](../../magpie/internal/edit/yaml_top.go#L121) |
 | yamlTopEntries | function_declaration |  | [126](../../magpie/internal/edit/yaml_top.go#L126) |
+| entries | var_spec | yamlTopEntries | [157](../../magpie/internal/edit/yaml_top.go#L157) |
 | yamlEntryEnd | function_declaration |  | [181](../../magpie/internal/edit/yaml_top.go#L181) |
+| doc | var_spec | yamlEntryEnd | [193](../../magpie/internal/edit/yaml_top.go#L193) |
 | sameYAMLValue | function_declaration |  | [207](../../magpie/internal/edit/yaml_top.go#L207) |
 | writeYAMLTop | function_declaration |  | [219](../../magpie/internal/edit/yaml_top.go#L219) |

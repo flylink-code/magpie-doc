@@ -13,16 +13,16 @@ Source SHA-256: 5c057e58b8cfaf58d14bb6069a2b965962fab6223a9d1df6a12e834c834322fc
 | quotaHistGap | const_spec |  | [45](../../magpie/internal/provider/quota_history.go#L45) |
 | quotaHistSame | const_spec |  | [46](../../magpie/internal/provider/quota_history.go#L46) |
 | quotaHistSlack | const_spec |  | [49](../../magpie/internal/provider/quota_history.go#L49) |
-| QuotaPoint | struct_type |  | [54](../../magpie/internal/provider/quota_history.go#L54) |
+| QuotaPoint | type_spec |  | [54](../../magpie/internal/provider/quota_history.go#L54) |
 | At | field_declaration | QuotaPoint | [55](../../magpie/internal/provider/quota_history.go#L55) |
 | Left | field_declaration | QuotaPoint | [56](../../magpie/internal/provider/quota_history.go#L56) |
 | Start | field_declaration | QuotaPoint | [57](../../magpie/internal/provider/quota_history.go#L57) |
 | ResetsAt | field_declaration | QuotaPoint | [58](../../magpie/internal/provider/quota_history.go#L58) |
-| StartsCycleAfter | method_declaration | QuotaPoint | [63](../../magpie/internal/provider/quota_history.go#L63) |
-| QuotaLine | struct_type |  | [66](../../magpie/internal/provider/quota_history.go#L66) |
+| StartsCycleAfter | method_declaration |  | [63](../../magpie/internal/provider/quota_history.go#L63) |
+| QuotaLine | type_spec |  | [66](../../magpie/internal/provider/quota_history.go#L66) |
 | Name | field_declaration | QuotaLine | [67](../../magpie/internal/provider/quota_history.go#L67) |
 | Points | field_declaration | QuotaLine | [68](../../magpie/internal/provider/quota_history.go#L68) |
-| QuotaHistory | struct_type |  | [72](../../magpie/internal/provider/quota_history.go#L72) |
+| QuotaHistory | type_spec |  | [72](../../magpie/internal/provider/quota_history.go#L72) |
 | Provider | field_declaration | QuotaHistory | [73](../../magpie/internal/provider/quota_history.go#L73) |
 | User | field_declaration | QuotaHistory | [74](../../magpie/internal/provider/quota_history.go#L74) |
 | Lines | field_declaration | QuotaHistory | [75](../../magpie/internal/provider/quota_history.go#L75) |
@@ -39,12 +39,15 @@ Source SHA-256: 5c057e58b8cfaf58d14bb6069a2b965962fab6223a9d1df6a12e834c834322fc
 | newCycle | function_declaration |  | [153](../../magpie/internal/provider/quota_history.go#L153) |
 | pointOf | function_declaration |  | [176](../../magpie/internal/provider/quota_history.go#L176) |
 | addPoint | function_declaration |  | [198](../../magpie/internal/provider/quota_history.go#L198) |
-| prune | method_declaration | quotaHist | [221](../../magpie/internal/provider/quota_history.go#L221) |
+| prune | method_declaration |  | [221](../../magpie/internal/provider/quota_history.go#L221) |
 | quotaHistKey | function_declaration |  | [242](../../magpie/internal/provider/quota_history.go#L242) |
 | noteQuotaHistory | function_declaration |  | [248](../../magpie/internal/provider/quota_history.go#L248) |
+| h | var_spec | noteQuotaHistory | [277](../../magpie/internal/provider/quota_history.go#L277) |
+| last | var_spec | noteQuotaHistory | [305](../../magpie/internal/provider/quota_history.go#L305) |
 | mergeQuotaHist | function_declaration |  | [325](../../magpie/internal/provider/quota_history.go#L325) |
 | samePoint | function_declaration |  | [350](../../magpie/internal/provider/quota_history.go#L350) |
 | QuotaHistoryData | function_declaration |  | [357](../../magpie/internal/provider/quota_history.go#L357) |
 | MergeQuotaHistory | function_declaration |  | [366](../../magpie/internal/provider/quota_history.go#L366) |
+| b | var_spec | MergeQuotaHistory | [367](../../magpie/internal/provider/quota_history.go#L367) |
 | QuotaHistories | function_declaration |  | [385](../../magpie/internal/provider/quota_history.go#L385) |
 | QuotaHistorySince | function_declaration |  | [416](../../magpie/internal/provider/quota_history.go#L416) |

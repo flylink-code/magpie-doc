@@ -8,7 +8,7 @@ Source SHA-256: 8759f6bb7a54cfb55935368defda4025cc82f353c3293c28a36d94ea57ae6531
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| OTel | struct_type |  | [14](../../magpie/internal/settings/otel.go#L14) |
+| OTel | type_spec |  | [14](../../magpie/internal/settings/otel.go#L14) |
 | Enabled | field_declaration | OTel | [15](../../magpie/internal/settings/otel.go#L15) |
 | Endpoint | field_declaration | OTel | [16](../../magpie/internal/settings/otel.go#L16) |
 | Headers | field_declaration | OTel | [17](../../magpie/internal/settings/otel.go#L17) |
@@ -17,7 +17,7 @@ Source SHA-256: 8759f6bb7a54cfb55935368defda4025cc82f353c3293c28a36d94ea57ae6531
 | Bodies | field_declaration | OTel | [24](../../magpie/internal/settings/otel.go#L24) |
 | BodiesWhole | field_declaration | OTel | [29](../../magpie/internal/settings/otel.go#L29) |
 | otelHeaderName | var_spec |  | [32](../../magpie/internal/settings/otel.go#L32) |
-| Check | method_declaration | OTel | [34](../../magpie/internal/settings/otel.go#L34) |
+| Check | method_declaration |  | [34](../../magpie/internal/settings/otel.go#L34) |
 | OTelExport | function_declaration |  | [59](../../magpie/internal/settings/otel.go#L59) |
 | name | field_declaration | OTelExport | [62](../../magpie/internal/settings/otel.go#L62) |
 | dst | field_declaration | OTelExport | [63](../../magpie/internal/settings/otel.go#L63) |

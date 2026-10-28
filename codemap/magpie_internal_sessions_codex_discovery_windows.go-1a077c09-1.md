@@ -10,9 +10,7 @@ Source SHA-256: 2f790b16db6638acf8c705bbf113edeac878542524950a7a420f23a489df8a70
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [11](../../magpie/internal/sessions/codex_discovery_windows.go#L11) |
 | statCodexDiscovery | function_declaration |  | [13](../../magpie/internal/sessions/codex_discovery_windows.go#L13) |
-| Creation | field_declaration | statCodexDiscovery | [25](../../magpie/internal/sessions/codex_discovery_windows.go#L25) |
-| Access | field_declaration | statCodexDiscovery | [25](../../magpie/internal/sessions/codex_discovery_windows.go#L25) |
-| Write | field_declaration | statCodexDiscovery | [25](../../magpie/internal/sessions/codex_discovery_windows.go#L25) |
-| Change | field_declaration | statCodexDiscovery | [25](../../magpie/internal/sessions/codex_discovery_windows.go#L25) |
-| Attributes | field_declaration | statCodexDiscovery | [26](../../magpie/internal/sessions/codex_discovery_windows.go#L26) |
-| _ | field_declaration | statCodexDiscovery | [27](../../magpie/internal/sessions/codex_discovery_windows.go#L27) |
+| basic | var_spec | statCodexDiscovery | [24](../../magpie/internal/sessions/codex_discovery_windows.go#L24) |
+| Creation | field_declaration | statCodexDiscovery::basic | [25](../../magpie/internal/sessions/codex_discovery_windows.go#L25) |
+| Attributes | field_declaration | statCodexDiscovery::basic | [26](../../magpie/internal/sessions/codex_discovery_windows.go#L26) |
+| _ | field_declaration | statCodexDiscovery::basic | [27](../../magpie/internal/sessions/codex_discovery_windows.go#L27) |

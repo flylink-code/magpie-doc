@@ -9,7 +9,7 @@ Source SHA-256: 5285c56ae088975b526d4b78f374f463663ca4d58a74c134c7b69940c170b957
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | MiMoID | const_spec |  | [18](../../magpie/internal/provider/mimo.go#L18) |
-| mimoCreds | struct_type |  | [24](../../magpie/internal/provider/mimo.go#L24) |
+| mimoCreds | type_spec |  | [24](../../magpie/internal/provider/mimo.go#L24) |
 | UserID | field_declaration | mimoCreds | [25](../../magpie/internal/provider/mimo.go#L25) |
 | CUserID | field_declaration | mimoCreds | [26](../../magpie/internal/provider/mimo.go#L26) |
 | PassToken | field_declaration | mimoCreds | [27](../../magpie/internal/provider/mimo.go#L27) |
@@ -20,6 +20,8 @@ Source SHA-256: 5285c56ae088975b526d4b78f374f463663ca4d58a74c134c7b69940c170b957
 | Issued | field_declaration | mimoCreds | [32](../../magpie/internal/provider/mimo.go#L32) |
 | Name | field_declaration | mimoCreds | [33](../../magpie/internal/provider/mimo.go#L33) |
 | mimoSaved | function_declaration |  | [36](../../magpie/internal/provider/mimo.go#L36) |
-| mimoLogin | struct_type |  | [44](../../magpie/internal/provider/mimo.go#L44) |
+| c | var_spec | mimoSaved | [37](../../magpie/internal/provider/mimo.go#L37) |
+| mimoLogin | type_spec |  | [44](../../magpie/internal/provider/mimo.go#L44) |
 | creds | field_declaration | mimoLogin | [46](../../magpie/internal/provider/mimo.go#L46) |
 | mimoLogins | function_declaration |  | [50](../../magpie/internal/provider/mimo.go#L50) |
+| out | var_spec | mimoLogins | [51](../../magpie/internal/provider/mimo.go#L51) |

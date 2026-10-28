@@ -16,7 +16,9 @@ Source SHA-256: 17ce9806133e1fcb9f46fa070c12a12d3ae8a18aceeec5194060bf7a4b78a700
 | copilotJetBrains | function_declaration |  | [69](../../magpie/internal/agent/copilotjetbrains.go#L69) |
 | copilotBYOKPath | function_declaration |  | [75](../../magpie/internal/agent/copilotjetbrains.go#L75) |
 | copilotJBInstalled | function_declaration |  | [90](../../magpie/internal/agent/copilotjetbrains.go#L90) |
+| base | var_spec | copilotJBInstalled | [91](../../magpie/internal/agent/copilotjetbrains.go#L91) |
 | copilotJetBrainsAt | function_declaration |  | [116](../../magpie/internal/agent/copilotjetbrains.go#L116) |
 | copilotJBWrite | function_declaration |  | [184](../../magpie/internal/agent/copilotjetbrains.go#L184) |
+| set | var_spec | copilotJBWrite | [209](../../magpie/internal/agent/copilotjetbrains.go#L209) |
 | copilotJBModelsJSON | function_declaration |  | [223](../../magpie/internal/agent/copilotjetbrains.go#L223) |
 | noticeCopilotjetbrains | var_spec |  | [251](../../magpie/internal/agent/copilotjetbrains.go#L251) |

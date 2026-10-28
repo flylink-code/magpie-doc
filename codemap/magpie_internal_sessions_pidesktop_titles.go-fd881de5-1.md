@@ -10,7 +10,11 @@ Source SHA-256: 7cc56d671dd7090d74e359591260c06206405532b4fbe89abb379d3af46fa988
 | --- | --- | --- | ---: |
 | PIDesktopDir | function_declaration |  | [22](../../magpie/internal/sessions/pidesktop_titles.go#L22) |
 | piDesktopTitles | var_spec |  | [30](../../magpie/internal/sessions/pidesktop_titles.go#L30) |
+| at | field_declaration | piDesktopTitles | [32](../../magpie/internal/sessions/pidesktop_titles.go#L32) |
+| stamp | field_declaration | piDesktopTitles | [33](../../magpie/internal/sessions/pidesktop_titles.go#L33) |
+| names | field_declaration | piDesktopTitles | [34](../../magpie/internal/sessions/pidesktop_titles.go#L34) |
 | piDesktopTitlesHeld | var_spec |  | [39](../../magpie/internal/sessions/pidesktop_titles.go#L39) |
 | PIDesktopTitles | function_declaration |  | [46](../../magpie/internal/sessions/pidesktop_titles.go#L46) |
 | scanPIDesktopTitles | function_declaration |  | [66](../../magpie/internal/sessions/pidesktop_titles.go#L66) |
+| id | var_spec | scanPIDesktopTitles | [95](../../magpie/internal/sessions/pidesktop_titles.go#L95) |
 | isPIDesktop | function_declaration |  | [109](../../magpie/internal/sessions/pidesktop_titles.go#L109) |

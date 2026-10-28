@@ -11,5 +11,8 @@ Source SHA-256: d31a23b5d5c8bd067d02de0f12bf629b4a9e2a7eb10970f2a8aa53a46b1c1f63
 | authFailBurst | const_spec |  | [22](../../magpie/internal/gateway/auththrottle.go#L22) |
 | authFailRefill | const_spec |  | [23](../../magpie/internal/gateway/auththrottle.go#L23) |
 | authThrottle | var_spec |  | [26](../../magpie/internal/gateway/auththrottle.go#L26) |
+| tokens | field_declaration | authThrottle | [28](../../magpie/internal/gateway/auththrottle.go#L28) |
+| last | field_declaration | authThrottle | [29](../../magpie/internal/gateway/auththrottle.go#L29) |
+| now | field_declaration | authThrottle | [30](../../magpie/internal/gateway/auththrottle.go#L30) |
 | tooManyAuthFails | function_declaration |  | [37](../../magpie/internal/gateway/auththrottle.go#L37) |
 | resetAuthThrottle | function_declaration |  | [61](../../magpie/internal/gateway/auththrottle.go#L61) |

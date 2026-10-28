@@ -11,15 +11,17 @@ Source SHA-256: 2b3a5fc3f6c2dd1fe830353099b10a80efa561d4ef58a106e4957f7faf71c581
 | FastWord | const_spec |  | [23](../../magpie/internal/provider/groupfast.go#L23) |
 | MemberFast | function_declaration |  | [28](../../magpie/internal/provider/groupfast.go#L28) |
 | memberFastIn | function_declaration |  | [32](../../magpie/internal/provider/groupfast.go#L32) |
-| IsFast | method_declaration | Group | [44](../../magpie/internal/provider/groupfast.go#L44) |
+| IsFast | method_declaration |  | [44](../../magpie/internal/provider/groupfast.go#L44) |
 | CanFast | function_declaration |  | [60](../../magpie/internal/provider/groupfast.go#L60) |
 | OwnFast | function_declaration |  | [123](../../magpie/internal/provider/groupfast.go#L123) |
-| AddedByAddress | method_declaration | Provider | [133](../../magpie/internal/provider/groupfast.go#L133) |
+| AddedByAddress | method_declaration |  | [133](../../magpie/internal/provider/groupfast.go#L133) |
 | modelSlug | function_declaration |  | [139](../../magpie/internal/provider/groupfast.go#L139) |
 | openAIFast | var_spec |  | [148](../../magpie/internal/provider/groupfast.go#L148) |
 | claudeDated | var_spec |  | [150](../../magpie/internal/provider/groupfast.go#L150) |
 | claudeFastModels | var_spec |  | [155](../../magpie/internal/provider/groupfast.go#L155) |
 | ClaudeFast | function_declaration |  | [158](../../magpie/internal/provider/groupfast.go#L158) |
 | cleanFast | function_declaration |  | [166](../../magpie/internal/provider/groupfast.go#L166) |
-| SetMemberFast | method_declaration | *Group | [199](../../magpie/internal/provider/groupfast.go#L199) |
-| RenameMember | method_declaration | *Group | [209](../../magpie/internal/provider/groupfast.go#L209) |
+| members | var_spec | cleanFast | [174](../../magpie/internal/provider/groupfast.go#L174) |
+| out | var_spec | cleanFast | [178](../../magpie/internal/provider/groupfast.go#L178) |
+| SetMemberFast | method_declaration |  | [199](../../magpie/internal/provider/groupfast.go#L199) |
+| RenameMember | method_declaration |  | [209](../../magpie/internal/provider/groupfast.go#L209) |

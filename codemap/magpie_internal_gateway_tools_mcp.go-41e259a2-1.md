@@ -13,8 +13,8 @@ Source SHA-256: f01baa40424dde7754c6244d4c5af7a3fb82ddff3ac65f7a2066ce1d70f313bb
 | pluginTools | var_spec |  | [40](../../magpie/internal/gateway/tools_mcp.go#L40) |
 | runPluginTool | var_spec |  | [41](../../magpie/internal/gateway/tools_mcp.go#L41) |
 | errToolsOff | const_spec |  | [45](../../magpie/internal/gateway/tools_mcp.go#L45) |
-| toolsMCP | method_declaration | *Server | [47](../../magpie/internal/gateway/tools_mcp.go#L47) |
-| mcpTool | struct_type |  | [52](../../magpie/internal/gateway/tools_mcp.go#L52) |
+| toolsMCP | method_declaration |  | [47](../../magpie/internal/gateway/tools_mcp.go#L47) |
+| mcpTool | type_spec |  | [52](../../magpie/internal/gateway/tools_mcp.go#L52) |
 | spec | field_declaration | mcpTool | [53](../../magpie/internal/gateway/tools_mcp.go#L53) |
 | name | field_declaration | mcpTool | [55](../../magpie/internal/gateway/tools_mcp.go#L55) |
 | unsafeToolChars | var_spec |  | [58](../../magpie/internal/gateway/tools_mcp.go#L58) |
@@ -22,9 +22,11 @@ Source SHA-256: f01baa40424dde7754c6244d4c5af7a3fb82ddff3ac65f7a2066ce1d70f313bb
 | servedTools | function_declaration |  | [76](../../magpie/internal/gateway/tools_mcp.go#L76) |
 | cutName | function_declaration |  | [89](../../magpie/internal/gateway/tools_mcp.go#L89) |
 | namedTools | function_declaration |  | [102](../../magpie/internal/gateway/tools_mcp.go#L102) |
+| out | var_spec | namedTools | [103](../../magpie/internal/gateway/tools_mcp.go#L103) |
 | ToolNames | function_declaration |  | [123](../../magpie/internal/gateway/tools_mcp.go#L123) |
 | anyPluginOn | var_spec |  | [136](../../magpie/internal/gateway/tools_mcp.go#L136) |
-| toolsMCPCall | method_declaration | *Server | [145](../../magpie/internal/gateway/tools_mcp.go#L145) |
-| Name | field_declaration | *Server.toolsMCPCall | [176](../../magpie/internal/gateway/tools_mcp.go#L176) |
-| Arguments | field_declaration | *Server.toolsMCPCall | [177](../../magpie/internal/gateway/tools_mcp.go#L177) |
-| toolsMCPRun | method_declaration | *Server | [205](../../magpie/internal/gateway/tools_mcp.go#L205) |
+| toolsMCPCall | method_declaration |  | [145](../../magpie/internal/gateway/tools_mcp.go#L145) |
+| p | var_spec | toolsMCPCall | [175](../../magpie/internal/gateway/tools_mcp.go#L175) |
+| Name | field_declaration | toolsMCPCall::p | [176](../../magpie/internal/gateway/tools_mcp.go#L176) |
+| Arguments | field_declaration | toolsMCPCall::p | [177](../../magpie/internal/gateway/tools_mcp.go#L177) |
+| toolsMCPRun | method_declaration |  | [205](../../magpie/internal/gateway/tools_mcp.go#L205) |

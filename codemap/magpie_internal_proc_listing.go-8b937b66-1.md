@@ -11,7 +11,8 @@ Source SHA-256: e34c4b9421592e10e23740642c88a5d54843ec550ecd01236aa190c41a9eaf1a
 | listingRead | var_spec |  | [30](../../magpie/internal/proc/listing.go#L30) |
 | execLookPath | var_spec |  | [31](../../magpie/internal/proc/listing.go#L31) |
 | listings | var_spec |  | [34](../../magpie/internal/proc/listing.go#L34) |
-| listing | struct_type |  | [39](../../magpie/internal/proc/listing.go#L39) |
+| m | field_declaration | listings | [36](../../magpie/internal/proc/listing.go#L36) |
+| listing | type_spec |  | [39](../../magpie/internal/proc/listing.go#L39) |
 | mod | field_declaration | listing | [40](../../magpie/internal/proc/listing.go#L40) |
 | checked | field_declaration | listing | [41](../../magpie/internal/proc/listing.go#L41) |
 | names | field_declaration | listing | [44](../../magpie/internal/proc/listing.go#L44) |

@@ -13,22 +13,28 @@ Source SHA-256: 4f25463577d6c8af5cf7cab3337e96ff3046fe70ae80d0f1a7512e7f7c70fef3
 | grokAppReleased | const_spec |  | [54](../../magpie/internal/agent/grokapp.go#L54) |
 | grokAppOS | var_spec |  | [58](../../magpie/internal/agent/grokapp.go#L58) |
 | grokAppDir | function_declaration |  | [68](../../magpie/internal/agent/grokapp.go#L68) |
-| grokAppEffort | struct_type |  | [99](../../magpie/internal/agent/grokapp.go#L99) |
+| dirs | var_spec | grokAppDir | [72](../../magpie/internal/agent/grokapp.go#L72) |
+| grokAppEffort | type_spec |  | [99](../../magpie/internal/agent/grokapp.go#L99) |
 | ID | field_declaration | grokAppEffort | [100](../../magpie/internal/agent/grokapp.go#L100) |
 | Name | field_declaration | grokAppEffort | [101](../../magpie/internal/agent/grokapp.go#L101) |
 | IsDefault | field_declaration | grokAppEffort | [102](../../magpie/internal/agent/grokapp.go#L102) |
-| grokAppModel | struct_type |  | [107](../../magpie/internal/agent/grokapp.go#L107) |
+| grokAppModel | type_spec |  | [107](../../magpie/internal/agent/grokapp.go#L107) |
 | ID | field_declaration | grokAppModel | [108](../../magpie/internal/agent/grokapp.go#L108) |
 | Name | field_declaration | grokAppModel | [109](../../magpie/internal/agent/grokapp.go#L109) |
 | ContextWindow | field_declaration | grokAppModel | [110](../../magpie/internal/agent/grokapp.go#L110) |
 | SupportsVision | field_declaration | grokAppModel | [111](../../magpie/internal/agent/grokapp.go#L111) |
 | Efforts | field_declaration | grokAppModel | [112](../../magpie/internal/agent/grokapp.go#L112) |
 | grokAppWant | function_declaration |  | [120](../../magpie/internal/agent/grokapp.go#L120) |
+| before | var_spec | grokAppWant | [121](../../magpie/internal/agent/grokapp.go#L121) |
+| out | var_spec | grokAppWant | [131](../../magpie/internal/agent/grokapp.go#L131) |
+| levels | var_spec | grokAppWant | [141](../../magpie/internal/agent/grokapp.go#L141) |
 | grokAppRead | function_declaration |  | [161](../../magpie/internal/agent/grokapp.go#L161) |
 | grokApp | function_declaration |  | [170](../../magpie/internal/agent/grokapp.go#L170) |
-| kv | struct_type | grokApp | [241](../../magpie/internal/agent/grokapp.go#L241) |
-| k | field_declaration | grokApp.kv | [242](../../magpie/internal/agent/grokapp.go#L242) |
-| v | field_declaration | grokApp.kv | [242](../../magpie/internal/agent/grokapp.go#L242) |
-| bare | field_declaration | grokApp.kv | [243](../../magpie/internal/agent/grokapp.go#L243) |
+| kv | type_spec | grokApp | [241](../../magpie/internal/agent/grokapp.go#L241) |
+| k | field_declaration | grokApp::kv | [242](../../magpie/internal/agent/grokapp.go#L242) |
+| bare | field_declaration | grokApp::kv | [243](../../magpie/internal/agent/grokapp.go#L243) |
+| gone | var_spec | grokApp | [256](../../magpie/internal/agent/grokapp.go#L256) |
+| v | var_spec | grokApp | [282](../../magpie/internal/agent/grokapp.go#L282) |
 | grokAppOwn | function_declaration |  | [424](../../magpie/internal/agent/grokapp.go#L424) |
+| out | var_spec | grokAppOwn | [425](../../magpie/internal/agent/grokapp.go#L425) |
 | unquoteTOML | function_declaration |  | [460](../../magpie/internal/agent/grokapp.go#L460) |

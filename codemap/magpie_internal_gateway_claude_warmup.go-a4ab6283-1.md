@@ -11,14 +11,19 @@ Source SHA-256: 83af70954e6c11685b0a7c39155aaeea5d052e15de0762f6a4f69fdbb0eb3155
 | claudeProxy | function_declaration |  | [21](../../magpie/internal/gateway/claude_warmup.go#L21) |
 | warmClaude | function_declaration |  | [33](../../magpie/internal/gateway/claude_warmup.go#L33) |
 | askClaude | function_declaration |  | [40](../../magpie/internal/gateway/claude_warmup.go#L40) |
+| out | var_spec | askClaude | [58](../../magpie/internal/gateway/claude_warmup.go#L58) |
 | init | function_declaration |  | [77](../../magpie/internal/gateway/claude_warmup.go#L77) |
 | claudeUsage | function_declaration |  | [85](../../magpie/internal/gateway/claude_warmup.go#L85) |
+| out | var_spec | claudeUsage | [113](../../magpie/internal/gateway/claude_warmup.go#L113) |
+| full | var_spec | claudeUsage | [116](../../magpie/internal/gateway/claude_warmup.go#L116) |
 | runClaudeTree | function_declaration |  | [143](../../magpie/internal/gateway/claude_warmup.go#L143) |
-| claudeRun | struct_type |  | [158](../../magpie/internal/gateway/claude_warmup.go#L158) |
+| claudeRun | type_spec |  | [158](../../magpie/internal/gateway/claude_warmup.go#L158) |
 | Type | field_declaration | claudeRun | [159](../../magpie/internal/gateway/claude_warmup.go#L159) |
 | IsError | field_declaration | claudeRun | [160](../../magpie/internal/gateway/claude_warmup.go#L160) |
 | Result | field_declaration | claudeRun | [161](../../magpie/internal/gateway/claude_warmup.go#L161) |
 | claudeResult | function_declaration |  | [168](../../magpie/internal/gateway/claude_warmup.go#L168) |
+| res | var_spec | claudeResult | [169](../../magpie/internal/gateway/claude_warmup.go#L169) |
+| all | var_spec | claudeResult | [173](../../magpie/internal/gateway/claude_warmup.go#L173) |
 | claudeUsageArgs | function_declaration |  | [185](../../magpie/internal/gateway/claude_warmup.go#L185) |
 | claudeWarmArgs | function_declaration |  | [190](../../magpie/internal/gateway/claude_warmup.go#L190) |
 | clip | function_declaration |  | [195](../../magpie/internal/gateway/claude_warmup.go#L195) |

@@ -10,14 +10,14 @@
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
 | [magpie/internal/fonts/fonts.go](../../magpie/internal/fonts/fonts.go) | 14 | [1](magpie_internal_fonts_fonts.go-a224bedf-1.md) |
-| [magpie/internal/fonts/fonts_darwin.go](../../magpie/internal/fonts/fonts_darwin.go) | 2 | [1](magpie_internal_fonts_fonts_darwin.go-6ca5ba9a-1.md) |
+| [magpie/internal/fonts/fonts_darwin.go](../../magpie/internal/fonts/fonts_darwin.go) | 3 | [1](magpie_internal_fonts_fonts_darwin.go-6ca5ba9a-1.md) |
 | [magpie/internal/fonts/fonts_linux.go](../../magpie/internal/fonts/fonts_linux.go) | 2 | [1](magpie_internal_fonts_fonts_linux.go-b99c73a6-1.md) |
 | [magpie/internal/fonts/fonts_other.go](../../magpie/internal/fonts/fonts_other.go) | 2 | [1](magpie_internal_fonts_fonts_other.go-75d26f1e-1.md) |
-| [magpie/internal/fonts/fonts_windows.go](../../magpie/internal/fonts/fonts_windows.go) | 9 | [1](magpie_internal_fonts_fonts_windows.go-b278dfd6-1.md) |
-| [magpie/internal/gui/agent_models.go](../../magpie/internal/gui/agent_models.go) | 38 | [1](magpie_internal_gui_agent_models.go-238d7df4-1.md) |
-| [magpie/internal/gui/api.go](../../magpie/internal/gui/api.go) | 302 | [1](magpie_internal_gui_api.go-c22001f4-1.md) [2](magpie_internal_gui_api.go-c22001f4-2.md) [3](magpie_internal_gui_api.go-c22001f4-3.md) [4](magpie_internal_gui_api.go-c22001f4-4.md) |
-| [magpie/internal/gui/app.go](../../magpie/internal/gui/app.go) | 68 | [1](magpie_internal_gui_app.go-8f96979d-1.md) |
-| [magpie/internal/gui/archive.go](../../magpie/internal/gui/archive.go) | 27 | [1](magpie_internal_gui_archive.go-5a8c702d-1.md) |
+| [magpie/internal/fonts/fonts_windows.go](../../magpie/internal/fonts/fonts_windows.go) | 17 | [1](magpie_internal_fonts_fonts_windows.go-b278dfd6-1.md) |
+| [magpie/internal/gui/agent_models.go](../../magpie/internal/gui/agent_models.go) | 40 | [1](magpie_internal_gui_agent_models.go-238d7df4-1.md) |
+| [magpie/internal/gui/api.go](../../magpie/internal/gui/api.go) | 352 | [1](magpie_internal_gui_api.go-c22001f4-1.md) [2](magpie_internal_gui_api.go-c22001f4-2.md) [3](magpie_internal_gui_api.go-c22001f4-3.md) [4](magpie_internal_gui_api.go-c22001f4-4.md) |
+| [magpie/internal/gui/app.go](../../magpie/internal/gui/app.go) | 70 | [1](magpie_internal_gui_app.go-8f96979d-1.md) |
+| [magpie/internal/gui/archive.go](../../magpie/internal/gui/archive.go) | 29 | [1](magpie_internal_gui_archive.go-5a8c702d-1.md) |
 | [magpie/internal/gui/assets/app.js](../../magpie/internal/gui/assets/app.js) | 6774 | [1](magpie_internal_gui_assets_app.js-32f6a487-1.md) [2](magpie_internal_gui_assets_app.js-32f6a487-2.md) [3](magpie_internal_gui_assets_app.js-32f6a487-3.md) [4](magpie_internal_gui_assets_app.js-32f6a487-4.md) [5](magpie_internal_gui_assets_app.js-32f6a487-5.md) [6](magpie_internal_gui_assets_app.js-32f6a487-6.md) [7](magpie_internal_gui_assets_app.js-32f6a487-7.md) [8](magpie_internal_gui_assets_app.js-32f6a487-8.md) [9](magpie_internal_gui_assets_app.js-32f6a487-9.md) [10](magpie_internal_gui_assets_app.js-32f6a487-10.md) [11](magpie_internal_gui_assets_app.js-32f6a487-11.md) [12](magpie_internal_gui_assets_app.js-32f6a487-12.md) [13](magpie_internal_gui_assets_app.js-32f6a487-13.md) [14](magpie_internal_gui_assets_app.js-32f6a487-14.md) [15](magpie_internal_gui_assets_app.js-32f6a487-15.md) [16](magpie_internal_gui_assets_app.js-32f6a487-16.md) [17](magpie_internal_gui_assets_app.js-32f6a487-17.md) [18](magpie_internal_gui_assets_app.js-32f6a487-18.md) [19](magpie_internal_gui_assets_app.js-32f6a487-19.md) [20](magpie_internal_gui_assets_app.js-32f6a487-20.md) [21](magpie_internal_gui_assets_app.js-32f6a487-21.md) [22](magpie_internal_gui_assets_app.js-32f6a487-22.md) [23](magpie_internal_gui_assets_app.js-32f6a487-23.md) [24](magpie_internal_gui_assets_app.js-32f6a487-24.md) [25](magpie_internal_gui_assets_app.js-32f6a487-25.md) [26](magpie_internal_gui_assets_app.js-32f6a487-26.md) [27](magpie_internal_gui_assets_app.js-32f6a487-27.md) [28](magpie_internal_gui_assets_app.js-32f6a487-28.md) [29](magpie_internal_gui_assets_app.js-32f6a487-29.md) [30](magpie_internal_gui_assets_app.js-32f6a487-30.md) [31](magpie_internal_gui_assets_app.js-32f6a487-31.md) [32](magpie_internal_gui_assets_app.js-32f6a487-32.md) [33](magpie_internal_gui_assets_app.js-32f6a487-33.md) [34](magpie_internal_gui_assets_app.js-32f6a487-34.md) [35](magpie_internal_gui_assets_app.js-32f6a487-35.md) [36](magpie_internal_gui_assets_app.js-32f6a487-36.md) [37](magpie_internal_gui_assets_app.js-32f6a487-37.md) [38](magpie_internal_gui_assets_app.js-32f6a487-38.md) [39](magpie_internal_gui_assets_app.js-32f6a487-39.md) [40](magpie_internal_gui_assets_app.js-32f6a487-40.md) [41](magpie_internal_gui_assets_app.js-32f6a487-41.md) [42](magpie_internal_gui_assets_app.js-32f6a487-42.md) [43](magpie_internal_gui_assets_app.js-32f6a487-43.md) [44](magpie_internal_gui_assets_app.js-32f6a487-44.md) [45](magpie_internal_gui_assets_app.js-32f6a487-45.md) [46](magpie_internal_gui_assets_app.js-32f6a487-46.md) [47](magpie_internal_gui_assets_app.js-32f6a487-47.md) [48](magpie_internal_gui_assets_app.js-32f6a487-48.md) [49](magpie_internal_gui_assets_app.js-32f6a487-49.md) [50](magpie_internal_gui_assets_app.js-32f6a487-50.md) [51](magpie_internal_gui_assets_app.js-32f6a487-51.md) [52](magpie_internal_gui_assets_app.js-32f6a487-52.md) [53](magpie_internal_gui_assets_app.js-32f6a487-53.md) [54](magpie_internal_gui_assets_app.js-32f6a487-54.md) [55](magpie_internal_gui_assets_app.js-32f6a487-55.md) [56](magpie_internal_gui_assets_app.js-32f6a487-56.md) [57](magpie_internal_gui_assets_app.js-32f6a487-57.md) [58](magpie_internal_gui_assets_app.js-32f6a487-58.md) [59](magpie_internal_gui_assets_app.js-32f6a487-59.md) [60](magpie_internal_gui_assets_app.js-32f6a487-60.md) [61](magpie_internal_gui_assets_app.js-32f6a487-61.md) [62](magpie_internal_gui_assets_app.js-32f6a487-62.md) [63](magpie_internal_gui_assets_app.js-32f6a487-63.md) [64](magpie_internal_gui_assets_app.js-32f6a487-64.md) [65](magpie_internal_gui_assets_app.js-32f6a487-65.md) [66](magpie_internal_gui_assets_app.js-32f6a487-66.md) [67](magpie_internal_gui_assets_app.js-32f6a487-67.md) [68](magpie_internal_gui_assets_app.js-32f6a487-68.md) |
 | [magpie/internal/gui/assets/compat.js](../../magpie/internal/gui/assets/compat.js) | 6 | [1](magpie_internal_gui_assets_compat.js-9b85f544-1.md) |
 | [magpie/internal/gui/assets/context.js](../../magpie/internal/gui/assets/context.js) | 588 | [1](magpie_internal_gui_assets_context.js-d0e6cc45-1.md) [2](magpie_internal_gui_assets_context.js-d0e6cc45-2.md) [3](magpie_internal_gui_assets_context.js-d0e6cc45-3.md) [4](magpie_internal_gui_assets_context.js-d0e6cc45-4.md) [5](magpie_internal_gui_assets_context.js-d0e6cc45-5.md) [6](magpie_internal_gui_assets_context.js-d0e6cc45-6.md) |
@@ -47,65 +47,65 @@
 | [magpie/internal/gui/assets/purposes.js](../../magpie/internal/gui/assets/purposes.js) | 1 | [1](magpie_internal_gui_assets_purposes.js-d5a68ed1-1.md) |
 | [magpie/internal/gui/assets/start.js](../../magpie/internal/gui/assets/start.js) | 5 | [1](magpie_internal_gui_assets_start.js-a190efd8-1.md) |
 | [magpie/internal/gui/assets/theme.js](../../magpie/internal/gui/assets/theme.js) | 4 | [1](magpie_internal_gui_assets_theme.js-73ce27d0-1.md) |
-| [magpie/internal/gui/backend.go](../../magpie/internal/gui/backend.go) | 13 | [1](magpie_internal_gui_backend.go-58cef99e-1.md) |
-| [magpie/internal/gui/backup.go](../../magpie/internal/gui/backup.go) | 13 | [1](magpie_internal_gui_backup.go-4891dcd8-1.md) |
-| [magpie/internal/gui/builtins.go](../../magpie/internal/gui/builtins.go) | 22 | [1](magpie_internal_gui_builtins.go-86e3a05a-1.md) |
-| [magpie/internal/gui/bus_linux.go](../../magpie/internal/gui/bus_linux.go) | 2 | [1](magpie_internal_gui_bus_linux.go-2d734f19-1.md) |
+| [magpie/internal/gui/backend.go](../../magpie/internal/gui/backend.go) | 14 | [1](magpie_internal_gui_backend.go-58cef99e-1.md) |
+| [magpie/internal/gui/backup.go](../../magpie/internal/gui/backup.go) | 19 | [1](magpie_internal_gui_backup.go-4891dcd8-1.md) |
+| [magpie/internal/gui/builtins.go](../../magpie/internal/gui/builtins.go) | 25 | [1](magpie_internal_gui_builtins.go-86e3a05a-1.md) |
+| [magpie/internal/gui/bus_linux.go](../../magpie/internal/gui/bus_linux.go) | 3 | [1](magpie_internal_gui_bus_linux.go-2d734f19-1.md) |
 | [magpie/internal/gui/bus_other.go](../../magpie/internal/gui/bus_other.go) | 2 | [1](magpie_internal_gui_bus_other.go-9253ec98-1.md) |
-| [magpie/internal/gui/caller_keys.go](../../magpie/internal/gui/caller_keys.go) | 14 | [1](magpie_internal_gui_caller_keys.go-0c7445ab-1.md) |
+| [magpie/internal/gui/caller_keys.go](../../magpie/internal/gui/caller_keys.go) | 15 | [1](magpie_internal_gui_caller_keys.go-0c7445ab-1.md) |
 | [magpie/internal/gui/clipboard.go](../../magpie/internal/gui/clipboard.go) | 1 | [1](magpie_internal_gui_clipboard.go-c3f24e05-1.md) |
-| [magpie/internal/gui/clipboard_gtk3.go](../../magpie/internal/gui/clipboard_gtk3.go) | 1 | [1](magpie_internal_gui_clipboard_gtk3.go-5b8aa2c9-1.md) |
+| [magpie/internal/gui/clipboard_gtk3.go](../../magpie/internal/gui/clipboard_gtk3.go) | 5 | [1](magpie_internal_gui_clipboard_gtk3.go-5b8aa2c9-1.md) |
 | [magpie/internal/gui/clipboard_other.go](../../magpie/internal/gui/clipboard_other.go) | 1 | [1](magpie_internal_gui_clipboard_other.go-f1d8b7f5-1.md) |
 | [magpie/internal/gui/cmdheld_darwin.go](../../magpie/internal/gui/cmdheld_darwin.go) | 1 | [1](magpie_internal_gui_cmdheld_darwin.go-1aad2ce6-1.md) |
 | [magpie/internal/gui/cmdheld_other.go](../../magpie/internal/gui/cmdheld_other.go) | 1 | [1](magpie_internal_gui_cmdheld_other.go-a7266fb0-1.md) |
 | [magpie/internal/gui/codex_app_out.go](../../magpie/internal/gui/codex_app_out.go) | 17 | [1](magpie_internal_gui_codex_app_out.go-057b415e-1.md) |
-| [magpie/internal/gui/context.go](../../magpie/internal/gui/context.go) | 87 | [1](magpie_internal_gui_context.go-e6b2bfb2-1.md) |
+| [magpie/internal/gui/context.go](../../magpie/internal/gui/context.go) | 88 | [1](magpie_internal_gui_context.go-e6b2bfb2-1.md) |
 | [magpie/internal/gui/desktop.go](../../magpie/internal/gui/desktop.go) | 1 | [1](magpie_internal_gui_desktop.go-2ab82c83-1.md) |
 | [magpie/internal/gui/dev_handover_unix.go](../../magpie/internal/gui/dev_handover_unix.go) | 1 | [1](magpie_internal_gui_dev_handover_unix.go-52bda09a-1.md) |
 | [magpie/internal/gui/dev_handover_windows.go](../../magpie/internal/gui/dev_handover_windows.go) | 1 | [1](magpie_internal_gui_dev_handover_windows.go-50c3e9df-1.md) |
 | [magpie/internal/gui/dev_off.go](../../magpie/internal/gui/dev_off.go) | 7 | [1](magpie_internal_gui_dev_off.go-cc1eaede-1.md) |
-| [magpie/internal/gui/dev_on.go](../../magpie/internal/gui/dev_on.go) | 30 | [1](magpie_internal_gui_dev_on.go-7eb861ce-1.md) |
+| [magpie/internal/gui/dev_on.go](../../magpie/internal/gui/dev_on.go) | 31 | [1](magpie_internal_gui_dev_on.go-7eb861ce-1.md) |
 | [magpie/internal/gui/devshell_off.go](../../magpie/internal/gui/devshell_off.go) | 1 | [1](magpie_internal_gui_devshell_off.go-78c87ea9-1.md) |
 | [magpie/internal/gui/dock.go](../../magpie/internal/gui/dock.go) | 5 | [1](magpie_internal_gui_dock.go-5d7f6346-1.md) |
-| [magpie/internal/gui/dockflap_darwin.go](../../magpie/internal/gui/dockflap_darwin.go) | 8 | [1](magpie_internal_gui_dockflap_darwin.go-6c56c6a5-1.md) |
+| [magpie/internal/gui/dockflap_darwin.go](../../magpie/internal/gui/dockflap_darwin.go) | 10 | [1](magpie_internal_gui_dockflap_darwin.go-6c56c6a5-1.md) |
 | [magpie/internal/gui/dockflap_other.go](../../magpie/internal/gui/dockflap_other.go) | 1 | [1](magpie_internal_gui_dockflap_other.go-3c45d02c-1.md) |
-| [magpie/internal/gui/flapkeys.go](../../magpie/internal/gui/flapkeys.go) | 19 | [1](magpie_internal_gui_flapkeys.go-2f0cfed3-1.md) |
+| [magpie/internal/gui/flapkeys.go](../../magpie/internal/gui/flapkeys.go) | 21 | [1](magpie_internal_gui_flapkeys.go-2f0cfed3-1.md) |
 | [magpie/internal/gui/folder_other.go](../../magpie/internal/gui/folder_other.go) | 1 | [1](magpie_internal_gui_folder_other.go-0fd3bbbf-1.md) |
 | [magpie/internal/gui/folder_windows.go](../../magpie/internal/gui/folder_windows.go) | 3 | [1](magpie_internal_gui_folder_windows.go-a4108a61-1.md) |
 | [magpie/internal/gui/fontdpi_gtk3.go](../../magpie/internal/gui/fontdpi_gtk3.go) | 1 | [1](magpie_internal_gui_fontdpi_gtk3.go-31864a03-1.md) |
 | [magpie/internal/gui/fontdpi_other.go](../../magpie/internal/gui/fontdpi_other.go) | 1 | [1](magpie_internal_gui_fontdpi_other.go-f2913333-1.md) |
-| [magpie/internal/gui/fonts.go](../../magpie/internal/gui/fonts.go) | 4 | [1](magpie_internal_gui_fonts.go-a33caf10-1.md) |
+| [magpie/internal/gui/fonts.go](../../magpie/internal/gui/fonts.go) | 6 | [1](magpie_internal_gui_fonts.go-a33caf10-1.md) |
 | [magpie/internal/gui/fonts_desktop.go](../../magpie/internal/gui/fonts_desktop.go) | 1 | [1](magpie_internal_gui_fonts_desktop.go-0d783a75-1.md) |
 | [magpie/internal/gui/gateway_takeover.go](../../magpie/internal/gui/gateway_takeover.go) | 17 | [1](magpie_internal_gui_gateway_takeover.go-4cc4df12-1.md) |
-| [magpie/internal/gui/gatewaymode.go](../../magpie/internal/gui/gatewaymode.go) | 6 | [1](magpie_internal_gui_gatewaymode.go-8c943418-1.md) |
+| [magpie/internal/gui/gatewaymode.go](../../magpie/internal/gui/gatewaymode.go) | 7 | [1](magpie_internal_gui_gatewaymode.go-8c943418-1.md) |
 | [magpie/internal/gui/genpurposes/main.go](../../magpie/internal/gui/genpurposes/main.go) | 1 | [1](magpie_internal_gui_genpurposes_main.go-36e4a54c-1.md) |
 | [magpie/internal/gui/glide.go](../../magpie/internal/gui/glide.go) | 9 | [1](magpie_internal_gui_glide.go-4efd4b78-1.md) |
 | [magpie/internal/gui/glide_darwin.go](../../magpie/internal/gui/glide_darwin.go) | 8 | [1](magpie_internal_gui_glide_darwin.go-6d279915-1.md) |
 | [magpie/internal/gui/glide_other.go](../../magpie/internal/gui/glide_other.go) | 5 | [1](magpie_internal_gui_glide_other.go-6475c4ea-1.md) |
-| [magpie/internal/gui/groups.go](../../magpie/internal/gui/groups.go) | 85 | [1](magpie_internal_gui_groups.go-c59a6fc2-1.md) |
-| [magpie/internal/gui/handover.go](../../magpie/internal/gui/handover.go) | 26 | [1](magpie_internal_gui_handover.go-cac0d76c-1.md) |
+| [magpie/internal/gui/groups.go](../../magpie/internal/gui/groups.go) | 92 | [1](magpie_internal_gui_groups.go-c59a6fc2-1.md) |
+| [magpie/internal/gui/handover.go](../../magpie/internal/gui/handover.go) | 27 | [1](magpie_internal_gui_handover.go-cac0d76c-1.md) |
 | [magpie/internal/gui/importapps.go](../../magpie/internal/gui/importapps.go) | 15 | [1](magpie_internal_gui_importapps.go-24e2a23d-1.md) |
-| [magpie/internal/gui/importlink.go](../../magpie/internal/gui/importlink.go) | 9 | [1](magpie_internal_gui_importlink.go-8a8c136e-1.md) |
+| [magpie/internal/gui/importlink.go](../../magpie/internal/gui/importlink.go) | 12 | [1](magpie_internal_gui_importlink.go-8a8c136e-1.md) |
 | [magpie/internal/gui/instance_darwin.go](../../magpie/internal/gui/instance_darwin.go) | 1 | [1](magpie_internal_gui_instance_darwin.go-fa711521-1.md) |
 | [magpie/internal/gui/instance_other.go](../../magpie/internal/gui/instance_other.go) | 1 | [1](magpie_internal_gui_instance_other.go-65174714-1.md) |
 | [magpie/internal/gui/instance_unix.go](../../magpie/internal/gui/instance_unix.go) | 8 | [1](magpie_internal_gui_instance_unix.go-f8a2cfbe-1.md) |
 | [magpie/internal/gui/instance_windows.go](../../magpie/internal/gui/instance_windows.go) | 3 | [1](magpie_internal_gui_instance_windows.go-6822784f-1.md) |
-| [magpie/internal/gui/key_replace.go](../../magpie/internal/gui/key_replace.go) | 2 | [1](magpie_internal_gui_key_replace.go-907cf9d6-1.md) |
-| [magpie/internal/gui/lastproviders.go](../../magpie/internal/gui/lastproviders.go) | 9 | [1](magpie_internal_gui_lastproviders.go-a1cd82fc-1.md) |
-| [magpie/internal/gui/laststate.go](../../magpie/internal/gui/laststate.go) | 7 | [1](magpie_internal_gui_laststate.go-a2d28428-1.md) |
-| [magpie/internal/gui/library.go](../../magpie/internal/gui/library.go) | 54 | [1](magpie_internal_gui_library.go-7be4f39a-1.md) |
-| [magpie/internal/gui/lightweight.go](../../magpie/internal/gui/lightweight.go) | 16 | [1](magpie_internal_gui_lightweight.go-d337b924-1.md) |
+| [magpie/internal/gui/key_replace.go](../../magpie/internal/gui/key_replace.go) | 3 | [1](magpie_internal_gui_key_replace.go-907cf9d6-1.md) |
+| [magpie/internal/gui/lastproviders.go](../../magpie/internal/gui/lastproviders.go) | 12 | [1](magpie_internal_gui_lastproviders.go-a1cd82fc-1.md) |
+| [magpie/internal/gui/laststate.go](../../magpie/internal/gui/laststate.go) | 10 | [1](magpie_internal_gui_laststate.go-a2d28428-1.md) |
+| [magpie/internal/gui/library.go](../../magpie/internal/gui/library.go) | 67 | [1](magpie_internal_gui_library.go-7be4f39a-1.md) |
+| [magpie/internal/gui/lightweight.go](../../magpie/internal/gui/lightweight.go) | 21 | [1](magpie_internal_gui_lightweight.go-d337b924-1.md) |
 | [magpie/internal/gui/lightweight_darwin.go](../../magpie/internal/gui/lightweight_darwin.go) | 1 | [1](magpie_internal_gui_lightweight_darwin.go-3a231ba8-1.md) |
 | [magpie/internal/gui/lightweight_other.go](../../magpie/internal/gui/lightweight_other.go) | 1 | [1](magpie_internal_gui_lightweight_other.go-5618d2e1-1.md) |
 | [magpie/internal/gui/lightweight_rule.go](../../magpie/internal/gui/lightweight_rule.go) | 3 | [1](magpie_internal_gui_lightweight_rule.go-3edcace8-1.md) |
 | [magpie/internal/gui/mainwindow.go](../../magpie/internal/gui/mainwindow.go) | 8 | [1](magpie_internal_gui_mainwindow.go-041cc114-1.md) |
-| [magpie/internal/gui/masking.go](../../magpie/internal/gui/masking.go) | 19 | [1](magpie_internal_gui_masking.go-92cb5e87-1.md) |
-| [magpie/internal/gui/omarchy.go](../../magpie/internal/gui/omarchy.go) | 7 | [1](magpie_internal_gui_omarchy.go-983bbb3f-1.md) |
-| [magpie/internal/gui/page_memory.go](../../magpie/internal/gui/page_memory.go) | 5 | [1](magpie_internal_gui_page_memory.go-cc39ecf8-1.md) |
+| [magpie/internal/gui/masking.go](../../magpie/internal/gui/masking.go) | 21 | [1](magpie_internal_gui_masking.go-92cb5e87-1.md) |
+| [magpie/internal/gui/omarchy.go](../../magpie/internal/gui/omarchy.go) | 10 | [1](magpie_internal_gui_omarchy.go-983bbb3f-1.md) |
+| [magpie/internal/gui/page_memory.go](../../magpie/internal/gui/page_memory.go) | 10 | [1](magpie_internal_gui_page_memory.go-cc39ecf8-1.md) |
 | [magpie/internal/gui/pagebridge.js](../../magpie/internal/gui/pagebridge.js) | 34 | [1](magpie_internal_gui_pagebridge.js-ecacfa7d-1.md) |
-| [magpie/internal/gui/pluginpage.go](../../magpie/internal/gui/pluginpage.go) | 68 | [1](magpie_internal_gui_pluginpage.go-bce01020-1.md) |
-| [magpie/internal/gui/plugins.go](../../magpie/internal/gui/plugins.go) | 113 | [1](magpie_internal_gui_plugins.go-2c2e8653-1.md) [2](magpie_internal_gui_plugins.go-2c2e8653-2.md) |
+| [magpie/internal/gui/pluginpage.go](../../magpie/internal/gui/pluginpage.go) | 72 | [1](magpie_internal_gui_pluginpage.go-bce01020-1.md) |
+| [magpie/internal/gui/plugins.go](../../magpie/internal/gui/plugins.go) | 128 | [1](magpie_internal_gui_plugins.go-2c2e8653-1.md) [2](magpie_internal_gui_plugins.go-2c2e8653-2.md) |
 | [magpie/internal/gui/port.go](../../magpie/internal/gui/port.go) | 8 | [1](magpie_internal_gui_port.go-f6b8ea93-1.md) |
-| [magpie/internal/gui/privacymodel.go](../../magpie/internal/gui/privacymodel.go) | 10 | [1](magpie_internal_gui_privacymodel.go-2e0466de-1.md) |
-| [magpie/internal/gui/providers.go](../../magpie/internal/gui/providers.go) | 318 | [1](magpie_internal_gui_providers.go-f1665b0e-1.md) [2](magpie_internal_gui_providers.go-f1665b0e-2.md) [3](magpie_internal_gui_providers.go-f1665b0e-3.md) [4](magpie_internal_gui_providers.go-f1665b0e-4.md) |
-| [magpie/internal/gui/proxycheck.go](../../magpie/internal/gui/proxycheck.go) | 19 | [1](magpie_internal_gui_proxycheck.go-ab7bc8d0-1.md) |
+| [magpie/internal/gui/privacymodel.go](../../magpie/internal/gui/privacymodel.go) | 11 | [1](magpie_internal_gui_privacymodel.go-2e0466de-1.md) |
+| [magpie/internal/gui/providers.go](../../magpie/internal/gui/providers.go) | 346 | [1](magpie_internal_gui_providers.go-f1665b0e-1.md) [2](magpie_internal_gui_providers.go-f1665b0e-2.md) [3](magpie_internal_gui_providers.go-f1665b0e-3.md) [4](magpie_internal_gui_providers.go-f1665b0e-4.md) |
+| [magpie/internal/gui/proxycheck.go](../../magpie/internal/gui/proxycheck.go) | 23 | [1](magpie_internal_gui_proxycheck.go-ab7bc8d0-1.md) |

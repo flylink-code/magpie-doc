@@ -12,3 +12,4 @@ Source SHA-256: c8015056a53073f88f2b6c8892e0bdb4b3c540a6aa37897e7daf9aacd8b81e71
 | GetEnvFile | function_declaration |  | [13](../../magpie/internal/edit/env.go#L13) |
 | SetEnvFile | function_declaration |  | [38](../../magpie/internal/edit/env.go#L38) |
 | DelEnvFile | function_declaration |  | [66](../../magpie/internal/edit/env.go#L66) |
+| out | var_spec | DelEnvFile | [75](../../magpie/internal/edit/env.go#L75) |

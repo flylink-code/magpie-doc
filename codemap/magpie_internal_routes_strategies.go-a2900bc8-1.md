@@ -13,18 +13,16 @@ Source SHA-256: 2443a900740954d0e711d0abee27d03fc075c9378a612a36490474c0b1a3108e
 | tier | function_declaration |  | [20](../../magpie/internal/routes/strategies.go#L20) |
 | identity | function_declaration |  | [30](../../magpie/internal/routes/strategies.go#L30) |
 | Smart | var_spec |  | [58](../../magpie/internal/routes/strategies.go#L58) |
-| fine | var_spec |  | [59](../../magpie/internal/routes/strategies.go#L59) |
-| low | var_spec |  | [59](../../magpie/internal/routes/strategies.go#L59) |
-| spent | var_spec |  | [59](../../magpie/internal/routes/strategies.go#L59) |
-| x | var_spec |  | [77](../../magpie/internal/routes/strategies.go#L77) |
-| y | var_spec |  | [77](../../magpie/internal/routes/strategies.go#L77) |
+| fine | var_spec | Smart | [59](../../magpie/internal/routes/strategies.go#L59) |
+| x | var_spec | Smart | [77](../../magpie/internal/routes/strategies.go#L77) |
 | spentBefore | function_declaration |  | [102](../../magpie/internal/routes/strategies.go#L102) |
 | Ordered | var_spec |  | [110](../../magpie/internal/routes/strategies.go#L110) |
 | turns | var_spec |  | [112](../../magpie/internal/routes/strategies.go#L112) |
+| m | field_declaration | turns | [114](../../magpie/internal/routes/strategies.go#L114) |
 | Rotate | var_spec |  | [118](../../magpie/internal/routes/strategies.go#L118) |
 | LeastUsed | var_spec |  | [130](../../magpie/internal/routes/strategies.go#L130) |
 | Pace | var_spec |  | [163](../../magpie/internal/routes/strategies.go#L163) |
-| byPace | var_spec |  | [170](../../magpie/internal/routes/strategies.go#L170) |
+| byPace | var_spec | Pace | [170](../../magpie/internal/routes/strategies.go#L170) |
 | Weighted | var_spec |  | [213](../../magpie/internal/routes/strategies.go#L213) |
 | First | function_declaration |  | [223](../../magpie/internal/routes/strategies.go#L223) |
 | FreeFirst | var_spec |  | [249](../../magpie/internal/routes/strategies.go#L249) |

@@ -18,9 +18,13 @@ Source SHA-256: f4ea43af39a62af73f7728f508af1688f83a568ed93424b30241a7c68e883c57
 | atomcodeTable | function_declaration |  | [50](../../magpie/internal/agent/atomcode.go#L50) |
 | atomcode | function_declaration |  | [52](../../magpie/internal/agent/atomcode.go#L52) |
 | atomcodeIn | function_declaration |  | [57](../../magpie/internal/agent/atomcode.go#L57) |
+| offered | var_spec | atomcodeIn | [263](../../magpie/internal/agent/atomcode.go#L263) |
 | atomcodeTables | function_declaration |  | [295](../../magpie/internal/agent/atomcode.go#L295) |
 | atomcodeTablesAt | function_declaration |  | [301](../../magpie/internal/agent/atomcode.go#L301) |
+| levels | var_spec | atomcodeTablesAt | [334](../../magpie/internal/agent/atomcode.go#L334) |
 | atomcodeOwnModels | function_declaration |  | [350](../../magpie/internal/agent/atomcode.go#L350) |
+| out | var_spec | atomcodeOwnModels | [353](../../magpie/internal/agent/atomcode.go#L353) |
+| icon | var_spec | atomcodeOwnModels | [367](../../magpie/internal/agent/atomcode.go#L367) |
 | atomcodeProviderName | function_declaration |  | [376](../../magpie/internal/agent/atomcode.go#L376) |
 | atomcodeHasLegacyProvider | function_declaration |  | [384](../../magpie/internal/agent/atomcode.go#L384) |
 | atomcodeAccountTable | function_declaration |  | [394](../../magpie/internal/agent/atomcode.go#L394) |
@@ -29,4 +33,5 @@ Source SHA-256: f4ea43af39a62af73f7728f508af1688f83a568ed93424b30241a7c68e883c57
 | atomcodeModelValues | function_declaration |  | [421](../../magpie/internal/agent/atomcode.go#L421) |
 | atomcodeExistingEfforts | function_declaration |  | [435](../../magpie/internal/agent/atomcode.go#L435) |
 | atomcodeSupportedEfforts | function_declaration |  | [451](../../magpie/internal/agent/atomcode.go#L451) |
+| out | var_spec | atomcodeSupportedEfforts | [452](../../magpie/internal/agent/atomcode.go#L452) |
 | noticeAtomcode | var_spec |  | [466](../../magpie/internal/agent/atomcode.go#L466) |

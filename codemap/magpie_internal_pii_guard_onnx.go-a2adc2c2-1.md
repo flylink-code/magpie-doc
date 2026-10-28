@@ -8,7 +8,7 @@ Source SHA-256: 81fe13f8006890051a3f56596f2a6bc90f5ba7665e5b87800781879f3b21edb9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tensor | struct_type |  | [20](../../magpie/internal/pii/guard/onnx.go#L20) |
+| tensor | type_spec |  | [20](../../magpie/internal/pii/guard/onnx.go#L20) |
 | dims | field_declaration | tensor | [21](../../magpie/internal/pii/guard/onnx.go#L21) |
 | dtype | field_declaration | tensor | [22](../../magpie/internal/pii/guard/onnx.go#L22) |
 | raw | field_declaration | tensor | [23](../../magpie/internal/pii/guard/onnx.go#L23) |
@@ -18,8 +18,16 @@ Source SHA-256: 81fe13f8006890051a3f56596f2a6bc90f5ba7665e5b87800781879f3b21edb9
 | tInt32 | const_spec |  | [30](../../magpie/internal/pii/guard/onnx.go#L30) |
 | tInt64 | const_spec |  | [31](../../magpie/internal/pii/guard/onnx.go#L31) |
 | readONNX | function_declaration |  | [36](../../magpie/internal/pii/guard/onnx.go#L36) |
+| graph | var_spec | readONNX | [41](../../magpie/internal/pii/guard/onnx.go#L41) |
 | readTensor | function_declaration |  | [70](../../magpie/internal/pii/guard/onnx.go#L70) |
+| name | var_spec | readTensor | [72](../../magpie/internal/pii/guard/onnx.go#L72) |
+| offset | var_spec | readTensor | [73](../../magpie/internal/pii/guard/onnx.go#L73) |
+| floats | var_spec | readTensor | [74](../../magpie/internal/pii/guard/onnx.go#L74) |
+| ints | var_spec | readTensor | [75](../../magpie/internal/pii/guard/onnx.go#L75) |
+| k | var_spec | readTensor | [104](../../magpie/internal/pii/guard/onnx.go#L104) |
 | fields | function_declaration |  | [184](../../magpie/internal/pii/guard/onnx.go#L184) |
+| v | var_spec | fields | [192](../../magpie/internal/pii/guard/onnx.go#L192) |
+| data | var_spec | fields | [193](../../magpie/internal/pii/guard/onnx.go#L193) |
 | varints | function_declaration |  | [227](../../magpie/internal/pii/guard/onnx.go#L227) |
-| floats | method_declaration | *tensor | [239](../../magpie/internal/pii/guard/onnx.go#L239) |
-| int64s | method_declaration | *tensor | [247](../../magpie/internal/pii/guard/onnx.go#L247) |
+| floats | method_declaration |  | [239](../../magpie/internal/pii/guard/onnx.go#L239) |
+| int64s | method_declaration |  | [247](../../magpie/internal/pii/guard/onnx.go#L247) |

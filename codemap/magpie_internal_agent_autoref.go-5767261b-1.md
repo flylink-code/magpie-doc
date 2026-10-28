@@ -9,5 +9,6 @@ Source SHA-256: d35d6e477fd4f4ff2227208420de95a98ce530c50705c72a11cb5cf23f285952
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | setToFoundGroups | function_declaration |  | [22](../../magpie/internal/agent/autoref.go#L22) |
-| renameFoundGroups | method_declaration | *Agent | [46](../../magpie/internal/agent/autoref.go#L46) |
-| publicValue | method_declaration | *Agent | [80](../../magpie/internal/agent/autoref.go#L80) |
+| out | var_spec | setToFoundGroups | [28](../../magpie/internal/agent/autoref.go#L28) |
+| renameFoundGroups | method_declaration |  | [46](../../magpie/internal/agent/autoref.go#L46) |
+| publicValue | method_declaration |  | [80](../../magpie/internal/agent/autoref.go#L80) |

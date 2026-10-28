@@ -9,13 +9,23 @@ Source SHA-256: bedcb5bfa072ac36df5f4168808727e88f2a3a2f818c4c31abb6b39e29679057
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | saveZedCredential | function_declaration |  | [19](../../magpie/internal/agent/zed_credential_other.go#L19) |
+| name | var_spec | saveZedCredential | [22](../../magpie/internal/agent/zed_credential_other.go#L22) |
+| args | var_spec | saveZedCredential | [23](../../magpie/internal/agent/zed_credential_other.go#L23) |
 | zedAppPath | function_declaration |  | [47](../../magpie/internal/agent/zed_credential_other.go#L47) |
 | executablePath | function_declaration |  | [83](../../magpie/internal/agent/zed_credential_other.go#L83) |
 | secretService | const_spec |  | [93](../../magpie/internal/agent/zed_credential_other.go#L93) |
-| zedSecret | struct_type |  | [96](../../magpie/internal/agent/zed_credential_other.go#L96) |
+| zedSecret | type_spec |  | [96](../../magpie/internal/agent/zed_credential_other.go#L96) |
 | Session | field_declaration | zedSecret | [97](../../magpie/internal/agent/zed_credential_other.go#L97) |
 | Parameters | field_declaration | zedSecret | [98](../../magpie/internal/agent/zed_credential_other.go#L98) |
 | Value | field_declaration | zedSecret | [99](../../magpie/internal/agent/zed_credential_other.go#L99) |
 | ContentType | field_declaration | zedSecret | [100](../../magpie/internal/agent/zed_credential_other.go#L100) |
 | saveZedSecret | function_declaration |  | [103](../../magpie/internal/agent/zed_credential_other.go#L103) |
+| output | var_spec | saveZedSecret | [110](../../magpie/internal/agent/zed_credential_other.go#L110) |
+| session | var_spec | saveZedSecret | [111](../../magpie/internal/agent/zed_credential_other.go#L111) |
+| collection | var_spec | saveZedSecret | [116](../../magpie/internal/agent/zed_credential_other.go#L116) |
+| unlocked | var_spec | saveZedSecret | [135](../../magpie/internal/agent/zed_credential_other.go#L135) |
+| item | var_spec | saveZedSecret | [150](../../magpie/internal/agent/zed_credential_other.go#L150) |
 | zedSecretPrompt | function_declaration |  | [158](../../magpie/internal/agent/zed_credential_other.go#L158) |
+| iface | const_spec | zedSecretPrompt | [162](../../magpie/internal/agent/zed_credential_other.go#L162) |
+| dismissed | var_spec | zedSecretPrompt | [184](../../magpie/internal/agent/zed_credential_other.go#L184) |
+| result | var_spec | zedSecretPrompt | [185](../../magpie/internal/agent/zed_credential_other.go#L185) |

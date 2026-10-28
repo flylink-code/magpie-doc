@@ -9,6 +9,7 @@ Source SHA-256: f73b27adeb9c49db2ff4301b80b07f18f262d9390b32fead1c8cfd7f180a5f70
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | claudeCLIUsage | var_spec |  | [26](../../magpie/internal/provider/claude_usage_cli.go#L26) |
+| f | field_declaration | claudeCLIUsage | [28](../../magpie/internal/provider/claude_usage_cli.go#L28) |
 | UsageClaudeVia | function_declaration |  | [33](../../magpie/internal/provider/claude_usage_cli.go#L33) |
 | runClaudeUsage | function_declaration |  | [41](../../magpie/internal/provider/claude_usage_cli.go#L41) |
 | readClaudeUsage | function_declaration |  | [52](../../magpie/internal/provider/claude_usage_cli.go#L52) |
@@ -17,7 +18,9 @@ Source SHA-256: f73b27adeb9c49db2ff4301b80b07f18f262d9390b32fead1c8cfd7f180a5f70
 | errClaudeCannotRun | var_spec |  | [69](../../magpie/internal/provider/claude_usage_cli.go#L69) |
 | claudeUsageDenied | var_spec |  | [73](../../magpie/internal/provider/claude_usage_cli.go#L73) |
 | parseClaudeUsage | function_declaration |  | [77](../../magpie/internal/provider/claude_usage_cli.go#L77) |
+| week | const_spec | parseClaudeUsage | [87](../../magpie/internal/provider/claude_usage_cli.go#L87) |
 | clipLine | function_declaration |  | [124](../../magpie/internal/provider/claude_usage_cli.go#L124) |
 | claudeResetTime | function_declaration |  | [141](../../magpie/internal/provider/claude_usage_cli.go#L141) |
+| past | var_spec | claudeResetTime | [168](../../magpie/internal/provider/claude_usage_cli.go#L168) |
 | claudeResetSlack | const_spec |  | [214](../../magpie/internal/provider/claude_usage_cli.go#L214) |
 | nextReading | function_declaration |  | [219](../../magpie/internal/provider/claude_usage_cli.go#L219) |

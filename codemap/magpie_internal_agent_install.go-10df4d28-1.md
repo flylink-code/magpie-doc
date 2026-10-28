@@ -8,12 +8,12 @@ Source SHA-256: b86c0cfa2bd86c593eff3e70ab5c512e98679dab47fe5bcfcfa43e5b4b060d06
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| InstallCmd | struct_type |  | [30](../../magpie/internal/agent/install.go#L30) |
+| InstallCmd | type_spec |  | [30](../../magpie/internal/agent/install.go#L30) |
 | Via | field_declaration | InstallCmd | [33](../../magpie/internal/agent/install.go#L33) |
 | Command | field_declaration | InstallCmd | [34](../../magpie/internal/agent/install.go#L34) |
 | Node | field_declaration | InstallCmd | [38](../../magpie/internal/agent/install.go#L38) |
 | Admin | field_declaration | InstallCmd | [41](../../magpie/internal/agent/install.go#L41) |
-| Install | struct_type |  | [45](../../magpie/internal/agent/install.go#L45) |
+| Install | type_spec |  | [45](../../magpie/internal/agent/install.go#L45) |
 | ID | field_declaration | Install | [46](../../magpie/internal/agent/install.go#L46) |
 | Name | field_declaration | Install | [47](../../magpie/internal/agent/install.go#L47) |
 | Icon | field_declaration | Install | [48](../../magpie/internal/agent/install.go#L48) |
@@ -21,6 +21,7 @@ Source SHA-256: b86c0cfa2bd86c593eff3e70ab5c512e98679dab47fe5bcfcfa43e5b4b060d06
 | Missing | field_declaration | Install | [52](../../magpie/internal/agent/install.go#L52) |
 | vendorInstall | var_spec |  | [61](../../magpie/internal/agent/install.go#L61) |
 | installCommands | function_declaration |  | [103](../../magpie/internal/agent/install.go#L103) |
+| out | var_spec | installCommands | [104](../../magpie/internal/agent/install.go#L104) |
 | nvmVersion | const_spec |  | [119](../../magpie/internal/agent/install.go#L119) |
 | npmInstall | function_declaration |  | [136](../../magpie/internal/agent/install.go#L136) |
 | nodeHere | function_declaration |  | [159](../../magpie/internal/agent/install.go#L159) |
@@ -31,4 +32,4 @@ Source SHA-256: b86c0cfa2bd86c593eff3e70ab5c512e98679dab47fe5bcfcfa43e5b4b060d06
 | npmGlobalPrefix | function_declaration |  | [218](../../magpie/internal/agent/install.go#L218) |
 | installsOf | function_declaration |  | [247](../../magpie/internal/agent/install.go#L247) |
 | cliShared | var_spec |  | [270](../../magpie/internal/agent/install.go#L270) |
-| CLIMissing | method_declaration | *Agent | [284](../../magpie/internal/agent/install.go#L284) |
+| CLIMissing | method_declaration |  | [284](../../magpie/internal/agent/install.go#L284) |

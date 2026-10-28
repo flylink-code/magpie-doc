@@ -9,7 +9,7 @@ Source SHA-256: 55feb0278c4d79fc29ed4c3d46349ea5f21de2ed9a452dcf1b28e4055fa82fba
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | keptAs | function_declaration |  | [20](../../magpie/internal/provider/keep_login_as.go#L20) |
-| LoginRanks | method_declaration | Provider | [45](../../magpie/internal/provider/keep_login_as.go#L45) |
+| LoginRanks | method_declaration |  | [45](../../magpie/internal/provider/keep_login_as.go#L45) |
 | SetKeepLoginAs | function_declaration |  | [65](../../magpie/internal/provider/keep_login_as.go#L65) |
 | rankLogins | function_declaration |  | [111](../../magpie/internal/provider/keep_login_as.go#L111) |
 | signInToFirst | function_declaration |  | [129](../../magpie/internal/provider/keep_login_as.go#L129) |

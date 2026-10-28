@@ -9,9 +9,12 @@ Source SHA-256: 9dbb5c80664c6218bd2d9b116b30e7369fa35cecd8224869edd39fd8e6419d33
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | sub2APIWindows | var_spec |  | [17](../../magpie/internal/provider/sub2api_usage.go#L17) |
+| window | field_declaration | sub2APIWindows | [18](../../magpie/internal/provider/sub2api_usage.go#L18) |
+| span | field_declaration | sub2APIWindows | [19](../../magpie/internal/provider/sub2api_usage.go#L19) |
 | readSub2APIKeyLimits | function_declaration |  | [33](../../magpie/internal/provider/sub2api_usage.go#L33) |
-| RateLimits | field_declaration | readSub2APIKeyLimits | [35](../../magpie/internal/provider/sub2api_usage.go#L35) |
-| Window | field_declaration | readSub2APIKeyLimits | [36](../../magpie/internal/provider/sub2api_usage.go#L36) |
-| Limit | field_declaration | readSub2APIKeyLimits | [37](../../magpie/internal/provider/sub2api_usage.go#L37) |
-| Used | field_declaration | readSub2APIKeyLimits | [38](../../magpie/internal/provider/sub2api_usage.go#L38) |
-| ResetAt | field_declaration | readSub2APIKeyLimits | [39](../../magpie/internal/provider/sub2api_usage.go#L39) |
+| r | var_spec | readSub2APIKeyLimits | [34](../../magpie/internal/provider/sub2api_usage.go#L34) |
+| RateLimits | field_declaration | readSub2APIKeyLimits::r | [35](../../magpie/internal/provider/sub2api_usage.go#L35) |
+| Window | field_declaration | readSub2APIKeyLimits::r::RateLimits | [36](../../magpie/internal/provider/sub2api_usage.go#L36) |
+| Limit | field_declaration | readSub2APIKeyLimits::r::RateLimits | [37](../../magpie/internal/provider/sub2api_usage.go#L37) |
+| Used | field_declaration | readSub2APIKeyLimits::r::RateLimits | [38](../../magpie/internal/provider/sub2api_usage.go#L38) |
+| ResetAt | field_declaration | readSub2APIKeyLimits::r::RateLimits | [39](../../magpie/internal/provider/sub2api_usage.go#L39) |

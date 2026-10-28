@@ -8,6 +8,6 @@ Source SHA-256: 3a33e3ce5c872d09218a93c6adabee08f95079bad4705740007a72b8244bedbd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| rss | method_declaration | *Tree | [16](../../magpie/internal/proc/rss_unix.go#L16) |
+| rss | method_declaration |  | [16](../../magpie/internal/proc/rss_unix.go#L16) |
 | pidRSS | function_declaration |  | [24](../../magpie/internal/proc/rss_unix.go#L24) |
 | parseKiB | function_declaration |  | [42](../../magpie/internal/proc/rss_unix.go#L42) |

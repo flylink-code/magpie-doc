@@ -10,4 +10,5 @@ Source SHA-256: 8057e84264f63d8d8628df0c0922118afe016e7e66c0f8a41200dfde06db028b
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [18](../../magpie/internal/provider/migrate_qoder.go#L18) |
 | qoderMover | function_declaration |  | [24](../../magpie/internal/provider/migrate_qoder.go#L24) |
+| out | var_spec | qoderMover | [34](../../magpie/internal/provider/migrate_qoder.go#L34) |
 | num | function_declaration |  | [88](../../magpie/internal/provider/migrate_qoder.go#L88) |

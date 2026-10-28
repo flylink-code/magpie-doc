@@ -8,7 +8,7 @@ Source SHA-256: 8a6515a32094171b5f1672ffa5772a4be8c2d558f973b671295ac84b2bb441b8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dayAgg | struct_type |  | [12](../../magpie/internal/maskrec/summary.go#L12) |
+| dayAgg | type_spec |  | [12](../../magpie/internal/maskrec/summary.go#L12) |
 | size | field_declaration | dayAgg | [13](../../magpie/internal/maskrec/summary.go#L13) |
 | requests | field_declaration | dayAgg | [14](../../magpie/internal/maskrec/summary.go#L14) |
 | n | field_declaration | dayAgg | [15](../../magpie/internal/maskrec/summary.go#L15) |
@@ -19,28 +19,25 @@ Source SHA-256: 8a6515a32094171b5f1672ffa5772a4be8c2d558f973b671295ac84b2bb441b8
 | vals | field_declaration | dayAgg | [20](../../magpie/internal/maskrec/summary.go#L20) |
 | agents | field_declaration | dayAgg | [21](../../magpie/internal/maskrec/summary.go#L21) |
 | providers | field_declaration | dayAgg | [22](../../magpie/internal/maskrec/summary.go#L22) |
-| valAgg | struct_type |  | [25](../../magpie/internal/maskrec/summary.go#L25) |
+| valAgg | type_spec |  | [25](../../magpie/internal/maskrec/summary.go#L25) |
 | kind | field_declaration | valAgg | [26](../../magpie/internal/maskrec/summary.go#L26) |
-| by | field_declaration | valAgg | [26](../../magpie/internal/maskrec/summary.go#L26) |
-| head | field_declaration | valAgg | [26](../../magpie/internal/maskrec/summary.go#L26) |
 | len | field_declaration | valAgg | [27](../../magpie/internal/maskrec/summary.go#L27) |
 | n | field_declaration | valAgg | [28](../../magpie/internal/maskrec/summary.go#L28) |
-| requests | field_declaration | valAgg | [28](../../magpie/internal/maskrec/summary.go#L28) |
 | last | field_declaration | valAgg | [29](../../magpie/internal/maskrec/summary.go#L29) |
 | newDay | function_declaration |  | [32](../../magpie/internal/maskrec/summary.go#L32) |
-| add | method_declaration | *dayAgg | [36](../../magpie/internal/maskrec/summary.go#L36) |
+| add | method_declaration |  | [36](../../magpie/internal/maskrec/summary.go#L36) |
 | addTo | function_declaration |  | [66](../../magpie/internal/maskrec/summary.go#L66) |
 | day | function_declaration |  | [77](../../magpie/internal/maskrec/summary.go#L77) |
-| Day | struct_type |  | [95](../../magpie/internal/maskrec/summary.go#L95) |
+| Day | type_spec |  | [95](../../magpie/internal/maskrec/summary.go#L95) |
 | Day | field_declaration | Day | [96](../../magpie/internal/maskrec/summary.go#L96) |
 | Requests | field_declaration | Day | [97](../../magpie/internal/maskrec/summary.go#L97) |
 | N | field_declaration | Day | [98](../../magpie/internal/maskrec/summary.go#L98) |
 | Distinct | field_declaration | Day | [99](../../magpie/internal/maskrec/summary.go#L99) |
-| Count | struct_type |  | [103](../../magpie/internal/maskrec/summary.go#L103) |
+| Count | type_spec |  | [103](../../magpie/internal/maskrec/summary.go#L103) |
 | Name | field_declaration | Count | [104](../../magpie/internal/maskrec/summary.go#L104) |
 | N | field_declaration | Count | [105](../../magpie/internal/maskrec/summary.go#L105) |
 | Distinct | field_declaration | Count | [106](../../magpie/internal/maskrec/summary.go#L106) |
-| Seen | struct_type |  | [110](../../magpie/internal/maskrec/summary.go#L110) |
+| Seen | type_spec |  | [110](../../magpie/internal/maskrec/summary.go#L110) |
 | Placeholder | field_declaration | Seen | [111](../../magpie/internal/maskrec/summary.go#L111) |
 | Kind | field_declaration | Seen | [112](../../magpie/internal/maskrec/summary.go#L112) |
 | By | field_declaration | Seen | [113](../../magpie/internal/maskrec/summary.go#L113) |
@@ -49,7 +46,7 @@ Source SHA-256: 8a6515a32094171b5f1672ffa5772a4be8c2d558f973b671295ac84b2bb441b8
 | N | field_declaration | Seen | [116](../../magpie/internal/maskrec/summary.go#L116) |
 | Requests | field_declaration | Seen | [117](../../magpie/internal/maskrec/summary.go#L117) |
 | Last | field_declaration | Seen | [118](../../magpie/internal/maskrec/summary.go#L118) |
-| Summary | struct_type |  | [122](../../magpie/internal/maskrec/summary.go#L122) |
+| Summary | type_spec |  | [122](../../magpie/internal/maskrec/summary.go#L122) |
 | Days | field_declaration | Summary | [123](../../magpie/internal/maskrec/summary.go#L123) |
 | Requests | field_declaration | Summary | [124](../../magpie/internal/maskrec/summary.go#L124) |
 | N | field_declaration | Summary | [125](../../magpie/internal/maskrec/summary.go#L125) |
@@ -65,7 +62,9 @@ Source SHA-256: 8a6515a32094171b5f1672ffa5772a4be8c2d558f973b671295ac84b2bb441b8
 | Since | field_declaration | Summary | [135](../../magpie/internal/maskrec/summary.go#L135) |
 | topValues | const_spec |  | [138](../../magpie/internal/maskrec/summary.go#L138) |
 | Sum | function_declaration |  | [141](../../magpie/internal/maskrec/summary.go#L141) |
+| a | var_spec | Sum | [160](../../magpie/internal/maskrec/summary.go#L160) |
 | merge | function_declaration |  | [224](../../magpie/internal/maskrec/summary.go#L224) |
 | counts | function_declaration |  | [235](../../magpie/internal/maskrec/summary.go#L235) |
+| out | var_spec | counts | [236](../../magpie/internal/maskrec/summary.go#L236) |
 | ranked | function_declaration |  | [247](../../magpie/internal/maskrec/summary.go#L247) |
 | memDay | function_declaration |  | [262](../../magpie/internal/maskrec/summary.go#L262) |

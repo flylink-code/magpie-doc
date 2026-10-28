@@ -15,3 +15,4 @@ Source SHA-256: 8f5846929c5ec84612ef4edfc1c6672e6ab09024d86f20decde4a93dbc811ffd
 | ownSignals | function_declaration |  | [80](../../magpie/internal/cli/signals.go#L80) |
 | interrupts | var_spec |  | [93](../../magpie/internal/cli/signals.go#L93) |
 | interruptContext | function_declaration |  | [97](../../magpie/internal/cli/signals.go#L97) |
+| once | var_spec | interruptContext | [100](../../magpie/internal/cli/signals.go#L100) |

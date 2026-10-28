@@ -10,7 +10,7 @@ Source SHA-256: 183c407e5057e0dbb7dcab2422229b4003adbc87fedbf810f7a214a6a9e6f821
 | --- | --- | --- | ---: |
 | DshDir | function_declaration |  | [41](../../magpie/internal/sessions/dsh.go#L41) |
 | dshName | var_spec |  | [50](../../magpie/internal/sessions/dsh.go#L50) |
-| dshHead | struct_type |  | [53](../../magpie/internal/sessions/dsh.go#L53) |
+| dshHead | type_spec |  | [53](../../magpie/internal/sessions/dsh.go#L53) |
 | Type | field_declaration | dshHead | [54](../../magpie/internal/sessions/dsh.go#L54) |
 | Version | field_declaration | dshHead | [55](../../magpie/internal/sessions/dsh.go#L55) |
 | ID | field_declaration | dshHead | [56](../../magpie/internal/sessions/dsh.go#L56) |
@@ -23,50 +23,62 @@ Source SHA-256: 183c407e5057e0dbb7dcab2422229b4003adbc87fedbf810f7a214a6a9e6f821
 | dshMu | var_spec |  | [67](../../magpie/internal/sessions/dsh.go#L67) |
 | dshHeads | var_spec |  | [68](../../magpie/internal/sessions/dsh.go#L68) |
 | dshFiles | function_declaration |  | [71](../../magpie/internal/sessions/dsh.go#L71) |
+| out | var_spec | dshFiles | [73](../../magpie/internal/sessions/dsh.go#L73) |
+| f | var_spec | dshFiles | [84](../../magpie/internal/sessions/dsh.go#L84) |
 | dshSessionDir | function_declaration |  | [135](../../magpie/internal/sessions/dsh.go#L135) |
 | dshSegment | function_declaration |  | [149](../../magpie/internal/sessions/dsh.go#L149) |
+| b | var_spec | dshSegment | [156](../../magpie/internal/sessions/dsh.go#L156) |
 | dshCacheRecord | function_declaration |  | [171](../../magpie/internal/sessions/dsh.go#L171) |
 | dshOpen | function_declaration |  | [179](../../magpie/internal/sessions/dsh.go#L179) |
 | dshReadHead | function_declaration |  | [181](../../magpie/internal/sessions/dsh.go#L181) |
-| dshResponse | struct_type |  | [197](../../magpie/internal/sessions/dsh.go#L197) |
+| h | var_spec | dshReadHead | [182](../../magpie/internal/sessions/dsh.go#L182) |
+| dshResponse | type_spec |  | [197](../../magpie/internal/sessions/dsh.go#L197) |
 | Model | field_declaration | dshResponse | [198](../../magpie/internal/sessions/dsh.go#L198) |
 | Provider | field_declaration | dshResponse | [199](../../magpie/internal/sessions/dsh.go#L199) |
 | ResponseModel | field_declaration | dshResponse | [200](../../magpie/internal/sessions/dsh.go#L200) |
-| dshReplay | struct_type |  | [206](../../magpie/internal/sessions/dsh.go#L206) |
+| dshReplay | type_spec |  | [206](../../magpie/internal/sessions/dsh.go#L206) |
 | Response | field_declaration | dshReplay | [207](../../magpie/internal/sessions/dsh.go#L207) |
-| dshSource | struct_type |  | [213](../../magpie/internal/sessions/dsh.go#L213) |
+| dshSource | type_spec |  | [213](../../magpie/internal/sessions/dsh.go#L213) |
 | Model | field_declaration | dshSource | [214](../../magpie/internal/sessions/dsh.go#L214) |
 | Provider | field_declaration | dshSource | [215](../../magpie/internal/sessions/dsh.go#L215) |
 | ReplayState | field_declaration | dshSource | [216](../../magpie/internal/sessions/dsh.go#L216) |
-| dshEvent | struct_type |  | [221](../../magpie/internal/sessions/dsh.go#L221) |
+| dshEvent | type_spec |  | [221](../../magpie/internal/sessions/dsh.go#L221) |
 | Type | field_declaration | dshEvent | [222](../../magpie/internal/sessions/dsh.go#L222) |
 | Seq | field_declaration | dshEvent | [223](../../magpie/internal/sessions/dsh.go#L223) |
 | Time | field_declaration | dshEvent | [224](../../magpie/internal/sessions/dsh.go#L224) |
 | Data | field_declaration | dshEvent | [225](../../magpie/internal/sessions/dsh.go#L225) |
-| Content | field_declaration | dshEvent | [226](../../magpie/internal/sessions/dsh.go#L226) |
-| Source | field_declaration | dshEvent | [227](../../magpie/internal/sessions/dsh.go#L227) |
-| Kind | field_declaration | dshEvent | [228](../../magpie/internal/sessions/dsh.go#L228) |
-| Title | field_declaration | dshEvent | [230](../../magpie/internal/sessions/dsh.go#L230) |
-| Inherited | field_declaration | dshEvent | [231](../../magpie/internal/sessions/dsh.go#L231) |
-| Messages | field_declaration | dshEvent | [233](../../magpie/internal/sessions/dsh.go#L233) |
-| Role | field_declaration | dshEvent | [234](../../magpie/internal/sessions/dsh.go#L234) |
-| Content | field_declaration | dshEvent | [235](../../magpie/internal/sessions/dsh.go#L235) |
-| Message | field_declaration | dshEvent | [237](../../magpie/internal/sessions/dsh.go#L237) |
-| Source | field_declaration | dshEvent | [238](../../magpie/internal/sessions/dsh.go#L238) |
-| Usage | field_declaration | dshEvent | [240](../../magpie/internal/sessions/dsh.go#L240) |
-| Input | field_declaration | dshEvent | [241](../../magpie/internal/sessions/dsh.go#L241) |
-| Output | field_declaration | dshEvent | [242](../../magpie/internal/sessions/dsh.go#L242) |
-| CacheRead | field_declaration | dshEvent | [243](../../magpie/internal/sessions/dsh.go#L243) |
-| CacheWrite | field_declaration | dshEvent | [244](../../magpie/internal/sessions/dsh.go#L244) |
+| Content | field_declaration | dshEvent::Data | [226](../../magpie/internal/sessions/dsh.go#L226) |
+| Source | field_declaration | dshEvent::Data | [227](../../magpie/internal/sessions/dsh.go#L227) |
+| Kind | field_declaration | dshEvent::Data::Source | [228](../../magpie/internal/sessions/dsh.go#L228) |
+| Title | field_declaration | dshEvent::Data | [230](../../magpie/internal/sessions/dsh.go#L230) |
+| Inherited | field_declaration | dshEvent::Data | [231](../../magpie/internal/sessions/dsh.go#L231) |
+| Messages | field_declaration | dshEvent::Data | [233](../../magpie/internal/sessions/dsh.go#L233) |
+| Role | field_declaration | dshEvent::Data::Messages | [234](../../magpie/internal/sessions/dsh.go#L234) |
+| Content | field_declaration | dshEvent::Data::Messages | [235](../../magpie/internal/sessions/dsh.go#L235) |
+| Message | field_declaration | dshEvent::Data | [237](../../magpie/internal/sessions/dsh.go#L237) |
+| Source | field_declaration | dshEvent::Data::Message | [238](../../magpie/internal/sessions/dsh.go#L238) |
+| Usage | field_declaration | dshEvent::Data | [240](../../magpie/internal/sessions/dsh.go#L240) |
+| Input | field_declaration | dshEvent::Data::Usage | [241](../../magpie/internal/sessions/dsh.go#L241) |
+| Output | field_declaration | dshEvent::Data::Usage | [242](../../magpie/internal/sessions/dsh.go#L242) |
+| CacheRead | field_declaration | dshEvent::Data::Usage | [243](../../magpie/internal/sessions/dsh.go#L243) |
+| CacheWrite | field_declaration | dshEvent::Data::Usage | [244](../../magpie/internal/sessions/dsh.go#L244) |
 | dshWanted | var_spec |  | [249](../../magpie/internal/sessions/dsh.go#L249) |
-| dshCarry | struct_type |  | [253](../../magpie/internal/sessions/dsh.go#L253) |
+| dshCarry | type_spec |  | [253](../../magpie/internal/sessions/dsh.go#L253) |
 | Tail | field_declaration | dshCarry | [254](../../magpie/internal/sessions/dsh.go#L254) |
 | Head | field_declaration | dshCarry | [255](../../magpie/internal/sessions/dsh.go#L255) |
 | parseDsh | function_declaration |  | [263](../../magpie/internal/sessions/dsh.go#L263) |
+| s | var_spec | parseDsh | [264](../../magpie/internal/sessions/dsh.go#L264) |
+| c | var_spec | parseDsh | [265](../../magpie/internal/sessions/dsh.go#L265) |
+| off | var_spec | parseDsh | [266](../../magpie/internal/sessions/dsh.go#L266) |
+| next | var_spec | parseDsh | [294](../../magpie/internal/sessions/dsh.go#L294) |
+| err | var_spec | parseDsh | [295](../../magpie/internal/sessions/dsh.go#L295) |
 | dshCount | function_declaration |  | [315](../../magpie/internal/sessions/dsh.go#L315) |
+| e | var_spec | dshCount | [316](../../magpie/internal/sessions/dsh.go#L316) |
 | dshWant | function_declaration |  | [373](../../magpie/internal/sessions/dsh.go#L373) |
 | dshNum | function_declaration |  | [384](../../magpie/internal/sessions/dsh.go#L384) |
 | dshConvs | function_declaration |  | [409](../../magpie/internal/sessions/dsh.go#L409) |
-| Type | field_declaration | dshConvs | [411](../../magpie/internal/sessions/dsh.go#L411) |
-| Text | field_declaration | dshConvs | [412](../../magpie/internal/sessions/dsh.go#L412) |
+| parts | var_spec | dshConvs | [410](../../magpie/internal/sessions/dsh.go#L410) |
+| Type | field_declaration | dshConvs::parts | [411](../../magpie/internal/sessions/dsh.go#L411) |
+| Text | field_declaration | dshConvs::parts | [412](../../magpie/internal/sessions/dsh.go#L412) |
 | jsString | function_declaration |  | [433](../../magpie/internal/sessions/dsh.go#L433) |
+| b | var_spec | jsString | [434](../../magpie/internal/sessions/dsh.go#L434) |

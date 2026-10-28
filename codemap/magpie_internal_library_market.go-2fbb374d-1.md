@@ -8,7 +8,7 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Input | struct_type |  | [36](../../magpie/internal/library/market.go#L36) |
+| Input | type_spec |  | [36](../../magpie/internal/library/market.go#L36) |
 | Key | field_declaration | Input | [37](../../magpie/internal/library/market.go#L37) |
 | Where | field_declaration | Input | [38](../../magpie/internal/library/market.go#L38) |
 | Label | field_declaration | Input | [39](../../magpie/internal/library/market.go#L39) |
@@ -17,7 +17,7 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 | Secret | field_declaration | Input | [42](../../magpie/internal/library/market.go#L42) |
 | Required | field_declaration | Input | [43](../../magpie/internal/library/market.go#L43) |
 | format | field_declaration | Input | [44](../../magpie/internal/library/market.go#L44) |
-| MarketServer | struct_type |  | [48](../../magpie/internal/library/market.go#L48) |
+| MarketServer | type_spec |  | [48](../../magpie/internal/library/market.go#L48) |
 | ID | field_declaration | MarketServer | [49](../../magpie/internal/library/market.go#L49) |
 | Name | field_declaration | MarketServer | [50](../../magpie/internal/library/market.go#L50) |
 | Title | field_declaration | MarketServer | [51](../../magpie/internal/library/market.go#L51) |
@@ -48,63 +48,63 @@ Source SHA-256: 2285ec6501f8cf6891c5a87a96f0d85915996bc7fe8f76c188cea474c03d9068
 | init | function_declaration |  | [211](../../magpie/internal/library/market.go#L211) |
 | registryURL | var_spec |  | [225](../../magpie/internal/library/market.go#L225) |
 | seenServers | var_spec |  | [229](../../magpie/internal/library/market.go#L229) |
+| m | field_declaration | seenServers | [231](../../magpie/internal/library/market.go#L231) |
 | MarketServers | function_declaration |  | [237](../../magpie/internal/library/market.go#L237) |
+| out | var_spec | MarketServers | [240](../../magpie/internal/library/market.go#L240) |
+| err | var_spec | MarketServers | [252](../../magpie/internal/library/market.go#L252) |
+| found | var_spec | MarketServers | [254](../../magpie/internal/library/market.go#L254) |
 | serverKey | function_declaration |  | [279](../../magpie/internal/library/market.go#L279) |
-| haveServer | method_declaration | *Library | [298](../../magpie/internal/library/market.go#L298) |
-| registryServer | struct_type |  | [308](../../magpie/internal/library/market.go#L308) |
+| haveServer | method_declaration |  | [298](../../magpie/internal/library/market.go#L298) |
+| registryServer | type_spec |  | [308](../../magpie/internal/library/market.go#L308) |
 | Name | field_declaration | registryServer | [309](../../magpie/internal/library/market.go#L309) |
 | Title | field_declaration | registryServer | [310](../../magpie/internal/library/market.go#L310) |
 | Description | field_declaration | registryServer | [311](../../magpie/internal/library/market.go#L311) |
 | WebsiteURL | field_declaration | registryServer | [312](../../magpie/internal/library/market.go#L312) |
 | Repository | field_declaration | registryServer | [313](../../magpie/internal/library/market.go#L313) |
-| URL | field_declaration | registryServer | [314](../../magpie/internal/library/market.go#L314) |
+| URL | field_declaration | registryServer::Repository | [314](../../magpie/internal/library/market.go#L314) |
 | Icons | field_declaration | registryServer | [316](../../magpie/internal/library/market.go#L316) |
-| Src | field_declaration | registryServer | [317](../../magpie/internal/library/market.go#L317) |
+| Src | field_declaration | registryServer::Icons | [317](../../magpie/internal/library/market.go#L317) |
 | Remotes | field_declaration | registryServer | [319](../../magpie/internal/library/market.go#L319) |
-| Type | field_declaration | registryServer | [320](../../magpie/internal/library/market.go#L320) |
-| URL | field_declaration | registryServer | [321](../../magpie/internal/library/market.go#L321) |
-| Headers | field_declaration | registryServer | [322](../../magpie/internal/library/market.go#L322) |
+| Type | field_declaration | registryServer::Remotes | [320](../../magpie/internal/library/market.go#L320) |
+| URL | field_declaration | registryServer::Remotes | [321](../../magpie/internal/library/market.go#L321) |
+| Headers | field_declaration | registryServer::Remotes | [322](../../magpie/internal/library/market.go#L322) |
 | Packages | field_declaration | registryServer | [324](../../magpie/internal/library/market.go#L324) |
-| RegistryType | field_declaration | registryServer | [325](../../magpie/internal/library/market.go#L325) |
-| Identifier | field_declaration | registryServer | [326](../../magpie/internal/library/market.go#L326) |
-| Transport | field_declaration | registryServer | [327](../../magpie/internal/library/market.go#L327) |
-| Type | field_declaration | registryServer | [327](../../magpie/internal/library/market.go#L327) |
-| Env | field_declaration | registryServer | [328](../../magpie/internal/library/market.go#L328) |
-| Arguments | field_declaration | registryServer | [329](../../magpie/internal/library/market.go#L329) |
-| Type | field_declaration | registryServer | [330](../../magpie/internal/library/market.go#L330) |
-| Name | field_declaration | registryServer | [331](../../magpie/internal/library/market.go#L331) |
-| Value | field_declaration | registryServer | [332](../../magpie/internal/library/market.go#L332) |
-| Default | field_declaration | registryServer | [333](../../magpie/internal/library/market.go#L333) |
-| ValueHint | field_declaration | registryServer | [334](../../magpie/internal/library/market.go#L334) |
-| Description | field_declaration | registryServer | [335](../../magpie/internal/library/market.go#L335) |
-| IsRequired | field_declaration | registryServer | [336](../../magpie/internal/library/market.go#L336) |
-| registryVar | struct_type |  | [341](../../magpie/internal/library/market.go#L341) |
+| RegistryType | field_declaration | registryServer::Packages | [325](../../magpie/internal/library/market.go#L325) |
+| Identifier | field_declaration | registryServer::Packages | [326](../../magpie/internal/library/market.go#L326) |
+| Transport | field_declaration | registryServer::Packages | [327](../../magpie/internal/library/market.go#L327) |
+| Type | field_declaration | registryServer::Packages::Transport | [327](../../magpie/internal/library/market.go#L327) |
+| Env | field_declaration | registryServer::Packages | [328](../../magpie/internal/library/market.go#L328) |
+| Arguments | field_declaration | registryServer::Packages | [329](../../magpie/internal/library/market.go#L329) |
+| Type | field_declaration | registryServer::Packages::Arguments | [330](../../magpie/internal/library/market.go#L330) |
+| Name | field_declaration | registryServer::Packages::Arguments | [331](../../magpie/internal/library/market.go#L331) |
+| Value | field_declaration | registryServer::Packages::Arguments | [332](../../magpie/internal/library/market.go#L332) |
+| Default | field_declaration | registryServer::Packages::Arguments | [333](../../magpie/internal/library/market.go#L333) |
+| ValueHint | field_declaration | registryServer::Packages::Arguments | [334](../../magpie/internal/library/market.go#L334) |
+| Description | field_declaration | registryServer::Packages::Arguments | [335](../../magpie/internal/library/market.go#L335) |
+| IsRequired | field_declaration | registryServer::Packages::Arguments | [336](../../magpie/internal/library/market.go#L336) |
+| registryVar | type_spec |  | [341](../../magpie/internal/library/market.go#L341) |
 | Name | field_declaration | registryVar | [342](../../magpie/internal/library/market.go#L342) |
 | Value | field_declaration | registryVar | [343](../../magpie/internal/library/market.go#L343) |
 | Description | field_declaration | registryVar | [344](../../magpie/internal/library/market.go#L344) |
 | IsRequired | field_declaration | registryVar | [345](../../magpie/internal/library/market.go#L345) |
 | IsSecret | field_declaration | registryVar | [346](../../magpie/internal/library/market.go#L346) |
 | placeholderRe | var_spec |  | [349](../../magpie/internal/library/market.go#L349) |
-| listed | struct_type |  | [353](../../magpie/internal/library/market.go#L353) |
+| listed | type_spec |  | [353](../../magpie/internal/library/market.go#L353) |
 | m | field_declaration | listed | [354](../../magpie/internal/library/market.go#L354) |
 | r | field_declaration | listed | [355](../../magpie/internal/library/market.go#L355) |
 | fetchRegistry | function_declaration |  | [360](../../magpie/internal/library/market.go#L360) |
-| Servers | field_declaration | fetchRegistry | [363](../../magpie/internal/library/market.go#L363) |
-| Server | field_declaration | fetchRegistry | [364](../../magpie/internal/library/market.go#L364) |
-| Meta | field_declaration | fetchRegistry | [365](../../magpie/internal/library/market.go#L365) |
-| Status | field_declaration | fetchRegistry | [366](../../magpie/internal/library/market.go#L366) |
-| scored | struct_type |  | [389](../../magpie/internal/library/market.go#L389) |
+| body | var_spec | fetchRegistry | [362](../../magpie/internal/library/market.go#L362) |
+| Servers | field_declaration | fetchRegistry::body | [363](../../magpie/internal/library/market.go#L363) |
+| Server | field_declaration | fetchRegistry::body::Servers | [364](../../magpie/internal/library/market.go#L364) |
+| Meta | field_declaration | fetchRegistry::body::Servers | [365](../../magpie/internal/library/market.go#L365) |
+| Status | field_declaration | fetchRegistry::body::Servers::Meta | [366](../../magpie/internal/library/market.go#L366) |
+| list | var_spec | fetchRegistry | [373](../../magpie/internal/library/market.go#L373) |
+| scored | type_spec |  | [389](../../magpie/internal/library/market.go#L389) |
 | m | field_declaration | scored | [390](../../magpie/internal/library/market.go#L390) |
 | score | field_declaration | scored | [391](../../magpie/internal/library/market.go#L391) |
 | searchRegistry | function_declaration |  | [394](../../magpie/internal/library/market.go#L394) |
+| list | var_spec | searchRegistry | [399](../../magpie/internal/library/market.go#L399) |
 | searchRegistryAt | function_declaration |  | [411](../../magpie/internal/library/market.go#L411) |
+| matched | var_spec | searchRegistryAt | [412](../../magpie/internal/library/market.go#L412) |
 | offer | function_declaration |  | [445](../../magpie/internal/library/market.go#L445) |
 | rank | function_declaration |  | [465](../../magpie/internal/library/market.go#L465) |
-| fromRegistry | function_declaration |  | [494](../../magpie/internal/library/market.go#L494) |
-| shortName | function_declaration |  | [619](../../magpie/internal/library/market.go#L619) |
-| lastPart | function_declaration |  | [641](../../magpie/internal/library/market.go#L641) |
-| githubOwner | function_declaration |  | [643](../../magpie/internal/library/market.go#L643) |
-| marketServer | function_declaration |  | [652](../../magpie/internal/library/market.go#L652) |
-| InstallServer | function_declaration |  | [665](../../magpie/internal/library/market.go#L665) |
-| serverIcon | function_declaration |  | [738](../../magpie/internal/library/market.go#L738) |
-| skillIcon | function_declaration |  | [757](../../magpie/internal/library/market.go#L757) |

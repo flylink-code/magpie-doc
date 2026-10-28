@@ -10,9 +10,9 @@ Source SHA-256: 6067a5abd03d44c67c9fd66387b800e5586baf4cfe7ec889b1dc1e6e7e3a7583
 | --- | --- | --- | ---: |
 | builtinCmd | function_declaration |  | [18](../../magpie/internal/cli/builtin_cli.go#L18) |
 | dumpPlugins | function_declaration |  | [64](../../magpie/internal/cli/builtin_cli.go#L64) |
-| plug | struct_type | dumpPlugins | [73](../../magpie/internal/cli/builtin_cli.go#L73) |
-| State | field_declaration | dumpPlugins.plug | [75](../../magpie/internal/cli/builtin_cli.go#L75) |
-| Why | field_declaration | dumpPlugins.plug | [76](../../magpie/internal/cli/builtin_cli.go#L76) |
+| plug | type_spec | dumpPlugins | [73](../../magpie/internal/cli/builtin_cli.go#L73) |
+| State | field_declaration | dumpPlugins::plug | [75](../../magpie/internal/cli/builtin_cli.go#L75) |
+| Why | field_declaration | dumpPlugins::plug | [76](../../magpie/internal/cli/builtin_cli.go#L76) |
 | File | field_declaration | dumpPlugins | [83](../../magpie/internal/cli/builtin_cli.go#L83) |
 | There | field_declaration | dumpPlugins | [84](../../magpie/internal/cli/builtin_cli.go#L84) |
 | Preset | field_declaration | dumpPlugins | [85](../../magpie/internal/cli/builtin_cli.go#L85) |

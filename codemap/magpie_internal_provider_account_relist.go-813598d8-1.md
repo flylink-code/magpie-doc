@@ -13,3 +13,4 @@ Source SHA-256: ed3b9913bbf4879ba2e6399cc9d01d4ab48283f0395edcd392c7114f48dacca6
 | accountListAge | var_spec |  | [25](../../magpie/internal/provider/account_relist.go#L25) |
 | KeepAccountsListed | function_declaration |  | [30](../../magpie/internal/provider/account_relist.go#L30) |
 | relistAccounts | function_declaration |  | [49](../../magpie/internal/provider/account_relist.go#L49) |
+| asked | var_spec | relistAccounts | [50](../../magpie/internal/provider/account_relist.go#L50) |

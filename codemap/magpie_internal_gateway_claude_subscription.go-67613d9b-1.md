@@ -8,7 +8,7 @@ Source SHA-256: 39f0ec20de26a9c9dfb996926a046b406275d701d909b455091f116dbffdb207
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| subscriptionBridge | struct_type |  | [71](../../magpie/internal/gateway/claude_subscription.go#L71) |
+| subscriptionBridge | type_spec |  | [71](../../magpie/internal/gateway/claude_subscription.go#L71) |
 | mu | field_declaration | subscriptionBridge | [72](../../magpie/internal/gateway/claude_subscription.go#L72) |
 | runs | field_declaration | subscriptionBridge | [73](../../magpie/internal/gateway/claude_subscription.go#L73) |
 | calls | field_declaration | subscriptionBridge | [74](../../magpie/internal/gateway/claude_subscription.go#L74) |
@@ -26,7 +26,7 @@ Source SHA-256: 39f0ec20de26a9c9dfb996926a046b406275d701d909b455091f116dbffdb207
 | finalGrace | var_spec |  | [118](../../magpie/internal/gateway/claude_subscription.go#L118) |
 | finalTools | var_spec |  | [119](../../magpie/internal/gateway/claude_subscription.go#L119) |
 | parkedMost | const_spec |  | [127](../../magpie/internal/gateway/claude_subscription.go#L127) |
-| subscriptionRun | struct_type |  | [129](../../magpie/internal/gateway/claude_subscription.go#L129) |
+| subscriptionRun | type_spec |  | [129](../../magpie/internal/gateway/claude_subscription.go#L129) |
 | bridge | field_declaration | subscriptionRun | [130](../../magpie/internal/gateway/claude_subscription.go#L130) |
 | token | field_declaration | subscriptionRun | [131](../../magpie/internal/gateway/claude_subscription.go#L131) |
 | model | field_declaration | subscriptionRun | [132](../../magpie/internal/gateway/claude_subscription.go#L132) |
@@ -92,19 +92,19 @@ Source SHA-256: 39f0ec20de26a9c9dfb996926a046b406275d701d909b455091f116dbffdb207
 | asked | field_declaration | subscriptionRun | [278](../../magpie/internal/gateway/claude_subscription.go#L278) |
 | parkedAt | field_declaration | subscriptionRun | [279](../../magpie/internal/gateway/claude_subscription.go#L279) |
 | shown | field_declaration | subscriptionRun | [284](../../magpie/internal/gateway/claude_subscription.go#L284) |
-| shownCall | struct_type |  | [289](../../magpie/internal/gateway/claude_subscription.go#L289) |
+| shownCall | type_spec |  | [289](../../magpie/internal/gateway/claude_subscription.go#L289) |
 | id | field_declaration | shownCall | [290](../../magpie/internal/gateway/claude_subscription.go#L290) |
-| name | field_declaration | shownCall | [290](../../magpie/internal/gateway/claude_subscription.go#L290) |
-| args | field_declaration | shownCall | [290](../../magpie/internal/gateway/claude_subscription.go#L290) |
 | waitTool | const_spec |  | [294](../../magpie/internal/gateway/claude_subscription.go#L294) |
-| mcpToolResult | struct_type |  | [296](../../magpie/internal/gateway/claude_subscription.go#L296) |
+| mcpToolResult | type_spec |  | [296](../../magpie/internal/gateway/claude_subscription.go#L296) |
 | Content | field_declaration | mcpToolResult | [297](../../magpie/internal/gateway/claude_subscription.go#L297) |
 | IsError | field_declaration | mcpToolResult | [298](../../magpie/internal/gateway/claude_subscription.go#L298) |
 | Tools | field_declaration | mcpToolResult | [302](../../magpie/internal/gateway/claude_subscription.go#L302) |
-| bridgeTool | struct_type |  | [305](../../magpie/internal/gateway/claude_subscription.go#L305) |
+| bridgeTool | type_spec |  | [305](../../magpie/internal/gateway/claude_subscription.go#L305) |
 | Name | field_declaration | bridgeTool | [306](../../magpie/internal/gateway/claude_subscription.go#L306) |
 | Description | field_declaration | bridgeTool | [307](../../magpie/internal/gateway/claude_subscription.go#L307) |
 | InputSchema | field_declaration | bridgeTool | [308](../../magpie/internal/gateway/claude_subscription.go#L308) |
 | claudeConfigDir | function_declaration |  | [311](../../magpie/internal/gateway/claude_subscription.go#L311) |
 | claudeProjectName | function_declaration |  | [315](../../magpie/internal/gateway/claude_subscription.go#L315) |
 | sweepBridgeProjects | function_declaration |  | [328](../../magpie/internal/gateway/claude_subscription.go#L328) |
+| prefixes | var_spec | sweepBridgeProjects | [329](../../magpie/internal/gateway/claude_subscription.go#L329) |
+| sweepBridgeTemps | function_declaration |  | [357](../../magpie/internal/gateway/claude_subscription.go#L357) |

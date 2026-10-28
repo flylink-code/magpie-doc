@@ -8,14 +8,50 @@ Source SHA-256: 7004f1570857952680dd97b24c97cd1bbe779dd5b1b735cfe0996c51de92cc70
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ImageURL | field_declaration | responsesParts | [889](../../magpie/internal/gateway/responses.go#L889) |
-| Detail | field_declaration | responsesParts | [890](../../magpie/internal/gateway/responses.go#L890) |
+| Namespace | field_declaration | readResponses::o::Tools | [513](../../magpie/internal/gateway/responses.go#L513) |
+| tools | var_spec | readResponses | [538](../../magpie/internal/gateway/responses.go#L538) |
+| toolCallItem | function_declaration |  | [562](../../magpie/internal/gateway/responses.go#L562) |
+| toolResultItem | function_declaration |  | [570](../../magpie/internal/gateway/responses.go#L570) |
+| joinToolRuns | function_declaration |  | [608](../../magpie/internal/gateway/responses.go#L608) |
+| q | var_spec | joinToolRuns | [612](../../magpie/internal/gateway/responses.go#L612) |
+| item | type_spec | joinToolRuns | [620](../../magpie/internal/gateway/responses.go#L620) |
+| Type | field_declaration | joinToolRuns::item | [621](../../magpie/internal/gateway/responses.go#L621) |
+| Role | field_declaration | joinToolRuns::item | [622](../../magpie/internal/gateway/responses.go#L622) |
+| CallID | field_declaration | joinToolRuns::item | [623](../../magpie/internal/gateway/responses.go#L623) |
+| held | var_spec | joinToolRuns | [649](../../magpie/internal/gateway/responses.go#L649) |
+| orphanedToolOutputs | function_declaration |  | [713](../../magpie/internal/gateway/responses.go#L713) |
+| q | var_spec | orphanedToolOutputs | [714](../../magpie/internal/gateway/responses.go#L714) |
+| pending | var_spec | orphanedToolOutputs | [724](../../magpie/internal/gateway/responses.go#L724) |
+| item | var_spec | orphanedToolOutputs | [731](../../magpie/internal/gateway/responses.go#L731) |
+| Type | field_declaration | orphanedToolOutputs::item | [732](../../magpie/internal/gateway/responses.go#L732) |
+| CallID | field_declaration | orphanedToolOutputs::item | [733](../../magpie/internal/gateway/responses.go#L733) |
+| Output | field_declaration | orphanedToolOutputs::item | [734](../../magpie/internal/gateway/responses.go#L734) |
+| pairToolItems | function_declaration |  | [804](../../magpie/internal/gateway/responses.go#L804) |
+| q | var_spec | pairToolItems | [808](../../magpie/internal/gateway/responses.go#L808) |
+| item | type_spec | pairToolItems | [816](../../magpie/internal/gateway/responses.go#L816) |
+| Type | field_declaration | pairToolItems::item | [817](../../magpie/internal/gateway/responses.go#L817) |
+| CallID | field_declaration | pairToolItems::item | [818](../../magpie/internal/gateway/responses.go#L818) |
+| synthetic | var_spec | pairToolItems | [834](../../magpie/internal/gateway/responses.go#L834) |
+| mergeTurns | function_declaration |  | [866](../../magpie/internal/gateway/responses.go#L866) |
+| out | var_spec | mergeTurns | [867](../../magpie/internal/gateway/responses.go#L867) |
+| responsesParts | function_declaration |  | [878](../../magpie/internal/gateway/responses.go#L878) |
+| s | var_spec | responsesParts | [879](../../magpie/internal/gateway/responses.go#L879) |
+| items | var_spec | responsesParts | [886](../../magpie/internal/gateway/responses.go#L886) |
+| Type | field_declaration | responsesParts::items | [887](../../magpie/internal/gateway/responses.go#L887) |
+| Text | field_declaration | responsesParts::items | [888](../../magpie/internal/gateway/responses.go#L888) |
+| ImageURL | field_declaration | responsesParts::items | [889](../../magpie/internal/gateway/responses.go#L889) |
+| Detail | field_declaration | responsesParts::items | [890](../../magpie/internal/gateway/responses.go#L890) |
+| out | var_spec | responsesParts | [893](../../magpie/internal/gateway/responses.go#L893) |
 | replaysReasoning | function_declaration |  | [913](../../magpie/internal/gateway/responses.go#L913) |
 | withReasoningText | function_declaration |  | [930](../../magpie/internal/gateway/responses.go#L930) |
-| Type | field_declaration | withReasoningText | [947](../../magpie/internal/gateway/responses.go#L947) |
-| Role | field_declaration | withReasoningText | [948](../../magpie/internal/gateway/responses.go#L948) |
-| Summary | field_declaration | withReasoningText | [949](../../magpie/internal/gateway/responses.go#L949) |
-| Content | field_declaration | withReasoningText | [950](../../magpie/internal/gateway/responses.go#L950) |
+| q | var_spec | withReasoningText | [935](../../magpie/internal/gateway/responses.go#L935) |
+| it | var_spec | withReasoningText | [946](../../magpie/internal/gateway/responses.go#L946) |
+| Type | field_declaration | withReasoningText::it | [947](../../magpie/internal/gateway/responses.go#L947) |
+| Role | field_declaration | withReasoningText::it | [948](../../magpie/internal/gateway/responses.go#L948) |
+| Summary | field_declaration | withReasoningText::it | [949](../../magpie/internal/gateway/responses.go#L949) |
+| Content | field_declaration | withReasoningText::it | [950](../../magpie/internal/gateway/responses.go#L950) |
+| b | var_spec | withReasoningText | [960](../../magpie/internal/gateway/responses.go#L960) |
+| m | var_spec | withReasoningText | [967](../../magpie/internal/gateway/responses.go#L967) |
 | stepKind | type_spec |  | [994](../../magpie/internal/gateway/responses.go#L994) |
 | stepOther | const_spec |  | [997](../../magpie/internal/gateway/responses.go#L997) |
 | stepReasoning | const_spec |  | [998](../../magpie/internal/gateway/responses.go#L998) |
@@ -27,24 +63,33 @@ Source SHA-256: 7004f1570857952680dd97b24c97cd1bbe779dd5b1b735cfe0996c51de92cc70
 | noReasoningItem | function_declaration |  | [1023](../../magpie/internal/gateway/responses.go#L1023) |
 | reasonFirst | function_declaration |  | [1043](../../magpie/internal/gateway/responses.go#L1043) |
 | sealedReasoning | function_declaration |  | [1096](../../magpie/internal/gateway/responses.go#L1096) |
-| Enc | field_declaration | sealedReasoning | [1101](../../magpie/internal/gateway/responses.go#L1101) |
-| Content | field_declaration | sealedReasoning | [1102](../../magpie/internal/gateway/responses.go#L1102) |
+| it | var_spec | sealedReasoning | [1100](../../magpie/internal/gateway/responses.go#L1100) |
+| Enc | field_declaration | sealedReasoning::it | [1101](../../magpie/internal/gateway/responses.go#L1101) |
+| Content | field_declaration | sealedReasoning::it | [1102](../../magpie/internal/gateway/responses.go#L1102) |
 | buildResponses | function_declaration |  | [1108](../../magpie/internal/gateway/responses.go#L1108) |
-| Type | field_declaration | buildResponses | [1225](../../magpie/internal/gateway/responses.go#L1225) |
-| Role | field_declaration | buildResponses | [1226](../../magpie/internal/gateway/responses.go#L1226) |
+| input | var_spec | buildResponses | [1115](../../magpie/internal/gateway/responses.go#L1115) |
+| loaded | var_spec | buildResponses | [1128](../../magpie/internal/gateway/responses.go#L1128) |
+| content | var_spec | buildResponses | [1138](../../magpie/internal/gateway/responses.go#L1138) |
+| output | var_spec | buildResponses | [1195](../../magpie/internal/gateway/responses.go#L1195) |
+| items | var_spec | buildResponses | [1198](../../magpie/internal/gateway/responses.go#L1198) |
+| k | var_spec | buildResponses | [1224](../../magpie/internal/gateway/responses.go#L1224) |
+| Type | field_declaration | buildResponses::k | [1225](../../magpie/internal/gateway/responses.go#L1225) |
+| Role | field_declaration | buildResponses::k | [1226](../../magpie/internal/gateway/responses.go#L1226) |
+| include | var_spec | buildResponses | [1297](../../magpie/internal/gateway/responses.go#L1297) |
+| tools | var_spec | buildResponses | [1305](../../magpie/internal/gateway/responses.go#L1305) |
 | responsesTool | function_declaration |  | [1357](../../magpie/internal/gateway/responses.go#L1357) |
-| rUsage | struct_type |  | [1365](../../magpie/internal/gateway/responses.go#L1365) |
+| rUsage | type_spec |  | [1365](../../magpie/internal/gateway/responses.go#L1365) |
 | InputTokens | field_declaration | rUsage | [1366](../../magpie/internal/gateway/responses.go#L1366) |
 | OutputTokens | field_declaration | rUsage | [1367](../../magpie/internal/gateway/responses.go#L1367) |
 | TotalTokens | field_declaration | rUsage | [1368](../../magpie/internal/gateway/responses.go#L1368) |
 | InputTokensDetails | field_declaration | rUsage | [1369](../../magpie/internal/gateway/responses.go#L1369) |
-| CachedTokens | field_declaration | rUsage | [1370](../../magpie/internal/gateway/responses.go#L1370) |
-| CacheWriteTokens | field_declaration | rUsage | [1372](../../magpie/internal/gateway/responses.go#L1372) |
+| CachedTokens | field_declaration | rUsage::InputTokensDetails | [1370](../../magpie/internal/gateway/responses.go#L1370) |
+| CacheWriteTokens | field_declaration | rUsage::InputTokensDetails | [1372](../../magpie/internal/gateway/responses.go#L1372) |
 | OutputTokensDetails | field_declaration | rUsage | [1374](../../magpie/internal/gateway/responses.go#L1374) |
-| ReasoningTokens | field_declaration | rUsage | [1375](../../magpie/internal/gateway/responses.go#L1375) |
-| usage | method_declaration | rUsage | [1381](../../magpie/internal/gateway/responses.go#L1381) |
-| responses | method_declaration | Usage | [1387](../../magpie/internal/gateway/responses.go#L1387) |
-| responsesDecoder | struct_type |  | [1405](../../magpie/internal/gateway/responses.go#L1405) |
+| ReasoningTokens | field_declaration | rUsage::OutputTokensDetails | [1375](../../magpie/internal/gateway/responses.go#L1375) |
+| usage | method_declaration |  | [1381](../../magpie/internal/gateway/responses.go#L1381) |
+| responses | method_declaration |  | [1387](../../magpie/internal/gateway/responses.go#L1387) |
+| responsesDecoder | type_spec |  | [1405](../../magpie/internal/gateway/responses.go#L1405) |
 | started | field_declaration | responsesDecoder | [1406](../../magpie/internal/gateway/responses.go#L1406) |
 | called | field_declaration | responsesDecoder | [1407](../../magpie/internal/gateway/responses.go#L1407) |
 | calling | field_declaration | responsesDecoder | [1408](../../magpie/internal/gateway/responses.go#L1408) |
@@ -52,59 +97,14 @@ Source SHA-256: 7004f1570857952680dd97b24c97cd1bbe779dd5b1b735cfe0996c51de92cc70
 | held | field_declaration | responsesDecoder | [1410](../../magpie/internal/gateway/responses.go#L1410) |
 | whole | field_declaration | responsesDecoder | [1411](../../magpie/internal/gateway/responses.go#L1411) |
 | full | field_declaration | responsesDecoder | [1412](../../magpie/internal/gateway/responses.go#L1412) |
-| argsDelta | method_declaration | *responsesDecoder | [1417](../../magpie/internal/gateway/responses.go#L1417) |
-| endCall | method_declaration | *responsesDecoder | [1432](../../magpie/internal/gateway/responses.go#L1432) |
-| jsonWhole | struct_type |  | [1451](../../magpie/internal/gateway/responses.go#L1451) |
+| argsDelta | method_declaration |  | [1417](../../magpie/internal/gateway/responses.go#L1417) |
+| endCall | method_declaration |  | [1432](../../magpie/internal/gateway/responses.go#L1432) |
+| jsonWhole | type_spec |  | [1451](../../magpie/internal/gateway/responses.go#L1451) |
 | depth | field_declaration | jsonWhole | [1452](../../magpie/internal/gateway/responses.go#L1452) |
 | str | field_declaration | jsonWhole | [1453](../../magpie/internal/gateway/responses.go#L1453) |
-| esc | field_declaration | jsonWhole | [1453](../../magpie/internal/gateway/responses.go#L1453) |
 | began | field_declaration | jsonWhole | [1454](../../magpie/internal/gateway/responses.go#L1454) |
-| feed | method_declaration | *jsonWhole | [1458](../../magpie/internal/gateway/responses.go#L1458) |
+| feed | method_declaration |  | [1458](../../magpie/internal/gateway/responses.go#L1458) |
 | pickArgs | function_declaration |  | [1489](../../magpie/internal/gateway/responses.go#L1489) |
-| decode | method_declaration | *responsesDecoder | [1501](../../magpie/internal/gateway/responses.go#L1501) |
-| Type | field_declaration | *responsesDecoder.decode | [1503](../../magpie/internal/gateway/responses.go#L1503) |
-| Delta | field_declaration | *responsesDecoder.decode | [1504](../../magpie/internal/gateway/responses.go#L1504) |
-| Item | field_declaration | *responsesDecoder.decode | [1505](../../magpie/internal/gateway/responses.go#L1505) |
-| Arguments | field_declaration | *responsesDecoder.decode | [1507](../../magpie/internal/gateway/responses.go#L1507) |
-| Response | field_declaration | *responsesDecoder.decode | [1508](../../magpie/internal/gateway/responses.go#L1508) |
-| ID | field_declaration | *responsesDecoder.decode | [1509](../../magpie/internal/gateway/responses.go#L1509) |
-| Model | field_declaration | *responsesDecoder.decode | [1510](../../magpie/internal/gateway/responses.go#L1510) |
-| Status | field_declaration | *responsesDecoder.decode | [1511](../../magpie/internal/gateway/responses.go#L1511) |
-| Usage | field_declaration | *responsesDecoder.decode | [1512](../../magpie/internal/gateway/responses.go#L1512) |
-| IncompleteDetails | field_declaration | *responsesDecoder.decode | [1513](../../magpie/internal/gateway/responses.go#L1513) |
-| Reason | field_declaration | *responsesDecoder.decode | [1514](../../magpie/internal/gateway/responses.go#L1514) |
-| Error | field_declaration | *responsesDecoder.decode | [1516](../../magpie/internal/gateway/responses.go#L1516) |
-| Message | field_declaration | *responsesDecoder.decode | [1517](../../magpie/internal/gateway/responses.go#L1517) |
-| Output | field_declaration | *responsesDecoder.decode | [1519](../../magpie/internal/gateway/responses.go#L1519) |
-| Error | field_declaration | *responsesDecoder.decode | [1521](../../magpie/internal/gateway/responses.go#L1521) |
-| Message | field_declaration | *responsesDecoder.decode | [1522](../../magpie/internal/gateway/responses.go#L1522) |
-| Message | field_declaration | *responsesDecoder.decode | [1524](../../magpie/internal/gateway/responses.go#L1524) |
-| Item | field_declaration | *responsesDecoder.decode | [1577](../../magpie/internal/gateway/responses.go#L1577) |
-| requestRefused | function_declaration |  | [1651](../../magpie/internal/gateway/responses.go#L1651) |
-| saidError | function_declaration |  | [1666](../../magpie/internal/gateway/responses.go#L1666) |
-| responsesEncoder | struct_type |  | [1677](../../magpie/internal/gateway/responses.go#L1677) |
-| w | field_declaration | responsesEncoder | [1678](../../magpie/internal/gateway/responses.go#L1678) |
-| model | field_declaration | responsesEncoder | [1679](../../magpie/internal/gateway/responses.go#L1679) |
-| id | field_declaration | responsesEncoder | [1680](../../magpie/internal/gateway/responses.go#L1680) |
-| created | field_declaration | responsesEncoder | [1681](../../magpie/internal/gateway/responses.go#L1681) |
-| seq | field_declaration | responsesEncoder | [1682](../../magpie/internal/gateway/responses.go#L1682) |
-| started | field_declaration | responsesEncoder | [1683](../../magpie/internal/gateway/responses.go#L1683) |
-| item | field_declaration | responsesEncoder | [1684](../../magpie/internal/gateway/responses.go#L1684) |
-| open | field_declaration | responsesEncoder | [1685](../../magpie/internal/gateway/responses.go#L1685) |
-| itemID | field_declaration | responsesEncoder | [1686](../../magpie/internal/gateway/responses.go#L1686) |
-| text | field_declaration | responsesEncoder | [1687](../../magpie/internal/gateway/responses.go#L1687) |
-| thinkNew | field_declaration | responsesEncoder | [1690](../../magpie/internal/gateway/responses.go#L1690) |
-| thinkID | field_declaration | responsesEncoder | [1691](../../magpie/internal/gateway/responses.go#L1691) |
-| output | field_declaration | responsesEncoder | [1692](../../magpie/internal/gateway/responses.go#L1692) |
-| col | field_declaration | responsesEncoder | [1693](../../magpie/internal/gateway/responses.go#L1693) |
-| named | field_declaration | responsesEncoder | [1694](../../magpie/internal/gateway/responses.go#L1694) |
-| call | field_declaration | responsesEncoder | [1698](../../magpie/internal/gateway/responses.go#L1698) |
-| input | field_declaration | responsesEncoder | [1701](../../magpie/internal/gateway/responses.go#L1701) |
-| heldMsg | field_declaration | responsesEncoder | [1704](../../magpie/internal/gateway/responses.go#L1704) |
-| held | field_declaration | responsesEncoder | [1705](../../magpie/internal/gateway/responses.go#L1705) |
-| heldEvent | struct_type |  | [1708](../../magpie/internal/gateway/responses.go#L1708) |
-| typ | field_declaration | heldEvent | [1709](../../magpie/internal/gateway/responses.go#L1709) |
-| fields | field_declaration | heldEvent | [1710](../../magpie/internal/gateway/responses.go#L1710) |
-| callTo | function_declaration |  | [1716](../../magpie/internal/gateway/responses.go#L1716) |
-| itemPrefix | function_declaration |  | [1750](../../magpie/internal/gateway/responses.go#L1750) |
-| send | method_declaration | *responsesEncoder | [1757](../../magpie/internal/gateway/responses.go#L1757) |
+| decode | method_declaration |  | [1501](../../magpie/internal/gateway/responses.go#L1501) |
+| ev | var_spec | decode | [1502](../../magpie/internal/gateway/responses.go#L1502) |
+| Type | field_declaration | decode::ev | [1503](../../magpie/internal/gateway/responses.go#L1503) |

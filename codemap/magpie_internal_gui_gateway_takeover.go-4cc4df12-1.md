@@ -8,7 +8,7 @@ Source SHA-256: 814b8097ec7b65ba1ed8e29bee048bd3fe6145c9d8cc63feec5501bf829c0e02
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| gatewayFixJSON | struct_type |  | [26](../../magpie/internal/gui/gateway_takeover.go#L26) |
+| gatewayFixJSON | type_spec |  | [26](../../magpie/internal/gui/gateway_takeover.go#L26) |
 | OK | field_declaration | gatewayFixJSON | [27](../../magpie/internal/gui/gateway_takeover.go#L27) |
 | Reason | field_declaration | gatewayFixJSON | [37](../../magpie/internal/gui/gateway_takeover.go#L37) |
 | PID | field_declaration | gatewayFixJSON | [38](../../magpie/internal/gui/gateway_takeover.go#L38) |

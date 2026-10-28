@@ -9,8 +9,15 @@ Source SHA-256: 08d41d34bf98c450e5a640b8290618dc4638dd80b9efac1b7c30d79e1c299457
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | reported | var_spec |  | [19](../../magpie/internal/usage/reported.go#L19) |
+| ingest | field_declaration | reported | [22](../../magpie/internal/usage/reported.go#L22) |
+| path | field_declaration | reported | [23](../../magpie/internal/usage/reported.go#L23) |
+| info | field_declaration | reported | [24](../../magpie/internal/usage/reported.go#L24) |
+| off | field_declaration | reported | [25](../../magpie/internal/usage/reported.go#L25) |
+| rids | field_declaration | reported | [26](../../magpie/internal/usage/reported.go#L26) |
 | reportedMark | var_spec |  | [31](../../magpie/internal/usage/reported.go#L31) |
 | catchUpReported | function_declaration |  | [37](../../magpie/internal/usage/reported.go#L37) |
-| RID | field_declaration | catchUpReported | [69](../../magpie/internal/usage/reported.go#L69) |
-| Source | field_declaration | catchUpReported | [70](../../magpie/internal/usage/reported.go#L70) |
+| r | var_spec | catchUpReported | [68](../../magpie/internal/usage/reported.go#L68) |
+| RID | field_declaration | catchUpReported::r | [69](../../magpie/internal/usage/reported.go#L69) |
+| Source | field_declaration | catchUpReported::r | [70](../../magpie/internal/usage/reported.go#L70) |
 | IngestReported | function_declaration |  | [89](../../magpie/internal/usage/reported.go#L89) |
+| buf | var_spec | IngestReported | [105](../../magpie/internal/usage/reported.go#L105) |

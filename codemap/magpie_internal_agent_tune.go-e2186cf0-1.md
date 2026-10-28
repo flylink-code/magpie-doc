@@ -11,28 +11,32 @@ Source SHA-256: 55b840c30b8d032bbd1fb9e5d8d74dbc6a04aab96c1c42c36db2b15af5740eab
 | TuneCompact | const_spec |  | [22](../../magpie/internal/agent/tune.go#L22) |
 | TuneCache | const_spec |  | [23](../../magpie/internal/agent/tune.go#L23) |
 | TuneSubCache | const_spec |  | [24](../../magpie/internal/agent/tune.go#L24) |
-| TuneSetting | struct_type |  | [28](../../magpie/internal/agent/tune.go#L28) |
+| TuneSetting | type_spec |  | [28](../../magpie/internal/agent/tune.go#L28) |
 | Value | field_declaration | TuneSetting | [29](../../magpie/internal/agent/tune.go#L29) |
 | Source | field_declaration | TuneSetting | [32](../../magpie/internal/agent/tune.go#L32) |
 | Locked | field_declaration | TuneSetting | [35](../../magpie/internal/agent/tune.go#L35) |
 | Ours | field_declaration | TuneSetting | [37](../../magpie/internal/agent/tune.go#L37) |
-| tuneStash | struct_type |  | [41](../../magpie/internal/agent/tune.go#L41) |
+| tuneStash | type_spec |  | [41](../../magpie/internal/agent/tune.go#L41) |
 | Had | field_declaration | tuneStash | [42](../../magpie/internal/agent/tune.go#L42) |
 | Raw | field_declaration | tuneStash | [43](../../magpie/internal/agent/tune.go#L43) |
 | Set | field_declaration | tuneStash | [44](../../magpie/internal/agent/tune.go#L44) |
 | tuneKey | function_declaration |  | [47](../../magpie/internal/agent/tune.go#L47) |
 | tuneHome | function_declaration |  | [55](../../magpie/internal/agent/tune.go#L55) |
-| tunePlace | struct_type |  | [65](../../magpie/internal/agent/tune.go#L65) |
+| tunePlace | type_spec |  | [65](../../magpie/internal/agent/tune.go#L65) |
 | path | field_declaration | tunePlace | [66](../../magpie/internal/agent/tune.go#L66) |
 | key | field_declaration | tunePlace | [67](../../magpie/internal/agent/tune.go#L67) |
 | toml | field_declaration | tunePlace | [68](../../magpie/internal/agent/tune.go#L68) |
 | env | field_declaration | tunePlace | [69](../../magpie/internal/agent/tune.go#L69) |
 | number | field_declaration | tunePlace | [70](../../magpie/internal/agent/tune.go#L70) |
 | tuneWhere | function_declaration |  | [73](../../magpie/internal/agent/tune.go#L73) |
-| get | method_declaration | tunePlace | [98](../../magpie/internal/agent/tune.go#L98) |
-| envOf | method_declaration | tunePlace | [107](../../magpie/internal/agent/tune.go#L107) |
+| get | method_declaration |  | [98](../../magpie/internal/agent/tune.go#L98) |
+| envOf | method_declaration |  | [107](../../magpie/internal/agent/tune.go#L107) |
 | TuneRead | function_declaration |  | [115](../../magpie/internal/agent/tune.go#L115) |
+| s | var_spec | TuneRead | [120](../../magpie/internal/agent/tune.go#L120) |
 | tuneStashed | function_declaration |  | [151](../../magpie/internal/agent/tune.go#L151) |
+| st | var_spec | tuneStashed | [156](../../magpie/internal/agent/tune.go#L156) |
 | TuneApply | function_declaration |  | [166](../../magpie/internal/agent/tune.go#L166) |
+| v | var_spec | TuneApply | [175](../../magpie/internal/agent/tune.go#L175) |
 | TuneUndo | function_declaration |  | [207](../../magpie/internal/agent/tune.go#L207) |
+| v | var_spec | TuneUndo | [221](../../magpie/internal/agent/tune.go#L221) |
 | tomlRaw | function_declaration |  | [256](../../magpie/internal/agent/tune.go#L256) |

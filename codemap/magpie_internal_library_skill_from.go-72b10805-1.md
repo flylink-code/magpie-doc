@@ -8,18 +8,19 @@ Source SHA-256: e141471492757f8e1c0b66287599c5311acafe970e3b012d526471fe059f4290
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| repoOf | method_declaration | *tracer | [29](../../magpie/internal/library/skill_from.go#L29) |
-| folder | method_declaration | *tracer | [55](../../magpie/internal/library/skill_from.go#L55) |
-| tracer | struct_type |  | [65](../../magpie/internal/library/skill_from.go#L65) |
+| repoOf | method_declaration |  | [29](../../magpie/internal/library/skill_from.go#L29) |
+| folder | method_declaration |  | [55](../../magpie/internal/library/skill_from.go#L55) |
+| tracer | type_spec |  | [65](../../magpie/internal/library/skill_from.go#L65) |
 | locked | field_declaration | tracer | [66](../../magpie/internal/library/skill_from.go#L66) |
 | read | field_declaration | tracer | [67](../../magpie/internal/library/skill_from.go#L67) |
-| lock | method_declaration | *tracer | [75](../../magpie/internal/library/skill_from.go#L75) |
+| lock | method_declaration |  | [75](../../magpie/internal/library/skill_from.go#L75) |
 | readSkillLock | function_declaration |  | [90](../../magpie/internal/library/skill_from.go#L90) |
-| Skills | field_declaration | readSkillLock | [96](../../magpie/internal/library/skill_from.go#L96) |
-| Source | field_declaration | readSkillLock | [97](../../magpie/internal/library/skill_from.go#L97) |
-| SourceType | field_declaration | readSkillLock | [98](../../magpie/internal/library/skill_from.go#L98) |
-| SourceURL | field_declaration | readSkillLock | [99](../../magpie/internal/library/skill_from.go#L99) |
-| SourceBaseURL | field_declaration | readSkillLock | [100](../../magpie/internal/library/skill_from.go#L100) |
+| f | var_spec | readSkillLock | [95](../../magpie/internal/library/skill_from.go#L95) |
+| Skills | field_declaration | readSkillLock::f | [96](../../magpie/internal/library/skill_from.go#L96) |
+| Source | field_declaration | readSkillLock::f::Skills | [97](../../magpie/internal/library/skill_from.go#L97) |
+| SourceType | field_declaration | readSkillLock::f::Skills | [98](../../magpie/internal/library/skill_from.go#L98) |
+| SourceURL | field_declaration | readSkillLock::f::Skills | [99](../../magpie/internal/library/skill_from.go#L99) |
+| SourceBaseURL | field_declaration | readSkillLock::f::Skills | [100](../../magpie/internal/library/skill_from.go#L100) |
 | wellKnownBase | function_declaration |  | [131](../../magpie/internal/library/skill_from.go#L131) |
 | fromKey | function_declaration |  | [149](../../magpie/internal/library/skill_from.go#L149) |
 | siteOf | function_declaration |  | [158](../../magpie/internal/library/skill_from.go#L158) |
@@ -30,4 +31,7 @@ Source SHA-256: e141471492757f8e1c0b66287599c5311acafe970e3b012d526471fe059f4290
 | scpRemote | var_spec |  | [250](../../magpie/internal/library/skill_from.go#L250) |
 | remoteRepo | function_declaration |  | [254](../../magpie/internal/library/skill_from.go#L254) |
 | noteFrom | function_declaration |  | [288](../../magpie/internal/library/skill_from.go#L288) |
+| same | var_spec | noteFrom | [301](../../magpie/internal/library/skill_from.go#L301) |
 | RegroupSkills | function_declaration |  | [351](../../magpie/internal/library/skill_from.go#L351) |
+| repos | var_spec | RegroupSkills | [357](../../magpie/internal/library/skill_from.go#L357) |
+| first | var_spec | RegroupSkills | [370](../../magpie/internal/library/skill_from.go#L370) |

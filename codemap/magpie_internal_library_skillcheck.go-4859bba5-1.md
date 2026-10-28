@@ -9,7 +9,7 @@ Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | githubAPI | var_spec |  | [29](../../magpie/internal/library/skillcheck.go#L29) |
-| SkillCheck | struct_type |  | [32](../../magpie/internal/library/skillcheck.go#L32) |
+| SkillCheck | type_spec |  | [32](../../magpie/internal/library/skillcheck.go#L32) |
 | Name | field_declaration | SkillCheck | [33](../../magpie/internal/library/skillcheck.go#L33) |
 | Status | field_declaration | SkillCheck | [38](../../magpie/internal/library/skillcheck.go#L38) |
 | Commit | field_declaration | SkillCheck | [39](../../magpie/internal/library/skillcheck.go#L39) |
@@ -18,24 +18,26 @@ Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
 | URL | field_declaration | SkillCheck | [44](../../magpie/internal/library/skillcheck.go#L44) |
 | Error | field_declaration | SkillCheck | [45](../../magpie/internal/library/skillcheck.go#L45) |
 | Limited | field_declaration | SkillCheck | [48](../../magpie/internal/library/skillcheck.go#L48) |
-| Limited | struct_type |  | [53](../../magpie/internal/library/skillcheck.go#L53) |
+| Limited | type_spec |  | [53](../../magpie/internal/library/skillcheck.go#L53) |
 | Until | field_declaration | Limited | [54](../../magpie/internal/library/skillcheck.go#L54) |
 | Token | field_declaration | Limited | [55](../../magpie/internal/library/skillcheck.go#L55) |
 | limitedView | function_declaration |  | [58](../../magpie/internal/library/skillcheck.go#L58) |
 | checks | var_spec |  | [68](../../magpie/internal/library/skillcheck.go#L68) |
+| m | field_declaration | checks | [70](../../magpie/internal/library/skillcheck.go#L70) |
 | lastCheck | function_declaration |  | [73](../../magpie/internal/library/skillcheck.go#L73) |
 | forgetCheck | function_declaration |  | [83](../../magpie/internal/library/skillcheck.go#L83) |
 | checkedAt | var_spec |  | [91](../../magpie/internal/library/skillcheck.go#L91) |
 | checkEvery | const_spec |  | [95](../../magpie/internal/library/skillcheck.go#L95) |
 | checkDue | function_declaration |  | [100](../../magpie/internal/library/skillcheck.go#L100) |
-| commit | struct_type |  | [109](../../magpie/internal/library/skillcheck.go#L109) |
+| commit | type_spec |  | [109](../../magpie/internal/library/skillcheck.go#L109) |
 | SHA | field_declaration | commit | [110](../../magpie/internal/library/skillcheck.go#L110) |
 | URL | field_declaration | commit | [111](../../magpie/internal/library/skillcheck.go#L111) |
 | Commit | field_declaration | commit | [112](../../magpie/internal/library/skillcheck.go#L112) |
-| Message | field_declaration | commit | [113](../../magpie/internal/library/skillcheck.go#L113) |
-| Committer | field_declaration | commit | [114](../../magpie/internal/library/skillcheck.go#L114) |
-| Date | field_declaration | commit | [115](../../magpie/internal/library/skillcheck.go#L115) |
+| Message | field_declaration | commit::Commit | [113](../../magpie/internal/library/skillcheck.go#L113) |
+| Committer | field_declaration | commit::Commit | [114](../../magpie/internal/library/skillcheck.go#L114) |
+| Date | field_declaration | commit::Commit::Committer | [115](../../magpie/internal/library/skillcheck.go#L115) |
 | lastCommit | function_declaration |  | [123](../../magpie/internal/library/skillcheck.go#L123) |
+| list | var_spec | lastCommit | [147](../../magpie/internal/library/skillcheck.go#L147) |
 | cacheBody | const_spec |  | [160](../../magpie/internal/library/skillcheck.go#L160) |
 | errOverCap | var_spec |  | [163](../../magpie/internal/library/skillcheck.go#L163) |
 | apiGet | function_declaration |  | [172](../../magpie/internal/library/skillcheck.go#L172) |
@@ -44,4 +46,15 @@ Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
 | hashWalk | function_declaration |  | [228](../../magpie/internal/library/skillcheck.go#L228) |
 | firstLine | function_declaration |  | [284](../../magpie/internal/library/skillcheck.go#L284) |
 | CheckSkills | function_declaration |  | [301](../../magpie/internal/library/skillcheck.go#L301) |
+| out | var_spec | CheckSkills | [317](../../magpie/internal/library/skillcheck.go#L317) |
+| known | var_spec | CheckSkills | [318](../../magpie/internal/library/skillcheck.go#L318) |
+| omu | var_spec | CheckSkills | [319](../../magpie/internal/library/skillcheck.go#L319) |
+| wg | var_spec | CheckSkills | [320](../../magpie/internal/library/skillcheck.go#L320) |
+| sem | var_spec | CheckSkills | [321](../../magpie/internal/library/skillcheck.go#L321) |
+| limited | var_spec | CheckSkills | [322](../../magpie/internal/library/skillcheck.go#L322) |
+| c | var_spec | CheckSkills | [334](../../magpie/internal/library/skillcheck.go#L334) |
+| sha | var_spec | CheckSkills | [335](../../magpie/internal/library/skillcheck.go#L335) |
+| gone | var_spec | CheckSkills | [384](../../magpie/internal/library/skillcheck.go#L384) |
 | checkSkill | function_declaration |  | [409](../../magpie/internal/library/skillcheck.go#L409) |
+| err | var_spec | checkSkill | [419](../../magpie/internal/library/skillcheck.go#L419) |
+| e | var_spec | checkSkill | [422](../../magpie/internal/library/skillcheck.go#L422) |

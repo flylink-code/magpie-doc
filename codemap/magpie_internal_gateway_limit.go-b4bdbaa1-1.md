@@ -11,3 +11,6 @@ Source SHA-256: cddfcea232d0a388e92ebfba8f8d3ac29936c7a989dc2ba1095c7e7c1c115572
 | tooFewTokens | var_spec |  | [16](../../magpie/internal/gateway/limit.go#L16) |
 | tokenFloor | function_declaration |  | [20](../../magpie/internal/gateway/limit.go#L20) |
 | withTokenFloor | function_declaration |  | [38](../../magpie/internal/gateway/limit.go#L38) |
+| q | var_spec | withTokenFloor | [39](../../magpie/internal/gateway/limit.go#L39) |
+| n | var_spec | withTokenFloor | [44](../../magpie/internal/gateway/limit.go#L44) |
+| gc | var_spec | withTokenFloor | [55](../../magpie/internal/gateway/limit.go#L55) |

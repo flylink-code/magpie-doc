@@ -9,10 +9,16 @@ Source SHA-256: 9fcc9c110dc59de0c70353bfca34122dac26c2af6774e5d2cb085609de15b309
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | antigravityPoolModels | function_declaration |  | [18](../../magpie/internal/provider/antigravity_pool.go#L18) |
-| result | struct_type | antigravityPoolModels | [25](../../magpie/internal/provider/antigravity_pool.go#L25) |
-| models | field_declaration | antigravityPoolModels.result | [26](../../magpie/internal/provider/antigravity_pool.go#L26) |
-| err | field_declaration | antigravityPoolModels.result | [27](../../magpie/internal/provider/antigravity_pool.go#L27) |
+| accounts | var_spec | antigravityPoolModels | [19](../../magpie/internal/provider/antigravity_pool.go#L19) |
+| result | type_spec | antigravityPoolModels | [25](../../magpie/internal/provider/antigravity_pool.go#L25) |
+| models | field_declaration | antigravityPoolModels::result | [26](../../magpie/internal/provider/antigravity_pool.go#L26) |
+| err | field_declaration | antigravityPoolModels::result | [27](../../magpie/internal/provider/antigravity_pool.go#L27) |
+| wg | var_spec | antigravityPoolModels | [30](../../magpie/internal/provider/antigravity_pool.go#L30) |
+| out | var_spec | antigravityPoolModels | [51](../../magpie/internal/provider/antigravity_pool.go#L51) |
+| lastErr | var_spec | antigravityPoolModels | [52](../../magpie/internal/provider/antigravity_pool.go#L52) |
 | mergeAntigravityModels | function_declaration |  | [81](../../magpie/internal/provider/antigravity_pool.go#L81) |
 | antigravityNoted | var_spec |  | [105](../../magpie/internal/provider/antigravity_pool.go#L105) |
 | noteAntigravityList | function_declaration |  | [115](../../magpie/internal/provider/antigravity_pool.go#L115) |
+| accounts | var_spec | noteAntigravityList | [120](../../magpie/internal/provider/antigravity_pool.go#L120) |
+| out | var_spec | noteAntigravityList | [144](../../magpie/internal/provider/antigravity_pool.go#L144) |
 | sameModelIDs | function_declaration |  | [158](../../magpie/internal/provider/antigravity_pool.go#L158) |

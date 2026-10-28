@@ -9,3 +9,4 @@ Source SHA-256: 41024123eb9ef0bfb7aca332eded8b4319d7c580f1ff8802da57e06d5c5b6edb
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | processCPU | function_declaration |  | [12](../../magpie/internal/gateway/cpu_unix.go#L12) |
+| ru | var_spec | processCPU | [13](../../magpie/internal/gateway/cpu_unix.go#L13) |

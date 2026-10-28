@@ -14,27 +14,31 @@ Source SHA-256: cbbc06e61543444ab0b1a50070d956259a93d6afa350e1b6ae0f047bbc509995
 | qwenAuth | const_spec |  | [40](../../magpie/internal/agent/qwen.go#L40) |
 | qwenEnv | const_spec |  | [41](../../magpie/internal/agent/qwen.go#L41) |
 | qwenEnvKey | const_spec |  | [48](../../magpie/internal/agent/qwen.go#L48) |
-| qwenEntry | struct_type |  | [53](../../magpie/internal/agent/qwen.go#L53) |
+| qwenEntry | type_spec |  | [53](../../magpie/internal/agent/qwen.go#L53) |
 | BaseURL | field_declaration | qwenEntry | [54](../../magpie/internal/agent/qwen.go#L54) |
 | EnvKey | field_declaration | qwenEntry | [55](../../magpie/internal/agent/qwen.go#L55) |
 | Generation | field_declaration | qwenEntry | [56](../../magpie/internal/agent/qwen.go#L56) |
 | ID | field_declaration | qwenEntry | [57](../../magpie/internal/agent/qwen.go#L57) |
 | Name | field_declaration | qwenEntry | [58](../../magpie/internal/agent/qwen.go#L58) |
-| qwenGen | struct_type |  | [62](../../magpie/internal/agent/qwen.go#L62) |
+| qwenGen | type_spec |  | [62](../../magpie/internal/agent/qwen.go#L62) |
 | ContextWindowSize | field_declaration | qwenGen | [63](../../magpie/internal/agent/qwen.go#L63) |
 | qwenEntriesAt | function_declaration |  | [68](../../magpie/internal/agent/qwen.go#L68) |
-| qwenCustom | struct_type |  | [86](../../magpie/internal/agent/qwen.go#L86) |
+| out | var_spec | qwenEntriesAt | [69](../../magpie/internal/agent/qwen.go#L69) |
+| qwenCustom | type_spec |  | [86](../../magpie/internal/agent/qwen.go#L86) |
 | raw | field_declaration | qwenCustom | [87](../../magpie/internal/agent/qwen.go#L87) |
 | id | field_declaration | qwenCustom | [88](../../magpie/internal/agent/qwen.go#L88) |
-| name | field_declaration | qwenCustom | [88](../../magpie/internal/agent/qwen.go#L88) |
 | base | field_declaration | qwenCustom | [89](../../magpie/internal/agent/qwen.go#L89) |
-| envKey | field_declaration | qwenCustom | [89](../../magpie/internal/agent/qwen.go#L89) |
 | ours | field_declaration | qwenCustom | [90](../../magpie/internal/agent/qwen.go#L90) |
 | qwenCustoms | function_declaration |  | [94](../../magpie/internal/agent/qwen.go#L94) |
+| out | var_spec | qwenCustoms | [99](../../magpie/internal/agent/qwen.go#L99) |
 | qwenModelOf | function_declaration |  | [123](../../magpie/internal/agent/qwen.go#L123) |
 | qwenPrune | function_declaration |  | [132](../../magpie/internal/agent/qwen.go#L132) |
 | qwenFind | function_declaration |  | [141](../../magpie/internal/agent/qwen.go#L141) |
 | qwen | function_declaration |  | [150](../../magpie/internal/agent/qwen.go#L150) |
 | qwenIn | function_declaration |  | [155](../../magpie/internal/agent/qwen.go#L155) |
+| ms | var_spec | qwenIn | [241](../../magpie/internal/agent/qwen.go#L241) |
+| had | var_spec | qwenIn | [242](../../magpie/internal/agent/qwen.go#L242) |
+| c | var_spec | qwenIn | [343](../../magpie/internal/agent/qwen.go#L343) |
 | qwenOwnOptions | function_declaration |  | [417](../../magpie/internal/agent/qwen.go#L417) |
+| out | var_spec | qwenOwnOptions | [419](../../magpie/internal/agent/qwen.go#L419) |
 | noticeQwen | var_spec |  | [439](../../magpie/internal/agent/qwen.go#L439) |

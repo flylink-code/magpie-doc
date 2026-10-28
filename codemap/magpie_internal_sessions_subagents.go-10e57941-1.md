@@ -8,7 +8,7 @@ Source SHA-256: fa25805852f4f9bdec52d1ad9e04436ef3f5e7e315365d8d1ef7f96de726e493
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Subagent | struct_type |  | [22](../../magpie/internal/sessions/subagents.go#L22) |
+| Subagent | type_spec |  | [22](../../magpie/internal/sessions/subagents.go#L22) |
 | ID | field_declaration | Subagent | [23](../../magpie/internal/sessions/subagents.go#L23) |
 | Title | field_declaration | Subagent | [24](../../magpie/internal/sessions/subagents.go#L24) |
 | Kind | field_declaration | Subagent | [27](../../magpie/internal/sessions/subagents.go#L27) |
@@ -17,31 +17,36 @@ Source SHA-256: fa25805852f4f9bdec52d1ad9e04436ef3f5e7e315365d8d1ef7f96de726e493
 | Last | field_declaration | Subagent | [31](../../magpie/internal/sessions/subagents.go#L31) |
 | Path | field_declaration | Subagent | [33](../../magpie/internal/sessions/subagents.go#L33) |
 | subagentsOf | function_declaration |  | [37](../../magpie/internal/sessions/subagents.go#L37) |
-| ccSubMeta | struct_type |  | [111](../../magpie/internal/sessions/subagents.go#L111) |
+| out | var_spec | subagentsOf | [38](../../magpie/internal/sessions/subagents.go#L38) |
+| spawned | var_spec | subagentsOf | [39](../../magpie/internal/sessions/subagents.go#L39) |
+| ccSubMeta | type_spec |  | [111](../../magpie/internal/sessions/subagents.go#L111) |
 | AgentType | field_declaration | ccSubMeta | [112](../../magpie/internal/sessions/subagents.go#L112) |
 | Description | field_declaration | ccSubMeta | [113](../../magpie/internal/sessions/subagents.go#L113) |
 | ParentAgentID | field_declaration | ccSubMeta | [114](../../magpie/internal/sessions/subagents.go#L114) |
 | ccMeta | function_declaration |  | [120](../../magpie/internal/sessions/subagents.go#L120) |
+| m | var_spec | ccMeta | [129](../../magpie/internal/sessions/subagents.go#L129) |
 | ccMetas | var_spec |  | [140](../../magpie/internal/sessions/subagents.go#L140) |
 | ccTask | function_declaration |  | [147](../../magpie/internal/sessions/subagents.go#L147) |
-| Type | field_declaration | ccTask | [166](../../magpie/internal/sessions/subagents.go#L166) |
-| IsMeta | field_declaration | ccTask | [167](../../magpie/internal/sessions/subagents.go#L167) |
-| Message | field_declaration | ccTask | [168](../../magpie/internal/sessions/subagents.go#L168) |
-| Content | field_declaration | ccTask | [169](../../magpie/internal/sessions/subagents.go#L169) |
-| ccTaskRead | struct_type |  | [191](../../magpie/internal/sessions/subagents.go#L191) |
+| l | var_spec | ccTask | [165](../../magpie/internal/sessions/subagents.go#L165) |
+| Type | field_declaration | ccTask::l | [166](../../magpie/internal/sessions/subagents.go#L166) |
+| IsMeta | field_declaration | ccTask::l | [167](../../magpie/internal/sessions/subagents.go#L167) |
+| Message | field_declaration | ccTask::l | [168](../../magpie/internal/sessions/subagents.go#L168) |
+| Content | field_declaration | ccTask::l::Message | [169](../../magpie/internal/sessions/subagents.go#L169) |
+| ccTaskRead | type_spec |  | [191](../../magpie/internal/sessions/subagents.go#L191) |
 | task | field_declaration | ccTaskRead | [192](../../magpie/internal/sessions/subagents.go#L192) |
 | size | field_declaration | ccTaskRead | [193](../../magpie/internal/sessions/subagents.go#L193) |
 | mod | field_declaration | ccTaskRead | [194](../../magpie/internal/sessions/subagents.go#L194) |
 | ccTasks | var_spec |  | [197](../../magpie/internal/sessions/subagents.go#L197) |
 | ocSubagentTitle | function_declaration |  | [202](../../magpie/internal/sessions/subagents.go#L202) |
-| agent | method_declaration | ocV2DB | [217](../../magpie/internal/sessions/subagents.go#L217) |
+| agent | method_declaration |  | [217](../../magpie/internal/sessions/subagents.go#L217) |
+| a | var_spec | agent | [221](../../magpie/internal/sessions/subagents.go#L221) |
 | ocAgents | var_spec |  | [230](../../magpie/internal/sessions/subagents.go#L230) |
-| kimiSpawn | struct_type |  | [234](../../magpie/internal/sessions/subagents.go#L234) |
+| kimiSpawn | type_spec |  | [234](../../magpie/internal/sessions/subagents.go#L234) |
 | SubagentID | field_declaration | kimiSpawn | [235](../../magpie/internal/sessions/subagents.go#L235) |
 | SubagentName | field_declaration | kimiSpawn | [236](../../magpie/internal/sessions/subagents.go#L236) |
 | ParentAgentID | field_declaration | kimiSpawn | [237](../../magpie/internal/sessions/subagents.go#L237) |
 | Description | field_declaration | kimiSpawn | [238](../../magpie/internal/sessions/subagents.go#L238) |
-| kimiWireSubs | struct_type |  | [243](../../magpie/internal/sessions/subagents.go#L243) |
+| kimiWireSubs | type_spec |  | [243](../../magpie/internal/sessions/subagents.go#L243) |
 | size | field_declaration | kimiWireSubs | [244](../../magpie/internal/sessions/subagents.go#L244) |
 | mod | field_declaration | kimiWireSubs | [245](../../magpie/internal/sessions/subagents.go#L245) |
 | Spawned | field_declaration | kimiWireSubs | [246](../../magpie/internal/sessions/subagents.go#L246) |
@@ -50,6 +55,9 @@ Source SHA-256: fa25805852f4f9bdec52d1ad9e04436ef3f5e7e315365d8d1ef7f96de726e493
 | kimiSpawned | var_spec |  | [252](../../magpie/internal/sessions/subagents.go#L252) |
 | kimiPromptRec | var_spec |  | [253](../../magpie/internal/sessions/subagents.go#L253) |
 | kimiWireOf | function_declaration |  | [258](../../magpie/internal/sessions/subagents.go#L258) |
-| Type | field_declaration | kimiWireOf | [274](../../magpie/internal/sessions/subagents.go#L274) |
+| r | var_spec | kimiWireOf | [273](../../magpie/internal/sessions/subagents.go#L273) |
+| Type | field_declaration | kimiWireOf::r | [274](../../magpie/internal/sessions/subagents.go#L274) |
+| r | var_spec | kimiWireOf | [285](../../magpie/internal/sessions/subagents.go#L285) |
+| text | var_spec | kimiWireOf | [287](../../magpie/internal/sessions/subagents.go#L287) |
 | ErrNoSubagent | var_spec |  | [302](../../magpie/internal/sessions/subagents.go#L302) |
 | SubagentTranscript | function_declaration |  | [305](../../magpie/internal/sessions/subagents.go#L305) |

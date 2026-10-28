@@ -8,21 +8,33 @@ Source SHA-256: 4d256ce2df4ad5956fd4da94a18b5a9b68494e4a2ddb429850313f1783578977
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TitleApplication | struct_type |  | [16](../../magpie/internal/sessions/codex_titles.go#L16) |
+| TitleApplication | type_spec |  | [16](../../magpie/internal/sessions/codex_titles.go#L16) |
 | Digest | field_declaration | TitleApplication | [17](../../magpie/internal/sessions/codex_titles.go#L17) |
 | Updated | field_declaration | TitleApplication | [18](../../magpie/internal/sessions/codex_titles.go#L18) |
-| titleRecipient | struct_type |  | [20](../../magpie/internal/sessions/codex_titles.go#L20) |
+| titleRecipient | type_spec |  | [20](../../magpie/internal/sessions/codex_titles.go#L20) |
 | ID | field_declaration | titleRecipient | [21](../../magpie/internal/sessions/codex_titles.go#L21) |
 | Updated | field_declaration | titleRecipient | [22](../../magpie/internal/sessions/codex_titles.go#L22) |
 | codexTitles | var_spec |  | [25](../../magpie/internal/sessions/codex_titles.go#L25) |
+| path | field_declaration | codexTitles | [27](../../magpie/internal/sessions/codex_titles.go#L27) |
+| size | field_declaration | codexTitles | [28](../../magpie/internal/sessions/codex_titles.go#L28) |
+| modified | field_declaration | codexTitles | [29](../../magpie/internal/sessions/codex_titles.go#L29) |
+| file | field_declaration | codexTitles | [30](../../magpie/internal/sessions/codex_titles.go#L30) |
+| names | field_declaration | codexTitles | [31](../../magpie/internal/sessions/codex_titles.go#L31) |
+| last | field_declaration | codexTitles | [32](../../magpie/internal/sessions/codex_titles.go#L32) |
+| recipients | field_declaration | codexTitles | [33](../../magpie/internal/sessions/codex_titles.go#L33) |
+| writes | field_declaration | codexTitles | [34](../../magpie/internal/sessions/codex_titles.go#L34) |
+| overflow | field_declaration | codexTitles | [35](../../magpie/internal/sessions/codex_titles.go#L35) |
 | titleApplicationLimit | const_spec |  | [38](../../magpie/internal/sessions/codex_titles.go#L38) |
 | codexTitleIndexPath | function_declaration |  | [40](../../magpie/internal/sessions/codex_titles.go#L40) |
 | CodexTitleDigest | function_declaration |  | [41](../../magpie/internal/sessions/codex_titles.go#L41) |
 | codexTitleOf | function_declaration |  | [53](../../magpie/internal/sessions/codex_titles.go#L53) |
+| path | var_spec | codexTitleOf | [54](../../magpie/internal/sessions/codex_titles.go#L54) |
+| asked | var_spec | codexTitleOf | [55](../../magpie/internal/sessions/codex_titles.go#L55) |
 | CodexTitles | function_declaration |  | [73](../../magpie/internal/sessions/codex_titles.go#L73) |
 | codexTitlesAt | function_declaration |  | [74](../../magpie/internal/sessions/codex_titles.go#L74) |
 | CodexTitleRecipients | function_declaration |  | [94](../../magpie/internal/sessions/codex_titles.go#L94) |
 | loadCodexTitles | function_declaration |  | [114](../../magpie/internal/sessions/codex_titles.go#L114) |
-| ID | field_declaration | loadCodexTitles | [151](../../magpie/internal/sessions/codex_titles.go#L151) |
-| Name | field_declaration | loadCodexTitles | [152](../../magpie/internal/sessions/codex_titles.go#L152) |
-| Updated | field_declaration | loadCodexTitles | [153](../../magpie/internal/sessions/codex_titles.go#L153) |
+| row | var_spec | loadCodexTitles | [150](../../magpie/internal/sessions/codex_titles.go#L150) |
+| ID | field_declaration | loadCodexTitles::row | [151](../../magpie/internal/sessions/codex_titles.go#L151) |
+| Name | field_declaration | loadCodexTitles::row | [152](../../magpie/internal/sessions/codex_titles.go#L152) |
+| Updated | field_declaration | loadCodexTitles::row | [153](../../magpie/internal/sessions/codex_titles.go#L153) |

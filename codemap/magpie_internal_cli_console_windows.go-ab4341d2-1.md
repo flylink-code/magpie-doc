@@ -9,3 +9,4 @@ Source SHA-256: c96f0cf42ed88e9c1b3f508f702762e6372cfddc7c067db7f03fbfa9eb42ddd3
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [15](../../magpie/internal/cli/console_windows.go#L15) |
+| attachParentProcess | const_spec | init | [22](../../magpie/internal/cli/console_windows.go#L22) |

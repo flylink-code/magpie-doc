@@ -8,21 +8,49 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| User | field_declaration | providerRoutes | [2204](../../magpie/internal/gui/providers.go#L2204) |
-| URL | field_declaration | providerRoutes | [2232](../../magpie/internal/gui/providers.go#L2232) |
-| Agent | field_declaration | providerRoutes | [2249](../../magpie/internal/gui/providers.go#L2249) |
-| Files | field_declaration | providerRoutes | [2250](../../magpie/internal/gui/providers.go#L2250) |
+| Count | field_declaration | providerRoutes | [2036](../../magpie/internal/gui/providers.go#L2036) |
+| Dropped | field_declaration | providerRoutes | [2037](../../magpie/internal/gui/providers.go#L2037) |
+| Provider | field_declaration | providerRoutes | [2038](../../magpie/internal/gui/providers.go#L2038) |
+| in | var_spec | providerRoutes | [2058](../../magpie/internal/gui/providers.go#L2058) |
+| Agent | field_declaration | providerRoutes::in | [2058](../../magpie/internal/gui/providers.go#L2058) |
+| change | var_spec | providerRoutes | [2063](../../magpie/internal/gui/providers.go#L2063) |
+| in | var_spec | providerRoutes | [2116](../../magpie/internal/gui/providers.go#L2116) |
+| Bundle | field_declaration | providerRoutes::in | [2116](../../magpie/internal/gui/providers.go#L2116) |
+| in | var_spec | providerRoutes | [2131](../../magpie/internal/gui/providers.go#L2131) |
+| ID | field_declaration | providerRoutes::in | [2132](../../magpie/internal/gui/providers.go#L2132) |
+| Refs | field_declaration | providerRoutes::in | [2133](../../magpie/internal/gui/providers.go#L2133) |
+| Protocol | field_declaration | providerRoutes::in | [2134](../../magpie/internal/gui/providers.go#L2134) |
+| Weight | field_declaration | providerRoutes::in | [2135](../../magpie/internal/gui/providers.go#L2135) |
+| Plan | field_declaration | providerRoutes::in | [2136](../../magpie/internal/gui/providers.go#L2136) |
+| added | var_spec | providerRoutes | [2138](../../magpie/internal/gui/providers.go#L2138) |
+| err | var_spec | providerRoutes | [2143](../../magpie/internal/gui/providers.go#L2143) |
+| moved | var_spec | providerRoutes | [2144](../../magpie/internal/gui/providers.go#L2144) |
+| in | var_spec | providerRoutes | [2199](../../magpie/internal/gui/providers.go#L2199) |
+| Agent | field_declaration | providerRoutes::in | [2200](../../magpie/internal/gui/providers.go#L2200) |
+| Proxy | field_declaration | providerRoutes::in | [2203](../../magpie/internal/gui/providers.go#L2203) |
+| User | field_declaration | providerRoutes::in | [2204](../../magpie/internal/gui/providers.go#L2204) |
+| in | var_spec | providerRoutes | [2232](../../magpie/internal/gui/providers.go#L2232) |
+| URL | field_declaration | providerRoutes::in | [2232](../../magpie/internal/gui/providers.go#L2232) |
+| in | var_spec | providerRoutes | [2248](../../magpie/internal/gui/providers.go#L2248) |
+| Agent | field_declaration | providerRoutes::in | [2249](../../magpie/internal/gui/providers.go#L2249) |
+| Files | field_declaration | providerRoutes::in | [2250](../../magpie/internal/gui/providers.go#L2250) |
 | Results | field_declaration | providerRoutes | [2276](../../magpie/internal/gui/providers.go#L2276) |
 | Providers | field_declaration | providerRoutes | [2277](../../magpie/internal/gui/providers.go#L2277) |
-| Text | field_declaration | providerRoutes | [2296](../../magpie/internal/gui/providers.go#L2296) |
-| Text | field_declaration | providerRoutes | [2323](../../magpie/internal/gui/providers.go#L2323) |
-| What | field_declaration | providerRoutes | [2336](../../magpie/internal/gui/providers.go#L2336) |
-| IDs | field_declaration | providerRoutes | [2337](../../magpie/internal/gui/providers.go#L2337) |
-| URL | field_declaration | providerRoutes | [2349](../../magpie/internal/gui/providers.go#L2349) |
+| in | var_spec | providerRoutes | [2296](../../magpie/internal/gui/providers.go#L2296) |
+| Text | field_declaration | providerRoutes::in | [2296](../../magpie/internal/gui/providers.go#L2296) |
+| in | var_spec | providerRoutes | [2323](../../magpie/internal/gui/providers.go#L2323) |
+| Text | field_declaration | providerRoutes::in | [2323](../../magpie/internal/gui/providers.go#L2323) |
+| in | var_spec | providerRoutes | [2335](../../magpie/internal/gui/providers.go#L2335) |
+| What | field_declaration | providerRoutes::in | [2336](../../magpie/internal/gui/providers.go#L2336) |
+| IDs | field_declaration | providerRoutes::in | [2337](../../magpie/internal/gui/providers.go#L2337) |
+| in | var_spec | providerRoutes | [2349](../../magpie/internal/gui/providers.go#L2349) |
+| URL | field_declaration | providerRoutes::in | [2349](../../magpie/internal/gui/providers.go#L2349) |
 | typed | function_declaration |  | [2378](../../magpie/internal/gui/providers.go#L2378) |
 | to | field_declaration | typed | [2386](../../magpie/internal/gui/providers.go#L2386) |
 | v | field_declaration | typed | [2387](../../magpie/internal/gui/providers.go#L2387) |
 | queueOf | function_declaration |  | [2412](../../magpie/internal/gui/providers.go#L2412) |
+| v | var_spec | queueOf | [2416](../../magpie/internal/gui/providers.go#L2416) |
 | priceRateOf | function_declaration |  | [2428](../../magpie/internal/gui/providers.go#L2428) |
+| n | var_spec | priceRateOf | [2432](../../magpie/internal/gui/providers.go#L2432) |
 | concurrencyOf | function_declaration |  | [2447](../../magpie/internal/gui/providers.go#L2447) |
 | fetchedCount | function_declaration |  | [2466](../../magpie/internal/gui/providers.go#L2466) |

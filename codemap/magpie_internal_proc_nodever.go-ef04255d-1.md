@@ -9,11 +9,16 @@ Source SHA-256: 59c8e400f4c31aa61959db0cb6f8ff3233ed5fa00fa122c883506fa94e29f97f
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | nodeVersions | function_declaration |  | [19](../../magpie/internal/proc/nodever.go#L19) |
+| names | var_spec | nodeVersions | [21](../../magpie/internal/proc/nodever.go#L21) |
 | parseNodeVersion | function_declaration |  | [41](../../magpie/internal/proc/nodever.go#L41) |
+| v | var_spec | parseNodeVersion | [42](../../magpie/internal/proc/nodever.go#L42) |
 | nodeVersionLess | function_declaration |  | [59](../../magpie/internal/proc/nodever.go#L59) |
 | isDir | function_declaration |  | [68](../../magpie/internal/proc/nodever.go#L68) |
 | fnmWinRoots | function_declaration |  | [88](../../magpie/internal/proc/nodever.go#L88) |
+| roots | var_spec | fnmWinRoots | [89](../../magpie/internal/proc/nodever.go#L89) |
+| have | var_spec | fnmWinRoots | [99](../../magpie/internal/proc/nodever.go#L99) |
 | fnmWinBins | function_declaration |  | [111](../../magpie/internal/proc/nodever.go#L111) |
+| bins | var_spec | fnmWinBins | [112](../../magpie/internal/proc/nodever.go#L112) |
 | fnmWinUse | function_declaration |  | [128](../../magpie/internal/proc/nodever.go#L128) |
 | fnmWinPath | function_declaration |  | [145](../../magpie/internal/proc/nodever.go#L145) |
 | addPath | function_declaration |  | [155](../../magpie/internal/proc/nodever.go#L155) |

@@ -14,4 +14,7 @@ Source SHA-256: ea17fbd5442200916610bbbbe18a2b1f637b02d19f43f978515a4070cbeb77dd
 | omarchyTheme | function_declaration |  | [27](../../magpie/internal/gui/omarchy.go#L27) |
 | barIcon | function_declaration |  | [36](../../magpie/internal/gui/omarchy.go#L36) |
 | omarchyRoutes | function_declaration |  | [43](../../magpie/internal/gui/omarchy.go#L43) |
-| On | field_declaration | omarchyRoutes | [48](../../magpie/internal/gui/omarchy.go#L48) |
+| in | var_spec | omarchyRoutes | [48](../../magpie/internal/gui/omarchy.go#L48) |
+| On | field_declaration | omarchyRoutes::in | [48](../../magpie/internal/gui/omarchy.go#L48) |
+| err | var_spec | omarchyRoutes | [57](../../magpie/internal/gui/omarchy.go#L57) |
+| exe | var_spec | omarchyRoutes | [59](../../magpie/internal/gui/omarchy.go#L59) |

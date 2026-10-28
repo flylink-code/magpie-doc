@@ -9,47 +9,61 @@ Source SHA-256: 071a27738d6779ccd694331c1159c807288f8c7801445a390c6bbb88626849c1
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | fallbackCooldown | const_spec |  | [37](../../magpie/internal/gateway/fallback.go#L37) |
-| candidate | struct_type |  | [39](../../magpie/internal/gateway/fallback.go#L39) |
+| candidate | type_spec |  | [39](../../magpie/internal/gateway/fallback.go#L39) |
 | p | field_declaration | candidate | [40](../../magpie/internal/gateway/fallback.go#L40) |
 | model | field_declaration | candidate | [41](../../magpie/internal/gateway/fallback.go#L41) |
 | rest | field_declaration | candidate | [42](../../magpie/internal/gateway/fallback.go#L42) |
 | effort | field_declaration | candidate | [45](../../magpie/internal/gateway/fallback.go#L45) |
 | fast | field_declaration | candidate | [48](../../magpie/internal/gateway/fallback.go#L48) |
-| ultra | field_declaration | candidate | [48](../../magpie/internal/gateway/fallback.go#L48) |
 | rank | field_declaration | candidate | [51](../../magpie/internal/gateway/fallback.go#L51) |
 | capped | field_declaration | candidate | [53](../../magpie/internal/gateway/fallback.go#L53) |
 | noURL | field_declaration | candidate | [57](../../magpie/internal/gateway/fallback.go#L57) |
 | seats | field_declaration | candidate | [61](../../magpie/internal/gateway/fallback.go#L61) |
 | firstToken | field_declaration | candidate | [65](../../magpie/internal/gateway/fallback.go#L65) |
 | patience | field_declaration | candidate | [70](../../magpie/internal/gateway/fallback.go#L70) |
-| capHold | struct_type |  | [77](../../magpie/internal/gateway/fallback.go#L77) |
+| capHold | type_spec |  | [77](../../magpie/internal/gateway/fallback.go#L77) |
 | cap | field_declaration | capHold | [78](../../magpie/internal/gateway/fallback.go#L78) |
 | used | field_declaration | capHold | [79](../../magpie/internal/gateway/fallback.go#L79) |
 | back | field_declaration | capHold | [80](../../magpie/internal/gateway/fallback.go#L80) |
 | noCredits | field_declaration | capHold | [81](../../magpie/internal/gateway/fallback.go#L81) |
-| label | method_declaration | candidate | [86](../../magpie/internal/gateway/fallback.go#L86) |
-| restKey | method_declaration | candidate | [102](../../magpie/internal/gateway/fallback.go#L102) |
-| seat | method_declaration | candidate | [111](../../magpie/internal/gateway/fallback.go#L111) |
-| isOpenRouterFree | method_declaration | candidate | [115](../../magpie/internal/gateway/fallback.go#L115) |
-| restID | method_declaration | candidate | [124](../../magpie/internal/gateway/fallback.go#L124) |
-| pooled | method_declaration | candidate | [130](../../magpie/internal/gateway/fallback.go#L130) |
-| who | method_declaration | candidate | [143](../../magpie/internal/gateway/fallback.go#L143) |
+| label | method_declaration |  | [86](../../magpie/internal/gateway/fallback.go#L86) |
+| restKey | method_declaration |  | [102](../../magpie/internal/gateway/fallback.go#L102) |
+| seat | method_declaration |  | [111](../../magpie/internal/gateway/fallback.go#L111) |
+| isOpenRouterFree | method_declaration |  | [115](../../magpie/internal/gateway/fallback.go#L115) |
+| restID | method_declaration |  | [124](../../magpie/internal/gateway/fallback.go#L124) |
+| pooled | method_declaration |  | [130](../../magpie/internal/gateway/fallback.go#L130) |
+| who | method_declaration |  | [143](../../magpie/internal/gateway/fallback.go#L143) |
 | perKey | function_declaration |  | [156](../../magpie/internal/gateway/fallback.go#L156) |
 | perKeyOf | function_declaration |  | [167](../../magpie/internal/gateway/fallback.go#L167) |
 | perKeyBarred | function_declaration |  | [175](../../magpie/internal/gateway/fallback.go#L175) |
+| all | var_spec | perKeyBarred | [181](../../magpie/internal/gateway/fallback.go#L181) |
+| unlisted | var_spec | perKeyBarred | [247](../../magpie/internal/gateway/fallback.go#L247) |
+| noURL | var_spec | perKeyBarred | [248](../../magpie/internal/gateway/fallback.go#L248) |
 | keyFit | function_declaration |  | [309](../../magpie/internal/gateway/fallback.go#L309) |
 | modelFamily | function_declaration |  | [333](../../magpie/internal/gateway/fallback.go#L333) |
-| candidates | method_declaration | *Server | [350](../../magpie/internal/gateway/fallback.go#L350) |
-| plan | method_declaration | *Server | [357](../../magpie/internal/gateway/fallback.go#L357) |
-| planGroup | method_declaration | *Server | [406](../../magpie/internal/gateway/fallback.go#L406) |
+| candidates | method_declaration |  | [350](../../magpie/internal/gateway/fallback.go#L350) |
+| plan | method_declaration |  | [357](../../magpie/internal/gateway/fallback.go#L357) |
+| pl | var_spec | plan | [358](../../magpie/internal/gateway/fallback.go#L358) |
+| planGroup | method_declaration |  | [406](../../magpie/internal/gateway/fallback.go#L406) |
+| pl | var_spec | planGroup | [407](../../magpie/internal/gateway/fallback.go#L407) |
+| asides | var_spec | planGroup | [408](../../magpie/internal/gateway/fallback.go#L408) |
+| wAsides | var_spec | planGroup | [409](../../magpie/internal/gateway/fallback.go#L409) |
 | innerFirstToken | function_declaration |  | [423](../../magpie/internal/gateway/fallback.go#L423) |
 | innerPatience | function_declaration |  | [435](../../magpie/internal/gateway/fallback.go#L435) |
 | planLevel | function_declaration |  | [447](../../magpie/internal/gateway/fallback.go#L447) |
-| unit | struct_type | planLevel | [480](../../magpie/internal/gateway/fallback.go#L480) |
-| m | field_declaration | planLevel.unit | [481](../../magpie/internal/gateway/fallback.go#L481) |
-| cs | field_declaration | planLevel.unit | [482](../../magpie/internal/gateway/fallback.go#L482) |
-| order | field_declaration | planLevel.unit | [483](../../magpie/internal/gateway/fallback.go#L483) |
-| member | field_declaration | planLevel.unit | [484](../../magpie/internal/gateway/fallback.go#L484) |
+| unit | type_spec | planLevel | [480](../../magpie/internal/gateway/fallback.go#L480) |
+| m | field_declaration | planLevel::unit | [481](../../magpie/internal/gateway/fallback.go#L481) |
+| cs | field_declaration | planLevel::unit | [482](../../magpie/internal/gateway/fallback.go#L482) |
+| order | field_declaration | planLevel::unit | [483](../../magpie/internal/gateway/fallback.go#L483) |
+| member | field_declaration | planLevel::unit | [484](../../magpie/internal/gateway/fallback.go#L484) |
+| units | var_spec | planLevel | [489](../../magpie/internal/gateway/fallback.go#L489) |
+| heads | var_spec | planLevel | [490](../../magpie/internal/gateway/fallback.go#L490) |
+| sub | var_spec | planLevel | [503](../../magpie/internal/gateway/fallback.go#L503) |
+| order | var_spec | planLevel | [522](../../magpie/internal/gateway/fallback.go#L522) |
+| out | var_spec | planLevel | [545](../../magpie/internal/gateway/fallback.go#L545) |
+| out | var_spec | planLevel | [566](../../magpie/internal/gateway/fallback.go#L566) |
+| out | var_spec | planLevel | [585](../../magpie/internal/gateway/fallback.go#L585) |
+| order | var_spec | planLevel | [597](../../magpie/internal/gateway/fallback.go#L597) |
 | sinkOwn | function_declaration |  | [623](../../magpie/internal/gateway/fallback.go#L623) |
 | firstAwake | function_declaration |  | [632](../../magpie/internal/gateway/fallback.go#L632) |
 | ownRouting | function_declaration |  | [649](../../magpie/internal/gateway/fallback.go#L649) |
@@ -57,54 +71,40 @@ Source SHA-256: 071a27738d6779ccd694331c1159c807288f8c7801445a390c6bbb88626849c1
 | cappedError | function_declaration |  | [683](../../magpie/internal/gateway/fallback.go#L683) |
 | checkpointCappedError | function_declaration |  | [699](../../magpie/internal/gateway/fallback.go#L699) |
 | heldReasons | function_declaration |  | [707](../../magpie/internal/gateway/fallback.go#L707) |
+| held | var_spec | heldReasons | [708](../../magpie/internal/gateway/fallback.go#L708) |
+| soonest | var_spec | heldReasons | [709](../../magpie/internal/gateway/fallback.go#L709) |
 | heldAdvice | function_declaration |  | [730](../../magpie/internal/gateway/fallback.go#L730) |
 | heldBy | function_declaration |  | [742](../../magpie/internal/gateway/fallback.go#L742) |
 | checkpointCappedRecord | function_declaration |  | [753](../../magpie/internal/gateway/fallback.go#L753) |
 | cappedRecord | function_declaration |  | [765](../../magpie/internal/gateway/fallback.go#L765) |
 | creditsHeld | function_declaration |  | [779](../../magpie/internal/gateway/fallback.go#L779) |
+| out | var_spec | creditsHeld | [780](../../magpie/internal/gateway/fallback.go#L780) |
 | capHeldOnly | function_declaration |  | [792](../../magpie/internal/gateway/fallback.go#L792) |
+| out | var_spec | capHeldOnly | [793](../../magpie/internal/gateway/fallback.go#L793) |
 | barredOf | function_declaration |  | [804](../../magpie/internal/gateway/fallback.go#L804) |
+| out | var_spec | barredOf | [805](../../magpie/internal/gateway/fallback.go#L805) |
 | barredError | function_declaration |  | [824](../../magpie/internal/gateway/fallback.go#L824) |
+| names | var_spec | barredError | [825](../../magpie/internal/gateway/fallback.go#L825) |
 | asideOf | function_declaration |  | [836](../../magpie/internal/gateway/fallback.go#L836) |
+| out | var_spec | asideOf | [837](../../magpie/internal/gateway/fallback.go#L837) |
 | restLast | function_declaration |  | [847](../../magpie/internal/gateway/fallback.go#L847) |
+| ready | var_spec | restLast | [854](../../magpie/internal/gateway/fallback.go#L854) |
+| wReady | var_spec | restLast | [855](../../magpie/internal/gateway/fallback.go#L855) |
 | probeOne | function_declaration |  | [881](../../magpie/internal/gateway/fallback.go#L881) |
+| until | var_spec | probeOne | [886](../../magpie/internal/gateway/fallback.go#L886) |
 | restingOf | function_declaration |  | [919](../../magpie/internal/gateway/fallback.go#L919) |
 | quotaHeld | function_declaration |  | [941](../../magpie/internal/gateway/fallback.go#L941) |
+| first | var_spec | quotaHeld | [942](../../magpie/internal/gateway/fallback.go#L942) |
+| back | var_spec | quotaHeld | [943](../../magpie/internal/gateway/fallback.go#L943) |
 | quotaStatus | function_declaration |  | [965](../../magpie/internal/gateway/fallback.go#L965) |
 | soonestBack | function_declaration |  | [971](../../magpie/internal/gateway/fallback.go#L971) |
+| back | var_spec | soonestBack | [972](../../magpie/internal/gateway/fallback.go#L972) |
 | spentAfter | function_declaration |  | [988](../../magpie/internal/gateway/fallback.go#L988) |
 | spentModel | function_declaration |  | [1011](../../magpie/internal/gateway/fallback.go#L1011) |
 | restingUntil | var_spec |  | [1037](../../magpie/internal/gateway/fallback.go#L1037) |
+| m | field_declaration | restingUntil | [1039](../../magpie/internal/gateway/fallback.go#L1039) |
+| note | field_declaration | restingUntil | [1040](../../magpie/internal/gateway/fallback.go#L1040) |
+| lifted | field_declaration | restingUntil | [1047](../../magpie/internal/gateway/fallback.go#L1047) |
 | liftedLocked | function_declaration |  | [1052](../../magpie/internal/gateway/fallback.go#L1052) |
 | liftedRests | function_declaration |  | [1063](../../magpie/internal/gateway/fallback.go#L1063) |
-| resting | method_declaration | *Server | [1076](../../magpie/internal/gateway/fallback.go#L1076) |
-| restOf | function_declaration |  | [1082](../../magpie/internal/gateway/fallback.go#L1082) |
-| quotaWords | var_spec |  | [1096](../../magpie/internal/gateway/fallback.go#L1096) |
-| quotaSaid | function_declaration |  | [1102](../../magpie/internal/gateway/fallback.go#L1102) |
-| unservedWords | var_spec |  | [1108](../../magpie/internal/gateway/fallback.go#L1108) |
-| modelRefused | function_declaration |  | [1117](../../magpie/internal/gateway/fallback.go#L1117) |
-| codeAssistModelMissing | function_declaration |  | [1138](../../magpie/internal/gateway/fallback.go#L1138) |
-| retiredWords | var_spec |  | [1153](../../magpie/internal/gateway/fallback.go#L1153) |
-| modelRetired | function_declaration |  | [1159](../../magpie/internal/gateway/fallback.go#L1159) |
-| zenModelGone | var_spec |  | [1187](../../magpie/internal/gateway/fallback.go#L1187) |
-| refusedWords | var_spec |  | [1193](../../magpie/internal/gateway/fallback.go#L1193) |
-| promptRefused | function_declaration |  | [1197](../../magpie/internal/gateway/fallback.go#L1197) |
-| shapeWords | var_spec |  | [1217](../../magpie/internal/gateway/fallback.go#L1217) |
-| unsaidWords | var_spec |  | [1234](../../magpie/internal/gateway/fallback.go#L1234) |
-| shapeRefused | function_declaration |  | [1243](../../magpie/internal/gateway/fallback.go#L1243) |
-| regionWords | var_spec |  | [1259](../../magpie/internal/gateway/fallback.go#L1259) |
-| regionRefused | function_declaration |  | [1263](../../magpie/internal/gateway/fallback.go#L1263) |
-| protectionWords | var_spec |  | [1273](../../magpie/internal/gateway/fallback.go#L1273) |
-| protectionRefused | function_declaration |  | [1278](../../magpie/internal/gateway/fallback.go#L1278) |
-| zdrCoded | var_spec |  | [1293](../../magpie/internal/gateway/fallback.go#L1293) |
-| zdrRefused | function_declaration |  | [1301](../../magpie/internal/gateway/fallback.go#L1301) |
-| zdrHeader | const_spec |  | [1309](../../magpie/internal/gateway/fallback.go#L1309) |
-| notMates | function_declaration |  | [1314](../../magpie/internal/gateway/fallback.go#L1314) |
-| elsewhere | function_declaration |  | [1327](../../magpie/internal/gateway/fallback.go#L1327) |
-| retryable | function_declaration |  | [1340](../../magpie/internal/gateway/fallback.go#L1340) |
-| lateRests | function_declaration |  | [1369](../../magpie/internal/gateway/fallback.go#L1369) |
-| unsaidMargin | const_spec |  | [1377](../../magpie/internal/gateway/fallback.go#L1377) |
-| tooLongUnsaid | function_declaration |  | [1389](../../magpie/internal/gateway/fallback.go#L1389) |
-| windowOf | function_declaration |  | [1421](../../magpie/internal/gateway/fallback.go#L1421) |
-| windowIn | function_declaration |  | [1427](../../magpie/internal/gateway/fallback.go#L1427) |
-| lastRetries | const_spec |  | [1444](../../magpie/internal/gateway/fallback.go#L1444) |
+| resting | method_declaration |  | [1076](../../magpie/internal/gateway/fallback.go#L1076) |

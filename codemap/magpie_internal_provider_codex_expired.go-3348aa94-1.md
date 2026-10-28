@@ -12,6 +12,7 @@ Source SHA-256: 92ff607370d14fadcb7c62b4e8f1e847942c2279d88ad982a099ee19f512c03e
 | SignInExpired | function_declaration |  | [29](../../magpie/internal/provider/codex_expired.go#L29) |
 | codexRenew | type_spec |  | [36](../../magpie/internal/provider/codex_expired.go#L36) |
 | codexExpired | function_declaration |  | [39](../../magpie/internal/provider/codex_expired.go#L39) |
+| se | var_spec | codexExpired | [40](../../magpie/internal/provider/codex_expired.go#L40) |
 | errCodexStillExpired | var_spec |  | [46](../../magpie/internal/provider/codex_expired.go#L46) |
 | codexWindowsRenewing | function_declaration |  | [51](../../magpie/internal/provider/codex_expired.go#L51) |
 | NoteExpiredSignIn | function_declaration |  | [76](../../magpie/internal/provider/codex_expired.go#L76) |

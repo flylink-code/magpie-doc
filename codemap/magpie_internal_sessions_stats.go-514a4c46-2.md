@@ -8,39 +8,34 @@ Source SHA-256: 60681a25326a48707d9aa13075f545ae37e2631d361390a5be49d2592c32b599
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Tools | field_declaration | Overview | [474](../../magpie/internal/sessions/stats.go#L474) |
-| Skills | field_declaration | Overview | [475](../../magpie/internal/sessions/stats.go#L475) |
-| Shape | struct_type |  | [480](../../magpie/internal/sessions/stats.go#L480) |
-| Edges | field_declaration | Shape | [481](../../magpie/internal/sessions/stats.go#L481) |
-| Counts | field_declaration | Shape | [482](../../magpie/internal/sessions/stats.go#L482) |
-| Total | field_declaration | Shape | [483](../../magpie/internal/sessions/stats.go#L483) |
-| shapeEdges | var_spec |  | [487](../../magpie/internal/sessions/stats.go#L487) |
-| ToolUse | struct_type |  | [494](../../magpie/internal/sessions/stats.go#L494) |
+| ToolUse | type_spec |  | [494](../../magpie/internal/sessions/stats.go#L494) |
 | Calls | field_declaration | ToolUse | [495](../../magpie/internal/sessions/stats.go#L495) |
 | Sessions | field_declaration | ToolUse | [496](../../magpie/internal/sessions/stats.go#L496) |
 | Top | field_declaration | ToolUse | [497](../../magpie/internal/sessions/stats.go#L497) |
 | Categories | field_declaration | ToolUse | [498](../../magpie/internal/sessions/stats.go#L498) |
 | Weeks | field_declaration | ToolUse | [500](../../magpie/internal/sessions/stats.go#L500) |
-| ToolStat | struct_type |  | [504](../../magpie/internal/sessions/stats.go#L504) |
+| ToolStat | type_spec |  | [504](../../magpie/internal/sessions/stats.go#L504) |
 | Name | field_declaration | ToolStat | [505](../../magpie/internal/sessions/stats.go#L505) |
 | Category | field_declaration | ToolStat | [506](../../magpie/internal/sessions/stats.go#L506) |
 | Calls | field_declaration | ToolStat | [507](../../magpie/internal/sessions/stats.go#L507) |
 | Sessions | field_declaration | ToolStat | [508](../../magpie/internal/sessions/stats.go#L508) |
-| ToolWeek | struct_type |  | [512](../../magpie/internal/sessions/stats.go#L512) |
+| ToolWeek | type_spec |  | [512](../../magpie/internal/sessions/stats.go#L512) |
 | Start | field_declaration | ToolWeek | [513](../../magpie/internal/sessions/stats.go#L513) |
 | Calls | field_declaration | ToolWeek | [514](../../magpie/internal/sessions/stats.go#L514) |
-| SkillUse | struct_type |  | [518](../../magpie/internal/sessions/stats.go#L518) |
+| SkillUse | type_spec |  | [518](../../magpie/internal/sessions/stats.go#L518) |
 | Calls | field_declaration | SkillUse | [519](../../magpie/internal/sessions/stats.go#L519) |
 | Top | field_declaration | SkillUse | [520](../../magpie/internal/sessions/stats.go#L520) |
 | Count | field_declaration | SkillUse | [521](../../magpie/internal/sessions/stats.go#L521) |
-| Skill | struct_type |  | [525](../../magpie/internal/sessions/stats.go#L525) |
+| Skill | type_spec |  | [525](../../magpie/internal/sessions/stats.go#L525) |
 | Name | field_declaration | Skill | [526](../../magpie/internal/sessions/stats.go#L526) |
 | Calls | field_declaration | Skill | [527](../../magpie/internal/sessions/stats.go#L527) |
 | Sessions | field_declaration | Skill | [528](../../magpie/internal/sessions/stats.go#L528) |
 | Last | field_declaration | Skill | [529](../../magpie/internal/sessions/stats.go#L529) |
 | Agents | field_declaration | Skill | [530](../../magpie/internal/sessions/stats.go#L530) |
 | Projects | field_declaration | Skill | [531](../../magpie/internal/sessions/stats.go#L531) |
-| Overview | method_declaration | Stats | [536](../../magpie/internal/sessions/stats.go#L536) |
+| Overview | method_declaration |  | [536](../../magpie/internal/sessions/stats.go#L536) |
+| in | var_spec | Overview | [544](../../magpie/internal/sessions/stats.go#L544) |
+| spent | var_spec | Overview | [545](../../magpie/internal/sessions/stats.go#L545) |
 | shapes | function_declaration |  | [592](../../magpie/internal/sessions/stats.go#L592) |
 | toolUse | function_declaration |  | [627](../../magpie/internal/sessions/stats.go#L627) |
 | skillUse | function_declaration |  | [692](../../magpie/internal/sessions/stats.go#L692) |

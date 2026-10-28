@@ -8,5 +8,55 @@ Source SHA-256: da5bd755be6c8d25c60c2b8e7df291ab9efefa5d29a6454e029b9b6b200f1e2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Rule | field_declaration | Handler::in | [2153](../../magpie/internal/gui/api.go#L2153) |
+| in | var_spec | Handler | [2175](../../magpie/internal/gui/api.go#L2175) |
+| Actions | field_declaration | Handler::in | [2176](../../magpie/internal/gui/api.go#L2176) |
+| in | var_spec | Handler | [2192](../../magpie/internal/gui/api.go#L2192) |
+| Allow | field_declaration | Handler::in | [2193](../../magpie/internal/gui/api.go#L2193) |
+| in | var_spec | Handler | [2210](../../magpie/internal/gui/api.go#L2210) |
+| Token | field_declaration | Handler::in | [2211](../../magpie/internal/gui/api.go#L2211) |
+| in | var_spec | Handler | [2234](../../magpie/internal/gui/api.go#L2234) |
+| Mirror | field_declaration | Handler::in | [2235](../../magpie/internal/gui/api.go#L2235) |
+| in | var_spec | Handler | [2259](../../magpie/internal/gui/api.go#L2259) |
+| Vendor | field_declaration | Handler::in | [2260](../../magpie/internal/gui/api.go#L2260) |
+| Remove | field_declaration | Handler::in | [2261](../../magpie/internal/gui/api.go#L2261) |
+| On | field_declaration | Handler::in | [2262](../../magpie/internal/gui/api.go#L2262) |
+| Arrange | field_declaration | Handler::in | [2263](../../magpie/internal/gui/api.go#L2263) |
+| err | var_spec | Handler | [2269](../../magpie/internal/gui/api.go#L2269) |
+| in | var_spec | Handler | [2289](../../magpie/internal/gui/api.go#L2289) |
+| Vendor | field_declaration | Handler::in | [2289](../../magpie/internal/gui/api.go#L2289) |
+| in | var_spec | Handler | [2305](../../magpie/internal/gui/api.go#L2305) |
+| Vendor | field_declaration | Handler::in | [2306](../../magpie/internal/gui/api.go#L2306) |
+| Fresh | field_declaration | Handler::in | [2307](../../magpie/internal/gui/api.go#L2307) |
+| noFramedAPI | function_declaration |  | [2365](../../magpie/internal/gui/api.go#L2365) |
+| held | function_declaration |  | [2382](../../magpie/internal/gui/api.go#L2382) |
+| state | function_declaration |  | [2406](../../magpie/internal/gui/api.go#L2406) |
+| signInOpened | type_spec |  | [2485](../../magpie/internal/gui/api.go#L2485) |
+| OpenError | field_declaration | signInOpened | [2487](../../magpie/internal/gui/api.go#L2487) |
+| mcpSignInOpened | type_spec |  | [2491](../../magpie/internal/gui/api.go#L2491) |
+| OpenError | field_declaration | mcpSignInOpened | [2493](../../magpie/internal/gui/api.go#L2493) |
+| openError | function_declaration |  | [2498](../../magpie/internal/gui/api.go#L2498) |
+| writeJSON | function_declaration |  | [2508](../../magpie/internal/gui/api.go#L2508) |
+| writeJSONSame | function_declaration |  | [2520](../../magpie/internal/gui/api.go#L2520) |
+| b | var_spec | writeJSONSame | [2521](../../magpie/internal/gui/api.go#L2521) |
+| sentRows | var_spec |  | [2541](../../magpie/internal/gui/api.go#L2541) |
+| tags | field_declaration | sentRows | [2543](../../magpie/internal/gui/api.go#L2543) |
+| rows | field_declaration | sentRows | [2544](../../magpie/internal/gui/api.go#L2544) |
+| sentRowsKept | const_spec |  | [2547](../../magpie/internal/gui/api.go#L2547) |
+| writeJSONRows | function_declaration |  | [2556](../../magpie/internal/gui/api.go#L2556) |
+| b | var_spec | writeJSONRows | [2576](../../magpie/internal/gui/api.go#L2576) |
+| items | var_spec | writeJSONRows | [2624](../../magpie/internal/gui/api.go#L2624) |
+| fail | function_declaration |  | [2653](../../magpie/internal/gui/api.go#L2653) |
+| unavailable | var_spec | fail | [2657](../../magpie/internal/gui/api.go#L2657) |
+| noModels | var_spec | fail | [2662](../../magpie/internal/gui/api.go#L2662) |
+| allHidden | var_spec | fail | [2668](../../magpie/internal/gui/api.go#L2668) |
+| signedIn | var_spec | fail | [2673](../../magpie/internal/gui/api.go#L2673) |
+| share | var_spec | fail | [2679](../../magpie/internal/gui/api.go#L2679) |
+| admin | var_spec | fail | [2686](../../magpie/internal/gui/api.go#L2686) |
+| bun | var_spec | fail | [2697](../../magpie/internal/gui/api.go#L2697) |
+| tilde | function_declaration |  | [2705](../../magpie/internal/gui/api.go#L2705) |
+| codexUsers | function_declaration |  | [2713](../../magpie/internal/gui/api.go#L2713) |
+| out | var_spec | codexUsers | [2714](../../magpie/internal/gui/api.go#L2714) |
+| editRedactRule | function_declaration |  | [2728](../../magpie/internal/gui/api.go#L2728) |
 | countClient | function_declaration |  | [2754](../../magpie/internal/gui/api.go#L2754) |
 | bunSaid | var_spec |  | [2780](../../magpie/internal/gui/api.go#L2780) |

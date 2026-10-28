@@ -9,4 +9,5 @@ Source SHA-256: ea281331bd6fab3a53122f29b02b90caa1c3b57b0de03bd226b59c82d396dc82
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | reasonixStudioDirs | function_declaration |  | [12](../../magpie/internal/agent/reasonix_detect_windows.go#L12) |
+| dirs | var_spec | reasonixStudioDirs | [13](../../magpie/internal/agent/reasonix_detect_windows.go#L13) |
 | reasonixStudioRelease | function_declaration |  | [51](../../magpie/internal/agent/reasonix_detect_windows.go#L51) |

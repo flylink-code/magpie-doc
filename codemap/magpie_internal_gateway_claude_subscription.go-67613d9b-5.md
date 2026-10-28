@@ -8,4 +8,70 @@ Source SHA-256: 39f0ec20de26a9c9dfb996926a046b406275d701d909b455091f116dbffdb207
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| ToolCallID | field_declaration | mcpCall::call | [3708](../../magpie/internal/gateway/claude_subscription.go#L3708) |
+| Name | field_declaration | mcpCall::call | [3709](../../magpie/internal/gateway/claude_subscription.go#L3709) |
+| Arguments | field_declaration | mcpCall::call | [3710](../../magpie/internal/gateway/claude_subscription.go#L3710) |
+| a | var_spec | mcpCall | [3725](../../magpie/internal/gateway/claude_subscription.go#L3725) |
+| Query | field_declaration | mcpCall::a | [3726](../../magpie/internal/gateway/claude_subscription.go#L3726) |
+| expire | var_spec | mcpCall | [3757](../../magpie/internal/gateway/claude_subscription.go#L3757) |
+| await | method_declaration |  | [3782](../../magpie/internal/gateway/claude_subscription.go#L3782) |
+| a | var_spec | await | [3783](../../magpie/internal/gateway/claude_subscription.go#L3783) |
+| Call | field_declaration | await::a | [3784](../../magpie/internal/gateway/claude_subscription.go#L3784) |
+| stillRunning | function_declaration |  | [3812](../../magpie/internal/gateway/claude_subscription.go#L3812) |
+| finish | method_declaration |  | [3821](../../magpie/internal/gateway/claude_subscription.go#L3821) |
+| launch | method_declaration |  | [3854](../../magpie/internal/gateway/claude_subscription.go#L3854) |
+| tell | method_declaration |  | [3897](../../magpie/internal/gateway/claude_subscription.go#L3897) |
+| whyEnded | method_declaration |  | [3926](../../magpie/internal/gateway/claude_subscription.go#L3926) |
+| endedBefore | method_declaration |  | [3932](../../magpie/internal/gateway/claude_subscription.go#L3932) |
+| schemaEnded | method_declaration |  | [3962](../../magpie/internal/gateway/claude_subscription.go#L3962) |
+| cliSchema | function_declaration |  | [3979](../../magpie/internal/gateway/claude_subscription.go#L3979) |
+| root | var_spec | cliSchema | [3980](../../magpie/internal/gateway/claude_subscription.go#L3980) |
+| cliSchemaWords | var_spec |  | [3999](../../magpie/internal/gateway/claude_subscription.go#L3999) |
+| cliSchemaRefused | type_spec |  | [4005](../../magpie/internal/gateway/claude_subscription.go#L4005) |
+| msg | field_declaration | cliSchemaRefused | [4005](../../magpie/internal/gateway/claude_subscription.go#L4005) |
+| Error | method_declaration |  | [4007](../../magpie/internal/gateway/claude_subscription.go#L4007) |
+| clipTail | function_declaration |  | [4011](../../magpie/internal/gateway/claude_subscription.go#L4011) |
+| outputDrain | var_spec |  | [4025](../../magpie/internal/gateway/claude_subscription.go#L4025) |
+| drain | method_declaration |  | [4029](../../magpie/internal/gateway/claude_subscription.go#L4029) |
+| stopGrace | const_spec |  | [4048](../../magpie/internal/gateway/claude_subscription.go#L4048) |
+| abort | method_declaration |  | [4053](../../magpie/internal/gateway/claude_subscription.go#L4053) |
+| stopped | var_spec | abort | [4069](../../magpie/internal/gateway/claude_subscription.go#L4069) |
+| closedChan | var_spec |  | [4077](../../magpie/internal/gateway/claude_subscription.go#L4077) |
+| abortFor | method_declaration |  | [4081](../../magpie/internal/gateway/claude_subscription.go#L4081) |
+| abortAll | method_declaration |  | [4092](../../magpie/internal/gateway/claude_subscription.go#L4092) |
+| lostRun | type_spec |  | [4111](../../magpie/internal/gateway/claude_subscription.go#L4111) |
+| at | field_declaration | lostRun | [4112](../../magpie/internal/gateway/claude_subscription.go#L4112) |
+| why | field_declaration | lostRun | [4113](../../magpie/internal/gateway/claude_subscription.go#L4113) |
+| lostMost | const_spec |  | [4118](../../magpie/internal/gateway/claude_subscription.go#L4118) |
+| keepLost | function_declaration |  | [4121](../../magpie/internal/gateway/claude_subscription.go#L4121) |
+| whyLost | method_declaration |  | [4136](../../magpie/internal/gateway/claude_subscription.go#L4136) |
+| removeRun | method_declaration |  | [4151](../../magpie/internal/gateway/claude_subscription.go#L4151) |
+| owned | method_declaration |  | [4189](../../magpie/internal/gateway/claude_subscription.go#L4189) |
+| takeNamedOwner | method_declaration |  | [4200](../../magpie/internal/gateway/claude_subscription.go#L4200) |
+| nameOwner | method_declaration |  | [4219](../../magpie/internal/gateway/claude_subscription.go#L4219) |
+| claudeOwnName | var_spec |  | [4234](../../magpie/internal/gateway/claude_subscription.go#L4234) |
+| unnamedOwner | const_spec |  | [4239](../../magpie/internal/gateway/claude_subscription.go#L4239) |
+| ownHome | const_spec |  | [4243](../../magpie/internal/gateway/claude_subscription.go#L4243) |
+| ownerAccount | function_declaration |  | [4247](../../magpie/internal/gateway/claude_subscription.go#L4247) |
+| whyNoRun | method_declaration |  | [4266](../../magpie/internal/gateway/claude_subscription.go#L4266) |
+| whyCallsLost | method_declaration |  | [4306](../../magpie/internal/gateway/claude_subscription.go#L4306) |
+| serveClaudeSubscription | method_declaration |  | [4323](../../magpie/internal/gateway/claude_subscription.go#L4323) |
+| limitHeaders | function_declaration |  | [4375](../../magpie/internal/gateway/claude_subscription.go#L4375) |
+| ratelimitWindows | var_spec |  | [4398](../../magpie/internal/gateway/claude_subscription.go#L4398) |
+| serveSubscription | method_declaration |  | [4407](../../magpie/internal/gateway/claude_subscription.go#L4407) |
+| req | var_spec | serveSubscription | [4409](../../magpie/internal/gateway/claude_subscription.go#L4409) |
+| err | var_spec | serveSubscription | [4410](../../magpie/internal/gateway/claude_subscription.go#L4410) |
+| search | var_spec | serveSubscription | [4441](../../magpie/internal/gateway/claude_subscription.go#L4441) |
+| more | var_spec | serveSubscription | [4495](../../magpie/internal/gateway/claude_subscription.go#L4495) |
+| events | var_spec | serveSubscription | [4499](../../magpie/internal/gateway/claude_subscription.go#L4499) |
+| full | var_spec | serveSubscription | [4558](../../magpie/internal/gateway/claude_subscription.go#L4558) |
+| refused | var_spec | serveSubscription | [4559](../../magpie/internal/gateway/claude_subscription.go#L4559) |
+| letting | var_spec | serveSubscription | [4576](../../magpie/internal/gateway/claude_subscription.go#L4576) |
+| begin | var_spec | serveSubscription | [4591](../../magpie/internal/gateway/claude_subscription.go#L4591) |
+| bridgeFailed | function_declaration |  | [4616](../../magpie/internal/gateway/claude_subscription.go#L4616) |
+| relay | function_declaration |  | [4633](../../magpie/internal/gateway/claude_subscription.go#L4633) |
+| head | var_spec | relay | [4644](../../magpie/internal/gateway/claude_subscription.go#L4644) |
+| failed | var_spec | relay | [4674](../../magpie/internal/gateway/claude_subscription.go#L4674) |
+| col | var_spec | relay | [4714](../../magpie/internal/gateway/claude_subscription.go#L4714) |
+| said | var_spec | relay | [4715](../../magpie/internal/gateway/claude_subscription.go#L4715) |
 | bridgeTools | function_declaration |  | [4747](../../magpie/internal/gateway/claude_subscription.go#L4747) |

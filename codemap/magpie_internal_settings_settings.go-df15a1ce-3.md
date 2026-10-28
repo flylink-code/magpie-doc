@@ -8,15 +8,24 @@ Source SHA-256: f0078ddd000a8018862f4d92ccae51c1c1f7273810a82c156cd8436395afd3d6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| LoadChecked | function_declaration |  | [1190](../../magpie/internal/settings/settings.go#L1190) |
 | Shared | function_declaration |  | [1202](../../magpie/internal/settings/settings.go#L1202) |
 | sharedFor | function_declaration |  | [1224](../../magpie/internal/settings/settings.go#L1224) |
 | load | function_declaration |  | [1237](../../magpie/internal/settings/settings.go#L1237) |
 | loadChecked | function_declaration |  | [1243](../../magpie/internal/settings/settings.go#L1243) |
+| s | var_spec | loadChecked | [1244](../../magpie/internal/settings/settings.go#L1244) |
 | parsed | var_spec |  | [1263](../../magpie/internal/settings/settings.go#L1263) |
+| raw | field_declaration | parsed | [1265](../../magpie/internal/settings/settings.go#L1265) |
+| s | field_declaration | parsed | [1266](../../magpie/internal/settings/settings.go#L1266) |
+| norm | field_declaration | parsed | [1267](../../magpie/internal/settings/settings.go#L1267) |
+| normed | field_declaration | parsed | [1268](../../magpie/internal/settings/settings.go#L1268) |
 | parse | function_declaration |  | [1274](../../magpie/internal/settings/settings.go#L1274) |
+| s | var_spec | parse | [1282](../../magpie/internal/settings/settings.go#L1282) |
+| err | var_spec | parse | [1283](../../magpie/internal/settings/settings.go#L1283) |
 | parses | var_spec |  | [1306](../../magpie/internal/settings/settings.go#L1306) |
 | Parses | function_declaration |  | [1311](../../magpie/internal/settings/settings.go#L1311) |
 | validSettings | function_declaration |  | [1314](../../magpie/internal/settings/settings.go#L1314) |
+| s | var_spec | validSettings | [1315](../../magpie/internal/settings/settings.go#L1315) |
 | CheckProxy | function_declaration |  | [1323](../../magpie/internal/settings/settings.go#L1323) |
 | DefaultPort | const_spec |  | [1341](../../magpie/internal/settings/settings.go#L1341) |
 | CheckPort | function_declaration |  | [1346](../../magpie/internal/settings/settings.go#L1346) |
@@ -30,12 +39,15 @@ Source SHA-256: f0078ddd000a8018862f4d92ccae51c1c1f7273810a82c156cd8436395afd3d6
 | SetRedactModelName | function_declaration |  | [1444](../../magpie/internal/settings/settings.go#L1444) |
 | UseRedactModel | function_declaration |  | [1454](../../magpie/internal/settings/settings.go#L1454) |
 | save | function_declaration |  | [1463](../../magpie/internal/settings/settings.go#L1463) |
-| normal | method_declaration | Settings | [1703](../../magpie/internal/settings/settings.go#L1703) |
-| at | field_declaration | Settings.normal | [1741](../../magpie/internal/settings/settings.go#L1741) |
-| ats | field_declaration | Settings.normal | [1742](../../magpie/internal/settings/settings.go#L1742) |
+| stored | var_spec | save | [1647](../../magpie/internal/settings/settings.go#L1647) |
+| normal | method_declaration |  | [1703](../../magpie/internal/settings/settings.go#L1703) |
+| at | field_declaration | normal | [1741](../../magpie/internal/settings/settings.go#L1741) |
+| ats | field_declaration | normal | [1742](../../magpie/internal/settings/settings.go#L1742) |
 | Clock | function_declaration |  | [1776](../../magpie/internal/settings/settings.go#L1776) |
 | clocks | function_declaration |  | [1788](../../magpie/internal/settings/settings.go#L1788) |
 | ids | function_declaration |  | [1807](../../magpie/internal/settings/settings.go#L1807) |
+| out | var_spec | ids | [1808](../../magpie/internal/settings/settings.go#L1808) |
 | clientAgents | function_declaration |  | [1819](../../magpie/internal/settings/settings.go#L1819) |
 | ClientAgentsNow | function_declaration |  | [1839](../../magpie/internal/settings/settings.go#L1839) |
-| ClientAgents | field_declaration | ClientAgentsNow | [1847](../../magpie/internal/settings/settings.go#L1847) |
+| s | var_spec | ClientAgentsNow | [1846](../../magpie/internal/settings/settings.go#L1846) |
+| ClientAgents | field_declaration | ClientAgentsNow::s | [1847](../../magpie/internal/settings/settings.go#L1847) |

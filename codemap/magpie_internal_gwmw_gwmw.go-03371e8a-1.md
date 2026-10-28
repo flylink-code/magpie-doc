@@ -8,63 +8,46 @@ Source SHA-256: 2c7fa36d39e535d5b9bfaaf404d5896056aadd1739ff4dd07b1ed7517a4dcfc8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Info | struct_type |  | [29](../../magpie/internal/gwmw/gwmw.go#L29) |
+| Info | type_spec |  | [29](../../magpie/internal/gwmw/gwmw.go#L29) |
 | Protocol | field_declaration | Info | [30](../../magpie/internal/gwmw/gwmw.go#L30) |
 | Model | field_declaration | Info | [31](../../magpie/internal/gwmw/gwmw.go#L31) |
 | Stream | field_declaration | Info | [32](../../magpie/internal/gwmw/gwmw.go#L32) |
 | Path | field_declaration | Info | [33](../../magpie/internal/gwmw/gwmw.go#L33) |
 | Agent | field_declaration | Info | [34](../../magpie/internal/gwmw/gwmw.go#L34) |
-| Reject | struct_type |  | [39](../../magpie/internal/gwmw/gwmw.go#L39) |
+| Reject | type_spec |  | [39](../../magpie/internal/gwmw/gwmw.go#L39) |
 | Status | field_declaration | Reject | [40](../../magpie/internal/gwmw/gwmw.go#L40) |
 | Message | field_declaration | Reject | [41](../../magpie/internal/gwmw/gwmw.go#L41) |
-| Agent | interface_type |  | [45](../../magpie/internal/gwmw/gwmw.go#L45) |
-| Begin | method_spec | Agent | [47](../../magpie/internal/gwmw/gwmw.go#L47) |
-| Run | interface_type |  | [51](../../magpie/internal/gwmw/gwmw.go#L51) |
-| Request | method_spec | Run | [54](../../magpie/internal/gwmw/gwmw.go#L54) |
-| Wrap | method_spec | Run | [56](../../magpie/internal/gwmw/gwmw.go#L56) |
-| End | method_spec | Run | [58](../../magpie/internal/gwmw/gwmw.go#L58) |
-| To | struct_type |  | [62](../../magpie/internal/gwmw/gwmw.go#L62) |
+| Agent | type_spec |  | [45](../../magpie/internal/gwmw/gwmw.go#L45) |
+| Run | type_spec |  | [51](../../magpie/internal/gwmw/gwmw.go#L51) |
+| To | type_spec |  | [62](../../magpie/internal/gwmw/gwmw.go#L62) |
 | ID | field_declaration | To | [63](../../magpie/internal/gwmw/gwmw.go#L63) |
 | Name | field_declaration | To | [64](../../magpie/internal/gwmw/gwmw.go#L64) |
 | Account | field_declaration | To | [65](../../magpie/internal/gwmw/gwmw.go#L65) |
 | Model | field_declaration | To | [66](../../magpie/internal/gwmw/gwmw.go#L66) |
-| Tried | interface_type |  | [72](../../magpie/internal/gwmw/gwmw.go#L72) |
-| Tried | method_spec | Tried | [73](../../magpie/internal/gwmw/gwmw.go#L73) |
-| Masker | interface_type |  | [79](../../magpie/internal/gwmw/gwmw.go#L79) |
-| JSON | method_spec | Masker | [81](../../magpie/internal/gwmw/gwmw.go#L81) |
-| Text | method_spec | Masker | [83](../../magpie/internal/gwmw/gwmw.go#L83) |
-| Restore | method_spec | Masker | [85](../../magpie/internal/gwmw/gwmw.go#L85) |
-| Writer | method_spec | Masker | [88](../../magpie/internal/gwmw/gwmw.go#L88) |
-| Hit | struct_type |  | [97](../../magpie/internal/gwmw/gwmw.go#L97) |
+| Tried | type_spec |  | [72](../../magpie/internal/gwmw/gwmw.go#L72) |
+| Masker | type_spec |  | [79](../../magpie/internal/gwmw/gwmw.go#L79) |
+| Hit | type_spec |  | [97](../../magpie/internal/gwmw/gwmw.go#L97) |
 | Kind | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
-| By | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
-| Placeholder | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
-| Action | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
-| Head | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
 | Len | field_declaration | Hit | [99](../../magpie/internal/gwmw/gwmw.go#L99) |
 | Blocks | function_declaration |  | [104](../../magpie/internal/gwmw/gwmw.go#L104) |
-| Teller | interface_type |  | [115](../../magpie/internal/gwmw/gwmw.go#L115) |
-| JSONHits | method_spec | Teller | [117](../../magpie/internal/gwmw/gwmw.go#L117) |
-| TextHits | method_spec | Teller | [119](../../magpie/internal/gwmw/gwmw.go#L119) |
-| Value | method_spec | Teller | [122](../../magpie/internal/gwmw/gwmw.go#L122) |
-| ContextTeller | interface_type |  | [129](../../magpie/internal/gwmw/gwmw.go#L129) |
-| JSONHitsContext | method_spec | ContextTeller | [130](../../magpie/internal/gwmw/gwmw.go#L130) |
-| TextHitsContext | method_spec | ContextTeller | [131](../../magpie/internal/gwmw/gwmw.go#L131) |
+| Teller | type_spec |  | [115](../../magpie/internal/gwmw/gwmw.go#L115) |
+| ContextTeller | type_spec |  | [129](../../magpie/internal/gwmw/gwmw.go#L129) |
 | mu | var_spec |  | [135](../../magpie/internal/gwmw/gwmw.go#L135) |
 | agents | var_spec |  | [136](../../magpie/internal/gwmw/gwmw.go#L136) |
 | maskers | var_spec |  | [137](../../magpie/internal/gwmw/gwmw.go#L137) |
 | refresh | var_spec |  | [138](../../magpie/internal/gwmw/gwmw.go#L138) |
 | add | function_declaration |  | [141](../../magpie/internal/gwmw/gwmw.go#L141) |
+| once | var_spec | add | [146](../../magpie/internal/gwmw/gwmw.go#L146) |
 | Use | function_declaration |  | [159](../../magpie/internal/gwmw/gwmw.go#L159) |
 | Agents | function_declaration |  | [162](../../magpie/internal/gwmw/gwmw.go#L162) |
 | Mask | function_declaration |  | [174](../../magpie/internal/gwmw/gwmw.go#L174) |
 | Refresh | function_declaration |  | [179](../../magpie/internal/gwmw/gwmw.go#L179) |
-| throttle | struct_type |  | [194](../../magpie/internal/gwmw/gwmw.go#L194) |
+| once | var_spec | Refresh | [183](../../magpie/internal/gwmw/gwmw.go#L183) |
+| throttle | type_spec |  | [194](../../magpie/internal/gwmw/gwmw.go#L194) |
 | busy | field_declaration | throttle | [195](../../magpie/internal/gwmw/gwmw.go#L195) |
 | last | field_declaration | throttle | [196](../../magpie/internal/gwmw/gwmw.go#L196) |
-| ask | method_declaration | *throttle | [200](../../magpie/internal/gwmw/gwmw.go#L200) |
+| ask | method_declaration |  | [200](../../magpie/internal/gwmw/gwmw.go#L200) |
 | forMasking | var_spec |  | [212](../../magpie/internal/gwmw/gwmw.go#L212) |
-| forAgents | var_spec |  | [212](../../magpie/internal/gwmw/gwmw.go#L212) |
 | refreshFunc | function_declaration |  | [214](../../magpie/internal/gwmw/gwmw.go#L214) |
 | AgentsWanted | function_declaration |  | [224](../../magpie/internal/gwmw/gwmw.go#L224) |
 | served | function_declaration |  | [234](../../magpie/internal/gwmw/gwmw.go#L234) |

@@ -8,6 +8,7 @@ Source SHA-256: fcb8105035fcdd8f62326e0200d0847be4a3b5b6501c3c8dae69b069eb787b31
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| grokLogin | struct_type |  | [21](../../magpie/internal/provider/grok_accounts.go#L21) |
+| grokLogin | type_spec |  | [21](../../magpie/internal/provider/grok_accounts.go#L21) |
 | Home | field_declaration | grokLogin | [23](../../magpie/internal/provider/grok_accounts.go#L23) |
 | grokLogins | function_declaration |  | [28](../../magpie/internal/provider/grok_accounts.go#L28) |
+| out | var_spec | grokLogins | [33](../../magpie/internal/provider/grok_accounts.go#L33) |

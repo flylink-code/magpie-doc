@@ -12,6 +12,7 @@ Source SHA-256: 389a64e8efcff519d072d1ada28dd22a49db567d4c41648a4b647b96b0a12032
 | airDir | function_declaration |  | [51](../../magpie/internal/agent/air.go#L51) |
 | airOpenCode | var_spec |  | [68](../../magpie/internal/agent/air.go#L68) |
 | acpOpenCode | function_declaration |  | [90](../../magpie/internal/agent/air.go#L90) |
+| globs | var_spec | acpOpenCode | [91](../../magpie/internal/agent/air.go#L91) |
 | air | function_declaration |  | [137](../../magpie/internal/agent/air.go#L137) |
 | noticeAir1 | var_spec |  | [225](../../magpie/internal/agent/air.go#L225) |
 | noticeAir2 | var_spec |  | [226](../../magpie/internal/agent/air.go#L226) |

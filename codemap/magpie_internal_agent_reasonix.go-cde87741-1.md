@@ -11,14 +11,14 @@ Source SHA-256: ce5b61f240f5023adb2937338e33b59f6671af6a0b4273a012d117b09892ff3d
 | reasonixKey | const_spec |  | [27](../../magpie/internal/agent/reasonix.go#L27) |
 | reasonixKeyLine | var_spec |  | [29](../../magpie/internal/agent/reasonix.go#L29) |
 | reasonixEdits | var_spec |  | [33](../../magpie/internal/agent/reasonix.go#L33) |
-| reasonixConfig | struct_type |  | [35](../../magpie/internal/agent/reasonix.go#L35) |
+| reasonixConfig | type_spec |  | [35](../../magpie/internal/agent/reasonix.go#L35) |
 | DefaultModel | field_declaration | reasonixConfig | [36](../../magpie/internal/agent/reasonix.go#L36) |
 | Agent | field_declaration | reasonixConfig | [37](../../magpie/internal/agent/reasonix.go#L37) |
-| Planner | field_declaration | reasonixConfig | [38](../../magpie/internal/agent/reasonix.go#L38) |
+| Planner | field_declaration | reasonixConfig::Agent | [38](../../magpie/internal/agent/reasonix.go#L38) |
 | Providers | field_declaration | reasonixConfig | [40](../../magpie/internal/agent/reasonix.go#L40) |
 | Desktop | field_declaration | reasonixConfig | [41](../../magpie/internal/agent/reasonix.go#L41) |
-| Access | field_declaration | reasonixConfig | [42](../../magpie/internal/agent/reasonix.go#L42) |
-| reasonixProvider | struct_type |  | [46](../../magpie/internal/agent/reasonix.go#L46) |
+| Access | field_declaration | reasonixConfig::Desktop | [42](../../magpie/internal/agent/reasonix.go#L42) |
+| reasonixProvider | type_spec |  | [46](../../magpie/internal/agent/reasonix.go#L46) |
 | Name | field_declaration | reasonixProvider | [47](../../magpie/internal/agent/reasonix.go#L47) |
 | Kind | field_declaration | reasonixProvider | [48](../../magpie/internal/agent/reasonix.go#L48) |
 | BaseURL | field_declaration | reasonixProvider | [49](../../magpie/internal/agent/reasonix.go#L49) |
@@ -30,13 +30,13 @@ Source SHA-256: ce5b61f240f5023adb2937338e33b59f6671af6a0b4273a012d117b09892ff3d
 | Protocol | field_declaration | reasonixProvider | [55](../../magpie/internal/agent/reasonix.go#L55) |
 | NoProxy | field_declaration | reasonixProvider | [56](../../magpie/internal/agent/reasonix.go#L56) |
 | Overrides | field_declaration | reasonixProvider | [57](../../magpie/internal/agent/reasonix.go#L57) |
-| reasonixModel | struct_type |  | [60](../../magpie/internal/agent/reasonix.go#L60) |
+| reasonixModel | type_spec |  | [60](../../magpie/internal/agent/reasonix.go#L60) |
 | Protocol | field_declaration | reasonixModel | [61](../../magpie/internal/agent/reasonix.go#L61) |
 | Efforts | field_declaration | reasonixModel | [62](../../magpie/internal/agent/reasonix.go#L62) |
 | Vision | field_declaration | reasonixModel | [63](../../magpie/internal/agent/reasonix.go#L63) |
 | Context | field_declaration | reasonixModel | [64](../../magpie/internal/agent/reasonix.go#L64) |
 | Output | field_declaration | reasonixModel | [65](../../magpie/internal/agent/reasonix.go#L65) |
-| reasonixState | struct_type |  | [70](../../magpie/internal/agent/reasonix.go#L70) |
+| reasonixState | type_spec |  | [70](../../magpie/internal/agent/reasonix.go#L70) |
 | Version | field_declaration | reasonixState | [71](../../magpie/internal/agent/reasonix.go#L71) |
 | Planner | field_declaration | reasonixState | [72](../../magpie/internal/agent/reasonix.go#L72) |
 | PlannerManaged | field_declaration | reasonixState | [73](../../magpie/internal/agent/reasonix.go#L73) |
@@ -46,14 +46,18 @@ Source SHA-256: ce5b61f240f5023adb2937338e33b59f6671af6a0b4273a012d117b09892ff3d
 | AddedAccess | field_declaration | reasonixState | [77](../../magpie/internal/agent/reasonix.go#L77) |
 | reasonix | function_declaration |  | [80](../../magpie/internal/agent/reasonix.go#L80) |
 | reasonixIn | function_declaration |  | [86](../../magpie/internal/agent/reasonix.go#L86) |
+| state | var_spec | reasonixIn | [108](../../magpie/internal/agent/reasonix.go#L108) |
+| fields | var_spec | reasonixIn | [117](../../magpie/internal/agent/reasonix.go#L117) |
 | Providers | field_declaration | reasonixIn | [162](../../magpie/internal/agent/reasonix.go#L162) |
 | path | field_declaration | reasonixIn | [222](../../magpie/internal/agent/reasonix.go#L222) |
 | made | field_declaration | reasonixIn | [223](../../magpie/internal/agent/reasonix.go#L223) |
+| own | var_spec | reasonixIn | [374](../../magpie/internal/agent/reasonix.go#L374) |
 | serializedReasonix | function_declaration |  | [532](../../magpie/internal/agent/reasonix.go#L532) |
 | reasonixHome | function_declaration |  | [574](../../magpie/internal/agent/reasonix.go#L574) |
 | readReasonix | function_declaration |  | [584](../../magpie/internal/agent/reasonix.go#L584) |
-| magpie | method_declaration | reasonixConfig | [606](../../magpie/internal/agent/reasonix.go#L606) |
-| hasModel | method_declaration | reasonixConfig | [615](../../magpie/internal/agent/reasonix.go#L615) |
+| cfg | var_spec | readReasonix | [585](../../magpie/internal/agent/reasonix.go#L585) |
+| magpie | method_declaration |  | [606](../../magpie/internal/agent/reasonix.go#L606) |
+| hasModel | method_declaration |  | [615](../../magpie/internal/agent/reasonix.go#L615) |
 | reasonixCatalog | function_declaration |  | [630](../../magpie/internal/agent/reasonix.go#L630) |
 | reasonixCatalogAt | function_declaration |  | [636](../../magpie/internal/agent/reasonix.go#L636) |
 | reasonixArray | function_declaration |  | [668](../../magpie/internal/agent/reasonix.go#L668) |

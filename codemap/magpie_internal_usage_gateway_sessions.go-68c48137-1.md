@@ -10,15 +10,12 @@ Source SHA-256: 5761a18cecb7b5ebd4f7e08fe7a64955f1782a042a07a5417f46943f0e7c1fe9
 | --- | --- | --- | ---: |
 | GatewaySessionWindow | function_declaration |  | [18](../../magpie/internal/usage/gateway_sessions.go#L18) |
 | GatewaySessionWindowExcept | function_declaration |  | [22](../../magpie/internal/usage/gateway_sessions.go#L22) |
-| GatewayDayUsage | struct_type |  | [26](../../magpie/internal/usage/gateway_sessions.go#L26) |
+| GatewayDayUsage | type_spec |  | [26](../../magpie/internal/usage/gateway_sessions.go#L26) |
 | Date | field_declaration | GatewayDayUsage | [27](../../magpie/internal/usage/gateway_sessions.go#L27) |
-| Agent | field_declaration | GatewayDayUsage | [27](../../magpie/internal/usage/gateway_sessions.go#L27) |
-| Model | field_declaration | GatewayDayUsage | [27](../../magpie/internal/usage/gateway_sessions.go#L27) |
 | Cost | field_declaration | GatewayDayUsage | [29](../../magpie/internal/usage/gateway_sessions.go#L29) |
 | Priced | field_declaration | GatewayDayUsage | [30](../../magpie/internal/usage/gateway_sessions.go#L30) |
 | first | field_declaration | GatewayDayUsage | [34](../../magpie/internal/usage/gateway_sessions.go#L34) |
-| last | field_declaration | GatewayDayUsage | [34](../../magpie/internal/usage/gateway_sessions.go#L34) |
-| GatewaySession | struct_type |  | [40](../../magpie/internal/usage/gateway_sessions.go#L40) |
+| GatewaySession | type_spec |  | [40](../../magpie/internal/usage/gateway_sessions.go#L40) |
 | Agent | field_declaration | GatewaySession | [41](../../magpie/internal/usage/gateway_sessions.go#L41) |
 | ID | field_declaration | GatewaySession | [42](../../magpie/internal/usage/gateway_sessions.go#L42) |
 | Start | field_declaration | GatewaySession | [43](../../magpie/internal/usage/gateway_sessions.go#L43) |
@@ -27,7 +24,7 @@ Source SHA-256: 5761a18cecb7b5ebd4f7e08fe7a64955f1782a042a07a5417f46943f0e7c1fe9
 | Daily | field_declaration | GatewaySession | [46](../../magpie/internal/usage/gateway_sessions.go#L46) |
 | Cost | field_declaration | GatewaySession | [48](../../magpie/internal/usage/gateway_sessions.go#L48) |
 | Unpriced | field_declaration | GatewaySession | [49](../../magpie/internal/usage/gateway_sessions.go#L49) |
-| GatewayModel | struct_type |  | [52](../../magpie/internal/usage/gateway_sessions.go#L52) |
+| GatewayModel | type_spec |  | [52](../../magpie/internal/usage/gateway_sessions.go#L52) |
 | Model | field_declaration | GatewayModel | [53](../../magpie/internal/usage/gateway_sessions.go#L53) |
 | Cost | field_declaration | GatewayModel | [55](../../magpie/internal/usage/gateway_sessions.go#L55) |
 | Priced | field_declaration | GatewayModel | [56](../../magpie/internal/usage/gateway_sessions.go#L56) |
@@ -36,28 +33,24 @@ Source SHA-256: 5761a18cecb7b5ebd4f7e08fe7a64955f1782a042a07a5417f46943f0e7c1fe9
 | gatewaySessionFrom | function_declaration |  | [109](../../magpie/internal/usage/gateway_sessions.go#L109) |
 | finishGatewayModels | function_declaration |  | [152](../../magpie/internal/usage/gateway_sessions.go#L152) |
 | GatewaySessionByID | function_declaration |  | [168](../../magpie/internal/usage/gateway_sessions.go#L168) |
-| gatewayProjectionEntry | struct_type |  | [184](../../magpie/internal/usage/gateway_sessions.go#L184) |
+| gatewayProjectionEntry | type_spec |  | [184](../../magpie/internal/usage/gateway_sessions.go#L184) |
 | version | field_declaration | gatewayProjectionEntry | [185](../../magpie/internal/usage/gateway_sessions.go#L185) |
 | meta | field_declaration | gatewayProjectionEntry | [186](../../magpie/internal/usage/gateway_sessions.go#L186) |
 | zone | field_declaration | gatewayProjectionEntry | [187](../../magpie/internal/usage/gateway_sessions.go#L187) |
 | sessions | field_declaration | gatewayProjectionEntry | [188](../../magpie/internal/usage/gateway_sessions.go#L188) |
 | byID | field_declaration | gatewayProjectionEntry | [189](../../magpie/internal/usage/gateway_sessions.go#L189) |
 | gatewayCache | var_spec |  | [197](../../magpie/internal/usage/gateway_sessions.go#L197) |
+| entry | field_declaration | gatewayCache | [199](../../magpie/internal/usage/gateway_sessions.go#L199) |
 | gatewayProjection | function_declaration |  | [202](../../magpie/internal/usage/gateway_sessions.go#L202) |
 | cloneGatewaySession | function_declaration |  | [226](../../magpie/internal/usage/gateway_sessions.go#L226) |
 | gatewaySessionSnapshot | function_declaration |  | [231](../../magpie/internal/usage/gateway_sessions.go#L231) |
 | gatewayDays | function_declaration |  | [236](../../magpie/internal/usage/gateway_sessions.go#L236) |
-| key | struct_type | gatewayDays | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
-| date | field_declaration | gatewayDays.key | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
-| agent | field_declaration | gatewayDays.key | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
-| model | field_declaration | gatewayDays.key | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
+| key | type_spec | gatewayDays | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
+| date | field_declaration | gatewayDays::key | [237](../../magpie/internal/usage/gateway_sessions.go#L237) |
 | gatewayBuilds | var_spec |  | [274](../../magpie/internal/usage/gateway_sessions.go#L274) |
 | buildGatewaySessions | function_declaration |  | [279](../../magpie/internal/usage/gateway_sessions.go#L279) |
-| key | struct_type | buildGatewaySessions | [282](../../magpie/internal/usage/gateway_sessions.go#L282) |
-| agent | field_declaration | buildGatewaySessions.key | [282](../../magpie/internal/usage/gateway_sessions.go#L282) |
-| id | field_declaration | buildGatewaySessions.key | [282](../../magpie/internal/usage/gateway_sessions.go#L282) |
-| dayKey | struct_type | buildGatewaySessions | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
-| date | field_declaration | buildGatewaySessions.dayKey | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
-| agent | field_declaration | buildGatewaySessions.dayKey | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
-| model | field_declaration | buildGatewaySessions.dayKey | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
-| addRecord | method_declaration | *GatewayModel | [405](../../magpie/internal/usage/gateway_sessions.go#L405) |
+| key | type_spec | buildGatewaySessions | [282](../../magpie/internal/usage/gateway_sessions.go#L282) |
+| agent | field_declaration | buildGatewaySessions::key | [282](../../magpie/internal/usage/gateway_sessions.go#L282) |
+| dayKey | type_spec | buildGatewaySessions | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
+| date | field_declaration | buildGatewaySessions::dayKey | [285](../../magpie/internal/usage/gateway_sessions.go#L285) |
+| addRecord | method_declaration |  | [405](../../magpie/internal/usage/gateway_sessions.go#L405) |

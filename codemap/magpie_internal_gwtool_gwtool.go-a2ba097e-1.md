@@ -11,6 +11,10 @@ Source SHA-256: e83898819b268e7b7a1619636b47371bbd818a73183531ab38526f5f0a0e7d42
 | WebSearch | const_spec |  | [20](../../magpie/internal/gwtool/gwtool.go#L20) |
 | PluginTools | const_spec |  | [24](../../magpie/internal/gwtool/gwtool.go#L24) |
 | gate | var_spec |  | [26](../../magpie/internal/gwtool/gwtool.go#L26) |
+| gated | field_declaration | gate | [28](../../magpie/internal/gwtool/gwtool.go#L28) |
+| served | field_declaration | gate | [29](../../magpie/internal/gwtool/gwtool.go#L29) |
 | Gate | function_declaration |  | [34](../../magpie/internal/gwtool/gwtool.go#L34) |
+| once | var_spec | Gate | [38](../../magpie/internal/gwtool/gwtool.go#L38) |
 | Serve | function_declaration |  | [50](../../magpie/internal/gwtool/gwtool.go#L50) |
+| once | var_spec | Serve | [57](../../magpie/internal/gwtool/gwtool.go#L57) |
 | Served | function_declaration |  | [68](../../magpie/internal/gwtool/gwtool.go#L68) |

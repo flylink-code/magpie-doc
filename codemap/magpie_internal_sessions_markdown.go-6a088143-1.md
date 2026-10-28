@@ -11,6 +11,7 @@ Source SHA-256: f94845a29bf044cd19e94ab01fd558a30256021f05f76dd3c98e1e1fb7646f9a
 | WriteMarkdown | function_declaration |  | [21](../../magpie/internal/sessions/markdown.go#L21) |
 | WriteGatewayMarkdown | function_declaration |  | [36](../../magpie/internal/sessions/markdown.go#L36) |
 | writeMarkdown | function_declaration |  | [47](../../magpie/internal/sessions/markdown.go#L47) |
+| models | var_spec | writeMarkdown | [64](../../magpie/internal/sessions/markdown.go#L64) |
 | folded | function_declaration |  | [132](../../magpie/internal/sessions/markdown.go#L132) |
 | fenced | function_declaration |  | [143](../../magpie/internal/sessions/markdown.go#L143) |
 | when | function_declaration |  | [157](../../magpie/internal/sessions/markdown.go#L157) |

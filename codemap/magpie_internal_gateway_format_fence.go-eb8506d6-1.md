@@ -10,10 +10,11 @@ Source SHA-256: ab0aa80fca22929b2371d55ddc1deef58a04011a4a73090fcccc6bd090800c12
 | --- | --- | --- | ---: |
 | unfence | function_declaration |  | [11](../../magpie/internal/gateway/format_fence.go#L11) |
 | unfencedResult | function_declaration |  | [32](../../magpie/internal/gateway/format_fence.go#L32) |
-| fenceEncoder | struct_type |  | [58](../../magpie/internal/gateway/format_fence.go#L58) |
+| parts | var_spec | unfencedResult | [36](../../magpie/internal/gateway/format_fence.go#L36) |
+| fenceEncoder | type_spec |  | [58](../../magpie/internal/gateway/format_fence.go#L58) |
 | held | field_declaration | fenceEncoder | [60](../../magpie/internal/gateway/format_fence.go#L60) |
 | holding | field_declaration | fenceEncoder | [61](../../magpie/internal/gateway/format_fence.go#L61) |
 | past | field_declaration | fenceEncoder | [62](../../magpie/internal/gateway/format_fence.go#L62) |
-| event | method_declaration | *fenceEncoder | [65](../../magpie/internal/gateway/format_fence.go#L65) |
-| flush | method_declaration | *fenceEncoder | [90](../../magpie/internal/gateway/format_fence.go#L90) |
-| finish | method_declaration | *fenceEncoder | [105](../../magpie/internal/gateway/format_fence.go#L105) |
+| event | method_declaration |  | [65](../../magpie/internal/gateway/format_fence.go#L65) |
+| flush | method_declaration |  | [90](../../magpie/internal/gateway/format_fence.go#L90) |
+| finish | method_declaration |  | [105](../../magpie/internal/gateway/format_fence.go#L105) |

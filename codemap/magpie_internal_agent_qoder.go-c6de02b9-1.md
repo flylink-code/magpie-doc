@@ -10,14 +10,9 @@ Source SHA-256: 3936410429d5779f925dbbf52fcea1bee3a1353e199296307d62362b5e0ad52e
 | --- | --- | --- | ---: |
 | qoder | function_declaration |  | [41](../../magpie/internal/agent/qoder.go#L41) |
 | qoderCN | function_declaration |  | [45](../../magpie/internal/agent/qoder.go#L45) |
-| qoderBuild | struct_type |  | [50](../../magpie/internal/agent/qoder.go#L50) |
+| qoderBuild | type_spec |  | [50](../../magpie/internal/agent/qoder.go#L50) |
 | id | field_declaration | qoderBuild | [51](../../magpie/internal/agent/qoder.go#L51) |
-| name | field_declaration | qoderBuild | [51](../../magpie/internal/agent/qoder.go#L51) |
-| env | field_declaration | qoderBuild | [51](../../magpie/internal/agent/qoder.go#L51) |
-| dir | field_declaration | qoderBuild | [51](../../magpie/internal/agent/qoder.go#L51) |
-| bin | field_declaration | qoderBuild | [51](../../magpie/internal/agent/qoder.go#L51) |
 | aliases | field_declaration | qoderBuild | [52](../../magpie/internal/agent/qoder.go#L52) |
-| procs | field_declaration | qoderBuild | [52](../../magpie/internal/agent/qoder.go#L52) |
 | qoderGlobal | var_spec |  | [56](../../magpie/internal/agent/qoder.go#L56) |
 | qoderChina | var_spec |  | [58](../../magpie/internal/agent/qoder.go#L58) |
 | qoderIn | function_declaration |  | [64](../../magpie/internal/agent/qoder.go#L64) |
@@ -25,17 +20,21 @@ Source SHA-256: 3936410429d5779f925dbbf52fcea1bee3a1353e199296307d62362b5e0ad52e
 | qoderSite | function_declaration |  | [67](../../magpie/internal/agent/qoder.go#L67) |
 | qoderAt | function_declaration |  | [71](../../magpie/internal/agent/qoder.go#L71) |
 | qoderEffort | function_declaration |  | [208](../../magpie/internal/agent/qoder.go#L208) |
-| Reasoning | field_declaration | qoderEffort | [210](../../magpie/internal/agent/qoder.go#L210) |
-| Effort | field_declaration | qoderEffort | [210](../../magpie/internal/agent/qoder.go#L210) |
-| Generation | field_declaration | qoderEffort | [211](../../magpie/internal/agent/qoder.go#L211) |
-| Reasoning | field_declaration | qoderEffort | [212](../../magpie/internal/agent/qoder.go#L212) |
-| Effort | field_declaration | qoderEffort | [212](../../magpie/internal/agent/qoder.go#L212) |
+| m | var_spec | qoderEffort | [209](../../magpie/internal/agent/qoder.go#L209) |
+| Reasoning | field_declaration | qoderEffort::m | [210](../../magpie/internal/agent/qoder.go#L210) |
+| Effort | field_declaration | qoderEffort::m::Reasoning | [210](../../magpie/internal/agent/qoder.go#L210) |
+| Generation | field_declaration | qoderEffort::m | [211](../../magpie/internal/agent/qoder.go#L211) |
+| Reasoning | field_declaration | qoderEffort::m::Generation | [212](../../magpie/internal/agent/qoder.go#L212) |
+| Effort | field_declaration | qoderEffort::m::Generation::Reasoning | [212](../../magpie/internal/agent/qoder.go#L212) |
 | qoderPreferences | function_declaration |  | [230](../../magpie/internal/agent/qoder.go#L230) |
 | qoderKept | function_declaration |  | [280](../../magpie/internal/agent/qoder.go#L280) |
 | qoderLevels | var_spec |  | [288](../../magpie/internal/agent/qoder.go#L288) |
 | qoderProvider | function_declaration |  | [292](../../magpie/internal/agent/qoder.go#L292) |
 | qoderProviderAt | function_declaration |  | [298](../../magpie/internal/agent/qoder.go#L298) |
+| ms | var_spec | qoderProviderAt | [299](../../magpie/internal/agent/qoder.go#L299) |
+| levels | var_spec | qoderProviderAt | [302](../../magpie/internal/agent/qoder.go#L302) |
 | qoderKeyed | function_declaration |  | [330](../../magpie/internal/agent/qoder.go#L330) |
 | noticeQoder | var_spec |  | [335](../../magpie/internal/agent/qoder.go#L335) |
 | qoderApp | function_declaration |  | [341](../../magpie/internal/agent/qoder.go#L341) |
 | qoderPluginOnly | function_declaration |  | [354](../../magpie/internal/agent/qoder.go#L354) |
+| m | var_spec | qoderPluginOnly | [359](../../magpie/internal/agent/qoder.go#L359) |

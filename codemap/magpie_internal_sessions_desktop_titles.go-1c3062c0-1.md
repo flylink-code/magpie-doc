@@ -8,7 +8,7 @@ Source SHA-256: b90b5a214001a36e9c49aa4310dd65b1ab2ab534a8eb216550130c6aa309bc37
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| desktopTitle | struct_type |  | [22](../../magpie/internal/sessions/desktop_titles.go#L22) |
+| desktopTitle | type_spec |  | [22](../../magpie/internal/sessions/desktop_titles.go#L22) |
 | Session | field_declaration | desktopTitle | [23](../../magpie/internal/sessions/desktop_titles.go#L23) |
 | CLI | field_declaration | desktopTitle | [24](../../magpie/internal/sessions/desktop_titles.go#L24) |
 | Unarchived | field_declaration | desktopTitle | [25](../../magpie/internal/sessions/desktop_titles.go#L25) |
@@ -16,6 +16,11 @@ Source SHA-256: b90b5a214001a36e9c49aa4310dd65b1ab2ab534a8eb216550130c6aa309bc37
 | Prior | field_declaration | desktopTitle | [27](../../magpie/internal/sessions/desktop_titles.go#L27) |
 | Title | field_declaration | desktopTitle | [28](../../magpie/internal/sessions/desktop_titles.go#L28) |
 | desktopTitles | var_spec |  | [31](../../magpie/internal/sessions/desktop_titles.go#L31) |
+| at | field_declaration | desktopTitles | [33](../../magpie/internal/sessions/desktop_titles.go#L33) |
+| names | field_declaration | desktopTitles | [34](../../magpie/internal/sessions/desktop_titles.go#L34) |
+| last | field_declaration | desktopTitles | [35](../../magpie/internal/sessions/desktop_titles.go#L35) |
+| scans | field_declaration | desktopTitles | [36](../../magpie/internal/sessions/desktop_titles.go#L36) |
 | desktopTitlesHeld | var_spec |  | [43](../../magpie/internal/sessions/desktop_titles.go#L43) |
 | DesktopTitles | function_declaration |  | [48](../../magpie/internal/sessions/desktop_titles.go#L48) |
 | scanDesktopTitles | function_declaration |  | [70](../../magpie/internal/sessions/desktop_titles.go#L70) |
+| d | var_spec | scanDesktopTitles | [95](../../magpie/internal/sessions/desktop_titles.go#L95) |

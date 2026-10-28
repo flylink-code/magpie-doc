@@ -8,19 +8,19 @@ Source SHA-256: 7a4f6d282c13b9edf9900f503ab0f998e3174bbebc1fd7f41fccff4f6c4321df
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| DailyCredits | struct_type |  | [39](../../magpie/internal/provider/credits_daily.go#L39) |
+| DailyCredits | type_spec |  | [39](../../magpie/internal/provider/credits_daily.go#L39) |
 | Since | field_declaration | DailyCredits | [42](../../magpie/internal/provider/credits_daily.go#L42) |
 | Days | field_declaration | DailyCredits | [45](../../magpie/internal/provider/credits_daily.go#L45) |
-| DayCredits | struct_type |  | [49](../../magpie/internal/provider/credits_daily.go#L49) |
+| DayCredits | type_spec |  | [49](../../magpie/internal/provider/credits_daily.go#L49) |
 | Day | field_declaration | DayCredits | [50](../../magpie/internal/provider/credits_daily.go#L50) |
 | Used | field_declaration | DayCredits | [51](../../magpie/internal/provider/credits_daily.go#L51) |
 | creditsKept | const_spec |  | [55](../../magpie/internal/provider/credits_daily.go#L55) |
 | creditsShown | const_spec |  | [56](../../magpie/internal/provider/credits_daily.go#L56) |
-| creditsReading | struct_type |  | [59](../../magpie/internal/provider/credits_daily.go#L59) |
+| creditsReading | type_spec |  | [59](../../magpie/internal/provider/credits_daily.go#L59) |
 | Used | field_declaration | creditsReading | [60](../../magpie/internal/provider/credits_daily.go#L60) |
 | Total | field_declaration | creditsReading | [61](../../magpie/internal/provider/credits_daily.go#L61) |
 | At | field_declaration | creditsReading | [62](../../magpie/internal/provider/credits_daily.go#L62) |
-| creditsAccount | struct_type |  | [65](../../magpie/internal/provider/credits_daily.go#L65) |
+| creditsAccount | type_spec |  | [65](../../magpie/internal/provider/credits_daily.go#L65) |
 | Since | field_declaration | creditsAccount | [66](../../magpie/internal/provider/credits_daily.go#L66) |
 | Last | field_declaration | creditsAccount | [67](../../magpie/internal/provider/credits_daily.go#L67) |
 | Days | field_declaration | creditsAccount | [68](../../magpie/internal/provider/credits_daily.go#L68) |
@@ -33,3 +33,6 @@ Source SHA-256: 7a4f6d282c13b9edf9900f503ab0f998e3174bbebc1fd7f41fccff4f6c4321df
 | creditsOf | function_declaration |  | [98](../../magpie/internal/provider/credits_daily.go#L98) |
 | noteDailyCredits | function_declaration |  | [122](../../magpie/internal/provider/credits_daily.go#L122) |
 | withDailyCredits | function_declaration |  | [186](../../magpie/internal/provider/credits_daily.go#L186) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 178: ERROR

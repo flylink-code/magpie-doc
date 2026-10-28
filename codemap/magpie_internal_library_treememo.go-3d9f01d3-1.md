@@ -9,19 +9,19 @@ Source SHA-256: 27f6eace613bf29b87ac10113842458664045a2874981dc3f62d4ee14b484ab0
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | settleFor | const_spec |  | [30](../../magpie/internal/library/treememo.go#L30) |
-| stamper | struct_type |  | [36](../../magpie/internal/library/treememo.go#L36) |
+| stamper | type_spec |  | [36](../../magpie/internal/library/treememo.go#L36) |
 | h | field_declaration | stamper | [37](../../magpie/internal/library/treememo.go#L37) |
 | newest | field_declaration | stamper | [38](../../magpie/internal/library/treememo.go#L38) |
 | newStamper | function_declaration |  | [41](../../magpie/internal/library/treememo.go#L41) |
-| add | method_declaration | *stamper | [43](../../magpie/internal/library/treememo.go#L43) |
-| done | method_declaration | *stamper | [52](../../magpie/internal/library/treememo.go#L52) |
-| hashMemo | struct_type |  | [56](../../magpie/internal/library/treememo.go#L56) |
+| add | method_declaration |  | [43](../../magpie/internal/library/treememo.go#L43) |
+| done | method_declaration |  | [52](../../magpie/internal/library/treememo.go#L52) |
+| hashMemo | type_spec |  | [56](../../magpie/internal/library/treememo.go#L56) |
 | stamp | field_declaration | hashMemo | [56](../../magpie/internal/library/treememo.go#L56) |
-| hash | field_declaration | hashMemo | [56](../../magpie/internal/library/treememo.go#L56) |
-| treeMemo | struct_type |  | [58](../../magpie/internal/library/treememo.go#L58) |
+| treeMemo | type_spec |  | [58](../../magpie/internal/library/treememo.go#L58) |
 | a | field_declaration | treeMemo | [59](../../magpie/internal/library/treememo.go#L59) |
-| b | field_declaration | treeMemo | [59](../../magpie/internal/library/treememo.go#L59) |
 | same | field_declaration | treeMemo | [60](../../magpie/internal/library/treememo.go#L60) |
 | memo | var_spec |  | [63](../../magpie/internal/library/treememo.go#L63) |
+| hashes | field_declaration | memo | [65](../../magpie/internal/library/treememo.go#L65) |
+| trees | field_declaration | memo | [66](../../magpie/internal/library/treememo.go#L66) |
 | rememberedHash | function_declaration |  | [72](../../magpie/internal/library/treememo.go#L72) |
 | rememberedSame | function_declaration |  | [100](../../magpie/internal/library/treememo.go#L100) |

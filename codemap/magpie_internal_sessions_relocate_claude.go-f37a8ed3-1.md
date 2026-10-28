@@ -8,12 +8,12 @@ Source SHA-256: 294c30f10b60cd75e4c14d8c3bdc75ebf80ea9c9c179b0119608b75136b82b21
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ClaudeRelocation | struct_type |  | [20](../../magpie/internal/sessions/relocate_claude.go#L20) |
+| ClaudeRelocation | type_spec |  | [20](../../magpie/internal/sessions/relocate_claude.go#L20) |
 | From | field_declaration | ClaudeRelocation | [21](../../magpie/internal/sessions/relocate_claude.go#L21) |
 | To | field_declaration | ClaudeRelocation | [22](../../magpie/internal/sessions/relocate_claude.go#L22) |
 | WSL | field_declaration | ClaudeRelocation | [23](../../magpie/internal/sessions/relocate_claude.go#L23) |
 | Token | field_declaration | ClaudeRelocation | [24](../../magpie/internal/sessions/relocate_claude.go#L24) |
-| ClaudeRelocationResult | struct_type |  | [27](../../magpie/internal/sessions/relocate_claude.go#L27) |
+| ClaudeRelocationResult | type_spec |  | [27](../../magpie/internal/sessions/relocate_claude.go#L27) |
 | From | field_declaration | ClaudeRelocationResult | [28](../../magpie/internal/sessions/relocate_claude.go#L28) |
 | To | field_declaration | ClaudeRelocationResult | [29](../../magpie/internal/sessions/relocate_claude.go#L29) |
 | WSL | field_declaration | ClaudeRelocationResult | [30](../../magpie/internal/sessions/relocate_claude.go#L30) |
@@ -25,13 +25,21 @@ Source SHA-256: 294c30f10b60cd75e4c14d8c3bdc75ebf80ea9c9c179b0119608b75136b82b21
 | RelocateClaudeProject | function_declaration |  | [41](../../magpie/internal/sessions/relocate_claude.go#L41) |
 | claudeRelocationRoot | function_declaration |  | [64](../../magpie/internal/sessions/relocate_claude.go#L64) |
 | claudeProjectName | function_declaration |  | [88](../../magpie/internal/sessions/relocate_claude.go#L88) |
+| b | var_spec | claudeProjectName | [89](../../magpie/internal/sessions/relocate_claude.go#L89) |
 | relocationPaths | function_declaration |  | [103](../../magpie/internal/sessions/relocate_claude.go#L103) |
-| relocationFile | struct_type |  | [127](../../magpie/internal/sessions/relocate_claude.go#L127) |
+| relocationFile | type_spec |  | [127](../../magpie/internal/sessions/relocate_claude.go#L127) |
 | name | field_declaration | relocationFile | [128](../../magpie/internal/sessions/relocate_claude.go#L128) |
 | mod | field_declaration | relocationFile | [129](../../magpie/internal/sessions/relocate_claude.go#L129) |
 | mode | field_declaration | relocationFile | [130](../../magpie/internal/sessions/relocate_claude.go#L130) |
 | relocationCwd | function_declaration |  | [133](../../magpie/internal/sessions/relocate_claude.go#L133) |
 | relocateClaudeJSONL | function_declaration |  | [147](../../magpie/internal/sessions/relocate_claude.go#L147) |
+| row | var_spec | relocateClaudeJSONL | [155](../../magpie/internal/sessions/relocate_claude.go#L155) |
+| cwd | var_spec | relocateClaudeJSONL | [163](../../magpie/internal/sessions/relocate_claude.go#L163) |
 | relocateClaudeIndex | function_declaration |  | [183](../../magpie/internal/sessions/relocate_claude.go#L183) |
+| index | var_spec | relocateClaudeIndex | [184](../../magpie/internal/sessions/relocate_claude.go#L184) |
+| p | var_spec | relocateClaudeIndex | [189](../../magpie/internal/sessions/relocate_claude.go#L189) |
+| entries | var_spec | relocateClaudeIndex | [195](../../magpie/internal/sessions/relocate_claude.go#L195) |
+| p | var_spec | relocateClaudeIndex | [207](../../magpie/internal/sessions/relocate_claude.go#L207) |
 | relocateClaudeProject | function_declaration |  | [222](../../magpie/internal/sessions/relocate_claude.go#L222) |
+| files | var_spec | relocateClaudeProject | [272](../../magpie/internal/sessions/relocate_claude.go#L272) |
 | publishClaudeRelocation | function_declaration |  | [390](../../magpie/internal/sessions/relocate_claude.go#L390) |

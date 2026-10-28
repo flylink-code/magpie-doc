@@ -9,22 +9,31 @@ Source SHA-256: 2ece8ec1b7a165879473532a1dc53817c797109d858b586d9b0965f56cfaf1d9
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | decisionGroupOf | function_declaration |  | [29](../../magpie/internal/gateway/decide_group.go#L29) |
-| decideTries | method_declaration | *Server | [62](../../magpie/internal/gateway/decide_group.go#L62) |
-| decideFailed | method_declaration | *Server | [76](../../magpie/internal/gateway/decide_group.go#L76) |
-| serveDecisionGroup | method_declaration | *Server | [87](../../magpie/internal/gateway/decide_group.go#L87) |
-| decideKeys | method_declaration | *Server | [142](../../magpie/internal/gateway/decide_group.go#L142) |
-| serveDecideTries | method_declaration | *Server | [152](../../magpie/internal/gateway/decide_group.go#L152) |
-| Model | field_declaration | *Server.serveDecideTries | [199](../../magpie/internal/gateway/decide_group.go#L199) |
-| Usage | field_declaration | *Server.serveDecideTries | [200](../../magpie/internal/gateway/decide_group.go#L200) |
-| Input | field_declaration | *Server.serveDecideTries | [201](../../magpie/internal/gateway/decide_group.go#L201) |
-| Output | field_declaration | *Server.serveDecideTries | [202](../../magpie/internal/gateway/decide_group.go#L202) |
-| decideRefused | struct_type |  | [250](../../magpie/internal/gateway/decide_group.go#L250) |
+| decideTries | method_declaration |  | [62](../../magpie/internal/gateway/decide_group.go#L62) |
+| decideFailed | method_declaration |  | [76](../../magpie/internal/gateway/decide_group.go#L76) |
+| serveDecisionGroup | method_declaration |  | [87](../../magpie/internal/gateway/decide_group.go#L87) |
+| members | var_spec | serveDecisionGroup | [117](../../magpie/internal/gateway/decide_group.go#L117) |
+| held | var_spec | serveDecisionGroup | [121](../../magpie/internal/gateway/decide_group.go#L121) |
+| decideKeys | method_declaration |  | [142](../../magpie/internal/gateway/decide_group.go#L142) |
+| serveDecideTries | method_declaration |  | [152](../../magpie/internal/gateway/decide_group.go#L152) |
+| skipped | var_spec | serveDecideTries | [156](../../magpie/internal/gateway/decide_group.go#L156) |
+| tooMany | var_spec | serveDecideTries | [179](../../magpie/internal/gateway/decide_group.go#L179) |
+| use | var_spec | serveDecideTries | [198](../../magpie/internal/gateway/decide_group.go#L198) |
+| Model | field_declaration | serveDecideTries::use | [199](../../magpie/internal/gateway/decide_group.go#L199) |
+| Usage | field_declaration | serveDecideTries::use | [200](../../magpie/internal/gateway/decide_group.go#L200) |
+| Input | field_declaration | serveDecideTries::use::Usage | [201](../../magpie/internal/gateway/decide_group.go#L201) |
+| Output | field_declaration | serveDecideTries::use::Usage | [202](../../magpie/internal/gateway/decide_group.go#L202) |
+| rest | var_spec | serveDecideTries | [208](../../magpie/internal/gateway/decide_group.go#L208) |
+| keyID | var_spec | serveDecideTries | [226](../../magpie/internal/gateway/decide_group.go#L226) |
+| decideRefused | type_spec |  | [250](../../magpie/internal/gateway/decide_group.go#L250) |
 | err | field_declaration | decideRefused | [251](../../magpie/internal/gateway/decide_group.go#L251) |
 | status | field_declaration | decideRefused | [252](../../magpie/internal/gateway/decide_group.go#L252) |
 | header | field_declaration | decideRefused | [253](../../magpie/internal/gateway/decide_group.go#L253) |
 | body | field_declaration | decideRefused | [254](../../magpie/internal/gateway/decide_group.go#L254) |
-| Error | method_declaration | decideRefused | [257](../../magpie/internal/gateway/decide_group.go#L257) |
-| Unwrap | method_declaration | decideRefused | [258](../../magpie/internal/gateway/decide_group.go#L258) |
-| askDecisionGroup | method_declaration | *Server | [264](../../magpie/internal/gateway/decide_group.go#L264) |
-| askDecider | method_declaration | *Server | [286](../../magpie/internal/gateway/decide_group.go#L286) |
-| askDecideTries | method_declaration | *Server | [298](../../magpie/internal/gateway/decide_group.go#L298) |
+| Error | method_declaration |  | [257](../../magpie/internal/gateway/decide_group.go#L257) |
+| Unwrap | method_declaration |  | [258](../../magpie/internal/gateway/decide_group.go#L258) |
+| askDecisionGroup | method_declaration |  | [264](../../magpie/internal/gateway/decide_group.go#L264) |
+| askDecider | method_declaration |  | [286](../../magpie/internal/gateway/decide_group.go#L286) |
+| askDecideTries | method_declaration |  | [298](../../magpie/internal/gateway/decide_group.go#L298) |
+| refused | var_spec | askDecideTries | [304](../../magpie/internal/gateway/decide_group.go#L304) |
+| answer | var_spec | askDecideTries | [305](../../magpie/internal/gateway/decide_group.go#L305) |

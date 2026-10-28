@@ -9,12 +9,15 @@ Source SHA-256: 0b8bf051f5c388dfe8f7edf5d28fff17bf222cca2221e6962411639e865ce904
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | FetchGemini | function_declaration |  | [23](../../magpie/internal/catalog/gemini_list.go#L23) |
-| geminiModel | struct_type |  | [52](../../magpie/internal/catalog/gemini_list.go#L52) |
+| out | var_spec | FetchGemini | [29](../../magpie/internal/catalog/gemini_list.go#L29) |
+| geminiModel | type_spec |  | [52](../../magpie/internal/catalog/gemini_list.go#L52) |
 | Name | field_declaration | geminiModel | [53](../../magpie/internal/catalog/gemini_list.go#L53) |
 | DisplayName | field_declaration | geminiModel | [54](../../magpie/internal/catalog/gemini_list.go#L54) |
 | Methods | field_declaration | geminiModel | [55](../../magpie/internal/catalog/gemini_list.go#L55) |
 | Input | field_declaration | geminiModel | [56](../../magpie/internal/catalog/gemini_list.go#L56) |
 | Output | field_declaration | geminiModel | [57](../../magpie/internal/catalog/gemini_list.go#L57) |
 | geminiPage | function_declaration |  | [60](../../magpie/internal/catalog/gemini_list.go#L60) |
-| Models | field_declaration | geminiPage | [88](../../magpie/internal/catalog/gemini_list.go#L88) |
-| Next | field_declaration | geminiPage | [89](../../magpie/internal/catalog/gemini_list.go#L89) |
+| v | var_spec | geminiPage | [87](../../magpie/internal/catalog/gemini_list.go#L87) |
+| Models | field_declaration | geminiPage::v | [88](../../magpie/internal/catalog/gemini_list.go#L88) |
+| Next | field_declaration | geminiPage::v | [89](../../magpie/internal/catalog/gemini_list.go#L89) |
+| out | var_spec | geminiPage | [94](../../magpie/internal/catalog/gemini_list.go#L94) |

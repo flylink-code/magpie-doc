@@ -9,4 +9,7 @@ Source SHA-256: f63d664d4734d88dd3f9276514af9279d104758daf0e369838715bf6cd5a88a6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | relayStatus | function_declaration |  | [18](../../magpie/internal/gateway/relay_status.go#L18) |
+| head | var_spec | relayStatus | [29](../../magpie/internal/gateway/relay_status.go#L29) |
+| failed | var_spec | relayStatus | [44](../../magpie/internal/gateway/relay_status.go#L44) |
+| col | var_spec | relayStatus | [68](../../magpie/internal/gateway/relay_status.go#L68) |
 | retryAfterOn | function_declaration |  | [86](../../magpie/internal/gateway/relay_status.go#L86) |

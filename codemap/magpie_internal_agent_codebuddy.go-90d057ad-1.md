@@ -10,4 +10,5 @@ Source SHA-256: e2aa39738d406d70c68eb7cf3db4a3d19731bbc25eee6c8103c0b405e4013abb
 | --- | --- | --- | ---: |
 | codebuddy | function_declaration |  | [29](../../magpie/internal/agent/codebuddy.go#L29) |
 | codebuddyIn | function_declaration |  | [35](../../magpie/internal/agent/codebuddy.go#L35) |
+| out | var_spec | codebuddyIn | [91](../../magpie/internal/agent/codebuddy.go#L91) |
 | noticeCodebuddy | var_spec |  | [103](../../magpie/internal/agent/codebuddy.go#L103) |

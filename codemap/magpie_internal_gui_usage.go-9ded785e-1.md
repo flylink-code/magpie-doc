@@ -8,21 +8,21 @@ Source SHA-256: d68c5a4e81c49fd910fb36440695ba8ff576356ff300c5616457ac665afa6253
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| usageGroup | type_alias |  | [27](../../magpie/internal/gui/usage.go#L27) |
-| usageJSON | type_alias |  | [28](../../magpie/internal/gui/usage.go#L28) |
-| ledgerRow | type_alias |  | [29](../../magpie/internal/gui/usage.go#L29) |
-| ledgerJSON | type_alias |  | [30](../../magpie/internal/gui/usage.go#L30) |
 | usageState | var_spec |  | [34](../../magpie/internal/gui/usage.go#L34) |
 | ledgerPage | var_spec |  | [35](../../magpie/internal/gui/usage.go#L35) |
 | periodOf | var_spec |  | [36](../../magpie/internal/gui/usage.go#L36) |
 | ledgerFilter | var_spec |  | [37](../../magpie/internal/gui/usage.go#L37) |
 | init | function_declaration |  | [40](../../magpie/internal/gui/usage.go#L40) |
+| out | var_spec | init | [42](../../magpie/internal/gui/usage.go#L42) |
 | csvStamp | function_declaration |  | [52](../../magpie/internal/gui/usage.go#L52) |
-| contentJSON | struct_type |  | [65](../../magpie/internal/gui/usage.go#L65) |
+| contentJSON | type_spec |  | [65](../../magpie/internal/gui/usage.go#L65) |
 | Found | field_declaration | contentJSON | [66](../../magpie/internal/gui/usage.go#L66) |
 | Why | field_declaration | contentJSON | [70](../../magpie/internal/gui/usage.go#L70) |
 | Model | field_declaration | contentJSON | [71](../../magpie/internal/gui/usage.go#L71) |
 | requestContent | function_declaration |  | [76](../../magpie/internal/gui/usage.go#L76) |
 | usageRoutes | function_declaration |  | [99](../../magpie/internal/gui/usage.go#L99) |
-| Provider | field_declaration | usageRoutes | [264](../../magpie/internal/gui/usage.go#L264) |
-| User | field_declaration | usageRoutes | [304](../../magpie/internal/gui/usage.go#L304) |
+| b | var_spec | usageRoutes | [155](../../magpie/internal/gui/usage.go#L155) |
+| in | var_spec | usageRoutes | [264](../../magpie/internal/gui/usage.go#L264) |
+| Provider | field_declaration | usageRoutes::in | [264](../../magpie/internal/gui/usage.go#L264) |
+| in | var_spec | usageRoutes | [304](../../magpie/internal/gui/usage.go#L304) |
+| User | field_declaration | usageRoutes::in | [304](../../magpie/internal/gui/usage.go#L304) |

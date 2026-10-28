@@ -9,21 +9,28 @@ Source SHA-256: 3b675e1b4b46bbe374905dd811edeacd863788e95cf045810300f1748bb0fc72
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | antigravityEffortWords | var_spec |  | [26](../../magpie/internal/provider/antigravity_models.go#L26) |
+| word | field_declaration | antigravityEffortWords | [26](../../magpie/internal/provider/antigravity_models.go#L26) |
 | splitAntigravityID | function_declaration |  | [33](../../magpie/internal/provider/antigravity_models.go#L33) |
 | EffortFamily | function_declaration |  | [45](../../magpie/internal/provider/antigravity_models.go#L45) |
 | antigravityNameEffort | function_declaration |  | [52](../../magpie/internal/provider/antigravity_models.go#L52) |
+| level | var_spec | antigravityNameEffort | [57](../../magpie/internal/provider/antigravity_models.go#L57) |
 | antigravityNameSpells | function_declaration |  | [79](../../magpie/internal/provider/antigravity_models.go#L79) |
 | antigravityEnumNames | function_declaration |  | [88](../../magpie/internal/provider/antigravity_models.go#L88) |
-| antigravityFamily | struct_type |  | [94](../../magpie/internal/provider/antigravity_models.go#L94) |
+| antigravityFamily | type_spec |  | [94](../../magpie/internal/provider/antigravity_models.go#L94) |
 | id | field_declaration | antigravityFamily | [95](../../magpie/internal/provider/antigravity_models.go#L95) |
 | variants | field_declaration | antigravityFamily | [96](../../magpie/internal/provider/antigravity_models.go#L96) |
 | efforts | field_declaration | antigravityFamily | [97](../../magpie/internal/provider/antigravity_models.go#L97) |
-| byEffort | method_declaration | *antigravityFamily | [105](../../magpie/internal/provider/antigravity_models.go#L105) |
-| model | method_declaration | *antigravityFamily | [124](../../magpie/internal/provider/antigravity_models.go#L124) |
+| byEffort | method_declaration |  | [105](../../magpie/internal/provider/antigravity_models.go#L105) |
+| model | method_declaration |  | [124](../../magpie/internal/provider/antigravity_models.go#L124) |
+| m | var_spec | model | [126](../../magpie/internal/provider/antigravity_models.go#L126) |
 | antigravityFamilies | function_declaration |  | [156](../../magpie/internal/provider/antigravity_models.go#L156) |
+| out | var_spec | antigravityFamilies | [157](../../magpie/internal/provider/antigravity_models.go#L157) |
+| named | var_spec | antigravityFamilies | [171](../../magpie/internal/provider/antigravity_models.go#L171) |
 | collapseAntigravityModels | function_declaration |  | [198](../../magpie/internal/provider/antigravity_models.go#L198) |
+| out | var_spec | collapseAntigravityModels | [199](../../magpie/internal/provider/antigravity_models.go#L199) |
 | AntigravityVariants | function_declaration |  | [231](../../magpie/internal/provider/antigravity_models.go#L231) |
 | antigravityVariantsIn | function_declaration |  | [239](../../magpie/internal/provider/antigravity_models.go#L239) |
 | AntigravityBase | function_declaration |  | [253](../../magpie/internal/provider/antigravity_models.go#L253) |
 | antigravityBaseIn | function_declaration |  | [261](../../magpie/internal/provider/antigravity_models.go#L261) |
 | antigravityPicks | function_declaration |  | [278](../../magpie/internal/provider/antigravity_models.go#L278) |
+| out | var_spec | antigravityPicks | [283](../../magpie/internal/provider/antigravity_models.go#L283) |

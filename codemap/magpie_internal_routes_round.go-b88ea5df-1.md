@@ -9,7 +9,8 @@ Source SHA-256: 1c0c6febfe828fb7269f5fe092ad9bf680669b43ab80f01de5eac04225afca31
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | rounds | var_spec |  | [13](../../magpie/internal/routes/round.go#L13) |
-| round | struct_type |  | [18](../../magpie/internal/routes/round.go#L18) |
+| m | field_declaration | rounds | [15](../../magpie/internal/routes/round.go#L15) |
+| round | type_spec |  | [18](../../magpie/internal/routes/round.go#L18) |
 | cur | field_declaration | round | [19](../../magpie/internal/routes/round.go#L19) |
 | total | field_declaration | round | [20](../../magpie/internal/routes/round.go#L20) |
 | last | field_declaration | round | [21](../../magpie/internal/routes/round.go#L21) |

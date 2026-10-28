@@ -8,14 +8,14 @@ Source SHA-256: 27b08396b65d6aa9104d26b5631d5d45b4ef785ccf3a4567b2caaeacb947270a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| bodyFacts | struct_type |  | [14](../../magpie/internal/gateway/parse_memo.go#L14) |
+| bodyFacts | type_spec |  | [14](../../magpie/internal/gateway/parse_memo.go#L14) |
 | turn | field_declaration | bodyFacts | [15](../../magpie/internal/gateway/parse_memo.go#L15) |
 | within | field_declaration | bodyFacts | [16](../../magpie/internal/gateway/parse_memo.go#L16) |
 | dir | field_declaration | bodyFacts | [17](../../magpie/internal/gateway/parse_memo.go#L17) |
-| git | field_declaration | bodyFacts | [17](../../magpie/internal/gateway/parse_memo.go#L17) |
 | factsOf | function_declaration |  | [30](../../magpie/internal/gateway/parse_memo.go#L30) |
 | readFacts | function_declaration |  | [62](../../magpie/internal/gateway/parse_memo.go#L62) |
-| heldFacts | struct_type |  | [77](../../magpie/internal/gateway/parse_memo.go#L77) |
+| f | var_spec | readFacts | [70](../../magpie/internal/gateway/parse_memo.go#L70) |
+| heldFacts | type_spec |  | [77](../../magpie/internal/gateway/parse_memo.go#L77) |
 | n | field_declaration | heldFacts | [78](../../magpie/internal/gateway/parse_memo.go#L78) |
 | proto | field_declaration | heldFacts | [79](../../magpie/internal/gateway/parse_memo.go#L79) |
 | facts | field_declaration | heldFacts | [80](../../magpie/internal/gateway/parse_memo.go#L80) |

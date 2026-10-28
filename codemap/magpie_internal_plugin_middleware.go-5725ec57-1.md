@@ -9,12 +9,14 @@ Source SHA-256: 172d1ef94187dd8e2cad2db197db77e39cf4066d5ef36fb1acb0d9dd47094e41
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Middleware | function_declaration |  | [15](../../magpie/internal/plugin/middleware.go#L15) |
-| Main | field_declaration | Middleware | [34](../../magpie/internal/plugin/middleware.go#L34) |
-| Exports | field_declaration | Middleware | [35](../../magpie/internal/plugin/middleware.go#L35) |
-| Magpie | field_declaration | Middleware | [36](../../magpie/internal/plugin/middleware.go#L36) |
-| Middleware | field_declaration | Middleware | [37](../../magpie/internal/plugin/middleware.go#L37) |
-| Gateway | field_declaration | Middleware | [38](../../magpie/internal/plugin/middleware.go#L38) |
+| pkg | var_spec | Middleware | [33](../../magpie/internal/plugin/middleware.go#L33) |
+| Main | field_declaration | Middleware::pkg | [34](../../magpie/internal/plugin/middleware.go#L34) |
+| Exports | field_declaration | Middleware::pkg | [35](../../magpie/internal/plugin/middleware.go#L35) |
+| Magpie | field_declaration | Middleware::pkg | [36](../../magpie/internal/plugin/middleware.go#L36) |
+| Middleware | field_declaration | Middleware::pkg::Magpie | [37](../../magpie/internal/plugin/middleware.go#L37) |
+| Gateway | field_declaration | Middleware::pkg::Magpie | [38](../../magpie/internal/plugin/middleware.go#L38) |
 | ListStamp | function_declaration |  | [56](../../magpie/internal/plugin/middleware.go#L56) |
 | OptionsExample | function_declaration |  | [61](../../magpie/internal/plugin/middleware.go#L61) |
-| Magpie | field_declaration | OptionsExample | [67](../../magpie/internal/plugin/middleware.go#L67) |
-| Options | field_declaration | OptionsExample | [68](../../magpie/internal/plugin/middleware.go#L68) |
+| pkg | var_spec | OptionsExample | [66](../../magpie/internal/plugin/middleware.go#L66) |
+| Magpie | field_declaration | OptionsExample::pkg | [67](../../magpie/internal/plugin/middleware.go#L67) |
+| Options | field_declaration | OptionsExample::pkg::Magpie | [68](../../magpie/internal/plugin/middleware.go#L68) |

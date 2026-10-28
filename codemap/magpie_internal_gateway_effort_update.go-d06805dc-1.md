@@ -8,23 +8,31 @@ Source SHA-256: 7ff8ffcd6c70c4517637efe6665b28ad188cd1b25564e4005d1be9afbe8c1237
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| effortThread | struct_type |  | [38](../../magpie/internal/gateway/effort_update.go#L38) |
+| effortThread | type_spec |  | [38](../../magpie/internal/gateway/effort_update.go#L38) |
 | base | field_declaration | effortThread | [39](../../magpie/internal/gateway/effort_update.go#L39) |
 | updates | field_declaration | effortThread | [40](../../magpie/internal/gateway/effort_update.go#L40) |
 | n | field_declaration | effortThread | [41](../../magpie/internal/gateway/effort_update.go#L41) |
 | sum | field_declaration | effortThread | [42](../../magpie/internal/gateway/effort_update.go#L42) |
 | at | field_declaration | effortThread | [43](../../magpie/internal/gateway/effort_update.go#L43) |
-| effortUpdate | struct_type |  | [48](../../magpie/internal/gateway/effort_update.go#L48) |
+| effortUpdate | type_spec |  | [48](../../magpie/internal/gateway/effort_update.go#L48) |
 | at | field_declaration | effortUpdate | [49](../../magpie/internal/gateway/effort_update.go#L49) |
 | effort | field_declaration | effortUpdate | [50](../../magpie/internal/gateway/effort_update.go#L50) |
-| effort | method_declaration | *effortThread | [54](../../magpie/internal/gateway/effort_update.go#L54) |
+| effort | method_declaration |  | [54](../../magpie/internal/gateway/effort_update.go#L54) |
 | effortThreads | var_spec |  | [61](../../magpie/internal/gateway/effort_update.go#L61) |
+| m | field_declaration | effortThreads | [63](../../magpie/internal/gateway/effort_update.go#L63) |
+| no | field_declaration | effortThreads | [66](../../magpie/internal/gateway/effort_update.go#L66) |
 | effortThreadKeep | const_spec |  | [69](../../magpie/internal/gateway/effort_update.go#L69) |
 | takesEffortUpdates | function_declaration |  | [75](../../magpie/internal/gateway/effort_update.go#L75) |
 | withEffortUpdates | function_declaration |  | [92](../../magpie/internal/gateway/effort_update.go#L92) |
+| q | var_spec | withEffortUpdates | [93](../../magpie/internal/gateway/effort_update.go#L93) |
+| reasoning | var_spec | withEffortUpdates | [97](../../magpie/internal/gateway/effort_update.go#L97) |
+| items | var_spec | withEffortUpdates | [101](../../magpie/internal/gateway/effort_update.go#L101) |
+| key | var_spec | withEffortUpdates | [105](../../magpie/internal/gateway/effort_update.go#L105) |
 | effortUpdatesRefused | function_declaration |  | [200](../../magpie/internal/gateway/effort_update.go#L200) |
 | pruneEffortThreads | function_declaration |  | [206](../../magpie/internal/gateway/effort_update.go#L206) |
 | itemsSum | function_declaration |  | [217](../../magpie/internal/gateway/effort_update.go#L217) |
+| s | var_spec | itemsSum | [223](../../magpie/internal/gateway/effort_update.go#L223) |
 | isUserItem | function_declaration |  | [228](../../magpie/internal/gateway/effort_update.go#L228) |
-| Type | field_declaration | isUserItem | [230](../../magpie/internal/gateway/effort_update.go#L230) |
-| Role | field_declaration | isUserItem | [231](../../magpie/internal/gateway/effort_update.go#L231) |
+| it | var_spec | isUserItem | [229](../../magpie/internal/gateway/effort_update.go#L229) |
+| Type | field_declaration | isUserItem::it | [230](../../magpie/internal/gateway/effort_update.go#L230) |
+| Role | field_declaration | isUserItem::it | [231](../../magpie/internal/gateway/effort_update.go#L231) |

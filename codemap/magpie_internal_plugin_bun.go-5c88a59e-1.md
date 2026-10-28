@@ -19,19 +19,20 @@ Source SHA-256: 10134a0d2b6c130781eac1b706dbc1f2fae07e5b612d0dfdefb0505b2847accd
 | bunExe | function_declaration |  | [115](../../magpie/internal/plugin/bun.go#L115) |
 | missingLibRe | var_spec |  | [125](../../magpie/internal/plugin/bun.go#L125) |
 | missingLibs | function_declaration |  | [132](../../magpie/internal/plugin/bun.go#L132) |
+| libs | var_spec | missingLibs | [133](../../magpie/internal/plugin/bun.go#L133) |
 | whyDied | function_declaration |  | [147](../../magpie/internal/plugin/bun.go#L147) |
 | cantStart | function_declaration |  | [169](../../magpie/internal/plugin/bun.go#L169) |
 | statusEntrypointNotFound | const_spec |  | [191](../../magpie/internal/plugin/bun.go#L191) |
 | statusIllegalInstruction | const_spec |  | [193](../../magpie/internal/plugin/bun.go#L193) |
-| BunUnstartableError | struct_type |  | [200](../../magpie/internal/plugin/bun.go#L200) |
+| BunUnstartableError | type_spec |  | [200](../../magpie/internal/plugin/bun.go#L200) |
 | Bun | field_declaration | BunUnstartableError | [201](../../magpie/internal/plugin/bun.go#L201) |
 | Why | field_declaration | BunUnstartableError | [203](../../magpie/internal/plugin/bun.go#L203) |
 | Err | field_declaration | BunUnstartableError | [204](../../magpie/internal/plugin/bun.go#L204) |
-| Error | method_declaration | *BunUnstartableError | [207](../../magpie/internal/plugin/bun.go#L207) |
-| Unwrap | method_declaration | *BunUnstartableError | [214](../../magpie/internal/plugin/bun.go#L214) |
+| Error | method_declaration |  | [207](../../magpie/internal/plugin/bun.go#L207) |
+| Unwrap | method_declaration |  | [214](../../magpie/internal/plugin/bun.go#L214) |
 | wontLoad | function_declaration |  | [220](../../magpie/internal/plugin/bun.go#L220) |
-| ExitCode | method_spec | wontLoad | [224](../../magpie/internal/plugin/bun.go#L224) |
-| Sys | method_spec | wontLoad | [233](../../magpie/internal/plugin/bun.go#L233) |
+| ec | var_spec | wontLoad | [224](../../magpie/internal/plugin/bun.go#L224) |
+| ps | var_spec | wontLoad | [233](../../magpie/internal/plugin/bun.go#L233) |
 | Bun | function_declaration |  | [245](../../magpie/internal/plugin/bun.go#L245) |
 | HasBun | function_declaration |  | [263](../../magpie/internal/plugin/bun.go#L263) |
 | downloadBun | function_declaration |  | [272](../../magpie/internal/plugin/bun.go#L272) |

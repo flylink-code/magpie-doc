@@ -11,10 +11,15 @@ Source SHA-256: b7ffba105c9ce982c08f29c8d90cbeb8b2115f4daae0d2aa6d2b78865d4b44cc
 | liteHeader | const_spec |  | [34](../../magpie/internal/gateway/additional_tools.go#L34) |
 | fromLite | function_declaration |  | [40](../../magpie/internal/gateway/additional_tools.go#L40) |
 | withoutReasoningContext | function_declaration |  | [46](../../magpie/internal/gateway/additional_tools.go#L46) |
+| m | var_spec | withoutReasoningContext | [54](../../magpie/internal/gateway/additional_tools.go#L54) |
 | liteKept | function_declaration |  | [72](../../magpie/internal/gateway/additional_tools.go#L72) |
 | liteNamespace | const_spec |  | [83](../../magpie/internal/gateway/additional_tools.go#L83) |
 | liftAdditionalTools | function_declaration |  | [95](../../magpie/internal/gateway/additional_tools.go#L95) |
+| tools | var_spec | liftAdditionalTools | [103](../../magpie/internal/gateway/additional_tools.go#L103) |
+| kept | var_spec | liftAdditionalTools | [110](../../magpie/internal/gateway/additional_tools.go#L110) |
+| toolsJSON | var_spec | liftAdditionalTools | [150](../../magpie/internal/gateway/additional_tools.go#L150) |
 | decodeAny | function_declaration |  | [194](../../magpie/internal/gateway/additional_tools.go#L194) |
+| v | var_spec | decodeAny | [197](../../magpie/internal/gateway/additional_tools.go#L197) |
 | toolsByName | function_declaration |  | [206](../../magpie/internal/gateway/additional_tools.go#L206) |
 | toolKey | function_declaration |  | [216](../../magpie/internal/gateway/additional_tools.go#L216) |
 | addTool | function_declaration |  | [226](../../magpie/internal/gateway/additional_tools.go#L226) |

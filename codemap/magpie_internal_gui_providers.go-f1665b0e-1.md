@@ -8,7 +8,7 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| modelJSON | struct_type |  | [30](../../magpie/internal/gui/providers.go#L30) |
+| modelJSON | type_spec |  | [30](../../magpie/internal/gui/providers.go#L30) |
 | ID | field_declaration | modelJSON | [31](../../magpie/internal/gui/providers.go#L31) |
 | Name | field_declaration | modelJSON | [32](../../magpie/internal/gui/providers.go#L32) |
 | Default | field_declaration | modelJSON | [33](../../magpie/internal/gui/providers.go#L33) |
@@ -38,7 +38,7 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | Price | field_declaration | modelJSON | [66](../../magpie/internal/gui/providers.go#L66) |
 | List | field_declaration | modelJSON | [67](../../magpie/internal/gui/providers.go#L67) |
 | RemoteList | field_declaration | modelJSON | [70](../../magpie/internal/gui/providers.go#L70) |
-| providerJSON | struct_type |  | [73](../../magpie/internal/gui/providers.go#L73) |
+| providerJSON | type_spec |  | [73](../../magpie/internal/gui/providers.go#L73) |
 | ID | field_declaration | providerJSON | [74](../../magpie/internal/gui/providers.go#L74) |
 | Name | field_declaration | providerJSON | [75](../../magpie/internal/gui/providers.go#L75) |
 | Icon | field_declaration | providerJSON | [76](../../magpie/internal/gui/providers.go#L76) |
@@ -80,8 +80,8 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | BalanceMethod | field_declaration | providerJSON | [151](../../magpie/internal/gui/providers.go#L151) |
 | ModelsURL | field_declaration | providerJSON | [152](../../magpie/internal/gui/providers.go#L152) |
 | BalanceToken | field_declaration | providerJSON | [155](../../magpie/internal/gui/providers.go#L155) |
-| Takes | field_declaration | providerJSON | [156](../../magpie/internal/gui/providers.go#L156) |
-| Set | field_declaration | providerJSON | [157](../../magpie/internal/gui/providers.go#L157) |
+| Takes | field_declaration | providerJSON::BalanceToken | [156](../../magpie/internal/gui/providers.go#L156) |
+| Set | field_declaration | providerJSON::BalanceToken | [157](../../magpie/internal/gui/providers.go#L157) |
 | StepPlan | field_declaration | providerJSON | [161](../../magpie/internal/gui/providers.go#L161) |
 | ZhipuTeam | field_declaration | providerJSON | [164](../../magpie/internal/gui/providers.go#L164) |
 | AccessKey | field_declaration | providerJSON | [169](../../magpie/internal/gui/providers.go#L169) |
@@ -92,9 +92,9 @@ Source SHA-256: dde2c8a0b2aa858bbfeb3b9d40d7d942c6194728d46b3b7375a4ba4c9a0bb099
 | MarksKinds | field_declaration | providerJSON | [188](../../magpie/internal/gui/providers.go#L188) |
 | Deciders | field_declaration | providerJSON | [191](../../magpie/internal/gui/providers.go#L191) |
 | Key | field_declaration | providerJSON | [193](../../magpie/internal/gui/providers.go#L193) |
-| Set | field_declaration | providerJSON | [194](../../magpie/internal/gui/providers.go#L194) |
-| Masked | field_declaration | providerJSON | [195](../../magpie/internal/gui/providers.go#L195) |
-| Optional | field_declaration | providerJSON | [196](../../magpie/internal/gui/providers.go#L196) |
+| Set | field_declaration | providerJSON::Key | [194](../../magpie/internal/gui/providers.go#L194) |
+| Masked | field_declaration | providerJSON::Key | [195](../../magpie/internal/gui/providers.go#L195) |
+| Optional | field_declaration | providerJSON::Key | [196](../../magpie/internal/gui/providers.go#L196) |
 | AnonKey | field_declaration | providerJSON | [201](../../magpie/internal/gui/providers.go#L201) |
 | Ready | field_declaration | providerJSON | [202](../../magpie/internal/gui/providers.go#L202) |
 | Chosen | field_declaration | providerJSON | [203](../../magpie/internal/gui/providers.go#L203) |

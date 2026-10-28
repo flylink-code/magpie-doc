@@ -8,29 +8,32 @@ Source SHA-256: e874e76fc6a01cdca1348fc11c99e2f2e787d8ba42383256003c811091d62c55
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexTranscript | struct_type |  | [16](../../magpie/internal/sessions/traces_codex.go#L16) |
+| codexTranscript | type_spec |  | [16](../../magpie/internal/sessions/traces_codex.go#L16) |
 | prompt | field_declaration | codexTranscript | [17](../../magpie/internal/sessions/traces_codex.go#L17) |
-| fed | field_declaration | codexTranscript | [17](../../magpie/internal/sessions/traces_codex.go#L17) |
-| out | field_declaration | codexTranscript | [17](../../magpie/internal/sessions/traces_codex.go#L17) |
-| codexChatMessage | struct_type |  | [20](../../magpie/internal/sessions/traces_codex.go#L20) |
+| codexChatMessage | type_spec |  | [20](../../magpie/internal/sessions/traces_codex.go#L20) |
 | Role | field_declaration | codexChatMessage | [21](../../magpie/internal/sessions/traces_codex.go#L21) |
 | Content | field_declaration | codexChatMessage | [22](../../magpie/internal/sessions/traces_codex.go#L22) |
 | ToolCalls | field_declaration | codexChatMessage | [23](../../magpie/internal/sessions/traces_codex.go#L23) |
 | ToolCallID | field_declaration | codexChatMessage | [24](../../magpie/internal/sessions/traces_codex.go#L24) |
-| codexChatCall | struct_type |  | [27](../../magpie/internal/sessions/traces_codex.go#L27) |
+| codexChatCall | type_spec |  | [27](../../magpie/internal/sessions/traces_codex.go#L27) |
 | ID | field_declaration | codexChatCall | [28](../../magpie/internal/sessions/traces_codex.go#L28) |
 | Type | field_declaration | codexChatCall | [29](../../magpie/internal/sessions/traces_codex.go#L29) |
 | Function | field_declaration | codexChatCall | [30](../../magpie/internal/sessions/traces_codex.go#L30) |
-| Name | field_declaration | codexChatCall | [31](../../magpie/internal/sessions/traces_codex.go#L31) |
-| Arguments | field_declaration | codexChatCall | [32](../../magpie/internal/sessions/traces_codex.go#L32) |
+| Name | field_declaration | codexChatCall::Function | [31](../../magpie/internal/sessions/traces_codex.go#L31) |
+| Arguments | field_declaration | codexChatCall::Function | [32](../../magpie/internal/sessions/traces_codex.go#L32) |
 | codexChat | function_declaration |  | [36](../../magpie/internal/sessions/traces_codex.go#L36) |
 | codexTraceContent | function_declaration |  | [44](../../magpie/internal/sessions/traces_codex.go#L44) |
-| Type | field_declaration | codexTraceContent | [56](../../magpie/internal/sessions/traces_codex.go#L56) |
-| Text | field_declaration | codexTraceContent | [57](../../magpie/internal/sessions/traces_codex.go#L57) |
-| ImageURL | field_declaration | codexTraceContent | [58](../../magpie/internal/sessions/traces_codex.go#L58) |
+| text | var_spec | codexTraceContent | [45](../../magpie/internal/sessions/traces_codex.go#L45) |
+| parts | var_spec | codexTraceContent | [50](../../magpie/internal/sessions/traces_codex.go#L50) |
+| p | var_spec | codexTraceContent | [55](../../magpie/internal/sessions/traces_codex.go#L55) |
+| Type | field_declaration | codexTraceContent::p | [56](../../magpie/internal/sessions/traces_codex.go#L56) |
+| Text | field_declaration | codexTraceContent::p | [57](../../magpie/internal/sessions/traces_codex.go#L57) |
+| ImageURL | field_declaration | codexTraceContent::p | [58](../../magpie/internal/sessions/traces_codex.go#L58) |
 | codexArguments | function_declaration |  | [79](../../magpie/internal/sessions/traces_codex.go#L79) |
-| message | method_declaration | *codexTranscript | [87](../../magpie/internal/sessions/traces_codex.go#L87) |
-| call | method_declaration | *codexTranscript | [96](../../magpie/internal/sessions/traces_codex.go#L96) |
-| result | method_declaration | *codexTranscript | [102](../../magpie/internal/sessions/traces_codex.go#L102) |
-| response | method_declaration | *codexTranscript | [108](../../magpie/internal/sessions/traces_codex.go#L108) |
+| s | var_spec | codexArguments | [80](../../magpie/internal/sessions/traces_codex.go#L80) |
+| message | method_declaration |  | [87](../../magpie/internal/sessions/traces_codex.go#L87) |
+| call | method_declaration |  | [96](../../magpie/internal/sessions/traces_codex.go#L96) |
+| result | method_declaration |  | [102](../../magpie/internal/sessions/traces_codex.go#L102) |
+| response | method_declaration |  | [108](../../magpie/internal/sessions/traces_codex.go#L108) |
+| in | var_spec | response | [112](../../magpie/internal/sessions/traces_codex.go#L112) |
 | codexNativeBodies | function_declaration |  | [132](../../magpie/internal/sessions/traces_codex.go#L132) |

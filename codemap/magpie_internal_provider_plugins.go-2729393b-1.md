@@ -15,10 +15,11 @@ Source SHA-256: e9c110ea2743fd6d88c90e7cfae03d67885c1951559ddcaf3b66a178891d0996
 | PluginID | function_declaration |  | [52](../../magpie/internal/provider/plugins.go#L52) |
 | customIDs | function_declaration |  | [65](../../magpie/internal/provider/plugins.go#L65) |
 | subscriptionID | function_declaration |  | [80](../../magpie/internal/provider/plugins.go#L80) |
-| IsPlugin | method_declaration | Provider | [89](../../magpie/internal/provider/plugins.go#L89) |
-| PluginProvider | method_declaration | Provider | [93](../../magpie/internal/provider/plugins.go#L93) |
+| IsPlugin | method_declaration |  | [89](../../magpie/internal/provider/plugins.go#L89) |
+| PluginProvider | method_declaration |  | [93](../../magpie/internal/provider/plugins.go#L93) |
 | PluginOf | function_declaration |  | [101](../../magpie/internal/provider/plugins.go#L101) |
 | pluginAccounts | function_declaration |  | [112](../../magpie/internal/provider/plugins.go#L112) |
+| out | var_spec | pluginAccounts | [113](../../magpie/internal/provider/plugins.go#L113) |
 | pluginProtocol | function_declaration |  | [137](../../magpie/internal/provider/plugins.go#L137) |
 | gptN | var_spec |  | [154](../../magpie/internal/provider/plugins.go#L154) |
 | copilotAPI | function_declaration |  | [158](../../magpie/internal/provider/plugins.go#L158) |
@@ -30,22 +31,26 @@ Source SHA-256: e9c110ea2743fd6d88c90e7cfae03d67885c1951559ddcaf3b66a178891d0996
 | pluginPrice | function_declaration |  | [282](../../magpie/internal/provider/plugins.go#L282) |
 | pluginAccountCatalog | function_declaration |  | [291](../../magpie/internal/provider/plugins.go#L291) |
 | PluginListError | function_declaration |  | [304](../../magpie/internal/provider/plugins.go#L304) |
-| ListError | method_declaration | Provider | [318](../../magpie/internal/provider/plugins.go#L318) |
+| ListError | method_declaration |  | [318](../../magpie/internal/provider/plugins.go#L318) |
 | pluginServedCatalog | function_declaration |  | [332](../../magpie/internal/provider/plugins.go#L332) |
-| pluginLists | method_declaration | *Account | [349](../../magpie/internal/provider/plugins.go#L349) |
+| pluginLists | method_declaration |  | [349](../../magpie/internal/provider/plugins.go#L349) |
 | pluginProvider | function_declaration |  | [364](../../magpie/internal/provider/plugins.go#L364) |
 | pluginProviderServing | function_declaration |  | [370](../../magpie/internal/provider/plugins.go#L370) |
-| pluginAPIs | method_declaration | Provider | [462](../../magpie/internal/provider/plugins.go#L462) |
-| Origin | method_declaration | Provider | [477](../../magpie/internal/provider/plugins.go#L477) |
+| pluginAPIs | method_declaration |  | [462](../../magpie/internal/provider/plugins.go#L462) |
+| Origin | method_declaration |  | [477](../../magpie/internal/provider/plugins.go#L477) |
 | pluginFetch | function_declaration |  | [505](../../magpie/internal/provider/plugins.go#L505) |
-| Model | field_declaration | pluginFetch | [526](../../magpie/internal/provider/plugins.go#L526) |
-| Request | field_declaration | pluginFetch | [527](../../magpie/internal/provider/plugins.go#L527) |
+| body | var_spec | pluginFetch | [507](../../magpie/internal/provider/plugins.go#L507) |
+| env | var_spec | pluginFetch | [525](../../magpie/internal/provider/plugins.go#L525) |
+| Model | field_declaration | pluginFetch::env | [526](../../magpie/internal/provider/plugins.go#L526) |
+| Request | field_declaration | pluginFetch::env | [527](../../magpie/internal/provider/plugins.go#L527) |
+| url | var_spec | pluginFetch | [557](../../magpie/internal/provider/plugins.go#L557) |
 | SignInHeader | const_spec |  | [601](../../magpie/internal/provider/plugins.go#L601) |
 | notePluginSignIn | function_declaration |  | [605](../../magpie/internal/provider/plugins.go#L605) |
 | notePluginSaid | function_declaration |  | [614](../../magpie/internal/provider/plugins.go#L614) |
 | init | function_declaration |  | [626](../../magpie/internal/provider/plugins.go#L626) |
 | modelAPIID | function_declaration |  | [658](../../magpie/internal/provider/plugins.go#L658) |
 | withModel | function_declaration |  | [665](../../magpie/internal/provider/plugins.go#L665) |
+| v | var_spec | withModel | [666](../../magpie/internal/provider/plugins.go#L666) |
 | firstOf | function_declaration |  | [677](../../magpie/internal/provider/plugins.go#L677) |
-| Do | method_declaration | Provider | [693](../../magpie/internal/provider/plugins.go#L693) |
-| do | method_declaration | Provider | [708](../../magpie/internal/provider/plugins.go#L708) |
+| Do | method_declaration |  | [693](../../magpie/internal/provider/plugins.go#L693) |
+| do | method_declaration |  | [708](../../magpie/internal/provider/plugins.go#L708) |

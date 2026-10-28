@@ -9,9 +9,12 @@ Source SHA-256: 440f2e27b8b178444fdccfc0087653bedadac08439b9de0b62361cca631fcb1f
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | isSelf | function_declaration |  | [27](../../magpie/internal/library/mcp_wsl.go#L27) |
-| side | method_declaration | *mcpFile | [34](../../magpie/internal/library/mcp_wsl.go#L34) |
+| side | method_declaration |  | [34](../../magpie/internal/library/mcp_wsl.go#L34) |
+| names | var_spec | side | [57](../../magpie/internal/library/mcp_wsl.go#L57) |
 | errNoInterop | var_spec |  | [70](../../magpie/internal/library/mcp_wsl.go#L70) |
 | wslProbe | var_spec |  | [74](../../magpie/internal/library/mcp_wsl.go#L74) |
 | wslExes | var_spec |  | [85](../../magpie/internal/library/mcp_wsl.go#L85) |
+| at | field_declaration | wslExes | [87](../../magpie/internal/library/mcp_wsl.go#L87) |
+| out | field_declaration | wslExes | [88](../../magpie/internal/library/mcp_wsl.go#L88) |
 | wslExe | function_declaration |  | [95](../../magpie/internal/library/mcp_wsl.go#L95) |
 | linuxHome | function_declaration |  | [136](../../magpie/internal/library/mcp_wsl.go#L136) |

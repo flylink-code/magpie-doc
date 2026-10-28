@@ -12,7 +12,7 @@ Source SHA-256: 853b787536efaccb99919678b80b7b7feb2d16ca599a54b7a0d5fc135d0cc241
 | InProviderOrder | function_declaration |  | [25](../../magpie/internal/provider/quotas.go#L25) |
 | Allotted | function_declaration |  | [44](../../magpie/internal/provider/quotas.go#L44) |
 | quotas | function_declaration |  | [49](../../magpie/internal/provider/quotas.go#L49) |
-| Quota | struct_type |  | [77](../../magpie/internal/provider/quotas.go#L77) |
+| Quota | type_spec |  | [77](../../magpie/internal/provider/quotas.go#L77) |
 | Provider | field_declaration | Quota | [78](../../magpie/internal/provider/quotas.go#L78) |
 | Name | field_declaration | Quota | [79](../../magpie/internal/provider/quotas.go#L79) |
 | Kind | field_declaration | Quota | [80](../../magpie/internal/provider/quotas.go#L80) |
@@ -34,7 +34,7 @@ Source SHA-256: 853b787536efaccb99919678b80b7b7feb2d16ca599a54b7a0d5fc135d0cc241
 | From | field_declaration | Quota | [111](../../magpie/internal/provider/quotas.go#L111) |
 | Alias | field_declaration | Quota | [114](../../magpie/internal/provider/quotas.go#L114) |
 | Seat | field_declaration | Quota | [115](../../magpie/internal/provider/quotas.go#L115) |
-| QuotaSpan | struct_type |  | [120](../../magpie/internal/provider/quotas.go#L120) |
+| QuotaSpan | type_spec |  | [120](../../magpie/internal/provider/quotas.go#L120) |
 | Unlimited | field_declaration | QuotaSpan | [121](../../magpie/internal/provider/quotas.go#L121) |
 | Name | field_declaration | QuotaSpan | [122](../../magpie/internal/provider/quotas.go#L122) |
 | Used | field_declaration | QuotaSpan | [123](../../magpie/internal/provider/quotas.go#L123) |
@@ -53,6 +53,7 @@ Source SHA-256: 853b787536efaccb99919678b80b7b7feb2d16ca599a54b7a0d5fc135d0cc241
 | ReckonHolds | var_spec |  | [153](../../magpie/internal/provider/quotas.go#L153) |
 | QuotaReport | function_declaration |  | [156](../../magpie/internal/provider/quotas.go#L156) |
 | KeptQuotaReport | function_declaration |  | [164](../../magpie/internal/provider/quotas.go#L164) |
+| subs | var_spec | KeptQuotaReport | [165](../../magpie/internal/provider/quotas.go#L165) |
 | quotaReport | function_declaration |  | [180](../../magpie/internal/provider/quotas.go#L180) |
 | kind | field_declaration | quotaReport | [188](../../magpie/internal/provider/quotas.go#L188) |
 | qs | field_declaration | quotaReport | [189](../../magpie/internal/provider/quotas.go#L189) |

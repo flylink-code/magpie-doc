@@ -11,6 +11,7 @@ Source SHA-256: b7023a2be3def3cfde6b4d4ac1b08d619ee03d3486e84d4eb3ec56022bc9b7df
 | limitClock | var_spec |  | [23](../../magpie/internal/gateway/key_limit.go#L23) |
 | remoteKeyLimitHeader | const_spec |  | [28](../../magpie/internal/gateway/key_limit.go#L28) |
 | keyLimited | function_declaration |  | [36](../../magpie/internal/gateway/key_limit.go#L36) |
+| refused | var_spec | keyLimited | [60](../../magpie/internal/gateway/key_limit.go#L60) |
 | reserveFor | function_declaration |  | [83](../../magpie/internal/gateway/key_limit.go#L83) |
 | protoOfPath | function_declaration |  | [99](../../magpie/internal/gateway/key_limit.go#L99) |
-| keyLimit | method_declaration | *Server | [116](../../magpie/internal/gateway/key_limit.go#L116) |
+| keyLimit | method_declaration |  | [116](../../magpie/internal/gateway/key_limit.go#L116) |

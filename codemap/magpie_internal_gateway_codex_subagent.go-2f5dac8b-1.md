@@ -8,12 +8,12 @@ Source SHA-256: e1e51333f134af813abe49403a44d1908d27d9a1551d3a71fed2f8321e223329
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SubagentPick | struct_type |  | [16](../../magpie/internal/gateway/codex_subagent.go#L16) |
+| SubagentPick | type_spec |  | [16](../../magpie/internal/gateway/codex_subagent.go#L16) |
 | Asked | field_declaration | SubagentPick | [17](../../magpie/internal/gateway/codex_subagent.go#L17) |
 | To | field_declaration | SubagentPick | [18](../../magpie/internal/gateway/codex_subagent.go#L18) |
 | Kept | field_declaration | SubagentPick | [19](../../magpie/internal/gateway/codex_subagent.go#L19) |
-| Moved | method_declaration | *SubagentPick | [23](../../magpie/internal/gateway/codex_subagent.go#L23) |
-| subagentPickKey | struct_type |  | [25](../../magpie/internal/gateway/codex_subagent.go#L25) |
+| Moved | method_declaration |  | [23](../../magpie/internal/gateway/codex_subagent.go#L23) |
+| subagentPickKey | type_spec |  | [25](../../magpie/internal/gateway/codex_subagent.go#L25) |
 | withSubagentPick | function_declaration |  | [27](../../magpie/internal/gateway/codex_subagent.go#L27) |
 | subagentPickOf | function_declaration |  | [34](../../magpie/internal/gateway/codex_subagent.go#L34) |
 | codexSubagentPick | function_declaration |  | [52](../../magpie/internal/gateway/codex_subagent.go#L52) |

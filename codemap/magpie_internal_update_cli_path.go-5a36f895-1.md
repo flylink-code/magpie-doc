@@ -8,7 +8,7 @@ Source SHA-256: 5b1930e2602f381d613ccabe1f5275e8e6dc8a64cdbf0fe18a68ef4d6e0ed2bf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CLIShell | struct_type |  | [33](../../magpie/internal/update/cli_path.go#L33) |
+| CLIShell | type_spec |  | [33](../../magpie/internal/update/cli_path.go#L33) |
 | Name | field_declaration | CLIShell | [34](../../magpie/internal/update/cli_path.go#L34) |
 | Default | field_declaration | CLIShell | [35](../../magpie/internal/update/cli_path.go#L35) |
 | Known | field_declaration | CLIShell | [36](../../magpie/internal/update/cli_path.go#L36) |
@@ -16,7 +16,7 @@ Source SHA-256: 5b1930e2602f381d613ccabe1f5275e8e6dc8a64cdbf0fe18a68ef4d6e0ed2bf
 | Ours | field_declaration | CLIShell | [38](../../magpie/internal/update/cli_path.go#L38) |
 | Profile | field_declaration | CLIShell | [39](../../magpie/internal/update/cli_path.go#L39) |
 | HasDir | field_declaration | CLIShell | [40](../../magpie/internal/update/cli_path.go#L40) |
-| CLI | struct_type |  | [44](../../magpie/internal/update/cli_path.go#L44) |
+| CLI | type_spec |  | [44](../../magpie/internal/update/cli_path.go#L44) |
 | Exe | field_declaration | CLI | [45](../../magpie/internal/update/cli_path.go#L45) |
 | Command | field_declaration | CLI | [46](../../magpie/internal/update/cli_path.go#L46) |
 | Ours | field_declaration | CLI | [47](../../magpie/internal/update/cli_path.go#L47) |
@@ -26,16 +26,18 @@ Source SHA-256: 5b1930e2602f381d613ccabe1f5275e8e6dc8a64cdbf0fe18a68ef4d6e0ed2bf
 | Shells | field_declaration | CLI | [51](../../magpie/internal/update/cli_path.go#L51) |
 | Windows | field_declaration | CLI | [52](../../magpie/internal/update/cli_path.go#L52) |
 | Shim | field_declaration | CLI | [53](../../magpie/internal/update/cli_path.go#L53) |
-| cliShell | struct_type |  | [57](../../magpie/internal/update/cli_path.go#L57) |
+| cliShell | type_spec |  | [57](../../magpie/internal/update/cli_path.go#L57) |
 | Name | field_declaration | cliShell | [58](../../magpie/internal/update/cli_path.go#L58) |
-| Path | field_declaration | cliShell | [58](../../magpie/internal/update/cli_path.go#L58) |
 | Default | field_declaration | cliShell | [59](../../magpie/internal/update/cli_path.go#L59) |
 | cliShellPath | var_spec |  | [64](../../magpie/internal/update/cli_path.go#L64) |
 | cliShells | var_spec |  | [65](../../magpie/internal/update/cli_path.go#L65) |
 | cliExe | var_spec |  | [66](../../magpie/internal/update/cli_path.go#L66) |
 | cliMu | var_spec |  | [69](../../magpie/internal/update/cli_path.go#L69) |
 | ReadCLI | function_declaration |  | [73](../../magpie/internal/update/cli_path.go#L73) |
+| wg | var_spec | ReadCLI | [85](../../magpie/internal/update/cli_path.go#L85) |
+| def | var_spec | ReadCLI | [94](../../magpie/internal/update/cli_path.go#L94) |
 | AddCLI | function_declaration |  | [121](../../magpie/internal/update/cli_path.go#L121) |
+| sh | var_spec | AddCLI | [154](../../magpie/internal/update/cli_path.go#L154) |
 | Program | function_declaration |  | [180](../../magpie/internal/update/cli_path.go#L180) |
 | cliProgram | function_declaration |  | [185](../../magpie/internal/update/cli_path.go#L185) |
 | cliStuck | var_spec |  | [203](../../magpie/internal/update/cli_path.go#L203) |

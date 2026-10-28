@@ -12,7 +12,11 @@ Source SHA-256: ea3148c97bff03de28ef916f831caacd1120d9a8f924c833ef1cbdfdd5d0cd6b
 | heapWait | const_spec |  | [35](../../magpie/internal/cli/heap_cli.go#L35) |
 | heapCmd | function_declaration |  | [38](../../magpie/internal/cli/heap_cli.go#L38) |
 | fetchHeap | function_declaration |  | [86](../../magpie/internal/cli/heap_cli.go#L86) |
-| Error | field_declaration | fetchHeap | [103](../../magpie/internal/cli/heap_cli.go#L103) |
-| Message | field_declaration | fetchHeap | [104](../../magpie/internal/cli/heap_cli.go#L104) |
+| st | var_spec | fetchHeap | [87](../../magpie/internal/cli/heap_cli.go#L87) |
+| e | var_spec | fetchHeap | [102](../../magpie/internal/cli/heap_cli.go#L102) |
+| Error | field_declaration | fetchHeap::e | [103](../../magpie/internal/cli/heap_cli.go#L103) |
+| Message | field_declaration | fetchHeap::e::Error | [104](../../magpie/internal/cli/heap_cli.go#L104) |
 | heapSummary | function_declaration |  | [123](../../magpie/internal/cli/heap_cli.go#L123) |
+| b | var_spec | heapSummary | [124](../../magpie/internal/cli/heap_cli.go#L124) |
 | bytesSize | function_declaration |  | [141](../../magpie/internal/cli/heap_cli.go#L141) |
+| k | const_spec | bytesSize | [142](../../magpie/internal/cli/heap_cli.go#L142) |

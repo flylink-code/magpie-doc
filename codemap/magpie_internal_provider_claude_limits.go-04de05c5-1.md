@@ -8,15 +8,17 @@ Source SHA-256: 72d091929917725cb16bd6bc8f928ba79e64174d8eaa068608c143cff4c98610
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ClaudeLimit | struct_type |  | [18](../../magpie/internal/provider/claude_limits.go#L18) |
+| ClaudeLimit | type_spec |  | [18](../../magpie/internal/provider/claude_limits.go#L18) |
 | Kind | field_declaration | ClaudeLimit | [19](../../magpie/internal/provider/claude_limits.go#L19) |
 | Used | field_declaration | ClaudeLimit | [20](../../magpie/internal/provider/claude_limits.go#L20) |
 | ResetsAt | field_declaration | ClaudeLimit | [21](../../magpie/internal/provider/claude_limits.go#L21) |
 | claudeKinds | var_spec |  | [26](../../magpie/internal/provider/claude_limits.go#L26) |
+| kind | field_declaration | claudeKinds | [27](../../magpie/internal/provider/claude_limits.go#L27) |
+| span | field_declaration | claudeKinds | [28](../../magpie/internal/provider/claude_limits.go#L28) |
 | claudeHeard | const_spec |  | [42](../../magpie/internal/provider/claude_limits.go#L42) |
 | NoteClaudeLimits | function_declaration |  | [47](../../magpie/internal/provider/claude_limits.go#L47) |
+| heard | var_spec | NoteClaudeLimits | [48](../../magpie/internal/provider/claude_limits.go#L48) |
 | kind | field_declaration | NoteClaudeLimits | [51](../../magpie/internal/provider/claude_limits.go#L51) |
-| name | field_declaration | NoteClaudeLimits | [51](../../magpie/internal/provider/claude_limits.go#L51) |
-| model | field_declaration | NoteClaudeLimits | [51](../../magpie/internal/provider/claude_limits.go#L51) |
 | span | field_declaration | NoteClaudeLimits | [52](../../magpie/internal/provider/claude_limits.go#L52) |
 | KeptClaudeLimits | function_declaration |  | [105](../../magpie/internal/provider/claude_limits.go#L105) |
+| out | var_spec | KeptClaudeLimits | [112](../../magpie/internal/provider/claude_limits.go#L112) |

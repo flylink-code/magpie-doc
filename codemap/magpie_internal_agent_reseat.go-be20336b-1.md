@@ -8,22 +8,25 @@ Source SHA-256: 5922d02f89e45556274aa2cac3d580b5c241968174438fef442e32a3ae663290
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Move | struct_type |  | [19](../../magpie/internal/agent/reseat.go#L19) |
+| Move | type_spec |  | [19](../../magpie/internal/agent/reseat.go#L19) |
 | Agent | field_declaration | Move | [20](../../magpie/internal/agent/reseat.go#L20) |
 | Field | field_declaration | Move | [21](../../magpie/internal/agent/reseat.go#L21) |
 | From | field_declaration | Move | [22](../../magpie/internal/agent/reseat.go#L22) |
 | To | field_declaration | Move | [23](../../magpie/internal/agent/reseat.go#L23) |
 | Error | field_declaration | Move | [26](../../magpie/internal/agent/reseat.go#L26) |
-| String | method_declaration | Move | [30](../../magpie/internal/agent/reseat.go#L30) |
-| pick | struct_type |  | [42](../../magpie/internal/agent/reseat.go#L42) |
+| String | method_declaration |  | [30](../../magpie/internal/agent/reseat.go#L30) |
+| pick | type_spec |  | [42](../../magpie/internal/agent/reseat.go#L42) |
 | a | field_declaration | pick | [43](../../magpie/internal/agent/reseat.go#L43) |
 | key | field_declaration | pick | [44](../../magpie/internal/agent/reseat.go#L44) |
-| val | field_declaration | pick | [44](../../magpie/internal/agent/reseat.go#L44) |
 | ref | field_declaration | pick | [45](../../magpie/internal/agent/reseat.go#L45) |
 | picks | function_declaration |  | [49](../../magpie/internal/agent/reseat.go#L49) |
+| out | var_spec | picks | [50](../../magpie/internal/agent/reseat.go#L50) |
 | Reseat | function_declaration |  | [85](../../magpie/internal/agent/reseat.go#L85) |
-| samePick | method_declaration | *Agent | [130](../../magpie/internal/agent/reseat.go#L130) |
+| moves | var_spec | Reseat | [90](../../magpie/internal/agent/reseat.go#L90) |
+| to | var_spec | Reseat | [104](../../magpie/internal/agent/reseat.go#L104) |
+| samePick | method_declaration |  | [130](../../magpie/internal/agent/reseat.go#L130) |
 | served | function_declaration |  | [141](../../magpie/internal/agent/reseat.go#L141) |
 | sameModel | function_declaration |  | [153](../../magpie/internal/agent/reseat.go#L153) |
+| alike | var_spec | sameModel | [175](../../magpie/internal/agent/reseat.go#L175) |
 | dated | var_spec |  | [191](../../magpie/internal/agent/reseat.go#L191) |
 | modelKey | function_declaration |  | [195](../../magpie/internal/agent/reseat.go#L195) |

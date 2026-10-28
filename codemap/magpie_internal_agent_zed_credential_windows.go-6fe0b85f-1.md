@@ -8,7 +8,7 @@ Source SHA-256: a56519b30fe9e48b2a8953c02385cba38282cff6a92d34a96e43ee60edbf5098
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zedWindowsCredential | struct_type |  | [12](../../magpie/internal/agent/zed_credential_windows.go#L12) |
+| zedWindowsCredential | type_spec |  | [12](../../magpie/internal/agent/zed_credential_windows.go#L12) |
 | Flags | field_declaration | zedWindowsCredential | [13](../../magpie/internal/agent/zed_credential_windows.go#L13) |
 | Type | field_declaration | zedWindowsCredential | [14](../../magpie/internal/agent/zed_credential_windows.go#L14) |
 | TargetName | field_declaration | zedWindowsCredential | [15](../../magpie/internal/agent/zed_credential_windows.go#L15) |

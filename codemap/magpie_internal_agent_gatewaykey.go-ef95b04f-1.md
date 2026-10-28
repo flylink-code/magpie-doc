@@ -10,7 +10,7 @@ Source SHA-256: ac640a3be2959d17aa0210be98ffeaf9ea48c27ec0a2733a76e0c44e42071df3
 | --- | --- | --- | ---: |
 | keyAt | function_declaration |  | [19](../../magpie/internal/agent/gatewaykey.go#L19) |
 | KeyAt | function_declaration |  | [35](../../magpie/internal/agent/gatewaykey.go#L35) |
-| gwKey | method_declaration | place | [38](../../magpie/internal/agent/gatewaykey.go#L38) |
+| gwKey | method_declaration |  | [38](../../magpie/internal/agent/gatewaykey.go#L38) |
 | agentKeyAt | function_declaration |  | [42](../../magpie/internal/agent/gatewaykey.go#L42) |
 | hereKey | function_declaration |  | [57](../../magpie/internal/agent/gatewaykey.go#L57) |
 | agentKey | function_declaration |  | [60](../../magpie/internal/agent/gatewaykey.go#L60) |

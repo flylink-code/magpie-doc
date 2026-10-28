@@ -4,20 +4,23 @@
 
 [Module](tooling.md) · [Source](../../doc/codemap.test.mjs) · page 1/1
 
-Source SHA-256: 21707e44e69abdd062f4b37239b6f835ac7390f6e184316460b4de04ea27c703
+Source SHA-256: 9c5b2f45faf874fa8710f01dfcfd088054b38caf5359a2c13562b8285584bbe5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | docDir | VariableDeclaration |  | [9](../../doc/codemap.test.mjs#L9) |
 | git | VariableDeclaration |  | [10](../../doc/codemap.test.mjs#L10) |
-| goCode | VariableDeclaration |  | [13](../../doc/codemap.test.mjs#L13) |
-| result | VariableDeclaration |  | [30](../../doc/codemap.test.mjs#L30) |
-| name | VariableDeclaration |  | [32](../../doc/codemap.test.mjs#L32) |
-| jsResult | VariableDeclaration |  | [42](../../doc/codemap.test.mjs#L42) |
-| name | VariableDeclaration |  | [44](../../doc/codemap.test.mjs#L44) |
-| patchResult | VariableDeclaration |  | [47](../../doc/codemap.test.mjs#L47) |
-| root | VariableDeclaration |  | [61](../../doc/codemap.test.mjs#L61) |
-| write | VariableDeclaration |  | [62](../../doc/codemap.test.mjs#L62) |
-| config | VariableDeclaration |  | [67](../../doc/codemap.test.mjs#L67) |
-| first | VariableDeclaration |  | [76](../../doc/codemap.test.mjs#L76) |
-| updated | VariableDeclaration |  | [84](../../doc/codemap.test.mjs#L84) |
+| projectConfig | VariableDeclaration |  | [11](../../doc/codemap.test.mjs#L11) |
+| goCode | VariableDeclaration |  | [14](../../doc/codemap.test.mjs#L14) |
+| result | VariableDeclaration |  | [31](../../doc/codemap.test.mjs#L31) |
+| name | VariableDeclaration |  | [33](../../doc/codemap.test.mjs#L33) |
+| jsResult | VariableDeclaration |  | [46](../../doc/codemap.test.mjs#L46) |
+| name | VariableDeclaration |  | [48](../../doc/codemap.test.mjs#L48) |
+| patchResult | VariableDeclaration |  | [55](../../doc/codemap.test.mjs#L55) |
+| config | VariableDeclaration |  | [60](../../doc/codemap.test.mjs#L60) |
+| root | VariableDeclaration |  | [78](../../doc/codemap.test.mjs#L78) |
+| write | VariableDeclaration |  | [79](../../doc/codemap.test.mjs#L79) |
+| config | VariableDeclaration |  | [84](../../doc/codemap.test.mjs#L84) |
+| first | VariableDeclaration |  | [93](../../doc/codemap.test.mjs#L93) |
+| updated | VariableDeclaration |  | [107](../../doc/codemap.test.mjs#L107) |
+| cleaned | VariableDeclaration |  | [112](../../doc/codemap.test.mjs#L112) |

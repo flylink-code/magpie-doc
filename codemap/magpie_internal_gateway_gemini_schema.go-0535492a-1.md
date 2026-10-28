@@ -9,6 +9,8 @@ Source SHA-256: a0c67801b313935ad014d453e6b69eb20a300a6db8a423b100500bae32026742
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | geminiToolTypes | function_declaration |  | [38](../../magpie/internal/gateway/gemini_schema.go#L38) |
+| ins | var_spec | geminiToolTypes | [46](../../magpie/internal/gateway/gemini_schema.go#L46) |
 | geminiNamed | function_declaration |  | [61](../../magpie/internal/gateway/gemini_schema.go#L61) |
 | collectGeminiUntyped | function_declaration |  | [70](../../magpie/internal/gateway/gemini_schema.go#L70) |
 | geminiSchemaType | function_declaration |  | [100](../../magpie/internal/gateway/gemini_schema.go#L100) |
+| rest | var_spec | geminiSchemaType | [106](../../magpie/internal/gateway/gemini_schema.go#L106) |

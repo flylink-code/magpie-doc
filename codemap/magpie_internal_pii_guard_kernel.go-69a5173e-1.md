@@ -11,7 +11,9 @@ Source SHA-256: e2b1f462535d0443f3e53bcd8e443a97a8dd98da1600531adf40086a69297a48
 | dot4fast | var_spec |  | [8](../../magpie/internal/pii/guard/kernel.go#L8) |
 | dot4 | function_declaration |  | [11](../../magpie/internal/pii/guard/kernel.go#L11) |
 | dot | function_declaration |  | [22](../../magpie/internal/pii/guard/kernel.go#L22) |
+| s0 | var_spec | dot | [24](../../magpie/internal/pii/guard/kernel.go#L24) |
 | dot32 | function_declaration |  | [39](../../magpie/internal/pii/guard/kernel.go#L39) |
+| s0 | var_spec | dot32 | [40](../../magpie/internal/pii/guard/kernel.go#L40) |
 | axpy32 | function_declaration |  | [51](../../magpie/internal/pii/guard/kernel.go#L51) |
 | scoresFast | var_spec |  | [60](../../magpie/internal/pii/guard/kernel.go#L60) |
 | mixFast | var_spec |  | [61](../../magpie/internal/pii/guard/kernel.go#L61) |

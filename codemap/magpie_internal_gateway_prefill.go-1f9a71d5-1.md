@@ -14,9 +14,13 @@ Source SHA-256: bd1b5c400d94638ce1ffd609dd80d990f5449e1322f9a4e38a1e61ea1f2809ea
 | continueText | const_spec |  | [49](../../magpie/internal/gateway/prefill.go#L49) |
 | compactLastText | const_spec |  | [54](../../magpie/internal/gateway/prefill.go#L54) |
 | modelLastAsk | function_declaration |  | [58](../../magpie/internal/gateway/prefill.go#L58) |
-| endsWithAssistant | method_declaration | *Request | [67](../../magpie/internal/gateway/prefill.go#L67) |
-| userLast | method_declaration | *Request | [82](../../magpie/internal/gateway/prefill.go#L82) |
+| endsWithAssistant | method_declaration |  | [67](../../magpie/internal/gateway/prefill.go#L67) |
+| userLast | method_declaration |  | [82](../../magpie/internal/gateway/prefill.go#L82) |
 | userLastBody | function_declaration |  | [91](../../magpie/internal/gateway/prefill.go#L91) |
-| Type | field_declaration | userLastBody | [105](../../magpie/internal/gateway/prefill.go#L105) |
-| Role | field_declaration | userLastBody | [106](../../magpie/internal/gateway/prefill.go#L106) |
-| ToolCalls | field_declaration | userLastBody | [107](../../magpie/internal/gateway/prefill.go#L107) |
+| m | var_spec | userLastBody | [92](../../magpie/internal/gateway/prefill.go#L92) |
+| items | var_spec | userLastBody | [100](../../magpie/internal/gateway/prefill.go#L100) |
+| last | var_spec | userLastBody | [104](../../magpie/internal/gateway/prefill.go#L104) |
+| Type | field_declaration | userLastBody::last | [105](../../magpie/internal/gateway/prefill.go#L105) |
+| Role | field_declaration | userLastBody::last | [106](../../magpie/internal/gateway/prefill.go#L106) |
+| ToolCalls | field_declaration | userLastBody::last | [107](../../magpie/internal/gateway/prefill.go#L107) |
+| turn | var_spec | userLastBody | [113](../../magpie/internal/gateway/prefill.go#L113) |

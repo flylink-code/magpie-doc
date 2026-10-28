@@ -11,22 +11,25 @@ Source SHA-256: 7cae4d5a0936058ee255ef9b201025be53785724f6a2dfe2ac5490c9d08b3c24
 | webdavUsage | const_spec |  | [21](../../magpie/internal/cli/webdav_cli.go#L21) |
 | s3Usage | const_spec |  | [61](../../magpie/internal/cli/webdav_cli.go#L61) |
 | githubUsage | const_spec |  | [103](../../magpie/internal/cli/webdav_cli.go#L103) |
-| syncKind | struct_type |  | [125](../../magpie/internal/cli/webdav_cli.go#L125) |
+| syncKind | type_spec |  | [125](../../magpie/internal/cli/webdav_cli.go#L125) |
 | name | field_declaration | syncKind | [126](../../magpie/internal/cli/webdav_cli.go#L126) |
-| cmd | field_declaration | syncKind | [126](../../magpie/internal/cli/webdav_cli.go#L126) |
-| usage | field_declaration | syncKind | [126](../../magpie/internal/cli/webdav_cli.go#L126) |
 | webdavKind | var_spec |  | [130](../../magpie/internal/cli/webdav_cli.go#L130) |
 | s3Kind | var_spec |  | [131](../../magpie/internal/cli/webdav_cli.go#L131) |
 | githubKind | var_spec |  | [132](../../magpie/internal/cli/webdav_cli.go#L132) |
-| turnOn | method_declaration | syncKind | [135](../../magpie/internal/cli/webdav_cli.go#L135) |
+| turnOn | method_declaration |  | [135](../../magpie/internal/cli/webdav_cli.go#L135) |
 | webdavCmd | function_declaration |  | [146](../../magpie/internal/cli/webdav_cli.go#L146) |
 | s3Cmd | function_declaration |  | [149](../../magpie/internal/cli/webdav_cli.go#L149) |
 | githubCmd | function_declaration |  | [152](../../magpie/internal/cli/webdav_cli.go#L152) |
 | syncCmd | function_declaration |  | [154](../../magpie/internal/cli/webdav_cli.go#L154) |
+| parts | var_spec | syncCmd | [183](../../magpie/internal/cli/webdav_cli.go#L183) |
+| err | var_spec | syncCmd | [184](../../magpie/internal/cli/webdav_cli.go#L184) |
 | syncSet | function_declaration |  | [242](../../magpie/internal/cli/webdav_cli.go#L242) |
+| bucket | var_spec | syncSet | [268](../../magpie/internal/cli/webdav_cli.go#L268) |
+| err | var_spec | syncSet | [367](../../magpie/internal/cli/webdav_cli.go#L367) |
 | s3Parts | function_declaration |  | [396](../../magpie/internal/cli/webdav_cli.go#L396) |
 | host | function_declaration |  | [402](../../magpie/internal/cli/webdav_cli.go#L402) |
 | syncNow | function_declaration |  | [410](../../magpie/internal/cli/webdav_cli.go#L410) |
 | syncShow | function_declaration |  | [423](../../magpie/internal/cli/webdav_cli.go#L423) |
+| who | var_spec | syncShow | [437](../../magpie/internal/cli/webdav_cli.go#L437) |
 | syncWhen | function_declaration |  | [544](../../magpie/internal/cli/webdav_cli.go#L544) |
 | partNames | function_declaration |  | [552](../../magpie/internal/cli/webdav_cli.go#L552) |

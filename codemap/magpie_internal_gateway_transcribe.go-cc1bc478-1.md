@@ -8,8 +8,8 @@ Source SHA-256: c9c08f41813dd4058053188eae7c1194d062ebf322f61fec3bbc46556645fc66
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| transcribe | method_declaration | *Server | [27](../../magpie/internal/gateway/transcribe.go#L27) |
-| audioForm | struct_type |  | [49](../../magpie/internal/gateway/transcribe.go#L49) |
+| transcribe | method_declaration |  | [27](../../magpie/internal/gateway/transcribe.go#L27) |
+| audioForm | type_spec |  | [49](../../magpie/internal/gateway/transcribe.go#L49) |
 | raw | field_declaration | audioForm | [50](../../magpie/internal/gateway/transcribe.go#L50) |
 | ctype | field_declaration | audioForm | [51](../../magpie/internal/gateway/transcribe.go#L51) |
 | boundary | field_declaration | audioForm | [52](../../magpie/internal/gateway/transcribe.go#L52) |
@@ -17,9 +17,11 @@ Source SHA-256: c9c08f41813dd4058053188eae7c1194d062ebf322f61fec3bbc46556645fc66
 | prompt | field_declaration | audioForm | [54](../../magpie/internal/gateway/transcribe.go#L54) |
 | masked | field_declaration | audioForm | [56](../../magpie/internal/gateway/transcribe.go#L56) |
 | readAudioForm | function_declaration |  | [61](../../magpie/internal/gateway/transcribe.go#L61) |
-| mask | method_declaration | *audioForm | [97](../../magpie/internal/gateway/transcribe.go#L97) |
-| forModel | method_declaration | *audioForm | [111](../../magpie/internal/gateway/transcribe.go#L111) |
-| answerType | method_declaration | *audioForm | [152](../../magpie/internal/gateway/transcribe.go#L152) |
+| mask | method_declaration |  | [97](../../magpie/internal/gateway/transcribe.go#L97) |
+| forModel | method_declaration |  | [111](../../magpie/internal/gateway/transcribe.go#L111) |
+| buf | var_spec | forModel | [115](../../magpie/internal/gateway/transcribe.go#L115) |
+| answerType | method_declaration |  | [152](../../magpie/internal/gateway/transcribe.go#L152) |
 | answeredTokens | function_declaration |  | [161](../../magpie/internal/gateway/transcribe.go#L161) |
-| Usage | field_declaration | answeredTokens | [163](../../magpie/internal/gateway/transcribe.go#L163) |
-| Output | field_declaration | answeredTokens | [164](../../magpie/internal/gateway/transcribe.go#L164) |
+| a | var_spec | answeredTokens | [162](../../magpie/internal/gateway/transcribe.go#L162) |
+| Usage | field_declaration | answeredTokens::a | [163](../../magpie/internal/gateway/transcribe.go#L163) |
+| Output | field_declaration | answeredTokens::a::Usage | [164](../../magpie/internal/gateway/transcribe.go#L164) |

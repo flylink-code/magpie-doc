@@ -8,7 +8,7 @@ Source SHA-256: 1dd3313c2f74203935ed65f5543681901686d4c99b62bb3c51791c61b270d8f7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Carry | struct_type |  | [27](../../magpie/internal/sessions/carry.go#L27) |
+| Carry | type_spec |  | [27](../../magpie/internal/sessions/carry.go#L27) |
 | Agent | field_declaration | Carry | [28](../../magpie/internal/sessions/carry.go#L28) |
 | Command | field_declaration | Carry | [29](../../magpie/internal/sessions/carry.go#L29) |
 | Convert | field_declaration | Carry | [30](../../magpie/internal/sessions/carry.go#L30) |

@@ -12,3 +12,5 @@ Source SHA-256: dc4e18e76a7b8c71bae1e4c8cad60264e5122190924e8fbfd5ffc471a1bf139d
 | cliDir | function_declaration |  | [22](../../magpie/internal/update/cli_path_windows.go#L22) |
 | cliPlace | function_declaration |  | [27](../../magpie/internal/update/cli_path_windows.go#L27) |
 | settingChanged | function_declaration |  | [60](../../magpie/internal/update/cli_path_windows.go#L60) |
+| hwndBroadcast | const_spec | settingChanged | [61](../../magpie/internal/update/cli_path_windows.go#L61) |
+| res | var_spec | settingChanged | [63](../../magpie/internal/update/cli_path_windows.go#L63) |

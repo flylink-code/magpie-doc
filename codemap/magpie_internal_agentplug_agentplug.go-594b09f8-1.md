@@ -10,7 +10,7 @@ Source SHA-256: 56cac88a341c229f9dd14d6b440403d8b375b6e95478f29735423c72769de7da
 | --- | --- | --- | ---: |
 | Formats | var_spec |  | [59](../../magpie/internal/agentplug/agentplug.go#L59) |
 | FormatOf | function_declaration |  | [67](../../magpie/internal/agentplug/agentplug.go#L67) |
-| Desc | struct_type |  | [75](../../magpie/internal/agentplug/agentplug.go#L75) |
+| Desc | type_spec |  | [75](../../magpie/internal/agentplug/agentplug.go#L75) |
 | ID | field_declaration | Desc | [76](../../magpie/internal/agentplug/agentplug.go#L76) |
 | Name | field_declaration | Desc | [77](../../magpie/internal/agentplug/agentplug.go#L77) |
 | Config | field_declaration | Desc | [78](../../magpie/internal/agentplug/agentplug.go#L78) |
@@ -23,13 +23,13 @@ Source SHA-256: 56cac88a341c229f9dd14d6b440403d8b375b6e95478f29735423c72769de7da
 | Icon | field_declaration | Desc | [85](../../magpie/internal/agentplug/agentplug.go#L85) |
 | Notice | field_declaration | Desc | [88](../../magpie/internal/agentplug/agentplug.go#L88) |
 | Library | field_declaration | Desc | [91](../../magpie/internal/agentplug/agentplug.go#L91) |
-| Places | struct_type |  | [97](../../magpie/internal/agentplug/agentplug.go#L97) |
+| Places | type_spec |  | [97](../../magpie/internal/agentplug/agentplug.go#L97) |
 | Instructions | field_declaration | Places | [98](../../magpie/internal/agentplug/agentplug.go#L98) |
 | MCP | field_declaration | Places | [99](../../magpie/internal/agentplug/agentplug.go#L99) |
 | MCPFormat | field_declaration | Places | [101](../../magpie/internal/agentplug/agentplug.go#L101) |
 | Skills | field_declaration | Places | [102](../../magpie/internal/agentplug/agentplug.go#L102) |
 | MCPFormats | var_spec |  | [108](../../magpie/internal/agentplug/agentplug.go#L108) |
-| Agent | struct_type |  | [115](../../magpie/internal/agentplug/agentplug.go#L115) |
+| Agent | type_spec |  | [115](../../magpie/internal/agentplug/agentplug.go#L115) |
 | Spec | field_declaration | Agent | [116](../../magpie/internal/agentplug/agentplug.go#L116) |
 | File | field_declaration | Agent | [117](../../magpie/internal/agentplug/agentplug.go#L117) |
 | Desc | field_declaration | Agent | [118](../../magpie/internal/agentplug/agentplug.go#L118) |
@@ -41,7 +41,7 @@ Source SHA-256: 56cac88a341c229f9dd14d6b440403d8b375b6e95478f29735423c72769de7da
 | connectLimit | var_spec |  | [129](../../magpie/internal/agentplug/agentplug.go#L129) |
 | errTimeout | var_spec |  | [132](../../magpie/internal/agentplug/agentplug.go#L132) |
 | idOK | var_spec |  | [134](../../magpie/internal/agentplug/agentplug.go#L134) |
-| set | struct_type |  | [136](../../magpie/internal/agentplug/agentplug.go#L136) |
+| set | type_spec |  | [136](../../magpie/internal/agentplug/agentplug.go#L136) |
 | stamp | field_declaration | set | [137](../../magpie/internal/agentplug/agentplug.go#L137) |
 | list | field_declaration | set | [138](../../magpie/internal/agentplug/agentplug.go#L138) |
 | errs | field_declaration | set | [139](../../magpie/internal/agentplug/agentplug.go#L139) |
@@ -51,17 +51,25 @@ Source SHA-256: 56cac88a341c229f9dd14d6b440403d8b375b6e95478f29735423c72769de7da
 | List | function_declaration |  | [152](../../magpie/internal/agentplug/agentplug.go#L152) |
 | Reload | function_declaration |  | [158](../../magpie/internal/agentplug/agentplug.go#L158) |
 | current | function_declaration |  | [164](../../magpie/internal/agentplug/agentplug.go#L164) |
-| found | struct_type |  | [185](../../magpie/internal/agentplug/agentplug.go#L185) |
+| found | type_spec |  | [185](../../magpie/internal/agentplug/agentplug.go#L185) |
 | e | field_declaration | found | [186](../../magpie/internal/agentplug/agentplug.go#L186) |
 | file | field_declaration | found | [187](../../magpie/internal/agentplug/agentplug.go#L187) |
 | modules | function_declaration |  | [190](../../magpie/internal/agentplug/agentplug.go#L190) |
+| out | var_spec | modules | [191](../../magpie/internal/agentplug/agentplug.go#L191) |
 | stamp | function_declaration |  | [203](../../magpie/internal/agentplug/agentplug.go#L203) |
+| b | var_spec | stamp | [204](../../magpie/internal/agentplug/agentplug.go#L204) |
 | load | function_declaration |  | [215](../../magpie/internal/agentplug/agentplug.go#L215) |
 | Compile | function_declaration |  | [236](../../magpie/internal/agentplug/agentplug.go#L236) |
-| check | method_declaration | *Desc | [283](../../magpie/internal/agentplug/agentplug.go#L283) |
-| Connect | method_declaration | *Agent | [324](../../magpie/internal/agentplug/agentplug.go#L324) |
+| check | method_declaration |  | [283](../../magpie/internal/agentplug/agentplug.go#L283) |
+| Connect | method_declaration |  | [324](../../magpie/internal/agentplug/agentplug.go#L324) |
+| res | var_spec | Connect | [335](../../magpie/internal/agentplug/agentplug.go#L335) |
+| err | var_spec | Connect | [337](../../magpie/internal/agentplug/agentplug.go#L337) |
 | keys | function_declaration |  | [372](../../magpie/internal/agentplug/agentplug.go#L372) |
-| limit | method_declaration | *Agent | [403](../../magpie/internal/agentplug/agentplug.go#L403) |
+| top | var_spec | keys | [373](../../magpie/internal/agentplug/agentplug.go#L373) |
+| v | var_spec | keys | [386](../../magpie/internal/agentplug/agentplug.go#L386) |
+| limit | method_declaration |  | [403](../../magpie/internal/agentplug/agentplug.go#L403) |
+| fired | var_spec | limit | [404](../../magpie/internal/agentplug/agentplug.go#L404) |
 | errText | function_declaration |  | [418](../../magpie/internal/agentplug/agentplug.go#L418) |
+| exc | var_spec | errText | [419](../../magpie/internal/agentplug/agentplug.go#L419) |
 | text | function_declaration |  | [426](../../magpie/internal/agentplug/agentplug.go#L426) |
 | console | function_declaration |  | [438](../../magpie/internal/agentplug/agentplug.go#L438) |

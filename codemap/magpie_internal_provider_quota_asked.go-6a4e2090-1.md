@@ -8,7 +8,7 @@ Source SHA-256: 2e452ac54e8d786e4e9a54a5c01e918069f30e53aa41c28d7490cdc8e258963d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| askedKey | struct_type |  | [26](../../magpie/internal/provider/quota_asked.go#L26) |
+| askedKey | type_spec |  | [26](../../magpie/internal/provider/quota_asked.go#L26) |
 | Asked | function_declaration |  | [30](../../magpie/internal/provider/quota_asked.go#L30) |
 | wasAsked | function_declaration |  | [34](../../magpie/internal/provider/quota_asked.go#L34) |
 | errNotAsked | var_spec |  | [41](../../magpie/internal/provider/quota_asked.go#L41) |
@@ -16,6 +16,7 @@ Source SHA-256: 2e452ac54e8d786e4e9a54a5c01e918069f30e53aa41c28d7490cdc8e258963d
 | heldRead | function_declaration |  | [48](../../magpie/internal/provider/quota_asked.go#L48) |
 | holdUnasked | function_declaration |  | [52](../../magpie/internal/provider/quota_asked.go#L52) |
 | staleReads | var_spec |  | [62](../../magpie/internal/provider/quota_asked.go#L62) |
+| m | field_declaration | staleReads | [64](../../magpie/internal/provider/quota_asked.go#L64) |
 | markStaleRead | function_declaration |  | [67](../../magpie/internal/provider/quota_asked.go#L67) |
 | takeStaleRead | function_declaration |  | [78](../../magpie/internal/provider/quota_asked.go#L78) |
 | isStaleRead | function_declaration |  | [88](../../magpie/internal/provider/quota_asked.go#L88) |

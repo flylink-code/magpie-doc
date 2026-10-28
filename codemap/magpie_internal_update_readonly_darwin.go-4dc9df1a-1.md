@@ -9,3 +9,4 @@ Source SHA-256: 07ae4dac8961ce87639e1d6001d8eca1daeadccaf21eadb12bc1f4f5bfeef631
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | readOnly | function_declaration |  | [7](../../magpie/internal/update/readonly_darwin.go#L7) |
+| st | var_spec | readOnly | [8](../../magpie/internal/update/readonly_darwin.go#L8) |

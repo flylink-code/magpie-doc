@@ -8,9 +8,19 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| register | function_declaration |  | [692](../../magpie/internal/mcpauth/mcpauth.go#L692) |
+| out | var_spec | register | [739](../../magpie/internal/mcpauth/mcpauth.go#L739) |
+| ID | field_declaration | register::out | [740](../../magpie/internal/mcpauth/mcpauth.go#L740) |
+| Secret | field_declaration | register::out | [741](../../magpie/internal/mcpauth/mcpauth.go#L741) |
+| Method | field_declaration | register::out | [742](../../magpie/internal/mcpauth/mcpauth.go#L742) |
+| appMethod | function_declaration |  | [767](../../magpie/internal/mcpauth/mcpauth.go#L767) |
+| State | type_spec |  | [780](../../magpie/internal/mcpauth/mcpauth.go#L780) |
+| ID | field_declaration | State | [781](../../magpie/internal/mcpauth/mcpauth.go#L781) |
+| Server | field_declaration | State | [782](../../magpie/internal/mcpauth/mcpauth.go#L782) |
+| URL | field_declaration | State | [783](../../magpie/internal/mcpauth/mcpauth.go#L783) |
 | State | field_declaration | State | [784](../../magpie/internal/mcpauth/mcpauth.go#L784) |
 | Error | field_declaration | State | [785](../../magpie/internal/mcpauth/mcpauth.go#L785) |
-| flow | struct_type |  | [788](../../magpie/internal/mcpauth/mcpauth.go#L788) |
+| flow | type_spec |  | [788](../../magpie/internal/mcpauth/mcpauth.go#L788) |
 | mu | field_declaration | flow | [789](../../magpie/internal/mcpauth/mcpauth.go#L789) |
 | st | field_declaration | flow | [790](../../magpie/internal/mcpauth/mcpauth.go#L790) |
 | srv | field_declaration | flow | [791](../../magpie/internal/mcpauth/mcpauth.go#L791) |
@@ -18,17 +28,19 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 | claimed | field_declaration | flow | [793](../../magpie/internal/mcpauth/mcpauth.go#L793) |
 | finished | field_declaration | flow | [794](../../magpie/internal/mcpauth/mcpauth.go#L794) |
 | flows | var_spec |  | [797](../../magpie/internal/mcpauth/mcpauth.go#L797) |
+| m | field_declaration | flows | [799](../../magpie/internal/mcpauth/mcpauth.go#L799) |
 | randomToken | function_declaration |  | [802](../../magpie/internal/mcpauth/mcpauth.go#L802) |
-| App | struct_type |  | [816](../../magpie/internal/mcpauth/mcpauth.go#L816) |
+| App | type_spec |  | [816](../../magpie/internal/mcpauth/mcpauth.go#L816) |
 | ClientID | field_declaration | App | [817](../../magpie/internal/mcpauth/mcpauth.go#L817) |
 | ClientSecret | field_declaration | App | [818](../../magpie/internal/mcpauth/mcpauth.go#L818) |
 | CallbackPort | field_declaration | App | [819](../../magpie/internal/mcpauth/mcpauth.go#L819) |
 | Start | function_declaration |  | [825](../../magpie/internal/mcpauth/mcpauth.go#L825) |
 | StartWith | function_declaration |  | [831](../../magpie/internal/mcpauth/mcpauth.go#L831) |
-| status | method_declaration | *flow | [954](../../magpie/internal/mcpauth/mcpauth.go#L954) |
-| keep | method_declaration | *flow | [963](../../magpie/internal/mcpauth/mcpauth.go#L963) |
-| finish | method_declaration | *flow | [985](../../magpie/internal/mcpauth/mcpauth.go#L985) |
-| end | method_declaration | *flow | [997](../../magpie/internal/mcpauth/mcpauth.go#L997) |
+| id | var_spec | StartWith | [858](../../magpie/internal/mcpauth/mcpauth.go#L858) |
+| status | method_declaration |  | [954](../../magpie/internal/mcpauth/mcpauth.go#L954) |
+| keep | method_declaration |  | [963](../../magpie/internal/mcpauth/mcpauth.go#L963) |
+| finish | method_declaration |  | [985](../../magpie/internal/mcpauth/mcpauth.go#L985) |
+| end | method_declaration |  | [997](../../magpie/internal/mcpauth/mcpauth.go#L997) |
 | Progress | function_declaration |  | [1016](../../magpie/internal/mcpauth/mcpauth.go#L1016) |
 | Cancel | function_declaration |  | [1027](../../magpie/internal/mcpauth/mcpauth.go#L1027) |
 | page | function_declaration |  | [1036](../../magpie/internal/mcpauth/mcpauth.go#L1036) |

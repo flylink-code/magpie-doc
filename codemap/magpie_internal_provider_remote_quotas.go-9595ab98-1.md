@@ -23,7 +23,8 @@ Source SHA-256: 693d3841e9b6322c9fd923d6c2a06addb60bd733942251a80d732bbe4b0d344f
 | qs | field_declaration | CachedCards | [113](../../magpie/internal/provider/remote_quotas.go#L113) |
 | ReadAllCards | function_declaration |  | [127](../../magpie/internal/provider/remote_quotas.go#L127) |
 | remoteCardCache | var_spec |  | [134](../../magpie/internal/provider/remote_quotas.go#L134) |
-| remoteCardsRead | struct_type |  | [139](../../magpie/internal/provider/remote_quotas.go#L139) |
+| m | field_declaration | remoteCardCache | [136](../../magpie/internal/provider/remote_quotas.go#L136) |
+| remoteCardsRead | type_spec |  | [139](../../magpie/internal/provider/remote_quotas.go#L139) |
 | at | field_declaration | remoteCardsRead | [140](../../magpie/internal/provider/remote_quotas.go#L140) |
 | cards | field_declaration | remoteCardsRead | [141](../../magpie/internal/provider/remote_quotas.go#L141) |
 | err | field_declaration | remoteCardsRead | [142](../../magpie/internal/provider/remote_quotas.go#L142) |
@@ -32,7 +33,9 @@ Source SHA-256: 693d3841e9b6322c9fd923d6c2a06addb60bd733942251a80d732bbe4b0d344f
 | ForgetRemoteCardsForTest | function_declaration |  | [155](../../magpie/internal/provider/remote_quotas.go#L155) |
 | ForgetKeptCardsForTest | function_declaration |  | [168](../../magpie/internal/provider/remote_quotas.go#L168) |
 | remoteMagpies | function_declaration |  | [176](../../magpie/internal/provider/remote_quotas.go#L176) |
+| out | var_spec | remoteMagpies | [177](../../magpie/internal/provider/remote_quotas.go#L177) |
 | RemoteCards | function_declaration |  | [187](../../magpie/internal/provider/remote_quotas.go#L187) |
+| wg | var_spec | RemoteCards | [190](../../magpie/internal/provider/remote_quotas.go#L190) |
 | remoteCards | function_declaration |  | [208](../../magpie/internal/provider/remote_quotas.go#L208) |
 | remoteName | function_declaration |  | [249](../../magpie/internal/provider/remote_quotas.go#L249) |
 | remoteOf | function_declaration |  | [258](../../magpie/internal/provider/remote_quotas.go#L258) |
@@ -40,10 +43,16 @@ Source SHA-256: 693d3841e9b6322c9fd923d6c2a06addb60bd733942251a80d732bbe4b0d344f
 | refreshRemote | function_declaration |  | [277](../../magpie/internal/provider/remote_quotas.go#L277) |
 | keepRemoteCards | function_declaration |  | [306](../../magpie/internal/provider/remote_quotas.go#L306) |
 | RemoteQuotaHistories | function_declaration |  | [333](../../magpie/internal/provider/remote_quotas.go#L333) |
+| wg | var_spec | RemoteQuotaHistories | [336](../../magpie/internal/provider/remote_quotas.go#L336) |
+| hs | var_spec | RemoteQuotaHistories | [341](../../magpie/internal/provider/remote_quotas.go#L341) |
 | askRemote | function_declaration |  | [355](../../magpie/internal/provider/remote_quotas.go#L355) |
+| cards | var_spec | askRemote | [356](../../magpie/internal/provider/remote_quotas.go#L356) |
 | remoteJSON | function_declaration |  | [364](../../magpie/internal/provider/remote_quotas.go#L364) |
-| Error | field_declaration | remoteJSON | [384](../../magpie/internal/provider/remote_quotas.go#L384) |
-| Code | field_declaration | remoteJSON | [385](../../magpie/internal/provider/remote_quotas.go#L385) |
-| Error | field_declaration | remoteJSON | [396](../../magpie/internal/provider/remote_quotas.go#L396) |
-| Message | field_declaration | remoteJSON | [397](../../magpie/internal/provider/remote_quotas.go#L397) |
-| Data | field_declaration | remoteJSON | [406](../../magpie/internal/provider/remote_quotas.go#L406) |
+| e | var_spec | remoteJSON | [383](../../magpie/internal/provider/remote_quotas.go#L383) |
+| Error | field_declaration | remoteJSON::e | [384](../../magpie/internal/provider/remote_quotas.go#L384) |
+| Code | field_declaration | remoteJSON::e::Error | [385](../../magpie/internal/provider/remote_quotas.go#L385) |
+| e | var_spec | remoteJSON | [395](../../magpie/internal/provider/remote_quotas.go#L395) |
+| Error | field_declaration | remoteJSON::e | [396](../../magpie/internal/provider/remote_quotas.go#L396) |
+| Message | field_declaration | remoteJSON::e::Error | [397](../../magpie/internal/provider/remote_quotas.go#L397) |
+| list | var_spec | remoteJSON | [405](../../magpie/internal/provider/remote_quotas.go#L405) |
+| Data | field_declaration | remoteJSON::list | [406](../../magpie/internal/provider/remote_quotas.go#L406) |

@@ -12,8 +12,10 @@ Source SHA-256: 6d09979ff7bfe00c4d139709f2d98d81fa6880f28672318d845fab65c057f3a5
 | claudeDashedish | var_spec |  | [25](../../magpie/internal/provider/claudedash.go#L25) |
 | ClaudeDashed | function_declaration |  | [30](../../magpie/internal/provider/claudedash.go#L30) |
 | claudeSplit | function_declaration |  | [40](../../magpie/internal/provider/claudedash.go#L40) |
+| mark | const_spec | claudeSplit | [41](../../magpie/internal/provider/claudedash.go#L41) |
 | ClaudeUndashed | function_declaration |  | [56](../../magpie/internal/provider/claudedash.go#L56) |
 | undashIn | function_declaration |  | [67](../../magpie/internal/provider/claudedash.go#L67) |
 | ClaudeSpelled | function_declaration |  | [87](../../magpie/internal/provider/claudedash.go#L87) |
 | ClaudeRead | function_declaration |  | [104](../../magpie/internal/provider/claudedash.go#L104) |
 | offEntries | function_declaration |  | [119](../../magpie/internal/provider/claudedash.go#L119) |
+| out | var_spec | offEntries | [120](../../magpie/internal/provider/claudedash.go#L120) |

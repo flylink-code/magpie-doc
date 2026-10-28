@@ -10,8 +10,10 @@ Source SHA-256: c9ebdc46c6e4e501daf3856547178da21f5f35a6232a8dec36a3c477152fb4b0
 | --- | --- | --- | ---: |
 | zhipuCodeStatus | function_declaration |  | [27](../../magpie/internal/provider/zhipu_envelope.go#L27) |
 | zhipuEnvelope | function_declaration |  | [43](../../magpie/internal/provider/zhipu_envelope.go#L43) |
-| Success | field_declaration | zhipuEnvelope | [45](../../magpie/internal/provider/zhipu_envelope.go#L45) |
-| Code | field_declaration | zhipuEnvelope | [46](../../magpie/internal/provider/zhipu_envelope.go#L46) |
-| Msg | field_declaration | zhipuEnvelope | [47](../../magpie/internal/provider/zhipu_envelope.go#L47) |
+| v | var_spec | zhipuEnvelope | [44](../../magpie/internal/provider/zhipu_envelope.go#L44) |
+| Success | field_declaration | zhipuEnvelope::v | [45](../../magpie/internal/provider/zhipu_envelope.go#L45) |
+| Code | field_declaration | zhipuEnvelope::v | [46](../../magpie/internal/provider/zhipu_envelope.go#L46) |
+| Msg | field_declaration | zhipuEnvelope::v | [47](../../magpie/internal/provider/zhipu_envelope.go#L47) |
+| n | var_spec | zhipuEnvelope | [52](../../magpie/internal/provider/zhipu_envelope.go#L52) |
 | ZhipuKeyRefused | function_declaration |  | [65](../../magpie/internal/provider/zhipu_envelope.go#L65) |
 | ZhipuEnveloped | function_declaration |  | [71](../../magpie/internal/provider/zhipu_envelope.go#L71) |

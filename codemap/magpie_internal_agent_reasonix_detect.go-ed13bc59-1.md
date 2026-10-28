@@ -10,4 +10,5 @@ Source SHA-256: b08a29306c64d4285318ebd564b822f00b57d1d91518314d057f405d2093bd6c
 | --- | --- | --- | ---: |
 | reasonixDetected | function_declaration |  | [16](../../magpie/internal/agent/reasonix_detect.go#L16) |
 | reasonixVersions | var_spec |  | [47](../../magpie/internal/agent/reasonix_detect.go#L47) |
+| m | field_declaration | reasonixVersions | [49](../../magpie/internal/agent/reasonix_detect.go#L49) |
 | reasonixCLI | function_declaration |  | [55](../../magpie/internal/agent/reasonix_detect.go#L55) |

@@ -8,7 +8,7 @@ Source SHA-256: 532762a1d5cb9c18ef2c5a2759713582861feb2f49dff882d6aafe1a872b9638
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Result | struct_type |  | [25](../../magpie/internal/provider/test.go#L25) |
+| Result | type_spec |  | [25](../../magpie/internal/provider/test.go#L25) |
 | Account | field_declaration | Result | [26](../../magpie/internal/provider/test.go#L26) |
 | Protocol | field_declaration | Result | [27](../../magpie/internal/provider/test.go#L27) |
 | OK | field_declaration | Result | [28](../../magpie/internal/provider/test.go#L28) |
@@ -16,36 +16,43 @@ Source SHA-256: 532762a1d5cb9c18ef2c5a2759713582861feb2f49dff882d6aafe1a872b9638
 | Millis | field_declaration | Result | [30](../../magpie/internal/provider/test.go#L30) |
 | Model | field_declaration | Result | [31](../../magpie/internal/provider/test.go#L31) |
 | Error | field_declaration | Result | [32](../../magpie/internal/provider/test.go#L32) |
-| Test | method_declaration | Provider | [38](../../magpie/internal/provider/test.go#L38) |
+| Test | method_declaration |  | [38](../../magpie/internal/provider/test.go#L38) |
+| out | var_spec | Test | [67](../../magpie/internal/provider/test.go#L67) |
 | tiny | function_declaration |  | [99](../../magpie/internal/provider/test.go#L99) |
 | clineProbe | function_declaration |  | [119](../../magpie/internal/provider/test.go#L119) |
-| ModelTest | method_declaration | Provider | [146](../../magpie/internal/provider/test.go#L146) |
-| AsksDecideModels | method_declaration | Provider | [171](../../magpie/internal/provider/test.go#L171) |
-| mantleBase | method_declaration | Provider | [178](../../magpie/internal/provider/test.go#L178) |
+| m | var_spec | clineProbe | [120](../../magpie/internal/provider/test.go#L120) |
+| ModelTest | method_declaration |  | [146](../../magpie/internal/provider/test.go#L146) |
+| AsksDecideModels | method_declaration |  | [171](../../magpie/internal/provider/test.go#L171) |
+| mantleBase | method_declaration |  | [178](../../magpie/internal/provider/test.go#L178) |
 | tinyBody | function_declaration |  | [185](../../magpie/internal/provider/test.go#L185) |
 | testWait | const_spec |  | [212](../../magpie/internal/provider/test.go#L212) |
 | drawWait | const_spec |  | [213](../../magpie/internal/provider/test.go#L213) |
-| drawsOnImages | method_declaration | Provider | [220](../../magpie/internal/provider/test.go#L220) |
+| drawsOnImages | method_declaration |  | [220](../../magpie/internal/provider/test.go#L220) |
 | tinyDrawing | function_declaration |  | [227](../../magpie/internal/provider/test.go#L227) |
-| TestModels | method_declaration | Provider | [243](../../magpie/internal/provider/test.go#L243) |
-| testOne | method_declaration | Provider | [261](../../magpie/internal/provider/test.go#L261) |
-| keyFor | method_declaration | Provider | [373](../../magpie/internal/provider/test.go#L373) |
-| zenPublic | method_declaration | Provider | [390](../../magpie/internal/provider/test.go#L390) |
+| TestModels | method_declaration |  | [243](../../magpie/internal/provider/test.go#L243) |
+| wg | var_spec | TestModels | [247](../../magpie/internal/provider/test.go#L247) |
+| testOne | method_declaration |  | [261](../../magpie/internal/provider/test.go#L261) |
+| protos | var_spec | testOne | [291](../../magpie/internal/provider/test.go#L291) |
+| keyFor | method_declaration |  | [373](../../magpie/internal/provider/test.go#L373) |
+| zenPublic | method_declaration |  | [390](../../magpie/internal/provider/test.go#L390) |
 | zenPublicNone | const_spec |  | [395](../../magpie/internal/provider/test.go#L395) |
-| testModel | method_declaration | Provider | [406](../../magpie/internal/provider/test.go#L406) |
+| testModel | method_declaration |  | [406](../../magpie/internal/provider/test.go#L406) |
+| pools | var_spec | testModel | [410](../../magpie/internal/provider/test.go#L410) |
 | isClaude | function_declaration |  | [445](../../magpie/internal/provider/test.go#L445) |
 | AuthHeaders | function_declaration |  | [458](../../magpie/internal/provider/test.go#L458) |
-| ownRequests | method_declaration | Provider | [493](../../magpie/internal/provider/test.go#L493) |
+| ownRequests | method_declaration |  | [493](../../magpie/internal/provider/test.go#L493) |
 | probe | function_declaration |  | [501](../../magpie/internal/provider/test.go#L501) |
 | streams | function_declaration |  | [574](../../magpie/internal/provider/test.go#L574) |
-| Stream | field_declaration | streams | [576](../../magpie/internal/provider/test.go#L576) |
+| v | var_spec | streams | [575](../../magpie/internal/provider/test.go#L575) |
+| Stream | field_declaration | streams::v | [576](../../magpie/internal/provider/test.go#L576) |
 | streamAnswer | function_declaration |  | [585](../../magpie/internal/provider/test.go#L585) |
-| Type | field_declaration | streamAnswer | [598](../../magpie/internal/provider/test.go#L598) |
-| Error | field_declaration | streamAnswer | [599](../../magpie/internal/provider/test.go#L599) |
-| Response | field_declaration | streamAnswer | [600](../../magpie/internal/provider/test.go#L600) |
-| Error | field_declaration | streamAnswer | [601](../../magpie/internal/provider/test.go#L601) |
-| Choices | field_declaration | streamAnswer | [603](../../magpie/internal/provider/test.go#L603) |
-| Delta | field_declaration | streamAnswer | [604](../../magpie/internal/provider/test.go#L604) |
+| ev | var_spec | streamAnswer | [597](../../magpie/internal/provider/test.go#L597) |
+| Type | field_declaration | streamAnswer::ev | [598](../../magpie/internal/provider/test.go#L598) |
+| Error | field_declaration | streamAnswer::ev | [599](../../magpie/internal/provider/test.go#L599) |
+| Response | field_declaration | streamAnswer::ev | [600](../../magpie/internal/provider/test.go#L600) |
+| Error | field_declaration | streamAnswer::ev::Response | [601](../../magpie/internal/provider/test.go#L601) |
+| Choices | field_declaration | streamAnswer::ev | [603](../../magpie/internal/provider/test.go#L603) |
+| Delta | field_declaration | streamAnswer::ev::Choices | [604](../../magpie/internal/provider/test.go#L604) |
 | BlockedHint | const_spec |  | [639](../../magpie/internal/provider/test.go#L639) |
 | edgeBlocked | var_spec |  | [647](../../magpie/internal/provider/test.go#L647) |
 | EdgeBlocked | function_declaration |  | [651](../../magpie/internal/provider/test.go#L651) |
@@ -55,28 +62,36 @@ Source SHA-256: 532762a1d5cb9c18ef2c5a2759713582861feb2f49dff882d6aafe1a872b9638
 | verifyWords | var_spec |  | [690](../../magpie/internal/provider/test.go#L690) |
 | verifyLink | var_spec |  | [693](../../magpie/internal/provider/test.go#L693) |
 | Verification | function_declaration |  | [699](../../magpie/internal/provider/test.go#L699) |
-| Error | field_declaration | Verification | [701](../../magpie/internal/provider/test.go#L701) |
-| Details | field_declaration | Verification | [702](../../magpie/internal/provider/test.go#L702) |
-| Reason | field_declaration | Verification | [703](../../magpie/internal/provider/test.go#L703) |
-| Metadata | field_declaration | Verification | [704](../../magpie/internal/provider/test.go#L704) |
-| Links | field_declaration | Verification | [705](../../magpie/internal/provider/test.go#L705) |
-| URL | field_declaration | Verification | [706](../../magpie/internal/provider/test.go#L706) |
+| v | var_spec | Verification | [700](../../magpie/internal/provider/test.go#L700) |
+| Error | field_declaration | Verification::v | [701](../../magpie/internal/provider/test.go#L701) |
+| Details | field_declaration | Verification::v::Error | [702](../../magpie/internal/provider/test.go#L702) |
+| Reason | field_declaration | Verification::v::Error::Details | [703](../../magpie/internal/provider/test.go#L703) |
+| Metadata | field_declaration | Verification::v::Error::Details | [704](../../magpie/internal/provider/test.go#L704) |
+| Links | field_declaration | Verification::v::Error::Details | [705](../../magpie/internal/provider/test.go#L705) |
+| URL | field_declaration | Verification::v::Error::Details::Links | [706](../../magpie/internal/provider/test.go#L706) |
 | verifyAdvice | const_spec |  | [739](../../magpie/internal/provider/test.go#L739) |
 | VerifyMessage | function_declaration |  | [743](../../magpie/internal/provider/test.go#L743) |
 | ErrorType | function_declaration |  | [757](../../magpie/internal/provider/test.go#L757) |
-| Error | field_declaration | ErrorType | [759](../../magpie/internal/provider/test.go#L759) |
-| Type | field_declaration | ErrorType | [760](../../magpie/internal/provider/test.go#L760) |
-| Code | field_declaration | ErrorType | [761](../../magpie/internal/provider/test.go#L761) |
-| Type | field_declaration | ErrorType | [778](../../magpie/internal/provider/test.go#L778) |
-| Code | field_declaration | ErrorType | [779](../../magpie/internal/provider/test.go#L779) |
+| v | var_spec | ErrorType | [758](../../magpie/internal/provider/test.go#L758) |
+| Error | field_declaration | ErrorType::v | [759](../../magpie/internal/provider/test.go#L759) |
+| Type | field_declaration | ErrorType::v | [760](../../magpie/internal/provider/test.go#L760) |
+| Code | field_declaration | ErrorType::v | [761](../../magpie/internal/provider/test.go#L761) |
+| s | var_spec | ErrorType | [767](../../magpie/internal/provider/test.go#L767) |
+| n | var_spec | ErrorType | [771](../../magpie/internal/provider/test.go#L771) |
+| e | var_spec | ErrorType | [777](../../magpie/internal/provider/test.go#L777) |
+| Type | field_declaration | ErrorType::e | [778](../../magpie/internal/provider/test.go#L778) |
+| Code | field_declaration | ErrorType::e | [779](../../magpie/internal/provider/test.go#L779) |
 | apiError | function_declaration |  | [798](../../magpie/internal/provider/test.go#L798) |
-| Error | field_declaration | apiError | [800](../../magpie/internal/provider/test.go#L800) |
-| Message | field_declaration | apiError | [801](../../magpie/internal/provider/test.go#L801) |
-| Msg | field_declaration | apiError | [802](../../magpie/internal/provider/test.go#L802) |
-| Detail | field_declaration | apiError | [803](../../magpie/internal/provider/test.go#L803) |
-| Errors | field_declaration | apiError | [804](../../magpie/internal/provider/test.go#L804) |
-| Message | field_declaration | apiError | [805](../../magpie/internal/provider/test.go#L805) |
-| Message | field_declaration | apiError | [816](../../magpie/internal/provider/test.go#L816) |
+| v | var_spec | apiError | [799](../../magpie/internal/provider/test.go#L799) |
+| Error | field_declaration | apiError::v | [800](../../magpie/internal/provider/test.go#L800) |
+| Message | field_declaration | apiError::v | [801](../../magpie/internal/provider/test.go#L801) |
+| Msg | field_declaration | apiError::v | [802](../../magpie/internal/provider/test.go#L802) |
+| Detail | field_declaration | apiError::v | [803](../../magpie/internal/provider/test.go#L803) |
+| Errors | field_declaration | apiError::v | [804](../../magpie/internal/provider/test.go#L804) |
+| Message | field_declaration | apiError::v::Errors | [805](../../magpie/internal/provider/test.go#L805) |
+| e | var_spec | apiError | [815](../../magpie/internal/provider/test.go#L815) |
+| Message | field_declaration | apiError::e | [816](../../magpie/internal/provider/test.go#L816) |
+| s | var_spec | apiError | [821](../../magpie/internal/provider/test.go#L821) |
 | NoDetails | const_spec |  | [860](../../magpie/internal/provider/test.go#L860) |
 | pageStart | var_spec |  | [864](../../magpie/internal/provider/test.go#L864) |
 | pageTitle | var_spec |  | [867](../../magpie/internal/provider/test.go#L867) |

@@ -8,7 +8,7 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Call | struct_type |  | [27](../../magpie/internal/tune/tune.go#L27) |
+| Call | type_spec |  | [27](../../magpie/internal/tune/tune.go#L27) |
 | Time | field_declaration | Call | [28](../../magpie/internal/tune/tune.go#L28) |
 | Stream | field_declaration | Call | [29](../../magpie/internal/tune/tune.go#L29) |
 | Sub | field_declaration | Call | [30](../../magpie/internal/tune/tune.go#L30) |
@@ -20,18 +20,15 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | Wrote1 | field_declaration | Call | [36](../../magpie/internal/tune/tune.go#L36) |
 | Compact | field_declaration | Call | [39](../../magpie/internal/tune/tune.go#L39) |
 | FromCalls | function_declaration |  | [44](../../magpie/internal/tune/tune.go#L44) |
-| Weights | struct_type |  | [74](../../magpie/internal/tune/tune.go#L74) |
+| Weights | type_spec |  | [74](../../magpie/internal/tune/tune.go#L74) |
 | Read | field_declaration | Weights | [75](../../magpie/internal/tune/tune.go#L75) |
-| Write | field_declaration | Weights | [75](../../magpie/internal/tune/tune.go#L75) |
-| Write1h | field_declaration | Weights | [75](../../magpie/internal/tune/tune.go#L75) |
-| Out | field_declaration | Weights | [75](../../magpie/internal/tune/tune.go#L75) |
 | WeightsFor | function_declaration |  | [81](../../magpie/internal/tune/tune.go#L81) |
-| Point | struct_type |  | [93](../../magpie/internal/tune/tune.go#L93) |
+| Point | type_spec |  | [93](../../magpie/internal/tune/tune.go#L93) |
 | Value | field_declaration | Point | [94](../../magpie/internal/tune/tune.go#L94) |
 | Cost | field_declaration | Point | [95](../../magpie/internal/tune/tune.go#L95) |
 | Compacts | field_declaration | Point | [96](../../magpie/internal/tune/tune.go#L96) |
 | Wait | field_declaration | Point | [97](../../magpie/internal/tune/tune.go#L97) |
-| Facts | struct_type |  | [102](../../magpie/internal/tune/tune.go#L102) |
+| Facts | type_spec |  | [102](../../magpie/internal/tune/tune.go#L102) |
 | Calls | field_declaration | Facts | [103](../../magpie/internal/tune/tune.go#L103) |
 | Streams | field_declaration | Facts | [104](../../magpie/internal/tune/tune.go#L104) |
 | Compacts | field_declaration | Facts | [105](../../magpie/internal/tune/tune.go#L105) |
@@ -47,7 +44,7 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | Sessions | field_declaration | Facts | [115](../../magpie/internal/tune/tune.go#L115) |
 | Took | field_declaration | Facts | [118](../../magpie/internal/tune/tune.go#L118) |
 | Timed | field_declaration | Facts | [119](../../magpie/internal/tune/tune.go#L119) |
-| Compaction | struct_type |  | [123](../../magpie/internal/tune/tune.go#L123) |
+| Compaction | type_spec |  | [123](../../magpie/internal/tune/tune.go#L123) |
 | Model | field_declaration | Compaction | [124](../../magpie/internal/tune/tune.go#L124) |
 | Current | field_declaration | Compaction | [125](../../magpie/internal/tune/tune.go#L125) |
 | Window | field_declaration | Compaction | [126](../../magpie/internal/tune/tune.go#L126) |
@@ -60,9 +57,8 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | WaitBest | field_declaration | Compaction | [135](../../magpie/internal/tune/tune.go#L135) |
 | Cheapest | field_declaration | Compaction | [138](../../magpie/internal/tune/tune.go#L138) |
 | WaitCheapest | field_declaration | Compaction | [139](../../magpie/internal/tune/tune.go#L139) |
-| CompactOpts | struct_type |  | [144](../../magpie/internal/tune/tune.go#L144) |
+| CompactOpts | type_spec |  | [144](../../magpie/internal/tune/tune.go#L144) |
 | Min | field_declaration | CompactOpts | [145](../../magpie/internal/tune/tune.go#L145) |
-| Max | field_declaration | CompactOpts | [145](../../magpie/internal/tune/tune.go#L145) |
 | Step | field_declaration | CompactOpts | [146](../../magpie/internal/tune/tune.go#L146) |
 | Reserve | field_declaration | CompactOpts | [150](../../magpie/internal/tune/tune.go#L150) |
 | Current | field_declaration | CompactOpts | [153](../../magpie/internal/tune/tune.go#L153) |
@@ -73,17 +69,24 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | minTimed | const_spec |  | [169](../../magpie/internal/tune/tune.go#L169) |
 | sameCost | const_spec |  | [174](../../magpie/internal/tune/tune.go#L174) |
 | took | function_declaration |  | [179](../../magpie/internal/tune/tune.go#L179) |
+| ms | var_spec | took | [180](../../magpie/internal/tune/tune.go#L180) |
 | streams | function_declaration |  | [193](../../magpie/internal/tune/tune.go#L193) |
 | compacted | function_declaration |  | [212](../../magpie/internal/tune/tune.go#L212) |
 | median | function_declaration |  | [214](../../magpie/internal/tune/tune.go#L214) |
 | observe | function_declaration |  | [225](../../magpie/internal/tune/tune.go#L225) |
+| f | var_spec | observe | [226](../../magpie/internal/tune/tune.go#L226) |
+| peaks | var_spec | observe | [227](../../magpie/internal/tune/tune.go#L227) |
+| ds | var_spec | observe | [231](../../magpie/internal/tune/tune.go#L231) |
 | base | function_declaration |  | [275](../../magpie/internal/tune/tune.go#L275) |
+| firsts | var_spec | base | [276](../../magpie/internal/tune/tune.go#L276) |
 | replayCompact | function_declaration |  | [290](../../magpie/internal/tune/tune.go#L290) |
 | Compact | function_declaration |  | [319](../../magpie/internal/tune/tune.go#L319) |
+| wrote | var_spec | Compact | [328](../../magpie/internal/tune/tune.go#L328) |
+| calm | var_spec | Compact | [408](../../magpie/internal/tune/tune.go#L408) |
 | roundTo | function_declaration |  | [438](../../magpie/internal/tune/tune.go#L438) |
 | roundUp | function_declaration |  | [445](../../magpie/internal/tune/tune.go#L445) |
 | cmpF | function_declaration |  | [452](../../magpie/internal/tune/tune.go#L452) |
-| TTL | struct_type |  | [464](../../magpie/internal/tune/tune.go#L464) |
+| TTL | type_spec |  | [464](../../magpie/internal/tune/tune.go#L464) |
 | Current | field_declaration | TTL | [465](../../magpie/internal/tune/tune.go#L465) |
 | Best | field_declaration | TTL | [466](../../magpie/internal/tune/tune.go#L466) |
 | Cost | field_declaration | TTL | [467](../../magpie/internal/tune/tune.go#L467) |
@@ -93,3 +96,4 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | Facts | field_declaration | TTL | [471](../../magpie/internal/tune/tune.go#L471) |
 | replayTTL | function_declaration |  | [478](../../magpie/internal/tune/tune.go#L478) |
 | CacheTTL | function_declaration |  | [502](../../magpie/internal/tune/tune.go#L502) |
+| wrote | var_spec | CacheTTL | [508](../../magpie/internal/tune/tune.go#L508) |

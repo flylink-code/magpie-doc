@@ -18,8 +18,11 @@ Source SHA-256: 78be311b8e78a7b8a7b384b5b2f4c194f887bb4275b4b0839a36183bec40fe09
 | retry | function_declaration |  | [45](../../magpie/internal/steady/steady.go#L45) |
 | retryGone | function_declaration |  | [55](../../magpie/internal/steady/steady.go#L55) |
 | Stat | function_declaration |  | [67](../../magpie/internal/steady/steady.go#L67) |
+| fi | var_spec | Stat | [68](../../magpie/internal/steady/steady.go#L68) |
 | ReadThere | function_declaration |  | [78](../../magpie/internal/steady/steady.go#L78) |
+| b | var_spec | ReadThere | [79](../../magpie/internal/steady/steady.go#L79) |
 | ReadFile | function_declaration |  | [88](../../magpie/internal/steady/steady.go#L88) |
+| b | var_spec | ReadFile | [89](../../magpie/internal/steady/steady.go#L89) |
 | Rename | function_declaration |  | [98](../../magpie/internal/steady/steady.go#L98) |
 | Sync | var_spec |  | [103](../../magpie/internal/steady/steady.go#L103) |
 | WriteFile | function_declaration |  | [111](../../magpie/internal/steady/steady.go#L111) |

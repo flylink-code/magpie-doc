@@ -13,7 +13,7 @@ Source SHA-256: 268b3151f1a0738c768647622370c9c41d344ee7787fd4f44c6d5eac64a55343
 | pageBridgeJS | var_spec |  | [47](../../magpie/internal/gui/pluginpage.go#L47) |
 | pageSecret | var_spec |  | [51](../../magpie/internal/gui/pluginpage.go#L51) |
 | pageToken | function_declaration |  | [59](../../magpie/internal/gui/pluginpage.go#L59) |
-| pluginPage | struct_type |  | [66](../../magpie/internal/gui/pluginpage.go#L66) |
+| pluginPage | type_spec |  | [66](../../magpie/internal/gui/pluginpage.go#L66) |
 | Spec | field_declaration | pluginPage | [67](../../magpie/internal/gui/pluginpage.go#L67) |
 | Name | field_declaration | pluginPage | [68](../../magpie/internal/gui/pluginpage.go#L68) |
 | Key | field_declaration | pluginPage | [69](../../magpie/internal/gui/pluginpage.go#L69) |
@@ -26,12 +26,12 @@ Source SHA-256: 268b3151f1a0738c768647622370c9c41d344ee7787fd4f44c6d5eac64a55343
 | Actions | field_declaration | pluginPage | [81](../../magpie/internal/gui/pluginpage.go#L81) |
 | token | field_declaration | pluginPage | [82](../../magpie/internal/gui/pluginpage.go#L82) |
 | dir | field_declaration | pluginPage | [83](../../magpie/internal/gui/pluginpage.go#L83) |
-| pluginAction | struct_type |  | [87](../../magpie/internal/gui/pluginpage.go#L87) |
+| pluginAction | type_spec |  | [87](../../magpie/internal/gui/pluginpage.go#L87) |
 | ID | field_declaration | pluginAction | [88](../../magpie/internal/gui/pluginpage.go#L88) |
 | Menu | field_declaration | pluginAction | [89](../../magpie/internal/gui/pluginpage.go#L89) |
 | Title | field_declaration | pluginAction | [90](../../magpie/internal/gui/pluginpage.go#L90) |
 | Titles | field_declaration | pluginAction | [91](../../magpie/internal/gui/pluginpage.go#L91) |
-| pluginPanel | struct_type |  | [96](../../magpie/internal/gui/pluginpage.go#L96) |
+| pluginPanel | type_spec |  | [96](../../magpie/internal/gui/pluginpage.go#L96) |
 | Spec | field_declaration | pluginPanel | [97](../../magpie/internal/gui/pluginpage.go#L97) |
 | Name | field_declaration | pluginPanel | [98](../../magpie/internal/gui/pluginpage.go#L98) |
 | Key | field_declaration | pluginPanel | [99](../../magpie/internal/gui/pluginpage.go#L99) |
@@ -50,23 +50,27 @@ Source SHA-256: 268b3151f1a0738c768647622370c9c41d344ee7787fd4f44c6d5eac64a55343
 | servePluginPage | function_declaration |  | [239](../../magpie/internal/gui/pluginpage.go#L239) |
 | apiFramed | function_declaration |  | [306](../../magpie/internal/gui/pluginpage.go#L306) |
 | pluginPageRoutes | function_declaration |  | [320](../../magpie/internal/gui/pluginpage.go#L320) |
-| Spec | field_declaration | pluginPageRoutes | [340](../../magpie/internal/gui/pluginpage.go#L340) |
-| Read | field_declaration | pluginPageRoutes | [341](../../magpie/internal/gui/pluginpage.go#L341) |
-| Params | field_declaration | pluginPageRoutes | [342](../../magpie/internal/gui/pluginpage.go#L342) |
-| Spec | field_declaration | pluginPageRoutes | [370](../../magpie/internal/gui/pluginpage.go#L370) |
-| Options | field_declaration | pluginPageRoutes | [371](../../magpie/internal/gui/pluginpage.go#L371) |
+| in | var_spec | pluginPageRoutes | [339](../../magpie/internal/gui/pluginpage.go#L339) |
+| Spec | field_declaration | pluginPageRoutes::in | [340](../../magpie/internal/gui/pluginpage.go#L340) |
+| Read | field_declaration | pluginPageRoutes::in | [341](../../magpie/internal/gui/pluginpage.go#L341) |
+| Params | field_declaration | pluginPageRoutes::in | [342](../../magpie/internal/gui/pluginpage.go#L342) |
+| in | var_spec | pluginPageRoutes | [369](../../magpie/internal/gui/pluginpage.go#L369) |
+| Spec | field_declaration | pluginPageRoutes::in | [370](../../magpie/internal/gui/pluginpage.go#L370) |
+| Options | field_declaration | pluginPageRoutes::in | [371](../../magpie/internal/gui/pluginpage.go#L371) |
+| opts | var_spec | pluginPageRoutes | [382](../../magpie/internal/gui/pluginpage.go#L382) |
 | pageSets | var_spec |  | [412](../../magpie/internal/gui/pluginpage.go#L412) |
+| at | field_declaration | pageSets | [414](../../magpie/internal/gui/pluginpage.go#L414) |
 | pageSetAllowed | function_declaration |  | [419](../../magpie/internal/gui/pluginpage.go#L419) |
 | pageRead | function_declaration |  | [430](../../magpie/internal/gui/pluginpage.go#L430) |
-| prov | struct_type | pageRead | [434](../../magpie/internal/gui/pluginpage.go#L434) |
-| ID | field_declaration | pageRead.prov | [435](../../magpie/internal/gui/pluginpage.go#L435) |
-| Name | field_declaration | pageRead.prov | [436](../../magpie/internal/gui/pluginpage.go#L436) |
-| model | struct_type | pageRead | [452](../../magpie/internal/gui/pluginpage.go#L452) |
-| Model | field_declaration | pageRead.model | [453](../../magpie/internal/gui/pluginpage.go#L453) |
-| Calls | field_declaration | pageRead.model | [454](../../magpie/internal/gui/pluginpage.go#L454) |
-| Input | field_declaration | pageRead.model | [455](../../magpie/internal/gui/pluginpage.go#L455) |
-| Output | field_declaration | pageRead.model | [456](../../magpie/internal/gui/pluginpage.go#L456) |
-| Cost | field_declaration | pageRead.model | [457](../../magpie/internal/gui/pluginpage.go#L457) |
+| prov | type_spec | pageRead | [434](../../magpie/internal/gui/pluginpage.go#L434) |
+| ID | field_declaration | pageRead::prov | [435](../../magpie/internal/gui/pluginpage.go#L435) |
+| Name | field_declaration | pageRead::prov | [436](../../magpie/internal/gui/pluginpage.go#L436) |
+| model | type_spec | pageRead | [452](../../magpie/internal/gui/pluginpage.go#L452) |
+| Model | field_declaration | pageRead::model | [453](../../magpie/internal/gui/pluginpage.go#L453) |
+| Calls | field_declaration | pageRead::model | [454](../../magpie/internal/gui/pluginpage.go#L454) |
+| Input | field_declaration | pageRead::model | [455](../../magpie/internal/gui/pluginpage.go#L455) |
+| Output | field_declaration | pageRead::model | [456](../../magpie/internal/gui/pluginpage.go#L456) |
+| Cost | field_declaration | pageRead::model | [457](../../magpie/internal/gui/pluginpage.go#L457) |
 | Period | field_declaration | pageRead | [462](../../magpie/internal/gui/pluginpage.go#L462) |
 | Since | field_declaration | pageRead | [463](../../magpie/internal/gui/pluginpage.go#L463) |
 | Calls | field_declaration | pageRead | [464](../../magpie/internal/gui/pluginpage.go#L464) |

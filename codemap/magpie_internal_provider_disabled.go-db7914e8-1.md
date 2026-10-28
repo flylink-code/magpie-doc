@@ -9,8 +9,11 @@ Source SHA-256: 9aedd3efa506b0ff4e51934ae8e593ad6256f143e927f585b37e59abc8081812
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | lastDisabled | var_spec |  | [27](../../magpie/internal/provider/disabled.go#L27) |
+| list | field_declaration | lastDisabled | [29](../../magpie/internal/provider/disabled.go#L29) |
+| read | field_declaration | lastDisabled | [30](../../magpie/internal/provider/disabled.go#L30) |
+| warned | field_declaration | lastDisabled | [31](../../magpie/internal/provider/disabled.go#L31) |
 | disabledList | function_declaration |  | [36](../../magpie/internal/provider/disabled.go#L36) |
-| disabledRead | struct_type |  | [46](../../magpie/internal/provider/disabled.go#L46) |
+| disabledRead | type_spec |  | [46](../../magpie/internal/provider/disabled.go#L46) |
 | list | field_declaration | disabledRead | [47](../../magpie/internal/provider/disabled.go#L47) |
 | unknown | field_declaration | disabledRead | [48](../../magpie/internal/provider/disabled.go#L48) |
 | readDisabled | function_declaration |  | [52](../../magpie/internal/provider/disabled.go#L52) |
@@ -23,10 +26,13 @@ Source SHA-256: 9aedd3efa506b0ff4e51934ae8e593ad6256f143e927f585b37e59abc8081812
 | disabledNow | function_declaration |  | [160](../../magpie/internal/provider/disabled.go#L160) |
 | IDDisabled | function_declaration |  | [173](../../magpie/internal/provider/disabled.go#L173) |
 | normalDisabled | function_declaration |  | [191](../../magpie/internal/provider/disabled.go#L191) |
+| out | var_spec | normalDisabled | [192](../../magpie/internal/provider/disabled.go#L192) |
 | SetDisabledModels | function_declaration |  | [204](../../magpie/internal/provider/disabled.go#L204) |
 | DisableModels | function_declaration |  | [223](../../magpie/internal/provider/disabled.go#L223) |
 | EnableModels | function_declaration |  | [233](../../magpie/internal/provider/disabled.go#L233) |
 | GroupDisabledOut | function_declaration |  | [253](../../magpie/internal/provider/disabled.go#L253) |
+| off | var_spec | GroupDisabledOut | [265](../../magpie/internal/provider/disabled.go#L265) |
 | DisabledBy | function_declaration |  | [276](../../magpie/internal/provider/disabled.go#L276) |
 | DisabledHits | function_declaration |  | [283](../../magpie/internal/provider/disabled.go#L283) |
+| out | var_spec | DisabledHits | [284](../../magpie/internal/provider/disabled.go#L284) |
 | BareDisabled | function_declaration |  | [301](../../magpie/internal/provider/disabled.go#L301) |

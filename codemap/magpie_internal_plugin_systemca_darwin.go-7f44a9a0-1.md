@@ -11,7 +11,12 @@ Source SHA-256: 9b1eb2ece19e26046ff72a4f9baa090586354f183412c0dcc6c4fa9389935e7c
 | systemCABundle | function_declaration |  | [19](../../magpie/internal/plugin/systemca_darwin.go#L19) |
 | security | var_spec |  | [22](../../magpie/internal/plugin/systemca_darwin.go#L22) |
 | systemRoots | function_declaration |  | [33](../../magpie/internal/plugin/systemca_darwin.go#L33) |
+| certs | var_spec | systemRoots | [49](../../magpie/internal/plugin/systemca_darwin.go#L49) |
+| b | var_spec | systemRoots | [51](../../magpie/internal/plugin/systemca_darwin.go#L51) |
 | trustSettings | function_declaration |  | [68](../../magpie/internal/plugin/systemca_darwin.go#L68) |
 | trustedIn | function_declaration |  | [89](../../magpie/internal/plugin/systemca_darwin.go#L89) |
 | decodePlist | function_declaration |  | [118](../../magpie/internal/plugin/systemca_darwin.go#L118) |
 | plistValue | function_declaration |  | [132](../../magpie/internal/plugin/systemca_darwin.go#L132) |
+| k | var_spec | plistValue | [145](../../magpie/internal/plugin/systemca_darwin.go#L145) |
+| a | var_spec | plistValue | [162](../../magpie/internal/plugin/systemca_darwin.go#L162) |
+| text | var_spec | plistValue | [185](../../magpie/internal/plugin/systemca_darwin.go#L185) |

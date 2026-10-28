@@ -10,8 +10,8 @@ Source SHA-256: b8299512b0eb7e20839afde2ca839b9b95cf443ae1f044e6ba4c45ffa086c0fb
 | --- | --- | --- | ---: |
 | HowLink | const_spec |  | [25](../../magpie/internal/library/skill_how.go#L25) |
 | HowCopy | const_spec |  | [26](../../magpie/internal/library/skill_how.go#L26) |
-| copies | method_declaration | *Library | [33](../../magpie/internal/library/skill_how.go#L33) |
-| howOf | method_declaration | *Library | [42](../../magpie/internal/library/skill_how.go#L42) |
+| copies | method_declaration |  | [33](../../magpie/internal/library/skill_how.go#L33) |
+| howOf | method_declaration |  | [42](../../magpie/internal/library/skill_how.go#L42) |
 | SetSkillHow | function_declaration |  | [55](../../magpie/internal/library/skill_how.go#L55) |
 | relink | function_declaration |  | [89](../../magpie/internal/library/skill_how.go#L89) |
-| behind | method_declaration | *Library | [121](../../magpie/internal/library/skill_how.go#L121) |
+| behind | method_declaration |  | [121](../../magpie/internal/library/skill_how.go#L121) |

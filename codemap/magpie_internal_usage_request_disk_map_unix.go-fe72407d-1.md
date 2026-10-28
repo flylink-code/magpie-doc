@@ -10,4 +10,4 @@ Source SHA-256: d8d17e96c7b4f9647828df4ea4528eee70670dea44ccae586c28d216dd7a042b
 | --- | --- | --- | ---: |
 | mapsFiles | const_spec |  | [17](../../magpie/internal/usage/request_disk_map_unix.go#L17) |
 | mapDiskFile | function_declaration |  | [19](../../magpie/internal/usage/request_disk_map_unix.go#L19) |
-| read | method_declaration | *diskMapping | [45](../../magpie/internal/usage/request_disk_map_unix.go#L45) |
+| read | method_declaration |  | [45](../../magpie/internal/usage/request_disk_map_unix.go#L45) |

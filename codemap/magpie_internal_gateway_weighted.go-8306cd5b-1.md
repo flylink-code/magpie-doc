@@ -11,7 +11,6 @@ Source SHA-256: b2ea306302b03fc58c768ffbc7ca1faae5b1a31ca97c5793a0493f5ba4e51800
 | keyWeight | function_declaration |  | [25](../../magpie/internal/gateway/weighted.go#L25) |
 | resting | function_declaration |  | [28](../../magpie/internal/gateway/weighted.go#L28) |
 | weightedKept | function_declaration |  | [44](../../magpie/internal/gateway/weighted.go#L44) |
-| wrrSeat | struct_type |  | [59](../../magpie/internal/gateway/weighted.go#L59) |
+| wrrSeat | type_spec |  | [59](../../magpie/internal/gateway/weighted.go#L59) |
 | round | field_declaration | wrrSeat | [59](../../magpie/internal/gateway/weighted.go#L59) |
-| member | field_declaration | wrrSeat | [59](../../magpie/internal/gateway/weighted.go#L59) |
 | weightedUnits | function_declaration |  | [66](../../magpie/internal/gateway/weighted.go#L66) |

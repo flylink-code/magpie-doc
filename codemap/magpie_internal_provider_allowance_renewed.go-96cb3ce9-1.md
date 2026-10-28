@@ -8,12 +8,12 @@ Source SHA-256: 52b16dbbf792391bc6edd080fa7be645a44a82644e9d8fafbe302ec0acca2ef2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| reading | struct_type |  | [18](../../magpie/internal/provider/allowance_renewed.go#L18) |
+| reading | type_spec |  | [18](../../magpie/internal/provider/allowance_renewed.go#L18) |
 | a | field_declaration | reading | [19](../../magpie/internal/provider/allowance_renewed.go#L19) |
 | at | field_declaration | reading | [20](../../magpie/internal/provider/allowance_renewed.go#L20) |
-| renewedFrom | method_declaration | Allowance | [32](../../magpie/internal/provider/allowance_renewed.go#L32) |
-| key | struct_type | Allowance.renewedFrom | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
-| name | field_declaration | Allowance.renewedFrom.key | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
-| model | field_declaration | Allowance.renewedFrom.key | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
-| fullTill | method_declaration | Allowance | [58](../../magpie/internal/provider/allowance_renewed.go#L58) |
+| renewedFrom | method_declaration |  | [32](../../magpie/internal/provider/allowance_renewed.go#L32) |
+| key | type_spec | renewedFrom | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
+| name | field_declaration | renewedFrom::key | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
+| fullTill | method_declaration |  | [58](../../magpie/internal/provider/allowance_renewed.go#L58) |
+| t | var_spec | fullTill | [59](../../magpie/internal/provider/allowance_renewed.go#L59) |
 | renewalShare | function_declaration |  | [75](../../magpie/internal/provider/allowance_renewed.go#L75) |

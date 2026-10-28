@@ -8,14 +8,34 @@ Source SHA-256: 42c699ecb31eac8506ff7f16dcc3db02a2ac8305922dc9357c948a973fd23975
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Readme | field_declaration | Readme | [631](../../magpie/internal/plugin/market.go#L631) |
-| Time | field_declaration | Readme | [632](../../magpie/internal/plugin/market.go#L632) |
+| Keywords | field_declaration | searchNPM::r::Objects::Package | [562](../../magpie/internal/plugin/market.go#L562) |
+| License | field_declaration | searchNPM::r::Objects::Package | [563](../../magpie/internal/plugin/market.go#L563) |
+| Publisher | field_declaration | searchNPM::r::Objects::Package | [564](../../magpie/internal/plugin/market.go#L564) |
+| Username | field_declaration | searchNPM::r::Objects::Package::Publisher | [565](../../magpie/internal/plugin/market.go#L565) |
+| Links | field_declaration | searchNPM::r::Objects::Package | [567](../../magpie/internal/plugin/market.go#L567) |
+| Homepage | field_declaration | searchNPM::r::Objects::Package::Links | [568](../../magpie/internal/plugin/market.go#L568) |
+| Repository | field_declaration | searchNPM::r::Objects::Package::Links | [569](../../magpie/internal/plugin/market.go#L569) |
+| Downloads | field_declaration | searchNPM::r::Objects | [572](../../magpie/internal/plugin/market.go#L572) |
+| Weekly | field_declaration | searchNPM::r::Objects::Downloads | [573](../../magpie/internal/plugin/market.go#L573) |
+| out | var_spec | searchNPM | [580](../../magpie/internal/plugin/market.go#L580) |
+| Page | type_spec |  | [595](../../magpie/internal/plugin/market.go#L595) |
+| Readme | field_declaration | Page | [596](../../magpie/internal/plugin/market.go#L596) |
+| Updated | field_declaration | Page | [597](../../magpie/internal/plugin/market.go#L597) |
+| Readme | function_declaration |  | [603](../../magpie/internal/plugin/market.go#L603) |
+| d | var_spec | Readme | [630](../../magpie/internal/plugin/market.go#L630) |
+| Readme | field_declaration | Readme::d | [631](../../magpie/internal/plugin/market.go#L631) |
+| Time | field_declaration | Readme::d | [632](../../magpie/internal/plugin/market.go#L632) |
+| most | const_spec | Readme | [637](../../magpie/internal/plugin/market.go#L637) |
 | folderReadme | function_declaration |  | [647](../../magpie/internal/plugin/market.go#L647) |
+| most | const_spec | folderReadme | [667](../../magpie/internal/plugin/market.go#L667) |
+| at | var_spec | folderReadme | [671](../../magpie/internal/plugin/market.go#L671) |
 | Installed | function_declaration |  | [682](../../magpie/internal/plugin/market.go#L682) |
-| Version | field_declaration | Installed | [690](../../magpie/internal/plugin/market.go#L690) |
+| p | var_spec | Installed | [690](../../magpie/internal/plugin/market.go#L690) |
+| Version | field_declaration | Installed::p | [690](../../magpie/internal/plugin/market.go#L690) |
 | InstalledIcon | function_declaration |  | [699](../../magpie/internal/plugin/market.go#L699) |
-| Magpie | field_declaration | InstalledIcon | [705](../../magpie/internal/plugin/market.go#L705) |
-| Icon | field_declaration | InstalledIcon | [706](../../magpie/internal/plugin/market.go#L706) |
+| p | var_spec | InstalledIcon | [704](../../magpie/internal/plugin/market.go#L704) |
+| Magpie | field_declaration | InstalledIcon::p | [705](../../magpie/internal/plugin/market.go#L705) |
+| Icon | field_declaration | InstalledIcon::p::Magpie | [706](../../magpie/internal/plugin/market.go#L706) |
 | Upgrade | function_declaration |  | [717](../../magpie/internal/plugin/market.go#L717) |
 | Icon | function_declaration |  | [738](../../magpie/internal/plugin/market.go#L738) |
 | otherIcons | var_spec |  | [775](../../magpie/internal/plugin/market.go#L775) |

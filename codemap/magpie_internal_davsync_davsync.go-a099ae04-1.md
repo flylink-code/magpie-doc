@@ -11,7 +11,7 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | addPlugins | var_spec |  | [51](../../magpie/internal/davsync/davsync.go#L51) |
 | Every | const_spec |  | [54](../../magpie/internal/davsync/davsync.go#L54) |
 | Parts | var_spec |  | [57](../../magpie/internal/davsync/davsync.go#L57) |
-| Config | struct_type |  | [65](../../magpie/internal/davsync/davsync.go#L65) |
+| Config | type_spec |  | [65](../../magpie/internal/davsync/davsync.go#L65) |
 | URL | field_declaration | Config | [66](../../magpie/internal/davsync/davsync.go#L66) |
 | User | field_declaration | Config | [67](../../magpie/internal/davsync/davsync.go#L67) |
 | Password | field_declaration | Config | [68](../../magpie/internal/davsync/davsync.go#L68) |
@@ -29,8 +29,8 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | AutoEvery | field_declaration | Config | [93](../../magpie/internal/davsync/davsync.go#L93) |
 | Manual | const_spec |  | [97](../../magpie/internal/davsync/davsync.go#L97) |
 | AutoChoices | var_spec |  | [100](../../magpie/internal/davsync/davsync.go#L100) |
-| auto | method_declaration | Config | [103](../../magpie/internal/davsync/davsync.go#L103) |
-| Server | struct_type |  | [115](../../magpie/internal/davsync/davsync.go#L115) |
+| auto | method_declaration |  | [103](../../magpie/internal/davsync/davsync.go#L103) |
+| Server | type_spec |  | [115](../../magpie/internal/davsync/davsync.go#L115) |
 | URL | field_declaration | Server | [116](../../magpie/internal/davsync/davsync.go#L116) |
 | User | field_declaration | Server | [117](../../magpie/internal/davsync/davsync.go#L117) |
 | Password | field_declaration | Server | [118](../../magpie/internal/davsync/davsync.go#L118) |
@@ -38,21 +38,21 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | Region | field_declaration | Server | [120](../../magpie/internal/davsync/davsync.go#L120) |
 | PathStyle | field_declaration | Server | [121](../../magpie/internal/davsync/davsync.go#L121) |
 | Branch | field_declaration | Server | [122](../../magpie/internal/davsync/davsync.go#L122) |
-| where | method_declaration | Config | [125](../../magpie/internal/davsync/davsync.go#L125) |
-| config | method_declaration | Server | [129](../../magpie/internal/davsync/davsync.go#L129) |
-| Kept | method_declaration | Config | [134](../../magpie/internal/davsync/davsync.go#L134) |
-| saved | method_declaration | Config | [147](../../magpie/internal/davsync/davsync.go#L147) |
-| library | method_declaration | Config | [157](../../magpie/internal/davsync/davsync.go#L157) |
-| S3 | method_declaration | Config | [160](../../magpie/internal/davsync/davsync.go#L160) |
-| GitHub | method_declaration | Config | [165](../../magpie/internal/davsync/davsync.go#L165) |
-| Kind | method_declaration | Config | [170](../../magpie/internal/davsync/davsync.go#L170) |
-| Notice | struct_type |  | [182](../../magpie/internal/davsync/davsync.go#L182) |
+| where | method_declaration |  | [125](../../magpie/internal/davsync/davsync.go#L125) |
+| config | method_declaration |  | [129](../../magpie/internal/davsync/davsync.go#L129) |
+| Kept | method_declaration |  | [134](../../magpie/internal/davsync/davsync.go#L134) |
+| saved | method_declaration |  | [147](../../magpie/internal/davsync/davsync.go#L147) |
+| library | method_declaration |  | [157](../../magpie/internal/davsync/davsync.go#L157) |
+| S3 | method_declaration |  | [160](../../magpie/internal/davsync/davsync.go#L160) |
+| GitHub | method_declaration |  | [165](../../magpie/internal/davsync/davsync.go#L165) |
+| Kind | method_declaration |  | [170](../../magpie/internal/davsync/davsync.go#L170) |
+| Notice | type_spec |  | [182](../../magpie/internal/davsync/davsync.go#L182) |
 | At | field_declaration | Notice | [183](../../magpie/internal/davsync/davsync.go#L183) |
 | Here | field_declaration | Notice | [184](../../magpie/internal/davsync/davsync.go#L184) |
 | There | field_declaration | Notice | [185](../../magpie/internal/davsync/davsync.go#L185) |
 | Saved | field_declaration | Notice | [186](../../magpie/internal/davsync/davsync.go#L186) |
 | Restored | field_declaration | Notice | [189](../../magpie/internal/davsync/davsync.go#L189) |
-| state | struct_type |  | [194](../../magpie/internal/davsync/davsync.go#L194) |
+| state | type_spec |  | [194](../../magpie/internal/davsync/davsync.go#L194) |
 | Key | field_declaration | state | [195](../../magpie/internal/davsync/davsync.go#L195) |
 | Last | field_declaration | state | [196](../../magpie/internal/davsync/davsync.go#L196) |
 | Error | field_declaration | state | [197](../../magpie/internal/davsync/davsync.go#L197) |
@@ -65,20 +65,21 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | Undo | field_declaration | state | [208](../../magpie/internal/davsync/davsync.go#L208) |
 | File | field_declaration | state | [211](../../magpie/internal/davsync/davsync.go#L211) |
 | Blind | field_declaration | state | [214](../../magpie/internal/davsync/davsync.go#L214) |
-| blind | struct_type |  | [227](../../magpie/internal/davsync/davsync.go#L227) |
+| blind | type_spec |  | [227](../../magpie/internal/davsync/davsync.go#L227) |
 | Sum | field_declaration | blind | [228](../../magpie/internal/davsync/davsync.go#L228) |
 | Remote | field_declaration | blind | [229](../../magpie/internal/davsync/davsync.go#L229) |
 | Local | field_declaration | blind | [230](../../magpie/internal/davsync/davsync.go#L230) |
 | path | function_declaration |  | [233](../../magpie/internal/davsync/davsync.go#L233) |
 | Load | function_declaration |  | [236](../../magpie/internal/davsync/davsync.go#L236) |
+| c | var_spec | Load | [237](../../magpie/internal/davsync/davsync.go#L237) |
 | Configure | function_declaration |  | [248](../../magpie/internal/davsync/davsync.go#L248) |
 | Check | function_declaration |  | [345](../../magpie/internal/davsync/davsync.go#L345) |
-| server | method_declaration | Config | [352](../../magpie/internal/davsync/davsync.go#L352) |
+| server | method_declaration |  | [352](../../magpie/internal/davsync/davsync.go#L352) |
 | password | function_declaration |  | [370](../../magpie/internal/davsync/davsync.go#L370) |
 | SavedPassword | function_declaration |  | [384](../../magpie/internal/davsync/davsync.go#L384) |
-| sameAccount | method_declaration | Config | [395](../../magpie/internal/davsync/davsync.go#L395) |
+| sameAccount | method_declaration |  | [395](../../magpie/internal/davsync/davsync.go#L395) |
 | Off | function_declaration |  | [423](../../magpie/internal/davsync/davsync.go#L423) |
-| View | struct_type |  | [442](../../magpie/internal/davsync/davsync.go#L442) |
+| View | type_spec |  | [442](../../magpie/internal/davsync/davsync.go#L442) |
 | On | field_declaration | View | [443](../../magpie/internal/davsync/davsync.go#L443) |
 | URL | field_declaration | View | [444](../../magpie/internal/davsync/davsync.go#L444) |
 | User | field_declaration | View | [445](../../magpie/internal/davsync/davsync.go#L445) |
@@ -103,8 +104,7 @@ Source SHA-256: 68adfe42fd65fc0a962e56d96a2055f3c332d4ac3c93d5aa29c91b01e3122e00
 | Undo | field_declaration | View | [470](../../magpie/internal/davsync/davsync.go#L470) |
 | File | field_declaration | View | [473](../../magpie/internal/davsync/davsync.go#L473) |
 | SignIn | field_declaration | View | [477](../../magpie/internal/davsync/davsync.go#L477) |
-| OtherView | struct_type |  | [481](../../magpie/internal/davsync/davsync.go#L481) |
+| OtherView | type_spec |  | [481](../../magpie/internal/davsync/davsync.go#L481) |
 | Kind | field_declaration | OtherView | [482](../../magpie/internal/davsync/davsync.go#L482) |
 | URL | field_declaration | OtherView | [483](../../magpie/internal/davsync/davsync.go#L483) |
 | User | field_declaration | OtherView | [484](../../magpie/internal/davsync/davsync.go#L484) |
-| PasswordSet | field_declaration | OtherView | [485](../../magpie/internal/davsync/davsync.go#L485) |

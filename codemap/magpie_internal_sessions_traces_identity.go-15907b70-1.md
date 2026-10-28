@@ -8,32 +8,31 @@ Source SHA-256: 00579933fe8bf4ffee9afeec7e7973d27c4b9c8c3f978fcc6defc05aabf3ca1e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TraceSession | struct_type |  | [17](../../magpie/internal/sessions/traces_identity.go#L17) |
+| TraceSession | type_spec |  | [17](../../magpie/internal/sessions/traces_identity.go#L17) |
 | Agent | field_declaration | TraceSession | [17](../../magpie/internal/sessions/traces_identity.go#L17) |
-| ID | field_declaration | TraceSession | [17](../../magpie/internal/sessions/traces_identity.go#L17) |
 | TraceSessionVisible | function_declaration |  | [22](../../magpie/internal/sessions/traces_identity.go#L22) |
-| TraceSessionIndex | struct_type |  | [30](../../magpie/internal/sessions/traces_identity.go#L30) |
+| TraceSessionIndex | type_spec |  | [30](../../magpie/internal/sessions/traces_identity.go#L30) |
 | refresh | field_declaration | TraceSessionIndex | [31](../../magpie/internal/sessions/traces_identity.go#L31) |
 | snapshot | field_declaration | TraceSessionIndex | [32](../../magpie/internal/sessions/traces_identity.go#L32) |
 | headers | field_declaration | TraceSessionIndex | [33](../../magpie/internal/sessions/traces_identity.go#L33) |
-| traceIdentitySnapshot | struct_type |  | [35](../../magpie/internal/sessions/traces_identity.go#L35) |
+| traceIdentitySnapshot | type_spec |  | [35](../../magpie/internal/sessions/traces_identity.go#L35) |
 | at | field_declaration | traceIdentitySnapshot | [36](../../magpie/internal/sessions/traces_identity.go#L36) |
 | sessions | field_declaration | traceIdentitySnapshot | [37](../../magpie/internal/sessions/traces_identity.go#L37) |
-| traceHeaderCache | struct_type |  | [39](../../magpie/internal/sessions/traces_identity.go#L39) |
+| traceHeaderCache | type_spec |  | [39](../../magpie/internal/sessions/traces_identity.go#L39) |
 | size | field_declaration | traceHeaderCache | [40](../../magpie/internal/sessions/traces_identity.go#L40) |
 | mod | field_declaration | traceHeaderCache | [41](../../magpie/internal/sessions/traces_identity.go#L41) |
 | session | field_declaration | traceHeaderCache | [42](../../magpie/internal/sessions/traces_identity.go#L42) |
 | ok | field_declaration | traceHeaderCache | [43](../../magpie/internal/sessions/traces_identity.go#L43) |
 | TraceIdentityTTL | var_spec |  | [49](../../magpie/internal/sessions/traces_identity.go#L49) |
-| Visible | method_declaration | *TraceSessionIndex | [51](../../magpie/internal/sessions/traces_identity.go#L51) |
-| VisibleFresh | method_declaration | *TraceSessionIndex | [72](../../magpie/internal/sessions/traces_identity.go#L72) |
-| poll | method_declaration | *TraceSessionIndex | [82](../../magpie/internal/sessions/traces_identity.go#L82) |
-| update | method_declaration | *TraceSessionIndex | [95](../../magpie/internal/sessions/traces_identity.go#L95) |
-| SetSessionIndex | method_declaration | *TraceReader | [118](../../magpie/internal/sessions/traces_identity.go#L118) |
+| Visible | method_declaration |  | [51](../../magpie/internal/sessions/traces_identity.go#L51) |
+| VisibleFresh | method_declaration |  | [72](../../magpie/internal/sessions/traces_identity.go#L72) |
+| poll | method_declaration |  | [82](../../magpie/internal/sessions/traces_identity.go#L82) |
+| update | method_declaration |  | [95](../../magpie/internal/sessions/traces_identity.go#L95) |
+| SetSessionIndex | method_declaration |  | [118](../../magpie/internal/sessions/traces_identity.go#L118) |
 | traceSessionHeader | function_declaration |  | [120](../../magpie/internal/sessions/traces_identity.go#L120) |
-| Type | field_declaration | traceSessionHeader | [137](../../magpie/internal/sessions/traces_identity.go#L137) |
-| ID | field_declaration | traceSessionHeader | [137](../../magpie/internal/sessions/traces_identity.go#L137) |
-| Payload | field_declaration | traceSessionHeader | [138](../../magpie/internal/sessions/traces_identity.go#L138) |
-| ID | field_declaration | traceSessionHeader | [138](../../magpie/internal/sessions/traces_identity.go#L138) |
-| VisibleSessions | method_declaration | *TraceReader | [155](../../magpie/internal/sessions/traces_identity.go#L155) |
+| header | var_spec | traceSessionHeader | [136](../../magpie/internal/sessions/traces_identity.go#L136) |
+| Type | field_declaration | traceSessionHeader::header | [137](../../magpie/internal/sessions/traces_identity.go#L137) |
+| Payload | field_declaration | traceSessionHeader::header | [138](../../magpie/internal/sessions/traces_identity.go#L138) |
+| ID | field_declaration | traceSessionHeader::header::Payload | [138](../../magpie/internal/sessions/traces_identity.go#L138) |
+| VisibleSessions | method_declaration |  | [155](../../magpie/internal/sessions/traces_identity.go#L155) |
 | traceRecentFiles | function_declaration |  | [160](../../magpie/internal/sessions/traces_identity.go#L160) |

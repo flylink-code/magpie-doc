@@ -12,16 +12,20 @@ Source SHA-256: 65c8a61a328cf238b4fc671d9fa78d4c59974c6972e1d1c3b256d4e23d8a0a54
 | cursorLocalName | const_spec |  | [46](../../magpie/internal/agent/cursorlocal.go#L46) |
 | cursorLocalApp | var_spec |  | [50](../../magpie/internal/agent/cursorlocal.go#L50) |
 | cursorLocalSeen | var_spec |  | [61](../../magpie/internal/agent/cursorlocal.go#L61) |
+| app | field_declaration | cursorLocalSeen | [63](../../magpie/internal/agent/cursorlocal.go#L63) |
+| at | field_declaration | cursorLocalSeen | [64](../../magpie/internal/agent/cursorlocal.go#L64) |
 | cursorLocalRoots | function_declaration |  | [71](../../magpie/internal/agent/cursorlocal.go#L71) |
+| out | var_spec | cursorLocalRoots | [79](../../magpie/internal/agent/cursorlocal.go#L79) |
 | findCursorLocal | function_declaration |  | [95](../../magpie/internal/agent/cursorlocal.go#L95) |
 | cursorLocalAt | function_declaration |  | [120](../../magpie/internal/agent/cursorlocal.go#L120) |
 | cursorLocalAppImage | function_declaration |  | [151](../../magpie/internal/agent/cursorlocal.go#L151) |
-| cursorProduct | struct_type |  | [159](../../magpie/internal/agent/cursorlocal.go#L159) |
+| cursorProduct | type_spec |  | [159](../../magpie/internal/agent/cursorlocal.go#L159) |
 | NameShort | field_declaration | cursorProduct | [160](../../magpie/internal/agent/cursorlocal.go#L160) |
 | ApplicationName | field_declaration | cursorProduct | [161](../../magpie/internal/agent/cursorlocal.go#L161) |
-| exe | method_declaration | cursorProduct | [165](../../magpie/internal/agent/cursorlocal.go#L165) |
-| macExe | method_declaration | cursorProduct | [177](../../magpie/internal/agent/cursorlocal.go#L177) |
+| exe | method_declaration |  | [165](../../magpie/internal/agent/cursorlocal.go#L165) |
+| macExe | method_declaration |  | [177](../../magpie/internal/agent/cursorlocal.go#L177) |
 | cursorLocalProduct | function_declaration |  | [187](../../magpie/internal/agent/cursorlocal.go#L187) |
+| p | var_spec | cursorLocalProduct | [188](../../magpie/internal/agent/cursorlocal.go#L188) |
 | plistExeRe | var_spec |  | [196](../../magpie/internal/agent/cursorlocal.go#L196) |
 | plistExecutable | function_declaration |  | [200](../../magpie/internal/agent/cursorlocal.go#L200) |
 | CursorLocalLaunch | function_declaration |  | [215](../../magpie/internal/agent/cursorlocal.go#L215) |
@@ -31,6 +35,7 @@ Source SHA-256: 65c8a61a328cf238b4fc671d9fa78d4c59974c6972e1d1c3b256d4e23d8a0a54
 | cursorLocalWired | function_declaration |  | [236](../../magpie/internal/agent/cursorlocal.go#L236) |
 | cursorLocalUserEnv | var_spec |  | [241](../../magpie/internal/agent/cursorlocal.go#L241) |
 | cursorLocalOn | function_declaration |  | [245](../../magpie/internal/agent/cursorlocal.go#L245) |
+| b | var_spec | cursorLocalOn | [259](../../magpie/internal/agent/cursorlocal.go#L259) |
 | KeepCursorLocalEnv | function_declaration |  | [273](../../magpie/internal/agent/cursorlocal.go#L273) |
 | cursorLocal | function_declaration |  | [282](../../magpie/internal/agent/cursorlocal.go#L282) |
 | cursorLocalEfforts | function_declaration |  | [332](../../magpie/internal/agent/cursorlocal.go#L332) |

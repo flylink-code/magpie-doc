@@ -11,8 +11,10 @@ Source SHA-256: 0990cddd98128869bc9d5b7305ea78a4376379f45b6110ba3eb1ceefe08b6b99
 | devinAccountsDir | function_declaration |  | [35](../../magpie/internal/provider/devin_accounts.go#L35) |
 | devinCredentialsAt | function_declaration |  | [39](../../magpie/internal/provider/devin_accounts.go#L39) |
 | devinCommand | function_declaration |  | [50](../../magpie/internal/provider/devin_accounts.go#L50) |
+| env | var_spec | devinCommand | [60](../../magpie/internal/provider/devin_accounts.go#L60) |
 | devinProxy | function_declaration |  | [77](../../magpie/internal/provider/devin_accounts.go#L77) |
-| devinLogin | struct_type |  | [88](../../magpie/internal/provider/devin_accounts.go#L88) |
+| devinLogin | type_spec |  | [88](../../magpie/internal/provider/devin_accounts.go#L88) |
 | Home | field_declaration | devinLogin | [90](../../magpie/internal/provider/devin_accounts.go#L90) |
 | devinLogins | function_declaration |  | [95](../../magpie/internal/provider/devin_accounts.go#L95) |
+| out | var_spec | devinLogins | [100](../../magpie/internal/provider/devin_accounts.go#L100) |
 | newDevinHome | function_declaration |  | [114](../../magpie/internal/provider/devin_accounts.go#L114) |

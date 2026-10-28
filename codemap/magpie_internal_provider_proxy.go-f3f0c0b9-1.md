@@ -8,8 +8,8 @@ Source SHA-256: 7b1cbc27de632d981692af4095178ccb7832a910ee1d680ee0c24c283b2160d0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Via | method_declaration | Provider | [19](../../magpie/internal/provider/proxy.go#L19) |
-| ProxyChoice | method_declaration | Provider | [34](../../magpie/internal/provider/proxy.go#L34) |
+| Via | method_declaration |  | [19](../../magpie/internal/provider/proxy.go#L19) |
+| ProxyChoice | method_declaration |  | [34](../../magpie/internal/provider/proxy.go#L34) |
 | ProxyOf | function_declaration |  | [55](../../magpie/internal/provider/proxy.go#L55) |
 | ProxyOfLogin | function_declaration |  | [66](../../magpie/internal/provider/proxy.go#L66) |
 | Via | function_declaration |  | [79](../../magpie/internal/provider/proxy.go#L79) |
@@ -18,6 +18,8 @@ Source SHA-256: 7b1cbc27de632d981692af4095178ccb7832a910ee1d680ee0c24c283b2160d0
 | storedPicks | function_declaration |  | [99](../../magpie/internal/provider/proxy.go#L99) |
 | accountKey | function_declaration |  | [110](../../magpie/internal/provider/proxy.go#L110) |
 | normalAccountProxies | function_declaration |  | [114](../../magpie/internal/provider/proxy.go#L114) |
+| out | var_spec | normalAccountProxies | [115](../../magpie/internal/provider/proxy.go#L115) |
 | keyProxies | function_declaration |  | [131](../../magpie/internal/provider/proxy.go#L131) |
+| out | var_spec | keyProxies | [132](../../magpie/internal/provider/proxy.go#L132) |
 | keepSignInProxy | function_declaration |  | [148](../../magpie/internal/provider/proxy.go#L148) |
 | checkAccountProxies | function_declaration |  | [196](../../magpie/internal/provider/proxy.go#L196) |

@@ -9,6 +9,7 @@ Source SHA-256: 2b927b291c2c782bdfd28615284429e63f79f70beab386cfcdbccb4a072a66b6
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CleanOrigins | function_declaration |  | [19](../../magpie/internal/settings/origins.go#L19) |
+| out | var_spec | CleanOrigins | [20](../../magpie/internal/settings/origins.go#L20) |
 | cleanOrigin | function_declaration |  | [33](../../magpie/internal/settings/origins.go#L33) |
 | extensionIDs | var_spec |  | [68](../../magpie/internal/settings/origins.go#L68) |
 | extensionOrigin | function_declaration |  | [77](../../magpie/internal/settings/origins.go#L77) |

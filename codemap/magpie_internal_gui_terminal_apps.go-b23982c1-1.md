@@ -9,14 +9,14 @@ Source SHA-256: bd0a5d02b7b1bb3975a771fc29def050da00ef60b6ec9c0a2d8c281cd01d197d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | terminalBundleID | const_spec |  | [5](../../magpie/internal/gui/terminal_apps.go#L5) |
-| terminalApp | struct_type |  | [8](../../magpie/internal/gui/terminal_apps.go#L8) |
+| terminalApp | type_spec |  | [8](../../magpie/internal/gui/terminal_apps.go#L8) |
 | ID | field_declaration | terminalApp | [9](../../magpie/internal/gui/terminal_apps.go#L9) |
 | Name | field_declaration | terminalApp | [10](../../magpie/internal/gui/terminal_apps.go#L10) |
 | Path | field_declaration | terminalApp | [11](../../magpie/internal/gui/terminal_apps.go#L11) |
-| terminalChoice | struct_type |  | [14](../../magpie/internal/gui/terminal_apps.go#L14) |
+| terminalChoice | type_spec |  | [14](../../magpie/internal/gui/terminal_apps.go#L14) |
 | ID | field_declaration | terminalChoice | [15](../../magpie/internal/gui/terminal_apps.go#L15) |
 | Name | field_declaration | terminalChoice | [16](../../magpie/internal/gui/terminal_apps.go#L16) |
-| terminalDiscovery | struct_type |  | [19](../../magpie/internal/gui/terminal_apps.go#L19) |
+| terminalDiscovery | type_spec |  | [19](../../magpie/internal/gui/terminal_apps.go#L19) |
 | Apps | field_declaration | terminalDiscovery | [20](../../magpie/internal/gui/terminal_apps.go#L20) |
 | Default | field_declaration | terminalDiscovery | [21](../../magpie/internal/gui/terminal_apps.go#L21) |
 | terminalOpenArgs | function_declaration |  | [25](../../magpie/internal/gui/terminal_apps.go#L25) |

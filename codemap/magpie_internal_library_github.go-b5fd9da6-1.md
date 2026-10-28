@@ -12,9 +12,9 @@ Source SHA-256: 122fa07d3059ac4ab32198ac6246da3c6a365e52d3ff71d2301ead0c456ea832
 | GitHubToken | function_declaration |  | [21](../../magpie/internal/library/github.go#L21) |
 | withGitHubToken | function_declaration |  | [25](../../magpie/internal/library/github.go#L25) |
 | doGitHub | function_declaration |  | [31](../../magpie/internal/library/github.go#L31) |
-| errLimited | type_alias |  | [36](../../magpie/internal/library/github.go#L36) |
 | limitedBy | var_spec |  | [38](../../magpie/internal/library/github.go#L38) |
 | etags | var_spec |  | [42](../../magpie/internal/library/github.go#L42) |
-| etagged | struct_type |  | [47](../../magpie/internal/library/github.go#L47) |
+| m | field_declaration | etags | [44](../../magpie/internal/library/github.go#L44) |
+| etagged | type_spec |  | [47](../../magpie/internal/library/github.go#L47) |
 | etag | field_declaration | etagged | [48](../../magpie/internal/library/github.go#L48) |
 | body | field_declaration | etagged | [49](../../magpie/internal/library/github.go#L49) |

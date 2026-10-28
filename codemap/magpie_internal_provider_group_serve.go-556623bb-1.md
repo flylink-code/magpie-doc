@@ -9,11 +9,15 @@ Source SHA-256: f7c9c05fb10c6450ed5e78dcc5185f393ab05ff305678cd06b12988261782a0b
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | groupGate | var_spec |  | [25](../../magpie/internal/provider/group_serve.go#L25) |
+| gated | field_declaration | groupGate | [27](../../magpie/internal/provider/group_serve.go#L27) |
+| served | field_declaration | groupGate | [28](../../magpie/internal/provider/group_serve.go#L28) |
+| refresh | field_declaration | groupGate | [29](../../magpie/internal/provider/group_serve.go#L29) |
 | groupRefreshing | var_spec |  | [37](../../magpie/internal/provider/group_serve.go#L37) |
 | groupRefreshed | var_spec |  | [38](../../magpie/internal/provider/group_serve.go#L38) |
 | GateGroups | function_declaration |  | [45](../../magpie/internal/provider/group_serve.go#L45) |
 | ServeGroups | function_declaration |  | [54](../../magpie/internal/provider/group_serve.go#L54) |
 | holdGate | function_declaration |  | [61](../../magpie/internal/provider/group_serve.go#L61) |
+| once | var_spec | holdGate | [66](../../magpie/internal/provider/group_serve.go#L66) |
 | GroupsServed | function_declaration |  | [78](../../magpie/internal/provider/group_serve.go#L78) |
 | served | function_declaration |  | [86](../../magpie/internal/provider/group_serve.go#L86) |
 | groupsServedLocked | function_declaration |  | [103](../../magpie/internal/provider/group_serve.go#L103) |

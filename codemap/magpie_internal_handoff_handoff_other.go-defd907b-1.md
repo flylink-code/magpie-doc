@@ -8,21 +8,21 @@ Source SHA-256: 095831e09ee47f2bb7e4fb5f6741582fb981c5f28a097745438961bc7794de26
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Offer | struct_type |  | [13](../../magpie/internal/handoff/handoff_other.go#L13) |
+| Offer | type_spec |  | [13](../../magpie/internal/handoff/handoff_other.go#L13) |
 | Open | function_declaration |  | [15](../../magpie/internal/handoff/handoff_other.go#L15) |
-| Dir | method_declaration | *Offer | [17](../../magpie/internal/handoff/handoff_other.go#L17) |
-| Close | method_declaration | *Offer | [18](../../magpie/internal/handoff/handoff_other.go#L18) |
-| Withdraw | method_declaration | *Offer | [19](../../magpie/internal/handoff/handoff_other.go#L19) |
-| Accept | method_declaration | *Offer | [20](../../magpie/internal/handoff/handoff_other.go#L20) |
-| Conn | struct_type |  | [23](../../magpie/internal/handoff/handoff_other.go#L23) |
+| Dir | method_declaration |  | [17](../../magpie/internal/handoff/handoff_other.go#L17) |
+| Close | method_declaration |  | [18](../../magpie/internal/handoff/handoff_other.go#L18) |
+| Withdraw | method_declaration |  | [19](../../magpie/internal/handoff/handoff_other.go#L19) |
+| Accept | method_declaration |  | [20](../../magpie/internal/handoff/handoff_other.go#L20) |
+| Conn | type_spec |  | [23](../../magpie/internal/handoff/handoff_other.go#L23) |
 | Hello | field_declaration | Conn | [23](../../magpie/internal/handoff/handoff_other.go#L23) |
-| Give | method_declaration | *Conn | [25](../../magpie/internal/handoff/handoff_other.go#L25) |
-| AwaitAck | method_declaration | *Conn | [26](../../magpie/internal/handoff/handoff_other.go#L26) |
-| Close | method_declaration | *Conn | [27](../../magpie/internal/handoff/handoff_other.go#L27) |
-| Taken | struct_type |  | [30](../../magpie/internal/handoff/handoff_other.go#L30) |
+| Give | method_declaration |  | [25](../../magpie/internal/handoff/handoff_other.go#L25) |
+| AwaitAck | method_declaration |  | [26](../../magpie/internal/handoff/handoff_other.go#L26) |
+| Close | method_declaration |  | [27](../../magpie/internal/handoff/handoff_other.go#L27) |
+| Taken | type_spec |  | [30](../../magpie/internal/handoff/handoff_other.go#L30) |
 | Listener | field_declaration | Taken | [31](../../magpie/internal/handoff/handoff_other.go#L31) |
 | Meta | field_declaration | Taken | [32](../../magpie/internal/handoff/handoff_other.go#L32) |
 | Take | function_declaration |  | [36](../../magpie/internal/handoff/handoff_other.go#L36) |
-| Ack | method_declaration | *Taken | [38](../../magpie/internal/handoff/handoff_other.go#L38) |
-| Close | method_declaration | *Taken | [39](../../magpie/internal/handoff/handoff_other.go#L39) |
+| Ack | method_declaration |  | [38](../../magpie/internal/handoff/handoff_other.go#L38) |
+| Close | method_declaration |  | [39](../../magpie/internal/handoff/handoff_other.go#L39) |
 | alive | function_declaration |  | [41](../../magpie/internal/handoff/handoff_other.go#L41) |

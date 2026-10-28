@@ -16,11 +16,14 @@ Source SHA-256: 5391634aafe9a96e6ecb84e44d13e0a1214e73175100e832e41ceead278cd8fb
 | carriesToItself | function_declaration |  | [82](../../magpie/internal/netproxy/bridge.go#L82) |
 | bridgeConn | function_declaration |  | [97](../../magpie/internal/netproxy/bridge.go#L97) |
 | closeWrite | function_declaration |  | [145](../../magpie/internal/netproxy/bridge.go#L145) |
-| CloseWrite | method_spec | closeWrite | [146](../../magpie/internal/netproxy/bridge.go#L146) |
 | refuse | function_declaration |  | [153](../../magpie/internal/netproxy/bridge.go#L153) |
 | DialSOCKS | function_declaration |  | [162](../../magpie/internal/netproxy/bridge.go#L162) |
 | socksReplies | var_spec |  | [193](../../magpie/internal/netproxy/bridge.go#L193) |
 | socksHandshake | function_declaration |  | [204](../../magpie/internal/netproxy/bridge.go#L204) |
+| b | var_spec | socksHandshake | [212](../../magpie/internal/netproxy/bridge.go#L212) |
+| h | var_spec | socksHandshake | [261](../../magpie/internal/netproxy/bridge.go#L261) |
+| skip | var_spec | socksHandshake | [271](../../magpie/internal/netproxy/bridge.go#L271) |
+| n | var_spec | socksHandshake | [278](../../magpie/internal/netproxy/bridge.go#L278) |
 | ForBun | function_declaration |  | [292](../../magpie/internal/netproxy/bridge.go#L292) |
 | EnvForBun | function_declaration |  | [308](../../magpie/internal/netproxy/bridge.go#L308) |
 | EnvForBunWith | function_declaration |  | [333](../../magpie/internal/netproxy/bridge.go#L333) |

@@ -8,7 +8,7 @@ Source SHA-256: 7ae3cef28e38bc22ed009d1f66894bb792fbd929715ea564e489a8c709e7e6b8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zedCreds | struct_type |  | [17](../../magpie/internal/provider/zed.go#L17) |
+| zedCreds | type_spec |  | [17](../../magpie/internal/provider/zed.go#L17) |
 | UserID | field_declaration | zedCreds | [18](../../magpie/internal/provider/zed.go#L18) |
 | Access | field_declaration | zedCreds | [19](../../magpie/internal/provider/zed.go#L19) |
 | SystemID | field_declaration | zedCreds | [20](../../magpie/internal/provider/zed.go#L20) |
@@ -18,6 +18,8 @@ Source SHA-256: 7ae3cef28e38bc22ed009d1f66894bb792fbd929715ea564e489a8c709e7e6b8
 | Plan | field_declaration | zedCreds | [24](../../magpie/internal/provider/zed.go#L24) |
 | Models | field_declaration | zedCreds | [25](../../magpie/internal/provider/zed.go#L25) |
 | zedSaved | function_declaration |  | [28](../../magpie/internal/provider/zed.go#L28) |
-| zedLogin | struct_type |  | [36](../../magpie/internal/provider/zed.go#L36) |
+| c | var_spec | zedSaved | [29](../../magpie/internal/provider/zed.go#L29) |
+| zedLogin | type_spec |  | [36](../../magpie/internal/provider/zed.go#L36) |
 | creds | field_declaration | zedLogin | [38](../../magpie/internal/provider/zed.go#L38) |
 | zedLogins | function_declaration |  | [43](../../magpie/internal/provider/zed.go#L43) |
+| out | var_spec | zedLogins | [44](../../magpie/internal/provider/zed.go#L44) |

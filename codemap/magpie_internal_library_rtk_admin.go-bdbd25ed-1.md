@@ -15,3 +15,5 @@ Source SHA-256: 45cd488fad3472efcf4753b177aa5437a016cce2e49c4841fed6a2edd02803dc
 | runPlain | var_spec |  | [38](../../magpie/internal/library/rtk_admin.go#L38) |
 | rtkAdminFolder | function_declaration |  | [43](../../magpie/internal/library/rtk_admin.go#L43) |
 | runRTKInstaller | function_declaration |  | [60](../../magpie/internal/library/rtk_admin.go#L60) |
+| ie | var_spec | runRTKInstaller | [64](../../magpie/internal/library/rtk_admin.go#L64) |
+| ee | var_spec | runRTKInstaller | [73](../../magpie/internal/library/rtk_admin.go#L73) |

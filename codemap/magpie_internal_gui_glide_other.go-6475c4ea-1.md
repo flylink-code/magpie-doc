@@ -11,5 +11,5 @@ Source SHA-256: d936d0eb317aaea6b7b0226ae28b2c34e52db15b638837e0abc1fd7b69138a4b
 | dockPolicy | function_declaration |  | [8](../../magpie/internal/gui/glide_other.go#L8) |
 | setDock | function_declaration |  | [9](../../magpie/internal/gui/glide_other.go#L9) |
 | dockOnFullscreen | function_declaration |  | [10](../../magpie/internal/gui/glide_other.go#L10) |
-| glidePanel | method_declaration | *host | [14](../../magpie/internal/gui/glide_other.go#L14) |
-| TintPanel | method_declaration | *host | [30](../../magpie/internal/gui/glide_other.go#L30) |
+| glidePanel | method_declaration |  | [14](../../magpie/internal/gui/glide_other.go#L14) |
+| TintPanel | method_declaration |  | [30](../../magpie/internal/gui/glide_other.go#L30) |

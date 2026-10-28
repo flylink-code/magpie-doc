@@ -9,7 +9,12 @@ Source SHA-256: b22a9e3c81fc23e535c833e51eb846a2b9f2c5fabd2ce64a05590fa4db6e43bb
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | decodeCache | function_declaration |  | [23](../../magpie/internal/sessions/cache_decode.go#L23) |
+| keys | var_spec | decodeCache | [33](../../magpie/internal/sessions/cache_decode.go#L33) |
+| bad | var_spec | decodeCache | [40](../../magpie/internal/sessions/cache_decode.go#L40) |
+| next | var_spec | decodeCache | [53](../../magpie/internal/sessions/cache_decode.go#L53) |
+| wg | var_spec | decodeCache | [54](../../magpie/internal/sessions/cache_decode.go#L54) |
 | encodeCache | function_declaration |  | [83](../../magpie/internal/sessions/cache_decode.go#L83) |
+| b | var_spec | encodeCache | [84](../../magpie/internal/sessions/cache_decode.go#L84) |
 | Version | field_declaration | encodeCache | [95](../../magpie/internal/sessions/cache_decode.go#L95) |
 | Zone | field_declaration | encodeCache | [96](../../magpie/internal/sessions/cache_decode.go#L96) |
-| share | method_declaration | *state | [135](../../magpie/internal/sessions/cache_decode.go#L135) |
+| share | method_declaration |  | [135](../../magpie/internal/sessions/cache_decode.go#L135) |

@@ -9,17 +9,22 @@ Source SHA-256: 55f90765e122575c73b07a24074e56a0033de57da2af8a12918eeb96053393da
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | named | type_spec |  | [21](../../magpie/internal/sessions/named.go#L21) |
-| entry | struct_type |  | [23](../../magpie/internal/sessions/named.go#L23) |
+| entry | type_spec |  | [23](../../magpie/internal/sessions/named.go#L23) |
 | name | field_declaration | entry | [24](../../magpie/internal/sessions/named.go#L24) |
 | v | field_declaration | entry | [25](../../magpie/internal/sessions/named.go#L25) |
-| find | method_declaration | named[V] | [28](../../magpie/internal/sessions/named.go#L28) |
-| get | method_declaration | named[V] | [33](../../magpie/internal/sessions/named.go#L33) |
-| of | method_declaration | named[V] | [42](../../magpie/internal/sessions/named.go#L42) |
-| at | method_declaration | *named[V] | [49](../../magpie/internal/sessions/named.go#L49) |
-| del | method_declaration | *named[V] | [59](../../magpie/internal/sessions/named.go#L59) |
-| all | method_declaration | named[V] | [69](../../magpie/internal/sessions/named.go#L69) |
-| MarshalJSON | method_declaration | named[V] | [80](../../magpie/internal/sessions/named.go#L80) |
+| find | method_declaration |  | [28](../../magpie/internal/sessions/named.go#L28) |
+| get | method_declaration |  | [33](../../magpie/internal/sessions/named.go#L33) |
+| zero | var_spec | get | [37](../../magpie/internal/sessions/named.go#L37) |
+| of | method_declaration |  | [42](../../magpie/internal/sessions/named.go#L42) |
+| at | method_declaration |  | [49](../../magpie/internal/sessions/named.go#L49) |
+| del | method_declaration |  | [59](../../magpie/internal/sessions/named.go#L59) |
+| all | method_declaration |  | [69](../../magpie/internal/sessions/named.go#L69) |
+| MarshalJSON | method_declaration |  | [80](../../magpie/internal/sessions/named.go#L80) |
+| b | var_spec | MarshalJSON | [84](../../magpie/internal/sessions/named.go#L84) |
 | errNotObject | var_spec |  | [106](../../magpie/internal/sessions/named.go#L106) |
-| UnmarshalJSON | method_declaration | *named[V] | [111](../../magpie/internal/sessions/named.go#L111) |
+| UnmarshalJSON | method_declaration |  | [111](../../magpie/internal/sessions/named.go#L111) |
+| err | var_spec | UnmarshalJSON | [126](../../magpie/internal/sessions/named.go#L126) |
+| val | var_spec | UnmarshalJSON | [128](../../magpie/internal/sessions/named.go#L128) |
 | quick | function_declaration |  | [147](../../magpie/internal/sessions/named.go#L147) |
+| at | var_spec | quick | [159](../../magpie/internal/sessions/named.go#L159) |
 | integer | function_declaration |  | [188](../../magpie/internal/sessions/named.go#L188) |

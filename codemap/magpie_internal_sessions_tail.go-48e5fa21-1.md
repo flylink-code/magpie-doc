@@ -8,7 +8,7 @@ Source SHA-256: adb128c4269b8baddcc49f9493a47ee7c89657289f094b35f8aa519248f80207
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tail | struct_type |  | [16](../../magpie/internal/sessions/tail.go#L16) |
+| tail | type_spec |  | [16](../../magpie/internal/sessions/tail.go#L16) |
 | Off | field_declaration | tail | [17](../../magpie/internal/sessions/tail.go#L17) |
 | Skip | field_declaration | tail | [18](../../magpie/internal/sessions/tail.go#L18) |
 | Size | field_declaration | tail | [19](../../magpie/internal/sessions/tail.go#L19) |
@@ -16,5 +16,5 @@ Source SHA-256: adb128c4269b8baddcc49f9493a47ee7c89657289f094b35f8aa519248f80207
 | HeadSize | field_declaration | tail | [21](../../magpie/internal/sessions/tail.go#L21) |
 | Hash | field_declaration | tail | [22](../../magpie/internal/sessions/tail.go#L22) |
 | markTail | function_declaration |  | [27](../../magpie/internal/sessions/tail.go#L27) |
-| holds | method_declaration | *tail | [41](../../magpie/internal/sessions/tail.go#L41) |
-| dropUse | method_declaration | *state | [55](../../magpie/internal/sessions/tail.go#L55) |
+| holds | method_declaration |  | [41](../../magpie/internal/sessions/tail.go#L41) |
+| dropUse | method_declaration |  | [55](../../magpie/internal/sessions/tail.go#L55) |

@@ -8,7 +8,7 @@ Source SHA-256: 71afb6f33b61ca48584fd716d5a00c3c0fcb6a0063129495f34e09831d8f49f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Seat | struct_type |  | [21](../../magpie/internal/routes/routes.go#L21) |
+| Seat | type_spec |  | [21](../../magpie/internal/routes/routes.go#L21) |
 | Key | field_declaration | Seat | [24](../../magpie/internal/routes/routes.go#L24) |
 | Account | field_declaration | Seat | [26](../../magpie/internal/routes/routes.go#L26) |
 | Known | field_declaration | Seat | [28](../../magpie/internal/routes/routes.go#L28) |
@@ -22,15 +22,16 @@ Source SHA-256: 71afb6f33b61ca48584fd716d5a00c3c0fcb6a0063129495f34e09831d8f49f1
 | Free | field_declaration | Seat | [48](../../magpie/internal/routes/routes.go#L48) |
 | Credits | field_declaration | Seat | [52](../../magpie/internal/routes/routes.go#L52) |
 | TTFT | field_declaration | Seat | [58](../../magpie/internal/routes/routes.go#L58) |
-| TPS | field_declaration | Seat | [58](../../magpie/internal/routes/routes.go#L58) |
-| Strategy | struct_type |  | [62](../../magpie/internal/routes/routes.go#L62) |
+| Strategy | type_spec |  | [62](../../magpie/internal/routes/routes.go#L62) |
 | Order | field_declaration | Strategy | [67](../../magpie/internal/routes/routes.go#L67) |
 | Exact | field_declaration | Strategy | [71](../../magpie/internal/routes/routes.go#L71) |
 | ByUse | field_declaration | Strategy | [73](../../magpie/internal/routes/routes.go#L73) |
 | ByFree | field_declaration | Strategy | [77](../../magpie/internal/routes/routes.go#L77) |
 | BySpeed | field_declaration | Strategy | [80](../../magpie/internal/routes/routes.go#L80) |
 | reg | var_spec |  | [83](../../magpie/internal/routes/routes.go#L83) |
+| m | field_declaration | reg | [85](../../magpie/internal/routes/routes.go#L85) |
 | Register | function_declaration |  | [90](../../magpie/internal/routes/routes.go#L90) |
+| once | var_spec | Register | [95](../../magpie/internal/routes/routes.go#L95) |
 | Find | function_declaration |  | [107](../../magpie/internal/routes/routes.go#L107) |
 | Served | function_declaration |  | [121](../../magpie/internal/routes/routes.go#L121) |
 | Apply | function_declaration |  | [130](../../magpie/internal/routes/routes.go#L130) |

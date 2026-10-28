@@ -12,7 +12,8 @@ Source SHA-256: 7e50eebbb3963054f39de095b33ea6c481ab90064ac550cead1815b870820a25
 | lanWait | const_spec |  | [30](../../magpie/internal/netproxy/lan.go#L30) |
 | lanKeep | const_spec |  | [33](../../magpie/internal/netproxy/lan.go#L33) |
 | lanCache | var_spec |  | [35](../../magpie/internal/netproxy/lan.go#L35) |
-| lanSeen | struct_type |  | [40](../../magpie/internal/netproxy/lan.go#L40) |
+| m | field_declaration | lanCache | [37](../../magpie/internal/netproxy/lan.go#L37) |
+| lanSeen | type_spec |  | [40](../../magpie/internal/netproxy/lan.go#L40) |
 | lan | field_declaration | lanSeen | [41](../../magpie/internal/netproxy/lan.go#L41) |
 | at | field_declaration | lanSeen | [42](../../magpie/internal/netproxy/lan.go#L42) |
 | onLAN | function_declaration |  | [49](../../magpie/internal/netproxy/lan.go#L49) |

@@ -10,7 +10,7 @@ Source SHA-256: 235d2932e2f9b01cfa7113351a339ca7d331d19fd4e9e775ac6c71bc857b299b
 | --- | --- | --- | ---: |
 | serverReviewBeta | const_spec |  | [42](../../magpie/internal/gateway/automode.go#L42) |
 | isServerReviewBeta | function_declaration |  | [44](../../magpie/internal/gateway/automode.go#L44) |
-| serverReview | method_declaration | *Server | [56](../../magpie/internal/gateway/automode.go#L56) |
+| serverReview | method_declaration |  | [56](../../magpie/internal/gateway/automode.go#L56) |
 | AutoModeReviewed | function_declaration |  | [80](../../magpie/internal/gateway/automode.go#L80) |
 | AutoModeReviewable | function_declaration |  | [98](../../magpie/internal/gateway/automode.go#L98) |
 | classifierRoom | const_spec |  | [115](../../magpie/internal/gateway/automode.go#L115) |

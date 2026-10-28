@@ -11,4 +11,5 @@ Source SHA-256: e62468474a7545d9e842dffeb76b59d99ec4cb6dc9a341aa09c306b3fea7ab4b
 | searchUsage | const_spec |  | [16](../../magpie/internal/cli/search_cli.go#L16) |
 | searchCmd | function_declaration |  | [52](../../magpie/internal/cli/search_cli.go#L52) |
 | quotaLine | function_declaration |  | [171](../../magpie/internal/cli/search_cli.go#L171) |
+| line | var_spec | quotaLine | [172](../../magpie/internal/cli/search_cli.go#L172) |
 | thousands | function_declaration |  | [199](../../magpie/internal/cli/search_cli.go#L199) |

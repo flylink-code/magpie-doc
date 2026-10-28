@@ -9,25 +9,25 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie/internal/agent/route.go](../../magpie/internal/agent/route.go) | 22 | [1](magpie_internal_agent_route.go-4e68d33d-1.md) |
-| [magpie/internal/agent/running_darwin.go](../../magpie/internal/agent/running_darwin.go) | 1 | [1](magpie_internal_agent_running_darwin.go-9924d7c0-1.md) |
-| [magpie/internal/agent/running_other.go](../../magpie/internal/agent/running_other.go) | 1 | [1](magpie_internal_agent_running_other.go-c56b1079-1.md) |
-| [magpie/internal/agent/scope_gone.go](../../magpie/internal/agent/scope_gone.go) | 19 | [1](magpie_internal_agent_scope_gone.go-700c027b-1.md) |
-| [magpie/internal/agent/snow.go](../../magpie/internal/agent/snow.go) | 17 | [1](magpie_internal_agent_snow.go-15bbaaf6-1.md) |
+| [magpie/internal/agent/route.go](../../magpie/internal/agent/route.go) | 26 | [1](magpie_internal_agent_route.go-4e68d33d-1.md) |
+| [magpie/internal/agent/running_darwin.go](../../magpie/internal/agent/running_darwin.go) | 2 | [1](magpie_internal_agent_running_darwin.go-9924d7c0-1.md) |
+| [magpie/internal/agent/running_other.go](../../magpie/internal/agent/running_other.go) | 2 | [1](magpie_internal_agent_running_other.go-c56b1079-1.md) |
+| [magpie/internal/agent/scope_gone.go](../../magpie/internal/agent/scope_gone.go) | 27 | [1](magpie_internal_agent_scope_gone.go-700c027b-1.md) |
+| [magpie/internal/agent/snow.go](../../magpie/internal/agent/snow.go) | 21 | [1](magpie_internal_agent_snow.go-15bbaaf6-1.md) |
 | [magpie/internal/agent/stash.go](../../magpie/internal/agent/stash.go) | 7 | [1](magpie_internal_agent_stash.go-d4eb4e74-1.md) |
-| [magpie/internal/agent/stepcode.go](../../magpie/internal/agent/stepcode.go) | 32 | [1](magpie_internal_agent_stepcode.go-0d5e27d9-1.md) |
-| [magpie/internal/agent/sync.go](../../magpie/internal/agent/sync.go) | 15 | [1](magpie_internal_agent_sync.go-82391838-1.md) |
-| [magpie/internal/agent/t3code.go](../../magpie/internal/agent/t3code.go) | 9 | [1](magpie_internal_agent_t3code.go-6b1577e5-1.md) |
-| [magpie/internal/agent/tune.go](../../magpie/internal/agent/tune.go) | 28 | [1](magpie_internal_agent_tune.go-e2186cf0-1.md) |
-| [magpie/internal/agent/vscode.go](../../magpie/internal/agent/vscode.go) | 51 | [1](magpie_internal_agent_vscode.go-c376e522-1.md) |
-| [magpie/internal/agent/workbuddy.go](../../magpie/internal/agent/workbuddy.go) | 28 | [1](magpie_internal_agent_workbuddy.go-df94b485-1.md) |
+| [magpie/internal/agent/stepcode.go](../../magpie/internal/agent/stepcode.go) | 37 | [1](magpie_internal_agent_stepcode.go-0d5e27d9-1.md) |
+| [magpie/internal/agent/sync.go](../../magpie/internal/agent/sync.go) | 25 | [1](magpie_internal_agent_sync.go-82391838-1.md) |
+| [magpie/internal/agent/t3code.go](../../magpie/internal/agent/t3code.go) | 17 | [1](magpie_internal_agent_t3code.go-6b1577e5-1.md) |
+| [magpie/internal/agent/tune.go](../../magpie/internal/agent/tune.go) | 32 | [1](magpie_internal_agent_tune.go-e2186cf0-1.md) |
+| [magpie/internal/agent/vscode.go](../../magpie/internal/agent/vscode.go) | 50 | [1](magpie_internal_agent_vscode.go-c376e522-1.md) |
+| [magpie/internal/agent/workbuddy.go](../../magpie/internal/agent/workbuddy.go) | 40 | [1](magpie_internal_agent_workbuddy.go-df94b485-1.md) |
 | [magpie/internal/agent/writable_other.go](../../magpie/internal/agent/writable_other.go) | 1 | [1](magpie_internal_agent_writable_other.go-ad0dd4eb-1.md) |
 | [magpie/internal/agent/writable_windows.go](../../magpie/internal/agent/writable_windows.go) | 1 | [1](magpie_internal_agent_writable_windows.go-4dcaf9c3-1.md) |
-| [magpie/internal/agent/wsl.go](../../magpie/internal/agent/wsl.go) | 116 | [1](magpie_internal_agent_wsl.go-408ebd0c-1.md) [2](magpie_internal_agent_wsl.go-408ebd0c-2.md) |
-| [magpie/internal/agent/wsl_fake.go](../../magpie/internal/agent/wsl_fake.go) | 3 | [1](magpie_internal_agent_wsl_fake.go-af219f28-1.md) |
-| [magpie/internal/agent/zcode.go](../../magpie/internal/agent/zcode.go) | 48 | [1](magpie_internal_agent_zcode.go-92ed26d4-1.md) |
-| [magpie/internal/agent/zed.go](../../magpie/internal/agent/zed.go) | 15 | [1](magpie_internal_agent_zed.go-5f8f0d77-1.md) |
-| [magpie/internal/agent/zed_credential_other.go](../../magpie/internal/agent/zed_credential_other.go) | 11 | [1](magpie_internal_agent_zed_credential_other.go-7894588f-1.md) |
+| [magpie/internal/agent/wsl.go](../../magpie/internal/agent/wsl.go) | 133 | [1](magpie_internal_agent_wsl.go-408ebd0c-1.md) [2](magpie_internal_agent_wsl.go-408ebd0c-2.md) |
+| [magpie/internal/agent/wsl_fake.go](../../magpie/internal/agent/wsl_fake.go) | 5 | [1](magpie_internal_agent_wsl_fake.go-af219f28-1.md) |
+| [magpie/internal/agent/zcode.go](../../magpie/internal/agent/zcode.go) | 59 | [1](magpie_internal_agent_zcode.go-92ed26d4-1.md) |
+| [magpie/internal/agent/zed.go](../../magpie/internal/agent/zed.go) | 17 | [1](magpie_internal_agent_zed.go-5f8f0d77-1.md) |
+| [magpie/internal/agent/zed_credential_other.go](../../magpie/internal/agent/zed_credential_other.go) | 21 | [1](magpie_internal_agent_zed_credential_other.go-7894588f-1.md) |
 | [magpie/internal/agent/zed_credential_windows.go](../../magpie/internal/agent/zed_credential_windows.go) | 14 | [1](magpie_internal_agent_zed_credential_windows.go-6fe0b85f-1.md) |
 | [magpie/internal/agent/zoocode.go](../../magpie/internal/agent/zoocode.go) | 9 | [1](magpie_internal_agent_zoocode.go-99296e7f-1.md) |
 | [magpie/internal/agentenv/agentenv.go](../../magpie/internal/agentenv/agentenv.go) | 3 | [1](magpie_internal_agentenv_agentenv.go-d1ccf79d-1.md) |

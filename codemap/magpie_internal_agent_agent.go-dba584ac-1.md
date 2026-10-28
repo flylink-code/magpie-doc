@@ -8,7 +8,7 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Option | struct_type |  | [25](../../magpie/internal/agent/agent.go#L25) |
+| Option | type_spec |  | [25](../../magpie/internal/agent/agent.go#L25) |
 | Value | field_declaration | Option | [26](../../magpie/internal/agent/agent.go#L26) |
 | Label | field_declaration | Option | [27](../../magpie/internal/agent/agent.go#L27) |
 | Note | field_declaration | Option | [28](../../magpie/internal/agent/agent.go#L28) |
@@ -33,7 +33,7 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | Ultra | field_declaration | Option | [79](../../magpie/internal/agent/agent.go#L79) |
 | own | field_declaration | Option | [82](../../magpie/internal/agent/agent.go#L82) |
 | sub | field_declaration | Option | [85](../../magpie/internal/agent/agent.go#L85) |
-| Field | struct_type |  | [91](../../magpie/internal/agent/agent.go#L91) |
+| Field | type_spec |  | [91](../../magpie/internal/agent/agent.go#L91) |
 | Key | field_declaration | Field | [92](../../magpie/internal/agent/agent.go#L92) |
 | Label | field_declaration | Field | [93](../../magpie/internal/agent/agent.go#L93) |
 | Get | field_declaration | Field | [94](../../magpie/internal/agent/agent.go#L94) |
@@ -42,7 +42,7 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | Quiet | field_declaration | Field | [99](../../magpie/internal/agent/agent.go#L99) |
 | Live | field_declaration | Field | [104](../../magpie/internal/agent/agent.go#L104) |
 | Follows | field_declaration | Field | [108](../../magpie/internal/agent/agent.go#L108) |
-| Agent | struct_type |  | [112](../../magpie/internal/agent/agent.go#L112) |
+| Agent | type_spec |  | [112](../../magpie/internal/agent/agent.go#L112) |
 | ID | field_declaration | Agent | [113](../../magpie/internal/agent/agent.go#L113) |
 | Name | field_declaration | Agent | [114](../../magpie/internal/agent/agent.go#L114) |
 | Icon | field_declaration | Agent | [115](../../magpie/internal/agent/agent.go#L115) |
@@ -94,9 +94,9 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | pathOwn | field_declaration | Agent | [312](../../magpie/internal/agent/agent.go#L312) |
 | sign | field_declaration | Agent | [316](../../magpie/internal/agent/agent.go#L316) |
 | Running | var_spec |  | [329](../../magpie/internal/agent/agent.go#L329) |
-| SharedName | method_declaration | *Agent | [345](../../magpie/internal/agent/agent.go#L345) |
-| SharedHere | method_declaration | *Agent | [357](../../magpie/internal/agent/agent.go#L357) |
-| Detected | method_declaration | *Agent | [362](../../magpie/internal/agent/agent.go#L362) |
+| SharedName | method_declaration |  | [345](../../magpie/internal/agent/agent.go#L345) |
+| SharedHere | method_declaration |  | [357](../../magpie/internal/agent/agent.go#L357) |
+| Detected | method_declaration |  | [362](../../magpie/internal/agent/agent.go#L362) |
 | binAt | function_declaration |  | [401](../../magpie/internal/agent/agent.go#L401) |
 | agentDir | function_declaration |  | [414](../../magpie/internal/agent/agent.go#L414) |
 | leftover | var_spec |  | [435](../../magpie/internal/agent/agent.go#L435) |
@@ -104,7 +104,7 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | goProgram | function_declaration |  | [457](../../magpie/internal/agent/agent.go#L457) |
 | goBuildInfoMagic | var_spec |  | [482](../../magpie/internal/agent/agent.go#L482) |
 | hasGoMagic | function_declaration |  | [490](../../magpie/internal/agent/agent.go#L490) |
-| goProgramKey | struct_type |  | [512](../../magpie/internal/agent/agent.go#L512) |
+| goProgramKey | type_spec |  | [512](../../magpie/internal/agent/agent.go#L512) |
 | path | field_declaration | goProgramKey | [513](../../magpie/internal/agent/agent.go#L513) |
 | size | field_declaration | goProgramKey | [514](../../magpie/internal/agent/agent.go#L514) |
 | mod | field_declaration | goProgramKey | [515](../../magpie/internal/agent/agent.go#L515) |

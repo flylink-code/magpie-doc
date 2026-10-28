@@ -8,35 +8,35 @@ Source SHA-256: f52fc28e2d6cdf63a9e33493dcc78cc7d4b3edb3fdefb431ea1d832e65df4e4e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SpecChange | struct_type |  | [29](../../magpie/internal/provider/modelspec.go#L29) |
+| SpecChange | type_spec |  | [29](../../magpie/internal/provider/modelspec.go#L29) |
 | Context | field_declaration | SpecChange | [31](../../magpie/internal/provider/modelspec.go#L31) |
-| Output | field_declaration | SpecChange | [31](../../magpie/internal/provider/modelspec.go#L31) |
 | Vision | field_declaration | SpecChange | [33](../../magpie/internal/provider/modelspec.go#L33) |
 | Reasoning | field_declaration | SpecChange | [37](../../magpie/internal/provider/modelspec.go#L37) |
-| Empty | method_declaration | SpecChange | [41](../../magpie/internal/provider/modelspec.go#L41) |
+| Empty | method_declaration |  | [41](../../magpie/internal/provider/modelspec.go#L41) |
 | Auto | const_spec |  | [47](../../magpie/internal/provider/modelspec.go#L47) |
 | ParseVision | function_declaration |  | [50](../../magpie/internal/provider/modelspec.go#L50) |
-| ParseLevels | method_declaration | Provider | [67](../../magpie/internal/provider/modelspec.go#L67) |
+| ParseLevels | method_declaration |  | [67](../../magpie/internal/provider/modelspec.go#L67) |
 | SetModelSpec | function_declaration |  | [119](../../magpie/internal/provider/modelspec.go#L119) |
+| images | var_spec | SetModelSpec | [154](../../magpie/internal/provider/modelspec.go#L154) |
+| levels | var_spec | SetModelSpec | [160](../../magpie/internal/provider/modelspec.go#L160) |
+| off | var_spec | SetModelSpec | [161](../../magpie/internal/provider/modelspec.go#L161) |
+| ch | var_spec | SetModelSpec | [188](../../magpie/internal/provider/modelspec.go#L188) |
 | isAuto | function_declaration |  | [216](../../magpie/internal/provider/modelspec.go#L216) |
 | setOutput | function_declaration |  | [226](../../magpie/internal/provider/modelspec.go#L226) |
 | ResetModelSpec | function_declaration |  | [253](../../magpie/internal/provider/modelspec.go#L253) |
-| SpecPart | struct_type |  | [304](../../magpie/internal/provider/modelspec.go#L304) |
+| p | var_spec | ResetModelSpec | [262](../../magpie/internal/provider/modelspec.go#L262) |
+| gone | var_spec | ResetModelSpec | [268](../../magpie/internal/provider/modelspec.go#L268) |
+| SpecPart | type_spec |  | [304](../../magpie/internal/provider/modelspec.go#L304) |
 | Value | field_declaration | SpecPart | [305](../../magpie/internal/provider/modelspec.go#L305) |
 | From | field_declaration | SpecPart | [306](../../magpie/internal/provider/modelspec.go#L306) |
-| Spec | struct_type |  | [311](../../magpie/internal/provider/modelspec.go#L311) |
+| Spec | type_spec |  | [311](../../magpie/internal/provider/modelspec.go#L311) |
 | Context | field_declaration | Spec | [312](../../magpie/internal/provider/modelspec.go#L312) |
-| Output | field_declaration | Spec | [312](../../magpie/internal/provider/modelspec.go#L312) |
-| Vision | field_declaration | Spec | [312](../../magpie/internal/provider/modelspec.go#L312) |
-| Reasoning | field_declaration | Spec | [312](../../magpie/internal/provider/modelspec.go#L312) |
 | Entry | field_declaration | Spec | [313](../../magpie/internal/provider/modelspec.go#L313) |
 | SpecOf | function_declaration |  | [317](../../magpie/internal/provider/modelspec.go#L317) |
-| SpecRow | struct_type |  | [372](../../magpie/internal/provider/modelspec.go#L372) |
+| SpecRow | type_spec |  | [372](../../magpie/internal/provider/modelspec.go#L372) |
 | Key | field_declaration | SpecRow | [373](../../magpie/internal/provider/modelspec.go#L373) |
 | Context | field_declaration | SpecRow | [374](../../magpie/internal/provider/modelspec.go#L374) |
-| Output | field_declaration | SpecRow | [374](../../magpie/internal/provider/modelspec.go#L374) |
-| Vision | field_declaration | SpecRow | [374](../../magpie/internal/provider/modelspec.go#L374) |
-| Reasoning | field_declaration | SpecRow | [374](../../magpie/internal/provider/modelspec.go#L374) |
 | Gone | field_declaration | SpecRow | [376](../../magpie/internal/provider/modelspec.go#L376) |
 | ModelSpecs | function_declaration |  | [380](../../magpie/internal/provider/modelspec.go#L380) |
+| out | var_spec | ModelSpecs | [414](../../magpie/internal/provider/modelspec.go#L414) |
 | tokenWord | function_declaration |  | [427](../../magpie/internal/provider/modelspec.go#L427) |

@@ -9,23 +9,25 @@ Source SHA-256: d03a488be6516adf4d47f4ec955bce6e7dde73a8a6db7888f355fcf36b00728c
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | synced | function_declaration |  | [30](../../magpie/internal/agent/keptaway.go#L30) |
-| kept | struct_type |  | [36](../../magpie/internal/agent/keptaway.go#L36) |
+| kept | type_spec |  | [36](../../magpie/internal/agent/keptaway.go#L36) |
 | gateway | field_declaration | kept | [36](../../magpie/internal/agent/keptaway.go#L36) |
-| lan | field_declaration | kept | [36](../../magpie/internal/agent/keptaway.go#L36) |
 | keeping | function_declaration |  | [38](../../magpie/internal/agent/keptaway.go#L38) |
-| ours | method_declaration | kept | [43](../../magpie/internal/agent/keptaway.go#L43) |
+| ours | method_declaration |  | [43](../../magpie/internal/agent/keptaway.go#L43) |
 | magpieFile | function_declaration |  | [53](../../magpie/internal/agent/keptaway.go#L53) |
 | originRE | var_spec |  | [75](../../magpie/internal/agent/keptaway.go#L75) |
 | keyLineRE | var_spec |  | [81](../../magpie/internal/agent/keptaway.go#L81) |
 | keyName | function_declaration |  | [86](../../magpie/internal/agent/keptaway.go#L86) |
-| keyValue | struct_type |  | [91](../../magpie/internal/agent/keptaway.go#L91) |
+| keyValue | type_spec |  | [91](../../magpie/internal/agent/keptaway.go#L91) |
 | start | field_declaration | keyValue | [92](../../magpie/internal/agent/keptaway.go#L92) |
-| end | field_declaration | keyValue | [92](../../magpie/internal/agent/keptaway.go#L92) |
 | value | field_declaration | keyValue | [93](../../magpie/internal/agent/keptaway.go#L93) |
 | keyValues | function_declaration |  | [97](../../magpie/internal/agent/keptaway.go#L97) |
-| away | method_declaration | kept | [129](../../magpie/internal/agent/keptaway.go#L129) |
+| out | var_spec | keyValues | [98](../../magpie/internal/agent/keptaway.go#L98) |
+| away | method_declaration |  | [129](../../magpie/internal/agent/keptaway.go#L129) |
 | urlRE | var_spec |  | [211](../../magpie/internal/agent/keptaway.go#L211) |
 | awayPath | function_declaration |  | [218](../../magpie/internal/agent/keptaway.go#L218) |
+| tails | var_spec | awayPath | [219](../../magpie/internal/agent/keptaway.go#L219) |
+| ws | var_spec | awayPath | [225](../../magpie/internal/agent/keptaway.go#L225) |
 | keyCounts | function_declaration |  | [252](../../magpie/internal/agent/keptaway.go#L252) |
 | replaceOrigin | function_declaration |  | [262](../../magpie/internal/agent/keptaway.go#L262) |
+| out | var_spec | replaceOrigin | [263](../../magpie/internal/agent/keptaway.go#L263) |
 | wslHost | function_declaration |  | [282](../../magpie/internal/agent/keptaway.go#L282) |

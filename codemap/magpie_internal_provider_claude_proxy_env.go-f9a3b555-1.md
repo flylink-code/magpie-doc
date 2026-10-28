@@ -19,4 +19,6 @@ Source SHA-256: 9eac3c6e07b3af7c7116ed9332b270658f1648017b5824b9a77ba48eceeeb05f
 | claudeAccountProxy | function_declaration |  | [96](../../magpie/internal/provider/claude_proxy_env.go#L96) |
 | SyncClaudeProxyEnv | function_declaration |  | [120](../../magpie/internal/provider/claude_proxy_env.go#L120) |
 | setClaudeProxyEnv | function_declaration |  | [124](../../magpie/internal/provider/claude_proxy_env.go#L124) |
+| del | var_spec | setClaudeProxyEnv | [164](../../magpie/internal/provider/claude_proxy_env.go#L164) |
+| kvs | var_spec | setClaudeProxyEnv | [202](../../magpie/internal/provider/claude_proxy_env.go#L202) |
 | syncClaudeProxyEnvNow | function_declaration |  | [230](../../magpie/internal/provider/claude_proxy_env.go#L230) |

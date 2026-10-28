@@ -16,7 +16,7 @@ Source SHA-256: 44e59a1e98854ad0dd29f78b3df47b2ff55070251371e647bd35a7fc32b5c9eb
 | pending | var_spec |  | [73](../../magpie/internal/gui/handover.go#L73) |
 | handedOver | var_spec |  | [77](../../magpie/internal/gui/handover.go#L77) |
 | onHandedOver | var_spec |  | [81](../../magpie/internal/gui/handover.go#L81) |
-| handover | struct_type |  | [84](../../magpie/internal/gui/handover.go#L84) |
+| handover | type_spec |  | [84](../../magpie/internal/gui/handover.go#L84) |
 | offer | field_declaration | handover | [85](../../magpie/internal/gui/handover.go#L85) |
 | gw | field_declaration | handover | [86](../../magpie/internal/gui/handover.go#L86) |
 | fallback | field_declaration | handover | [87](../../magpie/internal/gui/handover.go#L87) |
@@ -26,11 +26,12 @@ Source SHA-256: 44e59a1e98854ad0dd29f78b3df47b2ff55070251371e647bd35a7fc32b5c9eb
 | openBeside | var_spec |  | [101](../../magpie/internal/gui/handover.go#L101) |
 | startBeside | var_spec |  | [102](../../magpie/internal/gui/handover.go#L102) |
 | beginHandover | function_declaration |  | [108](../../magpie/internal/gui/handover.go#L108) |
-| failed | method_declaration | *handover | [142](../../magpie/internal/gui/handover.go#L142) |
+| failed | method_declaration |  | [142](../../magpie/internal/gui/handover.go#L142) |
 | leave | function_declaration |  | [148](../../magpie/internal/gui/handover.go#L148) |
-| run | method_declaration | *handover | [160](../../magpie/internal/gui/handover.go#L160) |
+| run | method_declaration |  | [160](../../magpie/internal/gui/handover.go#L160) |
 | fallbackWait | var_spec |  | [221](../../magpie/internal/gui/handover.go#L221) |
-| fail | method_declaration | *handover | [226](../../magpie/internal/gui/handover.go#L226) |
+| fail | method_declaration |  | [226](../../magpie/internal/gui/handover.go#L226) |
 | takeOver | function_declaration |  | [243](../../magpie/internal/gui/handover.go#L243) |
+| once | var_spec | takeOver | [252](../../magpie/internal/gui/handover.go#L252) |
 | handedOffWait | var_spec |  | [268](../../magpie/internal/gui/handover.go#L268) |
 | awaitExit | function_declaration |  | [271](../../magpie/internal/gui/handover.go#L271) |

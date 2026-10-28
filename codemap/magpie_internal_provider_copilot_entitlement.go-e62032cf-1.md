@@ -8,8 +8,8 @@ Source SHA-256: c9364a9d60038a1832153052a6cc9e9d0b45fe701eec610a79259235a3075e9f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| copilotEntitlement | struct_type |  | [7](../../magpie/internal/provider/copilot_entitlement.go#L7) |
+| copilotEntitlement | type_spec |  | [7](../../magpie/internal/provider/copilot_entitlement.go#L7) |
 | Plan | field_declaration | copilotEntitlement | [8](../../magpie/internal/provider/copilot_entitlement.go#L8) |
 | AccessSKU | field_declaration | copilotEntitlement | [9](../../magpie/internal/provider/copilot_entitlement.go#L9) |
-| label | method_declaration | copilotEntitlement | [12](../../magpie/internal/provider/copilot_entitlement.go#L12) |
+| label | method_declaration |  | [12](../../magpie/internal/provider/copilot_entitlement.go#L12) |
 | refreshCopilotEntitlement | function_declaration |  | [30](../../magpie/internal/provider/copilot_entitlement.go#L30) |

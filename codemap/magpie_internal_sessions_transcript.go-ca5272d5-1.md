@@ -8,7 +8,7 @@ Source SHA-256: 8e2c0781093175352c5739f65951e77734493a7acb2a87715051d3b853b3cd6f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Transcript | struct_type |  | [15](../../magpie/internal/sessions/transcript.go#L15) |
+| Transcript | type_spec |  | [15](../../magpie/internal/sessions/transcript.go#L15) |
 | Parts | field_declaration | Transcript | [16](../../magpie/internal/sessions/transcript.go#L16) |
 | Cut | field_declaration | Transcript | [17](../../magpie/internal/sessions/transcript.go#L17) |
 | Source | field_declaration | Transcript | [18](../../magpie/internal/sessions/transcript.go#L18) |
@@ -17,25 +17,31 @@ Source SHA-256: 8e2c0781093175352c5739f65951e77734493a7acb2a87715051d3b853b3cd6f
 | ErrNoTranscript | var_spec |  | [27](../../magpie/internal/sessions/transcript.go#L27) |
 | HasTranscript | function_declaration |  | [31](../../magpie/internal/sessions/transcript.go#L31) |
 | readable | function_declaration |  | [42](../../magpie/internal/sessions/transcript.go#L42) |
-| add | method_declaration | *Transcript | [46](../../magpie/internal/sessions/transcript.go#L46) |
+| add | method_declaration |  | [46](../../magpie/internal/sessions/transcript.go#L46) |
 | TranscriptOf | function_declaration |  | [62](../../magpie/internal/sessions/transcript.go#L62) |
 | readTranscript | function_declaration |  | [72](../../magpie/internal/sessions/transcript.go#L72) |
 | readTranscriptOf | function_declaration |  | [79](../../magpie/internal/sessions/transcript.go#L79) |
-| piEntry | struct_type |  | [100](../../magpie/internal/sessions/transcript.go#L100) |
+| piEntry | type_spec |  | [100](../../magpie/internal/sessions/transcript.go#L100) |
 | Type | field_declaration | piEntry | [101](../../magpie/internal/sessions/transcript.go#L101) |
 | ID | field_declaration | piEntry | [102](../../magpie/internal/sessions/transcript.go#L102) |
 | ParentID | field_declaration | piEntry | [103](../../magpie/internal/sessions/transcript.go#L103) |
 | Summary | field_declaration | piEntry | [104](../../magpie/internal/sessions/transcript.go#L104) |
 | Message | field_declaration | piEntry | [105](../../magpie/internal/sessions/transcript.go#L105) |
-| Role | field_declaration | piEntry | [106](../../magpie/internal/sessions/transcript.go#L106) |
-| ToolName | field_declaration | piEntry | [107](../../magpie/internal/sessions/transcript.go#L107) |
-| Model | field_declaration | piEntry | [108](../../magpie/internal/sessions/transcript.go#L108) |
-| Content | field_declaration | piEntry | [109](../../magpie/internal/sessions/transcript.go#L109) |
+| Role | field_declaration | piEntry::Message | [106](../../magpie/internal/sessions/transcript.go#L106) |
+| ToolName | field_declaration | piEntry::Message | [107](../../magpie/internal/sessions/transcript.go#L107) |
+| Model | field_declaration | piEntry::Message | [108](../../magpie/internal/sessions/transcript.go#L108) |
+| Content | field_declaration | piEntry::Message | [109](../../magpie/internal/sessions/transcript.go#L109) |
 | piMessage | var_spec |  | [113](../../magpie/internal/sessions/transcript.go#L113) |
 | piTranscript | function_declaration |  | [118](../../magpie/internal/sessions/transcript.go#L118) |
+| e | var_spec | piTranscript | [122](../../magpie/internal/sessions/transcript.go#L122) |
+| branch | var_spec | piTranscript | [136](../../magpie/internal/sessions/transcript.go#L136) |
 | piParts | function_declaration |  | [159](../../magpie/internal/sessions/transcript.go#L159) |
-| Type | field_declaration | piParts | [187](../../magpie/internal/sessions/transcript.go#L187) |
-| Text | field_declaration | piParts | [188](../../magpie/internal/sessions/transcript.go#L188) |
-| Thinking | field_declaration | piParts | [189](../../magpie/internal/sessions/transcript.go#L189) |
-| Name | field_declaration | piParts | [190](../../magpie/internal/sessions/transcript.go#L190) |
-| Arguments | field_declaration | piParts | [191](../../magpie/internal/sessions/transcript.go#L191) |
+| role | var_spec | piParts | [171](../../magpie/internal/sessions/transcript.go#L171) |
+| s | var_spec | piParts | [182](../../magpie/internal/sessions/transcript.go#L182) |
+| blocks | var_spec | piParts | [186](../../magpie/internal/sessions/transcript.go#L186) |
+| Type | field_declaration | piParts::blocks | [187](../../magpie/internal/sessions/transcript.go#L187) |
+| Text | field_declaration | piParts::blocks | [188](../../magpie/internal/sessions/transcript.go#L188) |
+| Thinking | field_declaration | piParts::blocks | [189](../../magpie/internal/sessions/transcript.go#L189) |
+| Name | field_declaration | piParts::blocks | [190](../../magpie/internal/sessions/transcript.go#L190) |
+| Arguments | field_declaration | piParts::blocks | [191](../../magpie/internal/sessions/transcript.go#L191) |
+| parts | var_spec | piParts | [196](../../magpie/internal/sessions/transcript.go#L196) |

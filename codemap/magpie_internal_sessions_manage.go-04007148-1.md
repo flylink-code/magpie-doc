@@ -8,14 +8,14 @@ Source SHA-256: 9cbb49f4c821d9da89e891b416bf379e2fe3403591e50f886c370b6226e80e5e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Managed | struct_type |  | [46](../../magpie/internal/sessions/manage.go#L46) |
+| Managed | type_spec |  | [46](../../magpie/internal/sessions/manage.go#L46) |
 | Size | field_declaration | Managed | [48](../../magpie/internal/sessions/manage.go#L48) |
 | Messages | field_declaration | Managed | [49](../../magpie/internal/sessions/manage.go#L49) |
 | Files | field_declaration | Managed | [50](../../magpie/internal/sessions/manage.go#L50) |
 | Deletable | field_declaration | Managed | [51](../../magpie/internal/sessions/manage.go#L51) |
 | Provider | field_declaration | Managed | [54](../../magpie/internal/sessions/manage.go#L54) |
 | UsesProvider | field_declaration | Managed | [55](../../magpie/internal/sessions/manage.go#L55) |
-| AgentCount | struct_type |  | [59](../../magpie/internal/sessions/manage.go#L59) |
+| AgentCount | type_spec |  | [59](../../magpie/internal/sessions/manage.go#L59) |
 | Agent | field_declaration | AgentCount | [60](../../magpie/internal/sessions/manage.go#L60) |
 | Count | field_declaration | AgentCount | [61](../../magpie/internal/sessions/manage.go#L61) |
 | Deletable | field_declaration | AgentCount | [62](../../magpie/internal/sessions/manage.go#L62) |
@@ -26,7 +26,7 @@ Source SHA-256: 9cbb49f4c821d9da89e891b416bf379e2fe3403591e50f886c370b6226e80e5e
 | agentCounts | function_declaration |  | [92](../../magpie/internal/sessions/manage.go#L92) |
 | ListAgent | function_declaration |  | [115](../../magpie/internal/sessions/manage.go#L115) |
 | NativeIDs | function_declaration |  | [130](../../magpie/internal/sessions/manage.go#L130) |
-| ManageView | struct_type |  | [144](../../magpie/internal/sessions/manage.go#L144) |
+| ManageView | type_spec |  | [144](../../magpie/internal/sessions/manage.go#L144) |
 | Agents | field_declaration | ManageView | [145](../../magpie/internal/sessions/manage.go#L145) |
 | Native | field_declaration | ManageView | [146](../../magpie/internal/sessions/manage.go#L146) |
 | Agent | field_declaration | ManageView | [147](../../magpie/internal/sessions/manage.go#L147) |
@@ -34,10 +34,12 @@ Source SHA-256: 9cbb49f4c821d9da89e891b416bf379e2fe3403591e50f886c370b6226e80e5e
 | Manage | function_declaration |  | [156](../../magpie/internal/sessions/manage.go#L156) |
 | idInFile | function_declaration |  | [174](../../magpie/internal/sessions/manage.go#L174) |
 | nativeIDs | function_declaration |  | [182](../../magpie/internal/sessions/manage.go#L182) |
+| want | var_spec | nativeIDs | [184](../../magpie/internal/sessions/manage.go#L184) |
 | listAgent | function_declaration |  | [204](../../magpie/internal/sessions/manage.go#L204) |
+| mine | var_spec | listAgent | [206](../../magpie/internal/sessions/manage.go#L206) |
 | listed | function_declaration |  | [253](../../magpie/internal/sessions/manage.go#L253) |
 | TrashDir | function_declaration |  | [264](../../magpie/internal/sessions/manage.go#L264) |
-| Trashed | struct_type |  | [267](../../magpie/internal/sessions/manage.go#L267) |
+| Trashed | type_spec |  | [267](../../magpie/internal/sessions/manage.go#L267) |
 | Key | field_declaration | Trashed | [268](../../magpie/internal/sessions/manage.go#L268) |
 | Agent | field_declaration | Trashed | [269](../../magpie/internal/sessions/manage.go#L269) |
 | ID | field_declaration | Trashed | [270](../../magpie/internal/sessions/manage.go#L270) |
@@ -48,19 +50,26 @@ Source SHA-256: 9cbb49f4c821d9da89e891b416bf379e2fe3403591e50f886c370b6226e80e5e
 | Size | field_declaration | Trashed | [275](../../magpie/internal/sessions/manage.go#L275) |
 | Items | field_declaration | Trashed | [276](../../magpie/internal/sessions/manage.go#L276) |
 | Gateway | field_declaration | Trashed | [279](../../magpie/internal/sessions/manage.go#L279) |
-| moved | struct_type |  | [284](../../magpie/internal/sessions/manage.go#L284) |
+| moved | type_spec |  | [284](../../magpie/internal/sessions/manage.go#L284) |
 | From | field_declaration | moved | [285](../../magpie/internal/sessions/manage.go#L285) |
 | Name | field_declaration | moved | [286](../../magpie/internal/sessions/manage.go#L286) |
 | manifest | const_spec |  | [290](../../magpie/internal/sessions/manage.go#L290) |
 | Delete | function_declaration |  | [300](../../magpie/internal/sessions/manage.go#L300) |
+| mine | var_spec | Delete | [315](../../magpie/internal/sessions/manage.go#L315) |
+| fs | var_spec | Delete | [323](../../magpie/internal/sessions/manage.go#L323) |
+| s | var_spec | Delete | [324](../../magpie/internal/sessions/manage.go#L324) |
 | sessionPaths | function_declaration |  | [386](../../magpie/internal/sessions/manage.go#L386) |
+| out | var_spec | sessionPaths | [387](../../magpie/internal/sessions/manage.go#L387) |
 | inside | function_declaration |  | [473](../../magpie/internal/sessions/manage.go#L473) |
 | recent | function_declaration |  | [483](../../magpie/internal/sessions/manage.go#L483) |
 | sizeOf | function_declaration |  | [498](../../magpie/internal/sessions/manage.go#L498) |
+| n | var_spec | sizeOf | [499](../../magpie/internal/sessions/manage.go#L499) |
 | writeManifest | function_declaration |  | [511](../../magpie/internal/sessions/manage.go#L511) |
 | move | function_declaration |  | [525](../../magpie/internal/sessions/manage.go#L525) |
 | copyAll | function_declaration |  | [544](../../magpie/internal/sessions/manage.go#L544) |
 | Trash | function_declaration |  | [589](../../magpie/internal/sessions/manage.go#L589) |
+| t | var_spec | Trash | [593](../../magpie/internal/sessions/manage.go#L593) |
 | trashFolder | function_declaration |  | [611](../../magpie/internal/sessions/manage.go#L611) |
 | Purge | function_declaration |  | [623](../../magpie/internal/sessions/manage.go#L623) |
 | Restore | function_declaration |  | [643](../../magpie/internal/sessions/manage.go#L643) |
+| t | var_spec | Restore | [648](../../magpie/internal/sessions/manage.go#L648) |

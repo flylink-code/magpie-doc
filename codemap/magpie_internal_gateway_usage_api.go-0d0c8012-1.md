@@ -12,5 +12,5 @@ Source SHA-256: 4927b640d6a48b8882f2b7a8fcd7f8ed07822751c65964b0d49d54a424cf4fee
 | heldKey | function_declaration |  | [29](../../magpie/internal/gateway/usage_api.go#L29) |
 | heldRefused | const_spec |  | [38](../../magpie/internal/gateway/usage_api.go#L38) |
 | refuseHeld | function_declaration |  | [43](../../magpie/internal/gateway/usage_api.go#L43) |
-| usageSummary | method_declaration | *Server | [51](../../magpie/internal/gateway/usage_api.go#L51) |
-| usageRequests | method_declaration | *Server | [66](../../magpie/internal/gateway/usage_api.go#L66) |
+| usageSummary | method_declaration |  | [51](../../magpie/internal/gateway/usage_api.go#L51) |
+| usageRequests | method_declaration |  | [66](../../magpie/internal/gateway/usage_api.go#L66) |

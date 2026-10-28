@@ -10,9 +10,15 @@ Source SHA-256: 3dcde0531157e9c7b7aeed3948302a5dc940b50e8b9294071d80dc15205bbab7
 | --- | --- | --- | ---: |
 | retiredFor | const_spec |  | [29](../../magpie/internal/provider/retired.go#L29) |
 | retired | var_spec |  | [31](../../magpie/internal/provider/retired.go#L31) |
+| at | field_declaration | retired | [33](../../magpie/internal/provider/retired.go#L33) |
+| from | field_declaration | retired | [34](../../magpie/internal/provider/retired.go#L34) |
+| mod | field_declaration | retired | [35](../../magpie/internal/provider/retired.go#L35) |
+| checked | field_declaration | retired | [41](../../magpie/internal/provider/retired.go#L41) |
+| looks | field_declaration | retired | [42](../../magpie/internal/provider/retired.go#L42) |
 | retiredLook | var_spec |  | [45](../../magpie/internal/provider/retired.go#L45) |
 | retiredPath | function_declaration |  | [47](../../magpie/internal/provider/retired.go#L47) |
 | readRetired | function_declaration |  | [52](../../magpie/internal/provider/retired.go#L52) |
+| saved | var_spec | readRetired | [74](../../magpie/internal/provider/retired.go#L74) |
 | writeRetired | function_declaration |  | [82](../../magpie/internal/provider/retired.go#L82) |
 | Retire | function_declaration |  | [104](../../magpie/internal/provider/retired.go#L104) |
 | Unretire | function_declaration |  | [127](../../magpie/internal/provider/retired.go#L127) |

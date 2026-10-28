@@ -8,11 +8,11 @@ Source SHA-256: 53a287b3cadbdde35ccb560dfafcfebbd079077cdb926a9be041c2f065fb4aea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Schema | struct_type |  | [30](../../magpie/internal/pluginrt/schema.go#L30) |
+| Schema | type_spec |  | [30](../../magpie/internal/pluginrt/schema.go#L30) |
 | Type | field_declaration | Schema | [31](../../magpie/internal/pluginrt/schema.go#L31) |
 | Properties | field_declaration | Schema | [32](../../magpie/internal/pluginrt/schema.go#L32) |
 | Order | field_declaration | Schema | [33](../../magpie/internal/pluginrt/schema.go#L33) |
-| Property | struct_type |  | [37](../../magpie/internal/pluginrt/schema.go#L37) |
+| Property | type_spec |  | [37](../../magpie/internal/pluginrt/schema.go#L37) |
 | Type | field_declaration | Property | [38](../../magpie/internal/pluginrt/schema.go#L38) |
 | Title | field_declaration | Property | [39](../../magpie/internal/pluginrt/schema.go#L39) |
 | Description | field_declaration | Property | [40](../../magpie/internal/pluginrt/schema.go#L40) |
@@ -21,7 +21,9 @@ Source SHA-256: 53a287b3cadbdde35ccb560dfafcfebbd079077cdb926a9be041c2f065fb4aea
 | Maximum | field_declaration | Property | [43](../../magpie/internal/pluginrt/schema.go#L43) |
 | Default | field_declaration | Property | [44](../../magpie/internal/pluginrt/schema.go#L44) |
 | SchemaOf | function_declaration |  | [50](../../magpie/internal/pluginrt/schema.go#L50) |
-| parse | method_declaration | *Property | [108](../../magpie/internal/pluginrt/schema.go#L108) |
-| check | method_declaration | *Property | [123](../../magpie/internal/pluginrt/schema.go#L123) |
-| value | method_declaration | *Property | [128](../../magpie/internal/pluginrt/schema.go#L128) |
-| Validate | method_declaration | *Schema | [178](../../magpie/internal/pluginrt/schema.go#L178) |
+| parse | method_declaration |  | [108](../../magpie/internal/pluginrt/schema.go#L108) |
+| check | method_declaration |  | [123](../../magpie/internal/pluginrt/schema.go#L123) |
+| value | method_declaration |  | [128](../../magpie/internal/pluginrt/schema.go#L128) |
+| out | var_spec | value | [129](../../magpie/internal/pluginrt/schema.go#L129) |
+| f | var_spec | value | [144](../../magpie/internal/pluginrt/schema.go#L144) |
+| Validate | method_declaration |  | [178](../../magpie/internal/pluginrt/schema.go#L178) |

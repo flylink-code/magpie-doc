@@ -14,7 +14,7 @@ Source SHA-256: 6b4ce8647fd293b09af6aff3a41563923bfb045759f4c36352993c478ace8360
 | Anthropic | const_spec |  | [41](../../magpie/internal/provider/provider.go#L41) |
 | Gemini | const_spec |  | [42](../../magpie/internal/provider/provider.go#L42) |
 | Protocols | var_spec |  | [46](../../magpie/internal/provider/provider.go#L46) |
-| Provider | struct_type |  | [49](../../magpie/internal/provider/provider.go#L49) |
+| Provider | type_spec |  | [49](../../magpie/internal/provider/provider.go#L49) |
 | ID | field_declaration | Provider | [50](../../magpie/internal/provider/provider.go#L50) |
 | Name | field_declaration | Provider | [51](../../magpie/internal/provider/provider.go#L51) |
 | Was | field_declaration | Provider | [54](../../magpie/internal/provider/provider.go#L54) |
@@ -97,7 +97,7 @@ Source SHA-256: 6b4ce8647fd293b09af6aff3a41563923bfb045759f4c36352993c478ace8360
 | Tucked | field_declaration | Provider | [458](../../magpie/internal/provider/provider.go#L458) |
 | Account | field_declaration | Provider | [462](../../magpie/internal/provider/provider.go#L462) |
 | keyView | field_declaration | Provider | [466](../../magpie/internal/provider/provider.go#L466) |
-| file | struct_type |  | [469](../../magpie/internal/provider/provider.go#L469) |
+| file | type_spec |  | [469](../../magpie/internal/provider/provider.go#L469) |
 | Providers | field_declaration | file | [470](../../magpie/internal/provider/provider.go#L470) |
 | Groups | field_declaration | file | [471](../../magpie/internal/provider/provider.go#L471) |
 | Searches | field_declaration | file | [474](../../magpie/internal/provider/provider.go#L474) |

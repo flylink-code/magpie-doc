@@ -8,12 +8,13 @@ Source SHA-256: 671a342ee9bc37627c68c44620405b8bc4423c0ab069df45aa8d677cca410e65
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| signer | struct_type |  | [18](../../magpie/internal/davsync/sigv4.go#L18) |
+| signer | type_spec |  | [18](../../magpie/internal/davsync/sigv4.go#L18) |
 | id | field_declaration | signer | [19](../../magpie/internal/davsync/sigv4.go#L19) |
-| secret | field_declaration | signer | [19](../../magpie/internal/davsync/sigv4.go#L19) |
-| region | field_declaration | signer | [19](../../magpie/internal/davsync/sigv4.go#L19) |
-| service | field_declaration | signer | [19](../../magpie/internal/davsync/sigv4.go#L19) |
-| sign | method_declaration | signer | [25](../../magpie/internal/davsync/sigv4.go#L25) |
+| sign | method_declaration |  | [25](../../magpie/internal/davsync/sigv4.go#L25) |
+| canon | var_spec | sign | [47](../../magpie/internal/davsync/sigv4.go#L47) |
 | canonicalQuery | function_declaration |  | [71](../../magpie/internal/davsync/sigv4.go#L71) |
+| out | var_spec | canonicalQuery | [73](../../magpie/internal/davsync/sigv4.go#L73) |
 | awsEscape | function_declaration |  | [85](../../magpie/internal/davsync/sigv4.go#L85) |
+| hexDigits | const_spec | awsEscape | [86](../../magpie/internal/davsync/sigv4.go#L86) |
+| b | var_spec | awsEscape | [87](../../magpie/internal/davsync/sigv4.go#L87) |
 | mac | function_declaration |  | [102](../../magpie/internal/davsync/sigv4.go#L102) |

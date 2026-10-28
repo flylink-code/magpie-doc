@@ -9,8 +9,9 @@ Source SHA-256: b196956d04a07fd1f62babfa22ecae5e854e982083c1525c841055293f24ad16
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Agent | function_declaration |  | [14](../../magpie/internal/plugin/agent.go#L14) |
-| Main | field_declaration | Agent | [31](../../magpie/internal/plugin/agent.go#L31) |
-| Exports | field_declaration | Agent | [32](../../magpie/internal/plugin/agent.go#L32) |
-| Magpie | field_declaration | Agent | [33](../../magpie/internal/plugin/agent.go#L33) |
-| Agent | field_declaration | Agent | [34](../../magpie/internal/plugin/agent.go#L34) |
+| pkg | var_spec | Agent | [30](../../magpie/internal/plugin/agent.go#L30) |
+| Main | field_declaration | Agent::pkg | [31](../../magpie/internal/plugin/agent.go#L31) |
+| Exports | field_declaration | Agent::pkg | [32](../../magpie/internal/plugin/agent.go#L32) |
+| Magpie | field_declaration | Agent::pkg | [33](../../magpie/internal/plugin/agent.go#L33) |
+| Agent | field_declaration | Agent::pkg::Magpie | [34](../../magpie/internal/plugin/agent.go#L34) |
 | InMagpieOnly | function_declaration |  | [47](../../magpie/internal/plugin/agent.go#L47) |

@@ -8,5 +8,5 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [doc/codemap.mjs](../../doc/codemap.mjs) | 151 | [1](doc_codemap.mjs-a579ce42-1.md) [2](doc_codemap.mjs-a579ce42-2.md) |
-| [doc/codemap.test.mjs](../../doc/codemap.test.mjs) | 13 | [1](doc_codemap.test.mjs-12e1ce3c-1.md) |
+| [doc/codemap.mjs](../../doc/codemap.mjs) | 319 | [1](doc_codemap.mjs-a579ce42-1.md) [2](doc_codemap.mjs-a579ce42-2.md) [3](doc_codemap.mjs-a579ce42-3.md) [4](doc_codemap.mjs-a579ce42-4.md) |
+| [doc/codemap.test.mjs](../../doc/codemap.test.mjs) | 16 | [1](doc_codemap.test.mjs-12e1ce3c-1.md) |

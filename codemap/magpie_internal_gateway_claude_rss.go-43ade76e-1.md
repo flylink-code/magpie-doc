@@ -12,7 +12,9 @@ Source SHA-256: 92969f4282a45361441e914d8bbe4d0691c3cd18460a74544ebab23deb581271
 | claudeRunUnknown | const_spec |  | [29](../../magpie/internal/gateway/claude_rss.go#L29) |
 | claudeRunRSS | var_spec |  | [33](../../magpie/internal/gateway/claude_rss.go#L33) |
 | runBudget | var_spec |  | [35](../../magpie/internal/gateway/claude_rss.go#L35) |
+| n | field_declaration | runBudget | [37](../../magpie/internal/gateway/claude_rss.go#L37) |
+| why | field_declaration | runBudget | [38](../../magpie/internal/gateway/claude_rss.go#L38) |
 | claudeRunBudget | function_declaration |  | [43](../../magpie/internal/gateway/claude_rss.go#L43) |
-| oversized | method_declaration | *subscriptionRun | [66](../../magpie/internal/gateway/claude_rss.go#L66) |
-| pid | method_declaration | *subscriptionRun | [87](../../magpie/internal/gateway/claude_rss.go#L87) |
-| letGoOversized | method_declaration | *subscriptionBridge | [97](../../magpie/internal/gateway/claude_rss.go#L97) |
+| oversized | method_declaration |  | [66](../../magpie/internal/gateway/claude_rss.go#L66) |
+| pid | method_declaration |  | [87](../../magpie/internal/gateway/claude_rss.go#L87) |
+| letGoOversized | method_declaration |  | [97](../../magpie/internal/gateway/claude_rss.go#L97) |

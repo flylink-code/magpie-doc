@@ -8,37 +8,39 @@ Source SHA-256: 7392169294f5aaf4463d3832e6405dfeb9bf9c0c8cc9558935e5974b464e7305
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Format | struct_type |  | [19](../../magpie/internal/gateway/format.go#L19) |
+| Format | type_spec |  | [19](../../magpie/internal/gateway/format.go#L19) |
 | Type | field_declaration | Format | [22](../../magpie/internal/gateway/format.go#L22) |
 | Name | field_declaration | Format | [25](../../magpie/internal/gateway/format.go#L25) |
-| Description | field_declaration | Format | [25](../../magpie/internal/gateway/format.go#L25) |
 | Schema | field_declaration | Format | [26](../../magpie/internal/gateway/format.go#L26) |
 | Strict | field_declaration | Format | [28](../../magpie/internal/gateway/format.go#L28) |
 | told | field_declaration | Format | [31](../../magpie/internal/gateway/format.go#L31) |
 | formatName | const_spec |  | [36](../../magpie/internal/gateway/format.go#L36) |
 | openAIFormat | function_declaration |  | [43](../../magpie/internal/gateway/format.go#L43) |
-| Type | field_declaration | openAIFormat | [45](../../magpie/internal/gateway/format.go#L45) |
-| Name | field_declaration | openAIFormat | [46](../../magpie/internal/gateway/format.go#L46) |
-| Description | field_declaration | openAIFormat | [47](../../magpie/internal/gateway/format.go#L47) |
-| Schema | field_declaration | openAIFormat | [48](../../magpie/internal/gateway/format.go#L48) |
-| Strict | field_declaration | openAIFormat | [49](../../magpie/internal/gateway/format.go#L49) |
-| JSONSchema | field_declaration | openAIFormat | [50](../../magpie/internal/gateway/format.go#L50) |
-| Name | field_declaration | openAIFormat | [51](../../magpie/internal/gateway/format.go#L51) |
-| Description | field_declaration | openAIFormat | [52](../../magpie/internal/gateway/format.go#L52) |
-| Schema | field_declaration | openAIFormat | [53](../../magpie/internal/gateway/format.go#L53) |
-| Strict | field_declaration | openAIFormat | [54](../../magpie/internal/gateway/format.go#L54) |
-| schema | method_declaration | *Format | [81](../../magpie/internal/gateway/format.go#L81) |
-| responses | method_declaration | *Format | [89](../../magpie/internal/gateway/format.go#L89) |
-| chat | method_declaration | *Format | [104](../../magpie/internal/gateway/format.go#L104) |
-| instruction | method_declaration | *Format | [122](../../magpie/internal/gateway/format.go#L122) |
-| inSystem | method_declaration | *Request | [131](../../magpie/internal/gateway/format.go#L131) |
+| f | var_spec | openAIFormat | [44](../../magpie/internal/gateway/format.go#L44) |
+| Type | field_declaration | openAIFormat::f | [45](../../magpie/internal/gateway/format.go#L45) |
+| Name | field_declaration | openAIFormat::f | [46](../../magpie/internal/gateway/format.go#L46) |
+| Description | field_declaration | openAIFormat::f | [47](../../magpie/internal/gateway/format.go#L47) |
+| Schema | field_declaration | openAIFormat::f | [48](../../magpie/internal/gateway/format.go#L48) |
+| Strict | field_declaration | openAIFormat::f | [49](../../magpie/internal/gateway/format.go#L49) |
+| JSONSchema | field_declaration | openAIFormat::f | [50](../../magpie/internal/gateway/format.go#L50) |
+| Name | field_declaration | openAIFormat::f::JSONSchema | [51](../../magpie/internal/gateway/format.go#L51) |
+| Description | field_declaration | openAIFormat::f::JSONSchema | [52](../../magpie/internal/gateway/format.go#L52) |
+| Schema | field_declaration | openAIFormat::f::JSONSchema | [53](../../magpie/internal/gateway/format.go#L53) |
+| Strict | field_declaration | openAIFormat::f::JSONSchema | [54](../../magpie/internal/gateway/format.go#L54) |
+| schema | method_declaration |  | [81](../../magpie/internal/gateway/format.go#L81) |
+| responses | method_declaration |  | [89](../../magpie/internal/gateway/format.go#L89) |
+| chat | method_declaration |  | [104](../../magpie/internal/gateway/format.go#L104) |
+| instruction | method_declaration |  | [122](../../magpie/internal/gateway/format.go#L122) |
+| inSystem | method_declaration |  | [131](../../magpie/internal/gateway/format.go#L131) |
 | formatRefused | function_declaration |  | [147](../../magpie/internal/gateway/format.go#L147) |
 | formatRefusal | var_spec |  | [151](../../magpie/internal/gateway/format.go#L151) |
 | refusesFormat | function_declaration |  | [155](../../magpie/internal/gateway/format.go#L155) |
 | schemaRefused | function_declaration |  | [164](../../magpie/internal/gateway/format.go#L164) |
-| asObject | method_declaration | *Request | [168](../../magpie/internal/gateway/format.go#L168) |
+| asObject | method_declaration |  | [168](../../magpie/internal/gateway/format.go#L168) |
 | withLine | function_declaration |  | [179](../../magpie/internal/gateway/format.go#L179) |
 | bodyFormat | function_declaration |  | [189](../../magpie/internal/gateway/format.go#L189) |
 | formatInBody | function_declaration |  | [208](../../magpie/internal/gateway/format.go#L208) |
+| m | var_spec | formatInBody | [215](../../magpie/internal/gateway/format.go#L215) |
+| out | var_spec | formatInBody | [254](../../magpie/internal/gateway/format.go#L254) |
 | withSystemLine | function_declaration |  | [266](../../magpie/internal/gateway/format.go#L266) |
-| wantsJSON | method_declaration | *Request | [287](../../magpie/internal/gateway/format.go#L287) |
+| wantsJSON | method_declaration |  | [287](../../magpie/internal/gateway/format.go#L287) |

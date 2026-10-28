@@ -10,7 +10,9 @@ Source SHA-256: 935b1418dbc4d5e2d687b4694a088a1625df1059c72a1c931c17caeca0416f83
 | --- | --- | --- | ---: |
 | UserPath | function_declaration |  | [20](../../magpie/internal/proc/path_windows.go#L20) |
 | UserBinDirs | function_declaration |  | [29](../../magpie/internal/proc/path_windows.go#L29) |
+| have | var_spec | UserBinDirs | [51](../../magpie/internal/proc/path_windows.go#L51) |
 | LoginPath | function_declaration |  | [63](../../magpie/internal/proc/path_windows.go#L63) |
+| dirs | var_spec | LoginPath | [64](../../magpie/internal/proc/path_windows.go#L64) |
 | root | field_declaration | LoginPath | [66](../../magpie/internal/proc/path_windows.go#L66) |
 | path | field_declaration | LoginPath | [67](../../magpie/internal/proc/path_windows.go#L67) |
 | LoginEnv | function_declaration |  | [96](../../magpie/internal/proc/path_windows.go#L96) |

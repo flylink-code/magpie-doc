@@ -9,4 +9,5 @@ Source SHA-256: 5473763523e3f097cd69e8047da73bc8c7401d125c98c0c71610550ed70b6cba
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Offline | function_declaration |  | [25](../../magpie/internal/testenv/offline.go#L25) |
+| mu | var_spec | Offline | [34](../../magpie/internal/testenv/offline.go#L34) |
 | local | function_declaration |  | [51](../../magpie/internal/testenv/offline.go#L51) |

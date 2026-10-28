@@ -15,16 +15,27 @@ Source SHA-256: d4ea6bdd8c5572b78056beb197f67143c7a33fc89ffe5188efd556a37a23387e
 | signedID | function_declaration |  | [56](../../magpie/internal/gateway/gemini_signature.go#L56) |
 | unsignedID | function_declaration |  | [76](../../magpie/internal/gateway/gemini_signature.go#L76) |
 | unsignCalls | function_declaration |  | [129](../../magpie/internal/gateway/gemini_signature.go#L129) |
+| parts | var_spec | unsignCalls | [131](../../magpie/internal/gateway/gemini_signature.go#L131) |
 | googleSignature | function_declaration |  | [164](../../magpie/internal/gateway/gemini_signature.go#L164) |
-| Google | field_declaration | googleSignature | [169](../../magpie/internal/gateway/gemini_signature.go#L169) |
-| ThoughtSignature | field_declaration | googleSignature | [170](../../magpie/internal/gateway/gemini_signature.go#L170) |
+| v | var_spec | googleSignature | [168](../../magpie/internal/gateway/gemini_signature.go#L168) |
+| Google | field_declaration | googleSignature::v | [169](../../magpie/internal/gateway/gemini_signature.go#L169) |
+| ThoughtSignature | field_declaration | googleSignature::v::Google | [170](../../magpie/internal/gateway/gemini_signature.go#L170) |
 | googleExtra | function_declaration |  | [178](../../magpie/internal/gateway/gemini_signature.go#L178) |
 | chatCallSignatures | function_declaration |  | [186](../../magpie/internal/gateway/gemini_signature.go#L186) |
-| sigTidy | struct_type |  | [248](../../magpie/internal/gateway/gemini_signature.go#L248) |
+| id | var_spec | chatCallSignatures | [194](../../magpie/internal/gateway/gemini_signature.go#L194) |
+| calls | var_spec | chatCallSignatures | [202](../../magpie/internal/gateway/gemini_signature.go#L202) |
+| id | var_spec | chatCallSignatures | [209](../../magpie/internal/gateway/gemini_signature.go#L209) |
+| sigTidy | type_spec |  | [248](../../magpie/internal/gateway/gemini_signature.go#L248) |
 | sse | field_declaration | sigTidy | [249](../../magpie/internal/gateway/gemini_signature.go#L249) |
 | buf | field_declaration | sigTidy | [250](../../magpie/internal/gateway/gemini_signature.go#L250) |
 | thoughtSignatureField | var_spec |  | [253](../../magpie/internal/gateway/gemini_signature.go#L253) |
-| write | method_declaration | *sigTidy | [255](../../magpie/internal/gateway/gemini_signature.go#L255) |
-| flush | method_declaration | *sigTidy | [269](../../magpie/internal/gateway/gemini_signature.go#L269) |
-| lines | method_declaration | *sigTidy | [281](../../magpie/internal/gateway/gemini_signature.go#L281) |
+| write | method_declaration |  | [255](../../magpie/internal/gateway/gemini_signature.go#L255) |
+| flush | method_declaration |  | [269](../../magpie/internal/gateway/gemini_signature.go#L269) |
+| lines | method_declaration |  | [281](../../magpie/internal/gateway/gemini_signature.go#L281) |
+| out | var_spec | lines | [285](../../magpie/internal/gateway/gemini_signature.go#L285) |
 | signReply | function_declaration |  | [311](../../magpie/internal/gateway/gemini_signature.go#L311) |
+| reply | var_spec | signReply | [315](../../magpie/internal/gateway/gemini_signature.go#L315) |
+| choices | var_spec | signReply | [319](../../magpie/internal/gateway/gemini_signature.go#L319) |
+| msg | var_spec | signReply | [326](../../magpie/internal/gateway/gemini_signature.go#L326) |
+| calls | var_spec | signReply | [330](../../magpie/internal/gateway/gemini_signature.go#L330) |
+| id | var_spec | signReply | [340](../../magpie/internal/gateway/gemini_signature.go#L340) |

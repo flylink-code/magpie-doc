@@ -10,7 +10,7 @@ Source SHA-256: 6a1d677a9adfd0f0ebb44a0998ff4472322532cf1a4ece47573706f70068ede0
 | --- | --- | --- | ---: |
 | ErrNotArchived | var_spec |  | [28](../../magpie/internal/gateway/archive_local.go#L28) |
 | LocalArchiveCap | function_declaration |  | [32](../../magpie/internal/gateway/archive_local.go#L32) |
-| DiskArchive | struct_type |  | [42](../../magpie/internal/gateway/archive_local.go#L42) |
+| DiskArchive | type_spec |  | [42](../../magpie/internal/gateway/archive_local.go#L42) |
 | Dir | field_declaration | DiskArchive | [43](../../magpie/internal/gateway/archive_local.go#L43) |
 | cap | field_declaration | DiskArchive | [45](../../magpie/internal/gateway/archive_local.go#L45) |
 | mu | field_declaration | DiskArchive | [47](../../magpie/internal/gateway/archive_local.go#L47) |
@@ -19,12 +19,13 @@ Source SHA-256: 6a1d677a9adfd0f0ebb44a0998ff4472322532cf1a4ece47573706f70068ede0
 | localMu | var_spec |  | [53](../../magpie/internal/gateway/archive_local.go#L53) |
 | localArchives | var_spec |  | [54](../../magpie/internal/gateway/archive_local.go#L54) |
 | LocalArchive | function_declaration |  | [59](../../magpie/internal/gateway/archive_local.go#L59) |
-| file | method_declaration | *DiskArchive | [73](../../magpie/internal/gateway/archive_local.go#L73) |
-| Put | method_declaration | *DiskArchive | [89](../../magpie/internal/gateway/archive_local.go#L89) |
-| Open | method_declaration | *DiskArchive | [122](../../magpie/internal/gateway/archive_local.go#L122) |
-| keptCall | struct_type |  | [142](../../magpie/internal/gateway/archive_local.go#L142) |
+| file | method_declaration |  | [73](../../magpie/internal/gateway/archive_local.go#L73) |
+| Put | method_declaration |  | [89](../../magpie/internal/gateway/archive_local.go#L89) |
+| Open | method_declaration |  | [122](../../magpie/internal/gateway/archive_local.go#L122) |
+| keptCall | type_spec |  | [142](../../magpie/internal/gateway/archive_local.go#L142) |
 | path | field_declaration | keptCall | [143](../../magpie/internal/gateway/archive_local.go#L143) |
-| rel | field_declaration | keptCall | [143](../../magpie/internal/gateway/archive_local.go#L143) |
 | size | field_declaration | keptCall | [144](../../magpie/internal/gateway/archive_local.go#L144) |
-| scan | method_declaration | *DiskArchive | [150](../../magpie/internal/gateway/archive_local.go#L150) |
-| added | method_declaration | *DiskArchive | [181](../../magpie/internal/gateway/archive_local.go#L181) |
+| scan | method_declaration |  | [150](../../magpie/internal/gateway/archive_local.go#L150) |
+| out | var_spec | scan | [151](../../magpie/internal/gateway/archive_local.go#L151) |
+| added | method_declaration |  | [181](../../magpie/internal/gateway/archive_local.go#L181) |
+| total | var_spec | added | [200](../../magpie/internal/gateway/archive_local.go#L200) |

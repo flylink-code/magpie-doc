@@ -8,5 +8,5 @@ Source SHA-256: af0657e32be923e0ad24280590529b1425f85ef042de4d8d9299097565cb0ca4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Pace | method_declaration | QuotaWindow | [12](../../magpie/internal/provider/window_pace.go#L12) |
+| Pace | method_declaration |  | [12](../../magpie/internal/provider/window_pace.go#L12) |
 | WithWindowStarts | function_declaration |  | [27](../../magpie/internal/provider/window_pace.go#L27) |

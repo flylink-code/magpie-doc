@@ -17,11 +17,15 @@ Source SHA-256: 46db8734ecee9a4a2c26d289ec33fb7adc299b2953d56a5b59f00368327d40ad
 | usedUp | function_declaration |  | [86](../../magpie/internal/provider/codex_switch.go#L86) |
 | UsedUp | function_declaration |  | [92](../../magpie/internal/provider/codex_switch.go#L92) |
 | BackAt | function_declaration |  | [97](../../magpie/internal/provider/codex_switch.go#L97) |
+| back | var_spec | BackAt | [98](../../magpie/internal/provider/codex_switch.go#L98) |
+| at | var_spec | BackAt | [103](../../magpie/internal/provider/codex_switch.go#L103) |
 | resetPassed | function_declaration |  | [122](../../magpie/internal/provider/codex_switch.go#L122) |
 | usedPast | function_declaration |  | [131](../../magpie/internal/provider/codex_switch.go#L131) |
 | NextLogin | function_declaration |  | [145](../../magpie/internal/provider/codex_switch.go#L145) |
+| spares | var_spec | NextLogin | [149](../../magpie/internal/provider/codex_switch.go#L149) |
+| first | var_spec | NextLogin | [150](../../magpie/internal/provider/codex_switch.go#L150) |
 | SwitchWhenSpent | function_declaration |  | [219](../../magpie/internal/provider/codex_switch.go#L219) |
-| loginReturn | struct_type |  | [258](../../magpie/internal/provider/codex_switch.go#L258) |
+| loginReturn | type_spec |  | [258](../../magpie/internal/provider/codex_switch.go#L258) |
 | Back | field_declaration | loginReturn | [259](../../magpie/internal/provider/codex_switch.go#L259) |
 | To | field_declaration | loginReturn | [260](../../magpie/internal/provider/codex_switch.go#L260) |
 | loginReturnsMu | var_spec |  | [263](../../magpie/internal/provider/codex_switch.go#L263) |
@@ -32,3 +36,6 @@ Source SHA-256: 46db8734ecee9a4a2c26d289ec33fb7adc299b2953d56a5b59f00368327d40ad
 | codexWasUsedUp | var_spec |  | [317](../../magpie/internal/provider/codex_switch.go#L317) |
 | noteCodexUsedUp | function_declaration |  | [325](../../magpie/internal/provider/codex_switch.go#L325) |
 | KeepOnAnAccountWithRoom | function_declaration |  | [336](../../magpie/internal/provider/codex_switch.go#L336) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 305: ERROR

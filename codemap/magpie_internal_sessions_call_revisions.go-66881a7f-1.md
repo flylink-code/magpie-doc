@@ -8,11 +8,13 @@ Source SHA-256: 869081e67b222256f6506a95e2c3b75501fd9f8aaa7ed808298e07005ff279d2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| callRevisions | struct_type |  | [19](../../magpie/internal/sessions/call_revisions.go#L19) |
+| callRevisions | type_spec |  | [19](../../magpie/internal/sessions/call_revisions.go#L19) |
 | Off | field_declaration | callRevisions | [20](../../magpie/internal/sessions/call_revisions.go#L20) |
 | ContentHash | field_declaration | callRevisions | [21](../../magpie/internal/sessions/call_revisions.go#L21) |
 | CompactMs | field_declaration | callRevisions | [22](../../magpie/internal/sessions/call_revisions.go#L22) |
 | Window | field_declaration | callRevisions | [23](../../magpie/internal/sessions/call_revisions.go#L23) |
 | callRevisionsPath | function_declaration |  | [26](../../magpie/internal/sessions/call_revisions.go#L26) |
 | writeCallRevisions | function_declaration |  | [32](../../magpie/internal/sessions/call_revisions.go#L32) |
+| data | var_spec | writeCallRevisions | [39](../../magpie/internal/sessions/call_revisions.go#L39) |
 | withCallRevisions | function_declaration |  | [59](../../magpie/internal/sessions/call_revisions.go#L59) |
+| r | var_spec | withCallRevisions | [67](../../magpie/internal/sessions/call_revisions.go#L67) |

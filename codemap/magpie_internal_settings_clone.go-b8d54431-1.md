@@ -8,6 +8,8 @@ Source SHA-256: 8bfe910768aa0d157cda945b232fcecfd6fc622544cfeb363103e0b27fa5f331
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| clone | method_declaration | Settings | [8](../../magpie/internal/settings/clone.go#L8) |
+| clone | method_declaration |  | [8](../../magpie/internal/settings/clone.go#L8) |
+| out | var_spec | clone | [9](../../magpie/internal/settings/clone.go#L9) |
 | deepCopy | function_declaration |  | [17](../../magpie/internal/settings/clone.go#L17) |
+| kc | var_spec | deepCopy | [28](../../magpie/internal/settings/clone.go#L28) |
 | plain | function_declaration |  | [95](../../magpie/internal/settings/clone.go#L95) |

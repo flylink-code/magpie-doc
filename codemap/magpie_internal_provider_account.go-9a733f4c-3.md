@@ -8,13 +8,42 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Billing | field_declaration | copilotModels | [1654](../../magpie/internal/provider/account.go#L1654) |
-| Premium | field_declaration | copilotModels | [1655](../../magpie/internal/provider/account.go#L1655) |
-| Capabilities | field_declaration | copilotModels | [1657](../../magpie/internal/provider/account.go#L1657) |
-| Type | field_declaration | copilotModels | [1658](../../magpie/internal/provider/account.go#L1658) |
-| Supports | field_declaration | copilotModels | [1659](../../magpie/internal/provider/account.go#L1659) |
-| Efforts | field_declaration | copilotModels | [1660](../../magpie/internal/provider/account.go#L1660) |
-| Policy | field_declaration | copilotModels | [1663](../../magpie/internal/provider/account.go#L1663) |
-| State | field_declaration | copilotModels | [1664](../../magpie/internal/provider/account.go#L1664) |
-| Terms | field_declaration | copilotModels | [1665](../../magpie/internal/provider/account.go#L1665) |
+| Content | field_declaration | lastRole::v::Messages | [1475](../../magpie/internal/provider/account.go#L1475) |
+| Input | field_declaration | lastRole::v | [1477](../../magpie/internal/provider/account.go#L1477) |
+| blocks | var_spec | lastRole | [1484](../../magpie/internal/provider/account.go#L1484) |
+| Type | field_declaration | lastRole::blocks | [1485](../../magpie/internal/provider/account.go#L1485) |
+| text | var_spec | lastRole | [1500](../../magpie/internal/provider/account.go#L1500) |
+| items | var_spec | lastRole | [1504](../../magpie/internal/provider/account.go#L1504) |
+| Role | field_declaration | lastRole::items | [1505](../../magpie/internal/provider/account.go#L1505) |
+| copilotToken | function_declaration |  | [1513](../../magpie/internal/provider/account.go#L1513) |
+| s | var_spec | copilotToken | [1535](../../magpie/internal/provider/account.go#L1535) |
+| copilotAPIs | function_declaration |  | [1557](../../magpie/internal/provider/account.go#L1557) |
+| copilotInternal | var_spec |  | [1565](../../magpie/internal/provider/account.go#L1565) |
+| copilotTermsMu | var_spec |  | [1571](../../magpie/internal/provider/account.go#L1571) |
+| copilotTerms | var_spec |  | [1572](../../magpie/internal/provider/account.go#L1572) |
+| copilotPicks | var_spec |  | [1573](../../magpie/internal/provider/account.go#L1573) |
+| copilotAccept | function_declaration |  | [1578](../../magpie/internal/provider/account.go#L1578) |
+| copilotBaseModel | const_spec |  | [1622](../../magpie/internal/provider/account.go#L1622) |
+| copilotModels | function_declaration |  | [1624](../../magpie/internal/provider/account.go#L1624) |
+| v | var_spec | copilotModels | [1644](../../magpie/internal/provider/account.go#L1644) |
+| Data | field_declaration | copilotModels::v | [1645](../../magpie/internal/provider/account.go#L1645) |
+| ID | field_declaration | copilotModels::v::Data | [1646](../../magpie/internal/provider/account.go#L1646) |
+| Name | field_declaration | copilotModels::v::Data | [1647](../../magpie/internal/provider/account.go#L1647) |
+| Vendor | field_declaration | copilotModels::v::Data | [1648](../../magpie/internal/provider/account.go#L1648) |
+| Picker | field_declaration | copilotModels::v::Data | [1649](../../magpie/internal/provider/account.go#L1649) |
+| Category | field_declaration | copilotModels::v::Data | [1650](../../magpie/internal/provider/account.go#L1650) |
+| Default | field_declaration | copilotModels::v::Data | [1651](../../magpie/internal/provider/account.go#L1651) |
+| Fallback | field_declaration | copilotModels::v::Data | [1652](../../magpie/internal/provider/account.go#L1652) |
+| Endpoints | field_declaration | copilotModels::v::Data | [1653](../../magpie/internal/provider/account.go#L1653) |
+| Billing | field_declaration | copilotModels::v::Data | [1654](../../magpie/internal/provider/account.go#L1654) |
+| Premium | field_declaration | copilotModels::v::Data::Billing | [1655](../../magpie/internal/provider/account.go#L1655) |
+| Capabilities | field_declaration | copilotModels::v::Data | [1657](../../magpie/internal/provider/account.go#L1657) |
+| Type | field_declaration | copilotModels::v::Data::Capabilities | [1658](../../magpie/internal/provider/account.go#L1658) |
+| Supports | field_declaration | copilotModels::v::Data::Capabilities | [1659](../../magpie/internal/provider/account.go#L1659) |
+| Efforts | field_declaration | copilotModels::v::Data::Capabilities::Supports | [1660](../../magpie/internal/provider/account.go#L1660) |
+| Policy | field_declaration | copilotModels::v::Data | [1663](../../magpie/internal/provider/account.go#L1663) |
+| State | field_declaration | copilotModels::v::Data::Policy | [1664](../../magpie/internal/provider/account.go#L1664) |
+| Terms | field_declaration | copilotModels::v::Data::Policy | [1665](../../magpie/internal/provider/account.go#L1665) |
+| out | var_spec | copilotModels | [1672](../../magpie/internal/provider/account.go#L1672) |
+| picks | var_spec | copilotModels | [1673](../../magpie/internal/provider/account.go#L1673) |
 | forgetClaudeStatus | function_declaration |  | [1733](../../magpie/internal/provider/account.go#L1733) |

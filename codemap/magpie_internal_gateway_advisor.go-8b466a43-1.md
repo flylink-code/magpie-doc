@@ -9,9 +9,20 @@ Source SHA-256: 0b45830e6d2246b6fc8d4f8df383874311244e600f306ca24fad952aee85236a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | advisorTools | function_declaration |  | [29](../../magpie/internal/gateway/advisor.go#L29) |
+| top | var_spec | advisorTools | [37](../../magpie/internal/gateway/advisor.go#L37) |
+| list | var_spec | advisorTools | [38](../../magpie/internal/gateway/advisor.go#L38) |
+| typ | var_spec | advisorTools | [47](../../magpie/internal/gateway/advisor.go#L47) |
+| n | var_spec | advisorTools | [56](../../magpie/internal/gateway/advisor.go#L56) |
 | advisorModel | function_declaration |  | [90](../../magpie/internal/gateway/advisor.go#L90) |
 | advisorNote | const_spec |  | [114](../../magpie/internal/gateway/advisor.go#L114) |
 | advisorGone | const_spec |  | [115](../../magpie/internal/gateway/advisor.go#L115) |
 | advisorGoneIn | function_declaration |  | [121](../../magpie/internal/gateway/advisor.go#L121) |
 | withoutAdvisor | function_declaration |  | [143](../../magpie/internal/gateway/advisor.go#L143) |
+| msgs | var_spec | withoutAdvisor | [147](../../magpie/internal/gateway/advisor.go#L147) |
+| s | var_spec | withoutAdvisor | [154](../../magpie/internal/gateway/advisor.go#L154) |
+| blocks | var_spec | withoutAdvisor | [163](../../magpie/internal/gateway/advisor.go#L163) |
+| typ | var_spec | withoutAdvisor | [171](../../magpie/internal/gateway/advisor.go#L171) |
+| text | var_spec | withoutAdvisor | [177](../../magpie/internal/gateway/advisor.go#L177) |
 | advisorRefName | function_declaration |  | [209](../../magpie/internal/gateway/advisor.go#L209) |
+| n | var_spec | advisorRefName | [210](../../magpie/internal/gateway/advisor.go#L210) |
+| tool | var_spec | advisorRefName | [212](../../magpie/internal/gateway/advisor.go#L212) |

@@ -12,7 +12,7 @@ Source SHA-256: 6ef9f11218742c04521012278198a6c3fae5e821eba74c45b249960bf92b6254
 | usageExt | const_spec |  | [37](../../magpie/internal/davsync/usage.go#L37) |
 | quotasExt | const_spec |  | [38](../../magpie/internal/davsync/usage.go#L38) |
 | usageEvery | var_spec |  | [43](../../magpie/internal/davsync/usage.go#L43) |
-| usageState | struct_type |  | [46](../../magpie/internal/davsync/usage.go#L46) |
+| usageState | type_spec |  | [46](../../magpie/internal/davsync/usage.go#L46) |
 | At | field_declaration | usageState | [47](../../magpie/internal/davsync/usage.go#L47) |
 | Sent | field_declaration | usageState | [49](../../magpie/internal/davsync/usage.go#L49) |
 | Got | field_declaration | usageState | [51](../../magpie/internal/davsync/usage.go#L51) |
@@ -20,36 +20,37 @@ Source SHA-256: 6ef9f11218742c04521012278198a6c3fae5e821eba74c45b249960bf92b6254
 | Error | field_declaration | usageState | [55](../../magpie/internal/davsync/usage.go#L55) |
 | QuotasSent | field_declaration | usageState | [58](../../magpie/internal/davsync/usage.go#L58) |
 | Quotas | field_declaration | usageState | [59](../../magpie/internal/davsync/usage.go#L59) |
-| files | interface_type |  | [64](../../magpie/internal/davsync/usage.go#L64) |
-| list | method_spec | files | [65](../../magpie/internal/davsync/usage.go#L65) |
-| read | method_spec | files | [66](../../magpie/internal/davsync/usage.go#L66) |
-| write | method_spec | files | [67](../../magpie/internal/davsync/usage.go#L67) |
-| remove | method_spec | files | [68](../../magpie/internal/davsync/usage.go#L68) |
+| files | type_spec |  | [64](../../magpie/internal/davsync/usage.go#L64) |
 | shareUsage | function_declaration |  | [73](../../magpie/internal/davsync/usage.go#L73) |
 | shareWith | function_declaration |  | [103](../../magpie/internal/davsync/usage.go#L103) |
+| z | var_spec | shareWith | [131](../../magpie/internal/davsync/usage.go#L131) |
 | shareQuotas | function_declaration |  | [205](../../magpie/internal/davsync/usage.go#L205) |
+| z | var_spec | shareQuotas | [239](../../magpie/internal/davsync/usage.go#L239) |
 | kept | function_declaration |  | [254](../../magpie/internal/davsync/usage.go#L254) |
 | usageName | function_declaration |  | [264](../../magpie/internal/davsync/usage.go#L264) |
 | readDay | function_declaration |  | [279](../../magpie/internal/davsync/usage.go#L279) |
+| d | var_spec | readDay | [280](../../magpie/internal/davsync/usage.go#L280) |
 | readSealed | function_declaration |  | [289](../../magpie/internal/davsync/usage.go#L289) |
-| usageURL | method_declaration | *dav | [310](../../magpie/internal/davsync/usage.go#L310) |
-| list | method_declaration | *dav | [312](../../magpie/internal/davsync/usage.go#L312) |
-| Responses | field_declaration | *dav.list | [325](../../magpie/internal/davsync/usage.go#L325) |
-| Href | field_declaration | *dav.list | [326](../../magpie/internal/davsync/usage.go#L326) |
-| ETag | field_declaration | *dav.list | [327](../../magpie/internal/davsync/usage.go#L327) |
-| Modified | field_declaration | *dav.list | [328](../../magpie/internal/davsync/usage.go#L328) |
-| Length | field_declaration | *dav.list | [329](../../magpie/internal/davsync/usage.go#L329) |
-| Collected | field_declaration | *dav.list | [330](../../magpie/internal/davsync/usage.go#L330) |
-| read | method_declaration | *dav | [355](../../magpie/internal/davsync/usage.go#L355) |
-| write | method_declaration | *dav | [367](../../magpie/internal/davsync/usage.go#L367) |
-| remove | method_declaration | *dav | [400](../../magpie/internal/davsync/usage.go#L400) |
-| usageKey | method_declaration | *s3 | [411](../../magpie/internal/davsync/usage.go#L411) |
-| list | method_declaration | *s3 | [415](../../magpie/internal/davsync/usage.go#L415) |
-| Contents | field_declaration | *s3.list | [437](../../magpie/internal/davsync/usage.go#L437) |
-| Key | field_declaration | *s3.list | [438](../../magpie/internal/davsync/usage.go#L438) |
-| ETag | field_declaration | *s3.list | [439](../../magpie/internal/davsync/usage.go#L439) |
-| Truncated | field_declaration | *s3.list | [441](../../magpie/internal/davsync/usage.go#L441) |
-| Next | field_declaration | *s3.list | [442](../../magpie/internal/davsync/usage.go#L442) |
-| read | method_declaration | *s3 | [468](../../magpie/internal/davsync/usage.go#L468) |
-| write | method_declaration | *s3 | [480](../../magpie/internal/davsync/usage.go#L480) |
-| remove | method_declaration | *s3 | [492](../../magpie/internal/davsync/usage.go#L492) |
+| usageURL | method_declaration |  | [310](../../magpie/internal/davsync/usage.go#L310) |
+| list | method_declaration |  | [312](../../magpie/internal/davsync/usage.go#L312) |
+| ms | var_spec | list | [324](../../magpie/internal/davsync/usage.go#L324) |
+| Responses | field_declaration | list::ms | [325](../../magpie/internal/davsync/usage.go#L325) |
+| Href | field_declaration | list::ms::Responses | [326](../../magpie/internal/davsync/usage.go#L326) |
+| ETag | field_declaration | list::ms::Responses | [327](../../magpie/internal/davsync/usage.go#L327) |
+| Modified | field_declaration | list::ms::Responses | [328](../../magpie/internal/davsync/usage.go#L328) |
+| Length | field_declaration | list::ms::Responses | [329](../../magpie/internal/davsync/usage.go#L329) |
+| Collected | field_declaration | list::ms::Responses | [330](../../magpie/internal/davsync/usage.go#L330) |
+| read | method_declaration |  | [355](../../magpie/internal/davsync/usage.go#L355) |
+| write | method_declaration |  | [367](../../magpie/internal/davsync/usage.go#L367) |
+| remove | method_declaration |  | [400](../../magpie/internal/davsync/usage.go#L400) |
+| usageKey | method_declaration |  | [411](../../magpie/internal/davsync/usage.go#L411) |
+| list | method_declaration |  | [415](../../magpie/internal/davsync/usage.go#L415) |
+| l | var_spec | list | [436](../../magpie/internal/davsync/usage.go#L436) |
+| Contents | field_declaration | list::l | [437](../../magpie/internal/davsync/usage.go#L437) |
+| Key | field_declaration | list::l::Contents | [438](../../magpie/internal/davsync/usage.go#L438) |
+| ETag | field_declaration | list::l::Contents | [439](../../magpie/internal/davsync/usage.go#L439) |
+| Truncated | field_declaration | list::l | [441](../../magpie/internal/davsync/usage.go#L441) |
+| Next | field_declaration | list::l | [442](../../magpie/internal/davsync/usage.go#L442) |
+| read | method_declaration |  | [468](../../magpie/internal/davsync/usage.go#L468) |
+| write | method_declaration |  | [480](../../magpie/internal/davsync/usage.go#L480) |
+| remove | method_declaration |  | [492](../../magpie/internal/davsync/usage.go#L492) |

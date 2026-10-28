@@ -8,5 +8,5 @@ Source SHA-256: 4162b5cb7a9520232d440aeaf9382bc89831093b9dca6c6117bce10dad845164
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| windowSchemeKey | struct_type |  | [11](../../magpie/internal/gui/window_peer.go#L11) |
+| windowSchemeKey | type_spec |  | [11](../../magpie/internal/gui/window_peer.go#L11) |
 | ownWindow | function_declaration |  | [19](../../magpie/internal/gui/window_peer.go#L19) |

@@ -18,19 +18,18 @@ Source SHA-256: a9a116dee8e5830d2bf1425c21e938e78732224d868d5d8157c66aa69a68a598
 | scrubMemoMin | const_spec |  | [71](../../magpie/internal/redact/scrub.go#L71) |
 | scrubMemoEntries | const_spec |  | [72](../../magpie/internal/redact/scrub.go#L72) |
 | scrubMemoBytes | const_spec |  | [73](../../magpie/internal/redact/scrub.go#L73) |
-| scrubEntry | struct_type |  | [76](../../magpie/internal/redact/scrub.go#L76) |
+| scrubEntry | type_spec |  | [76](../../magpie/internal/redact/scrub.go#L76) |
 | gen | field_declaration | scrubEntry | [77](../../magpie/internal/redact/scrub.go#L77) |
 | same | field_declaration | scrubEntry | [78](../../magpie/internal/redact/scrub.go#L78) |
 | out | field_declaration | scrubEntry | [79](../../magpie/internal/redact/scrub.go#L79) |
 | scrubMemo | var_spec |  | [85](../../magpie/internal/redact/scrub.go#L85) |
-| memo | struct_type |  | [87](../../magpie/internal/redact/scrub.go#L87) |
+| memo | type_spec |  | [87](../../magpie/internal/redact/scrub.go#L87) |
 | cur | field_declaration | memo | [89](../../magpie/internal/redact/scrub.go#L89) |
-| old | field_declaration | memo | [89](../../magpie/internal/redact/scrub.go#L89) |
 | bytes | field_declaration | memo | [90](../../magpie/internal/redact/scrub.go#L90) |
-| get | method_declaration | *memo | [93](../../magpie/internal/redact/scrub.go#L93) |
-| put | method_declaration | *memo | [111](../../magpie/internal/redact/scrub.go#L111) |
-| reset | method_declaration | *memo | [122](../../magpie/internal/redact/scrub.go#L122) |
-| add | method_declaration | *memo | [129](../../magpie/internal/redact/scrub.go#L129) |
+| get | method_declaration |  | [93](../../magpie/internal/redact/scrub.go#L93) |
+| put | method_declaration |  | [111](../../magpie/internal/redact/scrub.go#L111) |
+| reset | method_declaration |  | [122](../../magpie/internal/redact/scrub.go#L122) |
+| add | method_declaration |  | [129](../../magpie/internal/redact/scrub.go#L129) |
 | ScrubHeader | function_declaration |  | [140](../../magpie/internal/redact/scrub.go#L140) |
 | ScrubJSON | function_declaration |  | [152](../../magpie/internal/redact/scrub.go#L152) |
 | scrubJSON | function_declaration |  | [170](../../magpie/internal/redact/scrub.go#L170) |

@@ -9,3 +9,4 @@ Source SHA-256: b62e8eef10c45ae91d3bb566987bc9b81874e0b57f486ce0caf7fed0d39b645d
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | FakeVendor | function_declaration |  | [26](../../magpie/internal/testenv/vendor.go#L26) |
+| b | var_spec | FakeVendor | [28](../../magpie/internal/testenv/vendor.go#L28) |

@@ -11,4 +11,4 @@ Source SHA-256: 7e00017314c72ac18ed8cd454a5cb6299aaf9587f06c9c60880690cd881239a6
 | siteOrigins | var_spec |  | [15](../../magpie/internal/gateway/omarchy.go#L15) |
 | siteOrigin | function_declaration |  | [17](../../magpie/internal/gateway/omarchy.go#L17) |
 | onOmarchy | var_spec |  | [22](../../magpie/internal/gateway/omarchy.go#L22) |
-| omarchyTheme | method_declaration | *Server | [29](../../magpie/internal/gateway/omarchy.go#L29) |
+| omarchyTheme | method_declaration |  | [29](../../magpie/internal/gateway/omarchy.go#L29) |

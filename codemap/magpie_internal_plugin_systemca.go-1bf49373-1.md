@@ -14,5 +14,5 @@ Source SHA-256: 3d1c759761aac957d25a8ff9864241bbf7972a0378817f0ba3ceaa3966874c59
 | systemCAOnce | var_spec |  | [68](../../magpie/internal/plugin/systemca.go#L68) |
 | systemCAPath | var_spec |  | [69](../../magpie/internal/plugin/systemca.go#L69) |
 | systemCAFile | var_spec |  | [74](../../magpie/internal/plugin/systemca.go#L74) |
-| b | var_spec |  | [84](../../magpie/internal/plugin/systemca.go#L84) |
+| b | var_spec | systemCAFile | [84](../../magpie/internal/plugin/systemca.go#L84) |
 | writeCAFile | function_declaration |  | [95](../../magpie/internal/plugin/systemca.go#L95) |

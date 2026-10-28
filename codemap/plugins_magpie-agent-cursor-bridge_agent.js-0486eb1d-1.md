@@ -4,73 +4,11 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/agent.js) · page 1/1
 
-Source SHA-256: d4fd1f200e865482b129a6f2a25e5647fca102342eed0bb9cbf44990c8433e7e
+Source SHA-256: fce671445a15af702d23c04f7d6a9baf3dde72673c35b6f5b2fe95d558ed42b1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | agent | VariableDeclaration |  | [1](../../plugins/magpie-agent-cursor-bridge/agent.js#L1) |
-| connect | FunctionDeclaration |  | [17](../../plugins/magpie-agent-cursor-bridge/agent.js#L17) |
-| gateway | BindingElement | connect | [17](../../plugins/magpie-agent-cursor-bridge/agent.js#L17) |
-| model | BindingElement | connect | [17](../../plugins/magpie-agent-cursor-bridge/agent.js#L17) |
-| models | BindingElement | connect | [17](../../plugins/magpie-agent-cursor-bridge/agent.js#L17) |
-| start | FunctionDeclaration |  | [27](../../plugins/magpie-agent-cursor-bridge/agent.js#L27) |
-| autoStart | VariableDeclaration | start | [32](../../plugins/magpie-agent-cursor-bridge/agent.js#L32) |
-| isolatedRoot | VariableDeclaration | start | [33](../../plugins/magpie-agent-cursor-bridge/agent.js#L33) |
-| fs | VariableDeclaration | start | [36](../../plugins/magpie-agent-cursor-bridge/agent.js#L36) |
-| os | VariableDeclaration | start | [37](../../plugins/magpie-agent-cursor-bridge/agent.js#L37) |
-| path | VariableDeclaration | start | [38](../../plugins/magpie-agent-cursor-bridge/agent.js#L38) |
-| {spawn, execFileSync} | VariableDeclaration | start | [39](../../plugins/magpie-agent-cursor-bridge/agent.js#L39) |
-| spawn | BindingElement | start.{spawn, execFileSync} | [39](../../plugins/magpie-agent-cursor-bridge/agent.js#L39) |
-| execFileSync | BindingElement | start.{spawn, execFileSync} | [39](../../plugins/magpie-agent-cursor-bridge/agent.js#L39) |
-| root | VariableDeclaration | start | [40](../../plugins/magpie-agent-cursor-bridge/agent.js#L40) |
-| release | VariableDeclaration | start | [48](../../plugins/magpie-agent-cursor-bridge/agent.js#L48) |
-| launched | VariableDeclaration | start | [49](../../plugins/magpie-agent-cursor-bridge/agent.js#L49) |
-| watch | FunctionDeclaration |  | [63](../../plugins/magpie-agent-cursor-bridge/agent.js#L63) |
-| file | VariableDeclaration | watch | [64](../../plugins/magpie-agent-cursor-bridge/agent.js#L64) |
-| settled | VariableDeclaration | watch | [65](../../plugins/magpie-agent-cursor-bridge/agent.js#L65) |
-| state | VariableDeclaration | watch.settled | [67](../../plugins/magpie-agent-cursor-bridge/agent.js#L67) |
-| attempts | VariableDeclaration | watch | [73](../../plugins/magpie-agent-cursor-bridge/agent.js#L73) |
-| tick | VariableDeclaration | watch | [74](../../plugins/magpie-agent-cursor-bridge/agent.js#L74) |
-| report | FunctionDeclaration |  | [89](../../plugins/magpie-agent-cursor-bridge/agent.js#L89) |
-| write | VariableDeclaration | report | [91](../../plugins/magpie-agent-cursor-bridge/agent.js#L91) |
-| os | VariableDeclaration | report | [98](../../plugins/magpie-agent-cursor-bridge/agent.js#L98) |
-| path | VariableDeclaration | report | [99](../../plugins/magpie-agent-cursor-bridge/agent.js#L99) |
-| alive | FunctionDeclaration |  | [107](../../plugins/magpie-agent-cursor-bridge/agent.js#L107) |
-| dir | VariableDeclaration | alive | [108](../../plugins/magpie-agent-cursor-bridge/agent.js#L108) |
-| pid | VariableDeclaration | alive | [109](../../plugins/magpie-agent-cursor-bridge/agent.js#L109) |
-| start | VariableDeclaration | alive | [109](../../plugins/magpie-agent-cursor-bridge/agent.js#L109) |
-| owner | VariableDeclaration | alive | [111](../../plugins/magpie-agent-cursor-bridge/agent.js#L111) |
-| out | VariableDeclaration | alive | [124](../../plugins/magpie-agent-cursor-bridge/agent.js#L124) |
-| runningVersion | FunctionDeclaration |  | [139](../../plugins/magpie-agent-cursor-bridge/agent.js#L139) |
-| mine | VariableDeclaration | runningVersion | [140](../../plugins/magpie-agent-cursor-bridge/agent.js#L140) |
-| state | VariableDeclaration | runningVersion | [142](../../plugins/magpie-agent-cursor-bridge/agent.js#L142) |
-| theirs | VariableDeclaration | runningVersion | [144](../../plugins/magpie-agent-cursor-bridge/agent.js#L144) |
-| staged | FunctionDeclaration |  | [157](../../plugins/magpie-agent-cursor-bridge/agent.js#L157) |
-| record | VariableDeclaration | staged | [159](../../plugins/magpie-agent-cursor-bridge/agent.js#L159) |
-| release | VariableDeclaration | staged | [160](../../plugins/magpie-agent-cursor-bridge/agent.js#L160) |
-| manifest | VariableDeclaration | staged | [166](../../plugins/magpie-agent-cursor-bridge/agent.js#L166) |
-| manifestVersion | FunctionDeclaration |  | [175](../../plugins/magpie-agent-cursor-bridge/agent.js#L175) |
-| manifest | VariableDeclaration | manifestVersion | [177](../../plugins/magpie-agent-cursor-bridge/agent.js#L177) |
-| chooseRuntime | FunctionDeclaration |  | [184](../../plugins/magpie-agent-cursor-bridge/agent.js#L184) |
-| name | VariableDeclaration | chooseRuntime | [185](../../plugins/magpie-agent-cursor-bridge/agent.js#L185) |
-| copy | VariableDeclaration | chooseRuntime | [187](../../plugins/magpie-agent-cursor-bridge/agent.js#L187) |
-| setup | FunctionDeclaration |  | [195](../../plugins/magpie-agent-cursor-bridge/agent.js#L195) |
-| here | VariableDeclaration | setup | [196](../../plugins/magpie-agent-cursor-bridge/agent.js#L196) |
-| installer | VariableDeclaration | setup | [197](../../plugins/magpie-agent-cursor-bridge/agent.js#L197) |
-| runtime | VariableDeclaration | setup | [199](../../plugins/magpie-agent-cursor-bridge/agent.js#L199) |
-| env | VariableDeclaration | setup | [205](../../plugins/magpie-agent-cursor-bridge/agent.js#L205) |
-| child | VariableDeclaration | setup | [208](../../plugins/magpie-agent-cursor-bridge/agent.js#L208) |
-| timer | VariableDeclaration | setup | [214](../../plugins/magpie-agent-cursor-bridge/agent.js#L214) |
-| launch | FunctionDeclaration |  | [219](../../plugins/magpie-agent-cursor-bridge/agent.js#L219) |
-| child | VariableDeclaration | launch | [224](../../plugins/magpie-agent-cursor-bridge/agent.js#L224) |
-| sourceDirectory | FunctionDeclaration |  | [236](../../plugins/magpie-agent-cursor-bridge/agent.js#L236) |
-| url | VariableDeclaration | sourceDirectory | [237](../../plugins/magpie-agent-cursor-bridge/agent.js#L237) |
-| file | VariableDeclaration | sourceDirectory | [238](../../plugins/magpie-agent-cursor-bridge/agent.js#L238) |
-| magpieBun | FunctionDeclaration |  | [243](../../plugins/magpie-agent-cursor-bridge/agent.js#L243) |
-| home | VariableDeclaration | magpieBun | [244](../../plugins/magpie-agent-cursor-bridge/agent.js#L244) |
-| bases | VariableDeclaration | magpieBun | [245](../../plugins/magpie-agent-cursor-bridge/agent.js#L245) |
-| base | VariableDeclaration | magpieBun | [250](../../plugins/magpie-agent-cursor-bridge/agent.js#L250) |
-| versions | VariableDeclaration | magpieBun | [251](../../plugins/magpie-agent-cursor-bridge/agent.js#L251) |
-| version | VariableDeclaration | magpieBun | [253](../../plugins/magpie-agent-cursor-bridge/agent.js#L253) |
-| name | VariableDeclaration | magpieBun | [254](../../plugins/magpie-agent-cursor-bridge/agent.js#L254) |
-| file | VariableDeclaration | magpieBun | [255](../../plugins/magpie-agent-cursor-bridge/agent.js#L255) |
+| connect | FunctionDeclaration |  | [21](../../plugins/magpie-agent-cursor-bridge/agent.js#L21) |
+| gateway | BindingElement | connect | [21](../../plugins/magpie-agent-cursor-bridge/agent.js#L21) |
+| models | BindingElement | connect | [21](../../plugins/magpie-agent-cursor-bridge/agent.js#L21) |

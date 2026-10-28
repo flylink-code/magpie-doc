@@ -9,13 +9,15 @@ Source SHA-256: 5d0471bd0160931ee21bf899078fb7aa12903fdd2f241e838e99d198b682a2ee
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [13](../../magpie/internal/provider/migrate_zed.go#L13) |
-| UserID | field_declaration | init | [34](../../magpie/internal/provider/migrate_zed.go#L34) |
-| SystemID | field_declaration | init | [35](../../magpie/internal/provider/migrate_zed.go#L35) |
-| Org | field_declaration | init | [36](../../magpie/internal/provider/migrate_zed.go#L36) |
-| Plan | field_declaration | init | [37](../../magpie/internal/provider/migrate_zed.go#L37) |
-| Login | field_declaration | init | [38](../../magpie/internal/provider/migrate_zed.go#L38) |
-| Name | field_declaration | init | [39](../../magpie/internal/provider/migrate_zed.go#L39) |
-| Models | field_declaration | init | [40](../../magpie/internal/provider/migrate_zed.go#L40) |
+| out | var_spec | init | [19](../../magpie/internal/provider/migrate_zed.go#L19) |
+| r | var_spec | init | [33](../../magpie/internal/provider/migrate_zed.go#L33) |
+| UserID | field_declaration | init::r | [34](../../magpie/internal/provider/migrate_zed.go#L34) |
+| SystemID | field_declaration | init::r | [35](../../magpie/internal/provider/migrate_zed.go#L35) |
+| Org | field_declaration | init::r | [36](../../magpie/internal/provider/migrate_zed.go#L36) |
+| Plan | field_declaration | init::r | [37](../../magpie/internal/provider/migrate_zed.go#L37) |
+| Login | field_declaration | init::r | [38](../../magpie/internal/provider/migrate_zed.go#L38) |
+| Name | field_declaration | init::r | [39](../../magpie/internal/provider/migrate_zed.go#L39) |
+| Models | field_declaration | init::r | [40](../../magpie/internal/provider/migrate_zed.go#L40) |
 | zedRefresh | function_declaration |  | [75](../../magpie/internal/provider/migrate_zed.go#L75) |
 | backInto | function_declaration |  | [85](../../magpie/internal/provider/migrate_zed.go#L85) |
 | jsonText | function_declaration |  | [95](../../magpie/internal/provider/migrate_zed.go#L95) |

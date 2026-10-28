@@ -12,5 +12,5 @@ Source SHA-256: a48e73848e44d15042a1cb4a63f70757c75b66906c893a9282fb2713979d343d
 | ownServer | function_declaration |  | [33](../../magpie/internal/library/self_here.go#L33) |
 | magpieBinary | function_declaration |  | [39](../../magpie/internal/library/self_here.go#L39) |
 | runsHere | function_declaration |  | [46](../../magpie/internal/library/self_here.go#L46) |
-| heal | method_declaration | *Library | [55](../../magpie/internal/library/self_here.go#L55) |
+| heal | method_declaration |  | [55](../../magpie/internal/library/self_here.go#L55) |
 | carried | function_declaration |  | [73](../../magpie/internal/library/self_here.go#L73) |

@@ -9,3 +9,4 @@ Source SHA-256: c7164933ec7dd5a96003c49a77508bcbbc2a13d452aae1c03a4bcc3f4e3dcf85
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | shellProfiles | function_declaration |  | [15](../../magpie/internal/update/shellfn_other.go#L15) |
+| out | var_spec | shellProfiles | [16](../../magpie/internal/update/shellfn_other.go#L16) |

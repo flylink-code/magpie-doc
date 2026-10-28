@@ -9,3 +9,4 @@ Source SHA-256: 86e58f179ee25e654840b1252d436301087e5e7ee25dfca9cdf590bf57492c0e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | processCPU | function_declaration |  | [11](../../magpie/internal/gateway/cpu_windows.go#L11) |
+| created | var_spec | processCPU | [16](../../magpie/internal/gateway/cpu_windows.go#L16) |

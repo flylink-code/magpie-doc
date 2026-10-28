@@ -10,6 +10,7 @@ Source SHA-256: 55529ee93968a76b2649e435d0689b5f3bfc0c245473c9bb8a7d6adaee00fe7d
 | --- | --- | --- | ---: |
 | Scheme | const_spec |  | [39](../../magpie/internal/provider/importurl.go#L39) |
 | ParseImport | function_declaration |  | [42](../../magpie/internal/provider/importurl.go#L42) |
+| p | var_spec | ParseImport | [57](../../magpie/internal/provider/importurl.go#L57) |
 | endpoint | function_declaration |  | [158](../../magpie/internal/provider/importurl.go#L158) |
 | local | function_declaration |  | [178](../../magpie/internal/provider/importurl.go#L178) |
 | page | function_declaration |  | [187](../../magpie/internal/provider/importurl.go#L187) |

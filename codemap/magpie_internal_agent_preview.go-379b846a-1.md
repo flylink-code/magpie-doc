@@ -14,22 +14,33 @@ Source SHA-256: 405a03fba5bbf46f1981093ec176c7fa23a16c094c15989922e76f31d38d513e
 | dryProviders | var_spec |  | [40](../../magpie/internal/agent/preview.go#L40) |
 | disconnectDryRun | var_spec |  | [44](../../magpie/internal/agent/preview.go#L44) |
 | DryRun | function_declaration |  | [48](../../magpie/internal/agent/preview.go#L48) |
-| FileChange | struct_type |  | [70](../../magpie/internal/agent/preview.go#L70) |
+| FileChange | type_spec |  | [70](../../magpie/internal/agent/preview.go#L70) |
 | Path | field_declaration | FileChange | [71](../../magpie/internal/agent/preview.go#L71) |
 | Removed | field_declaration | FileChange | [72](../../magpie/internal/agent/preview.go#L72) |
 | Created | field_declaration | FileChange | [73](../../magpie/internal/agent/preview.go#L73) |
 | Lines | field_declaration | FileChange | [74](../../magpie/internal/agent/preview.go#L74) |
-| LineDiff | struct_type |  | [80](../../magpie/internal/agent/preview.go#L80) |
+| LineDiff | type_spec |  | [80](../../magpie/internal/agent/preview.go#L80) |
 | Op | field_declaration | LineDiff | [81](../../magpie/internal/agent/preview.go#L81) |
 | Text | field_declaration | LineDiff | [82](../../magpie/internal/agent/preview.go#L82) |
 | Was | field_declaration | LineDiff | [83](../../magpie/internal/agent/preview.go#L83) |
 | DisconnectPreview | function_declaration |  | [90](../../magpie/internal/agent/preview.go#L90) |
+| ids | var_spec | DisconnectPreview | [138](../../magpie/internal/agent/preview.go#L138) |
+| out | var_spec | DisconnectPreview | [154](../../magpie/internal/agent/preview.go#L154) |
+| changes | var_spec | DisconnectPreview | [160](../../magpie/internal/agent/preview.go#L160) |
 | sortTail | function_declaration |  | [203](../../magpie/internal/agent/preview.go#L203) |
 | copyTop | function_declaration |  | [213](../../magpie/internal/agent/preview.go#L213) |
+| most | const_spec | copyTop | [224](../../magpie/internal/agent/preview.go#L224) |
 | notConfig | function_declaration |  | [256](../../magpie/internal/agent/preview.go#L256) |
 | previewEnv | function_declaration |  | [267](../../magpie/internal/agent/preview.go#L267) |
+| out | var_spec | previewEnv | [272](../../magpie/internal/agent/preview.go#L272) |
 | diffLines | function_declaration |  | [301](../../magpie/internal/agent/preview.go#L301) |
+| out | var_spec | diffLines | [337](../../magpie/internal/agent/preview.go#L337) |
+| gone | var_spec | diffLines | [338](../../magpie/internal/agent/preview.go#L338) |
+| kept | var_spec | diffLines | [384](../../magpie/internal/agent/preview.go#L384) |
 | sameLines | function_declaration |  | [398](../../magpie/internal/agent/preview.go#L398) |
+| trace | var_spec | sameLines | [406](../../magpie/internal/agent/preview.go#L406) |
+| xi | var_spec | sameLines | [411](../../magpie/internal/agent/preview.go#L411) |
+| pk | var_spec | sameLines | [431](../../magpie/internal/agent/preview.go#L431) |
 | splitLines | function_declaration |  | [452](../../magpie/internal/agent/preview.go#L452) |
 | keyRe | var_spec |  | [461](../../magpie/internal/agent/preview.go#L461) |
 | lineKey | function_declaration |  | [463](../../magpie/internal/agent/preview.go#L463) |

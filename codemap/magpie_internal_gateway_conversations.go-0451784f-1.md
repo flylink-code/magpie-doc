@@ -11,15 +11,26 @@ Source SHA-256: b49440232765f130265d2e2b9d05eaeff1c535869e5608c29f1b18458e5f35f0
 | conversationBodyMax | const_spec |  | [19](../../magpie/internal/gateway/conversations.go#L19) |
 | withGatewaySession | function_declaration |  | [24](../../magpie/internal/gateway/conversations.go#L24) |
 | init | function_declaration |  | [30](../../magpie/internal/gateway/conversations.go#L30) |
-| conversationWriter | struct_type |  | [47](../../magpie/internal/gateway/conversations.go#L47) |
+| conversationWriter | type_spec |  | [47](../../magpie/internal/gateway/conversations.go#L47) |
 | status | field_declaration | conversationWriter | [49](../../magpie/internal/gateway/conversations.go#L49) |
-| WriteHeader | method_declaration | *conversationWriter | [52](../../magpie/internal/gateway/conversations.go#L52) |
+| WriteHeader | method_declaration |  | [52](../../magpie/internal/gateway/conversations.go#L52) |
 | recordConversation | function_declaration |  | [61](../../magpie/internal/gateway/conversations.go#L61) |
 | conversationParts | function_declaration |  | [93](../../magpie/internal/gateway/conversations.go#L93) |
+| out | var_spec | conversationParts | [94](../../magpie/internal/gateway/conversations.go#L94) |
 | conversationTurn | function_declaration |  | [122](../../magpie/internal/gateway/conversations.go#L122) |
-| Type | field_declaration | conversationTurn | [163](../../magpie/internal/gateway/conversations.go#L163) |
-| Item | field_declaration | conversationTurn | [164](../../magpie/internal/gateway/conversations.go#L164) |
-| Response | field_declaration | conversationTurn | [165](../../magpie/internal/gateway/conversations.go#L165) |
-| Output | field_declaration | conversationTurn | [166](../../magpie/internal/gateway/conversations.go#L166) |
+| raw | var_spec | conversationTurn | [135](../../magpie/internal/gateway/conversations.go#L135) |
+| c | var_spec | conversationTurn | [148](../../magpie/internal/gateway/conversations.go#L148) |
+| completedItems | var_spec | conversationTurn | [149](../../magpie/internal/gateway/conversations.go#L149) |
+| e | var_spec | conversationTurn | [162](../../magpie/internal/gateway/conversations.go#L162) |
+| Type | field_declaration | conversationTurn::e | [163](../../magpie/internal/gateway/conversations.go#L163) |
+| Item | field_declaration | conversationTurn::e | [164](../../magpie/internal/gateway/conversations.go#L164) |
+| Response | field_declaration | conversationTurn::e | [165](../../magpie/internal/gateway/conversations.go#L165) |
+| Output | field_declaration | conversationTurn::e::Response | [166](../../magpie/internal/gateway/conversations.go#L166) |
 | conversationJSON | function_declaration |  | [205](../../magpie/internal/gateway/conversations.go#L205) |
-| Message | field_declaration | conversationJSON | [217](../../magpie/internal/gateway/conversations.go#L217) |
+| raw | var_spec | conversationJSON | [206](../../magpie/internal/gateway/conversations.go#L206) |
+| request | var_spec | conversationJSON | [213](../../magpie/internal/gateway/conversations.go#L213) |
+| choices | var_spec | conversationJSON | [216](../../magpie/internal/gateway/conversations.go#L216) |
+| Message | field_declaration | conversationJSON::choices | [217](../../magpie/internal/gateway/conversations.go#L217) |
+| messages | var_spec | conversationJSON | [222](../../magpie/internal/gateway/conversations.go#L222) |
+| c | var_spec | conversationJSON | [230](../../magpie/internal/gateway/conversations.go#L230) |
+| parts | var_spec | conversationJSON | [242](../../magpie/internal/gateway/conversations.go#L242) |

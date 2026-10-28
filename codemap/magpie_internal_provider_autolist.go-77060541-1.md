@@ -10,18 +10,27 @@ Source SHA-256: 76de7824c76829f53be82d3b02ba5d3208e69f30a4c4ad1c5f9a831c6f089744
 | --- | --- | --- | ---: |
 | MinRefreshEvery | const_spec |  | [41](../../magpie/internal/provider/autolist.go#L41) |
 | ParseRefreshEvery | function_declaration |  | [45](../../magpie/internal/provider/autolist.go#L45) |
+| d | var_spec | ParseRefreshEvery | [51](../../magpie/internal/provider/autolist.go#L51) |
+| err | var_spec | ParseRefreshEvery | [59](../../magpie/internal/provider/autolist.go#L59) |
 | RemoteMagpieEvery | const_spec |  | [80](../../magpie/internal/provider/autolist.go#L80) |
-| RefreshSchedule | method_declaration | Provider | [85](../../magpie/internal/provider/autolist.go#L85) |
-| RefreshInterval | method_declaration | Provider | [98](../../magpie/internal/provider/autolist.go#L98) |
-| ownList | method_declaration | Provider | [111](../../magpie/internal/provider/autolist.go#L111) |
+| RefreshSchedule | method_declaration |  | [85](../../magpie/internal/provider/autolist.go#L85) |
+| RefreshInterval | method_declaration |  | [98](../../magpie/internal/provider/autolist.go#L98) |
+| ownList | method_declaration |  | [111](../../magpie/internal/provider/autolist.go#L111) |
 | errNotOwnList | function_declaration |  | [117](../../magpie/internal/provider/autolist.go#L117) |
 | SetRefreshEvery | function_declaration |  | [123](../../magpie/internal/provider/autolist.go#L123) |
 | CleanAutoInclude | function_declaration |  | [149](../../magpie/internal/provider/autolist.go#L149) |
+| out | var_spec | CleanAutoInclude | [150](../../magpie/internal/provider/autolist.go#L150) |
 | SetAutoInclude | function_declaration |  | [170](../../magpie/internal/provider/autolist.go#L170) |
 | takeMatching | function_declaration |  | [198](../../magpie/internal/provider/autolist.go#L198) |
+| res | var_spec | takeMatching | [203](../../magpie/internal/provider/autolist.go#L203) |
+| served | var_spec | takeMatching | [212](../../magpie/internal/provider/autolist.go#L212) |
+| taken | var_spec | takeMatching | [217](../../magpie/internal/provider/autolist.go#L217) |
 | listsTried | var_spec |  | [255](../../magpie/internal/provider/autolist.go#L255) |
+| m | field_declaration | listsTried | [257](../../magpie/internal/provider/autolist.go#L257) |
 | listRetry | var_spec |  | [262](../../magpie/internal/provider/autolist.go#L262) |
 | listsEvery | var_spec |  | [265](../../magpie/internal/provider/autolist.go#L265) |
 | KeepListsFresh | function_declaration |  | [270](../../magpie/internal/provider/autolist.go#L270) |
+| wait | var_spec | KeepListsFresh | [273](../../magpie/internal/provider/autolist.go#L273) |
 | refreshDueLists | function_declaration |  | [288](../../magpie/internal/provider/autolist.go#L288) |
+| asked | var_spec | refreshDueLists | [289](../../magpie/internal/provider/autolist.go#L289) |
 | listNote | function_declaration |  | [331](../../magpie/internal/provider/autolist.go#L331) |

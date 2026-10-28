@@ -8,18 +8,19 @@ Source SHA-256: 2bf4c39c266ea2142d02861265aa04764ef752d519e450c6d4a2dde7f64fea34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zenTools | struct_type |  | [36](../../magpie/internal/gateway/zenfree.go#L36) |
+| zenTools | type_spec |  | [36](../../magpie/internal/gateway/zenfree.go#L36) |
 | back | field_declaration | zenTools | [37](../../magpie/internal/gateway/zenfree.go#L37) |
 | stubs | field_declaration | zenTools | [38](../../magpie/internal/gateway/zenfree.go#L38) |
 | zenStubNote | const_spec |  | [42](../../magpie/internal/gateway/zenfree.go#L42) |
 | zenFreeTools | function_declaration |  | [46](../../magpie/internal/gateway/zenfree.go#L46) |
-| zenReply | struct_type |  | [98](../../magpie/internal/gateway/zenfree.go#L98) |
+| parts | var_spec | zenFreeTools | [74](../../magpie/internal/gateway/zenfree.go#L74) |
+| zenReply | type_spec |  | [98](../../magpie/internal/gateway/zenfree.go#L98) |
 | z | field_declaration | zenReply | [99](../../magpie/internal/gateway/zenfree.go#L99) |
 | dropping | field_declaration | zenReply | [100](../../magpie/internal/gateway/zenfree.go#L100) |
 | stubbed | field_declaration | zenReply | [101](../../magpie/internal/gateway/zenfree.go#L101) |
 | calls | field_declaration | zenReply | [102](../../magpie/internal/gateway/zenfree.go#L102) |
 | said | field_declaration | zenReply | [103](../../magpie/internal/gateway/zenfree.go#L103) |
-| see | method_declaration | *zenReply | [106](../../magpie/internal/gateway/zenfree.go#L106) |
-| end | method_declaration | *zenReply | [140](../../magpie/internal/gateway/zenfree.go#L140) |
+| see | method_declaration |  | [106](../../magpie/internal/gateway/zenfree.go#L106) |
+| end | method_declaration |  | [140](../../magpie/internal/gateway/zenfree.go#L140) |
 | zenSee | function_declaration |  | [148](../../magpie/internal/gateway/zenfree.go#L148) |
 | zenRound | function_declaration |  | [157](../../magpie/internal/gateway/zenfree.go#L157) |

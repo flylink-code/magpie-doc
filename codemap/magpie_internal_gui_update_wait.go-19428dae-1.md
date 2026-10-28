@@ -14,11 +14,12 @@ Source SHA-256: babd2da080ef0a96b981782e215c31da244a29cb2f83f0b459b079f529ee36db
 | gatewayBusy | var_spec |  | [30](../../magpie/internal/gui/update_wait.go#L30) |
 | waitRecheck | var_spec |  | [38](../../magpie/internal/gui/update_wait.go#L38) |
 | idleAt | function_declaration |  | [41](../../magpie/internal/gui/update_wait.go#L41) |
-| idle | method_declaration | *updater | [46](../../magpie/internal/gui/update_wait.go#L46) |
-| waitIdle | method_declaration | *updater | [50](../../magpie/internal/gui/update_wait.go#L50) |
-| cancelWait | method_declaration | *updater | [70](../../magpie/internal/gui/update_wait.go#L70) |
-| waitingFor | method_declaration | *updater | [82](../../magpie/internal/gui/update_wait.go#L82) |
-| told | method_declaration | *updater | [92](../../magpie/internal/gui/update_wait.go#L92) |
-| waitFor | method_declaration | *updater | [103](../../magpie/internal/gui/update_wait.go#L103) |
-| autoTick | method_declaration | *updater | [162](../../magpie/internal/gui/update_wait.go#L162) |
-| callOff | method_declaration | *updater | [180](../../magpie/internal/gui/update_wait.go#L180) |
+| idle | method_declaration |  | [46](../../magpie/internal/gui/update_wait.go#L46) |
+| waitIdle | method_declaration |  | [50](../../magpie/internal/gui/update_wait.go#L50) |
+| cancelWait | method_declaration |  | [70](../../magpie/internal/gui/update_wait.go#L70) |
+| waitingFor | method_declaration |  | [82](../../magpie/internal/gui/update_wait.go#L82) |
+| told | method_declaration |  | [92](../../magpie/internal/gui/update_wait.go#L92) |
+| waitFor | method_declaration |  | [103](../../magpie/internal/gui/update_wait.go#L103) |
+| last | var_spec | waitFor | [104](../../magpie/internal/gui/update_wait.go#L104) |
+| autoTick | method_declaration |  | [162](../../magpie/internal/gui/update_wait.go#L162) |
+| callOff | method_declaration |  | [180](../../magpie/internal/gui/update_wait.go#L180) |

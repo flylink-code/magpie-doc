@@ -11,10 +11,15 @@ Source SHA-256: 3bf851e9760b81ae4632bcfe37128941c0c40f6cb9ace838e166f75e8ad13c9d
 | bedrockBetas | var_spec |  | [26](../../magpie/internal/gateway/betas.go#L26) |
 | bedrockRefuses | var_spec |  | [32](../../magpie/internal/gateway/betas.go#L32) |
 | askedBetas | function_declaration |  | [41](../../magpie/internal/gateway/betas.go#L41) |
+| out | var_spec | askedBetas | [42](../../magpie/internal/gateway/betas.go#L42) |
 | betaKey | function_declaration |  | [54](../../magpie/internal/gateway/betas.go#L54) |
-| betas | method_declaration | *Server | [59](../../magpie/internal/gateway/betas.go#L59) |
-| fitUserBetas | method_declaration | *Server | [89](../../magpie/internal/gateway/betas.go#L89) |
-| bodyBetas | method_declaration | *Server | [107](../../magpie/internal/gateway/betas.go#L107) |
+| betas | method_declaration |  | [59](../../magpie/internal/gateway/betas.go#L59) |
+| out | var_spec | betas | [60](../../magpie/internal/gateway/betas.go#L60) |
+| fitUserBetas | method_declaration |  | [89](../../magpie/internal/gateway/betas.go#L89) |
+| bodyBetas | method_declaration |  | [107](../../magpie/internal/gateway/betas.go#L107) |
+| asked | var_spec | bodyBetas | [115](../../magpie/internal/gateway/betas.go#L115) |
+| m | var_spec | bodyBetas | [125](../../magpie/internal/gateway/betas.go#L125) |
 | unexpectedBetas | var_spec |  | [144](../../magpie/internal/gateway/betas.go#L144) |
 | backquoted | var_spec |  | [146](../../magpie/internal/gateway/betas.go#L146) |
-| refuseBetas | method_declaration | *Server | [150](../../magpie/internal/gateway/betas.go#L150) |
+| refuseBetas | method_declaration |  | [150](../../magpie/internal/gateway/betas.go#L150) |
+| fresh | var_spec | refuseBetas | [155](../../magpie/internal/gateway/betas.go#L155) |

@@ -11,4 +11,4 @@ Source SHA-256: cb80450d411f053b8f34355fdd4e3f4d28988d5b552d9e16bf91b93966e2cbcd
 | zones | var_spec |  | [13](../../magpie/internal/usage/zone.go#L13) |
 | Zone | function_declaration |  | [21](../../magpie/internal/usage/zone.go#L21) |
 | sameClock | function_declaration |  | [43](../../magpie/internal/usage/zone.go#L43) |
-| loc | method_declaration | Filter | [57](../../magpie/internal/usage/zone.go#L57) |
+| loc | method_declaration |  | [57](../../magpie/internal/usage/zone.go#L57) |

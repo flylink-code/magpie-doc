@@ -8,20 +8,24 @@ Source SHA-256: bdb54d49427b7203bc6d99015100c6b8e3a7c766d548b09f585fa7e68fd480a5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Tool | struct_type |  | [24](../../magpie/internal/plugin/tools.go#L24) |
+| Tool | type_spec |  | [24](../../magpie/internal/plugin/tools.go#L24) |
 | Name | field_declaration | Tool | [25](../../magpie/internal/plugin/tools.go#L25) |
 | Description | field_declaration | Tool | [26](../../magpie/internal/plugin/tools.go#L26) |
 | Schema | field_declaration | Tool | [29](../../magpie/internal/plugin/tools.go#L29) |
-| PluginTools | struct_type |  | [33](../../magpie/internal/plugin/tools.go#L33) |
+| PluginTools | type_spec |  | [33](../../magpie/internal/plugin/tools.go#L33) |
 | Spec | field_declaration | PluginTools | [34](../../magpie/internal/plugin/tools.go#L34) |
 | Tools | field_declaration | PluginTools | [35](../../magpie/internal/plugin/tools.go#L35) |
 | Tools | function_declaration |  | [40](../../magpie/internal/plugin/tools.go#L40) |
+| out | var_spec | Tools | [45](../../magpie/internal/plugin/tools.go#L45) |
 | ToolTimeout | var_spec |  | [57](../../magpie/internal/plugin/tools.go#L57) |
 | RunTool | function_declaration |  | [62](../../magpie/internal/plugin/tools.go#L62) |
-| Text | field_declaration | RunTool | [67](../../magpie/internal/plugin/tools.go#L67) |
+| out | var_spec | RunTool | [66](../../magpie/internal/plugin/tools.go#L66) |
+| Text | field_declaration | RunTool::out | [67](../../magpie/internal/plugin/tools.go#L67) |
 | toolsPath | function_declaration |  | [81](../../magpie/internal/plugin/tools.go#L81) |
 | ToolsPath | function_declaration |  | [84](../../magpie/internal/plugin/tools.go#L84) |
 | toolsMu | var_spec |  | [86](../../magpie/internal/plugin/tools.go#L86) |
 | noteTools | function_declaration |  | [89](../../magpie/internal/plugin/tools.go#L89) |
 | ToolsOn | function_declaration |  | [120](../../magpie/internal/plugin/tools.go#L120) |
+| m | var_spec | ToolsOn | [128](../../magpie/internal/plugin/tools.go#L128) |
 | ToolNames | function_declaration |  | [143](../../magpie/internal/plugin/tools.go#L143) |
+| m | var_spec | ToolNames | [148](../../magpie/internal/plugin/tools.go#L148) |

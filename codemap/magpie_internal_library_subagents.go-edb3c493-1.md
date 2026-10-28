@@ -8,14 +8,14 @@ Source SHA-256: c548382c6c6045235bb5fa54cfe6147d5a0bb0763deacdf7046f981587130f65
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Subagent | struct_type |  | [46](../../magpie/internal/library/subagents.go#L46) |
+| Subagent | type_spec |  | [46](../../magpie/internal/library/subagents.go#L46) |
 | Name | field_declaration | Subagent | [47](../../magpie/internal/library/subagents.go#L47) |
 | Description | field_declaration | Subagent | [48](../../magpie/internal/library/subagents.go#L48) |
 | Prompt | field_declaration | Subagent | [49](../../magpie/internal/library/subagents.go#L49) |
 | Skills | field_declaration | Subagent | [50](../../magpie/internal/library/subagents.go#L50) |
 | MCP | field_declaration | Subagent | [51](../../magpie/internal/library/subagents.go#L51) |
 | Agents | field_declaration | Subagent | [52](../../magpie/internal/library/subagents.go#L52) |
-| SubagentFile | struct_type |  | [57](../../magpie/internal/library/subagents.go#L57) |
+| SubagentFile | type_spec |  | [57](../../magpie/internal/library/subagents.go#L57) |
 | Name | field_declaration | SubagentFile | [58](../../magpie/internal/library/subagents.go#L58) |
 | Path | field_declaration | SubagentFile | [59](../../magpie/internal/library/subagents.go#L59) |
 | Hash | field_declaration | SubagentFile | [60](../../magpie/internal/library/subagents.go#L60) |
@@ -24,37 +24,41 @@ Source SHA-256: c548382c6c6045235bb5fa54cfe6147d5a0bb0763deacdf7046f981587130f65
 | maxSubagentDescription | const_spec |  | [72](../../magpie/internal/library/subagents.go#L72) |
 | maxSubagentPrompt | const_spec |  | [73](../../magpie/internal/library/subagents.go#L73) |
 | SubagentAgents | var_spec |  | [78](../../magpie/internal/library/subagents.go#L78) |
-| subagentSpec | struct_type |  | [81](../../magpie/internal/library/subagents.go#L81) |
+| subagentSpec | type_spec |  | [81](../../magpie/internal/library/subagents.go#L81) |
 | dir | field_declaration | subagentSpec | [82](../../magpie/internal/library/subagents.go#L82) |
 | ext | field_declaration | subagentSpec | [83](../../magpie/internal/library/subagents.go#L83) |
 | skills | field_declaration | subagentSpec | [86](../../magpie/internal/library/subagents.go#L86) |
-| mcp | field_declaration | subagentSpec | [86](../../magpie/internal/library/subagents.go#L86) |
 | render | field_declaration | subagentSpec | [87](../../magpie/internal/library/subagents.go#L87) |
-| path | method_declaration | *subagentSpec | [90](../../magpie/internal/library/subagents.go#L90) |
+| path | method_declaration |  | [90](../../magpie/internal/library/subagents.go#L90) |
 | subagentSpecOf | function_declaration |  | [92](../../magpie/internal/library/subagents.go#L92) |
 | yamlStr | function_declaration |  | [158](../../magpie/internal/library/subagents.go#L158) |
+| b | var_spec | yamlStr | [159](../../magpie/internal/library/subagents.go#L159) |
 | yamlList | function_declaration |  | [166](../../magpie/internal/library/subagents.go#L166) |
 | frontmatter | function_declaration |  | [174](../../magpie/internal/library/subagents.go#L174) |
+| b | var_spec | frontmatter | [175](../../magpie/internal/library/subagents.go#L175) |
 | codexRole | function_declaration |  | [188](../../magpie/internal/library/subagents.go#L188) |
 | Name | field_declaration | codexRole | [190](../../magpie/internal/library/subagents.go#L190) |
 | Description | field_declaration | codexRole | [191](../../magpie/internal/library/subagents.go#L191) |
 | DeveloperInstructions | field_declaration | codexRole | [192](../../magpie/internal/library/subagents.go#L192) |
 | subagentHash | function_declaration |  | [197](../../magpie/internal/library/subagents.go#L197) |
-| check | method_declaration | *Subagent | [202](../../magpie/internal/library/subagents.go#L202) |
-| subagent | method_declaration | *Library | [229](../../magpie/internal/library/subagents.go#L229) |
-| renderSubagent | method_declaration | *Library | [240](../../magpie/internal/library/subagents.go#L240) |
-| syncSubagents | method_declaration | *Library | [259](../../magpie/internal/library/subagents.go#L259) |
+| check | method_declaration |  | [202](../../magpie/internal/library/subagents.go#L202) |
+| subagent | method_declaration |  | [229](../../magpie/internal/library/subagents.go#L229) |
+| renderSubagent | method_declaration |  | [240](../../magpie/internal/library/subagents.go#L240) |
+| skills | var_spec | renderSubagent | [241](../../magpie/internal/library/subagents.go#L241) |
+| syncSubagents | method_declaration |  | [259](../../magpie/internal/library/subagents.go#L259) |
+| want | var_spec | syncSubagents | [262](../../magpie/internal/library/subagents.go#L262) |
+| kept | var_spec | syncSubagents | [283](../../magpie/internal/library/subagents.go#L283) |
 | SaveSubagent | function_declaration |  | [372](../../magpie/internal/library/subagents.go#L372) |
 | SubagentAgentsSet | function_declaration |  | [399](../../magpie/internal/library/subagents.go#L399) |
 | RemoveSubagents | function_declaration |  | [417](../../magpie/internal/library/subagents.go#L417) |
-| SubagentView | struct_type |  | [435](../../magpie/internal/library/subagents.go#L435) |
+| SubagentView | type_spec |  | [435](../../magpie/internal/library/subagents.go#L435) |
 | Files | field_declaration | SubagentView | [438](../../magpie/internal/library/subagents.go#L438) |
 | Problems | field_declaration | SubagentView | [440](../../magpie/internal/library/subagents.go#L440) |
-| SubagentAgentView | struct_type |  | [444](../../magpie/internal/library/subagents.go#L444) |
+| SubagentAgentView | type_spec |  | [444](../../magpie/internal/library/subagents.go#L444) |
 | ID | field_declaration | SubagentAgentView | [445](../../magpie/internal/library/subagents.go#L445) |
 | Dir | field_declaration | SubagentAgentView | [447](../../magpie/internal/library/subagents.go#L447) |
 | No | field_declaration | SubagentAgentView | [448](../../magpie/internal/library/subagents.go#L448) |
 | WSL | field_declaration | SubagentAgentView | [449](../../magpie/internal/library/subagents.go#L449) |
 | Skills | field_declaration | SubagentAgentView | [452](../../magpie/internal/library/subagents.go#L452) |
 | MCP | field_declaration | SubagentAgentView | [453](../../magpie/internal/library/subagents.go#L453) |
-| subagentsView | method_declaration | *Library | [456](../../magpie/internal/library/subagents.go#L456) |
+| subagentsView | method_declaration |  | [456](../../magpie/internal/library/subagents.go#L456) |

@@ -11,12 +11,16 @@ Source SHA-256: bb352e4a71041c0879a50d4c30c05e8d3354da80c3a93c668cf61fe6dd270da9
 | rtkReleases | var_spec |  | [38](../../magpie/internal/library/rtk_upgrade.go#L38) |
 | rtkReleasesAPI | var_spec |  | [39](../../magpie/internal/library/rtk_upgrade.go#L39) |
 | rtkLatest | var_spec |  | [44](../../magpie/internal/library/rtk_upgrade.go#L44) |
-| CheckLatest | method_declaration | *RTKView | [57](../../magpie/internal/library/rtk_upgrade.go#L57) |
+| v | field_declaration | rtkLatest | [46](../../magpie/internal/library/rtk_upgrade.go#L46) |
+| next | field_declaration | rtkLatest | [47](../../magpie/internal/library/rtk_upgrade.go#L47) |
+| CheckLatest | method_declaration |  | [57](../../magpie/internal/library/rtk_upgrade.go#L57) |
 | CheckChannel | function_declaration |  | [83](../../magpie/internal/library/rtk_upgrade.go#L83) |
 | upgraderOf | var_spec |  | [94](../../magpie/internal/library/rtk_upgrade.go#L94) |
 | rtkChannelName | function_declaration |  | [99](../../magpie/internal/library/rtk_upgrade.go#L99) |
 | rtkChannels | var_spec |  | [118](../../magpie/internal/library/rtk_upgrade.go#L118) |
-| rtkChannel | struct_type |  | [124](../../magpie/internal/library/rtk_upgrade.go#L124) |
+| m | field_declaration | rtkChannels | [120](../../magpie/internal/library/rtk_upgrade.go#L120) |
+| asking | field_declaration | rtkChannels | [121](../../magpie/internal/library/rtk_upgrade.go#L121) |
+| rtkChannel | type_spec |  | [124](../../magpie/internal/library/rtk_upgrade.go#L124) |
 | v | field_declaration | rtkChannel | [125](../../magpie/internal/library/rtk_upgrade.go#L125) |
 | next | field_declaration | rtkChannel | [126](../../magpie/internal/library/rtk_upgrade.go#L126) |
 | rtkChannelCached | function_declaration |  | [132](../../magpie/internal/library/rtk_upgrade.go#L132) |
@@ -24,44 +28,54 @@ Source SHA-256: bb352e4a71041c0879a50d4c30c05e8d3354da80c3a93c668cf61fe6dd270da9
 | rtkChannelHas | function_declaration |  | [183](../../magpie/internal/library/rtk_upgrade.go#L183) |
 | askRTKChannelNow | var_spec |  | [195](../../magpie/internal/library/rtk_upgrade.go#L195) |
 | askRTKChannel | function_declaration |  | [200](../../magpie/internal/library/rtk_upgrade.go#L200) |
+| args | var_spec | askRTKChannel | [203](../../magpie/internal/library/rtk_upgrade.go#L203) |
 | rtkChannelVersion | function_declaration |  | [226](../../magpie/internal/library/rtk_upgrade.go#L226) |
-| Formulae | field_declaration | rtkChannelVersion | [229](../../magpie/internal/library/rtk_upgrade.go#L229) |
-| Versions | field_declaration | rtkChannelVersion | [230](../../magpie/internal/library/rtk_upgrade.go#L230) |
-| Stable | field_declaration | rtkChannelVersion | [230](../../magpie/internal/library/rtk_upgrade.go#L230) |
+| r | var_spec | rtkChannelVersion | [228](../../magpie/internal/library/rtk_upgrade.go#L228) |
+| Formulae | field_declaration | rtkChannelVersion::r | [229](../../magpie/internal/library/rtk_upgrade.go#L229) |
+| Versions | field_declaration | rtkChannelVersion::r::Formulae | [230](../../magpie/internal/library/rtk_upgrade.go#L230) |
+| Stable | field_declaration | rtkChannelVersion::r::Formulae::Versions | [230](../../magpie/internal/library/rtk_upgrade.go#L230) |
 | RTKLatest | function_declaration |  | [261](../../magpie/internal/library/rtk_upgrade.go#L261) |
 | latestRTK | function_declaration |  | [276](../../magpie/internal/library/rtk_upgrade.go#L276) |
-| Tag | field_declaration | latestRTK | [303](../../magpie/internal/library/rtk_upgrade.go#L303) |
+| r | var_spec | latestRTK | [302](../../magpie/internal/library/rtk_upgrade.go#L302) |
+| Tag | field_declaration | latestRTK::r | [303](../../magpie/internal/library/rtk_upgrade.go#L303) |
 | RTKNewer | function_declaration |  | [316](../../magpie/internal/library/rtk_upgrade.go#L316) |
 | newer | function_declaration |  | [319](../../magpie/internal/library/rtk_upgrade.go#L319) |
+| x | var_spec | newer | [320](../../magpie/internal/library/rtk_upgrade.go#L320) |
 | rtkUpgrader | function_declaration |  | [333](../../magpie/internal/library/rtk_upgrade.go#L333) |
 | rtkWindowsRelease | const_spec |  | [394](../../magpie/internal/library/rtk_upgrade.go#L394) |
 | rtkDownloadBase | var_spec |  | [398](../../magpie/internal/library/rtk_upgrade.go#L398) |
 | rtkDownloadMax | const_spec |  | [402](../../magpie/internal/library/rtk_upgrade.go#L402) |
 | rtkArch | var_spec |  | [407](../../magpie/internal/library/rtk_upgrade.go#L407) |
 | installRTKWindowsRelease | function_declaration |  | [413](../../magpie/internal/library/rtk_upgrade.go#L413) |
+| asset | const_spec | installRTKWindowsRelease | [414](../../magpie/internal/library/rtk_upgrade.go#L414) |
 | rtkFetch | function_declaration |  | [440](../../magpie/internal/library/rtk_upgrade.go#L440) |
 | rtkChecksum | function_declaration |  | [467](../../magpie/internal/library/rtk_upgrade.go#L467) |
 | rtkExeFromZip | function_declaration |  | [479](../../magpie/internal/library/rtk_upgrade.go#L479) |
+| pick | var_spec | rtkExeFromZip | [484](../../magpie/internal/library/rtk_upgrade.go#L484) |
 | replaceRTKBinary | function_declaration |  | [513](../../magpie/internal/library/rtk_upgrade.go#L513) |
 | rtkOnWindows | var_spec |  | [561](../../magpie/internal/library/rtk_upgrade.go#L561) |
 | wingetRecords | var_spec |  | [568](../../magpie/internal/library/rtk_upgrade.go#L568) |
 | rtkWingetOwned | var_spec |  | [573](../../magpie/internal/library/rtk_upgrade.go#L573) |
-| rtkOwned | struct_type |  | [578](../../magpie/internal/library/rtk_upgrade.go#L578) |
+| m | field_declaration | rtkWingetOwned | [575](../../magpie/internal/library/rtk_upgrade.go#L575) |
+| rtkOwned | type_spec |  | [578](../../magpie/internal/library/rtk_upgrade.go#L578) |
 | yes | field_declaration | rtkOwned | [579](../../magpie/internal/library/rtk_upgrade.go#L579) |
-| known | field_declaration | rtkOwned | [579](../../magpie/internal/library/rtk_upgrade.go#L579) |
 | next | field_declaration | rtkOwned | [580](../../magpie/internal/library/rtk_upgrade.go#L580) |
 | wingetOwns | function_declaration |  | [585](../../magpie/internal/library/rtk_upgrade.go#L585) |
 | wingetDisowns | function_declaration |  | [593](../../magpie/internal/library/rtk_upgrade.go#L593) |
 | wingetOwnsRTK | function_declaration |  | [600](../../magpie/internal/library/rtk_upgrade.go#L600) |
 | askWingetOwns | function_declaration |  | [618](../../magpie/internal/library/rtk_upgrade.go#L618) |
+| ee | var_spec | askWingetOwns | [641](../../magpie/internal/library/rtk_upgrade.go#L641) |
 | wingetListTimeout | var_spec |  | [649](../../magpie/internal/library/rtk_upgrade.go#L649) |
 | inFolder | function_declaration |  | [653](../../magpie/internal/library/rtk_upgrade.go#L653) |
 | UpgradeRTK | function_declaration |  | [662](../../magpie/internal/library/rtk_upgrade.go#L662) |
+| env | var_spec | UpgradeRTK | [686](../../magpie/internal/library/rtk_upgrade.go#L686) |
+| ie | var_spec | UpgradeRTK | [698](../../magpie/internal/library/rtk_upgrade.go#L698) |
 | runInstaller | function_declaration |  | [729](../../magpie/internal/library/rtk_upgrade.go#L729) |
-| installError | struct_type |  | [754](../../magpie/internal/library/rtk_upgrade.go#L754) |
+| ee | var_spec | runInstaller | [738](../../magpie/internal/library/rtk_upgrade.go#L738) |
+| installError | type_spec |  | [754](../../magpie/internal/library/rtk_upgrade.go#L754) |
 | code | field_declaration | installError | [755](../../magpie/internal/library/rtk_upgrade.go#L755) |
 | msg | field_declaration | installError | [756](../../magpie/internal/library/rtk_upgrade.go#L756) |
-| Error | method_declaration | *installError | [759](../../magpie/internal/library/rtk_upgrade.go#L759) |
+| Error | method_declaration |  | [759](../../magpie/internal/library/rtk_upgrade.go#L759) |
 | wingetNoUpgrade | const_spec |  | [764](../../magpie/internal/library/rtk_upgrade.go#L764) |
 | wingetNotFound | const_spec |  | [765](../../magpie/internal/library/rtk_upgrade.go#L765) |
 | wingetSays | var_spec |  | [768](../../magpie/internal/library/rtk_upgrade.go#L768) |
@@ -70,3 +84,4 @@ Source SHA-256: bb352e4a71041c0879a50d4c30c05e8d3354da80c3a93c668cf61fe6dd270da9
 | ansiSeq | var_spec |  | [820](../../magpie/internal/library/rtk_upgrade.go#L820) |
 | progressLine | var_spec |  | [823](../../magpie/internal/library/rtk_upgrade.go#L823) |
 | installerSaid | function_declaration |  | [829](../../magpie/internal/library/rtk_upgrade.go#L829) |
+| keep | var_spec | installerSaid | [831](../../magpie/internal/library/rtk_upgrade.go#L831) |

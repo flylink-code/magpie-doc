@@ -10,34 +10,39 @@ Source SHA-256: bf2de83de637a226a01b0d0587ac623d4766fa50471fb4b4dbbc53ccf698c610
 | --- | --- | --- | ---: |
 | errorf | function_declaration |  | [24](../../magpie/internal/provider/models.go#L24) |
 | manyModels | const_spec |  | [27](../../magpie/internal/provider/models.go#L27) |
-| Available | method_declaration | Provider | [32](../../magpie/internal/provider/models.go#L32) |
-| available | method_declaration | Provider | [49](../../magpie/internal/provider/models.go#L49) |
-| firstCatalog | method_declaration | Provider | [120](../../magpie/internal/provider/models.go#L120) |
-| Fetched | method_declaration | Provider | [128](../../magpie/internal/provider/models.go#L128) |
-| Listed | method_declaration | Provider | [135](../../magpie/internal/provider/models.go#L135) |
-| live | method_declaration | Provider | [146](../../magpie/internal/provider/models.go#L146) |
-| live | struct_type | Provider.live | [150](../../magpie/internal/provider/models.go#L150) |
-| ms | field_declaration | Provider.live.live | [151](../../magpie/internal/provider/models.go#L151) |
-| at | field_declaration | Provider.live.live | [152](../../magpie/internal/provider/models.go#L152) |
-| ok | field_declaration | Provider.live.live | [153](../../magpie/internal/provider/models.go#L153) |
-| liveByID | method_declaration | Provider | [161](../../magpie/internal/provider/models.go#L161) |
-| lists | method_declaration | Provider | [170](../../magpie/internal/provider/models.go#L170) |
+| Available | method_declaration |  | [32](../../magpie/internal/provider/models.go#L32) |
+| available | method_declaration |  | [49](../../magpie/internal/provider/models.go#L49) |
+| known | var_spec | available | [51](../../magpie/internal/provider/models.go#L51) |
+| out | var_spec | available | [111](../../magpie/internal/provider/models.go#L111) |
+| firstCatalog | method_declaration |  | [120](../../magpie/internal/provider/models.go#L120) |
+| Fetched | method_declaration |  | [128](../../magpie/internal/provider/models.go#L128) |
+| Listed | method_declaration |  | [135](../../magpie/internal/provider/models.go#L135) |
+| live | method_declaration |  | [146](../../magpie/internal/provider/models.go#L146) |
+| live | type_spec | live | [150](../../magpie/internal/provider/models.go#L150) |
+| ms | field_declaration | live::live | [151](../../magpie/internal/provider/models.go#L151) |
+| at | field_declaration | live::live | [152](../../magpie/internal/provider/models.go#L152) |
+| ok | field_declaration | live::live | [153](../../magpie/internal/provider/models.go#L153) |
+| liveByID | method_declaration |  | [161](../../magpie/internal/provider/models.go#L161) |
+| lists | method_declaration |  | [170](../../magpie/internal/provider/models.go#L170) |
 | listsRead | var_spec |  | [181](../../magpie/internal/provider/models.go#L181) |
 | ListsRead | function_declaration |  | [186](../../magpie/internal/provider/models.go#L186) |
-| liveAll | method_declaration | Provider | [190](../../magpie/internal/provider/models.go#L190) |
-| live | struct_type | Provider.liveAll | [195](../../magpie/internal/provider/models.go#L195) |
-| ms | field_declaration | Provider.liveAll.live | [196](../../magpie/internal/provider/models.go#L196) |
-| ok | field_declaration | Provider.liveAll.live | [197](../../magpie/internal/provider/models.go#L197) |
-| Fetch | method_declaration | Provider | [204](../../magpie/internal/provider/models.go#L204) |
-| Refetch | method_declaration | Provider | [218](../../magpie/internal/provider/models.go#L218) |
-| RefetchTaking | method_declaration | Provider | [226](../../magpie/internal/provider/models.go#L226) |
-| refetch | method_declaration | Provider | [240](../../magpie/internal/provider/models.go#L240) |
+| liveAll | method_declaration |  | [190](../../magpie/internal/provider/models.go#L190) |
+| live | type_spec | liveAll | [195](../../magpie/internal/provider/models.go#L195) |
+| ms | field_declaration | liveAll::live | [196](../../magpie/internal/provider/models.go#L196) |
+| ok | field_declaration | liveAll::live | [197](../../magpie/internal/provider/models.go#L197) |
+| Fetch | method_declaration |  | [204](../../magpie/internal/provider/models.go#L204) |
+| Refetch | method_declaration |  | [218](../../magpie/internal/provider/models.go#L218) |
+| RefetchTaking | method_declaration |  | [226](../../magpie/internal/provider/models.go#L226) |
+| refetch | method_declaration |  | [240](../../magpie/internal/provider/models.go#L240) |
 | liveIDs | function_declaration |  | [288](../../magpie/internal/provider/models.go#L288) |
 | dropGonePicks | function_declaration |  | [303](../../magpie/internal/provider/models.go#L303) |
+| kept | var_spec | dropGonePicks | [313](../../magpie/internal/provider/models.go#L313) |
 | relistPicks | function_declaration |  | [338](../../magpie/internal/provider/models.go#L338) |
-| fetch | method_declaration | Provider | [363](../../magpie/internal/provider/models.go#L363) |
-| List | method_declaration | Provider | [419](../../magpie/internal/provider/models.go#L419) |
+| still | var_spec | relistPicks | [342](../../magpie/internal/provider/models.go#L342) |
+| fetch | method_declaration |  | [363](../../magpie/internal/provider/models.go#L363) |
+| List | method_declaration |  | [419](../../magpie/internal/provider/models.go#L419) |
 | newFetches | var_spec |  | [445](../../magpie/internal/provider/models.go#L445) |
+| m | field_declaration | newFetches | [447](../../magpie/internal/provider/models.go#L447) |
 | newFetchRetry | var_spec |  | [457](../../magpie/internal/provider/models.go#L457) |
 | fetchingNew | var_spec |  | [463](../../magpie/internal/provider/models.go#L463) |
 | newSoonAt | var_spec |  | [464](../../magpie/internal/provider/models.go#L464) |
@@ -49,62 +54,57 @@ Source SHA-256: bf2de83de637a226a01b0d0587ac623d4766fa50471fb4b4dbbc53ccf698c610
 | FetchingNew | function_declaration |  | [542](../../magpie/internal/provider/models.go#L542) |
 | FetchNew | function_declaration |  | [553](../../magpie/internal/provider/models.go#L553) |
 | fetchNewHeld | function_declaration |  | [562](../../magpie/internal/provider/models.go#L562) |
-| newFetch | struct_type |  | [578](../../magpie/internal/provider/models.go#L578) |
+| newFetch | type_spec |  | [578](../../magpie/internal/provider/models.go#L578) |
 | p | field_declaration | newFetch | [579](../../magpie/internal/provider/models.go#L579) |
 | decide | field_declaration | newFetch | [580](../../magpie/internal/provider/models.go#L580) |
 | newDue | function_declaration |  | [585](../../magpie/internal/provider/models.go#L585) |
 | fetchDue | function_declaration |  | [613](../../magpie/internal/provider/models.go#L613) |
-| fetched | struct_type |  | [641](../../magpie/internal/provider/models.go#L641) |
+| err | var_spec | fetchDue | [622](../../magpie/internal/provider/models.go#L622) |
+| fetched | type_spec |  | [641](../../magpie/internal/provider/models.go#L641) |
 | models | field_declaration | fetched | [642](../../magpie/internal/provider/models.go#L642) |
 | base | field_declaration | fetched | [643](../../magpie/internal/provider/models.go#L643) |
 | sides | field_declaration | fetched | [644](../../magpie/internal/provider/models.go#L644) |
 | answered | field_declaration | fetched | [645](../../magpie/internal/provider/models.go#L645) |
-| fetchOne | method_declaration | Provider | [654](../../magpie/internal/provider/models.go#L654) |
-| side | struct_type |  | [840](../../magpie/internal/provider/models.go#L840) |
+| fetchOne | method_declaration |  | [654](../../magpie/internal/provider/models.go#L654) |
+| errs | var_spec | fetchOne | [677](../../magpie/internal/provider/models.go#L677) |
+| out | var_spec | fetchOne | [678](../../magpie/internal/provider/models.go#L678) |
+| base | var_spec | fetchOne | [692](../../magpie/internal/provider/models.go#L692) |
+| sides | var_spec | fetchOne | [693](../../magpie/internal/provider/models.go#L693) |
+| dead | var_spec | fetchOne | [694](../../magpie/internal/provider/models.go#L694) |
+| parts | var_spec | fetchOne | [827](../../magpie/internal/provider/models.go#L827) |
+| side | type_spec |  | [840](../../magpie/internal/provider/models.go#L840) |
 | base | field_declaration | side | [841](../../magpie/internal/provider/models.go#L841) |
 | models | field_declaration | side | [842](../../magpie/internal/provider/models.go#L842) |
 | openRouterHost | const_spec |  | [847](../../magpie/internal/provider/models.go#L847) |
 | openRouterNamespacedErr | function_declaration |  | [868](../../magpie/internal/provider/models.go#L868) |
-| skipOpenRouterAnthropic | method_declaration | Provider | [883](../../magpie/internal/provider/models.go#L883) |
+| skipOpenRouterAnthropic | method_declaration |  | [883](../../magpie/internal/provider/models.go#L883) |
 | sidesOf | function_declaration |  | [894](../../magpie/internal/provider/models.go#L894) |
-| keepDeadSides | method_declaration | Provider | [935](../../magpie/internal/provider/models.go#L935) |
-| planOnly | method_declaration | Provider | [981](../../magpie/internal/provider/models.go#L981) |
-| listRegion | method_declaration | Provider | [993](../../magpie/internal/provider/models.go#L993) |
-| atRegion | method_declaration | Provider | [1004](../../magpie/internal/provider/models.go#L1004) |
-| regionOf | method_declaration | Provider | [1020](../../magpie/internal/provider/models.go#L1020) |
+| keepDeadSides | method_declaration |  | [935](../../magpie/internal/provider/models.go#L935) |
+| out | var_spec | keepDeadSides | [951](../../magpie/internal/provider/models.go#L951) |
+| part | var_spec | keepDeadSides | [964](../../magpie/internal/provider/models.go#L964) |
+| planOnly | method_declaration |  | [981](../../magpie/internal/provider/models.go#L981) |
+| listRegion | method_declaration |  | [993](../../magpie/internal/provider/models.go#L993) |
+| atRegion | method_declaration |  | [1004](../../magpie/internal/provider/models.go#L1004) |
+| regionOf | method_declaration |  | [1020](../../magpie/internal/provider/models.go#L1020) |
+| best | var_spec | regionOf | [1021](../../magpie/internal/provider/models.go#L1021) |
 | basePath | function_declaration |  | [1042](../../magpie/internal/provider/models.go#L1042) |
-| planModels | method_declaration | Provider | [1057](../../magpie/internal/provider/models.go#L1057) |
-| PlanEmbeddings | method_declaration | Provider | [1115](../../magpie/internal/provider/models.go#L1115) |
-| PlanDrawers | method_declaration | Provider | [1121](../../magpie/internal/provider/models.go#L1121) |
-| PlanVideos | method_declaration | Provider | [1127](../../magpie/internal/provider/models.go#L1127) |
-| planMedia | method_declaration | Provider | [1131](../../magpie/internal/provider/models.go#L1131) |
-| fixV1 | method_declaration | Provider | [1167](../../magpie/internal/provider/models.go#L1167) |
-| fetchPerKey | method_declaration | Provider | [1203](../../magpie/internal/provider/models.go#L1203) |
-| deadModel | struct_type | Provider.fetchPerKey | [1214](../../magpie/internal/provider/models.go#L1214) |
-| at | field_declaration | Provider.fetchPerKey.deadModel | [1215](../../magpie/internal/provider/models.go#L1215) |
-| keys | field_declaration | Provider.fetchPerKey.deadModel | [1216](../../magpie/internal/provider/models.go#L1216) |
-| basesOf | function_declaration |  | [1354](../../magpie/internal/provider/models.go#L1354) |
-| sharedImageInput | function_declaration |  | [1370](../../magpie/internal/provider/models.go#L1370) |
-| anyImageInput | function_declaration |  | [1387](../../magpie/internal/provider/models.go#L1387) |
-| Serves | method_declaration | Provider | [1407](../../magpie/internal/provider/models.go#L1407) |
-| Serving | method_declaration | Provider | [1415](../../magpie/internal/provider/models.go#L1415) |
-| keyLists | struct_type |  | [1430](../../magpie/internal/provider/models.go#L1430) |
-| from | field_declaration | keyLists | [1431](../../magpie/internal/provider/models.go#L1431) |
-| listed | field_declaration | keyLists | [1432](../../magpie/internal/provider/models.go#L1432) |
-| of | field_declaration | keyLists | [1433](../../magpie/internal/provider/models.go#L1433) |
-| keyListsMade | var_spec |  | [1439](../../magpie/internal/provider/models.go#L1439) |
-| keyLists | method_declaration | Provider | [1444](../../magpie/internal/provider/models.go#L1444) |
-| ServesNone | method_declaration | Provider | [1469](../../magpie/internal/provider/models.go#L1469) |
-| waitsForPicks | method_declaration | Provider | [1474](../../magpie/internal/provider/models.go#L1474) |
-| Exposed | method_declaration | Provider | [1479](../../magpie/internal/provider/models.go#L1479) |
-| NoAPIFor | method_declaration | Provider | [1548](../../magpie/internal/provider/models.go#L1548) |
-| Picks | method_declaration | Provider | [1564](../../magpie/internal/provider/models.go#L1564) |
-| withNewlyListed | method_declaration | Provider | [1580](../../magpie/internal/provider/models.go#L1580) |
-| RejectsTemperature | method_declaration | Provider | [1627](../../magpie/internal/provider/models.go#L1627) |
-| Efforts | method_declaration | Provider | [1641](../../magpie/internal/provider/models.go#L1641) |
-| Thinks | method_declaration | Provider | [1654](../../magpie/internal/provider/models.go#L1654) |
-| PaidBesideFree | method_declaration | Provider | [1675](../../magpie/internal/provider/models.go#L1675) |
-| FreeModel | method_declaration | Provider | [1697](../../magpie/internal/provider/models.go#L1697) |
-| Known | method_declaration | Provider | [1711](../../magpie/internal/provider/models.go#L1711) |
-| knownElsewhere | method_declaration | Provider | [1730](../../magpie/internal/provider/models.go#L1730) |
-| Levelless | method_declaration | Provider | [1741](../../magpie/internal/provider/models.go#L1741) |
+| planModels | method_declaration |  | [1057](../../magpie/internal/provider/models.go#L1057) |
+| out | var_spec | planModels | [1072](../../magpie/internal/provider/models.go#L1072) |
+| PlanEmbeddings | method_declaration |  | [1115](../../magpie/internal/provider/models.go#L1115) |
+| PlanDrawers | method_declaration |  | [1121](../../magpie/internal/provider/models.go#L1121) |
+| PlanVideos | method_declaration |  | [1127](../../magpie/internal/provider/models.go#L1127) |
+| planMedia | method_declaration |  | [1131](../../magpie/internal/provider/models.go#L1131) |
+| out | var_spec | planMedia | [1141](../../magpie/internal/provider/models.go#L1141) |
+| fixV1 | method_declaration |  | [1167](../../magpie/internal/provider/models.go#L1167) |
+| fetchPerKey | method_declaration |  | [1203](../../magpie/internal/provider/models.go#L1203) |
+| out | var_spec | fetchPerKey | [1208](../../magpie/internal/provider/models.go#L1208) |
+| from | var_spec | fetchPerKey | [1209](../../magpie/internal/provider/models.go#L1209) |
+| deadModel | type_spec | fetchPerKey | [1214](../../magpie/internal/provider/models.go#L1214) |
+| at | field_declaration | fetchPerKey::deadModel | [1215](../../magpie/internal/provider/models.go#L1215) |
+| keys | field_declaration | fetchPerKey::deadModel | [1216](../../magpie/internal/provider/models.go#L1216) |
+| deadKept | var_spec | fetchPerKey | [1218](../../magpie/internal/provider/models.go#L1218) |
+| has | var_spec | fetchPerKey | [1223](../../magpie/internal/provider/models.go#L1223) |
+| oldOf | var_spec | fetchPerKey | [1242](../../magpie/internal/provider/models.go#L1242) |
+| base | var_spec | fetchPerKey | [1244](../../magpie/internal/provider/models.go#L1244) |
+| lastErr | var_spec | fetchPerKey | [1245](../../magpie/internal/provider/models.go#L1245) |
+| l | var_spec | fetchPerKey | [1249](../../magpie/internal/provider/models.go#L1249) |

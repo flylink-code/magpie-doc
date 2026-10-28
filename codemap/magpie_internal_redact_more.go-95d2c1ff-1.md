@@ -9,7 +9,7 @@ Source SHA-256: 45b48000ed772462e07290d19b942cc29764285ce5dfdfcace3fed6a7a9bde47
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | catPersonal | const_spec |  | [28](../../magpie/internal/redact/more.go#L28) |
-| Category | struct_type |  | [33](../../magpie/internal/redact/more.go#L33) |
+| Category | type_spec |  | [33](../../magpie/internal/redact/more.go#L33) |
 | ID | field_declaration | Category | [34](../../magpie/internal/redact/more.go#L34) |
 | Kinds | field_declaration | Category | [35](../../magpie/internal/redact/more.go#L35) |
 | On | field_declaration | Category | [36](../../magpie/internal/redact/more.go#L36) |
@@ -46,7 +46,7 @@ Source SHA-256: 45b48000ed772462e07290d19b942cc29764285ce5dfdfcace3fed6a7a9bde47
 | publicHosts | var_spec |  | [365](../../magpie/internal/redact/more.go#L365) |
 | hostOK | function_declaration |  | [371](../../magpie/internal/redact/more.go#L371) |
 | notIPs | var_spec |  | [389](../../magpie/internal/redact/more.go#L389) |
-| out | var_spec |  | [390](../../magpie/internal/redact/more.go#L390) |
+| out | var_spec | notIPs | [390](../../magpie/internal/redact/more.go#L390) |
 | resolvers | var_spec |  | [400](../../magpie/internal/redact/more.go#L400) |
 | publicIP | function_declaration |  | [407](../../magpie/internal/redact/more.go#L407) |
 | ipv4At | function_declaration |  | [427](../../magpie/internal/redact/more.go#L427) |

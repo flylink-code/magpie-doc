@@ -8,8 +8,18 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| dshPiLevels | type_spec |  | [1445](../../magpie/internal/agent/dsh.go#L1445) |
+| Off | field_declaration | dshPiLevels | [1446](../../magpie/internal/agent/dsh.go#L1446) |
+| Minimal | field_declaration | dshPiLevels | [1447](../../magpie/internal/agent/dsh.go#L1447) |
+| Low | field_declaration | dshPiLevels | [1448](../../magpie/internal/agent/dsh.go#L1448) |
+| Medium | field_declaration | dshPiLevels | [1449](../../magpie/internal/agent/dsh.go#L1449) |
+| High | field_declaration | dshPiLevels | [1450](../../magpie/internal/agent/dsh.go#L1450) |
+| XHigh | field_declaration | dshPiLevels | [1451](../../magpie/internal/agent/dsh.go#L1451) |
+| Max | field_declaration | dshPiLevels | [1452](../../magpie/internal/agent/dsh.go#L1452) |
 | dshThinking | var_spec |  | [1456](../../magpie/internal/agent/dsh.go#L1456) |
 | dshModelLevels | function_declaration |  | [1460](../../magpie/internal/agent/dsh.go#L1460) |
+| levels | var_spec | dshModelLevels | [1461](../../magpie/internal/agent/dsh.go#L1461) |
+| out | var_spec | dshModelLevels | [1462](../../magpie/internal/agent/dsh.go#L1462) |
 | dshLevels | function_declaration |  | [1497](../../magpie/internal/agent/dsh.go#L1497) |
 | dshMaxTokens | function_declaration |  | [1522](../../magpie/internal/agent/dsh.go#L1522) |
 | dshHeadroom | const_spec |  | [1532](../../magpie/internal/agent/dsh.go#L1532) |
@@ -30,32 +40,39 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshWiredEvery | const_spec |  | [1827](../../magpie/internal/agent/dsh.go#L1827) |
 | KeepDshWired | function_declaration |  | [1835](../../magpie/internal/agent/dsh.go#L1835) |
 | keepDshWired | function_declaration |  | [1842](../../magpie/internal/agent/dsh.go#L1842) |
-| dshSaidOnce | struct_type |  | [1860](../../magpie/internal/agent/dsh.go#L1860) |
+| said | var_spec | keepDshWired | [1843](../../magpie/internal/agent/dsh.go#L1843) |
+| rounds | var_spec | keepDshWired | [1844](../../magpie/internal/agent/dsh.go#L1844) |
+| dshSaidOnce | type_spec |  | [1860](../../magpie/internal/agent/dsh.go#L1860) |
 | last | field_declaration | dshSaidOnce | [1860](../../magpie/internal/agent/dsh.go#L1860) |
-| first | method_declaration | *dshSaidOnce | [1863](../../magpie/internal/agent/dsh.go#L1863) |
+| first | method_declaration |  | [1863](../../magpie/internal/agent/dsh.go#L1863) |
 | dshModelsFor | const_spec |  | [1875](../../magpie/internal/agent/dsh.go#L1875) |
-| dshRounds | struct_type |  | [1884](../../magpie/internal/agent/dsh.go#L1884) |
+| dshRounds | type_spec |  | [1884](../../magpie/internal/agent/dsh.go#L1884) |
 | models | field_declaration | dshRounds | [1886](../../magpie/internal/agent/dsh.go#L1886) |
 | stamp | field_declaration | dshRounds | [1887](../../magpie/internal/agent/dsh.go#L1887) |
 | at | field_declaration | dshRounds | [1888](../../magpie/internal/agent/dsh.go#L1888) |
 | built | field_declaration | dshRounds | [1889](../../magpie/internal/agent/dsh.go#L1889) |
 | last | field_declaration | dshRounds | [1892](../../magpie/internal/agent/dsh.go#L1892) |
 | done | field_declaration | dshRounds | [1893](../../magpie/internal/agent/dsh.go#L1893) |
-| dshRoundKey | struct_type |  | [1898](../../magpie/internal/agent/dsh.go#L1898) |
+| dshRoundKey | type_spec |  | [1898](../../magpie/internal/agent/dsh.go#L1898) |
 | files | field_declaration | dshRoundKey | [1899](../../magpie/internal/agent/dsh.go#L1899) |
 | gw | field_declaration | dshRoundKey | [1900](../../magpie/internal/agent/dsh.go#L1900) |
 | models | field_declaration | dshRoundKey | [1901](../../magpie/internal/agent/dsh.go#L1901) |
 | dshSumSeed | var_spec |  | [1904](../../magpie/internal/agent/dsh.go#L1904) |
 | dshFilesSum | function_declaration |  | [1911](../../magpie/internal/agent/dsh.go#L1911) |
+| h | var_spec | dshFilesSum | [1912](../../magpie/internal/agent/dsh.go#L1912) |
 | dshModelsSum | function_declaration |  | [1938](../../magpie/internal/agent/dsh.go#L1938) |
 | dshWiredOnce | function_declaration |  | [1948](../../magpie/internal/agent/dsh.go#L1948) |
-| once | method_declaration | *dshRounds | [1955](../../magpie/internal/agent/dsh.go#L1955) |
+| r | var_spec | dshWiredOnce | [1949](../../magpie/internal/agent/dsh.go#L1949) |
+| once | method_declaration |  | [1955](../../magpie/internal/agent/dsh.go#L1955) |
 | dshWiredWith | function_declaration |  | [1987](../../magpie/internal/agent/dsh.go#L1987) |
+| trouble | var_spec | dshWiredWith | [1988](../../magpie/internal/agent/dsh.go#L1988) |
 | dshWriteError | function_declaration |  | [2028](../../magpie/internal/agent/dsh.go#L2028) |
+| pe | var_spec | dshWriteError | [2029](../../magpie/internal/agent/dsh.go#L2029) |
 | dshHome | function_declaration |  | [2037](../../magpie/internal/agent/dsh.go#L2037) |
 | dshMove | function_declaration |  | [2050](../../magpie/internal/agent/dsh.go#L2050) |
 | dshSyncLegacy | function_declaration |  | [2075](../../magpie/internal/agent/dsh.go#L2075) |
 | dshFillNewProfiles | function_declaration |  | [2099](../../magpie/internal/agent/dsh.go#L2099) |
+| bare | var_spec | dshFillNewProfiles | [2104](../../magpie/internal/agent/dsh.go#L2104) |
 | dshEfforts | var_spec |  | [2148](../../magpie/internal/agent/dsh.go#L2148) |
 | dshEffortIn | function_declaration |  | [2152](../../magpie/internal/agent/dsh.go#L2152) |
 | dshEffortOf | function_declaration |  | [2167](../../magpie/internal/agent/dsh.go#L2167) |

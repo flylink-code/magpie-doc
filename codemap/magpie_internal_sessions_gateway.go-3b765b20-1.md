@@ -15,7 +15,7 @@ Source SHA-256: a9442217706af154508bc9e21b1269710c8cc22bab4b98c6c8756521cb46ec75
 | gatewaySessionMax | const_spec |  | [31](../../magpie/internal/sessions/gateway.go#L31) |
 | gatewayMu | var_spec |  | [33](../../magpie/internal/sessions/gateway.go#L33) |
 | gatewayGeneration | var_spec |  | [34](../../magpie/internal/sessions/gateway.go#L34) |
-| GatewayTurn | struct_type |  | [38](../../magpie/internal/sessions/gateway.go#L38) |
+| GatewayTurn | type_spec |  | [38](../../magpie/internal/sessions/gateway.go#L38) |
 | Agent | field_declaration | GatewayTurn | [39](../../magpie/internal/sessions/gateway.go#L39) |
 | Session | field_declaration | GatewayTurn | [40](../../magpie/internal/sessions/gateway.go#L40) |
 | Time | field_declaration | GatewayTurn | [41](../../magpie/internal/sessions/gateway.go#L41) |
@@ -31,11 +31,23 @@ Source SHA-256: a9442217706af154508bc9e21b1269710c8cc22bab4b98c6c8756521cb46ec75
 | SaveGatewayTurnGeneration | function_declaration |  | [72](../../magpie/internal/sessions/gateway.go#L72) |
 | saveGatewayTurn | function_declaration |  | [76](../../magpie/internal/sessions/gateway.go#L76) |
 | gatewayCompleteSize | function_declaration |  | [166](../../magpie/internal/sessions/gateway.go#L166) |
+| last | var_spec | gatewayCompleteSize | [170](../../magpie/internal/sessions/gateway.go#L170) |
 | SetGatewayRecording | function_declaration |  | [192](../../magpie/internal/sessions/gateway.go#L192) |
 | HasGatewayConversations | function_declaration |  | [212](../../magpie/internal/sessions/gateway.go#L212) |
 | PruneGatewayConversations | function_declaration |  | [231](../../magpie/internal/sessions/gateway.go#L231) |
-| saved | struct_type | PruneGatewayConversations | [243](../../magpie/internal/sessions/gateway.go#L243) |
-| path | field_declaration | PruneGatewayConversations.saved | [244](../../magpie/internal/sessions/gateway.go#L244) |
-| info | field_declaration | PruneGatewayConversations.saved | [245](../../magpie/internal/sessions/gateway.go#L245) |
-| expired | field_declaration | PruneGatewayConversations.saved | [246](../../magpie/internal/sessions/gateway.go#L246) |
+| saved | type_spec | PruneGatewayConversations | [243](../../magpie/internal/sessions/gateway.go#L243) |
+| path | field_declaration | PruneGatewayConversations::saved | [244](../../magpie/internal/sessions/gateway.go#L244) |
+| info | field_declaration | PruneGatewayConversations::saved | [245](../../magpie/internal/sessions/gateway.go#L245) |
+| expired | field_declaration | PruneGatewayConversations::saved | [246](../../magpie/internal/sessions/gateway.go#L246) |
+| files | var_spec | PruneGatewayConversations | [248](../../magpie/internal/sessions/gateway.go#L248) |
+| total | var_spec | PruneGatewayConversations | [249](../../magpie/internal/sessions/gateway.go#L249) |
 | GatewayTranscript | function_declaration |  | [315](../../magpie/internal/sessions/gateway.go#L315) |
+| paths | var_spec | GatewayTranscript | [323](../../magpie/internal/sessions/gateway.go#L323) |
+| turns | var_spec | GatewayTranscript | [339](../../magpie/internal/sessions/gateway.go#L339) |
+| info | var_spec | GatewayTranscript | [357](../../magpie/internal/sessions/gateway.go#L357) |
+| end | var_spec | GatewayTranscript | [367](../../magpie/internal/sessions/gateway.go#L367) |
+| turn | var_spec | GatewayTranscript | [377](../../magpie/internal/sessions/gateway.go#L377) |
+| data | var_spec | GatewayTranscript | [387](../../magpie/internal/sessions/gateway.go#L387) |
+| turn | var_spec | GatewayTranscript | [389](../../magpie/internal/sessions/gateway.go#L389) |
+| previous | var_spec | GatewayTranscript | [407](../../magpie/internal/sessions/gateway.go#L407) |
+| context | var_spec | GatewayTranscript | [413](../../magpie/internal/sessions/gateway.go#L413) |

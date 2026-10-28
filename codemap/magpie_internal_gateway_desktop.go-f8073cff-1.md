@@ -39,17 +39,29 @@ Source SHA-256: 5095d0230cb7f5e0f501481d8fa7f85462e93aab3b555bc696d30f497929e2ee
 | desktopTierTurn | function_declaration |  | [365](../../magpie/internal/gateway/desktop.go#L365) |
 | desktopNames | function_declaration |  | [383](../../magpie/internal/gateway/desktop.go#L383) |
 | aliased | function_declaration |  | [402](../../magpie/internal/gateway/desktop.go#L402) |
+| number | var_spec | aliased | [404](../../magpie/internal/gateway/desktop.go#L404) |
 | isClaudeDesktop | function_declaration |  | [431](../../magpie/internal/gateway/desktop.go#L431) |
 | desktopPicked | var_spec |  | [453](../../magpie/internal/gateway/desktop.go#L453) |
+| model | field_declaration | desktopPicked | [455](../../magpie/internal/gateway/desktop.go#L455) |
+| from | field_declaration | desktopPicked | [456](../../magpie/internal/gateway/desktop.go#L456) |
 | desktopPickedPath | function_declaration |  | [459](../../magpie/internal/gateway/desktop.go#L459) |
 | desktopTurn | function_declaration |  | [479](../../magpie/internal/gateway/desktop.go#L479) |
 | servedBeside | function_declaration |  | [537](../../magpie/internal/gateway/desktop.go#L537) |
+| pid | var_spec | servedBeside | [543](../../magpie/internal/gateway/desktop.go#L543) |
 | desktopDefault | function_declaration |  | [579](../../magpie/internal/gateway/desktop.go#L579) |
 | desktopTitlePrompt | const_spec |  | [595](../../magpie/internal/gateway/desktop.go#L595) |
 | desktopTitle | function_declaration |  | [599](../../magpie/internal/gateway/desktop.go#L599) |
-| System | field_declaration | desktopTitle | [604](../../magpie/internal/gateway/desktop.go#L604) |
-| Text | field_declaration | desktopTitle | [614](../../magpie/internal/gateway/desktop.go#L614) |
+| v | var_spec | desktopTitle | [603](../../magpie/internal/gateway/desktop.go#L603) |
+| System | field_declaration | desktopTitle::v | [604](../../magpie/internal/gateway/desktop.go#L604) |
+| text | var_spec | desktopTitle | [609](../../magpie/internal/gateway/desktop.go#L609) |
+| blocks | var_spec | desktopTitle | [613](../../magpie/internal/gateway/desktop.go#L613) |
+| Text | field_declaration | desktopTitle::blocks | [614](../../magpie/internal/gateway/desktop.go#L614) |
 | small | function_declaration |  | [629](../../magpie/internal/gateway/desktop.go#L629) |
-| MaxTokens | field_declaration | small | [631](../../magpie/internal/gateway/desktop.go#L631) |
+| v | var_spec | small | [630](../../magpie/internal/gateway/desktop.go#L630) |
+| MaxTokens | field_declaration | small::v | [631](../../magpie/internal/gateway/desktop.go#L631) |
 | hasTools | function_declaration |  | [638](../../magpie/internal/gateway/desktop.go#L638) |
-| Tools | field_declaration | hasTools | [643](../../magpie/internal/gateway/desktop.go#L643) |
+| v | var_spec | hasTools | [642](../../magpie/internal/gateway/desktop.go#L642) |
+| Tools | field_declaration | hasTools::v | [643](../../magpie/internal/gateway/desktop.go#L643) |
+
+Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 312: ERROR

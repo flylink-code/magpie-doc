@@ -12,44 +12,45 @@ Source SHA-256: c7d416ff2471839b63ad53a728e2f62dc14134069590af3cdb168ab2a1a1f6b7
 | file | const_spec |  | [23](../../magpie/internal/davsync/dav.go#L23) |
 | errChanged | var_spec |  | [28](../../magpie/internal/davsync/dav.go#L28) |
 | errNotModified | var_spec |  | [32](../../magpie/internal/davsync/dav.go#L32) |
-| version | struct_type |  | [38](../../magpie/internal/davsync/dav.go#L38) |
+| version | type_spec |  | [38](../../magpie/internal/davsync/dav.go#L38) |
 | ETag | field_declaration | version | [39](../../magpie/internal/davsync/dav.go#L39) |
 | Modified | field_declaration | version | [40](../../magpie/internal/davsync/dav.go#L40) |
 | Blind | field_declaration | version | [45](../../magpie/internal/davsync/dav.go#L45) |
-| conditions | method_declaration | version | [49](../../magpie/internal/davsync/dav.go#L49) |
+| conditions | method_declaration |  | [49](../../magpie/internal/davsync/dav.go#L49) |
 | versionOf | function_declaration |  | [61](../../magpie/internal/davsync/dav.go#L61) |
-| rateLimited | struct_type |  | [80](../../magpie/internal/davsync/dav.go#L80) |
+| rateLimited | type_spec |  | [80](../../magpie/internal/davsync/dav.go#L80) |
 | kind | field_declaration | rateLimited | [81](../../magpie/internal/davsync/dav.go#L81) |
 | status | field_declaration | rateLimited | [82](../../magpie/internal/davsync/dav.go#L82) |
 | after | field_declaration | rateLimited | [83](../../magpie/internal/davsync/dav.go#L83) |
-| Error | method_declaration | *rateLimited | [86](../../magpie/internal/davsync/dav.go#L86) |
+| Error | method_declaration |  | [86](../../magpie/internal/davsync/dav.go#L86) |
 | limited | function_declaration |  | [95](../../magpie/internal/davsync/dav.go#L95) |
 | retryAfter | function_declaration |  | [104](../../magpie/internal/davsync/dav.go#L104) |
-| remote | interface_type |  | [116](../../magpie/internal/davsync/dav.go#L116) |
-| get | method_spec | remote | [120](../../magpie/internal/davsync/dav.go#L120) |
-| put | method_spec | remote | [124](../../magpie/internal/davsync/dav.go#L124) |
+| remote | type_spec |  | [116](../../magpie/internal/davsync/dav.go#L116) |
 | newRemote | function_declaration |  | [128](../../magpie/internal/davsync/dav.go#L128) |
-| dav | struct_type |  | [138](../../magpie/internal/davsync/dav.go#L138) |
+| dav | type_spec |  | [138](../../magpie/internal/davsync/dav.go#L138) |
 | base | field_declaration | dav | [139](../../magpie/internal/davsync/dav.go#L139) |
 | user | field_declaration | dav | [140](../../magpie/internal/davsync/dav.go#L140) |
-| pass | field_declaration | dav | [140](../../magpie/internal/davsync/dav.go#L140) |
 | client | field_declaration | dav | [141](../../magpie/internal/davsync/dav.go#L141) |
 | newDAV | function_declaration |  | [144](../../magpie/internal/davsync/dav.go#L144) |
-| url | method_declaration | *dav | [153](../../magpie/internal/davsync/dav.go#L153) |
-| do | method_declaration | *dav | [159](../../magpie/internal/davsync/dav.go#L159) |
-| send | method_declaration | *dav | [170](../../magpie/internal/davsync/dav.go#L170) |
+| url | method_declaration |  | [153](../../magpie/internal/davsync/dav.go#L153) |
+| do | method_declaration |  | [159](../../magpie/internal/davsync/dav.go#L159) |
+| send | method_declaration |  | [170](../../magpie/internal/davsync/dav.go#L170) |
+| r | var_spec | send | [171](../../magpie/internal/davsync/dav.go#L171) |
 | errLogin | var_spec |  | [200](../../magpie/internal/davsync/dav.go#L200) |
-| forbidden | method_declaration | *dav | [205](../../magpie/internal/davsync/dav.go#L205) |
-| there | method_declaration | *dav | [233](../../magpie/internal/davsync/dav.go#L233) |
-| get | method_declaration | *dav | [261](../../magpie/internal/davsync/dav.go#L261) |
-| put | method_declaration | *dav | [319](../../magpie/internal/davsync/dav.go#L319) |
-| check | method_declaration | *dav | [379](../../magpie/internal/davsync/dav.go#L379) |
-| length | method_declaration | *dav | [411](../../magpie/internal/davsync/dav.go#L411) |
-| Responses | field_declaration | *dav.length | [421](../../magpie/internal/davsync/dav.go#L421) |
-| Length | field_declaration | *dav.length | [422](../../magpie/internal/davsync/dav.go#L422) |
-| mkcol | method_declaration | *dav | [436](../../magpie/internal/davsync/dav.go#L436) |
-| nowhere | method_declaration | *dav | [455](../../magpie/internal/davsync/dav.go#L455) |
-| folders | method_declaration | *dav | [475](../../magpie/internal/davsync/dav.go#L475) |
-| Responses | field_declaration | *dav.folders | [493](../../magpie/internal/davsync/dav.go#L493) |
-| Href | field_declaration | *dav.folders | [494](../../magpie/internal/davsync/dav.go#L494) |
-| Collection | field_declaration | *dav.folders | [495](../../magpie/internal/davsync/dav.go#L495) |
+| forbidden | method_declaration |  | [205](../../magpie/internal/davsync/dav.go#L205) |
+| there | method_declaration |  | [233](../../magpie/internal/davsync/dav.go#L233) |
+| get | method_declaration |  | [261](../../magpie/internal/davsync/dav.go#L261) |
+| put | method_declaration |  | [319](../../magpie/internal/davsync/dav.go#L319) |
+| check | method_declaration |  | [379](../../magpie/internal/davsync/dav.go#L379) |
+| length | method_declaration |  | [411](../../magpie/internal/davsync/dav.go#L411) |
+| ms | var_spec | length | [420](../../magpie/internal/davsync/dav.go#L420) |
+| Responses | field_declaration | length::ms | [421](../../magpie/internal/davsync/dav.go#L421) |
+| Length | field_declaration | length::ms::Responses | [422](../../magpie/internal/davsync/dav.go#L422) |
+| mkcol | method_declaration |  | [436](../../magpie/internal/davsync/dav.go#L436) |
+| nowhere | method_declaration |  | [455](../../magpie/internal/davsync/dav.go#L455) |
+| folders | method_declaration |  | [475](../../magpie/internal/davsync/dav.go#L475) |
+| ms | var_spec | folders | [492](../../magpie/internal/davsync/dav.go#L492) |
+| Responses | field_declaration | folders::ms | [493](../../magpie/internal/davsync/dav.go#L493) |
+| Href | field_declaration | folders::ms::Responses | [494](../../magpie/internal/davsync/dav.go#L494) |
+| Collection | field_declaration | folders::ms::Responses | [495](../../magpie/internal/davsync/dav.go#L495) |
+| out | var_spec | folders | [502](../../magpie/internal/davsync/dav.go#L502) |

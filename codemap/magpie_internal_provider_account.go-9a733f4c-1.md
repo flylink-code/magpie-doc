@@ -8,7 +8,7 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Account | struct_type |  | [46](../../magpie/internal/provider/account.go#L46) |
+| Account | type_spec |  | [46](../../magpie/internal/provider/account.go#L46) |
 | Agent | field_declaration | Account | [47](../../magpie/internal/provider/account.go#L47) |
 | User | field_declaration | Account | [48](../../magpie/internal/provider/account.go#L48) |
 | Plan | field_declaration | Account | [49](../../magpie/internal/provider/account.go#L49) |
@@ -34,16 +34,18 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 | moved | field_declaration | Account | [119](../../magpie/internal/provider/account.go#L119) |
 | transport | field_declaration | Account | [120](../../magpie/internal/provider/account.go#L120) |
 | clientFor | field_declaration | Account | [123](../../magpie/internal/provider/account.go#L123) |
-| APIs | method_declaration | Provider | [131](../../magpie/internal/provider/account.go#L131) |
-| ListedAPIs | method_declaration | Provider | [141](../../magpie/internal/provider/account.go#L141) |
-| Sign | method_declaration | Provider | [195](../../magpie/internal/provider/account.go#L195) |
+| APIs | method_declaration |  | [131](../../magpie/internal/provider/account.go#L131) |
+| ListedAPIs | method_declaration |  | [141](../../magpie/internal/provider/account.go#L141) |
+| Sign | method_declaration |  | [195](../../magpie/internal/provider/account.go#L195) |
 | ListHeader | function_declaration |  | [240](../../magpie/internal/provider/account.go#L240) |
 | MergeList | function_declaration |  | [245](../../magpie/internal/provider/account.go#L245) |
-| Retries | method_declaration | Provider | [268](../../magpie/internal/provider/account.go#L268) |
-| Retry | method_declaration | Provider | [272](../../magpie/internal/provider/account.go#L272) |
-| Explain | method_declaration | Provider | [281](../../magpie/internal/provider/account.go#L281) |
-| Prepare | method_declaration | Provider | [292](../../magpie/internal/provider/account.go#L292) |
-| Exclusion | struct_type |  | [300](../../magpie/internal/provider/account.go#L300) |
+| vals | var_spec | MergeList | [246](../../magpie/internal/provider/account.go#L246) |
+| out | var_spec | MergeList | [253](../../magpie/internal/provider/account.go#L253) |
+| Retries | method_declaration |  | [268](../../magpie/internal/provider/account.go#L268) |
+| Retry | method_declaration |  | [272](../../magpie/internal/provider/account.go#L272) |
+| Explain | method_declaration |  | [281](../../magpie/internal/provider/account.go#L281) |
+| Prepare | method_declaration |  | [292](../../magpie/internal/provider/account.go#L292) |
+| Exclusion | type_spec |  | [300](../../magpie/internal/provider/account.go#L300) |
 | Agent | field_declaration | Exclusion | [301](../../magpie/internal/provider/account.go#L301) |
 | Provider | field_declaration | Exclusion | [302](../../magpie/internal/provider/account.go#L302) |
 | Name | field_declaration | Exclusion | [305](../../magpie/internal/provider/account.go#L305) |
@@ -54,6 +56,7 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 | Tucked | field_declaration | Exclusion | [318](../../magpie/internal/provider/account.go#L318) |
 | Retry | field_declaration | Exclusion | [322](../../magpie/internal/provider/account.go#L322) |
 | Excluded | function_declaration |  | [328](../../magpie/internal/provider/account.go#L328) |
+| out | var_spec | Excluded | [329](../../magpie/internal/provider/account.go#L329) |
 | claudeBase | var_spec |  | [342](../../magpie/internal/provider/account.go#L342) |
 | claudeKeychain | var_spec |  | [346](../../magpie/internal/provider/account.go#L346) |
 | claudeStatusMu | var_spec |  | [349](../../magpie/internal/provider/account.go#L349) |
@@ -72,7 +75,7 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 | claudeAskAt | var_spec |  | [364](../../magpie/internal/provider/account.go#L364) |
 | claudeCacheTTL | const_spec |  | [369](../../magpie/internal/provider/account.go#L369) |
 | keychainDeniedTTL | const_spec |  | [375](../../magpie/internal/provider/account.go#L375) |
-| claudeAuth | struct_type |  | [377](../../magpie/internal/provider/account.go#L377) |
+| claudeAuth | type_spec |  | [377](../../magpie/internal/provider/account.go#L377) |
 | AccessToken | field_declaration | claudeAuth | [378](../../magpie/internal/provider/account.go#L378) |
 | RefreshToken | field_declaration | claudeAuth | [379](../../magpie/internal/provider/account.go#L379) |
 | ExpiresAt | field_declaration | claudeAuth | [380](../../magpie/internal/provider/account.go#L380) |
@@ -80,31 +83,28 @@ Source SHA-256: 26832d539b1e9f98af4f5411cbb1e5e7979fb96d651891453c98133cc11ae3a9
 | Scopes | field_declaration | claudeAuth | [382](../../magpie/internal/provider/account.go#L382) |
 | SubscriptionType | field_declaration | claudeAuth | [383](../../magpie/internal/provider/account.go#L383) |
 | RateLimitTier | field_declaration | claudeAuth | [384](../../magpie/internal/provider/account.go#L384) |
-| claudeCredentials | struct_type |  | [389](../../magpie/internal/provider/account.go#L389) |
+| claudeCredentials | type_spec |  | [389](../../magpie/internal/provider/account.go#L389) |
 | raw | field_declaration | claudeCredentials | [390](../../magpie/internal/provider/account.go#L390) |
 | OAuth | field_declaration | claudeCredentials | [391](../../magpie/internal/provider/account.go#L391) |
 | parseClaudeCredentials | function_declaration |  | [394](../../magpie/internal/provider/account.go#L394) |
-| marshal | method_declaration | claudeCredentials | [409](../../magpie/internal/provider/account.go#L409) |
-| claudeCredentialLocation | struct_type |  | [438](../../magpie/internal/provider/account.go#L438) |
+| raw | var_spec | parseClaudeCredentials | [395](../../magpie/internal/provider/account.go#L395) |
+| marshal | method_declaration |  | [409](../../magpie/internal/provider/account.go#L409) |
+| claudeCredentialLocation | type_spec |  | [438](../../magpie/internal/provider/account.go#L438) |
 | path | field_declaration | claudeCredentialLocation | [439](../../magpie/internal/provider/account.go#L439) |
 | account | field_declaration | claudeCredentialLocation | [440](../../magpie/internal/provider/account.go#L440) |
 | keychain | field_declaration | claudeCredentialLocation | [441](../../magpie/internal/provider/account.go#L441) |
 | claudeCredentialsPath | function_declaration |  | [446](../../magpie/internal/provider/account.go#L446) |
 | readClaudeCredential | function_declaration |  | [450](../../magpie/internal/provider/account.go#L450) |
-| claudeKeychainItem | struct_type |  | [503](../../magpie/internal/provider/account.go#L503) |
+| mine | var_spec | readClaudeCredential | [454](../../magpie/internal/provider/account.go#L454) |
+| claudeKeychainItem | type_spec |  | [503](../../magpie/internal/provider/account.go#L503) |
 | c | field_declaration | claudeKeychainItem | [504](../../magpie/internal/provider/account.go#L504) |
 | loc | field_declaration | claudeKeychainItem | [505](../../magpie/internal/provider/account.go#L505) |
 | ok | field_declaration | claudeKeychainItem | [506](../../magpie/internal/provider/account.go#L506) |
-| found | field_declaration | claudeKeychainItem | [506](../../magpie/internal/provider/account.go#L506) |
 | hex | field_declaration | claudeKeychainItem | [507](../../magpie/internal/provider/account.go#L507) |
 | keychainDenied | function_declaration |  | [513](../../magpie/internal/provider/account.go#L513) |
+| xe | var_spec | keychainDenied | [514](../../magpie/internal/provider/account.go#L514) |
 | readClaudeKeychainItem | function_declaration |  | [521](../../magpie/internal/provider/account.go#L521) |
 | claudeHomeService | function_declaration |  | [550](../../magpie/internal/provider/account.go#L550) |
 | claudeKeychainAccount | function_declaration |  | [560](../../magpie/internal/provider/account.go#L560) |
 | keychainAccountRe | var_spec |  | [573](../../magpie/internal/provider/account.go#L573) |
 | keychainText | function_declaration |  | [577](../../magpie/internal/provider/account.go#L577) |
-| claudeCredential | function_declaration |  | [588](../../magpie/internal/provider/account.go#L588) |
-| cacheClaudeCredential | function_declaration |  | [611](../../magpie/internal/provider/account.go#L611) |
-| forgetClaudeCredential | function_declaration |  | [618](../../magpie/internal/provider/account.go#L618) |
-| saveClaudeCredential | function_declaration |  | [627](../../magpie/internal/provider/account.go#L627) |
-| writeClaudeCredential | function_declaration |  | [636](../../magpie/internal/provider/account.go#L636) |

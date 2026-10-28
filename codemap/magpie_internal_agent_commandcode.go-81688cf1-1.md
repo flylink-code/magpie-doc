@@ -11,8 +11,12 @@ Source SHA-256: 4514ab156b8188f67e157ff2776ffd965783f9ff90f0ad63c9eec7e2820e527c
 | ccEfforts | var_spec |  | [22](../../magpie/internal/agent/commandcode.go#L22) |
 | commandCode | function_declaration |  | [24](../../magpie/internal/agent/commandcode.go#L24) |
 | commandCodeIn | function_declaration |  | [29](../../magpie/internal/agent/commandcode.go#L29) |
+| out | var_spec | commandCodeIn | [96](../../magpie/internal/agent/commandcode.go#L96) |
+| efforts | var_spec | commandCodeIn | [130](../../magpie/internal/agent/commandcode.go#L130) |
 | ccProviderJSONAt | function_declaration |  | [150](../../magpie/internal/agent/commandcode.go#L150) |
+| efforts | var_spec | ccProviderJSONAt | [154](../../magpie/internal/agent/commandcode.go#L154) |
 | ccEffortMap | function_declaration |  | [177](../../magpie/internal/agent/commandcode.go#L177) |
-| Efforts | field_declaration | ccEffortMap | [184](../../magpie/internal/agent/commandcode.go#L184) |
+| c | var_spec | ccEffortMap | [183](../../magpie/internal/agent/commandcode.go#L183) |
+| Efforts | field_declaration | ccEffortMap::c | [184](../../magpie/internal/agent/commandcode.go#L184) |
 | noticeCommandcode1 | var_spec |  | [199](../../magpie/internal/agent/commandcode.go#L199) |
 | noticeCommandcode2 | var_spec |  | [200](../../magpie/internal/agent/commandcode.go#L200) |

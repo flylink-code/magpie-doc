@@ -10,13 +10,13 @@ Source SHA-256: 35a6b15267b1b54e2416af515400d66ce4e6b7625b04c50e75f19eba1d0cbdd3
 | --- | --- | --- | ---: |
 | ProviderKey | const_spec |  | [25](../../magpie/internal/qoder/endpoints.go#L25) |
 | CNProviderKey | const_spec |  | [29](../../magpie/internal/qoder/endpoints.go#L29) |
-| Site | struct_type |  | [32](../../magpie/internal/qoder/endpoints.go#L32) |
+| Site | type_spec |  | [32](../../magpie/internal/qoder/endpoints.go#L32) |
 | ID | field_declaration | Site | [33](../../magpie/internal/qoder/endpoints.go#L33) |
 | Name | field_declaration | Site | [34](../../magpie/internal/qoder/endpoints.go#L34) |
 | Global | var_spec |  | [38](../../magpie/internal/qoder/endpoints.go#L38) |
 | CN | var_spec |  | [41](../../magpie/internal/qoder/endpoints.go#L41) |
 | SiteOf | function_declaration |  | [45](../../magpie/internal/qoder/endpoints.go#L45) |
-| Credential | struct_type |  | [53](../../magpie/internal/qoder/endpoints.go#L53) |
+| Credential | type_spec |  | [53](../../magpie/internal/qoder/endpoints.go#L53) |
 | UID | field_declaration | Credential | [54](../../magpie/internal/qoder/endpoints.go#L54) |
 | Email | field_declaration | Credential | [55](../../magpie/internal/qoder/endpoints.go#L55) |
 | Name | field_declaration | Credential | [56](../../magpie/internal/qoder/endpoints.go#L56) |
@@ -30,3 +30,4 @@ Source SHA-256: 35a6b15267b1b54e2416af515400d66ce4e6b7625b04c50e75f19eba1d0cbdd3
 | Site | field_declaration | Credential | [66](../../magpie/internal/qoder/endpoints.go#L66) |
 | DeviceChat | field_declaration | Credential | [69](../../magpie/internal/qoder/endpoints.go#L69) |
 | NewMachineID | function_declaration |  | [74](../../magpie/internal/qoder/endpoints.go#L74) |
+| b | var_spec | NewMachineID | [75](../../magpie/internal/qoder/endpoints.go#L75) |

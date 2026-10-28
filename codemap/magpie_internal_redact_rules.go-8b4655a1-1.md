@@ -8,7 +8,7 @@ Source SHA-256: 51a4415d832340c0aacfefa053f3c5c7cebb5af7eecf7d3bf299ad691b94a87c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Rule | struct_type |  | [15](../../magpie/internal/redact/rules.go#L15) |
+| Rule | type_spec |  | [15](../../magpie/internal/redact/rules.go#L15) |
 | Kind | field_declaration | Rule | [16](../../magpie/internal/redact/rules.go#L16) |
 | Prefix | field_declaration | Rule | [17](../../magpie/internal/redact/rules.go#L17) |
 | Regex | field_declaration | Rule | [20](../../magpie/internal/redact/rules.go#L20) |
@@ -21,8 +21,11 @@ Source SHA-256: 51a4415d832340c0aacfefa053f3c5c7cebb5af7eecf7d3bf299ad691b94a87c
 | customKind | const_spec |  | [31](../../magpie/internal/redact/rules.go#L31) |
 | minCustomLen | const_spec |  | [32](../../magpie/internal/redact/rules.go#L32) |
 | RuleKind | function_declaration |  | [37](../../magpie/internal/redact/rules.go#L37) |
+| b | var_spec | RuleKind | [38](../../magpie/internal/redact/rules.go#L38) |
 | KindName | function_declaration |  | [62](../../magpie/internal/redact/rules.go#L62) |
 | CheckRules | function_declaration |  | [68](../../magpie/internal/redact/rules.go#L68) |
-| compile | method_declaration | Rule | [106](../../magpie/internal/redact/rules.go#L106) |
+| out | var_spec | CheckRules | [69](../../magpie/internal/redact/rules.go#L69) |
+| compile | method_declaration |  | [106](../../magpie/internal/redact/rules.go#L106) |
 | compiled | var_spec |  | [116](../../magpie/internal/redact/rules.go#L116) |
 | customRules | function_declaration |  | [119](../../magpie/internal/redact/rules.go#L119) |
+| out | var_spec | customRules | [120](../../magpie/internal/redact/rules.go#L120) |

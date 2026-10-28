@@ -8,34 +8,37 @@ Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Head | field_declaration | Hit | [627](../../magpie/internal/redact/redact.go#L627) |
-| Len | field_declaration | Hit | [628](../../magpie/internal/redact/redact.go#L628) |
-| Value | function_declaration |  | [633](../../magpie/internal/redact/redact.go#L633) |
-| Hint | function_declaration |  | [643](../../magpie/internal/redact/redact.go#L643) |
 | anyCases | var_spec |  | [668](../../magpie/internal/redact/redact.go#L668) |
 | anyCase | function_declaration |  | [672](../../magpie/internal/redact/redact.go#L672) |
 | Mask | function_declaration |  | [682](../../magpie/internal/redact/redact.go#L682) |
 | Preview | function_declaration |  | [690](../../magpie/internal/redact/redact.go#L690) |
 | mask | function_declaration |  | [719](../../magpie/internal/redact/redact.go#L719) |
+| found | var_spec | mask | [728](../../magpie/internal/redact/redact.go#L728) |
+| split | var_spec | mask | [758](../../magpie/internal/redact/redact.go#L758) |
+| good | var_spec | mask | [800](../../magpie/internal/redact/redact.go#L800) |
 | unescapedView | function_declaration |  | [837](../../magpie/internal/redact/redact.go#L837) |
 | unescapedPut | function_declaration |  | [867](../../magpie/internal/redact/redact.go#L867) |
+| u | var_spec | unescapedPut | [870](../../magpie/internal/redact/redact.go#L870) |
 | outsideEscapes | function_declaration |  | [889](../../magpie/internal/redact/redact.go#L889) |
-| edges | struct_type | outsideEscapes | [895](../../magpie/internal/redact/redact.go#L895) |
-| from | field_declaration | outsideEscapes.edges | [895](../../magpie/internal/redact/redact.go#L895) |
-| to | field_declaration | outsideEscapes.edges | [895](../../magpie/internal/redact/redact.go#L895) |
+| edges | type_spec | outsideEscapes | [895](../../magpie/internal/redact/redact.go#L895) |
+| from | field_declaration | outsideEscapes::edges | [895](../../magpie/internal/redact/redact.go#L895) |
 | noNumbers | function_declaration |  | [937](../../magpie/internal/redact/redact.go#L937) |
 | jsonNumber | function_declaration |  | [949](../../magpie/internal/redact/redact.go#L949) |
 | inDecimal | function_declaration |  | [990](../../magpie/internal/redact/redact.go#L990) |
-| by | method_declaration | rule | [997](../../magpie/internal/redact/redact.go#L997) |
-| matches | method_declaration | rule | [1007](../../magpie/internal/redact/redact.go#L1007) |
+| by | method_declaration |  | [997](../../magpie/internal/redact/redact.go#L997) |
+| matches | method_declaration |  | [1007](../../magpie/internal/redact/redact.go#L1007) |
+| wins | var_spec | matches | [1011](../../magpie/internal/redact/redact.go#L1011) |
+| out | var_spec | matches | [1041](../../magpie/internal/redact/redact.go#L1041) |
 | lowerASCII | function_declaration |  | [1062](../../magpie/internal/redact/redact.go#L1062) |
-| takes | method_declaration | rule | [1074](../../magpie/internal/redact/redact.go#L1074) |
+| takes | method_declaration |  | [1074](../../magpie/internal/redact/redact.go#L1074) |
 | apply | function_declaration |  | [1091](../../magpie/internal/redact/redact.go#L1091) |
-| allows | method_declaration | Options | [1151](../../magpie/internal/redact/redact.go#L1151) |
+| b | var_spec | apply | [1114](../../magpie/internal/redact/redact.go#L1114) |
+| allows | method_declaration |  | [1151](../../magpie/internal/redact/redact.go#L1151) |
 | containsAny | function_declaration |  | [1160](../../magpie/internal/redact/redact.go#L1160) |
 | placeholderBody | var_spec |  | [1173](../../magpie/internal/redact/redact.go#L1173) |
 | Restore | function_declaration |  | [1183](../../magpie/internal/redact/redact.go#L1183) |
 | restore | function_declaration |  | [1187](../../magpie/internal/redact/redact.go#L1187) |
+| b | var_spec | restore | [1197](../../magpie/internal/redact/redact.go#L1197) |
 | canonical | function_declaration |  | [1231](../../magpie/internal/redact/redact.go#L1231) |
 | isWordByte | function_declaration |  | [1236](../../magpie/internal/redact/redact.go#L1236) |
 | braces | function_declaration |  | [1244](../../magpie/internal/redact/redact.go#L1244) |

@@ -10,10 +10,12 @@ Source SHA-256: a025ebb46577d5618bea3f0170b76121013101c1941d0598b5abde7b705002c4
 | --- | --- | --- | ---: |
 | piLevels | var_spec |  | [20](../../magpie/internal/agent/pi.go#L20) |
 | piScope | function_declaration |  | [24](../../magpie/internal/agent/pi.go#L24) |
+| pats | var_spec | piScope | [29](../../magpie/internal/agent/pi.go#L29) |
 | piTakes | function_declaration |  | [42](../../magpie/internal/agent/pi.go#L42) |
 | piScopeWith | function_declaration |  | [65](../../magpie/internal/agent/pi.go#L65) |
 | piScopeWithout | function_declaration |  | [76](../../magpie/internal/agent/pi.go#L76) |
 | piStartup | function_declaration |  | [96](../../magpie/internal/agent/pi.go#L96) |
 | piOffered | function_declaration |  | [115](../../magpie/internal/agent/pi.go#L115) |
 | piSupported | function_declaration |  | [132](../../magpie/internal/agent/pi.go#L132) |
+| out | var_spec | piSupported | [137](../../magpie/internal/agent/pi.go#L137) |
 | piClamp | function_declaration |  | [151](../../magpie/internal/agent/pi.go#L151) |

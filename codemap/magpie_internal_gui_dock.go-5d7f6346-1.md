@@ -8,7 +8,7 @@ Source SHA-256: cff9f6b75f27f6f422080d7381739e5358fd2310cbe4e92c5050036233f9553e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dockMove | struct_type |  | [4](../../magpie/internal/gui/dock.go#L4) |
+| dockMove | type_spec |  | [4](../../magpie/internal/gui/dock.go#L4) |
 | policy | field_declaration | dockMove | [5](../../magpie/internal/gui/dock.go#L5) |
 | again | field_declaration | dockMove | [6](../../magpie/internal/gui/dock.go#L6) |
 | front | field_declaration | dockMove | [7](../../magpie/internal/gui/dock.go#L7) |

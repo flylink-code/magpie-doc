@@ -8,13 +8,14 @@ Source SHA-256: 39688c0b2ef7c557a8e798a2bda881cd1f18ecff9b55ff1e2e5f4c26831d64e0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| privacyModelJSON | struct_type |  | [16](../../magpie/internal/gui/privacymodel.go#L16) |
+| privacyModelJSON | type_spec |  | [16](../../magpie/internal/gui/privacymodel.go#L16) |
 | On | field_declaration | privacyModelJSON | [17](../../magpie/internal/gui/privacymodel.go#L17) |
 | Models | field_declaration | privacyModelJSON | [19](../../magpie/internal/gui/privacymodel.go#L19) |
 | modelOf | var_spec |  | [23](../../magpie/internal/gui/privacymodel.go#L23) |
-| models | var_spec |  | [23](../../magpie/internal/gui/privacymodel.go#L23) |
 | privacyModelState | function_declaration |  | [25](../../magpie/internal/gui/privacymodel.go#L25) |
 | privacyModelRoutes | function_declaration |  | [42](../../magpie/internal/gui/privacymodel.go#L42) |
-| Do | field_declaration | privacyModelRoutes | [48](../../magpie/internal/gui/privacymodel.go#L48) |
-| Model | field_declaration | privacyModelRoutes | [49](../../magpie/internal/gui/privacymodel.go#L49) |
+| in | var_spec | privacyModelRoutes | [47](../../magpie/internal/gui/privacymodel.go#L47) |
+| Do | field_declaration | privacyModelRoutes::in | [48](../../magpie/internal/gui/privacymodel.go#L48) |
+| Model | field_declaration | privacyModelRoutes::in | [49](../../magpie/internal/gui/privacymodel.go#L49) |
+| err | var_spec | privacyModelRoutes | [61](../../magpie/internal/gui/privacymodel.go#L61) |
 | turnOn | function_declaration |  | [113](../../magpie/internal/gui/privacymodel.go#L113) |

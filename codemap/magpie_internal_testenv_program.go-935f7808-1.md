@@ -12,6 +12,10 @@ Source SHA-256: 3612b97e9e08d39a3d7ff4d155bacfc871bdd998295522c68cada4c1c0b3b4d6
 | WriteProgram | function_declaration |  | [42](../../magpie/internal/testenv/program.go#L42) |
 | RemovePrograms | function_declaration |  | [79](../../magpie/internal/testenv/program.go#L79) |
 | pool | var_spec |  | [91](../../magpie/internal/testenv/program.go#L91) |
+| dir | field_declaration | pool | [93](../../magpie/internal/testenv/program.go#L93) |
+| n | field_declaration | pool | [94](../../magpie/internal/testenv/program.go#L94) |
+| free | field_declaration | pool | [95](../../magpie/internal/testenv/program.go#L95) |
+| ran | field_declaration | pool | [96](../../magpie/internal/testenv/program.go#L96) |
 | ran | function_declaration |  | [101](../../magpie/internal/testenv/program.go#L101) |
 | warmAt | function_declaration |  | [111](../../magpie/internal/testenv/program.go#L111) |
 | record | function_declaration |  | [139](../../magpie/internal/testenv/program.go#L139) |

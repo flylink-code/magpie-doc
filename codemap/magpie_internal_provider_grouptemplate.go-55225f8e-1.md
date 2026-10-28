@@ -14,7 +14,7 @@ Source SHA-256: 2be0460445ab0f17c34ebcda3b73e448c1136cd4d5ead3601cacda788348ca16
 | TemplateKinds | var_spec |  | [38](../../magpie/internal/provider/grouptemplate.go#L38) |
 | IntentHard | const_spec |  | [44](../../magpie/internal/provider/grouptemplate.go#L44) |
 | IntentEasy | const_spec |  | [45](../../magpie/internal/provider/grouptemplate.go#L45) |
-| Template | struct_type |  | [49](../../magpie/internal/provider/grouptemplate.go#L49) |
+| Template | type_spec |  | [49](../../magpie/internal/provider/grouptemplate.go#L49) |
 | Kind | field_declaration | Template | [50](../../magpie/internal/provider/grouptemplate.go#L50) |
 | Group | field_declaration | Template | [53](../../magpie/internal/provider/grouptemplate.go#L53) |
 | Why | field_declaration | Template | [54](../../magpie/internal/provider/grouptemplate.go#L54) |
@@ -28,17 +28,21 @@ Source SHA-256: 2be0460445ab0f17c34ebcda3b73e448c1136cd4d5ead3601cacda788348ca16
 | tinyWords | var_spec |  | [78](../../magpie/internal/provider/grouptemplate.go#L78) |
 | sizeWord | var_spec |  | [79](../../magpie/internal/provider/grouptemplate.go#L79) |
 | sizeOf | function_declaration |  | [83](../../magpie/internal/provider/grouptemplate.go#L83) |
+| b | var_spec | sizeOf | [88](../../magpie/internal/provider/grouptemplate.go#L88) |
 | frontierOut | const_spec |  | [105](../../magpie/internal/provider/grouptemplate.go#L105) |
 | tooDear | const_spec |  | [106](../../magpie/internal/provider/grouptemplate.go#L106) |
-| rated | struct_type |  | [110](../../magpie/internal/provider/grouptemplate.go#L110) |
+| rated | type_spec |  | [110](../../magpie/internal/provider/grouptemplate.go#L110) |
 | e | field_declaration | rated | [111](../../magpie/internal/provider/grouptemplate.go#L111) |
 | out | field_declaration | rated | [112](../../magpie/internal/provider/grouptemplate.go#L112) |
 | maker | field_declaration | rated | [115](../../magpie/internal/provider/grouptemplate.go#L115) |
 | small | field_declaration | rated | [116](../../magpie/internal/provider/grouptemplate.go#L116) |
 | tiny | field_declaration | rated | [117](../../magpie/internal/provider/grouptemplate.go#L117) |
 | templateModels | function_declaration |  | [124](../../magpie/internal/provider/grouptemplate.go#L124) |
+| out | var_spec | templateModels | [126](../../magpie/internal/provider/grouptemplate.go#L126) |
 | strongest | function_declaration |  | [147](../../magpie/internal/provider/grouptemplate.go#L147) |
+| out | var_spec | strongest | [148](../../magpie/internal/provider/grouptemplate.go#L148) |
 | cheapest | function_declaration |  | [170](../../magpie/internal/provider/grouptemplate.go#L170) |
+| out | var_spec | cheapest | [171](../../magpie/internal/provider/grouptemplate.go#L171) |
 | bareModel | function_declaration |  | [196](../../magpie/internal/provider/grouptemplate.go#L196) |
 | btoi | function_declaration |  | [200](../../magpie/internal/provider/grouptemplate.go#L200) |
 | Templates | function_declaration |  | [208](../../magpie/internal/provider/grouptemplate.go#L208) |
@@ -47,4 +51,5 @@ Source SHA-256: 2be0460445ab0f17c34ebcda3b73e448c1136cd4d5ead3601cacda788348ca16
 | TemplateIDs | var_spec |  | [240](../../magpie/internal/provider/grouptemplate.go#L240) |
 | templateOf | function_declaration |  | [244](../../magpie/internal/provider/grouptemplate.go#L244) |
 | classifierFor | function_declaration |  | [314](../../magpie/internal/provider/grouptemplate.go#L314) |
+| pick | var_spec | classifierFor | [318](../../magpie/internal/provider/grouptemplate.go#L318) |
 | AddTemplate | function_declaration |  | [334](../../magpie/internal/provider/grouptemplate.go#L334) |

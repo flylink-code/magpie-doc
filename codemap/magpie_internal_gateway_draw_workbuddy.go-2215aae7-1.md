@@ -11,29 +11,35 @@ Source SHA-256: a40b767685815ed764275e06c2d90ca50edfe50cf99aad2ee1d794135a69fdda
 | wbImagesFor | const_spec |  | [39](../../magpie/internal/gateway/draw_workbuddy.go#L39) |
 | wbImagesRetry | const_spec |  | [40](../../magpie/internal/gateway/draw_workbuddy.go#L40) |
 | drawsWorkBuddy | function_declaration |  | [45](../../magpie/internal/gateway/draw_workbuddy.go#L45) |
-| wbImageModel | struct_type |  | [50](../../magpie/internal/gateway/draw_workbuddy.go#L50) |
+| wbImageModel | type_spec |  | [50](../../magpie/internal/gateway/draw_workbuddy.go#L50) |
 | ID | field_declaration | wbImageModel | [51](../../magpie/internal/gateway/draw_workbuddy.go#L51) |
 | Name | field_declaration | wbImageModel | [52](../../magpie/internal/gateway/draw_workbuddy.go#L52) |
 | Tags | field_declaration | wbImageModel | [53](../../magpie/internal/gateway/draw_workbuddy.go#L53) |
-| tagged | method_declaration | wbImageModel | [56](../../magpie/internal/gateway/draw_workbuddy.go#L56) |
+| tagged | method_declaration |  | [56](../../magpie/internal/gateway/draw_workbuddy.go#L56) |
 | wbEditor | function_declaration |  | [63](../../magpie/internal/gateway/draw_workbuddy.go#L63) |
-| wbImageList | struct_type |  | [78](../../magpie/internal/gateway/draw_workbuddy.go#L78) |
+| wbImageList | type_spec |  | [78](../../magpie/internal/gateway/draw_workbuddy.go#L78) |
 | models | field_declaration | wbImageList | [79](../../magpie/internal/gateway/draw_workbuddy.go#L79) |
 | at | field_declaration | wbImageList | [80](../../magpie/internal/gateway/draw_workbuddy.go#L80) |
 | err | field_declaration | wbImageList | [81](../../magpie/internal/gateway/draw_workbuddy.go#L81) |
 | asking | field_declaration | wbImageList | [82](../../magpie/internal/gateway/draw_workbuddy.go#L82) |
 | wbImages | var_spec |  | [85](../../magpie/internal/gateway/draw_workbuddy.go#L85) |
+| m | field_declaration | wbImages | [87](../../magpie/internal/gateway/draw_workbuddy.go#L87) |
 | wbConfigClient | var_spec |  | [92](../../magpie/internal/gateway/draw_workbuddy.go#L92) |
 | wbImagesKey | function_declaration |  | [97](../../magpie/internal/gateway/draw_workbuddy.go#L97) |
 | wbImageModelsOf | function_declaration |  | [103](../../magpie/internal/gateway/draw_workbuddy.go#L103) |
 | wbAskImages | function_declaration |  | [144](../../magpie/internal/gateway/draw_workbuddy.go#L144) |
 | wbFetchImageModels | function_declaration |  | [165](../../magpie/internal/gateway/draw_workbuddy.go#L165) |
-| Code | field_declaration | wbFetchImageModels | [189](../../magpie/internal/gateway/draw_workbuddy.go#L189) |
-| Msg | field_declaration | wbFetchImageModels | [190](../../magpie/internal/gateway/draw_workbuddy.go#L190) |
-| Data | field_declaration | wbFetchImageModels | [191](../../magpie/internal/gateway/draw_workbuddy.go#L191) |
-| Models | field_declaration | wbFetchImageModels | [192](../../magpie/internal/gateway/draw_workbuddy.go#L192) |
+| env | var_spec | wbFetchImageModels | [188](../../magpie/internal/gateway/draw_workbuddy.go#L188) |
+| Code | field_declaration | wbFetchImageModels::env | [189](../../magpie/internal/gateway/draw_workbuddy.go#L189) |
+| Msg | field_declaration | wbFetchImageModels::env | [190](../../magpie/internal/gateway/draw_workbuddy.go#L190) |
+| Data | field_declaration | wbFetchImageModels::env | [191](../../magpie/internal/gateway/draw_workbuddy.go#L191) |
+| Models | field_declaration | wbFetchImageModels::env::Data | [192](../../magpie/internal/gateway/draw_workbuddy.go#L192) |
+| out | var_spec | wbFetchImageModels | [201](../../magpie/internal/gateway/draw_workbuddy.go#L201) |
 | wbDrawers | function_declaration |  | [214](../../magpie/internal/gateway/draw_workbuddy.go#L214) |
-| drawWorkBuddy | method_declaration | *Server | [230](../../magpie/internal/gateway/draw_workbuddy.go#L230) |
-| Code | field_declaration | *Server.drawWorkBuddy | [273](../../magpie/internal/gateway/draw_workbuddy.go#L273) |
-| Msg | field_declaration | *Server.drawWorkBuddy | [274](../../magpie/internal/gateway/draw_workbuddy.go#L274) |
-| Data | field_declaration | *Server.drawWorkBuddy | [275](../../magpie/internal/gateway/draw_workbuddy.go#L275) |
+| out | var_spec | wbDrawers | [216](../../magpie/internal/gateway/draw_workbuddy.go#L216) |
+| drawWorkBuddy | method_declaration |  | [230](../../magpie/internal/gateway/draw_workbuddy.go#L230) |
+| imgs | var_spec | drawWorkBuddy | [256](../../magpie/internal/gateway/draw_workbuddy.go#L256) |
+| env | var_spec | drawWorkBuddy | [272](../../magpie/internal/gateway/draw_workbuddy.go#L272) |
+| Code | field_declaration | drawWorkBuddy::env | [273](../../magpie/internal/gateway/draw_workbuddy.go#L273) |
+| Msg | field_declaration | drawWorkBuddy::env | [274](../../magpie/internal/gateway/draw_workbuddy.go#L274) |
+| Data | field_declaration | drawWorkBuddy::env | [275](../../magpie/internal/gateway/draw_workbuddy.go#L275) |

@@ -10,17 +10,18 @@ Source SHA-256: eeaa0d1e60952ea6b95cb2604961b73b9f36490385767a8532aa3221b21c16b2
 | --- | --- | --- | ---: |
 | labels | var_spec |  | [15](../../magpie/internal/pii/guard/guard.go#L15) |
 | Files | var_spec |  | [23](../../magpie/internal/pii/guard/guard.go#L23) |
-| Model | struct_type |  | [26](../../magpie/internal/pii/guard/guard.go#L26) |
+| Model | type_spec |  | [26](../../magpie/internal/pii/guard/guard.go#L26) |
 | tok | field_declaration | Model | [27](../../magpie/internal/pii/guard/guard.go#L27) |
 | net | field_declaration | Model | [28](../../magpie/internal/pii/guard/guard.go#L28) |
-| Span | struct_type |  | [35](../../magpie/internal/pii/guard/guard.go#L35) |
+| Span | type_spec |  | [35](../../magpie/internal/pii/guard/guard.go#L35) |
 | Start | field_declaration | Span | [36](../../magpie/internal/pii/guard/guard.go#L36) |
-| End | field_declaration | Span | [36](../../magpie/internal/pii/guard/guard.go#L36) |
 | Label | field_declaration | Span | [37](../../magpie/internal/pii/guard/guard.go#L37) |
 | Score | field_declaration | Span | [38](../../magpie/internal/pii/guard/guard.go#L38) |
 | MinScore | const_spec |  | [43](../../magpie/internal/pii/guard/guard.go#L43) |
 | window | const_spec |  | [49](../../magpie/internal/pii/guard/guard.go#L49) |
 | overlap | const_spec |  | [50](../../magpie/internal/pii/guard/guard.go#L50) |
 | Load | function_declaration |  | [54](../../magpie/internal/pii/guard/guard.go#L54) |
-| Find | method_declaration | *Model | [70](../../magpie/internal/pii/guard/guard.go#L70) |
+| Find | method_declaration |  | [70](../../magpie/internal/pii/guard/guard.go#L70) |
+| sum | var_spec | Find | [105](../../magpie/internal/pii/guard/guard.go#L105) |
 | decode | function_declaration |  | [123](../../magpie/internal/pii/guard/guard.go#L123) |
+| spans | var_spec | decode | [124](../../magpie/internal/pii/guard/guard.go#L124) |

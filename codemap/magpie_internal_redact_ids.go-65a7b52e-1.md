@@ -14,3 +14,4 @@ Source SHA-256: 6bbb845e684b8972f8da4443e8bd4fa66c295a5917c48030784073e2d115146a
 | idShaped | function_declaration |  | [88](../../magpie/internal/redact/ids.go#L88) |
 | credentialField | function_declaration |  | [95](../../magpie/internal/redact/ids.go#L95) |
 | nameWords | function_declaration |  | [131](../../magpie/internal/redact/ids.go#L131) |
+| out | var_spec | nameWords | [132](../../magpie/internal/redact/ids.go#L132) |

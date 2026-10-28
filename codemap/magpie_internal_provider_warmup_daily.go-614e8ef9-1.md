@@ -10,7 +10,9 @@ Source SHA-256: 28508b24765f7831e558fce6c9f931abbb36c4cdbb972eb5528b6059a012cd5a
 | --- | --- | --- | ---: |
 | dailySlack | const_spec |  | [37](../../magpie/internal/provider/warmup_daily.go#L37) |
 | dayStart | function_declaration |  | [41](../../magpie/internal/provider/warmup_daily.go#L41) |
+| latest | var_spec | dayStart | [42](../../magpie/internal/provider/warmup_daily.go#L42) |
 | nextDayStart | function_declaration |  | [63](../../magpie/internal/provider/warmup_daily.go#L63) |
+| first | var_spec | nextDayStart | [64](../../magpie/internal/provider/warmup_daily.go#L64) |
 | startKey | function_declaration |  | [82](../../magpie/internal/provider/warmup_daily.go#L82) |
 | hadStart | function_declaration |  | [88](../../magpie/internal/provider/warmup_daily.go#L88) |
 | dailyDue | function_declaration |  | [97](../../magpie/internal/provider/warmup_daily.go#L97) |

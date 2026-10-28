@@ -11,15 +11,13 @@ Source SHA-256: 1936c3f6daba422dcc3877c9b787bfc8fed3b01792cb4a6342b58a2f4e643a5e
 | RefTokens | const_spec |  | [39](../../magpie/internal/routes/fastest.go#L39) |
 | ProbeEvery | const_spec |  | [43](../../magpie/internal/routes/fastest.go#L43) |
 | alike | const_spec |  | [47](../../magpie/internal/routes/fastest.go#L47) |
-| probe | struct_type |  | [49](../../magpie/internal/routes/fastest.go#L49) |
+| probe | type_spec |  | [49](../../magpie/internal/routes/fastest.go#L49) |
 | n | field_declaration | probe | [50](../../magpie/internal/routes/fastest.go#L50) |
 | turns | field_declaration | probe | [51](../../magpie/internal/routes/fastest.go#L51) |
 | probes | var_spec |  | [54](../../magpie/internal/routes/fastest.go#L54) |
+| m | field_declaration | probes | [56](../../magpie/internal/routes/fastest.go#L56) |
 | Fastest | var_spec |  | [60](../../magpie/internal/routes/fastest.go#L60) |
-| fast | var_spec |  | [61](../../magpie/internal/routes/fastest.go#L61) |
-| unmeasured | var_spec |  | [61](../../magpie/internal/routes/fastest.go#L61) |
-| resting | var_spec |  | [61](../../magpie/internal/routes/fastest.go#L61) |
-| spent | var_spec |  | [61](../../magpie/internal/routes/fastest.go#L61) |
-| paces | var_spec |  | [77](../../magpie/internal/routes/fastest.go#L77) |
+| fast | var_spec | Fastest | [61](../../magpie/internal/routes/fastest.go#L61) |
+| paces | var_spec | Fastest | [77](../../magpie/internal/routes/fastest.go#L77) |
 | Estimate | function_declaration |  | [129](../../magpie/internal/routes/fastest.go#L129) |
 | deleted | function_declaration |  | [140](../../magpie/internal/routes/fastest.go#L140) |

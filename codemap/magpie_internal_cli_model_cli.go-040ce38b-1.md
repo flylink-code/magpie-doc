@@ -15,8 +15,14 @@ Source SHA-256: 34953a131efb981c004686c2aa6cbc49871bda4ad1a009e16490f6ccf2ef947d
 | isReset | function_declaration |  | [184](../../magpie/internal/cli/model_cli.go#L184) |
 | modelName | function_declaration |  | [188](../../magpie/internal/cli/model_cli.go#L188) |
 | modelEfforts | function_declaration |  | [228](../../magpie/internal/cli/model_cli.go#L228) |
+| levels | var_spec | modelEfforts | [280](../../magpie/internal/cli/model_cli.go#L280) |
 | modelPrice | function_declaration |  | [310](../../magpie/internal/cli/model_cli.go#L310) |
 | parsePrice | function_declaration |  | [404](../../magpie/internal/cli/model_cli.go#L404) |
+| groups | var_spec | parsePrice | [405](../../magpie/internal/cli/model_cli.go#L405) |
+| sizes | var_spec | parsePrice | [406](../../magpie/internal/cli/model_cli.go#L406) |
+| out | var_spec | parsePrice | [425](../../magpie/internal/cli/model_cli.go#L425) |
+| nums | var_spec | parsePrice | [427](../../magpie/internal/cli/model_cli.go#L427) |
+| oneHour | var_spec | parsePrice | [444](../../magpie/internal/cli/model_cli.go#L444) |
 | priceDetail | function_declaration |  | [466](../../magpie/internal/cli/model_cli.go#L466) |
 | tokenSize | function_declaration |  | [480](../../magpie/internal/cli/model_cli.go#L480) |
 | anyModelPrice | function_declaration |  | [494](../../magpie/internal/cli/model_cli.go#L494) |
@@ -28,6 +34,7 @@ Source SHA-256: 34953a131efb981c004686c2aa6cbc49871bda4ad1a009e16490f6ccf2ef947d
 | modelPrices | function_declaration |  | [623](../../magpie/internal/cli/model_cli.go#L623) |
 | modelSuffix | function_declaration |  | [648](../../magpie/internal/cli/model_cli.go#L648) |
 | modelCompact | function_declaration |  | [688](../../magpie/internal/cli/model_cli.go#L688) |
+| full | var_spec | modelCompact | [697](../../magpie/internal/cli/model_cli.go#L697) |
 | modelNames | function_declaration |  | [724](../../magpie/internal/cli/model_cli.go#L724) |
 | reasonlessLevels | function_declaration |  | [760](../../magpie/internal/cli/model_cli.go#L760) |
 | modelWires | function_declaration |  | [786](../../magpie/internal/cli/model_cli.go#L786) |
@@ -44,7 +51,9 @@ Source SHA-256: 34953a131efb981c004686c2aa6cbc49871bda4ad1a009e16490f6ccf2ef947d
 | resetWireName | function_declaration |  | [1249](../../magpie/internal/cli/model_cli.go#L1249) |
 | ownKept | function_declaration |  | [1316](../../magpie/internal/cli/model_cli.go#L1316) |
 | ownKeptSaid | function_declaration |  | [1335](../../magpie/internal/cli/model_cli.go#L1335) |
+| room | const_spec | ownKeptSaid | [1347](../../magpie/internal/cli/model_cli.go#L1347) |
 | exampleOf | function_declaration |  | [1382](../../magpie/internal/cli/model_cli.go#L1382) |
+| star | const_spec | exampleOf | [1386](../../magpie/internal/cli/model_cli.go#L1386) |
 | modelDisable | function_declaration |  | [1402](../../magpie/internal/cli/model_cli.go#L1402) |
 | modelEnable | function_declaration |  | [1425](../../magpie/internal/cli/model_cli.go#L1425) |
 | modelDisabled | function_declaration |  | [1447](../../magpie/internal/cli/model_cli.go#L1447) |

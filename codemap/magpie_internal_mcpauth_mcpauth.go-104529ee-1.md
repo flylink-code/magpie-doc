@@ -19,7 +19,7 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 | ErrClientRefused | var_spec |  | [85](../../magpie/internal/mcpauth/mcpauth.go#L85) |
 | ErrTurnedAway | var_spec |  | [93](../../magpie/internal/mcpauth/mcpauth.go#L93) |
 | ErrNoRegistration | var_spec |  | [100](../../magpie/internal/mcpauth/mcpauth.go#L100) |
-| Record | struct_type |  | [103](../../magpie/internal/mcpauth/mcpauth.go#L103) |
+| Record | type_spec |  | [103](../../magpie/internal/mcpauth/mcpauth.go#L103) |
 | URL | field_declaration | Record | [104](../../magpie/internal/mcpauth/mcpauth.go#L104) |
 | Resource | field_declaration | Record | [105](../../magpie/internal/mcpauth/mcpauth.go#L105) |
 | Issuer | field_declaration | Record | [106](../../magpie/internal/mcpauth/mcpauth.go#L106) |
@@ -38,12 +38,13 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 | load | function_declaration |  | [130](../../magpie/internal/mcpauth/mcpauth.go#L130) |
 | read | function_declaration |  | [138](../../magpie/internal/mcpauth/mcpauth.go#L138) |
 | validRecords | function_declaration |  | [151](../../magpie/internal/mcpauth/mcpauth.go#L151) |
+| m | var_spec | validRecords | [152](../../magpie/internal/mcpauth/mcpauth.go#L152) |
 | save | function_declaration |  | [156](../../magpie/internal/mcpauth/mcpauth.go#L156) |
 | writePrivate | function_declaration |  | [168](../../magpie/internal/mcpauth/mcpauth.go#L168) |
 | update | function_declaration |  | [179](../../magpie/internal/mcpauth/mcpauth.go#L179) |
 | Get | function_declaration |  | [196](../../magpie/internal/mcpauth/mcpauth.go#L196) |
 | SignedIn | function_declaration |  | [210](../../magpie/internal/mcpauth/mcpauth.go#L210) |
-| Status | struct_type |  | [216](../../magpie/internal/mcpauth/mcpauth.go#L216) |
+| Status | type_spec |  | [216](../../magpie/internal/mcpauth/mcpauth.go#L216) |
 | SignedIn | field_declaration | Status | [217](../../magpie/internal/mcpauth/mcpauth.go#L217) |
 | Dead | field_declaration | Status | [218](../../magpie/internal/mcpauth/mcpauth.go#L218) |
 | At | field_declaration | Status | [219](../../magpie/internal/mcpauth/mcpauth.go#L219) |
@@ -57,22 +58,24 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 | Renew | function_declaration |  | [297](../../magpie/internal/mcpauth/mcpauth.go#L297) |
 | due | function_declaration |  | [301](../../magpie/internal/mcpauth/mcpauth.go#L301) |
 | renew | function_declaration |  | [305](../../magpie/internal/mcpauth/mcpauth.go#L305) |
+| te | var_spec | renew | [333](../../magpie/internal/mcpauth/mcpauth.go#L333) |
 | dead | function_declaration |  | [357](../../magpie/internal/mcpauth/mcpauth.go#L357) |
 | Rejected | function_declaration |  | [370](../../magpie/internal/mcpauth/mcpauth.go#L370) |
 | markDead | function_declaration |  | [372](../../magpie/internal/mcpauth/mcpauth.go#L372) |
-| tokens | struct_type |  | [383](../../magpie/internal/mcpauth/mcpauth.go#L383) |
+| tokens | type_spec |  | [383](../../magpie/internal/mcpauth/mcpauth.go#L383) |
 | Access | field_declaration | tokens | [384](../../magpie/internal/mcpauth/mcpauth.go#L384) |
 | Refresh | field_declaration | tokens | [385](../../magpie/internal/mcpauth/mcpauth.go#L385) |
 | ExpiresIn | field_declaration | tokens | [386](../../magpie/internal/mcpauth/mcpauth.go#L386) |
 | Scope | field_declaration | tokens | [387](../../magpie/internal/mcpauth/mcpauth.go#L387) |
-| expires | method_declaration | tokens | [390](../../magpie/internal/mcpauth/mcpauth.go#L390) |
-| tokenError | struct_type |  | [397](../../magpie/internal/mcpauth/mcpauth.go#L397) |
+| expires | method_declaration |  | [390](../../magpie/internal/mcpauth/mcpauth.go#L390) |
+| tokenError | type_spec |  | [397](../../magpie/internal/mcpauth/mcpauth.go#L397) |
 | Status | field_declaration | tokenError | [398](../../magpie/internal/mcpauth/mcpauth.go#L398) |
 | Code | field_declaration | tokenError | [399](../../magpie/internal/mcpauth/mcpauth.go#L399) |
 | Description | field_declaration | tokenError | [400](../../magpie/internal/mcpauth/mcpauth.go#L400) |
-| Error | method_declaration | *tokenError | [403](../../magpie/internal/mcpauth/mcpauth.go#L403) |
+| Error | method_declaration |  | [403](../../magpie/internal/mcpauth/mcpauth.go#L403) |
 | tokenRequest | function_declaration |  | [415](../../magpie/internal/mcpauth/mcpauth.go#L415) |
-| meta | struct_type |  | [465](../../magpie/internal/mcpauth/mcpauth.go#L465) |
+| t | var_spec | tokenRequest | [442](../../magpie/internal/mcpauth/mcpauth.go#L442) |
+| meta | type_spec |  | [465](../../magpie/internal/mcpauth/mcpauth.go#L465) |
 | Resource | field_declaration | meta | [466](../../magpie/internal/mcpauth/mcpauth.go#L466) |
 | Issuer | field_declaration | meta | [467](../../magpie/internal/mcpauth/mcpauth.go#L467) |
 | AuthorizeURL | field_declaration | meta | [468](../../magpie/internal/mcpauth/mcpauth.go#L468) |
@@ -83,28 +86,25 @@ Source SHA-256: 97c724d777f7d10e10cec4138899846abfbe71a55af3d5e3fa13093cacfe2cf5
 | origin | function_declaration |  | [475](../../magpie/internal/mcpauth/mcpauth.go#L475) |
 | challenge | function_declaration |  | [479](../../magpie/internal/mcpauth/mcpauth.go#L479) |
 | authParams | function_declaration |  | [497](../../magpie/internal/mcpauth/mcpauth.go#L497) |
+| v | var_spec | authParams | [506](../../magpie/internal/mcpauth/mcpauth.go#L506) |
+| b | var_spec | authParams | [508](../../magpie/internal/mcpauth/mcpauth.go#L508) |
 | getJSON | function_declaration |  | [530](../../magpie/internal/mcpauth/mcpauth.go#L530) |
 | protocolVersion | const_spec |  | [548](../../magpie/internal/mcpauth/mcpauth.go#L548) |
 | discover | function_declaration |  | [551](../../magpie/internal/mcpauth/mcpauth.go#L551) |
-| Resource | field_declaration | discover | [577](../../magpie/internal/mcpauth/mcpauth.go#L577) |
-| AuthorizationServers | field_declaration | discover | [578](../../magpie/internal/mcpauth/mcpauth.go#L578) |
-| Scopes | field_declaration | discover | [579](../../magpie/internal/mcpauth/mcpauth.go#L579) |
-| Issuer | field_declaration | discover | [608](../../magpie/internal/mcpauth/mcpauth.go#L608) |
-| Authorize | field_declaration | discover | [609](../../magpie/internal/mcpauth/mcpauth.go#L609) |
-| Token | field_declaration | discover | [610](../../magpie/internal/mcpauth/mcpauth.go#L610) |
-| Register | field_declaration | discover | [611](../../magpie/internal/mcpauth/mcpauth.go#L611) |
-| Challenges | field_declaration | discover | [612](../../magpie/internal/mcpauth/mcpauth.go#L612) |
-| AuthMethods | field_declaration | discover | [613](../../magpie/internal/mcpauth/mcpauth.go#L613) |
-| ScopesSupport | field_declaration | discover | [614](../../magpie/internal/mcpauth/mcpauth.go#L614) |
+| prm | var_spec | discover | [576](../../magpie/internal/mcpauth/mcpauth.go#L576) |
+| Resource | field_declaration | discover::prm | [577](../../magpie/internal/mcpauth/mcpauth.go#L577) |
+| AuthorizationServers | field_declaration | discover::prm | [578](../../magpie/internal/mcpauth/mcpauth.go#L578) |
+| Scopes | field_declaration | discover::prm | [579](../../magpie/internal/mcpauth/mcpauth.go#L579) |
+| tries | var_spec | discover | [581](../../magpie/internal/mcpauth/mcpauth.go#L581) |
+| as | var_spec | discover | [607](../../magpie/internal/mcpauth/mcpauth.go#L607) |
+| Issuer | field_declaration | discover::as | [608](../../magpie/internal/mcpauth/mcpauth.go#L608) |
+| Authorize | field_declaration | discover::as | [609](../../magpie/internal/mcpauth/mcpauth.go#L609) |
+| Token | field_declaration | discover::as | [610](../../magpie/internal/mcpauth/mcpauth.go#L610) |
+| Register | field_declaration | discover::as | [611](../../magpie/internal/mcpauth/mcpauth.go#L611) |
+| Challenges | field_declaration | discover::as | [612](../../magpie/internal/mcpauth/mcpauth.go#L612) |
+| AuthMethods | field_declaration | discover::as | [613](../../magpie/internal/mcpauth/mcpauth.go#L613) |
+| ScopesSupport | field_declaration | discover::as | [614](../../magpie/internal/mcpauth/mcpauth.go#L614) |
+| asTries | var_spec | discover | [620](../../magpie/internal/mcpauth/mcpauth.go#L620) |
 | turnedAway | function_declaration |  | [660](../../magpie/internal/mcpauth/mcpauth.go#L660) |
 | withOffline | function_declaration |  | [674](../../magpie/internal/mcpauth/mcpauth.go#L674) |
 | contains | function_declaration |  | [681](../../magpie/internal/mcpauth/mcpauth.go#L681) |
-| register | function_declaration |  | [692](../../magpie/internal/mcpauth/mcpauth.go#L692) |
-| ID | field_declaration | register | [740](../../magpie/internal/mcpauth/mcpauth.go#L740) |
-| Secret | field_declaration | register | [741](../../magpie/internal/mcpauth/mcpauth.go#L741) |
-| Method | field_declaration | register | [742](../../magpie/internal/mcpauth/mcpauth.go#L742) |
-| appMethod | function_declaration |  | [767](../../magpie/internal/mcpauth/mcpauth.go#L767) |
-| State | struct_type |  | [780](../../magpie/internal/mcpauth/mcpauth.go#L780) |
-| ID | field_declaration | State | [781](../../magpie/internal/mcpauth/mcpauth.go#L781) |
-| Server | field_declaration | State | [782](../../magpie/internal/mcpauth/mcpauth.go#L782) |
-| URL | field_declaration | State | [783](../../magpie/internal/mcpauth/mcpauth.go#L783) |

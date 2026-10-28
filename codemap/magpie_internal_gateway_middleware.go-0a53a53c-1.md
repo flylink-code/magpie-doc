@@ -8,8 +8,11 @@ Source SHA-256: ff5b4894979b2ab80282c95ef31743d7b2ea8c21e85ee68ada65744b02c1fd29
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| serveAgent | method_declaration | *Server | [22](../../magpie/internal/gateway/middleware.go#L22) |
-| triedKey | struct_type |  | [70](../../magpie/internal/gateway/middleware.go#L70) |
+| serveAgent | method_declaration |  | [22](../../magpie/internal/gateway/middleware.go#L22) |
+| tried | var_spec | serveAgent | [39](../../magpie/internal/gateway/middleware.go#L39) |
+| turned | var_spec | serveAgent | [53](../../magpie/internal/gateway/middleware.go#L53) |
+| done | var_spec | serveAgent | [60](../../magpie/internal/gateway/middleware.go#L60) |
+| triedKey | type_spec |  | [70](../../magpie/internal/gateway/middleware.go#L70) |
 | triedOn | function_declaration |  | [76](../../magpie/internal/gateway/middleware.go#L76) |
 | middlewareWanted | function_declaration |  | [90](../../magpie/internal/gateway/middleware.go#L90) |
 | gatewayHooks | function_declaration |  | [97](../../magpie/internal/gateway/middleware.go#L97) |

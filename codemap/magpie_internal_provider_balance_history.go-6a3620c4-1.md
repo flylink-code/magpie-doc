@@ -16,10 +16,10 @@ Source SHA-256: 88ae85fb7cd3cb54796654c7c16d3c1d6d75c406f9e14a825a4b82273709a380
 | balanceFitPoints | const_spec |  | [43](../../magpie/internal/provider/balance_history.go#L43) |
 | balanceFitMin | const_spec |  | [44](../../magpie/internal/provider/balance_history.go#L44) |
 | balanceRunsOutMax | const_spec |  | [46](../../magpie/internal/provider/balance_history.go#L46) |
-| BalancePoint | struct_type |  | [50](../../magpie/internal/provider/balance_history.go#L50) |
+| BalancePoint | type_spec |  | [50](../../magpie/internal/provider/balance_history.go#L50) |
 | At | field_declaration | BalancePoint | [51](../../magpie/internal/provider/balance_history.go#L51) |
 | Amount | field_declaration | BalancePoint | [52](../../magpie/internal/provider/balance_history.go#L52) |
-| BalanceTrend | struct_type |  | [59](../../magpie/internal/provider/balance_history.go#L59) |
+| BalanceTrend | type_spec |  | [59](../../magpie/internal/provider/balance_history.go#L59) |
 | Points | field_declaration | BalanceTrend | [60](../../magpie/internal/provider/balance_history.go#L60) |
 | FitFrom | field_declaration | BalanceTrend | [61](../../magpie/internal/provider/balance_history.go#L61) |
 | FitStart | field_declaration | BalanceTrend | [62](../../magpie/internal/provider/balance_history.go#L62) |
@@ -34,12 +34,16 @@ Source SHA-256: 88ae85fb7cd3cb54796654c7c16d3c1d6d75c406f9e14a825a4b82273709a380
 | writeBalanceHist | function_declaration |  | [88](../../magpie/internal/provider/balance_history.go#L88) |
 | addBalancePoint | function_declaration |  | [106](../../magpie/internal/provider/balance_history.go#L106) |
 | balancePointsOf | function_declaration |  | [126](../../magpie/internal/provider/balance_history.go#L126) |
-| currencyAmount | struct_type |  | [152](../../magpie/internal/provider/balance_history.go#L152) |
+| currencyAmount | type_spec |  | [152](../../magpie/internal/provider/balance_history.go#L152) |
 | Sign | field_declaration | currencyAmount | [153](../../magpie/internal/provider/balance_history.go#L153) |
 | N | field_declaration | currencyAmount | [154](../../magpie/internal/provider/balance_history.go#L154) |
 | currencyPart | var_spec |  | [157](../../magpie/internal/provider/balance_history.go#L157) |
 | balanceCurrencies | function_declaration |  | [163](../../magpie/internal/provider/balance_history.go#L163) |
+| out | var_spec | balanceCurrencies | [168](../../magpie/internal/provider/balance_history.go#L168) |
 | currencyHistKey | function_declaration |  | [187](../../magpie/internal/provider/balance_history.go#L187) |
 | noteBalanceHistory | function_declaration |  | [191](../../magpie/internal/provider/balance_history.go#L191) |
+| h | var_spec | noteBalanceHistory | [194](../../magpie/internal/provider/balance_history.go#L194) |
+| last | var_spec | noteBalanceHistory | [211](../../magpie/internal/provider/balance_history.go#L211) |
 | balanceTrend | function_declaration |  | [258](../../magpie/internal/provider/balance_history.go#L258) |
+| sx | var_spec | balanceTrend | [276](../../magpie/internal/provider/balance_history.go#L276) |
 | round4 | function_declaration |  | [306](../../magpie/internal/provider/balance_history.go#L306) |

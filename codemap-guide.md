@@ -9,11 +9,12 @@
 - **不是**调用关系图，也不替代类型检查、LSP 或单元测试。
 - 全部由 `doc/codemap.mjs` 生成，**禁止手改** `doc/CODE_MAP_INDEX.md` 与 `doc/codemap/`。
 
-## 2. 三层结构
+## 2. 分层结构
 
 ```mermaid
 flowchart LR
     A[AGENTS.md] --> B[doc/CODE_MAP_INDEX.md<br/>按模块路由]
+    B --> H[doc/codemap/hubs.md<br/>被引用最多的声明]
     B --> C[doc/codemap/模块.md<br/>文件列表]
     C --> D[doc/codemap/文件页-N.md<br/>符号表]
     D --> E[源码 #L行号]
@@ -21,19 +22,21 @@ flowchart LR
 
 | 层级 | 位置 | 内容 |
 | --- | --- | --- |
-| 1 索引 | `doc/CODE_MAP_INDEX.md` | 模块名、文件数、符号数 |
+| 0 枢纽 | `doc/codemap/hubs.md`（`--map` 同源） | 被 import 次数最多的声明；只覆盖 JS/TS（见第 7 节） |
+| 1 索引 | `doc/CODE_MAP_INDEX.md` | 模块名、文件数、符号数、全局统计 |
 | 2 模块页 | `doc/codemap/<模块>.md` | 模块内文件、符号数、符号页链接 |
 | 3 符号页 | `doc/codemap/<路径>-<hash>-<页>.md` | Symbol / Kind / Scope / Line（可跳转到源码行） |
 
-每页最多 100 行；符号多的文件会分多页（`-1.md`、`-2.md`…）。
+每页最多 100 行；符号多的文件会分多页（`-1.md`、`-2.md`…）。模块归属完全由 `doc/codemap.config.json` 的 `modules` 规则决定（最长路径前缀优先，末尾 `*` 只路由目录），未命中的路径落到 `defaultModule`（`tooling`），`magpie/internal/` 下没有专门规则的新子系统留在 `magpie-sys`。
 
 ## 3. 定位流程（必须遵守）
 
 1. 读 [CODE_MAP_INDEX.md](CODE_MAP_INDEX.md)，按目录选模块（区分可修改的 `bridge-*` 与只读参考的 `magpie-*`）。
-2. 打开模块页 `doc/codemap/<模块>.md`，找到目标文件，进入对应符号页。
-3. 在符号页找到函数/类型/方法的行号，**只读该段源码**。
-4. 仅在归属未知时，才在 `doc/codemap/` 内搜索符号名（页面可 grep），不要整图加载。
-5. 需要调用关系、引用、接口实现时，配合编辑器的 `usages` / `grep` 精确追踪。
+2. 只知道符号名时直接用 `node doc/codemap.mjs --find <名字>` 拿 `路径:行号`，比翻页更快。
+3. 打开模块页 `doc/codemap/<模块>.md`，找到目标文件，进入对应符号页；要看某文件全部声明用 `node doc/codemap.mjs --outline <文件>`。
+4. 在符号页找到函数/类型/方法的行号，**只读该段源码**。
+5. 需要跨模块找「被广泛依赖的入口」时先看 `doc/codemap/hubs.md` 或 `node doc/codemap.mjs --map`，但记住它只统计 import 边（见第 7 节）。
+6. 需要调用关系、引用、接口实现时，配合编辑器的 `usages` / `grep` 精确追踪。
 
 ### 模块速查
 
@@ -72,9 +75,9 @@ flowchart LR
 
 | 列 | 含义 |
 | --- | --- |
-| Symbol | 符号名（函数、方法、结构体/字段、接口、变量、补丁目标等） |
-| Kind | 语法类型（Go `function_declaration` / `method_declaration` / `struct_type`、JS `FunctionDeclaration` / `VariableDeclaration`、Patch `patch fn` 等） |
-| Scope | 词法所在的父级（Go 接收者类型或结构体名、JS 函数/类名、Patch 目标文件路径），仅作导航 |
+| Symbol | 符号名（函数、方法、结构体/字段、接口、变量等） |
+| Kind | 语法类型（Go `function_declaration` / `method_declaration` / `type_spec`、JS `FunctionDeclaration` / `VariableDeclaration` 等） |
+| Scope | 词法所在的父级（Go 结构体字段记结构体名、JS 函数/类/参数名），仅作导航；Go 方法**不记录接收者类型**，同名方法用行号区分 |
 | Line | 声明行，链接到源码 `#L行号` |
 
 ## 5. 命令
@@ -85,27 +88,37 @@ flowchart LR
 node doc/codemap.mjs                         # 增量生成（首次 / 配置变化 / 跨模块修改后使用）
 node doc/codemap.mjs --module bridge-lib     # 只刷新单模块；需已有缓存，且改动不得越出该模块
 node doc/codemap.mjs --check                 # 只检查，不写文件；有漂移则退出码非 0
+node doc/codemap.mjs --find restoreProxy     # 符号查询：路径:行号、Kind、Scope
+node doc/codemap.mjs --outline plugins/magpie-agent-cursor-bridge/agent.js  # 单文件全部声明（按源码顺序）
+node doc/codemap.mjs --map --tokens 800      # 受 token 预算限制的枢纽概览
 node --test doc/codemap.test.mjs             # 代码地图工具自测
 node --test plugins/magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-agent-cursor-bridge 单元测试
 ```
 
-- 本地缓存 `doc/.codemap-cache.json` 可随时删除。
-- 生成结果不含时间戳与机器路径，可复现。
+- 查询类命令（`--find` / `--outline` / `--map`）只读缓存，不写任何文件；追加 `--json` 可拿机器可读结果，`--limit N` 扩大匹配数，`--tokens N` 调整概览体积。
+- 本地缓存 `doc/.codemap-cache.json` 可随时删除；生成器脚本或配置变化会让缓存自动失效。
+- 生成结果不含时间戳与机器路径，可复现：连续两次生成 `changed` 必为 0 且 `deleted` 为 0。
 
 ## 6. 改完代码后的必做清单
 
 1. 确认所有代码修改仅落在允许修改的目录（`plugins/magpie-agent-cursor-bridge/` 或 `doc/` 工具脚本），**未触碰 `magpie/` 目录**。
 2. 跑相关单元测试（`node --test plugins/magpie-agent-cursor-bridge/test/*.test.js`）。
 3. 任何文件新增 / 编辑 / 删除 / 重命名后执行 `node doc/codemap.mjs`。
-4. 执行 `node doc/codemap.mjs --check`，必须零漂移且解析诊断为 0。
+4. 执行 `node doc/codemap.mjs --check`，必须零漂移，且解析诊断不超过已知基线 10 条。
 5. 汇报实际验证结果与未覆盖项。
 
 ## 7. 覆盖范围与限制
 
 - 索引范围：`magpie-agent-cursor-bridge`（含源码、脚本、测试与 `source.patch`）、`magpie`（仅生产代码，排除 `*_test.go`、`internal/gui/tests/`、`testdata/`、`site/`）以及 `doc/` 下的工具脚本。
-- 排除：`node_modules`、`target`、`dist`、`release`、`.git`、`.github`、`testdata`、`site`、`doc/codemap` 等。
-- 不收录：`import`、普通参数、函数内局部 `var`/`const`（Go）或 `let`（Rust）、匿名回调、对象字面量普通数据键。
-- Shell / PowerShell / BAT / Patch 仅做词法级声明导航。
+- 排除：`node_modules`、`target`、`dist`、`release`、`.git`、`.github`、`testdata`、`site`、`doc/codemap`，以及 `magpie/native`、`magpie/internal/gui` 下的 C/C++ 头文件。
+- 各语言粒度：
+  - Go：函数、方法（**只记名字，不记接收者类型**）、结构体与其字段、接口类型（**不记接口方法签名**）、类型声明、包级 `var`/`const`。
+  - JS/TS：函数、箭头函数变量、类、构造器、方法、属性、接口、类型别名、枚举、变量声明、`export` 说明符；**对象字面量的普通数据键不算符号**（所以 `agent.js` 只有 `agent` 与 `connect`）。
+  - Shell / PowerShell / BAT：仅词法级声明与批处理标签。
+  - `.patch`：只作为文件出现在模块页，**不产出符号**（没有 diff 语法），`source.patch` 里的 Rust 改动需直接读补丁。
+- 不收录：`import`、普通参数、函数内局部 `var`/`const`（Go）、匿名回调、对象字面量普通数据键。
+- 引用图与枢纽（`hubs.md`、`--map`）只统计 JS/TS 的相对 `import` 与 Rust 的模块路径；**Go 的 import 不产生边**，所以「某 Go 符号没出现在枢纽页」不代表没人用它。当前基线：65 条已解析 / 0 条歧义 / 111 条未解析。
+- 已知诊断基线：10 条，全部是 Go，原因是捆绑的 `tree-sitter-go` 快照无法解析「泛型实例化的类型实参是复合类型字面量」（如 `lastgood.Into[map[string]applied]`）。受影响的 10 处语句子树之外的声明仍完整提取；只要诊断数不超过 10 就算正常。
 - `doc/codemap/` 专属生成器，**不要在其中放手写文档**；本教程位于 `doc/codemap-guide.md`。
 
 ## 8. 常见问题
@@ -114,7 +127,11 @@ node --test plugins/magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-ag
 | --- | --- |
 | `node doc/codemap.mjs --check` 报漂移 | 运行 `node doc/codemap.mjs` 后重新检查 |
 | `--module` 报缓存无效或越界 | 改用无参数 `node doc/codemap.mjs` |
-| 找不到符号 | 确认文件在索引范围内；局部临时变量不收录；改用 `grep` / `usages` 查找 |
+| `diagnostics` 不是 0 | 正常基线是 10（Go 泛型实例化的语法快照缺口）；明显超过 10 再看新增文件用了什么语法 |
+| 找不到符号 | 先 `--find`；仍无则确认文件在索引范围内；接口方法、局部变量、对象字面量数据键不收录 |
+| `source.patch` 符号页是空的 | 设计如此：补丁文件只登记文件本身，声明要看补丁内容 |
+| 枢纽页里没有 Go 符号 | 引用图不含 Go import，用 `grep` / `usages` 代替 |
+| 模块名不是预期的 | 改 `doc/codemap.config.json` 的 `modules` 规则；未命中路径按 `defaultModule` 处理 |
 | 符号页分了多页 | 模块页的「Symbol pages」列列出全部页码 |
 | 想手改地图 | 禁止。改源码后重新生成 |
 
@@ -122,7 +139,8 @@ node --test plugins/magpie-agent-cursor-bridge/test/*.test.js # 运行 magpie-ag
 
 ```text
 先读 AGENTS.md 与 doc/codemap-guide.md。
-任何代码任务：从 doc/CODE_MAP_INDEX.md 选模块 → doc/codemap/ 文件符号页 → 定点读源码，不要全仓盲扫。
+任何代码任务：从 doc/CODE_MAP_INDEX.md 选模块 → doc/codemap/ 文件符号页 → 定点读源码，不要全仓盲扫；
+只知道符号名时用 node doc/codemap.mjs --find <名字>，看单文件全部声明用 --outline <文件>。
 严禁修改 magpie/ 目录下的任何文件；所有插件功能修改在 plugins/magpie-agent-cursor-bridge/ 中完成。
-修改后执行 node --test plugins/magpie-agent-cursor-bridge/test/*.test.js、node doc/codemap.mjs 与 node doc/codemap.mjs --check，确保测试通过且代码地图零漂移。
+修改后执行 node --test plugins/magpie-agent-cursor-bridge/test/*.test.js、node doc/codemap.mjs 与 node doc/codemap.mjs --check，确保测试通过且代码地图零漂移（parse diagnostics 保持已知基线 10）。
 ```

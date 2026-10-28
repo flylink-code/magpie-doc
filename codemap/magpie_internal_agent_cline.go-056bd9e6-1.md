@@ -15,14 +15,20 @@ Source SHA-256: e98910ab67126d4e9cc8a59f576f83e33ecda450d98b548571e0d0612cf976eb
 | clineProvider | function_declaration |  | [292](../../magpie/internal/agent/cline.go#L292) |
 | clineReasoning | function_declaration |  | [305](../../magpie/internal/agent/cline.go#L305) |
 | clineEffort | function_declaration |  | [314](../../magpie/internal/agent/cline.go#L314) |
-| Enabled | field_declaration | clineEffort | [316](../../magpie/internal/agent/cline.go#L316) |
-| Effort | field_declaration | clineEffort | [317](../../magpie/internal/agent/cline.go#L317) |
+| r | var_spec | clineEffort | [315](../../magpie/internal/agent/cline.go#L315) |
+| Enabled | field_declaration | clineEffort::r | [316](../../magpie/internal/agent/cline.go#L316) |
+| Effort | field_declaration | clineEffort::r | [317](../../magpie/internal/agent/cline.go#L317) |
 | clineStateKeys | var_spec |  | [330](../../magpie/internal/agent/cline.go#L330) |
 | clineSnapshot | function_declaration |  | [334](../../magpie/internal/agent/cline.go#L334) |
+| all | var_spec | clineSnapshot | [335](../../magpie/internal/agent/cline.go#L335) |
 | clineRestore | function_declaration |  | [350](../../magpie/internal/agent/cline.go#L350) |
+| m | var_spec | clineRestore | [351](../../magpie/internal/agent/cline.go#L351) |
+| kvs | var_spec | clineRestore | [353](../../magpie/internal/agent/cline.go#L353) |
+| gone | var_spec | clineRestore | [354](../../magpie/internal/agent/cline.go#L354) |
 | clineModels | function_declaration |  | [373](../../magpie/internal/agent/cline.go#L373) |
 | clineModelsAt | function_declaration |  | [376](../../magpie/internal/agent/cline.go#L376) |
 | clineKept | function_declaration |  | [409](../../magpie/internal/agent/cline.go#L409) |
+| have | var_spec | clineKept | [414](../../magpie/internal/agent/cline.go#L414) |
 | providersEmpty | const_spec |  | [435](../../magpie/internal/agent/cline.go#L435) |
 | clineWrite | function_declaration |  | [439](../../magpie/internal/agent/cline.go#L439) |
 | noticeCline1 | var_spec |  | [453](../../magpie/internal/agent/cline.go#L453) |

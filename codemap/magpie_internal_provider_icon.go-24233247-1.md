@@ -17,10 +17,13 @@ Source SHA-256: 69192daafe0a8a0e38e2d5832ba42936850dd5aec09a793ffb3f3c97e9e612c6
 | FetchIcon | function_declaration |  | [78](../../magpie/internal/provider/icon.go#L78) |
 | iconClient | var_spec |  | [87](../../magpie/internal/provider/icon.go#L87) |
 | guardClient | function_declaration |  | [96](../../magpie/internal/provider/icon.go#L96) |
+| proxies | var_spec | guardClient | [100](../../magpie/internal/provider/icon.go#L100) |
 | publicHost | function_declaration |  | [127](../../magpie/internal/provider/icon.go#L127) |
 | iconIPs | function_declaration |  | [139](../../magpie/internal/provider/icon.go#L139) |
+| allowed | var_spec | iconIPs | [144](../../magpie/internal/provider/icon.go#L144) |
 | proxyAddr | function_declaration |  | [159](../../magpie/internal/provider/icon.go#L159) |
 | publicDial | function_declaration |  | [176](../../magpie/internal/provider/icon.go#L176) |
+| lastErr | var_spec | publicDial | [193](../../magpie/internal/provider/icon.go#L193) |
 | publicIP | function_declaration |  | [212](../../magpie/internal/provider/icon.go#L212) |
 | fetchIcon | function_declaration |  | [219](../../magpie/internal/provider/icon.go#L219) |
 | StoreIconFile | function_declaration |  | [244](../../magpie/internal/provider/icon.go#L244) |

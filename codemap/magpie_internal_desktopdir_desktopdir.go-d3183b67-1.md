@@ -8,19 +8,25 @@ Source SHA-256: 78263dec622971ade56ee8368d60b8806d43fedd770e966f8f3c3c9013e918ce
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Dirs | struct_type |  | [48](../../magpie/internal/desktopdir/desktopdir.go#L48) |
+| Dirs | type_spec |  | [48](../../magpie/internal/desktopdir/desktopdir.go#L48) |
 | Data | field_declaration | Dirs | [52](../../magpie/internal/desktopdir/desktopdir.go#L52) |
 | Mode | field_declaration | Dirs | [55](../../magpie/internal/desktopdir/desktopdir.go#L55) |
 | ThreeP | field_declaration | Dirs | [57](../../magpie/internal/desktopdir/desktopdir.go#L57) |
 | Package | field_declaration | Dirs | [60](../../magpie/internal/desktopdir/desktopdir.go#L60) |
-| All | method_declaration | Dirs | [64](../../magpie/internal/desktopdir/desktopdir.go#L64) |
+| All | method_declaration |  | [64](../../magpie/internal/desktopdir/desktopdir.go#L64) |
+| out | var_spec | All | [65](../../magpie/internal/desktopdir/desktopdir.go#L65) |
 | OS | var_spec |  | [76](../../magpie/internal/desktopdir/desktopdir.go#L76) |
 | Here | function_declaration |  | [79](../../magpie/internal/desktopdir/desktopdir.go#L79) |
 | Find | function_declaration |  | [86](../../magpie/internal/desktopdir/desktopdir.go#L86) |
 | Sets | function_declaration |  | [93](../../magpie/internal/desktopdir/desktopdir.go#L93) |
 | Installed | function_declaration |  | [137](../../magpie/internal/desktopdir/desktopdir.go#L137) |
 | Everywhere | function_declaration |  | [153](../../magpie/internal/desktopdir/desktopdir.go#L153) |
+| out | var_spec | Everywhere | [155](../../magpie/internal/desktopdir/desktopdir.go#L155) |
 | LastRun | function_declaration |  | [167](../../magpie/internal/desktopdir/desktopdir.go#L167) |
 | lastRun | function_declaration |  | [173](../../magpie/internal/desktopdir/desktopdir.go#L173) |
+| t | var_spec | lastRun | [174](../../magpie/internal/desktopdir/desktopdir.go#L174) |
 | packageDir | function_declaration |  | [189](../../magpie/internal/desktopdir/desktopdir.go#L189) |
+| found | var_spec | packageDir | [190](../../magpie/internal/desktopdir/desktopdir.go#L190) |
+| dirs | var_spec | packageDir | [195](../../magpie/internal/desktopdir/desktopdir.go#L195) |
 | windowsDir | function_declaration |  | [215](../../magpie/internal/desktopdir/desktopdir.go#L215) |
+| found | var_spec | windowsDir | [225](../../magpie/internal/desktopdir/desktopdir.go#L225) |

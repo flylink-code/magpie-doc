@@ -9,14 +9,16 @@ Source SHA-256: eefa4720907d5514363d59a46f2e5299253935a76ca6d8758c7f3bb804c44874
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | MLXServePreset | const_spec |  | [13](../../magpie/internal/provider/mlxserve_decide.go#L13) |
-| mlxServeDecides | method_declaration | Provider | [21](../../magpie/internal/provider/mlxserve_decide.go#L21) |
+| mlxServeDecides | method_declaration |  | [21](../../magpie/internal/provider/mlxserve_decide.go#L21) |
 | mlxServeDecisions | function_declaration |  | [26](../../magpie/internal/provider/mlxserve_decide.go#L26) |
-| mlxServeModel | struct_type |  | [30](../../magpie/internal/provider/mlxserve_decide.go#L30) |
+| mlxServeModel | type_spec |  | [30](../../magpie/internal/provider/mlxserve_decide.go#L30) |
 | ID | field_declaration | mlxServeModel | [31](../../magpie/internal/provider/mlxserve_decide.go#L31) |
 | ContextLength | field_declaration | mlxServeModel | [32](../../magpie/internal/provider/mlxserve_decide.go#L32) |
 | MaxModelLen | field_declaration | mlxServeModel | [33](../../magpie/internal/provider/mlxserve_decide.go#L33) |
 | Capabilities | field_declaration | mlxServeModel | [34](../../magpie/internal/provider/mlxserve_decide.go#L34) |
 | InputModalities | field_declaration | mlxServeModel | [35](../../magpie/internal/provider/mlxserve_decide.go#L35) |
 | listedMLXServeDecide | function_declaration |  | [41](../../magpie/internal/provider/mlxserve_decide.go#L41) |
-| Data | field_declaration | listedMLXServeDecide | [43](../../magpie/internal/provider/mlxserve_decide.go#L43) |
-| Models | field_declaration | listedMLXServeDecide | [44](../../magpie/internal/provider/mlxserve_decide.go#L44) |
+| out | var_spec | listedMLXServeDecide | [42](../../magpie/internal/provider/mlxserve_decide.go#L42) |
+| Data | field_declaration | listedMLXServeDecide::out | [43](../../magpie/internal/provider/mlxserve_decide.go#L43) |
+| Models | field_declaration | listedMLXServeDecide::out | [44](../../magpie/internal/provider/mlxserve_decide.go#L44) |
+| imageInput | var_spec | listedMLXServeDecide | [62](../../magpie/internal/provider/mlxserve_decide.go#L62) |

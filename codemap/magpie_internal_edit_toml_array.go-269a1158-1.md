@@ -11,11 +11,17 @@ Source SHA-256: 45493af3029e6aa8989cef94ced4156787057c9c6315e33f5d92b7317a84de9e
 | SetTOMLArrayTable | function_declaration |  | [13](../../magpie/internal/edit/toml_array.go#L13) |
 | DelTOMLArrayTable | function_declaration |  | [18](../../magpie/internal/edit/toml_array.go#L18) |
 | editTOMLArrayTable | function_declaration |  | [22](../../magpie/internal/edit/toml_array.go#L22) |
+| replacement | var_spec | editTOMLArrayTable | [39](../../magpie/internal/edit/toml_array.go#L39) |
+| out | var_spec | editTOMLArrayTable | [74](../../magpie/internal/edit/toml_array.go#L74) |
 | SetTOMLArrayTables | function_declaration |  | [92](../../magpie/internal/edit/toml_array.go#L92) |
-| tomlArraySpan | struct_type |  | [171](../../magpie/internal/edit/toml_array.go#L171) |
+| replacement | var_spec | SetTOMLArrayTables | [109](../../magpie/internal/edit/toml_array.go#L109) |
+| out | var_spec | SetTOMLArrayTables | [147](../../magpie/internal/edit/toml_array.go#L147) |
+| tomlArraySpan | type_spec |  | [171](../../magpie/internal/edit/toml_array.go#L171) |
 | from | field_declaration | tomlArraySpan | [171](../../magpie/internal/edit/toml_array.go#L171) |
-| to | field_declaration | tomlArraySpan | [171](../../magpie/internal/edit/toml_array.go#L171) |
 | namedTOMLArray | function_declaration |  | [176](../../magpie/internal/edit/toml_array.go#L176) |
+| spans | var_spec | namedTOMLArray | [187](../../magpie/internal/edit/toml_array.go#L187) |
 | tomlContentEnd | function_declaration |  | [221](../../magpie/internal/edit/toml_array.go#L221) |
 | tomlDescendant | function_declaration |  | [228](../../magpie/internal/edit/toml_array.go#L228) |
 | tomlHeaderParts | function_declaration |  | [232](../../magpie/internal/edit/toml_array.go#L232) |
+| p | var_spec | tomlHeaderParts | [233](../../magpie/internal/edit/toml_array.go#L233) |
+| parts | var_spec | tomlHeaderParts | [238](../../magpie/internal/edit/toml_array.go#L238) |

@@ -8,6 +8,10 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| kinID | var_spec | levels | [383](../../magpie/internal/catalog/catalog.go#L383) |
+| kin | var_spec | levels | [384](../../magpie/internal/catalog/catalog.go#L384) |
+| window | method_declaration |  | [410](../../magpie/internal/catalog/catalog.go#L410) |
+| LeastWindow | const_spec |  | [427](../../magpie/internal/catalog/catalog.go#L427) |
 | Window | function_declaration |  | [432](../../magpie/internal/catalog/catalog.go#L432) |
 | modelsDevURL | var_spec |  | [439](../../magpie/internal/catalog/catalog.go#L439) |
 | loadMu | var_spec |  | [444](../../magpie/internal/catalog/catalog.go#L444) |
@@ -29,25 +33,28 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 | Source | function_declaration |  | [491](../../magpie/internal/catalog/catalog.go#L491) |
 | load | function_declaration |  | [500](../../magpie/internal/catalog/catalog.go#L500) |
 | loadGen | function_declaration |  | [507](../../magpie/internal/catalog/catalog.go#L507) |
+| m | var_spec | loadGen | [518](../../magpie/internal/catalog/catalog.go#L518) |
 | Reset | function_declaration |  | [645](../../magpie/internal/catalog/catalog.go#L645) |
 | Sync | function_declaration |  | [659](../../magpie/internal/catalog/catalog.go#L659) |
 | SyncIfMissing | function_declaration |  | [665](../../magpie/internal/catalog/catalog.go#L665) |
 | syncLock | function_declaration |  | [669](../../magpie/internal/catalog/catalog.go#L669) |
+| probe | var_spec | syncLock | [696](../../magpie/internal/catalog/catalog.go#L696) |
 | Stale | function_declaration |  | [714](../../magpie/internal/catalog/catalog.go#L714) |
 | PriceOf | function_declaration |  | [724](../../magpie/internal/catalog/catalog.go#L724) |
 | PricedBy | function_declaration |  | [739](../../magpie/internal/catalog/catalog.go#L739) |
-| priceIndex | struct_type |  | [789](../../magpie/internal/catalog/catalog.go#L789) |
+| priceIndex | type_spec |  | [789](../../magpie/internal/catalog/catalog.go#L789) |
 | bare | field_declaration | priceIndex | [792](../../magpie/internal/catalog/catalog.go#L792) |
-| dashed | field_declaration | priceIndex | [792](../../magpie/internal/catalog/catalog.go#L792) |
 | canon | field_declaration | priceIndex | [795](../../magpie/internal/catalog/catalog.go#L795) |
-| canonDashed | field_declaration | priceIndex | [795](../../magpie/internal/catalog/catalog.go#L795) |
 | priceIndexes | var_spec |  | [798](../../magpie/internal/catalog/catalog.go#L798) |
+| gen | field_declaration | priceIndexes | [800](../../magpie/internal/catalog/catalog.go#L800) |
+| by | field_declaration | priceIndexes | [801](../../magpie/internal/catalog/catalog.go#L801) |
 | priceIndexOf | function_declaration |  | [806](../../magpie/internal/catalog/catalog.go#L806) |
 | canonicallyPriced | function_declaration |  | [860](../../magpie/internal/catalog/catalog.go#L860) |
 | dashed | function_declaration |  | [876](../../magpie/internal/catalog/catalog.go#L876) |
 | APIOf | function_declaration |  | [884](../../magpie/internal/catalog/catalog.go#L884) |
 | Provider | function_declaration |  | [904](../../magpie/internal/catalog/catalog.go#L904) |
 | provider | function_declaration |  | [924](../../magpie/internal/catalog/catalog.go#L924) |
+| out | var_spec | provider | [929](../../magpie/internal/catalog/catalog.go#L929) |
 | ProviderName | function_declaration |  | [952](../../magpie/internal/catalog/catalog.go#L952) |
 | Thinks | function_declaration |  | [960](../../magpie/internal/catalog/catalog.go#L960) |
 | NameOf | function_declaration |  | [970](../../magpie/internal/catalog/catalog.go#L970) |
@@ -60,7 +67,9 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 | OutputOf | function_declaration |  | [1097](../../magpie/internal/catalog/catalog.go#L1097) |
 | EffortsOf | function_declaration |  | [1109](../../magpie/internal/catalog/catalog.go#L1109) |
 | lookup | function_declaration |  | [1119](../../magpie/internal/catalog/catalog.go#L1119) |
+| zero | var_spec | lookup | [1127](../../magpie/internal/catalog/catalog.go#L1127) |
 | found | function_declaration |  | [1134](../../magpie/internal/catalog/catalog.go#L1134) |
+| zero | var_spec | found | [1151](../../magpie/internal/catalog/catalog.go#L1151) |
 | relayPrefixes | var_spec |  | [1158](../../magpie/internal/catalog/catalog.go#L1158) |
 | channelPrefix | var_spec |  | [1166](../../magpie/internal/catalog/catalog.go#L1166) |
 | renamed | function_declaration |  | [1178](../../magpie/internal/catalog/catalog.go#L1178) |
@@ -73,8 +82,11 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 | variantSuffix | var_spec |  | [1305](../../magpie/internal/catalog/catalog.go#L1305) |
 | Unsuffixed | function_declaration |  | [1311](../../magpie/internal/catalog/catalog.go#L1311) |
 | KinEfforts | function_declaration |  | [1323](../../magpie/internal/catalog/catalog.go#L1323) |
+| levels | var_spec | KinEfforts | [1330](../../magpie/internal/catalog/catalog.go#L1330) |
+| newest | var_spec | KinEfforts | [1331](../../magpie/internal/catalog/catalog.go#L1331) |
+| found | var_spec | KinEfforts | [1332](../../magpie/internal/catalog/catalog.go#L1332) |
 | versionless | function_declaration |  | [1354](../../magpie/internal/catalog/catalog.go#L1354) |
-| budgeted | method_declaration | mdModel | [1370](../../magpie/internal/catalog/catalog.go#L1370) |
+| budgeted | method_declaration |  | [1370](../../magpie/internal/catalog/catalog.go#L1370) |
 | cutAt | function_declaration |  | [1380](../../magpie/internal/catalog/catalog.go#L1380) |
 | mostListed | function_declaration |  | [1389](../../magpie/internal/catalog/catalog.go#L1389) |
 | mostNamed | function_declaration |  | [1401](../../magpie/internal/catalog/catalog.go#L1401) |
@@ -89,22 +101,10 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 | PointsToImagesAPI | function_declaration |  | [1518](../../magpie/internal/catalog/catalog.go#L1518) |
 | PointsToChat | function_declaration |  | [1524](../../magpie/internal/catalog/catalog.go#L1524) |
 | Drawers | function_declaration |  | [1530](../../magpie/internal/catalog/catalog.go#L1530) |
+| out | var_spec | Drawers | [1535](../../magpie/internal/catalog/catalog.go#L1535) |
 | AtEndpoint | function_declaration |  | [1555](../../magpie/internal/catalog/catalog.go#L1555) |
 | endpoints | var_spec |  | [1582](../../magpie/internal/catalog/catalog.go#L1582) |
+| gen | field_declaration | endpoints | [1584](../../magpie/internal/catalog/catalog.go#L1584) |
+| by | field_declaration | endpoints | [1585](../../magpie/internal/catalog/catalog.go#L1585) |
 | endpointKey | function_declaration |  | [1588](../../magpie/internal/catalog/catalog.go#L1588) |
 | Providers | function_declaration |  | [1593](../../magpie/internal/catalog/catalog.go#L1593) |
-| CodexHome | function_declaration |  | [1603](../../magpie/internal/catalog/catalog.go#L1603) |
-| CodexModelsCache | function_declaration |  | [1606](../../magpie/internal/catalog/catalog.go#L1606) |
-| Codex | function_declaration |  | [1610](../../magpie/internal/catalog/catalog.go#L1610) |
-| parseCodex | function_declaration |  | [1615](../../magpie/internal/catalog/catalog.go#L1615) |
-| ETag | field_declaration | parseCodex | [1617](../../magpie/internal/catalog/catalog.go#L1617) |
-| Models | field_declaration | parseCodex | [1618](../../magpie/internal/catalog/catalog.go#L1618) |
-| Slug | field_declaration | parseCodex | [1619](../../magpie/internal/catalog/catalog.go#L1619) |
-| DisplayName | field_declaration | parseCodex | [1620](../../magpie/internal/catalog/catalog.go#L1620) |
-| Description | field_declaration | parseCodex | [1621](../../magpie/internal/catalog/catalog.go#L1621) |
-| Visibility | field_declaration | parseCodex | [1622](../../magpie/internal/catalog/catalog.go#L1622) |
-| Priority | field_declaration | parseCodex | [1623](../../magpie/internal/catalog/catalog.go#L1623) |
-| Input | field_declaration | parseCodex | [1624](../../magpie/internal/catalog/catalog.go#L1624) |
-| Levels | field_declaration | parseCodex | [1625](../../magpie/internal/catalog/catalog.go#L1625) |
-| Effort | field_declaration | parseCodex | [1626](../../magpie/internal/catalog/catalog.go#L1626) |
-| Context | field_declaration | parseCodex | [1628](../../magpie/internal/catalog/catalog.go#L1628) |

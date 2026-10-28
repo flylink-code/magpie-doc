@@ -4,65 +4,40 @@
 
 [Module](bridge-test.md) · [Source](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) · page 1/1
 
-Source SHA-256: 7106d05ac25eedd60bddd9cb0d921f787843ee31293e6341aabbd4a95910b33e
+Source SHA-256: 86177f0551e292f115d986933e52310878298c6137a8fa986242813d88c683c7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| source | VariableDeclaration |  | [9](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L9) |
-| scratchRoot | VariableDeclaration |  | [14](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L14) |
-| previousRoot | VariableDeclaration |  | [15](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L15) |
-| result | VariableDeclaration |  | [26](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L26) |
-| text | VariableDeclaration |  | [44](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L44) |
-| top | VariableDeclaration |  | [45](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L45) |
-| text | VariableDeclaration |  | [54](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L54) |
-| body | VariableDeclaration |  | [55](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L55) |
-| launch | VariableDeclaration |  | [58](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L58) |
-| text | VariableDeclaration |  | [71](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L71) |
-| reload | VariableDeclaration |  | [72](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L72) |
-| first | VariableDeclaration |  | [74](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L74) |
-| kill | VariableDeclaration |  | [75](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L75) |
-| text | VariableDeclaration |  | [86](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L86) |
-| setup | VariableDeclaration |  | [87](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L87) |
-| text | VariableDeclaration |  | [98](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L98) |
-| start | VariableDeclaration |  | [99](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L99) |
-| root | VariableDeclaration |  | [103](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L103) |
-| previousIsolation | VariableDeclaration |  | [104](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L104) |
-| text | VariableDeclaration |  | [131](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L131) |
-| stop | VariableDeclaration |  | [132](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L132) |
-| text | VariableDeclaration |  | [138](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L138) |
-| activate | VariableDeclaration |  | [139](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L139) |
-| text | VariableDeclaration |  | [149](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L149) |
-| start | VariableDeclaration |  | [150](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L150) |
-| from | VariableDeclaration |  | [154](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L154) |
-| check | VariableDeclaration |  | [155](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L155) |
-| text | VariableDeclaration |  | [163](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L163) |
-| from | VariableDeclaration |  | [164](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L164) |
-| check | VariableDeclaration |  | [165](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L165) |
-| text | VariableDeclaration |  | [174](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L174) |
-| staged | VariableDeclaration |  | [175](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L175) |
-| text | VariableDeclaration |  | [182](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L182) |
-| launch | VariableDeclaration |  | [183](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L183) |
-| text | VariableDeclaration |  | [190](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L190) |
-| started | VariableDeclaration |  | [200](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L200) |
-| result | VariableDeclaration |  | [201](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L201) |
-| text | VariableDeclaration |  | [222](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L222) |
-| text | VariableDeclaration |  | [229](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L229) |
-| match | VariableDeclaration |  | [235](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L235) |
-| [, name, params] | VariableDeclaration |  | [236](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L236) |
-| name | BindingElement | [, name, params] | [236](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L236) |
-| params | BindingElement | [, name, params] | [236](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L236) |
-| rest | VariableDeclaration |  | [237](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L237) |
-| next | VariableDeclaration |  | [238](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L238) |
-| body | VariableDeclaration |  | [239](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L239) |
-| takesIt | VariableDeclaration |  | [241](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L241) |
-| importsIt | VariableDeclaration |  | [242](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L242) |
-| text | VariableDeclaration |  | [248](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L248) |
-| icon | VariableDeclaration |  | [249](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L249) |
-| png | VariableDeclaration |  | [250](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L250) |
-| chunks | VariableDeclaration |  | [253](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L253) |
-| i | VariableDeclaration |  | [254](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L254) |
-| length | VariableDeclaration |  | [255](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L255) |
-| type | VariableDeclaration |  | [256](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L256) |
-| text | VariableDeclaration |  | [268](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L268) |
-| calls | VariableDeclaration |  | [271](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L271) |
-| call | VariableDeclaration |  | [273](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L273) |
+| here | VariableDeclaration |  | [11](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L11) |
+| source | VariableDeclaration |  | [12](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L12) |
+| text | VariableDeclaration |  | [13](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L13) |
+| result | VariableDeclaration |  | [16](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L16) |
+| module | VariableDeclaration |  | [36](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L36) |
+| {connect: sandboxed} | VariableDeclaration |  | [39](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L39) |
+| sandboxed | BindingElement | {connect: sandboxed} | [39](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L39) |
+| result | VariableDeclaration |  | [40](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L40) |
+| code | VariableDeclaration |  | [56](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L56) |
+| root | VariableDeclaration |  | [72](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L72) |
+| plugin | VariableDeclaration |  | [73](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L73) |
+| record | VariableDeclaration |  | [76](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L76) |
+| version | VariableDeclaration |  | [77](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L77) |
+| bridge | VariableDeclaration |  | [99](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L99) |
+| update | VariableDeclaration |  | [101](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L101) |
+| bridge | VariableDeclaration |  | [113](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L113) |
+| reload | VariableDeclaration |  | [114](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L114) |
+| first | VariableDeclaration |  | [116](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L116) |
+| kill | VariableDeclaration |  | [117](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L117) |
+| installer | VariableDeclaration |  | [126](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L126) |
+| stop | VariableDeclaration |  | [127](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L127) |
+| installer | VariableDeclaration |  | [133](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L133) |
+| activate | VariableDeclaration |  | [134](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L134) |
+| bridge | VariableDeclaration |  | [140](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L140) |
+| icon | VariableDeclaration |  | [157](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L157) |
+| png | VariableDeclaration |  | [158](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L158) |
+| chunks | VariableDeclaration |  | [161](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L161) |
+| i | VariableDeclaration |  | [162](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L162) |
+| length | VariableDeclaration |  | [163](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L163) |
+| type | VariableDeclaration |  | [164](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L164) |
+| bridge | VariableDeclaration |  | [176](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L176) |
+| calls | VariableDeclaration |  | [179](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L179) |
+| call | VariableDeclaration |  | [181](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js#L181) |

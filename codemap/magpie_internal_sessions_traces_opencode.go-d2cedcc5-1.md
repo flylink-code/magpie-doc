@@ -10,52 +10,36 @@ Source SHA-256: 7f80906dc219627aedca6ccb326ee015c78e2acffb3c7d10660144ee7dc736a4
 | --- | --- | --- | ---: |
 | traceOpenCodeWindow | function_declaration |  | [17](../../magpie/internal/sessions/traces_opencode.go#L17) |
 | traceOCMessages | function_declaration |  | [32](../../magpie/internal/sessions/traces_opencode.go#L32) |
+| out | var_spec | traceOCMessages | [33](../../magpie/internal/sessions/traces_opencode.go#L33) |
 | traceOCParts | function_declaration |  | [43](../../magpie/internal/sessions/traces_opencode.go#L43) |
-| pollOpenCode | method_declaration | *TraceReader | [55](../../magpie/internal/sessions/traces_opencode.go#L55) |
-| ocTracePart | struct_type |  | [162](../../magpie/internal/sessions/traces_opencode.go#L162) |
+| out | var_spec | traceOCParts | [44](../../magpie/internal/sessions/traces_opencode.go#L44) |
+| pollOpenCode | method_declaration |  | [55](../../magpie/internal/sessions/traces_opencode.go#L55) |
+| stamp | var_spec | pollOpenCode | [71](../../magpie/internal/sessions/traces_opencode.go#L71) |
+| out | var_spec | pollOpenCode | [102](../../magpie/internal/sessions/traces_opencode.go#L102) |
+| m | var_spec | pollOpenCode | [124](../../magpie/internal/sessions/traces_opencode.go#L124) |
+| part | var_spec | pollOpenCode | [137](../../magpie/internal/sessions/traces_opencode.go#L137) |
+| ocTracePart | type_spec |  | [162](../../magpie/internal/sessions/traces_opencode.go#L162) |
 | ID | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
-| Type | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
-| Text | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
-| Name | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
-| Tool | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
-| CallID | field_declaration | ocTracePart | [163](../../magpie/internal/sessions/traces_opencode.go#L163) |
 | Synthetic | field_declaration | ocTracePart | [164](../../magpie/internal/sessions/traces_opencode.go#L164) |
-| Ignored | field_declaration | ocTracePart | [164](../../magpie/internal/sessions/traces_opencode.go#L164) |
 | Time | field_declaration | ocTracePart | [165](../../magpie/internal/sessions/traces_opencode.go#L165) |
-| Created | field_declaration | ocTracePart | [165](../../magpie/internal/sessions/traces_opencode.go#L165) |
-| Ran | field_declaration | ocTracePart | [165](../../magpie/internal/sessions/traces_opencode.go#L165) |
-| Completed | field_declaration | ocTracePart | [165](../../magpie/internal/sessions/traces_opencode.go#L165) |
+| Created | field_declaration | ocTracePart::Time | [165](../../magpie/internal/sessions/traces_opencode.go#L165) |
 | State | field_declaration | ocTracePart | [166](../../magpie/internal/sessions/traces_opencode.go#L166) |
-| Status | field_declaration | ocTracePart | [167](../../magpie/internal/sessions/traces_opencode.go#L167) |
-| Input | field_declaration | ocTracePart | [168](../../magpie/internal/sessions/traces_opencode.go#L168) |
-| Output | field_declaration | ocTracePart | [168](../../magpie/internal/sessions/traces_opencode.go#L168) |
-| Content | field_declaration | ocTracePart | [168](../../magpie/internal/sessions/traces_opencode.go#L168) |
-| Error | field_declaration | ocTracePart | [168](../../magpie/internal/sessions/traces_opencode.go#L168) |
-| Time | field_declaration | ocTracePart | [169](../../magpie/internal/sessions/traces_opencode.go#L169) |
-| Start | field_declaration | ocTracePart | [169](../../magpie/internal/sessions/traces_opencode.go#L169) |
-| End | field_declaration | ocTracePart | [169](../../magpie/internal/sessions/traces_opencode.go#L169) |
-| ocTraceMessage | struct_type |  | [172](../../magpie/internal/sessions/traces_opencode.go#L172) |
+| Status | field_declaration | ocTracePart::State | [167](../../magpie/internal/sessions/traces_opencode.go#L167) |
+| Input | field_declaration | ocTracePart::State | [168](../../magpie/internal/sessions/traces_opencode.go#L168) |
+| Time | field_declaration | ocTracePart::State | [169](../../magpie/internal/sessions/traces_opencode.go#L169) |
+| Start | field_declaration | ocTracePart::State::Time | [169](../../magpie/internal/sessions/traces_opencode.go#L169) |
+| ocTraceMessage | type_spec |  | [172](../../magpie/internal/sessions/traces_opencode.go#L172) |
 | ID | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| Type | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| Role | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| ParentID | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| ModelID | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| ProviderID | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| Finish | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
-| Text | field_declaration | ocTraceMessage | [173](../../magpie/internal/sessions/traces_opencode.go#L173) |
 | Model | field_declaration | ocTraceMessage | [174](../../magpie/internal/sessions/traces_opencode.go#L174) |
-| ID | field_declaration | ocTraceMessage | [174](../../magpie/internal/sessions/traces_opencode.go#L174) |
-| ProviderID | field_declaration | ocTraceMessage | [174](../../magpie/internal/sessions/traces_opencode.go#L174) |
+| ID | field_declaration | ocTraceMessage::Model | [174](../../magpie/internal/sessions/traces_opencode.go#L174) |
 | Time | field_declaration | ocTraceMessage | [175](../../magpie/internal/sessions/traces_opencode.go#L175) |
-| Created | field_declaration | ocTraceMessage | [175](../../magpie/internal/sessions/traces_opencode.go#L175) |
-| Completed | field_declaration | ocTraceMessage | [175](../../magpie/internal/sessions/traces_opencode.go#L175) |
+| Created | field_declaration | ocTraceMessage::Time | [175](../../magpie/internal/sessions/traces_opencode.go#L175) |
 | Tokens | field_declaration | ocTraceMessage | [176](../../magpie/internal/sessions/traces_opencode.go#L176) |
-| Input | field_declaration | ocTraceMessage | [177](../../magpie/internal/sessions/traces_opencode.go#L177) |
-| Output | field_declaration | ocTraceMessage | [177](../../magpie/internal/sessions/traces_opencode.go#L177) |
-| Reasoning | field_declaration | ocTraceMessage | [177](../../magpie/internal/sessions/traces_opencode.go#L177) |
-| Cache | field_declaration | ocTraceMessage | [178](../../magpie/internal/sessions/traces_opencode.go#L178) |
-| Read | field_declaration | ocTraceMessage | [178](../../magpie/internal/sessions/traces_opencode.go#L178) |
-| Write | field_declaration | ocTraceMessage | [178](../../magpie/internal/sessions/traces_opencode.go#L178) |
+| Input | field_declaration | ocTraceMessage::Tokens | [177](../../magpie/internal/sessions/traces_opencode.go#L177) |
+| Cache | field_declaration | ocTraceMessage::Tokens | [178](../../magpie/internal/sessions/traces_opencode.go#L178) |
+| Read | field_declaration | ocTraceMessage::Tokens::Cache | [178](../../magpie/internal/sessions/traces_opencode.go#L178) |
 | Error | field_declaration | ocTraceMessage | [180](../../magpie/internal/sessions/traces_opencode.go#L180) |
 | Content | field_declaration | ocTraceMessage | [181](../../magpie/internal/sessions/traces_opencode.go#L181) |
 | traceOpenCode | function_declaration |  | [184](../../magpie/internal/sessions/traces_opencode.go#L184) |
+| out | var_spec | traceOpenCode | [192](../../magpie/internal/sessions/traces_opencode.go#L192) |
+| current | var_spec | traceOpenCode | [193](../../magpie/internal/sessions/traces_opencode.go#L193) |

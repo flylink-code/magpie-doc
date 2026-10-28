@@ -9,7 +9,7 @@ Source SHA-256: f2c9f5a7c87232cddbc0052bd0fdb0c54050c298cd955ecd33b95fc6b915521c
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | FactoryDir | function_declaration |  | [35](../../magpie/internal/sessions/droid.go#L35) |
-| droidStart | struct_type |  | [45](../../magpie/internal/sessions/droid.go#L45) |
+| droidStart | type_spec |  | [45](../../magpie/internal/sessions/droid.go#L45) |
 | Type | field_declaration | droidStart | [46](../../magpie/internal/sessions/droid.go#L46) |
 | ID | field_declaration | droidStart | [47](../../magpie/internal/sessions/droid.go#L47) |
 | Title | field_declaration | droidStart | [48](../../magpie/internal/sessions/droid.go#L48) |
@@ -19,29 +19,36 @@ Source SHA-256: f2c9f5a7c87232cddbc0052bd0fdb0c54050c298cd955ecd33b95fc6b915521c
 | Calling | field_declaration | droidStart | [52](../../magpie/internal/sessions/droid.go#L52) |
 | Forked | field_declaration | droidStart | [53](../../magpie/internal/sessions/droid.go#L53) |
 | readDroidStart | function_declaration |  | [57](../../magpie/internal/sessions/droid.go#L57) |
+| s | var_spec | readDroidStart | [58](../../magpie/internal/sessions/droid.go#L58) |
 | droidCallers | var_spec |  | [71](../../magpie/internal/sessions/droid.go#L71) |
 | droidFiles | function_declaration |  | [73](../../magpie/internal/sessions/droid.go#L73) |
-| droidUsage | struct_type |  | [110](../../magpie/internal/sessions/droid.go#L110) |
+| out | var_spec | droidFiles | [79](../../magpie/internal/sessions/droid.go#L79) |
+| droidUsage | type_spec |  | [110](../../magpie/internal/sessions/droid.go#L110) |
 | Input | field_declaration | droidUsage | [111](../../magpie/internal/sessions/droid.go#L111) |
 | Output | field_declaration | droidUsage | [112](../../magpie/internal/sessions/droid.go#L112) |
 | CacheWrite | field_declaration | droidUsage | [113](../../magpie/internal/sessions/droid.go#L113) |
 | CacheRead | field_declaration | droidUsage | [114](../../magpie/internal/sessions/droid.go#L114) |
-| droidSettings | struct_type |  | [117](../../magpie/internal/sessions/droid.go#L117) |
+| droidSettings | type_spec |  | [117](../../magpie/internal/sessions/droid.go#L117) |
 | Model | field_declaration | droidSettings | [118](../../magpie/internal/sessions/droid.go#L118) |
 | Usage | field_declaration | droidSettings | [119](../../magpie/internal/sessions/droid.go#L119) |
-| droidLine | struct_type |  | [122](../../magpie/internal/sessions/droid.go#L122) |
+| droidLine | type_spec |  | [122](../../magpie/internal/sessions/droid.go#L122) |
 | Type | field_declaration | droidLine | [123](../../magpie/internal/sessions/droid.go#L123) |
 | ID | field_declaration | droidLine | [124](../../magpie/internal/sessions/droid.go#L124) |
 | Message | field_declaration | droidLine | [125](../../magpie/internal/sessions/droid.go#L125) |
-| Role | field_declaration | droidLine | [126](../../magpie/internal/sessions/droid.go#L126) |
-| Content | field_declaration | droidLine | [127](../../magpie/internal/sessions/droid.go#L127) |
+| Role | field_declaration | droidLine::Message | [126](../../magpie/internal/sessions/droid.go#L126) |
+| Content | field_declaration | droidLine::Message | [127](../../magpie/internal/sessions/droid.go#L127) |
 | droidText | function_declaration |  | [133](../../magpie/internal/sessions/droid.go#L133) |
-| Type | field_declaration | droidText | [139](../../magpie/internal/sessions/droid.go#L139) |
-| Text | field_declaration | droidText | [140](../../magpie/internal/sessions/droid.go#L140) |
+| s | var_spec | droidText | [134](../../magpie/internal/sessions/droid.go#L134) |
+| blocks | var_spec | droidText | [138](../../magpie/internal/sessions/droid.go#L138) |
+| Type | field_declaration | droidText::blocks | [139](../../magpie/internal/sessions/droid.go#L139) |
+| Text | field_declaration | droidText::blocks | [140](../../magpie/internal/sessions/droid.go#L140) |
+| parts | var_spec | droidText | [143](../../magpie/internal/sessions/droid.go#L143) |
 | droidTools | function_declaration |  | [153](../../magpie/internal/sessions/droid.go#L153) |
-| Type | field_declaration | droidTools | [155](../../magpie/internal/sessions/droid.go#L155) |
-| Name | field_declaration | droidTools | [156](../../magpie/internal/sessions/droid.go#L156) |
-| droidCarry | struct_type |  | [172](../../magpie/internal/sessions/droid.go#L172) |
+| blocks | var_spec | droidTools | [154](../../magpie/internal/sessions/droid.go#L154) |
+| Type | field_declaration | droidTools::blocks | [155](../../magpie/internal/sessions/droid.go#L155) |
+| Name | field_declaration | droidTools::blocks | [156](../../magpie/internal/sessions/droid.go#L156) |
+| out | var_spec | droidTools | [159](../../magpie/internal/sessions/droid.go#L159) |
+| droidCarry | type_spec |  | [172](../../magpie/internal/sessions/droid.go#L172) |
 | Tail | field_declaration | droidCarry | [173](../../magpie/internal/sessions/droid.go#L173) |
 | Started | field_declaration | droidCarry | [174](../../magpie/internal/sessions/droid.go#L174) |
 | Upto | field_declaration | droidCarry | [175](../../magpie/internal/sessions/droid.go#L175) |
@@ -50,6 +57,12 @@ Source SHA-256: f2c9f5a7c87232cddbc0052bd0fdb0c54050c298cd955ecd33b95fc6b915521c
 | Model | field_declaration | droidCarry | [179](../../magpie/internal/sessions/droid.go#L179) |
 | Tokens | field_declaration | droidCarry | [180](../../magpie/internal/sessions/droid.go#L180) |
 | parseDroid | function_declaration |  | [188](../../magpie/internal/sessions/droid.go#L188) |
+| s | var_spec | parseDroid | [189](../../magpie/internal/sessions/droid.go#L189) |
+| c | var_spec | parseDroid | [190](../../magpie/internal/sessions/droid.go#L190) |
+| off | var_spec | parseDroid | [191](../../magpie/internal/sessions/droid.go#L191) |
+| st | var_spec | parseDroid | [209](../../magpie/internal/sessions/droid.go#L209) |
 | droidLineOf | function_declaration |  | [226](../../magpie/internal/sessions/droid.go#L226) |
+| l | var_spec | droidLineOf | [227](../../magpie/internal/sessions/droid.go#L227) |
+| st | var_spec | droidLineOf | [233](../../magpie/internal/sessions/droid.go#L233) |
 | droidSlot | var_spec |  | [286](../../magpie/internal/sessions/droid.go#L286) |
 | droidModelName | function_declaration |  | [292](../../magpie/internal/sessions/droid.go#L292) |

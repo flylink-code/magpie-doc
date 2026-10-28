@@ -10,17 +10,31 @@ Source SHA-256: 6d34553f89423c2f1ccadeb9e683f55042a7a8a257f76fc92a59878ce0dac385
 | --- | --- | --- | ---: |
 | wholeAsStream | function_declaration |  | [17](../../magpie/internal/gateway/whole_stream.go#L17) |
 | wholeEvents | function_declaration |  | [32](../../magpie/internal/gateway/whole_stream.go#L32) |
-| wholeEvent | struct_type |  | [44](../../magpie/internal/gateway/whole_stream.go#L44) |
+| wholeEvent | type_spec |  | [44](../../magpie/internal/gateway/whole_stream.go#L44) |
 | name | field_declaration | wholeEvent | [45](../../magpie/internal/gateway/whole_stream.go#L45) |
 | data | field_declaration | wholeEvent | [46](../../magpie/internal/gateway/whole_stream.go#L46) |
-| obj | type_alias |  | [50](../../magpie/internal/gateway/whole_stream.go#L50) |
 | raw | function_declaration |  | [52](../../magpie/internal/gateway/whole_stream.go#L52) |
 | str | function_declaration |  | [57](../../magpie/internal/gateway/whole_stream.go#L57) |
+| s | var_spec | str | [58](../../magpie/internal/gateway/whole_stream.go#L58) |
 | chatWholeEvents | function_declaration |  | [66](../../magpie/internal/gateway/whole_stream.go#L66) |
-| Index | field_declaration | chatWholeEvents | [72](../../magpie/internal/gateway/whole_stream.go#L72) |
-| Message | field_declaration | chatWholeEvents | [73](../../magpie/internal/gateway/whole_stream.go#L73) |
-| FinishReason | field_declaration | chatWholeEvents | [74](../../magpie/internal/gateway/whole_stream.go#L74) |
-| Logprobs | field_declaration | chatWholeEvents | [75](../../magpie/internal/gateway/whole_stream.go#L75) |
+| v | var_spec | chatWholeEvents | [67](../../magpie/internal/gateway/whole_stream.go#L67) |
+| choices | var_spec | chatWholeEvents | [71](../../magpie/internal/gateway/whole_stream.go#L71) |
+| Index | field_declaration | chatWholeEvents::choices | [72](../../magpie/internal/gateway/whole_stream.go#L72) |
+| Message | field_declaration | chatWholeEvents::choices | [73](../../magpie/internal/gateway/whole_stream.go#L73) |
+| FinishReason | field_declaration | chatWholeEvents::choices | [74](../../magpie/internal/gateway/whole_stream.go#L74) |
+| Logprobs | field_declaration | chatWholeEvents::choices | [75](../../magpie/internal/gateway/whole_stream.go#L75) |
+| deltas | var_spec | chatWholeEvents | [92](../../magpie/internal/gateway/whole_stream.go#L92) |
+| calls | var_spec | chatWholeEvents | [102](../../magpie/internal/gateway/whole_stream.go#L102) |
 | responsesWholeEvents | function_declaration |  | [131](../../magpie/internal/gateway/whole_stream.go#L131) |
+| v | var_spec | responsesWholeEvents | [132](../../magpie/internal/gateway/whole_stream.go#L132) |
+| output | var_spec | responsesWholeEvents | [136](../../magpie/internal/gateway/whole_stream.go#L136) |
+| events | var_spec | responsesWholeEvents | [140](../../magpie/internal/gateway/whole_stream.go#L140) |
+| parts | var_spec | responsesWholeEvents | [160](../../magpie/internal/gateway/whole_stream.go#L160) |
+| notes | var_spec | responsesWholeEvents | [178](../../magpie/internal/gateway/whole_stream.go#L178) |
 | anthropicWholeEvents | function_declaration |  | [242](../../magpie/internal/gateway/whole_stream.go#L242) |
+| v | var_spec | anthropicWholeEvents | [243](../../magpie/internal/gateway/whole_stream.go#L243) |
+| content | var_spec | anthropicWholeEvents | [247](../../magpie/internal/gateway/whole_stream.go#L247) |
+| events | var_spec | anthropicWholeEvents | [251](../../magpie/internal/gateway/whole_stream.go#L251) |
+| usage | var_spec | anthropicWholeEvents | [261](../../magpie/internal/gateway/whole_stream.go#L261) |
+| cites | var_spec | anthropicWholeEvents | [275](../../magpie/internal/gateway/whole_stream.go#L275) |
 | orNull | function_declaration |  | [325](../../magpie/internal/gateway/whole_stream.go#L325) |

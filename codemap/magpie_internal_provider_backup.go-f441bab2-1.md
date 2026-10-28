@@ -15,8 +15,11 @@ Source SHA-256: c2de4db7a4d2c4d00c62521f2ac67a58d6aa136dfa1fb006508937b93b5dcc77
 | RestoreGroups | function_declaration |  | [69](../../magpie/internal/provider/backup.go#L69) |
 | Mirror | function_declaration |  | [95](../../magpie/internal/provider/backup.go#L95) |
 | Carried | function_declaration |  | [126](../../magpie/internal/provider/backup.go#L126) |
+| out | var_spec | Carried | [127](../../magpie/internal/provider/backup.go#L127) |
 | withoutSecretOptions | function_declaration |  | [142](../../magpie/internal/provider/backup.go#L142) |
+| strip | var_spec | withoutSecretOptions | [143](../../magpie/internal/provider/backup.go#L143) |
 | AddPlugins | function_declaration |  | [175](../../magpie/internal/provider/backup.go#L175) |
 | NotSignedIn | function_declaration |  | [214](../../magpie/internal/provider/backup.go#L214) |
 | notSignedIn | function_declaration |  | [223](../../magpie/internal/provider/backup.go#L223) |
+| out | var_spec | notSignedIn | [224](../../magpie/internal/provider/backup.go#L224) |
 | OnlyPicks | function_declaration |  | [240](../../magpie/internal/provider/backup.go#L240) |

@@ -10,4 +10,7 @@ Source SHA-256: 79303d95eba838de2f3e29ca84dc9d94a4b265362546318b81ca093a589499f8
 | --- | --- | --- | ---: |
 | ForgetAccount | function_declaration |  | [23](../../magpie/internal/provider/forget_account.go#L23) |
 | forgetLogins | function_declaration |  | [40](../../magpie/internal/provider/forget_account.go#L40) |
+| errs | var_spec | forgetLogins | [51](../../magpie/internal/provider/forget_account.go#L51) |
 | forgetPluginAccounts | function_declaration |  | [64](../../magpie/internal/provider/forget_account.go#L64) |
+| errs | var_spec | forgetPluginAccounts | [66](../../magpie/internal/provider/forget_account.go#L66) |
+| owners | var_spec | forgetPluginAccounts | [68](../../magpie/internal/provider/forget_account.go#L68) |

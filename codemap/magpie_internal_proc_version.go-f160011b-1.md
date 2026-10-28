@@ -10,8 +10,12 @@ Source SHA-256: ac0f58e8adc68d417b135409863b3ffd09633b7222120e47bc8e1b5734024766
 | --- | --- | --- | ---: |
 | Version | function_declaration |  | [23](../../magpie/internal/proc/version.go#L23) |
 | versionsFailed | var_spec |  | [59](../../magpie/internal/proc/version.go#L59) |
+| m | field_declaration | versionsFailed | [61](../../magpie/internal/proc/version.go#L61) |
 | runVersion | var_spec |  | [66](../../magpie/internal/proc/version.go#L66) |
 | npmVersion | function_declaration |  | [86](../../magpie/internal/proc/version.go#L86) |
-| Version | field_declaration | npmVersion | [94](../../magpie/internal/proc/version.go#L94) |
+| p | var_spec | npmVersion | [93](../../magpie/internal/proc/version.go#L93) |
+| Version | field_declaration | npmVersion::p | [94](../../magpie/internal/proc/version.go#L94) |
 | shimVersion | function_declaration |  | [110](../../magpie/internal/proc/version.go#L110) |
-| Version | field_declaration | shimVersion | [137](../../magpie/internal/proc/version.go#L137) |
+| nm | const_spec | shimVersion | [120](../../magpie/internal/proc/version.go#L120) |
+| p | var_spec | shimVersion | [136](../../magpie/internal/proc/version.go#L136) |
+| Version | field_declaration | shimVersion::p | [137](../../magpie/internal/proc/version.go#L137) |

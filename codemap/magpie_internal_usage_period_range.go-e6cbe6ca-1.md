@@ -12,10 +12,10 @@ Source SHA-256: 394521478f54ce6f565fec651c0f584fef26166bd8b6c7008be76711bce4db5a
 | RangeOf | function_declaration |  | [16](../../magpie/internal/usage/period_range.go#L16) |
 | lastSep | const_spec |  | [33](../../magpie/internal/usage/period_range.go#L33) |
 | LastOf | function_declaration |  | [37](../../magpie/internal/usage/period_range.go#L37) |
-| Last | method_declaration | Period | [46](../../magpie/internal/usage/period_range.go#L46) |
-| days | method_declaration | Period | [59](../../magpie/internal/usage/period_range.go#L59) |
-| IsRange | method_declaration | Period | [73](../../magpie/internal/usage/period_range.go#L73) |
-| Known | method_declaration | Period | [80](../../magpie/internal/usage/period_range.go#L80) |
-| Until | method_declaration | Period | [90](../../magpie/internal/usage/period_range.go#L90) |
+| Last | method_declaration |  | [46](../../magpie/internal/usage/period_range.go#L46) |
+| days | method_declaration |  | [59](../../magpie/internal/usage/period_range.go#L59) |
+| IsRange | method_declaration |  | [73](../../magpie/internal/usage/period_range.go#L73) |
+| Known | method_declaration |  | [80](../../magpie/internal/usage/period_range.go#L80) |
+| Until | method_declaration |  | [90](../../magpie/internal/usage/period_range.go#L90) |
 | after | function_declaration |  | [98](../../magpie/internal/usage/period_range.go#L98) |
-| shown | method_declaration | Period | [102](../../magpie/internal/usage/period_range.go#L102) |
+| shown | method_declaration |  | [102](../../magpie/internal/usage/period_range.go#L102) |

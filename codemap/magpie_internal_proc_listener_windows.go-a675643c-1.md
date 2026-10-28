@@ -9,6 +9,7 @@ Source SHA-256: fb2eb76a22c6d7f1f3dd7e787e1d43f6a501d3ed45ce037b25e31d2ae3a6116e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | listeningOn | function_declaration |  | [19](../../magpie/internal/proc/listener_windows.go#L19) |
+| ps | var_spec | listeningOn | [26](../../magpie/internal/proc/listener_windows.go#L26) |
 | executable | function_declaration |  | [37](../../magpie/internal/proc/listener_windows.go#L37) |
 | terminate | function_declaration |  | [53](../../magpie/internal/proc/listener_windows.go#L53) |
 | kill | function_declaration |  | [55](../../magpie/internal/proc/listener_windows.go#L55) |

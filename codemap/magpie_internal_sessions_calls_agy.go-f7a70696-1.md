@@ -10,7 +10,7 @@ Source SHA-256: 1d07c7e4da7e7e0d8ad8808913335de4117a128a53ef0c9da83110e737f5700e
 | --- | --- | --- | ---: |
 | AgyDir | function_declaration |  | [40](../../magpie/internal/sessions/calls_agy.go#L40) |
 | agyCallFiles | function_declaration |  | [46](../../magpie/internal/sessions/calls_agy.go#L46) |
-| agyStep | struct_type |  | [48](../../magpie/internal/sessions/calls_agy.go#L48) |
+| agyStep | type_spec |  | [48](../../magpie/internal/sessions/calls_agy.go#L48) |
 | Step | field_declaration | agyStep | [49](../../magpie/internal/sessions/calls_agy.go#L49) |
 | Source | field_declaration | agyStep | [50](../../magpie/internal/sessions/calls_agy.go#L50) |
 | CreatedAt | field_declaration | agyStep | [51](../../magpie/internal/sessions/calls_agy.go#L51) |
@@ -19,4 +19,5 @@ Source SHA-256: 1d07c7e4da7e7e0d8ad8808913335de4117a128a53ef0c9da83110e737f5700e
 | Output | field_declaration | agyStep | [54](../../magpie/internal/sessions/calls_agy.go#L54) |
 | agyTokens | var_spec |  | [57](../../magpie/internal/sessions/calls_agy.go#L57) |
 | readAgyCalls | function_declaration |  | [61](../../magpie/internal/sessions/calls_agy.go#L61) |
+| s | var_spec | readAgyCalls | [77](../../magpie/internal/sessions/calls_agy.go#L77) |
 | agyCall | function_declaration |  | [97](../../magpie/internal/sessions/calls_agy.go#L97) |

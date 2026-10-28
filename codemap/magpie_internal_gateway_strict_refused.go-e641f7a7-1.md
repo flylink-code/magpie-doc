@@ -11,4 +11,5 @@ Source SHA-256: e8b08b53175e574ba7e494c0ff95ded17514a6f8bc9d0a7c4d968674c7e0e458
 | toolStrictRefusal | var_spec |  | [26](../../magpie/internal/gateway/strict_refused.go#L26) |
 | toolStrictRefused | const_spec |  | [30](../../magpie/internal/gateway/strict_refused.go#L30) |
 | withoutToolStrict | function_declaration |  | [35](../../magpie/internal/gateway/strict_refused.go#L35) |
+| m | var_spec | withoutToolStrict | [41](../../magpie/internal/gateway/strict_refused.go#L41) |
 | dropToolStrict | function_declaration |  | [58](../../magpie/internal/gateway/strict_refused.go#L58) |

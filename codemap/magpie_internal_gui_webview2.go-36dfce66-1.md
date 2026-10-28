@@ -15,3 +15,5 @@ Source SHA-256: a7323040457f3bf41a7a37885337f019ff996c515a61bdff50f046c97c94c3f7
 | webView2Args | function_declaration |  | [81](../../magpie/internal/gui/webview2.go#L81) |
 | addFeatures | function_declaration |  | [96](../../magpie/internal/gui/webview2.go#L96) |
 | splitArgs | function_declaration |  | [107](../../magpie/internal/gui/webview2.go#L107) |
+| out | var_spec | splitArgs | [108](../../magpie/internal/gui/webview2.go#L108) |
+| cur | var_spec | splitArgs | [109](../../magpie/internal/gui/webview2.go#L109) |

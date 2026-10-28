@@ -14,4 +14,5 @@ Source SHA-256: a39b4155d2d7d54550299b6596c7e7c767eba52ade76876d6fc4aa985dfbee8d
 | gatewayOf | function_declaration |  | [80](../../magpie/internal/library/mcp_signin.go#L80) |
 | errNotHTTP | var_spec |  | [87](../../magpie/internal/library/mcp_signin.go#L87) |
 | SignInServer | function_declaration |  | [91](../../magpie/internal/library/mcp_signin.go#L91) |
+| app | var_spec | SignInServer | [105](../../magpie/internal/library/mcp_signin.go#L105) |
 | SignOutServer | function_declaration |  | [114](../../magpie/internal/library/mcp_signin.go#L114) |

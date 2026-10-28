@@ -11,10 +11,8 @@ Source SHA-256: 77a3a7f1cd33c0029f792f3a129d9f1b5e502b39079d07157f24041720a88cc6
 | wbEndpoint | var_spec |  | [48](../../magpie/internal/provider/workbuddy.go#L48) |
 | wbAIEndpoint | var_spec |  | [50](../../magpie/internal/provider/workbuddy.go#L50) |
 | wbUAVersion | var_spec |  | [55](../../magpie/internal/provider/workbuddy.go#L55) |
-| wbSite | struct_type |  | [59](../../magpie/internal/provider/workbuddy.go#L59) |
+| wbSite | type_spec |  | [59](../../magpie/internal/provider/workbuddy.go#L59) |
 | id | field_declaration | wbSite | [60](../../magpie/internal/provider/workbuddy.go#L60) |
-| name | field_declaration | wbSite | [60](../../magpie/internal/provider/workbuddy.go#L60) |
-| website | field_declaration | wbSite | [60](../../magpie/internal/provider/workbuddy.go#L60) |
 | authID | field_declaration | wbSite | [61](../../magpie/internal/provider/workbuddy.go#L61) |
 | platform | field_declaration | wbSite | [62](../../magpie/internal/provider/workbuddy.go#L62) |
 | endpoint | field_declaration | wbSite | [63](../../magpie/internal/provider/workbuddy.go#L63) |
@@ -22,8 +20,8 @@ Source SHA-256: 77a3a7f1cd33c0029f792f3a129d9f1b5e502b39079d07157f24041720a88cc6
 | wbAI | var_spec |  | [69](../../magpie/internal/provider/workbuddy.go#L69) |
 | WorkBuddyAIID | const_spec |  | [74](../../magpie/internal/provider/workbuddy.go#L74) |
 | wbSiteOf | function_declaration |  | [77](../../magpie/internal/provider/workbuddy.go#L77) |
-| api | method_declaration | *wbSite | [88](../../magpie/internal/provider/workbuddy.go#L88) |
-| wbCreds | struct_type |  | [92](../../magpie/internal/provider/workbuddy.go#L92) |
+| api | method_declaration |  | [88](../../magpie/internal/provider/workbuddy.go#L88) |
+| wbCreds | type_spec |  | [92](../../magpie/internal/provider/workbuddy.go#L92) |
 | UID | field_declaration | wbCreds | [93](../../magpie/internal/provider/workbuddy.go#L93) |
 | Access | field_declaration | wbCreds | [94](../../magpie/internal/provider/workbuddy.go#L94) |
 | Refresh | field_declaration | wbCreds | [95](../../magpie/internal/provider/workbuddy.go#L95) |
@@ -31,46 +29,55 @@ Source SHA-256: 77a3a7f1cd33c0029f792f3a129d9f1b5e502b39079d07157f24041720a88cc6
 | RefreshExpiresAt | field_declaration | wbCreds | [97](../../magpie/internal/provider/workbuddy.go#L97) |
 | Domain | field_declaration | wbCreds | [98](../../magpie/internal/provider/workbuddy.go#L98) |
 | TokenType | field_declaration | wbCreds | [99](../../magpie/internal/provider/workbuddy.go#L99) |
-| wbAccount | struct_type |  | [105](../../magpie/internal/provider/workbuddy.go#L105) |
+| wbAccount | type_spec |  | [105](../../magpie/internal/provider/workbuddy.go#L105) |
 | site | field_declaration | wbAccount | [107](../../magpie/internal/provider/workbuddy.go#L107) |
 | creds | field_declaration | wbAccount | [108](../../magpie/internal/provider/workbuddy.go#L108) |
 | own | field_declaration | wbAccount | [109](../../magpie/internal/provider/workbuddy.go#L109) |
 | via | field_declaration | wbAccount | [112](../../magpie/internal/provider/workbuddy.go#L112) |
 | card | field_declaration | wbAccount | [115](../../magpie/internal/provider/workbuddy.go#L115) |
 | wbAuthPath | function_declaration |  | [123](../../magpie/internal/provider/workbuddy.go#L123) |
-| wbStoredSession | struct_type |  | [141](../../magpie/internal/provider/workbuddy.go#L141) |
+| base | var_spec | wbAuthPath | [125](../../magpie/internal/provider/workbuddy.go#L125) |
+| wbStoredSession | type_spec |  | [141](../../magpie/internal/provider/workbuddy.go#L141) |
 | Account | field_declaration | wbStoredSession | [142](../../magpie/internal/provider/workbuddy.go#L142) |
-| UID | field_declaration | wbStoredSession | [143](../../magpie/internal/provider/workbuddy.go#L143) |
-| Nickname | field_declaration | wbStoredSession | [144](../../magpie/internal/provider/workbuddy.go#L144) |
-| PhoneNumber | field_declaration | wbStoredSession | [145](../../magpie/internal/provider/workbuddy.go#L145) |
+| UID | field_declaration | wbStoredSession::Account | [143](../../magpie/internal/provider/workbuddy.go#L143) |
+| Nickname | field_declaration | wbStoredSession::Account | [144](../../magpie/internal/provider/workbuddy.go#L144) |
+| PhoneNumber | field_declaration | wbStoredSession::Account | [145](../../magpie/internal/provider/workbuddy.go#L145) |
 | Auth | field_declaration | wbStoredSession | [147](../../magpie/internal/provider/workbuddy.go#L147) |
-| AccessToken | field_declaration | wbStoredSession | [148](../../magpie/internal/provider/workbuddy.go#L148) |
-| RefreshToken | field_declaration | wbStoredSession | [149](../../magpie/internal/provider/workbuddy.go#L149) |
-| ExpiresAt | field_declaration | wbStoredSession | [150](../../magpie/internal/provider/workbuddy.go#L150) |
-| ExpiresIn | field_declaration | wbStoredSession | [151](../../magpie/internal/provider/workbuddy.go#L151) |
-| RefreshExpiresAt | field_declaration | wbStoredSession | [152](../../magpie/internal/provider/workbuddy.go#L152) |
-| RefreshExpiresIn | field_declaration | wbStoredSession | [153](../../magpie/internal/provider/workbuddy.go#L153) |
-| Domain | field_declaration | wbStoredSession | [154](../../magpie/internal/provider/workbuddy.go#L154) |
-| TokenType | field_declaration | wbStoredSession | [155](../../magpie/internal/provider/workbuddy.go#L155) |
+| AccessToken | field_declaration | wbStoredSession::Auth | [148](../../magpie/internal/provider/workbuddy.go#L148) |
+| RefreshToken | field_declaration | wbStoredSession::Auth | [149](../../magpie/internal/provider/workbuddy.go#L149) |
+| ExpiresAt | field_declaration | wbStoredSession::Auth | [150](../../magpie/internal/provider/workbuddy.go#L150) |
+| ExpiresIn | field_declaration | wbStoredSession::Auth | [151](../../magpie/internal/provider/workbuddy.go#L151) |
+| RefreshExpiresAt | field_declaration | wbStoredSession::Auth | [152](../../magpie/internal/provider/workbuddy.go#L152) |
+| RefreshExpiresIn | field_declaration | wbStoredSession::Auth | [153](../../magpie/internal/provider/workbuddy.go#L153) |
+| Domain | field_declaration | wbStoredSession::Auth | [154](../../magpie/internal/provider/workbuddy.go#L154) |
+| TokenType | field_declaration | wbStoredSession::Auth | [155](../../magpie/internal/provider/workbuddy.go#L155) |
 | wbString | function_declaration |  | [161](../../magpie/internal/provider/workbuddy.go#L161) |
+| s | var_spec | wbString | [162](../../magpie/internal/provider/workbuddy.go#L162) |
 | wbOwn | function_declaration |  | [171](../../magpie/internal/provider/workbuddy.go#L171) |
+| s | var_spec | wbOwn | [172](../../magpie/internal/provider/workbuddy.go#L172) |
 | wbWho | function_declaration |  | [200](../../magpie/internal/provider/workbuddy.go#L200) |
 | wbSavedCreds | function_declaration |  | [206](../../magpie/internal/provider/workbuddy.go#L206) |
+| c | var_spec | wbSavedCreds | [207](../../magpie/internal/provider/workbuddy.go#L207) |
 | wbLogins | function_declaration |  | [215](../../magpie/internal/provider/workbuddy.go#L215) |
+| out | var_spec | wbLogins | [220](../../magpie/internal/provider/workbuddy.go#L220) |
 | WBRestrictedHint | const_spec |  | [252](../../magpie/internal/provider/workbuddy.go#L252) |
 | ZCodeRestrictedHint | const_spec |  | [260](../../magpie/internal/provider/workbuddy.go#L260) |
 | wbRestrictedWords | var_spec |  | [265](../../magpie/internal/provider/workbuddy.go#L265) |
 | wbRestrictedCode | const_spec |  | [268](../../magpie/internal/provider/workbuddy.go#L268) |
 | WBRestricted | function_declaration |  | [274](../../magpie/internal/provider/workbuddy.go#L274) |
+| v | var_spec | WBRestricted | [278](../../magpie/internal/provider/workbuddy.go#L278) |
 | wbTokens | var_spec |  | [307](../../magpie/internal/provider/workbuddy.go#L307) |
+| m | field_declaration | wbTokens | [309](../../magpie/internal/provider/workbuddy.go#L309) |
 | wbNum | type_spec |  | [315](../../magpie/internal/provider/workbuddy.go#L315) |
-| UnmarshalJSON | method_declaration | *wbNum | [317](../../magpie/internal/provider/workbuddy.go#L317) |
-| wbError | struct_type |  | [335](../../magpie/internal/provider/workbuddy.go#L335) |
+| UnmarshalJSON | method_declaration |  | [317](../../magpie/internal/provider/workbuddy.go#L317) |
+| wbError | type_spec |  | [335](../../magpie/internal/provider/workbuddy.go#L335) |
 | code | field_declaration | wbError | [336](../../magpie/internal/provider/workbuddy.go#L336) |
 | msg | field_declaration | wbError | [337](../../magpie/internal/provider/workbuddy.go#L337) |
-| Error | method_declaration | *wbError | [340](../../magpie/internal/provider/workbuddy.go#L340) |
+| Error | method_declaration |  | [340](../../magpie/internal/provider/workbuddy.go#L340) |
 | wbCallVia | function_declaration |  | [347](../../magpie/internal/provider/workbuddy.go#L347) |
-| Code | field_declaration | wbCallVia | [370](../../magpie/internal/provider/workbuddy.go#L370) |
-| Msg | field_declaration | wbCallVia | [371](../../magpie/internal/provider/workbuddy.go#L371) |
-| Data | field_declaration | wbCallVia | [372](../../magpie/internal/provider/workbuddy.go#L372) |
-| textOnly | method_declaration | *wbSite | [405](../../magpie/internal/provider/workbuddy.go#L405) |
+| rd | var_spec | wbCallVia | [348](../../magpie/internal/provider/workbuddy.go#L348) |
+| env | var_spec | wbCallVia | [369](../../magpie/internal/provider/workbuddy.go#L369) |
+| Code | field_declaration | wbCallVia::env | [370](../../magpie/internal/provider/workbuddy.go#L370) |
+| Msg | field_declaration | wbCallVia::env | [371](../../magpie/internal/provider/workbuddy.go#L371) |
+| Data | field_declaration | wbCallVia::env | [372](../../magpie/internal/provider/workbuddy.go#L372) |
+| textOnly | method_declaration |  | [405](../../magpie/internal/provider/workbuddy.go#L405) |

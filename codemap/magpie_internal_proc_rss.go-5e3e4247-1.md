@@ -8,6 +8,6 @@ Source SHA-256: 7da84d5c9341e98a7ca8123981a293047d6ab7c7b5f0553059dd940bc4543605
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RSS | method_declaration | *Tree | [10](../../magpie/internal/proc/rss.go#L10) |
+| RSS | method_declaration |  | [10](../../magpie/internal/proc/rss.go#L10) |
 | MemTotal | function_declaration |  | [20](../../magpie/internal/proc/rss.go#L20) |
 | PeakRSS | function_declaration |  | [24](../../magpie/internal/proc/rss.go#L24) |

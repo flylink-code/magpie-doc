@@ -8,17 +8,15 @@ Source SHA-256: c7c74ed9645156c178f365856458c28e828c1ce3da11ac19826abd57f52b9813
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| listMemo | struct_type |  | [14](../../magpie/internal/sessions/listmemo.go#L14) |
+| listMemo | type_spec |  | [14](../../magpie/internal/sessions/listmemo.go#L14) |
 | m | field_declaration | listMemo | [16](../../magpie/internal/sessions/listmemo.go#L16) |
-| memoEntry | struct_type |  | [19](../../magpie/internal/sessions/listmemo.go#L19) |
+| memoEntry | type_spec |  | [19](../../magpie/internal/sessions/listmemo.go#L19) |
 | size | field_declaration | memoEntry | [20](../../magpie/internal/sessions/listmemo.go#L20) |
-| mod | field_declaration | memoEntry | [20](../../magpie/internal/sessions/listmemo.go#L20) |
 | v | field_declaration | memoEntry | [21](../../magpie/internal/sessions/listmemo.go#L21) |
-| memoRound | struct_type |  | [24](../../magpie/internal/sessions/listmemo.go#L24) |
+| memoRound | type_spec |  | [24](../../magpie/internal/sessions/listmemo.go#L24) |
 | l | field_declaration | memoRound | [25](../../magpie/internal/sessions/listmemo.go#L25) |
 | old | field_declaration | memoRound | [26](../../magpie/internal/sessions/listmemo.go#L26) |
-| next | field_declaration | memoRound | [26](../../magpie/internal/sessions/listmemo.go#L26) |
-| round | method_declaration | *listMemo[T] | [30](../../magpie/internal/sessions/listmemo.go#L30) |
-| get | method_declaration | *memoRound[T] | [39](../../magpie/internal/sessions/listmemo.go#L39) |
-| done | method_declaration | *memoRound[T] | [52](../../magpie/internal/sessions/listmemo.go#L52) |
-| reset | method_declaration | *listMemo[T] | [58](../../magpie/internal/sessions/listmemo.go#L58) |
+| round | method_declaration |  | [30](../../magpie/internal/sessions/listmemo.go#L30) |
+| get | method_declaration |  | [39](../../magpie/internal/sessions/listmemo.go#L39) |
+| done | method_declaration |  | [52](../../magpie/internal/sessions/listmemo.go#L52) |
+| reset | method_declaration |  | [58](../../magpie/internal/sessions/listmemo.go#L58) |

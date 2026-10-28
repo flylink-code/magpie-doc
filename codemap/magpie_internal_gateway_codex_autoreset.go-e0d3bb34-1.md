@@ -9,7 +9,7 @@ Source SHA-256: 6b713c4a38d33c202b44d085d8de6d2976032905a756714200a6559695481e10
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | autoResetTimeout | var_spec |  | [19](../../magpie/internal/gateway/codex_autoreset.go#L19) |
-| autoReset | method_declaration | *Server | [27](../../magpie/internal/gateway/codex_autoreset.go#L27) |
-| autoResetSignedIn | method_declaration | *Server | [60](../../magpie/internal/gateway/codex_autoreset.go#L60) |
+| autoReset | method_declaration |  | [27](../../magpie/internal/gateway/codex_autoreset.go#L27) |
+| autoResetSignedIn | method_declaration |  | [60](../../magpie/internal/gateway/codex_autoreset.go#L60) |
 | autoResetOf | function_declaration |  | [74](../../magpie/internal/gateway/codex_autoreset.go#L74) |
 | unhold | function_declaration |  | [92](../../magpie/internal/gateway/codex_autoreset.go#L92) |

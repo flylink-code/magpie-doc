@@ -9,16 +9,16 @@ Source SHA-256: 6e20bd2735e59de3700b7f2c2928c6a5b1b0bd7d4c454e4c069fb9ec195d3f68
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | thinKeep | const_spec |  | [17](../../magpie/internal/sessions/thin.go#L17) |
-| thinner | struct_type |  | [23](../../magpie/internal/sessions/thin.go#L23) |
+| thinner | type_spec |  | [23](../../magpie/internal/sessions/thin.go#L23) |
 | urls | field_declaration | thinner | [24](../../magpie/internal/sessions/thin.go#L24) |
 | in | field_declaration | thinner | [26](../../magpie/internal/sessions/thin.go#L26) |
 | cut | field_declaration | thinner | [27](../../magpie/internal/sessions/thin.go#L27) |
 | n | field_declaration | thinner | [28](../../magpie/internal/sessions/thin.go#L28) |
 | at | field_declaration | thinner | [29](../../magpie/internal/sessions/thin.go#L29) |
 | esc | field_declaration | thinner | [30](../../magpie/internal/sessions/thin.go#L30) |
-| add | method_declaration | *thinner | [34](../../magpie/internal/sessions/thin.go#L34) |
-| keep | method_declaration | *thinner | [98](../../magpie/internal/sessions/thin.go#L98) |
-| cuts | method_declaration | *thinner | [116](../../magpie/internal/sessions/thin.go#L116) |
+| add | method_declaration |  | [34](../../magpie/internal/sessions/thin.go#L34) |
+| keep | method_declaration |  | [98](../../magpie/internal/sessions/thin.go#L98) |
+| cuts | method_declaration |  | [116](../../magpie/internal/sessions/thin.go#L116) |
 | dataURL | var_spec |  | [120](../../magpie/internal/sessions/thin.go#L120) |
 | wholeRunes | function_declaration |  | [123](../../magpie/internal/sessions/thin.go#L123) |
 | thinClaude | function_declaration |  | [149](../../magpie/internal/sessions/thin.go#L149) |

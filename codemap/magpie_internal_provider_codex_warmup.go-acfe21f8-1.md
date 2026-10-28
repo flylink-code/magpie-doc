@@ -14,7 +14,7 @@ Source SHA-256: 857908d43864ca65d863abfe538ee17b1f509fc7484a3df8cd89909566cba481
 | warmRetry | const_spec |  | [50](../../magpie/internal/provider/codex_warmup.go#L50) |
 | warmRetryMax | const_spec |  | [51](../../magpie/internal/provider/codex_warmup.go#L51) |
 | warmKickEvery | const_spec |  | [54](../../magpie/internal/provider/codex_warmup.go#L54) |
-| warmWindow | struct_type |  | [59](../../magpie/internal/provider/codex_warmup.go#L59) |
+| warmWindow | type_spec |  | [59](../../magpie/internal/provider/codex_warmup.go#L59) |
 | ResetsAt | field_declaration | warmWindow | [60](../../magpie/internal/provider/codex_warmup.go#L60) |
 | Used | field_declaration | warmWindow | [61](../../magpie/internal/provider/codex_warmup.go#L61) |
 | Warmed | field_declaration | warmWindow | [62](../../magpie/internal/provider/codex_warmup.go#L62) |
@@ -26,11 +26,11 @@ Source SHA-256: 857908d43864ca65d863abfe538ee17b1f509fc7484a3df8cd89909566cba481
 | warmState | type_spec |  | [77](../../magpie/internal/provider/codex_warmup.go#L77) |
 | codexWarmPath | function_declaration |  | [79](../../magpie/internal/provider/codex_warmup.go#L79) |
 | readWarmState | function_declaration |  | [81](../../magpie/internal/provider/codex_warmup.go#L81) |
-| CodexWarm | struct_type |  | [91](../../magpie/internal/provider/codex_warmup.go#L91) |
+| CodexWarm | type_spec |  | [91](../../magpie/internal/provider/codex_warmup.go#L91) |
 | User | field_declaration | CodexWarm | [92](../../magpie/internal/provider/codex_warmup.go#L92) |
 | Windows | field_declaration | CodexWarm | [93](../../magpie/internal/provider/codex_warmup.go#L93) |
 | Err | field_declaration | CodexWarm | [94](../../magpie/internal/provider/codex_warmup.go#L94) |
-| codexWarmer | struct_type |  | [99](../../magpie/internal/provider/codex_warmup.go#L99) |
+| codexWarmer | type_spec |  | [99](../../magpie/internal/provider/codex_warmup.go#L99) |
 | path | field_declaration | codexWarmer | [100](../../magpie/internal/provider/codex_warmup.go#L100) |
 | now | field_declaration | codexWarmer | [101](../../magpie/internal/provider/codex_warmup.go#L101) |
 | usage | field_declaration | codexWarmer | [102](../../magpie/internal/provider/codex_warmup.go#L102) |
@@ -38,9 +38,11 @@ Source SHA-256: 857908d43864ca65d863abfe538ee17b1f509fc7484a3df8cd89909566cba481
 | expect | field_declaration | codexWarmer | [106](../../magpie/internal/provider/codex_warmup.go#L106) |
 | warmed | field_declaration | codexWarmer | [109](../../magpie/internal/provider/codex_warmup.go#L109) |
 | ownAt | field_declaration | codexWarmer | [113](../../magpie/internal/provider/codex_warmup.go#L113) |
-| atOf | method_declaration | codexWarmer | [118](../../magpie/internal/provider/codex_warmup.go#L118) |
-| owned | method_declaration | codexWarmer | [129](../../magpie/internal/provider/codex_warmup.go#L129) |
-| warmNow | method_declaration | codexWarmer | [141](../../magpie/internal/provider/codex_warmup.go#L141) |
+| atOf | method_declaration |  | [118](../../magpie/internal/provider/codex_warmup.go#L118) |
+| owned | method_declaration |  | [129](../../magpie/internal/provider/codex_warmup.go#L129) |
+| warmNow | method_declaration |  | [141](../../magpie/internal/provider/codex_warmup.go#L141) |
+| out | var_spec | warmNow | [154](../../magpie/internal/provider/codex_warmup.go#L154) |
+| due | var_spec | warmNow | [164](../../magpie/internal/provider/codex_warmup.go#L164) |
 | withExpected | function_declaration |  | [267](../../magpie/internal/provider/codex_warmup.go#L267) |
 | windowSeen | function_declaration |  | [279](../../magpie/internal/provider/codex_warmup.go#L279) |
 | mapsEqual | function_declaration |  | [293](../../magpie/internal/provider/codex_warmup.go#L293) |
@@ -60,9 +62,11 @@ Source SHA-256: 857908d43864ca65d863abfe538ee17b1f509fc7484a3df8cd89909566cba481
 | SetCodexWarmAt | function_declaration |  | [530](../../magpie/internal/provider/codex_warmup.go#L530) |
 | KeepCodexWindowsWarm | function_declaration |  | [551](../../magpie/internal/provider/codex_warmup.go#L551) |
 | keepWarm | function_declaration |  | [565](../../magpie/internal/provider/codex_warmup.go#L565) |
+| last | var_spec | keepWarm | [576](../../magpie/internal/provider/codex_warmup.go#L576) |
 | warmLook | function_declaration |  | [619](../../magpie/internal/provider/codex_warmup.go#L619) |
 | notStartedHooks | var_spec |  | [633](../../magpie/internal/provider/codex_warmup.go#L633) |
-| notStartedHook | struct_type |  | [638](../../magpie/internal/provider/codex_warmup.go#L638) |
+| m | field_declaration | notStartedHooks | [635](../../magpie/internal/provider/codex_warmup.go#L635) |
+| notStartedHook | type_spec |  | [638](../../magpie/internal/provider/codex_warmup.go#L638) |
 | expect | field_declaration | notStartedHook | [639](../../magpie/internal/provider/codex_warmup.go#L639) |
 | f | field_declaration | notStartedHook | [640](../../magpie/internal/provider/codex_warmup.go#L640) |
 | onNotStarted | function_declaration |  | [645](../../magpie/internal/provider/codex_warmup.go#L645) |

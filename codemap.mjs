@@ -5,43 +5,90 @@ import { execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const scriptPath = fileURLToPath(import.meta.url);
+const scriptDir = path.dirname(scriptPath);
 const defaultRoot = path.resolve(scriptDir, '..');
-const localRequire = createRequire(import.meta.url);
-const fallbackCandidates = [
-  path.resolve(scriptDir, '..', '..', 'Ai-Switcher', 'package.json'),
-  path.resolve(scriptDir, '..', 'Ai-Switcher', 'package.json')
-];
-const fallbackPkg = fallbackCandidates.find(p => fs.existsSync(p));
-const fallbackRequire = fallbackPkg ? createRequire(fallbackPkg) : localRequire;
-
-function resolvePackage(specifier) {
-  try {
-    return localRequire.resolve(specifier);
-  } catch {
-    return fallbackRequire.resolve(specifier);
-  }
-}
-
-const ts = localRequire(resolvePackage('typescript'));
-const { Parser, Language } = await import(pathToFileURL(resolvePackage('web-tree-sitter')).href);
-
 const hash = text => createHash('sha256').update(text).digest('hex');
 const normalize = text => text.replace(/\r\n/g, '\n');
-const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+const compare = (a, b) => (a < b ? -1 : a > b ? 1 : 0);
+const rel = file => file.split('\\').join('/');
+
+// Dependencies are resolved from the workspace first, then from CODEMAP_REQUIRE_FROM,
+// then from the sibling installs that share this machine. Nothing is installed here.
+const requireScopes = [];
+const addScope = candidate => {
+  if (!candidate) return;
+  const pkg = candidate.endsWith('.json') ? candidate : path.join(candidate, 'package.json');
+  if (!fs.existsSync(pkg)) return;
+  try {
+    requireScopes.push(createRequire(pkg));
+  } catch {
+    /* Unreadable package.json; try the next scope. */
+  }
+};
+addScope(scriptDir);
+addScope(path.resolve(scriptDir, '..'));
+addScope(path.resolve(scriptDir, '..', '..'));
+if (process.env.CODEMAP_REQUIRE_FROM) addScope(path.resolve(process.env.CODEMAP_REQUIRE_FROM));
+for (const sibling of ['Ai-Switcher', 'magpie']) {
+  addScope(path.resolve(scriptDir, '..', '..', sibling));
+  addScope(path.resolve(scriptDir, '..', sibling));
+}
+requireScopes.push(createRequire(import.meta.url));
+
+const resolvePackage = specifier => {
+  for (const scope of requireScopes) {
+    try {
+      return scope.resolve(specifier);
+    } catch {
+      /* Not visible from this scope. */
+    }
+  }
+  throw new Error(`Cannot resolve "${specifier}". Install typescript, web-tree-sitter and tree-sitter-wasms in the workspace, or point CODEMAP_REQUIRE_FROM at a directory whose node_modules provides them.`);
+};
+
+const ts = requireScopes.map(scope => {
+  try {
+    return scope('typescript');
+  } catch {
+    return null;
+  }
+}).find(Boolean);
+if (!ts) throw new Error('Cannot load typescript. See CODEMAP_REQUIRE_FROM in doc/CODE_MAP.md.');
+const { Parser, Language } = await import(pathToFileURL(resolvePackage('web-tree-sitter')).href);
+
 const grammars = new Map();
 const rustKinds = new Set([
   'function_item', 'function_signature_item', 'struct_item', 'union_item',
   'enum_item', 'enum_variant', 'trait_item', 'type_item', 'associated_type',
   'const_item', 'static_item', 'mod_item', 'macro_definition', 'field_declaration'
 ]);
+const treeLanguages = {
+  '.cs': 'c_sharp', '.go': 'go', '.java': 'java',
+  '.c': 'c', '.h': 'cpp', '.cc': 'cpp', '.cpp': 'cpp', '.cxx': 'cpp', '.hpp': 'cpp', '.hh': 'cpp', '.hxx': 'cpp'
+};
+const treeKinds = new Set([
+  'namespace_declaration', 'file_scoped_namespace_declaration', 'class_declaration',
+  'struct_declaration', 'interface_declaration', 'record_declaration', 'enum_declaration',
+  'enum_member_declaration', 'method_declaration', 'constructor_declaration', 'property_declaration',
+  'event_declaration', 'delegate_declaration', 'field_declaration', 'function_declaration',
+  'function_definition', 'method_definition', 'type_spec', 'type_definition', 'union_specifier',
+  'struct_specifier', 'enum_specifier', 'class_specifier', 'interface_type', 'const_spec',
+  'var_spec', 'enum_constant', 'variable_declarator'
+]);
+const REFERENCE_KINDS = new Set([
+  'function_item', 'struct_item', 'union_item', 'enum_item', 'trait_item', 'type_item',
+  'const_item', 'static_item', 'macro_definition', 'mod_item',
+  'FunctionDeclaration', 'ClassDeclaration', 'InterfaceDeclaration', 'TypeAliasDeclaration',
+  'EnumDeclaration', 'VariableDeclaration', 'ModuleDeclaration'
+]);
+const MODULE_EXTENSIONS = ['.ts', '.tsx', '.mts', '.cts', '.js', '.mjs', '.cjs', '.jsx'];
 
 async function parserFor(language) {
   if (!grammars.has(language)) {
     await Parser.init();
     const parser = new Parser();
-    const wasmPath = resolvePackage(`tree-sitter-wasms/out/tree-sitter-${language}.wasm`);
-    parser.setLanguage(await Language.load(wasmPath));
+    parser.setLanguage(await Language.load(resolvePackage(`tree-sitter-wasms/out/tree-sitter-${language}.wasm`)));
     grammars.set(language, parser);
   }
   return grammars.get(language);
@@ -52,7 +99,7 @@ export async function extract(file, text) {
   const diagnostics = [];
   const add = (name, kind, line, scope = '') => symbols.push({ name, kind, line, scope });
 
-  if (/\.(?:[cm]?js|tsx?)$/.test(file)) {
+  if (/\.(?:[cm]?[jt]sx?)$/.test(file)) {
     const source = ts.createSourceFile(file, text, ts.ScriptTarget.Latest, true);
     const kinds = new Set([
       ts.SyntaxKind.FunctionDeclaration, ts.SyntaxKind.ClassDeclaration,
@@ -86,68 +133,21 @@ export async function extract(file, text) {
     };
     walk(source);
     diagnostics.push(...source.parseDiagnostics.map(d => `line ${source.getLineAndCharacterOfPosition(d.start ?? 0).line + 1}: ${ts.flattenDiagnosticMessageText(d.messageText, ' ')}`));
-  } else if (file.endsWith('.go')) {
-    const parser = await parserFor('go');
-    let tree = parser.parse(text);
-    if (tree.rootNode.hasError) {
-      tree.delete();
-      const normalized = text.replace(/(?<=\.[A-Za-z0-9_]+)\[(?:map\[[^\]\n]+\][^\])\n]*|\[\][A-Za-z0-9_*]+)\]/g, m => ' '.repeat(m.length));
-      tree = parser.parse(normalized);
-    }
-    const walk = (node, scope = '') => {
-      let next = scope;
-      if (node.type === 'function_declaration') {
-        const name = node.childForFieldName('name');
-        if (name) {
-          add(name.text, 'function_declaration', node.startPosition.row + 1, scope);
-          next = scope ? `${scope}.${name.text}` : name.text;
-        }
-      } else if (node.type === 'method_declaration') {
-        const name = node.childForFieldName('name');
-        const recv = node.childForFieldName('receiver');
-        const recvType = recv?.namedChildren[0]?.childForFieldName('type')?.text ?? recv?.text ?? '';
-        const methodScope = recvType || scope;
-        if (name) {
-          add(name.text, 'method_declaration', node.startPosition.row + 1, methodScope);
-          next = methodScope ? `${methodScope}.${name.text}` : name.text;
-        }
-      } else if (node.type === 'type_spec' || node.type === 'type_alias') {
-        const name = node.childForFieldName('name');
-        const typeNode = node.childForFieldName('type');
-        if (name) {
-          const kind = typeNode?.type === 'struct_type' ? 'struct_type' : typeNode?.type === 'interface_type' ? 'interface_type' : node.type;
-          add(name.text, kind, node.startPosition.row + 1, scope);
-          next = scope ? `${scope}.${name.text}` : name.text;
-        }
-      } else if (node.type === 'field_declaration' && scope) {
-        for (const child of node.namedChildren) {
-          if (child.type === 'field_identifier') {
-            add(child.text, 'field_declaration', node.startPosition.row + 1, scope);
-          }
-        }
-      } else if ((node.type === 'method_spec' || node.type === 'method_elem') && scope) {
-        const name = node.childForFieldName('name');
-        if (name) add(name.text, 'method_spec', node.startPosition.row + 1, scope);
-      } else if ((node.type === 'const_spec' || node.type === 'var_spec') && !scope) {
-        for (const child of node.namedChildren) {
-          if (child.type === 'identifier') {
-            add(child.text, node.type, child.startPosition.row + 1, scope);
-          }
-        }
-      }
-      if (node.type === 'ERROR' || node.isMissing) diagnostics.push(`line ${node.startPosition.row + 1}: ${node.type}`);
-      for (const child of node.namedChildren) walk(child, next);
-    };
-    walk(tree.rootNode);
-    tree.delete();
-  } else if (/\.(rs|py)$/.test(file)) {
-    const language = file.endsWith('.rs') ? 'rust' : 'python';
+  } else if (/\.(rs|py)$/.test(file) || treeLanguages[path.extname(file).toLowerCase()]) {
+    const language = file.endsWith('.rs') ? 'rust' : file.endsWith('.py') ? 'python' : treeLanguages[path.extname(file).toLowerCase()];
+    // This grammar snapshot mistakes Rust inner attributes for shebangs. Treat
+    // them as outer attributes for declaration extraction, preserving offsets.
     const input = language === 'rust' ? text.replace(/^(\s*)#!(?=\[)/gm, '$1# ') : text;
     const tree = (await parserFor(language)).parse(input);
     const walk = (node, scope = '') => {
       let next = scope;
-      const name = node.childForFieldName('name');
-      if ((language === 'rust' && rustKinds.has(node.type)) || (language !== 'rust' && ['function_definition', 'class_definition'].includes(node.type))) {
+      let name = node.childForFieldName('name');
+      if (!name && ['function_definition', 'function_declaration', 'method_definition'].includes(node.type)) {
+        let declarator = node.childForFieldName('declarator');
+        while (declarator && !['identifier', 'field_identifier', 'qualified_identifier'].includes(declarator.type)) declarator = declarator.childForFieldName('declarator');
+        name = declarator;
+      }
+      if ((language === 'rust' && rustKinds.has(node.type)) || (language === 'python' && ['function_definition', 'class_definition'].includes(node.type)) || (treeLanguages[path.extname(file).toLowerCase()] && treeKinds.has(node.type))) {
         if (name) {
           add(name.text, node.type, node.startPosition.row + 1, scope);
           next = scope ? `${scope}::${name.text}` : name.text;
@@ -165,21 +165,8 @@ export async function extract(file, text) {
     };
     walk(tree.rootNode);
     tree.delete();
-  } else if (file.endsWith('.patch')) {
-    let currentTarget = '';
-    for (const [index, line] of text.split('\n').entries()) {
-      const header = /^\+\+\+\s+b\/(\S+)/.exec(line);
-      if (header) {
-        currentTarget = header[1];
-        add(currentTarget, 'patch target', index + 1);
-        continue;
-      }
-      const rustDecl = /^\+\s*(?:pub(?:\([^)]*\))?\s+)?(?:async\s+)?(fn|struct|enum|trait|impl|mod|const|type)\s+([A-Za-z_][A-Za-z0-9_]*)/.exec(line);
-      if (rustDecl) {
-        add(rustDecl[2], `patch ${rustDecl[1]}`, index + 1, currentTarget);
-      }
-    }
   } else {
+    // PowerShell/BAT have no bundled grammar: expose only declaration/label navigation.
     for (const [index, line] of text.split('\n').entries()) {
       if (file.endsWith('.ps1')) {
         const match = /^\s*(?:function|filter|class|enum)\s+([\w:-]+)/i.exec(line);
@@ -196,106 +183,122 @@ export async function extract(file, text) {
       }
     }
   }
-  return { symbols, diagnostics };
+  return { symbols, diagnostics, imports: extractImports(file, text) };
 }
 
-const MAGPIE_MODULE_GROUPS = new Map([
-  ['agentplug', 'magpie-agentplug'],
-  ['agent', 'magpie-agent'],
-  ['agentenv', 'magpie-agent'],
-  ['plugin', 'magpie-plugin'],
-  ['pluginrt', 'magpie-plugin'],
-  ['jsmod', 'magpie-plugin'],
-  ['gateway', 'magpie-gateway'],
-  ['gwbudget', 'magpie-gateway'],
-  ['gwmw', 'magpie-gateway'],
-  ['gwtool', 'magpie-gateway'],
-  ['routes', 'magpie-gateway'],
-  ['upstream', 'magpie-gateway'],
-  ['middleware', 'magpie-gateway'],
-  ['provider', 'magpie-provider'],
-  ['catalog', 'magpie-provider'],
-  ['codexcat', 'magpie-provider'],
-  ['claudebridge', 'magpie-provider'],
-  ['claudecode', 'magpie-provider'],
-  ['qoder', 'magpie-provider'],
-  ['mcpauth', 'magpie-provider'],
-  ['gui', 'magpie-gui'],
-  ['tui', 'magpie-gui'],
-  ['fonts', 'magpie-gui'],
-  ['iconproxy', 'magpie-gui'],
-  ['webview2env', 'magpie-gui'],
-  ['shortcut', 'magpie-gui'],
-  ['cli', 'magpie-cli'],
-  ['daemon', 'magpie-cli'],
-  ['handoff', 'magpie-cli'],
-  ['autostart', 'magpie-cli'],
-  ['awake', 'magpie-cli'],
-  ['update', 'magpie-cli'],
-  ['omarchy', 'magpie-cli'],
-  ['sessions', 'magpie-sessions'],
-  ['codexsummary', 'magpie-sessions'],
-  ['library', 'magpie-sessions'],
-  ['usage', 'magpie-usage'],
-  ['usageapi', 'magpie-usage'],
-  ['budget', 'magpie-usage'],
-  ['stats', 'magpie-usage'],
-  ['otlp', 'magpie-usage'],
-  ['probelog', 'magpie-usage'],
-  ['redact', 'magpie-privacy'],
-  ['masking', 'magpie-privacy'],
-  ['maskrec', 'magpie-privacy'],
-  ['pii', 'magpie-privacy'],
-  ['access', 'magpie-privacy'],
-  ['ghtoken', 'magpie-privacy'],
-  ['settings', 'magpie-storage'],
-  ['profile', 'magpie-storage'],
-  ['appdir', 'magpie-storage'],
-  ['desktopdir', 'magpie-storage'],
-  ['davsync', 'magpie-storage'],
-  ['backup', 'magpie-storage'],
-  ['edit', 'magpie-storage'],
-  ['filelock', 'magpie-storage'],
-  ['filememo', 'magpie-storage'],
-  ['lastgood', 'magpie-storage'],
-  ['sqlitedb', 'magpie-storage'],
-  ['source', 'magpie-storage'],
-  ['steady', 'magpie-storage']
-]);
+const RUST_USE_BLOCK = /(?:^|\n)[ \t]*(?:pub(?:\([^)]*\))?\s+)?use\s+([^;]+);/g;
+const TS_IMPORT_BLOCK = /^[ \t]*(?:import|export)\s+(?:type\s+)?([\s\S]*?)\s+from\s+['"]([^'"]+)['"]/gm;
 
-export function moduleOf(file) {
-  const parts = file.split('/');
-  if (parts[0] === 'plugins') parts.shift();
-  if (parts[0] === 'magpie-agent-cursor-bridge') {
-    if (parts.length === 2) return 'bridge-root';
-    if (parts[1] === 'lib') return 'bridge-lib';
-    if (parts[1] === 'scripts') return 'bridge-scripts';
-    if (parts[1] === 'test') return 'bridge-test';
-    return `bridge-${parts[1]}`;
-  }
-  if (parts[0] === 'magpie') {
-    if (parts.length === 2) return 'magpie-cli';
-    if (parts[1] === 'plugins') return 'magpie-plugin';
-    if (parts[1] === 'native') return 'magpie-privacy';
-    if (parts[1] === 'build') return 'magpie-sys';
-    if (parts[1] === 'internal' && parts.length >= 3) {
-      return MAGPIE_MODULE_GROUPS.get(parts[2]) || 'magpie-sys';
+// Import-level edges only: what a file asks for, not what a type checker binds.
+export function extractImports(file, text) {
+  const imports = [];
+  if (/\.(?:[cm]?[jt]sx?)$/.test(file)) {
+    for (const match of text.matchAll(TS_IMPORT_BLOCK)) {
+      const [spec, source] = [match[1], match[2]];
+      const names = [];
+      const defaultImport = /^([A-Za-z_$][\w$]*)\s*(?:,|$)/.exec(spec);
+      if (defaultImport) names.push(defaultImport[1]);
+      const braces = /\{([\s\S]*?)\}/.exec(spec);
+      if (braces) {
+        for (const item of braces[1].split(',')) {
+          const name = item.trim().replace(/^type\s+/, '').split(/\s+as\s+/)[0].trim();
+          if (/^[A-Za-z_$][\w$]*$/.test(name)) names.push(name);
+        }
+      }
+      if (names.length) imports.push({ names: [...new Set(names)], specifier: source });
     }
-    return 'magpie-sys';
+  } else if (file.endsWith('.rs')) {
+    for (const match of text.matchAll(RUST_USE_BLOCK)) {
+      for (const leaf of parseRustUse(match[1])) imports.push({ names: [leaf.name], prefix: leaf.prefix });
+    }
   }
-  if (parts[0] === 'doc') return 'tooling';
-  if (parts[0] === 'src-tauri' && parts[1] === 'src') return `rust-${parts.length > 3 ? parts[2] : 'root'}`;
-  if (parts[0] === 'src') return `web-${parts.length > 2 ? parts[1] : 'root'}`;
-  if (parts[0] === 'scripts') return `scripts-${parts.length > 2 ? parts[1] : 'root'}`;
-  return 'tooling';
+  return imports;
+}
+
+// `use a::b::{C, D as E, self, f::*};` -> [{name:'C', prefix:['a','b']}, {name:'D', prefix:['a','b']},
+// {name:'b', prefix:['a']}]. Aliases keep the original name: the edge points at the declaration.
+function parseRustUse(body) {
+  const leaves = [];
+  const stack = [];
+  let segments = [];
+  let current = '';
+  const flush = () => {
+    const text = current.trim().replace(/\s+as\s+[\w]+\s*$/, '');
+    current = '';
+    if (!text) return;
+    if (text === 'self') {
+      if (segments.length) leaves.push({ name: segments[segments.length - 1], prefix: segments.slice(0, -1) });
+      return;
+    }
+    if (text === '*' || text.endsWith('::*')) return;
+    const parts = text.split('::').map(part => part.trim()).filter(Boolean);
+    if (!parts.length) return;
+    const name = parts[parts.length - 1];
+    if (/^[A-Za-z_]\w*$/.test(name)) leaves.push({ name, prefix: [...segments, ...parts.slice(0, -1)] });
+  };
+  for (const char of body.replace(/\/\/[^\n]*/g, ' ')) {
+    if (char === '{') {
+      stack.push(segments);
+      const pending = current.trim().replace(/::$/, '');
+      segments = [...segments, ...(pending ? pending.split('::').map(part => part.trim()).filter(Boolean) : [])];
+      current = '';
+    } else if (char === '}') {
+      flush();
+      segments = stack.pop() ?? [];
+    } else if (char === ',') {
+      flush();
+    } else {
+      current += char;
+    }
+  }
+  flush();
+  return leaves;
+}
+
+const moduleRuleCache = new WeakMap();
+const moduleRules = config => {
+  const cached = moduleRuleCache.get(config);
+  if (cached) return cached;
+  const rules = Object.entries(config.modules ?? {})
+    .map(([pattern, template]) => ({ segments: pattern.split('/').filter(Boolean), template }))
+    .sort((a, b) => b.segments.length - a.segments.length || compare(b.template, a.template));
+  moduleRuleCache.set(config, rules);
+  return rules;
+};
+
+export function moduleOf(file, config = {}) {
+  const parts = rel(file).split('/');
+  for (const rule of moduleRules(config)) {
+    // A trailing wildcard routes a directory: it must have a segment after it,
+    // otherwise `src/*/` would swallow the files that live directly in `src/`.
+    if (rule.segments[rule.segments.length - 1] === '*' && parts.length <= rule.segments.length) continue;
+    const captures = [];
+    let matched = true;
+    for (const [index, segment] of rule.segments.entries()) {
+      const actual = parts[index];
+      if (actual === undefined) {
+        matched = false;
+        break;
+      }
+      if (segment === '*') captures.push(actual);
+      else if (segment !== actual) {
+        matched = false;
+        break;
+      }
+    }
+    if (!matched) continue;
+    let captureIndex = 0;
+    return rule.template.replace(/\*/g, () => captures[captureIndex++] ?? '');
+  }
+  return config.defaultModule ?? 'tooling';
 }
 
 export function eligible(file, config) {
   const parts = file.split('/');
-  if (parts.some(part => config.excludeSegments.includes(part))) return false;
+  if (parts.some(part => (config.excludeSegments ?? []).includes(part))) return false;
   if (Array.isArray(config.excludePatterns) && config.excludePatterns.some(pattern => new RegExp(pattern).test(file))) return false;
-  if (!(config.roots.some(root => file.startsWith(`${root}/`)) || !file.includes('/'))) return false;
-  return config.extensions.includes(path.extname(file));
+  if (!((config.roots ?? []).some(root => file.startsWith(`${root}/`)) || !file.includes('/'))) return false;
+  return (config.extensions ?? []).includes(path.extname(file));
 }
 
 function gitList(dir) {
@@ -327,12 +330,12 @@ export function inventory(root, config) {
       if (entry.isFile()) discovered.add(entry.name);
     }
   }
-  for (const sub of config.roots) {
+  for (const sub of config.roots ?? []) {
     const subDir = path.join(root, sub);
     if (fs.existsSync(path.join(subDir, '.git'))) {
       for (const file of gitList(subDir)) discovered.add(`${sub}/${file}`);
     } else if (!rootHasGit && fs.existsSync(subDir)) {
-      walkNonGitDir(root, sub, config.excludeSegments, discovered);
+      walkNonGitDir(root, sub, config.excludeSegments ?? [], discovered);
     }
   }
   return [...discovered]
@@ -346,61 +349,286 @@ const link = file => file.split('/').map(encodeURIComponent).join('/');
 const posixRel = (fromDir, toPath) => path.posix.relative(fromDir.replace(/\\/g, '/'), toPath.replace(/\\/g, '/'));
 
 function resolveConfigPath(root) {
-  const inDoc = path.join(root, 'doc', 'codemap.config.json');
-  if (fs.existsSync(inDoc)) return inDoc;
-  return path.join(root, 'codemap.config.json');
+  if (process.env.CODEMAP_CONFIG) return path.resolve(process.env.CODEMAP_CONFIG);
+  const nextToScript = path.join(scriptDir, 'codemap.config.json');
+  if (root === defaultRoot) return nextToScript;
+  const inRootDoc = path.join(root, 'doc', 'codemap.config.json');
+  if (fs.existsSync(inRootDoc)) return inRootDoc;
+  throw new Error(`No ${path.join(root, 'doc', 'codemap.config.json')} and ${root} is not the directory above ${path.basename(scriptPath)}.`);
 }
 
-export async function generate(root = defaultRoot, { check = false, module: selected } = {}) {
+function readConfig(root) {
   const configPath = resolveConfigPath(root);
+  if (!fs.existsSync(configPath)) {
+    throw new Error(`No codemap.config.json at ${configPath}.`);
+  }
   const configText = fs.readFileSync(configPath, 'utf8');
   const config = JSON.parse(configText);
   if (!Number.isInteger(config.pageRows) || config.pageRows < 1 || config.pageRows > 150) throw new Error('pageRows must be 1..150');
-  const mapDirRel = (config.outputDir || 'doc/codemap').replace(/\\/g, '/').replace(/\/+$/, '');
-  const indexFileRel = (config.indexFile || 'doc/CODE_MAP_INDEX.md').replace(/\\/g, '/');
-  const cacheFileRel = (config.cacheFile || 'doc/.codemap-cache.json').replace(/\\/g, '/');
-  const indexDirRel = path.posix.dirname(indexFileRel);
-  const mapFromIndex = posixRel(indexDirRel === '.' ? '' : indexDirRel, mapDirRel);
-  const indexFromMap = posixRel(mapDirRel, indexFileRel);
-  const depth = mapDirRel.split('/').filter(Boolean).length;
-  const relRoot = '../'.repeat(depth);
+  for (const [key, fallback] of [['outputDir', 'doc/codemap'], ['indexFile', 'doc/CODE_MAP_INDEX.md'], ['cacheFile', 'doc/.codemap-cache.json']]) {
+    const target = path.resolve(root, config[key] || fallback);
+    const insideDoc = path.relative(path.resolve(root, 'doc'), target);
+    if (!insideDoc || insideDoc === '..' || insideDoc.startsWith(`..${path.sep}`) || path.isAbsolute(insideDoc)) throw new Error(`${key} must be inside the project doc/ directory`);
+  }
+  return { config, configText };
+}
 
-  const version = hash(normalize(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8')) + configText);
+const fingerprint = configText => hash(normalize(fs.readFileSync(scriptPath, 'utf8')) + configText);
+const runHint = root => `node ${rel(path.relative(root, scriptPath))}`;
+
+async function collectRecords(root, config, { check, selected, version }) {
+  const cacheFileRel = (config.cacheFile || 'doc/.codemap-cache.json').replace(/\\/g, '/');
   const cachePath = path.join(root, ...cacheFileRel.split('/'));
   let cache = {};
   if (!check && fs.existsSync(cachePath)) {
     try {
       const stored = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
       if (stored.version === version) cache = stored.files;
-    } catch { /* Rebuild invalid local cache. */ }
+    } catch {
+      /* Rebuild invalid local cache. */
+    }
+  }
+  const files = inventory(root, config);
+  if (selected && !files.some(file => moduleOf(file, config) === selected) && !Object.keys(cache).some(file => moduleOf(file, config) === selected)) {
+    throw new Error(`Unknown module: ${selected}`);
   }
   const records = {};
   let parsed = 0;
-  const files = inventory(root, config);
-  if (selected && !files.some(file => moduleOf(file) === selected) && !Object.keys(cache).some(file => moduleOf(file) === selected)) {
-    throw new Error(`Unknown module: ${selected}`);
-  }
   for (const file of files) {
     const text = normalize(fs.readFileSync(path.join(root, file), 'utf8'));
     const digest = hash(text);
     if (cache[file]?.hash === digest) records[file] = cache[file];
     else {
-      if (selected && moduleOf(file) !== selected) throw new Error(`Changed uncached file outside ${selected}: ${file}; run node doc/codemap.mjs`);
+      if (selected && moduleOf(file, config) !== selected) throw new Error(`Changed uncached file outside ${selected}: ${file}; run ${runHint(root)}`);
       records[file] = { hash: digest, ...await extract(file, text) };
       parsed++;
     }
   }
-  if (selected && Object.keys(cache).some(file => !records[file] && moduleOf(file) !== selected)) {
-    throw new Error('Deletion outside selected module; run node doc/codemap.mjs');
+  if (selected && Object.keys(cache).some(file => !records[file] && moduleOf(file, config) !== selected)) {
+    throw new Error(`Deletion outside selected module; run ${runHint(root)}`);
   }
+  return { files, records, parsed, cachePath, version };
+}
+
+export function buildReferenceGraph(files, records) {
+  const declarations = new Map();
+  const byName = new Map();
+  const rustDeclarations = new Map();
+  for (const file of files) {
+    const local = new Map();
+    const crate = rustCrateOf(file);
+    const modulePath = crate ? rustModulePath(file) : null;
+    for (const symbol of records[file].symbols) {
+      if (symbol.scope !== '' || !REFERENCE_KINDS.has(symbol.kind)) continue;
+      if (!local.has(symbol.name)) local.set(symbol.name, symbol);
+      const sites = byName.get(symbol.name) ?? [];
+      sites.push({ file, line: symbol.line, kind: symbol.kind });
+      byName.set(symbol.name, sites);
+      if (crate && modulePath) {
+        const key = `${crate}\u0000${symbol.name}`;
+        const entries = rustDeclarations.get(key) ?? [];
+        entries.push({ file, line: symbol.line, path: modulePath.join('::') });
+        rustDeclarations.set(key, entries);
+      }
+    }
+    declarations.set(file, local);
+  }
+  const incoming = new Map();
+  let resolved = 0;
+  let unresolved = 0;
+  let ambiguous = 0;
+  const fileSet = new Set(files);
+  const bumpDeclaration = (file, line, name) => {
+    const key = `${file}\u0000${line}\u0000${name}`;
+    incoming.set(key, (incoming.get(key) ?? 0) + 1);
+    resolved++;
+  };
+  const ambiguousNames = name => new Set((byName.get(name) ?? []).map(site => site.file)).size > 1;
+  const resolveByName = name => {
+    const sites = byName.get(name) ?? [];
+    if (!sites.length) return unresolved++;
+    if (ambiguousNames(name)) return ambiguous++;
+    return bumpDeclaration(sites[0].file, sites[0].line, name);
+  };
+  for (const file of files) {
+    for (const entry of records[file].imports ?? []) {
+      if (Array.isArray(entry.prefix)) {
+        for (const name of entry.names) {
+          const anchor = rustAnchorPath(file, entry.prefix);
+          const candidates = anchor ? (rustDeclarations.get(`${rustCrateOf(file)}\u0000${name}`) ?? []) : [];
+          const inScope = candidates.filter(site => anchor.length === 0 || site.path === anchor.join('::') || site.path.startsWith(`${anchor.join('::')}::`));
+          const exact = inScope.filter(site => site.path === anchor.join('::'));
+          const pool = exact.length ? exact : inScope;
+          if (!pool.length) resolveByName(name);
+          else if (pool.length > 1) ambiguous++;
+          else bumpDeclaration(pool[0].file, pool[0].line, name);
+        }
+      } else if (entry.specifier.startsWith('.')) {
+        const target = resolveRelativeImport(file, entry.specifier, fileSet);
+        for (const name of entry.names) {
+          const declaration = target ? declarations.get(target)?.get(name) : undefined;
+          if (declaration) bumpDeclaration(target, declaration.line, name);
+          else unresolved++;
+        }
+      } else {
+        for (const name of entry.names) resolveByName(name);
+      }
+    }
+  }
+  return { declarations, incoming, stats: { resolved, unresolved, ambiguous } };
+}
+
+// Rust 2018 paths: `crate`/`self`/`super` anchor a path to a module directory; a bare
+// leading segment is an external crate and stays unresolved rather than guessed.
+function rustAnchorPath(importer, prefix) {
+  const selfPath = rustModulePath(importer);
+  if (!selfPath) return null;
+  let anchor = null;
+  for (const segment of prefix) {
+    if (segment === 'crate') {
+      anchor = [];
+    } else if (segment === 'self') {
+      anchor = [...selfPath];
+    } else if (segment === 'super') {
+      anchor = (anchor ?? selfPath).slice(0, -1);
+    } else if (anchor === null) {
+      return null;
+    } else {
+      anchor.push(segment);
+    }
+  }
+  return anchor ?? selfPath;
+}
+
+function rustCrateOf(file) {
+  if (!file.endsWith('.rs')) return '';
+  const parts = file.split('/');
+  const index = parts.lastIndexOf('src');
+  return index > 0 ? parts.slice(0, index).join('/') : '';
+}
+
+function rustModulePath(file) {
+  const parts = file.split('/');
+  const index = parts.lastIndexOf('src');
+  if (index <= 0 || index >= parts.length - 1) return null;
+  const inner = parts.slice(index + 1);
+  const base = inner[inner.length - 1].replace(/\.rs$/, '');
+  const dirs = inner.slice(0, -1);
+  return ['mod', 'lib', 'main'].includes(base) ? dirs : [...dirs, base];
+}
+
+function resolveRelativeImport(importer, specifier, fileSet) {
+  const base = path.posix.normalize(path.posix.join(path.posix.dirname(importer), specifier));
+  const candidates = [base];
+  for (const extension of MODULE_EXTENSIONS) candidates.push(base + extension);
+  for (const extension of MODULE_EXTENSIONS) candidates.push(`${base}/index${extension}`);
+  return candidates.find(candidate => fileSet.has(candidate)) ?? '';
+}
+
+const hubRows = graph => {
+  const rows = [];
+  for (const [file, local] of graph.declarations) {
+    for (const [name, symbol] of local) {
+      const count = graph.incoming.get(`${file}\u0000${symbol.line}\u0000${name}`) ?? 0;
+      if (count > 0) rows.push({ file, name, kind: symbol.kind, line: symbol.line, count });
+    }
+  }
+  return rows.sort((a, b) => b.count - a.count || compare(a.name, b.name) || compare(a.file, b.file));
+};
+
+function renderHubsPage({ files, records, graph, config, mapDirRel, indexFileRel }) {
+  const relRoot = '../'.repeat(mapDirRel.split('/').filter(Boolean).length);
+  const indexFromMap = posixRel(mapDirRel, indexFileRel);
+  const limit = Math.min(config.hubCount ?? 40, config.pageRows);
+  const rows = hubRows(graph).slice(0, limit);
+  const total = files.reduce((sum, file) => sum + records[file].symbols.length, 0);
+  const lines = [
+    '# Hubs — most-referenced declarations',
+    '',
+    '<!-- Generated by doc/codemap.mjs; do not edit. -->',
+    '',
+    `[Root index](${indexFromMap})`,
+    '',
+    `${files.length} files · ${total} symbols · import edges: ${graph.stats.resolved} resolved, ${graph.stats.ambiguous} ambiguous, ${graph.stats.unresolved} unresolved.`,
+    '',
+    'Edges come from `use`/`import` statements: relative specifiers for TypeScript, `crate`/`self`/`super` module paths plus a unique-name fallback for Rust. Lexical evidence, not type-checked resolution: an ambiguous or unresolved import is counted, never guessed.',
+    '',
+    '| Symbol | Kind | Module | In-degree | Line |',
+    '| --- | --- | --- | ---: | --- |',
+    ...rows.map(row => `| ${escape(row.name)} | ${escape(row.kind)} | ${moduleOf(row.file, config)} | ${row.count} | [${row.line}](${relRoot}${link(row.file)}#L${row.line}) |`),
+    ''
+  ];
+  return lines.join('\n');
+}
+
+export function renderOverview({ files, records, graph, config, tokens = 1024 }) {
+  const hubs = hubRows(graph);
+  const total = files.reduce((sum, file) => sum + records[file].symbols.length, 0);
+  const lines = [
+    `# code map overview — ${files.length} files, ${total} symbols`,
+    `# import edges: ${graph.stats.resolved} resolved, ${graph.stats.ambiguous} ambiguous, ${graph.stats.unresolved} unresolved (lexical, not type resolution)`,
+    '# most-referenced declarations first'
+  ];
+  let omitted = 0;
+  const candidates = hubs.slice(0, config.hubCount ?? 40);
+  let pushed = 0;
+  for (const hub of candidates) {
+    const row = `- ${hub.name} (${hub.kind}) ${moduleOf(hub.file, config)} ${hub.file}:${hub.line} ← ${hub.count}`;
+    if (estimateTokens([...lines, row].join('\n')) > tokens) break;
+    lines.push(row);
+    pushed++;
+  }
+  omitted = hubs.length - pushed;
+  if (omitted > 0) lines.push(`omitted: ${omitted} rows (${pushed} shown; raise --tokens or hubCount)`);
+  return lines.join('\n');
+}
+
+const estimateTokens = text => Math.ceil(text.length / 4);
+
+export function searchSymbols(records, query, limit = 20) {
+  const needle = query.toLowerCase();
+  const hits = [];
+  for (const [file, record] of Object.entries(records)) {
+    for (const symbol of record.symbols) {
+      const name = symbol.name.toLowerCase();
+      const rank = name === needle ? 0 : name.startsWith(needle) ? 1 : name.includes(needle) ? 2 : -1;
+      if (rank < 0) continue;
+      hits.push({ rank, file, name: symbol.name, kind: symbol.kind, scope: symbol.scope, line: symbol.line });
+    }
+  }
+  return hits
+    .sort((a, b) => a.rank - b.rank || a.name.length - b.name.length || compare(a.file, b.file) || a.line - b.line)
+    .slice(0, limit);
+}
+
+export function outlineOf(records, fileQuery) {
+  const files = Object.keys(records).sort(compare);
+  const query = rel(fileQuery);
+  const file = files.find(candidate => candidate === query) ?? files.find(candidate => candidate.endsWith(`/${query}`));
+  if (!file) throw new Error(`Unknown file: ${fileQuery}`);
+  return { file, symbols: [...records[file].symbols].sort((a, b) => a.line - b.line) };
+}
+
+export async function generate(root = defaultRoot, { check = false, module: selected } = {}) {
+  const { config, configText } = readConfig(root);
+  const version = fingerprint(configText);
+  const { files, records, parsed, cachePath } = await collectRecords(root, config, { check, selected, version });
+  const mapDirRel = (config.outputDir || 'doc/codemap').replace(/\\/g, '/').replace(/\/+$/, '');
+  const indexFileRel = (config.indexFile || 'doc/CODE_MAP_INDEX.md').replace(/\\/g, '/');
+  const indexDirRel = path.posix.dirname(indexFileRel);
+  const mapFromIndex = posixRel(indexDirRel === '.' ? '' : indexDirRel, mapDirRel);
+  const indexFromMap = posixRel(mapDirRel, indexFileRel);
+  const relRoot = '../'.repeat(mapDirRel.split('/').filter(Boolean).length);
+  const graph = buildReferenceGraph(files, records);
+
   const outputs = new Map();
-  const modules = [...new Set(files.map(moduleOf))].sort(compare);
+  const modules = [...new Set(files.map(file => moduleOf(file, config)))].sort(compare);
   const index = [
     '# Code map index',
     '',
     '<!-- Generated by doc/codemap.mjs; do not edit. -->',
     '',
-    'Read AGENTS.md → choose module → file/symbol page → source. [Method, commands and limits](CODE_MAP.md).',
+    `Read AGENTS.md → [hubs](${mapFromIndex}/hubs.md) → module → file/symbol page → source. [Method, commands and limits](CODE_MAP.md).`,
     '',
     '| Module | Files | Symbols | Map |',
     '| --- | ---: | ---: | --- |'
@@ -408,7 +636,7 @@ export async function generate(root = defaultRoot, { check = false, module: sele
   let totalSymbols = 0;
   let diagnostics = 0;
   for (const module of modules) {
-    const members = files.filter(file => moduleOf(file) === module);
+    const members = files.filter(file => moduleOf(file, config) === module);
     const count = members.reduce((sum, file) => sum + records[file].symbols.length, 0);
     totalSymbols += count;
     index.push(`| ${module} | ${members.length} | ${count} | [open](${mapFromIndex}/${module}.md) |`);
@@ -464,8 +692,15 @@ export async function generate(root = defaultRoot, { check = false, module: sele
       ].join('\n'));
     }
   }
-  index.push('', `Total: ${files.length} source files, ${totalSymbols} extracted symbols, ${diagnostics} parser diagnostics.`, '', 'Scope includes Go/Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT/Patch use lexical navigation.');
+  outputs.set(`${mapDirRel}/hubs.md`, renderHubsPage({ files, records, graph, config, mapDirRel, indexFileRel }));
+  index.push(
+    '',
+    `Total: ${files.length} source files, ${totalSymbols} extracted symbols, ${diagnostics} parser diagnostics; import edges ${graph.stats.resolved} resolved / ${graph.stats.ambiguous} ambiguous / ${graph.stats.unresolved} unresolved.`,
+    '',
+    'Scope includes Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT use lexical navigation.'
+  );
   outputs.set(indexFileRel, index.join('\n') + '\n');
+
   const directory = path.join(root, ...mapDirRel.split('/'));
   const stale = fs.existsSync(directory) ? fs.readdirSync(directory).filter(name => name.endsWith('.md') && !outputs.has(`${mapDirRel}/${name}`)) : [];
   const changed = [...outputs].filter(([file, text]) => !fs.existsSync(path.join(root, file)) || normalize(fs.readFileSync(path.join(root, file), 'utf8')) !== text);
@@ -480,24 +715,75 @@ export async function generate(root = defaultRoot, { check = false, module: sele
     fs.mkdirSync(path.dirname(cachePath), { recursive: true });
     fs.writeFileSync(cachePath, JSON.stringify({ version, files: records }));
   }
-  const result = { files: files.length, symbols: totalSymbols, diagnostics, parsed, changed: changed.length, deleted: stale.length, pages: outputs.size };
-  if (check && (changed.length || stale.length)) throw new Error(`Stale code map: ${JSON.stringify(result)}. Run node doc/codemap.mjs and include generated changes.`);
+  const result = { files: files.length, symbols: totalSymbols, diagnostics, parsed, changed: changed.length, deleted: stale.length, pages: outputs.size, edges: graph.stats };
+  if (check && (changed.length || stale.length)) throw new Error(`Stale code map: ${JSON.stringify(result)}. Run ${runHint(root)} and include generated changes.`);
   return result;
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+async function loadProject(root) {
+  const { config, configText } = readConfig(root);
+  const version = fingerprint(configText);
+  const { files, records } = await collectRecords(root, config, { check: false, version });
+  return { config, files, records };
+}
+
+const usage = () => `Usage: node doc/codemap.mjs [command]
+
+No command                     incremental generation (first run, config change, cross-module edit)
+--module <name>                refresh one module; needs a warm cache and no edits outside it
+--check                        verify without writing; exits non-zero on drift
+--find <name> [--limit N]      symbol lookup: path:line, kind, scope
+--outline <file>               every declaration of one file, in source order
+--map [--tokens N]             token-budgeted overview of the most-referenced declarations
+--json                         machine-readable output for --find and --outline
+--help                         this text
+
+Generation reads the Git working tree of each configured root; queries reuse the cache when it is
+current. Set CODEMAP_REQUIRE_FROM when typescript/web-tree-sitter are not resolvable from the workspace.`;
+
+if (process.argv[1] && path.resolve(process.argv[1]) === scriptPath) {
   try {
     const args = process.argv.slice(2);
-    const valid = new Set(['--check', '--module']);
+    const options = { check: false, json: false, tokens: 1024, limit: 20 };
+    const flagsWithValue = new Set(['--module', '--find', '--outline', '--tokens', '--limit']);
+    const booleanFlags = new Set(['--check', '--map', '--json', '--help']);
     for (let i = 0; i < args.length; i++) {
-      if (!valid.has(args[i])) throw new Error(`Unknown argument: ${args[i]}`);
-      if (args[i] === '--module' && !args[++i]) throw new Error('--module needs a name');
+      const arg = args[i];
+      if (flagsWithValue.has(arg)) {
+        const value = args[++i];
+        if (value === undefined) throw new Error(`${arg} needs a value`);
+        if (arg === '--tokens' || arg === '--limit') {
+          const number = Number(value);
+          if (!Number.isInteger(number) || number < 1) throw new Error(`${arg} needs a positive integer`);
+          options[arg.slice(2)] = number;
+        } else options[arg.slice(2)] = value;
+      } else if (booleanFlags.has(arg)) options[arg.slice(2)] = true;
+      else throw new Error(`Unknown argument: ${arg}`);
     }
-    const result = await generate(defaultRoot, {
-      check: args.includes('--check'),
-      module: args.includes('--module') ? args[args.indexOf('--module') + 1] : undefined
-    });
-    console.log(JSON.stringify(result));
+    if (options.help) {
+      console.log(usage());
+    } else {
+      const root = defaultRoot;
+      if (options.find !== undefined || options.outline !== undefined || options.map) {
+        const { config, files, records } = await loadProject(root);
+        if (options.find !== undefined) {
+          const hits = searchSymbols(records, options.find, options.limit);
+          if (options.json) console.log(JSON.stringify(hits, null, 1));
+          else if (!hits.length) console.error(`no symbol matches "${options.find}"`);
+          else console.log(hits.map(hit => `${hit.file}:${hit.line}\t${hit.kind}\t${hit.scope || '-'}\t${hit.name}`).join('\n'));
+        } else if (options.outline !== undefined) {
+          const result = outlineOf(records, options.outline);
+          if (options.json) console.log(JSON.stringify(result, null, 1));
+          else console.log([`# ${result.file} — ${result.symbols.length} declarations`, ...result.symbols.map(symbol => `${String(symbol.line).padStart(5)}  ${symbol.kind}\t${symbol.scope ? `${symbol.scope}::` : ''}${symbol.name}`)].join('\n'));
+        } else {
+          const graph = buildReferenceGraph(files, records);
+          console.log(renderOverview({ files, records, graph, config, tokens: options.tokens }));
+        }
+      } else {
+        const result = await generate(root, { check: options.check, module: options.module });
+        console.log(JSON.stringify(result));
+      }
+    }
   } catch (error) {
     console.error(error.message);
     process.exitCode = 1;

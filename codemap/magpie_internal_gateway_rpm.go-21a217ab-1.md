@@ -14,23 +14,23 @@ Source SHA-256: d9c09108cd9fcd11d5bcecc43ea318dbcff9be6675fa0afa4c5796b2ee5a9137
 | rpmLongest | var_spec |  | [59](../../magpie/internal/gateway/rpm.go#L59) |
 | rpmNow | var_spec |  | [65](../../magpie/internal/gateway/rpm.go#L65) |
 | rpmTimer | var_spec |  | [66](../../magpie/internal/gateway/rpm.go#L66) |
-| rpms | struct_type |  | [73](../../magpie/internal/gateway/rpm.go#L73) |
+| rpms | type_spec |  | [73](../../magpie/internal/gateway/rpm.go#L73) |
 | mu | field_declaration | rpms | [74](../../magpie/internal/gateway/rpm.go#L74) |
 | m | field_declaration | rpms | [75](../../magpie/internal/gateway/rpm.go#L75) |
-| errRPM | struct_type |  | [80](../../magpie/internal/gateway/rpm.go#L80) |
+| errRPM | type_spec |  | [80](../../magpie/internal/gateway/rpm.go#L80) |
 | limit | field_declaration | errRPM | [81](../../magpie/internal/gateway/rpm.go#L81) |
 | after | field_declaration | errRPM | [82](../../magpie/internal/gateway/rpm.go#L82) |
 | wait | field_declaration | errRPM | [83](../../magpie/internal/gateway/rpm.go#L83) |
-| Error | method_declaration | *errRPM | [86](../../magpie/internal/gateway/rpm.go#L86) |
-| retryAfter | method_declaration | *errRPM | [91](../../magpie/internal/gateway/rpm.go#L91) |
+| Error | method_declaration |  | [86](../../magpie/internal/gateway/rpm.go#L86) |
+| retryAfter | method_declaration |  | [91](../../magpie/internal/gateway/rpm.go#L91) |
 | rpmWait | function_declaration |  | [96](../../magpie/internal/gateway/rpm.go#L96) |
-| prune | method_declaration | *rpms | [104](../../magpie/internal/gateway/rpm.go#L104) |
-| reserve | method_declaration | *rpms | [122](../../magpie/internal/gateway/rpm.go#L122) |
-| giveBack | method_declaration | *rpms | [141](../../magpie/internal/gateway/rpm.go#L141) |
-| wait | method_declaration | *rpms | [160](../../magpie/internal/gateway/rpm.go#L160) |
-| free | method_declaration | *rpms | [190](../../magpie/internal/gateway/rpm.go#L190) |
-| used | method_declaration | *rpms | [204](../../magpie/internal/gateway/rpm.go#L204) |
-| rpmTicket | struct_type |  | [218](../../magpie/internal/gateway/rpm.go#L218) |
+| prune | method_declaration |  | [104](../../magpie/internal/gateway/rpm.go#L104) |
+| reserve | method_declaration |  | [122](../../magpie/internal/gateway/rpm.go#L122) |
+| giveBack | method_declaration |  | [141](../../magpie/internal/gateway/rpm.go#L141) |
+| wait | method_declaration |  | [160](../../magpie/internal/gateway/rpm.go#L160) |
+| free | method_declaration |  | [190](../../magpie/internal/gateway/rpm.go#L190) |
+| used | method_declaration |  | [204](../../magpie/internal/gateway/rpm.go#L204) |
+| rpmTicket | type_spec |  | [218](../../magpie/internal/gateway/rpm.go#L218) |
 | l | field_declaration | rpmTicket | [219](../../magpie/internal/gateway/rpm.go#L219) |
 | id | field_declaration | rpmTicket | [220](../../magpie/internal/gateway/rpm.go#L220) |
 | try | field_declaration | rpmTicket | [221](../../magpie/internal/gateway/rpm.go#L221) |
@@ -38,10 +38,11 @@ Source SHA-256: d9c09108cd9fcd11d5bcecc43ea318dbcff9be6675fa0afa4c5796b2ee5a9137
 | limit | field_declaration | rpmTicket | [223](../../magpie/internal/gateway/rpm.go#L223) |
 | longest | field_declaration | rpmTicket | [224](../../magpie/internal/gateway/rpm.go#L224) |
 | paid | field_declaration | rpmTicket | [225](../../magpie/internal/gateway/rpm.go#L225) |
-| rpmKey | struct_type |  | [228](../../magpie/internal/gateway/rpm.go#L228) |
+| rpmKey | type_spec |  | [228](../../magpie/internal/gateway/rpm.go#L228) |
 | meterWho | function_declaration |  | [232](../../magpie/internal/gateway/rpm.go#L232) |
-| metered | method_declaration | *Server | [246](../../magpie/internal/gateway/rpm.go#L246) |
-| paidFor | method_declaration | *Server | [266](../../magpie/internal/gateway/rpm.go#L266) |
-| rpmTransport | struct_type |  | [274](../../magpie/internal/gateway/rpm.go#L274) |
+| metered | method_declaration |  | [246](../../magpie/internal/gateway/rpm.go#L246) |
+| paidFor | method_declaration |  | [266](../../magpie/internal/gateway/rpm.go#L266) |
+| rpmTransport | type_spec |  | [274](../../magpie/internal/gateway/rpm.go#L274) |
 | next | field_declaration | rpmTransport | [274](../../magpie/internal/gateway/rpm.go#L274) |
-| RoundTrip | method_declaration | rpmTransport | [276](../../magpie/internal/gateway/rpm.go#L276) |
+| RoundTrip | method_declaration |  | [276](../../magpie/internal/gateway/rpm.go#L276) |
+| e | var_spec | RoundTrip | [282](../../magpie/internal/gateway/rpm.go#L282) |

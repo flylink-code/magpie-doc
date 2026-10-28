@@ -18,7 +18,9 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dsh | function_declaration |  | [83](../../magpie/internal/agent/dsh.go#L83) |
 | dshIn | function_declaration |  | [86](../../magpie/internal/agent/dsh.go#L86) |
 | dshAt | function_declaration |  | [90](../../magpie/internal/agent/dsh.go#L90) |
+| notes | var_spec | dshAt | [112](../../magpie/internal/agent/dsh.go#L112) |
 | dshProfiles | function_declaration |  | [216](../../magpie/internal/agent/dsh.go#L216) |
+| web | var_spec | dshProfiles | [218](../../magpie/internal/agent/dsh.go#L218) |
 | dshProfileTemplate | const_spec |  | [232](../../magpie/internal/agent/dsh.go#L232) |
 | dshDesktopFile | function_declaration |  | [239](../../magpie/internal/agent/dsh.go#L239) |
 | dshMakeDesktop | function_declaration |  | [251](../../magpie/internal/agent/dsh.go#L251) |
@@ -30,7 +32,8 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshHomeHas | function_declaration |  | [357](../../magpie/internal/agent/dsh.go#L357) |
 | dshMirrorHome | function_declaration |  | [370](../../magpie/internal/agent/dsh.go#L370) |
 | dshJoin | function_declaration |  | [421](../../magpie/internal/agent/dsh.go#L421) |
-| dshItem | struct_type |  | [431](../../magpie/internal/agent/dsh.go#L431) |
+| b | var_spec | dshJoin | [422](../../magpie/internal/agent/dsh.go#L422) |
+| dshItem | type_spec |  | [431](../../magpie/internal/agent/dsh.go#L431) |
 | id | field_declaration | dshItem | [432](../../magpie/internal/agent/dsh.go#L432) |
 | magpie | field_declaration | dshItem | [433](../../magpie/internal/agent/dsh.go#L433) |
 | lines | field_declaration | dshItem | [434](../../magpie/internal/agent/dsh.go#L434) |
@@ -42,13 +45,16 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshFind | function_declaration |  | [516](../../magpie/internal/agent/dsh.go#L516) |
 | dshFindLast | function_declaration |  | [527](../../magpie/internal/agent/dsh.go#L527) |
 | dshNode | function_declaration |  | [537](../../magpie/internal/agent/dsh.go#L537) |
+| doc | var_spec | dshNode | [538](../../magpie/internal/agent/dsh.go#L538) |
 | dshNodeLines | function_declaration |  | [549](../../magpie/internal/agent/dsh.go#L549) |
+| buf | var_spec | dshNodeLines | [550](../../magpie/internal/agent/dsh.go#L550) |
 | yamlKey | function_declaration |  | [560](../../magpie/internal/agent/dsh.go#L560) |
 | yamlSetKey | function_declaration |  | [572](../../magpie/internal/agent/dsh.go#L572) |
 | yamlDelKey | function_declaration |  | [582](../../magpie/internal/agent/dsh.go#L582) |
 | yamlMapping | function_declaration |  | [593](../../magpie/internal/agent/dsh.go#L593) |
 | dshConfig | function_declaration |  | [604](../../magpie/internal/agent/dsh.go#L604) |
 | dshRoutesIn | function_declaration |  | [622](../../magpie/internal/agent/dsh.go#L622) |
+| out | var_spec | dshRoutesIn | [632](../../magpie/internal/agent/dsh.go#L632) |
 | dshOldWiring | function_declaration |  | [646](../../magpie/internal/agent/dsh.go#L646) |
 | dshOurs | function_declaration |  | [654](../../magpie/internal/agent/dsh.go#L654) |
 | dshWired | function_declaration |  | [659](../../magpie/internal/agent/dsh.go#L659) |
@@ -62,6 +68,7 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshCheck | function_declaration |  | [762](../../magpie/internal/agent/dsh.go#L762) |
 | dshCheckStripped | function_declaration |  | [903](../../magpie/internal/agent/dsh.go#L903) |
 | yamlScalar | function_declaration |  | [916](../../magpie/internal/agent/dsh.go#L916) |
+| s | var_spec | yamlScalar | [921](../../magpie/internal/agent/dsh.go#L921) |
 | dshStashKey | function_declaration |  | [929](../../magpie/internal/agent/dsh.go#L929) |
 | dshWrites | var_spec |  | [935](../../magpie/internal/agent/dsh.go#L935) |
 | dshSet | function_declaration |  | [940](../../magpie/internal/agent/dsh.go#L940) |
@@ -71,14 +78,17 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshCredsOurs | function_declaration |  | [1096](../../magpie/internal/agent/dsh.go#L1096) |
 | dshSetFile | function_declaration |  | [1113](../../magpie/internal/agent/dsh.go#L1113) |
 | dshPutRoute | function_declaration |  | [1197](../../magpie/internal/agent/dsh.go#L1197) |
+| n | var_spec | dshPutRoute | [1205](../../magpie/internal/agent/dsh.go#L1205) |
+| err | var_spec | dshPutRoute | [1207](../../magpie/internal/agent/dsh.go#L1207) |
+| route | var_spec | dshPutRoute | [1237](../../magpie/internal/agent/dsh.go#L1237) |
 | dshKeepCompat | function_declaration |  | [1282](../../magpie/internal/agent/dsh.go#L1282) |
-| dshPiRoute | struct_type |  | [1317](../../magpie/internal/agent/dsh.go#L1317) |
+| dshPiRoute | type_spec |  | [1317](../../magpie/internal/agent/dsh.go#L1317) |
 | DisplayName | field_declaration | dshPiRoute | [1318](../../magpie/internal/agent/dsh.go#L1318) |
 | APIKeyEnv | field_declaration | dshPiRoute | [1319](../../magpie/internal/agent/dsh.go#L1319) |
 | API | field_declaration | dshPiRoute | [1320](../../magpie/internal/agent/dsh.go#L1320) |
 | BaseURL | field_declaration | dshPiRoute | [1321](../../magpie/internal/agent/dsh.go#L1321) |
 | Models | field_declaration | dshPiRoute | [1322](../../magpie/internal/agent/dsh.go#L1322) |
-| dshPiModel | struct_type |  | [1328](../../magpie/internal/agent/dsh.go#L1328) |
+| dshPiModel | type_spec |  | [1328](../../magpie/internal/agent/dsh.go#L1328) |
 | ID | field_declaration | dshPiModel | [1329](../../magpie/internal/agent/dsh.go#L1329) |
 | Name | field_declaration | dshPiModel | [1330](../../magpie/internal/agent/dsh.go#L1330) |
 | ContextWindow | field_declaration | dshPiModel | [1331](../../magpie/internal/agent/dsh.go#L1331) |
@@ -86,13 +96,11 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | Input | field_declaration | dshPiModel | [1333](../../magpie/internal/agent/dsh.go#L1333) |
 | ReasoningEfforts | field_declaration | dshPiModel | [1334](../../magpie/internal/agent/dsh.go#L1334) |
 | Compat | field_declaration | dshPiModel | [1335](../../magpie/internal/agent/dsh.go#L1335) |
-| dshPiCompat | struct_type |  | [1343](../../magpie/internal/agent/dsh.go#L1343) |
+| dshPiCompat | type_spec |  | [1343](../../magpie/internal/agent/dsh.go#L1343) |
 | ForceAdaptiveThinking | field_declaration | dshPiCompat | [1344](../../magpie/internal/agent/dsh.go#L1344) |
 | dshAPIs | var_spec |  | [1354](../../magpie/internal/agent/dsh.go#L1354) |
-| dshKind | struct_type |  | [1360](../../magpie/internal/agent/dsh.go#L1360) |
+| dshKind | type_spec |  | [1360](../../magpie/internal/agent/dsh.go#L1360) |
 | key | field_declaration | dshKind | [1361](../../magpie/internal/agent/dsh.go#L1361) |
-| api | field_declaration | dshKind | [1361](../../magpie/internal/agent/dsh.go#L1361) |
-| name | field_declaration | dshKind | [1361](../../magpie/internal/agent/dsh.go#L1361) |
 | dshKinds | var_spec |  | [1375](../../magpie/internal/agent/dsh.go#L1375) |
 | isDshRoute | function_declaration |  | [1382](../../magpie/internal/agent/dsh.go#L1382) |
 | dshKindOf | function_declaration |  | [1387](../../magpie/internal/agent/dsh.go#L1387) |
@@ -100,11 +108,3 @@ Source SHA-256: 96975a64907a66902df7a2157c371699ab2050291015ed3bb9aedf35931db0eb
 | dshRouteFor | function_declaration |  | [1409](../../magpie/internal/agent/dsh.go#L1409) |
 | dshAPI | function_declaration |  | [1425](../../magpie/internal/agent/dsh.go#L1425) |
 | dshBaseURL | function_declaration |  | [1436](../../magpie/internal/agent/dsh.go#L1436) |
-| dshPiLevels | struct_type |  | [1445](../../magpie/internal/agent/dsh.go#L1445) |
-| Off | field_declaration | dshPiLevels | [1446](../../magpie/internal/agent/dsh.go#L1446) |
-| Minimal | field_declaration | dshPiLevels | [1447](../../magpie/internal/agent/dsh.go#L1447) |
-| Low | field_declaration | dshPiLevels | [1448](../../magpie/internal/agent/dsh.go#L1448) |
-| Medium | field_declaration | dshPiLevels | [1449](../../magpie/internal/agent/dsh.go#L1449) |
-| High | field_declaration | dshPiLevels | [1450](../../magpie/internal/agent/dsh.go#L1450) |
-| XHigh | field_declaration | dshPiLevels | [1451](../../magpie/internal/agent/dsh.go#L1451) |
-| Max | field_declaration | dshPiLevels | [1452](../../magpie/internal/agent/dsh.go#L1452) |

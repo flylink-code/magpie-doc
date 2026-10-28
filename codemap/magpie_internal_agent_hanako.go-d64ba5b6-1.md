@@ -13,7 +13,7 @@ Source SHA-256: 0c6a790d6717739293e59121f06a076e22dd77c9389118a107a3b5c28e94ab93
 | hanakoHome | function_declaration |  | [61](../../magpie/internal/agent/hanako.go#L61) |
 | hanako | function_declaration |  | [75](../../magpie/internal/agent/hanako.go#L75) |
 | hanakoAgent | function_declaration |  | [180](../../magpie/internal/agent/hanako.go#L180) |
-| hanakoModel | struct_type |  | [201](../../magpie/internal/agent/hanako.go#L201) |
+| hanakoModel | type_spec |  | [201](../../magpie/internal/agent/hanako.go#L201) |
 | ID | field_declaration | hanakoModel | [202](../../magpie/internal/agent/hanako.go#L202) |
 | Name | field_declaration | hanakoModel | [203](../../magpie/internal/agent/hanako.go#L203) |
 | Context | field_declaration | hanakoModel | [204](../../magpie/internal/agent/hanako.go#L204) |
@@ -21,7 +21,7 @@ Source SHA-256: 0c6a790d6717739293e59121f06a076e22dd77c9389118a107a3b5c28e94ab93
 | Image | field_declaration | hanakoModel | [206](../../magpie/internal/agent/hanako.go#L206) |
 | Reasoning | field_declaration | hanakoModel | [207](../../magpie/internal/agent/hanako.go#L207) |
 | XHigh | field_declaration | hanakoModel | [208](../../magpie/internal/agent/hanako.go#L208) |
-| hanakoProviderEntry | struct_type |  | [211](../../magpie/internal/agent/hanako.go#L211) |
+| hanakoProviderEntry | type_spec |  | [211](../../magpie/internal/agent/hanako.go#L211) |
 | DisplayName | field_declaration | hanakoProviderEntry | [212](../../magpie/internal/agent/hanako.go#L212) |
 | BaseURL | field_declaration | hanakoProviderEntry | [213](../../magpie/internal/agent/hanako.go#L213) |
 | API | field_declaration | hanakoProviderEntry | [214](../../magpie/internal/agent/hanako.go#L214) |
@@ -30,35 +30,47 @@ Source SHA-256: 0c6a790d6717739293e59121f06a076e22dd77c9389118a107a3b5c28e94ab93
 | hanakoProvider | function_declaration |  | [223](../../magpie/internal/agent/hanako.go#L223) |
 | hanakoPlugin | function_declaration |  | [233](../../magpie/internal/agent/hanako.go#L233) |
 | hanakoCurrent | function_declaration |  | [237](../../magpie/internal/agent/hanako.go#L237) |
-| DisplayName | field_declaration | hanakoCurrent | [242](../../magpie/internal/agent/hanako.go#L242) |
-| BaseURL | field_declaration | hanakoCurrent | [243](../../magpie/internal/agent/hanako.go#L243) |
-| API | field_declaration | hanakoCurrent | [244](../../magpie/internal/agent/hanako.go#L244) |
-| Models | field_declaration | hanakoCurrent | [245](../../magpie/internal/agent/hanako.go#L245) |
+| p | var_spec | hanakoCurrent | [241](../../magpie/internal/agent/hanako.go#L241) |
+| DisplayName | field_declaration | hanakoCurrent::p | [242](../../magpie/internal/agent/hanako.go#L242) |
+| BaseURL | field_declaration | hanakoCurrent::p | [243](../../magpie/internal/agent/hanako.go#L243) |
+| API | field_declaration | hanakoCurrent::p | [244](../../magpie/internal/agent/hanako.go#L244) |
+| Models | field_declaration | hanakoCurrent::p | [245](../../magpie/internal/agent/hanako.go#L245) |
+| o | var_spec | hanakoCurrent | [256](../../magpie/internal/agent/hanako.go#L256) |
 | hanakoSealed | function_declaration |  | [269](../../magpie/internal/agent/hanako.go#L269) |
 | hanakoSame | function_declaration |  | [281](../../magpie/internal/agent/hanako.go#L281) |
+| w | var_spec | hanakoSame | [283](../../magpie/internal/agent/hanako.go#L283) |
 | hanakoSave | function_declaration |  | [306](../../magpie/internal/agent/hanako.go#L306) |
 | hanakoRemove | function_declaration |  | [341](../../magpie/internal/agent/hanako.go#L341) |
 | errSealed | function_declaration |  | [366](../../magpie/internal/agent/hanako.go#L366) |
 | hanakoSavePlugin | function_declaration |  | [374](../../magpie/internal/agent/hanako.go#L374) |
 | hanakoExists | function_declaration |  | [386](../../magpie/internal/agent/hanako.go#L386) |
 | hanakoDeleted | function_declaration |  | [389](../../magpie/internal/agent/hanako.go#L389) |
+| ids | var_spec | hanakoDeleted | [394](../../magpie/internal/agent/hanako.go#L394) |
 | hanakoChat | function_declaration |  | [400](../../magpie/internal/agent/hanako.go#L400) |
+| chat | var_spec | hanakoChat | [404](../../magpie/internal/agent/hanako.go#L404) |
 | hanakoBack | function_declaration |  | [427](../../magpie/internal/agent/hanako.go#L427) |
-| hanakoAvail | struct_type |  | [459](../../magpie/internal/agent/hanako.go#L459) |
+| hanakoAvail | type_spec |  | [459](../../magpie/internal/agent/hanako.go#L459) |
 | ID | field_declaration | hanakoAvail | [460](../../magpie/internal/agent/hanako.go#L460) |
 | Provider | field_declaration | hanakoAvail | [461](../../magpie/internal/agent/hanako.go#L461) |
-| models | method_declaration | *hanakoServer | [466](../../magpie/internal/agent/hanako.go#L466) |
-| Models | field_declaration | *hanakoServer.models | [478](../../magpie/internal/agent/hanako.go#L478) |
-| Error | field_declaration | *hanakoServer.models | [479](../../magpie/internal/agent/hanako.go#L479) |
-| hanakoServer | struct_type |  | [491](../../magpie/internal/agent/hanako.go#L491) |
+| models | method_declaration |  | [466](../../magpie/internal/agent/hanako.go#L466) |
+| out | var_spec | models | [477](../../magpie/internal/agent/hanako.go#L477) |
+| Models | field_declaration | models::out | [478](../../magpie/internal/agent/hanako.go#L478) |
+| Error | field_declaration | models::out | [479](../../magpie/internal/agent/hanako.go#L479) |
+| hanakoServer | type_spec |  | [491](../../magpie/internal/agent/hanako.go#L491) |
 | Port | field_declaration | hanakoServer | [492](../../magpie/internal/agent/hanako.go#L492) |
 | Token | field_declaration | hanakoServer | [493](../../magpie/internal/agent/hanako.go#L493) |
 | hanakoLive | function_declaration |  | [498](../../magpie/internal/agent/hanako.go#L498) |
-| ServerID | field_declaration | hanakoLive | [518](../../magpie/internal/agent/hanako.go#L518) |
-| url | method_declaration | *hanakoServer | [526](../../magpie/internal/agent/hanako.go#L526) |
-| put | method_declaration | *hanakoServer | [530](../../magpie/internal/agent/hanako.go#L530) |
-| Error | field_declaration | *hanakoServer.put | [552](../../magpie/internal/agent/hanako.go#L552) |
+| s | var_spec | hanakoLive | [503](../../magpie/internal/agent/hanako.go#L503) |
+| id | var_spec | hanakoLive | [517](../../magpie/internal/agent/hanako.go#L517) |
+| ServerID | field_declaration | hanakoLive::id | [518](../../magpie/internal/agent/hanako.go#L518) |
+| url | method_declaration |  | [526](../../magpie/internal/agent/hanako.go#L526) |
+| put | method_declaration |  | [530](../../magpie/internal/agent/hanako.go#L530) |
+| e | var_spec | put | [551](../../magpie/internal/agent/hanako.go#L551) |
+| Error | field_declaration | put::e | [552](../../magpie/internal/agent/hanako.go#L552) |
 | hanakoOwn | function_declaration |  | [563](../../magpie/internal/agent/hanako.go#L563) |
-| Models | field_declaration | hanakoOwn | [581](../../magpie/internal/agent/hanako.go#L581) |
-| ID | field_declaration | hanakoOwn | [591](../../magpie/internal/agent/hanako.go#L591) |
-| Models | field_declaration | hanakoOwn | [592](../../magpie/internal/agent/hanako.go#L592) |
+| ps | var_spec | hanakoOwn | [580](../../magpie/internal/agent/hanako.go#L580) |
+| Models | field_declaration | hanakoOwn::ps | [581](../../magpie/internal/agent/hanako.go#L581) |
+| p | var_spec | hanakoOwn | [590](../../magpie/internal/agent/hanako.go#L590) |
+| ID | field_declaration | hanakoOwn::p | [591](../../magpie/internal/agent/hanako.go#L591) |
+| Models | field_declaration | hanakoOwn::p | [592](../../magpie/internal/agent/hanako.go#L592) |
+| out | var_spec | hanakoOwn | [606](../../magpie/internal/agent/hanako.go#L606) |

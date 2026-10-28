@@ -9,4 +9,5 @@ Source SHA-256: da4abb181dc42a725ead5cb091ae68025bbee8a5bd80fd81b39fcc30508eb3df
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | replaceKey | function_declaration |  | [14](../../magpie/internal/gui/key_replace.go#L14) |
+| rest | var_spec | replaceKey | [19](../../magpie/internal/gui/key_replace.go#L19) |
 | liftRests | var_spec |  | [41](../../magpie/internal/gui/key_replace.go#L41) |

@@ -12,12 +12,20 @@ Source SHA-256: 4f29c7869066bf4b2dabba9b8884293a1dbfac258cf6566d12e47c08db51b3d0
 | modelScopePoll | var_spec |  | [32](../../magpie/internal/gateway/draw_modelscope.go#L32) |
 | modelScopeBusy | var_spec |  | [34](../../magpie/internal/gateway/draw_modelscope.go#L34) |
 | modelScopeQueues | var_spec |  | [36](../../magpie/internal/gateway/draw_modelscope.go#L36) |
-| drawModelScope | method_declaration | *Server | [39](../../magpie/internal/gateway/draw_modelscope.go#L39) |
-| modelScopeTask | method_declaration | *Server | [72](../../magpie/internal/gateway/draw_modelscope.go#L72) |
-| TaskID | field_declaration | *Server.modelScopeTask | [93](../../magpie/internal/gateway/draw_modelscope.go#L93) |
-| Status | field_declaration | *Server.modelScopeTask | [118](../../magpie/internal/gateway/draw_modelscope.go#L118) |
-| modelScopeResult | struct_type |  | [138](../../magpie/internal/gateway/draw_modelscope.go#L138) |
+| drawModelScope | method_declaration |  | [39](../../magpie/internal/gateway/draw_modelscope.go#L39) |
+| urls | var_spec | drawModelScope | [46](../../magpie/internal/gateway/draw_modelscope.go#L46) |
+| out | var_spec | drawModelScope | [55](../../magpie/internal/gateway/draw_modelscope.go#L55) |
+| modelScopeTask | method_declaration |  | [72](../../magpie/internal/gateway/draw_modelscope.go#L72) |
+| b | var_spec | modelScopeTask | [74](../../magpie/internal/gateway/draw_modelscope.go#L74) |
+| code | var_spec | modelScopeTask | [75](../../magpie/internal/gateway/draw_modelscope.go#L75) |
+| err | var_spec | modelScopeTask | [76](../../magpie/internal/gateway/draw_modelscope.go#L76) |
+| started | var_spec | modelScopeTask | [92](../../magpie/internal/gateway/draw_modelscope.go#L92) |
+| TaskID | field_declaration | modelScopeTask::started | [93](../../magpie/internal/gateway/draw_modelscope.go#L93) |
+| st | var_spec | modelScopeTask | [117](../../magpie/internal/gateway/draw_modelscope.go#L117) |
+| Status | field_declaration | modelScopeTask::st | [118](../../magpie/internal/gateway/draw_modelscope.go#L118) |
+| modelScopeResult | type_spec |  | [138](../../magpie/internal/gateway/draw_modelscope.go#L138) |
 | Output | field_declaration | modelScopeResult | [139](../../magpie/internal/gateway/draw_modelscope.go#L139) |
 | Images | field_declaration | modelScopeResult | [140](../../magpie/internal/gateway/draw_modelscope.go#L140) |
-| URL | field_declaration | modelScopeResult | [141](../../magpie/internal/gateway/draw_modelscope.go#L141) |
-| pictures | method_declaration | modelScopeResult | [145](../../magpie/internal/gateway/draw_modelscope.go#L145) |
+| URL | field_declaration | modelScopeResult::Images | [141](../../magpie/internal/gateway/draw_modelscope.go#L141) |
+| pictures | method_declaration |  | [145](../../magpie/internal/gateway/draw_modelscope.go#L145) |
+| out | var_spec | pictures | [146](../../magpie/internal/gateway/draw_modelscope.go#L146) |

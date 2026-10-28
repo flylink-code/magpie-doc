@@ -10,22 +10,20 @@ Source SHA-256: b23f37bcdd5b806fbeebbf01620d2a59a1cf504cdaa342ea7f43a3519eaad9de
 | --- | --- | --- | ---: |
 | Detect | function_declaration |  | [33](../../magpie/internal/omarchy/omarchy.go#L33) |
 | ThemeDir | function_declaration |  | [56](../../magpie/internal/omarchy/omarchy.go#L56) |
-| Theme | struct_type |  | [77](../../magpie/internal/omarchy/omarchy.go#L77) |
+| Theme | type_spec |  | [77](../../magpie/internal/omarchy/omarchy.go#L77) |
 | Name | field_declaration | Theme | [78](../../magpie/internal/omarchy/omarchy.go#L78) |
 | Mode | field_declaration | Theme | [79](../../magpie/internal/omarchy/omarchy.go#L79) |
 | Stamp | field_declaration | Theme | [80](../../magpie/internal/omarchy/omarchy.go#L80) |
 | Vars | field_declaration | Theme | [81](../../magpie/internal/omarchy/omarchy.go#L81) |
 | Parse | function_declaration |  | [87](../../magpie/internal/omarchy/omarchy.go#L87) |
-| color | struct_type |  | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
+| color | type_spec |  | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
 | r | field_declaration | color | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
-| g | field_declaration | color | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
-| b | field_declaration | color | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
-| a | field_declaration | color | [121](../../magpie/internal/omarchy/omarchy.go#L121) |
 | parseColor | function_declaration |  | [126](../../magpie/internal/omarchy/omarchy.go#L126) |
-| css | method_declaration | color | [182](../../magpie/internal/omarchy/omarchy.go#L182) |
-| over | method_declaration | color | [191](../../magpie/internal/omarchy/omarchy.go#L191) |
-| alpha | method_declaration | color | [195](../../magpie/internal/omarchy/omarchy.go#L195) |
-| luminance | method_declaration | color | [199](../../magpie/internal/omarchy/omarchy.go#L199) |
+| v | var_spec | parseColor | [165](../../magpie/internal/omarchy/omarchy.go#L165) |
+| css | method_declaration |  | [182](../../magpie/internal/omarchy/omarchy.go#L182) |
+| over | method_declaration |  | [191](../../magpie/internal/omarchy/omarchy.go#L191) |
+| alpha | method_declaration |  | [195](../../magpie/internal/omarchy/omarchy.go#L195) |
+| luminance | method_declaration |  | [199](../../magpie/internal/omarchy/omarchy.go#L199) |
 | Vars | function_declaration |  | [204](../../magpie/internal/omarchy/omarchy.go#L204) |
 | mu | var_spec |  | [329](../../magpie/internal/omarchy/omarchy.go#L329) |
 | cached | var_spec |  | [330](../../magpie/internal/omarchy/omarchy.go#L330) |
@@ -38,6 +36,7 @@ Source SHA-256: b23f37bcdd5b806fbeebbf01620d2a59a1cf504cdaa342ea7f43a3519eaad9de
 | themeFiles | function_declaration |  | [345](../../magpie/internal/omarchy/omarchy.go#L345) |
 | deskFiles | function_declaration |  | [353](../../magpie/internal/omarchy/omarchy.go#L353) |
 | stampOf | function_declaration |  | [363](../../magpie/internal/omarchy/omarchy.go#L363) |
+| b | var_spec | stampOf | [364](../../magpie/internal/omarchy/omarchy.go#L364) |
 | Current | function_declaration |  | [375](../../magpie/internal/omarchy/omarchy.go#L375) |
 | fnv | function_declaration |  | [407](../../magpie/internal/omarchy/omarchy.go#L407) |
 | fontName | function_declaration |  | [418](../../magpie/internal/omarchy/omarchy.go#L418) |

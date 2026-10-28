@@ -9,7 +9,7 @@ Source SHA-256: aa46996bc3bbca7a9d5f388ce85ea868b08628de839bce4aaa0217e6a90d1034
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | bunSettle | const_spec |  | [32](../../magpie/internal/plugin/bunupdate.go#L32) |
-| bunState | struct_type |  | [35](../../magpie/internal/plugin/bunupdate.go#L35) |
+| bunState | type_spec |  | [35](../../magpie/internal/plugin/bunupdate.go#L35) |
 | Current | field_declaration | bunState | [37](../../magpie/internal/plugin/bunupdate.go#L37) |
 | Previous | field_declaration | bunState | [39](../../magpie/internal/plugin/bunupdate.go#L39) |
 | Bad | field_declaration | bunState | [41](../../magpie/internal/plugin/bunupdate.go#L41) |
@@ -20,18 +20,23 @@ Source SHA-256: aa46996bc3bbca7a9d5f388ce85ea868b08628de839bce4aaa0217e6a90d1034
 | magpieBun | function_declaration |  | [67](../../magpie/internal/plugin/bunupdate.go#L67) |
 | bunStatePath | function_declaration |  | [69](../../magpie/internal/plugin/bunupdate.go#L69) |
 | readBunState | function_declaration |  | [71](../../magpie/internal/plugin/bunupdate.go#L71) |
+| s | var_spec | readBunState | [72](../../magpie/internal/plugin/bunupdate.go#L72) |
 | writeBunState | function_declaration |  | [79](../../magpie/internal/plugin/bunupdate.go#L79) |
 | haveBun | function_declaration |  | [90](../../magpie/internal/plugin/bunupdate.go#L90) |
-| usable | method_declaration | bunState | [102](../../magpie/internal/plugin/bunupdate.go#L102) |
+| usable | method_declaration |  | [102](../../magpie/internal/plugin/bunupdate.go#L102) |
 | BunInUse | function_declaration |  | [108](../../magpie/internal/plugin/bunupdate.go#L108) |
 | inUseLocked | function_declaration |  | [122](../../magpie/internal/plugin/bunupdate.go#L122) |
 | envBunVersion | var_spec |  | [131](../../magpie/internal/plugin/bunupdate.go#L131) |
 | bunVersionRe | var_spec |  | [133](../../magpie/internal/plugin/bunupdate.go#L133) |
 | bunReported | function_declaration |  | [136](../../magpie/internal/plugin/bunupdate.go#L136) |
 | bunLatest | var_spec |  | [147](../../magpie/internal/plugin/bunupdate.go#L147) |
-| r | var_spec |  | [152](../../magpie/internal/plugin/bunupdate.go#L152) |
+| r | var_spec | bunLatest | [152](../../magpie/internal/plugin/bunupdate.go#L152) |
+| Tag | field_declaration | bunLatest::r | [153](../../magpie/internal/plugin/bunupdate.go#L153) |
+| Published | field_declaration | bunLatest::r | [154](../../magpie/internal/plugin/bunupdate.go#L154) |
+| Draft | field_declaration | bunLatest::r | [155](../../magpie/internal/plugin/bunupdate.go#L155) |
+| Pre | field_declaration | bunLatest::r | [156](../../magpie/internal/plugin/bunupdate.go#L156) |
 | tryBun | var_spec |  | [171](../../magpie/internal/plugin/bunupdate.go#L171) |
-| ee | var_spec |  | [181](../../magpie/internal/plugin/bunupdate.go#L181) |
+| ee | var_spec | tryBun | [181](../../magpie/internal/plugin/bunupdate.go#L181) |
 | CheckBun | function_declaration |  | [197](../../magpie/internal/plugin/bunupdate.go#L197) |
 | setAside | function_declaration |  | [253](../../magpie/internal/plugin/bunupdate.go#L253) |
 | fallBack | function_declaration |  | [270](../../magpie/internal/plugin/bunupdate.go#L270) |

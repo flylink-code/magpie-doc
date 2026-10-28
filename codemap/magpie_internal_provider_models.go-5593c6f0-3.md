@@ -8,6 +8,43 @@ Source SHA-256: bf2de83de637a226a01b0d0587ac623d4766fa50471fb4b4dbbc53ccf698c610
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
+| Reasonless | field_declaration | Entry | [2414](../../magpie/internal/provider/models.go#L2414) |
+| AgentsV2 | field_declaration | Entry | [2419](../../magpie/internal/provider/models.go#L2419) |
+| Tiers | field_declaration | Entry | [2423](../../magpie/internal/provider/models.go#L2423) |
+| Released | field_declaration | Entry | [2427](../../magpie/internal/provider/models.go#L2427) |
+| Catalog | function_declaration |  | [2432](../../magpie/internal/provider/models.go#L2432) |
+| unlistedByGroups | function_declaration |  | [2447](../../magpie/internal/provider/models.go#L2447) |
+| Served | function_declaration |  | [2474](../../magpie/internal/provider/models.go#L2474) |
+| Unlisted | function_declaration |  | [2483](../../magpie/internal/provider/models.go#L2483) |
+| out | var_spec | Unlisted | [2484](../../magpie/internal/provider/models.go#L2484) |
+| providerEntries | function_declaration |  | [2496](../../magpie/internal/provider/models.go#L2496) |
+| buildEntries | function_declaration |  | [2500](../../magpie/internal/provider/models.go#L2500) |
+| entriesOff | function_declaration |  | [2503](../../magpie/internal/provider/models.go#L2503) |
+| heldOffEntries | function_declaration |  | [2510](../../magpie/internal/provider/models.go#L2510) |
+| entriesOf | function_declaration |  | [2519](../../magpie/internal/provider/models.go#L2519) |
+| out | var_spec | entriesOf | [2520](../../magpie/internal/provider/models.go#L2520) |
+| entryFor | function_declaration |  | [2542](../../magpie/internal/provider/models.go#L2542) |
+| Modalities | method_declaration |  | [2594](../../magpie/internal/provider/models.go#L2594) |
+| EntryOf | function_declaration |  | [2616](../../magpie/internal/provider/models.go#L2616) |
+| ServedEntryOf | function_declaration |  | [2629](../../magpie/internal/provider/models.go#L2629) |
+| entryIn | function_declaration |  | [2649](../../magpie/internal/provider/models.go#L2649) |
+| Resolve | function_declaration |  | [2674](../../magpie/internal/provider/models.go#L2674) |
+| resolveIn | function_declaration |  | [2687](../../magpie/internal/provider/models.go#L2687) |
+| found | var_spec | resolveIn | [2708](../../magpie/internal/provider/models.go#L2708) |
+| listedBy | function_declaration |  | [2721](../../magpie/internal/provider/models.go#L2721) |
+| IDs | function_declaration |  | [2739](../../magpie/internal/provider/models.go#L2739) |
+| out | var_spec | IDs | [2740](../../magpie/internal/provider/models.go#L2740) |
+| ListedWindow | function_declaration |  | [2755](../../magpie/internal/provider/models.go#L2755) |
+| WindowOf | method_declaration |  | [2776](../../magpie/internal/provider/models.go#L2776) |
+| ContextOf | method_declaration |  | [2791](../../magpie/internal/provider/models.go#L2791) |
+| ReplyLimit | method_declaration |  | [2805](../../magpie/internal/provider/models.go#L2805) |
+| ReplyLimitIn | method_declaration |  | [2810](../../magpie/internal/provider/models.go#L2810) |
+| replyLimit | method_declaration |  | [2812](../../magpie/internal/provider/models.go#L2812) |
+| OutputWithin | function_declaration |  | [2837](../../magpie/internal/provider/models.go#L2837) |
+| PublishedOutput | method_declaration |  | [2846](../../magpie/internal/provider/models.go#L2846) |
+| outputOf | function_declaration |  | [2848](../../magpie/internal/provider/models.go#L2848) |
+| SetModelOutput | function_declaration |  | [2867](../../magpie/internal/provider/models.go#L2867) |
+| OutputsOf | function_declaration |  | [2916](../../magpie/internal/provider/models.go#L2916) |
 | SetModelOutputs | function_declaration |  | [2938](../../magpie/internal/provider/models.go#L2938) |
 | DropModelOutput | function_declaration |  | [3001](../../magpie/internal/provider/models.go#L3001) |
 | outputKeyOf | function_declaration |  | [3042](../../magpie/internal/provider/models.go#L3042) |

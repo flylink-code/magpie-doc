@@ -15,9 +15,7 @@ Source SHA-256: cb838044b3946f84f3bfd07af108fceeb44ca3a3218a3822a13de0fda27e47ff
 | attrCmnReturned | const_spec |  | [19](../../magpie/internal/dirent/stats_darwin.go#L19) |
 | attrFileDataLen | const_spec |  | [20](../../magpie/internal/dirent/stats_darwin.go#L20) |
 | vReg | const_spec |  | [21](../../magpie/internal/dirent/stats_darwin.go#L21) |
-| vDir | const_spec |  | [21](../../magpie/internal/dirent/stats_darwin.go#L21) |
-| vLink | const_spec |  | [21](../../magpie/internal/dirent/stats_darwin.go#L21) |
-| attrList | struct_type |  | [24](../../magpie/internal/dirent/stats_darwin.go#L24) |
+| attrList | type_spec |  | [24](../../magpie/internal/dirent/stats_darwin.go#L24) |
 | bitmapCount | field_declaration | attrList | [25](../../magpie/internal/dirent/stats_darwin.go#L25) |
 | _ | field_declaration | attrList | [26](../../magpie/internal/dirent/stats_darwin.go#L26) |
 | common | field_declaration | attrList | [27](../../magpie/internal/dirent/stats_darwin.go#L27) |
@@ -26,4 +24,7 @@ Source SHA-256: cb838044b3946f84f3bfd07af108fceeb44ca3a3218a3822a13de0fda27e47ff
 | file | field_declaration | attrList | [30](../../magpie/internal/dirent/stats_darwin.go#L30) |
 | fork | field_declaration | attrList | [31](../../magpie/internal/dirent/stats_darwin.go#L31) |
 | stats | function_declaration |  | [37](../../magpie/internal/dirent/stats_darwin.go#L37) |
+| out | var_spec | stats | [45](../../magpie/internal/dirent/stats_darwin.go#L45) |
 | entry | function_declaration |  | [70](../../magpie/internal/dirent/stats_darwin.go#L70) |
+| s | var_spec | entry | [82](../../magpie/internal/dirent/stats_darwin.go#L82) |
+| name | var_spec | entry | [83](../../magpie/internal/dirent/stats_darwin.go#L83) |

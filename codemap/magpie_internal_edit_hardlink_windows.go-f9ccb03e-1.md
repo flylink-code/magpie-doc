@@ -9,4 +9,5 @@ Source SHA-256: 5775fa675313a9a2bf0a2783576c1bc58f9c122e593391e175af53b92ad6edf3
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | hardLinked | function_declaration |  | [10](../../magpie/internal/edit/hardlink_windows.go#L10) |
+| fi | var_spec | hardLinked | [16](../../magpie/internal/edit/hardlink_windows.go#L16) |
 | keepGroup | function_declaration |  | [21](../../magpie/internal/edit/hardlink_windows.go#L21) |

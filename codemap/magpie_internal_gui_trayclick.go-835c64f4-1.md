@@ -10,6 +10,7 @@ Source SHA-256: 5dc3afd3a4f39bc8957812862d62eda77f84db70f150d620337d99dc344ba2c5
 | --- | --- | --- | ---: |
 | menuOpenFrame | const_spec |  | [15](../../magpie/internal/gui/trayclick.go#L15) |
 | menuOpening | function_declaration |  | [20](../../magpie/internal/gui/trayclick.go#L20) |
+| names | var_spec | menuOpening | [24](../../magpie/internal/gui/trayclick.go#L24) |
 | openedBy | function_declaration |  | [36](../../magpie/internal/gui/trayclick.go#L36) |
 | trayImpl | function_declaration |  | [48](../../magpie/internal/gui/trayclick.go#L48) |
 | clickIn | function_declaration |  | [69](../../magpie/internal/gui/trayclick.go#L69) |

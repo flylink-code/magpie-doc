@@ -15,7 +15,11 @@ Source SHA-256: 5c0e12a68c1cb3bde62a808f86823396f6622023de402c7bcc74398686ffef27
 | toolNotDeclared | const_spec |  | [48](../../magpie/internal/gateway/undeclared_tools.go#L48) |
 | refusesHistoryTools | function_declaration |  | [53](../../magpie/internal/gateway/undeclared_tools.go#L53) |
 | withHistoryTools | function_declaration |  | [72](../../magpie/internal/gateway/undeclared_tools.go#L72) |
+| m | var_spec | withHistoryTools | [78](../../magpie/internal/gateway/undeclared_tools.go#L78) |
+| add | var_spec | withHistoryTools | [85](../../magpie/internal/gateway/undeclared_tools.go#L85) |
 | declaredNames | function_declaration |  | [118](../../magpie/internal/gateway/undeclared_tools.go#L118) |
 | calledNames | function_declaration |  | [145](../../magpie/internal/gateway/undeclared_tools.go#L145) |
+| names | var_spec | calledNames | [146](../../magpie/internal/gateway/undeclared_tools.go#L146) |
 | stubTool | function_declaration |  | [200](../../magpie/internal/gateway/undeclared_tools.go#L200) |
 | historyCallNames | function_declaration |  | [213](../../magpie/internal/gateway/undeclared_tools.go#L213) |
+| names | var_spec | historyCallNames | [214](../../magpie/internal/gateway/undeclared_tools.go#L214) |

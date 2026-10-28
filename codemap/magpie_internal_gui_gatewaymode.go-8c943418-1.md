@@ -13,4 +13,5 @@ Source SHA-256: 96e694c4b6f80b6e11d34b189321283cfc63796153a1e52b92b66fedf673f85d
 | gatewayMode | function_declaration |  | [36](../../magpie/internal/gui/gatewaymode.go#L36) |
 | agentsHere | var_spec |  | [54](../../magpie/internal/gui/gatewaymode.go#L54) |
 | gatewayModeRoutes | function_declaration |  | [58](../../magpie/internal/gui/gatewaymode.go#L58) |
-| Mode | field_declaration | gatewayModeRoutes | [61](../../magpie/internal/gui/gatewaymode.go#L61) |
+| in | var_spec | gatewayModeRoutes | [60](../../magpie/internal/gui/gatewaymode.go#L60) |
+| Mode | field_declaration | gatewayModeRoutes::in | [61](../../magpie/internal/gui/gatewaymode.go#L61) |

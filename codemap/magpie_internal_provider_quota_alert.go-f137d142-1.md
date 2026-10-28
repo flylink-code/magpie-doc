@@ -8,7 +8,7 @@ Source SHA-256: 3cf4ca752e9bf8ad71ea0d70f76778274111d4985f7a7041a9685e6fa67820a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| QuotaAlert | struct_type |  | [30](../../magpie/internal/provider/quota_alert.go#L30) |
+| QuotaAlert | type_spec |  | [30](../../magpie/internal/provider/quota_alert.go#L30) |
 | Provider | field_declaration | QuotaAlert | [31](../../magpie/internal/provider/quota_alert.go#L31) |
 | Name | field_declaration | QuotaAlert | [32](../../magpie/internal/provider/quota_alert.go#L32) |
 | User | field_declaration | QuotaAlert | [33](../../magpie/internal/provider/quota_alert.go#L33) |
@@ -18,15 +18,17 @@ Source SHA-256: 3cf4ca752e9bf8ad71ea0d70f76778274111d4985f7a7041a9685e6fa67820a9
 | Balance | field_declaration | QuotaAlert | [37](../../magpie/internal/provider/quota_alert.go#L37) |
 | Kind | field_declaration | QuotaAlert | [41](../../magpie/internal/provider/quota_alert.go#L41) |
 | Credits | field_declaration | QuotaAlert | [42](../../magpie/internal/provider/quota_alert.go#L42) |
-| alertMark | struct_type |  | [48](../../magpie/internal/provider/quota_alert.go#L48) |
+| alertMark | type_spec |  | [48](../../magpie/internal/provider/quota_alert.go#L48) |
 | At | field_declaration | alertMark | [49](../../magpie/internal/provider/quota_alert.go#L49) |
 | Until | field_declaration | alertMark | [50](../../magpie/internal/provider/quota_alert.go#L50) |
 | alertSameRun | const_spec |  | [56](../../magpie/internal/provider/quota_alert.go#L56) |
 | alertKeep | const_spec |  | [60](../../magpie/internal/provider/quota_alert.go#L60) |
 | dueAlerts | function_declaration |  | [66](../../magpie/internal/provider/quota_alert.go#L66) |
+| out | var_spec | dueAlerts | [67](../../magpie/internal/provider/quota_alert.go#L67) |
 | reminderUnder | const_spec |  | [131](../../magpie/internal/provider/quota_alert.go#L131) |
 | reminderSpan | const_spec |  | [135](../../magpie/internal/provider/quota_alert.go#L135) |
 | dueReminders | function_declaration |  | [143](../../magpie/internal/provider/quota_alert.go#L143) |
+| out | var_spec | dueReminders | [147](../../magpie/internal/provider/quota_alert.go#L147) |
 | alertPrefix | function_declaration |  | [185](../../magpie/internal/provider/quota_alert.go#L185) |
 | sameRun | function_declaration |  | [190](../../magpie/internal/provider/quota_alert.go#L190) |
 | balanceNum | var_spec |  | [198](../../magpie/internal/provider/quota_alert.go#L198) |

@@ -8,10 +8,11 @@ Source SHA-256: 6469479868fd26706ad1c0c7c151aee195c6dbb4cd89a5fd6d52c6b597b5c6ea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| scopeGone | struct_type |  | [30](../../magpie/internal/agent/scope_gone.go#L30) |
+| scopeGone | type_spec |  | [30](../../magpie/internal/agent/scope_gone.go#L30) |
 | Entries | field_declaration | scopeGone | [31](../../magpie/internal/agent/scope_gone.go#L31) |
 | Emptied | field_declaration | scopeGone | [33](../../magpie/internal/agent/scope_gone.go#L33) |
 | scopeGoneLoad | function_declaration |  | [36](../../magpie/internal/agent/scope_gone.go#L36) |
+| g | var_spec | scopeGoneLoad | [37](../../magpie/internal/agent/scope_gone.go#L37) |
 | scopeGoneSave | function_declaration |  | [44](../../magpie/internal/agent/scope_gone.go#L44) |
 | scopeGoneRename | function_declaration |  | [55](../../magpie/internal/agent/scope_gone.go#L55) |
 | scopeMagpieOne | function_declaration |  | [66](../../magpie/internal/agent/scope_gone.go#L66) |
@@ -19,11 +20,18 @@ Source SHA-256: 6469479868fd26706ad1c0c7c151aee195c6dbb4cd89a5fd6d52c6b597b5c6ea
 | ompBare | function_declaration |  | [83](../../magpie/internal/agent/scope_gone.go#L83) |
 | scopeSynced | function_declaration |  | [89](../../magpie/internal/agent/scope_gone.go#L89) |
 | magpieOffered | function_declaration |  | [129](../../magpie/internal/agent/scope_gone.go#L129) |
-| ID | field_declaration | magpieOffered | [135](../../magpie/internal/agent/scope_gone.go#L135) |
+| ms | var_spec | magpieOffered | [134](../../magpie/internal/agent/scope_gone.go#L134) |
+| ID | field_declaration | magpieOffered::ms | [135](../../magpie/internal/agent/scope_gone.go#L135) |
 | offeredSet | function_declaration |  | [143](../../magpie/internal/agent/scope_gone.go#L143) |
 | piScopeSynced | function_declaration |  | [159](../../magpie/internal/agent/scope_gone.go#L159) |
+| cur | var_spec | piScopeSynced | [165](../../magpie/internal/agent/scope_gone.go#L165) |
+| err | var_spec | piScopeSynced | [173](../../magpie/internal/agent/scope_gone.go#L173) |
 | stepcodeScopeSynced | function_declaration |  | [202](../../magpie/internal/agent/scope_gone.go#L202) |
+| cur | var_spec | stepcodeScopeSynced | [211](../../magpie/internal/agent/scope_gone.go#L211) |
 | ompScopeSynced | function_declaration |  | [252](../../magpie/internal/agent/scope_gone.go#L252) |
-| Providers | field_declaration | ompScopeSynced | [254](../../magpie/internal/agent/scope_gone.go#L254) |
-| Models | field_declaration | ompScopeSynced | [255](../../magpie/internal/agent/scope_gone.go#L255) |
-| ID | field_declaration | ompScopeSynced | [256](../../magpie/internal/agent/scope_gone.go#L256) |
+| doc | var_spec | ompScopeSynced | [253](../../magpie/internal/agent/scope_gone.go#L253) |
+| Providers | field_declaration | ompScopeSynced::doc | [254](../../magpie/internal/agent/scope_gone.go#L254) |
+| Models | field_declaration | ompScopeSynced::doc::Providers | [255](../../magpie/internal/agent/scope_gone.go#L255) |
+| ID | field_declaration | ompScopeSynced::doc::Providers::Models | [256](../../magpie/internal/agent/scope_gone.go#L256) |
+| out | var_spec | ompScopeSynced | [270](../../magpie/internal/agent/scope_gone.go#L270) |
+| made | var_spec | ompScopeSynced | [271](../../magpie/internal/agent/scope_gone.go#L271) |

@@ -9,3 +9,4 @@ Source SHA-256: 2a8df6ca4db5ed14b3b126c6a2ed5e2dcbb0ac07000a56a3cd336e7133ce2f73
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | listRunning | function_declaration |  | [13](../../magpie/internal/agent/running_other.go#L13) |
+| ps | var_spec | listRunning | [20](../../magpie/internal/agent/running_other.go#L20) |

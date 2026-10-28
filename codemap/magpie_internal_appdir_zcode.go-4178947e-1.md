@@ -11,4 +11,5 @@ Source SHA-256: 564be2629270f1d36b66183b3d952065c821b235325487d6ee7bf7d1e92d57b4
 | ZCodeHome | function_declaration |  | [21](../../magpie/internal/appdir/zcode.go#L21) |
 | ZCodeHomeOn | function_declaration |  | [27](../../magpie/internal/appdir/zcode.go#L27) |
 | ZCodeDataIn | function_declaration |  | [50](../../magpie/internal/appdir/zcode.go#L50) |
-| DataBaseDir | field_declaration | ZCodeDataIn | [52](../../magpie/internal/appdir/zcode.go#L52) |
+| s | var_spec | ZCodeDataIn | [51](../../magpie/internal/appdir/zcode.go#L51) |
+| DataBaseDir | field_declaration | ZCodeDataIn::s | [52](../../magpie/internal/appdir/zcode.go#L52) |

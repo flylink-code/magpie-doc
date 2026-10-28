@@ -11,5 +11,7 @@ Source SHA-256: 64b39110fdeb0312b597b9cf438e6ffd238c86838dd5a62163480193b817259f
 | ZCodeDir | function_declaration |  | [23](../../magpie/internal/sessions/zcode.go#L23) |
 | zcodeDB | function_declaration |  | [28](../../magpie/internal/sessions/zcode.go#L28) |
 | zcodeFiles | function_declaration |  | [30](../../magpie/internal/sessions/zcode.go#L30) |
-| zcDB | struct_type |  | [39](../../magpie/internal/sessions/zcode.go#L39) |
-| info | method_declaration | zcDB | [41](../../magpie/internal/sessions/zcode.go#L41) |
+| zcDB | type_spec |  | [39](../../magpie/internal/sessions/zcode.go#L39) |
+| info | method_declaration |  | [41](../../magpie/internal/sessions/zcode.go#L41) |
+| i | var_spec | info | [42](../../magpie/internal/sessions/zcode.go#L42) |
+| source | var_spec | info | [43](../../magpie/internal/sessions/zcode.go#L43) |

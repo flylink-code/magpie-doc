@@ -9,4 +9,5 @@ Source SHA-256: 1c201eff845e74a29fc51730c0c51a48eebb2519960d07592afbbd4e306698ad
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [15](../../magpie/internal/provider/migrate_workbuddy.go#L15) |
+| out | var_spec | init | [22](../../magpie/internal/provider/migrate_workbuddy.go#L22) |
 | msOf | function_declaration |  | [73](../../magpie/internal/provider/migrate_workbuddy.go#L73) |

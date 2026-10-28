@@ -9,6 +9,11 @@ Source SHA-256: 5e069905082053a3757c8867e5327c1667805f3fc90e49a066939f239f9f8d0e
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | gatewayResponse | function_declaration |  | [15](../../magpie/internal/gateway/gateway_hooks.go#L15) |
+| response | var_spec | gatewayResponse | [32](../../magpie/internal/gateway/gateway_hooks.go#L32) |
 | gatewayReply | function_declaration |  | [43](../../magpie/internal/gateway/gateway_hooks.go#L43) |
-| Type | field_declaration | gatewayReply | [66](../../magpie/internal/gateway/gateway_hooks.go#L66) |
-| Response | field_declaration | gatewayReply | [67](../../magpie/internal/gateway/gateway_hooks.go#L67) |
+| object | var_spec | gatewayReply | [46](../../magpie/internal/gateway/gateway_hooks.go#L46) |
+| c | var_spec | gatewayReply | [52](../../magpie/internal/gateway/gateway_hooks.go#L52) |
+| completed | var_spec | gatewayReply | [53](../../magpie/internal/gateway/gateway_hooks.go#L53) |
+| e | var_spec | gatewayReply | [65](../../magpie/internal/gateway/gateway_hooks.go#L65) |
+| Type | field_declaration | gatewayReply::e | [66](../../magpie/internal/gateway/gateway_hooks.go#L66) |
+| Response | field_declaration | gatewayReply::e | [67](../../magpie/internal/gateway/gateway_hooks.go#L67) |

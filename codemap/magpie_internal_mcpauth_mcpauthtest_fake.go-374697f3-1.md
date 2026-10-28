@@ -8,12 +8,11 @@ Source SHA-256: d92d3a7ec431a8b9fb1c4f39cb633df0035cbcb0889919ecd19428bc4c78524e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Fake | struct_type |  | [25](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L25) |
+| Fake | type_spec |  | [25](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L25) |
 | URL | field_declaration | Fake | [27](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L27) |
 | mu | field_declaration | Fake | [29](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L29) |
 | Registered | field_declaration | Fake | [31](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L31) |
 | Exchanged | field_declaration | Fake | [33](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L33) |
-| Refreshed | field_declaration | Fake | [33](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L33) |
 | Calls | field_declaration | Fake | [36](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L36) |
 | Seen | field_declaration | Fake | [38](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L38) |
 | SeenQuery | field_declaration | Fake | [41](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L41) |
@@ -31,19 +30,17 @@ Source SHA-256: d92d3a7ec431a8b9fb1c4f39cb633df0035cbcb0889919ecd19428bc4c78524e
 | valid | field_declaration | Fake | [73](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L73) |
 | refresh | field_declaration | Fake | [74](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L74) |
 | n | field_declaration | Fake | [75](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L75) |
-| codeGrant | struct_type |  | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
+| codeGrant | type_spec |  | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
 | challenge | field_declaration | codeGrant | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
-| client | field_declaration | codeGrant | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
-| redirect | field_declaration | codeGrant | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
-| resource | field_declaration | codeGrant | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
-| scope | field_declaration | codeGrant | [78](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L78) |
 | New | function_declaration |  | [81](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L81) |
-| mcp | method_declaration | *Fake | [247](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L247) |
-| ID | field_declaration | *Fake.mcp | [263](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L263) |
-| Method | field_declaration | *Fake.mcp | [264](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L264) |
-| Revoke | method_declaration | *Fake | [306](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L306) |
-| SignIn | method_declaration | *Fake | [314](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L314) |
+| reg | var_spec | New | [122](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L122) |
+| mcp | method_declaration |  | [247](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L247) |
+| msg | var_spec | mcp | [262](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L262) |
+| ID | field_declaration | mcp::msg | [263](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L263) |
+| Method | field_declaration | mcp::msg | [264](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L264) |
+| Revoke | method_declaration |  | [306](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L306) |
+| SignIn | method_declaration |  | [314](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L314) |
 | SignIn | function_declaration |  | [321](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L321) |
-| RefuseTokens | method_declaration | *Fake | [346](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L346) |
-| AddApp | method_declaration | *Fake | [355](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L355) |
-| ForgetRefresh | method_declaration | *Fake | [365](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L365) |
+| RefuseTokens | method_declaration |  | [346](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L346) |
+| AddApp | method_declaration |  | [355](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L355) |
+| ForgetRefresh | method_declaration |  | [365](../../magpie/internal/mcpauth/mcpauthtest/fake.go#L365) |

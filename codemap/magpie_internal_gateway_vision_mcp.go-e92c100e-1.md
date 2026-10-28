@@ -14,11 +14,13 @@ Source SHA-256: a023382c689c1103dd8ec47981f4bd73fae938f032fcb040cc404eacd88750ae
 | visionFileMax | const_spec |  | [37](../../magpie/internal/gateway/vision_mcp.go#L37) |
 | visionAskSystem | const_spec |  | [41](../../magpie/internal/gateway/vision_mcp.go#L41) |
 | visionMCPSchema | var_spec |  | [46](../../magpie/internal/gateway/vision_mcp.go#L46) |
-| visionMCP | method_declaration | *Server | [61](../../magpie/internal/gateway/vision_mcp.go#L61) |
-| visionMCPCall | method_declaration | *Server | [66](../../magpie/internal/gateway/vision_mcp.go#L66) |
-| Name | field_declaration | *Server.visionMCPCall | [87](../../magpie/internal/gateway/vision_mcp.go#L87) |
-| Arguments | field_declaration | *Server.visionMCPCall | [88](../../magpie/internal/gateway/vision_mcp.go#L88) |
-| Image | field_declaration | *Server.visionMCPCall | [89](../../magpie/internal/gateway/vision_mcp.go#L89) |
-| Prompt | field_declaration | *Server.visionMCPCall | [90](../../magpie/internal/gateway/vision_mcp.go#L90) |
-| visionMCPRun | method_declaration | *Server | [111](../../magpie/internal/gateway/vision_mcp.go#L111) |
+| visionMCP | method_declaration |  | [61](../../magpie/internal/gateway/vision_mcp.go#L61) |
+| visionMCPCall | method_declaration |  | [66](../../magpie/internal/gateway/vision_mcp.go#L66) |
+| p | var_spec | visionMCPCall | [86](../../magpie/internal/gateway/vision_mcp.go#L86) |
+| Name | field_declaration | visionMCPCall::p | [87](../../magpie/internal/gateway/vision_mcp.go#L87) |
+| Arguments | field_declaration | visionMCPCall::p | [88](../../magpie/internal/gateway/vision_mcp.go#L88) |
+| Image | field_declaration | visionMCPCall::p::Arguments | [89](../../magpie/internal/gateway/vision_mcp.go#L89) |
+| Prompt | field_declaration | visionMCPCall::p::Arguments | [90](../../magpie/internal/gateway/vision_mcp.go#L90) |
+| visionMCPRun | method_declaration |  | [111](../../magpie/internal/gateway/vision_mcp.go#L111) |
+| said | var_spec | visionMCPRun | [132](../../magpie/internal/gateway/vision_mcp.go#L132) |
 | mcpImageSrc | function_declaration |  | [153](../../magpie/internal/gateway/vision_mcp.go#L153) |

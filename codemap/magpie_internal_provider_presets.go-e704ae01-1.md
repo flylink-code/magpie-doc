@@ -13,7 +13,7 @@ Source SHA-256: 4c735e92a8702f569d4af926e8c99243519738f7df4ddbb8c39b3694261be630
 | KindRelay | const_spec |  | [15](../../magpie/internal/provider/presets.go#L15) |
 | KindLocal | const_spec |  | [16](../../magpie/internal/provider/presets.go#L16) |
 | KindRemote | const_spec |  | [19](../../magpie/internal/provider/presets.go#L19) |
-| PresetDef | struct_type |  | [23](../../magpie/internal/provider/presets.go#L23) |
+| PresetDef | type_spec |  | [23](../../magpie/internal/provider/presets.go#L23) |
 | ID | field_declaration | PresetDef | [24](../../magpie/internal/provider/presets.go#L24) |
 | Name | field_declaration | PresetDef | [25](../../magpie/internal/provider/presets.go#L25) |
 | Icon | field_declaration | PresetDef | [26](../../magpie/internal/provider/presets.go#L26) |
@@ -42,7 +42,7 @@ Source SHA-256: 4c735e92a8702f569d4af926e8c99243519738f7df4ddbb8c39b3694261be630
 | EndpointHint | field_declaration | PresetDef | [66](../../magpie/internal/provider/presets.go#L66) |
 | EndpointNeeded | field_declaration | PresetDef | [68](../../magpie/internal/provider/presets.go#L68) |
 | Hosts | field_declaration | PresetDef | [71](../../magpie/internal/provider/presets.go#L71) |
-| Region | struct_type |  | [76](../../magpie/internal/provider/presets.go#L76) |
+| Region | type_spec |  | [76](../../magpie/internal/provider/presets.go#L76) |
 | ID | field_declaration | Region | [77](../../magpie/internal/provider/presets.go#L77) |
 | Name | field_declaration | Region | [78](../../magpie/internal/provider/presets.go#L78) |
 | Chat | field_declaration | Region | [79](../../magpie/internal/provider/presets.go#L79) |
@@ -70,8 +70,9 @@ Source SHA-256: 4c735e92a8702f569d4af926e8c99243519738f7df4ddbb8c39b3694261be630
 | mantleRegions | function_declaration |  | [649](../../magpie/internal/provider/presets.go#L649) |
 | Presets | function_declaration |  | [658](../../magpie/internal/provider/presets.go#L658) |
 | presetAliases | var_spec |  | [677](../../magpie/internal/provider/presets.go#L677) |
+| preset | field_declaration | presetAliases | [677](../../magpie/internal/provider/presets.go#L677) |
 | Preset | function_declaration |  | [686](../../magpie/internal/provider/presets.go#L686) |
 | builtinPreset | function_declaration |  | [695](../../magpie/internal/provider/presets.go#L695) |
 | FromPreset | function_declaration |  | [709](../../magpie/internal/provider/presets.go#L709) |
-| atRegionOf | method_declaration | *Provider | [731](../../magpie/internal/provider/presets.go#L731) |
+| atRegionOf | method_declaration |  | [731](../../magpie/internal/provider/presets.go#L731) |
 | IconForCatalog | function_declaration |  | [740](../../magpie/internal/provider/presets.go#L740) |

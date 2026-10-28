@@ -12,8 +12,8 @@ Source SHA-256: 5440f2918c2d885b217148bc071d739415eaf7708789d7fcb3a1f9d7ef20b5fd
 | AuthXAPIKey | const_spec |  | [16](../../magpie/internal/provider/authheader.go#L16) |
 | AuthBearer | const_spec |  | [17](../../magpie/internal/provider/authheader.go#L17) |
 | AuthChoices | var_spec |  | [21](../../magpie/internal/provider/authheader.go#L21) |
-| BothAuth | method_declaration | Provider | [27](../../magpie/internal/provider/authheader.go#L27) |
+| BothAuth | method_declaration |  | [27](../../magpie/internal/provider/authheader.go#L27) |
 | RetryOneAuth | function_declaration |  | [40](../../magpie/internal/provider/authheader.go#L40) |
 | learnMu | var_spec |  | [76](../../magpie/internal/provider/authheader.go#L76) |
 | LearnAuthHeader | function_declaration |  | [80](../../magpie/internal/provider/authheader.go#L80) |
-| listAuth | method_declaration | Provider | [101](../../magpie/internal/provider/authheader.go#L101) |
+| listAuth | method_declaration |  | [101](../../magpie/internal/provider/authheader.go#L101) |

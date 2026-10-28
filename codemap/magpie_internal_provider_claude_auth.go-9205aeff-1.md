@@ -10,8 +10,8 @@ Source SHA-256: 658defc8006d4c47f262e9439f3607f8f7f5466c2d015fc9fc399b10a58a5ff4
 | --- | --- | --- | ---: |
 | claudeAuthLapse | const_spec |  | [22](../../magpie/internal/provider/claude_auth.go#L22) |
 | ClaudeSignInRequired | function_declaration |  | [29](../../magpie/internal/provider/claude_auth.go#L29) |
-| version | method_declaration | claudeCredentials | [45](../../magpie/internal/provider/claude_auth.go#L45) |
-| cleared | method_declaration | claudeCredentials | [52](../../magpie/internal/provider/claude_auth.go#L52) |
+| version | method_declaration |  | [45](../../magpie/internal/provider/claude_auth.go#L45) |
+| cleared | method_declaration |  | [52](../../magpie/internal/provider/claude_auth.go#L52) |
 | claudeLoginVersion | function_declaration |  | [58](../../magpie/internal/provider/claude_auth.go#L58) |
 | ClaudeLoginVersion | function_declaration |  | [67](../../magpie/internal/provider/claude_auth.go#L67) |
 | refuseClaudeLogin | function_declaration |  | [80](../../magpie/internal/provider/claude_auth.go#L80) |

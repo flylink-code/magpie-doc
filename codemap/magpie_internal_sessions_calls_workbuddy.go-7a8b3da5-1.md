@@ -13,15 +13,20 @@ Source SHA-256: ee2de1b7932f1f6fed983b75179c0b2c633312e16c4456aaabdb3ebde864a8c3
 | CodeBuddyDir | function_declaration |  | [52](../../magpie/internal/sessions/calls_workbuddy.go#L52) |
 | buddyDir | function_declaration |  | [61](../../magpie/internal/sessions/calls_workbuddy.go#L61) |
 | wbGateway | var_spec |  | [71](../../magpie/internal/sessions/calls_workbuddy.go#L71) |
-| wbIDs | struct_type |  | [76](../../magpie/internal/sessions/calls_workbuddy.go#L76) |
+| byPath | field_declaration | wbGateway | [73](../../magpie/internal/sessions/calls_workbuddy.go#L73) |
+| wbIDs | type_spec |  | [76](../../magpie/internal/sessions/calls_workbuddy.go#L76) |
 | stamp | field_declaration | wbIDs | [77](../../magpie/internal/sessions/calls_workbuddy.go#L77) |
 | ids | field_declaration | wbIDs | [78](../../magpie/internal/sessions/calls_workbuddy.go#L78) |
 | workbuddyGateway | function_declaration |  | [97](../../magpie/internal/sessions/calls_workbuddy.go#L97) |
 | buddyGateway | function_declaration |  | [101](../../magpie/internal/sessions/calls_workbuddy.go#L101) |
-| wbEntry | struct_type |  | [111](../../magpie/internal/sessions/calls_workbuddy.go#L111) |
+| local | const_spec | buddyGateway | [102](../../magpie/internal/sessions/calls_workbuddy.go#L102) |
+| wbEntry | type_spec |  | [111](../../magpie/internal/sessions/calls_workbuddy.go#L111) |
 | ID | field_declaration | wbEntry | [112](../../magpie/internal/sessions/calls_workbuddy.go#L112) |
 | Vendor | field_declaration | wbEntry | [113](../../magpie/internal/sessions/calls_workbuddy.go#L113) |
 | buddyGatewayIDs | function_declaration |  | [118](../../magpie/internal/sessions/calls_workbuddy.go#L118) |
-| Models | field_declaration | buddyGatewayIDs | [133](../../magpie/internal/sessions/calls_workbuddy.go#L133) |
+| list | var_spec | buddyGatewayIDs | [132](../../magpie/internal/sessions/calls_workbuddy.go#L132) |
+| doc | var_spec | buddyGatewayIDs | [133](../../magpie/internal/sessions/calls_workbuddy.go#L133) |
+| Models | field_declaration | buddyGatewayIDs::doc | [133](../../magpie/internal/sessions/calls_workbuddy.go#L133) |
 | readWorkBuddyCalls | function_declaration |  | [162](../../magpie/internal/sessions/calls_workbuddy.go#L162) |
+| l | var_spec | readWorkBuddyCalls | [181](../../magpie/internal/sessions/calls_workbuddy.go#L181) |
 | workbuddyCall | function_declaration |  | [209](../../magpie/internal/sessions/calls_workbuddy.go#L209) |

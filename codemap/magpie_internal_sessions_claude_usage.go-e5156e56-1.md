@@ -8,12 +8,12 @@ Source SHA-256: 61698d1f6ea3708d7ec61d53e33a8b478a0286dad90d29c0000b43ad18e6cf44
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeUsageState | struct_type |  | [12](../../magpie/internal/sessions/claude_usage.go#L12) |
+| claudeUsageState | type_spec |  | [12](../../magpie/internal/sessions/claude_usage.go#L12) |
 | Messages | field_declaration | claudeUsageState | [13](../../magpie/internal/sessions/claude_usage.go#L13) |
 | recent | field_declaration | claudeUsageState | [14](../../magpie/internal/sessions/claude_usage.go#L14) |
 | entries | field_declaration | claudeUsageState | [15](../../magpie/internal/sessions/claude_usage.go#L15) |
 | claudeRevisionEntries | const_spec |  | [21](../../magpie/internal/sessions/claude_usage.go#L21) |
-| claudeContribution | struct_type |  | [23](../../magpie/internal/sessions/claude_usage.go#L23) |
+| claudeContribution | type_spec |  | [23](../../magpie/internal/sessions/claude_usage.go#L23) |
 | key | field_declaration | claudeContribution | [24](../../magpie/internal/sessions/claude_usage.go#L24) |
 | node | field_declaration | claudeContribution | [25](../../magpie/internal/sessions/claude_usage.go#L25) |
 | weight | field_declaration | claudeContribution | [26](../../magpie/internal/sessions/claude_usage.go#L26) |
@@ -27,31 +27,32 @@ Source SHA-256: 61698d1f6ea3708d7ec61d53e33a8b478a0286dad90d29c0000b43ad18e6cf44
 | Call | field_declaration | claudeContribution | [34](../../magpie/internal/sessions/claude_usage.go#L34) |
 | Began | field_declaration | claudeContribution | [35](../../magpie/internal/sessions/claude_usage.go#L35) |
 | Blocks | field_declaration | claudeContribution | [36](../../magpie/internal/sessions/claude_usage.go#L36) |
-| claudeUsageVersion | struct_type |  | [39](../../magpie/internal/sessions/claude_usage.go#L39) |
+| claudeUsageVersion | type_spec |  | [39](../../magpie/internal/sessions/claude_usage.go#L39) |
 | At | field_declaration | claudeUsageVersion | [40](../../magpie/internal/sessions/claude_usage.go#L40) |
 | Model | field_declaration | claudeUsageVersion | [41](../../magpie/internal/sessions/claude_usage.go#L41) |
-| claudeToolUsage | struct_type |  | [45](../../magpie/internal/sessions/claude_usage.go#L45) |
+| claudeToolUsage | type_spec |  | [45](../../magpie/internal/sessions/claude_usage.go#L45) |
 | At | field_declaration | claudeToolUsage | [46](../../magpie/internal/sessions/claude_usage.go#L46) |
 | Updated | field_declaration | claudeToolUsage | [47](../../magpie/internal/sessions/claude_usage.go#L47) |
 | Name | field_declaration | claudeToolUsage | [48](../../magpie/internal/sessions/claude_usage.go#L48) |
-| Skill | field_declaration | claudeToolUsage | [48](../../magpie/internal/sessions/claude_usage.go#L48) |
 | Previous | field_declaration | claudeToolUsage | [49](../../magpie/internal/sessions/claude_usage.go#L49) |
-| claudeToolVersion | struct_type |  | [52](../../magpie/internal/sessions/claude_usage.go#L52) |
+| claudeToolVersion | type_spec |  | [52](../../magpie/internal/sessions/claude_usage.go#L52) |
 | Name | field_declaration | claudeToolVersion | [52](../../magpie/internal/sessions/claude_usage.go#L52) |
-| Skill | field_declaration | claudeToolVersion | [52](../../magpie/internal/sessions/claude_usage.go#L52) |
-| claudeWindowEntry | struct_type |  | [56](../../magpie/internal/sessions/claude_usage.go#L56) |
+| claudeWindowEntry | type_spec |  | [56](../../magpie/internal/sessions/claude_usage.go#L56) |
 | Key | field_declaration | claudeWindowEntry | [57](../../magpie/internal/sessions/claude_usage.go#L57) |
 | M | field_declaration | claudeWindowEntry | [58](../../magpie/internal/sessions/claude_usage.go#L58) |
-| window | method_declaration | *claudeUsageState | [62](../../magpie/internal/sessions/claude_usage.go#L62) |
+| window | method_declaration |  | [62](../../magpie/internal/sessions/claude_usage.go#L62) |
+| out | var_spec | window | [63](../../magpie/internal/sessions/claude_usage.go#L63) |
 | claudeWindowOf | function_declaration |  | [72](../../magpie/internal/sessions/claude_usage.go#L72) |
-| fill | method_declaration | *claudeUsageState | [78](../../magpie/internal/sessions/claude_usage.go#L78) |
-| MarshalJSON | method_declaration | *claudeUsageState | [102](../../magpie/internal/sessions/claude_usage.go#L102) |
-| UnmarshalJSON | method_declaration | *claudeUsageState | [104](../../magpie/internal/sessions/claude_usage.go#L104) |
+| fill | method_declaration |  | [78](../../magpie/internal/sessions/claude_usage.go#L78) |
+| MarshalJSON | method_declaration |  | [102](../../magpie/internal/sessions/claude_usage.go#L102) |
+| UnmarshalJSON | method_declaration |  | [104](../../magpie/internal/sessions/claude_usage.go#L104) |
+| entries | var_spec | UnmarshalJSON | [105](../../magpie/internal/sessions/claude_usage.go#L105) |
 | ccUsageState | function_declaration |  | [113](../../magpie/internal/sessions/claude_usage.go#L113) |
-| message | method_declaration | *claudeUsageState | [123](../../magpie/internal/sessions/claude_usage.go#L123) |
-| finish | method_declaration | *claudeUsageState | [163](../../magpie/internal/sessions/claude_usage.go#L163) |
-| entryWeight | method_declaration | *claudeContribution | [191](../../magpie/internal/sessions/claude_usage.go#L191) |
-| accept | method_declaration | *claudeContribution | [202](../../magpie/internal/sessions/claude_usage.go#L202) |
-| clone | method_declaration | *claudeUsageState | [230](../../magpie/internal/sessions/claude_usage.go#L230) |
+| message | method_declaration |  | [123](../../magpie/internal/sessions/claude_usage.go#L123) |
+| finish | method_declaration |  | [163](../../magpie/internal/sessions/claude_usage.go#L163) |
+| entryWeight | method_declaration |  | [191](../../magpie/internal/sessions/claude_usage.go#L191) |
+| accept | method_declaration |  | [202](../../magpie/internal/sessions/claude_usage.go#L202) |
+| clone | method_declaration |  | [230](../../magpie/internal/sessions/claude_usage.go#L230) |
 | ccCount | function_declaration |  | [271](../../magpie/internal/sessions/claude_usage.go#L271) |
 | ccTool | function_declaration |  | [286](../../magpie/internal/sessions/claude_usage.go#L286) |
+| previous | var_spec | ccTool | [294](../../magpie/internal/sessions/claude_usage.go#L294) |

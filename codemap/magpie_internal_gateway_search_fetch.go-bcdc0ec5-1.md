@@ -15,18 +15,19 @@ Source SHA-256: 470097231921fc42820a91f39330921976ccba895adfacc3e4a296b46c943077
 | webFetchMaxChars | const_spec |  | [42](../../magpie/internal/gateway/search_fetch.go#L42) |
 | webFetchClient | var_spec |  | [46](../../magpie/internal/gateway/search_fetch.go#L46) |
 | fetchTool | function_declaration |  | [48](../../magpie/internal/gateway/search_fetch.go#L48) |
-| fetchArgs | struct_type |  | [58](../../magpie/internal/gateway/search_fetch.go#L58) |
+| fetchArgs | type_spec |  | [58](../../magpie/internal/gateway/search_fetch.go#L58) |
 | URL | field_declaration | fetchArgs | [59](../../magpie/internal/gateway/search_fetch.go#L59) |
 | MaxChars | field_declaration | fetchArgs | [60](../../magpie/internal/gateway/search_fetch.go#L60) |
 | Offset | field_declaration | fetchArgs | [61](../../magpie/internal/gateway/search_fetch.go#L61) |
-| fetchMCPRun | method_declaration | *Server | [66](../../magpie/internal/gateway/search_fetch.go#L66) |
+| fetchMCPRun | method_declaration |  | [66](../../magpie/internal/gateway/search_fetch.go#L66) |
 | fetchPart | function_declaration |  | [100](../../magpie/internal/gateway/search_fetch.go#L100) |
+| b | var_spec | fetchPart | [101](../../magpie/internal/gateway/search_fetch.go#L101) |
 | fetchPage | function_declaration |  | [126](../../magpie/internal/gateway/search_fetch.go#L126) |
 | fetchKind | function_declaration |  | [190](../../magpie/internal/gateway/search_fetch.go#L190) |
 | fetchText | function_declaration |  | [203](../../magpie/internal/gateway/search_fetch.go#L203) |
 | fetchClip | function_declaration |  | [219](../../magpie/internal/gateway/search_fetch.go#L219) |
 | htmlText | function_declaration |  | [230](../../magpie/internal/gateway/search_fetch.go#L230) |
-| mdWriter | struct_type |  | [236](../../magpie/internal/gateway/search_fetch.go#L236) |
+| mdWriter | type_spec |  | [236](../../magpie/internal/gateway/search_fetch.go#L236) |
 | b | field_declaration | mdWriter | [237](../../magpie/internal/gateway/search_fetch.go#L237) |
 | base | field_declaration | mdWriter | [238](../../magpie/internal/gateway/search_fetch.go#L238) |
 | title | field_declaration | mdWriter | [239](../../magpie/internal/gateway/search_fetch.go#L239) |
@@ -36,11 +37,11 @@ Source SHA-256: 470097231921fc42820a91f39330921976ccba895adfacc3e4a296b46c943077
 | lists | field_declaration | mdWriter | [243](../../magpie/internal/gateway/search_fetch.go#L243) |
 | mdSkip | var_spec |  | [246](../../magpie/internal/gateway/search_fetch.go#L246) |
 | mdBlock | var_spec |  | [248](../../magpie/internal/gateway/search_fetch.go#L248) |
-| newline | method_declaration | *mdWriter | [251](../../magpie/internal/gateway/search_fetch.go#L251) |
-| atLineStart | method_declaration | *mdWriter | [264](../../magpie/internal/gateway/search_fetch.go#L264) |
-| words | method_declaration | *mdWriter | [270](../../magpie/internal/gateway/search_fetch.go#L270) |
+| newline | method_declaration |  | [251](../../magpie/internal/gateway/search_fetch.go#L251) |
+| atLineStart | method_declaration |  | [264](../../magpie/internal/gateway/search_fetch.go#L264) |
+| words | method_declaration |  | [270](../../magpie/internal/gateway/search_fetch.go#L270) |
 | attr | function_declaration |  | [292](../../magpie/internal/gateway/search_fetch.go#L292) |
 | hasAttr | function_declaration |  | [301](../../magpie/internal/gateway/search_fetch.go#L301) |
-| kids | method_declaration | *mdWriter | [310](../../magpie/internal/gateway/search_fetch.go#L310) |
-| walk | method_declaration | *mdWriter | [316](../../magpie/internal/gateway/search_fetch.go#L316) |
-| done | method_declaration | *mdWriter | [458](../../magpie/internal/gateway/search_fetch.go#L458) |
+| kids | method_declaration |  | [310](../../magpie/internal/gateway/search_fetch.go#L310) |
+| walk | method_declaration |  | [316](../../magpie/internal/gateway/search_fetch.go#L316) |
+| done | method_declaration |  | [458](../../magpie/internal/gateway/search_fetch.go#L458) |

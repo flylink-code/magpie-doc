@@ -10,7 +10,7 @@ Source SHA-256: 23bd6c813772c497995b3c17be156608780c2545d4fa7579fd028ed6f2eb993b
 | --- | --- | --- | ---: |
 | GoroutinesPath | const_spec |  | [32](../../magpie/internal/gateway/goroutines.go#L32) |
 | GoroutineStatsHeader | const_spec |  | [35](../../magpie/internal/gateway/goroutines.go#L35) |
-| GoroutineStats | struct_type |  | [38](../../magpie/internal/gateway/goroutines.go#L38) |
+| GoroutineStats | type_spec |  | [38](../../magpie/internal/gateway/goroutines.go#L38) |
 | PID | field_declaration | GoroutineStats | [39](../../magpie/internal/gateway/goroutines.go#L39) |
 | Program | field_declaration | GoroutineStats | [40](../../magpie/internal/gateway/goroutines.go#L40) |
 | Version | field_declaration | GoroutineStats | [41](../../magpie/internal/gateway/goroutines.go#L41) |
@@ -18,5 +18,6 @@ Source SHA-256: 23bd6c813772c497995b3c17be156608780c2545d4fa7579fd028ed6f2eb993b
 | Uptime | field_declaration | GoroutineStats | [43](../../magpie/internal/gateway/goroutines.go#L43) |
 | Goroutines | field_declaration | GoroutineStats | [44](../../magpie/internal/gateway/goroutines.go#L44) |
 | goroutinesRefused | function_declaration |  | [49](../../magpie/internal/gateway/goroutines.go#L49) |
-| dumpFirst | method_declaration | *Server | [65](../../magpie/internal/gateway/goroutines.go#L65) |
-| goroutineDump | method_declaration | *Server | [77](../../magpie/internal/gateway/goroutines.go#L77) |
+| dumpFirst | method_declaration |  | [65](../../magpie/internal/gateway/goroutines.go#L65) |
+| goroutineDump | method_declaration |  | [77](../../magpie/internal/gateway/goroutines.go#L77) |
+| buf | var_spec | goroutineDump | [84](../../magpie/internal/gateway/goroutines.go#L84) |

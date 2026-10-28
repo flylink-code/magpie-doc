@@ -9,10 +9,10 @@ Source SHA-256: 9a03870826ae0cc8af00f1c442384ab95f7781b76a54cc858ed9845f3b22a127
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | GrokDir | function_declaration |  | [33](../../magpie/internal/sessions/grok.go#L33) |
-| grokSummary | struct_type |  | [41](../../magpie/internal/sessions/grok.go#L41) |
+| grokSummary | type_spec |  | [41](../../magpie/internal/sessions/grok.go#L41) |
 | Info | field_declaration | grokSummary | [42](../../magpie/internal/sessions/grok.go#L42) |
-| ID | field_declaration | grokSummary | [43](../../magpie/internal/sessions/grok.go#L43) |
-| Cwd | field_declaration | grokSummary | [44](../../magpie/internal/sessions/grok.go#L44) |
+| ID | field_declaration | grokSummary::Info | [43](../../magpie/internal/sessions/grok.go#L43) |
+| Cwd | field_declaration | grokSummary::Info | [44](../../magpie/internal/sessions/grok.go#L44) |
 | CreatedAt | field_declaration | grokSummary | [46](../../magpie/internal/sessions/grok.go#L46) |
 | GeneratedTitle | field_declaration | grokSummary | [47](../../magpie/internal/sessions/grok.go#L47) |
 | SessionSummary | field_declaration | grokSummary | [48](../../magpie/internal/sessions/grok.go#L48) |
@@ -21,30 +21,31 @@ Source SHA-256: 9a03870826ae0cc8af00f1c442384ab95f7781b76a54cc858ed9845f3b22a127
 | Kind | field_declaration | grokSummary | [51](../../magpie/internal/sessions/grok.go#L51) |
 | grokSummaryHook | var_spec |  | [56](../../magpie/internal/sessions/grok.go#L56) |
 | readGrokSummary | function_declaration |  | [58](../../magpie/internal/sessions/grok.go#L58) |
-| grokKind | struct_type |  | [69](../../magpie/internal/sessions/grok.go#L69) |
+| s | var_spec | readGrokSummary | [62](../../magpie/internal/sessions/grok.go#L62) |
+| grokKind | type_spec |  | [69](../../magpie/internal/sessions/grok.go#L69) |
 | Kind | field_declaration | grokKind | [69](../../magpie/internal/sessions/grok.go#L69) |
-| Parent | field_declaration | grokKind | [69](../../magpie/internal/sessions/grok.go#L69) |
 | grokKinds | var_spec |  | [74](../../magpie/internal/sessions/grok.go#L74) |
 | grokFiles | function_declaration |  | [76](../../magpie/internal/sessions/grok.go#L76) |
-| grokUsage | struct_type |  | [123](../../magpie/internal/sessions/grok.go#L123) |
+| out | var_spec | grokFiles | [88](../../magpie/internal/sessions/grok.go#L88) |
+| grokUsage | type_spec |  | [123](../../magpie/internal/sessions/grok.go#L123) |
 | Input | field_declaration | grokUsage | [124](../../magpie/internal/sessions/grok.go#L124) |
 | Output | field_declaration | grokUsage | [125](../../magpie/internal/sessions/grok.go#L125) |
 | CacheRead | field_declaration | grokUsage | [126](../../magpie/internal/sessions/grok.go#L126) |
 | CacheWrite | field_declaration | grokUsage | [127](../../magpie/internal/sessions/grok.go#L127) |
-| tokens | method_declaration | grokUsage | [131](../../magpie/internal/sessions/grok.go#L131) |
-| grokLine | struct_type |  | [135](../../magpie/internal/sessions/grok.go#L135) |
+| tokens | method_declaration |  | [131](../../magpie/internal/sessions/grok.go#L131) |
+| grokLine | type_spec |  | [135](../../magpie/internal/sessions/grok.go#L135) |
 | Params | field_declaration | grokLine | [136](../../magpie/internal/sessions/grok.go#L136) |
-| Update | field_declaration | grokLine | [137](../../magpie/internal/sessions/grok.go#L137) |
-| SessionUpdate | field_declaration | grokLine | [138](../../magpie/internal/sessions/grok.go#L138) |
-| Content | field_declaration | grokLine | [139](../../magpie/internal/sessions/grok.go#L139) |
-| Type | field_declaration | grokLine | [140](../../magpie/internal/sessions/grok.go#L140) |
-| Text | field_declaration | grokLine | [141](../../magpie/internal/sessions/grok.go#L141) |
-| Usage | field_declaration | grokLine | [143](../../magpie/internal/sessions/grok.go#L143) |
-| ModelUsage | field_declaration | grokLine | [145](../../magpie/internal/sessions/grok.go#L145) |
+| Update | field_declaration | grokLine::Params | [137](../../magpie/internal/sessions/grok.go#L137) |
+| SessionUpdate | field_declaration | grokLine::Params::Update | [138](../../magpie/internal/sessions/grok.go#L138) |
+| Content | field_declaration | grokLine::Params::Update | [139](../../magpie/internal/sessions/grok.go#L139) |
+| Type | field_declaration | grokLine::Params::Update::Content | [140](../../magpie/internal/sessions/grok.go#L140) |
+| Text | field_declaration | grokLine::Params::Update::Content | [141](../../magpie/internal/sessions/grok.go#L141) |
+| Usage | field_declaration | grokLine::Params::Update | [143](../../magpie/internal/sessions/grok.go#L143) |
+| ModelUsage | field_declaration | grokLine::Params::Update::Usage | [145](../../magpie/internal/sessions/grok.go#L145) |
 | grokTurn | var_spec |  | [152](../../magpie/internal/sessions/grok.go#L152) |
 | grokUser | var_spec |  | [153](../../magpie/internal/sessions/grok.go#L153) |
 | grokHook | var_spec |  | [154](../../magpie/internal/sessions/grok.go#L154) |
-| grokCarry | struct_type |  | [160](../../magpie/internal/sessions/grok.go#L160) |
+| grokCarry | type_spec |  | [160](../../magpie/internal/sessions/grok.go#L160) |
 | Tail | field_declaration | grokCarry | [161](../../magpie/internal/sessions/grok.go#L161) |
 | Created | field_declaration | grokCarry | [162](../../magpie/internal/sessions/grok.go#L162) |
 | Since | field_declaration | grokCarry | [163](../../magpie/internal/sessions/grok.go#L163) |
@@ -53,6 +54,11 @@ Source SHA-256: 9a03870826ae0cc8af00f1c442384ab95f7781b76a54cc858ed9845f3b22a127
 | InPrompt | field_declaration | grokCarry | [166](../../magpie/internal/sessions/grok.go#L166) |
 | Title | field_declaration | grokCarry | [168](../../magpie/internal/sessions/grok.go#L168) |
 | parseGrok | function_declaration |  | [177](../../magpie/internal/sessions/grok.go#L177) |
+| c | var_spec | parseGrok | [178](../../magpie/internal/sessions/grok.go#L178) |
+| m | var_spec | parseGrok | [179](../../magpie/internal/sessions/grok.go#L179) |
+| s | var_spec | parseGrok | [193](../../magpie/internal/sessions/grok.go#L193) |
+| off | var_spec | parseGrok | [194](../../magpie/internal/sessions/grok.go#L194) |
 | grokUpdate | function_declaration |  | [229](../../magpie/internal/sessions/grok.go#L229) |
+| l | var_spec | grokUpdate | [248](../../magpie/internal/sessions/grok.go#L248) |
 | tsKey | var_spec |  | [274](../../magpie/internal/sessions/grok.go#L274) |
 | numTS | function_declaration |  | [278](../../magpie/internal/sessions/grok.go#L278) |

@@ -9,13 +9,15 @@ Source SHA-256: 89b52776c087633df09498d37e61efd88145d60243b3c5155647d3103bc9d260
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | keepAliveEvery | const_spec |  | [26](../../magpie/internal/provider/keepalive.go#L26) |
-| Renewal | struct_type |  | [29](../../magpie/internal/provider/keepalive.go#L29) |
+| Renewal | type_spec |  | [29](../../magpie/internal/provider/keepalive.go#L29) |
 | Agent | field_declaration | Renewal | [30](../../magpie/internal/provider/keepalive.go#L30) |
 | User | field_declaration | Renewal | [31](../../magpie/internal/provider/keepalive.go#L31) |
 | Renewed | field_declaration | Renewal | [34](../../magpie/internal/provider/keepalive.go#L34) |
 | Err | field_declaration | Renewal | [35](../../magpie/internal/provider/keepalive.go#L35) |
 | Lapsed | field_declaration | Renewal | [36](../../magpie/internal/provider/keepalive.go#L36) |
 | RenewLogins | function_declaration |  | [42](../../magpie/internal/provider/keepalive.go#L42) |
+| refused | var_spec | RenewLogins | [68](../../magpie/internal/provider/keepalive.go#L68) |
 | renewalDue | function_declaration |  | [81](../../magpie/internal/provider/keepalive.go#L81) |
-| LastRefresh | field_declaration | renewalDue | [87](../../magpie/internal/provider/keepalive.go#L87) |
+| a | var_spec | renewalDue | [86](../../magpie/internal/provider/keepalive.go#L86) |
+| LastRefresh | field_declaration | renewalDue::a | [87](../../magpie/internal/provider/keepalive.go#L87) |
 | KeepLoginsAlive | function_declaration |  | [98](../../magpie/internal/provider/keepalive.go#L98) |

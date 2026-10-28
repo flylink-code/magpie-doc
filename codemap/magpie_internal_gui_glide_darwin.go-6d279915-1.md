@@ -8,8 +8,8 @@ Source SHA-256: f914238ee191a0e0f778274338b343943cd0c9979866a08af5c67eaa247fea75
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| glidePanel | method_declaration | *host | [150](../../magpie/internal/gui/glide_darwin.go#L150) |
-| TintPanel | method_declaration | *host | [161](../../magpie/internal/gui/glide_darwin.go#L161) |
+| glidePanel | method_declaration |  | [150](../../magpie/internal/gui/glide_darwin.go#L150) |
+| TintPanel | method_declaration |  | [161](../../magpie/internal/gui/glide_darwin.go#L161) |
 | dockPolicy | function_declaration |  | [178](../../magpie/internal/gui/glide_darwin.go#L178) |
 | setDock | function_declaration |  | [189](../../magpie/internal/gui/glide_darwin.go#L189) |
 | dockOnFullscreen | function_declaration |  | [207](../../magpie/internal/gui/glide_darwin.go#L207) |

@@ -11,5 +11,7 @@ Source SHA-256: 8501087d34ebf3c185542ce21ff5a48f5cde6357c7582170bad3bc7ba8db8283
 | installCacheDir | function_declaration |  | [14](../../magpie/internal/plugin/installcache.go#L14) |
 | pruneInstallCache | function_declaration |  | [24](../../magpie/internal/plugin/installcache.go#L24) |
 | pruneCached | function_declaration |  | [46](../../magpie/internal/plugin/installcache.go#L46) |
+| folders | var_spec | pruneCached | [47](../../magpie/internal/plugin/installcache.go#L47) |
 | installedVersion | function_declaration |  | [82](../../magpie/internal/plugin/installcache.go#L82) |
-| Version | field_declaration | installedVersion | [91](../../magpie/internal/plugin/installcache.go#L91) |
+| pj | var_spec | installedVersion | [90](../../magpie/internal/plugin/installcache.go#L90) |
+| Version | field_declaration | installedVersion::pj | [91](../../magpie/internal/plugin/installcache.go#L91) |

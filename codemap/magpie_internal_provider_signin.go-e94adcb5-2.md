@@ -8,7 +8,16 @@ Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RefreshToken | field_declaration | codexExchange | [831](../../magpie/internal/provider/signin.go#L831) |
+| tokenRefused | type_spec |  | [802](../../magpie/internal/provider/signin.go#L802) |
+| status | field_declaration | tokenRefused | [803](../../magpie/internal/provider/signin.go#L803) |
+| msg | field_declaration | tokenRefused | [804](../../magpie/internal/provider/signin.go#L804) |
+| Error | method_declaration |  | [807](../../magpie/internal/provider/signin.go#L807) |
+| claudeLogin | function_declaration |  | [812](../../magpie/internal/provider/signin.go#L812) |
+| codexExchange | function_declaration |  | [825](../../magpie/internal/provider/signin.go#L825) |
+| tok | var_spec | codexExchange | [828](../../magpie/internal/provider/signin.go#L828) |
+| IDToken | field_declaration | codexExchange::tok | [829](../../magpie/internal/provider/signin.go#L829) |
+| AccessToken | field_declaration | codexExchange::tok | [830](../../magpie/internal/provider/signin.go#L830) |
+| RefreshToken | field_declaration | codexExchange::tok | [831](../../magpie/internal/provider/signin.go#L831) |
 | codexLogin | function_declaration |  | [844](../../magpie/internal/provider/signin.go#L844) |
 | addLogin | function_declaration |  | [871](../../magpie/internal/provider/signin.go#L871) |
 | magpieLogo | var_spec |  | [935](../../magpie/internal/provider/signin.go#L935) |

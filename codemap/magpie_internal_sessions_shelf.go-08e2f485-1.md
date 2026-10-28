@@ -10,14 +10,15 @@ Source SHA-256: fd8c73e2be6b45a15920787ef0c59867f84c9e7bfe7ce3a4eba70f7e6710a421
 | --- | --- | --- | ---: |
 | shelfIdle | const_spec |  | [9](../../magpie/internal/sessions/shelf.go#L9) |
 | shelfHeld | const_spec |  | [13](../../magpie/internal/sessions/shelf.go#L13) |
-| shelf | struct_type |  | [23](../../magpie/internal/sessions/shelf.go#L23) |
+| shelf | type_spec |  | [23](../../magpie/internal/sessions/shelf.go#L23) |
 | idleFor | field_declaration | shelf | [24](../../magpie/internal/sessions/shelf.go#L24) |
 | mu | field_declaration | shelf | [26](../../magpie/internal/sessions/shelf.go#L26) |
 | held | field_declaration | shelf | [27](../../magpie/internal/sessions/shelf.go#L27) |
 | used | field_declaration | shelf | [28](../../magpie/internal/sessions/shelf.go#L28) |
 | timer | field_declaration | shelf | [29](../../magpie/internal/sessions/shelf.go#L29) |
-| take | method_declaration | *shelf[T] | [33](../../magpie/internal/sessions/shelf.go#L33) |
-| give | method_declaration | *shelf[T] | [50](../../magpie/internal/sessions/shelf.go#L50) |
-| idle | method_declaration | *shelf[T] | [72](../../magpie/internal/sessions/shelf.go#L72) |
-| wait | method_declaration | *shelf[T] | [84](../../magpie/internal/sessions/shelf.go#L84) |
-| size | method_declaration | *shelf[T] | [92](../../magpie/internal/sessions/shelf.go#L92) |
+| take | method_declaration |  | [33](../../magpie/internal/sessions/shelf.go#L33) |
+| zero | var_spec | take | [43](../../magpie/internal/sessions/shelf.go#L43) |
+| give | method_declaration |  | [50](../../magpie/internal/sessions/shelf.go#L50) |
+| idle | method_declaration |  | [72](../../magpie/internal/sessions/shelf.go#L72) |
+| wait | method_declaration |  | [84](../../magpie/internal/sessions/shelf.go#L84) |
+| size | method_declaration |  | [92](../../magpie/internal/sessions/shelf.go#L92) |

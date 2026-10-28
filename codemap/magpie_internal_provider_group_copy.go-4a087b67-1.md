@@ -9,4 +9,5 @@ Source SHA-256: 22fe64fc2813f953fc3e4af4d1fd9eb34c473ee3f4dac2104ac53ae819f4ee6a
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | CopyGroup | function_declaration |  | [17](../../magpie/internal/provider/group_copy.go#L17) |
+| g | var_spec | CopyGroup | [30](../../magpie/internal/provider/group_copy.go#L30) |
 | freeGroupName | function_declaration |  | [68](../../magpie/internal/provider/group_copy.go#L68) |

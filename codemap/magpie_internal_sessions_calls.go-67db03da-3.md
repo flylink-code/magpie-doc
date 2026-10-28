@@ -8,26 +8,16 @@ Source SHA-256: 66bad5bfa65fc87cd7ef003dee04360fab8dc9793d1cd2f4e3838079e8b5498d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Settings | field_declaration | cxCall | [857](../../magpie/internal/sessions/calls.go#L857) |
-| Model | field_declaration | cxCall | [858](../../magpie/internal/sessions/calls.go#L858) |
-| Upstream | field_declaration | cxCall | [859](../../magpie/internal/sessions/calls.go#L859) |
-| Info | field_declaration | cxCall | [861](../../magpie/internal/sessions/calls.go#L861) |
-| Total | field_declaration | cxCall | [862](../../magpie/internal/sessions/calls.go#L862) |
-| Last | field_declaration | cxCall | [863](../../magpie/internal/sessions/calls.go#L863) |
-| codexCallLine | function_declaration |  | [870](../../magpie/internal/sessions/calls.go#L870) |
-| saveContext | method_declaration | *cxRun | [990](../../magpie/internal/sessions/calls.go#L990) |
-| markCall | method_declaration | *callFile | [998](../../magpie/internal/sessions/calls.go#L998) |
-| codexChanged | method_declaration | *callFile | [1004](../../magpie/internal/sessions/calls.go#L1004) |
-| codexTiming | method_declaration | *callFile | [1082](../../magpie/internal/sessions/calls.go#L1082) |
-| codexCompact | method_declaration | *callFile | [1108](../../magpie/internal/sessions/calls.go#L1108) |
+| codexChanged | method_declaration |  | [1004](../../magpie/internal/sessions/calls.go#L1004) |
+| codexTiming | method_declaration |  | [1082](../../magpie/internal/sessions/calls.go#L1082) |
+| codexCompact | method_declaration |  | [1108](../../magpie/internal/sessions/calls.go#L1108) |
 | hashHead | function_declaration |  | [1116](../../magpie/internal/sessions/calls.go#L1116) |
 | sameHead | function_declaration |  | [1117](../../magpie/internal/sessions/calls.go#L1117) |
 | prefixHash | function_declaration |  | [1125](../../magpie/internal/sessions/calls.go#L1125) |
+| window | const_spec | prefixHash | [1132](../../magpie/internal/sessions/calls.go#L1132) |
 | hashBufs | var_spec |  | [1155](../../magpie/internal/sessions/calls.go#L1155) |
-| CallSource | struct_type |  | [1158](../../magpie/internal/sessions/calls.go#L1158) |
+| CallSource | type_spec |  | [1158](../../magpie/internal/sessions/calls.go#L1158) |
 | Path | field_declaration | CallSource | [1159](../../magpie/internal/sessions/calls.go#L1159) |
-| Key | field_declaration | CallSource | [1159](../../magpie/internal/sessions/calls.go#L1159) |
-| Agent | field_declaration | CallSource | [1159](../../magpie/internal/sessions/calls.go#L1159) |
 | Size | field_declaration | CallSource | [1160](../../magpie/internal/sessions/calls.go#L1160) |
 | Modified | field_declaration | CallSource | [1161](../../magpie/internal/sessions/calls.go#L1161) |
 | CallSources | function_declaration |  | [1164](../../magpie/internal/sessions/calls.go#L1164) |

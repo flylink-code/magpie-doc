@@ -8,25 +8,31 @@ Source SHA-256: 330ad9efa8ff6696a3aa4f4824b016f10201e1833428454b669585b74e22679d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TitleLink | struct_type |  | [16](../../magpie/internal/gateway/title_link.go#L16) |
+| TitleLink | type_spec |  | [16](../../magpie/internal/gateway/title_link.go#L16) |
 | Scope | field_declaration | TitleLink | [17](../../magpie/internal/gateway/title_link.go#L17) |
 | Prompt | field_declaration | TitleLink | [18](../../magpie/internal/gateway/title_link.go#L18) |
 | Reply | field_declaration | TitleLink | [19](../../magpie/internal/gateway/title_link.go#L19) |
-| titlePrompt | struct_type |  | [22](../../magpie/internal/gateway/title_link.go#L22) |
+| titlePrompt | type_spec |  | [22](../../magpie/internal/gateway/title_link.go#L22) |
 | Session | field_declaration | titlePrompt | [23](../../magpie/internal/gateway/title_link.go#L23) |
 | Time | field_declaration | titlePrompt | [24](../../magpie/internal/gateway/title_link.go#L24) |
 | Link | field_declaration | titlePrompt | [25](../../magpie/internal/gateway/title_link.go#L25) |
-| titlePrompts | struct_type |  | [27](../../magpie/internal/gateway/title_link.go#L27) |
+| titlePrompts | type_spec |  | [27](../../magpie/internal/gateway/title_link.go#L27) |
 | first | field_declaration | titlePrompts | [29](../../magpie/internal/gateway/title_link.go#L29) |
 | byPrompt | field_declaration | titlePrompts | [30](../../magpie/internal/gateway/title_link.go#L30) |
 | recent | field_declaration | titlePrompts | [31](../../magpie/internal/gateway/title_link.go#L31) |
 | titlePromptLimit | const_spec |  | [34](../../magpie/internal/gateway/title_link.go#L34) |
 | promptDigest | function_declaration |  | [36](../../magpie/internal/gateway/title_link.go#L36) |
 | codexImageQuestion | function_declaration |  | [42](../../magpie/internal/gateway/title_link.go#L42) |
+| marker | const_spec | codexImageQuestion | [47](../../magpie/internal/gateway/title_link.go#L47) |
 | titleUserText | function_declaration |  | [53](../../magpie/internal/gateway/title_link.go#L53) |
+| text | var_spec | titleUserText | [60](../../magpie/internal/gateway/title_link.go#L60) |
+| question | var_spec | titleUserText | [61](../../magpie/internal/gateway/title_link.go#L61) |
 | titlePromptDigest | function_declaration |  | [112](../../magpie/internal/gateway/title_link.go#L112) |
-| observe | method_declaration | *titlePrompts | [155](../../magpie/internal/gateway/title_link.go#L155) |
+| digest | var_spec | titlePromptDigest | [113](../../magpie/internal/gateway/title_link.go#L113) |
+| prefix | const_spec | titlePromptDigest | [135](../../magpie/internal/gateway/title_link.go#L135) |
+| marker | const_spec | titlePromptDigest | [136](../../magpie/internal/gateway/title_link.go#L136) |
+| observe | method_declaration |  | [155](../../magpie/internal/gateway/title_link.go#L155) |
 | titleReplyDigest | function_declaration |  | [223](../../magpie/internal/gateway/title_link.go#L223) |
-| ResolveTitleParents | method_declaration | *Server | [264](../../magpie/internal/gateway/title_link.go#L264) |
+| ResolveTitleParents | method_declaration |  | [264](../../magpie/internal/gateway/title_link.go#L264) |
 | resolveTitleParents | function_declaration |  | [292](../../magpie/internal/gateway/title_link.go#L292) |
 | clearInferredParents | function_declaration |  | [364](../../magpie/internal/gateway/title_link.go#L364) |

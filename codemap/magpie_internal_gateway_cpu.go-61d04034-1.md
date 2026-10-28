@@ -13,7 +13,7 @@ Source SHA-256: 6d09ebfe2c480fd6f5c2e8f56e0ed2379b6d0f974ffa9908e02416714152793e
 | CPUSeconds | const_spec |  | [35](../../magpie/internal/gateway/cpu.go#L35) |
 | CPUMinSeconds | const_spec |  | [36](../../magpie/internal/gateway/cpu.go#L36) |
 | CPUMaxSeconds | const_spec |  | [37](../../magpie/internal/gateway/cpu.go#L37) |
-| CPUStats | struct_type |  | [44](../../magpie/internal/gateway/cpu.go#L44) |
+| CPUStats | type_spec |  | [44](../../magpie/internal/gateway/cpu.go#L44) |
 | PID | field_declaration | CPUStats | [45](../../magpie/internal/gateway/cpu.go#L45) |
 | Program | field_declaration | CPUStats | [46](../../magpie/internal/gateway/cpu.go#L46) |
 | Version | field_declaration | CPUStats | [47](../../magpie/internal/gateway/cpu.go#L47) |
@@ -29,4 +29,5 @@ Source SHA-256: 6d09ebfe2c480fd6f5c2e8f56e0ed2379b6d0f974ffa9908e02416714152793e
 | cpuRecording | var_spec |  | [61](../../magpie/internal/gateway/cpu.go#L61) |
 | cpuSecond | var_spec |  | [64](../../magpie/internal/gateway/cpu.go#L64) |
 | cpuRefused | function_declaration |  | [68](../../magpie/internal/gateway/cpu.go#L68) |
-| cpuProfile | method_declaration | *Server | [77](../../magpie/internal/gateway/cpu.go#L77) |
+| cpuProfile | method_declaration |  | [77](../../magpie/internal/gateway/cpu.go#L77) |
+| buf | var_spec | cpuProfile | [97](../../magpie/internal/gateway/cpu.go#L97) |

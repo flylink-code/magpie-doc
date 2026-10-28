@@ -12,4 +12,5 @@ Source SHA-256: 94cb6b93eab087b1fd909faeee8ef1ccbf4300fd23b97174d784e19bd40268a0
 | arkRatioSizes | var_spec |  | [48](../../magpie/internal/gateway/draw_volcengine.go#L48) |
 | arkSize | function_declaration |  | [57](../../magpie/internal/gateway/draw_volcengine.go#L57) |
 | arkBody | function_declaration |  | [72](../../magpie/internal/gateway/draw_volcengine.go#L72) |
-| drawArk | method_declaration | *Server | [108](../../magpie/internal/gateway/draw_volcengine.go#L108) |
+| urls | var_spec | arkBody | [98](../../magpie/internal/gateway/draw_volcengine.go#L98) |
+| drawArk | method_declaration |  | [108](../../magpie/internal/gateway/draw_volcengine.go#L108) |

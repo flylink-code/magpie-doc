@@ -13,18 +13,20 @@ Source SHA-256: d577a4c7d9be850715e560d2841cf290753855a47b4732dea225388bcefee4e7
 | askedOutput | function_declaration |  | [54](../../magpie/internal/gateway/maxoutput.go#L54) |
 | defaultMaxTokens | const_spec |  | [67](../../magpie/internal/gateway/maxoutput.go#L67) |
 | withMaxOutput | function_declaration |  | [73](../../magpie/internal/gateway/maxoutput.go#L73) |
-| MaxTokens | field_declaration | withMaxOutput | [75](../../magpie/internal/gateway/maxoutput.go#L75) |
-| MaxCompletionTokens | field_declaration | withMaxOutput | [76](../../magpie/internal/gateway/maxoutput.go#L76) |
-| MaxOutputTokens | field_declaration | withMaxOutput | [77](../../magpie/internal/gateway/maxoutput.go#L77) |
-| Thinking | field_declaration | withMaxOutput | [78](../../magpie/internal/gateway/maxoutput.go#L78) |
-| Type | field_declaration | withMaxOutput | [79](../../magpie/internal/gateway/maxoutput.go#L79) |
-| Budget | field_declaration | withMaxOutput | [80](../../magpie/internal/gateway/maxoutput.go#L80) |
-| GenerationConfig | field_declaration | withMaxOutput | [82](../../magpie/internal/gateway/maxoutput.go#L82) |
+| v | var_spec | withMaxOutput | [74](../../magpie/internal/gateway/maxoutput.go#L74) |
+| MaxTokens | field_declaration | withMaxOutput::v | [75](../../magpie/internal/gateway/maxoutput.go#L75) |
+| MaxCompletionTokens | field_declaration | withMaxOutput::v | [76](../../magpie/internal/gateway/maxoutput.go#L76) |
+| MaxOutputTokens | field_declaration | withMaxOutput::v | [77](../../magpie/internal/gateway/maxoutput.go#L77) |
+| Thinking | field_declaration | withMaxOutput::v | [78](../../magpie/internal/gateway/maxoutput.go#L78) |
+| Type | field_declaration | withMaxOutput::v::Thinking | [79](../../magpie/internal/gateway/maxoutput.go#L79) |
+| Budget | field_declaration | withMaxOutput::v::Thinking | [80](../../magpie/internal/gateway/maxoutput.go#L80) |
+| GenerationConfig | field_declaration | withMaxOutput::v | [82](../../magpie/internal/gateway/maxoutput.go#L82) |
 | replyLeft | function_declaration |  | [131](../../magpie/internal/gateway/maxoutput.go#L131) |
 | windowAndPrompt | var_spec |  | [153](../../magpie/internal/gateway/maxoutput.go#L153) |
 | inputPlusReply | var_spec |  | [158](../../magpie/internal/gateway/maxoutput.go#L158) |
 | leastReplyLeft | const_spec |  | [163](../../magpie/internal/gateway/maxoutput.go#L163) |
 | withReplyCap | function_declaration |  | [169](../../magpie/internal/gateway/maxoutput.go#L169) |
+| key | var_spec | withReplyCap | [177](../../magpie/internal/gateway/maxoutput.go#L177) |
 | namesOutput | function_declaration |  | [212](../../magpie/internal/gateway/maxoutput.go#L212) |
 | shortByDefault | function_declaration |  | [235](../../magpie/internal/gateway/maxoutput.go#L235) |
 | withOwnOutput | function_declaration |  | [243](../../magpie/internal/gateway/maxoutput.go#L243) |

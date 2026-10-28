@@ -8,7 +8,25 @@ Source SHA-256: fc841687cf8e9353baed1d42646f52fe32d51a97e929d60f083a89e3ec5c9d95
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Max | field_declaration | parseCodex | [1629](../../magpie/internal/catalog/catalog.go#L1629) |
+| ids | var_spec | Providers | [1594](../../magpie/internal/catalog/catalog.go#L1594) |
+| CodexHome | function_declaration |  | [1603](../../magpie/internal/catalog/catalog.go#L1603) |
+| CodexModelsCache | function_declaration |  | [1606](../../magpie/internal/catalog/catalog.go#L1606) |
+| Codex | function_declaration |  | [1610](../../magpie/internal/catalog/catalog.go#L1610) |
+| parseCodex | function_declaration |  | [1615](../../magpie/internal/catalog/catalog.go#L1615) |
+| cache | var_spec | parseCodex | [1616](../../magpie/internal/catalog/catalog.go#L1616) |
+| ETag | field_declaration | parseCodex::cache | [1617](../../magpie/internal/catalog/catalog.go#L1617) |
+| Models | field_declaration | parseCodex::cache | [1618](../../magpie/internal/catalog/catalog.go#L1618) |
+| Slug | field_declaration | parseCodex::cache::Models | [1619](../../magpie/internal/catalog/catalog.go#L1619) |
+| DisplayName | field_declaration | parseCodex::cache::Models | [1620](../../magpie/internal/catalog/catalog.go#L1620) |
+| Description | field_declaration | parseCodex::cache::Models | [1621](../../magpie/internal/catalog/catalog.go#L1621) |
+| Visibility | field_declaration | parseCodex::cache::Models | [1622](../../magpie/internal/catalog/catalog.go#L1622) |
+| Priority | field_declaration | parseCodex::cache::Models | [1623](../../magpie/internal/catalog/catalog.go#L1623) |
+| Input | field_declaration | parseCodex::cache::Models | [1624](../../magpie/internal/catalog/catalog.go#L1624) |
+| Levels | field_declaration | parseCodex::cache::Models | [1625](../../magpie/internal/catalog/catalog.go#L1625) |
+| Effort | field_declaration | parseCodex::cache::Models::Levels | [1626](../../magpie/internal/catalog/catalog.go#L1626) |
+| Context | field_declaration | parseCodex::cache::Models | [1628](../../magpie/internal/catalog/catalog.go#L1628) |
+| Max | field_declaration | parseCodex::cache::Models | [1629](../../magpie/internal/catalog/catalog.go#L1629) |
+| out | var_spec | parseCodex | [1636](../../magpie/internal/catalog/catalog.go#L1636) |
 | MagpieAdded | function_declaration |  | [1665](../../magpie/internal/catalog/catalog.go#L1665) |
 | EffortRank | var_spec |  | [1672](../../magpie/internal/catalog/catalog.go#L1672) |
 | NearestEffort | function_declaration |  | [1681](../../magpie/internal/catalog/catalog.go#L1681) |

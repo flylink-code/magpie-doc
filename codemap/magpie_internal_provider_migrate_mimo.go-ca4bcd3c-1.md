@@ -9,10 +9,14 @@ Source SHA-256: 76bb25e1a37c92be078cb152fd1533c6f972e6fd00b2c765465e5cab05732b3c
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [14](../../magpie/internal/provider/migrate_mimo.go#L14) |
-| UserID | field_declaration | init | [43](../../magpie/internal/provider/migrate_mimo.go#L43) |
-| CUserID | field_declaration | init | [44](../../magpie/internal/provider/migrate_mimo.go#L44) |
-| PassToken | field_declaration | init | [45](../../magpie/internal/provider/migrate_mimo.go#L45) |
-| DeviceID | field_declaration | init | [46](../../magpie/internal/provider/migrate_mimo.go#L46) |
-| Region | field_declaration | init | [47](../../magpie/internal/provider/migrate_mimo.go#L47) |
-| Base | field_declaration | init | [48](../../magpie/internal/provider/migrate_mimo.go#L48) |
+| out | var_spec | init | [20](../../magpie/internal/provider/migrate_mimo.go#L20) |
+| expires | var_spec | init | [27](../../magpie/internal/provider/migrate_mimo.go#L27) |
+| r | var_spec | init | [42](../../magpie/internal/provider/migrate_mimo.go#L42) |
+| UserID | field_declaration | init::r | [43](../../magpie/internal/provider/migrate_mimo.go#L43) |
+| CUserID | field_declaration | init::r | [44](../../magpie/internal/provider/migrate_mimo.go#L44) |
+| PassToken | field_declaration | init::r | [45](../../magpie/internal/provider/migrate_mimo.go#L45) |
+| DeviceID | field_declaration | init::r | [46](../../magpie/internal/provider/migrate_mimo.go#L46) |
+| Region | field_declaration | init::r | [47](../../magpie/internal/provider/migrate_mimo.go#L47) |
+| Base | field_declaration | init::r | [48](../../magpie/internal/provider/migrate_mimo.go#L48) |
+| cookies | var_spec | init | [53](../../magpie/internal/provider/migrate_mimo.go#L53) |
 | idText | function_declaration |  | [83](../../magpie/internal/provider/migrate_mimo.go#L83) |

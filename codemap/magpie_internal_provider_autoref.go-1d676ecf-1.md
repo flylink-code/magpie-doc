@@ -16,9 +16,10 @@ Source SHA-256: 60af234c7c264cf799978257c40e582d73da5c4c46d2312d2315b00591efa1ad
 | autoGroupOfRef | function_declaration |  | [56](../../magpie/internal/provider/autoref.go#L56) |
 | IsGroupRef | function_declaration |  | [60](../../magpie/internal/provider/autoref.go#L60) |
 | CanonicalRef | function_declaration |  | [70](../../magpie/internal/provider/autoref.go#L70) |
-| canonicalRefs | method_declaration | *Group | [96](../../magpie/internal/provider/autoref.go#L96) |
+| canonicalRefs | method_declaration |  | [96](../../magpie/internal/provider/autoref.go#L96) |
 | SameRef | function_declaration |  | [116](../../magpie/internal/provider/autoref.go#L116) |
-| Ref | method_declaration | Group | [124](../../magpie/internal/provider/autoref.go#L124) |
+| Ref | method_declaration |  | [124](../../magpie/internal/provider/autoref.go#L124) |
 | PublicRef | function_declaration |  | [135](../../magpie/internal/provider/autoref.go#L135) |
 | spelledIn | function_declaration |  | [164](../../magpie/internal/provider/autoref.go#L164) |
+| own | var_spec | spelledIn | [168](../../magpie/internal/provider/autoref.go#L168) |
 | lastPart | function_declaration |  | [212](../../magpie/internal/provider/autoref.go#L212) |

@@ -8,7 +8,7 @@ Source SHA-256: b41d01e25a1fb3916b414ebda89787ec9d6011b568393ac1324ddd1f518ffcc9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| uncheckedKey | struct_type |  | [13](../../magpie/internal/netproxy/unchecked.go#L13) |
+| uncheckedKey | type_spec |  | [13](../../magpie/internal/netproxy/unchecked.go#L13) |
 | WithUncheckedTLS | function_declaration |  | [24](../../magpie/internal/netproxy/unchecked.go#L24) |
 | uncheckedOf | function_declaration |  | [39](../../magpie/internal/netproxy/unchecked.go#L39) |
 | uncheckedHost | function_declaration |  | [49](../../magpie/internal/netproxy/unchecked.go#L49) |

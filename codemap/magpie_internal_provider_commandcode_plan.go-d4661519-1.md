@@ -12,7 +12,7 @@ Source SHA-256: 7171581fe1e43fcc1e1b16441078a212e9d484491ecf5e9c4714b4cadd115ab1
 | CommandCodeMaxOutput | const_spec |  | [40](../../magpie/internal/provider/commandcode_plan.go#L40) |
 | cmdAPI | var_spec |  | [45](../../magpie/internal/provider/commandcode_plan.go#L45) |
 | cmdStudio | var_spec |  | [46](../../magpie/internal/provider/commandcode_plan.go#L46) |
-| cmdAuth | struct_type |  | [50](../../magpie/internal/provider/commandcode_plan.go#L50) |
+| cmdAuth | type_spec |  | [50](../../magpie/internal/provider/commandcode_plan.go#L50) |
 | APIKey | field_declaration | cmdAuth | [51](../../magpie/internal/provider/commandcode_plan.go#L51) |
 | UserID | field_declaration | cmdAuth | [52](../../magpie/internal/provider/commandcode_plan.go#L52) |
 | UserName | field_declaration | cmdAuth | [53](../../magpie/internal/provider/commandcode_plan.go#L53) |
@@ -20,29 +20,33 @@ Source SHA-256: 7171581fe1e43fcc1e1b16441078a212e9d484491ecf5e9c4714b4cadd115ab1
 | cmdAuthPath | function_declaration |  | [59](../../magpie/internal/provider/commandcode_plan.go#L59) |
 | cmdOwn | function_declaration |  | [66](../../magpie/internal/provider/commandcode_plan.go#L66) |
 | cmdWho | function_declaration |  | [74](../../magpie/internal/provider/commandcode_plan.go#L74) |
-| cmdLogin | struct_type |  | [80](../../magpie/internal/provider/commandcode_plan.go#L80) |
+| cmdLogin | type_spec |  | [80](../../magpie/internal/provider/commandcode_plan.go#L80) |
 | auth | field_declaration | cmdLogin | [82](../../magpie/internal/provider/commandcode_plan.go#L82) |
 | cmdSaved | function_declaration |  | [85](../../magpie/internal/provider/commandcode_plan.go#L85) |
+| a | var_spec | cmdSaved | [86](../../magpie/internal/provider/commandcode_plan.go#L86) |
 | cmdLogins | function_declaration |  | [94](../../magpie/internal/provider/commandcode_plan.go#L94) |
-| cmdSeen | struct_type |  | [115](../../magpie/internal/provider/commandcode_plan.go#L115) |
+| out | var_spec | cmdLogins | [99](../../magpie/internal/provider/commandcode_plan.go#L99) |
+| cmdSeen | type_spec |  | [115](../../magpie/internal/provider/commandcode_plan.go#L115) |
 | plan | field_declaration | cmdSeen | [116](../../magpie/internal/provider/commandcode_plan.go#L116) |
 | at | field_declaration | cmdSeen | [117](../../magpie/internal/provider/commandcode_plan.go#L117) |
 | cmdPlans | var_spec |  | [125](../../magpie/internal/provider/commandcode_plan.go#L125) |
+| id | field_declaration | cmdPlans | [126](../../magpie/internal/provider/commandcode_plan.go#L126) |
+| monthly | field_declaration | cmdPlans | [127](../../magpie/internal/provider/commandcode_plan.go#L127) |
 | cmdPlanOf | function_declaration |  | [134](../../magpie/internal/provider/commandcode_plan.go#L134) |
 | cmdPlanName | function_declaration |  | [144](../../magpie/internal/provider/commandcode_plan.go#L144) |
-| cmdWindow | struct_type |  | [163](../../magpie/internal/provider/commandcode_plan.go#L163) |
+| cmdWindow | type_spec |  | [163](../../magpie/internal/provider/commandcode_plan.go#L163) |
 | Used | field_declaration | cmdWindow | [164](../../magpie/internal/provider/commandcode_plan.go#L164) |
 | Cap | field_declaration | cmdWindow | [165](../../magpie/internal/provider/commandcode_plan.go#L165) |
 | ResetAt | field_declaration | cmdWindow | [166](../../magpie/internal/provider/commandcode_plan.go#L166) |
-| cmdCredits | struct_type |  | [169](../../magpie/internal/provider/commandcode_plan.go#L169) |
+| cmdCredits | type_spec |  | [169](../../magpie/internal/provider/commandcode_plan.go#L169) |
 | Credits | field_declaration | cmdCredits | [170](../../magpie/internal/provider/commandcode_plan.go#L170) |
-| PlanID | field_declaration | cmdCredits | [171](../../magpie/internal/provider/commandcode_plan.go#L171) |
-| Monthly | field_declaration | cmdCredits | [172](../../magpie/internal/provider/commandcode_plan.go#L172) |
-| Purchased | field_declaration | cmdCredits | [173](../../magpie/internal/provider/commandcode_plan.go#L173) |
-| Free | field_declaration | cmdCredits | [174](../../magpie/internal/provider/commandcode_plan.go#L174) |
+| PlanID | field_declaration | cmdCredits::Credits | [171](../../magpie/internal/provider/commandcode_plan.go#L171) |
+| Monthly | field_declaration | cmdCredits::Credits | [172](../../magpie/internal/provider/commandcode_plan.go#L172) |
+| Purchased | field_declaration | cmdCredits::Credits | [173](../../magpie/internal/provider/commandcode_plan.go#L173) |
+| Free | field_declaration | cmdCredits::Credits | [174](../../magpie/internal/provider/commandcode_plan.go#L174) |
 | Windows | field_declaration | cmdCredits | [176](../../magpie/internal/provider/commandcode_plan.go#L176) |
-| FiveHour | field_declaration | cmdCredits | [177](../../magpie/internal/provider/commandcode_plan.go#L177) |
-| Weekly | field_declaration | cmdCredits | [178](../../magpie/internal/provider/commandcode_plan.go#L178) |
+| FiveHour | field_declaration | cmdCredits::Windows | [177](../../magpie/internal/provider/commandcode_plan.go#L177) |
+| Weekly | field_declaration | cmdCredits::Windows | [178](../../magpie/internal/provider/commandcode_plan.go#L178) |
 | cmdTime | function_declaration |  | [183](../../magpie/internal/provider/commandcode_plan.go#L183) |
 | cmdWindows | function_declaration |  | [202](../../magpie/internal/provider/commandcode_plan.go#L202) |
 | name | field_declaration | cmdWindows | [208](../../magpie/internal/provider/commandcode_plan.go#L208) |
@@ -52,13 +56,16 @@ Source SHA-256: 7171581fe1e43fcc1e1b16441078a212e9d484491ecf5e9c4714b4cadd115ab1
 | cmdQuotaOf | function_declaration |  | [251](../../magpie/internal/provider/commandcode_plan.go#L251) |
 | cmdNoPlan | const_spec |  | [272](../../magpie/internal/provider/commandcode_plan.go#L272) |
 | cmdSubscription | function_declaration |  | [277](../../magpie/internal/provider/commandcode_plan.go#L277) |
-| Success | field_declaration | cmdSubscription | [279](../../magpie/internal/provider/commandcode_plan.go#L279) |
-| Data | field_declaration | cmdSubscription | [280](../../magpie/internal/provider/commandcode_plan.go#L280) |
-| PlanID | field_declaration | cmdSubscription | [281](../../magpie/internal/provider/commandcode_plan.go#L281) |
-| Status | field_declaration | cmdSubscription | [282](../../magpie/internal/provider/commandcode_plan.go#L282) |
-| CurrentPeriodEnd | field_declaration | cmdSubscription | [283](../../magpie/internal/provider/commandcode_plan.go#L283) |
-| CancelAtEnd | field_declaration | cmdSubscription | [284](../../magpie/internal/provider/commandcode_plan.go#L284) |
+| r | var_spec | cmdSubscription | [278](../../magpie/internal/provider/commandcode_plan.go#L278) |
+| Success | field_declaration | cmdSubscription::r | [279](../../magpie/internal/provider/commandcode_plan.go#L279) |
+| Data | field_declaration | cmdSubscription::r | [280](../../magpie/internal/provider/commandcode_plan.go#L280) |
+| PlanID | field_declaration | cmdSubscription::r::Data | [281](../../magpie/internal/provider/commandcode_plan.go#L281) |
+| Status | field_declaration | cmdSubscription::r::Data | [282](../../magpie/internal/provider/commandcode_plan.go#L282) |
+| CurrentPeriodEnd | field_declaration | cmdSubscription::r::Data | [283](../../magpie/internal/provider/commandcode_plan.go#L283) |
+| CancelAtEnd | field_declaration | cmdSubscription::r::Data | [284](../../magpie/internal/provider/commandcode_plan.go#L284) |
 | cmdKeyWindows | function_declaration |  | [306](../../magpie/internal/provider/commandcode_plan.go#L306) |
+| c | var_spec | cmdKeyWindows | [311](../../magpie/internal/provider/commandcode_plan.go#L311) |
 | cmdKeyPlans | var_spec |  | [325](../../magpie/internal/provider/commandcode_plan.go#L325) |
+| m | field_declaration | cmdKeyPlans | [327](../../magpie/internal/provider/commandcode_plan.go#L327) |
 | cmdKeyPlanID | function_declaration |  | [330](../../magpie/internal/provider/commandcode_plan.go#L330) |
 | cmdKeysURL | var_spec |  | [350](../../magpie/internal/provider/commandcode_plan.go#L350) |

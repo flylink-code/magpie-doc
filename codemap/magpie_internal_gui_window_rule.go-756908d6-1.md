@@ -9,7 +9,6 @@ Source SHA-256: c7dcf5548b3ca0e4c9f272a5d16cfb64d6025055cb80633b59266848448f06db
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | windowW | const_spec |  | [10](../../magpie/internal/gui/window_rule.go#L10) |
-| windowH | const_spec |  | [10](../../magpie/internal/gui/window_rule.go#L10) |
 | openSize | function_declaration |  | [15](../../magpie/internal/gui/window_rule.go#L15) |
 | fitRoom | function_declaration |  | [27](../../magpie/internal/gui/window_rule.go#L27) |
 | settle | function_declaration |  | [47](../../magpie/internal/gui/window_rule.go#L47) |
