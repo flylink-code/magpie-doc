@@ -8,7 +8,7 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [plugins/magpie-agent-cursor-bridge/test/agent.test.js](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) | 33 | [1](plugins_magpie-agent-cursor-bridge_test_agent.test.js-a9d01baa-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/agent.test.js](../../plugins/magpie-agent-cursor-bridge/test/agent.test.js) | 35 | [1](plugins_magpie-agent-cursor-bridge_test_agent.test.js-a9d01baa-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/config.test.js](../../plugins/magpie-agent-cursor-bridge/test/config.test.js) | 3 | [1](plugins_magpie-agent-cursor-bridge_test_config.test.js-50ae5afb-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/install.test.js](../../plugins/magpie-agent-cursor-bridge/test/install.test.js) | 59 | [1](plugins_magpie-agent-cursor-bridge_test_install.test.js-d67a2ae9-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/lock.test.js](../../plugins/magpie-agent-cursor-bridge/test/lock.test.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_lock.test.js-26b0e50f-1.md) |

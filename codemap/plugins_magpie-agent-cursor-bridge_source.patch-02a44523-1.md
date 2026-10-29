@@ -4,7 +4,7 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/source.patch) · page 1/1
 
-Source SHA-256: 0086a92ae7e2af8056f8e89a2fad511dea954b30732943a1e1b0cb8f29c374cd
+Source SHA-256: c2d0673a35464f54d8fb0155f103d02364832893ac696dc323e18eb91e509866
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

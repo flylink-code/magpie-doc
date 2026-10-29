@@ -7,9 +7,9 @@ Read AGENTS.md → [hubs](codemap/hubs.md) → module → file/symbol page → s
 | Module | Files | Symbols | Map |
 | --- | ---: | ---: | --- |
 | bridge-lib | 8 | 170 | [open](codemap/bridge-lib.md) |
-| bridge-root | 7 | 118 | [open](codemap/bridge-root.md) |
+| bridge-root | 7 | 119 | [open](codemap/bridge-root.md) |
 | bridge-scripts | 3 | 0 | [open](codemap/bridge-scripts.md) |
-| bridge-test | 10 | 230 | [open](codemap/bridge-test.md) |
+| bridge-test | 10 | 232 | [open](codemap/bridge-test.md) |
 | magpie-agent | 122 | 3150 | [open](codemap/magpie-agent.md) |
 | magpie-agentplug | 1 | 65 | [open](codemap/magpie-agentplug.md) |
 | magpie-cli | 86 | 1471 | [open](codemap/magpie-cli.md) |
@@ -24,6 +24,6 @@ Read AGENTS.md → [hubs](codemap/hubs.md) → module → file/symbol page → s
 | magpie-usage | 45 | 1463 | [open](codemap/magpie-usage.md) |
 | tooling | 2 | 335 | [open](codemap/tooling.md) |
 
-Total: 1235 source files, 51903 extracted symbols, 10 parser diagnostics; import edges 65 resolved / 0 ambiguous / 111 unresolved.
+Total: 1235 source files, 51906 extracted symbols, 10 parser diagnostics; import edges 65 resolved / 0 ambiguous / 111 unresolved.
 
 Scope includes Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT use lexical navigation.

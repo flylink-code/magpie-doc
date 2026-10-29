@@ -9,7 +9,7 @@
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
 | [plugins/magpie-agent-cursor-bridge/agent.js](../../plugins/magpie-agent-cursor-bridge/agent.js) | 4 | [1](plugins_magpie-agent-cursor-bridge_agent.js-0486eb1d-1.md) |
-| [plugins/magpie-agent-cursor-bridge/bridge.js](../../plugins/magpie-agent-cursor-bridge/bridge.js) | 91 | [1](plugins_magpie-agent-cursor-bridge_bridge.js-4161016d-1.md) |
+| [plugins/magpie-agent-cursor-bridge/bridge.js](../../plugins/magpie-agent-cursor-bridge/bridge.js) | 92 | [1](plugins_magpie-agent-cursor-bridge_bridge.js-4161016d-1.md) |
 | [plugins/magpie-agent-cursor-bridge/install.js](../../plugins/magpie-agent-cursor-bridge/install.js) | 23 | [1](plugins_magpie-agent-cursor-bridge_install.js-c97e25ca-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.cmd](../../plugins/magpie-agent-cursor-bridge/setup.cmd) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.cmd-b0a20fde-1.md) |
 | [plugins/magpie-agent-cursor-bridge/setup.command](../../plugins/magpie-agent-cursor-bridge/setup.command) | 0 | [1](plugins_magpie-agent-cursor-bridge_setup.command-64ad0145-1.md) |

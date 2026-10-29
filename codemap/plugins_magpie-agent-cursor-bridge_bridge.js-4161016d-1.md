@@ -4,7 +4,7 @@
 
 [Module](bridge-root.md) · [Source](../../plugins/magpie-agent-cursor-bridge/bridge.js) · page 1/1
 
-Source SHA-256: 0ff478624cd57e67cb97b286b409f508074c8cacee871fb262ac3a1771bd65cb
+Source SHA-256: d61916fce69aefbff631135634daf589c598685b60812d93463a7b29c6f09814
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -89,13 +89,14 @@ Source SHA-256: 0ff478624cd57e67cb97b286b409f508074c8cacee871fb262ac3a1771bd65cb
 | c | VariableDeclaration |  | [281](../../plugins/magpie-agent-cursor-bridge/bridge.js#L281) |
 | changed | VariableDeclaration |  | [296](../../plugins/magpie-agent-cursor-bridge/bridge.js#L296) |
 | effective | VariableDeclaration |  | [298](../../plugins/magpie-agent-cursor-bridge/bridge.js#L298) |
-| e | VariableDeclaration |  | [317](../../plugins/magpie-agent-cursor-bridge/bridge.js#L317) |
-| e | VariableDeclaration |  | [321](../../plugins/magpie-agent-cursor-bridge/bridge.js#L321) |
-| watchOwner | VariableDeclaration |  | [336](../../plugins/magpie-agent-cursor-bridge/bridge.js#L336) |
-| ending | VariableDeclaration |  | [339](../../plugins/magpie-agent-cursor-bridge/bridge.js#L339) |
-| signals | VariableDeclaration |  | [340](../../plugins/magpie-agent-cursor-bridge/bridge.js#L340) |
-| signal | VariableDeclaration |  | [341](../../plugins/magpie-agent-cursor-bridge/bridge.js#L341) |
-| script | VariableDeclaration |  | [342](../../plugins/magpie-agent-cursor-bridge/bridge.js#L342) |
-| revive | VariableDeclaration |  | [344](../../plugins/magpie-agent-cursor-bridge/bridge.js#L344) |
-| recorded | VariableDeclaration |  | [347](../../plugins/magpie-agent-cursor-bridge/bridge.js#L347) |
-| child | VariableDeclaration |  | [354](../../plugins/magpie-agent-cursor-bridge/bridge.js#L354) |
+| error | VariableDeclaration |  | [301](../../plugins/magpie-agent-cursor-bridge/bridge.js#L301) |
+| e | VariableDeclaration |  | [332](../../plugins/magpie-agent-cursor-bridge/bridge.js#L332) |
+| e | VariableDeclaration |  | [336](../../plugins/magpie-agent-cursor-bridge/bridge.js#L336) |
+| watchOwner | VariableDeclaration |  | [351](../../plugins/magpie-agent-cursor-bridge/bridge.js#L351) |
+| ending | VariableDeclaration |  | [354](../../plugins/magpie-agent-cursor-bridge/bridge.js#L354) |
+| signals | VariableDeclaration |  | [355](../../plugins/magpie-agent-cursor-bridge/bridge.js#L355) |
+| signal | VariableDeclaration |  | [356](../../plugins/magpie-agent-cursor-bridge/bridge.js#L356) |
+| script | VariableDeclaration |  | [357](../../plugins/magpie-agent-cursor-bridge/bridge.js#L357) |
+| revive | VariableDeclaration |  | [359](../../plugins/magpie-agent-cursor-bridge/bridge.js#L359) |
+| recorded | VariableDeclaration |  | [362](../../plugins/magpie-agent-cursor-bridge/bridge.js#L362) |
+| child | VariableDeclaration |  | [369](../../plugins/magpie-agent-cursor-bridge/bridge.js#L369) |
