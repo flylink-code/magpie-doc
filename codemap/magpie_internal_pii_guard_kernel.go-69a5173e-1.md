@@ -4,7 +4,7 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/guard/kernel.go) · page 1/1
 
-Source SHA-256: e2b1f462535d0443f3e53bcd8e443a97a8dd98da1600531adf40086a69297a48
+Source SHA-256: 5445add085e027cf17fc9399505bef6c5140d564267cdb689021bfd9cfa5f4fb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -19,5 +19,11 @@ Source SHA-256: e2b1f462535d0443f3e53bcd8e443a97a8dd98da1600531adf40086a69297a48
 | mixFast | var_spec |  | [61](../../magpie/internal/pii/guard/kernel.go#L61) |
 | scores | function_declaration |  | [66](../../magpie/internal/pii/guard/kernel.go#L66) |
 | mix | function_declaration |  | [82](../../magpie/internal/pii/guard/kernel.go#L82) |
-| expf | function_declaration |  | [94](../../magpie/internal/pii/guard/kernel.go#L94) |
-| gelu | function_declaration |  | [112](../../magpie/internal/pii/guard/kernel.go#L112) |
+| maxOf | function_declaration |  | [98](../../magpie/internal/pii/guard/kernel.go#L98) |
+| rangeOf | function_declaration |  | [110](../../magpie/internal/pii/guard/kernel.go#L110) |
+| expf | function_declaration |  | [125](../../magpie/internal/pii/guard/kernel.go#L125) |
+| expSubFast | var_spec |  | [145](../../magpie/internal/pii/guard/kernel.go#L145) |
+| geluFast | var_spec |  | [146](../../magpie/internal/pii/guard/kernel.go#L146) |
+| expSub | function_declaration |  | [150](../../magpie/internal/pii/guard/kernel.go#L150) |
+| geluRow | function_declaration |  | [163](../../magpie/internal/pii/guard/kernel.go#L163) |
+| gelu | function_declaration |  | [177](../../magpie/internal/pii/guard/kernel.go#L177) |

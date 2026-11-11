@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/proc_windows.go) · page 1/1
 
-Source SHA-256: bd37ee1757daf52fe9dbb880ddffe16e46d1ad278b54db37e8b8a2d2f2e6a071
+Source SHA-256: 977126fdceb3f7874fbd4e4b2051e10ee5a629127289a5dd396b5bd469d84c9c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,4 +17,4 @@ Source SHA-256: bd37ee1757daf52fe9dbb880ddffe16e46d1ad278b54db37e8b8a2d2f2e6a071
 | alive | function_declaration |  | [21](../../magpie/internal/update/proc_windows.go#L21) |
 | detach | function_declaration |  | [34](../../magpie/internal/update/proc_windows.go#L34) |
 | Reexec | function_declaration |  | [44](../../magpie/internal/update/proc_windows.go#L44) |
-| trialStart | function_declaration |  | [58](../../magpie/internal/update/proc_windows.go#L58) |
+| trialStart | function_declaration |  | [55](../../magpie/internal/update/proc_windows.go#L55) |

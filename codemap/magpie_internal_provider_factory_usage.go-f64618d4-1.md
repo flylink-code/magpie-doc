@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/factory_usage.go) · page 1/1
 
-Source SHA-256: 96a513010201e2bf22d8b0fb417da49f9ddbb342b02115d79c726f44d5defec1
+Source SHA-256: 313f02a523bf77181ebb0f9009e2b6b1bd14f081878bbcb65124c20bf86b6ea2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -29,5 +29,5 @@ Source SHA-256: 96a513010201e2bf22d8b0fb417da49f9ddbb342b02115d79c726f44d5defec1
 | win | field_declaration | factoryQuota | [76](../../magpie/internal/provider/factory_usage.go#L76) |
 | name | field_declaration | factoryQuota | [77](../../magpie/internal/provider/factory_usage.go#L77) |
 | span | field_declaration | factoryQuota | [78](../../magpie/internal/provider/factory_usage.go#L78) |
-| FactoryAllowanceForTest | function_declaration |  | [102](../../magpie/internal/provider/factory_usage.go#L102) |
-| l | var_spec | FactoryAllowanceForTest | [103](../../magpie/internal/provider/factory_usage.go#L103) |
+| FactoryAllowanceForTest | function_declaration |  | [105](../../magpie/internal/provider/factory_usage.go#L105) |
+| l | var_spec | FactoryAllowanceForTest | [106](../../magpie/internal/provider/factory_usage.go#L106) |

@@ -4,34 +4,34 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/revision_cache.go) · page 1/1
 
-Source SHA-256: cd5e8336c81c50063d023f4c9492adde99dcf78a66a988fa8b1c97780d159453
+Source SHA-256: 7d98f5df951ead0b85f3c472e7bfbcf96c0a33055857353a415c49f5167744a3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| revisionIdle | const_spec |  | [12](../../magpie/internal/sessions/revision_cache.go#L12) |
-| revisionFiles | const_spec |  | [13](../../magpie/internal/sessions/revision_cache.go#L13) |
-| revisionEntries | const_spec |  | [14](../../magpie/internal/sessions/revision_cache.go#L14) |
-| revisionActiveFiles | const_spec |  | [24](../../magpie/internal/sessions/revision_cache.go#L24) |
-| revisionActiveEntries | const_spec |  | [25](../../magpie/internal/sessions/revision_cache.go#L25) |
-| revisionWorking | const_spec |  | [30](../../magpie/internal/sessions/revision_cache.go#L30) |
-| workingRevision | function_declaration |  | [32](../../magpie/internal/sessions/revision_cache.go#L32) |
-| recentRevision | function_declaration |  | [36](../../magpie/internal/sessions/revision_cache.go#L36) |
-| weight | method_declaration |  | [40](../../magpie/internal/sessions/revision_cache.go#L40) |
-| weight | method_declaration |  | [46](../../magpie/internal/sessions/revision_cache.go#L46) |
-| revisionWeight | method_declaration |  | [64](../../magpie/internal/sessions/revision_cache.go#L64) |
-| withoutRevisions | method_declaration |  | [65](../../magpie/internal/sessions/revision_cache.go#L65) |
-| revisionWeight | method_declaration |  | [73](../../magpie/internal/sessions/revision_cache.go#L73) |
-| withoutRevisions | method_declaration |  | [79](../../magpie/internal/sessions/revision_cache.go#L79) |
-| revisionCandidate | type_spec |  | [88](../../magpie/internal/sessions/revision_cache.go#L88) |
-| path | field_declaration | revisionCandidate | [89](../../magpie/internal/sessions/revision_cache.go#L89) |
-| mod | field_declaration | revisionCandidate | [90](../../magpie/internal/sessions/revision_cache.go#L90) |
-| weight | field_declaration | revisionCandidate | [91](../../magpie/internal/sessions/revision_cache.go#L91) |
-| size | field_declaration | revisionCandidate | [92](../../magpie/internal/sessions/revision_cache.go#L92) |
-| bounded | field_declaration | revisionCandidate | [93](../../magpie/internal/sessions/revision_cache.go#L93) |
-| eligible | method_declaration |  | [96](../../magpie/internal/sessions/revision_cache.go#L96) |
-| summaryRevisionWindows | function_declaration |  | [105](../../magpie/internal/sessions/revision_cache.go#L105) |
-| retainedRevisions | function_declaration |  | [125](../../magpie/internal/sessions/revision_cache.go#L125) |
-| trimSummaryRevisions | function_declaration |  | [164](../../magpie/internal/sessions/revision_cache.go#L164) |
-| candidates | var_spec | trimSummaryRevisions | [165](../../magpie/internal/sessions/revision_cache.go#L165) |
-| trimCallRevisions | function_declaration |  | [181](../../magpie/internal/sessions/revision_cache.go#L181) |
-| candidates | var_spec | trimCallRevisions | [182](../../magpie/internal/sessions/revision_cache.go#L182) |
+| revisionIdle | const_spec |  | [20](../../magpie/internal/sessions/revision_cache.go#L20) |
+| revisionFiles | const_spec |  | [21](../../magpie/internal/sessions/revision_cache.go#L21) |
+| revisionEntries | const_spec |  | [22](../../magpie/internal/sessions/revision_cache.go#L22) |
+| revisionActiveFiles | const_spec |  | [32](../../magpie/internal/sessions/revision_cache.go#L32) |
+| revisionActiveEntries | const_spec |  | [33](../../magpie/internal/sessions/revision_cache.go#L33) |
+| revisionWorking | const_spec |  | [38](../../magpie/internal/sessions/revision_cache.go#L38) |
+| workingRevision | function_declaration |  | [40](../../magpie/internal/sessions/revision_cache.go#L40) |
+| recentRevision | function_declaration |  | [44](../../magpie/internal/sessions/revision_cache.go#L44) |
+| weight | method_declaration |  | [48](../../magpie/internal/sessions/revision_cache.go#L48) |
+| weight | method_declaration |  | [54](../../magpie/internal/sessions/revision_cache.go#L54) |
+| revisionWeight | method_declaration |  | [72](../../magpie/internal/sessions/revision_cache.go#L72) |
+| withoutRevisions | method_declaration |  | [73](../../magpie/internal/sessions/revision_cache.go#L73) |
+| revisionWeight | method_declaration |  | [81](../../magpie/internal/sessions/revision_cache.go#L81) |
+| withoutRevisions | method_declaration |  | [87](../../magpie/internal/sessions/revision_cache.go#L87) |
+| revisionCandidate | type_spec |  | [96](../../magpie/internal/sessions/revision_cache.go#L96) |
+| path | field_declaration | revisionCandidate | [97](../../magpie/internal/sessions/revision_cache.go#L97) |
+| mod | field_declaration | revisionCandidate | [98](../../magpie/internal/sessions/revision_cache.go#L98) |
+| weight | field_declaration | revisionCandidate | [99](../../magpie/internal/sessions/revision_cache.go#L99) |
+| size | field_declaration | revisionCandidate | [100](../../magpie/internal/sessions/revision_cache.go#L100) |
+| bounded | field_declaration | revisionCandidate | [101](../../magpie/internal/sessions/revision_cache.go#L101) |
+| eligible | method_declaration |  | [104](../../magpie/internal/sessions/revision_cache.go#L104) |
+| summaryRevisionWindows | function_declaration |  | [113](../../magpie/internal/sessions/revision_cache.go#L113) |
+| retainedRevisions | function_declaration |  | [133](../../magpie/internal/sessions/revision_cache.go#L133) |
+| trimSummaryRevisions | function_declaration |  | [172](../../magpie/internal/sessions/revision_cache.go#L172) |
+| candidates | var_spec | trimSummaryRevisions | [173](../../magpie/internal/sessions/revision_cache.go#L173) |
+| trimCallRevisions | function_declaration |  | [189](../../magpie/internal/sessions/revision_cache.go#L189) |
+| candidates | var_spec | trimCallRevisions | [190](../../magpie/internal/sessions/revision_cache.go#L190) |

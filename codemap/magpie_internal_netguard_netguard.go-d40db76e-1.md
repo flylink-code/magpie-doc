@@ -4,15 +4,18 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/netguard/netguard.go) · page 1/1
 
-Source SHA-256: a8dbd56f9106cbdca29b4df6c139250bc8f401d5675d2752f85ea430ab6b6f12
+Source SHA-256: b97f913af9302af194aa8e1d97e59cd55243b08e8f7dca114994cb7f7ad3062a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | specialNets | var_spec |  | [12](../../magpie/internal/netguard/netguard.go#L12) |
 | out | var_spec | specialNets | [13](../../magpie/internal/netguard/netguard.go#L13) |
-| nat64 | var_spec |  | [36](../../magpie/internal/netguard/netguard.go#L36) |
-| fakeNet | var_spec |  | [37](../../magpie/internal/netguard/netguard.go#L37) |
-| loonNet | var_spec |  | [38](../../magpie/internal/netguard/netguard.go#L38) |
-| Public | function_declaration |  | [46](../../magpie/internal/netguard/netguard.go#L46) |
-| FakeIP | function_declaration |  | [78](../../magpie/internal/netguard/netguard.go#L78) |
-| LoonPaired | function_declaration |  | [85](../../magpie/internal/netguard/netguard.go#L85) |
+| nat64 | var_spec |  | [37](../../magpie/internal/netguard/netguard.go#L37) |
+| fakeNet | var_spec |  | [38](../../magpie/internal/netguard/netguard.go#L38) |
+| loonNet | var_spec |  | [39](../../magpie/internal/netguard/netguard.go#L39) |
+| ulaNet | var_spec |  | [40](../../magpie/internal/netguard/netguard.go#L40) |
+| bench6 | var_spec |  | [41](../../magpie/internal/netguard/netguard.go#L41) |
+| Public | function_declaration |  | [49](../../magpie/internal/netguard/netguard.go#L49) |
+| FakeIP | function_declaration |  | [81](../../magpie/internal/netguard/netguard.go#L81) |
+| LoonPaired | function_declaration |  | [88](../../magpie/internal/netguard/netguard.go#L88) |
+| FakePaired | function_declaration |  | [113](../../magpie/internal/netguard/netguard.go#L113) |

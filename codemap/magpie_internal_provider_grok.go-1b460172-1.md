@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/grok.go) · page 1/1
 
-Source SHA-256: 5270b23c35d60de2a134200d55fddcdc9ab4ca90f53b203ddb8505e007ff9069
+Source SHA-256: e21d2a243afe40b05bc0bb262be1fc2a13db4a62d02fc68b7c3fc1f88fc91531
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,39 +26,39 @@ Source SHA-256: 5270b23c35d60de2a134200d55fddcdc9ab4ca90f53b203ddb8505e007ff9069
 | all | var_spec | readGrokCredential | [142](../../magpie/internal/provider/grok.go#L142) |
 | grokTools | var_spec |  | [163](../../magpie/internal/provider/grok.go#L163) |
 | grokBody | function_declaration |  | [183](../../magpie/internal/provider/grok.go#L183) |
-| grokPluginBody | function_declaration |  | [190](../../magpie/internal/provider/grok.go#L190) |
-| grokShaped | function_declaration |  | [192](../../magpie/internal/provider/grok.go#L192) |
-| m | var_spec | grokShaped | [198](../../magpie/internal/provider/grok.go#L198) |
-| grokAgentMessage | function_declaration |  | [279](../../magpie/internal/provider/grok.go#L279) |
-| liteNamespace | const_spec |  | [325](../../magpie/internal/provider/grok.go#L325) |
-| FlatName | function_declaration |  | [331](../../magpie/internal/provider/grok.go#L331) |
-| grokFlat | function_declaration |  | [342](../../magpie/internal/provider/grok.go#L342) |
-| out | var_spec | grokFlat | [345](../../magpie/internal/provider/grok.go#L345) |
-| objectRoot | function_declaration |  | [364](../../magpie/internal/provider/grok.go#L364) |
-| ObjectRoot | function_declaration |  | [380](../../magpie/internal/provider/grok.go#L380) |
-| objectRootIn | function_declaration |  | [386](../../magpie/internal/provider/grok.go#L386) |
-| required | var_spec | objectRootIn | [397](../../magpie/internal/provider/grok.go#L397) |
-| branches | var_spec | objectRootIn | [417](../../magpie/internal/provider/grok.go#L417) |
-| common | var_spec | objectRootIn | [439](../../magpie/internal/provider/grok.go#L439) |
-| order | var_spec | objectRootIn | [442](../../magpie/internal/provider/grok.go#L442) |
-| merged | var_spec | objectRootIn | [479](../../magpie/internal/provider/grok.go#L479) |
-| nestedUnion | function_declaration |  | [501](../../magpie/internal/provider/grok.go#L501) |
-| appendDistinct | function_declaration |  | [511](../../magpie/internal/provider/grok.go#L511) |
-| grokRef | function_declaration |  | [523](../../magpie/internal/provider/grok.go#L523) |
-| flatCall | function_declaration |  | [540](../../magpie/internal/provider/grok.go#L540) |
-| agentProbe | function_declaration |  | [553](../../magpie/internal/provider/grok.go#L553) |
-| withProxy | function_declaration |  | [557](../../magpie/internal/provider/grok.go#L557) |
-| runCLISignIn | function_declaration |  | [569](../../magpie/internal/provider/grok.go#L569) |
-| partial | var_spec | runCLISignIn | [588](../../magpie/internal/provider/grok.go#L588) |
-| link | field_declaration | runCLISignIn::partial | [590](../../magpie/internal/provider/grok.go#L590) |
-| last | field_declaration | runCLISignIn::partial | [591](../../magpie/internal/provider/grok.go#L591) |
-| tail | var_spec | runCLISignIn | [611](../../magpie/internal/provider/grok.go#L611) |
-| user | var_spec | runCLISignIn | [657](../../magpie/internal/provider/grok.go#L657) |
-| ok | var_spec | runCLISignIn | [659](../../magpie/internal/provider/grok.go#L659) |
-| u | var_spec | runCLISignIn | [678](../../magpie/internal/provider/grok.go#L678) |
-| failedLine | var_spec |  | [705](../../magpie/internal/provider/grok.go#L705) |
-| linkWait | var_spec |  | [708](../../magpie/internal/provider/grok.go#L708) |
-| linkRest | var_spec |  | [712](../../magpie/internal/provider/grok.go#L712) |
-| queryRest | var_spec |  | [716](../../magpie/internal/provider/grok.go#L716) |
-| AgentUser | function_declaration |  | [720](../../magpie/internal/provider/grok.go#L720) |
-| GrokUser | function_declaration |  | [729](../../magpie/internal/provider/grok.go#L729) |
+| grokPluginBody | function_declaration |  | [193](../../magpie/internal/provider/grok.go#L193) |
+| grokShaped | function_declaration |  | [195](../../magpie/internal/provider/grok.go#L195) |
+| m | var_spec | grokShaped | [201](../../magpie/internal/provider/grok.go#L201) |
+| grokAgentMessage | function_declaration |  | [286](../../magpie/internal/provider/grok.go#L286) |
+| liteNamespace | const_spec |  | [332](../../magpie/internal/provider/grok.go#L332) |
+| FlatName | function_declaration |  | [338](../../magpie/internal/provider/grok.go#L338) |
+| grokFlat | function_declaration |  | [349](../../magpie/internal/provider/grok.go#L349) |
+| out | var_spec | grokFlat | [352](../../magpie/internal/provider/grok.go#L352) |
+| objectRoot | function_declaration |  | [371](../../magpie/internal/provider/grok.go#L371) |
+| ObjectRoot | function_declaration |  | [387](../../magpie/internal/provider/grok.go#L387) |
+| objectRootIn | function_declaration |  | [393](../../magpie/internal/provider/grok.go#L393) |
+| required | var_spec | objectRootIn | [404](../../magpie/internal/provider/grok.go#L404) |
+| branches | var_spec | objectRootIn | [424](../../magpie/internal/provider/grok.go#L424) |
+| common | var_spec | objectRootIn | [446](../../magpie/internal/provider/grok.go#L446) |
+| order | var_spec | objectRootIn | [449](../../magpie/internal/provider/grok.go#L449) |
+| merged | var_spec | objectRootIn | [486](../../magpie/internal/provider/grok.go#L486) |
+| nestedUnion | function_declaration |  | [508](../../magpie/internal/provider/grok.go#L508) |
+| appendDistinct | function_declaration |  | [518](../../magpie/internal/provider/grok.go#L518) |
+| grokRef | function_declaration |  | [530](../../magpie/internal/provider/grok.go#L530) |
+| flatCall | function_declaration |  | [547](../../magpie/internal/provider/grok.go#L547) |
+| agentProbe | function_declaration |  | [560](../../magpie/internal/provider/grok.go#L560) |
+| withProxy | function_declaration |  | [564](../../magpie/internal/provider/grok.go#L564) |
+| runCLISignIn | function_declaration |  | [576](../../magpie/internal/provider/grok.go#L576) |
+| partial | var_spec | runCLISignIn | [595](../../magpie/internal/provider/grok.go#L595) |
+| link | field_declaration | runCLISignIn::partial | [597](../../magpie/internal/provider/grok.go#L597) |
+| last | field_declaration | runCLISignIn::partial | [598](../../magpie/internal/provider/grok.go#L598) |
+| tail | var_spec | runCLISignIn | [618](../../magpie/internal/provider/grok.go#L618) |
+| user | var_spec | runCLISignIn | [664](../../magpie/internal/provider/grok.go#L664) |
+| ok | var_spec | runCLISignIn | [666](../../magpie/internal/provider/grok.go#L666) |
+| u | var_spec | runCLISignIn | [685](../../magpie/internal/provider/grok.go#L685) |
+| failedLine | var_spec |  | [712](../../magpie/internal/provider/grok.go#L712) |
+| linkWait | var_spec |  | [715](../../magpie/internal/provider/grok.go#L715) |
+| linkRest | var_spec |  | [719](../../magpie/internal/provider/grok.go#L719) |
+| queryRest | var_spec |  | [723](../../magpie/internal/provider/grok.go#L723) |
+| AgentUser | function_declaration |  | [727](../../magpie/internal/provider/grok.go#L727) |
+| GrokUser | function_declaration |  | [736](../../magpie/internal/provider/grok.go#L736) |

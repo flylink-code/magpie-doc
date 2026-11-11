@@ -4,39 +4,42 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/concurrency.go) · page 1/1
 
-Source SHA-256: f72fb7b458bbc289170984e66ed2efb9f67384b94e6aa577d3c8fc970ac7effd
+Source SHA-256: 5396d1b61b8c55ae2ee622a1004405e8d3c79b9ca7438fe4c599cf6b122611f6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Concurrency | method_declaration |  | [15](../../magpie/internal/provider/concurrency.go#L15) |
 | PluginConcurrency | method_declaration |  | [25](../../magpie/internal/provider/concurrency.go#L25) |
-| MaxLimit | const_spec |  | [44](../../magpie/internal/provider/concurrency.go#L44) |
-| MaxQueueLimit | const_spec |  | [45](../../magpie/internal/provider/concurrency.go#L45) |
-| MaxQueueWait | const_spec |  | [46](../../magpie/internal/provider/concurrency.go#L46) |
-| LaneLimit | method_declaration |  | [54](../../magpie/internal/provider/concurrency.go#L54) |
-| AccountConcurrencyOf | method_declaration |  | [79](../../magpie/internal/provider/concurrency.go#L79) |
-| AccountRefOf | method_declaration |  | [86](../../magpie/internal/provider/concurrency.go#L86) |
-| SetAccountConcurrency | function_declaration |  | [93](../../magpie/internal/provider/concurrency.go#L93) |
-| CheckQueue | function_declaration |  | [126](../../magpie/internal/provider/concurrency.go#L126) |
-| SetQueue | function_declaration |  | [138](../../magpie/internal/provider/concurrency.go#L138) |
-| ParseLimit | function_declaration |  | [152](../../magpie/internal/provider/concurrency.go#L152) |
-| normalAccountConcurrency | function_declaration |  | [169](../../magpie/internal/provider/concurrency.go#L169) |
-| out | var_spec | normalAccountConcurrency | [170](../../magpie/internal/provider/concurrency.go#L170) |
-| MaxRPMLimit | const_spec |  | [185](../../magpie/internal/provider/concurrency.go#L185) |
-| RPMLimit | method_declaration |  | [191](../../magpie/internal/provider/concurrency.go#L191) |
-| CheckRPM | function_declaration |  | [203](../../magpie/internal/provider/concurrency.go#L203) |
-| MaxQuotaRest | const_spec |  | [212](../../magpie/internal/provider/concurrency.go#L212) |
-| QuotaRestFor | method_declaration |  | [216](../../magpie/internal/provider/concurrency.go#L216) |
-| SetQuotaRest | function_declaration |  | [222](../../magpie/internal/provider/concurrency.go#L222) |
-| OwnQuotaRest | method_declaration |  | [240](../../magpie/internal/provider/concurrency.go#L240) |
-| ResetAt | type_spec |  | [249](../../magpie/internal/provider/concurrency.go#L249) |
-| Hour | field_declaration | ResetAt | [250](../../magpie/internal/provider/concurrency.go#L250) |
-| Loc | field_declaration | ResetAt | [251](../../magpie/internal/provider/concurrency.go#L251) |
-| ParseResetAt | function_declaration |  | [256](../../magpie/internal/provider/concurrency.go#L256) |
-| NextResetAt | function_declaration |  | [290](../../magpie/internal/provider/concurrency.go#L290) |
-| SetQuotaResetAt | function_declaration |  | [310](../../magpie/internal/provider/concurrency.go#L310) |
-| RestCapOff | const_spec |  | [333](../../magpie/internal/provider/concurrency.go#L333) |
-| NoFailRest | method_declaration |  | [337](../../magpie/internal/provider/concurrency.go#L337) |
-| RestCapOr | method_declaration |  | [342](../../magpie/internal/provider/concurrency.go#L342) |
-| SetRestCap | function_declaration |  | [352](../../magpie/internal/provider/concurrency.go#L352) |
-| SetRPM | function_declaration |  | [366](../../magpie/internal/provider/concurrency.go#L366) |
+| AtOnce | method_declaration |  | [41](../../magpie/internal/provider/concurrency.go#L41) |
+| PluginAtOnce | method_declaration |  | [57](../../magpie/internal/provider/concurrency.go#L57) |
+| SetAtOnce | function_declaration |  | [69](../../magpie/internal/provider/concurrency.go#L69) |
+| MaxLimit | const_spec |  | [90](../../magpie/internal/provider/concurrency.go#L90) |
+| MaxQueueLimit | const_spec |  | [91](../../magpie/internal/provider/concurrency.go#L91) |
+| MaxQueueWait | const_spec |  | [92](../../magpie/internal/provider/concurrency.go#L92) |
+| LaneLimit | method_declaration |  | [100](../../magpie/internal/provider/concurrency.go#L100) |
+| AccountConcurrencyOf | method_declaration |  | [125](../../magpie/internal/provider/concurrency.go#L125) |
+| AccountRefOf | method_declaration |  | [132](../../magpie/internal/provider/concurrency.go#L132) |
+| SetAccountConcurrency | function_declaration |  | [139](../../magpie/internal/provider/concurrency.go#L139) |
+| CheckQueue | function_declaration |  | [172](../../magpie/internal/provider/concurrency.go#L172) |
+| SetQueue | function_declaration |  | [184](../../magpie/internal/provider/concurrency.go#L184) |
+| ParseLimit | function_declaration |  | [198](../../magpie/internal/provider/concurrency.go#L198) |
+| normalAccountConcurrency | function_declaration |  | [215](../../magpie/internal/provider/concurrency.go#L215) |
+| out | var_spec | normalAccountConcurrency | [216](../../magpie/internal/provider/concurrency.go#L216) |
+| MaxRPMLimit | const_spec |  | [231](../../magpie/internal/provider/concurrency.go#L231) |
+| RPMLimit | method_declaration |  | [237](../../magpie/internal/provider/concurrency.go#L237) |
+| CheckRPM | function_declaration |  | [249](../../magpie/internal/provider/concurrency.go#L249) |
+| MaxQuotaRest | const_spec |  | [258](../../magpie/internal/provider/concurrency.go#L258) |
+| QuotaRestFor | method_declaration |  | [262](../../magpie/internal/provider/concurrency.go#L262) |
+| SetQuotaRest | function_declaration |  | [268](../../magpie/internal/provider/concurrency.go#L268) |
+| OwnQuotaRest | method_declaration |  | [286](../../magpie/internal/provider/concurrency.go#L286) |
+| ResetAt | type_spec |  | [295](../../magpie/internal/provider/concurrency.go#L295) |
+| Hour | field_declaration | ResetAt | [296](../../magpie/internal/provider/concurrency.go#L296) |
+| Loc | field_declaration | ResetAt | [297](../../magpie/internal/provider/concurrency.go#L297) |
+| ParseResetAt | function_declaration |  | [302](../../magpie/internal/provider/concurrency.go#L302) |
+| NextResetAt | function_declaration |  | [336](../../magpie/internal/provider/concurrency.go#L336) |
+| SetQuotaResetAt | function_declaration |  | [356](../../magpie/internal/provider/concurrency.go#L356) |
+| RestCapOff | const_spec |  | [379](../../magpie/internal/provider/concurrency.go#L379) |
+| NoFailRest | method_declaration |  | [383](../../magpie/internal/provider/concurrency.go#L383) |
+| RestCapOr | method_declaration |  | [388](../../magpie/internal/provider/concurrency.go#L388) |
+| SetRestCap | function_declaration |  | [398](../../magpie/internal/provider/concurrency.go#L398) |
+| SetRPM | function_declaration |  | [412](../../magpie/internal/provider/concurrency.go#L412) |

@@ -4,15 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_dropped.go) · page 1/1
 
-Source SHA-256: 987923678441a90161544a3ca7ea9a5ca9e5d1badee6a9e61d4a505a762a3045
+Source SHA-256: fc12c074921d7c65ee04527af433cc4c4f69e25aa90e316704328d0aa92463b1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| edgeReset | var_spec |  | [15](../../magpie/internal/gateway/codex_dropped.go#L15) |
-| edgeUnbuffered | var_spec |  | [25](../../magpie/internal/gateway/codex_dropped.go#L25) |
-| codexDropBody | const_spec |  | [34](../../magpie/internal/gateway/codex_dropped.go#L34) |
-| codexResetSaid | const_spec |  | [40](../../magpie/internal/gateway/codex_dropped.go#L40) |
-| codexDropped | function_declaration |  | [50](../../magpie/internal/gateway/codex_dropped.go#L50) |
-| edgeMayDrop | function_declaration |  | [92](../../magpie/internal/gateway/codex_dropped.go#L92) |
-| edgeSaidDrop | function_declaration |  | [98](../../magpie/internal/gateway/codex_dropped.go#L98) |
-| codexReset | function_declaration |  | [107](../../magpie/internal/gateway/codex_dropped.go#L107) |
+| edgeReset | var_spec |  | [16](../../magpie/internal/gateway/codex_dropped.go#L16) |
+| edgeUnbuffered | var_spec |  | [26](../../magpie/internal/gateway/codex_dropped.go#L26) |
+| codexDropBody | const_spec |  | [35](../../magpie/internal/gateway/codex_dropped.go#L35) |
+| codexResetSaid | const_spec |  | [41](../../magpie/internal/gateway/codex_dropped.go#L41) |
+| codexDropped | function_declaration |  | [51](../../magpie/internal/gateway/codex_dropped.go#L51) |
+| edgeMayDrop | function_declaration |  | [93](../../magpie/internal/gateway/codex_dropped.go#L93) |
+| edgeSaidDrop | function_declaration |  | [99](../../magpie/internal/gateway/codex_dropped.go#L99) |
+| codexReset | function_declaration |  | [108](../../magpie/internal/gateway/codex_dropped.go#L108) |

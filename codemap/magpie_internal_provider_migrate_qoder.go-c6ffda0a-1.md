@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate_qoder.go) · page 1/1
 
-Source SHA-256: 8057e84264f63d8d8628df0c0922118afe016e7e66c0f8a41200dfde06db028b
+Source SHA-256: 531c1c2147e89e14e68839fa95555ea52c40c98cfe5e0af86408bd0738a2c9da
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

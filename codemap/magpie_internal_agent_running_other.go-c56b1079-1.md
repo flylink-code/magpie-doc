@@ -4,9 +4,9 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/running_other.go) · page 1/1
 
-Source SHA-256: 2a8df6ca4db5ed14b3b126c6a2ed5e2dcbb0ac07000a56a3cd336e7133ce2f73
+Source SHA-256: 0e9417b93980c92ffede3b8bcb794c521cb025bd5493608dff5ac921d5ac6e67
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| listRunning | function_declaration |  | [13](../../magpie/internal/agent/running_other.go#L13) |
-| ps | var_spec | listRunning | [20](../../magpie/internal/agent/running_other.go#L20) |
+| listRunningNow | function_declaration |  | [13](../../magpie/internal/agent/running_other.go#L13) |
+| ps | var_spec | listRunningNow | [20](../../magpie/internal/agent/running_other.go#L20) |

@@ -4,17 +4,18 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/observe.go) · page 1/1
 
-Source SHA-256: 0ee8b9103ae3393d297013564a48ad259c8a589aca31837c48f087fb2bfbaa43
+Source SHA-256: f96fa23bfe13b0b3cc3997183fcb580b3a7cfea29fda394c62ccc460c934c923
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | observed | type_spec |  | [14](../../magpie/internal/gateway/observe.go#L14) |
 | watches | field_declaration | observed | [15](../../magpie/internal/gateway/observe.go#L15) |
 | routeID | field_declaration | observed | [16](../../magpie/internal/gateway/observe.go#L16) |
-| observedKey | type_spec |  | [19](../../magpie/internal/gateway/observe.go#L19) |
-| observeRequest | function_declaration |  | [23](../../magpie/internal/gateway/observe.go#L23) |
-| observedSession | function_declaration |  | [44](../../magpie/internal/gateway/observe.go#L44) |
-| observedKind | function_declaration |  | [54](../../magpie/internal/gateway/observe.go#L54) |
-| end | method_declaration |  | [61](../../magpie/internal/gateway/observe.go#L61) |
-| attempt | method_declaration |  | [73](../../magpie/internal/gateway/observe.go#L73) |
-| body | var_spec | attempt | [90](../../magpie/internal/gateway/observe.go#L90) |
+| keyName | field_declaration | observed | [20](../../magpie/internal/gateway/observe.go#L20) |
+| observedKey | type_spec |  | [23](../../magpie/internal/gateway/observe.go#L23) |
+| observeRequest | function_declaration |  | [27](../../magpie/internal/gateway/observe.go#L27) |
+| observedSession | function_declaration |  | [50](../../magpie/internal/gateway/observe.go#L50) |
+| observedKind | function_declaration |  | [60](../../magpie/internal/gateway/observe.go#L60) |
+| end | method_declaration |  | [67](../../magpie/internal/gateway/observe.go#L67) |
+| attempt | method_declaration |  | [80](../../magpie/internal/gateway/observe.go#L80) |
+| body | var_spec | attempt | [98](../../magpie/internal/gateway/observe.go#L98) |

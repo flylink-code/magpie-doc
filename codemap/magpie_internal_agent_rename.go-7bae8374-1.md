@@ -4,16 +4,18 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/rename.go) · page 1/1
 
-Source SHA-256: 595630a83e7c71d937d2223589f216e4f6bbc43e2d23f5159ceb43fd8ae744e2
+Source SHA-256: d9d825504b5d18b30b961a40276843d9eed743b72c7c619a37f9bd8611f96b66
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | RenameProvider | function_declaration |  | [14](../../magpie/internal/agent/rename.go#L14) |
-| move | type_spec | RenameProvider | [17](../../magpie/internal/agent/rename.go#L17) |
-| a | field_declaration | RenameProvider::move | [18](../../magpie/internal/agent/rename.go#L18) |
-| key | field_declaration | RenameProvider::move | [19](../../magpie/internal/agent/rename.go#L19) |
-| moves | var_spec | RenameProvider | [23](../../magpie/internal/agent/rename.go#L23) |
-| moved | var_spec | RenameProvider | [61](../../magpie/internal/agent/rename.go#L61) |
-| MoveOffAccountIDs | function_declaration |  | [94](../../magpie/internal/agent/rename.go#L94) |
-| renameRef | function_declaration |  | [103](../../magpie/internal/agent/rename.go#L103) |
-| renameRefList | function_declaration |  | [115](../../magpie/internal/agent/rename.go#L115) |
+| RenameGroup | function_declaration |  | [49](../../magpie/internal/agent/rename.go#L49) |
+| renameRefs | function_declaration |  | [70](../../magpie/internal/agent/rename.go#L70) |
+| move | type_spec | renameRefs | [71](../../magpie/internal/agent/rename.go#L71) |
+| a | field_declaration | renameRefs::move | [72](../../magpie/internal/agent/rename.go#L72) |
+| key | field_declaration | renameRefs::move | [73](../../magpie/internal/agent/rename.go#L73) |
+| moves | var_spec | renameRefs | [75](../../magpie/internal/agent/rename.go#L75) |
+| moved | var_spec | renameRefs | [128](../../magpie/internal/agent/rename.go#L128) |
+| MoveOffAccountIDs | function_declaration |  | [146](../../magpie/internal/agent/rename.go#L146) |
+| renameRef | function_declaration |  | [155](../../magpie/internal/agent/rename.go#L155) |
+| renameRefList | function_declaration |  | [167](../../magpie/internal/agent/rename.go#L167) |

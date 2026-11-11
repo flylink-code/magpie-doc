@@ -4,90 +4,102 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/textcalls.go) · page 1/1
 
-Source SHA-256: 43e2981bf8305494d51a8f771e87cb7fcdde865bb22a817bc4b80ed296066137
+Source SHA-256: 9a58fb88b24ed29361e9e043cf9c58610561030c95535c50dd938217a9dffa49
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| textCallMarks | var_spec |  | [29](../../magpie/internal/gateway/textcalls.go#L29) |
-| dsmlMark | function_declaration |  | [41](../../magpie/internal/gateway/textcalls.go#L41) |
-| writtenCall | type_spec |  | [99](../../magpie/internal/gateway/textcalls.go#L99) |
-| Name | field_declaration | writtenCall | [100](../../magpie/internal/gateway/textcalls.go#L100) |
-| Args | field_declaration | writtenCall | [101](../../magpie/internal/gateway/textcalls.go#L101) |
-| dsmlTag | var_spec |  | [105](../../magpie/internal/gateway/textcalls.go#L105) |
-| dsmlInvoke | var_spec |  | [106](../../magpie/internal/gateway/textcalls.go#L106) |
-| dsmlParam | var_spec |  | [107](../../magpie/internal/gateway/textcalls.go#L107) |
-| dsmlClose | var_spec |  | [108](../../magpie/internal/gateway/textcalls.go#L108) |
-| dsmlString | var_spec |  | [109](../../magpie/internal/gateway/textcalls.go#L109) |
-| textCallJunk | var_spec |  | [112](../../magpie/internal/gateway/textcalls.go#L112) |
-| textCallNames | function_declaration |  | [116](../../magpie/internal/gateway/textcalls.go#L116) |
-| chatToolNames | function_declaration |  | [130](../../magpie/internal/gateway/textcalls.go#L130) |
-| q | var_spec | chatToolNames | [131](../../magpie/internal/gateway/textcalls.go#L131) |
-| Tools | field_declaration | chatToolNames::q | [132](../../magpie/internal/gateway/textcalls.go#L132) |
-| Function | field_declaration | chatToolNames::q::Tools | [133](../../magpie/internal/gateway/textcalls.go#L133) |
-| Name | field_declaration | chatToolNames::q::Tools::Function | [134](../../magpie/internal/gateway/textcalls.go#L134) |
-| Name | field_declaration | chatToolNames::q::Tools | [136](../../magpie/internal/gateway/textcalls.go#L136) |
-| textCallAt | function_declaration |  | [159](../../magpie/internal/gateway/textcalls.go#L159) |
-| parseTextCalls | function_declaration |  | [198](../../magpie/internal/gateway/textcalls.go#L198) |
-| left | var_spec | parseTextCalls | [199](../../magpie/internal/gateway/textcalls.go#L199) |
-| tagsOnly | function_declaration |  | [250](../../magpie/internal/gateway/textcalls.go#L250) |
-| spaceBack | function_declaration |  | [258](../../magpie/internal/gateway/textcalls.go#L258) |
-| settled | function_declaration |  | [271](../../magpie/internal/gateway/textcalls.go#L271) |
-| cutMark | function_declaration |  | [283](../../magpie/internal/gateway/textcalls.go#L283) |
-| hermesCall | function_declaration |  | [304](../../magpie/internal/gateway/textcalls.go#L304) |
-| v | var_spec | hermesCall | [316](../../magpie/internal/gateway/textcalls.go#L316) |
-| Name | field_declaration | hermesCall::v | [317](../../magpie/internal/gateway/textcalls.go#L317) |
-| Arguments | field_declaration | hermesCall::v | [318](../../magpie/internal/gateway/textcalls.go#L318) |
-| Parameters | field_declaration | hermesCall::v | [319](../../magpie/internal/gateway/textcalls.go#L319) |
-| Input | field_declaration | hermesCall::v | [320](../../magpie/internal/gateway/textcalls.go#L320) |
-| paramHead | var_spec |  | [357](../../magpie/internal/gateway/textcalls.go#L357) |
-| paramOpen | var_spec |  | [358](../../magpie/internal/gateway/textcalls.go#L358) |
-| paramCall | function_declaration |  | [369](../../magpie/internal/gateway/textcalls.go#L369) |
-| key | var_spec | paramCall | [381](../../magpie/internal/gateway/textcalls.go#L381) |
-| v | var_spec | paramCall | [399](../../magpie/internal/gateway/textcalls.go#L399) |
-| glmPair | var_spec |  | [421](../../magpie/internal/gateway/textcalls.go#L421) |
-| glmName | var_spec |  | [422](../../magpie/internal/gateway/textcalls.go#L422) |
-| glmCall | function_declaration |  | [431](../../magpie/internal/gateway/textcalls.go#L431) |
-| v | var_spec | glmCall | [444](../../magpie/internal/gateway/textcalls.go#L444) |
-| dsmlCall | function_declaration |  | [469](../../magpie/internal/gateway/textcalls.go#L469) |
-| v | var_spec | dsmlCall | [487](../../magpie/internal/gateway/textcalls.go#L487) |
-| callArgs | function_declaration |  | [503](../../magpie/internal/gateway/textcalls.go#L503) |
-| s | var_spec | callArgs | [509](../../magpie/internal/gateway/textcalls.go#L509) |
-| m | var_spec | callArgs | [516](../../magpie/internal/gateway/textcalls.go#L516) |
-| escapeRawControls | function_declaration |  | [527](../../magpie/internal/gateway/textcalls.go#L527) |
-| b | var_spec | escapeRawControls | [528](../../magpie/internal/gateway/textcalls.go#L528) |
-| grew | var_spec | escapeRawControls | [529](../../magpie/internal/gateway/textcalls.go#L529) |
-| textCallSeq | var_spec |  | [557](../../magpie/internal/gateway/textcalls.go#L557) |
-| textCallID | function_declaration |  | [559](../../magpie/internal/gateway/textcalls.go#L559) |
-| textCallSee | type_spec |  | [564](../../magpie/internal/gateway/textcalls.go#L564) |
-| names | field_declaration | textCallSee | [565](../../magpie/internal/gateway/textcalls.go#L565) |
-| see | field_declaration | textCallSee | [566](../../magpie/internal/gateway/textcalls.go#L566) |
-| pending | field_declaration | textCallSee | [567](../../magpie/internal/gateway/textcalls.go#L567) |
-| held | field_declaration | textCallSee | [568](../../magpie/internal/gateway/textcalls.go#L568) |
-| holding | field_declaration | textCallSee | [569](../../magpie/internal/gateway/textcalls.go#L569) |
-| native | field_declaration | textCallSee | [573](../../magpie/internal/gateway/textcalls.go#L573) |
-| event | method_declaration |  | [576](../../magpie/internal/gateway/textcalls.go#L576) |
-| keepSpace | method_declaration |  | [628](../../magpie/internal/gateway/textcalls.go#L628) |
-| settle | method_declaration |  | [635](../../magpie/internal/gateway/textcalls.go#L635) |
-| release | method_declaration |  | [641](../../magpie/internal/gateway/textcalls.go#L641) |
-| textCallTidy | type_spec |  | [649](../../magpie/internal/gateway/textcalls.go#L649) |
-| names | field_declaration | textCallTidy | [650](../../magpie/internal/gateway/textcalls.go#L650) |
-| buf | field_declaration | textCallTidy | [651](../../magpie/internal/gateway/textcalls.go#L651) |
-| pending | field_declaration | textCallTidy | [652](../../magpie/internal/gateway/textcalls.go#L652) |
-| held | field_declaration | textCallTidy | [653](../../magpie/internal/gateway/textcalls.go#L653) |
-| holding | field_declaration | textCallTidy | [654](../../magpie/internal/gateway/textcalls.go#L654) |
-| native | field_declaration | textCallTidy | [655](../../magpie/internal/gateway/textcalls.go#L655) |
-| last | field_declaration | textCallTidy | [656](../../magpie/internal/gateway/textcalls.go#L656) |
-| write | method_declaration |  | [659](../../magpie/internal/gateway/textcalls.go#L659) |
-| out | var_spec | write | [665](../../magpie/internal/gateway/textcalls.go#L665) |
-| flush | method_declaration |  | [673](../../magpie/internal/gateway/textcalls.go#L673) |
-| out | var_spec | flush | [674](../../magpie/internal/gateway/textcalls.go#L674) |
-| chunk | method_declaration |  | [683](../../magpie/internal/gateway/textcalls.go#L683) |
-| settle | method_declaration |  | [697](../../magpie/internal/gateway/textcalls.go#L697) |
-| release | method_declaration |  | [702](../../magpie/internal/gateway/textcalls.go#L702) |
-| line | method_declaration |  | [711](../../magpie/internal/gateway/textcalls.go#L711) |
-| ev | var_spec | line | [723](../../magpie/internal/gateway/textcalls.go#L723) |
-| pre | var_spec | line | [737](../../magpie/internal/gateway/textcalls.go#L737) |
-| mayWriteCalls | function_declaration |  | [798](../../magpie/internal/gateway/textcalls.go#L798) |
-| wholeTextCalls | function_declaration |  | [809](../../magpie/internal/gateway/textcalls.go#L809) |
-| native | var_spec | wholeTextCalls | [813](../../magpie/internal/gateway/textcalls.go#L813) |
-| s | var_spec | wholeTextCalls | [815](../../magpie/internal/gateway/textcalls.go#L815) |
+| textCallMarks | var_spec |  | [37](../../magpie/internal/gateway/textcalls.go#L37) |
+| dsmlMark | function_declaration |  | [49](../../magpie/internal/gateway/textcalls.go#L49) |
+| writtenCall | type_spec |  | [107](../../magpie/internal/gateway/textcalls.go#L107) |
+| Name | field_declaration | writtenCall | [108](../../magpie/internal/gateway/textcalls.go#L108) |
+| Args | field_declaration | writtenCall | [109](../../magpie/internal/gateway/textcalls.go#L109) |
+| dsmlTag | var_spec |  | [113](../../magpie/internal/gateway/textcalls.go#L113) |
+| invokePre | var_spec |  | [117](../../magpie/internal/gateway/textcalls.go#L117) |
+| dsmlInvoke | var_spec |  | [118](../../magpie/internal/gateway/textcalls.go#L118) |
+| dsmlParam | var_spec |  | [119](../../magpie/internal/gateway/textcalls.go#L119) |
+| dsmlClose | var_spec |  | [120](../../magpie/internal/gateway/textcalls.go#L120) |
+| dsmlString | var_spec |  | [121](../../magpie/internal/gateway/textcalls.go#L121) |
+| textCallJunk | var_spec |  | [125](../../magpie/internal/gateway/textcalls.go#L125) |
+| textCallNames | function_declaration |  | [129](../../magpie/internal/gateway/textcalls.go#L129) |
+| dropPseudoCalls | function_declaration |  | [144](../../magpie/internal/gateway/textcalls.go#L144) |
+| out | var_spec | dropPseudoCalls | [149](../../magpie/internal/gateway/textcalls.go#L149) |
+| withoutPseudoCall | function_declaration |  | [175](../../magpie/internal/gateway/textcalls.go#L175) |
+| b | var_spec | withoutPseudoCall | [195](../../magpie/internal/gateway/textcalls.go#L195) |
+| historyCall | function_declaration |  | [227](../../magpie/internal/gateway/textcalls.go#L227) |
+| callResult | function_declaration |  | [247](../../magpie/internal/gateway/textcalls.go#L247) |
+| a | var_spec | callResult | [248](../../magpie/internal/gateway/textcalls.go#L248) |
+| s | var_spec | callResult | [256](../../magpie/internal/gateway/textcalls.go#L256) |
+| saysAgain | function_declaration |  | [265](../../magpie/internal/gateway/textcalls.go#L265) |
+| plainWords | function_declaration |  | [274](../../magpie/internal/gateway/textcalls.go#L274) |
+| b | var_spec | plainWords | [275](../../magpie/internal/gateway/textcalls.go#L275) |
+| chatToolNames | function_declaration |  | [285](../../magpie/internal/gateway/textcalls.go#L285) |
+| q | var_spec | chatToolNames | [286](../../magpie/internal/gateway/textcalls.go#L286) |
+| Tools | field_declaration | chatToolNames::q | [287](../../magpie/internal/gateway/textcalls.go#L287) |
+| Function | field_declaration | chatToolNames::q::Tools | [288](../../magpie/internal/gateway/textcalls.go#L288) |
+| Name | field_declaration | chatToolNames::q::Tools::Function | [289](../../magpie/internal/gateway/textcalls.go#L289) |
+| Name | field_declaration | chatToolNames::q::Tools | [291](../../magpie/internal/gateway/textcalls.go#L291) |
+| textCallAt | function_declaration |  | [314](../../magpie/internal/gateway/textcalls.go#L314) |
+| parseTextCalls | function_declaration |  | [360](../../magpie/internal/gateway/textcalls.go#L360) |
+| left | var_spec | parseTextCalls | [361](../../magpie/internal/gateway/textcalls.go#L361) |
+| tagsOnly | function_declaration |  | [430](../../magpie/internal/gateway/textcalls.go#L430) |
+| spaceBack | function_declaration |  | [438](../../magpie/internal/gateway/textcalls.go#L438) |
+| settled | function_declaration |  | [451](../../magpie/internal/gateway/textcalls.go#L451) |
+| cutMark | function_declaration |  | [463](../../magpie/internal/gateway/textcalls.go#L463) |
+| hermesCall | function_declaration |  | [484](../../magpie/internal/gateway/textcalls.go#L484) |
+| v | var_spec | hermesCall | [496](../../magpie/internal/gateway/textcalls.go#L496) |
+| Name | field_declaration | hermesCall::v | [497](../../magpie/internal/gateway/textcalls.go#L497) |
+| Arguments | field_declaration | hermesCall::v | [498](../../magpie/internal/gateway/textcalls.go#L498) |
+| Parameters | field_declaration | hermesCall::v | [499](../../magpie/internal/gateway/textcalls.go#L499) |
+| Input | field_declaration | hermesCall::v | [500](../../magpie/internal/gateway/textcalls.go#L500) |
+| paramHead | var_spec |  | [537](../../magpie/internal/gateway/textcalls.go#L537) |
+| paramOpen | var_spec |  | [538](../../magpie/internal/gateway/textcalls.go#L538) |
+| paramCall | function_declaration |  | [549](../../magpie/internal/gateway/textcalls.go#L549) |
+| key | var_spec | paramCall | [561](../../magpie/internal/gateway/textcalls.go#L561) |
+| v | var_spec | paramCall | [579](../../magpie/internal/gateway/textcalls.go#L579) |
+| glmPair | var_spec |  | [601](../../magpie/internal/gateway/textcalls.go#L601) |
+| glmName | var_spec |  | [602](../../magpie/internal/gateway/textcalls.go#L602) |
+| glmCall | function_declaration |  | [611](../../magpie/internal/gateway/textcalls.go#L611) |
+| v | var_spec | glmCall | [624](../../magpie/internal/gateway/textcalls.go#L624) |
+| dsmlCall | function_declaration |  | [649](../../magpie/internal/gateway/textcalls.go#L649) |
+| v | var_spec | dsmlCall | [667](../../magpie/internal/gateway/textcalls.go#L667) |
+| callArgs | function_declaration |  | [683](../../magpie/internal/gateway/textcalls.go#L683) |
+| s | var_spec | callArgs | [689](../../magpie/internal/gateway/textcalls.go#L689) |
+| m | var_spec | callArgs | [696](../../magpie/internal/gateway/textcalls.go#L696) |
+| escapeRawControls | function_declaration |  | [707](../../magpie/internal/gateway/textcalls.go#L707) |
+| b | var_spec | escapeRawControls | [708](../../magpie/internal/gateway/textcalls.go#L708) |
+| grew | var_spec | escapeRawControls | [709](../../magpie/internal/gateway/textcalls.go#L709) |
+| textCallSeq | var_spec |  | [737](../../magpie/internal/gateway/textcalls.go#L737) |
+| textCallID | function_declaration |  | [739](../../magpie/internal/gateway/textcalls.go#L739) |
+| textCallSee | type_spec |  | [744](../../magpie/internal/gateway/textcalls.go#L744) |
+| names | field_declaration | textCallSee | [745](../../magpie/internal/gateway/textcalls.go#L745) |
+| see | field_declaration | textCallSee | [746](../../magpie/internal/gateway/textcalls.go#L746) |
+| pending | field_declaration | textCallSee | [747](../../magpie/internal/gateway/textcalls.go#L747) |
+| held | field_declaration | textCallSee | [748](../../magpie/internal/gateway/textcalls.go#L748) |
+| holding | field_declaration | textCallSee | [749](../../magpie/internal/gateway/textcalls.go#L749) |
+| native | field_declaration | textCallSee | [753](../../magpie/internal/gateway/textcalls.go#L753) |
+| event | method_declaration |  | [756](../../magpie/internal/gateway/textcalls.go#L756) |
+| keepSpace | method_declaration |  | [808](../../magpie/internal/gateway/textcalls.go#L808) |
+| settle | method_declaration |  | [815](../../magpie/internal/gateway/textcalls.go#L815) |
+| release | method_declaration |  | [821](../../magpie/internal/gateway/textcalls.go#L821) |
+| textCallTidy | type_spec |  | [829](../../magpie/internal/gateway/textcalls.go#L829) |
+| names | field_declaration | textCallTidy | [830](../../magpie/internal/gateway/textcalls.go#L830) |
+| buf | field_declaration | textCallTidy | [831](../../magpie/internal/gateway/textcalls.go#L831) |
+| pending | field_declaration | textCallTidy | [832](../../magpie/internal/gateway/textcalls.go#L832) |
+| held | field_declaration | textCallTidy | [833](../../magpie/internal/gateway/textcalls.go#L833) |
+| holding | field_declaration | textCallTidy | [834](../../magpie/internal/gateway/textcalls.go#L834) |
+| native | field_declaration | textCallTidy | [835](../../magpie/internal/gateway/textcalls.go#L835) |
+| last | field_declaration | textCallTidy | [836](../../magpie/internal/gateway/textcalls.go#L836) |
+| write | method_declaration |  | [839](../../magpie/internal/gateway/textcalls.go#L839) |
+| out | var_spec | write | [845](../../magpie/internal/gateway/textcalls.go#L845) |
+| flush | method_declaration |  | [853](../../magpie/internal/gateway/textcalls.go#L853) |
+| out | var_spec | flush | [854](../../magpie/internal/gateway/textcalls.go#L854) |
+| chunk | method_declaration |  | [863](../../magpie/internal/gateway/textcalls.go#L863) |
+| settle | method_declaration |  | [877](../../magpie/internal/gateway/textcalls.go#L877) |
+| release | method_declaration |  | [882](../../magpie/internal/gateway/textcalls.go#L882) |
+| line | method_declaration |  | [891](../../magpie/internal/gateway/textcalls.go#L891) |
+| ev | var_spec | line | [903](../../magpie/internal/gateway/textcalls.go#L903) |
+| pre | var_spec | line | [917](../../magpie/internal/gateway/textcalls.go#L917) |
+| mayWriteCalls | function_declaration |  | [978](../../magpie/internal/gateway/textcalls.go#L978) |
+| wholeTextCalls | function_declaration |  | [990](../../magpie/internal/gateway/textcalls.go#L990) |
+| native | var_spec | wholeTextCalls | [994](../../magpie/internal/gateway/textcalls.go#L994) |
+| s | var_spec | wholeTextCalls | [996](../../magpie/internal/gateway/textcalls.go#L996) |

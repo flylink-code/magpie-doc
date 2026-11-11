@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/build/race-shards.sh) · page 1/1
 
-Source SHA-256: bebb1c544182e08236d16b5b29444be1a08481021677d2f0a0918858a2dcb3f3
+Source SHA-256: d68846f09c0696d06dbb6505964a301b2f8e7fbdef7b8aea80ca208b9cdd8f1f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

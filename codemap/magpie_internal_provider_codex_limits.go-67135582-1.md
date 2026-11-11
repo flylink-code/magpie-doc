@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_limits.go) · page 1/1
 
-Source SHA-256: 4b77620159b2659378de0a00d6fa6512ecf1e40b4fd894fa474e7e460a4e148a
+Source SHA-256: 8a177e1785311ee7d6b802839efb822517c1c6e93762b47da306b3206dea1660
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,6 +12,10 @@ Source SHA-256: 4b77620159b2659378de0a00d6fa6512ecf1e40b4fd894fa474e7e460a4e148a
 | Used | field_declaration | CodexLimit | [21](../../magpie/internal/provider/codex_limits.go#L21) |
 | Span | field_declaration | CodexLimit | [22](../../magpie/internal/provider/codex_limits.go#L22) |
 | Resets | field_declaration | CodexLimit | [23](../../magpie/internal/provider/codex_limits.go#L23) |
-| NoteCodexLimits | function_declaration |  | [31](../../magpie/internal/provider/codex_limits.go#L31) |
-| heardWindows | function_declaration |  | [72](../../magpie/internal/provider/codex_limits.go#L72) |
-| heardAllowance | function_declaration |  | [95](../../magpie/internal/provider/codex_limits.go#L95) |
+| NoteCodexLimits | function_declaration |  | [32](../../magpie/internal/provider/codex_limits.go#L32) |
+| heardOnly | type_spec |  | [96](../../magpie/internal/provider/codex_limits.go#L96) |
+| user | field_declaration | heardOnly | [97](../../magpie/internal/provider/codex_limits.go#L97) |
+| a | field_declaration | heardOnly | [98](../../magpie/internal/provider/codex_limits.go#L98) |
+| toldAllowance | function_declaration |  | [104](../../magpie/internal/provider/codex_limits.go#L104) |
+| heardWindows | function_declaration |  | [117](../../magpie/internal/provider/codex_limits.go#L117) |
+| heardAllowance | function_declaration |  | [140](../../magpie/internal/provider/codex_limits.go#L140) |

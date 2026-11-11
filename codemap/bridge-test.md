@@ -14,6 +14,7 @@
 | [plugins/magpie-agent-cursor-bridge/test/lock.test.js](../../plugins/magpie-agent-cursor-bridge/test/lock.test.js) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_lock.test.js-26b0e50f-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/magpie.test.js](../../plugins/magpie-agent-cursor-bridge/test/magpie.test.js) | 11 | [1](plugins_magpie-agent-cursor-bridge_test_magpie.test.js-d2cb6265-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/manual-lifecycle.mjs](../../plugins/magpie-agent-cursor-bridge/test/manual-lifecycle.mjs) | 17 | [1](plugins_magpie-agent-cursor-bridge_test_manual-lifecycle.mjs-bfc933f0-1.md) |
+| [plugins/magpie-agent-cursor-bridge/test/package-macos.test.js](../../plugins/magpie-agent-cursor-bridge/test/package-macos.test.js) | 16 | [1](plugins_magpie-agent-cursor-bridge_test_package-macos.test.js-b7c88ddf-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/relay.test.js](../../plugins/magpie-agent-cursor-bridge/test/relay.test.js) | 33 | [1](plugins_magpie-agent-cursor-bridge_test_relay.test.js-3ab037a5-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/settings-change.test.js](../../plugins/magpie-agent-cursor-bridge/test/settings-change.test.js) | 13 | [1](plugins_magpie-agent-cursor-bridge_test_settings-change.test.js-38d2edd6-1.md) |
 | [plugins/magpie-agent-cursor-bridge/test/settings.test.js](../../plugins/magpie-agent-cursor-bridge/test/settings.test.js) | 33 | [1](plugins_magpie-agent-cursor-bridge_test_settings.test.js-3f9e371f-1.md) |

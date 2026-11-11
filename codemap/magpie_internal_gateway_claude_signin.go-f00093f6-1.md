@@ -4,23 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_signin.go) · page 1/1
 
-Source SHA-256: 45d87dc89dec3f22ad073ec04d7f54c72afe2cebb079fc4b3c632a649718325b
+Source SHA-256: 2687f3a14fa394902e2852dcc761235a73ed2840a68b2f96e05c6c208eb6f0a3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeSignIn | function_declaration |  | [30](../../magpie/internal/gateway/claude_signin.go#L30) |
-| keepsSignIn | function_declaration |  | [38](../../magpie/internal/gateway/claude_signin.go#L38) |
-| signInWriter | type_spec |  | [54](../../magpie/internal/gateway/claude_signin.go#L54) |
-| held | field_declaration | signInWriter | [56](../../magpie/internal/gateway/claude_signin.go#L56) |
-| wrote | field_declaration | signInWriter | [57](../../magpie/internal/gateway/claude_signin.go#L57) |
-| told | field_declaration | signInWriter | [58](../../magpie/internal/gateway/claude_signin.go#L58) |
-| WriteHeader | method_declaration |  | [61](../../magpie/internal/gateway/claude_signin.go#L61) |
-| Write | method_declaration |  | [73](../../magpie/internal/gateway/claude_signin.go#L73) |
-| xAPIKey | var_spec |  | [114](../../magpie/internal/gateway/claude_signin.go#L114) |
-| refusedMessage | function_declaration |  | [119](../../magpie/internal/gateway/claude_signin.go#L119) |
-| e | var_spec | refusedMessage | [120](../../magpie/internal/gateway/claude_signin.go#L120) |
-| Error | field_declaration | refusedMessage::e | [121](../../magpie/internal/gateway/claude_signin.go#L121) |
-| Message | field_declaration | refusedMessage::e::Error | [122](../../magpie/internal/gateway/claude_signin.go#L122) |
-| Flush | method_declaration |  | [140](../../magpie/internal/gateway/claude_signin.go#L140) |
-| Unwrap | method_declaration |  | [148](../../magpie/internal/gateway/claude_signin.go#L148) |
-| release | method_declaration |  | [152](../../magpie/internal/gateway/claude_signin.go#L152) |
+| claudeSignIn | function_declaration |  | [31](../../magpie/internal/gateway/claude_signin.go#L31) |
+| keepsSignIn | function_declaration |  | [39](../../magpie/internal/gateway/claude_signin.go#L39) |
+| signInWriter | type_spec |  | [55](../../magpie/internal/gateway/claude_signin.go#L55) |
+| held | field_declaration | signInWriter | [57](../../magpie/internal/gateway/claude_signin.go#L57) |
+| wrote | field_declaration | signInWriter | [58](../../magpie/internal/gateway/claude_signin.go#L58) |
+| told | field_declaration | signInWriter | [59](../../magpie/internal/gateway/claude_signin.go#L59) |
+| WriteHeader | method_declaration |  | [62](../../magpie/internal/gateway/claude_signin.go#L62) |
+| Write | method_declaration |  | [74](../../magpie/internal/gateway/claude_signin.go#L74) |
+| xAPIKey | var_spec |  | [115](../../magpie/internal/gateway/claude_signin.go#L115) |
+| refusedMessage | function_declaration |  | [120](../../magpie/internal/gateway/claude_signin.go#L120) |
+| e | var_spec | refusedMessage | [121](../../magpie/internal/gateway/claude_signin.go#L121) |
+| Error | field_declaration | refusedMessage::e | [122](../../magpie/internal/gateway/claude_signin.go#L122) |
+| Message | field_declaration | refusedMessage::e::Error | [123](../../magpie/internal/gateway/claude_signin.go#L123) |
+| Flush | method_declaration |  | [141](../../magpie/internal/gateway/claude_signin.go#L141) |
+| Unwrap | method_declaration |  | [149](../../magpie/internal/gateway/claude_signin.go#L149) |
+| release | method_declaration |  | [153](../../magpie/internal/gateway/claude_signin.go#L153) |

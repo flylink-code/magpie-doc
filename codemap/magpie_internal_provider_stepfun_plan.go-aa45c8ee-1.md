@@ -4,87 +4,88 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/stepfun_plan.go) · page 1/1
 
-Source SHA-256: 5971355d858fd0511b6a265b7af5f7bcb8948888a4c2a21a6126b40ceb10f620
+Source SHA-256: 614f2d70b78352a521a4211860084395974ffc4c1afdd2eb6b03c0c9a269bf0b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| stepfunSites | var_spec |  | [46](../../magpie/internal/provider/stepfun_plan.go#L46) |
-| platform | field_declaration | stepfunSites | [46](../../magpie/internal/provider/stepfun_plan.go#L46) |
-| StepFunSite | function_declaration |  | [53](../../magpie/internal/provider/stepfun_plan.go#L53) |
-| StepFunSignInURL | function_declaration |  | [66](../../magpie/internal/provider/stepfun_plan.go#L66) |
-| stepfunPaste | const_spec |  | [75](../../magpie/internal/provider/stepfun_plan.go#L75) |
-| StepFunBookmarklet | function_declaration |  | [80](../../magpie/internal/provider/stepfun_plan.go#L80) |
-| SaveStepFunPaste | function_declaration |  | [103](../../magpie/internal/provider/stepfun_plan.go#L103) |
-| in | var_spec | SaveStepFunPaste | [106](../../magpie/internal/provider/stepfun_plan.go#L106) |
-| Site | field_declaration | SaveStepFunPaste::in | [106](../../magpie/internal/provider/stepfun_plan.go#L106) |
-| StepFunOrigin | function_declaration |  | [124](../../magpie/internal/provider/stepfun_plan.go#L124) |
-| stepfunSession | type_spec |  | [127](../../magpie/internal/provider/stepfun_plan.go#L127) |
-| Access | field_declaration | stepfunSession | [128](../../magpie/internal/provider/stepfun_plan.go#L128) |
-| Refresh | field_declaration | stepfunSession | [129](../../magpie/internal/provider/stepfun_plan.go#L129) |
-| WebID | field_declaration | stepfunSession | [130](../../magpie/internal/provider/stepfun_plan.go#L130) |
-| Account | field_declaration | stepfunSession | [134](../../magpie/internal/provider/stepfun_plan.go#L134) |
-| stepfunMu | var_spec |  | [137](../../magpie/internal/provider/stepfun_plan.go#L137) |
-| stepfunPath | function_declaration |  | [139](../../magpie/internal/provider/stepfun_plan.go#L139) |
-| loadStepFun | function_declaration |  | [147](../../magpie/internal/provider/stepfun_plan.go#L147) |
-| stepfunOldSites | var_spec |  | [165](../../magpie/internal/provider/stepfun_plan.go#L165) |
-| stepfunBySite | function_declaration |  | [175](../../magpie/internal/provider/stepfun_plan.go#L175) |
-| old | var_spec | stepfunBySite | [176](../../magpie/internal/provider/stepfun_plan.go#L176) |
-| to | var_spec | stepfunBySite | [192](../../magpie/internal/provider/stepfun_plan.go#L192) |
-| forgetStepFun | function_declaration |  | [216](../../magpie/internal/provider/stepfun_plan.go#L216) |
-| renameStepFun | function_declaration |  | [219](../../magpie/internal/provider/stepfun_plan.go#L219) |
-| saveStepFun | function_declaration |  | [232](../../magpie/internal/provider/stepfun_plan.go#L232) |
-| stepfunClaims | type_spec |  | [249](../../magpie/internal/provider/stepfun_plan.go#L249) |
-| Activated | field_declaration | stepfunClaims | [250](../../magpie/internal/provider/stepfun_plan.go#L250) |
-| Exp | field_declaration | stepfunClaims | [251](../../magpie/internal/provider/stepfun_plan.go#L251) |
-| OasisID | field_declaration | stepfunClaims | [252](../../magpie/internal/provider/stepfun_plan.go#L252) |
-| readStepFunToken | function_declaration |  | [255](../../magpie/internal/provider/stepfun_plan.go#L255) |
-| c | var_spec | readStepFunToken | [256](../../magpie/internal/provider/stepfun_plan.go#L256) |
-| account | method_declaration |  | [268](../../magpie/internal/provider/stepfun_plan.go#L268) |
-| StepFunSignedIn | function_declaration |  | [279](../../magpie/internal/provider/stepfun_plan.go#L279) |
-| SaveStepFunSession | function_declaration |  | [289](../../magpie/internal/provider/stepfun_plan.go#L289) |
-| dev | var_spec | SaveStepFunSession | [297](../../magpie/internal/provider/stepfun_plan.go#L297) |
-| DeviceID | field_declaration | SaveStepFunSession::dev | [298](../../magpie/internal/provider/stepfun_plan.go#L298) |
-| SignOutStepFun | function_declaration |  | [327](../../magpie/internal/provider/stepfun_plan.go#L327) |
-| err | var_spec | SignOutStepFun | [332](../../magpie/internal/provider/stepfun_plan.go#L332) |
-| forgetPlanQuotas | function_declaration |  | [341](../../magpie/internal/provider/stepfun_plan.go#L341) |
-| errStepFunSession | var_spec |  | [348](../../magpie/internal/provider/stepfun_plan.go#L348) |
-| stepfunCall | function_declaration |  | [352](../../magpie/internal/provider/stepfun_plan.go#L352) |
-| e | var_spec | stepfunCall | [376](../../magpie/internal/provider/stepfun_plan.go#L376) |
-| Message | field_declaration | stepfunCall::e | [376](../../magpie/internal/provider/stepfun_plan.go#L376) |
-| renewStepFun | function_declaration |  | [390](../../magpie/internal/provider/stepfun_plan.go#L390) |
-| out | var_spec | renewStepFun | [391](../../magpie/internal/provider/stepfun_plan.go#L391) |
-| AccessToken | field_declaration | renewStepFun::out | [392](../../magpie/internal/provider/stepfun_plan.go#L392) |
-| Raw | field_declaration | renewStepFun::out::AccessToken | [392](../../magpie/internal/provider/stepfun_plan.go#L392) |
-| RefreshToken | field_declaration | renewStepFun::out | [393](../../magpie/internal/provider/stepfun_plan.go#L393) |
-| Raw | field_declaration | renewStepFun::out::RefreshToken | [393](../../magpie/internal/provider/stepfun_plan.go#L393) |
-| stepfunNow | function_declaration |  | [414](../../magpie/internal/provider/stepfun_plan.go#L414) |
-| stepfunAsk | function_declaration |  | [440](../../magpie/internal/provider/stepfun_plan.go#L440) |
-| stepfunRate | function_declaration |  | [457](../../magpie/internal/provider/stepfun_plan.go#L457) |
-| stepfunTime | function_declaration |  | [470](../../magpie/internal/provider/stepfun_plan.go#L470) |
-| readStepPlan | function_declaration |  | [493](../../magpie/internal/provider/stepfun_plan.go#L493) |
-| r | var_spec | readStepPlan | [494](../../magpie/internal/provider/stepfun_plan.go#L494) |
-| FiveLeft | field_declaration | readStepPlan::r | [495](../../magpie/internal/provider/stepfun_plan.go#L495) |
-| FiveReset | field_declaration | readStepPlan::r | [496](../../magpie/internal/provider/stepfun_plan.go#L496) |
-| WeekLeft | field_declaration | readStepPlan::r | [497](../../magpie/internal/provider/stepfun_plan.go#L497) |
-| WeekReset | field_declaration | readStepPlan::r | [498](../../magpie/internal/provider/stepfun_plan.go#L498) |
-| CreditLimit | field_declaration | readStepPlan::r | [499](../../magpie/internal/provider/stepfun_plan.go#L499) |
-| Left | field_declaration | readStepPlan::r::CreditLimit | [500](../../magpie/internal/provider/stepfun_plan.go#L500) |
-| Reset | field_declaration | readStepPlan::r::CreditLimit | [501](../../magpie/internal/provider/stepfun_plan.go#L501) |
-| Buckets | field_declaration | readStepPlan::r::CreditLimit | [502](../../magpie/internal/provider/stepfun_plan.go#L502) |
-| out | var_spec | readStepPlan | [508](../../magpie/internal/provider/stepfun_plan.go#L508) |
-| readStepPlanStatus | function_declaration |  | [532](../../magpie/internal/provider/stepfun_plan.go#L532) |
-| r | var_spec | readStepPlanStatus | [533](../../magpie/internal/provider/stepfun_plan.go#L533) |
-| Subscription | field_declaration | readStepPlanStatus::r | [534](../../magpie/internal/provider/stepfun_plan.go#L534) |
-| Name | field_declaration | readStepPlanStatus::r::Subscription | [535](../../magpie/internal/provider/stepfun_plan.go#L535) |
-| PlanType | field_declaration | readStepPlanStatus::r::Subscription | [536](../../magpie/internal/provider/stepfun_plan.go#L536) |
-| ExpiredAt | field_declaration | readStepPlanStatus::r::Subscription | [537](../../magpie/internal/provider/stepfun_plan.go#L537) |
-| AutoRenew | field_declaration | readStepPlanStatus::r::Subscription | [538](../../magpie/internal/provider/stepfun_plan.go#L538) |
-| stepPlanQuota | function_declaration |  | [562](../../magpie/internal/provider/stepfun_plan.go#L562) |
-| raw | var_spec | stepPlanQuota | [565](../../magpie/internal/provider/stepfun_plan.go#L565) |
-| status | var_spec | stepPlanQuota | [576](../../magpie/internal/provider/stepfun_plan.go#L576) |
-| stepPlanQuotas | function_declaration |  | [592](../../magpie/internal/provider/stepfun_plan.go#L592) |
-| jobs | var_spec | stepPlanQuotas | [593](../../magpie/internal/provider/stepfun_plan.go#L593) |
-| wg | var_spec | stepPlanQuotas | [604](../../magpie/internal/provider/stepfun_plan.go#L604) |
+| stepfunSites | var_spec |  | [48](../../magpie/internal/provider/stepfun_plan.go#L48) |
+| platform | field_declaration | stepfunSites | [48](../../magpie/internal/provider/stepfun_plan.go#L48) |
+| StepFunSite | function_declaration |  | [55](../../magpie/internal/provider/stepfun_plan.go#L55) |
+| StepFunSignInURL | function_declaration |  | [68](../../magpie/internal/provider/stepfun_plan.go#L68) |
+| stepfunPaste | const_spec |  | [77](../../magpie/internal/provider/stepfun_plan.go#L77) |
+| StepFunBookmarklet | function_declaration |  | [82](../../magpie/internal/provider/stepfun_plan.go#L82) |
+| SaveStepFunPaste | function_declaration |  | [105](../../magpie/internal/provider/stepfun_plan.go#L105) |
+| in | var_spec | SaveStepFunPaste | [108](../../magpie/internal/provider/stepfun_plan.go#L108) |
+| Site | field_declaration | SaveStepFunPaste::in | [108](../../magpie/internal/provider/stepfun_plan.go#L108) |
+| StepFunOrigin | function_declaration |  | [126](../../magpie/internal/provider/stepfun_plan.go#L126) |
+| stepfunSession | type_spec |  | [129](../../magpie/internal/provider/stepfun_plan.go#L129) |
+| Access | field_declaration | stepfunSession | [130](../../magpie/internal/provider/stepfun_plan.go#L130) |
+| Refresh | field_declaration | stepfunSession | [131](../../magpie/internal/provider/stepfun_plan.go#L131) |
+| WebID | field_declaration | stepfunSession | [132](../../magpie/internal/provider/stepfun_plan.go#L132) |
+| Account | field_declaration | stepfunSession | [136](../../magpie/internal/provider/stepfun_plan.go#L136) |
+| stepfunMu | var_spec |  | [139](../../magpie/internal/provider/stepfun_plan.go#L139) |
+| stepfunPath | function_declaration |  | [141](../../magpie/internal/provider/stepfun_plan.go#L141) |
+| loadStepFun | function_declaration |  | [149](../../magpie/internal/provider/stepfun_plan.go#L149) |
+| stepfunOldSites | var_spec |  | [167](../../magpie/internal/provider/stepfun_plan.go#L167) |
+| stepfunBySite | function_declaration |  | [177](../../magpie/internal/provider/stepfun_plan.go#L177) |
+| old | var_spec | stepfunBySite | [178](../../magpie/internal/provider/stepfun_plan.go#L178) |
+| to | var_spec | stepfunBySite | [194](../../magpie/internal/provider/stepfun_plan.go#L194) |
+| forgetStepFun | function_declaration |  | [218](../../magpie/internal/provider/stepfun_plan.go#L218) |
+| renameStepFun | function_declaration |  | [221](../../magpie/internal/provider/stepfun_plan.go#L221) |
+| saveStepFun | function_declaration |  | [234](../../magpie/internal/provider/stepfun_plan.go#L234) |
+| stepfunClaims | type_spec |  | [252](../../magpie/internal/provider/stepfun_plan.go#L252) |
+| Activated | field_declaration | stepfunClaims | [253](../../magpie/internal/provider/stepfun_plan.go#L253) |
+| Exp | field_declaration | stepfunClaims | [254](../../magpie/internal/provider/stepfun_plan.go#L254) |
+| OasisID | field_declaration | stepfunClaims | [255](../../magpie/internal/provider/stepfun_plan.go#L255) |
+| readStepFunToken | function_declaration |  | [258](../../magpie/internal/provider/stepfun_plan.go#L258) |
+| c | var_spec | readStepFunToken | [259](../../magpie/internal/provider/stepfun_plan.go#L259) |
+| account | method_declaration |  | [271](../../magpie/internal/provider/stepfun_plan.go#L271) |
+| StepFunSignedIn | function_declaration |  | [286](../../magpie/internal/provider/stepfun_plan.go#L286) |
+| stepfunParses | var_spec |  | [304](../../magpie/internal/provider/stepfun_plan.go#L304) |
+| SaveStepFunSession | function_declaration |  | [310](../../magpie/internal/provider/stepfun_plan.go#L310) |
+| dev | var_spec | SaveStepFunSession | [318](../../magpie/internal/provider/stepfun_plan.go#L318) |
+| DeviceID | field_declaration | SaveStepFunSession::dev | [319](../../magpie/internal/provider/stepfun_plan.go#L319) |
+| SignOutStepFun | function_declaration |  | [348](../../magpie/internal/provider/stepfun_plan.go#L348) |
+| err | var_spec | SignOutStepFun | [353](../../magpie/internal/provider/stepfun_plan.go#L353) |
+| forgetPlanQuotas | function_declaration |  | [362](../../magpie/internal/provider/stepfun_plan.go#L362) |
+| errStepFunSession | var_spec |  | [369](../../magpie/internal/provider/stepfun_plan.go#L369) |
+| stepfunCall | function_declaration |  | [373](../../magpie/internal/provider/stepfun_plan.go#L373) |
+| e | var_spec | stepfunCall | [397](../../magpie/internal/provider/stepfun_plan.go#L397) |
+| Message | field_declaration | stepfunCall::e | [397](../../magpie/internal/provider/stepfun_plan.go#L397) |
+| renewStepFun | function_declaration |  | [411](../../magpie/internal/provider/stepfun_plan.go#L411) |
+| out | var_spec | renewStepFun | [412](../../magpie/internal/provider/stepfun_plan.go#L412) |
+| AccessToken | field_declaration | renewStepFun::out | [413](../../magpie/internal/provider/stepfun_plan.go#L413) |
+| Raw | field_declaration | renewStepFun::out::AccessToken | [413](../../magpie/internal/provider/stepfun_plan.go#L413) |
+| RefreshToken | field_declaration | renewStepFun::out | [414](../../magpie/internal/provider/stepfun_plan.go#L414) |
+| Raw | field_declaration | renewStepFun::out::RefreshToken | [414](../../magpie/internal/provider/stepfun_plan.go#L414) |
+| stepfunNow | function_declaration |  | [435](../../magpie/internal/provider/stepfun_plan.go#L435) |
+| stepfunAsk | function_declaration |  | [461](../../magpie/internal/provider/stepfun_plan.go#L461) |
+| stepfunRate | function_declaration |  | [478](../../magpie/internal/provider/stepfun_plan.go#L478) |
+| stepfunTime | function_declaration |  | [491](../../magpie/internal/provider/stepfun_plan.go#L491) |
+| readStepPlan | function_declaration |  | [514](../../magpie/internal/provider/stepfun_plan.go#L514) |
+| r | var_spec | readStepPlan | [515](../../magpie/internal/provider/stepfun_plan.go#L515) |
+| FiveLeft | field_declaration | readStepPlan::r | [516](../../magpie/internal/provider/stepfun_plan.go#L516) |
+| FiveReset | field_declaration | readStepPlan::r | [517](../../magpie/internal/provider/stepfun_plan.go#L517) |
+| WeekLeft | field_declaration | readStepPlan::r | [518](../../magpie/internal/provider/stepfun_plan.go#L518) |
+| WeekReset | field_declaration | readStepPlan::r | [519](../../magpie/internal/provider/stepfun_plan.go#L519) |
+| CreditLimit | field_declaration | readStepPlan::r | [520](../../magpie/internal/provider/stepfun_plan.go#L520) |
+| Left | field_declaration | readStepPlan::r::CreditLimit | [521](../../magpie/internal/provider/stepfun_plan.go#L521) |
+| Reset | field_declaration | readStepPlan::r::CreditLimit | [522](../../magpie/internal/provider/stepfun_plan.go#L522) |
+| Buckets | field_declaration | readStepPlan::r::CreditLimit | [523](../../magpie/internal/provider/stepfun_plan.go#L523) |
+| out | var_spec | readStepPlan | [529](../../magpie/internal/provider/stepfun_plan.go#L529) |
+| readStepPlanStatus | function_declaration |  | [553](../../magpie/internal/provider/stepfun_plan.go#L553) |
+| r | var_spec | readStepPlanStatus | [554](../../magpie/internal/provider/stepfun_plan.go#L554) |
+| Subscription | field_declaration | readStepPlanStatus::r | [555](../../magpie/internal/provider/stepfun_plan.go#L555) |
+| Name | field_declaration | readStepPlanStatus::r::Subscription | [556](../../magpie/internal/provider/stepfun_plan.go#L556) |
+| PlanType | field_declaration | readStepPlanStatus::r::Subscription | [557](../../magpie/internal/provider/stepfun_plan.go#L557) |
+| ExpiredAt | field_declaration | readStepPlanStatus::r::Subscription | [558](../../magpie/internal/provider/stepfun_plan.go#L558) |
+| AutoRenew | field_declaration | readStepPlanStatus::r::Subscription | [559](../../magpie/internal/provider/stepfun_plan.go#L559) |
+| stepPlanQuota | function_declaration |  | [583](../../magpie/internal/provider/stepfun_plan.go#L583) |
+| raw | var_spec | stepPlanQuota | [586](../../magpie/internal/provider/stepfun_plan.go#L586) |
+| status | var_spec | stepPlanQuota | [597](../../magpie/internal/provider/stepfun_plan.go#L597) |
+| stepPlanQuotas | function_declaration |  | [613](../../magpie/internal/provider/stepfun_plan.go#L613) |
+| jobs | var_spec | stepPlanQuotas | [614](../../magpie/internal/provider/stepfun_plan.go#L614) |
+| wg | var_spec | stepPlanQuotas | [625](../../magpie/internal/provider/stepfun_plan.go#L625) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 242: ERROR
+- line 245: ERROR

@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/summary_cache.go) · page 1/1
 
-Source SHA-256: 5d6541464e8417c43d46d3f211b384f2a42fb5074d7e9b0b23e09898498bd9f5
+Source SHA-256: 7c95ffd1727c006b568cba6a0db6b4dc3c1e6cc76091f269f0f02c02682e4753
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -24,6 +24,6 @@ Source SHA-256: 5d6541464e8417c43d46d3f211b384f2a42fb5074d7e9b0b23e09898498bd9f5
 | SummarizeTop | function_declaration |  | [57](../../magpie/internal/usage/summary_cache.go#L57) |
 | SummarizeTopIn | function_declaration |  | [61](../../magpie/internal/usage/summary_cache.go#L61) |
 | topSummary | function_declaration |  | [68](../../magpie/internal/usage/summary_cache.go#L68) |
-| topOf | function_declaration |  | [109](../../magpie/internal/usage/summary_cache.go#L109) |
-| cloneSummary | function_declaration |  | [117](../../magpie/internal/usage/summary_cache.go#L117) |
-| usagePriceCacheKey | function_declaration |  | [129](../../magpie/internal/usage/summary_cache.go#L129) |
+| topOf | function_declaration |  | [112](../../magpie/internal/usage/summary_cache.go#L112) |
+| cloneSummary | function_declaration |  | [120](../../magpie/internal/usage/summary_cache.go#L120) |
+| usagePriceCacheKey | function_declaration |  | [132](../../magpie/internal/usage/summary_cache.go#L132) |

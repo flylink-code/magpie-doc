@@ -4,28 +4,29 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/quota_last.go) · page 1/1
 
-Source SHA-256: b8aab73db08f8d857447642e20e313339264882d3a97795de9049cf50a9f9a59
+Source SHA-256: 765fb6aab6d5f2fe45ed6e9b0a228f05313536363cc682274916ed4832c2016b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lastQuotas | var_spec |  | [20](../../magpie/internal/provider/quota_last.go#L20) |
-| lastQuotasT | type_spec |  | [22](../../magpie/internal/provider/quota_last.go#L22) |
-| m | field_declaration | lastQuotasT | [24](../../magpie/internal/provider/quota_last.go#L24) |
-| loaded | field_declaration | lastQuotasT | [25](../../magpie/internal/provider/quota_last.go#L25) |
-| lastQuota | type_spec |  | [28](../../magpie/internal/provider/quota_last.go#L28) |
-| At | field_declaration | lastQuota | [29](../../magpie/internal/provider/quota_last.go#L29) |
-| Q | field_declaration | lastQuota | [30](../../magpie/internal/provider/quota_last.go#L30) |
-| Spans | field_declaration | lastQuota | [32](../../magpie/internal/provider/quota_last.go#L32) |
-| lastWindow | type_spec |  | [35](../../magpie/internal/provider/quota_last.go#L35) |
-| Span | field_declaration | lastWindow | [36](../../magpie/internal/provider/quota_last.go#L36) |
-| Model | field_declaration | lastWindow | [37](../../magpie/internal/provider/quota_last.go#L37) |
-| Aside | field_declaration | lastWindow | [38](../../magpie/internal/provider/quota_last.go#L38) |
-| lastQuotasPath | function_declaration |  | [41](../../magpie/internal/provider/quota_last.go#L41) |
-| passing | var_spec |  | [47](../../magpie/internal/provider/quota_last.go#L47) |
-| keyTag | function_declaration |  | [52](../../magpie/internal/provider/quota_last.go#L52) |
-| keepLast | function_declaration |  | [59](../../magpie/internal/provider/quota_last.go#L59) |
-| readDeferred | function_declaration |  | [127](../../magpie/internal/provider/quota_last.go#L127) |
-| load | method_declaration |  | [138](../../magpie/internal/provider/quota_last.go#L138) |
-| reading | method_declaration |  | [149](../../magpie/internal/provider/quota_last.go#L149) |
-| reported | method_declaration |  | [168](../../magpie/internal/provider/quota_last.go#L168) |
-| lastAllowances | function_declaration |  | [192](../../magpie/internal/provider/quota_last.go#L192) |
+| lastQuotas | var_spec |  | [21](../../magpie/internal/provider/quota_last.go#L21) |
+| lastQuotasT | type_spec |  | [23](../../magpie/internal/provider/quota_last.go#L23) |
+| m | field_declaration | lastQuotasT | [25](../../magpie/internal/provider/quota_last.go#L25) |
+| loaded | field_declaration | lastQuotasT | [26](../../magpie/internal/provider/quota_last.go#L26) |
+| lastQuota | type_spec |  | [29](../../magpie/internal/provider/quota_last.go#L29) |
+| At | field_declaration | lastQuota | [30](../../magpie/internal/provider/quota_last.go#L30) |
+| Q | field_declaration | lastQuota | [31](../../magpie/internal/provider/quota_last.go#L31) |
+| Spans | field_declaration | lastQuota | [33](../../magpie/internal/provider/quota_last.go#L33) |
+| lastWindow | type_spec |  | [36](../../magpie/internal/provider/quota_last.go#L36) |
+| Span | field_declaration | lastWindow | [37](../../magpie/internal/provider/quota_last.go#L37) |
+| Model | field_declaration | lastWindow | [38](../../magpie/internal/provider/quota_last.go#L38) |
+| Aside | field_declaration | lastWindow | [39](../../magpie/internal/provider/quota_last.go#L39) |
+| lastQuotasPath | function_declaration |  | [42](../../magpie/internal/provider/quota_last.go#L42) |
+| passing | var_spec |  | [49](../../magpie/internal/provider/quota_last.go#L49) |
+| keyTag | function_declaration |  | [54](../../magpie/internal/provider/quota_last.go#L54) |
+| keepLast | function_declaration |  | [61](../../magpie/internal/provider/quota_last.go#L61) |
+| hadReading | function_declaration |  | [127](../../magpie/internal/provider/quota_last.go#L127) |
+| readDeferred | function_declaration |  | [144](../../magpie/internal/provider/quota_last.go#L144) |
+| load | method_declaration |  | [155](../../magpie/internal/provider/quota_last.go#L155) |
+| reading | method_declaration |  | [166](../../magpie/internal/provider/quota_last.go#L166) |
+| reported | method_declaration |  | [185](../../magpie/internal/provider/quota_last.go#L185) |
+| lastAllowances | function_declaration |  | [209](../../magpie/internal/provider/quota_last.go#L209) |

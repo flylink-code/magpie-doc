@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/wslrun/wslrun.go) · page 1/1
 
-Source SHA-256: ec323a3d30265197bf2262bd33b3fcbca405093162cbb207d440a3163eb51206
+Source SHA-256: fe03f8925219141f999865590dc64fa95fd8d643563aac9a61defd6afa170919
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,52 +15,60 @@ Source SHA-256: ec323a3d30265197bf2262bd33b3fcbca405093162cbb207d440a3163eb51206
 | Mount | field_declaration | Tool | [37](../../magpie/internal/wslrun/wslrun.go#L37) |
 | Host | field_declaration | Tool | [38](../../magpie/internal/wslrun/wslrun.go#L38) |
 | Root | field_declaration | Tool | [39](../../magpie/internal/wslrun/wslrun.go#L39) |
-| On | var_spec |  | [43](../../magpie/internal/wslrun/wslrun.go#L43) |
-| Run | var_spec |  | [46](../../magpie/internal/wslrun/wslrun.go#L46) |
-| found | var_spec |  | [54](../../magpie/internal/wslrun/wslrun.go#L54) |
-| at | field_declaration | found | [56](../../magpie/internal/wslrun/wslrun.go#L56) |
-| tools | field_declaration | found | [57](../../magpie/internal/wslrun/wslrun.go#L57) |
-| findAge | const_spec |  | [62](../../magpie/internal/wslrun/wslrun.go#L62) |
-| Find | function_declaration |  | [67](../../magpie/internal/wslrun/wslrun.go#L67) |
-| ErrDown | var_spec |  | [119](../../magpie/internal/wslrun/wslrun.go#L119) |
-| ErrNotFound | var_spec |  | [122](../../magpie/internal/wslrun/wslrun.go#L122) |
-| plainName | var_spec |  | [126](../../magpie/internal/wslrun/wslrun.go#L126) |
-| foundIn | var_spec |  | [128](../../magpie/internal/wslrun/wslrun.go#L128) |
-| at | field_declaration | foundIn | [130](../../magpie/internal/wslrun/wslrun.go#L130) |
-| tools | field_declaration | foundIn | [131](../../magpie/internal/wslrun/wslrun.go#L131) |
-| In | function_declaration |  | [140](../../magpie/internal/wslrun/wslrun.go#L140) |
-| up | var_spec |  | [178](../../magpie/internal/wslrun/wslrun.go#L178) |
-| at | field_declaration | up | [180](../../magpie/internal/wslrun/wslrun.go#L180) |
-| names | field_declaration | up | [181](../../magpie/internal/wslrun/wslrun.go#L181) |
-| ok | field_declaration | up | [182](../../magpie/internal/wslrun/wslrun.go#L182) |
-| upAge | const_spec |  | [190](../../magpie/internal/wslrun/wslrun.go#L190) |
-| upFailedAge | const_spec |  | [191](../../magpie/internal/wslrun/wslrun.go#L191) |
-| running | function_declaration |  | [196](../../magpie/internal/wslrun/wslrun.go#L196) |
-| Up | function_declaration |  | [218](../../magpie/internal/wslrun/wslrun.go#L218) |
-| Known | function_declaration |  | [228](../../magpie/internal/wslrun/wslrun.go#L228) |
-| Forget | function_declaration |  | [238](../../magpie/internal/wslrun/wslrun.go#L238) |
-| probeScript | function_declaration |  | [255](../../magpie/internal/wslrun/wslrun.go#L255) |
-| defaultPATH | const_spec |  | [268](../../magpie/internal/wslrun/wslrun.go#L268) |
-| parseProbe | function_declaration |  | [270](../../magpie/internal/wslrun/wslrun.go#L270) |
-| ipath | var_spec | parseProbe | [272](../../magpie/internal/wslrun/wslrun.go#L272) |
-| HostLoopback | function_declaration |  | [329](../../magpie/internal/wslrun/wslrun.go#L329) |
-| onPath | function_declaration |  | [337](../../magpie/internal/wslrun/wslrun.go#L337) |
-| Command | method_declaration |  | [351](../../magpie/internal/wslrun/wslrun.go#L351) |
-| Probe | method_declaration |  | [356](../../magpie/internal/wslrun/wslrun.go#L356) |
-| runVar | const_spec |  | [362](../../magpie/internal/wslrun/wslrun.go#L362) |
-| cancelable | method_declaration |  | [364](../../magpie/internal/wslrun/wslrun.go#L364) |
-| Stop | method_declaration |  | [382](../../magpie/internal/wslrun/wslrun.go#L382) |
-| stopScript | const_spec |  | [386](../../magpie/internal/wslrun/wslrun.go#L386) |
-| runSeq | var_spec |  | [390](../../magpie/internal/wslrun/wslrun.go#L390) |
-| n | field_declaration | runSeq | [392](../../magpie/internal/wslrun/wslrun.go#L392) |
-| argv | method_declaration |  | [395](../../magpie/internal/wslrun/wslrun.go#L395) |
-| Linux | method_declaration |  | [405](../../magpie/internal/wslrun/wslrun.go#L405) |
-| isLetter | function_declaration |  | [417](../../magpie/internal/wslrun/wslrun.go#L417) |
-| proxyVars | var_spec |  | [420](../../magpie/internal/wslrun/wslrun.go#L420) |
-| Env | method_declaration |  | [427](../../magpie/internal/wslrun/wslrun.go#L427) |
-| pass | var_spec | Env | [433](../../magpie/internal/wslrun/wslrun.go#L433) |
-| proxy | method_declaration |  | [465](../../magpie/internal/wslrun/wslrun.go#L465) |
-| Distros | function_declaration |  | [487](../../magpie/internal/wslrun/wslrun.go#L487) |
-| out | var_spec | Distros | [489](../../magpie/internal/wslrun/wslrun.go#L489) |
-| decode | function_declaration |  | [500](../../magpie/internal/wslrun/wslrun.go#L500) |
-| Exe | method_declaration |  | [517](../../magpie/internal/wslrun/wslrun.go#L517) |
+| Home | field_declaration | Tool | [40](../../magpie/internal/wslrun/wslrun.go#L40) |
+| On | var_spec |  | [44](../../magpie/internal/wslrun/wslrun.go#L44) |
+| Run | var_spec |  | [47](../../magpie/internal/wslrun/wslrun.go#L47) |
+| found | var_spec |  | [58](../../magpie/internal/wslrun/wslrun.go#L58) |
+| at | field_declaration | found | [60](../../magpie/internal/wslrun/wslrun.go#L60) |
+| tools | field_declaration | found | [61](../../magpie/internal/wslrun/wslrun.go#L61) |
+| findAge | const_spec |  | [66](../../magpie/internal/wslrun/wslrun.go#L66) |
+| Find | function_declaration |  | [71](../../magpie/internal/wslrun/wslrun.go#L71) |
+| ErrDown | var_spec |  | [123](../../magpie/internal/wslrun/wslrun.go#L123) |
+| ErrNotFound | var_spec |  | [126](../../magpie/internal/wslrun/wslrun.go#L126) |
+| plainName | var_spec |  | [130](../../magpie/internal/wslrun/wslrun.go#L130) |
+| foundIn | var_spec |  | [132](../../magpie/internal/wslrun/wslrun.go#L132) |
+| at | field_declaration | foundIn | [134](../../magpie/internal/wslrun/wslrun.go#L134) |
+| tools | field_declaration | foundIn | [135](../../magpie/internal/wslrun/wslrun.go#L135) |
+| In | function_declaration |  | [144](../../magpie/internal/wslrun/wslrun.go#L144) |
+| up | var_spec |  | [182](../../magpie/internal/wslrun/wslrun.go#L182) |
+| at | field_declaration | up | [184](../../magpie/internal/wslrun/wslrun.go#L184) |
+| names | field_declaration | up | [185](../../magpie/internal/wslrun/wslrun.go#L185) |
+| ok | field_declaration | up | [186](../../magpie/internal/wslrun/wslrun.go#L186) |
+| upAge | const_spec |  | [194](../../magpie/internal/wslrun/wslrun.go#L194) |
+| upFailedAge | const_spec |  | [195](../../magpie/internal/wslrun/wslrun.go#L195) |
+| running | function_declaration |  | [200](../../magpie/internal/wslrun/wslrun.go#L200) |
+| Up | function_declaration |  | [223](../../magpie/internal/wslrun/wslrun.go#L223) |
+| Known | function_declaration |  | [233](../../magpie/internal/wslrun/wslrun.go#L233) |
+| Forget | function_declaration |  | [243](../../magpie/internal/wslrun/wslrun.go#L243) |
+| probeScript | function_declaration |  | [260](../../magpie/internal/wslrun/wslrun.go#L260) |
+| defaultPATH | const_spec |  | [273](../../magpie/internal/wslrun/wslrun.go#L273) |
+| parseProbe | function_declaration |  | [275](../../magpie/internal/wslrun/wslrun.go#L275) |
+| ipath | var_spec | parseProbe | [277](../../magpie/internal/wslrun/wslrun.go#L277) |
+| Nets | var_spec |  | [332](../../magpie/internal/wslrun/wslrun.go#L332) |
+| nets | function_declaration |  | [334](../../magpie/internal/wslrun/wslrun.go#L334) |
+| out | var_spec | nets | [342](../../magpie/internal/wslrun/wslrun.go#L342) |
+| HostAt | function_declaration |  | [368](../../magpie/internal/wslrun/wslrun.go#L368) |
+| in | var_spec | HostAt | [376](../../magpie/internal/wslrun/wslrun.go#L376) |
+| HostLoopback | function_declaration |  | [400](../../magpie/internal/wslrun/wslrun.go#L400) |
+| onPath | function_declaration |  | [408](../../magpie/internal/wslrun/wslrun.go#L408) |
+| Command | method_declaration |  | [422](../../magpie/internal/wslrun/wslrun.go#L422) |
+| Probe | method_declaration |  | [427](../../magpie/internal/wslrun/wslrun.go#L427) |
+| runVar | const_spec |  | [433](../../magpie/internal/wslrun/wslrun.go#L433) |
+| cancelable | method_declaration |  | [435](../../magpie/internal/wslrun/wslrun.go#L435) |
+| Stop | method_declaration |  | [453](../../magpie/internal/wslrun/wslrun.go#L453) |
+| stopScript | const_spec |  | [457](../../magpie/internal/wslrun/wslrun.go#L457) |
+| runSeq | var_spec |  | [461](../../magpie/internal/wslrun/wslrun.go#L461) |
+| n | field_declaration | runSeq | [463](../../magpie/internal/wslrun/wslrun.go#L463) |
+| Args | method_declaration |  | [468](../../magpie/internal/wslrun/wslrun.go#L468) |
+| argv | method_declaration |  | [470](../../magpie/internal/wslrun/wslrun.go#L470) |
+| Linux | method_declaration |  | [480](../../magpie/internal/wslrun/wslrun.go#L480) |
+| Windows | method_declaration |  | [494](../../magpie/internal/wslrun/wslrun.go#L494) |
+| isLetter | function_declaration |  | [498](../../magpie/internal/wslrun/wslrun.go#L498) |
+| proxyVars | var_spec |  | [501](../../magpie/internal/wslrun/wslrun.go#L501) |
+| Env | method_declaration |  | [508](../../magpie/internal/wslrun/wslrun.go#L508) |
+| pass | var_spec | Env | [514](../../magpie/internal/wslrun/wslrun.go#L514) |
+| proxy | method_declaration |  | [546](../../magpie/internal/wslrun/wslrun.go#L546) |
+| Distros | function_declaration |  | [568](../../magpie/internal/wslrun/wslrun.go#L568) |
+| out | var_spec | Distros | [570](../../magpie/internal/wslrun/wslrun.go#L570) |
+| decode | function_declaration |  | [581](../../magpie/internal/wslrun/wslrun.go#L581) |
+| Exe | method_declaration |  | [598](../../magpie/internal/wslrun/wslrun.go#L598) |

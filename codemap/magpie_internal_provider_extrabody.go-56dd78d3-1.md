@@ -4,23 +4,23 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/extrabody.go) · page 1/1
 
-Source SHA-256: 4885ba932bf470b6d215b22e9ef9f577f465095af05221041c30749b9003c3e6
+Source SHA-256: 41cda873d051d7c7be3673d53cef28a38f57f0475b0e3867910bb95d327b2107
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ExtraBody | type_spec |  | [49](../../magpie/internal/provider/extrabody.go#L49) |
-| UnmarshalJSON | method_declaration |  | [53](../../magpie/internal/provider/extrabody.go#L53) |
-| m | var_spec | UnmarshalJSON | [54](../../magpie/internal/provider/extrabody.go#L54) |
-| ExtraBodyReserved | var_spec |  | [67](../../magpie/internal/provider/extrabody.go#L67) |
-| codexOwned | var_spec |  | [73](../../magpie/internal/provider/extrabody.go#L73) |
-| extraBodyTakes | method_declaration |  | [77](../../magpie/internal/provider/extrabody.go#L77) |
-| SessionPlaceholder | const_spec |  | [89](../../magpie/internal/provider/extrabody.go#L89) |
-| extraName | function_declaration |  | [92](../../magpie/internal/provider/extrabody.go#L92) |
-| ExtraBodyOK | function_declaration |  | [98](../../magpie/internal/provider/extrabody.go#L98) |
-| cleanExtraBody | function_declaration |  | [119](../../magpie/internal/provider/extrabody.go#L119) |
-| WithExtraBody | method_declaration |  | [144](../../magpie/internal/provider/extrabody.go#L144) |
-| m | var_spec | WithExtraBody | [151](../../magpie/internal/provider/extrabody.go#L151) |
-| v | var_spec | WithExtraBody | [166](../../magpie/internal/provider/extrabody.go#L166) |
-| out | var_spec | WithExtraBody | [175](../../magpie/internal/provider/extrabody.go#L175) |
-| withSession | function_declaration |  | [186](../../magpie/internal/provider/extrabody.go#L186) |
-| tested | method_declaration |  | [205](../../magpie/internal/provider/extrabody.go#L205) |
+| ExtraBody | type_spec |  | [56](../../magpie/internal/provider/extrabody.go#L56) |
+| UnmarshalJSON | method_declaration |  | [60](../../magpie/internal/provider/extrabody.go#L60) |
+| m | var_spec | UnmarshalJSON | [61](../../magpie/internal/provider/extrabody.go#L61) |
+| ExtraBodyReserved | var_spec |  | [74](../../magpie/internal/provider/extrabody.go#L74) |
+| codexOwned | var_spec |  | [80](../../magpie/internal/provider/extrabody.go#L80) |
+| extraBodyTakes | method_declaration |  | [84](../../magpie/internal/provider/extrabody.go#L84) |
+| SessionPlaceholder | const_spec |  | [96](../../magpie/internal/provider/extrabody.go#L96) |
+| extraName | function_declaration |  | [99](../../magpie/internal/provider/extrabody.go#L99) |
+| ExtraBodyOK | function_declaration |  | [105](../../magpie/internal/provider/extrabody.go#L105) |
+| cleanExtraBody | function_declaration |  | [126](../../magpie/internal/provider/extrabody.go#L126) |
+| WithExtraBody | method_declaration |  | [152](../../magpie/internal/provider/extrabody.go#L152) |
+| m | var_spec | WithExtraBody | [159](../../magpie/internal/provider/extrabody.go#L159) |
+| v | var_spec | WithExtraBody | [174](../../magpie/internal/provider/extrabody.go#L174) |
+| out | var_spec | WithExtraBody | [183](../../magpie/internal/provider/extrabody.go#L183) |
+| withSession | function_declaration |  | [194](../../magpie/internal/provider/extrabody.go#L194) |
+| tested | method_declaration |  | [216](../../magpie/internal/provider/extrabody.go#L216) |

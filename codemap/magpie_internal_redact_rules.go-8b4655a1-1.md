@@ -4,28 +4,28 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/rules.go) · page 1/1
 
-Source SHA-256: 51a4415d832340c0aacfefa053f3c5c7cebb5af7eecf7d3bf299ad691b94a87c
+Source SHA-256: 9483861b367be5a4467462da8e74d12a367fa456b21f27f50b6d62e4411cc8e9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Rule | type_spec |  | [15](../../magpie/internal/redact/rules.go#L15) |
-| Kind | field_declaration | Rule | [16](../../magpie/internal/redact/rules.go#L16) |
-| Prefix | field_declaration | Rule | [17](../../magpie/internal/redact/rules.go#L17) |
-| Regex | field_declaration | Rule | [20](../../magpie/internal/redact/rules.go#L20) |
-| MaxRules | const_spec |  | [25](../../magpie/internal/redact/rules.go#L25) |
-| maxKind | const_spec |  | [26](../../magpie/internal/redact/rules.go#L26) |
-| maxPrefix | const_spec |  | [27](../../magpie/internal/redact/rules.go#L27) |
-| minPrefix | const_spec |  | [28](../../magpie/internal/redact/rules.go#L28) |
-| maxRegex | const_spec |  | [29](../../magpie/internal/redact/rules.go#L29) |
-| prefixTail | const_spec |  | [30](../../magpie/internal/redact/rules.go#L30) |
-| customKind | const_spec |  | [31](../../magpie/internal/redact/rules.go#L31) |
-| minCustomLen | const_spec |  | [32](../../magpie/internal/redact/rules.go#L32) |
-| RuleKind | function_declaration |  | [37](../../magpie/internal/redact/rules.go#L37) |
-| b | var_spec | RuleKind | [38](../../magpie/internal/redact/rules.go#L38) |
-| KindName | function_declaration |  | [62](../../magpie/internal/redact/rules.go#L62) |
-| CheckRules | function_declaration |  | [68](../../magpie/internal/redact/rules.go#L68) |
-| out | var_spec | CheckRules | [69](../../magpie/internal/redact/rules.go#L69) |
-| compile | method_declaration |  | [106](../../magpie/internal/redact/rules.go#L106) |
-| compiled | var_spec |  | [116](../../magpie/internal/redact/rules.go#L116) |
-| customRules | function_declaration |  | [119](../../magpie/internal/redact/rules.go#L119) |
-| out | var_spec | customRules | [120](../../magpie/internal/redact/rules.go#L120) |
+| Rule | type_spec |  | [17](../../magpie/internal/redact/rules.go#L17) |
+| Kind | field_declaration | Rule | [18](../../magpie/internal/redact/rules.go#L18) |
+| Prefix | field_declaration | Rule | [19](../../magpie/internal/redact/rules.go#L19) |
+| Regex | field_declaration | Rule | [22](../../magpie/internal/redact/rules.go#L22) |
+| MaxRules | const_spec |  | [27](../../magpie/internal/redact/rules.go#L27) |
+| maxKind | const_spec |  | [28](../../magpie/internal/redact/rules.go#L28) |
+| maxPrefix | const_spec |  | [29](../../magpie/internal/redact/rules.go#L29) |
+| minPrefix | const_spec |  | [30](../../magpie/internal/redact/rules.go#L30) |
+| maxRegex | const_spec |  | [31](../../magpie/internal/redact/rules.go#L31) |
+| prefixTail | const_spec |  | [32](../../magpie/internal/redact/rules.go#L32) |
+| customKind | const_spec |  | [33](../../magpie/internal/redact/rules.go#L33) |
+| minCustomLen | const_spec |  | [34](../../magpie/internal/redact/rules.go#L34) |
+| RuleKind | function_declaration |  | [39](../../magpie/internal/redact/rules.go#L39) |
+| b | var_spec | RuleKind | [40](../../magpie/internal/redact/rules.go#L40) |
+| KindName | function_declaration |  | [64](../../magpie/internal/redact/rules.go#L64) |
+| CheckRules | function_declaration |  | [70](../../magpie/internal/redact/rules.go#L70) |
+| out | var_spec | CheckRules | [71](../../magpie/internal/redact/rules.go#L71) |
+| compile | method_declaration |  | [108](../../magpie/internal/redact/rules.go#L108) |
+| compiled | var_spec |  | [118](../../magpie/internal/redact/rules.go#L118) |
+| customRules | function_declaration |  | [121](../../magpie/internal/redact/rules.go#L121) |
+| out | var_spec | customRules | [122](../../magpie/internal/redact/rules.go#L122) |

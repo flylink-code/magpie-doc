@@ -4,25 +4,43 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp_check.go) · page 2/2
 
-Source SHA-256: 110b83c22d13d7196b4717dfacad0d7971df75fe587ba27bdd888836fc15b9e0
+Source SHA-256: f3769469db48963a6c20b5fdd96411996b732cdea931fb6fdae91859f188c24e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| statusHealth | function_declaration |  | [759](../../magpie/internal/library/mcp_check.go#L759) |
-| checkHTTP | function_declaration |  | [765](../../magpie/internal/library/mcp_check.go#L765) |
-| call | var_spec | checkHTTP | [797](../../magpie/internal/library/mcp_check.go#L797) |
-| init | var_spec | checkHTTP | [849](../../magpie/internal/library/mcp_check.go#L849) |
-| ProtocolVersion | field_declaration | checkHTTP::init | [850](../../magpie/internal/library/mcp_check.go#L850) |
-| endSession | function_declaration |  | [870](../../magpie/internal/library/mcp_check.go#L870) |
-| replyOf | function_declaration |  | [888](../../magpie/internal/library/mcp_check.go#L888) |
-| m | var_spec | replyOf | [897](../../magpie/internal/library/mcp_check.go#L897) |
-| m | var_spec | replyOf | [908](../../magpie/internal/library/mcp_check.go#L908) |
-| snippet | function_declaration |  | [915](../../magpie/internal/library/mcp_check.go#L915) |
-| sseEvent | type_spec |  | [923](../../magpie/internal/library/mcp_check.go#L923) |
-| name | field_declaration | sseEvent | [923](../../magpie/internal/library/mcp_check.go#L923) |
-| sseEvents | function_declaration |  | [927](../../magpie/internal/library/mcp_check.go#L927) |
-| e | var_spec | sseEvents | [933](../../magpie/internal/library/mcp_check.go#L933) |
-| data | var_spec | sseEvents | [934](../../magpie/internal/library/mcp_check.go#L934) |
-| checkSSE | function_declaration |  | [960](../../magpie/internal/library/mcp_check.go#L960) |
-| endpoint | var_spec | checkSSE | [1002](../../magpie/internal/library/mcp_check.go#L1002) |
-| m | var_spec | checkSSE | [1049](../../magpie/internal/library/mcp_check.go#L1049) |
+| ee | var_spec | exitHealth | [796](../../magpie/internal/library/mcp_check.go#L796) |
+| remoteHeaders | function_declaration |  | [807](../../magpie/internal/library/mcp_check.go#L807) |
+| netHealth | function_declaration |  | [833](../../magpie/internal/library/mcp_check.go#L833) |
+| ue | var_spec | netHealth | [840](../../magpie/internal/library/mcp_check.go#L840) |
+| dns | var_spec | netHealth | [844](../../magpie/internal/library/mcp_check.go#L844) |
+| refused | function_declaration |  | [853](../../magpie/internal/library/mcp_check.go#L853) |
+| statusHealth | function_declaration |  | [857](../../magpie/internal/library/mcp_check.go#L857) |
+| httpSession | type_spec |  | [867](../../magpie/internal/library/mcp_check.go#L867) |
+| s | field_declaration | httpSession | [868](../../magpie/internal/library/mcp_check.go#L868) |
+| mu | field_declaration | httpSession | [870](../../magpie/internal/library/mcp_check.go#L870) |
+| hdr | field_declaration | httpSession | [871](../../magpie/internal/library/mcp_check.go#L871) |
+| tok | field_declaration | httpSession | [876](../../magpie/internal/library/mcp_check.go#L876) |
+| renewed | field_declaration | httpSession | [877](../../magpie/internal/library/mcp_check.go#L877) |
+| session | field_declaration | httpSession | [878](../../magpie/internal/library/mcp_check.go#L878) |
+| init | field_declaration | httpSession | [880](../../magpie/internal/library/mcp_check.go#L880) |
+| newHTTPSession | function_declaration |  | [883](../../magpie/internal/library/mcp_check.go#L883) |
+| post | method_declaration |  | [895](../../magpie/internal/library/mcp_check.go#L895) |
+| call | method_declaration |  | [917](../../magpie/internal/library/mcp_check.go#L917) |
+| initialize | method_declaration |  | [969](../../magpie/internal/library/mcp_check.go#L969) |
+| r | var_spec | initialize | [977](../../magpie/internal/library/mcp_check.go#L977) |
+| ProtocolVersion | field_declaration | initialize::r | [978](../../magpie/internal/library/mcp_check.go#L978) |
+| end | method_declaration |  | [998](../../magpie/internal/library/mcp_check.go#L998) |
+| checkHTTP | function_declaration |  | [1007](../../magpie/internal/library/mcp_check.go#L1007) |
+| endSession | function_declaration |  | [1021](../../magpie/internal/library/mcp_check.go#L1021) |
+| replyOf | function_declaration |  | [1039](../../magpie/internal/library/mcp_check.go#L1039) |
+| m | var_spec | replyOf | [1048](../../magpie/internal/library/mcp_check.go#L1048) |
+| m | var_spec | replyOf | [1059](../../magpie/internal/library/mcp_check.go#L1059) |
+| snippet | function_declaration |  | [1066](../../magpie/internal/library/mcp_check.go#L1066) |
+| sseEvent | type_spec |  | [1074](../../magpie/internal/library/mcp_check.go#L1074) |
+| name | field_declaration | sseEvent | [1074](../../magpie/internal/library/mcp_check.go#L1074) |
+| sseEvents | function_declaration |  | [1078](../../magpie/internal/library/mcp_check.go#L1078) |
+| e | var_spec | sseEvents | [1084](../../magpie/internal/library/mcp_check.go#L1084) |
+| data | var_spec | sseEvents | [1085](../../magpie/internal/library/mcp_check.go#L1085) |
+| checkSSE | function_declaration |  | [1111](../../magpie/internal/library/mcp_check.go#L1111) |
+| endpoint | var_spec | checkSSE | [1153](../../magpie/internal/library/mcp_check.go#L1153) |
+| m | var_spec | checkSSE | [1200](../../magpie/internal/library/mcp_check.go#L1200) |

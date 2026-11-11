@@ -4,21 +4,24 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/groupeffort.go) · page 1/1
 
-Source SHA-256: be1e2b1704a3690a9f253f7e8024974e3afee6826307cc9b9b228a7faa291446
+Source SHA-256: 7ba26108c3a903b7a3980267343fb72324c504deacc36ab069e3cec135313d44
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| MemberEfforts | var_spec |  | [33](../../magpie/internal/provider/groupeffort.go#L33) |
-| MemberEffort | function_declaration |  | [39](../../magpie/internal/provider/groupeffort.go#L39) |
-| memberEffortIn | function_declaration |  | [45](../../magpie/internal/provider/groupeffort.go#L45) |
-| isModel | function_declaration |  | [63](../../magpie/internal/provider/groupeffort.go#L63) |
-| providersLooked | var_spec |  | [76](../../magpie/internal/provider/groupeffort.go#L76) |
-| providersHave | function_declaration |  | [79](../../magpie/internal/provider/groupeffort.go#L79) |
-| ps | var_spec | providersHave | [82](../../magpie/internal/provider/groupeffort.go#L82) |
-| WithMemberEffort | function_declaration |  | [100](../../magpie/internal/provider/groupeffort.go#L100) |
-| cleanMember | function_declaration |  | [109](../../magpie/internal/provider/groupeffort.go#L109) |
-| fixedLevels | function_declaration |  | [116](../../magpie/internal/provider/groupeffort.go#L116) |
-| out | var_spec | fixedLevels | [117](../../magpie/internal/provider/groupeffort.go#L117) |
-| CleanLevels | function_declaration |  | [129](../../magpie/internal/provider/groupeffort.go#L129) |
-| want | var_spec | CleanLevels | [130](../../magpie/internal/provider/groupeffort.go#L130) |
-| out | var_spec | CleanLevels | [141](../../magpie/internal/provider/groupeffort.go#L141) |
+| MemberEfforts | var_spec |  | [41](../../magpie/internal/provider/groupeffort.go#L41) |
+| MemberEffort | function_declaration |  | [47](../../magpie/internal/provider/groupeffort.go#L47) |
+| memberEffortIn | function_declaration |  | [54](../../magpie/internal/provider/groupeffort.go#L54) |
+| memberLevelsSpelled | function_declaration |  | [73](../../magpie/internal/provider/groupeffort.go#L73) |
+| MemberLevels | function_declaration |  | [86](../../magpie/internal/provider/groupeffort.go#L86) |
+| Spelled | method_declaration |  | [95](../../magpie/internal/provider/groupeffort.go#L95) |
+| isModel | function_declaration |  | [102](../../magpie/internal/provider/groupeffort.go#L102) |
+| providersLooked | var_spec |  | [115](../../magpie/internal/provider/groupeffort.go#L115) |
+| providersHave | function_declaration |  | [118](../../magpie/internal/provider/groupeffort.go#L118) |
+| ps | var_spec | providersHave | [121](../../magpie/internal/provider/groupeffort.go#L121) |
+| WithMemberEffort | function_declaration |  | [139](../../magpie/internal/provider/groupeffort.go#L139) |
+| cleanMember | function_declaration |  | [149](../../magpie/internal/provider/groupeffort.go#L149) |
+| fixedLevels | function_declaration |  | [160](../../magpie/internal/provider/groupeffort.go#L160) |
+| out | var_spec | fixedLevels | [161](../../magpie/internal/provider/groupeffort.go#L161) |
+| CleanLevels | function_declaration |  | [173](../../magpie/internal/provider/groupeffort.go#L173) |
+| want | var_spec | CleanLevels | [174](../../magpie/internal/provider/groupeffort.go#L174) |
+| out | var_spec | CleanLevels | [185](../../magpie/internal/provider/groupeffort.go#L185) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/gone.go) · page 1/1
 
-Source SHA-256: e166bde1feafcfb3a6aeec8788f675a3712ef9356ad7c036d6690ef383786a37
+Source SHA-256: f7cb231ed193382d90e06f22de7ab42ccee78337d9997c0747dcde56be837f32
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,9 +12,9 @@ Source SHA-256: e166bde1feafcfb3a6aeec8788f675a3712ef9356ad7c036d6690ef383786a37
 | goneOS | var_spec |  | [29](../../magpie/internal/agent/gone.go#L29) |
 | cliHeld | method_declaration |  | [34](../../magpie/internal/agent/gone.go#L34) |
 | at | var_spec | cliHeld | [57](../../magpie/internal/agent/gone.go#L57) |
-| extensionHere | function_declaration |  | [132](../../magpie/internal/agent/gone.go#L132) |
-| appHere | function_declaration |  | [156](../../magpie/internal/agent/gone.go#L156) |
-| jetBrainsHere | function_declaration |  | [171](../../magpie/internal/agent/gone.go#L171) |
-| dirs | var_spec | jetBrainsHere | [172](../../magpie/internal/agent/gone.go#L172) |
-| zedAgentsHere | function_declaration |  | [190](../../magpie/internal/agent/gone.go#L190) |
-| d | var_spec | zedAgentsHere | [191](../../magpie/internal/agent/gone.go#L191) |
+| extensionHere | function_declaration |  | [137](../../magpie/internal/agent/gone.go#L137) |
+| appHere | function_declaration |  | [161](../../magpie/internal/agent/gone.go#L161) |
+| jetBrainsHere | function_declaration |  | [176](../../magpie/internal/agent/gone.go#L176) |
+| dirs | var_spec | jetBrainsHere | [177](../../magpie/internal/agent/gone.go#L177) |
+| zedAgentsHere | function_declaration |  | [195](../../magpie/internal/agent/gone.go#L195) |
+| d | var_spec | zedAgentsHere | [196](../../magpie/internal/agent/gone.go#L196) |

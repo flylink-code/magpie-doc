@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/pimcp.go) · page 1/1
 
-Source SHA-256: 690bd282e0c8ed2f50f080ad6e61ecd7af44ba0854ec9b7b44ce9382b33145d4
+Source SHA-256: e44df7a35e37b8db9fdfd4424edfeaa61278db0b90c898e1a24714d432524390
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,35 +18,37 @@ Source SHA-256: 690bd282e0c8ed2f50f080ad6e61ecd7af44ba0854ec9b7b44ce9382b33145d4
 | piNative | function_declaration |  | [72](../../magpie/internal/library/pimcp.go#L72) |
 | piGlobalRoots | var_spec |  | [78](../../magpie/internal/library/pimcp.go#L78) |
 | out | var_spec | piGlobalRoots | [79](../../magpie/internal/library/pimcp.go#L79) |
-| piPackageName | function_declaration |  | [103](../../magpie/internal/library/pimcp.go#L103) |
-| piDetect | function_declaration |  | [128](../../magpie/internal/library/pimcp.go#L128) |
-| p | var_spec | piDetect | [129](../../magpie/internal/library/pimcp.go#L129) |
-| settings | var_spec | piDetect | [130](../../magpie/internal/library/pimcp.go#L130) |
-| Packages | field_declaration | piDetect::settings | [131](../../magpie/internal/library/pimcp.go#L131) |
-| Extensions | field_declaration | piDetect::settings | [132](../../magpie/internal/library/pimcp.go#L132) |
-| specs | var_spec | piDetect | [137](../../magpie/internal/library/pimcp.go#L137) |
-| s | var_spec | piDetect | [139](../../magpie/internal/library/pimcp.go#L139) |
-| o | var_spec | piDetect | [140](../../magpie/internal/library/pimcp.go#L140) |
-| Source | field_declaration | piDetect::o | [141](../../magpie/internal/library/pimcp.go#L141) |
-| Extensions | field_declaration | piDetect::o | [142](../../magpie/internal/library/pimcp.go#L142) |
-| Autoload | field_declaration | piDetect::o | [143](../../magpie/internal/library/pimcp.go#L143) |
-| pkg | var_spec | piDetect | [164](../../magpie/internal/library/pimcp.go#L164) |
-| Name | field_declaration | piDetect::pkg | [164](../../magpie/internal/library/pimcp.go#L164) |
-| pin | var_spec | piDetect | [171](../../magpie/internal/library/pimcp.go#L171) |
-| dirs | var_spec | piDetect | [172](../../magpie/internal/library/pimcp.go#L172) |
-| piMCP | function_declaration |  | [248](../../magpie/internal/library/pimcp.go#L248) |
-| piFiles | function_declaration |  | [291](../../magpie/internal/library/pimcp.go#L291) |
-| piKey | var_spec |  | [322](../../magpie/internal/library/pimcp.go#L322) |
-| piMove | function_declaration |  | [334](../../magpie/internal/library/pimcp.go#L334) |
-| doc | var_spec | piMove | [339](../../magpie/internal/library/pimcp.go#L339) |
-| have | var_spec | piMove | [351](../../magpie/internal/library/pimcp.go#L351) |
-| haveServers | var_spec | piMove | [355](../../magpie/internal/library/pimcp.go#L355) |
-| x | var_spec | piMove | [361](../../magpie/internal/library/pimcp.go#L361) |
-| put | var_spec | piMove | [364](../../magpie/internal/library/pimcp.go#L364) |
-| del | var_spec | piMove | [365](../../magpie/internal/library/pimcp.go#L365) |
-| servers | var_spec | piMove | [367](../../magpie/internal/library/pimcp.go#L367) |
-| m | var_spec | piMove | [423](../../magpie/internal/library/pimcp.go#L423) |
-| piSettings | function_declaration |  | [436](../../magpie/internal/library/pimcp.go#L436) |
-| piHasContent | function_declaration |  | [445](../../magpie/internal/library/pimcp.go#L445) |
-| m | var_spec | piHasContent | [447](../../magpie/internal/library/pimcp.go#L447) |
-| orEmpty | function_declaration |  | [460](../../magpie/internal/library/pimcp.go#L460) |
+| wslPiRoots | function_declaration |  | [104](../../magpie/internal/library/pimcp.go#L104) |
+| piPackageName | function_declaration |  | [120](../../magpie/internal/library/pimcp.go#L120) |
+| piDetect | function_declaration |  | [145](../../magpie/internal/library/pimcp.go#L145) |
+| piDetectIn | function_declaration |  | [149](../../magpie/internal/library/pimcp.go#L149) |
+| p | var_spec | piDetectIn | [150](../../magpie/internal/library/pimcp.go#L150) |
+| settings | var_spec | piDetectIn | [151](../../magpie/internal/library/pimcp.go#L151) |
+| Packages | field_declaration | piDetectIn::settings | [152](../../magpie/internal/library/pimcp.go#L152) |
+| Extensions | field_declaration | piDetectIn::settings | [153](../../magpie/internal/library/pimcp.go#L153) |
+| specs | var_spec | piDetectIn | [158](../../magpie/internal/library/pimcp.go#L158) |
+| s | var_spec | piDetectIn | [160](../../magpie/internal/library/pimcp.go#L160) |
+| o | var_spec | piDetectIn | [161](../../magpie/internal/library/pimcp.go#L161) |
+| Source | field_declaration | piDetectIn::o | [162](../../magpie/internal/library/pimcp.go#L162) |
+| Extensions | field_declaration | piDetectIn::o | [163](../../magpie/internal/library/pimcp.go#L163) |
+| Autoload | field_declaration | piDetectIn::o | [164](../../magpie/internal/library/pimcp.go#L164) |
+| pkg | var_spec | piDetectIn | [185](../../magpie/internal/library/pimcp.go#L185) |
+| Name | field_declaration | piDetectIn::pkg | [185](../../magpie/internal/library/pimcp.go#L185) |
+| pin | var_spec | piDetectIn | [192](../../magpie/internal/library/pimcp.go#L192) |
+| dirs | var_spec | piDetectIn | [193](../../magpie/internal/library/pimcp.go#L193) |
+| piMCP | function_declaration |  | [269](../../magpie/internal/library/pimcp.go#L269) |
+| piFiles | function_declaration |  | [312](../../magpie/internal/library/pimcp.go#L312) |
+| piKey | var_spec |  | [343](../../magpie/internal/library/pimcp.go#L343) |
+| piMove | function_declaration |  | [355](../../magpie/internal/library/pimcp.go#L355) |
+| doc | var_spec | piMove | [360](../../magpie/internal/library/pimcp.go#L360) |
+| have | var_spec | piMove | [372](../../magpie/internal/library/pimcp.go#L372) |
+| haveServers | var_spec | piMove | [376](../../magpie/internal/library/pimcp.go#L376) |
+| x | var_spec | piMove | [382](../../magpie/internal/library/pimcp.go#L382) |
+| put | var_spec | piMove | [385](../../magpie/internal/library/pimcp.go#L385) |
+| del | var_spec | piMove | [386](../../magpie/internal/library/pimcp.go#L386) |
+| servers | var_spec | piMove | [388](../../magpie/internal/library/pimcp.go#L388) |
+| m | var_spec | piMove | [444](../../magpie/internal/library/pimcp.go#L444) |
+| piSettings | function_declaration |  | [457](../../magpie/internal/library/pimcp.go#L457) |
+| piHasContent | function_declaration |  | [466](../../magpie/internal/library/pimcp.go#L466) |
+| m | var_spec | piHasContent | [468](../../magpie/internal/library/pimcp.go#L468) |
+| orEmpty | function_declaration |  | [481](../../magpie/internal/library/pimcp.go#L481) |

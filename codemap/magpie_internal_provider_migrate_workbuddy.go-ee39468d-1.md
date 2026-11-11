@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/migrate_workbuddy.go) · page 1/1
 
-Source SHA-256: 1c201eff845e74a29fc51730c0c51a48eebb2519960d07592afbbd4e306698ad
+Source SHA-256: c585f655666734c92e7e841c872a22350ae17cb2382fdba77363573dc2fa07ba
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

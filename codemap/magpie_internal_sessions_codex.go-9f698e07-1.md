@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex.go) · page 1/2
 
-Source SHA-256: fca6347fe4102874f616389bc5bdd6c48a0026b5951876c4f2fdc879f261d03e
+Source SHA-256: 70431a8df74941df8df0b34ea3035e7c5641a178eb30c779c00c365d09ee3186
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cxLine | type_spec |  | [19](../../magpie/internal/sessions/codex.go#L19) |
-| Type | field_declaration | cxLine | [20](../../magpie/internal/sessions/codex.go#L20) |
-| Payload | field_declaration | cxLine | [21](../../magpie/internal/sessions/codex.go#L21) |
-| Type | field_declaration | cxLine::Payload | [24](../../magpie/internal/sessions/codex.go#L24) |
-| SessionID | field_declaration | cxLine::Payload | [25](../../magpie/internal/sessions/codex.go#L25) |
-| ThreadID | field_declaration | cxLine::Payload | [26](../../magpie/internal/sessions/codex.go#L26) |
-| ParentThreadID | field_declaration | cxLine::Payload | [27](../../magpie/internal/sessions/codex.go#L27) |
-| Source | field_declaration | cxLine::Payload | [28](../../magpie/internal/sessions/codex.go#L28) |
-| TurnID | field_declaration | cxLine::Payload | [29](../../magpie/internal/sessions/codex.go#L29) |
-| ResponseID | field_declaration | cxLine::Payload | [30](../../magpie/internal/sessions/codex.go#L30) |
-| Usage | field_declaration | cxLine::Payload | [31](../../magpie/internal/sessions/codex.go#L31) |
-| ThreadUsage | field_declaration | cxLine::Payload | [32](../../magpie/internal/sessions/codex.go#L32) |
-| ID | field_declaration | cxLine::Payload | [33](../../magpie/internal/sessions/codex.go#L33) |
-| Cwd | field_declaration | cxLine::Payload | [34](../../magpie/internal/sessions/codex.go#L34) |
-| Model | field_declaration | cxLine::Payload | [35](../../magpie/internal/sessions/codex.go#L35) |
-| ModelProvider | field_declaration | cxLine::Payload | [37](../../magpie/internal/sessions/codex.go#L37) |
-| Role | field_declaration | cxLine::Payload | [38](../../magpie/internal/sessions/codex.go#L38) |
-| Message | field_declaration | cxLine::Payload | [39](../../magpie/internal/sessions/codex.go#L39) |
-| AgentNickname | field_declaration | cxLine::Payload | [40](../../magpie/internal/sessions/codex.go#L40) |
-| CallID | field_declaration | cxLine::Payload | [41](../../magpie/internal/sessions/codex.go#L41) |
-| Name | field_declaration | cxLine::Payload | [42](../../magpie/internal/sessions/codex.go#L42) |
-| Arguments | field_declaration | cxLine::Payload | [43](../../magpie/internal/sessions/codex.go#L43) |
-| EventID | field_declaration | cxLine::Payload | [45](../../magpie/internal/sessions/codex.go#L45) |
-| AgentThreadID | field_declaration | cxLine::Payload | [46](../../magpie/internal/sessions/codex.go#L46) |
-| Kind | field_declaration | cxLine::Payload | [47](../../magpie/internal/sessions/codex.go#L47) |
-| Item | field_declaration | cxLine::Payload | [48](../../magpie/internal/sessions/codex.go#L48) |
-| ID | field_declaration | cxLine::Payload::Item | [49](../../magpie/internal/sessions/codex.go#L49) |
-| Type | field_declaration | cxLine::Payload::Item | [50](../../magpie/internal/sessions/codex.go#L50) |
-| Kind | field_declaration | cxLine::Payload::Item | [51](../../magpie/internal/sessions/codex.go#L51) |
-| AgentThreadID | field_declaration | cxLine::Payload::Item | [52](../../magpie/internal/sessions/codex.go#L52) |
-| Content | field_declaration | cxLine::Payload | [54](../../magpie/internal/sessions/codex.go#L54) |
-| Type | field_declaration | cxLine::Payload::Content | [55](../../magpie/internal/sessions/codex.go#L55) |
-| Text | field_declaration | cxLine::Payload::Content | [56](../../magpie/internal/sessions/codex.go#L56) |
-| Settings | field_declaration | cxLine::Payload | [58](../../magpie/internal/sessions/codex.go#L58) |
-| Model | field_declaration | cxLine::Payload::Settings | [59](../../magpie/internal/sessions/codex.go#L59) |
-| Cwd | field_declaration | cxLine::Payload::Settings | [60](../../magpie/internal/sessions/codex.go#L60) |
-| Info | field_declaration | cxLine::Payload | [62](../../magpie/internal/sessions/codex.go#L62) |
-| Total | field_declaration | cxLine::Payload::Info | [63](../../magpie/internal/sessions/codex.go#L63) |
-| Last | field_declaration | cxLine::Payload::Info | [64](../../magpie/internal/sessions/codex.go#L64) |
-| cxUsage | type_spec |  | [69](../../magpie/internal/sessions/codex.go#L69) |
-| Input | field_declaration | cxUsage | [70](../../magpie/internal/sessions/codex.go#L70) |
-| Cached | field_declaration | cxUsage | [71](../../magpie/internal/sessions/codex.go#L71) |
-| CacheWrite | field_declaration | cxUsage | [72](../../magpie/internal/sessions/codex.go#L72) |
-| Output | field_declaration | cxUsage | [73](../../magpie/internal/sessions/codex.go#L73) |
-| Reasoning | field_declaration | cxUsage | [74](../../magpie/internal/sessions/codex.go#L74) |
-| Known | field_declaration | cxUsage | [75](../../magpie/internal/sessions/codex.go#L75) |
-| raw | method_declaration |  | [79](../../magpie/internal/sessions/codex.go#L79) |
-| spent | function_declaration |  | [87](../../magpie/internal/sessions/codex.go#L87) |
-| cxMeta | var_spec |  | [96](../../magpie/internal/sessions/codex.go#L96) |
-| cxTurn | var_spec |  | [97](../../magpie/internal/sessions/codex.go#L97) |
-| cxRecord | var_spec |  | [98](../../magpie/internal/sessions/codex.go#L98) |
-| cxCompacted | var_spec |  | [99](../../magpie/internal/sessions/codex.go#L99) |
-| cxCount | var_spec |  | [100](../../magpie/internal/sessions/codex.go#L100) |
-| cxSettings | var_spec |  | [101](../../magpie/internal/sessions/codex.go#L101) |
-| cxUserMsg | var_spec |  | [102](../../magpie/internal/sessions/codex.go#L102) |
-| cxUserRole | var_spec |  | [103](../../magpie/internal/sessions/codex.go#L103) |
-| cxRole | var_spec |  | [104](../../magpie/internal/sessions/codex.go#L104) |
-| cxType | var_spec |  | [105](../../magpie/internal/sessions/codex.go#L105) |
-| cxPayload | var_spec |  | [106](../../magpie/internal/sessions/codex.go#L106) |
-| cxText | var_spec |  | [107](../../magpie/internal/sessions/codex.go#L107) |
-| cxSpawnAgent | var_spec |  | [108](../../magpie/internal/sessions/codex.go#L108) |
-| cxSubAgentActivity | var_spec |  | [109](../../magpie/internal/sessions/codex.go#L109) |
-| cxSubAgentEvent | var_spec |  | [110](../../magpie/internal/sessions/codex.go#L110) |
-| cxStartedKind | var_spec |  | [111](../../magpie/internal/sessions/codex.go#L111) |
-| codexLine | function_declaration |  | [114](../../magpie/internal/sessions/codex.go#L114) |
-| codexHead | function_declaration |  | [124](../../magpie/internal/sessions/codex.go#L124) |
-| cxCalls | var_spec |  | [178](../../magpie/internal/sessions/codex.go#L178) |
-| cxName | var_spec |  | [180](../../magpie/internal/sessions/codex.go#L180) |
-| codexRoleMain | const_spec |  | [183](../../magpie/internal/sessions/codex.go#L183) |
-| codexRoleSubagent | const_spec |  | [184](../../magpie/internal/sessions/codex.go#L184) |
-| codexRoleUnknown | const_spec |  | [185](../../magpie/internal/sessions/codex.go#L185) |
-| codexIdentityFromMeta | function_declaration |  | [188](../../magpie/internal/sessions/codex.go#L188) |
-| codexSource | function_declaration |  | [204](../../magpie/internal/sessions/codex.go#L204) |
-| name | var_spec | codexSource | [205](../../magpie/internal/sessions/codex.go#L205) |
-| variants | var_spec | codexSource | [214](../../magpie/internal/sessions/codex.go#L214) |
-| custom | var_spec | codexSource | [219](../../magpie/internal/sessions/codex.go#L219) |
-| kind | var_spec | codexSource | [229](../../magpie/internal/sessions/codex.go#L229) |
-| thread | var_spec | codexSource | [237](../../magpie/internal/sessions/codex.go#L237) |
-| Parent | field_declaration | codexSource::thread | [238](../../magpie/internal/sessions/codex.go#L238) |
-| mergeCodexIdentity | function_declaration |  | [246](../../magpie/internal/sessions/codex.go#L246) |
-| noteCodexIdentity | function_declaration |  | [260](../../magpie/internal/sessions/codex.go#L260) |
-| CodexIdentities | function_declaration |  | [280](../../magpie/internal/sessions/codex.go#L280) |
-| codexIdentitiesOf | function_declaration |  | [284](../../magpie/internal/sessions/codex.go#L284) |
-| setSessionCodexIdentity | function_declaration |  | [296](../../magpie/internal/sessions/codex.go#L296) |
-| codexTaskTitle | type_spec |  | [308](../../magpie/internal/sessions/codex.go#L308) |
-| child | field_declaration | codexTaskTitle | [309](../../magpie/internal/sessions/codex.go#L309) |
-| parent | field_declaration | codexTaskTitle | [310](../../magpie/internal/sessions/codex.go#L310) |
-| codexSubagentTaskTitles | function_declaration |  | [313](../../magpie/internal/sessions/codex.go#L313) |
-| parentCalls | type_spec | codexSubagentTaskTitles | [314](../../magpie/internal/sessions/codex.go#L314) |
-| names | field_declaration | codexSubagentTaskTitles::parentCalls | [315](../../magpie/internal/sessions/codex.go#L315) |
-| children | field_declaration | codexSubagentTaskTitles::parentCalls | [316](../../magpie/internal/sessions/codex.go#L316) |
-| badNames | field_declaration | codexSubagentTaskTitles::parentCalls | [317](../../magpie/internal/sessions/codex.go#L317) |
-| badChildren | field_declaration | codexSubagentTaskTitles::parentCalls | [318](../../magpie/internal/sessions/codex.go#L318) |
-| codexTaskParentFiles | function_declaration |  | [372](../../magpie/internal/sessions/codex.go#L372) |
-| out | var_spec | codexTaskParentFiles | [383](../../magpie/internal/sessions/codex.go#L383) |
-| codexAgentStarted | method_declaration |  | [393](../../magpie/internal/sessions/codex.go#L393) |
-| setSessionCodexTaskTitle | function_declaration |  | [410](../../magpie/internal/sessions/codex.go#L410) |
-| codexIdentitySnapshot | function_declaration |  | [419](../../magpie/internal/sessions/codex.go#L419) |
-| codexRoot | function_declaration |  | [476](../../magpie/internal/sessions/codex.go#L476) |
-| typeAfter | function_declaration |  | [501](../../magpie/internal/sessions/codex.go#L501) |
+| cxLine | type_spec |  | [24](../../magpie/internal/sessions/codex.go#L24) |
+| Type | field_declaration | cxLine | [25](../../magpie/internal/sessions/codex.go#L25) |
+| Payload | field_declaration | cxLine | [26](../../magpie/internal/sessions/codex.go#L26) |
+| Type | field_declaration | cxLine::Payload | [29](../../magpie/internal/sessions/codex.go#L29) |
+| SessionID | field_declaration | cxLine::Payload | [30](../../magpie/internal/sessions/codex.go#L30) |
+| ThreadID | field_declaration | cxLine::Payload | [31](../../magpie/internal/sessions/codex.go#L31) |
+| ParentThreadID | field_declaration | cxLine::Payload | [32](../../magpie/internal/sessions/codex.go#L32) |
+| ForkedFrom | field_declaration | cxLine::Payload | [33](../../magpie/internal/sessions/codex.go#L33) |
+| Source | field_declaration | cxLine::Payload | [34](../../magpie/internal/sessions/codex.go#L34) |
+| TurnID | field_declaration | cxLine::Payload | [35](../../magpie/internal/sessions/codex.go#L35) |
+| ResponseID | field_declaration | cxLine::Payload | [36](../../magpie/internal/sessions/codex.go#L36) |
+| Usage | field_declaration | cxLine::Payload | [37](../../magpie/internal/sessions/codex.go#L37) |
+| ThreadUsage | field_declaration | cxLine::Payload | [38](../../magpie/internal/sessions/codex.go#L38) |
+| ID | field_declaration | cxLine::Payload | [39](../../magpie/internal/sessions/codex.go#L39) |
+| Cwd | field_declaration | cxLine::Payload | [40](../../magpie/internal/sessions/codex.go#L40) |
+| Model | field_declaration | cxLine::Payload | [41](../../magpie/internal/sessions/codex.go#L41) |
+| ModelProvider | field_declaration | cxLine::Payload | [43](../../magpie/internal/sessions/codex.go#L43) |
+| Role | field_declaration | cxLine::Payload | [44](../../magpie/internal/sessions/codex.go#L44) |
+| Message | field_declaration | cxLine::Payload | [45](../../magpie/internal/sessions/codex.go#L45) |
+| AgentNickname | field_declaration | cxLine::Payload | [46](../../magpie/internal/sessions/codex.go#L46) |
+| CallID | field_declaration | cxLine::Payload | [47](../../magpie/internal/sessions/codex.go#L47) |
+| Name | field_declaration | cxLine::Payload | [48](../../magpie/internal/sessions/codex.go#L48) |
+| Arguments | field_declaration | cxLine::Payload | [49](../../magpie/internal/sessions/codex.go#L49) |
+| EventID | field_declaration | cxLine::Payload | [51](../../magpie/internal/sessions/codex.go#L51) |
+| AgentThreadID | field_declaration | cxLine::Payload | [52](../../magpie/internal/sessions/codex.go#L52) |
+| Kind | field_declaration | cxLine::Payload | [53](../../magpie/internal/sessions/codex.go#L53) |
+| Item | field_declaration | cxLine::Payload | [54](../../magpie/internal/sessions/codex.go#L54) |
+| ID | field_declaration | cxLine::Payload::Item | [55](../../magpie/internal/sessions/codex.go#L55) |
+| Type | field_declaration | cxLine::Payload::Item | [56](../../magpie/internal/sessions/codex.go#L56) |
+| Kind | field_declaration | cxLine::Payload::Item | [57](../../magpie/internal/sessions/codex.go#L57) |
+| AgentThreadID | field_declaration | cxLine::Payload::Item | [58](../../magpie/internal/sessions/codex.go#L58) |
+| Content | field_declaration | cxLine::Payload | [60](../../magpie/internal/sessions/codex.go#L60) |
+| Type | field_declaration | cxLine::Payload::Content | [61](../../magpie/internal/sessions/codex.go#L61) |
+| Text | field_declaration | cxLine::Payload::Content | [62](../../magpie/internal/sessions/codex.go#L62) |
+| Settings | field_declaration | cxLine::Payload | [64](../../magpie/internal/sessions/codex.go#L64) |
+| Model | field_declaration | cxLine::Payload::Settings | [65](../../magpie/internal/sessions/codex.go#L65) |
+| Cwd | field_declaration | cxLine::Payload::Settings | [66](../../magpie/internal/sessions/codex.go#L66) |
+| Info | field_declaration | cxLine::Payload | [68](../../magpie/internal/sessions/codex.go#L68) |
+| Total | field_declaration | cxLine::Payload::Info | [69](../../magpie/internal/sessions/codex.go#L69) |
+| Last | field_declaration | cxLine::Payload::Info | [70](../../magpie/internal/sessions/codex.go#L70) |
+| cxUsage | type_spec |  | [75](../../magpie/internal/sessions/codex.go#L75) |
+| Input | field_declaration | cxUsage | [76](../../magpie/internal/sessions/codex.go#L76) |
+| Cached | field_declaration | cxUsage | [77](../../magpie/internal/sessions/codex.go#L77) |
+| CacheWrite | field_declaration | cxUsage | [78](../../magpie/internal/sessions/codex.go#L78) |
+| Output | field_declaration | cxUsage | [79](../../magpie/internal/sessions/codex.go#L79) |
+| Reasoning | field_declaration | cxUsage | [80](../../magpie/internal/sessions/codex.go#L80) |
+| Known | field_declaration | cxUsage | [81](../../magpie/internal/sessions/codex.go#L81) |
+| raw | method_declaration |  | [85](../../magpie/internal/sessions/codex.go#L85) |
+| spent | function_declaration |  | [93](../../magpie/internal/sessions/codex.go#L93) |
+| cxMeta | var_spec |  | [102](../../magpie/internal/sessions/codex.go#L102) |
+| cxTurn | var_spec |  | [103](../../magpie/internal/sessions/codex.go#L103) |
+| cxRecord | var_spec |  | [104](../../magpie/internal/sessions/codex.go#L104) |
+| cxCompacted | var_spec |  | [105](../../magpie/internal/sessions/codex.go#L105) |
+| cxCount | var_spec |  | [106](../../magpie/internal/sessions/codex.go#L106) |
+| cxSettings | var_spec |  | [107](../../magpie/internal/sessions/codex.go#L107) |
+| cxUserMsg | var_spec |  | [108](../../magpie/internal/sessions/codex.go#L108) |
+| cxUserRole | var_spec |  | [109](../../magpie/internal/sessions/codex.go#L109) |
+| cxRole | var_spec |  | [110](../../magpie/internal/sessions/codex.go#L110) |
+| cxType | var_spec |  | [111](../../magpie/internal/sessions/codex.go#L111) |
+| cxPayload | var_spec |  | [112](../../magpie/internal/sessions/codex.go#L112) |
+| cxText | var_spec |  | [113](../../magpie/internal/sessions/codex.go#L113) |
+| cxSpawnAgent | var_spec |  | [114](../../magpie/internal/sessions/codex.go#L114) |
+| cxSubAgentActivity | var_spec |  | [115](../../magpie/internal/sessions/codex.go#L115) |
+| cxSubAgentEvent | var_spec |  | [116](../../magpie/internal/sessions/codex.go#L116) |
+| cxStartedKind | var_spec |  | [117](../../magpie/internal/sessions/codex.go#L117) |
+| codexLine | function_declaration |  | [120](../../magpie/internal/sessions/codex.go#L120) |
+| codexHead | function_declaration |  | [130](../../magpie/internal/sessions/codex.go#L130) |
+| cxSkillReads | function_declaration |  | [194](../../magpie/internal/sessions/codex.go#L194) |
+| skillReadsIn | function_declaration |  | [212](../../magpie/internal/sessions/codex.go#L212) |
+| out | var_spec | skillReadsIn | [213](../../magpie/internal/sessions/codex.go#L213) |
+| cxSkillFile | var_spec |  | [237](../../magpie/internal/sessions/codex.go#L237) |
+| cxPathEnd | function_declaration |  | [241](../../magpie/internal/sessions/codex.go#L241) |
+| cxWrites | function_declaration |  | [247](../../magpie/internal/sessions/codex.go#L247) |
+| cxCalls | var_spec |  | [253](../../magpie/internal/sessions/codex.go#L253) |
+| cxName | var_spec |  | [255](../../magpie/internal/sessions/codex.go#L255) |
+| codexRoleMain | const_spec |  | [258](../../magpie/internal/sessions/codex.go#L258) |
+| codexRoleSubagent | const_spec |  | [259](../../magpie/internal/sessions/codex.go#L259) |
+| codexRoleUnknown | const_spec |  | [260](../../magpie/internal/sessions/codex.go#L260) |
+| codexIdentityFromMeta | function_declaration |  | [263](../../magpie/internal/sessions/codex.go#L263) |
+| codexSource | function_declaration |  | [279](../../magpie/internal/sessions/codex.go#L279) |
+| name | var_spec | codexSource | [280](../../magpie/internal/sessions/codex.go#L280) |
+| variants | var_spec | codexSource | [289](../../magpie/internal/sessions/codex.go#L289) |
+| custom | var_spec | codexSource | [294](../../magpie/internal/sessions/codex.go#L294) |
+| kind | var_spec | codexSource | [304](../../magpie/internal/sessions/codex.go#L304) |
+| thread | var_spec | codexSource | [312](../../magpie/internal/sessions/codex.go#L312) |
+| Parent | field_declaration | codexSource::thread | [313](../../magpie/internal/sessions/codex.go#L313) |
+| mergeCodexIdentity | function_declaration |  | [321](../../magpie/internal/sessions/codex.go#L321) |
+| noteCodexIdentity | function_declaration |  | [335](../../magpie/internal/sessions/codex.go#L335) |
+| CodexIdentities | function_declaration |  | [356](../../magpie/internal/sessions/codex.go#L356) |
+| codexIdentitiesOf | function_declaration |  | [360](../../magpie/internal/sessions/codex.go#L360) |
+| setSessionCodexIdentity | function_declaration |  | [372](../../magpie/internal/sessions/codex.go#L372) |
+| codexTaskTitle | type_spec |  | [384](../../magpie/internal/sessions/codex.go#L384) |
+| child | field_declaration | codexTaskTitle | [385](../../magpie/internal/sessions/codex.go#L385) |
+| parent | field_declaration | codexTaskTitle | [386](../../magpie/internal/sessions/codex.go#L386) |
+| codexSubagentTaskTitles | function_declaration |  | [389](../../magpie/internal/sessions/codex.go#L389) |
+| parentCalls | type_spec | codexSubagentTaskTitles | [390](../../magpie/internal/sessions/codex.go#L390) |
+| names | field_declaration | codexSubagentTaskTitles::parentCalls | [391](../../magpie/internal/sessions/codex.go#L391) |
+| children | field_declaration | codexSubagentTaskTitles::parentCalls | [392](../../magpie/internal/sessions/codex.go#L392) |
+| badNames | field_declaration | codexSubagentTaskTitles::parentCalls | [393](../../magpie/internal/sessions/codex.go#L393) |
+| badChildren | field_declaration | codexSubagentTaskTitles::parentCalls | [394](../../magpie/internal/sessions/codex.go#L394) |

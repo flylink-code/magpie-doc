@@ -4,47 +4,48 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/workbuddy.go) · page 1/1
 
-Source SHA-256: d453c7a77e761228890df73b371210a985f232382bf3c453e61ae1677770e9d0
+Source SHA-256: 947b34aeaf4afdd6adc005f7e59e84b0a96e465635cd16e632dd6e0e2444e17d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| workbuddy | function_declaration |  | [47](../../magpie/internal/agent/workbuddy.go#L47) |
-| workbuddyAI | function_declaration |  | [58](../../magpie/internal/agent/workbuddy.go#L58) |
-| workbuddyApp | var_spec |  | [64](../../magpie/internal/agent/workbuddy.go#L64) |
-| workbuddyAIApp | var_spec |  | [65](../../magpie/internal/agent/workbuddy.go#L65) |
-| workbuddyOnMac | var_spec |  | [70](../../magpie/internal/agent/workbuddy.go#L70) |
-| workbuddyHere | function_declaration |  | [80](../../magpie/internal/agent/workbuddy.go#L80) |
-| workbuddyBuild | function_declaration |  | [95](../../magpie/internal/agent/workbuddy.go#L95) |
-| workbuddyDoc | type_spec |  | [129](../../magpie/internal/agent/workbuddy.go#L129) |
-| models | field_declaration | workbuddyDoc | [130](../../magpie/internal/agent/workbuddy.go#L130) |
-| rest | field_declaration | workbuddyDoc | [131](../../magpie/internal/agent/workbuddy.go#L131) |
-| workbuddyRead | function_declaration |  | [134](../../magpie/internal/agent/workbuddy.go#L134) |
-| d | var_spec | workbuddyRead | [135](../../magpie/internal/agent/workbuddy.go#L135) |
-| workbuddyEntry | type_spec |  | [155](../../magpie/internal/agent/workbuddy.go#L155) |
-| ID | field_declaration | workbuddyEntry | [156](../../magpie/internal/agent/workbuddy.go#L156) |
-| Vendor | field_declaration | workbuddyEntry | [157](../../magpie/internal/agent/workbuddy.go#L157) |
-| Disabled | field_declaration | workbuddyEntry | [158](../../magpie/internal/agent/workbuddy.go#L158) |
-| URL | field_declaration | workbuddyEntry | [159](../../magpie/internal/agent/workbuddy.go#L159) |
-| APIKey | field_declaration | workbuddyEntry | [160](../../magpie/internal/agent/workbuddy.go#L160) |
-| Reasoning | field_declaration | workbuddyEntry | [161](../../magpie/internal/agent/workbuddy.go#L161) |
-| DefaultEffort | field_declaration | workbuddyEntry::Reasoning | [162](../../magpie/internal/agent/workbuddy.go#L162) |
-| Effort | field_declaration | workbuddyEntry::Reasoning | [163](../../magpie/internal/agent/workbuddy.go#L163) |
-| workbuddyMine | function_declaration |  | [167](../../magpie/internal/agent/workbuddy.go#L167) |
-| e | var_spec | workbuddyMine | [168](../../magpie/internal/agent/workbuddy.go#L168) |
-| workbuddyPart | function_declaration |  | [181](../../magpie/internal/agent/workbuddy.go#L181) |
-| b | var_spec | workbuddyPart | [187](../../magpie/internal/agent/workbuddy.go#L187) |
-| e | var_spec | workbuddyPart | [192](../../magpie/internal/agent/workbuddy.go#L192) |
-| workbuddyWired | function_declaration |  | [205](../../magpie/internal/agent/workbuddy.go#L205) |
-| workbuddyWrite | function_declaration |  | [215](../../magpie/internal/agent/workbuddy.go#L215) |
-| buddyWrite | function_declaration |  | [221](../../magpie/internal/agent/workbuddy.go#L221) |
-| buddyWriteAt | function_declaration |  | [228](../../magpie/internal/agent/workbuddy.go#L228) |
-| kept | var_spec | buddyWriteAt | [248](../../magpie/internal/agent/workbuddy.go#L248) |
-| ours | var_spec | buddyWriteAt | [249](../../magpie/internal/agent/workbuddy.go#L249) |
-| remote | var_spec | buddyWriteAt | [252](../../magpie/internal/agent/workbuddy.go#L252) |
-| add | var_spec | buddyWriteAt | [283](../../magpie/internal/agent/workbuddy.go#L283) |
-| ids | var_spec | buddyWriteAt | [284](../../magpie/internal/agent/workbuddy.go#L284) |
-| out | var_spec | buddyWriteAt | [327](../../magpie/internal/agent/workbuddy.go#L327) |
-| avail | var_spec | buddyWriteAt | [331](../../magpie/internal/agent/workbuddy.go#L331) |
-| buddyModel | function_declaration |  | [355](../../magpie/internal/agent/workbuddy.go#L355) |
-| levels | var_spec | buddyModel | [370](../../magpie/internal/agent/workbuddy.go#L370) |
-| keptEffort | function_declaration |  | [388](../../magpie/internal/agent/workbuddy.go#L388) |
+| workbuddy | function_declaration |  | [48](../../magpie/internal/agent/workbuddy.go#L48) |
+| workbuddyAI | function_declaration |  | [59](../../magpie/internal/agent/workbuddy.go#L59) |
+| workbuddyApp | var_spec |  | [65](../../magpie/internal/agent/workbuddy.go#L65) |
+| workbuddyAIApp | var_spec |  | [66](../../magpie/internal/agent/workbuddy.go#L66) |
+| workbuddyOnMac | var_spec |  | [71](../../magpie/internal/agent/workbuddy.go#L71) |
+| workbuddyHere | function_declaration |  | [81](../../magpie/internal/agent/workbuddy.go#L81) |
+| workbuddyBuild | function_declaration |  | [96](../../magpie/internal/agent/workbuddy.go#L96) |
+| workbuddyDoc | type_spec |  | [130](../../magpie/internal/agent/workbuddy.go#L130) |
+| models | field_declaration | workbuddyDoc | [131](../../magpie/internal/agent/workbuddy.go#L131) |
+| rest | field_declaration | workbuddyDoc | [132](../../magpie/internal/agent/workbuddy.go#L132) |
+| workbuddyRead | function_declaration |  | [135](../../magpie/internal/agent/workbuddy.go#L135) |
+| d | var_spec | workbuddyRead | [136](../../magpie/internal/agent/workbuddy.go#L136) |
+| workbuddyEntry | type_spec |  | [156](../../magpie/internal/agent/workbuddy.go#L156) |
+| ID | field_declaration | workbuddyEntry | [157](../../magpie/internal/agent/workbuddy.go#L157) |
+| Vendor | field_declaration | workbuddyEntry | [158](../../magpie/internal/agent/workbuddy.go#L158) |
+| Disabled | field_declaration | workbuddyEntry | [159](../../magpie/internal/agent/workbuddy.go#L159) |
+| URL | field_declaration | workbuddyEntry | [160](../../magpie/internal/agent/workbuddy.go#L160) |
+| APIKey | field_declaration | workbuddyEntry | [161](../../magpie/internal/agent/workbuddy.go#L161) |
+| Reasoning | field_declaration | workbuddyEntry | [162](../../magpie/internal/agent/workbuddy.go#L162) |
+| DefaultEffort | field_declaration | workbuddyEntry::Reasoning | [163](../../magpie/internal/agent/workbuddy.go#L163) |
+| Effort | field_declaration | workbuddyEntry::Reasoning | [164](../../magpie/internal/agent/workbuddy.go#L164) |
+| workbuddyMine | function_declaration |  | [168](../../magpie/internal/agent/workbuddy.go#L168) |
+| e | var_spec | workbuddyMine | [169](../../magpie/internal/agent/workbuddy.go#L169) |
+| workbuddyPart | function_declaration |  | [182](../../magpie/internal/agent/workbuddy.go#L182) |
+| b | var_spec | workbuddyPart | [188](../../magpie/internal/agent/workbuddy.go#L188) |
+| e | var_spec | workbuddyPart | [193](../../magpie/internal/agent/workbuddy.go#L193) |
+| workbuddyWired | function_declaration |  | [206](../../magpie/internal/agent/workbuddy.go#L206) |
+| workbuddyWrite | function_declaration |  | [216](../../magpie/internal/agent/workbuddy.go#L216) |
+| buddyWrite | function_declaration |  | [222](../../magpie/internal/agent/workbuddy.go#L222) |
+| buddyWriteAt | function_declaration |  | [229](../../magpie/internal/agent/workbuddy.go#L229) |
+| kept | var_spec | buddyWriteAt | [249](../../magpie/internal/agent/workbuddy.go#L249) |
+| ours | var_spec | buddyWriteAt | [250](../../magpie/internal/agent/workbuddy.go#L250) |
+| remote | var_spec | buddyWriteAt | [253](../../magpie/internal/agent/workbuddy.go#L253) |
+| add | var_spec | buddyWriteAt | [284](../../magpie/internal/agent/workbuddy.go#L284) |
+| ids | var_spec | buddyWriteAt | [285](../../magpie/internal/agent/workbuddy.go#L285) |
+| out | var_spec | buddyWriteAt | [328](../../magpie/internal/agent/workbuddy.go#L328) |
+| avail | var_spec | buddyWriteAt | [332](../../magpie/internal/agent/workbuddy.go#L332) |
+| buddySmallWindow | const_spec |  | [356](../../magpie/internal/agent/workbuddy.go#L356) |
+| buddyModel | function_declaration |  | [360](../../magpie/internal/agent/workbuddy.go#L360) |
+| levels | var_spec | buddyModel | [382](../../magpie/internal/agent/workbuddy.go#L382) |
+| keptEffort | function_declaration |  | [400](../../magpie/internal/agent/workbuddy.go#L400) |

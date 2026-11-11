@@ -4,48 +4,54 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_socket.go) · page 1/1
 
-Source SHA-256: 60c234a952cb2d161cae77c463976aaa703b8a45e50bbd314f085831ff17627c
+Source SHA-256: 649be44316b2c7d40bc0375cabd83e507b068c4b07827f07571646497efeb655
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexSocketOff | var_spec |  | [59](../../magpie/internal/gateway/codex_socket.go#L59) |
-| codexSocketBeta | const_spec |  | [62](../../magpie/internal/gateway/codex_socket.go#L62) |
-| codexSocketShun | var_spec |  | [66](../../magpie/internal/gateway/codex_socket.go#L66) |
-| codexSocketDial | var_spec |  | [70](../../magpie/internal/gateway/codex_socket.go#L70) |
-| codexSocketPrelude | const_spec |  | [74](../../magpie/internal/gateway/codex_socket.go#L74) |
-| codexShunMu | var_spec |  | [77](../../magpie/internal/gateway/codex_socket.go#L77) |
-| codexShun | var_spec |  | [78](../../magpie/internal/gateway/codex_socket.go#L78) |
-| codexTooBig | var_spec |  | [81](../../magpie/internal/gateway/codex_socket.go#L81) |
-| tooBig | type_spec |  | [84](../../magpie/internal/gateway/codex_socket.go#L84) |
-| size | field_declaration | tooBig | [85](../../magpie/internal/gateway/codex_socket.go#L85) |
-| until | field_declaration | tooBig | [86](../../magpie/internal/gateway/codex_socket.go#L86) |
-| codexMessageTooBig | function_declaration |  | [91](../../magpie/internal/gateway/codex_socket.go#L91) |
-| refusedTooBig | function_declaration |  | [102](../../magpie/internal/gateway/codex_socket.go#L102) |
-| codexShunned | function_declaration |  | [116](../../magpie/internal/gateway/codex_socket.go#L116) |
-| shunCodexSocket | function_declaration |  | [127](../../magpie/internal/gateway/codex_socket.go#L127) |
+| codexSocketOff | var_spec |  | [57](../../magpie/internal/gateway/codex_socket.go#L57) |
+| codexSocketBeta | const_spec |  | [60](../../magpie/internal/gateway/codex_socket.go#L60) |
+| codexSocketShun | var_spec |  | [64](../../magpie/internal/gateway/codex_socket.go#L64) |
+| codexSocketDial | var_spec |  | [68](../../magpie/internal/gateway/codex_socket.go#L68) |
+| codexSocketPrelude | const_spec |  | [72](../../magpie/internal/gateway/codex_socket.go#L72) |
+| codexShunMu | var_spec |  | [75](../../magpie/internal/gateway/codex_socket.go#L75) |
+| codexShun | var_spec |  | [76](../../magpie/internal/gateway/codex_socket.go#L76) |
+| codexTooBig | var_spec |  | [79](../../magpie/internal/gateway/codex_socket.go#L79) |
+| tooBig | type_spec |  | [82](../../magpie/internal/gateway/codex_socket.go#L82) |
+| size | field_declaration | tooBig | [83](../../magpie/internal/gateway/codex_socket.go#L83) |
+| until | field_declaration | tooBig | [84](../../magpie/internal/gateway/codex_socket.go#L84) |
+| codexMessageTooBig | function_declaration |  | [89](../../magpie/internal/gateway/codex_socket.go#L89) |
+| refusedTooBig | function_declaration |  | [100](../../magpie/internal/gateway/codex_socket.go#L100) |
+| codexShunned | function_declaration |  | [114](../../magpie/internal/gateway/codex_socket.go#L114) |
+| shunCodexSocket | function_declaration |  | [125](../../magpie/internal/gateway/codex_socket.go#L125) |
 | codexSocket | type_spec |  | [139](../../magpie/internal/gateway/codex_socket.go#L139) |
 | next | field_declaration | codexSocket | [139](../../magpie/internal/gateway/codex_socket.go#L139) |
 | RoundTrip | method_declaration |  | [141](../../magpie/internal/gateway/codex_socket.go#L141) |
-| errCodexSocketFallBack | var_spec |  | [158](../../magpie/internal/gateway/codex_socket.go#L158) |
-| codexSocketMessage | function_declaration |  | [162](../../magpie/internal/gateway/codex_socket.go#L162) |
-| codexCreate | function_declaration |  | [208](../../magpie/internal/gateway/codex_socket.go#L208) |
-| withClientMetadata | function_declaration |  | [220](../../magpie/internal/gateway/codex_socket.go#L220) |
-| codexSocketHeaders | function_declaration |  | [255](../../magpie/internal/gateway/codex_socket.go#L255) |
-| socket | method_declaration |  | [273](../../magpie/internal/gateway/codex_socket.go#L273) |
-| codexSocketEnded | function_declaration |  | [384](../../magpie/internal/gateway/codex_socket.go#L384) |
-| codexSocketError | function_declaration |  | [394](../../magpie/internal/gateway/codex_socket.go#L394) |
-| b | var_spec | codexSocketError | [414](../../magpie/internal/gateway/codex_socket.go#L414) |
-| codexLimitHeaders | function_declaration |  | [436](../../magpie/internal/gateway/codex_socket.go#L436) |
-| sseEvent | function_declaration |  | [490](../../magpie/internal/gateway/codex_socket.go#L490) |
-| b | var_spec | sseEvent | [492](../../magpie/internal/gateway/codex_socket.go#L492) |
-| codexSocketBody | type_spec |  | [509](../../magpie/internal/gateway/codex_socket.go#L509) |
-| c | field_declaration | codexSocketBody | [510](../../magpie/internal/gateway/codex_socket.go#L510) |
-| ctx | field_declaration | codexSocketBody | [511](../../magpie/internal/gateway/codex_socket.go#L511) |
-| cancel | field_declaration | codexSocketBody | [512](../../magpie/internal/gateway/codex_socket.go#L512) |
-| pending | field_declaration | codexSocketBody | [513](../../magpie/internal/gateway/codex_socket.go#L513) |
-| done | field_declaration | codexSocketBody | [514](../../magpie/internal/gateway/codex_socket.go#L514) |
-| err | field_declaration | codexSocketBody | [515](../../magpie/internal/gateway/codex_socket.go#L515) |
-| closed | field_declaration | codexSocketBody | [516](../../magpie/internal/gateway/codex_socket.go#L516) |
-| frame | method_declaration |  | [520](../../magpie/internal/gateway/codex_socket.go#L520) |
-| Read | method_declaration |  | [549](../../magpie/internal/gateway/codex_socket.go#L549) |
-| Close | method_declaration |  | [576](../../magpie/internal/gateway/codex_socket.go#L576) |
+| overSocket | method_declaration |  | [161](../../magpie/internal/gateway/codex_socket.go#L161) |
+| shape | var_spec | overSocket | [177](../../magpie/internal/gateway/codex_socket.go#L177) |
+| errCodexSocketFallBack | var_spec |  | [212](../../magpie/internal/gateway/codex_socket.go#L212) |
+| errCodexSocketAgain | var_spec |  | [215](../../magpie/internal/gateway/codex_socket.go#L215) |
+| codexSocketMessage | function_declaration |  | [221](../../magpie/internal/gateway/codex_socket.go#L221) |
+| codexCreate | function_declaration |  | [264](../../magpie/internal/gateway/codex_socket.go#L264) |
+| withClientMetadata | function_declaration |  | [276](../../magpie/internal/gateway/codex_socket.go#L276) |
+| codexSocketHeaders | function_declaration |  | [311](../../magpie/internal/gateway/codex_socket.go#L311) |
+| socket | method_declaration |  | [333](../../magpie/internal/gateway/codex_socket.go#L333) |
+| turn | method_declaration |  | [392](../../magpie/internal/gateway/codex_socket.go#L392) |
+| codexSocketEnded | function_declaration |  | [472](../../magpie/internal/gateway/codex_socket.go#L472) |
+| codexSocketError | function_declaration |  | [482](../../magpie/internal/gateway/codex_socket.go#L482) |
+| b | var_spec | codexSocketError | [502](../../magpie/internal/gateway/codex_socket.go#L502) |
+| codexLimitHeaders | function_declaration |  | [524](../../magpie/internal/gateway/codex_socket.go#L524) |
+| sseEvent | function_declaration |  | [578](../../magpie/internal/gateway/codex_socket.go#L578) |
+| b | var_spec | sseEvent | [580](../../magpie/internal/gateway/codex_socket.go#L580) |
+| codexSocketBody | type_spec |  | [597](../../magpie/internal/gateway/codex_socket.go#L597) |
+| c | field_declaration | codexSocketBody | [598](../../magpie/internal/gateway/codex_socket.go#L598) |
+| ctx | field_declaration | codexSocketBody | [599](../../magpie/internal/gateway/codex_socket.go#L599) |
+| k | field_declaration | codexSocketBody | [600](../../magpie/internal/gateway/codex_socket.go#L600) |
+| shape | field_declaration | codexSocketBody | [601](../../magpie/internal/gateway/codex_socket.go#L601) |
+| output | field_declaration | codexSocketBody | [602](../../magpie/internal/gateway/codex_socket.go#L602) |
+| pending | field_declaration | codexSocketBody | [603](../../magpie/internal/gateway/codex_socket.go#L603) |
+| done | field_declaration | codexSocketBody | [604](../../magpie/internal/gateway/codex_socket.go#L604) |
+| err | field_declaration | codexSocketBody | [605](../../magpie/internal/gateway/codex_socket.go#L605) |
+| closed | field_declaration | codexSocketBody | [606](../../magpie/internal/gateway/codex_socket.go#L606) |
+| frame | method_declaration |  | [610](../../magpie/internal/gateway/codex_socket.go#L610) |
+| Read | method_declaration |  | [659](../../magpie/internal/gateway/codex_socket.go#L659) |
+| Close | method_declaration |  | [688](../../magpie/internal/gateway/codex_socket.go#L688) |

@@ -4,23 +4,27 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/additional_tools.go) · page 1/1
 
-Source SHA-256: b7ffba105c9ce982c08f29c8d90cbeb8b2115f4daae0d2aa6d2b78865d4b44cc
+Source SHA-256: 2674d014211b234ccec608ceae07da427479aa32974c7026889769df5516e774
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| liteHeader | const_spec |  | [34](../../magpie/internal/gateway/additional_tools.go#L34) |
-| fromLite | function_declaration |  | [40](../../magpie/internal/gateway/additional_tools.go#L40) |
-| withoutReasoningContext | function_declaration |  | [46](../../magpie/internal/gateway/additional_tools.go#L46) |
-| m | var_spec | withoutReasoningContext | [54](../../magpie/internal/gateway/additional_tools.go#L54) |
-| liteKept | function_declaration |  | [72](../../magpie/internal/gateway/additional_tools.go#L72) |
-| liteNamespace | const_spec |  | [83](../../magpie/internal/gateway/additional_tools.go#L83) |
-| liftAdditionalTools | function_declaration |  | [95](../../magpie/internal/gateway/additional_tools.go#L95) |
-| tools | var_spec | liftAdditionalTools | [103](../../magpie/internal/gateway/additional_tools.go#L103) |
-| kept | var_spec | liftAdditionalTools | [110](../../magpie/internal/gateway/additional_tools.go#L110) |
-| toolsJSON | var_spec | liftAdditionalTools | [150](../../magpie/internal/gateway/additional_tools.go#L150) |
-| decodeAny | function_declaration |  | [194](../../magpie/internal/gateway/additional_tools.go#L194) |
-| v | var_spec | decodeAny | [197](../../magpie/internal/gateway/additional_tools.go#L197) |
-| toolsByName | function_declaration |  | [206](../../magpie/internal/gateway/additional_tools.go#L206) |
-| toolKey | function_declaration |  | [216](../../magpie/internal/gateway/additional_tools.go#L216) |
-| addTool | function_declaration |  | [226](../../magpie/internal/gateway/additional_tools.go#L226) |
-| containsNamed | function_declaration |  | [248](../../magpie/internal/gateway/additional_tools.go#L248) |
+| liteHeader | const_spec |  | [35](../../magpie/internal/gateway/additional_tools.go#L35) |
+| fromLite | function_declaration |  | [41](../../magpie/internal/gateway/additional_tools.go#L41) |
+| withoutLiteMetadata | function_declaration |  | [50](../../magpie/internal/gateway/additional_tools.go#L50) |
+| marker | const_spec | withoutLiteMetadata | [51](../../magpie/internal/gateway/additional_tools.go#L51) |
+| m | var_spec | withoutLiteMetadata | [59](../../magpie/internal/gateway/additional_tools.go#L59) |
+| withoutReasoningContext | function_declaration |  | [76](../../magpie/internal/gateway/additional_tools.go#L76) |
+| m | var_spec | withoutReasoningContext | [84](../../magpie/internal/gateway/additional_tools.go#L84) |
+| liteKept | function_declaration |  | [104](../../magpie/internal/gateway/additional_tools.go#L104) |
+| codexModel | function_declaration |  | [121](../../magpie/internal/gateway/additional_tools.go#L121) |
+| liteNamespace | const_spec |  | [128](../../magpie/internal/gateway/additional_tools.go#L128) |
+| liftAdditionalTools | function_declaration |  | [140](../../magpie/internal/gateway/additional_tools.go#L140) |
+| tools | var_spec | liftAdditionalTools | [148](../../magpie/internal/gateway/additional_tools.go#L148) |
+| kept | var_spec | liftAdditionalTools | [155](../../magpie/internal/gateway/additional_tools.go#L155) |
+| toolsJSON | var_spec | liftAdditionalTools | [195](../../magpie/internal/gateway/additional_tools.go#L195) |
+| decodeAny | function_declaration |  | [239](../../magpie/internal/gateway/additional_tools.go#L239) |
+| v | var_spec | decodeAny | [242](../../magpie/internal/gateway/additional_tools.go#L242) |
+| toolsByName | function_declaration |  | [251](../../magpie/internal/gateway/additional_tools.go#L251) |
+| toolKey | function_declaration |  | [261](../../magpie/internal/gateway/additional_tools.go#L261) |
+| addTool | function_declaration |  | [271](../../magpie/internal/gateway/additional_tools.go#L271) |
+| containsNamed | function_declaration |  | [293](../../magpie/internal/gateway/additional_tools.go#L293) |

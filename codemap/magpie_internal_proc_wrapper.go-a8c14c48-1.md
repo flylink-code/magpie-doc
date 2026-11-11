@@ -4,31 +4,31 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/wrapper.go) · page 1/1
 
-Source SHA-256: a11da8b611a4af7d6bf62e768eb789e0c2d1f91d6ee16235e65785597693e450
+Source SHA-256: 5afd757d790edf75105bf4de00633bfba291514635f33756e75647ee08a68283
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Unwrap | function_declaration |  | [28](../../magpie/internal/proc/wrapper.go#L28) |
-| wrapperMax | const_spec |  | [63](../../magpie/internal/proc/wrapper.go#L63) |
-| unwrapKey | type_spec |  | [65](../../magpie/internal/proc/wrapper.go#L65) |
-| path | field_declaration | unwrapKey | [66](../../magpie/internal/proc/wrapper.go#L66) |
-| mod | field_declaration | unwrapKey | [67](../../magpie/internal/proc/wrapper.go#L67) |
-| size | field_declaration | unwrapKey | [68](../../magpie/internal/proc/wrapper.go#L68) |
-| unwrapEntry | type_spec |  | [71](../../magpie/internal/proc/wrapper.go#L71) |
-| real | field_declaration | unwrapEntry | [72](../../magpie/internal/proc/wrapper.go#L72) |
-| at | field_declaration | unwrapEntry | [73](../../magpie/internal/proc/wrapper.go#L73) |
-| unwrapped | var_spec |  | [78](../../magpie/internal/proc/wrapper.go#L78) |
-| m | field_declaration | unwrapped | [80](../../magpie/internal/proc/wrapper.go#L80) |
-| miseWrapper | type_spec |  | [84](../../magpie/internal/proc/wrapper.go#L84) |
-| mise | field_declaration | miseWrapper | [85](../../magpie/internal/proc/wrapper.go#L85) |
-| tool | field_declaration | miseWrapper | [86](../../magpie/internal/proc/wrapper.go#L86) |
-| parseMiseWrapper | function_declaration |  | [92](../../magpie/internal/proc/wrapper.go#L92) |
-| tool | var_spec | parseMiseWrapper | [110](../../magpie/internal/proc/wrapper.go#L110) |
-| shellWords | function_declaration |  | [130](../../magpie/internal/proc/wrapper.go#L130) |
-| words | var_spec | shellWords | [131](../../magpie/internal/proc/wrapper.go#L131) |
-| w | var_spec | shellWords | [132](../../magpie/internal/proc/wrapper.go#L132) |
-| miseWait | const_spec |  | [165](../../magpie/internal/proc/wrapper.go#L165) |
-| miseAsk | var_spec |  | [171](../../magpie/internal/proc/wrapper.go#L171) |
-| miseWhich | function_declaration |  | [180](../../magpie/internal/proc/wrapper.go#L180) |
-| usableProgram | function_declaration |  | [212](../../magpie/internal/proc/wrapper.go#L212) |
-| findMise | function_declaration |  | [235](../../magpie/internal/proc/wrapper.go#L235) |
+| Unwrap | function_declaration |  | [27](../../magpie/internal/proc/wrapper.go#L27) |
+| wrapperMax | const_spec |  | [62](../../magpie/internal/proc/wrapper.go#L62) |
+| unwrapKey | type_spec |  | [64](../../magpie/internal/proc/wrapper.go#L64) |
+| path | field_declaration | unwrapKey | [65](../../magpie/internal/proc/wrapper.go#L65) |
+| mod | field_declaration | unwrapKey | [66](../../magpie/internal/proc/wrapper.go#L66) |
+| size | field_declaration | unwrapKey | [67](../../magpie/internal/proc/wrapper.go#L67) |
+| unwrapEntry | type_spec |  | [70](../../magpie/internal/proc/wrapper.go#L70) |
+| real | field_declaration | unwrapEntry | [71](../../magpie/internal/proc/wrapper.go#L71) |
+| at | field_declaration | unwrapEntry | [72](../../magpie/internal/proc/wrapper.go#L72) |
+| unwrapped | var_spec |  | [77](../../magpie/internal/proc/wrapper.go#L77) |
+| m | field_declaration | unwrapped | [79](../../magpie/internal/proc/wrapper.go#L79) |
+| miseWrapper | type_spec |  | [83](../../magpie/internal/proc/wrapper.go#L83) |
+| mise | field_declaration | miseWrapper | [84](../../magpie/internal/proc/wrapper.go#L84) |
+| tool | field_declaration | miseWrapper | [85](../../magpie/internal/proc/wrapper.go#L85) |
+| parseMiseWrapper | function_declaration |  | [91](../../magpie/internal/proc/wrapper.go#L91) |
+| tool | var_spec | parseMiseWrapper | [109](../../magpie/internal/proc/wrapper.go#L109) |
+| shellWords | function_declaration |  | [129](../../magpie/internal/proc/wrapper.go#L129) |
+| words | var_spec | shellWords | [130](../../magpie/internal/proc/wrapper.go#L130) |
+| w | var_spec | shellWords | [131](../../magpie/internal/proc/wrapper.go#L131) |
+| miseWait | const_spec |  | [164](../../magpie/internal/proc/wrapper.go#L164) |
+| miseAsk | var_spec |  | [170](../../magpie/internal/proc/wrapper.go#L170) |
+| miseWhich | function_declaration |  | [179](../../magpie/internal/proc/wrapper.go#L179) |
+| usableProgram | function_declaration |  | [211](../../magpie/internal/proc/wrapper.go#L211) |
+| findMise | function_declaration |  | [234](../../magpie/internal/proc/wrapper.go#L234) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/sync.go) · page 1/2
 
-Source SHA-256: e3402fd43613846b849948e03d110a20b89fb68ca25124b54e1498402a275713
+Source SHA-256: 332f2316c805af2dcb2bb8402b0f2b81afd4d29a79dab80eacb51b203a73a739
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Result | type_spec |  | [13](../../magpie/internal/library/sync.go#L13) |
-| Changed | field_declaration | Result | [14](../../magpie/internal/library/sync.go#L14) |
-| Problems | field_declaration | Result | [15](../../magpie/internal/library/sync.go#L15) |
-| Backup | field_declaration | Result | [16](../../magpie/internal/library/sync.go#L16) |
-| Missing | field_declaration | Result | [19](../../magpie/internal/library/sync.go#L19) |
-| Updated | field_declaration | Result | [22](../../magpie/internal/library/sync.go#L22) |
-| Unupdated | field_declaration | Result | [23](../../magpie/internal/library/sync.go#L23) |
-| Gone | field_declaration | Result | [26](../../magpie/internal/library/sync.go#L26) |
-| Unimported | field_declaration | Result | [29](../../magpie/internal/library/sync.go#L29) |
-| Unremoved | field_declaration | Result | [32](../../magpie/internal/library/sync.go#L32) |
-| Installed | field_declaration | Result | [37](../../magpie/internal/library/sync.go#L37) |
-| Had | field_declaration | Result | [38](../../magpie/internal/library/sync.go#L38) |
-| Skipped | field_declaration | Result | [39](../../magpie/internal/library/sync.go#L39) |
-| Problem | type_spec |  | [43](../../magpie/internal/library/sync.go#L43) |
-| Agent | field_declaration | Problem | [44](../../magpie/internal/library/sync.go#L44) |
-| What | field_declaration | Problem | [45](../../magpie/internal/library/sync.go#L45) |
-| Error | field_declaration | Problem | [46](../../magpie/internal/library/sync.go#L46) |
-| Own | field_declaration | Problem | [49](../../magpie/internal/library/sync.go#L49) |
-| changed | method_declaration |  | [52](../../magpie/internal/library/sync.go#L52) |
-| fail | method_declaration |  | [58](../../magpie/internal/library/sync.go#L58) |
-| sync | method_declaration |  | [63](../../magpie/internal/library/sync.go#L63) |
-| syncSteps | function_declaration |  | [83](../../magpie/internal/library/sync.go#L83) |
-| steps | var_spec | syncSteps | [84](../../magpie/internal/library/sync.go#L84) |
-| Sync | function_declaration |  | [128](../../magpie/internal/library/sync.go#L128) |
-| all | var_spec | Sync | [131](../../magpie/internal/library/sync.go#L131) |
-| memo | var_spec | Sync | [134](../../magpie/internal/library/sync.go#L134) |
-| heldAt | var_spec | Sync | [135](../../magpie/internal/library/sync.go#L135) |
-| syncMCP | method_declaration |  | [171](../../magpie/internal/library/sync.go#L171) |
-| mine | var_spec | syncMCP | [204](../../magpie/internal/library/sync.go#L204) |
-| off | var_spec | syncMCP | [243](../../magpie/internal/library/sync.go#L243) |
-| AgentView | type_spec |  | [297](../../magpie/internal/library/sync.go#L297) |
-| ID | field_declaration | AgentView | [298](../../magpie/internal/library/sync.go#L298) |
-| Name | field_declaration | AgentView | [299](../../magpie/internal/library/sync.go#L299) |
-| Icon | field_declaration | AgentView | [300](../../magpie/internal/library/sync.go#L300) |
-| Instructions | field_declaration | AgentView | [301](../../magpie/internal/library/sync.go#L301) |
-| MCP | field_declaration | AgentView | [302](../../magpie/internal/library/sync.go#L302) |
-| Skills | field_declaration | AgentView | [303](../../magpie/internal/library/sync.go#L303) |
-| ProjectSkills | field_declaration | AgentView | [305](../../magpie/internal/library/sync.go#L305) |
-| ProjectMCP | field_declaration | AgentView | [307](../../magpie/internal/library/sync.go#L307) |
-| ProjectNoSSE | field_declaration | AgentView | [309](../../magpie/internal/library/sync.go#L309) |
-| SkillsAlso | field_declaration | AgentView | [310](../../magpie/internal/library/sync.go#L310) |
-| Note | field_declaration | AgentView | [311](../../magpie/internal/library/sync.go#L311) |
-| NoSSE | field_declaration | AgentView | [312](../../magpie/internal/library/sync.go#L312) |
-| NoRemote | field_declaration | AgentView | [313](../../magpie/internal/library/sync.go#L313) |
-| NoEnvRefs | field_declaration | AgentView | [316](../../magpie/internal/library/sync.go#L316) |
-| ToolsOff | field_declaration | AgentView | [319](../../magpie/internal/library/sync.go#L319) |
-| Startup | field_declaration | AgentView | [322](../../magpie/internal/library/sync.go#L322) |
-| MCPVia | field_declaration | AgentView | [323](../../magpie/internal/library/sync.go#L323) |
-| How | field_declaration | AgentView | [327](../../magpie/internal/library/sync.go#L327) |
-| HowOwn | field_declaration | AgentView | [328](../../magpie/internal/library/sync.go#L328) |
-| MustCopy | field_declaration | AgentView | [329](../../magpie/internal/library/sync.go#L329) |
-| Gone | field_declaration | AgentView | [332](../../magpie/internal/library/sync.go#L332) |
-| ServerView | type_spec |  | [336](../../magpie/internal/library/sync.go#L336) |
-| Icon | field_declaration | ServerView | [338](../../magpie/internal/library/sync.go#L338) |
-| Problems | field_declaration | ServerView | [340](../../magpie/internal/library/sync.go#L340) |
-| SignIn | field_declaration | ServerView | [343](../../magpie/internal/library/sync.go#L343) |
-| SkillView | type_spec |  | [347](../../magpie/internal/library/sync.go#L347) |
-| Name | field_declaration | SkillView | [348](../../magpie/internal/library/sync.go#L348) |
-| Description | field_declaration | SkillView | [349](../../magpie/internal/library/sync.go#L349) |
-| Source | field_declaration | SkillView | [350](../../magpie/internal/library/sync.go#L350) |
-| Kind | field_declaration | SkillView | [351](../../magpie/internal/library/sync.go#L351) |
-| Origin | field_declaration | SkillView | [352](../../magpie/internal/library/sync.go#L352) |
-| Repo | field_declaration | SkillView | [353](../../magpie/internal/library/sync.go#L353) |
-| Icon | field_declaration | SkillView | [354](../../magpie/internal/library/sync.go#L354) |
-| Agents | field_declaration | SkillView | [355](../../magpie/internal/library/sync.go#L355) |
-| Missing | field_declaration | SkillView | [356](../../magpie/internal/library/sync.go#L356) |
-| Problems | field_declaration | SkillView | [357](../../magpie/internal/library/sync.go#L357) |
-| Check | field_declaration | SkillView | [358](../../magpie/internal/library/sync.go#L358) |
-| Always | field_declaration | SkillView | [361](../../magpie/internal/library/sync.go#L361) |
-| Behind | field_declaration | SkillView | [364](../../magpie/internal/library/sync.go#L364) |
-| Edited | field_declaration | SkillView | [368](../../magpie/internal/library/sync.go#L368) |
-| Gone | field_declaration | SkillView | [371](../../magpie/internal/library/sync.go#L371) |
-| View | type_spec |  | [375](../../magpie/internal/library/sync.go#L375) |
-| Agents | field_declaration | View | [376](../../magpie/internal/library/sync.go#L376) |
-| Servers | field_declaration | View | [377](../../magpie/internal/library/sync.go#L377) |
-| Hooks | field_declaration | View | [380](../../magpie/internal/library/sync.go#L380) |
-| HookAgents | field_declaration | View | [381](../../magpie/internal/library/sync.go#L381) |
-| Subagents | field_declaration | View | [384](../../magpie/internal/library/sync.go#L384) |
-| SubagentAgents | field_declaration | View | [385](../../magpie/internal/library/sync.go#L385) |
-| FoundServers | field_declaration | View | [386](../../magpie/internal/library/sync.go#L386) |
-| Skills | field_declaration | View | [387](../../magpie/internal/library/sync.go#L387) |
-| FoundSkills | field_declaration | View | [388](../../magpie/internal/library/sync.go#L388) |
-| NewSkills | field_declaration | View | [391](../../magpie/internal/library/sync.go#L391) |
-| Projects | field_declaration | View | [392](../../magpie/internal/library/sync.go#L392) |
-| Instructions | field_declaration | View | [393](../../magpie/internal/library/sync.go#L393) |
-| Dir | field_declaration | View | [394](../../magpie/internal/library/sync.go#L394) |
-| Backups | field_declaration | View | [395](../../magpie/internal/library/sync.go#L395) |
-| SkillGroups | field_declaration | View | [396](../../magpie/internal/library/sync.go#L396) |
-| CopySkills | field_declaration | View | [397](../../magpie/internal/library/sync.go#L397) |
-| CheckDue | field_declaration | View | [401](../../magpie/internal/library/sync.go#L401) |
-| Partial | field_declaration | View | [404](../../magpie/internal/library/sync.go#L404) |
-| Read | function_declaration |  | [409](../../magpie/internal/library/sync.go#L409) |
-| Glance | function_declaration |  | [416](../../magpie/internal/library/sync.go#L416) |
-| readView | function_declaration |  | [418](../../magpie/internal/library/sync.go#L418) |
-| SaveServer | function_declaration |  | [573](../../magpie/internal/library/sync.go#L573) |
-| ServerAgents | function_declaration |  | [609](../../magpie/internal/library/sync.go#L609) |
-| EveryServerAgents | function_declaration |  | [626](../../magpie/internal/library/sync.go#L626) |
-| SomeServersAgents | function_declaration |  | [635](../../magpie/internal/library/sync.go#L635) |
-| serversAgents | function_declaration |  | [647](../../magpie/internal/library/sync.go#L647) |
-| RemoveServer | function_declaration |  | [682](../../magpie/internal/library/sync.go#L682) |
+| Result | type_spec |  | [16](../../magpie/internal/library/sync.go#L16) |
+| Changed | field_declaration | Result | [17](../../magpie/internal/library/sync.go#L17) |
+| Problems | field_declaration | Result | [18](../../magpie/internal/library/sync.go#L18) |
+| Backup | field_declaration | Result | [19](../../magpie/internal/library/sync.go#L19) |
+| Missing | field_declaration | Result | [22](../../magpie/internal/library/sync.go#L22) |
+| Updated | field_declaration | Result | [25](../../magpie/internal/library/sync.go#L25) |
+| Unupdated | field_declaration | Result | [26](../../magpie/internal/library/sync.go#L26) |
+| Current | field_declaration | Result | [29](../../magpie/internal/library/sync.go#L29) |
+| Gone | field_declaration | Result | [32](../../magpie/internal/library/sync.go#L32) |
+| Unimported | field_declaration | Result | [35](../../magpie/internal/library/sync.go#L35) |
+| Unremoved | field_declaration | Result | [38](../../magpie/internal/library/sync.go#L38) |
+| Unmoved | field_declaration | Result | [41](../../magpie/internal/library/sync.go#L41) |
+| Installed | field_declaration | Result | [46](../../magpie/internal/library/sync.go#L46) |
+| Had | field_declaration | Result | [47](../../magpie/internal/library/sync.go#L47) |
+| Skipped | field_declaration | Result | [48](../../magpie/internal/library/sync.go#L48) |
+| Linked | field_declaration | Result | [53](../../magpie/internal/library/sync.go#L53) |
+| LinkedKept | field_declaration | Result | [54](../../magpie/internal/library/sync.go#L54) |
+| dropped | field_declaration | Result | [57](../../magpie/internal/library/sync.go#L57) |
+| run | field_declaration | Result | [60](../../magpie/internal/library/sync.go#L60) |
+| Problem | type_spec |  | [64](../../magpie/internal/library/sync.go#L64) |
+| Agent | field_declaration | Problem | [65](../../magpie/internal/library/sync.go#L65) |
+| What | field_declaration | Problem | [66](../../magpie/internal/library/sync.go#L66) |
+| Error | field_declaration | Problem | [67](../../magpie/internal/library/sync.go#L67) |
+| Own | field_declaration | Problem | [70](../../magpie/internal/library/sync.go#L70) |
+| changed | method_declaration |  | [73](../../magpie/internal/library/sync.go#L73) |
+| fail | method_declaration |  | [79](../../magpie/internal/library/sync.go#L79) |
+| sync | method_declaration |  | [84](../../magpie/internal/library/sync.go#L84) |
+| syncSteps | function_declaration |  | [105](../../magpie/internal/library/sync.go#L105) |
+| Sync | function_declaration |  | [156](../../magpie/internal/library/sync.go#L156) |
+| all | var_spec | Sync | [163](../../magpie/internal/library/sync.go#L163) |
+| memo | var_spec | Sync | [166](../../magpie/internal/library/sync.go#L166) |
+| heldAt | var_spec | Sync | [167](../../magpie/internal/library/sync.go#L167) |
+| npxDirs | var_spec | Sync | [186](../../magpie/internal/library/sync.go#L186) |
+| syncMCP | method_declaration |  | [209](../../magpie/internal/library/sync.go#L209) |
+| mine | var_spec | syncMCP | [268](../../magpie/internal/library/sync.go#L268) |
+| off | var_spec | syncMCP | [337](../../magpie/internal/library/sync.go#L337) |
+| AgentView | type_spec |  | [391](../../magpie/internal/library/sync.go#L391) |
+| ID | field_declaration | AgentView | [392](../../magpie/internal/library/sync.go#L392) |
+| Name | field_declaration | AgentView | [393](../../magpie/internal/library/sync.go#L393) |
+| Icon | field_declaration | AgentView | [394](../../magpie/internal/library/sync.go#L394) |
+| Instructions | field_declaration | AgentView | [395](../../magpie/internal/library/sync.go#L395) |
+| MCP | field_declaration | AgentView | [396](../../magpie/internal/library/sync.go#L396) |
+| Skills | field_declaration | AgentView | [397](../../magpie/internal/library/sync.go#L397) |
+| ProjectSkills | field_declaration | AgentView | [399](../../magpie/internal/library/sync.go#L399) |
+| ProjectMCP | field_declaration | AgentView | [401](../../magpie/internal/library/sync.go#L401) |
+| ProjectNoSSE | field_declaration | AgentView | [403](../../magpie/internal/library/sync.go#L403) |
+| ProjectOff | field_declaration | AgentView | [406](../../magpie/internal/library/sync.go#L406) |
+| ProjectSkillOff | field_declaration | AgentView | [407](../../magpie/internal/library/sync.go#L407) |
+| SkillsAlso | field_declaration | AgentView | [408](../../magpie/internal/library/sync.go#L408) |
+| Note | field_declaration | AgentView | [409](../../magpie/internal/library/sync.go#L409) |
+| NoSSE | field_declaration | AgentView | [410](../../magpie/internal/library/sync.go#L410) |
+| NoRemote | field_declaration | AgentView | [411](../../magpie/internal/library/sync.go#L411) |
+| NoEnvRefs | field_declaration | AgentView | [414](../../magpie/internal/library/sync.go#L414) |
+| ToolsOff | field_declaration | AgentView | [417](../../magpie/internal/library/sync.go#L417) |
+| Startup | field_declaration | AgentView | [420](../../magpie/internal/library/sync.go#L420) |
+| MCPVia | field_declaration | AgentView | [421](../../magpie/internal/library/sync.go#L421) |
+| Hub | field_declaration | AgentView | [427](../../magpie/internal/library/sync.go#L427) |
+| SkillRouter | field_declaration | AgentView | [431](../../magpie/internal/library/sync.go#L431) |
+| How | field_declaration | AgentView | [435](../../magpie/internal/library/sync.go#L435) |
+| HowOwn | field_declaration | AgentView | [436](../../magpie/internal/library/sync.go#L436) |
+| MustCopy | field_declaration | AgentView | [437](../../magpie/internal/library/sync.go#L437) |
+| Gone | field_declaration | AgentView | [440](../../magpie/internal/library/sync.go#L440) |
+| Asleep | field_declaration | AgentView | [446](../../magpie/internal/library/sync.go#L446) |
+| Unseen | field_declaration | AgentView | [447](../../magpie/internal/library/sync.go#L447) |
+| ServerView | type_spec |  | [451](../../magpie/internal/library/sync.go#L451) |
+| Icon | field_declaration | ServerView | [453](../../magpie/internal/library/sync.go#L453) |
+| Problems | field_declaration | ServerView | [455](../../magpie/internal/library/sync.go#L455) |
+| SignIn | field_declaration | ServerView | [458](../../magpie/internal/library/sync.go#L458) |
+| SkillView | type_spec |  | [462](../../magpie/internal/library/sync.go#L462) |
+| Name | field_declaration | SkillView | [463](../../magpie/internal/library/sync.go#L463) |
+| Bundle | field_declaration | SkillView | [464](../../magpie/internal/library/sync.go#L464) |
+| Description | field_declaration | SkillView | [465](../../magpie/internal/library/sync.go#L465) |
+| Source | field_declaration | SkillView | [466](../../magpie/internal/library/sync.go#L466) |
+| Kind | field_declaration | SkillView | [467](../../magpie/internal/library/sync.go#L467) |
+| Origin | field_declaration | SkillView | [468](../../magpie/internal/library/sync.go#L468) |
+| Repo | field_declaration | SkillView | [469](../../magpie/internal/library/sync.go#L469) |
+| Icon | field_declaration | SkillView | [470](../../magpie/internal/library/sync.go#L470) |
+| Agents | field_declaration | SkillView | [471](../../magpie/internal/library/sync.go#L471) |
+| Missing | field_declaration | SkillView | [472](../../magpie/internal/library/sync.go#L472) |
+| Problems | field_declaration | SkillView | [473](../../magpie/internal/library/sync.go#L473) |
+| Check | field_declaration | SkillView | [474](../../magpie/internal/library/sync.go#L474) |
+| Always | field_declaration | SkillView | [477](../../magpie/internal/library/sync.go#L477) |
+| Shared | field_declaration | SkillView | [480](../../magpie/internal/library/sync.go#L480) |
+| SharedElsewhere | field_declaration | SkillView | [483](../../magpie/internal/library/sync.go#L483) |
+| Behind | field_declaration | SkillView | [486](../../magpie/internal/library/sync.go#L486) |
+| Edited | field_declaration | SkillView | [490](../../magpie/internal/library/sync.go#L490) |
+| Gone | field_declaration | SkillView | [493](../../magpie/internal/library/sync.go#L493) |
+| OffHere | field_declaration | SkillView | [496](../../magpie/internal/library/sync.go#L496) |
+| Note | field_declaration | SkillView | [498](../../magpie/internal/library/sync.go#L498) |
+| Manual | field_declaration | SkillView | [500](../../magpie/internal/library/sync.go#L500) |
+| Router | field_declaration | SkillView | [502](../../magpie/internal/library/sync.go#L502) |
+| View | type_spec |  | [506](../../magpie/internal/library/sync.go#L506) |
+| Agents | field_declaration | View | [507](../../magpie/internal/library/sync.go#L507) |
+| Servers | field_declaration | View | [508](../../magpie/internal/library/sync.go#L508) |
+| Hooks | field_declaration | View | [511](../../magpie/internal/library/sync.go#L511) |
+| HookAgents | field_declaration | View | [512](../../magpie/internal/library/sync.go#L512) |
+| Subagents | field_declaration | View | [515](../../magpie/internal/library/sync.go#L515) |
+| SubagentAgents | field_declaration | View | [516](../../magpie/internal/library/sync.go#L516) |
+| FoundServers | field_declaration | View | [517](../../magpie/internal/library/sync.go#L517) |
+| Plugins | field_declaration | View | [519](../../magpie/internal/library/sync.go#L519) |

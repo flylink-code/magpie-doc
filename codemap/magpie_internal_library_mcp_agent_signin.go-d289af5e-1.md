@@ -4,19 +4,30 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp_agent_signin.go) · page 1/1
 
-Source SHA-256: 46e9cfc2a172f881b401db06001a4f2907920857960433c2c404e27e1e0b55ea
+Source SHA-256: 3fc10e65168c529020bec38139a9a57bb061a323c7e0f9bf166234ee563ea75b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ownSignIns | type_spec |  | [26](../../magpie/internal/library/mcp_agent_signin.go#L26) |
-| signInKey | function_declaration |  | [28](../../magpie/internal/library/mcp_agent_signin.go#L28) |
-| of | method_declaration |  | [33](../../magpie/internal/library/mcp_agent_signin.go#L33) |
-| claudeCredentials | type_spec |  | [46](../../magpie/internal/library/mcp_agent_signin.go#L46) |
-| MCPOAuth | field_declaration | claudeCredentials | [47](../../magpie/internal/library/mcp_agent_signin.go#L47) |
-| ServerName | field_declaration | claudeCredentials::MCPOAuth | [48](../../magpie/internal/library/mcp_agent_signin.go#L48) |
-| ServerURL | field_declaration | claudeCredentials::MCPOAuth | [49](../../magpie/internal/library/mcp_agent_signin.go#L49) |
-| AccessToken | field_declaration | claudeCredentials::MCPOAuth | [50](../../magpie/internal/library/mcp_agent_signin.go#L50) |
-| RefreshToken | field_declaration | claudeCredentials::MCPOAuth | [51](../../magpie/internal/library/mcp_agent_signin.go#L51) |
-| claudeCredentialsOf | function_declaration |  | [58](../../magpie/internal/library/mcp_agent_signin.go#L58) |
-| readOwnSignIns | function_declaration |  | [68](../../magpie/internal/library/mcp_agent_signin.go#L68) |
-| c | var_spec | readOwnSignIns | [79](../../magpie/internal/library/mcp_agent_signin.go#L79) |
+| ownSignIns | type_spec |  | [29](../../magpie/internal/library/mcp_agent_signin.go#L29) |
+| signInKey | function_declaration |  | [31](../../magpie/internal/library/mcp_agent_signin.go#L31) |
+| of | method_declaration |  | [36](../../magpie/internal/library/mcp_agent_signin.go#L36) |
+| claudeCredentials | type_spec |  | [49](../../magpie/internal/library/mcp_agent_signin.go#L49) |
+| MCPOAuth | field_declaration | claudeCredentials | [50](../../magpie/internal/library/mcp_agent_signin.go#L50) |
+| ServerName | field_declaration | claudeCredentials::MCPOAuth | [51](../../magpie/internal/library/mcp_agent_signin.go#L51) |
+| ServerURL | field_declaration | claudeCredentials::MCPOAuth | [52](../../magpie/internal/library/mcp_agent_signin.go#L52) |
+| AccessToken | field_declaration | claudeCredentials::MCPOAuth | [53](../../magpie/internal/library/mcp_agent_signin.go#L53) |
+| RefreshToken | field_declaration | claudeCredentials::MCPOAuth | [54](../../magpie/internal/library/mcp_agent_signin.go#L54) |
+| claudeCredentialsOf | function_declaration |  | [61](../../magpie/internal/library/mcp_agent_signin.go#L61) |
+| codexCredentials | type_spec |  | [77](../../magpie/internal/library/mcp_agent_signin.go#L77) |
+| ServerName | field_declaration | codexCredentials | [78](../../magpie/internal/library/mcp_agent_signin.go#L78) |
+| ServerURL | field_declaration | codexCredentials | [79](../../magpie/internal/library/mcp_agent_signin.go#L79) |
+| AccessToken | field_declaration | codexCredentials | [80](../../magpie/internal/library/mcp_agent_signin.go#L80) |
+| RefreshToken | field_declaration | codexCredentials | [81](../../magpie/internal/library/mcp_agent_signin.go#L81) |
+| ExecutorOwned | field_declaration | codexCredentials | [82](../../magpie/internal/library/mcp_agent_signin.go#L82) |
+| codexCredentialsOf | function_declaration |  | [89](../../magpie/internal/library/mcp_agent_signin.go#L89) |
+| readOwnSignIns | function_declaration |  | [99](../../magpie/internal/library/mcp_agent_signin.go#L99) |
+| add | method_declaration |  | [116](../../magpie/internal/library/mcp_agent_signin.go#L116) |
+| readClaude | method_declaration |  | [126](../../magpie/internal/library/mcp_agent_signin.go#L126) |
+| c | var_spec | readClaude | [131](../../magpie/internal/library/mcp_agent_signin.go#L131) |
+| readCodex | method_declaration |  | [150](../../magpie/internal/library/mcp_agent_signin.go#L150) |
+| c | var_spec | readCodex | [155](../../magpie/internal/library/mcp_agent_signin.go#L155) |

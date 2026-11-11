@@ -4,33 +4,40 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/request_bounds.go) · page 1/1
 
-Source SHA-256: 81ece90bb90d87c581d8579909ca7e1dc262f43fd7b4a8e2ca1dcbb97e9009f9
+Source SHA-256: adc9c2d1ab32b3b0adede4417dc97ed851a30e1755d56e659e4cb2619ba692cf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| defaultBodyLimit | const_spec |  | [29](../../magpie/internal/gateway/request_bounds.go#L29) |
-| defaultBodyTimeout | const_spec |  | [30](../../magpie/internal/gateway/request_bounds.go#L30) |
-| requestLimits | type_spec |  | [33](../../magpie/internal/gateway/request_bounds.go#L33) |
-| body | field_declaration | requestLimits | [34](../../magpie/internal/gateway/request_bounds.go#L34) |
-| readTimeout | field_declaration | requestLimits | [35](../../magpie/internal/gateway/request_bounds.go#L35) |
-| requestBody | method_declaration |  | [38](../../magpie/internal/gateway/request_bounds.go#L38) |
-| readRequestBody | method_declaration |  | [42](../../magpie/internal/gateway/request_bounds.go#L42) |
-| idleBody | type_spec |  | [58](../../magpie/internal/gateway/request_bounds.go#L58) |
-| controller | field_declaration | idleBody | [60](../../magpie/internal/gateway/request_bounds.go#L60) |
-| idle | field_declaration | idleBody | [61](../../magpie/internal/gateway/request_bounds.go#L61) |
-| Read | method_declaration |  | [64](../../magpie/internal/gateway/request_bounds.go#L64) |
-| errBodyEncoding | var_spec |  | [75](../../magpie/internal/gateway/request_bounds.go#L75) |
-| decodedBody | function_declaration |  | [81](../../magpie/internal/gateway/request_bounds.go#L81) |
-| rd | var_spec | decodedBody | [82](../../magpie/internal/gateway/request_bounds.go#L82) |
-| bodyDecoders | var_spec |  | [112](../../magpie/internal/gateway/request_bounds.go#L112) |
-| pooledZstd | type_spec |  | [122](../../magpie/internal/gateway/request_bounds.go#L122) |
-| d | field_declaration | pooledZstd | [122](../../magpie/internal/gateway/request_bounds.go#L122) |
-| Read | method_declaration |  | [124](../../magpie/internal/gateway/request_bounds.go#L124) |
-| Close | method_declaration |  | [131](../../magpie/internal/gateway/request_bounds.go#L131) |
-| readBoundedRequestBody | function_declaration |  | [142](../../magpie/internal/gateway/request_bounds.go#L142) |
-| timeout | var_spec | readBoundedRequestBody | [168](../../magpie/internal/gateway/request_bounds.go#L168) |
-| sizedReadFirst | const_spec |  | [204](../../magpie/internal/gateway/request_bounds.go#L204) |
-| readSized | function_declaration |  | [216](../../magpie/internal/gateway/request_bounds.go#L216) |
-| probe | var_spec | readSized | [225](../../magpie/internal/gateway/request_bounds.go#L225) |
-| overLimit | function_declaration |  | [255](../../magpie/internal/gateway/request_bounds.go#L255) |
-| sizeWord | function_declaration |  | [261](../../magpie/internal/gateway/request_bounds.go#L261) |
+| defaultBodyLimit | const_spec |  | [30](../../magpie/internal/gateway/request_bounds.go#L30) |
+| defaultBodyTimeout | const_spec |  | [31](../../magpie/internal/gateway/request_bounds.go#L31) |
+| codexBodyMost | const_spec |  | [35](../../magpie/internal/gateway/request_bounds.go#L35) |
+| codexBodyLimit | function_declaration |  | [50](../../magpie/internal/gateway/request_bounds.go#L50) |
+| codexLimit | var_spec |  | [66](../../magpie/internal/gateway/request_bounds.go#L66) |
+| goos | field_declaration | codexLimit | [68](../../magpie/internal/gateway/request_bounds.go#L68) |
+| n | field_declaration | codexLimit | [69](../../magpie/internal/gateway/request_bounds.go#L69) |
+| codexLimitOf | method_declaration |  | [74](../../magpie/internal/gateway/request_bounds.go#L74) |
+| bodyLimitOf | method_declaration |  | [82](../../magpie/internal/gateway/request_bounds.go#L82) |
+| requestLimits | type_spec |  | [89](../../magpie/internal/gateway/request_bounds.go#L89) |
+| body | field_declaration | requestLimits | [90](../../magpie/internal/gateway/request_bounds.go#L90) |
+| readTimeout | field_declaration | requestLimits | [91](../../magpie/internal/gateway/request_bounds.go#L91) |
+| requestBody | method_declaration |  | [94](../../magpie/internal/gateway/request_bounds.go#L94) |
+| readRequestBody | method_declaration |  | [98](../../magpie/internal/gateway/request_bounds.go#L98) |
+| idleBody | type_spec |  | [130](../../magpie/internal/gateway/request_bounds.go#L130) |
+| controller | field_declaration | idleBody | [132](../../magpie/internal/gateway/request_bounds.go#L132) |
+| idle | field_declaration | idleBody | [133](../../magpie/internal/gateway/request_bounds.go#L133) |
+| Read | method_declaration |  | [136](../../magpie/internal/gateway/request_bounds.go#L136) |
+| errBodyEncoding | var_spec |  | [147](../../magpie/internal/gateway/request_bounds.go#L147) |
+| decodedBody | function_declaration |  | [153](../../magpie/internal/gateway/request_bounds.go#L153) |
+| rd | var_spec | decodedBody | [154](../../magpie/internal/gateway/request_bounds.go#L154) |
+| bodyDecoders | var_spec |  | [184](../../magpie/internal/gateway/request_bounds.go#L184) |
+| pooledZstd | type_spec |  | [194](../../magpie/internal/gateway/request_bounds.go#L194) |
+| d | field_declaration | pooledZstd | [194](../../magpie/internal/gateway/request_bounds.go#L194) |
+| Read | method_declaration |  | [196](../../magpie/internal/gateway/request_bounds.go#L196) |
+| Close | method_declaration |  | [203](../../magpie/internal/gateway/request_bounds.go#L203) |
+| readBoundedRequestBody | function_declaration |  | [214](../../magpie/internal/gateway/request_bounds.go#L214) |
+| timeout | var_spec | readBoundedRequestBody | [240](../../magpie/internal/gateway/request_bounds.go#L240) |
+| sizedReadFirst | const_spec |  | [278](../../magpie/internal/gateway/request_bounds.go#L278) |
+| readSized | function_declaration |  | [292](../../magpie/internal/gateway/request_bounds.go#L292) |
+| probe | var_spec | readSized | [301](../../magpie/internal/gateway/request_bounds.go#L301) |
+| overLimit | function_declaration |  | [339](../../magpie/internal/gateway/request_bounds.go#L339) |
+| sizeWord | function_declaration |  | [345](../../magpie/internal/gateway/request_bounds.go#L345) |

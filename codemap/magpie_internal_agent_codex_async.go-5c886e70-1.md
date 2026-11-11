@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codex_async.go) · page 1/1
 
-Source SHA-256: 7cc9e5a2d75feda3ff94ee0d19f58c5105f1247c20369bd94b793f8b170250b3
+Source SHA-256: 6150c0172d9b40cb18aadbcec38e59f4c8473cf6750bc2453f92e82aa1f19a41
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,25 +14,27 @@ Source SHA-256: 7cc9e5a2d75feda3ff94ee0d19f58c5105f1247c20369bd94b793f8b170250b3
 | CodexReader | type_spec |  | [55](../../magpie/internal/agent/codex_async.go#L55) |
 | Kind | field_declaration | CodexReader | [56](../../magpie/internal/agent/codex_async.go#L56) |
 | Version | field_declaration | CodexReader | [57](../../magpie/internal/agent/codex_async.go#L57) |
-| codexReaders | var_spec |  | [64](../../magpie/internal/agent/codex_async.go#L64) |
-| out | var_spec | codexReaders | [68](../../magpie/internal/agent/codex_async.go#L68) |
-| codexPackageVersionRe | var_spec |  | [92](../../magpie/internal/agent/codex_async.go#L92) |
-| bundledCodexVersion | function_declaration |  | [98](../../magpie/internal/agent/codex_async.go#L98) |
-| codexAsyncBlocked | function_declaration |  | [116](../../magpie/internal/agent/codex_async.go#L116) |
-| out | var_spec | codexAsyncBlocked | [120](../../magpie/internal/agent/codex_async.go#L120) |
-| codexAsyncHeld | var_spec |  | [131](../../magpie/internal/agent/codex_async.go#L131) |
-| rs | field_declaration | codexAsyncHeld | [133](../../magpie/internal/agent/codex_async.go#L133) |
-| CodexAsyncHeld | function_declaration |  | [139](../../magpie/internal/agent/codex_async.go#L139) |
-| codexAsyncTableOK | function_declaration |  | [146](../../magpie/internal/agent/codex_async.go#L146) |
-| codexAsyncStash | type_spec |  | [157](../../magpie/internal/agent/codex_async.go#L157) |
-| Enabled | field_declaration | codexAsyncStash | [158](../../magpie/internal/agent/codex_async.go#L158) |
-| Percent | field_declaration | codexAsyncStash | [159](../../magpie/internal/agent/codex_async.go#L159) |
-| Cap | field_declaration | codexAsyncStash | [160](../../magpie/internal/agent/codex_async.go#L160) |
-| Bool | field_declaration | codexAsyncStash | [161](../../magpie/internal/agent/codex_async.go#L161) |
-| codexAsyncNow | function_declaration |  | [166](../../magpie/internal/agent/codex_async.go#L166) |
-| doc | var_spec | codexAsyncNow | [171](../../magpie/internal/agent/codex_async.go#L171) |
-| codexAsyncSync | function_declaration |  | [189](../../magpie/internal/agent/codex_async.go#L189) |
-| bad | var_spec | codexAsyncSync | [191](../../magpie/internal/agent/codex_async.go#L191) |
-| st | var_spec | codexAsyncSync | [198](../../magpie/internal/agent/codex_async.go#L198) |
-| codexProviderCaps | function_declaration |  | [338](../../magpie/internal/agent/codex_async.go#L338) |
-| out | var_spec | codexProviderCaps | [344](../../magpie/internal/agent/codex_async.go#L344) |
+| codexReaders | var_spec |  | [66](../../magpie/internal/agent/codex_async.go#L66) |
+| out | var_spec | codexReaders | [70](../../magpie/internal/agent/codex_async.go#L70) |
+| codexPackageVersionRe | var_spec |  | [98](../../magpie/internal/agent/codex_async.go#L98) |
+| bundledCodexVersion | function_declaration |  | [104](../../magpie/internal/agent/codex_async.go#L104) |
+| codexAsyncBlocked | function_declaration |  | [122](../../magpie/internal/agent/codex_async.go#L122) |
+| out | var_spec | codexAsyncBlocked | [126](../../magpie/internal/agent/codex_async.go#L126) |
+| codexAsyncHeld | var_spec |  | [137](../../magpie/internal/agent/codex_async.go#L137) |
+| rs | field_declaration | codexAsyncHeld | [139](../../magpie/internal/agent/codex_async.go#L139) |
+| CodexAsyncHeld | function_declaration |  | [145](../../magpie/internal/agent/codex_async.go#L145) |
+| codexAsyncTableOK | function_declaration |  | [152](../../magpie/internal/agent/codex_async.go#L152) |
+| codexAsyncStash | type_spec |  | [163](../../magpie/internal/agent/codex_async.go#L163) |
+| Enabled | field_declaration | codexAsyncStash | [164](../../magpie/internal/agent/codex_async.go#L164) |
+| Percent | field_declaration | codexAsyncStash | [165](../../magpie/internal/agent/codex_async.go#L165) |
+| Cap | field_declaration | codexAsyncStash | [166](../../magpie/internal/agent/codex_async.go#L166) |
+| Bool | field_declaration | codexAsyncStash | [167](../../magpie/internal/agent/codex_async.go#L167) |
+| codexAsyncNow | function_declaration |  | [172](../../magpie/internal/agent/codex_async.go#L172) |
+| codexAsyncSync | function_declaration |  | [191](../../magpie/internal/agent/codex_async.go#L191) |
+| bad | var_spec | codexAsyncSync | [193](../../magpie/internal/agent/codex_async.go#L193) |
+| st | var_spec | codexAsyncSync | [200](../../magpie/internal/agent/codex_async.go#L200) |
+| codexProviderCaps | function_declaration |  | [340](../../magpie/internal/agent/codex_async.go#L340) |
+| out | var_spec | codexProviderCaps | [346](../../magpie/internal/agent/codex_async.go#L346) |
+| CodexAsyncHeldHere | function_declaration |  | [360](../../magpie/internal/agent/codex_async.go#L360) |
+| codexAsyncOwn | function_declaration |  | [370](../../magpie/internal/agent/codex_async.go#L370) |
+| st | var_spec | codexAsyncOwn | [377](../../magpie/internal/agent/codex_async.go#L377) |

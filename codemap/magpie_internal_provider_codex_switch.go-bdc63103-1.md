@@ -4,38 +4,67 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_switch.go) · page 1/1
 
-Source SHA-256: 46db8734ecee9a4a2c26d289ec33fb7adc299b2953d56a5b59f00368327d40ad
+Source SHA-256: 2998a1219cf95077f5702e1efb294370bea986bd909e04d50ab45e9e28683a3e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| loginSwitchEvery | const_spec |  | [46](../../magpie/internal/provider/codex_switch.go#L46) |
-| SpentShare | const_spec |  | [51](../../magpie/internal/provider/codex_switch.go#L51) |
-| SpentShareOf | function_declaration |  | [57](../../magpie/internal/provider/codex_switch.go#L57) |
-| loginSwitching | function_declaration |  | [67](../../magpie/internal/provider/codex_switch.go#L67) |
-| backShare | const_spec |  | [79](../../magpie/internal/provider/codex_switch.go#L79) |
-| switchedAgents | var_spec |  | [82](../../magpie/internal/provider/codex_switch.go#L82) |
-| usedUp | function_declaration |  | [86](../../magpie/internal/provider/codex_switch.go#L86) |
-| UsedUp | function_declaration |  | [92](../../magpie/internal/provider/codex_switch.go#L92) |
-| BackAt | function_declaration |  | [97](../../magpie/internal/provider/codex_switch.go#L97) |
-| back | var_spec | BackAt | [98](../../magpie/internal/provider/codex_switch.go#L98) |
-| at | var_spec | BackAt | [103](../../magpie/internal/provider/codex_switch.go#L103) |
-| resetPassed | function_declaration |  | [122](../../magpie/internal/provider/codex_switch.go#L122) |
-| usedPast | function_declaration |  | [131](../../magpie/internal/provider/codex_switch.go#L131) |
-| NextLogin | function_declaration |  | [145](../../magpie/internal/provider/codex_switch.go#L145) |
-| spares | var_spec | NextLogin | [149](../../magpie/internal/provider/codex_switch.go#L149) |
-| first | var_spec | NextLogin | [150](../../magpie/internal/provider/codex_switch.go#L150) |
-| SwitchWhenSpent | function_declaration |  | [219](../../magpie/internal/provider/codex_switch.go#L219) |
-| loginReturn | type_spec |  | [258](../../magpie/internal/provider/codex_switch.go#L258) |
-| Back | field_declaration | loginReturn | [259](../../magpie/internal/provider/codex_switch.go#L259) |
-| To | field_declaration | loginReturn | [260](../../magpie/internal/provider/codex_switch.go#L260) |
-| loginReturnsMu | var_spec |  | [263](../../magpie/internal/provider/codex_switch.go#L263) |
-| loginReturnsPath | function_declaration |  | [265](../../magpie/internal/provider/codex_switch.go#L265) |
-| readLoginReturns | function_declaration |  | [267](../../magpie/internal/provider/codex_switch.go#L267) |
-| loginReturnOf | function_declaration |  | [278](../../magpie/internal/provider/codex_switch.go#L278) |
-| setLoginReturn | function_declaration |  | [289](../../magpie/internal/provider/codex_switch.go#L289) |
-| codexWasUsedUp | var_spec |  | [317](../../magpie/internal/provider/codex_switch.go#L317) |
-| noteCodexUsedUp | function_declaration |  | [325](../../magpie/internal/provider/codex_switch.go#L325) |
-| KeepOnAnAccountWithRoom | function_declaration |  | [336](../../magpie/internal/provider/codex_switch.go#L336) |
+| ClaudeThroughMagpie | var_spec |  | [58](../../magpie/internal/provider/codex_switch.go#L58) |
+| loginSwitchEvery | const_spec |  | [61](../../magpie/internal/provider/codex_switch.go#L61) |
+| codexNearOutEvery | const_spec |  | [69](../../magpie/internal/provider/codex_switch.go#L69) |
+| codexNearShare | const_spec |  | [73](../../magpie/internal/provider/codex_switch.go#L73) |
+| codexLookEvery | function_declaration |  | [78](../../magpie/internal/provider/codex_switch.go#L78) |
+| codexIdleAfter | const_spec |  | [105](../../magpie/internal/provider/codex_switch.go#L105) |
+| codexIdleLookEvery | const_spec |  | [106](../../magpie/internal/provider/codex_switch.go#L106) |
+| codexIdle | var_spec |  | [111](../../magpie/internal/provider/codex_switch.go#L111) |
+| codexDue | function_declaration |  | [118](../../magpie/internal/provider/codex_switch.go#L118) |
+| codexEveryAt | function_declaration |  | [125](../../magpie/internal/provider/codex_switch.go#L125) |
+| CodexOutUntil | function_declaration |  | [135](../../magpie/internal/provider/codex_switch.go#L135) |
+| codexOutUntil | function_declaration |  | [138](../../magpie/internal/provider/codex_switch.go#L138) |
+| until | var_spec | codexOutUntil | [139](../../magpie/internal/provider/codex_switch.go#L139) |
+| SpentShare | const_spec |  | [160](../../magpie/internal/provider/codex_switch.go#L160) |
+| SpentShareOf | function_declaration |  | [166](../../magpie/internal/provider/codex_switch.go#L166) |
+| loginSwitching | function_declaration |  | [176](../../magpie/internal/provider/codex_switch.go#L176) |
+| returnsToFirst | function_declaration |  | [201](../../magpie/internal/provider/codex_switch.go#L201) |
+| backShare | const_spec |  | [215](../../magpie/internal/provider/codex_switch.go#L215) |
+| switchedAgents | var_spec |  | [218](../../magpie/internal/provider/codex_switch.go#L218) |
+| usedUp | function_declaration |  | [222](../../magpie/internal/provider/codex_switch.go#L222) |
+| UsedUp | function_declaration |  | [228](../../magpie/internal/provider/codex_switch.go#L228) |
+| BackAt | function_declaration |  | [233](../../magpie/internal/provider/codex_switch.go#L233) |
+| back | var_spec | BackAt | [234](../../magpie/internal/provider/codex_switch.go#L234) |
+| at | var_spec | BackAt | [239](../../magpie/internal/provider/codex_switch.go#L239) |
+| resetPassed | function_declaration |  | [258](../../magpie/internal/provider/codex_switch.go#L258) |
+| usedPast | function_declaration |  | [267](../../magpie/internal/provider/codex_switch.go#L267) |
+| NextLogin | function_declaration |  | [284](../../magpie/internal/provider/codex_switch.go#L284) |
+| spares | var_spec | NextLogin | [288](../../magpie/internal/provider/codex_switch.go#L288) |
+| first | var_spec | NextLogin | [289](../../magpie/internal/provider/codex_switch.go#L289) |
+| firstUser | var_spec | NextLogin | [326](../../magpie/internal/provider/codex_switch.go#L326) |
+| spendsFirst | function_declaration |  | [413](../../magpie/internal/provider/codex_switch.go#L413) |
+| roomMargin | const_spec |  | [419](../../magpie/internal/provider/codex_switch.go#L419) |
+| roomLeft | function_declaration |  | [426](../../magpie/internal/provider/codex_switch.go#L426) |
+| NextInOrder | function_declaration |  | [454](../../magpie/internal/provider/codex_switch.go#L454) |
+| order | var_spec | NextInOrder | [460](../../magpie/internal/provider/codex_switch.go#L460) |
+| unreadSpare | function_declaration |  | [503](../../magpie/internal/provider/codex_switch.go#L503) |
+| readSpare | function_declaration |  | [510](../../magpie/internal/provider/codex_switch.go#L510) |
+| SwitchWhenSpent | function_declaration |  | [520](../../magpie/internal/provider/codex_switch.go#L520) |
+| loginReturn | type_spec |  | [568](../../magpie/internal/provider/codex_switch.go#L568) |
+| Back | field_declaration | loginReturn | [569](../../magpie/internal/provider/codex_switch.go#L569) |
+| To | field_declaration | loginReturn | [570](../../magpie/internal/provider/codex_switch.go#L570) |
+| loginReturnsMu | var_spec |  | [573](../../magpie/internal/provider/codex_switch.go#L573) |
+| loginReturnsPath | function_declaration |  | [575](../../magpie/internal/provider/codex_switch.go#L575) |
+| readLoginReturns | function_declaration |  | [577](../../magpie/internal/provider/codex_switch.go#L577) |
+| loginReturnOf | function_declaration |  | [588](../../magpie/internal/provider/codex_switch.go#L588) |
+| setLoginReturn | function_declaration |  | [599](../../magpie/internal/provider/codex_switch.go#L599) |
+| codexWasUsedUp | var_spec |  | [627](../../magpie/internal/provider/codex_switch.go#L627) |
+| noteCodexUsedUp | function_declaration |  | [635](../../magpie/internal/provider/codex_switch.go#L635) |
+| KeepOnAnAccountWithRoom | function_declaration |  | [648](../../magpie/internal/provider/codex_switch.go#L648) |
+| full | var_spec | KeepOnAnAccountWithRoom | [657](../../magpie/internal/provider/codex_switch.go#L657) |
+| codexNext | var_spec | KeepOnAnAccountWithRoom | [660](../../magpie/internal/provider/codex_switch.go#L660) |
+| codexEvery | var_spec | KeepOnAnAccountWithRoom | [700](../../magpie/internal/provider/codex_switch.go#L700) |
+| restartCodexAppLeftOnSpent | function_declaration |  | [723](../../magpie/internal/provider/codex_switch.go#L723) |
+| codexAppLeftRestarted | var_spec |  | [750](../../magpie/internal/provider/codex_switch.go#L750) |
+| firstSignInLook | var_spec |  | [754](../../magpie/internal/provider/codex_switch.go#L754) |
+| signInsLooked | var_spec |  | [758](../../magpie/internal/provider/codex_switch.go#L758) |
+| lookAtSignIn | function_declaration |  | [761](../../magpie/internal/provider/codex_switch.go#L761) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 305: ERROR
+- line 615: ERROR

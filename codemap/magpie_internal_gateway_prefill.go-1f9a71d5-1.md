@@ -4,23 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/prefill.go) · page 1/1
 
-Source SHA-256: bd1b5c400d94638ce1ffd609dd80d990f5449e1322f9a4e38a1e61ea1f2809ea
+Source SHA-256: b84012e122cc1801a861c274e489d1bd7310d680d306ecee3b9efcdb4a127689
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| prefillRefusal | var_spec |  | [36](../../magpie/internal/gateway/prefill.go#L36) |
-| prefillRefused | function_declaration |  | [40](../../magpie/internal/gateway/prefill.go#L40) |
-| refusesPrefill | function_declaration |  | [43](../../magpie/internal/gateway/prefill.go#L43) |
-| continueText | const_spec |  | [49](../../magpie/internal/gateway/prefill.go#L49) |
-| compactLastText | const_spec |  | [54](../../magpie/internal/gateway/prefill.go#L54) |
-| modelLastAsk | function_declaration |  | [58](../../magpie/internal/gateway/prefill.go#L58) |
-| endsWithAssistant | method_declaration |  | [67](../../magpie/internal/gateway/prefill.go#L67) |
-| userLast | method_declaration |  | [82](../../magpie/internal/gateway/prefill.go#L82) |
-| userLastBody | function_declaration |  | [91](../../magpie/internal/gateway/prefill.go#L91) |
-| m | var_spec | userLastBody | [92](../../magpie/internal/gateway/prefill.go#L92) |
-| items | var_spec | userLastBody | [100](../../magpie/internal/gateway/prefill.go#L100) |
-| last | var_spec | userLastBody | [104](../../magpie/internal/gateway/prefill.go#L104) |
-| Type | field_declaration | userLastBody::last | [105](../../magpie/internal/gateway/prefill.go#L105) |
-| Role | field_declaration | userLastBody::last | [106](../../magpie/internal/gateway/prefill.go#L106) |
-| ToolCalls | field_declaration | userLastBody::last | [107](../../magpie/internal/gateway/prefill.go#L107) |
-| turn | var_spec | userLastBody | [113](../../magpie/internal/gateway/prefill.go#L113) |
+| prefillRefusal | var_spec |  | [37](../../magpie/internal/gateway/prefill.go#L37) |
+| prefillRefused | function_declaration |  | [41](../../magpie/internal/gateway/prefill.go#L41) |
+| refusesPrefill | function_declaration |  | [44](../../magpie/internal/gateway/prefill.go#L44) |
+| continueText | const_spec |  | [50](../../magpie/internal/gateway/prefill.go#L50) |
+| compactLastText | const_spec |  | [55](../../magpie/internal/gateway/prefill.go#L55) |
+| modelLastAsk | function_declaration |  | [59](../../magpie/internal/gateway/prefill.go#L59) |
+| endsWithAssistant | method_declaration |  | [68](../../magpie/internal/gateway/prefill.go#L68) |
+| userLast | method_declaration |  | [83](../../magpie/internal/gateway/prefill.go#L83) |
+| userLastBody | function_declaration |  | [92](../../magpie/internal/gateway/prefill.go#L92) |
+| m | var_spec | userLastBody | [93](../../magpie/internal/gateway/prefill.go#L93) |
+| items | var_spec | userLastBody | [101](../../magpie/internal/gateway/prefill.go#L101) |
+| last | var_spec | userLastBody | [105](../../magpie/internal/gateway/prefill.go#L105) |
+| Type | field_declaration | userLastBody::last | [106](../../magpie/internal/gateway/prefill.go#L106) |
+| Role | field_declaration | userLastBody::last | [107](../../magpie/internal/gateway/prefill.go#L107) |
+| ToolCalls | field_declaration | userLastBody::last | [108](../../magpie/internal/gateway/prefill.go#L108) |
+| turn | var_spec | userLastBody | [114](../../magpie/internal/gateway/prefill.go#L114) |

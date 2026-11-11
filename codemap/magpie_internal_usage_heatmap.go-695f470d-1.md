@@ -4,24 +4,68 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/heatmap.go) · page 1/1
 
-Source SHA-256: 2cb3c82af1889f7125eaefde2cc777c695d590b7eee947bcb1b83d57ee514e43
+Source SHA-256: c28fba4d42ff6cd5d51bfaa58b7b7cd450bfe296fc218c6caa52ac6ae56d634f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| HeatmapWeeks | const_spec |  | [17](../../magpie/internal/usage/heatmap.go#L17) |
-| heatmapPeriod | const_spec |  | [22](../../magpie/internal/usage/heatmap.go#L22) |
-| heatmapSince | function_declaration |  | [25](../../magpie/internal/usage/heatmap.go#L25) |
-| Day | type_spec |  | [31](../../magpie/internal/usage/heatmap.go#L31) |
-| Date | field_declaration | Day | [32](../../magpie/internal/usage/heatmap.go#L32) |
-| Calls | field_declaration | Day | [33](../../magpie/internal/usage/heatmap.go#L33) |
-| Tokens | field_declaration | Day | [34](../../magpie/internal/usage/heatmap.go#L34) |
-| Cost | field_declaration | Day | [35](../../magpie/internal/usage/heatmap.go#L35) |
-| Unpriced | field_declaration | Day | [37](../../magpie/internal/usage/heatmap.go#L37) |
-| Heatmap | type_spec |  | [42](../../magpie/internal/usage/heatmap.go#L42) |
-| From | field_declaration | Heatmap | [43](../../magpie/internal/usage/heatmap.go#L43) |
-| To | field_declaration | Heatmap | [44](../../magpie/internal/usage/heatmap.go#L44) |
-| Days | field_declaration | Heatmap | [45](../../magpie/internal/usage/heatmap.go#L45) |
-| HeatmapOf | function_declaration |  | [51](../../magpie/internal/usage/heatmap.go#L51) |
-| heatmapOf | function_declaration |  | [61](../../magpie/internal/usage/heatmap.go#L61) |
-| ymd | type_spec | heatmapOf | [65](../../magpie/internal/usage/heatmap.go#L65) |
-| y | field_declaration | heatmapOf::ymd | [65](../../magpie/internal/usage/heatmap.go#L65) |
+| HeatmapWeeks | const_spec |  | [21](../../magpie/internal/usage/heatmap.go#L21) |
+| heatmapPeriod | const_spec |  | [26](../../magpie/internal/usage/heatmap.go#L26) |
+| heatmapSince | function_declaration |  | [29](../../magpie/internal/usage/heatmap.go#L29) |
+| Day | type_spec |  | [35](../../magpie/internal/usage/heatmap.go#L35) |
+| Date | field_declaration | Day | [36](../../magpie/internal/usage/heatmap.go#L36) |
+| Calls | field_declaration | Day | [37](../../magpie/internal/usage/heatmap.go#L37) |
+| Tokens | field_declaration | Day | [38](../../magpie/internal/usage/heatmap.go#L38) |
+| Cost | field_declaration | Day | [39](../../magpie/internal/usage/heatmap.go#L39) |
+| Unpriced | field_declaration | Day | [41](../../magpie/internal/usage/heatmap.go#L41) |
+| Heatmap | type_spec |  | [46](../../magpie/internal/usage/heatmap.go#L46) |
+| From | field_declaration | Heatmap | [47](../../magpie/internal/usage/heatmap.go#L47) |
+| To | field_declaration | Heatmap | [48](../../magpie/internal/usage/heatmap.go#L48) |
+| Days | field_declaration | Heatmap | [49](../../magpie/internal/usage/heatmap.go#L49) |
+| HeatmapOf | function_declaration |  | [55](../../magpie/internal/usage/heatmap.go#L55) |
+| heatmapOf | function_declaration |  | [65](../../magpie/internal/usage/heatmap.go#L65) |
+| heatDays | type_spec |  | [72](../../magpie/internal/usage/heatmap.go#L72) |
+| at | field_declaration | heatDays | [73](../../magpie/internal/usage/heatmap.go#L73) |
+| names | field_declaration | heatDays | [75](../../magpie/internal/usage/heatmap.go#L75) |
+| add | method_declaration |  | [79](../../magpie/internal/usage/heatmap.go#L79) |
+| addDay | method_declaration |  | [111](../../magpie/internal/usage/heatmap.go#L111) |
+| list | method_declaration |  | [127](../../magpie/internal/usage/heatmap.go#L127) |
+| heatmapFrom | function_declaration |  | [137](../../magpie/internal/usage/heatmap.go#L137) |
+| heatOf | method_declaration |  | [152](../../magpie/internal/usage/heatmap.go#L152) |
+| heatDaysOf | method_declaration |  | [158](../../magpie/internal/usage/heatmap.go#L158) |
+| r | var_spec | heatDaysOf | [162](../../magpie/internal/usage/heatmap.go#L162) |
+| part | var_spec | heatDaysOf | [169](../../magpie/internal/usage/heatmap.go#L169) |
+| heatRecent | const_spec |  | [203](../../magpie/internal/usage/heatmap.go#L203) |
+| heatReach | const_spec |  | [204](../../magpie/internal/usage/heatmap.go#L204) |
+| heatOldFresh | var_spec |  | [214](../../magpie/internal/usage/heatmap.go#L214) |
+| heatOld | type_spec |  | [220](../../magpie/internal/usage/heatmap.go#L220) |
+| cut | field_declaration | heatOld | [221](../../magpie/internal/usage/heatmap.go#L221) |
+| settled | field_declaration | heatOld | [222](../../magpie/internal/usage/heatmap.go#L222) |
+| at | field_declaration | heatOld | [223](../../magpie/internal/usage/heatmap.go#L223) |
+| days | field_declaration | heatOld | [224](../../magpie/internal/usage/heatmap.go#L224) |
+| parts | field_declaration | heatOld | [225](../../magpie/internal/usage/heatmap.go#L225) |
+| before | field_declaration | heatOld | [227](../../magpie/internal/usage/heatmap.go#L227) |
+| key | field_declaration | heatOld | [229](../../magpie/internal/usage/heatmap.go#L229) |
+| heatSum | type_spec |  | [233](../../magpie/internal/usage/heatmap.go#L233) |
+| n | field_declaration | heatSum | [234](../../magpie/internal/usage/heatmap.go#L234) |
+| at | field_declaration | heatSum | [235](../../magpie/internal/usage/heatmap.go#L235) |
+| heatBefore | function_declaration |  | [245](../../magpie/internal/usage/heatmap.go#L245) |
+| s | var_spec | heatBefore | [251](../../magpie/internal/usage/heatmap.go#L251) |
+| open | var_spec | heatBefore | [252](../../magpie/internal/usage/heatmap.go#L252) |
+| part | var_spec | heatBefore | [274](../../magpie/internal/usage/heatmap.go#L274) |
+| plus | method_declaration |  | [306](../../magpie/internal/usage/heatmap.go#L306) |
+| heatBeforeOf | type_spec |  | [314](../../magpie/internal/usage/heatmap.go#L314) |
+| cut | field_declaration | heatBeforeOf | [315](../../magpie/internal/usage/heatmap.go#L315) |
+| sum | field_declaration | heatBeforeOf | [316](../../magpie/internal/usage/heatmap.go#L316) |
+| turn | field_declaration | heatBeforeOf | [317](../../magpie/internal/usage/heatmap.go#L317) |
+| heatBefores | var_spec |  | [320](../../magpie/internal/usage/heatmap.go#L320) |
+| by | field_declaration | heatBefores | [322](../../magpie/internal/usage/heatmap.go#L322) |
+| turn | field_declaration | heatBefores | [323](../../magpie/internal/usage/heatmap.go#L323) |
+| heatBeforeOpening | var_spec |  | [327](../../magpie/internal/usage/heatmap.go#L327) |
+| heatSplit | function_declaration |  | [337](../../magpie/internal/usage/heatmap.go#L337) |
+| before | var_spec | heatSplit | [352](../../magpie/internal/usage/heatmap.go#L352) |
+| key | var_spec | heatSplit | [356](../../magpie/internal/usage/heatmap.go#L356) |
+| kept | var_spec | heatSplit | [384](../../magpie/internal/usage/heatmap.go#L384) |
+| heatAdvance | function_declaration |  | [426](../../magpie/internal/usage/heatmap.go#L426) |
+| heatCold | function_declaration |  | [460](../../magpie/internal/usage/heatmap.go#L460) |
+| heatPairing | var_spec |  | [478](../../magpie/internal/usage/heatmap.go#L478) |
+| heatReading | var_spec |  | [481](../../magpie/internal/usage/heatmap.go#L481) |

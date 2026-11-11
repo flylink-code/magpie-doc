@@ -4,10 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/workplace.go) · page 1/1
 
-Source SHA-256: bc520caefe70903bef67111e73a74ef07a9aeda7cf2fc53c05fc2915c46a48f4
+Source SHA-256: f150d0897d9f64fe4f566c4ce93787c6c6625403573dd0acb3e4745bbf3a75b2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| gitSaidRe | var_spec |  | [14](../../magpie/internal/provider/workplace.go#L14) |
-| GitSaid | function_declaration |  | [18](../../magpie/internal/provider/workplace.go#L18) |
-| GitOnDisk | function_declaration |  | [34](../../magpie/internal/provider/workplace.go#L34) |
+| gitSaidRe | var_spec |  | [21](../../magpie/internal/provider/workplace.go#L21) |
+| GitSaid | function_declaration |  | [25](../../magpie/internal/provider/workplace.go#L25) |
+| GitOnDisk | function_declaration |  | [45](../../magpie/internal/provider/workplace.go#L45) |
+| GitAt | function_declaration |  | [76](../../magpie/internal/provider/workplace.go#L76) |
+| gitDir | function_declaration |  | [118](../../magpie/internal/provider/workplace.go#L118) |
+| gitHead | function_declaration |  | [150](../../magpie/internal/provider/workplace.go#L150) |
+| absent | function_declaration |  | [186](../../magpie/internal/provider/workplace.go#L186) |

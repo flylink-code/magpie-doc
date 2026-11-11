@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/reach.go) · page 1/1
 
-Source SHA-256: 119d762bb1f5f75c1c86fec3a3f507be665804f0616a119dc3083feec9e2d19a
+Source SHA-256: e77b1479deddfd210689c235d0b46281f86f453f8ce2bf0edc0bb79dac635ea5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,19 +20,21 @@ Source SHA-256: 119d762bb1f5f75c1c86fec3a3f507be665804f0616a119dc3083feec9e2d19a
 | proxyBase | function_declaration |  | [88](../../magpie/internal/agent/reach.go#L88) |
 | loopbackWithPath | function_declaration |  | [106](../../magpie/internal/agent/reach.go#L106) |
 | reachesMagpie | function_declaration |  | [118](../../magpie/internal/agent/reach.go#L118) |
-| surelyMagpie | function_declaration |  | [130](../../magpie/internal/agent/reach.go#L130) |
-| reach | var_spec |  | [139](../../magpie/internal/agent/reach.go#L139) |
-| m | field_declaration | reach | [141](../../magpie/internal/agent/reach.go#L141) |
-| reachAnswer | type_spec |  | [144](../../magpie/internal/agent/reach.go#L144) |
-| at | field_declaration | reachAnswer | [145](../../magpie/internal/agent/reach.go#L145) |
-| ok | field_declaration | reachAnswer | [146](../../magpie/internal/agent/reach.go#L146) |
-| reachable | function_declaration |  | [152](../../magpie/internal/agent/reach.go#L152) |
-| probed | function_declaration |  | [160](../../magpie/internal/agent/reach.go#L160) |
-| probedNow | function_declaration |  | [182](../../magpie/internal/agent/reach.go#L182) |
-| offLoopback | function_declaration |  | [201](../../magpie/internal/agent/reach.go#L201) |
-| pointedAt | method_declaration |  | [217](../../magpie/internal/agent/reach.go#L217) |
-| unreachable | method_declaration |  | [231](../../magpie/internal/agent/reach.go#L231) |
-| ok | var_spec | unreachable | [238](../../magpie/internal/agent/reach.go#L238) |
-| wslFirewallCommand | function_declaration |  | [278](../../magpie/internal/agent/reach.go#L278) |
-| wslMovedFrom | function_declaration |  | [291](../../magpie/internal/agent/reach.go#L291) |
-| proxied | method_declaration |  | [326](../../magpie/internal/agent/reach.go#L326) |
+| surelyMagpie | function_declaration |  | [133](../../magpie/internal/agent/reach.go#L133) |
+| chainsToGateway | function_declaration |  | [155](../../magpie/internal/agent/reach.go#L155) |
+| magpieAsked | function_declaration |  | [191](../../magpie/internal/agent/reach.go#L191) |
+| reach | var_spec |  | [197](../../magpie/internal/agent/reach.go#L197) |
+| m | field_declaration | reach | [199](../../magpie/internal/agent/reach.go#L199) |
+| reachAnswer | type_spec |  | [202](../../magpie/internal/agent/reach.go#L202) |
+| at | field_declaration | reachAnswer | [203](../../magpie/internal/agent/reach.go#L203) |
+| ok | field_declaration | reachAnswer | [204](../../magpie/internal/agent/reach.go#L204) |
+| reachable | function_declaration |  | [210](../../magpie/internal/agent/reach.go#L210) |
+| probed | function_declaration |  | [218](../../magpie/internal/agent/reach.go#L218) |
+| probedNow | function_declaration |  | [240](../../magpie/internal/agent/reach.go#L240) |
+| offLoopback | function_declaration |  | [259](../../magpie/internal/agent/reach.go#L259) |
+| pointedAt | method_declaration |  | [275](../../magpie/internal/agent/reach.go#L275) |
+| unreachable | method_declaration |  | [289](../../magpie/internal/agent/reach.go#L289) |
+| ok | var_spec | unreachable | [296](../../magpie/internal/agent/reach.go#L296) |
+| wslFirewallCommand | function_declaration |  | [336](../../magpie/internal/agent/reach.go#L336) |
+| wslMovedFrom | function_declaration |  | [349](../../magpie/internal/agent/reach.go#L349) |
+| proxied | method_declaration |  | [384](../../magpie/internal/agent/reach.go#L384) |

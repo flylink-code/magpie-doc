@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claude_warmup.go) · page 1/1
 
-Source SHA-256: a3cd262dd9e5153b896070c4b1814a0fe684ab977daf289987d6423682a9a68b
+Source SHA-256: 690f7648489dae196d7466378659d14b9824341f323b10db54bde8277f3bf3b4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,6 +12,6 @@ Source SHA-256: a3cd262dd9e5153b896070c4b1814a0fe684ab977daf289987d6423682a9a68b
 | claudeWarmUsage | function_declaration |  | [25](../../magpie/internal/provider/claude_warmup.go#L25) |
 | warmClaudeLogin | function_declaration |  | [38](../../magpie/internal/provider/claude_warmup.go#L38) |
 | claudeWindowsExpected | var_spec |  | [56](../../magpie/internal/provider/claude_warmup.go#L56) |
-| claudeWarmedNow | function_declaration |  | [61](../../magpie/internal/provider/claude_warmup.go#L61) |
-| ClaudeWarmed | function_declaration |  | [75](../../magpie/internal/provider/claude_warmup.go#L75) |
-| KeepClaudeWindowsWarm | function_declaration |  | [79](../../magpie/internal/provider/claude_warmup.go#L79) |
+| claudeWarmedNow | function_declaration |  | [65](../../magpie/internal/provider/claude_warmup.go#L65) |
+| ClaudeWarmed | function_declaration |  | [79](../../magpie/internal/provider/claude_warmup.go#L79) |
+| KeepClaudeWindowsWarm | function_declaration |  | [83](../../magpie/internal/provider/claude_warmup.go#L83) |

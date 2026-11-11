@@ -4,36 +4,37 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_quota.go) · page 1/1
 
-Source SHA-256: 48ac9b49e1193049c14abc42d4ff24c42e3d53095ea614ca929dbb21d12bf675
+Source SHA-256: a46f95772e2fe5ebecf52e6087bdd9fe4860bcf7d2098da93ca1ebf37d1fee2f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | SearchKeyQuota | type_spec |  | [22](../../magpie/internal/gateway/search_quota.go#L22) |
 | Key | field_declaration | SearchKeyQuota | [23](../../magpie/internal/gateway/search_quota.go#L23) |
-| Known | field_declaration | SearchKeyQuota | [26](../../magpie/internal/gateway/search_quota.go#L26) |
-| Unlimited | field_declaration | SearchKeyQuota | [27](../../magpie/internal/gateway/search_quota.go#L27) |
-| Used | field_declaration | SearchKeyQuota | [28](../../magpie/internal/gateway/search_quota.go#L28) |
-| Limit | field_declaration | SearchKeyQuota | [29](../../magpie/internal/gateway/search_quota.go#L29) |
-| Of | field_declaration | SearchKeyQuota | [33](../../magpie/internal/gateway/search_quota.go#L33) |
-| Plan | field_declaration | SearchKeyQuota | [34](../../magpie/internal/gateway/search_quota.go#L34) |
-| PaygoLeft | field_declaration | SearchKeyQuota | [37](../../magpie/internal/gateway/search_quota.go#L37) |
-| UsedUp | field_declaration | SearchKeyQuota | [39](../../magpie/internal/gateway/search_quota.go#L39) |
-| Err | field_declaration | SearchKeyQuota | [41](../../magpie/internal/gateway/search_quota.go#L41) |
-| Resting | field_declaration | SearchKeyQuota | [44](../../magpie/internal/gateway/search_quota.go#L44) |
-| RestUntil | field_declaration | SearchKeyQuota | [45](../../magpie/internal/gateway/search_quota.go#L45) |
-| readTavilyUsage | function_declaration |  | [55](../../magpie/internal/gateway/search_quota.go#L55) |
-| u | var_spec | readTavilyUsage | [56](../../magpie/internal/gateway/search_quota.go#L56) |
-| Key | field_declaration | readTavilyUsage::u | [57](../../magpie/internal/gateway/search_quota.go#L57) |
-| x | var_spec | readTavilyUsage | [75](../../magpie/internal/gateway/search_quota.go#L75) |
-| q | var_spec | readTavilyUsage | [81](../../magpie/internal/gateway/search_quota.go#L81) |
-| searchQuotaKeep | const_spec |  | [119](../../magpie/internal/gateway/search_quota.go#L119) |
-| keptQuota | type_spec |  | [121](../../magpie/internal/gateway/search_quota.go#L121) |
-| at | field_declaration | keptQuota | [122](../../magpie/internal/gateway/search_quota.go#L122) |
-| q | field_declaration | keptQuota | [123](../../magpie/internal/gateway/search_quota.go#L123) |
-| searchQuotas | var_spec |  | [127](../../magpie/internal/gateway/search_quota.go#L127) |
-| quotaClient | var_spec |  | [130](../../magpie/internal/gateway/search_quota.go#L130) |
-| CanReadSearchQuota | function_declaration |  | [134](../../magpie/internal/gateway/search_quota.go#L134) |
-| SearchQuotas | function_declaration |  | [143](../../magpie/internal/gateway/search_quota.go#L143) |
-| wg | var_spec | SearchQuotas | [149](../../magpie/internal/gateway/search_quota.go#L149) |
-| searchQuota | function_declaration |  | [164](../../magpie/internal/gateway/search_quota.go#L164) |
-| askTavilyUsage | function_declaration |  | [189](../../magpie/internal/gateway/search_quota.go#L189) |
+| Ref | field_declaration | SearchKeyQuota | [24](../../magpie/internal/gateway/search_quota.go#L24) |
+| Known | field_declaration | SearchKeyQuota | [27](../../magpie/internal/gateway/search_quota.go#L27) |
+| Unlimited | field_declaration | SearchKeyQuota | [28](../../magpie/internal/gateway/search_quota.go#L28) |
+| Used | field_declaration | SearchKeyQuota | [29](../../magpie/internal/gateway/search_quota.go#L29) |
+| Limit | field_declaration | SearchKeyQuota | [30](../../magpie/internal/gateway/search_quota.go#L30) |
+| Of | field_declaration | SearchKeyQuota | [34](../../magpie/internal/gateway/search_quota.go#L34) |
+| Plan | field_declaration | SearchKeyQuota | [35](../../magpie/internal/gateway/search_quota.go#L35) |
+| PaygoLeft | field_declaration | SearchKeyQuota | [38](../../magpie/internal/gateway/search_quota.go#L38) |
+| UsedUp | field_declaration | SearchKeyQuota | [40](../../magpie/internal/gateway/search_quota.go#L40) |
+| Err | field_declaration | SearchKeyQuota | [42](../../magpie/internal/gateway/search_quota.go#L42) |
+| Resting | field_declaration | SearchKeyQuota | [45](../../magpie/internal/gateway/search_quota.go#L45) |
+| RestUntil | field_declaration | SearchKeyQuota | [46](../../magpie/internal/gateway/search_quota.go#L46) |
+| readTavilyUsage | function_declaration |  | [56](../../magpie/internal/gateway/search_quota.go#L56) |
+| u | var_spec | readTavilyUsage | [57](../../magpie/internal/gateway/search_quota.go#L57) |
+| Key | field_declaration | readTavilyUsage::u | [58](../../magpie/internal/gateway/search_quota.go#L58) |
+| x | var_spec | readTavilyUsage | [76](../../magpie/internal/gateway/search_quota.go#L76) |
+| q | var_spec | readTavilyUsage | [82](../../magpie/internal/gateway/search_quota.go#L82) |
+| searchQuotaKeep | const_spec |  | [120](../../magpie/internal/gateway/search_quota.go#L120) |
+| keptQuota | type_spec |  | [122](../../magpie/internal/gateway/search_quota.go#L122) |
+| at | field_declaration | keptQuota | [123](../../magpie/internal/gateway/search_quota.go#L123) |
+| q | field_declaration | keptQuota | [124](../../magpie/internal/gateway/search_quota.go#L124) |
+| searchQuotas | var_spec |  | [128](../../magpie/internal/gateway/search_quota.go#L128) |
+| quotaClient | var_spec |  | [131](../../magpie/internal/gateway/search_quota.go#L131) |
+| CanReadSearchQuota | function_declaration |  | [135](../../magpie/internal/gateway/search_quota.go#L135) |
+| SearchQuotas | function_declaration |  | [144](../../magpie/internal/gateway/search_quota.go#L144) |
+| wg | var_spec | SearchQuotas | [150](../../magpie/internal/gateway/search_quota.go#L150) |
+| searchQuota | function_declaration |  | [165](../../magpie/internal/gateway/search_quota.go#L165) |
+| askTavilyUsage | function_declaration |  | [190](../../magpie/internal/gateway/search_quota.go#L190) |

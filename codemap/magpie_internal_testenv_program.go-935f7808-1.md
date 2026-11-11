@@ -4,19 +4,19 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/testenv/program.go) · page 1/1
 
-Source SHA-256: 3612b97e9e08d39a3d7ff4d155bacfc871bdd998295522c68cada4c1c0b3b4d6
+Source SHA-256: 60b5d9df7de54cdba2a28c1d1f697b6eb51014f1d04b067dbea7ca7abe69e9e6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Program | function_declaration |  | [25](../../magpie/internal/testenv/program.go#L25) |
 | WriteProgram | function_declaration |  | [42](../../magpie/internal/testenv/program.go#L42) |
-| RemovePrograms | function_declaration |  | [79](../../magpie/internal/testenv/program.go#L79) |
-| pool | var_spec |  | [91](../../magpie/internal/testenv/program.go#L91) |
-| dir | field_declaration | pool | [93](../../magpie/internal/testenv/program.go#L93) |
-| n | field_declaration | pool | [94](../../magpie/internal/testenv/program.go#L94) |
-| free | field_declaration | pool | [95](../../magpie/internal/testenv/program.go#L95) |
-| ran | field_declaration | pool | [96](../../magpie/internal/testenv/program.go#L96) |
-| ran | function_declaration |  | [101](../../magpie/internal/testenv/program.go#L101) |
-| warmAt | function_declaration |  | [111](../../magpie/internal/testenv/program.go#L111) |
-| record | function_declaration |  | [139](../../magpie/internal/testenv/program.go#L139) |
-| reclaim | function_declaration |  | [155](../../magpie/internal/testenv/program.go#L155) |
+| RemovePrograms | function_declaration |  | [85](../../magpie/internal/testenv/program.go#L85) |
+| pool | var_spec |  | [97](../../magpie/internal/testenv/program.go#L97) |
+| dir | field_declaration | pool | [99](../../magpie/internal/testenv/program.go#L99) |
+| n | field_declaration | pool | [100](../../magpie/internal/testenv/program.go#L100) |
+| free | field_declaration | pool | [101](../../magpie/internal/testenv/program.go#L101) |
+| ran | field_declaration | pool | [102](../../magpie/internal/testenv/program.go#L102) |
+| ran | function_declaration |  | [107](../../magpie/internal/testenv/program.go#L107) |
+| warmAt | function_declaration |  | [117](../../magpie/internal/testenv/program.go#L117) |
+| record | function_declaration |  | [145](../../magpie/internal/testenv/program.go#L145) |
+| reclaim | function_declaration |  | [161](../../magpie/internal/testenv/program.go#L161) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/pluginsignin.go) · page 1/1
 
-Source SHA-256: b01222ce96cbd74bd25598b6344ecf17ad76b0b7ff840b6b0f38a71831200fa5
+Source SHA-256: dff260efc25e968f67ad7e3656d325ad1e17e283ba10674131a59cebc35d8b15
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,6 +21,6 @@ Source SHA-256: b01222ce96cbd74bd25598b6344ecf17ad76b0b7ff840b6b0f38a71831200fa5
 | pluginCode | method_declaration |  | [178](../../magpie/internal/provider/pluginsignin.go#L178) |
 | pluginDone | method_declaration |  | [198](../../magpie/internal/provider/pluginsignin.go#L198) |
 | PluginAPIKey | function_declaration |  | [216](../../magpie/internal/provider/pluginsignin.go#L216) |
-| PluginSignedIn | function_declaration |  | [236](../../magpie/internal/provider/pluginsignin.go#L236) |
-| pluginUsing | function_declaration |  | [245](../../magpie/internal/provider/pluginsignin.go#L245) |
-| pluginUser | function_declaration |  | [255](../../magpie/internal/provider/pluginsignin.go#L255) |
+| PluginSignedIn | function_declaration |  | [244](../../magpie/internal/provider/pluginsignin.go#L244) |
+| pluginUsing | function_declaration |  | [253](../../magpie/internal/provider/pluginsignin.go#L253) |
+| pluginUser | function_declaration |  | [263](../../magpie/internal/provider/pluginsignin.go#L263) |

@@ -4,9 +4,9 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/redact/redact.go) · page 1/1
 
-Source SHA-256: a223d2283b033521a718f607c7c41ae29dc0c6cb82c43600a4a3b432af9dd3b6
+Source SHA-256: 9bff4dc33e39d15a575bbedaf65951a0f571ef7ad7c40da2c97458d28350bba5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [19](../../magpie/plugins/redact/redact.go#L19) |
-| InUse | function_declaration |  | [37](../../magpie/plugins/redact/redact.go#L37) |
+| InUse | function_declaration |  | [38](../../magpie/plugins/redact/redact.go#L38) |

@@ -4,43 +4,42 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/grok_integral.go) · page 1/1
 
-Source SHA-256: ed635ef724cc9abc9698b3ed6fde6ba96f18d05547d1c3a39f845b0032f95f87
+Source SHA-256: c24b0ac97d1bb5a19d5de9d00661d3cf492b97e85914030eba214230c3944f33
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | grokModel | function_declaration |  | [38](../../magpie/internal/gateway/grok_integral.go#L38) |
-| grokServed | function_declaration |  | [47](../../magpie/internal/gateway/grok_integral.go#L47) |
-| wholeNums | type_spec |  | [57](../../magpie/internal/gateway/grok_integral.go#L57) |
-| str | field_declaration | wholeNums | [58](../../magpie/internal/gateway/grok_integral.go#L58) |
-| num | field_declaration | wholeNums | [59](../../magpie/internal/gateway/grok_integral.go#L59) |
-| asIs | field_declaration | wholeNums | [60](../../magpie/internal/gateway/grok_integral.go#L60) |
-| zeros | field_declaration | wholeNums | [61](../../magpie/internal/gateway/grok_integral.go#L61) |
-| feed | method_declaration |  | [64](../../magpie/internal/gateway/grok_integral.go#L64) |
-| b | var_spec | feed | [65](../../magpie/internal/gateway/grok_integral.go#L65) |
-| wholeArgs | function_declaration |  | [114](../../magpie/internal/gateway/grok_integral.go#L114) |
-| n | var_spec | wholeArgs | [118](../../magpie/internal/gateway/grok_integral.go#L118) |
-| wholeEncoder | type_spec |  | [124](../../magpie/internal/gateway/grok_integral.go#L124) |
-| args | field_declaration | wholeEncoder | [126](../../magpie/internal/gateway/grok_integral.go#L126) |
-| event | method_declaration |  | [129](../../magpie/internal/gateway/grok_integral.go#L129) |
-| wholeResult | function_declaration |  | [143](../../magpie/internal/gateway/grok_integral.go#L143) |
-| parts | var_spec | wholeResult | [144](../../magpie/internal/gateway/grok_integral.go#L144) |
-| intTidy | type_spec |  | [168](../../magpie/internal/gateway/grok_integral.go#L168) |
-| proto | field_declaration | intTidy | [169](../../magpie/internal/gateway/grok_integral.go#L169) |
-| sse | field_declaration | intTidy | [170](../../magpie/internal/gateway/grok_integral.go#L170) |
-| buf | field_declaration | intTidy | [171](../../magpie/internal/gateway/grok_integral.go#L171) |
-| calls | field_declaration | intTidy | [172](../../magpie/internal/gateway/grok_integral.go#L172) |
-| write | method_declaration |  | [175](../../magpie/internal/gateway/grok_integral.go#L175) |
-| flush | method_declaration |  | [189](../../magpie/internal/gateway/grok_integral.go#L189) |
-| carries | method_declaration |  | [202](../../magpie/internal/gateway/grok_integral.go#L202) |
-| lines | method_declaration |  | [214](../../magpie/internal/gateway/grok_integral.go#L214) |
-| out | var_spec | lines | [218](../../magpie/internal/gateway/grok_integral.go#L218) |
-| event | method_declaration |  | [244](../../magpie/internal/gateway/grok_integral.go#L244) |
-| ev | var_spec | event | [247](../../magpie/internal/gateway/grok_integral.go#L247) |
-| changed | var_spec | event | [251](../../magpie/internal/gateway/grok_integral.go#L251) |
-| stream | method_declaration |  | [271](../../magpie/internal/gateway/grok_integral.go#L271) |
-| set | function_declaration |  | [285](../../magpie/internal/gateway/grok_integral.go#L285) |
-| responses | method_declaration |  | [297](../../magpie/internal/gateway/grok_integral.go#L297) |
-| callKeyOf | function_declaration |  | [334](../../magpie/internal/gateway/grok_integral.go#L334) |
-| jsonText | function_declaration |  | [341](../../magpie/internal/gateway/grok_integral.go#L341) |
-| chat | method_declaration |  | [346](../../magpie/internal/gateway/grok_integral.go#L346) |
-| anthropic | method_declaration |  | [386](../../magpie/internal/gateway/grok_integral.go#L386) |
+| wholeNums | type_spec |  | [51](../../magpie/internal/gateway/grok_integral.go#L51) |
+| str | field_declaration | wholeNums | [52](../../magpie/internal/gateway/grok_integral.go#L52) |
+| num | field_declaration | wholeNums | [53](../../magpie/internal/gateway/grok_integral.go#L53) |
+| asIs | field_declaration | wholeNums | [54](../../magpie/internal/gateway/grok_integral.go#L54) |
+| zeros | field_declaration | wholeNums | [55](../../magpie/internal/gateway/grok_integral.go#L55) |
+| feed | method_declaration |  | [58](../../magpie/internal/gateway/grok_integral.go#L58) |
+| b | var_spec | feed | [59](../../magpie/internal/gateway/grok_integral.go#L59) |
+| wholeArgs | function_declaration |  | [108](../../magpie/internal/gateway/grok_integral.go#L108) |
+| n | var_spec | wholeArgs | [112](../../magpie/internal/gateway/grok_integral.go#L112) |
+| wholeEncoder | type_spec |  | [118](../../magpie/internal/gateway/grok_integral.go#L118) |
+| args | field_declaration | wholeEncoder | [120](../../magpie/internal/gateway/grok_integral.go#L120) |
+| event | method_declaration |  | [123](../../magpie/internal/gateway/grok_integral.go#L123) |
+| wholeResult | function_declaration |  | [137](../../magpie/internal/gateway/grok_integral.go#L137) |
+| parts | var_spec | wholeResult | [138](../../magpie/internal/gateway/grok_integral.go#L138) |
+| intTidy | type_spec |  | [161](../../magpie/internal/gateway/grok_integral.go#L161) |
+| proto | field_declaration | intTidy | [162](../../magpie/internal/gateway/grok_integral.go#L162) |
+| sse | field_declaration | intTidy | [163](../../magpie/internal/gateway/grok_integral.go#L163) |
+| buf | field_declaration | intTidy | [164](../../magpie/internal/gateway/grok_integral.go#L164) |
+| calls | field_declaration | intTidy | [165](../../magpie/internal/gateway/grok_integral.go#L165) |
+| write | method_declaration |  | [168](../../magpie/internal/gateway/grok_integral.go#L168) |
+| flush | method_declaration |  | [182](../../magpie/internal/gateway/grok_integral.go#L182) |
+| carries | method_declaration |  | [200](../../magpie/internal/gateway/grok_integral.go#L200) |
+| lines | method_declaration |  | [212](../../magpie/internal/gateway/grok_integral.go#L212) |
+| out | var_spec | lines | [216](../../magpie/internal/gateway/grok_integral.go#L216) |
+| event | method_declaration |  | [242](../../magpie/internal/gateway/grok_integral.go#L242) |
+| ev | var_spec | event | [245](../../magpie/internal/gateway/grok_integral.go#L245) |
+| changed | var_spec | event | [249](../../magpie/internal/gateway/grok_integral.go#L249) |
+| stream | method_declaration |  | [269](../../magpie/internal/gateway/grok_integral.go#L269) |
+| set | function_declaration |  | [283](../../magpie/internal/gateway/grok_integral.go#L283) |
+| responses | method_declaration |  | [295](../../magpie/internal/gateway/grok_integral.go#L295) |
+| callKeyOf | function_declaration |  | [332](../../magpie/internal/gateway/grok_integral.go#L332) |
+| jsonText | function_declaration |  | [339](../../magpie/internal/gateway/grok_integral.go#L339) |
+| chat | method_declaration |  | [344](../../magpie/internal/gateway/grok_integral.go#L344) |
+| anthropic | method_declaration |  | [384](../../magpie/internal/gateway/grok_integral.go#L384) |

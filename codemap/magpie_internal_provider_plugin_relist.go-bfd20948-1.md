@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/plugin_relist.go) · page 1/1
 
-Source SHA-256: 2139991aae73495921b2d6b877617f3200e6320cf3ccffe36028d25c026a715c
+Source SHA-256: de42709aa980c1d9a5d84b25ef42ba5df3d18d5821ea81e989c240df46a3e67b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,6 +13,6 @@ Source SHA-256: 2139991aae73495921b2d6b877617f3200e6320cf3ccffe36028d25c026a715c
 | relistSoon | var_spec |  | [34](../../magpie/internal/provider/plugin_relist.go#L34) |
 | relistPlugins | var_spec |  | [40](../../magpie/internal/provider/plugin_relist.go#L40) |
 | KeepPluginsListed | function_declaration |  | [50](../../magpie/internal/provider/plugin_relist.go#L50) |
-| pluginListedIDs | function_declaration |  | [83](../../magpie/internal/provider/plugin_relist.go#L83) |
-| dropGonePluginPicks | function_declaration |  | [101](../../magpie/internal/provider/plugin_relist.go#L101) |
-| keptListed | function_declaration |  | [121](../../magpie/internal/provider/plugin_relist.go#L121) |
+| pluginListedIDs | function_declaration |  | [84](../../magpie/internal/provider/plugin_relist.go#L84) |
+| dropGonePluginPicks | function_declaration |  | [103](../../magpie/internal/provider/plugin_relist.go#L103) |
+| keptListed | function_declaration |  | [123](../../magpie/internal/provider/plugin_relist.go#L123) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/grokapp.go) · page 1/1
 
-Source SHA-256: 4f25463577d6c8af5cf7cab3337e96ff3046fe70ae80d0f1a7512e7f7c70fef3
+Source SHA-256: 6d20fc781aace7414ab60c8fc29616c11a7a3b2237aaae2acf45207ed9bc647d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

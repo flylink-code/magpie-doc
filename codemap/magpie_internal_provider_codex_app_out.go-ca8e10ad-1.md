@@ -4,22 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_app_out.go) · page 1/1
 
-Source SHA-256: ebff76c114eb57aa246ce366ad9eaa4030837932fd5b0de9ed48a961d15e6664
+Source SHA-256: ae5b1b5c78fd0a84f32f15a0aa0a3163bc4cd6ea3719f4925128e22f9a7d840c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexLiveChecks | var_spec |  | [25](../../magpie/internal/provider/codex_app_out.go#L25) |
-| codexRecheckEvery | var_spec |  | [28](../../magpie/internal/provider/codex_app_out.go#L28) |
-| codexRecheck | var_spec |  | [30](../../magpie/internal/provider/codex_app_out.go#L30) |
-| at | field_declaration | codexRecheck | [32](../../magpie/internal/provider/codex_app_out.go#L32) |
-| codexReadNow | var_spec |  | [36](../../magpie/internal/provider/codex_app_out.go#L36) |
-| CodexMayBeUsedUp | function_declaration |  | [48](../../magpie/internal/provider/codex_app_out.go#L48) |
-| codexAppOut | var_spec |  | [74](../../magpie/internal/provider/codex_app_out.go#L74) |
-| user | field_declaration | codexAppOut | [76](../../magpie/internal/provider/codex_app_out.go#L76) |
-| pid | field_declaration | codexAppOut | [77](../../magpie/internal/provider/codex_app_out.go#L77) |
-| tried | field_declaration | codexAppOut | [78](../../magpie/internal/provider/codex_app_out.go#L78) |
-| checked | field_declaration | codexAppOut | [79](../../magpie/internal/provider/codex_app_out.go#L79) |
-| noteCodexAppOut | function_declaration |  | [84](../../magpie/internal/provider/codex_app_out.go#L84) |
-| CodexAppOut | function_declaration |  | [114](../../magpie/internal/provider/codex_app_out.go#L114) |
-| CodexAppReopenOnce | function_declaration |  | [140](../../magpie/internal/provider/codex_app_out.go#L140) |
-| CodexAppReopenTried | function_declaration |  | [153](../../magpie/internal/provider/codex_app_out.go#L153) |
+| codexLiveChecks | var_spec |  | [24](../../magpie/internal/provider/codex_app_out.go#L24) |
+| codexRecheckEvery | var_spec |  | [27](../../magpie/internal/provider/codex_app_out.go#L27) |
+| codexRecheck | var_spec |  | [29](../../magpie/internal/provider/codex_app_out.go#L29) |
+| at | field_declaration | codexRecheck | [31](../../magpie/internal/provider/codex_app_out.go#L31) |
+| codexReadNow | var_spec |  | [40](../../magpie/internal/provider/codex_app_out.go#L40) |
+| CodexMayBeUsedUp | function_declaration |  | [55](../../magpie/internal/provider/codex_app_out.go#L55) |
+| CodexServesWhileOut | function_declaration |  | [86](../../magpie/internal/provider/codex_app_out.go#L86) |

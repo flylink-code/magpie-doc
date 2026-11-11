@@ -4,10 +4,11 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/listener_unix.go) · page 1/1
 
-Source SHA-256: 1db37c97f5f9f954e8d66cd25a457e56ab6b47717e7d563f4aa2ae544d72d94a
+Source SHA-256: 1fba5fd60b0f1e12e0a50d3acd26bde40eb5b4dba94cbcb42b0bc5ca3a01dc60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | terminate | function_declaration |  | [10](../../magpie/internal/proc/listener_unix.go#L10) |
 | kill | function_declaration |  | [12](../../magpie/internal/proc/listener_unix.go#L12) |
 | signal | function_declaration |  | [14](../../magpie/internal/proc/listener_unix.go#L14) |
+| end | function_declaration |  | [27](../../magpie/internal/proc/listener_unix.go#L27) |

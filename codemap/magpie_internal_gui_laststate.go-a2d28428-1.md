@@ -4,17 +4,23 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/laststate.go) · page 1/1
 
-Source SHA-256: da115e62a83ab8dd29998abc5e1b15d7638773db1609aab6087d4da588fae951
+Source SHA-256: 2cb9e6698cb8e8ac1c4a250406dd5b372501154ab298925bb3c3a4bfc3064e0d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lastState | var_spec |  | [28](../../magpie/internal/gui/laststate.go#L28) |
-| kept | field_declaration | lastState | [30](../../magpie/internal/gui/laststate.go#L30) |
-| read | field_declaration | lastState | [31](../../magpie/internal/gui/laststate.go#L31) |
-| stateFile | type_spec |  | [36](../../magpie/internal/gui/laststate.go#L36) |
-| Version | field_declaration | stateFile | [37](../../magpie/internal/gui/laststate.go#L37) |
-| State | field_declaration | stateFile | [38](../../magpie/internal/gui/laststate.go#L38) |
-| lastStatePath | function_declaration |  | [41](../../magpie/internal/gui/laststate.go#L41) |
-| keepState | function_declaration |  | [45](../../magpie/internal/gui/laststate.go#L45) |
-| lastKnown | function_declaration |  | [69](../../magpie/internal/gui/laststate.go#L69) |
-| f | var_spec | lastKnown | [77](../../magpie/internal/gui/laststate.go#L77) |
+| lastState | var_spec |  | [29](../../magpie/internal/gui/laststate.go#L29) |
+| kept | field_declaration | lastState | [31](../../magpie/internal/gui/laststate.go#L31) |
+| read | field_declaration | lastState | [32](../../magpie/internal/gui/laststate.go#L32) |
+| sum | field_declaration | lastState | [33](../../magpie/internal/gui/laststate.go#L33) |
+| keptMarshaled | var_spec |  | [37](../../magpie/internal/gui/laststate.go#L37) |
+| encodedSum | function_declaration |  | [43](../../magpie/internal/gui/laststate.go#L43) |
+| keptSum | function_declaration |  | [52](../../magpie/internal/gui/laststate.go#L52) |
+| stateFile | type_spec |  | [61](../../magpie/internal/gui/laststate.go#L61) |
+| Version | field_declaration | stateFile | [62](../../magpie/internal/gui/laststate.go#L62) |
+| State | field_declaration | stateFile | [63](../../magpie/internal/gui/laststate.go#L63) |
+| lastStatePath | function_declaration |  | [66](../../magpie/internal/gui/laststate.go#L66) |
+| keepState | function_declaration |  | [73](../../magpie/internal/gui/laststate.go#L73) |
+| keptFile | function_declaration |  | [82](../../magpie/internal/gui/laststate.go#L82) |
+| keepStateSummed | function_declaration |  | [93](../../magpie/internal/gui/laststate.go#L93) |
+| lastKnown | function_declaration |  | [119](../../magpie/internal/gui/laststate.go#L119) |
+| f | var_spec | lastKnown | [127](../../magpie/internal/gui/laststate.go#L127) |

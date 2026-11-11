@@ -4,60 +4,64 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/partners.go) · page 1/1
 
-Source SHA-256: 045cc5293107163bfa5917b357ca03ca757c77c95a24257109b4a538f4dad24d
+Source SHA-256: 91fe7004de86af54eb9f2d899e9bb52ace31dcbb6cae3aebfc82ff2df70e22e8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| PartnersURL | const_spec |  | [34](../../magpie/internal/provider/partners.go#L34) |
-| KindPartner | const_spec |  | [37](../../magpie/internal/provider/partners.go#L37) |
-| MaxPartners | const_spec |  | [41](../../magpie/internal/provider/partners.go#L41) |
-| Partner | type_spec |  | [45](../../magpie/internal/provider/partners.go#L45) |
-| IconURL | field_declaration | Partner | [49](../../magpie/internal/provider/partners.go#L49) |
-| Notes | field_declaration | Partner | [52](../../magpie/internal/provider/partners.go#L52) |
-| Langs | field_declaration | Partner | [54](../../magpie/internal/provider/partners.go#L54) |
-| From | field_declaration | Partner | [56](../../magpie/internal/provider/partners.go#L56) |
-| Until | field_declaration | Partner | [57](../../magpie/internal/provider/partners.go#L57) |
-| Live | method_declaration |  | [61](../../magpie/internal/provider/partners.go#L61) |
-| partnerFeed | type_spec |  | [65](../../magpie/internal/provider/partners.go#L65) |
-| Partners | field_declaration | partnerFeed | [66](../../magpie/internal/provider/partners.go#L66) |
-| partnerCache | type_spec |  | [72](../../magpie/internal/provider/partners.go#L72) |
-| At | field_declaration | partnerCache | [73](../../magpie/internal/provider/partners.go#L73) |
-| Partners | field_declaration | partnerCache | [74](../../magpie/internal/provider/partners.go#L74) |
-| Tried | field_declaration | partnerCache | [81](../../magpie/internal/provider/partners.go#L81) |
-| Error | field_declaration | partnerCache | [82](../../magpie/internal/provider/partners.go#L82) |
-| Seen | field_declaration | partnerCache | [83](../../magpie/internal/provider/partners.go#L83) |
-| Noticed | field_declaration | partnerCache | [86](../../magpie/internal/provider/partners.go#L86) |
-| partnerMu | var_spec |  | [90](../../magpie/internal/provider/partners.go#L90) |
-| partnerState | var_spec |  | [91](../../magpie/internal/provider/partners.go#L91) |
-| partnerNext | var_spec |  | [92](../../magpie/internal/provider/partners.go#L92) |
-| partnerFetches | var_spec |  | [93](../../magpie/internal/provider/partners.go#L93) |
-| partnerLogged | var_spec |  | [94](../../magpie/internal/provider/partners.go#L94) |
-| partnerEvery | var_spec |  | [100](../../magpie/internal/provider/partners.go#L100) |
-| partnerRetry | const_spec |  | [102](../../magpie/internal/provider/partners.go#L102) |
-| partnerID | var_spec |  | [104](../../magpie/internal/provider/partners.go#L104) |
-| partnerCacheFile | function_declaration |  | [106](../../magpie/internal/provider/partners.go#L106) |
-| partnersSource | function_declaration |  | [108](../../magpie/internal/provider/partners.go#L108) |
-| Partners | function_declaration |  | [125](../../magpie/internal/provider/partners.go#L125) |
-| out | var_spec | Partners | [137](../../magpie/internal/provider/partners.go#L137) |
-| PartnersNow | function_declaration |  | [149](../../magpie/internal/provider/partners.go#L149) |
-| KeepPartnersFresh | function_declaration |  | [176](../../magpie/internal/provider/partners.go#L176) |
-| loadPartners | function_declaration |  | [209](../../magpie/internal/provider/partners.go#L209) |
-| c | var_spec | loadPartners | [218](../../magpie/internal/provider/partners.go#L218) |
-| refreshPartners | function_declaration |  | [244](../../magpie/internal/provider/partners.go#L244) |
-| partnerError | function_declaration |  | [288](../../magpie/internal/provider/partners.go#L288) |
-| savePartners | function_declaration |  | [297](../../magpie/internal/provider/partners.go#L297) |
-| NoticePartners | function_declaration |  | [319](../../magpie/internal/provider/partners.go#L319) |
-| PartnerNoticed | function_declaration |  | [339](../../magpie/internal/provider/partners.go#L339) |
-| fetchPartners | function_declaration |  | [346](../../magpie/internal/provider/partners.go#L346) |
-| f | var_spec | fetchPartners | [361](../../magpie/internal/provider/partners.go#L361) |
-| validPartners | function_declaration |  | [372](../../magpie/internal/provider/partners.go#L372) |
-| out | var_spec | validPartners | [373](../../magpie/internal/provider/partners.go#L373) |
-| checkPartner | function_declaration |  | [403](../../magpie/internal/provider/partners.go#L403) |
-| httpsURL | function_declaration |  | [431](../../magpie/internal/provider/partners.go#L431) |
-| partnerIcon | function_declaration |  | [439](../../magpie/internal/provider/partners.go#L439) |
-| fetchPartnerIcon | var_spec |  | [466](../../magpie/internal/provider/partners.go#L466) |
-| keptPartnerIcons | function_declaration |  | [473](../../magpie/internal/provider/partners.go#L473) |
-| out | var_spec | keptPartnerIcons | [480](../../magpie/internal/provider/partners.go#L480) |
-| partnerPreset | function_declaration |  | [491](../../magpie/internal/provider/partners.go#L491) |
-| resetPartners | function_declaration |  | [515](../../magpie/internal/provider/partners.go#L515) |
-| claimPartnerFetch | function_declaration |  | [523](../../magpie/internal/provider/partners.go#L523) |
+| PartnersURL | const_spec |  | [35](../../magpie/internal/provider/partners.go#L35) |
+| KindPartner | const_spec |  | [38](../../magpie/internal/provider/partners.go#L38) |
+| MaxPartners | const_spec |  | [42](../../magpie/internal/provider/partners.go#L42) |
+| Partner | type_spec |  | [46](../../magpie/internal/provider/partners.go#L46) |
+| IconURL | field_declaration | Partner | [50](../../magpie/internal/provider/partners.go#L50) |
+| Notes | field_declaration | Partner | [53](../../magpie/internal/provider/partners.go#L53) |
+| Langs | field_declaration | Partner | [55](../../magpie/internal/provider/partners.go#L55) |
+| From | field_declaration | Partner | [57](../../magpie/internal/provider/partners.go#L57) |
+| Until | field_declaration | Partner | [58](../../magpie/internal/provider/partners.go#L58) |
+| Live | method_declaration |  | [62](../../magpie/internal/provider/partners.go#L62) |
+| partnerFeed | type_spec |  | [66](../../magpie/internal/provider/partners.go#L66) |
+| Partners | field_declaration | partnerFeed | [67](../../magpie/internal/provider/partners.go#L67) |
+| partnerCache | type_spec |  | [73](../../magpie/internal/provider/partners.go#L73) |
+| At | field_declaration | partnerCache | [74](../../magpie/internal/provider/partners.go#L74) |
+| Partners | field_declaration | partnerCache | [75](../../magpie/internal/provider/partners.go#L75) |
+| Tried | field_declaration | partnerCache | [82](../../magpie/internal/provider/partners.go#L82) |
+| Error | field_declaration | partnerCache | [83](../../magpie/internal/provider/partners.go#L83) |
+| Seen | field_declaration | partnerCache | [84](../../magpie/internal/provider/partners.go#L84) |
+| Noticed | field_declaration | partnerCache | [87](../../magpie/internal/provider/partners.go#L87) |
+| partnerMu | var_spec |  | [91](../../magpie/internal/provider/partners.go#L91) |
+| partnerState | var_spec |  | [92](../../magpie/internal/provider/partners.go#L92) |
+| partnerNext | var_spec |  | [93](../../magpie/internal/provider/partners.go#L93) |
+| partnerFetches | var_spec |  | [94](../../magpie/internal/provider/partners.go#L94) |
+| partnerLogged | var_spec |  | [95](../../magpie/internal/provider/partners.go#L95) |
+| partnerEvery | var_spec |  | [101](../../magpie/internal/provider/partners.go#L101) |
+| partnerRetry | const_spec |  | [103](../../magpie/internal/provider/partners.go#L103) |
+| partnerID | var_spec |  | [105](../../magpie/internal/provider/partners.go#L105) |
+| partnerCacheFile | function_declaration |  | [107](../../magpie/internal/provider/partners.go#L107) |
+| partnersSource | function_declaration |  | [109](../../magpie/internal/provider/partners.go#L109) |
+| Partners | function_declaration |  | [126](../../magpie/internal/provider/partners.go#L126) |
+| out | var_spec | Partners | [138](../../magpie/internal/provider/partners.go#L138) |
+| PartnersNow | function_declaration |  | [150](../../magpie/internal/provider/partners.go#L150) |
+| KeepPartnersFresh | function_declaration |  | [177](../../magpie/internal/provider/partners.go#L177) |
+| loadPartners | function_declaration |  | [210](../../magpie/internal/provider/partners.go#L210) |
+| c | var_spec | loadPartners | [219](../../magpie/internal/provider/partners.go#L219) |
+| refreshPartners | function_declaration |  | [245](../../magpie/internal/provider/partners.go#L245) |
+| partnerError | function_declaration |  | [289](../../magpie/internal/provider/partners.go#L289) |
+| savePartners | function_declaration |  | [298](../../magpie/internal/provider/partners.go#L298) |
+| NoticePartners | function_declaration |  | [320](../../magpie/internal/provider/partners.go#L320) |
+| PartnerNoticed | function_declaration |  | [340](../../magpie/internal/provider/partners.go#L340) |
+| fetchPartners | function_declaration |  | [347](../../magpie/internal/provider/partners.go#L347) |
+| f | var_spec | fetchPartners | [362](../../magpie/internal/provider/partners.go#L362) |
+| validPartners | function_declaration |  | [373](../../magpie/internal/provider/partners.go#L373) |
+| out | var_spec | validPartners | [374](../../magpie/internal/provider/partners.go#L374) |
+| homeRegion | function_declaration |  | [419](../../magpie/internal/provider/partners.go#L419) |
+| placeOf | function_declaration |  | [442](../../magpie/internal/provider/partners.go#L442) |
+| inMainlandChina | var_spec |  | [456](../../magpie/internal/provider/partners.go#L456) |
+| chinaZone | function_declaration |  | [462](../../magpie/internal/provider/partners.go#L462) |
+| checkPartner | function_declaration |  | [472](../../magpie/internal/provider/partners.go#L472) |
+| httpsURL | function_declaration |  | [500](../../magpie/internal/provider/partners.go#L500) |
+| partnerIcon | function_declaration |  | [508](../../magpie/internal/provider/partners.go#L508) |
+| fetchPartnerIcon | var_spec |  | [535](../../magpie/internal/provider/partners.go#L535) |
+| keptPartnerIcons | function_declaration |  | [542](../../magpie/internal/provider/partners.go#L542) |
+| out | var_spec | keptPartnerIcons | [549](../../magpie/internal/provider/partners.go#L549) |
+| partnerPreset | function_declaration |  | [560](../../magpie/internal/provider/partners.go#L560) |
+| resetPartners | function_declaration |  | [584](../../magpie/internal/provider/partners.go#L584) |
+| claimPartnerFetch | function_declaration |  | [592](../../magpie/internal/provider/partners.go#L592) |

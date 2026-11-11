@@ -4,36 +4,54 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/account_caps.go) · page 1/1
 
-Source SHA-256: 24a9fec1ee122329d8f74cd022bc3fe4e9f7093c1fee6f4e61266eded2ed71af
+Source SHA-256: 8967d159b2a3ff80b30a29d3603e9ebe4e17f9a931b189b6dab57dc71e7ba23f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| MinCap | const_spec |  | [39](../../magpie/internal/provider/account_caps.go#L39) |
-| MaxCap | const_spec |  | [40](../../magpie/internal/provider/account_caps.go#L40) |
-| AccountCap | method_declaration |  | [47](../../magpie/internal/provider/account_caps.go#L47) |
-| AccountCapOf | function_declaration |  | [58](../../magpie/internal/provider/account_caps.go#L58) |
-| WindowCaps | type_spec |  | [70](../../magpie/internal/provider/account_caps.go#L70) |
-| All | field_declaration | WindowCaps | [71](../../magpie/internal/provider/account_caps.go#L71) |
-| Windows | field_declaration | WindowCaps | [72](../../magpie/internal/provider/account_caps.go#L72) |
-| Credits | field_declaration | WindowCaps | [73](../../magpie/internal/provider/account_caps.go#L73) |
-| WindowCapID | function_declaration |  | [78](../../magpie/internal/provider/account_caps.go#L78) |
-| Of | method_declaration |  | [82](../../magpie/internal/provider/account_caps.go#L82) |
-| Holds | method_declaration |  | [98](../../magpie/internal/provider/account_caps.go#L98) |
-| CapsOf | method_declaration |  | [113](../../magpie/internal/provider/account_caps.go#L113) |
-| AccountCapsOf | function_declaration |  | [125](../../magpie/internal/provider/account_caps.go#L125) |
-| SetWindowCap | function_declaration |  | [136](../../magpie/internal/provider/account_caps.go#L136) |
-| SetAccountCap | function_declaration |  | [180](../../magpie/internal/provider/account_caps.go#L180) |
-| ParseCap | function_declaration |  | [213](../../magpie/internal/provider/account_caps.go#L213) |
-| normalAccountCaps | function_declaration |  | [228](../../magpie/internal/provider/account_caps.go#L228) |
-| out | var_spec | normalAccountCaps | [229](../../magpie/internal/provider/account_caps.go#L229) |
-| normalWindowCaps | function_declaration |  | [245](../../magpie/internal/provider/account_caps.go#L245) |
-| out | var_spec | normalWindowCaps | [246](../../magpie/internal/provider/account_caps.go#L246) |
-| CapHold | type_spec |  | [270](../../magpie/internal/provider/account_caps.go#L270) |
-| Used | field_declaration | CapHold | [271](../../magpie/internal/provider/account_caps.go#L271) |
-| Cap | field_declaration | CapHold | [272](../../magpie/internal/provider/account_caps.go#L272) |
-| Back | field_declaration | CapHold | [273](../../magpie/internal/provider/account_caps.go#L273) |
-| Credits | field_declaration | CapHold | [274](../../magpie/internal/provider/account_caps.go#L274) |
-| CapHeld | method_declaration |  | [281](../../magpie/internal/provider/account_caps.go#L281) |
-| h | var_spec | CapHeld | [286](../../magpie/internal/provider/account_caps.go#L286) |
-| capReached | function_declaration |  | [323](../../magpie/internal/provider/account_caps.go#L323) |
-| WithCapped | function_declaration |  | [342](../../magpie/internal/provider/account_caps.go#L342) |
+| TakesUsageCap | method_declaration |  | [64](../../magpie/internal/provider/account_caps.go#L64) |
+| MinCap | const_spec |  | [68](../../magpie/internal/provider/account_caps.go#L68) |
+| MaxCap | const_spec |  | [69](../../magpie/internal/provider/account_caps.go#L69) |
+| AccountCap | method_declaration |  | [76](../../magpie/internal/provider/account_caps.go#L76) |
+| AccountCapOf | function_declaration |  | [87](../../magpie/internal/provider/account_caps.go#L87) |
+| KeyCapHeld | method_declaration |  | [98](../../magpie/internal/provider/account_caps.go#L98) |
+| KeyAccountOf | method_declaration |  | [112](../../magpie/internal/provider/account_caps.go#L112) |
+| WindowCaps | type_spec |  | [128](../../magpie/internal/provider/account_caps.go#L128) |
+| All | field_declaration | WindowCaps | [129](../../magpie/internal/provider/account_caps.go#L129) |
+| Windows | field_declaration | WindowCaps | [130](../../magpie/internal/provider/account_caps.go#L130) |
+| Amounts | field_declaration | WindowCaps | [133](../../magpie/internal/provider/account_caps.go#L133) |
+| Credits | field_declaration | WindowCaps | [134](../../magpie/internal/provider/account_caps.go#L134) |
+| WindowCapID | function_declaration |  | [139](../../magpie/internal/provider/account_caps.go#L139) |
+| Of | method_declaration |  | [143](../../magpie/internal/provider/account_caps.go#L143) |
+| limitShare | method_declaration |  | [162](../../magpie/internal/provider/account_caps.go#L162) |
+| past | function_declaration |  | [175](../../magpie/internal/provider/account_caps.go#L175) |
+| own | method_declaration |  | [188](../../magpie/internal/provider/account_caps.go#L188) |
+| Holds | method_declaration |  | [197](../../magpie/internal/provider/account_caps.go#L197) |
+| CapsOf | method_declaration |  | [217](../../magpie/internal/provider/account_caps.go#L217) |
+| AccountCapsOf | function_declaration |  | [229](../../magpie/internal/provider/account_caps.go#L229) |
+| SetWindowCap | function_declaration |  | [240](../../magpie/internal/provider/account_caps.go#L240) |
+| SetWindowCaps | function_declaration |  | [247](../../magpie/internal/provider/account_caps.go#L247) |
+| ws | var_spec | SetWindowCaps | [251](../../magpie/internal/provider/account_caps.go#L251) |
+| SetWindowAmount | function_declaration |  | [302](../../magpie/internal/provider/account_caps.go#L302) |
+| ws | var_spec | SetWindowAmount | [306](../../magpie/internal/provider/account_caps.go#L306) |
+| withoutAmounts | function_declaration |  | [368](../../magpie/internal/provider/account_caps.go#L368) |
+| out | var_spec | withoutAmounts | [369](../../magpie/internal/provider/account_caps.go#L369) |
+| SetAccountCap | function_declaration |  | [390](../../magpie/internal/provider/account_caps.go#L390) |
+| ParseCap | function_declaration |  | [423](../../magpie/internal/provider/account_caps.go#L423) |
+| normalAccountCaps | function_declaration |  | [438](../../magpie/internal/provider/account_caps.go#L438) |
+| out | var_spec | normalAccountCaps | [439](../../magpie/internal/provider/account_caps.go#L439) |
+| normalWindowCaps | function_declaration |  | [455](../../magpie/internal/provider/account_caps.go#L455) |
+| out | var_spec | normalWindowCaps | [456](../../magpie/internal/provider/account_caps.go#L456) |
+| normalWindowAmounts | function_declaration |  | [478](../../magpie/internal/provider/account_caps.go#L478) |
+| out | var_spec | normalWindowAmounts | [479](../../magpie/internal/provider/account_caps.go#L479) |
+| CapHold | type_spec |  | [503](../../magpie/internal/provider/account_caps.go#L503) |
+| Used | field_declaration | CapHold | [504](../../magpie/internal/provider/account_caps.go#L504) |
+| Cap | field_declaration | CapHold | [505](../../magpie/internal/provider/account_caps.go#L505) |
+| Back | field_declaration | CapHold | [506](../../magpie/internal/provider/account_caps.go#L506) |
+| Credits | field_declaration | CapHold | [507](../../magpie/internal/provider/account_caps.go#L507) |
+| Amount | field_declaration | CapHold | [511](../../magpie/internal/provider/account_caps.go#L511) |
+| Unit | field_declaration | CapHold | [512](../../magpie/internal/provider/account_caps.go#L512) |
+| CapHeld | method_declaration |  | [519](../../magpie/internal/provider/account_caps.go#L519) |
+| h | var_spec | CapHeld | [524](../../magpie/internal/provider/account_caps.go#L524) |
+| NearCap | method_declaration |  | [566](../../magpie/internal/provider/account_caps.go#L566) |
+| capReached | function_declaration |  | [588](../../magpie/internal/provider/account_caps.go#L588) |
+| WithCapped | function_declaration |  | [607](../../magpie/internal/provider/account_caps.go#L607) |

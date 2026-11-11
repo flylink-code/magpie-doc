@@ -4,13 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/weighted.go) · page 1/1
 
-Source SHA-256: b2ea306302b03fc58c768ffbc7ca1faae5b1a31ca97c5793a0493f5ba4e51800
+Source SHA-256: 66da6c2e585d6d7438585d645b62d399de6082ac4dd540cedd29e593633bcbdb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keyWeight | function_declaration |  | [25](../../magpie/internal/gateway/weighted.go#L25) |
-| resting | function_declaration |  | [28](../../magpie/internal/gateway/weighted.go#L28) |
-| weightedKept | function_declaration |  | [44](../../magpie/internal/gateway/weighted.go#L44) |
-| wrrSeat | type_spec |  | [59](../../magpie/internal/gateway/weighted.go#L59) |
-| round | field_declaration | wrrSeat | [59](../../magpie/internal/gateway/weighted.go#L59) |
-| weightedUnits | function_declaration |  | [66](../../magpie/internal/gateway/weighted.go#L66) |
+| keyWeight | function_declaration |  | [28](../../magpie/internal/gateway/weighted.go#L28) |
+| spentRest | function_declaration |  | [37](../../magpie/internal/gateway/weighted.go#L37) |
+| resting | function_declaration |  | [43](../../magpie/internal/gateway/weighted.go#L43) |
+| weightedKept | function_declaration |  | [59](../../magpie/internal/gateway/weighted.go#L59) |
+| wrrSeat | type_spec |  | [74](../../magpie/internal/gateway/weighted.go#L74) |
+| round | field_declaration | wrrSeat | [74](../../magpie/internal/gateway/weighted.go#L74) |
+| weightedUnits | function_declaration |  | [81](../../magpie/internal/gateway/weighted.go#L81) |

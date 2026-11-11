@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/handoff/handoff_unix.go) · page 1/1
 
-Source SHA-256: c4ce5aa458e97723ec6d4da03e274193ef11595c7c3913fb0c5768bf703a535b
+Source SHA-256: fe242e67fb7f49ee55f4265e3b5654e08d26335542bf0fe8ff0ebc009c142b55
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -28,16 +28,17 @@ Source SHA-256: c4ce5aa458e97723ec6d4da03e274193ef11595c7c3913fb0c5768bf703a535b
 | Hello | field_declaration | Conn | [124](../../magpie/internal/handoff/handoff_unix.go#L124) |
 | Accept | method_declaration |  | [129](../../magpie/internal/handoff/handoff_unix.go#L129) |
 | h | var_spec | Accept | [147](../../magpie/internal/handoff/handoff_unix.go#L147) |
-| Give | method_declaration |  | [158](../../magpie/internal/handoff/handoff_unix.go#L158) |
-| AwaitAck | method_declaration |  | [174](../../magpie/internal/handoff/handoff_unix.go#L174) |
-| Close | method_declaration |  | [188](../../magpie/internal/handoff/handoff_unix.go#L188) |
-| Taken | type_spec |  | [191](../../magpie/internal/handoff/handoff_unix.go#L191) |
-| Listener | field_declaration | Taken | [192](../../magpie/internal/handoff/handoff_unix.go#L192) |
-| Meta | field_declaration | Taken | [193](../../magpie/internal/handoff/handoff_unix.go#L193) |
-| c | field_declaration | Taken | [194](../../magpie/internal/handoff/handoff_unix.go#L194) |
-| Take | function_declaration |  | [199](../../magpie/internal/handoff/handoff_unix.go#L199) |
-| m | var_spec | Take | [237](../../magpie/internal/handoff/handoff_unix.go#L237) |
-| Ack | method_declaration |  | [253](../../magpie/internal/handoff/handoff_unix.go#L253) |
-| Close | method_declaration |  | [262](../../magpie/internal/handoff/handoff_unix.go#L262) |
-| ownUser | function_declaration |  | [267](../../magpie/internal/handoff/handoff_unix.go#L267) |
-| alive | function_declaration |  | [278](../../magpie/internal/handoff/handoff_unix.go#L278) |
+| Give | method_declaration |  | [164](../../magpie/internal/handoff/handoff_unix.go#L164) |
+| fd | var_spec | Give | [171](../../magpie/internal/handoff/handoff_unix.go#L171) |
+| AwaitAck | method_declaration |  | [188](../../magpie/internal/handoff/handoff_unix.go#L188) |
+| Close | method_declaration |  | [202](../../magpie/internal/handoff/handoff_unix.go#L202) |
+| Taken | type_spec |  | [205](../../magpie/internal/handoff/handoff_unix.go#L205) |
+| Listener | field_declaration | Taken | [206](../../magpie/internal/handoff/handoff_unix.go#L206) |
+| Meta | field_declaration | Taken | [207](../../magpie/internal/handoff/handoff_unix.go#L207) |
+| c | field_declaration | Taken | [208](../../magpie/internal/handoff/handoff_unix.go#L208) |
+| Take | function_declaration |  | [213](../../magpie/internal/handoff/handoff_unix.go#L213) |
+| m | var_spec | Take | [251](../../magpie/internal/handoff/handoff_unix.go#L251) |
+| Ack | method_declaration |  | [267](../../magpie/internal/handoff/handoff_unix.go#L267) |
+| Close | method_declaration |  | [276](../../magpie/internal/handoff/handoff_unix.go#L276) |
+| ownUser | function_declaration |  | [281](../../magpie/internal/handoff/handoff_unix.go#L281) |
+| alive | function_declaration |  | [292](../../magpie/internal/handoff/handoff_unix.go#L292) |

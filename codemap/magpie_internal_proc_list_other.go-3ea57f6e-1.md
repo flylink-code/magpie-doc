@@ -4,8 +4,10 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/list_other.go) · page 1/1
 
-Source SHA-256: 4a640db9254d9904c388f3b4a9b5214450090238be3dc4dc8790adb6eaffa31e
+Source SHA-256: 39779089c31bab38b5ca8800ae7ff9364870aa4b033a7b0c0eb7b9c701d7e845
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | list | function_declaration |  | [9](../../magpie/internal/proc/list_other.go#L9) |
+| family | function_declaration |  | [18](../../magpie/internal/proc/list_other.go#L18) |
+| endFamily | function_declaration |  | [28](../../magpie/internal/proc/list_other.go#L28) |

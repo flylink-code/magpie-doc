@@ -4,15 +4,15 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/groups_rules_cli.go) · page 1/1
 
-Source SHA-256: 2d688c8cf5f3c5e22308ef040f9a92468d7b843e7bfc058a59bec87dc2f38089
+Source SHA-256: 6d8c1bf8058dbd0e66552acd4552f3efc3033acddf479aa07f8b07173c4a6452
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ruleUsage | const_spec |  | [15](../../magpie/internal/cli/groups_rules_cli.go#L15) |
-| parseTokens | function_declaration |  | [88](../../magpie/internal/cli/groups_rules_cli.go#L88) |
-| parseRule | function_declaration |  | [92](../../magpie/internal/cli/groups_rules_cli.go#L92) |
-| groupMember | function_declaration |  | [104](../../magpie/internal/cli/groups_rules_cli.go#L104) |
-| ruleCmd | function_declaration |  | [107](../../magpie/internal/cli/groups_rules_cli.go#L107) |
-| ruleLine | function_declaration |  | [201](../../magpie/internal/cli/groups_rules_cli.go#L201) |
-| pruneRules | function_declaration |  | [214](../../magpie/internal/cli/groups_rules_cli.go#L214) |
-| keep | var_spec | pruneRules | [215](../../magpie/internal/cli/groups_rules_cli.go#L215) |
+| parseTokens | function_declaration |  | [106](../../magpie/internal/cli/groups_rules_cli.go#L106) |
+| parseRule | function_declaration |  | [110](../../magpie/internal/cli/groups_rules_cli.go#L110) |
+| groupMember | function_declaration |  | [122](../../magpie/internal/cli/groups_rules_cli.go#L122) |
+| ruleCmd | function_declaration |  | [125](../../magpie/internal/cli/groups_rules_cli.go#L125) |
+| ruleLine | function_declaration |  | [219](../../magpie/internal/cli/groups_rules_cli.go#L219) |
+| pruneRules | function_declaration |  | [232](../../magpie/internal/cli/groups_rules_cli.go#L232) |
+| keep | var_spec | pruneRules | [233](../../magpie/internal/cli/groups_rules_cli.go#L233) |

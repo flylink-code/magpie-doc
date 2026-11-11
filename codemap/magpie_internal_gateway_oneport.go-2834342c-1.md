@@ -4,10 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/oneport.go) · page 1/1
 
-Source SHA-256: d81d21e9e8333cdb6c6c89ab3c960eea91c36fe57615eeaabb372c11a4f0a4ca
+Source SHA-256: 3f382d24a90fffc5ebaff8f6ee118756d3467bff0cf790a24d91988eef15f748
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Front | method_declaration |  | [14](../../magpie/internal/gateway/oneport.go#L14) |
-| clientPrefixes | var_spec |  | [24](../../magpie/internal/gateway/oneport.go#L24) |
-| ClientPath | function_declaration |  | [38](../../magpie/internal/gateway/oneport.go#L38) |
+| Front | method_declaration |  | [15](../../magpie/internal/gateway/oneport.go#L15) |
+| clientPrefixes | var_spec |  | [26](../../magpie/internal/gateway/oneport.go#L26) |
+| ClientPath | function_declaration |  | [48](../../magpie/internal/gateway/oneport.go#L48) |
+| PagePortHeader | const_spec |  | [73](../../magpie/internal/gateway/oneport.go#L73) |
+| pagePort | type_spec |  | [76](../../magpie/internal/gateway/oneport.go#L76) |
+| FromPagePort | function_declaration |  | [80](../../magpie/internal/gateway/oneport.go#L80) |
+| viaPagePort | function_declaration |  | [87](../../magpie/internal/gateway/oneport.go#L87) |
+| takePagePort | function_declaration |  | [94](../../magpie/internal/gateway/oneport.go#L94) |

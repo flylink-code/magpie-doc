@@ -4,16 +4,20 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/path_windows.go) · page 1/1
 
-Source SHA-256: 935b1418dbc4d5e2d687b4694a088a1625df1059c72a1c931c17caeca0416f83
+Source SHA-256: 9e9d39435f88b46f95be1d0002ad84d2340953af121712f3c5cc61d3f5cb335e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | UserPath | function_declaration |  | [20](../../magpie/internal/proc/path_windows.go#L20) |
 | UserBinDirs | function_declaration |  | [29](../../magpie/internal/proc/path_windows.go#L29) |
-| have | var_spec | UserBinDirs | [51](../../magpie/internal/proc/path_windows.go#L51) |
-| LoginPath | function_declaration |  | [63](../../magpie/internal/proc/path_windows.go#L63) |
-| dirs | var_spec | LoginPath | [64](../../magpie/internal/proc/path_windows.go#L64) |
-| root | field_declaration | LoginPath | [66](../../magpie/internal/proc/path_windows.go#L66) |
-| path | field_declaration | LoginPath | [67](../../magpie/internal/proc/path_windows.go#L67) |
-| LoginEnv | function_declaration |  | [96](../../magpie/internal/proc/path_windows.go#L96) |
-| ShellPath | function_declaration |  | [100](../../magpie/internal/proc/path_windows.go#L100) |
+| have | var_spec | UserBinDirs | [52](../../magpie/internal/proc/path_windows.go#L52) |
+| LoginPath | function_declaration |  | [64](../../magpie/internal/proc/path_windows.go#L64) |
+| dirs | var_spec | LoginPath | [65](../../magpie/internal/proc/path_windows.go#L65) |
+| root | field_declaration | LoginPath | [67](../../magpie/internal/proc/path_windows.go#L67) |
+| path | field_declaration | LoginPath | [68](../../magpie/internal/proc/path_windows.go#L68) |
+| LoginEnv | function_declaration |  | [97](../../magpie/internal/proc/path_windows.go#L97) |
+| LoginEnvKnown | function_declaration |  | [100](../../magpie/internal/proc/path_windows.go#L100) |
+| ShellPath | function_declaration |  | [104](../../magpie/internal/proc/path_windows.go#L104) |
+| LoginVars | function_declaration |  | [112](../../magpie/internal/proc/path_windows.go#L112) |
+| root | field_declaration | LoginVars | [115](../../magpie/internal/proc/path_windows.go#L115) |
+| path | field_declaration | LoginVars | [116](../../magpie/internal/proc/path_windows.go#L116) |

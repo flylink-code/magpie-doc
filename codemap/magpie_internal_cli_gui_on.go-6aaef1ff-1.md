@@ -4,11 +4,15 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/gui_on.go) · page 1/1
 
-Source SHA-256: 32bfd3b12408c3b87cb415a12f86b71cf40c51a66f48d21891223d775c23d5c5
+Source SHA-256: f9c7f3f84d062317ab76ef9db96fa610ddf97524da7dcd9d033f9e065f743f54
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hasGUI | const_spec |  | [10](../../magpie/internal/cli/gui_on.go#L10) |
-| runGUI | function_declaration |  | [14](../../magpie/internal/cli/gui_on.go#L14) |
-| runWindow | function_declaration |  | [22](../../magpie/internal/cli/gui_on.go#L22) |
-| runPanel | function_declaration |  | [29](../../magpie/internal/cli/gui_on.go#L29) |
+| hasGUI | const_spec |  | [13](../../magpie/internal/cli/gui_on.go#L13) |
+| runGUI | function_declaration |  | [16](../../magpie/internal/cli/gui_on.go#L16) |
+| openApp | var_spec |  | [24](../../magpie/internal/cli/gui_on.go#L24) |
+| runWindow | function_declaration |  | [32](../../magpie/internal/cli/gui_on.go#L32) |
+| runUninstallWindow | function_declaration |  | [40](../../magpie/internal/cli/gui_on.go#L40) |
+| runPanel | function_declaration |  | [47](../../magpie/internal/cli/gui_on.go#L47) |
+| openPanel | var_spec |  | [54](../../magpie/internal/cli/gui_on.go#L54) |
+| startLog | var_spec |  | [65](../../magpie/internal/cli/gui_on.go#L65) |

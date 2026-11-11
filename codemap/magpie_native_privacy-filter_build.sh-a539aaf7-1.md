@@ -4,9 +4,9 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/native/privacy-filter/build.sh) · page 1/1
 
-Source SHA-256: 57f6fbdcdd20f498be6fec93dff1bce9bea97d052debfad5e7b84f7bb6202164
+Source SHA-256: eca144a60369c7365c656844a638180cdb9920b7bbbe0cd981190edf3c82a1ca
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| fetch_vulkan | shell function |  | [50](../../magpie/native/privacy-filter/build.sh#L50) |
-| build | shell function |  | [86](../../magpie/native/privacy-filter/build.sh#L86) |
+| fetch_vulkan | shell function |  | [54](../../magpie/native/privacy-filter/build.sh#L54) |
+| build | shell function |  | [90](../../magpie/native/privacy-filter/build.sh#L90) |

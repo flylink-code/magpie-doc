@@ -4,82 +4,93 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/applied.go) · page 1/1
 
-Source SHA-256: d5024fc766f4277533784e472a0ee9bb58dcff7ab82fa7bb701637db8c93c056
+Source SHA-256: 9bc845d2cfc467a8e4dd12875db5c66af80a32442608d7e807df0dba4adbbf65
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| appliedMu | var_spec |  | [30](../../magpie/internal/agent/applied.go#L30) |
-| applied | type_spec |  | [33](../../magpie/internal/agent/applied.go#L33) |
-| At | field_declaration | applied | [34](../../magpie/internal/agent/applied.go#L34) |
-| Fields | field_declaration | applied | [35](../../magpie/internal/agent/applied.go#L35) |
-| appliedPath | function_declaration |  | [38](../../magpie/internal/agent/applied.go#L38) |
-| appliedLoad | function_declaration |  | [41](../../magpie/internal/agent/applied.go#L41) |
-| appliedSave | function_declaration |  | [53](../../magpie/internal/agent/applied.go#L53) |
-| appliedOf | function_declaration |  | [63](../../magpie/internal/agent/applied.go#L63) |
-| record | function_declaration |  | [71](../../magpie/internal/agent/applied.go#L71) |
-| Apply | method_declaration |  | [96](../../magpie/internal/agent/applied.go#L96) |
-| Drift | type_spec |  | [129](../../magpie/internal/agent/applied.go#L129) |
-| Kind | field_declaration | Drift | [142](../../magpie/internal/agent/applied.go#L142) |
-| Field | field_declaration | Drift | [143](../../magpie/internal/agent/applied.go#L143) |
-| Now | field_declaration | Drift | [144](../../magpie/internal/agent/applied.go#L144) |
-| Want | field_declaration | Drift | [145](../../magpie/internal/agent/applied.go#L145) |
-| Detail | field_declaration | Drift | [146](../../magpie/internal/agent/applied.go#L146) |
-| Addr | field_declaration | Drift | [149](../../magpie/internal/agent/applied.go#L149) |
-| Move | field_declaration | Drift | [150](../../magpie/internal/agent/applied.go#L150) |
-| started | var_spec |  | [155](../../magpie/internal/agent/applied.go#L155) |
-| Drift | method_declaration |  | [162](../../magpie/internal/agent/applied.go#L162) |
-| installedURL | var_spec |  | [247](../../magpie/internal/agent/applied.go#L247) |
-| elsewhere | function_declaration |  | [250](../../magpie/internal/agent/applied.go#L250) |
-| theInstalled | method_declaration |  | [256](../../magpie/internal/agent/applied.go#L256) |
-| lastSeen | var_spec |  | [273](../../magpie/internal/agent/applied.go#L273) |
-| bypassed | function_declaration |  | [275](../../magpie/internal/agent/applied.go#L275) |
-| grace | const_spec | bypassed | [276](../../magpie/internal/agent/applied.go#L276) |
-| magpieValue | function_declaration |  | [284](../../magpie/internal/agent/applied.go#L284) |
-| groupNamed | function_declaration |  | [315](../../magpie/internal/agent/applied.go#L315) |
-| sameGroup | function_declaration |  | [334](../../magpie/internal/agent/applied.go#L334) |
-| setAsGroup | function_declaration |  | [342](../../magpie/internal/agent/applied.go#L342) |
-| orDefault | function_declaration |  | [350](../../magpie/internal/agent/applied.go#L350) |
-| Reapply | method_declaration |  | [361](../../magpie/internal/agent/applied.go#L361) |
-| Keep | method_declaration |  | [401](../../magpie/internal/agent/applied.go#L401) |
-| Wired | method_declaration |  | [415](../../magpie/internal/agent/applied.go#L415) |
-| Pick | method_declaration |  | [436](../../magpie/internal/agent/applied.go#L436) |
-| NoModelsError | type_spec |  | [467](../../magpie/internal/agent/applied.go#L467) |
-| Agent | field_declaration | NoModelsError | [467](../../magpie/internal/agent/applied.go#L467) |
-| Error | method_declaration |  | [469](../../magpie/internal/agent/applied.go#L469) |
-| AllHiddenError | type_spec |  | [479](../../magpie/internal/agent/applied.go#L479) |
-| Agent | field_declaration | AllHiddenError | [479](../../magpie/internal/agent/applied.go#L479) |
-| Error | method_declaration |  | [481](../../magpie/internal/agent/applied.go#L481) |
-| Connect | method_declaration |  | [485](../../magpie/internal/agent/applied.go#L485) |
-| Connection | type_spec |  | [509](../../magpie/internal/agent/applied.go#L509) |
-| How | field_declaration | Connection | [510](../../magpie/internal/agent/applied.go#L510) |
-| Field | field_declaration | Connection | [511](../../magpie/internal/agent/applied.go#L511) |
-| Value | field_declaration | Connection | [512](../../magpie/internal/agent/applied.go#L512) |
-| ConnectHow | method_declaration |  | [516](../../magpie/internal/agent/applied.go#L516) |
-| disconnectedKey | const_spec |  | [528](../../magpie/internal/agent/applied.go#L528) |
-| Disconnected | method_declaration |  | [532](../../magpie/internal/agent/applied.go#L532) |
-| noModelLeft | method_declaration |  | [537](../../magpie/internal/agent/applied.go#L537) |
-| connect | method_declaration |  | [554](../../magpie/internal/agent/applied.go#L554) |
-| f | var_spec | connect | [576](../../magpie/internal/agent/applied.go#L576) |
-| opts | var_spec | connect | [577](../../magpie/internal/agent/applied.go#L577) |
-| pick | var_spec | connect | [619](../../magpie/internal/agent/applied.go#L619) |
-| connectWas | function_declaration |  | [702](../../magpie/internal/agent/applied.go#L702) |
-| Disconnect | method_declaration |  | [724](../../magpie/internal/agent/applied.go#L724) |
-| was | var_spec | Disconnect | [761](../../magpie/internal/agent/applied.go#L761) |
-| DisconnectOffline | method_declaration |  | [794](../../magpie/internal/agent/applied.go#L794) |
-| reconnection | type_spec |  | [808](../../magpie/internal/agent/applied.go#L808) |
-| Magpie | field_declaration | reconnection | [809](../../magpie/internal/agent/applied.go#L809) |
-| Routed | field_declaration | reconnection | [810](../../magpie/internal/agent/applied.go#L810) |
-| Left | field_declaration | reconnection | [811](../../magpie/internal/agent/applied.go#L811) |
-| reconnect | method_declaration |  | [817](../../magpie/internal/agent/applied.go#L817) |
-| rec | var_spec | reconnect | [818](../../magpie/internal/agent/applied.go#L818) |
-| keys | var_spec | reconnect | [836](../../magpie/internal/agent/applied.go#L836) |
-| lastJSONLTime | function_declaration |  | [866](../../magpie/internal/agent/applied.go#L866) |
-| tail | const_spec | lastJSONLTime | [872](../../magpie/internal/agent/applied.go#L872) |
-| last | var_spec | lastJSONLTime | [876](../../magpie/internal/agent/applied.go#L876) |
-| m | var_spec | lastJSONLTime | [880](../../magpie/internal/agent/applied.go#L880) |
-| text | var_spec | lastJSONLTime | [884](../../magpie/internal/agent/applied.go#L884) |
-| sameHost | function_declaration |  | [905](../../magpie/internal/agent/applied.go#L905) |
-| wiringOff | function_declaration |  | [913](../../magpie/internal/agent/applied.go#L913) |
+| appliedMu | var_spec |  | [31](../../magpie/internal/agent/applied.go#L31) |
+| applied | type_spec |  | [34](../../magpie/internal/agent/applied.go#L34) |
+| At | field_declaration | applied | [35](../../magpie/internal/agent/applied.go#L35) |
+| Fields | field_declaration | applied | [36](../../magpie/internal/agent/applied.go#L36) |
+| Kept | field_declaration | applied | [39](../../magpie/internal/agent/applied.go#L39) |
+| appliedPath | function_declaration |  | [42](../../magpie/internal/agent/applied.go#L42) |
+| appliedLoad | function_declaration |  | [45](../../magpie/internal/agent/applied.go#L45) |
+| appliedSave | function_declaration |  | [57](../../magpie/internal/agent/applied.go#L57) |
+| appliedOf | function_declaration |  | [71](../../magpie/internal/agent/applied.go#L71) |
+| record | function_declaration |  | [84](../../magpie/internal/agent/applied.go#L84) |
+| Apply | method_declaration |  | [109](../../magpie/internal/agent/applied.go#L109) |
+| Drift | type_spec |  | [142](../../magpie/internal/agent/applied.go#L142) |
+| Kind | field_declaration | Drift | [155](../../magpie/internal/agent/applied.go#L155) |
+| Field | field_declaration | Drift | [156](../../magpie/internal/agent/applied.go#L156) |
+| Now | field_declaration | Drift | [157](../../magpie/internal/agent/applied.go#L157) |
+| Want | field_declaration | Drift | [158](../../magpie/internal/agent/applied.go#L158) |
+| Detail | field_declaration | Drift | [159](../../magpie/internal/agent/applied.go#L159) |
+| Addr | field_declaration | Drift | [162](../../magpie/internal/agent/applied.go#L162) |
+| Move | field_declaration | Drift | [163](../../magpie/internal/agent/applied.go#L163) |
+| started | var_spec |  | [168](../../magpie/internal/agent/applied.go#L168) |
+| Drift | method_declaration |  | [175](../../magpie/internal/agent/applied.go#L175) |
+| installedURL | var_spec |  | [267](../../magpie/internal/agent/applied.go#L267) |
+| elsewhere | function_declaration |  | [270](../../magpie/internal/agent/applied.go#L270) |
+| theInstalled | method_declaration |  | [276](../../magpie/internal/agent/applied.go#L276) |
+| lastSeen | var_spec |  | [297](../../magpie/internal/agent/applied.go#L297) |
+| bypassed | function_declaration |  | [299](../../magpie/internal/agent/applied.go#L299) |
+| grace | const_spec | bypassed | [300](../../magpie/internal/agent/applied.go#L300) |
+| magpieValue | function_declaration |  | [308](../../magpie/internal/agent/applied.go#L308) |
+| fieldOptions | type_spec |  | [316](../../magpie/internal/agent/applied.go#L316) |
+| of | method_declaration |  | [318](../../magpie/internal/agent/applied.go#L318) |
+| magpieValueIn | function_declaration |  | [332](../../magpie/internal/agent/applied.go#L332) |
+| groupNamed | function_declaration |  | [363](../../magpie/internal/agent/applied.go#L363) |
+| sameGroup | function_declaration |  | [382](../../magpie/internal/agent/applied.go#L382) |
+| setAsGroup | function_declaration |  | [390](../../magpie/internal/agent/applied.go#L390) |
+| orDefault | function_declaration |  | [398](../../magpie/internal/agent/applied.go#L398) |
+| Reapply | method_declaration |  | [409](../../magpie/internal/agent/applied.go#L409) |
+| Keep | method_declaration |  | [452](../../magpie/internal/agent/applied.go#L452) |
+| forgetSetUp | method_declaration |  | [465](../../magpie/internal/agent/applied.go#L465) |
+| setUp | method_declaration |  | [482](../../magpie/internal/agent/applied.go#L482) |
+| handWired | method_declaration |  | [509](../../magpie/internal/agent/applied.go#L509) |
+| Wired | method_declaration |  | [515](../../magpie/internal/agent/applied.go#L515) |
+| Pick | method_declaration |  | [538](../../magpie/internal/agent/applied.go#L538) |
+| NoModelsError | type_spec |  | [569](../../magpie/internal/agent/applied.go#L569) |
+| Agent | field_declaration | NoModelsError | [569](../../magpie/internal/agent/applied.go#L569) |
+| Error | method_declaration |  | [571](../../magpie/internal/agent/applied.go#L571) |
+| AllHiddenError | type_spec |  | [581](../../magpie/internal/agent/applied.go#L581) |
+| Agent | field_declaration | AllHiddenError | [581](../../magpie/internal/agent/applied.go#L581) |
+| Error | method_declaration |  | [583](../../magpie/internal/agent/applied.go#L583) |
+| Connect | method_declaration |  | [587](../../magpie/internal/agent/applied.go#L587) |
+| Connection | type_spec |  | [611](../../magpie/internal/agent/applied.go#L611) |
+| How | field_declaration | Connection | [612](../../magpie/internal/agent/applied.go#L612) |
+| Field | field_declaration | Connection | [613](../../magpie/internal/agent/applied.go#L613) |
+| Value | field_declaration | Connection | [614](../../magpie/internal/agent/applied.go#L614) |
+| Rewired | var_spec |  | [619](../../magpie/internal/agent/applied.go#L619) |
+| rewired | method_declaration |  | [621](../../magpie/internal/agent/applied.go#L621) |
+| ConnectHow | method_declaration |  | [628](../../magpie/internal/agent/applied.go#L628) |
+| disconnectedKey | const_spec |  | [641](../../magpie/internal/agent/applied.go#L641) |
+| Disconnected | method_declaration |  | [645](../../magpie/internal/agent/applied.go#L645) |
+| noModelLeft | method_declaration |  | [650](../../magpie/internal/agent/applied.go#L650) |
+| connect | method_declaration |  | [667](../../magpie/internal/agent/applied.go#L667) |
+| f | var_spec | connect | [689](../../magpie/internal/agent/applied.go#L689) |
+| opts | var_spec | connect | [690](../../magpie/internal/agent/applied.go#L690) |
+| pick | var_spec | connect | [732](../../magpie/internal/agent/applied.go#L732) |
+| connectWas | function_declaration |  | [815](../../magpie/internal/agent/applied.go#L815) |
+| Disconnect | method_declaration |  | [837](../../magpie/internal/agent/applied.go#L837) |
+| was | var_spec | Disconnect | [875](../../magpie/internal/agent/applied.go#L875) |
+| DisconnectOffline | method_declaration |  | [917](../../magpie/internal/agent/applied.go#L917) |
+| reconnection | type_spec |  | [931](../../magpie/internal/agent/applied.go#L931) |
+| Magpie | field_declaration | reconnection | [932](../../magpie/internal/agent/applied.go#L932) |
+| Routed | field_declaration | reconnection | [933](../../magpie/internal/agent/applied.go#L933) |
+| Left | field_declaration | reconnection | [934](../../magpie/internal/agent/applied.go#L934) |
+| reconnect | method_declaration |  | [940](../../magpie/internal/agent/applied.go#L940) |
+| rec | var_spec | reconnect | [941](../../magpie/internal/agent/applied.go#L941) |
+| keys | var_spec | reconnect | [979](../../magpie/internal/agent/applied.go#L979) |
+| lastJSONLTime | function_declaration |  | [1009](../../magpie/internal/agent/applied.go#L1009) |
+| tail | const_spec | lastJSONLTime | [1015](../../magpie/internal/agent/applied.go#L1015) |
+| last | var_spec | lastJSONLTime | [1019](../../magpie/internal/agent/applied.go#L1019) |
+| m | var_spec | lastJSONLTime | [1023](../../magpie/internal/agent/applied.go#L1023) |
+| text | var_spec | lastJSONLTime | [1027](../../magpie/internal/agent/applied.go#L1027) |
+| sameHost | function_declaration |  | [1051](../../magpie/internal/agent/applied.go#L1051) |
+| wiringOff | function_declaration |  | [1059](../../magpie/internal/agent/applied.go#L1059) |
+| whatsOff | function_declaration |  | [1073](../../magpie/internal/agent/applied.go#L1073) |
+| SetToGroup | function_declaration |  | [1090](../../magpie/internal/agent/applied.go#L1090) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 54: ERROR
+- line 58: ERROR

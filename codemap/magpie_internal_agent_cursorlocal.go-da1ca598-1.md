@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/cursorlocal.go) · page 1/1
 
-Source SHA-256: 65c8a61a328cf238b4fc671d9fa78d4c59974c6972e1d1c3b256d4e23d8a0a54
+Source SHA-256: 04580dd2435e1ff77396decec4fa4d9ee35e2c5c46b5bc07af9e5411e56c8470
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -38,5 +38,5 @@ Source SHA-256: 65c8a61a328cf238b4fc671d9fa78d4c59974c6972e1d1c3b256d4e23d8a0a54
 | b | var_spec | cursorLocalOn | [259](../../magpie/internal/agent/cursorlocal.go#L259) |
 | KeepCursorLocalEnv | function_declaration |  | [273](../../magpie/internal/agent/cursorlocal.go#L273) |
 | cursorLocal | function_declaration |  | [282](../../magpie/internal/agent/cursorlocal.go#L282) |
-| cursorLocalEfforts | function_declaration |  | [332](../../magpie/internal/agent/cursorlocal.go#L332) |
-| noticeCursorLocal | var_spec |  | [352](../../magpie/internal/agent/cursorlocal.go#L352) |
+| pickedEfforts | function_declaration |  | [333](../../magpie/internal/agent/cursorlocal.go#L333) |
+| noticeCursorLocal | var_spec |  | [353](../../magpie/internal/agent/cursorlocal.go#L353) |

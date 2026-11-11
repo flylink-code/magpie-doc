@@ -4,26 +4,39 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/shape.go) · page 1/1
 
-Source SHA-256: 3156a28003978e68b94ca85750db4f923c881e3e0292ff4f35c8395c2b86eb58
+Source SHA-256: 670b5eb05bbacd256ee96621e6d90247bd3c58f5c1b5fa69562c649f37226fce
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| minShape | const_spec |  | [29](../../magpie/internal/redact/shape.go#L29) |
-| minRandom | const_spec |  | [30](../../magpie/internal/redact/shape.go#L30) |
-| shapes | var_spec |  | [36](../../magpie/internal/redact/shape.go#L36) |
-| keyPrefixes | var_spec |  | [41](../../magpie/internal/redact/shape.go#L41) |
-| keyHead | function_declaration |  | [47](../../magpie/internal/redact/shape.go#L47) |
-| namedValue | var_spec |  | [69](../../magpie/internal/redact/shape.go#L69) |
-| splitName | function_declaration |  | [74](../../magpie/internal/redact/shape.go#L74) |
-| shapeByte | function_declaration |  | [81](../../magpie/internal/redact/shape.go#L81) |
-| shapeOf | function_declaration |  | [86](../../magpie/internal/redact/shape.go#L86) |
-| stream | var_spec | shapeOf | [114](../../magpie/internal/redact/shape.go#L114) |
-| c | var_spec | shapeOf | [119](../../magpie/internal/redact/shape.go#L119) |
-| upper | const_spec | shapeOf | [130](../../magpie/internal/redact/shape.go#L130) |
-| lower | const_spec | shapeOf | [131](../../magpie/internal/redact/shape.go#L131) |
-| digit | const_spec | shapeOf | [132](../../magpie/internal/redact/shape.go#L132) |
-| shaped | function_declaration |  | [167](../../magpie/internal/redact/shape.go#L167) |
-| restoreShapes | function_declaration |  | [193](../../magpie/internal/redact/shape.go#L193) |
-| shapeTail | function_declaration |  | [209](../../magpie/internal/redact/shape.go#L209) |
-| hasShapes | function_declaration |  | [232](../../magpie/internal/redact/shape.go#L232) |
-| outsideShapes | function_declaration |  | [250](../../magpie/internal/redact/shape.go#L250) |
+| minShape | const_spec |  | [31](../../magpie/internal/redact/shape.go#L31) |
+| minRandom | const_spec |  | [32](../../magpie/internal/redact/shape.go#L32) |
+| shapes | var_spec |  | [38](../../magpie/internal/redact/shape.go#L38) |
+| keyPrefixes | var_spec |  | [43](../../magpie/internal/redact/shape.go#L43) |
+| keyHead | function_declaration |  | [49](../../magpie/internal/redact/shape.go#L49) |
+| namedValue | var_spec |  | [71](../../magpie/internal/redact/shape.go#L71) |
+| splitName | function_declaration |  | [76](../../magpie/internal/redact/shape.go#L76) |
+| shapeByte | function_declaration |  | [83](../../magpie/internal/redact/shape.go#L83) |
+| shapeOf | function_declaration |  | [88](../../magpie/internal/redact/shape.go#L88) |
+| stream | var_spec | shapeOf | [116](../../magpie/internal/redact/shape.go#L116) |
+| c | var_spec | shapeOf | [121](../../magpie/internal/redact/shape.go#L121) |
+| upper | const_spec | shapeOf | [132](../../magpie/internal/redact/shape.go#L132) |
+| lower | const_spec | shapeOf | [133](../../magpie/internal/redact/shape.go#L133) |
+| digit | const_spec | shapeOf | [134](../../magpie/internal/redact/shape.go#L134) |
+| shaped | function_declaration |  | [169](../../magpie/internal/redact/shape.go#L169) |
+| restoreShapes | function_declaration |  | [208](../../magpie/internal/redact/shape.go#L208) |
+| foldStandIn | function_declaration |  | [240](../../magpie/internal/redact/shape.go#L240) |
+| wholeAddr | function_declaration |  | [247](../../magpie/internal/redact/shape.go#L247) |
+| replaceStandIn | function_declaration |  | [255](../../magpie/internal/redact/shape.go#L255) |
+| b | var_spec | replaceStandIn | [256](../../magpie/internal/redact/shape.go#L256) |
+| nameByte | function_declaration |  | [284](../../magpie/internal/redact/shape.go#L284) |
+| shapeTail | function_declaration |  | [292](../../magpie/internal/redact/shape.go#L292) |
+| hasShapes | function_declaration |  | [320](../../magpie/internal/redact/shape.go#L320) |
+| outsideShapes | function_declaration |  | [347](../../magpie/internal/redact/shape.go#L347) |
+| standInLen | const_spec |  | [384](../../magpie/internal/redact/shape.go#L384) |
+| standInOf | function_declaration |  | [387](../../magpie/internal/redact/shape.go#L387) |
+| ipStandInHead | const_spec |  | [420](../../magpie/internal/redact/shape.go#L420) |
+| ipStandInLen | const_spec |  | [421](../../magpie/internal/redact/shape.go#L421) |
+| ipStandIns | function_declaration |  | [427](../../magpie/internal/redact/shape.go#L427) |
+| c | var_spec | ipStandIns | [436](../../magpie/internal/redact/shape.go#L436) |
+| ipStandIn | function_declaration |  | [451](../../magpie/internal/redact/shape.go#L451) |
+| standIn | function_declaration |  | [485](../../magpie/internal/redact/shape.go#L485) |

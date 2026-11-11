@@ -4,28 +4,33 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/file.go) · page 1/1
 
-Source SHA-256: c1756ad5a53ebf983ef0a70bd855306d21d2eadff34a949d8b456f1d8b9e9415
+Source SHA-256: 3f8bb2287afe1f048fda675579621c8419b3fa908112b7ef8097df146fe63508
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Read | function_declaration |  | [33](../../magpie/internal/edit/file.go#L33) |
-| bom | var_spec |  | [45](../../magpie/internal/edit/file.go#L45) |
-| TrimBOM | function_declaration |  | [49](../../magpie/internal/edit/file.go#L49) |
-| keepBOM | function_declaration |  | [55](../../magpie/internal/edit/file.go#L55) |
-| filter | var_spec |  | [74](../../magpie/internal/edit/file.go#L74) |
-| filtering | var_spec |  | [75](../../magpie/internal/edit/file.go#L75) |
-| Filtered | function_declaration |  | [85](../../magpie/internal/edit/file.go#L85) |
-| WriteAtomic | function_declaration |  | [99](../../magpie/internal/edit/file.go#L99) |
-| writeInPlace | function_declaration |  | [187](../../magpie/internal/edit/file.go#L187) |
-| staleTemp | const_spec |  | [235](../../magpie/internal/edit/file.go#L235) |
-| removeStaleTemps | function_declaration |  | [244](../../magpie/internal/edit/file.go#L244) |
-| Target | function_declaration |  | [270](../../magpie/internal/edit/file.go#L270) |
-| IsLink | function_declaration |  | [294](../../magpie/internal/edit/file.go#L294) |
-| Remove | function_declaration |  | [306](../../magpie/internal/edit/file.go#L306) |
-| Atomically | function_declaration |  | [320](../../magpie/internal/edit/file.go#L320) |
-| saved | type_spec | Atomically | [321](../../magpie/internal/edit/file.go#L321) |
-| path | field_declaration | Atomically::saved | [322](../../magpie/internal/edit/file.go#L322) |
-| data | field_declaration | Atomically::saved | [323](../../magpie/internal/edit/file.go#L323) |
-| mode | field_declaration | Atomically::saved | [324](../../magpie/internal/edit/file.go#L324) |
-| exists | field_declaration | Atomically::saved | [325](../../magpie/internal/edit/file.go#L325) |
-| before | var_spec | Atomically | [327](../../magpie/internal/edit/file.go#L327) |
+| Read | function_declaration |  | [37](../../magpie/internal/edit/file.go#L37) |
+| readHeld | function_declaration |  | [45](../../magpie/internal/edit/file.go#L45) |
+| readThrough | function_declaration |  | [49](../../magpie/internal/edit/file.go#L49) |
+| jsonHeld | function_declaration |  | [65](../../magpie/internal/edit/file.go#L65) |
+| bom | var_spec |  | [76](../../magpie/internal/edit/file.go#L76) |
+| TrimBOM | function_declaration |  | [80](../../magpie/internal/edit/file.go#L80) |
+| keepBOM | function_declaration |  | [86](../../magpie/internal/edit/file.go#L86) |
+| filter | var_spec |  | [105](../../magpie/internal/edit/file.go#L105) |
+| filtering | var_spec |  | [106](../../magpie/internal/edit/file.go#L106) |
+| Filtered | function_declaration |  | [116](../../magpie/internal/edit/file.go#L116) |
+| WriteAtomic | function_declaration |  | [130](../../magpie/internal/edit/file.go#L130) |
+| writeInPlace | function_declaration |  | [234](../../magpie/internal/edit/file.go#L234) |
+| Target | function_declaration |  | [282](../../magpie/internal/edit/file.go#L282) |
+| IsLink | function_declaration |  | [306](../../magpie/internal/edit/file.go#L306) |
+| Remove | function_declaration |  | [318](../../magpie/internal/edit/file.go#L318) |
+| Atomically | function_declaration |  | [332](../../magpie/internal/edit/file.go#L332) |
+| saved | type_spec | Atomically | [333](../../magpie/internal/edit/file.go#L333) |
+| path | field_declaration | Atomically::saved | [334](../../magpie/internal/edit/file.go#L334) |
+| data | field_declaration | Atomically::saved | [335](../../magpie/internal/edit/file.go#L335) |
+| mode | field_declaration | Atomically::saved | [336](../../magpie/internal/edit/file.go#L336) |
+| exists | field_declaration | Atomically::saved | [337](../../magpie/internal/edit/file.go#L337) |
+| before | var_spec | Atomically | [339](../../magpie/internal/edit/file.go#L339) |
+
+Parser recovery: 2 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 38: ERROR
+- line 46: ERROR

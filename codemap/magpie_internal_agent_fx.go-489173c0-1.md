@@ -4,17 +4,17 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/fx.go) · page 1/1
 
-Source SHA-256: 998609dbdecacd005b25d8cd26a7251a582f4c6dd843e395541cc7ffafb1c7de
+Source SHA-256: d61d2f0b50d55de40f863c0ac47aae837ef7b9b84a71c848d3930c6668b08981
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | fxMaxModels | const_spec |  | [26](../../magpie/internal/agent/fx.go#L26) |
 | fx | function_declaration |  | [28](../../magpie/internal/agent/fx.go#L28) |
 | fxIn | function_declaration |  | [32](../../magpie/internal/agent/fx.go#L32) |
-| out | var_spec | fxIn | [116](../../magpie/internal/agent/fx.go#L116) |
-| fxModels | function_declaration |  | [127](../../magpie/internal/agent/fx.go#L127) |
-| c | var_spec | fxModels | [133](../../magpie/internal/agent/fx.go#L133) |
-| Models | field_declaration | fxModels::c | [134](../../magpie/internal/agent/fx.go#L134) |
-| fxProviderAt | function_declaration |  | [151](../../magpie/internal/agent/fx.go#L151) |
-| fxKept | function_declaration |  | [191](../../magpie/internal/agent/fx.go#L191) |
-| noticeFx | var_spec |  | [201](../../magpie/internal/agent/fx.go#L201) |
+| out | var_spec | fxIn | [117](../../magpie/internal/agent/fx.go#L117) |
+| fxModels | function_declaration |  | [128](../../magpie/internal/agent/fx.go#L128) |
+| c | var_spec | fxModels | [134](../../magpie/internal/agent/fx.go#L134) |
+| Models | field_declaration | fxModels::c | [135](../../magpie/internal/agent/fx.go#L135) |
+| fxProviderAt | function_declaration |  | [152](../../magpie/internal/agent/fx.go#L152) |
+| fxKept | function_declaration |  | [192](../../magpie/internal/agent/fx.go#L192) |
+| noticeFx | var_spec |  | [202](../../magpie/internal/agent/fx.go#L202) |

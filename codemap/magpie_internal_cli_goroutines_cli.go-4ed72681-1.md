@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/goroutines_cli.go) · page 1/1
 
-Source SHA-256: a92d2d50c69ab442a631c299f8799d238b6f5a57d84d847c4e1c098a77395768
+Source SHA-256: 8d59312cf509bbc6eb08d21864bd4f6374fa46eabf33cbdac6a901e6b6f80f47
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

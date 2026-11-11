@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/folder_other.go) · page 1/1
 
-Source SHA-256: 33952bf24cee6c149af16818c0efefa0ea086566d3bdca4c346d02ff3ba1f30d
+Source SHA-256: e6c4758737d400bc543ac29b0b0f3542c53faa6d40f381f90139d9efbdd13d18
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

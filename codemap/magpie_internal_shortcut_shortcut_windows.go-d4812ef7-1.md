@@ -4,15 +4,19 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/shortcut/shortcut_windows.go) · page 1/1
 
-Source SHA-256: 524b3cb19fec38bdf324a2100034e9bdd6c8cf151e0ec1fb75388e27a3805b24
+Source SHA-256: 6a6005091d4d8d98c206531f9eda53dbc91d65e18ea5ff9c3cda2b6042dd002f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| appPath | const_spec |  | [19](../../magpie/internal/shortcut/shortcut_windows.go#L19) |
-| registerAppPath | function_declaration |  | [21](../../magpie/internal/shortcut/shortcut_windows.go#L21) |
-| registeredAppPath | function_declaration |  | [29](../../magpie/internal/shortcut/shortcut_windows.go#L29) |
-| startMenuLink | function_declaration |  | [38](../../magpie/internal/shortcut/shortcut_windows.go#L38) |
-| writeShortcut | function_declaration |  | [46](../../magpie/internal/shortcut/shortcut_windows.go#L46) |
-| programs | function_declaration |  | [49](../../magpie/internal/shortcut/shortcut_windows.go#L49) |
-| write | function_declaration |  | [64](../../magpie/internal/shortcut/shortcut_windows.go#L64) |
-| oe | var_spec | write | [69](../../magpie/internal/shortcut/shortcut_windows.go#L69) |
+| appPath | var_spec |  | [20](../../magpie/internal/shortcut/shortcut_windows.go#L20) |
+| registerAppPath | function_declaration |  | [22](../../magpie/internal/shortcut/shortcut_windows.go#L22) |
+| uninstallKey | var_spec |  | [38](../../magpie/internal/shortcut/shortcut_windows.go#L38) |
+| registerUninstall | function_declaration |  | [42](../../magpie/internal/shortcut/shortcut_windows.go#L42) |
+| unregisterUninstall | function_declaration |  | [65](../../magpie/internal/shortcut/shortcut_windows.go#L65) |
+| registeredAppPath | function_declaration |  | [81](../../magpie/internal/shortcut/shortcut_windows.go#L81) |
+| startMenuLink | function_declaration |  | [90](../../magpie/internal/shortcut/shortcut_windows.go#L90) |
+| writeShortcut | function_declaration |  | [98](../../magpie/internal/shortcut/shortcut_windows.go#L98) |
+| programs | function_declaration |  | [101](../../magpie/internal/shortcut/shortcut_windows.go#L101) |
+| write | function_declaration |  | [116](../../magpie/internal/shortcut/shortcut_windows.go#L116) |
+| oe | var_spec | write | [121](../../magpie/internal/shortcut/shortcut_windows.go#L121) |
+| unregisterAppPath | function_declaration |  | [179](../../magpie/internal/shortcut/shortcut_windows.go#L179) |

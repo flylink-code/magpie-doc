@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/jsmod/jsmod.go) · page 1/1
 
-Source SHA-256: 85b1dc1e3c97103209292baebcf30bb139f50066fb28b15cf34035fd5716ecdf
+Source SHA-256: 22dc350158c7bd176c2987ec1a1bcf86af383fce47b3b6ed77e63555d73f6649
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

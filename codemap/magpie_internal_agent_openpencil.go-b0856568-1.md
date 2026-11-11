@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/openpencil.go) · page 1/1
 
-Source SHA-256: 96f45a7afacef5f72b1682485fca5506b340ab83fe69560869a0fd1ce76bf7ac
+Source SHA-256: 60bdafba5262e202bdf5e7f3e248b04bbbdc6974b60b1e45a6c83c814efe0583
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

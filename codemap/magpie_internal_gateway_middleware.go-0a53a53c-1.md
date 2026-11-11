@@ -4,17 +4,25 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/middleware.go) · page 1/1
 
-Source SHA-256: ff5b4894979b2ab80282c95ef31743d7b2ea8c21e85ee68ada65744b02c1fd29
+Source SHA-256: 0d17f4d097754a96240ee10d310f1cb353b90d22cfa7e3b013330c1f6476ae60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| serveAgent | method_declaration |  | [22](../../magpie/internal/gateway/middleware.go#L22) |
-| tried | var_spec | serveAgent | [39](../../magpie/internal/gateway/middleware.go#L39) |
-| turned | var_spec | serveAgent | [53](../../magpie/internal/gateway/middleware.go#L53) |
-| done | var_spec | serveAgent | [60](../../magpie/internal/gateway/middleware.go#L60) |
-| triedKey | type_spec |  | [70](../../magpie/internal/gateway/middleware.go#L70) |
-| triedOn | function_declaration |  | [76](../../magpie/internal/gateway/middleware.go#L76) |
-| middlewareWanted | function_declaration |  | [90](../../magpie/internal/gateway/middleware.go#L90) |
-| gatewayHooks | function_declaration |  | [97](../../magpie/internal/gateway/middleware.go#L97) |
-| gatewayQuery | function_declaration |  | [120](../../magpie/internal/gateway/middleware.go#L120) |
-| gatewayOrigin | function_declaration |  | [136](../../magpie/internal/gateway/middleware.go#L136) |
+| serveAgent | method_declaration |  | [24](../../magpie/internal/gateway/middleware.go#L24) |
+| runs | var_spec | serveAgent | [54](../../magpie/internal/gateway/middleware.go#L54) |
+| turned | var_spec | serveAgent | [71](../../magpie/internal/gateway/middleware.go#L71) |
+| done | var_spec | serveAgent | [78](../../magpie/internal/gateway/middleware.go#L78) |
+| triedKey | type_spec |  | [88](../../magpie/internal/gateway/middleware.go#L88) |
+| mwRuns | type_spec |  | [93](../../magpie/internal/gateway/middleware.go#L93) |
+| tried | field_declaration | mwRuns | [94](../../magpie/internal/gateway/middleware.go#L94) |
+| accounts | field_declaration | mwRuns | [95](../../magpie/internal/gateway/middleware.go#L95) |
+| triedOn | function_declaration |  | [102](../../magpie/internal/gateway/middleware.go#L102) |
+| accountSkipped | function_declaration |  | [118](../../magpie/internal/gateway/middleware.go#L118) |
+| ownAsk | function_declaration |  | [147](../../magpie/internal/gateway/middleware.go#L147) |
+| middlewareWanted | function_declaration |  | [153](../../magpie/internal/gateway/middleware.go#L153) |
+| gatewayHooks | function_declaration |  | [160](../../magpie/internal/gateway/middleware.go#L160) |
+| gatewayQuery | function_declaration |  | [183](../../magpie/internal/gateway/middleware.go#L183) |
+| gatewayOrigin | function_declaration |  | [209](../../magpie/internal/gateway/middleware.go#L209) |
+| forwarded | function_declaration |  | [221](../../magpie/internal/gateway/middleware.go#L221) |
+| ownComputer | function_declaration |  | [232](../../magpie/internal/gateway/middleware.go#L232) |
+| hookKind | function_declaration |  | [255](../../magpie/internal/gateway/middleware.go#L255) |

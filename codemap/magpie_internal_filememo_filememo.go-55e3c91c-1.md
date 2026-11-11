@@ -4,40 +4,50 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/filememo/filememo.go) · page 1/1
 
-Source SHA-256: c5ec7020fc214b2ab64d34ad27aca11d3d8e34e1ddb48a8fdf22c864b9099d60
+Source SHA-256: 30f733806fcbeed2f513c4bb4f11e7168382b227a2e1080ea6c148a5b8be4293
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| entry | type_spec |  | [18](../../magpie/internal/filememo/filememo.go#L18) |
-| mod | field_declaration | entry | [19](../../magpie/internal/filememo/filememo.go#L19) |
-| size | field_declaration | entry | [20](../../magpie/internal/filememo/filememo.go#L20) |
-| v | field_declaration | entry | [21](../../magpie/internal/filememo/filememo.go#L21) |
-| raw | field_declaration | entry | [26](../../magpie/internal/filememo/filememo.go#L26) |
-| checked | field_declaration | entry | [29](../../magpie/internal/filememo/filememo.go#L29) |
-| gen | field_declaration | entry | [30](../../magpie/internal/filememo/filememo.go#L30) |
-| settled | const_spec |  | [35](../../magpie/internal/filememo/filememo.go#L35) |
-| mu | var_spec |  | [38](../../magpie/internal/filememo/filememo.go#L38) |
-| seen | var_spec |  | [39](../../magpie/internal/filememo/filememo.go#L39) |
-| holds | var_spec |  | [42](../../magpie/internal/filememo/filememo.go#L42) |
-| gen | var_spec |  | [43](../../magpie/internal/filememo/filememo.go#L43) |
-| gone | var_spec |  | [47](../../magpie/internal/filememo/filememo.go#L47) |
-| missing | var_spec |  | [54](../../magpie/internal/filememo/filememo.go#L54) |
-| stats | var_spec |  | [56](../../magpie/internal/filememo/filememo.go#L56) |
-| missingFile | type_spec |  | [59](../../magpie/internal/filememo/filememo.go#L59) |
-| err | field_declaration | missingFile | [60](../../magpie/internal/filememo/filememo.go#L60) |
-| checked | field_declaration | missingFile | [61](../../magpie/internal/filememo/filememo.go#L61) |
-| gen | field_declaration | missingFile | [62](../../magpie/internal/filememo/filememo.go#L62) |
-| heldFor | const_spec |  | [67](../../magpie/internal/filememo/filememo.go#L67) |
-| Hold | function_declaration |  | [74](../../magpie/internal/filememo/filememo.go#L74) |
-| Forget | function_declaration |  | [87](../../magpie/internal/filememo/filememo.go#L87) |
-| wake | function_declaration |  | [99](../../magpie/internal/filememo/filememo.go#L99) |
-| written | var_spec |  | [107](../../magpie/internal/filememo/filememo.go#L107) |
-| Written | function_declaration |  | [115](../../magpie/internal/filememo/filememo.go#L115) |
-| gens | var_spec |  | [122](../../magpie/internal/filememo/filememo.go#L122) |
-| Gen | function_declaration |  | [126](../../magpie/internal/filememo/filememo.go#L126) |
-| Look | function_declaration |  | [131](../../magpie/internal/filememo/filememo.go#L131) |
-| Read | function_declaration |  | [147](../../magpie/internal/filememo/filememo.go#L147) |
-| zero | var_spec | Read | [148](../../magpie/internal/filememo/filememo.go#L148) |
-| statFile | function_declaration |  | [216](../../magpie/internal/filememo/filememo.go#L216) |
-| fi | var_spec | statFile | [221](../../magpie/internal/filememo/filememo.go#L221) |
-| err | var_spec | statFile | [222](../../magpie/internal/filememo/filememo.go#L222) |
+| entry | type_spec |  | [17](../../magpie/internal/filememo/filememo.go#L17) |
+| mod | field_declaration | entry | [18](../../magpie/internal/filememo/filememo.go#L18) |
+| size | field_declaration | entry | [19](../../magpie/internal/filememo/filememo.go#L19) |
+| v | field_declaration | entry | [20](../../magpie/internal/filememo/filememo.go#L20) |
+| raw | field_declaration | entry | [25](../../magpie/internal/filememo/filememo.go#L25) |
+| again | field_declaration | entry | [28](../../magpie/internal/filememo/filememo.go#L28) |
+| checked | field_declaration | entry | [31](../../magpie/internal/filememo/filememo.go#L31) |
+| gen | field_declaration | entry | [32](../../magpie/internal/filememo/filememo.go#L32) |
+| memoKey | type_spec |  | [39](../../magpie/internal/filememo/filememo.go#L39) |
+| kind | field_declaration | memoKey | [39](../../magpie/internal/filememo/filememo.go#L39) |
+| settled | const_spec |  | [43](../../magpie/internal/filememo/filememo.go#L43) |
+| mu | var_spec |  | [46](../../magpie/internal/filememo/filememo.go#L46) |
+| seen | var_spec |  | [47](../../magpie/internal/filememo/filememo.go#L47) |
+| holds | var_spec |  | [50](../../magpie/internal/filememo/filememo.go#L50) |
+| gen | var_spec |  | [51](../../magpie/internal/filememo/filememo.go#L51) |
+| gone | var_spec |  | [55](../../magpie/internal/filememo/filememo.go#L55) |
+| missing | var_spec |  | [62](../../magpie/internal/filememo/filememo.go#L62) |
+| stats | var_spec |  | [64](../../magpie/internal/filememo/filememo.go#L64) |
+| missingFile | type_spec |  | [67](../../magpie/internal/filememo/filememo.go#L67) |
+| err | field_declaration | missingFile | [68](../../magpie/internal/filememo/filememo.go#L68) |
+| checked | field_declaration | missingFile | [69](../../magpie/internal/filememo/filememo.go#L69) |
+| gen | field_declaration | missingFile | [70](../../magpie/internal/filememo/filememo.go#L70) |
+| heldFor | const_spec |  | [75](../../magpie/internal/filememo/filememo.go#L75) |
+| Hold | function_declaration |  | [82](../../magpie/internal/filememo/filememo.go#L82) |
+| Forget | function_declaration |  | [95](../../magpie/internal/filememo/filememo.go#L95) |
+| wake | function_declaration |  | [106](../../magpie/internal/filememo/filememo.go#L106) |
+| endWaits | function_declaration |  | [117](../../magpie/internal/filememo/filememo.go#L117) |
+| written | var_spec |  | [126](../../magpie/internal/filememo/filememo.go#L126) |
+| Written | function_declaration |  | [137](../../magpie/internal/filememo/filememo.go#L137) |
+| gens | var_spec |  | [147](../../magpie/internal/filememo/filememo.go#L147) |
+| Gen | function_declaration |  | [151](../../magpie/internal/filememo/filememo.go#L151) |
+| Look | function_declaration |  | [156](../../magpie/internal/filememo/filememo.go#L156) |
+| Read | function_declaration |  | [172](../../magpie/internal/filememo/filememo.go#L172) |
+| ReadNow | function_declaration |  | [179](../../magpie/internal/filememo/filememo.go#L179) |
+| read | function_declaration |  | [183](../../magpie/internal/filememo/filememo.go#L183) |
+| zero | var_spec | read | [184](../../magpie/internal/filememo/filememo.go#L184) |
+| settle | function_declaration |  | [262](../../magpie/internal/filememo/filememo.go#L262) |
+| parsed | function_declaration |  | [273](../../magpie/internal/filememo/filememo.go#L273) |
+| zero | var_spec | parsed | [276](../../magpie/internal/filememo/filememo.go#L276) |
+| statFile | function_declaration |  | [296](../../magpie/internal/filememo/filememo.go#L296) |
+| fi | var_spec | statFile | [301](../../magpie/internal/filememo/filememo.go#L301) |
+| err | var_spec | statFile | [302](../../magpie/internal/filememo/filememo.go#L302) |
+| DropKind | function_declaration |  | [321](../../magpie/internal/filememo/filememo.go#L321) |

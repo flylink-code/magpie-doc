@@ -4,41 +4,48 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/writer.go) · page 1/1
 
-Source SHA-256: 69714f373ea974ae0167ba4c2d0ebea1202b9aae228ff6732af66c8ed2a3ff0c
+Source SHA-256: 8135be55e9fbeadf345b1d4f0ed9b0306ebda8f235b36c80414d0e082ab55df4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Writer | type_spec |  | [18](../../magpie/internal/redact/writer.go#L18) |
-| w | field_declaration | Writer | [19](../../magpie/internal/redact/writer.go#L19) |
-| mode | field_declaration | Writer | [20](../../magpie/internal/redact/writer.go#L20) |
-| buf | field_declaration | Writer | [21](../../magpie/internal/redact/writer.go#L21) |
-| pending | field_declaration | Writer | [22](../../magpie/internal/redact/writer.go#L22) |
-| done | field_declaration | Writer | [23](../../magpie/internal/redact/writer.go#L23) |
-| put | field_declaration | Writer | [24](../../magpie/internal/redact/writer.go#L24) |
-| unknown | const_spec |  | [28](../../magpie/internal/redact/writer.go#L28) |
-| stream | const_spec |  | [29](../../magpie/internal/redact/writer.go#L29) |
-| whole | const_spec |  | [30](../../magpie/internal/redact/writer.go#L30) |
-| asIs | const_spec |  | [31](../../magpie/internal/redact/writer.go#L31) |
-| held | type_spec |  | [35](../../magpie/internal/redact/writer.go#L35) |
-| ctx | field_declaration | held | [36](../../magpie/internal/redact/writer.go#L36) |
-| tail | field_declaration | held | [37](../../magpie/internal/redact/writer.go#L37) |
-| full | field_declaration | held | [38](../../magpie/internal/redact/writer.go#L38) |
-| NewWriter | function_declaration |  | [42](../../magpie/internal/redact/writer.go#L42) |
-| Header | method_declaration |  | [44](../../magpie/internal/redact/writer.go#L44) |
-| Put | method_declaration |  | [48](../../magpie/internal/redact/writer.go#L48) |
-| count | method_declaration |  | [50](../../magpie/internal/redact/writer.go#L50) |
-| Unwrap | method_declaration |  | [58](../../magpie/internal/redact/writer.go#L58) |
-| decide | method_declaration |  | [60](../../magpie/internal/redact/writer.go#L60) |
-| WriteHeader | method_declaration |  | [75](../../magpie/internal/redact/writer.go#L75) |
-| Write | method_declaration |  | [89](../../magpie/internal/redact/writer.go#L89) |
-| commentLines | function_declaration |  | [133](../../magpie/internal/redact/writer.go#L133) |
-| eventEnd | function_declaration |  | [147](../../magpie/internal/redact/writer.go#L147) |
-| Flush | method_declaration |  | [160](../../magpie/internal/redact/writer.go#L160) |
-| Finish | method_declaration |  | [167](../../magpie/internal/redact/writer.go#L167) |
-| event | method_declaration |  | [188](../../magpie/internal/redact/writer.go#L188) |
-| release | method_declaration |  | [249](../../magpie/internal/redact/writer.go#L249) |
-| rebuild | function_declaration |  | [258](../../magpie/internal/redact/writer.go#L258) |
-| splitEvent | function_declaration |  | [265](../../magpie/internal/redact/writer.go#L265) |
-| eventCtx | function_declaration |  | [301](../../magpie/internal/redact/writer.go#L301) |
-| b | var_spec | eventCtx | [302](../../magpie/internal/redact/writer.go#L302) |
-| hasPath | function_declaration |  | [323](../../magpie/internal/redact/writer.go#L323) |
+| Writer | type_spec |  | [19](../../magpie/internal/redact/writer.go#L19) |
+| w | field_declaration | Writer | [20](../../magpie/internal/redact/writer.go#L20) |
+| mode | field_declaration | Writer | [21](../../magpie/internal/redact/writer.go#L21) |
+| buf | field_declaration | Writer | [22](../../magpie/internal/redact/writer.go#L22) |
+| pending | field_declaration | Writer | [23](../../magpie/internal/redact/writer.go#L23) |
+| done | field_declaration | Writer | [24](../../magpie/internal/redact/writer.go#L24) |
+| put | field_declaration | Writer | [25](../../magpie/internal/redact/writer.go#L25) |
+| unknown | const_spec |  | [29](../../magpie/internal/redact/writer.go#L29) |
+| stream | const_spec |  | [30](../../magpie/internal/redact/writer.go#L30) |
+| whole | const_spec |  | [31](../../magpie/internal/redact/writer.go#L31) |
+| asIs | const_spec |  | [32](../../magpie/internal/redact/writer.go#L32) |
+| held | type_spec |  | [37](../../magpie/internal/redact/writer.go#L37) |
+| ctx | field_declaration | held | [38](../../magpie/internal/redact/writer.go#L38) |
+| tails | field_declaration | held | [39](../../magpie/internal/redact/writer.go#L39) |
+| full | field_declaration | held | [40](../../magpie/internal/redact/writer.go#L40) |
+| NewWriter | function_declaration |  | [44](../../magpie/internal/redact/writer.go#L44) |
+| Header | method_declaration |  | [46](../../magpie/internal/redact/writer.go#L46) |
+| Put | method_declaration |  | [50](../../magpie/internal/redact/writer.go#L50) |
+| count | method_declaration |  | [52](../../magpie/internal/redact/writer.go#L52) |
+| Unwrap | method_declaration |  | [60](../../magpie/internal/redact/writer.go#L60) |
+| decide | method_declaration |  | [62](../../magpie/internal/redact/writer.go#L62) |
+| binaryType | function_declaration |  | [81](../../magpie/internal/redact/writer.go#L81) |
+| WriteHeader | method_declaration |  | [91](../../magpie/internal/redact/writer.go#L91) |
+| Write | method_declaration |  | [105](../../magpie/internal/redact/writer.go#L105) |
+| commentLines | function_declaration |  | [149](../../magpie/internal/redact/writer.go#L149) |
+| eventEnd | function_declaration |  | [163](../../magpie/internal/redact/writer.go#L163) |
+| Flush | method_declaration |  | [176](../../magpie/internal/redact/writer.go#L176) |
+| Finish | method_declaration |  | [183](../../magpie/internal/redact/writer.go#L183) |
+| event | method_declaration |  | [213](../../magpie/internal/redact/writer.go#L213) |
+| carry | var_spec | event | [236](../../magpie/internal/redact/writer.go#L236) |
+| tails | var_spec | event | [252](../../magpie/internal/redact/writer.go#L252) |
+| waitEvents | var_spec |  | [296](../../magpie/internal/redact/writer.go#L296) |
+| waiting | function_declaration |  | [299](../../magpie/internal/redact/writer.go#L299) |
+| sealedText | function_declaration |  | [309](../../magpie/internal/redact/writer.go#L309) |
+| holding | function_declaration |  | [315](../../magpie/internal/redact/writer.go#L315) |
+| release | method_declaration |  | [321](../../magpie/internal/redact/writer.go#L321) |
+| rebuild | function_declaration |  | [330](../../magpie/internal/redact/writer.go#L330) |
+| splitEvent | function_declaration |  | [337](../../magpie/internal/redact/writer.go#L337) |
+| eventCtx | function_declaration |  | [373](../../magpie/internal/redact/writer.go#L373) |
+| b | var_spec | eventCtx | [374](../../magpie/internal/redact/writer.go#L374) |
+| hasPaths | function_declaration |  | [396](../../magpie/internal/redact/writer.go#L396) |

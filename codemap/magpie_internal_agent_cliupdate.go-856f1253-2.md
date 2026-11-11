@@ -4,15 +4,28 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/cliupdate.go) · page 2/2
 
-Source SHA-256: 4ccb6756c6c545c914dd93838ad0f33e38fd6909457ab8b4534b2c1fc6333d0e
+Source SHA-256: beda1b6d1b14ef770bdc4124f9b39b124a024d9dca480515be05e277244c23cb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| runsBroken | function_declaration |  | [1049](../../magpie/internal/agent/cliupdate.go#L1049) |
-| checkTimeout | var_spec |  | [1064](../../magpie/internal/agent/cliupdate.go#L1064) |
-| runCheck | var_spec |  | [1069](../../magpie/internal/agent/cliupdate.go#L1069) |
-| ee | var_spec | runCheck | [1075](../../magpie/internal/agent/cliupdate.go#L1075) |
-| mendHint | function_declaration |  | [1083](../../magpie/internal/agent/cliupdate.go#L1083) |
-| ansiRe | var_spec |  | [1107](../../magpie/internal/agent/cliupdate.go#L1107) |
-| lastLines | function_declaration |  | [1111](../../magpie/internal/agent/cliupdate.go#L1111) |
-| keep | var_spec | lastLines | [1112](../../magpie/internal/agent/cliupdate.go#L1112) |
+| AdminError | type_spec |  | [1054](../../magpie/internal/agent/cliupdate.go#L1054) |
+| Agent | field_declaration | AdminError | [1055](../../magpie/internal/agent/cliupdate.go#L1055) |
+| Canceled | field_declaration | AdminError | [1056](../../magpie/internal/agent/cliupdate.go#L1056) |
+| Err | field_declaration | AdminError | [1057](../../magpie/internal/agent/cliupdate.go#L1057) |
+| Error | method_declaration |  | [1060](../../magpie/internal/agent/cliupdate.go#L1060) |
+| Unwrap | method_declaration |  | [1076](../../magpie/internal/agent/cliupdate.go#L1076) |
+| runUpdate | var_spec |  | [1080](../../magpie/internal/agent/cliupdate.go#L1080) |
+| updateEnv | function_declaration |  | [1091](../../magpie/internal/agent/cliupdate.go#L1091) |
+| letGoBeforeUpdate | var_spec |  | [1116](../../magpie/internal/agent/cliupdate.go#L1116) |
+| updateGOOS | var_spec |  | [1132](../../magpie/internal/agent/cliupdate.go#L1132) |
+| updateTimeout | var_spec |  | [1135](../../magpie/internal/agent/cliupdate.go#L1135) |
+| UpdateCLI | method_declaration |  | [1139](../../magpie/internal/agent/cliupdate.go#L1139) |
+| runsBroken | function_declaration |  | [1238](../../magpie/internal/agent/cliupdate.go#L1238) |
+| checkTimeout | var_spec |  | [1253](../../magpie/internal/agent/cliupdate.go#L1253) |
+| runCheck | var_spec |  | [1258](../../magpie/internal/agent/cliupdate.go#L1258) |
+| ee | var_spec | runCheck | [1264](../../magpie/internal/agent/cliupdate.go#L1264) |
+| scriptsFlag | function_declaration |  | [1273](../../magpie/internal/agent/cliupdate.go#L1273) |
+| mendHint | function_declaration |  | [1283](../../magpie/internal/agent/cliupdate.go#L1283) |
+| ansiRe | var_spec |  | [1307](../../magpie/internal/agent/cliupdate.go#L1307) |
+| lastLines | function_declaration |  | [1311](../../magpie/internal/agent/cliupdate.go#L1311) |
+| keep | var_spec | lastLines | [1312](../../magpie/internal/agent/cliupdate.go#L1312) |

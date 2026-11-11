@@ -4,37 +4,51 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/member.go) · page 1/1
 
-Source SHA-256: e348e141127f403311a69c70a63d98113a5ada86e8990df8015e5882770e9553
+Source SHA-256: 4d8c41fc10beef02d3d8f8bcfa89969983f03b19f891ada67002d40e5319df6f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| providerHeader | const_spec |  | [31](../../magpie/internal/gateway/member.go#L31) |
-| modelHeader | const_spec |  | [32](../../magpie/internal/gateway/member.go#L32) |
-| responseModelHeader | const_spec |  | [33](../../magpie/internal/gateway/member.go#L33) |
-| vendorNamed | var_spec |  | [38](../../magpie/internal/gateway/member.go#L38) |
-| memberKey | type_spec |  | [40](../../magpie/internal/gateway/member.go#L40) |
-| noteMember | function_declaration |  | [44](../../magpie/internal/gateway/member.go#L44) |
-| namesMember | function_declaration |  | [62](../../magpie/internal/gateway/member.go#L62) |
-| withMemberNames | function_declaration |  | [83](../../magpie/internal/gateway/member.go#L83) |
-| memberWriter | type_spec |  | [94](../../magpie/internal/gateway/member.go#L94) |
-| w | field_declaration | memberWriter | [95](../../magpie/internal/gateway/member.go#L95) |
-| mu | field_declaration | memberWriter | [97](../../magpie/internal/gateway/member.go#L97) |
-| member | field_declaration | memberWriter | [98](../../magpie/internal/gateway/member.go#L98) |
-| mode | field_declaration | memberWriter | [100](../../magpie/internal/gateway/member.go#L100) |
-| buf | field_declaration | memberWriter | [101](../../magpie/internal/gateway/member.go#L101) |
-| memberUnknown | const_spec |  | [105](../../magpie/internal/gateway/member.go#L105) |
-| memberAsIs | const_spec |  | [106](../../magpie/internal/gateway/member.go#L106) |
-| memberStream | const_spec |  | [107](../../magpie/internal/gateway/member.go#L107) |
-| memberWhole | const_spec |  | [108](../../magpie/internal/gateway/member.go#L108) |
-| setMember | method_declaration |  | [111](../../magpie/internal/gateway/member.go#L111) |
-| memberID | method_declaration |  | [117](../../magpie/internal/gateway/member.go#L117) |
-| Header | method_declaration |  | [123](../../magpie/internal/gateway/member.go#L123) |
-| Unwrap | method_declaration |  | [126](../../magpie/internal/gateway/member.go#L126) |
-| decide | method_declaration |  | [128](../../magpie/internal/gateway/member.go#L128) |
-| WriteHeader | method_declaration |  | [149](../../magpie/internal/gateway/member.go#L149) |
-| Write | method_declaration |  | [156](../../magpie/internal/gateway/member.go#L156) |
-| Flush | method_declaration |  | [182](../../magpie/internal/gateway/member.go#L182) |
-| finish | method_declaration |  | [191](../../magpie/internal/gateway/member.go#L191) |
-| memberLine | function_declaration |  | [207](../../magpie/internal/gateway/member.go#L207) |
-| memberPaths | var_spec |  | [236](../../magpie/internal/gateway/member.go#L236) |
-| memberNamed | function_declaration |  | [239](../../magpie/internal/gateway/member.go#L239) |
+| providerHeader | const_spec |  | [47](../../magpie/internal/gateway/member.go#L47) |
+| modelHeader | const_spec |  | [48](../../magpie/internal/gateway/member.go#L48) |
+| responseModelHeader | const_spec |  | [49](../../magpie/internal/gateway/member.go#L49) |
+| memberKey | type_spec |  | [52](../../magpie/internal/gateway/member.go#L52) |
+| noteMember | function_declaration |  | [57](../../magpie/internal/gateway/member.go#L57) |
+| replyNaming | type_spec |  | [78](../../magpie/internal/gateway/member.go#L78) |
+| nameAsked | const_spec |  | [81](../../magpie/internal/gateway/member.go#L81) |
+| nameMember | const_spec |  | [82](../../magpie/internal/gateway/member.go#L82) |
+| nameVendor | const_spec |  | [83](../../magpie/internal/gateway/member.go#L83) |
+| replyNamingOf | function_declaration |  | [86](../../magpie/internal/gateway/member.go#L86) |
+| withMemberNames | function_declaration |  | [112](../../magpie/internal/gateway/member.go#L112) |
+| memberWriter | type_spec |  | [124](../../magpie/internal/gateway/member.go#L124) |
+| w | field_declaration | memberWriter | [125](../../magpie/internal/gateway/member.go#L125) |
+| naming | field_declaration | memberWriter | [126](../../magpie/internal/gateway/member.go#L126) |
+| asked | field_declaration | memberWriter | [127](../../magpie/internal/gateway/member.go#L127) |
+| paths | field_declaration | memberWriter | [128](../../magpie/internal/gateway/member.go#L128) |
+| mu | field_declaration | memberWriter | [130](../../magpie/internal/gateway/member.go#L130) |
+| member | field_declaration | memberWriter | [131](../../magpie/internal/gateway/member.go#L131) |
+| wire | field_declaration | memberWriter | [132](../../magpie/internal/gateway/member.go#L132) |
+| mode | field_declaration | memberWriter | [134](../../magpie/internal/gateway/member.go#L134) |
+| buf | field_declaration | memberWriter | [135](../../magpie/internal/gateway/member.go#L135) |
+| finished | field_declaration | memberWriter | [136](../../magpie/internal/gateway/member.go#L136) |
+| memberUnknown | const_spec |  | [140](../../magpie/internal/gateway/member.go#L140) |
+| memberAsIs | const_spec |  | [141](../../magpie/internal/gateway/member.go#L141) |
+| memberStream | const_spec |  | [142](../../magpie/internal/gateway/member.go#L142) |
+| memberWhole | const_spec |  | [143](../../magpie/internal/gateway/member.go#L143) |
+| setMember | method_declaration |  | [146](../../magpie/internal/gateway/member.go#L146) |
+| memberID | method_declaration |  | [152](../../magpie/internal/gateway/member.go#L152) |
+| target | method_declaration |  | [161](../../magpie/internal/gateway/member.go#L161) |
+| Header | method_declaration |  | [173](../../magpie/internal/gateway/member.go#L173) |
+| Unwrap | method_declaration |  | [176](../../magpie/internal/gateway/member.go#L176) |
+| decide | method_declaration |  | [178](../../magpie/internal/gateway/member.go#L178) |
+| WriteHeader | method_declaration |  | [202](../../magpie/internal/gateway/member.go#L202) |
+| Write | method_declaration |  | [209](../../magpie/internal/gateway/member.go#L209) |
+| Flush | method_declaration |  | [250](../../magpie/internal/gateway/member.go#L250) |
+| finish | method_declaration |  | [259](../../magpie/internal/gateway/member.go#L259) |
+| modelKey | var_spec |  | [276](../../magpie/internal/gateway/member.go#L276) |
+| memberLines | function_declaration |  | [280](../../magpie/internal/gateway/member.go#L280) |
+| out | var_spec | memberLines | [284](../../magpie/internal/gateway/member.go#L284) |
+| memberLine | function_declaration |  | [313](../../magpie/internal/gateway/member.go#L313) |
+| memberLineAt | function_declaration |  | [318](../../magpie/internal/gateway/member.go#L318) |
+| memberPaths | var_spec |  | [348](../../magpie/internal/gateway/member.go#L348) |
+| memberPathsOf | function_declaration |  | [351](../../magpie/internal/gateway/member.go#L351) |
+| memberNamedAt | function_declaration |  | [367](../../magpie/internal/gateway/member.go#L367) |

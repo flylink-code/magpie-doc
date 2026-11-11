@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/admin.go) · page 1/1
 
-Source SHA-256: eff064059669fa684e685f587ddf25c6576e86dd01f2606b0cc56ef225667d17
+Source SHA-256: c421946d0ff7a9aef27fea3fa3872f07dd9d8f281d459dbf5e1d76ef6b937123
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,8 +15,10 @@ Source SHA-256: eff064059669fa684e685f587ddf25c6576e86dd01f2606b0cc56ef225667d17
 | Stuck | function_declaration |  | [43](../../magpie/internal/update/admin.go#L43) |
 | run | var_spec |  | [54](../../magpie/internal/update/admin.go#L54) |
 | asAdmin | function_declaration |  | [59](../../magpie/internal/update/admin.go#L59) |
-| out | var_spec | asAdmin | [60](../../magpie/internal/update/admin.go#L60) |
-| err | var_spec | asAdmin | [61](../../magpie/internal/update/admin.go#L61) |
-| swapScript | function_declaration |  | [86](../../magpie/internal/update/admin.go#L86) |
-| shellQuote | function_declaration |  | [92](../../magpie/internal/update/admin.go#L92) |
-| appleString | function_declaration |  | [95](../../magpie/internal/update/admin.go#L95) |
+| AsAdmin | function_declaration |  | [63](../../magpie/internal/update/admin.go#L63) |
+| out | var_spec | AsAdmin | [64](../../magpie/internal/update/admin.go#L64) |
+| err | var_spec | AsAdmin | [65](../../magpie/internal/update/admin.go#L65) |
+| swapScript | function_declaration |  | [90](../../magpie/internal/update/admin.go#L90) |
+| ShellQuote | function_declaration |  | [96](../../magpie/internal/update/admin.go#L96) |
+| shellQuote | function_declaration |  | [99](../../magpie/internal/update/admin.go#L99) |
+| appleString | function_declaration |  | [102](../../magpie/internal/update/admin.go#L102) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/modelprefs.go) · page 1/1
 
-Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
+Source SHA-256: 56b0532fbab800d771f89154a0880411c0d40e8b7f2aa6f1728e2a359cc465d0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -33,57 +33,77 @@ Source SHA-256: ef77eab2ec85eeef3f118677a81a9cbdc1c15f4eb2295fae31c6b4cce20c33ef
 | setModelImage | function_declaration |  | [386](../../magpie/internal/provider/modelprefs.go#L386) |
 | SetModelAPI | function_declaration |  | [430](../../magpie/internal/provider/modelprefs.go#L430) |
 | setModelAPI | function_declaration |  | [434](../../magpie/internal/provider/modelprefs.go#L434) |
-| ModelAPI | method_declaration |  | [472](../../magpie/internal/provider/modelprefs.go#L472) |
-| modelAPI | function_declaration |  | [487](../../magpie/internal/provider/modelprefs.go#L487) |
-| ModelPref | type_spec |  | [499](../../magpie/internal/provider/modelprefs.go#L499) |
-| Name | field_declaration | ModelPref | [500](../../magpie/internal/provider/modelprefs.go#L500) |
-| Efforts | field_declaration | ModelPref | [501](../../magpie/internal/provider/modelprefs.go#L501) |
-| Reasonless | field_declaration | ModelPref | [504](../../magpie/internal/provider/modelprefs.go#L504) |
-| Images | field_declaration | ModelPref | [505](../../magpie/internal/provider/modelprefs.go#L505) |
-| OwnImages | field_declaration | ModelPref | [506](../../magpie/internal/provider/modelprefs.go#L506) |
-| API | field_declaration | ModelPref | [507](../../magpie/internal/provider/modelprefs.go#L507) |
-| Same | field_declaration | ModelPref | [508](../../magpie/internal/provider/modelprefs.go#L508) |
-| Price | field_declaration | ModelPref | [509](../../magpie/internal/provider/modelprefs.go#L509) |
-| OwnPrice | field_declaration | ModelPref | [510](../../magpie/internal/provider/modelprefs.go#L510) |
-| Kind | field_declaration | ModelPref | [513](../../magpie/internal/provider/modelprefs.go#L513) |
-| SetModelPrefs | function_declaration |  | [521](../../magpie/internal/provider/modelprefs.go#L521) |
-| setModelSame | function_declaration |  | [597](../../magpie/internal/provider/modelprefs.go#L597) |
-| ImageOverride | function_declaration |  | [635](../../magpie/internal/provider/modelprefs.go#L635) |
-| ImageOverrideIn | function_declaration |  | [641](../../magpie/internal/provider/modelprefs.go#L641) |
-| ApplyImage | function_declaration |  | [649](../../magpie/internal/provider/modelprefs.go#L649) |
-| vendorSees | function_declaration |  | [658](../../magpie/internal/provider/modelprefs.go#L658) |
-| renameModelPrefs | function_declaration |  | [677](../../magpie/internal/provider/modelprefs.go#L677) |
-| Label | method_declaration |  | [701](../../magpie/internal/provider/modelprefs.go#L701) |
-| Labels | function_declaration |  | [721](../../magpie/internal/provider/modelprefs.go#L721) |
-| PlainName | method_declaration |  | [746](../../magpie/internal/provider/modelprefs.go#L746) |
-| Thinks | method_declaration |  | [754](../../magpie/internal/provider/modelprefs.go#L754) |
-| SuffixOn | const_spec |  | [760](../../magpie/internal/provider/modelprefs.go#L760) |
-| SuffixOwn | const_spec |  | [761](../../magpie/internal/provider/modelprefs.go#L761) |
-| SuffixOff | const_spec |  | [762](../../magpie/internal/provider/modelprefs.go#L762) |
-| SuffixMode | function_declaration |  | [767](../../magpie/internal/provider/modelprefs.go#L767) |
-| SetSuffixMode | function_declaration |  | [780](../../magpie/internal/provider/modelprefs.go#L780) |
-| SetCodexAgentsV1 | function_declaration |  | [805](../../magpie/internal/provider/modelprefs.go#L805) |
-| SetCodexAutoReview | function_declaration |  | [821](../../magpie/internal/provider/modelprefs.go#L821) |
-| SetCodexAsyncCompact | function_declaration |  | [837](../../magpie/internal/provider/modelprefs.go#L837) |
-| SetFullContext | function_declaration |  | [855](../../magpie/internal/provider/modelprefs.go#L855) |
-| SetPlainNames | function_declaration |  | [870](../../magpie/internal/provider/modelprefs.go#L870) |
-| ModelNames | method_declaration |  | [878](../../magpie/internal/provider/modelprefs.go#L878) |
-| EffortsOf | function_declaration |  | [890](../../magpie/internal/provider/modelprefs.go#L890) |
-| serves | method_declaration |  | [894](../../magpie/internal/provider/modelprefs.go#L894) |
-| ServesModel | function_declaration |  | [906](../../magpie/internal/provider/modelprefs.go#L906) |
-| UpstreamName | function_declaration |  | [925](../../magpie/internal/provider/modelprefs.go#L925) |
-| UpstreamNameIn | function_declaration |  | [933](../../magpie/internal/provider/modelprefs.go#L933) |
-| UpstreamNameAs | function_declaration |  | [955](../../magpie/internal/provider/modelprefs.go#L955) |
-| UpstreamNameAsIn | function_declaration |  | [963](../../magpie/internal/provider/modelprefs.go#L963) |
-| SentNameIn | function_declaration |  | [1001](../../magpie/internal/provider/modelprefs.go#L1001) |
-| SentNameOnIn | function_declaration |  | [1014](../../magpie/internal/provider/modelprefs.go#L1014) |
-| antigravitySentID | function_declaration |  | [1022](../../magpie/internal/provider/modelprefs.go#L1022) |
-| AntigravitySentID | function_declaration |  | [1043](../../magpie/internal/provider/modelprefs.go#L1043) |
-| levels | var_spec | AntigravitySentID | [1057](../../magpie/internal/provider/modelprefs.go#L1057) |
-| nearestEffort | function_declaration |  | [1075](../../magpie/internal/provider/modelprefs.go#L1075) |
-| SetUpstreamName | function_declaration |  | [1139](../../magpie/internal/provider/modelprefs.go#L1139) |
-| DropUpstreamName | function_declaration |  | [1179](../../magpie/internal/provider/modelprefs.go#L1179) |
-| HasUpstreamName | function_declaration |  | [1212](../../magpie/internal/provider/modelprefs.go#L1212) |
-| wireKey | function_declaration |  | [1232](../../magpie/internal/provider/modelprefs.go#L1232) |
-| UpstreamNames | method_declaration |  | [1250](../../magpie/internal/provider/modelprefs.go#L1250) |
-| asksOwnBackend | method_declaration |  | [1275](../../magpie/internal/provider/modelprefs.go#L1275) |
+| ModelAPI | method_declaration |  | [484](../../magpie/internal/provider/modelprefs.go#L484) |
+| DecideAPI | const_spec |  | [507](../../magpie/internal/provider/modelprefs.go#L507) |
+| TakesDecideAPI | method_declaration |  | [514](../../magpie/internal/provider/modelprefs.go#L514) |
+| DecideAPIKind | method_declaration |  | [520](../../magpie/internal/provider/modelprefs.go#L520) |
+| decideSet | method_declaration |  | [526](../../magpie/internal/provider/modelprefs.go#L526) |
+| decideSetModels | method_declaration |  | [533](../../magpie/internal/provider/modelprefs.go#L533) |
+| out | var_spec | decideSetModels | [537](../../magpie/internal/provider/modelprefs.go#L537) |
+| apiSet | method_declaration |  | [549](../../magpie/internal/provider/modelprefs.go#L549) |
+| modelAPIAmong | method_declaration |  | [556](../../magpie/internal/provider/modelprefs.go#L556) |
+| modelAPI | function_declaration |  | [571](../../magpie/internal/provider/modelprefs.go#L571) |
+| ModelPref | type_spec |  | [583](../../magpie/internal/provider/modelprefs.go#L583) |
+| Name | field_declaration | ModelPref | [584](../../magpie/internal/provider/modelprefs.go#L584) |
+| Efforts | field_declaration | ModelPref | [585](../../magpie/internal/provider/modelprefs.go#L585) |
+| Reasonless | field_declaration | ModelPref | [588](../../magpie/internal/provider/modelprefs.go#L588) |
+| Images | field_declaration | ModelPref | [589](../../magpie/internal/provider/modelprefs.go#L589) |
+| OwnImages | field_declaration | ModelPref | [590](../../magpie/internal/provider/modelprefs.go#L590) |
+| API | field_declaration | ModelPref | [591](../../magpie/internal/provider/modelprefs.go#L591) |
+| Same | field_declaration | ModelPref | [592](../../magpie/internal/provider/modelprefs.go#L592) |
+| Price | field_declaration | ModelPref | [593](../../magpie/internal/provider/modelprefs.go#L593) |
+| OwnPrice | field_declaration | ModelPref | [594](../../magpie/internal/provider/modelprefs.go#L594) |
+| Kind | field_declaration | ModelPref | [597](../../magpie/internal/provider/modelprefs.go#L597) |
+| ID | field_declaration | ModelPref | [601](../../magpie/internal/provider/modelprefs.go#L601) |
+| Headers | field_declaration | ModelPref | [604](../../magpie/internal/provider/modelprefs.go#L604) |
+| System | field_declaration | ModelPref | [607](../../magpie/internal/provider/modelprefs.go#L607) |
+| SetModelPrefs | function_declaration |  | [615](../../magpie/internal/provider/modelprefs.go#L615) |
+| setModelIDs | function_declaration |  | [698](../../magpie/internal/provider/modelprefs.go#L698) |
+| setModelSame | function_declaration |  | [738](../../magpie/internal/provider/modelprefs.go#L738) |
+| ImageOverride | function_declaration |  | [776](../../magpie/internal/provider/modelprefs.go#L776) |
+| ImageOverrideIn | function_declaration |  | [782](../../magpie/internal/provider/modelprefs.go#L782) |
+| ApplyImage | function_declaration |  | [790](../../magpie/internal/provider/modelprefs.go#L790) |
+| vendorSees | function_declaration |  | [799](../../magpie/internal/provider/modelprefs.go#L799) |
+| renameModelPrefs | function_declaration |  | [818](../../magpie/internal/provider/modelprefs.go#L818) |
+| Label | method_declaration |  | [846](../../magpie/internal/provider/modelprefs.go#L846) |
+| upstream | method_declaration |  | [865](../../magpie/internal/provider/modelprefs.go#L865) |
+| ServedBy | method_declaration |  | [876](../../magpie/internal/provider/modelprefs.go#L876) |
+| Labels | function_declaration |  | [897](../../magpie/internal/provider/modelprefs.go#L897) |
+| LabelsFor | function_declaration |  | [903](../../magpie/internal/provider/modelprefs.go#L903) |
+| PlainName | method_declaration |  | [946](../../magpie/internal/provider/modelprefs.go#L946) |
+| Thinks | method_declaration |  | [954](../../magpie/internal/provider/modelprefs.go#L954) |
+| SuffixOn | const_spec |  | [960](../../magpie/internal/provider/modelprefs.go#L960) |
+| SuffixOwn | const_spec |  | [961](../../magpie/internal/provider/modelprefs.go#L961) |
+| SuffixOff | const_spec |  | [962](../../magpie/internal/provider/modelprefs.go#L962) |
+| SuffixMode | function_declaration |  | [967](../../magpie/internal/provider/modelprefs.go#L967) |
+| SuffixModeFor | function_declaration |  | [971](../../magpie/internal/provider/modelprefs.go#L971) |
+| AgentSuffix | function_declaration |  | [974](../../magpie/internal/provider/modelprefs.go#L974) |
+| suffixKey | function_declaration |  | [981](../../magpie/internal/provider/modelprefs.go#L981) |
+| suffixModeOf | function_declaration |  | [987](../../magpie/internal/provider/modelprefs.go#L987) |
+| SetAgentSuffix | function_declaration |  | [1007](../../magpie/internal/provider/modelprefs.go#L1007) |
+| SetSuffixMode | function_declaration |  | [1039](../../magpie/internal/provider/modelprefs.go#L1039) |
+| SetCodexAgentsV1 | function_declaration |  | [1064](../../magpie/internal/provider/modelprefs.go#L1064) |
+| SetCodexAutoReview | function_declaration |  | [1080](../../magpie/internal/provider/modelprefs.go#L1080) |
+| SetCodexAsyncCompact | function_declaration |  | [1096](../../magpie/internal/provider/modelprefs.go#L1096) |
+| SetFullContext | function_declaration |  | [1114](../../magpie/internal/provider/modelprefs.go#L1114) |
+| SetPlainNames | function_declaration |  | [1129](../../magpie/internal/provider/modelprefs.go#L1129) |
+| ModelNames | method_declaration |  | [1137](../../magpie/internal/provider/modelprefs.go#L1137) |
+| EffortsOf | function_declaration |  | [1149](../../magpie/internal/provider/modelprefs.go#L1149) |
+| serves | method_declaration |  | [1153](../../magpie/internal/provider/modelprefs.go#L1153) |
+| ServesModel | function_declaration |  | [1165](../../magpie/internal/provider/modelprefs.go#L1165) |
+| UpstreamName | function_declaration |  | [1184](../../magpie/internal/provider/modelprefs.go#L1184) |
+| UpstreamNameIn | function_declaration |  | [1192](../../magpie/internal/provider/modelprefs.go#L1192) |
+| UpstreamNameAs | function_declaration |  | [1214](../../magpie/internal/provider/modelprefs.go#L1214) |
+| UpstreamNameAsIn | function_declaration |  | [1222](../../magpie/internal/provider/modelprefs.go#L1222) |
+| SentNameIn | function_declaration |  | [1260](../../magpie/internal/provider/modelprefs.go#L1260) |
+| SentNameOnIn | function_declaration |  | [1273](../../magpie/internal/provider/modelprefs.go#L1273) |
+| antigravitySentID | function_declaration |  | [1289](../../magpie/internal/provider/modelprefs.go#L1289) |
+| AntigravitySentID | function_declaration |  | [1310](../../magpie/internal/provider/modelprefs.go#L1310) |
+| levels | var_spec | AntigravitySentID | [1324](../../magpie/internal/provider/modelprefs.go#L1324) |
+| nearestEffort | function_declaration |  | [1342](../../magpie/internal/provider/modelprefs.go#L1342) |
+| SetUpstreamName | function_declaration |  | [1406](../../magpie/internal/provider/modelprefs.go#L1406) |
+| DropUpstreamName | function_declaration |  | [1446](../../magpie/internal/provider/modelprefs.go#L1446) |
+| HasUpstreamName | function_declaration |  | [1479](../../magpie/internal/provider/modelprefs.go#L1479) |
+| wireKey | function_declaration |  | [1499](../../magpie/internal/provider/modelprefs.go#L1499) |
+| UpstreamNames | method_declaration |  | [1517](../../magpie/internal/provider/modelprefs.go#L1517) |
+| asksOwnBackend | method_declaration |  | [1542](../../magpie/internal/provider/modelprefs.go#L1542) |

@@ -4,22 +4,28 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/proxy.go) · page 1/1
 
-Source SHA-256: 7b1cbc27de632d981692af4095178ccb7832a910ee1d680ee0c24c283b2160d0
+Source SHA-256: 8351ae8f2b5bb5083fe8d3fecc84ef14b5d621fc45352fa4e6926a6da7458b08
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Via | method_declaration |  | [19](../../magpie/internal/provider/proxy.go#L19) |
-| ProxyChoice | method_declaration |  | [34](../../magpie/internal/provider/proxy.go#L34) |
-| ProxyOf | function_declaration |  | [55](../../magpie/internal/provider/proxy.go#L55) |
-| ProxyOfLogin | function_declaration |  | [66](../../magpie/internal/provider/proxy.go#L66) |
-| Via | function_declaration |  | [79](../../magpie/internal/provider/proxy.go#L79) |
-| ViaLogin | function_declaration |  | [85](../../magpie/internal/provider/proxy.go#L85) |
-| ViaSignedIn | function_declaration |  | [92](../../magpie/internal/provider/proxy.go#L92) |
-| storedPicks | function_declaration |  | [99](../../magpie/internal/provider/proxy.go#L99) |
-| accountKey | function_declaration |  | [110](../../magpie/internal/provider/proxy.go#L110) |
-| normalAccountProxies | function_declaration |  | [114](../../magpie/internal/provider/proxy.go#L114) |
-| out | var_spec | normalAccountProxies | [115](../../magpie/internal/provider/proxy.go#L115) |
-| keyProxies | function_declaration |  | [131](../../magpie/internal/provider/proxy.go#L131) |
-| out | var_spec | keyProxies | [132](../../magpie/internal/provider/proxy.go#L132) |
-| keepSignInProxy | function_declaration |  | [148](../../magpie/internal/provider/proxy.go#L148) |
-| checkAccountProxies | function_declaration |  | [196](../../magpie/internal/provider/proxy.go#L196) |
+| Via | method_declaration |  | [22](../../magpie/internal/provider/proxy.go#L22) |
+| ProxyChoice | method_declaration |  | [43](../../magpie/internal/provider/proxy.go#L43) |
+| ProxyOf | function_declaration |  | [64](../../magpie/internal/provider/proxy.go#L64) |
+| ProxyOfLogin | function_declaration |  | [75](../../magpie/internal/provider/proxy.go#L75) |
+| Via | function_declaration |  | [88](../../magpie/internal/provider/proxy.go#L88) |
+| ViaLogin | function_declaration |  | [94](../../magpie/internal/provider/proxy.go#L94) |
+| ViaSignedIn | function_declaration |  | [101](../../magpie/internal/provider/proxy.go#L101) |
+| storedPicks | function_declaration |  | [108](../../magpie/internal/provider/proxy.go#L108) |
+| accountKey | function_declaration |  | [119](../../magpie/internal/provider/proxy.go#L119) |
+| normalAccountProxies | function_declaration |  | [123](../../magpie/internal/provider/proxy.go#L123) |
+| out | var_spec | normalAccountProxies | [124](../../magpie/internal/provider/proxy.go#L124) |
+| keyProxies | function_declaration |  | [140](../../magpie/internal/provider/proxy.go#L140) |
+| out | var_spec | keyProxies | [141](../../magpie/internal/provider/proxy.go#L141) |
+| keepSignInProxy | function_declaration |  | [157](../../magpie/internal/provider/proxy.go#L157) |
+| checkAccountProxies | function_declaration |  | [205](../../magpie/internal/provider/proxy.go#L205) |
+| ProxyUse | type_spec |  | [216](../../magpie/internal/provider/proxy.go#L216) |
+| Provider | field_declaration | ProxyUse | [217](../../magpie/internal/provider/proxy.go#L217) |
+| Account | field_declaration | ProxyUse | [218](../../magpie/internal/provider/proxy.go#L218) |
+| ProxyUses | function_declaration |  | [224](../../magpie/internal/provider/proxy.go#L224) |
+| out | var_spec | ProxyUses | [226](../../magpie/internal/provider/proxy.go#L226) |
+| ProxyGone | function_declaration |  | [252](../../magpie/internal/provider/proxy.go#L252) |

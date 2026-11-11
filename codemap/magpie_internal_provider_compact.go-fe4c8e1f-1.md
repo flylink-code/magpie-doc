@@ -4,18 +4,22 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/compact.go) · page 1/1
 
-Source SHA-256: 0562fd9bbc0f6d6fc5029edafab0519cfaa517feffe9a19a25944c855512bff7
+Source SHA-256: 38dbae55abd9b67284dd860676eb10aca9268097208eb8079433ff00dfaa5de0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| compactOf | function_declaration |  | [18](../../magpie/internal/provider/compact.go#L18) |
-| CompactSet | function_declaration |  | [29](../../magpie/internal/provider/compact.go#L29) |
-| CompactFor | function_declaration |  | [44](../../magpie/internal/provider/compact.go#L44) |
-| WindowTyped | function_declaration |  | [61](../../magpie/internal/provider/compact.go#L61) |
-| ClaudeGroup | function_declaration |  | [99](../../magpie/internal/provider/compact.go#L99) |
-| catalogID | function_declaration |  | [119](../../magpie/internal/provider/compact.go#L119) |
-| compactSet | function_declaration |  | [123](../../magpie/internal/provider/compact.go#L123) |
-| entryModel | function_declaration |  | [148](../../magpie/internal/provider/compact.go#L148) |
-| CompactsOf | function_declaration |  | [159](../../magpie/internal/provider/compact.go#L159) |
-| SetModelCompacts | function_declaration |  | [175](../../magpie/internal/provider/compact.go#L175) |
-| SetCompactAt | function_declaration |  | [222](../../magpie/internal/provider/compact.go#L222) |
+| compactOf | function_declaration |  | [20](../../magpie/internal/provider/compact.go#L20) |
+| CompactSet | function_declaration |  | [31](../../magpie/internal/provider/compact.go#L31) |
+| CompactSetIn | function_declaration |  | [37](../../magpie/internal/provider/compact.go#L37) |
+| CompactFor | function_declaration |  | [52](../../magpie/internal/provider/compact.go#L52) |
+| WindowTyped | function_declaration |  | [69](../../magpie/internal/provider/compact.go#L69) |
+| ClaudeGroup | function_declaration |  | [107](../../magpie/internal/provider/compact.go#L107) |
+| catalogID | function_declaration |  | [127](../../magpie/internal/provider/compact.go#L127) |
+| compactSet | function_declaration |  | [131](../../magpie/internal/provider/compact.go#L131) |
+| entryModel | function_declaration |  | [156](../../magpie/internal/provider/compact.go#L156) |
+| CompactsOf | function_declaration |  | [167](../../magpie/internal/provider/compact.go#L167) |
+| SetModelCompacts | function_declaration |  | [183](../../magpie/internal/provider/compact.go#L183) |
+| SetAgentCompact | function_declaration |  | [230](../../magpie/internal/provider/compact.go#L230) |
+| SetCompactAt | function_declaration |  | [269](../../magpie/internal/provider/compact.go#L269) |
+| SetContextCapAll | function_declaration |  | [290](../../magpie/internal/provider/compact.go#L290) |
+| SetContextCap | function_declaration |  | [306](../../magpie/internal/provider/compact.go#L306) |

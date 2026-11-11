@@ -4,21 +4,23 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/signin.go) · page 2/2
 
-Source SHA-256: a2380c4c48dc7b018bcaf642afaeb2d46740017d3e84e66ce0385e2040fcb273
+Source SHA-256: eb86096ffb2f75c974485cefc5f752b65a104a8cbcd26032d8fac59c360f9438
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tokenRefused | type_spec |  | [802](../../magpie/internal/provider/signin.go#L802) |
-| status | field_declaration | tokenRefused | [803](../../magpie/internal/provider/signin.go#L803) |
-| msg | field_declaration | tokenRefused | [804](../../magpie/internal/provider/signin.go#L804) |
-| Error | method_declaration |  | [807](../../magpie/internal/provider/signin.go#L807) |
-| claudeLogin | function_declaration |  | [812](../../magpie/internal/provider/signin.go#L812) |
-| codexExchange | function_declaration |  | [825](../../magpie/internal/provider/signin.go#L825) |
-| tok | var_spec | codexExchange | [828](../../magpie/internal/provider/signin.go#L828) |
-| IDToken | field_declaration | codexExchange::tok | [829](../../magpie/internal/provider/signin.go#L829) |
-| AccessToken | field_declaration | codexExchange::tok | [830](../../magpie/internal/provider/signin.go#L830) |
-| RefreshToken | field_declaration | codexExchange::tok | [831](../../magpie/internal/provider/signin.go#L831) |
-| codexLogin | function_declaration |  | [844](../../magpie/internal/provider/signin.go#L844) |
-| addLogin | function_declaration |  | [871](../../magpie/internal/provider/signin.go#L871) |
-| magpieLogo | var_spec |  | [935](../../magpie/internal/provider/signin.go#L935) |
-| signInPage | function_declaration |  | [937](../../magpie/internal/provider/signin.go#L937) |
+| Message | field_declaration | postTokenWith::e | [790](../../magpie/internal/provider/signin.go#L790) |
+| tokenRefused | type_spec |  | [816](../../magpie/internal/provider/signin.go#L816) |
+| status | field_declaration | tokenRefused | [817](../../magpie/internal/provider/signin.go#L817) |
+| msg | field_declaration | tokenRefused | [818](../../magpie/internal/provider/signin.go#L818) |
+| Error | method_declaration |  | [821](../../magpie/internal/provider/signin.go#L821) |
+| claudeLogin | function_declaration |  | [826](../../magpie/internal/provider/signin.go#L826) |
+| codexExchange | function_declaration |  | [839](../../magpie/internal/provider/signin.go#L839) |
+| tok | var_spec | codexExchange | [842](../../magpie/internal/provider/signin.go#L842) |
+| IDToken | field_declaration | codexExchange::tok | [843](../../magpie/internal/provider/signin.go#L843) |
+| AccessToken | field_declaration | codexExchange::tok | [844](../../magpie/internal/provider/signin.go#L844) |
+| RefreshToken | field_declaration | codexExchange::tok | [845](../../magpie/internal/provider/signin.go#L845) |
+| codexLogin | function_declaration |  | [861](../../magpie/internal/provider/signin.go#L861) |
+| addLogin | function_declaration |  | [888](../../magpie/internal/provider/signin.go#L888) |
+| codexHeldFolder | function_declaration |  | [990](../../magpie/internal/provider/signin.go#L990) |
+| magpieLogo | var_spec |  | [1008](../../magpie/internal/provider/signin.go#L1008) |
+| signInPage | function_declaration |  | [1010](../../magpie/internal/provider/signin.go#L1010) |

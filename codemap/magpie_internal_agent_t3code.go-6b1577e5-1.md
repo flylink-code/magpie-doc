@@ -4,24 +4,47 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/t3code.go) · page 1/1
 
-Source SHA-256: 56474a2c36faf7f8a39fa64eac2c0f84e0b04d706325e96c0f48132e406a2c8d
+Source SHA-256: 0765a4b6dcbec990df85b64bf3ff01647e306a4b8b724d4a35a9025f8266758c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| t3Instance | const_spec |  | [54](../../magpie/internal/agent/t3code.go#L54) |
-| t3code | function_declaration |  | [56](../../magpie/internal/agent/t3code.go#L56) |
-| t3App | function_declaration |  | [115](../../magpie/internal/agent/t3code.go#L115) |
-| t3InstanceJSON | function_declaration |  | [133](../../magpie/internal/agent/t3code.go#L133) |
-| t3Env | var_spec |  | [175](../../magpie/internal/agent/t3code.go#L175) |
-| t3EnvOf | function_declaration |  | [179](../../magpie/internal/agent/t3code.go#L179) |
-| env | var_spec | t3EnvOf | [184](../../magpie/internal/agent/t3code.go#L184) |
-| t3Merged | function_declaration |  | [207](../../magpie/internal/agent/t3code.go#L207) |
-| have | var_spec | t3Merged | [213](../../magpie/internal/agent/t3code.go#L213) |
-| name | var_spec | t3Merged | [217](../../magpie/internal/agent/t3code.go#L217) |
-| on | var_spec | t3Merged | [221](../../magpie/internal/agent/t3code.go#L221) |
-| theirs | var_spec | t3Merged | [225](../../magpie/internal/agent/t3code.go#L225) |
-| w | var_spec | t3Merged | [238](../../magpie/internal/agent/t3code.go#L238) |
-| t3EffortLabels | var_spec |  | [247](../../magpie/internal/agent/t3code.go#L247) |
-| t3Capabilities | function_declaration |  | [258](../../magpie/internal/agent/t3code.go#L258) |
-| descriptors | var_spec | t3Capabilities | [259](../../magpie/internal/agent/t3code.go#L259) |
-| options | var_spec | t3Capabilities | [260](../../magpie/internal/agent/t3code.go#L260) |
+| t3Instance | const_spec |  | [72](../../magpie/internal/agent/t3code.go#L72) |
+| t3CodexInstance | const_spec |  | [73](../../magpie/internal/agent/t3code.go#L73) |
+| t3CodexOffered | const_spec |  | [79](../../magpie/internal/agent/t3code.go#L79) |
+| t3code | function_declaration |  | [81](../../magpie/internal/agent/t3code.go#L81) |
+| t3App | function_declaration |  | [164](../../magpie/internal/agent/t3code.go#L164) |
+| t3InstanceJSON | function_declaration |  | [182](../../magpie/internal/agent/t3code.go#L182) |
+| t3Env | var_spec |  | [229](../../magpie/internal/agent/t3code.go#L229) |
+| t3EnvOf | function_declaration |  | [233](../../magpie/internal/agent/t3code.go#L233) |
+| env | var_spec | t3EnvOf | [238](../../magpie/internal/agent/t3code.go#L238) |
+| t3Merged | function_declaration |  | [261](../../magpie/internal/agent/t3code.go#L261) |
+| have | var_spec | t3Merged | [267](../../magpie/internal/agent/t3code.go#L267) |
+| name | var_spec | t3Merged | [271](../../magpie/internal/agent/t3code.go#L271) |
+| on | var_spec | t3Merged | [275](../../magpie/internal/agent/t3code.go#L275) |
+| theirs | var_spec | t3Merged | [279](../../magpie/internal/agent/t3code.go#L279) |
+| w | var_spec | t3Merged | [295](../../magpie/internal/agent/t3code.go#L295) |
+| t3EffortLabels | var_spec |  | [304](../../magpie/internal/agent/t3code.go#L304) |
+| t3Capabilities | function_declaration |  | [315](../../magpie/internal/agent/t3code.go#L315) |
+| descriptors | var_spec | t3Capabilities | [316](../../magpie/internal/agent/t3code.go#L316) |
+| options | var_spec | t3Capabilities | [317](../../magpie/internal/agent/t3code.go#L317) |
+| t3CodexCatalog | function_declaration |  | [344](../../magpie/internal/agent/t3code.go#L344) |
+| t3TOML | function_declaration |  | [350](../../magpie/internal/agent/t3code.go#L350) |
+| b | var_spec | t3TOML | [351](../../magpie/internal/agent/t3code.go#L351) |
+| t3Arg | function_declaration |  | [361](../../magpie/internal/agent/t3code.go#L361) |
+| t3CodexBase | function_declaration |  | [368](../../magpie/internal/agent/t3code.go#L368) |
+| t3CodexArgs | function_declaration |  | [375](../../magpie/internal/agent/t3code.go#L375) |
+| t3CodexJSON | function_declaration |  | [392](../../magpie/internal/agent/t3code.go#L392) |
+| t3CodexMerged | function_declaration |  | [408](../../magpie/internal/agent/t3code.go#L408) |
+| have | var_spec | t3CodexMerged | [414](../../magpie/internal/agent/t3code.go#L414) |
+| name | var_spec | t3CodexMerged | [418](../../magpie/internal/agent/t3code.go#L418) |
+| on | var_spec | t3CodexMerged | [422](../../magpie/internal/agent/t3code.go#L422) |
+| w | var_spec | t3CodexMerged | [427](../../magpie/internal/agent/t3code.go#L427) |
+| t3CodexPut | function_declaration |  | [436](../../magpie/internal/agent/t3code.go#L436) |
+| t3CodexCatalogPut | function_declaration |  | [449](../../magpie/internal/agent/t3code.go#L449) |
+| t3CodexSync | function_declaration |  | [461](../../magpie/internal/agent/t3code.go#L461) |
+| t3CodexOff | function_declaration |  | [478](../../magpie/internal/agent/t3code.go#L478) |
+| t3CodexBaseOf | function_declaration |  | [492](../../magpie/internal/agent/t3code.go#L492) |
+| s | var_spec | t3CodexBaseOf | [505](../../magpie/internal/agent/t3code.go#L505) |
+| t3Stashed | function_declaration |  | [516](../../magpie/internal/agent/t3code.go#L516) |
+| t3Tokens | function_declaration |  | [525](../../magpie/internal/agent/t3code.go#L525) |
+| out | var_spec | t3Tokens | [527](../../magpie/internal/agent/t3code.go#L527) |

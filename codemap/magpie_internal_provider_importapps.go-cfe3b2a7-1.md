@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/importapps.go) · page 1/1
 
-Source SHA-256: fe9fb1e1e39743c76790e76e1511a3658196a8dd80c069d356effff2b8c38962
+Source SHA-256: cb220d4de5d34cf4c0a44640886f25b02a22c875f7af88d880418803258b4889
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -49,57 +49,57 @@ Source SHA-256: fe9fb1e1e39743c76790e76e1511a3658196a8dd80c069d356effff2b8c38962
 | settle | function_declaration |  | [278](../../magpie/internal/provider/importapps.go#L278) |
 | sameProvider | function_declaration |  | [338](../../magpie/internal/provider/importapps.go#L338) |
 | hostOf | function_declaration |  | [363](../../magpie/internal/provider/importapps.go#L363) |
-| endpoints | type_spec |  | [372](../../magpie/internal/provider/importapps.go#L372) |
-| chat | field_declaration | endpoints | [372](../../magpie/internal/provider/importapps.go#L372) |
-| imported | function_declaration |  | [378](../../magpie/internal/provider/importapps.go#L378) |
-| cleanBase | function_declaration |  | [424](../../magpie/internal/provider/importapps.go#L424) |
-| gatewayURL | function_declaration |  | [434](../../magpie/internal/provider/importapps.go#L434) |
-| presetAt | function_declaration |  | [450](../../magpie/internal/provider/importapps.go#L450) |
-| first | var_spec | presetAt | [471](../../magpie/internal/provider/importapps.go#L471) |
-| firstNear | var_spec | presetAt | [472](../../magpie/internal/provider/importapps.go#L472) |
-| near | var_spec | presetAt | [482](../../magpie/internal/provider/importapps.go#L482) |
-| ccSwitchPath | function_declaration |  | [505](../../magpie/internal/provider/importapps.go#L505) |
-| fileExists | function_declaration |  | [517](../../magpie/internal/provider/importapps.go#L517) |
-| claudeSettingsPath | function_declaration |  | [522](../../magpie/internal/provider/importapps.go#L522) |
-| readClaudeSettings | function_declaration |  | [530](../../magpie/internal/provider/importapps.go#L530) |
-| s | var_spec | readClaudeSettings | [535](../../magpie/internal/provider/importapps.go#L535) |
-| st | var_spec | readClaudeSettings | [542](../../magpie/internal/provider/importapps.go#L542) |
-| ccSwitchApps | var_spec |  | [576](../../magpie/internal/provider/importapps.go#L576) |
-| ccEntry | type_spec |  | [581](../../magpie/internal/provider/importapps.go#L581) |
-| id | field_declaration | ccEntry | [582](../../magpie/internal/provider/importapps.go#L582) |
-| settings | field_declaration | ccEntry | [583](../../magpie/internal/provider/importapps.go#L583) |
-| readCCSwitch | function_declaration |  | [586](../../magpie/internal/provider/importapps.go#L586) |
-| entries | var_spec | readCCSwitch | [587](../../magpie/internal/provider/importapps.go#L587) |
-| e | var_spec | readCCSwitch | [600](../../magpie/internal/provider/importapps.go#L600) |
-| raw | var_spec | readCCSwitch | [601](../../magpie/internal/provider/importapps.go#L601) |
-| cfg | var_spec | readCCSwitch | [614](../../magpie/internal/provider/importapps.go#L614) |
-| s | var_spec | readCCSwitch | [619](../../magpie/internal/provider/importapps.go#L619) |
-| Providers | field_declaration | readCCSwitch::s | [620](../../magpie/internal/provider/importapps.go#L620) |
-| Name | field_declaration | readCCSwitch::s::Providers | [621](../../magpie/internal/provider/importapps.go#L621) |
-| Settings | field_declaration | readCCSwitch::s::Providers | [622](../../magpie/internal/provider/importapps.go#L622) |
-| Website | field_declaration | readCCSwitch::s::Providers | [623](../../magpie/internal/provider/importapps.go#L623) |
-| Category | field_declaration | readCCSwitch::s::Providers | [624](../../magpie/internal/provider/importapps.go#L624) |
-| out | var_spec | readCCSwitch | [636](../../magpie/internal/provider/importapps.go#L636) |
-| merge | function_declaration |  | [660](../../magpie/internal/provider/importapps.go#L660) |
-| dst | field_declaration | merge | [669](../../magpie/internal/provider/importapps.go#L669) |
-| firstURL | function_declaration |  | [681](../../magpie/internal/provider/importapps.go#L681) |
-| ccSwitchEntry | function_declaration |  | [692](../../magpie/internal/provider/importapps.go#L692) |
-| geminiCLIBase | function_declaration |  | [810](../../magpie/internal/provider/importapps.go#L810) |
-| mapOf | function_declaration |  | [818](../../magpie/internal/provider/importapps.go#L818) |
-| parseTOML | function_declaration |  | [828](../../magpie/internal/provider/importapps.go#L828) |
-| almaPath | function_declaration |  | [862](../../magpie/internal/provider/importapps.go#L862) |
-| almaPresets | var_spec |  | [868](../../magpie/internal/provider/importapps.go#L868) |
-| almaSignIns | var_spec |  | [876](../../magpie/internal/provider/importapps.go#L876) |
-| readAlma | function_declaration |  | [881](../../magpie/internal/provider/importapps.go#L881) |
-| out | var_spec | readAlma | [892](../../magpie/internal/provider/importapps.go#L892) |
-| id | var_spec | readAlma | [894](../../magpie/internal/provider/importapps.go#L894) |
-| enabled | var_spec | readAlma | [895](../../magpie/internal/provider/importapps.go#L895) |
-| models | var_spec | readAlma | [900](../../magpie/internal/provider/importapps.go#L900) |
-| eps | var_spec | readAlma | [902](../../magpie/internal/provider/importapps.go#L902) |
-| hs | var_spec | readAlma | [940](../../magpie/internal/provider/importapps.go#L940) |
-| sqlitePath | function_declaration |  | [956](../../magpie/internal/provider/importapps.go#L956) |
-| openReadOnly | function_declaration |  | [966](../../magpie/internal/provider/importapps.go#L966) |
-| OpenReadOnly | function_declaration |  | [980](../../magpie/internal/provider/importapps.go#L980) |
-| CCSwitchSkillsDir | function_declaration |  | [983](../../magpie/internal/provider/importapps.go#L983) |
-| CCSwitchSkillOrigin | function_declaration |  | [988](../../magpie/internal/provider/importapps.go#L988) |
-| d | var_spec | CCSwitchSkillOrigin | [1004](../../magpie/internal/provider/importapps.go#L1004) |
+| endpoints | type_spec |  | [366](../../magpie/internal/provider/importapps.go#L366) |
+| chat | field_declaration | endpoints | [366](../../magpie/internal/provider/importapps.go#L366) |
+| imported | function_declaration |  | [372](../../magpie/internal/provider/importapps.go#L372) |
+| cleanBase | function_declaration |  | [426](../../magpie/internal/provider/importapps.go#L426) |
+| gatewayURL | function_declaration |  | [436](../../magpie/internal/provider/importapps.go#L436) |
+| presetAt | function_declaration |  | [452](../../magpie/internal/provider/importapps.go#L452) |
+| first | var_spec | presetAt | [473](../../magpie/internal/provider/importapps.go#L473) |
+| firstNear | var_spec | presetAt | [474](../../magpie/internal/provider/importapps.go#L474) |
+| near | var_spec | presetAt | [484](../../magpie/internal/provider/importapps.go#L484) |
+| ccSwitchPath | function_declaration |  | [507](../../magpie/internal/provider/importapps.go#L507) |
+| fileExists | function_declaration |  | [519](../../magpie/internal/provider/importapps.go#L519) |
+| claudeSettingsPath | function_declaration |  | [524](../../magpie/internal/provider/importapps.go#L524) |
+| readClaudeSettings | function_declaration |  | [532](../../magpie/internal/provider/importapps.go#L532) |
+| s | var_spec | readClaudeSettings | [537](../../magpie/internal/provider/importapps.go#L537) |
+| st | var_spec | readClaudeSettings | [544](../../magpie/internal/provider/importapps.go#L544) |
+| ccSwitchApps | var_spec |  | [578](../../magpie/internal/provider/importapps.go#L578) |
+| ccEntry | type_spec |  | [583](../../magpie/internal/provider/importapps.go#L583) |
+| id | field_declaration | ccEntry | [584](../../magpie/internal/provider/importapps.go#L584) |
+| settings | field_declaration | ccEntry | [585](../../magpie/internal/provider/importapps.go#L585) |
+| readCCSwitch | function_declaration |  | [588](../../magpie/internal/provider/importapps.go#L588) |
+| entries | var_spec | readCCSwitch | [589](../../magpie/internal/provider/importapps.go#L589) |
+| e | var_spec | readCCSwitch | [602](../../magpie/internal/provider/importapps.go#L602) |
+| raw | var_spec | readCCSwitch | [603](../../magpie/internal/provider/importapps.go#L603) |
+| cfg | var_spec | readCCSwitch | [616](../../magpie/internal/provider/importapps.go#L616) |
+| s | var_spec | readCCSwitch | [621](../../magpie/internal/provider/importapps.go#L621) |
+| Providers | field_declaration | readCCSwitch::s | [622](../../magpie/internal/provider/importapps.go#L622) |
+| Name | field_declaration | readCCSwitch::s::Providers | [623](../../magpie/internal/provider/importapps.go#L623) |
+| Settings | field_declaration | readCCSwitch::s::Providers | [624](../../magpie/internal/provider/importapps.go#L624) |
+| Website | field_declaration | readCCSwitch::s::Providers | [625](../../magpie/internal/provider/importapps.go#L625) |
+| Category | field_declaration | readCCSwitch::s::Providers | [626](../../magpie/internal/provider/importapps.go#L626) |
+| out | var_spec | readCCSwitch | [638](../../magpie/internal/provider/importapps.go#L638) |
+| merge | function_declaration |  | [662](../../magpie/internal/provider/importapps.go#L662) |
+| dst | field_declaration | merge | [671](../../magpie/internal/provider/importapps.go#L671) |
+| firstURL | function_declaration |  | [683](../../magpie/internal/provider/importapps.go#L683) |
+| ccSwitchEntry | function_declaration |  | [694](../../magpie/internal/provider/importapps.go#L694) |
+| geminiCLIBase | function_declaration |  | [812](../../magpie/internal/provider/importapps.go#L812) |
+| mapOf | function_declaration |  | [820](../../magpie/internal/provider/importapps.go#L820) |
+| parseTOML | function_declaration |  | [830](../../magpie/internal/provider/importapps.go#L830) |
+| almaPath | function_declaration |  | [864](../../magpie/internal/provider/importapps.go#L864) |
+| almaPresets | var_spec |  | [870](../../magpie/internal/provider/importapps.go#L870) |
+| almaSignIns | var_spec |  | [878](../../magpie/internal/provider/importapps.go#L878) |
+| readAlma | function_declaration |  | [883](../../magpie/internal/provider/importapps.go#L883) |
+| out | var_spec | readAlma | [894](../../magpie/internal/provider/importapps.go#L894) |
+| id | var_spec | readAlma | [896](../../magpie/internal/provider/importapps.go#L896) |
+| enabled | var_spec | readAlma | [897](../../magpie/internal/provider/importapps.go#L897) |
+| models | var_spec | readAlma | [902](../../magpie/internal/provider/importapps.go#L902) |
+| eps | var_spec | readAlma | [904](../../magpie/internal/provider/importapps.go#L904) |
+| hs | var_spec | readAlma | [942](../../magpie/internal/provider/importapps.go#L942) |
+| sqlitePath | function_declaration |  | [958](../../magpie/internal/provider/importapps.go#L958) |
+| openReadOnly | function_declaration |  | [968](../../magpie/internal/provider/importapps.go#L968) |
+| OpenReadOnly | function_declaration |  | [982](../../magpie/internal/provider/importapps.go#L982) |
+| CCSwitchSkillsDir | function_declaration |  | [985](../../magpie/internal/provider/importapps.go#L985) |
+| CCSwitchSkillOrigin | function_declaration |  | [990](../../magpie/internal/provider/importapps.go#L990) |
+| d | var_spec | CCSwitchSkillOrigin | [1006](../../magpie/internal/provider/importapps.go#L1006) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/rules.go) · page 1/1
 
-Source SHA-256: 4b43145a1bd80711aacbb1c88407b6a4d9b677e26745ee36ae1f6ee6fd79438c
+Source SHA-256: b2d0a44bf5dc9e334c921e810b517192961f6748de955e58a42dd72296ff4ede
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -31,69 +31,73 @@ Source SHA-256: 4b43145a1bd80711aacbb1c88407b6a4d9b677e26745ee36ae1f6ee6fd79438c
 | Compact | field_declaration | RuleHit | [71](../../magpie/internal/gateway/rules.go#L71) |
 | Small | field_declaration | RuleHit | [72](../../magpie/internal/gateway/rules.go#L72) |
 | Bare | field_declaration | RuleHit | [74](../../magpie/internal/gateway/rules.go#L74) |
-| UseEffort | field_declaration | RuleHit | [77](../../magpie/internal/gateway/rules.go#L77) |
-| members | field_declaration | RuleHit | [80](../../magpie/internal/gateway/rules.go#L80) |
-| Classified | type_spec |  | [84](../../magpie/internal/gateway/rules.go#L84) |
-| By | field_declaration | Classified | [85](../../magpie/internal/gateway/rules.go#L85) |
-| Intents | field_declaration | Classified | [86](../../magpie/internal/gateway/rules.go#L86) |
-| Intent | field_declaration | Classified | [87](../../magpie/internal/gateway/rules.go#L87) |
-| After | field_declaration | Classified | [88](../../magpie/internal/gateway/rules.go#L88) |
-| Effort | field_declaration | Classified | [89](../../magpie/internal/gateway/rules.go#L89) |
-| Score | field_declaration | Classified | [90](../../magpie/internal/gateway/rules.go#L90) |
-| Sure | field_declaration | Classified | [91](../../magpie/internal/gateway/rules.go#L91) |
-| Cached | field_declaration | Classified | [92](../../magpie/internal/gateway/rules.go#L92) |
-| Ms | field_declaration | Classified | [93](../../magpie/internal/gateway/rules.go#L93) |
-| Error | field_declaration | Classified | [94](../../magpie/internal/gateway/rules.go#L94) |
-| Fallback | field_declaration | Classified | [97](../../magpie/internal/gateway/rules.go#L97) |
-| AfterEffort | field_declaration | Classified | [100](../../magpie/internal/gateway/rules.go#L100) |
-| turnRule | type_spec |  | [103](../../magpie/internal/gateway/rules.go#L103) |
-| turn | field_declaration | turnRule | [104](../../magpie/internal/gateway/rules.go#L104) |
-| use | field_declaration | turnRule | [105](../../magpie/internal/gateway/rules.go#L105) |
-| n | field_declaration | turnRule | [106](../../magpie/internal/gateway/rules.go#L106) |
-| at | field_declaration | turnRule | [107](../../magpie/internal/gateway/rules.go#L107) |
-| input | field_declaration | turnRule | [108](../../magpie/internal/gateway/rules.go#L108) |
-| intent | field_declaration | turnRule | [110](../../magpie/internal/gateway/rules.go#L110) |
-| effort | field_declaration | turnRule | [111](../../magpie/internal/gateway/rules.go#L111) |
-| wanted | field_declaration | turnRule | [112](../../magpie/internal/gateway/rules.go#L112) |
-| answered | field_declaration | turnRule | [115](../../magpie/internal/gateway/rules.go#L115) |
-| size | field_declaration | turnRule | [116](../../magpie/internal/gateway/rules.go#L116) |
-| hour | field_declaration | turnRule | [119](../../magpie/internal/gateway/rules.go#L119) |
-| turnRules | var_spec |  | [122](../../magpie/internal/gateway/rules.go#L122) |
-| m | field_declaration | turnRules | [124](../../magpie/internal/gateway/rules.go#L124) |
-| ruleKey | function_declaration |  | [129](../../magpie/internal/gateway/rules.go#L129) |
-| firstWords | function_declaration |  | [141](../../magpie/internal/gateway/rules.go#L141) |
-| ruleFor | function_declaration |  | [175](../../magpie/internal/gateway/rules.go#L175) |
-| fit | var_spec | ruleFor | [227](../../magpie/internal/gateway/rules.go#L227) |
-| outgrown | function_declaration |  | [360](../../magpie/internal/gateway/rules.go#L360) |
-| memberContexts | function_declaration |  | [386](../../magpie/internal/gateway/rules.go#L386) |
-| alsoIDs | function_declaration |  | [412](../../magpie/internal/gateway/rules.go#L412) |
-| out | var_spec | alsoIDs | [413](../../magpie/internal/gateway/rules.go#L413) |
-| ruleAnswered | function_declaration |  | [422](../../magpie/internal/gateway/rules.go#L422) |
-| keepsEffort | function_declaration |  | [449](../../magpie/internal/gateway/rules.go#L449) |
-| nestedRules | method_declaration |  | [475](../../magpie/internal/gateway/rules.go#L475) |
-| out | var_spec | nestedRules | [476](../../magpie/internal/gateway/rules.go#L476) |
-| keys | var_spec | nestedRules | [477](../../magpie/internal/gateway/rules.go#L477) |
-| subMs | var_spec | nestedRules | [489](../../magpie/internal/gateway/rules.go#L489) |
-| named | function_declaration |  | [516](../../magpie/internal/gateway/rules.go#L516) |
-| membersNamed | function_declaration |  | [525](../../magpie/internal/gateway/rules.go#L525) |
-| out | var_spec | membersNamed | [526](../../magpie/internal/gateway/rules.go#L526) |
-| uses | method_declaration |  | [537](../../magpie/internal/gateway/rules.go#L537) |
-| ruleMembers | function_declaration |  | [547](../../magpie/internal/gateway/rules.go#L547) |
-| out | var_spec | ruleMembers | [548](../../magpie/internal/gateway/rules.go#L548) |
-| ruleLed | function_declaration |  | [561](../../magpie/internal/gateway/rules.go#L561) |
-| homeAt | function_declaration |  | [576](../../magpie/internal/gateway/rules.go#L576) |
-| homed | function_declaration |  | [591](../../magpie/internal/gateway/rules.go#L591) |
-| modelRuled | function_declaration |  | [606](../../magpie/internal/gateway/rules.go#L606) |
-| ruleOrder | function_declaration |  | [620](../../magpie/internal/gateway/rules.go#L620) |
-| ruleFirst | function_declaration |  | [636](../../magpie/internal/gateway/rules.go#L636) |
-| ruleOver | function_declaration |  | [697](../../magpie/internal/gateway/rules.go#L697) |
-| ruleEffort | function_declaration |  | [756](../../magpie/internal/gateway/rules.go#L756) |
-| homeCands | function_declaration |  | [777](../../magpie/internal/gateway/rules.go#L777) |
-| applyRule | function_declaration |  | [788](../../magpie/internal/gateway/rules.go#L788) |
-| ofMember | function_declaration |  | [812](../../magpie/internal/gateway/rules.go#L812) |
-| membersImageInput | function_declaration |  | [822](../../magpie/internal/gateway/rules.go#L822) |
-| out | var_spec | membersImageInput | [823](../../magpie/internal/gateway/rules.go#L823) |
-| in | var_spec | membersImageInput | [826](../../magpie/internal/gateway/rules.go#L826) |
-| anyImageInput | function_declaration |  | [844](../../magpie/internal/gateway/rules.go#L844) |
-| pausedError | function_declaration |  | [859](../../magpie/internal/gateway/rules.go#L859) |
-| bits | var_spec | pausedError | [860](../../magpie/internal/gateway/rules.go#L860) |
+| Ended | field_declaration | RuleHit | [81](../../magpie/internal/gateway/rules.go#L81) |
+| UseEffort | field_declaration | RuleHit | [84](../../magpie/internal/gateway/rules.go#L84) |
+| members | field_declaration | RuleHit | [87](../../magpie/internal/gateway/rules.go#L87) |
+| Classified | type_spec |  | [91](../../magpie/internal/gateway/rules.go#L91) |
+| By | field_declaration | Classified | [92](../../magpie/internal/gateway/rules.go#L92) |
+| Intents | field_declaration | Classified | [93](../../magpie/internal/gateway/rules.go#L93) |
+| Intent | field_declaration | Classified | [94](../../magpie/internal/gateway/rules.go#L94) |
+| Said | field_declaration | Classified | [99](../../magpie/internal/gateway/rules.go#L99) |
+| After | field_declaration | Classified | [100](../../magpie/internal/gateway/rules.go#L100) |
+| Effort | field_declaration | Classified | [101](../../magpie/internal/gateway/rules.go#L101) |
+| Score | field_declaration | Classified | [102](../../magpie/internal/gateway/rules.go#L102) |
+| Sure | field_declaration | Classified | [103](../../magpie/internal/gateway/rules.go#L103) |
+| Cached | field_declaration | Classified | [104](../../magpie/internal/gateway/rules.go#L104) |
+| Ms | field_declaration | Classified | [105](../../magpie/internal/gateway/rules.go#L105) |
+| Error | field_declaration | Classified | [106](../../magpie/internal/gateway/rules.go#L106) |
+| Above | field_declaration | Classified | [110](../../magpie/internal/gateway/rules.go#L110) |
+| Fallback | field_declaration | Classified | [113](../../magpie/internal/gateway/rules.go#L113) |
+| AfterEffort | field_declaration | Classified | [116](../../magpie/internal/gateway/rules.go#L116) |
+| turnRule | type_spec |  | [119](../../magpie/internal/gateway/rules.go#L119) |
+| turn | field_declaration | turnRule | [120](../../magpie/internal/gateway/rules.go#L120) |
+| use | field_declaration | turnRule | [121](../../magpie/internal/gateway/rules.go#L121) |
+| n | field_declaration | turnRule | [122](../../magpie/internal/gateway/rules.go#L122) |
+| at | field_declaration | turnRule | [123](../../magpie/internal/gateway/rules.go#L123) |
+| input | field_declaration | turnRule | [124](../../magpie/internal/gateway/rules.go#L124) |
+| intent | field_declaration | turnRule | [126](../../magpie/internal/gateway/rules.go#L126) |
+| effort | field_declaration | turnRule | [127](../../magpie/internal/gateway/rules.go#L127) |
+| wanted | field_declaration | turnRule | [128](../../magpie/internal/gateway/rules.go#L128) |
+| answered | field_declaration | turnRule | [131](../../magpie/internal/gateway/rules.go#L131) |
+| size | field_declaration | turnRule | [132](../../magpie/internal/gateway/rules.go#L132) |
+| hour | field_declaration | turnRule | [135](../../magpie/internal/gateway/rules.go#L135) |
+| cold | field_declaration | turnRule | [138](../../magpie/internal/gateway/rules.go#L138) |
+| turnRules | var_spec |  | [141](../../magpie/internal/gateway/rules.go#L141) |
+| m | field_declaration | turnRules | [143](../../magpie/internal/gateway/rules.go#L143) |
+| ruleKey | function_declaration |  | [148](../../magpie/internal/gateway/rules.go#L148) |
+| firstWords | function_declaration |  | [160](../../magpie/internal/gateway/rules.go#L160) |
+| ruleFor | function_declaration |  | [198](../../magpie/internal/gateway/rules.go#L198) |
+| fit | var_spec | ruleFor | [259](../../magpie/internal/gateway/rules.go#L259) |
+| outgrown | function_declaration |  | [410](../../magpie/internal/gateway/rules.go#L410) |
+| memberContexts | function_declaration |  | [436](../../magpie/internal/gateway/rules.go#L436) |
+| alsoIDs | function_declaration |  | [462](../../magpie/internal/gateway/rules.go#L462) |
+| out | var_spec | alsoIDs | [463](../../magpie/internal/gateway/rules.go#L463) |
+| ruleAnswered | function_declaration |  | [472](../../magpie/internal/gateway/rules.go#L472) |
+| keepsEffort | function_declaration |  | [500](../../magpie/internal/gateway/rules.go#L500) |
+| nestedRules | method_declaration |  | [530](../../magpie/internal/gateway/rules.go#L530) |
+| out | var_spec | nestedRules | [531](../../magpie/internal/gateway/rules.go#L531) |
+| keys | var_spec | nestedRules | [532](../../magpie/internal/gateway/rules.go#L532) |
+| subMs | var_spec | nestedRules | [544](../../magpie/internal/gateway/rules.go#L544) |
+| named | function_declaration |  | [577](../../magpie/internal/gateway/rules.go#L577) |
+| membersNamed | function_declaration |  | [586](../../magpie/internal/gateway/rules.go#L586) |
+| out | var_spec | membersNamed | [587](../../magpie/internal/gateway/rules.go#L587) |
+| uses | method_declaration |  | [598](../../magpie/internal/gateway/rules.go#L598) |
+| ruleMembers | function_declaration |  | [608](../../magpie/internal/gateway/rules.go#L608) |
+| out | var_spec | ruleMembers | [609](../../magpie/internal/gateway/rules.go#L609) |
+| ruleLed | function_declaration |  | [622](../../magpie/internal/gateway/rules.go#L622) |
+| homeAt | function_declaration |  | [637](../../magpie/internal/gateway/rules.go#L637) |
+| homed | function_declaration |  | [652](../../magpie/internal/gateway/rules.go#L652) |
+| modelRuled | function_declaration |  | [667](../../magpie/internal/gateway/rules.go#L667) |
+| ruleOrder | function_declaration |  | [681](../../magpie/internal/gateway/rules.go#L681) |
+| ruleFirst | function_declaration |  | [697](../../magpie/internal/gateway/rules.go#L697) |
+| ruleOver | function_declaration |  | [758](../../magpie/internal/gateway/rules.go#L758) |
+| ruleEffort | function_declaration |  | [825](../../magpie/internal/gateway/rules.go#L825) |
+| homeCands | function_declaration |  | [859](../../magpie/internal/gateway/rules.go#L859) |
+| applyRule | function_declaration |  | [870](../../magpie/internal/gateway/rules.go#L870) |
+| ofMember | function_declaration |  | [894](../../magpie/internal/gateway/rules.go#L894) |
+| membersImageInput | function_declaration |  | [904](../../magpie/internal/gateway/rules.go#L904) |
+| out | var_spec | membersImageInput | [905](../../magpie/internal/gateway/rules.go#L905) |
+| in | var_spec | membersImageInput | [908](../../magpie/internal/gateway/rules.go#L908) |
+| anyImageInput | function_declaration |  | [926](../../magpie/internal/gateway/rules.go#L926) |
+| pausedError | function_declaration |  | [941](../../magpie/internal/gateway/rules.go#L941) |
+| bits | var_spec | pausedError | [942](../../magpie/internal/gateway/rules.go#L942) |

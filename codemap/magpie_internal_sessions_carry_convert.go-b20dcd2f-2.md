@@ -4,50 +4,50 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/carry_convert.go) · page 2/2
 
-Source SHA-256: 0e5fbfa8f96fb0c01a5a2c457471b31319aa793a8f9e21fdd9cdc45947b6a6db
+Source SHA-256: 3ac527c43f076555961adbdb0ca6086770a9393bd9297261b5fb0093873adfef
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| items | var_spec | codexCarryItems | [421](../../magpie/internal/sessions/carry_convert.go#L421) |
-| l | var_spec | codexCarryItems | [423](../../magpie/internal/sessions/carry_convert.go#L423) |
-| Type | field_declaration | codexCarryItems::l | [424](../../magpie/internal/sessions/carry_convert.go#L424) |
-| Timestamp | field_declaration | codexCarryItems::l | [425](../../magpie/internal/sessions/carry_convert.go#L425) |
-| Payload | field_declaration | codexCarryItems::l | [426](../../magpie/internal/sessions/carry_convert.go#L426) |
-| p | var_spec | codexCarryItems | [434](../../magpie/internal/sessions/carry_convert.go#L434) |
-| p | var_spec | codexCarryItems | [439](../../magpie/internal/sessions/carry_convert.go#L439) |
-| q | var_spec | codexCarryItems | [446](../../magpie/internal/sessions/carry_convert.go#L446) |
-| kept | var_spec | codexCarryItems | [452](../../magpie/internal/sessions/carry_convert.go#L452) |
-| codexItem | function_declaration |  | [465](../../magpie/internal/sessions/carry_convert.go#L465) |
-| words | var_spec | codexItem | [468](../../magpie/internal/sessions/carry_convert.go#L468) |
-| a | var_spec | codexItem | [497](../../magpie/internal/sessions/carry_convert.go#L497) |
-| Cmd | field_declaration | codexItem::a | [498](../../magpie/internal/sessions/carry_convert.go#L498) |
-| Command | field_declaration | codexItem::a | [499](../../magpie/internal/sessions/carry_convert.go#L499) |
-| Workdir | field_declaration | codexItem::a | [500](../../magpie/internal/sessions/carry_convert.go#L500) |
-| argv | var_spec | codexItem | [507](../../magpie/internal/sessions/carry_convert.go#L507) |
-| codexOwnWords | function_declaration |  | [541](../../magpie/internal/sessions/carry_convert.go#L541) |
-| shellLine | function_declaration |  | [548](../../magpie/internal/sessions/carry_convert.go#L548) |
-| eachLine | function_declaration |  | [563](../../magpie/internal/sessions/carry_convert.go#L563) |
-| carryStamp | function_declaration |  | [586](../../magpie/internal/sessions/carry_convert.go#L586) |
-| writeNew | function_declaration |  | [594](../../magpie/internal/sessions/carry_convert.go#L594) |
-| jsonLine | function_declaration |  | [629](../../magpie/internal/sessions/carry_convert.go#L629) |
-| marshalPlain | function_declaration |  | [634](../../magpie/internal/sessions/carry_convert.go#L634) |
-| buf | var_spec | marshalPlain | [635](../../magpie/internal/sessions/carry_convert.go#L635) |
-| randHex | function_declaration |  | [644](../../magpie/internal/sessions/carry_convert.go#L644) |
-| agentVersion | function_declaration |  | [652](../../magpie/internal/sessions/carry_convert.go#L652) |
-| l | var_spec | agentVersion | [664](../../magpie/internal/sessions/carry_convert.go#L664) |
-| Version | field_declaration | agentVersion::l | [665](../../magpie/internal/sessions/carry_convert.go#L665) |
-| Payload | field_declaration | agentVersion::l | [666](../../magpie/internal/sessions/carry_convert.go#L666) |
-| CLIVersion | field_declaration | agentVersion::l::Payload | [667](../../magpie/internal/sessions/carry_convert.go#L667) |
-| writeClaudeCarry | function_declaration |  | [688](../../magpie/internal/sessions/carry_convert.go#L688) |
-| lines | var_spec | writeClaudeCarry | [699](../../magpie/internal/sessions/carry_convert.go#L699) |
-| content | var_spec | writeClaudeCarry | [724](../../magpie/internal/sessions/carry_convert.go#L724) |
-| blocks | var_spec | writeClaudeCarry | [726](../../magpie/internal/sessions/carry_convert.go#L726) |
-| ord | type_spec |  | [770](../../magpie/internal/sessions/carry_convert.go#L770) |
-| kv | type_spec |  | [772](../../magpie/internal/sessions/carry_convert.go#L772) |
-| k | field_declaration | kv | [773](../../magpie/internal/sessions/carry_convert.go#L773) |
-| v | field_declaration | kv | [774](../../magpie/internal/sessions/carry_convert.go#L774) |
-| o | function_declaration |  | [778](../../magpie/internal/sessions/carry_convert.go#L778) |
-| MarshalJSON | method_declaration |  | [786](../../magpie/internal/sessions/carry_convert.go#L786) |
-| nilIfEmpty | function_declaration |  | [802](../../magpie/internal/sessions/carry_convert.go#L802) |
-| splitDataURL | function_declaration |  | [810](../../magpie/internal/sessions/carry_convert.go#L810) |
-| writeCodexCarry | function_declaration |  | [830](../../magpie/internal/sessions/carry_convert.go#L830) |
+| items | var_spec | codexCarryItems | [424](../../magpie/internal/sessions/carry_convert.go#L424) |
+| l | var_spec | codexCarryItems | [426](../../magpie/internal/sessions/carry_convert.go#L426) |
+| Type | field_declaration | codexCarryItems::l | [427](../../magpie/internal/sessions/carry_convert.go#L427) |
+| Timestamp | field_declaration | codexCarryItems::l | [428](../../magpie/internal/sessions/carry_convert.go#L428) |
+| Payload | field_declaration | codexCarryItems::l | [429](../../magpie/internal/sessions/carry_convert.go#L429) |
+| p | var_spec | codexCarryItems | [437](../../magpie/internal/sessions/carry_convert.go#L437) |
+| p | var_spec | codexCarryItems | [442](../../magpie/internal/sessions/carry_convert.go#L442) |
+| q | var_spec | codexCarryItems | [449](../../magpie/internal/sessions/carry_convert.go#L449) |
+| kept | var_spec | codexCarryItems | [455](../../magpie/internal/sessions/carry_convert.go#L455) |
+| codexItem | function_declaration |  | [468](../../magpie/internal/sessions/carry_convert.go#L468) |
+| words | var_spec | codexItem | [471](../../magpie/internal/sessions/carry_convert.go#L471) |
+| a | var_spec | codexItem | [500](../../magpie/internal/sessions/carry_convert.go#L500) |
+| Cmd | field_declaration | codexItem::a | [501](../../magpie/internal/sessions/carry_convert.go#L501) |
+| Command | field_declaration | codexItem::a | [502](../../magpie/internal/sessions/carry_convert.go#L502) |
+| Workdir | field_declaration | codexItem::a | [503](../../magpie/internal/sessions/carry_convert.go#L503) |
+| argv | var_spec | codexItem | [510](../../magpie/internal/sessions/carry_convert.go#L510) |
+| codexOwnWords | function_declaration |  | [544](../../magpie/internal/sessions/carry_convert.go#L544) |
+| shellLine | function_declaration |  | [551](../../magpie/internal/sessions/carry_convert.go#L551) |
+| eachLine | function_declaration |  | [566](../../magpie/internal/sessions/carry_convert.go#L566) |
+| carryStamp | function_declaration |  | [589](../../magpie/internal/sessions/carry_convert.go#L589) |
+| writeNew | function_declaration |  | [597](../../magpie/internal/sessions/carry_convert.go#L597) |
+| jsonLine | function_declaration |  | [632](../../magpie/internal/sessions/carry_convert.go#L632) |
+| marshalPlain | function_declaration |  | [637](../../magpie/internal/sessions/carry_convert.go#L637) |
+| buf | var_spec | marshalPlain | [638](../../magpie/internal/sessions/carry_convert.go#L638) |
+| randHex | function_declaration |  | [647](../../magpie/internal/sessions/carry_convert.go#L647) |
+| agentVersion | function_declaration |  | [655](../../magpie/internal/sessions/carry_convert.go#L655) |
+| l | var_spec | agentVersion | [667](../../magpie/internal/sessions/carry_convert.go#L667) |
+| Version | field_declaration | agentVersion::l | [668](../../magpie/internal/sessions/carry_convert.go#L668) |
+| Payload | field_declaration | agentVersion::l | [669](../../magpie/internal/sessions/carry_convert.go#L669) |
+| CLIVersion | field_declaration | agentVersion::l::Payload | [670](../../magpie/internal/sessions/carry_convert.go#L670) |
+| writeClaudeCarry | function_declaration |  | [691](../../magpie/internal/sessions/carry_convert.go#L691) |
+| lines | var_spec | writeClaudeCarry | [702](../../magpie/internal/sessions/carry_convert.go#L702) |
+| content | var_spec | writeClaudeCarry | [727](../../magpie/internal/sessions/carry_convert.go#L727) |
+| blocks | var_spec | writeClaudeCarry | [729](../../magpie/internal/sessions/carry_convert.go#L729) |
+| ord | type_spec |  | [773](../../magpie/internal/sessions/carry_convert.go#L773) |
+| kv | type_spec |  | [775](../../magpie/internal/sessions/carry_convert.go#L775) |
+| k | field_declaration | kv | [776](../../magpie/internal/sessions/carry_convert.go#L776) |
+| v | field_declaration | kv | [777](../../magpie/internal/sessions/carry_convert.go#L777) |
+| o | function_declaration |  | [781](../../magpie/internal/sessions/carry_convert.go#L781) |
+| MarshalJSON | method_declaration |  | [789](../../magpie/internal/sessions/carry_convert.go#L789) |
+| nilIfEmpty | function_declaration |  | [805](../../magpie/internal/sessions/carry_convert.go#L805) |
+| splitDataURL | function_declaration |  | [813](../../magpie/internal/sessions/carry_convert.go#L813) |
+| writeCodexCarry | function_declaration |  | [833](../../magpie/internal/sessions/carry_convert.go#L833) |

@@ -4,27 +4,32 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/dirent/stats_darwin.go) · page 1/1
 
-Source SHA-256: cb838044b3946f84f3bfd07af108fceeb44ca3a3218a3822a13de0fda27e47ff
+Source SHA-256: d8a946da966dfb095422207cbce8e50269ddbfe5451c79c6f59db866f10fd919
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| attrBitMapCount | const_spec |  | [15](../../magpie/internal/dirent/stats_darwin.go#L15) |
-| attrCmnName | const_spec |  | [16](../../magpie/internal/dirent/stats_darwin.go#L16) |
-| attrCmnObjType | const_spec |  | [17](../../magpie/internal/dirent/stats_darwin.go#L17) |
-| attrCmnModTime | const_spec |  | [18](../../magpie/internal/dirent/stats_darwin.go#L18) |
-| attrCmnReturned | const_spec |  | [19](../../magpie/internal/dirent/stats_darwin.go#L19) |
-| attrFileDataLen | const_spec |  | [20](../../magpie/internal/dirent/stats_darwin.go#L20) |
-| vReg | const_spec |  | [21](../../magpie/internal/dirent/stats_darwin.go#L21) |
-| attrList | type_spec |  | [24](../../magpie/internal/dirent/stats_darwin.go#L24) |
-| bitmapCount | field_declaration | attrList | [25](../../magpie/internal/dirent/stats_darwin.go#L25) |
-| _ | field_declaration | attrList | [26](../../magpie/internal/dirent/stats_darwin.go#L26) |
-| common | field_declaration | attrList | [27](../../magpie/internal/dirent/stats_darwin.go#L27) |
-| vol | field_declaration | attrList | [28](../../magpie/internal/dirent/stats_darwin.go#L28) |
-| dir | field_declaration | attrList | [29](../../magpie/internal/dirent/stats_darwin.go#L29) |
-| file | field_declaration | attrList | [30](../../magpie/internal/dirent/stats_darwin.go#L30) |
-| fork | field_declaration | attrList | [31](../../magpie/internal/dirent/stats_darwin.go#L31) |
-| stats | function_declaration |  | [37](../../magpie/internal/dirent/stats_darwin.go#L37) |
-| out | var_spec | stats | [45](../../magpie/internal/dirent/stats_darwin.go#L45) |
-| entry | function_declaration |  | [70](../../magpie/internal/dirent/stats_darwin.go#L70) |
-| s | var_spec | entry | [82](../../magpie/internal/dirent/stats_darwin.go#L82) |
-| name | var_spec | entry | [83](../../magpie/internal/dirent/stats_darwin.go#L83) |
+| attrBitMapCount | const_spec |  | [17](../../magpie/internal/dirent/stats_darwin.go#L17) |
+| attrCmnName | const_spec |  | [18](../../magpie/internal/dirent/stats_darwin.go#L18) |
+| attrCmnObjType | const_spec |  | [19](../../magpie/internal/dirent/stats_darwin.go#L19) |
+| attrCmnModTime | const_spec |  | [20](../../magpie/internal/dirent/stats_darwin.go#L20) |
+| attrCmnReturned | const_spec |  | [21](../../magpie/internal/dirent/stats_darwin.go#L21) |
+| attrFileDataLen | const_spec |  | [22](../../magpie/internal/dirent/stats_darwin.go#L22) |
+| vReg | const_spec |  | [23](../../magpie/internal/dirent/stats_darwin.go#L23) |
+| attrList | type_spec |  | [26](../../magpie/internal/dirent/stats_darwin.go#L26) |
+| bitmapCount | field_declaration | attrList | [27](../../magpie/internal/dirent/stats_darwin.go#L27) |
+| _ | field_declaration | attrList | [28](../../magpie/internal/dirent/stats_darwin.go#L28) |
+| common | field_declaration | attrList | [29](../../magpie/internal/dirent/stats_darwin.go#L29) |
+| vol | field_declaration | attrList | [30](../../magpie/internal/dirent/stats_darwin.go#L30) |
+| dir | field_declaration | attrList | [31](../../magpie/internal/dirent/stats_darwin.go#L31) |
+| file | field_declaration | attrList | [32](../../magpie/internal/dirent/stats_darwin.go#L32) |
+| fork | field_declaration | attrList | [33](../../magpie/internal/dirent/stats_darwin.go#L33) |
+| bufs | var_spec |  | [43](../../magpie/internal/dirent/stats_darwin.go#L43) |
+| free | field_declaration | bufs | [45](../../magpie/internal/dirent/stats_darwin.go#L45) |
+| keptBufs | const_spec |  | [50](../../magpie/internal/dirent/stats_darwin.go#L50) |
+| getBuf | function_declaration |  | [52](../../magpie/internal/dirent/stats_darwin.go#L52) |
+| putBuf | function_declaration |  | [65](../../magpie/internal/dirent/stats_darwin.go#L65) |
+| stats | function_declaration |  | [77](../../magpie/internal/dirent/stats_darwin.go#L77) |
+| eachIn | function_declaration |  | [90](../../magpie/internal/dirent/stats_darwin.go#L90) |
+| each | function_declaration |  | [99](../../magpie/internal/dirent/stats_darwin.go#L99) |
+| entry | function_declaration |  | [137](../../magpie/internal/dirent/stats_darwin.go#L137) |
+| nameOf | function_declaration |  | [198](../../magpie/internal/dirent/stats_darwin.go#L198) |

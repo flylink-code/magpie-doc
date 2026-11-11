@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/kimi_schema.go) · page 1/1
 
-Source SHA-256: d417a2ea0100b71fac23e81f6b4294ccd2ffa701d0ba0e54f0e83dd75fd8fb33
+Source SHA-256: caf358a31d0b097c117faae146d34472531853b3a18e62fdd752bd537c7dd74e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,22 +17,23 @@ Source SHA-256: d417a2ea0100b71fac23e81f6b4294ccd2ffa701d0ba0e54f0e83dd75fd8fb33
 | typeInsert | type_spec |  | [92](../../magpie/internal/gateway/kimi_schema.go#L92) |
 | at | field_declaration | typeInsert | [93](../../magpie/internal/gateway/kimi_schema.go#L93) |
 | typ | field_declaration | typeInsert | [94](../../magpie/internal/gateway/kimi_schema.go#L94) |
-| collectUntypedEnums | function_declaration |  | [99](../../magpie/internal/gateway/kimi_schema.go#L99) |
-| vals | var_spec | collectUntypedEnums | [108](../../magpie/internal/gateway/kimi_schema.go#L108) |
-| enumType | function_declaration |  | [146](../../magpie/internal/gateway/kimi_schema.go#L146) |
-| rest | var_spec | enumType | [147](../../magpie/internal/gateway/kimi_schema.go#L147) |
-| valuesType | function_declaration |  | [168](../../magpie/internal/gateway/kimi_schema.go#L168) |
-| vt | var_spec | valuesType | [171](../../magpie/internal/gateway/kimi_schema.go#L171) |
-| kimiLockedSampling | function_declaration |  | [209](../../magpie/internal/gateway/kimi_schema.go#L209) |
-| kimiLockedSamplingModel | function_declaration |  | [223](../../magpie/internal/gateway/kimi_schema.go#L223) |
-| leadingInt | function_declaration |  | [253](../../magpie/internal/gateway/kimi_schema.go#L253) |
-| kimiToolRefTypes | function_declaration |  | [284](../../magpie/internal/gateway/kimi_schema.go#L284) |
-| ins | var_spec | kimiToolRefTypes | [292](../../magpie/internal/gateway/kimi_schema.go#L292) |
-| collectRefTargets | function_declaration |  | [307](../../magpie/internal/gateway/kimi_schema.go#L307) |
-| walkSchema | function_declaration |  | [325](../../magpie/internal/gateway/kimi_schema.go#L325) |
-| refTarget | function_declaration |  | [350](../../magpie/internal/gateway/kimi_schema.go#L350) |
-| untypedForKimi | function_declaration |  | [373](../../magpie/internal/gateway/kimi_schema.go#L373) |
-| allKimiTypes | const_spec |  | [396](../../magpie/internal/gateway/kimi_schema.go#L396) |
-| kimiSchemaType | function_declaration |  | [401](../../magpie/internal/gateway/kimi_schema.go#L401) |
-| names | var_spec | kimiSchemaType | [415](../../magpie/internal/gateway/kimi_schema.go#L415) |
-| schemaTypes | function_declaration |  | [430](../../magpie/internal/gateway/kimi_schema.go#L430) |
+| collectUntypedEnums | function_declaration |  | [102](../../magpie/internal/gateway/kimi_schema.go#L102) |
+| vals | var_spec | collectUntypedEnums | [111](../../magpie/internal/gateway/kimi_schema.go#L111) |
+| enumType | function_declaration |  | [157](../../magpie/internal/gateway/kimi_schema.go#L157) |
+| rest | var_spec | enumType | [158](../../magpie/internal/gateway/kimi_schema.go#L158) |
+| valuesType | function_declaration |  | [179](../../magpie/internal/gateway/kimi_schema.go#L179) |
+| vt | var_spec | valuesType | [182](../../magpie/internal/gateway/kimi_schema.go#L182) |
+| kimiLockedSampling | function_declaration |  | [223](../../magpie/internal/gateway/kimi_schema.go#L223) |
+| kimiLockedSamplingModel | function_declaration |  | [237](../../magpie/internal/gateway/kimi_schema.go#L237) |
+| leadingInt | function_declaration |  | [267](../../magpie/internal/gateway/kimi_schema.go#L267) |
+| kimiToolRefTypes | function_declaration |  | [304](../../magpie/internal/gateway/kimi_schema.go#L304) |
+| ins | var_spec | kimiToolRefTypes | [312](../../magpie/internal/gateway/kimi_schema.go#L312) |
+| collectRefTargets | function_declaration |  | [329](../../magpie/internal/gateway/kimi_schema.go#L329) |
+| walkSchema | function_declaration |  | [364](../../magpie/internal/gateway/kimi_schema.go#L364) |
+| refTarget | function_declaration |  | [389](../../magpie/internal/gateway/kimi_schema.go#L389) |
+| untypedForKimi | function_declaration |  | [412](../../magpie/internal/gateway/kimi_schema.go#L412) |
+| allKimiTypes | const_spec |  | [435](../../magpie/internal/gateway/kimi_schema.go#L435) |
+| kimiSchemaType | function_declaration |  | [440](../../magpie/internal/gateway/kimi_schema.go#L440) |
+| names | var_spec | kimiSchemaType | [461](../../magpie/internal/gateway/kimi_schema.go#L461) |
+| schemaTypes | function_declaration |  | [476](../../magpie/internal/gateway/kimi_schema.go#L476) |
+| keywordType | function_declaration |  | [556](../../magpie/internal/gateway/kimi_schema.go#L556) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/shortcut/shortcut_other.go) · page 1/1
 
-Source SHA-256: 7150f97a938b72b6a89144b76e8c6883e020b7492e494dea6da372411561e127
+Source SHA-256: 4c242b2f17cf8bec25b932fd7111833cbf77e6bf664f153da5d52f351e4fa505
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,3 +12,4 @@ Source SHA-256: 7150f97a938b72b6a89144b76e8c6883e020b7492e494dea6da372411561e127
 | writeShortcut | function_declaration |  | [7](../../magpie/internal/shortcut/shortcut_other.go#L7) |
 | registerAppPath | function_declaration |  | [9](../../magpie/internal/shortcut/shortcut_other.go#L9) |
 | registeredAppPath | function_declaration |  | [11](../../magpie/internal/shortcut/shortcut_other.go#L11) |
+| unregisterAppPath | function_declaration |  | [13](../../magpie/internal/shortcut/shortcut_other.go#L13) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/claude.go) · page 1/2
 
-Source SHA-256: a435d79d334f41769243bfc54dbd5b03b10073e9f16ae3fac419d97973dfe751
+Source SHA-256: 903d3a799775057b61984f3abdb08d4305fd354f497fb135fbcd434caca617c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,86 +25,86 @@ Source SHA-256: a435d79d334f41769243bfc54dbd5b03b10073e9f16ae3fac419d97973dfe751
 | claudeNameRe | var_spec |  | [180](../../magpie/internal/agent/claude.go#L180) |
 | claudeName | function_declaration |  | [185](../../magpie/internal/agent/claude.go#L185) |
 | claudeEffortsFor | function_declaration |  | [202](../../magpie/internal/agent/claude.go#L202) |
-| claudeTopEffort | var_spec |  | [223](../../magpie/internal/agent/claude.go#L223) |
-| claudeReadsTop | function_declaration |  | [229](../../magpie/internal/agent/claude.go#L229) |
-| claudeClamp | function_declaration |  | [236](../../magpie/internal/agent/claude.go#L236) |
-| claudeAliases | var_spec |  | [257](../../magpie/internal/agent/claude.go#L257) |
-| claudeContextEnv | const_spec |  | [267](../../magpie/internal/agent/claude.go#L267) |
-| claudeCompactEnv | const_spec |  | [275](../../magpie/internal/agent/claude.go#L275) |
-| claudeOutputEnv | const_spec |  | [284](../../magpie/internal/agent/claude.go#L284) |
-| claudeUnknownOutput | const_spec |  | [288](../../magpie/internal/agent/claude.go#L288) |
-| claudeCapsEnv | const_spec |  | [299](../../magpie/internal/agent/claude.go#L299) |
-| claudeReviewEnv | const_spec |  | [310](../../magpie/internal/agent/claude.go#L310) |
-| claudeExploreEnv | const_spec |  | [315](../../magpie/internal/agent/claude.go#L315) |
-| claudeReviewed | function_declaration |  | [325](../../magpie/internal/agent/claude.go#L325) |
-| entries | var_spec | claudeReviewed | [326](../../magpie/internal/agent/claude.go#L326) |
-| claudeCapsMax | const_spec |  | [369](../../magpie/internal/agent/claude.go#L369) |
-| claudeCaps | function_declaration |  | [373](../../magpie/internal/agent/claude.go#L373) |
-| caps | var_spec | claudeCaps | [374](../../magpie/internal/agent/claude.go#L374) |
-| claudeCapabilities | function_declaration |  | [393](../../magpie/internal/agent/claude.go#L393) |
-| seg | type_spec | claudeCapabilities | [394](../../magpie/internal/agent/claude.go#L394) |
-| id | field_declaration | claudeCapabilities::seg | [394](../../magpie/internal/agent/claude.go#L394) |
-| segs | var_spec | claudeCapabilities | [395](../../magpie/internal/agent/claude.go#L395) |
-| b | var_spec | claudeCapabilities | [437](../../magpie/internal/agent/claude.go#L437) |
-| follow | function_declaration |  | [467](../../magpie/internal/agent/claude.go#L467) |
-| followAt | function_declaration |  | [484](../../magpie/internal/agent/claude.go#L484) |
-| claudeLight | function_declaration |  | [497](../../magpie/internal/agent/claude.go#L497) |
-| tierEnv | function_declaration |  | [525](../../magpie/internal/agent/claude.go#L525) |
-| claudeModelEnv | var_spec |  | [529](../../magpie/internal/agent/claude.go#L529) |
-| claudeSameModel | function_declaration |  | [538](../../magpie/internal/agent/claude.go#L538) |
-| tierAt | function_declaration |  | [554](../../magpie/internal/agent/claude.go#L554) |
-| mark | const_spec | tierAt | [555](../../magpie/internal/agent/claude.go#L555) |
-| tierWith | function_declaration |  | [568](../../magpie/internal/agent/claude.go#L568) |
-| mark | const_spec | tierWith | [572](../../magpie/internal/agent/claude.go#L572) |
-| tierEfforts | function_declaration |  | [583](../../magpie/internal/agent/claude.go#L583) |
-| claude | function_declaration |  | [593](../../magpie/internal/agent/claude.go#L593) |
-| claudeIn | function_declaration |  | [598](../../magpie/internal/agent/claude.go#L598) |
-| keys | var_spec | claudeIn | [690](../../magpie/internal/agent/claude.go#L690) |
-| m | var_spec | claudeIn | [757](../../magpie/internal/agent/claude.go#L757) |
-| del | var_spec | claudeIn | [770](../../magpie/internal/agent/claude.go#L770) |
-| per | var_spec | claudeIn | [783](../../magpie/internal/agent/claude.go#L783) |
-| empty | var_spec | claudeIn | [785](../../magpie/internal/agent/claude.go#L785) |
-| kvs | var_spec | claudeIn | [802](../../magpie/internal/agent/claude.go#L802) |
-| onTier | var_spec | claudeIn | [964](../../magpie/internal/agent/claude.go#L964) |
-| models | var_spec | claudeIn | [1126](../../magpie/internal/agent/claude.go#L1126) |
-| gone | var_spec | claudeIn | [1325](../../magpie/internal/agent/claude.go#L1325) |
-| back | var_spec | claudeIn | [1342](../../magpie/internal/agent/claude.go#L1342) |
-| back | var_spec | claudeIn | [1400](../../magpie/internal/agent/claude.go#L1400) |
-| writeTiers | var_spec | claudeIn | [1420](../../magpie/internal/agent/claude.go#L1420) |
-| none | var_spec | claudeIn | [1583](../../magpie/internal/agent/claude.go#L1583) |
-| self | var_spec | claudeIn | [2027](../../magpie/internal/agent/claude.go#L2027) |
-| claudeSignIns | function_declaration |  | [2208](../../magpie/internal/agent/claude.go#L2208) |
-| claudeRunning | var_spec |  | [2217](../../magpie/internal/agent/claude.go#L2217) |
-| claudeTakes | function_declaration |  | [2220](../../magpie/internal/agent/claude.go#L2220) |
-| claudeModelWord | function_declaration |  | [2234](../../magpie/internal/agent/claude.go#L2234) |
-| claudeDropModelEffort | function_declaration |  | [2252](../../magpie/internal/agent/claude.go#L2252) |
-| claudeOwn | function_declaration |  | [2277](../../magpie/internal/agent/claude.go#L2277) |
-| own | var_spec | claudeOwn | [2279](../../magpie/internal/agent/claude.go#L2279) |
-| claudeDated | function_declaration |  | [2295](../../magpie/internal/agent/claude.go#L2295) |
-| mark | const_spec | claudeDated | [2296](../../magpie/internal/agent/claude.go#L2296) |
-| key | type_spec | claudeDated | [2298](../../magpie/internal/agent/claude.go#L2298) |
-| group | field_declaration | claudeDated::key | [2298](../../magpie/internal/agent/claude.go#L2298) |
-| claudeAliasOption | function_declaration |  | [2328](../../magpie/internal/agent/claude.go#L2328) |
-| mark | const_spec | claudeAliasOption | [2329](../../magpie/internal/agent/claude.go#L2329) |
-| claudeViaMagpie | function_declaration |  | [2384](../../magpie/internal/agent/claude.go#L2384) |
-| claude1M | function_declaration |  | [2405](../../magpie/internal/agent/claude.go#L2405) |
-| claude1MFor | function_declaration |  | [2409](../../magpie/internal/agent/claude.go#L2409) |
-| mark | const_spec | claude1MFor | [2410](../../magpie/internal/agent/claude.go#L2410) |
-| claudeModel | function_declaration |  | [2433](../../magpie/internal/agent/claude.go#L2433) |
-| claudeOwnCompact | function_declaration |  | [2441](../../magpie/internal/agent/claude.go#L2441) |
-| per | var_spec | claudeOwnCompact | [2449](../../magpie/internal/agent/claude.go#L2449) |
-| Window | field_declaration | claudeOwnCompact::per | [2450](../../magpie/internal/agent/claude.go#L2450) |
-| claudeLongMain | function_declaration |  | [2467](../../magpie/internal/agent/claude.go#L2467) |
-| claudeWindow | function_declaration |  | [2477](../../magpie/internal/agent/claude.go#L2477) |
-| mark | const_spec | claudeWindow | [2478](../../magpie/internal/agent/claude.go#L2478) |
-| claudeDesktopWindow | function_declaration |  | [2510](../../magpie/internal/agent/claude.go#L2510) |
-| claudeOutput | function_declaration |  | [2529](../../magpie/internal/agent/claude.go#L2529) |
-| claudeManaged | var_spec |  | [2559](../../magpie/internal/agent/claude.go#L2559) |
-| StandIn | function_declaration |  | [2574](../../magpie/internal/agent/claude.go#L2574) |
-| ClassifierStandIn | function_declaration |  | [2602](../../magpie/internal/agent/claude.go#L2602) |
-| claudeClassifierIn | function_declaration |  | [2621](../../magpie/internal/agent/claude.go#L2621) |
-| claudeStandIn | function_declaration |  | [2650](../../magpie/internal/agent/claude.go#L2650) |
-| claudeStandInAt | function_declaration |  | [2654](../../magpie/internal/agent/claude.go#L2654) |
-| claudeMain | function_declaration |  | [2688](../../magpie/internal/agent/claude.go#L2688) |
-| noticeClaudeEffort | var_spec |  | [2706](../../magpie/internal/agent/claude.go#L2706) |
-| noticeClaudeUltracode | var_spec |  | [2707](../../magpie/internal/agent/claude.go#L2707) |
+| claudeTopEffort | var_spec |  | [224](../../magpie/internal/agent/claude.go#L224) |
+| claudeReadsTop | function_declaration |  | [230](../../magpie/internal/agent/claude.go#L230) |
+| claudeClamp | function_declaration |  | [237](../../magpie/internal/agent/claude.go#L237) |
+| claudeAliases | var_spec |  | [258](../../magpie/internal/agent/claude.go#L258) |
+| claudeContextEnv | const_spec |  | [268](../../magpie/internal/agent/claude.go#L268) |
+| claudeCompactEnv | const_spec |  | [276](../../magpie/internal/agent/claude.go#L276) |
+| claudeOutputEnv | const_spec |  | [285](../../magpie/internal/agent/claude.go#L285) |
+| claudeUnknownOutput | const_spec |  | [289](../../magpie/internal/agent/claude.go#L289) |
+| claudeCapsEnv | const_spec |  | [300](../../magpie/internal/agent/claude.go#L300) |
+| claudeReviewEnv | const_spec |  | [315](../../magpie/internal/agent/claude.go#L315) |
+| claudeSearchEnv | const_spec |  | [327](../../magpie/internal/agent/claude.go#L327) |
+| claudeExploreEnv | const_spec |  | [332](../../magpie/internal/agent/claude.go#L332) |
+| claudeReviewed | function_declaration |  | [343](../../magpie/internal/agent/claude.go#L343) |
+| entries | var_spec | claudeReviewed | [344](../../magpie/internal/agent/claude.go#L344) |
+| claudeCapsMax | const_spec |  | [403](../../magpie/internal/agent/claude.go#L403) |
+| claudeCaps | function_declaration |  | [407](../../magpie/internal/agent/claude.go#L407) |
+| caps | var_spec | claudeCaps | [408](../../magpie/internal/agent/claude.go#L408) |
+| claudeCapabilities | function_declaration |  | [427](../../magpie/internal/agent/claude.go#L427) |
+| seg | type_spec | claudeCapabilities | [428](../../magpie/internal/agent/claude.go#L428) |
+| id | field_declaration | claudeCapabilities::seg | [428](../../magpie/internal/agent/claude.go#L428) |
+| segs | var_spec | claudeCapabilities | [429](../../magpie/internal/agent/claude.go#L429) |
+| b | var_spec | claudeCapabilities | [475](../../magpie/internal/agent/claude.go#L475) |
+| follow | function_declaration |  | [505](../../magpie/internal/agent/claude.go#L505) |
+| followAt | function_declaration |  | [522](../../magpie/internal/agent/claude.go#L522) |
+| claudeLight | function_declaration |  | [535](../../magpie/internal/agent/claude.go#L535) |
+| tierEnv | function_declaration |  | [563](../../magpie/internal/agent/claude.go#L563) |
+| claudeModelEnv | var_spec |  | [567](../../magpie/internal/agent/claude.go#L567) |
+| claudeMagpieModel | function_declaration |  | [578](../../magpie/internal/agent/claude.go#L578) |
+| claudeSameModel | function_declaration |  | [586](../../magpie/internal/agent/claude.go#L586) |
+| tierAt | function_declaration |  | [602](../../magpie/internal/agent/claude.go#L602) |
+| mark | const_spec | tierAt | [603](../../magpie/internal/agent/claude.go#L603) |
+| tierWith | function_declaration |  | [616](../../magpie/internal/agent/claude.go#L616) |
+| mark | const_spec | tierWith | [620](../../magpie/internal/agent/claude.go#L620) |
+| tierEfforts | function_declaration |  | [631](../../magpie/internal/agent/claude.go#L631) |
+| claude | function_declaration |  | [641](../../magpie/internal/agent/claude.go#L641) |
+| claudeRouted | function_declaration |  | [647](../../magpie/internal/agent/claude.go#L647) |
+| claudeIn | function_declaration |  | [655](../../magpie/internal/agent/claude.go#L655) |
+| keys | var_spec | claudeIn | [755](../../magpie/internal/agent/claude.go#L755) |
+| m | var_spec | claudeIn | [834](../../magpie/internal/agent/claude.go#L834) |
+| del | var_spec | claudeIn | [847](../../magpie/internal/agent/claude.go#L847) |
+| per | var_spec | claudeIn | [860](../../magpie/internal/agent/claude.go#L860) |
+| empty | var_spec | claudeIn | [862](../../magpie/internal/agent/claude.go#L862) |
+| kvs | var_spec | claudeIn | [879](../../magpie/internal/agent/claude.go#L879) |
+| onTier | var_spec | claudeIn | [1070](../../magpie/internal/agent/claude.go#L1070) |
+| refs | var_spec | claudeIn | [1134](../../magpie/internal/agent/claude.go#L1134) |
+| models | var_spec | claudeIn | [1297](../../magpie/internal/agent/claude.go#L1297) |
+| keys | var_spec | claudeIn | [1451](../../magpie/internal/agent/claude.go#L1451) |
+| gone | var_spec | claudeIn | [1560](../../magpie/internal/agent/claude.go#L1560) |
+| back | var_spec | claudeIn | [1577](../../magpie/internal/agent/claude.go#L1577) |
+| back | var_spec | claudeIn | [1654](../../magpie/internal/agent/claude.go#L1654) |
+| writeTiers | var_spec | claudeIn | [1676](../../magpie/internal/agent/claude.go#L1676) |
+| none | var_spec | claudeIn | [1873](../../magpie/internal/agent/claude.go#L1873) |
+| self | var_spec | claudeIn | [2335](../../magpie/internal/agent/claude.go#L2335) |
+| claudeSignIns | function_declaration |  | [2550](../../magpie/internal/agent/claude.go#L2550) |
+| claudeRunning | var_spec |  | [2559](../../magpie/internal/agent/claude.go#L2559) |
+| claudeTakes | function_declaration |  | [2562](../../magpie/internal/agent/claude.go#L2562) |
+| claudeModelWord | function_declaration |  | [2576](../../magpie/internal/agent/claude.go#L2576) |
+| claudeDropModelEffort | function_declaration |  | [2594](../../magpie/internal/agent/claude.go#L2594) |
+| claudeOwn | function_declaration |  | [2621](../../magpie/internal/agent/claude.go#L2621) |
+| own | var_spec | claudeOwn | [2622](../../magpie/internal/agent/claude.go#L2622) |
+| claudeDated | function_declaration |  | [2638](../../magpie/internal/agent/claude.go#L2638) |
+| mark | const_spec | claudeDated | [2639](../../magpie/internal/agent/claude.go#L2639) |
+| key | type_spec | claudeDated | [2641](../../magpie/internal/agent/claude.go#L2641) |
+| group | field_declaration | claudeDated::key | [2641](../../magpie/internal/agent/claude.go#L2641) |
+| claudeAliasOption | function_declaration |  | [2671](../../magpie/internal/agent/claude.go#L2671) |
+| mark | const_spec | claudeAliasOption | [2672](../../magpie/internal/agent/claude.go#L2672) |
+| claudeViaMagpie | function_declaration |  | [2730](../../magpie/internal/agent/claude.go#L2730) |
+| claudeViaShared | function_declaration |  | [2738](../../magpie/internal/agent/claude.go#L2738) |
+| buildClaudeVia | function_declaration |  | [2747](../../magpie/internal/agent/claude.go#L2747) |
+| claude1M | function_declaration |  | [2768](../../magpie/internal/agent/claude.go#L2768) |
+| claude1MFor | function_declaration |  | [2772](../../magpie/internal/agent/claude.go#L2772) |
+| mark | const_spec | claude1MFor | [2773](../../magpie/internal/agent/claude.go#L2773) |
+| claudeModel | function_declaration |  | [2796](../../magpie/internal/agent/claude.go#L2796) |
+| claudeOwnCompact | function_declaration |  | [2804](../../magpie/internal/agent/claude.go#L2804) |
+| per | var_spec | claudeOwnCompact | [2812](../../magpie/internal/agent/claude.go#L2812) |
+| Window | field_declaration | claudeOwnCompact::per | [2813](../../magpie/internal/agent/claude.go#L2813) |
+| claudeLongMain | function_declaration |  | [2830](../../magpie/internal/agent/claude.go#L2830) |
+| claudeWindow | function_declaration |  | [2840](../../magpie/internal/agent/claude.go#L2840) |
+| mark | const_spec | claudeWindow | [2841](../../magpie/internal/agent/claude.go#L2841) |
+| claudeDesktopWindow | function_declaration |  | [2873](../../magpie/internal/agent/claude.go#L2873) |
+| claudeOutput | function_declaration |  | [2892](../../magpie/internal/agent/claude.go#L2892) |
+| claudeManaged | var_spec |  | [2922](../../magpie/internal/agent/claude.go#L2922) |
+| StandIn | function_declaration |  | [2938](../../magpie/internal/agent/claude.go#L2938) |

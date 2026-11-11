@@ -4,54 +4,66 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/apprestart.go) · page 1/1
 
-Source SHA-256: 6965dfe48c00c42d3774bf3808a823509b53a0ca6880ad4aefaff186d4310f8c
+Source SHA-256: a6e47f131304e8762131f5b335ddc4b57614f8e5e234326a031b07271601d362
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| restartable | type_spec |  | [34](../../magpie/internal/agent/apprestart.go#L34) |
-| mac | field_declaration | restartable | [35](../../magpie/internal/agent/apprestart.go#L35) |
-| winExe | field_declaration | restartable | [36](../../magpie/internal/agent/apprestart.go#L36) |
-| win | field_declaration | restartable | [37](../../magpie/internal/agent/apprestart.go#L37) |
-| claudeDesktopApp | var_spec |  | [42](../../magpie/internal/agent/apprestart.go#L42) |
-| restartApps | var_spec |  | [53](../../magpie/internal/agent/apprestart.go#L53) |
-| winBase | function_declaration |  | [63](../../magpie/internal/agent/apprestart.go#L63) |
-| winHas | function_declaration |  | [68](../../magpie/internal/agent/apprestart.go#L68) |
-| restartOnWindows | var_spec |  | [75](../../magpie/internal/agent/apprestart.go#L75) |
-| restartOnMac | var_spec |  | [76](../../magpie/internal/agent/apprestart.go#L76) |
-| winProc | type_spec |  | [82](../../magpie/internal/agent/apprestart.go#L82) |
-| pid | field_declaration | winProc | [83](../../magpie/internal/agent/apprestart.go#L83) |
-| image | field_declaration | winProc | [84](../../magpie/internal/agent/apprestart.go#L84) |
-| start | field_declaration | winProc | [85](../../magpie/internal/agent/apprestart.go#L85) |
-| aumid | field_declaration | winProc | [86](../../magpie/internal/agent/apprestart.go#L86) |
-| winProcs | var_spec |  | [94](../../magpie/internal/agent/apprestart.go#L94) |
-| winClose | var_spec |  | [95](../../magpie/internal/agent/apprestart.go#L95) |
-| winEnd | var_spec |  | [96](../../magpie/internal/agent/apprestart.go#L96) |
-| winLaunch | var_spec |  | [97](../../magpie/internal/agent/apprestart.go#L97) |
-| appCloseWait | var_spec |  | [100](../../magpie/internal/agent/apprestart.go#L100) |
-| appBackWait | var_spec |  | [101](../../magpie/internal/agent/apprestart.go#L101) |
-| appPoll | var_spec |  | [102](../../magpie/internal/agent/apprestart.go#L102) |
-| appRunning | type_spec |  | [107](../../magpie/internal/agent/apprestart.go#L107) |
-| since | field_declaration | appRunning | [108](../../magpie/internal/agent/apprestart.go#L108) |
-| bundle | field_declaration | appRunning | [109](../../magpie/internal/agent/apprestart.go#L109) |
-| procs | field_declaration | appRunning | [110](../../magpie/internal/agent/apprestart.go#L110) |
-| main | field_declaration | appRunning | [111](../../magpie/internal/agent/apprestart.go#L111) |
-| findRestartable | function_declaration |  | [115](../../magpie/internal/agent/apprestart.go#L115) |
-| ps | var_spec | findRestartable | [120](../../magpie/internal/agent/apprestart.go#L120) |
-| bundleExecutable | function_declaration |  | [170](../../magpie/internal/agent/apprestart.go#L170) |
-| AppRun | type_spec |  | [185](../../magpie/internal/agent/apprestart.go#L185) |
-| Since | field_declaration | AppRun | [186](../../magpie/internal/agent/apprestart.go#L186) |
-| AppBehind | method_declaration |  | [194](../../magpie/internal/agent/apprestart.go#L194) |
-| appReads | method_declaration |  | [221](../../magpie/internal/agent/apprestart.go#L221) |
-| b | var_spec | appReads | [232](../../magpie/internal/agent/apprestart.go#L232) |
-| desktopSetsHere | var_spec |  | [262](../../magpie/internal/agent/apprestart.go#L262) |
-| restarting | var_spec |  | [269](../../magpie/internal/agent/apprestart.go#L269) |
-| noticeRestartNotHere | var_spec |  | [275](../../magpie/internal/agent/apprestart.go#L275) |
-| noticeRestartCurrent | var_spec |  | [276](../../magpie/internal/agent/apprestart.go#L276) |
-| noticeRestartAsk | var_spec |  | [277](../../magpie/internal/agent/apprestart.go#L277) |
-| noticeRestartStillOpen | var_spec |  | [278](../../magpie/internal/agent/apprestart.go#L278) |
-| noticeRestartStillThere | var_spec |  | [279](../../magpie/internal/agent/apprestart.go#L279) |
-| noticeRestartNoOpen | var_spec |  | [280](../../magpie/internal/agent/apprestart.go#L280) |
-| restartErr | function_declaration |  | [283](../../magpie/internal/agent/apprestart.go#L283) |
-| RestartApp | method_declaration |  | [292](../../magpie/internal/agent/apprestart.go#L292) |
-| waitGone | function_declaration |  | [346](../../magpie/internal/agent/apprestart.go#L346) |
-| reopenBundle | function_declaration |  | [365](../../magpie/internal/agent/apprestart.go#L365) |
+| restartable | type_spec |  | [36](../../magpie/internal/agent/apprestart.go#L36) |
+| mac | field_declaration | restartable | [37](../../magpie/internal/agent/apprestart.go#L37) |
+| winExe | field_declaration | restartable | [38](../../magpie/internal/agent/apprestart.go#L38) |
+| win | field_declaration | restartable | [39](../../magpie/internal/agent/apprestart.go#L39) |
+| macCmd | field_declaration | restartable | [43](../../magpie/internal/agent/apprestart.go#L43) |
+| claudeDesktopApp | var_spec |  | [48](../../magpie/internal/agent/apprestart.go#L48) |
+| restartApps | var_spec |  | [61](../../magpie/internal/agent/apprestart.go#L61) |
+| winBase | function_declaration |  | [77](../../magpie/internal/agent/apprestart.go#L77) |
+| winHas | function_declaration |  | [82](../../magpie/internal/agent/apprestart.go#L82) |
+| restartOnWindows | var_spec |  | [89](../../magpie/internal/agent/apprestart.go#L89) |
+| restartOnMac | var_spec |  | [90](../../magpie/internal/agent/apprestart.go#L90) |
+| restartOnLinux | var_spec |  | [91](../../magpie/internal/agent/apprestart.go#L91) |
+| winProc | type_spec |  | [98](../../magpie/internal/agent/apprestart.go#L98) |
+| pid | field_declaration | winProc | [99](../../magpie/internal/agent/apprestart.go#L99) |
+| image | field_declaration | winProc | [100](../../magpie/internal/agent/apprestart.go#L100) |
+| start | field_declaration | winProc | [101](../../magpie/internal/agent/apprestart.go#L101) |
+| aumid | field_declaration | winProc | [102](../../magpie/internal/agent/apprestart.go#L102) |
+| runsScript | function_declaration |  | [125](../../magpie/internal/agent/apprestart.go#L125) |
+| absArg | function_declaration |  | [160](../../magpie/internal/agent/apprestart.go#L160) |
+| appProcs | function_declaration |  | [173](../../magpie/internal/agent/apprestart.go#L173) |
+| out | var_spec | appProcs | [174](../../magpie/internal/agent/apprestart.go#L174) |
+| winProcs | var_spec |  | [189](../../magpie/internal/agent/apprestart.go#L189) |
+| winClose | var_spec |  | [190](../../magpie/internal/agent/apprestart.go#L190) |
+| winShown | var_spec |  | [191](../../magpie/internal/agent/apprestart.go#L191) |
+| winEnd | var_spec |  | [192](../../magpie/internal/agent/apprestart.go#L192) |
+| winLaunch | var_spec |  | [193](../../magpie/internal/agent/apprestart.go#L193) |
+| appCloseWait | var_spec |  | [199](../../magpie/internal/agent/apprestart.go#L199) |
+| appBackWait | var_spec |  | [200](../../magpie/internal/agent/apprestart.go#L200) |
+| appTrayGrace | var_spec |  | [201](../../magpie/internal/agent/apprestart.go#L201) |
+| appPoll | var_spec |  | [202](../../magpie/internal/agent/apprestart.go#L202) |
+| appRunning | type_spec |  | [208](../../magpie/internal/agent/apprestart.go#L208) |
+| since | field_declaration | appRunning | [209](../../magpie/internal/agent/apprestart.go#L209) |
+| bundle | field_declaration | appRunning | [210](../../magpie/internal/agent/apprestart.go#L210) |
+| exe | field_declaration | appRunning | [211](../../magpie/internal/agent/apprestart.go#L211) |
+| procs | field_declaration | appRunning | [212](../../magpie/internal/agent/apprestart.go#L212) |
+| main | field_declaration | appRunning | [213](../../magpie/internal/agent/apprestart.go#L213) |
+| findRestartable | function_declaration |  | [217](../../magpie/internal/agent/apprestart.go#L217) |
+| ps | var_spec | findRestartable | [222](../../magpie/internal/agent/apprestart.go#L222) |
+| bundleExecutable | function_declaration |  | [277](../../magpie/internal/agent/apprestart.go#L277) |
+| AppRun | type_spec |  | [292](../../magpie/internal/agent/apprestart.go#L292) |
+| Since | field_declaration | AppRun | [293](../../magpie/internal/agent/apprestart.go#L293) |
+| AppBehind | method_declaration |  | [301](../../magpie/internal/agent/apprestart.go#L301) |
+| appReads | method_declaration |  | [329](../../magpie/internal/agent/apprestart.go#L329) |
+| b | var_spec | appReads | [340](../../magpie/internal/agent/apprestart.go#L340) |
+| desktopSetsHere | var_spec |  | [380](../../magpie/internal/agent/apprestart.go#L380) |
+| restarting | var_spec |  | [387](../../magpie/internal/agent/apprestart.go#L387) |
+| noticeRestartNotHere | var_spec |  | [393](../../magpie/internal/agent/apprestart.go#L393) |
+| noticeRestartCurrent | var_spec |  | [394](../../magpie/internal/agent/apprestart.go#L394) |
+| noticeRestartAsk | var_spec |  | [395](../../magpie/internal/agent/apprestart.go#L395) |
+| noticeRestartStillOpen | var_spec |  | [396](../../magpie/internal/agent/apprestart.go#L396) |
+| noticeRestartStillThere | var_spec |  | [397](../../magpie/internal/agent/apprestart.go#L397) |
+| noticeRestartNoOpen | var_spec |  | [398](../../magpie/internal/agent/apprestart.go#L398) |
+| restartErr | function_declaration |  | [401](../../magpie/internal/agent/apprestart.go#L401) |
+| RestartApp | method_declaration |  | [411](../../magpie/internal/agent/apprestart.go#L411) |
+| restartWin | method_declaration |  | [437](../../magpie/internal/agent/apprestart.go#L437) |
+| waitClosed | function_declaration |  | [481](../../magpie/internal/agent/apprestart.go#L481) |
+| waitGone | function_declaration |  | [511](../../magpie/internal/agent/apprestart.go#L511) |
+| reopenBundle | function_declaration |  | [532](../../magpie/internal/agent/apprestart.go#L532) |
+| appQuitDone | var_spec |  | [559](../../magpie/internal/agent/apprestart.go#L559) |

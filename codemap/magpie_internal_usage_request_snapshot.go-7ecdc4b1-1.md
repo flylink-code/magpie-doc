@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_snapshot.go) · page 1/1
 
-Source SHA-256: bb377f1585f648663d769a94350fa7df954dfa888263caca91b562be6745b84d
+Source SHA-256: 535f2cddcc8a734ddb5bda614d60f868462e37b456bcfd996c09bd9592eb14dd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,12 +13,13 @@ Source SHA-256: bb377f1585f648663d769a94350fa7df954dfa888263caca91b562be6745b84d
 | pack | method_declaration |  | [35](../../magpie/internal/usage/request_snapshot.go#L35) |
 | encode | method_declaration |  | [53](../../magpie/internal/usage/request_snapshot.go#L53) |
 | locations | var_spec | encode | [71](../../magpie/internal/usage/request_snapshot.go#L71) |
-| unpack | method_declaration |  | [112](../../magpie/internal/usage/request_snapshot.go#L112) |
-| keptStrings | type_spec |  | [121](../../magpie/internal/usage/request_snapshot.go#L121) |
-| of | method_declaration |  | [123](../../magpie/internal/usage/request_snapshot.go#L123) |
-| decodeMapped | function_declaration |  | [138](../../magpie/internal/usage/request_snapshot.go#L138) |
-| err | var_spec | decodeMapped | [139](../../magpie/internal/usage/request_snapshot.go#L139) |
-| unpackInto | method_declaration |  | [152](../../magpie/internal/usage/request_snapshot.go#L152) |
-| unpackReusing | method_declaration |  | [161](../../magpie/internal/usage/request_snapshot.go#L161) |
-| text | var_spec | unpackReusing | [220](../../magpie/internal/usage/request_snapshot.go#L220) |
-| n | var_spec | unpackReusing | [227](../../magpie/internal/usage/request_snapshot.go#L227) |
+| unpack | method_declaration |  | [116](../../magpie/internal/usage/request_snapshot.go#L116) |
+| keptStrings | type_spec |  | [125](../../magpie/internal/usage/request_snapshot.go#L125) |
+| of | method_declaration |  | [127](../../magpie/internal/usage/request_snapshot.go#L127) |
+| decodeMapped | function_declaration |  | [142](../../magpie/internal/usage/request_snapshot.go#L142) |
+| err | var_spec | decodeMapped | [143](../../magpie/internal/usage/request_snapshot.go#L143) |
+| unpackInto | method_declaration |  | [156](../../magpie/internal/usage/request_snapshot.go#L156) |
+| unpackReusing | method_declaration |  | [166](../../magpie/internal/usage/request_snapshot.go#L166) |
+| text | var_spec | unpackReusing | [232](../../magpie/internal/usage/request_snapshot.go#L232) |
+| n | var_spec | unpackReusing | [239](../../magpie/internal/usage/request_snapshot.go#L239) |
+| few | var_spec | unpackReusing | [273](../../magpie/internal/usage/request_snapshot.go#L273) |

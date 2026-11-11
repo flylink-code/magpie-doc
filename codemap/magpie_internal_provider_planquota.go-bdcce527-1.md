@@ -4,107 +4,107 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/planquota.go) · page 1/2
 
-Source SHA-256: 2e62f0f3e6cc954ad292808cb73cfb584ae504eddfc767addce2b456864e2708
+Source SHA-256: 112acf2179730a6755cd85bc40fe6072d6197140b7b61a2ea01a9ef4a45128dd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| planQuotaSource | type_spec |  | [27](../../magpie/internal/provider/planquota.go#L27) |
-| url | field_declaration | planQuotaSource | [28](../../magpie/internal/provider/planquota.go#L28) |
-| bearer | field_declaration | planQuotaSource | [29](../../magpie/internal/provider/planquota.go#L29) |
-| read | field_declaration | planQuotaSource | [30](../../magpie/internal/provider/planquota.go#L30) |
-| sure | field_declaration | planQuotaSource | [34](../../magpie/internal/provider/planquota.go#L34) |
-| planQuotaSourceOf | function_declaration |  | [37](../../magpie/internal/provider/planquota.go#L37) |
-| readZhipuPlan | function_declaration |  | [83](../../magpie/internal/provider/planquota.go#L83) |
-| r | var_spec | readZhipuPlan | [84](../../magpie/internal/provider/planquota.go#L84) |
-| Success | field_declaration | readZhipuPlan::r | [85](../../magpie/internal/provider/planquota.go#L85) |
-| Msg | field_declaration | readZhipuPlan::r | [86](../../magpie/internal/provider/planquota.go#L86) |
-| Data | field_declaration | readZhipuPlan::r | [87](../../magpie/internal/provider/planquota.go#L87) |
-| Level | field_declaration | readZhipuPlan::r::Data | [88](../../magpie/internal/provider/planquota.go#L88) |
-| Limits | field_declaration | readZhipuPlan::r::Data | [89](../../magpie/internal/provider/planquota.go#L89) |
-| Type | field_declaration | readZhipuPlan::r::Data::Limits | [90](../../magpie/internal/provider/planquota.go#L90) |
-| Unit | field_declaration | readZhipuPlan::r::Data::Limits | [91](../../magpie/internal/provider/planquota.go#L91) |
-| Number | field_declaration | readZhipuPlan::r::Data::Limits | [92](../../magpie/internal/provider/planquota.go#L92) |
-| Percentage | field_declaration | readZhipuPlan::r::Data::Limits | [93](../../magpie/internal/provider/planquota.go#L93) |
-| NextResetTime | field_declaration | readZhipuPlan::r::Data::Limits | [94](../../magpie/internal/provider/planquota.go#L94) |
-| readCommandCodePlan | function_declaration |  | [144](../../magpie/internal/provider/planquota.go#L144) |
-| c | var_spec | readCommandCodePlan | [145](../../magpie/internal/provider/planquota.go#L145) |
-| readOpenCodeGo | function_declaration |  | [159](../../magpie/internal/provider/planquota.go#L159) |
-| window | type_spec | readOpenCodeGo | [160](../../magpie/internal/provider/planquota.go#L160) |
-| Percent | field_declaration | readOpenCodeGo::window | [161](../../magpie/internal/provider/planquota.go#L161) |
-| ResetsAt | field_declaration | readOpenCodeGo::window | [162](../../magpie/internal/provider/planquota.go#L162) |
-| r | var_spec | readOpenCodeGo | [164](../../magpie/internal/provider/planquota.go#L164) |
-| Usage | field_declaration | readOpenCodeGo::r | [165](../../magpie/internal/provider/planquota.go#L165) |
-| key | field_declaration | readOpenCodeGo | [172](../../magpie/internal/provider/planquota.go#L172) |
-| span | field_declaration | readOpenCodeGo | [173](../../magpie/internal/provider/planquota.go#L173) |
-| shapeOf | function_declaration |  | [194](../../magpie/internal/provider/planquota.go#L194) |
-| top | var_spec | shapeOf | [195](../../magpie/internal/provider/planquota.go#L195) |
-| names | var_spec | shapeOf | [202](../../magpie/internal/provider/planquota.go#L202) |
-| in | var_spec | shapeOf | [204](../../magpie/internal/provider/planquota.go#L204) |
-| readMiniMaxPlan | function_declaration |  | [244](../../magpie/internal/provider/planquota.go#L244) |
-| bucket | type_spec | readMiniMaxPlan | [245](../../magpie/internal/provider/planquota.go#L245) |
-| Model | field_declaration | readMiniMaxPlan::bucket | [246](../../magpie/internal/provider/planquota.go#L246) |
-| Start | field_declaration | readMiniMaxPlan::bucket | [247](../../magpie/internal/provider/planquota.go#L247) |
-| End | field_declaration | readMiniMaxPlan::bucket | [248](../../magpie/internal/provider/planquota.go#L248) |
-| Left | field_declaration | readMiniMaxPlan::bucket | [249](../../magpie/internal/provider/planquota.go#L249) |
-| Status | field_declaration | readMiniMaxPlan::bucket | [250](../../magpie/internal/provider/planquota.go#L250) |
-| Total | field_declaration | readMiniMaxPlan::bucket | [251](../../magpie/internal/provider/planquota.go#L251) |
-| Count | field_declaration | readMiniMaxPlan::bucket | [252](../../magpie/internal/provider/planquota.go#L252) |
-| WeekStart | field_declaration | readMiniMaxPlan::bucket | [253](../../magpie/internal/provider/planquota.go#L253) |
-| WeekEnd | field_declaration | readMiniMaxPlan::bucket | [254](../../magpie/internal/provider/planquota.go#L254) |
-| WeekLeft | field_declaration | readMiniMaxPlan::bucket | [255](../../magpie/internal/provider/planquota.go#L255) |
-| WeekStatus | field_declaration | readMiniMaxPlan::bucket | [256](../../magpie/internal/provider/planquota.go#L256) |
-| WeekTotal | field_declaration | readMiniMaxPlan::bucket | [257](../../magpie/internal/provider/planquota.go#L257) |
-| WeekCount | field_declaration | readMiniMaxPlan::bucket | [258](../../magpie/internal/provider/planquota.go#L258) |
-| r | var_spec | readMiniMaxPlan | [260](../../magpie/internal/provider/planquota.go#L260) |
-| Remains | field_declaration | readMiniMaxPlan::r | [261](../../magpie/internal/provider/planquota.go#L261) |
-| Base | field_declaration | readMiniMaxPlan::r | [262](../../magpie/internal/provider/planquota.go#L262) |
-| Code | field_declaration | readMiniMaxPlan::r::Base | [263](../../magpie/internal/provider/planquota.go#L263) |
-| Msg | field_declaration | readMiniMaxPlan::r::Base | [264](../../magpie/internal/provider/planquota.go#L264) |
-| left | field_declaration | readMiniMaxPlan | [294](../../magpie/internal/provider/planquota.go#L294) |
-| status | field_declaration | readMiniMaxPlan | [295](../../magpie/internal/provider/planquota.go#L295) |
-| start | field_declaration | readMiniMaxPlan | [296](../../magpie/internal/provider/planquota.go#L296) |
-| week | field_declaration | readMiniMaxPlan | [297](../../magpie/internal/provider/planquota.go#L297) |
-| count | field_declaration | readMiniMaxPlan | [298](../../magpie/internal/provider/planquota.go#L298) |
-| miniMaxCount | function_declaration |  | [353](../../magpie/internal/provider/planquota.go#L353) |
-| kimiCodeBase | function_declaration |  | [372](../../magpie/internal/provider/planquota.go#L372) |
-| KimiCodeSearch | function_declaration |  | [384](../../magpie/internal/provider/planquota.go#L384) |
-| readKimiCode | function_declaration |  | [405](../../magpie/internal/provider/planquota.go#L405) |
-| row | type_spec | readKimiCode | [406](../../magpie/internal/provider/planquota.go#L406) |
-| r | var_spec | readKimiCode | [407](../../magpie/internal/provider/planquota.go#L407) |
-| Usage | field_declaration | readKimiCode::r | [408](../../magpie/internal/provider/planquota.go#L408) |
-| Limits | field_declaration | readKimiCode::r | [409](../../magpie/internal/provider/planquota.go#L409) |
-| Window | field_declaration | readKimiCode::r::Limits | [410](../../magpie/internal/provider/planquota.go#L410) |
-| Detail | field_declaration | readKimiCode::r::Limits | [411](../../magpie/internal/provider/planquota.go#L411) |
-| span | var_spec | readKimiCode | [459](../../magpie/internal/provider/planquota.go#L459) |
-| planWindows | function_declaration |  | [491](../../magpie/internal/provider/planquota.go#L491) |
-| planBody | function_declaration |  | [505](../../magpie/internal/provider/planquota.go#L505) |
-| zhipuKeyRefusal | type_spec |  | [546](../../magpie/internal/provider/planquota.go#L546) |
-| said | field_declaration | zhipuKeyRefusal | [546](../../magpie/internal/provider/planquota.go#L546) |
-| Error | method_declaration |  | [548](../../magpie/internal/provider/planquota.go#L548) |
-| zhipuRefused | function_declaration |  | [553](../../magpie/internal/provider/planquota.go#L553) |
-| refusedKeyErr | type_spec |  | [566](../../magpie/internal/provider/planquota.go#L566) |
-| msg | field_declaration | refusedKeyErr | [566](../../magpie/internal/provider/planquota.go#L566) |
-| Error | method_declaration |  | [568](../../magpie/internal/provider/planquota.go#L568) |
-| zhipuKeyRefusedErr | function_declaration |  | [570](../../magpie/internal/provider/planquota.go#L570) |
-| vendorSaid | function_declaration |  | [578](../../magpie/internal/provider/planquota.go#L578) |
-| e | var_spec | vendorSaid | [579](../../magpie/internal/provider/planquota.go#L579) |
-| Error | field_declaration | vendorSaid::e | [580](../../magpie/internal/provider/planquota.go#L580) |
-| Message | field_declaration | vendorSaid::e | [581](../../magpie/internal/provider/planquota.go#L581) |
-| inner | var_spec | vendorSaid | [590](../../magpie/internal/provider/planquota.go#L590) |
-| Message | field_declaration | vendorSaid::inner | [591](../../magpie/internal/provider/planquota.go#L591) |
-| planKeyWindows | function_declaration |  | [610](../../magpie/internal/provider/planquota.go#L610) |
-| planQuotaCache | var_spec |  | [625](../../magpie/internal/provider/planquota.go#L625) |
-| at | field_declaration | planQuotaCache | [627](../../magpie/internal/provider/planquota.go#L627) |
-| data | field_declaration | planQuotaCache | [628](../../magpie/internal/provider/planquota.go#L628) |
-| ForgetPlanQuotas | function_declaration |  | [633](../../magpie/internal/provider/planquota.go#L633) |
-| PlanQuotas | function_declaration |  | [638](../../magpie/internal/provider/planquota.go#L638) |
-| job | type_spec | PlanQuotas | [650](../../magpie/internal/provider/planquota.go#L650) |
-| p | field_declaration | PlanQuotas::job | [651](../../magpie/internal/provider/planquota.go#L651) |
-| src | field_declaration | PlanQuotas::job | [652](../../magpie/internal/provider/planquota.go#L652) |
-| key | field_declaration | PlanQuotas::job | [653](../../magpie/internal/provider/planquota.go#L653) |
-| user | field_declaration | PlanQuotas::job | [654](../../magpie/internal/provider/planquota.go#L654) |
-| jobs | var_spec | PlanQuotas | [656](../../magpie/internal/provider/planquota.go#L656) |
-| wg | var_spec | PlanQuotas | [687](../../magpie/internal/provider/planquota.go#L687) |
-| slots | var_spec | PlanQuotas | [688](../../magpie/internal/provider/planquota.go#L688) |
-| ZhipuTeam | type_spec |  | [763](../../magpie/internal/provider/planquota.go#L763) |
-| Org | field_declaration | ZhipuTeam | [764](../../magpie/internal/provider/planquota.go#L764) |
+| planQuotaSource | type_spec |  | [28](../../magpie/internal/provider/planquota.go#L28) |
+| url | field_declaration | planQuotaSource | [29](../../magpie/internal/provider/planquota.go#L29) |
+| bearer | field_declaration | planQuotaSource | [30](../../magpie/internal/provider/planquota.go#L30) |
+| read | field_declaration | planQuotaSource | [31](../../magpie/internal/provider/planquota.go#L31) |
+| sure | field_declaration | planQuotaSource | [35](../../magpie/internal/provider/planquota.go#L35) |
+| planQuotaSourceOf | function_declaration |  | [38](../../magpie/internal/provider/planquota.go#L38) |
+| readZhipuPlan | function_declaration |  | [91](../../magpie/internal/provider/planquota.go#L91) |
+| r | var_spec | readZhipuPlan | [92](../../magpie/internal/provider/planquota.go#L92) |
+| Success | field_declaration | readZhipuPlan::r | [93](../../magpie/internal/provider/planquota.go#L93) |
+| Msg | field_declaration | readZhipuPlan::r | [94](../../magpie/internal/provider/planquota.go#L94) |
+| Data | field_declaration | readZhipuPlan::r | [95](../../magpie/internal/provider/planquota.go#L95) |
+| Level | field_declaration | readZhipuPlan::r::Data | [96](../../magpie/internal/provider/planquota.go#L96) |
+| Limits | field_declaration | readZhipuPlan::r::Data | [97](../../magpie/internal/provider/planquota.go#L97) |
+| Type | field_declaration | readZhipuPlan::r::Data::Limits | [98](../../magpie/internal/provider/planquota.go#L98) |
+| Unit | field_declaration | readZhipuPlan::r::Data::Limits | [99](../../magpie/internal/provider/planquota.go#L99) |
+| Number | field_declaration | readZhipuPlan::r::Data::Limits | [100](../../magpie/internal/provider/planquota.go#L100) |
+| Percentage | field_declaration | readZhipuPlan::r::Data::Limits | [101](../../magpie/internal/provider/planquota.go#L101) |
+| NextResetTime | field_declaration | readZhipuPlan::r::Data::Limits | [102](../../magpie/internal/provider/planquota.go#L102) |
+| readCommandCodePlan | function_declaration |  | [159](../../magpie/internal/provider/planquota.go#L159) |
+| c | var_spec | readCommandCodePlan | [160](../../magpie/internal/provider/planquota.go#L160) |
+| readOpenCodeGo | function_declaration |  | [174](../../magpie/internal/provider/planquota.go#L174) |
+| window | type_spec | readOpenCodeGo | [175](../../magpie/internal/provider/planquota.go#L175) |
+| Percent | field_declaration | readOpenCodeGo::window | [176](../../magpie/internal/provider/planquota.go#L176) |
+| ResetsAt | field_declaration | readOpenCodeGo::window | [177](../../magpie/internal/provider/planquota.go#L177) |
+| r | var_spec | readOpenCodeGo | [179](../../magpie/internal/provider/planquota.go#L179) |
+| Usage | field_declaration | readOpenCodeGo::r | [180](../../magpie/internal/provider/planquota.go#L180) |
+| key | field_declaration | readOpenCodeGo | [187](../../magpie/internal/provider/planquota.go#L187) |
+| span | field_declaration | readOpenCodeGo | [188](../../magpie/internal/provider/planquota.go#L188) |
+| shapeOf | function_declaration |  | [209](../../magpie/internal/provider/planquota.go#L209) |
+| top | var_spec | shapeOf | [210](../../magpie/internal/provider/planquota.go#L210) |
+| names | var_spec | shapeOf | [217](../../magpie/internal/provider/planquota.go#L217) |
+| in | var_spec | shapeOf | [219](../../magpie/internal/provider/planquota.go#L219) |
+| readMiniMaxPlan | function_declaration |  | [259](../../magpie/internal/provider/planquota.go#L259) |
+| bucket | type_spec | readMiniMaxPlan | [260](../../magpie/internal/provider/planquota.go#L260) |
+| Model | field_declaration | readMiniMaxPlan::bucket | [261](../../magpie/internal/provider/planquota.go#L261) |
+| Start | field_declaration | readMiniMaxPlan::bucket | [262](../../magpie/internal/provider/planquota.go#L262) |
+| End | field_declaration | readMiniMaxPlan::bucket | [263](../../magpie/internal/provider/planquota.go#L263) |
+| Left | field_declaration | readMiniMaxPlan::bucket | [264](../../magpie/internal/provider/planquota.go#L264) |
+| Status | field_declaration | readMiniMaxPlan::bucket | [265](../../magpie/internal/provider/planquota.go#L265) |
+| Total | field_declaration | readMiniMaxPlan::bucket | [266](../../magpie/internal/provider/planquota.go#L266) |
+| Count | field_declaration | readMiniMaxPlan::bucket | [267](../../magpie/internal/provider/planquota.go#L267) |
+| WeekStart | field_declaration | readMiniMaxPlan::bucket | [268](../../magpie/internal/provider/planquota.go#L268) |
+| WeekEnd | field_declaration | readMiniMaxPlan::bucket | [269](../../magpie/internal/provider/planquota.go#L269) |
+| WeekLeft | field_declaration | readMiniMaxPlan::bucket | [270](../../magpie/internal/provider/planquota.go#L270) |
+| WeekStatus | field_declaration | readMiniMaxPlan::bucket | [271](../../magpie/internal/provider/planquota.go#L271) |
+| WeekTotal | field_declaration | readMiniMaxPlan::bucket | [272](../../magpie/internal/provider/planquota.go#L272) |
+| WeekCount | field_declaration | readMiniMaxPlan::bucket | [273](../../magpie/internal/provider/planquota.go#L273) |
+| r | var_spec | readMiniMaxPlan | [275](../../magpie/internal/provider/planquota.go#L275) |
+| Remains | field_declaration | readMiniMaxPlan::r | [276](../../magpie/internal/provider/planquota.go#L276) |
+| Base | field_declaration | readMiniMaxPlan::r | [277](../../magpie/internal/provider/planquota.go#L277) |
+| Code | field_declaration | readMiniMaxPlan::r::Base | [278](../../magpie/internal/provider/planquota.go#L278) |
+| Msg | field_declaration | readMiniMaxPlan::r::Base | [279](../../magpie/internal/provider/planquota.go#L279) |
+| left | field_declaration | readMiniMaxPlan | [309](../../magpie/internal/provider/planquota.go#L309) |
+| status | field_declaration | readMiniMaxPlan | [310](../../magpie/internal/provider/planquota.go#L310) |
+| start | field_declaration | readMiniMaxPlan | [311](../../magpie/internal/provider/planquota.go#L311) |
+| week | field_declaration | readMiniMaxPlan | [312](../../magpie/internal/provider/planquota.go#L312) |
+| count | field_declaration | readMiniMaxPlan | [313](../../magpie/internal/provider/planquota.go#L313) |
+| miniMaxCount | function_declaration |  | [368](../../magpie/internal/provider/planquota.go#L368) |
+| kimiCodeBase | function_declaration |  | [387](../../magpie/internal/provider/planquota.go#L387) |
+| KimiCodeSearch | function_declaration |  | [399](../../magpie/internal/provider/planquota.go#L399) |
+| readKimiCode | function_declaration |  | [437](../../magpie/internal/provider/planquota.go#L437) |
+| row | type_spec | readKimiCode | [438](../../magpie/internal/provider/planquota.go#L438) |
+| r | var_spec | readKimiCode | [439](../../magpie/internal/provider/planquota.go#L439) |
+| Usage | field_declaration | readKimiCode::r | [440](../../magpie/internal/provider/planquota.go#L440) |
+| Usages | field_declaration | readKimiCode::r | [441](../../magpie/internal/provider/planquota.go#L441) |
+| Booster | field_declaration | readKimiCode::r | [442](../../magpie/internal/provider/planquota.go#L442) |
+| Camel | field_declaration | readKimiCode::r | [443](../../magpie/internal/provider/planquota.go#L443) |
+| Limits | field_declaration | readKimiCode::r | [444](../../magpie/internal/provider/planquota.go#L444) |
+| Window | field_declaration | readKimiCode::r::Limits | [445](../../magpie/internal/provider/planquota.go#L445) |
+| Detail | field_declaration | readKimiCode::r::Limits | [446](../../magpie/internal/provider/planquota.go#L446) |
+| span | var_spec | readKimiCode | [506](../../magpie/internal/provider/planquota.go#L506) |
+| key | field_declaration | readKimiCode | [539](../../magpie/internal/provider/planquota.go#L539) |
+| span | field_declaration | readKimiCode | [540](../../magpie/internal/provider/planquota.go#L540) |
+| kimiBooster | function_declaration |  | [607](../../magpie/internal/provider/planquota.go#L607) |
+| planWindows | function_declaration |  | [631](../../magpie/internal/provider/planquota.go#L631) |
+| planBody | function_declaration |  | [645](../../magpie/internal/provider/planquota.go#L645) |
+| zhipuKeyRefusal | type_spec |  | [686](../../magpie/internal/provider/planquota.go#L686) |
+| said | field_declaration | zhipuKeyRefusal | [686](../../magpie/internal/provider/planquota.go#L686) |
+| Error | method_declaration |  | [688](../../magpie/internal/provider/planquota.go#L688) |
+| zhipuRefused | function_declaration |  | [693](../../magpie/internal/provider/planquota.go#L693) |
+| refusedKeyErr | type_spec |  | [706](../../magpie/internal/provider/planquota.go#L706) |
+| msg | field_declaration | refusedKeyErr | [706](../../magpie/internal/provider/planquota.go#L706) |
+| Error | method_declaration |  | [708](../../magpie/internal/provider/planquota.go#L708) |
+| zhipuKeyRefusedErr | function_declaration |  | [710](../../magpie/internal/provider/planquota.go#L710) |
+| vendorSaid | function_declaration |  | [718](../../magpie/internal/provider/planquota.go#L718) |
+| e | var_spec | vendorSaid | [719](../../magpie/internal/provider/planquota.go#L719) |
+| Error | field_declaration | vendorSaid::e | [720](../../magpie/internal/provider/planquota.go#L720) |
+| Message | field_declaration | vendorSaid::e | [721](../../magpie/internal/provider/planquota.go#L721) |
+| inner | var_spec | vendorSaid | [730](../../magpie/internal/provider/planquota.go#L730) |
+| Message | field_declaration | vendorSaid::inner | [731](../../magpie/internal/provider/planquota.go#L731) |
+| planKeyWindows | function_declaration |  | [750](../../magpie/internal/provider/planquota.go#L750) |
+| planQuotaCache | var_spec |  | [769](../../magpie/internal/provider/planquota.go#L769) |
+| at | field_declaration | planQuotaCache | [771](../../magpie/internal/provider/planquota.go#L771) |
+| data | field_declaration | planQuotaCache | [772](../../magpie/internal/provider/planquota.go#L772) |
+| ForgetPlanQuotas | function_declaration |  | [777](../../magpie/internal/provider/planquota.go#L777) |
+| PlanQuotas | function_declaration |  | [782](../../magpie/internal/provider/planquota.go#L782) |
+| job | type_spec | PlanQuotas | [794](../../magpie/internal/provider/planquota.go#L794) |
+| p | field_declaration | PlanQuotas::job | [795](../../magpie/internal/provider/planquota.go#L795) |
+| src | field_declaration | PlanQuotas::job | [796](../../magpie/internal/provider/planquota.go#L796) |
+| key | field_declaration | PlanQuotas::job | [797](../../magpie/internal/provider/planquota.go#L797) |

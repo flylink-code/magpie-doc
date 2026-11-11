@@ -4,29 +4,36 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/tools_mcp.go) · page 1/1
 
-Source SHA-256: f01baa40424dde7754c6244d4c5af7a3fb82ddff3ac65f7a2066ce1d70f313bb
+Source SHA-256: 8f67d5c2091746be11f0bda953e0376376c13e2e881254ebb39c3a9cf639f6a7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ToolsMCPPath | const_spec |  | [31](../../magpie/internal/gateway/tools_mcp.go#L31) |
-| toolsMCPBody | const_spec |  | [35](../../magpie/internal/gateway/tools_mcp.go#L35) |
-| pluginTools | var_spec |  | [40](../../magpie/internal/gateway/tools_mcp.go#L40) |
-| runPluginTool | var_spec |  | [41](../../magpie/internal/gateway/tools_mcp.go#L41) |
-| errToolsOff | const_spec |  | [45](../../magpie/internal/gateway/tools_mcp.go#L45) |
-| toolsMCP | method_declaration |  | [47](../../magpie/internal/gateway/tools_mcp.go#L47) |
-| mcpTool | type_spec |  | [52](../../magpie/internal/gateway/tools_mcp.go#L52) |
-| spec | field_declaration | mcpTool | [53](../../magpie/internal/gateway/tools_mcp.go#L53) |
-| name | field_declaration | mcpTool | [55](../../magpie/internal/gateway/tools_mcp.go#L55) |
-| unsafeToolChars | var_spec |  | [58](../../magpie/internal/gateway/tools_mcp.go#L58) |
-| toolPrefix | function_declaration |  | [63](../../magpie/internal/gateway/tools_mcp.go#L63) |
-| servedTools | function_declaration |  | [76](../../magpie/internal/gateway/tools_mcp.go#L76) |
-| cutName | function_declaration |  | [89](../../magpie/internal/gateway/tools_mcp.go#L89) |
-| namedTools | function_declaration |  | [102](../../magpie/internal/gateway/tools_mcp.go#L102) |
-| out | var_spec | namedTools | [103](../../magpie/internal/gateway/tools_mcp.go#L103) |
-| ToolNames | function_declaration |  | [123](../../magpie/internal/gateway/tools_mcp.go#L123) |
-| anyPluginOn | var_spec |  | [136](../../magpie/internal/gateway/tools_mcp.go#L136) |
-| toolsMCPCall | method_declaration |  | [145](../../magpie/internal/gateway/tools_mcp.go#L145) |
-| p | var_spec | toolsMCPCall | [175](../../magpie/internal/gateway/tools_mcp.go#L175) |
-| Name | field_declaration | toolsMCPCall::p | [176](../../magpie/internal/gateway/tools_mcp.go#L176) |
-| Arguments | field_declaration | toolsMCPCall::p | [177](../../magpie/internal/gateway/tools_mcp.go#L177) |
-| toolsMCPRun | method_declaration |  | [205](../../magpie/internal/gateway/tools_mcp.go#L205) |
+| ToolsMCPPath | const_spec |  | [34](../../magpie/internal/gateway/tools_mcp.go#L34) |
+| toolsMCPBody | const_spec |  | [38](../../magpie/internal/gateway/tools_mcp.go#L38) |
+| pluginTools | var_spec |  | [43](../../magpie/internal/gateway/tools_mcp.go#L43) |
+| runPluginTool | var_spec |  | [44](../../magpie/internal/gateway/tools_mcp.go#L44) |
+| errToolsOff | const_spec |  | [48](../../magpie/internal/gateway/tools_mcp.go#L48) |
+| toolsMCP | method_declaration |  | [50](../../magpie/internal/gateway/tools_mcp.go#L50) |
+| mcpTool | type_spec |  | [55](../../magpie/internal/gateway/tools_mcp.go#L55) |
+| spec | field_declaration | mcpTool | [56](../../magpie/internal/gateway/tools_mcp.go#L56) |
+| name | field_declaration | mcpTool | [58](../../magpie/internal/gateway/tools_mcp.go#L58) |
+| unsafeToolChars | var_spec |  | [61](../../magpie/internal/gateway/tools_mcp.go#L61) |
+| toolPrefix | function_declaration |  | [66](../../magpie/internal/gateway/tools_mcp.go#L66) |
+| servedTools | function_declaration |  | [79](../../magpie/internal/gateway/tools_mcp.go#L79) |
+| cutName | function_declaration |  | [92](../../magpie/internal/gateway/tools_mcp.go#L92) |
+| namedTools | function_declaration |  | [105](../../magpie/internal/gateway/tools_mcp.go#L105) |
+| out | var_spec | namedTools | [106](../../magpie/internal/gateway/tools_mcp.go#L106) |
+| ToolNames | function_declaration |  | [126](../../magpie/internal/gateway/tools_mcp.go#L126) |
+| anyPluginOn | var_spec |  | [139](../../magpie/internal/gateway/tools_mcp.go#L139) |
+| toolsMCPCall | method_declaration |  | [148](../../magpie/internal/gateway/tools_mcp.go#L148) |
+| ToolsMCPOne | const_spec |  | [157](../../magpie/internal/gateway/tools_mcp.go#L157) |
+| ToolPrefix | function_declaration |  | [161](../../magpie/internal/gateway/tools_mcp.go#L161) |
+| toolsMCPOne | method_declaration |  | [163](../../magpie/internal/gateway/tools_mcp.go#L163) |
+| pluginToolsBy | function_declaration |  | [180](../../magpie/internal/gateway/tools_mcp.go#L180) |
+| PluginToolsOf | function_declaration |  | [199](../../magpie/internal/gateway/tools_mcp.go#L199) |
+| RunPluginToolOf | function_declaration |  | [207](../../magpie/internal/gateway/tools_mcp.go#L207) |
+| toolsMCPServe | method_declaration |  | [223](../../magpie/internal/gateway/tools_mcp.go#L223) |
+| p | var_spec | toolsMCPServe | [257](../../magpie/internal/gateway/tools_mcp.go#L257) |
+| Name | field_declaration | toolsMCPServe::p | [258](../../magpie/internal/gateway/tools_mcp.go#L258) |
+| Arguments | field_declaration | toolsMCPServe::p | [259](../../magpie/internal/gateway/tools_mcp.go#L259) |
+| toolsMCPRun | method_declaration |  | [290](../../magpie/internal/gateway/tools_mcp.go#L290) |

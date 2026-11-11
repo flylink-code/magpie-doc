@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/sniff.go) · page 1/1
 
-Source SHA-256: 4ade4ae8e8b0cca381807de36ed2d834afaaffbdd9d0c9d5a8e25343f81254d5
+Source SHA-256: b4a08e256bdca2c1073318e4c1c70f4507351ddcef8828b58bf8a7fec224d2d3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,50 +18,61 @@ Source SHA-256: 4ade4ae8e8b0cca381807de36ed2d834afaaffbdd9d0c9d5a8e25343f81254d5
 | served | field_declaration | usageSniffer | [22](../../magpie/internal/gateway/sniff.go#L22) |
 | ended | field_declaration | usageSniffer | [25](../../magpie/internal/gateway/sniff.go#L25) |
 | failed | field_declaration | usageSniffer | [28](../../magpie/internal/gateway/sniff.go#L28) |
-| tail | field_declaration | usageSniffer | [30](../../magpie/internal/gateway/sniff.go#L30) |
-| newSniffer | function_declaration |  | [33](../../magpie/internal/gateway/sniff.go#L33) |
-| write | method_declaration |  | [37](../../magpie/internal/gateway/sniff.go#L37) |
-| line | method_declaration |  | [61](../../magpie/internal/gateway/sniff.go#L61) |
-| flushEvent | method_declaration |  | [91](../../magpie/internal/gateway/sniff.go#L91) |
-| parse | method_declaration |  | [98](../../magpie/internal/gateway/sniff.go#L98) |
-| t | var_spec | parse | [103](../../magpie/internal/gateway/sniff.go#L103) |
-| Type | field_declaration | parse::t | [104](../../magpie/internal/gateway/sniff.go#L104) |
-| Error | field_declaration | parse::t | [105](../../magpie/internal/gateway/sniff.go#L105) |
-| Response | field_declaration | parse::t | [106](../../magpie/internal/gateway/sniff.go#L106) |
-| Error | field_declaration | parse::t::Response | [107](../../magpie/internal/gateway/sniff.go#L107) |
-| v | var_spec | parse | [147](../../magpie/internal/gateway/sniff.go#L147) |
-| ResponseID | field_declaration | parse::v | [148](../../magpie/internal/gateway/sniff.go#L148) |
-| ModelVersion | field_declaration | parse::v | [149](../../magpie/internal/gateway/sniff.go#L149) |
-| UsageMetadata | field_declaration | parse::v | [150](../../magpie/internal/gateway/sniff.go#L150) |
-| Prompt | field_declaration | parse::v::UsageMetadata | [151](../../magpie/internal/gateway/sniff.go#L151) |
-| Candidates | field_declaration | parse::v::UsageMetadata | [152](../../magpie/internal/gateway/sniff.go#L152) |
-| Thoughts | field_declaration | parse::v::UsageMetadata | [153](../../magpie/internal/gateway/sniff.go#L153) |
-| Cached | field_declaration | parse::v::UsageMetadata | [154](../../magpie/internal/gateway/sniff.go#L154) |
-| v | var_spec | parse | [167](../../magpie/internal/gateway/sniff.go#L167) |
-| ID | field_declaration | parse::v | [168](../../magpie/internal/gateway/sniff.go#L168) |
-| Error | field_declaration | parse::v | [169](../../magpie/internal/gateway/sniff.go#L169) |
-| Model | field_declaration | parse::v | [170](../../magpie/internal/gateway/sniff.go#L170) |
-| Usage | field_declaration | parse::v | [171](../../magpie/internal/gateway/sniff.go#L171) |
-| v | var_spec | parse | [183](../../magpie/internal/gateway/sniff.go#L183) |
-| ID | field_declaration | parse::v | [184](../../magpie/internal/gateway/sniff.go#L184) |
-| Type | field_declaration | parse::v | [185](../../magpie/internal/gateway/sniff.go#L185) |
-| Model | field_declaration | parse::v | [186](../../magpie/internal/gateway/sniff.go#L186) |
-| Usage | field_declaration | parse::v | [187](../../magpie/internal/gateway/sniff.go#L187) |
-| Response | field_declaration | parse::v | [188](../../magpie/internal/gateway/sniff.go#L188) |
-| ID | field_declaration | parse::v::Response | [189](../../magpie/internal/gateway/sniff.go#L189) |
-| Model | field_declaration | parse::v::Response | [190](../../magpie/internal/gateway/sniff.go#L190) |
-| Usage | field_declaration | parse::v::Response | [191](../../magpie/internal/gateway/sniff.go#L191) |
-| v | var_spec | parse | [209](../../magpie/internal/gateway/sniff.go#L209) |
-| ID | field_declaration | parse::v | [210](../../magpie/internal/gateway/sniff.go#L210) |
-| Type | field_declaration | parse::v | [211](../../magpie/internal/gateway/sniff.go#L211) |
-| Model | field_declaration | parse::v | [212](../../magpie/internal/gateway/sniff.go#L212) |
-| Usage | field_declaration | parse::v | [213](../../magpie/internal/gateway/sniff.go#L213) |
-| Message | field_declaration | parse::v | [214](../../magpie/internal/gateway/sniff.go#L214) |
-| ID | field_declaration | parse::v::Message | [215](../../magpie/internal/gateway/sniff.go#L215) |
-| Model | field_declaration | parse::v::Message | [216](../../magpie/internal/gateway/sniff.go#L216) |
-| Usage | field_declaration | parse::v::Message | [217](../../magpie/internal/gateway/sniff.go#L217) |
-| saw | method_declaration |  | [239](../../magpie/internal/gateway/sniff.go#L239) |
-| lastEvent | function_declaration |  | [246](../../magpie/internal/gateway/sniff.go#L246) |
-| whole | method_declaration |  | [256](../../magpie/internal/gateway/sniff.go#L256) |
-| drain | method_declaration |  | [261](../../magpie/internal/gateway/sniff.go#L261) |
-| usage | method_declaration |  | [273](../../magpie/internal/gateway/sniff.go#L273) |
+| failedNamed | field_declaration | usageSniffer | [31](../../magpie/internal/gateway/sniff.go#L31) |
+| tail | field_declaration | usageSniffer | [33](../../magpie/internal/gateway/sniff.go#L33) |
+| found | field_declaration | usageSniffer | [35](../../magpie/internal/gateway/sniff.go#L35) |
+| resp | field_declaration | usageSniffer | [38](../../magpie/internal/gateway/sniff.go#L38) |
+| respTail | type_spec |  | [44](../../magpie/internal/gateway/sniff.go#L44) |
+| id | field_declaration | respTail | [45](../../magpie/internal/gateway/sniff.go#L45) |
+| created | field_declaration | respTail | [46](../../magpie/internal/gateway/sniff.go#L46) |
+| next | field_declaration | respTail | [47](../../magpie/internal/gateway/sniff.go#L47) |
+| model | field_declaration | respTail | [48](../../magpie/internal/gateway/sniff.go#L48) |
+| newSniffer | function_declaration |  | [51](../../magpie/internal/gateway/sniff.go#L51) |
+| write | method_declaration |  | [55](../../magpie/internal/gateway/sniff.go#L55) |
+| line | method_declaration |  | [79](../../magpie/internal/gateway/sniff.go#L79) |
+| flushEvent | method_declaration |  | [109](../../magpie/internal/gateway/sniff.go#L109) |
+| parse | method_declaration |  | [116](../../magpie/internal/gateway/sniff.go#L116) |
+| t | var_spec | parse | [121](../../magpie/internal/gateway/sniff.go#L121) |
+| Type | field_declaration | parse::t | [122](../../magpie/internal/gateway/sniff.go#L122) |
+| Error | field_declaration | parse::t | [123](../../magpie/internal/gateway/sniff.go#L123) |
+| Response | field_declaration | parse::t | [124](../../magpie/internal/gateway/sniff.go#L124) |
+| Error | field_declaration | parse::t::Response | [125](../../magpie/internal/gateway/sniff.go#L125) |
+| v | var_spec | parse | [169](../../magpie/internal/gateway/sniff.go#L169) |
+| ResponseID | field_declaration | parse::v | [170](../../magpie/internal/gateway/sniff.go#L170) |
+| ModelVersion | field_declaration | parse::v | [171](../../magpie/internal/gateway/sniff.go#L171) |
+| UsageMetadata | field_declaration | parse::v | [172](../../magpie/internal/gateway/sniff.go#L172) |
+| Prompt | field_declaration | parse::v::UsageMetadata | [173](../../magpie/internal/gateway/sniff.go#L173) |
+| Candidates | field_declaration | parse::v::UsageMetadata | [174](../../magpie/internal/gateway/sniff.go#L174) |
+| Thoughts | field_declaration | parse::v::UsageMetadata | [175](../../magpie/internal/gateway/sniff.go#L175) |
+| Cached | field_declaration | parse::v::UsageMetadata | [176](../../magpie/internal/gateway/sniff.go#L176) |
+| v | var_spec | parse | [189](../../magpie/internal/gateway/sniff.go#L189) |
+| ID | field_declaration | parse::v | [190](../../magpie/internal/gateway/sniff.go#L190) |
+| Error | field_declaration | parse::v | [191](../../magpie/internal/gateway/sniff.go#L191) |
+| Model | field_declaration | parse::v | [192](../../magpie/internal/gateway/sniff.go#L192) |
+| Usage | field_declaration | parse::v | [193](../../magpie/internal/gateway/sniff.go#L193) |
+| v | var_spec | parse | [205](../../magpie/internal/gateway/sniff.go#L205) |
+| ID | field_declaration | parse::v | [206](../../magpie/internal/gateway/sniff.go#L206) |
+| Type | field_declaration | parse::v | [207](../../magpie/internal/gateway/sniff.go#L207) |
+| Model | field_declaration | parse::v | [208](../../magpie/internal/gateway/sniff.go#L208) |
+| Usage | field_declaration | parse::v | [209](../../magpie/internal/gateway/sniff.go#L209) |
+| Seq | field_declaration | parse::v | [212](../../magpie/internal/gateway/sniff.go#L212) |
+| Response | field_declaration | parse::v | [213](../../magpie/internal/gateway/sniff.go#L213) |
+| ID | field_declaration | parse::v::Response | [214](../../magpie/internal/gateway/sniff.go#L214) |
+| Model | field_declaration | parse::v::Response | [215](../../magpie/internal/gateway/sniff.go#L215) |
+| Created | field_declaration | parse::v::Response | [216](../../magpie/internal/gateway/sniff.go#L216) |
+| Usage | field_declaration | parse::v::Response | [217](../../magpie/internal/gateway/sniff.go#L217) |
+| v | var_spec | parse | [244](../../magpie/internal/gateway/sniff.go#L244) |
+| ID | field_declaration | parse::v | [245](../../magpie/internal/gateway/sniff.go#L245) |
+| Type | field_declaration | parse::v | [246](../../magpie/internal/gateway/sniff.go#L246) |
+| Model | field_declaration | parse::v | [247](../../magpie/internal/gateway/sniff.go#L247) |
+| Usage | field_declaration | parse::v | [248](../../magpie/internal/gateway/sniff.go#L248) |
+| Message | field_declaration | parse::v | [249](../../magpie/internal/gateway/sniff.go#L249) |
+| ID | field_declaration | parse::v::Message | [250](../../magpie/internal/gateway/sniff.go#L250) |
+| Model | field_declaration | parse::v::Message | [251](../../magpie/internal/gateway/sniff.go#L251) |
+| Usage | field_declaration | parse::v::Message | [252](../../magpie/internal/gateway/sniff.go#L252) |
+| saw | method_declaration |  | [274](../../magpie/internal/gateway/sniff.go#L274) |
+| lastEvent | function_declaration |  | [281](../../magpie/internal/gateway/sniff.go#L281) |
+| whole | method_declaration |  | [291](../../magpie/internal/gateway/sniff.go#L291) |
+| drain | method_declaration |  | [296](../../magpie/internal/gateway/sniff.go#L296) |
+| settleWhole | method_declaration |  | [309](../../magpie/internal/gateway/sniff.go#L309) |
+| usage | method_declaration |  | [321](../../magpie/internal/gateway/sniff.go#L321) |

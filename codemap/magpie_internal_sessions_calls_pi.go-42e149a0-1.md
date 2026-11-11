@@ -4,39 +4,40 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/calls_pi.go) · page 1/1
 
-Source SHA-256: e23973ef88a830d1d0dadab185bca3c8305796824ef9e6aa87c554ff74014b74
+Source SHA-256: f431c5a53491afb06465ca5459bb4e0bf7e44e5154517389ae273118c01bb78d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| piCallFiles | function_declaration |  | [43](../../magpie/internal/sessions/calls_pi.go#L43) |
-| piGateway | function_declaration |  | [49](../../magpie/internal/sessions/calls_pi.go#L49) |
-| piCallLine | type_spec |  | [51](../../magpie/internal/sessions/calls_pi.go#L51) |
-| Type | field_declaration | piCallLine | [52](../../magpie/internal/sessions/calls_pi.go#L52) |
-| ID | field_declaration | piCallLine | [53](../../magpie/internal/sessions/calls_pi.go#L53) |
-| Timestamp | field_declaration | piCallLine | [54](../../magpie/internal/sessions/calls_pi.go#L54) |
-| Cwd | field_declaration | piCallLine | [55](../../magpie/internal/sessions/calls_pi.go#L55) |
-| Parent | field_declaration | piCallLine | [56](../../magpie/internal/sessions/calls_pi.go#L56) |
-| Provider | field_declaration | piCallLine | [57](../../magpie/internal/sessions/calls_pi.go#L57) |
-| ModelID | field_declaration | piCallLine | [58](../../magpie/internal/sessions/calls_pi.go#L58) |
-| Model | field_declaration | piCallLine | [59](../../magpie/internal/sessions/calls_pi.go#L59) |
-| Usage | field_declaration | piCallLine | [60](../../magpie/internal/sessions/calls_pi.go#L60) |
-| Message | field_declaration | piCallLine | [61](../../magpie/internal/sessions/calls_pi.go#L61) |
-| Role | field_declaration | piCallLine::Message | [62](../../magpie/internal/sessions/calls_pi.go#L62) |
-| Provider | field_declaration | piCallLine::Message | [63](../../magpie/internal/sessions/calls_pi.go#L63) |
-| Model | field_declaration | piCallLine::Message | [64](../../magpie/internal/sessions/calls_pi.go#L64) |
-| Usage | field_declaration | piCallLine::Message | [65](../../magpie/internal/sessions/calls_pi.go#L65) |
-| DurationMs | field_declaration | piCallLine::Message | [66](../../magpie/internal/sessions/calls_pi.go#L66) |
-| Duration | field_declaration | piCallLine::Message | [67](../../magpie/internal/sessions/calls_pi.go#L67) |
-| TTFT | field_declaration | piCallLine::Message | [68](../../magpie/internal/sessions/calls_pi.go#L68) |
-| piCarry | type_spec |  | [78](../../magpie/internal/sessions/calls_pi.go#L78) |
-| Header | field_declaration | piCarry | [79](../../magpie/internal/sessions/calls_pi.go#L79) |
-| Cwd | field_declaration | piCarry | [80](../../magpie/internal/sessions/calls_pi.go#L80) |
-| Since | field_declaration | piCarry | [81](../../magpie/internal/sessions/calls_pi.go#L81) |
-| Provider | field_declaration | piCarry | [82](../../magpie/internal/sessions/calls_pi.go#L82) |
-| piCallsBegin | function_declaration |  | [86](../../magpie/internal/sessions/calls_pi.go#L86) |
-| piCallsKept | function_declaration |  | [94](../../magpie/internal/sessions/calls_pi.go#L94) |
-| readPiCallLine | function_declaration |  | [97](../../magpie/internal/sessions/calls_pi.go#L97) |
-| l | var_spec | readPiCallLine | [101](../../magpie/internal/sessions/calls_pi.go#L101) |
-| piCall | function_declaration |  | [135](../../magpie/internal/sessions/calls_pi.go#L135) |
-| u | var_spec | piCall | [136](../../magpie/internal/sessions/calls_pi.go#L136) |
-| millis | var_spec | piCall | [137](../../magpie/internal/sessions/calls_pi.go#L137) |
+| piCallFiles | function_declaration |  | [50](../../magpie/internal/sessions/calls_pi.go#L50) |
+| piGateway | function_declaration |  | [58](../../magpie/internal/sessions/calls_pi.go#L58) |
+| cindyGatewayProvider | function_declaration |  | [69](../../magpie/internal/sessions/calls_pi.go#L69) |
+| piCallLine | type_spec |  | [82](../../magpie/internal/sessions/calls_pi.go#L82) |
+| Type | field_declaration | piCallLine | [83](../../magpie/internal/sessions/calls_pi.go#L83) |
+| ID | field_declaration | piCallLine | [84](../../magpie/internal/sessions/calls_pi.go#L84) |
+| Timestamp | field_declaration | piCallLine | [85](../../magpie/internal/sessions/calls_pi.go#L85) |
+| Cwd | field_declaration | piCallLine | [86](../../magpie/internal/sessions/calls_pi.go#L86) |
+| Parent | field_declaration | piCallLine | [87](../../magpie/internal/sessions/calls_pi.go#L87) |
+| Provider | field_declaration | piCallLine | [88](../../magpie/internal/sessions/calls_pi.go#L88) |
+| ModelID | field_declaration | piCallLine | [89](../../magpie/internal/sessions/calls_pi.go#L89) |
+| Model | field_declaration | piCallLine | [90](../../magpie/internal/sessions/calls_pi.go#L90) |
+| Usage | field_declaration | piCallLine | [91](../../magpie/internal/sessions/calls_pi.go#L91) |
+| Message | field_declaration | piCallLine | [92](../../magpie/internal/sessions/calls_pi.go#L92) |
+| Role | field_declaration | piCallLine::Message | [93](../../magpie/internal/sessions/calls_pi.go#L93) |
+| Provider | field_declaration | piCallLine::Message | [94](../../magpie/internal/sessions/calls_pi.go#L94) |
+| Model | field_declaration | piCallLine::Message | [95](../../magpie/internal/sessions/calls_pi.go#L95) |
+| Usage | field_declaration | piCallLine::Message | [96](../../magpie/internal/sessions/calls_pi.go#L96) |
+| DurationMs | field_declaration | piCallLine::Message | [97](../../magpie/internal/sessions/calls_pi.go#L97) |
+| Duration | field_declaration | piCallLine::Message | [98](../../magpie/internal/sessions/calls_pi.go#L98) |
+| TTFT | field_declaration | piCallLine::Message | [99](../../magpie/internal/sessions/calls_pi.go#L99) |
+| piCarry | type_spec |  | [109](../../magpie/internal/sessions/calls_pi.go#L109) |
+| Header | field_declaration | piCarry | [110](../../magpie/internal/sessions/calls_pi.go#L110) |
+| Cwd | field_declaration | piCarry | [111](../../magpie/internal/sessions/calls_pi.go#L111) |
+| Since | field_declaration | piCarry | [112](../../magpie/internal/sessions/calls_pi.go#L112) |
+| Provider | field_declaration | piCarry | [113](../../magpie/internal/sessions/calls_pi.go#L113) |
+| piCallsBegin | function_declaration |  | [117](../../magpie/internal/sessions/calls_pi.go#L117) |
+| piCallsKept | function_declaration |  | [125](../../magpie/internal/sessions/calls_pi.go#L125) |
+| readPiCallLine | function_declaration |  | [128](../../magpie/internal/sessions/calls_pi.go#L128) |
+| l | var_spec | readPiCallLine | [132](../../magpie/internal/sessions/calls_pi.go#L132) |
+| piCall | function_declaration |  | [166](../../magpie/internal/sessions/calls_pi.go#L166) |
+| u | var_spec | piCall | [167](../../magpie/internal/sessions/calls_pi.go#L167) |
+| millis | var_spec | piCall | [168](../../magpie/internal/sessions/calls_pi.go#L168) |

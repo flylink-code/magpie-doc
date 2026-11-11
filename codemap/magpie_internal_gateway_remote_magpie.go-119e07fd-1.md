@@ -4,22 +4,34 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/remote_magpie.go) · page 1/1
 
-Source SHA-256: e31d7ca632810333efd8abb0d31dea06d19ffc6d858282e62280edbae8bf3547
+Source SHA-256: b59f2e1ba7ba0ca639b99326b291acb8e8c4f84038e9f0bee72c11f057dde861
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| AgentHeader | const_spec |  | [28](../../magpie/internal/gateway/remote_magpie.go#L28) |
-| ViaHeader | const_spec |  | [29](../../magpie/internal/gateway/remote_magpie.go#L29) |
-| caller | type_spec |  | [37](../../magpie/internal/gateway/remote_magpie.go#L37) |
-| agent | field_declaration | caller | [38](../../magpie/internal/gateway/remote_magpie.go#L38) |
-| session | field_declaration | caller | [39](../../magpie/internal/gateway/remote_magpie.go#L39) |
-| native | field_declaration | caller | [40](../../magpie/internal/gateway/remote_magpie.go#L40) |
-| compact | field_declaration | caller | [43](../../magpie/internal/gateway/remote_magpie.go#L43) |
-| ua | field_declaration | caller | [46](../../magpie/internal/gateway/remote_magpie.go#L46) |
-| callerCtx | type_spec |  | [49](../../magpie/internal/gateway/remote_magpie.go#L49) |
-| withCaller | function_declaration |  | [53](../../magpie/internal/gateway/remote_magpie.go#L53) |
-| callerOf | function_declaration |  | [87](../../magpie/internal/gateway/remote_magpie.go#L87) |
-| label | function_declaration |  | [96](../../magpie/internal/gateway/remote_magpie.go#L96) |
-| boundedSession | function_declaration |  | [106](../../magpie/internal/gateway/remote_magpie.go#L106) |
-| passOnCaller | function_declaration |  | [118](../../magpie/internal/gateway/remote_magpie.go#L118) |
-| hostName | var_spec |  | [146](../../magpie/internal/gateway/remote_magpie.go#L146) |
+| AgentHeader | const_spec |  | [30](../../magpie/internal/gateway/remote_magpie.go#L30) |
+| ViaHeader | const_spec |  | [31](../../magpie/internal/gateway/remote_magpie.go#L31) |
+| HopsHeader | const_spec |  | [38](../../magpie/internal/gateway/remote_magpie.go#L38) |
+| ClientUAHeader | const_spec |  | [43](../../magpie/internal/gateway/remote_magpie.go#L43) |
+| ClaudeCacheTTLHeader | const_spec |  | [51](../../magpie/internal/gateway/remote_magpie.go#L51) |
+| MaskedAsHeader | const_spec |  | [56](../../magpie/internal/gateway/remote_magpie.go#L56) |
+| caller | type_spec |  | [64](../../magpie/internal/gateway/remote_magpie.go#L64) |
+| agent | field_declaration | caller | [65](../../magpie/internal/gateway/remote_magpie.go#L65) |
+| session | field_declaration | caller | [66](../../magpie/internal/gateway/remote_magpie.go#L66) |
+| native | field_declaration | caller | [67](../../magpie/internal/gateway/remote_magpie.go#L67) |
+| compact | field_declaration | caller | [70](../../magpie/internal/gateway/remote_magpie.go#L70) |
+| ua | field_declaration | caller | [74](../../magpie/internal/gateway/remote_magpie.go#L74) |
+| relayed | field_declaration | caller | [75](../../magpie/internal/gateway/remote_magpie.go#L75) |
+| keepTurn | field_declaration | caller | [78](../../magpie/internal/gateway/remote_magpie.go#L78) |
+| hops | field_declaration | caller | [81](../../magpie/internal/gateway/remote_magpie.go#L81) |
+| cacheTTL | field_declaration | caller | [86](../../magpie/internal/gateway/remote_magpie.go#L86) |
+| claudeHere | field_declaration | caller | [87](../../magpie/internal/gateway/remote_magpie.go#L87) |
+| maskedAs | field_declaration | caller | [90](../../magpie/internal/gateway/remote_magpie.go#L90) |
+| callerCtx | type_spec |  | [93](../../magpie/internal/gateway/remote_magpie.go#L93) |
+| withCaller | function_declaration |  | [97](../../magpie/internal/gateway/remote_magpie.go#L97) |
+| callerFrom | function_declaration |  | [127](../../magpie/internal/gateway/remote_magpie.go#L127) |
+| claudeTTLOf | function_declaration |  | [174](../../magpie/internal/gateway/remote_magpie.go#L174) |
+| callerOf | function_declaration |  | [188](../../magpie/internal/gateway/remote_magpie.go#L188) |
+| label | function_declaration |  | [197](../../magpie/internal/gateway/remote_magpie.go#L197) |
+| boundedSession | function_declaration |  | [207](../../magpie/internal/gateway/remote_magpie.go#L207) |
+| passOnCaller | function_declaration |  | [223](../../magpie/internal/gateway/remote_magpie.go#L223) |
+| hostName | var_spec |  | [267](../../magpie/internal/gateway/remote_magpie.go#L267) |

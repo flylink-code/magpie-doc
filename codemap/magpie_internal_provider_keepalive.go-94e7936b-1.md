@@ -4,20 +4,41 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/keepalive.go) · page 1/1
 
-Source SHA-256: 89b52776c087633df09498d37e61efd88145d60243b3c5155647d3103bc9d260
+Source SHA-256: 97b3b3623df10c5e29e880395ded892fe438961822507558a0a8bd443b604807
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keepAliveEvery | const_spec |  | [26](../../magpie/internal/provider/keepalive.go#L26) |
-| Renewal | type_spec |  | [29](../../magpie/internal/provider/keepalive.go#L29) |
-| Agent | field_declaration | Renewal | [30](../../magpie/internal/provider/keepalive.go#L30) |
-| User | field_declaration | Renewal | [31](../../magpie/internal/provider/keepalive.go#L31) |
-| Renewed | field_declaration | Renewal | [34](../../magpie/internal/provider/keepalive.go#L34) |
-| Err | field_declaration | Renewal | [35](../../magpie/internal/provider/keepalive.go#L35) |
-| Lapsed | field_declaration | Renewal | [36](../../magpie/internal/provider/keepalive.go#L36) |
-| RenewLogins | function_declaration |  | [42](../../magpie/internal/provider/keepalive.go#L42) |
-| refused | var_spec | RenewLogins | [68](../../magpie/internal/provider/keepalive.go#L68) |
-| renewalDue | function_declaration |  | [81](../../magpie/internal/provider/keepalive.go#L81) |
-| a | var_spec | renewalDue | [86](../../magpie/internal/provider/keepalive.go#L86) |
-| LastRefresh | field_declaration | renewalDue::a | [87](../../magpie/internal/provider/keepalive.go#L87) |
-| KeepLoginsAlive | function_declaration |  | [98](../../magpie/internal/provider/keepalive.go#L98) |
+| keepAliveEvery | const_spec |  | [45](../../magpie/internal/provider/keepalive.go#L45) |
+| keepAliveAtOnce | const_spec |  | [50](../../magpie/internal/provider/keepalive.go#L50) |
+| keepAliveRetry | const_spec |  | [56](../../magpie/internal/provider/keepalive.go#L56) |
+| renewFailed | var_spec |  | [60](../../magpie/internal/provider/keepalive.go#L60) |
+| m | field_declaration | renewFailed | [62](../../magpie/internal/provider/keepalive.go#L62) |
+| renewKey | function_declaration |  | [65](../../magpie/internal/provider/keepalive.go#L65) |
+| renewWaiting | function_declaration |  | [69](../../magpie/internal/provider/keepalive.go#L69) |
+| noteRenewal | function_declaration |  | [77](../../magpie/internal/provider/keepalive.go#L77) |
+| Renewal | type_spec |  | [92](../../magpie/internal/provider/keepalive.go#L92) |
+| Agent | field_declaration | Renewal | [93](../../magpie/internal/provider/keepalive.go#L93) |
+| User | field_declaration | Renewal | [94](../../magpie/internal/provider/keepalive.go#L94) |
+| Renewed | field_declaration | Renewal | [97](../../magpie/internal/provider/keepalive.go#L97) |
+| Err | field_declaration | Renewal | [98](../../magpie/internal/provider/keepalive.go#L98) |
+| Lapsed | field_declaration | Renewal | [99](../../magpie/internal/provider/keepalive.go#L99) |
+| RenewLogins | function_declaration |  | [105](../../magpie/internal/provider/keepalive.go#L105) |
+| renewLogins | function_declaration |  | [113](../../magpie/internal/provider/keepalive.go#L113) |
+| refused | var_spec | renewLogins | [152](../../magpie/internal/provider/keepalive.go#L152) |
+| claudeKeptAlive | function_declaration |  | [168](../../magpie/internal/provider/keepalive.go#L168) |
+| keepAliveRun | type_spec |  | [175](../../magpie/internal/provider/keepalive.go#L175) |
+| user | field_declaration | keepAliveRun | [176](../../magpie/internal/provider/keepalive.go#L176) |
+| mu | field_declaration | keepAliveRun | [177](../../magpie/internal/provider/keepalive.go#L177) |
+| ran | field_declaration | keepAliveRun | [178](../../magpie/internal/provider/keepalive.go#L178) |
+| err | field_declaration | keepAliveRun | [179](../../magpie/internal/provider/keepalive.go#L179) |
+| keepAliveRunKey | type_spec |  | [182](../../magpie/internal/provider/keepalive.go#L182) |
+| keepingAlive | function_declaration |  | [187](../../magpie/internal/provider/keepalive.go#L187) |
+| keepAliveOf | function_declaration |  | [193](../../magpie/internal/provider/keepalive.go#L193) |
+| done | method_declaration |  | [201](../../magpie/internal/provider/keepalive.go#L201) |
+| result | method_declaration |  | [207](../../magpie/internal/provider/keepalive.go#L207) |
+| errKeepAliveNotRun | var_spec |  | [215](../../magpie/internal/provider/keepalive.go#L215) |
+| renewClaude | function_declaration |  | [226](../../magpie/internal/provider/keepalive.go#L226) |
+| renewalDue | function_declaration |  | [282](../../magpie/internal/provider/keepalive.go#L282) |
+| a | var_spec | renewalDue | [287](../../magpie/internal/provider/keepalive.go#L287) |
+| LastRefresh | field_declaration | renewalDue::a | [288](../../magpie/internal/provider/keepalive.go#L288) |
+| KeepLoginsAlive | function_declaration |  | [299](../../magpie/internal/provider/keepalive.go#L299) |

@@ -4,10 +4,11 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayshown_other.go) · page 1/1
 
-Source SHA-256: e2e289237bde8e90c22be8352c9f79705ee8137526f5820af9a565c7fb2e4e19
+Source SHA-256: 606bab2f41b5b5e8f562fa1be21872b19e9b1b6d56af5b9a4ba10a1ac76d5bd0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | forgetTrayHidden | function_declaration |  | [6](../../magpie/internal/gui/trayshown_other.go#L6) |
 | forgetTrayHiddenLater | function_declaration |  | [7](../../magpie/internal/gui/trayshown_other.go#L7) |
 | bringTrayBack | function_declaration |  | [8](../../magpie/internal/gui/trayshown_other.go#L8) |
+| keepTrayPlace | function_declaration |  | [9](../../magpie/internal/gui/trayshown_other.go#L9) |

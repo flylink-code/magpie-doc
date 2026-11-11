@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/muse.go) · page 1/1
 
-Source SHA-256: bcdfc4d0537c108f1319d20a969f18cdc3664d00b65999ed6be3b7949c9dd2ff
+Source SHA-256: e016f4472902ec9565356d8622dd8040fc16167cef3f3261673697ec0bad2892
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

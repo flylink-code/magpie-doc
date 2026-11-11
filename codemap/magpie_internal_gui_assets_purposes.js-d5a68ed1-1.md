@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/purposes.js) · page 1/1
 
-Source SHA-256: e740ccf8b4c89023282f65c1a0673f35087af723e4a5442dc5b37942fbea73db
+Source SHA-256: da4bbbc979033606347140888844db3bd725f71430f1f82d17f9b82c164c9fca
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

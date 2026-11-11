@@ -4,54 +4,58 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/web.go) · page 1/1
 
-Source SHA-256: 05239f364ab68e8024817f0d6fe0c3d6ac7ba80e56840b67d74719a0c401f85b
+Source SHA-256: 9c71d4d3e0f66db68d2d3a29f7828d515b3818cc82a0d4666b311a6e3b531082
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| webHost | type_spec |  | [33](../../magpie/internal/gui/web.go#L33) |
-| quit | field_declaration | webHost | [33](../../magpie/internal/gui/web.go#L33) |
-| HidePanel | method_declaration |  | [35](../../magpie/internal/gui/web.go#L35) |
-| ShowMain | method_declaration |  | [36](../../magpie/internal/gui/web.go#L36) |
-| Quit | method_declaration |  | [37](../../magpie/internal/gui/web.go#L37) |
-| OpenURL | method_declaration |  | [38](../../magpie/internal/gui/web.go#L38) |
-| Copy | method_declaration |  | [39](../../magpie/internal/gui/web.go#L39) |
-| FitPanel | method_declaration |  | [40](../../magpie/internal/gui/web.go#L40) |
-| TintPanel | method_declaration |  | [41](../../magpie/internal/gui/web.go#L41) |
-| TintTitleBar | method_declaration |  | [42](../../magpie/internal/gui/web.go#L42) |
-| SetTextSize | method_declaration |  | [43](../../magpie/internal/gui/web.go#L43) |
-| OpenFolder | method_declaration |  | [44](../../magpie/internal/gui/web.go#L44) |
-| ChooseFolder | method_declaration |  | [47](../../magpie/internal/gui/web.go#L47) |
-| Web | type_spec |  | [53](../../magpie/internal/gui/web.go#L53) |
-| Addr | field_declaration | Web | [54](../../magpie/internal/gui/web.go#L54) |
-| key | field_declaration | Web | [55](../../magpie/internal/gui/web.go#L55) |
-| srv | field_declaration | Web | [56](../../magpie/internal/gui/web.go#L56) |
-| quit | field_declaration | Web | [57](../../magpie/internal/gui/web.go#L57) |
-| webReexec | var_spec |  | [62](../../magpie/internal/gui/web.go#L62) |
-| webRunKey | const_spec |  | [66](../../magpie/internal/gui/web.go#L66) |
-| StartWeb | function_declaration |  | [73](../../magpie/internal/gui/web.go#L73) |
-| keep | var_spec | StartWeb | [79](../../magpie/internal/gui/web.go#L79) |
-| once | var_spec | StartWeb | [97](../../magpie/internal/gui/web.go#L97) |
-| ServesGateway | method_declaration |  | [128](../../magpie/internal/gui/web.go#L128) |
-| Wait | method_declaration |  | [133](../../magpie/internal/gui/web.go#L133) |
-| webKeyMin | const_spec |  | [149](../../magpie/internal/gui/web.go#L149) |
-| webCookieAge | const_spec |  | [154](../../magpie/internal/gui/web.go#L154) |
-| webKey | function_declaration |  | [159](../../magpie/internal/gui/web.go#L159) |
-| NewWebKey | function_declaration |  | [176](../../magpie/internal/gui/web.go#L176) |
-| CheckWebKey | function_declaration |  | [184](../../magpie/internal/gui/web.go#L184) |
-| webGuard | function_declaration |  | [201](../../magpie/internal/gui/web.go#L201) |
-| webSignInPath | const_spec |  | [264](../../magpie/internal/gui/web.go#L264) |
-| localPath | function_declaration |  | [268](../../magpie/internal/gui/web.go#L268) |
-| webTurnedAway | function_declaration |  | [279](../../magpie/internal/gui/web.go#L279) |
-| NetworkLinks | function_declaration |  | [295](../../magpie/internal/gui/web.go#L295) |
-| out | var_spec | NetworkLinks | [299](../../magpie/internal/gui/web.go#L299) |
-| LANAddrs | function_declaration |  | [309](../../magpie/internal/gui/web.go#L309) |
-| out | var_spec | LANAddrs | [313](../../magpie/internal/gui/web.go#L313) |
-| webServed | function_declaration |  | [328](../../magpie/internal/gui/web.go#L328) |
-| webHandler | function_declaration |  | [334](../../magpie/internal/gui/web.go#L334) |
-| webCompressed | function_declaration |  | [353](../../magpie/internal/gui/web.go#L353) |
-| gzipETag | const_spec |  | [372](../../magpie/internal/gui/web.go#L372) |
-| compressible | function_declaration |  | [375](../../magpie/internal/gui/web.go#L375) |
-| isWeb | function_declaration |  | [385](../../magpie/internal/gui/web.go#L385) |
-| onePort | function_declaration |  | [395](../../magpie/internal/gui/web.go#L395) |
-| toGateway | var_spec |  | [416](../../magpie/internal/gui/web.go#L416) |
-| loopbackPeer | function_declaration |  | [439](../../magpie/internal/gui/web.go#L439) |
+| webHost | type_spec |  | [34](../../magpie/internal/gui/web.go#L34) |
+| quit | field_declaration | webHost | [34](../../magpie/internal/gui/web.go#L34) |
+| HidePanel | method_declaration |  | [36](../../magpie/internal/gui/web.go#L36) |
+| ShowMain | method_declaration |  | [37](../../magpie/internal/gui/web.go#L37) |
+| Quit | method_declaration |  | [38](../../magpie/internal/gui/web.go#L38) |
+| OpenURL | method_declaration |  | [39](../../magpie/internal/gui/web.go#L39) |
+| Copy | method_declaration |  | [40](../../magpie/internal/gui/web.go#L40) |
+| FitPanel | method_declaration |  | [41](../../magpie/internal/gui/web.go#L41) |
+| TintPanel | method_declaration |  | [42](../../magpie/internal/gui/web.go#L42) |
+| TintTitleBar | method_declaration |  | [43](../../magpie/internal/gui/web.go#L43) |
+| SetTextSize | method_declaration |  | [44](../../magpie/internal/gui/web.go#L44) |
+| OpenFolder | method_declaration |  | [45](../../magpie/internal/gui/web.go#L45) |
+| ChooseFolder | method_declaration |  | [48](../../magpie/internal/gui/web.go#L48) |
+| Web | type_spec |  | [55](../../magpie/internal/gui/web.go#L55) |
+| Addr | field_declaration | Web | [56](../../magpie/internal/gui/web.go#L56) |
+| key | field_declaration | Web | [57](../../magpie/internal/gui/web.go#L57) |
+| srv | field_declaration | Web | [58](../../magpie/internal/gui/web.go#L58) |
+| quit | field_declaration | Web | [59](../../magpie/internal/gui/web.go#L59) |
+| webReexec | var_spec |  | [64](../../magpie/internal/gui/web.go#L64) |
+| webRunKey | const_spec |  | [68](../../magpie/internal/gui/web.go#L68) |
+| StartWeb | function_declaration |  | [77](../../magpie/internal/gui/web.go#L77) |
+| keep | var_spec | StartWeb | [87](../../magpie/internal/gui/web.go#L87) |
+| once | var_spec | StartWeb | [105](../../magpie/internal/gui/web.go#L105) |
+| ServesGateway | method_declaration |  | [139](../../magpie/internal/gui/web.go#L139) |
+| Wait | method_declaration |  | [144](../../magpie/internal/gui/web.go#L144) |
+| webKeyMin | const_spec |  | [164](../../magpie/internal/gui/web.go#L164) |
+| webCookieAge | const_spec |  | [169](../../magpie/internal/gui/web.go#L169) |
+| webKey | function_declaration |  | [174](../../magpie/internal/gui/web.go#L174) |
+| NewWebKey | function_declaration |  | [191](../../magpie/internal/gui/web.go#L191) |
+| CheckWebKey | function_declaration |  | [199](../../magpie/internal/gui/web.go#L199) |
+| webGuard | function_declaration |  | [218](../../magpie/internal/gui/web.go#L218) |
+| webAppFiles | var_spec |  | [303](../../magpie/internal/gui/web.go#L303) |
+| webSignInPath | const_spec |  | [310](../../magpie/internal/gui/web.go#L310) |
+| localPath | function_declaration |  | [314](../../magpie/internal/gui/web.go#L314) |
+| webTurnedAway | function_declaration |  | [325](../../magpie/internal/gui/web.go#L325) |
+| NetworkLinks | function_declaration |  | [341](../../magpie/internal/gui/web.go#L341) |
+| out | var_spec | NetworkLinks | [345](../../magpie/internal/gui/web.go#L345) |
+| LANAddrs | function_declaration |  | [357](../../magpie/internal/gui/web.go#L357) |
+| webServed | function_declaration |  | [367](../../magpie/internal/gui/web.go#L367) |
+| webHandler | function_declaration |  | [373](../../magpie/internal/gui/web.go#L373) |
+| webOwnPage | function_declaration |  | [396](../../magpie/internal/gui/web.go#L396) |
+| webCompressed | function_declaration |  | [440](../../magpie/internal/gui/web.go#L440) |
+| gzipETag | const_spec |  | [459](../../magpie/internal/gui/web.go#L459) |
+| compressible | function_declaration |  | [464](../../magpie/internal/gui/web.go#L464) |
+| browserTab | type_spec |  | [478](../../magpie/internal/gui/web.go#L478) |
+| browserTab | method_declaration |  | [480](../../magpie/internal/gui/web.go#L480) |
+| isWeb | function_declaration |  | [483](../../magpie/internal/gui/web.go#L483) |
+| ownWeb | function_declaration |  | [487](../../magpie/internal/gui/web.go#L487) |
+| onePort | function_declaration |  | [501](../../magpie/internal/gui/web.go#L501) |
+| toGateway | var_spec |  | [524](../../magpie/internal/gui/web.go#L524) |
+| loopbackPeer | function_declaration |  | [550](../../magpie/internal/gui/web.go#L550) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usageapi/usageapi.go) · page 1/1
 
-Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
+Source SHA-256: 24c6a791d2427af1a3b784485d3737be196d63564ffe6fdf0242f7b0bd81538b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -31,47 +31,58 @@ Source SHA-256: 71046a3c4c3c82b45c0c46fff6f42485c51dd9b45ee76b3dbd6818c64474f69b
 | FilterIn | function_declaration |  | [95](../../magpie/internal/usageapi/usageapi.go#L95) |
 | stateOf | function_declaration |  | [101](../../magpie/internal/usageapi/usageapi.go#L101) |
 | providerFaces | function_declaration |  | [140](../../magpie/internal/usageapi/usageapi.go#L140) |
-| callerGroups | function_declaration |  | [164](../../magpie/internal/usageapi/usageapi.go#L164) |
-| PeriodOf | function_declaration |  | [186](../../magpie/internal/usageapi/usageapi.go#L186) |
-| FilterOf | function_declaration |  | [193](../../magpie/internal/usageapi/usageapi.go#L193) |
-| viaOf | function_declaration |  | [199](../../magpie/internal/usageapi/usageapi.go#L199) |
-| Row | type_spec |  | [208](../../magpie/internal/usageapi/usageapi.go#L208) |
-| CallerKeyLabel | field_declaration | Row | [210](../../magpie/internal/usageapi/usageapi.go#L210) |
-| AgentName | field_declaration | Row | [211](../../magpie/internal/usageapi/usageapi.go#L211) |
-| Icon | field_declaration | Row | [212](../../magpie/internal/usageapi/usageapi.go#L212) |
-| ProviderName | field_declaration | Row | [213](../../magpie/internal/usageapi/usageapi.go#L213) |
-| Access | field_declaration | Row | [214](../../magpie/internal/usageapi/usageapi.go#L214) |
-| PricingModel | field_declaration | Row | [215](../../magpie/internal/usageapi/usageapi.go#L215) |
-| ComputerName | field_declaration | Row | [217](../../magpie/internal/usageapi/usageapi.go#L217) |
-| Ledger | type_spec |  | [220](../../magpie/internal/usageapi/usageapi.go#L220) |
-| CallerKeys | field_declaration | Ledger | [221](../../magpie/internal/usageapi/usageapi.go#L221) |
-| Period | field_declaration | Ledger | [222](../../magpie/internal/usageapi/usageapi.go#L222) |
-| Rows | field_declaration | Ledger | [223](../../magpie/internal/usageapi/usageapi.go#L223) |
-| Offset | field_declaration | Ledger | [224](../../magpie/internal/usageapi/usageapi.go#L224) |
-| Total | field_declaration | Ledger | [225](../../magpie/internal/usageapi/usageapi.go#L225) |
-| Bucket | field_declaration | Ledger | [227](../../magpie/internal/usageapi/usageapi.go#L227) |
-| Series | field_declaration | Ledger | [228](../../magpie/internal/usageapi/usageapi.go#L228) |
-| By | field_declaration | Ledger | [233](../../magpie/internal/usageapi/usageapi.go#L233) |
-| ChartBy | field_declaration | Ledger | [234](../../magpie/internal/usageapi/usageapi.go#L234) |
-| Day | field_declaration | Ledger | [235](../../magpie/internal/usageapi/usageapi.go#L235) |
-| Through | field_declaration | Ledger | [240](../../magpie/internal/usageapi/usageapi.go#L240) |
-| Direct | field_declaration | Ledger | [241](../../magpie/internal/usageapi/usageapi.go#L241) |
-| Reported | field_declaration | Ledger | [244](../../magpie/internal/usageapi/usageapi.go#L244) |
-| Agents | field_declaration | Ledger | [246](../../magpie/internal/usageapi/usageapi.go#L246) |
-| Providers | field_declaration | Ledger | [247](../../magpie/internal/usageapi/usageapi.go#L247) |
-| Purposes | field_declaration | Ledger | [248](../../magpie/internal/usageapi/usageapi.go#L248) |
-| Accounts | field_declaration | Ledger | [251](../../magpie/internal/usageapi/usageapi.go#L251) |
-| Computers | field_declaration | Ledger | [254](../../magpie/internal/usageapi/usageapi.go#L254) |
-| Share | type_spec |  | [258](../../magpie/internal/usageapi/usageapi.go#L258) |
-| Name | field_declaration | Share | [260](../../magpie/internal/usageapi/usageapi.go#L260) |
-| Icon | field_declaration | Share | [261](../../magpie/internal/usageapi/usageapi.go#L261) |
-| Account | type_spec |  | [268](../../magpie/internal/usageapi/usageapi.go#L268) |
-| ID | field_declaration | Account | [269](../../magpie/internal/usageapi/usageapi.go#L269) |
-| Name | field_declaration | Account | [270](../../magpie/internal/usageapi/usageapi.go#L270) |
-| Providers | field_declaration | Account | [271](../../magpie/internal/usageapi/usageapi.go#L271) |
-| Named | type_spec |  | [274](../../magpie/internal/usageapi/usageapi.go#L274) |
-| ID | field_declaration | Named | [275](../../magpie/internal/usageapi/usageapi.go#L275) |
-| Name | field_declaration | Named | [276](../../magpie/internal/usageapi/usageapi.go#L276) |
-| Icon | field_declaration | Named | [277](../../magpie/internal/usageapi/usageapi.go#L277) |
-| LedgerPage | function_declaration |  | [282](../../magpie/internal/usageapi/usageapi.go#L282) |
-| OwnPage | function_declaration |  | [421](../../magpie/internal/usageapi/usageapi.go#L421) |
+| callerGroups | function_declaration |  | [175](../../magpie/internal/usageapi/usageapi.go#L175) |
+| inKeyOrder | function_declaration |  | [199](../../magpie/internal/usageapi/usageapi.go#L199) |
+| PeriodOf | function_declaration |  | [220](../../magpie/internal/usageapi/usageapi.go#L220) |
+| FilterOf | function_declaration |  | [230](../../magpie/internal/usageapi/usageapi.go#L230) |
+| viaOf | function_declaration |  | [236](../../magpie/internal/usageapi/usageapi.go#L236) |
+| Row | type_spec |  | [245](../../magpie/internal/usageapi/usageapi.go#L245) |
+| CallerKeyLabel | field_declaration | Row | [247](../../magpie/internal/usageapi/usageapi.go#L247) |
+| AgentName | field_declaration | Row | [248](../../magpie/internal/usageapi/usageapi.go#L248) |
+| Icon | field_declaration | Row | [249](../../magpie/internal/usageapi/usageapi.go#L249) |
+| ProviderName | field_declaration | Row | [250](../../magpie/internal/usageapi/usageapi.go#L250) |
+| Access | field_declaration | Row | [251](../../magpie/internal/usageapi/usageapi.go#L251) |
+| PricingModel | field_declaration | Row | [252](../../magpie/internal/usageapi/usageapi.go#L252) |
+| ComputerName | field_declaration | Row | [254](../../magpie/internal/usageapi/usageapi.go#L254) |
+| Canceled | field_declaration | Row | [257](../../magpie/internal/usageapi/usageapi.go#L257) |
+| ModelSpeed | type_spec |  | [261](../../magpie/internal/usageapi/usageapi.go#L261) |
+| Name | field_declaration | ModelSpeed | [263](../../magpie/internal/usageapi/usageapi.go#L263) |
+| Ledger | type_spec |  | [266](../../magpie/internal/usageapi/usageapi.go#L266) |
+| CallerKeys | field_declaration | Ledger | [267](../../magpie/internal/usageapi/usageapi.go#L267) |
+| Period | field_declaration | Ledger | [268](../../magpie/internal/usageapi/usageapi.go#L268) |
+| Rows | field_declaration | Ledger | [269](../../magpie/internal/usageapi/usageapi.go#L269) |
+| Offset | field_declaration | Ledger | [270](../../magpie/internal/usageapi/usageapi.go#L270) |
+| Total | field_declaration | Ledger | [271](../../magpie/internal/usageapi/usageapi.go#L271) |
+| Bucket | field_declaration | Ledger | [273](../../magpie/internal/usageapi/usageapi.go#L273) |
+| Series | field_declaration | Ledger | [274](../../magpie/internal/usageapi/usageapi.go#L274) |
+| By | field_declaration | Ledger | [279](../../magpie/internal/usageapi/usageapi.go#L279) |
+| ChartBy | field_declaration | Ledger | [280](../../magpie/internal/usageapi/usageapi.go#L280) |
+| Day | field_declaration | Ledger | [281](../../magpie/internal/usageapi/usageapi.go#L281) |
+| Through | field_declaration | Ledger | [286](../../magpie/internal/usageapi/usageapi.go#L286) |
+| Direct | field_declaration | Ledger | [287](../../magpie/internal/usageapi/usageapi.go#L287) |
+| Reported | field_declaration | Ledger | [290](../../magpie/internal/usageapi/usageapi.go#L290) |
+| Agents | field_declaration | Ledger | [292](../../magpie/internal/usageapi/usageapi.go#L292) |
+| Providers | field_declaration | Ledger | [293](../../magpie/internal/usageapi/usageapi.go#L293) |
+| Purposes | field_declaration | Ledger | [294](../../magpie/internal/usageapi/usageapi.go#L294) |
+| Accounts | field_declaration | Ledger | [297](../../magpie/internal/usageapi/usageapi.go#L297) |
+| Computers | field_declaration | Ledger | [300](../../magpie/internal/usageapi/usageapi.go#L300) |
+| Speeds | field_declaration | Ledger | [303](../../magpie/internal/usageapi/usageapi.go#L303) |
+| SpeedMin | field_declaration | Ledger | [305](../../magpie/internal/usageapi/usageapi.go#L305) |
+| Share | type_spec |  | [309](../../magpie/internal/usageapi/usageapi.go#L309) |
+| Name | field_declaration | Share | [311](../../magpie/internal/usageapi/usageapi.go#L311) |
+| Icon | field_declaration | Share | [312](../../magpie/internal/usageapi/usageapi.go#L312) |
+| Account | type_spec |  | [319](../../magpie/internal/usageapi/usageapi.go#L319) |
+| ID | field_declaration | Account | [320](../../magpie/internal/usageapi/usageapi.go#L320) |
+| Name | field_declaration | Account | [321](../../magpie/internal/usageapi/usageapi.go#L321) |
+| Providers | field_declaration | Account | [322](../../magpie/internal/usageapi/usageapi.go#L322) |
+| Named | type_spec |  | [325](../../magpie/internal/usageapi/usageapi.go#L325) |
+| ID | field_declaration | Named | [326](../../magpie/internal/usageapi/usageapi.go#L326) |
+| Name | field_declaration | Named | [327](../../magpie/internal/usageapi/usageapi.go#L327) |
+| Icon | field_declaration | Named | [328](../../magpie/internal/usageapi/usageapi.go#L328) |
+| Deleted | field_declaration | Named | [331](../../magpie/internal/usageapi/usageapi.go#L331) |
+| Merged | field_declaration | Named | [334](../../magpie/internal/usageapi/usageapi.go#L334) |
+| Merged | type_spec |  | [338](../../magpie/internal/usageapi/usageapi.go#L338) |
+| ID | field_declaration | Merged | [339](../../magpie/internal/usageapi/usageapi.go#L339) |
+| Name | field_declaration | Merged | [340](../../magpie/internal/usageapi/usageapi.go#L340) |
+| LedgerPage | function_declaration |  | [345](../../magpie/internal/usageapi/usageapi.go#L345) |
+| OwnPage | function_declaration |  | [490](../../magpie/internal/usageapi/usageapi.go#L490) |

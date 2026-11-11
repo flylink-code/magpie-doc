@@ -4,23 +4,47 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/calls.go) · page 3/3
 
-Source SHA-256: 66bad5bfa65fc87cd7ef003dee04360fab8dc9793d1cd2f4e3838079e8b5498d
+Source SHA-256: 543e781b255e7c5ad45e3a0399358b97eb80e12f56cd7e09dd38cffe9d2b6e39
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexChanged | method_declaration |  | [1004](../../magpie/internal/sessions/calls.go#L1004) |
-| codexTiming | method_declaration |  | [1082](../../magpie/internal/sessions/calls.go#L1082) |
-| codexCompact | method_declaration |  | [1108](../../magpie/internal/sessions/calls.go#L1108) |
-| hashHead | function_declaration |  | [1116](../../magpie/internal/sessions/calls.go#L1116) |
-| sameHead | function_declaration |  | [1117](../../magpie/internal/sessions/calls.go#L1117) |
-| prefixHash | function_declaration |  | [1125](../../magpie/internal/sessions/calls.go#L1125) |
-| window | const_spec | prefixHash | [1132](../../magpie/internal/sessions/calls.go#L1132) |
-| hashBufs | var_spec |  | [1155](../../magpie/internal/sessions/calls.go#L1155) |
-| CallSource | type_spec |  | [1158](../../magpie/internal/sessions/calls.go#L1158) |
-| Path | field_declaration | CallSource | [1159](../../magpie/internal/sessions/calls.go#L1159) |
-| Size | field_declaration | CallSource | [1160](../../magpie/internal/sessions/calls.go#L1160) |
-| Modified | field_declaration | CallSource | [1161](../../magpie/internal/sessions/calls.go#L1161) |
-| CallSources | function_declaration |  | [1164](../../magpie/internal/sessions/calls.go#L1164) |
-| CallSourcesAndCodexIdentities | function_declaration |  | [1170](../../magpie/internal/sessions/calls.go#L1170) |
-| callSourcesOf | function_declaration |  | [1176](../../magpie/internal/sessions/calls.go#L1176) |
-| ReadCallSource | function_declaration |  | [1187](../../magpie/internal/sessions/calls.go#L1187) |
+| UserID | field_declaration | cxCall::Payload | [1024](../../magpie/internal/sessions/calls.go#L1024) |
+| Cwd | field_declaration | cxCall::Payload | [1025](../../magpie/internal/sessions/calls.go#L1025) |
+| Model | field_declaration | cxCall::Payload | [1026](../../magpie/internal/sessions/calls.go#L1026) |
+| Effort | field_declaration | cxCall::Payload | [1027](../../magpie/internal/sessions/calls.go#L1027) |
+| TurnID | field_declaration | cxCall::Payload | [1028](../../magpie/internal/sessions/calls.go#L1028) |
+| ResponseID | field_declaration | cxCall::Payload | [1029](../../magpie/internal/sessions/calls.go#L1029) |
+| Usage | field_declaration | cxCall::Payload | [1030](../../magpie/internal/sessions/calls.go#L1030) |
+| ThreadUsage | field_declaration | cxCall::Payload | [1031](../../magpie/internal/sessions/calls.go#L1031) |
+| Duration | field_declaration | cxCall::Payload | [1032](../../magpie/internal/sessions/calls.go#L1032) |
+| FirstToken | field_declaration | cxCall::Payload | [1033](../../magpie/internal/sessions/calls.go#L1033) |
+| Settings | field_declaration | cxCall::Payload | [1034](../../magpie/internal/sessions/calls.go#L1034) |
+| Model | field_declaration | cxCall::Payload::Settings | [1035](../../magpie/internal/sessions/calls.go#L1035) |
+| Upstream | field_declaration | cxCall::Payload::Settings | [1036](../../magpie/internal/sessions/calls.go#L1036) |
+| Info | field_declaration | cxCall::Payload | [1038](../../magpie/internal/sessions/calls.go#L1038) |
+| Total | field_declaration | cxCall::Payload::Info | [1039](../../magpie/internal/sessions/calls.go#L1039) |
+| Last | field_declaration | cxCall::Payload::Info | [1040](../../magpie/internal/sessions/calls.go#L1040) |
+| codexCallLine | function_declaration |  | [1047](../../magpie/internal/sessions/calls.go#L1047) |
+| l | var_spec | codexCallLine | [1084](../../magpie/internal/sessions/calls.go#L1084) |
+| saveContext | method_declaration |  | [1168](../../magpie/internal/sessions/calls.go#L1168) |
+| markCall | method_declaration |  | [1176](../../magpie/internal/sessions/calls.go#L1176) |
+| codexChanged | method_declaration |  | [1182](../../magpie/internal/sessions/calls.go#L1182) |
+| codexTiming | method_declaration |  | [1260](../../magpie/internal/sessions/calls.go#L1260) |
+| codexCompact | method_declaration |  | [1286](../../magpie/internal/sessions/calls.go#L1286) |
+| hashHead | function_declaration |  | [1294](../../magpie/internal/sessions/calls.go#L1294) |
+| sameHead | function_declaration |  | [1295](../../magpie/internal/sessions/calls.go#L1295) |
+| prefixHash | function_declaration |  | [1303](../../magpie/internal/sessions/calls.go#L1303) |
+| window | const_spec | prefixHash | [1310](../../magpie/internal/sessions/calls.go#L1310) |
+| hashBufs | var_spec |  | [1333](../../magpie/internal/sessions/calls.go#L1333) |
+| CallSource | type_spec |  | [1336](../../magpie/internal/sessions/calls.go#L1336) |
+| Path | field_declaration | CallSource | [1337](../../magpie/internal/sessions/calls.go#L1337) |
+| Size | field_declaration | CallSource | [1338](../../magpie/internal/sessions/calls.go#L1338) |
+| Modified | field_declaration | CallSource | [1339](../../magpie/internal/sessions/calls.go#L1339) |
+| CallSources | function_declaration |  | [1342](../../magpie/internal/sessions/calls.go#L1342) |
+| CallSourcesAndCodexIdentities | function_declaration |  | [1348](../../magpie/internal/sessions/calls.go#L1348) |
+| listingBufs | var_spec |  | [1361](../../magpie/internal/sessions/calls.go#L1361) |
+| listingBuf | function_declaration |  | [1363](../../magpie/internal/sessions/calls.go#L1363) |
+| putListingBuf | function_declaration |  | [1370](../../magpie/internal/sessions/calls.go#L1370) |
+| callSourcesOf | function_declaration |  | [1375](../../magpie/internal/sessions/calls.go#L1375) |
+| ReadCallSource | function_declaration |  | [1386](../../magpie/internal/sessions/calls.go#L1386) |
+| desktopEntrypoint | function_declaration |  | [1416](../../magpie/internal/sessions/calls.go#L1416) |

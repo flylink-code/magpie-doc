@@ -4,48 +4,56 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/whatsnew.go) · page 1/1
 
-Source SHA-256: c459f163ccfe9e8ac8dd881c1f7e9b1292eae806ae76f8eb79822e596e82372d
+Source SHA-256: 583080fd9938065fe07980d08ca8c7ba10d4b3451c353c26c8ac38e304c46a83
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| whatsNew | type_spec |  | [36](../../magpie/internal/gui/whatsnew.go#L36) |
-| mu | field_declaration | whatsNew | [37](../../magpie/internal/gui/whatsnew.go#L37) |
-| after | field_declaration | whatsNew | [38](../../magpie/internal/gui/whatsnew.go#L38) |
-| pending | field_declaration | whatsNew | [39](../../magpie/internal/gui/whatsnew.go#L39) |
-| quiet | field_declaration | whatsNew | [40](../../magpie/internal/gui/whatsnew.go#L40) |
-| shown | field_declaration | whatsNew | [41](../../magpie/internal/gui/whatsnew.go#L41) |
-| notes | field_declaration | whatsNew | [42](../../magpie/internal/gui/whatsnew.go#L42) |
-| back | field_declaration | whatsNew | [43](../../magpie/internal/gui/whatsnew.go#L43) |
-| backNotes | type_spec |  | [48](../../magpie/internal/gui/whatsnew.go#L48) |
-| n | field_declaration | backNotes | [49](../../magpie/internal/gui/whatsnew.go#L49) |
-| list | field_declaration | backNotes | [50](../../magpie/internal/gui/whatsnew.go#L50) |
-| news | var_spec |  | [53](../../magpie/internal/gui/whatsnew.go#L53) |
-| started | var_spec |  | [57](../../magpie/internal/gui/whatsnew.go#L57) |
-| lastRunFile | const_spec |  | [59](../../magpie/internal/gui/whatsnew.go#L59) |
-| updatedInAppFile | const_spec |  | [63](../../magpie/internal/gui/whatsnew.go#L63) |
-| quietDayFile | const_spec |  | [67](../../magpie/internal/gui/whatsnew.go#L67) |
-| today | var_spec |  | [70](../../magpie/internal/gui/whatsnew.go#L70) |
-| updatedInApp | function_declaration |  | [73](../../magpie/internal/gui/whatsnew.go#L73) |
-| quietToday | function_declaration |  | [87](../../magpie/internal/gui/whatsnew.go#L87) |
-| setQuietToday | function_declaration |  | [93](../../magpie/internal/gui/whatsnew.go#L93) |
-| start | method_declaration |  | [108](../../magpie/internal/gui/whatsnew.go#L108) |
-| usedBefore | function_declaration |  | [136](../../magpie/internal/gui/whatsnew.go#L136) |
-| whatsNewJSON | type_spec |  | [145](../../magpie/internal/gui/whatsnew.go#L145) |
-| Show | field_declaration | whatsNewJSON | [146](../../magpie/internal/gui/whatsnew.go#L146) |
-| Current | field_declaration | whatsNewJSON | [147](../../magpie/internal/gui/whatsnew.go#L147) |
-| Releases | field_declaration | whatsNewJSON | [148](../../magpie/internal/gui/whatsnew.go#L148) |
-| Error | field_declaration | whatsNewJSON | [152](../../magpie/internal/gui/whatsnew.go#L152) |
-| URL | field_declaration | whatsNewJSON | [153](../../magpie/internal/gui/whatsnew.go#L153) |
-| get | method_declaration |  | [159](../../magpie/internal/gui/whatsnew.go#L159) |
-| err | var_spec | get | [177](../../magpie/internal/gui/whatsnew.go#L177) |
-| notesKey | function_declaration |  | [201](../../magpie/internal/gui/whatsnew.go#L201) |
-| before | method_declaration |  | [214](../../magpie/internal/gui/whatsnew.go#L214) |
-| backCount | function_declaration |  | [250](../../magpie/internal/gui/whatsnew.go#L250) |
-| withWaiting | function_declaration |  | [265](../../magpie/internal/gui/whatsnew.go#L265) |
-| seen | method_declaration |  | [292](../../magpie/internal/gui/whatsnew.go#L292) |
-| fetchNotes | function_declaration |  | [303](../../magpie/internal/gui/whatsnew.go#L303) |
-| pageLang | function_declaration |  | [327](../../magpie/internal/gui/whatsnew.go#L327) |
-| askedLang | function_declaration |  | [336](../../magpie/internal/gui/whatsnew.go#L336) |
-| whatsNewRoutes | function_declaration |  | [346](../../magpie/internal/gui/whatsnew.go#L346) |
-| in | var_spec | whatsNewRoutes | [365](../../magpie/internal/gui/whatsnew.go#L365) |
-| On | field_declaration | whatsNewRoutes::in | [366](../../magpie/internal/gui/whatsnew.go#L366) |
+| whatsNew | type_spec |  | [37](../../magpie/internal/gui/whatsnew.go#L37) |
+| mu | field_declaration | whatsNew | [38](../../magpie/internal/gui/whatsnew.go#L38) |
+| after | field_declaration | whatsNew | [39](../../magpie/internal/gui/whatsnew.go#L39) |
+| pending | field_declaration | whatsNew | [40](../../magpie/internal/gui/whatsnew.go#L40) |
+| quiet | field_declaration | whatsNew | [41](../../magpie/internal/gui/whatsnew.go#L41) |
+| shown | field_declaration | whatsNew | [42](../../magpie/internal/gui/whatsnew.go#L42) |
+| notes | field_declaration | whatsNew | [43](../../magpie/internal/gui/whatsnew.go#L43) |
+| totals | field_declaration | whatsNew | [44](../../magpie/internal/gui/whatsnew.go#L44) |
+| again | field_declaration | whatsNew | [47](../../magpie/internal/gui/whatsnew.go#L47) |
+| back | field_declaration | whatsNew | [48](../../magpie/internal/gui/whatsnew.go#L48) |
+| notesAgain | const_spec |  | [57](../../magpie/internal/gui/whatsnew.go#L57) |
+| notesNow | var_spec |  | [60](../../magpie/internal/gui/whatsnew.go#L60) |
+| untranslated | function_declaration |  | [66](../../magpie/internal/gui/whatsnew.go#L66) |
+| askAgainAt | function_declaration |  | [80](../../magpie/internal/gui/whatsnew.go#L80) |
+| due | function_declaration |  | [88](../../magpie/internal/gui/whatsnew.go#L88) |
+| backNotes | type_spec |  | [92](../../magpie/internal/gui/whatsnew.go#L92) |
+| n | field_declaration | backNotes | [93](../../magpie/internal/gui/whatsnew.go#L93) |
+| list | field_declaration | backNotes | [94](../../magpie/internal/gui/whatsnew.go#L94) |
+| again | field_declaration | backNotes | [95](../../magpie/internal/gui/whatsnew.go#L95) |
+| news | var_spec |  | [98](../../magpie/internal/gui/whatsnew.go#L98) |
+| started | var_spec |  | [102](../../magpie/internal/gui/whatsnew.go#L102) |
+| lastRunFile | const_spec |  | [104](../../magpie/internal/gui/whatsnew.go#L104) |
+| updatedInAppFile | const_spec |  | [108](../../magpie/internal/gui/whatsnew.go#L108) |
+| quietDayFile | const_spec |  | [112](../../magpie/internal/gui/whatsnew.go#L112) |
+| today | var_spec |  | [115](../../magpie/internal/gui/whatsnew.go#L115) |
+| updatedInApp | function_declaration |  | [118](../../magpie/internal/gui/whatsnew.go#L118) |
+| quietToday | function_declaration |  | [132](../../magpie/internal/gui/whatsnew.go#L132) |
+| setQuietToday | function_declaration |  | [138](../../magpie/internal/gui/whatsnew.go#L138) |
+| start | method_declaration |  | [153](../../magpie/internal/gui/whatsnew.go#L153) |
+| usedBefore | function_declaration |  | [181](../../magpie/internal/gui/whatsnew.go#L181) |
+| whatsNewJSON | type_spec |  | [190](../../magpie/internal/gui/whatsnew.go#L190) |
+| Show | field_declaration | whatsNewJSON | [191](../../magpie/internal/gui/whatsnew.go#L191) |
+| Current | field_declaration | whatsNewJSON | [192](../../magpie/internal/gui/whatsnew.go#L192) |
+| Releases | field_declaration | whatsNewJSON | [193](../../magpie/internal/gui/whatsnew.go#L193) |
+| Total | field_declaration | whatsNewJSON | [196](../../magpie/internal/gui/whatsnew.go#L196) |
+| Error | field_declaration | whatsNewJSON | [200](../../magpie/internal/gui/whatsnew.go#L200) |
+| URL | field_declaration | whatsNewJSON | [201](../../magpie/internal/gui/whatsnew.go#L201) |
+| get | method_declaration |  | [207](../../magpie/internal/gui/whatsnew.go#L207) |
+| notesKey | function_declaration |  | [269](../../magpie/internal/gui/whatsnew.go#L269) |
+| before | method_declaration |  | [282](../../magpie/internal/gui/whatsnew.go#L282) |
+| backCount | function_declaration |  | [329](../../magpie/internal/gui/whatsnew.go#L329) |
+| withWaiting | function_declaration |  | [344](../../magpie/internal/gui/whatsnew.go#L344) |
+| seen | method_declaration |  | [371](../../magpie/internal/gui/whatsnew.go#L371) |
+| fetchNotes | function_declaration |  | [385](../../magpie/internal/gui/whatsnew.go#L385) |
+| pageLang | function_declaration |  | [409](../../magpie/internal/gui/whatsnew.go#L409) |
+| askedLang | function_declaration |  | [418](../../magpie/internal/gui/whatsnew.go#L418) |
+| whatsNewRoutes | function_declaration |  | [428](../../magpie/internal/gui/whatsnew.go#L428) |
+| in | var_spec | whatsNewRoutes | [451](../../magpie/internal/gui/whatsnew.go#L451) |
+| On | field_declaration | whatsNewRoutes::in | [452](../../magpie/internal/gui/whatsnew.go#L452) |

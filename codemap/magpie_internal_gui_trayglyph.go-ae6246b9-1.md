@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayglyph.go) · page 1/1
 
-Source SHA-256: 5fe1b3495872e4ba9976bf4bde02480eef7fb784538857432238821caa5debb2
+Source SHA-256: 9739036940ffbb88fdda44f6020ce6cfbd15e636003d0301d0fb00ae3813a009
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_keys.go) · page 1/1
 
-Source SHA-256: 5086de4da640f5f65f23be0d85c531bda1d6dd631c2a9b94e6ecb3b816b8a189
+Source SHA-256: 8a265893f2df40dc4e30f9ae9cf4027ead191e74ad7700cfeb832217f2088458
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -23,7 +23,8 @@ Source SHA-256: 5086de4da640f5f65f23be0d85c531bda1d6dd631c2a9b94e6ecb3b816b8a189
 | restSearchKey | function_declaration |  | [80](../../magpie/internal/gateway/search_keys.go#L80) |
 | wakeSearchKey | function_declaration |  | [90](../../magpie/internal/gateway/search_keys.go#L90) |
 | searchKeyRest | function_declaration |  | [93](../../magpie/internal/gateway/search_keys.go#L93) |
-| searchKeyOrder | function_declaration |  | [109](../../magpie/internal/gateway/search_keys.go#L109) |
-| resting | var_spec | searchKeyOrder | [117](../../magpie/internal/gateway/search_keys.go#L117) |
-| forgetSearchKeys | function_declaration |  | [132](../../magpie/internal/gateway/search_keys.go#L132) |
-| keyLabel | function_declaration |  | [139](../../magpie/internal/gateway/search_keys.go#L139) |
+| SearchKeyRest | function_declaration |  | [107](../../magpie/internal/gateway/search_keys.go#L107) |
+| searchKeyOrder | function_declaration |  | [118](../../magpie/internal/gateway/search_keys.go#L118) |
+| resting | var_spec | searchKeyOrder | [126](../../magpie/internal/gateway/search_keys.go#L126) |
+| forgetSearchKeys | function_declaration |  | [141](../../magpie/internal/gateway/search_keys.go#L141) |
+| keyLabel | function_declaration |  | [148](../../magpie/internal/gateway/search_keys.go#L148) |

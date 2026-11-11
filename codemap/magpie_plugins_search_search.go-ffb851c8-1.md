@@ -4,9 +4,9 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/search/search.go) · page 1/1
 
-Source SHA-256: 8bf60464ee203297f4cd706f123c8afd27a09cc921b250dbe28dfadcd7f57d57
+Source SHA-256: 4075ae6dd013494bd5e499398006cfc84fd756cee1eb17ed168d51397deb7383
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [20](../../magpie/plugins/search/search.go#L20) |
-| InUse | function_declaration |  | [36](../../magpie/plugins/search/search.go#L36) |
+| InUse | function_declaration |  | [37](../../magpie/plugins/search/search.go#L37) |

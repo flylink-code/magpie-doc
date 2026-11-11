@@ -9,42 +9,100 @@
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
+| [magpie/internal/sessions/call_cache.go](../../magpie/internal/sessions/call_cache.go) | 93 | [1](magpie_internal_sessions_call_cache.go-00cbf517-1.md) |
+| [magpie/internal/sessions/call_continuation.go](../../magpie/internal/sessions/call_continuation.go) | 7 | [1](magpie_internal_sessions_call_continuation.go-dba0c27b-1.md) |
+| [magpie/internal/sessions/call_frame.go](../../magpie/internal/sessions/call_frame.go) | 13 | [1](magpie_internal_sessions_call_frame.go-179e42f7-1.md) |
+| [magpie/internal/sessions/call_revisions.go](../../magpie/internal/sessions/call_revisions.go) | 10 | [1](magpie_internal_sessions_call_revisions.go-66881a7f-1.md) |
+| [magpie/internal/sessions/calls.go](../../magpie/internal/sessions/calls.go) | 240 | [1](magpie_internal_sessions_calls.go-67db03da-1.md) [2](magpie_internal_sessions_calls.go-67db03da-2.md) [3](magpie_internal_sessions_calls.go-67db03da-3.md) |
+| [magpie/internal/sessions/calls_agy.go](../../magpie/internal/sessions/calls_agy.go) | 13 | [1](magpie_internal_sessions_calls_agy.go-f7a70696-1.md) |
+| [magpie/internal/sessions/calls_dsh.go](../../magpie/internal/sessions/calls_dsh.go) | 11 | [1](magpie_internal_sessions_calls_dsh.go-ae6f3f3f-1.md) |
+| [magpie/internal/sessions/calls_grok.go](../../magpie/internal/sessions/calls_grok.go) | 15 | [1](magpie_internal_sessions_calls_grok.go-a810804c-1.md) |
+| [magpie/internal/sessions/calls_kimi.go](../../magpie/internal/sessions/calls_kimi.go) | 21 | [1](magpie_internal_sessions_calls_kimi.go-fbe8befe-1.md) |
+| [magpie/internal/sessions/calls_minimax.go](../../magpie/internal/sessions/calls_minimax.go) | 18 | [1](magpie_internal_sessions_calls_minimax.go-81cff1f3-1.md) |
+| [magpie/internal/sessions/calls_opencode.go](../../magpie/internal/sessions/calls_opencode.go) | 31 | [1](magpie_internal_sessions_calls_opencode.go-c7716720-1.md) |
+| [magpie/internal/sessions/calls_pi.go](../../magpie/internal/sessions/calls_pi.go) | 33 | [1](magpie_internal_sessions_calls_pi.go-42e149a0-1.md) |
+| [magpie/internal/sessions/calls_workbuddy.go](../../magpie/internal/sessions/calls_workbuddy.go) | 22 | [1](magpie_internal_sessions_calls_workbuddy.go-7a8b3da5-1.md) |
+| [magpie/internal/sessions/calls_zcode.go](../../magpie/internal/sessions/calls_zcode.go) | 13 | [1](magpie_internal_sessions_calls_zcode.go-6c7dfdc5-1.md) |
+| [magpie/internal/sessions/carry.go](../../magpie/internal/sessions/carry.go) | 8 | [1](magpie_internal_sessions_carry.go-fb589d57-1.md) |
+| [magpie/internal/sessions/carry_convert.go](../../magpie/internal/sessions/carry_convert.go) | 143 | [1](magpie_internal_sessions_carry_convert.go-b20dcd2f-1.md) [2](magpie_internal_sessions_carry_convert.go-b20dcd2f-2.md) |
+| [magpie/internal/sessions/cc_copies.go](../../magpie/internal/sessions/cc_copies.go) | 26 | [1](magpie_internal_sessions_cc_copies.go-013d213d-1.md) |
+| [magpie/internal/sessions/cc_usage.go](../../magpie/internal/sessions/cc_usage.go) | 13 | [1](magpie_internal_sessions_cc_usage.go-e93caa53-1.md) |
+| [magpie/internal/sessions/cindy.go](../../magpie/internal/sessions/cindy.go) | 6 | [1](magpie_internal_sessions_cindy.go-e72d73a6-1.md) |
+| [magpie/internal/sessions/claude.go](../../magpie/internal/sessions/claude.go) | 79 | [1](magpie_internal_sessions_claude.go-219a6cd5-1.md) |
+| [magpie/internal/sessions/claude_usage.go](../../magpie/internal/sessions/claude_usage.go) | 55 | [1](magpie_internal_sessions_claude_usage.go-e5156e56-1.md) |
+| [magpie/internal/sessions/cline.go](../../magpie/internal/sessions/cline.go) | 46 | [1](magpie_internal_sessions_cline.go-053c62c6-1.md) |
+| [magpie/internal/sessions/codex.go](../../magpie/internal/sessions/codex.go) | 142 | [1](magpie_internal_sessions_codex.go-9f698e07-1.md) [2](magpie_internal_sessions_codex.go-9f698e07-2.md) |
+| [magpie/internal/sessions/codex_catalog.go](../../magpie/internal/sessions/codex_catalog.go) | 41 | [1](magpie_internal_sessions_codex_catalog.go-36bd9e05-1.md) |
+| [magpie/internal/sessions/codex_cwd.go](../../magpie/internal/sessions/codex_cwd.go) | 4 | [1](magpie_internal_sessions_codex_cwd.go-d87b5885-1.md) |
+| [magpie/internal/sessions/codex_discovery.go](../../magpie/internal/sessions/codex_discovery.go) | 29 | [1](magpie_internal_sessions_codex_discovery.go-2aa48ef7-1.md) |
+| [magpie/internal/sessions/codex_discovery_windows.go](../../magpie/internal/sessions/codex_discovery_windows.go) | 6 | [1](magpie_internal_sessions_codex_discovery_windows.go-1a077c09-1.md) |
+| [magpie/internal/sessions/codex_fingerprint.go](../../magpie/internal/sessions/codex_fingerprint.go) | 6 | [1](magpie_internal_sessions_codex_fingerprint.go-31bdfe88-1.md) |
+| [magpie/internal/sessions/codex_fork.go](../../magpie/internal/sessions/codex_fork.go) | 22 | [1](magpie_internal_sessions_codex_fork.go-c1a139db-1.md) |
+| [magpie/internal/sessions/codex_portable.go](../../magpie/internal/sessions/codex_portable.go) | 59 | [1](magpie_internal_sessions_codex_portable.go-64871c11-1.md) |
+| [magpie/internal/sessions/codex_provider.go](../../magpie/internal/sessions/codex_provider.go) | 120 | [1](magpie_internal_sessions_codex_provider.go-c999f67e-1.md) [2](magpie_internal_sessions_codex_provider.go-c999f67e-2.md) |
+| [magpie/internal/sessions/codex_resume.go](../../magpie/internal/sessions/codex_resume.go) | 5 | [1](magpie_internal_sessions_codex_resume.go-432e467b-1.md) |
+| [magpie/internal/sessions/codex_titles.go](../../magpie/internal/sessions/codex_titles.go) | 30 | [1](magpie_internal_sessions_codex_titles.go-3c05ca27-1.md) |
+| [magpie/internal/sessions/codex_usage.go](../../magpie/internal/sessions/codex_usage.go) | 96 | [1](magpie_internal_sessions_codex_usage.go-1709157c-1.md) |
+| [magpie/internal/sessions/content.go](../../magpie/internal/sessions/content.go) | 77 | [1](magpie_internal_sessions_content.go-8cdef3fd-1.md) |
+| [magpie/internal/sessions/cursor.go](../../magpie/internal/sessions/cursor.go) | 63 | [1](magpie_internal_sessions_cursor.go-da593ead-1.md) |
+| [magpie/internal/sessions/cursor_clone_darwin.go](../../magpie/internal/sessions/cursor_clone_darwin.go) | 1 | [1](magpie_internal_sessions_cursor_clone_darwin.go-f30eca56-1.md) |
+| [magpie/internal/sessions/cursor_clone_other.go](../../magpie/internal/sessions/cursor_clone_other.go) | 1 | [1](magpie_internal_sessions_cursor_clone_other.go-e9d3687d-1.md) |
+| [magpie/internal/sessions/cursor_editor.go](../../magpie/internal/sessions/cursor_editor.go) | 49 | [1](magpie_internal_sessions_cursor_editor.go-0b2b47d1-1.md) |
+| [magpie/internal/sessions/cursor_snapshot.go](../../magpie/internal/sessions/cursor_snapshot.go) | 22 | [1](magpie_internal_sessions_cursor_snapshot.go-16563cc8-1.md) |
+| [magpie/internal/sessions/desktop_titles.go](../../magpie/internal/sessions/desktop_titles.go) | 16 | [1](magpie_internal_sessions_desktop_titles.go-1c3062c0-1.md) |
+| [magpie/internal/sessions/discovery.go](../../magpie/internal/sessions/discovery.go) | 12 | [1](magpie_internal_sessions_discovery.go-a97a7ddf-1.md) |
+| [magpie/internal/sessions/droid.go](../../magpie/internal/sessions/droid.go) | 65 | [1](magpie_internal_sessions_droid.go-6095e99d-1.md) |
+| [magpie/internal/sessions/dsh.go](../../magpie/internal/sessions/dsh.go) | 82 | [1](magpie_internal_sessions_dsh.go-7d70529a-1.md) |
+| [magpie/internal/sessions/external.go](../../magpie/internal/sessions/external.go) | 29 | [1](magpie_internal_sessions_external.go-4c80af2b-1.md) |
+| [magpie/internal/sessions/frames.go](../../magpie/internal/sessions/frames.go) | 11 | [1](magpie_internal_sessions_frames.go-e02472de-1.md) |
+| [magpie/internal/sessions/gateway.go](../../magpie/internal/sessions/gateway.go) | 43 | [1](magpie_internal_sessions_gateway.go-3b765b20-1.md) |
+| [magpie/internal/sessions/gateway_delete.go](../../magpie/internal/sessions/gateway_delete.go) | 20 | [1](magpie_internal_sessions_gateway_delete.go-51b1f526-1.md) |
+| [magpie/internal/sessions/grok.go](../../magpie/internal/sessions/grok.go) | 62 | [1](magpie_internal_sessions_grok.go-7f994747-1.md) |
+| [magpie/internal/sessions/hermes.go](../../magpie/internal/sessions/hermes.go) | 73 | [1](magpie_internal_sessions_hermes.go-db6f992e-1.md) |
 | [magpie/internal/sessions/hermes_display.go](../../magpie/internal/sessions/hermes_display.go) | 27 | [1](magpie_internal_sessions_hermes_display.go-ffc52e3d-1.md) |
+| [magpie/internal/sessions/hours.go](../../magpie/internal/sessions/hours.go) | 10 | [1](magpie_internal_sessions_hours.go-38b2acdf-1.md) |
 | [magpie/internal/sessions/kimi.go](../../magpie/internal/sessions/kimi.go) | 59 | [1](magpie_internal_sessions_kimi.go-b62e2dcf-1.md) |
+| [magpie/internal/sessions/list_kept.go](../../magpie/internal/sessions/list_kept.go) | 19 | [1](magpie_internal_sessions_list_kept.go-e3ae4da7-1.md) |
 | [magpie/internal/sessions/listmemo.go](../../magpie/internal/sessions/listmemo.go) | 12 | [1](magpie_internal_sessions_listmemo.go-9672d049-1.md) |
-| [magpie/internal/sessions/manage.go](../../magpie/internal/sessions/manage.go) | 65 | [1](magpie_internal_sessions_manage.go-04007148-1.md) |
+| [magpie/internal/sessions/manage.go](../../magpie/internal/sessions/manage.go) | 75 | [1](magpie_internal_sessions_manage.go-04007148-1.md) |
 | [magpie/internal/sessions/manage_other.go](../../magpie/internal/sessions/manage_other.go) | 2 | [1](magpie_internal_sessions_manage_other.go-22865b27-1.md) |
+| [magpie/internal/sessions/manage_quick.go](../../magpie/internal/sessions/manage_quick.go) | 23 | [1](magpie_internal_sessions_manage_quick.go-08c65d46-1.md) |
 | [magpie/internal/sessions/manage_windows.go](../../magpie/internal/sessions/manage_windows.go) | 5 | [1](magpie_internal_sessions_manage_windows.go-5aecdc15-1.md) |
 | [magpie/internal/sessions/markdown.go](../../magpie/internal/sessions/markdown.go) | 9 | [1](magpie_internal_sessions_markdown.go-6a088143-1.md) |
 | [magpie/internal/sessions/named.go](../../magpie/internal/sessions/named.go) | 20 | [1](magpie_internal_sessions_named.go-8d6c8eff-1.md) |
 | [magpie/internal/sessions/omp.go](../../magpie/internal/sessions/omp.go) | 9 | [1](magpie_internal_sessions_omp.go-3fb506aa-1.md) |
 | [magpie/internal/sessions/one_listing.go](../../magpie/internal/sessions/one_listing.go) | 13 | [1](magpie_internal_sessions_one_listing.go-07a4e8a8-1.md) |
-| [magpie/internal/sessions/opencode.go](../../magpie/internal/sessions/opencode.go) | 106 | [1](magpie_internal_sessions_opencode.go-3334c11d-1.md) [2](magpie_internal_sessions_opencode.go-3334c11d-2.md) |
-| [magpie/internal/sessions/pi.go](../../magpie/internal/sessions/pi.go) | 51 | [1](magpie_internal_sessions_pi.go-56cde0cd-1.md) |
+| [magpie/internal/sessions/opencode.go](../../magpie/internal/sessions/opencode.go) | 129 | [1](magpie_internal_sessions_opencode.go-3334c11d-1.md) [2](magpie_internal_sessions_opencode.go-3334c11d-2.md) |
+| [magpie/internal/sessions/pi.go](../../magpie/internal/sessions/pi.go) | 52 | [1](magpie_internal_sessions_pi.go-56cde0cd-1.md) |
 | [magpie/internal/sessions/pidesktop_titles.go](../../magpie/internal/sessions/pidesktop_titles.go) | 10 | [1](magpie_internal_sessions_pidesktop_titles.go-fd881de5-1.md) |
 | [magpie/internal/sessions/qoder.go](../../magpie/internal/sessions/qoder.go) | 1 | [1](magpie_internal_sessions_qoder.go-31b3fc1c-1.md) |
 | [magpie/internal/sessions/quiet.go](../../magpie/internal/sessions/quiet.go) | 10 | [1](magpie_internal_sessions_quiet.go-8bd49b2c-1.md) |
-| [magpie/internal/sessions/relocate_claude.go](../../magpie/internal/sessions/relocate_claude.go) | 35 | [1](magpie_internal_sessions_relocate_claude.go-f37a8ed3-1.md) |
+| [magpie/internal/sessions/raft.go](../../magpie/internal/sessions/raft.go) | 6 | [1](magpie_internal_sessions_raft.go-c742d662-1.md) |
+| [magpie/internal/sessions/relocate_claude.go](../../magpie/internal/sessions/relocate_claude.go) | 37 | [1](magpie_internal_sessions_relocate_claude.go-f37a8ed3-1.md) |
 | [magpie/internal/sessions/revision_cache.go](../../magpie/internal/sessions/revision_cache.go) | 27 | [1](magpie_internal_sessions_revision_cache.go-c460f09c-1.md) |
 | [magpie/internal/sessions/rollup.go](../../magpie/internal/sessions/rollup.go) | 23 | [1](magpie_internal_sessions_rollup.go-d9860968-1.md) |
-| [magpie/internal/sessions/search.go](../../magpie/internal/sessions/search.go) | 36 | [1](magpie_internal_sessions_search.go-918eb213-1.md) |
-| [magpie/internal/sessions/sessions.go](../../magpie/internal/sessions/sessions.go) | 314 | [1](magpie_internal_sessions_sessions.go-732ec66c-1.md) [2](magpie_internal_sessions_sessions.go-732ec66c-2.md) [3](magpie_internal_sessions_sessions.go-732ec66c-3.md) [4](magpie_internal_sessions_sessions.go-732ec66c-4.md) |
+| [magpie/internal/sessions/search.go](../../magpie/internal/sessions/search.go) | 38 | [1](magpie_internal_sessions_search.go-918eb213-1.md) |
+| [magpie/internal/sessions/sessions.go](../../magpie/internal/sessions/sessions.go) | 400 | [1](magpie_internal_sessions_sessions.go-732ec66c-1.md) [2](magpie_internal_sessions_sessions.go-732ec66c-2.md) [3](magpie_internal_sessions_sessions.go-732ec66c-3.md) [4](magpie_internal_sessions_sessions.go-732ec66c-4.md) |
 | [magpie/internal/sessions/shelf.go](../../magpie/internal/sessions/shelf.go) | 14 | [1](magpie_internal_sessions_shelf.go-08e2f485-1.md) |
-| [magpie/internal/sessions/stats.go](../../magpie/internal/sessions/stats.go) | 132 | [1](magpie_internal_sessions_stats.go-514a4c46-1.md) [2](magpie_internal_sessions_stats.go-514a4c46-2.md) |
+| [magpie/internal/sessions/stats.go](../../magpie/internal/sessions/stats.go) | 148 | [1](magpie_internal_sessions_stats.go-514a4c46-1.md) [2](magpie_internal_sessions_stats.go-514a4c46-2.md) |
+| [magpie/internal/sessions/stats_kept.go](../../magpie/internal/sessions/stats_kept.go) | 33 | [1](magpie_internal_sessions_stats_kept.go-9675453b-1.md) |
 | [magpie/internal/sessions/subagents.go](../../magpie/internal/sessions/subagents.go) | 53 | [1](magpie_internal_sessions_subagents.go-10e57941-1.md) |
 | [magpie/internal/sessions/tail.go](../../magpie/internal/sessions/tail.go) | 10 | [1](magpie_internal_sessions_tail.go-48e5fa21-1.md) |
 | [magpie/internal/sessions/thin.go](../../magpie/internal/sessions/thin.go) | 16 | [1](magpie_internal_sessions_thin.go-8f7616f3-1.md) |
-| [magpie/internal/sessions/traces.go](../../magpie/internal/sessions/traces.go) | 131 | [1](magpie_internal_sessions_traces.go-0377ec42-1.md) [2](magpie_internal_sessions_traces.go-0377ec42-2.md) |
+| [magpie/internal/sessions/traces.go](../../magpie/internal/sessions/traces.go) | 132 | [1](magpie_internal_sessions_traces.go-0377ec42-1.md) [2](magpie_internal_sessions_traces.go-0377ec42-2.md) |
 | [magpie/internal/sessions/traces_claude.go](../../magpie/internal/sessions/traces_claude.go) | 29 | [1](magpie_internal_sessions_traces_claude.go-4ea31405-1.md) |
 | [magpie/internal/sessions/traces_codex.go](../../magpie/internal/sessions/traces_codex.go) | 29 | [1](magpie_internal_sessions_traces_codex.go-1aeafd14-1.md) |
-| [magpie/internal/sessions/traces_gemini.go](../../magpie/internal/sessions/traces_gemini.go) | 50 | [1](magpie_internal_sessions_traces_gemini.go-926f508b-1.md) |
+| [magpie/internal/sessions/traces_gemini.go](../../magpie/internal/sessions/traces_gemini.go) | 51 | [1](magpie_internal_sessions_traces_gemini.go-926f508b-1.md) |
 | [magpie/internal/sessions/traces_identity.go](../../magpie/internal/sessions/traces_identity.go) | 28 | [1](magpie_internal_sessions_traces_identity.go-15907b70-1.md) |
 | [magpie/internal/sessions/traces_opencode.go](../../magpie/internal/sessions/traces_opencode.go) | 35 | [1](magpie_internal_sessions_traces_opencode.go-d2cedcc5-1.md) |
 | [magpie/internal/sessions/traces_opencode_db.go](../../magpie/internal/sessions/traces_opencode_db.go) | 35 | [1](magpie_internal_sessions_traces_opencode_db.go-45c50ff8-1.md) |
 | [magpie/internal/sessions/traces_snapshot.go](../../magpie/internal/sessions/traces_snapshot.go) | 13 | [1](magpie_internal_sessions_traces_snapshot.go-2b389b6b-1.md) |
-| [magpie/internal/sessions/transcript.go](../../magpie/internal/sessions/transcript.go) | 37 | [1](magpie_internal_sessions_transcript.go-ca5272d5-1.md) |
+| [magpie/internal/sessions/transcript.go](../../magpie/internal/sessions/transcript.go) | 39 | [1](magpie_internal_sessions_transcript.go-ca5272d5-1.md) |
 | [magpie/internal/sessions/transcript_kimi.go](../../magpie/internal/sessions/transcript_kimi.go) | 45 | [1](magpie_internal_sessions_transcript_kimi.go-7e4f4588-1.md) |
 | [magpie/internal/sessions/transcript_opencode.go](../../magpie/internal/sessions/transcript_opencode.go) | 24 | [1](magpie_internal_sessions_transcript_opencode.go-dfbd7a71-1.md) |
-| [magpie/internal/sessions/workbuddy.go](../../magpie/internal/sessions/workbuddy.go) | 50 | [1](magpie_internal_sessions_workbuddy.go-cc103d87-1.md) |
-| [magpie/internal/sessions/wsl.go](../../magpie/internal/sessions/wsl.go) | 48 | [1](magpie_internal_sessions_wsl.go-54b668d1-1.md) |
-| [magpie/internal/sessions/zcode.go](../../magpie/internal/sessions/zcode.go) | 7 | [1](magpie_internal_sessions_zcode.go-fc9e4320-1.md) |
+| [magpie/internal/sessions/uuid_set.go](../../magpie/internal/sessions/uuid_set.go) | 5 | [1](magpie_internal_sessions_uuid_set.go-2d18925c-1.md) |
+| [magpie/internal/sessions/workbuddy.go](../../magpie/internal/sessions/workbuddy.go) | 52 | [1](magpie_internal_sessions_workbuddy.go-cc103d87-1.md) |
+| [magpie/internal/sessions/wsl.go](../../magpie/internal/sessions/wsl.go) | 50 | [1](magpie_internal_sessions_wsl.go-54b668d1-1.md) |
+| [magpie/internal/sessions/zcode.go](../../magpie/internal/sessions/zcode.go) | 9 | [1](magpie_internal_sessions_zcode.go-fc9e4320-1.md) |
+| [magpie/internal/sessions/zcode_tasks.go](../../magpie/internal/sessions/zcode_tasks.go) | 12 | [1](magpie_internal_sessions_zcode_tasks.go-765ad3b2-1.md) |
+| [magpie/internal/sessions/zcode_titles.go](../../magpie/internal/sessions/zcode_titles.go) | 6 | [1](magpie_internal_sessions_zcode_titles.go-46e091e0-1.md) |

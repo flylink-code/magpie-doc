@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/deepseek_schema.go) · page 1/1
 
-Source SHA-256: f72608aa1f15e5e5334619ee6dffa603ff1ad73235fbfceb31a02082193092e4
+Source SHA-256: 1b1af86d89f6253f7d4e3680671548e18c99c30ff0cf3002be05ef3d6f25fdd0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,4 +21,5 @@ Source SHA-256: f72608aa1f15e5e5334619ee6dffa603ff1ad73235fbfceb31a02082193092e4
 | b | var_spec | encodeJSONStringNoHTMLEscape | [122](../../magpie/internal/gateway/deepseek_schema.go#L122) |
 | unicodeNullEscape | function_declaration |  | [148](../../magpie/internal/gateway/deepseek_schema.go#L148) |
 | out | var_spec | unicodeNullEscape | [149](../../magpie/internal/gateway/deepseek_schema.go#L149) |
-| deepseekTokenField | function_declaration |  | [177](../../magpie/internal/gateway/deepseek_schema.go#L177) |
+| deepseekModel | function_declaration |  | [174](../../magpie/internal/gateway/deepseek_schema.go#L174) |
+| deepseekTokenField | function_declaration |  | [192](../../magpie/internal/gateway/deepseek_schema.go#L192) |

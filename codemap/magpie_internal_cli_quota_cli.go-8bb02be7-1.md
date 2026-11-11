@@ -4,29 +4,33 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/quota_cli.go) · page 1/1
 
-Source SHA-256: 86ad3c86e55a886e907be2f8c0ddae1c04a51e4bad17ad16556a6047cadc0404
+Source SHA-256: bcb2ae5b427ca991719b2e24f2e56a18b2a2839188e7004e250ad5a3338e314c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | quotaUsage | const_spec |  | [17](../../magpie/internal/cli/quota_cli.go#L17) |
-| quotaCmd | function_declaration |  | [79](../../magpie/internal/cli/quota_cli.go#L79) |
-| only | var_spec | quotaCmd | [102](../../magpie/internal/cli/quota_cli.go#L102) |
-| printQuotas | function_declaration |  | [146](../../magpie/internal/cli/quota_cli.go#L146) |
-| balanceCell | function_declaration |  | [178](../../magpie/internal/cli/quota_cli.go#L178) |
-| resetsCell | function_declaration |  | [189](../../magpie/internal/cli/quota_cli.go#L189) |
-| quotaResetCmd | function_declaration |  | [204](../../magpie/internal/cli/quota_cli.go#L204) |
-| held | var_spec | quotaResetCmd | [223](../../magpie/internal/cli/quota_cli.go#L223) |
-| quotaAutoResetCmd | function_declaration |  | [268](../../magpie/internal/cli/quota_cli.go#L268) |
-| autoResetSay | function_declaration |  | [331](../../magpie/internal/cli/quota_cli.go#L331) |
-| printResetsUsed | function_declaration |  | [346](../../magpie/internal/cli/quota_cli.go#L346) |
-| resetUsedWhy | function_declaration |  | [358](../../magpie/internal/cli/quota_cli.go#L358) |
-| quotaCreditsCmd | function_declaration |  | [370](../../magpie/internal/cli/quota_cli.go#L370) |
-| codexAccountNamed | function_declaration |  | [422](../../magpie/internal/cli/quota_cli.go#L422) |
-| quotaAlertCmd | function_declaration |  | [440](../../magpie/internal/cli/quota_cli.go#L440) |
-| quotaTitle | function_declaration |  | [503](../../magpie/internal/cli/quota_cli.go#L503) |
-| quotaMatches | function_declaration |  | [522](../../magpie/internal/cli/quota_cli.go#L522) |
-| withUntold | function_declaration |  | [540](../../magpie/internal/cli/quota_cli.go#L540) |
-| quotaHistoryCmd | function_declaration |  | [556](../../magpie/internal/cli/quota_cli.go#L556) |
-| only | var_spec | quotaHistoryCmd | [558](../../magpie/internal/cli/quota_cli.go#L558) |
-| quotaPointsCell | function_declaration |  | [625](../../magpie/internal/cli/quota_cli.go#L625) |
-| quotaNewRun | function_declaration |  | [650](../../magpie/internal/cli/quota_cli.go#L650) |
+| quotaCmd | function_declaration |  | [91](../../magpie/internal/cli/quota_cli.go#L91) |
+| only | var_spec | quotaCmd | [114](../../magpie/internal/cli/quota_cli.go#L114) |
+| printQuotas | function_declaration |  | [158](../../magpie/internal/cli/quota_cli.go#L158) |
+| balanceCell | function_declaration |  | [190](../../magpie/internal/cli/quota_cli.go#L190) |
+| resetsCell | function_declaration |  | [201](../../magpie/internal/cli/quota_cli.go#L201) |
+| quotaResetCmd | function_declaration |  | [217](../../magpie/internal/cli/quota_cli.go#L217) |
+| held | var_spec | quotaResetCmd | [249](../../magpie/internal/cli/quota_cli.go#L249) |
+| chosen | var_spec | quotaResetCmd | [268](../../magpie/internal/cli/quota_cli.go#L268) |
+| ordinal | function_declaration |  | [310](../../magpie/internal/cli/quota_cli.go#L310) |
+| quotaAutoResetCmd | function_declaration |  | [328](../../magpie/internal/cli/quota_cli.go#L328) |
+| quotaResetLeadCmd | function_declaration |  | [396](../../magpie/internal/cli/quota_cli.go#L396) |
+| leadWords | function_declaration |  | [441](../../magpie/internal/cli/quota_cli.go#L441) |
+| autoResetSay | function_declaration |  | [452](../../magpie/internal/cli/quota_cli.go#L452) |
+| printResetsUsed | function_declaration |  | [467](../../magpie/internal/cli/quota_cli.go#L467) |
+| resetUsedWhy | function_declaration |  | [479](../../magpie/internal/cli/quota_cli.go#L479) |
+| quotaCreditsCmd | function_declaration |  | [493](../../magpie/internal/cli/quota_cli.go#L493) |
+| codexAccountNamed | function_declaration |  | [566](../../magpie/internal/cli/quota_cli.go#L566) |
+| quotaAlertCmd | function_declaration |  | [584](../../magpie/internal/cli/quota_cli.go#L584) |
+| quotaTitle | function_declaration |  | [647](../../magpie/internal/cli/quota_cli.go#L647) |
+| quotaMatches | function_declaration |  | [666](../../magpie/internal/cli/quota_cli.go#L666) |
+| withUntold | function_declaration |  | [684](../../magpie/internal/cli/quota_cli.go#L684) |
+| quotaHistoryCmd | function_declaration |  | [700](../../magpie/internal/cli/quota_cli.go#L700) |
+| only | var_spec | quotaHistoryCmd | [702](../../magpie/internal/cli/quota_cli.go#L702) |
+| quotaPointsCell | function_declaration |  | [769](../../magpie/internal/cli/quota_cli.go#L769) |
+| quotaNewRun | function_declaration |  | [794](../../magpie/internal/cli/quota_cli.go#L794) |

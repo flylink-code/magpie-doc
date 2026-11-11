@@ -4,47 +4,55 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/agent_models.go) · page 1/1
 
-Source SHA-256: b0c1ba134d3bb401090d011d0f32ab8d843725227c54043b9528b44fc88800aa
+Source SHA-256: 811a734a064329413113d0b14ad0faa0cc52d288a88eb04e14b1e29ab4cd61b5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| modelCountJSON | type_spec |  | [21](../../magpie/internal/gui/agent_models.go#L21) |
-| Shown | field_declaration | modelCountJSON | [22](../../magpie/internal/gui/agent_models.go#L22) |
-| Listed | field_declaration | modelCountJSON | [23](../../magpie/internal/gui/agent_models.go#L23) |
-| By | field_declaration | modelCountJSON | [26](../../magpie/internal/gui/agent_models.go#L26) |
-| Names | field_declaration | modelCountJSON | [29](../../magpie/internal/gui/agent_models.go#L29) |
-| countNames | const_spec |  | [33](../../magpie/internal/gui/agent_models.go#L33) |
-| modelGroupJSON | type_spec |  | [37](../../magpie/internal/gui/agent_models.go#L37) |
-| Name | field_declaration | modelGroupJSON | [38](../../magpie/internal/gui/agent_models.go#L38) |
-| Icon | field_declaration | modelGroupJSON | [39](../../magpie/internal/gui/agent_models.go#L39) |
-| Icons | field_declaration | modelGroupJSON | [40](../../magpie/internal/gui/agent_models.go#L40) |
-| N | field_declaration | modelGroupJSON | [41](../../magpie/internal/gui/agent_models.go#L41) |
-| agentModelJSON | type_spec |  | [45](../../magpie/internal/gui/agent_models.go#L45) |
-| ID | field_declaration | agentModelJSON | [46](../../magpie/internal/gui/agent_models.go#L46) |
-| Name | field_declaration | agentModelJSON | [47](../../magpie/internal/gui/agent_models.go#L47) |
-| Group | field_declaration | agentModelJSON | [48](../../magpie/internal/gui/agent_models.go#L48) |
-| Icon | field_declaration | agentModelJSON | [49](../../magpie/internal/gui/agent_models.go#L49) |
-| Icons | field_declaration | agentModelJSON | [50](../../magpie/internal/gui/agent_models.go#L50) |
-| Logo | field_declaration | agentModelJSON | [54](../../magpie/internal/gui/agent_models.go#L54) |
-| Context | field_declaration | agentModelJSON | [55](../../magpie/internal/gui/agent_models.go#L55) |
-| Hidden | field_declaration | agentModelJSON | [56](../../magpie/internal/gui/agent_models.go#L56) |
-| InUse | field_declaration | agentModelJSON | [58](../../magpie/internal/gui/agent_models.go#L58) |
-| Own | field_declaration | agentModelJSON | [61](../../magpie/internal/gui/agent_models.go#L61) |
-| takesCatalog | function_declaration |  | [66](../../magpie/internal/gui/agent_models.go#L66) |
-| agentFields | function_declaration |  | [78](../../magpie/internal/gui/agent_models.go#L78) |
-| agentModelCount | function_declaration |  | [95](../../magpie/internal/gui/agent_models.go#L95) |
-| modelCount | function_declaration |  | [109](../../magpie/internal/gui/agent_models.go#L109) |
-| usedBy | function_declaration |  | [140](../../magpie/internal/gui/agent_models.go#L140) |
-| agentModelList | function_declaration |  | [155](../../magpie/internal/gui/agent_models.go#L155) |
-| agentModelsAPI | function_declaration |  | [181](../../magpie/internal/gui/agent_models.go#L181) |
-| in | var_spec | agentModelsAPI | [186](../../magpie/internal/gui/agent_models.go#L186) |
-| For | field_declaration | agentModelsAPI::in | [187](../../magpie/internal/gui/agent_models.go#L187) |
-| Fast | field_declaration | agentModelsAPI::in | [188](../../magpie/internal/gui/agent_models.go#L188) |
-| in | var_spec | agentModelsAPI | [236](../../magpie/internal/gui/agent_models.go#L236) |
-| Hidden | field_declaration | agentModelsAPI::in | [237](../../magpie/internal/gui/agent_models.go#L237) |
-| Shown | field_declaration | agentModelsAPI::in | [238](../../magpie/internal/gui/agent_models.go#L238) |
-| Order | field_declaration | agentModelsAPI::in | [239](../../magpie/internal/gui/agent_models.go#L239) |
-| Only | field_declaration | agentModelsAPI::in | [240](../../magpie/internal/gui/agent_models.go#L240) |
-| OwnHidden | field_declaration | agentModelsAPI::in | [242](../../magpie/internal/gui/agent_models.go#L242) |
-| picks | var_spec | agentModelsAPI | [303](../../magpie/internal/gui/agent_models.go#L303) |
-| hidden | var_spec | agentModelsAPI | [316](../../magpie/internal/gui/agent_models.go#L316) |
+| modelCountJSON | type_spec |  | [23](../../magpie/internal/gui/agent_models.go#L23) |
+| Shown | field_declaration | modelCountJSON | [24](../../magpie/internal/gui/agent_models.go#L24) |
+| Listed | field_declaration | modelCountJSON | [25](../../magpie/internal/gui/agent_models.go#L25) |
+| By | field_declaration | modelCountJSON | [28](../../magpie/internal/gui/agent_models.go#L28) |
+| Names | field_declaration | modelCountJSON | [31](../../magpie/internal/gui/agent_models.go#L31) |
+| countNames | const_spec |  | [35](../../magpie/internal/gui/agent_models.go#L35) |
+| modelGroupJSON | type_spec |  | [39](../../magpie/internal/gui/agent_models.go#L39) |
+| Name | field_declaration | modelGroupJSON | [40](../../magpie/internal/gui/agent_models.go#L40) |
+| Icon | field_declaration | modelGroupJSON | [41](../../magpie/internal/gui/agent_models.go#L41) |
+| Icons | field_declaration | modelGroupJSON | [42](../../magpie/internal/gui/agent_models.go#L42) |
+| N | field_declaration | modelGroupJSON | [43](../../magpie/internal/gui/agent_models.go#L43) |
+| agentModelJSON | type_spec |  | [47](../../magpie/internal/gui/agent_models.go#L47) |
+| ID | field_declaration | agentModelJSON | [48](../../magpie/internal/gui/agent_models.go#L48) |
+| Name | field_declaration | agentModelJSON | [49](../../magpie/internal/gui/agent_models.go#L49) |
+| Group | field_declaration | agentModelJSON | [50](../../magpie/internal/gui/agent_models.go#L50) |
+| Icon | field_declaration | agentModelJSON | [51](../../magpie/internal/gui/agent_models.go#L51) |
+| Icons | field_declaration | agentModelJSON | [52](../../magpie/internal/gui/agent_models.go#L52) |
+| Logo | field_declaration | agentModelJSON | [56](../../magpie/internal/gui/agent_models.go#L56) |
+| Context | field_declaration | agentModelJSON | [57](../../magpie/internal/gui/agent_models.go#L57) |
+| Hidden | field_declaration | agentModelJSON | [58](../../magpie/internal/gui/agent_models.go#L58) |
+| InUse | field_declaration | agentModelJSON | [60](../../magpie/internal/gui/agent_models.go#L60) |
+| Own | field_declaration | agentModelJSON | [63](../../magpie/internal/gui/agent_models.go#L63) |
+| takesCatalog | function_declaration |  | [68](../../magpie/internal/gui/agent_models.go#L68) |
+| agentFields | function_declaration |  | [80](../../magpie/internal/gui/agent_models.go#L80) |
+| agentModelCount | function_declaration |  | [97](../../magpie/internal/gui/agent_models.go#L97) |
+| modelCounts | var_spec |  | [116](../../magpie/internal/gui/agent_models.go#L116) |
+| m | field_declaration | modelCounts | [118](../../magpie/internal/gui/agent_models.go#L118) |
+| keptCount | type_spec |  | [121](../../magpie/internal/gui/agent_models.go#L121) |
+| c | field_declaration | keptCount | [122](../../magpie/internal/gui/agent_models.go#L122) |
+| stamp | field_declaration | keptCount | [123](../../magpie/internal/gui/agent_models.go#L123) |
+| at | field_declaration | keptCount | [124](../../magpie/internal/gui/agent_models.go#L124) |
+| modelCountFor | const_spec |  | [130](../../magpie/internal/gui/agent_models.go#L130) |
+| modelCount | function_declaration |  | [132](../../magpie/internal/gui/agent_models.go#L132) |
+| countModels | function_declaration |  | [153](../../magpie/internal/gui/agent_models.go#L153) |
+| usedBy | function_declaration |  | [184](../../magpie/internal/gui/agent_models.go#L184) |
+| agentModelList | function_declaration |  | [199](../../magpie/internal/gui/agent_models.go#L199) |
+| agentModelsAPI | function_declaration |  | [225](../../magpie/internal/gui/agent_models.go#L225) |
+| in | var_spec | agentModelsAPI | [230](../../magpie/internal/gui/agent_models.go#L230) |
+| For | field_declaration | agentModelsAPI::in | [231](../../magpie/internal/gui/agent_models.go#L231) |
+| Fast | field_declaration | agentModelsAPI::in | [232](../../magpie/internal/gui/agent_models.go#L232) |
+| in | var_spec | agentModelsAPI | [280](../../magpie/internal/gui/agent_models.go#L280) |
+| Hidden | field_declaration | agentModelsAPI::in | [281](../../magpie/internal/gui/agent_models.go#L281) |
+| Shown | field_declaration | agentModelsAPI::in | [282](../../magpie/internal/gui/agent_models.go#L282) |
+| Order | field_declaration | agentModelsAPI::in | [283](../../magpie/internal/gui/agent_models.go#L283) |
+| Only | field_declaration | agentModelsAPI::in | [284](../../magpie/internal/gui/agent_models.go#L284) |
+| OwnHidden | field_declaration | agentModelsAPI::in | [286](../../magpie/internal/gui/agent_models.go#L286) |
+| picks | var_spec | agentModelsAPI | [347](../../magpie/internal/gui/agent_models.go#L347) |
+| hidden | var_spec | agentModelsAPI | [360](../../magpie/internal/gui/agent_models.go#L360) |

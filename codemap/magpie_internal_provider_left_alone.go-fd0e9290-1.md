@@ -4,8 +4,8 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/left_alone.go) · page 1/1
 
-Source SHA-256: 9eac01835b5ef12581ffd50a2d30d59054a1ce20cd1618c1f32aceb74b3b9e27
+Source SHA-256: e9df59f2b3bb25b1b516aed63c222f98d9e6fe320a35fdabee2b80939c44d0b9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| leftAlone | function_declaration |  | [15](../../magpie/internal/provider/left_alone.go#L15) |
+| leftAlone | function_declaration |  | [19](../../magpie/internal/provider/left_alone.go#L19) |

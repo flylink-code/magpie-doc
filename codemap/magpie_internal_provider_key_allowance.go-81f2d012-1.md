@@ -4,35 +4,40 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/key_allowance.go) · page 1/1
 
-Source SHA-256: 2abfa9ceadd61e2ac509e21af0a1fdb14f0fc1e471a96361b3682f594c7bdaf6
+Source SHA-256: 47732be20cbdec2a05353fd4856e1699b58a7690264dfd4d2ea550a06ce26858
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keyAllowances | var_spec |  | [22](../../magpie/internal/provider/key_allowance.go#L22) |
-| m | field_declaration | keyAllowances | [24](../../magpie/internal/provider/key_allowance.go#L24) |
-| gen | field_declaration | keyAllowances | [27](../../magpie/internal/provider/key_allowance.go#L27) |
-| keyAllowance | type_spec |  | [30](../../magpie/internal/provider/key_allowance.go#L30) |
-| a | field_declaration | keyAllowance | [31](../../magpie/internal/provider/key_allowance.go#L31) |
-| at | field_declaration | keyAllowance | [32](../../magpie/internal/provider/key_allowance.go#L32) |
-| loading | field_declaration | keyAllowance | [33](../../magpie/internal/provider/key_allowance.go#L33) |
-| stale | field_declaration | keyAllowance | [36](../../magpie/internal/provider/key_allowance.go#L36) |
-| refused | field_declaration | keyAllowance | [39](../../magpie/internal/provider/key_allowance.go#L39) |
-| read | field_declaration | keyAllowance | [42](../../magpie/internal/provider/key_allowance.go#L42) |
-| keyAllowanceAge | const_spec |  | [50](../../magpie/internal/provider/key_allowance.go#L50) |
-| keyNoWindowsAge | const_spec |  | [51](../../magpie/internal/provider/key_allowance.go#L51) |
-| readsKeyWindows | function_declaration |  | [58](../../magpie/internal/provider/key_allowance.go#L58) |
-| keyAllowanceID | function_declaration |  | [69](../../magpie/internal/provider/key_allowance.go#L69) |
-| KeyAllowanceID | function_declaration |  | [73](../../magpie/internal/provider/key_allowance.go#L73) |
-| KeyAllowance | function_declaration |  | [85](../../magpie/internal/provider/key_allowance.go#L85) |
-| seed | var_spec | KeyAllowance | [94](../../magpie/internal/provider/key_allowance.go#L94) |
-| readKeyAllowance | function_declaration |  | [124](../../magpie/internal/provider/key_allowance.go#L124) |
-| keep | method_declaration |  | [164](../../magpie/internal/provider/key_allowance.go#L164) |
-| keyWindows | function_declaration |  | [174](../../magpie/internal/provider/key_allowance.go#L174) |
-| r | var_spec | keyWindows | [180](../../magpie/internal/provider/key_allowance.go#L180) |
-| err | var_spec | keyWindows | [181](../../magpie/internal/provider/key_allowance.go#L181) |
-| parts | var_spec | keyWindows | [186](../../magpie/internal/provider/key_allowance.go#L186) |
-| keyCardTag | function_declaration |  | [194](../../magpie/internal/provider/key_allowance.go#L194) |
-| lastKeyAllowance | function_declaration |  | [203](../../magpie/internal/provider/key_allowance.go#L203) |
-| noteKeyAllowance | function_declaration |  | [217](../../magpie/internal/provider/key_allowance.go#L217) |
-| StaleKeyAllowance | function_declaration |  | [242](../../magpie/internal/provider/key_allowance.go#L242) |
-| forgetKeyAllowances | function_declaration |  | [260](../../magpie/internal/provider/key_allowance.go#L260) |
+| keyAllowances | var_spec |  | [23](../../magpie/internal/provider/key_allowance.go#L23) |
+| m | field_declaration | keyAllowances | [25](../../magpie/internal/provider/key_allowance.go#L25) |
+| gen | field_declaration | keyAllowances | [28](../../magpie/internal/provider/key_allowance.go#L28) |
+| keyAllowance | type_spec |  | [31](../../magpie/internal/provider/key_allowance.go#L31) |
+| a | field_declaration | keyAllowance | [32](../../magpie/internal/provider/key_allowance.go#L32) |
+| aAt | field_declaration | keyAllowance | [33](../../magpie/internal/provider/key_allowance.go#L33) |
+| at | field_declaration | keyAllowance | [34](../../magpie/internal/provider/key_allowance.go#L34) |
+| loading | field_declaration | keyAllowance | [35](../../magpie/internal/provider/key_allowance.go#L35) |
+| stale | field_declaration | keyAllowance | [38](../../magpie/internal/provider/key_allowance.go#L38) |
+| refused | field_declaration | keyAllowance | [41](../../magpie/internal/provider/key_allowance.go#L41) |
+| read | field_declaration | keyAllowance | [44](../../magpie/internal/provider/key_allowance.go#L44) |
+| keyAllowanceAge | const_spec |  | [52](../../magpie/internal/provider/key_allowance.go#L52) |
+| keyNoWindowsAge | const_spec |  | [53](../../magpie/internal/provider/key_allowance.go#L53) |
+| readsKeyWindows | function_declaration |  | [60](../../magpie/internal/provider/key_allowance.go#L60) |
+| accountPlanOf | function_declaration |  | [82](../../magpie/internal/provider/key_allowance.go#L82) |
+| accountPlanWindows | function_declaration |  | [102](../../magpie/internal/provider/key_allowance.go#L102) |
+| c | var_spec | accountPlanWindows | [103](../../magpie/internal/provider/key_allowance.go#L103) |
+| keyAllowanceID | function_declaration |  | [127](../../magpie/internal/provider/key_allowance.go#L127) |
+| KeyAllowanceID | function_declaration |  | [131](../../magpie/internal/provider/key_allowance.go#L131) |
+| KeyAllowance | function_declaration |  | [143](../../magpie/internal/provider/key_allowance.go#L143) |
+| seed | var_spec | KeyAllowance | [152](../../magpie/internal/provider/key_allowance.go#L152) |
+| readKeyAllowance | function_declaration |  | [183](../../magpie/internal/provider/key_allowance.go#L183) |
+| renewed | var_spec | readKeyAllowance | [204](../../magpie/internal/provider/key_allowance.go#L204) |
+| keep | method_declaration |  | [231](../../magpie/internal/provider/key_allowance.go#L231) |
+| keyWindows | function_declaration |  | [246](../../magpie/internal/provider/key_allowance.go#L246) |
+| r | var_spec | keyWindows | [252](../../magpie/internal/provider/key_allowance.go#L252) |
+| err | var_spec | keyWindows | [253](../../magpie/internal/provider/key_allowance.go#L253) |
+| parts | var_spec | keyWindows | [263](../../magpie/internal/provider/key_allowance.go#L263) |
+| keyCardTag | function_declaration |  | [271](../../magpie/internal/provider/key_allowance.go#L271) |
+| lastKeyAllowance | function_declaration |  | [294](../../magpie/internal/provider/key_allowance.go#L294) |
+| noteKeyAllowance | function_declaration |  | [308](../../magpie/internal/provider/key_allowance.go#L308) |
+| StaleKeyAllowance | function_declaration |  | [337](../../magpie/internal/provider/key_allowance.go#L337) |
+| forgetKeyAllowances | function_declaration |  | [355](../../magpie/internal/provider/key_allowance.go#L355) |

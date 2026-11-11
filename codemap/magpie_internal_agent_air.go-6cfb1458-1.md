@@ -4,15 +4,21 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/air.go) · page 1/1
 
-Source SHA-256: 389a64e8efcff519d072d1ada28dd22a49db567d4c41648a4b647b96b0a12032
+Source SHA-256: 047ccab83f15dcd542bb69722244de21ed84b72cff99a836109f870ee1891e0c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| airAgent | const_spec |  | [48](../../magpie/internal/agent/air.go#L48) |
-| airDir | function_declaration |  | [51](../../magpie/internal/agent/air.go#L51) |
-| airOpenCode | var_spec |  | [68](../../magpie/internal/agent/air.go#L68) |
-| acpOpenCode | function_declaration |  | [90](../../magpie/internal/agent/air.go#L90) |
-| globs | var_spec | acpOpenCode | [91](../../magpie/internal/agent/air.go#L91) |
-| air | function_declaration |  | [137](../../magpie/internal/agent/air.go#L137) |
-| noticeAir1 | var_spec |  | [225](../../magpie/internal/agent/air.go#L225) |
-| noticeAir2 | var_spec |  | [226](../../magpie/internal/agent/air.go#L226) |
+| airAgent | const_spec |  | [50](../../magpie/internal/agent/air.go#L50) |
+| airDir | function_declaration |  | [53](../../magpie/internal/agent/air.go#L53) |
+| airOpenCode | var_spec |  | [70](../../magpie/internal/agent/air.go#L70) |
+| acpOpenCode | function_declaration |  | [92](../../magpie/internal/agent/air.go#L92) |
+| globs | var_spec | acpOpenCode | [93](../../magpie/internal/agent/air.go#L93) |
+| air | function_declaration |  | [139](../../magpie/internal/agent/air.go#L139) |
+| airIDE | function_declaration |  | [170](../../magpie/internal/agent/air.go#L170) |
+| jetBrainsIDESince | function_declaration |  | [195](../../magpie/internal/agent/air.go#L195) |
+| base | var_spec | jetBrainsIDESince | [196](../../magpie/internal/agent/air.go#L196) |
+| jetBrainsVersioned | var_spec |  | [229](../../magpie/internal/agent/air.go#L229) |
+| airAt | function_declaration |  | [234](../../magpie/internal/agent/air.go#L234) |
+| noticeAir1 | var_spec |  | [339](../../magpie/internal/agent/air.go#L339) |
+| noticeAir2 | var_spec |  | [340](../../magpie/internal/agent/air.go#L340) |
+| noticeAirIDE | var_spec |  | [341](../../magpie/internal/agent/air.go#L341) |

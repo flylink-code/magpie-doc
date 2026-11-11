@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/vision_mcp.go) · page 1/1
 
-Source SHA-256: a023382c689c1103dd8ec47981f4bd73fae938f032fcb040cc404eacd88750ae
+Source SHA-256: acdef0bc8f9d53c8cf45bb56fbc6a60f2c7d3accf61aec0d9a63b66fe5309efa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/library.go) · page 1/1
 
-Source SHA-256: 804f2ea76fdb40ec595c18d6e497c1619bef3a202d1fc58cfdb08d77bca248df
+Source SHA-256: 336e5f9b39a4ce16f1d2a4387168979b940d28af208ab8e1acb44a6970f47c28
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,36 +17,36 @@ Source SHA-256: 804f2ea76fdb40ec595c18d6e497c1619bef3a202d1fc58cfdb08d77bca248df
 | bad | field_declaration | libRow | [32](../../magpie/internal/tui/library.go#L32) |
 | libKinds | var_spec |  | [36](../../magpie/internal/tui/library.go#L36) |
 | reloadLibrary | method_declaration |  | [38](../../magpie/internal/tui/library.go#L38) |
-| libName | method_declaration |  | [105](../../magpie/internal/tui/library.go#L105) |
-| updateLibrary | method_declaration |  | [114](../../magpie/internal/tui/library.go#L114) |
-| gone | var_spec | updateLibrary | [167](../../magpie/internal/tui/library.go#L167) |
-| do | var_spec | updateLibrary | [179](../../magpie/internal/tui/library.go#L179) |
-| do | var_spec | updateLibrary | [190](../../magpie/internal/tui/library.go#L190) |
-| libCmd | function_declaration |  | [225](../../magpie/internal/tui/library.go#L225) |
-| libSaid | function_declaration |  | [237](../../magpie/internal/tui/library.go#L237) |
-| libOptions | method_declaration |  | [256](../../magpie/internal/tui/library.go#L256) |
-| out | var_spec | libOptions | [257](../../magpie/internal/tui/library.go#L257) |
-| openLibAgents | method_declaration |  | [282](../../magpie/internal/tui/library.go#L282) |
-| text | var_spec | openLibAgents | [292](../../magpie/internal/tui/library.go#L292) |
-| ok | var_spec | openLibAgents | [293](../../magpie/internal/tui/library.go#L293) |
-| res | var_spec | openLibAgents | [318](../../magpie/internal/tui/library.go#L318) |
-| err | var_spec | openLibAgents | [319](../../magpie/internal/tui/library.go#L319) |
-| openLibAdd | method_declaration |  | [348](../../magpie/internal/tui/library.go#L348) |
-| openServer | method_declaration |  | [380](../../magpie/internal/tui/library.go#L380) |
-| old | var_spec | openServer | [381](../../magpie/internal/tui/library.go#L381) |
-| saveServer | function_declaration |  | [406](../../magpie/internal/tui/library.go#L406) |
-| probedMsg | type_spec |  | [427](../../magpie/internal/tui/library.go#L427) |
-| p | field_declaration | probedMsg | [427](../../magpie/internal/tui/library.go#L427) |
-| probeCmd | function_declaration |  | [429](../../magpie/internal/tui/library.go#L429) |
-| openProbe | method_declaration |  | [441](../../magpie/internal/tui/library.go#L441) |
-| items | var_spec | openProbe | [442](../../magpie/internal/tui/library.go#L442) |
-| left | var_spec | openProbe | [472](../../magpie/internal/tui/library.go#L472) |
-| editedMsg | type_spec |  | [486](../../magpie/internal/tui/library.go#L486) |
-| text | field_declaration | editedMsg | [487](../../magpie/internal/tui/library.go#L487) |
-| err | field_declaration | editedMsg | [488](../../magpie/internal/tui/library.go#L488) |
-| editInstructions | function_declaration |  | [493](../../magpie/internal/tui/library.go#L493) |
-| saveInstructions | function_declaration |  | [533](../../magpie/internal/tui/library.go#L533) |
-| viewLibrary | method_declaration |  | [539](../../magpie/internal/tui/library.go#L539) |
-| b | var_spec | viewLibrary | [540](../../magpie/internal/tui/library.go#L540) |
-| agents | var_spec | viewLibrary | [598](../../magpie/internal/tui/library.go#L598) |
-| trunc | function_declaration |  | [627](../../magpie/internal/tui/library.go#L627) |
+| libName | method_declaration |  | [112](../../magpie/internal/tui/library.go#L112) |
+| updateLibrary | method_declaration |  | [121](../../magpie/internal/tui/library.go#L121) |
+| gone | var_spec | updateLibrary | [174](../../magpie/internal/tui/library.go#L174) |
+| do | var_spec | updateLibrary | [186](../../magpie/internal/tui/library.go#L186) |
+| do | var_spec | updateLibrary | [197](../../magpie/internal/tui/library.go#L197) |
+| libCmd | function_declaration |  | [232](../../magpie/internal/tui/library.go#L232) |
+| libSaid | function_declaration |  | [244](../../magpie/internal/tui/library.go#L244) |
+| libOptions | method_declaration |  | [270](../../magpie/internal/tui/library.go#L270) |
+| out | var_spec | libOptions | [271](../../magpie/internal/tui/library.go#L271) |
+| openLibAgents | method_declaration |  | [296](../../magpie/internal/tui/library.go#L296) |
+| text | var_spec | openLibAgents | [306](../../magpie/internal/tui/library.go#L306) |
+| ok | var_spec | openLibAgents | [307](../../magpie/internal/tui/library.go#L307) |
+| res | var_spec | openLibAgents | [332](../../magpie/internal/tui/library.go#L332) |
+| err | var_spec | openLibAgents | [333](../../magpie/internal/tui/library.go#L333) |
+| openLibAdd | method_declaration |  | [362](../../magpie/internal/tui/library.go#L362) |
+| openServer | method_declaration |  | [394](../../magpie/internal/tui/library.go#L394) |
+| old | var_spec | openServer | [395](../../magpie/internal/tui/library.go#L395) |
+| saveServer | function_declaration |  | [420](../../magpie/internal/tui/library.go#L420) |
+| probedMsg | type_spec |  | [443](../../magpie/internal/tui/library.go#L443) |
+| p | field_declaration | probedMsg | [443](../../magpie/internal/tui/library.go#L443) |
+| probeCmd | function_declaration |  | [445](../../magpie/internal/tui/library.go#L445) |
+| openProbe | method_declaration |  | [457](../../magpie/internal/tui/library.go#L457) |
+| items | var_spec | openProbe | [458](../../magpie/internal/tui/library.go#L458) |
+| left | var_spec | openProbe | [498](../../magpie/internal/tui/library.go#L498) |
+| editedMsg | type_spec |  | [512](../../magpie/internal/tui/library.go#L512) |
+| text | field_declaration | editedMsg | [513](../../magpie/internal/tui/library.go#L513) |
+| err | field_declaration | editedMsg | [514](../../magpie/internal/tui/library.go#L514) |
+| editInstructions | function_declaration |  | [519](../../magpie/internal/tui/library.go#L519) |
+| saveInstructions | function_declaration |  | [559](../../magpie/internal/tui/library.go#L559) |
+| viewLibrary | method_declaration |  | [565](../../magpie/internal/tui/library.go#L565) |
+| b | var_spec | viewLibrary | [566](../../magpie/internal/tui/library.go#L566) |
+| agents | var_spec | viewLibrary | [624](../../magpie/internal/tui/library.go#L624) |
+| trunc | function_declaration |  | [653](../../magpie/internal/tui/library.go#L653) |

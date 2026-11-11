@@ -4,36 +4,47 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/embeddings.go) · page 1/1
 
-Source SHA-256: ea24dcb57fa54d2607a43bf07e22ca08b5718de71d02604d1e834b539b897c60
+Source SHA-256: 8d5a392721ece9e8d53811595ec4f78f6fbd511f00fc8223fb59f7f01163a4c9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| retrieveTimeout | const_spec |  | [20](../../magpie/internal/gateway/embeddings.go#L20) |
-| retrieve | method_declaration |  | [28](../../magpie/internal/gateway/embeddings.go#L28) |
-| req | var_spec | retrieve | [35](../../magpie/internal/gateway/embeddings.go#L35) |
-| asked | var_spec | retrieve | [40](../../magpie/internal/gateway/embeddings.go#L40) |
-| retrieval | type_spec |  | [52](../../magpie/internal/gateway/embeddings.go#L52) |
-| jsonRetrieval | type_spec |  | [66](../../magpie/internal/gateway/embeddings.go#L66) |
-| req | field_declaration | jsonRetrieval | [66](../../magpie/internal/gateway/embeddings.go#L66) |
-| mask | method_declaration |  | [68](../../magpie/internal/gateway/embeddings.go#L68) |
-| answerType | method_declaration |  | [78](../../magpie/internal/gateway/embeddings.go#L78) |
-| forModel | method_declaration |  | [80](../../magpie/internal/gateway/embeddings.go#L80) |
-| serveRetrieval | method_declaration |  | [88](../../magpie/internal/gateway/embeddings.go#L88) |
-| paused | var_spec | serveRetrieval | [128](../../magpie/internal/gateway/embeddings.go#L128) |
-| skipped | var_spec | serveRetrieval | [175](../../magpie/internal/gateway/embeddings.go#L175) |
-| done | var_spec | serveRetrieval | [180](../../magpie/internal/gateway/embeddings.go#L180) |
-| err | var_spec | serveRetrieval | [181](../../magpie/internal/gateway/embeddings.go#L181) |
-| hits | var_spec | serveRetrieval | [182](../../magpie/internal/gateway/embeddings.go#L182) |
-| sent | var_spec | serveRetrieval | [183](../../magpie/internal/gateway/embeddings.go#L183) |
-| resolveRetrievalModel | function_declaration |  | [263](../../magpie/internal/gateway/embeddings.go#L263) |
-| retrieveFrom | method_declaration |  | [285](../../magpie/internal/gateway/embeddings.go#L285) |
-| retrieveAs | method_declaration |  | [292](../../magpie/internal/gateway/embeddings.go#L292) |
-| retrievedTokens | function_declaration |  | [337](../../magpie/internal/gateway/embeddings.go#L337) |
-| a | var_spec | retrievedTokens | [338](../../magpie/internal/gateway/embeddings.go#L338) |
-| Usage | field_declaration | retrievedTokens::a | [339](../../magpie/internal/gateway/embeddings.go#L339) |
-| Prompt | field_declaration | retrievedTokens::a::Usage | [340](../../magpie/internal/gateway/embeddings.go#L340) |
-| Input | field_declaration | retrievedTokens::a::Usage | [341](../../magpie/internal/gateway/embeddings.go#L341) |
-| Total | field_declaration | retrievedTokens::a::Usage | [342](../../magpie/internal/gateway/embeddings.go#L342) |
-| Meta | field_declaration | retrievedTokens::a | [344](../../magpie/internal/gateway/embeddings.go#L344) |
-| Billed | field_declaration | retrievedTokens::a::Meta | [345](../../magpie/internal/gateway/embeddings.go#L345) |
-| Input | field_declaration | retrievedTokens::a::Meta::Billed | [346](../../magpie/internal/gateway/embeddings.go#L346) |
+| retrieveTimeout | const_spec |  | [21](../../magpie/internal/gateway/embeddings.go#L21) |
+| retrieve | method_declaration |  | [29](../../magpie/internal/gateway/embeddings.go#L29) |
+| req | var_spec | retrieve | [36](../../magpie/internal/gateway/embeddings.go#L36) |
+| asked | var_spec | retrieve | [41](../../magpie/internal/gateway/embeddings.go#L41) |
+| retrieval | type_spec |  | [53](../../magpie/internal/gateway/embeddings.go#L53) |
+| refusingRetrieval | type_spec |  | [68](../../magpie/internal/gateway/embeddings.go#L68) |
+| countedRetrieval | type_spec |  | [74](../../magpie/internal/gateway/embeddings.go#L74) |
+| jsonRetrieval | type_spec |  | [79](../../magpie/internal/gateway/embeddings.go#L79) |
+| req | field_declaration | jsonRetrieval | [79](../../magpie/internal/gateway/embeddings.go#L79) |
+| mask | method_declaration |  | [81](../../magpie/internal/gateway/embeddings.go#L81) |
+| answerType | method_declaration |  | [91](../../magpie/internal/gateway/embeddings.go#L91) |
+| forModel | method_declaration |  | [93](../../magpie/internal/gateway/embeddings.go#L93) |
+| serveRetrieval | method_declaration |  | [101](../../magpie/internal/gateway/embeddings.go#L101) |
+| paused | var_spec | serveRetrieval | [146](../../magpie/internal/gateway/embeddings.go#L146) |
+| skipped | var_spec | serveRetrieval | [214](../../magpie/internal/gateway/embeddings.go#L214) |
+| grp | var_spec | serveRetrieval | [218](../../magpie/internal/gateway/embeddings.go#L218) |
+| done | var_spec | serveRetrieval | [226](../../magpie/internal/gateway/embeddings.go#L226) |
+| err | var_spec | serveRetrieval | [227](../../magpie/internal/gateway/embeddings.go#L227) |
+| hits | var_spec | serveRetrieval | [228](../../magpie/internal/gateway/embeddings.go#L228) |
+| sent | var_spec | serveRetrieval | [229](../../magpie/internal/gateway/embeddings.go#L229) |
+| heard | var_spec | serveRetrieval | [289](../../magpie/internal/gateway/embeddings.go#L289) |
+| b | var_spec | serveRetrieval | [291](../../magpie/internal/gateway/embeddings.go#L291) |
+| got | var_spec | serveRetrieval | [292](../../magpie/internal/gateway/embeddings.go#L292) |
+| code | var_spec | serveRetrieval | [293](../../magpie/internal/gateway/embeddings.go#L293) |
+| res | var_spec | serveRetrieval | [294](../../magpie/internal/gateway/embeddings.go#L294) |
+| cached | var_spec | serveRetrieval | [313](../../magpie/internal/gateway/embeddings.go#L313) |
+| cut | var_spec | serveRetrieval | [323](../../magpie/internal/gateway/embeddings.go#L323) |
+| resolveRetrievalModel | function_declaration |  | [368](../../magpie/internal/gateway/embeddings.go#L368) |
+| retrieveFrom | method_declaration |  | [393](../../magpie/internal/gateway/embeddings.go#L393) |
+| retrieveAs | method_declaration |  | [400](../../magpie/internal/gateway/embeddings.go#L400) |
+| retrieveOpen | method_declaration |  | [420](../../magpie/internal/gateway/embeddings.go#L420) |
+| retrievedTokens | function_declaration |  | [467](../../magpie/internal/gateway/embeddings.go#L467) |
+| a | var_spec | retrievedTokens | [468](../../magpie/internal/gateway/embeddings.go#L468) |
+| Usage | field_declaration | retrievedTokens::a | [469](../../magpie/internal/gateway/embeddings.go#L469) |
+| Prompt | field_declaration | retrievedTokens::a::Usage | [470](../../magpie/internal/gateway/embeddings.go#L470) |
+| Input | field_declaration | retrievedTokens::a::Usage | [471](../../magpie/internal/gateway/embeddings.go#L471) |
+| Total | field_declaration | retrievedTokens::a::Usage | [472](../../magpie/internal/gateway/embeddings.go#L472) |
+| Meta | field_declaration | retrievedTokens::a | [474](../../magpie/internal/gateway/embeddings.go#L474) |
+| Billed | field_declaration | retrievedTokens::a::Meta | [475](../../magpie/internal/gateway/embeddings.go#L475) |
+| Input | field_declaration | retrievedTokens::a::Meta::Billed | [476](../../magpie/internal/gateway/embeddings.go#L476) |

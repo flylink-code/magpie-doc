@@ -4,9 +4,9 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/budget/budget.go) · page 1/1
 
-Source SHA-256: 3e647e72c4e215144ae8036f469641ca99799903d0331b74076ea1d67e4f2121
+Source SHA-256: 5385567a9c4ef5a12495db7268373304e274566897057395995e2c2f0c131631
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [20](../../magpie/plugins/budget/budget.go#L20) |
-| InUse | function_declaration |  | [35](../../magpie/plugins/budget/budget.go#L35) |
+| InUse | function_declaration |  | [36](../../magpie/plugins/budget/budget.go#L36) |

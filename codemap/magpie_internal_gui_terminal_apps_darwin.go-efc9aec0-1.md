@@ -4,9 +4,9 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/terminal_apps_darwin.go) · page 1/1
 
-Source SHA-256: c655e522c0b881035bf49de1bc946488eb2130ea469fce5c81af6819e8f3b2d9
+Source SHA-256: f1e83f4a0d0a55cd949e41a16512615bb6a5c77eb9bebebb18e9c2342530b3a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| discoverTerminals | function_declaration |  | [19](../../magpie/internal/gui/terminal_apps_darwin.go#L19) |
-| found | var_spec | discoverTerminals | [25](../../magpie/internal/gui/terminal_apps_darwin.go#L25) |
+| discoverTerminals | function_declaration |  | [20](../../magpie/internal/gui/terminal_apps_darwin.go#L20) |
+| found | var_spec | discoverTerminals | [26](../../magpie/internal/gui/terminal_apps_darwin.go#L26) |

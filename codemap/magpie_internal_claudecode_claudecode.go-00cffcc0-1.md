@@ -4,38 +4,42 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/claudecode/claudecode.go) · page 1/1
 
-Source SHA-256: 119c668fe7e36d3817a0c385bedd80250016acdd7be1b90a836eb0b80d500472
+Source SHA-256: 1e6ee4523c2dff697b49eaebdf0334e0dbb6f28d0ffa796dda56ba97196ca115
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Base | var_spec |  | [35](../../magpie/internal/claudecode/claudecode.go#L35) |
-| Root | function_declaration |  | [39](../../magpie/internal/claudecode/claudecode.go#L39) |
-| exeName | function_declaration |  | [41](../../magpie/internal/claudecode/claudecode.go#L41) |
-| versionRe | var_spec |  | [48](../../magpie/internal/claudecode/claudecode.go#L48) |
-| Downloaded | function_declaration |  | [52](../../magpie/internal/claudecode/claudecode.go#L52) |
-| newer | function_declaration |  | [74](../../magpie/internal/claudecode/claudecode.go#L74) |
-| Find | function_declaration |  | [89](../../magpie/internal/claudecode/claudecode.go#L89) |
-| InstallHint | const_spec |  | [99](../../magpie/internal/claudecode/claudecode.go#L99) |
-| Platform | function_declaration |  | [103](../../magpie/internal/claudecode/claudecode.go#L103) |
-| Release | type_spec |  | [124](../../magpie/internal/claudecode/claudecode.go#L124) |
-| Version | field_declaration | Release | [125](../../magpie/internal/claudecode/claudecode.go#L125) |
-| Platform | field_declaration | Release | [126](../../magpie/internal/claudecode/claudecode.go#L126) |
-| URL | field_declaration | Release | [127](../../magpie/internal/claudecode/claudecode.go#L127) |
-| Checksum | field_declaration | Release | [128](../../magpie/internal/claudecode/claudecode.go#L128) |
-| Size | field_declaration | Release | [129](../../magpie/internal/claudecode/claudecode.go#L129) |
-| Latest | function_declaration |  | [134](../../magpie/internal/claudecode/claudecode.go#L134) |
-| latest | function_declaration |  | [138](../../magpie/internal/claudecode/claudecode.go#L138) |
-| m | var_spec | latest | [156](../../magpie/internal/claudecode/claudecode.go#L156) |
-| Platforms | field_declaration | latest::m | [157](../../magpie/internal/claudecode/claudecode.go#L157) |
-| Binary | field_declaration | latest::m::Platforms | [158](../../magpie/internal/claudecode/claudecode.go#L158) |
-| Checksum | field_declaration | latest::m::Platforms | [159](../../magpie/internal/claudecode/claudecode.go#L159) |
-| Size | field_declaration | latest::m::Platforms | [160](../../magpie/internal/claudecode/claudecode.go#L160) |
-| short | function_declaration |  | [183](../../magpie/internal/claudecode/claudecode.go#L183) |
-| get | function_declaration |  | [190](../../magpie/internal/claudecode/claudecode.go#L190) |
-| Install | function_declaration |  | [217](../../magpie/internal/claudecode/claudecode.go#L217) |
-| download | function_declaration |  | [245](../../magpie/internal/claudecode/claudecode.go#L245) |
-| progressFunc | type_spec |  | [279](../../magpie/internal/claudecode/claudecode.go#L279) |
-| progressWriter | function_declaration |  | [281](../../magpie/internal/claudecode/claudecode.go#L281) |
-| done | var_spec | progressWriter | [282](../../magpie/internal/claudecode/claudecode.go#L282) |
-| Write | method_declaration |  | [291](../../magpie/internal/claudecode/claudecode.go#L291) |
-| Remove | function_declaration |  | [297](../../magpie/internal/claudecode/claudecode.go#L297) |
+| Base | var_spec |  | [41](../../magpie/internal/claudecode/claudecode.go#L41) |
+| Root | function_declaration |  | [45](../../magpie/internal/claudecode/claudecode.go#L45) |
+| exeName | function_declaration |  | [47](../../magpie/internal/claudecode/claudecode.go#L47) |
+| versionRe | var_spec |  | [54](../../magpie/internal/claudecode/claudecode.go#L54) |
+| Downloaded | function_declaration |  | [58](../../magpie/internal/claudecode/claudecode.go#L58) |
+| newer | function_declaration |  | [80](../../magpie/internal/claudecode/claudecode.go#L80) |
+| Find | function_declaration |  | [95](../../magpie/internal/claudecode/claudecode.go#L95) |
+| InstallHint | const_spec |  | [105](../../magpie/internal/claudecode/claudecode.go#L105) |
+| Platform | function_declaration |  | [109](../../magpie/internal/claudecode/claudecode.go#L109) |
+| Release | type_spec |  | [130](../../magpie/internal/claudecode/claudecode.go#L130) |
+| Version | field_declaration | Release | [131](../../magpie/internal/claudecode/claudecode.go#L131) |
+| Platform | field_declaration | Release | [132](../../magpie/internal/claudecode/claudecode.go#L132) |
+| URL | field_declaration | Release | [133](../../magpie/internal/claudecode/claudecode.go#L133) |
+| Checksum | field_declaration | Release | [134](../../magpie/internal/claudecode/claudecode.go#L134) |
+| Size | field_declaration | Release | [135](../../magpie/internal/claudecode/claudecode.go#L135) |
+| Latest | function_declaration |  | [140](../../magpie/internal/claudecode/claudecode.go#L140) |
+| latest | function_declaration |  | [144](../../magpie/internal/claudecode/claudecode.go#L144) |
+| m | var_spec | latest | [162](../../magpie/internal/claudecode/claudecode.go#L162) |
+| Platforms | field_declaration | latest::m | [163](../../magpie/internal/claudecode/claudecode.go#L163) |
+| Binary | field_declaration | latest::m::Platforms | [164](../../magpie/internal/claudecode/claudecode.go#L164) |
+| Checksum | field_declaration | latest::m::Platforms | [165](../../magpie/internal/claudecode/claudecode.go#L165) |
+| Size | field_declaration | latest::m::Platforms | [166](../../magpie/internal/claudecode/claudecode.go#L166) |
+| short | function_declaration |  | [189](../../magpie/internal/claudecode/claudecode.go#L189) |
+| get | function_declaration |  | [196](../../magpie/internal/claudecode/claudecode.go#L196) |
+| Install | function_declaration |  | [223](../../magpie/internal/claudecode/claudecode.go#L223) |
+| install | function_declaration |  | [232](../../magpie/internal/claudecode/claudecode.go#L232) |
+| prune | function_declaration |  | [258](../../magpie/internal/claudecode/claudecode.go#L258) |
+| download | function_declaration |  | [275](../../magpie/internal/claudecode/claudecode.go#L275) |
+| downloadStall | var_spec |  | [282](../../magpie/internal/claudecode/claudecode.go#L282) |
+| downloadOnce | function_declaration |  | [284](../../magpie/internal/claudecode/claudecode.go#L284) |
+| progressFunc | type_spec |  | [321](../../magpie/internal/claudecode/claudecode.go#L321) |
+| progressWriter | function_declaration |  | [323](../../magpie/internal/claudecode/claudecode.go#L323) |
+| done | var_spec | progressWriter | [324](../../magpie/internal/claudecode/claudecode.go#L324) |
+| Write | method_declaration |  | [333](../../magpie/internal/claudecode/claudecode.go#L333) |
+| Remove | function_declaration |  | [339](../../magpie/internal/claudecode/claudecode.go#L339) |

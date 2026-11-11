@@ -4,17 +4,17 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/rulefolder.go) · page 1/1
 
-Source SHA-256: eb85722f4b1ebd00d78cf948ac35343355f510e1476d0c26b1eb465c9d5f80c4
+Source SHA-256: 44da07a200e918ce38092bae7a5357aa70598ae0612f9a26b5b64717d4bf9045
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| foldCase | var_spec |  | [19](../../magpie/internal/provider/rulefolder.go#L19) |
-| ruleHome | var_spec |  | [22](../../magpie/internal/provider/rulefolder.go#L22) |
-| drivePath | var_spec |  | [25](../../magpie/internal/provider/rulefolder.go#L25) |
-| wslMount | var_spec |  | [26](../../magpie/internal/provider/rulefolder.go#L26) |
-| wslShare | var_spec |  | [27](../../magpie/internal/provider/rulefolder.go#L27) |
-| folderKey | function_declaration |  | [36](../../magpie/internal/provider/rulefolder.go#L36) |
-| FolderUnder | function_declaration |  | [69](../../magpie/internal/provider/rulefolder.go#L69) |
-| cleanFolder | function_declaration |  | [79](../../magpie/internal/provider/rulefolder.go#L79) |
-| cleanFolders | function_declaration |  | [91](../../magpie/internal/provider/rulefolder.go#L91) |
-| out | var_spec | cleanFolders | [92](../../magpie/internal/provider/rulefolder.go#L92) |
+| foldCase | var_spec |  | [20](../../magpie/internal/provider/rulefolder.go#L20) |
+| ruleHome | var_spec |  | [23](../../magpie/internal/provider/rulefolder.go#L23) |
+| drivePath | var_spec |  | [26](../../magpie/internal/provider/rulefolder.go#L26) |
+| wslMount | var_spec |  | [27](../../magpie/internal/provider/rulefolder.go#L27) |
+| wslShare | var_spec |  | [28](../../magpie/internal/provider/rulefolder.go#L28) |
+| folderKey | function_declaration |  | [37](../../magpie/internal/provider/rulefolder.go#L37) |
+| FolderUnder | function_declaration |  | [70](../../magpie/internal/provider/rulefolder.go#L70) |
+| cleanFolder | function_declaration |  | [80](../../magpie/internal/provider/rulefolder.go#L80) |
+| cleanFolders | function_declaration |  | [92](../../magpie/internal/provider/rulefolder.go#L92) |
+| out | var_spec | cleanFolders | [93](../../magpie/internal/provider/rulefolder.go#L93) |

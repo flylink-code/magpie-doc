@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/bunupdate.go) · page 1/1
 
-Source SHA-256: aa46996bc3bbca7a9d5f388ce85ea868b08628de839bce4aaa0217e6a90d1034
+Source SHA-256: dfdbb389f25322d28efa7d56488e0c8db2d58741a770d4e75b246037b6517e02
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

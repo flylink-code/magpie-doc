@@ -4,12 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/keep_login_as.go) · page 1/1
 
-Source SHA-256: 55feb0278c4d79fc29ed4c3d46349ea5f21de2ed9a452dcf1b28e4055fa82fba
+Source SHA-256: 523d9727419e025cf2ee4723bb0caddd7bf4df60fd8f341149b0cffa42e0f2eb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | keptAs | function_declaration |  | [20](../../magpie/internal/provider/keep_login_as.go#L20) |
 | LoginRanks | method_declaration |  | [45](../../magpie/internal/provider/keep_login_as.go#L45) |
 | SetKeepLoginAs | function_declaration |  | [65](../../magpie/internal/provider/keep_login_as.go#L65) |
-| rankLogins | function_declaration |  | [111](../../magpie/internal/provider/keep_login_as.go#L111) |
-| signInToFirst | function_declaration |  | [129](../../magpie/internal/provider/keep_login_as.go#L129) |
+| keepsLogin | method_declaration |  | [126](../../magpie/internal/provider/keep_login_as.go#L126) |
+| errSwitchOnly | function_declaration |  | [130](../../magpie/internal/provider/keep_login_as.go#L130) |
+| rankLogins | function_declaration |  | [135](../../magpie/internal/provider/keep_login_as.go#L135) |
+| signInToFirst | function_declaration |  | [153](../../magpie/internal/provider/keep_login_as.go#L153) |

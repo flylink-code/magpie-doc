@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/purpose.go) · page 1/1
 
-Source SHA-256: 84844b0f7ab9b44361c17d3a4ac9050e2d520483fb751ae4a49334eb7d74a7a8
+Source SHA-256: 68a9ad50ffc46b857aa15d45b76bb5f46471421bd57234ffc5e16cee29d528f8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,5 +12,5 @@ Source SHA-256: 84844b0f7ab9b44361c17d3a4ac9050e2d520483fb751ae4a49334eb7d74a7a8
 | Purpose | field_declaration | PurposeKind | [9](../../magpie/internal/usage/purpose.go#L9) |
 | Name | field_declaration | PurposeKind | [10](../../magpie/internal/usage/purpose.go#L10) |
 | purposeKinds | var_spec |  | [13](../../magpie/internal/usage/purpose.go#L13) |
-| PurposeKinds | function_declaration |  | [41](../../magpie/internal/usage/purpose.go#L41) |
-| PurposeOf | function_declaration |  | [46](../../magpie/internal/usage/purpose.go#L46) |
+| PurposeKinds | function_declaration |  | [44](../../magpie/internal/usage/purpose.go#L44) |
+| PurposeOf | function_declaration |  | [49](../../magpie/internal/usage/purpose.go#L49) |

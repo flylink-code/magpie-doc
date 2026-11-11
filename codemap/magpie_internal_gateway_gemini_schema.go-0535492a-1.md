@@ -4,13 +4,26 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/gemini_schema.go) · page 1/1
 
-Source SHA-256: a0c67801b313935ad014d453e6b69eb20a300a6db8a423b100500bae32026742
+Source SHA-256: 403a5fdf21bc5b26ff6da612e3a4ca0abe220cede4717b0aa83cb42f77a1a5f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| geminiToolTypes | function_declaration |  | [38](../../magpie/internal/gateway/gemini_schema.go#L38) |
-| ins | var_spec | geminiToolTypes | [46](../../magpie/internal/gateway/gemini_schema.go#L46) |
-| geminiNamed | function_declaration |  | [61](../../magpie/internal/gateway/gemini_schema.go#L61) |
-| collectGeminiUntyped | function_declaration |  | [70](../../magpie/internal/gateway/gemini_schema.go#L70) |
-| geminiSchemaType | function_declaration |  | [100](../../magpie/internal/gateway/gemini_schema.go#L100) |
-| rest | var_spec | geminiSchemaType | [106](../../magpie/internal/gateway/gemini_schema.go#L106) |
+| geminiToolTypes | function_declaration |  | [41](../../magpie/internal/gateway/gemini_schema.go#L41) |
+| ins | var_spec | geminiToolTypes | [50](../../magpie/internal/gateway/gemini_schema.go#L50) |
+| geminiNamed | function_declaration |  | [65](../../magpie/internal/gateway/gemini_schema.go#L65) |
+| collectGeminiUntyped | function_declaration |  | [74](../../magpie/internal/gateway/gemini_schema.go#L74) |
+| geminiSchemaType | function_declaration |  | [104](../../magpie/internal/gateway/gemini_schema.go#L104) |
+| rest | var_spec | geminiSchemaType | [118](../../magpie/internal/gateway/gemini_schema.go#L118) |
+| geminiSchemaShapes | function_declaration |  | [181](../../magpie/internal/gateway/gemini_schema.go#L181) |
+| cut | type_spec | geminiSchemaShapes | [186](../../magpie/internal/gateway/gemini_schema.go#L186) |
+| from | field_declaration | geminiSchemaShapes::cut | [187](../../magpie/internal/gateway/gemini_schema.go#L187) |
+| raw | field_declaration | geminiSchemaShapes::cut | [188](../../magpie/internal/gateway/gemini_schema.go#L188) |
+| cuts | var_spec | geminiSchemaShapes | [190](../../magpie/internal/gateway/gemini_schema.go#L190) |
+| schemaMaps | var_spec |  | [225](../../magpie/internal/gateway/gemini_schema.go#L225) |
+| schemaOne | var_spec |  | [226](../../magpie/internal/gateway/gemini_schema.go#L226) |
+| schemaList | var_spec |  | [227](../../magpie/internal/gateway/gemini_schema.go#L227) |
+| schemaNeedsShape | function_declaration |  | [232](../../magpie/internal/gateway/gemini_schema.go#L232) |
+| shapeSchema | function_declaration |  | [265](../../magpie/internal/gateway/gemini_schema.go#L265) |
+| b | var_spec | shapeSchema | [275](../../magpie/internal/gateway/gemini_schema.go#L275) |
+| m | var_spec | shapeSchema | [292](../../magpie/internal/gateway/gemini_schema.go#L292) |
+| m | var_spec | shapeSchema | [314](../../magpie/internal/gateway/gemini_schema.go#L314) |

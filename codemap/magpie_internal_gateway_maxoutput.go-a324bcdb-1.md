@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/maxoutput.go) · page 1/1
 
-Source SHA-256: d577a4c7d9be850715e560d2841cf290753855a47b4732dea225388bcefee4e7
+Source SHA-256: 6089cc79bd45d6626ab5d901051f37181a026c1d378337f5d74660bc87aacacc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -30,6 +30,6 @@ Source SHA-256: d577a4c7d9be850715e560d2841cf290753855a47b4732dea225388bcefee4e7
 | namesOutput | function_declaration |  | [212](../../magpie/internal/gateway/maxoutput.go#L212) |
 | shortByDefault | function_declaration |  | [235](../../magpie/internal/gateway/maxoutput.go#L235) |
 | withOwnOutput | function_declaration |  | [243](../../magpie/internal/gateway/maxoutput.go#L243) |
-| fillsOutput | function_declaration |  | [263](../../magpie/internal/gateway/maxoutput.go#L263) |
-| outputFieldRefused | function_declaration |  | [274](../../magpie/internal/gateway/maxoutput.go#L274) |
-| outputFillRefused | function_declaration |  | [290](../../magpie/internal/gateway/maxoutput.go#L290) |
+| fillsOutput | function_declaration |  | [267](../../magpie/internal/gateway/maxoutput.go#L267) |
+| outputFieldRefused | function_declaration |  | [278](../../magpie/internal/gateway/maxoutput.go#L278) |
+| outputFillRefused | function_declaration |  | [294](../../magpie/internal/gateway/maxoutput.go#L294) |

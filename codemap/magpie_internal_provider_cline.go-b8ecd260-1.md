@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/cline.go) · page 1/1
 
-Source SHA-256: 992f77fb39738e67dd32a0130a62ef5d505353c6b1194bc83eac3bd2af510647
+Source SHA-256: 3fe93865adc98b54fa651cce5d4b75ad3ebb42766a1b2628825e381f221c5ec5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,12 +26,10 @@ Source SHA-256: 992f77fb39738e67dd32a0130a62ef5d505353c6b1194bc83eac3bd2af510647
 | isClineFree | function_declaration |  | [142](../../magpie/internal/provider/cline.go#L142) |
 | clineFreeModel | method_declaration |  | [156](../../magpie/internal/provider/cline.go#L156) |
 | ClinePinnable | method_declaration |  | [173](../../magpie/internal/provider/cline.go#L173) |
-| clineMakers | var_spec |  | [188](../../magpie/internal/provider/cline.go#L188) |
-| name | field_declaration | clineMakers | [189](../../magpie/internal/provider/cline.go#L189) |
-| exact | field_declaration | clineMakers | [190](../../magpie/internal/provider/cline.go#L190) |
-| upstream | field_declaration | clineMakers | [191](../../magpie/internal/provider/cline.go#L191) |
-| openRouter | field_declaration | clineMakers | [192](../../magpie/internal/provider/cline.go#L192) |
-| ClinePin | method_declaration |  | [206](../../magpie/internal/provider/cline.go#L206) |
-| ClinePassAsked | method_declaration |  | [233](../../magpie/internal/provider/cline.go#L233) |
-| clinePassDeepSeek | function_declaration |  | [244](../../magpie/internal/provider/cline.go#L244) |
-| ClinePassHas | method_declaration |  | [258](../../magpie/internal/provider/cline.go#L258) |
+| clineMakers | var_spec |  | [189](../../magpie/internal/provider/cline.go#L189) |
+| name | field_declaration | clineMakers | [190](../../magpie/internal/provider/cline.go#L190) |
+| exact | field_declaration | clineMakers | [191](../../magpie/internal/provider/cline.go#L191) |
+| upstream | field_declaration | clineMakers | [192](../../magpie/internal/provider/cline.go#L192) |
+| openRouter | field_declaration | clineMakers | [193](../../magpie/internal/provider/cline.go#L193) |
+| ClinePin | method_declaration |  | [213](../../magpie/internal/provider/cline.go#L213) |
+| ClinePassAsked | method_declaration |  | [238](../../magpie/internal/provider/cline.go#L238) |

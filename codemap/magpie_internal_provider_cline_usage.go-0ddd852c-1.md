@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/cline_usage.go) · page 1/1
 
-Source SHA-256: a3b1b511ac7af1b957302d05601c0a57d4681d9c96abd32df1afde57da174031
+Source SHA-256: c129d66e81516d0a35ea0d67d6289721c24e9893e9897cf58faa14075cc59808
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

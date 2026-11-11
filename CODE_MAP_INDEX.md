@@ -8,22 +8,22 @@ Read AGENTS.md → [hubs](codemap/hubs.md) → module → file/symbol page → s
 | --- | ---: | ---: | --- |
 | bridge-lib | 8 | 170 | [open](codemap/bridge-lib.md) |
 | bridge-root | 7 | 119 | [open](codemap/bridge-root.md) |
-| bridge-scripts | 3 | 0 | [open](codemap/bridge-scripts.md) |
-| bridge-test | 10 | 232 | [open](codemap/bridge-test.md) |
-| magpie-agent | 122 | 3150 | [open](codemap/magpie-agent.md) |
-| magpie-agentplug | 1 | 65 | [open](codemap/magpie-agentplug.md) |
-| magpie-cli | 86 | 1471 | [open](codemap/magpie-cli.md) |
-| magpie-gateway | 211 | 8333 | [open](codemap/magpie-gateway.md) |
-| magpie-gui | 168 | 17706 | [open](codemap/magpie-gui.md) |
-| magpie-plugin | 42 | 2406 | [open](codemap/magpie-plugin.md) |
-| magpie-privacy | 33 | 1186 | [open](codemap/magpie-privacy.md) |
-| magpie-provider | 237 | 7704 | [open](codemap/magpie-provider.md) |
-| magpie-sessions | 139 | 5434 | [open](codemap/magpie-sessions.md) |
-| magpie-storage | 50 | 1287 | [open](codemap/magpie-storage.md) |
-| magpie-sys | 71 | 845 | [open](codemap/magpie-sys.md) |
-| magpie-usage | 45 | 1463 | [open](codemap/magpie-usage.md) |
+| bridge-scripts | 4 | 8 | [open](codemap/bridge-scripts.md) |
+| bridge-test | 11 | 248 | [open](codemap/bridge-test.md) |
+| magpie-agent | 179 | 4864 | [open](codemap/magpie-agent.md) |
+| magpie-agentplug | 1 | 98 | [open](codemap/magpie-agentplug.md) |
+| magpie-cli | 139 | 2691 | [open](codemap/magpie-cli.md) |
+| magpie-gateway | 337 | 12814 | [open](codemap/magpie-gateway.md) |
+| magpie-gui | 292 | 24017 | [open](codemap/magpie-gui.md) |
+| magpie-plugin | 50 | 2969 | [open](codemap/magpie-plugin.md) |
+| magpie-privacy | 55 | 1828 | [open](codemap/magpie-privacy.md) |
+| magpie-provider | 318 | 10093 | [open](codemap/magpie-provider.md) |
+| magpie-sessions | 197 | 7599 | [open](codemap/magpie-sessions.md) |
+| magpie-storage | 73 | 1801 | [open](codemap/magpie-storage.md) |
+| magpie-sys | 166 | 3169 | [open](codemap/magpie-sys.md) |
+| magpie-usage | 66 | 2263 | [open](codemap/magpie-usage.md) |
 | tooling | 2 | 335 | [open](codemap/tooling.md) |
 
-Total: 1235 source files, 51906 extracted symbols, 10 parser diagnostics; import edges 65 resolved / 0 ambiguous / 111 unresolved.
+Total: 1905 source files, 75086 extracted symbols, 18 parser diagnostics; import edges 118 resolved / 11 ambiguous / 89 unresolved.
 
 Scope includes Rust/TS/JS declarations; excludes imports, parameters, runtime/macro-generated symbols. Shell/PowerShell/BAT use lexical navigation.

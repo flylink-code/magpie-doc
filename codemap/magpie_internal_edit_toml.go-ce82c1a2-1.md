@@ -4,79 +4,85 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/toml.go) · page 1/1
 
-Source SHA-256: 2d5b7790365c35869fae52450db3ef2420efe7900849f7dfe52577579fbcf769
+Source SHA-256: f747686414e5bfd67b84a88726d0324badd1f07dea4f264a2e9146e6ff84862a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TOMLTables | function_declaration |  | [27](../../magpie/internal/edit/toml.go#L27) |
-| out | var_spec | TOMLTables | [32](../../magpie/internal/edit/toml.go#L32) |
-| GetTOMLTable | function_declaration |  | [46](../../magpie/internal/edit/toml.go#L46) |
-| SetTOMLTable | function_declaration |  | [77](../../magpie/internal/edit/toml.go#L77) |
-| subtable | type_spec | SetTOMLTable | [91](../../magpie/internal/edit/toml.go#L91) |
-| name | field_declaration | SetTOMLTable::subtable | [92](../../magpie/internal/edit/toml.go#L92) |
-| entries | field_declaration | SetTOMLTable::subtable | [93](../../magpie/internal/edit/toml.go#L93) |
-| subs | var_spec | SetTOMLTable | [95](../../magpie/internal/edit/toml.go#L95) |
-| out | var_spec | SetTOMLTable | [111](../../magpie/internal/edit/toml.go#L111) |
-| tomlDotted | function_declaration |  | [140](../../magpie/internal/edit/toml.go#L140) |
-| kept | var_spec | tomlDotted | [141](../../magpie/internal/edit/toml.go#L141) |
-| out | var_spec | tomlDotted | [160](../../magpie/internal/edit/toml.go#L160) |
-| tomlKeyNamed | function_declaration |  | [167](../../magpie/internal/edit/toml.go#L167) |
-| SetTOMLKey | function_declaration |  | [180](../../magpie/internal/edit/toml.go#L180) |
-| setTOMLKeyLines | function_declaration |  | [194](../../magpie/internal/edit/toml.go#L194) |
-| DelTOMLKey | function_declaration |  | [221](../../magpie/internal/edit/toml.go#L221) |
-| DelTOMLTable | function_declaration |  | [254](../../magpie/internal/edit/toml.go#L254) |
-| GetTOMLTop | function_declaration |  | [284](../../magpie/internal/edit/toml.go#L284) |
-| getTOMLTopLines | function_declaration |  | [302](../../magpie/internal/edit/toml.go#L302) |
-| SetTOMLTop | function_declaration |  | [323](../../magpie/internal/edit/toml.go#L323) |
-| SetTOMLTopPreserving | function_declaration |  | [329](../../magpie/internal/edit/toml.go#L329) |
-| setTOMLTop | function_declaration |  | [333](../../magpie/internal/edit/toml.go#L333) |
-| span | type_spec | setTOMLTop | [343](../../magpie/internal/edit/toml.go#L343) |
-| to | field_declaration | setTOMLTop::span | [344](../../magpie/internal/edit/toml.go#L344) |
-| line | field_declaration | setTOMLTop::span | [345](../../magpie/internal/edit/toml.go#L345) |
-| added | var_spec | setTOMLTop | [348](../../magpie/internal/edit/toml.go#L348) |
-| DelTOMLTop | function_declaration |  | [396](../../magpie/internal/edit/toml.go#L396) |
-| out | var_spec | DelTOMLTop | [410](../../magpie/internal/edit/toml.go#L410) |
-| tomlTableSpan | type_spec |  | [422](../../magpie/internal/edit/toml.go#L422) |
-| from | field_declaration | tomlTableSpan | [423](../../magpie/internal/edit/toml.go#L423) |
-| column | field_declaration | tomlTableSpan | [424](../../magpie/internal/edit/toml.go#L424) |
-| name | field_declaration | tomlTableSpan | [425](../../magpie/internal/edit/toml.go#L425) |
-| array | field_declaration | tomlTableSpan | [426](../../magpie/internal/edit/toml.go#L426) |
-| keys | field_declaration | tomlTableSpan | [427](../../magpie/internal/edit/toml.go#L427) |
-| tomlKeySpan | type_spec |  | [430](../../magpie/internal/edit/toml.go#L430) |
-| from | field_declaration | tomlKeySpan | [431](../../magpie/internal/edit/toml.go#L431) |
-| column | field_declaration | tomlKeySpan | [432](../../magpie/internal/edit/toml.go#L432) |
-| name | field_declaration | tomlKeySpan | [433](../../magpie/internal/edit/toml.go#L433) |
-| text | field_declaration | tomlKeySpan | [434](../../magpie/internal/edit/toml.go#L434) |
-| prefix | field_declaration | tomlKeySpan | [435](../../magpie/internal/edit/toml.go#L435) |
-| comment | field_declaration | tomlKeySpan | [436](../../magpie/internal/edit/toml.go#L436) |
-| scalar | field_declaration | tomlKeySpan | [437](../../magpie/internal/edit/toml.go#L437) |
-| parseTOMLTable | function_declaration |  | [444](../../magpie/internal/edit/toml.go#L444) |
-| tomlTableNamed | function_declaration |  | [458](../../magpie/internal/edit/toml.go#L458) |
-| tomlTablesOf | function_declaration |  | [470](../../magpie/internal/edit/toml.go#L470) |
-| tomlFileOf | function_declaration |  | [477](../../magpie/internal/edit/toml.go#L477) |
-| parseTOMLTables | function_declaration |  | [494](../../magpie/internal/edit/toml.go#L494) |
-| tomlFile | type_spec |  | [501](../../magpie/internal/edit/toml.go#L501) |
-| root | field_declaration | tomlFile | [502](../../magpie/internal/edit/toml.go#L502) |
-| tables | field_declaration | tomlFile | [503](../../magpie/internal/edit/toml.go#L503) |
-| parseTOMLFile | function_declaration |  | [508](../../magpie/internal/edit/toml.go#L508) |
-| tables | var_spec | parseTOMLFile | [513](../../magpie/internal/edit/toml.go#L513) |
-| parts | var_spec | parseTOMLFile | [554](../../magpie/internal/edit/toml.go#L554) |
-| tomlShaper | function_declaration |  | [613](../../magpie/internal/edit/toml.go#L613) |
-| tomlParseError | function_declaration |  | [628](../../magpie/internal/edit/toml.go#L628) |
-| writeTOML | function_declaration |  | [649](../../magpie/internal/edit/toml.go#L649) |
-| WriteTOMLFile | function_declaration |  | [661](../../magpie/internal/edit/toml.go#L661) |
-| SplitLines | function_declaration |  | [667](../../magpie/internal/edit/toml.go#L667) |
-| validateTOML | function_declaration |  | [669](../../magpie/internal/edit/toml.go#L669) |
-| p | var_spec | validateTOML | [672](../../magpie/internal/edit/toml.go#L672) |
-| decoded | var_spec | validateTOML | [679](../../magpie/internal/edit/toml.go#L679) |
-| trimBlank | function_declaration |  | [690](../../magpie/internal/edit/toml.go#L690) |
-| Raw | type_spec |  | [699](../../magpie/internal/edit/toml.go#L699) |
-| Inline | type_spec |  | [704](../../magpie/internal/edit/toml.go#L704) |
-| tomlLiteral | function_declaration |  | [706](../../magpie/internal/edit/toml.go#L706) |
-| tomlString | function_declaration |  | [731](../../magpie/internal/edit/toml.go#L731) |
-| b | var_spec | tomlString | [732](../../magpie/internal/edit/toml.go#L732) |
-| Table | type_spec |  | [774](../../magpie/internal/edit/toml.go#L774) |
-| Name | field_declaration | Table | [775](../../magpie/internal/edit/toml.go#L775) |
-| KVs | field_declaration | Table | [776](../../magpie/internal/edit/toml.go#L776) |
-| SetTOMLTables | function_declaration |  | [783](../../magpie/internal/edit/toml.go#L783) |
-| SetTOMLTablesMatching | function_declaration |  | [789](../../magpie/internal/edit/toml.go#L789) |
+| TOMLTables | function_declaration |  | [33](../../magpie/internal/edit/toml.go#L33) |
+| TOMLTable | type_spec |  | [43](../../magpie/internal/edit/toml.go#L43) |
+| span | field_declaration | TOMLTable | [43](../../magpie/internal/edit/toml.go#L43) |
+| Name | method_declaration |  | [46](../../magpie/internal/edit/toml.go#L46) |
+| Scalar | method_declaration |  | [50](../../magpie/internal/edit/toml.go#L50) |
+| EachTOMLTable | function_declaration |  | [63](../../magpie/internal/edit/toml.go#L63) |
+| GetTOMLTable | function_declaration |  | [81](../../magpie/internal/edit/toml.go#L81) |
+| SetTOMLTable | function_declaration |  | [124](../../magpie/internal/edit/toml.go#L124) |
+| subtable | type_spec | SetTOMLTable | [138](../../magpie/internal/edit/toml.go#L138) |
+| name | field_declaration | SetTOMLTable::subtable | [139](../../magpie/internal/edit/toml.go#L139) |
+| entries | field_declaration | SetTOMLTable::subtable | [140](../../magpie/internal/edit/toml.go#L140) |
+| subs | var_spec | SetTOMLTable | [142](../../magpie/internal/edit/toml.go#L142) |
+| out | var_spec | SetTOMLTable | [158](../../magpie/internal/edit/toml.go#L158) |
+| tomlDotted | function_declaration |  | [187](../../magpie/internal/edit/toml.go#L187) |
+| kept | var_spec | tomlDotted | [188](../../magpie/internal/edit/toml.go#L188) |
+| out | var_spec | tomlDotted | [207](../../magpie/internal/edit/toml.go#L207) |
+| tomlKeyNamed | function_declaration |  | [214](../../magpie/internal/edit/toml.go#L214) |
+| SetTOMLKey | function_declaration |  | [227](../../magpie/internal/edit/toml.go#L227) |
+| setTOMLKeyLines | function_declaration |  | [241](../../magpie/internal/edit/toml.go#L241) |
+| DelTOMLKey | function_declaration |  | [268](../../magpie/internal/edit/toml.go#L268) |
+| DelTOMLTable | function_declaration |  | [301](../../magpie/internal/edit/toml.go#L301) |
+| GetTOMLTop | function_declaration |  | [331](../../magpie/internal/edit/toml.go#L331) |
+| getTOMLTopLines | function_declaration |  | [360](../../magpie/internal/edit/toml.go#L360) |
+| SetTOMLTop | function_declaration |  | [381](../../magpie/internal/edit/toml.go#L381) |
+| SetTOMLTopPreserving | function_declaration |  | [387](../../magpie/internal/edit/toml.go#L387) |
+| setTOMLTop | function_declaration |  | [391](../../magpie/internal/edit/toml.go#L391) |
+| span | type_spec | setTOMLTop | [401](../../magpie/internal/edit/toml.go#L401) |
+| to | field_declaration | setTOMLTop::span | [402](../../magpie/internal/edit/toml.go#L402) |
+| line | field_declaration | setTOMLTop::span | [403](../../magpie/internal/edit/toml.go#L403) |
+| added | var_spec | setTOMLTop | [406](../../magpie/internal/edit/toml.go#L406) |
+| DelTOMLTop | function_declaration |  | [454](../../magpie/internal/edit/toml.go#L454) |
+| out | var_spec | DelTOMLTop | [468](../../magpie/internal/edit/toml.go#L468) |
+| tomlTableSpan | type_spec |  | [480](../../magpie/internal/edit/toml.go#L480) |
+| from | field_declaration | tomlTableSpan | [481](../../magpie/internal/edit/toml.go#L481) |
+| column | field_declaration | tomlTableSpan | [482](../../magpie/internal/edit/toml.go#L482) |
+| name | field_declaration | tomlTableSpan | [483](../../magpie/internal/edit/toml.go#L483) |
+| array | field_declaration | tomlTableSpan | [484](../../magpie/internal/edit/toml.go#L484) |
+| keys | field_declaration | tomlTableSpan | [485](../../magpie/internal/edit/toml.go#L485) |
+| tomlKeySpan | type_spec |  | [488](../../magpie/internal/edit/toml.go#L488) |
+| from | field_declaration | tomlKeySpan | [489](../../magpie/internal/edit/toml.go#L489) |
+| column | field_declaration | tomlKeySpan | [490](../../magpie/internal/edit/toml.go#L490) |
+| name | field_declaration | tomlKeySpan | [491](../../magpie/internal/edit/toml.go#L491) |
+| text | field_declaration | tomlKeySpan | [492](../../magpie/internal/edit/toml.go#L492) |
+| prefix | field_declaration | tomlKeySpan | [493](../../magpie/internal/edit/toml.go#L493) |
+| comment | field_declaration | tomlKeySpan | [494](../../magpie/internal/edit/toml.go#L494) |
+| scalar | field_declaration | tomlKeySpan | [495](../../magpie/internal/edit/toml.go#L495) |
+| parseTOMLTable | function_declaration |  | [502](../../magpie/internal/edit/toml.go#L502) |
+| tomlTableNamed | function_declaration |  | [516](../../magpie/internal/edit/toml.go#L516) |
+| tomlTablesOf | function_declaration |  | [528](../../magpie/internal/edit/toml.go#L528) |
+| tomlFileOf | function_declaration |  | [535](../../magpie/internal/edit/toml.go#L535) |
+| keptKeys | function_declaration |  | [576](../../magpie/internal/edit/toml.go#L576) |
+| keptPiece | function_declaration |  | [587](../../magpie/internal/edit/toml.go#L587) |
+| parseTOMLTables | function_declaration |  | [597](../../magpie/internal/edit/toml.go#L597) |
+| tomlFile | type_spec |  | [604](../../magpie/internal/edit/toml.go#L604) |
+| root | field_declaration | tomlFile | [605](../../magpie/internal/edit/toml.go#L605) |
+| tables | field_declaration | tomlFile | [606](../../magpie/internal/edit/toml.go#L606) |
+| names | field_declaration | tomlFile | [607](../../magpie/internal/edit/toml.go#L607) |
+| parseTOMLFile | function_declaration |  | [612](../../magpie/internal/edit/toml.go#L612) |
+| tables | var_spec | parseTOMLFile | [617](../../magpie/internal/edit/toml.go#L617) |
+| parts | var_spec | parseTOMLFile | [658](../../magpie/internal/edit/toml.go#L658) |
+| tomlShaper | function_declaration |  | [717](../../magpie/internal/edit/toml.go#L717) |
+| tomlParseError | function_declaration |  | [732](../../magpie/internal/edit/toml.go#L732) |
+| writeTOML | function_declaration |  | [753](../../magpie/internal/edit/toml.go#L753) |
+| WriteTOMLFile | function_declaration |  | [766](../../magpie/internal/edit/toml.go#L766) |
+| SplitLines | function_declaration |  | [772](../../magpie/internal/edit/toml.go#L772) |
+| validateTOML | function_declaration |  | [774](../../magpie/internal/edit/toml.go#L774) |
+| p | var_spec | validateTOML | [777](../../magpie/internal/edit/toml.go#L777) |
+| trimBlank | function_declaration |  | [794](../../magpie/internal/edit/toml.go#L794) |
+| Raw | type_spec |  | [803](../../magpie/internal/edit/toml.go#L803) |
+| Inline | type_spec |  | [808](../../magpie/internal/edit/toml.go#L808) |
+| tomlLiteral | function_declaration |  | [810](../../magpie/internal/edit/toml.go#L810) |
+| tomlString | function_declaration |  | [835](../../magpie/internal/edit/toml.go#L835) |
+| b | var_spec | tomlString | [836](../../magpie/internal/edit/toml.go#L836) |
+| Table | type_spec |  | [878](../../magpie/internal/edit/toml.go#L878) |
+| Name | field_declaration | Table | [879](../../magpie/internal/edit/toml.go#L879) |
+| KVs | field_declaration | Table | [880](../../magpie/internal/edit/toml.go#L880) |
+| SetTOMLTables | function_declaration |  | [887](../../magpie/internal/edit/toml.go#L887) |
+| SetTOMLTablesMatching | function_declaration |  | [893](../../magpie/internal/edit/toml.go#L893) |

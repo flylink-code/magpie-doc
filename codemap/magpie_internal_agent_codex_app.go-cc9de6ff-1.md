@@ -4,14 +4,24 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codex_app.go) · page 1/1
 
-Source SHA-256: 27a2ecdb3ef8ae77b6a65dfb05e8add6292717903bb292175f6399b1f8aa6b93
+Source SHA-256: 33da34c62521372c82c5fc128e1c93ab7a2f37c315336ed78d49d3e1c4b4cd4c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| appQuit | var_spec |  | [24](../../magpie/internal/agent/codex_app.go#L24) |
-| appOpen | var_spec |  | [28](../../magpie/internal/agent/codex_app.go#L28) |
-| appQuitWait | var_spec |  | [35](../../magpie/internal/agent/codex_app.go#L35) |
-| cmdErr | function_declaration |  | [37](../../magpie/internal/agent/codex_app.go#L37) |
-| ErrCodexAppStillOpen | var_spec |  | [46](../../magpie/internal/agent/codex_app.go#L46) |
-| ReopenCodexApp | function_declaration |  | [51](../../magpie/internal/agent/codex_app.go#L51) |
-| reopenApp | function_declaration |  | [62](../../magpie/internal/agent/codex_app.go#L62) |
+| appQuit | var_spec |  | [26](../../magpie/internal/agent/codex_app.go#L26) |
+| appOpen | var_spec |  | [30](../../magpie/internal/agent/codex_app.go#L30) |
+| appQuitWait | var_spec |  | [37](../../magpie/internal/agent/codex_app.go#L37) |
+| cmdErr | function_declaration |  | [39](../../magpie/internal/agent/codex_app.go#L39) |
+| restartAppServer | var_spec |  | [48](../../magpie/internal/agent/codex_app.go#L48) |
+| ReopenCodexApp | function_declaration |  | [54](../../magpie/internal/agent/codex_app.go#L54) |
+| reopenApp | function_declaration |  | [65](../../magpie/internal/agent/codex_app.go#L65) |
+| noticeSwitchAppGone | var_spec |  | [75](../../magpie/internal/agent/codex_app.go#L75) |
+| noticeSwitchAppNoEnd | var_spec |  | [76](../../magpie/internal/agent/codex_app.go#L76) |
+| noticeSwitchAppNotBack | var_spec |  | [77](../../magpie/internal/agent/codex_app.go#L77) |
+| noticeSwitchAppUnknown | var_spec |  | [78](../../magpie/internal/agent/codex_app.go#L78) |
+| restartSwitchedApp | var_spec |  | [83](../../magpie/internal/agent/codex_app.go#L83) |
+| RestartSwitchedCodexApp | function_declaration |  | [89](../../magpie/internal/agent/codex_app.go#L89) |
+| codexWinApp | var_spec |  | [107](../../magpie/internal/agent/codex_app.go#L107) |
+| codexWinAUMID | const_spec |  | [113](../../magpie/internal/agent/codex_app.go#L113) |
+| codexAppOpen | function_declaration |  | [120](../../magpie/internal/agent/codex_app.go#L120) |
+| codexAppReopen | function_declaration |  | [142](../../magpie/internal/agent/codex_app.go#L142) |

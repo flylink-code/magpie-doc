@@ -4,32 +4,41 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/gitrev.go) · page 1/1
 
-Source SHA-256: 84bf9aff98a65a611276522c0528be1d1f878850d63de93cdc2f393c34211a53
+Source SHA-256: 441b43fc54d3fcf213ea9550553d53509f7a71d933793f114f81e38910321791
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hexSHA | var_spec |  | [27](../../magpie/internal/plugin/gitrev.go#L27) |
-| GitCommit | function_declaration |  | [32](../../magpie/internal/plugin/gitrev.go#L32) |
-| SameCommit | function_declaration |  | [60](../../magpie/internal/plugin/gitrev.go#L60) |
-| gitSource | function_declaration |  | [73](../../magpie/internal/plugin/gitrev.go#L73) |
-| errNoHead | var_spec |  | [102](../../magpie/internal/plugin/gitrev.go#L102) |
-| remoteHead | var_spec |  | [106](../../magpie/internal/plugin/gitrev.go#L106) |
-| githubHead | function_declaration |  | [127](../../magpie/internal/plugin/gitrev.go#L127) |
-| cs | var_spec | githubHead | [136](../../magpie/internal/plugin/gitrev.go#L136) |
-| SHA | field_declaration | githubHead::cs | [137](../../magpie/internal/plugin/gitrev.go#L137) |
-| lsRemote | function_declaration |  | [150](../../magpie/internal/plugin/gitrev.go#L150) |
-| headTTL | const_spec |  | [180](../../magpie/internal/plugin/gitrev.go#L180) |
-| headAnswer | type_spec |  | [182](../../magpie/internal/plugin/gitrev.go#L182) |
-| sha | field_declaration | headAnswer | [183](../../magpie/internal/plugin/gitrev.go#L183) |
-| err | field_declaration | headAnswer | [184](../../magpie/internal/plugin/gitrev.go#L184) |
-| at | field_declaration | headAnswer | [185](../../magpie/internal/plugin/gitrev.go#L185) |
-| headsMu | var_spec |  | [189](../../magpie/internal/plugin/gitrev.go#L189) |
-| heads | var_spec |  | [190](../../magpie/internal/plugin/gitrev.go#L190) |
-| GitHead | function_declaration |  | [195](../../magpie/internal/plugin/gitrev.go#L195) |
-| GitHeadCached | function_declaration |  | [215](../../magpie/internal/plugin/gitrev.go#L215) |
-| GitBehind | function_declaration |  | [223](../../magpie/internal/plugin/gitrev.go#L223) |
-| GitHeads | function_declaration |  | [231](../../magpie/internal/plugin/gitrev.go#L231) |
-| mu | var_spec | GitHeads | [233](../../magpie/internal/plugin/gitrev.go#L233) |
-| wg | var_spec | GitHeads | [234](../../magpie/internal/plugin/gitrev.go#L234) |
-| ShortCommit | function_declaration |  | [257](../../magpie/internal/plugin/gitrev.go#L257) |
-| short | function_declaration |  | [260](../../magpie/internal/plugin/gitrev.go#L260) |
+| hexSHA | var_spec |  | [30](../../magpie/internal/plugin/gitrev.go#L30) |
+| refFixed | function_declaration |  | [36](../../magpie/internal/plugin/gitrev.go#L36) |
+| gitURLs | function_declaration |  | [44](../../magpie/internal/plugin/gitrev.go#L44) |
+| out | var_spec | gitURLs | [47](../../magpie/internal/plugin/gitrev.go#L47) |
+| shorthand | var_spec | gitURLs | [55](../../magpie/internal/plugin/gitrev.go#L55) |
+| sameRepo | function_declaration |  | [74](../../magpie/internal/plugin/gitrev.go#L74) |
+| cloneOrigin | function_declaration |  | [86](../../magpie/internal/plugin/gitrev.go#L86) |
+| fetchEach | const_spec |  | [112](../../magpie/internal/plugin/gitrev.go#L112) |
+| refreshGitCache | function_declaration |  | [124](../../magpie/internal/plugin/gitrev.go#L124) |
+| errs | var_spec | refreshGitCache | [133](../../magpie/internal/plugin/gitrev.go#L133) |
+| GitCommit | function_declaration |  | [158](../../magpie/internal/plugin/gitrev.go#L158) |
+| SameCommit | function_declaration |  | [186](../../magpie/internal/plugin/gitrev.go#L186) |
+| gitSource | function_declaration |  | [199](../../magpie/internal/plugin/gitrev.go#L199) |
+| errNoHead | var_spec |  | [228](../../magpie/internal/plugin/gitrev.go#L228) |
+| remoteHead | var_spec |  | [232](../../magpie/internal/plugin/gitrev.go#L232) |
+| githubHead | function_declaration |  | [253](../../magpie/internal/plugin/gitrev.go#L253) |
+| cs | var_spec | githubHead | [262](../../magpie/internal/plugin/gitrev.go#L262) |
+| SHA | field_declaration | githubHead::cs | [263](../../magpie/internal/plugin/gitrev.go#L263) |
+| lsRemote | function_declaration |  | [276](../../magpie/internal/plugin/gitrev.go#L276) |
+| headTTL | const_spec |  | [306](../../magpie/internal/plugin/gitrev.go#L306) |
+| headAnswer | type_spec |  | [308](../../magpie/internal/plugin/gitrev.go#L308) |
+| sha | field_declaration | headAnswer | [309](../../magpie/internal/plugin/gitrev.go#L309) |
+| err | field_declaration | headAnswer | [310](../../magpie/internal/plugin/gitrev.go#L310) |
+| at | field_declaration | headAnswer | [311](../../magpie/internal/plugin/gitrev.go#L311) |
+| headsMu | var_spec |  | [315](../../magpie/internal/plugin/gitrev.go#L315) |
+| heads | var_spec |  | [316](../../magpie/internal/plugin/gitrev.go#L316) |
+| GitHead | function_declaration |  | [321](../../magpie/internal/plugin/gitrev.go#L321) |
+| GitHeadCached | function_declaration |  | [341](../../magpie/internal/plugin/gitrev.go#L341) |
+| GitBehind | function_declaration |  | [349](../../magpie/internal/plugin/gitrev.go#L349) |
+| GitHeads | function_declaration |  | [357](../../magpie/internal/plugin/gitrev.go#L357) |
+| mu | var_spec | GitHeads | [359](../../magpie/internal/plugin/gitrev.go#L359) |
+| wg | var_spec | GitHeads | [360](../../magpie/internal/plugin/gitrev.go#L360) |
+| ShortCommit | function_declaration |  | [383](../../magpie/internal/plugin/gitrev.go#L383) |
+| short | function_declaration |  | [386](../../magpie/internal/plugin/gitrev.go#L386) |

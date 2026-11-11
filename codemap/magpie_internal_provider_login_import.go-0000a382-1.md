@@ -4,36 +4,50 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/login_import.go) · page 1/1
 
-Source SHA-256: 548b5f0d4c5d4c3d9bcb496fc226e288c2c492d616bbf656be2052339db31779
+Source SHA-256: dbba3208b0de39fd561a2a48a4747147df3e4a21facde51abcf9012e7e62319d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| loginImport | type_spec |  | [38](../../magpie/internal/provider/login_import.go#L38) |
-| email | field_declaration | loginImport | [39](../../magpie/internal/provider/login_import.go#L39) |
-| scopes | field_declaration | loginImport | [40](../../magpie/internal/provider/login_import.go#L40) |
-| err | field_declaration | loginImport | [41](../../magpie/internal/provider/login_import.go#L41) |
-| file | field_declaration | loginImport | [42](../../magpie/internal/provider/login_import.go#L42) |
-| claudeAccount | field_declaration | loginImport | [46](../../magpie/internal/provider/login_import.go#L46) |
-| claudeImportScopes | var_spec |  | [51](../../magpie/internal/provider/login_import.go#L51) |
-| parseLoginImport | function_declaration |  | [54](../../magpie/internal/provider/login_import.go#L54) |
-| out | var_spec | parseLoginImport | [59](../../magpie/internal/provider/login_import.go#L59) |
-| v | var_spec | parseLoginImport | [61](../../magpie/internal/provider/login_import.go#L61) |
-| walk | var_spec | parseLoginImport | [65](../../magpie/internal/provider/login_import.go#L65) |
-| loginEntry | function_declaration |  | [115](../../magpie/internal/provider/login_import.go#L115) |
-| codexbarEntries | function_declaration |  | [155](../../magpie/internal/provider/login_import.go#L155) |
-| accts | var_spec | codexbarEntries | [160](../../magpie/internal/provider/login_import.go#L160) |
-| out | var_spec | codexbarEntries | [171](../../magpie/internal/provider/login_import.go#L171) |
-| accessOnly | const_spec |  | [202](../../magpie/internal/provider/login_import.go#L202) |
-| importScopes | function_declaration |  | [206](../../magpie/internal/provider/login_import.go#L206) |
-| out | var_spec | importScopes | [207](../../magpie/internal/provider/login_import.go#L207) |
-| sub2apiEntry | function_declaration |  | [228](../../magpie/internal/provider/login_import.go#L228) |
-| ImportLogins | function_declaration |  | [257](../../magpie/internal/provider/login_import.go#L257) |
-| all | var_spec | ImportLogins | [264](../../magpie/internal/provider/login_import.go#L264) |
-| kept | var_spec | ImportLogins | [290](../../magpie/internal/provider/login_import.go#L290) |
-| wg | var_spec | ImportLogins | [304](../../magpie/internal/provider/login_import.go#L304) |
-| loginRefreshToken | function_declaration |  | [347](../../magpie/internal/provider/login_import.go#L347) |
-| a | var_spec | loginRefreshToken | [350](../../magpie/internal/provider/login_import.go#L350) |
-| importLogin | function_declaration |  | [363](../../magpie/internal/provider/login_import.go#L363) |
-| r | var_spec | importLogin | [368](../../magpie/internal/provider/login_import.go#L368) |
-| l | var_spec | importLogin | [374](../../magpie/internal/provider/login_import.go#L374) |
-| err | var_spec | importLogin | [375](../../magpie/internal/provider/login_import.go#L375) |
+| loginImport | type_spec |  | [42](../../magpie/internal/provider/login_import.go#L42) |
+| email | field_declaration | loginImport | [43](../../magpie/internal/provider/login_import.go#L43) |
+| scopes | field_declaration | loginImport | [44](../../magpie/internal/provider/login_import.go#L44) |
+| err | field_declaration | loginImport | [45](../../magpie/internal/provider/login_import.go#L45) |
+| file | field_declaration | loginImport | [46](../../magpie/internal/provider/login_import.go#L46) |
+| claudeAccount | field_declaration | loginImport | [50](../../magpie/internal/provider/login_import.go#L50) |
+| claudeOrgName | field_declaration | loginImport | [53](../../magpie/internal/provider/login_import.go#L53) |
+| expiresAt | field_declaration | loginImport | [57](../../magpie/internal/provider/login_import.go#L57) |
+| jsonMillis | function_declaration |  | [61](../../magpie/internal/provider/login_import.go#L61) |
+| claudeImportScopes | var_spec |  | [74](../../magpie/internal/provider/login_import.go#L74) |
+| parseLoginImport | function_declaration |  | [77](../../magpie/internal/provider/login_import.go#L77) |
+| out | var_spec | parseLoginImport | [82](../../magpie/internal/provider/login_import.go#L82) |
+| v | var_spec | parseLoginImport | [84](../../magpie/internal/provider/login_import.go#L84) |
+| walk | var_spec | parseLoginImport | [97](../../magpie/internal/provider/login_import.go#L97) |
+| loginEntry | function_declaration |  | [154](../../magpie/internal/provider/login_import.go#L154) |
+| cswapEntry | function_declaration |  | [196](../../magpie/internal/provider/login_import.go#L196) |
+| codexbarEntries | function_declaration |  | [236](../../magpie/internal/provider/login_import.go#L236) |
+| accts | var_spec | codexbarEntries | [241](../../magpie/internal/provider/login_import.go#L241) |
+| out | var_spec | codexbarEntries | [252](../../magpie/internal/provider/login_import.go#L252) |
+| accessOnlyErr | const_spec |  | [284](../../magpie/internal/provider/login_import.go#L284) |
+| importScopes | function_declaration |  | [288](../../magpie/internal/provider/login_import.go#L288) |
+| out | var_spec | importScopes | [289](../../magpie/internal/provider/login_import.go#L289) |
+| sub2apiEntry | function_declaration |  | [310](../../magpie/internal/provider/login_import.go#L310) |
+| ImportLogins | function_declaration |  | [339](../../magpie/internal/provider/login_import.go#L339) |
+| ImportCodexAccessOnly | function_declaration |  | [347](../../magpie/internal/provider/login_import.go#L347) |
+| importLogins | function_declaration |  | [351](../../magpie/internal/provider/login_import.go#L351) |
+| all | var_spec | importLogins | [361](../../magpie/internal/provider/login_import.go#L361) |
+| kept | var_spec | importLogins | [399](../../magpie/internal/provider/login_import.go#L399) |
+| wg | var_spec | importLogins | [416](../../magpie/internal/provider/login_import.go#L416) |
+| importNames | function_declaration |  | [482](../../magpie/internal/provider/login_import.go#L482) |
+| users | var_spec | importNames | [488](../../magpie/internal/provider/login_import.go#L488) |
+| loginRefreshToken | function_declaration |  | [507](../../magpie/internal/provider/login_import.go#L507) |
+| a | var_spec | loginRefreshToken | [510](../../magpie/internal/provider/login_import.go#L510) |
+| loginAccessToken | function_declaration |  | [523](../../magpie/internal/provider/login_import.go#L523) |
+| a | var_spec | loginAccessToken | [524](../../magpie/internal/provider/login_import.go#L524) |
+| importAccessOnly | function_declaration |  | [534](../../magpie/internal/provider/login_import.go#L534) |
+| claudeImportOlder | const_spec |  | [563](../../magpie/internal/provider/login_import.go#L563) |
+| claudeNewerKept | function_declaration |  | [576](../../magpie/internal/provider/login_import.go#L576) |
+| at | var_spec | claudeNewerKept | [581](../../magpie/internal/provider/login_import.go#L581) |
+| importLogin | function_declaration |  | [596](../../magpie/internal/provider/login_import.go#L596) |
+| r | var_spec | importLogin | [601](../../magpie/internal/provider/login_import.go#L601) |
+| l | var_spec | importLogin | [607](../../magpie/internal/provider/login_import.go#L607) |
+| err | var_spec | importLogin | [608](../../magpie/internal/provider/login_import.go#L608) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/shortcut/shortcut.go) · page 1/1
 
-Source SHA-256: 54e4665e3c5fc7a86493d188e98294294bb5949278c4c4636165ffaace9735be
+Source SHA-256: a3ee78976ad5a69cbe35440217d1fb4d7725b348eb854033030023a3a310b8fe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,3 +21,8 @@ Source SHA-256: 54e4665e3c5fc7a86493d188e98294294bb5949278c4c4636165ffaace9735be
 | aside | var_spec |  | [111](../../magpie/internal/shortcut/shortcut.go#L111) |
 | Target | function_declaration |  | [117](../../magpie/internal/shortcut/shortcut.go#L117) |
 | Stale | function_declaration |  | [124](../../magpie/internal/shortcut/shortcut.go#L124) |
+| UninstallArgs | var_spec |  | [135](../../magpie/internal/shortcut/shortcut.go#L135) |
+| UninstallCommand | function_declaration |  | [138](../../magpie/internal/shortcut/shortcut.go#L138) |
+| unregister | var_spec |  | [143](../../magpie/internal/shortcut/shortcut.go#L143) |
+| Remove | function_declaration |  | [150](../../magpie/internal/shortcut/shortcut.go#L150) |
+| errs | var_spec | Remove | [151](../../magpie/internal/shortcut/shortcut.go#L151) |

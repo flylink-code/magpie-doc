@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/astrbot.go) · page 1/1
 
-Source SHA-256: 2381ba6296855db397d8a1af0af3933153e5624655389a11691cb35887fb7f9e
+Source SHA-256: 01d8cd5818973ff3019ce1ca528ab49c3e8bd3d28c481f54227f1e2369cac5a9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

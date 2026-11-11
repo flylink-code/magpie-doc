@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/tune/tune.go) · page 1/1
 
-Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
+Source SHA-256: e5dbeca667546bd4488f89490b676628be77eb2d4a93b928ae2e5d5cfbdd938d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -23,77 +23,80 @@ Source SHA-256: 360efa01df90b100a35146e6bdb166ee731d84fcb968929b512a074a589d237e
 | Weights | type_spec |  | [74](../../magpie/internal/tune/tune.go#L74) |
 | Read | field_declaration | Weights | [75](../../magpie/internal/tune/tune.go#L75) |
 | WeightsFor | function_declaration |  | [81](../../magpie/internal/tune/tune.go#L81) |
-| Point | type_spec |  | [93](../../magpie/internal/tune/tune.go#L93) |
-| Value | field_declaration | Point | [94](../../magpie/internal/tune/tune.go#L94) |
-| Cost | field_declaration | Point | [95](../../magpie/internal/tune/tune.go#L95) |
-| Compacts | field_declaration | Point | [96](../../magpie/internal/tune/tune.go#L96) |
-| Wait | field_declaration | Point | [97](../../magpie/internal/tune/tune.go#L97) |
-| Facts | type_spec |  | [102](../../magpie/internal/tune/tune.go#L102) |
-| Calls | field_declaration | Facts | [103](../../magpie/internal/tune/tune.go#L103) |
-| Streams | field_declaration | Facts | [104](../../magpie/internal/tune/tune.go#L104) |
-| Compacts | field_declaration | Facts | [105](../../magpie/internal/tune/tune.go#L105) |
-| Peak | field_declaration | Facts | [106](../../magpie/internal/tune/tune.go#L106) |
-| After | field_declaration | Facts | [107](../../magpie/internal/tune/tune.go#L107) |
-| Growth | field_declaration | Facts | [108](../../magpie/internal/tune/tune.go#L108) |
-| Rework | field_declaration | Facts | [109](../../magpie/internal/tune/tune.go#L109) |
-| Long | field_declaration | Facts | [110](../../magpie/internal/tune/tune.go#L110) |
-| Quick | field_declaration | Facts | [111](../../magpie/internal/tune/tune.go#L111) |
-| Pause | field_declaration | Facts | [112](../../magpie/internal/tune/tune.go#L112) |
-| Away | field_declaration | Facts | [113](../../magpie/internal/tune/tune.go#L113) |
-| Hour | field_declaration | Facts | [114](../../magpie/internal/tune/tune.go#L114) |
-| Sessions | field_declaration | Facts | [115](../../magpie/internal/tune/tune.go#L115) |
-| Took | field_declaration | Facts | [118](../../magpie/internal/tune/tune.go#L118) |
-| Timed | field_declaration | Facts | [119](../../magpie/internal/tune/tune.go#L119) |
-| Compaction | type_spec |  | [123](../../magpie/internal/tune/tune.go#L123) |
-| Model | field_declaration | Compaction | [124](../../magpie/internal/tune/tune.go#L124) |
-| Current | field_declaration | Compaction | [125](../../magpie/internal/tune/tune.go#L125) |
-| Window | field_declaration | Compaction | [126](../../magpie/internal/tune/tune.go#L126) |
-| Best | field_declaration | Compaction | [127](../../magpie/internal/tune/tune.go#L127) |
-| Cost | field_declaration | Compaction | [128](../../magpie/internal/tune/tune.go#L128) |
-| Low | field_declaration | Compaction | [129](../../magpie/internal/tune/tune.go#L129) |
-| Curve | field_declaration | Compaction | [130](../../magpie/internal/tune/tune.go#L130) |
-| Facts | field_declaration | Compaction | [131](../../magpie/internal/tune/tune.go#L131) |
-| Wait | field_declaration | Compaction | [134](../../magpie/internal/tune/tune.go#L134) |
-| WaitBest | field_declaration | Compaction | [135](../../magpie/internal/tune/tune.go#L135) |
-| Cheapest | field_declaration | Compaction | [138](../../magpie/internal/tune/tune.go#L138) |
-| WaitCheapest | field_declaration | Compaction | [139](../../magpie/internal/tune/tune.go#L139) |
-| CompactOpts | type_spec |  | [144](../../magpie/internal/tune/tune.go#L144) |
-| Min | field_declaration | CompactOpts | [145](../../magpie/internal/tune/tune.go#L145) |
-| Step | field_declaration | CompactOpts | [146](../../magpie/internal/tune/tune.go#L146) |
-| Reserve | field_declaration | CompactOpts | [150](../../magpie/internal/tune/tune.go#L150) |
-| Current | field_declaration | CompactOpts | [153](../../magpie/internal/tune/tune.go#L153) |
-| Window | field_declaration | CompactOpts | [158](../../magpie/internal/tune/tune.go#L158) |
-| dropShare | const_spec |  | [163](../../magpie/internal/tune/tune.go#L163) |
-| dropFrom | const_spec |  | [165](../../magpie/internal/tune/tune.go#L165) |
-| reworkCalls | const_spec |  | [167](../../magpie/internal/tune/tune.go#L167) |
-| minTimed | const_spec |  | [169](../../magpie/internal/tune/tune.go#L169) |
-| sameCost | const_spec |  | [174](../../magpie/internal/tune/tune.go#L174) |
-| took | function_declaration |  | [179](../../magpie/internal/tune/tune.go#L179) |
-| ms | var_spec | took | [180](../../magpie/internal/tune/tune.go#L180) |
-| streams | function_declaration |  | [193](../../magpie/internal/tune/tune.go#L193) |
-| compacted | function_declaration |  | [212](../../magpie/internal/tune/tune.go#L212) |
-| median | function_declaration |  | [214](../../magpie/internal/tune/tune.go#L214) |
-| observe | function_declaration |  | [225](../../magpie/internal/tune/tune.go#L225) |
-| f | var_spec | observe | [226](../../magpie/internal/tune/tune.go#L226) |
-| peaks | var_spec | observe | [227](../../magpie/internal/tune/tune.go#L227) |
-| ds | var_spec | observe | [231](../../magpie/internal/tune/tune.go#L231) |
-| base | function_declaration |  | [275](../../magpie/internal/tune/tune.go#L275) |
-| firsts | var_spec | base | [276](../../magpie/internal/tune/tune.go#L276) |
-| replayCompact | function_declaration |  | [290](../../magpie/internal/tune/tune.go#L290) |
-| Compact | function_declaration |  | [319](../../magpie/internal/tune/tune.go#L319) |
-| wrote | var_spec | Compact | [328](../../magpie/internal/tune/tune.go#L328) |
-| calm | var_spec | Compact | [408](../../magpie/internal/tune/tune.go#L408) |
-| roundTo | function_declaration |  | [438](../../magpie/internal/tune/tune.go#L438) |
-| roundUp | function_declaration |  | [445](../../magpie/internal/tune/tune.go#L445) |
-| cmpF | function_declaration |  | [452](../../magpie/internal/tune/tune.go#L452) |
-| TTL | type_spec |  | [464](../../magpie/internal/tune/tune.go#L464) |
-| Current | field_declaration | TTL | [465](../../magpie/internal/tune/tune.go#L465) |
-| Best | field_declaration | TTL | [466](../../magpie/internal/tune/tune.go#L466) |
-| Cost | field_declaration | TTL | [467](../../magpie/internal/tune/tune.go#L467) |
-| Low | field_declaration | TTL | [468](../../magpie/internal/tune/tune.go#L468) |
-| Short | field_declaration | TTL | [469](../../magpie/internal/tune/tune.go#L469) |
-| Hour | field_declaration | TTL | [470](../../magpie/internal/tune/tune.go#L470) |
-| Facts | field_declaration | TTL | [471](../../magpie/internal/tune/tune.go#L471) |
-| replayTTL | function_declaration |  | [478](../../magpie/internal/tune/tune.go#L478) |
-| CacheTTL | function_declaration |  | [502](../../magpie/internal/tune/tune.go#L502) |
-| wrote | var_spec | CacheTTL | [508](../../magpie/internal/tune/tune.go#L508) |
+| Weigh | type_spec |  | [91](../../magpie/internal/tune/tune.go#L91) |
+| of | method_declaration |  | [93](../../magpie/internal/tune/tune.go#L93) |
+| Point | type_spec |  | [105](../../magpie/internal/tune/tune.go#L105) |
+| Value | field_declaration | Point | [106](../../magpie/internal/tune/tune.go#L106) |
+| Cost | field_declaration | Point | [107](../../magpie/internal/tune/tune.go#L107) |
+| Compacts | field_declaration | Point | [108](../../magpie/internal/tune/tune.go#L108) |
+| Wait | field_declaration | Point | [109](../../magpie/internal/tune/tune.go#L109) |
+| Facts | type_spec |  | [114](../../magpie/internal/tune/tune.go#L114) |
+| Calls | field_declaration | Facts | [115](../../magpie/internal/tune/tune.go#L115) |
+| Streams | field_declaration | Facts | [116](../../magpie/internal/tune/tune.go#L116) |
+| Compacts | field_declaration | Facts | [117](../../magpie/internal/tune/tune.go#L117) |
+| Peak | field_declaration | Facts | [118](../../magpie/internal/tune/tune.go#L118) |
+| After | field_declaration | Facts | [119](../../magpie/internal/tune/tune.go#L119) |
+| Growth | field_declaration | Facts | [120](../../magpie/internal/tune/tune.go#L120) |
+| Rework | field_declaration | Facts | [121](../../magpie/internal/tune/tune.go#L121) |
+| Long | field_declaration | Facts | [122](../../magpie/internal/tune/tune.go#L122) |
+| Quick | field_declaration | Facts | [123](../../magpie/internal/tune/tune.go#L123) |
+| Pause | field_declaration | Facts | [124](../../magpie/internal/tune/tune.go#L124) |
+| Away | field_declaration | Facts | [125](../../magpie/internal/tune/tune.go#L125) |
+| Hour | field_declaration | Facts | [126](../../magpie/internal/tune/tune.go#L126) |
+| Sessions | field_declaration | Facts | [127](../../magpie/internal/tune/tune.go#L127) |
+| Took | field_declaration | Facts | [130](../../magpie/internal/tune/tune.go#L130) |
+| Timed | field_declaration | Facts | [131](../../magpie/internal/tune/tune.go#L131) |
+| Compaction | type_spec |  | [135](../../magpie/internal/tune/tune.go#L135) |
+| Model | field_declaration | Compaction | [136](../../magpie/internal/tune/tune.go#L136) |
+| Current | field_declaration | Compaction | [137](../../magpie/internal/tune/tune.go#L137) |
+| Window | field_declaration | Compaction | [138](../../magpie/internal/tune/tune.go#L138) |
+| Best | field_declaration | Compaction | [139](../../magpie/internal/tune/tune.go#L139) |
+| Cost | field_declaration | Compaction | [140](../../magpie/internal/tune/tune.go#L140) |
+| Low | field_declaration | Compaction | [141](../../magpie/internal/tune/tune.go#L141) |
+| Curve | field_declaration | Compaction | [142](../../magpie/internal/tune/tune.go#L142) |
+| Facts | field_declaration | Compaction | [143](../../magpie/internal/tune/tune.go#L143) |
+| Wait | field_declaration | Compaction | [146](../../magpie/internal/tune/tune.go#L146) |
+| WaitBest | field_declaration | Compaction | [147](../../magpie/internal/tune/tune.go#L147) |
+| Cheapest | field_declaration | Compaction | [150](../../magpie/internal/tune/tune.go#L150) |
+| WaitCheapest | field_declaration | Compaction | [151](../../magpie/internal/tune/tune.go#L151) |
+| CompactOpts | type_spec |  | [156](../../magpie/internal/tune/tune.go#L156) |
+| Min | field_declaration | CompactOpts | [157](../../magpie/internal/tune/tune.go#L157) |
+| Step | field_declaration | CompactOpts | [158](../../magpie/internal/tune/tune.go#L158) |
+| Reserve | field_declaration | CompactOpts | [162](../../magpie/internal/tune/tune.go#L162) |
+| Current | field_declaration | CompactOpts | [165](../../magpie/internal/tune/tune.go#L165) |
+| Window | field_declaration | CompactOpts | [170](../../magpie/internal/tune/tune.go#L170) |
+| Weigh | field_declaration | CompactOpts | [172](../../magpie/internal/tune/tune.go#L172) |
+| dropShare | const_spec |  | [177](../../magpie/internal/tune/tune.go#L177) |
+| dropFrom | const_spec |  | [179](../../magpie/internal/tune/tune.go#L179) |
+| reworkCalls | const_spec |  | [181](../../magpie/internal/tune/tune.go#L181) |
+| minTimed | const_spec |  | [183](../../magpie/internal/tune/tune.go#L183) |
+| sameCost | const_spec |  | [188](../../magpie/internal/tune/tune.go#L188) |
+| took | function_declaration |  | [193](../../magpie/internal/tune/tune.go#L193) |
+| ms | var_spec | took | [194](../../magpie/internal/tune/tune.go#L194) |
+| streams | function_declaration |  | [207](../../magpie/internal/tune/tune.go#L207) |
+| compacted | function_declaration |  | [226](../../magpie/internal/tune/tune.go#L226) |
+| median | function_declaration |  | [228](../../magpie/internal/tune/tune.go#L228) |
+| observe | function_declaration |  | [239](../../magpie/internal/tune/tune.go#L239) |
+| f | var_spec | observe | [240](../../magpie/internal/tune/tune.go#L240) |
+| peaks | var_spec | observe | [241](../../magpie/internal/tune/tune.go#L241) |
+| ds | var_spec | observe | [245](../../magpie/internal/tune/tune.go#L245) |
+| base | function_declaration |  | [289](../../magpie/internal/tune/tune.go#L289) |
+| firsts | var_spec | base | [290](../../magpie/internal/tune/tune.go#L290) |
+| replayCompact | function_declaration |  | [304](../../magpie/internal/tune/tune.go#L304) |
+| Compact | function_declaration |  | [333](../../magpie/internal/tune/tune.go#L333) |
+| wrote | var_spec | Compact | [342](../../magpie/internal/tune/tune.go#L342) |
+| calm | var_spec | Compact | [422](../../magpie/internal/tune/tune.go#L422) |
+| roundTo | function_declaration |  | [452](../../magpie/internal/tune/tune.go#L452) |
+| roundUp | function_declaration |  | [459](../../magpie/internal/tune/tune.go#L459) |
+| cmpF | function_declaration |  | [466](../../magpie/internal/tune/tune.go#L466) |
+| TTL | type_spec |  | [478](../../magpie/internal/tune/tune.go#L478) |
+| Current | field_declaration | TTL | [479](../../magpie/internal/tune/tune.go#L479) |
+| Best | field_declaration | TTL | [480](../../magpie/internal/tune/tune.go#L480) |
+| Cost | field_declaration | TTL | [481](../../magpie/internal/tune/tune.go#L481) |
+| Low | field_declaration | TTL | [482](../../magpie/internal/tune/tune.go#L482) |
+| Short | field_declaration | TTL | [483](../../magpie/internal/tune/tune.go#L483) |
+| Hour | field_declaration | TTL | [484](../../magpie/internal/tune/tune.go#L484) |
+| Facts | field_declaration | TTL | [485](../../magpie/internal/tune/tune.go#L485) |
+| replayTTL | function_declaration |  | [493](../../magpie/internal/tune/tune.go#L493) |
+| CacheTTL | function_declaration |  | [522](../../magpie/internal/tune/tune.go#L522) |
+| wrote | var_spec | CacheTTL | [528](../../magpie/internal/tune/tune.go#L528) |

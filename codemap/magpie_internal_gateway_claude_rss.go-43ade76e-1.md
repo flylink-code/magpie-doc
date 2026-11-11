@@ -4,17 +4,17 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_rss.go) · page 1/1
 
-Source SHA-256: 92969f4282a45361441e914d8bbe4d0691c3cd18460a74544ebab23deb581271
+Source SHA-256: 876591e57f40a53aeb62a8ba0822cedbfe9c9463fa6d2f1a4b7707db90603a5e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeRunFloor | const_spec |  | [28](../../magpie/internal/gateway/claude_rss.go#L28) |
-| claudeRunUnknown | const_spec |  | [29](../../magpie/internal/gateway/claude_rss.go#L29) |
-| claudeRunRSS | var_spec |  | [33](../../magpie/internal/gateway/claude_rss.go#L33) |
-| runBudget | var_spec |  | [35](../../magpie/internal/gateway/claude_rss.go#L35) |
-| n | field_declaration | runBudget | [37](../../magpie/internal/gateway/claude_rss.go#L37) |
-| why | field_declaration | runBudget | [38](../../magpie/internal/gateway/claude_rss.go#L38) |
-| claudeRunBudget | function_declaration |  | [43](../../magpie/internal/gateway/claude_rss.go#L43) |
-| oversized | method_declaration |  | [66](../../magpie/internal/gateway/claude_rss.go#L66) |
-| pid | method_declaration |  | [87](../../magpie/internal/gateway/claude_rss.go#L87) |
-| letGoOversized | method_declaration |  | [97](../../magpie/internal/gateway/claude_rss.go#L97) |
+| claudeRunFloor | const_spec |  | [27](../../magpie/internal/gateway/claude_rss.go#L27) |
+| claudeRunUnknown | const_spec |  | [28](../../magpie/internal/gateway/claude_rss.go#L28) |
+| claudeRunRSS | var_spec |  | [32](../../magpie/internal/gateway/claude_rss.go#L32) |
+| runBudget | var_spec |  | [34](../../magpie/internal/gateway/claude_rss.go#L34) |
+| n | field_declaration | runBudget | [36](../../magpie/internal/gateway/claude_rss.go#L36) |
+| why | field_declaration | runBudget | [37](../../magpie/internal/gateway/claude_rss.go#L37) |
+| claudeRunBudget | function_declaration |  | [42](../../magpie/internal/gateway/claude_rss.go#L42) |
+| oversized | method_declaration |  | [65](../../magpie/internal/gateway/claude_rss.go#L65) |
+| pid | method_declaration |  | [88](../../magpie/internal/gateway/claude_rss.go#L88) |
+| letGoOversized | method_declaration |  | [101](../../magpie/internal/gateway/claude_rss.go#L101) |

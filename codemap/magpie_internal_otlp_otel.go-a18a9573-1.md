@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/otlp/otel.go) · page 1/1
 
-Source SHA-256: a85ee23cbaf04633e289d185db6ff2ca7ea46c56938a53824d61b78c2438e217
+Source SHA-256: 7e63e9b90de0a28a3ccc43119088c17fca81d0b829f779d4e9562e098c6155fc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,28 +26,29 @@ Source SHA-256: a85ee23cbaf04633e289d185db6ff2ca7ea46c56938a53824d61b78c2438e217
 | ctx | field_declaration | otelExporter | [60](../../magpie/internal/otlp/otel.go#L60) |
 | cancel | field_declaration | otelExporter | [61](../../magpie/internal/otlp/otel.go#L61) |
 | client | field_declaration | otelExporter | [62](../../magpie/internal/otlp/otel.go#L62) |
-| salt | field_declaration | otelExporter | [63](../../magpie/internal/otlp/otel.go#L63) |
-| last | field_declaration | otelExporter | [64](../../magpie/internal/otlp/otel.go#L64) |
-| dropped | field_declaration | otelExporter | [65](../../magpie/internal/otlp/otel.go#L65) |
-| bytes | field_declaration | otelExporter | [66](../../magpie/internal/otlp/otel.go#L66) |
-| sessions | field_declaration | otelExporter | [67](../../magpie/internal/otlp/otel.go#L67) |
-| identities | field_declaration | otelExporter | [68](../../magpie/internal/otlp/otel.go#L68) |
-| OTelEvery | var_spec |  | [75](../../magpie/internal/otlp/otel.go#L75) |
-| Serve | method_declaration |  | [80](../../magpie/internal/otlp/otel.go#L80) |
-| once | var_spec | Serve | [89](../../magpie/internal/otlp/otel.go#L89) |
-| newOTelExporter | function_declaration |  | [107](../../magpie/internal/otlp/otel.go#L107) |
-| enabled | method_declaration |  | [118](../../magpie/internal/otlp/otel.go#L118) |
-| Ledger | method_declaration |  | [129](../../magpie/internal/otlp/otel.go#L129) |
-| offerSpan | method_declaration |  | [152](../../magpie/internal/otlp/otel.go#L152) |
-| offerWith | method_declaration |  | [164](../../magpie/internal/otlp/otel.go#L164) |
-| Bodies | method_declaration |  | [174](../../magpie/internal/otlp/otel.go#L174) |
-| recordBytes | function_declaration |  | [190](../../magpie/internal/otlp/otel.go#L190) |
-| offer | method_declaration |  | [192](../../magpie/internal/otlp/otel.go#L192) |
-| run | method_declaration |  | [216](../../magpie/internal/otlp/otel.go#L216) |
-| flush | method_declaration |  | [268](../../magpie/internal/otlp/otel.go#L268) |
-| records | var_spec | flush | [276](../../magpie/internal/otlp/otel.go#L276) |
-| send | method_declaration |  | [322](../../magpie/internal/otlp/otel.go#L322) |
-| result | var_spec | send | [347](../../magpie/internal/otlp/otel.go#L347) |
-| PartialSuccess | field_declaration | send::result | [348](../../magpie/internal/otlp/otel.go#L348) |
-| RejectedSpans | field_declaration | send::result::PartialSuccess | [349](../../magpie/internal/otlp/otel.go#L349) |
-| RejectedDataPoints | field_declaration | send::result::PartialSuccess | [350](../../magpie/internal/otlp/otel.go#L350) |
+| moved | field_declaration | otelExporter | [67](../../magpie/internal/otlp/otel.go#L67) |
+| salt | field_declaration | otelExporter | [68](../../magpie/internal/otlp/otel.go#L68) |
+| last | field_declaration | otelExporter | [69](../../magpie/internal/otlp/otel.go#L69) |
+| dropped | field_declaration | otelExporter | [70](../../magpie/internal/otlp/otel.go#L70) |
+| bytes | field_declaration | otelExporter | [71](../../magpie/internal/otlp/otel.go#L71) |
+| sessions | field_declaration | otelExporter | [72](../../magpie/internal/otlp/otel.go#L72) |
+| identities | field_declaration | otelExporter | [73](../../magpie/internal/otlp/otel.go#L73) |
+| OTelEvery | var_spec |  | [80](../../magpie/internal/otlp/otel.go#L80) |
+| Serve | method_declaration |  | [85](../../magpie/internal/otlp/otel.go#L85) |
+| once | var_spec | Serve | [94](../../magpie/internal/otlp/otel.go#L94) |
+| newOTelExporter | function_declaration |  | [112](../../magpie/internal/otlp/otel.go#L112) |
+| enabled | method_declaration |  | [123](../../magpie/internal/otlp/otel.go#L123) |
+| Ledger | method_declaration |  | [134](../../magpie/internal/otlp/otel.go#L134) |
+| offerSpan | method_declaration |  | [157](../../magpie/internal/otlp/otel.go#L157) |
+| offerWith | method_declaration |  | [169](../../magpie/internal/otlp/otel.go#L169) |
+| Bodies | method_declaration |  | [179](../../magpie/internal/otlp/otel.go#L179) |
+| recordBytes | function_declaration |  | [195](../../magpie/internal/otlp/otel.go#L195) |
+| offer | method_declaration |  | [197](../../magpie/internal/otlp/otel.go#L197) |
+| run | method_declaration |  | [221](../../magpie/internal/otlp/otel.go#L221) |
+| flush | method_declaration |  | [273](../../magpie/internal/otlp/otel.go#L273) |
+| records | var_spec | flush | [281](../../magpie/internal/otlp/otel.go#L281) |
+| send | method_declaration |  | [327](../../magpie/internal/otlp/otel.go#L327) |
+| result | var_spec | send | [355](../../magpie/internal/otlp/otel.go#L355) |
+| PartialSuccess | field_declaration | send::result | [356](../../magpie/internal/otlp/otel.go#L356) |
+| RejectedSpans | field_declaration | send::result::PartialSuccess | [357](../../magpie/internal/otlp/otel.go#L357) |
+| RejectedDataPoints | field_declaration | send::result::PartialSuccess | [358](../../magpie/internal/otlp/otel.go#L358) |

@@ -4,8 +4,9 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/dirent/stats_other.go) · page 1/1
 
-Source SHA-256: c304e3e9f1a317d97365aaa8172fa0a979213dc3a411d085f1d51e2a445a4234
+Source SHA-256: 546cf63c07e9617081c8ca42b7a80e89c4b608c234bcdac111d51adeac78f950
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | stats | function_declaration |  | [5](../../magpie/internal/dirent/stats_other.go#L5) |
+| eachIn | function_declaration |  | [7](../../magpie/internal/dirent/stats_other.go#L7) |

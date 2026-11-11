@@ -4,17 +4,23 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/apprestart_windows.go) · page 1/1
 
-Source SHA-256: 7ec8a3d238b8a6c266d7d095b12f2e82bd72d73138413c22033a74bc1f767546
+Source SHA-256: 937ff053c66dd3dbeb2e0fa436fbfde4820bce48aeb5885e48d57eb7df958a79
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| procGetApplicationUserModelID | var_spec |  | [19](../../magpie/internal/agent/apprestart_windows.go#L19) |
-| listWinProcs | function_declaration |  | [24](../../magpie/internal/agent/apprestart_windows.go#L24) |
-| out | var_spec | listWinProcs | [33](../../magpie/internal/agent/apprestart_windows.go#L33) |
-| readWinProc | function_declaration |  | [47](../../magpie/internal/agent/apprestart_windows.go#L47) |
-| created | var_spec | readWinProc | [59](../../magpie/internal/agent/apprestart_windows.go#L59) |
-| closeWinProcs | function_declaration |  | [75](../../magpie/internal/agent/apprestart_windows.go#L75) |
-| endWinTree | function_declaration |  | [87](../../magpie/internal/agent/apprestart_windows.go#L87) |
-| launchWin | function_declaration |  | [96](../../magpie/internal/agent/apprestart_windows.go#L96) |
-| shellOpen | function_declaration |  | [112](../../magpie/internal/agent/apprestart_windows.go#L112) |
-| a | var_spec | shellOpen | [117](../../magpie/internal/agent/apprestart_windows.go#L117) |
+| procGetApplicationUserModelID | var_spec |  | [20](../../magpie/internal/agent/apprestart_windows.go#L20) |
+| listWinProcs | function_declaration |  | [25](../../magpie/internal/agent/apprestart_windows.go#L25) |
+| out | var_spec | listWinProcs | [34](../../magpie/internal/agent/apprestart_windows.go#L34) |
+| readWinProc | function_declaration |  | [48](../../magpie/internal/agent/apprestart_windows.go#L48) |
+| created | var_spec | readWinProc | [60](../../magpie/internal/agent/apprestart_windows.go#L60) |
+| closeWinProcs | function_declaration |  | [76](../../magpie/internal/agent/apprestart_windows.go#L76) |
+| shownMu | var_spec |  | [90](../../magpie/internal/agent/apprestart_windows.go#L90) |
+| shownPids | var_spec |  | [91](../../magpie/internal/agent/apprestart_windows.go#L91) |
+| shownSeen | var_spec |  | [92](../../magpie/internal/agent/apprestart_windows.go#L92) |
+| shownCallback | var_spec |  | [93](../../magpie/internal/agent/apprestart_windows.go#L93) |
+| pid | var_spec | shownCallback | [94](../../magpie/internal/agent/apprestart_windows.go#L94) |
+| winWindowsShown | function_declaration |  | [106](../../magpie/internal/agent/apprestart_windows.go#L106) |
+| endWinTree | function_declaration |  | [123](../../magpie/internal/agent/apprestart_windows.go#L123) |
+| launchWin | function_declaration |  | [132](../../magpie/internal/agent/apprestart_windows.go#L132) |
+| shellOpen | function_declaration |  | [148](../../magpie/internal/agent/apprestart_windows.go#L148) |
+| a | var_spec | shellOpen | [153](../../magpie/internal/agent/apprestart_windows.go#L153) |

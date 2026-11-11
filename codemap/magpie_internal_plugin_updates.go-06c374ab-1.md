@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/updates.go) · page 1/1
 
-Source SHA-256: cb9306fd66763bdbbe8fa2b6913a451f3defe4a2a95971b8f43ca457282086a8
+Source SHA-256: c4f3f8266a915d66af28cc2594d60d8b386d3c145420ae12b1fe886e8b894e61
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -29,48 +29,51 @@ Source SHA-256: cb9306fd66763bdbbe8fa2b6913a451f3defe4a2a95971b8f43ca457282086a8
 | Official | function_declaration |  | [77](../../magpie/internal/plugin/updates.go#L77) |
 | Pinned | function_declaration |  | [82](../../magpie/internal/plugin/updates.go#L82) |
 | updatesMu | var_spec |  | [91](../../magpie/internal/plugin/updates.go#L91) |
-| latestOf | var_spec |  | [94](../../magpie/internal/plugin/updates.go#L94) |
-| installNewest | var_spec |  | [103](../../magpie/internal/plugin/updates.go#L103) |
-| updatesPath | function_declaration |  | [106](../../magpie/internal/plugin/updates.go#L106) |
-| readUpdates | function_declaration |  | [108](../../magpie/internal/plugin/updates.go#L108) |
-| u | var_spec | readUpdates | [109](../../magpie/internal/plugin/updates.go#L109) |
-| writeUpdates | function_declaration |  | [120](../../magpie/internal/plugin/updates.go#L120) |
-| PendingUpdates | function_declaration |  | [129](../../magpie/internal/plugin/updates.go#L129) |
-| LastUpdated | function_declaration |  | [156](../../magpie/internal/plugin/updates.go#L156) |
-| CheckUpdates | function_declaration |  | [170](../../magpie/internal/plugin/updates.go#L170) |
-| es | var_spec | CheckUpdates | [171](../../magpie/internal/plugin/updates.go#L171) |
-| names | var_spec | CheckUpdates | [172](../../magpie/internal/plugin/updates.go#L172) |
-| waiting | var_spec | CheckUpdates | [187](../../magpie/internal/plugin/updates.go#L187) |
-| made | var_spec | CheckUpdates | [188](../../magpie/internal/plugin/updates.go#L188) |
-| errs | var_spec | CheckUpdates | [189](../../magpie/internal/plugin/updates.go#L189) |
-| InstallMissing | function_declaration |  | [250](../../magpie/internal/plugin/updates.go#L250) |
-| errs | var_spec | InstallMissing | [252](../../magpie/internal/plugin/updates.go#L252) |
-| KeepUpdated | function_declaration |  | [275](../../magpie/internal/plugin/updates.go#L275) |
-| VersionCheck | type_spec |  | [297](../../magpie/internal/plugin/updates.go#L297) |
-| Spec | field_declaration | VersionCheck | [298](../../magpie/internal/plugin/updates.go#L298) |
-| Package | field_declaration | VersionCheck | [299](../../magpie/internal/plugin/updates.go#L299) |
-| Version | field_declaration | VersionCheck | [300](../../magpie/internal/plugin/updates.go#L300) |
-| Latest | field_declaration | VersionCheck | [301](../../magpie/internal/plugin/updates.go#L301) |
-| Status | field_declaration | VersionCheck | [308](../../magpie/internal/plugin/updates.go#L308) |
-| Commit | field_declaration | VersionCheck | [311](../../magpie/internal/plugin/updates.go#L311) |
-| Head | field_declaration | VersionCheck | [312](../../magpie/internal/plugin/updates.go#L312) |
-| Why | field_declaration | VersionCheck | [316](../../magpie/internal/plugin/updates.go#L316) |
-| Error | field_declaration | VersionCheck | [317](../../magpie/internal/plugin/updates.go#L317) |
-| Limited | field_declaration | VersionCheck | [321](../../magpie/internal/plugin/updates.go#L321) |
-| Auto | field_declaration | VersionCheck | [324](../../magpie/internal/plugin/updates.go#L324) |
-| Off | field_declaration | VersionCheck | [325](../../magpie/internal/plugin/updates.go#L325) |
-| GitHubLimit | type_spec |  | [330](../../magpie/internal/plugin/updates.go#L330) |
-| Until | field_declaration | GitHubLimit | [331](../../magpie/internal/plugin/updates.go#L331) |
-| Token | field_declaration | GitHubLimit | [332](../../magpie/internal/plugin/updates.go#L332) |
-| VersionChecks | type_spec |  | [336](../../magpie/internal/plugin/updates.go#L336) |
-| At | field_declaration | VersionChecks | [337](../../magpie/internal/plugin/updates.go#L337) |
-| Plugins | field_declaration | VersionChecks | [338](../../magpie/internal/plugin/updates.go#L338) |
-| checkEach | var_spec |  | [342](../../magpie/internal/plugin/updates.go#L342) |
-| CheckNow | function_declaration |  | [350](../../magpie/internal/plugin/updates.go#L350) |
-| wg | var_spec | CheckNow | [353](../../magpie/internal/plugin/updates.go#L353) |
-| l | var_spec | CheckNow | [382](../../magpie/internal/plugin/updates.go#L382) |
-| waiting | var_spec | CheckNow | [433](../../magpie/internal/plugin/updates.go#L433) |
-| whyNot | function_declaration |  | [464](../../magpie/internal/plugin/updates.go#L464) |
-| se | var_spec | whyNot | [465](../../magpie/internal/plugin/updates.go#L465) |
-| ue | var_spec | whyNot | [466](../../magpie/internal/plugin/updates.go#L466) |
-| ne | var_spec | whyNot | [467](../../magpie/internal/plugin/updates.go#L467) |
+| latestOf | var_spec |  | [98](../../magpie/internal/plugin/updates.go#L98) |
+| installNewest | var_spec |  | [107](../../magpie/internal/plugin/updates.go#L107) |
+| updatesPath | function_declaration |  | [110](../../magpie/internal/plugin/updates.go#L110) |
+| readUpdates | function_declaration |  | [112](../../magpie/internal/plugin/updates.go#L112) |
+| u | var_spec | readUpdates | [113](../../magpie/internal/plugin/updates.go#L113) |
+| writeUpdates | function_declaration |  | [124](../../magpie/internal/plugin/updates.go#L124) |
+| waitsNoMore | function_declaration |  | [139](../../magpie/internal/plugin/updates.go#L139) |
+| installedNow | function_declaration |  | [150](../../magpie/internal/plugin/updates.go#L150) |
+| settleWaiting | function_declaration |  | [161](../../magpie/internal/plugin/updates.go#L161) |
+| PendingUpdates | function_declaration |  | [181](../../magpie/internal/plugin/updates.go#L181) |
+| LastUpdated | function_declaration |  | [197](../../magpie/internal/plugin/updates.go#L197) |
+| CheckUpdates | function_declaration |  | [211](../../magpie/internal/plugin/updates.go#L211) |
+| es | var_spec | CheckUpdates | [212](../../magpie/internal/plugin/updates.go#L212) |
+| names | var_spec | CheckUpdates | [213](../../magpie/internal/plugin/updates.go#L213) |
+| waiting | var_spec | CheckUpdates | [228](../../magpie/internal/plugin/updates.go#L228) |
+| made | var_spec | CheckUpdates | [229](../../magpie/internal/plugin/updates.go#L229) |
+| errs | var_spec | CheckUpdates | [230](../../magpie/internal/plugin/updates.go#L230) |
+| InstallMissing | function_declaration |  | [291](../../magpie/internal/plugin/updates.go#L291) |
+| errs | var_spec | InstallMissing | [293](../../magpie/internal/plugin/updates.go#L293) |
+| KeepUpdated | function_declaration |  | [317](../../magpie/internal/plugin/updates.go#L317) |
+| VersionCheck | type_spec |  | [339](../../magpie/internal/plugin/updates.go#L339) |
+| Spec | field_declaration | VersionCheck | [340](../../magpie/internal/plugin/updates.go#L340) |
+| Package | field_declaration | VersionCheck | [341](../../magpie/internal/plugin/updates.go#L341) |
+| Version | field_declaration | VersionCheck | [342](../../magpie/internal/plugin/updates.go#L342) |
+| Latest | field_declaration | VersionCheck | [343](../../magpie/internal/plugin/updates.go#L343) |
+| Status | field_declaration | VersionCheck | [350](../../magpie/internal/plugin/updates.go#L350) |
+| Commit | field_declaration | VersionCheck | [353](../../magpie/internal/plugin/updates.go#L353) |
+| Head | field_declaration | VersionCheck | [354](../../magpie/internal/plugin/updates.go#L354) |
+| Why | field_declaration | VersionCheck | [358](../../magpie/internal/plugin/updates.go#L358) |
+| Error | field_declaration | VersionCheck | [359](../../magpie/internal/plugin/updates.go#L359) |
+| Limited | field_declaration | VersionCheck | [363](../../magpie/internal/plugin/updates.go#L363) |
+| Auto | field_declaration | VersionCheck | [366](../../magpie/internal/plugin/updates.go#L366) |
+| Off | field_declaration | VersionCheck | [367](../../magpie/internal/plugin/updates.go#L367) |
+| GitHubLimit | type_spec |  | [372](../../magpie/internal/plugin/updates.go#L372) |
+| Until | field_declaration | GitHubLimit | [373](../../magpie/internal/plugin/updates.go#L373) |
+| Token | field_declaration | GitHubLimit | [374](../../magpie/internal/plugin/updates.go#L374) |
+| VersionChecks | type_spec |  | [378](../../magpie/internal/plugin/updates.go#L378) |
+| At | field_declaration | VersionChecks | [379](../../magpie/internal/plugin/updates.go#L379) |
+| Plugins | field_declaration | VersionChecks | [380](../../magpie/internal/plugin/updates.go#L380) |
+| checkEach | var_spec |  | [384](../../magpie/internal/plugin/updates.go#L384) |
+| CheckNow | function_declaration |  | [392](../../magpie/internal/plugin/updates.go#L392) |
+| wg | var_spec | CheckNow | [395](../../magpie/internal/plugin/updates.go#L395) |
+| l | var_spec | CheckNow | [424](../../magpie/internal/plugin/updates.go#L424) |
+| waiting | var_spec | CheckNow | [475](../../magpie/internal/plugin/updates.go#L475) |
+| whyNot | function_declaration |  | [506](../../magpie/internal/plugin/updates.go#L506) |
+| se | var_spec | whyNot | [507](../../magpie/internal/plugin/updates.go#L507) |
+| ue | var_spec | whyNot | [508](../../magpie/internal/plugin/updates.go#L508) |
+| ne | var_spec | whyNot | [509](../../magpie/internal/plugin/updates.go#L509) |

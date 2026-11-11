@@ -4,32 +4,51 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/masking/masking.go) · page 1/1
 
-Source SHA-256: c8f71f2ea8b0acc8900123fbcacb7a97208249f5ac4b49fb8a6d8379d3a12ee0
+Source SHA-256: 52fa8592be208e08467150110598981b6356344c648ef4457ae4c516dc018029
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Masker | type_spec |  | [19](../../magpie/internal/masking/masking.go#L19) |
-| Wanted | function_declaration |  | [22](../../magpie/internal/masking/masking.go#L22) |
-| options | function_declaration |  | [26](../../magpie/internal/masking/masking.go#L26) |
-| optionsCtx | function_declaration |  | [29](../../magpie/internal/masking/masking.go#L29) |
-| picked | var_spec |  | [40](../../magpie/internal/masking/masking.go#L40) |
-| model | function_declaration |  | [46](../../magpie/internal/masking/masking.go#L46) |
-| ModelOn | function_declaration |  | [57](../../magpie/internal/masking/masking.go#L57) |
-| ModelBusy | function_declaration |  | [61](../../magpie/internal/masking/masking.go#L61) |
-| busy | function_declaration |  | [66](../../magpie/internal/masking/masking.go#L66) |
-| what | var_spec | busy | [67](../../magpie/internal/masking/masking.go#L67) |
-| JSON | method_declaration |  | [82](../../magpie/internal/masking/masking.go#L82) |
-| Text | method_declaration |  | [90](../../magpie/internal/masking/masking.go#L90) |
-| JSONHits | method_declaration |  | [93](../../magpie/internal/masking/masking.go#L93) |
-| JSONHitsContext | method_declaration |  | [99](../../magpie/internal/masking/masking.go#L99) |
-| hits | var_spec | JSONHitsContext | [104](../../magpie/internal/masking/masking.go#L104) |
-| TextHits | method_declaration |  | [111](../../magpie/internal/masking/masking.go#L111) |
-| TextHitsContext | method_declaration |  | [116](../../magpie/internal/masking/masking.go#L116) |
-| hits | var_spec | TextHitsContext | [118](../../magpie/internal/masking/masking.go#L118) |
-| Value | method_declaration |  | [124](../../magpie/internal/masking/masking.go#L124) |
-| told | function_declaration |  | [128](../../magpie/internal/masking/masking.go#L128) |
-| Preview | function_declaration |  | [139](../../magpie/internal/masking/masking.go#L139) |
-| Restore | method_declaration |  | [149](../../magpie/internal/masking/masking.go#L149) |
-| Writer | method_declaration |  | [151](../../magpie/internal/masking/masking.go#L151) |
-| _ | var_spec |  | [157](../../magpie/internal/masking/masking.go#L157) |
-| _ | var_spec |  | [158](../../magpie/internal/masking/masking.go#L158) |
+| Masker | type_spec |  | [26](../../magpie/internal/masking/masking.go#L26) |
+| Wanted | function_declaration |  | [29](../../magpie/internal/masking/masking.go#L29) |
+| options | function_declaration |  | [33](../../magpie/internal/masking/masking.go#L33) |
+| routeKey | type_spec |  | [36](../../magpie/internal/masking/masking.go#L36) |
+| WithRoute | function_declaration |  | [42](../../magpie/internal/masking/masking.go#L42) |
+| optionsCtx | function_declaration |  | [48](../../magpie/internal/masking/masking.go#L48) |
+| ModelWanted | function_declaration |  | [70](../../magpie/internal/masking/masking.go#L70) |
+| onDisk | var_spec |  | [83](../../magpie/internal/masking/masking.go#L83) |
+| fetched | var_spec |  | [94](../../magpie/internal/masking/masking.go#L94) |
+| at | field_declaration | fetched | [96](../../magpie/internal/masking/masking.go#L96) |
+| fetch | var_spec |  | [104](../../magpie/internal/masking/masking.go#L104) |
+| picked | var_spec |  | [129](../../magpie/internal/masking/masking.go#L129) |
+| guardTried | var_spec |  | [139](../../magpie/internal/masking/masking.go#L139) |
+| toGuard | function_declaration |  | [143](../../magpie/internal/masking/masking.go#L143) |
+| defaultWait | var_spec |  | [166](../../magpie/internal/masking/masking.go#L166) |
+| strictWait | var_spec |  | [180](../../magpie/internal/masking/masking.go#L180) |
+| model | function_declaration |  | [193](../../magpie/internal/masking/masking.go#L193) |
+| p | var_spec | model | [207](../../magpie/internal/masking/masking.go#L207) |
+| partialLogged | var_spec |  | [233](../../magpie/internal/masking/masking.go#L233) |
+| notePartial | function_declaration |  | [237](../../magpie/internal/masking/masking.go#L237) |
+| handBack | const_spec |  | [251](../../magpie/internal/masking/masking.go#L251) |
+| find | function_declaration |  | [257](../../magpie/internal/masking/masking.go#L257) |
+| res | type_spec | find | [258](../../magpie/internal/masking/masking.go#L258) |
+| got | field_declaration | find::res | [259](../../magpie/internal/masking/masking.go#L259) |
+| err | field_declaration | find::res | [260](../../magpie/internal/masking/masking.go#L260) |
+| ModelOn | function_declaration |  | [293](../../magpie/internal/masking/masking.go#L293) |
+| ModelBusy | function_declaration |  | [297](../../magpie/internal/masking/masking.go#L297) |
+| busy | function_declaration |  | [302](../../magpie/internal/masking/masking.go#L302) |
+| what | var_spec | busy | [303](../../magpie/internal/masking/masking.go#L303) |
+| JSON | method_declaration |  | [318](../../magpie/internal/masking/masking.go#L318) |
+| Text | method_declaration |  | [326](../../magpie/internal/masking/masking.go#L326) |
+| JSONHits | method_declaration |  | [329](../../magpie/internal/masking/masking.go#L329) |
+| JSONHitsContext | method_declaration |  | [335](../../magpie/internal/masking/masking.go#L335) |
+| hits | var_spec | JSONHitsContext | [340](../../magpie/internal/masking/masking.go#L340) |
+| TextHits | method_declaration |  | [347](../../magpie/internal/masking/masking.go#L347) |
+| TextHitsContext | method_declaration |  | [352](../../magpie/internal/masking/masking.go#L352) |
+| hits | var_spec | TextHitsContext | [354](../../magpie/internal/masking/masking.go#L354) |
+| Value | method_declaration |  | [360](../../magpie/internal/masking/masking.go#L360) |
+| told | function_declaration |  | [364](../../magpie/internal/masking/masking.go#L364) |
+| Preview | function_declaration |  | [375](../../magpie/internal/masking/masking.go#L375) |
+| Restore | method_declaration |  | [385](../../magpie/internal/masking/masking.go#L385) |
+| Writer | method_declaration |  | [387](../../magpie/internal/masking/masking.go#L387) |
+| _ | var_spec |  | [393](../../magpie/internal/masking/masking.go#L393) |
+| _ | var_spec |  | [394](../../magpie/internal/masking/masking.go#L394) |

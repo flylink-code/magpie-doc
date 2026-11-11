@@ -4,18 +4,19 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/discovery.go) · page 1/1
 
-Source SHA-256: c63a9ec0ac38971a008642758d4c39b281d5b74efbf9bf67bc62f3f3d32e373d
+Source SHA-256: 9c37965b26e89eb6e4ed3d4ad96c74cda4956ad7a3593ab9ca922775e4dfda48
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| directoryCache | var_spec |  | [14](../../magpie/internal/sessions/discovery.go#L14) |
-| entries | field_declaration | directoryCache | [16](../../magpie/internal/sessions/discovery.go#L16) |
-| directoryEntry | type_spec |  | [19](../../magpie/internal/sessions/discovery.go#L19) |
-| mod | field_declaration | directoryEntry | [20](../../magpie/internal/sessions/discovery.go#L20) |
-| size | field_declaration | directoryEntry | [21](../../magpie/internal/sessions/discovery.go#L21) |
-| at | field_declaration | directoryEntry | [22](../../magpie/internal/sessions/discovery.go#L22) |
-| entries | field_declaration | directoryEntry | [23](../../magpie/internal/sessions/discovery.go#L23) |
-| racyDirectory | const_spec |  | [31](../../magpie/internal/sessions/discovery.go#L31) |
-| readDirectory | function_declaration |  | [33](../../magpie/internal/sessions/discovery.go#L33) |
-| SessionGlob | function_declaration |  | [60](../../magpie/internal/sessions/discovery.go#L60) |
-| out | var_spec | SessionGlob | [76](../../magpie/internal/sessions/discovery.go#L76) |
+| directoryCache | var_spec |  | [16](../../magpie/internal/sessions/discovery.go#L16) |
+| entries | field_declaration | directoryCache | [18](../../magpie/internal/sessions/discovery.go#L18) |
+| directoryEntry | type_spec |  | [21](../../magpie/internal/sessions/discovery.go#L21) |
+| mod | field_declaration | directoryEntry | [22](../../magpie/internal/sessions/discovery.go#L22) |
+| size | field_declaration | directoryEntry | [23](../../magpie/internal/sessions/discovery.go#L23) |
+| at | field_declaration | directoryEntry | [24](../../magpie/internal/sessions/discovery.go#L24) |
+| entries | field_declaration | directoryEntry | [25](../../magpie/internal/sessions/discovery.go#L25) |
+| racyDirectory | const_spec |  | [33](../../magpie/internal/sessions/discovery.go#L33) |
+| readDirectory | function_declaration |  | [42](../../magpie/internal/sessions/discovery.go#L42) |
+| unreadDirectory | function_declaration |  | [76](../../magpie/internal/sessions/discovery.go#L76) |
+| SessionGlob | function_declaration |  | [90](../../magpie/internal/sessions/discovery.go#L90) |
+| out | var_spec | SessionGlob | [106](../../magpie/internal/sessions/discovery.go#L106) |

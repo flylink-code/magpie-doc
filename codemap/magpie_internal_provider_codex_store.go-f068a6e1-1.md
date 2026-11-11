@@ -4,92 +4,92 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_store.go) · page 1/1
 
-Source SHA-256: 0332643acf62992fe9a241118e9875697367166e6af377340ec5588e855bdada
+Source SHA-256: fc3d956ae281346fbc55ccb305edada692a6b65d96a5b402275a547b27b0f177
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexKeychainService | const_spec |  | [43](../../magpie/internal/provider/codex_store.go#L43) |
-| keychain | type_spec |  | [52](../../magpie/internal/provider/codex_store.go#L52) |
-| codexKeychain | var_spec |  | [60](../../magpie/internal/provider/codex_store.go#L60) |
-| codexKeychainHere | var_spec |  | [63](../../magpie/internal/provider/codex_store.go#L63) |
-| secretAuthStorageDefault | var_spec |  | [66](../../magpie/internal/provider/codex_store.go#L66) |
-| keychainWait | var_spec |  | [71](../../magpie/internal/provider/codex_store.go#L71) |
-| keychainAsk | var_spec |  | [78](../../magpie/internal/provider/codex_store.go#L78) |
-| errKeychainRefused | var_spec |  | [84](../../magpie/internal/provider/codex_store.go#L84) |
-| errKeychainNoAnswer | var_spec |  | [85](../../magpie/internal/provider/codex_store.go#L85) |
-| errKeychainWaiting | var_spec |  | [86](../../magpie/internal/provider/codex_store.go#L86) |
-| errKeychainUnread | var_spec |  | [87](../../magpie/internal/provider/codex_store.go#L87) |
-| securityKeychain | type_spec |  | [93](../../magpie/internal/provider/codex_store.go#L93) |
-| Find | method_declaration |  | [95](../../magpie/internal/provider/codex_store.go#L95) |
-| Stat | method_declaration |  | [109](../../magpie/internal/provider/codex_store.go#L109) |
-| keychainMdat | function_declaration |  | [120](../../magpie/internal/provider/codex_store.go#L120) |
-| Put | method_declaration |  | [131](../../magpie/internal/provider/codex_store.go#L131) |
-| Remove | method_declaration |  | [140](../../magpie/internal/provider/codex_store.go#L140) |
-| keychainError | function_declaration |  | [151](../../magpie/internal/provider/codex_store.go#L151) |
-| exit | var_spec | keychainError | [152](../../magpie/internal/provider/codex_store.go#L152) |
-| keychainItemMissing | function_declaration |  | [166](../../magpie/internal/provider/codex_store.go#L166) |
-| exit | var_spec | keychainItemMissing | [167](../../magpie/internal/provider/codex_store.go#L167) |
-| codexKeychainAccount | function_declaration |  | [174](../../magpie/internal/provider/codex_store.go#L174) |
-| codexStoreSetting | type_spec |  | [187](../../magpie/internal/provider/codex_store.go#L187) |
-| Mode | field_declaration | codexStoreSetting | [188](../../magpie/internal/provider/codex_store.go#L188) |
-| Secrets | field_declaration | codexStoreSetting | [189](../../magpie/internal/provider/codex_store.go#L189) |
-| readCodexStoreSetting | function_declaration |  | [196](../../magpie/internal/provider/codex_store.go#L196) |
-| c | var_spec | readCodexStoreSetting | [199](../../magpie/internal/provider/codex_store.go#L199) |
-| Store | field_declaration | readCodexStoreSetting::c | [200](../../magpie/internal/provider/codex_store.go#L200) |
-| Features | field_declaration | readCodexStoreSetting::c | [201](../../magpie/internal/provider/codex_store.go#L201) |
-| keychainItem | method_declaration |  | [229](../../magpie/internal/provider/codex_store.go#L229) |
-| where | method_declaration |  | [234](../../magpie/internal/provider/codex_store.go#L234) |
-| codexStoreError | type_spec |  | [246](../../magpie/internal/provider/codex_store.go#L246) |
-| Setting | field_declaration | codexStoreError | [247](../../magpie/internal/provider/codex_store.go#L247) |
-| Config | field_declaration | codexStoreError | [248](../../magpie/internal/provider/codex_store.go#L248) |
-| Cause | field_declaration | codexStoreError | [249](../../magpie/internal/provider/codex_store.go#L249) |
-| Error | method_declaration |  | [252](../../magpie/internal/provider/codex_store.go#L252) |
-| codexStore | type_spec |  | [264](../../magpie/internal/provider/codex_store.go#L264) |
-| home | field_declaration | codexStore | [265](../../magpie/internal/provider/codex_store.go#L265) |
-| keychain | field_declaration | codexStore | [266](../../magpie/internal/provider/codex_store.go#L266) |
-| file | method_declaration |  | [269](../../magpie/internal/provider/codex_store.go#L269) |
-| codexKeychainMu | var_spec |  | [286](../../magpie/internal/provider/codex_store.go#L286) |
-| codexKeychainCache | var_spec |  | [287](../../magpie/internal/provider/codex_store.go#L287) |
-| codexKeychainAsks | var_spec |  | [288](../../magpie/internal/provider/codex_store.go#L288) |
-| codexKeychainGen | var_spec |  | [290](../../magpie/internal/provider/codex_store.go#L290) |
-| codexKeychainRead | type_spec |  | [293](../../magpie/internal/provider/codex_store.go#L293) |
-| b | field_declaration | codexKeychainRead | [294](../../magpie/internal/provider/codex_store.go#L294) |
-| err | field_declaration | codexKeychainRead | [295](../../magpie/internal/provider/codex_store.go#L295) |
-| mdat | field_declaration | codexKeychainRead | [296](../../magpie/internal/provider/codex_store.go#L296) |
-| at | field_declaration | codexKeychainRead | [297](../../magpie/internal/provider/codex_store.go#L297) |
-| checked | field_declaration | codexKeychainRead | [298](../../magpie/internal/provider/codex_store.go#L298) |
-| codexKeychainAsk | type_spec |  | [303](../../magpie/internal/provider/codex_store.go#L303) |
-| done | field_declaration | codexKeychainAsk | [304](../../magpie/internal/provider/codex_store.go#L304) |
-| start | field_declaration | codexKeychainAsk | [305](../../magpie/internal/provider/codex_store.go#L305) |
-| b | field_declaration | codexKeychainAsk | [306](../../magpie/internal/provider/codex_store.go#L306) |
-| err | field_declaration | codexKeychainAsk | [307](../../magpie/internal/provider/codex_store.go#L307) |
-| codexKeychainCheck | const_spec |  | [311](../../magpie/internal/provider/codex_store.go#L311) |
-| codexKeychainRefused | const_spec |  | [312](../../magpie/internal/provider/codex_store.go#L312) |
-| keychainHold | var_spec |  | [319](../../magpie/internal/provider/codex_store.go#L319) |
-| findCodexKeychain | function_declaration |  | [324](../../magpie/internal/provider/codex_store.go#L324) |
-| keepCodexKeychainRead | function_declaration |  | [376](../../magpie/internal/provider/codex_store.go#L376) |
-| askCodexKeychain | function_declaration |  | [386](../../magpie/internal/provider/codex_store.go#L386) |
-| run | method_declaration |  | [410](../../magpie/internal/provider/codex_store.go#L410) |
-| b | var_spec | run | [414](../../magpie/internal/provider/codex_store.go#L414) |
-| obj | var_spec | run | [421](../../magpie/internal/provider/codex_store.go#L421) |
-| keepCodexKeychain | function_declaration |  | [442](../../magpie/internal/provider/codex_store.go#L442) |
-| forgetCodexKeychain | function_declaration |  | [458](../../magpie/internal/provider/codex_store.go#L458) |
-| resetCodexKeychain | function_declaration |  | [474](../../magpie/internal/provider/codex_store.go#L474) |
-| RetryCodexKeychain | function_declaration |  | [488](../../magpie/internal/provider/codex_store.go#L488) |
-| se | var_spec | RetryCodexKeychain | [491](../../magpie/internal/provider/codex_store.go#L491) |
-| codexKeychainUnread | function_declaration |  | [504](../../magpie/internal/provider/codex_store.go#L504) |
-| se | var_spec | codexKeychainUnread | [505](../../magpie/internal/provider/codex_store.go#L505) |
-| readCodexLogin | function_declaration |  | [517](../../magpie/internal/provider/codex_store.go#L517) |
-| write | method_declaration |  | [569](../../magpie/internal/provider/codex_store.go#L569) |
-| one | var_spec | write | [579](../../magpie/internal/provider/codex_store.go#L579) |
-| saveCodexLogin | function_declaration |  | [597](../../magpie/internal/provider/codex_store.go#L597) |
-| deleteCodexLogin | function_declaration |  | [640](../../magpie/internal/provider/codex_store.go#L640) |
-| CodexSignIn | function_declaration |  | [671](../../magpie/internal/provider/codex_store.go#L671) |
-| CodexSignInKnown | function_declaration |  | [684](../../magpie/internal/provider/codex_store.go#L684) |
-| se | var_spec | CodexSignInKnown | [687](../../magpie/internal/provider/codex_store.go#L687) |
-| CodexKeychainForTest | function_declaration |  | [700](../../magpie/internal/provider/codex_store.go#L700) |
-| findOnly | type_spec |  | [710](../../magpie/internal/provider/codex_store.go#L710) |
-| Find | method_declaration |  | [712](../../magpie/internal/provider/codex_store.go#L712) |
-| Stat | method_declaration |  | [716](../../magpie/internal/provider/codex_store.go#L716) |
-| Put | method_declaration |  | [724](../../magpie/internal/provider/codex_store.go#L724) |
-| Remove | method_declaration |  | [727](../../magpie/internal/provider/codex_store.go#L727) |
+| codexKeychainService | const_spec |  | [44](../../magpie/internal/provider/codex_store.go#L44) |
+| keychain | type_spec |  | [53](../../magpie/internal/provider/codex_store.go#L53) |
+| codexKeychain | var_spec |  | [61](../../magpie/internal/provider/codex_store.go#L61) |
+| codexKeychainHere | var_spec |  | [64](../../magpie/internal/provider/codex_store.go#L64) |
+| secretAuthStorageDefault | var_spec |  | [67](../../magpie/internal/provider/codex_store.go#L67) |
+| keychainWait | var_spec |  | [72](../../magpie/internal/provider/codex_store.go#L72) |
+| keychainAsk | var_spec |  | [79](../../magpie/internal/provider/codex_store.go#L79) |
+| errKeychainRefused | var_spec |  | [85](../../magpie/internal/provider/codex_store.go#L85) |
+| errKeychainNoAnswer | var_spec |  | [86](../../magpie/internal/provider/codex_store.go#L86) |
+| errKeychainWaiting | var_spec |  | [87](../../magpie/internal/provider/codex_store.go#L87) |
+| errKeychainUnread | var_spec |  | [88](../../magpie/internal/provider/codex_store.go#L88) |
+| securityKeychain | type_spec |  | [94](../../magpie/internal/provider/codex_store.go#L94) |
+| Find | method_declaration |  | [96](../../magpie/internal/provider/codex_store.go#L96) |
+| Stat | method_declaration |  | [110](../../magpie/internal/provider/codex_store.go#L110) |
+| keychainMdat | function_declaration |  | [121](../../magpie/internal/provider/codex_store.go#L121) |
+| Put | method_declaration |  | [132](../../magpie/internal/provider/codex_store.go#L132) |
+| Remove | method_declaration |  | [141](../../magpie/internal/provider/codex_store.go#L141) |
+| keychainError | function_declaration |  | [152](../../magpie/internal/provider/codex_store.go#L152) |
+| exit | var_spec | keychainError | [153](../../magpie/internal/provider/codex_store.go#L153) |
+| keychainItemMissing | function_declaration |  | [167](../../magpie/internal/provider/codex_store.go#L167) |
+| exit | var_spec | keychainItemMissing | [168](../../magpie/internal/provider/codex_store.go#L168) |
+| codexKeychainAccount | function_declaration |  | [175](../../magpie/internal/provider/codex_store.go#L175) |
+| codexStoreSetting | type_spec |  | [188](../../magpie/internal/provider/codex_store.go#L188) |
+| Mode | field_declaration | codexStoreSetting | [189](../../magpie/internal/provider/codex_store.go#L189) |
+| Secrets | field_declaration | codexStoreSetting | [190](../../magpie/internal/provider/codex_store.go#L190) |
+| readCodexStoreSetting | function_declaration |  | [197](../../magpie/internal/provider/codex_store.go#L197) |
+| c | var_spec | readCodexStoreSetting | [200](../../magpie/internal/provider/codex_store.go#L200) |
+| Store | field_declaration | readCodexStoreSetting::c | [201](../../magpie/internal/provider/codex_store.go#L201) |
+| Features | field_declaration | readCodexStoreSetting::c | [202](../../magpie/internal/provider/codex_store.go#L202) |
+| keychainItem | method_declaration |  | [230](../../magpie/internal/provider/codex_store.go#L230) |
+| where | method_declaration |  | [235](../../magpie/internal/provider/codex_store.go#L235) |
+| codexStoreError | type_spec |  | [247](../../magpie/internal/provider/codex_store.go#L247) |
+| Setting | field_declaration | codexStoreError | [248](../../magpie/internal/provider/codex_store.go#L248) |
+| Config | field_declaration | codexStoreError | [249](../../magpie/internal/provider/codex_store.go#L249) |
+| Cause | field_declaration | codexStoreError | [250](../../magpie/internal/provider/codex_store.go#L250) |
+| Error | method_declaration |  | [253](../../magpie/internal/provider/codex_store.go#L253) |
+| codexStore | type_spec |  | [265](../../magpie/internal/provider/codex_store.go#L265) |
+| home | field_declaration | codexStore | [266](../../magpie/internal/provider/codex_store.go#L266) |
+| keychain | field_declaration | codexStore | [267](../../magpie/internal/provider/codex_store.go#L267) |
+| file | method_declaration |  | [270](../../magpie/internal/provider/codex_store.go#L270) |
+| codexKeychainMu | var_spec |  | [287](../../magpie/internal/provider/codex_store.go#L287) |
+| codexKeychainCache | var_spec |  | [288](../../magpie/internal/provider/codex_store.go#L288) |
+| codexKeychainAsks | var_spec |  | [289](../../magpie/internal/provider/codex_store.go#L289) |
+| codexKeychainGen | var_spec |  | [291](../../magpie/internal/provider/codex_store.go#L291) |
+| codexKeychainRead | type_spec |  | [294](../../magpie/internal/provider/codex_store.go#L294) |
+| b | field_declaration | codexKeychainRead | [295](../../magpie/internal/provider/codex_store.go#L295) |
+| err | field_declaration | codexKeychainRead | [296](../../magpie/internal/provider/codex_store.go#L296) |
+| mdat | field_declaration | codexKeychainRead | [297](../../magpie/internal/provider/codex_store.go#L297) |
+| at | field_declaration | codexKeychainRead | [298](../../magpie/internal/provider/codex_store.go#L298) |
+| checked | field_declaration | codexKeychainRead | [299](../../magpie/internal/provider/codex_store.go#L299) |
+| codexKeychainAsk | type_spec |  | [304](../../magpie/internal/provider/codex_store.go#L304) |
+| done | field_declaration | codexKeychainAsk | [305](../../magpie/internal/provider/codex_store.go#L305) |
+| start | field_declaration | codexKeychainAsk | [306](../../magpie/internal/provider/codex_store.go#L306) |
+| b | field_declaration | codexKeychainAsk | [307](../../magpie/internal/provider/codex_store.go#L307) |
+| err | field_declaration | codexKeychainAsk | [308](../../magpie/internal/provider/codex_store.go#L308) |
+| codexKeychainCheck | const_spec |  | [312](../../magpie/internal/provider/codex_store.go#L312) |
+| codexKeychainRefused | const_spec |  | [313](../../magpie/internal/provider/codex_store.go#L313) |
+| keychainHold | var_spec |  | [320](../../magpie/internal/provider/codex_store.go#L320) |
+| findCodexKeychain | function_declaration |  | [325](../../magpie/internal/provider/codex_store.go#L325) |
+| keepCodexKeychainRead | function_declaration |  | [377](../../magpie/internal/provider/codex_store.go#L377) |
+| askCodexKeychain | function_declaration |  | [387](../../magpie/internal/provider/codex_store.go#L387) |
+| run | method_declaration |  | [411](../../magpie/internal/provider/codex_store.go#L411) |
+| b | var_spec | run | [415](../../magpie/internal/provider/codex_store.go#L415) |
+| obj | var_spec | run | [422](../../magpie/internal/provider/codex_store.go#L422) |
+| keepCodexKeychain | function_declaration |  | [443](../../magpie/internal/provider/codex_store.go#L443) |
+| forgetCodexKeychain | function_declaration |  | [459](../../magpie/internal/provider/codex_store.go#L459) |
+| resetCodexKeychain | function_declaration |  | [475](../../magpie/internal/provider/codex_store.go#L475) |
+| RetryCodexKeychain | function_declaration |  | [489](../../magpie/internal/provider/codex_store.go#L489) |
+| se | var_spec | RetryCodexKeychain | [492](../../magpie/internal/provider/codex_store.go#L492) |
+| codexKeychainUnread | function_declaration |  | [505](../../magpie/internal/provider/codex_store.go#L505) |
+| se | var_spec | codexKeychainUnread | [506](../../magpie/internal/provider/codex_store.go#L506) |
+| readCodexLogin | function_declaration |  | [518](../../magpie/internal/provider/codex_store.go#L518) |
+| write | method_declaration |  | [570](../../magpie/internal/provider/codex_store.go#L570) |
+| one | var_spec | write | [580](../../magpie/internal/provider/codex_store.go#L580) |
+| saveCodexLogin | function_declaration |  | [598](../../magpie/internal/provider/codex_store.go#L598) |
+| deleteCodexLogin | function_declaration |  | [641](../../magpie/internal/provider/codex_store.go#L641) |
+| CodexSignIn | function_declaration |  | [672](../../magpie/internal/provider/codex_store.go#L672) |
+| CodexSignInKnown | function_declaration |  | [685](../../magpie/internal/provider/codex_store.go#L685) |
+| se | var_spec | CodexSignInKnown | [688](../../magpie/internal/provider/codex_store.go#L688) |
+| CodexKeychainForTest | function_declaration |  | [701](../../magpie/internal/provider/codex_store.go#L701) |
+| findOnly | type_spec |  | [711](../../magpie/internal/provider/codex_store.go#L711) |
+| Find | method_declaration |  | [713](../../magpie/internal/provider/codex_store.go#L713) |
+| Stat | method_declaration |  | [717](../../magpie/internal/provider/codex_store.go#L717) |
+| Put | method_declaration |  | [725](../../magpie/internal/provider/codex_store.go#L725) |
+| Remove | method_declaration |  | [728](../../magpie/internal/provider/codex_store.go#L728) |

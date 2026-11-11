@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/image_input.go) · page 1/1
 
-Source SHA-256: 736d0aaba7033c04d4c725cb00ecdffac223c596eb0eb45eabf57e24151f7476
+Source SHA-256: 5ab15075dbdb66ea2354355f80839cc6df10b73b009b4e7d11791142e43542c8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,35 +16,36 @@ Source SHA-256: 736d0aaba7033c04d4c725cb00ecdffac223c596eb0eb45eabf57e24151f7476
 | imageAt | type_spec |  | [54](../../magpie/internal/gateway/image_input.go#L54) |
 | Src | field_declaration | imageAt | [57](../../magpie/internal/gateway/image_input.go#L57) |
 | Last | field_declaration | imageAt | [59](../../magpie/internal/gateway/image_input.go#L59) |
-| Current | method_declaration |  | [64](../../magpie/internal/gateway/image_input.go#L64) |
-| walkImages | function_declaration |  | [69](../../magpie/internal/gateway/image_input.go#L69) |
-| request | var_spec | walkImages | [84](../../magpie/internal/gateway/image_input.go#L84) |
-| turns | var_spec | walkImages | [88](../../magpie/internal/gateway/image_input.go#L88) |
-| turn | var_spec | walkImages | [94](../../magpie/internal/gateway/image_input.go#L94) |
-| kind | var_spec | walkImages | [100](../../magpie/internal/gateway/image_input.go#L100) |
-| anyImageTurn | function_declaration |  | [132](../../magpie/internal/gateway/image_input.go#L132) |
-| anyImageBlock | function_declaration |  | [157](../../magpie/internal/gateway/image_input.go#L157) |
-| anyImageIn | function_declaration |  | [176](../../magpie/internal/gateway/image_input.go#L176) |
-| inner | var_spec | anyImageIn | [192](../../magpie/internal/gateway/image_input.go#L192) |
-| swapImageBlocks | function_declaration |  | [225](../../magpie/internal/gateway/image_input.go#L225) |
-| blocks | var_spec | swapImageBlocks | [226](../../magpie/internal/gateway/image_input.go#L226) |
-| block | var_spec | swapImageBlocks | [232](../../magpie/internal/gateway/image_input.go#L232) |
-| kind | var_spec | swapImageBlocks | [236](../../magpie/internal/gateway/image_input.go#L236) |
-| fr | var_spec | swapImageBlocks | [252](../../magpie/internal/gateway/image_input.go#L252) |
-| imageSrc | function_declaration |  | [287](../../magpie/internal/gateway/image_input.go#L287) |
-| url | var_spec | imageSrc | [293](../../magpie/internal/gateway/image_input.go#L293) |
-| obj | var_spec | imageSrc | [295](../../magpie/internal/gateway/image_input.go#L295) |
-| URL | field_declaration | imageSrc::obj | [296](../../magpie/internal/gateway/image_input.go#L296) |
-| url | var_spec | imageSrc | [306](../../magpie/internal/gateway/image_input.go#L306) |
-| src | var_spec | imageSrc | [313](../../magpie/internal/gateway/image_input.go#L313) |
-| Type | field_declaration | imageSrc::src | [314](../../magpie/internal/gateway/image_input.go#L314) |
-| MediaType | field_declaration | imageSrc::src | [315](../../magpie/internal/gateway/image_input.go#L315) |
-| Data | field_declaration | imageSrc::src | [316](../../magpie/internal/gateway/image_input.go#L316) |
-| URL | field_declaration | imageSrc::src | [317](../../magpie/internal/gateway/image_input.go#L317) |
-| data | var_spec | imageSrc | [328](../../magpie/internal/gateway/image_input.go#L328) |
-| MimeType | field_declaration | imageSrc::data | [329](../../magpie/internal/gateway/image_input.go#L329) |
-| Data | field_declaration | imageSrc::data | [330](../../magpie/internal/gateway/image_input.go#L330) |
-| file | var_spec | imageSrc | [337](../../magpie/internal/gateway/image_input.go#L337) |
-| MimeType | field_declaration | imageSrc::file | [338](../../magpie/internal/gateway/image_input.go#L338) |
-| textBlock | function_declaration |  | [349](../../magpie/internal/gateway/image_input.go#L349) |
-| b | var_spec | textBlock | [350](../../magpie/internal/gateway/image_input.go#L350) |
+| Block | field_declaration | imageAt | [61](../../magpie/internal/gateway/image_input.go#L61) |
+| Current | method_declaration |  | [66](../../magpie/internal/gateway/image_input.go#L66) |
+| walkImages | function_declaration |  | [71](../../magpie/internal/gateway/image_input.go#L71) |
+| request | var_spec | walkImages | [86](../../magpie/internal/gateway/image_input.go#L86) |
+| turns | var_spec | walkImages | [90](../../magpie/internal/gateway/image_input.go#L90) |
+| turn | var_spec | walkImages | [96](../../magpie/internal/gateway/image_input.go#L96) |
+| kind | var_spec | walkImages | [102](../../magpie/internal/gateway/image_input.go#L102) |
+| anyImageTurn | function_declaration |  | [134](../../magpie/internal/gateway/image_input.go#L134) |
+| anyImageBlock | function_declaration |  | [159](../../magpie/internal/gateway/image_input.go#L159) |
+| anyImageIn | function_declaration |  | [178](../../magpie/internal/gateway/image_input.go#L178) |
+| inner | var_spec | anyImageIn | [194](../../magpie/internal/gateway/image_input.go#L194) |
+| swapImageBlocks | function_declaration |  | [227](../../magpie/internal/gateway/image_input.go#L227) |
+| blocks | var_spec | swapImageBlocks | [228](../../magpie/internal/gateway/image_input.go#L228) |
+| block | var_spec | swapImageBlocks | [234](../../magpie/internal/gateway/image_input.go#L234) |
+| kind | var_spec | swapImageBlocks | [238](../../magpie/internal/gateway/image_input.go#L238) |
+| fr | var_spec | swapImageBlocks | [254](../../magpie/internal/gateway/image_input.go#L254) |
+| imageSrc | function_declaration |  | [289](../../magpie/internal/gateway/image_input.go#L289) |
+| url | var_spec | imageSrc | [295](../../magpie/internal/gateway/image_input.go#L295) |
+| obj | var_spec | imageSrc | [297](../../magpie/internal/gateway/image_input.go#L297) |
+| URL | field_declaration | imageSrc::obj | [298](../../magpie/internal/gateway/image_input.go#L298) |
+| url | var_spec | imageSrc | [308](../../magpie/internal/gateway/image_input.go#L308) |
+| src | var_spec | imageSrc | [315](../../magpie/internal/gateway/image_input.go#L315) |
+| Type | field_declaration | imageSrc::src | [316](../../magpie/internal/gateway/image_input.go#L316) |
+| MediaType | field_declaration | imageSrc::src | [317](../../magpie/internal/gateway/image_input.go#L317) |
+| Data | field_declaration | imageSrc::src | [318](../../magpie/internal/gateway/image_input.go#L318) |
+| URL | field_declaration | imageSrc::src | [319](../../magpie/internal/gateway/image_input.go#L319) |
+| data | var_spec | imageSrc | [330](../../magpie/internal/gateway/image_input.go#L330) |
+| MimeType | field_declaration | imageSrc::data | [331](../../magpie/internal/gateway/image_input.go#L331) |
+| Data | field_declaration | imageSrc::data | [332](../../magpie/internal/gateway/image_input.go#L332) |
+| file | var_spec | imageSrc | [339](../../magpie/internal/gateway/image_input.go#L339) |
+| MimeType | field_declaration | imageSrc::file | [340](../../magpie/internal/gateway/image_input.go#L340) |
+| textBlock | function_declaration |  | [351](../../magpie/internal/gateway/image_input.go#L351) |
+| b | var_spec | textBlock | [352](../../magpie/internal/gateway/image_input.go#L352) |

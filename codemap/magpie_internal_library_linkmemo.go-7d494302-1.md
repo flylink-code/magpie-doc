@@ -4,17 +4,18 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/linkmemo.go) · page 1/1
 
-Source SHA-256: 9b4d4ab6675ab94b7dd65c11afaa9b6947549de981bde0c716648768f8577f7c
+Source SHA-256: e2566b0f03aa8635a195ec4b72c9d43ebd0f6609e09f8d5bdf230ad30041ee75
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| part | type_spec |  | [25](../../magpie/internal/library/linkmemo.go#L25) |
-| there | field_declaration | part | [26](../../magpie/internal/library/linkmemo.go#L26) |
-| to | field_declaration | part | [27](../../magpie/internal/library/linkmemo.go#L27) |
-| partMemo | type_spec |  | [30](../../magpie/internal/library/linkmemo.go#L30) |
-| m | field_declaration | partMemo | [32](../../magpie/internal/library/linkmemo.go#L32) |
-| reading | var_spec |  | [36](../../magpie/internal/library/linkmemo.go#L36) |
-| readParts | function_declaration |  | [43](../../magpie/internal/library/linkmemo.go#L43) |
-| lookPart | function_declaration |  | [49](../../magpie/internal/library/linkmemo.go#L49) |
-| lookAt | var_spec |  | [71](../../magpie/internal/library/linkmemo.go#L71) |
-| statPart | function_declaration |  | [76](../../magpie/internal/library/linkmemo.go#L76) |
+| part | type_spec |  | [27](../../magpie/internal/library/linkmemo.go#L27) |
+| there | field_declaration | part | [28](../../magpie/internal/library/linkmemo.go#L28) |
+| to | field_declaration | part | [29](../../magpie/internal/library/linkmemo.go#L29) |
+| partMemo | type_spec |  | [32](../../magpie/internal/library/linkmemo.go#L32) |
+| m | field_declaration | partMemo | [34](../../magpie/internal/library/linkmemo.go#L34) |
+| reading | var_spec |  | [38](../../magpie/internal/library/linkmemo.go#L38) |
+| readParts | function_declaration |  | [45](../../magpie/internal/library/linkmemo.go#L45) |
+| lookPart | function_declaration |  | [51](../../magpie/internal/library/linkmemo.go#L51) |
+| wslReadlink | var_spec |  | [73](../../magpie/internal/library/linkmemo.go#L73) |
+| lookAt | var_spec |  | [76](../../magpie/internal/library/linkmemo.go#L76) |
+| statPart | function_declaration |  | [81](../../magpie/internal/library/linkmemo.go#L81) |

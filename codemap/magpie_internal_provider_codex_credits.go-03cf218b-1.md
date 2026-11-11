@@ -4,10 +4,18 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_credits.go) · page 1/1
 
-Source SHA-256: 7a5b550baff7a53cf2eb60b8d3434a421219c87d3e70d9a7bfb88b6b0fe63322
+Source SHA-256: 7fd76d7ac07c04b5b0ccf97ac3d6e8e8daf77b5961599fca89e7eaf81c102ee1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexCredits | function_declaration |  | [31](../../magpie/internal/provider/codex_credits.go#L31) |
-| SetCodexCredits | function_declaration |  | [36](../../magpie/internal/provider/codex_credits.go#L36) |
-| HoldCaps | function_declaration |  | [51](../../magpie/internal/provider/codex_credits.go#L51) |
+| CodexCredits | function_declaration |  | [33](../../magpie/internal/provider/codex_credits.go#L33) |
+| CodexCreditsLast | function_declaration |  | [42](../../magpie/internal/provider/codex_credits.go#L42) |
+| CodexCreditsFirst | function_declaration |  | [55](../../magpie/internal/provider/codex_credits.go#L55) |
+| CreditsOn | const_spec |  | [63](../../magpie/internal/provider/codex_credits.go#L63) |
+| CreditsFirst | const_spec |  | [64](../../magpie/internal/provider/codex_credits.go#L64) |
+| CreditsLast | const_spec |  | [65](../../magpie/internal/provider/codex_credits.go#L65) |
+| CreditsOff | const_spec |  | [66](../../magpie/internal/provider/codex_credits.go#L66) |
+| SetCodexCredits | function_declaration |  | [71](../../magpie/internal/provider/codex_credits.go#L71) |
+| CodexCreditsMode | function_declaration |  | [80](../../magpie/internal/provider/codex_credits.go#L80) |
+| SetCodexCreditsMode | function_declaration |  | [94](../../magpie/internal/provider/codex_credits.go#L94) |
+| HoldCaps | function_declaration |  | [122](../../magpie/internal/provider/codex_credits.go#L122) |

@@ -4,18 +4,22 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/privacymodel.go) · page 1/1
 
-Source SHA-256: 39688c0b2ef7c557a8e798a2bda881cd1f18ecff9b55ff1e2e5f4c26831d64e0
+Source SHA-256: 9e3cbad5109ab2d1883f322e0835c7766b85d3655214f97a5cfe29348de7c848
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| privacyModelJSON | type_spec |  | [16](../../magpie/internal/gui/privacymodel.go#L16) |
-| On | field_declaration | privacyModelJSON | [17](../../magpie/internal/gui/privacymodel.go#L17) |
-| Models | field_declaration | privacyModelJSON | [19](../../magpie/internal/gui/privacymodel.go#L19) |
-| modelOf | var_spec |  | [23](../../magpie/internal/gui/privacymodel.go#L23) |
-| privacyModelState | function_declaration |  | [25](../../magpie/internal/gui/privacymodel.go#L25) |
-| privacyModelRoutes | function_declaration |  | [42](../../magpie/internal/gui/privacymodel.go#L42) |
-| in | var_spec | privacyModelRoutes | [47](../../magpie/internal/gui/privacymodel.go#L47) |
-| Do | field_declaration | privacyModelRoutes::in | [48](../../magpie/internal/gui/privacymodel.go#L48) |
-| Model | field_declaration | privacyModelRoutes::in | [49](../../magpie/internal/gui/privacymodel.go#L49) |
-| err | var_spec | privacyModelRoutes | [61](../../magpie/internal/gui/privacymodel.go#L61) |
-| turnOn | function_declaration |  | [113](../../magpie/internal/gui/privacymodel.go#L113) |
+| privacyModelJSON | type_spec |  | [18](../../magpie/internal/gui/privacymodel.go#L18) |
+| On | field_declaration | privacyModelJSON | [19](../../magpie/internal/gui/privacymodel.go#L19) |
+| Chosen | field_declaration | privacyModelJSON | [22](../../magpie/internal/gui/privacymodel.go#L22) |
+| MinScore | field_declaration | privacyModelJSON | [24](../../magpie/internal/gui/privacymodel.go#L24) |
+| DefaultScore | field_declaration | privacyModelJSON | [25](../../magpie/internal/gui/privacymodel.go#L25) |
+| Models | field_declaration | privacyModelJSON | [26](../../magpie/internal/gui/privacymodel.go#L26) |
+| modelOf | var_spec |  | [30](../../magpie/internal/gui/privacymodel.go#L30) |
+| privacyModelState | function_declaration |  | [32](../../magpie/internal/gui/privacymodel.go#L32) |
+| privacyModelRoutes | function_declaration |  | [53](../../magpie/internal/gui/privacymodel.go#L53) |
+| in | var_spec | privacyModelRoutes | [58](../../magpie/internal/gui/privacymodel.go#L58) |
+| Do | field_declaration | privacyModelRoutes::in | [59](../../magpie/internal/gui/privacymodel.go#L59) |
+| Model | field_declaration | privacyModelRoutes::in | [60](../../magpie/internal/gui/privacymodel.go#L60) |
+| Score | field_declaration | privacyModelRoutes::in | [61](../../magpie/internal/gui/privacymodel.go#L61) |
+| err | var_spec | privacyModelRoutes | [74](../../magpie/internal/gui/privacymodel.go#L74) |
+| turnOn | function_declaration |  | [141](../../magpie/internal/gui/privacymodel.go#L141) |

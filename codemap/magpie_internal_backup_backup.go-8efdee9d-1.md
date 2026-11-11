@@ -4,79 +4,89 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/backup/backup.go) · page 1/1
 
-Source SHA-256: ac9ef0dcd9b62539457a09bd740a984a496bf7e51edd09b4a130dbcb02262cd0
+Source SHA-256: 133980247e0b20bc85934a2e1c07c0a92b9860a255b1a1f80d987439f4d5becc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Ext | const_spec |  | [42](../../magpie/internal/backup/backup.go#L42) |
-| format | const_spec |  | [45](../../magpie/internal/backup/backup.go#L45) |
-| iterations | const_spec |  | [46](../../magpie/internal/backup/backup.go#L46) |
-| isBackupJSON | function_declaration |  | [54](../../magpie/internal/backup/backup.go#L54) |
-| Bundle | type_spec |  | [65](../../magpie/internal/backup/backup.go#L65) |
-| Version | field_declaration | Bundle | [66](../../magpie/internal/backup/backup.go#L66) |
-| Created | field_declaration | Bundle | [67](../../magpie/internal/backup/backup.go#L67) |
-| App | field_declaration | Bundle | [68](../../magpie/internal/backup/backup.go#L68) |
-| Keys | field_declaration | Bundle | [69](../../magpie/internal/backup/backup.go#L69) |
-| Providers | field_declaration | Bundle | [70](../../magpie/internal/backup/backup.go#L70) |
-| Icons | field_declaration | Bundle | [71](../../magpie/internal/backup/backup.go#L71) |
-| Groups | field_declaration | Bundle | [72](../../magpie/internal/backup/backup.go#L72) |
-| Settings | field_declaration | Bundle | [73](../../magpie/internal/backup/backup.go#L73) |
-| GatewayKeys | field_declaration | Bundle | [74](../../magpie/internal/backup/backup.go#L74) |
-| Profiles | field_declaration | Bundle | [75](../../magpie/internal/backup/backup.go#L75) |
-| Agents | field_declaration | Bundle | [76](../../magpie/internal/backup/backup.go#L76) |
-| Library | field_declaration | Bundle | [77](../../magpie/internal/backup/backup.go#L77) |
-| Searches | field_declaration | Bundle | [80](../../magpie/internal/backup/backup.go#L80) |
-| Order | field_declaration | Bundle | [83](../../magpie/internal/backup/backup.go#L83) |
-| GroupOrder | field_declaration | Bundle | [86](../../magpie/internal/backup/backup.go#L86) |
-| Plugins | field_declaration | Bundle | [91](../../magpie/internal/backup/backup.go#L91) |
-| ProvidersKeys | field_declaration | Bundle | [94](../../magpie/internal/backup/backup.go#L94) |
-| SettingsKeys | field_declaration | Bundle | [95](../../magpie/internal/backup/backup.go#L95) |
-| LibraryKeys | field_declaration | Bundle | [96](../../magpie/internal/backup/backup.go#L96) |
-| envelope | type_spec |  | [99](../../magpie/internal/backup/backup.go#L99) |
-| Format | field_declaration | envelope | [100](../../magpie/internal/backup/backup.go#L100) |
-| Version | field_declaration | envelope | [101](../../magpie/internal/backup/backup.go#L101) |
-| KDF | field_declaration | envelope | [102](../../magpie/internal/backup/backup.go#L102) |
-| Iterations | field_declaration | envelope | [103](../../magpie/internal/backup/backup.go#L103) |
-| Salt | field_declaration | envelope | [104](../../magpie/internal/backup/backup.go#L104) |
-| Nonce | field_declaration | envelope | [105](../../magpie/internal/backup/backup.go#L105) |
-| Data | field_declaration | envelope | [106](../../magpie/internal/backup/backup.go#L106) |
-| ErrPassphrase | var_spec |  | [110](../../magpie/internal/backup/backup.go#L110) |
-| ErrCorrupt | var_spec |  | [116](../../magpie/internal/backup/backup.go#L116) |
-| ErrNotBackup | var_spec |  | [121](../../magpie/internal/backup/backup.go#L121) |
-| BundleVersion | const_spec |  | [126](../../magpie/internal/backup/backup.go#L126) |
-| Flag | function_declaration |  | [131](../../magpie/internal/backup/backup.go#L131) |
-| scopedKeys | method_declaration |  | [138](../../magpie/internal/backup/backup.go#L138) |
-| own | var_spec | scopedKeys | [139](../../magpie/internal/backup/backup.go#L139) |
-| Collect | function_declaration |  | [155](../../magpie/internal/backup/backup.go#L155) |
-| Secret | function_declaration |  | [247](../../magpie/internal/backup/backup.go#L247) |
-| withoutKeys | function_declaration |  | [249](../../magpie/internal/backup/backup.go#L249) |
-| Seal | function_declaration |  | [266](../../magpie/internal/backup/backup.go#L266) |
-| Open | function_declaration |  | [289](../../magpie/internal/backup/backup.go#L289) |
-| e | var_spec | Open | [291](../../magpie/internal/backup/backup.go#L291) |
-| b | var_spec | Open | [321](../../magpie/internal/backup/backup.go#L321) |
-| header | function_declaration |  | [330](../../magpie/internal/backup/backup.go#L330) |
-| aead | function_declaration |  | [334](../../magpie/internal/backup/backup.go#L334) |
-| deriveKey | function_declaration |  | [342](../../magpie/internal/backup/backup.go#L342) |
-| gcmOf | function_declaration |  | [346](../../magpie/internal/backup/backup.go#L346) |
-| Parts | type_spec |  | [355](../../magpie/internal/backup/backup.go#L355) |
-| Providers | field_declaration | Parts | [356](../../magpie/internal/backup/backup.go#L356) |
-| All | var_spec |  | [360](../../magpie/internal/backup/backup.go#L360) |
-| Result | type_spec |  | [363](../../magpie/internal/backup/backup.go#L363) |
-| Added | field_declaration | Result | [364](../../magpie/internal/backup/backup.go#L364) |
-| NeedKey | field_declaration | Result | [365](../../magpie/internal/backup/backup.go#L365) |
-| SignIn | field_declaration | Result | [368](../../magpie/internal/backup/backup.go#L368) |
-| Plugins | field_declaration | Result | [371](../../magpie/internal/backup/backup.go#L371) |
-| PluginErrors | field_declaration | Result | [372](../../magpie/internal/backup/backup.go#L372) |
-| Settings | field_declaration | Result | [373](../../magpie/internal/backup/backup.go#L373) |
-| Profiles | field_declaration | Result | [374](../../magpie/internal/backup/backup.go#L374) |
-| Agents | field_declaration | Result | [375](../../magpie/internal/backup/backup.go#L375) |
-| Skipped | field_declaration | Result | [376](../../magpie/internal/backup/backup.go#L376) |
-| Library | field_declaration | Result | [377](../../magpie/internal/backup/backup.go#L377) |
-| LibraryProblems | field_declaration | Result | [378](../../magpie/internal/backup/backup.go#L378) |
-| Restore | function_declaration |  | [384](../../magpie/internal/backup/backup.go#L384) |
-| r | var_spec | Restore | [385](../../magpie/internal/backup/backup.go#L385) |
-| err | var_spec | Restore | [395](../../magpie/internal/backup/backup.go#L395) |
-| addPlugins | var_spec |  | [529](../../magpie/internal/backup/backup.go#L529) |
-| AddPlugins | function_declaration |  | [534](../../magpie/internal/backup/backup.go#L534) |
-| errs | var_spec | AddPlugins | [538](../../magpie/internal/backup/backup.go#L538) |
-| profileKeys | function_declaration |  | [550](../../magpie/internal/backup/backup.go#L550) |
+| Ext | const_spec |  | [45](../../magpie/internal/backup/backup.go#L45) |
+| format | const_spec |  | [48](../../magpie/internal/backup/backup.go#L48) |
+| iterations | const_spec |  | [49](../../magpie/internal/backup/backup.go#L49) |
+| isBackupJSON | function_declaration |  | [57](../../magpie/internal/backup/backup.go#L57) |
+| Bundle | type_spec |  | [68](../../magpie/internal/backup/backup.go#L68) |
+| Version | field_declaration | Bundle | [69](../../magpie/internal/backup/backup.go#L69) |
+| Created | field_declaration | Bundle | [70](../../magpie/internal/backup/backup.go#L70) |
+| App | field_declaration | Bundle | [71](../../magpie/internal/backup/backup.go#L71) |
+| Keys | field_declaration | Bundle | [72](../../magpie/internal/backup/backup.go#L72) |
+| Providers | field_declaration | Bundle | [73](../../magpie/internal/backup/backup.go#L73) |
+| Icons | field_declaration | Bundle | [74](../../magpie/internal/backup/backup.go#L74) |
+| Groups | field_declaration | Bundle | [75](../../magpie/internal/backup/backup.go#L75) |
+| Settings | field_declaration | Bundle | [76](../../magpie/internal/backup/backup.go#L76) |
+| GatewayKeys | field_declaration | Bundle | [77](../../magpie/internal/backup/backup.go#L77) |
+| AccountGroups | field_declaration | Bundle | [80](../../magpie/internal/backup/backup.go#L80) |
+| Profiles | field_declaration | Bundle | [81](../../magpie/internal/backup/backup.go#L81) |
+| Agents | field_declaration | Bundle | [82](../../magpie/internal/backup/backup.go#L82) |
+| Library | field_declaration | Bundle | [83](../../magpie/internal/backup/backup.go#L83) |
+| Searches | field_declaration | Bundle | [86](../../magpie/internal/backup/backup.go#L86) |
+| Order | field_declaration | Bundle | [89](../../magpie/internal/backup/backup.go#L89) |
+| GroupOrder | field_declaration | Bundle | [92](../../magpie/internal/backup/backup.go#L92) |
+| Plugins | field_declaration | Bundle | [97](../../magpie/internal/backup/backup.go#L97) |
+| Proxies | field_declaration | Bundle | [101](../../magpie/internal/backup/backup.go#L101) |
+| ProvidersKeys | field_declaration | Bundle | [104](../../magpie/internal/backup/backup.go#L104) |
+| SettingsKeys | field_declaration | Bundle | [105](../../magpie/internal/backup/backup.go#L105) |
+| LibraryKeys | field_declaration | Bundle | [106](../../magpie/internal/backup/backup.go#L106) |
+| SignIns | field_declaration | Bundle | [110](../../magpie/internal/backup/backup.go#L110) |
+| Memory | field_declaration | Bundle | [114](../../magpie/internal/backup/backup.go#L114) |
+| WithSignIns | function_declaration |  | [119](../../magpie/internal/backup/backup.go#L119) |
+| envelope | type_spec |  | [128](../../magpie/internal/backup/backup.go#L128) |
+| Format | field_declaration | envelope | [129](../../magpie/internal/backup/backup.go#L129) |
+| Version | field_declaration | envelope | [130](../../magpie/internal/backup/backup.go#L130) |
+| KDF | field_declaration | envelope | [131](../../magpie/internal/backup/backup.go#L131) |
+| Iterations | field_declaration | envelope | [132](../../magpie/internal/backup/backup.go#L132) |
+| Salt | field_declaration | envelope | [133](../../magpie/internal/backup/backup.go#L133) |
+| Nonce | field_declaration | envelope | [134](../../magpie/internal/backup/backup.go#L134) |
+| Data | field_declaration | envelope | [135](../../magpie/internal/backup/backup.go#L135) |
+| ErrPassphrase | var_spec |  | [139](../../magpie/internal/backup/backup.go#L139) |
+| ErrCorrupt | var_spec |  | [145](../../magpie/internal/backup/backup.go#L145) |
+| ErrNotBackup | var_spec |  | [150](../../magpie/internal/backup/backup.go#L150) |
+| BundleVersion | const_spec |  | [155](../../magpie/internal/backup/backup.go#L155) |
+| Flag | function_declaration |  | [160](../../magpie/internal/backup/backup.go#L160) |
+| scopedKeys | method_declaration |  | [167](../../magpie/internal/backup/backup.go#L167) |
+| own | var_spec | scopedKeys | [168](../../magpie/internal/backup/backup.go#L168) |
+| Collect | function_declaration |  | [186](../../magpie/internal/backup/backup.go#L186) |
+| Secret | function_declaration |  | [302](../../magpie/internal/backup/backup.go#L302) |
+| withoutKeys | function_declaration |  | [304](../../magpie/internal/backup/backup.go#L304) |
+| Seal | function_declaration |  | [321](../../magpie/internal/backup/backup.go#L321) |
+| Open | function_declaration |  | [344](../../magpie/internal/backup/backup.go#L344) |
+| e | var_spec | Open | [346](../../magpie/internal/backup/backup.go#L346) |
+| b | var_spec | Open | [376](../../magpie/internal/backup/backup.go#L376) |
+| header | function_declaration |  | [385](../../magpie/internal/backup/backup.go#L385) |
+| aead | function_declaration |  | [389](../../magpie/internal/backup/backup.go#L389) |
+| deriveKey | function_declaration |  | [397](../../magpie/internal/backup/backup.go#L397) |
+| gcmOf | function_declaration |  | [401](../../magpie/internal/backup/backup.go#L401) |
+| Parts | type_spec |  | [410](../../magpie/internal/backup/backup.go#L410) |
+| Providers | field_declaration | Parts | [411](../../magpie/internal/backup/backup.go#L411) |
+| SignIns | field_declaration | Parts | [414](../../magpie/internal/backup/backup.go#L414) |
+| Memory | field_declaration | Parts | [417](../../magpie/internal/backup/backup.go#L417) |
+| All | var_spec |  | [421](../../magpie/internal/backup/backup.go#L421) |
+| Result | type_spec |  | [424](../../magpie/internal/backup/backup.go#L424) |
+| Added | field_declaration | Result | [425](../../magpie/internal/backup/backup.go#L425) |
+| NeedKey | field_declaration | Result | [426](../../magpie/internal/backup/backup.go#L426) |
+| SignIn | field_declaration | Result | [429](../../magpie/internal/backup/backup.go#L429) |
+| Plugins | field_declaration | Result | [432](../../magpie/internal/backup/backup.go#L432) |
+| PluginErrors | field_declaration | Result | [433](../../magpie/internal/backup/backup.go#L433) |
+| Settings | field_declaration | Result | [434](../../magpie/internal/backup/backup.go#L434) |
+| Profiles | field_declaration | Result | [435](../../magpie/internal/backup/backup.go#L435) |
+| Agents | field_declaration | Result | [436](../../magpie/internal/backup/backup.go#L436) |
+| Skipped | field_declaration | Result | [437](../../magpie/internal/backup/backup.go#L437) |
+| Library | field_declaration | Result | [438](../../magpie/internal/backup/backup.go#L438) |
+| Memory | field_declaration | Result | [439](../../magpie/internal/backup/backup.go#L439) |
+| LibraryProblems | field_declaration | Result | [440](../../magpie/internal/backup/backup.go#L440) |
+| SignIns | field_declaration | Result | [443](../../magpie/internal/backup/backup.go#L443) |
+| SignInsLocked | field_declaration | Result | [446](../../magpie/internal/backup/backup.go#L446) |
+| Restore | function_declaration |  | [452](../../magpie/internal/backup/backup.go#L452) |
+| r | var_spec | Restore | [453](../../magpie/internal/backup/backup.go#L453) |
+| err | var_spec | Restore | [478](../../magpie/internal/backup/backup.go#L478) |
+| addPlugins | var_spec |  | [648](../../magpie/internal/backup/backup.go#L648) |
+| AddPlugins | function_declaration |  | [653](../../magpie/internal/backup/backup.go#L653) |
+| errs | var_spec | AddPlugins | [657](../../magpie/internal/backup/backup.go#L657) |
+| profileKeys | function_declaration |  | [669](../../magpie/internal/backup/backup.go#L669) |

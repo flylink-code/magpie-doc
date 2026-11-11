@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/devin.go) · page 1/1
 
-Source SHA-256: c0669f9d08e5d64e7a88892c8efbdae89e00f165c77cc1633fd01f90ba6be97c
+Source SHA-256: 855629a34d2bb6eab118eea60b1c6799850a79364b381eb9e4c8a01350fb5f2c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,110 +4,110 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/wsl.go) · page 1/2
 
-Source SHA-256: 87be1f45f62a6e0d9d8820b6c810810ca00e4e82af070e339bb82bc10a7dd719
+Source SHA-256: ee97c6450bf5187040a6ef69f36406a39e4f69caa58445804e54c6a2276bfb61
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| place | type_spec |  | [48](../../magpie/internal/agent/wsl.go#L48) |
-| home | field_declaration | place | [49](../../magpie/internal/agent/wsl.go#L49) |
-| id | field_declaration | place | [50](../../magpie/internal/agent/wsl.go#L50) |
-| spell | field_declaration | place | [51](../../magpie/internal/agent/wsl.go#L51) |
-| sys | field_declaration | place | [52](../../magpie/internal/agent/wsl.go#L52) |
-| base | field_declaration | place | [53](../../magpie/internal/agent/wsl.go#L53) |
-| cold | field_declaration | place | [56](../../magpie/internal/agent/wsl.go#L56) |
-| version | field_declaration | place | [59](../../magpie/internal/agent/wsl.go#L59) |
-| here | function_declaration |  | [62](../../magpie/internal/agent/wsl.go#L62) |
-| getenv | method_declaration |  | [66](../../magpie/internal/agent/wsl.go#L66) |
-| codexHome | method_declaration |  | [76](../../magpie/internal/agent/wsl.go#L76) |
-| claudeDir | method_declaration |  | [86](../../magpie/internal/agent/wsl.go#L86) |
-| hermesHome | method_declaration |  | [97](../../magpie/internal/agent/wsl.go#L97) |
-| hermesDefault | method_declaration |  | [106](../../magpie/internal/agent/wsl.go#L106) |
-| exists | method_declaration |  | [115](../../magpie/internal/agent/wsl.go#L115) |
-| isDir | method_declaration |  | [124](../../magpie/internal/agent/wsl.go#L124) |
-| gw | method_declaration |  | [126](../../magpie/internal/agent/wsl.go#L126) |
-| v1 | method_declaration |  | [133](../../magpie/internal/agent/wsl.go#L133) |
-| codexURL | method_declaration |  | [134](../../magpie/internal/agent/wsl.go#L134) |
-| host | method_declaration |  | [137](../../magpie/internal/agent/wsl.go#L137) |
-| native | method_declaration |  | [149](../../magpie/internal/agent/wsl.go#L149) |
-| key | method_declaration |  | [158](../../magpie/internal/agent/wsl.go#L158) |
-| distro | type_spec |  | [167](../../magpie/internal/agent/wsl.go#L167) |
-| Name | field_declaration | distro | [168](../../magpie/internal/agent/wsl.go#L168) |
-| Home | field_declaration | distro | [169](../../magpie/internal/agent/wsl.go#L169) |
-| Root | field_declaration | distro | [170](../../magpie/internal/agent/wsl.go#L170) |
-| Has | field_declaration | distro | [171](../../magpie/internal/agent/wsl.go#L171) |
-| Probe | field_declaration | distro | [172](../../magpie/internal/agent/wsl.go#L172) |
-| Gateway | field_declaration | distro | [173](../../magpie/internal/agent/wsl.go#L173) |
-| Was | field_declaration | distro | [176](../../magpie/internal/agent/wsl.go#L176) |
-| Values | field_declaration | distro | [177](../../magpie/internal/agent/wsl.go#L177) |
-| Net | field_declaration | distro | [182](../../magpie/internal/agent/wsl.go#L182) |
-| Versions | field_declaration | distro | [185](../../magpie/internal/agent/wsl.go#L185) |
-| OmpProfiles | field_declaration | distro | [189](../../magpie/internal/agent/wsl.go#L189) |
-| Mirrored | field_declaration | distro | [192](../../magpie/internal/agent/wsl.go#L192) |
-| noRelay | field_declaration | distro | [195](../../magpie/internal/agent/wsl.go#L195) |
-| Running | field_declaration | distro | [196](../../magpie/internal/agent/wsl.go#L196) |
-| up | field_declaration | distro | [198](../../magpie/internal/agent/wsl.go#L198) |
-| live | method_declaration |  | [204](../../magpie/internal/agent/wsl.go#L204) |
-| local | method_declaration |  | [212](../../magpie/internal/agent/wsl.go#L212) |
-| native | method_declaration |  | [217](../../magpie/internal/agent/wsl.go#L217) |
-| mirror | method_declaration |  | [235](../../magpie/internal/agent/wsl.go#L235) |
-| notMirrored | method_declaration |  | [242](../../magpie/internal/agent/wsl.go#L242) |
-| base | method_declaration |  | [251](../../magpie/internal/agent/wsl.go#L251) |
-| place | method_declaration |  | [258](../../magpie/internal/agent/wsl.go#L258) |
-| wslKind | type_spec |  | [271](../../magpie/internal/agent/wsl.go#L271) |
-| id | field_declaration | wslKind | [272](../../magpie/internal/agent/wsl.go#L272) |
-| dir | field_declaration | wslKind | [275](../../magpie/internal/agent/wsl.go#L275) |
-| in | field_declaration | wslKind | [276](../../magpie/internal/agent/wsl.go#L276) |
-| restart | field_declaration | wslKind | [277](../../magpie/internal/agent/wsl.go#L277) |
-| version | field_declaration | wslKind | [280](../../magpie/internal/agent/wsl.go#L280) |
-| accept | field_declaration | wslKind | [283](../../magpie/internal/agent/wsl.go#L283) |
-| asleep | field_declaration | wslKind | [286](../../magpie/internal/agent/wsl.go#L286) |
-| wslKinds | var_spec |  | [289](../../magpie/internal/agent/wsl.go#L289) |
-| own | var_spec | wslKinds | [435](../../magpie/internal/agent/wsl.go#L435) |
-| own | var_spec | wslKinds | [541](../../magpie/internal/agent/wsl.go#L541) |
-| wslOwnAsleep | function_declaration |  | [601](../../magpie/internal/agent/wsl.go#L601) |
-| found | method_declaration |  | [613](../../magpie/internal/agent/wsl.go#L613) |
-| memo | method_declaration |  | [622](../../magpie/internal/agent/wsl.go#L622) |
-| wslFound | function_declaration |  | [630](../../magpie/internal/agent/wsl.go#L630) |
-| wslKept | function_declaration |  | [641](../../magpie/internal/agent/wsl.go#L641) |
-| ListsFor | method_declaration |  | [648](../../magpie/internal/agent/wsl.go#L648) |
-| wslKindOf | function_declaration |  | [656](../../magpie/internal/agent/wsl.go#L656) |
-| wslCodex | function_declaration |  | [666](../../magpie/internal/agent/wsl.go#L666) |
-| wslPi | function_declaration |  | [669](../../magpie/internal/agent/wsl.go#L669) |
-| wslAgent | function_declaration |  | [675](../../magpie/internal/agent/wsl.go#L675) |
-| asleep | function_declaration |  | [794](../../magpie/internal/agent/wsl.go#L794) |
-| wslAgents | function_declaration |  | [848](../../magpie/internal/agent/wsl.go#L848) |
-| wslAgentsOf | function_declaration |  | [855](../../magpie/internal/agent/wsl.go#L855) |
-| out | var_spec | wslAgentsOf | [856](../../magpie/internal/agent/wsl.go#L856) |
-| wslHomes | function_declaration |  | [884](../../magpie/internal/agent/wsl.go#L884) |
-| out | var_spec | wslHomes | [888](../../magpie/internal/agent/wsl.go#L888) |
-| wslCopilotDir | const_spec |  | [901](../../magpie/internal/agent/wsl.go#L901) |
-| copilotWSLHomes | function_declaration |  | [907](../../magpie/internal/agent/wsl.go#L907) |
-| out | var_spec | copilotWSLHomes | [908](../../magpie/internal/agent/wsl.go#L908) |
-| wslHasCopilot | function_declaration |  | [917](../../magpie/internal/agent/wsl.go#L917) |
-| wsl | var_spec |  | [929](../../magpie/internal/agent/wsl.go#L929) |
-| at | field_declaration | wsl | [931](../../magpie/internal/agent/wsl.go#L931) |
-| names | field_declaration | wsl | [932](../../magpie/internal/agent/wsl.go#L932) |
-| running | field_declaration | wsl | [933](../../magpie/internal/agent/wsl.go#L933) |
-| runAt | field_declaration | wsl | [934](../../magpie/internal/agent/wsl.go#L934) |
-| runOK | field_declaration | wsl | [935](../../magpie/internal/agent/wsl.go#L935) |
-| listed | field_declaration | wsl | [936](../../magpie/internal/agent/wsl.go#L936) |
-| seen | field_declaration | wsl | [937](../../magpie/internal/agent/wsl.go#L937) |
-| probed | field_declaration | wsl | [938](../../magpie/internal/agent/wsl.go#L938) |
-| failed | field_declaration | wsl | [939](../../magpie/internal/agent/wsl.go#L939) |
-| dirty | field_declaration | wsl | [940](../../magpie/internal/agent/wsl.go#L940) |
-| wslListAge | const_spec |  | [944](../../magpie/internal/agent/wsl.go#L944) |
-| wslRetryAge | const_spec |  | [945](../../magpie/internal/agent/wsl.go#L945) |
-| wslRunningAge | const_spec |  | [950](../../magpie/internal/agent/wsl.go#L950) |
-| wslRunningFailedAge | const_spec |  | [954](../../magpie/internal/agent/wsl.go#L954) |
-| wslOn | var_spec |  | [958](../../magpie/internal/agent/wsl.go#L958) |
-| wslLooks | function_declaration |  | [962](../../magpie/internal/agent/wsl.go#L962) |
-| wslReachScript | const_spec |  | [969](../../magpie/internal/agent/wsl.go#L969) |
-| wslReach | function_declaration |  | [985](../../magpie/internal/agent/wsl.go#L985) |
-| wslRun | var_spec |  | [1010](../../magpie/internal/agent/wsl.go#L1010) |
-| wslRoot | var_spec |  | [1020](../../magpie/internal/agent/wsl.go#L1020) |
-| wslStatePath | function_declaration |  | [1027](../../magpie/internal/agent/wsl.go#L1027) |
-| wslDistros | function_declaration |  | [1029](../../magpie/internal/agent/wsl.go#L1029) |
-| out | var_spec | wslDistros | [1046](../../magpie/internal/agent/wsl.go#L1046) |
+| place | type_spec |  | [50](../../magpie/internal/agent/wsl.go#L50) |
+| home | field_declaration | place | [51](../../magpie/internal/agent/wsl.go#L51) |
+| id | field_declaration | place | [52](../../magpie/internal/agent/wsl.go#L52) |
+| spell | field_declaration | place | [53](../../magpie/internal/agent/wsl.go#L53) |
+| sys | field_declaration | place | [54](../../magpie/internal/agent/wsl.go#L54) |
+| base | field_declaration | place | [55](../../magpie/internal/agent/wsl.go#L55) |
+| cold | field_declaration | place | [58](../../magpie/internal/agent/wsl.go#L58) |
+| version | field_declaration | place | [61](../../magpie/internal/agent/wsl.go#L61) |
+| reach | field_declaration | place | [65](../../magpie/internal/agent/wsl.go#L65) |
+| unreached | field_declaration | place | [66](../../magpie/internal/agent/wsl.go#L66) |
+| chmod | field_declaration | place | [69](../../magpie/internal/agent/wsl.go#L69) |
+| dir | field_declaration | place | [72](../../magpie/internal/agent/wsl.go#L72) |
+| wsl | field_declaration | place | [75](../../magpie/internal/agent/wsl.go#L75) |
+| here | function_declaration |  | [78](../../magpie/internal/agent/wsl.go#L78) |
+| open | method_declaration |  | [85](../../magpie/internal/agent/wsl.go#L85) |
+| join | method_declaration |  | [100](../../magpie/internal/agent/wsl.go#L100) |
+| getenv | method_declaration |  | [106](../../magpie/internal/agent/wsl.go#L106) |
+| codexHome | method_declaration |  | [116](../../magpie/internal/agent/wsl.go#L116) |
+| claudeDir | method_declaration |  | [126](../../magpie/internal/agent/wsl.go#L126) |
+| hermesHome | method_declaration |  | [140](../../magpie/internal/agent/wsl.go#L140) |
+| hermesDefault | method_declaration |  | [149](../../magpie/internal/agent/wsl.go#L149) |
+| exists | method_declaration |  | [158](../../magpie/internal/agent/wsl.go#L158) |
+| isDir | method_declaration |  | [167](../../magpie/internal/agent/wsl.go#L167) |
+| gw | method_declaration |  | [169](../../magpie/internal/agent/wsl.go#L169) |
+| v1 | method_declaration |  | [176](../../magpie/internal/agent/wsl.go#L176) |
+| codexURL | method_declaration |  | [177](../../magpie/internal/agent/wsl.go#L177) |
+| host | method_declaration |  | [180](../../magpie/internal/agent/wsl.go#L180) |
+| native | method_declaration |  | [192](../../magpie/internal/agent/wsl.go#L192) |
+| key | method_declaration |  | [201](../../magpie/internal/agent/wsl.go#L201) |
+| distro | type_spec |  | [210](../../magpie/internal/agent/wsl.go#L210) |
+| Name | field_declaration | distro | [211](../../magpie/internal/agent/wsl.go#L211) |
+| Home | field_declaration | distro | [212](../../magpie/internal/agent/wsl.go#L212) |
+| Root | field_declaration | distro | [213](../../magpie/internal/agent/wsl.go#L213) |
+| Has | field_declaration | distro | [214](../../magpie/internal/agent/wsl.go#L214) |
+| Probe | field_declaration | distro | [215](../../magpie/internal/agent/wsl.go#L215) |
+| Gateway | field_declaration | distro | [216](../../magpie/internal/agent/wsl.go#L216) |
+| Was | field_declaration | distro | [219](../../magpie/internal/agent/wsl.go#L219) |
+| Values | field_declaration | distro | [220](../../magpie/internal/agent/wsl.go#L220) |
+| Net | field_declaration | distro | [225](../../magpie/internal/agent/wsl.go#L225) |
+| Versions | field_declaration | distro | [228](../../magpie/internal/agent/wsl.go#L228) |
+| Paths | field_declaration | distro | [232](../../magpie/internal/agent/wsl.go#L232) |
+| OmpProfiles | field_declaration | distro | [236](../../magpie/internal/agent/wsl.go#L236) |
+| Links | field_declaration | distro | [240](../../magpie/internal/agent/wsl.go#L240) |
+| Drives | field_declaration | distro | [243](../../magpie/internal/agent/wsl.go#L243) |
+| Mirrored | field_declaration | distro | [246](../../magpie/internal/agent/wsl.go#L246) |
+| noRelay | field_declaration | distro | [249](../../magpie/internal/agent/wsl.go#L249) |
+| Running | field_declaration | distro | [250](../../magpie/internal/agent/wsl.go#L250) |
+| up | field_declaration | distro | [252](../../magpie/internal/agent/wsl.go#L252) |
+| live | method_declaration |  | [258](../../magpie/internal/agent/wsl.go#L258) |
+| local | method_declaration |  | [266](../../magpie/internal/agent/wsl.go#L266) |
+| native | method_declaration |  | [272](../../magpie/internal/agent/wsl.go#L272) |
+| open | method_declaration |  | [306](../../magpie/internal/agent/wsl.go#L306) |
+| where | method_declaration |  | [329](../../magpie/internal/agent/wsl.go#L329) |
+| wslDrive | var_spec |  | [351](../../magpie/internal/agent/wsl.go#L351) |
+| isLetter | function_declaration |  | [353](../../magpie/internal/agent/wsl.go#L353) |
+| below | function_declaration |  | [358](../../magpie/internal/agent/wsl.go#L358) |
+| mirror | method_declaration |  | [375](../../magpie/internal/agent/wsl.go#L375) |
+| notMirrored | method_declaration |  | [382](../../magpie/internal/agent/wsl.go#L382) |
+| base | method_declaration |  | [391](../../magpie/internal/agent/wsl.go#L391) |
+| place | method_declaration |  | [398](../../magpie/internal/agent/wsl.go#L398) |
+| chmod | method_declaration |  | [413](../../magpie/internal/agent/wsl.go#L413) |
+| wslKind | type_spec |  | [427](../../magpie/internal/agent/wsl.go#L427) |
+| id | field_declaration | wslKind | [428](../../magpie/internal/agent/wsl.go#L428) |
+| dir | field_declaration | wslKind | [431](../../magpie/internal/agent/wsl.go#L431) |
+| in | field_declaration | wslKind | [432](../../magpie/internal/agent/wsl.go#L432) |
+| restart | field_declaration | wslKind | [433](../../magpie/internal/agent/wsl.go#L433) |
+| restartAt | field_declaration | wslKind | [436](../../magpie/internal/agent/wsl.go#L436) |
+| version | field_declaration | wslKind | [439](../../magpie/internal/agent/wsl.go#L439) |
+| accept | field_declaration | wslKind | [442](../../magpie/internal/agent/wsl.go#L442) |
+| asleep | field_declaration | wslKind | [445](../../magpie/internal/agent/wsl.go#L445) |
+| ownNotice | field_declaration | wslKind | [448](../../magpie/internal/agent/wsl.go#L448) |
+| served | method_declaration |  | [453](../../magpie/internal/agent/wsl.go#L453) |
+| wslKinds | var_spec |  | [460](../../magpie/internal/agent/wsl.go#L460) |
+| own | var_spec | wslKinds | [662](../../magpie/internal/agent/wsl.go#L662) |
+| own | var_spec | wslKinds | [786](../../magpie/internal/agent/wsl.go#L786) |
+| wslOwnAsleep | function_declaration |  | [846](../../magpie/internal/agent/wsl.go#L846) |
+| found | method_declaration |  | [858](../../magpie/internal/agent/wsl.go#L858) |
+| memo | method_declaration |  | [867](../../magpie/internal/agent/wsl.go#L867) |
+| wslFound | function_declaration |  | [875](../../magpie/internal/agent/wsl.go#L875) |
+| wslKept | function_declaration |  | [886](../../magpie/internal/agent/wsl.go#L886) |
+| ListsFor | method_declaration |  | [893](../../magpie/internal/agent/wsl.go#L893) |
+| wslKindOf | function_declaration |  | [901](../../magpie/internal/agent/wsl.go#L901) |
+| wslCodex | function_declaration |  | [911](../../magpie/internal/agent/wsl.go#L911) |
+| wslPi | function_declaration |  | [914](../../magpie/internal/agent/wsl.go#L914) |
+| wslAgent | function_declaration |  | [920](../../magpie/internal/agent/wsl.go#L920) |
+| unreached | function_declaration |  | [1053](../../magpie/internal/agent/wsl.go#L1053) |
+| Unreached | method_declaration |  | [1069](../../magpie/internal/agent/wsl.go#L1069) |
+| WSLOpen | function_declaration |  | [1075](../../magpie/internal/agent/wsl.go#L1075) |
+| c | var_spec | WSLOpen | [1081](../../magpie/internal/agent/wsl.go#L1081) |
+| asleep | function_declaration |  | [1096](../../magpie/internal/agent/wsl.go#L1096) |
+| wslAgents | function_declaration |  | [1150](../../magpie/internal/agent/wsl.go#L1150) |
+| wslAgentsOf | function_declaration |  | [1157](../../magpie/internal/agent/wsl.go#L1157) |
+| out | var_spec | wslAgentsOf | [1158](../../magpie/internal/agent/wsl.go#L1158) |
+| wslHomes | function_declaration |  | [1188](../../magpie/internal/agent/wsl.go#L1188) |
+| out | var_spec | wslHomes | [1192](../../magpie/internal/agent/wsl.go#L1192) |
+| wslAnswered | function_declaration |  | [1210](../../magpie/internal/agent/wsl.go#L1210) |
+| wslCopilotDir | const_spec |  | [1220](../../magpie/internal/agent/wsl.go#L1220) |
+| copilotWSLDirs | function_declaration |  | [1226](../../magpie/internal/agent/wsl.go#L1226) |
+| out | var_spec | copilotWSLDirs | [1227](../../magpie/internal/agent/wsl.go#L1227) |
+| wslHasCopilot | function_declaration |  | [1236](../../magpie/internal/agent/wsl.go#L1236) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 1185: ERROR
+- line 1544: ERROR

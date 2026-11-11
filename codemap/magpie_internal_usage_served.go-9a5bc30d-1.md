@@ -4,24 +4,39 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/served.go) · page 1/1
 
-Source SHA-256: e06b72643477f926a571108df1e461684bb95d67954d67611aee0cb31abf99be
+Source SHA-256: 517d1e61b37f5b2f2d668fe74d05e1b5f5daa41f719c467b180755305301b662
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| versionTail | var_spec |  | [21](../../magpie/internal/usage/served.go#L21) |
-| vendorDot | var_spec |  | [26](../../magpie/internal/usage/served.go#L26) |
-| contextTail | var_spec |  | [30](../../magpie/internal/usage/served.go#L30) |
-| windowTail | var_spec |  | [35](../../magpie/internal/usage/served.go#L35) |
-| bareModel | function_declaration |  | [39](../../magpie/internal/usage/served.go#L39) |
-| Swapped | function_declaration |  | [63](../../magpie/internal/usage/served.go#L63) |
-| RelayRenamed | function_declaration |  | [74](../../magpie/internal/usage/served.go#L74) |
-| ServingName | function_declaration |  | [91](../../magpie/internal/usage/served.go#L91) |
-| ClineServing | function_declaration |  | [105](../../magpie/internal/usage/served.go#L105) |
-| vmcPoint | var_spec |  | [116](../../magpie/internal/usage/served.go#L116) |
-| GrokServing | function_declaration |  | [127](../../magpie/internal/usage/served.go#L127) |
-| grokBuild | var_spec |  | [139](../../magpie/internal/usage/served.go#L139) |
-| GeminiServing | function_declaration |  | [149](../../magpie/internal/usage/served.go#L149) |
-| squash | var_spec |  | [159](../../magpie/internal/usage/served.go#L159) |
-| SameSpelled | function_declaration |  | [164](../../magpie/internal/usage/served.go#L164) |
-| GroupRouted | function_declaration |  | [175](../../magpie/internal/usage/served.go#L175) |
-| remoteGroup | function_declaration |  | [181](../../magpie/internal/usage/served.go#L181) |
+| versionTail | var_spec |  | [24](../../magpie/internal/usage/served.go#L24) |
+| vendorDot | var_spec |  | [32](../../magpie/internal/usage/served.go#L32) |
+| contextTail | var_spec |  | [36](../../magpie/internal/usage/served.go#L36) |
+| windowTail | var_spec |  | [41](../../magpie/internal/usage/served.go#L41) |
+| bareModel | function_declaration |  | [45](../../magpie/internal/usage/served.go#L45) |
+| Swapped | function_declaration |  | [69](../../magpie/internal/usage/served.go#L69) |
+| regionTail | var_spec |  | [79](../../magpie/internal/usage/served.go#L79) |
+| RegionTail | function_declaration |  | [85](../../magpie/internal/usage/served.go#L85) |
+| vendorAlias | var_spec |  | [102](../../magpie/internal/usage/served.go#L102) |
+| VendorAlias | function_declaration |  | [113](../../magpie/internal/usage/served.go#L113) |
+| ListedAs | function_declaration |  | [128](../../magpie/internal/usage/served.go#L128) |
+| listedFor | const_spec |  | [137](../../magpie/internal/usage/served.go#L137) |
+| listed | var_spec |  | [139](../../magpie/internal/usage/served.go#L139) |
+| by | field_declaration | listed | [141](../../magpie/internal/usage/served.go#L141) |
+| listedEntry | type_spec |  | [144](../../magpie/internal/usage/served.go#L144) |
+| names | field_declaration | listedEntry | [145](../../magpie/internal/usage/served.go#L145) |
+| at | field_declaration | listedEntry | [146](../../magpie/internal/usage/served.go#L146) |
+| listedModels | var_spec |  | [151](../../magpie/internal/usage/served.go#L151) |
+| ListedForTest | function_declaration |  | [167](../../magpie/internal/usage/served.go#L167) |
+| forgetListed | function_declaration |  | [174](../../magpie/internal/usage/served.go#L174) |
+| listedNames | function_declaration |  | [180](../../magpie/internal/usage/served.go#L180) |
+| RelayRenamed | function_declaration |  | [205](../../magpie/internal/usage/served.go#L205) |
+| ServingName | function_declaration |  | [222](../../magpie/internal/usage/served.go#L222) |
+| ClineServing | function_declaration |  | [236](../../magpie/internal/usage/served.go#L236) |
+| vmcPoint | var_spec |  | [247](../../magpie/internal/usage/served.go#L247) |
+| GrokServing | function_declaration |  | [258](../../magpie/internal/usage/served.go#L258) |
+| grokBuild | var_spec |  | [270](../../magpie/internal/usage/served.go#L270) |
+| GeminiServing | function_declaration |  | [282](../../magpie/internal/usage/served.go#L282) |
+| squash | var_spec |  | [292](../../magpie/internal/usage/served.go#L292) |
+| SameSpelled | function_declaration |  | [297](../../magpie/internal/usage/served.go#L297) |
+| GroupRouted | function_declaration |  | [308](../../magpie/internal/usage/served.go#L308) |
+| remoteGroup | function_declaration |  | [314](../../magpie/internal/usage/served.go#L314) |

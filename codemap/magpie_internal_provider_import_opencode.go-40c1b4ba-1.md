@@ -4,15 +4,15 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/import_opencode.go) · page 1/1
 
-Source SHA-256: 5b4473621256ad183dd025fddae4f472170b046dfa7d0124a1eb331664fc19b9
+Source SHA-256: dae1444739a5c45bc13668dc90bb63922f7fc17d73a7efe52d7e7be23d1cc093
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | openCodeAuthPath | function_declaration |  | [23](../../magpie/internal/provider/import_opencode.go#L23) |
-| openCodePresets | var_spec |  | [34](../../magpie/internal/provider/import_opencode.go#L34) |
-| readOpenCodeAuth | function_declaration |  | [43](../../magpie/internal/provider/import_opencode.go#L43) |
-| all | var_spec | readOpenCodeAuth | [48](../../magpie/internal/provider/import_opencode.go#L48) |
-| out | var_spec | readOpenCodeAuth | [52](../../magpie/internal/provider/import_opencode.go#L52) |
-| e | var_spec | readOpenCodeAuth | [54](../../magpie/internal/provider/import_opencode.go#L54) |
-| Type | field_declaration | readOpenCodeAuth::e | [55](../../magpie/internal/provider/import_opencode.go#L55) |
-| Key | field_declaration | readOpenCodeAuth::e | [56](../../magpie/internal/provider/import_opencode.go#L56) |
+| openCodePresets | var_spec |  | [40](../../magpie/internal/provider/import_opencode.go#L40) |
+| readOpenCodeAuth | function_declaration |  | [55](../../magpie/internal/provider/import_opencode.go#L55) |
+| all | var_spec | readOpenCodeAuth | [60](../../magpie/internal/provider/import_opencode.go#L60) |
+| out | var_spec | readOpenCodeAuth | [64](../../magpie/internal/provider/import_opencode.go#L64) |
+| e | var_spec | readOpenCodeAuth | [66](../../magpie/internal/provider/import_opencode.go#L66) |
+| Type | field_declaration | readOpenCodeAuth::e | [67](../../magpie/internal/provider/import_opencode.go#L67) |
+| Key | field_declaration | readOpenCodeAuth::e | [68](../../magpie/internal/provider/import_opencode.go#L68) |

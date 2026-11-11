@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/importapps.go) · page 1/1
 
-Source SHA-256: d0c529c6a1871be4ce02326e91852649b5279290a0d3d5c53ed366b481743fd1
+Source SHA-256: 65c7455e8f2de4223ad4968a27e5945b1d98f12f77655e98e6a706c850504949
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,5 +21,5 @@ Source SHA-256: d0c529c6a1871be4ce02326e91852649b5279290a0d3d5c53ed366b481743fd1
 | Items | field_declaration | importAppsRoutes::source | [55](../../magpie/internal/gui/importapps.go#L55) |
 | in | var_spec | importAppsRoutes | [71](../../magpie/internal/gui/importapps.go#L71) |
 | Picks | field_declaration | importAppsRoutes::in | [71](../../magpie/internal/gui/importapps.go#L71) |
-| Added | field_declaration | importAppsRoutes | [82](../../magpie/internal/gui/importapps.go#L82) |
-| State | field_declaration | importAppsRoutes | [83](../../magpie/internal/gui/importapps.go#L83) |
+| Added | field_declaration | importAppsRoutes | [87](../../magpie/internal/gui/importapps.go#L87) |
+| State | field_declaration | importAppsRoutes | [88](../../magpie/internal/gui/importapps.go#L88) |

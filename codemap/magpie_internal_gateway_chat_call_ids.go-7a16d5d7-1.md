@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/chat_call_ids.go) · page 1/1
 
-Source SHA-256: ac64e08303d14b93715b0fdebe3c57b06a9bb1a1046bbb31b48b16d584017c9e
+Source SHA-256: 35f917303b7807ad26dfcc8568ba0bd529305a94c0dfabd210c0671b2667bb05
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -23,3 +23,10 @@ Source SHA-256: ac64e08303d14b93715b0fdebe3c57b06a9bb1a1046bbb31b48b16d584017c9e
 | calls | var_spec | mend | [90](../../magpie/internal/gateway/chat_call_ids.go#L90) |
 | wholeCallIDs | function_declaration |  | [123](../../magpie/internal/gateway/chat_call_ids.go#L123) |
 | calls | var_spec | wholeCallIDs | [124](../../magpie/internal/gateway/chat_call_ids.go#L124) |
+| wholeNameless | function_declaration |  | [144](../../magpie/internal/gateway/chat_call_ids.go#L144) |
+| calls | var_spec | wholeNameless | [145](../../magpie/internal/gateway/chat_call_ids.go#L145) |
+| kept | var_spec | wholeNameless | [149](../../magpie/internal/gateway/chat_call_ids.go#L149) |
+| fn | var_spec | wholeNameless | [151](../../magpie/internal/gateway/chat_call_ids.go#L151) |
+| wholeNamedCall | function_declaration |  | [169](../../magpie/internal/gateway/chat_call_ids.go#L169) |
+| calls | var_spec | wholeNamedCall | [170](../../magpie/internal/gateway/chat_call_ids.go#L170) |
+| fn | var_spec | wholeNamedCall | [175](../../magpie/internal/gateway/chat_call_ids.go#L175) |

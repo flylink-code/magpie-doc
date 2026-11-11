@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/pages.go) · page 1/2
 
-Source SHA-256: b7689fe27835f077c5479517eda53b485f89eb09c9d2f2448cb949b6dfad2854
+Source SHA-256: 6caa3df825f6c7775adbbf7d115d9783b0596711e6de3be5dc6e42952be6b4a1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| page | type_spec |  | [29](../../magpie/internal/tui/pages.go#L29) |
-| pageAgents | const_spec |  | [32](../../magpie/internal/tui/pages.go#L32) |
-| pageProviders | const_spec |  | [33](../../magpie/internal/tui/pages.go#L33) |
-| pageGroups | const_spec |  | [34](../../magpie/internal/tui/pages.go#L34) |
-| pageUsage | const_spec |  | [35](../../magpie/internal/tui/pages.go#L35) |
-| pageSessions | const_spec |  | [36](../../magpie/internal/tui/pages.go#L36) |
-| pageLibrary | const_spec |  | [37](../../magpie/internal/tui/pages.go#L37) |
-| pageNames | var_spec |  | [40](../../magpie/internal/tui/pages.go#L40) |
-| ask | type_spec |  | [43](../../magpie/internal/tui/pages.go#L43) |
-| crumbs | field_declaration | ask | [44](../../magpie/internal/tui/pages.go#L44) |
-| hint | field_declaration | ask | [45](../../magpie/internal/tui/pages.go#L45) |
-| input | field_declaration | ask | [46](../../magpie/internal/tui/pages.go#L46) |
-| empty | field_declaration | ask | [47](../../magpie/internal/tui/pages.go#L47) |
-| onEnter | field_declaration | ask | [48](../../magpie/internal/tui/pages.go#L48) |
-| askMsg | type_spec |  | [52](../../magpie/internal/tui/pages.go#L52) |
-| a | field_declaration | askMsg | [52](../../magpie/internal/tui/pages.go#L52) |
-| balanceMsg | type_spec |  | [55](../../magpie/internal/tui/pages.go#L55) |
-| reloadProviders | method_declaration |  | [59](../../magpie/internal/tui/pages.go#L59) |
-| balancesCmd | function_declaration |  | [66](../../magpie/internal/tui/pages.go#L66) |
-| mu | var_spec | balancesCmd | [71](../../magpie/internal/tui/pages.go#L71) |
-| wg | var_spec | balancesCmd | [72](../../magpie/internal/tui/pages.go#L72) |
-| updateProviders | method_declaration |  | [98](../../magpie/internal/tui/pages.go#L98) |
-| reseatCmd | function_declaration |  | [244](../../magpie/internal/tui/pages.go#L244) |
-| saveProvider | function_declaration |  | [262](../../magpie/internal/tui/pages.go#L262) |
-| refetchCmd | function_declaration |  | [280](../../magpie/internal/tui/pages.go#L280) |
-| modelsNote | function_declaration |  | [305](../../magpie/internal/tui/pages.go#L305) |
-| fetchNote | function_declaration |  | [315](../../magpie/internal/tui/pages.go#L315) |
-| testCmd | function_declaration |  | [323](../../magpie/internal/tui/pages.go#L323) |
-| parts | var_spec | testCmd | [327](../../magpie/internal/tui/pages.go#L327) |
-| modelOptions | function_declaration |  | [352](../../magpie/internal/tui/pages.go#L352) |
-| out | var_spec | modelOptions | [361](../../magpie/internal/tui/pages.go#L361) |
-| openProviderModels | method_declaration |  | [392](../../magpie/internal/tui/pages.go#L392) |
-| kindNote | function_declaration |  | [444](../../magpie/internal/tui/pages.go#L444) |
-| openPresets | method_declaration |  | [453](../../magpie/internal/tui/pages.go#L453) |
-| items | var_spec | openPresets | [454](../../magpie/internal/tui/pages.go#L454) |
-| shown | var_spec | openPresets | [455](../../magpie/internal/tui/pages.go#L455) |
-| customAPI | type_spec |  | [518](../../magpie/internal/tui/pages.go#L518) |
-| id | field_declaration | customAPI | [519](../../magpie/internal/tui/pages.go#L519) |
-| set | field_declaration | customAPI | [520](../../magpie/internal/tui/pages.go#L520) |
-| customAPIs | var_spec |  | [526](../../magpie/internal/tui/pages.go#L526) |
-| customURLAsk | function_declaration |  | [535](../../magpie/internal/tui/pages.go#L535) |
-| customURLs | function_declaration |  | [563](../../magpie/internal/tui/pages.go#L563) |
-| out | var_spec | customURLs | [564](../../magpie/internal/tui/pages.go#L564) |
-| customURLOf | function_declaration |  | [574](../../magpie/internal/tui/pages.go#L574) |
-| customURLsAsk | function_declaration |  | [589](../../magpie/internal/tui/pages.go#L589) |
-| set | var_spec | customURLsAsk | [607](../../magpie/internal/tui/pages.go#L607) |
-| said | var_spec | customURLsAsk | [608](../../magpie/internal/tui/pages.go#L608) |
-| addKeyAsk | function_declaration |  | [629](../../magpie/internal/tui/pages.go#L629) |
-| vertexProjectAsk | function_declaration |  | [649](../../magpie/internal/tui/pages.go#L649) |
-| addCmd | function_declaration |  | [661](../../magpie/internal/tui/pages.go#L661) |
-| endpointAsk | function_declaration |  | [694](../../magpie/internal/tui/pages.go#L694) |
-| localAddressAsk | function_declaration |  | [717](../../magpie/internal/tui/pages.go#L717) |
-| listError | var_spec |  | [731](../../magpie/internal/tui/pages.go#L731) |
-| signedOut | var_spec |  | [734](../../magpie/internal/tui/pages.go#L734) |
-| viewProviders | method_declaration |  | [736](../../magpie/internal/tui/pages.go#L736) |
-| b | var_spec | viewProviders | [737](../../magpie/internal/tui/pages.go#L737) |
-| row | type_spec | viewProviders | [749](../../magpie/internal/tui/pages.go#L749) |
-| name | field_declaration | viewProviders::row | [749](../../magpie/internal/tui/pages.go#L749) |
-| rows | var_spec | viewProviders | [750](../../magpie/internal/tui/pages.go#L750) |
-| w | var_spec | viewProviders | [751](../../magpie/internal/tui/pages.go#L751) |
-| notes | var_spec | viewProviders | [779](../../magpie/internal/tui/pages.go#L779) |
-| periods | var_spec |  | [834](../../magpie/internal/tui/pages.go#L834) |
-| periodNames | var_spec |  | [836](../../magpie/internal/tui/pages.go#L836) |
-| quotaMsg | type_spec |  | [840](../../magpie/internal/tui/pages.go#L840) |
-| quotasCmd | function_declaration |  | [842](../../magpie/internal/tui/pages.go#L842) |
-| checkinMsg | type_spec |  | [852](../../magpie/internal/tui/pages.go#L852) |
-| text | field_declaration | checkinMsg | [853](../../magpie/internal/tui/pages.go#L853) |
-| ok | field_declaration | checkinMsg | [854](../../magpie/internal/tui/pages.go#L854) |
-| checkinHere | var_spec |  | [859](../../magpie/internal/tui/pages.go#L859) |
-| hasWorkBuddy | var_spec |  | [860](../../magpie/internal/tui/pages.go#L860) |
-| checkinTrae | var_spec |  | [861](../../magpie/internal/tui/pages.go#L861) |
-| hasTrae | var_spec |  | [862](../../magpie/internal/tui/pages.go#L862) |
-| checkinMM | var_spec |  | [863](../../magpie/internal/tui/pages.go#L863) |
-| hasMiniMax | var_spec |  | [864](../../magpie/internal/tui/pages.go#L864) |
-| checkinQd | var_spec |  | [865](../../magpie/internal/tui/pages.go#L865) |
-| hasQoder | var_spec |  | [866](../../magpie/internal/tui/pages.go#L866) |
-| checkinPl | var_spec |  | [867](../../magpie/internal/tui/pages.go#L867) |
-| hasPlugin | var_spec |  | [868](../../magpie/internal/tui/pages.go#L868) |
-| checkinCmd | function_declaration |  | [882](../../magpie/internal/tui/pages.go#L882) |
-| parts | var_spec | checkinCmd | [885](../../magpie/internal/tui/pages.go#L885) |
-| checkinWords | function_declaration |  | [934](../../magpie/internal/tui/pages.go#L934) |
-| checkinWhy | function_declaration |  | [993](../../magpie/internal/tui/pages.go#L993) |
-| againWords | function_declaration |  | [1005](../../magpie/internal/tui/pages.go#L1005) |
-| ownAppName | function_declaration |  | [1016](../../magpie/internal/tui/pages.go#L1016) |
-| ownAppWords | function_declaration |  | [1031](../../magpie/internal/tui/pages.go#L1031) |
-| whyHint | function_declaration |  | [1041](../../magpie/internal/tui/pages.go#L1041) |
-| checkinCell | function_declaration |  | [1051](../../magpie/internal/tui/pages.go#L1051) |
-| updateUsage | method_declaration |  | [1090](../../magpie/internal/tui/pages.go#L1090) |
-| fmtTokens | function_declaration |  | [1126](../../magpie/internal/tui/pages.go#L1126) |
-| costMu | var_spec |  | [1147](../../magpie/internal/tui/pages.go#L1147) |
-| costAt | var_spec |  | [1148](../../magpie/internal/tui/pages.go#L1148) |
-| costCncy | var_spec |  | [1149](../../magpie/internal/tui/pages.go#L1149) |
-| costRateVal | var_spec |  | [1150](../../magpie/internal/tui/pages.go#L1150) |
-| costCurrency | function_declaration |  | [1153](../../magpie/internal/tui/pages.go#L1153) |
-| fmtCost | function_declaration |  | [1170](../../magpie/internal/tui/pages.go#L1170) |
-| credits | function_declaration |  | [1184](../../magpie/internal/tui/pages.go#L1184) |
-| bars | var_spec |  | [1191](../../magpie/internal/tui/pages.go#L1191) |
-| viewUsage | method_declaration |  | [1193](../../magpie/internal/tui/pages.go#L1193) |
-| b | var_spec | viewUsage | [1195](../../magpie/internal/tui/pages.go#L1195) |
-| tabs | var_spec | viewUsage | [1198](../../magpie/internal/tui/pages.go#L1198) |
+| page | type_spec |  | [30](../../magpie/internal/tui/pages.go#L30) |
+| pageAgents | const_spec |  | [33](../../magpie/internal/tui/pages.go#L33) |
+| pageProviders | const_spec |  | [34](../../magpie/internal/tui/pages.go#L34) |
+| pageGroups | const_spec |  | [35](../../magpie/internal/tui/pages.go#L35) |
+| pageUsage | const_spec |  | [36](../../magpie/internal/tui/pages.go#L36) |
+| pageSessions | const_spec |  | [37](../../magpie/internal/tui/pages.go#L37) |
+| pageLibrary | const_spec |  | [38](../../magpie/internal/tui/pages.go#L38) |
+| pageNames | var_spec |  | [41](../../magpie/internal/tui/pages.go#L41) |
+| ask | type_spec |  | [44](../../magpie/internal/tui/pages.go#L44) |
+| crumbs | field_declaration | ask | [45](../../magpie/internal/tui/pages.go#L45) |
+| hint | field_declaration | ask | [46](../../magpie/internal/tui/pages.go#L46) |
+| input | field_declaration | ask | [47](../../magpie/internal/tui/pages.go#L47) |
+| empty | field_declaration | ask | [48](../../magpie/internal/tui/pages.go#L48) |
+| onEnter | field_declaration | ask | [49](../../magpie/internal/tui/pages.go#L49) |
+| askMsg | type_spec |  | [53](../../magpie/internal/tui/pages.go#L53) |
+| a | field_declaration | askMsg | [53](../../magpie/internal/tui/pages.go#L53) |
+| balanceMsg | type_spec |  | [56](../../magpie/internal/tui/pages.go#L56) |
+| reloadProviders | method_declaration |  | [60](../../magpie/internal/tui/pages.go#L60) |
+| balancesCmd | function_declaration |  | [67](../../magpie/internal/tui/pages.go#L67) |
+| mu | var_spec | balancesCmd | [72](../../magpie/internal/tui/pages.go#L72) |
+| wg | var_spec | balancesCmd | [73](../../magpie/internal/tui/pages.go#L73) |
+| updateProviders | method_declaration |  | [99](../../magpie/internal/tui/pages.go#L99) |
+| reseatCmd | function_declaration |  | [245](../../magpie/internal/tui/pages.go#L245) |
+| saveProvider | function_declaration |  | [263](../../magpie/internal/tui/pages.go#L263) |
+| refetchCmd | function_declaration |  | [281](../../magpie/internal/tui/pages.go#L281) |
+| modelsNote | function_declaration |  | [306](../../magpie/internal/tui/pages.go#L306) |
+| fetchNote | function_declaration |  | [316](../../magpie/internal/tui/pages.go#L316) |
+| testCmd | function_declaration |  | [324](../../magpie/internal/tui/pages.go#L324) |
+| parts | var_spec | testCmd | [328](../../magpie/internal/tui/pages.go#L328) |
+| modelOptions | function_declaration |  | [353](../../magpie/internal/tui/pages.go#L353) |
+| out | var_spec | modelOptions | [362](../../magpie/internal/tui/pages.go#L362) |
+| openProviderModels | method_declaration |  | [393](../../magpie/internal/tui/pages.go#L393) |
+| kindNote | function_declaration |  | [445](../../magpie/internal/tui/pages.go#L445) |
+| openPresets | method_declaration |  | [454](../../magpie/internal/tui/pages.go#L454) |
+| items | var_spec | openPresets | [455](../../magpie/internal/tui/pages.go#L455) |
+| shown | var_spec | openPresets | [456](../../magpie/internal/tui/pages.go#L456) |
+| customAPI | type_spec |  | [519](../../magpie/internal/tui/pages.go#L519) |
+| id | field_declaration | customAPI | [520](../../magpie/internal/tui/pages.go#L520) |
+| set | field_declaration | customAPI | [521](../../magpie/internal/tui/pages.go#L521) |
+| customAPIs | var_spec |  | [527](../../magpie/internal/tui/pages.go#L527) |
+| customURLAsk | function_declaration |  | [536](../../magpie/internal/tui/pages.go#L536) |
+| customURLs | function_declaration |  | [564](../../magpie/internal/tui/pages.go#L564) |
+| out | var_spec | customURLs | [565](../../magpie/internal/tui/pages.go#L565) |
+| customURLOf | function_declaration |  | [575](../../magpie/internal/tui/pages.go#L575) |
+| customURLsAsk | function_declaration |  | [590](../../magpie/internal/tui/pages.go#L590) |
+| set | var_spec | customURLsAsk | [608](../../magpie/internal/tui/pages.go#L608) |
+| said | var_spec | customURLsAsk | [609](../../magpie/internal/tui/pages.go#L609) |
+| addKeyAsk | function_declaration |  | [630](../../magpie/internal/tui/pages.go#L630) |
+| vertexProjectAsk | function_declaration |  | [650](../../magpie/internal/tui/pages.go#L650) |
+| addCmd | function_declaration |  | [662](../../magpie/internal/tui/pages.go#L662) |
+| endpointAsk | function_declaration |  | [695](../../magpie/internal/tui/pages.go#L695) |
+| localAddressAsk | function_declaration |  | [718](../../magpie/internal/tui/pages.go#L718) |
+| listError | var_spec |  | [732](../../magpie/internal/tui/pages.go#L732) |
+| signedOut | var_spec |  | [735](../../magpie/internal/tui/pages.go#L735) |
+| viewProviders | method_declaration |  | [737](../../magpie/internal/tui/pages.go#L737) |
+| b | var_spec | viewProviders | [738](../../magpie/internal/tui/pages.go#L738) |
+| row | type_spec | viewProviders | [750](../../magpie/internal/tui/pages.go#L750) |
+| name | field_declaration | viewProviders::row | [750](../../magpie/internal/tui/pages.go#L750) |
+| rows | var_spec | viewProviders | [751](../../magpie/internal/tui/pages.go#L751) |
+| w | var_spec | viewProviders | [752](../../magpie/internal/tui/pages.go#L752) |
+| notes | var_spec | viewProviders | [780](../../magpie/internal/tui/pages.go#L780) |
+| periods | var_spec |  | [835](../../magpie/internal/tui/pages.go#L835) |
+| periodNames | var_spec |  | [837](../../magpie/internal/tui/pages.go#L837) |
+| quotaMsg | type_spec |  | [843](../../magpie/internal/tui/pages.go#L843) |
+| qs | field_declaration | quotaMsg | [844](../../magpie/internal/tui/pages.go#L844) |
+| reading | field_declaration | quotaMsg | [845](../../magpie/internal/tui/pages.go#L845) |
+| gen | field_declaration | quotaMsg | [846](../../magpie/internal/tui/pages.go#L846) |
+| quotasOpenGap | var_spec |  | [857](../../magpie/internal/tui/pages.go#L857) |
+| quotasAgain | var_spec |  | [858](../../magpie/internal/tui/pages.go#L858) |
+| quotasTries | const_spec |  | [861](../../magpie/internal/tui/pages.go#L861) |
+| readQuotas | var_spec |  | [865](../../magpie/internal/tui/pages.go#L865) |
+| quotasCmd | function_declaration |  | [879](../../magpie/internal/tui/pages.go#L879) |
+| loadQuotas | method_declaration |  | [888](../../magpie/internal/tui/pages.go#L888) |
+| gotQuotas | method_declaration |  | [900](../../magpie/internal/tui/pages.go#L900) |
+| checkinMsg | type_spec |  | [914](../../magpie/internal/tui/pages.go#L914) |
+| text | field_declaration | checkinMsg | [915](../../magpie/internal/tui/pages.go#L915) |
+| ok | field_declaration | checkinMsg | [916](../../magpie/internal/tui/pages.go#L916) |
+| checkinHere | var_spec |  | [921](../../magpie/internal/tui/pages.go#L921) |
+| hasWorkBuddy | var_spec |  | [922](../../magpie/internal/tui/pages.go#L922) |
+| checkinTrae | var_spec |  | [923](../../magpie/internal/tui/pages.go#L923) |
+| hasTrae | var_spec |  | [924](../../magpie/internal/tui/pages.go#L924) |
+| checkinMM | var_spec |  | [925](../../magpie/internal/tui/pages.go#L925) |
+| hasMiniMax | var_spec |  | [926](../../magpie/internal/tui/pages.go#L926) |
+| checkinQd | var_spec |  | [927](../../magpie/internal/tui/pages.go#L927) |
+| hasQoder | var_spec |  | [928](../../magpie/internal/tui/pages.go#L928) |
+| checkinPl | var_spec |  | [929](../../magpie/internal/tui/pages.go#L929) |
+| hasPlugin | var_spec |  | [930](../../magpie/internal/tui/pages.go#L930) |
+| checkinCmd | function_declaration |  | [944](../../magpie/internal/tui/pages.go#L944) |
+| parts | var_spec | checkinCmd | [947](../../magpie/internal/tui/pages.go#L947) |
+| checkinWords | function_declaration |  | [996](../../magpie/internal/tui/pages.go#L996) |
+| checkinWhy | function_declaration |  | [1055](../../magpie/internal/tui/pages.go#L1055) |
+| againWords | function_declaration |  | [1067](../../magpie/internal/tui/pages.go#L1067) |
+| ownAppName | function_declaration |  | [1078](../../magpie/internal/tui/pages.go#L1078) |
+| ownAppWords | function_declaration |  | [1093](../../magpie/internal/tui/pages.go#L1093) |
+| whyHint | function_declaration |  | [1103](../../magpie/internal/tui/pages.go#L1103) |
+| checkinCell | function_declaration |  | [1113](../../magpie/internal/tui/pages.go#L1113) |
+| updateUsage | method_declaration |  | [1152](../../magpie/internal/tui/pages.go#L1152) |
+| fmtTokens | function_declaration |  | [1188](../../magpie/internal/tui/pages.go#L1188) |
+| costMu | var_spec |  | [1209](../../magpie/internal/tui/pages.go#L1209) |
+| costAt | var_spec |  | [1210](../../magpie/internal/tui/pages.go#L1210) |

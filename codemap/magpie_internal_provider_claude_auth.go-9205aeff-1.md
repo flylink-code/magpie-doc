@@ -4,16 +4,23 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claude_auth.go) · page 1/1
 
-Source SHA-256: 658defc8006d4c47f262e9439f3607f8f7f5466c2d015fc9fc399b10a58a5ff4
+Source SHA-256: 45782aa910818dcc1e70d950bc5e721121c8e84b31f50ac038d57089dc8d6e1a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeAuthLapse | const_spec |  | [22](../../magpie/internal/provider/claude_auth.go#L22) |
-| ClaudeSignInRequired | function_declaration |  | [29](../../magpie/internal/provider/claude_auth.go#L29) |
-| version | method_declaration |  | [45](../../magpie/internal/provider/claude_auth.go#L45) |
-| cleared | method_declaration |  | [52](../../magpie/internal/provider/claude_auth.go#L52) |
-| claudeLoginVersion | function_declaration |  | [58](../../magpie/internal/provider/claude_auth.go#L58) |
-| ClaudeLoginVersion | function_declaration |  | [67](../../magpie/internal/provider/claude_auth.go#L67) |
-| refuseClaudeLogin | function_declaration |  | [80](../../magpie/internal/provider/claude_auth.go#L80) |
-| NoteClaudeSignInFailure | function_declaration |  | [92](../../magpie/internal/provider/claude_auth.go#L92) |
-| claudeOwnRefused | function_declaration |  | [112](../../magpie/internal/provider/claude_auth.go#L112) |
+| claudeAuthLapse | const_spec |  | [23](../../magpie/internal/provider/claude_auth.go#L23) |
+| ClaudeSignInRequired | function_declaration |  | [30](../../magpie/internal/provider/claude_auth.go#L30) |
+| version | method_declaration |  | [46](../../magpie/internal/provider/claude_auth.go#L46) |
+| cleared | method_declaration |  | [53](../../magpie/internal/provider/claude_auth.go#L53) |
+| claudeLoginVersion | function_declaration |  | [59](../../magpie/internal/provider/claude_auth.go#L59) |
+| claudeAuthFacts | type_spec |  | [72](../../magpie/internal/provider/claude_auth.go#L72) |
+| ok | field_declaration | claudeAuthFacts | [73](../../magpie/internal/provider/claude_auth.go#L73) |
+| version | field_declaration | claudeAuthFacts | [74](../../magpie/internal/provider/claude_auth.go#L74) |
+| claudeAuthKept | var_spec |  | [82](../../magpie/internal/provider/claude_auth.go#L82) |
+| m | field_declaration | claudeAuthKept | [84](../../magpie/internal/provider/claude_auth.go#L84) |
+| claudeAuthKeep | const_spec |  | [87](../../magpie/internal/provider/claude_auth.go#L87) |
+| claudeAuthOf | function_declaration |  | [89](../../magpie/internal/provider/claude_auth.go#L89) |
+| ClaudeLoginVersion | function_declaration |  | [110](../../magpie/internal/provider/claude_auth.go#L110) |
+| refuseClaudeLogin | function_declaration |  | [123](../../magpie/internal/provider/claude_auth.go#L123) |
+| NoteClaudeSignInFailure | function_declaration |  | [135](../../magpie/internal/provider/claude_auth.go#L135) |
+| claudeOwnRefused | function_declaration |  | [155](../../magpie/internal/provider/claude_auth.go#L155) |

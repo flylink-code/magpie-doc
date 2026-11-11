@@ -4,9 +4,10 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/main.go) · page 1/1
 
-Source SHA-256: b2cdf8523fb8577fb7e24d424e428eef52127c540e2946bd5ebf1a893d16a336
+Source SHA-256: 9cee3a560fdfe3d50fdcd2b7c90366e57e09c5fcc8a484e79a878f44c7ac2580
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| version | var_spec |  | [13](../../magpie/main.go#L13) |
-| main | function_declaration |  | [15](../../magpie/main.go#L15) |
+| version | var_spec |  | [16](../../magpie/main.go#L16) |
+| thirdParty | var_spec |  | [23](../../magpie/main.go#L23) |
+| main | function_declaration |  | [25](../../magpie/main.go#L25) |

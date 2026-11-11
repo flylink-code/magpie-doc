@@ -4,15 +4,39 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/google.go) · page 3/3
 
-Source SHA-256: 2f3456b34f4ac3fb300d31df1ff180429f4590ebe9bb43d021f95b3fb3a06ba3
+Source SHA-256: 3756608549781243f62964024ae3be0fcef3c27f026a390bf7f58289fcf6a456
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| googleExchange | function_declaration |  | [1562](../../magpie/internal/provider/google.go#L1562) |
-| tok | var_spec | googleExchange | [1565](../../magpie/internal/provider/google.go#L1565) |
-| AccessToken | field_declaration | googleExchange::tok | [1566](../../magpie/internal/provider/google.go#L1566) |
-| RefreshToken | field_declaration | googleExchange::tok | [1567](../../magpie/internal/provider/google.go#L1567) |
-| ExpiresIn | field_declaration | googleExchange::tok | [1568](../../magpie/internal/provider/google.go#L1568) |
-| googleWho | function_declaration |  | [1593](../../magpie/internal/provider/google.go#L1593) |
-| who | var_spec | googleWho | [1604](../../magpie/internal/provider/google.go#L1604) |
-| Email | field_declaration | googleWho::who | [1605](../../magpie/internal/provider/google.go#L1605) |
+| ids | var_spec | pools | [1381](../../magpie/internal/provider/google.go#L1381) |
+| out | var_spec | pools | [1392](../../magpie/internal/provider/google.go#L1392) |
+| groups | var_spec | pools | [1393](../../magpie/internal/provider/google.go#L1393) |
+| sameReading | function_declaration |  | [1497](../../magpie/internal/provider/google.go#L1497) |
+| modelPool | function_declaration |  | [1511](../../magpie/internal/provider/google.go#L1511) |
+| summaryShapes | var_spec |  | [1521](../../magpie/internal/provider/google.go#L1521) |
+| noteQuotaSummary | function_declaration |  | [1526](../../magpie/internal/provider/google.go#L1526) |
+| poolNames | function_declaration |  | [1542](../../magpie/internal/provider/google.go#L1542) |
+| versioned | function_declaration |  | [1558](../../magpie/internal/provider/google.go#L1558) |
+| modelSpan | const_spec |  | [1562](../../magpie/internal/provider/google.go#L1562) |
+| PooledWindows | function_declaration |  | [1569](../../magpie/internal/provider/google.go#L1569) |
+| out | var_spec | PooledWindows | [1584](../../magpie/internal/provider/google.go#L1584) |
+| poolName | function_declaration |  | [1602](../../magpie/internal/provider/google.go#L1602) |
+| antigravityVendor | function_declaration |  | [1613](../../magpie/internal/provider/google.go#L1613) |
+| googleProvider | function_declaration |  | [1633](../../magpie/internal/provider/google.go#L1633) |
+| f | var_spec | googleProvider | [1644](../../magpie/internal/provider/google.go#L1644) |
+| codeAssistEnvelope | function_declaration |  | [1675](../../magpie/internal/provider/google.go#L1675) |
+| env | var_spec | codeAssistEnvelope | [1676](../../magpie/internal/provider/google.go#L1676) |
+| antigravitySession | function_declaration |  | [1703](../../magpie/internal/provider/google.go#L1703) |
+| googleAccountOf | function_declaration |  | [1730](../../magpie/internal/provider/google.go#L1730) |
+| googleAlsoOn | function_declaration |  | [1739](../../magpie/internal/provider/google.go#L1739) |
+| out | var_spec | googleAlsoOn | [1740](../../magpie/internal/provider/google.go#L1740) |
+| googleLoginQuota | function_declaration |  | [1750](../../magpie/internal/provider/google.go#L1750) |
+| startGoogleSignIn | function_declaration |  | [1762](../../magpie/internal/provider/google.go#L1762) |
+| googleExchange | function_declaration |  | [1779](../../magpie/internal/provider/google.go#L1779) |
+| tok | var_spec | googleExchange | [1782](../../magpie/internal/provider/google.go#L1782) |
+| AccessToken | field_declaration | googleExchange::tok | [1783](../../magpie/internal/provider/google.go#L1783) |
+| RefreshToken | field_declaration | googleExchange::tok | [1784](../../magpie/internal/provider/google.go#L1784) |
+| ExpiresIn | field_declaration | googleExchange::tok | [1785](../../magpie/internal/provider/google.go#L1785) |
+| googleWho | function_declaration |  | [1810](../../magpie/internal/provider/google.go#L1810) |
+| who | var_spec | googleWho | [1821](../../magpie/internal/provider/google.go#L1821) |
+| Email | field_declaration | googleWho::who | [1822](../../magpie/internal/provider/google.go#L1822) |

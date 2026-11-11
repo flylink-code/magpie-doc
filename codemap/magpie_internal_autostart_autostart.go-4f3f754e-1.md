@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/autostart/autostart.go) · page 1/1
 
-Source SHA-256: 2dd6a8beb737cd3eac5500f4dca5ea3b8b80e5cd34cb8deac6dd22585b6123dd
+Source SHA-256: a16d6ccb0bda83561cbf7a54984f4f6b12b612daf11b5e45fc01e010684c86f6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,6 +15,9 @@ Source SHA-256: 2dd6a8beb737cd3eac5500f4dca5ea3b8b80e5cd34cb8deac6dd22585b6123dd
 | NeedsAllowing | const_spec |  | [31](../../magpie/internal/autostart/autostart.go#L31) |
 | LoginItemsURL | const_spec |  | [36](../../magpie/internal/autostart/autostart.go#L36) |
 | Enabled | function_declaration |  | [41](../../magpie/internal/autostart/autostart.go#L41) |
-| Set | function_declaration |  | [52](../../magpie/internal/autostart/autostart.go#L52) |
-| Refresh | function_declaration |  | [65](../../magpie/internal/autostart/autostart.go#L65) |
-| self | function_declaration |  | [68](../../magpie/internal/autostart/autostart.go#L68) |
+| Set | function_declaration |  | [53](../../magpie/internal/autostart/autostart.go#L53) |
+| Refresh | function_declaration |  | [66](../../magpie/internal/autostart/autostart.go#L66) |
+| self | function_declaration |  | [69](../../magpie/internal/autostart/autostart.go#L69) |
+| Repoint | function_declaration |  | [95](../../magpie/internal/autostart/autostart.go#L95) |
+| repointed | function_declaration |  | [99](../../magpie/internal/autostart/autostart.go#L99) |
+| exe | var_spec | repointed | [101](../../magpie/internal/autostart/autostart.go#L101) |

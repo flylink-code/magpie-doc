@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/routes/fastest.go) · page 1/1
 
-Source SHA-256: 1936c3f6daba422dcc3877c9b787bfc8fed3b01792cb4a6342b58a2f4e643a5e
+Source SHA-256: 316a1375ff10b5e3a3b3a6f64a2c2cffc88fb22aaf20e486244746ab81104540
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/self_here.go) · page 1/1
 
-Source SHA-256: a48e73848e44d15042a1cb4a63f70757c75b66906c893a9282fb2713979d343d
+Source SHA-256: ce7fe2383678ab2c5a299f75f06d452fb8da3069fac96a49b1a836f8c85c1e6f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,4 +13,4 @@ Source SHA-256: a48e73848e44d15042a1cb4a63f70757c75b66906c893a9282fb2713979d343d
 | magpieBinary | function_declaration |  | [39](../../magpie/internal/library/self_here.go#L39) |
 | runsHere | function_declaration |  | [46](../../magpie/internal/library/self_here.go#L46) |
 | heal | method_declaration |  | [55](../../magpie/internal/library/self_here.go#L55) |
-| carried | function_declaration |  | [73](../../magpie/internal/library/self_here.go#L73) |
+| carried | function_declaration |  | [74](../../magpie/internal/library/self_here.go#L74) |

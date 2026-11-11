@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/dsh_search.go) · page 1/1
 
-Source SHA-256: 067a9f41fbabb6aec6f2b4c50b7dbe5bda307731a2f1c4c00f14bae5417988ca
+Source SHA-256: cf93b527a2cae2d136da1de06db6dcea440f28a70f92a9fc833cd3d9eecf623d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/rescan.go) · page 1/1
 
-Source SHA-256: cda5255da02431427ddd8a6c1a49804647dbeeb218a17f3544e342be783d7f28
+Source SHA-256: 167dfc45de83d19a6fdb58ad813e536637f3223bc528801e53d1bb3b7f7af371
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

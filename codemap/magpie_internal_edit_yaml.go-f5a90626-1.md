@@ -4,45 +4,47 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/yaml.go) · page 1/1
 
-Source SHA-256: 7169783e7d77dcf9a4883958f778153cafae422dcdc433f14a25ace90a20a227
+Source SHA-256: adacbce41b19d209cf09015f5d1a5df8684784c26d9cf0749d97c379d7975ae2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| GetYAML | function_declaration |  | [18](../../magpie/internal/edit/yaml.go#L18) |
-| GetYAMLMap | function_declaration |  | [31](../../magpie/internal/edit/yaml.go#L31) |
-| GetYAMLList | function_declaration |  | [50](../../magpie/internal/edit/yaml.go#L50) |
-| out | var_spec | GetYAMLList | [59](../../magpie/internal/edit/yaml.go#L59) |
-| GetYAMLText | function_declaration |  | [71](../../magpie/internal/edit/yaml.go#L71) |
-| YAMLText | type_spec |  | [89](../../magpie/internal/edit/yaml.go#L89) |
-| EditYAMLTextStrings | function_declaration |  | [94](../../magpie/internal/edit/yaml.go#L94) |
-| SetYAML | function_declaration |  | [117](../../magpie/internal/edit/yaml.go#L117) |
-| v | var_spec | SetYAML | [126](../../magpie/internal/edit/yaml.go#L126) |
-| yamlOfJSON | function_declaration |  | [152](../../magpie/internal/edit/yaml.go#L152) |
-| doc | var_spec | yamlOfJSON | [156](../../magpie/internal/edit/yaml.go#L156) |
-| block | var_spec | yamlOfJSON | [163](../../magpie/internal/edit/yaml.go#L163) |
-| DelYAML | function_declaration |  | [178](../../magpie/internal/edit/yaml.go#L178) |
-| EditYAMLNode | function_declaration |  | [213](../../magpie/internal/edit/yaml.go#L213) |
-| EditYAMLStrings | function_declaration |  | [232](../../magpie/internal/edit/yaml.go#L232) |
-| mapStrings | function_declaration |  | [251](../../magpie/internal/edit/yaml.go#L251) |
-| JSONToYAML | function_declaration |  | [266](../../magpie/internal/edit/yaml.go#L266) |
-| doc | var_spec | JSONToYAML | [271](../../magpie/internal/edit/yaml.go#L271) |
-| loadYAML | function_declaration |  | [289](../../magpie/internal/edit/yaml.go#L289) |
-| doc | var_spec | loadYAML | [294](../../magpie/internal/edit/yaml.go#L294) |
-| loadYAMLForEdit | function_declaration |  | [313](../../magpie/internal/edit/yaml.go#L313) |
-| parseYAMLDocument | function_declaration |  | [326](../../magpie/internal/edit/yaml.go#L326) |
-| parseYAMLDocuments | function_declaration |  | [334](../../magpie/internal/edit/yaml.go#L334) |
-| doc | var_spec | parseYAMLDocuments | [336](../../magpie/internal/edit/yaml.go#L336) |
-| extra | var_spec | parseYAMLDocuments | [343](../../magpie/internal/edit/yaml.go#L343) |
-| null | var_spec | parseYAMLDocuments | [359](../../magpie/internal/edit/yaml.go#L359) |
-| decoded | var_spec | parseYAMLDocuments | [368](../../magpie/internal/edit/yaml.go#L368) |
-| writeYAML | function_declaration |  | [379](../../magpie/internal/edit/yaml.go#L379) |
-| buf | var_spec | writeYAML | [380](../../magpie/internal/edit/yaml.go#L380) |
-| lookupYAML | function_declaration |  | [398](../../magpie/internal/edit/yaml.go#L398) |
-| next | var_spec | lookupYAML | [403](../../magpie/internal/edit/yaml.go#L403) |
-| setYAML | function_declaration |  | [421](../../magpie/internal/edit/yaml.go#L421) |
-| cur | var_spec | setYAML | [424](../../magpie/internal/edit/yaml.go#L424) |
-| blockStyle | function_declaration |  | [457](../../magpie/internal/edit/yaml.go#L457) |
-| BlockList | function_declaration |  | [476](../../magpie/internal/edit/yaml.go#L476) |
-| doc | var_spec | BlockList | [479](../../magpie/internal/edit/yaml.go#L479) |
-| buf | var_spec | BlockList | [505](../../magpie/internal/edit/yaml.go#L505) |
-| unflow | function_declaration |  | [518](../../magpie/internal/edit/yaml.go#L518) |
+| GetYAML | function_declaration |  | [21](../../magpie/internal/edit/yaml.go#L21) |
+| GetYAMLMap | function_declaration |  | [34](../../magpie/internal/edit/yaml.go#L34) |
+| GetYAMLList | function_declaration |  | [53](../../magpie/internal/edit/yaml.go#L53) |
+| out | var_spec | GetYAMLList | [62](../../magpie/internal/edit/yaml.go#L62) |
+| GetYAMLText | function_declaration |  | [74](../../magpie/internal/edit/yaml.go#L74) |
+| YAMLText | type_spec |  | [92](../../magpie/internal/edit/yaml.go#L92) |
+| EditYAMLTextStrings | function_declaration |  | [97](../../magpie/internal/edit/yaml.go#L97) |
+| SetYAML | function_declaration |  | [120](../../magpie/internal/edit/yaml.go#L120) |
+| v | var_spec | SetYAML | [129](../../magpie/internal/edit/yaml.go#L129) |
+| yamlOfJSON | function_declaration |  | [155](../../magpie/internal/edit/yaml.go#L155) |
+| doc | var_spec | yamlOfJSON | [159](../../magpie/internal/edit/yaml.go#L159) |
+| block | var_spec | yamlOfJSON | [166](../../magpie/internal/edit/yaml.go#L166) |
+| DelYAML | function_declaration |  | [181](../../magpie/internal/edit/yaml.go#L181) |
+| EditYAMLNode | function_declaration |  | [216](../../magpie/internal/edit/yaml.go#L216) |
+| EditYAMLStrings | function_declaration |  | [235](../../magpie/internal/edit/yaml.go#L235) |
+| mapStrings | function_declaration |  | [254](../../magpie/internal/edit/yaml.go#L254) |
+| JSONToYAML | function_declaration |  | [269](../../magpie/internal/edit/yaml.go#L269) |
+| doc | var_spec | JSONToYAML | [274](../../magpie/internal/edit/yaml.go#L274) |
+| loadYAML | function_declaration |  | [292](../../magpie/internal/edit/yaml.go#L292) |
+| parseYAMLRoot | function_declaration |  | [308](../../magpie/internal/edit/yaml.go#L308) |
+| doc | var_spec | parseYAMLRoot | [313](../../magpie/internal/edit/yaml.go#L313) |
+| loadYAMLForEdit | function_declaration |  | [332](../../magpie/internal/edit/yaml.go#L332) |
+| parseYAMLDocument | function_declaration |  | [345](../../magpie/internal/edit/yaml.go#L345) |
+| parseYAMLDocuments | function_declaration |  | [353](../../magpie/internal/edit/yaml.go#L353) |
+| doc | var_spec | parseYAMLDocuments | [355](../../magpie/internal/edit/yaml.go#L355) |
+| extra | var_spec | parseYAMLDocuments | [362](../../magpie/internal/edit/yaml.go#L362) |
+| null | var_spec | parseYAMLDocuments | [378](../../magpie/internal/edit/yaml.go#L378) |
+| decoded | var_spec | parseYAMLDocuments | [387](../../magpie/internal/edit/yaml.go#L387) |
+| writeYAML | function_declaration |  | [398](../../magpie/internal/edit/yaml.go#L398) |
+| buf | var_spec | writeYAML | [399](../../magpie/internal/edit/yaml.go#L399) |
+| lookupYAML | function_declaration |  | [422](../../magpie/internal/edit/yaml.go#L422) |
+| next | var_spec | lookupYAML | [427](../../magpie/internal/edit/yaml.go#L427) |
+| setYAML | function_declaration |  | [445](../../magpie/internal/edit/yaml.go#L445) |
+| cur | var_spec | setYAML | [448](../../magpie/internal/edit/yaml.go#L448) |
+| blockStyle | function_declaration |  | [481](../../magpie/internal/edit/yaml.go#L481) |
+| blockSequence | function_declaration |  | [498](../../magpie/internal/edit/yaml.go#L498) |
+| BlockList | function_declaration |  | [527](../../magpie/internal/edit/yaml.go#L527) |
+| doc | var_spec | BlockList | [533](../../magpie/internal/edit/yaml.go#L533) |
+| buf | var_spec | BlockList | [559](../../magpie/internal/edit/yaml.go#L559) |
+| unflow | function_declaration |  | [572](../../magpie/internal/edit/yaml.go#L572) |

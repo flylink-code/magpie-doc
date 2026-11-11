@@ -4,24 +4,26 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/plugin_icon.go) · page 1/1
 
-Source SHA-256: d604cbcd1b7ce8155299fea8031467d826488afe06ee1d294a771a5428d2ec0e
+Source SHA-256: 217e138c4b00f51d1d45c61c4983e96d5dee2a6009adbc697ba01417b2c92fcb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | PluginIcon | function_declaration |  | [20](../../magpie/internal/provider/plugin_icon.go#L20) |
-| PluginOwnIcon | function_declaration |  | [30](../../magpie/internal/provider/plugin_icon.go#L30) |
-| plugIcons | var_spec |  | [35](../../magpie/internal/provider/plugin_icon.go#L35) |
-| from | field_declaration | plugIcons | [37](../../magpie/internal/provider/plugin_icon.go#L37) |
-| kept | field_declaration | plugIcons | [38](../../magpie/internal/provider/plugin_icon.go#L38) |
-| tried | field_declaration | plugIcons | [39](../../magpie/internal/provider/plugin_icon.go#L39) |
-| busy | field_declaration | plugIcons | [41](../../magpie/internal/provider/plugin_icon.go#L41) |
-| fetchPluginIcon | var_spec |  | [46](../../magpie/internal/provider/plugin_icon.go#L46) |
-| plugIconsPath | function_declaration |  | [48](../../magpie/internal/provider/plugin_icon.go#L48) |
-| loadPlugIcons | function_declaration |  | [50](../../magpie/internal/provider/plugin_icon.go#L50) |
-| keepPlugIcon | function_declaration |  | [61](../../magpie/internal/provider/plugin_icon.go#L61) |
-| pluginOwnIcon | function_declaration |  | [75](../../magpie/internal/provider/plugin_icon.go#L75) |
-| RepoIcons | function_declaration |  | [135](../../magpie/internal/provider/plugin_icon.go#L135) |
-| busy | var_spec | RepoIcons | [137](../../magpie/internal/provider/plugin_icon.go#L137) |
-| refill | function_declaration |  | [166](../../magpie/internal/provider/plugin_icon.go#L166) |
-| keptPluginIcons | function_declaration |  | [177](../../magpie/internal/provider/plugin_icon.go#L177) |
-| out | var_spec | keptPluginIcons | [181](../../magpie/internal/provider/plugin_icon.go#L181) |
+| MarketIcon | function_declaration |  | [33](../../magpie/internal/provider/plugin_icon.go#L33) |
+| MarketPicture | function_declaration |  | [43](../../magpie/internal/provider/plugin_icon.go#L43) |
+| PluginOwnIcon | function_declaration |  | [48](../../magpie/internal/provider/plugin_icon.go#L48) |
+| plugIcons | var_spec |  | [53](../../magpie/internal/provider/plugin_icon.go#L53) |
+| from | field_declaration | plugIcons | [55](../../magpie/internal/provider/plugin_icon.go#L55) |
+| kept | field_declaration | plugIcons | [56](../../magpie/internal/provider/plugin_icon.go#L56) |
+| tried | field_declaration | plugIcons | [57](../../magpie/internal/provider/plugin_icon.go#L57) |
+| busy | field_declaration | plugIcons | [59](../../magpie/internal/provider/plugin_icon.go#L59) |
+| fetchPluginIcon | var_spec |  | [64](../../magpie/internal/provider/plugin_icon.go#L64) |
+| plugIconsPath | function_declaration |  | [66](../../magpie/internal/provider/plugin_icon.go#L66) |
+| loadPlugIcons | function_declaration |  | [68](../../magpie/internal/provider/plugin_icon.go#L68) |
+| keepPlugIcon | function_declaration |  | [79](../../magpie/internal/provider/plugin_icon.go#L79) |
+| pluginOwnIcon | function_declaration |  | [93](../../magpie/internal/provider/plugin_icon.go#L93) |
+| RepoIcons | function_declaration |  | [153](../../magpie/internal/provider/plugin_icon.go#L153) |
+| busy | var_spec | RepoIcons | [155](../../magpie/internal/provider/plugin_icon.go#L155) |
+| refill | function_declaration |  | [184](../../magpie/internal/provider/plugin_icon.go#L184) |
+| keptPluginIcons | function_declaration |  | [195](../../magpie/internal/provider/plugin_icon.go#L195) |
+| out | var_spec | keptPluginIcons | [199](../../magpie/internal/provider/plugin_icon.go#L199) |

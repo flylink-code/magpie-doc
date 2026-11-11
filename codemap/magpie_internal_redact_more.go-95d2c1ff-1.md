@@ -4,52 +4,60 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/more.go) · page 1/1
 
-Source SHA-256: 45b48000ed772462e07290d19b942cc29764285ce5dfdfcace3fed6a7a9bde47
+Source SHA-256: dc1968c0daae5596a6555d29bb80f76cdfbee499d75a347683dac305ea2b0eeb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| catPersonal | const_spec |  | [28](../../magpie/internal/redact/more.go#L28) |
-| Category | type_spec |  | [33](../../magpie/internal/redact/more.go#L33) |
-| ID | field_declaration | Category | [34](../../magpie/internal/redact/more.go#L34) |
-| Kinds | field_declaration | Category | [35](../../magpie/internal/redact/more.go#L35) |
-| On | field_declaration | Category | [36](../../magpie/internal/redact/more.go#L36) |
-| Categories | var_spec |  | [41](../../magpie/internal/redact/more.go#L41) |
-| categoryOn | var_spec |  | [54](../../magpie/internal/redact/more.go#L54) |
-| sep | const_spec |  | [64](../../magpie/internal/redact/more.go#L64) |
-| months | const_spec |  | [66](../../magpie/internal/redact/more.go#L66) |
-| pathName | const_spec |  | [69](../../magpie/internal/redact/more.go#L69) |
-| hostRe | const_spec |  | [71](../../magpie/internal/redact/more.go#L71) |
-| unixUser | const_spec |  | [73](../../magpie/internal/redact/more.go#L73) |
-| lineUser | const_spec |  | [75](../../magpie/internal/redact/more.go#L75) |
-| bucketRe | const_spec |  | [78](../../magpie/internal/redact/more.go#L78) |
-| moreRules | var_spec |  | [81](../../magpie/internal/redact/more.go#L81) |
-| bucketHosts | var_spec |  | [164](../../magpie/internal/redact/more.go#L164) |
-| ssnOK | function_declaration |  | [167](../../magpie/internal/redact/more.go#L167) |
-| passportOK | function_declaration |  | [180](../../magpie/internal/redact/more.go#L180) |
-| ibanLen | var_spec |  | [191](../../magpie/internal/redact/more.go#L191) |
-| ibanOK | function_declaration |  | [204](../../magpie/internal/redact/more.go#L204) |
-| ibanAt | function_declaration |  | [227](../../magpie/internal/redact/more.go#L227) |
-| dateNums | var_spec |  | [240](../../magpie/internal/redact/more.go#L240) |
-| dateClock | var_spec |  | [243](../../magpie/internal/redact/more.go#L243) |
-| dateOK | function_declaration |  | [250](../../magpie/internal/redact/more.go#L250) |
-| macOK | function_declaration |  | [284](../../magpie/internal/redact/more.go#L284) |
-| serialOK | function_declaration |  | [293](../../magpie/internal/redact/more.go#L293) |
-| notNames | var_spec |  | [299](../../magpie/internal/redact/more.go#L299) |
-| homeAt | function_declaration |  | [308](../../magpie/internal/redact/more.go#L308) |
-| notUsers | var_spec |  | [320](../../magpie/internal/redact/more.go#L320) |
-| userOK | function_declaration |  | [328](../../magpie/internal/redact/more.go#L328) |
-| codeObjects | var_spec |  | [335](../../magpie/internal/redact/more.go#L335) |
-| inCode | function_declaration |  | [344](../../magpie/internal/redact/more.go#L344) |
-| lineUserOK | function_declaration |  | [353](../../magpie/internal/redact/more.go#L353) |
-| lineHostOK | function_declaration |  | [354](../../magpie/internal/redact/more.go#L354) |
-| chatWords | var_spec |  | [357](../../magpie/internal/redact/more.go#L357) |
-| publicHosts | var_spec |  | [365](../../magpie/internal/redact/more.go#L365) |
-| hostOK | function_declaration |  | [371](../../magpie/internal/redact/more.go#L371) |
-| notIPs | var_spec |  | [389](../../magpie/internal/redact/more.go#L389) |
-| out | var_spec | notIPs | [390](../../magpie/internal/redact/more.go#L390) |
-| resolvers | var_spec |  | [400](../../magpie/internal/redact/more.go#L400) |
-| publicIP | function_declaration |  | [407](../../magpie/internal/redact/more.go#L407) |
-| ipv4At | function_declaration |  | [427](../../magpie/internal/redact/more.go#L427) |
-| ipv6OK | function_declaration |  | [455](../../magpie/internal/redact/more.go#L455) |
-| notBuckets | var_spec |  | [464](../../magpie/internal/redact/more.go#L464) |
-| bucketOK | function_declaration |  | [473](../../magpie/internal/redact/more.go#L473) |
+| catPersonal | const_spec |  | [29](../../magpie/internal/redact/more.go#L29) |
+| Category | type_spec |  | [34](../../magpie/internal/redact/more.go#L34) |
+| ID | field_declaration | Category | [35](../../magpie/internal/redact/more.go#L35) |
+| Kinds | field_declaration | Category | [36](../../magpie/internal/redact/more.go#L36) |
+| On | field_declaration | Category | [37](../../magpie/internal/redact/more.go#L37) |
+| Categories | var_spec |  | [42](../../magpie/internal/redact/more.go#L42) |
+| categoryOn | var_spec |  | [55](../../magpie/internal/redact/more.go#L55) |
+| sep | const_spec |  | [65](../../magpie/internal/redact/more.go#L65) |
+| months | const_spec |  | [67](../../magpie/internal/redact/more.go#L67) |
+| pathName | const_spec |  | [70](../../magpie/internal/redact/more.go#L70) |
+| hostRe | const_spec |  | [72](../../magpie/internal/redact/more.go#L72) |
+| unixUser | const_spec |  | [74](../../magpie/internal/redact/more.go#L74) |
+| lineUser | const_spec |  | [76](../../magpie/internal/redact/more.go#L76) |
+| bucketRe | const_spec |  | [79](../../magpie/internal/redact/more.go#L79) |
+| moreRules | var_spec |  | [82](../../magpie/internal/redact/more.go#L82) |
+| bucketHosts | var_spec |  | [167](../../magpie/internal/redact/more.go#L167) |
+| ssnOK | function_declaration |  | [170](../../magpie/internal/redact/more.go#L170) |
+| passportOK | function_declaration |  | [183](../../magpie/internal/redact/more.go#L183) |
+| ibanLen | var_spec |  | [194](../../magpie/internal/redact/more.go#L194) |
+| ibanOK | function_declaration |  | [207](../../magpie/internal/redact/more.go#L207) |
+| ibanAt | function_declaration |  | [230](../../magpie/internal/redact/more.go#L230) |
+| dateNums | var_spec |  | [243](../../magpie/internal/redact/more.go#L243) |
+| dateClock | var_spec |  | [246](../../magpie/internal/redact/more.go#L246) |
+| dateOK | function_declaration |  | [253](../../magpie/internal/redact/more.go#L253) |
+| macOK | function_declaration |  | [287](../../magpie/internal/redact/more.go#L287) |
+| serialOK | function_declaration |  | [296](../../magpie/internal/redact/more.go#L296) |
+| notNames | var_spec |  | [302](../../magpie/internal/redact/more.go#L302) |
+| homeAt | function_declaration |  | [311](../../magpie/internal/redact/more.go#L311) |
+| notUsers | var_spec |  | [323](../../magpie/internal/redact/more.go#L323) |
+| userOK | function_declaration |  | [331](../../magpie/internal/redact/more.go#L331) |
+| codeObjects | var_spec |  | [338](../../magpie/internal/redact/more.go#L338) |
+| inCode | function_declaration |  | [347](../../magpie/internal/redact/more.go#L347) |
+| notPackagePin | function_declaration |  | [362](../../magpie/internal/redact/more.go#L362) |
+| versionHostRe | var_spec |  | [376](../../magpie/internal/redact/more.go#L376) |
+| versionHost | function_declaration |  | [380](../../magpie/internal/redact/more.go#L380) |
+| lineUserOK | function_declaration |  | [388](../../magpie/internal/redact/more.go#L388) |
+| identParts | var_spec |  | [396](../../magpie/internal/redact/more.go#L396) |
+| notLineIdent | function_declaration |  | [412](../../magpie/internal/redact/more.go#L412) |
+| nameAlone | function_declaration |  | [445](../../magpie/internal/redact/more.go#L445) |
+| paramRest | var_spec |  | [491](../../magpie/internal/redact/more.go#L491) |
+| declWords | var_spec |  | [494](../../magpie/internal/redact/more.go#L494) |
+| lineHostOK | function_declaration |  | [496](../../magpie/internal/redact/more.go#L496) |
+| chatWords | var_spec |  | [499](../../magpie/internal/redact/more.go#L499) |
+| publicHosts | var_spec |  | [507](../../magpie/internal/redact/more.go#L507) |
+| hostOK | function_declaration |  | [513](../../magpie/internal/redact/more.go#L513) |
+| notIPs | var_spec |  | [531](../../magpie/internal/redact/more.go#L531) |
+| out | var_spec | notIPs | [532](../../magpie/internal/redact/more.go#L532) |
+| resolvers | var_spec |  | [542](../../magpie/internal/redact/more.go#L542) |
+| publicIP | function_declaration |  | [549](../../magpie/internal/redact/more.go#L549) |
+| ipv4At | function_declaration |  | [569](../../magpie/internal/redact/more.go#L569) |
+| ipv6OK | function_declaration |  | [597](../../magpie/internal/redact/more.go#L597) |
+| notBuckets | var_spec |  | [606](../../magpie/internal/redact/more.go#L606) |
+| bucketOK | function_declaration |  | [615](../../magpie/internal/redact/more.go#L615) |

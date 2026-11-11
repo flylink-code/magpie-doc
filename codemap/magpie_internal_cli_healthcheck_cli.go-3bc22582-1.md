@@ -4,9 +4,11 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/healthcheck_cli.go) · page 1/1
 
-Source SHA-256: 81b6ad428c7fe15eb83ebee059a648110adeecea7c8d4c592491e4d5646e6509
+Source SHA-256: c435763310940fe779cbc0a4e61b69066e09bd90f1dad23166df55c61c0bd1a8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| healthcheck | function_declaration |  | [20](../../magpie/internal/cli/healthcheck_cli.go#L20) |
-| makeDirs | function_declaration |  | [39](../../magpie/internal/cli/healthcheck_cli.go#L39) |
+| healthcheck | function_declaration |  | [24](../../magpie/internal/cli/healthcheck_cli.go#L24) |
+| clientBase | function_declaration |  | [45](../../magpie/internal/cli/healthcheck_cli.go#L45) |
+| addrFlag | function_declaration |  | [62](../../magpie/internal/cli/healthcheck_cli.go#L62) |
+| makeDirs | function_declaration |  | [97](../../magpie/internal/cli/healthcheck_cli.go#L97) |

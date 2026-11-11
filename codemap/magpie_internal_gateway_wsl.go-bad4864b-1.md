@@ -4,25 +4,26 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/wsl.go) · page 1/1
 
-Source SHA-256: 3246b77a72012612de45b9c6366ff4236ac9dbbbe48a30bbadbbf942d96c002c
+Source SHA-256: 534657846b24ef991764157a05d93129aca36168dc43adfc7879216782ed48fe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WSLNets | var_spec |  | [43](../../magpie/internal/gateway/wsl.go#L43) |
-| wslNets | function_declaration |  | [45](../../magpie/internal/gateway/wsl.go#L45) |
-| out | var_spec | wslNets | [53](../../magpie/internal/gateway/wsl.go#L53) |
-| OnWSLNet | function_declaration |  | [70](../../magpie/internal/gateway/wsl.go#L70) |
-| wslKeyPrefix | const_spec |  | [91](../../magpie/internal/gateway/wsl.go#L91) |
-| wslKey | var_spec |  | [93](../../magpie/internal/gateway/wsl.go#L93) |
-| v | field_declaration | wslKey | [95](../../magpie/internal/gateway/wsl.go#L95) |
-| wslKeyPath | function_declaration |  | [98](../../magpie/internal/gateway/wsl.go#L98) |
-| WSLKey | function_declaration |  | [104](../../magpie/internal/gateway/wsl.go#L104) |
-| WSLKeyMade | function_declaration |  | [143](../../magpie/internal/gateway/wsl.go#L143) |
-| wslKeyHeld | function_declaration |  | [147](../../magpie/internal/gateway/wsl.go#L147) |
-| wslToken | function_declaration |  | [164](../../magpie/internal/gateway/wsl.go#L164) |
-| fromWSL | function_declaration |  | [184](../../magpie/internal/gateway/wsl.go#L184) |
-| asFromLoopback | function_declaration |  | [205](../../magpie/internal/gateway/wsl.go#L205) |
-| wslWatch | var_spec |  | [232](../../magpie/internal/gateway/wsl.go#L232) |
-| serveWSL | method_declaration |  | [236](../../magpie/internal/gateway/wsl.go#L236) |
-| wslServeEverywhere | var_spec |  | [286](../../magpie/internal/gateway/wsl.go#L286) |
-| onLoopback | method_declaration |  | [290](../../magpie/internal/gateway/wsl.go#L290) |
+| WSLNets | var_spec |  | [42](../../magpie/internal/gateway/wsl.go#L42) |
+| wslNets | function_declaration |  | [44](../../magpie/internal/gateway/wsl.go#L44) |
+| OnWSLNet | function_declaration |  | [48](../../magpie/internal/gateway/wsl.go#L48) |
+| wslKeyPrefix | const_spec |  | [69](../../magpie/internal/gateway/wsl.go#L69) |
+| wslKey | var_spec |  | [71](../../magpie/internal/gateway/wsl.go#L71) |
+| v | field_declaration | wslKey | [73](../../magpie/internal/gateway/wsl.go#L73) |
+| wslKeyPath | function_declaration |  | [76](../../magpie/internal/gateway/wsl.go#L76) |
+| WSLKey | function_declaration |  | [82](../../magpie/internal/gateway/wsl.go#L82) |
+| WSLKeyMade | function_declaration |  | [121](../../magpie/internal/gateway/wsl.go#L121) |
+| wslKeyHeld | function_declaration |  | [125](../../magpie/internal/gateway/wsl.go#L125) |
+| wslToken | function_declaration |  | [142](../../magpie/internal/gateway/wsl.go#L142) |
+| fromWSL | function_declaration |  | [162](../../magpie/internal/gateway/wsl.go#L162) |
+| wslPathKeyCtx | type_spec |  | [188](../../magpie/internal/gateway/wsl.go#L188) |
+| takeWSLPathKey | function_declaration |  | [199](../../magpie/internal/gateway/wsl.go#L199) |
+| asFromLoopback | function_declaration |  | [220](../../magpie/internal/gateway/wsl.go#L220) |
+| wslWatch | var_spec |  | [247](../../magpie/internal/gateway/wsl.go#L247) |
+| serveWSL | method_declaration |  | [251](../../magpie/internal/gateway/wsl.go#L251) |
+| wslServeEverywhere | var_spec |  | [301](../../magpie/internal/gateway/wsl.go#L301) |
+| onLoopback | method_declaration |  | [305](../../magpie/internal/gateway/wsl.go#L305) |

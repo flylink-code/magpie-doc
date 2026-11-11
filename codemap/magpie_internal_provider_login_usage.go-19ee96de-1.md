@@ -4,43 +4,59 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/login_usage.go) · page 1/1
 
-Source SHA-256: efdd8165a1d6570647d8cbe6f4965a396298bb9ae169b759f268941f3b775dae
+Source SHA-256: 92579b792f5fbb7e5b57e6656819dc6faea30cee656be14900418e83ec88c3c0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| loginUsageCache | var_spec |  | [17](../../magpie/internal/provider/login_usage.go#L17) |
-| m | field_declaration | loginUsageCache | [19](../../magpie/internal/provider/login_usage.go#L19) |
-| pending | field_declaration | loginUsageCache | [20](../../magpie/internal/provider/login_usage.go#L20) |
-| loginUsageEntry | type_spec |  | [23](../../magpie/internal/provider/login_usage.go#L23) |
-| at | field_declaration | loginUsageEntry | [24](../../magpie/internal/provider/login_usage.go#L24) |
-| q | field_declaration | loginUsageEntry | [25](../../magpie/internal/provider/login_usage.go#L25) |
-| read | field_declaration | loginUsageEntry | [28](../../magpie/internal/provider/login_usage.go#L28) |
-| loginRead | type_spec |  | [33](../../magpie/internal/provider/login_usage.go#L33) |
-| done | field_declaration | loginRead | [34](../../magpie/internal/provider/login_usage.go#L34) |
-| e | field_declaration | loginRead | [35](../../magpie/internal/provider/login_usage.go#L35) |
-| loginUsageFor | var_spec |  | [42](../../magpie/internal/provider/login_usage.go#L42) |
-| f | field_declaration | loginUsageFor | [44](../../magpie/internal/provider/login_usage.go#L44) |
-| LoginUsageVia | function_declaration |  | [50](../../magpie/internal/provider/login_usage.go#L50) |
-| loginUsageStandIn | function_declaration |  | [57](../../magpie/internal/provider/login_usage.go#L57) |
-| LoginUsage | function_declaration |  | [70](../../magpie/internal/provider/login_usage.go#L70) |
-| loginUsageAt | function_declaration |  | [78](../../magpie/internal/provider/login_usage.go#L78) |
-| mu | var_spec | loginUsageAt | [92](../../magpie/internal/provider/login_usage.go#L92) |
-| wg | var_spec | loginUsageAt | [93](../../magpie/internal/provider/login_usage.go#L93) |
-| noteHistory | var_spec |  | [139](../../magpie/internal/provider/login_usage.go#L139) |
-| noteHistoryWrite | var_spec |  | [144](../../magpie/internal/provider/login_usage.go#L144) |
-| loginReading | function_declaration |  | [151](../../magpie/internal/provider/login_usage.go#L151) |
-| cachedLoginReading | function_declaration |  | [163](../../magpie/internal/provider/login_usage.go#L163) |
-| usageLogins | function_declaration |  | [248](../../magpie/internal/provider/login_usage.go#L248) |
-| builtinLogins | function_declaration |  | [260](../../magpie/internal/provider/login_usage.go#L260) |
-| loginProvider | function_declaration |  | [279](../../magpie/internal/provider/login_usage.go#L279) |
-| loginQuota | function_declaration |  | [286](../../magpie/internal/provider/login_usage.go#L286) |
-| tok | var_spec | loginQuota | [338](../../magpie/internal/provider/login_usage.go#L338) |
-| err | var_spec | loginQuota | [339](../../magpie/internal/provider/login_usage.go#L339) |
-| renew | var_spec | loginQuota | [340](../../magpie/internal/provider/login_usage.go#L340) |
-| plan | var_spec | loginQuota | [361](../../magpie/internal/provider/login_usage.go#L361) |
-| CodexUsedUp | function_declaration |  | [379](../../magpie/internal/provider/login_usage.go#L379) |
-| CodexUsedUpKnown | function_declaration |  | [397](../../magpie/internal/provider/login_usage.go#L397) |
-| codexReadingHeld | function_declaration |  | [404](../../magpie/internal/provider/login_usage.go#L404) |
-| knownLoginUsage | function_declaration |  | [416](../../magpie/internal/provider/login_usage.go#L416) |
-| loginReadingKnown | function_declaration |  | [433](../../magpie/internal/provider/login_usage.go#L433) |
-| codexLoginAuth | function_declaration |  | [444](../../magpie/internal/provider/login_usage.go#L444) |
+| loginUsageCache | var_spec |  | [18](../../magpie/internal/provider/login_usage.go#L18) |
+| m | field_declaration | loginUsageCache | [20](../../magpie/internal/provider/login_usage.go#L20) |
+| pending | field_declaration | loginUsageCache | [21](../../magpie/internal/provider/login_usage.go#L21) |
+| loginUsageEntry | type_spec |  | [24](../../magpie/internal/provider/login_usage.go#L24) |
+| at | field_declaration | loginUsageEntry | [25](../../magpie/internal/provider/login_usage.go#L25) |
+| q | field_declaration | loginUsageEntry | [26](../../magpie/internal/provider/login_usage.go#L26) |
+| read | field_declaration | loginUsageEntry | [29](../../magpie/internal/provider/login_usage.go#L29) |
+| readAt | field_declaration | loginUsageEntry | [32](../../magpie/internal/provider/login_usage.go#L32) |
+| readState | type_spec |  | [38](../../magpie/internal/provider/login_usage.go#L38) |
+| at | field_declaration | readState | [39](../../magpie/internal/provider/login_usage.go#L39) |
+| failed | field_declaration | readState | [40](../../magpie/internal/provider/login_usage.go#L40) |
+| state | method_declaration |  | [45](../../magpie/internal/provider/login_usage.go#L45) |
+| loginRead | type_spec |  | [61](../../magpie/internal/provider/login_usage.go#L61) |
+| done | field_declaration | loginRead | [62](../../magpie/internal/provider/login_usage.go#L62) |
+| e | field_declaration | loginRead | [63](../../magpie/internal/provider/login_usage.go#L63) |
+| loginUsageFor | var_spec |  | [70](../../magpie/internal/provider/login_usage.go#L70) |
+| f | field_declaration | loginUsageFor | [72](../../magpie/internal/provider/login_usage.go#L72) |
+| LoginUsageVia | function_declaration |  | [78](../../magpie/internal/provider/login_usage.go#L78) |
+| loginUsageStandIn | function_declaration |  | [85](../../magpie/internal/provider/login_usage.go#L85) |
+| LoginUsage | function_declaration |  | [98](../../magpie/internal/provider/login_usage.go#L98) |
+| errLeftAlone | var_spec |  | [106](../../magpie/internal/provider/login_usage.go#L106) |
+| LoginUsageShown | function_declaration |  | [115](../../magpie/internal/provider/login_usage.go#L115) |
+| keptLoginUsage | function_declaration |  | [125](../../magpie/internal/provider/login_usage.go#L125) |
+| loginUsageAt | function_declaration |  | [138](../../magpie/internal/provider/login_usage.go#L138) |
+| someLoginUsage | function_declaration |  | [147](../../magpie/internal/provider/login_usage.go#L147) |
+| loginUsageOf | function_declaration |  | [163](../../magpie/internal/provider/login_usage.go#L163) |
+| mu | var_spec | loginUsageOf | [190](../../magpie/internal/provider/login_usage.go#L190) |
+| wg | var_spec | loginUsageOf | [191](../../magpie/internal/provider/login_usage.go#L191) |
+| noteHistory | var_spec |  | [241](../../magpie/internal/provider/login_usage.go#L241) |
+| noteHistoryWrite | var_spec |  | [246](../../magpie/internal/provider/login_usage.go#L246) |
+| loginReading | function_declaration |  | [253](../../magpie/internal/provider/login_usage.go#L253) |
+| cachedLoginReading | function_declaration |  | [265](../../magpie/internal/provider/login_usage.go#L265) |
+| usageLogins | function_declaration |  | [353](../../magpie/internal/provider/login_usage.go#L353) |
+| builtinLogins | function_declaration |  | [365](../../magpie/internal/provider/login_usage.go#L365) |
+| loginProvider | function_declaration |  | [384](../../magpie/internal/provider/login_usage.go#L384) |
+| loginQuota | function_declaration |  | [391](../../magpie/internal/provider/login_usage.go#L391) |
+| tok | var_spec | loginQuota | [455](../../magpie/internal/provider/login_usage.go#L455) |
+| err | var_spec | loginQuota | [456](../../magpie/internal/provider/login_usage.go#L456) |
+| renew | var_spec | loginQuota | [457](../../magpie/internal/provider/login_usage.go#L457) |
+| plan | var_spec | loginQuota | [482](../../magpie/internal/provider/login_usage.go#L482) |
+| codexSignInRead | function_declaration |  | [510](../../magpie/internal/provider/login_usage.go#L510) |
+| refused | var_spec | codexSignInRead | [515](../../magpie/internal/provider/login_usage.go#L515) |
+| CodexUsedUp | function_declaration |  | [532](../../magpie/internal/provider/login_usage.go#L532) |
+| active | var_spec | CodexUsedUp | [539](../../magpie/internal/provider/login_usage.go#L539) |
+| CodexHoldMatters | var_spec |  | [552](../../magpie/internal/provider/login_usage.go#L552) |
+| codexHoldReading | function_declaration |  | [563](../../magpie/internal/provider/login_usage.go#L563) |
+| CodexUsedUpKnown | function_declaration |  | [587](../../magpie/internal/provider/login_usage.go#L587) |
+| codexReadingHeld | function_declaration |  | [594](../../magpie/internal/provider/login_usage.go#L594) |
+| codexHeldKnown | function_declaration |  | [606](../../magpie/internal/provider/login_usage.go#L606) |
+| knownLoginUsage | function_declaration |  | [614](../../magpie/internal/provider/login_usage.go#L614) |
+| loginReadingKnown | function_declaration |  | [631](../../magpie/internal/provider/login_usage.go#L631) |
+| codexLoginAuth | function_declaration |  | [642](../../magpie/internal/provider/login_usage.go#L642) |

@@ -4,77 +4,103 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/unrouted.go) · page 1/1
 
-Source SHA-256: 3aca2eaaae54bec706fd1b462c98d87277d4d5166d60dcd865628d254695ad34
+Source SHA-256: 0695efee1d5047dbc0ab8f2538306b2ed2ea8c96a834400d6be912faaff6dcdb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| unroutedShow | var_spec |  | [60](../../magpie/internal/gateway/unrouted.go#L60) |
-| unroutedWatched | function_declaration |  | [66](../../magpie/internal/gateway/unrouted.go#L66) |
-| unroutedProto | function_declaration |  | [76](../../magpie/internal/gateway/unrouted.go#L76) |
-| errUnrouted | var_spec |  | [89](../../magpie/internal/gateway/unrouted.go#L89) |
-| heldWriter | type_spec |  | [96](../../magpie/internal/gateway/unrouted.go#L96) |
-| w | field_declaration | heldWriter | [97](../../magpie/internal/gateway/unrouted.go#L97) |
-| mu | field_declaration | heldWriter | [98](../../magpie/internal/gateway/unrouted.go#L98) |
-| hdr | field_declaration | heldWriter | [99](../../magpie/internal/gateway/unrouted.go#L99) |
-| wrote | field_declaration | heldWriter | [100](../../magpie/internal/gateway/unrouted.go#L100) |
-| gaveUp | field_declaration | heldWriter | [101](../../magpie/internal/gateway/unrouted.go#L101) |
-| newHeldWriter | function_declaration |  | [104](../../magpie/internal/gateway/unrouted.go#L104) |
-| Header | method_declaration |  | [108](../../magpie/internal/gateway/unrouted.go#L108) |
-| begin | method_declaration |  | [119](../../magpie/internal/gateway/unrouted.go#L119) |
-| WriteHeader | method_declaration |  | [133](../../magpie/internal/gateway/unrouted.go#L133) |
-| Write | method_declaration |  | [141](../../magpie/internal/gateway/unrouted.go#L141) |
-| Flush | method_declaration |  | [150](../../magpie/internal/gateway/unrouted.go#L150) |
-| FlushError | method_declaration |  | [154](../../magpie/internal/gateway/unrouted.go#L154) |
-| Unwrap | method_declaration |  | [164](../../magpie/internal/gateway/unrouted.go#L164) |
-| answer | method_declaration |  | [169](../../magpie/internal/gateway/unrouted.go#L169) |
-| unroutedHold | type_spec |  | [192](../../magpie/internal/gateway/unrouted.go#L192) |
-| s | field_declaration | unroutedHold | [193](../../magpie/internal/gateway/unrouted.go#L193) |
-| r | field_declaration | unroutedHold | [194](../../magpie/internal/gateway/unrouted.go#L194) |
-| f | field_declaration | unroutedHold | [195](../../magpie/internal/gateway/unrouted.go#L195) |
-| w | field_declaration | unroutedHold | [196](../../magpie/internal/gateway/unrouted.go#L196) |
-| cancel | field_declaration | unroutedHold | [197](../../magpie/internal/gateway/unrouted.go#L197) |
-| asked | field_declaration | unroutedHold | [198](../../magpie/internal/gateway/unrouted.go#L198) |
-| shown | field_declaration | unroutedHold | [199](../../magpie/internal/gateway/unrouted.go#L199) |
-| ended | field_declaration | unroutedHold | [200](../../magpie/internal/gateway/unrouted.go#L200) |
-| over | field_declaration | unroutedHold | [201](../../magpie/internal/gateway/unrouted.go#L201) |
-| masking | field_declaration | unroutedHold | [204](../../magpie/internal/gateway/unrouted.go#L204) |
-| wmu | field_declaration | unroutedHold | [209](../../magpie/internal/gateway/unrouted.go#L209) |
-| waits | field_declaration | unroutedHold | [210](../../magpie/internal/gateway/unrouted.go#L210) |
-| since | field_declaration | unroutedHold | [211](../../magpie/internal/gateway/unrouted.go#L211) |
-| excused | field_declaration | unroutedHold | [212](../../magpie/internal/gateway/unrouted.go#L212) |
-| due | field_declaration | unroutedHold | [213](../../magpie/internal/gateway/unrouted.go#L213) |
-| unknown | field_declaration | unroutedHold | [214](../../magpie/internal/gateway/unrouted.go#L214) |
-| mwaits | field_declaration | unroutedHold | [219](../../magpie/internal/gateway/unrouted.go#L219) |
-| msince | field_declaration | unroutedHold | [220](../../magpie/internal/gateway/unrouted.go#L220) |
-| mexcused | field_declaration | unroutedHold | [221](../../magpie/internal/gateway/unrouted.go#L221) |
-| mdue | field_declaration | unroutedHold | [222](../../magpie/internal/gateway/unrouted.go#L222) |
-| most | field_declaration | unroutedHold | [223](../../magpie/internal/gateway/unrouted.go#L223) |
-| unroutedKey | type_spec |  | [226](../../magpie/internal/gateway/unrouted.go#L226) |
-| noteAsked | function_declaration |  | [230](../../magpie/internal/gateway/unrouted.go#L230) |
-| noteMasking | function_declaration |  | [239](../../magpie/internal/gateway/unrouted.go#L239) |
-| once | var_spec | noteMasking | [252](../../magpie/internal/gateway/unrouted.go#L252) |
-| masked | method_declaration |  | [264](../../magpie/internal/gateway/unrouted.go#L264) |
-| unmaskedLocked | method_declaration |  | [280](../../magpie/internal/gateway/unrouted.go#L280) |
-| checkMost | method_declaration |  | [291](../../magpie/internal/gateway/unrouted.go#L291) |
-| noteWait | function_declaration |  | [310](../../magpie/internal/gateway/unrouted.go#L310) |
-| wait | method_declaration |  | [319](../../magpie/internal/gateway/unrouted.go#L319) |
-| once | var_spec | wait | [326](../../magpie/internal/gateway/unrouted.go#L326) |
-| waited | method_declaration |  | [332](../../magpie/internal/gateway/unrouted.go#L332) |
-| unknownLocked | method_declaration |  | [348](../../magpie/internal/gateway/unrouted.go#L348) |
-| excusedFor | method_declaration |  | [357](../../magpie/internal/gateway/unrouted.go#L357) |
-| checkUnknown | method_declaration |  | [370](../../magpie/internal/gateway/unrouted.go#L370) |
-| waitedBody | type_spec |  | [388](../../magpie/internal/gateway/unrouted.go#L388) |
-| u | field_declaration | waitedBody | [390](../../magpie/internal/gateway/unrouted.go#L390) |
-| Read | method_declaration |  | [393](../../magpie/internal/gateway/unrouted.go#L393) |
-| watchUnrouted | method_declaration |  | [401](../../magpie/internal/gateway/unrouted.go#L401) |
-| show | method_declaration |  | [445](../../magpie/internal/gateway/unrouted.go#L445) |
-| showLocked | method_declaration |  | [456](../../magpie/internal/gateway/unrouted.go#L456) |
-| routed | method_declaration |  | [470](../../magpie/internal/gateway/unrouted.go#L470) |
-| giveUp | method_declaration |  | [482](../../magpie/internal/gateway/unrouted.go#L482) |
-| unroutedMsg | function_declaration |  | [520](../../magpie/internal/gateway/unrouted.go#L520) |
-| modelOn | var_spec |  | [536](../../magpie/internal/gateway/unrouted.go#L536) |
-| cmpOr | function_declaration |  | [538](../../magpie/internal/gateway/unrouted.go#L538) |
-| unroutedDumped | var_spec |  | [548](../../magpie/internal/gateway/unrouted.go#L548) |
-| unroutedStacks | function_declaration |  | [552](../../magpie/internal/gateway/unrouted.go#L552) |
-| b | var_spec | unroutedStacks | [558](../../magpie/internal/gateway/unrouted.go#L558) |
-| most | const_spec | unroutedStacks | [560](../../magpie/internal/gateway/unrouted.go#L560) |
+| unroutedShow | var_spec |  | [61](../../magpie/internal/gateway/unrouted.go#L61) |
+| unroutedUploadRate | const_spec |  | [71](../../magpie/internal/gateway/unrouted.go#L71) |
+| unroutedUploadGrace | var_spec |  | [73](../../magpie/internal/gateway/unrouted.go#L73) |
+| unroutedWatched | function_declaration |  | [79](../../magpie/internal/gateway/unrouted.go#L79) |
+| unroutedProto | function_declaration |  | [89](../../magpie/internal/gateway/unrouted.go#L89) |
+| heldAnswered | var_spec |  | [104](../../magpie/internal/gateway/unrouted.go#L104) |
+| errUnrouted | var_spec |  | [107](../../magpie/internal/gateway/unrouted.go#L107) |
+| heldWriter | type_spec |  | [114](../../magpie/internal/gateway/unrouted.go#L114) |
+| w | field_declaration | heldWriter | [115](../../magpie/internal/gateway/unrouted.go#L115) |
+| mu | field_declaration | heldWriter | [116](../../magpie/internal/gateway/unrouted.go#L116) |
+| hdr | field_declaration | heldWriter | [117](../../magpie/internal/gateway/unrouted.go#L117) |
+| wrote | field_declaration | heldWriter | [118](../../magpie/internal/gateway/unrouted.go#L118) |
+| gaveUp | field_declaration | heldWriter | [119](../../magpie/internal/gateway/unrouted.go#L119) |
+| newHeldWriter | function_declaration |  | [122](../../magpie/internal/gateway/unrouted.go#L122) |
+| Header | method_declaration |  | [126](../../magpie/internal/gateway/unrouted.go#L126) |
+| begin | method_declaration |  | [137](../../magpie/internal/gateway/unrouted.go#L137) |
+| WriteHeader | method_declaration |  | [151](../../magpie/internal/gateway/unrouted.go#L151) |
+| Write | method_declaration |  | [159](../../magpie/internal/gateway/unrouted.go#L159) |
+| Flush | method_declaration |  | [168](../../magpie/internal/gateway/unrouted.go#L168) |
+| FlushError | method_declaration |  | [172](../../magpie/internal/gateway/unrouted.go#L172) |
+| Unwrap | method_declaration |  | [182](../../magpie/internal/gateway/unrouted.go#L182) |
+| claim | method_declaration |  | [188](../../magpie/internal/gateway/unrouted.go#L188) |
+| send | method_declaration |  | [201](../../magpie/internal/gateway/unrouted.go#L201) |
+| unroutedHold | type_spec |  | [219](../../magpie/internal/gateway/unrouted.go#L219) |
+| s | field_declaration | unroutedHold | [220](../../magpie/internal/gateway/unrouted.go#L220) |
+| r | field_declaration | unroutedHold | [221](../../magpie/internal/gateway/unrouted.go#L221) |
+| f | field_declaration | unroutedHold | [222](../../magpie/internal/gateway/unrouted.go#L222) |
+| agent | field_declaration | unroutedHold | [226](../../magpie/internal/gateway/unrouted.go#L226) |
+| w | field_declaration | unroutedHold | [227](../../magpie/internal/gateway/unrouted.go#L227) |
+| cancel | field_declaration | unroutedHold | [228](../../magpie/internal/gateway/unrouted.go#L228) |
+| asked | field_declaration | unroutedHold | [229](../../magpie/internal/gateway/unrouted.go#L229) |
+| shown | field_declaration | unroutedHold | [230](../../magpie/internal/gateway/unrouted.go#L230) |
+| ended | field_declaration | unroutedHold | [231](../../magpie/internal/gateway/unrouted.go#L231) |
+| over | field_declaration | unroutedHold | [232](../../magpie/internal/gateway/unrouted.go#L232) |
+| saved | field_declaration | unroutedHold | [235](../../magpie/internal/gateway/unrouted.go#L235) |
+| masking | field_declaration | unroutedHold | [238](../../magpie/internal/gateway/unrouted.go#L238) |
+| bodyRead | field_declaration | unroutedHold | [243](../../magpie/internal/gateway/unrouted.go#L243) |
+| bodyLast | field_declaration | unroutedHold | [244](../../magpie/internal/gateway/unrouted.go#L244) |
+| bodyEnded | field_declaration | unroutedHold | [245](../../magpie/internal/gateway/unrouted.go#L245) |
+| bodyStopped | field_declaration | unroutedHold | [246](../../magpie/internal/gateway/unrouted.go#L246) |
+| wmu | field_declaration | unroutedHold | [251](../../magpie/internal/gateway/unrouted.go#L251) |
+| waits | field_declaration | unroutedHold | [252](../../magpie/internal/gateway/unrouted.go#L252) |
+| since | field_declaration | unroutedHold | [253](../../magpie/internal/gateway/unrouted.go#L253) |
+| excused | field_declaration | unroutedHold | [254](../../magpie/internal/gateway/unrouted.go#L254) |
+| due | field_declaration | unroutedHold | [255](../../magpie/internal/gateway/unrouted.go#L255) |
+| unknown | field_declaration | unroutedHold | [256](../../magpie/internal/gateway/unrouted.go#L256) |
+| kinds | field_declaration | unroutedHold | [259](../../magpie/internal/gateway/unrouted.go#L259) |
+| mwaits | field_declaration | unroutedHold | [264](../../magpie/internal/gateway/unrouted.go#L264) |
+| msince | field_declaration | unroutedHold | [265](../../magpie/internal/gateway/unrouted.go#L265) |
+| mexcused | field_declaration | unroutedHold | [266](../../magpie/internal/gateway/unrouted.go#L266) |
+| mdue | field_declaration | unroutedHold | [267](../../magpie/internal/gateway/unrouted.go#L267) |
+| most | field_declaration | unroutedHold | [268](../../magpie/internal/gateway/unrouted.go#L268) |
+| unroutedKey | type_spec |  | [271](../../magpie/internal/gateway/unrouted.go#L271) |
+| unroutedOf | function_declaration |  | [277](../../magpie/internal/gateway/unrouted.go#L277) |
+| noteAsked | function_declaration |  | [286](../../magpie/internal/gateway/unrouted.go#L286) |
+| noteMasking | function_declaration |  | [295](../../magpie/internal/gateway/unrouted.go#L295) |
+| once | var_spec | noteMasking | [308](../../magpie/internal/gateway/unrouted.go#L308) |
+| masked | method_declaration |  | [320](../../magpie/internal/gateway/unrouted.go#L320) |
+| unmaskedLocked | method_declaration |  | [336](../../magpie/internal/gateway/unrouted.go#L336) |
+| checkMost | method_declaration |  | [365](../../magpie/internal/gateway/unrouted.go#L365) |
+| unroutedRecheck | function_declaration |  | [384](../../magpie/internal/gateway/unrouted.go#L384) |
+| noteWait | function_declaration |  | [391](../../magpie/internal/gateway/unrouted.go#L391) |
+| waitKind | type_spec |  | [401](../../magpie/internal/gateway/unrouted.go#L401) |
+| kind | field_declaration | waitKind | [402](../../magpie/internal/gateway/unrouted.go#L402) |
+| n | field_declaration | waitKind | [403](../../magpie/internal/gateway/unrouted.go#L403) |
+| since | field_declaration | waitKind | [404](../../magpie/internal/gateway/unrouted.go#L404) |
+| spent | field_declaration | waitKind | [405](../../magpie/internal/gateway/unrouted.go#L405) |
+| wait | method_declaration |  | [411](../../magpie/internal/gateway/unrouted.go#L411) |
+| k | var_spec | wait | [418](../../magpie/internal/gateway/unrouted.go#L418) |
+| once | var_spec | wait | [434](../../magpie/internal/gateway/unrouted.go#L434) |
+| waited | method_declaration |  | [451](../../magpie/internal/gateway/unrouted.go#L451) |
+| unknownLocked | method_declaration |  | [467](../../magpie/internal/gateway/unrouted.go#L467) |
+| excusedFor | method_declaration |  | [476](../../magpie/internal/gateway/unrouted.go#L476) |
+| checkUnknown | method_declaration |  | [489](../../magpie/internal/gateway/unrouted.go#L489) |
+| waitedBody | type_spec |  | [507](../../magpie/internal/gateway/unrouted.go#L507) |
+| u | field_declaration | waitedBody | [509](../../magpie/internal/gateway/unrouted.go#L509) |
+| Read | method_declaration |  | [512](../../magpie/internal/gateway/unrouted.go#L512) |
+| errBodyStopped | var_spec |  | [531](../../magpie/internal/gateway/unrouted.go#L531) |
+| inBody | method_declaration |  | [534](../../magpie/internal/gateway/unrouted.go#L534) |
+| bodyArriving | method_declaration |  | [558](../../magpie/internal/gateway/unrouted.go#L558) |
+| bodySaid | method_declaration |  | [581](../../magpie/internal/gateway/unrouted.go#L581) |
+| byteWord | function_declaration |  | [593](../../magpie/internal/gateway/unrouted.go#L593) |
+| unroutedBodyMsg | function_declaration |  | [606](../../magpie/internal/gateway/unrouted.go#L606) |
+| watchUnrouted | method_declaration |  | [612](../../magpie/internal/gateway/unrouted.go#L612) |
+| show | method_declaration |  | [681](../../magpie/internal/gateway/unrouted.go#L681) |
+| showLocked | method_declaration |  | [692](../../magpie/internal/gateway/unrouted.go#L692) |
+| routed | method_declaration |  | [706](../../magpie/internal/gateway/unrouted.go#L706) |
+| giveUp | method_declaration |  | [719](../../magpie/internal/gateway/unrouted.go#L719) |
+| unroutedMsg | function_declaration |  | [807](../../magpie/internal/gateway/unrouted.go#L807) |
+| heldSay | const_spec |  | [824](../../magpie/internal/gateway/unrouted.go#L824) |
+| modelOn | var_spec |  | [828](../../magpie/internal/gateway/unrouted.go#L828) |
+| cmpOr | function_declaration |  | [830](../../magpie/internal/gateway/unrouted.go#L830) |
+| unroutedDumped | var_spec |  | [840](../../magpie/internal/gateway/unrouted.go#L840) |
+| unroutedStacks | function_declaration |  | [844](../../magpie/internal/gateway/unrouted.go#L844) |
+| b | var_spec | unroutedStacks | [850](../../magpie/internal/gateway/unrouted.go#L850) |
+| most | const_spec | unroutedStacks | [852](../../magpie/internal/gateway/unrouted.go#L852) |

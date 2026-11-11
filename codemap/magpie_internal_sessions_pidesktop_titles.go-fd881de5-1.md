@@ -4,17 +4,17 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/pidesktop_titles.go) · page 1/1
 
-Source SHA-256: 7cc56d671dd7090d74e359591260c06206405532b4fbe89abb379d3af46fa988
+Source SHA-256: 835e1172997e4275f45a2b6d96177bc4eaf64a25dec8207f6eb74c45b4528fea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| PIDesktopDir | function_declaration |  | [22](../../magpie/internal/sessions/pidesktop_titles.go#L22) |
-| piDesktopTitles | var_spec |  | [30](../../magpie/internal/sessions/pidesktop_titles.go#L30) |
-| at | field_declaration | piDesktopTitles | [32](../../magpie/internal/sessions/pidesktop_titles.go#L32) |
-| stamp | field_declaration | piDesktopTitles | [33](../../magpie/internal/sessions/pidesktop_titles.go#L33) |
-| names | field_declaration | piDesktopTitles | [34](../../magpie/internal/sessions/pidesktop_titles.go#L34) |
-| piDesktopTitlesHeld | var_spec |  | [39](../../magpie/internal/sessions/pidesktop_titles.go#L39) |
-| PIDesktopTitles | function_declaration |  | [46](../../magpie/internal/sessions/pidesktop_titles.go#L46) |
-| scanPIDesktopTitles | function_declaration |  | [66](../../magpie/internal/sessions/pidesktop_titles.go#L66) |
-| id | var_spec | scanPIDesktopTitles | [95](../../magpie/internal/sessions/pidesktop_titles.go#L95) |
-| isPIDesktop | function_declaration |  | [109](../../magpie/internal/sessions/pidesktop_titles.go#L109) |
+| PIDesktopDir | function_declaration |  | [24](../../magpie/internal/sessions/pidesktop_titles.go#L24) |
+| piDesktopTitles | var_spec |  | [32](../../magpie/internal/sessions/pidesktop_titles.go#L32) |
+| at | field_declaration | piDesktopTitles | [34](../../magpie/internal/sessions/pidesktop_titles.go#L34) |
+| stamp | field_declaration | piDesktopTitles | [35](../../magpie/internal/sessions/pidesktop_titles.go#L35) |
+| names | field_declaration | piDesktopTitles | [36](../../magpie/internal/sessions/pidesktop_titles.go#L36) |
+| piDesktopTitlesHeld | var_spec |  | [41](../../magpie/internal/sessions/pidesktop_titles.go#L41) |
+| PIDesktopTitles | function_declaration |  | [48](../../magpie/internal/sessions/pidesktop_titles.go#L48) |
+| scanPIDesktopTitles | function_declaration |  | [71](../../magpie/internal/sessions/pidesktop_titles.go#L71) |
+| id | var_spec | scanPIDesktopTitles | [100](../../magpie/internal/sessions/pidesktop_titles.go#L100) |
+| isPIDesktop | function_declaration |  | [114](../../magpie/internal/sessions/pidesktop_titles.go#L114) |

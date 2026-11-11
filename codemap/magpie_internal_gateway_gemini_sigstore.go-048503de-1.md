@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/gemini_sigstore.go) · page 1/1
 
-Source SHA-256: 685ea9dcde23c901d0f745b49831aa1dadf4035f2481b694a8ef8b3797ef02ff
+Source SHA-256: 27383ce5c6816f3a7c648f8af529a4b40ef7ea937ebc38f7ae2b7a5784cb6584
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,3 +18,7 @@ Source SHA-256: 685ea9dcde23c901d0f745b49831aa1dadf4035f2481b694a8ef8b3797ef02ff
 | keepSignature | function_declaration |  | [41](../../magpie/internal/gateway/gemini_sigstore.go#L41) |
 | keptSignature | function_declaration |  | [68](../../magpie/internal/gateway/gemini_sigstore.go#L68) |
 | pruneSignatures | function_declaration |  | [87](../../magpie/internal/gateway/gemini_sigstore.go#L87) |
+| signerExt | const_spec |  | [120](../../magpie/internal/gateway/gemini_sigstore.go#L120) |
+| noteSigner | function_declaration |  | [124](../../magpie/internal/gateway/gemini_sigstore.go#L124) |
+| signerOf | function_declaration |  | [154](../../magpie/internal/gateway/gemini_sigstore.go#L154) |
+| foreignSignature | function_declaration |  | [174](../../magpie/internal/gateway/gemini_sigstore.go#L174) |

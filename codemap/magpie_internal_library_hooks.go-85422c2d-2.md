@@ -4,22 +4,41 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/hooks.go) · page 2/2
 
-Source SHA-256: b8b173992b04ca2a808ddb6afc1d761b33c9ae888d749247f92c6484d08f70db
+Source SHA-256: d069e583599f085e0879d731896a46e127aec87ef6f848905a9ea3affd70cd0a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SomeHooksAgents | function_declaration |  | [1020](../../magpie/internal/library/hooks.go#L1020) |
-| hookTakes | function_declaration |  | [1051](../../magpie/internal/library/hooks.go#L1051) |
-| RemoveHooks | function_declaration |  | [1061](../../magpie/internal/library/hooks.go#L1061) |
-| failed | var_spec | RemoveHooks | [1066](../../magpie/internal/library/hooks.go#L1066) |
-| HookView | type_spec |  | [1089](../../magpie/internal/library/hooks.go#L1089) |
-| Native | field_declaration | HookView | [1092](../../magpie/internal/library/hooks.go#L1092) |
-| Problems | field_declaration | HookView | [1094](../../magpie/internal/library/hooks.go#L1094) |
-| HookAgentView | type_spec |  | [1098](../../magpie/internal/library/hooks.go#L1098) |
-| ID | field_declaration | HookAgentView | [1099](../../magpie/internal/library/hooks.go#L1099) |
-| File | field_declaration | HookAgentView | [1101](../../magpie/internal/library/hooks.go#L1101) |
-| No | field_declaration | HookAgentView | [1102](../../magpie/internal/library/hooks.go#L1102) |
-| WSL | field_declaration | HookAgentView | [1104](../../magpie/internal/library/hooks.go#L1104) |
-| Off | field_declaration | HookAgentView | [1106](../../magpie/internal/library/hooks.go#L1106) |
-| Events | field_declaration | HookAgentView | [1108](../../magpie/internal/library/hooks.go#L1108) |
-| hooksView | method_declaration |  | [1111](../../magpie/internal/library/hooks.go#L1111) |
+| b | var_spec | snake | [948](../../magpie/internal/library/hooks.go#L948) |
+| samePath | function_declaration |  | [962](../../magpie/internal/library/hooks.go#L962) |
+| codexRekey | function_declaration |  | [976](../../magpie/internal/library/hooks.go#L976) |
+| whole | var_spec | codexRekey | [984](../../magpie/internal/library/hooks.go#L984) |
+| Hooks | field_declaration | codexRekey::whole | [985](../../magpie/internal/library/hooks.go#L985) |
+| State | field_declaration | codexRekey::whole::Hooks | [986](../../magpie/internal/library/hooks.go#L986) |
+| span | type_spec | codexRekey | [1030](../../magpie/internal/library/hooks.go#L1030) |
+| from | field_declaration | codexRekey::span | [1031](../../magpie/internal/library/hooks.go#L1031) |
+| key | field_declaration | codexRekey::span | [1032](../../magpie/internal/library/hooks.go#L1032) |
+| m | field_declaration | codexRekey::span | [1033](../../magpie/internal/library/hooks.go#L1033) |
+| spans | var_spec | codexRekey | [1035](../../magpie/internal/library/hooks.go#L1035) |
+| k | var_spec | codexRekey | [1042](../../magpie/internal/library/hooks.go#L1042) |
+| out | var_spec | codexRekey | [1065](../../magpie/internal/library/hooks.go#L1065) |
+| hooksOff | function_declaration |  | [1100](../../magpie/internal/library/hooks.go#L1100) |
+| SaveHook | function_declaration |  | [1119](../../magpie/internal/library/hooks.go#L1119) |
+| HookAgents | function_declaration |  | [1142](../../magpie/internal/library/hooks.go#L1142) |
+| SomeHooksAgents | function_declaration |  | [1161](../../magpie/internal/library/hooks.go#L1161) |
+| hookTakes | function_declaration |  | [1192](../../magpie/internal/library/hooks.go#L1192) |
+| RemoveHooks | function_declaration |  | [1207](../../magpie/internal/library/hooks.go#L1207) |
+| failed | var_spec | RemoveHooks | [1212](../../magpie/internal/library/hooks.go#L1212) |
+| wslNoHooks | function_declaration |  | [1234](../../magpie/internal/library/hooks.go#L1234) |
+| HookView | type_spec |  | [1241](../../magpie/internal/library/hooks.go#L1241) |
+| Native | field_declaration | HookView | [1244](../../magpie/internal/library/hooks.go#L1244) |
+| Problems | field_declaration | HookView | [1246](../../magpie/internal/library/hooks.go#L1246) |
+| HookAgentView | type_spec |  | [1250](../../magpie/internal/library/hooks.go#L1250) |
+| ID | field_declaration | HookAgentView | [1251](../../magpie/internal/library/hooks.go#L1251) |
+| File | field_declaration | HookAgentView | [1253](../../magpie/internal/library/hooks.go#L1253) |
+| No | field_declaration | HookAgentView | [1254](../../magpie/internal/library/hooks.go#L1254) |
+| WSL | field_declaration | HookAgentView | [1256](../../magpie/internal/library/hooks.go#L1256) |
+| Off | field_declaration | HookAgentView | [1258](../../magpie/internal/library/hooks.go#L1258) |
+| Events | field_declaration | HookAgentView | [1260](../../magpie/internal/library/hooks.go#L1260) |
+| Starts | field_declaration | HookAgentView | [1263](../../magpie/internal/library/hooks.go#L1263) |
+| StartSources | field_declaration | HookAgentView | [1264](../../magpie/internal/library/hooks.go#L1264) |
+| hooksView | method_declaration |  | [1271](../../magpie/internal/library/hooks.go#L1271) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/masked.go) · page 1/1
 
-Source SHA-256: a5f1e294c71ca3621123fe2247dd5365e8a39705b3089060a909af8414f9eda8
+Source SHA-256: f7ed70805156946ef2d5bcfb20daf572c042405281e3a7543f2b3094dd64c6da
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,21 +15,23 @@ Source SHA-256: a5f1e294c71ca3621123fe2247dd5365e8a39705b3089060a909af8414f9eda8
 | Kinds | field_declaration | Masked | [22](../../magpie/internal/gateway/masked.go#L22) |
 | By | field_declaration | Masked | [23](../../magpie/internal/gateway/masked.go#L23) |
 | Key | field_declaration | Masked | [26](../../magpie/internal/gateway/masked.go#L26) |
-| maskHits | type_spec |  | [31](../../magpie/internal/gateway/masked.go#L31) |
-| n | field_declaration | maskHits | [32](../../magpie/internal/gateway/masked.go#L32) |
-| hits | field_declaration | maskHits | [33](../../magpie/internal/gateway/masked.go#L33) |
-| took | field_declaration | maskHits | [34](../../magpie/internal/gateway/masked.go#L34) |
-| key | field_declaration | maskHits | [37](../../magpie/internal/gateway/masked.go#L37) |
-| add | method_declaration |  | [40](../../magpie/internal/gateway/masked.go#L40) |
-| noteMasked | function_declaration |  | [50](../../magpie/internal/gateway/masked.go#L50) |
-| noteMaskedUntil | function_declaration |  | [60](../../magpie/internal/gateway/masked.go#L60) |
-| noteBlocked | function_declaration |  | [94](../../magpie/internal/gateway/masked.go#L94) |
-| valuesOf | function_declaration |  | [98](../../magpie/internal/gateway/masked.go#L98) |
-| out | var_spec | valuesOf | [99](../../magpie/internal/gateway/masked.go#L99) |
-| snipRunes | const_spec |  | [107](../../magpie/internal/gateway/masked.go#L107) |
-| snipsOf | function_declaration |  | [112](../../magpie/internal/gateway/masked.go#L112) |
-| snipWith | function_declaration |  | [166](../../magpie/internal/gateway/masked.go#L166) |
-| found | var_spec | snipWith | [167](../../magpie/internal/gateway/masked.go#L167) |
-| quoteEscaped | function_declaration |  | [182](../../magpie/internal/gateway/masked.go#L182) |
-| unescapeSnip | function_declaration |  | [192](../../magpie/internal/gateway/masked.go#L192) |
-| b | var_spec | unescapeSnip | [196](../../magpie/internal/gateway/masked.go#L196) |
+| OnMasked | var_spec |  | [34](../../magpie/internal/gateway/masked.go#L34) |
+| maskHits | type_spec |  | [38](../../magpie/internal/gateway/masked.go#L38) |
+| n | field_declaration | maskHits | [39](../../magpie/internal/gateway/masked.go#L39) |
+| hits | field_declaration | maskHits | [40](../../magpie/internal/gateway/masked.go#L40) |
+| took | field_declaration | maskHits | [41](../../magpie/internal/gateway/masked.go#L41) |
+| key | field_declaration | maskHits | [44](../../magpie/internal/gateway/masked.go#L44) |
+| add | method_declaration |  | [47](../../magpie/internal/gateway/masked.go#L47) |
+| sentOf | function_declaration |  | [57](../../magpie/internal/gateway/masked.go#L57) |
+| noteMasked | function_declaration |  | [68](../../magpie/internal/gateway/masked.go#L68) |
+| noteMaskedUntil | function_declaration |  | [78](../../magpie/internal/gateway/masked.go#L78) |
+| noteBlocked | function_declaration |  | [117](../../magpie/internal/gateway/masked.go#L117) |
+| valuesOf | function_declaration |  | [121](../../magpie/internal/gateway/masked.go#L121) |
+| out | var_spec | valuesOf | [122](../../magpie/internal/gateway/masked.go#L122) |
+| snipRunes | const_spec |  | [130](../../magpie/internal/gateway/masked.go#L130) |
+| snipsOf | function_declaration |  | [135](../../magpie/internal/gateway/masked.go#L135) |
+| snipWith | function_declaration |  | [192](../../magpie/internal/gateway/masked.go#L192) |
+| found | var_spec | snipWith | [193](../../magpie/internal/gateway/masked.go#L193) |
+| quoteEscaped | function_declaration |  | [208](../../magpie/internal/gateway/masked.go#L208) |
+| unescapeSnip | function_declaration |  | [218](../../magpie/internal/gateway/masked.go#L218) |
+| b | var_spec | unescapeSnip | [222](../../magpie/internal/gateway/masked.go#L222) |

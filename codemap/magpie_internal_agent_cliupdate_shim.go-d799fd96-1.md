@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/cliupdate_shim.go) · page 1/1
 
-Source SHA-256: 9876776f01654e15b0faa0c8cfcdfd35a0820cebd44d501d24daebbc84fd2cbd
+Source SHA-256: 1ea5488d32887b9ac37c9af4b7e2206e550ef455ae823379d9dbbb2e4718e476
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

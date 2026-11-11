@@ -4,9 +4,16 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/native_endpoints.go) · page 1/1
 
-Source SHA-256: ec54c82e7355c9fffc665eb47bf7de78a6fb4c420f740e02cb72fd69598e9bd6
+Source SHA-256: f30cb879391cf3abe0ecca0fe7a3f856a61421e40b78ca7aaf63203f824ab7a0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| NativeEndpoints | function_declaration |  | [11](../../magpie/internal/provider/native_endpoints.go#L11) |
-| out | var_spec | NativeEndpoints | [17](../../magpie/internal/provider/native_endpoints.go#L17) |
+| endpointOf | var_spec |  | [6](../../magpie/internal/provider/native_endpoints.go#L6) |
+| NativeEndpoints | function_declaration |  | [14](../../magpie/internal/provider/native_endpoints.go#L14) |
+| relayed | function_declaration |  | [24](../../magpie/internal/provider/native_endpoints.go#L24) |
+| out | var_spec | relayed | [29](../../magpie/internal/provider/native_endpoints.go#L29) |
+| endpointsOf | function_declaration |  | [38](../../magpie/internal/provider/native_endpoints.go#L38) |
+| out | var_spec | endpointsOf | [39](../../magpie/internal/provider/native_endpoints.go#L39) |
+| GroupEndpoints | function_declaration |  | [50](../../magpie/internal/provider/native_endpoints.go#L50) |
+| common | var_spec | GroupEndpoints | [51](../../magpie/internal/provider/native_endpoints.go#L51) |
+| GroupAPI | function_declaration |  | [77](../../magpie/internal/provider/native_endpoints.go#L77) |

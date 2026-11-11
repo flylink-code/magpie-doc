@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/jcode.go) · page 1/1
 
-Source SHA-256: db5db13822b1db31ebb7ffd481c55a25a4b9062ef5156e76ccd7cf0696939ad2
+Source SHA-256: a597b7f7058b23a162bc8c8046385318152c6932572b3a780ea1d7f5ca79c97c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -43,6 +43,6 @@ Source SHA-256: db5db13822b1db31ebb7ffd481c55a25a4b9062ef5156e76ccd7cf0696939ad2
 | jcodeAt | function_declaration |  | [181](../../magpie/internal/agent/jcode.go#L181) |
 | err | var_spec | jcodeAt | [199](../../magpie/internal/agent/jcode.go#L199) |
 | was | var_spec | jcodeAt | [267](../../magpie/internal/agent/jcode.go#L267) |
-| jcodeOwn | function_declaration |  | [364](../../magpie/internal/agent/jcode.go#L364) |
-| was | var_spec | jcodeOwn | [365](../../magpie/internal/agent/jcode.go#L365) |
-| out | var_spec | jcodeOwn | [367](../../magpie/internal/agent/jcode.go#L367) |
+| jcodeOwn | function_declaration |  | [365](../../magpie/internal/agent/jcode.go#L365) |
+| was | var_spec | jcodeOwn | [366](../../magpie/internal/agent/jcode.go#L366) |
+| out | var_spec | jcodeOwn | [368](../../magpie/internal/agent/jcode.go#L368) |

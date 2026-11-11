@@ -4,15 +4,51 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/sync.go) · page 2/2
 
-Source SHA-256: e3402fd43613846b849948e03d110a20b89fb68ca25124b54e1498402a275713
+Source SHA-256: 332f2316c805af2dcb2bb8402b0f2b81afd4d29a79dab80eacb51b203a73a739
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RemoveServers | function_declaration |  | [696](../../magpie/internal/library/sync.go#L696) |
-| failed | var_spec | RemoveServers | [701](../../magpie/internal/library/sync.go#L701) |
-| gone | var_spec | RemoveServers | [702](../../magpie/internal/library/sync.go#L702) |
-| removeServer | function_declaration |  | [730](../../magpie/internal/library/sync.go#L730) |
-| ImportServer | function_declaration |  | [748](../../magpie/internal/library/sync.go#L748) |
-| RemoveFoundServer | function_declaration |  | [779](../../magpie/internal/library/sync.go#L779) |
-| removeFoundEntry | function_declaration |  | [810](../../magpie/internal/library/sync.go#L810) |
-| inExtra | var_spec | removeFoundEntry | [822](../../magpie/internal/library/sync.go#L822) |
+| Skills | field_declaration | View | [520](../../magpie/internal/library/sync.go#L520) |
+| FoundSkills | field_declaration | View | [521](../../magpie/internal/library/sync.go#L521) |
+| NewSkills | field_declaration | View | [525](../../magpie/internal/library/sync.go#L525) |
+| CheckFolders | field_declaration | View | [528](../../magpie/internal/library/sync.go#L528) |
+| Projects | field_declaration | View | [529](../../magpie/internal/library/sync.go#L529) |
+| Instructions | field_declaration | View | [530](../../magpie/internal/library/sync.go#L530) |
+| Dir | field_declaration | View | [531](../../magpie/internal/library/sync.go#L531) |
+| Backups | field_declaration | View | [532](../../magpie/internal/library/sync.go#L532) |
+| SkillGroups | field_declaration | View | [533](../../magpie/internal/library/sync.go#L533) |
+| CopySkills | field_declaration | View | [534](../../magpie/internal/library/sync.go#L534) |
+| SharedSkills | field_declaration | View | [537](../../magpie/internal/library/sync.go#L537) |
+| SharedDir | field_declaration | View | [538](../../magpie/internal/library/sync.go#L538) |
+| MCPHub | field_declaration | View | [541](../../magpie/internal/library/sync.go#L541) |
+| HubPath | field_declaration | View | [542](../../magpie/internal/library/sync.go#L542) |
+| SkillRouter | field_declaration | View | [545](../../magpie/internal/library/sync.go#L545) |
+| HubNote | field_declaration | View | [549](../../magpie/internal/library/sync.go#L549) |
+| HubName | field_declaration | View | [550](../../magpie/internal/library/sync.go#L550) |
+| HubAllTools | field_declaration | View | [553](../../magpie/internal/library/sync.go#L553) |
+| CheckDue | field_declaration | View | [557](../../magpie/internal/library/sync.go#L557) |
+| Partial | field_declaration | View | [560](../../magpie/internal/library/sync.go#L560) |
+| Read | function_declaration |  | [565](../../magpie/internal/library/sync.go#L565) |
+| Glance | function_declaration |  | [572](../../magpie/internal/library/sync.go#L572) |
+| readView | function_declaration |  | [574](../../magpie/internal/library/sync.go#L574) |
+| SaveServer | function_declaration |  | [791](../../magpie/internal/library/sync.go#L791) |
+| ServerAgents | function_declaration |  | [838](../../magpie/internal/library/sync.go#L838) |
+| EveryServerAgents | function_declaration |  | [855](../../magpie/internal/library/sync.go#L855) |
+| SomeServersAgents | function_declaration |  | [864](../../magpie/internal/library/sync.go#L864) |
+| serversAgents | function_declaration |  | [876](../../magpie/internal/library/sync.go#L876) |
+| r | var_spec | serversAgents | [883](../../magpie/internal/library/sync.go#L883) |
+| reach | type_spec |  | [912](../../magpie/internal/library/sync.go#L912) |
+| mcp | field_declaration | reach | [913](../../magpie/internal/library/sync.go#L913) |
+| shapes | field_declaration | reach | [914](../../magpie/internal/library/sync.go#L914) |
+| order | field_declaration | reach | [915](../../magpie/internal/library/sync.go#L915) |
+| reachNow | function_declaration |  | [918](../../magpie/internal/library/sync.go#L918) |
+| takes | method_declaration |  | [936](../../magpie/internal/library/sync.go#L936) |
+| RemoveServer | function_declaration |  | [942](../../magpie/internal/library/sync.go#L942) |
+| RemoveServers | function_declaration |  | [956](../../magpie/internal/library/sync.go#L956) |
+| failed | var_spec | RemoveServers | [961](../../magpie/internal/library/sync.go#L961) |
+| gone | var_spec | RemoveServers | [962](../../magpie/internal/library/sync.go#L962) |
+| removeServer | function_declaration |  | [990](../../magpie/internal/library/sync.go#L990) |
+| ImportServer | function_declaration |  | [1012](../../magpie/internal/library/sync.go#L1012) |
+| RemoveFoundServer | function_declaration |  | [1043](../../magpie/internal/library/sync.go#L1043) |
+| removeFoundEntry | function_declaration |  | [1074](../../magpie/internal/library/sync.go#L1074) |
+| inExtra | var_spec | removeFoundEntry | [1086](../../magpie/internal/library/sync.go#L1086) |

@@ -4,93 +4,95 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/middleware/middleware.go) · page 1/1
 
-Source SHA-256: efd8690c294ba6d087c208d85c8aa27ab486e2e333edb79804439161ffb523bd
+Source SHA-256: 4c8768e2fbd7433ef4c075d9757eb32ee7cb3557b95f5ec4b6626c06a9efba5b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| requestLimit | var_spec |  | [36](../../magpie/internal/middleware/middleware.go#L36) |
-| eventLimit | var_spec |  | [37](../../magpie/internal/middleware/middleware.go#L37) |
-| loadLimit | var_spec |  | [38](../../magpie/internal/middleware/middleware.go#L38) |
-| errTimeout | var_spec |  | [41](../../magpie/internal/middleware/middleware.go#L41) |
-| mw | type_spec |  | [44](../../magpie/internal/middleware/middleware.go#L44) |
-| spec | field_declaration | mw | [45](../../magpie/internal/middleware/middleware.go#L45) |
-| mod | field_declaration | mw | [46](../../magpie/internal/middleware/middleware.go#L46) |
-| onReq | field_declaration | mw | [47](../../magpie/internal/middleware/middleware.go#L47) |
-| onProv | field_declaration | mw | [48](../../magpie/internal/middleware/middleware.go#L48) |
-| onEv | field_declaration | mw | [49](../../magpie/internal/middleware/middleware.go#L49) |
-| onResp | field_declaration | mw | [50](../../magpie/internal/middleware/middleware.go#L50) |
-| hasReq | field_declaration | mw | [51](../../magpie/internal/middleware/middleware.go#L51) |
-| hasProv | field_declaration | mw | [52](../../magpie/internal/middleware/middleware.go#L52) |
-| hasEv | field_declaration | mw | [53](../../magpie/internal/middleware/middleware.go#L53) |
-| hasResp | field_declaration | mw | [54](../../magpie/internal/middleware/middleware.go#L54) |
-| events | field_declaration | mw | [57](../../magpie/internal/middleware/middleware.go#L57) |
-| options | field_declaration | mw | [58](../../magpie/internal/middleware/middleware.go#L58) |
-| pool | field_declaration | mw | [59](../../magpie/internal/middleware/middleware.go#L59) |
-| strats | field_declaration | mw | [62](../../magpie/internal/middleware/middleware.go#L62) |
-| onUse | field_declaration | mw | [63](../../magpie/internal/middleware/middleware.go#L63) |
-| hasUse | field_declaration | mw | [64](../../magpie/internal/middleware/middleware.go#L64) |
-| pt | field_declaration | mw | [65](../../magpie/internal/middleware/middleware.go#L65) |
-| calls | field_declaration | mw | [67](../../magpie/internal/middleware/middleware.go#L67) |
-| orders | field_declaration | mw | [68](../../magpie/internal/middleware/middleware.go#L68) |
-| lastErr | field_declaration | mw | [69](../../magpie/internal/middleware/middleware.go#L69) |
-| logged | field_declaration | mw | [70](../../magpie/internal/middleware/middleware.go#L70) |
-| set | type_spec |  | [74](../../magpie/internal/middleware/middleware.go#L74) |
-| stamp | field_declaration | set | [75](../../magpie/internal/middleware/middleware.go#L75) |
-| list | field_declaration | set | [76](../../magpie/internal/middleware/middleware.go#L76) |
-| errs | field_declaration | set | [77](../../magpie/internal/middleware/middleware.go#L77) |
-| hooked | field_declaration | set | [80](../../magpie/internal/middleware/middleware.go#L80) |
-| droppedSaid | field_declaration | set | [81](../../magpie/internal/middleware/middleware.go#L81) |
-| loadMu | var_spec |  | [85](../../magpie/internal/middleware/middleware.go#L85) |
-| cur | var_spec |  | [86](../../magpie/internal/middleware/middleware.go#L86) |
-| nextCheck | var_spec |  | [87](../../magpie/internal/middleware/middleware.go#L87) |
-| checkedGen | var_spec |  | [89](../../magpie/internal/middleware/middleware.go#L89) |
-| current | function_declaration |  | [95](../../magpie/internal/middleware/middleware.go#L95) |
-| Reload | function_declaration |  | [119](../../magpie/internal/middleware/middleware.go#L119) |
-| found | type_spec |  | [125](../../magpie/internal/middleware/middleware.go#L125) |
-| e | field_declaration | found | [126](../../magpie/internal/middleware/middleware.go#L126) |
-| file | field_declaration | found | [127](../../magpie/internal/middleware/middleware.go#L127) |
-| middlewares | function_declaration |  | [130](../../magpie/internal/middleware/middleware.go#L130) |
-| out | var_spec | middlewares | [131](../../magpie/internal/middleware/middleware.go#L131) |
-| stamp | function_declaration |  | [144](../../magpie/internal/middleware/middleware.go#L144) |
-| b | var_spec | stamp | [145](../../magpie/internal/middleware/middleware.go#L145) |
-| load | function_declaration |  | [156](../../magpie/internal/middleware/middleware.go#L156) |
-| compile | function_declaration |  | [174](../../magpie/internal/middleware/middleware.go#L174) |
-| inst | type_spec |  | [215](../../magpie/internal/middleware/middleware.go#L215) |
-| m | field_declaration | inst | [216](../../magpie/internal/middleware/middleware.go#L216) |
-| rt | field_declaration | inst | [217](../../magpie/internal/middleware/middleware.go#L217) |
-| timer | field_declaration | inst | [218](../../magpie/internal/middleware/middleware.go#L218) |
-| mu | field_declaration | inst | [219](../../magpie/internal/middleware/middleware.go#L219) |
-| armed | field_declaration | inst | [220](../../magpie/internal/middleware/middleware.go#L220) |
-| fired | field_declaration | inst | [221](../../magpie/internal/middleware/middleware.go#L221) |
-| run | field_declaration | inst | [222](../../magpie/internal/middleware/middleware.go#L222) |
-| newInst | method_declaration |  | [225](../../magpie/internal/middleware/middleware.go#L225) |
-| get | method_declaration |  | [250](../../magpie/internal/middleware/middleware.go#L250) |
-| put | method_declaration |  | [257](../../magpie/internal/middleware/middleware.go#L257) |
-| arm | method_declaration |  | [263](../../magpie/internal/middleware/middleware.go#L263) |
-| disarm | method_declaration |  | [271](../../magpie/internal/middleware/middleware.go#L271) |
-| call | method_declaration |  | [286](../../magpie/internal/middleware/middleware.go#L286) |
-| hook | method_declaration |  | [308](../../magpie/internal/middleware/middleware.go#L308) |
-| strings | method_declaration |  | [323](../../magpie/internal/middleware/middleware.go#L323) |
-| text | method_declaration |  | [352](../../magpie/internal/middleware/middleware.go#L352) |
-| console | method_declaration |  | [367](../../magpie/internal/middleware/middleware.go#L367) |
-| linesAMinute | const_spec |  | [383](../../magpie/internal/middleware/middleware.go#L383) |
-| say | method_declaration |  | [385](../../magpie/internal/middleware/middleware.go#L385) |
-| fail | method_declaration |  | [407](../../magpie/internal/middleware/middleware.go#L407) |
-| errText | function_declaration |  | [414](../../magpie/internal/middleware/middleware.go#L414) |
-| exc | var_spec | errText | [415](../../magpie/internal/middleware/middleware.go#L415) |
-| State | type_spec |  | [423](../../magpie/internal/middleware/middleware.go#L423) |
-| Hooks | field_declaration | State | [424](../../magpie/internal/middleware/middleware.go#L424) |
-| Events | field_declaration | State | [425](../../magpie/internal/middleware/middleware.go#L425) |
-| Error | field_declaration | State | [426](../../magpie/internal/middleware/middleware.go#L426) |
-| Calls | field_declaration | State | [427](../../magpie/internal/middleware/middleware.go#L427) |
-| AvgMicro | field_declaration | State | [428](../../magpie/internal/middleware/middleware.go#L428) |
-| Failures | field_declaration | State | [429](../../magpie/internal/middleware/middleware.go#L429) |
-| Last | field_declaration | State | [430](../../magpie/internal/middleware/middleware.go#L430) |
-| Strategies | field_declaration | State | [435](../../magpie/internal/middleware/middleware.go#L435) |
-| Orders | field_declaration | State | [436](../../magpie/internal/middleware/middleware.go#L436) |
-| Usage | field_declaration | State | [437](../../magpie/internal/middleware/middleware.go#L437) |
-| Rows | field_declaration | State | [438](../../magpie/internal/middleware/middleware.go#L438) |
-| Dropped | field_declaration | State | [439](../../magpie/internal/middleware/middleware.go#L439) |
-| States | function_declaration |  | [443](../../magpie/internal/middleware/middleware.go#L443) |
-| ok | field_declaration | States | [452](../../magpie/internal/middleware/middleware.go#L452) |
-| name | field_declaration | States | [453](../../magpie/internal/middleware/middleware.go#L453) |
+| requestLimit | var_spec |  | [37](../../magpie/internal/middleware/middleware.go#L37) |
+| eventLimit | var_spec |  | [38](../../magpie/internal/middleware/middleware.go#L38) |
+| loadLimit | var_spec |  | [39](../../magpie/internal/middleware/middleware.go#L39) |
+| errTimeout | var_spec |  | [42](../../magpie/internal/middleware/middleware.go#L42) |
+| mw | type_spec |  | [45](../../magpie/internal/middleware/middleware.go#L45) |
+| spec | field_declaration | mw | [46](../../magpie/internal/middleware/middleware.go#L46) |
+| mod | field_declaration | mw | [47](../../magpie/internal/middleware/middleware.go#L47) |
+| onReq | field_declaration | mw | [48](../../magpie/internal/middleware/middleware.go#L48) |
+| onProv | field_declaration | mw | [49](../../magpie/internal/middleware/middleware.go#L49) |
+| onAcct | field_declaration | mw | [50](../../magpie/internal/middleware/middleware.go#L50) |
+| onEv | field_declaration | mw | [51](../../magpie/internal/middleware/middleware.go#L51) |
+| onResp | field_declaration | mw | [52](../../magpie/internal/middleware/middleware.go#L52) |
+| hasReq | field_declaration | mw | [53](../../magpie/internal/middleware/middleware.go#L53) |
+| hasProv | field_declaration | mw | [54](../../magpie/internal/middleware/middleware.go#L54) |
+| hasAcct | field_declaration | mw | [55](../../magpie/internal/middleware/middleware.go#L55) |
+| hasEv | field_declaration | mw | [56](../../magpie/internal/middleware/middleware.go#L56) |
+| hasResp | field_declaration | mw | [57](../../magpie/internal/middleware/middleware.go#L57) |
+| events | field_declaration | mw | [60](../../magpie/internal/middleware/middleware.go#L60) |
+| options | field_declaration | mw | [61](../../magpie/internal/middleware/middleware.go#L61) |
+| pool | field_declaration | mw | [62](../../magpie/internal/middleware/middleware.go#L62) |
+| strats | field_declaration | mw | [65](../../magpie/internal/middleware/middleware.go#L65) |
+| onUse | field_declaration | mw | [66](../../magpie/internal/middleware/middleware.go#L66) |
+| hasUse | field_declaration | mw | [67](../../magpie/internal/middleware/middleware.go#L67) |
+| pt | field_declaration | mw | [68](../../magpie/internal/middleware/middleware.go#L68) |
+| calls | field_declaration | mw | [70](../../magpie/internal/middleware/middleware.go#L70) |
+| orders | field_declaration | mw | [71](../../magpie/internal/middleware/middleware.go#L71) |
+| lastErr | field_declaration | mw | [72](../../magpie/internal/middleware/middleware.go#L72) |
+| logged | field_declaration | mw | [73](../../magpie/internal/middleware/middleware.go#L73) |
+| set | type_spec |  | [77](../../magpie/internal/middleware/middleware.go#L77) |
+| stamp | field_declaration | set | [78](../../magpie/internal/middleware/middleware.go#L78) |
+| list | field_declaration | set | [79](../../magpie/internal/middleware/middleware.go#L79) |
+| errs | field_declaration | set | [80](../../magpie/internal/middleware/middleware.go#L80) |
+| hooked | field_declaration | set | [83](../../magpie/internal/middleware/middleware.go#L83) |
+| droppedSaid | field_declaration | set | [84](../../magpie/internal/middleware/middleware.go#L84) |
+| loadMu | var_spec |  | [88](../../magpie/internal/middleware/middleware.go#L88) |
+| cur | var_spec |  | [89](../../magpie/internal/middleware/middleware.go#L89) |
+| nextCheck | var_spec |  | [90](../../magpie/internal/middleware/middleware.go#L90) |
+| checkedGen | var_spec |  | [92](../../magpie/internal/middleware/middleware.go#L92) |
+| current | function_declaration |  | [98](../../magpie/internal/middleware/middleware.go#L98) |
+| Reload | function_declaration |  | [122](../../magpie/internal/middleware/middleware.go#L122) |
+| found | type_spec |  | [128](../../magpie/internal/middleware/middleware.go#L128) |
+| e | field_declaration | found | [129](../../magpie/internal/middleware/middleware.go#L129) |
+| file | field_declaration | found | [130](../../magpie/internal/middleware/middleware.go#L130) |
+| middlewares | function_declaration |  | [133](../../magpie/internal/middleware/middleware.go#L133) |
+| out | var_spec | middlewares | [134](../../magpie/internal/middleware/middleware.go#L134) |
+| stamp | function_declaration |  | [147](../../magpie/internal/middleware/middleware.go#L147) |
+| b | var_spec | stamp | [148](../../magpie/internal/middleware/middleware.go#L148) |
+| load | function_declaration |  | [159](../../magpie/internal/middleware/middleware.go#L159) |
+| compile | function_declaration |  | [177](../../magpie/internal/middleware/middleware.go#L177) |
+| inst | type_spec |  | [219](../../magpie/internal/middleware/middleware.go#L219) |
+| m | field_declaration | inst | [220](../../magpie/internal/middleware/middleware.go#L220) |
+| rt | field_declaration | inst | [221](../../magpie/internal/middleware/middleware.go#L221) |
+| timer | field_declaration | inst | [222](../../magpie/internal/middleware/middleware.go#L222) |
+| mu | field_declaration | inst | [223](../../magpie/internal/middleware/middleware.go#L223) |
+| armed | field_declaration | inst | [224](../../magpie/internal/middleware/middleware.go#L224) |
+| fired | field_declaration | inst | [225](../../magpie/internal/middleware/middleware.go#L225) |
+| run | field_declaration | inst | [226](../../magpie/internal/middleware/middleware.go#L226) |
+| newInst | method_declaration |  | [229](../../magpie/internal/middleware/middleware.go#L229) |
+| get | method_declaration |  | [254](../../magpie/internal/middleware/middleware.go#L254) |
+| put | method_declaration |  | [261](../../magpie/internal/middleware/middleware.go#L261) |
+| arm | method_declaration |  | [267](../../magpie/internal/middleware/middleware.go#L267) |
+| disarm | method_declaration |  | [275](../../magpie/internal/middleware/middleware.go#L275) |
+| call | method_declaration |  | [290](../../magpie/internal/middleware/middleware.go#L290) |
+| hook | method_declaration |  | [312](../../magpie/internal/middleware/middleware.go#L312) |
+| strings | method_declaration |  | [327](../../magpie/internal/middleware/middleware.go#L327) |
+| text | method_declaration |  | [356](../../magpie/internal/middleware/middleware.go#L356) |
+| console | method_declaration |  | [371](../../magpie/internal/middleware/middleware.go#L371) |
+| linesAMinute | const_spec |  | [387](../../magpie/internal/middleware/middleware.go#L387) |
+| say | method_declaration |  | [389](../../magpie/internal/middleware/middleware.go#L389) |
+| fail | method_declaration |  | [411](../../magpie/internal/middleware/middleware.go#L411) |
+| errText | function_declaration |  | [418](../../magpie/internal/middleware/middleware.go#L418) |
+| exc | var_spec | errText | [419](../../magpie/internal/middleware/middleware.go#L419) |
+| State | type_spec |  | [427](../../magpie/internal/middleware/middleware.go#L427) |
+| Hooks | field_declaration | State | [428](../../magpie/internal/middleware/middleware.go#L428) |
+| Events | field_declaration | State | [429](../../magpie/internal/middleware/middleware.go#L429) |
+| Error | field_declaration | State | [430](../../magpie/internal/middleware/middleware.go#L430) |
+| Calls | field_declaration | State | [431](../../magpie/internal/middleware/middleware.go#L431) |
+| AvgMicro | field_declaration | State | [432](../../magpie/internal/middleware/middleware.go#L432) |
+| Failures | field_declaration | State | [433](../../magpie/internal/middleware/middleware.go#L433) |
+| Last | field_declaration | State | [434](../../magpie/internal/middleware/middleware.go#L434) |
+| Strategies | field_declaration | State | [439](../../magpie/internal/middleware/middleware.go#L439) |
+| Orders | field_declaration | State | [440](../../magpie/internal/middleware/middleware.go#L440) |
+| Usage | field_declaration | State | [441](../../magpie/internal/middleware/middleware.go#L441) |
+| Rows | field_declaration | State | [442](../../magpie/internal/middleware/middleware.go#L442) |
+| Dropped | field_declaration | State | [443](../../magpie/internal/middleware/middleware.go#L443) |
+| States | function_declaration |  | [447](../../magpie/internal/middleware/middleware.go#L447) |
+| ok | field_declaration | States | [456](../../magpie/internal/middleware/middleware.go#L456) |
+| name | field_declaration | States | [457](../../magpie/internal/middleware/middleware.go#L457) |

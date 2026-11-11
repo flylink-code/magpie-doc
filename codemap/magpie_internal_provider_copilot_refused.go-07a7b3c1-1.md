@@ -4,14 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/copilot_refused.go) · page 1/1
 
-Source SHA-256: a3e699a648c46bc05211844110144aca1e4ef37c9604e2f40c2dcc806596bc90
+Source SHA-256: 02c7d6447717f41bba2c86be53b3a92cd27e09ec475316d65241f88a2bd206de
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| copilotRefusedFor | const_spec |  | [21](../../magpie/internal/provider/copilot_refused.go#L21) |
-| copilotRefusedMu | var_spec |  | [24](../../magpie/internal/provider/copilot_refused.go#L24) |
-| copilotRefusedAt | var_spec |  | [25](../../magpie/internal/provider/copilot_refused.go#L25) |
-| copilotNotServed | var_spec |  | [32](../../magpie/internal/provider/copilot_refused.go#L32) |
-| copilotSessionGone | var_spec |  | [37](../../magpie/internal/provider/copilot_refused.go#L37) |
-| copilotRefused | function_declaration |  | [42](../../magpie/internal/provider/copilot_refused.go#L42) |
-| copilotRefuses | function_declaration |  | [95](../../magpie/internal/provider/copilot_refused.go#L95) |
+| copilotRefusedFor | const_spec |  | [22](../../magpie/internal/provider/copilot_refused.go#L22) |
+| copilotRefusedMu | var_spec |  | [25](../../magpie/internal/provider/copilot_refused.go#L25) |
+| copilotRefusedAt | var_spec |  | [26](../../magpie/internal/provider/copilot_refused.go#L26) |
+| copilotNotServed | var_spec |  | [33](../../magpie/internal/provider/copilot_refused.go#L33) |
+| copilotSessionGone | var_spec |  | [38](../../magpie/internal/provider/copilot_refused.go#L38) |
+| copilotRefused | function_declaration |  | [43](../../magpie/internal/provider/copilot_refused.go#L43) |
+| copilotRefuses | function_declaration |  | [96](../../magpie/internal/provider/copilot_refused.go#L96) |

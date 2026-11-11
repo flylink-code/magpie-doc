@@ -4,17 +4,17 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/page_memory.go) · page 1/1
 
-Source SHA-256: e0c4802431258c6431aa1357b029d6ffcc032706967a8b7f0cda693e40f73733
+Source SHA-256: d80a9ba0849e0f786050a2c5eb4004f7c7d87da049ffdf7f4e0441d19118900c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| pageRest | const_spec |  | [20](../../magpie/internal/gui/page_memory.go#L20) |
-| pageReads | var_spec |  | [22](../../magpie/internal/gui/page_memory.go#L22) |
-| n | field_declaration | pageReads | [24](../../magpie/internal/gui/page_memory.go#L24) |
-| last | field_declaration | pageReads | [25](../../magpie/internal/gui/page_memory.go#L25) |
-| due | field_declaration | pageReads | [26](../../magpie/internal/gui/page_memory.go#L26) |
-| rest | field_declaration | pageReads | [27](../../magpie/internal/gui/page_memory.go#L27) |
-| release | field_declaration | pageReads | [29](../../magpie/internal/gui/page_memory.go#L29) |
-| readingPage | function_declaration |  | [34](../../magpie/internal/gui/page_memory.go#L34) |
-| pageRestFor | function_declaration |  | [49](../../magpie/internal/gui/page_memory.go#L49) |
-| releaseIfPagesRest | function_declaration |  | [59](../../magpie/internal/gui/page_memory.go#L59) |
+| pageRest | const_spec |  | [28](../../magpie/internal/gui/page_memory.go#L28) |
+| pageReads | var_spec |  | [30](../../magpie/internal/gui/page_memory.go#L30) |
+| n | field_declaration | pageReads | [32](../../magpie/internal/gui/page_memory.go#L32) |
+| last | field_declaration | pageReads | [33](../../magpie/internal/gui/page_memory.go#L33) |
+| due | field_declaration | pageReads | [34](../../magpie/internal/gui/page_memory.go#L34) |
+| rest | field_declaration | pageReads | [35](../../magpie/internal/gui/page_memory.go#L35) |
+| release | field_declaration | pageReads | [37](../../magpie/internal/gui/page_memory.go#L37) |
+| readingPage | function_declaration |  | [42](../../magpie/internal/gui/page_memory.go#L42) |
+| pageRestFor | function_declaration |  | [57](../../magpie/internal/gui/page_memory.go#L57) |
+| releaseIfPagesRest | function_declaration |  | [67](../../magpie/internal/gui/page_memory.go#L67) |

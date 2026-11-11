@@ -4,45 +4,49 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/json.go) · page 1/1
 
-Source SHA-256: 237094817a630d759aedf51ce3ed16ae9f25721839c8b4604d93c890674cfbe4
+Source SHA-256: ddae1cf4933802cf8361f06fa3a719de3c4bb9324e6d5676e097804516fd0495
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | kept | var_spec |  | [19](../../magpie/internal/redact/json.go#L19) |
-| keep | function_declaration |  | [27](../../magpie/internal/redact/json.go#L27) |
-| keepIn | function_declaration |  | [40](../../magpie/internal/redact/json.go#L40) |
-| isID | function_declaration |  | [58](../../magpie/internal/redact/json.go#L58) |
-| signatureKeys | var_spec |  | [66](../../magpie/internal/redact/json.go#L66) |
-| scan | function_declaration |  | [75](../../magpie/internal/redact/json.go#L75) |
+| keepIn | function_declaration |  | [36](../../magpie/internal/redact/json.go#L36) |
+| isID | function_declaration |  | [54](../../magpie/internal/redact/json.go#L54) |
+| signatureKeys | var_spec |  | [62](../../magpie/internal/redact/json.go#L62) |
+| scan | function_declaration |  | [72](../../magpie/internal/redact/json.go#L72) |
 | v | var_spec | scan | [86](../../magpie/internal/redact/json.go#L86) |
 | visit | var_spec | scan | [91](../../magpie/internal/redact/json.go#L91) |
-| defKeys | var_spec |  | [129](../../magpie/internal/redact/json.go#L129) |
-| defItems | var_spec |  | [138](../../magpie/internal/redact/json.go#L138) |
-| definitions | function_declaration |  | [145](../../magpie/internal/redact/json.go#L145) |
-| defs | var_spec | definitions | [150](../../magpie/internal/redact/json.go#L150) |
-| sealed | function_declaration |  | [179](../../magpie/internal/redact/json.go#L179) |
-| under | function_declaration |  | [194](../../magpie/internal/redact/json.go#L194) |
-| walk | function_declaration |  | [207](../../magpie/internal/redact/json.go#L207) |
-| walker | type_spec |  | [226](../../magpie/internal/redact/json.go#L226) |
-| in | field_declaration | walker | [227](../../magpie/internal/redact/json.go#L227) |
-| out | field_declaration | walker | [228](../../magpie/internal/redact/json.go#L228) |
-| last | field_declaration | walker | [229](../../magpie/internal/redact/json.go#L229) |
-| fn | field_declaration | walker | [230](../../magpie/internal/redact/json.go#L230) |
-| ws | method_declaration |  | [233](../../magpie/internal/redact/json.go#L233) |
-| join | function_declaration |  | [240](../../magpie/internal/redact/json.go#L240) |
-| str | method_declaration |  | [248](../../magpie/internal/redact/json.go#L248) |
-| value | method_declaration |  | [261](../../magpie/internal/redact/json.go#L261) |
-| ok | var_spec | value | [308](../../magpie/internal/redact/json.go#L308) |
-| jsonEscape | function_declaration |  | [359](../../magpie/internal/redact/json.go#L359) |
-| b | var_spec | jsonEscape | [360](../../magpie/internal/redact/json.go#L360) |
-| MaskJSON | function_declaration |  | [383](../../magpie/internal/redact/json.go#L383) |
-| texts | var_spec | MaskJSON | [391](../../magpie/internal/redact/json.go#L391) |
-| seen | var_spec | MaskJSON | [402](../../magpie/internal/redact/json.go#L402) |
-| remask | var_spec | MaskJSON | [423](../../magpie/internal/redact/json.go#L423) |
-| replacerOf | function_declaration |  | [452](../../magpie/internal/redact/json.go#L452) |
-| pair | type_spec | replacerOf | [453](../../magpie/internal/redact/json.go#L453) |
-| v | field_declaration | replacerOf::pair | [453](../../magpie/internal/redact/json.go#L453) |
-| ps | var_spec | replacerOf | [454](../../magpie/internal/redact/json.go#L454) |
-| asJSON | function_declaration |  | [473](../../magpie/internal/redact/json.go#L473) |
-| RestoreJSON | function_declaration |  | [478](../../magpie/internal/redact/json.go#L478) |
-| restoreJSON | function_declaration |  | [481](../../magpie/internal/redact/json.go#L481) |
+| toolArgs | function_declaration |  | [127](../../magpie/internal/redact/json.go#L127) |
+| defKeys | var_spec |  | [150](../../magpie/internal/redact/json.go#L150) |
+| defItems | var_spec |  | [159](../../magpie/internal/redact/json.go#L159) |
+| definitions | function_declaration |  | [166](../../magpie/internal/redact/json.go#L166) |
+| defs | var_spec | definitions | [171](../../magpie/internal/redact/json.go#L171) |
+| sealed | function_declaration |  | [200](../../magpie/internal/redact/json.go#L200) |
+| under | function_declaration |  | [215](../../magpie/internal/redact/json.go#L215) |
+| walk | function_declaration |  | [228](../../magpie/internal/redact/json.go#L228) |
+| walker | type_spec |  | [247](../../magpie/internal/redact/json.go#L247) |
+| in | field_declaration | walker | [248](../../magpie/internal/redact/json.go#L248) |
+| out | field_declaration | walker | [249](../../magpie/internal/redact/json.go#L249) |
+| last | field_declaration | walker | [250](../../magpie/internal/redact/json.go#L250) |
+| fn | field_declaration | walker | [251](../../magpie/internal/redact/json.go#L251) |
+| ws | method_declaration |  | [254](../../magpie/internal/redact/json.go#L254) |
+| join | function_declaration |  | [261](../../magpie/internal/redact/json.go#L261) |
+| str | method_declaration |  | [269](../../magpie/internal/redact/json.go#L269) |
+| value | method_declaration |  | [282](../../magpie/internal/redact/json.go#L282) |
+| ok | var_spec | value | [329](../../magpie/internal/redact/json.go#L329) |
+| jsonEscape | function_declaration |  | [380](../../magpie/internal/redact/json.go#L380) |
+| b | var_spec | jsonEscape | [381](../../magpie/internal/redact/json.go#L381) |
+| namedSecret | function_declaration |  | [401](../../magpie/internal/redact/json.go#L401) |
+| MaskJSON | function_declaration |  | [424](../../magpie/internal/redact/json.go#L424) |
+| texts | var_spec | MaskJSON | [442](../../magpie/internal/redact/json.go#L442) |
+| seen | var_spec | MaskJSON | [453](../../magpie/internal/redact/json.go#L453) |
+| remask | var_spec | MaskJSON | [496](../../magpie/internal/redact/json.go#L496) |
+| replacerOf | function_declaration |  | [526](../../magpie/internal/redact/json.go#L526) |
+| pair | type_spec | replacerOf | [527](../../magpie/internal/redact/json.go#L527) |
+| v | field_declaration | replacerOf::pair | [527](../../magpie/internal/redact/json.go#L527) |
+| ps | var_spec | replacerOf | [528](../../magpie/internal/redact/json.go#L528) |
+| asJSON | function_declaration |  | [547](../../magpie/internal/redact/json.go#L547) |
+| typeOf | function_declaration |  | [557](../../magpie/internal/redact/json.go#L557) |
+| RestoreJSON | function_declaration |  | [569](../../magpie/internal/redact/json.go#L569) |
+| restoreJSON | function_declaration |  | [572](../../magpie/internal/redact/json.go#L572) |
+| heldIn | function_declaration |  | [591](../../magpie/internal/redact/json.go#L591) |
+| base32Lower | function_declaration |  | [620](../../magpie/internal/redact/json.go#L620) |

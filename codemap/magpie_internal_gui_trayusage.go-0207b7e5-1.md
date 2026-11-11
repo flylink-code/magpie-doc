@@ -4,60 +4,88 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayusage.go) · page 1/1
 
-Source SHA-256: dfaa1d17a58a2f91eb0ae768973dad413dea614c901009ed3b5c39591bfe263f
+Source SHA-256: bdebaad1dfa3049fe39bc38fc9419819f6bd1c7113702c0ccf30bddd09e52098
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| trayUsageEvery | function_declaration |  | [32](../../magpie/internal/gui/trayusage.go#L32) |
-| trayCardID | function_declaration |  | [38](../../magpie/internal/gui/trayusage.go#L38) |
-| trayWindows | function_declaration |  | [48](../../magpie/internal/gui/trayusage.go#L48) |
-| ws | var_spec | trayWindows | [49](../../magpie/internal/gui/trayusage.go#L49) |
-| trayUsageText | function_declaration |  | [68](../../magpie/internal/gui/trayusage.go#L68) |
-| short | var_spec | trayUsageText | [87](../../magpie/internal/gui/trayusage.go#L87) |
-| trayPace | function_declaration |  | [128](../../magpie/internal/gui/trayusage.go#L128) |
-| trayAsOf | function_declaration |  | [145](../../magpie/internal/gui/trayusage.go#L145) |
-| resetAt | function_declaration |  | [152](../../magpie/internal/gui/trayusage.go#L152) |
-| until | function_declaration |  | [163](../../magpie/internal/gui/trayusage.go#L163) |
-| trayUsageCards | function_declaration |  | [179](../../magpie/internal/gui/trayusage.go#L179) |
-| cards | var_spec | trayUsageCards | [183](../../magpie/internal/gui/trayusage.go#L183) |
-| currency | var_spec | trayUsageCards | [187](../../magpie/internal/gui/trayusage.go#L187) |
-| rate | var_spec | trayUsageCards | [188](../../magpie/internal/gui/trayusage.go#L188) |
-| noCost | var_spec | trayUsageCards | [189](../../magpie/internal/gui/trayusage.go#L189) |
-| trayTotal | const_spec |  | [209](../../magpie/internal/gui/trayusage.go#L209) |
-| trayTotalPeriod | function_declaration |  | [214](../../magpie/internal/gui/trayusage.go#L214) |
-| trayTotalSum | var_spec |  | [227](../../magpie/internal/gui/trayusage.go#L227) |
-| trayTotalCard | function_declaration |  | [235](../../magpie/internal/gui/trayusage.go#L235) |
-| trayMoney | function_declaration |  | [260](../../magpie/internal/gui/trayusage.go#L260) |
-| trayCurrency | function_declaration |  | [269](../../magpie/internal/gui/trayusage.go#L269) |
-| trayTokens | function_declaration |  | [279](../../magpie/internal/gui/trayusage.go#L279) |
-| trayIdleTip | function_declaration |  | [292](../../magpie/internal/gui/trayusage.go#L292) |
-| trayCount | function_declaration |  | [313](../../magpie/internal/gui/trayusage.go#L313) |
-| trayPick | function_declaration |  | [330](../../magpie/internal/gui/trayusage.go#L330) |
-| out | var_spec | trayPick | [331](../../magpie/internal/gui/trayusage.go#L331) |
-| trayInUse | const_spec |  | [349](../../magpie/internal/gui/trayusage.go#L349) |
-| trayInUseAccount | var_spec |  | [353](../../magpie/internal/gui/trayusage.go#L353) |
-| trayServedFresh | var_spec |  | [357](../../magpie/internal/gui/trayusage.go#L357) |
-| trayInUseCard | function_declaration |  | [369](../../magpie/internal/gui/trayusage.go#L369) |
-| mine | var_spec | trayInUseCard | [370](../../magpie/internal/gui/trayusage.go#L370) |
-| trayName | function_declaration |  | [410](../../magpie/internal/gui/trayusage.go#L410) |
-| trayCell | type_spec |  | [420](../../magpie/internal/gui/trayusage.go#L420) |
-| ID | field_declaration | trayCell | [421](../../magpie/internal/gui/trayusage.go#L421) |
-| Icon | field_declaration | trayCell | [422](../../magpie/internal/gui/trayusage.go#L422) |
-| Mono | field_declaration | trayCell | [423](../../magpie/internal/gui/trayusage.go#L423) |
-| Letter | field_declaration | trayCell | [424](../../magpie/internal/gui/trayusage.go#L424) |
-| Plain | field_declaration | trayCell | [425](../../magpie/internal/gui/trayusage.go#L425) |
-| Rows | field_declaration | trayCell | [426](../../magpie/internal/gui/trayusage.go#L426) |
-| trayPlain | function_declaration |  | [431](../../magpie/internal/gui/trayusage.go#L431) |
-| trayUsageView | function_declaration |  | [442](../../magpie/internal/gui/trayusage.go#L442) |
-| labels | var_spec | trayUsageView | [443](../../magpie/internal/gui/trayusage.go#L443) |
-| sniTip | function_declaration |  | [476](../../magpie/internal/gui/trayusage.go#L476) |
-| trayRow | function_declaration |  | [483](../../magpie/internal/gui/trayusage.go#L483) |
-| trayRowMax | const_spec |  | [490](../../magpie/internal/gui/trayusage.go#L490) |
-| trayIconFile | function_declaration |  | [496](../../magpie/internal/gui/trayusage.go#L496) |
-| svgPathData | var_spec |  | [510](../../magpie/internal/gui/trayusage.go#L510) |
-| svgArcFlags | function_declaration |  | [516](../../magpie/internal/gui/trayusage.go#L516) |
-| out | var_spec | svgArcFlags | [519](../../magpie/internal/gui/trayusage.go#L519) |
-| svgNumber | function_declaration |  | [556](../../magpie/internal/gui/trayusage.go#L556) |
-| onTrayUsage | var_spec |  | [588](../../magpie/internal/gui/trayusage.go#L588) |
-| onTrayCellClick | var_spec |  | [592](../../magpie/internal/gui/trayusage.go#L592) |
-| panelQuotaJS | function_declaration |  | [595](../../magpie/internal/gui/trayusage.go#L595) |
+| trayUsageEvery | function_declaration |  | [34](../../magpie/internal/gui/trayusage.go#L34) |
+| trayCardID | function_declaration |  | [40](../../magpie/internal/gui/trayusage.go#L40) |
+| trayWindows | function_declaration |  | [54](../../magpie/internal/gui/trayusage.go#L54) |
+| ws | var_spec | trayWindows | [55](../../magpie/internal/gui/trayusage.go#L55) |
+| trayCounted | function_declaration |  | [79](../../magpie/internal/gui/trayusage.go#L79) |
+| trayShared | function_declaration |  | [88](../../magpie/internal/gui/trayusage.go#L88) |
+| ws | var_spec | trayShared | [89](../../magpie/internal/gui/trayusage.go#L89) |
+| trayModels | function_declaration |  | [106](../../magpie/internal/gui/trayusage.go#L106) |
+| ws | var_spec | trayModels | [107](../../magpie/internal/gui/trayusage.go#L107) |
+| trayWindowKind | function_declaration |  | [133](../../magpie/internal/gui/trayusage.go#L133) |
+| trayChoice | type_spec |  | [151](../../magpie/internal/gui/trayusage.go#L151) |
+| w | field_declaration | trayChoice | [152](../../magpie/internal/gui/trayusage.go#L152) |
+| kind | field_declaration | trayChoice | [153](../../magpie/internal/gui/trayusage.go#L153) |
+| extra | field_declaration | trayChoice | [154](../../magpie/internal/gui/trayusage.go#L154) |
+| trayChoices | function_declaration |  | [167](../../magpie/internal/gui/trayusage.go#L167) |
+| cs | var_spec | trayChoices | [169](../../magpie/internal/gui/trayusage.go#L169) |
+| trayNamedKind | function_declaration |  | [199](../../magpie/internal/gui/trayusage.go#L199) |
+| sameTrayWindow | function_declaration |  | [215](../../magpie/internal/gui/trayusage.go#L215) |
+| trayShownKinds | function_declaration |  | [223](../../magpie/internal/gui/trayusage.go#L223) |
+| withTrayKinds | function_declaration |  | [235](../../magpie/internal/gui/trayusage.go#L235) |
+| trayUsageText | function_declaration |  | [256](../../magpie/internal/gui/trayusage.go#L256) |
+| trayCardText | function_declaration |  | [269](../../magpie/internal/gui/trayusage.go#L269) |
+| short | var_spec | trayCardText | [290](../../magpie/internal/gui/trayusage.go#L290) |
+| trayPace | function_declaration |  | [341](../../magpie/internal/gui/trayusage.go#L341) |
+| trayAsOf | function_declaration |  | [358](../../magpie/internal/gui/trayusage.go#L358) |
+| resetAt | function_declaration |  | [365](../../magpie/internal/gui/trayusage.go#L365) |
+| until | function_declaration |  | [376](../../magpie/internal/gui/trayusage.go#L376) |
+| trayUsageCards | function_declaration |  | [392](../../magpie/internal/gui/trayusage.go#L392) |
+| cards | var_spec | trayUsageCards | [396](../../magpie/internal/gui/trayusage.go#L396) |
+| currency | var_spec | trayUsageCards | [400](../../magpie/internal/gui/trayusage.go#L400) |
+| rate | var_spec | trayUsageCards | [401](../../magpie/internal/gui/trayusage.go#L401) |
+| noCost | var_spec | trayUsageCards | [402](../../magpie/internal/gui/trayusage.go#L402) |
+| trayTotal | const_spec |  | [422](../../magpie/internal/gui/trayusage.go#L422) |
+| trayTotalPeriod | function_declaration |  | [427](../../magpie/internal/gui/trayusage.go#L427) |
+| trayTotalSum | var_spec |  | [440](../../magpie/internal/gui/trayusage.go#L440) |
+| trayTotalFresh | const_spec |  | [447](../../magpie/internal/gui/trayusage.go#L447) |
+| trayTotals | var_spec |  | [449](../../magpie/internal/gui/trayusage.go#L449) |
+| trayTotalMemo | type_spec |  | [452](../../magpie/internal/gui/trayusage.go#L452) |
+| got | field_declaration | trayTotalMemo | [454](../../magpie/internal/gui/trayusage.go#L454) |
+| trayTotalGot | type_spec |  | [457](../../magpie/internal/gui/trayusage.go#L457) |
+| day | field_declaration | trayTotalGot | [458](../../magpie/internal/gui/trayusage.go#L458) |
+| at | field_declaration | trayTotalGot | [459](../../magpie/internal/gui/trayusage.go#L459) |
+| sum | field_declaration | trayTotalGot | [460](../../magpie/internal/gui/trayusage.go#L460) |
+| sum | method_declaration |  | [465](../../magpie/internal/gui/trayusage.go#L465) |
+| trayQuerySum | var_spec |  | [484](../../magpie/internal/gui/trayusage.go#L484) |
+| trayTotalCard | function_declaration |  | [492](../../magpie/internal/gui/trayusage.go#L492) |
+| trayMoney | function_declaration |  | [517](../../magpie/internal/gui/trayusage.go#L517) |
+| trayCurrency | function_declaration |  | [526](../../magpie/internal/gui/trayusage.go#L526) |
+| trayTokens | function_declaration |  | [536](../../magpie/internal/gui/trayusage.go#L536) |
+| trayIdleTip | function_declaration |  | [551](../../magpie/internal/gui/trayusage.go#L551) |
+| trayCount | function_declaration |  | [572](../../magpie/internal/gui/trayusage.go#L572) |
+| trayPick | function_declaration |  | [589](../../magpie/internal/gui/trayusage.go#L589) |
+| out | var_spec | trayPick | [590](../../magpie/internal/gui/trayusage.go#L590) |
+| trayInUse | const_spec |  | [608](../../magpie/internal/gui/trayusage.go#L608) |
+| trayInUseAccount | var_spec |  | [612](../../magpie/internal/gui/trayusage.go#L612) |
+| trayServedFresh | var_spec |  | [616](../../magpie/internal/gui/trayusage.go#L616) |
+| trayInUseCard | function_declaration |  | [628](../../magpie/internal/gui/trayusage.go#L628) |
+| mine | var_spec | trayInUseCard | [629](../../magpie/internal/gui/trayusage.go#L629) |
+| trayName | function_declaration |  | [669](../../magpie/internal/gui/trayusage.go#L669) |
+| trayCell | type_spec |  | [679](../../magpie/internal/gui/trayusage.go#L679) |
+| ID | field_declaration | trayCell | [680](../../magpie/internal/gui/trayusage.go#L680) |
+| Icon | field_declaration | trayCell | [681](../../magpie/internal/gui/trayusage.go#L681) |
+| Mono | field_declaration | trayCell | [682](../../magpie/internal/gui/trayusage.go#L682) |
+| Letter | field_declaration | trayCell | [683](../../magpie/internal/gui/trayusage.go#L683) |
+| Plain | field_declaration | trayCell | [684](../../magpie/internal/gui/trayusage.go#L684) |
+| Rows | field_declaration | trayCell | [685](../../magpie/internal/gui/trayusage.go#L685) |
+| trayPlain | function_declaration |  | [690](../../magpie/internal/gui/trayusage.go#L690) |
+| trayUsageView | function_declaration |  | [699](../../magpie/internal/gui/trayusage.go#L699) |
+| trayCardsView | function_declaration |  | [708](../../magpie/internal/gui/trayusage.go#L708) |
+| labels | var_spec | trayCardsView | [709](../../magpie/internal/gui/trayusage.go#L709) |
+| sniTip | function_declaration |  | [742](../../magpie/internal/gui/trayusage.go#L742) |
+| trayRow | function_declaration |  | [749](../../magpie/internal/gui/trayusage.go#L749) |
+| trayRowMax | const_spec |  | [756](../../magpie/internal/gui/trayusage.go#L756) |
+| trayIconFile | function_declaration |  | [763](../../magpie/internal/gui/trayusage.go#L763) |
+| svgPathData | var_spec |  | [791](../../magpie/internal/gui/trayusage.go#L791) |
+| svgArcFlags | function_declaration |  | [797](../../magpie/internal/gui/trayusage.go#L797) |
+| out | var_spec | svgArcFlags | [800](../../magpie/internal/gui/trayusage.go#L800) |
+| svgNumber | function_declaration |  | [837](../../magpie/internal/gui/trayusage.go#L837) |
+| onTrayUsage | var_spec |  | [869](../../magpie/internal/gui/trayusage.go#L869) |
+| onTrayCellClick | var_spec |  | [873](../../magpie/internal/gui/trayusage.go#L873) |
+| panelQuotaJS | function_declaration |  | [876](../../magpie/internal/gui/trayusage.go#L876) |

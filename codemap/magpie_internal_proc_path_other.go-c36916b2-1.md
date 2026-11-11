@@ -4,39 +4,59 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/path_other.go) · page 1/1
 
-Source SHA-256: 451b03d927af256d4c5a5cd843f2e01c666809161d044402ea084e6c1380ca63
+Source SHA-256: e6c3281a9918e39bc5fded258bbf8ddab7dd2cdcb536a1fc5629faaa1e519882
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| UserPath | function_declaration |  | [40](../../magpie/internal/proc/path_other.go#L40) |
-| shellWait | const_spec |  | [66](../../magpie/internal/proc/path_other.go#L66) |
-| setUnset | function_declaration |  | [70](../../magpie/internal/proc/path_other.go#L70) |
-| login | var_spec |  | [78](../../magpie/internal/proc/path_other.go#L78) |
-| dirs | field_declaration | login | [80](../../magpie/internal/proc/path_other.go#L80) |
-| vars | field_declaration | login | [81](../../magpie/internal/proc/path_other.go#L81) |
-| at | field_declaration | login | [82](../../magpie/internal/proc/path_other.go#L82) |
-| LoginPath | function_declaration |  | [89](../../magpie/internal/proc/path_other.go#L89) |
-| ProxyVars | var_spec |  | [112](../../magpie/internal/proc/path_other.go#L112) |
-| shellVars | var_spec |  | [117](../../magpie/internal/proc/path_other.go#L117) |
-| LoginEnv | function_declaration |  | [122](../../magpie/internal/proc/path_other.go#L122) |
-| UserBinDirs | function_declaration |  | [135](../../magpie/internal/proc/path_other.go#L135) |
-| userDirs | function_declaration |  | [137](../../magpie/internal/proc/path_other.go#L137) |
-| known | var_spec | userDirs | [139](../../magpie/internal/proc/path_other.go#L139) |
-| have | var_spec | userDirs | [168](../../magpie/internal/proc/path_other.go#L168) |
-| npmPrefix | function_declaration |  | [179](../../magpie/internal/proc/path_other.go#L179) |
-| shellEnv | function_declaration |  | [211](../../magpie/internal/proc/path_other.go#L211) |
-| wg | var_spec | shellEnv | [222](../../magpie/internal/proc/path_other.go#L222) |
-| termShells | function_declaration |  | [237](../../magpie/internal/proc/path_other.go#L237) |
-| out | var_spec | termShells | [247](../../magpie/internal/proc/path_other.go#L247) |
-| shellDirs | var_spec |  | [265](../../magpie/internal/proc/path_other.go#L265) |
-| FindShell | function_declaration |  | [279](../../magpie/internal/proc/path_other.go#L279) |
-| mergeShellEnv | function_declaration |  | [304](../../magpie/internal/proc/path_other.go#L304) |
-| dirs | var_spec | mergeShellEnv | [305](../../magpie/internal/proc/path_other.go#L305) |
-| merged | var_spec | mergeShellEnv | [313](../../magpie/internal/proc/path_other.go#L313) |
-| askShell | function_declaration |  | [353](../../magpie/internal/proc/path_other.go#L353) |
-| shellAsk | var_spec |  | [363](../../magpie/internal/proc/path_other.go#L363) |
-| askShellAs | function_declaration |  | [365](../../magpie/internal/proc/path_other.go#L365) |
-| ShellPath | function_declaration |  | [378](../../magpie/internal/proc/path_other.go#L378) |
-| shellMark | const_spec |  | [387](../../magpie/internal/proc/path_other.go#L387) |
-| shellProbe | function_declaration |  | [410](../../magpie/internal/proc/path_other.go#L410) |
-| parseShellEnv | function_declaration |  | [430](../../magpie/internal/proc/path_other.go#L430) |
+| UserPath | function_declaration |  | [39](../../magpie/internal/proc/path_other.go#L39) |
+| shellWait | const_spec |  | [65](../../magpie/internal/proc/path_other.go#L65) |
+| setUnset | function_declaration |  | [69](../../magpie/internal/proc/path_other.go#L69) |
+| login | var_spec |  | [77](../../magpie/internal/proc/path_other.go#L77) |
+| dirs | field_declaration | login | [79](../../magpie/internal/proc/path_other.go#L79) |
+| vars | field_declaration | login | [80](../../magpie/internal/proc/path_other.go#L80) |
+| at | field_declaration | login | [81](../../magpie/internal/proc/path_other.go#L81) |
+| LoginPath | function_declaration |  | [88](../../magpie/internal/proc/path_other.go#L88) |
+| ProxyVars | var_spec |  | [111](../../magpie/internal/proc/path_other.go#L111) |
+| RegistryVars | var_spec |  | [117](../../magpie/internal/proc/path_other.go#L117) |
+| shellVars | var_spec |  | [122](../../magpie/internal/proc/path_other.go#L122) |
+| LoginEnv | function_declaration |  | [127](../../magpie/internal/proc/path_other.go#L127) |
+| LoginEnvKnown | function_declaration |  | [137](../../magpie/internal/proc/path_other.go#L137) |
+| UserBinDirs | function_declaration |  | [149](../../magpie/internal/proc/path_other.go#L149) |
+| userDirs | function_declaration |  | [151](../../magpie/internal/proc/path_other.go#L151) |
+| known | var_spec | userDirs | [153](../../magpie/internal/proc/path_other.go#L153) |
+| have | var_spec | userDirs | [185](../../magpie/internal/proc/path_other.go#L185) |
+| npmPrefix | function_declaration |  | [196](../../magpie/internal/proc/path_other.go#L196) |
+| shellEnv | function_declaration |  | [228](../../magpie/internal/proc/path_other.go#L228) |
+| wg | var_spec | shellEnv | [233](../../magpie/internal/proc/path_other.go#L233) |
+| loginShell | function_declaration |  | [246](../../magpie/internal/proc/path_other.go#L246) |
+| termShells | function_declaration |  | [260](../../magpie/internal/proc/path_other.go#L260) |
+| out | var_spec | termShells | [270](../../magpie/internal/proc/path_other.go#L270) |
+| shellDirs | var_spec |  | [288](../../magpie/internal/proc/path_other.go#L288) |
+| FindShell | function_declaration |  | [302](../../magpie/internal/proc/path_other.go#L302) |
+| mergeShellEnv | function_declaration |  | [327](../../magpie/internal/proc/path_other.go#L327) |
+| dirs | var_spec | mergeShellEnv | [328](../../magpie/internal/proc/path_other.go#L328) |
+| merged | var_spec | mergeShellEnv | [336](../../magpie/internal/proc/path_other.go#L336) |
+| askShell | function_declaration |  | [376](../../magpie/internal/proc/path_other.go#L376) |
+| shellAsk | var_spec |  | [386](../../magpie/internal/proc/path_other.go#L386) |
+| askShellAs | function_declaration |  | [388](../../magpie/internal/proc/path_other.go#L388) |
+| askShellRaw | function_declaration |  | [395](../../magpie/internal/proc/path_other.go#L395) |
+| ShellPath | function_declaration |  | [408](../../magpie/internal/proc/path_other.go#L408) |
+| shellMark | const_spec |  | [417](../../magpie/internal/proc/path_other.go#L417) |
+| shellProbe | function_declaration |  | [440](../../magpie/internal/proc/path_other.go#L440) |
+| parseShellEnv | function_declaration |  | [460](../../magpie/internal/proc/path_other.go#L460) |
+| varName | function_declaration |  | [492](../../magpie/internal/proc/path_other.go#L492) |
+| named | var_spec |  | [504](../../magpie/internal/proc/path_other.go#L504) |
+| who | field_declaration | named | [507](../../magpie/internal/proc/path_other.go#L507) |
+| vals | field_declaration | named | [508](../../magpie/internal/proc/path_other.go#L508) |
+| namedVal | type_spec |  | [511](../../magpie/internal/proc/path_other.go#L511) |
+| v | field_declaration | namedVal | [512](../../magpie/internal/proc/path_other.go#L512) |
+| set | field_declaration | namedVal | [513](../../magpie/internal/proc/path_other.go#L513) |
+| at | field_declaration | namedVal | [514](../../magpie/internal/proc/path_other.go#L514) |
+| LoginVars | function_declaration |  | [527](../../magpie/internal/proc/path_other.go#L527) |
+| ask | var_spec | LoginVars | [530](../../magpie/internal/proc/path_other.go#L530) |
+| shellNamed | function_declaration |  | [572](../../magpie/internal/proc/path_other.go#L572) |
+| wg | var_spec | shellNamed | [576](../../magpie/internal/proc/path_other.go#L576) |
+| askNamed | function_declaration |  | [598](../../magpie/internal/proc/path_other.go#L598) |
+| shellNamedProbe | function_declaration |  | [610](../../magpie/internal/proc/path_other.go#L610) |
+| format | var_spec | shellNamedProbe | [611](../../magpie/internal/proc/path_other.go#L611) |
+| parseNamed | function_declaration |  | [628](../../magpie/internal/proc/path_other.go#L628) |

@@ -4,41 +4,52 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/pagebridge.js) · page 1/1
 
-Source SHA-256: 0f5be9b64dc02a7e977ffa0bcd32b825574683ed4108e88004b2644dbe05f0c1
+Source SHA-256: be1532ec71d8ff176a7866af32d766918b6bc0d838e26718b8776b0fbd1911e8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| waiting | VariableDeclaration |  | [34](../../magpie/internal/gui/pagebridge.js#L34) |
-| next | VariableDeclaration |  | [35](../../magpie/internal/gui/pagebridge.js#L35) |
-| themed | VariableDeclaration |  | [36](../../magpie/internal/gui/pagebridge.js#L36) |
-| acting | VariableDeclaration |  | [37](../../magpie/internal/gui/pagebridge.js#L37) |
-| acted | VariableDeclaration |  | [38](../../magpie/internal/gui/pagebridge.js#L38) |
-| call | FunctionDeclaration |  | [39](../../magpie/internal/gui/pagebridge.js#L39) |
-| id | VariableDeclaration | call | [40](../../magpie/internal/gui/pagebridge.js#L40) |
-| paint | FunctionDeclaration |  | [46](../../magpie/internal/gui/pagebridge.js#L46) |
-| root | VariableDeclaration | paint | [47](../../magpie/internal/gui/pagebridge.js#L47) |
-| [k, v] | VariableDeclaration | paint | [52](../../magpie/internal/gui/pagebridge.js#L52) |
-| k | BindingElement | paint.[k, v] | [52](../../magpie/internal/gui/pagebridge.js#L52) |
-| v | BindingElement | paint.[k, v] | [52](../../magpie/internal/gui/pagebridge.js#L52) |
-| m | VariableDeclaration |  | [56](../../magpie/internal/gui/pagebridge.js#L56) |
-| fn | VariableDeclaration |  | [61](../../magpie/internal/gui/pagebridge.js#L61) |
-| err | VariableDeclaration |  | [61](../../magpie/internal/gui/pagebridge.js#L61) |
-| w | VariableDeclaration |  | [68](../../magpie/internal/gui/pagebridge.js#L68) |
-| report | FunctionDeclaration |  | [73](../../magpie/internal/gui/pagebridge.js#L73) |
-| measuring | VariableDeclaration |  | [85](../../magpie/internal/gui/pagebridge.js#L85) |
-| act | FunctionDeclaration |  | [91](../../magpie/internal/gui/pagebridge.js#L91) |
-| err | VariableDeclaration | act | [92](../../magpie/internal/gui/pagebridge.js#L92) |
-| api | VariableDeclaration |  | [94](../../magpie/internal/gui/pagebridge.js#L94) |
-| onTheme | MethodDeclaration | api | [97](../../magpie/internal/gui/pagebridge.js#L97) |
-| onAction | MethodDeclaration | api | [98](../../magpie/internal/gui/pagebridge.js#L98) |
-| d | VariableDeclaration | api.onAction | [100](../../magpie/internal/gui/pagebridge.js#L100) |
-| get | PropertyAssignment | api | [103](../../magpie/internal/gui/pagebridge.js#L103) |
-| set | PropertyAssignment | api | [104](../../magpie/internal/gui/pagebridge.js#L104) |
-| read | PropertyAssignment | api | [106](../../magpie/internal/gui/pagebridge.js#L106) |
-| context | BindingElement |  | [108](../../magpie/internal/gui/pagebridge.js#L108) |
-| theme | BindingElement |  | [108](../../magpie/internal/gui/pagebridge.js#L108) |
-| told | VariableDeclaration |  | [116](../../magpie/internal/gui/pagebridge.js#L116) |
-| size | VariableDeclaration |  | [117](../../magpie/internal/gui/pagebridge.js#L117) |
-| h | VariableDeclaration | size | [118](../../magpie/internal/gui/pagebridge.js#L118) |
-| watch | VariableDeclaration |  | [123](../../magpie/internal/gui/pagebridge.js#L123) |
-| base | VariableDeclaration |  | [135](../../magpie/internal/gui/pagebridge.js#L135) |
+| waiting | VariableDeclaration |  | [55](../../magpie/internal/gui/pagebridge.js#L55) |
+| next | VariableDeclaration |  | [56](../../magpie/internal/gui/pagebridge.js#L56) |
+| themed | VariableDeclaration |  | [57](../../magpie/internal/gui/pagebridge.js#L57) |
+| watched | VariableDeclaration |  | [58](../../magpie/internal/gui/pagebridge.js#L58) |
+| acting | VariableDeclaration |  | [59](../../magpie/internal/gui/pagebridge.js#L59) |
+| acted | VariableDeclaration |  | [60](../../magpie/internal/gui/pagebridge.js#L60) |
+| call | FunctionDeclaration |  | [61](../../magpie/internal/gui/pagebridge.js#L61) |
+| id | VariableDeclaration | call | [62](../../magpie/internal/gui/pagebridge.js#L62) |
+| paint | FunctionDeclaration |  | [68](../../magpie/internal/gui/pagebridge.js#L68) |
+| root | VariableDeclaration | paint | [69](../../magpie/internal/gui/pagebridge.js#L69) |
+| [k, v] | VariableDeclaration | paint | [74](../../magpie/internal/gui/pagebridge.js#L74) |
+| k | BindingElement | paint.[k, v] | [74](../../magpie/internal/gui/pagebridge.js#L74) |
+| v | BindingElement | paint.[k, v] | [74](../../magpie/internal/gui/pagebridge.js#L74) |
+| m | VariableDeclaration |  | [78](../../magpie/internal/gui/pagebridge.js#L78) |
+| fn | VariableDeclaration |  | [83](../../magpie/internal/gui/pagebridge.js#L83) |
+| err | VariableDeclaration |  | [83](../../magpie/internal/gui/pagebridge.js#L83) |
+| fn | VariableDeclaration |  | [88](../../magpie/internal/gui/pagebridge.js#L88) |
+| err | VariableDeclaration |  | [88](../../magpie/internal/gui/pagebridge.js#L88) |
+| w | VariableDeclaration |  | [95](../../magpie/internal/gui/pagebridge.js#L95) |
+| foreign | FunctionDeclaration |  | [110](../../magpie/internal/gui/pagebridge.js#L110) |
+| where | VariableDeclaration | foreign | [111](../../magpie/internal/gui/pagebridge.js#L111) |
+| why | VariableDeclaration | foreign | [117](../../magpie/internal/gui/pagebridge.js#L117) |
+| report | FunctionDeclaration |  | [121](../../magpie/internal/gui/pagebridge.js#L121) |
+| measuring | VariableDeclaration |  | [133](../../magpie/internal/gui/pagebridge.js#L133) |
+| act | FunctionDeclaration |  | [143](../../magpie/internal/gui/pagebridge.js#L143) |
+| err | VariableDeclaration | act | [144](../../magpie/internal/gui/pagebridge.js#L144) |
+| api | VariableDeclaration |  | [146](../../magpie/internal/gui/pagebridge.js#L146) |
+| onTheme | MethodDeclaration | api | [151](../../magpie/internal/gui/pagebridge.js#L151) |
+| onVisibility | MethodDeclaration | api | [152](../../magpie/internal/gui/pagebridge.js#L152) |
+| onAction | MethodDeclaration | api | [153](../../magpie/internal/gui/pagebridge.js#L153) |
+| d | VariableDeclaration | api.onAction | [155](../../magpie/internal/gui/pagebridge.js#L155) |
+| get | PropertyAssignment | api | [158](../../magpie/internal/gui/pagebridge.js#L158) |
+| set | PropertyAssignment | api | [159](../../magpie/internal/gui/pagebridge.js#L159) |
+| read | PropertyAssignment | api | [161](../../magpie/internal/gui/pagebridge.js#L161) |
+| copy | PropertyAssignment | api | [163](../../magpie/internal/gui/pagebridge.js#L163) |
+| save | PropertyAssignment | api | [164](../../magpie/internal/gui/pagebridge.js#L164) |
+| context | BindingElement |  | [167](../../magpie/internal/gui/pagebridge.js#L167) |
+| service | BindingElement |  | [167](../../magpie/internal/gui/pagebridge.js#L167) |
+| visible | BindingElement |  | [167](../../magpie/internal/gui/pagebridge.js#L167) |
+| theme | BindingElement |  | [167](../../magpie/internal/gui/pagebridge.js#L167) |
+| told | VariableDeclaration |  | [178](../../magpie/internal/gui/pagebridge.js#L178) |
+| size | VariableDeclaration |  | [179](../../magpie/internal/gui/pagebridge.js#L179) |
+| h | VariableDeclaration | size | [180](../../magpie/internal/gui/pagebridge.js#L180) |
+| watch | VariableDeclaration |  | [185](../../magpie/internal/gui/pagebridge.js#L185) |
+| base | VariableDeclaration |  | [197](../../magpie/internal/gui/pagebridge.js#L197) |

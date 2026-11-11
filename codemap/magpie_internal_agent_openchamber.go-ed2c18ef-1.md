@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/openchamber.go) · page 1/1
 
-Source SHA-256: 4c739f8c3cc03fe986b6e3d5a228f955261d9e712bb9442a9ec78b12428c5e07
+Source SHA-256: 2d4c08f01a51f66744f90d546c893fe227872d231555796b805d59931f24ef7c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,6 +26,6 @@ Source SHA-256: 4c739f8c3cc03fe986b6e3d5a228f955261d9e712bb9442a9ec78b12428c5e07
 | Label | field_declaration | projectModels::ps | [137](../../magpie/internal/agent/openchamber.go#L137) |
 | openChamberOnMagpie | function_declaration |  | [156](../../magpie/internal/agent/openchamber.go#L156) |
 | openChamber | function_declaration |  | [162](../../magpie/internal/agent/openchamber.go#L162) |
-| notes | var_spec | openChamber | [188](../../magpie/internal/agent/openchamber.go#L188) |
-| noticeOpenchamber1 | var_spec |  | [254](../../magpie/internal/agent/openchamber.go#L254) |
-| noticeOpenchamber2 | var_spec |  | [255](../../magpie/internal/agent/openchamber.go#L255) |
+| notes | var_spec | openChamber | [191](../../magpie/internal/agent/openchamber.go#L191) |
+| noticeOpenchamber1 | var_spec |  | [255](../../magpie/internal/agent/openchamber.go#L255) |
+| noticeOpenchamber2 | var_spec |  | [256](../../magpie/internal/agent/openchamber.go#L256) |

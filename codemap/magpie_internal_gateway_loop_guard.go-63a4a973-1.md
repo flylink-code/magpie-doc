@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/loop_guard.go) · page 1/1
 
-Source SHA-256: 84fefa1d5c9734965e2d7063439719f7018318104b3c200d0f3286f939effc08
+Source SHA-256: ccda2c467a30984f620a1a294d0059222d95d14240cb663fd8f2dacd28b610c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -36,34 +36,35 @@ Source SHA-256: 84fefa1d5c9734965e2d7063439719f7018318104b3c200d0f3286f939effc08
 | window | field_declaration | loopTrip | [82](../../magpie/internal/gateway/loop_guard.go#L82) |
 | runOn | field_declaration | loopTrip | [85](../../magpie/internal/gateway/loop_guard.go#L85) |
 | message | method_declaration |  | [89](../../magpie/internal/gateway/loop_guard.go#L89) |
-| feed | method_declaration |  | [111](../../magpie/internal/gateway/loop_guard.go#L111) |
-| eventWords | function_declaration |  | [147](../../magpie/internal/gateway/loop_guard.go#L147) |
-| data | var_spec | eventWords | [151](../../magpie/internal/gateway/loop_guard.go#L151) |
-| v | var_spec | eventWords | [161](../../magpie/internal/gateway/loop_guard.go#L161) |
-| Type | field_declaration | eventWords::v | [162](../../magpie/internal/gateway/loop_guard.go#L162) |
-| Delta | field_declaration | eventWords::v | [163](../../magpie/internal/gateway/loop_guard.go#L163) |
-| Choices | field_declaration | eventWords::v | [164](../../magpie/internal/gateway/loop_guard.go#L164) |
-| Delta | field_declaration | eventWords::v::Choices | [165](../../magpie/internal/gateway/loop_guard.go#L165) |
-| Content | field_declaration | eventWords::v::Choices::Delta | [166](../../magpie/internal/gateway/loop_guard.go#L166) |
-| ReasoningContent | field_declaration | eventWords::v::Choices::Delta | [167](../../magpie/internal/gateway/loop_guard.go#L167) |
-| Reasoning | field_declaration | eventWords::v::Choices::Delta | [168](../../magpie/internal/gateway/loop_guard.go#L168) |
-| Candidates | field_declaration | eventWords::v | [171](../../magpie/internal/gateway/loop_guard.go#L171) |
-| Content | field_declaration | eventWords::v::Candidates | [172](../../magpie/internal/gateway/loop_guard.go#L172) |
-| Parts | field_declaration | eventWords::v::Candidates::Content | [173](../../magpie/internal/gateway/loop_guard.go#L173) |
-| Text | field_declaration | eventWords::v::Candidates::Content::Parts | [174](../../magpie/internal/gateway/loop_guard.go#L174) |
-| Thought | field_declaration | eventWords::v::Candidates::Content::Parts | [175](../../magpie/internal/gateway/loop_guard.go#L175) |
-| s | var_spec | eventWords | [184](../../magpie/internal/gateway/loop_guard.go#L184) |
-| d | var_spec | eventWords | [192](../../magpie/internal/gateway/loop_guard.go#L192) |
-| Type | field_declaration | eventWords::d | [193](../../magpie/internal/gateway/loop_guard.go#L193) |
-| Text | field_declaration | eventWords::d | [194](../../magpie/internal/gateway/loop_guard.go#L194) |
-| Thinking | field_declaration | eventWords::d | [195](../../magpie/internal/gateway/loop_guard.go#L195) |
-| th | var_spec | eventWords | [214](../../magpie/internal/gateway/loop_guard.go#L214) |
-| cmpStr | function_declaration |  | [233](../../magpie/internal/gateway/loop_guard.go#L233) |
-| add | method_declaration |  | [241](../../magpie/internal/gateway/loop_guard.go#L241) |
-| end | method_declaration |  | [291](../../magpie/internal/gateway/loop_guard.go#L291) |
-| runOnUnits | const_spec |  | [357](../../magpie/internal/gateway/loop_guard.go#L357) |
-| runOnWords | function_declaration |  | [363](../../magpie/internal/gateway/loop_guard.go#L363) |
-| order | var_spec | runOnWords | [387](../../magpie/internal/gateway/loop_guard.go#L387) |
-| runOnDistinct | const_spec |  | [408](../../magpie/internal/gateway/loop_guard.go#L408) |
-| unitKey | function_declaration |  | [414](../../magpie/internal/gateway/loop_guard.go#L414) |
-| hasWord | function_declaration |  | [431](../../magpie/internal/gateway/loop_guard.go#L431) |
+| loopGuardSaid | const_spec |  | [112](../../magpie/internal/gateway/loop_guard.go#L112) |
+| feed | method_declaration |  | [115](../../magpie/internal/gateway/loop_guard.go#L115) |
+| eventWords | function_declaration |  | [151](../../magpie/internal/gateway/loop_guard.go#L151) |
+| data | var_spec | eventWords | [155](../../magpie/internal/gateway/loop_guard.go#L155) |
+| v | var_spec | eventWords | [165](../../magpie/internal/gateway/loop_guard.go#L165) |
+| Type | field_declaration | eventWords::v | [166](../../magpie/internal/gateway/loop_guard.go#L166) |
+| Delta | field_declaration | eventWords::v | [167](../../magpie/internal/gateway/loop_guard.go#L167) |
+| Choices | field_declaration | eventWords::v | [168](../../magpie/internal/gateway/loop_guard.go#L168) |
+| Delta | field_declaration | eventWords::v::Choices | [169](../../magpie/internal/gateway/loop_guard.go#L169) |
+| Content | field_declaration | eventWords::v::Choices::Delta | [170](../../magpie/internal/gateway/loop_guard.go#L170) |
+| ReasoningContent | field_declaration | eventWords::v::Choices::Delta | [171](../../magpie/internal/gateway/loop_guard.go#L171) |
+| Reasoning | field_declaration | eventWords::v::Choices::Delta | [172](../../magpie/internal/gateway/loop_guard.go#L172) |
+| Candidates | field_declaration | eventWords::v | [175](../../magpie/internal/gateway/loop_guard.go#L175) |
+| Content | field_declaration | eventWords::v::Candidates | [176](../../magpie/internal/gateway/loop_guard.go#L176) |
+| Parts | field_declaration | eventWords::v::Candidates::Content | [177](../../magpie/internal/gateway/loop_guard.go#L177) |
+| Text | field_declaration | eventWords::v::Candidates::Content::Parts | [178](../../magpie/internal/gateway/loop_guard.go#L178) |
+| Thought | field_declaration | eventWords::v::Candidates::Content::Parts | [179](../../magpie/internal/gateway/loop_guard.go#L179) |
+| s | var_spec | eventWords | [188](../../magpie/internal/gateway/loop_guard.go#L188) |
+| d | var_spec | eventWords | [196](../../magpie/internal/gateway/loop_guard.go#L196) |
+| Type | field_declaration | eventWords::d | [197](../../magpie/internal/gateway/loop_guard.go#L197) |
+| Text | field_declaration | eventWords::d | [198](../../magpie/internal/gateway/loop_guard.go#L198) |
+| Thinking | field_declaration | eventWords::d | [199](../../magpie/internal/gateway/loop_guard.go#L199) |
+| th | var_spec | eventWords | [218](../../magpie/internal/gateway/loop_guard.go#L218) |
+| cmpStr | function_declaration |  | [237](../../magpie/internal/gateway/loop_guard.go#L237) |
+| add | method_declaration |  | [245](../../magpie/internal/gateway/loop_guard.go#L245) |
+| end | method_declaration |  | [295](../../magpie/internal/gateway/loop_guard.go#L295) |
+| runOnUnits | const_spec |  | [361](../../magpie/internal/gateway/loop_guard.go#L361) |
+| runOnWords | function_declaration |  | [367](../../magpie/internal/gateway/loop_guard.go#L367) |
+| order | var_spec | runOnWords | [391](../../magpie/internal/gateway/loop_guard.go#L391) |
+| runOnDistinct | const_spec |  | [412](../../magpie/internal/gateway/loop_guard.go#L412) |
+| unitKey | function_declaration |  | [418](../../magpie/internal/gateway/loop_guard.go#L418) |
+| hasWord | function_declaration |  | [435](../../magpie/internal/gateway/loop_guard.go#L435) |

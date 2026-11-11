@@ -4,107 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/affinity.go) · page 1/2
 
-Source SHA-256: ab2641fbfed274bf153bdd389c5e5a6831a0359bc0de20c7c9f6c88a98eba35c
+Source SHA-256: 735e6fca1739c94a87b3bf93a5d463aa2498da23c2fff2d358928eb0e938ca6b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | cacheWorth | const_spec |  | [51](../../magpie/internal/gateway/affinity.go#L51) |
 | cacheCold | const_spec |  | [54](../../magpie/internal/gateway/affinity.go#L54) |
-| cacheHour | const_spec |  | [58](../../magpie/internal/gateway/affinity.go#L58) |
-| stickKeep | const_spec |  | [60](../../magpie/internal/gateway/affinity.go#L60) |
-| sticksKept | const_spec |  | [62](../../magpie/internal/gateway/affinity.go#L62) |
-| Affinity | type_spec |  | [67](../../magpie/internal/gateway/affinity.go#L67) |
-| Mode | field_declaration | Affinity | [68](../../magpie/internal/gateway/affinity.go#L68) |
-| Turn | field_declaration | Affinity | [69](../../magpie/internal/gateway/affinity.go#L69) |
-| Within | field_declaration | Affinity | [70](../../magpie/internal/gateway/affinity.go#L70) |
-| Last | field_declaration | Affinity | [71](../../magpie/internal/gateway/affinity.go#L71) |
-| LastTurn | field_declaration | Affinity | [72](../../magpie/internal/gateway/affinity.go#L72) |
-| At | field_declaration | Affinity | [73](../../magpie/internal/gateway/affinity.go#L73) |
-| CacheRead | field_declaration | Affinity | [74](../../magpie/internal/gateway/affinity.go#L74) |
-| CacheWrite | field_declaration | Affinity | [75](../../magpie/internal/gateway/affinity.go#L75) |
-| Kept | field_declaration | Affinity | [76](../../magpie/internal/gateway/affinity.go#L76) |
-| Why | field_declaration | Affinity | [82](../../magpie/internal/gateway/affinity.go#L82) |
-| stick | type_spec |  | [85](../../magpie/internal/gateway/affinity.go#L85) |
-| rest | field_declaration | stick | [86](../../magpie/internal/gateway/affinity.go#L86) |
-| who | field_declaration | stick | [87](../../magpie/internal/gateway/affinity.go#L87) |
-| model | field_declaration | stick | [88](../../magpie/internal/gateway/affinity.go#L88) |
-| effort | field_declaration | stick | [89](../../magpie/internal/gateway/affinity.go#L89) |
-| turn | field_declaration | stick | [90](../../magpie/internal/gateway/affinity.go#L90) |
-| at | field_declaration | stick | [91](../../magpie/internal/gateway/affinity.go#L91) |
-| cacheRead | field_declaration | stick | [92](../../magpie/internal/gateway/affinity.go#L92) |
-| cacheWrite | field_declaration | stick | [93](../../magpie/internal/gateway/affinity.go#L93) |
-| hour | field_declaration | stick | [94](../../magpie/internal/gateway/affinity.go#L94) |
-| hourCache | type_spec |  | [103](../../magpie/internal/gateway/affinity.go#L103) |
-| tokens | field_declaration | hourCache | [104](../../magpie/internal/gateway/affinity.go#L104) |
-| at | field_declaration | hourCache | [105](../../magpie/internal/gateway/affinity.go#L105) |
-| after | method_declaration |  | [112](../../magpie/internal/gateway/affinity.go#L112) |
-| warm | method_declaration |  | [123](../../magpie/internal/gateway/affinity.go#L123) |
-| sticks | var_spec |  | [127](../../magpie/internal/gateway/affinity.go#L127) |
-| m | field_declaration | sticks | [129](../../magpie/internal/gateway/affinity.go#L129) |
-| opening | field_declaration | sticks | [135](../../magpie/internal/gateway/affinity.go#L135) |
-| from | field_declaration | sticks | [138](../../magpie/internal/gateway/affinity.go#L138) |
-| mod | field_declaration | sticks | [139](../../magpie/internal/gateway/affinity.go#L139) |
-| sticksSaving | var_spec |  | [143](../../magpie/internal/gateway/affinity.go#L143) |
-| sticksFlushAfter | var_spec |  | [153](../../magpie/internal/gateway/affinity.go#L153) |
-| sticksFlush | var_spec |  | [161](../../magpie/internal/gateway/affinity.go#L161) |
-| pending | field_declaration | sticksFlush | [163](../../magpie/internal/gateway/affinity.go#L163) |
-| path | field_declaration | sticksFlush | [164](../../magpie/internal/gateway/affinity.go#L164) |
-| noteSticks | function_declaration |  | [169](../../magpie/internal/gateway/affinity.go#L169) |
-| flushSticks | function_declaration |  | [187](../../magpie/internal/gateway/affinity.go#L187) |
-| FlushSticks | function_declaration |  | [191](../../magpie/internal/gateway/affinity.go#L191) |
-| flushSticksAt | function_declaration |  | [195](../../magpie/internal/gateway/affinity.go#L195) |
-| savedStick | type_spec |  | [209](../../magpie/internal/gateway/affinity.go#L209) |
-| Rest | field_declaration | savedStick | [210](../../magpie/internal/gateway/affinity.go#L210) |
-| Who | field_declaration | savedStick | [211](../../magpie/internal/gateway/affinity.go#L211) |
-| Model | field_declaration | savedStick | [212](../../magpie/internal/gateway/affinity.go#L212) |
-| Effort | field_declaration | savedStick | [213](../../magpie/internal/gateway/affinity.go#L213) |
-| Turn | field_declaration | savedStick | [214](../../magpie/internal/gateway/affinity.go#L214) |
-| At | field_declaration | savedStick | [215](../../magpie/internal/gateway/affinity.go#L215) |
-| CacheRead | field_declaration | savedStick | [216](../../magpie/internal/gateway/affinity.go#L216) |
-| CacheWrite | field_declaration | savedStick | [219](../../magpie/internal/gateway/affinity.go#L219) |
-| CacheHour | field_declaration | savedStick | [222](../../magpie/internal/gateway/affinity.go#L222) |
-| CacheHourAt | field_declaration | savedStick | [223](../../magpie/internal/gateway/affinity.go#L223) |
-| sticksPath | function_declaration |  | [226](../../magpie/internal/gateway/affinity.go#L226) |
-| stickOf | function_declaration |  | [231](../../magpie/internal/gateway/affinity.go#L231) |
-| saved | var_spec | stickOf | [245](../../magpie/internal/gateway/affinity.go#L245) |
-| saveSticks | function_declaration |  | [265](../../magpie/internal/gateway/affinity.go#L265) |
-| kept | type_spec | saveSticks | [274](../../magpie/internal/gateway/affinity.go#L274) |
-| k | field_declaration | saveSticks::kept | [275](../../magpie/internal/gateway/affinity.go#L275) |
-| v | field_declaration | saveSticks::kept | [276](../../magpie/internal/gateway/affinity.go#L276) |
-| ks | var_spec | saveSticks | [278](../../magpie/internal/gateway/affinity.go#L278) |
-| turnOf | function_declaration |  | [322](../../magpie/internal/gateway/affinity.go#L322) |
-| turnIn | function_declaration |  | [336](../../magpie/internal/gateway/affinity.go#L336) |
-| strictKeep | function_declaration |  | [376](../../magpie/internal/gateway/affinity.go#L376) |
-| back | var_spec | strictKeep | [392](../../magpie/internal/gateway/affinity.go#L392) |
-| order | var_spec | strictKeep | [393](../../magpie/internal/gateway/affinity.go#L393) |
-| held | var_spec | strictKeep | [411](../../magpie/internal/gateway/affinity.go#L411) |
-| strictOnly | function_declaration |  | [432](../../magpie/internal/gateway/affinity.go#L432) |
-| stickKey | function_declaration |  | [467](../../magpie/internal/gateway/affinity.go#L467) |
-| affine | function_declaration |  | [481](../../magpie/internal/gateway/affinity.go#L481) |
-| heldFor | const_spec |  | [578](../../magpie/internal/gateway/affinity.go#L578) |
-| leastHeld | function_declaration |  | [589](../../magpie/internal/gateway/affinity.go#L589) |
-| after | function_declaration |  | [645](../../magpie/internal/gateway/affinity.go#L645) |
-| answered | function_declaration |  | [671](../../magpie/internal/gateway/affinity.go#L671) |
-| hour | var_spec | answered | [678](../../magpie/internal/gateway/affinity.go#L678) |
-| opened | function_declaration |  | [704](../../magpie/internal/gateway/affinity.go#L704) |
-| unanswered | function_declaration |  | [710](../../magpie/internal/gateway/affinity.go#L710) |
-| foreignReasoning | var_spec |  | [729](../../magpie/internal/gateway/affinity.go#L729) |
-| refusedSeals | var_spec |  | [738](../../magpie/internal/gateway/affinity.go#L738) |
-| m | field_declaration | refusedSeals | [740](../../magpie/internal/gateway/affinity.go#L740) |
-| sealsRefused | type_spec |  | [743](../../magpie/internal/gateway/affinity.go#L743) |
-| at | field_declaration | sealsRefused | [744](../../magpie/internal/gateway/affinity.go#L744) |
-| seals | field_declaration | sealsRefused | [745](../../magpie/internal/gateway/affinity.go#L745) |
-| sealedItem | type_spec |  | [749](../../magpie/internal/gateway/affinity.go#L749) |
-| Type | field_declaration | sealedItem | [750](../../magpie/internal/gateway/affinity.go#L750) |
-| Enc | field_declaration | sealedItem | [751](../../magpie/internal/gateway/affinity.go#L751) |
-| sealedKinds | var_spec |  | [758](../../magpie/internal/gateway/affinity.go#L758) |
-| compactionKinds | var_spec |  | [760](../../magpie/internal/gateway/affinity.go#L760) |
-| seals | function_declaration |  | [764](../../magpie/internal/gateway/affinity.go#L764) |
-| q | var_spec | seals | [765](../../magpie/internal/gateway/affinity.go#L765) |
-| Input | field_declaration | seals::q | [766](../../magpie/internal/gateway/affinity.go#L766) |
-| out | var_spec | seals | [771](../../magpie/internal/gateway/affinity.go#L771) |
-| refused | function_declaration |  | [782](../../magpie/internal/gateway/affinity.go#L782) |
-| withoutRefused | function_declaration |  | [812](../../magpie/internal/gateway/affinity.go#L812) |
-| q | var_spec | withoutRefused | [824](../../magpie/internal/gateway/affinity.go#L824) |
-| t | var_spec | withoutRefused | [834](../../magpie/internal/gateway/affinity.go#L834) |
-| withoutReasoning | function_declaration |  | [851](../../magpie/internal/gateway/affinity.go#L851) |
+| chatGPTCold | const_spec |  | [65](../../magpie/internal/gateway/affinity.go#L65) |
+| deepseekCold | const_spec |  | [73](../../magpie/internal/gateway/affinity.go#L73) |
+| cacheHour | const_spec |  | [77](../../magpie/internal/gateway/affinity.go#L77) |
+| stickKeep | const_spec |  | [79](../../magpie/internal/gateway/affinity.go#L79) |
+| sticksKept | const_spec |  | [81](../../magpie/internal/gateway/affinity.go#L81) |
+| coldAfter | function_declaration |  | [87](../../magpie/internal/gateway/affinity.go#L87) |
+| Affinity | type_spec |  | [99](../../magpie/internal/gateway/affinity.go#L99) |
+| Mode | field_declaration | Affinity | [100](../../magpie/internal/gateway/affinity.go#L100) |
+| Turn | field_declaration | Affinity | [101](../../magpie/internal/gateway/affinity.go#L101) |
+| Within | field_declaration | Affinity | [102](../../magpie/internal/gateway/affinity.go#L102) |
+| Last | field_declaration | Affinity | [103](../../magpie/internal/gateway/affinity.go#L103) |
+| LastTurn | field_declaration | Affinity | [104](../../magpie/internal/gateway/affinity.go#L104) |
+| At | field_declaration | Affinity | [105](../../magpie/internal/gateway/affinity.go#L105) |
+| CacheRead | field_declaration | Affinity | [106](../../magpie/internal/gateway/affinity.go#L106) |
+| CacheWrite | field_declaration | Affinity | [107](../../magpie/internal/gateway/affinity.go#L107) |
+| Kept | field_declaration | Affinity | [108](../../magpie/internal/gateway/affinity.go#L108) |
+| Why | field_declaration | Affinity | [129](../../magpie/internal/gateway/affinity.go#L129) |
+| Main | field_declaration | Affinity | [134](../../magpie/internal/gateway/affinity.go#L134) |
+| LeadModel | field_declaration | Affinity | [137](../../magpie/internal/gateway/affinity.go#L137) |
+| stick | type_spec |  | [140](../../magpie/internal/gateway/affinity.go#L140) |
+| rest | field_declaration | stick | [141](../../magpie/internal/gateway/affinity.go#L141) |
+| who | field_declaration | stick | [142](../../magpie/internal/gateway/affinity.go#L142) |
+| model | field_declaration | stick | [143](../../magpie/internal/gateway/affinity.go#L143) |
+| effort | field_declaration | stick | [144](../../magpie/internal/gateway/affinity.go#L144) |
+| turn | field_declaration | stick | [145](../../magpie/internal/gateway/affinity.go#L145) |
+| at | field_declaration | stick | [146](../../magpie/internal/gateway/affinity.go#L146) |
+| cacheRead | field_declaration | stick | [147](../../magpie/internal/gateway/affinity.go#L147) |
+| cacheWrite | field_declaration | stick | [148](../../magpie/internal/gateway/affinity.go#L148) |
+| hour | field_declaration | stick | [149](../../magpie/internal/gateway/affinity.go#L149) |
+| stoodIn | field_declaration | stick | [154](../../magpie/internal/gateway/affinity.go#L154) |
+| hourCache | type_spec |  | [163](../../magpie/internal/gateway/affinity.go#L163) |
+| tokens | field_declaration | hourCache | [164](../../magpie/internal/gateway/affinity.go#L164) |
+| at | field_declaration | hourCache | [165](../../magpie/internal/gateway/affinity.go#L165) |
+| after | method_declaration |  | [172](../../magpie/internal/gateway/affinity.go#L172) |
+| warm | method_declaration |  | [183](../../magpie/internal/gateway/affinity.go#L183) |
+| sticks | var_spec |  | [187](../../magpie/internal/gateway/affinity.go#L187) |
+| m | field_declaration | sticks | [189](../../magpie/internal/gateway/affinity.go#L189) |
+| opening | field_declaration | sticks | [195](../../magpie/internal/gateway/affinity.go#L195) |
+| from | field_declaration | sticks | [198](../../magpie/internal/gateway/affinity.go#L198) |
+| mod | field_declaration | sticks | [199](../../magpie/internal/gateway/affinity.go#L199) |
+| sticksSaving | var_spec |  | [203](../../magpie/internal/gateway/affinity.go#L203) |
+| sticksFlushAfter | var_spec |  | [213](../../magpie/internal/gateway/affinity.go#L213) |
+| sticksFlush | var_spec |  | [221](../../magpie/internal/gateway/affinity.go#L221) |
+| pending | field_declaration | sticksFlush | [223](../../magpie/internal/gateway/affinity.go#L223) |
+| path | field_declaration | sticksFlush | [224](../../magpie/internal/gateway/affinity.go#L224) |
+| noteSticks | function_declaration |  | [229](../../magpie/internal/gateway/affinity.go#L229) |
+| flushSticks | function_declaration |  | [247](../../magpie/internal/gateway/affinity.go#L247) |
+| FlushSticks | function_declaration |  | [251](../../magpie/internal/gateway/affinity.go#L251) |
+| flushSticksAt | function_declaration |  | [255](../../magpie/internal/gateway/affinity.go#L255) |
+| savedStick | type_spec |  | [269](../../magpie/internal/gateway/affinity.go#L269) |
+| Rest | field_declaration | savedStick | [270](../../magpie/internal/gateway/affinity.go#L270) |
+| Who | field_declaration | savedStick | [271](../../magpie/internal/gateway/affinity.go#L271) |
+| Model | field_declaration | savedStick | [272](../../magpie/internal/gateway/affinity.go#L272) |
+| Effort | field_declaration | savedStick | [273](../../magpie/internal/gateway/affinity.go#L273) |
+| Turn | field_declaration | savedStick | [274](../../magpie/internal/gateway/affinity.go#L274) |
+| At | field_declaration | savedStick | [275](../../magpie/internal/gateway/affinity.go#L275) |
+| CacheRead | field_declaration | savedStick | [276](../../magpie/internal/gateway/affinity.go#L276) |
+| CacheWrite | field_declaration | savedStick | [279](../../magpie/internal/gateway/affinity.go#L279) |
+| CacheHour | field_declaration | savedStick | [282](../../magpie/internal/gateway/affinity.go#L282) |
+| CacheHourAt | field_declaration | savedStick | [283](../../magpie/internal/gateway/affinity.go#L283) |
+| StoodIn | field_declaration | savedStick | [286](../../magpie/internal/gateway/affinity.go#L286) |
+| sticksPath | function_declaration |  | [289](../../magpie/internal/gateway/affinity.go#L289) |
+| stickOf | function_declaration |  | [294](../../magpie/internal/gateway/affinity.go#L294) |
+| saved | var_spec | stickOf | [308](../../magpie/internal/gateway/affinity.go#L308) |
+| saveSticks | function_declaration |  | [328](../../magpie/internal/gateway/affinity.go#L328) |
+| kept | type_spec | saveSticks | [337](../../magpie/internal/gateway/affinity.go#L337) |
+| k | field_declaration | saveSticks::kept | [338](../../magpie/internal/gateway/affinity.go#L338) |
+| v | field_declaration | saveSticks::kept | [339](../../magpie/internal/gateway/affinity.go#L339) |
+| ks | var_spec | saveSticks | [341](../../magpie/internal/gateway/affinity.go#L341) |
+| turnOf | function_declaration |  | [385](../../magpie/internal/gateway/affinity.go#L385) |
+| turnIn | function_declaration |  | [408](../../magpie/internal/gateway/affinity.go#L408) |
+| strictKeep | function_declaration |  | [456](../../magpie/internal/gateway/affinity.go#L456) |
+| back | var_spec | strictKeep | [472](../../magpie/internal/gateway/affinity.go#L472) |
+| order | var_spec | strictKeep | [473](../../magpie/internal/gateway/affinity.go#L473) |
+| held | var_spec | strictKeep | [492](../../magpie/internal/gateway/affinity.go#L492) |
+| strictOnly | function_declaration |  | [513](../../magpie/internal/gateway/affinity.go#L513) |
+| stickKey | function_declaration |  | [548](../../magpie/internal/gateway/affinity.go#L548) |
+| affine | function_declaration |  | [564](../../magpie/internal/gateway/affinity.go#L564) |
+| backToMain | function_declaration |  | [749](../../magpie/internal/gateway/affinity.go#L749) |
+| backToFirst | function_declaration |  | [761](../../magpie/internal/gateway/affinity.go#L761) |
+| backFromStandIn | function_declaration |  | [782](../../magpie/internal/gateway/affinity.go#L782) |
+| standsInFor | function_declaration |  | [796](../../magpie/internal/gateway/affinity.go#L796) |
+| heldFor | const_spec |  | [822](../../magpie/internal/gateway/affinity.go#L822) |
+| leastHeld | function_declaration |  | [841](../../magpie/internal/gateway/affinity.go#L841) |
+| readyForNew | function_declaration |  | [903](../../magpie/internal/gateway/affinity.go#L903) |
+| standsIn | function_declaration |  | [916](../../magpie/internal/gateway/affinity.go#L916) |
+| busyBehind | function_declaration |  | [924](../../magpie/internal/gateway/affinity.go#L924) |
+| lastBehind | function_declaration |  | [932](../../magpie/internal/gateway/affinity.go#L932) |
+| withLead | function_declaration |  | [941](../../magpie/internal/gateway/affinity.go#L941) |
+| withSession | function_declaration |  | [987](../../magpie/internal/gateway/affinity.go#L987) |
+| lead | var_spec | withSession | [1007](../../magpie/internal/gateway/affinity.go#L1007) |
+| sessionNamed | function_declaration |  | [1048](../../magpie/internal/gateway/affinity.go#L1048) |
+| spreadsSessions | function_declaration |  | [1067](../../magpie/internal/gateway/affinity.go#L1067) |
+| after | function_declaration |  | [1080](../../magpie/internal/gateway/affinity.go#L1080) |
+| answered | function_declaration |  | [1106](../../magpie/internal/gateway/affinity.go#L1106) |
+| answeredStanding | function_declaration |  | [1112](../../magpie/internal/gateway/affinity.go#L1112) |
+| hour | var_spec | answeredStanding | [1119](../../magpie/internal/gateway/affinity.go#L1119) |
+| opened | function_declaration |  | [1149](../../magpie/internal/gateway/affinity.go#L1149) |

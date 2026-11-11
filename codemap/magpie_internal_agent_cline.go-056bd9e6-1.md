@@ -4,33 +4,33 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/cline.go) · page 1/1
 
-Source SHA-256: e98910ab67126d4e9cc8a59f576f83e33ecda450d98b548571e0d0612cf976eb
+Source SHA-256: f728736edba6ca10b4000ea9465b51e4a58598a35a01b795974e13fae243348a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | clineSlot | const_spec |  | [53](../../magpie/internal/agent/cline.go#L53) |
 | cline | function_declaration |  | [55](../../magpie/internal/agent/cline.go#L55) |
 | clineIn | function_declaration |  | [61](../../magpie/internal/agent/cline.go#L61) |
-| cutMagpie | function_declaration |  | [285](../../magpie/internal/agent/cline.go#L285) |
-| clineProvider | function_declaration |  | [292](../../magpie/internal/agent/cline.go#L292) |
-| clineReasoning | function_declaration |  | [305](../../magpie/internal/agent/cline.go#L305) |
-| clineEffort | function_declaration |  | [314](../../magpie/internal/agent/cline.go#L314) |
-| r | var_spec | clineEffort | [315](../../magpie/internal/agent/cline.go#L315) |
-| Enabled | field_declaration | clineEffort::r | [316](../../magpie/internal/agent/cline.go#L316) |
-| Effort | field_declaration | clineEffort::r | [317](../../magpie/internal/agent/cline.go#L317) |
-| clineStateKeys | var_spec |  | [330](../../magpie/internal/agent/cline.go#L330) |
-| clineSnapshot | function_declaration |  | [334](../../magpie/internal/agent/cline.go#L334) |
-| all | var_spec | clineSnapshot | [335](../../magpie/internal/agent/cline.go#L335) |
-| clineRestore | function_declaration |  | [350](../../magpie/internal/agent/cline.go#L350) |
-| m | var_spec | clineRestore | [351](../../magpie/internal/agent/cline.go#L351) |
-| kvs | var_spec | clineRestore | [353](../../magpie/internal/agent/cline.go#L353) |
-| gone | var_spec | clineRestore | [354](../../magpie/internal/agent/cline.go#L354) |
-| clineModels | function_declaration |  | [373](../../magpie/internal/agent/cline.go#L373) |
-| clineModelsAt | function_declaration |  | [376](../../magpie/internal/agent/cline.go#L376) |
-| clineKept | function_declaration |  | [409](../../magpie/internal/agent/cline.go#L409) |
-| have | var_spec | clineKept | [414](../../magpie/internal/agent/cline.go#L414) |
-| providersEmpty | const_spec |  | [435](../../magpie/internal/agent/cline.go#L435) |
-| clineWrite | function_declaration |  | [439](../../magpie/internal/agent/cline.go#L439) |
-| noticeCline1 | var_spec |  | [453](../../magpie/internal/agent/cline.go#L453) |
-| noticeCline2 | var_spec |  | [454](../../magpie/internal/agent/cline.go#L454) |
-| noticeCline3 | var_spec |  | [455](../../magpie/internal/agent/cline.go#L455) |
+| cutMagpie | function_declaration |  | [291](../../magpie/internal/agent/cline.go#L291) |
+| clineProvider | function_declaration |  | [298](../../magpie/internal/agent/cline.go#L298) |
+| clineReasoning | function_declaration |  | [311](../../magpie/internal/agent/cline.go#L311) |
+| clineEffort | function_declaration |  | [320](../../magpie/internal/agent/cline.go#L320) |
+| r | var_spec | clineEffort | [321](../../magpie/internal/agent/cline.go#L321) |
+| Enabled | field_declaration | clineEffort::r | [322](../../magpie/internal/agent/cline.go#L322) |
+| Effort | field_declaration | clineEffort::r | [323](../../magpie/internal/agent/cline.go#L323) |
+| clineStateKeys | var_spec |  | [336](../../magpie/internal/agent/cline.go#L336) |
+| clineSnapshot | function_declaration |  | [340](../../magpie/internal/agent/cline.go#L340) |
+| all | var_spec | clineSnapshot | [341](../../magpie/internal/agent/cline.go#L341) |
+| clineRestore | function_declaration |  | [356](../../magpie/internal/agent/cline.go#L356) |
+| m | var_spec | clineRestore | [357](../../magpie/internal/agent/cline.go#L357) |
+| kvs | var_spec | clineRestore | [359](../../magpie/internal/agent/cline.go#L359) |
+| gone | var_spec | clineRestore | [360](../../magpie/internal/agent/cline.go#L360) |
+| clineModels | function_declaration |  | [379](../../magpie/internal/agent/cline.go#L379) |
+| clineModelsAt | function_declaration |  | [382](../../magpie/internal/agent/cline.go#L382) |
+| clineKept | function_declaration |  | [415](../../magpie/internal/agent/cline.go#L415) |
+| have | var_spec | clineKept | [420](../../magpie/internal/agent/cline.go#L420) |
+| providersEmpty | const_spec |  | [441](../../magpie/internal/agent/cline.go#L441) |
+| clineWrite | function_declaration |  | [445](../../magpie/internal/agent/cline.go#L445) |
+| noticeCline1 | var_spec |  | [459](../../magpie/internal/agent/cline.go#L459) |
+| noticeCline2 | var_spec |  | [460](../../magpie/internal/agent/cline.go#L460) |
+| noticeCline3 | var_spec |  | [461](../../magpie/internal/agent/cline.go#L461) |

@@ -4,13 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/draw_volcengine.go) · page 1/1
 
-Source SHA-256: 94cb6b93eab087b1fd909faeee8ef1ccbf4300fd23b97174d784e19bd40268a0
+Source SHA-256: 996acf799847dff3ea182ef6cb09d534c68dab2a131bb94a196eb7fd7423d11c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| isArk | var_spec |  | [36](../../magpie/internal/gateway/draw_volcengine.go#L36) |
-| arkRatioSizes | var_spec |  | [48](../../magpie/internal/gateway/draw_volcengine.go#L48) |
-| arkSize | function_declaration |  | [57](../../magpie/internal/gateway/draw_volcengine.go#L57) |
-| arkBody | function_declaration |  | [72](../../magpie/internal/gateway/draw_volcengine.go#L72) |
-| urls | var_spec | arkBody | [98](../../magpie/internal/gateway/draw_volcengine.go#L98) |
-| drawArk | method_declaration |  | [108](../../magpie/internal/gateway/draw_volcengine.go#L108) |
+| isArk | var_spec |  | [40](../../magpie/internal/gateway/draw_volcengine.go#L40) |
+| arkRatioSizes | var_spec |  | [52](../../magpie/internal/gateway/draw_volcengine.go#L52) |
+| arkSize | function_declaration |  | [61](../../magpie/internal/gateway/draw_volcengine.go#L61) |
+| arkImageTextFields | var_spec |  | [77](../../magpie/internal/gateway/draw_volcengine.go#L77) |
+| arkBody | function_declaration |  | [80](../../magpie/internal/gateway/draw_volcengine.go#L80) |
+| urls | var_spec | arkBody | [132](../../magpie/internal/gateway/draw_volcengine.go#L132) |
+| drawArk | method_declaration |  | [142](../../magpie/internal/gateway/draw_volcengine.go#L142) |

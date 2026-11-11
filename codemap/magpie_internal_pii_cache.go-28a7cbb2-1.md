@@ -4,29 +4,30 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/cache.go) · page 1/1
 
-Source SHA-256: c69e4bd3d2ef436a295aa8536538a305ec2d10abd68fef1451ba4cb1d5a5eccf
+Source SHA-256: 2763a9286a259d8fc83c49213cc630bcdb69ff5162c9fa3cbf1915a8747f3fe5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | cacheMagic | const_spec |  | [27](../../magpie/internal/pii/cache.go#L27) |
-| cachePath | function_declaration |  | [29](../../magpie/internal/pii/cache.go#L29) |
-| saveAfter | var_spec |  | [33](../../magpie/internal/pii/cache.go#L33) |
-| diskState | type_spec |  | [37](../../magpie/internal/pii/cache.go#L37) |
-| mu | field_declaration | diskState | [38](../../magpie/internal/pii/cache.go#L38) |
-| loaded | field_declaration | diskState | [39](../../magpie/internal/pii/cache.go#L39) |
-| timer | field_declaration | diskState | [40](../../magpie/internal/pii/cache.go#L40) |
-| saving | field_declaration | diskState | [41](../../magpie/internal/pii/cache.go#L41) |
-| saves | field_declaration | diskState | [44](../../magpie/internal/pii/cache.go#L44) |
-| disk | var_spec |  | [47](../../magpie/internal/pii/cache.go#L47) |
-| loadCache | method_declaration |  | [50](../../magpie/internal/pii/cache.go#L50) |
-| saveSoon | method_declaration |  | [77](../../magpie/internal/pii/cache.go#L77) |
-| saveCache | function_declaration |  | [95](../../magpie/internal/pii/cache.go#L95) |
-| saveCache | method_declaration |  | [97](../../magpie/internal/pii/cache.go#L97) |
-| encodeCache | function_declaration |  | [127](../../magpie/internal/pii/cache.go#L127) |
-| b | var_spec | encodeCache | [128](../../magpie/internal/pii/cache.go#L128) |
-| errBadCache | var_spec |  | [150](../../magpie/internal/pii/cache.go#L150) |
-| decodeCache | function_declaration |  | [152](../../magpie/internal/pii/cache.go#L152) |
-| n | var_spec | decodeCache | [157](../../magpie/internal/pii/cache.go#L157) |
-| e | var_spec | decodeCache | [166](../../magpie/internal/pii/cache.go#L166) |
-| spans | var_spec | decodeCache | [170](../../magpie/internal/pii/cache.go#L170) |
-| se | var_spec | decodeCache | [175](../../magpie/internal/pii/cache.go#L175) |
+| cacheMagic1 | const_spec |  | [33](../../magpie/internal/pii/cache.go#L33) |
+| cachePath | function_declaration |  | [35](../../magpie/internal/pii/cache.go#L35) |
+| saveAfter | var_spec |  | [39](../../magpie/internal/pii/cache.go#L39) |
+| diskState | type_spec |  | [43](../../magpie/internal/pii/cache.go#L43) |
+| mu | field_declaration | diskState | [44](../../magpie/internal/pii/cache.go#L44) |
+| loaded | field_declaration | diskState | [45](../../magpie/internal/pii/cache.go#L45) |
+| timer | field_declaration | diskState | [46](../../magpie/internal/pii/cache.go#L46) |
+| saving | field_declaration | diskState | [47](../../magpie/internal/pii/cache.go#L47) |
+| saves | field_declaration | diskState | [50](../../magpie/internal/pii/cache.go#L50) |
+| disk | var_spec |  | [53](../../magpie/internal/pii/cache.go#L53) |
+| loadCache | method_declaration |  | [56](../../magpie/internal/pii/cache.go#L56) |
+| saveSoon | method_declaration |  | [83](../../magpie/internal/pii/cache.go#L83) |
+| saveCache | function_declaration |  | [101](../../magpie/internal/pii/cache.go#L101) |
+| saveCache | method_declaration |  | [103](../../magpie/internal/pii/cache.go#L103) |
+| encodeCache | function_declaration |  | [134](../../magpie/internal/pii/cache.go#L134) |
+| b | var_spec | encodeCache | [135](../../magpie/internal/pii/cache.go#L135) |
+| errBadCache | var_spec |  | [158](../../magpie/internal/pii/cache.go#L158) |
+| decodeCache | function_declaration |  | [160](../../magpie/internal/pii/cache.go#L160) |
+| n | var_spec | decodeCache | [166](../../magpie/internal/pii/cache.go#L166) |
+| e | var_spec | decodeCache | [175](../../magpie/internal/pii/cache.go#L175) |
+| spans | var_spec | decodeCache | [179](../../magpie/internal/pii/cache.go#L179) |
+| se | var_spec | decodeCache | [184](../../magpie/internal/pii/cache.go#L184) |

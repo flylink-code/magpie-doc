@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/calls_zcode.go) · page 1/1
 
-Source SHA-256: 89cd7eb5d27a9f9b3310b77298eb24954546217eecb158632653506bc939c117
+Source SHA-256: 852cc017f675e542627ef37a4548c0512d1b0ce7c6c166c1b1641b3d34590e72
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,10 +12,12 @@ Source SHA-256: 89cd7eb5d27a9f9b3310b77298eb24954546217eecb158632653506bc939c117
 | stamp | field_declaration | zcCallList | [34](../../magpie/internal/sessions/calls_zcode.go#L34) |
 | files | field_declaration | zcCallList | [35](../../magpie/internal/sessions/calls_zcode.go#L35) |
 | zcodeCallFiles | function_declaration |  | [39](../../magpie/internal/sessions/calls_zcode.go#L39) |
-| out | var_spec | zcodeCallFiles | [50](../../magpie/internal/sessions/calls_zcode.go#L50) |
-| readZCodeCalls | function_declaration |  | [65](../../magpie/internal/sessions/calls_zcode.go#L65) |
-| info | var_spec | readZCodeCalls | [72](../../magpie/internal/sessions/calls_zcode.go#L72) |
-| msgs | var_spec | readZCodeCalls | [73](../../magpie/internal/sessions/calls_zcode.go#L73) |
-| store | var_spec | readZCodeCalls | [75](../../magpie/internal/sessions/calls_zcode.go#L75) |
-| n | var_spec | readZCodeCalls | [77](../../magpie/internal/sessions/calls_zcode.go#L77) |
-| m | var_spec | readZCodeCalls | [91](../../magpie/internal/sessions/calls_zcode.go#L91) |
+| out | var_spec | zcodeCallFiles | [53](../../magpie/internal/sessions/calls_zcode.go#L53) |
+| readZCodeCalls | function_declaration |  | [68](../../magpie/internal/sessions/calls_zcode.go#L68) |
+| info | var_spec | readZCodeCalls | [75](../../magpie/internal/sessions/calls_zcode.go#L75) |
+| msgs | var_spec | readZCodeCalls | [76](../../magpie/internal/sessions/calls_zcode.go#L76) |
+| copies | var_spec | readZCodeCalls | [77](../../magpie/internal/sessions/calls_zcode.go#L77) |
+| store | var_spec | readZCodeCalls | [79](../../magpie/internal/sessions/calls_zcode.go#L79) |
+| n | var_spec | readZCodeCalls | [81](../../magpie/internal/sessions/calls_zcode.go#L81) |
+| m | var_spec | readZCodeCalls | [97](../../magpie/internal/sessions/calls_zcode.go#L97) |
+| m | var_spec | readZCodeCalls | [110](../../magpie/internal/sessions/calls_zcode.go#L110) |

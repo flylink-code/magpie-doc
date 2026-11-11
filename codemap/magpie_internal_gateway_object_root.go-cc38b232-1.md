@@ -4,15 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/object_root.go) · page 1/1
 
-Source SHA-256: 5f8cda1a03c5a07ede4592c64544b6e8a0f0da116e574cac8e76c4edb41ce69f
+Source SHA-256: fbfa3bfc6c1c33fe3450651302203b022d683a23502527f64dc2be1e8346f5ee
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| rootUnionRefusal | var_spec |  | [28](../../magpie/internal/gateway/object_root.go#L28) |
-| rootUnionRefused | function_declaration |  | [31](../../magpie/internal/gateway/object_root.go#L31) |
-| foldsRoots | method_declaration |  | [35](../../magpie/internal/gateway/object_root.go#L35) |
-| objectRootsBody | function_declaration |  | [41](../../magpie/internal/gateway/object_root.go#L41) |
-| m | var_spec | objectRootsBody | [47](../../magpie/internal/gateway/object_root.go#L47) |
-| foldTools | function_declaration |  | [64](../../magpie/internal/gateway/object_root.go#L64) |
-| objectRootsReq | function_declaration |  | [91](../../magpie/internal/gateway/object_root.go#L91) |
-| tools | var_spec | objectRootsReq | [92](../../magpie/internal/gateway/object_root.go#L92) |
+| rootUnionRefusal | var_spec |  | [32](../../magpie/internal/gateway/object_root.go#L32) |
+| rootUnionRefused | function_declaration |  | [35](../../magpie/internal/gateway/object_root.go#L35) |
+| foldsRoots | method_declaration |  | [39](../../magpie/internal/gateway/object_root.go#L39) |
+| objectRootsBody | function_declaration |  | [46](../../magpie/internal/gateway/object_root.go#L46) |
+| m | var_spec | objectRootsBody | [52](../../magpie/internal/gateway/object_root.go#L52) |
+| foldTools | function_declaration |  | [69](../../magpie/internal/gateway/object_root.go#L69) |
+| objectRootsReq | function_declaration |  | [104](../../magpie/internal/gateway/object_root.go#L104) |
+| tools | var_spec | objectRootsReq | [105](../../magpie/internal/gateway/object_root.go#L105) |

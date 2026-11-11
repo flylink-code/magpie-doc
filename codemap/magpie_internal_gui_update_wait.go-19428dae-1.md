@@ -4,22 +4,30 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/update_wait.go) · page 1/1
 
-Source SHA-256: babd2da080ef0a96b981782e215c31da244a29cb2f83f0b459b079f529ee36db
+Source SHA-256: 6b4277199f2338b7dac6321ed9c2723c2123c09591eb65a85e050a1c6e7b3994
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| idleSettle | var_spec |  | [23](../../magpie/internal/gui/update_wait.go#L23) |
-| waitMost | var_spec |  | [24](../../magpie/internal/gui/update_wait.go#L24) |
-| waitTick | var_spec |  | [25](../../magpie/internal/gui/update_wait.go#L25) |
-| gatewayBusy | var_spec |  | [30](../../magpie/internal/gui/update_wait.go#L30) |
-| waitRecheck | var_spec |  | [38](../../magpie/internal/gui/update_wait.go#L38) |
-| idleAt | function_declaration |  | [41](../../magpie/internal/gui/update_wait.go#L41) |
-| idle | method_declaration |  | [46](../../magpie/internal/gui/update_wait.go#L46) |
-| waitIdle | method_declaration |  | [50](../../magpie/internal/gui/update_wait.go#L50) |
-| cancelWait | method_declaration |  | [70](../../magpie/internal/gui/update_wait.go#L70) |
-| waitingFor | method_declaration |  | [82](../../magpie/internal/gui/update_wait.go#L82) |
-| told | method_declaration |  | [92](../../magpie/internal/gui/update_wait.go#L92) |
-| waitFor | method_declaration |  | [103](../../magpie/internal/gui/update_wait.go#L103) |
-| last | var_spec | waitFor | [104](../../magpie/internal/gui/update_wait.go#L104) |
-| autoTick | method_declaration |  | [162](../../magpie/internal/gui/update_wait.go#L162) |
-| callOff | method_declaration |  | [180](../../magpie/internal/gui/update_wait.go#L180) |
+| idleSettle | var_spec |  | [24](../../magpie/internal/gui/update_wait.go#L24) |
+| waitMost | var_spec |  | [25](../../magpie/internal/gui/update_wait.go#L25) |
+| waitTick | var_spec |  | [26](../../magpie/internal/gui/update_wait.go#L26) |
+| restartDrain | var_spec |  | [31](../../magpie/internal/gui/update_wait.go#L31) |
+| usingFor | var_spec |  | [44](../../magpie/internal/gui/update_wait.go#L44) |
+| openFor | var_spec |  | [45](../../magpie/internal/gui/update_wait.go#L45) |
+| usedAt | var_spec |  | [51](../../magpie/internal/gui/update_wait.go#L51) |
+| usedOpen | var_spec |  | [52](../../magpie/internal/gui/update_wait.go#L52) |
+| noteUse | function_declaration |  | [56](../../magpie/internal/gui/update_wait.go#L56) |
+| inUseAt | function_declaration |  | [62](../../magpie/internal/gui/update_wait.go#L62) |
+| gatewayBusy | var_spec |  | [76](../../magpie/internal/gui/update_wait.go#L76) |
+| waitRecheck | var_spec |  | [85](../../magpie/internal/gui/update_wait.go#L85) |
+| idleAt | function_declaration |  | [88](../../magpie/internal/gui/update_wait.go#L88) |
+| idle | method_declaration |  | [93](../../magpie/internal/gui/update_wait.go#L93) |
+| waitIdle | method_declaration |  | [98](../../magpie/internal/gui/update_wait.go#L98) |
+| cancelWait | method_declaration |  | [121](../../magpie/internal/gui/update_wait.go#L121) |
+| waitingFor | method_declaration |  | [133](../../magpie/internal/gui/update_wait.go#L133) |
+| told | method_declaration |  | [143](../../magpie/internal/gui/update_wait.go#L143) |
+| waitFor | method_declaration |  | [154](../../magpie/internal/gui/update_wait.go#L154) |
+| last | var_spec | waitFor | [155](../../magpie/internal/gui/update_wait.go#L155) |
+| autoTick | method_declaration |  | [240](../../magpie/internal/gui/update_wait.go#L240) |
+| restartAsked | method_declaration |  | [262](../../magpie/internal/gui/update_wait.go#L262) |
+| callOff | method_declaration |  | [278](../../magpie/internal/gui/update_wait.go#L278) |

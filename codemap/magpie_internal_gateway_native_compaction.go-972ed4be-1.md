@@ -4,62 +4,65 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/native_compaction.go) · page 1/1
 
-Source SHA-256: bbd956a6dc291205851a7c772868cda028c8bb7c8802d64365c23068483e9052
+Source SHA-256: db6a93c1c1919968070d1eb6e5bc5f9ccb8d98f3142d7127633466055b8cbbe4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| checkpointKeep | const_spec |  | [40](../../magpie/internal/gateway/native_compaction.go#L40) |
-| checkpointsKept | const_spec |  | [42](../../magpie/internal/gateway/native_compaction.go#L42) |
-| compactionTriggerIn | function_declaration |  | [47](../../magpie/internal/gateway/native_compaction.go#L47) |
-| sealedCompactions | function_declaration |  | [62](../../magpie/internal/gateway/native_compaction.go#L62) |
-| out | var_spec | sealedCompactions | [66](../../magpie/internal/gateway/native_compaction.go#L66) |
-| carriesCompaction | method_declaration |  | [81](../../magpie/internal/gateway/native_compaction.go#L81) |
-| compactsNatively | method_declaration |  | [87](../../magpie/internal/gateway/native_compaction.go#L87) |
-| nativeCompactionFor | method_declaration |  | [96](../../magpie/internal/gateway/native_compaction.go#L96) |
-| keepsCompaction | method_declaration |  | [118](../../magpie/internal/gateway/native_compaction.go#L118) |
-| checkpointWriter | type_spec |  | [137](../../magpie/internal/gateway/native_compaction.go#L137) |
-| Who | field_declaration | checkpointWriter | [138](../../magpie/internal/gateway/native_compaction.go#L138) |
-| Provider | field_declaration | checkpointWriter | [139](../../magpie/internal/gateway/native_compaction.go#L139) |
-| Model | field_declaration | checkpointWriter | [140](../../magpie/internal/gateway/native_compaction.go#L140) |
-| At | field_declaration | checkpointWriter | [141](../../magpie/internal/gateway/native_compaction.go#L141) |
-| checkpoints | var_spec |  | [144](../../magpie/internal/gateway/native_compaction.go#L144) |
-| m | field_declaration | checkpoints | [146](../../magpie/internal/gateway/native_compaction.go#L146) |
-| from | field_declaration | checkpoints | [148](../../magpie/internal/gateway/native_compaction.go#L148) |
-| mod | field_declaration | checkpoints | [149](../../magpie/internal/gateway/native_compaction.go#L149) |
-| checkpointsSaving | var_spec |  | [152](../../magpie/internal/gateway/native_compaction.go#L152) |
-| checkpointsPath | function_declaration |  | [154](../../magpie/internal/gateway/native_compaction.go#L154) |
-| checkpointKey | function_declaration |  | [158](../../magpie/internal/gateway/native_compaction.go#L158) |
-| checkpointFor | function_declaration |  | [166](../../magpie/internal/gateway/native_compaction.go#L166) |
-| saved | var_spec | checkpointFor | [187](../../magpie/internal/gateway/native_compaction.go#L187) |
-| checkpointOf | function_declaration |  | [206](../../magpie/internal/gateway/native_compaction.go#L206) |
-| wroteCheckpoint | function_declaration |  | [222](../../magpie/internal/gateway/native_compaction.go#L222) |
-| saveCheckpoints | function_declaration |  | [233](../../magpie/internal/gateway/native_compaction.go#L233) |
-| kept | type_spec | saveCheckpoints | [236](../../magpie/internal/gateway/native_compaction.go#L236) |
-| k | field_declaration | saveCheckpoints::kept | [237](../../magpie/internal/gateway/native_compaction.go#L237) |
-| v | field_declaration | saveCheckpoints::kept | [238](../../magpie/internal/gateway/native_compaction.go#L238) |
-| ks | var_spec | saveCheckpoints | [240](../../magpie/internal/gateway/native_compaction.go#L240) |
-| checkpointReaders | function_declaration |  | [289](../../magpie/internal/gateway/native_compaction.go#L289) |
-| found | var_spec | checkpointReaders | [294](../../magpie/internal/gateway/native_compaction.go#L294) |
-| ws | var_spec | checkpointReaders | [295](../../magpie/internal/gateway/native_compaction.go#L295) |
-| checkpointHeld | function_declaration |  | [322](../../magpie/internal/gateway/native_compaction.go#L322) |
-| out | var_spec | checkpointHeld | [330](../../magpie/internal/gateway/native_compaction.go#L330) |
-| compactionCarriers | method_declaration |  | [341](../../magpie/internal/gateway/native_compaction.go#L341) |
-| keepCandidates | function_declaration |  | [345](../../magpie/internal/gateway/native_compaction.go#L345) |
-| kept | var_spec | keepCandidates | [346](../../magpie/internal/gateway/native_compaction.go#L346) |
-| order | var_spec | keepCandidates | [347](../../magpie/internal/gateway/native_compaction.go#L347) |
-| compactionWho | function_declaration |  | [364](../../magpie/internal/gateway/native_compaction.go#L364) |
-| checkpointError | function_declaration |  | [376](../../magpie/internal/gateway/native_compaction.go#L376) |
-| checkpointGone | function_declaration |  | [399](../../magpie/internal/gateway/native_compaction.go#L399) |
-| checkpointNotRouted | function_declaration |  | [453](../../magpie/internal/gateway/native_compaction.go#L453) |
-| carrierError | function_declaration |  | [459](../../magpie/internal/gateway/native_compaction.go#L459) |
-| compactionWatch | type_spec |  | [465](../../magpie/internal/gateway/native_compaction.go#L465) |
-| w | field_declaration | compactionWatch | [466](../../magpie/internal/gateway/native_compaction.go#L466) |
-| buf | field_declaration | compactionWatch | [467](../../magpie/internal/gateway/native_compaction.go#L467) |
-| over | field_declaration | compactionWatch | [468](../../magpie/internal/gateway/native_compaction.go#L468) |
-| compactionWatchMax | const_spec |  | [472](../../magpie/internal/gateway/native_compaction.go#L472) |
-| Header | method_declaration |  | [474](../../magpie/internal/gateway/native_compaction.go#L474) |
-| WriteHeader | method_declaration |  | [475](../../magpie/internal/gateway/native_compaction.go#L475) |
-| Unwrap | method_declaration |  | [476](../../magpie/internal/gateway/native_compaction.go#L476) |
-| Write | method_declaration |  | [478](../../magpie/internal/gateway/native_compaction.go#L478) |
-| Flush | method_declaration |  | [490](../../magpie/internal/gateway/native_compaction.go#L490) |
-| sealed | method_declaration |  | [499](../../magpie/internal/gateway/native_compaction.go#L499) |
+| checkpointKeep | const_spec |  | [43](../../magpie/internal/gateway/native_compaction.go#L43) |
+| checkpointsKept | const_spec |  | [45](../../magpie/internal/gateway/native_compaction.go#L45) |
+| compactionTriggerIn | function_declaration |  | [50](../../magpie/internal/gateway/native_compaction.go#L50) |
+| sealedCompactions | function_declaration |  | [65](../../magpie/internal/gateway/native_compaction.go#L65) |
+| out | var_spec | sealedCompactions | [69](../../magpie/internal/gateway/native_compaction.go#L69) |
+| carriesCompaction | method_declaration |  | [84](../../magpie/internal/gateway/native_compaction.go#L84) |
+| compactsNatively | method_declaration |  | [90](../../magpie/internal/gateway/native_compaction.go#L90) |
+| nativeCompactionFor | method_declaration |  | [102](../../magpie/internal/gateway/native_compaction.go#L102) |
+| plannedCarrier | method_declaration |  | [137](../../magpie/internal/gateway/native_compaction.go#L137) |
+| keepsCompaction | method_declaration |  | [153](../../magpie/internal/gateway/native_compaction.go#L153) |
+| compactionAside | function_declaration |  | [183](../../magpie/internal/gateway/native_compaction.go#L183) |
+| foreignToSignin | function_declaration |  | [205](../../magpie/internal/gateway/native_compaction.go#L205) |
+| checkpointWriter | type_spec |  | [219](../../magpie/internal/gateway/native_compaction.go#L219) |
+| Who | field_declaration | checkpointWriter | [220](../../magpie/internal/gateway/native_compaction.go#L220) |
+| Provider | field_declaration | checkpointWriter | [221](../../magpie/internal/gateway/native_compaction.go#L221) |
+| Model | field_declaration | checkpointWriter | [222](../../magpie/internal/gateway/native_compaction.go#L222) |
+| At | field_declaration | checkpointWriter | [223](../../magpie/internal/gateway/native_compaction.go#L223) |
+| checkpoints | var_spec |  | [226](../../magpie/internal/gateway/native_compaction.go#L226) |
+| m | field_declaration | checkpoints | [228](../../magpie/internal/gateway/native_compaction.go#L228) |
+| from | field_declaration | checkpoints | [230](../../magpie/internal/gateway/native_compaction.go#L230) |
+| mod | field_declaration | checkpoints | [231](../../magpie/internal/gateway/native_compaction.go#L231) |
+| checkpointsSaving | var_spec |  | [234](../../magpie/internal/gateway/native_compaction.go#L234) |
+| checkpointsPath | function_declaration |  | [236](../../magpie/internal/gateway/native_compaction.go#L236) |
+| checkpointKey | function_declaration |  | [240](../../magpie/internal/gateway/native_compaction.go#L240) |
+| checkpointFor | function_declaration |  | [248](../../magpie/internal/gateway/native_compaction.go#L248) |
+| saved | var_spec | checkpointFor | [269](../../magpie/internal/gateway/native_compaction.go#L269) |
+| checkpointOf | function_declaration |  | [288](../../magpie/internal/gateway/native_compaction.go#L288) |
+| wroteCheckpoint | function_declaration |  | [304](../../magpie/internal/gateway/native_compaction.go#L304) |
+| saveCheckpoints | function_declaration |  | [315](../../magpie/internal/gateway/native_compaction.go#L315) |
+| kept | type_spec | saveCheckpoints | [318](../../magpie/internal/gateway/native_compaction.go#L318) |
+| k | field_declaration | saveCheckpoints::kept | [319](../../magpie/internal/gateway/native_compaction.go#L319) |
+| v | field_declaration | saveCheckpoints::kept | [320](../../magpie/internal/gateway/native_compaction.go#L320) |
+| ks | var_spec | saveCheckpoints | [322](../../magpie/internal/gateway/native_compaction.go#L322) |
+| checkpointReaders | function_declaration |  | [372](../../magpie/internal/gateway/native_compaction.go#L372) |
+| found | var_spec | checkpointReaders | [379](../../magpie/internal/gateway/native_compaction.go#L379) |
+| ws | var_spec | checkpointReaders | [380](../../magpie/internal/gateway/native_compaction.go#L380) |
+| checkpointHeld | function_declaration |  | [407](../../magpie/internal/gateway/native_compaction.go#L407) |
+| out | var_spec | checkpointHeld | [415](../../magpie/internal/gateway/native_compaction.go#L415) |
+| compactionCarriers | method_declaration |  | [426](../../magpie/internal/gateway/native_compaction.go#L426) |
+| keepCandidates | function_declaration |  | [430](../../magpie/internal/gateway/native_compaction.go#L430) |
+| kept | var_spec | keepCandidates | [431](../../magpie/internal/gateway/native_compaction.go#L431) |
+| order | var_spec | keepCandidates | [432](../../magpie/internal/gateway/native_compaction.go#L432) |
+| compactionWho | function_declaration |  | [449](../../magpie/internal/gateway/native_compaction.go#L449) |
+| checkpointError | function_declaration |  | [461](../../magpie/internal/gateway/native_compaction.go#L461) |
+| checkpointGone | function_declaration |  | [484](../../magpie/internal/gateway/native_compaction.go#L484) |
+| checkpointNotRouted | function_declaration |  | [538](../../magpie/internal/gateway/native_compaction.go#L538) |
+| carrierError | function_declaration |  | [544](../../magpie/internal/gateway/native_compaction.go#L544) |
+| compactionWatch | type_spec |  | [550](../../magpie/internal/gateway/native_compaction.go#L550) |
+| w | field_declaration | compactionWatch | [551](../../magpie/internal/gateway/native_compaction.go#L551) |
+| buf | field_declaration | compactionWatch | [552](../../magpie/internal/gateway/native_compaction.go#L552) |
+| over | field_declaration | compactionWatch | [553](../../magpie/internal/gateway/native_compaction.go#L553) |
+| compactionWatchMax | const_spec |  | [557](../../magpie/internal/gateway/native_compaction.go#L557) |
+| Header | method_declaration |  | [559](../../magpie/internal/gateway/native_compaction.go#L559) |
+| WriteHeader | method_declaration |  | [560](../../magpie/internal/gateway/native_compaction.go#L560) |
+| Unwrap | method_declaration |  | [561](../../magpie/internal/gateway/native_compaction.go#L561) |
+| Write | method_declaration |  | [563](../../magpie/internal/gateway/native_compaction.go#L563) |
+| Flush | method_declaration |  | [575](../../magpie/internal/gateway/native_compaction.go#L575) |
+| sealed | method_declaration |  | [584](../../magpie/internal/gateway/native_compaction.go#L584) |

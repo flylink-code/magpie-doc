@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/direct.go) · page 1/1
 
-Source SHA-256: 33e289b9bd60374712d9a73f071e1915009ed6a863b0e09c4438013b4158023b
+Source SHA-256: ba01cdc3415e6d22f994e3c45c6f243dfaef460643a3f59dc37ed52ae3bfb0c3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

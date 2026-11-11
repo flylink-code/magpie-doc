@@ -4,33 +4,34 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/fetch.go) · page 1/1
 
-Source SHA-256: 7a7e6d15a14c53e2b2c9ad7f164013eaee482b32c9e3a2e8dd8d3d1b7f963da0
+Source SHA-256: 5825b7b3df27f4acdad60833e09368f6caa19eb750f5266ec3d42eba17452dcf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dlState | type_spec |  | [23](../../magpie/internal/pii/fetch.go#L23) |
-| mu | field_declaration | dlState | [24](../../magpie/internal/pii/fetch.go#L24) |
-| cancel | field_declaration | dlState | [25](../../magpie/internal/pii/fetch.go#L25) |
-| err | field_declaration | dlState | [26](../../magpie/internal/pii/fetch.go#L26) |
-| total | field_declaration | dlState | [27](../../magpie/internal/pii/fetch.go#L27) |
-| done | field_declaration | dlState | [28](../../magpie/internal/pii/fetch.go#L28) |
-| dl | var_spec |  | [32](../../magpie/internal/pii/fetch.go#L32) |
-| client | var_spec |  | [37](../../magpie/internal/pii/fetch.go#L37) |
-| stallAfter | var_spec |  | [44](../../magpie/internal/pii/fetch.go#L44) |
-| Download | function_declaration |  | [51](../../magpie/internal/pii/fetch.go#L51) |
-| run | method_declaration |  | [60](../../magpie/internal/pii/fetch.go#L60) |
-| Cancel | function_declaration |  | [89](../../magpie/internal/pii/fetch.go#L89) |
-| stop | method_declaration |  | [91](../../magpie/internal/pii/fetch.go#L91) |
-| fill | method_declaration |  | [100](../../magpie/internal/pii/fetch.go#L100) |
-| install | function_declaration |  | [107](../../magpie/internal/pii/fetch.go#L107) |
-| serveMu | var_spec |  | [127](../../magpie/internal/pii/fetch.go#L127) |
-| ensureServe | function_declaration |  | [130](../../magpie/internal/pii/fetch.go#L130) |
-| upgrading | var_spec |  | [140](../../magpie/internal/pii/fetch.go#L140) |
-| upgrade | function_declaration |  | [147](../../magpie/internal/pii/fetch.go#L147) |
-| removeOld | function_declaration |  | [166](../../magpie/internal/pii/fetch.go#L166) |
-| installServe | function_declaration |  | [174](../../magpie/internal/pii/fetch.go#L174) |
-| n | var_spec | installServe | [177](../../magpie/internal/pii/fetch.go#L177) |
-| unzipTo | function_declaration |  | [208](../../magpie/internal/pii/fetch.go#L208) |
-| fetch | function_declaration |  | [229](../../magpie/internal/pii/fetch.go#L229) |
-| get | function_declaration |  | [273](../../magpie/internal/pii/fetch.go#L273) |
-| stalled | var_spec | get | [305](../../magpie/internal/pii/fetch.go#L305) |
+| dlState | type_spec |  | [24](../../magpie/internal/pii/fetch.go#L24) |
+| mu | field_declaration | dlState | [25](../../magpie/internal/pii/fetch.go#L25) |
+| cancel | field_declaration | dlState | [26](../../magpie/internal/pii/fetch.go#L26) |
+| err | field_declaration | dlState | [27](../../magpie/internal/pii/fetch.go#L27) |
+| total | field_declaration | dlState | [28](../../magpie/internal/pii/fetch.go#L28) |
+| done | field_declaration | dlState | [29](../../magpie/internal/pii/fetch.go#L29) |
+| dl | var_spec |  | [33](../../magpie/internal/pii/fetch.go#L33) |
+| client | var_spec |  | [43](../../magpie/internal/pii/fetch.go#L43) |
+| stallAfter | var_spec |  | [51](../../magpie/internal/pii/fetch.go#L51) |
+| Download | function_declaration |  | [58](../../magpie/internal/pii/fetch.go#L58) |
+| run | method_declaration |  | [67](../../magpie/internal/pii/fetch.go#L67) |
+| Cancel | function_declaration |  | [96](../../magpie/internal/pii/fetch.go#L96) |
+| stop | method_declaration |  | [98](../../magpie/internal/pii/fetch.go#L98) |
+| fill | method_declaration |  | [107](../../magpie/internal/pii/fetch.go#L107) |
+| install | function_declaration |  | [114](../../magpie/internal/pii/fetch.go#L114) |
+| serveMu | var_spec |  | [134](../../magpie/internal/pii/fetch.go#L134) |
+| ensureServe | function_declaration |  | [137](../../magpie/internal/pii/fetch.go#L137) |
+| upgrading | var_spec |  | [147](../../magpie/internal/pii/fetch.go#L147) |
+| upgrade | function_declaration |  | [154](../../magpie/internal/pii/fetch.go#L154) |
+| removeOld | function_declaration |  | [174](../../magpie/internal/pii/fetch.go#L174) |
+| installServe | function_declaration |  | [187](../../magpie/internal/pii/fetch.go#L187) |
+| n | var_spec | installServe | [190](../../magpie/internal/pii/fetch.go#L190) |
+| unzipTo | function_declaration |  | [221](../../magpie/internal/pii/fetch.go#L221) |
+| Fetch | function_declaration |  | [241](../../magpie/internal/pii/fetch.go#L241) |
+| fetch | function_declaration |  | [249](../../magpie/internal/pii/fetch.go#L249) |
+| get | function_declaration |  | [303](../../magpie/internal/pii/fetch.go#L303) |
+| stalled | var_spec | get | [335](../../magpie/internal/pii/fetch.go#L335) |

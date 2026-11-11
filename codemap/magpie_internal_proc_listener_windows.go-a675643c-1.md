@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/listener_windows.go) · page 1/1
 
-Source SHA-256: fb2eb76a22c6d7f1f3dd7e787e1d43f6a501d3ed45ce037b25e31d2ae3a6116e
+Source SHA-256: 01da0ebdf1d364d195a265bb74ce93cd95859f0a628fedba475c217f282cd749
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,3 +13,5 @@ Source SHA-256: fb2eb76a22c6d7f1f3dd7e787e1d43f6a501d3ed45ce037b25e31d2ae3a6116e
 | executable | function_declaration |  | [37](../../magpie/internal/proc/listener_windows.go#L37) |
 | terminate | function_declaration |  | [53](../../magpie/internal/proc/listener_windows.go#L53) |
 | kill | function_declaration |  | [55](../../magpie/internal/proc/listener_windows.go#L55) |
+| end | function_declaration |  | [59](../../magpie/internal/proc/listener_windows.go#L59) |
+| exitWith | function_declaration |  | [61](../../magpie/internal/proc/listener_windows.go#L61) |

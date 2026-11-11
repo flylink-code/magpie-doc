@@ -4,11 +4,26 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/access/accounts.go) · page 1/1
 
-Source SHA-256: 0d8576d73d786d930b50ee0a3089881706e6e6ab54367cbebdd4b446b2c2b090
+Source SHA-256: 4c8d43ff33ec55b24d4087a86eb6b99849a48588ffe6e3d145e1e1b9626b0565
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CleanAccounts | function_declaration |  | [21](../../magpie/internal/access/accounts.go#L21) |
-| out | var_spec | CleanAccounts | [22](../../magpie/internal/access/accounts.go#L22) |
-| AllowsAccount | method_declaration |  | [68](../../magpie/internal/access/accounts.go#L68) |
-| ReplaceAccount | function_declaration |  | [89](../../magpie/internal/access/accounts.go#L89) |
+| CleanAccounts | function_declaration |  | [30](../../magpie/internal/access/accounts.go#L30) |
+| cleaned | var_spec | CleanAccounts | [31](../../magpie/internal/access/accounts.go#L31) |
+| groups | var_spec | CleanAccounts | [32](../../magpie/internal/access/accounts.go#L32) |
+| err | var_spec | CleanAccounts | [41](../../magpie/internal/access/accounts.go#L41) |
+| ExcludeMark | const_spec |  | [102](../../magpie/internal/access/accounts.go#L102) |
+| excludedEntry | function_declaration |  | [106](../../magpie/internal/access/accounts.go#L106) |
+| Excluded | function_declaration |  | [115](../../magpie/internal/access/accounts.go#L115) |
+| picksAccounts | function_declaration |  | [122](../../magpie/internal/access/accounts.go#L122) |
+| AllowsAccount | method_declaration |  | [134](../../magpie/internal/access/accounts.go#L134) |
+| heldToNone | const_spec |  | [164](../../magpie/internal/access/accounts.go#L164) |
+| HeldToGroup | method_declaration |  | [175](../../magpie/internal/access/accounts.go#L175) |
+| order | var_spec | HeldToGroup | [177](../../magpie/internal/access/accounts.go#L177) |
+| out | var_spec | HeldToGroup | [192](../../magpie/internal/access/accounts.go#L192) |
+| AccountsShown | function_declaration |  | [217](../../magpie/internal/access/accounts.go#L217) |
+| used | var_spec | AccountsShown | [218](../../magpie/internal/access/accounts.go#L218) |
+| groups | var_spec | AccountsShown | [219](../../magpie/internal/access/accounts.go#L219) |
+| parts | var_spec | AccountsShown | [239](../../magpie/internal/access/accounts.go#L239) |
+| ShownAccounts | method_declaration |  | [252](../../magpie/internal/access/accounts.go#L252) |
+| ReplaceAccount | function_declaration |  | [260](../../magpie/internal/access/accounts.go#L260) |

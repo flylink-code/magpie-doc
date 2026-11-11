@@ -4,57 +4,71 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/vscode.go) · page 1/1
 
-Source SHA-256: 6eb73df7c23ec12028029f8ecfffe3c019a906ae2ab731eba0ec079ae125b4ab
+Source SHA-256: f2cfe0718bbb21c1768353232ff28591466899f130b7a97bbe8ee7824317777d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | vscodeDefault | const_spec |  | [47](../../magpie/internal/agent/vscode.go#L47) |
 | vscodeUA | const_spec |  | [52](../../magpie/internal/agent/vscode.go#L52) |
-| vscodeEndpoint | const_spec |  | [58](../../magpie/internal/agent/vscode.go#L58) |
-| vscodeOAI | const_spec |  | [59](../../magpie/internal/agent/vscode.go#L59) |
-| vscodeVendors | var_spec |  | [63](../../magpie/internal/agent/vscode.go#L63) |
-| vscodeGroupOf | function_declaration |  | [67](../../magpie/internal/agent/vscode.go#L67) |
-| vscodeGroup | var_spec |  | [72](../../magpie/internal/agent/vscode.go#L72) |
-| vscodeOurs | function_declaration |  | [76](../../magpie/internal/agent/vscode.go#L76) |
-| vscodeKind | type_spec |  | [88](../../magpie/internal/agent/vscode.go#L88) |
-| id | field_declaration | vscodeKind | [89](../../magpie/internal/agent/vscode.go#L89) |
-| aliases | field_declaration | vscodeKind | [90](../../magpie/internal/agent/vscode.go#L90) |
-| ua | field_declaration | vscodeKind | [94](../../magpie/internal/agent/vscode.go#L94) |
-| exts | field_declaration | vscodeKind | [98](../../magpie/internal/agent/vscode.go#L98) |
-| vscodeStable | var_spec |  | [102](../../magpie/internal/agent/vscode.go#L102) |
-| vscodeInsiders | var_spec |  | [103](../../magpie/internal/agent/vscode.go#L103) |
-| vscodiumKind | var_spec |  | [104](../../magpie/internal/agent/vscode.go#L104) |
-| token | method_declaration |  | [109](../../magpie/internal/agent/vscode.go#L109) |
-| vscode | function_declaration |  | [118](../../magpie/internal/agent/vscode.go#L118) |
-| vscodeInsidersAgent | function_declaration |  | [120](../../magpie/internal/agent/vscode.go#L120) |
-| vscodium | function_declaration |  | [122](../../magpie/internal/agent/vscode.go#L122) |
-| vscodeOf | function_declaration |  | [124](../../magpie/internal/agent/vscode.go#L124) |
-| vscodeUserDir | function_declaration |  | [133](../../magpie/internal/agent/vscode.go#L133) |
-| vscodeAt | function_declaration |  | [146](../../magpie/internal/agent/vscode.go#L146) |
-| vscodeKindAt | function_declaration |  | [148](../../magpie/internal/agent/vscode.go#L148) |
-| want | var_spec | vscodeKindAt | [204](../../magpie/internal/agent/vscode.go#L204) |
-| vscodeCodeBinary | function_declaration |  | [340](../../magpie/internal/agent/vscode.go#L340) |
-| product | var_spec | vscodeCodeBinary | [355](../../magpie/internal/agent/vscode.go#L355) |
-| ApplicationName | field_declaration | vscodeCodeBinary::product | [356](../../magpie/internal/agent/vscode.go#L356) |
-| NameShort | field_declaration | vscodeCodeBinary::product | [357](../../magpie/internal/agent/vscode.go#L357) |
-| vscodeProfiles | function_declaration |  | [379](../../magpie/internal/agent/vscode.go#L379) |
-| vscodeURL | function_declaration |  | [414](../../magpie/internal/agent/vscode.go#L414) |
-| vscodeGroupJSON | function_declaration |  | [419](../../magpie/internal/agent/vscode.go#L419) |
-| vscodeGroupKept | function_declaration |  | [468](../../magpie/internal/agent/vscode.go#L468) |
-| have | var_spec | vscodeGroupKept | [469](../../magpie/internal/agent/vscode.go#L469) |
-| vscodeChatID | const_spec |  | [478](../../magpie/internal/agent/vscode.go#L478) |
-| vscodeChat | type_spec |  | [484](../../magpie/internal/agent/vscode.go#L484) |
-| vendor | field_declaration | vscodeChat | [485](../../magpie/internal/agent/vscode.go#L485) |
-| none | field_declaration | vscodeChat | [486](../../magpie/internal/agent/vscode.go#L486) |
-| chat | method_declaration |  | [494](../../magpie/internal/agent/vscode.go#L494) |
-| vscodeChatOf | function_declaration |  | [501](../../magpie/internal/agent/vscode.go#L501) |
-| vscodeChatInstalled | function_declaration |  | [529](../../magpie/internal/agent/vscode.go#L529) |
-| obsolete | var_spec | vscodeChatInstalled | [547](../../magpie/internal/agent/vscode.go#L547) |
-| notice | method_declaration |  | [569](../../magpie/internal/agent/vscode.go#L569) |
-| vscodeNewer | function_declaration |  | [584](../../magpie/internal/agent/vscode.go#L584) |
-| x | var_spec | vscodeNewer | [587](../../magpie/internal/agent/vscode.go#L587) |
-| noticeVSCodeJoined | var_spec |  | [603](../../magpie/internal/agent/vscode.go#L603) |
-| noticeVSCodeSetup | var_spec |  | [604](../../magpie/internal/agent/vscode.go#L604) |
-| noticeVSCodeNoChat | var_spec |  | [605](../../magpie/internal/agent/vscode.go#L605) |
-| noticeVSCodeOld | var_spec |  | [606](../../magpie/internal/agent/vscode.go#L606) |
-| noticeVSCodeOAI | var_spec |  | [607](../../magpie/internal/agent/vscode.go#L607) |
+| vscodeAgentHostUA | const_spec |  | [62](../../magpie/internal/agent/vscode.go#L62) |
+| vscodeEndpoint | const_spec |  | [68](../../magpie/internal/agent/vscode.go#L68) |
+| vscodeOAI | const_spec |  | [69](../../magpie/internal/agent/vscode.go#L69) |
+| vscodeVendors | var_spec |  | [73](../../magpie/internal/agent/vscode.go#L73) |
+| vscodeGroupOf | function_declaration |  | [77](../../magpie/internal/agent/vscode.go#L77) |
+| vscodeGroup | var_spec |  | [82](../../magpie/internal/agent/vscode.go#L82) |
+| vscodeOurs | function_declaration |  | [86](../../magpie/internal/agent/vscode.go#L86) |
+| vscodeKind | type_spec |  | [98](../../magpie/internal/agent/vscode.go#L98) |
+| id | field_declaration | vscodeKind | [99](../../magpie/internal/agent/vscode.go#L99) |
+| aliases | field_declaration | vscodeKind | [100](../../magpie/internal/agent/vscode.go#L100) |
+| ua | field_declaration | vscodeKind | [104](../../magpie/internal/agent/vscode.go#L104) |
+| exts | field_declaration | vscodeKind | [108](../../magpie/internal/agent/vscode.go#L108) |
+| vscodeStable | var_spec |  | [112](../../magpie/internal/agent/vscode.go#L112) |
+| vscodeInsiders | var_spec |  | [113](../../magpie/internal/agent/vscode.go#L113) |
+| vscodiumKind | var_spec |  | [114](../../magpie/internal/agent/vscode.go#L114) |
+| token | method_declaration |  | [119](../../magpie/internal/agent/vscode.go#L119) |
+| vscode | function_declaration |  | [128](../../magpie/internal/agent/vscode.go#L128) |
+| vscodeInsidersAgent | function_declaration |  | [130](../../magpie/internal/agent/vscode.go#L130) |
+| vscodium | function_declaration |  | [132](../../magpie/internal/agent/vscode.go#L132) |
+| vscodeOf | function_declaration |  | [134](../../magpie/internal/agent/vscode.go#L134) |
+| vscodeOS | var_spec |  | [144](../../magpie/internal/agent/vscode.go#L144) |
+| vscodeDirs | function_declaration |  | [151](../../magpie/internal/agent/vscode.go#L151) |
+| extFolder | method_declaration |  | [169](../../magpie/internal/agent/vscode.go#L169) |
+| vscodeBundles | var_spec |  | [181](../../magpie/internal/agent/vscode.go#L181) |
+| vscodePortableData | function_declaration |  | [195](../../magpie/internal/agent/vscode.go#L195) |
+| vscodePortableFile | function_declaration |  | [230](../../magpie/internal/agent/vscode.go#L230) |
+| vscodeAppRoot | function_declaration |  | [248](../../magpie/internal/agent/vscode.go#L248) |
+| vscodePortableAt | function_declaration |  | [282](../../magpie/internal/agent/vscode.go#L282) |
+| product | var_spec | vscodePortableAt | [283](../../magpie/internal/agent/vscode.go#L283) |
+| ApplicationName | field_declaration | vscodePortableAt::product | [284](../../magpie/internal/agent/vscode.go#L284) |
+| Portable | field_declaration | vscodePortableAt::product | [285](../../magpie/internal/agent/vscode.go#L285) |
+| Target | field_declaration | vscodePortableAt::product | [286](../../magpie/internal/agent/vscode.go#L286) |
+| scoopShim | function_declaration |  | [317](../../magpie/internal/agent/vscode.go#L317) |
+| vscodeAt | function_declaration |  | [331](../../magpie/internal/agent/vscode.go#L331) |
+| vscodeKindAt | function_declaration |  | [333](../../magpie/internal/agent/vscode.go#L333) |
+| want | var_spec | vscodeKindAt | [389](../../magpie/internal/agent/vscode.go#L389) |
+| vscodeCodeBinary | function_declaration |  | [532](../../magpie/internal/agent/vscode.go#L532) |
+| product | var_spec | vscodeCodeBinary | [547](../../magpie/internal/agent/vscode.go#L547) |
+| ApplicationName | field_declaration | vscodeCodeBinary::product | [548](../../magpie/internal/agent/vscode.go#L548) |
+| NameShort | field_declaration | vscodeCodeBinary::product | [549](../../magpie/internal/agent/vscode.go#L549) |
+| vscodeNameShort | function_declaration |  | [568](../../magpie/internal/agent/vscode.go#L568) |
+| vscodeProfiles | function_declaration |  | [582](../../magpie/internal/agent/vscode.go#L582) |
+| vscodeURL | function_declaration |  | [617](../../magpie/internal/agent/vscode.go#L617) |
+| vscodeGroupJSON | function_declaration |  | [622](../../magpie/internal/agent/vscode.go#L622) |
+| vscodeGroupKept | function_declaration |  | [671](../../magpie/internal/agent/vscode.go#L671) |
+| have | var_spec | vscodeGroupKept | [672](../../magpie/internal/agent/vscode.go#L672) |
+| vscodeChatID | const_spec |  | [681](../../magpie/internal/agent/vscode.go#L681) |
+| vscodeChat | type_spec |  | [687](../../magpie/internal/agent/vscode.go#L687) |
+| vendor | field_declaration | vscodeChat | [688](../../magpie/internal/agent/vscode.go#L688) |
+| none | field_declaration | vscodeChat | [689](../../magpie/internal/agent/vscode.go#L689) |
+| chat | method_declaration |  | [697](../../magpie/internal/agent/vscode.go#L697) |
+| vscodeChatOf | function_declaration |  | [704](../../magpie/internal/agent/vscode.go#L704) |
+| vscodeChatInstalled | function_declaration |  | [732](../../magpie/internal/agent/vscode.go#L732) |
+| obsolete | var_spec | vscodeChatInstalled | [750](../../magpie/internal/agent/vscode.go#L750) |
+| notice | method_declaration |  | [772](../../magpie/internal/agent/vscode.go#L772) |
+| vscodeNewer | function_declaration |  | [787](../../magpie/internal/agent/vscode.go#L787) |
+| x | var_spec | vscodeNewer | [790](../../magpie/internal/agent/vscode.go#L790) |
+| noticeVSCodeJoined | var_spec |  | [806](../../magpie/internal/agent/vscode.go#L806) |
+| noticeVSCodeSetup | var_spec |  | [807](../../magpie/internal/agent/vscode.go#L807) |
+| noticeVSCodeNoChat | var_spec |  | [808](../../magpie/internal/agent/vscode.go#L808) |
+| noticeVSCodeOld | var_spec |  | [809](../../magpie/internal/agent/vscode.go#L809) |
+| noticeVSCodeOAI | var_spec |  | [810](../../magpie/internal/agent/vscode.go#L810) |

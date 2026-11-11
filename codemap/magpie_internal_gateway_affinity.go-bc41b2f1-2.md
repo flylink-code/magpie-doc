@@ -4,14 +4,52 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/affinity.go) · page 2/2
 
-Source SHA-256: ab2641fbfed274bf153bdd389c5e5a6831a0359bc0de20c7c9f6c88a98eba35c
+Source SHA-256: 735e6fca1739c94a87b3bf93a5d463aa2498da23c2fff2d358928eb0e938ca6b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| withoutCompaction | function_declaration |  | [860](../../magpie/internal/gateway/affinity.go#L860) |
-| q | var_spec | withoutCompaction | [861](../../magpie/internal/gateway/affinity.go#L861) |
-| Input | field_declaration | withoutCompaction::q | [862](../../magpie/internal/gateway/affinity.go#L862) |
-| withoutKinds | function_declaration |  | [877](../../magpie/internal/gateway/affinity.go#L877) |
-| q | var_spec | withoutKinds | [878](../../magpie/internal/gateway/affinity.go#L878) |
-| t | var_spec | withoutKinds | [888](../../magpie/internal/gateway/affinity.go#L888) |
-| Type | field_declaration | withoutKinds::t | [889](../../magpie/internal/gateway/affinity.go#L889) |
+| unanswered | function_declaration |  | [1155](../../magpie/internal/gateway/affinity.go#L1155) |
+| foreignReasoning | var_spec |  | [1184](../../magpie/internal/gateway/affinity.go#L1184) |
+| refusedSeals | var_spec |  | [1194](../../magpie/internal/gateway/affinity.go#L1194) |
+| m | field_declaration | refusedSeals | [1196](../../magpie/internal/gateway/affinity.go#L1196) |
+| sealsRefused | type_spec |  | [1199](../../magpie/internal/gateway/affinity.go#L1199) |
+| at | field_declaration | sealsRefused | [1200](../../magpie/internal/gateway/affinity.go#L1200) |
+| seals | field_declaration | sealsRefused | [1201](../../magpie/internal/gateway/affinity.go#L1201) |
+| sealedItem | type_spec |  | [1205](../../magpie/internal/gateway/affinity.go#L1205) |
+| Type | field_declaration | sealedItem | [1206](../../magpie/internal/gateway/affinity.go#L1206) |
+| Enc | field_declaration | sealedItem | [1207](../../magpie/internal/gateway/affinity.go#L1207) |
+| sealedKinds | var_spec |  | [1215](../../magpie/internal/gateway/affinity.go#L1215) |
+| compactionKinds | var_spec |  | [1217](../../magpie/internal/gateway/affinity.go#L1217) |
+| seals | function_declaration |  | [1221](../../magpie/internal/gateway/affinity.go#L1221) |
+| q | var_spec | seals | [1222](../../magpie/internal/gateway/affinity.go#L1222) |
+| Input | field_declaration | seals::q | [1223](../../magpie/internal/gateway/affinity.go#L1223) |
+| out | var_spec | seals | [1228](../../magpie/internal/gateway/affinity.go#L1228) |
+| refused | function_declaration |  | [1240](../../magpie/internal/gateway/affinity.go#L1240) |
+| noteRefused | function_declaration |  | [1250](../../magpie/internal/gateway/affinity.go#L1250) |
+| withoutRefused | function_declaration |  | [1279](../../magpie/internal/gateway/affinity.go#L1279) |
+| q | var_spec | withoutRefused | [1291](../../magpie/internal/gateway/affinity.go#L1291) |
+| t | var_spec | withoutRefused | [1301](../../magpie/internal/gateway/affinity.go#L1301) |
+| withoutSeals | function_declaration |  | [1328](../../magpie/internal/gateway/affinity.go#L1328) |
+| q | var_spec | withoutSeals | [1329](../../magpie/internal/gateway/affinity.go#L1329) |
+| t | var_spec | withoutSeals | [1339](../../magpie/internal/gateway/affinity.go#L1339) |
+| Type | field_declaration | withoutSeals::t | [1340](../../magpie/internal/gateway/affinity.go#L1340) |
+| withoutItemSeal | function_declaration |  | [1363](../../magpie/internal/gateway/affinity.go#L1363) |
+| withoutCompaction | function_declaration |  | [1378](../../magpie/internal/gateway/affinity.go#L1378) |
+| q | var_spec | withoutCompaction | [1379](../../magpie/internal/gateway/affinity.go#L1379) |
+| Input | field_declaration | withoutCompaction::q | [1380](../../magpie/internal/gateway/affinity.go#L1380) |
+| overflowLearned | var_spec |  | [1405](../../magpie/internal/gateway/affinity.go#L1405) |
+| m | field_declaration | overflowLearned | [1407](../../magpie/internal/gateway/affinity.go#L1407) |
+| refusedLong | type_spec |  | [1415](../../magpie/internal/gateway/affinity.go#L1415) |
+| at | field_declaration | refusedLong | [1416](../../magpie/internal/gateway/affinity.go#L1416) |
+| bytes | field_declaration | refusedLong | [1417](../../magpie/internal/gateway/affinity.go#L1417) |
+| noteOverflow | function_declaration |  | [1422](../../magpie/internal/gateway/affinity.go#L1422) |
+| forgetOverflow | function_declaration |  | [1450](../../magpie/internal/gateway/affinity.go#L1450) |
+| behindOverflow | function_declaration |  | [1472](../../magpie/internal/gateway/affinity.go#L1472) |
+| behind | var_spec | behindOverflow | [1480](../../magpie/internal/gateway/affinity.go#L1480) |
+| behindW | var_spec | behindOverflow | [1481](../../magpie/internal/gateway/affinity.go#L1481) |
+| withoutKinds | function_declaration |  | [1499](../../magpie/internal/gateway/affinity.go#L1499) |
+| q | var_spec | withoutKinds | [1500](../../magpie/internal/gateway/affinity.go#L1500) |
+| t | var_spec | withoutKinds | [1510](../../magpie/internal/gateway/affinity.go#L1510) |
+| Type | field_declaration | withoutKinds::t | [1511](../../magpie/internal/gateway/affinity.go#L1511) |
+| keptAgain | function_declaration |  | [1537](../../magpie/internal/gateway/affinity.go#L1537) |
+| cacheHolds | function_declaration |  | [1551](../../magpie/internal/gateway/affinity.go#L1551) |

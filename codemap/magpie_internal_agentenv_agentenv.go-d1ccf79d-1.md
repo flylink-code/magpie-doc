@@ -4,10 +4,10 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agentenv/agentenv.go) · page 1/1
 
-Source SHA-256: 4dfad37aff00ade27854edef704a972828721605b0684431aeeccf6ace577075
+Source SHA-256: 4b12546519d92267c60c2bdf878260a046664f8e7425fd7f84fcf3ae9ec0983d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Vars | var_spec |  | [30](../../magpie/internal/agentenv/agentenv.go#L30) |
-| NotPaths | var_spec |  | [122](../../magpie/internal/agentenv/agentenv.go#L122) |
-| ClaudeProviders | var_spec |  | [138](../../magpie/internal/agentenv/agentenv.go#L138) |
+| NotPaths | var_spec |  | [161](../../magpie/internal/agentenv/agentenv.go#L161) |
+| ClaudeProviders | var_spec |  | [178](../../magpie/internal/agentenv/agentenv.go#L178) |

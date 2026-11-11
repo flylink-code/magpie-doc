@@ -4,28 +4,28 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/custom_tool.go) · page 1/1
 
-Source SHA-256: 5b2f281434f6b4325535496102ad618c1d2cacdbf99239f3140a996eed38939f
+Source SHA-256: 3e62d8840df5a85b68b2bd8aea4e8c431f3c26e04f260f10a85b553b4311c2ba
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| customToolRefusal | var_spec |  | [25](../../magpie/internal/gateway/custom_tool.go#L25) |
-| customToolRefused | function_declaration |  | [29](../../magpie/internal/gateway/custom_tool.go#L29) |
-| hasCustomTool | function_declaration |  | [34](../../magpie/internal/gateway/custom_tool.go#L34) |
-| m | var_spec | hasCustomTool | [38](../../magpie/internal/gateway/custom_tool.go#L38) |
-| customIn | function_declaration |  | [56](../../magpie/internal/gateway/custom_tool.go#L56) |
-| customStream | type_spec |  | [77](../../magpie/internal/gateway/custom_tool.go#L77) |
-| pend | field_declaration | customStream | [78](../../magpie/internal/gateway/custom_tool.go#L78) |
-| depth | field_declaration | customStream | [79](../../magpie/internal/gateway/custom_tool.go#L79) |
-| str | field_declaration | customStream | [80](../../magpie/internal/gateway/custom_tool.go#L80) |
-| esc | field_declaration | customStream | [81](../../magpie/internal/gateway/custom_tool.go#L81) |
-| key | field_declaration | customStream | [82](../../magpie/internal/gateway/custom_tool.go#L82) |
-| inKey | field_declaration | customStream | [83](../../magpie/internal/gateway/custom_tool.go#L83) |
-| want | field_declaration | customStream | [84](../../magpie/internal/gateway/custom_tool.go#L84) |
-| last | field_declaration | customStream | [85](../../magpie/internal/gateway/custom_tool.go#L85) |
-| value | field_declaration | customStream | [86](../../magpie/internal/gateway/custom_tool.go#L86) |
-| in | field_declaration | customStream | [87](../../magpie/internal/gateway/custom_tool.go#L87) |
-| over | field_declaration | customStream | [88](../../magpie/internal/gateway/custom_tool.go#L88) |
-| feed | method_declaration |  | [93](../../magpie/internal/gateway/custom_tool.go#L93) |
-| take | method_declaration |  | [157](../../magpie/internal/gateway/custom_tool.go#L157) |
-| text | var_spec | take | [192](../../magpie/internal/gateway/custom_tool.go#L192) |
-| highSurrogate | function_declaration |  | [206](../../magpie/internal/gateway/custom_tool.go#L206) |
+| customToolRefusal | var_spec |  | [27](../../magpie/internal/gateway/custom_tool.go#L27) |
+| customToolRefused | function_declaration |  | [31](../../magpie/internal/gateway/custom_tool.go#L31) |
+| hasCustomTool | function_declaration |  | [36](../../magpie/internal/gateway/custom_tool.go#L36) |
+| m | var_spec | hasCustomTool | [40](../../magpie/internal/gateway/custom_tool.go#L40) |
+| customIn | function_declaration |  | [58](../../magpie/internal/gateway/custom_tool.go#L58) |
+| customStream | type_spec |  | [79](../../magpie/internal/gateway/custom_tool.go#L79) |
+| pend | field_declaration | customStream | [80](../../magpie/internal/gateway/custom_tool.go#L80) |
+| depth | field_declaration | customStream | [81](../../magpie/internal/gateway/custom_tool.go#L81) |
+| str | field_declaration | customStream | [82](../../magpie/internal/gateway/custom_tool.go#L82) |
+| esc | field_declaration | customStream | [83](../../magpie/internal/gateway/custom_tool.go#L83) |
+| key | field_declaration | customStream | [84](../../magpie/internal/gateway/custom_tool.go#L84) |
+| inKey | field_declaration | customStream | [85](../../magpie/internal/gateway/custom_tool.go#L85) |
+| want | field_declaration | customStream | [86](../../magpie/internal/gateway/custom_tool.go#L86) |
+| last | field_declaration | customStream | [87](../../magpie/internal/gateway/custom_tool.go#L87) |
+| value | field_declaration | customStream | [88](../../magpie/internal/gateway/custom_tool.go#L88) |
+| in | field_declaration | customStream | [89](../../magpie/internal/gateway/custom_tool.go#L89) |
+| over | field_declaration | customStream | [90](../../magpie/internal/gateway/custom_tool.go#L90) |
+| feed | method_declaration |  | [95](../../magpie/internal/gateway/custom_tool.go#L95) |
+| take | method_declaration |  | [159](../../magpie/internal/gateway/custom_tool.go#L159) |
+| text | var_spec | take | [194](../../magpie/internal/gateway/custom_tool.go#L194) |
+| highSurrogate | function_declaration |  | [208](../../magpie/internal/gateway/custom_tool.go#L208) |

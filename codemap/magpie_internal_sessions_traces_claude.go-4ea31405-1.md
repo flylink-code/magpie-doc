@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/traces_claude.go) · page 1/1
 
-Source SHA-256: d9132f19e94437bfbd771b03bf2a99e846244cb47a23b45b8d549ecd897d291b
+Source SHA-256: c413463ebdbfb4a0324d96df9e1ac893472e2af6e5304503f6e9c3393a8dc502
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

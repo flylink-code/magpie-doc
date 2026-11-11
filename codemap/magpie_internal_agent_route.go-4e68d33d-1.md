@@ -4,33 +4,57 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/route.go) · page 1/1
 
-Source SHA-256: 768fac929120dd30c2b71fe12c40b39b153e3185eb33dce9506331c7df64b0f1
+Source SHA-256: 39bcf959726384b284c302c42d3f10e0ce87d3a8093f060046e4b222df4e7264
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | magpieID | const_spec |  | [23](../../magpie/internal/agent/route.go#L23) |
 | RoutingGroups | const_spec |  | [26](../../magpie/internal/agent/route.go#L26) |
-| viaMagpie | function_declaration |  | [31](../../magpie/internal/agent/route.go#L31) |
-| out | var_spec | viaMagpie | [32](../../magpie/internal/agent/route.go#L32) |
-| tiered | var_spec | viaMagpie | [74](../../magpie/internal/agent/route.go#L74) |
-| listLabels | function_declaration |  | [107](../../magpie/internal/agent/route.go#L107) |
-| viaMagpieFor | function_declaration |  | [119](../../magpie/internal/agent/route.go#L119) |
-| out | var_spec | viaMagpieFor | [120](../../magpie/internal/agent/route.go#L120) |
-| isMagpie | function_declaration |  | [130](../../magpie/internal/agent/route.go#L130) |
-| magpieRefs | var_spec |  | [148](../../magpie/internal/agent/route.go#L148) |
-| stampedRefs | type_spec |  | [153](../../magpie/internal/agent/route.go#L153) |
-| mu | field_declaration | stampedRefs | [154](../../magpie/internal/agent/route.go#L154) |
-| stamp | field_declaration | stampedRefs | [155](../../magpie/internal/agent/route.go#L155) |
-| at | field_declaration | stampedRefs | [156](../../magpie/internal/agent/route.go#L156) |
-| of | field_declaration | stampedRefs | [157](../../magpie/internal/agent/route.go#L157) |
-| stampedRefsFor | const_spec |  | [161](../../magpie/internal/agent/route.go#L161) |
-| stampedRefsMax | const_spec |  | [162](../../magpie/internal/agent/route.go#L162) |
-| get | method_declaration |  | [165](../../magpie/internal/agent/route.go#L165) |
-| firstOf | function_declaration |  | [189](../../magpie/internal/agent/route.go#L189) |
-| magpieModels | function_declaration |  | [198](../../magpie/internal/agent/route.go#L198) |
-| out | var_spec | magpieModels | [202](../../magpie/internal/agent/route.go#L202) |
-| allResponses | function_declaration |  | [264](../../magpie/internal/agent/route.go#L264) |
-| maxTokens | function_declaration |  | [277](../../magpie/internal/agent/route.go#L277) |
-| outputOr | function_declaration |  | [284](../../magpie/internal/agent/route.go#L284) |
-| group | function_declaration |  | [292](../../magpie/internal/agent/route.go#L292) |
-| gatewayV1 | function_declaration |  | [299](../../magpie/internal/agent/route.go#L299) |
+| viaMagpie | function_declaration |  | [32](../../magpie/internal/agent/route.go#L32) |
+| viaMagpieShared | function_declaration |  | [40](../../magpie/internal/agent/route.go#L40) |
+| withVia | function_declaration |  | [49](../../magpie/internal/agent/route.go#L49) |
+| joinedVia | function_declaration |  | [61](../../magpie/internal/agent/route.go#L61) |
+| joinedOptions | var_spec |  | [76](../../magpie/internal/agent/route.go#L76) |
+| m | field_declaration | joinedOptions | [78](../../magpie/internal/agent/route.go#L78) |
+| joinedList | type_spec |  | [81](../../magpie/internal/agent/route.go#L81) |
+| own | field_declaration | joinedList | [81](../../magpie/internal/agent/route.go#L81) |
+| sameList | function_declaration |  | [85](../../magpie/internal/agent/route.go#L85) |
+| sameOption | function_declaration |  | [90](../../magpie/internal/agent/route.go#L90) |
+| builtOptions | var_spec |  | [105](../../magpie/internal/agent/route.go#L105) |
+| buildVia | function_declaration |  | [108](../../magpie/internal/agent/route.go#L108) |
+| out | var_spec | buildVia | [109](../../magpie/internal/agent/route.go#L109) |
+| tiered | var_spec | buildVia | [152](../../magpie/internal/agent/route.go#L152) |
+| listLabels | function_declaration |  | [188](../../magpie/internal/agent/route.go#L188) |
+| isMagpie | function_declaration |  | [199](../../magpie/internal/agent/route.go#L199) |
+| magpieRefs | var_spec |  | [217](../../magpie/internal/agent/route.go#L217) |
+| stampedRefs | type_spec |  | [222](../../magpie/internal/agent/route.go#L222) |
+| mu | field_declaration | stampedRefs | [223](../../magpie/internal/agent/route.go#L223) |
+| stamp | field_declaration | stampedRefs | [224](../../magpie/internal/agent/route.go#L224) |
+| at | field_declaration | stampedRefs | [225](../../magpie/internal/agent/route.go#L225) |
+| of | field_declaration | stampedRefs | [226](../../magpie/internal/agent/route.go#L226) |
+| stampedRefsFor | const_spec |  | [230](../../magpie/internal/agent/route.go#L230) |
+| stampedRefsMax | const_spec |  | [231](../../magpie/internal/agent/route.go#L231) |
+| get | method_declaration |  | [234](../../magpie/internal/agent/route.go#L234) |
+| firstOf | function_declaration |  | [258](../../magpie/internal/agent/route.go#L258) |
+| magpieModels | function_declaration |  | [269](../../magpie/internal/agent/route.go#L269) |
+| sharedModels | function_declaration |  | [278](../../magpie/internal/agent/route.go#L278) |
+| builtModels | var_spec |  | [287](../../magpie/internal/agent/route.go#L287) |
+| stampedLists | type_spec |  | [291](../../magpie/internal/agent/route.go#L291) |
+| m | field_declaration | stampedLists | [293](../../magpie/internal/agent/route.go#L293) |
+| sweeping | field_declaration | stampedLists | [298](../../magpie/internal/agent/route.go#L298) |
+| sweep | method_declaration |  | [303](../../magpie/internal/agent/route.go#L303) |
+| stampedList | type_spec |  | [321](../../magpie/internal/agent/route.go#L321) |
+| list | field_declaration | stampedList | [322](../../magpie/internal/agent/route.go#L322) |
+| stamp | field_declaration | stampedList | [323](../../magpie/internal/agent/route.go#L323) |
+| at | field_declaration | stampedList | [324](../../magpie/internal/agent/route.go#L324) |
+| get | method_declaration |  | [327](../../magpie/internal/agent/route.go#L327) |
+| shared | method_declaration |  | [332](../../magpie/internal/agent/route.go#L332) |
+| magpieModelsFor | const_spec |  | [359](../../magpie/internal/agent/route.go#L359) |
+| buildModels | function_declaration |  | [364](../../magpie/internal/agent/route.go#L364) |
+| out | var_spec | buildModels | [368](../../magpie/internal/agent/route.go#L368) |
+| describedNow | function_declaration |  | [466](../../magpie/internal/agent/route.go#L466) |
+| builtSeen | var_spec |  | [472](../../magpie/internal/agent/route.go#L472) |
+| maxTokens | function_declaration |  | [478](../../magpie/internal/agent/route.go#L478) |
+| outputOr | function_declaration |  | [485](../../magpie/internal/agent/route.go#L485) |
+| group | function_declaration |  | [493](../../magpie/internal/agent/route.go#L493) |
+| gatewayV1 | function_declaration |  | [500](../../magpie/internal/agent/route.go#L500) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skill_edits.go) · page 1/1
 
-Source SHA-256: 1efc2799c2b4ff23f8f14505d71ff4f8e0a3d1b0e22b12651d9f00bf58594e80
+Source SHA-256: a43565c0b80dd45eacc18ce85fef7bae946a1e922b4134672a4f398da923c590
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,9 +13,9 @@ Source SHA-256: 1efc2799c2b4ff23f8f14505d71ff4f8e0a3d1b0e22b12651d9f00bf58594e80
 | agent | field_declaration | takeEdits::edit | [41](../../magpie/internal/library/skill_edits.go#L41) |
 | at | field_declaration | takeEdits::edit | [42](../../magpie/internal/library/skill_edits.go#L42) |
 | edits | var_spec | takeEdits | [44](../../magpie/internal/library/skill_edits.go#L44) |
-| copiedAt | function_declaration |  | [130](../../magpie/internal/library/skill_edits.go#L130) |
-| changedAt | function_declaration |  | [142](../../magpie/internal/library/skill_edits.go#L142) |
-| at | var_spec | changedAt | [143](../../magpie/internal/library/skill_edits.go#L143) |
-| skipInSkill | function_declaration |  | [166](../../magpie/internal/library/skill_edits.go#L166) |
-| keepLibrarySkill | function_declaration |  | [172](../../magpie/internal/library/skill_edits.go#L172) |
-| mirrorDir | function_declaration |  | [184](../../magpie/internal/library/skill_edits.go#L184) |
+| copiedAt | function_declaration |  | [160](../../magpie/internal/library/skill_edits.go#L160) |
+| changedAt | function_declaration |  | [172](../../magpie/internal/library/skill_edits.go#L172) |
+| at | var_spec | changedAt | [173](../../magpie/internal/library/skill_edits.go#L173) |
+| skipInSkill | function_declaration |  | [196](../../magpie/internal/library/skill_edits.go#L196) |
+| keepLibrarySkill | function_declaration |  | [202](../../magpie/internal/library/skill_edits.go#L202) |
+| mirrorDir | function_declaration |  | [214](../../magpie/internal/library/skill_edits.go#L214) |

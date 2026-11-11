@@ -4,107 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/chattidy.go) · page 1/2
 
-Source SHA-256: 16b0b2113ee875aa728a74675e5633cdc7b42d303f80b3260dcca17e4bf7aece
+Source SHA-256: 281bb204e16614cc475276e28ccd63922155dfa468e7a56c47780c60146d8d38
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| chatTidy | type_spec |  | [72](../../magpie/internal/gateway/chattidy.go#L72) |
-| buf | field_declaration | chatTidy | [73](../../magpie/internal/gateway/chattidy.go#L73) |
-| ids | field_declaration | chatTidy | [74](../../magpie/internal/gateway/chattidy.go#L74) |
-| indexes | field_declaration | chatTidy | [75](../../magpie/internal/gateway/chattidy.go#L75) |
-| called | field_declaration | chatTidy | [76](../../magpie/internal/gateway/chattidy.go#L76) |
-| emptyReasoning | var_spec |  | [80](../../magpie/internal/gateway/chattidy.go#L80) |
-| emptyFinishReason | var_spec |  | [81](../../magpie/internal/gateway/chattidy.go#L81) |
-| emptyToolName | var_spec |  | [82](../../magpie/internal/gateway/chattidy.go#L82) |
-| emptyToolCalls | var_spec |  | [83](../../magpie/internal/gateway/chattidy.go#L83) |
-| contentParts | var_spec |  | [84](../../magpie/internal/gateway/chattidy.go#L84) |
-| contentPartsSpace | var_spec |  | [85](../../magpie/internal/gateway/chattidy.go#L85) |
-| toolCallsField | var_spec |  | [86](../../magpie/internal/gateway/chattidy.go#L86) |
-| write | method_declaration |  | [91](../../magpie/internal/gateway/chattidy.go#L91) |
-| flush | method_declaration |  | [103](../../magpie/internal/gateway/chattidy.go#L103) |
-| lines | method_declaration |  | [109](../../magpie/internal/gateway/chattidy.go#L109) |
-| out | var_spec | lines | [113](../../magpie/internal/gateway/chattidy.go#L113) |
-| needsTidy | function_declaration |  | [128](../../magpie/internal/gateway/chattidy.go#L128) |
-| needs | method_declaration |  | [140](../../magpie/internal/gateway/chattidy.go#L140) |
-| usageField | var_spec |  | [145](../../magpie/internal/gateway/chattidy.go#L145) |
-| cachedTokensField | var_spec |  | [146](../../magpie/internal/gateway/chattidy.go#L146) |
-| otherCacheFields | var_spec |  | [148](../../magpie/internal/gateway/chattidy.go#L148) |
-| mayMendUsage | function_declaration |  | [157](../../magpie/internal/gateway/chattidy.go#L157) |
-| openAIUsage | function_declaration |  | [179](../../magpie/internal/gateway/chattidy.go#L179) |
-| cu | var_spec | openAIUsage | [180](../../magpie/internal/gateway/chattidy.go#L180) |
-| m | var_spec | openAIUsage | [192](../../magpie/internal/gateway/chattidy.go#L192) |
-| details | var_spec | openAIUsage | [196](../../magpie/internal/gateway/chattidy.go#L196) |
-| finishReasonField | var_spec |  | [218](../../magpie/internal/gateway/chattidy.go#L218) |
-| tidyLine | function_declaration |  | [221](../../magpie/internal/gateway/chattidy.go#L221) |
-| line | method_declaration |  | [223](../../magpie/internal/gateway/chattidy.go#L223) |
-| chunk | var_spec | line | [233](../../magpie/internal/gateway/chattidy.go#L233) |
-| choices | var_spec | line | [241](../../magpie/internal/gateway/chattidy.go#L241) |
-| delta | var_spec | line | [256](../../magpie/internal/gateway/chattidy.go#L256) |
-| withoutEmptyNames | function_declaration |  | [318](../../magpie/internal/gateway/chattidy.go#L318) |
-| calls | var_spec | withoutEmptyNames | [319](../../magpie/internal/gateway/chattidy.go#L319) |
-| fn | var_spec | withoutEmptyNames | [325](../../magpie/internal/gateway/chattidy.go#L325) |
-| streamCallIndexes | type_spec |  | [348](../../magpie/internal/gateway/chattidy.go#L348) |
-| openCall | type_spec |  | [352](../../magpie/internal/gateway/chattidy.go#L352) |
-| open | field_declaration | openCall | [353](../../magpie/internal/gateway/chattidy.go#L353) |
-| id | field_declaration | openCall | [354](../../magpie/internal/gateway/chattidy.go#L354) |
-| index | field_declaration | openCall | [355](../../magpie/internal/gateway/chattidy.go#L355) |
-| give | method_declaration |  | [366](../../magpie/internal/gateway/chattidy.go#L366) |
-| calls | var_spec | give | [367](../../magpie/internal/gateway/chattidy.go#L367) |
-| n | var_spec | give | [380](../../magpie/internal/gateway/chattidy.go#L380) |
-| partsText | function_declaration |  | [407](../../magpie/internal/gateway/chattidy.go#L407) |
-| parts | var_spec | partsText | [412](../../magpie/internal/gateway/chattidy.go#L412) |
-| Type | field_declaration | partsText::parts | [413](../../magpie/internal/gateway/chattidy.go#L413) |
-| Text | field_declaration | partsText::parts | [414](../../magpie/internal/gateway/chattidy.go#L414) |
-| Thinking | field_declaration | partsText::parts | [415](../../magpie/internal/gateway/chattidy.go#L415) |
-| tb | var_spec | partsText | [420](../../magpie/internal/gateway/chattidy.go#L420) |
-| s | var_spec | partsText | [427](../../magpie/internal/gateway/chattidy.go#L427) |
-| inner | var_spec | partsText | [432](../../magpie/internal/gateway/chattidy.go#L432) |
-| Text | field_declaration | partsText::inner | [433](../../magpie/internal/gateway/chattidy.go#L433) |
-| flattenContent | function_declaration |  | [448](../../magpie/internal/gateway/chattidy.go#L448) |
-| had | var_spec | flattenContent | [459](../../magpie/internal/gateway/chattidy.go#L459) |
-| chatWhole | type_spec |  | [475](../../magpie/internal/gateway/chattidy.go#L475) |
-| names | field_declaration | chatWhole | [476](../../magpie/internal/gateway/chattidy.go#L476) |
-| buf | field_declaration | chatWhole | [477](../../magpie/internal/gateway/chattidy.go#L477) |
-| write | method_declaration |  | [480](../../magpie/internal/gateway/chattidy.go#L480) |
-| flush | method_declaration |  | [485](../../magpie/internal/gateway/chattidy.go#L485) |
-| reply | var_spec | flush | [492](../../magpie/internal/gateway/chattidy.go#L492) |
-| choices | var_spec | flush | [500](../../magpie/internal/gateway/chattidy.go#L500) |
-| msg | var_spec | flush | [509](../../magpie/internal/gateway/chattidy.go#L509) |
-| native | var_spec | flush | [523](../../magpie/internal/gateway/chattidy.go#L523) |
-| messageReasoning | var_spec |  | [552](../../magpie/internal/gateway/chattidy.go#L552) |
-| reasoningText | function_declaration |  | [556](../../magpie/internal/gateway/chattidy.go#L556) |
-| s | var_spec | reasoningText | [558](../../magpie/internal/gateway/chattidy.go#L558) |
-| details | var_spec | reasoningText | [563](../../magpie/internal/gateway/chattidy.go#L563) |
-| Text | field_declaration | reasoningText::details | [564](../../magpie/internal/gateway/chattidy.go#L564) |
-| Summary | field_declaration | reasoningText::details | [565](../../magpie/internal/gateway/chattidy.go#L565) |
-| b | var_spec | reasoningText | [568](../../magpie/internal/gateway/chattidy.go#L568) |
-| noReasoning | const_spec |  | [588](../../magpie/internal/gateway/chattidy.go#L588) |
-| withReasoningOnToolTurns | function_declaration |  | [600](../../magpie/internal/gateway/chattidy.go#L600) |
-| role | var_spec | withReasoningOnToolTurns | [603](../../magpie/internal/gateway/chattidy.go#L603) |
-| calls | var_spec | withReasoningOnToolTurns | [604](../../magpie/internal/gateway/chattidy.go#L604) |
-| own | var_spec | withReasoningOnToolTurns | [618](../../magpie/internal/gateway/chattidy.go#L618) |
-| asReasoningContent | function_declaration |  | [639](../../magpie/internal/gateway/chattidy.go#L639) |
-| silentAssistantsOut | function_declaration |  | [649](../../magpie/internal/gateway/chattidy.go#L649) |
-| q | var_spec | silentAssistantsOut | [653](../../magpie/internal/gateway/chattidy.go#L653) |
-| msgs | var_spec | silentAssistantsOut | [659](../../magpie/internal/gateway/chattidy.go#L659) |
-| anySilentAssistant | function_declaration |  | [681](../../magpie/internal/gateway/chattidy.go#L681) |
-| m | var_spec | anySilentAssistant | [705](../../magpie/internal/gateway/chattidy.go#L705) |
-| textSaysSomething | function_declaration |  | [717](../../magpie/internal/gateway/chattidy.go#L717) |
-| jsonStringIs | function_declaration |  | [738](../../magpie/internal/gateway/chattidy.go#L738) |
-| reasoningDetailsAsContent | function_declaration |  | [756](../../magpie/internal/gateway/chattidy.go#L756) |
-| own | var_spec | reasoningDetailsAsContent | [761](../../magpie/internal/gateway/chattidy.go#L761) |
-| withoutMessageReasoning | function_declaration |  | [775](../../magpie/internal/gateway/chattidy.go#L775) |
-| editMessages | function_declaration |  | [786](../../magpie/internal/gateway/chattidy.go#L786) |
-| q | var_spec | editMessages | [794](../../magpie/internal/gateway/chattidy.go#L794) |
-| msgs | var_spec | editMessages | [798](../../magpie/internal/gateway/chattidy.go#L798) |
-| m | var_spec | editMessages | [804](../../magpie/internal/gateway/chattidy.go#L804) |
-| withoutMessageFields | function_declaration |  | [825](../../magpie/internal/gateway/chattidy.go#L825) |
-| mistralThinking | function_declaration |  | [844](../../magpie/internal/gateway/chattidy.go#L844) |
-| role | var_spec | mistralThinking | [858](../../magpie/internal/gateway/chattidy.go#L858) |
-| list | var_spec | mistralThinking | [867](../../magpie/internal/gateway/chattidy.go#L867) |
-| s | var_spec | mistralThinking | [868](../../magpie/internal/gateway/chattidy.go#L868) |
-| toolPairsOut | function_declaration |  | [896](../../magpie/internal/gateway/chattidy.go#L896) |
-| q | var_spec | toolPairsOut | [900](../../magpie/internal/gateway/chattidy.go#L900) |
-| msgs | var_spec | toolPairsOut | [906](../../magpie/internal/gateway/chattidy.go#L906) |
-| chatCalls | function_declaration |  | [944](../../magpie/internal/gateway/chattidy.go#L944) |
-| toolsPaired | function_declaration |  | [953](../../magpie/internal/gateway/chattidy.go#L953) |
+| chatTidy | type_spec |  | [97](../../magpie/internal/gateway/chattidy.go#L97) |
+| buf | field_declaration | chatTidy | [98](../../magpie/internal/gateway/chattidy.go#L98) |
+| ids | field_declaration | chatTidy | [99](../../magpie/internal/gateway/chattidy.go#L99) |
+| indexes | field_declaration | chatTidy | [100](../../magpie/internal/gateway/chattidy.go#L100) |
+| called | field_declaration | chatTidy | [101](../../magpie/internal/gateway/chattidy.go#L101) |
+| named | field_declaration | chatTidy | [102](../../magpie/internal/gateway/chattidy.go#L102) |
+| seen | field_declaration | chatTidy | [103](../../magpie/internal/gateway/chattidy.go#L103) |
+| bad | field_declaration | chatTidy | [104](../../magpie/internal/gateway/chattidy.go#L104) |
+| emptyReasoning | var_spec |  | [108](../../magpie/internal/gateway/chattidy.go#L108) |
+| emptyFinishReason | var_spec |  | [109](../../magpie/internal/gateway/chattidy.go#L109) |
+| emptyToolName | var_spec |  | [110](../../magpie/internal/gateway/chattidy.go#L110) |
+| emptyToolCalls | var_spec |  | [111](../../magpie/internal/gateway/chattidy.go#L111) |
+| contentParts | var_spec |  | [112](../../magpie/internal/gateway/chattidy.go#L112) |
+| contentPartsSpace | var_spec |  | [113](../../magpie/internal/gateway/chattidy.go#L113) |
+| toolCallsField | var_spec |  | [114](../../magpie/internal/gateway/chattidy.go#L114) |
+| functionCallField | var_spec |  | [115](../../magpie/internal/gateway/chattidy.go#L115) |
+| write | method_declaration |  | [120](../../magpie/internal/gateway/chattidy.go#L120) |
+| flush | method_declaration |  | [132](../../magpie/internal/gateway/chattidy.go#L132) |
+| lines | method_declaration |  | [138](../../magpie/internal/gateway/chattidy.go#L138) |
+| out | var_spec | lines | [142](../../magpie/internal/gateway/chattidy.go#L142) |
+| needsTidy | function_declaration |  | [157](../../magpie/internal/gateway/chattidy.go#L157) |
+| needs | method_declaration |  | [170](../../magpie/internal/gateway/chattidy.go#L170) |
+| usageField | var_spec |  | [175](../../magpie/internal/gateway/chattidy.go#L175) |
+| cachedTokensField | var_spec |  | [176](../../magpie/internal/gateway/chattidy.go#L176) |
+| otherCacheFields | var_spec |  | [178](../../magpie/internal/gateway/chattidy.go#L178) |
+| mayMendUsage | function_declaration |  | [187](../../magpie/internal/gateway/chattidy.go#L187) |
+| openAIUsage | function_declaration |  | [209](../../magpie/internal/gateway/chattidy.go#L209) |
+| cu | var_spec | openAIUsage | [210](../../magpie/internal/gateway/chattidy.go#L210) |
+| m | var_spec | openAIUsage | [222](../../magpie/internal/gateway/chattidy.go#L222) |
+| details | var_spec | openAIUsage | [226](../../magpie/internal/gateway/chattidy.go#L226) |
+| finishReasonField | var_spec |  | [248](../../magpie/internal/gateway/chattidy.go#L248) |
+| tidyLine | function_declaration |  | [251](../../magpie/internal/gateway/chattidy.go#L251) |
+| line | method_declaration |  | [253](../../magpie/internal/gateway/chattidy.go#L253) |
+| chunk | var_spec | line | [263](../../magpie/internal/gateway/chattidy.go#L263) |
+| choices | var_spec | line | [271](../../magpie/internal/gateway/chattidy.go#L271) |
+| delta | var_spec | line | [286](../../magpie/internal/gateway/chattidy.go#L286) |
+| emptyFunctionCall | function_declaration |  | [388](../../magpie/internal/gateway/chattidy.go#L388) |
+| fc | var_spec | emptyFunctionCall | [392](../../magpie/internal/gateway/chattidy.go#L392) |
+| Name | field_declaration | emptyFunctionCall::fc | [393](../../magpie/internal/gateway/chattidy.go#L393) |
+| Arguments | field_declaration | emptyFunctionCall::fc | [394](../../magpie/internal/gateway/chattidy.go#L394) |
+| fullFunctionCall | function_declaration |  | [403](../../magpie/internal/gateway/chattidy.go#L403) |
+| fc | var_spec | fullFunctionCall | [407](../../magpie/internal/gateway/chattidy.go#L407) |
+| Name | field_declaration | fullFunctionCall::fc | [408](../../magpie/internal/gateway/chattidy.go#L408) |
+| Arguments | field_declaration | fullFunctionCall::fc | [409](../../magpie/internal/gateway/chattidy.go#L409) |
+| withoutEmptyNames | function_declaration |  | [418](../../magpie/internal/gateway/chattidy.go#L418) |
+| calls | var_spec | withoutEmptyNames | [419](../../magpie/internal/gateway/chattidy.go#L419) |
+| fn | var_spec | withoutEmptyNames | [425](../../magpie/internal/gateway/chattidy.go#L425) |
+| streamCallIndexes | type_spec |  | [448](../../magpie/internal/gateway/chattidy.go#L448) |
+| openCall | type_spec |  | [452](../../magpie/internal/gateway/chattidy.go#L452) |
+| open | field_declaration | openCall | [453](../../magpie/internal/gateway/chattidy.go#L453) |
+| id | field_declaration | openCall | [454](../../magpie/internal/gateway/chattidy.go#L454) |
+| index | field_declaration | openCall | [455](../../magpie/internal/gateway/chattidy.go#L455) |
+| up | field_declaration | openCall | [459](../../magpie/internal/gateway/chattidy.go#L459) |
+| upID | field_declaration | openCall | [460](../../magpie/internal/gateway/chattidy.go#L460) |
+| used | field_declaration | openCall | [461](../../magpie/internal/gateway/chattidy.go#L461) |
+| renumber | method_declaration |  | [475](../../magpie/internal/gateway/chattidy.go#L475) |
+| give | method_declaration |  | [502](../../magpie/internal/gateway/chattidy.go#L502) |
+| calls | var_spec | give | [503](../../magpie/internal/gateway/chattidy.go#L503) |
+| n | var_spec | give | [516](../../magpie/internal/gateway/chattidy.go#L516) |
+| namesFunction | function_declaration |  | [550](../../magpie/internal/gateway/chattidy.go#L550) |
+| fn | var_spec | namesFunction | [551](../../magpie/internal/gateway/chattidy.go#L551) |
+| Name | field_declaration | namesFunction::fn | [552](../../magpie/internal/gateway/chattidy.go#L552) |
+| nameless | method_declaration |  | [566](../../magpie/internal/gateway/chattidy.go#L566) |
+| calls | var_spec | nameless | [567](../../magpie/internal/gateway/chattidy.go#L567) |
+| kept | var_spec | nameless | [571](../../magpie/internal/gateway/chattidy.go#L571) |
+| fn | var_spec | nameless | [586](../../magpie/internal/gateway/chattidy.go#L586) |
+| name | var_spec | nameless | [587](../../magpie/internal/gateway/chattidy.go#L587) |
+| has | var_spec | nameless | [588](../../magpie/internal/gateway/chattidy.go#L588) |
+| partsText | function_declaration |  | [637](../../magpie/internal/gateway/chattidy.go#L637) |
+| parts | var_spec | partsText | [642](../../magpie/internal/gateway/chattidy.go#L642) |
+| Type | field_declaration | partsText::parts | [643](../../magpie/internal/gateway/chattidy.go#L643) |
+| Text | field_declaration | partsText::parts | [644](../../magpie/internal/gateway/chattidy.go#L644) |
+| Thinking | field_declaration | partsText::parts | [645](../../magpie/internal/gateway/chattidy.go#L645) |
+| tb | var_spec | partsText | [650](../../magpie/internal/gateway/chattidy.go#L650) |
+| s | var_spec | partsText | [657](../../magpie/internal/gateway/chattidy.go#L657) |
+| inner | var_spec | partsText | [662](../../magpie/internal/gateway/chattidy.go#L662) |
+| Text | field_declaration | partsText::inner | [663](../../magpie/internal/gateway/chattidy.go#L663) |
+| flattenContent | function_declaration |  | [678](../../magpie/internal/gateway/chattidy.go#L678) |
+| had | var_spec | flattenContent | [689](../../magpie/internal/gateway/chattidy.go#L689) |
+| chatWhole | type_spec |  | [705](../../magpie/internal/gateway/chattidy.go#L705) |
+| names | field_declaration | chatWhole | [706](../../magpie/internal/gateway/chattidy.go#L706) |
+| buf | field_declaration | chatWhole | [707](../../magpie/internal/gateway/chattidy.go#L707) |
+| write | method_declaration |  | [710](../../magpie/internal/gateway/chattidy.go#L710) |
+| flush | method_declaration |  | [715](../../magpie/internal/gateway/chattidy.go#L715) |
+| reply | var_spec | flush | [722](../../magpie/internal/gateway/chattidy.go#L722) |
+| choices | var_spec | flush | [730](../../magpie/internal/gateway/chattidy.go#L730) |
+| msg | var_spec | flush | [739](../../magpie/internal/gateway/chattidy.go#L739) |
+| native | var_spec | flush | [757](../../magpie/internal/gateway/chattidy.go#L757) |
+| messageReasoning | var_spec |  | [792](../../magpie/internal/gateway/chattidy.go#L792) |
+| reasoningText | function_declaration |  | [796](../../magpie/internal/gateway/chattidy.go#L796) |
+| s | var_spec | reasoningText | [798](../../magpie/internal/gateway/chattidy.go#L798) |
+| details | var_spec | reasoningText | [803](../../magpie/internal/gateway/chattidy.go#L803) |
+| Text | field_declaration | reasoningText::details | [804](../../magpie/internal/gateway/chattidy.go#L804) |
+| Summary | field_declaration | reasoningText::details | [805](../../magpie/internal/gateway/chattidy.go#L805) |
+| b | var_spec | reasoningText | [808](../../magpie/internal/gateway/chattidy.go#L808) |
+| noReasoning | const_spec |  | [828](../../magpie/internal/gateway/chattidy.go#L828) |
+| withReasoningOnToolTurns | function_declaration |  | [840](../../magpie/internal/gateway/chattidy.go#L840) |
+| role | var_spec | withReasoningOnToolTurns | [843](../../magpie/internal/gateway/chattidy.go#L843) |
+| calls | var_spec | withReasoningOnToolTurns | [844](../../magpie/internal/gateway/chattidy.go#L844) |
+| own | var_spec | withReasoningOnToolTurns | [858](../../magpie/internal/gateway/chattidy.go#L858) |

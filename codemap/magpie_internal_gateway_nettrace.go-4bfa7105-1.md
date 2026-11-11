@@ -4,31 +4,32 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/nettrace.go) · page 1/1
 
-Source SHA-256: 824bf8651caba3a9bf96b5ec20555ec3e54dfc361f1c4e5960841ed4fc5f8f83
+Source SHA-256: e5af332a8bab122f715475c0f46944c455f749619001e57e1568a5eee73c01ac
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TryNet | type_spec |  | [19](../../magpie/internal/gateway/nettrace.go#L19) |
-| Own | field_declaration | TryNet | [22](../../magpie/internal/gateway/nettrace.go#L22) |
-| Before | field_declaration | TryNet | [26](../../magpie/internal/gateway/nettrace.go#L26) |
-| Asks | field_declaration | TryNet | [27](../../magpie/internal/gateway/nettrace.go#L27) |
-| Pool | field_declaration | TryNet | [32](../../magpie/internal/gateway/nettrace.go#L32) |
-| DNS | field_declaration | TryNet | [33](../../magpie/internal/gateway/nettrace.go#L33) |
-| Connect | field_declaration | TryNet | [34](../../magpie/internal/gateway/nettrace.go#L34) |
-| TLS | field_declaration | TryNet | [35](../../magpie/internal/gateway/nettrace.go#L35) |
-| Reused | field_declaration | TryNet | [36](../../magpie/internal/gateway/nettrace.go#L36) |
-| Send | field_declaration | TryNet | [38](../../magpie/internal/gateway/nettrace.go#L38) |
-| Wait | field_declaration | TryNet | [41](../../magpie/internal/gateway/nettrace.go#L41) |
-| Head | field_declaration | TryNet | [44](../../magpie/internal/gateway/nettrace.go#L44) |
-| netCycle | type_spec |  | [48](../../magpie/internal/gateway/nettrace.go#L48) |
-| getConn | field_declaration | netCycle | [49](../../magpie/internal/gateway/nettrace.go#L49) |
-| tlsStart | field_declaration | netCycle | [50](../../magpie/internal/gateway/nettrace.go#L50) |
-| reused | field_declaration | netCycle | [51](../../magpie/internal/gateway/nettrace.go#L51) |
-| netTrace | type_spec |  | [56](../../magpie/internal/gateway/nettrace.go#L56) |
-| mu | field_declaration | netTrace | [57](../../magpie/internal/gateway/nettrace.go#L57) |
-| first | field_declaration | netTrace | [58](../../magpie/internal/gateway/nettrace.go#L58) |
-| asks | field_declaration | netTrace | [59](../../magpie/internal/gateway/nettrace.go#L59) |
-| cur | field_declaration | netTrace | [60](../../magpie/internal/gateway/nettrace.go#L60) |
-| hooks | method_declaration |  | [65](../../magpie/internal/gateway/nettrace.go#L65) |
-| timing | method_declaration |  | [134](../../magpie/internal/gateway/nettrace.go#L134) |
-| tenth | function_declaration |  | [169](../../magpie/internal/gateway/nettrace.go#L169) |
+| TryNet | type_spec |  | [21](../../magpie/internal/gateway/nettrace.go#L21) |
+| Own | field_declaration | TryNet | [24](../../magpie/internal/gateway/nettrace.go#L24) |
+| Before | field_declaration | TryNet | [28](../../magpie/internal/gateway/nettrace.go#L28) |
+| Asks | field_declaration | TryNet | [29](../../magpie/internal/gateway/nettrace.go#L29) |
+| Pool | field_declaration | TryNet | [34](../../magpie/internal/gateway/nettrace.go#L34) |
+| DNS | field_declaration | TryNet | [35](../../magpie/internal/gateway/nettrace.go#L35) |
+| Connect | field_declaration | TryNet | [36](../../magpie/internal/gateway/nettrace.go#L36) |
+| TLS | field_declaration | TryNet | [37](../../magpie/internal/gateway/nettrace.go#L37) |
+| Reused | field_declaration | TryNet | [38](../../magpie/internal/gateway/nettrace.go#L38) |
+| Send | field_declaration | TryNet | [40](../../magpie/internal/gateway/nettrace.go#L40) |
+| Wait | field_declaration | TryNet | [43](../../magpie/internal/gateway/nettrace.go#L43) |
+| Head | field_declaration | TryNet | [46](../../magpie/internal/gateway/nettrace.go#L46) |
+| netCycle | type_spec |  | [50](../../magpie/internal/gateway/nettrace.go#L50) |
+| getConn | field_declaration | netCycle | [51](../../magpie/internal/gateway/nettrace.go#L51) |
+| tlsStart | field_declaration | netCycle | [52](../../magpie/internal/gateway/nettrace.go#L52) |
+| reused | field_declaration | netCycle | [53](../../magpie/internal/gateway/nettrace.go#L53) |
+| netTrace | type_spec |  | [58](../../magpie/internal/gateway/nettrace.go#L58) |
+| mu | field_declaration | netTrace | [59](../../magpie/internal/gateway/nettrace.go#L59) |
+| first | field_declaration | netTrace | [60](../../magpie/internal/gateway/nettrace.go#L60) |
+| asks | field_declaration | netTrace | [61](../../magpie/internal/gateway/nettrace.go#L61) |
+| cur | field_declaration | netTrace | [62](../../magpie/internal/gateway/nettrace.go#L62) |
+| hooks | method_declaration |  | [67](../../magpie/internal/gateway/nettrace.go#L67) |
+| timing | method_declaration |  | [136](../../magpie/internal/gateway/nettrace.go#L136) |
+| sentBy | function_declaration |  | [176](../../magpie/internal/gateway/nettrace.go#L176) |
+| tenth | function_declaration |  | [187](../../magpie/internal/gateway/nettrace.go#L187) |

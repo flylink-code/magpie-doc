@@ -4,12 +4,13 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/desktop_subagent.go) · page 1/1
 
-Source SHA-256: c92c2e896b1496c06b5cc47738410379962b57ea9c98fdab1629bc6dd0e9bcb1
+Source SHA-256: 373745c5e9150747d6d9996b78a5972ac9e877c4368f62f8abf39bdbbcef3b27
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | DesktopSubagentModel | function_declaration |  | [30](../../magpie/internal/provider/desktop_subagent.go#L30) |
 | SetDesktopSubagentModel | function_declaration |  | [45](../../magpie/internal/provider/desktop_subagent.go#L45) |
 | DesktopSubagentUnserved | function_declaration |  | [66](../../magpie/internal/provider/desktop_subagent.go#L66) |
-| DesktopSubagentEffort | function_declaration |  | [78](../../magpie/internal/provider/desktop_subagent.go#L78) |
-| SetDesktopSubagentEffort | function_declaration |  | [84](../../magpie/internal/provider/desktop_subagent.go#L84) |
+| Unserved | function_declaration |  | [70](../../magpie/internal/provider/desktop_subagent.go#L70) |
+| DesktopSubagentEffort | function_declaration |  | [82](../../magpie/internal/provider/desktop_subagent.go#L82) |
+| SetDesktopSubagentEffort | function_declaration |  | [88](../../magpie/internal/provider/desktop_subagent.go#L88) |

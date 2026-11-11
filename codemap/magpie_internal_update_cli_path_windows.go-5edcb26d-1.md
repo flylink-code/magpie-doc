@@ -4,13 +4,13 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/cli_path_windows.go) · page 1/1
 
-Source SHA-256: dc4e18e76a7b8c71bae1e4c8cad60264e5122190924e8fbfd5ffc471a1bf139d
+Source SHA-256: 03cfe0e39e5455b8451235f0593cda6278a76522f106864c9cf54203c00ca8bb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | installedShells | function_declaration |  | [15](../../magpie/internal/update/cli_path_windows.go#L15) |
 | cliDir | function_declaration |  | [22](../../magpie/internal/update/cli_path_windows.go#L22) |
-| cliPlace | function_declaration |  | [27](../../magpie/internal/update/cli_path_windows.go#L27) |
-| settingChanged | function_declaration |  | [60](../../magpie/internal/update/cli_path_windows.go#L60) |
-| hwndBroadcast | const_spec | settingChanged | [61](../../magpie/internal/update/cli_path_windows.go#L61) |
-| res | var_spec | settingChanged | [63](../../magpie/internal/update/cli_path_windows.go#L63) |
+| cliPlace | function_declaration |  | [29](../../magpie/internal/update/cli_path_windows.go#L29) |
+| settingChanged | function_declaration |  | [68](../../magpie/internal/update/cli_path_windows.go#L68) |
+| hwndBroadcast | const_spec | settingChanged | [69](../../magpie/internal/update/cli_path_windows.go#L69) |
+| res | var_spec | settingChanged | [71](../../magpie/internal/update/cli_path_windows.go#L71) |

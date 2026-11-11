@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/modelkind.go) · page 1/1
 
-Source SHA-256: 5810f71ea115f777af361ce39bd5eee9cff99718ef90e3a62c361b582d16fa41
+Source SHA-256: f76b598eb18b8f787e522e1d32ab49ddab2c5ae9725461cbbacb41fcb62ca696
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,3 +18,5 @@ Source SHA-256: 5810f71ea115f777af361ce39bd5eee9cff99718ef90e3a62c361b582d16fa41
 | hasKindable | method_declaration |  | [78](../../magpie/internal/provider/modelkind.go#L78) |
 | SetModelKind | function_declaration |  | [88](../../magpie/internal/provider/modelkind.go#L88) |
 | setModelKind | function_declaration |  | [93](../../magpie/internal/provider/modelkind.go#L93) |
+| DrawerHidden | method_declaration |  | [132](../../magpie/internal/provider/modelkind.go#L132) |
+| VideomakerHidden | method_declaration |  | [140](../../magpie/internal/provider/modelkind.go#L140) |

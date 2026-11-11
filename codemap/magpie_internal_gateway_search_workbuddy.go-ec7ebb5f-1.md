@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_workbuddy.go) · page 1/1
 
-Source SHA-256: 6a137930714a125e5508846fb5ac5bd9961e3641ac140d4e66986767959e4e1f
+Source SHA-256: e0f8d57a08e92a5e11a3a433574c24b0014362c646adcb8506c8e45f783d943c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,14 +12,14 @@ Source SHA-256: 6a137930714a125e5508846fb5ac5bd9961e3641ac140d4e66986767959e4e1f
 | wbSearchResults | const_spec |  | [43](../../magpie/internal/gateway/search_workbuddy.go#L43) |
 | wbSearches | function_declaration |  | [47](../../magpie/internal/gateway/search_workbuddy.go#L47) |
 | wbSearch | method_declaration |  | [50](../../magpie/internal/gateway/search_workbuddy.go#L50) |
-| out | var_spec | wbSearch | [90](../../magpie/internal/gateway/search_workbuddy.go#L90) |
-| Code | field_declaration | wbSearch::out | [91](../../magpie/internal/gateway/search_workbuddy.go#L91) |
-| Msg | field_declaration | wbSearch::out | [92](../../magpie/internal/gateway/search_workbuddy.go#L92) |
-| Results | field_declaration | wbSearch::out | [93](../../magpie/internal/gateway/search_workbuddy.go#L93) |
-| Title | field_declaration | wbSearch::out::Results | [94](../../magpie/internal/gateway/search_workbuddy.go#L94) |
-| URL | field_declaration | wbSearch::out::Results | [95](../../magpie/internal/gateway/search_workbuddy.go#L95) |
-| Snippet | field_declaration | wbSearch::out::Results | [96](../../magpie/internal/gateway/search_workbuddy.go#L96) |
-| Site | field_declaration | wbSearch::out::Results | [97](../../magpie/internal/gateway/search_workbuddy.go#L97) |
-| pages | var_spec | wbSearch | [109](../../magpie/internal/gateway/search_workbuddy.go#L109) |
-| wbSearchID | function_declaration |  | [129](../../magpie/internal/gateway/search_workbuddy.go#L129) |
-| b | var_spec | wbSearchID | [130](../../magpie/internal/gateway/search_workbuddy.go#L130) |
+| out | var_spec | wbSearch | [97](../../magpie/internal/gateway/search_workbuddy.go#L97) |
+| Code | field_declaration | wbSearch::out | [98](../../magpie/internal/gateway/search_workbuddy.go#L98) |
+| Msg | field_declaration | wbSearch::out | [99](../../magpie/internal/gateway/search_workbuddy.go#L99) |
+| Results | field_declaration | wbSearch::out | [100](../../magpie/internal/gateway/search_workbuddy.go#L100) |
+| Title | field_declaration | wbSearch::out::Results | [101](../../magpie/internal/gateway/search_workbuddy.go#L101) |
+| URL | field_declaration | wbSearch::out::Results | [102](../../magpie/internal/gateway/search_workbuddy.go#L102) |
+| Snippet | field_declaration | wbSearch::out::Results | [103](../../magpie/internal/gateway/search_workbuddy.go#L103) |
+| Site | field_declaration | wbSearch::out::Results | [104](../../magpie/internal/gateway/search_workbuddy.go#L104) |
+| pages | var_spec | wbSearch | [116](../../magpie/internal/gateway/search_workbuddy.go#L116) |
+| wbSearchID | function_declaration |  | [136](../../magpie/internal/gateway/search_workbuddy.go#L136) |
+| b | var_spec | wbSearchID | [137](../../magpie/internal/gateway/search_workbuddy.go#L137) |

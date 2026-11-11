@@ -4,13 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/usage_api.go) · page 1/1
 
-Source SHA-256: 4927b640d6a48b8882f2b7a8fcd7f8ed07822751c65964b0d49d54a424cf4fee
+Source SHA-256: c85166342d6d5bed0edd81e4060a38e892e2de00a45b0dac093e4df061380ef4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | usageRefused | const_spec |  | [25](../../magpie/internal/gateway/usage_api.go#L25) |
 | heldKey | function_declaration |  | [29](../../magpie/internal/gateway/usage_api.go#L29) |
 | heldRefused | const_spec |  | [38](../../magpie/internal/gateway/usage_api.go#L38) |
-| refuseHeld | function_declaration |  | [43](../../magpie/internal/gateway/usage_api.go#L43) |
-| usageSummary | method_declaration |  | [51](../../magpie/internal/gateway/usage_api.go#L51) |
-| usageRequests | method_declaration |  | [66](../../magpie/internal/gateway/usage_api.go#L66) |
+| heldQuotasOff | const_spec |  | [44](../../magpie/internal/gateway/usage_api.go#L44) |
+| refuseHeld | function_declaration |  | [49](../../magpie/internal/gateway/usage_api.go#L49) |
+| usageSummary | method_declaration |  | [57](../../magpie/internal/gateway/usage_api.go#L57) |
+| usageRequests | method_declaration |  | [72](../../magpie/internal/gateway/usage_api.go#L72) |

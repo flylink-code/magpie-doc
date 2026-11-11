@@ -4,41 +4,48 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/build/icon/gen.go) · page 1/1
 
-Source SHA-256: ff2e505276d282cac688e73effa47ea3905c8c35f2538924fd2947303a61f729
+Source SHA-256: f013e22d17951caee35b8d3399af99545ee09afbe43baec48a416ddfe013cf01
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| fullSVG | var_spec |  | [32](../../magpie/build/icon/gen.go#L32) |
-| smallSVG | var_spec |  | [34](../../magpie/build/icon/gen.go#L34) |
-| main | function_declaration |  | [37](../../magpie/build/icon/gen.go#L37) |
-| img | var_spec | main | [38](../../magpie/build/icon/gen.go#L38) |
-| trayK | const_spec |  | [80](../../magpie/build/icon/gen.go#L80) |
-| tray | function_declaration |  | [83](../../magpie/build/icon/gen.go#L83) |
-| S | const_spec | tray | [84](../../magpie/build/icon/gen.go#L84) |
-| flapSecs | const_spec |  | [100](../../magpie/build/icon/gen.go#L100) |
-| flapEvery | const_spec |  | [101](../../magpie/build/icon/gen.go#L101) |
-| clipBody | const_spec |  | [105](../../magpie/build/icon/gen.go#L105) |
-| clipTail | const_spec |  | [106](../../magpie/build/icon/gen.go#L106) |
-| clipWing | const_spec |  | [107](../../magpie/build/icon/gen.go#L107) |
-| key | type_spec |  | [111](../../magpie/build/icon/gen.go#L111) |
-| at | field_declaration | key | [111](../../magpie/build/icon/gen.go#L111) |
-| wingKeys | var_spec |  | [114](../../magpie/build/icon/gen.go#L114) |
-| tailKeys | var_spec |  | [115](../../magpie/build/icon/gen.go#L115) |
-| bobKeys | var_spec |  | [116](../../magpie/build/icon/gen.go#L116) |
-| wingAt | var_spec |  | [118](../../magpie/build/icon/gen.go#L118) |
-| trayFlap | function_declaration |  | [124](../../magpie/build/icon/gen.go#L124) |
-| ss | const_spec | trayFlap | [128](../../magpie/build/icon/gen.go#L128) |
-| keyed | function_declaration |  | [186](../../magpie/build/icon/gen.go#L186) |
-| ease | function_declaration |  | [198](../../magpie/build/icon/gen.go#L198) |
-| turn | function_declaration |  | [214](../../magpie/build/icon/gen.go#L214) |
-| mask | function_declaration |  | [223](../../magpie/build/icon/gen.go#L223) |
-| xs | var_spec | mask | [225](../../magpie/build/icon/gen.go#L225) |
-| glyph | function_declaration |  | [252](../../magpie/build/icon/gen.go#L252) |
-| app | function_declaration |  | [266](../../magpie/build/icon/gen.go#L266) |
-| tile | var_spec | app | [295](../../magpie/build/icon/gen.go#L295) |
-| coverage | function_declaration |  | [321](../../magpie/build/icon/gen.go#L321) |
-| xs | var_spec | coverage | [324](../../magpie/build/icon/gen.go#L324) |
-| parse | function_declaration |  | [353](../../magpie/build/icon/gen.go#L353) |
-| rings | var_spec | parse | [358](../../magpie/build/icon/gen.go#L358) |
-| pts | var_spec | parse | [359](../../magpie/build/icon/gen.go#L359) |
-| roundRect | function_declaration |  | [399](../../magpie/build/icon/gen.go#L399) |
+| fullSVG | var_spec |  | [36](../../magpie/build/icon/gen.go#L36) |
+| smallSVG | var_spec |  | [38](../../magpie/build/icon/gen.go#L38) |
+| main | function_declaration |  | [41](../../magpie/build/icon/gen.go#L41) |
+| img | var_spec | main | [42](../../magpie/build/icon/gen.go#L42) |
+| trayK | const_spec |  | [93](../../magpie/build/icon/gen.go#L93) |
+| tray | function_declaration |  | [96](../../magpie/build/icon/gen.go#L96) |
+| S | const_spec | tray | [97](../../magpie/build/icon/gen.go#L97) |
+| flapSecs | const_spec |  | [113](../../magpie/build/icon/gen.go#L113) |
+| flapEvery | const_spec |  | [114](../../magpie/build/icon/gen.go#L114) |
+| clipBody | const_spec |  | [118](../../magpie/build/icon/gen.go#L118) |
+| clipTail | const_spec |  | [119](../../magpie/build/icon/gen.go#L119) |
+| clipWing | const_spec |  | [120](../../magpie/build/icon/gen.go#L120) |
+| key | type_spec |  | [124](../../magpie/build/icon/gen.go#L124) |
+| at | field_declaration | key | [124](../../magpie/build/icon/gen.go#L124) |
+| wingKeys | var_spec |  | [127](../../magpie/build/icon/gen.go#L127) |
+| tailKeys | var_spec |  | [128](../../magpie/build/icon/gen.go#L128) |
+| bobKeys | var_spec |  | [129](../../magpie/build/icon/gen.go#L129) |
+| wingAt | var_spec |  | [131](../../magpie/build/icon/gen.go#L131) |
+| trayFlap | function_declaration |  | [137](../../magpie/build/icon/gen.go#L137) |
+| ss | const_spec | trayFlap | [141](../../magpie/build/icon/gen.go#L141) |
+| keyed | function_declaration |  | [199](../../magpie/build/icon/gen.go#L199) |
+| ease | function_declaration |  | [211](../../magpie/build/icon/gen.go#L211) |
+| turn | function_declaration |  | [227](../../magpie/build/icon/gen.go#L227) |
+| mask | function_declaration |  | [236](../../magpie/build/icon/gen.go#L236) |
+| xs | var_spec | mask | [238](../../magpie/build/icon/gen.go#L238) |
+| glyph | function_declaration |  | [265](../../magpie/build/icon/gen.go#L265) |
+| app | function_declaration |  | [280](../../magpie/build/icon/gen.go#L280) |
+| win | function_declaration |  | [292](../../magpie/build/icon/gen.go#L292) |
+| tile | function_declaration |  | [299](../../magpie/build/icon/gen.go#L299) |
+| tile | var_spec | tile | [325](../../magpie/build/icon/gen.go#L325) |
+| trayICOSizes | var_spec |  | [352](../../magpie/build/icon/gen.go#L352) |
+| winICO | function_declaration |  | [356](../../magpie/build/icon/gen.go#L356) |
+| pngs | var_spec | winICO | [357](../../magpie/build/icon/gen.go#L357) |
+| b | var_spec | winICO | [359](../../magpie/build/icon/gen.go#L359) |
+| ico | var_spec | winICO | [365](../../magpie/build/icon/gen.go#L365) |
+| coverage | function_declaration |  | [391](../../magpie/build/icon/gen.go#L391) |
+| xs | var_spec | coverage | [394](../../magpie/build/icon/gen.go#L394) |
+| parse | function_declaration |  | [423](../../magpie/build/icon/gen.go#L423) |
+| rings | var_spec | parse | [428](../../magpie/build/icon/gen.go#L428) |
+| pts | var_spec | parse | [429](../../magpie/build/icon/gen.go#L429) |
+| roundRect | function_declaration |  | [469](../../magpie/build/icon/gen.go#L469) |

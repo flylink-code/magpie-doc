@@ -4,17 +4,17 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/side_deadline.go) · page 1/1
 
-Source SHA-256: 0673d0374e3d6da130cadd70a8a756b40116d2a125f26f51507b74d141fe1a97
+Source SHA-256: 8e4ec2833bfb9672e7696b7d66330b11c34218c6725e0d95a55f34c9356847fd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sideTimedOut | type_spec |  | [15](../../magpie/internal/gateway/side_deadline.go#L15) |
-| what | field_declaration | sideTimedOut | [16](../../magpie/internal/gateway/side_deadline.go#L16) |
-| after | field_declaration | sideTimedOut | [17](../../magpie/internal/gateway/side_deadline.go#L17) |
-| Error | method_declaration |  | [20](../../magpie/internal/gateway/side_deadline.go#L20) |
-| sideDeadline | function_declaration |  | [32](../../magpie/internal/gateway/side_deadline.go#L32) |
-| mu | var_spec | sideDeadline | [35](../../magpie/internal/gateway/side_deadline.go#L35) |
-| try | var_spec | sideDeadline | [36](../../magpie/internal/gateway/side_deadline.go#L36) |
-| sideTimeout | function_declaration |  | [58](../../magpie/internal/gateway/side_deadline.go#L58) |
-| t | var_spec | sideTimeout | [59](../../magpie/internal/gateway/side_deadline.go#L59) |
-| canceled | function_declaration |  | [68](../../magpie/internal/gateway/side_deadline.go#L68) |
+| sideTimedOut | type_spec |  | [17](../../magpie/internal/gateway/side_deadline.go#L17) |
+| what | field_declaration | sideTimedOut | [18](../../magpie/internal/gateway/side_deadline.go#L18) |
+| after | field_declaration | sideTimedOut | [19](../../magpie/internal/gateway/side_deadline.go#L19) |
+| Error | method_declaration |  | [22](../../magpie/internal/gateway/side_deadline.go#L22) |
+| sideDeadline | function_declaration |  | [34](../../magpie/internal/gateway/side_deadline.go#L34) |
+| mu | var_spec | sideDeadline | [37](../../magpie/internal/gateway/side_deadline.go#L37) |
+| try | var_spec | sideDeadline | [38](../../magpie/internal/gateway/side_deadline.go#L38) |
+| sideTimeout | function_declaration |  | [60](../../magpie/internal/gateway/side_deadline.go#L60) |
+| t | var_spec | sideTimeout | [61](../../magpie/internal/gateway/side_deadline.go#L61) |
+| canceled | function_declaration |  | [71](../../magpie/internal/gateway/side_deadline.go#L71) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/mothx.go) · page 1/1
 
-Source SHA-256: 087fdad61e2c7a80ecd37ad5ebe91210b410a1f18e13d36c3a5cce5394790d95
+Source SHA-256: 38af0ea55e70fcde6594e16f079bb86578ae4664f7b4f7ce606089caa943fd25
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,16 +12,16 @@ Source SHA-256: 087fdad61e2c7a80ecd37ad5ebe91210b410a1f18e13d36c3a5cce5394790d95
 | noticeMothx | var_spec |  | [45](../../magpie/internal/agent/mothx.go#L45) |
 | mothx | function_declaration |  | [47](../../magpie/internal/agent/mothx.go#L47) |
 | mothxIn | function_declaration |  | [51](../../magpie/internal/agent/mothx.go#L51) |
-| mothxDir | function_declaration |  | [150](../../magpie/internal/agent/mothx.go#L150) |
-| mothxBlockKept | function_declaration |  | [166](../../magpie/internal/agent/mothx.go#L166) |
-| mothxProvider | function_declaration |  | [188](../../magpie/internal/agent/mothx.go#L188) |
-| mothxModelJSON | function_declaration |  | [199](../../magpie/internal/agent/mothx.go#L199) |
-| mothxOwn | function_declaration |  | [226](../../magpie/internal/agent/mothx.go#L226) |
-| out | var_spec | mothxOwn | [227](../../magpie/internal/agent/mothx.go#L227) |
-| ps | var_spec | mothxOwn | [230](../../magpie/internal/agent/mothx.go#L230) |
-| Models | field_declaration | mothxOwn::ps | [231](../../magpie/internal/agent/mothx.go#L231) |
-| ID | field_declaration | mothxOwn::ps::Models | [232](../../magpie/internal/agent/mothx.go#L232) |
-| Name | field_declaration | mothxOwn::ps::Models | [233](../../magpie/internal/agent/mothx.go#L233) |
-| ms | var_spec | mothxOwn | [245](../../magpie/internal/agent/mothx.go#L245) |
-| mothxOffered | function_declaration |  | [265](../../magpie/internal/agent/mothx.go#L265) |
-| out | var_spec | mothxOffered | [274](../../magpie/internal/agent/mothx.go#L274) |
+| mothxDir | function_declaration |  | [151](../../magpie/internal/agent/mothx.go#L151) |
+| mothxBlockKept | function_declaration |  | [167](../../magpie/internal/agent/mothx.go#L167) |
+| mothxProvider | function_declaration |  | [189](../../magpie/internal/agent/mothx.go#L189) |
+| mothxModelJSON | function_declaration |  | [200](../../magpie/internal/agent/mothx.go#L200) |
+| mothxOwn | function_declaration |  | [227](../../magpie/internal/agent/mothx.go#L227) |
+| out | var_spec | mothxOwn | [228](../../magpie/internal/agent/mothx.go#L228) |
+| ps | var_spec | mothxOwn | [231](../../magpie/internal/agent/mothx.go#L231) |
+| Models | field_declaration | mothxOwn::ps | [232](../../magpie/internal/agent/mothx.go#L232) |
+| ID | field_declaration | mothxOwn::ps::Models | [233](../../magpie/internal/agent/mothx.go#L233) |
+| Name | field_declaration | mothxOwn::ps::Models | [234](../../magpie/internal/agent/mothx.go#L234) |
+| ms | var_spec | mothxOwn | [246](../../magpie/internal/agent/mothx.go#L246) |
+| mothxOffered | function_declaration |  | [266](../../magpie/internal/agent/mothx.go#L266) |
+| out | var_spec | mothxOffered | [275](../../magpie/internal/agent/mothx.go#L275) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/google.go) · page 2/3
 
-Source SHA-256: 2f3456b34f4ac3fb300d31df1ff180429f4590ebe9bb43d021f95b3fb3a06ba3
+Source SHA-256: 3756608549781243f62964024ae3be0fcef3c27f026a390bf7f58289fcf6a456
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| defaultTier | method_declaration |  | [587](../../magpie/internal/provider/google.go#L587) |
-| geminiProject | method_declaration |  | [600](../../magpie/internal/provider/google.go#L600) |
-| load | var_spec | geminiProject | [608](../../magpie/internal/provider/google.go#L608) |
-| needsProject | method_declaration |  | [651](../../magpie/internal/provider/google.go#L651) |
-| antigravityProject | method_declaration |  | [666](../../magpie/internal/provider/google.go#L666) |
-| load | var_spec | antigravityProject | [667](../../magpie/internal/provider/google.go#L667) |
-| onboardPoll | var_spec |  | [717](../../magpie/internal/provider/google.go#L717) |
-| onboard | method_declaration |  | [721](../../magpie/internal/provider/google.go#L721) |
-| lro | var_spec | onboard | [723](../../magpie/internal/provider/google.go#L723) |
-| Done | field_declaration | onboard::lro | [724](../../magpie/internal/provider/google.go#L724) |
-| Response | field_declaration | onboard::lro | [725](../../magpie/internal/provider/google.go#L725) |
-| Project | field_declaration | onboard::lro::Response | [726](../../magpie/internal/provider/google.go#L726) |
-| geminiModels | var_spec |  | [749](../../magpie/internal/provider/google.go#L749) |
-| geminiFlags | type_spec |  | [764](../../magpie/internal/provider/google.go#L764) |
-| gemini31 | field_declaration | geminiFlags | [765](../../magpie/internal/provider/google.go#L765) |
-| noPro | field_declaration | geminiFlags | [766](../../magpie/internal/provider/google.go#L766) |
-| latestFlash | field_declaration | geminiFlags | [767](../../magpie/internal/provider/google.go#L767) |
-| latestFlashLite | field_declaration | geminiFlags | [768](../../magpie/internal/provider/google.go#L768) |
-| at | field_declaration | geminiFlags | [769](../../magpie/internal/provider/google.go#L769) |
-| flagGemini31Pro | const_spec |  | [774](../../magpie/internal/provider/google.go#L774) |
-| flagProNoAccess | const_spec |  | [775](../../magpie/internal/provider/google.go#L775) |
-| flagLatestFlash | const_spec |  | [776](../../magpie/internal/provider/google.go#L776) |
-| flagLatestFlashLite | const_spec |  | [777](../../magpie/internal/provider/google.go#L777) |
-| flags | method_declaration |  | [783](../../magpie/internal/provider/google.go#L783) |
-| res | var_spec | flags | [798](../../magpie/internal/provider/google.go#L798) |
-| Flags | field_declaration | flags::res | [799](../../magpie/internal/provider/google.go#L799) |
-| FlagID | field_declaration | flags::res::Flags | [800](../../magpie/internal/provider/google.go#L800) |
-| BoolValue | field_declaration | flags::res::Flags | [801](../../magpie/internal/provider/google.go#L801) |
-| offered | method_declaration |  | [829](../../magpie/internal/provider/google.go#L829) |
-| out | var_spec | offered | [841](../../magpie/internal/provider/google.go#L841) |
-| wire | method_declaration |  | [856](../../magpie/internal/provider/google.go#L856) |
-| shown | method_declaration |  | [877](../../magpie/internal/provider/google.go#L877) |
-| antigravityModels | var_spec |  | [894](../../magpie/internal/provider/google.go#L894) |
-| antigravityHidden | var_spec |  | [905](../../magpie/internal/provider/google.go#L905) |
-| googleModelInfo | type_spec |  | [912](../../magpie/internal/provider/google.go#L912) |
-| remaining | field_declaration | googleModelInfo | [914](../../magpie/internal/provider/google.go#L914) |
-| resets | field_declaration | googleModelInfo | [915](../../magpie/internal/provider/google.go#L915) |
-| picker | field_declaration | googleModelInfo | [916](../../magpie/internal/provider/google.go#L916) |
-| modelInfo | method_declaration |  | [920](../../magpie/internal/provider/google.go#L920) |
-| out | var_spec | modelInfo | [925](../../magpie/internal/provider/google.go#L925) |
-| res | var_spec | modelInfo | [927](../../magpie/internal/provider/google.go#L927) |
-| Models | field_declaration | modelInfo::res | [928](../../magpie/internal/provider/google.go#L928) |
-| DisplayName | field_declaration | modelInfo::res::Models | [929](../../magpie/internal/provider/google.go#L929) |
-| Model | field_declaration | modelInfo::res::Models | [930](../../magpie/internal/provider/google.go#L930) |
-| Disabled | field_declaration | modelInfo::res::Models | [931](../../magpie/internal/provider/google.go#L931) |
-| MaxTokens | field_declaration | modelInfo::res::Models | [932](../../magpie/internal/provider/google.go#L932) |
-| MaxOutputTokens | field_declaration | modelInfo::res::Models | [933](../../magpie/internal/provider/google.go#L933) |
-| SupportsImages | field_declaration | modelInfo::res::Models | [934](../../magpie/internal/provider/google.go#L934) |
-| QuotaInfo | field_declaration | modelInfo::res::Models | [935](../../magpie/internal/provider/google.go#L935) |
-| RemainingFraction | field_declaration | modelInfo::res::Models::QuotaInfo | [936](../../magpie/internal/provider/google.go#L936) |
-| ResetTime | field_declaration | modelInfo::res::Models::QuotaInfo | [937](../../magpie/internal/provider/google.go#L937) |
-| AgentModelSorts | field_declaration | modelInfo::res | [941](../../magpie/internal/provider/google.go#L941) |
-| Groups | field_declaration | modelInfo::res::AgentModelSorts | [942](../../magpie/internal/provider/google.go#L942) |
-| ModelIDs | field_declaration | modelInfo::res::AgentModelSorts::Groups | [943](../../magpie/internal/provider/google.go#L943) |
-| hidden | var_spec | modelInfo | [975](../../magpie/internal/provider/google.go#L975) |
-| res | var_spec | modelInfo | [1060](../../magpie/internal/provider/google.go#L1060) |
-| Buckets | field_declaration | modelInfo::res | [1061](../../magpie/internal/provider/google.go#L1061) |
-| ModelID | field_declaration | modelInfo::res::Buckets | [1062](../../magpie/internal/provider/google.go#L1062) |
-| RemainingFraction | field_declaration | modelInfo::res::Buckets | [1063](../../magpie/internal/provider/google.go#L1063) |
-| ResetTime | field_declaration | modelInfo::res::Buckets | [1064](../../magpie/internal/provider/google.go#L1064) |
-| TokenType | field_declaration | modelInfo::res::Buckets | [1065](../../magpie/internal/provider/google.go#L1065) |
-| models | method_declaration |  | [1100](../../magpie/internal/provider/google.go#L1100) |
-| antigravityList | method_declaration |  | [1123](../../magpie/internal/provider/google.go#L1123) |
-| out | var_spec | antigravityList | [1142](../../magpie/internal/provider/google.go#L1142) |
-| fallbackModels | method_declaration |  | [1161](../../magpie/internal/provider/google.go#L1161) |
-| quota | method_declaration |  | [1175](../../magpie/internal/provider/google.go#L1175) |
-| pools | method_declaration |  | [1230](../../magpie/internal/provider/google.go#L1230) |
-| res | var_spec | pools | [1235](../../magpie/internal/provider/google.go#L1235) |
-| Groups | field_declaration | pools::res | [1236](../../magpie/internal/provider/google.go#L1236) |
-| DisplayName | field_declaration | pools::res::Groups | [1237](../../magpie/internal/provider/google.go#L1237) |
-| Description | field_declaration | pools::res::Groups | [1238](../../magpie/internal/provider/google.go#L1238) |
-| Buckets | field_declaration | pools::res::Groups | [1239](../../magpie/internal/provider/google.go#L1239) |
-| BucketID | field_declaration | pools::res::Groups::Buckets | [1240](../../magpie/internal/provider/google.go#L1240) |
-| Window | field_declaration | pools::res::Groups::Buckets | [1241](../../magpie/internal/provider/google.go#L1241) |
-| RemainingFraction | field_declaration | pools::res::Groups::Buckets | [1242](../../magpie/internal/provider/google.go#L1242) |
-| ResetTime | field_declaration | pools::res::Groups::Buckets | [1243](../../magpie/internal/provider/google.go#L1243) |
-| DisplayName | field_declaration | pools::res::Groups::Buckets | [1244](../../magpie/internal/provider/google.go#L1244) |
-| Disabled | field_declaration | pools::res::Groups::Buckets | [1245](../../magpie/internal/provider/google.go#L1245) |
-| group | type_spec | pools | [1252](../../magpie/internal/provider/google.go#L1252) |
-| pool | field_declaration | pools::group | [1253](../../magpie/internal/provider/google.go#L1253) |
-| five | field_declaration | pools::group | [1254](../../magpie/internal/provider/google.go#L1254) |
-| out | var_spec | pools | [1256](../../magpie/internal/provider/google.go#L1256) |
-| groups | var_spec | pools | [1257](../../magpie/internal/provider/google.go#L1257) |
-| poolNames | function_declaration |  | [1325](../../magpie/internal/provider/google.go#L1325) |
-| versioned | function_declaration |  | [1341](../../magpie/internal/provider/google.go#L1341) |
-| modelSpan | const_spec |  | [1345](../../magpie/internal/provider/google.go#L1345) |
-| PooledWindows | function_declaration |  | [1352](../../magpie/internal/provider/google.go#L1352) |
-| out | var_spec | PooledWindows | [1367](../../magpie/internal/provider/google.go#L1367) |
-| poolName | function_declaration |  | [1385](../../magpie/internal/provider/google.go#L1385) |
-| antigravityVendor | function_declaration |  | [1396](../../magpie/internal/provider/google.go#L1396) |
-| googleProvider | function_declaration |  | [1416](../../magpie/internal/provider/google.go#L1416) |
-| f | var_spec | googleProvider | [1427](../../magpie/internal/provider/google.go#L1427) |
-| codeAssistEnvelope | function_declaration |  | [1458](../../magpie/internal/provider/google.go#L1458) |
-| env | var_spec | codeAssistEnvelope | [1459](../../magpie/internal/provider/google.go#L1459) |
-| antigravitySession | function_declaration |  | [1486](../../magpie/internal/provider/google.go#L1486) |
-| googleAccountOf | function_declaration |  | [1513](../../magpie/internal/provider/google.go#L1513) |
-| googleAlsoOn | function_declaration |  | [1522](../../magpie/internal/provider/google.go#L1522) |
-| out | var_spec | googleAlsoOn | [1523](../../magpie/internal/provider/google.go#L1523) |
-| googleLoginQuota | function_declaration |  | [1533](../../magpie/internal/provider/google.go#L1533) |
-| startGoogleSignIn | function_declaration |  | [1545](../../magpie/internal/provider/google.go#L1545) |
+| err | var_spec | project | [576](../../magpie/internal/provider/google.go#L576) |
+| googleTiersFor | const_spec |  | [600](../../magpie/internal/provider/google.go#L600) |
+| antigravityTiers | method_declaration |  | [606](../../magpie/internal/provider/google.go#L606) |
+| load | var_spec | antigravityTiers | [610](../../magpie/internal/provider/google.go#L610) |
+| loadCodeAssistReply | type_spec |  | [633](../../magpie/internal/provider/google.go#L633) |
+| CurrentTier | field_declaration | loadCodeAssistReply | [634](../../magpie/internal/provider/google.go#L634) |
+| PaidTier | field_declaration | loadCodeAssistReply | [635](../../magpie/internal/provider/google.go#L635) |
+| AllowedTiers | field_declaration | loadCodeAssistReply | [636](../../magpie/internal/provider/google.go#L636) |
+| CloudaicompanionProject | field_declaration | loadCodeAssistReply | [637](../../magpie/internal/provider/google.go#L637) |
+| IneligibleTiers | field_declaration | loadCodeAssistReply | [638](../../magpie/internal/provider/google.go#L638) |
+| ReasonCode | field_declaration | loadCodeAssistReply::IneligibleTiers | [639](../../magpie/internal/provider/google.go#L639) |
+| ReasonMessage | field_declaration | loadCodeAssistReply::IneligibleTiers | [640](../../magpie/internal/provider/google.go#L640) |
+| TierID | field_declaration | loadCodeAssistReply::IneligibleTiers | [641](../../magpie/internal/provider/google.go#L641) |
+| ValidationErrorMessage | field_declaration | loadCodeAssistReply::IneligibleTiers | [642](../../magpie/internal/provider/google.go#L642) |
+| tiers | method_declaration |  | [647](../../magpie/internal/provider/google.go#L647) |
+| describe | method_declaration |  | [658](../../magpie/internal/provider/google.go#L658) |
+| plan | method_declaration |  | [683](../../magpie/internal/provider/google.go#L683) |
+| defaultTier | method_declaration |  | [697](../../magpie/internal/provider/google.go#L697) |
+| geminiProject | method_declaration |  | [710](../../magpie/internal/provider/google.go#L710) |
+| load | var_spec | geminiProject | [718](../../magpie/internal/provider/google.go#L718) |
+| needsProject | method_declaration |  | [761](../../magpie/internal/provider/google.go#L761) |
+| antigravityProject | method_declaration |  | [776](../../magpie/internal/provider/google.go#L776) |
+| load | var_spec | antigravityProject | [777](../../magpie/internal/provider/google.go#L777) |
+| onboardPoll | var_spec |  | [827](../../magpie/internal/provider/google.go#L827) |
+| onboard | method_declaration |  | [831](../../magpie/internal/provider/google.go#L831) |
+| lro | var_spec | onboard | [833](../../magpie/internal/provider/google.go#L833) |
+| Done | field_declaration | onboard::lro | [834](../../magpie/internal/provider/google.go#L834) |
+| Response | field_declaration | onboard::lro | [835](../../magpie/internal/provider/google.go#L835) |
+| Project | field_declaration | onboard::lro::Response | [836](../../magpie/internal/provider/google.go#L836) |
+| geminiModels | var_spec |  | [859](../../magpie/internal/provider/google.go#L859) |
+| geminiFlags | type_spec |  | [874](../../magpie/internal/provider/google.go#L874) |
+| gemini31 | field_declaration | geminiFlags | [875](../../magpie/internal/provider/google.go#L875) |
+| noPro | field_declaration | geminiFlags | [876](../../magpie/internal/provider/google.go#L876) |
+| latestFlash | field_declaration | geminiFlags | [877](../../magpie/internal/provider/google.go#L877) |
+| latestFlashLite | field_declaration | geminiFlags | [878](../../magpie/internal/provider/google.go#L878) |
+| at | field_declaration | geminiFlags | [879](../../magpie/internal/provider/google.go#L879) |
+| flagGemini31Pro | const_spec |  | [884](../../magpie/internal/provider/google.go#L884) |
+| flagProNoAccess | const_spec |  | [885](../../magpie/internal/provider/google.go#L885) |
+| flagLatestFlash | const_spec |  | [886](../../magpie/internal/provider/google.go#L886) |
+| flagLatestFlashLite | const_spec |  | [887](../../magpie/internal/provider/google.go#L887) |
+| flags | method_declaration |  | [893](../../magpie/internal/provider/google.go#L893) |
+| res | var_spec | flags | [908](../../magpie/internal/provider/google.go#L908) |
+| Flags | field_declaration | flags::res | [909](../../magpie/internal/provider/google.go#L909) |
+| FlagID | field_declaration | flags::res::Flags | [910](../../magpie/internal/provider/google.go#L910) |
+| BoolValue | field_declaration | flags::res::Flags | [911](../../magpie/internal/provider/google.go#L911) |
+| offered | method_declaration |  | [939](../../magpie/internal/provider/google.go#L939) |
+| out | var_spec | offered | [951](../../magpie/internal/provider/google.go#L951) |
+| wire | method_declaration |  | [966](../../magpie/internal/provider/google.go#L966) |
+| shown | method_declaration |  | [987](../../magpie/internal/provider/google.go#L987) |
+| antigravityModels | var_spec |  | [1004](../../magpie/internal/provider/google.go#L1004) |
+| antigravityHidden | var_spec |  | [1015](../../magpie/internal/provider/google.go#L1015) |
+| googleModelInfo | type_spec |  | [1022](../../magpie/internal/provider/google.go#L1022) |
+| remaining | field_declaration | googleModelInfo | [1024](../../magpie/internal/provider/google.go#L1024) |
+| resets | field_declaration | googleModelInfo | [1025](../../magpie/internal/provider/google.go#L1025) |
+| picker | field_declaration | googleModelInfo | [1026](../../magpie/internal/provider/google.go#L1026) |
+| modelInfo | method_declaration |  | [1030](../../magpie/internal/provider/google.go#L1030) |
+| out | var_spec | modelInfo | [1035](../../magpie/internal/provider/google.go#L1035) |
+| res | var_spec | modelInfo | [1038](../../magpie/internal/provider/google.go#L1038) |
+| Models | field_declaration | modelInfo::res | [1039](../../magpie/internal/provider/google.go#L1039) |
+| DisplayName | field_declaration | modelInfo::res::Models | [1040](../../magpie/internal/provider/google.go#L1040) |
+| Model | field_declaration | modelInfo::res::Models | [1041](../../magpie/internal/provider/google.go#L1041) |
+| Disabled | field_declaration | modelInfo::res::Models | [1042](../../magpie/internal/provider/google.go#L1042) |
+| MaxTokens | field_declaration | modelInfo::res::Models | [1043](../../magpie/internal/provider/google.go#L1043) |
+| MaxOutputTokens | field_declaration | modelInfo::res::Models | [1044](../../magpie/internal/provider/google.go#L1044) |
+| SupportsImages | field_declaration | modelInfo::res::Models | [1045](../../magpie/internal/provider/google.go#L1045) |
+| QuotaInfo | field_declaration | modelInfo::res::Models | [1046](../../magpie/internal/provider/google.go#L1046) |
+| RemainingFraction | field_declaration | modelInfo::res::Models::QuotaInfo | [1047](../../magpie/internal/provider/google.go#L1047) |
+| ResetTime | field_declaration | modelInfo::res::Models::QuotaInfo | [1048](../../magpie/internal/provider/google.go#L1048) |
+| AgentModelSorts | field_declaration | modelInfo::res | [1052](../../magpie/internal/provider/google.go#L1052) |
+| Groups | field_declaration | modelInfo::res::AgentModelSorts | [1053](../../magpie/internal/provider/google.go#L1053) |
+| ModelIDs | field_declaration | modelInfo::res::AgentModelSorts::Groups | [1054](../../magpie/internal/provider/google.go#L1054) |
+| hidden | var_spec | modelInfo | [1097](../../magpie/internal/provider/google.go#L1097) |
+| res | var_spec | modelInfo | [1182](../../magpie/internal/provider/google.go#L1182) |
+| Buckets | field_declaration | modelInfo::res | [1183](../../magpie/internal/provider/google.go#L1183) |
+| ModelID | field_declaration | modelInfo::res::Buckets | [1184](../../magpie/internal/provider/google.go#L1184) |
+| RemainingFraction | field_declaration | modelInfo::res::Buckets | [1185](../../magpie/internal/provider/google.go#L1185) |
+| ResetTime | field_declaration | modelInfo::res::Buckets | [1186](../../magpie/internal/provider/google.go#L1186) |
+| TokenType | field_declaration | modelInfo::res::Buckets | [1187](../../magpie/internal/provider/google.go#L1187) |
+| models | method_declaration |  | [1222](../../magpie/internal/provider/google.go#L1222) |
+| antigravityList | method_declaration |  | [1245](../../magpie/internal/provider/google.go#L1245) |
+| out | var_spec | antigravityList | [1264](../../magpie/internal/provider/google.go#L1264) |
+| fallbackModels | method_declaration |  | [1283](../../magpie/internal/provider/google.go#L1283) |
+| quota | method_declaration |  | [1297](../../magpie/internal/provider/google.go#L1297) |
+| pools | method_declaration |  | [1352](../../magpie/internal/provider/google.go#L1352) |
+| res | var_spec | pools | [1357](../../magpie/internal/provider/google.go#L1357) |
+| Groups | field_declaration | pools::res | [1358](../../magpie/internal/provider/google.go#L1358) |
+| DisplayName | field_declaration | pools::res::Groups | [1359](../../magpie/internal/provider/google.go#L1359) |
+| Description | field_declaration | pools::res::Groups | [1360](../../magpie/internal/provider/google.go#L1360) |
+| Buckets | field_declaration | pools::res::Groups | [1361](../../magpie/internal/provider/google.go#L1361) |
+| BucketID | field_declaration | pools::res::Groups::Buckets | [1362](../../magpie/internal/provider/google.go#L1362) |
+| Window | field_declaration | pools::res::Groups::Buckets | [1363](../../magpie/internal/provider/google.go#L1363) |
+| RemainingFraction | field_declaration | pools::res::Groups::Buckets | [1364](../../magpie/internal/provider/google.go#L1364) |
+| ResetTime | field_declaration | pools::res::Groups::Buckets | [1365](../../magpie/internal/provider/google.go#L1365) |
+| DisplayName | field_declaration | pools::res::Groups::Buckets | [1366](../../magpie/internal/provider/google.go#L1366) |
+| Disabled | field_declaration | pools::res::Groups::Buckets | [1367](../../magpie/internal/provider/google.go#L1367) |
+| group | type_spec | pools | [1374](../../magpie/internal/provider/google.go#L1374) |
+| pool | field_declaration | pools::group | [1375](../../magpie/internal/provider/google.go#L1375) |
+| five | field_declaration | pools::group | [1376](../../magpie/internal/provider/google.go#L1376) |
+| all | field_declaration | pools::group | [1377](../../magpie/internal/provider/google.go#L1377) |
+| shape | var_spec | pools | [1379](../../magpie/internal/provider/google.go#L1379) |

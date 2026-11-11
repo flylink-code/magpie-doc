@@ -4,7 +4,7 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/known.go) · page 1/1
 
-Source SHA-256: c61261b2fed73e1519811386849edf60908ac1d2e05a9e59e9e7db7c26b0c492
+Source SHA-256: 89acdcc57c6dd389217f0132b98c73e3b1c49d9aa7ebb270a7331febba6e4af5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,14 +20,19 @@ Source SHA-256: c61261b2fed73e1519811386849edf60908ac1d2e05a9e59e9e7db7c26b0c492
 | kindOf | function_declaration |  | [89](../../magpie/internal/redact/known.go#L89) |
 | kindCats | var_spec |  | [102](../../magpie/internal/redact/known.go#L102) |
 | coversKind | method_declaration |  | [127](../../magpie/internal/redact/known.go#L127) |
-| knownSpans | function_declaration |  | [142](../../magpie/internal/redact/known.go#L142) |
-| out | var_spec | knownSpans | [151](../../magpie/internal/redact/known.go#L151) |
-| best | var_spec | knownSpans | [156](../../magpie/internal/redact/known.go#L156) |
-| standsAlone | function_declaration |  | [179](../../magpie/internal/redact/known.go#L179) |
-| sentEntries | const_spec |  | [228](../../magpie/internal/redact/known.go#L228) |
-| sentKnown | var_spec |  | [230](../../magpie/internal/redact/known.go#L230) |
-| cur | field_declaration | sentKnown | [232](../../magpie/internal/redact/known.go#L232) |
-| sentKnownSpans | function_declaration |  | [237](../../magpie/internal/redact/known.go#L237) |
-| k | var_spec | sentKnownSpans | [250](../../magpie/internal/redact/known.go#L250) |
-| sentKnownAdd | function_declaration |  | [272](../../magpie/internal/redact/known.go#L272) |
-| resetSent | function_declaration |  | [280](../../magpie/internal/redact/known.go#L280) |
+| ruleFound | const_spec |  | [149](../../magpie/internal/redact/known.go#L149) |
+| scores | var_spec |  | [153](../../magpie/internal/redact/known.go#L153) |
+| noteScores | function_declaration |  | [156](../../magpie/internal/redact/known.go#L156) |
+| knownSpans | function_declaration |  | [183](../../magpie/internal/redact/known.go#L183) |
+| out | var_spec | knownSpans | [192](../../magpie/internal/redact/known.go#L192) |
+| best | var_spec | knownSpans | [197](../../magpie/internal/redact/known.go#L197) |
+| standsAlone | function_declaration |  | [237](../../magpie/internal/redact/known.go#L237) |
+| sentEntries | const_spec |  | [304](../../magpie/internal/redact/known.go#L304) |
+| sentModel | const_spec |  | [309](../../magpie/internal/redact/known.go#L309) |
+| sentKnown | const_spec |  | [310](../../magpie/internal/redact/known.go#L310) |
+| sentMemo | var_spec |  | [313](../../magpie/internal/redact/known.go#L313) |
+| cur | field_declaration | sentMemo | [315](../../magpie/internal/redact/known.go#L315) |
+| sentSpans | function_declaration |  | [321](../../magpie/internal/redact/known.go#L321) |
+| k | var_spec | sentSpans | [346](../../magpie/internal/redact/known.go#L346) |
+| sentAdd | function_declaration |  | [368](../../magpie/internal/redact/known.go#L368) |
+| resetSent | function_declaration |  | [376](../../magpie/internal/redact/known.go#L376) |

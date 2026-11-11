@@ -4,13 +4,13 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/limit.go) · page 1/1
 
-Source SHA-256: cddfcea232d0a388e92ebfba8f8d3ac29936c7a989dc2ba1095c7e7c1c115572
+Source SHA-256: 3d66db00606c3e93f50f03d0e5b966033f6a134c0b30977b63e5c95ce9b8bdaf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tooFewTokens | var_spec |  | [16](../../magpie/internal/gateway/limit.go#L16) |
-| tokenFloor | function_declaration |  | [20](../../magpie/internal/gateway/limit.go#L20) |
-| withTokenFloor | function_declaration |  | [38](../../magpie/internal/gateway/limit.go#L38) |
-| q | var_spec | withTokenFloor | [39](../../magpie/internal/gateway/limit.go#L39) |
-| n | var_spec | withTokenFloor | [44](../../magpie/internal/gateway/limit.go#L44) |
-| gc | var_spec | withTokenFloor | [55](../../magpie/internal/gateway/limit.go#L55) |
+| tooFewTokens | var_spec |  | [17](../../magpie/internal/gateway/limit.go#L17) |
+| tokenFloor | function_declaration |  | [21](../../magpie/internal/gateway/limit.go#L21) |
+| withTokenFloor | function_declaration |  | [39](../../magpie/internal/gateway/limit.go#L39) |
+| q | var_spec | withTokenFloor | [40](../../magpie/internal/gateway/limit.go#L40) |
+| n | var_spec | withTokenFloor | [45](../../magpie/internal/gateway/limit.go#L45) |
+| gc | var_spec | withTokenFloor | [56](../../magpie/internal/gateway/limit.go#L56) |

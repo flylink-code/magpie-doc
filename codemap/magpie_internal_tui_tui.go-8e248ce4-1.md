@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/tui.go) · page 1/2
 
-Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
+Source SHA-256: ccf7cc46b1e17dd8f3b84c9a411aaf89bbbd0757cd34b177c632cfda8e6883ae
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -58,53 +58,53 @@ Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
 | mode | field_declaration | model | [98](../../magpie/internal/tui/tui.go#L98) |
 | pk | field_declaration | model | [99](../../magpie/internal/tui/tui.go#L99) |
 | name | field_declaration | model | [100](../../magpie/internal/tui/tui.go#L100) |
-| flash | field_declaration | model | [101](../../magpie/internal/tui/tui.go#L101) |
-| flashOK | field_declaration | model | [102](../../magpie/internal/tui/tui.go#L102) |
-| w | field_declaration | model | [103](../../magpie/internal/tui/tui.go#L103) |
-| syncing | field_declaration | model | [104](../../magpie/internal/tui/tui.go#L104) |
-| failover | field_declaration | model | [108](../../magpie/internal/tui/tui.go#L108) |
-| page | field_declaration | model | [110](../../magpie/internal/tui/tui.go#L110) |
-| back | field_declaration | model | [111](../../magpie/internal/tui/tui.go#L111) |
-| ask | field_declaration | model | [112](../../magpie/internal/tui/tui.go#L112) |
-| confirm | field_declaration | model | [113](../../magpie/internal/tui/tui.go#L113) |
-| provs | field_declaration | model | [114](../../magpie/internal/tui/tui.go#L114) |
-| provsErr | field_declaration | model | [115](../../magpie/internal/tui/tui.go#L115) |
-| prow | field_declaration | model | [116](../../magpie/internal/tui/tui.go#L116) |
-| bal | field_declaration | model | [117](../../magpie/internal/tui/tui.go#L117) |
-| asked | field_declaration | model | [118](../../magpie/internal/tui/tui.go#L118) |
-| groups | field_declaration | model | [119](../../magpie/internal/tui/tui.go#L119) |
-| grow | field_declaration | model | [120](../../magpie/internal/tui/tui.go#L120) |
-| shown | field_declaration | model | [121](../../magpie/internal/tui/tui.go#L121) |
-| gid | field_declaration | model | [122](../../magpie/internal/tui/tui.go#L122) |
-| gsel | field_declaration | model | [123](../../magpie/internal/tui/tui.go#L123) |
-| period | field_declaration | model | [124](../../magpie/internal/tui/tui.go#L124) |
-| sum | field_declaration | model | [125](../../magpie/internal/tui/tui.go#L125) |
-| direct | field_declaration | model | [126](../../magpie/internal/tui/tui.go#L126) |
-| quotas | field_declaration | model | [127](../../magpie/internal/tui/tui.go#L127) |
-| qasked | field_declaration | model | [128](../../magpie/internal/tui/tui.go#L128) |
-| qleft | field_declaration | model | [129](../../magpie/internal/tui/tui.go#L129) |
-| sstats | field_declaration | model | [130](../../magpie/internal/tui/tui.go#L130) |
-| srange | field_declaration | model | [131](../../magpie/internal/tui/tui.go#L131) |
-| smodel | field_declaration | model | [132](../../magpie/internal/tui/tui.go#L132) |
-| sfolder | field_declaration | model | [133](../../magpie/internal/tui/tui.go#L133) |
-| scost | field_declaration | model | [134](../../magpie/internal/tui/tui.go#L134) |
-| slist | field_declaration | model | [135](../../magpie/internal/tui/tui.go#L135) |
-| ssel | field_declaration | model | [136](../../magpie/internal/tui/tui.go#L136) |
-| sstat | field_declaration | model | [137](../../magpie/internal/tui/tui.go#L137) |
-| lib | field_declaration | model | [138](../../magpie/internal/tui/tui.go#L138) |
-| lrow | field_declaration | model | [139](../../magpie/internal/tui/tui.go#L139) |
-| libView | field_declaration | model | [140](../../magpie/internal/tui/tui.go#L140) |
-| libAgents | field_declaration | model | [141](../../magpie/internal/tui/tui.go#L141) |
-| libErr | field_declaration | model | [142](../../magpie/internal/tui/tui.go#L142) |
-| flashMsg | type_spec |  | [145](../../magpie/internal/tui/tui.go#L145) |
-| text | field_declaration | flashMsg | [146](../../magpie/internal/tui/tui.go#L146) |
-| ok | field_declaration | flashMsg | [147](../../magpie/internal/tui/tui.go#L147) |
-| syncedMsg | type_spec |  | [150](../../magpie/internal/tui/tui.go#L150) |
-| err | field_declaration | syncedMsg | [150](../../magpie/internal/tui/tui.go#L150) |
-| Run | function_declaration |  | [156](../../magpie/internal/tui/tui.go#L156) |
-| newModel | function_declaration |  | [176](../../magpie/internal/tui/tui.go#L176) |
-| set | var_spec | newModel | [181](../../magpie/internal/tui/tui.go#L181) |
-| reload | method_declaration |  | [197](../../magpie/internal/tui/tui.go#L197) |
-| goTo | method_declaration |  | [225](../../magpie/internal/tui/tui.go#L225) |
-| Init | method_declaration |  | [239](../../magpie/internal/tui/tui.go#L239) |
-| modelsMsg | type_spec |  | [251](../../magpie/internal/tui/tui.go#L251) |
+| rename | field_declaration | model | [101](../../magpie/internal/tui/tui.go#L101) |
+| flash | field_declaration | model | [102](../../magpie/internal/tui/tui.go#L102) |
+| flashOK | field_declaration | model | [103](../../magpie/internal/tui/tui.go#L103) |
+| w | field_declaration | model | [104](../../magpie/internal/tui/tui.go#L104) |
+| syncing | field_declaration | model | [105](../../magpie/internal/tui/tui.go#L105) |
+| failover | field_declaration | model | [109](../../magpie/internal/tui/tui.go#L109) |
+| page | field_declaration | model | [111](../../magpie/internal/tui/tui.go#L111) |
+| back | field_declaration | model | [112](../../magpie/internal/tui/tui.go#L112) |
+| ask | field_declaration | model | [113](../../magpie/internal/tui/tui.go#L113) |
+| confirm | field_declaration | model | [114](../../magpie/internal/tui/tui.go#L114) |
+| provs | field_declaration | model | [115](../../magpie/internal/tui/tui.go#L115) |
+| provsErr | field_declaration | model | [116](../../magpie/internal/tui/tui.go#L116) |
+| prow | field_declaration | model | [117](../../magpie/internal/tui/tui.go#L117) |
+| bal | field_declaration | model | [118](../../magpie/internal/tui/tui.go#L118) |
+| asked | field_declaration | model | [119](../../magpie/internal/tui/tui.go#L119) |
+| groups | field_declaration | model | [120](../../magpie/internal/tui/tui.go#L120) |
+| provOff | field_declaration | model | [121](../../magpie/internal/tui/tui.go#L121) |
+| grow | field_declaration | model | [122](../../magpie/internal/tui/tui.go#L122) |
+| shown | field_declaration | model | [123](../../magpie/internal/tui/tui.go#L123) |
+| gid | field_declaration | model | [124](../../magpie/internal/tui/tui.go#L124) |
+| gsel | field_declaration | model | [125](../../magpie/internal/tui/tui.go#L125) |
+| period | field_declaration | model | [126](../../magpie/internal/tui/tui.go#L126) |
+| sum | field_declaration | model | [127](../../magpie/internal/tui/tui.go#L127) |
+| direct | field_declaration | model | [128](../../magpie/internal/tui/tui.go#L128) |
+| quotas | field_declaration | model | [129](../../magpie/internal/tui/tui.go#L129) |
+| qasked | field_declaration | model | [130](../../magpie/internal/tui/tui.go#L130) |
+| qaskedAt | field_declaration | model | [131](../../magpie/internal/tui/tui.go#L131) |
+| qgen | field_declaration | model | [132](../../magpie/internal/tui/tui.go#L132) |
+| qtries | field_declaration | model | [133](../../magpie/internal/tui/tui.go#L133) |
+| qleft | field_declaration | model | [134](../../magpie/internal/tui/tui.go#L134) |
+| sstats | field_declaration | model | [135](../../magpie/internal/tui/tui.go#L135) |
+| srange | field_declaration | model | [136](../../magpie/internal/tui/tui.go#L136) |
+| smodel | field_declaration | model | [137](../../magpie/internal/tui/tui.go#L137) |
+| sfolder | field_declaration | model | [138](../../magpie/internal/tui/tui.go#L138) |
+| scost | field_declaration | model | [139](../../magpie/internal/tui/tui.go#L139) |
+| slist | field_declaration | model | [140](../../magpie/internal/tui/tui.go#L140) |
+| ssel | field_declaration | model | [141](../../magpie/internal/tui/tui.go#L141) |
+| sstat | field_declaration | model | [142](../../magpie/internal/tui/tui.go#L142) |
+| lib | field_declaration | model | [143](../../magpie/internal/tui/tui.go#L143) |
+| lrow | field_declaration | model | [144](../../magpie/internal/tui/tui.go#L144) |
+| libView | field_declaration | model | [145](../../magpie/internal/tui/tui.go#L145) |
+| libAgents | field_declaration | model | [146](../../magpie/internal/tui/tui.go#L146) |
+| libErr | field_declaration | model | [147](../../magpie/internal/tui/tui.go#L147) |
+| flashMsg | type_spec |  | [150](../../magpie/internal/tui/tui.go#L150) |
+| text | field_declaration | flashMsg | [151](../../magpie/internal/tui/tui.go#L151) |
+| ok | field_declaration | flashMsg | [152](../../magpie/internal/tui/tui.go#L152) |
+| syncedMsg | type_spec |  | [155](../../magpie/internal/tui/tui.go#L155) |
+| err | field_declaration | syncedMsg | [155](../../magpie/internal/tui/tui.go#L155) |
+| Run | function_declaration |  | [161](../../magpie/internal/tui/tui.go#L161) |
+| newModel | function_declaration |  | [181](../../magpie/internal/tui/tui.go#L181) |

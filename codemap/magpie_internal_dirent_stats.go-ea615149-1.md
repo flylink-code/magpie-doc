@@ -4,16 +4,29 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/dirent/stats.go) · page 1/1
 
-Source SHA-256: bf1e70b282428a0adb198092544e6c8beb4e4ed5343bd14b3274de61cd9cd238
+Source SHA-256: e75d3748d58d73865bcf59770a930ceba85aabfab6ae758d6ce8062e50e2ad2c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Stat | type_spec |  | [13](../../magpie/internal/dirent/stats.go#L13) |
-| Mode | field_declaration | Stat | [14](../../magpie/internal/dirent/stats.go#L14) |
-| Size | field_declaration | Stat | [15](../../magpie/internal/dirent/stats.go#L15) |
-| Mod | field_declaration | Stat | [16](../../magpie/internal/dirent/stats.go#L16) |
-| Entry | type_spec |  | [20](../../magpie/internal/dirent/stats.go#L20) |
-| Name | field_declaration | Entry | [21](../../magpie/internal/dirent/stats.go#L21) |
-| Listing | type_spec |  | [29](../../magpie/internal/dirent/stats.go#L29) |
-| Get | method_declaration |  | [32](../../magpie/internal/dirent/stats.go#L32) |
-| Stats | function_declaration |  | [44](../../magpie/internal/dirent/stats.go#L44) |
+| Stat | type_spec |  | [16](../../magpie/internal/dirent/stats.go#L16) |
+| Size | field_declaration | Stat | [17](../../magpie/internal/dirent/stats.go#L17) |
+| Mod | field_declaration | Stat | [18](../../magpie/internal/dirent/stats.go#L18) |
+| Mode | field_declaration | Stat | [19](../../magpie/internal/dirent/stats.go#L19) |
+| ModTime | method_declaration |  | [23](../../magpie/internal/dirent/stats.go#L23) |
+| Entry | type_spec |  | [26](../../magpie/internal/dirent/stats.go#L26) |
+| Name | field_declaration | Entry | [27](../../magpie/internal/dirent/stats.go#L27) |
+| Listing | type_spec |  | [35](../../magpie/internal/dirent/stats.go#L35) |
+| Get | method_declaration |  | [38](../../magpie/internal/dirent/stats.go#L38) |
+| Stats | function_declaration |  | [52](../../magpie/internal/dirent/stats.go#L52) |
+| Each | function_declaration |  | [73](../../magpie/internal/dirent/stats.go#L73) |
+| listings | var_spec |  | [89](../../magpie/internal/dirent/stats.go#L89) |
+| last | field_declaration | listings | [91](../../magpie/internal/dirent/stats.go#L91) |
+| spare | field_declaration | listings | [92](../../magpie/internal/dirent/stats.go#L92) |
+| room | field_declaration | listings | [93](../../magpie/internal/dirent/stats.go#L93) |
+| entries | field_declaration | listings | [94](../../magpie/internal/dirent/stats.go#L94) |
+| keptEntries | const_spec |  | [97](../../magpie/internal/dirent/stats.go#L97) |
+| taken | function_declaration |  | [101](../../magpie/internal/dirent/stats.go#L101) |
+| keepSpare | function_declaration |  | [136](../../magpie/internal/dirent/stats.go#L136) |
+| keepRoom | function_declaration |  | [154](../../magpie/internal/dirent/stats.go#L154) |
+| Done | method_declaration |  | [164](../../magpie/internal/dirent/stats.go#L164) |
+| Forget | function_declaration |  | [190](../../magpie/internal/dirent/stats.go#L190) |

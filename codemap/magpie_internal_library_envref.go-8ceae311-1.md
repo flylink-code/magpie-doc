@@ -4,54 +4,54 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/envref.go) · page 1/1
 
-Source SHA-256: 2ec5d6f0eff9e71d1c657ee2e072202e840c5aba65a34783e5389f7e2e31db74
+Source SHA-256: 24fae03b7b42878e83367e0d14a2083c541f50c8fbb34d474d736358c9152414
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| envRef | var_spec |  | [23](../../magpie/internal/library/envref.go#L23) |
-| refSyntax | type_spec |  | [26](../../magpie/internal/library/envref.go#L26) |
-| refNone | const_spec |  | [30](../../magpie/internal/library/envref.go#L30) |
-| refDollar | const_spec |  | [32](../../magpie/internal/library/envref.go#L32) |
-| refOpenCode | const_spec |  | [34](../../magpie/internal/library/envref.go#L34) |
-| refCursor | const_spec |  | [36](../../magpie/internal/library/envref.go#L36) |
-| refCodex | const_spec |  | [39](../../magpie/internal/library/envref.go#L39) |
-| refGoose | const_spec |  | [42](../../magpie/internal/library/envref.go#L42) |
-| refDsh | const_spec |  | [44](../../magpie/internal/library/envref.go#L44) |
-| envSyntax | type_spec |  | [49](../../magpie/internal/library/envref.go#L49) |
-| headers | field_declaration | envSyntax | [49](../../magpie/internal/library/envref.go#L49) |
-| refsOf | method_declaration |  | [54](../../magpie/internal/library/envref.go#L54) |
-| refNames | function_declaration |  | [197](../../magpie/internal/library/envref.go#L197) |
-| out | var_spec | refNames | [198](../../magpie/internal/library/envref.go#L198) |
-| hasRef | function_declaration |  | [206](../../magpie/internal/library/envref.go#L206) |
-| HasEnvRefs | method_declaration |  | [217](../../magpie/internal/library/envref.go#L217) |
-| errNoEnvRef | var_spec |  | [221](../../magpie/internal/library/envref.go#L221) |
-| whole | function_declaration |  | [224](../../magpie/internal/library/envref.go#L224) |
-| bearerOf | function_declaration |  | [232](../../magpie/internal/library/envref.go#L232) |
-| refsProblem | method_declaration |  | [245](../../magpie/internal/library/envref.go#L245) |
-| gooseKeys | function_declaration |  | [290](../../magpie/internal/library/envref.go#L290) |
-| out | var_spec | gooseKeys | [291](../../magpie/internal/library/envref.go#L291) |
-| refKeys | method_declaration |  | [307](../../magpie/internal/library/envref.go#L307) |
-| toAgent | function_declaration |  | [325](../../magpie/internal/library/envref.go#L325) |
-| openCodeRef | var_spec |  | [336](../../magpie/internal/library/envref.go#L336) |
-| cursorRef | var_spec |  | [337](../../magpie/internal/library/envref.go#L337) |
-| dshEnvRef | var_spec |  | [341](../../magpie/internal/library/envref.go#L341) |
-| dshRef | function_declaration |  | [350](../../magpie/internal/library/envref.go#L350) |
-| parts | var_spec | dshRef | [358](../../magpie/internal/library/envref.go#L358) |
-| dshPart | var_spec |  | [377](../../magpie/internal/library/envref.go#L377) |
-| dshUnref | function_declaration |  | [382](../../magpie/internal/library/envref.go#L382) |
-| b | var_spec | dshUnref | [387](../../magpie/internal/library/envref.go#L387) |
-| lit | var_spec | dshUnref | [405](../../magpie/internal/library/envref.go#L405) |
-| dshRefs | function_declaration |  | [421](../../magpie/internal/library/envref.go#L421) |
-| dshUnrefs | function_declaration |  | [439](../../magpie/internal/library/envref.go#L439) |
-| fromAgent | function_declaration |  | [459](../../magpie/internal/library/envref.go#L459) |
-| mapTo | function_declaration |  | [470](../../magpie/internal/library/envref.go#L470) |
-| mapFrom | function_declaration |  | [482](../../magpie/internal/library/envref.go#L482) |
-| codexHeaders | function_declaration |  | [496](../../magpie/internal/library/envref.go#L496) |
-| codexEnv | function_declaration |  | [519](../../magpie/internal/library/envref.go#L519) |
-| putRef | function_declaration |  | [535](../../magpie/internal/library/envref.go#L535) |
-| codexEnvVars | function_declaration |  | [547](../../magpie/internal/library/envref.go#L547) |
-| out | var_spec | codexEnvVars | [549](../../magpie/internal/library/envref.go#L549) |
-| expandRef | function_declaration |  | [566](../../magpie/internal/library/envref.go#L566) |
-| unset | var_spec | expandRef | [567](../../magpie/internal/library/envref.go#L567) |
-| expandAll | function_declaration |  | [581](../../magpie/internal/library/envref.go#L581) |
-| unset | var_spec | expandAll | [582](../../magpie/internal/library/envref.go#L582) |
+| envRef | var_spec |  | [25](../../magpie/internal/library/envref.go#L25) |
+| refSyntax | type_spec |  | [28](../../magpie/internal/library/envref.go#L28) |
+| refNone | const_spec |  | [32](../../magpie/internal/library/envref.go#L32) |
+| refDollar | const_spec |  | [34](../../magpie/internal/library/envref.go#L34) |
+| refOpenCode | const_spec |  | [36](../../magpie/internal/library/envref.go#L36) |
+| refCursor | const_spec |  | [38](../../magpie/internal/library/envref.go#L38) |
+| refCodex | const_spec |  | [41](../../magpie/internal/library/envref.go#L41) |
+| refGoose | const_spec |  | [44](../../magpie/internal/library/envref.go#L44) |
+| refDsh | const_spec |  | [46](../../magpie/internal/library/envref.go#L46) |
+| envSyntax | type_spec |  | [51](../../magpie/internal/library/envref.go#L51) |
+| headers | field_declaration | envSyntax | [51](../../magpie/internal/library/envref.go#L51) |
+| refsOf | method_declaration |  | [56](../../magpie/internal/library/envref.go#L56) |
+| refNames | function_declaration |  | [211](../../magpie/internal/library/envref.go#L211) |
+| out | var_spec | refNames | [212](../../magpie/internal/library/envref.go#L212) |
+| hasRef | function_declaration |  | [220](../../magpie/internal/library/envref.go#L220) |
+| HasEnvRefs | method_declaration |  | [231](../../magpie/internal/library/envref.go#L231) |
+| errNoEnvRef | var_spec |  | [235](../../magpie/internal/library/envref.go#L235) |
+| whole | function_declaration |  | [238](../../magpie/internal/library/envref.go#L238) |
+| bearerOf | function_declaration |  | [246](../../magpie/internal/library/envref.go#L246) |
+| refsProblem | method_declaration |  | [259](../../magpie/internal/library/envref.go#L259) |
+| gooseKeys | function_declaration |  | [304](../../magpie/internal/library/envref.go#L304) |
+| out | var_spec | gooseKeys | [305](../../magpie/internal/library/envref.go#L305) |
+| refKeys | method_declaration |  | [321](../../magpie/internal/library/envref.go#L321) |
+| toAgent | function_declaration |  | [339](../../magpie/internal/library/envref.go#L339) |
+| openCodeRef | var_spec |  | [350](../../magpie/internal/library/envref.go#L350) |
+| cursorRef | var_spec |  | [351](../../magpie/internal/library/envref.go#L351) |
+| dshEnvRef | var_spec |  | [355](../../magpie/internal/library/envref.go#L355) |
+| dshRef | function_declaration |  | [364](../../magpie/internal/library/envref.go#L364) |
+| parts | var_spec | dshRef | [372](../../magpie/internal/library/envref.go#L372) |
+| dshPart | var_spec |  | [391](../../magpie/internal/library/envref.go#L391) |
+| dshUnref | function_declaration |  | [396](../../magpie/internal/library/envref.go#L396) |
+| b | var_spec | dshUnref | [401](../../magpie/internal/library/envref.go#L401) |
+| lit | var_spec | dshUnref | [419](../../magpie/internal/library/envref.go#L419) |
+| dshRefs | function_declaration |  | [435](../../magpie/internal/library/envref.go#L435) |
+| dshUnrefs | function_declaration |  | [453](../../magpie/internal/library/envref.go#L453) |
+| fromAgent | function_declaration |  | [473](../../magpie/internal/library/envref.go#L473) |
+| mapTo | function_declaration |  | [484](../../magpie/internal/library/envref.go#L484) |
+| mapFrom | function_declaration |  | [496](../../magpie/internal/library/envref.go#L496) |
+| codexHeaders | function_declaration |  | [510](../../magpie/internal/library/envref.go#L510) |
+| codexEnv | function_declaration |  | [533](../../magpie/internal/library/envref.go#L533) |
+| putRef | function_declaration |  | [549](../../magpie/internal/library/envref.go#L549) |
+| codexEnvVars | function_declaration |  | [561](../../magpie/internal/library/envref.go#L561) |
+| out | var_spec | codexEnvVars | [563](../../magpie/internal/library/envref.go#L563) |
+| loginVars | var_spec |  | [579](../../magpie/internal/library/envref.go#L579) |
+| expandAll | function_declaration |  | [588](../../magpie/internal/library/envref.go#L588) |
+| missing | var_spec | expandAll | [590](../../magpie/internal/library/envref.go#L590) |
+| unset | var_spec | expandAll | [603](../../magpie/internal/library/envref.go#L603) |

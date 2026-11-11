@@ -4,50 +4,52 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_request.go) · page 1/1
 
-Source SHA-256: 42fa7deb9378cddc02b3d7a34e4fd4a7903585f27447567789de3084fdde50aa
+Source SHA-256: 8d7e1c5c088bc67ddd59aebab3ad816192ed13cd753a18e526e7a1d00f124f92
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | codexSign | function_declaration |  | [31](../../magpie/internal/provider/codex_request.go#L31) |
-| sessionHeaders | function_declaration |  | [65](../../magpie/internal/provider/codex_request.go#L65) |
-| v | var_spec | sessionHeaders | [68](../../magpie/internal/provider/codex_request.go#L68) |
-| Key | field_declaration | sessionHeaders::v | [69](../../magpie/internal/provider/codex_request.go#L69) |
-| codexUA | var_spec |  | [78](../../magpie/internal/provider/codex_request.go#L78) |
-| os | field_declaration | codexUA | [80](../../magpie/internal/provider/codex_request.go#L80) |
-| codexUserAgent | function_declaration |  | [85](../../magpie/internal/provider/codex_request.go#L85) |
-| versionRE | var_spec |  | [98](../../magpie/internal/provider/codex_request.go#L98) |
-| codexOS | function_declaration |  | [102](../../magpie/internal/provider/codex_request.go#L102) |
-| codexPromptsPath | function_declaration |  | [138](../../magpie/internal/provider/codex_request.go#L138) |
-| codexPrompts | function_declaration |  | [144](../../magpie/internal/provider/codex_request.go#L144) |
-| list | var_spec | codexPrompts | [145](../../magpie/internal/provider/codex_request.go#L145) |
-| Models | field_declaration | codexPrompts::list | [146](../../magpie/internal/provider/codex_request.go#L146) |
-| Slug | field_declaration | codexPrompts::list::Models | [147](../../magpie/internal/provider/codex_request.go#L147) |
-| Base | field_declaration | codexPrompts::list::Models | [148](../../magpie/internal/provider/codex_request.go#L148) |
-| Messages | field_declaration | codexPrompts::list::Models | [149](../../magpie/internal/provider/codex_request.go#L149) |
-| Template | field_declaration | codexPrompts::list::Models::Messages | [150](../../magpie/internal/provider/codex_request.go#L150) |
-| saveCodexPrompts | function_declaration |  | [170](../../magpie/internal/provider/codex_request.go#L170) |
-| promptFile | type_spec |  | [196](../../magpie/internal/provider/codex_request.go#L196) |
-| path | field_declaration | promptFile | [198](../../magpie/internal/provider/codex_request.go#L198) |
-| mod | field_declaration | promptFile | [199](../../magpie/internal/provider/codex_request.go#L199) |
-| m | field_declaration | promptFile | [200](../../magpie/internal/provider/codex_request.go#L200) |
-| drop | method_declaration |  | [205](../../magpie/internal/provider/codex_request.go#L205) |
-| get | method_declaration |  | [211](../../magpie/internal/provider/codex_request.go#L211) |
-| savedPrompts | var_spec |  | [228](../../magpie/internal/provider/codex_request.go#L228) |
-| codexInstructions | function_declaration |  | [233](../../magpie/internal/provider/codex_request.go#L233) |
-| m | var_spec | codexInstructions | [235](../../magpie/internal/provider/codex_request.go#L235) |
-| codexBody | function_declaration |  | [252](../../magpie/internal/provider/codex_request.go#L252) |
-| m | var_spec | codexBody | [255](../../magpie/internal/provider/codex_request.go#L255) |
-| conversationKey | function_declaration |  | [349](../../magpie/internal/provider/codex_request.go#L349) |
-| BoundCallID | function_declaration |  | [374](../../magpie/internal/provider/codex_request.go#L374) |
-| codexInput | function_declaration |  | [387](../../magpie/internal/provider/codex_request.go#L387) |
-| out | var_spec | codexInput | [408](../../magpie/internal/provider/codex_request.go#L408) |
-| orphanOutput | function_declaration |  | [454](../../magpie/internal/provider/codex_request.go#L454) |
-| cachedSearch | function_declaration |  | [487](../../magpie/internal/provider/codex_request.go#L487) |
-| DeclareSearch | function_declaration |  | [497](../../magpie/internal/provider/codex_request.go#L497) |
-| m | var_spec | DeclareSearch | [503](../../magpie/internal/provider/codex_request.go#L503) |
-| declareSearch | function_declaration |  | [520](../../magpie/internal/provider/codex_request.go#L520) |
-| additional | var_spec | declareSearch | [526](../../magpie/internal/provider/codex_request.go#L526) |
-| tools | var_spec | declareSearch | [546](../../magpie/internal/provider/codex_request.go#L546) |
-| declaresSearch | function_declaration |  | [596](../../magpie/internal/provider/codex_request.go#L596) |
-| firstLine | function_declaration |  | [619](../../magpie/internal/provider/codex_request.go#L619) |
-| containsAny | function_declaration |  | [627](../../magpie/internal/provider/codex_request.go#L627) |
+| codexClientHeaders | function_declaration |  | [63](../../magpie/internal/provider/codex_request.go#L63) |
+| codexAccountHeaders | function_declaration |  | [71](../../magpie/internal/provider/codex_request.go#L71) |
+| sessionHeaders | function_declaration |  | [89](../../magpie/internal/provider/codex_request.go#L89) |
+| v | var_spec | sessionHeaders | [92](../../magpie/internal/provider/codex_request.go#L92) |
+| Key | field_declaration | sessionHeaders::v | [93](../../magpie/internal/provider/codex_request.go#L93) |
+| codexUA | var_spec |  | [102](../../magpie/internal/provider/codex_request.go#L102) |
+| os | field_declaration | codexUA | [104](../../magpie/internal/provider/codex_request.go#L104) |
+| codexUserAgent | function_declaration |  | [109](../../magpie/internal/provider/codex_request.go#L109) |
+| versionRE | var_spec |  | [122](../../magpie/internal/provider/codex_request.go#L122) |
+| codexOS | function_declaration |  | [126](../../magpie/internal/provider/codex_request.go#L126) |
+| codexPromptsPath | function_declaration |  | [162](../../magpie/internal/provider/codex_request.go#L162) |
+| codexPrompts | function_declaration |  | [168](../../magpie/internal/provider/codex_request.go#L168) |
+| list | var_spec | codexPrompts | [169](../../magpie/internal/provider/codex_request.go#L169) |
+| Models | field_declaration | codexPrompts::list | [170](../../magpie/internal/provider/codex_request.go#L170) |
+| Slug | field_declaration | codexPrompts::list::Models | [171](../../magpie/internal/provider/codex_request.go#L171) |
+| Base | field_declaration | codexPrompts::list::Models | [172](../../magpie/internal/provider/codex_request.go#L172) |
+| Messages | field_declaration | codexPrompts::list::Models | [173](../../magpie/internal/provider/codex_request.go#L173) |
+| Template | field_declaration | codexPrompts::list::Models::Messages | [174](../../magpie/internal/provider/codex_request.go#L174) |
+| saveCodexPrompts | function_declaration |  | [194](../../magpie/internal/provider/codex_request.go#L194) |
+| promptFile | type_spec |  | [220](../../magpie/internal/provider/codex_request.go#L220) |
+| path | field_declaration | promptFile | [222](../../magpie/internal/provider/codex_request.go#L222) |
+| mod | field_declaration | promptFile | [223](../../magpie/internal/provider/codex_request.go#L223) |
+| m | field_declaration | promptFile | [224](../../magpie/internal/provider/codex_request.go#L224) |
+| drop | method_declaration |  | [229](../../magpie/internal/provider/codex_request.go#L229) |
+| get | method_declaration |  | [235](../../magpie/internal/provider/codex_request.go#L235) |
+| savedPrompts | var_spec |  | [252](../../magpie/internal/provider/codex_request.go#L252) |
+| codexInstructions | function_declaration |  | [258](../../magpie/internal/provider/codex_request.go#L258) |
+| m | var_spec | codexInstructions | [260](../../magpie/internal/provider/codex_request.go#L260) |
+| codexBody | function_declaration |  | [277](../../magpie/internal/provider/codex_request.go#L277) |
+| m | var_spec | codexBody | [280](../../magpie/internal/provider/codex_request.go#L280) |
+| conversationKey | function_declaration |  | [377](../../magpie/internal/provider/codex_request.go#L377) |
+| BoundCallID | function_declaration |  | [402](../../magpie/internal/provider/codex_request.go#L402) |
+| codexInput | function_declaration |  | [415](../../magpie/internal/provider/codex_request.go#L415) |
+| out | var_spec | codexInput | [436](../../magpie/internal/provider/codex_request.go#L436) |
+| orphanOutput | function_declaration |  | [482](../../magpie/internal/provider/codex_request.go#L482) |
+| cachedSearch | function_declaration |  | [515](../../magpie/internal/provider/codex_request.go#L515) |
+| DeclareSearch | function_declaration |  | [525](../../magpie/internal/provider/codex_request.go#L525) |
+| m | var_spec | DeclareSearch | [531](../../magpie/internal/provider/codex_request.go#L531) |
+| declareSearch | function_declaration |  | [548](../../magpie/internal/provider/codex_request.go#L548) |
+| additional | var_spec | declareSearch | [554](../../magpie/internal/provider/codex_request.go#L554) |
+| tools | var_spec | declareSearch | [574](../../magpie/internal/provider/codex_request.go#L574) |
+| declaresSearch | function_declaration |  | [624](../../magpie/internal/provider/codex_request.go#L624) |
+| firstLine | function_declaration |  | [647](../../magpie/internal/provider/codex_request.go#L647) |
+| containsAny | function_declaration |  | [655](../../magpie/internal/provider/codex_request.go#L655) |

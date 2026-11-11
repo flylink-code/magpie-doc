@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/omo.go) · page 1/1
 
-Source SHA-256: f54194f21a50215a643adadd0727a53a035f5903853f299ae7637e2a5375b634
+Source SHA-256: 382aad05212f04a168dfde907ab7cfaf207c38fb23b8b693e28931ec8a6f3dc9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/handover.go) · page 1/1
 
-Source SHA-256: 44e59a1e98854ad0dd29f78b3df47b2ff55070251371e647bd35a7fc32b5c9eb
+Source SHA-256: 2651b15073c3974e7fc353db76e198075f81678a807e99f72191210ff29428d3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,13 +25,17 @@ Source SHA-256: 44e59a1e98854ad0dd29f78b3df47b2ff55070251371e647bd35a7fc32b5c9eb
 | ackWait | var_spec |  | [95](../../magpie/internal/gui/handover.go#L95) |
 | openBeside | var_spec |  | [101](../../magpie/internal/gui/handover.go#L101) |
 | startBeside | var_spec |  | [102](../../magpie/internal/gui/handover.go#L102) |
-| beginHandover | function_declaration |  | [108](../../magpie/internal/gui/handover.go#L108) |
-| failed | method_declaration |  | [142](../../magpie/internal/gui/handover.go#L142) |
-| leave | function_declaration |  | [148](../../magpie/internal/gui/handover.go#L148) |
-| run | method_declaration |  | [160](../../magpie/internal/gui/handover.go#L160) |
-| fallbackWait | var_spec |  | [221](../../magpie/internal/gui/handover.go#L221) |
-| fail | method_declaration |  | [226](../../magpie/internal/gui/handover.go#L226) |
-| takeOver | function_declaration |  | [243](../../magpie/internal/gui/handover.go#L243) |
-| once | var_spec | takeOver | [252](../../magpie/internal/gui/handover.go#L252) |
-| handedOffWait | var_spec |  | [268](../../magpie/internal/gui/handover.go#L268) |
-| awaitExit | function_declaration |  | [271](../../magpie/internal/gui/handover.go#L271) |
+| beginHandover | function_declaration |  | [109](../../magpie/internal/gui/handover.go#L109) |
+| failed | method_declaration |  | [143](../../magpie/internal/gui/handover.go#L143) |
+| leave | function_declaration |  | [149](../../magpie/internal/gui/handover.go#L149) |
+| run | method_declaration |  | [161](../../magpie/internal/gui/handover.go#L161) |
+| quitGrace | var_spec |  | [227](../../magpie/internal/gui/handover.go#L227) |
+| exitNow | var_spec |  | [228](../../magpie/internal/gui/handover.go#L228) |
+| quitDeadline | var_spec |  | [232](../../magpie/internal/gui/handover.go#L232) |
+| quitBy | function_declaration |  | [238](../../magpie/internal/gui/handover.go#L238) |
+| fallbackWait | var_spec |  | [251](../../magpie/internal/gui/handover.go#L251) |
+| fail | method_declaration |  | [256](../../magpie/internal/gui/handover.go#L256) |
+| takeOver | function_declaration |  | [273](../../magpie/internal/gui/handover.go#L273) |
+| once | var_spec | takeOver | [282](../../magpie/internal/gui/handover.go#L282) |
+| handedOffWait | var_spec |  | [298](../../magpie/internal/gui/handover.go#L298) |
+| awaitExit | function_declaration |  | [301](../../magpie/internal/gui/handover.go#L301) |

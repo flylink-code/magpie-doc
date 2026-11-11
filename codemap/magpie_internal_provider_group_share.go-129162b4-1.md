@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/group_share.go) · page 1/1
 
-Source SHA-256: 57fe0f021af88b2a9919feacc16afd578c017e5c394e1c9968c562af49144687
+Source SHA-256: da805cec84143ebb19dcb16c2c129ab1cd1e5c284e04c1d9bbed47adfaa181a4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,27 +16,30 @@ Source SHA-256: 57fe0f021af88b2a9919feacc16afd578c017e5c394e1c9968c562af49144687
 | Group | field_declaration | SharedGroup | [24](../../magpie/internal/provider/group_share.go#L24) |
 | ShareGroup | function_declaration |  | [36](../../magpie/internal/provider/group_share.go#L36) |
 | g | var_spec | ShareGroup | [48](../../magpie/internal/provider/group_share.go#L48) |
-| ShareError | type_spec |  | [64](../../magpie/internal/provider/group_share.go#L64) |
-| Why | field_declaration | ShareError | [65](../../magpie/internal/provider/group_share.go#L65) |
-| Format | field_declaration | ShareError | [66](../../magpie/internal/provider/group_share.go#L66) |
-| Models | field_declaration | ShareError | [67](../../magpie/internal/provider/group_share.go#L67) |
-| Err | field_declaration | ShareError | [68](../../magpie/internal/provider/group_share.go#L68) |
-| Error | method_declaration |  | [71](../../magpie/internal/provider/group_share.go#L71) |
-| Unwrap | method_declaration |  | [85](../../magpie/internal/provider/group_share.go#L85) |
-| Imported | type_spec |  | [88](../../magpie/internal/provider/group_share.go#L88) |
-| ID | field_declaration | Imported | [89](../../magpie/internal/provider/group_share.go#L89) |
-| Name | field_declaration | Imported | [90](../../magpie/internal/provider/group_share.go#L90) |
-| Missing | field_declaration | Imported | [93](../../magpie/internal/provider/group_share.go#L93) |
-| Instead | field_declaration | Imported | [96](../../magpie/internal/provider/group_share.go#L96) |
-| Rules | field_declaration | Imported | [100](../../magpie/internal/provider/group_share.go#L100) |
-| ReadShared | function_declaration |  | [105](../../magpie/internal/provider/group_share.go#L105) |
-| s | var_spec | ReadShared | [106](../../magpie/internal/provider/group_share.go#L106) |
-| probe | var_spec | ReadShared | [112](../../magpie/internal/provider/group_share.go#L112) |
-| Magpie | field_declaration | ReadShared::probe | [113](../../magpie/internal/provider/group_share.go#L113) |
-| Version | field_declaration | ReadShared::probe | [114](../../magpie/internal/provider/group_share.go#L114) |
-| Group | field_declaration | ReadShared::probe | [115](../../magpie/internal/provider/group_share.go#L115) |
-| ImportGroup | function_declaration |  | [140](../../magpie/internal/provider/group_share.go#L140) |
-| res | var_spec | ImportGroup | [148](../../magpie/internal/provider/group_share.go#L148) |
-| out | var_spec | ImportGroup | [179](../../magpie/internal/provider/group_share.go#L179) |
-| rules | var_spec | ImportGroup | [206](../../magpie/internal/provider/group_share.go#L206) |
-| memberHere | function_declaration |  | [250](../../magpie/internal/provider/group_share.go#L250) |
+| ShareError | type_spec |  | [69](../../magpie/internal/provider/group_share.go#L69) |
+| Why | field_declaration | ShareError | [70](../../magpie/internal/provider/group_share.go#L70) |
+| Format | field_declaration | ShareError | [71](../../magpie/internal/provider/group_share.go#L71) |
+| Models | field_declaration | ShareError | [72](../../magpie/internal/provider/group_share.go#L72) |
+| Err | field_declaration | ShareError | [73](../../magpie/internal/provider/group_share.go#L73) |
+| Error | method_declaration |  | [76](../../magpie/internal/provider/group_share.go#L76) |
+| Unwrap | method_declaration |  | [90](../../magpie/internal/provider/group_share.go#L90) |
+| Imported | type_spec |  | [93](../../magpie/internal/provider/group_share.go#L93) |
+| ID | field_declaration | Imported | [94](../../magpie/internal/provider/group_share.go#L94) |
+| Name | field_declaration | Imported | [95](../../magpie/internal/provider/group_share.go#L95) |
+| Missing | field_declaration | Imported | [98](../../magpie/internal/provider/group_share.go#L98) |
+| Instead | field_declaration | Imported | [101](../../magpie/internal/provider/group_share.go#L101) |
+| Rules | field_declaration | Imported | [105](../../magpie/internal/provider/group_share.go#L105) |
+| Replaced | field_declaration | Imported | [108](../../magpie/internal/provider/group_share.go#L108) |
+| ReadShared | function_declaration |  | [113](../../magpie/internal/provider/group_share.go#L113) |
+| s | var_spec | ReadShared | [114](../../magpie/internal/provider/group_share.go#L114) |
+| probe | var_spec | ReadShared | [120](../../magpie/internal/provider/group_share.go#L120) |
+| Magpie | field_declaration | ReadShared::probe | [121](../../magpie/internal/provider/group_share.go#L121) |
+| Version | field_declaration | ReadShared::probe | [122](../../magpie/internal/provider/group_share.go#L122) |
+| Group | field_declaration | ReadShared::probe | [123](../../magpie/internal/provider/group_share.go#L123) |
+| ImportGroup | function_declaration |  | [148](../../magpie/internal/provider/group_share.go#L148) |
+| ImportGroupOver | function_declaration |  | [157](../../magpie/internal/provider/group_share.go#L157) |
+| importGroup | function_declaration |  | [159](../../magpie/internal/provider/group_share.go#L159) |
+| res | var_spec | importGroup | [171](../../magpie/internal/provider/group_share.go#L171) |
+| out | var_spec | importGroup | [202](../../magpie/internal/provider/group_share.go#L202) |
+| rules | var_spec | importGroup | [230](../../magpie/internal/provider/group_share.go#L230) |
+| memberHere | function_declaration |  | [305](../../magpie/internal/provider/group_share.go#L305) |

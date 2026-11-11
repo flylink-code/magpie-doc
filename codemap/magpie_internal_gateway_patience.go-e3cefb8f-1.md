@@ -4,25 +4,28 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/patience.go) · page 1/1
 
-Source SHA-256: 5a2db701b76313cbe4fe44ff58555f617440f7c011d6115078eeda23e9fed447
+Source SHA-256: 11b5abce7904b088e0e85e0d141e0e527d5ba5aa7fd009c0d0db06423aa8d8a4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| didNotStream | const_spec |  | [17](../../magpie/internal/gateway/patience.go#L17) |
-| singlePatience | var_spec |  | [40](../../magpie/internal/gateway/patience.go#L40) |
-| replanRounds | const_spec |  | [48](../../magpie/internal/gateway/patience.go#L48) |
-| replanLongest | function_declaration |  | [52](../../magpie/internal/gateway/patience.go#L52) |
-| busyTry | type_spec |  | [56](../../magpie/internal/gateway/patience.go#L56) |
-| c | field_declaration | busyTry | [57](../../magpie/internal/gateway/patience.go#L57) |
-| ready | field_declaration | busyTry | [58](../../magpie/internal/gateway/patience.go#L58) |
-| busy | function_declaration |  | [67](../../magpie/internal/gateway/patience.go#L67) |
-| noteBusy | function_declaration |  | [80](../../magpie/internal/gateway/patience.go#L80) |
-| waitsOf | function_declaration |  | [91](../../magpie/internal/gateway/patience.go#L91) |
-| maxWaits | function_declaration |  | [103](../../magpie/internal/gateway/patience.go#L103) |
-| m | var_spec | maxWaits | [104](../../magpie/internal/gateway/patience.go#L104) |
-| replan | function_declaration |  | [119](../../magpie/internal/gateway/patience.go#L119) |
-| alive | var_spec | replan | [131](../../magpie/internal/gateway/patience.go#L131) |
-| next | var_spec | replan | [145](../../magpie/internal/gateway/patience.go#L145) |
-| minTime | function_declaration |  | [156](../../magpie/internal/gateway/patience.go#L156) |
-| pauseAlive | function_declaration |  | [166](../../magpie/internal/gateway/patience.go#L166) |
-| hw | var_spec | pauseAlive | [169](../../magpie/internal/gateway/patience.go#L169) |
+| didNotStream | const_spec |  | [18](../../magpie/internal/gateway/patience.go#L18) |
+| singlePatience | var_spec |  | [41](../../magpie/internal/gateway/patience.go#L41) |
+| replanRounds | const_spec |  | [49](../../magpie/internal/gateway/patience.go#L49) |
+| replanLongest | function_declaration |  | [53](../../magpie/internal/gateway/patience.go#L53) |
+| busyTry | type_spec |  | [57](../../magpie/internal/gateway/patience.go#L57) |
+| c | field_declaration | busyTry | [58](../../magpie/internal/gateway/patience.go#L58) |
+| ready | field_declaration | busyTry | [59](../../magpie/internal/gateway/patience.go#L59) |
+| busy | function_declaration |  | [70](../../magpie/internal/gateway/patience.go#L70) |
+| queuedWords | var_spec |  | [96](../../magpie/internal/gateway/patience.go#L96) |
+| queued | function_declaration |  | [99](../../magpie/internal/gateway/patience.go#L99) |
+| busyStatus | function_declaration |  | [111](../../magpie/internal/gateway/patience.go#L111) |
+| noteBusy | function_declaration |  | [121](../../magpie/internal/gateway/patience.go#L121) |
+| waitsOf | function_declaration |  | [132](../../magpie/internal/gateway/patience.go#L132) |
+| maxWaits | function_declaration |  | [144](../../magpie/internal/gateway/patience.go#L144) |
+| m | var_spec | maxWaits | [145](../../magpie/internal/gateway/patience.go#L145) |
+| replan | function_declaration |  | [160](../../magpie/internal/gateway/patience.go#L160) |
+| alive | var_spec | replan | [186](../../magpie/internal/gateway/patience.go#L186) |
+| next | var_spec | replan | [200](../../magpie/internal/gateway/patience.go#L200) |
+| minTime | function_declaration |  | [211](../../magpie/internal/gateway/patience.go#L211) |
+| pauseAlive | function_declaration |  | [221](../../magpie/internal/gateway/patience.go#L221) |
+| hw | var_spec | pauseAlive | [224](../../magpie/internal/gateway/patience.go#L224) |

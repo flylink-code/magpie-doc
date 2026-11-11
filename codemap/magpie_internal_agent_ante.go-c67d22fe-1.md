@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/ante.go) · page 1/1
 
-Source SHA-256: 374ffca3be186c112ca76290de1f02bad1951074fbaebf8fbc0d8c057943ff7e
+Source SHA-256: e84171e7f88f49371f321b54f8926101a1b76e7d2cad6c121508fba81456185e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

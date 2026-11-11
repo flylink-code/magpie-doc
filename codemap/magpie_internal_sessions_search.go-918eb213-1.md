@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/search.go) · page 1/1
 
-Source SHA-256: 5dd04e3fe411a3cf97ff9e44e48c7d010e8b38643d55d2535018c2ff222e37b4
+Source SHA-256: a4b36bb620a975a8fd9b68bbcafed51d1f86dd4f5119b5c347d19018be203224
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -33,14 +33,16 @@ Source SHA-256: 5dd04e3fe411a3cf97ff9e44e48c7d010e8b38643d55d2535018c2ff222e37b4
 | containsFold | function_declaration |  | [182](../../magpie/internal/sessions/search.go#L182) |
 | equalFoldASCII | function_declaration |  | [210](../../magpie/internal/sessions/search.go#L210) |
 | SearchSession | function_declaration |  | [225](../../magpie/internal/sessions/search.go#L225) |
-| keep | var_spec | SearchSession | [233](../../magpie/internal/sessions/search.go#L233) |
-| words | var_spec | SearchSession | [237](../../magpie/internal/sessions/search.go#L237) |
-| linesFile | function_declaration |  | [264](../../magpie/internal/sessions/search.go#L264) |
-| SearchGateway | function_declaration |  | [276](../../magpie/internal/sessions/search.go#L276) |
-| gatewayTitles | var_spec |  | [297](../../magpie/internal/sessions/search.go#L297) |
-| gatewayTitleLines | const_spec |  | [299](../../magpie/internal/sessions/search.go#L299) |
-| GatewayTitle | function_declaration |  | [304](../../magpie/internal/sessions/search.go#L304) |
-| names | var_spec | GatewayTitle | [320](../../magpie/internal/sessions/search.go#L320) |
-| gatewayFileTitle | function_declaration |  | [355](../../magpie/internal/sessions/search.go#L355) |
-| turn | var_spec | gatewayFileTitle | [374](../../magpie/internal/sessions/search.go#L374) |
-| firstAsked | function_declaration |  | [389](../../magpie/internal/sessions/search.go#L389) |
+| keep | var_spec | SearchSession | [236](../../magpie/internal/sessions/search.go#L236) |
+| words | var_spec | SearchSession | [240](../../magpie/internal/sessions/search.go#L240) |
+| linesFile | function_declaration |  | [267](../../magpie/internal/sessions/search.go#L267) |
+| SearchGateway | function_declaration |  | [279](../../magpie/internal/sessions/search.go#L279) |
+| gatewayTitles | var_spec |  | [300](../../magpie/internal/sessions/search.go#L300) |
+| gatewayTitleLines | const_spec |  | [302](../../magpie/internal/sessions/search.go#L302) |
+| GatewayTitle | function_declaration |  | [307](../../magpie/internal/sessions/search.go#L307) |
+| GatewayTitler | function_declaration |  | [313](../../magpie/internal/sessions/search.go#L313) |
+| gatewayTitleIn | function_declaration |  | [322](../../magpie/internal/sessions/search.go#L322) |
+| names | var_spec | gatewayTitleIn | [335](../../magpie/internal/sessions/search.go#L335) |
+| gatewayFileTitle | function_declaration |  | [370](../../magpie/internal/sessions/search.go#L370) |
+| turn | var_spec | gatewayFileTitle | [389](../../magpie/internal/sessions/search.go#L389) |
+| firstAsked | function_declaration |  | [404](../../magpie/internal/sessions/search.go#L404) |

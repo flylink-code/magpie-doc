@@ -4,11 +4,11 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/pencil.go) · page 1/1
 
-Source SHA-256: 116e8a9b4bfa5b46f11bce6b2ab8bacf529f9362c1af4aa62f867d0fbbaf1733
+Source SHA-256: e8dabeff72a85fbe59db11b193247729b6f3b73314db5430b5074a207e79ee35
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | pencil | function_declaration |  | [34](../../magpie/internal/agent/pencil.go#L34) |
-| pencilApp | function_declaration |  | [80](../../magpie/internal/agent/pencil.go#L80) |
-| pencilProviderJSON | function_declaration |  | [99](../../magpie/internal/agent/pencil.go#L99) |
-| noticePencil | var_spec |  | [122](../../magpie/internal/agent/pencil.go#L122) |
+| pencilApp | function_declaration |  | [81](../../magpie/internal/agent/pencil.go#L81) |
+| pencilProviderJSON | function_declaration |  | [100](../../magpie/internal/agent/pencil.go#L100) |
+| noticePencil | var_spec |  | [123](../../magpie/internal/agent/pencil.go#L123) |

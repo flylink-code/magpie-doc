@@ -4,48 +4,67 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search.go) · page 2/2
 
-Source SHA-256: 0800ac1d038b040cfab7887744ecd54dfd8130fc04ff1a4e3dca8cbb20bf47b7
+Source SHA-256: 214e0b554f71fd212c15cc9f55912e8fbfe1db6bebaa33d2db07d18c5f3905a2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| namedFailed | function_declaration |  | [816](../../magpie/internal/gateway/search.go#L816) |
-| SearcherFailed | function_declaration |  | [839](../../magpie/internal/gateway/search.go#L839) |
-| searcherSpent | function_declaration |  | [857](../../magpie/internal/gateway/search.go#L857) |
-| searchingInstead | function_declaration |  | [875](../../magpie/internal/gateway/search.go#L875) |
-| errFoundNothing | var_spec |  | [899](../../magpie/internal/gateway/search.go#L899) |
-| errNotSearched | var_spec |  | [906](../../magpie/internal/gateway/search.go#L906) |
-| searchWith | method_declaration |  | [917](../../magpie/internal/gateway/search.go#L917) |
-| out | var_spec | searchWith | [927](../../magpie/internal/gateway/search.go#L927) |
-| Content | field_declaration | searchWith::out | [928](../../magpie/internal/gateway/search.go#L928) |
-| Type | field_declaration | searchWith::out::Content | [929](../../magpie/internal/gateway/search.go#L929) |
-| Text | field_declaration | searchWith::out::Content | [930](../../magpie/internal/gateway/search.go#L930) |
-| Content | field_declaration | searchWith::out::Content | [931](../../magpie/internal/gateway/search.go#L931) |
-| Citations | field_declaration | searchWith::out::Content | [932](../../magpie/internal/gateway/search.go#L932) |
-| URL | field_declaration | searchWith::out::Content::Citations | [933](../../magpie/internal/gateway/search.go#L933) |
-| CitedText | field_declaration | searchWith::out::Content::Citations | [934](../../magpie/internal/gateway/search.go#L934) |
-| Error | field_declaration | searchWith::out | [937](../../magpie/internal/gateway/search.go#L937) |
-| Message | field_declaration | searchWith::out::Error | [938](../../magpie/internal/gateway/search.go#L938) |
-| text | var_spec | searchWith | [951](../../magpie/internal/gateway/search.go#L951) |
-| sources | var_spec | searchWith | [952](../../magpie/internal/gateway/search.go#L952) |
-| found | var_spec | searchWith | [953](../../magpie/internal/gateway/search.go#L953) |
-| results | var_spec | searchWith | [972](../../magpie/internal/gateway/search.go#L972) |
-| h | var_spec | searchWith | [975](../../magpie/internal/gateway/search.go#L975) |
-| Title | field_declaration | searchWith::h | [976](../../magpie/internal/gateway/search.go#L976) |
-| URL | field_declaration | searchWith::h | [977](../../magpie/internal/gateway/search.go#L977) |
-| PageAge | field_declaration | searchWith::h | [978](../../magpie/internal/gateway/search.go#L978) |
-| searchBody | function_declaration |  | [1013](../../magpie/internal/gateway/search.go#L1013) |
-| SearchAgent | const_spec |  | [1041](../../magpie/internal/gateway/search.go#L1041) |
-| round | type_spec |  | [1045](../../magpie/internal/gateway/search.go#L1045) |
-| searchReply | method_declaration |  | [1051](../../magpie/internal/gateway/search.go#L1051) |
-| searchRounds | method_declaration |  | [1071](../../magpie/internal/gateway/search.go#L1071) |
-| before | var_spec | searchRounds | [1080](../../magpie/internal/gateway/search.go#L1080) |
-| col | var_spec | searchRounds | [1083](../../magpie/internal/gateway/search.go#L1083) |
-| stop | var_spec | searchRounds | [1085](../../magpie/internal/gateway/search.go#L1085) |
-| calls | var_spec | searchRounds | [1136](../../magpie/internal/gateway/search.go#L1136) |
-| wg | var_spec | searchRounds | [1156](../../magpie/internal/gateway/search.go#L1156) |
-| a | var_spec | searchRounds | [1166](../../magpie/internal/gateway/search.go#L1166) |
-| Query | field_declaration | searchRounds::a | [1167](../../magpie/internal/gateway/search.go#L1167) |
-| status | var_spec | searchRounds | [1195](../../magpie/internal/gateway/search.go#L1195) |
-| msg | var_spec | searchRounds | [1196](../../magpie/internal/gateway/search.go#L1196) |
-| askTranslated | method_declaration |  | [1205](../../magpie/internal/gateway/search.go#L1205) |
-| failed | var_spec | askTranslated | [1243](../../magpie/internal/gateway/search.go#L1243) |
+| searchInTurn | method_declaration |  | [933](../../magpie/internal/gateway/search.go#L933) |
+| turn | var_spec | searchInTurn | [934](../../magpie/internal/gateway/search.go#L934) |
+| said | var_spec | searchInTurn | [956](../../magpie/internal/gateway/search.go#L956) |
+| hits | var_spec | searchInTurn | [957](../../magpie/internal/gateway/search.go#L957) |
+| errCantServe | var_spec |  | [971](../../magpie/internal/gateway/search.go#L971) |
+| cantServe | type_spec |  | [975](../../magpie/internal/gateway/search.go#L975) |
+| Unwrap | method_declaration |  | [977](../../magpie/internal/gateway/search.go#L977) |
+| lastNamedFail | var_spec |  | [981](../../magpie/internal/gateway/search.go#L981) |
+| f | field_declaration | lastNamedFail | [983](../../magpie/internal/gateway/search.go#L983) |
+| SearchFailure | type_spec |  | [988](../../magpie/internal/gateway/search.go#L988) |
+| Searcher | field_declaration | SearchFailure | [989](../../magpie/internal/gateway/search.go#L989) |
+| Why | field_declaration | SearchFailure | [990](../../magpie/internal/gateway/search.go#L990) |
+| NothingFound | field_declaration | SearchFailure | [991](../../magpie/internal/gateway/search.go#L991) |
+| NotSearched | field_declaration | SearchFailure | [992](../../magpie/internal/gateway/search.go#L992) |
+| Instead | field_declaration | SearchFailure | [995](../../magpie/internal/gateway/search.go#L995) |
+| At | field_declaration | SearchFailure | [996](../../magpie/internal/gateway/search.go#L996) |
+| searcherOf | function_declaration |  | [1001](../../magpie/internal/gateway/search.go#L1001) |
+| namedFailed | function_declaration |  | [1008](../../magpie/internal/gateway/search.go#L1008) |
+| SearcherFailed | function_declaration |  | [1028](../../magpie/internal/gateway/search.go#L1028) |
+| searcherSpent | function_declaration |  | [1047](../../magpie/internal/gateway/search.go#L1047) |
+| searchingInstead | function_declaration |  | [1065](../../magpie/internal/gateway/search.go#L1065) |
+| errFoundNothing | var_spec |  | [1089](../../magpie/internal/gateway/search.go#L1089) |
+| errNotSearched | var_spec |  | [1096](../../magpie/internal/gateway/search.go#L1096) |
+| searchWith | method_declaration |  | [1107](../../magpie/internal/gateway/search.go#L1107) |
+| out | var_spec | searchWith | [1117](../../magpie/internal/gateway/search.go#L1117) |
+| Content | field_declaration | searchWith::out | [1118](../../magpie/internal/gateway/search.go#L1118) |
+| Type | field_declaration | searchWith::out::Content | [1119](../../magpie/internal/gateway/search.go#L1119) |
+| Text | field_declaration | searchWith::out::Content | [1120](../../magpie/internal/gateway/search.go#L1120) |
+| Content | field_declaration | searchWith::out::Content | [1121](../../magpie/internal/gateway/search.go#L1121) |
+| Citations | field_declaration | searchWith::out::Content | [1122](../../magpie/internal/gateway/search.go#L1122) |
+| URL | field_declaration | searchWith::out::Content::Citations | [1123](../../magpie/internal/gateway/search.go#L1123) |
+| CitedText | field_declaration | searchWith::out::Content::Citations | [1124](../../magpie/internal/gateway/search.go#L1124) |
+| Error | field_declaration | searchWith::out | [1127](../../magpie/internal/gateway/search.go#L1127) |
+| Message | field_declaration | searchWith::out::Error | [1128](../../magpie/internal/gateway/search.go#L1128) |
+| text | var_spec | searchWith | [1146](../../magpie/internal/gateway/search.go#L1146) |
+| sources | var_spec | searchWith | [1147](../../magpie/internal/gateway/search.go#L1147) |
+| found | var_spec | searchWith | [1148](../../magpie/internal/gateway/search.go#L1148) |
+| results | var_spec | searchWith | [1167](../../magpie/internal/gateway/search.go#L1167) |
+| h | var_spec | searchWith | [1170](../../magpie/internal/gateway/search.go#L1170) |
+| Title | field_declaration | searchWith::h | [1171](../../magpie/internal/gateway/search.go#L1171) |
+| URL | field_declaration | searchWith::h | [1172](../../magpie/internal/gateway/search.go#L1172) |
+| PageAge | field_declaration | searchWith::h | [1173](../../magpie/internal/gateway/search.go#L1173) |
+| searchBody | function_declaration |  | [1208](../../magpie/internal/gateway/search.go#L1208) |
+| SearchAgent | const_spec |  | [1236](../../magpie/internal/gateway/search.go#L1236) |
+| round | type_spec |  | [1240](../../magpie/internal/gateway/search.go#L1240) |
+| textCallRound | function_declaration |  | [1248](../../magpie/internal/gateway/search.go#L1248) |
+| searchReply | method_declaration |  | [1287](../../magpie/internal/gateway/search.go#L1287) |
+| searchRounds | method_declaration |  | [1308](../../magpie/internal/gateway/search.go#L1308) |
+| before | var_spec | searchRounds | [1317](../../magpie/internal/gateway/search.go#L1317) |
+| col | var_spec | searchRounds | [1320](../../magpie/internal/gateway/search.go#L1320) |
+| stop | var_spec | searchRounds | [1322](../../magpie/internal/gateway/search.go#L1322) |
+| calls | var_spec | searchRounds | [1376](../../magpie/internal/gateway/search.go#L1376) |
+| wg | var_spec | searchRounds | [1396](../../magpie/internal/gateway/search.go#L1396) |
+| a | var_spec | searchRounds | [1406](../../magpie/internal/gateway/search.go#L1406) |
+| Query | field_declaration | searchRounds::a | [1407](../../magpie/internal/gateway/search.go#L1407) |
+| status | var_spec | searchRounds | [1435](../../magpie/internal/gateway/search.go#L1435) |
+| msg | var_spec | searchRounds | [1436](../../magpie/internal/gateway/search.go#L1436) |
+| askTranslated | method_declaration |  | [1445](../../magpie/internal/gateway/search.go#L1445) |
+| failed | var_spec | askTranslated | [1486](../../magpie/internal/gateway/search.go#L1486) |
+| mu | var_spec | askTranslated | [1491](../../magpie/internal/gateway/search.go#L1491) |

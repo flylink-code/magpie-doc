@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/kilo.go) · page 1/1
 
-Source SHA-256: 59de7498de212e1578b20fee7ad930e693eb394bcb175c82f0b2dbb5f53c35df
+Source SHA-256: dcb4bcdc6f9e4af49bbf212a2a60963c15e34441ec442c9cfd4297ccd3224580
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

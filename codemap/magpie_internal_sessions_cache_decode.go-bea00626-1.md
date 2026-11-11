@@ -4,17 +4,18 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/cache_decode.go) · page 1/1
 
-Source SHA-256: b22a9e3c81fc23e535c833e51eb846a2b9f2c5fabd2ce64a05590fa4db6e43bb
+Source SHA-256: 7bfce4d8cef66f4357bf773642d5af294ab4dc781a944e424c2a7255014b2425
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | decodeCache | function_declaration |  | [23](../../magpie/internal/sessions/cache_decode.go#L23) |
-| keys | var_spec | decodeCache | [33](../../magpie/internal/sessions/cache_decode.go#L33) |
-| bad | var_spec | decodeCache | [40](../../magpie/internal/sessions/cache_decode.go#L40) |
-| next | var_spec | decodeCache | [53](../../magpie/internal/sessions/cache_decode.go#L53) |
-| wg | var_spec | decodeCache | [54](../../magpie/internal/sessions/cache_decode.go#L54) |
-| encodeCache | function_declaration |  | [83](../../magpie/internal/sessions/cache_decode.go#L83) |
-| b | var_spec | encodeCache | [84](../../magpie/internal/sessions/cache_decode.go#L84) |
-| Version | field_declaration | encodeCache | [95](../../magpie/internal/sessions/cache_decode.go#L95) |
-| Zone | field_declaration | encodeCache | [96](../../magpie/internal/sessions/cache_decode.go#L96) |
-| share | method_declaration |  | [135](../../magpie/internal/sessions/cache_decode.go#L135) |
+| keys | var_spec | decodeCache | [46](../../magpie/internal/sessions/cache_decode.go#L46) |
+| bad | var_spec | decodeCache | [53](../../magpie/internal/sessions/cache_decode.go#L53) |
+| next | var_spec | decodeCache | [66](../../magpie/internal/sessions/cache_decode.go#L66) |
+| wg | var_spec | decodeCache | [67](../../magpie/internal/sessions/cache_decode.go#L67) |
+| encodeCache | function_declaration |  | [102](../../magpie/internal/sessions/cache_decode.go#L102) |
+| b | var_spec | encodeCache | [103](../../magpie/internal/sessions/cache_decode.go#L103) |
+| Version | field_declaration | encodeCache | [114](../../magpie/internal/sessions/cache_decode.go#L114) |
+| Zone | field_declaration | encodeCache | [115](../../magpie/internal/sessions/cache_decode.go#L115) |
+| Parsers | field_declaration | encodeCache | [116](../../magpie/internal/sessions/cache_decode.go#L116) |
+| share | method_declaration |  | [155](../../magpie/internal/sessions/cache_decode.go#L155) |

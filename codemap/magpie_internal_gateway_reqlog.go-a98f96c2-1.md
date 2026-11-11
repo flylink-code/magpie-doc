@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/reqlog.go) · page 1/1
 
-Source SHA-256: e14e9854a504d2469415531d81a56a3fc057684b7244e871306332be3ae1ad9a
+Source SHA-256: 3dbe0956ce5bcc2c001a10b08ba1dbe3ac4f15dc36e2cb85ec405601a44812fa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,4 +12,5 @@ Source SHA-256: e14e9854a504d2469415531d81a56a3fc057684b7244e871306332be3ae1ad9a
 | keepMsg | function_declaration |  | [18](../../magpie/internal/gateway/reqlog.go#L18) |
 | requestID | function_declaration |  | [28](../../magpie/internal/gateway/reqlog.go#L28) |
 | endpointOf | function_declaration |  | [41](../../magpie/internal/gateway/reqlog.go#L41) |
-| failedWith | function_declaration |  | [62](../../magpie/internal/gateway/reqlog.go#L62) |
+| failedWith | function_declaration |  | [64](../../magpie/internal/gateway/reqlog.go#L64) |
+| canceledAs | function_declaration |  | [76](../../magpie/internal/gateway/reqlog.go#L76) |

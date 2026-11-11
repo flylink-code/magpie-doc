@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_resets_used.go) · page 1/1
 
-Source SHA-256: 2bb7e0701fbab7463e5f154513e955521c4e2e277a6428981e9c2d4bd813dd7c
+Source SHA-256: c38bbd54df6c6aa59ac7b11a8252d02db8989d6e623495475479b3e9e16455b4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -23,6 +23,6 @@ Source SHA-256: 2bb7e0701fbab7463e5f154513e955521c4e2e277a6428981e9c2d4bd813dd7c
 | resetsUsedMu | var_spec |  | [60](../../magpie/internal/provider/codex_resets_used.go#L60) |
 | readResetsUsed | function_declaration |  | [64](../../magpie/internal/provider/codex_resets_used.go#L64) |
 | us | var_spec | readResetsUsed | [72](../../magpie/internal/provider/codex_resets_used.go#L72) |
-| noteResetUsed | function_declaration |  | [82](../../magpie/internal/provider/codex_resets_used.go#L82) |
-| ResetsUsed | function_declaration |  | [110](../../magpie/internal/provider/codex_resets_used.go#L110) |
-| out | var_spec | ResetsUsed | [118](../../magpie/internal/provider/codex_resets_used.go#L118) |
+| noteResetUsed | function_declaration |  | [84](../../magpie/internal/provider/codex_resets_used.go#L84) |
+| ResetsUsed | function_declaration |  | [117](../../magpie/internal/provider/codex_resets_used.go#L117) |
+| out | var_spec | ResetsUsed | [125](../../magpie/internal/provider/codex_resets_used.go#L125) |

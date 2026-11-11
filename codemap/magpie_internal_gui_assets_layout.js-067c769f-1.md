@@ -4,10 +4,12 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/layout.js) · page 1/1
 
-Source SHA-256: 8263cfd98e8b94a4922c0d1972d93e4cd007e34591167ae5b2079192eab88301
+Source SHA-256: a2bc7701b5238e5a8be50adacbccf09a6979c87dbf1a0969adbe20a43bdd1f7f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | mode | VariableDeclaration |  | [5](../../magpie/internal/gui/assets/layout.js#L5) |
 | web | VariableDeclaration |  | [6](../../magpie/internal/gui/assets/layout.js#L6) |
-| viewport | VariableDeclaration |  | [11](../../magpie/internal/gui/assets/layout.js#L11) |
+| viewport | VariableDeclaration |  | [12](../../magpie/internal/gui/assets/layout.js#L12) |
+| bar | FunctionDeclaration |  | [23](../../magpie/internal/gui/assets/layout.js#L23) |
+| p | VariableDeclaration | bar | [23](../../magpie/internal/gui/assets/layout.js#L23) |

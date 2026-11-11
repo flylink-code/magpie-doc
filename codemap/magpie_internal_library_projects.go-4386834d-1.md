@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/projects.go) · page 1/1
 
-Source SHA-256: ce674756c364a2410913c0a15599aab6e8ff5b50ebd31d3f4d39ccc2f044ce8f
+Source SHA-256: 132eac5bb32803462a26e3518f8ca90b3c74878f0844997b8c2db7b881583e29
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -19,37 +19,50 @@ Source SHA-256: ce674756c364a2410913c0a15599aab6e8ff5b50ebd31d3f4d39ccc2f044ce8f
 | Wrote | field_declaration | Project | [39](../../magpie/internal/library/projects.go#L39) |
 | Startup | field_declaration | Project | [43](../../magpie/internal/library/projects.go#L43) |
 | MadeFiles | field_declaration | Project | [46](../../magpie/internal/library/projects.go#L46) |
-| projectSkillsDirs | var_spec |  | [63](../../magpie/internal/library/projects.go#L63) |
-| ProjectSkillsDir | function_declaration |  | [85](../../magpie/internal/library/projects.go#L85) |
-| project | method_declaration |  | [87](../../magpie/internal/library/projects.go#L87) |
-| ignoreBegin | const_spec |  | [98](../../magpie/internal/library/projects.go#L98) |
-| ignoreEnd | const_spec |  | [99](../../magpie/internal/library/projects.go#L99) |
-| syncProjects | method_declaration |  | [103](../../magpie/internal/library/projects.go#L103) |
-| syncProject | method_declaration |  | [109](../../magpie/internal/library/projects.go#L109) |
-| placed | var_spec | syncProject | [130](../../magpie/internal/library/projects.go#L130) |
-| errForeign | var_spec |  | [176](../../magpie/internal/library/projects.go#L176) |
-| place | method_declaration |  | [180](../../magpie/internal/library/projects.go#L180) |
-| mkdirs | method_declaration |  | [215](../../magpie/internal/library/projects.go#L215) |
-| made | var_spec | mkdirs | [216](../../magpie/internal/library/projects.go#L216) |
-| tidy | method_declaration |  | [237](../../magpie/internal/library/projects.go#L237) |
-| kept | var_spec | tidy | [239](../../magpie/internal/library/projects.go#L239) |
-| writeIgnore | method_declaration |  | [258](../../magpie/internal/library/projects.go#L258) |
-| stripIgnore | function_declaration |  | [302](../../magpie/internal/library/projects.go#L302) |
-| out | var_spec | stripIgnore | [303](../../magpie/internal/library/projects.go#L303) |
-| AddProject | function_declaration |  | [325](../../magpie/internal/library/projects.go#L325) |
-| notGlobal | function_declaration |  | [353](../../magpie/internal/library/projects.go#L353) |
-| RemoveProject | function_declaration |  | [386](../../magpie/internal/library/projects.go#L386) |
-| ProjectSkill | function_declaration |  | [407](../../magpie/internal/library/projects.go#L407) |
-| ids | var_spec | ProjectSkill | [416](../../magpie/internal/library/projects.go#L416) |
-| ProjectCopy | function_declaration |  | [437](../../magpie/internal/library/projects.go#L437) |
-| ProjectView | type_spec |  | [449](../../magpie/internal/library/projects.go#L449) |
-| Dir | field_declaration | ProjectView | [450](../../magpie/internal/library/projects.go#L450) |
-| Name | field_declaration | ProjectView | [451](../../magpie/internal/library/projects.go#L451) |
-| Copy | field_declaration | ProjectView | [452](../../magpie/internal/library/projects.go#L452) |
-| Skills | field_declaration | ProjectView | [453](../../magpie/internal/library/projects.go#L453) |
-| Placed | field_declaration | ProjectView | [454](../../magpie/internal/library/projects.go#L454) |
-| Servers | field_declaration | ProjectView | [455](../../magpie/internal/library/projects.go#L455) |
-| Wrote | field_declaration | ProjectView | [457](../../magpie/internal/library/projects.go#L457) |
-| Missing | field_declaration | ProjectView | [458](../../magpie/internal/library/projects.go#L458) |
-| Problems | field_declaration | ProjectView | [460](../../magpie/internal/library/projects.go#L460) |
-| projectViews | function_declaration |  | [463](../../magpie/internal/library/projects.go#L463) |
+| ServersOff | field_declaration | Project | [50](../../magpie/internal/library/projects.go#L50) |
+| SkillsOff | field_declaration | Project | [51](../../magpie/internal/library/projects.go#L51) |
+| Claude | field_declaration | Project | [54](../../magpie/internal/library/projects.go#L54) |
+| CodexOff | field_declaration | Project | [58](../../magpie/internal/library/projects.go#L58) |
+| Overrides | field_declaration | Project | [59](../../magpie/internal/library/projects.go#L59) |
+| Trees | field_declaration | Project | [62](../../magpie/internal/library/projects.go#L62) |
+| projectSkillsDirs | var_spec |  | [86](../../magpie/internal/library/projects.go#L86) |
+| ProjectSkillsDir | function_declaration |  | [110](../../magpie/internal/library/projects.go#L110) |
+| project | method_declaration |  | [112](../../magpie/internal/library/projects.go#L112) |
+| ignoreBegin | const_spec |  | [123](../../magpie/internal/library/projects.go#L123) |
+| ignoreEnd | const_spec |  | [124](../../magpie/internal/library/projects.go#L124) |
+| syncProjects | method_declaration |  | [128](../../magpie/internal/library/projects.go#L128) |
+| syncProject | method_declaration |  | [134](../../magpie/internal/library/projects.go#L134) |
+| syncFolder | method_declaration |  | [155](../../magpie/internal/library/projects.go#L155) |
+| placed | var_spec | syncFolder | [170](../../magpie/internal/library/projects.go#L170) |
+| keepOutOfGit | method_declaration |  | [219](../../magpie/internal/library/projects.go#L219) |
+| errForeign | var_spec |  | [235](../../magpie/internal/library/projects.go#L235) |
+| place | method_declaration |  | [239](../../magpie/internal/library/projects.go#L239) |
+| mkdirs | method_declaration |  | [274](../../magpie/internal/library/projects.go#L274) |
+| made | var_spec | mkdirs | [275](../../magpie/internal/library/projects.go#L275) |
+| tidy | method_declaration |  | [296](../../magpie/internal/library/projects.go#L296) |
+| kept | var_spec | tidy | [298](../../magpie/internal/library/projects.go#L298) |
+| writeIgnore | method_declaration |  | [318](../../magpie/internal/library/projects.go#L318) |
+| stripIgnore | function_declaration |  | [345](../../magpie/internal/library/projects.go#L345) |
+| AddProject | function_declaration |  | [350](../../magpie/internal/library/projects.go#L350) |
+| notGlobal | function_declaration |  | [378](../../magpie/internal/library/projects.go#L378) |
+| ProjectPath | function_declaration |  | [407](../../magpie/internal/library/projects.go#L407) |
+| ProjectAt | function_declaration |  | [417](../../magpie/internal/library/projects.go#L417) |
+| RemoveProject | function_declaration |  | [445](../../magpie/internal/library/projects.go#L445) |
+| ProjectSkill | function_declaration |  | [479](../../magpie/internal/library/projects.go#L479) |
+| ProjectSkills | function_declaration |  | [487](../../magpie/internal/library/projects.go#L487) |
+| ids | var_spec | ProjectSkills | [501](../../magpie/internal/library/projects.go#L501) |
+| ProjectCopy | function_declaration |  | [524](../../magpie/internal/library/projects.go#L524) |
+| ProjectView | type_spec |  | [536](../../magpie/internal/library/projects.go#L536) |
+| Dir | field_declaration | ProjectView | [537](../../magpie/internal/library/projects.go#L537) |
+| Name | field_declaration | ProjectView | [538](../../magpie/internal/library/projects.go#L538) |
+| Copy | field_declaration | ProjectView | [539](../../magpie/internal/library/projects.go#L539) |
+| Skills | field_declaration | ProjectView | [540](../../magpie/internal/library/projects.go#L540) |
+| Placed | field_declaration | ProjectView | [541](../../magpie/internal/library/projects.go#L541) |
+| Servers | field_declaration | ProjectView | [542](../../magpie/internal/library/projects.go#L542) |
+| Wrote | field_declaration | ProjectView | [544](../../magpie/internal/library/projects.go#L544) |
+| ServersOff | field_declaration | ProjectView | [547](../../magpie/internal/library/projects.go#L547) |
+| SkillsOff | field_declaration | ProjectView | [548](../../magpie/internal/library/projects.go#L548) |
+| Trees | field_declaration | ProjectView | [551](../../magpie/internal/library/projects.go#L551) |
+| Missing | field_declaration | ProjectView | [552](../../magpie/internal/library/projects.go#L552) |
+| Problems | field_declaration | ProjectView | [554](../../magpie/internal/library/projects.go#L554) |
+| projectViews | function_declaration |  | [557](../../magpie/internal/library/projects.go#L557) |

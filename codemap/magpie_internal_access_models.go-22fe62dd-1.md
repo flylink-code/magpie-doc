@@ -4,17 +4,29 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/access/models.go) · page 1/1
 
-Source SHA-256: 74533197e82167ac4f43c0d66f2981891618a3d941e6fef9fd4800d1759cf9e3
+Source SHA-256: ac2349d5eea40bf35c30ccdac5e5f41343ba154d00c44c153cba336eb361ea79
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CleanModels | function_declaration |  | [15](../../magpie/internal/access/models.go#L15) |
-| out | var_spec | CleanModels | [16](../../magpie/internal/access/models.go#L16) |
-| Restricted | method_declaration |  | [37](../../magpie/internal/access/models.go#L37) |
-| Allows | method_declaration |  | [42](../../magpie/internal/access/models.go#L42) |
-| ModelAllowed | function_declaration |  | [57](../../magpie/internal/access/models.go#L57) |
-| globs | var_spec |  | [75](../../magpie/internal/access/models.go#L75) |
-| m | field_declaration | globs | [77](../../magpie/internal/access/models.go#L77) |
-| maxGlobs | const_spec |  | [80](../../magpie/internal/access/models.go#L80) |
-| globRe | function_declaration |  | [82](../../magpie/internal/access/models.go#L82) |
-| compileGlob | function_declaration |  | [99](../../magpie/internal/access/models.go#L99) |
+| CleanModels | function_declaration |  | [18](../../magpie/internal/access/models.go#L18) |
+| out | var_spec | CleanModels | [19](../../magpie/internal/access/models.go#L19) |
+| HeldModels | function_declaration |  | [57](../../magpie/internal/access/models.go#L57) |
+| out | var_spec | HeldModels | [61](../../magpie/internal/access/models.go#L61) |
+| Restricted | method_declaration |  | [81](../../magpie/internal/access/models.go#L81) |
+| Allows | method_declaration |  | [86](../../magpie/internal/access/models.go#L86) |
+| ModelAllowed | function_declaration |  | [102](../../magpie/internal/access/models.go#L102) |
+| globs | var_spec |  | [126](../../magpie/internal/access/models.go#L126) |
+| m | field_declaration | globs | [128](../../magpie/internal/access/models.go#L128) |
+| maxGlobs | const_spec |  | [131](../../magpie/internal/access/models.go#L131) |
+| globRe | function_declaration |  | [133](../../magpie/internal/access/models.go#L133) |
+| compileGlob | function_declaration |  | [150](../../magpie/internal/access/models.go#L150) |
+| PatternPrefix | const_spec |  | [165](../../magpie/internal/access/models.go#L165) |
+| IsPattern | function_declaration |  | [168](../../magpie/internal/access/models.go#L168) |
+| compilePattern | function_declaration |  | [172](../../magpie/internal/access/models.go#L172) |
+| patterns | var_spec |  | [180](../../magpie/internal/access/models.go#L180) |
+| m | field_declaration | patterns | [182](../../magpie/internal/access/models.go#L182) |
+| patternMatches | function_declaration |  | [188](../../magpie/internal/access/models.go#L188) |
+| MaxAliases | const_spec |  | [217](../../magpie/internal/access/models.go#L217) |
+| CleanAliases | function_declaration |  | [223](../../magpie/internal/access/models.go#L223) |
+| AliasFor | method_declaration |  | [257](../../magpie/internal/access/models.go#L257) |
+| AliasOf | method_declaration |  | [267](../../magpie/internal/access/models.go#L267) |

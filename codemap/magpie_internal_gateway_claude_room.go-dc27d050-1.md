@@ -4,48 +4,49 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_room.go) · page 1/1
 
-Source SHA-256: a8b2cbf25854b07b5e1e308b4e9197f71e92730c5606b05514dd6f5fbe8e7caa
+Source SHA-256: 004d8cf0bd779c9754217ac93ee05b6feb178184e1824c54b0fa718b2f8ee44a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeRoomT | type_spec |  | [31](../../magpie/internal/gateway/claude_room.go#L31) |
-| mu | field_declaration | claudeRoomT | [32](../../magpie/internal/gateway/claude_room.go#L32) |
-| live | field_declaration | claudeRoomT | [36](../../magpie/internal/gateway/claude_room.go#L36) |
-| freed | field_declaration | claudeRoomT | [39](../../magpie/internal/gateway/claude_room.go#L39) |
-| claudeRoom | var_spec |  | [42](../../magpie/internal/gateway/claude_room.go#L42) |
-| claudeRoomWait | var_spec |  | [46](../../magpie/internal/gateway/claude_room.go#L46) |
-| claudeFull | type_spec |  | [49](../../magpie/internal/gateway/claude_room.go#L49) |
-| live | field_declaration | claudeFull | [50](../../magpie/internal/gateway/claude_room.go#L50) |
-| why | field_declaration | claudeFull | [51](../../magpie/internal/gateway/claude_room.go#L51) |
-| waited | field_declaration | claudeFull | [52](../../magpie/internal/gateway/claude_room.go#L52) |
-| claudeNoRoomSaid | const_spec |  | [57](../../magpie/internal/gateway/claude_room.go#L57) |
-| claudeNoRoom | function_declaration |  | [61](../../magpie/internal/gateway/claude_room.go#L61) |
-| Error | method_declaration |  | [65](../../magpie/internal/gateway/claude_room.go#L65) |
-| claudeRunsMost | function_declaration |  | [74](../../magpie/internal/gateway/claude_room.go#L74) |
-| ClaudeMemRuns | function_declaration |  | [83](../../magpie/internal/gateway/claude_room.go#L83) |
-| claudeRunMiB | const_spec |  | [89](../../magpie/internal/gateway/claude_room.go#L89) |
-| claudeReserveMiB | const_spec |  | [90](../../magpie/internal/gateway/claude_room.go#L90) |
-| memRuns | var_spec |  | [93](../../magpie/internal/gateway/claude_room.go#L93) |
-| known | field_declaration | memRuns | [95](../../magpie/internal/gateway/claude_room.go#L95) |
-| n | field_declaration | memRuns | [96](../../magpie/internal/gateway/claude_room.go#L96) |
-| why | field_declaration | memRuns | [97](../../magpie/internal/gateway/claude_room.go#L97) |
-| claudeMemRuns | function_declaration |  | [106](../../magpie/internal/gateway/claude_room.go#L106) |
-| runsFor | function_declaration |  | [121](../../magpie/internal/gateway/claude_room.go#L121) |
-| memGOOS | var_spec |  | [128](../../magpie/internal/gateway/claude_room.go#L128) |
-| memRoot | var_spec |  | [129](../../magpie/internal/gateway/claude_room.go#L129) |
-| memLimit | function_declaration |  | [134](../../magpie/internal/gateway/claude_room.go#L134) |
-| limit | var_spec | memLimit | [138](../../magpie/internal/gateway/claude_room.go#L138) |
-| why | var_spec | memLimit | [139](../../magpie/internal/gateway/claude_room.go#L139) |
-| readLimit | function_declaration |  | [193](../../magpie/internal/gateway/claude_room.go#L193) |
-| take | method_declaration |  | [210](../../magpie/internal/gateway/claude_room.go#L210) |
-| deadline | var_spec | take | [211](../../magpie/internal/gateway/claude_room.go#L211) |
-| timer | var_spec | take | [212](../../magpie/internal/gateway/claude_room.go#L212) |
-| leave | method_declaration |  | [266](../../magpie/internal/gateway/claude_room.go#L266) |
-| roomLook | var_spec |  | [274](../../magpie/internal/gateway/claude_room.go#L274) |
-| nudge | method_declaration |  | [278](../../magpie/internal/gateway/claude_room.go#L278) |
-| release | method_declaration |  | [288](../../magpie/internal/gateway/claude_room.go#L288) |
-| letGoForRoom | function_declaration |  | [304](../../magpie/internal/gateway/claude_room.go#L304) |
-| idle | var_spec | letGoForRoom | [305](../../magpie/internal/gateway/claude_room.go#L305) |
-| parkedAt | var_spec | letGoForRoom | [306](../../magpie/internal/gateway/claude_room.go#L306) |
-| idleBridge | var_spec | letGoForRoom | [307](../../magpie/internal/gateway/claude_room.go#L307) |
-| idleKey | var_spec | letGoForRoom | [308](../../magpie/internal/gateway/claude_room.go#L308) |
+| claudeRoomT | type_spec |  | [32](../../magpie/internal/gateway/claude_room.go#L32) |
+| mu | field_declaration | claudeRoomT | [33](../../magpie/internal/gateway/claude_room.go#L33) |
+| live | field_declaration | claudeRoomT | [37](../../magpie/internal/gateway/claude_room.go#L37) |
+| freed | field_declaration | claudeRoomT | [40](../../magpie/internal/gateway/claude_room.go#L40) |
+| claudeRoom | var_spec |  | [43](../../magpie/internal/gateway/claude_room.go#L43) |
+| claudeRoomWait | var_spec |  | [47](../../magpie/internal/gateway/claude_room.go#L47) |
+| claudeFull | type_spec |  | [50](../../magpie/internal/gateway/claude_room.go#L50) |
+| live | field_declaration | claudeFull | [51](../../magpie/internal/gateway/claude_room.go#L51) |
+| why | field_declaration | claudeFull | [52](../../magpie/internal/gateway/claude_room.go#L52) |
+| waited | field_declaration | claudeFull | [53](../../magpie/internal/gateway/claude_room.go#L53) |
+| claudeNoRoomSaid | const_spec |  | [58](../../magpie/internal/gateway/claude_room.go#L58) |
+| claudeNoRoom | function_declaration |  | [62](../../magpie/internal/gateway/claude_room.go#L62) |
+| Error | method_declaration |  | [66](../../magpie/internal/gateway/claude_room.go#L66) |
+| claudeRunsMost | function_declaration |  | [75](../../magpie/internal/gateway/claude_room.go#L75) |
+| ClaudeMemRuns | function_declaration |  | [84](../../magpie/internal/gateway/claude_room.go#L84) |
+| claudeRunMiB | const_spec |  | [90](../../magpie/internal/gateway/claude_room.go#L90) |
+| claudeReserveMiB | const_spec |  | [91](../../magpie/internal/gateway/claude_room.go#L91) |
+| memRuns | var_spec |  | [94](../../magpie/internal/gateway/claude_room.go#L94) |
+| known | field_declaration | memRuns | [96](../../magpie/internal/gateway/claude_room.go#L96) |
+| n | field_declaration | memRuns | [97](../../magpie/internal/gateway/claude_room.go#L97) |
+| why | field_declaration | memRuns | [98](../../magpie/internal/gateway/claude_room.go#L98) |
+| claudeMemRuns | function_declaration |  | [107](../../magpie/internal/gateway/claude_room.go#L107) |
+| runsFor | function_declaration |  | [122](../../magpie/internal/gateway/claude_room.go#L122) |
+| memGOOS | var_spec |  | [129](../../magpie/internal/gateway/claude_room.go#L129) |
+| memRoot | var_spec |  | [130](../../magpie/internal/gateway/claude_room.go#L130) |
+| memOwn | function_declaration |  | [138](../../magpie/internal/gateway/claude_room.go#L138) |
+| memLimit | function_declaration |  | [142](../../magpie/internal/gateway/claude_room.go#L142) |
+| limit | var_spec | memLimit | [146](../../magpie/internal/gateway/claude_room.go#L146) |
+| why | var_spec | memLimit | [147](../../magpie/internal/gateway/claude_room.go#L147) |
+| readLimit | function_declaration |  | [204](../../magpie/internal/gateway/claude_room.go#L204) |
+| take | method_declaration |  | [221](../../magpie/internal/gateway/claude_room.go#L221) |
+| deadline | var_spec | take | [222](../../magpie/internal/gateway/claude_room.go#L222) |
+| timer | var_spec | take | [223](../../magpie/internal/gateway/claude_room.go#L223) |
+| leave | method_declaration |  | [277](../../magpie/internal/gateway/claude_room.go#L277) |
+| roomLook | var_spec |  | [285](../../magpie/internal/gateway/claude_room.go#L285) |
+| nudge | method_declaration |  | [289](../../magpie/internal/gateway/claude_room.go#L289) |
+| release | method_declaration |  | [299](../../magpie/internal/gateway/claude_room.go#L299) |
+| letGoForRoom | function_declaration |  | [315](../../magpie/internal/gateway/claude_room.go#L315) |
+| idle | var_spec | letGoForRoom | [316](../../magpie/internal/gateway/claude_room.go#L316) |
+| parkedAt | var_spec | letGoForRoom | [317](../../magpie/internal/gateway/claude_room.go#L317) |
+| idleBridge | var_spec | letGoForRoom | [318](../../magpie/internal/gateway/claude_room.go#L318) |
+| idleKey | var_spec | letGoForRoom | [319](../../magpie/internal/gateway/claude_room.go#L319) |

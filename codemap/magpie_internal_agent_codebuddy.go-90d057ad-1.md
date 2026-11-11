@@ -4,11 +4,11 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codebuddy.go) · page 1/1
 
-Source SHA-256: e2aa39738d406d70c68eb7cf3db4a3d19731bbc25eee6c8103c0b405e4013abb
+Source SHA-256: bd0ca087f0c469dbabc62141e77d80e7bd902c066607ac1b7c1dda20725d49ed
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codebuddy | function_declaration |  | [29](../../magpie/internal/agent/codebuddy.go#L29) |
-| codebuddyIn | function_declaration |  | [35](../../magpie/internal/agent/codebuddy.go#L35) |
-| out | var_spec | codebuddyIn | [91](../../magpie/internal/agent/codebuddy.go#L91) |
-| noticeCodebuddy | var_spec |  | [103](../../magpie/internal/agent/codebuddy.go#L103) |
+| codebuddy | function_declaration |  | [39](../../magpie/internal/agent/codebuddy.go#L39) |
+| codebuddyIn | function_declaration |  | [45](../../magpie/internal/agent/codebuddy.go#L45) |
+| out | var_spec | codebuddyIn | [103](../../magpie/internal/agent/codebuddy.go#L103) |
+| noticeCodebuddy | var_spec |  | [115](../../magpie/internal/agent/codebuddy.go#L115) |

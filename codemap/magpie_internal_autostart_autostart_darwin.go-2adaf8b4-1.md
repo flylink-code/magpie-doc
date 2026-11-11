@@ -4,25 +4,25 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/autostart/autostart_darwin.go) · page 1/1
 
-Source SHA-256: d664d6009d3f9d75874053ad4b776e4561f2b577600e422e4f01a84f31bf390a
+Source SHA-256: c7ed7797d4f4bbe74694ea3bff607da2a2c21448cf010324813cc55253e599f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| label | const_spec |  | [14](../../magpie/internal/autostart/autostart_darwin.go#L14) |
-| record | function_declaration |  | [16](../../magpie/internal/autostart/autostart_darwin.go#L16) |
-| ourLabel | var_spec |  | [24](../../magpie/internal/autostart/autostart_darwin.go#L24) |
-| enabled | function_declaration |  | [26](../../magpie/internal/autostart/autostart_darwin.go#L26) |
-| smNotRegistered | const_spec |  | [39](../../magpie/internal/autostart/autostart_darwin.go#L39) |
-| smEnabled | const_spec |  | [40](../../magpie/internal/autostart/autostart_darwin.go#L40) |
-| smRequiresApproval | const_spec |  | [41](../../magpie/internal/autostart/autostart_darwin.go#L41) |
-| smNotFound | const_spec |  | [42](../../magpie/internal/autostart/autostart_darwin.go#L42) |
-| smUnknown | const_spec |  | [44](../../magpie/internal/autostart/autostart_darwin.go#L44) |
-| legacyStatus | var_spec |  | [49](../../magpie/internal/autostart/autostart_darwin.go#L49) |
-| heldBack | function_declaration |  | [54](../../magpie/internal/autostart/autostart_darwin.go#L54) |
-| enable | function_declaration |  | [58](../../magpie/internal/autostart/autostart_darwin.go#L58) |
-| plist | function_declaration |  | [74](../../magpie/internal/autostart/autostart_darwin.go#L74) |
-| bundleID | var_spec |  | [91](../../magpie/internal/autostart/autostart_darwin.go#L91) |
-| associated | function_declaration |  | [97](../../magpie/internal/autostart/autostart_darwin.go#L97) |
-| program | var_spec |  | [115](../../magpie/internal/autostart/autostart_darwin.go#L115) |
-| refresh | function_declaration |  | [120](../../magpie/internal/autostart/autostart_darwin.go#L120) |
-| disable | function_declaration |  | [141](../../magpie/internal/autostart/autostart_darwin.go#L141) |
+| label | const_spec |  | [15](../../magpie/internal/autostart/autostart_darwin.go#L15) |
+| record | function_declaration |  | [17](../../magpie/internal/autostart/autostart_darwin.go#L17) |
+| ourLabel | var_spec |  | [25](../../magpie/internal/autostart/autostart_darwin.go#L25) |
+| enabled | function_declaration |  | [27](../../magpie/internal/autostart/autostart_darwin.go#L27) |
+| smNotRegistered | const_spec |  | [40](../../magpie/internal/autostart/autostart_darwin.go#L40) |
+| smEnabled | const_spec |  | [41](../../magpie/internal/autostart/autostart_darwin.go#L41) |
+| smRequiresApproval | const_spec |  | [42](../../magpie/internal/autostart/autostart_darwin.go#L42) |
+| smNotFound | const_spec |  | [43](../../magpie/internal/autostart/autostart_darwin.go#L43) |
+| smUnknown | const_spec |  | [45](../../magpie/internal/autostart/autostart_darwin.go#L45) |
+| legacyStatus | var_spec |  | [50](../../magpie/internal/autostart/autostart_darwin.go#L50) |
+| heldBack | function_declaration |  | [55](../../magpie/internal/autostart/autostart_darwin.go#L55) |
+| enable | function_declaration |  | [59](../../magpie/internal/autostart/autostart_darwin.go#L59) |
+| plist | function_declaration |  | [75](../../magpie/internal/autostart/autostart_darwin.go#L75) |
+| bundleID | var_spec |  | [92](../../magpie/internal/autostart/autostart_darwin.go#L92) |
+| associated | function_declaration |  | [98](../../magpie/internal/autostart/autostart_darwin.go#L98) |
+| program | var_spec |  | [116](../../magpie/internal/autostart/autostart_darwin.go#L116) |
+| refresh | function_declaration |  | [121](../../magpie/internal/autostart/autostart_darwin.go#L121) |
+| disable | function_declaration |  | [142](../../magpie/internal/autostart/autostart_darwin.go#L142) |

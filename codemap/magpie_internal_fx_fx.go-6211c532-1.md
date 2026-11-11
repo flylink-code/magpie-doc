@@ -4,7 +4,7 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/fx/fx.go) · page 1/1
 
-Source SHA-256: 4ef29b09476280587cd0688256e04ca94b0d697bede0c2990f8561456f979407
+Source SHA-256: 6050878b1be60508ddf0d3b0e706ed277d7d9617f8e58fee81be9b383725bbb8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,12 +25,14 @@ Source SHA-256: 4ef29b09476280587cd0688256e04ca94b0d697bede0c2990f8561456f979407
 | getAt | function_declaration |  | [81](../../magpie/internal/fx/fx.go#L81) |
 | refreshing | var_spec |  | [130](../../magpie/internal/fx/fx.go#L130) |
 | Soon | function_declaration |  | [136](../../magpie/internal/fx/fx.go#L136) |
-| Settle | function_declaration |  | [162](../../magpie/internal/fx/fx.go#L162) |
-| Reset | function_declaration |  | [169](../../magpie/internal/fx/fx.go#L169) |
-| erAPI | type_spec |  | [177](../../magpie/internal/fx/fx.go#L177) |
-| Rates | field_declaration | erAPI | [178](../../magpie/internal/fx/fx.go#L178) |
-| fetchLive | function_declaration |  | [181](../../magpie/internal/fx/fx.go#L181) |
-| v | var_spec | fetchLive | [199](../../magpie/internal/fx/fx.go#L199) |
-| readCache | function_declaration |  | [210](../../magpie/internal/fx/fx.go#L210) |
-| r | var_spec | readCache | [215](../../magpie/internal/fx/fx.go#L215) |
-| writeCache | function_declaration |  | [222](../../magpie/internal/fx/fx.go#L222) |
+| Known | function_declaration |  | [148](../../magpie/internal/fx/fx.go#L148) |
+| r | var_spec | Known | [156](../../magpie/internal/fx/fx.go#L156) |
+| Settle | function_declaration |  | [175](../../magpie/internal/fx/fx.go#L175) |
+| Reset | function_declaration |  | [182](../../magpie/internal/fx/fx.go#L182) |
+| erAPI | type_spec |  | [190](../../magpie/internal/fx/fx.go#L190) |
+| Rates | field_declaration | erAPI | [191](../../magpie/internal/fx/fx.go#L191) |
+| fetchLive | function_declaration |  | [194](../../magpie/internal/fx/fx.go#L194) |
+| v | var_spec | fetchLive | [212](../../magpie/internal/fx/fx.go#L212) |
+| readCache | function_declaration |  | [223](../../magpie/internal/fx/fx.go#L223) |
+| r | var_spec | readCache | [228](../../magpie/internal/fx/fx.go#L228) |
+| writeCache | function_declaration |  | [235](../../magpie/internal/fx/fx.go#L235) |

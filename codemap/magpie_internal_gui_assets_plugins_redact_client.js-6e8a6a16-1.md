@@ -4,12 +4,12 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/redact/client.js) · page 1/1
 
-Source SHA-256: a25c3b829d32703334504aaf8aa7f60cc47450d5a307ad4a7371fe0ca386bda9
+Source SHA-256: 1a212804331a2831d3362e548318f0476277f4bff552ba2b684970776a03687e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| open | MethodDeclaration |  | [21](../../magpie/internal/gui/assets/plugins/redact/client.js#L21) |
-| refresh | MethodDeclaration |  | [22](../../magpie/internal/gui/assets/plugins/redact/client.js#L22) |
-| reload | MethodDeclaration |  | [23](../../magpie/internal/gui/assets/plugins/redact/client.js#L23) |
-| leave | MethodDeclaration |  | [24](../../magpie/internal/gui/assets/plugins/redact/client.js#L24) |
-| focus | MethodDeclaration |  | [25](../../magpie/internal/gui/assets/plugins/redact/client.js#L25) |
+| open | MethodDeclaration |  | [33](../../magpie/internal/gui/assets/plugins/redact/client.js#L33) |
+| refresh | MethodDeclaration |  | [34](../../magpie/internal/gui/assets/plugins/redact/client.js#L34) |
+| reload | MethodDeclaration |  | [35](../../magpie/internal/gui/assets/plugins/redact/client.js#L35) |
+| leave | MethodDeclaration |  | [36](../../magpie/internal/gui/assets/plugins/redact/client.js#L36) |
+| focus | MethodDeclaration |  | [37](../../magpie/internal/gui/assets/plugins/redact/client.js#L37) |

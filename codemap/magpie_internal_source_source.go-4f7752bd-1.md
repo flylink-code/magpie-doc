@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/source/source.go) · page 1/1
 
-Source SHA-256: db00c65429cdb121d22cb041408d77e8df69208bcd82d503bb44a48d2c37d822
+Source SHA-256: fbb5fefc2473a980bd706dd396e0e84fd4f239693d9579e2f51ead25d43dd355
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,20 +16,23 @@ Source SHA-256: db00c65429cdb121d22cb041408d77e8df69208bcd82d503bb44a48d2c37d822
 | NPMMirror | const_spec |  | [33](../../magpie/internal/source/source.go#L33) |
 | China | var_spec |  | [37](../../magpie/internal/source/source.go#L37) |
 | chinaFirst | function_declaration |  | [45](../../magpie/internal/source/source.go#L45) |
-| Enabled | function_declaration |  | [79](../../magpie/internal/source/source.go#L79) |
-| npmBase | function_declaration |  | [87](../../magpie/internal/source/source.go#L87) |
-| githubBase | function_declaration |  | [94](../../magpie/internal/source/source.go#L94) |
-| URLs | function_declaration |  | [104](../../magpie/internal/source/source.go#L104) |
-| faithful | function_declaration |  | [124](../../magpie/internal/source/source.go#L124) |
-| distinct | function_declaration |  | [133](../../magpie/internal/source/source.go#L133) |
-| Do | function_declaration |  | [146](../../magpie/internal/source/source.go#L146) |
-| mirrorable | function_declaration |  | [155](../../magpie/internal/source/source.go#L155) |
-| DoOfficial | function_declaration |  | [184](../../magpie/internal/source/source.go#L184) |
-| DoFaithful | function_declaration |  | [191](../../magpie/internal/source/source.go#L191) |
-| do | function_declaration |  | [198](../../magpie/internal/source/source.go#L198) |
-| last | var_spec | do | [199](../../magpie/internal/source/source.go#L199) |
-| cancel | var_spec | do | [226](../../magpie/internal/source/source.go#L226) |
-| stop | var_spec | do | [227](../../magpie/internal/source/source.go#L227) |
-| candidateContext | function_declaration |  | [264](../../magpie/internal/source/source.go#L264) |
-| d | var_spec | candidateContext | [268](../../magpie/internal/source/source.go#L268) |
-| retryable | function_declaration |  | [282](../../magpie/internal/source/source.go#L282) |
+| ChinaFirst | function_declaration |  | [72](../../magpie/internal/source/source.go#L72) |
+| modelMirror | function_declaration |  | [86](../../magpie/internal/source/source.go#L86) |
+| Enabled | function_declaration |  | [100](../../magpie/internal/source/source.go#L100) |
+| npmBase | function_declaration |  | [108](../../magpie/internal/source/source.go#L108) |
+| githubBase | function_declaration |  | [115](../../magpie/internal/source/source.go#L115) |
+| URLs | function_declaration |  | [127](../../magpie/internal/source/source.go#L127) |
+| faithful | function_declaration |  | [151](../../magpie/internal/source/source.go#L151) |
+| distinct | function_declaration |  | [160](../../magpie/internal/source/source.go#L160) |
+| Do | function_declaration |  | [174](../../magpie/internal/source/source.go#L174) |
+| bare | function_declaration |  | [186](../../magpie/internal/source/source.go#L186) |
+| mirrorable | function_declaration |  | [202](../../magpie/internal/source/source.go#L202) |
+| DoOfficial | function_declaration |  | [231](../../magpie/internal/source/source.go#L231) |
+| DoFaithful | function_declaration |  | [238](../../magpie/internal/source/source.go#L238) |
+| do | function_declaration |  | [245](../../magpie/internal/source/source.go#L245) |
+| last | var_spec | do | [246](../../magpie/internal/source/source.go#L246) |
+| cancel | var_spec | do | [275](../../magpie/internal/source/source.go#L275) |
+| stop | var_spec | do | [276](../../magpie/internal/source/source.go#L276) |
+| candidateContext | function_declaration |  | [313](../../magpie/internal/source/source.go#L313) |
+| d | var_spec | candidateContext | [317](../../magpie/internal/source/source.go#L317) |
+| retryable | function_declaration |  | [331](../../magpie/internal/source/source.go#L331) |

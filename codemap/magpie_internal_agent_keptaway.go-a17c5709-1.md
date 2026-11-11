@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/keptaway.go) · page 1/1
 
-Source SHA-256: d03a488be6516adf4d47f4ec955bce6e7dde73a8a6db7888f355fcf36b00728c
+Source SHA-256: c3374a06eaaf060f6f7789ad408674b37edec96e45330f800ce08ff52ec5518f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -23,11 +23,12 @@ Source SHA-256: d03a488be6516adf4d47f4ec955bce6e7dde73a8a6db7888f355fcf36b00728c
 | keyValues | function_declaration |  | [97](../../magpie/internal/agent/keptaway.go#L97) |
 | out | var_spec | keyValues | [98](../../magpie/internal/agent/keptaway.go#L98) |
 | away | method_declaration |  | [129](../../magpie/internal/agent/keptaway.go#L129) |
-| urlRE | var_spec |  | [211](../../magpie/internal/agent/keptaway.go#L211) |
-| awayPath | function_declaration |  | [218](../../magpie/internal/agent/keptaway.go#L218) |
-| tails | var_spec | awayPath | [219](../../magpie/internal/agent/keptaway.go#L219) |
-| ws | var_spec | awayPath | [225](../../magpie/internal/agent/keptaway.go#L225) |
-| keyCounts | function_declaration |  | [252](../../magpie/internal/agent/keptaway.go#L252) |
-| replaceOrigin | function_declaration |  | [262](../../magpie/internal/agent/keptaway.go#L262) |
-| out | var_spec | replaceOrigin | [263](../../magpie/internal/agent/keptaway.go#L263) |
-| wslHost | function_declaration |  | [282](../../magpie/internal/agent/keptaway.go#L282) |
+| chainPrefix | function_declaration |  | [223](../../magpie/internal/agent/keptaway.go#L223) |
+| urlRE | var_spec |  | [246](../../magpie/internal/agent/keptaway.go#L246) |
+| awayPath | function_declaration |  | [253](../../magpie/internal/agent/keptaway.go#L253) |
+| tails | var_spec | awayPath | [254](../../magpie/internal/agent/keptaway.go#L254) |
+| ws | var_spec | awayPath | [260](../../magpie/internal/agent/keptaway.go#L260) |
+| keyCounts | function_declaration |  | [287](../../magpie/internal/agent/keptaway.go#L287) |
+| replaceOrigin | function_declaration |  | [297](../../magpie/internal/agent/keptaway.go#L297) |
+| out | var_spec | replaceOrigin | [298](../../magpie/internal/agent/keptaway.go#L298) |
+| wslHost | function_declaration |  | [317](../../magpie/internal/agent/keptaway.go#L317) |

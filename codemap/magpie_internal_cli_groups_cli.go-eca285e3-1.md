@@ -4,70 +4,73 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/groups_cli.go) · page 1/1
 
-Source SHA-256: c081a3cc848fe9bce5b9d3c492decfc77ec59ca566d4c014be620742434c43ee
+Source SHA-256: 09ea1429cd4b1c83c56da0c29cc0e0b7162645da5b58e16847e34ba1dd879309
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | groupUsage | const_spec |  | [20](../../magpie/internal/cli/groups_cli.go#L20) |
-| routingNames | var_spec |  | [127](../../magpie/internal/cli/groups_cli.go#L127) |
-| value | field_declaration | routingNames | [128](../../magpie/internal/cli/groups_cli.go#L128) |
-| also | field_declaration | routingNames | [129](../../magpie/internal/cli/groups_cli.go#L129) |
-| staysNames | var_spec |  | [142](../../magpie/internal/cli/groups_cli.go#L142) |
-| value | field_declaration | staysNames | [143](../../magpie/internal/cli/groups_cli.go#L143) |
-| also | field_declaration | staysNames | [144](../../magpie/internal/cli/groups_cli.go#L144) |
-| parseRouting | function_declaration |  | [153](../../magpie/internal/cli/groups_cli.go#L153) |
-| names | var_spec | parseRouting | [159](../../magpie/internal/cli/groups_cli.go#L159) |
-| parseStays | function_declaration |  | [169](../../magpie/internal/cli/groups_cli.go#L169) |
-| names | var_spec | parseStays | [171](../../magpie/internal/cli/groups_cli.go#L171) |
-| routingName | function_declaration |  | [183](../../magpie/internal/cli/groups_cli.go#L183) |
-| staysName | function_declaration |  | [192](../../magpie/internal/cli/groups_cli.go#L192) |
-| splitList | function_declaration |  | [201](../../magpie/internal/cli/groups_cli.go#L201) |
-| splitIDs | function_declaration |  | [210](../../magpie/internal/cli/groups_cli.go#L210) |
-| out | var_spec | splitIDs | [211](../../magpie/internal/cli/groups_cli.go#L211) |
-| inGroup | function_declaration |  | [226](../../magpie/internal/cli/groups_cli.go#L226) |
-| memberResolver | function_declaration |  | [240](../../magpie/internal/cli/groups_cli.go#L240) |
-| ids | var_spec | memberResolver | [241](../../magpie/internal/cli/groups_cli.go#L241) |
-| resolve | var_spec | memberResolver | [250](../../magpie/internal/cli/groups_cli.go#L250) |
-| closeMatches | function_declaration |  | [316](../../magpie/internal/cli/groups_cli.go#L316) |
-| hit | type_spec | closeMatches | [321](../../magpie/internal/cli/groups_cli.go#L321) |
-| id | field_declaration | closeMatches::hit | [322](../../magpie/internal/cli/groups_cli.go#L322) |
-| d | field_declaration | closeMatches::hit | [323](../../magpie/internal/cli/groups_cli.go#L323) |
-| hits | var_spec | closeMatches | [325](../../magpie/internal/cli/groups_cli.go#L325) |
-| out | var_spec | closeMatches | [338](../../magpie/internal/cli/groups_cli.go#L338) |
-| editDistance | function_declaration |  | [348](../../magpie/internal/cli/groups_cli.go#L348) |
-| applyGroupPairs | function_declaration |  | [370](../../magpie/internal/cli/groups_cli.go#L370) |
-| patterns | var_spec | applyGroupPairs | [373](../../magpie/internal/cli/groups_cli.go#L373) |
-| out | var_spec | applyGroupPairs | [375](../../magpie/internal/cli/groups_cli.go#L375) |
-| err | var_spec | applyGroupPairs | [401](../../magpie/internal/cli/groups_cli.go#L401) |
-| add | var_spec | applyGroupPairs | [416](../../magpie/internal/cli/groups_cli.go#L416) |
-| by | var_spec | applyGroupPairs | [458](../../magpie/internal/cli/groups_cli.go#L458) |
-| pickMember | function_declaration |  | [567](../../magpie/internal/cli/groups_cli.go#L567) |
-| hits | var_spec | pickMember | [572](../../magpie/internal/cli/groups_cli.go#L572) |
-| findGroup | function_declaration |  | [588](../../magpie/internal/cli/groups_cli.go#L588) |
-| ids | var_spec | findGroup | [600](../../magpie/internal/cli/groups_cli.go#L600) |
-| newGroupID | function_declaration |  | [614](../../magpie/internal/cli/groups_cli.go#L614) |
-| groupCmd | function_declaration |  | [631](../../magpie/internal/cli/groups_cli.go#L631) |
-| addGroup | function_declaration |  | [753](../../magpie/internal/cli/groups_cli.go#L753) |
-| setGroup | function_declaration |  | [785](../../magpie/internal/cli/groups_cli.go#L785) |
-| removedOnly | function_declaration |  | [820](../../magpie/internal/cli/groups_cli.go#L820) |
-| removeGroups | function_declaration |  | [831](../../magpie/internal/cli/groups_cli.go#L831) |
-| gs | var_spec | removeGroups | [836](../../magpie/internal/cli/groups_cli.go#L836) |
-| ids | var_spec | removeGroups | [837](../../magpie/internal/cli/groups_cli.go#L837) |
-| removeGroup | function_declaration |  | [851](../../magpie/internal/cli/groups_cli.go#L851) |
-| restoreGroup | function_declaration |  | [865](../../magpie/internal/cli/groups_cli.go#L865) |
-| groupUses | function_declaration |  | [884](../../magpie/internal/cli/groups_cli.go#L884) |
-| memberLabel | function_declaration |  | [903](../../magpie/internal/cli/groups_cli.go#L903) |
-| typedMember | function_declaration |  | [928](../../magpie/internal/cli/groups_cli.go#L928) |
-| catalogByID | function_declaration |  | [935](../../magpie/internal/cli/groups_cli.go#L935) |
-| autoGroupsCmd | function_declaration |  | [949](../../magpie/internal/cli/groups_cli.go#L949) |
-| on | var_spec | autoGroupsCmd | [958](../../magpie/internal/cli/groups_cli.go#L958) |
-| groups | function_declaration |  | [982](../../magpie/internal/cli/groups_cli.go#L982) |
-| shown | var_spec | groups | [984](../../magpie/internal/cli/groups_cli.go#L984) |
-| row | type_spec | groups | [1004](../../magpie/internal/cli/groups_cli.go#L1004) |
-| name | field_declaration | groups::row | [1004](../../magpie/internal/cli/groups_cli.go#L1004) |
-| rows | var_spec | groups | [1005](../../magpie/internal/cli/groups_cli.go#L1005) |
-| ms | var_spec | groups | [1023](../../magpie/internal/cli/groups_cli.go#L1023) |
-| ids | var_spec | groups | [1065](../../magpie/internal/cli/groups_cli.go#L1065) |
-| showGroup | function_declaration |  | [1082](../../magpie/internal/cli/groups_cli.go#L1082) |
-| whyNotServed | function_declaration |  | [1178](../../magpie/internal/cli/groups_cli.go#L1178) |
-| templateCmd | function_declaration |  | [1199](../../magpie/internal/cli/groups_cli.go#L1199) |
+| routingNames | var_spec |  | [146](../../magpie/internal/cli/groups_cli.go#L146) |
+| value | field_declaration | routingNames | [147](../../magpie/internal/cli/groups_cli.go#L147) |
+| also | field_declaration | routingNames | [148](../../magpie/internal/cli/groups_cli.go#L148) |
+| staysNames | var_spec |  | [164](../../magpie/internal/cli/groups_cli.go#L164) |
+| value | field_declaration | staysNames | [165](../../magpie/internal/cli/groups_cli.go#L165) |
+| also | field_declaration | staysNames | [166](../../magpie/internal/cli/groups_cli.go#L166) |
+| parseRouting | function_declaration |  | [175](../../magpie/internal/cli/groups_cli.go#L175) |
+| names | var_spec | parseRouting | [181](../../magpie/internal/cli/groups_cli.go#L181) |
+| parseStays | function_declaration |  | [191](../../magpie/internal/cli/groups_cli.go#L191) |
+| names | var_spec | parseStays | [193](../../magpie/internal/cli/groups_cli.go#L193) |
+| routingName | function_declaration |  | [205](../../magpie/internal/cli/groups_cli.go#L205) |
+| staysName | function_declaration |  | [214](../../magpie/internal/cli/groups_cli.go#L214) |
+| splitList | function_declaration |  | [223](../../magpie/internal/cli/groups_cli.go#L223) |
+| splitIDs | function_declaration |  | [232](../../magpie/internal/cli/groups_cli.go#L232) |
+| out | var_spec | splitIDs | [233](../../magpie/internal/cli/groups_cli.go#L233) |
+| inGroup | function_declaration |  | [248](../../magpie/internal/cli/groups_cli.go#L248) |
+| memberResolver | function_declaration |  | [262](../../magpie/internal/cli/groups_cli.go#L262) |
+| ids | var_spec | memberResolver | [263](../../magpie/internal/cli/groups_cli.go#L263) |
+| resolve | var_spec | memberResolver | [272](../../magpie/internal/cli/groups_cli.go#L272) |
+| closeMatches | function_declaration |  | [351](../../magpie/internal/cli/groups_cli.go#L351) |
+| hit | type_spec | closeMatches | [356](../../magpie/internal/cli/groups_cli.go#L356) |
+| id | field_declaration | closeMatches::hit | [357](../../magpie/internal/cli/groups_cli.go#L357) |
+| d | field_declaration | closeMatches::hit | [358](../../magpie/internal/cli/groups_cli.go#L358) |
+| hits | var_spec | closeMatches | [360](../../magpie/internal/cli/groups_cli.go#L360) |
+| out | var_spec | closeMatches | [373](../../magpie/internal/cli/groups_cli.go#L373) |
+| editDistance | function_declaration |  | [383](../../magpie/internal/cli/groups_cli.go#L383) |
+| applyGroupPairs | function_declaration |  | [405](../../magpie/internal/cli/groups_cli.go#L405) |
+| patterns | var_spec | applyGroupPairs | [408](../../magpie/internal/cli/groups_cli.go#L408) |
+| out | var_spec | applyGroupPairs | [410](../../magpie/internal/cli/groups_cli.go#L410) |
+| err | var_spec | applyGroupPairs | [436](../../magpie/internal/cli/groups_cli.go#L436) |
+| add | var_spec | applyGroupPairs | [451](../../magpie/internal/cli/groups_cli.go#L451) |
+| by | var_spec | applyGroupPairs | [493](../../magpie/internal/cli/groups_cli.go#L493) |
+| pickMember | function_declaration |  | [619](../../magpie/internal/cli/groups_cli.go#L619) |
+| hits | var_spec | pickMember | [624](../../magpie/internal/cli/groups_cli.go#L624) |
+| findGroup | function_declaration |  | [640](../../magpie/internal/cli/groups_cli.go#L640) |
+| ids | var_spec | findGroup | [652](../../magpie/internal/cli/groups_cli.go#L652) |
+| newGroupID | function_declaration |  | [666](../../magpie/internal/cli/groups_cli.go#L666) |
+| groupCmd | function_declaration |  | [683](../../magpie/internal/cli/groups_cli.go#L683) |
+| addGroup | function_declaration |  | [805](../../magpie/internal/cli/groups_cli.go#L805) |
+| setGroup | function_declaration |  | [837](../../magpie/internal/cli/groups_cli.go#L837) |
+| removedOnly | function_declaration |  | [875](../../magpie/internal/cli/groups_cli.go#L875) |
+| removeGroups | function_declaration |  | [886](../../magpie/internal/cli/groups_cli.go#L886) |
+| gs | var_spec | removeGroups | [891](../../magpie/internal/cli/groups_cli.go#L891) |
+| ids | var_spec | removeGroups | [892](../../magpie/internal/cli/groups_cli.go#L892) |
+| removeGroup | function_declaration |  | [906](../../magpie/internal/cli/groups_cli.go#L906) |
+| restoreGroup | function_declaration |  | [920](../../magpie/internal/cli/groups_cli.go#L920) |
+| groupUses | function_declaration |  | [939](../../magpie/internal/cli/groups_cli.go#L939) |
+| memberLabel | function_declaration |  | [958](../../magpie/internal/cli/groups_cli.go#L958) |
+| memberAccountName | function_declaration |  | [988](../../magpie/internal/cli/groups_cli.go#L988) |
+| typedMember | function_declaration |  | [997](../../magpie/internal/cli/groups_cli.go#L997) |
+| catalogByID | function_declaration |  | [1005](../../magpie/internal/cli/groups_cli.go#L1005) |
+| autoGroupsCmd | function_declaration |  | [1019](../../magpie/internal/cli/groups_cli.go#L1019) |
+| on | var_spec | autoGroupsCmd | [1031](../../magpie/internal/cli/groups_cli.go#L1031) |
+| autoGroupSkipCmd | function_declaration |  | [1061](../../magpie/internal/cli/groups_cli.go#L1061) |
+| ids | var_spec | autoGroupSkipCmd | [1071](../../magpie/internal/cli/groups_cli.go#L1071) |
+| groups | function_declaration |  | [1098](../../magpie/internal/cli/groups_cli.go#L1098) |
+| shown | var_spec | groups | [1100](../../magpie/internal/cli/groups_cli.go#L1100) |
+| row | type_spec | groups | [1120](../../magpie/internal/cli/groups_cli.go#L1120) |
+| name | field_declaration | groups::row | [1120](../../magpie/internal/cli/groups_cli.go#L1120) |
+| rows | var_spec | groups | [1121](../../magpie/internal/cli/groups_cli.go#L1121) |
+| ms | var_spec | groups | [1139](../../magpie/internal/cli/groups_cli.go#L1139) |
+| ids | var_spec | groups | [1184](../../magpie/internal/cli/groups_cli.go#L1184) |
+| showGroup | function_declaration |  | [1201](../../magpie/internal/cli/groups_cli.go#L1201) |
+| whyNotServed | function_declaration |  | [1303](../../magpie/internal/cli/groups_cli.go#L1303) |
+| templateCmd | function_declaration |  | [1324](../../magpie/internal/cli/groups_cli.go#L1324) |

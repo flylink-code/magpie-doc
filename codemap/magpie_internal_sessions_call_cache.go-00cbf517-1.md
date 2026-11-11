@@ -4,92 +4,100 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/call_cache.go) · page 1/1
 
-Source SHA-256: 8d5c5ba94aa6179f05a99f1b0f38243d8c36cf14a004d374e73d36acae14bbb5
+Source SHA-256: db1012e143a0e585601c12dab0844c7e735cb5287c84243e07eb4e8bd33a9b61
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| callCacheVersion | const_spec |  | [46](../../magpie/internal/sessions/call_cache.go#L46) |
-| CallCacheVersion | const_spec |  | [50](../../magpie/internal/sessions/call_cache.go#L50) |
-| maxKeptCalls | const_spec |  | [51](../../magpie/internal/sessions/call_cache.go#L51) |
-| maxKeptFiles | const_spec |  | [52](../../magpie/internal/sessions/call_cache.go#L52) |
-| callsMu | var_spec |  | [54](../../magpie/internal/sessions/call_cache.go#L54) |
-| callIO | var_spec |  | [55](../../magpie/internal/sessions/call_cache.go#L55) |
-| callGeneration | var_spec |  | [56](../../magpie/internal/sessions/call_cache.go#L56) |
-| callCache | var_spec |  | [57](../../magpie/internal/sessions/call_cache.go#L57) |
-| callCounts | var_spec |  | [58](../../magpie/internal/sessions/call_cache.go#L58) |
-| callOrder | var_spec |  | [59](../../magpie/internal/sessions/call_cache.go#L59) |
-| callRoot | var_spec |  | [60](../../magpie/internal/sessions/call_cache.go#L60) |
-| callSwept | var_spec |  | [67](../../magpie/internal/sessions/call_cache.go#L67) |
-| callSweepEvery | const_spec |  | [69](../../magpie/internal/sessions/call_cache.go#L69) |
-| callCacheDir | function_declaration |  | [71](../../magpie/internal/sessions/call_cache.go#L71) |
-| callCachePath | function_declaration |  | [72](../../magpie/internal/sessions/call_cache.go#L72) |
-| resetCalls | function_declaration |  | [74](../../magpie/internal/sessions/call_cache.go#L74) |
-| pruneCalls | function_declaration |  | [96](../../magpie/internal/sessions/call_cache.go#L96) |
-| keepCalls | function_declaration |  | [177](../../magpie/internal/sessions/call_cache.go#L177) |
-| wholeCallReaders | var_spec |  | [210](../../magpie/internal/sessions/call_cache.go#L210) |
-| resumeCallReaders | var_spec |  | [227](../../magpie/internal/sessions/call_cache.go#L227) |
-| lineCallReader | type_spec |  | [239](../../magpie/internal/sessions/call_cache.go#L239) |
-| begin | field_declaration | lineCallReader | [240](../../magpie/internal/sessions/call_cache.go#L240) |
-| line | field_declaration | lineCallReader | [241](../../magpie/internal/sessions/call_cache.go#L241) |
-| kept | field_declaration | lineCallReader | [242](../../magpie/internal/sessions/call_cache.go#L242) |
-| lineCallReaders | var_spec |  | [247](../../magpie/internal/sessions/call_cache.go#L247) |
-| callLock | function_declaration |  | [255](../../magpie/internal/sessions/call_cache.go#L255) |
-| readCalls | function_declaration |  | [261](../../magpie/internal/sessions/call_cache.go#L261) |
-| callsRide | type_spec |  | [380](../../magpie/internal/sessions/call_cache.go#L380) |
-| f | field_declaration | callsRide | [381](../../magpie/internal/sessions/call_cache.go#L381) |
-| st | field_declaration | callsRide | [382](../../magpie/internal/sessions/call_cache.go#L382) |
-| generation | field_declaration | callsRide | [383](../../magpie/internal/sessions/call_cache.go#L383) |
-| lock | field_declaration | callsRide | [384](../../magpie/internal/sessions/call_cache.go#L384) |
-| sum | field_declaration | callsRide | [385](../../magpie/internal/sessions/call_cache.go#L385) |
-| callsAlong | function_declaration |  | [392](../../magpie/internal/sessions/call_cache.go#L392) |
-| ride | method_declaration |  | [414](../../magpie/internal/sessions/call_cache.go#L414) |
-| release | method_declaration |  | [432](../../magpie/internal/sessions/call_cache.go#L432) |
-| finish | method_declaration |  | [436](../../magpie/internal/sessions/call_cache.go#L436) |
-| callPatch | type_spec |  | [453](../../magpie/internal/sessions/call_cache.go#L453) |
-| Index | field_declaration | callPatch | [454](../../magpie/internal/sessions/call_cache.go#L454) |
-| Call | field_declaration | callPatch | [455](../../magpie/internal/sessions/call_cache.go#L455) |
-| Text | field_declaration | callPatch | [456](../../magpie/internal/sessions/call_cache.go#L456) |
-| Began | field_declaration | callPatch | [457](../../magpie/internal/sessions/call_cache.go#L457) |
-| callFrame | type_spec |  | [459](../../magpie/internal/sessions/call_cache.go#L459) |
-| State | field_declaration | callFrame | [460](../../magpie/internal/sessions/call_cache.go#L460) |
-| Strings | field_declaration | callFrame | [461](../../magpie/internal/sessions/call_cache.go#L461) |
-| Patches | field_declaration | callFrame | [462](../../magpie/internal/sessions/call_cache.go#L462) |
-| More | field_declaration | callFrame | [465](../../magpie/internal/sessions/call_cache.go#L465) |
-| Calls | field_declaration | callFrame | [468](../../magpie/internal/sessions/call_cache.go#L468) |
-| framePatches | const_spec |  | [478](../../magpie/internal/sessions/call_cache.go#L478) |
-| callDiskState | type_spec |  | [483](../../magpie/internal/sessions/call_cache.go#L483) |
-| ContentHash | field_declaration | callDiskState | [484](../../magpie/internal/sessions/call_cache.go#L484) |
-| Size | field_declaration | callDiskState | [485](../../magpie/internal/sessions/call_cache.go#L485) |
-| Head | field_declaration | callDiskState | [486](../../magpie/internal/sessions/call_cache.go#L486) |
-| HeadSize | field_declaration | callDiskState | [487](../../magpie/internal/sessions/call_cache.go#L487) |
-| Path | field_declaration | callDiskState | [488](../../magpie/internal/sessions/call_cache.go#L488) |
-| At | field_declaration | callDiskState | [489](../../magpie/internal/sessions/call_cache.go#L489) |
-| Session | field_declaration | callDiskState | [490](../../magpie/internal/sessions/call_cache.go#L490) |
-| LastUser | field_declaration | callDiskState | [491](../../magpie/internal/sessions/call_cache.go#L491) |
-| Dsh | field_declaration | callDiskState | [493](../../magpie/internal/sessions/call_cache.go#L493) |
-| PiOn | field_declaration | callDiskState | [495](../../magpie/internal/sessions/call_cache.go#L495) |
-| PiCwd | field_declaration | callDiskState | [496](../../magpie/internal/sessions/call_cache.go#L496) |
-| PiSince | field_declaration | callDiskState | [497](../../magpie/internal/sessions/call_cache.go#L497) |
-| PiProvider | field_declaration | callDiskState | [498](../../magpie/internal/sessions/call_cache.go#L498) |
-| diskCallState | function_declaration |  | [501](../../magpie/internal/sessions/call_cache.go#L501) |
-| restore | method_declaration |  | [513](../../magpie/internal/sessions/call_cache.go#L513) |
-| c | var_spec | restore | [518](../../magpie/internal/sessions/call_cache.go#L518) |
-| callText | function_declaration |  | [529](../../magpie/internal/sessions/call_cache.go#L529) |
-| frameBuffer | type_spec |  | [539](../../magpie/internal/sessions/call_cache.go#L539) |
-| data | field_declaration | frameBuffer | [540](../../magpie/internal/sessions/call_cache.go#L540) |
-| f | field_declaration | frameBuffer | [541](../../magpie/internal/sessions/call_cache.go#L541) |
-| frameBuffers | var_spec |  | [544](../../magpie/internal/sessions/call_cache.go#L544) |
-| frame | method_declaration |  | [550](../../magpie/internal/sessions/call_cache.go#L550) |
-| loadCalls | function_declaration |  | [557](../../magpie/internal/sessions/call_cache.go#L557) |
-| st | var_spec | loadCalls | [568](../../magpie/internal/sessions/call_cache.go#L568) |
-| calls | var_spec | loadCalls | [569](../../magpie/internal/sessions/call_cache.go#L569) |
-| big | var_spec | loadCalls | [570](../../magpie/internal/sessions/call_cache.go#L570) |
-| header | var_spec | loadCalls | [574](../../magpie/internal/sessions/call_cache.go#L574) |
-| loadKept | function_declaration |  | [645](../../magpie/internal/sessions/call_cache.go#L645) |
-| writeCalls | function_declaration |  | [654](../../magpie/internal/sessions/call_cache.go#L654) |
-| data | var_spec | writeCalls | [656](../../magpie/internal/sessions/call_cache.go#L656) |
-| frame | var_spec | writeCalls | [657](../../magpie/internal/sessions/call_cache.go#L657) |
-| dict | var_spec | writeCalls | [658](../../magpie/internal/sessions/call_cache.go#L658) |
-| header | var_spec | writeCalls | [659](../../magpie/internal/sessions/call_cache.go#L659) |
-| out | var_spec | writeCalls | [715](../../magpie/internal/sessions/call_cache.go#L715) |
-| err | var_spec | writeCalls | [716](../../magpie/internal/sessions/call_cache.go#L716) |
+| callCacheVersion | const_spec |  | [52](../../magpie/internal/sessions/call_cache.go#L52) |
+| callParseVersions | var_spec |  | [69](../../magpie/internal/sessions/call_cache.go#L69) |
+| CallCacheVersion | function_declaration |  | [74](../../magpie/internal/sessions/call_cache.go#L74) |
+| maxKeptCalls | const_spec |  | [84](../../magpie/internal/sessions/call_cache.go#L84) |
+| maxKeptFiles | const_spec |  | [85](../../magpie/internal/sessions/call_cache.go#L85) |
+| callsMu | var_spec |  | [87](../../magpie/internal/sessions/call_cache.go#L87) |
+| callIO | var_spec |  | [88](../../magpie/internal/sessions/call_cache.go#L88) |
+| callGeneration | var_spec |  | [89](../../magpie/internal/sessions/call_cache.go#L89) |
+| callCache | var_spec |  | [90](../../magpie/internal/sessions/call_cache.go#L90) |
+| callCounts | var_spec |  | [91](../../magpie/internal/sessions/call_cache.go#L91) |
+| callOrder | var_spec |  | [92](../../magpie/internal/sessions/call_cache.go#L92) |
+| callRoot | var_spec |  | [93](../../magpie/internal/sessions/call_cache.go#L93) |
+| callSwept | var_spec |  | [100](../../magpie/internal/sessions/call_cache.go#L100) |
+| callSweepEvery | const_spec |  | [102](../../magpie/internal/sessions/call_cache.go#L102) |
+| callCacheDir | function_declaration |  | [104](../../magpie/internal/sessions/call_cache.go#L104) |
+| callCachePath | function_declaration |  | [105](../../magpie/internal/sessions/call_cache.go#L105) |
+| resetCalls | function_declaration |  | [107](../../magpie/internal/sessions/call_cache.go#L107) |
+| pruneCalls | function_declaration |  | [129](../../magpie/internal/sessions/call_cache.go#L129) |
+| keepCalls | function_declaration |  | [211](../../magpie/internal/sessions/call_cache.go#L211) |
+| wholeCallReaders | var_spec |  | [253](../../magpie/internal/sessions/call_cache.go#L253) |
+| resumeCallReaders | var_spec |  | [272](../../magpie/internal/sessions/call_cache.go#L272) |
+| lineCallReader | type_spec |  | [284](../../magpie/internal/sessions/call_cache.go#L284) |
+| begin | field_declaration | lineCallReader | [285](../../magpie/internal/sessions/call_cache.go#L285) |
+| line | field_declaration | lineCallReader | [286](../../magpie/internal/sessions/call_cache.go#L286) |
+| kept | field_declaration | lineCallReader | [287](../../magpie/internal/sessions/call_cache.go#L287) |
+| lineCallReaders | var_spec |  | [292](../../magpie/internal/sessions/call_cache.go#L292) |
+| callLock | function_declaration |  | [303](../../magpie/internal/sessions/call_cache.go#L303) |
+| readCalls | function_declaration |  | [309](../../magpie/internal/sessions/call_cache.go#L309) |
+| callsRide | type_spec |  | [437](../../magpie/internal/sessions/call_cache.go#L437) |
+| f | field_declaration | callsRide | [438](../../magpie/internal/sessions/call_cache.go#L438) |
+| st | field_declaration | callsRide | [439](../../magpie/internal/sessions/call_cache.go#L439) |
+| generation | field_declaration | callsRide | [440](../../magpie/internal/sessions/call_cache.go#L440) |
+| lock | field_declaration | callsRide | [441](../../magpie/internal/sessions/call_cache.go#L441) |
+| sum | field_declaration | callsRide | [442](../../magpie/internal/sessions/call_cache.go#L442) |
+| claude | field_declaration | callsRide | [443](../../magpie/internal/sessions/call_cache.go#L443) |
+| callsAlong | function_declaration |  | [455](../../magpie/internal/sessions/call_cache.go#L455) |
+| ride | method_declaration |  | [489](../../magpie/internal/sessions/call_cache.go#L489) |
+| release | method_declaration |  | [511](../../magpie/internal/sessions/call_cache.go#L511) |
+| finish | method_declaration |  | [515](../../magpie/internal/sessions/call_cache.go#L515) |
+| callPatch | type_spec |  | [542](../../magpie/internal/sessions/call_cache.go#L542) |
+| Index | field_declaration | callPatch | [543](../../magpie/internal/sessions/call_cache.go#L543) |
+| Call | field_declaration | callPatch | [544](../../magpie/internal/sessions/call_cache.go#L544) |
+| Text | field_declaration | callPatch | [545](../../magpie/internal/sessions/call_cache.go#L545) |
+| Began | field_declaration | callPatch | [546](../../magpie/internal/sessions/call_cache.go#L546) |
+| callFrame | type_spec |  | [548](../../magpie/internal/sessions/call_cache.go#L548) |
+| State | field_declaration | callFrame | [549](../../magpie/internal/sessions/call_cache.go#L549) |
+| Strings | field_declaration | callFrame | [550](../../magpie/internal/sessions/call_cache.go#L550) |
+| Patches | field_declaration | callFrame | [551](../../magpie/internal/sessions/call_cache.go#L551) |
+| More | field_declaration | callFrame | [554](../../magpie/internal/sessions/call_cache.go#L554) |
+| Calls | field_declaration | callFrame | [557](../../magpie/internal/sessions/call_cache.go#L557) |
+| framePatches | const_spec |  | [567](../../magpie/internal/sessions/call_cache.go#L567) |
+| callDiskState | type_spec |  | [572](../../magpie/internal/sessions/call_cache.go#L572) |
+| ContentHash | field_declaration | callDiskState | [573](../../magpie/internal/sessions/call_cache.go#L573) |
+| Size | field_declaration | callDiskState | [574](../../magpie/internal/sessions/call_cache.go#L574) |
+| Head | field_declaration | callDiskState | [575](../../magpie/internal/sessions/call_cache.go#L575) |
+| HeadSize | field_declaration | callDiskState | [576](../../magpie/internal/sessions/call_cache.go#L576) |
+| Path | field_declaration | callDiskState | [577](../../magpie/internal/sessions/call_cache.go#L577) |
+| Parser | field_declaration | callDiskState | [578](../../magpie/internal/sessions/call_cache.go#L578) |
+| At | field_declaration | callDiskState | [579](../../magpie/internal/sessions/call_cache.go#L579) |
+| Session | field_declaration | callDiskState | [580](../../magpie/internal/sessions/call_cache.go#L580) |
+| LastUser | field_declaration | callDiskState | [581](../../magpie/internal/sessions/call_cache.go#L581) |
+| Dsh | field_declaration | callDiskState | [583](../../magpie/internal/sessions/call_cache.go#L583) |
+| PiOn | field_declaration | callDiskState | [585](../../magpie/internal/sessions/call_cache.go#L585) |
+| PiCwd | field_declaration | callDiskState | [586](../../magpie/internal/sessions/call_cache.go#L586) |
+| PiSince | field_declaration | callDiskState | [587](../../magpie/internal/sessions/call_cache.go#L587) |
+| PiProvider | field_declaration | callDiskState | [588](../../magpie/internal/sessions/call_cache.go#L588) |
+| GrokOn | field_declaration | callDiskState | [590](../../magpie/internal/sessions/call_cache.go#L590) |
+| GrokSince | field_declaration | callDiskState | [591](../../magpie/internal/sessions/call_cache.go#L591) |
+| GrokModel | field_declaration | callDiskState | [592](../../magpie/internal/sessions/call_cache.go#L592) |
+| GrokAsked | field_declaration | callDiskState | [593](../../magpie/internal/sessions/call_cache.go#L593) |
+| diskCallState | function_declaration |  | [596](../../magpie/internal/sessions/call_cache.go#L596) |
+| restore | method_declaration |  | [611](../../magpie/internal/sessions/call_cache.go#L611) |
+| c | var_spec | restore | [616](../../magpie/internal/sessions/call_cache.go#L616) |
+| callText | function_declaration |  | [630](../../magpie/internal/sessions/call_cache.go#L630) |
+| frameBuffer | type_spec |  | [640](../../magpie/internal/sessions/call_cache.go#L640) |
+| data | field_declaration | frameBuffer | [641](../../magpie/internal/sessions/call_cache.go#L641) |
+| f | field_declaration | frameBuffer | [642](../../magpie/internal/sessions/call_cache.go#L642) |
+| frameBuffers | var_spec |  | [645](../../magpie/internal/sessions/call_cache.go#L645) |
+| frame | method_declaration |  | [651](../../magpie/internal/sessions/call_cache.go#L651) |
+| loadCalls | function_declaration |  | [658](../../magpie/internal/sessions/call_cache.go#L658) |
+| st | var_spec | loadCalls | [669](../../magpie/internal/sessions/call_cache.go#L669) |
+| calls | var_spec | loadCalls | [670](../../magpie/internal/sessions/call_cache.go#L670) |
+| big | var_spec | loadCalls | [671](../../magpie/internal/sessions/call_cache.go#L671) |
+| header | var_spec | loadCalls | [675](../../magpie/internal/sessions/call_cache.go#L675) |
+| loadKept | function_declaration |  | [746](../../magpie/internal/sessions/call_cache.go#L746) |
+| framePatchBufs | var_spec |  | [759](../../magpie/internal/sessions/call_cache.go#L759) |
+| frameBytes | var_spec |  | [766](../../magpie/internal/sessions/call_cache.go#L766) |
+| writeCalls | function_declaration |  | [768](../../magpie/internal/sessions/call_cache.go#L768) |
+| out | var_spec | writeCalls | [774](../../magpie/internal/sessions/call_cache.go#L774) |
+| err | var_spec | writeCalls | [775](../../magpie/internal/sessions/call_cache.go#L775) |
+| frame | var_spec | writeCalls | [794](../../magpie/internal/sessions/call_cache.go#L794) |
+| dict | var_spec | writeCalls | [795](../../magpie/internal/sessions/call_cache.go#L795) |
+| header | var_spec | writeCalls | [796](../../magpie/internal/sessions/call_cache.go#L796) |

@@ -4,33 +4,38 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/visible.go) · page 1/1
 
-Source SHA-256: 32ad7f552fc71912b20cdebf27716af725381f951b16c37339bfb54919f641bd
+Source SHA-256: 91a4c9d636b06f35fc4f159935e663e22458322f130539e39d8687ad731039d3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Names | method_declaration |  | [22](../../magpie/internal/provider/visible.go#L22) |
-| out | var_spec | Names | [23](../../magpie/internal/provider/visible.go#L23) |
-| VisibleTo | function_declaration |  | [38](../../magpie/internal/provider/visible.go#L38) |
-| Shows | function_declaration |  | [44](../../magpie/internal/provider/visible.go#L44) |
-| Described | var_spec |  | [58](../../magpie/internal/provider/visible.go#L58) |
-| described | function_declaration |  | [61](../../magpie/internal/provider/visible.go#L61) |
-| CatalogFor | function_declaration |  | [67](../../magpie/internal/provider/visible.go#L67) |
-| ListedFor | function_declaration |  | [82](../../magpie/internal/provider/visible.go#L82) |
-| HiddenModels | function_declaration |  | [101](../../magpie/internal/provider/visible.go#L101) |
-| PickedModels | function_declaration |  | [114](../../magpie/internal/provider/visible.go#L114) |
-| ModelOff | function_declaration |  | [129](../../magpie/internal/provider/visible.go#L129) |
-| SetOnlyPicked | function_declaration |  | [143](../../magpie/internal/provider/visible.go#L143) |
-| shown | var_spec | SetOnlyPicked | [153](../../magpie/internal/provider/visible.go#L153) |
-| SetPickedModels | function_declaration |  | [191](../../magpie/internal/provider/visible.go#L191) |
-| sortedIDs | function_declaration |  | [229](../../magpie/internal/provider/visible.go#L229) |
-| SetHiddenModels | function_declaration |  | [243](../../magpie/internal/provider/visible.go#L243) |
-| keep | var_spec | SetHiddenModels | [248](../../magpie/internal/provider/visible.go#L248) |
-| OwnModelsHidden | function_declaration |  | [276](../../magpie/internal/provider/visible.go#L276) |
-| SetOwnModelsHidden | function_declaration |  | [282](../../magpie/internal/provider/visible.go#L282) |
-| Families | function_declaration |  | [301](../../magpie/internal/provider/visible.go#L301) |
-| out | var_spec | Families | [302](../../magpie/internal/provider/visible.go#L302) |
-| ModelOrder | function_declaration |  | [321](../../magpie/internal/provider/visible.go#L321) |
-| SetModelOrder | function_declaration |  | [332](../../magpie/internal/provider/visible.go#L332) |
-| keep | var_spec | SetModelOrder | [337](../../magpie/internal/provider/visible.go#L337) |
-| InOrder | function_declaration |  | [366](../../magpie/internal/provider/visible.go#L366) |
-| CodexOwn | function_declaration |  | [391](../../magpie/internal/provider/visible.go#L391) |
+| Names | method_declaration |  | [23](../../magpie/internal/provider/visible.go#L23) |
+| out | var_spec | Names | [24](../../magpie/internal/provider/visible.go#L24) |
+| VisibleTo | function_declaration |  | [39](../../magpie/internal/provider/visible.go#L39) |
+| Shows | function_declaration |  | [45](../../magpie/internal/provider/visible.go#L45) |
+| Described | var_spec |  | [59](../../magpie/internal/provider/visible.go#L59) |
+| described | function_declaration |  | [62](../../magpie/internal/provider/visible.go#L62) |
+| CatalogFor | function_declaration |  | [73](../../magpie/internal/provider/visible.go#L73) |
+| catalogKept | function_declaration |  | [79](../../magpie/internal/provider/visible.go#L79) |
+| catalogLists | type_spec |  | [87](../../magpie/internal/provider/visible.go#L87) |
+| shown | field_declaration | catalogLists | [87](../../magpie/internal/provider/visible.go#L87) |
+| catalogsBuilt | var_spec |  | [90](../../magpie/internal/provider/visible.go#L90) |
+| catalogFor | function_declaration |  | [92](../../magpie/internal/provider/visible.go#L92) |
+| ListedFor | function_declaration |  | [107](../../magpie/internal/provider/visible.go#L107) |
+| HiddenModels | function_declaration |  | [126](../../magpie/internal/provider/visible.go#L126) |
+| PickedModels | function_declaration |  | [139](../../magpie/internal/provider/visible.go#L139) |
+| ModelOff | function_declaration |  | [154](../../magpie/internal/provider/visible.go#L154) |
+| SetOnlyPicked | function_declaration |  | [168](../../magpie/internal/provider/visible.go#L168) |
+| shown | var_spec | SetOnlyPicked | [178](../../magpie/internal/provider/visible.go#L178) |
+| SetPickedModels | function_declaration |  | [216](../../magpie/internal/provider/visible.go#L216) |
+| sortedIDs | function_declaration |  | [254](../../magpie/internal/provider/visible.go#L254) |
+| SetHiddenModels | function_declaration |  | [268](../../magpie/internal/provider/visible.go#L268) |
+| keep | var_spec | SetHiddenModels | [273](../../magpie/internal/provider/visible.go#L273) |
+| OwnModelsHidden | function_declaration |  | [317](../../magpie/internal/provider/visible.go#L317) |
+| SetOwnModelsHidden | function_declaration |  | [323](../../magpie/internal/provider/visible.go#L323) |
+| Families | function_declaration |  | [349](../../magpie/internal/provider/visible.go#L349) |
+| out | var_spec | Families | [350](../../magpie/internal/provider/visible.go#L350) |
+| ModelOrder | function_declaration |  | [369](../../magpie/internal/provider/visible.go#L369) |
+| SetModelOrder | function_declaration |  | [380](../../magpie/internal/provider/visible.go#L380) |
+| keep | var_spec | SetModelOrder | [385](../../magpie/internal/provider/visible.go#L385) |
+| InOrder | function_declaration |  | [414](../../magpie/internal/provider/visible.go#L414) |
+| CodexOwn | function_declaration |  | [439](../../magpie/internal/provider/visible.go#L439) |

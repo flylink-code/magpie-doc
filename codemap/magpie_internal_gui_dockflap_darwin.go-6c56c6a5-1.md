@@ -4,17 +4,18 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/dockflap_darwin.go) · page 1/1
 
-Source SHA-256: 8a8df8aec22a87bbf3d4a7b04c1001f80bff04b5cc6be78c7bd48a5a6c8ccffc
+Source SHA-256: 28f404796269014e178ec0611f95b1809df5966884dc4f296f47c4a5b193db4a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dockOnce | var_spec |  | [269](../../magpie/internal/gui/dockflap_darwin.go#L269) |
-| dockGood | var_spec |  | [270](../../magpie/internal/gui/dockflap_darwin.go#L270) |
-| dockFlapping | var_spec |  | [271](../../magpie/internal/gui/dockflap_darwin.go#L271) |
-| dockReady | function_declaration |  | [277](../../magpie/internal/gui/dockflap_darwin.go#L277) |
-| capp | var_spec | dockReady | [290](../../magpie/internal/gui/dockflap_darwin.go#L290) |
-| ops | var_spec | dockReady | [296](../../magpie/internal/gui/dockflap_darwin.go#L296) |
-| floats | function_declaration |  | [318](../../magpie/internal/gui/dockflap_darwin.go#L318) |
-| dockAt | function_declaration |  | [326](../../magpie/internal/gui/dockflap_darwin.go#L326) |
-| dockFlap | function_declaration |  | [337](../../magpie/internal/gui/dockflap_darwin.go#L337) |
-| dockFramePNG | function_declaration |  | [360](../../magpie/internal/gui/dockflap_darwin.go#L360) |
+| dockOnce | var_spec |  | [310](../../magpie/internal/gui/dockflap_darwin.go#L310) |
+| dockGood | var_spec |  | [311](../../magpie/internal/gui/dockflap_darwin.go#L311) |
+| dockFlapping | var_spec |  | [312](../../magpie/internal/gui/dockflap_darwin.go#L312) |
+| dockReady | function_declaration |  | [318](../../magpie/internal/gui/dockflap_darwin.go#L318) |
+| capp | var_spec | dockReady | [331](../../magpie/internal/gui/dockflap_darwin.go#L331) |
+| ops | var_spec | dockReady | [337](../../magpie/internal/gui/dockflap_darwin.go#L337) |
+| floats | function_declaration |  | [359](../../magpie/internal/gui/dockflap_darwin.go#L359) |
+| dockAt | function_declaration |  | [367](../../magpie/internal/gui/dockflap_darwin.go#L367) |
+| dockFlap | function_declaration |  | [378](../../magpie/internal/gui/dockflap_darwin.go#L378) |
+| dockFramePNG | function_declaration |  | [401](../../magpie/internal/gui/dockflap_darwin.go#L401) |
+| dockFrameFreed | function_declaration |  | [416](../../magpie/internal/gui/dockflap_darwin.go#L416) |

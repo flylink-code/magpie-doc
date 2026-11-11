@@ -4,97 +4,98 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/serve.go) · page 1/1
 
-Source SHA-256: 36bf3576d8f5cdb4aa3f253cb1628f94b03fe6b02c2b3477ee6399a3fbc54940
+Source SHA-256: 6f9dc366b234fad292404b8f334b21709c406a01716b260d4f73a733bf6493b5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hello | type_spec |  | [25](../../magpie/internal/pii/serve.go#L25) |
-| Device | field_declaration | hello | [26](../../magpie/internal/pii/serve.go#L26) |
-| GPU | field_declaration | hello | [27](../../magpie/internal/pii/serve.go#L27) |
-| MS | field_declaration | hello | [28](../../magpie/internal/pii/serve.go#L28) |
-| GPUError | field_declaration | hello | [29](../../magpie/internal/pii/serve.go#L29) |
-| Error | field_declaration | hello | [30](../../magpie/internal/pii/serve.go#L30) |
-| helper | type_spec |  | [34](../../magpie/internal/pii/serve.go#L34) |
-| cmd | field_declaration | helper | [35](../../magpie/internal/pii/serve.go#L35) |
-| in | field_declaration | helper | [36](../../magpie/internal/pii/serve.go#L36) |
-| out | field_declaration | helper | [37](../../magpie/internal/pii/serve.go#L37) |
-| stderr | field_declaration | helper | [38](../../magpie/internal/pii/serve.go#L38) |
-| hello | field_declaration | helper | [39](../../magpie/internal/pii/serve.go#L39) |
-| exited | field_declaration | helper | [40](../../magpie/internal/pii/serve.go#L40) |
-| slow | field_declaration | helper | [42](../../magpie/internal/pii/serve.go#L42) |
-| srv | var_spec |  | [52](../../magpie/internal/pii/serve.go#L52) |
-| mu | field_declaration | srv | [53](../../magpie/internal/pii/serve.go#L53) |
-| h | field_declaration | srv | [54](../../magpie/internal/pii/serve.go#L54) |
-| idle | field_declaration | srv | [55](../../magpie/internal/pii/serve.go#L55) |
-| cpu | field_declaration | srv | [63](../../magpie/internal/pii/serve.go#L63) |
-| gpuLost | field_declaration | srv | [64](../../magpie/internal/pii/serve.go#L64) |
-| gpuFails | field_declaration | srv | [65](../../magpie/internal/pii/serve.go#L65) |
-| gpuAgain | field_declaration | srv | [66](../../magpie/internal/pii/serve.go#L66) |
-| failed | field_declaration | srv | [72](../../magpie/internal/pii/serve.go#L72) |
-| lastErr | field_declaration | srv | [73](../../magpie/internal/pii/serve.go#L73) |
-| fails | field_declaration | srv | [74](../../magpie/internal/pii/serve.go#L74) |
-| retryAt | field_declaration | srv | [75](../../magpie/internal/pii/serve.go#L75) |
-| loading | field_declaration | srv | [77](../../magpie/internal/pii/serve.go#L77) |
-| stop | field_declaration | srv | [80](../../magpie/internal/pii/serve.go#L80) |
-| turn | var_spec |  | [84](../../magpie/internal/pii/serve.go#L84) |
-| waiting | var_spec |  | [87](../../magpie/internal/pii/serve.go#L87) |
-| stopCh | function_declaration |  | [90](../../magpie/internal/pii/serve.go#L90) |
-| loadTimeout | var_spec |  | [100](../../magpie/internal/pii/serve.go#L100) |
-| gpuLoadTimeout | var_spec |  | [108](../../magpie/internal/pii/serve.go#L108) |
-| giveUp | var_spec |  | [112](../../magpie/internal/pii/serve.go#L112) |
-| retryAfter | function_declaration |  | [119](../../magpie/internal/pii/serve.go#L119) |
-| gpuRetryAfter | function_declaration |  | [131](../../magpie/internal/pii/serve.go#L131) |
-| lostGPULocked | function_declaration |  | [141](../../magpie/internal/pii/serve.go#L141) |
-| classifyTimeout | var_spec |  | [150](../../magpie/internal/pii/serve.go#L150) |
-| candidate | type_spec |  | [155](../../magpie/internal/pii/serve.go#L155) |
-| path | field_declaration | candidate | [156](../../magpie/internal/pii/serve.go#L156) |
-| cpu | field_declaration | candidate | [157](../../magpie/internal/pii/serve.go#L157) |
-| candidates | function_declaration |  | [166](../../magpie/internal/pii/serve.go#L166) |
-| out | var_spec | candidates | [167](../../magpie/internal/pii/serve.go#L167) |
-| start | function_declaration |  | [180](../../magpie/internal/pii/serve.go#L180) |
-| errs | var_spec | start | [189](../../magpie/internal/pii/serve.go#L189) |
-| upgrades | var_spec |  | [216](../../magpie/internal/pii/serve.go#L216) |
-| errStopped | var_spec |  | [219](../../magpie/internal/pii/serve.go#L219) |
-| startOne | function_declaration |  | [221](../../magpie/internal/pii/serve.go#L221) |
-| s | var_spec | startOne | [261](../../magpie/internal/pii/serve.go#L261) |
-| vulkanMoEChunk | const_spec |  | [291](../../magpie/internal/pii/serve.go#L291) |
-| moeChunk | function_declaration |  | [295](../../magpie/internal/pii/serve.go#L295) |
-| baseName | function_declaration |  | [305](../../magpie/internal/pii/serve.go#L305) |
-| onWhat | function_declaration |  | [310](../../magpie/internal/pii/serve.go#L310) |
-| died | method_declaration |  | [323](../../magpie/internal/pii/serve.go#L323) |
-| why | var_spec | died | [330](../../magpie/internal/pii/serve.go#L330) |
-| startup | var_spec |  | [346](../../magpie/internal/pii/serve.go#L346) |
-| trouble | var_spec |  | [349](../../magpie/internal/pii/serve.go#L349) |
-| lastSaid | function_declaration |  | [353](../../magpie/internal/pii/serve.go#L353) |
-| out | var_spec | lastSaid | [354](../../magpie/internal/pii/serve.go#L354) |
-| kill | method_declaration |  | [368](../../magpie/internal/pii/serve.go#L368) |
-| Warm | function_declaration |  | [379](../../magpie/internal/pii/serve.go#L379) |
-| Stop | function_declaration |  | [392](../../magpie/internal/pii/serve.go#L392) |
-| stopWhenFree | function_declaration |  | [418](../../magpie/internal/pii/serve.go#L418) |
-| detachLocked | function_declaration |  | [428](../../magpie/internal/pii/serve.go#L428) |
-| end | function_declaration |  | [440](../../magpie/internal/pii/serve.go#L440) |
-| classify | function_declaration |  | [458](../../magpie/internal/pii/serve.go#L458) |
-| heldBack | function_declaration |  | [479](../../magpie/internal/pii/serve.go#L479) |
-| classifyTurn | function_declaration |  | [489](../../magpie/internal/pii/serve.go#L489) |
-| last | var_spec | classifyTurn | [490](../../magpie/internal/pii/serve.go#L490) |
-| gone | var_spec | classifyTurn | [494](../../magpie/internal/pii/serve.go#L494) |
-| err | var_spec | classifyTurn | [510](../../magpie/internal/pii/serve.go#L510) |
-| stopped | function_declaration |  | [564](../../magpie/internal/pii/serve.go#L564) |
-| idleLocked | function_declaration |  | [576](../../magpie/internal/pii/serve.go#L576) |
-| gone | var_spec | idleLocked | [588](../../magpie/internal/pii/serve.go#L588) |
-| classify | method_declaration |  | [599](../../magpie/internal/pii/serve.go#L599) |
-| b | var_spec | classify | [600](../../magpie/internal/pii/serve.go#L600) |
-| reader | type_spec |  | [655](../../magpie/internal/pii/serve.go#L655) |
-| r | field_declaration | reader | [656](../../magpie/internal/pii/serve.go#L656) |
-| err | field_declaration | reader | [657](../../magpie/internal/pii/serve.go#L657) |
-| b | field_declaration | reader | [658](../../magpie/internal/pii/serve.go#L658) |
-| u32 | method_declaration |  | [661](../../magpie/internal/pii/serve.go#L661) |
-| u8 | method_declaration |  | [671](../../magpie/internal/pii/serve.go#L671) |
-| c | var_spec | u8 | [673](../../magpie/internal/pii/serve.go#L673) |
-| bytes | method_declaration |  | [680](../../magpie/internal/pii/serve.go#L680) |
-| fail | method_declaration |  | [689](../../magpie/internal/pii/serve.go#L689) |
-| tail | type_spec |  | [697](../../magpie/internal/pii/serve.go#L697) |
-| mu | field_declaration | tail | [698](../../magpie/internal/pii/serve.go#L698) |
-| b | field_declaration | tail | [699](../../magpie/internal/pii/serve.go#L699) |
-| Write | method_declaration |  | [702](../../magpie/internal/pii/serve.go#L702) |
-| String | method_declaration |  | [712](../../magpie/internal/pii/serve.go#L712) |
+| hello | type_spec |  | [28](../../magpie/internal/pii/serve.go#L28) |
+| Device | field_declaration | hello | [29](../../magpie/internal/pii/serve.go#L29) |
+| GPU | field_declaration | hello | [30](../../magpie/internal/pii/serve.go#L30) |
+| MS | field_declaration | hello | [31](../../magpie/internal/pii/serve.go#L31) |
+| GPUError | field_declaration | hello | [32](../../magpie/internal/pii/serve.go#L32) |
+| Error | field_declaration | hello | [33](../../magpie/internal/pii/serve.go#L33) |
+| helper | type_spec |  | [37](../../magpie/internal/pii/serve.go#L37) |
+| cmd | field_declaration | helper | [38](../../magpie/internal/pii/serve.go#L38) |
+| in | field_declaration | helper | [39](../../magpie/internal/pii/serve.go#L39) |
+| out | field_declaration | helper | [40](../../magpie/internal/pii/serve.go#L40) |
+| outf | field_declaration | helper | [46](../../magpie/internal/pii/serve.go#L46) |
+| stderr | field_declaration | helper | [47](../../magpie/internal/pii/serve.go#L47) |
+| hello | field_declaration | helper | [48](../../magpie/internal/pii/serve.go#L48) |
+| exited | field_declaration | helper | [49](../../magpie/internal/pii/serve.go#L49) |
+| slow | field_declaration | helper | [51](../../magpie/internal/pii/serve.go#L51) |
+| srv | var_spec |  | [61](../../magpie/internal/pii/serve.go#L61) |
+| mu | field_declaration | srv | [62](../../magpie/internal/pii/serve.go#L62) |
+| h | field_declaration | srv | [63](../../magpie/internal/pii/serve.go#L63) |
+| idle | field_declaration | srv | [64](../../magpie/internal/pii/serve.go#L64) |
+| cpu | field_declaration | srv | [72](../../magpie/internal/pii/serve.go#L72) |
+| gpuLost | field_declaration | srv | [73](../../magpie/internal/pii/serve.go#L73) |
+| gpuFails | field_declaration | srv | [74](../../magpie/internal/pii/serve.go#L74) |
+| gpuAgain | field_declaration | srv | [75](../../magpie/internal/pii/serve.go#L75) |
+| failed | field_declaration | srv | [81](../../magpie/internal/pii/serve.go#L81) |
+| lastErr | field_declaration | srv | [82](../../magpie/internal/pii/serve.go#L82) |
+| fails | field_declaration | srv | [83](../../magpie/internal/pii/serve.go#L83) |
+| retryAt | field_declaration | srv | [84](../../magpie/internal/pii/serve.go#L84) |
+| loading | field_declaration | srv | [86](../../magpie/internal/pii/serve.go#L86) |
+| stop | field_declaration | srv | [89](../../magpie/internal/pii/serve.go#L89) |
+| turn | var_spec |  | [93](../../magpie/internal/pii/serve.go#L93) |
+| waiting | var_spec |  | [96](../../magpie/internal/pii/serve.go#L96) |
+| stopCh | function_declaration |  | [99](../../magpie/internal/pii/serve.go#L99) |
+| loadTimeout | var_spec |  | [109](../../magpie/internal/pii/serve.go#L109) |
+| gpuLoadTimeout | var_spec |  | [117](../../magpie/internal/pii/serve.go#L117) |
+| giveUp | var_spec |  | [121](../../magpie/internal/pii/serve.go#L121) |
+| retryAfter | function_declaration |  | [128](../../magpie/internal/pii/serve.go#L128) |
+| gpuRetryAfter | function_declaration |  | [140](../../magpie/internal/pii/serve.go#L140) |
+| lostGPULocked | function_declaration |  | [150](../../magpie/internal/pii/serve.go#L150) |
+| classifyTimeout | var_spec |  | [159](../../magpie/internal/pii/serve.go#L159) |
+| candidate | type_spec |  | [164](../../magpie/internal/pii/serve.go#L164) |
+| path | field_declaration | candidate | [165](../../magpie/internal/pii/serve.go#L165) |
+| cpu | field_declaration | candidate | [166](../../magpie/internal/pii/serve.go#L166) |
+| candidates | function_declaration |  | [178](../../magpie/internal/pii/serve.go#L178) |
+| out | var_spec | candidates | [184](../../magpie/internal/pii/serve.go#L184) |
+| start | function_declaration |  | [197](../../magpie/internal/pii/serve.go#L197) |
+| errs | var_spec | start | [221](../../magpie/internal/pii/serve.go#L221) |
+| upgrades | var_spec |  | [248](../../magpie/internal/pii/serve.go#L248) |
+| errStopped | var_spec |  | [251](../../magpie/internal/pii/serve.go#L251) |
+| startOne | function_declaration |  | [253](../../magpie/internal/pii/serve.go#L253) |
+| s | var_spec | startOne | [311](../../magpie/internal/pii/serve.go#L311) |
+| baseName | function_declaration |  | [335](../../magpie/internal/pii/serve.go#L335) |
+| onWhat | function_declaration |  | [340](../../magpie/internal/pii/serve.go#L340) |
+| died | method_declaration |  | [353](../../magpie/internal/pii/serve.go#L353) |
+| why | var_spec | died | [360](../../magpie/internal/pii/serve.go#L360) |
+| startup | var_spec |  | [376](../../magpie/internal/pii/serve.go#L376) |
+| trouble | var_spec |  | [379](../../magpie/internal/pii/serve.go#L379) |
+| deviceLost | var_spec |  | [383](../../magpie/internal/pii/serve.go#L383) |
+| lastSaid | function_declaration |  | [387](../../magpie/internal/pii/serve.go#L387) |
+| out | var_spec | lastSaid | [388](../../magpie/internal/pii/serve.go#L388) |
+| kill | method_declaration |  | [402](../../magpie/internal/pii/serve.go#L402) |
+| Warm | function_declaration |  | [414](../../magpie/internal/pii/serve.go#L414) |
+| Stop | function_declaration |  | [427](../../magpie/internal/pii/serve.go#L427) |
+| stopWhenFree | function_declaration |  | [453](../../magpie/internal/pii/serve.go#L453) |
+| detachLocked | function_declaration |  | [463](../../magpie/internal/pii/serve.go#L463) |
+| end | function_declaration |  | [475](../../magpie/internal/pii/serve.go#L475) |
+| classify | function_declaration |  | [497](../../magpie/internal/pii/serve.go#L497) |
+| heldBack | function_declaration |  | [518](../../magpie/internal/pii/serve.go#L518) |
+| classifyTurn | function_declaration |  | [528](../../magpie/internal/pii/serve.go#L528) |
+| last | var_spec | classifyTurn | [529](../../magpie/internal/pii/serve.go#L529) |
+| gone | var_spec | classifyTurn | [533](../../magpie/internal/pii/serve.go#L533) |
+| err | var_spec | classifyTurn | [549](../../magpie/internal/pii/serve.go#L549) |
+| stopped | function_declaration |  | [605](../../magpie/internal/pii/serve.go#L605) |
+| idleLocked | function_declaration |  | [617](../../magpie/internal/pii/serve.go#L617) |
+| gone | var_spec | idleLocked | [629](../../magpie/internal/pii/serve.go#L629) |
+| classify | method_declaration |  | [640](../../magpie/internal/pii/serve.go#L640) |
+| b | var_spec | classify | [641](../../magpie/internal/pii/serve.go#L641) |
+| beforeRead | var_spec |  | [700](../../magpie/internal/pii/serve.go#L700) |
+| reader | type_spec |  | [702](../../magpie/internal/pii/serve.go#L702) |
+| r | field_declaration | reader | [703](../../magpie/internal/pii/serve.go#L703) |
+| err | field_declaration | reader | [704](../../magpie/internal/pii/serve.go#L704) |
+| b | field_declaration | reader | [705](../../magpie/internal/pii/serve.go#L705) |
+| u32 | method_declaration |  | [708](../../magpie/internal/pii/serve.go#L708) |
+| u8 | method_declaration |  | [718](../../magpie/internal/pii/serve.go#L718) |
+| c | var_spec | u8 | [720](../../magpie/internal/pii/serve.go#L720) |
+| bytes | method_declaration |  | [727](../../magpie/internal/pii/serve.go#L727) |
+| fail | method_declaration |  | [736](../../magpie/internal/pii/serve.go#L736) |
+| tail | type_spec |  | [744](../../magpie/internal/pii/serve.go#L744) |
+| mu | field_declaration | tail | [745](../../magpie/internal/pii/serve.go#L745) |
+| b | field_declaration | tail | [746](../../magpie/internal/pii/serve.go#L746) |
+| Write | method_declaration |  | [749](../../magpie/internal/pii/serve.go#L749) |
+| String | method_declaration |  | [759](../../magpie/internal/pii/serve.go#L759) |

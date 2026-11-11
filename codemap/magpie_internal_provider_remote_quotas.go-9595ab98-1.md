@@ -4,55 +4,70 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/remote_quotas.go) · page 1/1
 
-Source SHA-256: 693d3841e9b6322c9fd923d6c2a06addb60bd733942251a80d732bbe4b0d344f
+Source SHA-256: c875c6142b58737ee2ac9312ec451e598ab9843768793ca80b16d7a842bab141
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RemoteCardsPath | const_spec |  | [31](../../magpie/internal/provider/remote_quotas.go#L31) |
-| RemoteRefreshPath | const_spec |  | [36](../../magpie/internal/provider/remote_quotas.go#L36) |
-| remoteCardsFor | const_spec |  | [41](../../magpie/internal/provider/remote_quotas.go#L41) |
-| errRemoteNothingRead | const_spec |  | [45](../../magpie/internal/provider/remote_quotas.go#L45) |
-| errRemoteNoShare | const_spec |  | [48](../../magpie/internal/provider/remote_quotas.go#L48) |
-| errRemoteNotShared | const_spec |  | [55](../../magpie/internal/provider/remote_quotas.go#L55) |
-| errRemoteKey | const_spec |  | [58](../../magpie/internal/provider/remote_quotas.go#L58) |
-| KeyHeldCode | const_spec |  | [63](../../magpie/internal/provider/remote_quotas.go#L63) |
-| errKeyHeld | var_spec |  | [69](../../magpie/internal/provider/remote_quotas.go#L69) |
-| errRemoteUnreachable | const_spec |  | [73](../../magpie/internal/provider/remote_quotas.go#L73) |
-| CachedCards | function_declaration |  | [83](../../magpie/internal/provider/remote_quotas.go#L83) |
-| kind | field_declaration | CachedCards | [112](../../magpie/internal/provider/remote_quotas.go#L112) |
-| qs | field_declaration | CachedCards | [113](../../magpie/internal/provider/remote_quotas.go#L113) |
-| ReadAllCards | function_declaration |  | [127](../../magpie/internal/provider/remote_quotas.go#L127) |
-| remoteCardCache | var_spec |  | [134](../../magpie/internal/provider/remote_quotas.go#L134) |
-| m | field_declaration | remoteCardCache | [136](../../magpie/internal/provider/remote_quotas.go#L136) |
-| remoteCardsRead | type_spec |  | [139](../../magpie/internal/provider/remote_quotas.go#L139) |
-| at | field_declaration | remoteCardsRead | [140](../../magpie/internal/provider/remote_quotas.go#L140) |
-| cards | field_declaration | remoteCardsRead | [141](../../magpie/internal/provider/remote_quotas.go#L141) |
-| err | field_declaration | remoteCardsRead | [142](../../magpie/internal/provider/remote_quotas.go#L142) |
-| held | field_declaration | remoteCardsRead | [143](../../magpie/internal/provider/remote_quotas.go#L143) |
-| remoteCardsID | function_declaration |  | [149](../../magpie/internal/provider/remote_quotas.go#L149) |
-| ForgetRemoteCardsForTest | function_declaration |  | [155](../../magpie/internal/provider/remote_quotas.go#L155) |
-| ForgetKeptCardsForTest | function_declaration |  | [168](../../magpie/internal/provider/remote_quotas.go#L168) |
-| remoteMagpies | function_declaration |  | [176](../../magpie/internal/provider/remote_quotas.go#L176) |
-| out | var_spec | remoteMagpies | [177](../../magpie/internal/provider/remote_quotas.go#L177) |
-| RemoteCards | function_declaration |  | [187](../../magpie/internal/provider/remote_quotas.go#L187) |
-| wg | var_spec | RemoteCards | [190](../../magpie/internal/provider/remote_quotas.go#L190) |
-| remoteCards | function_declaration |  | [208](../../magpie/internal/provider/remote_quotas.go#L208) |
-| remoteName | function_declaration |  | [249](../../magpie/internal/provider/remote_quotas.go#L249) |
-| remoteOf | function_declaration |  | [258](../../magpie/internal/provider/remote_quotas.go#L258) |
-| IsRemoteCard | function_declaration |  | [270](../../magpie/internal/provider/remote_quotas.go#L270) |
-| refreshRemote | function_declaration |  | [277](../../magpie/internal/provider/remote_quotas.go#L277) |
-| keepRemoteCards | function_declaration |  | [306](../../magpie/internal/provider/remote_quotas.go#L306) |
-| RemoteQuotaHistories | function_declaration |  | [333](../../magpie/internal/provider/remote_quotas.go#L333) |
-| wg | var_spec | RemoteQuotaHistories | [336](../../magpie/internal/provider/remote_quotas.go#L336) |
-| hs | var_spec | RemoteQuotaHistories | [341](../../magpie/internal/provider/remote_quotas.go#L341) |
-| askRemote | function_declaration |  | [355](../../magpie/internal/provider/remote_quotas.go#L355) |
-| cards | var_spec | askRemote | [356](../../magpie/internal/provider/remote_quotas.go#L356) |
-| remoteJSON | function_declaration |  | [364](../../magpie/internal/provider/remote_quotas.go#L364) |
-| e | var_spec | remoteJSON | [383](../../magpie/internal/provider/remote_quotas.go#L383) |
-| Error | field_declaration | remoteJSON::e | [384](../../magpie/internal/provider/remote_quotas.go#L384) |
-| Code | field_declaration | remoteJSON::e::Error | [385](../../magpie/internal/provider/remote_quotas.go#L385) |
-| e | var_spec | remoteJSON | [395](../../magpie/internal/provider/remote_quotas.go#L395) |
-| Error | field_declaration | remoteJSON::e | [396](../../magpie/internal/provider/remote_quotas.go#L396) |
-| Message | field_declaration | remoteJSON::e::Error | [397](../../magpie/internal/provider/remote_quotas.go#L397) |
-| list | var_spec | remoteJSON | [405](../../magpie/internal/provider/remote_quotas.go#L405) |
-| Data | field_declaration | remoteJSON::list | [406](../../magpie/internal/provider/remote_quotas.go#L406) |
+| RemoteCardsPath | const_spec |  | [33](../../magpie/internal/provider/remote_quotas.go#L33) |
+| RemoteRefreshPath | const_spec |  | [38](../../magpie/internal/provider/remote_quotas.go#L38) |
+| RemoteCodexResetPath | const_spec |  | [47](../../magpie/internal/provider/remote_quotas.go#L47) |
+| RemoteResetWait | const_spec |  | [51](../../magpie/internal/provider/remote_quotas.go#L51) |
+| remoteCardsFor | const_spec |  | [56](../../magpie/internal/provider/remote_quotas.go#L56) |
+| errRemoteNothingRead | const_spec |  | [60](../../magpie/internal/provider/remote_quotas.go#L60) |
+| errRemoteNoShare | const_spec |  | [63](../../magpie/internal/provider/remote_quotas.go#L63) |
+| errRemoteNotShared | const_spec |  | [70](../../magpie/internal/provider/remote_quotas.go#L70) |
+| errRemoteHeld | const_spec |  | [78](../../magpie/internal/provider/remote_quotas.go#L78) |
+| errRemoteKey | const_spec |  | [81](../../magpie/internal/provider/remote_quotas.go#L81) |
+| KeyReadOnlyCode | const_spec |  | [85](../../magpie/internal/provider/remote_quotas.go#L85) |
+| errRemoteReadOnly | const_spec |  | [89](../../magpie/internal/provider/remote_quotas.go#L89) |
+| KeyHeldCode | const_spec |  | [94](../../magpie/internal/provider/remote_quotas.go#L94) |
+| errKeyHeld | var_spec |  | [100](../../magpie/internal/provider/remote_quotas.go#L100) |
+| errRemoteUnreachable | const_spec |  | [104](../../magpie/internal/provider/remote_quotas.go#L104) |
+| CachedCards | function_declaration |  | [117](../../magpie/internal/provider/remote_quotas.go#L117) |
+| kind | field_declaration | CachedCards | [146](../../magpie/internal/provider/remote_quotas.go#L146) |
+| qs | field_declaration | CachedCards | [147](../../magpie/internal/provider/remote_quotas.go#L147) |
+| passedOnCards | function_declaration |  | [167](../../magpie/internal/provider/remote_quotas.go#L167) |
+| out | var_spec | passedOnCards | [168](../../magpie/internal/provider/remote_quotas.go#L168) |
+| ReadAllCards | function_declaration |  | [194](../../magpie/internal/provider/remote_quotas.go#L194) |
+| remoteCardCache | var_spec |  | [201](../../magpie/internal/provider/remote_quotas.go#L201) |
+| m | field_declaration | remoteCardCache | [203](../../magpie/internal/provider/remote_quotas.go#L203) |
+| remoteCardsRead | type_spec |  | [206](../../magpie/internal/provider/remote_quotas.go#L206) |
+| at | field_declaration | remoteCardsRead | [207](../../magpie/internal/provider/remote_quotas.go#L207) |
+| cards | field_declaration | remoteCardsRead | [208](../../magpie/internal/provider/remote_quotas.go#L208) |
+| err | field_declaration | remoteCardsRead | [209](../../magpie/internal/provider/remote_quotas.go#L209) |
+| held | field_declaration | remoteCardsRead | [210](../../magpie/internal/provider/remote_quotas.go#L210) |
+| remoteCardsID | function_declaration |  | [216](../../magpie/internal/provider/remote_quotas.go#L216) |
+| ForgetRemoteCardsForTest | function_declaration |  | [222](../../magpie/internal/provider/remote_quotas.go#L222) |
+| ForgetKeptCardsForTest | function_declaration |  | [235](../../magpie/internal/provider/remote_quotas.go#L235) |
+| remoteMagpies | function_declaration |  | [243](../../magpie/internal/provider/remote_quotas.go#L243) |
+| out | var_spec | remoteMagpies | [244](../../magpie/internal/provider/remote_quotas.go#L244) |
+| RemoteCards | function_declaration |  | [254](../../magpie/internal/provider/remote_quotas.go#L254) |
+| wg | var_spec | RemoteCards | [257](../../magpie/internal/provider/remote_quotas.go#L257) |
+| remoteCards | function_declaration |  | [275](../../magpie/internal/provider/remote_quotas.go#L275) |
+| namedRemoteCards | function_declaration |  | [309](../../magpie/internal/provider/remote_quotas.go#L309) |
+| remoteName | function_declaration |  | [336](../../magpie/internal/provider/remote_quotas.go#L336) |
+| remoteOf | function_declaration |  | [345](../../magpie/internal/provider/remote_quotas.go#L345) |
+| IsRemoteCard | function_declaration |  | [357](../../magpie/internal/provider/remote_quotas.go#L357) |
+| refreshRemote | function_declaration |  | [364](../../magpie/internal/provider/remote_quotas.go#L364) |
+| keepRemoteCards | function_declaration |  | [393](../../magpie/internal/provider/remote_quotas.go#L393) |
+| RemoteQuotaHistories | function_declaration |  | [421](../../magpie/internal/provider/remote_quotas.go#L421) |
+| wg | var_spec | RemoteQuotaHistories | [424](../../magpie/internal/provider/remote_quotas.go#L424) |
+| hs | var_spec | RemoteQuotaHistories | [429](../../magpie/internal/provider/remote_quotas.go#L429) |
+| remoteWait | var_spec |  | [451](../../magpie/internal/provider/remote_quotas.go#L451) |
+| remoteRefreshWait | var_spec |  | [452](../../magpie/internal/provider/remote_quotas.go#L452) |
+| askRemote | function_declaration |  | [455](../../magpie/internal/provider/remote_quotas.go#L455) |
+| cards | var_spec | askRemote | [456](../../magpie/internal/provider/remote_quotas.go#L456) |
+| signRemote | method_declaration |  | [471](../../magpie/internal/provider/remote_quotas.go#L471) |
+| remoteKey | function_declaration |  | [483](../../magpie/internal/provider/remote_quotas.go#L483) |
+| remoteJSON | function_declaration |  | [493](../../magpie/internal/provider/remote_quotas.go#L493) |
+| list | var_spec | remoteJSON | [498](../../magpie/internal/provider/remote_quotas.go#L498) |
+| Data | field_declaration | remoteJSON::list | [499](../../magpie/internal/provider/remote_quotas.go#L499) |
+| remoteBody | function_declaration |  | [513](../../magpie/internal/provider/remote_quotas.go#L513) |
+| remoteBodyAs | function_declaration |  | [519](../../magpie/internal/provider/remote_quotas.go#L519) |
+| e | var_spec | remoteBodyAs | [537](../../magpie/internal/provider/remote_quotas.go#L537) |
+| Error | field_declaration | remoteBodyAs::e | [538](../../magpie/internal/provider/remote_quotas.go#L538) |
+| Code | field_declaration | remoteBodyAs::e::Error | [539](../../magpie/internal/provider/remote_quotas.go#L539) |
+| Message | field_declaration | remoteBodyAs::e::Error | [540](../../magpie/internal/provider/remote_quotas.go#L540) |
+| errRemoteResetUnknown | const_spec |  | [568](../../magpie/internal/provider/remote_quotas.go#L568) |
+| UseRemoteCodexReset | function_declaration |  | [578](../../magpie/internal/provider/remote_quotas.go#L578) |
+| out | var_spec | UseRemoteCodexReset | [598](../../magpie/internal/provider/remote_quotas.go#L598) |

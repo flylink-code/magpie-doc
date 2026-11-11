@@ -4,8 +4,9 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/webkit_other.go) · page 1/1
 
-Source SHA-256: 331377ead1c95f93d682fc7142293ebc467e0aa3b6e7c94a24d2419a20d78b18
+Source SHA-256: df2256ecdac2a436ba9486652c4baca921ca28bd3aec291193578c6ee4bea9a8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | webkitDefaults | function_declaration |  | [6](../../magpie/internal/gui/webkit_other.go#L6) |
+| webkitPlaysVideo | var_spec |  | [9](../../magpie/internal/gui/webkit_other.go#L9) |

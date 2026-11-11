@@ -4,25 +4,31 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/steady/steady.go) · page 1/1
 
-Source SHA-256: 78be311b8e78a7b8a7b384b5b2f4c194f887bb4275b4b0839a36183bec40fe09
+Source SHA-256: faa4728fd951311177298d086420723b66f16406495ec46c3c8c3f86268b2a55
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tries | const_spec |  | [24](../../magpie/internal/steady/steady.go#L24) |
-| pause | const_spec |  | [25](../../magpie/internal/steady/steady.go#L25) |
-| goneTries | const_spec |  | [32](../../magpie/internal/steady/steady.go#L32) |
-| gonePause | const_spec |  | [33](../../magpie/internal/steady/steady.go#L33) |
-| windows | var_spec |  | [37](../../magpie/internal/steady/steady.go#L37) |
-| stat | var_spec |  | [41](../../magpie/internal/steady/steady.go#L41) |
-| readFile | var_spec |  | [42](../../magpie/internal/steady/steady.go#L42) |
-| retry | function_declaration |  | [45](../../magpie/internal/steady/steady.go#L45) |
-| retryGone | function_declaration |  | [55](../../magpie/internal/steady/steady.go#L55) |
-| Stat | function_declaration |  | [67](../../magpie/internal/steady/steady.go#L67) |
-| fi | var_spec | Stat | [68](../../magpie/internal/steady/steady.go#L68) |
-| ReadThere | function_declaration |  | [78](../../magpie/internal/steady/steady.go#L78) |
-| b | var_spec | ReadThere | [79](../../magpie/internal/steady/steady.go#L79) |
-| ReadFile | function_declaration |  | [88](../../magpie/internal/steady/steady.go#L88) |
-| b | var_spec | ReadFile | [89](../../magpie/internal/steady/steady.go#L89) |
-| Rename | function_declaration |  | [98](../../magpie/internal/steady/steady.go#L98) |
-| Sync | var_spec |  | [103](../../magpie/internal/steady/steady.go#L103) |
-| WriteFile | function_declaration |  | [111](../../magpie/internal/steady/steady.go#L111) |
+| tries | const_spec |  | [27](../../magpie/internal/steady/steady.go#L27) |
+| pause | const_spec |  | [28](../../magpie/internal/steady/steady.go#L28) |
+| goneTries | const_spec |  | [35](../../magpie/internal/steady/steady.go#L35) |
+| gonePause | const_spec |  | [36](../../magpie/internal/steady/steady.go#L36) |
+| errPathNotFound | const_spec |  | [41](../../magpie/internal/steady/steady.go#L41) |
+| windows | var_spec |  | [44](../../magpie/internal/steady/steady.go#L44) |
+| stat | var_spec |  | [48](../../magpie/internal/steady/steady.go#L48) |
+| readFile | var_spec |  | [49](../../magpie/internal/steady/steady.go#L49) |
+| retry | function_declaration |  | [52](../../magpie/internal/steady/steady.go#L52) |
+| retryGone | function_declaration |  | [66](../../magpie/internal/steady/steady.go#L66) |
+| Stat | function_declaration |  | [78](../../magpie/internal/steady/steady.go#L78) |
+| fi | var_spec | Stat | [79](../../magpie/internal/steady/steady.go#L79) |
+| ReadThere | function_declaration |  | [89](../../magpie/internal/steady/steady.go#L89) |
+| b | var_spec | ReadThere | [90](../../magpie/internal/steady/steady.go#L90) |
+| ReadThereInto | function_declaration |  | [102](../../magpie/internal/steady/steady.go#L102) |
+| b | var_spec | ReadThereInto | [103](../../magpie/internal/steady/steady.go#L103) |
+| readInto | var_spec |  | [112](../../magpie/internal/steady/steady.go#L112) |
+| ReadFile | function_declaration |  | [134](../../magpie/internal/steady/steady.go#L134) |
+| b | var_spec | ReadFile | [135](../../magpie/internal/steady/steady.go#L135) |
+| Rename | function_declaration |  | [144](../../magpie/internal/steady/steady.go#L144) |
+| Sync | var_spec |  | [149](../../magpie/internal/steady/steady.go#L149) |
+| WriteFile | function_declaration |  | [159](../../magpie/internal/steady/steady.go#L159) |
+| staleTemps | const_spec |  | [188](../../magpie/internal/steady/steady.go#L188) |
+| RemoveStaleTemps | function_declaration |  | [199](../../magpie/internal/steady/steady.go#L199) |

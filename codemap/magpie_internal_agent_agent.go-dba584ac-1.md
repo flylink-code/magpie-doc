@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agent.go) · page 1/2
 
-Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
+Source SHA-256: fd6a79792cab609bbf408ef5cbb1310cbeb32118538dbb2d603d8eb8880002a4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,93 +18,93 @@ Source SHA-256: 74ba3fb8b0a6de6ca251b0cb2656c5867f72f1e97f1b35c5cae4798b39cc4a8a
 | GroupIcon | field_declaration | Option | [34](../../magpie/internal/agent/agent.go#L34) |
 | Ref | field_declaration | Option | [35](../../magpie/internal/agent/agent.go#L35) |
 | Free | field_declaration | Option | [36](../../magpie/internal/agent/agent.go#L36) |
-| Rate | field_declaration | Option | [40](../../magpie/internal/agent/agent.go#L40) |
-| RateWas | field_declaration | Option | [41](../../magpie/internal/agent/agent.go#L41) |
-| Context | field_declaration | Option | [44](../../magpie/internal/agent/agent.go#L44) |
-| Takes | field_declaration | Option | [48](../../magpie/internal/agent/agent.go#L48) |
-| Direct | field_declaration | Option | [52](../../magpie/internal/agent/agent.go#L52) |
-| Via | field_declaration | Option | [56](../../magpie/internal/agent/agent.go#L56) |
-| Same | field_declaration | Option | [60](../../magpie/internal/agent/agent.go#L60) |
-| Alias | field_declaration | Option | [64](../../magpie/internal/agent/agent.go#L64) |
-| FastFor | field_declaration | Option | [69](../../magpie/internal/agent/agent.go#L69) |
-| Fast | field_declaration | Option | [70](../../magpie/internal/agent/agent.go#L70) |
-| OwnFast | field_declaration | Option | [74](../../magpie/internal/agent/agent.go#L74) |
-| UltraOK | field_declaration | Option | [78](../../magpie/internal/agent/agent.go#L78) |
-| Ultra | field_declaration | Option | [79](../../magpie/internal/agent/agent.go#L79) |
-| own | field_declaration | Option | [82](../../magpie/internal/agent/agent.go#L82) |
-| sub | field_declaration | Option | [85](../../magpie/internal/agent/agent.go#L85) |
-| Field | type_spec |  | [91](../../magpie/internal/agent/agent.go#L91) |
-| Key | field_declaration | Field | [92](../../magpie/internal/agent/agent.go#L92) |
-| Label | field_declaration | Field | [93](../../magpie/internal/agent/agent.go#L93) |
-| Get | field_declaration | Field | [94](../../magpie/internal/agent/agent.go#L94) |
-| Set | field_declaration | Field | [95](../../magpie/internal/agent/agent.go#L95) |
-| Options | field_declaration | Field | [96](../../magpie/internal/agent/agent.go#L96) |
-| Quiet | field_declaration | Field | [99](../../magpie/internal/agent/agent.go#L99) |
-| Live | field_declaration | Field | [104](../../magpie/internal/agent/agent.go#L104) |
-| Follows | field_declaration | Field | [108](../../magpie/internal/agent/agent.go#L108) |
-| Agent | type_spec |  | [112](../../magpie/internal/agent/agent.go#L112) |
-| ID | field_declaration | Agent | [113](../../magpie/internal/agent/agent.go#L113) |
-| Name | field_declaration | Agent | [114](../../magpie/internal/agent/agent.go#L114) |
-| Icon | field_declaration | Agent | [115](../../magpie/internal/agent/agent.go#L115) |
-| Aliases | field_declaration | Agent | [116](../../magpie/internal/agent/agent.go#L116) |
-| Bin | field_declaration | Agent | [117](../../magpie/internal/agent/agent.go#L117) |
-| Dir | field_declaration | Agent | [118](../../magpie/internal/agent/agent.go#L118) |
-| Path | field_declaration | Agent | [119](../../magpie/internal/agent/agent.go#L119) |
-| Plugin | field_declaration | Agent | [122](../../magpie/internal/agent/agent.go#L122) |
-| Fields | field_declaration | Agent | [123](../../magpie/internal/agent/agent.go#L123) |
-| Native | field_declaration | Agent | [124](../../magpie/internal/agent/agent.go#L124) |
-| Notice | field_declaration | Agent | [127](../../magpie/internal/agent/agent.go#L127) |
-| UA | field_declaration | Agent | [130](../../magpie/internal/agent/agent.go#L130) |
-| ListsModels | field_declaration | Agent | [137](../../magpie/internal/agent/agent.go#L137) |
-| NoNames | field_declaration | Agent | [145](../../magpie/internal/agent/agent.go#L145) |
-| Sync | field_declaration | Agent | [149](../../magpie/internal/agent/agent.go#L149) |
-| Unwire | field_declaration | Agent | [155](../../magpie/internal/agent/agent.go#L155) |
-| Restore | field_declaration | Agent | [159](../../magpie/internal/agent/agent.go#L159) |
-| Join | field_declaration | Agent | [164](../../magpie/internal/agent/agent.go#L164) |
-| Joined | field_declaration | Agent | [167](../../magpie/internal/agent/agent.go#L167) |
-| Beside | field_declaration | Agent | [172](../../magpie/internal/agent/agent.go#L172) |
-| OwnVia | field_declaration | Agent | [178](../../magpie/internal/agent/agent.go#L178) |
-| AppOut | field_declaration | Agent | [183](../../magpie/internal/agent/agent.go#L183) |
-| SideModel | field_declaration | Agent | [189](../../magpie/internal/agent/agent.go#L189) |
-| Routed | field_declaration | Agent | [194](../../magpie/internal/agent/agent.go#L194) |
-| FailingOver | field_declaration | Agent | [200](../../magpie/internal/agent/agent.go#L200) |
-| EndFailover | field_declaration | Agent | [205](../../magpie/internal/agent/agent.go#L205) |
-| Follow | field_declaration | Agent | [210](../../magpie/internal/agent/agent.go#L210) |
-| RenameRefs | field_declaration | Agent | [215](../../magpie/internal/agent/agent.go#L215) |
-| Check | field_declaration | Agent | [220](../../magpie/internal/agent/agent.go#L220) |
-| LastUsed | field_declaration | Agent | [224](../../magpie/internal/agent/agent.go#L224) |
-| Reached | field_declaration | Agent | [228](../../magpie/internal/agent/agent.go#L228) |
-| WSL | field_declaration | Agent | [231](../../magpie/internal/agent/agent.go#L231) |
-| Home | field_declaration | Agent | [236](../../magpie/internal/agent/agent.go#L236) |
-| Gateway | field_declaration | Agent | [239](../../magpie/internal/agent/agent.go#L239) |
-| Import | field_declaration | Agent | [246](../../magpie/internal/agent/agent.go#L246) |
-| Added | field_declaration | Agent | [247](../../magpie/internal/agent/agent.go#L247) |
-| Launch | field_declaration | Agent | [251](../../magpie/internal/agent/agent.go#L251) |
-| Typed | field_declaration | Agent | [255](../../magpie/internal/agent/agent.go#L255) |
-| SplitSuffix | field_declaration | Agent | [267](../../magpie/internal/agent/agent.go#L267) |
-| Spelled | field_declaration | Agent | [274](../../magpie/internal/agent/agent.go#L274) |
-| ModelAliases | field_declaration | Agent | [279](../../magpie/internal/agent/agent.go#L279) |
-| detect | field_declaration | Agent | [282](../../magpie/internal/agent/agent.go#L282) |
-| reach | field_declaration | Agent | [286](../../magpie/internal/agent/agent.go#L286) |
-| reachFrom | field_declaration | Agent | [291](../../magpie/internal/agent/agent.go#L291) |
-| move | field_declaration | Agent | [294](../../magpie/internal/agent/agent.go#L294) |
-| viaProxy | field_declaration | Agent | [299](../../magpie/internal/agent/agent.go#L299) |
-| dirShared | field_declaration | Agent | [303](../../magpie/internal/agent/agent.go#L303) |
-| shared | field_declaration | Agent | [308](../../magpie/internal/agent/agent.go#L308) |
-| pathOwn | field_declaration | Agent | [312](../../magpie/internal/agent/agent.go#L312) |
-| sign | field_declaration | Agent | [316](../../magpie/internal/agent/agent.go#L316) |
-| Running | var_spec |  | [329](../../magpie/internal/agent/agent.go#L329) |
-| SharedName | method_declaration |  | [345](../../magpie/internal/agent/agent.go#L345) |
-| SharedHere | method_declaration |  | [357](../../magpie/internal/agent/agent.go#L357) |
-| Detected | method_declaration |  | [362](../../magpie/internal/agent/agent.go#L362) |
-| binAt | function_declaration |  | [401](../../magpie/internal/agent/agent.go#L401) |
-| agentDir | function_declaration |  | [414](../../magpie/internal/agent/agent.go#L414) |
-| leftover | var_spec |  | [435](../../magpie/internal/agent/agent.go#L435) |
-| Taken | function_declaration |  | [439](../../magpie/internal/agent/agent.go#L439) |
-| goProgram | function_declaration |  | [457](../../magpie/internal/agent/agent.go#L457) |
-| goBuildInfoMagic | var_spec |  | [482](../../magpie/internal/agent/agent.go#L482) |
-| hasGoMagic | function_declaration |  | [490](../../magpie/internal/agent/agent.go#L490) |
-| goProgramKey | type_spec |  | [512](../../magpie/internal/agent/agent.go#L512) |
-| path | field_declaration | goProgramKey | [513](../../magpie/internal/agent/agent.go#L513) |
-| size | field_declaration | goProgramKey | [514](../../magpie/internal/agent/agent.go#L514) |
-| mod | field_declaration | goProgramKey | [515](../../magpie/internal/agent/agent.go#L515) |
+| Zero | field_declaration | Option | [40](../../magpie/internal/agent/agent.go#L40) |
+| Rate | field_declaration | Option | [44](../../magpie/internal/agent/agent.go#L44) |
+| RateWas | field_declaration | Option | [45](../../magpie/internal/agent/agent.go#L45) |
+| Context | field_declaration | Option | [48](../../magpie/internal/agent/agent.go#L48) |
+| Takes | field_declaration | Option | [52](../../magpie/internal/agent/agent.go#L52) |
+| Direct | field_declaration | Option | [56](../../magpie/internal/agent/agent.go#L56) |
+| Via | field_declaration | Option | [60](../../magpie/internal/agent/agent.go#L60) |
+| Same | field_declaration | Option | [64](../../magpie/internal/agent/agent.go#L64) |
+| Served | field_declaration | Option | [70](../../magpie/internal/agent/agent.go#L70) |
+| Alias | field_declaration | Option | [74](../../magpie/internal/agent/agent.go#L74) |
+| FastFor | field_declaration | Option | [79](../../magpie/internal/agent/agent.go#L79) |
+| Fast | field_declaration | Option | [80](../../magpie/internal/agent/agent.go#L80) |
+| OwnFast | field_declaration | Option | [84](../../magpie/internal/agent/agent.go#L84) |
+| UltraOK | field_declaration | Option | [88](../../magpie/internal/agent/agent.go#L88) |
+| Ultra | field_declaration | Option | [89](../../magpie/internal/agent/agent.go#L89) |
+| own | field_declaration | Option | [92](../../magpie/internal/agent/agent.go#L92) |
+| sub | field_declaration | Option | [95](../../magpie/internal/agent/agent.go#L95) |
+| Field | type_spec |  | [101](../../magpie/internal/agent/agent.go#L101) |
+| Key | field_declaration | Field | [102](../../magpie/internal/agent/agent.go#L102) |
+| Label | field_declaration | Field | [103](../../magpie/internal/agent/agent.go#L103) |
+| Get | field_declaration | Field | [104](../../magpie/internal/agent/agent.go#L104) |
+| Set | field_declaration | Field | [105](../../magpie/internal/agent/agent.go#L105) |
+| Options | field_declaration | Field | [106](../../magpie/internal/agent/agent.go#L106) |
+| Quiet | field_declaration | Field | [109](../../magpie/internal/agent/agent.go#L109) |
+| Live | field_declaration | Field | [114](../../magpie/internal/agent/agent.go#L114) |
+| Follows | field_declaration | Field | [118](../../magpie/internal/agent/agent.go#L118) |
+| Agent | type_spec |  | [122](../../magpie/internal/agent/agent.go#L122) |
+| ID | field_declaration | Agent | [123](../../magpie/internal/agent/agent.go#L123) |
+| Name | field_declaration | Agent | [124](../../magpie/internal/agent/agent.go#L124) |
+| Icon | field_declaration | Agent | [125](../../magpie/internal/agent/agent.go#L125) |
+| Aliases | field_declaration | Agent | [126](../../magpie/internal/agent/agent.go#L126) |
+| Bin | field_declaration | Agent | [127](../../magpie/internal/agent/agent.go#L127) |
+| Dir | field_declaration | Agent | [128](../../magpie/internal/agent/agent.go#L128) |
+| Path | field_declaration | Agent | [129](../../magpie/internal/agent/agent.go#L129) |
+| Plugin | field_declaration | Agent | [132](../../magpie/internal/agent/agent.go#L132) |
+| Fields | field_declaration | Agent | [133](../../magpie/internal/agent/agent.go#L133) |
+| Native | field_declaration | Agent | [134](../../magpie/internal/agent/agent.go#L134) |
+| Notice | field_declaration | Agent | [137](../../magpie/internal/agent/agent.go#L137) |
+| UA | field_declaration | Agent | [140](../../magpie/internal/agent/agent.go#L140) |
+| ListsModels | field_declaration | Agent | [147](../../magpie/internal/agent/agent.go#L147) |
+| NoNames | field_declaration | Agent | [155](../../magpie/internal/agent/agent.go#L155) |
+| Sync | field_declaration | Agent | [159](../../magpie/internal/agent/agent.go#L159) |
+| ListOnly | field_declaration | Agent | [169](../../magpie/internal/agent/agent.go#L169) |
+| Unwire | field_declaration | Agent | [175](../../magpie/internal/agent/agent.go#L175) |
+| Restore | field_declaration | Agent | [179](../../magpie/internal/agent/agent.go#L179) |
+| Join | field_declaration | Agent | [184](../../magpie/internal/agent/agent.go#L184) |
+| Joined | field_declaration | Agent | [187](../../magpie/internal/agent/agent.go#L187) |
+| Beside | field_declaration | Agent | [192](../../magpie/internal/agent/agent.go#L192) |
+| OwnVia | field_declaration | Agent | [198](../../magpie/internal/agent/agent.go#L198) |
+| AppOut | field_declaration | Agent | [203](../../magpie/internal/agent/agent.go#L203) |
+| AppOutOff | field_declaration | Agent | [208](../../magpie/internal/agent/agent.go#L208) |
+| HoldMatters | field_declaration | Agent | [214](../../magpie/internal/agent/agent.go#L214) |
+| SideModel | field_declaration | Agent | [220](../../magpie/internal/agent/agent.go#L220) |
+| Routed | field_declaration | Agent | [225](../../magpie/internal/agent/agent.go#L225) |
+| FailingOver | field_declaration | Agent | [231](../../magpie/internal/agent/agent.go#L231) |
+| EndFailover | field_declaration | Agent | [236](../../magpie/internal/agent/agent.go#L236) |
+| TakeLeftovers | field_declaration | Agent | [243](../../magpie/internal/agent/agent.go#L243) |
+| Follow | field_declaration | Agent | [248](../../magpie/internal/agent/agent.go#L248) |
+| RenameRefs | field_declaration | Agent | [253](../../magpie/internal/agent/agent.go#L253) |
+| Check | field_declaration | Agent | [258](../../magpie/internal/agent/agent.go#L258) |
+| LastUsed | field_declaration | Agent | [262](../../magpie/internal/agent/agent.go#L262) |
+| Reached | field_declaration | Agent | [266](../../magpie/internal/agent/agent.go#L266) |
+| WSL | field_declaration | Agent | [269](../../magpie/internal/agent/agent.go#L269) |
+| Home | field_declaration | Agent | [274](../../magpie/internal/agent/agent.go#L274) |
+| Gateway | field_declaration | Agent | [277](../../magpie/internal/agent/agent.go#L277) |
+| Import | field_declaration | Agent | [284](../../magpie/internal/agent/agent.go#L284) |
+| Added | field_declaration | Agent | [285](../../magpie/internal/agent/agent.go#L285) |
+| Launch | field_declaration | Agent | [289](../../magpie/internal/agent/agent.go#L289) |
+| Typed | field_declaration | Agent | [293](../../magpie/internal/agent/agent.go#L293) |
+| Start | field_declaration | Agent | [297](../../magpie/internal/agent/agent.go#L297) |
+| SplitSuffix | field_declaration | Agent | [309](../../magpie/internal/agent/agent.go#L309) |
+| Spelled | field_declaration | Agent | [316](../../magpie/internal/agent/agent.go#L316) |
+| ModelAliases | field_declaration | Agent | [321](../../magpie/internal/agent/agent.go#L321) |
+| Telemetry | field_declaration | Agent | [325](../../magpie/internal/agent/agent.go#L325) |
+| detect | field_declaration | Agent | [328](../../magpie/internal/agent/agent.go#L328) |
+| reach | field_declaration | Agent | [332](../../magpie/internal/agent/agent.go#L332) |
+| reachFrom | field_declaration | Agent | [337](../../magpie/internal/agent/agent.go#L337) |
+| wslVersion | field_declaration | Agent | [340](../../magpie/internal/agent/agent.go#L340) |
+| unreached | field_declaration | Agent | [343](../../magpie/internal/agent/agent.go#L343) |
+| move | field_declaration | Agent | [346](../../magpie/internal/agent/agent.go#L346) |
+| viaProxy | field_declaration | Agent | [351](../../magpie/internal/agent/agent.go#L351) |
+| through | field_declaration | Agent | [355](../../magpie/internal/agent/agent.go#L355) |
+| dirShared | field_declaration | Agent | [359](../../magpie/internal/agent/agent.go#L359) |
+| shared | field_declaration | Agent | [364](../../magpie/internal/agent/agent.go#L364) |
+| pathOwn | field_declaration | Agent | [368](../../magpie/internal/agent/agent.go#L368) |
+| sign | field_declaration | Agent | [372](../../magpie/internal/agent/agent.go#L372) |
+| binNot | field_declaration | Agent | [377](../../magpie/internal/agent/agent.go#L377) |
+| binsOwn | method_declaration |  | [383](../../magpie/internal/agent/agent.go#L383) |
+| Running | var_spec |  | [397](../../magpie/internal/agent/agent.go#L397) |
+| SharedName | method_declaration |  | [413](../../magpie/internal/agent/agent.go#L413) |

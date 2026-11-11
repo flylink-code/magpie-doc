@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/host.go) · page 1/3
 
-Source SHA-256: e480ded32a41912649555756171fb18be22ea15b4097128a087a8659dd290d6c
+Source SHA-256: bc207cab1fba62a4ef8ba0250e5dd662e106ef491195571fa2155315a755c008
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| hostJS | var_spec |  | [35](../../magpie/internal/plugin/host.go#L35) |
-| piJS | var_spec |  | [41](../../magpie/internal/plugin/host.go#L41) |
-| message | type_spec |  | [44](../../magpie/internal/plugin/host.go#L44) |
-| ID | field_declaration | message | [45](../../magpie/internal/plugin/host.go#L45) |
-| Result | field_declaration | message | [46](../../magpie/internal/plugin/host.go#L46) |
-| Error | field_declaration | message | [47](../../magpie/internal/plugin/host.go#L47) |
-| Message | field_declaration | message::Error | [48](../../magpie/internal/plugin/host.go#L48) |
-| Event | field_declaration | message | [50](../../magpie/internal/plugin/host.go#L50) |
-| Status | field_declaration | message | [51](../../magpie/internal/plugin/host.go#L51) |
-| Headers | field_declaration | message | [52](../../magpie/internal/plugin/host.go#L52) |
-| Data | field_declaration | message | [53](../../magpie/internal/plugin/host.go#L53) |
-| raw | field_declaration | message | [56](../../magpie/internal/plugin/host.go#L56) |
-| Provider | field_declaration | message | [57](../../magpie/internal/plugin/host.go#L57) |
-| Account | field_declaration | message | [58](../../magpie/internal/plugin/host.go#L58) |
-| Said | field_declaration | message | [59](../../magpie/internal/plugin/host.go#L59) |
-| Level | field_declaration | message | [60](../../magpie/internal/plugin/host.go#L60) |
-| Message | field_declaration | message | [61](../../magpie/internal/plugin/host.go#L61) |
-| Title | field_declaration | message | [62](../../magpie/internal/plugin/host.go#L62) |
-| Variant | field_declaration | message | [63](../../magpie/internal/plugin/host.go#L63) |
-| Count | field_declaration | message | [64](../../magpie/internal/plugin/host.go#L64) |
-| callState | type_spec |  | [67](../../magpie/internal/plugin/host.go#L67) |
-| callSending | const_spec |  | [70](../../magpie/internal/plugin/host.go#L70) |
-| callActive | const_spec |  | [71](../../magpie/internal/plugin/host.go#L71) |
-| callDraining | const_spec |  | [72](../../magpie/internal/plugin/host.go#L72) |
-| callAborting | const_spec |  | [73](../../magpie/internal/plugin/host.go#L73) |
-| callReleased | const_spec |  | [74](../../magpie/internal/plugin/host.go#L74) |
-| callEvent | type_spec |  | [77](../../magpie/internal/plugin/host.go#L77) |
-| callAccepted | const_spec |  | [80](../../magpie/internal/plugin/host.go#L80) |
-| callAnswered | const_spec |  | [81](../../magpie/internal/plugin/host.go#L81) |
-| callCancelled | const_spec |  | [82](../../magpie/internal/plugin/host.go#L82) |
-| callConsumed | const_spec |  | [83](../../magpie/internal/plugin/host.go#L83) |
-| callAbortWritten | const_spec |  | [84](../../magpie/internal/plugin/host.go#L84) |
-| callHostFailed | const_spec |  | [85](../../magpie/internal/plugin/host.go#L85) |
-| call | type_spec |  | [88](../../magpie/internal/plugin/host.go#L88) |
-| done | field_declaration | call | [89](../../magpie/internal/plugin/host.go#L89) |
-| closed | field_declaration | call | [90](../../magpie/internal/plugin/host.go#L90) |
-| stream | field_declaration | call | [95](../../magpie/internal/plugin/host.go#L95) |
-| cancellable | field_declaration | call | [96](../../magpie/internal/plugin/host.go#L96) |
-| mu | field_declaration | call | [97](../../magpie/internal/plugin/host.go#L97) |
-| queue | field_declaration | call | [98](../../magpie/internal/plugin/host.go#L98) |
-| queued | field_declaration | call | [99](../../magpie/internal/plugin/host.go#L99) |
-| over | field_declaration | call | [100](../../magpie/internal/plugin/host.go#L100) |
-| stopped | field_declaration | call | [101](../../magpie/internal/plugin/host.go#L101) |
-| wake | field_declaration | call | [102](../../magpie/internal/plugin/host.go#L102) |
-| window | field_declaration | call | [109](../../magpie/internal/plugin/host.go#L109) |
-| owed | field_declaration | call | [110](../../magpie/internal/plugin/host.go#L110) |
-| headed | field_declaration | call | [113](../../magpie/internal/plugin/host.go#L113) |
-| h | field_declaration | call | [117](../../magpie/internal/plugin/host.go#L117) |
-| id | field_declaration | call | [118](../../magpie/internal/plugin/host.go#L118) |
-| state | field_declaration | call | [122](../../magpie/internal/plugin/host.go#L122) |
-| terminal | field_declaration | call | [123](../../magpie/internal/plugin/host.go#L123) |
-| stopCancel | field_declaration | call | [128](../../magpie/internal/plugin/host.go#L128) |
-| streamWindow | var_spec |  | [141](../../magpie/internal/plugin/host.go#L141) |
-| streamBudget | var_spec |  | [142](../../magpie/internal/plugin/host.go#L142) |
-| maxFrame | var_spec |  | [143](../../magpie/internal/plugin/host.go#L143) |
-| frameOverhead | var_spec |  | [150](../../magpie/internal/plugin/host.go#L150) |
-| rpcReserve | var_spec |  | [151](../../magpie/internal/plugin/host.go#L151) |
-| maxWireLine | var_spec |  | [155](../../magpie/internal/plugin/host.go#L155) |
-| maxHeadBytes | var_spec |  | [162](../../magpie/internal/plugin/host.go#L162) |
-| maxHeadEntries | var_spec |  | [163](../../magpie/internal/plugin/host.go#L163) |
-| headEntryCost | var_spec |  | [164](../../magpie/internal/plugin/host.go#L164) |
-| errTooManyCalls | var_spec |  | [165](../../magpie/internal/plugin/host.go#L165) |
-| errProtocolOverrun | var_spec |  | [166](../../magpie/internal/plugin/host.go#L166) |
-| errHostGone | var_spec |  | [167](../../magpie/internal/plugin/host.go#L167) |
-| errLineTooLong | var_spec |  | [168](../../magpie/internal/plugin/host.go#L168) |
-| callLimit | function_declaration |  | [174](../../magpie/internal/plugin/host.go#L174) |
-| streamLimit | function_declaration |  | [180](../../magpie/internal/plugin/host.go#L180) |
-| push | method_declaration |  | [186](../../magpie/internal/plugin/host.go#L186) |
-| rejectFrameLocked | method_declaration |  | [240](../../magpie/internal/plugin/host.go#L240) |
-| pop | method_declaration |  | [251](../../magpie/internal/plugin/host.go#L251) |
-| credit | method_declaration |  | [270](../../magpie/internal/plugin/host.go#L270) |
-| givenUp | method_declaration |  | [290](../../magpie/internal/plugin/host.go#L290) |
-| watchCtx | method_declaration |  | [301](../../magpie/internal/plugin/host.go#L301) |
-| transitionLocked | method_declaration |  | [317](../../magpie/internal/plugin/host.go#L317) |
-| Message | field_declaration | transitionLocked | [345](../../magpie/internal/plugin/host.go#L345) |
-| transition | method_declaration |  | [388](../../magpie/internal/plugin/host.go#L388) |
-| settle | method_declaration |  | [397](../../magpie/internal/plugin/host.go#L397) |
-| release | method_declaration |  | [398](../../magpie/internal/plugin/host.go#L398) |
-| result | method_declaration |  | [400](../../magpie/internal/plugin/host.go#L400) |
-| notify | method_declaration |  | [407](../../magpie/internal/plugin/host.go#L407) |
-| host | type_spec |  | [415](../../magpie/internal/plugin/host.go#L415) |
-| cmd | field_declaration | host | [416](../../magpie/internal/plugin/host.go#L416) |
-| in | field_declaration | host | [417](../../magpie/internal/plugin/host.go#L417) |
-| out | field_declaration | host | [422](../../magpie/internal/plugin/host.go#L422) |
-| outSpace | field_declaration | host | [423](../../magpie/internal/plugin/host.go#L423) |
-| mu | field_declaration | host | [424](../../magpie/internal/plugin/host.go#L424) |
-| calls | field_declaration | host | [425](../../magpie/internal/plugin/host.go#L425) |
-| next | field_declaration | host | [426](../../magpie/internal/plugin/host.go#L426) |
-| dead | field_declaration | host | [427](../../magpie/internal/plugin/host.go#L427) |
-| err | field_declaration | host | [428](../../magpie/internal/plugin/host.go#L428) |
-| loaded | field_declaration | host | [429](../../magpie/internal/plugin/host.go#L429) |
-| renewing | field_declaration | host | [432](../../magpie/internal/plugin/host.go#L432) |
-| slots | field_declaration | host | [435](../../magpie/internal/plugin/host.go#L435) |
-| streams | field_declaration | host | [438](../../magpie/internal/plugin/host.go#L438) |
-| ctrlMu | field_declaration | host | [443](../../magpie/internal/plugin/host.go#L443) |
-| ctrl | field_declaration | host | [444](../../magpie/internal/plugin/host.go#L444) |
-| ctrlWake | field_declaration | host | [445](../../magpie/internal/plugin/host.go#L445) |
-| ctx | field_declaration | host | [448](../../magpie/internal/plugin/host.go#L448) |
-| cancel | field_declaration | host | [449](../../magpie/internal/plugin/host.go#L449) |
-| maxLine | field_declaration | host | [451](../../magpie/internal/plugin/host.go#L451) |
+| hostJS | var_spec |  | [38](../../magpie/internal/plugin/host.go#L38) |
+| piJS | var_spec |  | [44](../../magpie/internal/plugin/host.go#L44) |
+| message | type_spec |  | [47](../../magpie/internal/plugin/host.go#L47) |
+| ID | field_declaration | message | [48](../../magpie/internal/plugin/host.go#L48) |
+| Result | field_declaration | message | [49](../../magpie/internal/plugin/host.go#L49) |
+| Error | field_declaration | message | [50](../../magpie/internal/plugin/host.go#L50) |
+| Message | field_declaration | message::Error | [51](../../magpie/internal/plugin/host.go#L51) |
+| Event | field_declaration | message | [53](../../magpie/internal/plugin/host.go#L53) |
+| Status | field_declaration | message | [54](../../magpie/internal/plugin/host.go#L54) |
+| Headers | field_declaration | message | [55](../../magpie/internal/plugin/host.go#L55) |
+| Data | field_declaration | message | [56](../../magpie/internal/plugin/host.go#L56) |
+| raw | field_declaration | message | [59](../../magpie/internal/plugin/host.go#L59) |
+| Provider | field_declaration | message | [60](../../magpie/internal/plugin/host.go#L60) |
+| Account | field_declaration | message | [61](../../magpie/internal/plugin/host.go#L61) |
+| Said | field_declaration | message | [62](../../magpie/internal/plugin/host.go#L62) |
+| Level | field_declaration | message | [63](../../magpie/internal/plugin/host.go#L63) |
+| Message | field_declaration | message | [64](../../magpie/internal/plugin/host.go#L64) |
+| Title | field_declaration | message | [65](../../magpie/internal/plugin/host.go#L65) |
+| Variant | field_declaration | message | [66](../../magpie/internal/plugin/host.go#L66) |
+| Count | field_declaration | message | [67](../../magpie/internal/plugin/host.go#L67) |
+| Loads | field_declaration | message | [70](../../magpie/internal/plugin/host.go#L70) |
+| Usage | field_declaration | message | [73](../../magpie/internal/plugin/host.go#L73) |
+| OwnCall | type_spec |  | [82](../../magpie/internal/plugin/host.go#L82) |
+| Kind | field_declaration | OwnCall | [83](../../magpie/internal/plugin/host.go#L83) |
+| Model | field_declaration | OwnCall | [84](../../magpie/internal/plugin/host.go#L84) |
+| Input | field_declaration | OwnCall | [85](../../magpie/internal/plugin/host.go#L85) |
+| Output | field_declaration | OwnCall | [86](../../magpie/internal/plugin/host.go#L86) |
+| CacheRead | field_declaration | OwnCall | [87](../../magpie/internal/plugin/host.go#L87) |
+| CacheWrite | field_declaration | OwnCall | [88](../../magpie/internal/plugin/host.go#L88) |
+| Status | field_declaration | OwnCall | [89](../../magpie/internal/plugin/host.go#L89) |
+| Millis | field_declaration | OwnCall | [90](../../magpie/internal/plugin/host.go#L90) |
+| Error | field_declaration | OwnCall | [91](../../magpie/internal/plugin/host.go#L91) |
+| callState | type_spec |  | [94](../../magpie/internal/plugin/host.go#L94) |
+| callSending | const_spec |  | [97](../../magpie/internal/plugin/host.go#L97) |
+| callActive | const_spec |  | [98](../../magpie/internal/plugin/host.go#L98) |
+| callDraining | const_spec |  | [99](../../magpie/internal/plugin/host.go#L99) |
+| callAborting | const_spec |  | [100](../../magpie/internal/plugin/host.go#L100) |
+| callReleased | const_spec |  | [101](../../magpie/internal/plugin/host.go#L101) |
+| callEvent | type_spec |  | [104](../../magpie/internal/plugin/host.go#L104) |
+| callAccepted | const_spec |  | [107](../../magpie/internal/plugin/host.go#L107) |
+| callAnswered | const_spec |  | [108](../../magpie/internal/plugin/host.go#L108) |
+| callCancelled | const_spec |  | [109](../../magpie/internal/plugin/host.go#L109) |
+| callConsumed | const_spec |  | [110](../../magpie/internal/plugin/host.go#L110) |
+| callAbortWritten | const_spec |  | [111](../../magpie/internal/plugin/host.go#L111) |
+| callHostFailed | const_spec |  | [112](../../magpie/internal/plugin/host.go#L112) |
+| call | type_spec |  | [115](../../magpie/internal/plugin/host.go#L115) |
+| done | field_declaration | call | [116](../../magpie/internal/plugin/host.go#L116) |
+| closed | field_declaration | call | [117](../../magpie/internal/plugin/host.go#L117) |
+| stream | field_declaration | call | [122](../../magpie/internal/plugin/host.go#L122) |
+| cancellable | field_declaration | call | [123](../../magpie/internal/plugin/host.go#L123) |
+| mu | field_declaration | call | [124](../../magpie/internal/plugin/host.go#L124) |
+| queue | field_declaration | call | [125](../../magpie/internal/plugin/host.go#L125) |
+| queued | field_declaration | call | [126](../../magpie/internal/plugin/host.go#L126) |
+| over | field_declaration | call | [127](../../magpie/internal/plugin/host.go#L127) |
+| stopped | field_declaration | call | [128](../../magpie/internal/plugin/host.go#L128) |
+| wake | field_declaration | call | [129](../../magpie/internal/plugin/host.go#L129) |
+| window | field_declaration | call | [136](../../magpie/internal/plugin/host.go#L136) |
+| owed | field_declaration | call | [137](../../magpie/internal/plugin/host.go#L137) |
+| headed | field_declaration | call | [140](../../magpie/internal/plugin/host.go#L140) |
+| h | field_declaration | call | [144](../../magpie/internal/plugin/host.go#L144) |
+| id | field_declaration | call | [145](../../magpie/internal/plugin/host.go#L145) |
+| state | field_declaration | call | [149](../../magpie/internal/plugin/host.go#L149) |
+| terminal | field_declaration | call | [150](../../magpie/internal/plugin/host.go#L150) |
+| stopCancel | field_declaration | call | [155](../../magpie/internal/plugin/host.go#L155) |
+| streamWindow | var_spec |  | [168](../../magpie/internal/plugin/host.go#L168) |
+| streamBudget | var_spec |  | [169](../../magpie/internal/plugin/host.go#L169) |
+| maxFrame | var_spec |  | [170](../../magpie/internal/plugin/host.go#L170) |
+| frameOverhead | var_spec |  | [177](../../magpie/internal/plugin/host.go#L177) |
+| rpcReserve | var_spec |  | [178](../../magpie/internal/plugin/host.go#L178) |
+| maxWireLine | var_spec |  | [182](../../magpie/internal/plugin/host.go#L182) |
+| streamWait | var_spec |  | [189](../../magpie/internal/plugin/host.go#L189) |
+| maxHeadBytes | var_spec |  | [196](../../magpie/internal/plugin/host.go#L196) |
+| maxHeadEntries | var_spec |  | [197](../../magpie/internal/plugin/host.go#L197) |
+| headEntryCost | var_spec |  | [198](../../magpie/internal/plugin/host.go#L198) |
+| errTooManyCalls | var_spec |  | [199](../../magpie/internal/plugin/host.go#L199) |
+| errProtocolOverrun | var_spec |  | [200](../../magpie/internal/plugin/host.go#L200) |
+| errHostGone | var_spec |  | [201](../../magpie/internal/plugin/host.go#L201) |
+| errLineTooLong | var_spec |  | [202](../../magpie/internal/plugin/host.go#L202) |
+| callLimit | function_declaration |  | [208](../../magpie/internal/plugin/host.go#L208) |
+| streamLimit | function_declaration |  | [214](../../magpie/internal/plugin/host.go#L214) |
+| push | method_declaration |  | [220](../../magpie/internal/plugin/host.go#L220) |
+| rejectFrameLocked | method_declaration |  | [274](../../magpie/internal/plugin/host.go#L274) |
+| pop | method_declaration |  | [285](../../magpie/internal/plugin/host.go#L285) |
+| credit | method_declaration |  | [304](../../magpie/internal/plugin/host.go#L304) |
+| givenUp | method_declaration |  | [324](../../magpie/internal/plugin/host.go#L324) |
+| watchCtx | method_declaration |  | [335](../../magpie/internal/plugin/host.go#L335) |
+| transitionLocked | method_declaration |  | [351](../../magpie/internal/plugin/host.go#L351) |
+| Message | field_declaration | transitionLocked | [379](../../magpie/internal/plugin/host.go#L379) |
+| transition | method_declaration |  | [422](../../magpie/internal/plugin/host.go#L422) |
+| settle | method_declaration |  | [431](../../magpie/internal/plugin/host.go#L431) |
+| release | method_declaration |  | [432](../../magpie/internal/plugin/host.go#L432) |
+| result | method_declaration |  | [434](../../magpie/internal/plugin/host.go#L434) |
+| notify | method_declaration |  | [441](../../magpie/internal/plugin/host.go#L441) |
+| host | type_spec |  | [449](../../magpie/internal/plugin/host.go#L449) |
+| cmd | field_declaration | host | [450](../../magpie/internal/plugin/host.go#L450) |
+| in | field_declaration | host | [451](../../magpie/internal/plugin/host.go#L451) |
+| out | field_declaration | host | [456](../../magpie/internal/plugin/host.go#L456) |
+| outSpace | field_declaration | host | [457](../../magpie/internal/plugin/host.go#L457) |
+| mu | field_declaration | host | [458](../../magpie/internal/plugin/host.go#L458) |
+| calls | field_declaration | host | [459](../../magpie/internal/plugin/host.go#L459) |

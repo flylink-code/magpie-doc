@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/redact_phase.go) · page 1/1
 
-Source SHA-256: 14bcafeaac63180111b193928530718fc5a9f8b1ec588b706c335b711708bd85
+Source SHA-256: ff8f18aa829c12d816fbe2e19e270f50a80de60c4e98adebe6ba2f3b5f01b658
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,5 +20,5 @@ Source SHA-256: 14bcafeaac63180111b193928530718fc5a9f8b1ec588b706c335b711708bd85
 | restore | var_spec | noteRedacting | [51](../../magpie/internal/gateway/redact_phase.go#L51) |
 | redacting | method_declaration |  | [67](../../magpie/internal/gateway/redact_phase.go#L67) |
 | maskedFor | method_declaration |  | [75](../../magpie/internal/gateway/redact_phase.go#L75) |
-| maskingMs | function_declaration |  | [91](../../magpie/internal/gateway/redact_phase.go#L91) |
-| showRedacting | method_declaration |  | [101](../../magpie/internal/gateway/redact_phase.go#L101) |
+| maskingMs | function_declaration |  | [94](../../magpie/internal/gateway/redact_phase.go#L94) |
+| showRedacting | method_declaration |  | [108](../../magpie/internal/gateway/redact_phase.go#L108) |

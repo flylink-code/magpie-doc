@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_autoreset.go) · page 1/1
 
-Source SHA-256: 6b713c4a38d33c202b44d085d8de6d2976032905a756714200a6559695481e10
+Source SHA-256: 7a808c9e962cd6d8a45d0b068fc67e61c65cb193eabd6ca87265e83513671d59
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,3 +13,5 @@ Source SHA-256: 6b713c4a38d33c202b44d085d8de6d2976032905a756714200a6559695481e10
 | autoResetSignedIn | method_declaration |  | [60](../../magpie/internal/gateway/codex_autoreset.go#L60) |
 | autoResetOf | function_declaration |  | [74](../../magpie/internal/gateway/codex_autoreset.go#L74) |
 | unhold | function_declaration |  | [92](../../magpie/internal/gateway/codex_autoreset.go#L92) |
+| resetBeforeCredits | method_declaration |  | [113](../../magpie/internal/gateway/codex_autoreset.go#L113) |
+| resetBeforeCreditsOn | method_declaration |  | [130](../../magpie/internal/gateway/codex_autoreset.go#L130) |

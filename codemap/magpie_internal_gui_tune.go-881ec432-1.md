@@ -4,30 +4,76 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/tune.go) · page 1/1
 
-Source SHA-256: d9e387939d4d554f447ac5159a066e69435159eacbf48b6a173ac5393b199760
+Source SHA-256: 45f471ba21b020487d9d106f951fc7c7a2db1926153e7ec4df17c7e8db3dc8bf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tuneAdvice | type_spec |  | [23](../../magpie/internal/gui/tune.go#L23) |
-| Knob | field_declaration | tuneAdvice | [24](../../magpie/internal/gui/tune.go#L24) |
-| Model | field_declaration | tuneAdvice | [25](../../magpie/internal/gui/tune.go#L25) |
-| Setting | field_declaration | tuneAdvice | [26](../../magpie/internal/gui/tune.go#L26) |
-| Compact | field_declaration | tuneAdvice | [27](../../magpie/internal/gui/tune.go#L27) |
-| TTL | field_declaration | tuneAdvice | [28](../../magpie/internal/gui/tune.go#L28) |
-| tuneAgent | type_spec |  | [31](../../magpie/internal/gui/tune.go#L31) |
-| Agent | field_declaration | tuneAgent | [32](../../magpie/internal/gui/tune.go#L32) |
-| Calls | field_declaration | tuneAgent | [33](../../magpie/internal/gui/tune.go#L33) |
-| Advice | field_declaration | tuneAgent | [34](../../magpie/internal/gui/tune.go#L34) |
-| tuneState | type_spec |  | [37](../../magpie/internal/gui/tune.go#L37) |
-| Days | field_declaration | tuneState | [38](../../magpie/internal/gui/tune.go#L38) |
-| Agents | field_declaration | tuneState | [39](../../magpie/internal/gui/tune.go#L39) |
-| tuneOf | function_declaration |  | [43](../../magpie/internal/gui/tune.go#L43) |
-| main | var_spec | tuneOf | [60](../../magpie/internal/gui/tune.go#L60) |
-| knob | field_declaration | tuneOf | [93](../../magpie/internal/gui/tune.go#L93) |
-| calls | field_declaration | tuneOf | [94](../../magpie/internal/gui/tune.go#L94) |
-| codexWindow | function_declaration |  | [137](../../magpie/internal/gui/tune.go#L137) |
-| tuneRoutes | function_declaration |  | [172](../../magpie/internal/gui/tune.go#L172) |
-| change | type_spec | tuneRoutes | [181](../../magpie/internal/gui/tune.go#L181) |
-| Agent | field_declaration | tuneRoutes::change | [182](../../magpie/internal/gui/tune.go#L182) |
-| in | var_spec | tuneRoutes | [185](../../magpie/internal/gui/tune.go#L185) |
-| in | var_spec | tuneRoutes | [198](../../magpie/internal/gui/tune.go#L198) |
+| tuneAdvice | type_spec |  | [26](../../magpie/internal/gui/tune.go#L26) |
+| Knob | field_declaration | tuneAdvice | [27](../../magpie/internal/gui/tune.go#L27) |
+| Model | field_declaration | tuneAdvice | [28](../../magpie/internal/gui/tune.go#L28) |
+| Setting | field_declaration | tuneAdvice | [29](../../magpie/internal/gui/tune.go#L29) |
+| Compact | field_declaration | tuneAdvice | [30](../../magpie/internal/gui/tune.go#L30) |
+| TTL | field_declaration | tuneAdvice | [31](../../magpie/internal/gui/tune.go#L31) |
+| Own | field_declaration | tuneAdvice | [36](../../magpie/internal/gui/tune.go#L36) |
+| Apart | field_declaration | tuneAdvice | [40](../../magpie/internal/gui/tune.go#L40) |
+| Async | field_declaration | tuneAdvice | [43](../../magpie/internal/gui/tune.go#L43) |
+| Few | field_declaration | tuneAdvice | [47](../../magpie/internal/gui/tune.go#L47) |
+| tuneAsync | type_spec |  | [53](../../magpie/internal/gui/tune.go#L53) |
+| Percent | field_declaration | tuneAsync | [54](../../magpie/internal/gui/tune.go#L54) |
+| Value | field_declaration | tuneAsync | [55](../../magpie/internal/gui/tune.go#L55) |
+| Window | field_declaration | tuneAsync | [56](../../magpie/internal/gui/tune.go#L56) |
+| Setting | field_declaration | tuneAsync | [57](../../magpie/internal/gui/tune.go#L57) |
+| Held | field_declaration | tuneAsync | [58](../../magpie/internal/gui/tune.go#L58) |
+| codexAsyncAt | function_declaration |  | [68](../../magpie/internal/gui/tune.go#L68) |
+| tuneOwn | type_spec |  | [85](../../magpie/internal/gui/tune.go#L85) |
+| Model | field_declaration | tuneOwn | [86](../../magpie/internal/gui/tune.go#L86) |
+| Value | field_declaration | tuneOwn | [87](../../magpie/internal/gui/tune.go#L87) |
+| tuneAgent | type_spec |  | [90](../../magpie/internal/gui/tune.go#L90) |
+| Agent | field_declaration | tuneAgent | [91](../../magpie/internal/gui/tune.go#L91) |
+| Calls | field_declaration | tuneAgent | [92](../../magpie/internal/gui/tune.go#L92) |
+| Advice | field_declaration | tuneAgent | [93](../../magpie/internal/gui/tune.go#L93) |
+| tuneState | type_spec |  | [96](../../magpie/internal/gui/tune.go#L96) |
+| Days | field_declaration | tuneState | [97](../../magpie/internal/gui/tune.go#L97) |
+| Agents | field_declaration | tuneState | [98](../../magpie/internal/gui/tune.go#L98) |
+| Gateway | field_declaration | tuneState | [103](../../magpie/internal/gui/tune.go#L103) |
+| tuneOf | function_declaration |  | [107](../../magpie/internal/gui/tune.go#L107) |
+| adviseOf | function_declaration |  | [118](../../magpie/internal/gui/tune.go#L118) |
+| main | var_spec | adviseOf | [142](../../magpie/internal/gui/tune.go#L142) |
+| knob | field_declaration | adviseOf | [175](../../magpie/internal/gui/tune.go#L175) |
+| calls | field_declaration | adviseOf | [176](../../magpie/internal/gui/tune.go#L176) |
+| pricedWeights | function_declaration |  | [239](../../magpie/internal/gui/tune.go#L239) |
+| codexWindow | function_declaration |  | [285](../../magpie/internal/gui/tune.go#L285) |
+| tuneRoutes | function_declaration |  | [333](../../magpie/internal/gui/tune.go#L333) |
+| change | type_spec | tuneRoutes | [354](../../magpie/internal/gui/tune.go#L354) |
+| Agent | field_declaration | tuneRoutes::change | [355](../../magpie/internal/gui/tune.go#L355) |
+| in | var_spec | tuneRoutes | [361](../../magpie/internal/gui/tune.go#L361) |
+| in | var_spec | tuneRoutes | [377](../../magpie/internal/gui/tune.go#L377) |
+| Knob | field_declaration | tuneRoutes::in | [377](../../magpie/internal/gui/tune.go#L377) |
+| in | var_spec | tuneRoutes | [392](../../magpie/internal/gui/tune.go#L392) |
+| On | field_declaration | tuneRoutes::in | [392](../../magpie/internal/gui/tune.go#L392) |
+| in | var_spec | tuneRoutes | [407](../../magpie/internal/gui/tune.go#L407) |
+| tuneKept | var_spec |  | [430](../../magpie/internal/gui/tune.go#L430) |
+| files | field_declaration | tuneKept | [432](../../magpie/internal/gui/tune.go#L432) |
+| tuneFile | type_spec |  | [435](../../magpie/internal/gui/tune.go#L435) |
+| size | field_declaration | tuneFile | [436](../../magpie/internal/gui/tune.go#L436) |
+| mod | field_declaration | tuneFile | [437](../../magpie/internal/gui/tune.go#L437) |
+| agent | field_declaration | tuneFile | [438](../../magpie/internal/gui/tune.go#L438) |
+| calls | field_declaration | tuneFile | [439](../../magpie/internal/gui/tune.go#L439) |
+| msgs | field_declaration | tuneFile | [442](../../magpie/internal/gui/tune.go#L442) |
+| at | field_declaration | tuneFile | [443](../../magpie/internal/gui/tune.go#L443) |
+| tuneAnswer | var_spec |  | [450](../../magpie/internal/gui/tune.go#L450) |
+| days | field_declaration | tuneAnswer | [452](../../magpie/internal/gui/tune.go#L452) |
+| at | field_declaration | tuneAnswer | [453](../../magpie/internal/gui/tune.go#L453) |
+| out | field_declaration | tuneAnswer | [454](../../magpie/internal/gui/tune.go#L454) |
+| tuneFor | function_declaration |  | [458](../../magpie/internal/gui/tune.go#L458) |
+| tuneForget | function_declaration |  | [469](../../magpie/internal/gui/tune.go#L469) |
+| tuneRead | var_spec |  | [476](../../magpie/internal/gui/tune.go#L476) |
+| msgHash | function_declaration |  | [478](../../magpie/internal/gui/tune.go#L478) |
+| tuneCallsSince | function_declaration |  | [489](../../magpie/internal/gui/tune.go#L489) |
+| srcs | var_spec | tuneCallsSince | [490](../../magpie/internal/gui/tune.go#L490) |
+| claudeCacheJSON | type_spec |  | [556](../../magpie/internal/gui/tune.go#L556) |
+| Knob | field_declaration | claudeCacheJSON | [557](../../magpie/internal/gui/tune.go#L557) |
+| Value | field_declaration | claudeCacheJSON | [558](../../magpie/internal/gui/tune.go#L558) |
+| Locked | field_declaration | claudeCacheJSON | [559](../../magpie/internal/gui/tune.go#L559) |
+| claudeCacheState | function_declaration |  | [562](../../magpie/internal/gui/tune.go#L562) |
+| out | var_spec | claudeCacheState | [563](../../magpie/internal/gui/tune.go#L563) |

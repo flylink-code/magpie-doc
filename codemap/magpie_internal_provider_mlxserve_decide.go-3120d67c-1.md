@@ -4,21 +4,22 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/mlxserve_decide.go) · page 1/1
 
-Source SHA-256: eefa4720907d5514363d59a46f2e5299253935a76ca6d8758c7f3bb804c44874
+Source SHA-256: 99082b9daaee1e7177db6a5afca79fa797da07bfefde0d8aed54b669013381f1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | MLXServePreset | const_spec |  | [13](../../magpie/internal/provider/mlxserve_decide.go#L13) |
-| mlxServeDecides | method_declaration |  | [21](../../magpie/internal/provider/mlxserve_decide.go#L21) |
-| mlxServeDecisions | function_declaration |  | [26](../../magpie/internal/provider/mlxserve_decide.go#L26) |
-| mlxServeModel | type_spec |  | [30](../../magpie/internal/provider/mlxserve_decide.go#L30) |
-| ID | field_declaration | mlxServeModel | [31](../../magpie/internal/provider/mlxserve_decide.go#L31) |
-| ContextLength | field_declaration | mlxServeModel | [32](../../magpie/internal/provider/mlxserve_decide.go#L32) |
-| MaxModelLen | field_declaration | mlxServeModel | [33](../../magpie/internal/provider/mlxserve_decide.go#L33) |
-| Capabilities | field_declaration | mlxServeModel | [34](../../magpie/internal/provider/mlxserve_decide.go#L34) |
-| InputModalities | field_declaration | mlxServeModel | [35](../../magpie/internal/provider/mlxserve_decide.go#L35) |
-| listedMLXServeDecide | function_declaration |  | [41](../../magpie/internal/provider/mlxserve_decide.go#L41) |
-| out | var_spec | listedMLXServeDecide | [42](../../magpie/internal/provider/mlxserve_decide.go#L42) |
-| Data | field_declaration | listedMLXServeDecide::out | [43](../../magpie/internal/provider/mlxserve_decide.go#L43) |
-| Models | field_declaration | listedMLXServeDecide::out | [44](../../magpie/internal/provider/mlxserve_decide.go#L44) |
-| imageInput | var_spec | listedMLXServeDecide | [62](../../magpie/internal/provider/mlxserve_decide.go#L62) |
+| GPUStackPreset | const_spec |  | [16](../../magpie/internal/provider/mlxserve_decide.go#L16) |
+| mlxServeDecides | method_declaration |  | [24](../../magpie/internal/provider/mlxserve_decide.go#L24) |
+| mlxServeDecisions | function_declaration |  | [29](../../magpie/internal/provider/mlxserve_decide.go#L29) |
+| mlxServeModel | type_spec |  | [33](../../magpie/internal/provider/mlxserve_decide.go#L33) |
+| ID | field_declaration | mlxServeModel | [34](../../magpie/internal/provider/mlxserve_decide.go#L34) |
+| ContextLength | field_declaration | mlxServeModel | [35](../../magpie/internal/provider/mlxserve_decide.go#L35) |
+| MaxModelLen | field_declaration | mlxServeModel | [36](../../magpie/internal/provider/mlxserve_decide.go#L36) |
+| Capabilities | field_declaration | mlxServeModel | [37](../../magpie/internal/provider/mlxserve_decide.go#L37) |
+| InputModalities | field_declaration | mlxServeModel | [38](../../magpie/internal/provider/mlxserve_decide.go#L38) |
+| listedMLXServeDecide | function_declaration |  | [44](../../magpie/internal/provider/mlxserve_decide.go#L44) |
+| out | var_spec | listedMLXServeDecide | [45](../../magpie/internal/provider/mlxserve_decide.go#L45) |
+| Data | field_declaration | listedMLXServeDecide::out | [46](../../magpie/internal/provider/mlxserve_decide.go#L46) |
+| Models | field_declaration | listedMLXServeDecide::out | [47](../../magpie/internal/provider/mlxserve_decide.go#L47) |
+| imageInput | var_spec | listedMLXServeDecide | [65](../../magpie/internal/provider/mlxserve_decide.go#L65) |

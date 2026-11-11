@@ -4,107 +4,107 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/redact.go) · page 1/2
 
-Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
+Source SHA-256: 396ffb2850a6ba2477b170fffb3aa63b53ef176ac732fbe415c8acc4bed3a697
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Options | type_spec |  | [38](../../magpie/internal/redact/redact.go#L38) |
-| Secrets | field_declaration | Options | [39](../../magpie/internal/redact/redact.go#L39) |
-| Personal | field_declaration | Options | [40](../../magpie/internal/redact/redact.go#L40) |
-| Words | field_declaration | Options | [41](../../magpie/internal/redact/redact.go#L41) |
-| WordsAnyCase | field_declaration | Options | [44](../../magpie/internal/redact/redact.go#L44) |
-| Rules | field_declaration | Options | [45](../../magpie/internal/redact/redact.go#L45) |
-| Kinds | field_declaration | Options | [49](../../magpie/internal/redact/redact.go#L49) |
-| Model | field_declaration | Options | [51](../../magpie/internal/redact/redact.go#L51) |
-| Shape | field_declaration | Options | [54](../../magpie/internal/redact/redact.go#L54) |
-| Actions | field_declaration | Options | [60](../../magpie/internal/redact/redact.go#L60) |
-| Allow | field_declaration | Options | [63](../../magpie/internal/redact/redact.go#L63) |
-| Seen | field_declaration | Options | [66](../../magpie/internal/redact/redact.go#L66) |
-| found | field_declaration | Options | [69](../../magpie/internal/redact/redact.go#L69) |
-| sent | field_declaration | Options | [72](../../magpie/internal/redact/redact.go#L72) |
-| covers | method_declaration |  | [78](../../magpie/internal/redact/redact.go#L78) |
-| rule | type_spec |  | [97](../../magpie/internal/redact/redact.go#L97) |
-| kind | field_declaration | rule | [98](../../magpie/internal/redact/redact.go#L98) |
-| re | field_declaration | rule | [99](../../magpie/internal/redact/redact.go#L99) |
-| markers | field_declaration | rule | [100](../../magpie/internal/redact/redact.go#L100) |
-| fold | field_declaration | rule | [103](../../magpie/internal/redact/redact.go#L103) |
-| bound | field_declaration | rule | [104](../../magpie/internal/redact/redact.go#L104) |
-| ok | field_declaration | rule | [105](../../magpie/internal/redact/redact.go#L105) |
-| at | field_declaration | rule | [108](../../magpie/internal/redact/redact.go#L108) |
-| fix | field_declaration | rule | [111](../../magpie/internal/redact/redact.go#L111) |
-| back | field_declaration | rule | [115](../../magpie/internal/redact/redact.go#L115) |
-| cat | field_declaration | rule | [117](../../magpie/internal/redact/redact.go#L117) |
-| yours | field_declaration | rule | [119](../../magpie/internal/redact/redact.go#L119) |
-| anyGroup | field_declaration | rule | [122](../../magpie/internal/redact/redact.go#L122) |
-| groups | field_declaration | rule | [126](../../magpie/internal/redact/redact.go#L126) |
-| groupOK | field_declaration | rule | [127](../../magpie/internal/redact/redact.go#L127) |
-| alnum | const_spec |  | [131](../../magpie/internal/redact/redact.go#L131) |
-| tokenCh | const_spec |  | [132](../../magpie/internal/redact/redact.go#L132) |
-| digits | const_spec |  | [133](../../magpie/internal/redact/redact.go#L133) |
-| rules | var_spec |  | [136](../../magpie/internal/redact/redact.go#L136) |
-| cjkPasswordNames | var_spec |  | [186](../../magpie/internal/redact/redact.go#L186) |
-| cjkKeyNames | var_spec |  | [190](../../magpie/internal/redact/redact.go#L190) |
-| cjkCopulas | var_spec |  | [198](../../magpie/internal/redact/redact.go#L198) |
-| lowerAll | function_declaration |  | [201](../../magpie/internal/redact/redact.go#L201) |
-| cjkNamed | function_declaration |  | [211](../../magpie/internal/redact/redact.go#L211) |
-| fieldNames | type_spec |  | [218](../../magpie/internal/redact/redact.go#L218) |
-| re | field_declaration | fieldNames | [218](../../magpie/internal/redact/redact.go#L218) |
-| secretNames | var_spec |  | [222](../../magpie/internal/redact/redact.go#L222) |
-| pattern | method_declaration |  | [230](../../magpie/internal/redact/redact.go#L230) |
-| markers | method_declaration |  | [240](../../magpie/internal/redact/redact.go#L240) |
-| out | var_spec | markers | [241](../../magpie/internal/redact/redact.go#L241) |
-| quote | const_spec |  | [255](../../magpie/internal/redact/redact.go#L255) |
-| secretCh | const_spec |  | [257](../../magpie/internal/redact/redact.go#L257) |
-| placeholderRe | var_spec |  | [261](../../magpie/internal/redact/redact.go#L261) |
-| notAVariable | function_declaration |  | [264](../../magpie/internal/redact/redact.go#L264) |
-| keyValue | function_declaration |  | [274](../../magpie/internal/redact/redact.go#L274) |
-| keyAt | function_declaration |  | [287](../../magpie/internal/redact/redact.go#L287) |
-| keySeparators | var_spec |  | [302](../../magpie/internal/redact/redact.go#L302) |
-| quantityUnits | var_spec |  | [306](../../magpie/internal/redact/redact.go#L306) |
-| secretValue | function_declaration |  | [310](../../magpie/internal/redact/redact.go#L310) |
-| identPath | var_spec |  | [319](../../magpie/internal/redact/redact.go#L319) |
-| notCode | function_declaration |  | [327](../../magpie/internal/redact/redact.go#L327) |
-| notUserinfo | function_declaration |  | [349](../../magpie/internal/redact/redact.go#L349) |
-| inUserinfo | function_declaration |  | [356](../../magpie/internal/redact/redact.go#L356) |
-| realEmail | function_declaration |  | [379](../../magpie/internal/redact/redact.go#L379) |
-| docFiles | var_spec |  | [399](../../magpie/internal/redact/redact.go#L399) |
-| localTLDs | var_spec |  | [407](../../magpie/internal/redact/redact.go#L407) |
-| mailTLD | function_declaration |  | [413](../../magpie/internal/redact/redact.go#L413) |
-| fileExt | var_spec |  | [427](../../magpie/internal/redact/redact.go#L427) |
-| scaleExt | var_spec |  | [443](../../magpie/internal/redact/redact.go#L443) |
-| scaleRe | var_spec |  | [445](../../magpie/internal/redact/redact.go#L445) |
-| fileHost | function_declaration |  | [450](../../magpie/internal/redact/redact.go#L450) |
-| chineseID | function_declaration |  | [456](../../magpie/internal/redact/redact.go#L456) |
-| luhn | function_declaration |  | [465](../../magpie/internal/redact/redact.go#L465) |
-| ds | var_spec | luhn | [466](../../magpie/internal/redact/redact.go#L466) |
-| mu | var_spec |  | [491](../../magpie/internal/redact/redact.go#L491) |
-| values | var_spec |  | [492](../../magpie/internal/redact/redact.go#L492) |
-| kinds | var_spec |  | [493](../../magpie/internal/redact/redact.go#L493) |
-| keyOf | var_spec |  | [494](../../magpie/internal/redact/redact.go#L494) |
-| keyPath | var_spec |  | [495](../../magpie/internal/redact/redact.go#L495) |
-| maxValues | const_spec |  | [500](../../magpie/internal/redact/redact.go#L500) |
-| key | function_declaration |  | [502](../../magpie/internal/redact/redact.go#L502) |
-| SetKeyPath | function_declaration |  | [521](../../magpie/internal/redact/redact.go#L521) |
-| loadKey | function_declaration |  | [530](../../magpie/internal/redact/redact.go#L530) |
-| b32 | var_spec |  | [545](../../magpie/internal/redact/redact.go#L545) |
-| tag | function_declaration |  | [550](../../magpie/internal/redact/redact.go#L550) |
-| placeholder | function_declaration |  | [556](../../magpie/internal/redact/redact.go#L556) |
-| makeRoom | function_declaration |  | [571](../../magpie/internal/redact/redact.go#L571) |
-| put | method_declaration |  | [588](../../magpie/internal/redact/redact.go#L588) |
-| span | type_spec |  | [597](../../magpie/internal/redact/redact.go#L597) |
-| start | field_declaration | span | [598](../../magpie/internal/redact/redact.go#L598) |
-| kind | field_declaration | span | [599](../../magpie/internal/redact/redact.go#L599) |
-| by | field_declaration | span | [600](../../magpie/internal/redact/redact.go#L600) |
-| ByRule | const_spec |  | [607](../../magpie/internal/redact/redact.go#L607) |
-| ByYours | const_spec |  | [608](../../magpie/internal/redact/redact.go#L608) |
-| ByWord | const_spec |  | [609](../../magpie/internal/redact/redact.go#L609) |
-| ByModel | const_spec |  | [610](../../magpie/internal/redact/redact.go#L610) |
-| ByKnown | const_spec |  | [611](../../magpie/internal/redact/redact.go#L611) |
-| Warn | const_spec |  | [617](../../magpie/internal/redact/redact.go#L617) |
-| Block | const_spec |  | [618](../../magpie/internal/redact/redact.go#L618) |
-| Hit | type_spec |  | [625](../../magpie/internal/redact/redact.go#L625) |
-| Kind | field_declaration | Hit | [626](../../magpie/internal/redact/redact.go#L626) |
-| Head | field_declaration | Hit | [627](../../magpie/internal/redact/redact.go#L627) |
-| Len | field_declaration | Hit | [628](../../magpie/internal/redact/redact.go#L628) |
-| Value | function_declaration |  | [633](../../magpie/internal/redact/redact.go#L633) |
-| Hint | function_declaration |  | [643](../../magpie/internal/redact/redact.go#L643) |
+| Options | type_spec |  | [41](../../magpie/internal/redact/redact.go#L41) |
+| Secrets | field_declaration | Options | [42](../../magpie/internal/redact/redact.go#L42) |
+| Personal | field_declaration | Options | [43](../../magpie/internal/redact/redact.go#L43) |
+| Words | field_declaration | Options | [44](../../magpie/internal/redact/redact.go#L44) |
+| WordsAnyCase | field_declaration | Options | [47](../../magpie/internal/redact/redact.go#L47) |
+| WordsWhole | field_declaration | Options | [52](../../magpie/internal/redact/redact.go#L52) |
+| Rules | field_declaration | Options | [53](../../magpie/internal/redact/redact.go#L53) |
+| Kinds | field_declaration | Options | [57](../../magpie/internal/redact/redact.go#L57) |
+| Model | field_declaration | Options | [59](../../magpie/internal/redact/redact.go#L59) |
+| Route | field_declaration | Options | [64](../../magpie/internal/redact/redact.go#L64) |
+| MinScore | field_declaration | Options | [69](../../magpie/internal/redact/redact.go#L69) |
+| NamesByModel | field_declaration | Options | [73](../../magpie/internal/redact/redact.go#L73) |
+| Shape | field_declaration | Options | [76](../../magpie/internal/redact/redact.go#L76) |
+| Actions | field_declaration | Options | [82](../../magpie/internal/redact/redact.go#L82) |
+| Allow | field_declaration | Options | [85](../../magpie/internal/redact/redact.go#L85) |
+| Seen | field_declaration | Options | [88](../../magpie/internal/redact/redact.go#L88) |
+| found | field_declaration | Options | [91](../../magpie/internal/redact/redact.go#L91) |
+| args | field_declaration | Options | [94](../../magpie/internal/redact/redact.go#L94) |
+| sent | field_declaration | Options | [98](../../magpie/internal/redact/redact.go#L98) |
+| covers | method_declaration |  | [104](../../magpie/internal/redact/redact.go#L104) |
+| rule | type_spec |  | [123](../../magpie/internal/redact/redact.go#L123) |
+| kind | field_declaration | rule | [124](../../magpie/internal/redact/redact.go#L124) |
+| re | field_declaration | rule | [125](../../magpie/internal/redact/redact.go#L125) |
+| markers | field_declaration | rule | [126](../../magpie/internal/redact/redact.go#L126) |
+| fold | field_declaration | rule | [129](../../magpie/internal/redact/redact.go#L129) |
+| bound | field_declaration | rule | [130](../../magpie/internal/redact/redact.go#L130) |
+| ok | field_declaration | rule | [131](../../magpie/internal/redact/redact.go#L131) |
+| at | field_declaration | rule | [134](../../magpie/internal/redact/redact.go#L134) |
+| fix | field_declaration | rule | [137](../../magpie/internal/redact/redact.go#L137) |
+| back | field_declaration | rule | [141](../../magpie/internal/redact/redact.go#L141) |
+| cat | field_declaration | rule | [143](../../magpie/internal/redact/redact.go#L143) |
+| field | field_declaration | rule | [147](../../magpie/internal/redact/redact.go#L147) |
+| yours | field_declaration | rule | [149](../../magpie/internal/redact/redact.go#L149) |
+| anyGroup | field_declaration | rule | [152](../../magpie/internal/redact/redact.go#L152) |
+| groups | field_declaration | rule | [156](../../magpie/internal/redact/redact.go#L156) |
+| groupOK | field_declaration | rule | [157](../../magpie/internal/redact/redact.go#L157) |
+| may | field_declaration | rule | [161](../../magpie/internal/redact/redact.go#L161) |
+| alnum | const_spec |  | [165](../../magpie/internal/redact/redact.go#L165) |
+| tokenCh | const_spec |  | [166](../../magpie/internal/redact/redact.go#L166) |
+| digits | const_spec |  | [167](../../magpie/internal/redact/redact.go#L167) |
+| rules | var_spec |  | [170](../../magpie/internal/redact/redact.go#L170) |
+| cjkPasswordNames | var_spec |  | [235](../../magpie/internal/redact/redact.go#L235) |
+| cjkKeyNames | var_spec |  | [239](../../magpie/internal/redact/redact.go#L239) |
+| cjkCopulas | var_spec |  | [247](../../magpie/internal/redact/redact.go#L247) |
+| lowerAll | function_declaration |  | [250](../../magpie/internal/redact/redact.go#L250) |
+| cjkNamed | function_declaration |  | [260](../../magpie/internal/redact/redact.go#L260) |
+| fieldNames | type_spec |  | [267](../../magpie/internal/redact/redact.go#L267) |
+| re | field_declaration | fieldNames | [267](../../magpie/internal/redact/redact.go#L267) |
+| secretNames | var_spec |  | [271](../../magpie/internal/redact/redact.go#L271) |
+| pattern | method_declaration |  | [281](../../magpie/internal/redact/redact.go#L281) |
+| markers | method_declaration |  | [291](../../magpie/internal/redact/redact.go#L291) |
+| out | var_spec | markers | [292](../../magpie/internal/redact/redact.go#L292) |
+| quote | const_spec |  | [306](../../magpie/internal/redact/redact.go#L306) |
+| secretCh | const_spec |  | [308](../../magpie/internal/redact/redact.go#L308) |
+| placeholderRe | var_spec |  | [312](../../magpie/internal/redact/redact.go#L312) |
+| HasPlaceholder | function_declaration |  | [316](../../magpie/internal/redact/redact.go#L316) |
+| notAVariable | function_declaration |  | [321](../../magpie/internal/redact/redact.go#L321) |
+| keyValue | function_declaration |  | [331](../../magpie/internal/redact/redact.go#L331) |
+| keyAt | function_declaration |  | [344](../../magpie/internal/redact/redact.go#L344) |
+| keySeparators | var_spec |  | [365](../../magpie/internal/redact/redact.go#L365) |
+| quantityUnits | var_spec |  | [369](../../magpie/internal/redact/redact.go#L369) |
+| secretValue | function_declaration |  | [373](../../magpie/internal/redact/redact.go#L373) |
+| identPath | var_spec |  | [382](../../magpie/internal/redact/redact.go#L382) |
+| notCode | function_declaration |  | [390](../../magpie/internal/redact/redact.go#L390) |
+| notUserinfo | function_declaration |  | [412](../../magpie/internal/redact/redact.go#L412) |
+| emailAt | function_declaration |  | [423](../../magpie/internal/redact/redact.go#L423) |
+| inUserinfo | function_declaration |  | [436](../../magpie/internal/redact/redact.go#L436) |
+| hiddenInURL | function_declaration |  | [470](../../magpie/internal/redact/redact.go#L470) |
+| notASlug | function_declaration |  | [506](../../magpie/internal/redact/redact.go#L506) |
+| headerValue | function_declaration |  | [528](../../magpie/internal/redact/redact.go#L528) |
+| notAPlainKey | function_declaration |  | [555](../../magpie/internal/redact/redact.go#L555) |
+| notPlainKeyOrCode | function_declaration |  | [571](../../magpie/internal/redact/redact.go#L571) |
+| namedSecretAt | function_declaration |  | [578](../../magpie/internal/redact/redact.go#L578) |
+| realEmail | function_declaration |  | [582](../../magpie/internal/redact/redact.go#L582) |
+| mailHost | function_declaration |  | [619](../../magpie/internal/redact/redact.go#L619) |
+| linkerWords | var_spec |  | [637](../../magpie/internal/redact/redact.go#L637) |
+| docFiles | var_spec |  | [642](../../magpie/internal/redact/redact.go#L642) |
+| localTLDs | var_spec |  | [650](../../magpie/internal/redact/redact.go#L650) |
+| mailTLD | function_declaration |  | [656](../../magpie/internal/redact/redact.go#L656) |
+| fileExt | var_spec |  | [670](../../magpie/internal/redact/redact.go#L670) |
+| scaleExt | var_spec |  | [686](../../magpie/internal/redact/redact.go#L686) |
+| scaleRe | var_spec |  | [688](../../magpie/internal/redact/redact.go#L688) |
+| fileHost | function_declaration |  | [693](../../magpie/internal/redact/redact.go#L693) |
+| fileStem | function_declaration |  | [701](../../magpie/internal/redact/redact.go#L701) |
+| chineseID | function_declaration |  | [711](../../magpie/internal/redact/redact.go#L711) |
+| luhn | function_declaration |  | [720](../../magpie/internal/redact/redact.go#L720) |
+| ds | var_spec | luhn | [721](../../magpie/internal/redact/redact.go#L721) |
+| mu | var_spec |  | [746](../../magpie/internal/redact/redact.go#L746) |
+| values | var_spec |  | [747](../../magpie/internal/redact/redact.go#L747) |
+| kinds | var_spec |  | [748](../../magpie/internal/redact/redact.go#L748) |
+| used | var_spec |  | [751](../../magpie/internal/redact/redact.go#L751) |
+| clock | var_spec |  | [752](../../magpie/internal/redact/redact.go#L752) |
+| keyOf | var_spec |  | [753](../../magpie/internal/redact/redact.go#L753) |
+| keyPath | var_spec |  | [754](../../magpie/internal/redact/redact.go#L754) |
+| maxValues | const_spec |  | [759](../../magpie/internal/redact/redact.go#L759) |
+| key | function_declaration |  | [761](../../magpie/internal/redact/redact.go#L761) |
+| SetKeyPath | function_declaration |  | [780](../../magpie/internal/redact/redact.go#L780) |
+| loadKey | function_declaration |  | [789](../../magpie/internal/redact/redact.go#L789) |
+| b32 | var_spec |  | [804](../../magpie/internal/redact/redact.go#L804) |
+| tag | function_declaration |  | [809](../../magpie/internal/redact/redact.go#L809) |

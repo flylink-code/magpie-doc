@@ -4,54 +4,67 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skillnew.go) · page 1/1
 
-Source SHA-256: 992652cb1fc96e46fde6aaec832af7d135db7abc5cd86f7a77f2d0ae3f2a6d56
+Source SHA-256: 8b9de268f777cc08a72d135bd48b0679c16a284ad67cb101046fcd2f06d7c177
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| NewSkill | type_spec |  | [22](../../magpie/internal/library/skillnew.go#L22) |
-| ID | field_declaration | NewSkill | [25](../../magpie/internal/library/skillnew.go#L25) |
-| Name | field_declaration | NewSkill | [26](../../magpie/internal/library/skillnew.go#L26) |
-| Description | field_declaration | NewSkill | [27](../../magpie/internal/library/skillnew.go#L27) |
-| Repo | field_declaration | NewSkill | [28](../../magpie/internal/library/skillnew.go#L28) |
-| Ref | field_declaration | NewSkill | [29](../../magpie/internal/library/skillnew.go#L29) |
-| Path | field_declaration | NewSkill | [30](../../magpie/internal/library/skillnew.go#L30) |
-| From | field_declaration | NewSkill | [33](../../magpie/internal/library/skillnew.go#L33) |
-| Agents | field_declaration | NewSkill | [36](../../magpie/internal/library/skillnew.go#L36) |
-| newFound | var_spec |  | [41](../../magpie/internal/library/skillnew.go#L41) |
-| m | field_declaration | newFound | [43](../../magpie/internal/library/skillnew.go#L43) |
-| repoKey | function_declaration |  | [47](../../magpie/internal/library/skillnew.go#L47) |
-| seenAt | method_declaration |  | [52](../../magpie/internal/library/skillnew.go#L52) |
-| fromRepo | method_declaration |  | [66](../../magpie/internal/library/skillnew.go#L66) |
-| out | var_spec | fromRepo | [67](../../magpie/internal/library/skillnew.go#L67) |
-| newBase | function_declaration |  | [81](../../magpie/internal/library/skillnew.go#L81) |
-| maxTree | const_spec |  | [104](../../magpie/internal/library/skillnew.go#L104) |
-| gitTree | type_spec |  | [107](../../magpie/internal/library/skillnew.go#L107) |
-| Truncated | field_declaration | gitTree | [108](../../magpie/internal/library/skillnew.go#L108) |
-| Tree | field_declaration | gitTree | [109](../../magpie/internal/library/skillnew.go#L109) |
-| gitEntry | type_spec |  | [113](../../magpie/internal/library/skillnew.go#L113) |
-| Path | field_declaration | gitEntry | [114](../../magpie/internal/library/skillnew.go#L114) |
-| Type | field_declaration | gitEntry | [115](../../magpie/internal/library/skillnew.go#L115) |
-| Mode | field_declaration | gitEntry | [116](../../magpie/internal/library/skillnew.go#L116) |
-| SHA | field_declaration | gitEntry | [117](../../magpie/internal/library/skillnew.go#L117) |
-| Size | field_declaration | gitEntry | [118](../../magpie/internal/library/skillnew.go#L118) |
-| skillDirsIn | function_declaration |  | [125](../../magpie/internal/library/skillnew.go#L125) |
-| dirs | var_spec | skillDirsIn | [126](../../magpie/internal/library/skillnew.go#L126) |
-| ok | var_spec | skillDirsIn | [137](../../magpie/internal/library/skillnew.go#L137) |
-| hiddenThroughSkills | function_declaration |  | [166](../../magpie/internal/library/skillnew.go#L166) |
-| repoTree | function_declaration |  | [176](../../magpie/internal/library/skillnew.go#L176) |
-| listTree | function_declaration |  | [183](../../magpie/internal/library/skillnew.go#L183) |
-| t | var_spec | listTree | [201](../../magpie/internal/library/skillnew.go#L201) |
-| treeUnder | function_declaration |  | [215](../../magpie/internal/library/skillnew.go#L215) |
-| e | var_spec | treeUnder | [218](../../magpie/internal/library/skillnew.go#L218) |
-| findNew | function_declaration |  | [238](../../magpie/internal/library/skillnew.go#L238) |
-| e | var_spec | findNew | [259](../../magpie/internal/library/skillnew.go#L259) |
-| newSkills | function_declaration |  | [300](../../magpie/internal/library/skillnew.go#L300) |
-| foundNew | function_declaration |  | [328](../../magpie/internal/library/skillnew.go#L328) |
-| hit | var_spec | foundNew | [331](../../magpie/internal/library/skillnew.go#L331) |
-| AddNewSkills | function_declaration |  | [345](../../magpie/internal/library/skillnew.go#L345) |
-| group | type_spec | AddNewSkills | [350](../../magpie/internal/library/skillnew.go#L350) |
-| p | field_declaration | AddNewSkills::group | [351](../../magpie/internal/library/skillnew.go#L351) |
-| paths | field_declaration | AddNewSkills::group | [352](../../magpie/internal/library/skillnew.go#L352) |
-| agents | field_declaration | AddNewSkills::group | [353](../../magpie/internal/library/skillnew.go#L353) |
-| order | var_spec | AddNewSkills | [356](../../magpie/internal/library/skillnew.go#L356) |
-| IgnoreNewSkills | function_declaration |  | [383](../../magpie/internal/library/skillnew.go#L383) |
+| NewSkill | type_spec |  | [25](../../magpie/internal/library/skillnew.go#L25) |
+| ID | field_declaration | NewSkill | [28](../../magpie/internal/library/skillnew.go#L28) |
+| Name | field_declaration | NewSkill | [29](../../magpie/internal/library/skillnew.go#L29) |
+| Description | field_declaration | NewSkill | [30](../../magpie/internal/library/skillnew.go#L30) |
+| Kind | field_declaration | NewSkill | [32](../../magpie/internal/library/skillnew.go#L32) |
+| Repo | field_declaration | NewSkill | [35](../../magpie/internal/library/skillnew.go#L35) |
+| Ref | field_declaration | NewSkill | [36](../../magpie/internal/library/skillnew.go#L36) |
+| Path | field_declaration | NewSkill | [37](../../magpie/internal/library/skillnew.go#L37) |
+| From | field_declaration | NewSkill | [40](../../magpie/internal/library/skillnew.go#L40) |
+| Agents | field_declaration | NewSkill | [43](../../magpie/internal/library/skillnew.go#L43) |
+| newFound | var_spec |  | [48](../../magpie/internal/library/skillnew.go#L48) |
+| m | field_declaration | newFound | [50](../../magpie/internal/library/skillnew.go#L50) |
+| repoKey | function_declaration |  | [55](../../magpie/internal/library/skillnew.go#L55) |
+| folderKey | function_declaration |  | [60](../../magpie/internal/library/skillnew.go#L60) |
+| foldersKey | const_spec |  | [62](../../magpie/internal/library/skillnew.go#L62) |
+| placeKey | method_declaration |  | [65](../../magpie/internal/library/skillnew.go#L65) |
+| seenAt | method_declaration |  | [76](../../magpie/internal/library/skillnew.go#L76) |
+| fromRepo | method_declaration |  | [90](../../magpie/internal/library/skillnew.go#L90) |
+| fromPlace | method_declaration |  | [95](../../magpie/internal/library/skillnew.go#L95) |
+| out | var_spec | fromPlace | [96](../../magpie/internal/library/skillnew.go#L96) |
+| relUnder | function_declaration |  | [121](../../magpie/internal/library/skillnew.go#L121) |
+| agentsOf | function_declaration |  | [140](../../magpie/internal/library/skillnew.go#L140) |
+| newBase | function_declaration |  | [158](../../magpie/internal/library/skillnew.go#L158) |
+| maxTree | const_spec |  | [181](../../magpie/internal/library/skillnew.go#L181) |
+| gitTree | type_spec |  | [184](../../magpie/internal/library/skillnew.go#L184) |
+| Truncated | field_declaration | gitTree | [185](../../magpie/internal/library/skillnew.go#L185) |
+| Tree | field_declaration | gitTree | [186](../../magpie/internal/library/skillnew.go#L186) |
+| gitEntry | type_spec |  | [190](../../magpie/internal/library/skillnew.go#L190) |
+| Path | field_declaration | gitEntry | [191](../../magpie/internal/library/skillnew.go#L191) |
+| Type | field_declaration | gitEntry | [192](../../magpie/internal/library/skillnew.go#L192) |
+| Mode | field_declaration | gitEntry | [193](../../magpie/internal/library/skillnew.go#L193) |
+| SHA | field_declaration | gitEntry | [194](../../magpie/internal/library/skillnew.go#L194) |
+| Size | field_declaration | gitEntry | [195](../../magpie/internal/library/skillnew.go#L195) |
+| skillDirsIn | function_declaration |  | [202](../../magpie/internal/library/skillnew.go#L202) |
+| dirs | var_spec | skillDirsIn | [203](../../magpie/internal/library/skillnew.go#L203) |
+| ok | var_spec | skillDirsIn | [214](../../magpie/internal/library/skillnew.go#L214) |
+| hiddenThroughSkills | function_declaration |  | [266](../../magpie/internal/library/skillnew.go#L266) |
+| repoTree | function_declaration |  | [276](../../magpie/internal/library/skillnew.go#L276) |
+| listTree | function_declaration |  | [283](../../magpie/internal/library/skillnew.go#L283) |
+| t | var_spec | listTree | [301](../../magpie/internal/library/skillnew.go#L301) |
+| treeUnder | function_declaration |  | [315](../../magpie/internal/library/skillnew.go#L315) |
+| e | var_spec | treeUnder | [318](../../magpie/internal/library/skillnew.go#L318) |
+| findNew | function_declaration |  | [338](../../magpie/internal/library/skillnew.go#L338) |
+| e | var_spec | findNew | [359](../../magpie/internal/library/skillnew.go#L359) |
+| findNewGit | function_declaration |  | [395](../../magpie/internal/library/skillnew.go#L395) |
+| findNewFolder | function_declaration |  | [443](../../magpie/internal/library/skillnew.go#L443) |
+| folderRoots | method_declaration |  | [483](../../magpie/internal/library/skillnew.go#L483) |
+| out | var_spec | folderRoots | [484](../../magpie/internal/library/skillnew.go#L484) |
+| addedFromFolders | method_declaration |  | [497](../../magpie/internal/library/skillnew.go#L497) |
+| lookInFolders | function_declaration |  | [511](../../magpie/internal/library/skillnew.go#L511) |
+| newSkills | function_declaration |  | [523](../../magpie/internal/library/skillnew.go#L523) |
+| foundNew | function_declaration |  | [550](../../magpie/internal/library/skillnew.go#L550) |
+| hit | var_spec | foundNew | [553](../../magpie/internal/library/skillnew.go#L553) |
+| AddNewSkills | function_declaration |  | [567](../../magpie/internal/library/skillnew.go#L567) |
+| group | type_spec | AddNewSkills | [572](../../magpie/internal/library/skillnew.go#L572) |
+| p | field_declaration | AddNewSkills::group | [573](../../magpie/internal/library/skillnew.go#L573) |
+| paths | field_declaration | AddNewSkills::group | [574](../../magpie/internal/library/skillnew.go#L574) |
+| agents | field_declaration | AddNewSkills::group | [575](../../magpie/internal/library/skillnew.go#L575) |
+| order | var_spec | AddNewSkills | [578](../../magpie/internal/library/skillnew.go#L578) |
+| IgnoreNewSkills | function_declaration |  | [605](../../magpie/internal/library/skillnew.go#L605) |

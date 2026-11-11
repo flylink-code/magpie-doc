@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/fastpick.go) · page 1/1
 
-Source SHA-256: cb91889ce0021a7c80fbb48d88081c786c03fc2f40a776589e51b430027d8486
+Source SHA-256: ef44f97d7ae8c32b9c5817ab0c822ee07f68d03bf92940c053b979ea143c1665
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,9 +12,9 @@ Source SHA-256: cb91889ce0021a7c80fbb48d88081c786c03fc2f40a776589e51b430027d8486
 | FastPicks | function_declaration |  | [31](../../magpie/internal/provider/fastpick.go#L31) |
 | IsUltraPick | function_declaration |  | [37](../../magpie/internal/provider/fastpick.go#L37) |
 | UltraPicks | function_declaration |  | [42](../../magpie/internal/provider/fastpick.go#L42) |
-| CanUltra | function_declaration |  | [51](../../magpie/internal/provider/fastpick.go#L51) |
-| UltraOn | function_declaration |  | [56](../../magpie/internal/provider/fastpick.go#L56) |
-| UltraModels | function_declaration |  | [69](../../magpie/internal/provider/fastpick.go#L69) |
-| SetFastPick | function_declaration |  | [87](../../magpie/internal/provider/fastpick.go#L87) |
-| SetFastTier | function_declaration |  | [98](../../magpie/internal/provider/fastpick.go#L98) |
-| setPick | function_declaration |  | [141](../../magpie/internal/provider/fastpick.go#L141) |
+| CanUltra | function_declaration |  | [52](../../magpie/internal/provider/fastpick.go#L52) |
+| UltraOn | function_declaration |  | [57](../../magpie/internal/provider/fastpick.go#L57) |
+| UltraModels | function_declaration |  | [74](../../magpie/internal/provider/fastpick.go#L74) |
+| SetFastPick | function_declaration |  | [92](../../magpie/internal/provider/fastpick.go#L92) |
+| SetFastTier | function_declaration |  | [103](../../magpie/internal/provider/fastpick.go#L103) |
+| setPick | function_declaration |  | [146](../../magpie/internal/provider/fastpick.go#L146) |

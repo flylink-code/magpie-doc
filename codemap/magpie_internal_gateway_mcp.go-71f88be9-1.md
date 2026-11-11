@@ -4,13 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/mcp.go) · page 1/1
 
-Source SHA-256: b070dbf4bf3037a371d524d4807418ec17d7921c4a718629a19f8946b465bc57
+Source SHA-256: 81e1ee2a9ba9a8d23418d5d7beeefd7882a6de7c8b7f628448083ee7840f879b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mcpClient | var_spec |  | [21](../../magpie/internal/gateway/mcp.go#L21) |
-| mcpTransport | function_declaration |  | [23](../../magpie/internal/gateway/mcp.go#L23) |
-| mcpHop | var_spec |  | [31](../../magpie/internal/gateway/mcp.go#L31) |
-| mcpProxy | method_declaration |  | [43](../../magpie/internal/gateway/mcp.go#L43) |
-| mcpRefused | function_declaration |  | [162](../../magpie/internal/gateway/mcp.go#L162) |
-| loopbackHost | function_declaration |  | [173](../../magpie/internal/gateway/mcp.go#L173) |
+| mcpClient | var_spec |  | [22](../../magpie/internal/gateway/mcp.go#L22) |
+| mcpTransport | function_declaration |  | [27](../../magpie/internal/gateway/mcp.go#L27) |
+| mcpHop | var_spec |  | [36](../../magpie/internal/gateway/mcp.go#L36) |
+| RunMCP | var_spec |  | [45](../../magpie/internal/gateway/mcp.go#L45) |
+| runMCP | function_declaration |  | [50](../../magpie/internal/gateway/mcp.go#L50) |
+| mcpProxy | method_declaration |  | [74](../../magpie/internal/gateway/mcp.go#L74) |
+| mcpRefused | function_declaration |  | [200](../../magpie/internal/gateway/mcp.go#L200) |
+| loopbackHost | function_declaration |  | [211](../../magpie/internal/gateway/mcp.go#L211) |

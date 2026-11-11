@@ -4,10 +4,10 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/primeagent.go) · page 1/1
 
-Source SHA-256: c00cb1d164ffe39c6e351875c850f3e43d5c30fe602d566676d4d0535945ffb3
+Source SHA-256: 99f6fadb6d79c0dcc7df98b42a965da9576290897a93d39f1c8c40977da63a11
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| primeAgent | function_declaration |  | [27](../../magpie/internal/agent/primeagent.go#L27) |
-| primeAgentIn | function_declaration |  | [31](../../magpie/internal/agent/primeagent.go#L31) |
-| primeAgentDir | function_declaration |  | [39](../../magpie/internal/agent/primeagent.go#L39) |
+| primeAgent | function_declaration |  | [25](../../magpie/internal/agent/primeagent.go#L25) |
+| primeAgentIn | function_declaration |  | [29](../../magpie/internal/agent/primeagent.go#L29) |
+| primeAgentDir | function_declaration |  | [37](../../magpie/internal/agent/primeagent.go#L37) |

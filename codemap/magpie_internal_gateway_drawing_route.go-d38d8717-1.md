@@ -4,10 +4,10 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/drawing_route.go) · page 1/1
 
-Source SHA-256: 1f0912567de31bdfb90907caa2c871d14ef090c69dc72c9b95482b132a2bdd16
+Source SHA-256: a12bf3a9dc341477b97d663c30bba899e2e569495fbdecc871741013102d8447
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| drawingModel | method_declaration |  | [10](../../magpie/internal/gateway/drawing_route.go#L10) |
-| drawingTurnID | function_declaration |  | [32](../../magpie/internal/gateway/drawing_route.go#L32) |
-| codexDrawingProvider | method_declaration |  | [40](../../magpie/internal/gateway/drawing_route.go#L40) |
+| drawingModel | method_declaration |  | [11](../../magpie/internal/gateway/drawing_route.go#L11) |
+| drawingTurnID | function_declaration |  | [41](../../magpie/internal/gateway/drawing_route.go#L41) |
+| codexDrawingProvider | method_declaration |  | [52](../../magpie/internal/gateway/drawing_route.go#L52) |

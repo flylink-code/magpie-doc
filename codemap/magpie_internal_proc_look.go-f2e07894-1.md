@@ -4,26 +4,28 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/look.go) · page 1/1
 
-Source SHA-256: 397c37f80ddcff5e7b50e1b5df3cc503bf46b2e229f2b0dbd7dd54e253ba6bb7
+Source SHA-256: 70550c99b3a9f944091bff318b2697dff26bfa9f256203745ab246574c4aa26e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | lookFresh | const_spec |  | [25](../../magpie/internal/proc/look.go#L25) |
-| lookFreshInTests | var_spec |  | [29](../../magpie/internal/proc/look.go#L29) |
-| looks | var_spec |  | [31](../../magpie/internal/proc/look.go#L31) |
-| gen | field_declaration | looks | [33](../../magpie/internal/proc/look.go#L33) |
-| env | field_declaration | looks | [34](../../magpie/internal/proc/look.go#L34) |
-| stamp | field_declaration | looks | [35](../../magpie/internal/proc/look.go#L35) |
-| checked | field_declaration | looks | [36](../../magpie/internal/proc/look.go#L36) |
-| m | field_declaration | looks | [37](../../magpie/internal/proc/look.go#L37) |
-| lookAnswer | type_spec |  | [40](../../magpie/internal/proc/look.go#L40) |
-| path | field_declaration | lookAnswer | [41](../../magpie/internal/proc/look.go#L41) |
-| err | field_declaration | lookAnswer | [42](../../magpie/internal/proc/look.go#L42) |
-| LookPath | function_declaration |  | [49](../../magpie/internal/proc/look.go#L49) |
-| Look | function_declaration |  | [59](../../magpie/internal/proc/look.go#L59) |
-| Forget | function_declaration |  | [69](../../magpie/internal/proc/look.go#L69) |
-| looked | function_declaration |  | [78](../../magpie/internal/proc/look.go#L78) |
-| lookWindow | function_declaration |  | [110](../../magpie/internal/proc/look.go#L110) |
-| lookStamp | function_declaration |  | [119](../../magpie/internal/proc/look.go#L119) |
-| b | var_spec | lookStamp | [120](../../magpie/internal/proc/look.go#L120) |
-| findDirs | function_declaration |  | [141](../../magpie/internal/proc/look.go#L141) |
+| lookSettle | const_spec |  | [37](../../magpie/internal/proc/look.go#L37) |
+| lookNow | var_spec |  | [40](../../magpie/internal/proc/look.go#L40) |
+| lookFreshInTests | var_spec |  | [44](../../magpie/internal/proc/look.go#L44) |
+| looks | var_spec |  | [46](../../magpie/internal/proc/look.go#L46) |
+| gen | field_declaration | looks | [48](../../magpie/internal/proc/look.go#L48) |
+| env | field_declaration | looks | [49](../../magpie/internal/proc/look.go#L49) |
+| stamp | field_declaration | looks | [50](../../magpie/internal/proc/look.go#L50) |
+| checked | field_declaration | looks | [51](../../magpie/internal/proc/look.go#L51) |
+| m | field_declaration | looks | [52](../../magpie/internal/proc/look.go#L52) |
+| lookAnswer | type_spec |  | [55](../../magpie/internal/proc/look.go#L55) |
+| path | field_declaration | lookAnswer | [56](../../magpie/internal/proc/look.go#L56) |
+| err | field_declaration | lookAnswer | [57](../../magpie/internal/proc/look.go#L57) |
+| LookPath | function_declaration |  | [64](../../magpie/internal/proc/look.go#L64) |
+| Look | function_declaration |  | [74](../../magpie/internal/proc/look.go#L74) |
+| Forget | function_declaration |  | [84](../../magpie/internal/proc/look.go#L84) |
+| looked | function_declaration |  | [93](../../magpie/internal/proc/look.go#L93) |
+| lookWindow | function_declaration |  | [132](../../magpie/internal/proc/look.go#L132) |
+| lookStamp | function_declaration |  | [143](../../magpie/internal/proc/look.go#L143) |
+| b | var_spec | lookStamp | [145](../../magpie/internal/proc/look.go#L145) |
+| findDirs | function_declaration |  | [175](../../magpie/internal/proc/look.go#L175) |

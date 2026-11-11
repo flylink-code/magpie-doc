@@ -4,11 +4,11 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/autoref.go) · page 1/1
 
-Source SHA-256: d35d6e477fd4f4ff2227208420de95a98ce530c50705c72a11cb5cf23f285952
+Source SHA-256: 50192a0d32856e3b0dc387a6ae64aa7fb43067ced29742346241e0933f6e0fd2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| setToFoundGroups | function_declaration |  | [22](../../magpie/internal/agent/autoref.go#L22) |
-| out | var_spec | setToFoundGroups | [28](../../magpie/internal/agent/autoref.go#L28) |
-| renameFoundGroups | method_declaration |  | [46](../../magpie/internal/agent/autoref.go#L46) |
-| publicValue | method_declaration |  | [80](../../magpie/internal/agent/autoref.go#L80) |
+| setToFoundGroups | function_declaration |  | [26](../../magpie/internal/agent/autoref.go#L26) |
+| out | var_spec | setToFoundGroups | [32](../../magpie/internal/agent/autoref.go#L32) |
+| renameFoundGroups | method_declaration |  | [50](../../magpie/internal/agent/autoref.go#L50) |
+| publicValue | method_declaration |  | [85](../../magpie/internal/agent/autoref.go#L85) |

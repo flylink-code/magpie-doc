@@ -4,7 +4,7 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/astrlink.go) · page 1/1
 
-Source SHA-256: f6ea4e049e1e97f28cac344d9d0d1a5bdde7872dbb6d2983a85e3aab0fac2768
+Source SHA-256: 204cc2b82a92d1265582963795e8317a81a10c875a121a1021b2b9d12e282d39
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -38,26 +38,31 @@ Source SHA-256: f6ea4e049e1e97f28cac344d9d0d1a5bdde7872dbb6d2983a85e3aab0fac2768
 | fails | field_declaration | gsrv | [130](../../magpie/internal/pii/astrlink.go#L130) |
 | retryAt | field_declaration | gsrv | [131](../../magpie/internal/pii/astrlink.go#L131) |
 | spanFinder | type_spec |  | [135](../../magpie/internal/pii/astrlink.go#L135) |
-| guardLoad | var_spec |  | [140](../../magpie/internal/pii/astrlink.go#L140) |
-| guardTurn | var_spec |  | [149](../../magpie/internal/pii/astrlink.go#L149) |
-| guardBackend | var_spec |  | [151](../../magpie/internal/pii/astrlink.go#L151) |
-| guardClassify | function_declaration |  | [163](../../magpie/internal/pii/astrlink.go#L163) |
-| guardClassifyTurn | function_declaration |  | [182](../../magpie/internal/pii/astrlink.go#L182) |
-| err | var_spec | guardClassifyTurn | [197](../../magpie/internal/pii/astrlink.go#L197) |
-| guardIdle | function_declaration |  | [228](../../magpie/internal/pii/astrlink.go#L228) |
-| guardUnload | function_declaration |  | [238](../../magpie/internal/pii/astrlink.go#L238) |
-| guardLabels | var_spec |  | [253](../../magpie/internal/pii/astrlink.go#L253) |
-| guardLabel | function_declaration |  | [266](../../magpie/internal/pii/astrlink.go#L266) |
-| guardHeldBack | function_declaration |  | [273](../../magpie/internal/pii/astrlink.go#L273) |
-| guardModel | type_spec |  | [284](../../magpie/internal/pii/astrlink.go#L284) |
-| ID | method_declaration |  | [286](../../magpie/internal/pii/astrlink.go#L286) |
-| Supported | method_declaration |  | [288](../../magpie/internal/pii/astrlink.go#L288) |
-| Installed | method_declaration |  | [290](../../magpie/internal/pii/astrlink.go#L290) |
-| Size | method_declaration |  | [292](../../magpie/internal/pii/astrlink.go#L292) |
-| Find | method_declaration |  | [294](../../magpie/internal/pii/astrlink.go#L294) |
-| Now | method_declaration |  | [298](../../magpie/internal/pii/astrlink.go#L298) |
-| Download | method_declaration |  | [311](../../magpie/internal/pii/astrlink.go#L311) |
-| Cancel | method_declaration |  | [313](../../magpie/internal/pii/astrlink.go#L313) |
-| Warm | method_declaration |  | [315](../../magpie/internal/pii/astrlink.go#L315) |
-| Stop | method_declaration |  | [327](../../magpie/internal/pii/astrlink.go#L327) |
-| Remove | method_declaration |  | [334](../../magpie/internal/pii/astrlink.go#L334) |
+| backender | type_spec |  | [140](../../magpie/internal/pii/astrlink.go#L140) |
+| guardLoad | var_spec |  | [145](../../magpie/internal/pii/astrlink.go#L145) |
+| guardTurn | var_spec |  | [161](../../magpie/internal/pii/astrlink.go#L161) |
+| guardLoading | var_spec |  | [165](../../magpie/internal/pii/astrlink.go#L165) |
+| guardBackend | var_spec |  | [167](../../magpie/internal/pii/astrlink.go#L167) |
+| guardClassify | function_declaration |  | [180](../../magpie/internal/pii/astrlink.go#L180) |
+| guardClassifyTurn | function_declaration |  | [199](../../magpie/internal/pii/astrlink.go#L199) |
+| err | var_spec | guardClassifyTurn | [204](../../magpie/internal/pii/astrlink.go#L204) |
+| guardLoaded | function_declaration |  | [231](../../magpie/internal/pii/astrlink.go#L231) |
+| guardIdle | function_declaration |  | [266](../../magpie/internal/pii/astrlink.go#L266) |
+| guardUnload | function_declaration |  | [284](../../magpie/internal/pii/astrlink.go#L284) |
+| guardLabels | var_spec |  | [299](../../magpie/internal/pii/astrlink.go#L299) |
+| guardLabel | function_declaration |  | [312](../../magpie/internal/pii/astrlink.go#L312) |
+| guardHeldBack | function_declaration |  | [319](../../magpie/internal/pii/astrlink.go#L319) |
+| guardModel | type_spec |  | [330](../../magpie/internal/pii/astrlink.go#L330) |
+| ID | method_declaration |  | [332](../../magpie/internal/pii/astrlink.go#L332) |
+| Supported | method_declaration |  | [334](../../magpie/internal/pii/astrlink.go#L334) |
+| Installed | method_declaration |  | [336](../../magpie/internal/pii/astrlink.go#L336) |
+| Size | method_declaration |  | [338](../../magpie/internal/pii/astrlink.go#L338) |
+| MinScore | method_declaration |  | [340](../../magpie/internal/pii/astrlink.go#L340) |
+| Find | method_declaration |  | [342](../../magpie/internal/pii/astrlink.go#L342) |
+| Now | method_declaration |  | [346](../../magpie/internal/pii/astrlink.go#L346) |
+| err | var_spec | Now | [353](../../magpie/internal/pii/astrlink.go#L353) |
+| Download | method_declaration |  | [365](../../magpie/internal/pii/astrlink.go#L365) |
+| Cancel | method_declaration |  | [367](../../magpie/internal/pii/astrlink.go#L367) |
+| Warm | method_declaration |  | [369](../../magpie/internal/pii/astrlink.go#L369) |
+| Stop | method_declaration |  | [381](../../magpie/internal/pii/astrlink.go#L381) |
+| Remove | method_declaration |  | [388](../../magpie/internal/pii/astrlink.go#L388) |

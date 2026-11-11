@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/aionui.go) · page 1/1
 
-Source SHA-256: 5d4ed6fedab663d0586271a591776f2e849fa9a4bdea5fdd3972e7cb41d12dba
+Source SHA-256: d9e5d9ceb28876ed47e305bb965b34d02cb2eeaa1ee3137973d00f4bd98afc05
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,11 +13,12 @@ Source SHA-256: 5d4ed6fedab663d0586271a591776f2e849fa9a4bdea5fdd3972e7cb41d12dba
 | aionuiDir | function_declaration |  | [50](../../magpie/internal/agent/aionui.go#L50) |
 | aionuiHas | function_declaration |  | [63](../../magpie/internal/agent/aionui.go#L63) |
 | n | var_spec | aionuiHas | [74](../../magpie/internal/agent/aionui.go#L74) |
-| aionuiStatus | type_spec |  | [85](../../magpie/internal/agent/aionui.go#L85) |
-| mu | field_declaration | aionuiStatus | [86](../../magpie/internal/agent/aionui.go#L86) |
-| gw | field_declaration | aionuiStatus | [87](../../magpie/internal/agent/aionui.go#L87) |
-| db | field_declaration | aionuiStatus | [88](../../magpie/internal/agent/aionui.go#L88) |
-| at | field_declaration | aionuiStatus | [89](../../magpie/internal/agent/aionui.go#L89) |
-| has | field_declaration | aionuiStatus | [90](../../magpie/internal/agent/aionui.go#L90) |
-| read | method_declaration |  | [93](../../magpie/internal/agent/aionui.go#L93) |
-| aionui | function_declaration |  | [106](../../magpie/internal/agent/aionui.go#L106) |
+| dbStatus | type_spec |  | [85](../../magpie/internal/agent/aionui.go#L85) |
+| has | field_declaration | dbStatus | [86](../../magpie/internal/agent/aionui.go#L86) |
+| mu | field_declaration | dbStatus | [87](../../magpie/internal/agent/aionui.go#L87) |
+| gw | field_declaration | dbStatus | [88](../../magpie/internal/agent/aionui.go#L88) |
+| db | field_declaration | dbStatus | [89](../../magpie/internal/agent/aionui.go#L89) |
+| at | field_declaration | dbStatus | [90](../../magpie/internal/agent/aionui.go#L90) |
+| ok | field_declaration | dbStatus | [91](../../magpie/internal/agent/aionui.go#L91) |
+| read | method_declaration |  | [94](../../magpie/internal/agent/aionui.go#L94) |
+| aionui | function_declaration |  | [107](../../magpie/internal/agent/aionui.go#L107) |

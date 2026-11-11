@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/mantle.go) · page 1/1
 
-Source SHA-256: 0c830b8c2bb4da72e94cb80e6eba91cb149dce93a1bac23365460581a115b880
+Source SHA-256: f5501ae230cfad5b611ac721f40a99e73bc7268cc59f165b397b563fe7291daa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

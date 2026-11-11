@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/theme.js) · page 1/1
 
-Source SHA-256: b9e12eadc03408fdafd5a24129d5c804a47095df48af07c05a15c42c3c191968
+Source SHA-256: aaf9c93e72433778a4cae815d595f8091515c1cee21652c72bc7bf1b99533f6f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,3 +12,9 @@ Source SHA-256: b9e12eadc03408fdafd5a24129d5c804a47095df48af07c05a15c42c3c191968
 | prefs | VariableDeclaration |  | [7](../../magpie/internal/gui/assets/theme.js#L7) |
 | saved | VariableDeclaration |  | [8](../../magpie/internal/gui/assets/theme.js#L8) |
 | theme | VariableDeclaration |  | [9](../../magpie/internal/gui/assets/theme.js#L9) |
+| held | VariableDeclaration |  | [20](../../magpie/internal/gui/assets/theme.js#L20) |
+| root | VariableDeclaration |  | [22](../../magpie/internal/gui/assets/theme.js#L22) |
+| i | VariableDeclaration |  | [26](../../magpie/internal/gui/assets/theme.js#L26) |
+| s | VariableDeclaration |  | [26](../../magpie/internal/gui/assets/theme.js#L26) |
+| j | VariableDeclaration |  | [26](../../magpie/internal/gui/assets/theme.js#L26) |
+| r | VariableDeclaration |  | [26](../../magpie/internal/gui/assets/theme.js#L26) |

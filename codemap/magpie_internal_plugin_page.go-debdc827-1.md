@@ -4,62 +4,76 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/page.go) · page 1/1
 
-Source SHA-256: ee2082ca0defb6636842dbae324508e327e46a51e98e574f075b21ca2d923a26
+Source SHA-256: 8c849696376744a604ec10ccb6856bc0a331567e9a069a3a849d9afed9e4597d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WindowSpec | type_spec |  | [18](../../magpie/internal/plugin/page.go#L18) |
-| Page | field_declaration | WindowSpec | [19](../../magpie/internal/plugin/page.go#L19) |
-| Panels | field_declaration | WindowSpec | [20](../../magpie/internal/plugin/page.go#L20) |
-| Actions | field_declaration | WindowSpec | [23](../../magpie/internal/plugin/page.go#L23) |
-| Reads | field_declaration | WindowSpec | [26](../../magpie/internal/plugin/page.go#L26) |
-| PageSpec | type_spec |  | [30](../../magpie/internal/plugin/page.go#L30) |
-| Title | field_declaration | PageSpec | [31](../../magpie/internal/plugin/page.go#L31) |
-| Titles | field_declaration | PageSpec | [34](../../magpie/internal/plugin/page.go#L34) |
-| Icon | field_declaration | PageSpec | [35](../../magpie/internal/plugin/page.go#L35) |
-| File | field_declaration | PageSpec | [36](../../magpie/internal/plugin/page.go#L36) |
-| Dir | field_declaration | PageSpec | [37](../../magpie/internal/plugin/page.go#L37) |
-| Replaces | field_declaration | PageSpec | [40](../../magpie/internal/plugin/page.go#L40) |
-| PanelSpec | type_spec |  | [45](../../magpie/internal/plugin/page.go#L45) |
-| Slot | field_declaration | PanelSpec | [46](../../magpie/internal/plugin/page.go#L46) |
-| Title | field_declaration | PanelSpec | [47](../../magpie/internal/plugin/page.go#L47) |
-| Titles | field_declaration | PanelSpec | [48](../../magpie/internal/plugin/page.go#L48) |
-| File | field_declaration | PanelSpec | [49](../../magpie/internal/plugin/page.go#L49) |
-| Dir | field_declaration | PanelSpec | [50](../../magpie/internal/plugin/page.go#L50) |
-| ActionSpec | type_spec |  | [56](../../magpie/internal/plugin/page.go#L56) |
-| ID | field_declaration | ActionSpec | [57](../../magpie/internal/plugin/page.go#L57) |
-| Menu | field_declaration | ActionSpec | [58](../../magpie/internal/plugin/page.go#L58) |
-| Title | field_declaration | ActionSpec | [59](../../magpie/internal/plugin/page.go#L59) |
-| Titles | field_declaration | ActionSpec | [60](../../magpie/internal/plugin/page.go#L60) |
-| ActionMenus | var_spec |  | [66](../../magpie/internal/plugin/page.go#L66) |
-| actionID | var_spec |  | [70](../../magpie/internal/plugin/page.go#L70) |
-| maxActions | const_spec |  | [73](../../magpie/internal/plugin/page.go#L73) |
-| PageReads | var_spec |  | [77](../../magpie/internal/plugin/page.go#L77) |
-| PanelSlots | var_spec |  | [83](../../magpie/internal/plugin/page.go#L83) |
-| Replaceable | var_spec |  | [87](../../magpie/internal/plugin/page.go#L87) |
-| titles | function_declaration |  | [93](../../magpie/internal/plugin/page.go#L93) |
-| m | var_spec | titles | [94](../../magpie/internal/plugin/page.go#L94) |
-| out | var_spec | titles | [98](../../magpie/internal/plugin/page.go#L98) |
-| maxPanels | const_spec |  | [114](../../magpie/internal/plugin/page.go#L114) |
-| Window | function_declaration |  | [124](../../magpie/internal/plugin/page.go#L124) |
-| part | type_spec | Window | [133](../../magpie/internal/plugin/page.go#L133) |
-| Title | field_declaration | Window::part | [134](../../magpie/internal/plugin/page.go#L134) |
-| Titles | field_declaration | Window::part | [135](../../magpie/internal/plugin/page.go#L135) |
-| File | field_declaration | Window::part | [136](../../magpie/internal/plugin/page.go#L136) |
-| Icon | field_declaration | Window::part | [137](../../magpie/internal/plugin/page.go#L137) |
-| Slot | field_declaration | Window::part | [138](../../magpie/internal/plugin/page.go#L138) |
-| Replaces | field_declaration | Window::part | [139](../../magpie/internal/plugin/page.go#L139) |
-| ID | field_declaration | Window::part | [140](../../magpie/internal/plugin/page.go#L140) |
-| Menu | field_declaration | Window::part | [141](../../magpie/internal/plugin/page.go#L141) |
-| pkg | var_spec | Window | [143](../../magpie/internal/plugin/page.go#L143) |
-| Main | field_declaration | Window::pkg | [144](../../magpie/internal/plugin/page.go#L144) |
-| Exports | field_declaration | Window::pkg | [145](../../magpie/internal/plugin/page.go#L145) |
-| Magpie | field_declaration | Window::pkg | [146](../../magpie/internal/plugin/page.go#L146) |
-| Page | field_declaration | Window::pkg::Magpie | [147](../../magpie/internal/plugin/page.go#L147) |
-| Panels | field_declaration | Window::pkg::Magpie | [148](../../magpie/internal/plugin/page.go#L148) |
-| Actions | field_declaration | Window::pkg::Magpie | [149](../../magpie/internal/plugin/page.go#L149) |
-| Permissions | field_declaration | Window::pkg::Magpie | [150](../../magpie/internal/plugin/page.go#L150) |
-| htmlInside | function_declaration |  | [208](../../magpie/internal/plugin/page.go#L208) |
-| inside | function_declaration |  | [221](../../magpie/internal/plugin/page.go#L221) |
-| FileIn | function_declaration |  | [247](../../magpie/internal/plugin/page.go#L247) |
-| SetPageOptions | function_declaration |  | [262](../../magpie/internal/plugin/page.go#L262) |
+| WindowSpec | type_spec |  | [21](../../magpie/internal/plugin/page.go#L21) |
+| Page | field_declaration | WindowSpec | [22](../../magpie/internal/plugin/page.go#L22) |
+| Panels | field_declaration | WindowSpec | [23](../../magpie/internal/plugin/page.go#L23) |
+| Actions | field_declaration | WindowSpec | [26](../../magpie/internal/plugin/page.go#L26) |
+| Reads | field_declaration | WindowSpec | [29](../../magpie/internal/plugin/page.go#L29) |
+| PageSpec | type_spec |  | [33](../../magpie/internal/plugin/page.go#L33) |
+| Title | field_declaration | PageSpec | [34](../../magpie/internal/plugin/page.go#L34) |
+| Titles | field_declaration | PageSpec | [37](../../magpie/internal/plugin/page.go#L37) |
+| Icon | field_declaration | PageSpec | [38](../../magpie/internal/plugin/page.go#L38) |
+| File | field_declaration | PageSpec | [39](../../magpie/internal/plugin/page.go#L39) |
+| Dir | field_declaration | PageSpec | [40](../../magpie/internal/plugin/page.go#L40) |
+| Replaces | field_declaration | PageSpec | [43](../../magpie/internal/plugin/page.go#L43) |
+| Service | field_declaration | PageSpec | [48](../../magpie/internal/plugin/page.go#L48) |
+| KeepAlive | field_declaration | PageSpec | [53](../../magpie/internal/plugin/page.go#L53) |
+| ServiceSpec | type_spec |  | [59](../../magpie/internal/plugin/page.go#L59) |
+| Port | field_declaration | ServiceSpec | [60](../../magpie/internal/plugin/page.go#L60) |
+| Option | field_declaration | ServiceSpec | [61](../../magpie/internal/plugin/page.go#L61) |
+| PanelSpec | type_spec |  | [66](../../magpie/internal/plugin/page.go#L66) |
+| Slot | field_declaration | PanelSpec | [67](../../magpie/internal/plugin/page.go#L67) |
+| Title | field_declaration | PanelSpec | [68](../../magpie/internal/plugin/page.go#L68) |
+| Titles | field_declaration | PanelSpec | [69](../../magpie/internal/plugin/page.go#L69) |
+| File | field_declaration | PanelSpec | [70](../../magpie/internal/plugin/page.go#L70) |
+| Dir | field_declaration | PanelSpec | [71](../../magpie/internal/plugin/page.go#L71) |
+| ActionSpec | type_spec |  | [77](../../magpie/internal/plugin/page.go#L77) |
+| ID | field_declaration | ActionSpec | [78](../../magpie/internal/plugin/page.go#L78) |
+| Menu | field_declaration | ActionSpec | [79](../../magpie/internal/plugin/page.go#L79) |
+| Title | field_declaration | ActionSpec | [80](../../magpie/internal/plugin/page.go#L80) |
+| Titles | field_declaration | ActionSpec | [81](../../magpie/internal/plugin/page.go#L81) |
+| ActionMenus | var_spec |  | [87](../../magpie/internal/plugin/page.go#L87) |
+| actionID | var_spec |  | [91](../../magpie/internal/plugin/page.go#L91) |
+| maxActions | const_spec |  | [94](../../magpie/internal/plugin/page.go#L94) |
+| PageReads | var_spec |  | [98](../../magpie/internal/plugin/page.go#L98) |
+| PanelSlots | var_spec |  | [104](../../magpie/internal/plugin/page.go#L104) |
+| Replaceable | var_spec |  | [108](../../magpie/internal/plugin/page.go#L108) |
+| titles | function_declaration |  | [114](../../magpie/internal/plugin/page.go#L114) |
+| m | var_spec | titles | [115](../../magpie/internal/plugin/page.go#L115) |
+| out | var_spec | titles | [119](../../magpie/internal/plugin/page.go#L119) |
+| maxPanels | const_spec |  | [135](../../magpie/internal/plugin/page.go#L135) |
+| Window | function_declaration |  | [145](../../magpie/internal/plugin/page.go#L145) |
+| part | type_spec | Window | [154](../../magpie/internal/plugin/page.go#L154) |
+| Title | field_declaration | Window::part | [155](../../magpie/internal/plugin/page.go#L155) |
+| Titles | field_declaration | Window::part | [156](../../magpie/internal/plugin/page.go#L156) |
+| File | field_declaration | Window::part | [157](../../magpie/internal/plugin/page.go#L157) |
+| Icon | field_declaration | Window::part | [158](../../magpie/internal/plugin/page.go#L158) |
+| Slot | field_declaration | Window::part | [159](../../magpie/internal/plugin/page.go#L159) |
+| Replaces | field_declaration | Window::part | [160](../../magpie/internal/plugin/page.go#L160) |
+| ID | field_declaration | Window::part | [161](../../magpie/internal/plugin/page.go#L161) |
+| Menu | field_declaration | Window::part | [162](../../magpie/internal/plugin/page.go#L162) |
+| Service | field_declaration | Window::part | [163](../../magpie/internal/plugin/page.go#L163) |
+| KeepAlive | field_declaration | Window::part | [164](../../magpie/internal/plugin/page.go#L164) |
+| pkg | var_spec | Window | [166](../../magpie/internal/plugin/page.go#L166) |
+| Main | field_declaration | Window::pkg | [167](../../magpie/internal/plugin/page.go#L167) |
+| Exports | field_declaration | Window::pkg | [168](../../magpie/internal/plugin/page.go#L168) |
+| Magpie | field_declaration | Window::pkg | [169](../../magpie/internal/plugin/page.go#L169) |
+| Page | field_declaration | Window::pkg::Magpie | [170](../../magpie/internal/plugin/page.go#L170) |
+| Panels | field_declaration | Window::pkg::Magpie | [171](../../magpie/internal/plugin/page.go#L171) |
+| Actions | field_declaration | Window::pkg::Magpie | [172](../../magpie/internal/plugin/page.go#L172) |
+| Permissions | field_declaration | Window::pkg::Magpie | [173](../../magpie/internal/plugin/page.go#L173) |
+| service | function_declaration |  | [238](../../magpie/internal/plugin/page.go#L238) |
+| sv | var_spec | service | [239](../../magpie/internal/plugin/page.go#L239) |
+| Port | field_declaration | service::sv | [240](../../magpie/internal/plugin/page.go#L240) |
+| Option | field_declaration | service::sv | [241](../../magpie/internal/plugin/page.go#L241) |
+| portOf | function_declaration |  | [259](../../magpie/internal/plugin/page.go#L259) |
+| n | var_spec | portOf | [260](../../magpie/internal/plugin/page.go#L260) |
+| ServicePort | method_declaration |  | [282](../../magpie/internal/plugin/page.go#L282) |
+| htmlInside | function_declaration |  | [296](../../magpie/internal/plugin/page.go#L296) |
+| inside | function_declaration |  | [313](../../magpie/internal/plugin/page.go#L313) |
+| FileIn | function_declaration |  | [339](../../magpie/internal/plugin/page.go#L339) |
+| SetPageOptions | function_declaration |  | [354](../../magpie/internal/plugin/page.go#L354) |

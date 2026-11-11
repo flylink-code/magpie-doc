@@ -4,14 +4,26 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/image_mcp.go) · page 2/2
 
-Source SHA-256: e9140648c9111560343764d60feaaa60d73d31145916a7d984208eb111e27d28
+Source SHA-256: 0964aa67f24a728e7f1c0091b4b1960fdb0d9c6dd374a3bdb2026ce83e51b57f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Write | method_declaration |  | [696](../../magpie/internal/gateway/image_mcp.go#L696) |
-| code | method_declaration |  | [706](../../magpie/internal/gateway/image_mcp.go#L706) |
-| imageMCPSaid | function_declaration |  | [715](../../magpie/internal/gateway/image_mcp.go#L715) |
-| e | var_spec | imageMCPSaid | [716](../../magpie/internal/gateway/image_mcp.go#L716) |
-| Error | field_declaration | imageMCPSaid::e | [717](../../magpie/internal/gateway/image_mcp.go#L717) |
-| Message | field_declaration | imageMCPSaid::e::Error | [718](../../magpie/internal/gateway/image_mcp.go#L718) |
-| randomHex | function_declaration |  | [731](../../magpie/internal/gateway/image_mcp.go#L731) |
+| imageFileToken | function_declaration |  | [676](../../magpie/internal/gateway/image_mcp.go#L676) |
+| imageTokenAsked | function_declaration |  | [685](../../magpie/internal/gateway/image_mcp.go#L685) |
+| tokenOpens | method_declaration |  | [695](../../magpie/internal/gateway/image_mcp.go#L695) |
+| imageMCPFile | method_declaration |  | [713](../../magpie/internal/gateway/image_mcp.go#L713) |
+| imageMCPBase | function_declaration |  | [760](../../magpie/internal/gateway/image_mcp.go#L760) |
+| inProcess | function_declaration |  | [773](../../magpie/internal/gateway/image_mcp.go#L773) |
+| replyRecorder | type_spec |  | [796](../../magpie/internal/gateway/image_mcp.go#L796) |
+| header | field_declaration | replyRecorder | [797](../../magpie/internal/gateway/image_mcp.go#L797) |
+| status | field_declaration | replyRecorder | [798](../../magpie/internal/gateway/image_mcp.go#L798) |
+| body | field_declaration | replyRecorder | [799](../../magpie/internal/gateway/image_mcp.go#L799) |
+| Header | method_declaration |  | [802](../../magpie/internal/gateway/image_mcp.go#L802) |
+| WriteHeader | method_declaration |  | [804](../../magpie/internal/gateway/image_mcp.go#L804) |
+| Write | method_declaration |  | [810](../../magpie/internal/gateway/image_mcp.go#L810) |
+| code | method_declaration |  | [820](../../magpie/internal/gateway/image_mcp.go#L820) |
+| imageMCPSaid | function_declaration |  | [829](../../magpie/internal/gateway/image_mcp.go#L829) |
+| e | var_spec | imageMCPSaid | [830](../../magpie/internal/gateway/image_mcp.go#L830) |
+| Error | field_declaration | imageMCPSaid::e | [831](../../magpie/internal/gateway/image_mcp.go#L831) |
+| Message | field_declaration | imageMCPSaid::e::Error | [832](../../magpie/internal/gateway/image_mcp.go#L832) |
+| randomHex | function_declaration |  | [845](../../magpie/internal/gateway/image_mcp.go#L845) |

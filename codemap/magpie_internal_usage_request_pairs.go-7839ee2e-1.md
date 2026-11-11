@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_pairs.go) · page 1/1
 
-Source SHA-256: 0a96a55ec4fcba7151bbd91a0d441f7f6d630d3a0e7c8a176dcddbc5e7a61e16
+Source SHA-256: d32935d1e1e179a3d922ff02a4286518bd3e4df4c2991d07984ef0e521f4a7bf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,13 +14,11 @@ Source SHA-256: 0a96a55ec4fcba7151bbd91a0d441f7f6d630d3a0e7c8a176dcddbc5e7a61e16
 | skip | field_declaration | pairMemo | [20](../../magpie/internal/usage/request_pairs.go#L20) |
 | actors | field_declaration | pairMemo | [21](../../magpie/internal/usage/request_pairs.go#L21) |
 | compactions | field_declaration | pairMemo | [22](../../magpie/internal/usage/request_pairs.go#L22) |
-| serialRef | type_spec |  | [25](../../magpie/internal/usage/request_pairs.go#L25) |
-| serial | field_declaration | serialRef | [26](../../magpie/internal/usage/request_pairs.go#L26) |
-| index | field_declaration | serialRef | [27](../../magpie/internal/usage/request_pairs.go#L27) |
-| pairSerials | function_declaration |  | [32](../../magpie/internal/usage/request_pairs.go#L32) |
-| out | var_spec | pairSerials | [33](../../magpie/internal/usage/request_pairs.go#L33) |
-| unnamedSerial | function_declaration |  | [54](../../magpie/internal/usage/request_pairs.go#L54) |
-| pairRowsMemo | function_declaration |  | [64](../../magpie/internal/usage/request_pairs.go#L64) |
-| memoOf | function_declaration |  | [78](../../magpie/internal/usage/request_pairs.go#L78) |
-| apply | method_declaration |  | [113](../../magpie/internal/usage/request_pairs.go#L113) |
-| all | var_spec | apply | [114](../../magpie/internal/usage/request_pairs.go#L114) |
+| pairSerials | function_declaration |  | [27](../../magpie/internal/usage/request_pairs.go#L27) |
+| out | var_spec | pairSerials | [28](../../magpie/internal/usage/request_pairs.go#L28) |
+| unnamedSerial | function_declaration |  | [49](../../magpie/internal/usage/request_pairs.go#L49) |
+| pairRowsMemo | function_declaration |  | [59](../../magpie/internal/usage/request_pairs.go#L59) |
+| pairEvery | function_declaration |  | [81](../../magpie/internal/usage/request_pairs.go#L81) |
+| memoOf | function_declaration |  | [91](../../magpie/internal/usage/request_pairs.go#L91) |
+| apply | method_declaration |  | [126](../../magpie/internal/usage/request_pairs.go#L126) |
+| all | var_spec | apply | [127](../../magpie/internal/usage/request_pairs.go#L127) |

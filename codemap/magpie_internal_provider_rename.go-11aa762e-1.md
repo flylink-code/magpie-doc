@@ -4,34 +4,64 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/rename.go) · page 1/1
 
-Source SHA-256: fd3c6cb9f7cfe74424f5f75f694f3dbcebc52644c21c80b807ecf742fff17669
+Source SHA-256: ba3dff84d319324ae39cd7a8ca9e7db2099e641ba63a156ef6338cfce6145b94
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Rename | function_declaration |  | [25](../../magpie/internal/provider/rename.go#L25) |
-| renamedRef | function_declaration |  | [130](../../magpie/internal/provider/rename.go#L130) |
-| RenamedRef | function_declaration |  | [143](../../magpie/internal/provider/rename.go#L143) |
-| Renamed | function_declaration |  | [155](../../magpie/internal/provider/rename.go#L155) |
-| Gave | type_spec |  | [158](../../magpie/internal/provider/rename.go#L158) |
-| ID | field_declaration | Gave | [159](../../magpie/internal/provider/rename.go#L159) |
-| Until | field_declaration | Gave | [160](../../magpie/internal/provider/rename.go#L160) |
-| Renames | type_spec |  | [168](../../magpie/internal/provider/rename.go#L168) |
-| now | field_declaration | Renames | [169](../../magpie/internal/provider/rename.go#L169) |
-| gave | field_declaration | Renames | [170](../../magpie/internal/provider/rename.go#L170) |
-| gaveTo | type_spec |  | [173](../../magpie/internal/provider/rename.go#L173) |
-| Until | field_declaration | gaveTo | [174](../../magpie/internal/provider/rename.go#L174) |
-| To | field_declaration | gaveTo | [175](../../magpie/internal/provider/rename.go#L175) |
-| Of | method_declaration |  | [181](../../magpie/internal/provider/rename.go#L181) |
-| Timed | method_declaration |  | [195](../../magpie/internal/provider/rename.go#L195) |
-| Each | method_declaration |  | [199](../../magpie/internal/provider/rename.go#L199) |
-| RenamesOf | function_declaration |  | [211](../../magpie/internal/provider/rename.go#L211) |
-| Empty | method_declaration |  | [214](../../magpie/internal/provider/rename.go#L214) |
-| Key | method_declaration |  | [217](../../magpie/internal/provider/rename.go#L217) |
-| lastRenames | var_spec |  | [225](../../magpie/internal/provider/rename.go#L225) |
-| UsageRenames | function_declaration |  | [228](../../magpie/internal/provider/rename.go#L228) |
-| renamesOf | function_declaration |  | [241](../../magpie/internal/provider/rename.go#L241) |
-| giveID | function_declaration |  | [271](../../magpie/internal/provider/rename.go#L271) |
-| OnAccountIDs | function_declaration |  | [285](../../magpie/internal/provider/rename.go#L285) |
-| out | var_spec | OnAccountIDs | [286](../../magpie/internal/provider/rename.go#L286) |
-| FreeID | function_declaration |  | [296](../../magpie/internal/provider/rename.go#L296) |
-| hasEndpoint | function_declaration |  | [300](../../magpie/internal/provider/rename.go#L300) |
+| Rename | function_declaration |  | [29](../../magpie/internal/provider/rename.go#L29) |
+| mapModelRefs | function_declaration |  | [127](../../magpie/internal/provider/rename.go#L127) |
+| renamedRef | function_declaration |  | [162](../../magpie/internal/provider/rename.go#L162) |
+| RenamedRef | function_declaration |  | [175](../../magpie/internal/provider/rename.go#L175) |
+| Renamed | function_declaration |  | [187](../../magpie/internal/provider/rename.go#L187) |
+| Gave | type_spec |  | [190](../../magpie/internal/provider/rename.go#L190) |
+| ID | field_declaration | Gave | [191](../../magpie/internal/provider/rename.go#L191) |
+| Until | field_declaration | Gave | [192](../../magpie/internal/provider/rename.go#L192) |
+| Deleted | type_spec |  | [201](../../magpie/internal/provider/rename.go#L201) |
+| ID | field_declaration | Deleted | [202](../../magpie/internal/provider/rename.go#L202) |
+| Name | field_declaration | Deleted | [203](../../magpie/internal/provider/rename.go#L203) |
+| Icon | field_declaration | Deleted | [204](../../magpie/internal/provider/rename.go#L204) |
+| At | field_declaration | Deleted | [205](../../magpie/internal/provider/rename.go#L205) |
+| Was | field_declaration | Deleted | [206](../../magpie/internal/provider/rename.go#L206) |
+| Gave | field_declaration | Deleted | [207](../../magpie/internal/provider/rename.go#L207) |
+| Into | field_declaration | Deleted | [213](../../magpie/internal/provider/rename.go#L213) |
+| MergedAt | field_declaration | Deleted | [214](../../magpie/internal/provider/rename.go#L214) |
+| Label | field_declaration | Deleted | [217](../../magpie/internal/provider/rename.go#L217) |
+| Shown | method_declaration |  | [222](../../magpie/internal/provider/rename.go#L222) |
+| merged | method_declaration |  | [234](../../magpie/internal/provider/rename.go#L234) |
+| UsageID | method_declaration |  | [243](../../magpie/internal/provider/rename.go#L243) |
+| Renames | type_spec |  | [250](../../magpie/internal/provider/rename.go#L250) |
+| now | field_declaration | Renames | [251](../../magpie/internal/provider/rename.go#L251) |
+| gave | field_declaration | Renames | [252](../../magpie/internal/provider/rename.go#L252) |
+| hosts | field_declaration | Renames | [255](../../magpie/internal/provider/rename.go#L255) |
+| sites | field_declaration | Renames | [259](../../magpie/internal/provider/rename.go#L259) |
+| gone | field_declaration | Renames | [261](../../magpie/internal/provider/rename.go#L261) |
+| into | field_declaration | Renames | [265](../../magpie/internal/provider/rename.go#L265) |
+| merged | field_declaration | Renames | [266](../../magpie/internal/provider/rename.go#L266) |
+| gaveTo | type_spec |  | [269](../../magpie/internal/provider/rename.go#L269) |
+| Until | field_declaration | gaveTo | [270](../../magpie/internal/provider/rename.go#L270) |
+| To | field_declaration | gaveTo | [271](../../magpie/internal/provider/rename.go#L271) |
+| Of | method_declaration |  | [279](../../magpie/internal/provider/rename.go#L279) |
+| Both | method_declaration |  | [287](../../magpie/internal/provider/rename.go#L287) |
+| Own | method_declaration |  | [299](../../magpie/internal/provider/rename.go#L299) |
+| ProbeOf | method_declaration |  | [318](../../magpie/internal/provider/rename.go#L318) |
+| OnHost | method_declaration |  | [326](../../magpie/internal/provider/rename.go#L326) |
+| OnSite | method_declaration |  | [337](../../magpie/internal/provider/rename.go#L337) |
+| SiteOf | function_declaration |  | [350](../../magpie/internal/provider/rename.go#L350) |
+| Gone | method_declaration |  | [368](../../magpie/internal/provider/rename.go#L368) |
+| Merged | method_declaration |  | [375](../../magpie/internal/provider/rename.go#L375) |
+| Timed | method_declaration |  | [379](../../magpie/internal/provider/rename.go#L379) |
+| Each | method_declaration |  | [383](../../magpie/internal/provider/rename.go#L383) |
+| RenamesOf | function_declaration |  | [395](../../magpie/internal/provider/rename.go#L395) |
+| Empty | method_declaration |  | [398](../../magpie/internal/provider/rename.go#L398) |
+| Key | method_declaration |  | [401](../../magpie/internal/provider/rename.go#L401) |
+| lastRenames | var_spec |  | [409](../../magpie/internal/provider/rename.go#L409) |
+| UsageRenames | function_declaration |  | [415](../../magpie/internal/provider/rename.go#L415) |
+| renamesOf | function_declaration |  | [440](../../magpie/internal/provider/rename.go#L440) |
+| giveID | function_declaration |  | [538](../../magpie/internal/provider/rename.go#L538) |
+| OnAccountIDs | function_declaration |  | [552](../../magpie/internal/provider/rename.go#L552) |
+| out | var_spec | OnAccountIDs | [553](../../magpie/internal/provider/rename.go#L553) |
+| FreeID | function_declaration |  | [563](../../magpie/internal/provider/rename.go#L563) |
+| hasEndpoint | function_declaration |  | [567](../../magpie/internal/provider/rename.go#L567) |
+| deletedAt | function_declaration |  | [573](../../magpie/internal/provider/rename.go#L573) |
+| MergeDeleted | function_declaration |  | [592](../../magpie/internal/provider/rename.go#L592) |
+| NameDeleted | function_declaration |  | [616](../../magpie/internal/provider/rename.go#L616) |

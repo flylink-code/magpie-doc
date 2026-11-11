@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/apprestart_other.go) · page 1/1
 
-Source SHA-256: d1b6d1c09442d922a77b4f97253923b2a4db205201c8dd2d04c6e8ae8b622e1e
+Source SHA-256: 87f3ca5494abe4178b48243041fd1d01745fe1851d3f3f47e74e1b5a37629e50
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,4 +12,5 @@ Source SHA-256: d1b6d1c09442d922a77b4f97253923b2a4db205201c8dd2d04c6e8ae8b622e1e
 | listWinProcs | function_declaration |  | [9](../../magpie/internal/agent/apprestart_other.go#L9) |
 | closeWinProcs | function_declaration |  | [10](../../magpie/internal/agent/apprestart_other.go#L10) |
 | endWinTree | function_declaration |  | [11](../../magpie/internal/agent/apprestart_other.go#L11) |
-| launchWin | function_declaration |  | [12](../../magpie/internal/agent/apprestart_other.go#L12) |
+| winWindowsShown | function_declaration |  | [12](../../magpie/internal/agent/apprestart_other.go#L12) |
+| launchWin | function_declaration |  | [13](../../magpie/internal/agent/apprestart_other.go#L13) |

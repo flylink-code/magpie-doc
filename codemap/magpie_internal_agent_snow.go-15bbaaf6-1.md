@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/snow.go) · page 1/1
 
-Source SHA-256: 04c4cfb69b7a07c7f4c3906013b954523e535371198d1739ebc7a544110a26b3
+Source SHA-256: cefc2e8a39689f1c2559c100a37ea2615f646623cddd2bd87f9ebeee81d239be
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

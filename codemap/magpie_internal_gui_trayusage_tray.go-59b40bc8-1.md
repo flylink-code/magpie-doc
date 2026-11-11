@@ -4,9 +4,10 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayusage_tray.go) · page 1/1
 
-Source SHA-256: e3de0f2ecf88fd36e27cd105847c3d153cadfef51272fd25ab3dfccd134d7817
+Source SHA-256: ad6c7660657315eec4c578d5b1e348e215098a729287d6b5a7c9aca0a15bc2e3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| watchTrayUsage | method_declaration |  | [20](../../magpie/internal/gui/trayusage_tray.go#L20) |
-| trayCellClick | method_declaration |  | [115](../../magpie/internal/gui/trayusage_tray.go#L115) |
+| watchTrayUsage | method_declaration |  | [22](../../magpie/internal/gui/trayusage_tray.go#L22) |
+| setTrayNumber | method_declaration |  | [139](../../magpie/internal/gui/trayusage_tray.go#L139) |
+| trayCellClick | method_declaration |  | [154](../../magpie/internal/gui/trayusage_tray.go#L154) |

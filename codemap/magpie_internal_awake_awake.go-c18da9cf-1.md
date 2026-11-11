@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/awake/awake.go) · page 1/1
 
-Source SHA-256: 0b088fcd4c09d0a46afee541505dd591232c24e6b8fd76b1e065c349956a1f55
+Source SHA-256: 2a2823353b7b233dba17ab3eae7a7d10df4dc73e922bb3136c2af1a9be98946f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

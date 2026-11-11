@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/qoder.go) · page 1/1
 
-Source SHA-256: 3936410429d5779f925dbbf52fcea1bee3a1353e199296307d62362b5e0ad52e
+Source SHA-256: c651c9900833d0139459c83950ff9d4540540d9cbcad9eb9c62761f153950911
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

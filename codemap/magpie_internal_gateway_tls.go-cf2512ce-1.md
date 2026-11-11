@@ -4,47 +4,52 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/tls.go) · page 1/1
 
-Source SHA-256: 15b805835a4be8c931f6ffe8fa7c677ad365e39ab9a5857e2ed78a474313d1a5
+Source SHA-256: 58ef3a7defa9b2635d37e871fdf17ae7483cf5ba296d9c4beaafc9045be60f0d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | TLSCertEnv | const_spec |  | [33](../../magpie/internal/gateway/tls.go#L33) |
 | TLSKeyEnv | const_spec |  | [34](../../magpie/internal/gateway/tls.go#L34) |
 | TLSFiles | function_declaration |  | [38](../../magpie/internal/gateway/tls.go#L38) |
-| TLSOn | function_declaration |  | [43](../../magpie/internal/gateway/tls.go#L43) |
-| Scheme | function_declaration |  | [49](../../magpie/internal/gateway/tls.go#L49) |
-| SetTLS | function_declaration |  | [58](../../magpie/internal/gateway/tls.go#L58) |
-| CheckTLS | function_declaration |  | [82](../../magpie/internal/gateway/tls.go#L82) |
-| checkTLS | function_declaration |  | [84](../../magpie/internal/gateway/tls.go#L84) |
-| TLSSummary | function_declaration |  | [101](../../magpie/internal/gateway/tls.go#L101) |
-| certFiles | type_spec |  | [130](../../magpie/internal/gateway/tls.go#L130) |
-| cert | field_declaration | certFiles | [131](../../magpie/internal/gateway/tls.go#L131) |
-| mu | field_declaration | certFiles | [133](../../magpie/internal/gateway/tls.go#L133) |
-| served | field_declaration | certFiles | [134](../../magpie/internal/gateway/tls.go#L134) |
-| stamp | field_declaration | certFiles | [135](../../magpie/internal/gateway/tls.go#L135) |
-| fileStamp | type_spec |  | [138](../../magpie/internal/gateway/tls.go#L138) |
-| mod | field_declaration | fileStamp | [139](../../magpie/internal/gateway/tls.go#L139) |
-| size | field_declaration | fileStamp | [140](../../magpie/internal/gateway/tls.go#L140) |
-| stampOf | function_declaration |  | [143](../../magpie/internal/gateway/tls.go#L143) |
-| get | method_declaration |  | [151](../../magpie/internal/gateway/tls.go#L151) |
-| tlsConfig | function_declaration |  | [172](../../magpie/internal/gateway/tls.go#L172) |
-| ServeTLS | function_declaration |  | [195](../../magpie/internal/gateway/tls.go#L195) |
-| fromThisComputer | var_spec |  | [208](../../magpie/internal/gateway/tls.go#L208) |
-| sniffWait | const_spec |  | [222](../../magpie/internal/gateway/tls.go#L222) |
-| tlsListener | type_spec |  | [229](../../magpie/internal/gateway/tls.go#L229) |
-| cfg | field_declaration | tlsListener | [231](../../magpie/internal/gateway/tls.go#L231) |
-| conns | field_declaration | tlsListener | [232](../../magpie/internal/gateway/tls.go#L232) |
-| done | field_declaration | tlsListener | [233](../../magpie/internal/gateway/tls.go#L233) |
-| stopped | field_declaration | tlsListener | [234](../../magpie/internal/gateway/tls.go#L234) |
-| err | field_declaration | tlsListener | [235](../../magpie/internal/gateway/tls.go#L235) |
-| once | field_declaration | tlsListener | [236](../../magpie/internal/gateway/tls.go#L236) |
-| newTLSListener | function_declaration |  | [239](../../magpie/internal/gateway/tls.go#L239) |
-| accept | method_declaration |  | [245](../../magpie/internal/gateway/tls.go#L245) |
-| wait | var_spec | accept | [246](../../magpie/internal/gateway/tls.go#L246) |
-| sniff | method_declaration |  | [272](../../magpie/internal/gateway/tls.go#L272) |
-| hand | method_declaration |  | [288](../../magpie/internal/gateway/tls.go#L288) |
-| Accept | method_declaration |  | [296](../../magpie/internal/gateway/tls.go#L296) |
-| Close | method_declaration |  | [307](../../magpie/internal/gateway/tls.go#L307) |
-| peeked | type_spec |  | [314](../../magpie/internal/gateway/tls.go#L314) |
-| r | field_declaration | peeked | [316](../../magpie/internal/gateway/tls.go#L316) |
-| Read | method_declaration |  | [319](../../magpie/internal/gateway/tls.go#L319) |
+| TLSOn | function_declaration |  | [44](../../magpie/internal/gateway/tls.go#L44) |
+| Scheme | function_declaration |  | [50](../../magpie/internal/gateway/tls.go#L50) |
+| SetTLS | function_declaration |  | [59](../../magpie/internal/gateway/tls.go#L59) |
+| CheckTLS | function_declaration |  | [83](../../magpie/internal/gateway/tls.go#L83) |
+| checkTLS | function_declaration |  | [85](../../magpie/internal/gateway/tls.go#L85) |
+| TLSSummary | function_declaration |  | [102](../../magpie/internal/gateway/tls.go#L102) |
+| c | var_spec | TLSSummary | [106](../../magpie/internal/gateway/tls.go#L106) |
+| err | var_spec | TLSSummary | [107](../../magpie/internal/gateway/tls.go#L107) |
+| own | var_spec | TLSSummary | [111](../../magpie/internal/gateway/tls.go#L111) |
+| certFiles | type_spec |  | [140](../../magpie/internal/gateway/tls.go#L140) |
+| cert | field_declaration | certFiles | [141](../../magpie/internal/gateway/tls.go#L141) |
+| mu | field_declaration | certFiles | [143](../../magpie/internal/gateway/tls.go#L143) |
+| served | field_declaration | certFiles | [144](../../magpie/internal/gateway/tls.go#L144) |
+| stamp | field_declaration | certFiles | [145](../../magpie/internal/gateway/tls.go#L145) |
+| fileStamp | type_spec |  | [148](../../magpie/internal/gateway/tls.go#L148) |
+| mod | field_declaration | fileStamp | [149](../../magpie/internal/gateway/tls.go#L149) |
+| size | field_declaration | fileStamp | [150](../../magpie/internal/gateway/tls.go#L150) |
+| stampOf | function_declaration |  | [153](../../magpie/internal/gateway/tls.go#L153) |
+| get | method_declaration |  | [161](../../magpie/internal/gateway/tls.go#L161) |
+| tlsConfig | function_declaration |  | [182](../../magpie/internal/gateway/tls.go#L182) |
+| serverTLS | function_declaration |  | [199](../../magpie/internal/gateway/tls.go#L199) |
+| ServeTLS | function_declaration |  | [213](../../magpie/internal/gateway/tls.go#L213) |
+| fromThisComputer | var_spec |  | [226](../../magpie/internal/gateway/tls.go#L226) |
+| sniffWait | const_spec |  | [240](../../magpie/internal/gateway/tls.go#L240) |
+| tlsListener | type_spec |  | [247](../../magpie/internal/gateway/tls.go#L247) |
+| serve | field_declaration | tlsListener | [249](../../magpie/internal/gateway/tls.go#L249) |
+| conns | field_declaration | tlsListener | [250](../../magpie/internal/gateway/tls.go#L250) |
+| done | field_declaration | tlsListener | [251](../../magpie/internal/gateway/tls.go#L251) |
+| stopped | field_declaration | tlsListener | [252](../../magpie/internal/gateway/tls.go#L252) |
+| err | field_declaration | tlsListener | [253](../../magpie/internal/gateway/tls.go#L253) |
+| once | field_declaration | tlsListener | [254](../../magpie/internal/gateway/tls.go#L254) |
+| newTLSListener | function_declaration |  | [257](../../magpie/internal/gateway/tls.go#L257) |
+| accept | method_declaration |  | [263](../../magpie/internal/gateway/tls.go#L263) |
+| wait | var_spec | accept | [264](../../magpie/internal/gateway/tls.go#L264) |
+| sniff | method_declaration |  | [307](../../magpie/internal/gateway/tls.go#L307) |
+| hand | method_declaration |  | [323](../../magpie/internal/gateway/tls.go#L323) |
+| taken | method_declaration |  | [336](../../magpie/internal/gateway/tls.go#L336) |
+| Accept | method_declaration |  | [350](../../magpie/internal/gateway/tls.go#L350) |
+| Close | method_declaration |  | [359](../../magpie/internal/gateway/tls.go#L359) |
+| peeked | type_spec |  | [366](../../magpie/internal/gateway/tls.go#L366) |
+| r | field_declaration | peeked | [368](../../magpie/internal/gateway/tls.go#L368) |
+| Read | method_declaration |  | [371](../../magpie/internal/gateway/tls.go#L371) |

@@ -4,36 +4,42 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/checkin.go) · page 1/1
 
-Source SHA-256: 25423d77ac0e6a664f15df05e86b9074bf6257d17fd32089865f6a4b8d6f6264
+Source SHA-256: 5cc4ea7a5e45e9cb17faa8bc55b39ee85ba82d92c6ba98f03aaf9097c6c27500
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| checkinAcct | type_spec |  | [25](../../magpie/internal/provider/checkin.go#L25) |
-| User | field_declaration | checkinAcct | [26](../../magpie/internal/provider/checkin.go#L26) |
-| On | field_declaration | checkinAcct | [27](../../magpie/internal/provider/checkin.go#L27) |
-| key | field_declaration | checkinAcct | [28](../../magpie/internal/provider/checkin.go#L28) |
-| provider | field_declaration | checkinAcct | [29](../../magpie/internal/provider/checkin.go#L29) |
-| do | field_declaration | checkinAcct | [30](../../magpie/internal/provider/checkin.go#L30) |
-| checkiner | type_spec |  | [36](../../magpie/internal/provider/checkin.go#L36) |
-| path | field_declaration | checkiner | [37](../../magpie/internal/provider/checkin.go#L37) |
-| now | field_declaration | checkiner | [38](../../magpie/internal/provider/checkin.go#L38) |
-| mu | field_declaration | checkiner | [39](../../magpie/internal/provider/checkin.go#L39) |
-| by | field_declaration | checkiner | [40](../../magpie/internal/provider/checkin.go#L40) |
-| label | field_declaration | checkiner | [41](../../magpie/internal/provider/checkin.go#L41) |
-| recheck | field_declaration | checkiner | [42](../../magpie/internal/provider/checkin.go#L42) |
-| accounts | field_declaration | checkiner | [43](../../magpie/internal/provider/checkin.go#L43) |
-| checkinRunner | type_spec |  | [47](../../magpie/internal/provider/checkin.go#L47) |
-| clock | method_declaration |  | [52](../../magpie/internal/provider/checkin.go#L52) |
-| checkinNow | method_declaration |  | [58](../../magpie/internal/provider/checkin.go#L58) |
-| out | var_spec | checkinNow | [72](../../magpie/internal/provider/checkin.go#L72) |
-| unread | method_declaration |  | [147](../../magpie/internal/provider/checkin.go#L147) |
-| out | var_spec | unread | [148](../../magpie/internal/provider/checkin.go#L148) |
-| checkinOff | function_declaration |  | [163](../../magpie/internal/provider/checkin.go#L163) |
-| CheckinAccount | type_spec |  | [176](../../magpie/internal/provider/checkin.go#L176) |
-| Key | field_declaration | CheckinAccount | [177](../../magpie/internal/provider/checkin.go#L177) |
-| By | field_declaration | CheckinAccount | [178](../../magpie/internal/provider/checkin.go#L178) |
-| User | field_declaration | CheckinAccount | [179](../../magpie/internal/provider/checkin.go#L179) |
-| On | field_declaration | CheckinAccount | [180](../../magpie/internal/provider/checkin.go#L180) |
-| CheckinAccounts | function_declaration |  | [186](../../magpie/internal/provider/checkin.go#L186) |
-| out | var_spec | CheckinAccounts | [197](../../magpie/internal/provider/checkin.go#L197) |
-| mine | var_spec | CheckinAccounts | [200](../../magpie/internal/provider/checkin.go#L200) |
+| checkinAcct | type_spec |  | [28](../../magpie/internal/provider/checkin.go#L28) |
+| User | field_declaration | checkinAcct | [29](../../magpie/internal/provider/checkin.go#L29) |
+| On | field_declaration | checkinAcct | [30](../../magpie/internal/provider/checkin.go#L30) |
+| key | field_declaration | checkinAcct | [31](../../magpie/internal/provider/checkin.go#L31) |
+| provider | field_declaration | checkinAcct | [32](../../magpie/internal/provider/checkin.go#L32) |
+| do | field_declaration | checkinAcct | [33](../../magpie/internal/provider/checkin.go#L33) |
+| checkiner | type_spec |  | [39](../../magpie/internal/provider/checkin.go#L39) |
+| path | field_declaration | checkiner | [40](../../magpie/internal/provider/checkin.go#L40) |
+| now | field_declaration | checkiner | [41](../../magpie/internal/provider/checkin.go#L41) |
+| mu | field_declaration | checkiner | [42](../../magpie/internal/provider/checkin.go#L42) |
+| by | field_declaration | checkiner | [43](../../magpie/internal/provider/checkin.go#L43) |
+| label | field_declaration | checkiner | [44](../../magpie/internal/provider/checkin.go#L44) |
+| recheck | field_declaration | checkiner | [45](../../magpie/internal/provider/checkin.go#L45) |
+| accounts | field_declaration | checkiner | [46](../../magpie/internal/provider/checkin.go#L46) |
+| only | field_declaration | checkiner | [50](../../magpie/internal/provider/checkin.go#L50) |
+| checkinRunner | type_spec |  | [54](../../magpie/internal/provider/checkin.go#L54) |
+| clock | method_declaration |  | [59](../../magpie/internal/provider/checkin.go#L59) |
+| checkinNow | method_declaration |  | [65](../../magpie/internal/provider/checkin.go#L65) |
+| out | var_spec | checkinNow | [79](../../magpie/internal/provider/checkin.go#L79) |
+| checkinGate | function_declaration |  | [178](../../magpie/internal/provider/checkin.go#L178) |
+| unread | method_declaration |  | [200](../../magpie/internal/provider/checkin.go#L200) |
+| out | var_spec | unread | [201](../../magpie/internal/provider/checkin.go#L201) |
+| reaches | method_declaration |  | [216](../../magpie/internal/provider/checkin.go#L216) |
+| checkinOff | function_declaration |  | [225](../../magpie/internal/provider/checkin.go#L225) |
+| CheckinAccount | type_spec |  | [238](../../magpie/internal/provider/checkin.go#L238) |
+| Key | field_declaration | CheckinAccount | [239](../../magpie/internal/provider/checkin.go#L239) |
+| By | field_declaration | CheckinAccount | [240](../../magpie/internal/provider/checkin.go#L240) |
+| User | field_declaration | CheckinAccount | [241](../../magpie/internal/provider/checkin.go#L241) |
+| On | field_declaration | CheckinAccount | [242](../../magpie/internal/provider/checkin.go#L242) |
+| CheckinAccounts | function_declaration |  | [248](../../magpie/internal/provider/checkin.go#L248) |
+| out | var_spec | CheckinAccounts | [251](../../magpie/internal/provider/checkin.go#L251) |
+| mine | var_spec | CheckinAccounts | [254](../../magpie/internal/provider/checkin.go#L254) |
+| checkiners | function_declaration |  | [271](../../magpie/internal/provider/checkin.go#L271) |
+| namedCheckiners | function_declaration |  | [276](../../magpie/internal/provider/checkin.go#L276) |
+| CheckInAccount | function_declaration |  | [296](../../magpie/internal/provider/checkin.go#L296) |

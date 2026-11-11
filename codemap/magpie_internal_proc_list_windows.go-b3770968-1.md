@@ -4,11 +4,15 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/list_windows.go) · page 1/1
 
-Source SHA-256: 66a016933f156475c4819b7172624dec280ee47017a54c97d892bdb906d97f34
+Source SHA-256: 59d1e8c127d2358385c0637a67d05e770d5cb75fe8817224c5efd8088fe55422
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | list | function_declaration |  | [18](../../magpie/internal/proc/list_windows.go#L18) |
 | ps | var_spec | list | [25](../../magpie/internal/proc/list_windows.go#L25) |
-| commandLine | function_declaration |  | [45](../../magpie/internal/proc/list_windows.go#L45) |
-| n | var_spec | commandLine | [53](../../magpie/internal/proc/list_windows.go#L53) |
+| CommandLine | function_declaration |  | [45](../../magpie/internal/proc/list_windows.go#L45) |
+| commandLine | function_declaration |  | [49](../../magpie/internal/proc/list_windows.go#L49) |
+| n | var_spec | commandLine | [57](../../magpie/internal/proc/list_windows.go#L57) |
+| family | function_declaration |  | [71](../../magpie/internal/proc/list_windows.go#L71) |
+| ps | var_spec | family | [77](../../magpie/internal/proc/list_windows.go#L77) |
+| endFamily | function_declaration |  | [95](../../magpie/internal/proc/list_windows.go#L95) |

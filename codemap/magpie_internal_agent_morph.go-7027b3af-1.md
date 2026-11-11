@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/morph.go) · page 1/1
 
-Source SHA-256: 921705d19757df3b5f4c4766e77718ff4157de010da8cb752f12123241ff4019
+Source SHA-256: 26251847c72f196d7ad3294c1c266fcef53106a7251d7f38e0fcaa7761fde50b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

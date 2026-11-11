@@ -4,18 +4,21 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claudedash.go) · page 1/1
 
-Source SHA-256: 6d09979ff7bfe00c4d139709f2d98d81fa6880f28672318d845fab65c057f3a5
+Source SHA-256: 4112ff39e0c7b100dcfcc045add77b9d6f1a7d3cffddce993fe752336bdae510
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeDotted | var_spec |  | [22](../../magpie/internal/provider/claudedash.go#L22) |
-| claudeDashedish | var_spec |  | [25](../../magpie/internal/provider/claudedash.go#L25) |
-| ClaudeDashed | function_declaration |  | [30](../../magpie/internal/provider/claudedash.go#L30) |
-| claudeSplit | function_declaration |  | [40](../../magpie/internal/provider/claudedash.go#L40) |
-| mark | const_spec | claudeSplit | [41](../../magpie/internal/provider/claudedash.go#L41) |
-| ClaudeUndashed | function_declaration |  | [56](../../magpie/internal/provider/claudedash.go#L56) |
-| undashIn | function_declaration |  | [67](../../magpie/internal/provider/claudedash.go#L67) |
-| ClaudeSpelled | function_declaration |  | [87](../../magpie/internal/provider/claudedash.go#L87) |
-| ClaudeRead | function_declaration |  | [104](../../magpie/internal/provider/claudedash.go#L104) |
-| offEntries | function_declaration |  | [119](../../magpie/internal/provider/claudedash.go#L119) |
-| out | var_spec | offEntries | [120](../../magpie/internal/provider/claudedash.go#L120) |
+| claudeDotted | var_spec |  | [23](../../magpie/internal/provider/claudedash.go#L23) |
+| claudeDashedish | var_spec |  | [26](../../magpie/internal/provider/claudedash.go#L26) |
+| ClaudeDashed | function_declaration |  | [31](../../magpie/internal/provider/claudedash.go#L31) |
+| claudeSplit | function_declaration |  | [41](../../magpie/internal/provider/claudedash.go#L41) |
+| mark | const_spec | claudeSplit | [42](../../magpie/internal/provider/claudedash.go#L42) |
+| ClaudeUndashed | function_declaration |  | [57](../../magpie/internal/provider/claudedash.go#L57) |
+| undashIn | function_declaration |  | [68](../../magpie/internal/provider/claudedash.go#L68) |
+| ClaudeSpelled | function_declaration |  | [88](../../magpie/internal/provider/claudedash.go#L88) |
+| ClaudeRead | function_declaration |  | [105](../../magpie/internal/provider/claudedash.go#L105) |
+| offEntries | function_declaration |  | [120](../../magpie/internal/provider/claudedash.go#L120) |
+| out | var_spec | offEntries | [121](../../magpie/internal/provider/claudedash.go#L121) |
+| claudeOwnModel | var_spec |  | [134](../../magpie/internal/provider/claudedash.go#L134) |
+| ClaudeBare | function_declaration |  | [147](../../magpie/internal/provider/claudedash.go#L147) |
+| ClaudeUnbare | function_declaration |  | [172](../../magpie/internal/provider/claudedash.go#L172) |

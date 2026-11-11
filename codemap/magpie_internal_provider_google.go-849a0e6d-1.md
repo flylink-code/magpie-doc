@@ -4,107 +4,107 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/google.go) · page 1/3
 
-Source SHA-256: 2f3456b34f4ac3fb300d31df1ff180429f4590ebe9bb43d021f95b3fb3a06ba3
+Source SHA-256: 3756608549781243f62964024ae3be0fcef3c27f026a390bf7f58289fcf6a456
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodeAssist | const_spec |  | [47](../../magpie/internal/provider/google.go#L47) |
-| googleApp | type_spec |  | [50](../../magpie/internal/provider/google.go#L50) |
-| agent | field_declaration | googleApp | [51](../../magpie/internal/provider/google.go#L51) |
-| clientID | field_declaration | googleApp | [52](../../magpie/internal/provider/google.go#L52) |
-| scopes | field_declaration | googleApp | [53](../../magpie/internal/provider/google.go#L53) |
-| callback | field_declaration | googleApp | [54](../../magpie/internal/provider/google.go#L54) |
-| loopback | field_declaration | googleApp | [55](../../magpie/internal/provider/google.go#L55) |
-| base | field_declaration | googleApp | [56](../../magpie/internal/provider/google.go#L56) |
-| loadBase | field_declaration | googleApp | [57](../../magpie/internal/provider/google.go#L57) |
-| googleAuthorizeURL | var_spec |  | [62](../../magpie/internal/provider/google.go#L62) |
-| googleTokenURL | var_spec |  | [63](../../magpie/internal/provider/google.go#L63) |
-| googleUserInfoURL | var_spec |  | [64](../../magpie/internal/provider/google.go#L64) |
-| codeAssistProd | var_spec |  | [65](../../magpie/internal/provider/google.go#L65) |
-| codeAssistDaily | var_spec |  | [66](../../magpie/internal/provider/google.go#L66) |
-| antigravityVersionURL | var_spec |  | [67](../../magpie/internal/provider/google.go#L67) |
-| geminiApp | var_spec |  | [70](../../magpie/internal/provider/google.go#L70) |
-| antigravityApp | var_spec |  | [81](../../magpie/internal/provider/google.go#L81) |
-| googleAppOf | function_declaration |  | [91](../../magpie/internal/provider/google.go#L91) |
-| AntigravityRisk | const_spec |  | [107](../../magpie/internal/provider/google.go#L107) |
-| ClaudeRisk | const_spec |  | [111](../../magpie/internal/provider/google.go#L111) |
-| geminiCLIVersion | const_spec |  | [114](../../magpie/internal/provider/google.go#L114) |
-| googleAuth | type_spec |  | [118](../../magpie/internal/provider/google.go#L118) |
-| AccessToken | field_declaration | googleAuth | [119](../../magpie/internal/provider/google.go#L119) |
-| RefreshToken | field_declaration | googleAuth | [120](../../magpie/internal/provider/google.go#L120) |
-| Expiry | field_declaration | googleAuth | [121](../../magpie/internal/provider/google.go#L121) |
-| Project | field_declaration | googleAuth | [125](../../magpie/internal/provider/google.go#L125) |
-| googleAccount | type_spec |  | [129](../../magpie/internal/provider/google.go#L129) |
-| app | field_declaration | googleAccount | [130](../../magpie/internal/provider/google.go#L130) |
-| user | field_declaration | googleAccount | [131](../../magpie/internal/provider/google.go#L131) |
-| auth | field_declaration | googleAccount | [132](../../magpie/internal/provider/google.go#L132) |
-| own | field_declaration | googleAccount | [133](../../magpie/internal/provider/google.go#L133) |
-| geminiDir | function_declaration |  | [137](../../magpie/internal/provider/google.go#L137) |
-| geminiOwnLogin | function_declaration |  | [146](../../magpie/internal/provider/google.go#L146) |
-| a | var_spec | geminiOwnLogin | [148](../../magpie/internal/provider/google.go#L148) |
-| id | var_spec | geminiOwnLogin | [152](../../magpie/internal/provider/google.go#L152) |
-| IDToken | field_declaration | geminiOwnLogin::id | [153](../../magpie/internal/provider/google.go#L153) |
-| accts | var_spec | geminiOwnLogin | [159](../../magpie/internal/provider/google.go#L159) |
-| Active | field_declaration | geminiOwnLogin::accts | [160](../../magpie/internal/provider/google.go#L160) |
-| googleClientOf | function_declaration |  | [178](../../magpie/internal/provider/google.go#L178) |
-| envFileValue | function_declaration |  | [187](../../magpie/internal/provider/google.go#L187) |
-| savedGoogleProject | function_declaration |  | [194](../../magpie/internal/provider/google.go#L194) |
-| googleSaved | function_declaration |  | [206](../../magpie/internal/provider/google.go#L206) |
-| a | var_spec | googleSaved | [207](../../magpie/internal/provider/google.go#L207) |
-| googleLogin | type_spec |  | [218](../../magpie/internal/provider/google.go#L218) |
-| acct | field_declaration | googleLogin | [220](../../magpie/internal/provider/google.go#L220) |
-| googleLogins | function_declaration |  | [224](../../magpie/internal/provider/google.go#L224) |
-| out | var_spec | googleLogins | [233](../../magpie/internal/provider/google.go#L233) |
-| googleSide | function_declaration |  | [248](../../magpie/internal/provider/google.go#L248) |
-| out | var_spec | googleSide | [249](../../magpie/internal/provider/google.go#L249) |
-| googleLoginList | function_declaration |  | [256](../../magpie/internal/provider/google.go#L256) |
-| switchGoogleLogin | function_declaration |  | [258](../../magpie/internal/provider/google.go#L258) |
-| setGoogleLoginOn | function_declaration |  | [262](../../magpie/internal/provider/google.go#L262) |
-| forgetGoogleLogin | function_declaration |  | [266](../../magpie/internal/provider/google.go#L266) |
-| addGoogleLogin | function_declaration |  | [271](../../magpie/internal/provider/google.go#L271) |
-| SetGoogleProject | function_declaration |  | [283](../../magpie/internal/provider/google.go#L283) |
-| googleState | var_spec |  | [313](../../magpie/internal/provider/google.go#L313) |
-| tokens | field_declaration | googleState | [315](../../magpie/internal/provider/google.go#L315) |
-| projects | field_declaration | googleState | [316](../../magpie/internal/provider/google.go#L316) |
-| flags | field_declaration | googleState | [317](../../magpie/internal/provider/google.go#L317) |
-| googleProject | type_spec |  | [320](../../magpie/internal/provider/google.go#L320) |
-| id | field_declaration | googleProject | [321](../../magpie/internal/provider/google.go#L321) |
-| tier | field_declaration | googleProject | [325](../../magpie/internal/provider/google.go#L325) |
-| entitlements | method_declaration |  | [335](../../magpie/internal/provider/google.go#L335) |
-| out | var_spec | entitlements | [336](../../magpie/internal/provider/google.go#L336) |
-| token | method_declaration |  | [346](../../magpie/internal/provider/google.go#L346) |
-| fresh | var_spec | token | [358](../../magpie/internal/provider/google.go#L358) |
-| AccessToken | field_declaration | token::fresh | [359](../../magpie/internal/provider/google.go#L359) |
-| ExpiresIn | field_declaration | token::fresh | [360](../../magpie/internal/provider/google.go#L360) |
-| userAgent | method_declaration |  | [382](../../magpie/internal/provider/google.go#L382) |
-| antigravityVer | var_spec |  | [394](../../magpie/internal/provider/google.go#L394) |
-| v | field_declaration | antigravityVer | [396](../../magpie/internal/provider/google.go#L396) |
-| at | field_declaration | antigravityVer | [397](../../magpie/internal/provider/google.go#L397) |
-| antigravityVersion | function_declaration |  | [402](../../magpie/internal/provider/google.go#L402) |
-| call | method_declaration |  | [438](../../magpie/internal/provider/google.go#L438) |
-| codeAssistTier | type_spec |  | [469](../../magpie/internal/provider/google.go#L469) |
-| ID | field_declaration | codeAssistTier | [470](../../magpie/internal/provider/google.go#L470) |
-| Name | field_declaration | codeAssistTier | [471](../../magpie/internal/provider/google.go#L471) |
-| IsDefault | field_declaration | codeAssistTier | [472](../../magpie/internal/provider/google.go#L472) |
-| UserDefinedCloudaicompanionProject | field_declaration | codeAssistTier | [473](../../magpie/internal/provider/google.go#L473) |
-| UsesGcpTos | field_declaration | codeAssistTier | [474](../../magpie/internal/provider/google.go#L474) |
-| companionProject | type_spec |  | [479](../../magpie/internal/provider/google.go#L479) |
-| UnmarshalJSON | method_declaration |  | [481](../../magpie/internal/provider/google.go#L481) |
-| s | var_spec | UnmarshalJSON | [482](../../magpie/internal/provider/google.go#L482) |
-| o | var_spec | UnmarshalJSON | [487](../../magpie/internal/provider/google.go#L487) |
-| ID | field_declaration | UnmarshalJSON::o | [488](../../magpie/internal/provider/google.go#L488) |
-| project | method_declaration |  | [500](../../magpie/internal/provider/google.go#L500) |
-| err | var_spec | project | [508](../../magpie/internal/provider/google.go#L508) |
-| loadCodeAssistReply | type_spec |  | [523](../../magpie/internal/provider/google.go#L523) |
-| CurrentTier | field_declaration | loadCodeAssistReply | [524](../../magpie/internal/provider/google.go#L524) |
-| PaidTier | field_declaration | loadCodeAssistReply | [525](../../magpie/internal/provider/google.go#L525) |
-| AllowedTiers | field_declaration | loadCodeAssistReply | [526](../../magpie/internal/provider/google.go#L526) |
-| CloudaicompanionProject | field_declaration | loadCodeAssistReply | [527](../../magpie/internal/provider/google.go#L527) |
-| IneligibleTiers | field_declaration | loadCodeAssistReply | [528](../../magpie/internal/provider/google.go#L528) |
-| ReasonCode | field_declaration | loadCodeAssistReply::IneligibleTiers | [529](../../magpie/internal/provider/google.go#L529) |
-| ReasonMessage | field_declaration | loadCodeAssistReply::IneligibleTiers | [530](../../magpie/internal/provider/google.go#L530) |
-| TierID | field_declaration | loadCodeAssistReply::IneligibleTiers | [531](../../magpie/internal/provider/google.go#L531) |
-| ValidationErrorMessage | field_declaration | loadCodeAssistReply::IneligibleTiers | [532](../../magpie/internal/provider/google.go#L532) |
-| tiers | method_declaration |  | [537](../../magpie/internal/provider/google.go#L537) |
-| describe | method_declaration |  | [548](../../magpie/internal/provider/google.go#L548) |
-| plan | method_declaration |  | [573](../../magpie/internal/provider/google.go#L573) |
+| CodeAssist | const_spec |  | [50](../../magpie/internal/provider/google.go#L50) |
+| googleApp | type_spec |  | [53](../../magpie/internal/provider/google.go#L53) |
+| agent | field_declaration | googleApp | [54](../../magpie/internal/provider/google.go#L54) |
+| clientID | field_declaration | googleApp | [55](../../magpie/internal/provider/google.go#L55) |
+| scopes | field_declaration | googleApp | [56](../../magpie/internal/provider/google.go#L56) |
+| callback | field_declaration | googleApp | [57](../../magpie/internal/provider/google.go#L57) |
+| loopback | field_declaration | googleApp | [58](../../magpie/internal/provider/google.go#L58) |
+| base | field_declaration | googleApp | [59](../../magpie/internal/provider/google.go#L59) |
+| loadBase | field_declaration | googleApp | [60](../../magpie/internal/provider/google.go#L60) |
+| googleAuthorizeURL | var_spec |  | [65](../../magpie/internal/provider/google.go#L65) |
+| googleTokenURL | var_spec |  | [66](../../magpie/internal/provider/google.go#L66) |
+| googleUserInfoURL | var_spec |  | [67](../../magpie/internal/provider/google.go#L67) |
+| codeAssistProd | var_spec |  | [68](../../magpie/internal/provider/google.go#L68) |
+| codeAssistDaily | var_spec |  | [69](../../magpie/internal/provider/google.go#L69) |
+| antigravityVersionURL | var_spec |  | [70](../../magpie/internal/provider/google.go#L70) |
+| geminiApp | var_spec |  | [73](../../magpie/internal/provider/google.go#L73) |
+| antigravityApp | var_spec |  | [84](../../magpie/internal/provider/google.go#L84) |
+| googleAppOf | function_declaration |  | [94](../../magpie/internal/provider/google.go#L94) |
+| AntigravityRisk | const_spec |  | [110](../../magpie/internal/provider/google.go#L110) |
+| ClaudeRisk | const_spec |  | [114](../../magpie/internal/provider/google.go#L114) |
+| WorkBuddyRisk | const_spec |  | [118](../../magpie/internal/provider/google.go#L118) |
+| geminiCLIVersion | const_spec |  | [121](../../magpie/internal/provider/google.go#L121) |
+| googleAuth | type_spec |  | [125](../../magpie/internal/provider/google.go#L125) |
+| AccessToken | field_declaration | googleAuth | [126](../../magpie/internal/provider/google.go#L126) |
+| RefreshToken | field_declaration | googleAuth | [127](../../magpie/internal/provider/google.go#L127) |
+| Expiry | field_declaration | googleAuth | [128](../../magpie/internal/provider/google.go#L128) |
+| Project | field_declaration | googleAuth | [132](../../magpie/internal/provider/google.go#L132) |
+| googleAccount | type_spec |  | [136](../../magpie/internal/provider/google.go#L136) |
+| app | field_declaration | googleAccount | [137](../../magpie/internal/provider/google.go#L137) |
+| user | field_declaration | googleAccount | [138](../../magpie/internal/provider/google.go#L138) |
+| auth | field_declaration | googleAccount | [139](../../magpie/internal/provider/google.go#L139) |
+| own | field_declaration | googleAccount | [140](../../magpie/internal/provider/google.go#L140) |
+| geminiDir | function_declaration |  | [144](../../magpie/internal/provider/google.go#L144) |
+| geminiOwnLogin | function_declaration |  | [153](../../magpie/internal/provider/google.go#L153) |
+| a | var_spec | geminiOwnLogin | [155](../../magpie/internal/provider/google.go#L155) |
+| id | var_spec | geminiOwnLogin | [159](../../magpie/internal/provider/google.go#L159) |
+| IDToken | field_declaration | geminiOwnLogin::id | [160](../../magpie/internal/provider/google.go#L160) |
+| accts | var_spec | geminiOwnLogin | [166](../../magpie/internal/provider/google.go#L166) |
+| Active | field_declaration | geminiOwnLogin::accts | [167](../../magpie/internal/provider/google.go#L167) |
+| googleClientOf | function_declaration |  | [185](../../magpie/internal/provider/google.go#L185) |
+| envFileValue | function_declaration |  | [194](../../magpie/internal/provider/google.go#L194) |
+| savedGoogleProject | function_declaration |  | [201](../../magpie/internal/provider/google.go#L201) |
+| googleSaved | function_declaration |  | [213](../../magpie/internal/provider/google.go#L213) |
+| a | var_spec | googleSaved | [214](../../magpie/internal/provider/google.go#L214) |
+| googleLogin | type_spec |  | [225](../../magpie/internal/provider/google.go#L225) |
+| acct | field_declaration | googleLogin | [227](../../magpie/internal/provider/google.go#L227) |
+| googleLogins | function_declaration |  | [231](../../magpie/internal/provider/google.go#L231) |
+| out | var_spec | googleLogins | [240](../../magpie/internal/provider/google.go#L240) |
+| googleSide | function_declaration |  | [255](../../magpie/internal/provider/google.go#L255) |
+| out | var_spec | googleSide | [256](../../magpie/internal/provider/google.go#L256) |
+| googleLoginList | function_declaration |  | [263](../../magpie/internal/provider/google.go#L263) |
+| switchGoogleLogin | function_declaration |  | [265](../../magpie/internal/provider/google.go#L265) |
+| setGoogleLoginOn | function_declaration |  | [269](../../magpie/internal/provider/google.go#L269) |
+| forgetGoogleLogin | function_declaration |  | [273](../../magpie/internal/provider/google.go#L273) |
+| addGoogleLogin | function_declaration |  | [278](../../magpie/internal/provider/google.go#L278) |
+| SetGoogleProject | function_declaration |  | [290](../../magpie/internal/provider/google.go#L290) |
+| googleState | var_spec |  | [320](../../magpie/internal/provider/google.go#L320) |
+| tokens | field_declaration | googleState | [322](../../magpie/internal/provider/google.go#L322) |
+| projects | field_declaration | googleState | [323](../../magpie/internal/provider/google.go#L323) |
+| flags | field_declaration | googleState | [324](../../magpie/internal/provider/google.go#L324) |
+| refused | field_declaration | googleState | [328](../../magpie/internal/provider/google.go#L328) |
+| tierRefusedFor | const_spec |  | [339](../../magpie/internal/provider/google.go#L339) |
+| tierKey | function_declaration |  | [341](../../magpie/internal/provider/google.go#L341) |
+| askTiers | method_declaration |  | [346](../../magpie/internal/provider/google.go#L346) |
+| out | var_spec | askTiers | [349](../../magpie/internal/provider/google.go#L349) |
+| tierRefused | method_declaration |  | [361](../../magpie/internal/provider/google.go#L361) |
+| codeAssistError | type_spec |  | [369](../../magpie/internal/provider/google.go#L369) |
+| status | field_declaration | codeAssistError | [370](../../magpie/internal/provider/google.go#L370) |
+| msg | field_declaration | codeAssistError | [371](../../magpie/internal/provider/google.go#L371) |
+| Error | method_declaration |  | [374](../../magpie/internal/provider/google.go#L374) |
+| codeAssistStatus | function_declaration |  | [378](../../magpie/internal/provider/google.go#L378) |
+| e | var_spec | codeAssistStatus | [379](../../magpie/internal/provider/google.go#L379) |
+| googleProject | type_spec |  | [386](../../magpie/internal/provider/google.go#L386) |
+| id | field_declaration | googleProject | [387](../../magpie/internal/provider/google.go#L387) |
+| tier | field_declaration | googleProject | [391](../../magpie/internal/provider/google.go#L391) |
+| at | field_declaration | googleProject | [393](../../magpie/internal/provider/google.go#L393) |
+| entitlements | method_declaration |  | [403](../../magpie/internal/provider/google.go#L403) |
+| out | var_spec | entitlements | [404](../../magpie/internal/provider/google.go#L404) |
+| token | method_declaration |  | [414](../../magpie/internal/provider/google.go#L414) |
+| fresh | var_spec | token | [426](../../magpie/internal/provider/google.go#L426) |
+| AccessToken | field_declaration | token::fresh | [427](../../magpie/internal/provider/google.go#L427) |
+| ExpiresIn | field_declaration | token::fresh | [428](../../magpie/internal/provider/google.go#L428) |
+| userAgent | method_declaration |  | [450](../../magpie/internal/provider/google.go#L450) |
+| antigravityVer | var_spec |  | [462](../../magpie/internal/provider/google.go#L462) |
+| v | field_declaration | antigravityVer | [464](../../magpie/internal/provider/google.go#L464) |
+| at | field_declaration | antigravityVer | [465](../../magpie/internal/provider/google.go#L465) |
+| antigravityVersion | function_declaration |  | [470](../../magpie/internal/provider/google.go#L470) |
+| call | method_declaration |  | [506](../../magpie/internal/provider/google.go#L506) |
+| codeAssistTier | type_spec |  | [537](../../magpie/internal/provider/google.go#L537) |
+| ID | field_declaration | codeAssistTier | [538](../../magpie/internal/provider/google.go#L538) |
+| Name | field_declaration | codeAssistTier | [539](../../magpie/internal/provider/google.go#L539) |
+| IsDefault | field_declaration | codeAssistTier | [540](../../magpie/internal/provider/google.go#L540) |
+| UserDefinedCloudaicompanionProject | field_declaration | codeAssistTier | [541](../../magpie/internal/provider/google.go#L541) |
+| UsesGcpTos | field_declaration | codeAssistTier | [542](../../magpie/internal/provider/google.go#L542) |
+| companionProject | type_spec |  | [547](../../magpie/internal/provider/google.go#L547) |
+| UnmarshalJSON | method_declaration |  | [549](../../magpie/internal/provider/google.go#L549) |
+| s | var_spec | UnmarshalJSON | [550](../../magpie/internal/provider/google.go#L550) |
+| o | var_spec | UnmarshalJSON | [555](../../magpie/internal/provider/google.go#L555) |
+| ID | field_declaration | UnmarshalJSON::o | [556](../../magpie/internal/provider/google.go#L556) |
+| project | method_declaration |  | [568](../../magpie/internal/provider/google.go#L568) |

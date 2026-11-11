@@ -4,35 +4,43 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/library_cli.go) · page 1/1
 
-Source SHA-256: a4598b449f447c35dbcd43a0780579cefa6e573d0522519c522cdd5ccd0fc58c
+Source SHA-256: c176b621516ecf4837be31cd9fa88957dd480141882b5295c3d843820e105edb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| libraryUsage | const_spec |  | [17](../../magpie/internal/cli/library_cli.go#L17) |
-| libraryCmd | function_declaration |  | [44](../../magpie/internal/cli/library_cli.go#L44) |
-| res | var_spec | libraryCmd | [49](../../magpie/internal/cli/library_cli.go#L49) |
-| err | var_spec | libraryCmd | [50](../../magpie/internal/cli/library_cli.go#L50) |
-| unused | var_spec | libraryCmd | [51](../../magpie/internal/cli/library_cli.go#L51) |
-| b | var_spec | libraryCmd | [70](../../magpie/internal/cli/library_cli.go#L70) |
-| as | var_spec | libraryCmd | [82](../../magpie/internal/cli/library_cli.go#L82) |
-| cmd | var_spec | libraryCmd | [92](../../magpie/internal/cli/library_cli.go#L92) |
-| s | var_spec | libraryCmd | [102](../../magpie/internal/cli/library_cli.go#L102) |
-| as | var_spec | libraryCmd | [114](../../magpie/internal/cli/library_cli.go#L114) |
-| as | var_spec | libraryCmd | [126](../../magpie/internal/cli/library_cli.go#L126) |
-| edited | var_spec | libraryCmd | [147](../../magpie/internal/cli/library_cli.go#L147) |
-| gone | var_spec | libraryCmd | [148](../../magpie/internal/cli/library_cli.go#L148) |
-| removeEverySkill | function_declaration |  | [202](../../magpie/internal/cli/library_cli.go#L202) |
-| names | var_spec | removeEverySkill | [217](../../magpie/internal/cli/library_cli.go#L217) |
-| removeGoneSkills | function_declaration |  | [253](../../magpie/internal/cli/library_cli.go#L253) |
-| names | var_spec | removeGoneSkills | [268](../../magpie/internal/cli/library_cli.go#L268) |
-| agentList | function_declaration |  | [310](../../magpie/internal/cli/library_cli.go#L310) |
-| libraryAgents | function_declaration |  | [322](../../magpie/internal/cli/library_cli.go#L322) |
-| printLibraryResult | function_declaration |  | [334](../../magpie/internal/cli/library_cli.go#L334) |
-| libraryStatus | function_declaration |  | [368](../../magpie/internal/cli/library_cli.go#L368) |
-| to | var_spec | libraryStatus | [380](../../magpie/internal/cli/library_cli.go#L380) |
-| found | var_spec | libraryStatus | [410](../../magpie/internal/cli/library_cli.go#L410) |
-| rtkCmd | function_declaration |  | [442](../../magpie/internal/cli/library_cli.go#L442) |
-| v | var_spec | rtkCmd | [443](../../magpie/internal/cli/library_cli.go#L443) |
-| err | var_spec | rtkCmd | [449](../../magpie/internal/cli/library_cli.go#L449) |
-| err | var_spec | rtkCmd | [454](../../magpie/internal/cli/library_cli.go#L454) |
-| err | var_spec | rtkCmd | [460](../../magpie/internal/cli/library_cli.go#L460) |
+| libraryUsage | const_spec |  | [18](../../magpie/internal/cli/library_cli.go#L18) |
+| libraryCmd | function_declaration |  | [64](../../magpie/internal/cli/library_cli.go#L64) |
+| res | var_spec | libraryCmd | [69](../../magpie/internal/cli/library_cli.go#L69) |
+| err | var_spec | libraryCmd | [70](../../magpie/internal/cli/library_cli.go#L70) |
+| unused | var_spec | libraryCmd | [71](../../magpie/internal/cli/library_cli.go#L71) |
+| b | var_spec | libraryCmd | [90](../../magpie/internal/cli/library_cli.go#L90) |
+| as | var_spec | libraryCmd | [102](../../magpie/internal/cli/library_cli.go#L102) |
+| cmd | var_spec | libraryCmd | [112](../../magpie/internal/cli/library_cli.go#L112) |
+| o | var_spec | libraryCmd | [113](../../magpie/internal/cli/library_cli.go#L113) |
+| as | var_spec | libraryCmd | [118](../../magpie/internal/cli/library_cli.go#L118) |
+| s | var_spec | libraryCmd | [124](../../magpie/internal/cli/library_cli.go#L124) |
+| cmd | var_spec | libraryCmd | [140](../../magpie/internal/cli/library_cli.go#L140) |
+| o | var_spec | libraryCmd | [141](../../magpie/internal/cli/library_cli.go#L141) |
+| as | var_spec | libraryCmd | [163](../../magpie/internal/cli/library_cli.go#L163) |
+| as | var_spec | libraryCmd | [192](../../magpie/internal/cli/library_cli.go#L192) |
+| edited | var_spec | libraryCmd | [227](../../magpie/internal/cli/library_cli.go#L227) |
+| gone | var_spec | libraryCmd | [228](../../magpie/internal/cli/library_cli.go#L228) |
+| removeEverySkill | function_declaration |  | [286](../../magpie/internal/cli/library_cli.go#L286) |
+| names | var_spec | removeEverySkill | [301](../../magpie/internal/cli/library_cli.go#L301) |
+| removeGoneSkills | function_declaration |  | [337](../../magpie/internal/cli/library_cli.go#L337) |
+| names | var_spec | removeGoneSkills | [352](../../magpie/internal/cli/library_cli.go#L352) |
+| agentList | function_declaration |  | [394](../../magpie/internal/cli/library_cli.go#L394) |
+| libraryAgents | function_declaration |  | [406](../../magpie/internal/cli/library_cli.go#L406) |
+| printLibraryResult | function_declaration |  | [423](../../magpie/internal/cli/library_cli.go#L423) |
+| libraryStatus | function_declaration |  | [457](../../magpie/internal/cli/library_cli.go#L457) |
+| to | var_spec | libraryStatus | [469](../../magpie/internal/cli/library_cli.go#L469) |
+| given | var_spec | libraryStatus | [506](../../magpie/internal/cli/library_cli.go#L506) |
+| found | var_spec | libraryStatus | [530](../../magpie/internal/cli/library_cli.go#L530) |
+| rtkCmd | function_declaration |  | [565](../../magpie/internal/cli/library_cli.go#L565) |
+| v | var_spec | rtkCmd | [566](../../magpie/internal/cli/library_cli.go#L566) |
+| err | var_spec | rtkCmd | [572](../../magpie/internal/cli/library_cli.go#L572) |
+| err | var_spec | rtkCmd | [578](../../magpie/internal/cli/library_cli.go#L578) |
+| err | var_spec | rtkCmd | [583](../../magpie/internal/cli/library_cli.go#L583) |
+| err | var_spec | rtkCmd | [589](../../magpie/internal/cli/library_cli.go#L589) |
+| handOverSkills | function_declaration |  | [709](../../magpie/internal/cli/library_cli.go#L709) |
+| err | var_spec | handOverSkills | [715](../../magpie/internal/cli/library_cli.go#L715) |

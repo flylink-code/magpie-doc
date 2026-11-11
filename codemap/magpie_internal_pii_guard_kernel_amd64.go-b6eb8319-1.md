@@ -4,11 +4,18 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/guard/kernel_amd64.go) · page 1/1
 
-Source SHA-256: 30269de687bc40f89b0a2b5a14361b9adfebee42442a62dd7a1f2f4c1debae9b
+Source SHA-256: a9957a4f20012e97f39446d6bd90e454a45da9a19f18090994eea00ce00c0ef3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dot4sse | function_declaration |  | [4](../../magpie/internal/pii/guard/kernel_amd64.go#L4) |
-| scoresT | function_declaration |  | [7](../../magpie/internal/pii/guard/kernel_amd64.go#L7) |
-| mix32 | function_declaration |  | [10](../../magpie/internal/pii/guard/kernel_amd64.go#L10) |
-| init | function_declaration |  | [12](../../magpie/internal/pii/guard/kernel_amd64.go#L12) |
+| dot4sse | function_declaration |  | [10](../../magpie/internal/pii/guard/kernel_amd64.go#L10) |
+| scoresT | function_declaration |  | [13](../../magpie/internal/pii/guard/kernel_amd64.go#L13) |
+| mix32 | function_declaration |  | [16](../../magpie/internal/pii/guard/kernel_amd64.go#L16) |
+| dot4avx2 | function_declaration |  | [19](../../magpie/internal/pii/guard/kernel_amd64.go#L19) |
+| scoresAVX2 | function_declaration |  | [22](../../magpie/internal/pii/guard/kernel_amd64.go#L22) |
+| expSubAVX2 | function_declaration |  | [25](../../magpie/internal/pii/guard/kernel_amd64.go#L25) |
+| geluAVX2 | function_declaration |  | [28](../../magpie/internal/pii/guard/kernel_amd64.go#L28) |
+| avxK | var_spec |  | [32](../../magpie/internal/pii/guard/kernel_amd64.go#L32) |
+| useAVX2 | var_spec |  | [50](../../magpie/internal/pii/guard/kernel_amd64.go#L50) |
+| init | function_declaration |  | [52](../../magpie/internal/pii/guard/kernel_amd64.go#L52) |
+| pickKernels | function_declaration |  | [55](../../magpie/internal/pii/guard/kernel_amd64.go#L55) |

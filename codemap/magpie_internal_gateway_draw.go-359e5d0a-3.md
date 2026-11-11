@@ -4,8 +4,52 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/draw.go) · page 3/3
 
-Source SHA-256: 800ee4ce15ff4b29e6d7eadcdd3a6baf0bf900d1dce7b704143f8d4ad692e91e
+Source SHA-256: 7091edca7a0e46c7c0647d0f46efd14813eee24f17cbdfa625c17863f36f6802
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| aspectAmong | function_declaration |  | [1792](../../magpie/internal/gateway/draw.go#L1792) |
+| ImageURL | field_declaration | drawChat::res::Choices::Message::Images | [2020](../../magpie/internal/gateway/draw.go#L2020) |
+| URL | field_declaration | drawChat::res::Choices::Message::Images::ImageURL | [2021](../../magpie/internal/gateway/draw.go#L2021) |
+| MultiMod | field_declaration | drawChat::res::Choices::Message | [2025](../../magpie/internal/gateway/draw.go#L2025) |
+| InlineData | field_declaration | drawChat::res::Choices::Message::MultiMod | [2026](../../magpie/internal/gateway/draw.go#L2026) |
+| Data | field_declaration | drawChat::res::Choices::Message::MultiMod::InlineData | [2027](../../magpie/internal/gateway/draw.go#L2027) |
+| MimeType | field_declaration | drawChat::res::Choices::Message::MultiMod::InlineData | [2028](../../magpie/internal/gateway/draw.go#L2028) |
+| Usage | field_declaration | drawChat::res | [2033](../../magpie/internal/gateway/draw.go#L2033) |
+| Prompt | field_declaration | drawChat::res::Usage | [2034](../../magpie/internal/gateway/draw.go#L2034) |
+| Completion | field_declaration | drawChat::res::Usage | [2035](../../magpie/internal/gateway/draw.go#L2035) |
+| srcs | var_spec | drawChat | [2046](../../magpie/internal/gateway/draw.go#L2046) |
+| text | var_spec | drawChat | [2055](../../magpie/internal/gateway/draw.go#L2055) |
+| parts | var_spec | drawChat | [2057](../../magpie/internal/gateway/draw.go#L2057) |
+| Type | field_declaration | drawChat::parts | [2058](../../magpie/internal/gateway/draw.go#L2058) |
+| Text | field_declaration | drawChat::parts | [2059](../../magpie/internal/gateway/draw.go#L2059) |
+| ImageURL | field_declaration | drawChat::parts | [2060](../../magpie/internal/gateway/draw.go#L2060) |
+| drawGemini | method_declaration |  | [2090](../../magpie/internal/gateway/draw.go#L2090) |
+| res | var_spec | drawGemini | [2114](../../magpie/internal/gateway/draw.go#L2114) |
+| Candidates | field_declaration | drawGemini::res | [2115](../../magpie/internal/gateway/draw.go#L2115) |
+| Content | field_declaration | drawGemini::res::Candidates | [2116](../../magpie/internal/gateway/draw.go#L2116) |
+| Parts | field_declaration | drawGemini::res::Candidates::Content | [2117](../../magpie/internal/gateway/draw.go#L2117) |
+| Text | field_declaration | drawGemini::res::Candidates::Content::Parts | [2118](../../magpie/internal/gateway/draw.go#L2118) |
+| Thought | field_declaration | drawGemini::res::Candidates::Content::Parts | [2119](../../magpie/internal/gateway/draw.go#L2119) |
+| InlineData | field_declaration | drawGemini::res::Candidates::Content::Parts | [2120](../../magpie/internal/gateway/draw.go#L2120) |
+| MimeType | field_declaration | drawGemini::res::Candidates::Content::Parts::InlineData | [2121](../../magpie/internal/gateway/draw.go#L2121) |
+| Data | field_declaration | drawGemini::res::Candidates::Content::Parts::InlineData | [2122](../../magpie/internal/gateway/draw.go#L2122) |
+| Usage | field_declaration | drawGemini::res | [2127](../../magpie/internal/gateway/draw.go#L2127) |
+| Prompt | field_declaration | drawGemini::res::Usage | [2128](../../magpie/internal/gateway/draw.go#L2128) |
+| Candidates | field_declaration | drawGemini::res::Usage | [2129](../../magpie/internal/gateway/draw.go#L2129) |
+| pluginDrawsGemini | function_declaration |  | [2159](../../magpie/internal/gateway/draw.go#L2159) |
+| drawCodeAssist | method_declaration |  | [2167](../../magpie/internal/gateway/draw.go#L2167) |
+| out | var_spec | drawCodeAssist | [2194](../../magpie/internal/gateway/draw.go#L2194) |
+| failed | var_spec | drawCodeAssist | [2195](../../magpie/internal/gateway/draw.go#L2195) |
+| eachDrawing | method_declaration |  | [2224](../../magpie/internal/gateway/draw.go#L2224) |
+| result | type_spec | eachDrawing | [2225](../../magpie/internal/gateway/draw.go#L2225) |
+| out | field_declaration | eachDrawing::result | [2226](../../magpie/internal/gateway/draw.go#L2226) |
+| code | field_declaration | eachDrawing::result | [2227](../../magpie/internal/gateway/draw.go#L2227) |
+| err | field_declaration | eachDrawing::result | [2228](../../magpie/internal/gateway/draw.go#L2228) |
+| wg | var_spec | eachDrawing | [2231](../../magpie/internal/gateway/draw.go#L2231) |
+| out | var_spec | eachDrawing | [2241](../../magpie/internal/gateway/draw.go#L2241) |
+| firstErr | var_spec | eachDrawing | [2243](../../magpie/internal/gateway/draw.go#L2243) |
+| aspectOf | function_declaration |  | [2265](../../magpie/internal/gateway/draw.go#L2265) |
+| imageSizeOf | function_declaration |  | [2276](../../magpie/internal/gateway/draw.go#L2276) |
+| imageConfigOf | function_declaration |  | [2301](../../magpie/internal/gateway/draw.go#L2301) |
+| grokAspects | var_spec |  | [2316](../../magpie/internal/gateway/draw.go#L2316) |
+| aspectAmong | function_declaration |  | [2320](../../magpie/internal/gateway/draw.go#L2320) |

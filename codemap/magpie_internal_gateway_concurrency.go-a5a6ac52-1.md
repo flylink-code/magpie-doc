@@ -4,33 +4,49 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/concurrency.go) · page 1/1
 
-Source SHA-256: 0bd7c90f8e937b567d331ec4d6aae1b590673e430da9d5268293457e5bb9d62d
+Source SHA-256: 3c7074b0118b2df82e0f52c10278df00dc3653be2063ce9f97adacdb2ee510fe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lanes | type_spec |  | [29](../../magpie/internal/gateway/concurrency.go#L29) |
-| mu | field_declaration | lanes | [30](../../magpie/internal/gateway/concurrency.go#L30) |
-| m | field_declaration | lanes | [31](../../magpie/internal/gateway/concurrency.go#L31) |
-| lane | type_spec |  | [36](../../magpie/internal/gateway/concurrency.go#L36) |
-| limit | field_declaration | lane | [37](../../magpie/internal/gateway/concurrency.go#L37) |
-| busy | field_declaration | lane | [38](../../magpie/internal/gateway/concurrency.go#L38) |
-| queue | field_declaration | lane | [39](../../magpie/internal/gateway/concurrency.go#L39) |
-| errQueueFull | var_spec |  | [63](../../magpie/internal/gateway/concurrency.go#L63) |
-| errQueueWait | var_spec |  | [64](../../magpie/internal/gateway/concurrency.go#L64) |
-| acquire | method_declaration |  | [71](../../magpie/internal/gateway/concurrency.go#L71) |
-| take | method_declaration |  | [81](../../magpie/internal/gateway/concurrency.go#L81) |
-| timeout | var_spec | take | [116](../../magpie/internal/gateway/concurrency.go#L116) |
-| free | method_declaration |  | [149](../../magpie/internal/gateway/concurrency.go#L149) |
-| laneMate | method_declaration |  | [164](../../magpie/internal/gateway/concurrency.go#L164) |
-| ready | method_declaration |  | [184](../../magpie/internal/gateway/concurrency.go#L184) |
-| laneMessage | function_declaration |  | [190](../../magpie/internal/gateway/concurrency.go#L190) |
-| releaser | method_declaration |  | [202](../../magpie/internal/gateway/concurrency.go#L202) |
-| once | var_spec | releaser | [203](../../magpie/internal/gateway/concurrency.go#L203) |
-| grant | method_declaration |  | [216](../../magpie/internal/gateway/concurrency.go#L216) |
-| drop | method_declaration |  | [225](../../magpie/internal/gateway/concurrency.go#L225) |
-| Lane | type_spec |  | [233](../../magpie/internal/gateway/concurrency.go#L233) |
-| Busy | field_declaration | Lane | [234](../../magpie/internal/gateway/concurrency.go#L234) |
-| Waiting | field_declaration | Lane | [235](../../magpie/internal/gateway/concurrency.go#L235) |
-| Limit | field_declaration | Lane | [236](../../magpie/internal/gateway/concurrency.go#L236) |
-| concurrency | method_declaration |  | [249](../../magpie/internal/gateway/concurrency.go#L249) |
-| Lanes | method_declaration |  | [268](../../magpie/internal/gateway/concurrency.go#L268) |
+| lanes | type_spec |  | [31](../../magpie/internal/gateway/concurrency.go#L31) |
+| mu | field_declaration | lanes | [32](../../magpie/internal/gateway/concurrency.go#L32) |
+| m | field_declaration | lanes | [33](../../magpie/internal/gateway/concurrency.go#L33) |
+| freed | field_declaration | lanes | [37](../../magpie/internal/gateway/concurrency.go#L37) |
+| signalLocked | method_declaration |  | [42](../../magpie/internal/gateway/concurrency.go#L42) |
+| signal | method_declaration |  | [50](../../magpie/internal/gateway/concurrency.go#L50) |
+| tryTake | method_declaration |  | [58](../../magpie/internal/gateway/concurrency.go#L58) |
+| lane | type_spec |  | [80](../../magpie/internal/gateway/concurrency.go#L80) |
+| limit | field_declaration | lane | [81](../../magpie/internal/gateway/concurrency.go#L81) |
+| busy | field_declaration | lane | [82](../../magpie/internal/gateway/concurrency.go#L82) |
+| queue | field_declaration | lane | [83](../../magpie/internal/gateway/concurrency.go#L83) |
+| errQueueFull | var_spec |  | [116](../../magpie/internal/gateway/concurrency.go#L116) |
+| errQueueWait | var_spec |  | [117](../../magpie/internal/gateway/concurrency.go#L117) |
+| errMoved | var_spec |  | [122](../../magpie/internal/gateway/concurrency.go#L122) |
+| laneRecheck | const_spec |  | [127](../../magpie/internal/gateway/concurrency.go#L127) |
+| acquire | method_declaration |  | [133](../../magpie/internal/gateway/concurrency.go#L133) |
+| take | method_declaration |  | [147](../../magpie/internal/gateway/concurrency.go#L147) |
+| timeout | var_spec | take | [183](../../magpie/internal/gateway/concurrency.go#L183) |
+| await | method_declaration |  | [214](../../magpie/internal/gateway/concurrency.go#L214) |
+| freed | var_spec | await | [216](../../magpie/internal/gateway/concurrency.go#L216) |
+| again | var_spec | await | [217](../../magpie/internal/gateway/concurrency.go#L217) |
+| t | var_spec | await | [218](../../magpie/internal/gateway/concurrency.go#L218) |
+| free | method_declaration |  | [269](../../magpie/internal/gateway/concurrency.go#L269) |
+| laneMate | method_declaration |  | [289](../../magpie/internal/gateway/concurrency.go#L289) |
+| restedUntil | function_declaration |  | [313](../../magpie/internal/gateway/concurrency.go#L313) |
+| waitMate | method_declaration |  | [334](../../magpie/internal/gateway/concurrency.go#L334) |
+| pool | var_spec | waitMate | [342](../../magpie/internal/gateway/concurrency.go#L342) |
+| all | var_spec | waitMate | [358](../../magpie/internal/gateway/concurrency.go#L358) |
+| movedAhead | function_declaration |  | [397](../../magpie/internal/gateway/concurrency.go#L397) |
+| dropReserves | function_declaration |  | [410](../../magpie/internal/gateway/concurrency.go#L410) |
+| ready | method_declaration |  | [417](../../magpie/internal/gateway/concurrency.go#L417) |
+| laneMessage | function_declaration |  | [423](../../magpie/internal/gateway/concurrency.go#L423) |
+| releaser | method_declaration |  | [435](../../magpie/internal/gateway/concurrency.go#L435) |
+| once | var_spec | releaser | [436](../../magpie/internal/gateway/concurrency.go#L436) |
+| grant | method_declaration |  | [450](../../magpie/internal/gateway/concurrency.go#L450) |
+| drop | method_declaration |  | [459](../../magpie/internal/gateway/concurrency.go#L459) |
+| Lane | type_spec |  | [467](../../magpie/internal/gateway/concurrency.go#L467) |
+| Busy | field_declaration | Lane | [468](../../magpie/internal/gateway/concurrency.go#L468) |
+| Waiting | field_declaration | Lane | [469](../../magpie/internal/gateway/concurrency.go#L469) |
+| Limit | field_declaration | Lane | [470](../../magpie/internal/gateway/concurrency.go#L470) |
+| concurrency | method_declaration |  | [483](../../magpie/internal/gateway/concurrency.go#L483) |
+| Lanes | method_declaration |  | [508](../../magpie/internal/gateway/concurrency.go#L508) |

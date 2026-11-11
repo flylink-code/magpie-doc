@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/goose.go) · page 1/1
 
-Source SHA-256: 72aca3cd29c20215bddcf37e64d88241d947d2ec7a0a0823b9c0abf9854953d4
+Source SHA-256: 1f544b9735528aed46fe581180257e1c8a139c1c897112a8e97a31860325db2c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

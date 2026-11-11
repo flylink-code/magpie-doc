@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_spawn_models.go) · page 1/1
 
-Source SHA-256: 5f91d7b846d5fae4844f0e1733a92cd0ecb81ceffbc1737f8ccc90575b9f9844
+Source SHA-256: d96112bc5f96efa8f8cbad8ff0a5094a360eb1bc65c8903256b69a1e3fc91509
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -32,6 +32,6 @@ Source SHA-256: 5f91d7b846d5fae4844f0e1733a92cd0ecb81ceffbc1737f8ccc90575b9f9844
 | lines | var_spec | moreSpawnModels | [217](../../magpie/internal/gateway/codex_spawn_models.go#L217) |
 | spawnChoices | function_declaration |  | [257](../../magpie/internal/gateway/codex_spawn_models.go#L257) |
 | out | var_spec | spawnChoices | [259](../../magpie/internal/gateway/codex_spawn_models.go#L259) |
-| own | type_spec | spawnChoices | [269](../../magpie/internal/gateway/codex_spawn_models.go#L269) |
-| at | field_declaration | spawnChoices::own | [271](../../magpie/internal/gateway/codex_spawn_models.go#L271) |
-| owns | var_spec | spawnChoices | [273](../../magpie/internal/gateway/codex_spawn_models.go#L273) |
+| own | type_spec | spawnChoices | [267](../../magpie/internal/gateway/codex_spawn_models.go#L267) |
+| at | field_declaration | spawnChoices::own | [269](../../magpie/internal/gateway/codex_spawn_models.go#L269) |
+| owns | var_spec | spawnChoices | [271](../../magpie/internal/gateway/codex_spawn_models.go#L271) |

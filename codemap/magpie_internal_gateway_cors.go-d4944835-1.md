@@ -4,16 +4,19 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/cors.go) · page 1/1
 
-Source SHA-256: d912af945ed7200c4483a01486e6ab027a0e9b820ef07ff7f7de2f8d0d49d949
+Source SHA-256: 58f60bc7c1c27076e4f5c1dc4645784864772466404630c1c2134e686ffb0035
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| corsGuard | function_declaration |  | [44](../../magpie/internal/gateway/cors.go#L44) |
-| keyedCaller | function_declaration |  | [96](../../magpie/internal/gateway/cors.go#L96) |
-| foreignPage | function_declaration |  | [118](../../magpie/internal/gateway/cors.go#L118) |
-| webviewOS | var_spec |  | [149](../../magpie/internal/gateway/cors.go#L149) |
-| localhostSubdomain | function_declaration |  | [166](../../magpie/internal/gateway/cors.go#L166) |
-| hostPort | function_declaration |  | [183](../../magpie/internal/gateway/cors.go#L183) |
-| corsAllowed | function_declaration |  | [199](../../magpie/internal/gateway/cors.go#L199) |
-| corsHeaders | function_declaration |  | [212](../../magpie/internal/gateway/cors.go#L212) |
-| out | var_spec | corsHeaders | [213](../../magpie/internal/gateway/cors.go#L213) |
+| corsGuard | function_declaration |  | [50](../../magpie/internal/gateway/cors.go#L50) |
+| keyedCaller | function_declaration |  | [105](../../magpie/internal/gateway/cors.go#L105) |
+| foreignPage | function_declaration |  | [127](../../magpie/internal/gateway/cors.go#L127) |
+| webviewOS | var_spec |  | [158](../../magpie/internal/gateway/cors.go#L158) |
+| localhostSubdomain | function_declaration |  | [175](../../magpie/internal/gateway/cors.go#L175) |
+| hostPort | function_declaration |  | [192](../../magpie/internal/gateway/cors.go#L192) |
+| appOrigins | var_spec |  | [213](../../magpie/internal/gateway/cors.go#L213) |
+| appOrigin | function_declaration |  | [216](../../magpie/internal/gateway/cors.go#L216) |
+| corsAllowed | function_declaration |  | [221](../../magpie/internal/gateway/cors.go#L221) |
+| corsPreflight | function_declaration |  | [237](../../magpie/internal/gateway/cors.go#L237) |
+| corsHeaders | function_declaration |  | [243](../../magpie/internal/gateway/cors.go#L243) |
+| out | var_spec | corsHeaders | [244](../../magpie/internal/gateway/cors.go#L244) |

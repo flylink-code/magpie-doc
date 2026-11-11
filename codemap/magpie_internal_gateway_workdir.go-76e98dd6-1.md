@@ -4,15 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/workdir.go) · page 1/1
 
-Source SHA-256: 7c0e8ba105d1ab1dfe7218b3c89e7482404955d1cd89ca45588d0388bb0c33bd
+Source SHA-256: 33dca7ff0b936620df8afa3819b87814a9dcecf545f1387f89af07501a2b1b69
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ccWorkDir | var_spec |  | [32](../../magpie/internal/gateway/workdir.go#L32) |
-| cwdTag | var_spec |  | [34](../../magpie/internal/gateway/workdir.go#L34) |
-| envDir | var_spec |  | [35](../../magpie/internal/gateway/workdir.go#L35) |
-| wasDir | var_spec |  | [36](../../magpie/internal/gateway/workdir.go#L36) |
-| workDir | function_declaration |  | [41](../../magpie/internal/gateway/workdir.go#L41) |
-| workPlace | function_declaration |  | [49](../../magpie/internal/gateway/workdir.go#L49) |
-| tellWorkPlace | function_declaration |  | [80](../../magpie/internal/gateway/workdir.go#L80) |
-| workDirIn | function_declaration |  | [98](../../magpie/internal/gateway/workdir.go#L98) |
+| ccWorkDir | var_spec |  | [39](../../magpie/internal/gateway/workdir.go#L39) |
+| cwdTag | var_spec |  | [41](../../magpie/internal/gateway/workdir.go#L41) |
+| envDir | var_spec |  | [42](../../magpie/internal/gateway/workdir.go#L42) |
+| bareCWD | var_spec |  | [44](../../magpie/internal/gateway/workdir.go#L44) |
+| piDir | var_spec |  | [46](../../magpie/internal/gateway/workdir.go#L46) |
+| wasDir | var_spec |  | [47](../../magpie/internal/gateway/workdir.go#L47) |
+| dirForm | type_spec |  | [53](../../magpie/internal/gateway/workdir.go#L53) |
+| re | field_declaration | dirForm | [54](../../magpie/internal/gateway/workdir.go#L54) |
+| wrap | field_declaration | dirForm | [55](../../magpie/internal/gateway/workdir.go#L55) |
+| was | field_declaration | dirForm | [56](../../magpie/internal/gateway/workdir.go#L56) |
+| callerForms | var_spec |  | [62](../../magpie/internal/gateway/workdir.go#L62) |
+| turnForms | var_spec |  | [74](../../magpie/internal/gateway/workdir.go#L74) |
+| workDir | function_declaration |  | [82](../../magpie/internal/gateway/workdir.go#L82) |
+| workPlace | function_declaration |  | [90](../../magpie/internal/gateway/workdir.go#L90) |
+| tellWorkPlace | function_declaration |  | [125](../../magpie/internal/gateway/workdir.go#L125) |
+| workDirIn | function_declaration |  | [143](../../magpie/internal/gateway/workdir.go#L143) |

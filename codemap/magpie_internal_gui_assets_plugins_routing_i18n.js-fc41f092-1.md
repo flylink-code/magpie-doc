@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/routing/i18n.js) · page 1/1
 
-Source SHA-256: 8863ac7ad19e41ebbb0c39079a0bdc60044bb39f406ee3f490d7999a7eba1ffc
+Source SHA-256: b84c84aa81573d2020c9eb4bfb8a023abe5e3227be8d28e95dc8d3516d1c86fb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

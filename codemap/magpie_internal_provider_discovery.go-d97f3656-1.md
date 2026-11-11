@@ -4,10 +4,10 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/discovery.go) · page 1/1
 
-Source SHA-256: b6d64aaa8b8b5bdbfd44d95e582331bee5d76667a9e08c1f65834f8d9a659115
+Source SHA-256: eaaa10846b18d8244b5236f693fcf691f501782ad0b832ca6f8e9988e42bfddb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| errAccountDiscoveryOff | var_spec |  | [27](../../magpie/internal/provider/discovery.go#L27) |
-| discoveryOff | function_declaration |  | [30](../../magpie/internal/provider/discovery.go#L30) |
-| readAccountFile | function_declaration |  | [34](../../magpie/internal/provider/discovery.go#L34) |
+| errAccountDiscoveryOff | var_spec |  | [29](../../magpie/internal/provider/discovery.go#L29) |
+| discoveryOff | function_declaration |  | [32](../../magpie/internal/provider/discovery.go#L32) |
+| readAccountFile | function_declaration |  | [36](../../magpie/internal/provider/discovery.go#L36) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/gateway_takeover.go) · page 1/1
 
-Source SHA-256: 814b8097ec7b65ba1ed8e29bee048bd3fe6145c9d8cc63feec5501bf829c0e02
+Source SHA-256: 9045a9e96da05a5c3484786da046b177cf69a12a5a87b1e56858e74ff46c31ae
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,11 +17,12 @@ Source SHA-256: 814b8097ec7b65ba1ed8e29bee048bd3fe6145c9d8cc63feec5501bf829c0e02
 | Version | field_declaration | gatewayFixJSON | [41](../../magpie/internal/gui/gateway_takeover.go#L41) |
 | Error | field_declaration | gatewayFixJSON | [42](../../magpie/internal/gui/gateway_takeover.go#L42) |
 | gatewayFixRoutes | function_declaration |  | [45](../../magpie/internal/gui/gateway_takeover.go#L45) |
-| quitWait | var_spec |  | [57](../../magpie/internal/gui/gateway_takeover.go#L57) |
-| killWait | var_spec |  | [58](../../magpie/internal/gui/gateway_takeover.go#L58) |
-| startWait | var_spec |  | [59](../../magpie/internal/gui/gateway_takeover.go#L59) |
-| takeOverGateway | function_declaration |  | [64](../../magpie/internal/gui/gateway_takeover.go#L64) |
-| restartGateway | function_declaration |  | [81](../../magpie/internal/gui/gateway_takeover.go#L81) |
-| startHere | function_declaration |  | [98](../../magpie/internal/gui/gateway_takeover.go#L98) |
-| quitMagpieOnPort | function_declaration |  | [138](../../magpie/internal/gui/gateway_takeover.go#L138) |
-| letGo | function_declaration |  | [202](../../magpie/internal/gui/gateway_takeover.go#L202) |
+| orResume | function_declaration |  | [56](../../magpie/internal/gui/gateway_takeover.go#L56) |
+| quitWait | var_spec |  | [69](../../magpie/internal/gui/gateway_takeover.go#L69) |
+| killWait | var_spec |  | [70](../../magpie/internal/gui/gateway_takeover.go#L70) |
+| startWait | var_spec |  | [71](../../magpie/internal/gui/gateway_takeover.go#L71) |
+| takeOverGateway | function_declaration |  | [76](../../magpie/internal/gui/gateway_takeover.go#L76) |
+| restartGateway | function_declaration |  | [93](../../magpie/internal/gui/gateway_takeover.go#L93) |
+| startHere | function_declaration |  | [110](../../magpie/internal/gui/gateway_takeover.go#L110) |
+| quitMagpieOnPort | function_declaration |  | [150](../../magpie/internal/gui/gateway_takeover.go#L150) |
+| letGo | function_declaration |  | [214](../../magpie/internal/gui/gateway_takeover.go#L214) |

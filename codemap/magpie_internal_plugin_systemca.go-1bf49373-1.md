@@ -4,15 +4,24 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/systemca.go) · page 1/1
 
-Source SHA-256: 3d1c759761aac957d25a8ff9864241bbf7972a0378817f0ba3ceaa3966874c59
+Source SHA-256: 9548c5eb76a115947690b16fa0b9e06f593e9d7fafdd1cf59b3831affdb0cf32
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| caEnv | function_declaration |  | [26](../../magpie/internal/plugin/systemca.go#L26) |
-| bunReadable | function_declaration |  | [48](../../magpie/internal/plugin/systemca.go#L48) |
-| ascii | function_declaration |  | [58](../../magpie/internal/plugin/systemca.go#L58) |
-| systemCAOnce | var_spec |  | [68](../../magpie/internal/plugin/systemca.go#L68) |
-| systemCAPath | var_spec |  | [69](../../magpie/internal/plugin/systemca.go#L69) |
-| systemCAFile | var_spec |  | [74](../../magpie/internal/plugin/systemca.go#L74) |
-| b | var_spec | systemCAFile | [84](../../magpie/internal/plugin/systemca.go#L84) |
-| writeCAFile | function_declaration |  | [95](../../magpie/internal/plugin/systemca.go#L95) |
+| caEnv | function_declaration |  | [42](../../magpie/internal/plugin/systemca.go#L42) |
+| out | var_spec | caEnv | [43](../../magpie/internal/plugin/systemca.go#L43) |
+| envSet | function_declaration |  | [56](../../magpie/internal/plugin/systemca.go#L56) |
+| bunReadable | function_declaration |  | [75](../../magpie/internal/plugin/systemca.go#L75) |
+| ascii | function_declaration |  | [85](../../magpie/internal/plugin/systemca.go#L85) |
+| systemCAOnce | var_spec |  | [95](../../magpie/internal/plugin/systemca.go#L95) |
+| systemCAPath | var_spec |  | [96](../../magpie/internal/plugin/systemca.go#L96) |
+| systemCAFile | var_spec |  | [101](../../magpie/internal/plugin/systemca.go#L101) |
+| rootsFile | function_declaration |  | [114](../../magpie/internal/plugin/systemca.go#L114) |
+| b | var_spec | rootsFile | [119](../../magpie/internal/plugin/systemca.go#L119) |
+| rootsFirst | function_declaration |  | [141](../../magpie/internal/plugin/systemca.go#L141) |
+| cert | type_spec | rootsFirst | [142](../../magpie/internal/plugin/systemca.go#L142) |
+| der | field_declaration | rootsFirst::cert | [143](../../magpie/internal/plugin/systemca.go#L143) |
+| x | field_declaration | rootsFirst::cert | [144](../../magpie/internal/plugin/systemca.go#L144) |
+| roots | var_spec | rootsFirst | [146](../../magpie/internal/plugin/systemca.go#L146) |
+| odd | var_spec | rootsFirst | [147](../../magpie/internal/plugin/systemca.go#L147) |
+| writeCAFile | function_declaration |  | [192](../../magpie/internal/plugin/systemca.go#L192) |

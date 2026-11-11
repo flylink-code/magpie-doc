@@ -4,107 +4,107 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/workbuddy_checkin.go) · page 1/2
 
-Source SHA-256: 451eee76ec2a48ba1dddec8705965f9111f0e818f68ebd23f6b7a721d3e331bc
+Source SHA-256: 9dd010e9e5930d7efa9a09fcde50a4f598b86bdb264c0bdfe54f89aaebb9f444
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| wbCheckinEvery | const_spec |  | [55](../../magpie/internal/provider/workbuddy_checkin.go#L55) |
-| wbCheckinRetry | const_spec |  | [58](../../magpie/internal/provider/workbuddy_checkin.go#L58) |
-| wbCheckinAlready | const_spec |  | [63](../../magpie/internal/provider/workbuddy_checkin.go#L63) |
-| wbCheckinIneligible | const_spec |  | [64](../../magpie/internal/provider/workbuddy_checkin.go#L64) |
-| wbCheckinEnded | const_spec |  | [65](../../magpie/internal/provider/workbuddy_checkin.go#L65) |
-| CheckinClaimed | const_spec |  | [70](../../magpie/internal/provider/workbuddy_checkin.go#L70) |
-| CheckinDone | const_spec |  | [71](../../magpie/internal/provider/workbuddy_checkin.go#L71) |
-| CheckinIneligible | const_spec |  | [72](../../magpie/internal/provider/workbuddy_checkin.go#L72) |
-| CheckinInactive | const_spec |  | [73](../../magpie/internal/provider/workbuddy_checkin.go#L73) |
-| CheckinFailed | const_spec |  | [74](../../magpie/internal/provider/workbuddy_checkin.go#L74) |
-| CheckinCaptcha | const_spec |  | [77](../../magpie/internal/provider/workbuddy_checkin.go#L77) |
-| CheckinOwnApp | const_spec |  | [82](../../magpie/internal/provider/workbuddy_checkin.go#L82) |
-| wbCheckinSoon | const_spec |  | [87](../../magpie/internal/provider/workbuddy_checkin.go#L87) |
-| beijing | var_spec |  | [91](../../magpie/internal/provider/workbuddy_checkin.go#L91) |
-| CheckinDay | function_declaration |  | [95](../../magpie/internal/provider/workbuddy_checkin.go#L95) |
-| wbCheckinDay | function_declaration |  | [98](../../magpie/internal/provider/workbuddy_checkin.go#L98) |
-| WorkBuddyCheckin | type_spec |  | [102](../../magpie/internal/provider/workbuddy_checkin.go#L102) |
-| User | field_declaration | WorkBuddyCheckin | [103](../../magpie/internal/provider/workbuddy_checkin.go#L103) |
-| Day | field_declaration | WorkBuddyCheckin | [104](../../magpie/internal/provider/workbuddy_checkin.go#L104) |
-| At | field_declaration | WorkBuddyCheckin | [105](../../magpie/internal/provider/workbuddy_checkin.go#L105) |
-| Outcome | field_declaration | WorkBuddyCheckin | [106](../../magpie/internal/provider/workbuddy_checkin.go#L106) |
-| Credit | field_declaration | WorkBuddyCheckin | [107](../../magpie/internal/provider/workbuddy_checkin.go#L107) |
-| Streak | field_declaration | WorkBuddyCheckin | [108](../../magpie/internal/provider/workbuddy_checkin.go#L108) |
-| Msg | field_declaration | WorkBuddyCheckin | [109](../../magpie/internal/provider/workbuddy_checkin.go#L109) |
-| ValidUntil | field_declaration | WorkBuddyCheckin | [112](../../magpie/internal/provider/workbuddy_checkin.go#L112) |
-| Offline | field_declaration | WorkBuddyCheckin | [115](../../magpie/internal/provider/workbuddy_checkin.go#L115) |
-| Tries | field_declaration | WorkBuddyCheckin | [116](../../magpie/internal/provider/workbuddy_checkin.go#L116) |
-| By | field_declaration | WorkBuddyCheckin | [119](../../magpie/internal/provider/workbuddy_checkin.go#L119) |
-| Vendor | field_declaration | WorkBuddyCheckin | [122](../../magpie/internal/provider/workbuddy_checkin.go#L122) |
-| Asked | field_declaration | WorkBuddyCheckin | [126](../../magpie/internal/provider/workbuddy_checkin.go#L126) |
-| Claimed | field_declaration | WorkBuddyCheckin | [131](../../magpie/internal/provider/workbuddy_checkin.go#L131) |
-| Again | field_declaration | WorkBuddyCheckin | [135](../../magpie/internal/provider/workbuddy_checkin.go#L135) |
-| checkinSureHour | const_spec |  | [146](../../magpie/internal/provider/workbuddy_checkin.go#L146) |
-| claimedOn | method_declaration |  | [149](../../magpie/internal/provider/workbuddy_checkin.go#L149) |
-| provisional | method_declaration |  | [159](../../magpie/internal/provider/workbuddy_checkin.go#L159) |
-| unclaimedAnswer | method_declaration |  | [166](../../magpie/internal/provider/workbuddy_checkin.go#L166) |
-| shown | method_declaration |  | [175](../../magpie/internal/provider/workbuddy_checkin.go#L175) |
-| Checked | method_declaration |  | [181](../../magpie/internal/provider/workbuddy_checkin.go#L181) |
-| settled | method_declaration |  | [187](../../magpie/internal/provider/workbuddy_checkin.go#L187) |
-| retryAfter | method_declaration |  | [198](../../magpie/internal/provider/workbuddy_checkin.go#L198) |
-| wbCheckinStatus | type_spec |  | [206](../../magpie/internal/provider/workbuddy_checkin.go#L206) |
-| Active | field_declaration | wbCheckinStatus | [207](../../magpie/internal/provider/workbuddy_checkin.go#L207) |
-| TodayCheckedIn | field_declaration | wbCheckinStatus | [208](../../magpie/internal/provider/workbuddy_checkin.go#L208) |
-| StreakDays | field_declaration | wbCheckinStatus | [209](../../magpie/internal/provider/workbuddy_checkin.go#L209) |
-| DailyCredit | field_declaration | wbCheckinStatus | [210](../../magpie/internal/provider/workbuddy_checkin.go#L210) |
-| TodayCredit | field_declaration | wbCheckinStatus | [211](../../magpie/internal/provider/workbuddy_checkin.go#L211) |
-| wbCheckinClaim | type_spec |  | [215](../../magpie/internal/provider/workbuddy_checkin.go#L215) |
-| Credit | field_declaration | wbCheckinClaim | [216](../../magpie/internal/provider/workbuddy_checkin.go#L216) |
-| StreakDays | field_declaration | wbCheckinClaim | [217](../../magpie/internal/provider/workbuddy_checkin.go#L217) |
-| IsStreakDay | field_declaration | wbCheckinClaim | [218](../../magpie/internal/provider/workbuddy_checkin.go#L218) |
-| CreditDelayed | field_declaration | wbCheckinClaim | [219](../../magpie/internal/provider/workbuddy_checkin.go#L219) |
-| Message | field_declaration | wbCheckinClaim | [220](../../magpie/internal/provider/workbuddy_checkin.go#L220) |
-| wbCheckinPath | function_declaration |  | [223](../../magpie/internal/provider/workbuddy_checkin.go#L223) |
-| wbCheckinKey | function_declaration |  | [226](../../magpie/internal/provider/workbuddy_checkin.go#L226) |
-| readCheckins | function_declaration |  | [235](../../magpie/internal/provider/workbuddy_checkin.go#L235) |
-| checkinsReadMu | var_spec |  | [270](../../magpie/internal/provider/workbuddy_checkin.go#L270) |
-| checkinsRead | var_spec |  | [271](../../magpie/internal/provider/workbuddy_checkin.go#L271) |
-| checkinsBad | var_spec |  | [272](../../magpie/internal/provider/workbuddy_checkin.go#L272) |
-| wroteCheckins | function_declaration |  | [276](../../magpie/internal/provider/workbuddy_checkin.go#L276) |
-| shownCheckins | function_declaration |  | [286](../../magpie/internal/provider/workbuddy_checkin.go#L286) |
-| wbCheckinMu | var_spec |  | [299](../../magpie/internal/provider/workbuddy_checkin.go#L299) |
-| wbCheckiner | type_spec |  | [302](../../magpie/internal/provider/workbuddy_checkin.go#L302) |
-| path | field_declaration | wbCheckiner | [303](../../magpie/internal/provider/workbuddy_checkin.go#L303) |
-| now | field_declaration | wbCheckiner | [304](../../magpie/internal/provider/workbuddy_checkin.go#L304) |
-| accounts | field_declaration | wbCheckiner | [305](../../magpie/internal/provider/workbuddy_checkin.go#L305) |
-| newWBCheckiner | function_declaration |  | [308](../../magpie/internal/provider/workbuddy_checkin.go#L308) |
-| checkinNow | method_declaration |  | [313](../../magpie/internal/provider/workbuddy_checkin.go#L313) |
-| clock | method_declaration |  | [317](../../magpie/internal/provider/workbuddy_checkin.go#L317) |
-| checkiner | method_declaration |  | [319](../../magpie/internal/provider/workbuddy_checkin.go#L319) |
-| out | var_spec | checkiner | [321](../../magpie/internal/provider/workbuddy_checkin.go#L321) |
-| wbCheckin | function_declaration |  | [335](../../magpie/internal/provider/workbuddy_checkin.go#L335) |
-| h | var_spec | wbCheckin | [336](../../magpie/internal/provider/workbuddy_checkin.go#L336) |
-| st | var_spec | wbCheckin | [338](../../magpie/internal/provider/workbuddy_checkin.go#L338) |
-| got | var_spec | wbCheckin | [348](../../magpie/internal/provider/workbuddy_checkin.go#L348) |
-| wbCheckinUnauthorized | function_declaration |  | [370](../../magpie/internal/provider/workbuddy_checkin.go#L370) |
-| wbIsUnauthorized | function_declaration |  | [382](../../magpie/internal/provider/workbuddy_checkin.go#L382) |
-| se | var_spec | wbIsUnauthorized | [383](../../magpie/internal/provider/workbuddy_checkin.go#L383) |
-| we | var_spec | wbIsUnauthorized | [387](../../magpie/internal/provider/workbuddy_checkin.go#L387) |
-| wbCheckinRefused | function_declaration |  | [393](../../magpie/internal/provider/workbuddy_checkin.go#L393) |
-| we | var_spec | wbCheckinRefused | [394](../../magpie/internal/provider/workbuddy_checkin.go#L394) |
-| wbCheckinFailed | function_declaration |  | [414](../../magpie/internal/provider/workbuddy_checkin.go#L414) |
-| ne | var_spec | wbCheckinFailed | [415](../../magpie/internal/provider/workbuddy_checkin.go#L415) |
-| unanswered | var_spec |  | [421](../../magpie/internal/provider/workbuddy_checkin.go#L421) |
-| CheckInWorkBuddy | function_declaration |  | [425](../../magpie/internal/provider/workbuddy_checkin.go#L425) |
-| WorkBuddyCheckins | function_declaration |  | [431](../../magpie/internal/provider/workbuddy_checkin.go#L431) |
-| out | var_spec | WorkBuddyCheckins | [433](../../magpie/internal/provider/workbuddy_checkin.go#L433) |
-| WithCheckins | function_declaration |  | [453](../../magpie/internal/provider/workbuddy_checkin.go#L453) |
-| withCheckins | function_declaration |  | [461](../../magpie/internal/provider/workbuddy_checkin.go#L461) |
-| on | var_spec | withCheckins | [462](../../magpie/internal/provider/workbuddy_checkin.go#L462) |
-| checkinCard | type_spec |  | [478](../../magpie/internal/provider/workbuddy_checkin.go#L478) |
-| User | field_declaration | checkinCard | [478](../../magpie/internal/provider/workbuddy_checkin.go#L478) |
-| markCheckins | function_declaration |  | [483](../../magpie/internal/provider/workbuddy_checkin.go#L483) |
-| mine | var_spec | markCheckins | [490](../../magpie/internal/provider/workbuddy_checkin.go#L490) |
-| a | var_spec | markCheckins | [496](../../magpie/internal/provider/workbuddy_checkin.go#L496) |
-| HasWorkBuddy | function_declaration |  | [517](../../magpie/internal/provider/workbuddy_checkin.go#L517) |
-| wbCheckinAccounts | function_declaration |  | [522](../../magpie/internal/provider/workbuddy_checkin.go#L522) |
-| wbPluginAccounts | function_declaration |  | [533](../../magpie/internal/provider/workbuddy_checkin.go#L533) |
-| out | var_spec | wbPluginAccounts | [536](../../magpie/internal/provider/workbuddy_checkin.go#L536) |
-| body | var_spec | wbPluginAccounts | [545](../../magpie/internal/provider/workbuddy_checkin.go#L545) |
-| KeepWorkBuddyCheckedIn | function_declaration |  | [558](../../magpie/internal/provider/workbuddy_checkin.go#L558) |
+| wbCheckinEvery | const_spec |  | [56](../../magpie/internal/provider/workbuddy_checkin.go#L56) |
+| wbCheckinRetry | const_spec |  | [59](../../magpie/internal/provider/workbuddy_checkin.go#L59) |
+| wbCheckinAlready | const_spec |  | [64](../../magpie/internal/provider/workbuddy_checkin.go#L64) |
+| wbCheckinIneligible | const_spec |  | [65](../../magpie/internal/provider/workbuddy_checkin.go#L65) |
+| wbCheckinEnded | const_spec |  | [66](../../magpie/internal/provider/workbuddy_checkin.go#L66) |
+| CheckinClaimed | const_spec |  | [71](../../magpie/internal/provider/workbuddy_checkin.go#L71) |
+| CheckinDone | const_spec |  | [72](../../magpie/internal/provider/workbuddy_checkin.go#L72) |
+| CheckinIneligible | const_spec |  | [73](../../magpie/internal/provider/workbuddy_checkin.go#L73) |
+| CheckinInactive | const_spec |  | [74](../../magpie/internal/provider/workbuddy_checkin.go#L74) |
+| CheckinFailed | const_spec |  | [75](../../magpie/internal/provider/workbuddy_checkin.go#L75) |
+| CheckinCaptcha | const_spec |  | [78](../../magpie/internal/provider/workbuddy_checkin.go#L78) |
+| CheckinOwnApp | const_spec |  | [83](../../magpie/internal/provider/workbuddy_checkin.go#L83) |
+| wbCheckinSoon | const_spec |  | [88](../../magpie/internal/provider/workbuddy_checkin.go#L88) |
+| beijing | var_spec |  | [92](../../magpie/internal/provider/workbuddy_checkin.go#L92) |
+| CheckinDay | function_declaration |  | [96](../../magpie/internal/provider/workbuddy_checkin.go#L96) |
+| wbCheckinDay | function_declaration |  | [99](../../magpie/internal/provider/workbuddy_checkin.go#L99) |
+| WorkBuddyCheckin | type_spec |  | [103](../../magpie/internal/provider/workbuddy_checkin.go#L103) |
+| User | field_declaration | WorkBuddyCheckin | [104](../../magpie/internal/provider/workbuddy_checkin.go#L104) |
+| Day | field_declaration | WorkBuddyCheckin | [105](../../magpie/internal/provider/workbuddy_checkin.go#L105) |
+| At | field_declaration | WorkBuddyCheckin | [106](../../magpie/internal/provider/workbuddy_checkin.go#L106) |
+| Outcome | field_declaration | WorkBuddyCheckin | [107](../../magpie/internal/provider/workbuddy_checkin.go#L107) |
+| Credit | field_declaration | WorkBuddyCheckin | [108](../../magpie/internal/provider/workbuddy_checkin.go#L108) |
+| Streak | field_declaration | WorkBuddyCheckin | [109](../../magpie/internal/provider/workbuddy_checkin.go#L109) |
+| Msg | field_declaration | WorkBuddyCheckin | [110](../../magpie/internal/provider/workbuddy_checkin.go#L110) |
+| ValidUntil | field_declaration | WorkBuddyCheckin | [115](../../magpie/internal/provider/workbuddy_checkin.go#L115) |
+| Offline | field_declaration | WorkBuddyCheckin | [118](../../magpie/internal/provider/workbuddy_checkin.go#L118) |
+| Tries | field_declaration | WorkBuddyCheckin | [119](../../magpie/internal/provider/workbuddy_checkin.go#L119) |
+| By | field_declaration | WorkBuddyCheckin | [122](../../magpie/internal/provider/workbuddy_checkin.go#L122) |
+| Vendor | field_declaration | WorkBuddyCheckin | [125](../../magpie/internal/provider/workbuddy_checkin.go#L125) |
+| Asked | field_declaration | WorkBuddyCheckin | [129](../../magpie/internal/provider/workbuddy_checkin.go#L129) |
+| Claimed | field_declaration | WorkBuddyCheckin | [134](../../magpie/internal/provider/workbuddy_checkin.go#L134) |
+| Again | field_declaration | WorkBuddyCheckin | [138](../../magpie/internal/provider/workbuddy_checkin.go#L138) |
+| checkinSureHour | const_spec |  | [149](../../magpie/internal/provider/workbuddy_checkin.go#L149) |
+| claimedOn | method_declaration |  | [152](../../magpie/internal/provider/workbuddy_checkin.go#L152) |
+| provisional | method_declaration |  | [162](../../magpie/internal/provider/workbuddy_checkin.go#L162) |
+| unclaimedAnswer | method_declaration |  | [169](../../magpie/internal/provider/workbuddy_checkin.go#L169) |
+| shown | method_declaration |  | [178](../../magpie/internal/provider/workbuddy_checkin.go#L178) |
+| Checked | method_declaration |  | [184](../../magpie/internal/provider/workbuddy_checkin.go#L184) |
+| settled | method_declaration |  | [192](../../magpie/internal/provider/workbuddy_checkin.go#L192) |
+| retryAfter | method_declaration |  | [208](../../magpie/internal/provider/workbuddy_checkin.go#L208) |
+| checkinHoldMax | const_spec |  | [217](../../magpie/internal/provider/workbuddy_checkin.go#L217) |
+| heldUntil | method_declaration |  | [225](../../magpie/internal/provider/workbuddy_checkin.go#L225) |
+| wbCheckinStatus | type_spec |  | [236](../../magpie/internal/provider/workbuddy_checkin.go#L236) |
+| Active | field_declaration | wbCheckinStatus | [237](../../magpie/internal/provider/workbuddy_checkin.go#L237) |
+| TodayCheckedIn | field_declaration | wbCheckinStatus | [238](../../magpie/internal/provider/workbuddy_checkin.go#L238) |
+| StreakDays | field_declaration | wbCheckinStatus | [239](../../magpie/internal/provider/workbuddy_checkin.go#L239) |
+| DailyCredit | field_declaration | wbCheckinStatus | [240](../../magpie/internal/provider/workbuddy_checkin.go#L240) |
+| TodayCredit | field_declaration | wbCheckinStatus | [241](../../magpie/internal/provider/workbuddy_checkin.go#L241) |
+| wbCheckinClaim | type_spec |  | [245](../../magpie/internal/provider/workbuddy_checkin.go#L245) |
+| Credit | field_declaration | wbCheckinClaim | [246](../../magpie/internal/provider/workbuddy_checkin.go#L246) |
+| StreakDays | field_declaration | wbCheckinClaim | [247](../../magpie/internal/provider/workbuddy_checkin.go#L247) |
+| IsStreakDay | field_declaration | wbCheckinClaim | [248](../../magpie/internal/provider/workbuddy_checkin.go#L248) |
+| CreditDelayed | field_declaration | wbCheckinClaim | [249](../../magpie/internal/provider/workbuddy_checkin.go#L249) |
+| Message | field_declaration | wbCheckinClaim | [250](../../magpie/internal/provider/workbuddy_checkin.go#L250) |
+| wbCheckinPath | function_declaration |  | [253](../../magpie/internal/provider/workbuddy_checkin.go#L253) |
+| wbCheckinKey | function_declaration |  | [256](../../magpie/internal/provider/workbuddy_checkin.go#L256) |
+| readCheckins | function_declaration |  | [265](../../magpie/internal/provider/workbuddy_checkin.go#L265) |
+| checkinsReadMu | var_spec |  | [300](../../magpie/internal/provider/workbuddy_checkin.go#L300) |
+| checkinsRead | var_spec |  | [301](../../magpie/internal/provider/workbuddy_checkin.go#L301) |
+| checkinsBad | var_spec |  | [302](../../magpie/internal/provider/workbuddy_checkin.go#L302) |
+| wroteCheckins | function_declaration |  | [306](../../magpie/internal/provider/workbuddy_checkin.go#L306) |
+| shownCheckins | function_declaration |  | [316](../../magpie/internal/provider/workbuddy_checkin.go#L316) |
+| wbCheckinMu | var_spec |  | [329](../../magpie/internal/provider/workbuddy_checkin.go#L329) |
+| wbCheckiner | type_spec |  | [332](../../magpie/internal/provider/workbuddy_checkin.go#L332) |
+| path | field_declaration | wbCheckiner | [333](../../magpie/internal/provider/workbuddy_checkin.go#L333) |
+| now | field_declaration | wbCheckiner | [334](../../magpie/internal/provider/workbuddy_checkin.go#L334) |
+| accounts | field_declaration | wbCheckiner | [335](../../magpie/internal/provider/workbuddy_checkin.go#L335) |
+| newWBCheckiner | function_declaration |  | [338](../../magpie/internal/provider/workbuddy_checkin.go#L338) |
+| checkinNow | method_declaration |  | [343](../../magpie/internal/provider/workbuddy_checkin.go#L343) |
+| clock | method_declaration |  | [347](../../magpie/internal/provider/workbuddy_checkin.go#L347) |
+| checkiner | method_declaration |  | [349](../../magpie/internal/provider/workbuddy_checkin.go#L349) |
+| out | var_spec | checkiner | [351](../../magpie/internal/provider/workbuddy_checkin.go#L351) |
+| wbCheckin | function_declaration |  | [365](../../magpie/internal/provider/workbuddy_checkin.go#L365) |
+| h | var_spec | wbCheckin | [366](../../magpie/internal/provider/workbuddy_checkin.go#L366) |
+| st | var_spec | wbCheckin | [368](../../magpie/internal/provider/workbuddy_checkin.go#L368) |
+| got | var_spec | wbCheckin | [378](../../magpie/internal/provider/workbuddy_checkin.go#L378) |
+| wbCheckinUnauthorized | function_declaration |  | [400](../../magpie/internal/provider/workbuddy_checkin.go#L400) |
+| wbIsUnauthorized | function_declaration |  | [412](../../magpie/internal/provider/workbuddy_checkin.go#L412) |
+| se | var_spec | wbIsUnauthorized | [413](../../magpie/internal/provider/workbuddy_checkin.go#L413) |
+| we | var_spec | wbIsUnauthorized | [417](../../magpie/internal/provider/workbuddy_checkin.go#L417) |
+| wbCheckinRefused | function_declaration |  | [423](../../magpie/internal/provider/workbuddy_checkin.go#L423) |
+| we | var_spec | wbCheckinRefused | [424](../../magpie/internal/provider/workbuddy_checkin.go#L424) |
+| wbCheckinFailed | function_declaration |  | [444](../../magpie/internal/provider/workbuddy_checkin.go#L444) |
+| ne | var_spec | wbCheckinFailed | [445](../../magpie/internal/provider/workbuddy_checkin.go#L445) |
+| unanswered | var_spec |  | [451](../../magpie/internal/provider/workbuddy_checkin.go#L451) |
+| CheckInWorkBuddy | function_declaration |  | [455](../../magpie/internal/provider/workbuddy_checkin.go#L455) |
+| WorkBuddyCheckins | function_declaration |  | [461](../../magpie/internal/provider/workbuddy_checkin.go#L461) |
+| out | var_spec | WorkBuddyCheckins | [463](../../magpie/internal/provider/workbuddy_checkin.go#L463) |
+| WithCheckins | function_declaration |  | [483](../../magpie/internal/provider/workbuddy_checkin.go#L483) |
+| LoginCheckins | function_declaration |  | [494](../../magpie/internal/provider/workbuddy_checkin.go#L494) |
+| withCheckins | function_declaration |  | [518](../../magpie/internal/provider/workbuddy_checkin.go#L518) |
+| on | var_spec | withCheckins | [519](../../magpie/internal/provider/workbuddy_checkin.go#L519) |
+| checkinCard | type_spec |  | [535](../../magpie/internal/provider/workbuddy_checkin.go#L535) |
+| User | field_declaration | checkinCard | [535](../../magpie/internal/provider/workbuddy_checkin.go#L535) |
+| markCheckins | function_declaration |  | [540](../../magpie/internal/provider/workbuddy_checkin.go#L540) |
+| mine | var_spec | markCheckins | [547](../../magpie/internal/provider/workbuddy_checkin.go#L547) |
+| a | var_spec | markCheckins | [553](../../magpie/internal/provider/workbuddy_checkin.go#L553) |
+| HasWorkBuddy | function_declaration |  | [574](../../magpie/internal/provider/workbuddy_checkin.go#L574) |
+| wbCheckinAccounts | function_declaration |  | [579](../../magpie/internal/provider/workbuddy_checkin.go#L579) |
+| wbPluginAccounts | function_declaration |  | [590](../../magpie/internal/provider/workbuddy_checkin.go#L590) |

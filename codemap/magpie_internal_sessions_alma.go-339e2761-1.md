@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/alma.go) · page 1/1
 
-Source SHA-256: caa719dda8e0f3a0b2a1454b1ab0a912e004f4942c8b4ddab834a6397081eb68
+Source SHA-256: f1eff1eae78723cf443e996fec620f5f5d84594c3904df568bb65f4df7586513
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,30 +17,33 @@ Source SHA-256: caa719dda8e0f3a0b2a1454b1ab0a912e004f4942c8b4ddab834a6397081eb68
 | almaTime | function_declaration |  | [69](../../magpie/internal/sessions/alma.go#L69) |
 | almaCronTitle | const_spec |  | [75](../../magpie/internal/sessions/alma.go#L75) |
 | almaFiles | function_declaration |  | [82](../../magpie/internal/sessions/alma.go#L82) |
-| conds | var_spec | almaFiles | [111](../../magpie/internal/sessions/alma.go#L111) |
-| out | var_spec | almaFiles | [136](../../magpie/internal/sessions/alma.go#L136) |
-| id | var_spec | almaFiles | [138](../../magpie/internal/sessions/alma.go#L138) |
-| n | var_spec | almaFiles | [139](../../magpie/internal/sessions/alma.go#L139) |
-| almaExpr | function_declaration |  | [170](../../magpie/internal/sessions/alma.go#L170) |
-| almaColumn | function_declaration |  | [179](../../magpie/internal/sessions/alma.go#L179) |
-| almaMessage | type_spec |  | [190](../../magpie/internal/sessions/alma.go#L190) |
-| Role | field_declaration | almaMessage | [191](../../magpie/internal/sessions/alma.go#L191) |
-| Parts | field_declaration | almaMessage | [192](../../magpie/internal/sessions/alma.go#L192) |
-| Type | field_declaration | almaMessage::Parts | [193](../../magpie/internal/sessions/alma.go#L193) |
-| Text | field_declaration | almaMessage::Parts | [194](../../magpie/internal/sessions/alma.go#L194) |
-| ToolName | field_declaration | almaMessage::Parts | [195](../../magpie/internal/sessions/alma.go#L195) |
-| Input | field_declaration | almaMessage::Parts | [196](../../magpie/internal/sessions/alma.go#L196) |
-| almaMeta | type_spec |  | [200](../../magpie/internal/sessions/alma.go#L200) |
-| Indicator | field_declaration | almaMeta | [201](../../magpie/internal/sessions/alma.go#L201) |
-| almaModel | function_declaration |  | [206](../../magpie/internal/sessions/alma.go#L206) |
-| parseAlma | function_declaration |  | [229](../../magpie/internal/sessions/alma.go#L229) |
-| named | var_spec | parseAlma | [246](../../magpie/internal/sessions/alma.go#L246) |
-| raw | var_spec | parseAlma | [268](../../magpie/internal/sessions/alma.go#L268) |
-| m | var_spec | parseAlma | [272](../../magpie/internal/sessions/alma.go#L272) |
-| md | var_spec | parseAlma | [276](../../magpie/internal/sessions/alma.go#L276) |
-| in | var_spec | parseAlma | [315](../../magpie/internal/sessions/alma.go#L315) |
-| Skill | field_declaration | parseAlma::in | [316](../../magpie/internal/sessions/alma.go#L316) |
-| name | field_declaration | parseAlma | [336](../../magpie/internal/sessions/alma.go#L336) |
-| cols | field_declaration | parseAlma | [337](../../magpie/internal/sessions/alma.go#L337) |
-| model | var_spec | parseAlma | [350](../../magpie/internal/sessions/alma.go#L350) |
-| in | var_spec | parseAlma | [351](../../magpie/internal/sessions/alma.go#L351) |
+| conds | var_spec | almaFiles | [114](../../magpie/internal/sessions/alma.go#L114) |
+| out | var_spec | almaFiles | [139](../../magpie/internal/sessions/alma.go#L139) |
+| id | var_spec | almaFiles | [141](../../magpie/internal/sessions/alma.go#L141) |
+| n | var_spec | almaFiles | [142](../../magpie/internal/sessions/alma.go#L142) |
+| almaExpr | function_declaration |  | [175](../../magpie/internal/sessions/alma.go#L175) |
+| almaColumn | function_declaration |  | [184](../../magpie/internal/sessions/alma.go#L184) |
+| almaMessage | type_spec |  | [195](../../magpie/internal/sessions/alma.go#L195) |
+| Role | field_declaration | almaMessage | [196](../../magpie/internal/sessions/alma.go#L196) |
+| Parts | field_declaration | almaMessage | [197](../../magpie/internal/sessions/alma.go#L197) |
+| Type | field_declaration | almaMessage::Parts | [198](../../magpie/internal/sessions/alma.go#L198) |
+| Text | field_declaration | almaMessage::Parts | [199](../../magpie/internal/sessions/alma.go#L199) |
+| ToolName | field_declaration | almaMessage::Parts | [200](../../magpie/internal/sessions/alma.go#L200) |
+| Input | field_declaration | almaMessage::Parts | [201](../../magpie/internal/sessions/alma.go#L201) |
+| almaMeta | type_spec |  | [205](../../magpie/internal/sessions/alma.go#L205) |
+| Indicator | field_declaration | almaMeta | [206](../../magpie/internal/sessions/alma.go#L206) |
+| almaModel | function_declaration |  | [211](../../magpie/internal/sessions/alma.go#L211) |
+| parseAlma | function_declaration |  | [234](../../magpie/internal/sessions/alma.go#L234) |
+| named | var_spec | parseAlma | [251](../../magpie/internal/sessions/alma.go#L251) |
+| raw | var_spec | parseAlma | [273](../../magpie/internal/sessions/alma.go#L273) |
+| m | var_spec | parseAlma | [277](../../magpie/internal/sessions/alma.go#L277) |
+| md | var_spec | parseAlma | [281](../../magpie/internal/sessions/alma.go#L281) |
+| in | var_spec | parseAlma | [320](../../magpie/internal/sessions/alma.go#L320) |
+| Skill | field_declaration | parseAlma::in | [321](../../magpie/internal/sessions/alma.go#L321) |
+| in | var_spec | parseAlma | [327](../../magpie/internal/sessions/alma.go#L327) |
+| FilePath | field_declaration | parseAlma::in | [328](../../magpie/internal/sessions/alma.go#L328) |
+| Path | field_declaration | parseAlma::in | [329](../../magpie/internal/sessions/alma.go#L329) |
+| name | field_declaration | parseAlma | [349](../../magpie/internal/sessions/alma.go#L349) |
+| cols | field_declaration | parseAlma | [350](../../magpie/internal/sessions/alma.go#L350) |
+| model | var_spec | parseAlma | [363](../../magpie/internal/sessions/alma.go#L363) |
+| in | var_spec | parseAlma | [364](../../magpie/internal/sessions/alma.go#L364) |

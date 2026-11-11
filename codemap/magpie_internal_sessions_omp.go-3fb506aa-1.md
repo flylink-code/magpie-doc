@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/omp.go) · page 1/1
 
-Source SHA-256: 162a1043a9c293c6ad46d08d94980dedba771886156cd5353a75880040ec6098
+Source SHA-256: f24a7518cdbe33f34478814321f513d92ac6bee2ca649677d47ced83c3e547dc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,8 +12,8 @@ Source SHA-256: 162a1043a9c293c6ad46d08d94980dedba771886156cd5353a75880040ec6098
 | ompSessionRoots | function_declaration |  | [33](../../magpie/internal/sessions/omp.go#L33) |
 | ompRootsIn | function_declaration |  | [43](../../magpie/internal/sessions/omp.go#L43) |
 | ompFiles | function_declaration |  | [49](../../magpie/internal/sessions/omp.go#L49) |
-| out | var_spec | ompFiles | [50](../../magpie/internal/sessions/omp.go#L50) |
-| ompFilesIn | function_declaration |  | [61](../../magpie/internal/sessions/omp.go#L61) |
-| out | var_spec | ompFilesIn | [62](../../magpie/internal/sessions/omp.go#L62) |
-| ompProfile | function_declaration |  | [72](../../magpie/internal/sessions/omp.go#L72) |
-| ompFilesUnder | function_declaration |  | [89](../../magpie/internal/sessions/omp.go#L89) |
+| out | var_spec | ompFiles | [53](../../magpie/internal/sessions/omp.go#L53) |
+| ompFilesIn | function_declaration |  | [64](../../magpie/internal/sessions/omp.go#L64) |
+| out | var_spec | ompFilesIn | [68](../../magpie/internal/sessions/omp.go#L68) |
+| ompProfile | function_declaration |  | [78](../../magpie/internal/sessions/omp.go#L78) |
+| ompFilesUnder | function_declaration |  | [95](../../magpie/internal/sessions/omp.go#L95) |

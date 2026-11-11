@@ -4,20 +4,49 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex.go) · page 2/2
 
-Source SHA-256: fca6347fe4102874f616389bc5bdd6c48a0026b5951876c4f2fdc879f261d03e
+Source SHA-256: 70431a8df74941df8df0b34ea3035e7c5641a178eb30c779c00c365d09ee3186
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cxCompactionIn | function_declaration |  | [516](../../magpie/internal/sessions/codex.go#L516) |
-| codexBody | function_declaration |  | [526](../../magpie/internal/sessions/codex.go#L526) |
-| l | var_spec | codexBody | [546](../../magpie/internal/sessions/codex.go#L546) |
-| cxFastPrompt | function_declaration |  | [655](../../magpie/internal/sessions/codex.go#L655) |
-| strEnd | function_declaration |  | [692](../../magpie/internal/sessions/codex.go#L692) |
-| cxCounted | function_declaration |  | [705](../../magpie/internal/sessions/codex.go#L705) |
-| cxTotal | var_spec |  | [710](../../magpie/internal/sessions/codex.go#L710) |
-| cxLast | var_spec |  | [711](../../magpie/internal/sessions/codex.go#L711) |
-| cxInfo | var_spec |  | [712](../../magpie/internal/sessions/codex.go#L712) |
-| cxUsageIn | function_declaration |  | [717](../../magpie/internal/sessions/codex.go#L717) |
-| u | var_spec | cxUsageIn | [727](../../magpie/internal/sessions/codex.go#L727) |
-| cxFastCount | function_declaration |  | [736](../../magpie/internal/sessions/codex.go#L736) |
-| cxPrompt | function_declaration |  | [754](../../magpie/internal/sessions/codex.go#L754) |
+| codexTaskParentFiles | function_declaration |  | [453](../../magpie/internal/sessions/codex.go#L453) |
+| out | var_spec | codexTaskParentFiles | [464](../../magpie/internal/sessions/codex.go#L464) |
+| codexAgentStarted | method_declaration |  | [474](../../magpie/internal/sessions/codex.go#L474) |
+| setSessionCodexTaskTitle | function_declaration |  | [491](../../magpie/internal/sessions/codex.go#L491) |
+| codexIdentityMemo | var_spec |  | [506](../../magpie/internal/sessions/codex.go#L506) |
+| kept | field_declaration | codexIdentityMemo | [508](../../magpie/internal/sessions/codex.go#L508) |
+| codexIdentityMemoSize | const_spec |  | [513](../../magpie/internal/sessions/codex.go#L513) |
+| keptIdentities | type_spec |  | [515](../../magpie/internal/sessions/codex.go#L515) |
+| from | field_declaration | keptIdentities | [516](../../magpie/internal/sessions/codex.go#L516) |
+| identities | field_declaration | keptIdentities | [517](../../magpie/internal/sessions/codex.go#L517) |
+| codexIdentityFrom | type_spec |  | [521](../../magpie/internal/sessions/codex.go#L521) |
+| key | field_declaration | codexIdentityFrom | [522](../../magpie/internal/sessions/codex.go#L522) |
+| identity | field_declaration | codexIdentityFrom | [523](../../magpie/internal/sessions/codex.go#L523) |
+| known | field_declaration | codexIdentityFrom | [524](../../magpie/internal/sessions/codex.go#L524) |
+| conflict | field_declaration | codexIdentityFrom | [525](../../magpie/internal/sessions/codex.go#L525) |
+| codexIdentityFromOf | function_declaration |  | [528](../../magpie/internal/sessions/codex.go#L528) |
+| madeFrom | method_declaration |  | [537](../../magpie/internal/sessions/codex.go#L537) |
+| codexIdentitySnapshot | function_declaration |  | [553](../../magpie/internal/sessions/codex.go#L553) |
+| codexIdentitiesBuilt | function_declaration |  | [579](../../magpie/internal/sessions/codex.go#L579) |
+| codexRoot | function_declaration |  | [636](../../magpie/internal/sessions/codex.go#L636) |
+| typeAfter | function_declaration |  | [661](../../magpie/internal/sessions/codex.go#L661) |
+| cxCompactionIn | function_declaration |  | [676](../../magpie/internal/sessions/codex.go#L676) |
+| codexBody | function_declaration |  | [686](../../magpie/internal/sessions/codex.go#L686) |
+| l | var_spec | codexBody | [706](../../magpie/internal/sessions/codex.go#L706) |
+| cxFastPrompt | function_declaration |  | [816](../../magpie/internal/sessions/codex.go#L816) |
+| strEnd | function_declaration |  | [852](../../magpie/internal/sessions/codex.go#L852) |
+| cxCounted | function_declaration |  | [865](../../magpie/internal/sessions/codex.go#L865) |
+| cxTotal | var_spec |  | [870](../../magpie/internal/sessions/codex.go#L870) |
+| cxLast | var_spec |  | [871](../../magpie/internal/sessions/codex.go#L871) |
+| cxInfo | var_spec |  | [872](../../magpie/internal/sessions/codex.go#L872) |
+| cxUsageIn | function_declaration |  | [877](../../magpie/internal/sessions/codex.go#L877) |
+| u | var_spec | cxUsageIn | [887](../../magpie/internal/sessions/codex.go#L887) |
+| cxFastCount | function_declaration |  | [896](../../magpie/internal/sessions/codex.go#L896) |
+| cxTextPrompt | function_declaration |  | [918](../../magpie/internal/sessions/codex.go#L918) |
+| head | const_spec | cxTextPrompt | [919](../../magpie/internal/sessions/codex.go#L919) |
+| v | var_spec | cxTextPrompt | [926](../../magpie/internal/sessions/codex.go#L926) |
+| v | var_spec | cxTextPrompt | [939](../../magpie/internal/sessions/codex.go#L939) |
+| plainJSON | function_declaration |  | [958](../../magpie/internal/sessions/codex.go#L958) |
+| jsonCut | function_declaration |  | [971](../../magpie/internal/sessions/codex.go#L971) |
+| jsonBodyValid | function_declaration |  | [998](../../magpie/internal/sessions/codex.go#L998) |
+| hexVal | function_declaration |  | [1030](../../magpie/internal/sessions/codex.go#L1030) |
+| cxPrompt | function_declaration |  | [1044](../../magpie/internal/sessions/codex.go#L1044) |

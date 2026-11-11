@@ -4,24 +4,42 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/pii/guard/guard.go) · page 1/1
 
-Source SHA-256: eeaa0d1e60952ea6b95cb2604961b73b9f36490385767a8532aa3221b21c16b2
+Source SHA-256: f59286a835e034e28519f939d2788d24de0caa5cb123e98382690741ff26f75c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| labels | var_spec |  | [15](../../magpie/internal/pii/guard/guard.go#L15) |
-| Files | var_spec |  | [23](../../magpie/internal/pii/guard/guard.go#L23) |
-| Model | type_spec |  | [26](../../magpie/internal/pii/guard/guard.go#L26) |
-| tok | field_declaration | Model | [27](../../magpie/internal/pii/guard/guard.go#L27) |
-| net | field_declaration | Model | [28](../../magpie/internal/pii/guard/guard.go#L28) |
-| Span | type_spec |  | [35](../../magpie/internal/pii/guard/guard.go#L35) |
-| Start | field_declaration | Span | [36](../../magpie/internal/pii/guard/guard.go#L36) |
-| Label | field_declaration | Span | [37](../../magpie/internal/pii/guard/guard.go#L37) |
-| Score | field_declaration | Span | [38](../../magpie/internal/pii/guard/guard.go#L38) |
-| MinScore | const_spec |  | [43](../../magpie/internal/pii/guard/guard.go#L43) |
-| window | const_spec |  | [49](../../magpie/internal/pii/guard/guard.go#L49) |
-| overlap | const_spec |  | [50](../../magpie/internal/pii/guard/guard.go#L50) |
-| Load | function_declaration |  | [54](../../magpie/internal/pii/guard/guard.go#L54) |
-| Find | method_declaration |  | [70](../../magpie/internal/pii/guard/guard.go#L70) |
-| sum | var_spec | Find | [105](../../magpie/internal/pii/guard/guard.go#L105) |
-| decode | function_declaration |  | [123](../../magpie/internal/pii/guard/guard.go#L123) |
-| spans | var_spec | decode | [124](../../magpie/internal/pii/guard/guard.go#L124) |
+| labels | var_spec |  | [21](../../magpie/internal/pii/guard/guard.go#L21) |
+| Files | var_spec |  | [29](../../magpie/internal/pii/guard/guard.go#L29) |
+| Model | type_spec |  | [32](../../magpie/internal/pii/guard/guard.go#L32) |
+| tok | field_declaration | Model | [33](../../magpie/internal/pii/guard/guard.go#L33) |
+| net | field_declaration | Model | [34](../../magpie/internal/pii/guard/guard.go#L34) |
+| ml | field_declaration | Model | [35](../../magpie/internal/pii/guard/guard.go#L35) |
+| MLErr | field_declaration | Model | [37](../../magpie/internal/pii/guard/guard.go#L37) |
+| mlFail | field_declaration | Model | [40](../../magpie/internal/pii/guard/guard.go#L40) |
+| Backend | method_declaration |  | [49](../../magpie/internal/pii/guard/guard.go#L49) |
+| Span | type_spec |  | [66](../../magpie/internal/pii/guard/guard.go#L66) |
+| Start | field_declaration | Span | [67](../../magpie/internal/pii/guard/guard.go#L67) |
+| Label | field_declaration | Span | [68](../../magpie/internal/pii/guard/guard.go#L68) |
+| Score | field_declaration | Span | [69](../../magpie/internal/pii/guard/guard.go#L69) |
+| MinScore | const_spec |  | [74](../../magpie/internal/pii/guard/guard.go#L74) |
+| Floor | const_spec |  | [78](../../magpie/internal/pii/guard/guard.go#L78) |
+| window | const_spec |  | [84](../../magpie/internal/pii/guard/guard.go#L84) |
+| overlap | const_spec |  | [85](../../magpie/internal/pii/guard/guard.go#L85) |
+| Load | function_declaration |  | [89](../../magpie/internal/pii/guard/guard.go#L89) |
+| logits | method_declaration |  | [109](../../magpie/internal/pii/guard/guard.go#L109) |
+| Cores | function_declaration |  | [131](../../magpie/internal/pii/guard/guard.go#L131) |
+| cores | var_spec |  | [136](../../magpie/internal/pii/guard/guard.go#L136) |
+| take | function_declaration |  | [140](../../magpie/internal/pii/guard/guard.go#L140) |
+| give | function_declaration |  | [154](../../magpie/internal/pii/guard/guard.go#L154) |
+| Find | method_declaration |  | [169](../../magpie/internal/pii/guard/guard.go#L169) |
+| starts | var_spec | Find | [175](../../magpie/internal/pii/guard/guard.go#L175) |
+| next | var_spec | Find | [199](../../magpie/internal/pii/guard/guard.go#L199) |
+| wg | var_spec | Find | [200](../../magpie/internal/pii/guard/guard.go#L200) |
+| c | var_spec | Find | [201](../../magpie/internal/pii/guard/guard.go#L201) |
+| sum | var_spec | Find | [240](../../magpie/internal/pii/guard/guard.go#L240) |
+| carried | type_spec |  | [254](../../magpie/internal/pii/guard/guard.go#L254) |
+| p | field_declaration | carried | [254](../../magpie/internal/pii/guard/guard.go#L254) |
+| catch | method_declaration |  | [257](../../magpie/internal/pii/guard/guard.go#L257) |
+| rethrow | method_declaration |  | [264](../../magpie/internal/pii/guard/guard.go#L264) |
+| decode | function_declaration |  | [275](../../magpie/internal/pii/guard/guard.go#L275) |
+| spans | var_spec | decode | [276](../../magpie/internal/pii/guard/guard.go#L276) |

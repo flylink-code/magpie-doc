@@ -4,12 +4,15 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/search_cli.go) · page 1/1
 
-Source SHA-256: e62468474a7545d9e842dffeb76b59d99ec4cb6dc9a341aa09c306b3fea7ab4b
+Source SHA-256: bf213b265bf5816d614fc4e971a678224e0272fd87a1a33fe12f9b5f42b839ea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| searchUsage | const_spec |  | [16](../../magpie/internal/cli/search_cli.go#L16) |
-| searchCmd | function_declaration |  | [52](../../magpie/internal/cli/search_cli.go#L52) |
-| quotaLine | function_declaration |  | [171](../../magpie/internal/cli/search_cli.go#L171) |
-| line | var_spec | quotaLine | [172](../../magpie/internal/cli/search_cli.go#L172) |
-| thousands | function_declaration |  | [199](../../magpie/internal/cli/search_cli.go#L199) |
+| searchUsage | const_spec |  | [18](../../magpie/internal/cli/search_cli.go#L18) |
+| searchCmd | function_declaration |  | [73](../../magpie/internal/cli/search_cli.go#L73) |
+| vendors | var_spec | searchCmd | [190](../../magpie/internal/cli/search_cli.go#L190) |
+| searchCountCmd | function_declaration |  | [226](../../magpie/internal/cli/search_cli.go#L226) |
+| err | var_spec | searchCountCmd | [244](../../magpie/internal/cli/search_cli.go#L244) |
+| quotaLine | function_declaration |  | [261](../../magpie/internal/cli/search_cli.go#L261) |
+| line | var_spec | quotaLine | [262](../../magpie/internal/cli/search_cli.go#L262) |
+| thousands | function_declaration |  | [289](../../magpie/internal/cli/search_cli.go#L289) |

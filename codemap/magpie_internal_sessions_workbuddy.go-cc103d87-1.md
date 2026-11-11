@@ -4,57 +4,59 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/workbuddy.go) · page 1/1
 
-Source SHA-256: 3d20fba387eb5a1e61e3169dad9966d4d4a25bc969e68a6fb7f36fbeacb2672b
+Source SHA-256: b844fdd722f460df51fc8316a5cd08dd2cb1f76287f81594fd00c848b7c7fc16
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | WorkBuddyDir | function_declaration |  | [31](../../magpie/internal/sessions/workbuddy.go#L31) |
 | workbuddyFiles | function_declaration |  | [41](../../magpie/internal/sessions/workbuddy.go#L41) |
-| codebuddyFiles | function_declaration |  | [46](../../magpie/internal/sessions/workbuddy.go#L46) |
-| codebuddyInWorkBuddy | function_declaration |  | [57](../../magpie/internal/sessions/workbuddy.go#L57) |
-| sameFolder | function_declaration |  | [62](../../magpie/internal/sessions/workbuddy.go#L62) |
-| isBuddy | function_declaration |  | [73](../../magpie/internal/sessions/workbuddy.go#L73) |
-| buddyFiles | function_declaration |  | [77](../../magpie/internal/sessions/workbuddy.go#L77) |
-| out | var_spec | buddyFiles | [78](../../magpie/internal/sessions/workbuddy.go#L78) |
-| wbDetails | type_spec |  | [97](../../magpie/internal/sessions/workbuddy.go#L97) |
-| UnmarshalJSON | method_declaration |  | [99](../../magpie/internal/sessions/workbuddy.go#L99) |
-| list | var_spec | UnmarshalJSON | [100](../../magpie/internal/sessions/workbuddy.go#L100) |
-| one | var_spec | UnmarshalJSON | [105](../../magpie/internal/sessions/workbuddy.go#L105) |
-| sum | method_declaration |  | [112](../../magpie/internal/sessions/workbuddy.go#L112) |
-| wbLine | type_spec |  | [120](../../magpie/internal/sessions/workbuddy.go#L120) |
-| Type | field_declaration | wbLine | [121](../../magpie/internal/sessions/workbuddy.go#L121) |
-| Role | field_declaration | wbLine | [122](../../magpie/internal/sessions/workbuddy.go#L122) |
-| ID | field_declaration | wbLine | [123](../../magpie/internal/sessions/workbuddy.go#L123) |
-| Cwd | field_declaration | wbLine | [124](../../magpie/internal/sessions/workbuddy.go#L124) |
-| SessionID | field_declaration | wbLine | [125](../../magpie/internal/sessions/workbuddy.go#L125) |
-| AITitle | field_declaration | wbLine | [126](../../magpie/internal/sessions/workbuddy.go#L126) |
-| CustomTitle | field_declaration | wbLine | [127](../../magpie/internal/sessions/workbuddy.go#L127) |
-| Content | field_declaration | wbLine | [128](../../magpie/internal/sessions/workbuddy.go#L128) |
-| ProviderData | field_declaration | wbLine | [129](../../magpie/internal/sessions/workbuddy.go#L129) |
-| MessageID | field_declaration | wbLine::ProviderData | [130](../../magpie/internal/sessions/workbuddy.go#L130) |
-| Model | field_declaration | wbLine::ProviderData | [131](../../magpie/internal/sessions/workbuddy.go#L131) |
-| RequestModel | field_declaration | wbLine::ProviderData | [132](../../magpie/internal/sessions/workbuddy.go#L132) |
-| Usage | field_declaration | wbLine::ProviderData | [133](../../magpie/internal/sessions/workbuddy.go#L133) |
-| Input | field_declaration | wbLine::ProviderData::Usage | [134](../../magpie/internal/sessions/workbuddy.go#L134) |
-| Output | field_declaration | wbLine::ProviderData::Usage | [135](../../magpie/internal/sessions/workbuddy.go#L135) |
-| InputDetails | field_declaration | wbLine::ProviderData::Usage | [136](../../magpie/internal/sessions/workbuddy.go#L136) |
-| OldInput | field_declaration | wbLine::ProviderData::Usage | [137](../../magpie/internal/sessions/workbuddy.go#L137) |
-| OldOutput | field_declaration | wbLine::ProviderData::Usage | [138](../../magpie/internal/sessions/workbuddy.go#L138) |
-| OldDetails | field_declaration | wbLine::ProviderData::Usage | [139](../../magpie/internal/sessions/workbuddy.go#L139) |
-| CacheWrite | field_declaration | wbLine::ProviderData::Usage | [140](../../magpie/internal/sessions/workbuddy.go#L140) |
-| OldCacheWrite | field_declaration | wbLine::ProviderData::Usage | [141](../../magpie/internal/sessions/workbuddy.go#L141) |
-| wbUsage | var_spec |  | [147](../../magpie/internal/sessions/workbuddy.go#L147) |
-| wbTitle | var_spec |  | [148](../../magpie/internal/sessions/workbuddy.go#L148) |
-| wbUser | var_spec |  | [149](../../magpie/internal/sessions/workbuddy.go#L149) |
-| wbCwd | var_spec |  | [150](../../magpie/internal/sessions/workbuddy.go#L150) |
-| wbScene | var_spec |  | [151](../../magpie/internal/sessions/workbuddy.go#L151) |
-| workbuddyLine | function_declaration |  | [154](../../magpie/internal/sessions/workbuddy.go#L154) |
-| l | var_spec | workbuddyLine | [163](../../magpie/internal/sessions/workbuddy.go#L163) |
-| wbPrompt | function_declaration |  | [213](../../magpie/internal/sessions/workbuddy.go#L213) |
-| text | var_spec | wbPrompt | [214](../../magpie/internal/sessions/workbuddy.go#L214) |
-| blocks | var_spec | wbPrompt | [221](../../magpie/internal/sessions/workbuddy.go#L221) |
-| Type | field_declaration | wbPrompt::blocks | [221](../../magpie/internal/sessions/workbuddy.go#L221) |
-| parts | var_spec | wbPrompt | [225](../../magpie/internal/sessions/workbuddy.go#L225) |
-| workbuddyMeta | function_declaration |  | [237](../../magpie/internal/sessions/workbuddy.go#L237) |
-| m | var_spec | workbuddyMeta | [242](../../magpie/internal/sessions/workbuddy.go#L242) |
-| Cwd | field_declaration | workbuddyMeta::m | [243](../../magpie/internal/sessions/workbuddy.go#L243) |
+| WorkBuddyAIDir | function_declaration |  | [46](../../magpie/internal/sessions/workbuddy.go#L46) |
+| workbuddyAIFiles | function_declaration |  | [57](../../magpie/internal/sessions/workbuddy.go#L57) |
+| codebuddyFiles | function_declaration |  | [67](../../magpie/internal/sessions/workbuddy.go#L67) |
+| codebuddyInWorkBuddy | function_declaration |  | [78](../../magpie/internal/sessions/workbuddy.go#L78) |
+| sameFolder | function_declaration |  | [83](../../magpie/internal/sessions/workbuddy.go#L83) |
+| isBuddy | function_declaration |  | [94](../../magpie/internal/sessions/workbuddy.go#L94) |
+| buddyFiles | function_declaration |  | [100](../../magpie/internal/sessions/workbuddy.go#L100) |
+| out | var_spec | buddyFiles | [104](../../magpie/internal/sessions/workbuddy.go#L104) |
+| wbDetails | type_spec |  | [123](../../magpie/internal/sessions/workbuddy.go#L123) |
+| UnmarshalJSON | method_declaration |  | [125](../../magpie/internal/sessions/workbuddy.go#L125) |
+| list | var_spec | UnmarshalJSON | [126](../../magpie/internal/sessions/workbuddy.go#L126) |
+| one | var_spec | UnmarshalJSON | [131](../../magpie/internal/sessions/workbuddy.go#L131) |
+| sum | method_declaration |  | [138](../../magpie/internal/sessions/workbuddy.go#L138) |
+| wbLine | type_spec |  | [146](../../magpie/internal/sessions/workbuddy.go#L146) |
+| Type | field_declaration | wbLine | [147](../../magpie/internal/sessions/workbuddy.go#L147) |
+| Role | field_declaration | wbLine | [148](../../magpie/internal/sessions/workbuddy.go#L148) |
+| ID | field_declaration | wbLine | [149](../../magpie/internal/sessions/workbuddy.go#L149) |
+| Cwd | field_declaration | wbLine | [150](../../magpie/internal/sessions/workbuddy.go#L150) |
+| SessionID | field_declaration | wbLine | [151](../../magpie/internal/sessions/workbuddy.go#L151) |
+| AITitle | field_declaration | wbLine | [152](../../magpie/internal/sessions/workbuddy.go#L152) |
+| CustomTitle | field_declaration | wbLine | [153](../../magpie/internal/sessions/workbuddy.go#L153) |
+| Content | field_declaration | wbLine | [154](../../magpie/internal/sessions/workbuddy.go#L154) |
+| ProviderData | field_declaration | wbLine | [155](../../magpie/internal/sessions/workbuddy.go#L155) |
+| MessageID | field_declaration | wbLine::ProviderData | [156](../../magpie/internal/sessions/workbuddy.go#L156) |
+| Model | field_declaration | wbLine::ProviderData | [157](../../magpie/internal/sessions/workbuddy.go#L157) |
+| RequestModel | field_declaration | wbLine::ProviderData | [158](../../magpie/internal/sessions/workbuddy.go#L158) |
+| Usage | field_declaration | wbLine::ProviderData | [159](../../magpie/internal/sessions/workbuddy.go#L159) |
+| Input | field_declaration | wbLine::ProviderData::Usage | [160](../../magpie/internal/sessions/workbuddy.go#L160) |
+| Output | field_declaration | wbLine::ProviderData::Usage | [161](../../magpie/internal/sessions/workbuddy.go#L161) |
+| InputDetails | field_declaration | wbLine::ProviderData::Usage | [162](../../magpie/internal/sessions/workbuddy.go#L162) |
+| OldInput | field_declaration | wbLine::ProviderData::Usage | [163](../../magpie/internal/sessions/workbuddy.go#L163) |
+| OldOutput | field_declaration | wbLine::ProviderData::Usage | [164](../../magpie/internal/sessions/workbuddy.go#L164) |
+| OldDetails | field_declaration | wbLine::ProviderData::Usage | [165](../../magpie/internal/sessions/workbuddy.go#L165) |
+| CacheWrite | field_declaration | wbLine::ProviderData::Usage | [166](../../magpie/internal/sessions/workbuddy.go#L166) |
+| OldCacheWrite | field_declaration | wbLine::ProviderData::Usage | [167](../../magpie/internal/sessions/workbuddy.go#L167) |
+| wbUsage | var_spec |  | [173](../../magpie/internal/sessions/workbuddy.go#L173) |
+| wbTitle | var_spec |  | [174](../../magpie/internal/sessions/workbuddy.go#L174) |
+| wbUser | var_spec |  | [175](../../magpie/internal/sessions/workbuddy.go#L175) |
+| wbCwd | var_spec |  | [176](../../magpie/internal/sessions/workbuddy.go#L176) |
+| wbScene | var_spec |  | [177](../../magpie/internal/sessions/workbuddy.go#L177) |
+| workbuddyLine | function_declaration |  | [180](../../magpie/internal/sessions/workbuddy.go#L180) |
+| l | var_spec | workbuddyLine | [189](../../magpie/internal/sessions/workbuddy.go#L189) |
+| wbPrompt | function_declaration |  | [239](../../magpie/internal/sessions/workbuddy.go#L239) |
+| text | var_spec | wbPrompt | [240](../../magpie/internal/sessions/workbuddy.go#L240) |
+| blocks | var_spec | wbPrompt | [247](../../magpie/internal/sessions/workbuddy.go#L247) |
+| Type | field_declaration | wbPrompt::blocks | [247](../../magpie/internal/sessions/workbuddy.go#L247) |
+| parts | var_spec | wbPrompt | [251](../../magpie/internal/sessions/workbuddy.go#L251) |
+| workbuddyMeta | function_declaration |  | [263](../../magpie/internal/sessions/workbuddy.go#L263) |
+| m | var_spec | workbuddyMeta | [268](../../magpie/internal/sessions/workbuddy.go#L268) |
+| Cwd | field_declaration | workbuddyMeta::m | [269](../../magpie/internal/sessions/workbuddy.go#L269) |

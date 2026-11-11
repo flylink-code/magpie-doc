@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/zhipu_coding.go) · page 1/1
 
-Source SHA-256: cca83a7dc3ac44df147c79c453df45934ecc841095836ef5555a65a7d5a9722e
+Source SHA-256: 638cc7186ccfa69f8a37d8646bd6bb4e23cb2acdcf43696a93e7393b55cdce30
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,3 +18,8 @@ Source SHA-256: cca83a7dc3ac44df147c79c453df45934ecc841095836ef5555a65a7d5a9722e
 | withMessage | function_declaration |  | [129](../../magpie/internal/provider/zhipu_coding.go#L129) |
 | v | var_spec | withMessage | [130](../../magpie/internal/provider/zhipu_coding.go#L130) |
 | LearnZhipuCoding | function_declaration |  | [154](../../magpie/internal/provider/zhipu_coding.go#L154) |
+| ZhipuSearchPath | const_spec |  | [192](../../magpie/internal/provider/zhipu_coding.go#L192) |
+| ZhipuCodingSearch | function_declaration |  | [201](../../magpie/internal/provider/zhipu_coding.go#L201) |
+| ZhipuSearches | function_declaration |  | [215](../../magpie/internal/provider/zhipu_coding.go#L215) |
+| ZhipuSearchKeys | function_declaration |  | [233](../../magpie/internal/provider/zhipu_coding.go#L233) |
+| out | var_spec | ZhipuSearchKeys | [234](../../magpie/internal/provider/zhipu_coding.go#L234) |

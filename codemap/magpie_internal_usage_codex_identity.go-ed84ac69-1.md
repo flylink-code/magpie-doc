@@ -4,75 +4,91 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/codex_identity.go) · page 1/1
 
-Source SHA-256: e5300a2082745a086d06c7520730e0f30cb9d7c454ca8f530fb48dc8ce8b06e6
+Source SHA-256: b2a3a923a286f551ba15f76a4ac6493c03d58cb2370334e8f558679c3233e5d2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexIdentityRow | function_declaration |  | [14](../../magpie/internal/usage/codex_identity.go#L14) |
-| codexActor | function_declaration |  | [36](../../magpie/internal/usage/codex_identity.go#L36) |
-| codexResponseMatches | function_declaration |  | [43](../../magpie/internal/usage/codex_identity.go#L43) |
-| sameCodexCall | function_declaration |  | [70](../../magpie/internal/usage/codex_identity.go#L70) |
-| codexCompactionOf | function_declaration |  | [83](../../magpie/internal/usage/codex_identity.go#L83) |
-| mergeCodexCompactions | function_declaration |  | [91](../../magpie/internal/usage/codex_identity.go#L91) |
-| isCodexRow | function_declaration |  | [111](../../magpie/internal/usage/codex_identity.go#L111) |
-| duplicateCodexCalls | function_declaration |  | [118](../../magpie/internal/usage/codex_identity.go#L118) |
-| cloneCodexChunks | function_declaration |  | [171](../../magpie/internal/usage/codex_identity.go#L171) |
-| rowResponseID | const_spec |  | [184](../../magpie/internal/usage/codex_identity.go#L184) |
-| codexChunkResponsePairs | function_declaration |  | [190](../../magpie/internal/usage/codex_identity.go#L190) |
-| pick | type_spec | codexChunkResponsePairs | [191](../../magpie/internal/usage/codex_identity.go#L191) |
-| gateways | field_declaration | codexChunkResponsePairs::pick | [192](../../magpie/internal/usage/codex_identity.go#L192) |
-| gateway | field_declaration | codexChunkResponsePairs::pick | [193](../../magpie/internal/usage/codex_identity.go#L193) |
-| gatewayOK | field_declaration | codexChunkResponsePairs::pick | [194](../../magpie/internal/usage/codex_identity.go#L194) |
-| compaction | field_declaration | codexChunkResponsePairs::pick | [195](../../magpie/internal/usage/codex_identity.go#L195) |
-| rows | var_spec | codexChunkResponsePairs | [198](../../magpie/internal/usage/codex_identity.go#L198) |
-| foldIDs | var_spec |  | [252](../../magpie/internal/usage/codex_identity.go#L252) |
-| by | field_declaration | foldIDs | [254](../../magpie/internal/usage/codex_identity.go#L254) |
-| turn | field_declaration | foldIDs | [255](../../magpie/internal/usage/codex_identity.go#L255) |
-| foldedIDs | type_spec |  | [258](../../magpie/internal/usage/codex_identity.go#L258) |
-| calls | field_declaration | foldedIDs | [262](../../magpie/internal/usage/codex_identity.go#L262) |
-| turn | field_declaration | foldedIDs | [263](../../magpie/internal/usage/codex_identity.go#L263) |
-| foldIndexBits | const_spec |  | [266](../../magpie/internal/usage/codex_identity.go#L266) |
-| foldSeed | var_spec |  | [268](../../magpie/internal/usage/codex_identity.go#L268) |
-| foldKept | const_spec |  | [272](../../magpie/internal/usage/codex_identity.go#L272) |
-| foldHashing | var_spec |  | [275](../../magpie/internal/usage/codex_identity.go#L275) |
-| foldCodexRows | function_declaration |  | [277](../../magpie/internal/usage/codex_identity.go#L277) |
-| made | var_spec | foldCodexRows | [296](../../magpie/internal/usage/codex_identity.go#L296) |
-| refs | var_spec | foldCodexRows | [348](../../magpie/internal/usage/codex_identity.go#L348) |
-| ids | var_spec | foldCodexRows | [356](../../magpie/internal/usage/codex_identity.go#L356) |
-| foldCodexCall | function_declaration |  | [373](../../magpie/internal/usage/codex_identity.go#L373) |
-| setCodexActor | function_declaration |  | [417](../../magpie/internal/usage/codex_identity.go#L417) |
-| codexActorBytes | function_declaration |  | [426](../../magpie/internal/usage/codex_identity.go#L426) |
-| codexEffort | var_spec |  | [444](../../magpie/internal/usage/codex_identity.go#L444) |
-| periods | field_declaration | codexEffort | [446](../../magpie/internal/usage/codex_identity.go#L446) |
-| built | field_declaration | codexEffort | [447](../../magpie/internal/usage/codex_identity.go#L447) |
-| codexEffortBuilding | var_spec |  | [451](../../magpie/internal/usage/codex_identity.go#L451) |
-| effortPeriodsKept | const_spec |  | [455](../../magpie/internal/usage/codex_identity.go#L455) |
-| effortEntry | type_spec |  | [457](../../magpie/internal/usage/codex_identity.go#L457) |
-| key | field_declaration | effortEntry | [458](../../magpie/internal/usage/codex_identity.go#L458) |
-| root | field_declaration | effortEntry | [459](../../magpie/internal/usage/codex_identity.go#L459) |
-| value | field_declaration | effortEntry | [460](../../magpie/internal/usage/codex_identity.go#L460) |
-| have | field_declaration | effortEntry | [461](../../magpie/internal/usage/codex_identity.go#L461) |
-| building | field_declaration | effortEntry | [462](../../magpie/internal/usage/codex_identity.go#L462) |
-| used | field_declaration | effortEntry | [463](../../magpie/internal/usage/codex_identity.go#L463) |
-| at | field_declaration | effortEntry | [464](../../magpie/internal/usage/codex_identity.go#L464) |
-| effortFresh | var_spec |  | [474](../../magpie/internal/usage/codex_identity.go#L474) |
-| effortBuilt | var_spec |  | [477](../../magpie/internal/usage/codex_identity.go#L477) |
-| CodexModelEffort | function_declaration |  | [480](../../magpie/internal/usage/codex_identity.go#L480) |
-| value | var_spec | CodexModelEffort | [521](../../magpie/internal/usage/codex_identity.go#L521) |
-| codexEffortRows | function_declaration |  | [551](../../magpie/internal/usage/codex_identity.go#L551) |
-| matchingRecords | function_declaration |  | [581](../../magpie/internal/usage/codex_identity.go#L581) |
-| out | var_spec | matchingRecords | [593](../../magpie/internal/usage/codex_identity.go#L593) |
-| codexCalls | function_declaration |  | [603](../../magpie/internal/usage/codex_identity.go#L603) |
-| forgetEffortPeriods | function_declaration |  | [607](../../magpie/internal/usage/codex_identity.go#L607) |
-| oldest | var_spec | forgetEffortPeriods | [609](../../magpie/internal/usage/codex_identity.go#L609) |
-| at | var_spec | forgetEffortPeriods | [610](../../magpie/internal/usage/codex_identity.go#L610) |
-| cloneEffort | function_declaration |  | [623](../../magpie/internal/usage/codex_identity.go#L623) |
-| codexModelEffort | function_declaration |  | [631](../../magpie/internal/usage/codex_identity.go#L631) |
-| modelEffortKey | type_spec |  | [639](../../magpie/internal/usage/codex_identity.go#L639) |
-| model | field_declaration | modelEffortKey | [639](../../magpie/internal/usage/codex_identity.go#L639) |
-| effortTotal | type_spec |  | [641](../../magpie/internal/usage/codex_identity.go#L641) |
-| value | field_declaration | effortTotal | [642](../../magpie/internal/usage/codex_identity.go#L642) |
-| priced | field_declaration | effortTotal | [643](../../magpie/internal/usage/codex_identity.go#L643) |
-| effortSums | type_spec |  | [648](../../magpie/internal/usage/codex_identity.go#L648) |
-| add | method_declaration |  | [650](../../magpie/internal/usage/codex_identity.go#L650) |
-| values | method_declaration |  | [678](../../magpie/internal/usage/codex_identity.go#L678) |
+| codexIdentityRow | function_declaration |  | [16](../../magpie/internal/usage/codex_identity.go#L16) |
+| codexActor | function_declaration |  | [38](../../magpie/internal/usage/codex_identity.go#L38) |
+| codexResponseMatches | function_declaration |  | [45](../../magpie/internal/usage/codex_identity.go#L45) |
+| sameCodexCall | function_declaration |  | [72](../../magpie/internal/usage/codex_identity.go#L72) |
+| codexCompactionOf | function_declaration |  | [85](../../magpie/internal/usage/codex_identity.go#L85) |
+| mergeCodexCompactions | function_declaration |  | [93](../../magpie/internal/usage/codex_identity.go#L93) |
+| isCodexRow | function_declaration |  | [113](../../magpie/internal/usage/codex_identity.go#L113) |
+| duplicateCodexCalls | function_declaration |  | [120](../../magpie/internal/usage/codex_identity.go#L120) |
+| cloneCodexChunks | function_declaration |  | [173](../../magpie/internal/usage/codex_identity.go#L173) |
+| rowResponseID | const_spec |  | [186](../../magpie/internal/usage/codex_identity.go#L186) |
+| responsePick | type_spec |  | [189](../../magpie/internal/usage/codex_identity.go#L189) |
+| gateways | field_declaration | responsePick | [190](../../magpie/internal/usage/codex_identity.go#L190) |
+| gateway | field_declaration | responsePick | [191](../../magpie/internal/usage/codex_identity.go#L191) |
+| gatewayOK | field_declaration | responsePick | [192](../../magpie/internal/usage/codex_identity.go#L192) |
+| compaction | field_declaration | responsePick | [193](../../magpie/internal/usage/codex_identity.go#L193) |
+| pickScratch | type_spec |  | [200](../../magpie/internal/usage/codex_identity.go#L200) |
+| made | field_declaration | pickScratch | [201](../../magpie/internal/usage/codex_identity.go#L201) |
+| picks | field_declaration | pickScratch | [202](../../magpie/internal/usage/codex_identity.go#L202) |
+| slab | field_declaration | pickScratch | [203](../../magpie/internal/usage/codex_identity.go#L203) |
+| picked | field_declaration | pickScratch | [204](../../magpie/internal/usage/codex_identity.go#L204) |
+| keptPicks | var_spec |  | [207](../../magpie/internal/usage/codex_identity.go#L207) |
+| release | method_declaration |  | [210](../../magpie/internal/usage/codex_identity.go#L210) |
+| codexChunkResponsePairs | function_declaration |  | [223](../../magpie/internal/usage/codex_identity.go#L223) |
+| rows | var_spec | codexChunkResponsePairs | [230](../../magpie/internal/usage/codex_identity.go#L230) |
+| codexGatewayCall | method_declaration |  | [321](../../magpie/internal/usage/codex_identity.go#L321) |
+| foldIDs | var_spec |  | [340](../../magpie/internal/usage/codex_identity.go#L340) |
+| by | field_declaration | foldIDs | [342](../../magpie/internal/usage/codex_identity.go#L342) |
+| turn | field_declaration | foldIDs | [343](../../magpie/internal/usage/codex_identity.go#L343) |
+| foldedIDs | type_spec |  | [346](../../magpie/internal/usage/codex_identity.go#L346) |
+| calls | field_declaration | foldedIDs | [352](../../magpie/internal/usage/codex_identity.go#L352) |
+| turn | field_declaration | foldedIDs | [353](../../magpie/internal/usage/codex_identity.go#L353) |
+| foldIndexBits | const_spec |  | [357](../../magpie/internal/usage/codex_identity.go#L357) |
+| foldCodexLog | const_spec |  | [358](../../magpie/internal/usage/codex_identity.go#L358) |
+| foldShift | const_spec |  | [359](../../magpie/internal/usage/codex_identity.go#L359) |
+| foldSeed | var_spec |  | [362](../../magpie/internal/usage/codex_identity.go#L362) |
+| foldHash | function_declaration |  | [365](../../magpie/internal/usage/codex_identity.go#L365) |
+| pairsOpening | var_spec |  | [369](../../magpie/internal/usage/codex_identity.go#L369) |
+| foldKept | const_spec |  | [373](../../magpie/internal/usage/codex_identity.go#L373) |
+| foldHashing | var_spec |  | [376](../../magpie/internal/usage/codex_identity.go#L376) |
+| chunkIDs | function_declaration |  | [381](../../magpie/internal/usage/codex_identity.go#L381) |
+| made | var_spec | chunkIDs | [395](../../magpie/internal/usage/codex_identity.go#L395) |
+| foldCodexRows | function_declaration |  | [443](../../magpie/internal/usage/codex_identity.go#L443) |
+| refs | var_spec | foldCodexRows | [468](../../magpie/internal/usage/codex_identity.go#L468) |
+| ids | var_spec | foldCodexRows | [476](../../magpie/internal/usage/codex_identity.go#L476) |
+| foldCodexCall | function_declaration |  | [493](../../magpie/internal/usage/codex_identity.go#L493) |
+| setCodexActor | function_declaration |  | [535](../../magpie/internal/usage/codex_identity.go#L535) |
+| codexEffort | var_spec |  | [549](../../magpie/internal/usage/codex_identity.go#L549) |
+| periods | field_declaration | codexEffort | [551](../../magpie/internal/usage/codex_identity.go#L551) |
+| built | field_declaration | codexEffort | [552](../../magpie/internal/usage/codex_identity.go#L552) |
+| codexEffortBuilding | var_spec |  | [556](../../magpie/internal/usage/codex_identity.go#L556) |
+| effortPeriodsKept | const_spec |  | [560](../../magpie/internal/usage/codex_identity.go#L560) |
+| effortEntry | type_spec |  | [562](../../magpie/internal/usage/codex_identity.go#L562) |
+| key | field_declaration | effortEntry | [563](../../magpie/internal/usage/codex_identity.go#L563) |
+| root | field_declaration | effortEntry | [564](../../magpie/internal/usage/codex_identity.go#L564) |
+| value | field_declaration | effortEntry | [565](../../magpie/internal/usage/codex_identity.go#L565) |
+| have | field_declaration | effortEntry | [566](../../magpie/internal/usage/codex_identity.go#L566) |
+| building | field_declaration | effortEntry | [567](../../magpie/internal/usage/codex_identity.go#L567) |
+| used | field_declaration | effortEntry | [568](../../magpie/internal/usage/codex_identity.go#L568) |
+| at | field_declaration | effortEntry | [569](../../magpie/internal/usage/codex_identity.go#L569) |
+| effortFresh | var_spec |  | [579](../../magpie/internal/usage/codex_identity.go#L579) |
+| effortBehind | var_spec |  | [587](../../magpie/internal/usage/codex_identity.go#L587) |
+| effortBuilt | var_spec |  | [590](../../magpie/internal/usage/codex_identity.go#L590) |
+| CodexModelEffort | function_declaration |  | [597](../../magpie/internal/usage/codex_identity.go#L597) |
+| namedModelEffort | function_declaration |  | [603](../../magpie/internal/usage/codex_identity.go#L603) |
+| out | var_spec | namedModelEffort | [607](../../magpie/internal/usage/codex_identity.go#L607) |
+| keptCodexModelEffort | function_declaration |  | [628](../../magpie/internal/usage/codex_identity.go#L628) |
+| buildEffort | function_declaration |  | [680](../../magpie/internal/usage/codex_identity.go#L680) |
+| codexEffortRows | function_declaration |  | [710](../../magpie/internal/usage/codex_identity.go#L710) |
+| matchingRecords | function_declaration |  | [740](../../magpie/internal/usage/codex_identity.go#L740) |
+| out | var_spec | matchingRecords | [752](../../magpie/internal/usage/codex_identity.go#L752) |
+| codexCalls | function_declaration |  | [762](../../magpie/internal/usage/codex_identity.go#L762) |
+| forgetEffortPeriods | function_declaration |  | [766](../../magpie/internal/usage/codex_identity.go#L766) |
+| oldest | var_spec | forgetEffortPeriods | [768](../../magpie/internal/usage/codex_identity.go#L768) |
+| at | var_spec | forgetEffortPeriods | [769](../../magpie/internal/usage/codex_identity.go#L769) |
+| codexModelEffort | function_declaration |  | [782](../../magpie/internal/usage/codex_identity.go#L782) |
+| modelEffortKey | type_spec |  | [790](../../magpie/internal/usage/codex_identity.go#L790) |
+| model | field_declaration | modelEffortKey | [790](../../magpie/internal/usage/codex_identity.go#L790) |
+| effortTotal | type_spec |  | [792](../../magpie/internal/usage/codex_identity.go#L792) |
+| value | field_declaration | effortTotal | [793](../../magpie/internal/usage/codex_identity.go#L793) |
+| priced | field_declaration | effortTotal | [794](../../magpie/internal/usage/codex_identity.go#L794) |
+| effortSums | type_spec |  | [799](../../magpie/internal/usage/codex_identity.go#L799) |
+| add | method_declaration |  | [801](../../magpie/internal/usage/codex_identity.go#L801) |
+| addValue | method_declaration |  | [830](../../magpie/internal/usage/codex_identity.go#L830) |
+| values | method_declaration |  | [852](../../magpie/internal/usage/codex_identity.go#L852) |

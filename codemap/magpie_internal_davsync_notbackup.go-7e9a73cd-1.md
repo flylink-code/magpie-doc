@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/davsync/notbackup.go) · page 1/1
 
-Source SHA-256: 72e6599f05e80d3a8f1bc1b2ba275497699e8614c2d5458eac2384f748692ecd
+Source SHA-256: 0e211d1c2dbf90239137f166db12428e4921684c729732ed82359092b62f0827
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

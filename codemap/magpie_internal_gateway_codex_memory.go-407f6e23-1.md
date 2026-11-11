@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_memory.go) · page 1/1
 
-Source SHA-256: e03ac2556080d81a4a0a3e306644034672908766ad5c6a29c61bf6256505ddd0
+Source SHA-256: 38c03874554e716af8e658edadfcfbf15dc5a80e1a7233f659bd8a3e9516fcb5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,6 +12,6 @@ Source SHA-256: e03ac2556080d81a4a0a3e306644034672908766ad5c6a29c61bf6256505ddd0
 | codexTurnKey | function_declaration |  | [22](../../magpie/internal/gateway/codex_memory.go#L22) |
 | rememberCodexTurn | method_declaration |  | [28](../../magpie/internal/gateway/codex_memory.go#L28) |
 | isReviewCall | function_declaration |  | [41](../../magpie/internal/gateway/codex_memory.go#L41) |
-| freeOnChatGPT | function_declaration |  | [51](../../magpie/internal/gateway/codex_memory.go#L51) |
+| freeOnChatGPT | function_declaration |  | [48](../../magpie/internal/gateway/codex_memory.go#L48) |
 | codexMemoryStandIn | method_declaration |  | [78](../../magpie/internal/gateway/codex_memory.go#L78) |
-| last | var_spec | codexMemoryStandIn | [101](../../magpie/internal/gateway/codex_memory.go#L101) |
+| last | var_spec | codexMemoryStandIn | [125](../../magpie/internal/gateway/codex_memory.go#L125) |

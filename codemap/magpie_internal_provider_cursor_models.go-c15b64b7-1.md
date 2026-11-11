@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/cursor_models.go) · page 1/1
 
-Source SHA-256: 8343b1fa764757eeac8b295b0f82b3cb3533928aa2d5e8d41ce8d81bc81cdcf3
+Source SHA-256: 0ff12f482b3d72e3c6771c5f0f4b346adfeada50d49750235cb1e1208ce02b32
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,9 +26,10 @@ Source SHA-256: 8343b1fa764757eeac8b295b0f82b3cb3533928aa2d5e8d41ce8d81bc81cdcf3
 | out | var_spec | collapseCursorModels | [171](../../magpie/internal/provider/cursor_models.go#L171) |
 | cursorCapacity | var_spec |  | [184](../../magpie/internal/provider/cursor_models.go#L184) |
 | withoutCursorCapacity | function_declaration |  | [190](../../magpie/internal/provider/cursor_models.go#L190) |
-| CursorVariants | function_declaration |  | [215](../../magpie/internal/provider/cursor_models.go#L215) |
-| cursorVariantsIn | function_declaration |  | [223](../../magpie/internal/provider/cursor_models.go#L223) |
-| CursorBase | function_declaration |  | [237](../../magpie/internal/provider/cursor_models.go#L237) |
-| cursorBaseIn | function_declaration |  | [245](../../magpie/internal/provider/cursor_models.go#L245) |
-| cursorPicks | function_declaration |  | [261](../../magpie/internal/provider/cursor_models.go#L261) |
-| out | var_spec | cursorPicks | [266](../../magpie/internal/provider/cursor_models.go#L266) |
+| builtinCursorList | function_declaration |  | [219](../../magpie/internal/provider/cursor_models.go#L219) |
+| CursorVariants | function_declaration |  | [230](../../magpie/internal/provider/cursor_models.go#L230) |
+| cursorVariantsIn | function_declaration |  | [238](../../magpie/internal/provider/cursor_models.go#L238) |
+| CursorBase | function_declaration |  | [252](../../magpie/internal/provider/cursor_models.go#L252) |
+| cursorBaseIn | function_declaration |  | [260](../../magpie/internal/provider/cursor_models.go#L260) |
+| cursorPicks | function_declaration |  | [276](../../magpie/internal/provider/cursor_models.go#L276) |
+| out | var_spec | cursorPicks | [281](../../magpie/internal/provider/cursor_models.go#L281) |

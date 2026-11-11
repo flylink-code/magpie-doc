@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/remote_key_limits.go) · page 1/1
 
-Source SHA-256: ca0a1678014c5796f42831d6bf73ce800a4d82cd7f4804b005820ef2e4d42666
+Source SHA-256: 75333f084f136695ed041490542d62457eef2ad9b8c8ed2d1130468b2c37f840
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -43,23 +43,24 @@ Source SHA-256: ca0a1678014c5796f42831d6bf73ce800a4d82cd7f4804b005820ef2e4d42666
 | TokensLeft | field_declaration | remoteKeyLimit | [82](../../magpie/internal/provider/remote_key_limits.go#L82) |
 | CostLeft | field_declaration | remoteKeyLimit | [83](../../magpie/internal/provider/remote_key_limits.go#L83) |
 | Spent | field_declaration | remoteKeyLimit | [84](../../magpie/internal/provider/remote_key_limits.go#L84) |
-| remoteKeyRead | type_spec |  | [87](../../magpie/internal/provider/remote_key_limits.go#L87) |
-| at | field_declaration | remoteKeyRead | [88](../../magpie/internal/provider/remote_key_limits.go#L88) |
-| readAt | field_declaration | remoteKeyRead | [89](../../magpie/internal/provider/remote_key_limits.go#L89) |
-| got | field_declaration | remoteKeyRead | [90](../../magpie/internal/provider/remote_key_limits.go#L90) |
-| err | field_declaration | remoteKeyRead | [91](../../magpie/internal/provider/remote_key_limits.go#L91) |
-| remoteKeyCache | var_spec |  | [94](../../magpie/internal/provider/remote_key_limits.go#L94) |
-| m | field_declaration | remoteKeyCache | [96](../../magpie/internal/provider/remote_key_limits.go#L96) |
-| remoteKeys | function_declaration |  | [102](../../magpie/internal/provider/remote_key_limits.go#L102) |
-| remoteKeyCards | function_declaration |  | [123](../../magpie/internal/provider/remote_key_limits.go#L123) |
-| wg | var_spec | remoteKeyCards | [126](../../magpie/internal/provider/remote_key_limits.go#L126) |
-| slots | var_spec | remoteKeyCards | [127](../../magpie/internal/provider/remote_key_limits.go#L127) |
-| remoteKeyCardOf | function_declaration |  | [140](../../magpie/internal/provider/remote_key_limits.go#L140) |
-| keyLimitCard | function_declaration |  | [182](../../magpie/internal/provider/remote_key_limits.go#L182) |
-| ws | var_spec | keyLimitCard | [192](../../magpie/internal/provider/remote_key_limits.go#L192) |
-| keyWindowName | function_declaration |  | [221](../../magpie/internal/provider/remote_key_limits.go#L221) |
-| askRemoteKeyLimit | function_declaration |  | [234](../../magpie/internal/provider/remote_key_limits.go#L234) |
-| e | var_spec | askRemoteKeyLimit | [257](../../magpie/internal/provider/remote_key_limits.go#L257) |
-| Error | field_declaration | askRemoteKeyLimit::e | [258](../../magpie/internal/provider/remote_key_limits.go#L258) |
-| Message | field_declaration | askRemoteKeyLimit::e::Error | [259](../../magpie/internal/provider/remote_key_limits.go#L259) |
-| a | var_spec | askRemoteKeyLimit | [267](../../magpie/internal/provider/remote_key_limits.go#L267) |
+| Models | field_declaration | remoteKeyLimit | [86](../../magpie/internal/provider/remote_key_limits.go#L86) |
+| remoteKeyRead | type_spec |  | [89](../../magpie/internal/provider/remote_key_limits.go#L89) |
+| at | field_declaration | remoteKeyRead | [90](../../magpie/internal/provider/remote_key_limits.go#L90) |
+| readAt | field_declaration | remoteKeyRead | [91](../../magpie/internal/provider/remote_key_limits.go#L91) |
+| got | field_declaration | remoteKeyRead | [92](../../magpie/internal/provider/remote_key_limits.go#L92) |
+| err | field_declaration | remoteKeyRead | [93](../../magpie/internal/provider/remote_key_limits.go#L93) |
+| remoteKeyCache | var_spec |  | [96](../../magpie/internal/provider/remote_key_limits.go#L96) |
+| m | field_declaration | remoteKeyCache | [98](../../magpie/internal/provider/remote_key_limits.go#L98) |
+| remoteKeys | function_declaration |  | [104](../../magpie/internal/provider/remote_key_limits.go#L104) |
+| remoteKeyCards | function_declaration |  | [125](../../magpie/internal/provider/remote_key_limits.go#L125) |
+| wg | var_spec | remoteKeyCards | [128](../../magpie/internal/provider/remote_key_limits.go#L128) |
+| slots | var_spec | remoteKeyCards | [129](../../magpie/internal/provider/remote_key_limits.go#L129) |
+| remoteKeyCardOf | function_declaration |  | [142](../../magpie/internal/provider/remote_key_limits.go#L142) |
+| keyLimitCard | function_declaration |  | [184](../../magpie/internal/provider/remote_key_limits.go#L184) |
+| ws | var_spec | keyLimitCard | [194](../../magpie/internal/provider/remote_key_limits.go#L194) |
+| keyWindowName | function_declaration |  | [230](../../magpie/internal/provider/remote_key_limits.go#L230) |
+| askRemoteKeyLimit | function_declaration |  | [243](../../magpie/internal/provider/remote_key_limits.go#L243) |
+| e | var_spec | askRemoteKeyLimit | [266](../../magpie/internal/provider/remote_key_limits.go#L266) |
+| Error | field_declaration | askRemoteKeyLimit::e | [267](../../magpie/internal/provider/remote_key_limits.go#L267) |
+| Message | field_declaration | askRemoteKeyLimit::e::Error | [268](../../magpie/internal/provider/remote_key_limits.go#L268) |
+| a | var_spec | askRemoteKeyLimit | [276](../../magpie/internal/provider/remote_key_limits.go#L276) |

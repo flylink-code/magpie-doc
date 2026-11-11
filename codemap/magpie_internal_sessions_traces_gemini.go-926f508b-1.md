@@ -4,57 +4,58 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/traces_gemini.go) · page 1/1
 
-Source SHA-256: 31657910ac330da66fe6dfdea0390f64a3eba086dcccdbbbc20dd3412b3fe7ed
+Source SHA-256: 7260cb1a4ec5e6096e196e5ef18fca35c44c44bf1aeff1f75ecdf20e0fc2be32
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | geminiTraceFiles | function_declaration |  | [17](../../magpie/internal/sessions/traces_gemini.go#L17) |
-| out | var_spec | geminiTraceFiles | [23](../../magpie/internal/sessions/traces_gemini.go#L23) |
-| geminiTraceTool | type_spec |  | [36](../../magpie/internal/sessions/traces_gemini.go#L36) |
-| ID | field_declaration | geminiTraceTool | [37](../../magpie/internal/sessions/traces_gemini.go#L37) |
-| Timestamp | field_declaration | geminiTraceTool | [38](../../magpie/internal/sessions/traces_gemini.go#L38) |
-| Args | field_declaration | geminiTraceTool | [39](../../magpie/internal/sessions/traces_gemini.go#L39) |
-| geminiTraceMessage | type_spec |  | [41](../../magpie/internal/sessions/traces_gemini.go#L41) |
-| ID | field_declaration | geminiTraceMessage | [42](../../magpie/internal/sessions/traces_gemini.go#L42) |
-| Timestamp | field_declaration | geminiTraceMessage | [43](../../magpie/internal/sessions/traces_gemini.go#L43) |
-| Content | field_declaration | geminiTraceMessage | [44](../../magpie/internal/sessions/traces_gemini.go#L44) |
-| ToolCalls | field_declaration | geminiTraceMessage | [45](../../magpie/internal/sessions/traces_gemini.go#L45) |
-| Tokens | field_declaration | geminiTraceMessage | [46](../../magpie/internal/sessions/traces_gemini.go#L46) |
-| Input | field_declaration | geminiTraceMessage::Tokens | [46](../../magpie/internal/sessions/traces_gemini.go#L46) |
-| prompt | field_declaration | geminiTraceMessage | [47](../../magpie/internal/sessions/traces_gemini.go#L47) |
-| geminiTraceState | type_spec |  | [49](../../magpie/internal/sessions/traces_gemini.go#L49) |
-| session | field_declaration | geminiTraceState | [50](../../magpie/internal/sessions/traces_gemini.go#L50) |
-| order | field_declaration | geminiTraceState | [51](../../magpie/internal/sessions/traces_gemini.go#L51) |
-| messages | field_declaration | geminiTraceState | [52](../../magpie/internal/sessions/traces_gemini.go#L52) |
-| put | method_declaration |  | [55](../../magpie/internal/sessions/traces_gemini.go#L55) |
-| parts | var_spec | put | [61](../../magpie/internal/sessions/traces_gemini.go#L61) |
-| FunctionResponse | field_declaration | put::parts | [61](../../magpie/internal/sessions/traces_gemini.go#L61) |
-| containsTraceID | function_declaration |  | [105](../../magpie/internal/sessions/traces_gemini.go#L105) |
-| line | method_declaration |  | [113](../../magpie/internal/sessions/traces_gemini.go#L113) |
-| o | var_spec | line | [114](../../magpie/internal/sessions/traces_gemini.go#L114) |
-| SessionID | field_declaration | line::o | [115](../../magpie/internal/sessions/traces_gemini.go#L115) |
-| Messages | field_declaration | line::o | [116](../../magpie/internal/sessions/traces_gemini.go#L116) |
-| Set | field_declaration | line::o | [117](../../magpie/internal/sessions/traces_gemini.go#L117) |
-| SessionID | field_declaration | line::o::Set | [118](../../magpie/internal/sessions/traces_gemini.go#L118) |
-| Messages | field_declaration | line::o::Set | [119](../../magpie/internal/sessions/traces_gemini.go#L119) |
-| Rewind | field_declaration | line::o | [121](../../magpie/internal/sessions/traces_gemini.go#L121) |
-| Patch | field_declaration | line::o | [122](../../magpie/internal/sessions/traces_gemini.go#L122) |
-| ID | field_declaration | line::o::Patch | [123](../../magpie/internal/sessions/traces_gemini.go#L123) |
-| Content | field_declaration | line::o::Patch | [124](../../magpie/internal/sessions/traces_gemini.go#L124) |
-| ToolCalls | field_declaration | line::o::Patch | [125](../../magpie/internal/sessions/traces_gemini.go#L125) |
-| ID | field_declaration | line::o::Patch::ToolCalls | [126](../../magpie/internal/sessions/traces_gemini.go#L126) |
-| Result | field_declaration | line::o::Patch::ToolCalls | [127](../../magpie/internal/sessions/traces_gemini.go#L127) |
-| Updates | field_declaration | line::o::Patch | [129](../../magpie/internal/sessions/traces_gemini.go#L129) |
-| RemoveIDs | field_declaration | line::o::Patch | [130](../../magpie/internal/sessions/traces_gemini.go#L130) |
-| keep | var_spec | line | [185](../../magpie/internal/sessions/traces_gemini.go#L185) |
-| m | var_spec | line | [198](../../magpie/internal/sessions/traces_gemini.go#L198) |
-| readGemini | method_declaration |  | [204](../../magpie/internal/sessions/traces_gemini.go#L204) |
-| spans | method_declaration |  | [262](../../magpie/internal/sessions/traces_gemini.go#L262) |
-| t | var_spec | spans | [264](../../magpie/internal/sessions/traces_gemini.go#L264) |
-| out | var_spec | spans | [265](../../magpie/internal/sessions/traces_gemini.go#L265) |
-| geminiTraceResult | function_declaration |  | [341](../../magpie/internal/sessions/traces_gemini.go#L341) |
-| parts | var_spec | geminiTraceResult | [342](../../magpie/internal/sessions/traces_gemini.go#L342) |
-| selected | var_spec | geminiTraceResult | [346](../../magpie/internal/sessions/traces_gemini.go#L346) |
-| p | var_spec | geminiTraceResult | [348](../../magpie/internal/sessions/traces_gemini.go#L348) |
-| FunctionResponse | field_declaration | geminiTraceResult::p | [348](../../magpie/internal/sessions/traces_gemini.go#L348) |
-| ID | field_declaration | geminiTraceResult::p::FunctionResponse | [348](../../magpie/internal/sessions/traces_gemini.go#L348) |
+| out | var_spec | geminiTraceFiles | [22](../../magpie/internal/sessions/traces_gemini.go#L22) |
+| geminiTmpDir | function_declaration |  | [36](../../magpie/internal/sessions/traces_gemini.go#L36) |
+| geminiTraceTool | type_spec |  | [44](../../magpie/internal/sessions/traces_gemini.go#L44) |
+| ID | field_declaration | geminiTraceTool | [45](../../magpie/internal/sessions/traces_gemini.go#L45) |
+| Timestamp | field_declaration | geminiTraceTool | [46](../../magpie/internal/sessions/traces_gemini.go#L46) |
+| Args | field_declaration | geminiTraceTool | [47](../../magpie/internal/sessions/traces_gemini.go#L47) |
+| geminiTraceMessage | type_spec |  | [49](../../magpie/internal/sessions/traces_gemini.go#L49) |
+| ID | field_declaration | geminiTraceMessage | [50](../../magpie/internal/sessions/traces_gemini.go#L50) |
+| Timestamp | field_declaration | geminiTraceMessage | [51](../../magpie/internal/sessions/traces_gemini.go#L51) |
+| Content | field_declaration | geminiTraceMessage | [52](../../magpie/internal/sessions/traces_gemini.go#L52) |
+| ToolCalls | field_declaration | geminiTraceMessage | [53](../../magpie/internal/sessions/traces_gemini.go#L53) |
+| Tokens | field_declaration | geminiTraceMessage | [54](../../magpie/internal/sessions/traces_gemini.go#L54) |
+| Input | field_declaration | geminiTraceMessage::Tokens | [54](../../magpie/internal/sessions/traces_gemini.go#L54) |
+| prompt | field_declaration | geminiTraceMessage | [55](../../magpie/internal/sessions/traces_gemini.go#L55) |
+| geminiTraceState | type_spec |  | [57](../../magpie/internal/sessions/traces_gemini.go#L57) |
+| session | field_declaration | geminiTraceState | [58](../../magpie/internal/sessions/traces_gemini.go#L58) |
+| order | field_declaration | geminiTraceState | [59](../../magpie/internal/sessions/traces_gemini.go#L59) |
+| messages | field_declaration | geminiTraceState | [60](../../magpie/internal/sessions/traces_gemini.go#L60) |
+| put | method_declaration |  | [63](../../magpie/internal/sessions/traces_gemini.go#L63) |
+| parts | var_spec | put | [69](../../magpie/internal/sessions/traces_gemini.go#L69) |
+| FunctionResponse | field_declaration | put::parts | [69](../../magpie/internal/sessions/traces_gemini.go#L69) |
+| containsTraceID | function_declaration |  | [113](../../magpie/internal/sessions/traces_gemini.go#L113) |
+| line | method_declaration |  | [121](../../magpie/internal/sessions/traces_gemini.go#L121) |
+| o | var_spec | line | [122](../../magpie/internal/sessions/traces_gemini.go#L122) |
+| SessionID | field_declaration | line::o | [123](../../magpie/internal/sessions/traces_gemini.go#L123) |
+| Messages | field_declaration | line::o | [124](../../magpie/internal/sessions/traces_gemini.go#L124) |
+| Set | field_declaration | line::o | [125](../../magpie/internal/sessions/traces_gemini.go#L125) |
+| SessionID | field_declaration | line::o::Set | [126](../../magpie/internal/sessions/traces_gemini.go#L126) |
+| Messages | field_declaration | line::o::Set | [127](../../magpie/internal/sessions/traces_gemini.go#L127) |
+| Rewind | field_declaration | line::o | [129](../../magpie/internal/sessions/traces_gemini.go#L129) |
+| Patch | field_declaration | line::o | [130](../../magpie/internal/sessions/traces_gemini.go#L130) |
+| ID | field_declaration | line::o::Patch | [131](../../magpie/internal/sessions/traces_gemini.go#L131) |
+| Content | field_declaration | line::o::Patch | [132](../../magpie/internal/sessions/traces_gemini.go#L132) |
+| ToolCalls | field_declaration | line::o::Patch | [133](../../magpie/internal/sessions/traces_gemini.go#L133) |
+| ID | field_declaration | line::o::Patch::ToolCalls | [134](../../magpie/internal/sessions/traces_gemini.go#L134) |
+| Result | field_declaration | line::o::Patch::ToolCalls | [135](../../magpie/internal/sessions/traces_gemini.go#L135) |
+| Updates | field_declaration | line::o::Patch | [137](../../magpie/internal/sessions/traces_gemini.go#L137) |
+| RemoveIDs | field_declaration | line::o::Patch | [138](../../magpie/internal/sessions/traces_gemini.go#L138) |
+| keep | var_spec | line | [193](../../magpie/internal/sessions/traces_gemini.go#L193) |
+| m | var_spec | line | [206](../../magpie/internal/sessions/traces_gemini.go#L206) |
+| readGemini | method_declaration |  | [212](../../magpie/internal/sessions/traces_gemini.go#L212) |
+| spans | method_declaration |  | [270](../../magpie/internal/sessions/traces_gemini.go#L270) |
+| t | var_spec | spans | [272](../../magpie/internal/sessions/traces_gemini.go#L272) |
+| out | var_spec | spans | [273](../../magpie/internal/sessions/traces_gemini.go#L273) |
+| geminiTraceResult | function_declaration |  | [349](../../magpie/internal/sessions/traces_gemini.go#L349) |
+| parts | var_spec | geminiTraceResult | [350](../../magpie/internal/sessions/traces_gemini.go#L350) |
+| selected | var_spec | geminiTraceResult | [354](../../magpie/internal/sessions/traces_gemini.go#L354) |
+| p | var_spec | geminiTraceResult | [356](../../magpie/internal/sessions/traces_gemini.go#L356) |
+| FunctionResponse | field_declaration | geminiTraceResult::p | [356](../../magpie/internal/sessions/traces_gemini.go#L356) |
+| ID | field_declaration | geminiTraceResult::p::FunctionResponse | [356](../../magpie/internal/sessions/traces_gemini.go#L356) |

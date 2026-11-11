@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/archive.go) · page 1/1
 
-Source SHA-256: 1340b9de6878acb8f8dbfc3cfa47f5b29a6b673dbaebfdc57ae85f3e4639315b
+Source SHA-256: 449f523933482fc06a61d0f6fdfe3c436431ebb9b08d1e79de12e41a39c6383f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -24,37 +24,42 @@ Source SHA-256: 1340b9de6878acb8f8dbfc3cfa47f5b29a6b673dbaebfdc57ae85f3e4639315b
 | to | field_declaration | wire | [79](../../magpie/internal/gateway/archive.go#L79) |
 | archiveDest | function_declaration |  | [87](../../magpie/internal/gateway/archive.go#L87) |
 | archiving | function_declaration |  | [106](../../magpie/internal/gateway/archive.go#L106) |
-| archiveName | method_declaration |  | [122](../../magpie/internal/gateway/archive.go#L122) |
-| discardArchive | function_declaration |  | [131](../../magpie/internal/gateway/archive.go#L131) |
-| ArchiveName | function_declaration |  | [140](../../magpie/internal/gateway/archive.go#L140) |
-| Archived | type_spec |  | [153](../../magpie/internal/gateway/archive.go#L153) |
-| ID | field_declaration | Archived | [154](../../magpie/internal/gateway/archive.go#L154) |
-| Call | field_declaration | Archived | [155](../../magpie/internal/gateway/archive.go#L155) |
-| Request | field_declaration | Archived | [156](../../magpie/internal/gateway/archive.go#L156) |
-| Response | field_declaration | Archived | [157](../../magpie/internal/gateway/archive.go#L157) |
-| ArchivePart | type_spec |  | [161](../../magpie/internal/gateway/archive.go#L161) |
-| Method | field_declaration | ArchivePart | [162](../../magpie/internal/gateway/archive.go#L162) |
-| Path | field_declaration | ArchivePart | [163](../../magpie/internal/gateway/archive.go#L163) |
-| Status | field_declaration | ArchivePart | [164](../../magpie/internal/gateway/archive.go#L164) |
-| Headers | field_declaration | ArchivePart | [165](../../magpie/internal/gateway/archive.go#L165) |
-| Body | field_declaration | ArchivePart | [166](../../magpie/internal/gateway/archive.go#L166) |
-| Size | field_declaration | ArchivePart | [169](../../magpie/internal/gateway/archive.go#L169) |
-| Truncated | field_declaration | ArchivePart | [173](../../magpie/internal/gateway/archive.go#L173) |
-| archiveJob | type_spec |  | [176](../../magpie/internal/gateway/archive.go#L176) |
-| c | field_declaration | archiveJob | [177](../../magpie/internal/gateway/archive.go#L177) |
-| w | field_declaration | archiveJob | [178](../../magpie/internal/gateway/archive.go#L178) |
-| resHead | field_declaration | archiveJob | [179](../../magpie/internal/gateway/archive.go#L179) |
-| req | field_declaration | archiveJob | [180](../../magpie/internal/gateway/archive.go#L180) |
-| archiveOnce | var_spec |  | [184](../../magpie/internal/gateway/archive.go#L184) |
-| archiveJobs | var_spec |  | [185](../../magpie/internal/gateway/archive.go#L185) |
-| archivePending | var_spec |  | [188](../../magpie/internal/gateway/archive.go#L188) |
-| archiveMu | var_spec |  | [189](../../magpie/internal/gateway/archive.go#L189) |
-| archiveErr | var_spec |  | [190](../../magpie/internal/gateway/archive.go#L190) |
-| archiveErrAt | var_spec |  | [191](../../magpie/internal/gateway/archive.go#L191) |
-| archive | function_declaration |  | [195](../../magpie/internal/gateway/archive.go#L195) |
-| upload | function_declaration |  | [228](../../magpie/internal/gateway/archive.go#L228) |
-| buf | var_spec | upload | [252](../../magpie/internal/gateway/archive.go#L252) |
-| archiveFailed | function_declaration |  | [272](../../magpie/internal/gateway/archive.go#L272) |
-| ArchiveError | function_declaration |  | [281](../../magpie/internal/gateway/archive.go#L281) |
-| scrubHeaders | function_declaration |  | [287](../../magpie/internal/gateway/archive.go#L287) |
-| scrubQuery | function_declaration |  | [301](../../magpie/internal/gateway/archive.go#L301) |
+| archiveID | function_declaration |  | [120](../../magpie/internal/gateway/archive.go#L120) |
+| archiveOwn | function_declaration |  | [133](../../magpie/internal/gateway/archive.go#L133) |
+| archiveName | method_declaration |  | [153](../../magpie/internal/gateway/archive.go#L153) |
+| discardArchive | function_declaration |  | [162](../../magpie/internal/gateway/archive.go#L162) |
+| ArchiveName | function_declaration |  | [171](../../magpie/internal/gateway/archive.go#L171) |
+| Archived | type_spec |  | [184](../../magpie/internal/gateway/archive.go#L184) |
+| ID | field_declaration | Archived | [185](../../magpie/internal/gateway/archive.go#L185) |
+| Call | field_declaration | Archived | [186](../../magpie/internal/gateway/archive.go#L186) |
+| Request | field_declaration | Archived | [187](../../magpie/internal/gateway/archive.go#L187) |
+| Response | field_declaration | Archived | [188](../../magpie/internal/gateway/archive.go#L188) |
+| Upstream | field_declaration | Archived | [192](../../magpie/internal/gateway/archive.go#L192) |
+| UpstreamMore | field_declaration | Archived | [194](../../magpie/internal/gateway/archive.go#L194) |
+| ArchivePart | type_spec |  | [198](../../magpie/internal/gateway/archive.go#L198) |
+| Method | field_declaration | ArchivePart | [199](../../magpie/internal/gateway/archive.go#L199) |
+| Path | field_declaration | ArchivePart | [200](../../magpie/internal/gateway/archive.go#L200) |
+| Status | field_declaration | ArchivePart | [201](../../magpie/internal/gateway/archive.go#L201) |
+| Headers | field_declaration | ArchivePart | [202](../../magpie/internal/gateway/archive.go#L202) |
+| Body | field_declaration | ArchivePart | [203](../../magpie/internal/gateway/archive.go#L203) |
+| Size | field_declaration | ArchivePart | [206](../../magpie/internal/gateway/archive.go#L206) |
+| Truncated | field_declaration | ArchivePart | [210](../../magpie/internal/gateway/archive.go#L210) |
+| archiveJob | type_spec |  | [213](../../magpie/internal/gateway/archive.go#L213) |
+| c | field_declaration | archiveJob | [214](../../magpie/internal/gateway/archive.go#L214) |
+| w | field_declaration | archiveJob | [215](../../magpie/internal/gateway/archive.go#L215) |
+| resHead | field_declaration | archiveJob | [216](../../magpie/internal/gateway/archive.go#L216) |
+| req | field_declaration | archiveJob | [217](../../magpie/internal/gateway/archive.go#L217) |
+| archiveOnce | var_spec |  | [221](../../magpie/internal/gateway/archive.go#L221) |
+| archiveJobs | var_spec |  | [222](../../magpie/internal/gateway/archive.go#L222) |
+| archivePending | var_spec |  | [225](../../magpie/internal/gateway/archive.go#L225) |
+| archiveMu | var_spec |  | [226](../../magpie/internal/gateway/archive.go#L226) |
+| archiveErr | var_spec |  | [227](../../magpie/internal/gateway/archive.go#L227) |
+| archiveErrAt | var_spec |  | [228](../../magpie/internal/gateway/archive.go#L228) |
+| archive | function_declaration |  | [232](../../magpie/internal/gateway/archive.go#L232) |
+| queueArchive | function_declaration |  | [249](../../magpie/internal/gateway/archive.go#L249) |
+| upload | function_declaration |  | [272](../../magpie/internal/gateway/archive.go#L272) |
+| buf | var_spec | upload | [299](../../magpie/internal/gateway/archive.go#L299) |
+| archiveFailed | function_declaration |  | [319](../../magpie/internal/gateway/archive.go#L319) |
+| ArchiveError | function_declaration |  | [328](../../magpie/internal/gateway/archive.go#L328) |
+| scrubHeaders | function_declaration |  | [334](../../magpie/internal/gateway/archive.go#L334) |
+| scrubQuery | function_declaration |  | [348](../../magpie/internal/gateway/archive.go#L348) |

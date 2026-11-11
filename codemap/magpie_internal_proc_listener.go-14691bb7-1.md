@@ -4,15 +4,17 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/listener.go) · page 1/1
 
-Source SHA-256: e26f738755e3659850d0bbca9678bc0d8f0044e6c3a87f5f7991f633f9fa4a1e
+Source SHA-256: 0a9b40078238a1dc38adb9f300722212800212160ebf57e97a80763a87f63769
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ErrDenied | var_spec |  | [17](../../magpie/internal/proc/listener.go#L17) |
-| ListeningOn | function_declaration |  | [22](../../magpie/internal/proc/listener.go#L22) |
-| Executable | function_declaration |  | [27](../../magpie/internal/proc/listener.go#L27) |
-| Terminate | function_declaration |  | [39](../../magpie/internal/proc/listener.go#L39) |
-| Kill | function_declaration |  | [42](../../magpie/internal/proc/listener.go#L42) |
-| IsMagpie | function_declaration |  | [48](../../magpie/internal/proc/listener.go#L48) |
-| isOldCount | function_declaration |  | [71](../../magpie/internal/proc/listener.go#L71) |
-| IsForwarder | function_declaration |  | [91](../../magpie/internal/proc/listener.go#L91) |
+| ErrDenied | var_spec |  | [20](../../magpie/internal/proc/listener.go#L20) |
+| ListeningOn | function_declaration |  | [25](../../magpie/internal/proc/listener.go#L25) |
+| Executable | function_declaration |  | [30](../../magpie/internal/proc/listener.go#L30) |
+| Terminate | function_declaration |  | [42](../../magpie/internal/proc/listener.go#L42) |
+| Kill | function_declaration |  | [45](../../magpie/internal/proc/listener.go#L45) |
+| RunsMagpie | function_declaration |  | [55](../../magpie/internal/proc/listener.go#L55) |
+| magpieMain | var_spec |  | [72](../../magpie/internal/proc/listener.go#L72) |
+| IsMagpie | function_declaration |  | [79](../../magpie/internal/proc/listener.go#L79) |
+| isOldCount | function_declaration |  | [103](../../magpie/internal/proc/listener.go#L103) |
+| IsForwarder | function_declaration |  | [123](../../magpie/internal/proc/listener.go#L123) |

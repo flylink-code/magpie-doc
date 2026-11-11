@@ -4,58 +4,60 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/wsl.go) · page 1/1
 
-Source SHA-256: 0ca177aa609770fd6f43d796a206e4041144dc04dd233ea4433ad9dda356725f
+Source SHA-256: 13e6aea5afcfe5077a57c0338c96ff29ac73f0e9045bb49febb7e73f1d2edf27
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WSLHome | type_spec |  | [34](../../magpie/internal/sessions/wsl.go#L34) |
-| Distro | field_declaration | WSLHome | [35](../../magpie/internal/sessions/wsl.go#L35) |
-| Home | field_declaration | WSLHome | [36](../../magpie/internal/sessions/wsl.go#L36) |
-| Running | field_declaration | WSLHome | [37](../../magpie/internal/sessions/wsl.go#L37) |
-| WSLHomes | var_spec |  | [42](../../magpie/internal/sessions/wsl.go#L42) |
-| WSLRunning | var_spec |  | [49](../../magpie/internal/sessions/wsl.go#L49) |
-| WSLOff | var_spec |  | [54](../../magpie/internal/sessions/wsl.go#L54) |
-| wslLooking | function_declaration |  | [57](../../magpie/internal/sessions/wsl.go#L57) |
-| wslUp | function_declaration |  | [61](../../magpie/internal/sessions/wsl.go#L61) |
-| wslAgents | var_spec |  | [66](../../magpie/internal/sessions/wsl.go#L66) |
-| agent | field_declaration | wslAgents | [66](../../magpie/internal/sessions/wsl.go#L66) |
-| wslScan | function_declaration |  | [75](../../magpie/internal/sessions/wsl.go#L75) |
-| out | var_spec | wslScan | [76](../../magpie/internal/sessions/wsl.go#L76) |
-| wslEntry | type_spec |  | [96](../../magpie/internal/sessions/wsl.go#L96) |
-| Agent | field_declaration | wslEntry | [97](../../magpie/internal/sessions/wsl.go#L97) |
-| Key | field_declaration | wslEntry | [98](../../magpie/internal/sessions/wsl.go#L98) |
-| Path | field_declaration | wslEntry | [99](../../magpie/internal/sessions/wsl.go#L99) |
-| Main | field_declaration | wslEntry | [100](../../magpie/internal/sessions/wsl.go#L100) |
-| Size | field_declaration | wslEntry | [101](../../magpie/internal/sessions/wsl.go#L101) |
-| Mod | field_declaration | wslEntry | [102](../../magpie/internal/sessions/wsl.go#L102) |
-| wslListing | type_spec |  | [106](../../magpie/internal/sessions/wsl.go#L106) |
-| Home | field_declaration | wslListing | [107](../../magpie/internal/sessions/wsl.go#L107) |
-| Files | field_declaration | wslListing | [108](../../magpie/internal/sessions/wsl.go#L108) |
-| Running | field_declaration | wslListing | [109](../../magpie/internal/sessions/wsl.go#L109) |
-| wslSess | var_spec |  | [112](../../magpie/internal/sessions/wsl.go#L112) |
-| gen | field_declaration | wslSess | [114](../../magpie/internal/sessions/wsl.go#L114) |
-| loaded | field_declaration | wslSess | [115](../../magpie/internal/sessions/wsl.go#L115) |
-| lists | field_declaration | wslSess | [116](../../magpie/internal/sessions/wsl.go#L116) |
-| at | field_declaration | wslSess | [117](../../magpie/internal/sessions/wsl.go#L117) |
-| done | field_declaration | wslSess | [118](../../magpie/internal/sessions/wsl.go#L118) |
-| kept | field_declaration | wslSess | [119](../../magpie/internal/sessions/wsl.go#L119) |
-| wslRelist | var_spec |  | [124](../../magpie/internal/sessions/wsl.go#L124) |
-| wslFirstWait | var_spec |  | [127](../../magpie/internal/sessions/wsl.go#L127) |
-| wslListPath | function_declaration |  | [130](../../magpie/internal/sessions/wsl.go#L130) |
-| wslFiles | function_declaration |  | [135](../../magpie/internal/sessions/wsl.go#L135) |
-| out | var_spec | wslFiles | [189](../../magpie/internal/sessions/wsl.go#L189) |
-| wslList | function_declaration |  | [205](../../magpie/internal/sessions/wsl.go#L205) |
-| wslCold | function_declaration |  | [267](../../magpie/internal/sessions/wsl.go#L267) |
-| in | var_spec | wslCold | [272](../../magpie/internal/sessions/wsl.go#L272) |
-| under | function_declaration |  | [287](../../magpie/internal/sessions/wsl.go#L287) |
-| wslDirs | function_declaration |  | [295](../../magpie/internal/sessions/wsl.go#L295) |
-| out | var_spec | wslDirs | [301](../../magpie/internal/sessions/wsl.go#L301) |
-| wslHomeOf | function_declaration |  | [318](../../magpie/internal/sessions/wsl.go#L318) |
-| wslForget | function_declaration |  | [329](../../magpie/internal/sessions/wsl.go#L329) |
-| kept | var_spec | wslForget | [342](../../magpie/internal/sessions/wsl.go#L342) |
-| wslRelistNow | function_declaration |  | [357](../../magpie/internal/sessions/wsl.go#L357) |
-| wslReset | function_declaration |  | [388](../../magpie/internal/sessions/wsl.go#L388) |
-| wslResume | function_declaration |  | [403](../../magpie/internal/sessions/wsl.go#L403) |
+| WSLHome | type_spec |  | [35](../../magpie/internal/sessions/wsl.go#L35) |
+| Distro | field_declaration | WSLHome | [36](../../magpie/internal/sessions/wsl.go#L36) |
+| Home | field_declaration | WSLHome | [37](../../magpie/internal/sessions/wsl.go#L37) |
+| Running | field_declaration | WSLHome | [38](../../magpie/internal/sessions/wsl.go#L38) |
+| Open | field_declaration | WSLHome | [43](../../magpie/internal/sessions/wsl.go#L43) |
+| WSLHomes | var_spec |  | [48](../../magpie/internal/sessions/wsl.go#L48) |
+| WSLRunning | var_spec |  | [55](../../magpie/internal/sessions/wsl.go#L55) |
+| WSLOff | var_spec |  | [60](../../magpie/internal/sessions/wsl.go#L60) |
+| WSLListed | var_spec |  | [66](../../magpie/internal/sessions/wsl.go#L66) |
+| wslLooking | function_declaration |  | [69](../../magpie/internal/sessions/wsl.go#L69) |
+| wslUp | function_declaration |  | [73](../../magpie/internal/sessions/wsl.go#L73) |
+| wslAgents | var_spec |  | [78](../../magpie/internal/sessions/wsl.go#L78) |
+| agent | field_declaration | wslAgents | [78](../../magpie/internal/sessions/wsl.go#L78) |
+| wslScan | function_declaration |  | [88](../../magpie/internal/sessions/wsl.go#L88) |
+| out | var_spec | wslScan | [89](../../magpie/internal/sessions/wsl.go#L89) |
+| wslEntry | type_spec |  | [114](../../magpie/internal/sessions/wsl.go#L114) |
+| Agent | field_declaration | wslEntry | [115](../../magpie/internal/sessions/wsl.go#L115) |
+| Key | field_declaration | wslEntry | [116](../../magpie/internal/sessions/wsl.go#L116) |
+| Path | field_declaration | wslEntry | [117](../../magpie/internal/sessions/wsl.go#L117) |
+| Main | field_declaration | wslEntry | [118](../../magpie/internal/sessions/wsl.go#L118) |
+| Size | field_declaration | wslEntry | [119](../../magpie/internal/sessions/wsl.go#L119) |
+| Mod | field_declaration | wslEntry | [120](../../magpie/internal/sessions/wsl.go#L120) |
+| wslListing | type_spec |  | [124](../../magpie/internal/sessions/wsl.go#L124) |
+| Home | field_declaration | wslListing | [125](../../magpie/internal/sessions/wsl.go#L125) |
+| Files | field_declaration | wslListing | [126](../../magpie/internal/sessions/wsl.go#L126) |
+| Running | field_declaration | wslListing | [127](../../magpie/internal/sessions/wsl.go#L127) |
+| wslSess | var_spec |  | [130](../../magpie/internal/sessions/wsl.go#L130) |
+| gen | field_declaration | wslSess | [132](../../magpie/internal/sessions/wsl.go#L132) |
+| loaded | field_declaration | wslSess | [133](../../magpie/internal/sessions/wsl.go#L133) |
+| lists | field_declaration | wslSess | [134](../../magpie/internal/sessions/wsl.go#L134) |
+| at | field_declaration | wslSess | [135](../../magpie/internal/sessions/wsl.go#L135) |
+| done | field_declaration | wslSess | [136](../../magpie/internal/sessions/wsl.go#L136) |
+| kept | field_declaration | wslSess | [137](../../magpie/internal/sessions/wsl.go#L137) |
+| wslRelist | var_spec |  | [142](../../magpie/internal/sessions/wsl.go#L142) |
+| wslFirstWait | var_spec |  | [145](../../magpie/internal/sessions/wsl.go#L145) |
+| wslListPath | function_declaration |  | [148](../../magpie/internal/sessions/wsl.go#L148) |
+| wslFiles | function_declaration |  | [153](../../magpie/internal/sessions/wsl.go#L153) |
+| out | var_spec | wslFiles | [208](../../magpie/internal/sessions/wsl.go#L208) |
+| wslList | function_declaration |  | [226](../../magpie/internal/sessions/wsl.go#L226) |
+| wslCold | function_declaration |  | [291](../../magpie/internal/sessions/wsl.go#L291) |
+| in | var_spec | wslCold | [296](../../magpie/internal/sessions/wsl.go#L296) |
+| under | function_declaration |  | [311](../../magpie/internal/sessions/wsl.go#L311) |
+| wslDirs | function_declaration |  | [319](../../magpie/internal/sessions/wsl.go#L319) |
+| out | var_spec | wslDirs | [325](../../magpie/internal/sessions/wsl.go#L325) |
+| wslHomeOf | function_declaration |  | [342](../../magpie/internal/sessions/wsl.go#L342) |
+| wslForget | function_declaration |  | [353](../../magpie/internal/sessions/wsl.go#L353) |
+| kept | var_spec | wslForget | [366](../../magpie/internal/sessions/wsl.go#L366) |
+| wslRelistNow | function_declaration |  | [381](../../magpie/internal/sessions/wsl.go#L381) |
+| wslReset | function_declaration |  | [412](../../magpie/internal/sessions/wsl.go#L412) |
+| wslResume | function_declaration |  | [427](../../magpie/internal/sessions/wsl.go#L427) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 252: ERROR
+- line 276: ERROR

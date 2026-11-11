@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/profile/details.go) · page 1/1
 
-Source SHA-256: b5d4cd10bab2cdb2d8b96238ec667395fc34c89de7437ce8ed0710f48336ac63
+Source SHA-256: 297a8349e679fe41bed1bb5d1e9a9b99ecde8c9f633a1d2b7047c3f956a72767
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -31,9 +31,9 @@ Source SHA-256: b5d4cd10bab2cdb2d8b96238ec667395fc34c89de7437ce8ed0710f48336ac63
 | secretValue | var_spec |  | [56](../../magpie/internal/profile/details.go#L56) |
 | secret | function_declaration |  | [59](../../magpie/internal/profile/details.go#L59) |
 | Details | function_declaration |  | [69](../../magpie/internal/profile/details.go#L69) |
-| order | var_spec | Details | [71](../../magpie/internal/profile/details.go#L71) |
-| unknown | var_spec | Details | [112](../../magpie/internal/profile/details.go#L112) |
-| out | var_spec | Details | [120](../../magpie/internal/profile/details.go#L120) |
-| rest | var_spec | Details | [152](../../magpie/internal/profile/details.go#L152) |
-| givenTo | function_declaration |  | [180](../../magpie/internal/profile/details.go#L180) |
-| out | var_spec | givenTo | [181](../../magpie/internal/profile/details.go#L181) |
+| DetailsIn | function_declaration |  | [74](../../magpie/internal/profile/details.go#L74) |
+| unknown | var_spec | DetailsIn | [117](../../magpie/internal/profile/details.go#L117) |
+| out | var_spec | DetailsIn | [125](../../magpie/internal/profile/details.go#L125) |
+| rest | var_spec | DetailsIn | [157](../../magpie/internal/profile/details.go#L157) |
+| givenTo | function_declaration |  | [185](../../magpie/internal/profile/details.go#L185) |
+| out | var_spec | givenTo | [186](../../magpie/internal/profile/details.go#L186) |

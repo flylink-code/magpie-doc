@@ -4,65 +4,94 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_models.go) · page 1/1
 
-Source SHA-256: 79ec80cc27cf988fcbbaa903d8884a93a0c94c952e025148654b034d4d21162b
+Source SHA-256: 2a2081019576dc0480242bd7f2bb92f4b4d433af71bbd571befcf841ce55028c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexClientVersion | const_spec |  | [30](../../magpie/internal/provider/codex_models.go#L30) |
-| codexModels | function_declaration |  | [37](../../magpie/internal/provider/codex_models.go#L37) |
-| codexVersionCache | var_spec |  | [63](../../magpie/internal/provider/codex_models.go#L63) |
-| v | field_declaration | codexVersionCache | [65](../../magpie/internal/provider/codex_models.go#L65) |
-| at | field_declaration | codexVersionCache | [66](../../magpie/internal/provider/codex_models.go#L66) |
-| codexVersion | function_declaration |  | [75](../../magpie/internal/provider/codex_models.go#L75) |
-| c | var_spec | codexVersion | [85](../../magpie/internal/provider/codex_models.go#L85) |
-| ClientVersion | field_declaration | codexVersion::c | [86](../../magpie/internal/provider/codex_models.go#L86) |
-| codexCLIVersion | var_spec |  | [103](../../magpie/internal/provider/codex_models.go#L103) |
-| newerVersion | function_declaration |  | [106](../../magpie/internal/provider/codex_models.go#L106) |
-| codexSeen | var_spec |  | [120](../../magpie/internal/provider/codex_models.go#L120) |
-| seenVersion | type_spec |  | [122](../../magpie/internal/provider/codex_models.go#L122) |
-| v | field_declaration | seenVersion | [124](../../magpie/internal/provider/codex_models.go#L124) |
-| get | method_declaration |  | [127](../../magpie/internal/provider/codex_models.go#L127) |
-| saw | method_declaration |  | [133](../../magpie/internal/provider/codex_models.go#L133) |
-| SawCodexClient | function_declaration |  | [143](../../magpie/internal/provider/codex_models.go#L143) |
-| codexExecutable | var_spec |  | [165](../../magpie/internal/provider/codex_models.go#L165) |
-| parseCodexModels | function_declaration |  | [185](../../magpie/internal/provider/codex_models.go#L185) |
-| list | var_spec | parseCodexModels | [186](../../magpie/internal/provider/codex_models.go#L186) |
-| Models | field_declaration | parseCodexModels::list | [187](../../magpie/internal/provider/codex_models.go#L187) |
-| Slug | field_declaration | parseCodexModels::list::Models | [188](../../magpie/internal/provider/codex_models.go#L188) |
-| DisplayName | field_declaration | parseCodexModels::list::Models | [189](../../magpie/internal/provider/codex_models.go#L189) |
-| Visibility | field_declaration | parseCodexModels::list::Models | [190](../../magpie/internal/provider/codex_models.go#L190) |
-| Priority | field_declaration | parseCodexModels::list::Models | [191](../../magpie/internal/provider/codex_models.go#L191) |
-| Input | field_declaration | parseCodexModels::list::Models | [192](../../magpie/internal/provider/codex_models.go#L192) |
-| Levels | field_declaration | parseCodexModels::list::Models | [193](../../magpie/internal/provider/codex_models.go#L193) |
-| Effort | field_declaration | parseCodexModels::list::Models::Levels | [194](../../magpie/internal/provider/codex_models.go#L194) |
-| Context | field_declaration | parseCodexModels::list::Models | [196](../../magpie/internal/provider/codex_models.go#L196) |
-| Max | field_declaration | parseCodexModels::list::Models | [197](../../magpie/internal/provider/codex_models.go#L197) |
-| Tiers | field_declaration | parseCodexModels::list::Models | [198](../../magpie/internal/provider/codex_models.go#L198) |
-| ID | field_declaration | parseCodexModels::list::Models::Tiers | [199](../../magpie/internal/provider/codex_models.go#L199) |
-| out | var_spec | parseCodexModels | [207](../../magpie/internal/provider/codex_models.go#L207) |
-| accountModels | function_declaration |  | [232](../../magpie/internal/provider/codex_models.go#L232) |
-| Lists | method_declaration |  | [238](../../magpie/internal/provider/codex_models.go#L238) |
-| Levels | method_declaration |  | [269](../../magpie/internal/provider/codex_models.go#L269) |
-| Tiers | method_declaration |  | [291](../../magpie/internal/provider/codex_models.go#L291) |
-| codexPoolModels | function_declaration |  | [318](../../magpie/internal/provider/codex_models.go#L318) |
-| lists | var_spec | codexPoolModels | [319](../../magpie/internal/provider/codex_models.go#L319) |
-| levelRank | function_declaration |  | [362](../../magpie/internal/provider/codex_models.go#L362) |
-| codexFetchSaved | function_declaration |  | [373](../../magpie/internal/provider/codex_models.go#L373) |
-| CodexListed | function_declaration |  | [391](../../magpie/internal/provider/codex_models.go#L391) |
-| CodexCatalog | function_declaration |  | [404](../../magpie/internal/provider/codex_models.go#L404) |
-| CodexNativeHidden | function_declaration |  | [417](../../magpie/internal/provider/codex_models.go#L417) |
-| CodexNativeUnlisted | function_declaration |  | [440](../../magpie/internal/provider/codex_models.go#L440) |
-| CodexOrder | function_declaration |  | [459](../../magpie/internal/provider/codex_models.go#L459) |
-| CodexListTag | function_declaration |  | [489](../../magpie/internal/provider/codex_models.go#L489) |
-| CodexOwnListTag | function_declaration |  | [495](../../magpie/internal/provider/codex_models.go#L495) |
-| buildCodexListTag | function_declaration |  | [498](../../magpie/internal/provider/codex_models.go#L498) |
-| CodexNativePicked | function_declaration |  | [548](../../magpie/internal/provider/codex_models.go#L548) |
-| CodexNativeWindow | function_declaration |  | [568](../../magpie/internal/provider/codex_models.go#L568) |
-| CodexWindow | function_declaration |  | [599](../../magpie/internal/provider/codex_models.go#L599) |
-| lists | var_spec | CodexWindow | [604](../../magpie/internal/provider/codex_models.go#L604) |
-| codexWindowsTag | function_declaration |  | [627](../../magpie/internal/provider/codex_models.go#L627) |
-| out | var_spec | codexWindowsTag | [629](../../magpie/internal/provider/codex_models.go#L629) |
-| codexListed | function_declaration |  | [640](../../magpie/internal/provider/codex_models.go#L640) |
-| ms | var_spec | codexListed | [641](../../magpie/internal/provider/codex_models.go#L641) |
-| CodexTiers | function_declaration |  | [664](../../magpie/internal/provider/codex_models.go#L664) |
-| codexFastTier | const_spec |  | [703](../../magpie/internal/provider/codex_models.go#L703) |
+| codexClientVersion | const_spec |  | [28](../../magpie/internal/provider/codex_models.go#L28) |
+| codexModels | function_declaration |  | [35](../../magpie/internal/provider/codex_models.go#L35) |
+| codexModelsAsked | function_declaration |  | [43](../../magpie/internal/provider/codex_models.go#L43) |
+| codexModelsAt | function_declaration |  | [49](../../magpie/internal/provider/codex_models.go#L49) |
+| CodexLiveList | function_declaration |  | [84](../../magpie/internal/provider/codex_models.go#L84) |
+| list | var_spec | CodexLiveList | [112](../../magpie/internal/provider/codex_models.go#L112) |
+| Models | field_declaration | CodexLiveList::list | [113](../../magpie/internal/provider/codex_models.go#L113) |
+| codexVersionCache | var_spec |  | [124](../../magpie/internal/provider/codex_models.go#L124) |
+| v | field_declaration | codexVersionCache | [126](../../magpie/internal/provider/codex_models.go#L126) |
+| at | field_declaration | codexVersionCache | [127](../../magpie/internal/provider/codex_models.go#L127) |
+| codexVersion | function_declaration |  | [136](../../magpie/internal/provider/codex_models.go#L136) |
+| c | var_spec | codexVersion | [146](../../magpie/internal/provider/codex_models.go#L146) |
+| ClientVersion | field_declaration | codexVersion::c | [147](../../magpie/internal/provider/codex_models.go#L147) |
+| codexCLIVersion | var_spec |  | [164](../../magpie/internal/provider/codex_models.go#L164) |
+| newerVersion | function_declaration |  | [167](../../magpie/internal/provider/codex_models.go#L167) |
+| codexSeen | var_spec |  | [181](../../magpie/internal/provider/codex_models.go#L181) |
+| seenVersion | type_spec |  | [183](../../magpie/internal/provider/codex_models.go#L183) |
+| v | field_declaration | seenVersion | [185](../../magpie/internal/provider/codex_models.go#L185) |
+| get | method_declaration |  | [188](../../magpie/internal/provider/codex_models.go#L188) |
+| saw | method_declaration |  | [194](../../magpie/internal/provider/codex_models.go#L194) |
+| SawCodexClient | function_declaration |  | [204](../../magpie/internal/provider/codex_models.go#L204) |
+| ForgetCodexClientsForTest | function_declaration |  | [229](../../magpie/internal/provider/codex_models.go#L229) |
+| codexExecutable | var_spec |  | [241](../../magpie/internal/provider/codex_models.go#L241) |
+| parseCodexModels | function_declaration |  | [251](../../magpie/internal/provider/codex_models.go#L251) |
+| list | var_spec | parseCodexModels | [252](../../magpie/internal/provider/codex_models.go#L252) |
+| Models | field_declaration | parseCodexModels::list | [253](../../magpie/internal/provider/codex_models.go#L253) |
+| Slug | field_declaration | parseCodexModels::list::Models | [254](../../magpie/internal/provider/codex_models.go#L254) |
+| DisplayName | field_declaration | parseCodexModels::list::Models | [255](../../magpie/internal/provider/codex_models.go#L255) |
+| Visibility | field_declaration | parseCodexModels::list::Models | [256](../../magpie/internal/provider/codex_models.go#L256) |
+| Priority | field_declaration | parseCodexModels::list::Models | [257](../../magpie/internal/provider/codex_models.go#L257) |
+| Input | field_declaration | parseCodexModels::list::Models | [258](../../magpie/internal/provider/codex_models.go#L258) |
+| Levels | field_declaration | parseCodexModels::list::Models | [259](../../magpie/internal/provider/codex_models.go#L259) |
+| Effort | field_declaration | parseCodexModels::list::Models::Levels | [260](../../magpie/internal/provider/codex_models.go#L260) |
+| Context | field_declaration | parseCodexModels::list::Models | [262](../../magpie/internal/provider/codex_models.go#L262) |
+| Max | field_declaration | parseCodexModels::list::Models | [263](../../magpie/internal/provider/codex_models.go#L263) |
+| Tiers | field_declaration | parseCodexModels::list::Models | [264](../../magpie/internal/provider/codex_models.go#L264) |
+| ID | field_declaration | parseCodexModels::list::Models::Tiers | [265](../../magpie/internal/provider/codex_models.go#L265) |
+| out | var_spec | parseCodexModels | [273](../../magpie/internal/provider/codex_models.go#L273) |
+| accountModels | function_declaration |  | [298](../../magpie/internal/provider/codex_models.go#L298) |
+| Lists | method_declaration |  | [304](../../magpie/internal/provider/codex_models.go#L304) |
+| listLags | method_declaration |  | [351](../../magpie/internal/provider/codex_models.go#L351) |
+| listRound | const_spec |  | [390](../../magpie/internal/provider/codex_models.go#L390) |
+| codexListBehind | function_declaration |  | [395](../../magpie/internal/provider/codex_models.go#L395) |
+| Levels | method_declaration |  | [403](../../magpie/internal/provider/codex_models.go#L403) |
+| Tiers | method_declaration |  | [425](../../magpie/internal/provider/codex_models.go#L425) |
+| codexPoolModels | function_declaration |  | [452](../../magpie/internal/provider/codex_models.go#L452) |
+| poolModels | function_declaration |  | [458](../../magpie/internal/provider/codex_models.go#L458) |
+| lists | var_spec | poolModels | [459](../../magpie/internal/provider/codex_models.go#L459) |
+| levelRank | function_declaration |  | [502](../../magpie/internal/provider/codex_models.go#L502) |
+| codexSavedListAge | const_spec |  | [522](../../magpie/internal/provider/codex_models.go#L522) |
+| codexSavedAtOnce | const_spec |  | [523](../../magpie/internal/provider/codex_models.go#L523) |
+| codexBehindRetry | const_spec |  | [524](../../magpie/internal/provider/codex_models.go#L524) |
+| codexSavedAsked | var_spec |  | [530](../../magpie/internal/provider/codex_models.go#L530) |
+| m | field_declaration | codexSavedAsked | [532](../../magpie/internal/provider/codex_models.go#L532) |
+| codexSavedNow | var_spec |  | [536](../../magpie/internal/provider/codex_models.go#L536) |
+| codexFetchSaved | function_declaration |  | [545](../../magpie/internal/provider/codex_models.go#L545) |
+| due | type_spec | codexFetchSaved | [547](../../magpie/internal/provider/codex_models.go#L547) |
+| user | field_declaration | codexFetchSaved::due | [548](../../magpie/internal/provider/codex_models.go#L548) |
+| at | field_declaration | codexFetchSaved::due | [549](../../magpie/internal/provider/codex_models.go#L549) |
+| fresh | var_spec | codexFetchSaved | [551](../../magpie/internal/provider/codex_models.go#L551) |
+| CodexListed | function_declaration |  | [606](../../magpie/internal/provider/codex_models.go#L606) |
+| CodexListedBeside | function_declaration |  | [623](../../magpie/internal/provider/codex_models.go#L623) |
+| CodexCatalog | function_declaration |  | [636](../../magpie/internal/provider/codex_models.go#L636) |
+| CodexNativeHidden | function_declaration |  | [649](../../magpie/internal/provider/codex_models.go#L649) |
+| CodexOwnLeftOut | function_declaration |  | [672](../../magpie/internal/provider/codex_models.go#L672) |
+| CodexOrder | function_declaration |  | [691](../../magpie/internal/provider/codex_models.go#L691) |
+| CodexListTag | function_declaration |  | [721](../../magpie/internal/provider/codex_models.go#L721) |
+| CodexOwnListTag | function_declaration |  | [727](../../magpie/internal/provider/codex_models.go#L727) |
+| buildCodexListTag | function_declaration |  | [730](../../magpie/internal/provider/codex_models.go#L730) |
+| CodexNativePicked | function_declaration |  | [801](../../magpie/internal/provider/codex_models.go#L801) |
+| CodexNativeWindow | function_declaration |  | [837](../../magpie/internal/provider/codex_models.go#L837) |
+| CodexWindow | function_declaration |  | [869](../../magpie/internal/provider/codex_models.go#L869) |
+| lists | var_spec | CodexWindow | [875](../../magpie/internal/provider/codex_models.go#L875) |
+| codexWindowsTag | function_declaration |  | [898](../../magpie/internal/provider/codex_models.go#L898) |
+| out | var_spec | codexWindowsTag | [900](../../magpie/internal/provider/codex_models.go#L900) |
+| codexListed | function_declaration |  | [918](../../magpie/internal/provider/codex_models.go#L918) |
+| codexListedIf | function_declaration |  | [923](../../magpie/internal/provider/codex_models.go#L923) |
+| ms | var_spec | codexListedIf | [924](../../magpie/internal/provider/codex_models.go#L924) |
+| codexUnknownLevels | var_spec |  | [949](../../magpie/internal/provider/codex_models.go#L949) |
+| CodexEfforts | function_declaration |  | [962](../../magpie/internal/provider/codex_models.go#L962) |
+| levelsUnknown | method_declaration |  | [973](../../magpie/internal/provider/codex_models.go#L973) |
+| codexApart | function_declaration |  | [990](../../magpie/internal/provider/codex_models.go#L990) |
+| CodexTiers | function_declaration |  | [1023](../../magpie/internal/provider/codex_models.go#L1023) |
+| CodexSeals | function_declaration |  | [1066](../../magpie/internal/provider/codex_models.go#L1066) |
+| maySeal | function_declaration |  | [1082](../../magpie/internal/provider/codex_models.go#L1082) |
+| codexFastTier | const_spec |  | [1087](../../magpie/internal/provider/codex_models.go#L1087) |
+| CodexListRevoked | function_declaration |  | [1092](../../magpie/internal/provider/codex_models.go#L1092) |

@@ -4,10 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/opencode_session.go) · page 1/1
 
-Source SHA-256: 3df8769f2a68c6d49cd7cda3e264ae79955ac3f03b2387b1216b6d4841860553
+Source SHA-256: db0a7f748731329a2cf33c88ee126b3e367e523357349f5400adc714b8c81d3a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| openCodeSeed | function_declaration |  | [25](../../magpie/internal/gateway/opencode_session.go#L25) |
-| logOpenCodeRefusal | function_declaration |  | [45](../../magpie/internal/gateway/opencode_session.go#L45) |
-| names | var_spec | logOpenCodeRefusal | [46](../../magpie/internal/gateway/opencode_session.go#L46) |
+| openCodeSeed | function_declaration |  | [28](../../magpie/internal/gateway/opencode_session.go#L28) |
+| logOpenCodeRefusal | function_declaration |  | [48](../../magpie/internal/gateway/opencode_session.go#L48) |
+| names | var_spec | logOpenCodeRefusal | [49](../../magpie/internal/gateway/opencode_session.go#L49) |
+| errorKeys | var_spec |  | [71](../../magpie/internal/gateway/opencode_session.go#L71) |
+| openCodeBare | const_spec |  | [75](../../magpie/internal/gateway/opencode_session.go#L75) |
+| openCodeBareRefusal | function_declaration |  | [91](../../magpie/internal/gateway/opencode_session.go#L91) |
+| v | var_spec | openCodeBareRefusal | [99](../../magpie/internal/gateway/opencode_session.go#L99) |

@@ -4,17 +4,46 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/fastjson.go) · page 2/2
 
-Source SHA-256: fff983dc78d72f5095e7364d1d7e6a93b91da04cbcf712a09237f003a32ba108
+Source SHA-256: 7b98ac776e6a09cec91610ae7189a1c02e21df3748a07cc78c33af906718eff3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| inputItems | function_declaration |  | [1250](../../magpie/internal/gateway/fastjson.go#L1250) |
-| anyInputItem | function_declaration |  | [1270](../../magpie/internal/gateway/fastjson.go#L1270) |
-| memberOrNil | function_declaration |  | [1280](../../magpie/internal/gateway/fastjson.go#L1280) |
-| marshalRaw | function_declaration |  | [1298](../../magpie/internal/gateway/fastjson.go#L1298) |
-| appendJSONKey | function_declaration |  | [1352](../../magpie/internal/gateway/fastjson.go#L1352) |
-| b | var_spec | appendJSONKey | [1355](../../magpie/internal/gateway/fastjson.go#L1355) |
-| appendRawJSON | function_declaration |  | [1372](../../magpie/internal/gateway/fastjson.go#L1372) |
-| appendCompactJSON | function_declaration |  | [1387](../../magpie/internal/gateway/fastjson.go#L1387) |
-| appendHTMLEscaped | function_declaration |  | [1411](../../magpie/internal/gateway/fastjson.go#L1411) |
-| hex | const_spec | appendHTMLEscaped | [1412](../../magpie/internal/gateway/fastjson.go#L1412) |
+| members | var_spec | withoutTopMember | [1252](../../magpie/internal/gateway/fastjson.go#L1252) |
+| valid | var_spec | withoutTopMember | [1254](../../magpie/internal/gateway/fastjson.go#L1254) |
+| cuts | var_spec | withoutTopMember | [1275](../../magpie/internal/gateway/fastjson.go#L1275) |
+| memberOf | function_declaration |  | [1310](../../magpie/internal/gateway/fastjson.go#L1310) |
+| keyIs | function_declaration |  | [1321](../../magpie/internal/gateway/fastjson.go#L1321) |
+| stringBytes | function_declaration |  | [1335](../../magpie/internal/gateway/fastjson.go#L1335) |
+| plainASCII | function_declaration |  | [1348](../../magpie/internal/gateway/fastjson.go#L1348) |
+| hasPrefix | function_declaration |  | [1358](../../magpie/internal/gateway/fastjson.go#L1358) |
+| safeID | function_declaration |  | [1363](../../magpie/internal/gateway/fastjson.go#L1363) |
+| inputItems | function_declaration |  | [1377](../../magpie/internal/gateway/fastjson.go#L1377) |
+| anyInputItem | function_declaration |  | [1397](../../magpie/internal/gateway/fastjson.go#L1397) |
+| memberOrNil | function_declaration |  | [1407](../../magpie/internal/gateway/fastjson.go#L1407) |
+| marshalRaw | function_declaration |  | [1425](../../magpie/internal/gateway/fastjson.go#L1425) |
+| appendJSONKey | function_declaration |  | [1479](../../magpie/internal/gateway/fastjson.go#L1479) |
+| b | var_spec | appendJSONKey | [1482](../../magpie/internal/gateway/fastjson.go#L1482) |
+| appendRawJSON | function_declaration |  | [1499](../../magpie/internal/gateway/fastjson.go#L1499) |
+| appendCompactJSON | function_declaration |  | [1514](../../magpie/internal/gateway/fastjson.go#L1514) |
+| appendHTMLEscaped | function_declaration |  | [1538](../../magpie/internal/gateway/fastjson.go#L1538) |
+| hex | const_spec | appendHTMLEscaped | [1539](../../magpie/internal/gateway/fastjson.go#L1539) |
+| getIn | function_declaration |  | [1563](../../magpie/internal/gateway/fastjson.go#L1563) |
+| marshalBody | function_declaration |  | [1588](../../magpie/internal/gateway/fastjson.go#L1588) |
+| ok | var_spec | marshalBody | [1615](../../magpie/internal/gateway/fastjson.go#L1615) |
+| err | var_spec | marshalBody | [1637](../../magpie/internal/gateway/fastjson.go#L1637) |
+| isSplitList | function_declaration |  | [1652](../../magpie/internal/gateway/fastjson.go#L1652) |
+| marshalItems | function_declaration |  | [1666](../../magpie/internal/gateway/fastjson.go#L1666) |
+| marshalSized | function_declaration |  | [1707](../../magpie/internal/gateway/fastjson.go#L1707) |
+| jsonSize | function_declaration |  | [1716](../../magpie/internal/gateway/fastjson.go#L1716) |
+| b | var_spec | jsonSize | [1728](../../magpie/internal/gateway/fastjson.go#L1728) |
+| b | var_spec | jsonSize | [1731](../../magpie/internal/gateway/fastjson.go#L1731) |
+| appendJSONValue | function_declaration |  | [1802](../../magpie/internal/gateway/fastjson.go#L1802) |
+| err | var_spec | appendJSONValue | [1844](../../magpie/internal/gateway/fastjson.go#L1844) |
+| err | var_spec | appendJSONValue | [1864](../../magpie/internal/gateway/fastjson.go#L1864) |
+| err | var_spec | appendJSONValue | [1884](../../magpie/internal/gateway/fastjson.go#L1884) |
+| appendMarshalled | function_declaration |  | [1894](../../magpie/internal/gateway/fastjson.go#L1894) |
+| plainJSONKey | function_declaration |  | [1903](../../magpie/internal/gateway/fastjson.go#L1903) |
+| jsonStringSize | function_declaration |  | [1913](../../magpie/internal/gateway/fastjson.go#L1913) |
+| appendJSONString | function_declaration |  | [1943](../../magpie/internal/gateway/fastjson.go#L1943) |
+| hex | const_spec | appendJSONString | [1944](../../magpie/internal/gateway/fastjson.go#L1944) |
+| bodyKept | var_spec |  | [1998](../../magpie/internal/gateway/fastjson.go#L1998) |

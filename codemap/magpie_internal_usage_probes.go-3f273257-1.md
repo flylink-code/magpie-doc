@@ -4,17 +4,23 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/probes.go) · page 1/1
 
-Source SHA-256: 05be58068031213502487a9f14693255bf44307a92a1ec399f317ee80266c28c
+Source SHA-256: 122d4491239b47ad8a85cc7d8dca00c1624bcf3e5b92c67f451e067f782b9584
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SourceProbe | const_spec |  | [17](../../magpie/internal/usage/probes.go#L17) |
-| IsProbe | method_declaration |  | [20](../../magpie/internal/usage/probes.go#L20) |
-| IsProbe | method_declaration |  | [24](../../magpie/internal/usage/probes.go#L24) |
-| probeRow | type_spec |  | [28](../../magpie/internal/usage/probes.go#L28) |
-| off | field_declaration | probeRow | [30](../../magpie/internal/usage/probes.go#L30) |
-| init | function_declaration |  | [33](../../magpie/internal/usage/probes.go#L33) |
-| clipProbeError | function_declaration |  | [43](../../magpie/internal/usage/probes.go#L43) |
-| most | const_spec | clipProbeError | [44](../../magpie/internal/usage/probes.go#L44) |
-| probeChunk | function_declaration |  | [60](../../magpie/internal/usage/probes.go#L60) |
-| c | var_spec | probeChunk | [61](../../magpie/internal/usage/probes.go#L61) |
+| SourceProbe | const_spec |  | [19](../../magpie/internal/usage/probes.go#L19) |
+| SourceMCP | const_spec |  | [30](../../magpie/internal/usage/probes.go#L30) |
+| SourceSearch | const_spec |  | [42](../../magpie/internal/usage/probes.go#L42) |
+| KindMCP | const_spec |  | [46](../../magpie/internal/usage/probes.go#L46) |
+| IsProbe | method_declaration |  | [51](../../magpie/internal/usage/probes.go#L51) |
+| IsProbe | method_declaration |  | [57](../../magpie/internal/usage/probes.go#L57) |
+| probeRow | type_spec |  | [63](../../magpie/internal/usage/probes.go#L63) |
+| off | field_declaration | probeRow | [65](../../magpie/internal/usage/probes.go#L65) |
+| init | function_declaration |  | [68](../../magpie/internal/usage/probes.go#L68) |
+| quietProbe | function_declaration |  | [89](../../magpie/internal/usage/probes.go#L89) |
+| clipProbeError | function_declaration |  | [95](../../magpie/internal/usage/probes.go#L95) |
+| most | const_spec | clipProbeError | [96](../../magpie/internal/usage/probes.go#L96) |
+| probeChunk | function_declaration |  | [120](../../magpie/internal/usage/probes.go#L120) |
+| c | var_spec | probeChunk | [121](../../magpie/internal/usage/probes.go#L121) |
+| sitesOf | function_declaration |  | [155](../../magpie/internal/usage/probes.go#L155) |
+| probeProvider | function_declaration |  | [176](../../magpie/internal/usage/probes.go#L176) |

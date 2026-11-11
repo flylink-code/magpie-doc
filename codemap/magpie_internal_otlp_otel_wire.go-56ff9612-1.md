@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/otlp/otel_wire.go) · page 1/1
 
-Source SHA-256: 566b0fc87f71d0a36be4ca387af0b9ef2d9e5f3aa7a2d670d5a4a52c5090c190
+Source SHA-256: 728ef4abb4f300df8c5d8329ced50dd8ee7ee54ee7ad592d6883f5b6d14d95ec
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,43 +13,44 @@ Source SHA-256: 566b0fc87f71d0a36be4ca387af0b9ef2d9e5f3aa7a2d670d5a4a52c5090c190
 | Value | field_declaration | otelAttribute | [18](../../magpie/internal/otlp/otel_wire.go#L18) |
 | otelString | function_declaration |  | [21](../../magpie/internal/otlp/otel_wire.go#L21) |
 | otelInt | function_declaration |  | [24](../../magpie/internal/otlp/otel_wire.go#L24) |
-| otelAttributes | function_declaration |  | [32](../../magpie/internal/otlp/otel_wire.go#L32) |
-| otelEnvelope | function_declaration |  | [51](../../magpie/internal/otlp/otel_wire.go#L51) |
-| OTelSpan | type_spec |  | [59](../../magpie/internal/otlp/otel_wire.go#L59) |
-| TraceID | field_declaration | OTelSpan | [60](../../magpie/internal/otlp/otel_wire.go#L60) |
-| Root | field_declaration | OTelSpan | [61](../../magpie/internal/otlp/otel_wire.go#L61) |
-| End | field_declaration | OTelSpan | [62](../../magpie/internal/otlp/otel_wire.go#L62) |
-| Name | field_declaration | OTelSpan | [63](../../magpie/internal/otlp/otel_wire.go#L63) |
-| Session | field_declaration | OTelSpan | [64](../../magpie/internal/otlp/otel_wire.go#L64) |
-| traces | method_declaration |  | [67](../../magpie/internal/otlp/otel_wire.go#L67) |
-| traceID | var_spec | traces | [72](../../magpie/internal/otlp/otel_wire.go#L72) |
-| spanID | var_spec | traces | [81](../../magpie/internal/otlp/otel_wire.go#L81) |
-| otelHistogram | type_spec |  | [201](../../magpie/internal/otlp/otel_wire.go#L201) |
-| Attributes | field_declaration | otelHistogram | [202](../../magpie/internal/otlp/otel_wire.go#L202) |
-| Start | field_declaration | otelHistogram | [203](../../magpie/internal/otlp/otel_wire.go#L203) |
-| Time | field_declaration | otelHistogram | [204](../../magpie/internal/otlp/otel_wire.go#L204) |
-| Count | field_declaration | otelHistogram | [205](../../magpie/internal/otlp/otel_wire.go#L205) |
-| Sum | field_declaration | otelHistogram | [206](../../magpie/internal/otlp/otel_wire.go#L206) |
-| Bounds | field_declaration | otelHistogram | [207](../../magpie/internal/otlp/otel_wire.go#L207) |
-| Buckets | field_declaration | otelHistogram | [208](../../magpie/internal/otlp/otel_wire.go#L208) |
-| MarshalJSON | method_declaration |  | [212](../../magpie/internal/otlp/otel_wire.go#L212) |
-| wire | type_spec | MarshalJSON | [213](../../magpie/internal/otlp/otel_wire.go#L213) |
-| Buckets | field_declaration | MarshalJSON | [220](../../magpie/internal/otlp/otel_wire.go#L220) |
-| otelMetrics | function_declaration |  | [224](../../magpie/internal/otlp/otel_wire.go#L224) |
-| metric | type_spec | otelMetrics | [225](../../magpie/internal/otlp/otel_wire.go#L225) |
-| name | field_declaration | otelMetrics::metric | [226](../../magpie/internal/otlp/otel_wire.go#L226) |
-| bounds | field_declaration | otelMetrics::metric | [227](../../magpie/internal/otlp/otel_wire.go#L227) |
-| points | field_declaration | otelMetrics::metric | [228](../../magpie/internal/otlp/otel_wire.go#L228) |
-| kind | field_declaration | otelMetrics | [250](../../magpie/internal/otlp/otel_wire.go#L250) |
-| count | field_declaration | otelMetrics | [251](../../magpie/internal/otlp/otel_wire.go#L251) |
-| otelReplyText | function_declaration |  | [278](../../magpie/internal/otlp/otel_wire.go#L278) |
-| text | var_spec | otelReplyText | [283](../../magpie/internal/otlp/otel_wire.go#L283) |
-| ev | var_spec | otelReplyText | [289](../../magpie/internal/otlp/otel_wire.go#L289) |
-| Type | field_declaration | otelReplyText::ev | [290](../../magpie/internal/otlp/otel_wire.go#L290) |
-| Delta | field_declaration | otelReplyText::ev | [291](../../magpie/internal/otlp/otel_wire.go#L291) |
-| Choices | field_declaration | otelReplyText::ev | [292](../../magpie/internal/otlp/otel_wire.go#L292) |
-| Delta | field_declaration | otelReplyText::ev::Choices | [293](../../magpie/internal/otlp/otel_wire.go#L293) |
-| Content | field_declaration | otelReplyText::ev::Choices::Delta | [294](../../magpie/internal/otlp/otel_wire.go#L294) |
-| d | var_spec | otelReplyText | [306](../../magpie/internal/otlp/otel_wire.go#L306) |
-| d | var_spec | otelReplyText | [311](../../magpie/internal/otlp/otel_wire.go#L311) |
-| Text | field_declaration | otelReplyText::d | [312](../../magpie/internal/otlp/otel_wire.go#L312) |
+| otelAttributes | function_declaration |  | [34](../../magpie/internal/otlp/otel_wire.go#L34) |
+| gatewayKeyAttr | function_declaration |  | [57](../../magpie/internal/otlp/otel_wire.go#L57) |
+| otelEnvelope | function_declaration |  | [64](../../magpie/internal/otlp/otel_wire.go#L64) |
+| OTelSpan | type_spec |  | [72](../../magpie/internal/otlp/otel_wire.go#L72) |
+| TraceID | field_declaration | OTelSpan | [73](../../magpie/internal/otlp/otel_wire.go#L73) |
+| Root | field_declaration | OTelSpan | [74](../../magpie/internal/otlp/otel_wire.go#L74) |
+| End | field_declaration | OTelSpan | [75](../../magpie/internal/otlp/otel_wire.go#L75) |
+| Name | field_declaration | OTelSpan | [76](../../magpie/internal/otlp/otel_wire.go#L76) |
+| Session | field_declaration | OTelSpan | [77](../../magpie/internal/otlp/otel_wire.go#L77) |
+| traces | method_declaration |  | [80](../../magpie/internal/otlp/otel_wire.go#L80) |
+| traceID | var_spec | traces | [85](../../magpie/internal/otlp/otel_wire.go#L85) |
+| spanID | var_spec | traces | [94](../../magpie/internal/otlp/otel_wire.go#L94) |
+| otelHistogram | type_spec |  | [217](../../magpie/internal/otlp/otel_wire.go#L217) |
+| Attributes | field_declaration | otelHistogram | [218](../../magpie/internal/otlp/otel_wire.go#L218) |
+| Start | field_declaration | otelHistogram | [219](../../magpie/internal/otlp/otel_wire.go#L219) |
+| Time | field_declaration | otelHistogram | [220](../../magpie/internal/otlp/otel_wire.go#L220) |
+| Count | field_declaration | otelHistogram | [221](../../magpie/internal/otlp/otel_wire.go#L221) |
+| Sum | field_declaration | otelHistogram | [222](../../magpie/internal/otlp/otel_wire.go#L222) |
+| Bounds | field_declaration | otelHistogram | [223](../../magpie/internal/otlp/otel_wire.go#L223) |
+| Buckets | field_declaration | otelHistogram | [224](../../magpie/internal/otlp/otel_wire.go#L224) |
+| MarshalJSON | method_declaration |  | [228](../../magpie/internal/otlp/otel_wire.go#L228) |
+| wire | type_spec | MarshalJSON | [229](../../magpie/internal/otlp/otel_wire.go#L229) |
+| Buckets | field_declaration | MarshalJSON | [236](../../magpie/internal/otlp/otel_wire.go#L236) |
+| otelMetrics | function_declaration |  | [240](../../magpie/internal/otlp/otel_wire.go#L240) |
+| metric | type_spec | otelMetrics | [241](../../magpie/internal/otlp/otel_wire.go#L241) |
+| name | field_declaration | otelMetrics::metric | [242](../../magpie/internal/otlp/otel_wire.go#L242) |
+| bounds | field_declaration | otelMetrics::metric | [243](../../magpie/internal/otlp/otel_wire.go#L243) |
+| points | field_declaration | otelMetrics::metric | [244](../../magpie/internal/otlp/otel_wire.go#L244) |
+| kind | field_declaration | otelMetrics | [266](../../magpie/internal/otlp/otel_wire.go#L266) |
+| count | field_declaration | otelMetrics | [267](../../magpie/internal/otlp/otel_wire.go#L267) |
+| otelReplyText | function_declaration |  | [294](../../magpie/internal/otlp/otel_wire.go#L294) |
+| text | var_spec | otelReplyText | [299](../../magpie/internal/otlp/otel_wire.go#L299) |
+| ev | var_spec | otelReplyText | [305](../../magpie/internal/otlp/otel_wire.go#L305) |
+| Type | field_declaration | otelReplyText::ev | [306](../../magpie/internal/otlp/otel_wire.go#L306) |
+| Delta | field_declaration | otelReplyText::ev | [307](../../magpie/internal/otlp/otel_wire.go#L307) |
+| Choices | field_declaration | otelReplyText::ev | [308](../../magpie/internal/otlp/otel_wire.go#L308) |
+| Delta | field_declaration | otelReplyText::ev::Choices | [309](../../magpie/internal/otlp/otel_wire.go#L309) |
+| Content | field_declaration | otelReplyText::ev::Choices::Delta | [310](../../magpie/internal/otlp/otel_wire.go#L310) |
+| d | var_spec | otelReplyText | [322](../../magpie/internal/otlp/otel_wire.go#L322) |
+| d | var_spec | otelReplyText | [327](../../magpie/internal/otlp/otel_wire.go#L327) |
+| Text | field_declaration | otelReplyText::d | [328](../../magpie/internal/otlp/otel_wire.go#L328) |

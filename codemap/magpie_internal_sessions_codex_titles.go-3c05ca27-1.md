@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex_titles.go) · page 1/1
 
-Source SHA-256: 4d256ce2df4ad5956fd4da94a18b5a9b68494e4a2ddb429850313f1783578977
+Source SHA-256: 383b431197ae834bb9ef8d3c628bfac08b7502ebc17fdaca07f7949826b8da5e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -31,10 +31,10 @@ Source SHA-256: 4d256ce2df4ad5956fd4da94a18b5a9b68494e4a2ddb429850313f1783578977
 | path | var_spec | codexTitleOf | [54](../../magpie/internal/sessions/codex_titles.go#L54) |
 | asked | var_spec | codexTitleOf | [55](../../magpie/internal/sessions/codex_titles.go#L55) |
 | CodexTitles | function_declaration |  | [73](../../magpie/internal/sessions/codex_titles.go#L73) |
-| codexTitlesAt | function_declaration |  | [74](../../magpie/internal/sessions/codex_titles.go#L74) |
-| CodexTitleRecipients | function_declaration |  | [94](../../magpie/internal/sessions/codex_titles.go#L94) |
-| loadCodexTitles | function_declaration |  | [114](../../magpie/internal/sessions/codex_titles.go#L114) |
-| row | var_spec | loadCodexTitles | [150](../../magpie/internal/sessions/codex_titles.go#L150) |
-| ID | field_declaration | loadCodexTitles::row | [151](../../magpie/internal/sessions/codex_titles.go#L151) |
-| Name | field_declaration | loadCodexTitles::row | [152](../../magpie/internal/sessions/codex_titles.go#L152) |
-| Updated | field_declaration | loadCodexTitles::row | [153](../../magpie/internal/sessions/codex_titles.go#L153) |
+| codexTitlesAt | function_declaration |  | [79](../../magpie/internal/sessions/codex_titles.go#L79) |
+| CodexTitleRecipients | function_declaration |  | [99](../../magpie/internal/sessions/codex_titles.go#L99) |
+| loadCodexTitles | function_declaration |  | [119](../../magpie/internal/sessions/codex_titles.go#L119) |
+| row | var_spec | loadCodexTitles | [155](../../magpie/internal/sessions/codex_titles.go#L155) |
+| ID | field_declaration | loadCodexTitles::row | [156](../../magpie/internal/sessions/codex_titles.go#L156) |
+| Name | field_declaration | loadCodexTitles::row | [157](../../magpie/internal/sessions/codex_titles.go#L157) |
+| Updated | field_declaration | loadCodexTitles::row | [158](../../magpie/internal/sessions/codex_titles.go#L158) |

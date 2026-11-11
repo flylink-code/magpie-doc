@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skillgit.go) · page 1/1
 
-Source SHA-256: be7471166e2b1c174350f52cdd211983354dc2203b3c536e72d6430543642d79
+Source SHA-256: c41b117efb93482480894fd8e5082d494f61d7f0c1d3f58af5b0a11956de1647
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

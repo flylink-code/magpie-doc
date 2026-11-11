@@ -4,13 +4,15 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/fonts.go) · page 1/1
 
-Source SHA-256: 4d49c61c52bdff3b980b9ce76f0c22b502ac4d32f09300154de817a3435d6174
+Source SHA-256: bdd47b8b7ac1acc62226b851ca8b53cb30e2736bcc760a563cf4d4724a695ab5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| onFonts | var_spec |  | [13](../../magpie/internal/gui/fonts.go#L13) |
-| sameFont | function_declaration |  | [15](../../magpie/internal/gui/fonts.go#L15) |
-| fontSettingsJS | function_declaration |  | [19](../../magpie/internal/gui/fonts.go#L19) |
-| fontRoutes | function_declaration |  | [26](../../magpie/internal/gui/fonts.go#L26) |
-| mu | var_spec | fontRoutes | [27](../../magpie/internal/gui/fonts.go#L27) |
-| cached | var_spec | fontRoutes | [28](../../magpie/internal/gui/fonts.go#L28) |
+| onFonts | var_spec |  | [15](../../magpie/internal/gui/fonts.go#L15) |
+| sameFont | function_declaration |  | [17](../../magpie/internal/gui/fonts.go#L17) |
+| fontSettingsJS | function_declaration |  | [21](../../magpie/internal/gui/fonts.go#L21) |
+| fontRoutes | function_declaration |  | [32](../../magpie/internal/gui/fonts.go#L32) |
+| mu | var_spec | fontRoutes | [33](../../magpie/internal/gui/fonts.go#L33) |
+| cached | var_spec | fontRoutes | [34](../../magpie/internal/gui/fonts.go#L34) |
+| commonFamilies | var_spec |  | [64](../../magpie/internal/gui/fonts.go#L64) |
+| withCommon | function_declaration |  | [78](../../magpie/internal/gui/fonts.go#L78) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/desktop_subagent.go) · page 1/1
 
-Source SHA-256: ed61500cc0155e215b2216ddd4b6fe72c9aa7b3718837ed7c5ff62df4dc66aa0
+Source SHA-256: 54d95808540be50fddfed056842d676be00f3d8e729d039540988bc03f619941
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

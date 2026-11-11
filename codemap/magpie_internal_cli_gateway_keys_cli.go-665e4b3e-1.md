@@ -4,19 +4,34 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/gateway_keys_cli.go) · page 1/1
 
-Source SHA-256: 8dfed8b52b038fa986155d65cd03ba753f9ca385f37abbf3fa23764da96ce57f
+Source SHA-256: 321d9e9b67083bd82e98e8f13f1f8951cf0446dd175564c4d66bdcaf7f1ce460
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| gatewayKeys | function_declaration |  | [19](../../magpie/internal/cli/gateway_keys_cli.go#L19) |
-| gatewayKeysTo | function_declaration |  | [21](../../magpie/internal/cli/gateway_keys_cli.go#L21) |
-| own | var_spec | gatewayKeysTo | [46](../../magpie/internal/cli/gateway_keys_cli.go#L46) |
-| gatewayKeyLimit | function_declaration |  | [132](../../magpie/internal/cli/gateway_keys_cli.go#L132) |
-| perPhrase | function_declaration |  | [282](../../magpie/internal/cli/gateway_keys_cli.go#L282) |
-| parseKeyLimit | function_declaration |  | [297](../../magpie/internal/cli/gateway_keys_cli.go#L297) |
-| gatewayKeyModels | function_declaration |  | [365](../../magpie/internal/cli/gateway_keys_cli.go#L365) |
-| limitWords | function_declaration |  | [398](../../magpie/internal/cli/gateway_keys_cli.go#L398) |
-| each | var_spec | limitWords | [403](../../magpie/internal/cli/gateway_keys_cli.go#L403) |
-| parts | var_spec | limitWords | [405](../../magpie/internal/cli/gateway_keys_cli.go#L405) |
-| gatewayKeyAccounts | function_declaration |  | [424](../../magpie/internal/cli/gateway_keys_cli.go#L424) |
-| gatewayKeyQuotas | function_declaration |  | [467](../../magpie/internal/cli/gateway_keys_cli.go#L467) |
+| gatewayKeys | function_declaration |  | [22](../../magpie/internal/cli/gateway_keys_cli.go#L22) |
+| gatewayKeysTo | function_declaration |  | [24](../../magpie/internal/cli/gateway_keys_cli.go#L24) |
+| own | var_spec | gatewayKeysTo | [98](../../magpie/internal/cli/gateway_keys_cli.go#L98) |
+| gatewayKeyLimit | function_declaration |  | [201](../../magpie/internal/cli/gateway_keys_cli.go#L201) |
+| perPhrase | function_declaration |  | [357](../../magpie/internal/cli/gateway_keys_cli.go#L357) |
+| onModels | function_declaration |  | [372](../../magpie/internal/cli/gateway_keys_cli.go#L372) |
+| parseKeyLimit | function_declaration |  | [381](../../magpie/internal/cli/gateway_keys_cli.go#L381) |
+| gatewayKeyModels | function_declaration |  | [459](../../magpie/internal/cli/gateway_keys_cli.go#L459) |
+| gatewayKeyAliases | function_declaration |  | [500](../../magpie/internal/cli/gateway_keys_cli.go#L500) |
+| gatewayKeyMCP | function_declaration |  | [548](../../magpie/internal/cli/gateway_keys_cli.go#L548) |
+| limitWords | function_declaration |  | [589](../../magpie/internal/cli/gateway_keys_cli.go#L589) |
+| each | var_spec | limitWords | [594](../../magpie/internal/cli/gateway_keys_cli.go#L594) |
+| parts | var_spec | limitWords | [596](../../magpie/internal/cli/gateway_keys_cli.go#L596) |
+| gatewayKeyAccounts | function_declaration |  | [617](../../magpie/internal/cli/gateway_keys_cli.go#L617) |
+| gatewayKeyGroups | function_declaration |  | [663](../../magpie/internal/cli/gateway_keys_cli.go#L663) |
+| gatewayKeyQuotas | function_declaration |  | [747](../../magpie/internal/cli/gateway_keys_cli.go#L747) |
+| gatewayKeyConcurrency | function_declaration |  | [785](../../magpie/internal/cli/gateway_keys_cli.go#L785) |
+| gatewayKeyTier | function_declaration |  | [830](../../magpie/internal/cli/gateway_keys_cli.go#L830) |
+| accessWord | function_declaration |  | [856](../../magpie/internal/cli/gateway_keys_cli.go#L856) |
+| gatewayKeyAccess | function_declaration |  | [871](../../magpie/internal/cli/gateway_keys_cli.go#L871) |
+| gatewayKeyMove | function_declaration |  | [910](../../magpie/internal/cli/gateway_keys_cli.go#L910) |
+| gatewayKeyIssue | function_declaration |  | [939](../../magpie/internal/cli/gateway_keys_cli.go#L939) |
+| in | var_spec | gatewayKeyIssue | [941](../../magpie/internal/cli/gateway_keys_cli.go#L941) |
+| out | var_spec | gatewayKeyIssue | [944](../../magpie/internal/cli/gateway_keys_cli.go#L944) |
+| err | var_spec | gatewayKeyIssue | [970](../../magpie/internal/cli/gateway_keys_cli.go#L970) |
+| gatewayKeyIssuer | function_declaration |  | [1017](../../magpie/internal/cli/gateway_keys_cli.go#L1017) |
+| gatewayKeyOIDC | function_declaration |  | [1053](../../magpie/internal/cli/gateway_keys_cli.go#L1053) |

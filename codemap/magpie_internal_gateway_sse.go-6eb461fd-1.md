@@ -4,23 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/sse.go) · page 1/1
 
-Source SHA-256: 67e924fd1be7e69b660aa4c4a3e4601a3cbbd60ac559958e1dac1c9c9c259768
+Source SHA-256: 6e32450dd03f86289549d5ae1ad537717c869163ed5d98459eaa969dd69c4e00
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | readSSE | function_declaration |  | [15](../../magpie/internal/gateway/sse.go#L15) |
-| readSSEAlive | function_declaration |  | [22](../../magpie/internal/gateway/sse.go#L22) |
-| event | var_spec | readSSEAlive | [25](../../magpie/internal/gateway/sse.go#L25) |
-| data | var_spec | readSSEAlive | [26](../../magpie/internal/gateway/sse.go#L26) |
-| sseWriter | type_spec |  | [63](../../magpie/internal/gateway/sse.go#L63) |
-| w | field_declaration | sseWriter | [64](../../magpie/internal/gateway/sse.go#L64) |
-| f | field_declaration | sseWriter | [65](../../magpie/internal/gateway/sse.go#L65) |
-| begun | field_declaration | sseWriter | [66](../../magpie/internal/gateway/sse.go#L66) |
-| wrote | field_declaration | sseWriter | [67](../../magpie/internal/gateway/sse.go#L67) |
-| newSSEWriter | function_declaration |  | [70](../../magpie/internal/gateway/sse.go#L70) |
-| begin | method_declaration |  | [75](../../magpie/internal/gateway/sse.go#L75) |
-| flush | method_declaration |  | [90](../../magpie/internal/gateway/sse.go#L90) |
-| quiet | method_declaration |  | [98](../../magpie/internal/gateway/sse.go#L98) |
-| comment | method_declaration |  | [109](../../magpie/internal/gateway/sse.go#L109) |
-| event | method_declaration |  | [117](../../magpie/internal/gateway/sse.go#L117) |
-| b | var_spec | event | [119](../../magpie/internal/gateway/sse.go#L119) |
+| readSSEAlive | function_declaration |  | [24](../../magpie/internal/gateway/sse.go#L24) |
+| event | var_spec | readSSEAlive | [30](../../magpie/internal/gateway/sse.go#L30) |
+| data | var_spec | readSSEAlive | [31](../../magpie/internal/gateway/sse.go#L31) |
+| sseWriter | type_spec |  | [68](../../magpie/internal/gateway/sse.go#L68) |
+| w | field_declaration | sseWriter | [69](../../magpie/internal/gateway/sse.go#L69) |
+| f | field_declaration | sseWriter | [70](../../magpie/internal/gateway/sse.go#L70) |
+| begun | field_declaration | sseWriter | [71](../../magpie/internal/gateway/sse.go#L71) |
+| wrote | field_declaration | sseWriter | [72](../../magpie/internal/gateway/sse.go#L72) |
+| newSSEWriter | function_declaration |  | [75](../../magpie/internal/gateway/sse.go#L75) |
+| begin | method_declaration |  | [80](../../magpie/internal/gateway/sse.go#L80) |
+| flush | method_declaration |  | [97](../../magpie/internal/gateway/sse.go#L97) |
+| quiet | method_declaration |  | [105](../../magpie/internal/gateway/sse.go#L105) |
+| comment | method_declaration |  | [116](../../magpie/internal/gateway/sse.go#L116) |
+| event | method_declaration |  | [124](../../magpie/internal/gateway/sse.go#L124) |
+| b | var_spec | event | [126](../../magpie/internal/gateway/sse.go#L126) |

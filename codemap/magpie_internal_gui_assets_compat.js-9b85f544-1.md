@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/compat.js) · page 1/1
 
-Source SHA-256: 9d3a265e6defc67bf94b3be68357b1441392820ea2ed356548cf6926c52e8442
+Source SHA-256: 9e498151c0fab80bd4cf347eb156ccac2e0310f3827a4adaf373a9dd965ac827
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,3 +14,4 @@ Source SHA-256: 9d3a265e6defc67bf94b3be68357b1441392820ea2ed356548cf6926c52e8442
 | value | MethodDeclaration |  | [23](../../magpie/internal/gui/assets/compat.js#L23) |
 | i | VariableDeclaration | value | [23](../../magpie/internal/gui/assets/compat.js#L23) |
 | value | PropertyAssignment |  | [29](../../magpie/internal/gui/assets/compat.js#L29) |
+| b | VariableDeclaration |  | [39](../../magpie/internal/gui/assets/compat.js#L39) |

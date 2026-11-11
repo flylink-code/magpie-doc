@@ -4,17 +4,21 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/stash.go) · page 1/1
 
-Source SHA-256: 1695212d2769697d387523b3459db2580dac086f50d4ad21885f9187be053598
+Source SHA-256: 9c6a4431e84d81ab3bb604e9b482f9af1e7784e10b34096e73c855c98cfa1757
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| stashMu | var_spec |  | [27](../../magpie/internal/agent/stash.go#L27) |
-| stashPath | function_declaration |  | [29](../../magpie/internal/agent/stash.go#L29) |
-| stashLoad | function_declaration |  | [31](../../magpie/internal/agent/stash.go#L31) |
-| stashWrite | function_declaration |  | [41](../../magpie/internal/agent/stash.go#L41) |
-| stash | function_declaration |  | [67](../../magpie/internal/agent/stash.go#L67) |
-| forget | function_declaration |  | [82](../../magpie/internal/agent/stash.go#L82) |
-| unstash | function_declaration |  | [92](../../magpie/internal/agent/stash.go#L92) |
+| stashMu | var_spec |  | [29](../../magpie/internal/agent/stash.go#L29) |
+| stashPath | function_declaration |  | [31](../../magpie/internal/agent/stash.go#L31) |
+| stashLoad | function_declaration |  | [35](../../magpie/internal/agent/stash.go#L35) |
+| stashShared | function_declaration |  | [47](../../magpie/internal/agent/stash.go#L47) |
+| stashRead | function_declaration |  | [51](../../magpie/internal/agent/stash.go#L51) |
+| stashWrite | function_declaration |  | [62](../../magpie/internal/agent/stash.go#L62) |
+| stash | function_declaration |  | [88](../../magpie/internal/agent/stash.go#L88) |
+| forget | function_declaration |  | [103](../../magpie/internal/agent/stash.go#L103) |
+| unstash | function_declaration |  | [113](../../magpie/internal/agent/stash.go#L113) |
 
-Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 53: ERROR
+Parser recovery: 3 diagnostic(s). Inspect source; extraction may be incomplete.
+- line 36: ERROR
+- line 48: ERROR
+- line 74: ERROR

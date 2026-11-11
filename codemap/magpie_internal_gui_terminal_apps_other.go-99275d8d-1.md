@@ -4,8 +4,8 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/terminal_apps_other.go) · page 1/1
 
-Source SHA-256: eb2aa61b310641c709f01a64f3b371a0980583aed23a0a4fce69cfea49fb9933
+Source SHA-256: de69aca9dcf89d1f1efd377005f2777146ddeec5082438f0098cef41a382b28e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| discoverTerminals | function_declaration |  | [7](../../magpie/internal/gui/terminal_apps_other.go#L7) |
+| discoverTerminals | function_declaration |  | [8](../../magpie/internal/gui/terminal_apps_other.go#L8) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/fold.go) · page 1/1
 
-Source SHA-256: eda5e743dcb99946dcd8c1a239f6c0d5304010cb56569cbbe76d8967835689de
+Source SHA-256: 93d07ce9b462c9e26cd05c6cc73b17366a14ccecd540f88c192579804295f545
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,20 +16,20 @@ Source SHA-256: eda5e743dcb99946dcd8c1a239f6c0d5304010cb56569cbbe76d8967835689de
 | modelPrefs | function_declaration |  | [91](../../magpie/internal/provider/fold.go#L91) |
 | out | var_spec | modelPrefs | [92](../../magpie/internal/provider/fold.go#L92) |
 | foldRefs | function_declaration |  | [118](../../magpie/internal/provider/fold.go#L118) |
-| FoldCopies | function_declaration |  | [185](../../magpie/internal/provider/fold.go#L185) |
-| foldAdded | function_declaration |  | [192](../../magpie/internal/provider/fold.go#L192) |
-| at | var_spec | foldAdded | [201](../../magpie/internal/provider/fold.go#L201) |
-| copiesByName | function_declaration |  | [214](../../magpie/internal/provider/fold.go#L214) |
-| bases | var_spec | copiesByName | [217](../../magpie/internal/provider/fold.go#L217) |
-| out | var_spec | copiesByName | [227](../../magpie/internal/provider/fold.go#L227) |
-| foldWhere | function_declaration |  | [239](../../magpie/internal/provider/fold.go#L239) |
-| folds | var_spec | foldWhere | [260](../../magpie/internal/provider/fold.go#L260) |
-| shapes | var_spec | foldWhere | [263](../../magpie/internal/provider/fold.go#L263) |
-| foldSet | function_declaration |  | [366](../../magpie/internal/provider/fold.go#L366) |
-| ids | var_spec | foldSet | [394](../../magpie/internal/provider/fold.go#L394) |
-| cmpOr | function_declaration |  | [419](../../magpie/internal/provider/fold.go#L419) |
-| foldedRef | function_declaration |  | [428](../../magpie/internal/provider/fold.go#L428) |
-| mapEach | function_declaration |  | [443](../../magpie/internal/provider/fold.go#L443) |
-| compact | function_declaration |  | [455](../../magpie/internal/provider/fold.go#L455) |
-| foldSettings | function_declaration |  | [474](../../magpie/internal/provider/fold.go#L474) |
-| foldHistories | function_declaration |  | [508](../../magpie/internal/provider/fold.go#L508) |
+| FoldCopies | function_declaration |  | [193](../../magpie/internal/provider/fold.go#L193) |
+| foldAdded | function_declaration |  | [200](../../magpie/internal/provider/fold.go#L200) |
+| at | var_spec | foldAdded | [209](../../magpie/internal/provider/fold.go#L209) |
+| copiesByName | function_declaration |  | [222](../../magpie/internal/provider/fold.go#L222) |
+| bases | var_spec | copiesByName | [225](../../magpie/internal/provider/fold.go#L225) |
+| out | var_spec | copiesByName | [235](../../magpie/internal/provider/fold.go#L235) |
+| foldWhere | function_declaration |  | [247](../../magpie/internal/provider/fold.go#L247) |
+| folds | var_spec | foldWhere | [268](../../magpie/internal/provider/fold.go#L268) |
+| shapes | var_spec | foldWhere | [271](../../magpie/internal/provider/fold.go#L271) |
+| foldSet | function_declaration |  | [377](../../magpie/internal/provider/fold.go#L377) |
+| ids | var_spec | foldSet | [405](../../magpie/internal/provider/fold.go#L405) |
+| cmpOr | function_declaration |  | [430](../../magpie/internal/provider/fold.go#L430) |
+| foldedRef | function_declaration |  | [439](../../magpie/internal/provider/fold.go#L439) |
+| mapEach | function_declaration |  | [454](../../magpie/internal/provider/fold.go#L454) |
+| compact | function_declaration |  | [466](../../magpie/internal/provider/fold.go#L466) |
+| foldSettings | function_declaration |  | [485](../../magpie/internal/provider/fold.go#L485) |
+| foldHistories | function_declaration |  | [519](../../magpie/internal/provider/fold.go#L519) |

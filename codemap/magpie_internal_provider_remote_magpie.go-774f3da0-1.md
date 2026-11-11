@@ -4,18 +4,19 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/remote_magpie.go) · page 1/1
 
-Source SHA-256: f16652f43751110d2661d0e7794976f329f0b14bb7f1c0a99e8bb7465e68f04c
+Source SHA-256: 90244374c69c02119c988edd42488f96bba2b3ee8b1c00a603269b7c74db5049
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| DrawersHeader | const_spec |  | [51](../../magpie/internal/provider/remote_magpie.go#L51) |
-| VideomakersHeader | const_spec |  | [56](../../magpie/internal/provider/remote_magpie.go#L56) |
-| PricesHeader | const_spec |  | [61](../../magpie/internal/provider/remote_magpie.go#L61) |
-| DecidersHeader | const_spec |  | [64](../../magpie/internal/provider/remote_magpie.go#L64) |
-| RemoteMagpiePreset | const_spec |  | [67](../../magpie/internal/provider/remote_magpie.go#L67) |
-| IsRemoteMagpie | method_declaration |  | [70](../../magpie/internal/provider/remote_magpie.go#L70) |
-| remoteMagpieEndpoints | method_declaration |  | [75](../../magpie/internal/provider/remote_magpie.go#L75) |
-| listHeaders | method_declaration |  | [111](../../magpie/internal/provider/remote_magpie.go#L111) |
-| listHeadersAt | method_declaration |  | [129](../../magpie/internal/provider/remote_magpie.go#L129) |
-| remotePrice | method_declaration |  | [150](../../magpie/internal/provider/remote_magpie.go#L150) |
-| RemotePriced | method_declaration |  | [164](../../magpie/internal/provider/remote_magpie.go#L164) |
+| DrawersHeader | const_spec |  | [53](../../magpie/internal/provider/remote_magpie.go#L53) |
+| VideomakersHeader | const_spec |  | [58](../../magpie/internal/provider/remote_magpie.go#L58) |
+| PricesHeader | const_spec |  | [63](../../magpie/internal/provider/remote_magpie.go#L63) |
+| DecidersHeader | const_spec |  | [66](../../magpie/internal/provider/remote_magpie.go#L66) |
+| RemoteMagpiePreset | const_spec |  | [69](../../magpie/internal/provider/remote_magpie.go#L69) |
+| IsRemoteMagpie | method_declaration |  | [72](../../magpie/internal/provider/remote_magpie.go#L72) |
+| remoteMagpieEndpoints | method_declaration |  | [77](../../magpie/internal/provider/remote_magpie.go#L77) |
+| listHeaders | method_declaration |  | [116](../../magpie/internal/provider/remote_magpie.go#L116) |
+| listHeadersAt | method_declaration |  | [140](../../magpie/internal/provider/remote_magpie.go#L140) |
+| remotePrice | method_declaration |  | [168](../../magpie/internal/provider/remote_magpie.go#L168) |
+| RemotePriced | method_declaration |  | [182](../../magpie/internal/provider/remote_magpie.go#L182) |
+| RemoteVia | method_declaration |  | [190](../../magpie/internal/provider/remote_magpie.go#L190) |

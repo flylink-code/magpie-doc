@@ -4,36 +4,58 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/dist.go) · page 1/1
 
-Source SHA-256: 4c78e3541c77eab96740b7e81fa662a86945109f9865cc1a579e852f793e17a3
+Source SHA-256: 4202cf40f5f6e17bc7e72b20cda4b90ac2ad21991c9628681163d87cc17700b8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| distBase | var_spec |  | [30](../../magpie/internal/plugin/dist.go#L30) |
-| distScope | const_spec |  | [33](../../magpie/internal/plugin/dist.go#L33) |
-| distVersion | type_spec |  | [35](../../magpie/internal/plugin/dist.go#L35) |
-| File | field_declaration | distVersion | [36](../../magpie/internal/plugin/dist.go#L36) |
-| Integrity | field_declaration | distVersion | [37](../../magpie/internal/plugin/dist.go#L37) |
-| Manifest | field_declaration | distVersion | [38](../../magpie/internal/plugin/dist.go#L38) |
-| distPackage | type_spec |  | [41](../../magpie/internal/plugin/dist.go#L41) |
-| Latest | field_declaration | distPackage | [42](../../magpie/internal/plugin/dist.go#L42) |
-| Readme | field_declaration | distPackage | [43](../../magpie/internal/plugin/dist.go#L43) |
-| Versions | field_declaration | distPackage | [44](../../magpie/internal/plugin/dist.go#L44) |
-| distIndex | type_spec |  | [47](../../magpie/internal/plugin/dist.go#L47) |
-| Packages | field_declaration | distIndex | [48](../../magpie/internal/plugin/dist.go#L48) |
-| distMu | var_spec |  | [52](../../magpie/internal/plugin/dist.go#L52) |
-| distIdx | var_spec |  | [53](../../magpie/internal/plugin/dist.go#L53) |
-| distAt | var_spec |  | [54](../../magpie/internal/plugin/dist.go#L54) |
-| distOK | var_spec |  | [55](../../magpie/internal/plugin/dist.go#L55) |
-| distKeep | var_spec |  | [56](../../magpie/internal/plugin/dist.go#L56) |
-| distWait | var_spec |  | [57](../../magpie/internal/plugin/dist.go#L57) |
-| distFile | var_spec |  | [62](../../magpie/internal/plugin/dist.go#L62) |
-| distPkg | function_declaration |  | [66](../../magpie/internal/plugin/dist.go#L66) |
-| idx | var_spec | distPkg | [75](../../magpie/internal/plugin/dist.go#L75) |
-| distInfo | function_declaration |  | [96](../../magpie/internal/plugin/dist.go#L96) |
-| l | var_spec | distInfo | [105](../../magpie/internal/plugin/dist.go#L105) |
-| distWanted | function_declaration |  | [117](../../magpie/internal/plugin/dist.go#L117) |
-| exactVersion | var_spec |  | [135](../../magpie/internal/plugin/dist.go#L135) |
-| installDist | function_declaration |  | [141](../../magpie/internal/plugin/dist.go#L141) |
-| pruneDist | function_declaration |  | [191](../../magpie/internal/plugin/dist.go#L191) |
-| pj | var_spec | pruneDist | [196](../../magpie/internal/plugin/dist.go#L196) |
-| Dependencies | field_declaration | pruneDist::pj | [197](../../magpie/internal/plugin/dist.go#L197) |
+| distBase | var_spec |  | [38](../../magpie/internal/plugin/dist.go#L38) |
+| distScope | const_spec |  | [41](../../magpie/internal/plugin/dist.go#L41) |
+| distVersion | type_spec |  | [43](../../magpie/internal/plugin/dist.go#L43) |
+| File | field_declaration | distVersion | [44](../../magpie/internal/plugin/dist.go#L44) |
+| Integrity | field_declaration | distVersion | [45](../../magpie/internal/plugin/dist.go#L45) |
+| Manifest | field_declaration | distVersion | [46](../../magpie/internal/plugin/dist.go#L46) |
+| distPackage | type_spec |  | [49](../../magpie/internal/plugin/dist.go#L49) |
+| Latest | field_declaration | distPackage | [50](../../magpie/internal/plugin/dist.go#L50) |
+| Readme | field_declaration | distPackage | [51](../../magpie/internal/plugin/dist.go#L51) |
+| Versions | field_declaration | distPackage | [52](../../magpie/internal/plugin/dist.go#L52) |
+| distIndex | type_spec |  | [55](../../magpie/internal/plugin/dist.go#L55) |
+| Packages | field_declaration | distIndex | [56](../../magpie/internal/plugin/dist.go#L56) |
+| distMu | var_spec |  | [60](../../magpie/internal/plugin/dist.go#L60) |
+| distIdx | var_spec |  | [61](../../magpie/internal/plugin/dist.go#L61) |
+| distAt | var_spec |  | [62](../../magpie/internal/plugin/dist.go#L62) |
+| distOK | var_spec |  | [63](../../magpie/internal/plugin/dist.go#L63) |
+| distErr | var_spec |  | [64](../../magpie/internal/plugin/dist.go#L64) |
+| distKeep | var_spec |  | [65](../../magpie/internal/plugin/dist.go#L65) |
+| distWait | var_spec |  | [66](../../magpie/internal/plugin/dist.go#L66) |
+| distReading | var_spec |  | [68](../../magpie/internal/plugin/dist.go#L68) |
+| distReadFor | var_spec |  | [75](../../magpie/internal/plugin/dist.go#L75) |
+| errDistUnread | var_spec |  | [80](../../magpie/internal/plugin/dist.go#L80) |
+| distFile | var_spec |  | [84](../../magpie/internal/plugin/dist.go#L84) |
+| distPkg | function_declaration |  | [92](../../magpie/internal/plugin/dist.go#L92) |
+| waited | var_spec | distPkg | [104](../../magpie/internal/plugin/dist.go#L104) |
+| readDist | function_declaration |  | [132](../../magpie/internal/plugin/dist.go#L132) |
+| distMirror | var_spec |  | [152](../../magpie/internal/plugin/dist.go#L152) |
+| distGrace | var_spec |  | [156](../../magpie/internal/plugin/dist.go#L156) |
+| readDistIndex | function_declaration |  | [170](../../magpie/internal/plugin/dist.go#L170) |
+| read | type_spec | readDistIndex | [176](../../magpie/internal/plugin/dist.go#L176) |
+| idx | field_declaration | readDistIndex::read | [177](../../magpie/internal/plugin/dist.go#L177) |
+| err | field_declaration | readDistIndex::read | [178](../../magpie/internal/plugin/dist.go#L178) |
+| or | var_spec | readDistIndex | [192](../../magpie/internal/plugin/dist.go#L192) |
+| parseDistIndex | function_declaration |  | [216](../../magpie/internal/plugin/dist.go#L216) |
+| idx | var_spec | parseDistIndex | [220](../../magpie/internal/plugin/dist.go#L220) |
+| mergeDist | function_declaration |  | [231](../../magpie/internal/plugin/dist.go#L231) |
+| distInfo | function_declaration |  | [262](../../magpie/internal/plugin/dist.go#L262) |
+| l | var_spec | distInfo | [271](../../magpie/internal/plugin/dist.go#L271) |
+| distWanted | function_declaration |  | [283](../../magpie/internal/plugin/dist.go#L283) |
+| exactVersion | var_spec |  | [301](../../magpie/internal/plugin/dist.go#L301) |
+| installDist | function_declaration |  | [307](../../magpie/internal/plugin/dist.go#L307) |
+| pruneDist | function_declaration |  | [368](../../magpie/internal/plugin/dist.go#L368) |
+| distNamed | function_declaration |  | [394](../../magpie/internal/plugin/dist.go#L394) |
+| distLockedAt | var_spec |  | [400](../../magpie/internal/plugin/dist.go#L400) |
+| mendDist | function_declaration |  | [418](../../magpie/internal/plugin/dist.go#L418) |
+| pj | var_spec | mendDist | [427](../../magpie/internal/plugin/dist.go#L427) |
+| Dependencies | field_declaration | mendDist::pj | [428](../../magpie/internal/plugin/dist.go#L428) |
+| stale | var_spec | mendDist | [433](../../magpie/internal/plugin/dist.go#L433) |
+| lockHead | function_declaration |  | [458](../../magpie/internal/plugin/dist.go#L458) |
+| distSpec | function_declaration |  | [482](../../magpie/internal/plugin/dist.go#L482) |
+| distHas | function_declaration |  | [488](../../magpie/internal/plugin/dist.go#L488) |

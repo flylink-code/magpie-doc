@@ -4,14 +4,16 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_subagent.go) · page 1/1
 
-Source SHA-256: dc2cb3a3fa5fd4cbcd9ab572300b86e6ede9ae0c8af3337f3544971c5cc83429
+Source SHA-256: b86fe7ef5f826e9ae24f41746111d2ddd3c72165b403666ab532fc82ff8574db
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexSubagentModel | function_declaration |  | [26](../../magpie/internal/provider/codex_subagent.go#L26) |
-| CodexSubagentModels | function_declaration |  | [35](../../magpie/internal/provider/codex_subagent.go#L35) |
-| chatgpt | var_spec | CodexSubagentModels | [36](../../magpie/internal/provider/codex_subagent.go#L36) |
-| chatGPTEntry | function_declaration |  | [48](../../magpie/internal/provider/codex_subagent.go#L48) |
-| CodexSubagentUnserved | function_declaration |  | [54](../../magpie/internal/provider/codex_subagent.go#L54) |
-| SetCodexSubagentModel | function_declaration |  | [80](../../magpie/internal/provider/codex_subagent.go#L80) |
-| CodexAccountModel | function_declaration |  | [100](../../magpie/internal/provider/codex_subagent.go#L100) |
+| CodexSubagentLead | const_spec |  | [30](../../magpie/internal/provider/codex_subagent.go#L30) |
+| CodexSubagentModel | function_declaration |  | [34](../../magpie/internal/provider/codex_subagent.go#L34) |
+| CodexSubagentModels | function_declaration |  | [46](../../magpie/internal/provider/codex_subagent.go#L46) |
+| codexSubagentModels | function_declaration |  | [50](../../magpie/internal/provider/codex_subagent.go#L50) |
+| chatgpt | var_spec | codexSubagentModels | [51](../../magpie/internal/provider/codex_subagent.go#L51) |
+| chatGPTEntry | function_declaration |  | [62](../../magpie/internal/provider/codex_subagent.go#L62) |
+| CodexSubagentUnserved | function_declaration |  | [68](../../magpie/internal/provider/codex_subagent.go#L68) |
+| SetCodexSubagentModel | function_declaration |  | [94](../../magpie/internal/provider/codex_subagent.go#L94) |
+| CodexAccountModel | function_declaration |  | [114](../../magpie/internal/provider/codex_subagent.go#L114) |

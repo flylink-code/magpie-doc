@@ -4,10 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/gemini_api.go) · page 1/1
 
-Source SHA-256: 4431ad6c3baff1a472e6fd30bc32b754e339796e3b23758b3e83102ef33ad048
+Source SHA-256: fbc41ce758070f6dc3f51d4902a2238974b3b6229fcd46c62acae6d5298910e8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| geminiMethod | var_spec |  | [16](../../magpie/internal/provider/gemini_api.go#L16) |
-| GeminiBase | function_declaration |  | [21](../../magpie/internal/provider/gemini_api.go#L21) |
-| GeminiPath | function_declaration |  | [38](../../magpie/internal/provider/gemini_api.go#L38) |
+| geminiMethod | var_spec |  | [17](../../magpie/internal/provider/gemini_api.go#L17) |
+| GeminiBase | function_declaration |  | [22](../../magpie/internal/provider/gemini_api.go#L22) |
+| GeminiPath | function_declaration |  | [39](../../magpie/internal/provider/gemini_api.go#L39) |
+| AIStudioChat | const_spec |  | [49](../../magpie/internal/provider/gemini_api.go#L49) |
+| AIStudioGemini | const_spec |  | [53](../../magpie/internal/provider/gemini_api.go#L53) |
+| aiStudioNative | method_declaration |  | [63](../../magpie/internal/provider/gemini_api.go#L63) |
+| AIStudioPair | method_declaration |  | [75](../../magpie/internal/provider/gemini_api.go#L75) |

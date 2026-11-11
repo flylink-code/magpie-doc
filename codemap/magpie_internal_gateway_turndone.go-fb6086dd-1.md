@@ -4,39 +4,51 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/turndone.go) · page 1/1
 
-Source SHA-256: e1173c6ba973685e2697707f54c55bdc004294254941b778f3d1d59f3aa67188
+Source SHA-256: 477ebe4c8d2071bf3672e9b6598a82f57b1a9ef9edc4c2f7129982041fc73212
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| TurnEnd | type_spec |  | [31](../../magpie/internal/gateway/turndone.go#L31) |
-| Agent | field_declaration | TurnEnd | [32](../../magpie/internal/gateway/turndone.go#L32) |
-| Session | field_declaration | TurnEnd | [33](../../magpie/internal/gateway/turndone.go#L33) |
-| Folder | field_declaration | TurnEnd | [34](../../magpie/internal/gateway/turndone.go#L34) |
-| Took | field_declaration | TurnEnd | [35](../../magpie/internal/gateway/turndone.go#L35) |
-| TurnDone | var_spec |  | [40](../../magpie/internal/gateway/turndone.go#L40) |
-| turnQuiet | var_spec |  | [46](../../magpie/internal/gateway/turndone.go#L46) |
-| turnAfter | var_spec |  | [49](../../magpie/internal/gateway/turndone.go#L49) |
-| turnStale | const_spec |  | [59](../../magpie/internal/gateway/turndone.go#L59) |
-| turnState | type_spec |  | [61](../../magpie/internal/gateway/turndone.go#L61) |
-| start | field_declaration | turnState | [62](../../magpie/internal/gateway/turndone.go#L62) |
-| going | field_declaration | turnState | [63](../../magpie/internal/gateway/turndone.go#L63) |
-| folder | field_declaration | turnState | [64](../../magpie/internal/gateway/turndone.go#L64) |
-| timer | field_declaration | turnState | [65](../../magpie/internal/gateway/turndone.go#L65) |
-| turns | type_spec |  | [73](../../magpie/internal/gateway/turndone.go#L73) |
-| mu | field_declaration | turns | [74](../../magpie/internal/gateway/turndone.go#L74) |
-| m | field_declaration | turns | [75](../../magpie/internal/gateway/turndone.go#L75) |
-| sessionTurnKey | function_declaration |  | [78](../../magpie/internal/gateway/turndone.go#L78) |
-| begin | method_declaration |  | [87](../../magpie/internal/gateway/turndone.go#L87) |
-| end | method_declaration |  | [127](../../magpie/internal/gateway/turndone.go#L127) |
-| t | var_spec | end | [144](../../magpie/internal/gateway/turndone.go#L144) |
-| toolScan | type_spec |  | [168](../../magpie/internal/gateway/turndone.go#L168) |
-| tail | field_declaration | toolScan | [169](../../magpie/internal/gateway/turndone.go#L169) |
-| saw | field_declaration | toolScan | [170](../../magpie/internal/gateway/turndone.go#L170) |
-| toolValues | var_spec |  | [173](../../magpie/internal/gateway/turndone.go#L173) |
-| geminiCall | var_spec |  | [179](../../magpie/internal/gateway/turndone.go#L179) |
-| add | method_declaration |  | [181](../../magpie/internal/gateway/turndone.go#L181) |
-| toolIn | function_declaration |  | [191](../../magpie/internal/gateway/turndone.go#L191) |
-| called | method_declaration |  | [219](../../magpie/internal/gateway/turndone.go#L219) |
-| TurnFolder | function_declaration |  | [222](../../magpie/internal/gateway/turndone.go#L222) |
-| agentTurnOf | function_declaration |  | [233](../../magpie/internal/gateway/turndone.go#L233) |
-| dirOf | function_declaration |  | [241](../../magpie/internal/gateway/turndone.go#L241) |
+| TurnEnd | type_spec |  | [32](../../magpie/internal/gateway/turndone.go#L32) |
+| Agent | field_declaration | TurnEnd | [33](../../magpie/internal/gateway/turndone.go#L33) |
+| Session | field_declaration | TurnEnd | [34](../../magpie/internal/gateway/turndone.go#L34) |
+| Folder | field_declaration | TurnEnd | [35](../../magpie/internal/gateway/turndone.go#L35) |
+| Took | field_declaration | TurnEnd | [36](../../magpie/internal/gateway/turndone.go#L36) |
+| TurnDone | var_spec |  | [41](../../magpie/internal/gateway/turndone.go#L41) |
+| turnQuiet | var_spec |  | [47](../../magpie/internal/gateway/turndone.go#L47) |
+| turnAfter | var_spec |  | [50](../../magpie/internal/gateway/turndone.go#L50) |
+| turnStale | const_spec |  | [60](../../magpie/internal/gateway/turndone.go#L60) |
+| turnState | type_spec |  | [62](../../magpie/internal/gateway/turndone.go#L62) |
+| start | field_declaration | turnState | [63](../../magpie/internal/gateway/turndone.go#L63) |
+| going | field_declaration | turnState | [64](../../magpie/internal/gateway/turndone.go#L64) |
+| folder | field_declaration | turnState | [65](../../magpie/internal/gateway/turndone.go#L65) |
+| timer | field_declaration | turnState | [66](../../magpie/internal/gateway/turndone.go#L66) |
+| turns | type_spec |  | [74](../../magpie/internal/gateway/turndone.go#L74) |
+| mu | field_declaration | turns | [75](../../magpie/internal/gateway/turndone.go#L75) |
+| m | field_declaration | turns | [76](../../magpie/internal/gateway/turndone.go#L76) |
+| sessionTurnKey | function_declaration |  | [79](../../magpie/internal/gateway/turndone.go#L79) |
+| begin | method_declaration |  | [88](../../magpie/internal/gateway/turndone.go#L88) |
+| end | method_declaration |  | [128](../../magpie/internal/gateway/turndone.go#L128) |
+| t | var_spec | end | [145](../../magpie/internal/gateway/turndone.go#L145) |
+| toolScan | type_spec |  | [176](../../magpie/internal/gateway/turndone.go#L176) |
+| tail | field_declaration | toolScan | [177](../../magpie/internal/gateway/turndone.go#L177) |
+| saw | field_declaration | toolScan | [178](../../magpie/internal/gateway/turndone.go#L178) |
+| cut | field_declaration | toolScan | [179](../../magpie/internal/gateway/turndone.go#L179) |
+| ended | field_declaration | toolScan | [180](../../magpie/internal/gateway/turndone.go#L180) |
+| ctx | field_declaration | toolScan | [181](../../magpie/internal/gateway/turndone.go#L181) |
+| toolValues | var_spec |  | [184](../../magpie/internal/gateway/turndone.go#L184) |
+| geminiCall | var_spec |  | [190](../../magpie/internal/gateway/turndone.go#L190) |
+| replyMark | type_spec |  | [195](../../magpie/internal/gateway/turndone.go#L195) |
+| key | field_declaration | replyMark | [195](../../magpie/internal/gateway/turndone.go#L195) |
+| mark | function_declaration |  | [197](../../magpie/internal/gateway/turndone.go#L197) |
+| cutMarks | var_spec |  | [200](../../magpie/internal/gateway/turndone.go#L200) |
+| endMarks | var_spec |  | [209](../../magpie/internal/gateway/turndone.go#L209) |
+| clientTool | var_spec |  | [217](../../magpie/internal/gateway/turndone.go#L217) |
+| add | method_declaration |  | [219](../../magpie/internal/gateway/turndone.go#L219) |
+| marked | function_declaration |  | [249](../../magpie/internal/gateway/turndone.go#L249) |
+| toolIn | function_declaration |  | [266](../../magpie/internal/gateway/turndone.go#L266) |
+| called | method_declaration |  | [294](../../magpie/internal/gateway/turndone.go#L294) |
+| unfinished | method_declaration |  | [299](../../magpie/internal/gateway/turndone.go#L299) |
+| turnFinal | function_declaration |  | [307](../../magpie/internal/gateway/turndone.go#L307) |
+| TurnFolder | function_declaration |  | [312](../../magpie/internal/gateway/turndone.go#L312) |
+| agentTurnOf | function_declaration |  | [323](../../magpie/internal/gateway/turndone.go#L323) |
+| dirOf | function_declaration |  | [331](../../magpie/internal/gateway/turndone.go#L331) |

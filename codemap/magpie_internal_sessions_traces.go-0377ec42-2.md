@@ -4,38 +4,39 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/traces.go) · page 2/2
 
-Source SHA-256: 6a057cdf277e33a52bf5478cd716dda7cc961d3e076b711ef8762ce7e5c5e122
+Source SHA-256: fa94a270573c3727811417a67b316bae601c95e1a9b8101cb08ea4ac154c1cf8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Results | field_declaration | codex::p::Item | [415](../../magpie/internal/sessions/traces.go#L415) |
-| RevisedPrompt | field_declaration | codex::p::Item | [416](../../magpie/internal/sessions/traces.go#L416) |
-| Stdout | field_declaration | codex::p::Item | [417](../../magpie/internal/sessions/traces.go#L417) |
-| AggregatedOutput | field_declaration | codex::p::Item | [418](../../magpie/internal/sessions/traces.go#L418) |
-| ExitCode | field_declaration | codex::p::Item | [419](../../magpie/internal/sessions/traces.go#L419) |
-| base | var_spec | codex | [433](../../magpie/internal/sessions/traces.go#L433) |
-| Text | field_declaration | codex::base | [433](../../magpie/internal/sessions/traces.go#L433) |
-| parent | var_spec | codex | [566](../../magpie/internal/sessions/traces.go#L566) |
-| ok | var_spec | codex | [601](../../magpie/internal/sessions/traces.go#L601) |
-| unfinished | var_spec | codex | [622](../../magpie/internal/sessions/traces.go#L622) |
-| pi | method_declaration |  | [635](../../magpie/internal/sessions/traces.go#L635) |
-| o | var_spec | pi | [636](../../magpie/internal/sessions/traces.go#L636) |
-| Type | field_declaration | pi::o | [637](../../magpie/internal/sessions/traces.go#L637) |
-| Timestamp | field_declaration | pi::o | [638](../../magpie/internal/sessions/traces.go#L638) |
-| Message | field_declaration | pi::o | [639](../../magpie/internal/sessions/traces.go#L639) |
-| Role | field_declaration | pi::o::Message | [640](../../magpie/internal/sessions/traces.go#L640) |
-| Timestamp | field_declaration | pi::o::Message | [641](../../magpie/internal/sessions/traces.go#L641) |
-| IsError | field_declaration | pi::o::Message | [642](../../magpie/internal/sessions/traces.go#L642) |
-| Content | field_declaration | pi::o::Message | [643](../../magpie/internal/sessions/traces.go#L643) |
-| Usage | field_declaration | pi::o::Message | [644](../../magpie/internal/sessions/traces.go#L644) |
-| Data | field_declaration | pi::o | [646](../../magpie/internal/sessions/traces.go#L646) |
-| EndAt | field_declaration | pi::o::Data | [646](../../magpie/internal/sessions/traces.go#L646) |
-| usage | var_spec | pi | [679](../../magpie/internal/sessions/traces.go#L679) |
-| Model | field_declaration | pi::usage | [680](../../magpie/internal/sessions/traces.go#L680) |
-| Usage | field_declaration | pi::usage | [681](../../magpie/internal/sessions/traces.go#L681) |
-| interrupted | var_spec | pi | [694](../../magpie/internal/sessions/traces.go#L694) |
-| content | var_spec | pi | [769](../../magpie/internal/sessions/traces.go#L769) |
-| Type | field_declaration | pi::content | [770](../../magpie/internal/sessions/traces.go#L770) |
-| Arguments | field_declaration | pi::content | [771](../../magpie/internal/sessions/traces.go#L771) |
-| finishPi | method_declaration |  | [805](../../magpie/internal/sessions/traces.go#L805) |
-| spans | var_spec | finishPi | [809](../../magpie/internal/sessions/traces.go#L809) |
+| Changes | field_declaration | codex::p::Item | [423](../../magpie/internal/sessions/traces.go#L423) |
+| Results | field_declaration | codex::p::Item | [424](../../magpie/internal/sessions/traces.go#L424) |
+| RevisedPrompt | field_declaration | codex::p::Item | [425](../../magpie/internal/sessions/traces.go#L425) |
+| Stdout | field_declaration | codex::p::Item | [426](../../magpie/internal/sessions/traces.go#L426) |
+| AggregatedOutput | field_declaration | codex::p::Item | [427](../../magpie/internal/sessions/traces.go#L427) |
+| ExitCode | field_declaration | codex::p::Item | [428](../../magpie/internal/sessions/traces.go#L428) |
+| base | var_spec | codex | [442](../../magpie/internal/sessions/traces.go#L442) |
+| Text | field_declaration | codex::base | [442](../../magpie/internal/sessions/traces.go#L442) |
+| parent | var_spec | codex | [575](../../magpie/internal/sessions/traces.go#L575) |
+| ok | var_spec | codex | [610](../../magpie/internal/sessions/traces.go#L610) |
+| unfinished | var_spec | codex | [631](../../magpie/internal/sessions/traces.go#L631) |
+| pi | method_declaration |  | [644](../../magpie/internal/sessions/traces.go#L644) |
+| o | var_spec | pi | [645](../../magpie/internal/sessions/traces.go#L645) |
+| Type | field_declaration | pi::o | [646](../../magpie/internal/sessions/traces.go#L646) |
+| Timestamp | field_declaration | pi::o | [647](../../magpie/internal/sessions/traces.go#L647) |
+| Message | field_declaration | pi::o | [648](../../magpie/internal/sessions/traces.go#L648) |
+| Role | field_declaration | pi::o::Message | [649](../../magpie/internal/sessions/traces.go#L649) |
+| Timestamp | field_declaration | pi::o::Message | [650](../../magpie/internal/sessions/traces.go#L650) |
+| IsError | field_declaration | pi::o::Message | [651](../../magpie/internal/sessions/traces.go#L651) |
+| Content | field_declaration | pi::o::Message | [652](../../magpie/internal/sessions/traces.go#L652) |
+| Usage | field_declaration | pi::o::Message | [653](../../magpie/internal/sessions/traces.go#L653) |
+| Data | field_declaration | pi::o | [655](../../magpie/internal/sessions/traces.go#L655) |
+| EndAt | field_declaration | pi::o::Data | [655](../../magpie/internal/sessions/traces.go#L655) |
+| usage | var_spec | pi | [688](../../magpie/internal/sessions/traces.go#L688) |
+| Model | field_declaration | pi::usage | [689](../../magpie/internal/sessions/traces.go#L689) |
+| Usage | field_declaration | pi::usage | [690](../../magpie/internal/sessions/traces.go#L690) |
+| interrupted | var_spec | pi | [703](../../magpie/internal/sessions/traces.go#L703) |
+| content | var_spec | pi | [778](../../magpie/internal/sessions/traces.go#L778) |
+| Type | field_declaration | pi::content | [779](../../magpie/internal/sessions/traces.go#L779) |
+| Arguments | field_declaration | pi::content | [780](../../magpie/internal/sessions/traces.go#L780) |
+| finishPi | method_declaration |  | [814](../../magpie/internal/sessions/traces.go#L814) |
+| spans | var_spec | finishPi | [818](../../magpie/internal/sessions/traces.go#L818) |

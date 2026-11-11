@@ -4,59 +4,61 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/tencent_usage.go) · page 1/1
 
-Source SHA-256: 850a07a5a24e9713432af157bd5d5428a0f6eaef8dc1790221536be43d8e4836
+Source SHA-256: 8ee0133d19e964a3ae2a5bc08a18f859965c5eb780def493400e7a72a556704a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tcAPIHost | const_spec |  | [39](../../magpie/internal/provider/tencent_usage.go#L39) |
-| tcAPIVersion | const_spec |  | [40](../../magpie/internal/provider/tencent_usage.go#L40) |
-| tcAPIService | const_spec |  | [41](../../magpie/internal/provider/tencent_usage.go#L41) |
-| tcContentType | const_spec |  | [42](../../magpie/internal/provider/tencent_usage.go#L42) |
-| tcPlanName | const_spec |  | [43](../../magpie/internal/provider/tencent_usage.go#L43) |
-| tcKeyHint | const_spec |  | [44](../../magpie/internal/provider/tencent_usage.go#L44) |
-| TakesTencentAccessKey | function_declaration |  | [50](../../magpie/internal/provider/tencent_usage.go#L50) |
-| AccessKeyVendor | function_declaration |  | [58](../../magpie/internal/provider/tencent_usage.go#L58) |
-| tencentPlanRegion | function_declaration |  | [72](../../magpie/internal/provider/tencent_usage.go#L72) |
-| tencentPlanQuotas | function_declaration |  | [96](../../magpie/internal/provider/tencent_usage.go#L96) |
-| job | type_spec | tencentPlanQuotas | [97](../../magpie/internal/provider/tencent_usage.go#L97) |
-| p | field_declaration | tencentPlanQuotas::job | [98](../../magpie/internal/provider/tencent_usage.go#L98) |
-| region | field_declaration | tencentPlanQuotas::job | [99](../../magpie/internal/provider/tencent_usage.go#L99) |
-| jobs | var_spec | tencentPlanQuotas | [102](../../magpie/internal/provider/tencent_usage.go#L102) |
-| keyless | var_spec | tencentPlanQuotas | [104](../../magpie/internal/provider/tencent_usage.go#L104) |
-| wg | var_spec | tencentPlanQuotas | [125](../../magpie/internal/provider/tencent_usage.go#L125) |
-| tencentPlanCards | function_declaration |  | [150](../../magpie/internal/provider/tencent_usage.go#L150) |
-| list | var_spec | tencentPlanCards | [156](../../magpie/internal/provider/tencent_usage.go#L156) |
-| Response | field_declaration | tencentPlanCards::list | [157](../../magpie/internal/provider/tencent_usage.go#L157) |
-| TokenPlanSet | field_declaration | tencentPlanCards::list::Response | [158](../../magpie/internal/provider/tencent_usage.go#L158) |
-| plans | var_spec | tencentPlanCards | [170](../../magpie/internal/provider/tencent_usage.go#L170) |
-| wg | var_spec | tencentPlanCards | [182](../../magpie/internal/provider/tencent_usage.go#L182) |
-| one | var_spec | tencentPlanCards | [200](../../magpie/internal/provider/tencent_usage.go#L200) |
-| Response | field_declaration | tencentPlanCards::one | [201](../../magpie/internal/provider/tencent_usage.go#L201) |
-| cards | var_spec | tencentPlanCards | [236](../../magpie/internal/provider/tencent_usage.go#L236) |
-| tcReason | function_declaration |  | [245](../../magpie/internal/provider/tencent_usage.go#L245) |
-| tencentPlan | type_spec |  | [254](../../magpie/internal/provider/tencent_usage.go#L254) |
-| TeamID | field_declaration | tencentPlan | [255](../../magpie/internal/provider/tencent_usage.go#L255) |
-| Name | field_declaration | tencentPlan | [256](../../magpie/internal/provider/tencent_usage.go#L256) |
-| Status | field_declaration | tencentPlan | [257](../../magpie/internal/provider/tencent_usage.go#L257) |
-| StopReason | field_declaration | tencentPlan | [258](../../magpie/internal/provider/tencent_usage.go#L258) |
-| ProductType | field_declaration | tencentPlan | [259](../../magpie/internal/provider/tencent_usage.go#L259) |
-| PackageInfo | field_declaration | tencentPlan | [260](../../magpie/internal/provider/tencent_usage.go#L260) |
-| TotalQuota | field_declaration | tencentPlan::PackageInfo | [261](../../magpie/internal/provider/tencent_usage.go#L261) |
-| TotalUsed | field_declaration | tencentPlan::PackageInfo | [262](../../magpie/internal/provider/tencent_usage.go#L262) |
-| CycleQuota | field_declaration | tencentPlan::PackageInfo | [263](../../magpie/internal/provider/tencent_usage.go#L263) |
-| CycleUnit | field_declaration | tencentPlan::PackageInfo | [264](../../magpie/internal/provider/tencent_usage.go#L264) |
-| CurrentCycle | field_declaration | tencentPlan::PackageInfo | [265](../../magpie/internal/provider/tencent_usage.go#L265) |
-| StartTime | field_declaration | tencentPlan::PackageInfo | [266](../../magpie/internal/provider/tencent_usage.go#L266) |
-| ExpireTime | field_declaration | tencentPlan::PackageInfo | [267](../../magpie/internal/provider/tencent_usage.go#L267) |
-| TokenSummary | field_declaration | tencentPlan | [269](../../magpie/internal/provider/tencent_usage.go#L269) |
-| CycleStartTime | field_declaration | tencentPlan::TokenSummary | [270](../../magpie/internal/provider/tencent_usage.go#L270) |
-| CycleEndTime | field_declaration | tencentPlan::TokenSummary | [271](../../magpie/internal/provider/tencent_usage.go#L271) |
-| window | method_declaration |  | [279](../../magpie/internal/provider/tencent_usage.go#L279) |
-| tc3Sign | function_declaration |  | [328](../../magpie/internal/provider/tencent_usage.go#L328) |
-| signed | const_spec | tc3Sign | [330](../../magpie/internal/provider/tencent_usage.go#L330) |
-| tencentAPICall | function_declaration |  | [354](../../magpie/internal/provider/tencent_usage.go#L354) |
-| env | var_spec | tencentAPICall | [378](../../magpie/internal/provider/tencent_usage.go#L378) |
-| Response | field_declaration | tencentAPICall::env | [379](../../magpie/internal/provider/tencent_usage.go#L379) |
-| Error | field_declaration | tencentAPICall::env::Response | [380](../../magpie/internal/provider/tencent_usage.go#L380) |
-| Code | field_declaration | tencentAPICall::env::Response::Error | [380](../../magpie/internal/provider/tencent_usage.go#L380) |
-| tcRefusesKey | function_declaration |  | [403](../../magpie/internal/provider/tencent_usage.go#L403) |
+| tcAPIHost | const_spec |  | [44](../../magpie/internal/provider/tencent_usage.go#L44) |
+| tcAPIVersion | const_spec |  | [45](../../magpie/internal/provider/tencent_usage.go#L45) |
+| tcAPIService | const_spec |  | [46](../../magpie/internal/provider/tencent_usage.go#L46) |
+| tcContentType | const_spec |  | [47](../../magpie/internal/provider/tencent_usage.go#L47) |
+| tcPlanName | const_spec |  | [48](../../magpie/internal/provider/tencent_usage.go#L48) |
+| tcSharedRegion | const_spec |  | [51](../../magpie/internal/provider/tencent_usage.go#L51) |
+| tcKeyHint | const_spec |  | [52](../../magpie/internal/provider/tencent_usage.go#L52) |
+| TakesTencentAccessKey | function_declaration |  | [58](../../magpie/internal/provider/tencent_usage.go#L58) |
+| AccessKeyVendor | function_declaration |  | [66](../../magpie/internal/provider/tencent_usage.go#L66) |
+| AsksAccessKey | function_declaration |  | [82](../../magpie/internal/provider/tencent_usage.go#L82) |
+| tencentPlanRegion | function_declaration |  | [93](../../magpie/internal/provider/tencent_usage.go#L93) |
+| tencentPlanQuotas | function_declaration |  | [123](../../magpie/internal/provider/tencent_usage.go#L123) |
+| job | type_spec | tencentPlanQuotas | [124](../../magpie/internal/provider/tencent_usage.go#L124) |
+| p | field_declaration | tencentPlanQuotas::job | [125](../../magpie/internal/provider/tencent_usage.go#L125) |
+| region | field_declaration | tencentPlanQuotas::job | [126](../../magpie/internal/provider/tencent_usage.go#L126) |
+| jobs | var_spec | tencentPlanQuotas | [129](../../magpie/internal/provider/tencent_usage.go#L129) |
+| keyless | var_spec | tencentPlanQuotas | [131](../../magpie/internal/provider/tencent_usage.go#L131) |
+| wg | var_spec | tencentPlanQuotas | [154](../../magpie/internal/provider/tencent_usage.go#L154) |
+| tencentPlanCards | function_declaration |  | [185](../../magpie/internal/provider/tencent_usage.go#L185) |
+| list | var_spec | tencentPlanCards | [191](../../magpie/internal/provider/tencent_usage.go#L191) |
+| Response | field_declaration | tencentPlanCards::list | [192](../../magpie/internal/provider/tencent_usage.go#L192) |
+| TokenPlanSet | field_declaration | tencentPlanCards::list::Response | [193](../../magpie/internal/provider/tencent_usage.go#L193) |
+| plans | var_spec | tencentPlanCards | [205](../../magpie/internal/provider/tencent_usage.go#L205) |
+| wg | var_spec | tencentPlanCards | [217](../../magpie/internal/provider/tencent_usage.go#L217) |
+| one | var_spec | tencentPlanCards | [235](../../magpie/internal/provider/tencent_usage.go#L235) |
+| Response | field_declaration | tencentPlanCards::one | [236](../../magpie/internal/provider/tencent_usage.go#L236) |
+| cards | var_spec | tencentPlanCards | [271](../../magpie/internal/provider/tencent_usage.go#L271) |
+| tcReason | function_declaration |  | [280](../../magpie/internal/provider/tencent_usage.go#L280) |
+| tencentPlan | type_spec |  | [289](../../magpie/internal/provider/tencent_usage.go#L289) |
+| TeamID | field_declaration | tencentPlan | [290](../../magpie/internal/provider/tencent_usage.go#L290) |
+| Name | field_declaration | tencentPlan | [291](../../magpie/internal/provider/tencent_usage.go#L291) |
+| Status | field_declaration | tencentPlan | [292](../../magpie/internal/provider/tencent_usage.go#L292) |
+| StopReason | field_declaration | tencentPlan | [293](../../magpie/internal/provider/tencent_usage.go#L293) |
+| ProductType | field_declaration | tencentPlan | [294](../../magpie/internal/provider/tencent_usage.go#L294) |
+| PackageInfo | field_declaration | tencentPlan | [295](../../magpie/internal/provider/tencent_usage.go#L295) |
+| TotalQuota | field_declaration | tencentPlan::PackageInfo | [296](../../magpie/internal/provider/tencent_usage.go#L296) |
+| TotalUsed | field_declaration | tencentPlan::PackageInfo | [297](../../magpie/internal/provider/tencent_usage.go#L297) |
+| CycleQuota | field_declaration | tencentPlan::PackageInfo | [298](../../magpie/internal/provider/tencent_usage.go#L298) |
+| CycleUnit | field_declaration | tencentPlan::PackageInfo | [299](../../magpie/internal/provider/tencent_usage.go#L299) |
+| CurrentCycle | field_declaration | tencentPlan::PackageInfo | [300](../../magpie/internal/provider/tencent_usage.go#L300) |
+| StartTime | field_declaration | tencentPlan::PackageInfo | [301](../../magpie/internal/provider/tencent_usage.go#L301) |
+| ExpireTime | field_declaration | tencentPlan::PackageInfo | [302](../../magpie/internal/provider/tencent_usage.go#L302) |
+| TokenSummary | field_declaration | tencentPlan | [304](../../magpie/internal/provider/tencent_usage.go#L304) |
+| CycleStartTime | field_declaration | tencentPlan::TokenSummary | [305](../../magpie/internal/provider/tencent_usage.go#L305) |
+| CycleEndTime | field_declaration | tencentPlan::TokenSummary | [306](../../magpie/internal/provider/tencent_usage.go#L306) |
+| window | method_declaration |  | [314](../../magpie/internal/provider/tencent_usage.go#L314) |
+| tc3Sign | function_declaration |  | [363](../../magpie/internal/provider/tencent_usage.go#L363) |
+| signed | const_spec | tc3Sign | [365](../../magpie/internal/provider/tencent_usage.go#L365) |
+| tencentAPICall | function_declaration |  | [389](../../magpie/internal/provider/tencent_usage.go#L389) |
+| env | var_spec | tencentAPICall | [413](../../magpie/internal/provider/tencent_usage.go#L413) |
+| Response | field_declaration | tencentAPICall::env | [414](../../magpie/internal/provider/tencent_usage.go#L414) |
+| Error | field_declaration | tencentAPICall::env::Response | [415](../../magpie/internal/provider/tencent_usage.go#L415) |
+| Code | field_declaration | tencentAPICall::env::Response::Error | [415](../../magpie/internal/provider/tencent_usage.go#L415) |
+| tcRefusesKey | function_declaration |  | [438](../../magpie/internal/provider/tencent_usage.go#L438) |

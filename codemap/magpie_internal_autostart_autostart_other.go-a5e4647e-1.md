@@ -4,15 +4,28 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/autostart/autostart_other.go) · page 1/1
 
-Source SHA-256: a972a74474fc2f584e153fc9ee6cdfca53e3916d547afc8da0d42af4f6d70e8f
+Source SHA-256: 420c42074b6c15778567b05670c21d74549908aa08939e9427de7124fc65f451
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| record | function_declaration |  | [15](../../magpie/internal/autostart/autostart_other.go#L15) |
-| entryType | var_spec |  | [28](../../magpie/internal/autostart/autostart_other.go#L28) |
-| entryExec | var_spec |  | [31](../../magpie/internal/autostart/autostart_other.go#L31) |
-| enabled | function_declaration |  | [34](../../magpie/internal/autostart/autostart_other.go#L34) |
-| enable | function_declaration |  | [40](../../magpie/internal/autostart/autostart_other.go#L40) |
-| disable | function_declaration |  | [52](../../magpie/internal/autostart/autostart_other.go#L52) |
-| refresh | function_declaration |  | [60](../../magpie/internal/autostart/autostart_other.go#L60) |
-| heldBack | function_declaration |  | [63](../../magpie/internal/autostart/autostart_other.go#L63) |
+| record | function_declaration |  | [18](../../magpie/internal/autostart/autostart_other.go#L18) |
+| systemRecords | function_declaration |  | [33](../../magpie/internal/autostart/autostart_other.go#L33) |
+| out | var_spec | systemRecords | [39](../../magpie/internal/autostart/autostart_other.go#L39) |
+| keys | function_declaration |  | [59](../../magpie/internal/autostart/autostart_other.go#L59) |
+| isTrue | function_declaration |  | [76](../../magpie/internal/autostart/autostart_other.go#L76) |
+| isFalse | function_declaration |  | [77](../../magpie/internal/autostart/autostart_other.go#L77) |
+| runs | function_declaration |  | [85](../../magpie/internal/autostart/autostart_other.go#L85) |
+| starts | function_declaration |  | [93](../../magpie/internal/autostart/autostart_other.go#L93) |
+| readEntry | var_spec |  | [99](../../magpie/internal/autostart/autostart_other.go#L99) |
+| entryAt | function_declaration |  | [110](../../magpie/internal/autostart/autostart_other.go#L110) |
+| counted | function_declaration |  | [133](../../magpie/internal/autostart/autostart_other.go#L133) |
+| enabled | function_declaration |  | [142](../../magpie/internal/autostart/autostart_other.go#L142) |
+| system | function_declaration |  | [152](../../magpie/internal/autostart/autostart_other.go#L152) |
+| enable | function_declaration |  | [161](../../magpie/internal/autostart/autostart_other.go#L161) |
+| disable | function_declaration |  | [180](../../magpie/internal/autostart/autostart_other.go#L180) |
+| hiddenEntry | const_spec |  | [198](../../magpie/internal/autostart/autostart_other.go#L198) |
+| writeRecord | function_declaration |  | [204](../../magpie/internal/autostart/autostart_other.go#L204) |
+| linked | function_declaration |  | [219](../../magpie/internal/autostart/autostart_other.go#L219) |
+| removeRecord | function_declaration |  | [230](../../magpie/internal/autostart/autostart_other.go#L230) |
+| refresh | function_declaration |  | [242](../../magpie/internal/autostart/autostart_other.go#L242) |
+| heldBack | function_declaration |  | [245](../../magpie/internal/autostart/autostart_other.go#L245) |

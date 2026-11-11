@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/window_holds.go) · page 1/1
 
-Source SHA-256: 642fce2f8f7c321434f8cba5f7acf91445980d8662de8127cb12e5dde609f91f
+Source SHA-256: ed850ed16ca5e3045da9a492974ab8524c04572f5fb7b34e3e8fc4615cafe241
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,20 +14,21 @@ Source SHA-256: 642fce2f8f7c321434f8cba5f7acf91445980d8662de8127cb12e5dde609f91f
 | since | var_spec | holdsSince | [43](../../magpie/internal/usage/window_holds.go#L43) |
 | readAtOf | function_declaration |  | [56](../../magpie/internal/usage/window_holds.go#L56) |
 | holdsBounds | function_declaration |  | [69](../../magpie/internal/usage/window_holds.go#L69) |
-| dryRun | type_spec |  | [96](../../magpie/internal/usage/window_holds.go#L96) |
-| lastLeft | field_declaration | dryRun | [96](../../magpie/internal/usage/window_holds.go#L96) |
-| holds | method_declaration |  | [98](../../magpie/internal/usage/window_holds.go#L98) |
-| dryRuns | function_declaration |  | [104](../../magpie/internal/usage/window_holds.go#L104) |
-| run | var_spec | dryRuns | [136](../../magpie/internal/usage/window_holds.go#L136) |
-| lastLeft | var_spec | dryRuns | [137](../../magpie/internal/usage/window_holds.go#L137) |
-| windowHolds | function_declaration |  | [180](../../magpie/internal/usage/window_holds.go#L180) |
-| slot | type_spec | windowHolds | [181](../../magpie/internal/usage/window_holds.go#L181) |
-| q | field_declaration | windowHolds::slot | [181](../../magpie/internal/usage/window_holds.go#L181) |
-| span | type_spec | windowHolds | [182](../../magpie/internal/usage/window_holds.go#L182) |
-| start | field_declaration | windowHolds::span | [182](../../magpie/internal/usage/window_holds.go#L182) |
-| runKey | type_spec | windowHolds | [210](../../magpie/internal/usage/window_holds.go#L210) |
-| account | field_declaration | windowHolds::runKey | [211](../../magpie/internal/usage/window_holds.go#L211) |
-| run | field_declaration | windowHolds::runKey | [212](../../magpie/internal/usage/window_holds.go#L212) |
-| runs | var_spec | windowHolds | [222](../../magpie/internal/usage/window_holds.go#L222) |
-| apiPricer | function_declaration |  | [299](../../magpie/internal/usage/window_holds.go#L299) |
-| pr | var_spec | apiPricer | [307](../../magpie/internal/usage/window_holds.go#L307) |
+| dryRun | type_spec |  | [102](../../magpie/internal/usage/window_holds.go#L102) |
+| lastLeft | field_declaration | dryRun | [102](../../magpie/internal/usage/window_holds.go#L102) |
+| holds | method_declaration |  | [104](../../magpie/internal/usage/window_holds.go#L104) |
+| dryRuns | function_declaration |  | [110](../../magpie/internal/usage/window_holds.go#L110) |
+| run | var_spec | dryRuns | [142](../../magpie/internal/usage/window_holds.go#L142) |
+| lastLeft | var_spec | dryRuns | [143](../../magpie/internal/usage/window_holds.go#L143) |
+| windowHolds | function_declaration |  | [189](../../magpie/internal/usage/window_holds.go#L189) |
+| slot | type_spec | windowHolds | [190](../../magpie/internal/usage/window_holds.go#L190) |
+| q | field_declaration | windowHolds::slot | [190](../../magpie/internal/usage/window_holds.go#L190) |
+| span | type_spec | windowHolds | [191](../../magpie/internal/usage/window_holds.go#L191) |
+| start | field_declaration | windowHolds::span | [191](../../magpie/internal/usage/window_holds.go#L191) |
+| runKey | type_spec | windowHolds | [219](../../magpie/internal/usage/window_holds.go#L219) |
+| account | field_declaration | windowHolds::runKey | [220](../../magpie/internal/usage/window_holds.go#L220) |
+| run | field_declaration | windowHolds::runKey | [221](../../magpie/internal/usage/window_holds.go#L221) |
+| runs | var_spec | windowHolds | [242](../../magpie/internal/usage/window_holds.go#L242) |
+| baseRates | function_declaration |  | [327](../../magpie/internal/usage/window_holds.go#L327) |
+| apiPricer | function_declaration |  | [340](../../magpie/internal/usage/window_holds.go#L340) |
+| pr | var_spec | apiPricer | [374](../../magpie/internal/usage/window_holds.go#L374) |

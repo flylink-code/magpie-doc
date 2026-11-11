@@ -4,31 +4,53 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/redact.go) · page 1/1
 
-Source SHA-256: 7d71d41e9854994200472f92617f862424d6b8af23acb3dc7a76fae85e4d56ed
+Source SHA-256: 07b7001b9d30cc6a1b8b46589ff044ca20527086232ad5884bc1cad93ad9eaea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| redacted | function_declaration |  | [22](../../magpie/internal/gateway/redact.go#L22) |
-| redactedHits | function_declaration |  | [30](../../magpie/internal/gateway/redact.go#L30) |
-| out | type_spec | redactedHits | [35](../../magpie/internal/gateway/redact.go#L35) |
-| b | field_declaration | redactedHits::out | [36](../../magpie/internal/gateway/redact.go#L36) |
-| h | field_declaration | redactedHits::out | [37](../../magpie/internal/gateway/redact.go#L37) |
-| toldBack | function_declaration |  | [70](../../magpie/internal/gateway/redact.go#L70) |
-| redactedPrompt | function_declaration |  | [86](../../magpie/internal/gateway/redact.go#L86) |
-| redactedPromptHits | function_declaration |  | [92](../../magpie/internal/gateway/redact.go#L92) |
-| maskedText | function_declaration |  | [107](../../magpie/internal/gateway/redact.go#L107) |
-| maskTextHits | function_declaration |  | [115](../../magpie/internal/gateway/redact.go#L115) |
-| out | type_spec | maskTextHits | [120](../../magpie/internal/gateway/redact.go#L120) |
-| s | field_declaration | maskTextHits::out | [121](../../magpie/internal/gateway/redact.go#L121) |
-| h | field_declaration | maskTextHits::out | [122](../../magpie/internal/gateway/redact.go#L122) |
-| hitsOf | function_declaration |  | [150](../../magpie/internal/gateway/redact.go#L150) |
-| maskBlocked | type_spec |  | [163](../../magpie/internal/gateway/redact.go#L163) |
-| hit | field_declaration | maskBlocked | [163](../../magpie/internal/gateway/redact.go#L163) |
-| Error | method_declaration |  | [165](../../magpie/internal/gateway/redact.go#L165) |
-| blocked | function_declaration |  | [175](../../magpie/internal/gateway/redact.go#L175) |
-| maskStatus | function_declaration |  | [188](../../magpie/internal/gateway/redact.go#L188) |
-| restored | function_declaration |  | [197](../../magpie/internal/gateway/redact.go#L197) |
-| restoring | function_declaration |  | [206](../../magpie/internal/gateway/redact.go#L206) |
-| redactionWanted | function_declaration |  | [217](../../magpie/internal/gateway/redact.go#L217) |
-| maskedQuery | function_declaration |  | [228](../../magpie/internal/gateway/redact.go#L228) |
-| unredactedRoute | function_declaration |  | [248](../../magpie/internal/gateway/redact.go#L248) |
+| redacted | function_declaration |  | [26](../../magpie/internal/gateway/redact.go#L26) |
+| redactedHits | function_declaration |  | [34](../../magpie/internal/gateway/redact.go#L34) |
+| out | type_spec | redactedHits | [39](../../magpie/internal/gateway/redact.go#L39) |
+| b | field_declaration | redactedHits::out | [40](../../magpie/internal/gateway/redact.go#L40) |
+| h | field_declaration | redactedHits::out | [41](../../magpie/internal/gateway/redact.go#L41) |
+| toldBack | function_declaration |  | [79](../../magpie/internal/gateway/redact.go#L79) |
+| redactedPrompt | function_declaration |  | [95](../../magpie/internal/gateway/redact.go#L95) |
+| redactedPromptHits | function_declaration |  | [101](../../magpie/internal/gateway/redact.go#L101) |
+| maskedText | function_declaration |  | [117](../../magpie/internal/gateway/redact.go#L117) |
+| maskTextHits | function_declaration |  | [125](../../magpie/internal/gateway/redact.go#L125) |
+| out | type_spec | maskTextHits | [130](../../magpie/internal/gateway/redact.go#L130) |
+| s | field_declaration | maskTextHits::out | [131](../../magpie/internal/gateway/redact.go#L131) |
+| h | field_declaration | maskTextHits::out | [132](../../magpie/internal/gateway/redact.go#L132) |
+| hitsOf | function_declaration |  | [160](../../magpie/internal/gateway/redact.go#L160) |
+| maskBlocked | type_spec |  | [173](../../magpie/internal/gateway/redact.go#L173) |
+| hit | field_declaration | maskBlocked | [173](../../magpie/internal/gateway/redact.go#L173) |
+| Error | method_declaration |  | [175](../../magpie/internal/gateway/redact.go#L175) |
+| blocked | function_declaration |  | [185](../../magpie/internal/gateway/redact.go#L185) |
+| maskStatus | function_declaration |  | [198](../../magpie/internal/gateway/redact.go#L198) |
+| restored | function_declaration |  | [207](../../magpie/internal/gateway/redact.go#L207) |
+| restoring | function_declaration |  | [216](../../magpie/internal/gateway/redact.go#L216) |
+| maskedAsKey | type_spec |  | [225](../../magpie/internal/gateway/redact.go#L225) |
+| withMaskedAs | function_declaration |  | [230](../../magpie/internal/gateway/redact.go#L230) |
+| maskedAsOf | function_declaration |  | [239](../../magpie/internal/gateway/redact.go#L239) |
+| maskedBefore | function_declaration |  | [257](../../magpie/internal/gateway/redact.go#L257) |
+| ownMaskedAs | function_declaration |  | [270](../../magpie/internal/gateway/redact.go#L270) |
+| redactionWanted | function_declaration |  | [282](../../magpie/internal/gateway/redact.go#L282) |
+| maskedQuery | function_declaration |  | [293](../../magpie/internal/gateway/redact.go#L293) |
+| maskedCopy | function_declaration |  | [310](../../magpie/internal/gateway/redact.go#L310) |
+| laterMasked | type_spec |  | [336](../../magpie/internal/gateway/redact.go#L336) |
+| once | field_declaration | laterMasked | [337](../../magpie/internal/gateway/redact.go#L337) |
+| ctx | field_declaration | laterMasked | [338](../../magpie/internal/gateway/redact.go#L338) |
+| plain | field_declaration | laterMasked | [339](../../magpie/internal/gateway/redact.go#L339) |
+| b | field_declaration | laterMasked | [340](../../magpie/internal/gateway/redact.go#L340) |
+| body | method_declaration |  | [343](../../magpie/internal/gateway/redact.go#L343) |
+| unredactedRoute | function_declaration |  | [358](../../magpie/internal/gateway/redact.go#L358) |
+| afterMembers | function_declaration |  | [374](../../magpie/internal/gateway/redact.go#L374) |
+| unmaskedMembers | function_declaration |  | [393](../../magpie/internal/gateway/redact.go#L393) |
+| maskedFor | function_declaration |  | [403](../../magpie/internal/gateway/redact.go#L403) |
+| ids | var_spec | maskedFor | [404](../../magpie/internal/gateway/redact.go#L404) |
+| agentTurnKey | type_spec |  | [420](../../magpie/internal/gateway/redact.go#L420) |
+| agentTurn | function_declaration |  | [422](../../magpie/internal/gateway/redact.go#L422) |
+| isAgentTurn | function_declaration |  | [426](../../magpie/internal/gateway/redact.go#L426) |
+| MaskRoute | function_declaration |  | [436](../../magpie/internal/gateway/redact.go#L436) |
+| maskRouteFor | function_declaration |  | [460](../../magpie/internal/gateway/redact.go#L460) |
+| codexMaskRoute | function_declaration |  | [482](../../magpie/internal/gateway/redact.go#L482) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/autolist.go) · page 1/1
 
-Source SHA-256: 76de7824c76829f53be82d3b02ba5d3208e69f30a4c4ad1c5f9a831c6f089744
+Source SHA-256: 7575784b0562af55fd7f9f20e7c4b76607e7ec7e0a31a1be0456eb06566871de
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -33,4 +33,4 @@ Source SHA-256: 76de7824c76829f53be82d3b02ba5d3208e69f30a4c4ad1c5f9a831c6f089744
 | wait | var_spec | KeepListsFresh | [273](../../magpie/internal/provider/autolist.go#L273) |
 | refreshDueLists | function_declaration |  | [288](../../magpie/internal/provider/autolist.go#L288) |
 | asked | var_spec | refreshDueLists | [289](../../magpie/internal/provider/autolist.go#L289) |
-| listNote | function_declaration |  | [331](../../magpie/internal/provider/autolist.go#L331) |
+| listNote | function_declaration |  | [345](../../magpie/internal/provider/autolist.go#L345) |

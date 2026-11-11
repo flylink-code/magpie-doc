@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/google_import.go) · page 1/1
 
-Source SHA-256: 1bdf3ae5807d1aa769344f8e778a584ea3a5f9bf161dc4dde3c89e013c7abc30
+Source SHA-256: 9c99850a13d287c9d79e67884c6fa32449921cbe1dc0e309709d159768821919
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,21 +4,22 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claude_proxy_env.go) · page 1/1
 
-Source SHA-256: 9eac3c6e07b3af7c7116ed9332b270658f1648017b5824b9a77ba48eceeeb05f
+Source SHA-256: 7f984a3a87afef0ab096f660afe2934812af3fcc59a530b70b3360cf2c4adcb7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeProxyAddr | var_spec |  | [41](../../magpie/internal/provider/claude_proxy_env.go#L41) |
-| claudeProxyWrites | var_spec |  | [44](../../magpie/internal/provider/claude_proxy_env.go#L44) |
-| claudeNoProxy | const_spec |  | [48](../../magpie/internal/provider/claude_proxy_env.go#L48) |
-| claudeProxyEnvMu | var_spec |  | [50](../../magpie/internal/provider/claude_proxy_env.go#L50) |
-| claudeProxyRecordPath | function_declaration |  | [52](../../magpie/internal/provider/claude_proxy_env.go#L52) |
-| claudeSettingsFile | function_declaration |  | [56](../../magpie/internal/provider/claude_proxy_env.go#L56) |
-| readClaudeProxyRecord | function_declaration |  | [61](../../magpie/internal/provider/claude_proxy_env.go#L61) |
-| writeClaudeProxyRecord | function_declaration |  | [76](../../magpie/internal/provider/claude_proxy_env.go#L76) |
-| claudeAccountProxy | function_declaration |  | [96](../../magpie/internal/provider/claude_proxy_env.go#L96) |
-| SyncClaudeProxyEnv | function_declaration |  | [120](../../magpie/internal/provider/claude_proxy_env.go#L120) |
-| setClaudeProxyEnv | function_declaration |  | [124](../../magpie/internal/provider/claude_proxy_env.go#L124) |
-| del | var_spec | setClaudeProxyEnv | [164](../../magpie/internal/provider/claude_proxy_env.go#L164) |
-| kvs | var_spec | setClaudeProxyEnv | [202](../../magpie/internal/provider/claude_proxy_env.go#L202) |
-| syncClaudeProxyEnvNow | function_declaration |  | [230](../../magpie/internal/provider/claude_proxy_env.go#L230) |
+| claudeProxyAddr | var_spec |  | [42](../../magpie/internal/provider/claude_proxy_env.go#L42) |
+| claudeProxyWrites | var_spec |  | [45](../../magpie/internal/provider/claude_proxy_env.go#L45) |
+| claudeNoProxy | const_spec |  | [49](../../magpie/internal/provider/claude_proxy_env.go#L49) |
+| claudeProxyEnvMu | var_spec |  | [51](../../magpie/internal/provider/claude_proxy_env.go#L51) |
+| claudeProxyRecordPath | function_declaration |  | [53](../../magpie/internal/provider/claude_proxy_env.go#L53) |
+| claudeSettingsFile | function_declaration |  | [57](../../magpie/internal/provider/claude_proxy_env.go#L57) |
+| readClaudeProxyRecord | function_declaration |  | [62](../../magpie/internal/provider/claude_proxy_env.go#L62) |
+| writeClaudeProxyRecord | function_declaration |  | [77](../../magpie/internal/provider/claude_proxy_env.go#L77) |
+| claudeAccountProxy | function_declaration |  | [97](../../magpie/internal/provider/claude_proxy_env.go#L97) |
+| SyncClaudeProxyEnv | function_declaration |  | [125](../../magpie/internal/provider/claude_proxy_env.go#L125) |
+| setClaudeProxyEnv | function_declaration |  | [129](../../magpie/internal/provider/claude_proxy_env.go#L129) |
+| del | var_spec | setClaudeProxyEnv | [169](../../magpie/internal/provider/claude_proxy_env.go#L169) |
+| kvs | var_spec | setClaudeProxyEnv | [207](../../magpie/internal/provider/claude_proxy_env.go#L207) |
+| syncClaudeProxyEnvNow | function_declaration |  | [235](../../magpie/internal/provider/claude_proxy_env.go#L235) |
+| ProxyEdited | function_declaration |  | [255](../../magpie/internal/provider/claude_proxy_env.go#L255) |

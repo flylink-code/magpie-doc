@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/zed.go) · page 1/1
 
-Source SHA-256: d5338e790da534453ce03c3971f6a1a5d6f332b587f30a00789aa282efd6d748
+Source SHA-256: 24d7dd16a260e5afedee5627ff7af9d9c8884191eaa2570eb56b6fe8c49e1605
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,14 +14,18 @@ Source SHA-256: d5338e790da534453ce03c3971f6a1a5d6f332b587f30a00789aa282efd6d748
 | zed | function_declaration |  | [25](../../magpie/internal/agent/zed.go#L25) |
 | zedAt | function_declaration |  | [47](../../magpie/internal/agent/zed.go#L47) |
 | zedAtWith | function_declaration |  | [51](../../magpie/internal/agent/zed.go#L51) |
-| name | field_declaration | zedAtWith | [103](../../magpie/internal/agent/zed.go#L103) |
-| own | var_spec | zedAtWith | [127](../../magpie/internal/agent/zed.go#L127) |
-| zedProcessNames | function_declaration |  | [137](../../magpie/internal/agent/zed.go#L137) |
-| out | var_spec | zedProcessNames | [142](../../magpie/internal/agent/zed.go#L142) |
-| zedLevels | var_spec |  | [160](../../magpie/internal/agent/zed.go#L160) |
-| zedEffort | function_declaration |  | [170](../../magpie/internal/agent/zed.go#L170) |
-| zedProviderJSON | function_declaration |  | [191](../../magpie/internal/agent/zed.go#L191) |
-| cur | var_spec | zedProviderJSON | [194](../../magpie/internal/agent/zed.go#L194) |
-| Name | field_declaration | zedProviderJSON::cur | [195](../../magpie/internal/agent/zed.go#L195) |
-| Effort | field_declaration | zedProviderJSON::cur | [196](../../magpie/internal/agent/zed.go#L196) |
-| noticeZed | var_spec |  | [246](../../magpie/internal/agent/zed.go#L246) |
+| name | field_declaration | zedAtWith | [109](../../magpie/internal/agent/zed.go#L109) |
+| own | var_spec | zedAtWith | [133](../../magpie/internal/agent/zed.go#L133) |
+| zedProcessNames | function_declaration |  | [143](../../magpie/internal/agent/zed.go#L143) |
+| out | var_spec | zedProcessNames | [148](../../magpie/internal/agent/zed.go#L148) |
+| zedLevels | var_spec |  | [166](../../magpie/internal/agent/zed.go#L166) |
+| zedEffort | function_declaration |  | [176](../../magpie/internal/agent/zed.go#L176) |
+| zedProviderJSON | function_declaration |  | [197](../../magpie/internal/agent/zed.go#L197) |
+| cur | var_spec | zedProviderJSON | [200](../../magpie/internal/agent/zed.go#L200) |
+| Name | field_declaration | zedProviderJSON::cur | [201](../../magpie/internal/agent/zed.go#L201) |
+| Effort | field_declaration | zedProviderJSON::cur | [202](../../magpie/internal/agent/zed.go#L202) |
+| zedReach | function_declaration |  | [255](../../magpie/internal/agent/zed.go#L255) |
+| zedRouted | function_declaration |  | [270](../../magpie/internal/agent/zed.go#L270) |
+| ZedThrough | function_declaration |  | [280](../../magpie/internal/agent/zed.go#L280) |
+| ZedURL | function_declaration |  | [296](../../magpie/internal/agent/zed.go#L296) |
+| noticeZed | var_spec |  | [303](../../magpie/internal/agent/zed.go#L303) |

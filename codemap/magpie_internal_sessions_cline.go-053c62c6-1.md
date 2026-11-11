@@ -4,46 +4,53 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/cline.go) · page 1/1
 
-Source SHA-256: 027eb035a7520182b80d753e315bd6b39965f8ca7a13bb3d8e37f1ca5f4bbc49
+Source SHA-256: 57247586fe6145d218b451b0f627b4c39312692819af7ee27c27b736f28abbd9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ClineSessionDir | function_declaration |  | [29](../../magpie/internal/sessions/cline.go#L29) |
 | clineFiles | function_declaration |  | [45](../../magpie/internal/sessions/cline.go#L45) |
-| out | var_spec | clineFiles | [47](../../magpie/internal/sessions/cline.go#L47) |
-| clineManifest | type_spec |  | [70](../../magpie/internal/sessions/cline.go#L70) |
-| SessionID | field_declaration | clineManifest | [71](../../magpie/internal/sessions/cline.go#L71) |
-| StartedAt | field_declaration | clineManifest | [72](../../magpie/internal/sessions/cline.go#L72) |
-| Cwd | field_declaration | clineManifest | [73](../../magpie/internal/sessions/cline.go#L73) |
-| Prompt | field_declaration | clineManifest | [74](../../magpie/internal/sessions/cline.go#L74) |
-| Metadata | field_declaration | clineManifest | [75](../../magpie/internal/sessions/cline.go#L75) |
-| Title | field_declaration | clineManifest::Metadata | [76](../../magpie/internal/sessions/cline.go#L76) |
-| Fork | field_declaration | clineManifest::Metadata | [77](../../magpie/internal/sessions/cline.go#L77) |
-| ForkedAt | field_declaration | clineManifest::Metadata::Fork | [78](../../magpie/internal/sessions/cline.go#L78) |
-| clineMessage | type_spec |  | [83](../../magpie/internal/sessions/cline.go#L83) |
-| Role | field_declaration | clineMessage | [84](../../magpie/internal/sessions/cline.go#L84) |
-| Content | field_declaration | clineMessage | [85](../../magpie/internal/sessions/cline.go#L85) |
-| TS | field_declaration | clineMessage | [86](../../magpie/internal/sessions/cline.go#L86) |
-| ModelInfo | field_declaration | clineMessage | [87](../../magpie/internal/sessions/cline.go#L87) |
-| ID | field_declaration | clineMessage::ModelInfo | [88](../../magpie/internal/sessions/cline.go#L88) |
-| Metrics | field_declaration | clineMessage | [90](../../magpie/internal/sessions/cline.go#L90) |
-| Input | field_declaration | clineMessage::Metrics | [91](../../magpie/internal/sessions/cline.go#L91) |
-| Output | field_declaration | clineMessage::Metrics | [92](../../magpie/internal/sessions/cline.go#L92) |
-| CacheRead | field_declaration | clineMessage::Metrics | [93](../../magpie/internal/sessions/cline.go#L93) |
-| CacheWrite | field_declaration | clineMessage::Metrics | [94](../../magpie/internal/sessions/cline.go#L94) |
-| clineCarry | type_spec |  | [102](../../magpie/internal/sessions/cline.go#L102) |
-| Size | field_declaration | clineCarry | [103](../../magpie/internal/sessions/cline.go#L103) |
-| Mod | field_declaration | clineCarry | [104](../../magpie/internal/sessions/cline.go#L104) |
-| Since | field_declaration | clineCarry | [105](../../magpie/internal/sessions/cline.go#L105) |
-| Start | field_declaration | clineCarry | [106](../../magpie/internal/sessions/cline.go#L106) |
-| Prompt | field_declaration | clineCarry | [107](../../magpie/internal/sessions/cline.go#L107) |
-| parseCline | function_declaration |  | [115](../../magpie/internal/sessions/cline.go#L115) |
-| since | var_spec | parseCline | [116](../../magpie/internal/sessions/cline.go#L116) |
-| m | var_spec | parseCline | [117](../../magpie/internal/sessions/cline.go#L117) |
-| doc | var_spec | parseCline | [163](../../magpie/internal/sessions/cline.go#L163) |
-| Messages | field_declaration | parseCline::doc | [164](../../magpie/internal/sessions/cline.go#L164) |
-| t | var_spec | parseCline | [174](../../magpie/internal/sessions/cline.go#L174) |
-| clineHook | var_spec |  | [195](../../magpie/internal/sessions/cline.go#L195) |
-| clineNotice | var_spec |  | [198](../../magpie/internal/sessions/cline.go#L198) |
-| clineInput | var_spec |  | [199](../../magpie/internal/sessions/cline.go#L199) |
-| clineTitle | function_declaration |  | [204](../../magpie/internal/sessions/cline.go#L204) |
+| out | var_spec | clineFiles | [50](../../magpie/internal/sessions/cline.go#L50) |
+| clineManifest | type_spec |  | [73](../../magpie/internal/sessions/cline.go#L73) |
+| SessionID | field_declaration | clineManifest | [74](../../magpie/internal/sessions/cline.go#L74) |
+| StartedAt | field_declaration | clineManifest | [75](../../magpie/internal/sessions/cline.go#L75) |
+| Cwd | field_declaration | clineManifest | [76](../../magpie/internal/sessions/cline.go#L76) |
+| Prompt | field_declaration | clineManifest | [77](../../magpie/internal/sessions/cline.go#L77) |
+| Metadata | field_declaration | clineManifest | [78](../../magpie/internal/sessions/cline.go#L78) |
+| Title | field_declaration | clineManifest::Metadata | [79](../../magpie/internal/sessions/cline.go#L79) |
+| Fork | field_declaration | clineManifest::Metadata | [80](../../magpie/internal/sessions/cline.go#L80) |
+| ForkedAt | field_declaration | clineManifest::Metadata::Fork | [81](../../magpie/internal/sessions/cline.go#L81) |
+| clineMessage | type_spec |  | [86](../../magpie/internal/sessions/cline.go#L86) |
+| Role | field_declaration | clineMessage | [87](../../magpie/internal/sessions/cline.go#L87) |
+| Content | field_declaration | clineMessage | [88](../../magpie/internal/sessions/cline.go#L88) |
+| TS | field_declaration | clineMessage | [89](../../magpie/internal/sessions/cline.go#L89) |
+| ModelInfo | field_declaration | clineMessage | [90](../../magpie/internal/sessions/cline.go#L90) |
+| ID | field_declaration | clineMessage::ModelInfo | [91](../../magpie/internal/sessions/cline.go#L91) |
+| Metrics | field_declaration | clineMessage | [93](../../magpie/internal/sessions/cline.go#L93) |
+| Input | field_declaration | clineMessage::Metrics | [94](../../magpie/internal/sessions/cline.go#L94) |
+| Output | field_declaration | clineMessage::Metrics | [95](../../magpie/internal/sessions/cline.go#L95) |
+| CacheRead | field_declaration | clineMessage::Metrics | [96](../../magpie/internal/sessions/cline.go#L96) |
+| CacheWrite | field_declaration | clineMessage::Metrics | [97](../../magpie/internal/sessions/cline.go#L97) |
+| clineCarry | type_spec |  | [105](../../magpie/internal/sessions/cline.go#L105) |
+| Size | field_declaration | clineCarry | [106](../../magpie/internal/sessions/cline.go#L106) |
+| Mod | field_declaration | clineCarry | [107](../../magpie/internal/sessions/cline.go#L107) |
+| Since | field_declaration | clineCarry | [108](../../magpie/internal/sessions/cline.go#L108) |
+| Start | field_declaration | clineCarry | [109](../../magpie/internal/sessions/cline.go#L109) |
+| Prompt | field_declaration | clineCarry | [110](../../magpie/internal/sessions/cline.go#L110) |
+| parseCline | function_declaration |  | [118](../../magpie/internal/sessions/cline.go#L118) |
+| since | var_spec | parseCline | [119](../../magpie/internal/sessions/cline.go#L119) |
+| m | var_spec | parseCline | [120](../../magpie/internal/sessions/cline.go#L120) |
+| doc | var_spec | parseCline | [166](../../magpie/internal/sessions/cline.go#L166) |
+| Messages | field_declaration | parseCline::doc | [167](../../magpie/internal/sessions/cline.go#L167) |
+| t | var_spec | parseCline | [177](../../magpie/internal/sessions/cline.go#L177) |
+| clineTools | function_declaration |  | [207](../../magpie/internal/sessions/cline.go#L207) |
+| blocks | var_spec | clineTools | [208](../../magpie/internal/sessions/cline.go#L208) |
+| Type | field_declaration | clineTools::blocks | [209](../../magpie/internal/sessions/cline.go#L209) |
+| Name | field_declaration | clineTools::blocks | [210](../../magpie/internal/sessions/cline.go#L210) |
+| Input | field_declaration | clineTools::blocks | [211](../../magpie/internal/sessions/cline.go#L211) |
+| Skill | field_declaration | clineTools::blocks::Input | [212](../../magpie/internal/sessions/cline.go#L212) |
+| out | var_spec | clineTools | [218](../../magpie/internal/sessions/cline.go#L218) |
+| clineHook | var_spec |  | [234](../../magpie/internal/sessions/cline.go#L234) |
+| clineNotice | var_spec |  | [237](../../magpie/internal/sessions/cline.go#L237) |
+| clineInput | var_spec |  | [238](../../magpie/internal/sessions/cline.go#L238) |
+| clineTitle | function_declaration |  | [243](../../magpie/internal/sessions/cline.go#L243) |

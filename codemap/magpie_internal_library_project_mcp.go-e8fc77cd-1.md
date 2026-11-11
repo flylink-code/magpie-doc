@@ -4,22 +4,22 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/project_mcp.go) · page 1/1
 
-Source SHA-256: de250501dfe7f21251e246d190c4c35a10378877b71bae155d220467a4aacd48
+Source SHA-256: 3c21c8ec5a233c0b7e2a7969ff6d8d54babfb13dfe66ace445a4022c04d95248
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| projectMCPFiles | var_spec |  | [40](../../magpie/internal/library/project_mcp.go#L40) |
-| rel | field_declaration | projectMCPFiles | [41](../../magpie/internal/library/project_mcp.go#L41) |
-| format | field_declaration | projectMCPFiles | [42](../../magpie/internal/library/project_mcp.go#L42) |
-| ProjectMCPFile | function_declaration |  | [59](../../magpie/internal/library/project_mcp.go#L59) |
-| ProjectNoSSE | function_declaration |  | [63](../../magpie/internal/library/project_mcp.go#L63) |
-| mcpRel | method_declaration |  | [71](../../magpie/internal/library/project_mcp.go#L71) |
-| formatOfRel | function_declaration |  | [86](../../magpie/internal/library/project_mcp.go#L86) |
-| syncProjectMCP | method_declaration |  | [105](../../magpie/internal/library/project_mcp.go#L105) |
-| mine | var_spec | syncProjectMCP | [171](../../magpie/internal/library/project_mcp.go#L171) |
-| blankFile | function_declaration |  | [252](../../magpie/internal/library/project_mcp.go#L252) |
-| doc | var_spec | blankFile | [260](../../magpie/internal/library/project_mcp.go#L260) |
-| blankMap | function_declaration |  | [269](../../magpie/internal/library/project_mcp.go#L269) |
-| ProjectServer | function_declaration |  | [281](../../magpie/internal/library/project_mcp.go#L281) |
-| ids | var_spec | ProjectServer | [290](../../magpie/internal/library/project_mcp.go#L290) |
-| renameProjectServers | method_declaration |  | [310](../../magpie/internal/library/project_mcp.go#L310) |
+| projectMCPFiles | var_spec |  | [44](../../magpie/internal/library/project_mcp.go#L44) |
+| rel | field_declaration | projectMCPFiles | [45](../../magpie/internal/library/project_mcp.go#L45) |
+| format | field_declaration | projectMCPFiles | [46](../../magpie/internal/library/project_mcp.go#L46) |
+| ProjectMCPFile | function_declaration |  | [63](../../magpie/internal/library/project_mcp.go#L63) |
+| ProjectNoSSE | function_declaration |  | [67](../../magpie/internal/library/project_mcp.go#L67) |
+| mcpRel | method_declaration |  | [75](../../magpie/internal/library/project_mcp.go#L75) |
+| formatOfRel | function_declaration |  | [90](../../magpie/internal/library/project_mcp.go#L90) |
+| syncProjectMCP | method_declaration |  | [114](../../magpie/internal/library/project_mcp.go#L114) |
+| mine | var_spec | syncProjectMCP | [186](../../magpie/internal/library/project_mcp.go#L186) |
+| blankFile | function_declaration |  | [273](../../magpie/internal/library/project_mcp.go#L273) |
+| doc | var_spec | blankFile | [281](../../magpie/internal/library/project_mcp.go#L281) |
+| blankMap | function_declaration |  | [290](../../magpie/internal/library/project_mcp.go#L290) |
+| ProjectServer | function_declaration |  | [302](../../magpie/internal/library/project_mcp.go#L302) |
+| ids | var_spec | ProjectServer | [311](../../magpie/internal/library/project_mcp.go#L311) |
+| renameProjectServers | method_declaration |  | [331](../../magpie/internal/library/project_mcp.go#L331) |

@@ -4,30 +4,31 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/test_as.go) · page 1/1
 
-Source SHA-256: b28798c5fcb43b00297999e72103143767649d06aac17d4505d9f43a075f5ff8
+Source SHA-256: 4d78b5dd8e1514783671a4064b79e074dd2774a226525a21ff0c027c87f1a6c3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ClientCodex | const_spec |  | [35](../../magpie/internal/provider/test_as.go#L35) |
-| ClientClaudeCode | const_spec |  | [36](../../magpie/internal/provider/test_as.go#L36) |
-| testClientKey | type_spec |  | [39](../../magpie/internal/provider/test_as.go#L39) |
-| TestAs | function_declaration |  | [43](../../magpie/internal/provider/test_as.go#L43) |
-| testClient | function_declaration |  | [47](../../magpie/internal/provider/test_as.go#L47) |
-| clientProto | function_declaration |  | [55](../../magpie/internal/provider/test_as.go#L55) |
-| TestsAs | method_declaration |  | [69](../../magpie/internal/provider/test_as.go#L69) |
-| clientShapes | var_spec |  | [105](../../magpie/internal/provider/test_as.go#L105) |
-| written | field_declaration | clientShapes | [107](../../magpie/internal/provider/test_as.go#L107) |
-| clientShapesPath | function_declaration |  | [110](../../magpie/internal/provider/test_as.go#L110) |
-| shapeHeader | function_declaration |  | [120](../../magpie/internal/provider/test_as.go#L120) |
-| SawClient | function_declaration |  | [132](../../magpie/internal/provider/test_as.go#L132) |
-| readClientShapes | function_declaration |  | [163](../../magpie/internal/provider/test_as.go#L163) |
-| equalHeaders | function_declaration |  | [174](../../magpie/internal/provider/test_as.go#L174) |
-| clientShape | function_declaration |  | [180](../../magpie/internal/provider/test_as.go#L180) |
-| clientHeaders | function_declaration |  | [188](../../magpie/internal/provider/test_as.go#L188) |
-| asClient | function_declaration |  | [202](../../magpie/internal/provider/test_as.go#L202) |
-| m | var_spec | asClient | [203](../../magpie/internal/provider/test_as.go#L203) |
-| errNotSeen | const_spec |  | [219](../../magpie/internal/provider/test_as.go#L219) |
-| TestClients | method_declaration |  | [224](../../magpie/internal/provider/test_as.go#L224) |
+| ClientCodex | const_spec |  | [38](../../magpie/internal/provider/test_as.go#L38) |
+| ClientClaudeCode | const_spec |  | [39](../../magpie/internal/provider/test_as.go#L39) |
+| testClientKey | type_spec |  | [42](../../magpie/internal/provider/test_as.go#L42) |
+| TestAs | function_declaration |  | [46](../../magpie/internal/provider/test_as.go#L46) |
+| testClient | function_declaration |  | [50](../../magpie/internal/provider/test_as.go#L50) |
+| clientProto | function_declaration |  | [58](../../magpie/internal/provider/test_as.go#L58) |
+| TestsAs | method_declaration |  | [72](../../magpie/internal/provider/test_as.go#L72) |
+| clientShapes | var_spec |  | [113](../../magpie/internal/provider/test_as.go#L113) |
+| written | field_declaration | clientShapes | [115](../../magpie/internal/provider/test_as.go#L115) |
+| clientShapesPath | function_declaration |  | [118](../../magpie/internal/provider/test_as.go#L118) |
+| shapeHeader | function_declaration |  | [128](../../magpie/internal/provider/test_as.go#L128) |
+| SawClient | function_declaration |  | [140](../../magpie/internal/provider/test_as.go#L140) |
+| readClientShapes | function_declaration |  | [171](../../magpie/internal/provider/test_as.go#L171) |
+| equalHeaders | function_declaration |  | [182](../../magpie/internal/provider/test_as.go#L182) |
+| shapeParses | var_spec |  | [187](../../magpie/internal/provider/test_as.go#L187) |
+| clientShape | function_declaration |  | [194](../../magpie/internal/provider/test_as.go#L194) |
+| clientHeaders | function_declaration |  | [209](../../magpie/internal/provider/test_as.go#L209) |
+| asClient | function_declaration |  | [223](../../magpie/internal/provider/test_as.go#L223) |
+| m | var_spec | asClient | [224](../../magpie/internal/provider/test_as.go#L224) |
+| errNotSeen | const_spec |  | [240](../../magpie/internal/provider/test_as.go#L240) |
+| TestClients | method_declaration |  | [245](../../magpie/internal/provider/test_as.go#L245) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 175: ERROR
+- line 183: ERROR

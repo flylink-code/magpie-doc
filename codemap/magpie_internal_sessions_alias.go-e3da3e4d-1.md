@@ -4,17 +4,27 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/alias.go) · page 1/1
 
-Source SHA-256: 1e55bd15d5a79b424dd3b9e2c5b986a2b75c07262b97703add183779d3aff90a
+Source SHA-256: 7b01227147d28978dffb03f65941f025a7d2e4626beceb62bc0459b99e39ea9a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| aliasModels | function_declaration |  | [14](../../magpie/internal/sessions/alias.go#L14) |
-| aliasSession | function_declaration |  | [43](../../magpie/internal/sessions/alias.go#L43) |
-| aliasStats | function_declaration |  | [62](../../magpie/internal/sessions/alias.go#L62) |
-| aliasUsage | function_declaration |  | [81](../../magpie/internal/sessions/alias.go#L81) |
-| key | type_spec | aliasUsage | [82](../../magpie/internal/sessions/alias.go#L82) |
-| agent | field_declaration | aliasUsage::key | [82](../../magpie/internal/sessions/alias.go#L82) |
-| aliasNames | function_declaration |  | [104](../../magpie/internal/sessions/alias.go#L104) |
-| aliasEffort | function_declaration |  | [119](../../magpie/internal/sessions/alias.go#L119) |
-| key | type_spec | aliasEffort | [123](../../magpie/internal/sessions/alias.go#L123) |
-| model | field_declaration | aliasEffort::key | [123](../../magpie/internal/sessions/alias.go#L123) |
+| aliasModels | function_declaration |  | [18](../../magpie/internal/sessions/alias.go#L18) |
+| aliasSession | function_declaration |  | [50](../../magpie/internal/sessions/alias.go#L50) |
+| aliasManaged | function_declaration |  | [69](../../magpie/internal/sessions/alias.go#L69) |
+| aliasedKept | var_spec |  | [82](../../magpie/internal/sessions/alias.go#L82) |
+| m | field_declaration | aliasedKept | [84](../../magpie/internal/sessions/alias.go#L84) |
+| aliasedRange | type_spec |  | [87](../../magpie/internal/sessions/alias.go#L87) |
+| names | field_declaration | aliasedRange | [88](../../magpie/internal/sessions/alias.go#L88) |
+| src | field_declaration | aliasedRange | [91](../../magpie/internal/sessions/alias.go#L91) |
+| aliasKept | function_declaration |  | [97](../../magpie/internal/sessions/alias.go#L97) |
+| forgetAliasedKept | function_declaration |  | [111](../../magpie/internal/sessions/alias.go#L111) |
+| sameKept | function_declaration |  | [118](../../magpie/internal/sessions/alias.go#L118) |
+| sameSlice | function_declaration |  | [124](../../magpie/internal/sessions/alias.go#L124) |
+| aliasStats | function_declaration |  | [130](../../magpie/internal/sessions/alias.go#L130) |
+| aliasUsage | function_declaration |  | [158](../../magpie/internal/sessions/alias.go#L158) |
+| key | type_spec | aliasUsage | [162](../../magpie/internal/sessions/alias.go#L162) |
+| agent | field_declaration | aliasUsage::key | [162](../../magpie/internal/sessions/alias.go#L162) |
+| aliasNames | function_declaration |  | [184](../../magpie/internal/sessions/alias.go#L184) |
+| aliasEffort | function_declaration |  | [202](../../magpie/internal/sessions/alias.go#L202) |
+| key | type_spec | aliasEffort | [206](../../magpie/internal/sessions/alias.go#L206) |
+| model | field_declaration | aliasEffort::key | [206](../../magpie/internal/sessions/alias.go#L206) |

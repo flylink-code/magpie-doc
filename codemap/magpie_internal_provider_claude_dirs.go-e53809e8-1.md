@@ -4,40 +4,50 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claude_dirs.go) · page 1/1
 
-Source SHA-256: ca94966a7c5ca13b5c5d073bfeeed68cb71d68086c036d966caeca9c92fa64f8
+Source SHA-256: 871caaac8e20c470ff373d7b733729b261d756c497d459d319a49cff069324ef
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeDirsRoot | function_declaration |  | [31](../../magpie/internal/provider/claude_dirs.go#L31) |
-| claudeAccountDir | function_declaration |  | [35](../../magpie/internal/provider/claude_dirs.go#L35) |
-| claudeDirService | function_declaration |  | [42](../../magpie/internal/provider/claude_dirs.go#L42) |
-| readClaudeDir | function_declaration |  | [49](../../magpie/internal/provider/claude_dirs.go#L49) |
-| clearClaudeDir | function_declaration |  | [73](../../magpie/internal/provider/claude_dirs.go#L73) |
-| ClaudeHandedOver | var_spec |  | [90](../../magpie/internal/provider/claude_dirs.go#L90) |
-| claudeHandedOver | function_declaration |  | [92](../../magpie/internal/provider/claude_dirs.go#L92) |
-| forgetClaudeDir | function_declaration |  | [98](../../magpie/internal/provider/claude_dirs.go#L98) |
-| claudeDirRuns | var_spec |  | [112](../../magpie/internal/provider/claude_dirs.go#L112) |
-| m | field_declaration | claudeDirRuns | [114](../../magpie/internal/provider/claude_dirs.go#L114) |
-| claudeDirRun | function_declaration |  | [117](../../magpie/internal/provider/claude_dirs.go#L117) |
-| inSavedClaudeDir | function_declaration |  | [136](../../magpie/internal/provider/claude_dirs.go#L136) |
-| syncSavedClaude | function_declaration |  | [150](../../magpie/internal/provider/claude_dirs.go#L150) |
-| readSavedClaudeUsage | function_declaration |  | [169](../../magpie/internal/provider/claude_dirs.go#L169) |
-| err | var_spec | readSavedClaudeUsage | [172](../../magpie/internal/provider/claude_dirs.go#L172) |
-| claudeSavedDir | function_declaration |  | [183](../../magpie/internal/provider/claude_dirs.go#L183) |
-| acct | var_spec | claudeSavedDir | [228](../../magpie/internal/provider/claude_dirs.go#L228) |
-| syncClaudeDir | function_declaration |  | [242](../../magpie/internal/provider/claude_dirs.go#L242) |
-| takeClaudeDir | function_declaration |  | [256](../../magpie/internal/provider/claude_dirs.go#L256) |
-| claudeStandIn | function_declaration |  | [285](../../magpie/internal/provider/claude_dirs.go#L285) |
-| seen | var_spec | claudeStandIn | [287](../../magpie/internal/provider/claude_dirs.go#L287) |
-| claudeListed | function_declaration |  | [316](../../magpie/internal/provider/claude_dirs.go#L316) |
-| seen | var_spec | claudeListed | [321](../../magpie/internal/provider/claude_dirs.go#L321) |
-| claudeLogoutLapse | const_spec |  | [333](../../magpie/internal/provider/claude_dirs.go#L333) |
-| legacyClaudeLogoutLapse | const_spec |  | [337](../../magpie/internal/provider/claude_dirs.go#L337) |
-| claudeGoneLapse | const_spec |  | [341](../../magpie/internal/provider/claude_dirs.go#L341) |
-| claudeLoggedOut | function_declaration |  | [351](../../magpie/internal/provider/claude_dirs.go#L351) |
-| claudeSignedOut | function_declaration |  | [369](../../magpie/internal/provider/claude_dirs.go#L369) |
-| claudeStandInAccount | function_declaration |  | [384](../../magpie/internal/provider/claude_dirs.go#L384) |
-| AgentsOwn | method_declaration |  | [407](../../magpie/internal/provider/claude_dirs.go#L407) |
-| ClaudeCodeMovedOff | function_declaration |  | [415](../../magpie/internal/provider/claude_dirs.go#L415) |
-| claudeCodeOn | function_declaration |  | [430](../../magpie/internal/provider/claude_dirs.go#L430) |
-| sameClaudeUser | function_declaration |  | [441](../../magpie/internal/provider/claude_dirs.go#L441) |
+| claudeDirsRoot | function_declaration |  | [33](../../magpie/internal/provider/claude_dirs.go#L33) |
+| claudeAccountDir | function_declaration |  | [37](../../magpie/internal/provider/claude_dirs.go#L37) |
+| claudeDirService | function_declaration |  | [44](../../magpie/internal/provider/claude_dirs.go#L44) |
+| readClaudeDir | function_declaration |  | [51](../../magpie/internal/provider/claude_dirs.go#L51) |
+| clearClaudeDir | function_declaration |  | [75](../../magpie/internal/provider/claude_dirs.go#L75) |
+| ClaudeHandedOver | var_spec |  | [92](../../magpie/internal/provider/claude_dirs.go#L92) |
+| claudeHandedOver | function_declaration |  | [94](../../magpie/internal/provider/claude_dirs.go#L94) |
+| forgetClaudeDir | function_declaration |  | [100](../../magpie/internal/provider/claude_dirs.go#L100) |
+| claudeDirRuns | var_spec |  | [114](../../magpie/internal/provider/claude_dirs.go#L114) |
+| m | field_declaration | claudeDirRuns | [116](../../magpie/internal/provider/claude_dirs.go#L116) |
+| claudeDirRun | function_declaration |  | [119](../../magpie/internal/provider/claude_dirs.go#L119) |
+| claudeRunWait | var_spec |  | [144](../../magpie/internal/provider/claude_dirs.go#L144) |
+| claudeRunSeq | var_spec |  | [146](../../magpie/internal/provider/claude_dirs.go#L146) |
+| claudeRunMarks | function_declaration |  | [149](../../magpie/internal/provider/claude_dirs.go#L149) |
+| markClaudeRun | function_declaration |  | [152](../../magpie/internal/provider/claude_dirs.go#L152) |
+| errClaudeRunning | var_spec |  | [166](../../magpie/internal/provider/claude_dirs.go#L166) |
+| waitClaudeRuns | function_declaration |  | [170](../../magpie/internal/provider/claude_dirs.go#L170) |
+| inSavedClaudeDir | function_declaration |  | [193](../../magpie/internal/provider/claude_dirs.go#L193) |
+| syncSavedClaude | function_declaration |  | [208](../../magpie/internal/provider/claude_dirs.go#L208) |
+| readSavedClaudeUsage | function_declaration |  | [230](../../magpie/internal/provider/claude_dirs.go#L230) |
+| err | var_spec | readSavedClaudeUsage | [238](../../magpie/internal/provider/claude_dirs.go#L238) |
+| claudeSavedDir | function_declaration |  | [249](../../magpie/internal/provider/claude_dirs.go#L249) |
+| acct | var_spec | claudeSavedDir | [301](../../magpie/internal/provider/claude_dirs.go#L301) |
+| claudeOnboarded | function_declaration |  | [319](../../magpie/internal/provider/claude_dirs.go#L319) |
+| m | var_spec | claudeOnboarded | [334](../../magpie/internal/provider/claude_dirs.go#L334) |
+| claudeTrustMu | var_spec |  | [353](../../magpie/internal/provider/claude_dirs.go#L353) |
+| ClaudeTrustFolder | function_declaration |  | [367](../../magpie/internal/provider/claude_dirs.go#L367) |
+| syncClaudeDir | function_declaration |  | [428](../../magpie/internal/provider/claude_dirs.go#L428) |
+| takeClaudeDir | function_declaration |  | [442](../../magpie/internal/provider/claude_dirs.go#L442) |
+| claudeStandIn | function_declaration |  | [471](../../magpie/internal/provider/claude_dirs.go#L471) |
+| seen | var_spec | claudeStandIn | [473](../../magpie/internal/provider/claude_dirs.go#L473) |
+| claudeListed | function_declaration |  | [502](../../magpie/internal/provider/claude_dirs.go#L502) |
+| seen | var_spec | claudeListed | [507](../../magpie/internal/provider/claude_dirs.go#L507) |
+| claudeLogoutLapse | const_spec |  | [519](../../magpie/internal/provider/claude_dirs.go#L519) |
+| legacyClaudeLogoutLapse | const_spec |  | [523](../../magpie/internal/provider/claude_dirs.go#L523) |
+| claudeGoneLapse | const_spec |  | [527](../../magpie/internal/provider/claude_dirs.go#L527) |
+| claudeLoggedOut | function_declaration |  | [537](../../magpie/internal/provider/claude_dirs.go#L537) |
+| claudeSignedOut | function_declaration |  | [555](../../magpie/internal/provider/claude_dirs.go#L555) |
+| claudeStandInAccount | function_declaration |  | [570](../../magpie/internal/provider/claude_dirs.go#L570) |
+| AgentsOwn | method_declaration |  | [593](../../magpie/internal/provider/claude_dirs.go#L593) |
+| ClaudeCodeMovedOff | function_declaration |  | [601](../../magpie/internal/provider/claude_dirs.go#L601) |
+| claudeCodeOn | function_declaration |  | [616](../../magpie/internal/provider/claude_dirs.go#L616) |
+| sameClaudeUser | function_declaration |  | [627](../../magpie/internal/provider/claude_dirs.go#L627) |

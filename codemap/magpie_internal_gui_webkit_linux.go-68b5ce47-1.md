@@ -4,11 +4,15 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/webkit_linux.go) · page 1/1
 
-Source SHA-256: 07d75be18cd99384e36f599e586f1a0853c11095e9f307eff9bc1461d3407a19
+Source SHA-256: ee612777e0571287a2a59ca00679a8959b275c3c22d941c1aae06fee164287da
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| webkitDefaults | function_declaration |  | [22](../../magpie/internal/gui/webkit_linux.go#L22) |
-| webkitDefaultsFor | function_declaration |  | [26](../../magpie/internal/gui/webkit_linux.go#L26) |
-| gpuReachable | function_declaration |  | [41](../../magpie/internal/gui/webkit_linux.go#L41) |
-| renderNodeOpens | function_declaration |  | [52](../../magpie/internal/gui/webkit_linux.go#L52) |
+| webkitDefaults | function_declaration |  | [24](../../magpie/internal/gui/webkit_linux.go#L24) |
+| webkitDefaultsFor | function_declaration |  | [28](../../magpie/internal/gui/webkit_linux.go#L28) |
+| gpuReachable | function_declaration |  | [43](../../magpie/internal/gui/webkit_linux.go#L43) |
+| renderNodeOpens | function_declaration |  | [54](../../magpie/internal/gui/webkit_linux.go#L54) |
+| webkitPlaysVideo | var_spec |  | [70](../../magpie/internal/gui/webkit_linux.go#L70) |
+| gstPluginDirs | function_declaration |  | [76](../../magpie/internal/gui/webkit_linux.go#L76) |
+| dirs | var_spec | gstPluginDirs | [77](../../magpie/internal/gui/webkit_linux.go#L77) |
+| gstAutodetect | function_declaration |  | [94](../../magpie/internal/gui/webkit_linux.go#L94) |

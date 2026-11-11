@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/icon.go) · page 1/1
 
-Source SHA-256: 69192daafe0a8a0e38e2d5832ba42936850dd5aec09a793ffb3f3c97e9e612c6
+Source SHA-256: c70c89b4dc9e5d8e75d57d5405d5e5a2995a7e8436f93ee2bd80632a1b8a4e40
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,17 +15,17 @@ Source SHA-256: 69192daafe0a8a0e38e2d5832ba42936850dd5aec09a793ffb3f3c97e9e612c6
 | IconFile | function_declaration |  | [40](../../magpie/internal/provider/icon.go#L40) |
 | StoreIcon | function_declaration |  | [49](../../magpie/internal/provider/icon.go#L49) |
 | FetchIcon | function_declaration |  | [78](../../magpie/internal/provider/icon.go#L78) |
-| iconClient | var_spec |  | [87](../../magpie/internal/provider/icon.go#L87) |
-| guardClient | function_declaration |  | [96](../../magpie/internal/provider/icon.go#L96) |
-| proxies | var_spec | guardClient | [100](../../magpie/internal/provider/icon.go#L100) |
-| publicHost | function_declaration |  | [127](../../magpie/internal/provider/icon.go#L127) |
-| iconIPs | function_declaration |  | [139](../../magpie/internal/provider/icon.go#L139) |
-| allowed | var_spec | iconIPs | [144](../../magpie/internal/provider/icon.go#L144) |
-| proxyAddr | function_declaration |  | [159](../../magpie/internal/provider/icon.go#L159) |
-| publicDial | function_declaration |  | [176](../../magpie/internal/provider/icon.go#L176) |
-| lastErr | var_spec | publicDial | [193](../../magpie/internal/provider/icon.go#L193) |
-| publicIP | function_declaration |  | [212](../../magpie/internal/provider/icon.go#L212) |
-| fetchIcon | function_declaration |  | [219](../../magpie/internal/provider/icon.go#L219) |
-| StoreIconFile | function_declaration |  | [244](../../magpie/internal/provider/icon.go#L244) |
-| iconExt | function_declaration |  | [259](../../magpie/internal/provider/icon.go#L259) |
-| pruneIcons | function_declaration |  | [283](../../magpie/internal/provider/icon.go#L283) |
+| iconClient | var_spec |  | [91](../../magpie/internal/provider/icon.go#L91) |
+| guardClient | function_declaration |  | [100](../../magpie/internal/provider/icon.go#L100) |
+| proxies | var_spec | guardClient | [104](../../magpie/internal/provider/icon.go#L104) |
+| publicHost | function_declaration |  | [131](../../magpie/internal/provider/icon.go#L131) |
+| iconIPs | function_declaration |  | [144](../../magpie/internal/provider/icon.go#L144) |
+| allowed | var_spec | iconIPs | [149](../../magpie/internal/provider/icon.go#L149) |
+| proxyAddr | function_declaration |  | [164](../../magpie/internal/provider/icon.go#L164) |
+| publicDial | function_declaration |  | [181](../../magpie/internal/provider/icon.go#L181) |
+| lastErr | var_spec | publicDial | [198](../../magpie/internal/provider/icon.go#L198) |
+| publicIP | function_declaration |  | [217](../../magpie/internal/provider/icon.go#L217) |
+| fetchIcon | function_declaration |  | [224](../../magpie/internal/provider/icon.go#L224) |
+| StoreIconFile | function_declaration |  | [249](../../magpie/internal/provider/icon.go#L249) |
+| iconExt | function_declaration |  | [264](../../magpie/internal/provider/icon.go#L264) |
+| pruneIcons | function_declaration |  | [288](../../magpie/internal/provider/icon.go#L288) |

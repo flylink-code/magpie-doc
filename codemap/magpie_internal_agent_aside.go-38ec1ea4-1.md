@@ -4,15 +4,15 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/aside.go) · page 1/1
 
-Source SHA-256: 6d45cc2e9586b06df9240f8c8e16cc6ce6e8359fbcc490bd2a4b974ecc00de03
+Source SHA-256: 5b35e7dfbf635459ee6c0efce6a512982f7590bcbabb6c9f0a31c2b040762a6d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| aside | function_declaration |  | [13](../../magpie/internal/agent/aside.go#L13) |
-| asideIn | function_declaration |  | [15](../../magpie/internal/agent/aside.go#L15) |
-| asideRoles | var_spec |  | [77](../../magpie/internal/agent/aside.go#L77) |
-| asideImageKey | const_spec |  | [79](../../magpie/internal/agent/aside.go#L79) |
-| asideDir | function_declaration |  | [83](../../magpie/internal/agent/aside.go#L83) |
-| asideTimeout | var_spec |  | [85](../../magpie/internal/agent/aside.go#L85) |
-| asideOK | const_spec |  | [87](../../magpie/internal/agent/aside.go#L87) |
-| asideSet | var_spec |  | [89](../../magpie/internal/agent/aside.go#L89) |
+| aside | function_declaration |  | [12](../../magpie/internal/agent/aside.go#L12) |
+| asideIn | function_declaration |  | [14](../../magpie/internal/agent/aside.go#L14) |
+| asideRoles | var_spec |  | [76](../../magpie/internal/agent/aside.go#L76) |
+| asideImageKey | const_spec |  | [78](../../magpie/internal/agent/aside.go#L78) |
+| asideDir | function_declaration |  | [82](../../magpie/internal/agent/aside.go#L82) |
+| asideTimeout | var_spec |  | [84](../../magpie/internal/agent/aside.go#L84) |
+| asideOK | const_spec |  | [86](../../magpie/internal/agent/aside.go#L86) |
+| asideSet | var_spec |  | [88](../../magpie/internal/agent/aside.go#L88) |

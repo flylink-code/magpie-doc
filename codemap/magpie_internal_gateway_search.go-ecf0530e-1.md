@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search.go) · page 1/2
 
-Source SHA-256: 0800ac1d038b040cfab7887744ecd54dfd8130fc04ff1a4e3dca8cbb20bf47b7
+Source SHA-256: 214e0b554f71fd212c15cc9f55912e8fbfe1db6bebaa33d2db07d18c5f3905a2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,86 +25,86 @@ Source SHA-256: 0800ac1d038b040cfab7887744ecd54dfd8130fc04ff1a4e3dca8cbb20bf47b7
 | NotSearched | field_declaration | CallFor | [90](../../magpie/internal/gateway/search.go#L90) |
 | Picked | field_declaration | CallFor | [91](../../magpie/internal/gateway/search.go#L91) |
 | searchFor | function_declaration |  | [94](../../magpie/internal/gateway/search.go#L94) |
-| searchesItself | function_declaration |  | [101](../../magpie/internal/gateway/search.go#L101) |
-| googleAccount | function_declaration |  | [127](../../magpie/internal/gateway/search.go#L127) |
-| codeAssistSearches | function_declaration |  | [138](../../magpie/internal/gateway/search.go#L138) |
-| searchModel | function_declaration |  | [144](../../magpie/internal/gateway/search.go#L144) |
-| searchesFor | function_declaration |  | [151](../../magpie/internal/gateway/search.go#L151) |
-| searchesModel | function_declaration |  | [160](../../magpie/internal/gateway/search.go#L160) |
-| searchModels | var_spec |  | [170](../../magpie/internal/gateway/search.go#L170) |
-| searchModelsHosts | var_spec |  | [181](../../magpie/internal/gateway/search.go#L181) |
-| modelSearches | function_declaration |  | [187](../../magpie/internal/gateway/search.go#L187) |
-| modelSearchesAny | function_declaration |  | [205](../../magpie/internal/gateway/search.go#L205) |
-| pluginSearches | function_declaration |  | [213](../../magpie/internal/gateway/search.go#L213) |
-| searchesAlone | function_declaration |  | [223](../../magpie/internal/gateway/search.go#L223) |
-| partSearcher | function_declaration |  | [234](../../magpie/internal/gateway/search.go#L234) |
-| searchHosts | var_spec |  | [253](../../magpie/internal/gateway/search.go#L253) |
-| searchAsked | function_declaration |  | [262](../../magpie/internal/gateway/search.go#L262) |
-| searchedForIt | function_declaration |  | [277](../../magpie/internal/gateway/search.go#L277) |
-| searcher | function_declaration |  | [285](../../magpie/internal/gateway/search.go#L285) |
-| searchRank | function_declaration |  | [300](../../magpie/internal/gateway/search.go#L300) |
-| manualRelayRank | const_spec |  | [331](../../magpie/internal/gateway/search.go#L331) |
-| namedSearcherRank | function_declaration |  | [336](../../magpie/internal/gateway/search.go#L336) |
-| autoSearcher | function_declaration |  | [354](../../magpie/internal/gateway/search.go#L354) |
-| autoSearcherReady | function_declaration |  | [361](../../magpie/internal/gateway/search.go#L361) |
-| best | var_spec | autoSearcherReady | [362](../../magpie/internal/gateway/search.go#L362) |
-| model | var_spec | autoSearcherReady | [363](../../magpie/internal/gateway/search.go#L363) |
-| SearcherGone | const_spec |  | [381](../../magpie/internal/gateway/search.go#L381) |
-| SearcherOff | const_spec |  | [382](../../magpie/internal/gateway/search.go#L382) |
-| SearcherCant | const_spec |  | [383](../../magpie/internal/gateway/search.go#L383) |
-| SearcherNoneOf | const_spec |  | [384](../../magpie/internal/gateway/search.go#L384) |
-| chosenSearcher | function_declaration |  | [392](../../magpie/internal/gateway/search.go#L392) |
-| Searchers | function_declaration |  | [428](../../magpie/internal/gateway/search.go#L428) |
-| out | var_spec | Searchers | [429](../../magpie/internal/gateway/search.go#L429) |
-| ms | var_spec | Searchers | [439](../../magpie/internal/gateway/search.go#L439) |
-| SearcherChoice | type_spec |  | [455](../../magpie/internal/gateway/search.go#L455) |
-| Provider | field_declaration | SearcherChoice | [456](../../magpie/internal/gateway/search.go#L456) |
-| Small | field_declaration | SearcherChoice | [457](../../magpie/internal/gateway/search.go#L457) |
-| Models | field_declaration | SearcherChoice | [458](../../magpie/internal/gateway/search.go#L458) |
-| rank | field_declaration | SearcherChoice | [459](../../magpie/internal/gateway/search.go#L459) |
-| ManualOnly | field_declaration | SearcherChoice | [460](../../magpie/internal/gateway/search.go#L460) |
-| Service | field_declaration | SearcherChoice | [463](../../magpie/internal/gateway/search.go#L463) |
-| Own | field_declaration | SearcherChoice | [466](../../magpie/internal/gateway/search.go#L466) |
-| RelaysSaidToSearch | function_declaration |  | [472](../../magpie/internal/gateway/search.go#L472) |
-| out | var_spec | RelaysSaidToSearch | [473](../../magpie/internal/gateway/search.go#L473) |
-| smallModel | function_declaration |  | [488](../../magpie/internal/gateway/search.go#L488) |
-| smallReady | function_declaration |  | [499](../../magpie/internal/gateway/search.go#L499) |
-| smallReadyOf | function_declaration |  | [509](../../magpie/internal/gateway/search.go#L509) |
-| smallCand | type_spec |  | [524](../../magpie/internal/gateway/search.go#L524) |
-| id | field_declaration | smallCand | [525](../../magpie/internal/gateway/search.go#L525) |
-| cost | field_declaration | smallCand | [526](../../magpie/internal/gateway/search.go#L526) |
-| smallCands | function_declaration |  | [531](../../magpie/internal/gateway/search.go#L531) |
-| ms | var_spec | smallCands | [532](../../magpie/internal/gateway/search.go#L532) |
-| smallKept | var_spec |  | [551](../../magpie/internal/gateway/search.go#L551) |
-| smallKey | type_spec |  | [555](../../magpie/internal/gateway/search.go#L555) |
-| kind | field_declaration | smallKey | [556](../../magpie/internal/gateway/search.go#L556) |
-| keptSmallCands | function_declaration |  | [561](../../magpie/internal/gateway/search.go#L561) |
-| rankSmall | function_declaration |  | [572](../../magpie/internal/gateway/search.go#L572) |
-| ranked | type_spec | rankSmall | [573](../../magpie/internal/gateway/search.go#L573) |
-| router | field_declaration | rankSmall::ranked | [575](../../magpie/internal/gateway/search.go#L575) |
-| falseFirst | function_declaration |  | [608](../../magpie/internal/gateway/search.go#L608) |
-| searcherModel | function_declaration |  | [620](../../magpie/internal/gateway/search.go#L620) |
-| searcherReady | function_declaration |  | [627](../../magpie/internal/gateway/search.go#L627) |
-| keep | var_spec | searcherReady | [630](../../magpie/internal/gateway/search.go#L630) |
-| searchTool | function_declaration |  | [640](../../magpie/internal/gateway/search.go#L640) |
-| searchSystem | const_spec |  | [650](../../magpie/internal/gateway/search.go#L650) |
-| webSearch | method_declaration |  | [658](../../magpie/internal/gateway/search.go#L658) |
-| errs | var_spec | webSearch | [674](../../magpie/internal/gateway/search.go#L674) |
-| errNoSearcher | var_spec |  | [709](../../magpie/internal/gateway/search.go#L709) |
-| errSearchOff | var_spec |  | [712](../../magpie/internal/gateway/search.go#L712) |
-| searchServed | function_declaration |  | [718](../../magpie/internal/gateway/search.go#L718) |
-| searchersInTurn | const_spec |  | [722](../../magpie/internal/gateway/search.go#L722) |
-| modelSearch | method_declaration |  | [731](../../magpie/internal/gateway/search.go#L731) |
-| pick | type_spec | modelSearch | [738](../../magpie/internal/gateway/search.go#L738) |
-| id | field_declaration | modelSearch::pick | [738](../../magpie/internal/gateway/search.go#L738) |
-| said | var_spec | modelSearch | [740](../../magpie/internal/gateway/search.go#L740) |
-| hits | var_spec | modelSearch | [741](../../magpie/internal/gateway/search.go#L741) |
-| turn | var_spec | modelSearch | [764](../../magpie/internal/gateway/search.go#L764) |
-| lastNamedFail | var_spec |  | [801](../../magpie/internal/gateway/search.go#L801) |
-| f | field_declaration | lastNamedFail | [803](../../magpie/internal/gateway/search.go#L803) |
-| SearchFailure | type_spec |  | [808](../../magpie/internal/gateway/search.go#L808) |
-| Searcher | field_declaration | SearchFailure | [809](../../magpie/internal/gateway/search.go#L809) |
-| Why | field_declaration | SearchFailure | [810](../../magpie/internal/gateway/search.go#L810) |
-| NothingFound | field_declaration | SearchFailure | [811](../../magpie/internal/gateway/search.go#L811) |
-| NotSearched | field_declaration | SearchFailure | [812](../../magpie/internal/gateway/search.go#L812) |
-| At | field_declaration | SearchFailure | [813](../../magpie/internal/gateway/search.go#L813) |
+| magpieSearches | function_declaration |  | [103](../../magpie/internal/gateway/search.go#L103) |
+| searchesItself | function_declaration |  | [109](../../magpie/internal/gateway/search.go#L109) |
+| googleAccount | function_declaration |  | [135](../../magpie/internal/gateway/search.go#L135) |
+| codeAssistSearches | function_declaration |  | [146](../../magpie/internal/gateway/search.go#L146) |
+| geminiKeySearches | function_declaration |  | [157](../../magpie/internal/gateway/search.go#L157) |
+| searchModel | function_declaration |  | [163](../../magpie/internal/gateway/search.go#L163) |
+| searchesFor | function_declaration |  | [170](../../magpie/internal/gateway/search.go#L170) |
+| searchesModel | function_declaration |  | [182](../../magpie/internal/gateway/search.go#L182) |
+| searchModels | var_spec |  | [192](../../magpie/internal/gateway/search.go#L192) |
+| searchModelsHosts | var_spec |  | [203](../../magpie/internal/gateway/search.go#L203) |
+| modelSearches | function_declaration |  | [209](../../magpie/internal/gateway/search.go#L209) |
+| modelSearchesAny | function_declaration |  | [227](../../magpie/internal/gateway/search.go#L227) |
+| pluginSearches | function_declaration |  | [235](../../magpie/internal/gateway/search.go#L235) |
+| searchesAlone | function_declaration |  | [245](../../magpie/internal/gateway/search.go#L245) |
+| partSearcher | function_declaration |  | [256](../../magpie/internal/gateway/search.go#L256) |
+| searchHosts | var_spec |  | [276](../../magpie/internal/gateway/search.go#L276) |
+| searchAsked | function_declaration |  | [285](../../magpie/internal/gateway/search.go#L285) |
+| searchedForIt | function_declaration |  | [300](../../magpie/internal/gateway/search.go#L300) |
+| searcher | function_declaration |  | [308](../../magpie/internal/gateway/search.go#L308) |
+| searchRank | function_declaration |  | [323](../../magpie/internal/gateway/search.go#L323) |
+| manualRelayRank | const_spec |  | [355](../../magpie/internal/gateway/search.go#L355) |
+| namedSearcherRank | function_declaration |  | [360](../../magpie/internal/gateway/search.go#L360) |
+| autoSearcher | function_declaration |  | [378](../../magpie/internal/gateway/search.go#L378) |
+| autoSearcherReady | function_declaration |  | [385](../../magpie/internal/gateway/search.go#L385) |
+| best | var_spec | autoSearcherReady | [386](../../magpie/internal/gateway/search.go#L386) |
+| model | var_spec | autoSearcherReady | [387](../../magpie/internal/gateway/search.go#L387) |
+| SearcherGone | const_spec |  | [409](../../magpie/internal/gateway/search.go#L409) |
+| SearcherOff | const_spec |  | [410](../../magpie/internal/gateway/search.go#L410) |
+| SearcherCant | const_spec |  | [411](../../magpie/internal/gateway/search.go#L411) |
+| SearcherNoneOf | const_spec |  | [412](../../magpie/internal/gateway/search.go#L412) |
+| chosenSearcher | function_declaration |  | [420](../../magpie/internal/gateway/search.go#L420) |
+| namedSearcher | function_declaration |  | [425](../../magpie/internal/gateway/search.go#L425) |
+| Searchers | function_declaration |  | [464](../../magpie/internal/gateway/search.go#L464) |
+| out | var_spec | Searchers | [465](../../magpie/internal/gateway/search.go#L465) |
+| ms | var_spec | Searchers | [475](../../magpie/internal/gateway/search.go#L475) |
+| searcherModels | function_declaration |  | [495](../../magpie/internal/gateway/search.go#L495) |
+| SearcherChoice | type_spec |  | [510](../../magpie/internal/gateway/search.go#L510) |
+| Provider | field_declaration | SearcherChoice | [511](../../magpie/internal/gateway/search.go#L511) |
+| Small | field_declaration | SearcherChoice | [512](../../magpie/internal/gateway/search.go#L512) |
+| Models | field_declaration | SearcherChoice | [513](../../magpie/internal/gateway/search.go#L513) |
+| rank | field_declaration | SearcherChoice | [514](../../magpie/internal/gateway/search.go#L514) |
+| ManualOnly | field_declaration | SearcherChoice | [515](../../magpie/internal/gateway/search.go#L515) |
+| Service | field_declaration | SearcherChoice | [518](../../magpie/internal/gateway/search.go#L518) |
+| Own | field_declaration | SearcherChoice | [521](../../magpie/internal/gateway/search.go#L521) |
+| Search | field_declaration | SearcherChoice | [525](../../magpie/internal/gateway/search.go#L525) |
+| RelaysSaidToSearch | function_declaration |  | [531](../../magpie/internal/gateway/search.go#L531) |
+| out | var_spec | RelaysSaidToSearch | [532](../../magpie/internal/gateway/search.go#L532) |
+| smallModel | function_declaration |  | [547](../../magpie/internal/gateway/search.go#L547) |
+| smallReady | function_declaration |  | [558](../../magpie/internal/gateway/search.go#L558) |
+| smallReadyOf | function_declaration |  | [568](../../magpie/internal/gateway/search.go#L568) |
+| smallCand | type_spec |  | [583](../../magpie/internal/gateway/search.go#L583) |
+| id | field_declaration | smallCand | [584](../../magpie/internal/gateway/search.go#L584) |
+| cost | field_declaration | smallCand | [585](../../magpie/internal/gateway/search.go#L585) |
+| smallCands | function_declaration |  | [599](../../magpie/internal/gateway/search.go#L599) |
+| ms | var_spec | smallCands | [600](../../magpie/internal/gateway/search.go#L600) |
+| smallKept | var_spec |  | [639](../../magpie/internal/gateway/search.go#L639) |
+| smallKey | type_spec |  | [643](../../magpie/internal/gateway/search.go#L643) |
+| kind | field_declaration | smallKey | [644](../../magpie/internal/gateway/search.go#L644) |
+| keptSmallCands | function_declaration |  | [649](../../magpie/internal/gateway/search.go#L649) |
+| smallWords | var_spec |  | [659](../../magpie/internal/gateway/search.go#L659) |
+| rankSmall | function_declaration |  | [664](../../magpie/internal/gateway/search.go#L664) |
+| ranked | type_spec | rankSmall | [665](../../magpie/internal/gateway/search.go#L665) |
+| router | field_declaration | rankSmall::ranked | [667](../../magpie/internal/gateway/search.go#L667) |
+| falseFirst | function_declaration |  | [700](../../magpie/internal/gateway/search.go#L700) |
+| searcherModel | function_declaration |  | [712](../../magpie/internal/gateway/search.go#L712) |
+| searcherReady | function_declaration |  | [719](../../magpie/internal/gateway/search.go#L719) |
+| keep | var_spec | searcherReady | [722](../../magpie/internal/gateway/search.go#L722) |
+| searchTool | function_declaration |  | [732](../../magpie/internal/gateway/search.go#L732) |
+| searchSystem | const_spec |  | [742](../../magpie/internal/gateway/search.go#L742) |
+| webSearch | method_declaration |  | [750](../../magpie/internal/gateway/search.go#L750) |
+| errs | var_spec | webSearch | [766](../../magpie/internal/gateway/search.go#L766) |
+| errNoSearcher | var_spec |  | [801](../../magpie/internal/gateway/search.go#L801) |
+| errSearchOff | var_spec |  | [804](../../magpie/internal/gateway/search.go#L804) |
+| searchServed | function_declaration |  | [810](../../magpie/internal/gateway/search.go#L810) |
+| searchersInTurn | const_spec |  | [814](../../magpie/internal/gateway/search.go#L814) |
+| modelSearch | method_declaration |  | [829](../../magpie/internal/gateway/search.go#L829) |
+| said | var_spec | modelSearch | [837](../../magpie/internal/gateway/search.go#L837) |
+| hits | var_spec | modelSearch | [838](../../magpie/internal/gateway/search.go#L838) |
+| next | var_spec | modelSearch | [866](../../magpie/internal/gateway/search.go#L866) |
+| by | var_spec | modelSearch | [877](../../magpie/internal/gateway/search.go#L877) |
+| turnModel | function_declaration |  | [918](../../magpie/internal/gateway/search.go#L918) |
+| searchPick | type_spec |  | [926](../../magpie/internal/gateway/search.go#L926) |
+| id | field_declaration | searchPick | [926](../../magpie/internal/gateway/search.go#L926) |

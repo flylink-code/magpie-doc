@@ -4,13 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_catalog.go) · page 1/1
 
-Source SHA-256: d71ea3eaee6ab8ce8c688cb0084c49b11f84e7f1ba66de527248cd32b3b27b84
+Source SHA-256: f2674532f3c78cf840f7e0e9a7b373429f54fdba41c71907c73581ffe7f23436
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexCatalogPath | const_spec |  | [19](../../magpie/internal/gateway/codex_catalog.go#L19) |
-| codexCatalogMost | const_spec |  | [25](../../magpie/internal/gateway/codex_catalog.go#L25) |
-| codexCatalog | method_declaration |  | [33](../../magpie/internal/gateway/codex_catalog.go#L33) |
-| b | var_spec | codexCatalog | [40](../../magpie/internal/gateway/codex_catalog.go#L40) |
-| one | var_spec | codexCatalog | [44](../../magpie/internal/gateway/codex_catalog.go#L44) |
-| codexTiers | function_declaration |  | [75](../../magpie/internal/gateway/codex_catalog.go#L75) |
+| CodexCatalogPath | const_spec |  | [23](../../magpie/internal/gateway/codex_catalog.go#L23) |
+| codexCatalogMost | const_spec |  | [30](../../magpie/internal/gateway/codex_catalog.go#L30) |
+| codexReadsWholeCatalog | function_declaration |  | [38](../../magpie/internal/gateway/codex_catalog.go#L38) |
+| major | var_spec | codexReadsWholeCatalog | [39](../../magpie/internal/gateway/codex_catalog.go#L39) |
+| codexCatalog | method_declaration |  | [52](../../magpie/internal/gateway/codex_catalog.go#L52) |
+| b | var_spec | codexCatalog | [59](../../magpie/internal/gateway/codex_catalog.go#L59) |
+| one | var_spec | codexCatalog | [72](../../magpie/internal/gateway/codex_catalog.go#L72) |
+| codexTiers | function_declaration |  | [103](../../magpie/internal/gateway/codex_catalog.go#L103) |

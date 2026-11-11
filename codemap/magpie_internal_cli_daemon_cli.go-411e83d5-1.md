@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/daemon_cli.go) · page 1/1
 
-Source SHA-256: bb282436ffc2d8bfabc86e05d1f20f389116961d0e5c0f007bf8325479b32b1f
+Source SHA-256: d105a3ee95f74d918e79680798eb5784f42afab1d11c29b1b44589aef1d7f3c8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

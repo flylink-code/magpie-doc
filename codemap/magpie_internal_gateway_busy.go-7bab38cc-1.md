@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/busy.go) · page 1/1
 
-Source SHA-256: 962c36633c560d2f56f5c6732cebfee7d4659c4bbb18a725858fd5203bf3397b
+Source SHA-256: 7b8ad4b6aed3a5b15dc36f5ed2858d914a1736c76b5b9bcee28171deff5961b3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,13 +16,17 @@ Source SHA-256: 962c36633c560d2f56f5c6732cebfee7d4659c4bbb18a725858fd5203bf3397b
 | BridgeLast | field_declaration | Busy | [31](../../magpie/internal/gateway/busy.go#L31) |
 | Any | method_declaration |  | [35](../../magpie/internal/gateway/busy.go#L35) |
 | Busy | method_declaration |  | [38](../../magpie/internal/gateway/busy.go#L38) |
-| bridgeTurn | method_declaration |  | [51](../../magpie/internal/gateway/busy.go#L51) |
-| counted | method_declaration |  | [60](../../magpie/internal/gateway/busy.go#L60) |
-| busyCounters | type_spec |  | [93](../../magpie/internal/gateway/busy.go#L93) |
-| inFlight | field_declaration | busyCounters | [94](../../magpie/internal/gateway/busy.go#L94) |
-| lastDone | field_declaration | busyCounters | [95](../../magpie/internal/gateway/busy.go#L95) |
-| active | field_declaration | busyCounters | [96](../../magpie/internal/gateway/busy.go#L96) |
-| bridgeInFlight | field_declaration | busyCounters | [98](../../magpie/internal/gateway/busy.go#L98) |
-| bridgeDone | field_declaration | busyCounters | [99](../../magpie/internal/gateway/busy.go#L99) |
-| idle | field_declaration | busyCounters | [101](../../magpie/internal/gateway/busy.go#L101) |
-| parked | method_declaration |  | [105](../../magpie/internal/gateway/busy.go#L105) |
+| CodexBusy | method_declaration |  | [53](../../magpie/internal/gateway/busy.go#L53) |
+| last | var_spec | CodexBusy | [62](../../magpie/internal/gateway/busy.go#L62) |
+| bridgeTurn | method_declaration |  | [71](../../magpie/internal/gateway/busy.go#L71) |
+| counted | method_declaration |  | [80](../../magpie/internal/gateway/busy.go#L80) |
+| busyCounters | type_spec |  | [122](../../magpie/internal/gateway/busy.go#L122) |
+| inFlight | field_declaration | busyCounters | [123](../../magpie/internal/gateway/busy.go#L123) |
+| lastDone | field_declaration | busyCounters | [124](../../magpie/internal/gateway/busy.go#L124) |
+| active | field_declaration | busyCounters | [125](../../magpie/internal/gateway/busy.go#L125) |
+| bridgeInFlight | field_declaration | busyCounters | [127](../../magpie/internal/gateway/busy.go#L127) |
+| bridgeDone | field_declaration | busyCounters | [128](../../magpie/internal/gateway/busy.go#L128) |
+| codexDone | field_declaration | busyCounters | [130](../../magpie/internal/gateway/busy.go#L130) |
+| idle | field_declaration | busyCounters | [132](../../magpie/internal/gateway/busy.go#L132) |
+| curves | field_declaration | busyCounters | [134](../../magpie/internal/gateway/busy.go#L134) |
+| parked | method_declaration |  | [138](../../magpie/internal/gateway/busy.go#L138) |

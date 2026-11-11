@@ -4,19 +4,24 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/lastproviders.go) · page 1/1
 
-Source SHA-256: 0a869c866e68f1bae8ee23b3b51fd973fab9b4979c1da5d8c2f0f002cd915819
+Source SHA-256: 695e2b13a5b41a372f434e4662b0705842bfdf9d7bd6eba48093ec5590b22ebb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lastProviders | var_spec |  | [27](../../magpie/internal/gui/lastproviders.go#L27) |
-| kept | field_declaration | lastProviders | [29](../../magpie/internal/gui/lastproviders.go#L29) |
-| read | field_declaration | lastProviders | [30](../../magpie/internal/gui/lastproviders.go#L30) |
+| lastProviders | var_spec |  | [26](../../magpie/internal/gui/lastproviders.go#L26) |
+| kept | field_declaration | lastProviders | [28](../../magpie/internal/gui/lastproviders.go#L28) |
+| read | field_declaration | lastProviders | [29](../../magpie/internal/gui/lastproviders.go#L29) |
+| sum | field_declaration | lastProviders | [30](../../magpie/internal/gui/lastproviders.go#L30) |
 | providersFile | type_spec |  | [33](../../magpie/internal/gui/lastproviders.go#L33) |
 | Version | field_declaration | providersFile | [34](../../magpie/internal/gui/lastproviders.go#L34) |
 | Providers | field_declaration | providersFile | [35](../../magpie/internal/gui/lastproviders.go#L35) |
 | lastProvidersPath | function_declaration |  | [38](../../magpie/internal/gui/lastproviders.go#L38) |
 | keepProviders | function_declaration |  | [42](../../magpie/internal/gui/lastproviders.go#L42) |
-| lastKnownProviders | function_declaration |  | [75](../../magpie/internal/gui/lastproviders.go#L75) |
-| f | var_spec | lastKnownProviders | [83](../../magpie/internal/gui/lastproviders.go#L83) |
-| Version | field_declaration | lastKnownProviders::f | [84](../../magpie/internal/gui/lastproviders.go#L84) |
-| Providers | field_declaration | lastKnownProviders::f | [85](../../magpie/internal/gui/lastproviders.go#L85) |
+| keptProviders | function_declaration |  | [51](../../magpie/internal/gui/lastproviders.go#L51) |
+| keptProvider | function_declaration |  | [63](../../magpie/internal/gui/lastproviders.go#L63) |
+| keepsAllOf | function_declaration |  | [70](../../magpie/internal/gui/lastproviders.go#L70) |
+| keepProvidersSummed | function_declaration |  | [76](../../magpie/internal/gui/lastproviders.go#L76) |
+| lastKnownProviders | function_declaration |  | [102](../../magpie/internal/gui/lastproviders.go#L102) |
+| f | var_spec | lastKnownProviders | [110](../../magpie/internal/gui/lastproviders.go#L110) |
+| Version | field_declaration | lastKnownProviders::f | [111](../../magpie/internal/gui/lastproviders.go#L111) |
+| Providers | field_declaration | lastKnownProviders::f | [112](../../magpie/internal/gui/lastproviders.go#L112) |

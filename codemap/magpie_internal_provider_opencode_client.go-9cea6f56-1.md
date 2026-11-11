@@ -4,37 +4,70 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/opencode_client.go) · page 1/1
 
-Source SHA-256: 7f37947695edbf12dd5425b4af07d54ad5dc926aa558bdc8b97dcce9702ce9f7
+Source SHA-256: 4049c200badae589b4c27f4dc4717ebcad901175349d21bf1f36410649f23c1f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| OpenCodeVersion | const_spec |  | [22](../../magpie/internal/provider/opencode_client.go#L22) |
-| OpenCodeUserAgent | const_spec |  | [26](../../magpie/internal/provider/opencode_client.go#L26) |
-| OpenCodeAnonymousKey | const_spec |  | [30](../../magpie/internal/provider/opencode_client.go#L30) |
-| OpenCodeClient | function_declaration |  | [44](../../magpie/internal/provider/opencode_client.go#L44) |
-| OpenCodeURL | function_declaration |  | [63](../../magpie/internal/provider/opencode_client.go#L63) |
-| openCodeHost | function_declaration |  | [69](../../magpie/internal/provider/opencode_client.go#L69) |
-| OpenCodeSession | function_declaration |  | [84](../../magpie/internal/provider/opencode_client.go#L84) |
-| OpenCodeFree | method_declaration |  | [104](../../magpie/internal/provider/opencode_client.go#L104) |
-| openCodeFreeIDs | var_spec |  | [116](../../magpie/internal/provider/opencode_client.go#L116) |
-| OpenCodeTools | var_spec |  | [119](../../magpie/internal/provider/opencode_client.go#L119) |
-| OpenCodeToolSchemas | var_spec |  | [126](../../magpie/internal/provider/opencode_client.go#L126) |
-| OpenCodeFreeURL | function_declaration |  | [139](../../magpie/internal/provider/opencode_client.go#L139) |
-| OpenCodeStub | const_spec |  | [157](../../magpie/internal/provider/opencode_client.go#L157) |
-| zenFreeProbe | function_declaration |  | [162](../../magpie/internal/provider/opencode_client.go#L162) |
-| m | var_spec | zenFreeProbe | [163](../../magpie/internal/provider/opencode_client.go#L163) |
-| tools | var_spec | zenFreeProbe | [167](../../magpie/internal/provider/opencode_client.go#L167) |
-| schema | var_spec | zenFreeProbe | [169](../../magpie/internal/provider/opencode_client.go#L169) |
-| openCodeIDRe | var_spec |  | [188](../../magpie/internal/provider/opencode_client.go#L188) |
-| base62 | const_spec |  | [190](../../magpie/internal/provider/opencode_client.go#L190) |
-| openCodeIDs | var_spec |  | [194](../../magpie/internal/provider/opencode_client.go#L194) |
-| last | field_declaration | openCodeIDs | [196](../../magpie/internal/provider/opencode_client.go#L196) |
-| sessions | field_declaration | openCodeIDs | [197](../../magpie/internal/provider/opencode_client.go#L197) |
-| order | field_declaration | openCodeIDs | [198](../../magpie/internal/provider/opencode_client.go#L198) |
-| openCodeKept | type_spec |  | [201](../../magpie/internal/provider/opencode_client.go#L201) |
-| seed | field_declaration | openCodeKept | [201](../../magpie/internal/provider/opencode_client.go#L201) |
-| openCodeKeep | const_spec |  | [204](../../magpie/internal/provider/opencode_client.go#L204) |
-| openCodeNewID | function_declaration |  | [210](../../magpie/internal/provider/opencode_client.go#L210) |
-| b | var_spec | openCodeNewID | [222](../../magpie/internal/provider/opencode_client.go#L222) |
-| openCodeRealSession | function_declaration |  | [237](../../magpie/internal/provider/opencode_client.go#L237) |
-| openCodeSession | function_declaration |  | [250](../../magpie/internal/provider/opencode_client.go#L250) |
+| OpenCodeVersion | const_spec |  | [35](../../magpie/internal/provider/opencode_client.go#L35) |
+| OpenCodeUserAgent | function_declaration |  | [41](../../magpie/internal/provider/opencode_client.go#L41) |
+| openCodeVersionURL | var_spec |  | [47](../../magpie/internal/provider/opencode_client.go#L47) |
+| openCodeUpdater | const_spec |  | [49](../../magpie/internal/provider/opencode_client.go#L49) |
+| openCodeVersionEvery | const_spec |  | [52](../../magpie/internal/provider/opencode_client.go#L52) |
+| openCodeVersion | var_spec |  | [54](../../magpie/internal/provider/opencode_client.go#L54) |
+| v | field_declaration | openCodeVersion | [56](../../magpie/internal/provider/opencode_client.go#L56) |
+| at | field_declaration | openCodeVersion | [57](../../magpie/internal/provider/opencode_client.go#L57) |
+| asking | field_declaration | openCodeVersion | [58](../../magpie/internal/provider/opencode_client.go#L58) |
+| openCodeLatest | function_declaration |  | [65](../../magpie/internal/provider/opencode_client.go#L65) |
+| openCodeVersionRe | var_spec |  | [86](../../magpie/internal/provider/opencode_client.go#L86) |
+| openCodeAskVersion | function_declaration |  | [91](../../magpie/internal/provider/opencode_client.go#L91) |
+| got | var_spec | openCodeAskVersion | [105](../../magpie/internal/provider/opencode_client.go#L105) |
+| Version | field_declaration | openCodeAskVersion::got | [106](../../magpie/internal/provider/opencode_client.go#L106) |
+| openCodeAtLeast | function_declaration |  | [119](../../magpie/internal/provider/opencode_client.go#L119) |
+| OpenCodeAnonymousKey | const_spec |  | [133](../../magpie/internal/provider/opencode_client.go#L133) |
+| OpenCodeClient | function_declaration |  | [150](../../magpie/internal/provider/opencode_client.go#L150) |
+| OpenCodeURL | function_declaration |  | [171](../../magpie/internal/provider/opencode_client.go#L171) |
+| openCodeHost | function_declaration |  | [177](../../magpie/internal/provider/opencode_client.go#L177) |
+| OpenCodeSession | function_declaration |  | [192](../../magpie/internal/provider/opencode_client.go#L192) |
+| OpenCodeFree | method_declaration |  | [213](../../magpie/internal/provider/opencode_client.go#L213) |
+| openCodeFreeIDs | var_spec |  | [225](../../magpie/internal/provider/opencode_client.go#L225) |
+| OpenCodeTools | var_spec |  | [229](../../magpie/internal/provider/opencode_client.go#L229) |
+| OpenCodeToolSchemas | var_spec |  | [234](../../magpie/internal/provider/opencode_client.go#L234) |
+| OpenCodeFreeURL | function_declaration |  | [251](../../magpie/internal/provider/opencode_client.go#L251) |
+| OpenCodeStub | const_spec |  | [277](../../magpie/internal/provider/opencode_client.go#L277) |
+| zenFreeProbe | function_declaration |  | [283](../../magpie/internal/provider/opencode_client.go#L283) |
+| m | var_spec | zenFreeProbe | [284](../../magpie/internal/provider/opencode_client.go#L284) |
+| tools | var_spec | zenFreeProbe | [288](../../magpie/internal/provider/opencode_client.go#L288) |
+| schema | var_spec | zenFreeProbe | [290](../../magpie/internal/provider/opencode_client.go#L290) |
+| openCodeHasEnvironment | var_spec |  | [322](../../magpie/internal/provider/opencode_client.go#L322) |
+| OpenCodeHasEnvironment | function_declaration |  | [326](../../magpie/internal/provider/opencode_client.go#L326) |
+| OpenCodeEnvironment | function_declaration |  | [337](../../magpie/internal/provider/opencode_client.go#L337) |
+| OpenCodeProject | function_declaration |  | [377](../../magpie/internal/provider/opencode_client.go#L377) |
+| key | var_spec | OpenCodeProject | [383](../../magpie/internal/provider/opencode_client.go#L383) |
+| openCodeLocalDir | function_declaration |  | [398](../../magpie/internal/provider/opencode_client.go#L398) |
+| openCodeRemoteRe | var_spec |  | [410](../../magpie/internal/provider/opencode_client.go#L410) |
+| openCodeURLRe | var_spec |  | [411](../../magpie/internal/provider/opencode_client.go#L411) |
+| openCodeGitdirRe | var_spec |  | [412](../../magpie/internal/provider/opencode_client.go#L412) |
+| openCodeSchemeRe | var_spec |  | [413](../../magpie/internal/provider/opencode_client.go#L413) |
+| openCodeSCPRe | var_spec |  | [414](../../magpie/internal/provider/opencode_client.go#L414) |
+| openCodeDotGitRe | var_spec |  | [415](../../magpie/internal/provider/opencode_client.go#L415) |
+| openCodeRepository | function_declaration |  | [422](../../magpie/internal/provider/opencode_client.go#L422) |
+| first | var_spec | openCodeRepository | [453](../../magpie/internal/provider/opencode_client.go#L453) |
+| u | var_spec | openCodeRepository | [455](../../magpie/internal/provider/opencode_client.go#L455) |
+| openCodeRemotePath | function_declaration |  | [484](../../magpie/internal/provider/opencode_client.go#L484) |
+| openCodeTraces | var_spec |  | [513](../../magpie/internal/provider/opencode_client.go#L513) |
+| of | field_declaration | openCodeTraces | [515](../../magpie/internal/provider/opencode_client.go#L515) |
+| order | field_declaration | openCodeTraces | [516](../../magpie/internal/provider/opencode_client.go#L516) |
+| openCodeTrace | function_declaration |  | [521](../../magpie/internal/provider/opencode_client.go#L521) |
+| openCodeIDRe | var_spec |  | [547](../../magpie/internal/provider/opencode_client.go#L547) |
+| base62 | const_spec |  | [549](../../magpie/internal/provider/opencode_client.go#L549) |
+| openCodeIDs | var_spec |  | [553](../../magpie/internal/provider/opencode_client.go#L553) |
+| last | field_declaration | openCodeIDs | [555](../../magpie/internal/provider/opencode_client.go#L555) |
+| sessions | field_declaration | openCodeIDs | [556](../../magpie/internal/provider/opencode_client.go#L556) |
+| order | field_declaration | openCodeIDs | [557](../../magpie/internal/provider/opencode_client.go#L557) |
+| openCodeKept | type_spec |  | [560](../../magpie/internal/provider/opencode_client.go#L560) |
+| seed | field_declaration | openCodeKept | [560](../../magpie/internal/provider/opencode_client.go#L560) |
+| openCodeKeep | const_spec |  | [563](../../magpie/internal/provider/opencode_client.go#L563) |
+| openCodeNewID | function_declaration |  | [569](../../magpie/internal/provider/opencode_client.go#L569) |
+| b | var_spec | openCodeNewID | [581](../../magpie/internal/provider/opencode_client.go#L581) |
+| openCodeRealSession | function_declaration |  | [596](../../magpie/internal/provider/opencode_client.go#L596) |
+| openCodeSession | function_declaration |  | [609](../../magpie/internal/provider/opencode_client.go#L609) |

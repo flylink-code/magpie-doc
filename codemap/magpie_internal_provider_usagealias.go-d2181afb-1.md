@@ -4,21 +4,29 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/usagealias.go) · page 1/1
 
-Source SHA-256: f79be4350e9934de7d322c5f9bab6af5e73a38ccae696eded4d50e5b3bae5f35
+Source SHA-256: fb5f5def00306312349f66252ebc952765d022935f9f7d726d0c8ae1d194489d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SetUsageAlias | function_declaration |  | [30](../../magpie/internal/provider/usagealias.go#L30) |
-| checkAliasName | function_declaration |  | [71](../../magpie/internal/provider/usagealias.go#L71) |
-| aliasLoop | function_declaration |  | [89](../../magpie/internal/provider/usagealias.go#L89) |
-| aliasEntry | type_spec |  | [111](../../magpie/internal/provider/usagealias.go#L111) |
-| from | field_declaration | aliasEntry | [111](../../magpie/internal/provider/usagealias.go#L111) |
-| aliasIndex | function_declaration |  | [115](../../magpie/internal/provider/usagealias.go#L115) |
-| UsageAliasFor | function_declaration |  | [134](../../magpie/internal/provider/usagealias.go#L134) |
-| UsageAliases | function_declaration |  | [147](../../magpie/internal/provider/usagealias.go#L147) |
-| lastAliases | var_spec |  | [152](../../magpie/internal/provider/usagealias.go#L152) |
-| usageAliasesNow | function_declaration |  | [154](../../magpie/internal/provider/usagealias.go#L154) |
-| UsageAlias | function_declaration |  | [173](../../magpie/internal/provider/usagealias.go#L173) |
-| UsageAliasIn | function_declaration |  | [176](../../magpie/internal/provider/usagealias.go#L176) |
-| usageAliasOf | function_declaration |  | [178](../../magpie/internal/provider/usagealias.go#L178) |
-| memo | var_spec | usageAliasOf | [206](../../magpie/internal/provider/usagealias.go#L206) |
+| SetUsageAlias | function_declaration |  | [31](../../magpie/internal/provider/usagealias.go#L31) |
+| checkAliasName | function_declaration |  | [72](../../magpie/internal/provider/usagealias.go#L72) |
+| aliasLoop | function_declaration |  | [90](../../magpie/internal/provider/usagealias.go#L90) |
+| aliasEntry | type_spec |  | [112](../../magpie/internal/provider/usagealias.go#L112) |
+| from | field_declaration | aliasEntry | [112](../../magpie/internal/provider/usagealias.go#L112) |
+| aliasIndex | function_declaration |  | [116](../../magpie/internal/provider/usagealias.go#L116) |
+| UsageAliasFor | function_declaration |  | [135](../../magpie/internal/provider/usagealias.go#L135) |
+| UsageAliases | function_declaration |  | [148](../../magpie/internal/provider/usagealias.go#L148) |
+| lastAliases | var_spec |  | [153](../../magpie/internal/provider/usagealias.go#L153) |
+| usageAliasesNow | function_declaration |  | [155](../../magpie/internal/provider/usagealias.go#L155) |
+| UsageAlias | function_declaration |  | [172](../../magpie/internal/provider/usagealias.go#L172) |
+| UsageAliasKeyed | function_declaration |  | [178](../../magpie/internal/provider/usagealias.go#L178) |
+| usageAliasFrom | function_declaration |  | [183](../../magpie/internal/provider/usagealias.go#L183) |
+| memo | var_spec | usageAliasFrom | [188](../../magpie/internal/provider/usagealias.go#L188) |
+| usageGroupNames | function_declaration |  | [207](../../magpie/internal/provider/usagealias.go#L207) |
+| names | var_spec | usageGroupNames | [209](../../magpie/internal/provider/usagealias.go#L209) |
+| UsageNamesKey | function_declaration |  | [225](../../magpie/internal/provider/usagealias.go#L225) |
+| usageNamesKey | function_declaration |  | [227](../../magpie/internal/provider/usagealias.go#L227) |
+| Aliases | field_declaration | usageNamesKey | [229](../../magpie/internal/provider/usagealias.go#L229) |
+| UsageAliasIn | function_declaration |  | [235](../../magpie/internal/provider/usagealias.go#L235) |
+| usageAliasOf | function_declaration |  | [237](../../magpie/internal/provider/usagealias.go#L237) |
+| memo | var_spec | usageAliasOf | [265](../../magpie/internal/provider/usagealias.go#L265) |

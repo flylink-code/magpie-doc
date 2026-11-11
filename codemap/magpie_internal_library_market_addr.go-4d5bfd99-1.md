@@ -4,28 +4,28 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/market_addr.go) · page 1/1
 
-Source SHA-256: 8a49533ef5102411bf1c9ea8603c017f5366d124f61df295cdc1122e388b2fce
+Source SHA-256: 6301dbac403a5352917f38855ab4a0022c20a2382fb242ef50628879704817a3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codeHosts | var_spec |  | [17](../../magpie/internal/library/market_addr.go#L17) |
-| schemeRe | var_spec |  | [23](../../magpie/internal/library/market_addr.go#L23) |
-| ownerRepoRe | var_spec |  | [24](../../magpie/internal/library/market_addr.go#L24) |
-| hostRe | var_spec |  | [25](../../magpie/internal/library/market_addr.go#L25) |
-| normAddr | function_declaration |  | [31](../../magpie/internal/library/market_addr.go#L31) |
-| address | function_declaration |  | [75](../../magpie/internal/library/market_addr.go#L75) |
-| addrsOf | function_declaration |  | [98](../../magpie/internal/library/market_addr.go#L98) |
-| out | var_spec | addrsOf | [99](../../magpie/internal/library/market_addr.go#L99) |
-| packageOf | function_declaration |  | [110](../../magpie/internal/library/market_addr.go#L110) |
-| hostOf | function_declaration |  | [130](../../magpie/internal/library/market_addr.go#L130) |
-| addrScore | function_declaration |  | [142](../../magpie/internal/library/market_addr.go#L142) |
-| addrTerms | function_declaration |  | [174](../../magpie/internal/library/market_addr.go#L174) |
-| terms | var_spec | addrTerms | [175](../../magpie/internal/library/market_addr.go#L175) |
-| siteName | function_declaration |  | [202](../../magpie/internal/library/market_addr.go#L202) |
-| Custom | type_spec |  | [221](../../magpie/internal/library/market_addr.go#L221) |
-| Name | field_declaration | Custom | [222](../../magpie/internal/library/market_addr.go#L222) |
-| Transport | field_declaration | Custom | [223](../../magpie/internal/library/market_addr.go#L223) |
-| URL | field_declaration | Custom | [224](../../magpie/internal/library/market_addr.go#L224) |
-| Command | field_declaration | Custom | [225](../../magpie/internal/library/market_addr.go#L225) |
-| Args | field_declaration | Custom | [226](../../magpie/internal/library/market_addr.go#L226) |
-| CustomAt | function_declaration |  | [231](../../magpie/internal/library/market_addr.go#L231) |
+| codeHosts | var_spec |  | [18](../../magpie/internal/library/market_addr.go#L18) |
+| schemeRe | var_spec |  | [24](../../magpie/internal/library/market_addr.go#L24) |
+| ownerRepoRe | var_spec |  | [25](../../magpie/internal/library/market_addr.go#L25) |
+| hostRe | var_spec |  | [26](../../magpie/internal/library/market_addr.go#L26) |
+| normAddr | function_declaration |  | [32](../../magpie/internal/library/market_addr.go#L32) |
+| address | function_declaration |  | [76](../../magpie/internal/library/market_addr.go#L76) |
+| addrsOf | function_declaration |  | [99](../../magpie/internal/library/market_addr.go#L99) |
+| out | var_spec | addrsOf | [100](../../magpie/internal/library/market_addr.go#L100) |
+| packageOf | function_declaration |  | [111](../../magpie/internal/library/market_addr.go#L111) |
+| hostOf | function_declaration |  | [137](../../magpie/internal/library/market_addr.go#L137) |
+| addrScore | function_declaration |  | [149](../../magpie/internal/library/market_addr.go#L149) |
+| addrTerms | function_declaration |  | [181](../../magpie/internal/library/market_addr.go#L181) |
+| terms | var_spec | addrTerms | [182](../../magpie/internal/library/market_addr.go#L182) |
+| siteName | function_declaration |  | [209](../../magpie/internal/library/market_addr.go#L209) |
+| Custom | type_spec |  | [228](../../magpie/internal/library/market_addr.go#L228) |
+| Name | field_declaration | Custom | [229](../../magpie/internal/library/market_addr.go#L229) |
+| Transport | field_declaration | Custom | [230](../../magpie/internal/library/market_addr.go#L230) |
+| URL | field_declaration | Custom | [231](../../magpie/internal/library/market_addr.go#L231) |
+| Command | field_declaration | Custom | [232](../../magpie/internal/library/market_addr.go#L232) |
+| Args | field_declaration | Custom | [233](../../magpie/internal/library/market_addr.go#L233) |
+| CustomAt | function_declaration |  | [238](../../magpie/internal/library/market_addr.go#L238) |

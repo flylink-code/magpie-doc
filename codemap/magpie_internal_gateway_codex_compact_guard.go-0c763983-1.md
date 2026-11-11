@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_compact_guard.go) · page 1/1
 
-Source SHA-256: 0152272df59a3879ad338d288c9c1325cccb6f0c35769c0192772c5d25609450
+Source SHA-256: 847ac09be9bfa26e37f2f314a30900bb7f514c9be619934047735c67315ec0f9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,4 +26,8 @@ Source SHA-256: 0152272df59a3879ad338d288c9c1325cccb6f0c35769c0192772c5d25609450
 | done | method_declaration |  | [109](../../magpie/internal/gateway/codex_compact_guard.go#L109) |
 | wholeReplyKey | type_spec |  | [121](../../magpie/internal/gateway/codex_compact_guard.go#L121) |
 | wantsWhole | function_declaration |  | [123](../../magpie/internal/gateway/codex_compact_guard.go#L123) |
-| askWhole | function_declaration |  | [128](../../magpie/internal/gateway/codex_compact_guard.go#L128) |
+| compactionAskKey | type_spec |  | [132](../../magpie/internal/gateway/codex_compact_guard.go#L132) |
+| asksCompaction | function_declaration |  | [134](../../magpie/internal/gateway/codex_compact_guard.go#L134) |
+| askCompaction | function_declaration |  | [139](../../magpie/internal/gateway/codex_compact_guard.go#L139) |
+| askAsSent | function_declaration |  | [148](../../magpie/internal/gateway/codex_compact_guard.go#L148) |
+| askWhole | function_declaration |  | [152](../../magpie/internal/gateway/codex_compact_guard.go#L152) |

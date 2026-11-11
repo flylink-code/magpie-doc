@@ -4,32 +4,38 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/builtins.go) · page 1/1
 
-Source SHA-256: abed79b74e4591b8bfc0303de11981aa1f02355eb007063da9467e09856cce2f
+Source SHA-256: 565b3d77fbec51db5152e8e1db64f8e507c4b172fd24d5f4be1da7d0c9501716
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| builtinJSON | type_spec |  | [28](../../magpie/internal/gui/builtins.go#L28) |
-| ID | field_declaration | builtinJSON | [29](../../magpie/internal/gui/builtins.go#L29) |
-| Name | field_declaration | builtinJSON | [30](../../magpie/internal/gui/builtins.go#L30) |
-| Sub | field_declaration | builtinJSON | [31](../../magpie/internal/gui/builtins.go#L31) |
-| On | field_declaration | builtinJSON | [32](../../magpie/internal/gui/builtins.go#L32) |
-| Chosen | field_declaration | builtinJSON | [33](../../magpie/internal/gui/builtins.go#L33) |
-| Source | field_declaration | builtinJSON | [34](../../magpie/internal/gui/builtins.go#L34) |
-| State | field_declaration | builtinJSON | [35](../../magpie/internal/gui/builtins.go#L35) |
-| Why | field_declaration | builtinJSON | [37](../../magpie/internal/gui/builtins.go#L37) |
-| InUse | field_declaration | builtinJSON | [38](../../magpie/internal/gui/builtins.go#L38) |
-| Use | field_declaration | builtinJSON | [39](../../magpie/internal/gui/builtins.go#L39) |
-| Parts | field_declaration | builtinJSON | [40](../../magpie/internal/gui/builtins.go#L40) |
-| Schema | field_declaration | builtinJSON | [43](../../magpie/internal/gui/builtins.go#L43) |
-| Config | field_declaration | builtinJSON | [44](../../magpie/internal/gui/builtins.go#L44) |
-| Broken | field_declaration | builtinJSON | [47](../../magpie/internal/gui/builtins.go#L47) |
-| builtinsState | function_declaration |  | [52](../../magpie/internal/gui/builtins.go#L52) |
-| builtinsOff | function_declaration |  | [84](../../magpie/internal/gui/builtins.go#L84) |
-| builtinConfig | function_declaration |  | [96](../../magpie/internal/gui/builtins.go#L96) |
-| builtinRoutes | function_declaration |  | [110](../../magpie/internal/gui/builtins.go#L110) |
-| in | var_spec | builtinRoutes | [115](../../magpie/internal/gui/builtins.go#L115) |
-| ID | field_declaration | builtinRoutes::in | [116](../../magpie/internal/gui/builtins.go#L116) |
-| On | field_declaration | builtinRoutes::in | [117](../../magpie/internal/gui/builtins.go#L117) |
-| Config | field_declaration | builtinRoutes::in | [118](../../magpie/internal/gui/builtins.go#L118) |
-| b | var_spec | builtinRoutes | [124](../../magpie/internal/gui/builtins.go#L124) |
-| err | var_spec | builtinRoutes | [145](../../magpie/internal/gui/builtins.go#L145) |
+| builtinJSON | type_spec |  | [31](../../magpie/internal/gui/builtins.go#L31) |
+| ID | field_declaration | builtinJSON | [32](../../magpie/internal/gui/builtins.go#L32) |
+| Name | field_declaration | builtinJSON | [33](../../magpie/internal/gui/builtins.go#L33) |
+| Sub | field_declaration | builtinJSON | [34](../../magpie/internal/gui/builtins.go#L34) |
+| On | field_declaration | builtinJSON | [35](../../magpie/internal/gui/builtins.go#L35) |
+| Chosen | field_declaration | builtinJSON | [36](../../magpie/internal/gui/builtins.go#L36) |
+| Source | field_declaration | builtinJSON | [37](../../magpie/internal/gui/builtins.go#L37) |
+| State | field_declaration | builtinJSON | [38](../../magpie/internal/gui/builtins.go#L38) |
+| Why | field_declaration | builtinJSON | [40](../../magpie/internal/gui/builtins.go#L40) |
+| InUse | field_declaration | builtinJSON | [41](../../magpie/internal/gui/builtins.go#L41) |
+| Use | field_declaration | builtinJSON | [42](../../magpie/internal/gui/builtins.go#L42) |
+| Parts | field_declaration | builtinJSON | [43](../../magpie/internal/gui/builtins.go#L43) |
+| SetAt | field_declaration | builtinJSON | [47](../../magpie/internal/gui/builtins.go#L47) |
+| Page | field_declaration | builtinJSON | [48](../../magpie/internal/gui/builtins.go#L48) |
+| Opens | field_declaration | builtinJSON | [49](../../magpie/internal/gui/builtins.go#L49) |
+| Schema | field_declaration | builtinJSON | [52](../../magpie/internal/gui/builtins.go#L52) |
+| Config | field_declaration | builtinJSON | [53](../../magpie/internal/gui/builtins.go#L53) |
+| Broken | field_declaration | builtinJSON | [56](../../magpie/internal/gui/builtins.go#L56) |
+| Searches | field_declaration | builtinJSON | [61](../../magpie/internal/gui/builtins.go#L61) |
+| builtinsState | function_declaration |  | [66](../../magpie/internal/gui/builtins.go#L66) |
+| searchesNow | function_declaration |  | [107](../../magpie/internal/gui/builtins.go#L107) |
+| apis | var_spec | searchesNow | [108](../../magpie/internal/gui/builtins.go#L108) |
+| builtinsOff | function_declaration |  | [124](../../magpie/internal/gui/builtins.go#L124) |
+| builtinConfig | function_declaration |  | [136](../../magpie/internal/gui/builtins.go#L136) |
+| builtinRoutes | function_declaration |  | [150](../../magpie/internal/gui/builtins.go#L150) |
+| in | var_spec | builtinRoutes | [155](../../magpie/internal/gui/builtins.go#L155) |
+| ID | field_declaration | builtinRoutes::in | [156](../../magpie/internal/gui/builtins.go#L156) |
+| On | field_declaration | builtinRoutes::in | [157](../../magpie/internal/gui/builtins.go#L157) |
+| Config | field_declaration | builtinRoutes::in | [158](../../magpie/internal/gui/builtins.go#L158) |
+| b | var_spec | builtinRoutes | [164](../../magpie/internal/gui/builtins.go#L164) |
+| err | var_spec | builtinRoutes | [185](../../magpie/internal/gui/builtins.go#L185) |

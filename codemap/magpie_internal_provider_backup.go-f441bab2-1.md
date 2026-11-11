@@ -4,22 +4,22 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/backup.go) · page 1/1
 
-Source SHA-256: c2de4db7a4d2c4d00c62521f2ac67a58d6aa136dfa1fb006508937b93b5dcc77
+Source SHA-256: d17edcf502327620249ac4aaccdb9a1e27deba3d182864f7eb7e3515bcff4264
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | handOver | var_spec |  | [14](../../magpie/internal/provider/backup.go#L14) |
 | Stored | function_declaration |  | [20](../../magpie/internal/provider/backup.go#L20) |
 | Restore | function_declaration |  | [29](../../magpie/internal/provider/backup.go#L29) |
-| StoredGroups | function_declaration |  | [62](../../magpie/internal/provider/backup.go#L62) |
-| RestoreGroups | function_declaration |  | [69](../../magpie/internal/provider/backup.go#L69) |
-| Mirror | function_declaration |  | [95](../../magpie/internal/provider/backup.go#L95) |
-| Carried | function_declaration |  | [126](../../magpie/internal/provider/backup.go#L126) |
-| out | var_spec | Carried | [127](../../magpie/internal/provider/backup.go#L127) |
-| withoutSecretOptions | function_declaration |  | [142](../../magpie/internal/provider/backup.go#L142) |
-| strip | var_spec | withoutSecretOptions | [143](../../magpie/internal/provider/backup.go#L143) |
-| AddPlugins | function_declaration |  | [175](../../magpie/internal/provider/backup.go#L175) |
-| NotSignedIn | function_declaration |  | [214](../../magpie/internal/provider/backup.go#L214) |
-| notSignedIn | function_declaration |  | [223](../../magpie/internal/provider/backup.go#L223) |
-| out | var_spec | notSignedIn | [224](../../magpie/internal/provider/backup.go#L224) |
-| OnlyPicks | function_declaration |  | [240](../../magpie/internal/provider/backup.go#L240) |
+| StoredGroups | function_declaration |  | [65](../../magpie/internal/provider/backup.go#L65) |
+| RestoreGroups | function_declaration |  | [72](../../magpie/internal/provider/backup.go#L72) |
+| Mirror | function_declaration |  | [103](../../magpie/internal/provider/backup.go#L103) |
+| Carried | function_declaration |  | [139](../../magpie/internal/provider/backup.go#L139) |
+| out | var_spec | Carried | [140](../../magpie/internal/provider/backup.go#L140) |
+| withoutSecretOptions | function_declaration |  | [155](../../magpie/internal/provider/backup.go#L155) |
+| strip | var_spec | withoutSecretOptions | [156](../../magpie/internal/provider/backup.go#L156) |
+| AddPlugins | function_declaration |  | [188](../../magpie/internal/provider/backup.go#L188) |
+| NotSignedIn | function_declaration |  | [227](../../magpie/internal/provider/backup.go#L227) |
+| notSignedIn | function_declaration |  | [236](../../magpie/internal/provider/backup.go#L236) |
+| out | var_spec | notSignedIn | [237](../../magpie/internal/provider/backup.go#L237) |
+| OnlyPicks | function_declaration |  | [253](../../magpie/internal/provider/backup.go#L253) |

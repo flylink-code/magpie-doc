@@ -4,23 +4,28 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/agy.go) · page 1/1
 
-Source SHA-256: 2183deafc49886ae75a6957c9e95f384392227c3f4ab27feb1b115d1bd1fb2c2
+Source SHA-256: d8bf7b8d5ee58970bf8cfd7ce696e6f97f965d992c16c5cae92b572af6371dc6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| agyModels | const_spec |  | [46](../../magpie/internal/agent/agy.go#L46) |
-| AgyLaunch | function_declaration |  | [54](../../magpie/internal/agent/agy.go#L54) |
-| agyLaunchAt | function_declaration |  | [60](../../magpie/internal/agent/agy.go#L60) |
-| AgyStart | function_declaration |  | [70](../../magpie/internal/agent/agy.go#L70) |
-| agyShell | function_declaration |  | [82](../../magpie/internal/agent/agy.go#L82) |
-| agyFunction | function_declaration |  | [95](../../magpie/internal/agent/agy.go#L95) |
-| agyDistroProfiles | function_declaration |  | [129](../../magpie/internal/agent/agy.go#L129) |
-| distroLoginShell | function_declaration |  | [141](../../magpie/internal/agent/agy.go#L141) |
-| agyDistroModel | const_spec |  | [164](../../magpie/internal/agent/agy.go#L164) |
-| agyDistroFunction | function_declaration |  | [170](../../magpie/internal/agent/agy.go#L170) |
-| agyCustom | function_declaration |  | [192](../../magpie/internal/agent/agy.go#L192) |
-| agy | function_declaration |  | [205](../../magpie/internal/agent/agy.go#L205) |
-| agyIn | function_declaration |  | [209](../../magpie/internal/agent/agy.go#L209) |
-| own | var_spec | agyIn | [378](../../magpie/internal/agent/agy.go#L378) |
-| noticeAgy | var_spec |  | [402](../../magpie/internal/agent/agy.go#L402) |
-| noticeAgyTyped | var_spec |  | [403](../../magpie/internal/agent/agy.go#L403) |
+| agyModels | const_spec |  | [57](../../magpie/internal/agent/agy.go#L57) |
+| AgyLaunch | function_declaration |  | [65](../../magpie/internal/agent/agy.go#L65) |
+| agyOverride | const_spec |  | [70](../../magpie/internal/agent/agy.go#L70) |
+| agySettingsFile | function_declaration |  | [73](../../magpie/internal/agent/agy.go#L73) |
+| agyPlain | var_spec |  | [81](../../magpie/internal/agent/agy.go#L81) |
+| agyLaunchAt | function_declaration |  | [85](../../magpie/internal/agent/agy.go#L85) |
+| agyShell | function_declaration |  | [95](../../magpie/internal/agent/agy.go#L95) |
+| agyFunction | function_declaration |  | [108](../../magpie/internal/agent/agy.go#L108) |
+| agyPosixHead | const_spec |  | [140](../../magpie/internal/agent/agy.go#L140) |
+| agyDistroProfiles | function_declaration |  | [149](../../magpie/internal/agent/agy.go#L149) |
+| distroLoginShell | function_declaration |  | [161](../../magpie/internal/agent/agy.go#L161) |
+| agyDistroModel | const_spec |  | [184](../../magpie/internal/agent/agy.go#L184) |
+| agyDistroFunction | function_declaration |  | [190](../../magpie/internal/agent/agy.go#L190) |
+| agyCustom | function_declaration |  | [216](../../magpie/internal/agent/agy.go#L216) |
+| agy | function_declaration |  | [229](../../magpie/internal/agent/agy.go#L229) |
+| agyIn | function_declaration |  | [233](../../magpie/internal/agent/agy.go#L233) |
+| own | var_spec | agyIn | [444](../../magpie/internal/agent/agy.go#L444) |
+| agyEffortField | function_declaration |  | [467](../../magpie/internal/agent/agy.go#L467) |
+| effortField | function_declaration |  | [480](../../magpie/internal/agent/agy.go#L480) |
+| noticeAgy | var_spec |  | [496](../../magpie/internal/agent/agy.go#L496) |
+| noticeAgyTyped | var_spec |  | [497](../../magpie/internal/agent/agy.go#L497) |

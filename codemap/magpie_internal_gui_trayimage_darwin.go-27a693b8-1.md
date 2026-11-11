@@ -4,23 +4,26 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayimage_darwin.go) · page 1/1
 
-Source SHA-256: cfbe34679f2d362b43c015d3a35568d78b24239758a1baeaea809b7e4c85a3a5
+Source SHA-256: 805507bd1b519dcbc6f81f8b4011e79aca4828654cfad502d1ec352f90aa294a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| withCells | function_declaration |  | [537](../../magpie/internal/gui/trayimage_darwin.go#L537) |
-| owned | var_spec | withCells | [543](../../magpie/internal/gui/trayimage_darwin.go#L543) |
-| cBytes | function_declaration |  | [567](../../magpie/internal/gui/trayimage_darwin.go#L567) |
-| trayImageShow | function_declaration |  | [577](../../magpie/internal/gui/trayimage_darwin.go#L577) |
-| trayImageFrame | function_declaration |  | [587](../../magpie/internal/gui/trayimage_darwin.go#L587) |
-| trayTipNative | var_spec |  | [596](../../magpie/internal/gui/trayimage_darwin.go#L596) |
-| trayTipShown | function_declaration |  | [603](../../magpie/internal/gui/trayimage_darwin.go#L603) |
-| trayImageHide | function_declaration |  | [612](../../magpie/internal/gui/trayimage_darwin.go#L612) |
-| trayHighlight | function_declaration |  | [615](../../magpie/internal/gui/trayimage_darwin.go#L615) |
-| trayOwnClicks | function_declaration |  | [618](../../magpie/internal/gui/trayimage_darwin.go#L618) |
-| trayImagePNG | function_declaration |  | [623](../../magpie/internal/gui/trayimage_darwin.go#L623) |
-| size | var_spec | trayImagePNG | [627](../../magpie/internal/gui/trayimage_darwin.go#L627) |
-| cBool | function_declaration |  | [638](../../magpie/internal/gui/trayimage_darwin.go#L638) |
-| trayImageCellAt | function_declaration |  | [648](../../magpie/internal/gui/trayimage_darwin.go#L648) |
-| trayImageCellStart | function_declaration |  | [657](../../magpie/internal/gui/trayimage_darwin.go#L657) |
-| trayImageClickAt | function_declaration |  | [665](../../magpie/internal/gui/trayimage_darwin.go#L665) |
+| withCells | function_declaration |  | [556](../../magpie/internal/gui/trayimage_darwin.go#L556) |
+| owned | var_spec | withCells | [562](../../magpie/internal/gui/trayimage_darwin.go#L562) |
+| cBytes | function_declaration |  | [586](../../magpie/internal/gui/trayimage_darwin.go#L586) |
+| trayImageShow | function_declaration |  | [596](../../magpie/internal/gui/trayimage_darwin.go#L596) |
+| trayImageFrame | function_declaration |  | [606](../../magpie/internal/gui/trayimage_darwin.go#L606) |
+| trayTipNative | var_spec |  | [615](../../magpie/internal/gui/trayimage_darwin.go#L615) |
+| trayTipShown | function_declaration |  | [622](../../magpie/internal/gui/trayimage_darwin.go#L622) |
+| trayImageHide | function_declaration |  | [631](../../magpie/internal/gui/trayimage_darwin.go#L631) |
+| trayHighlight | function_declaration |  | [634](../../magpie/internal/gui/trayimage_darwin.go#L634) |
+| trayOwnClicks | function_declaration |  | [637](../../magpie/internal/gui/trayimage_darwin.go#L637) |
+| trayImagePNG | function_declaration |  | [642](../../magpie/internal/gui/trayimage_darwin.go#L642) |
+| size | var_spec | trayImagePNG | [646](../../magpie/internal/gui/trayimage_darwin.go#L646) |
+| trayRowFont | function_declaration |  | [660](../../magpie/internal/gui/trayimage_darwin.go#L660) |
+| s | var_spec | trayRowFont | [661](../../magpie/internal/gui/trayimage_darwin.go#L661) |
+| mo | var_spec | trayRowFont | [662](../../magpie/internal/gui/trayimage_darwin.go#L662) |
+| cBool | function_declaration |  | [667](../../magpie/internal/gui/trayimage_darwin.go#L667) |
+| trayImageCellAt | function_declaration |  | [677](../../magpie/internal/gui/trayimage_darwin.go#L677) |
+| trayImageCellStart | function_declaration |  | [686](../../magpie/internal/gui/trayimage_darwin.go#L686) |
+| trayImageClickAt | function_declaration |  | [694](../../magpie/internal/gui/trayimage_darwin.go#L694) |

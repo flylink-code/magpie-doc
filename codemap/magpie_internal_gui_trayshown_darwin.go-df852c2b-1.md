@@ -4,13 +4,17 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trayshown_darwin.go) · page 1/1
 
-Source SHA-256: afaf906c740815266d82c1f7151f9753cb455e8ae44b3f32134990413c91764e
+Source SHA-256: 1a7dd07bf0d5d410fff1814c8dc58983b943da5b8a359430c7e7d928f546c239
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| trayHidden | function_declaration |  | [69](../../magpie/internal/gui/trayshown_darwin.go#L69) |
-| forgetTrayHidden | function_declaration |  | [73](../../magpie/internal/gui/trayshown_darwin.go#L73) |
-| forgetTrayHiddenLater | function_declaration |  | [77](../../magpie/internal/gui/trayshown_darwin.go#L77) |
-| mainSettled | function_declaration |  | [81](../../magpie/internal/gui/trayshown_darwin.go#L81) |
-| trayBroughtBackKey | const_spec |  | [85](../../magpie/internal/gui/trayshown_darwin.go#L85) |
-| bringTrayBack | function_declaration |  | [92](../../magpie/internal/gui/trayshown_darwin.go#L92) |
+| trayHidden | function_declaration |  | [128](../../magpie/internal/gui/trayshown_darwin.go#L128) |
+| forgetTrayHidden | function_declaration |  | [132](../../magpie/internal/gui/trayshown_darwin.go#L132) |
+| forgetTrayHiddenLater | function_declaration |  | [136](../../magpie/internal/gui/trayshown_darwin.go#L136) |
+| keepTrayPlace | function_declaration |  | [141](../../magpie/internal/gui/trayshown_darwin.go#L141) |
+| trayItems | function_declaration |  | [144](../../magpie/internal/gui/trayshown_darwin.go#L144) |
+| trayPlace | function_declaration |  | [148](../../magpie/internal/gui/trayshown_darwin.go#L148) |
+| setTrayPlace | function_declaration |  | [155](../../magpie/internal/gui/trayshown_darwin.go#L155) |
+| mainSettled | function_declaration |  | [163](../../magpie/internal/gui/trayshown_darwin.go#L163) |
+| trayBroughtBackKey | const_spec |  | [167](../../magpie/internal/gui/trayshown_darwin.go#L167) |
+| bringTrayBack | function_declaration |  | [174](../../magpie/internal/gui/trayshown_darwin.go#L174) |

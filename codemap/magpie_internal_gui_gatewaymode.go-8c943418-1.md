@@ -4,14 +4,24 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/gatewaymode.go) · page 1/1
 
-Source SHA-256: 96e694c4b6f80b6e11d34b189321283cfc63796153a1e52b92b66fedf673f85d
+Source SHA-256: ecf2c681edf50661bd8d22141e27d5b9da6c61f936a16e39dd00b378d1864cc9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WebGateway | var_spec |  | [27](../../magpie/internal/gui/gatewaymode.go#L27) |
-| webPage | var_spec |  | [31](../../magpie/internal/gui/gatewaymode.go#L31) |
-| gatewayMode | function_declaration |  | [36](../../magpie/internal/gui/gatewaymode.go#L36) |
-| agentsHere | var_spec |  | [54](../../magpie/internal/gui/gatewaymode.go#L54) |
-| gatewayModeRoutes | function_declaration |  | [58](../../magpie/internal/gui/gatewaymode.go#L58) |
-| in | var_spec | gatewayModeRoutes | [60](../../magpie/internal/gui/gatewaymode.go#L60) |
-| Mode | field_declaration | gatewayModeRoutes::in | [61](../../magpie/internal/gui/gatewaymode.go#L61) |
+| WebGateway | var_spec |  | [32](../../magpie/internal/gui/gatewaymode.go#L32) |
+| webPage | var_spec |  | [36](../../magpie/internal/gui/gatewaymode.go#L36) |
+| gatewayMode | function_declaration |  | [41](../../magpie/internal/gui/gatewaymode.go#L41) |
+| agentsHere | var_spec |  | [59](../../magpie/internal/gui/gatewaymode.go#L59) |
+| gatewayModeRoutes | function_declaration |  | [63](../../magpie/internal/gui/gatewaymode.go#L63) |
+| in | var_spec | gatewayModeRoutes | [65](../../magpie/internal/gui/gatewaymode.go#L65) |
+| Mode | field_declaration | gatewayModeRoutes::in | [66](../../magpie/internal/gui/gatewaymode.go#L66) |
+| ownSessionsOff | function_declaration |  | [98](../../magpie/internal/gui/gatewaymode.go#L98) |
+| ownWas | var_spec |  | [114](../../magpie/internal/gui/gatewaymode.go#L114) |
+| ownTurned | function_declaration |  | [119](../../magpie/internal/gui/gatewaymode.go#L119) |
+| forgetOwnSessions | function_declaration |  | [129](../../magpie/internal/gui/gatewaymode.go#L129) |
+| agentsSeen | var_spec |  | [137](../../magpie/internal/gui/gatewaymode.go#L137) |
+| at | field_declaration | agentsSeen | [139](../../magpie/internal/gui/gatewaymode.go#L139) |
+| on | field_declaration | agentsSeen | [140](../../magpie/internal/gui/gatewaymode.go#L140) |
+| here | field_declaration | agentsSeen | [141](../../magpie/internal/gui/gatewaymode.go#L141) |
+| agentsHereKept | function_declaration |  | [144](../../magpie/internal/gui/gatewaymode.go#L144) |
+| init | function_declaration |  | [154](../../magpie/internal/gui/gatewaymode.go#L154) |

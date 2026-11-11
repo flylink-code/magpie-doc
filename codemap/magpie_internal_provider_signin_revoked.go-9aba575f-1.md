@@ -4,27 +4,29 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/signin_revoked.go) · page 1/1
 
-Source SHA-256: 6fc39aae5dd7e0a43785a40b5d4e5620904e7a0f88ac848a91f0e1b73a509566
+Source SHA-256: 4399347e4a90ddb192d5f3988e8a0b74f896496da3f73751533bee8d97d5a232
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| revokedPrefix | const_spec |  | [32](../../magpie/internal/provider/signin_revoked.go#L32) |
-| revokedWords | var_spec |  | [40](../../magpie/internal/provider/signin_revoked.go#L40) |
-| SignInRevoked | function_declaration |  | [44](../../magpie/internal/provider/signin_revoked.go#L44) |
-| RevokedAccount | function_declaration |  | [50](../../magpie/internal/provider/signin_revoked.go#L50) |
-| credentialMark | function_declaration |  | [56](../../magpie/internal/provider/signin_revoked.go#L56) |
-| revoked | var_spec |  | [69](../../magpie/internal/provider/signin_revoked.go#L69) |
-| loaded | field_declaration | revoked | [71](../../magpie/internal/provider/signin_revoked.go#L71) |
-| marks | field_declaration | revoked | [72](../../magpie/internal/provider/signin_revoked.go#L72) |
-| accounts | field_declaration | revoked | [73](../../magpie/internal/provider/signin_revoked.go#L73) |
-| revokedKey | function_declaration |  | [76](../../magpie/internal/provider/signin_revoked.go#L76) |
-| revokedLoad | function_declaration |  | [79](../../magpie/internal/provider/signin_revoked.go#L79) |
-| resetRevoked | function_declaration |  | [96](../../magpie/internal/provider/signin_revoked.go#L96) |
-| revokedText | function_declaration |  | [104](../../magpie/internal/provider/signin_revoked.go#L104) |
-| RevokedSignIn | function_declaration |  | [110](../../magpie/internal/provider/signin_revoked.go#L110) |
-| SignInMarked | function_declaration |  | [127](../../magpie/internal/provider/signin_revoked.go#L127) |
-| NoteRevokedSignIn | function_declaration |  | [142](../../magpie/internal/provider/signin_revoked.go#L142) |
-| ServedSignIn | function_declaration |  | [179](../../magpie/internal/provider/signin_revoked.go#L179) |
-| sameAuth | function_declaration |  | [204](../../magpie/internal/provider/signin_revoked.go#L204) |
-| ca | var_spec | sameAuth | [205](../../magpie/internal/provider/signin_revoked.go#L205) |
-| revokedLapse | function_declaration |  | [213](../../magpie/internal/provider/signin_revoked.go#L213) |
+| revokedPrefix | const_spec |  | [33](../../magpie/internal/provider/signin_revoked.go#L33) |
+| revokedWords | var_spec |  | [41](../../magpie/internal/provider/signin_revoked.go#L41) |
+| SignInRevoked | function_declaration |  | [45](../../magpie/internal/provider/signin_revoked.go#L45) |
+| RevokedAccount | function_declaration |  | [51](../../magpie/internal/provider/signin_revoked.go#L51) |
+| credentialMark | function_declaration |  | [57](../../magpie/internal/provider/signin_revoked.go#L57) |
+| revoked | var_spec |  | [70](../../magpie/internal/provider/signin_revoked.go#L70) |
+| loaded | field_declaration | revoked | [72](../../magpie/internal/provider/signin_revoked.go#L72) |
+| marks | field_declaration | revoked | [73](../../magpie/internal/provider/signin_revoked.go#L73) |
+| accounts | field_declaration | revoked | [74](../../magpie/internal/provider/signin_revoked.go#L74) |
+| revokedKey | function_declaration |  | [77](../../magpie/internal/provider/signin_revoked.go#L77) |
+| revokedLoad | function_declaration |  | [80](../../magpie/internal/provider/signin_revoked.go#L80) |
+| resetRevoked | function_declaration |  | [97](../../magpie/internal/provider/signin_revoked.go#L97) |
+| revokedText | function_declaration |  | [105](../../magpie/internal/provider/signin_revoked.go#L105) |
+| RevokedSignIn | function_declaration |  | [111](../../magpie/internal/provider/signin_revoked.go#L111) |
+| SignInMarked | function_declaration |  | [128](../../magpie/internal/provider/signin_revoked.go#L128) |
+| NoteRevokedSignIn | function_declaration |  | [143](../../magpie/internal/provider/signin_revoked.go#L143) |
+| markRevoked | function_declaration |  | [167](../../magpie/internal/provider/signin_revoked.go#L167) |
+| bearerMark | function_declaration |  | [186](../../magpie/internal/provider/signin_revoked.go#L186) |
+| ServedSignIn | function_declaration |  | [198](../../magpie/internal/provider/signin_revoked.go#L198) |
+| sameAuth | function_declaration |  | [223](../../magpie/internal/provider/signin_revoked.go#L223) |
+| ca | var_spec | sameAuth | [224](../../magpie/internal/provider/signin_revoked.go#L224) |
+| revokedLapse | function_declaration |  | [232](../../magpie/internal/provider/signin_revoked.go#L232) |

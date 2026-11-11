@@ -4,18 +4,21 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/period_range.go) · page 1/1
 
-Source SHA-256: 394521478f54ce6f565fec651c0f584fef26166bd8b6c7008be76711bce4db5a
+Source SHA-256: d34ec93b450685aa6627a00a4eafb83596d0b07f8952bf6d6a709812d93391a6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| rangeSep | const_spec |  | [12](../../magpie/internal/usage/period_range.go#L12) |
-| RangeOf | function_declaration |  | [16](../../magpie/internal/usage/period_range.go#L16) |
-| lastSep | const_spec |  | [33](../../magpie/internal/usage/period_range.go#L33) |
-| LastOf | function_declaration |  | [37](../../magpie/internal/usage/period_range.go#L37) |
-| Last | method_declaration |  | [46](../../magpie/internal/usage/period_range.go#L46) |
-| days | method_declaration |  | [59](../../magpie/internal/usage/period_range.go#L59) |
-| IsRange | method_declaration |  | [73](../../magpie/internal/usage/period_range.go#L73) |
-| Known | method_declaration |  | [80](../../magpie/internal/usage/period_range.go#L80) |
-| Until | method_declaration |  | [90](../../magpie/internal/usage/period_range.go#L90) |
-| after | function_declaration |  | [98](../../magpie/internal/usage/period_range.go#L98) |
-| shown | method_declaration |  | [102](../../magpie/internal/usage/period_range.go#L102) |
+| rangeSep | const_spec |  | [16](../../magpie/internal/usage/period_range.go#L16) |
+| rangeMinute | const_spec |  | [19](../../magpie/internal/usage/period_range.go#L19) |
+| rangeEnd | function_declaration |  | [23](../../magpie/internal/usage/period_range.go#L23) |
+| RangeOf | function_declaration |  | [36](../../magpie/internal/usage/period_range.go#L36) |
+| lastSep | const_spec |  | [63](../../magpie/internal/usage/period_range.go#L63) |
+| LastOf | function_declaration |  | [67](../../magpie/internal/usage/period_range.go#L67) |
+| Last | method_declaration |  | [76](../../magpie/internal/usage/period_range.go#L76) |
+| bounds | method_declaration |  | [92](../../magpie/internal/usage/period_range.go#L92) |
+| timed | method_declaration |  | [112](../../magpie/internal/usage/period_range.go#L112) |
+| IsRange | method_declaration |  | [118](../../magpie/internal/usage/period_range.go#L118) |
+| Known | method_declaration |  | [125](../../magpie/internal/usage/period_range.go#L125) |
+| Until | method_declaration |  | [136](../../magpie/internal/usage/period_range.go#L136) |
+| after | function_declaration |  | [144](../../magpie/internal/usage/period_range.go#L144) |
+| shown | method_declaration |  | [148](../../magpie/internal/usage/period_range.go#L148) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/account_names.go) · page 1/1
 
-Source SHA-256: 61a14a8b6d56d0f8169f20f93119a07be37fb047e1e590c2af26b7b806b96ccb
+Source SHA-256: b23a99807f7472c717b7f557b588b440d882c662d56fcab2d0ce6bda4491a5e4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,8 +13,15 @@ Source SHA-256: 61a14a8b6d56d0f8169f20f93119a07be37fb047e1e590c2af26b7b806b96ccb
 | normalAccountNames | function_declaration |  | [39](../../magpie/internal/provider/account_names.go#L39) |
 | out | var_spec | normalAccountNames | [40](../../magpie/internal/provider/account_names.go#L40) |
 | AccountName | method_declaration |  | [57](../../magpie/internal/provider/account_names.go#L57) |
-| AccountNameOf | function_declaration |  | [69](../../magpie/internal/provider/account_names.go#L69) |
-| AccountShown | method_declaration |  | [85](../../magpie/internal/provider/account_names.go#L85) |
-| AccountShownOf | function_declaration |  | [88](../../magpie/internal/provider/account_names.go#L88) |
-| SetAccountName | function_declaration |  | [92](../../magpie/internal/provider/account_names.go#L92) |
-| withAccountNames | function_declaration |  | [128](../../magpie/internal/provider/account_names.go#L128) |
+| AccountByName | function_declaration |  | [72](../../magpie/internal/provider/account_names.go#L72) |
+| named | var_spec | AccountByName | [77](../../magpie/internal/provider/account_names.go#L77) |
+| AccountNameOf | function_declaration |  | [101](../../magpie/internal/provider/account_names.go#L101) |
+| AccountShown | method_declaration |  | [118](../../magpie/internal/provider/account_names.go#L118) |
+| PluginUser | method_declaration |  | [127](../../magpie/internal/provider/account_names.go#L127) |
+| AccountShownOf | function_declaration |  | [135](../../magpie/internal/provider/account_names.go#L135) |
+| AccountLabelOf | function_declaration |  | [141](../../magpie/internal/provider/account_names.go#L141) |
+| labelProvider | function_declaration |  | [148](../../magpie/internal/provider/account_names.go#L148) |
+| PluginUserOf | function_declaration |  | [163](../../magpie/internal/provider/account_names.go#L163) |
+| usageUser | function_declaration |  | [172](../../magpie/internal/provider/account_names.go#L172) |
+| SetAccountName | function_declaration |  | [198](../../magpie/internal/provider/account_names.go#L198) |
+| withAccountNames | function_declaration |  | [235](../../magpie/internal/provider/account_names.go#L235) |

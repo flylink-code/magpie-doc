@@ -4,32 +4,45 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/handover.go) · page 1/1
 
-Source SHA-256: 12ac3bd1672774ef989408603fd493413c2490d2a365d006d49bf41f50df8dde
+Source SHA-256: 2504b8c1f4c624b76a4de25bc1d56e5aa4434a32d3dfbdf49505a3e63987d8d6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | handedOffDrain | var_spec |  | [28](../../magpie/internal/gateway/handover.go#L28) |
-| shortDrain | var_spec |  | [32](../../magpie/internal/gateway/handover.go#L32) |
-| inherited | var_spec |  | [37](../../magpie/internal/gateway/handover.go#L37) |
-| ln | field_declaration | inherited | [39](../../magpie/internal/gateway/handover.go#L39) |
-| ack | field_declaration | inherited | [40](../../magpie/internal/gateway/handover.go#L40) |
-| Inherit | function_declaration |  | [46](../../magpie/internal/gateway/handover.go#L46) |
-| Inherited | function_declaration |  | [58](../../magpie/internal/gateway/handover.go#L58) |
-| takeInherited | function_declaration |  | [67](../../magpie/internal/gateway/handover.go#L67) |
-| pendingAck | var_spec |  | [85](../../magpie/internal/gateway/handover.go#L85) |
-| ack | field_declaration | pendingAck | [87](../../magpie/internal/gateway/handover.go#L87) |
-| setAck | function_declaration |  | [90](../../magpie/internal/gateway/handover.go#L90) |
-| takeAck | function_declaration |  | [97](../../magpie/internal/gateway/handover.go#L97) |
-| sameAddr | function_declaration |  | [107](../../magpie/internal/gateway/handover.go#L107) |
-| err | var_spec | sameAddr | [122](../../magpie/internal/gateway/handover.go#L122) |
-| ListenerFile | method_declaration |  | [141](../../magpie/internal/gateway/handover.go#L141) |
-| HandOff | method_declaration |  | [158](../../magpie/internal/gateway/handover.go#L158) |
-| drainFor | method_declaration |  | [161](../../magpie/internal/gateway/handover.go#L161) |
-| ServeCallbacks | method_declaration |  | [173](../../magpie/internal/gateway/handover.go#L173) |
-| predecessorCallbacks | var_spec |  | [186](../../magpie/internal/gateway/handover.go#L186) |
-| sock | field_declaration | predecessorCallbacks | [188](../../magpie/internal/gateway/handover.go#L188) |
-| ForwardCallbacks | function_declaration |  | [196](../../magpie/internal/gateway/handover.go#L196) |
-| forwardCallback | function_declaration |  | [204](../../magpie/internal/gateway/handover.go#L204) |
-| d | var_spec | forwardCallback | [222](../../magpie/internal/gateway/handover.go#L222) |
-| forwarding | function_declaration |  | [239](../../magpie/internal/gateway/handover.go#L239) |
-| Addr | method_declaration |  | [247](../../magpie/internal/gateway/handover.go#L247) |
+| HandedOffDrain | function_declaration |  | [32](../../magpie/internal/gateway/handover.go#L32) |
+| shortDrain | var_spec |  | [36](../../magpie/internal/gateway/handover.go#L36) |
+| inherited | var_spec |  | [41](../../magpie/internal/gateway/handover.go#L41) |
+| ln | field_declaration | inherited | [43](../../magpie/internal/gateway/handover.go#L43) |
+| ack | field_declaration | inherited | [44](../../magpie/internal/gateway/handover.go#L44) |
+| Inherit | function_declaration |  | [50](../../magpie/internal/gateway/handover.go#L50) |
+| Inherited | function_declaration |  | [62](../../magpie/internal/gateway/handover.go#L62) |
+| takeInherited | function_declaration |  | [71](../../magpie/internal/gateway/handover.go#L71) |
+| pendingAck | var_spec |  | [89](../../magpie/internal/gateway/handover.go#L89) |
+| ack | field_declaration | pendingAck | [91](../../magpie/internal/gateway/handover.go#L91) |
+| setAck | function_declaration |  | [94](../../magpie/internal/gateway/handover.go#L94) |
+| takeAck | function_declaration |  | [101](../../magpie/internal/gateway/handover.go#L101) |
+| sameAddr | function_declaration |  | [111](../../magpie/internal/gateway/handover.go#L111) |
+| err | var_spec | sameAddr | [126](../../magpie/internal/gateway/handover.go#L126) |
+| ListenerFile | method_declaration |  | [145](../../magpie/internal/gateway/handover.go#L145) |
+| HandOff | method_declaration |  | [164](../../magpie/internal/gateway/handover.go#L164) |
+| stopAccepting | method_declaration |  | [173](../../magpie/internal/gateway/handover.go#L173) |
+| closesWhenHandedOff | method_declaration |  | [186](../../magpie/internal/gateway/handover.go#L186) |
+| handingOver | method_declaration |  | [197](../../magpie/internal/gateway/handover.go#L197) |
+| drainFor | method_declaration |  | [200](../../magpie/internal/gateway/handover.go#L200) |
+| unreadWait | var_spec |  | [210](../../magpie/internal/gateway/handover.go#L210) |
+| unreadConns | type_spec |  | [221](../../magpie/internal/gateway/handover.go#L221) |
+| mu | field_declaration | unreadConns | [222](../../magpie/internal/gateway/handover.go#L222) |
+| conns | field_declaration | unreadConns | [223](../../magpie/internal/gateway/handover.go#L223) |
+| kept | field_declaration | unreadConns | [224](../../magpie/internal/gateway/handover.go#L224) |
+| stopped | field_declaration | unreadConns | [226](../../magpie/internal/gateway/handover.go#L226) |
+| note | method_declaration |  | [232](../../magpie/internal/gateway/handover.go#L232) |
+| stop | method_declaration |  | [255](../../magpie/internal/gateway/handover.go#L255) |
+| wait | method_declaration |  | [265](../../magpie/internal/gateway/handover.go#L265) |
+| ServeCallbacks | method_declaration |  | [281](../../magpie/internal/gateway/handover.go#L281) |
+| predecessorCallbacks | var_spec |  | [294](../../magpie/internal/gateway/handover.go#L294) |
+| sock | field_declaration | predecessorCallbacks | [296](../../magpie/internal/gateway/handover.go#L296) |
+| ForwardCallbacks | function_declaration |  | [304](../../magpie/internal/gateway/handover.go#L304) |
+| forwardCallback | function_declaration |  | [312](../../magpie/internal/gateway/handover.go#L312) |
+| d | var_spec | forwardCallback | [330](../../magpie/internal/gateway/handover.go#L330) |
+| forwarding | function_declaration |  | [347](../../magpie/internal/gateway/handover.go#L347) |
+| Addr | method_declaration |  | [355](../../magpie/internal/gateway/handover.go#L355) |

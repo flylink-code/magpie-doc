@@ -4,25 +4,40 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/usage.go) · page 1/1
 
-Source SHA-256: d68c5a4e81c49fd910fb36440695ba8ff576356ff300c5616457ac665afa6253
+Source SHA-256: 630d60762f2a23b9f14b976e7dfc0dcb6eb4e9105ba6c8767c4ee94f36fafb21
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| usageState | var_spec |  | [34](../../magpie/internal/gui/usage.go#L34) |
-| ledgerPage | var_spec |  | [35](../../magpie/internal/gui/usage.go#L35) |
-| periodOf | var_spec |  | [36](../../magpie/internal/gui/usage.go#L36) |
-| ledgerFilter | var_spec |  | [37](../../magpie/internal/gui/usage.go#L37) |
-| init | function_declaration |  | [40](../../magpie/internal/gui/usage.go#L40) |
-| out | var_spec | init | [42](../../magpie/internal/gui/usage.go#L42) |
-| csvStamp | function_declaration |  | [52](../../magpie/internal/gui/usage.go#L52) |
-| contentJSON | type_spec |  | [65](../../magpie/internal/gui/usage.go#L65) |
-| Found | field_declaration | contentJSON | [66](../../magpie/internal/gui/usage.go#L66) |
-| Why | field_declaration | contentJSON | [70](../../magpie/internal/gui/usage.go#L70) |
-| Model | field_declaration | contentJSON | [71](../../magpie/internal/gui/usage.go#L71) |
-| requestContent | function_declaration |  | [76](../../magpie/internal/gui/usage.go#L76) |
-| usageRoutes | function_declaration |  | [99](../../magpie/internal/gui/usage.go#L99) |
-| b | var_spec | usageRoutes | [155](../../magpie/internal/gui/usage.go#L155) |
-| in | var_spec | usageRoutes | [264](../../magpie/internal/gui/usage.go#L264) |
-| Provider | field_declaration | usageRoutes::in | [264](../../magpie/internal/gui/usage.go#L264) |
-| in | var_spec | usageRoutes | [304](../../magpie/internal/gui/usage.go#L304) |
-| User | field_declaration | usageRoutes::in | [304](../../magpie/internal/gui/usage.go#L304) |
+| usageState | var_spec |  | [36](../../magpie/internal/gui/usage.go#L36) |
+| ledgerPage | var_spec |  | [37](../../magpie/internal/gui/usage.go#L37) |
+| periodOf | var_spec |  | [38](../../magpie/internal/gui/usage.go#L38) |
+| ledgerFilter | var_spec |  | [39](../../magpie/internal/gui/usage.go#L39) |
+| init | function_declaration |  | [42](../../magpie/internal/gui/usage.go#L42) |
+| out | var_spec | init | [44](../../magpie/internal/gui/usage.go#L44) |
+| csvStamp | function_declaration |  | [54](../../magpie/internal/gui/usage.go#L54) |
+| contentJSON | type_spec |  | [69](../../magpie/internal/gui/usage.go#L69) |
+| Found | field_declaration | contentJSON | [70](../../magpie/internal/gui/usage.go#L70) |
+| Why | field_declaration | contentJSON | [74](../../magpie/internal/gui/usage.go#L74) |
+| Model | field_declaration | contentJSON | [75](../../magpie/internal/gui/usage.go#L75) |
+| requestContent | function_declaration |  | [80](../../magpie/internal/gui/usage.go#L80) |
+| usageRoutes | function_declaration |  | [103](../../magpie/internal/gui/usage.go#L103) |
+| target | type_spec | usageRoutes | [111](../../magpie/internal/gui/usage.go#L111) |
+| ID | field_declaration | usageRoutes::target | [112](../../magpie/internal/gui/usage.go#L112) |
+| Name | field_declaration | usageRoutes::target | [113](../../magpie/internal/gui/usage.go#L113) |
+| Icon | field_declaration | usageRoutes::target | [114](../../magpie/internal/gui/usage.go#L114) |
+| in | var_spec | usageRoutes | [142](../../magpie/internal/gui/usage.go#L142) |
+| Provider | field_declaration | usageRoutes::in | [142](../../magpie/internal/gui/usage.go#L142) |
+| in | var_spec | usageRoutes | [158](../../magpie/internal/gui/usage.go#L158) |
+| ID | field_declaration | usageRoutes::in | [159](../../magpie/internal/gui/usage.go#L159) |
+| Into | field_declaration | usageRoutes::in | [160](../../magpie/internal/gui/usage.go#L160) |
+| Name | field_declaration | usageRoutes::in | [161](../../magpie/internal/gui/usage.go#L161) |
+| b | var_spec | usageRoutes | [238](../../magpie/internal/gui/usage.go#L238) |
+| in | var_spec | usageRoutes | [361](../../magpie/internal/gui/usage.go#L361) |
+| Provider | field_declaration | usageRoutes::in | [361](../../magpie/internal/gui/usage.go#L361) |
+| in | var_spec | usageRoutes | [378](../../magpie/internal/gui/usage.go#L378) |
+| By | field_declaration | usageRoutes::in | [378](../../magpie/internal/gui/usage.go#L378) |
+| in | var_spec | usageRoutes | [422](../../magpie/internal/gui/usage.go#L422) |
+| Provider | field_declaration | usageRoutes::in | [422](../../magpie/internal/gui/usage.go#L422) |
+| trafficJSON | type_spec |  | [451](../../magpie/internal/gui/usage.go#L451) |
+| Requests | field_declaration | trafficJSON | [453](../../magpie/internal/gui/usage.go#L453) |
+| trafficNow | function_declaration |  | [457](../../magpie/internal/gui/usage.go#L457) |

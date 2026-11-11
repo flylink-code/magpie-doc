@@ -4,28 +4,36 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/appdir/appdir.go) · page 1/1
 
-Source SHA-256: 7137566867289db9dba4293365b4dce970e16bda924a1d5302d54d76b48a799b
+Source SHA-256: 9858bbef34f5e805a854820591f4c07e8f2fbffa1cfa8f78802573d4ceab4c0d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| DataName | const_spec |  | [50](../../magpie/internal/appdir/appdir.go#L50) |
-| MarkerName | const_spec |  | [53](../../magpie/internal/appdir/appdir.go#L53) |
-| once | var_spec |  | [57](../../magpie/internal/appdir/appdir.go#L57) |
-| portable | var_spec |  | [58](../../magpie/internal/appdir/appdir.go#L58) |
-| Portable | function_declaration |  | [63](../../magpie/internal/appdir/appdir.go#L63) |
-| UseExecutable | function_declaration |  | [81](../../magpie/internal/appdir/appdir.go#L81) |
-| Resolve | function_declaration |  | [91](../../magpie/internal/appdir/appdir.go#L91) |
-| Passed | function_declaration |  | [110](../../magpie/internal/appdir/appdir.go#L110) |
-| shared | function_declaration |  | [129](../../magpie/internal/appdir/appdir.go#L129) |
-| hasFiles | function_declaration |  | [141](../../magpie/internal/appdir/appdir.go#L141) |
-| sharedFolder | var_spec |  | [153](../../magpie/internal/appdir/appdir.go#L153) |
-| dirs | var_spec | sharedFolder | [154](../../magpie/internal/appdir/appdir.go#L154) |
-| installed | function_declaration |  | [177](../../magpie/internal/appdir/appdir.go#L177) |
-| Beside | function_declaration |  | [194](../../magpie/internal/appdir/appdir.go#L194) |
-| within | function_declaration |  | [209](../../magpie/internal/appdir/appdir.go#L209) |
-| absolute | function_declaration |  | [217](../../magpie/internal/appdir/appdir.go#L217) |
-| Config | function_declaration |  | [226](../../magpie/internal/appdir/appdir.go#L226) |
-| Redirected | function_declaration |  | [242](../../magpie/internal/appdir/appdir.go#L242) |
-| Cache | function_declaration |  | [258](../../magpie/internal/appdir/appdir.go#L258) |
-| WebView | function_declaration |  | [273](../../magpie/internal/appdir/appdir.go#L273) |
-| SystemCache | function_declaration |  | [283](../../magpie/internal/appdir/appdir.go#L283) |
+| DataName | const_spec |  | [56](../../magpie/internal/appdir/appdir.go#L56) |
+| MarkerName | const_spec |  | [59](../../magpie/internal/appdir/appdir.go#L59) |
+| once | var_spec |  | [63](../../magpie/internal/appdir/appdir.go#L63) |
+| portable | var_spec |  | [64](../../magpie/internal/appdir/appdir.go#L64) |
+| Portable | function_declaration |  | [69](../../magpie/internal/appdir/appdir.go#L69) |
+| UseExecutable | function_declaration |  | [87](../../magpie/internal/appdir/appdir.go#L87) |
+| Resolve | function_declaration |  | [97](../../magpie/internal/appdir/appdir.go#L97) |
+| Passed | function_declaration |  | [116](../../magpie/internal/appdir/appdir.go#L116) |
+| shared | function_declaration |  | [143](../../magpie/internal/appdir/appdir.go#L143) |
+| hasFiles | function_declaration |  | [158](../../magpie/internal/appdir/appdir.go#L158) |
+| sharedFolder | var_spec |  | [170](../../magpie/internal/appdir/appdir.go#L170) |
+| dirs | var_spec | sharedFolder | [171](../../magpie/internal/appdir/appdir.go#L171) |
+| movedFolder | var_spec |  | [189](../../magpie/internal/appdir/appdir.go#L189) |
+| dirs | var_spec | movedFolder | [190](../../magpie/internal/appdir/appdir.go#L190) |
+| userFolder | var_spec |  | [200](../../magpie/internal/appdir/appdir.go#L200) |
+| sameAny | function_declaration |  | [202](../../magpie/internal/appdir/appdir.go#L202) |
+| installed | function_declaration |  | [213](../../magpie/internal/appdir/appdir.go#L213) |
+| Beside | function_declaration |  | [230](../../magpie/internal/appdir/appdir.go#L230) |
+| within | function_declaration |  | [245](../../magpie/internal/appdir/appdir.go#L245) |
+| absolute | function_declaration |  | [253](../../magpie/internal/appdir/appdir.go#L253) |
+| Config | function_declaration |  | [262](../../magpie/internal/appdir/appdir.go#L262) |
+| Redirected | function_declaration |  | [278](../../magpie/internal/appdir/appdir.go#L278) |
+| Cache | function_declaration |  | [294](../../magpie/internal/appdir/appdir.go#L294) |
+| Logs | function_declaration |  | [310](../../magpie/internal/appdir/appdir.go#L310) |
+| logsOn | function_declaration |  | [315](../../magpie/internal/appdir/appdir.go#L315) |
+| WebView | function_declaration |  | [343](../../magpie/internal/appdir/appdir.go#L343) |
+| WebViewNote | const_spec |  | [359](../../magpie/internal/appdir/appdir.go#L359) |
+| noted | function_declaration |  | [363](../../magpie/internal/appdir/appdir.go#L363) |
+| SystemCache | function_declaration |  | [377](../../magpie/internal/appdir/appdir.go#L377) |

@@ -4,12 +4,12 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/settings/origins.go) · page 1/1
 
-Source SHA-256: 2b927b291c2c782bdfd28615284429e63f79f70beab386cfcdbccb4a072a66b6
+Source SHA-256: 51fb635af8f68db8a9ddf166c79cf12c9263fbd34e9ea6bc60c15f3861e2838e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CleanOrigins | function_declaration |  | [19](../../magpie/internal/settings/origins.go#L19) |
-| out | var_spec | CleanOrigins | [20](../../magpie/internal/settings/origins.go#L20) |
-| cleanOrigin | function_declaration |  | [33](../../magpie/internal/settings/origins.go#L33) |
-| extensionIDs | var_spec |  | [68](../../magpie/internal/settings/origins.go#L68) |
-| extensionOrigin | function_declaration |  | [77](../../magpie/internal/settings/origins.go#L77) |
+| CleanOrigins | function_declaration |  | [20](../../magpie/internal/settings/origins.go#L20) |
+| out | var_spec | CleanOrigins | [21](../../magpie/internal/settings/origins.go#L21) |
+| cleanOrigin | function_declaration |  | [34](../../magpie/internal/settings/origins.go#L34) |
+| extensionIDs | var_spec |  | [69](../../magpie/internal/settings/origins.go#L69) |
+| extensionOrigin | function_declaration |  | [78](../../magpie/internal/settings/origins.go#L78) |

@@ -4,68 +4,79 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/providers_cli.go) · page 1/1
 
-Source SHA-256: d4e4d16b56da6e532a3ac073371ee0ac5864f2944a6cad9559a819431c1187dd
+Source SHA-256: 1cd20966ac78d8eaf86cff8b96fd14d12974bef1bc007e73e2d3a43e6c71cf2e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| amber | var_spec |  | [26](../../magpie/internal/cli/providers_cli.go#L26) |
-| providerUsage | const_spec |  | [28](../../magpie/internal/cli/providers_cli.go#L28) |
-| keyColumn | function_declaration |  | [155](../../magpie/internal/cli/providers_cli.go#L155) |
-| signedOut | var_spec |  | [187](../../magpie/internal/cli/providers_cli.go#L187) |
-| providers | function_declaration |  | [190](../../magpie/internal/cli/providers_cli.go#L190) |
-| row | type_spec | providers | [203](../../magpie/internal/cli/providers_cli.go#L203) |
-| name | field_declaration | providers::row | [203](../../magpie/internal/cli/providers_cli.go#L203) |
-| rows | var_spec | providers | [204](../../magpie/internal/cli/providers_cli.go#L204) |
-| usesByProvider | function_declaration |  | [262](../../magpie/internal/cli/providers_cli.go#L262) |
-| presets | function_declaration |  | [281](../../magpie/internal/cli/providers_cli.go#L281) |
-| shown | var_spec | presets | [289](../../magpie/internal/cli/providers_cli.go#L289) |
-| models | function_declaration |  | [322](../../magpie/internal/cli/providers_cli.go#L322) |
-| hidden | var_spec | models | [325](../../magpie/internal/cli/providers_cli.go#L325) |
-| notExposed | function_declaration |  | [394](../../magpie/internal/cli/providers_cli.go#L394) |
-| out | var_spec | notExposed | [399](../../magpie/internal/cli/providers_cli.go#L399) |
-| listSome | function_declaration |  | [413](../../magpie/internal/cli/providers_cli.go#L413) |
-| providerCmd | function_declaration |  | [421](../../magpie/internal/cli/providers_cli.go#L421) |
-| addProvider | function_declaration |  | [717](../../magpie/internal/cli/providers_cli.go#L717) |
-| p | var_spec | addProvider | [728](../../magpie/internal/cli/providers_cli.go#L728) |
-| saveNew | function_declaration |  | [762](../../magpie/internal/cli/providers_cli.go#L762) |
-| announce | function_declaration |  | [774](../../magpie/internal/cli/providers_cli.go#L774) |
-| showProvider | function_declaration |  | [802](../../magpie/internal/cli/providers_cli.go#L802) |
-| atAddress | function_declaration |  | [941](../../magpie/internal/cli/providers_cli.go#L941) |
-| applyPairs | function_declaration |  | [961](../../magpie/internal/cli/providers_cli.go#L961) |
-| ids | var_spec | applyPairs | [1040](../../magpie/internal/cli/providers_cli.go#L1040) |
-| on | var_spec | applyPairs | [1138](../../magpie/internal/cli/providers_cli.go#L1138) |
-| setContext | function_declaration |  | [1252](../../magpie/internal/cli/providers_cli.go#L1252) |
-| err | var_spec | setContext | [1255](../../magpie/internal/cli/providers_cli.go#L1255) |
-| ago | function_declaration |  | [1271](../../magpie/internal/cli/providers_cli.go#L1271) |
-| refreshLive | function_declaration |  | [1287](../../magpie/internal/cli/providers_cli.go#L1287) |
-| names | var_spec | refreshLive | [1288](../../magpie/internal/cli/providers_cli.go#L1288) |
-| keyNote | function_declaration |  | [1309](../../magpie/internal/cli/providers_cli.go#L1309) |
-| containerNote | const_spec |  | [1321](../../magpie/internal/cli/providers_cli.go#L1321) |
-| shareLines | function_declaration |  | [1325](../../magpie/internal/cli/providers_cli.go#L1325) |
-| out | var_spec | shareLines | [1329](../../magpie/internal/cli/providers_cli.go#L1329) |
-| advertisedURL | function_declaration |  | [1342](../../magpie/internal/cli/providers_cli.go#L1342) |
-| serve | function_declaration |  | [1350](../../magpie/internal/cli/providers_cli.go#L1350) |
-| importCmd | function_declaration |  | [1396](../../magpie/internal/cli/providers_cli.go#L1396) |
-| link | var_spec | importCmd | [1398](../../magpie/internal/cli/providers_cli.go#L1398) |
-| answer | var_spec | importCmd | [1425](../../magpie/internal/cli/providers_cli.go#L1425) |
-| fetchedFrom | function_declaration |  | [1440](../../magpie/internal/cli/providers_cli.go#L1440) |
-| accountModelsCmd | function_declaration |  | [1450](../../magpie/internal/cli/providers_cli.go#L1450) |
-| accountCapCmd | function_declaration |  | [1506](../../magpie/internal/cli/providers_cli.go#L1506) |
-| parseWindowCap | function_declaration |  | [1593](../../magpie/internal/cli/providers_cli.go#L1593) |
-| accountConcurrencyCmd | function_declaration |  | [1611](../../magpie/internal/cli/providers_cli.go#L1611) |
-| queueCmd | function_declaration |  | [1675](../../magpie/internal/cli/providers_cli.go#L1675) |
-| rpmCmd | function_declaration |  | [1725](../../magpie/internal/cli/providers_cli.go#L1725) |
-| quotaRestCmd | function_declaration |  | [1760](../../magpie/internal/cli/providers_cli.go#L1760) |
-| minutes | var_spec | quotaRestCmd | [1777](../../magpie/internal/cli/providers_cli.go#L1777) |
-| restCapCmd | function_declaration |  | [1803](../../magpie/internal/cli/providers_cli.go#L1803) |
-| restCapMinutes | function_declaration |  | [1837](../../magpie/internal/cli/providers_cli.go#L1837) |
-| restMinutes | function_declaration |  | [1850](../../magpie/internal/cli/providers_cli.go#L1850) |
-| restWords | function_declaration |  | [1872](../../magpie/internal/cli/providers_cli.go#L1872) |
-| printMoved | function_declaration |  | [1884](../../magpie/internal/cli/providers_cli.go#L1884) |
-| editPicks | function_declaration |  | [1898](../../magpie/internal/cli/providers_cli.go#L1898) |
-| printPicksChange | function_declaration |  | [1945](../../magpie/internal/cli/providers_cli.go#L1945) |
-| out | var_spec | printPicksChange | [1947](../../magpie/internal/cli/providers_cli.go#L1947) |
-| gone | var_spec | printPicksChange | [1954](../../magpie/internal/cli/providers_cli.go#L1954) |
-| refreshEveryCmd | function_declaration |  | [2002](../../magpie/internal/cli/providers_cli.go#L2002) |
-| autoIncludeCmd | function_declaration |  | [2028](../../magpie/internal/cli/providers_cli.go#L2028) |
-| patienceArg | function_declaration |  | [2062](../../magpie/internal/cli/providers_cli.go#L2062) |
+| amber | var_spec |  | [29](../../magpie/internal/cli/providers_cli.go#L29) |
+| providerUsage | const_spec |  | [31](../../magpie/internal/cli/providers_cli.go#L31) |
+| keyColumn | function_declaration |  | [214](../../magpie/internal/cli/providers_cli.go#L214) |
+| signedOut | var_spec |  | [248](../../magpie/internal/cli/providers_cli.go#L248) |
+| providers | function_declaration |  | [251](../../magpie/internal/cli/providers_cli.go#L251) |
+| row | type_spec | providers | [264](../../magpie/internal/cli/providers_cli.go#L264) |
+| name | field_declaration | providers::row | [264](../../magpie/internal/cli/providers_cli.go#L264) |
+| rows | var_spec | providers | [265](../../magpie/internal/cli/providers_cli.go#L265) |
+| usesByProvider | function_declaration |  | [323](../../magpie/internal/cli/providers_cli.go#L323) |
+| presets | function_declaration |  | [342](../../magpie/internal/cli/providers_cli.go#L342) |
+| shown | var_spec | presets | [350](../../magpie/internal/cli/providers_cli.go#L350) |
+| models | function_declaration |  | [383](../../magpie/internal/cli/providers_cli.go#L383) |
+| hidden | var_spec | models | [386](../../magpie/internal/cli/providers_cli.go#L386) |
+| notExposed | function_declaration |  | [455](../../magpie/internal/cli/providers_cli.go#L455) |
+| out | var_spec | notExposed | [460](../../magpie/internal/cli/providers_cli.go#L460) |
+| listSome | function_declaration |  | [476](../../magpie/internal/cli/providers_cli.go#L476) |
+| providerCmd | function_declaration |  | [484](../../magpie/internal/cli/providers_cli.go#L484) |
+| addProvider | function_declaration |  | [792](../../magpie/internal/cli/providers_cli.go#L792) |
+| p | var_spec | addProvider | [803](../../magpie/internal/cli/providers_cli.go#L803) |
+| saveNew | function_declaration |  | [834](../../magpie/internal/cli/providers_cli.go#L834) |
+| announce | function_declaration |  | [846](../../magpie/internal/cli/providers_cli.go#L846) |
+| showProvider | function_declaration |  | [876](../../magpie/internal/cli/providers_cli.go#L876) |
+| showProviderAsking | function_declaration |  | [881](../../magpie/internal/cli/providers_cli.go#L881) |
+| atAddress | function_declaration |  | [1056](../../magpie/internal/cli/providers_cli.go#L1056) |
+| applyPairs | function_declaration |  | [1076](../../magpie/internal/cli/providers_cli.go#L1076) |
+| ids | var_spec | applyPairs | [1166](../../magpie/internal/cli/providers_cli.go#L1166) |
+| on | var_spec | applyPairs | [1314](../../magpie/internal/cli/providers_cli.go#L1314) |
+| on | var_spec | applyPairs | [1330](../../magpie/internal/cli/providers_cli.go#L1330) |
+| setContext | function_declaration |  | [1492](../../magpie/internal/cli/providers_cli.go#L1492) |
+| err | var_spec | setContext | [1495](../../magpie/internal/cli/providers_cli.go#L1495) |
+| ago | function_declaration |  | [1511](../../magpie/internal/cli/providers_cli.go#L1511) |
+| refreshLive | function_declaration |  | [1527](../../magpie/internal/cli/providers_cli.go#L1527) |
+| names | var_spec | refreshLive | [1528](../../magpie/internal/cli/providers_cli.go#L1528) |
+| keyNote | function_declaration |  | [1541](../../magpie/internal/cli/providers_cli.go#L1541) |
+| containerNote | const_spec |  | [1555](../../magpie/internal/cli/providers_cli.go#L1555) |
+| containerLine | function_declaration |  | [1562](../../magpie/internal/cli/providers_cli.go#L1562) |
+| shareLines | function_declaration |  | [1575](../../magpie/internal/cli/providers_cli.go#L1575) |
+| out | var_spec | shareLines | [1579](../../magpie/internal/cli/providers_cli.go#L1579) |
+| advertisedURL | function_declaration |  | [1595](../../magpie/internal/cli/providers_cli.go#L1595) |
+| serve | function_declaration |  | [1603](../../magpie/internal/cli/providers_cli.go#L1603) |
+| importCmd | function_declaration |  | [1672](../../magpie/internal/cli/providers_cli.go#L1672) |
+| link | var_spec | importCmd | [1674](../../magpie/internal/cli/providers_cli.go#L1674) |
+| answer | var_spec | importCmd | [1701](../../magpie/internal/cli/providers_cli.go#L1701) |
+| fetchedFrom | function_declaration |  | [1716](../../magpie/internal/cli/providers_cli.go#L1716) |
+| accountModelsCmd | function_declaration |  | [1726](../../magpie/internal/cli/providers_cli.go#L1726) |
+| accountCapCmd | function_declaration |  | [1783](../../magpie/internal/cli/providers_cli.go#L1783) |
+| name | field_declaration | accountCapCmd | [1790](../../magpie/internal/cli/providers_cli.go#L1790) |
+| v | field_declaration | accountCapCmd | [1791](../../magpie/internal/cli/providers_cli.go#L1791) |
+| set | field_declaration | accountCapCmd | [1792](../../magpie/internal/cli/providers_cli.go#L1792) |
+| parseWindowAmount | function_declaration |  | [1894](../../magpie/internal/cli/providers_cli.go#L1894) |
+| parseWindowCap | function_declaration |  | [1909](../../magpie/internal/cli/providers_cli.go#L1909) |
+| accountConcurrencyCmd | function_declaration |  | [1927](../../magpie/internal/cli/providers_cli.go#L1927) |
+| accountWeightCmd | function_declaration |  | [1991](../../magpie/internal/cli/providers_cli.go#L1991) |
+| queueCmd | function_declaration |  | [2042](../../magpie/internal/cli/providers_cli.go#L2042) |
+| rpmCmd | function_declaration |  | [2092](../../magpie/internal/cli/providers_cli.go#L2092) |
+| atOnceCmd | function_declaration |  | [2128](../../magpie/internal/cli/providers_cli.go#L2128) |
+| n | var_spec | atOnceCmd | [2138](../../magpie/internal/cli/providers_cli.go#L2138) |
+| quotaRestCmd | function_declaration |  | [2168](../../magpie/internal/cli/providers_cli.go#L2168) |
+| minutes | var_spec | quotaRestCmd | [2185](../../magpie/internal/cli/providers_cli.go#L2185) |
+| restCapCmd | function_declaration |  | [2211](../../magpie/internal/cli/providers_cli.go#L2211) |
+| restCapMinutes | function_declaration |  | [2245](../../magpie/internal/cli/providers_cli.go#L2245) |
+| restMinutes | function_declaration |  | [2258](../../magpie/internal/cli/providers_cli.go#L2258) |
+| restWords | function_declaration |  | [2280](../../magpie/internal/cli/providers_cli.go#L2280) |
+| printMoved | function_declaration |  | [2292](../../magpie/internal/cli/providers_cli.go#L2292) |
+| editPicks | function_declaration |  | [2306](../../magpie/internal/cli/providers_cli.go#L2306) |
+| printPicksChange | function_declaration |  | [2353](../../magpie/internal/cli/providers_cli.go#L2353) |
+| out | var_spec | printPicksChange | [2355](../../magpie/internal/cli/providers_cli.go#L2355) |
+| gone | var_spec | printPicksChange | [2362](../../magpie/internal/cli/providers_cli.go#L2362) |
+| refreshEveryCmd | function_declaration |  | [2410](../../magpie/internal/cli/providers_cli.go#L2410) |
+| autoIncludeCmd | function_declaration |  | [2436](../../magpie/internal/cli/providers_cli.go#L2436) |
+| patienceArg | function_declaration |  | [2470](../../magpie/internal/cli/providers_cli.go#L2470) |
+| billingWord | function_declaration |  | [2496](../../magpie/internal/cli/providers_cli.go#L2496) |

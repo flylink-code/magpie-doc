@@ -4,60 +4,63 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/anthropic_shapes.go) · page 1/1
 
-Source SHA-256: 5b911bc86bd1dfff33d8ff71f313cce5a58883b15fa7af985814ab82716d5611
+Source SHA-256: b48ac0236a5934461b7f5d377a89c5f634d59fae89714bb79f412dc1f55fc00e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| shapeDisplayNew | const_spec |  | [66](../../magpie/internal/gateway/anthropic_shapes.go#L66) |
-| shapeDisplay | const_spec |  | [67](../../magpie/internal/gateway/anthropic_shapes.go#L67) |
-| shapeTurnEffort | const_spec |  | [68](../../magpie/internal/gateway/anthropic_shapes.go#L68) |
-| shapeTurnSystem | const_spec |  | [69](../../magpie/internal/gateway/anthropic_shapes.go#L69) |
-| shapeSafeguards | const_spec |  | [70](../../magpie/internal/gateway/anthropic_shapes.go#L70) |
-| shapeDeferred | const_spec |  | [71](../../magpie/internal/gateway/anthropic_shapes.go#L71) |
-| shapeRefsOnly | const_spec |  | [72](../../magpie/internal/gateway/anthropic_shapes.go#L72) |
-| displayValueRefused | var_spec |  | [76](../../magpie/internal/gateway/anthropic_shapes.go#L76) |
-| displayRefused | var_spec |  | [77](../../magpie/internal/gateway/anthropic_shapes.go#L77) |
-| turnEffortRefused | var_spec |  | [78](../../magpie/internal/gateway/anthropic_shapes.go#L78) |
-| turnRoleRefused | var_spec |  | [79](../../magpie/internal/gateway/anthropic_shapes.go#L79) |
-| safeguardsRefused | var_spec |  | [80](../../magpie/internal/gateway/anthropic_shapes.go#L80) |
-| deferredRefused | var_spec |  | [81](../../magpie/internal/gateway/anthropic_shapes.go#L81) |
-| refsOnlyRefused | var_spec |  | [82](../../magpie/internal/gateway/anthropic_shapes.go#L82) |
-| knownDisplay | function_declaration |  | [86](../../magpie/internal/gateway/anthropic_shapes.go#L86) |
-| refuseShapes | method_declaration |  | [90](../../magpie/internal/gateway/anthropic_shapes.go#L90) |
-| withoutRefusedShapes | method_declaration |  | [132](../../magpie/internal/gateway/anthropic_shapes.go#L132) |
-| withDisplay | function_declaration |  | [164](../../magpie/internal/gateway/anthropic_shapes.go#L164) |
-| v | var_spec | withDisplay | [165](../../magpie/internal/gateway/anthropic_shapes.go#L165) |
-| Thinking | field_declaration | withDisplay::v | [166](../../magpie/internal/gateway/anthropic_shapes.go#L166) |
-| hasTurnEffort | function_declaration |  | [186](../../magpie/internal/gateway/anthropic_shapes.go#L186) |
-| withoutTurnEffort | function_declaration |  | [202](../../magpie/internal/gateway/anthropic_shapes.go#L202) |
-| v | var_spec | withoutTurnEffort | [206](../../magpie/internal/gateway/anthropic_shapes.go#L206) |
-| Messages | field_declaration | withoutTurnEffort::v | [207](../../magpie/internal/gateway/anthropic_shapes.go#L207) |
-| m | var_spec | withoutTurnEffort | [214](../../magpie/internal/gateway/anthropic_shapes.go#L214) |
-| withSystemOnTop | function_declaration |  | [240](../../magpie/internal/gateway/anthropic_shapes.go#L240) |
-| v | var_spec | withSystemOnTop | [244](../../magpie/internal/gateway/anthropic_shapes.go#L244) |
-| System | field_declaration | withSystemOnTop::v | [245](../../magpie/internal/gateway/anthropic_shapes.go#L245) |
-| Messages | field_declaration | withSystemOnTop::v | [246](../../magpie/internal/gateway/anthropic_shapes.go#L246) |
-| moved | var_spec | withSystemOnTop | [251](../../magpie/internal/gateway/anthropic_shapes.go#L251) |
-| top | var_spec | withSystemOnTop | [275](../../magpie/internal/gateway/anthropic_shapes.go#L275) |
-| s | var_spec | withSystemOnTop | [276](../../magpie/internal/gateway/anthropic_shapes.go#L276) |
-| blocks | var_spec | withSystemOnTop | [277](../../magpie/internal/gateway/anthropic_shapes.go#L277) |
-| emptyContent | function_declaration |  | [295](../../magpie/internal/gateway/anthropic_shapes.go#L295) |
-| deferredBlock | function_declaration |  | [313](../../magpie/internal/gateway/anthropic_shapes.go#L313) |
-| hasDeferredTools | function_declaration |  | [320](../../magpie/internal/gateway/anthropic_shapes.go#L320) |
-| withoutDeferredTools | function_declaration |  | [341](../../magpie/internal/gateway/anthropic_shapes.go#L341) |
-| v | var_spec | withoutDeferredTools | [345](../../magpie/internal/gateway/anthropic_shapes.go#L345) |
-| Messages | field_declaration | withoutDeferredTools::v | [346](../../magpie/internal/gateway/anthropic_shapes.go#L346) |
-| Tools | field_declaration | withoutDeferredTools::v | [347](../../magpie/internal/gateway/anthropic_shapes.go#L347) |
-| kept | var_spec | withoutDeferredTools | [364](../../magpie/internal/gateway/anthropic_shapes.go#L364) |
-| m | var_spec | withoutDeferredTools | [384](../../magpie/internal/gateway/anthropic_shapes.go#L384) |
-| toolLoadedText | function_declaration |  | [408](../../magpie/internal/gateway/anthropic_shapes.go#L408) |
-| toolRefs | function_declaration |  | [414](../../magpie/internal/gateway/anthropic_shapes.go#L414) |
-| names | var_spec | toolRefs | [418](../../magpie/internal/gateway/anthropic_shapes.go#L418) |
-| refsOnly | function_declaration |  | [430](../../magpie/internal/gateway/anthropic_shapes.go#L430) |
-| hasRefsOnlyResult | function_declaration |  | [444](../../magpie/internal/gateway/anthropic_shapes.go#L444) |
-| withRefsSaid | function_declaration |  | [462](../../magpie/internal/gateway/anthropic_shapes.go#L462) |
-| v | var_spec | withRefsSaid | [466](../../magpie/internal/gateway/anthropic_shapes.go#L466) |
-| Messages | field_declaration | withRefsSaid::v | [467](../../magpie/internal/gateway/anthropic_shapes.go#L467) |
-| said | var_spec | withRefsSaid | [487](../../magpie/internal/gateway/anthropic_shapes.go#L487) |
-| m | var_spec | withRefsSaid | [495](../../magpie/internal/gateway/anthropic_shapes.go#L495) |
-| m | var_spec | withRefsSaid | [515](../../magpie/internal/gateway/anthropic_shapes.go#L515) |
+| shapeDisplayNew | const_spec |  | [79](../../magpie/internal/gateway/anthropic_shapes.go#L79) |
+| shapeDisplay | const_spec |  | [80](../../magpie/internal/gateway/anthropic_shapes.go#L80) |
+| shapeTurnEffort | const_spec |  | [81](../../magpie/internal/gateway/anthropic_shapes.go#L81) |
+| shapeTurnSystem | const_spec |  | [82](../../magpie/internal/gateway/anthropic_shapes.go#L82) |
+| shapeSafeguards | const_spec |  | [83](../../magpie/internal/gateway/anthropic_shapes.go#L83) |
+| shapeDeferred | const_spec |  | [84](../../magpie/internal/gateway/anthropic_shapes.go#L84) |
+| shapeRefsOnly | const_spec |  | [85](../../magpie/internal/gateway/anthropic_shapes.go#L85) |
+| displayValueRefused | var_spec |  | [89](../../magpie/internal/gateway/anthropic_shapes.go#L89) |
+| displayRefused | var_spec |  | [90](../../magpie/internal/gateway/anthropic_shapes.go#L90) |
+| turnEffortRefused | var_spec |  | [91](../../magpie/internal/gateway/anthropic_shapes.go#L91) |
+| turnRoleRefused | var_spec |  | [92](../../magpie/internal/gateway/anthropic_shapes.go#L92) |
+| safeguardsRefused | var_spec |  | [93](../../magpie/internal/gateway/anthropic_shapes.go#L93) |
+| deferredRefused | var_spec |  | [94](../../magpie/internal/gateway/anthropic_shapes.go#L94) |
+| refsOnlyRefused | var_spec |  | [95](../../magpie/internal/gateway/anthropic_shapes.go#L95) |
+| knownDisplay | function_declaration |  | [99](../../magpie/internal/gateway/anthropic_shapes.go#L99) |
+| refuseShapes | method_declaration |  | [103](../../magpie/internal/gateway/anthropic_shapes.go#L103) |
+| withoutRefusedShapes | method_declaration |  | [145](../../magpie/internal/gateway/anthropic_shapes.go#L145) |
+| withDisplay | function_declaration |  | [177](../../magpie/internal/gateway/anthropic_shapes.go#L177) |
+| v | var_spec | withDisplay | [178](../../magpie/internal/gateway/anthropic_shapes.go#L178) |
+| Thinking | field_declaration | withDisplay::v | [179](../../magpie/internal/gateway/anthropic_shapes.go#L179) |
+| hasTurnEffort | function_declaration |  | [199](../../magpie/internal/gateway/anthropic_shapes.go#L199) |
+| withoutTurnEffort | function_declaration |  | [215](../../magpie/internal/gateway/anthropic_shapes.go#L215) |
+| v | var_spec | withoutTurnEffort | [219](../../magpie/internal/gateway/anthropic_shapes.go#L219) |
+| Messages | field_declaration | withoutTurnEffort::v | [220](../../magpie/internal/gateway/anthropic_shapes.go#L220) |
+| m | var_spec | withoutTurnEffort | [227](../../magpie/internal/gateway/anthropic_shapes.go#L227) |
+| withSystemOnTop | function_declaration |  | [253](../../magpie/internal/gateway/anthropic_shapes.go#L253) |
+| v | var_spec | withSystemOnTop | [257](../../magpie/internal/gateway/anthropic_shapes.go#L257) |
+| System | field_declaration | withSystemOnTop::v | [258](../../magpie/internal/gateway/anthropic_shapes.go#L258) |
+| Messages | field_declaration | withSystemOnTop::v | [259](../../magpie/internal/gateway/anthropic_shapes.go#L259) |
+| moved | var_spec | withSystemOnTop | [264](../../magpie/internal/gateway/anthropic_shapes.go#L264) |
+| top | var_spec | withSystemOnTop | [288](../../magpie/internal/gateway/anthropic_shapes.go#L288) |
+| s | var_spec | withSystemOnTop | [289](../../magpie/internal/gateway/anthropic_shapes.go#L289) |
+| blocks | var_spec | withSystemOnTop | [290](../../magpie/internal/gateway/anthropic_shapes.go#L290) |
+| emptyContent | function_declaration |  | [308](../../magpie/internal/gateway/anthropic_shapes.go#L308) |
+| deferredBlock | function_declaration |  | [326](../../magpie/internal/gateway/anthropic_shapes.go#L326) |
+| hasDeferredTools | function_declaration |  | [335](../../magpie/internal/gateway/anthropic_shapes.go#L335) |
+| withoutDeferredTools | function_declaration |  | [359](../../magpie/internal/gateway/anthropic_shapes.go#L359) |
+| v | var_spec | withoutDeferredTools | [363](../../magpie/internal/gateway/anthropic_shapes.go#L363) |
+| Messages | field_declaration | withoutDeferredTools::v | [364](../../magpie/internal/gateway/anthropic_shapes.go#L364) |
+| Tools | field_declaration | withoutDeferredTools::v | [365](../../magpie/internal/gateway/anthropic_shapes.go#L365) |
+| kept | var_spec | withoutDeferredTools | [382](../../magpie/internal/gateway/anthropic_shapes.go#L382) |
+| m | var_spec | withoutDeferredTools | [414](../../magpie/internal/gateway/anthropic_shapes.go#L414) |
+| resultDefinitionRef | function_declaration |  | [445](../../magpie/internal/gateway/anthropic_shapes.go#L445) |
+| m | var_spec | resultDefinitionRef | [446](../../magpie/internal/gateway/anthropic_shapes.go#L446) |
+| added | var_spec | resultDefinitionRef | [454](../../magpie/internal/gateway/anthropic_shapes.go#L454) |
+| toolLoadedText | function_declaration |  | [490](../../magpie/internal/gateway/anthropic_shapes.go#L490) |
+| toolRefs | function_declaration |  | [496](../../magpie/internal/gateway/anthropic_shapes.go#L496) |
+| names | var_spec | toolRefs | [500](../../magpie/internal/gateway/anthropic_shapes.go#L500) |
+| refsOnly | function_declaration |  | [512](../../magpie/internal/gateway/anthropic_shapes.go#L512) |
+| hasRefsOnlyResult | function_declaration |  | [526](../../magpie/internal/gateway/anthropic_shapes.go#L526) |
+| withRefsSaid | function_declaration |  | [544](../../magpie/internal/gateway/anthropic_shapes.go#L544) |
+| v | var_spec | withRefsSaid | [548](../../magpie/internal/gateway/anthropic_shapes.go#L548) |
+| Messages | field_declaration | withRefsSaid::v | [549](../../magpie/internal/gateway/anthropic_shapes.go#L549) |
+| said | var_spec | withRefsSaid | [569](../../magpie/internal/gateway/anthropic_shapes.go#L569) |
+| m | var_spec | withRefsSaid | [577](../../magpie/internal/gateway/anthropic_shapes.go#L577) |
+| m | var_spec | withRefsSaid | [597](../../magpie/internal/gateway/anthropic_shapes.go#L597) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/calls.go) · page 1/3
 
-Source SHA-256: 66bad5bfa65fc87cd7ef003dee04360fab8dc9793d1cd2f4e3838079e8b5498d
+Source SHA-256: 543e781b255e7c5ad45e3a0399358b97eb80e12f56cd7e09dd38cffe9d2b6e39
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Call | type_spec |  | [23](../../magpie/internal/sessions/calls.go#L23) |
-| ResponseID | field_declaration | Call | [24](../../magpie/internal/sessions/calls.go#L24) |
-| Time | field_declaration | Call | [25](../../magpie/internal/sessions/calls.go#L25) |
-| Agent | field_declaration | Call | [26](../../magpie/internal/sessions/calls.go#L26) |
-| Session | field_declaration | Call | [27](../../magpie/internal/sessions/calls.go#L27) |
-| ThreadID | field_declaration | Call | [28](../../magpie/internal/sessions/calls.go#L28) |
-| Model | field_declaration | Call | [29](../../magpie/internal/sessions/calls.go#L29) |
-| Requested | field_declaration | Call | [32](../../magpie/internal/sessions/calls.go#L32) |
-| Reasoning | field_declaration | Call | [34](../../magpie/internal/sessions/calls.go#L34) |
-| Effort | field_declaration | Call | [35](../../magpie/internal/sessions/calls.go#L35) |
-| RequestID | field_declaration | Call | [36](../../magpie/internal/sessions/calls.go#L36) |
-| Upstream | field_declaration | Call | [39](../../magpie/internal/sessions/calls.go#L39) |
-| AccountID | field_declaration | Call | [40](../../magpie/internal/sessions/calls.go#L40) |
-| UserID | field_declaration | Call | [41](../../magpie/internal/sessions/calls.go#L41) |
-| Error | field_declaration | Call | [42](../../magpie/internal/sessions/calls.go#L42) |
-| ErrorText | field_declaration | Call | [43](../../magpie/internal/sessions/calls.go#L43) |
-| TTFT | field_declaration | Call | [45](../../magpie/internal/sessions/calls.go#L45) |
-| Compaction | field_declaration | Call | [47](../../magpie/internal/sessions/calls.go#L47) |
-| Millis | field_declaration | Call | [51](../../magpie/internal/sessions/calls.go#L51) |
-| Compact | field_declaration | Call | [55](../../magpie/internal/sessions/calls.go#L55) |
-| Cwd | field_declaration | Call | [56](../../magpie/internal/sessions/calls.go#L56) |
-| File | field_declaration | Call | [60](../../magpie/internal/sessions/calls.go#L60) |
-| From | field_declaration | Call | [61](../../magpie/internal/sessions/calls.go#L61) |
-| To | field_declaration | Call | [62](../../magpie/internal/sessions/calls.go#L62) |
-| Msg | field_declaration | Call | [63](../../magpie/internal/sessions/calls.go#L63) |
-| callFile | type_spec |  | [68](../../magpie/internal/sessions/calls.go#L68) |
-| Claude | field_declaration | callFile | [69](../../magpie/internal/sessions/calls.go#L69) |
-| ContentHash | field_declaration | callFile | [70](../../magpie/internal/sessions/calls.go#L70) |
-| dirty | field_declaration | callFile | [71](../../magpie/internal/sessions/calls.go#L71) |
-| bigFrame | field_declaration | callFile | [73](../../magpie/internal/sessions/calls.go#L73) |
-| Size | field_declaration | callFile | [74](../../magpie/internal/sessions/calls.go#L74) |
-| Mod | field_declaration | callFile | [75](../../magpie/internal/sessions/calls.go#L75) |
-| Off | field_declaration | callFile | [76](../../magpie/internal/sessions/calls.go#L76) |
-| Head | field_declaration | callFile | [77](../../magpie/internal/sessions/calls.go#L77) |
-| HeadSize | field_declaration | callFile | [78](../../magpie/internal/sessions/calls.go#L78) |
-| Path | field_declaration | callFile | [79](../../magpie/internal/sessions/calls.go#L79) |
-| Calls | field_declaration | callFile | [80](../../magpie/internal/sessions/calls.go#L80) |
-| Agent | field_declaration | callFile | [81](../../magpie/internal/sessions/calls.go#L81) |
-| At | field_declaration | callFile | [83](../../magpie/internal/sessions/calls.go#L83) |
-| Strs | field_declaration | callFile | [84](../../magpie/internal/sessions/calls.go#L84) |
-| Session | field_declaration | callFile | [87](../../magpie/internal/sessions/calls.go#L87) |
-| Msgs | field_declaration | callFile | [88](../../magpie/internal/sessions/calls.go#L88) |
-| Requested | field_declaration | callFile | [92](../../magpie/internal/sessions/calls.go#L92) |
-| LastUser | field_declaration | callFile | [93](../../magpie/internal/sessions/calls.go#L93) |
-| Began | field_declaration | callFile | [94](../../magpie/internal/sessions/calls.go#L94) |
-| CompactMs | field_declaration | callFile | [96](../../magpie/internal/sessions/calls.go#L96) |
-| CX | field_declaration | callFile | [98](../../magpie/internal/sessions/calls.go#L98) |
-| Pi | field_declaration | callFile | [100](../../magpie/internal/sessions/calls.go#L100) |
-| Dsh | field_declaration | callFile | [102](../../magpie/internal/sessions/calls.go#L102) |
-| cxRun | type_spec |  | [106](../../magpie/internal/sessions/calls.go#L106) |
-| Meta | field_declaration | cxRun | [107](../../magpie/internal/sessions/calls.go#L107) |
-| Session | field_declaration | cxRun | [108](../../magpie/internal/sessions/calls.go#L108) |
-| Upstream | field_declaration | cxRun | [109](../../magpie/internal/sessions/calls.go#L109) |
-| Usage | field_declaration | cxRun | [110](../../magpie/internal/sessions/calls.go#L110) |
-| Contexts | field_declaration | cxRun | [111](../../magpie/internal/sessions/calls.go#L111) |
-| Turns | field_declaration | cxRun | [112](../../magpie/internal/sessions/calls.go#L112) |
-| LastIn | field_declaration | cxRun | [113](../../magpie/internal/sessions/calls.go#L113) |
-| Answering | field_declaration | cxRun | [119](../../magpie/internal/sessions/calls.go#L119) |
-| AskedAt | field_declaration | cxRun | [120](../../magpie/internal/sessions/calls.go#L120) |
-| AskedTurn | field_declaration | cxRun | [121](../../magpie/internal/sessions/calls.go#L121) |
-| LastEnd | field_declaration | cxRun | [122](../../magpie/internal/sessions/calls.go#L122) |
-| Timings | field_declaration | cxRun | [123](../../magpie/internal/sessions/calls.go#L123) |
-| LastIndex | field_declaration | cxRun | [124](../../magpie/internal/sessions/calls.go#L124) |
-| cxOpen | type_spec |  | [128](../../magpie/internal/sessions/calls.go#L128) |
-| N | field_declaration | cxOpen | [129](../../magpie/internal/sessions/calls.go#L129) |
-| Duration | field_declaration | cxOpen | [130](../../magpie/internal/sessions/calls.go#L130) |
-| Complete | field_declaration | cxOpen | [131](../../magpie/internal/sessions/calls.go#L131) |
-| cxCallTiming | type_spec |  | [133](../../magpie/internal/sessions/calls.go#L133) |
-| Input | field_declaration | cxCallTiming | [134](../../magpie/internal/sessions/calls.go#L134) |
-| Previous | field_declaration | cxCallTiming | [135](../../magpie/internal/sessions/calls.go#L135) |
-| End | field_declaration | cxCallTiming | [136](../../magpie/internal/sessions/calls.go#L136) |
-| cxContext | type_spec |  | [139](../../magpie/internal/sessions/calls.go#L139) |
-| Model | field_declaration | cxContext | [140](../../magpie/internal/sessions/calls.go#L140) |
-| LastIn | field_declaration | cxContext | [141](../../magpie/internal/sessions/calls.go#L141) |
-| callDesktopDirs | var_spec |  | [147](../../magpie/internal/sessions/calls.go#L147) |
-| DesktopDataDirs | function_declaration |  | [150](../../magpie/internal/sessions/calls.go#L150) |
-| Calls | function_declaration |  | [161](../../magpie/internal/sessions/calls.go#L161) |
-| AgentCalls | function_declaration |  | [165](../../magpie/internal/sessions/calls.go#L165) |
-| callsKey | type_spec |  | [167](../../magpie/internal/sessions/calls.go#L167) |
-| since | field_declaration | callsKey | [168](../../magpie/internal/sessions/calls.go#L168) |
-| zero | field_declaration | callsKey | [169](../../magpie/internal/sessions/calls.go#L169) |
-| agent | field_declaration | callsKey | [170](../../magpie/internal/sessions/calls.go#L170) |
-| callsFlight | type_spec |  | [173](../../magpie/internal/sessions/calls.go#L173) |
-| done | field_declaration | callsFlight | [174](../../magpie/internal/sessions/calls.go#L174) |
-| calls | field_declaration | callsFlight | [175](../../magpie/internal/sessions/calls.go#L175) |
-| waiters | field_declaration | callsFlight | [176](../../magpie/internal/sessions/calls.go#L176) |
-| callsFlights | var_spec |  | [180](../../magpie/internal/sessions/calls.go#L180) |
-| on | field_declaration | callsFlights | [182](../../magpie/internal/sessions/calls.go#L182) |
-| callsReading | var_spec |  | [185](../../magpie/internal/sessions/calls.go#L185) |
-| readingCalls | var_spec |  | [187](../../magpie/internal/sessions/calls.go#L187) |
-| sharedCalls | function_declaration |  | [190](../../magpie/internal/sessions/calls.go#L190) |
-| callsFor | function_declaration |  | [233](../../magpie/internal/sessions/calls.go#L233) |
-| callFiles | function_declaration |  | [291](../../magpie/internal/sessions/calls.go#L291) |
-| callFilesWith | function_declaration |  | [294](../../magpie/internal/sessions/calls.go#L294) |
-| callSources | function_declaration |  | [333](../../magpie/internal/sessions/calls.go#L333) |
-| callSourcesWith | function_declaration |  | [336](../../magpie/internal/sessions/calls.go#L336) |
-| desktopDataDirs | function_declaration |  | [354](../../magpie/internal/sessions/calls.go#L354) |
-| headLen | const_spec |  | [357](../../magpie/internal/sessions/calls.go#L357) |
-| headOf | function_declaration |  | [360](../../magpie/internal/sessions/calls.go#L360) |
-| prepareCalls | function_declaration |  | [372](../../magpie/internal/sessions/calls.go#L372) |
+| Call | type_spec |  | [26](../../magpie/internal/sessions/calls.go#L26) |
+| ResponseID | field_declaration | Call | [27](../../magpie/internal/sessions/calls.go#L27) |
+| Time | field_declaration | Call | [28](../../magpie/internal/sessions/calls.go#L28) |
+| Agent | field_declaration | Call | [29](../../magpie/internal/sessions/calls.go#L29) |
+| Session | field_declaration | Call | [30](../../magpie/internal/sessions/calls.go#L30) |
+| ThreadID | field_declaration | Call | [31](../../magpie/internal/sessions/calls.go#L31) |
+| Model | field_declaration | Call | [32](../../magpie/internal/sessions/calls.go#L32) |
+| Requested | field_declaration | Call | [35](../../magpie/internal/sessions/calls.go#L35) |
+| Reasoning | field_declaration | Call | [37](../../magpie/internal/sessions/calls.go#L37) |
+| Effort | field_declaration | Call | [38](../../magpie/internal/sessions/calls.go#L38) |
+| RequestID | field_declaration | Call | [39](../../magpie/internal/sessions/calls.go#L39) |
+| Upstream | field_declaration | Call | [42](../../magpie/internal/sessions/calls.go#L42) |
+| AccountID | field_declaration | Call | [43](../../magpie/internal/sessions/calls.go#L43) |
+| UserID | field_declaration | Call | [44](../../magpie/internal/sessions/calls.go#L44) |
+| Error | field_declaration | Call | [45](../../magpie/internal/sessions/calls.go#L45) |
+| ErrorText | field_declaration | Call | [46](../../magpie/internal/sessions/calls.go#L46) |
+| TTFT | field_declaration | Call | [48](../../magpie/internal/sessions/calls.go#L48) |
+| Compaction | field_declaration | Call | [50](../../magpie/internal/sessions/calls.go#L50) |
+| Millis | field_declaration | Call | [54](../../magpie/internal/sessions/calls.go#L54) |
+| Compact | field_declaration | Call | [58](../../magpie/internal/sessions/calls.go#L58) |
+| Cwd | field_declaration | Call | [59](../../magpie/internal/sessions/calls.go#L59) |
+| File | field_declaration | Call | [63](../../magpie/internal/sessions/calls.go#L63) |
+| From | field_declaration | Call | [64](../../magpie/internal/sessions/calls.go#L64) |
+| To | field_declaration | Call | [65](../../magpie/internal/sessions/calls.go#L65) |
+| Msg | field_declaration | Call | [66](../../magpie/internal/sessions/calls.go#L66) |
+| callFile | type_spec |  | [71](../../magpie/internal/sessions/calls.go#L71) |
+| Claude | field_declaration | callFile | [72](../../magpie/internal/sessions/calls.go#L72) |
+| ContentHash | field_declaration | callFile | [73](../../magpie/internal/sessions/calls.go#L73) |
+| dirty | field_declaration | callFile | [74](../../magpie/internal/sessions/calls.go#L74) |
+| readSize | field_declaration | callFile | [77](../../magpie/internal/sessions/calls.go#L77) |
+| bigFrame | field_declaration | callFile | [79](../../magpie/internal/sessions/calls.go#L79) |
+| Size | field_declaration | callFile | [80](../../magpie/internal/sessions/calls.go#L80) |
+| Mod | field_declaration | callFile | [81](../../magpie/internal/sessions/calls.go#L81) |
+| Off | field_declaration | callFile | [82](../../magpie/internal/sessions/calls.go#L82) |
+| Head | field_declaration | callFile | [83](../../magpie/internal/sessions/calls.go#L83) |
+| HeadSize | field_declaration | callFile | [84](../../magpie/internal/sessions/calls.go#L84) |
+| Path | field_declaration | callFile | [85](../../magpie/internal/sessions/calls.go#L85) |
+| Calls | field_declaration | callFile | [86](../../magpie/internal/sessions/calls.go#L86) |
+| Agent | field_declaration | callFile | [87](../../magpie/internal/sessions/calls.go#L87) |
+| At | field_declaration | callFile | [89](../../magpie/internal/sessions/calls.go#L89) |
+| Strs | field_declaration | callFile | [90](../../magpie/internal/sessions/calls.go#L90) |
+| Session | field_declaration | callFile | [93](../../magpie/internal/sessions/calls.go#L93) |
+| Msgs | field_declaration | callFile | [94](../../magpie/internal/sessions/calls.go#L94) |
+| Requested | field_declaration | callFile | [98](../../magpie/internal/sessions/calls.go#L98) |
+| LastUser | field_declaration | callFile | [99](../../magpie/internal/sessions/calls.go#L99) |
+| Began | field_declaration | callFile | [100](../../magpie/internal/sessions/calls.go#L100) |
+| CompactMs | field_declaration | callFile | [102](../../magpie/internal/sessions/calls.go#L102) |
+| CX | field_declaration | callFile | [104](../../magpie/internal/sessions/calls.go#L104) |
+| Pi | field_declaration | callFile | [106](../../magpie/internal/sessions/calls.go#L106) |
+| Dsh | field_declaration | callFile | [108](../../magpie/internal/sessions/calls.go#L108) |
+| Grok | field_declaration | callFile | [110](../../magpie/internal/sessions/calls.go#L110) |
+| cxRun | type_spec |  | [114](../../magpie/internal/sessions/calls.go#L114) |
+| Meta | field_declaration | cxRun | [115](../../magpie/internal/sessions/calls.go#L115) |
+| Session | field_declaration | cxRun | [116](../../magpie/internal/sessions/calls.go#L116) |
+| Upstream | field_declaration | cxRun | [117](../../magpie/internal/sessions/calls.go#L117) |
+| Usage | field_declaration | cxRun | [118](../../magpie/internal/sessions/calls.go#L118) |
+| Contexts | field_declaration | cxRun | [119](../../magpie/internal/sessions/calls.go#L119) |
+| Turns | field_declaration | cxRun | [120](../../magpie/internal/sessions/calls.go#L120) |
+| LastIn | field_declaration | cxRun | [121](../../magpie/internal/sessions/calls.go#L121) |
+| Answering | field_declaration | cxRun | [127](../../magpie/internal/sessions/calls.go#L127) |
+| AskedAt | field_declaration | cxRun | [128](../../magpie/internal/sessions/calls.go#L128) |
+| AskedTurn | field_declaration | cxRun | [129](../../magpie/internal/sessions/calls.go#L129) |
+| LastEnd | field_declaration | cxRun | [130](../../magpie/internal/sessions/calls.go#L130) |
+| Timings | field_declaration | cxRun | [131](../../magpie/internal/sessions/calls.go#L131) |
+| LastIndex | field_declaration | cxRun | [132](../../magpie/internal/sessions/calls.go#L132) |
+| cxOpen | type_spec |  | [136](../../magpie/internal/sessions/calls.go#L136) |
+| N | field_declaration | cxOpen | [137](../../magpie/internal/sessions/calls.go#L137) |
+| Duration | field_declaration | cxOpen | [138](../../magpie/internal/sessions/calls.go#L138) |
+| Complete | field_declaration | cxOpen | [139](../../magpie/internal/sessions/calls.go#L139) |
+| cxCallTiming | type_spec |  | [141](../../magpie/internal/sessions/calls.go#L141) |
+| Input | field_declaration | cxCallTiming | [142](../../magpie/internal/sessions/calls.go#L142) |
+| Previous | field_declaration | cxCallTiming | [143](../../magpie/internal/sessions/calls.go#L143) |
+| End | field_declaration | cxCallTiming | [144](../../magpie/internal/sessions/calls.go#L144) |
+| cxContext | type_spec |  | [147](../../magpie/internal/sessions/calls.go#L147) |
+| Model | field_declaration | cxContext | [148](../../magpie/internal/sessions/calls.go#L148) |
+| LastIn | field_declaration | cxContext | [149](../../magpie/internal/sessions/calls.go#L149) |
+| callDesktopDirs | var_spec |  | [155](../../magpie/internal/sessions/calls.go#L155) |
+| DesktopDataDirs | function_declaration |  | [158](../../magpie/internal/sessions/calls.go#L158) |
+| desktopReadDirs | function_declaration |  | [163](../../magpie/internal/sessions/calls.go#L163) |
+| Calls | function_declaration |  | [179](../../magpie/internal/sessions/calls.go#L179) |
+| AgentCalls | function_declaration |  | [183](../../magpie/internal/sessions/calls.go#L183) |
+| callsKey | type_spec |  | [185](../../magpie/internal/sessions/calls.go#L185) |
+| since | field_declaration | callsKey | [186](../../magpie/internal/sessions/calls.go#L186) |
+| zero | field_declaration | callsKey | [187](../../magpie/internal/sessions/calls.go#L187) |
+| agent | field_declaration | callsKey | [188](../../magpie/internal/sessions/calls.go#L188) |
+| callsFlight | type_spec |  | [191](../../magpie/internal/sessions/calls.go#L191) |
+| done | field_declaration | callsFlight | [192](../../magpie/internal/sessions/calls.go#L192) |
+| calls | field_declaration | callsFlight | [193](../../magpie/internal/sessions/calls.go#L193) |
+| waiters | field_declaration | callsFlight | [194](../../magpie/internal/sessions/calls.go#L194) |
+| callsFlights | var_spec |  | [198](../../magpie/internal/sessions/calls.go#L198) |
+| on | field_declaration | callsFlights | [200](../../magpie/internal/sessions/calls.go#L200) |
+| callsReading | var_spec |  | [203](../../magpie/internal/sessions/calls.go#L203) |
+| readingCalls | var_spec |  | [205](../../magpie/internal/sessions/calls.go#L205) |
+| sharedCalls | function_declaration |  | [208](../../magpie/internal/sessions/calls.go#L208) |
+| callsFor | function_declaration |  | [251](../../magpie/internal/sessions/calls.go#L251) |
+| callFiles | function_declaration |  | [309](../../magpie/internal/sessions/calls.go#L309) |
+| callFilesWith | function_declaration |  | [312](../../magpie/internal/sessions/calls.go#L312) |
+| callFileLists | function_declaration |  | [317](../../magpie/internal/sessions/calls.go#L317) |
+| callSources | function_declaration |  | [339](../../magpie/internal/sessions/calls.go#L339) |
+| callSourcesWith | function_declaration |  | [342](../../magpie/internal/sessions/calls.go#L342) |

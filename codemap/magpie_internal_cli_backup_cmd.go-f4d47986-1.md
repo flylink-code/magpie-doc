@@ -4,15 +4,15 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/backup_cmd.go) · page 1/1
 
-Source SHA-256: 3751a64347b3fc47bac9443eadd6ffde68395ce7579f3ce06b3af52b55968598
+Source SHA-256: 0e6911af8fd4819c5a5fc9c3b8e0810276325e6e978457927e2b75b18ab27e60
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | backupCmd | function_declaration |  | [22](../../magpie/internal/cli/backup_cmd.go#L22) |
-| restoreCmd | function_declaration |  | [75](../../magpie/internal/cli/backup_cmd.go#L75) |
-| passphrase | function_declaration |  | [142](../../magpie/internal/cli/backup_cmd.go#L142) |
-| stdinMu | var_spec |  | [154](../../magpie/internal/cli/backup_cmd.go#L154) |
-| stdinFile | var_spec |  | [155](../../magpie/internal/cli/backup_cmd.go#L155) |
-| stdinBuf | var_spec |  | [156](../../magpie/internal/cli/backup_cmd.go#L156) |
-| stdin | function_declaration |  | [159](../../magpie/internal/cli/backup_cmd.go#L159) |
-| secret | function_declaration |  | [170](../../magpie/internal/cli/backup_cmd.go#L170) |
+| restoreCmd | function_declaration |  | [95](../../magpie/internal/cli/backup_cmd.go#L95) |
+| passphrase | function_declaration |  | [170](../../magpie/internal/cli/backup_cmd.go#L170) |
+| stdinMu | var_spec |  | [182](../../magpie/internal/cli/backup_cmd.go#L182) |
+| stdinFile | var_spec |  | [183](../../magpie/internal/cli/backup_cmd.go#L183) |
+| stdinBuf | var_spec |  | [184](../../magpie/internal/cli/backup_cmd.go#L184) |
+| stdin | function_declaration |  | [187](../../magpie/internal/cli/backup_cmd.go#L187) |
+| secret | function_declaration |  | [198](../../magpie/internal/cli/backup_cmd.go#L198) |

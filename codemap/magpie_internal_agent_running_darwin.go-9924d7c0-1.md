@@ -4,9 +4,9 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/running_darwin.go) · page 1/1
 
-Source SHA-256: 1b783d06d9396ce1ef7be18bc3fc12e536e46dc116bd9511c43d793650ab4ee1
+Source SHA-256: c4746d68064a9aeab0fad6bb2e1493c0d5129071dde6fe556848c7af7af8f8a0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| listRunning | function_declaration |  | [18](../../magpie/internal/agent/running_darwin.go#L18) |
-| ps | var_spec | listRunning | [20](../../magpie/internal/agent/running_darwin.go#L20) |
+| listRunningNow | function_declaration |  | [18](../../magpie/internal/agent/running_darwin.go#L18) |
+| ps | var_spec | listRunningNow | [20](../../magpie/internal/agent/running_darwin.go#L20) |

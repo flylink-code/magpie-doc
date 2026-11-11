@@ -4,24 +4,29 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/fonts.js) · page 1/1
 
-Source SHA-256: e35b36e666ae3e393f0d81b456ab916726cb3cb920403747e573bd96f1b3bc14
+Source SHA-256: 2a1114c010cd6034bb40f65912e883f7ff78c9d8cc8c0fde51e8955fa8ac3c67
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| catalogue | VariableDeclaration |  | [5](../../magpie/internal/gui/assets/fonts.js#L5) |
-| same | VariableDeclaration |  | [6](../../magpie/internal/gui/assets/fonts.js#L6) |
-| available | VariableDeclaration |  | [7](../../magpie/internal/gui/assets/fonts.js#L7) |
-| quoted | VariableDeclaration |  | [8](../../magpie/internal/gui/assets/fonts.js#L8) |
-| apply | FunctionDeclaration |  | [9](../../magpie/internal/gui/assets/fonts.js#L9) |
-| root | VariableDeclaration | apply | [10](../../magpie/internal/gui/assets/fonts.js#L10) |
-| active | VariableDeclaration | apply | [11](../../magpie/internal/gui/assets/fonts.js#L11) |
-| [key, prefix, fallback] | VariableDeclaration | apply | [12](../../magpie/internal/gui/assets/fonts.js#L12) |
-| key | BindingElement | apply.[key, prefix, fallback] | [12](../../magpie/internal/gui/assets/fonts.js#L12) |
-| prefix | BindingElement | apply.[key, prefix, fallback] | [12](../../magpie/internal/gui/assets/fonts.js#L12) |
-| fallback | BindingElement | apply.[key, prefix, fallback] | [12](../../magpie/internal/gui/assets/fonts.js#L12) |
-| f | VariableDeclaration | apply | [13](../../magpie/internal/gui/assets/fonts.js#L13) |
-| valid | VariableDeclaration | apply | [14](../../magpie/internal/gui/assets/fonts.js#L14) |
-| values | VariableDeclaration | apply | [16](../../magpie/internal/gui/assets/fonts.js#L16) |
-| part | VariableDeclaration | apply | [20](../../magpie/internal/gui/assets/fonts.js#L20) |
-| name | VariableDeclaration | apply | [21](../../magpie/internal/gui/assets/fonts.js#L21) |
-| catalogue | PropertyAssignment |  | [31](../../magpie/internal/gui/assets/fonts.js#L31) |
+| catalogue | VariableDeclaration |  | [7](../../magpie/internal/gui/assets/fonts.js#L7) |
+| held | VariableDeclaration |  | [7](../../magpie/internal/gui/assets/fonts.js#L7) |
+| web | VariableDeclaration |  | [8](../../magpie/internal/gui/assets/fonts.js#L8) |
+| KEY | VariableDeclaration |  | [8](../../magpie/internal/gui/assets/fonts.js#L8) |
+| own | VariableDeclaration |  | [9](../../magpie/internal/gui/assets/fonts.js#L9) |
+| keep | FunctionDeclaration |  | [10](../../magpie/internal/gui/assets/fonts.js#L10) |
+| same | VariableDeclaration |  | [15](../../magpie/internal/gui/assets/fonts.js#L15) |
+| available | VariableDeclaration |  | [16](../../magpie/internal/gui/assets/fonts.js#L16) |
+| quoted | VariableDeclaration |  | [17](../../magpie/internal/gui/assets/fonts.js#L17) |
+| apply | FunctionDeclaration |  | [18](../../magpie/internal/gui/assets/fonts.js#L18) |
+| root | VariableDeclaration | apply | [19](../../magpie/internal/gui/assets/fonts.js#L19) |
+| active | VariableDeclaration | apply | [20](../../magpie/internal/gui/assets/fonts.js#L20) |
+| [key, prefix, fallback] | VariableDeclaration | apply | [21](../../magpie/internal/gui/assets/fonts.js#L21) |
+| key | BindingElement | apply.[key, prefix, fallback] | [21](../../magpie/internal/gui/assets/fonts.js#L21) |
+| prefix | BindingElement | apply.[key, prefix, fallback] | [21](../../magpie/internal/gui/assets/fonts.js#L21) |
+| fallback | BindingElement | apply.[key, prefix, fallback] | [21](../../magpie/internal/gui/assets/fonts.js#L21) |
+| f | VariableDeclaration | apply | [22](../../magpie/internal/gui/assets/fonts.js#L22) |
+| valid | VariableDeclaration | apply | [23](../../magpie/internal/gui/assets/fonts.js#L23) |
+| values | VariableDeclaration | apply | [25](../../magpie/internal/gui/assets/fonts.js#L25) |
+| part | VariableDeclaration | apply | [29](../../magpie/internal/gui/assets/fonts.js#L29) |
+| name | VariableDeclaration | apply | [30](../../magpie/internal/gui/assets/fonts.js#L30) |
+| catalogue | PropertyAssignment |  | [40](../../magpie/internal/gui/assets/fonts.js#L40) |

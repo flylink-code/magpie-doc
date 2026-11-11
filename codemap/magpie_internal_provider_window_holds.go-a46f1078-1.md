@@ -4,27 +4,34 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/window_holds.go) · page 1/1
 
-Source SHA-256: cd27ec7270b93c9cea7a7191851136e18790a235e8be78f22b381275e8a29ce5
+Source SHA-256: be0048a1c89847bb1be7e4752d1860f855885a31e8cd9c74d6e6ab48f00d1ee8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| WindowHolds | type_spec |  | [22](../../magpie/internal/provider/window_holds.go#L22) |
-| Tokens | field_declaration | WindowHolds | [23](../../magpie/internal/provider/window_holds.go#L23) |
-| Cost | field_declaration | WindowHolds | [24](../../magpie/internal/provider/window_holds.go#L24) |
-| Priced | field_declaration | WindowHolds | [25](../../magpie/internal/provider/window_holds.go#L25) |
-| Used | field_declaration | WindowHolds | [26](../../magpie/internal/provider/window_holds.go#L26) |
-| Routed | field_declaration | WindowHolds | [27](../../magpie/internal/provider/window_holds.go#L27) |
-| Calls | field_declaration | WindowHolds::Routed | [28](../../magpie/internal/provider/window_holds.go#L28) |
-| Tokens | field_declaration | WindowHolds::Routed | [29](../../magpie/internal/provider/window_holds.go#L29) |
-| CacheRead | field_declaration | WindowHolds::Routed | [30](../../magpie/internal/provider/window_holds.go#L30) |
-| CacheWrite | field_declaration | WindowHolds::Routed | [31](../../magpie/internal/provider/window_holds.go#L31) |
-| Cost | field_declaration | WindowHolds::Routed | [32](../../magpie/internal/provider/window_holds.go#L32) |
-| Since | field_declaration | WindowHolds | [34](../../magpie/internal/provider/window_holds.go#L34) |
-| HoldsFloor | const_spec |  | [39](../../magpie/internal/provider/window_holds.go#L39) |
-| HoldsLow | const_spec |  | [44](../../magpie/internal/provider/window_holds.go#L44) |
-| HoldsNoClock | const_spec |  | [45](../../magpie/internal/provider/window_holds.go#L45) |
-| HoldsBeforeLog | const_spec |  | [46](../../magpie/internal/provider/window_holds.go#L46) |
-| HoldsNoneRouted | const_spec |  | [47](../../magpie/internal/provider/window_holds.go#L47) |
-| HoldsCredits | const_spec |  | [48](../../magpie/internal/provider/window_holds.go#L48) |
-| Bounds | method_declaration |  | [54](../../magpie/internal/provider/window_holds.go#L54) |
-| Counts | method_declaration |  | [75](../../magpie/internal/provider/window_holds.go#L75) |
+| WindowHolds | type_spec |  | [29](../../magpie/internal/provider/window_holds.go#L29) |
+| Tokens | field_declaration | WindowHolds | [30](../../magpie/internal/provider/window_holds.go#L30) |
+| Cost | field_declaration | WindowHolds | [31](../../magpie/internal/provider/window_holds.go#L31) |
+| BaseCost | field_declaration | WindowHolds | [32](../../magpie/internal/provider/window_holds.go#L32) |
+| Priced | field_declaration | WindowHolds | [33](../../magpie/internal/provider/window_holds.go#L33) |
+| Used | field_declaration | WindowHolds | [34](../../magpie/internal/provider/window_holds.go#L34) |
+| Routed | field_declaration | WindowHolds | [35](../../magpie/internal/provider/window_holds.go#L35) |
+| Calls | field_declaration | WindowHolds::Routed | [36](../../magpie/internal/provider/window_holds.go#L36) |
+| Tokens | field_declaration | WindowHolds::Routed | [37](../../magpie/internal/provider/window_holds.go#L37) |
+| CacheRead | field_declaration | WindowHolds::Routed | [38](../../magpie/internal/provider/window_holds.go#L38) |
+| CacheWrite | field_declaration | WindowHolds::Routed | [39](../../magpie/internal/provider/window_holds.go#L39) |
+| Cost | field_declaration | WindowHolds::Routed | [40](../../magpie/internal/provider/window_holds.go#L40) |
+| BaseCost | field_declaration | WindowHolds::Routed | [41](../../magpie/internal/provider/window_holds.go#L41) |
+| Since | field_declaration | WindowHolds | [43](../../magpie/internal/provider/window_holds.go#L43) |
+| HoldsFloor | const_spec |  | [48](../../magpie/internal/provider/window_holds.go#L48) |
+| HoldsLow | const_spec |  | [53](../../magpie/internal/provider/window_holds.go#L53) |
+| HoldsNoClock | const_spec |  | [54](../../magpie/internal/provider/window_holds.go#L54) |
+| HoldsBeforeLog | const_spec |  | [55](../../magpie/internal/provider/window_holds.go#L55) |
+| HoldsNoneRouted | const_spec |  | [56](../../magpie/internal/provider/window_holds.go#L56) |
+| HoldsCredits | const_spec |  | [57](../../magpie/internal/provider/window_holds.go#L57) |
+| Bounds | method_declaration |  | [63](../../magpie/internal/provider/window_holds.go#L63) |
+| Counts | method_declaration |  | [84](../../magpie/internal/provider/window_holds.go#L84) |
+| PoolWindow | method_declaration |  | [91](../../magpie/internal/provider/window_holds.go#L91) |
+| LineName | method_declaration |  | [96](../../magpie/internal/provider/window_holds.go#L96) |
+| CountsIn | method_declaration |  | [108](../../magpie/internal/provider/window_holds.go#L108) |
+| PoolMembers | function_declaration |  | [132](../../magpie/internal/provider/window_holds.go#L132) |
+| given | var_spec | PoolMembers | [133](../../magpie/internal/provider/window_holds.go#L133) |

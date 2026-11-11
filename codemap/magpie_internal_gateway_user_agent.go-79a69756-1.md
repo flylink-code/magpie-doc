@@ -4,12 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/user_agent.go) · page 1/1
 
-Source SHA-256: b29308532b8803474d12044c9774d54aca0838f74c56b57f3d1542bc89d62515
+Source SHA-256: 07fc4e4bf9833d11106e923e9629b883ad070f037a30fcfc1f040c8d871331ce
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | magpieUA | function_declaration |  | [12](../../magpie/internal/gateway/user_agent.go#L12) |
-| userAgentFor | function_declaration |  | [22](../../magpie/internal/gateway/user_agent.go#L22) |
-| magpiesOwn | function_declaration |  | [34](../../magpie/internal/gateway/user_agent.go#L34) |
-| callerUA | function_declaration |  | [40](../../magpie/internal/gateway/user_agent.go#L40) |
-| stampUA | function_declaration |  | [50](../../magpie/internal/gateway/user_agent.go#L50) |
+| userAgentFor | function_declaration |  | [23](../../magpie/internal/gateway/user_agent.go#L23) |
+| magpiesOwn | function_declaration |  | [35](../../magpie/internal/gateway/user_agent.go#L35) |
+| callerUA | function_declaration |  | [41](../../magpie/internal/gateway/user_agent.go#L41) |
+| stampUA | function_declaration |  | [51](../../magpie/internal/gateway/user_agent.go#L51) |
+| agentUA | function_declaration |  | [62](../../magpie/internal/gateway/user_agent.go#L62) |
+| passOnUA | function_declaration |  | [74](../../magpie/internal/gateway/user_agent.go#L74) |

@@ -4,15 +4,35 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/ledger.go) · page 2/2
 
-Source SHA-256: 88a989f12b86a23f34eb91389514323f238682b39a0c417fea840edd67f542c9
+Source SHA-256: 6425aeefcded6e63dd9b11fbb19acc4825cebe99953a67d0b01dc459c533c548
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| By | field_declaration | SeriesPoint | [1041](../../magpie/internal/usage/ledger.go#L1041) |
-| seriesKeep | const_spec |  | [1047](../../magpie/internal/usage/ledger.go#L1047) |
-| LedgerSeries | function_declaration |  | [1052](../../magpie/internal/usage/ledger.go#L1052) |
-| ledgerSeriesAt | function_declaration |  | [1058](../../magpie/internal/usage/ledger.go#L1058) |
-| first | var_spec | ledgerSeriesAt | [1059](../../magpie/internal/usage/ledger.go#L1059) |
-| Visit | function_declaration |  | [1115](../../magpie/internal/usage/ledger.go#L1115) |
-| NewCoster | function_declaration |  | [1120](../../magpie/internal/usage/ledger.go#L1120) |
-| t | var_spec | NewCoster | [1124](../../magpie/internal/usage/ledger.go#L1124) |
+| ok | var_spec | key | [1105](../../magpie/internal/usage/ledger.go#L1105) |
+| AllTokens | method_declaration |  | [1124](../../magpie/internal/usage/ledger.go#L1124) |
+| Share | type_spec |  | [1127](../../magpie/internal/usage/ledger.go#L1127) |
+| ID | field_declaration | Share | [1128](../../magpie/internal/usage/ledger.go#L1128) |
+| Breakdown | function_declaration |  | [1134](../../magpie/internal/usage/ledger.go#L1134) |
+| out | var_spec | Breakdown | [1136](../../magpie/internal/usage/ledger.go#L1136) |
+| Part | type_spec |  | [1167](../../magpie/internal/usage/ledger.go#L1167) |
+| Calls | field_declaration | Part | [1168](../../magpie/internal/usage/ledger.go#L1168) |
+| Tokens | field_declaration | Part | [1169](../../magpie/internal/usage/ledger.go#L1169) |
+| Cost | field_declaration | Part | [1170](../../magpie/internal/usage/ledger.go#L1170) |
+| Timed | field_declaration | Part | [1173](../../magpie/internal/usage/ledger.go#L1173) |
+| TTFT | field_declaration | Part | [1174](../../magpie/internal/usage/ledger.go#L1174) |
+| DecodeMs | field_declaration | Part | [1175](../../magpie/internal/usage/ledger.go#L1175) |
+| DecodeOut | field_declaration | Part | [1176](../../magpie/internal/usage/ledger.go#L1176) |
+| UpBytes | field_declaration | Part | [1179](../../magpie/internal/usage/ledger.go#L1179) |
+| DownBytes | field_declaration | Part | [1180](../../magpie/internal/usage/ledger.go#L1180) |
+| add | method_declaration |  | [1184](../../magpie/internal/usage/ledger.go#L1184) |
+| plus | method_declaration |  | [1206](../../magpie/internal/usage/ledger.go#L1206) |
+| SeriesPoint | type_spec |  | [1220](../../magpie/internal/usage/ledger.go#L1220) |
+| By | field_declaration | SeriesPoint | [1222](../../magpie/internal/usage/ledger.go#L1222) |
+| seriesKeep | const_spec |  | [1228](../../magpie/internal/usage/ledger.go#L1228) |
+| LedgerSeries | function_declaration |  | [1233](../../magpie/internal/usage/ledger.go#L1233) |
+| ledgerSeriesAt | function_declaration |  | [1239](../../magpie/internal/usage/ledger.go#L1239) |
+| first | var_spec | ledgerSeriesAt | [1240](../../magpie/internal/usage/ledger.go#L1240) |
+| Visit | function_declaration |  | [1296](../../magpie/internal/usage/ledger.go#L1296) |
+| VisitSessions | function_declaration |  | [1300](../../magpie/internal/usage/ledger.go#L1300) |
+| NewCoster | function_declaration |  | [1307](../../magpie/internal/usage/ledger.go#L1307) |
+| t | var_spec | NewCoster | [1311](../../magpie/internal/usage/ledger.go#L1311) |

@@ -7,43 +7,107 @@
 [Files 1](magpie-provider.md)
 [Files 2](magpie-provider-2.md)
 [Files 3](magpie-provider-3.md)
+[Files 4](magpie-provider-4.md)
 
 | File | Symbols | Symbol pages |
 | --- | ---: | --- |
-| [magpie/internal/provider/search_api.go](../../magpie/internal/provider/search_api.go) | 34 | [1](magpie_internal_provider_search_api.go-ab4ff0dd-1.md) |
+| [magpie/internal/provider/mlxserve_decide.go](../../magpie/internal/provider/mlxserve_decide.go) | 15 | [1](magpie_internal_provider_mlxserve_decide.go-3120d67c-1.md) |
+| [magpie/internal/provider/modelheaders.go](../../magpie/internal/provider/modelheaders.go) | 13 | [1](magpie_internal_provider_modelheaders.go-69e862be-1.md) |
+| [magpie/internal/provider/modelkind.go](../../magpie/internal/provider/modelkind.go) | 12 | [1](magpie_internal_provider_modelkind.go-95d38a28-1.md) |
+| [magpie/internal/provider/modellist.go](../../magpie/internal/provider/modellist.go) | 14 | [1](magpie_internal_provider_modellist.go-90be389a-1.md) |
+| [magpie/internal/provider/modelprefs.go](../../magpie/internal/provider/modelprefs.go) | 99 | [1](magpie_internal_provider_modelprefs.go-5857aa34-1.md) |
+| [magpie/internal/provider/models.go](../../magpie/internal/provider/models.go) | 337 | [1](magpie_internal_provider_models.go-5593c6f0-1.md) [2](magpie_internal_provider_models.go-5593c6f0-2.md) [3](magpie_internal_provider_models.go-5593c6f0-3.md) [4](magpie_internal_provider_models.go-5593c6f0-4.md) |
+| [magpie/internal/provider/modelspec.go](../../magpie/internal/provider/modelspec.go) | 32 | [1](magpie_internal_provider_modelspec.go-e577197e-1.md) |
+| [magpie/internal/provider/modelsystem.go](../../magpie/internal/provider/modelsystem.go) | 4 | [1](magpie_internal_provider_modelsystem.go-cd1ed7aa-1.md) |
+| [magpie/internal/provider/native_compaction.go](../../magpie/internal/provider/native_compaction.go) | 3 | [1](magpie_internal_provider_native_compaction.go-bd7dea0d-1.md) |
+| [magpie/internal/provider/native_endpoints.go](../../magpie/internal/provider/native_endpoints.go) | 9 | [1](magpie_internal_provider_native_endpoints.go-8bfb5553-1.md) |
+| [magpie/internal/provider/ollama_decide.go](../../magpie/internal/provider/ollama_decide.go) | 12 | [1](magpie_internal_provider_ollama_decide.go-a98b3a99-1.md) |
+| [magpie/internal/provider/ollama_usage.go](../../magpie/internal/provider/ollama_usage.go) | 21 | [1](magpie_internal_provider_ollama_usage.go-a31d6e69-1.md) |
+| [magpie/internal/provider/omlx_decide.go](../../magpie/internal/provider/omlx_decide.go) | 13 | [1](magpie_internal_provider_omlx_decide.go-79438187-1.md) |
+| [magpie/internal/provider/opencode_client.go](../../magpie/internal/provider/opencode_client.go) | 63 | [1](magpie_internal_provider_opencode_client.go-9cea6f56-1.md) |
+| [magpie/internal/provider/opencode_endpoints.go](../../magpie/internal/provider/opencode_endpoints.go) | 6 | [1](magpie_internal_provider_opencode_endpoints.go-59791cda-1.md) |
+| [magpie/internal/provider/opencode_go_free.go](../../magpie/internal/provider/opencode_go_free.go) | 3 | [1](magpie_internal_provider_opencode_go_free.go-cc091725-1.md) |
+| [magpie/internal/provider/ownroute.go](../../magpie/internal/provider/ownroute.go) | 11 | [1](magpie_internal_provider_ownroute.go-5a978039-1.md) |
+| [magpie/internal/provider/partner_events.go](../../magpie/internal/provider/partner_events.go) | 25 | [1](magpie_internal_provider_partner_events.go-80036684-1.md) |
+| [magpie/internal/provider/partners.go](../../magpie/internal/provider/partners.go) | 57 | [1](magpie_internal_provider_partners.go-c1a3cea6-1.md) |
+| [magpie/internal/provider/pass_errors.go](../../magpie/internal/provider/pass_errors.go) | 2 | [1](magpie_internal_provider_pass_errors.go-e6fe64db-1.md) |
+| [magpie/internal/provider/peak.go](../../magpie/internal/provider/peak.go) | 11 | [1](magpie_internal_provider_peak.go-aa7dc8d4-1.md) |
+| [magpie/internal/provider/planquota.go](../../magpie/internal/provider/planquota.go) | 113 | [1](magpie_internal_provider_planquota.go-bdcce527-1.md) [2](magpie_internal_provider_planquota.go-bdcce527-2.md) |
+| [magpie/internal/provider/plugin_accounts.go](../../magpie/internal/provider/plugin_accounts.go) | 42 | [1](magpie_internal_provider_plugin_accounts.go-09d8b900-1.md) |
+| [magpie/internal/provider/plugin_checkin.go](../../magpie/internal/provider/plugin_checkin.go) | 46 | [1](magpie_internal_provider_plugin_checkin.go-450e6635-1.md) |
+| [magpie/internal/provider/plugin_icon.go](../../magpie/internal/provider/plugin_icon.go) | 19 | [1](magpie_internal_provider_plugin_icon.go-28a38e49-1.md) |
+| [magpie/internal/provider/plugin_keepalive.go](../../magpie/internal/provider/plugin_keepalive.go) | 23 | [1](magpie_internal_provider_plugin_keepalive.go-dec9176f-1.md) |
+| [magpie/internal/provider/plugin_left.go](../../magpie/internal/provider/plugin_left.go) | 10 | [1](magpie_internal_provider_plugin_left.go-2350cd3c-1.md) |
+| [magpie/internal/provider/plugin_relist.go](../../magpie/internal/provider/plugin_relist.go) | 8 | [1](magpie_internal_provider_plugin_relist.go-bfd20948-1.md) |
+| [magpie/internal/provider/plugin_usage.go](../../magpie/internal/provider/plugin_usage.go) | 21 | [1](magpie_internal_provider_plugin_usage.go-3328b950-1.md) |
+| [magpie/internal/provider/plugin_vendor.go](../../magpie/internal/provider/plugin_vendor.go) | 6 | [1](magpie_internal_provider_plugin_vendor.go-76276a52-1.md) |
+| [magpie/internal/provider/plugins.go](../../magpie/internal/provider/plugins.go) | 67 | [1](magpie_internal_provider_plugins.go-2729393b-1.md) |
+| [magpie/internal/provider/pluginsignin.go](../../magpie/internal/provider/pluginsignin.go) | 16 | [1](magpie_internal_provider_pluginsignin.go-fba0c28b-1.md) |
+| [magpie/internal/provider/pluginsignin_paste.go](../../magpie/internal/provider/pluginsignin_paste.go) | 14 | [1](magpie_internal_provider_pluginsignin_paste.go-19ca9ee2-1.md) |
+| [magpie/internal/provider/presets.go](../../magpie/internal/provider/presets.go) | 87 | [1](magpie_internal_provider_presets.go-e704ae01-1.md) |
+| [magpie/internal/provider/provider.go](../../magpie/internal/provider/provider.go) | 240 | [1](magpie_internal_provider_provider.go-e5174d7a-1.md) [2](magpie_internal_provider_provider.go-e5174d7a-2.md) [3](magpie_internal_provider_provider.go-e5174d7a-3.md) |
+| [magpie/internal/provider/provider_order.go](../../magpie/internal/provider/provider_order.go) | 5 | [1](magpie_internal_provider_provider_order.go-e933dc65-1.md) |
+| [magpie/internal/provider/proxy.go](../../magpie/internal/provider/proxy.go) | 21 | [1](magpie_internal_provider_proxy.go-f3f0c0b9-1.md) |
+| [magpie/internal/provider/qoder.go](../../magpie/internal/provider/qoder.go) | 9 | [1](magpie_internal_provider_qoder.go-466b41b8-1.md) |
+| [magpie/internal/provider/qoder_checkin.go](../../magpie/internal/provider/qoder_checkin.go) | 52 | [1](magpie_internal_provider_qoder_checkin.go-f61c767d-1.md) |
+| [magpie/internal/provider/quota_alert.go](../../magpie/internal/provider/quota_alert.go) | 33 | [1](magpie_internal_provider_quota_alert.go-f137d142-1.md) |
+| [magpie/internal/provider/quota_asked.go](../../magpie/internal/provider/quota_asked.go) | 14 | [1](magpie_internal_provider_quota_asked.go-6a4e2090-1.md) |
+| [magpie/internal/provider/quota_history.go](../../magpie/internal/provider/quota_history.go) | 50 | [1](magpie_internal_provider_quota_history.go-3ce646e9-1.md) |
+| [magpie/internal/provider/quota_history_json.go](../../magpie/internal/provider/quota_history_json.go) | 9 | [1](magpie_internal_provider_quota_history_json.go-d081bc6e-1.md) |
+| [magpie/internal/provider/quota_last.go](../../magpie/internal/provider/quota_last.go) | 22 | [1](magpie_internal_provider_quota_last.go-6198e191-1.md) |
+| [magpie/internal/provider/quota_refresh.go](../../magpie/internal/provider/quota_refresh.go) | 22 | [1](magpie_internal_provider_quota_refresh.go-47150b2b-1.md) |
+| [magpie/internal/provider/quotas.go](../../magpie/internal/provider/quotas.go) | 56 | [1](magpie_internal_provider_quotas.go-b219d2b5-1.md) |
+| [magpie/internal/provider/ratewindow.go](../../magpie/internal/provider/ratewindow.go) | 13 | [1](magpie_internal_provider_ratewindow.go-50b72702-1.md) |
+| [magpie/internal/provider/redirect.go](../../magpie/internal/provider/redirect.go) | 4 | [1](magpie_internal_provider_redirect.go-c5eb0f4e-1.md) |
+| [magpie/internal/provider/remote_follow.go](../../magpie/internal/provider/remote_follow.go) | 21 | [1](magpie_internal_provider_remote_follow.go-0ea38e69-1.md) |
+| [magpie/internal/provider/remote_hub.go](../../magpie/internal/provider/remote_hub.go) | 13 | [1](magpie_internal_provider_remote_hub.go-6baf7e8b-1.md) |
+| [magpie/internal/provider/remote_key_limits.go](../../magpie/internal/provider/remote_key_limits.go) | 56 | [1](magpie_internal_provider_remote_key_limits.go-c0064d52-1.md) |
+| [magpie/internal/provider/remote_library.go](../../magpie/internal/provider/remote_library.go) | 5 | [1](magpie_internal_provider_remote_library.go-2314c249-1.md) |
+| [magpie/internal/provider/remote_magpie.go](../../magpie/internal/provider/remote_magpie.go) | 12 | [1](magpie_internal_provider_remote_magpie.go-774f3da0-1.md) |
+| [magpie/internal/provider/remote_moved.go](../../magpie/internal/provider/remote_moved.go) | 36 | [1](magpie_internal_provider_remote_moved.go-d1ef5c14-1.md) |
+| [magpie/internal/provider/remote_quotas.go](../../magpie/internal/provider/remote_quotas.go) | 63 | [1](magpie_internal_provider_remote_quotas.go-9595ab98-1.md) |
+| [magpie/internal/provider/remote_quotas_scope.go](../../magpie/internal/provider/remote_quotas_scope.go) | 7 | [1](magpie_internal_provider_remote_quotas_scope.go-b4efe8b5-1.md) |
+| [magpie/internal/provider/remote_self.go](../../magpie/internal/provider/remote_self.go) | 15 | [1](magpie_internal_provider_remote_self.go-d7acb0b0-1.md) |
+| [magpie/internal/provider/remote_update.go](../../magpie/internal/provider/remote_update.go) | 29 | [1](magpie_internal_provider_remote_update.go-2bdf1dce-1.md) |
+| [magpie/internal/provider/rename.go](../../magpie/internal/provider/rename.go) | 57 | [1](magpie_internal_provider_rename.go-11aa762e-1.md) |
+| [magpie/internal/provider/replyheaders.go](../../magpie/internal/provider/replyheaders.go) | 11 | [1](magpie_internal_provider_replyheaders.go-41cdfff5-1.md) |
+| [magpie/internal/provider/requestheaders.go](../../magpie/internal/provider/requestheaders.go) | 15 | [1](magpie_internal_provider_requestheaders.go-e0063c0d-1.md) |
+| [magpie/internal/provider/retired.go](../../magpie/internal/provider/retired.go) | 16 | [1](magpie_internal_provider_retired.go-7e102218-1.md) |
+| [magpie/internal/provider/route_accounts.go](../../magpie/internal/provider/route_accounts.go) | 11 | [1](magpie_internal_provider_route_accounts.go-5f8168a8-1.md) |
+| [magpie/internal/provider/routing.go](../../magpie/internal/provider/routing.go) | 110 | [1](magpie_internal_provider_routing.go-572e4bca-1.md) [2](magpie_internal_provider_routing.go-572e4bca-2.md) |
+| [magpie/internal/provider/rulecond.go](../../magpie/internal/provider/rulecond.go) | 23 | [1](magpie_internal_provider_rulecond.go-5114d652-1.md) |
+| [magpie/internal/provider/rulefolder.go](../../magpie/internal/provider/rulefolder.go) | 10 | [1](magpie_internal_provider_rulefolder.go-a03b4842-1.md) |
+| [magpie/internal/provider/ruleparse.go](../../magpie/internal/provider/ruleparse.go) | 17 | [1](magpie_internal_provider_ruleparse.go-9d3c4a77-1.md) |
+| [magpie/internal/provider/search_api.go](../../magpie/internal/provider/search_api.go) | 62 | [1](magpie_internal_provider_search_api.go-ab4ff0dd-1.md) |
+| [magpie/internal/provider/search_signin.go](../../magpie/internal/provider/search_signin.go) | 2 | [1](magpie_internal_provider_search_signin.go-98e41670-1.md) |
 | [magpie/internal/provider/sentbody.go](../../magpie/internal/provider/sentbody.go) | 10 | [1](magpie_internal_provider_sentbody.go-6f5da547-1.md) |
 | [magpie/internal/provider/served.go](../../magpie/internal/provider/served.go) | 32 | [1](magpie_internal_provider_served.go-3cb1add8-1.md) |
 | [magpie/internal/provider/session_identity.go](../../magpie/internal/provider/session_identity.go) | 17 | [1](magpie_internal_provider_session_identity.go-33e60a4f-1.md) |
 | [magpie/internal/provider/side_logins.go](../../magpie/internal/provider/side_logins.go) | 25 | [1](magpie_internal_provider_side_logins.go-25f79815-1.md) |
-| [magpie/internal/provider/signin.go](../../magpie/internal/provider/signin.go) | 114 | [1](magpie_internal_provider_signin.go-e94adcb5-1.md) [2](magpie_internal_provider_signin.go-e94adcb5-2.md) |
-| [magpie/internal/provider/signin_revoked.go](../../magpie/internal/provider/signin_revoked.go) | 20 | [1](magpie_internal_provider_signin_revoked.go-9aba575f-1.md) |
-| [magpie/internal/provider/stepfun_plan.go](../../magpie/internal/provider/stepfun_plan.go) | 77 | [1](magpie_internal_provider_stepfun_plan.go-aa45c8ee-1.md) |
+| [magpie/internal/provider/sign_in_moves.go](../../magpie/internal/provider/sign_in_moves.go) | 6 | [1](magpie_internal_provider_sign_in_moves.go-30172a46-1.md) |
+| [magpie/internal/provider/signin.go](../../magpie/internal/provider/signin.go) | 116 | [1](magpie_internal_provider_signin.go-e94adcb5-1.md) [2](magpie_internal_provider_signin.go-e94adcb5-2.md) |
+| [magpie/internal/provider/signin_alert.go](../../magpie/internal/provider/signin_alert.go) | 24 | [1](magpie_internal_provider_signin_alert.go-caa2b600-1.md) |
+| [magpie/internal/provider/signin_pasted.go](../../magpie/internal/provider/signin_pasted.go) | 7 | [1](magpie_internal_provider_signin_pasted.go-90d35c51-1.md) |
+| [magpie/internal/provider/signin_revoked.go](../../magpie/internal/provider/signin_revoked.go) | 22 | [1](magpie_internal_provider_signin_revoked.go-9aba575f-1.md) |
+| [magpie/internal/provider/signins_carry.go](../../magpie/internal/provider/signins_carry.go) | 56 | [1](magpie_internal_provider_signins_carry.go-f54d1957-1.md) |
+| [magpie/internal/provider/socket.go](../../magpie/internal/provider/socket.go) | 11 | [1](magpie_internal_provider_socket.go-f742a4ce-1.md) |
+| [magpie/internal/provider/statusline.go](../../magpie/internal/provider/statusline.go) | 6 | [1](magpie_internal_provider_statusline.go-36c56cf0-1.md) |
+| [magpie/internal/provider/stepfun_plan.go](../../magpie/internal/provider/stepfun_plan.go) | 78 | [1](magpie_internal_provider_stepfun_plan.go-aa45c8ee-1.md) |
+| [magpie/internal/provider/stream_required.go](../../magpie/internal/provider/stream_required.go) | 4 | [1](magpie_internal_provider_stream_required.go-e7118204-1.md) |
 | [magpie/internal/provider/sub2api_usage.go](../../magpie/internal/provider/sub2api_usage.go) | 10 | [1](magpie_internal_provider_sub2api_usage.go-232f5962-1.md) |
-| [magpie/internal/provider/subscription_usage.go](../../magpie/internal/provider/subscription_usage.go) | 188 | [1](magpie_internal_provider_subscription_usage.go-2539481f-1.md) [2](magpie_internal_provider_subscription_usage.go-2539481f-2.md) |
-| [magpie/internal/provider/tencent_usage.go](../../magpie/internal/provider/tencent_usage.go) | 52 | [1](magpie_internal_provider_tencent_usage.go-806fc7e5-1.md) |
-| [magpie/internal/provider/test.go](../../magpie/internal/provider/test.go) | 92 | [1](magpie_internal_provider_test.go-f965572b-1.md) |
-| [magpie/internal/provider/test_as.go](../../magpie/internal/provider/test_as.go) | 20 | [1](magpie_internal_provider_test_as.go-16bfb3ef-1.md) |
+| [magpie/internal/provider/subscription_usage.go](../../magpie/internal/provider/subscription_usage.go) | 215 | [1](magpie_internal_provider_subscription_usage.go-2539481f-1.md) [2](magpie_internal_provider_subscription_usage.go-2539481f-2.md) [3](magpie_internal_provider_subscription_usage.go-2539481f-3.md) |
+| [magpie/internal/provider/tencent_usage.go](../../magpie/internal/provider/tencent_usage.go) | 54 | [1](magpie_internal_provider_tencent_usage.go-806fc7e5-1.md) |
+| [magpie/internal/provider/test.go](../../magpie/internal/provider/test.go) | 131 | [1](magpie_internal_provider_test.go-f965572b-1.md) [2](magpie_internal_provider_test.go-f965572b-2.md) |
+| [magpie/internal/provider/test_as.go](../../magpie/internal/provider/test_as.go) | 21 | [1](magpie_internal_provider_test_as.go-16bfb3ef-1.md) |
+| [magpie/internal/provider/token_field.go](../../magpie/internal/provider/token_field.go) | 8 | [1](magpie_internal_provider_token_field.go-d9f5adc7-1.md) |
 | [magpie/internal/provider/trae_checkin.go](../../magpie/internal/provider/trae_checkin.go) | 40 | [1](magpie_internal_provider_trae_checkin.go-08b020be-1.md) |
-| [magpie/internal/provider/translated_probe.go](../../magpie/internal/provider/translated_probe.go) | 4 | [1](magpie_internal_provider_translated_probe.go-b0faaa47-1.md) |
-| [magpie/internal/provider/ultra.go](../../magpie/internal/provider/ultra.go) | 4 | [1](magpie_internal_provider_ultra.go-85e0e144-1.md) |
+| [magpie/internal/provider/translated_probe.go](../../magpie/internal/provider/translated_probe.go) | 5 | [1](magpie_internal_provider_translated_probe.go-b0faaa47-1.md) |
+| [magpie/internal/provider/ultra.go](../../magpie/internal/provider/ultra.go) | 5 | [1](magpie_internal_provider_ultra.go-85e0e144-1.md) |
 | [magpie/internal/provider/unredacted.go](../../magpie/internal/provider/unredacted.go) | 2 | [1](magpie_internal_provider_unredacted.go-8dc0b49e-1.md) |
-| [magpie/internal/provider/usagealias.go](../../magpie/internal/provider/usagealias.go) | 14 | [1](magpie_internal_provider_usagealias.go-d2181afb-1.md) |
+| [magpie/internal/provider/usagealias.go](../../magpie/internal/provider/usagealias.go) | 22 | [1](magpie_internal_provider_usagealias.go-d2181afb-1.md) |
 | [magpie/internal/provider/user_agent.go](../../magpie/internal/provider/user_agent.go) | 2 | [1](magpie_internal_provider_user_agent.go-684d3f11-1.md) |
 | [magpie/internal/provider/version.go](../../magpie/internal/provider/version.go) | 5 | [1](magpie_internal_provider_version.go-2dde967d-1.md) |
-| [magpie/internal/provider/vertex.go](../../magpie/internal/provider/vertex.go) | 75 | [1](magpie_internal_provider_vertex.go-e68f4752-1.md) |
-| [magpie/internal/provider/visible.go](../../magpie/internal/provider/visible.go) | 26 | [1](magpie_internal_provider_visible.go-11f2dcdc-1.md) |
+| [magpie/internal/provider/vertex.go](../../magpie/internal/provider/vertex.go) | 89 | [1](magpie_internal_provider_vertex.go-e68f4752-1.md) |
+| [magpie/internal/provider/visible.go](../../magpie/internal/provider/visible.go) | 31 | [1](magpie_internal_provider_visible.go-11f2dcdc-1.md) |
 | [magpie/internal/provider/volcengine_usage.go](../../magpie/internal/provider/volcengine_usage.go) | 56 | [1](magpie_internal_provider_volcengine_usage.go-07134b19-1.md) |
-| [magpie/internal/provider/warmup_daily.go](../../magpie/internal/provider/warmup_daily.go) | 10 | [1](magpie_internal_provider_warmup_daily.go-614e8ef9-1.md) |
-| [magpie/internal/provider/window_holds.go](../../magpie/internal/provider/window_holds.go) | 20 | [1](magpie_internal_provider_window_holds.go-a46f1078-1.md) |
-| [magpie/internal/provider/window_pace.go](../../magpie/internal/provider/window_pace.go) | 2 | [1](magpie_internal_provider_window_pace.go-41165c0a-1.md) |
-| [magpie/internal/provider/workbuddy.go](../../magpie/internal/provider/workbuddy.go) | 73 | [1](magpie_internal_provider_workbuddy.go-c73cfb8d-1.md) |
-| [magpie/internal/provider/workbuddy_checkin.go](../../magpie/internal/provider/workbuddy_checkin.go) | 105 | [1](magpie_internal_provider_workbuddy_checkin.go-bc373479-1.md) [2](magpie_internal_provider_workbuddy_checkin.go-bc373479-2.md) |
-| [magpie/internal/provider/workplace.go](../../magpie/internal/provider/workplace.go) | 3 | [1](magpie_internal_provider_workplace.go-844a60e7-1.md) |
-| [magpie/internal/provider/zcode.go](../../magpie/internal/provider/zcode.go) | 58 | [1](magpie_internal_provider_zcode.go-0433b6ea-1.md) |
-| [magpie/internal/provider/zcode_device.go](../../magpie/internal/provider/zcode_device.go) | 7 | [1](magpie_internal_provider_zcode_device.go-2933d02f-1.md) |
-| [magpie/internal/provider/zcode_team.go](../../magpie/internal/provider/zcode_team.go) | 23 | [1](magpie_internal_provider_zcode_team.go-64ed3e77-1.md) |
-| [magpie/internal/provider/zed.go](../../magpie/internal/provider/zed.go) | 15 | [1](magpie_internal_provider_zed.go-592277fc-1.md) |
-| [magpie/internal/provider/zed_body.go](../../magpie/internal/provider/zed_body.go) | 5 | [1](magpie_internal_provider_zed_body.go-1cfc52b1-1.md) |
-| [magpie/internal/provider/zhipu_coding.go](../../magpie/internal/provider/zhipu_coding.go) | 10 | [1](magpie_internal_provider_zhipu_coding.go-38676fae-1.md) |
-| [magpie/internal/provider/zhipu_envelope.go](../../magpie/internal/provider/zhipu_envelope.go) | 9 | [1](magpie_internal_provider_zhipu_envelope.go-55fd1aca-1.md) |
-| [magpie/internal/qoder/endpoints.go](../../magpie/internal/qoder/endpoints.go) | 23 | [1](magpie_internal_qoder_endpoints.go-c5deb32b-1.md) |
+| [magpie/internal/provider/wallet_spend.go](../../magpie/internal/provider/wallet_spend.go) | 13 | [1](magpie_internal_provider_wallet_spend.go-3d38116f-1.md) |

@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/market.go) · page 1/2
 
-Source SHA-256: 42c699ecb31eac8506ff7f16dcc3db02a2ac8305922dc9357c948a973fd23975
+Source SHA-256: 118f62bfe5346a8d76409c35749b74a7698016a7b61d162ba42ca3dfb3ee3b0e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| builtinMarket | var_spec |  | [31](../../magpie/internal/plugin/market.go#L31) |
-| MarketURL | const_spec |  | [35](../../magpie/internal/plugin/market.go#L35) |
-| Listing | type_spec |  | [38](../../magpie/internal/plugin/market.go#L38) |
-| Package | field_declaration | Listing | [39](../../magpie/internal/plugin/market.go#L39) |
-| Name | field_declaration | Listing | [40](../../magpie/internal/plugin/market.go#L40) |
-| Icon | field_declaration | Listing | [41](../../magpie/internal/plugin/market.go#L41) |
-| Providers | field_declaration | Listing | [42](../../magpie/internal/plugin/market.go#L42) |
-| Community | field_declaration | Listing | [43](../../magpie/internal/plugin/market.go#L43) |
-| Replaces | field_declaration | Listing | [44](../../magpie/internal/plugin/market.go#L44) |
-| Kind | field_declaration | Listing | [45](../../magpie/internal/plugin/market.go#L45) |
-| Summary | field_declaration | Listing | [46](../../magpie/internal/plugin/market.go#L46) |
-| registry | type_spec |  | [49](../../magpie/internal/plugin/market.go#L49) |
-| Plugins | field_declaration | registry | [50](../../magpie/internal/plugin/market.go#L50) |
-| NPM | type_spec |  | [54](../../magpie/internal/plugin/market.go#L54) |
-| Version | field_declaration | NPM | [55](../../magpie/internal/plugin/market.go#L55) |
-| Description | field_declaration | NPM | [56](../../magpie/internal/plugin/market.go#L56) |
-| Publisher | field_declaration | NPM | [57](../../magpie/internal/plugin/market.go#L57) |
-| License | field_declaration | NPM | [58](../../magpie/internal/plugin/market.go#L58) |
-| Homepage | field_declaration | NPM | [59](../../magpie/internal/plugin/market.go#L59) |
-| Repository | field_declaration | NPM | [60](../../magpie/internal/plugin/market.go#L60) |
-| Weekly | field_declaration | NPM | [61](../../magpie/internal/plugin/market.go#L61) |
-| Icon | field_declaration | NPM | [65](../../magpie/internal/plugin/market.go#L65) |
-| ownIcon | function_declaration |  | [71](../../magpie/internal/plugin/market.go#L71) |
-| marketMu | var_spec |  | [83](../../magpie/internal/plugin/market.go#L83) |
-| marketList | var_spec |  | [84](../../magpie/internal/plugin/market.go#L84) |
-| marketAt | var_spec |  | [85](../../magpie/internal/plugin/market.go#L85) |
-| marketErr | var_spec |  | [86](../../magpie/internal/plugin/market.go#L86) |
-| npmMu | var_spec |  | [87](../../magpie/internal/plugin/market.go#L87) |
-| npmCache | var_spec |  | [88](../../magpie/internal/plugin/market.go#L88) |
-| npmEntry | type_spec |  | [93](../../magpie/internal/plugin/market.go#L93) |
-| Info | field_declaration | npmEntry | [94](../../magpie/internal/plugin/market.go#L94) |
-| At | field_declaration | npmEntry | [95](../../magpie/internal/plugin/market.go#L95) |
-| npmRegistry | var_spec |  | [101](../../magpie/internal/plugin/market.go#L101) |
-| npmDownloads | var_spec |  | [102](../../magpie/internal/plugin/market.go#L102) |
-| npmAtOnce | var_spec |  | [103](../../magpie/internal/plugin/market.go#L103) |
-| npmEach | var_spec |  | [104](../../magpie/internal/plugin/market.go#L104) |
-| npmAll | var_spec |  | [105](../../magpie/internal/plugin/market.go#L105) |
-| npmCacheFile | function_declaration |  | [108](../../magpie/internal/plugin/market.go#L108) |
-| npmCached | function_declaration |  | [111](../../magpie/internal/plugin/market.go#L111) |
-| ReloadInfo | function_declaration |  | [123](../../magpie/internal/plugin/market.go#L123) |
-| saveNPM | function_declaration |  | [130](../../magpie/internal/plugin/market.go#L130) |
-| InfoCached | function_declaration |  | [144](../../magpie/internal/plugin/market.go#L144) |
-| marketCache | function_declaration |  | [157](../../magpie/internal/plugin/market.go#L157) |
-| parseMarket | function_declaration |  | [159](../../magpie/internal/plugin/market.go#L159) |
-| r | var_spec | parseMarket | [160](../../magpie/internal/plugin/market.go#L160) |
-| Market | function_declaration |  | [183](../../magpie/internal/plugin/market.go#L183) |
-| market | function_declaration |  | [192](../../magpie/internal/plugin/market.go#L192) |
-| RefreshMarket | function_declaration |  | [235](../../magpie/internal/plugin/market.go#L235) |
-| fetchJSON | function_declaration |  | [241](../../magpie/internal/plugin/market.go#L241) |
-| fetchJSONFaithful | function_declaration |  | [245](../../magpie/internal/plugin/market.go#L245) |
-| fetchJSONFrom | function_declaration |  | [249](../../magpie/internal/plugin/market.go#L249) |
-| errNotFound | var_spec |  | [286](../../magpie/internal/plugin/market.go#L286) |
-| sameHost | function_declaration |  | [289](../../magpie/internal/plugin/market.go#L289) |
-| statusError | type_spec |  | [296](../../magpie/internal/plugin/market.go#L296) |
-| URL | field_declaration | statusError | [297](../../magpie/internal/plugin/market.go#L297) |
-| Code | field_declaration | statusError | [298](../../magpie/internal/plugin/market.go#L298) |
-| Status | field_declaration | statusError | [299](../../magpie/internal/plugin/market.go#L299) |
-| Error | method_declaration |  | [302](../../magpie/internal/plugin/market.go#L302) |
-| npmPath | function_declaration |  | [305](../../magpie/internal/plugin/market.go#L305) |
-| Info | function_declaration |  | [312](../../magpie/internal/plugin/market.go#L312) |
-| mu | var_spec | Info | [314](../../magpie/internal/plugin/market.go#L314) |
-| wg | var_spec | Info | [315](../../magpie/internal/plugin/market.go#L315) |
-| npmLatest | type_spec |  | [375](../../magpie/internal/plugin/market.go#L375) |
-| Version | field_declaration | npmLatest | [376](../../magpie/internal/plugin/market.go#L376) |
-| Description | field_declaration | npmLatest | [377](../../magpie/internal/plugin/market.go#L377) |
-| License | field_declaration | npmLatest | [378](../../magpie/internal/plugin/market.go#L378) |
-| Homepage | field_declaration | npmLatest | [379](../../magpie/internal/plugin/market.go#L379) |
-| Repository | field_declaration | npmLatest | [380](../../magpie/internal/plugin/market.go#L380) |
-| Author | field_declaration | npmLatest | [381](../../magpie/internal/plugin/market.go#L381) |
-| Main | field_declaration | npmLatest | [383](../../magpie/internal/plugin/market.go#L383) |
-| Exports | field_declaration | npmLatest | [384](../../magpie/internal/plugin/market.go#L384) |
-| NPMUser | field_declaration | npmLatest | [385](../../magpie/internal/plugin/market.go#L385) |
-| Name | field_declaration | npmLatest::NPMUser | [386](../../magpie/internal/plugin/market.go#L386) |
-| Magpie | field_declaration | npmLatest | [388](../../magpie/internal/plugin/market.go#L388) |
-| Icon | field_declaration | npmLatest::Magpie | [389](../../magpie/internal/plugin/market.go#L389) |
-| person | function_declaration |  | [393](../../magpie/internal/plugin/market.go#L393) |
-| repoURL | function_declaration |  | [408](../../magpie/internal/plugin/market.go#L408) |
-| npmInfo | function_declaration |  | [428](../../magpie/internal/plugin/market.go#L428) |
-| npmAsk | function_declaration |  | [438](../../magpie/internal/plugin/market.go#L438) |
-| info | var_spec | npmAsk | [439](../../magpie/internal/plugin/market.go#L439) |
-| wg | var_spec | npmAsk | [440](../../magpie/internal/plugin/market.go#L440) |
-| latestErr | var_spec | npmAsk | [441](../../magpie/internal/plugin/market.go#L441) |
-| l | var_spec | npmAsk | [450](../../magpie/internal/plugin/market.go#L450) |
-| weekly | var_spec | npmAsk | [457](../../magpie/internal/plugin/market.go#L457) |
-| d | var_spec | npmAsk | [464](../../magpie/internal/plugin/market.go#L464) |
-| Downloads | field_declaration | npmAsk::d | [464](../../magpie/internal/plugin/market.go#L464) |
-| npmOf | function_declaration |  | [484](../../magpie/internal/plugin/market.go#L484) |
-| Hit | type_spec |  | [497](../../magpie/internal/plugin/market.go#L497) |
-| Package | field_declaration | Hit | [498](../../magpie/internal/plugin/market.go#L498) |
-| Search | function_declaration |  | [505](../../magpie/internal/plugin/market.go#L505) |
-| wg | var_spec | Search | [513](../../magpie/internal/plugin/market.go#L513) |
-| oc | var_spec | Search | [514](../../magpie/internal/plugin/market.go#L514) |
-| ocE | var_spec | Search | [515](../../magpie/internal/plugin/market.go#L515) |
-| searchNPM | function_declaration |  | [550](../../magpie/internal/plugin/market.go#L550) |
-| r | var_spec | searchNPM | [556](../../magpie/internal/plugin/market.go#L556) |
-| Objects | field_declaration | searchNPM::r | [557](../../magpie/internal/plugin/market.go#L557) |
-| Package | field_declaration | searchNPM::r::Objects | [558](../../magpie/internal/plugin/market.go#L558) |
-| Name | field_declaration | searchNPM::r::Objects::Package | [559](../../magpie/internal/plugin/market.go#L559) |
-| Version | field_declaration | searchNPM::r::Objects::Package | [560](../../magpie/internal/plugin/market.go#L560) |
-| Description | field_declaration | searchNPM::r::Objects::Package | [561](../../magpie/internal/plugin/market.go#L561) |
+| builtinMarket | var_spec |  | [35](../../magpie/internal/plugin/market.go#L35) |
+| builtinParsed | var_spec |  | [38](../../magpie/internal/plugin/market.go#L38) |
+| MarketURL | const_spec |  | [45](../../magpie/internal/plugin/market.go#L45) |
+| Listing | type_spec |  | [52](../../magpie/internal/plugin/market.go#L52) |
+| Package | field_declaration | Listing | [53](../../magpie/internal/plugin/market.go#L53) |
+| Name | field_declaration | Listing | [54](../../magpie/internal/plugin/market.go#L54) |
+| Icon | field_declaration | Listing | [55](../../magpie/internal/plugin/market.go#L55) |
+| Providers | field_declaration | Listing | [56](../../magpie/internal/plugin/market.go#L56) |
+| Community | field_declaration | Listing | [57](../../magpie/internal/plugin/market.go#L57) |
+| Replaces | field_declaration | Listing | [58](../../magpie/internal/plugin/market.go#L58) |
+| Kind | field_declaration | Listing | [59](../../magpie/internal/plugin/market.go#L59) |
+| Summary | field_declaration | Listing | [60](../../magpie/internal/plugin/market.go#L60) |
+| registry | type_spec |  | [63](../../magpie/internal/plugin/market.go#L63) |
+| Plugins | field_declaration | registry | [64](../../magpie/internal/plugin/market.go#L64) |
+| NPM | type_spec |  | [68](../../magpie/internal/plugin/market.go#L68) |
+| Version | field_declaration | NPM | [69](../../magpie/internal/plugin/market.go#L69) |
+| Description | field_declaration | NPM | [70](../../magpie/internal/plugin/market.go#L70) |
+| Publisher | field_declaration | NPM | [71](../../magpie/internal/plugin/market.go#L71) |
+| License | field_declaration | NPM | [72](../../magpie/internal/plugin/market.go#L72) |
+| Homepage | field_declaration | NPM | [73](../../magpie/internal/plugin/market.go#L73) |
+| Repository | field_declaration | NPM | [74](../../magpie/internal/plugin/market.go#L74) |
+| Weekly | field_declaration | NPM | [75](../../magpie/internal/plugin/market.go#L75) |
+| Icon | field_declaration | NPM | [79](../../magpie/internal/plugin/market.go#L79) |
+| ownIcon | function_declaration |  | [85](../../magpie/internal/plugin/market.go#L85) |
+| marketMu | var_spec |  | [97](../../magpie/internal/plugin/market.go#L97) |
+| marketList | var_spec |  | [98](../../magpie/internal/plugin/market.go#L98) |
+| marketAt | var_spec |  | [99](../../magpie/internal/plugin/market.go#L99) |
+| marketErr | var_spec |  | [100](../../magpie/internal/plugin/market.go#L100) |
+| npmMu | var_spec |  | [101](../../magpie/internal/plugin/market.go#L101) |
+| npmCache | var_spec |  | [102](../../magpie/internal/plugin/market.go#L102) |
+| npmEntry | type_spec |  | [107](../../magpie/internal/plugin/market.go#L107) |
+| Info | field_declaration | npmEntry | [108](../../magpie/internal/plugin/market.go#L108) |
+| At | field_declaration | npmEntry | [109](../../magpie/internal/plugin/market.go#L109) |
+| npmRegistry | var_spec |  | [115](../../magpie/internal/plugin/market.go#L115) |
+| npmDownloads | var_spec |  | [116](../../magpie/internal/plugin/market.go#L116) |
+| npmAtOnce | var_spec |  | [117](../../magpie/internal/plugin/market.go#L117) |
+| npmEach | var_spec |  | [118](../../magpie/internal/plugin/market.go#L118) |
+| npmAll | var_spec |  | [119](../../magpie/internal/plugin/market.go#L119) |
+| npmCacheFile | function_declaration |  | [122](../../magpie/internal/plugin/market.go#L122) |
+| npmCached | function_declaration |  | [125](../../magpie/internal/plugin/market.go#L125) |
+| ReloadInfo | function_declaration |  | [137](../../magpie/internal/plugin/market.go#L137) |
+| saveNPM | function_declaration |  | [144](../../magpie/internal/plugin/market.go#L144) |
+| InfoCached | function_declaration |  | [158](../../magpie/internal/plugin/market.go#L158) |
+| missingStale | method_declaration |  | [178](../../magpie/internal/plugin/market.go#L178) |
+| marketCache | function_declaration |  | [182](../../magpie/internal/plugin/market.go#L182) |
+| parseMarket | function_declaration |  | [184](../../magpie/internal/plugin/market.go#L184) |
+| r | var_spec | parseMarket | [185](../../magpie/internal/plugin/market.go#L185) |
+| Community | function_declaration |  | [209](../../magpie/internal/plugin/market.go#L209) |
+| Market | function_declaration |  | [221](../../magpie/internal/plugin/market.go#L221) |
+| market | function_declaration |  | [230](../../magpie/internal/plugin/market.go#L230) |
+| RefreshMarket | function_declaration |  | [273](../../magpie/internal/plugin/market.go#L273) |
+| fetchJSON | function_declaration |  | [279](../../magpie/internal/plugin/market.go#L279) |
+| fetchJSONFaithful | function_declaration |  | [283](../../magpie/internal/plugin/market.go#L283) |
+| fetchJSONFrom | function_declaration |  | [287](../../magpie/internal/plugin/market.go#L287) |
+| errNotFound | var_spec |  | [326](../../magpie/internal/plugin/market.go#L326) |
+| sameHost | function_declaration |  | [329](../../magpie/internal/plugin/market.go#L329) |
+| statusError | type_spec |  | [336](../../magpie/internal/plugin/market.go#L336) |
+| URL | field_declaration | statusError | [337](../../magpie/internal/plugin/market.go#L337) |
+| Code | field_declaration | statusError | [338](../../magpie/internal/plugin/market.go#L338) |
+| Status | field_declaration | statusError | [339](../../magpie/internal/plugin/market.go#L339) |
+| Error | method_declaration |  | [342](../../magpie/internal/plugin/market.go#L342) |
+| npmPath | function_declaration |  | [345](../../magpie/internal/plugin/market.go#L345) |
+| Info | function_declaration |  | [352](../../magpie/internal/plugin/market.go#L352) |
+| infoWithin | function_declaration |  | [358](../../magpie/internal/plugin/market.go#L358) |
+| mu | var_spec | infoWithin | [360](../../magpie/internal/plugin/market.go#L360) |
+| wg | var_spec | infoWithin | [361](../../magpie/internal/plugin/market.go#L361) |
+| npmLatest | type_spec |  | [424](../../magpie/internal/plugin/market.go#L424) |
+| Version | field_declaration | npmLatest | [425](../../magpie/internal/plugin/market.go#L425) |
+| Description | field_declaration | npmLatest | [426](../../magpie/internal/plugin/market.go#L426) |
+| License | field_declaration | npmLatest | [427](../../magpie/internal/plugin/market.go#L427) |
+| Homepage | field_declaration | npmLatest | [428](../../magpie/internal/plugin/market.go#L428) |
+| Repository | field_declaration | npmLatest | [429](../../magpie/internal/plugin/market.go#L429) |
+| Author | field_declaration | npmLatest | [430](../../magpie/internal/plugin/market.go#L430) |
+| Main | field_declaration | npmLatest | [432](../../magpie/internal/plugin/market.go#L432) |
+| Exports | field_declaration | npmLatest | [433](../../magpie/internal/plugin/market.go#L433) |
+| NPMUser | field_declaration | npmLatest | [434](../../magpie/internal/plugin/market.go#L434) |
+| Name | field_declaration | npmLatest::NPMUser | [435](../../magpie/internal/plugin/market.go#L435) |
+| Magpie | field_declaration | npmLatest | [437](../../magpie/internal/plugin/market.go#L437) |
+| Icon | field_declaration | npmLatest::Magpie | [438](../../magpie/internal/plugin/market.go#L438) |
+| Name | field_declaration | npmLatest::Magpie | [439](../../magpie/internal/plugin/market.go#L439) |
+| Summary | field_declaration | npmLatest::Magpie | [440](../../magpie/internal/plugin/market.go#L440) |
+| person | function_declaration |  | [444](../../magpie/internal/plugin/market.go#L444) |
+| repoURL | function_declaration |  | [459](../../magpie/internal/plugin/market.go#L459) |
+| npmInfo | function_declaration |  | [479](../../magpie/internal/plugin/market.go#L479) |
+| npmAsk | function_declaration |  | [489](../../magpie/internal/plugin/market.go#L489) |
+| info | var_spec | npmAsk | [490](../../magpie/internal/plugin/market.go#L490) |
+| wg | var_spec | npmAsk | [491](../../magpie/internal/plugin/market.go#L491) |
+| latestErr | var_spec | npmAsk | [492](../../magpie/internal/plugin/market.go#L492) |
+| l | var_spec | npmAsk | [501](../../magpie/internal/plugin/market.go#L501) |
+| weekly | var_spec | npmAsk | [508](../../magpie/internal/plugin/market.go#L508) |
+| d | var_spec | npmAsk | [515](../../magpie/internal/plugin/market.go#L515) |
+| Downloads | field_declaration | npmAsk::d | [515](../../magpie/internal/plugin/market.go#L515) |
+| npmOf | function_declaration |  | [542](../../magpie/internal/plugin/market.go#L542) |
+| Hit | type_spec |  | [555](../../magpie/internal/plugin/market.go#L555) |
+| Package | field_declaration | Hit | [556](../../magpie/internal/plugin/market.go#L556) |
+| Search | function_declaration |  | [563](../../magpie/internal/plugin/market.go#L563) |
+| wg | var_spec | Search | [571](../../magpie/internal/plugin/market.go#L571) |
+| oc | var_spec | Search | [572](../../magpie/internal/plugin/market.go#L572) |
+| ocE | var_spec | Search | [573](../../magpie/internal/plugin/market.go#L573) |
+| searchNPM | function_declaration |  | [608](../../magpie/internal/plugin/market.go#L608) |

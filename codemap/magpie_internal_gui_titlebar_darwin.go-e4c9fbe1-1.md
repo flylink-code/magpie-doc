@@ -4,10 +4,10 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/titlebar_darwin.go) · page 1/1
 
-Source SHA-256: a2b0fe170a72c447d1242ede356304cb0a71346318ce45f41901dae91356fc97
+Source SHA-256: 6d01506de67d2995eca07c061e40ce4c86a5b12ccf7384750753489d9169a917
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| plainTitlebar | function_declaration |  | [208](../../magpie/internal/gui/titlebar_darwin.go#L208) |
-| nameWindow | function_declaration |  | [216](../../magpie/internal/gui/titlebar_darwin.go#L216) |
-| ownFrame | function_declaration |  | [218](../../magpie/internal/gui/titlebar_darwin.go#L218) |
+| plainTitlebar | function_declaration |  | [234](../../magpie/internal/gui/titlebar_darwin.go#L234) |
+| nameWindow | function_declaration |  | [242](../../magpie/internal/gui/titlebar_darwin.go#L242) |
+| ownFrame | function_declaration |  | [244](../../magpie/internal/gui/titlebar_darwin.go#L244) |

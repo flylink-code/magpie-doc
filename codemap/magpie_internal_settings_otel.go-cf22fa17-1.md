@@ -4,20 +4,20 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/settings/otel.go) · page 1/1
 
-Source SHA-256: 8759f6bb7a54cfb55935368defda4025cc82f353c3293c28a36d94ea57ae6531
+Source SHA-256: 5d31696492d0703c82af8d5963f20acb95427af2fd6fe830abd87b6c4caf4adc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| OTel | type_spec |  | [14](../../magpie/internal/settings/otel.go#L14) |
-| Enabled | field_declaration | OTel | [15](../../magpie/internal/settings/otel.go#L15) |
-| Endpoint | field_declaration | OTel | [16](../../magpie/internal/settings/otel.go#L16) |
-| Headers | field_declaration | OTel | [17](../../magpie/internal/settings/otel.go#L17) |
-| Metrics | field_declaration | OTel | [18](../../magpie/internal/settings/otel.go#L18) |
-| Sessions | field_declaration | OTel | [20](../../magpie/internal/settings/otel.go#L20) |
-| Bodies | field_declaration | OTel | [24](../../magpie/internal/settings/otel.go#L24) |
-| BodiesWhole | field_declaration | OTel | [29](../../magpie/internal/settings/otel.go#L29) |
-| otelHeaderName | var_spec |  | [32](../../magpie/internal/settings/otel.go#L32) |
-| Check | method_declaration |  | [34](../../magpie/internal/settings/otel.go#L34) |
-| OTelExport | function_declaration |  | [59](../../magpie/internal/settings/otel.go#L59) |
-| name | field_declaration | OTelExport | [62](../../magpie/internal/settings/otel.go#L62) |
-| dst | field_declaration | OTelExport | [63](../../magpie/internal/settings/otel.go#L63) |
+| OTel | type_spec |  | [15](../../magpie/internal/settings/otel.go#L15) |
+| Enabled | field_declaration | OTel | [16](../../magpie/internal/settings/otel.go#L16) |
+| Endpoint | field_declaration | OTel | [17](../../magpie/internal/settings/otel.go#L17) |
+| Headers | field_declaration | OTel | [18](../../magpie/internal/settings/otel.go#L18) |
+| Metrics | field_declaration | OTel | [19](../../magpie/internal/settings/otel.go#L19) |
+| Sessions | field_declaration | OTel | [21](../../magpie/internal/settings/otel.go#L21) |
+| Bodies | field_declaration | OTel | [25](../../magpie/internal/settings/otel.go#L25) |
+| BodiesWhole | field_declaration | OTel | [30](../../magpie/internal/settings/otel.go#L30) |
+| otelHeaderName | var_spec |  | [33](../../magpie/internal/settings/otel.go#L33) |
+| Check | method_declaration |  | [35](../../magpie/internal/settings/otel.go#L35) |
+| OTelExport | function_declaration |  | [60](../../magpie/internal/settings/otel.go#L60) |
+| name | field_declaration | OTelExport | [63](../../magpie/internal/settings/otel.go#L63) |
+| dst | field_declaration | OTelExport | [64](../../magpie/internal/settings/otel.go#L64) |

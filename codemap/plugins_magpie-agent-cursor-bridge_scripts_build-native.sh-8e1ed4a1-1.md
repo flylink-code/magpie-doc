@@ -4,7 +4,7 @@
 
 [Module](bridge-scripts.md) · [Source](../../plugins/magpie-agent-cursor-bridge/scripts/build-native.sh) · page 1/1
 
-Source SHA-256: 332b6faa70fbf7cf872ca59724849eea2c155fe846f425883ce648179670e92d
+Source SHA-256: fd33e3aa4db50f4105cf98191235fabeda2e9af7a88292a7637c34528e98b9cc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

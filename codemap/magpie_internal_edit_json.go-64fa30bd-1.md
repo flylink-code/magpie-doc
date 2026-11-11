@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/json.go) · page 1/1
 
-Source SHA-256: ce8c88e92c8ef3085cd144416b227b8610a0053e1d4462c4d9485eade2651af7
+Source SHA-256: 7cedce90994a993a25275e967079f261a51ddb20eecd18729c8b122effc48642
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,21 +14,22 @@ Source SHA-256: ce8c88e92c8ef3085cd144416b227b8610a0053e1d4462c4d9485eade2651af7
 | GetJSON | function_declaration |  | [20](../../magpie/internal/edit/json.go#L20) |
 | GetJSONRaw | function_declaration |  | [35](../../magpie/internal/edit/json.go#L35) |
 | SetJSON | function_declaration |  | [49](../../magpie/internal/edit/json.go#L49) |
-| keepCRLF | function_declaration |  | [70](../../magpie/internal/edit/json.go#L70) |
-| PatchJSON | function_declaration |  | [81](../../magpie/internal/edit/json.go#L81) |
-| err | var_spec | PatchJSON | [87](../../magpie/internal/edit/json.go#L87) |
-| setJSONBytes | function_declaration |  | [106](../../magpie/internal/edit/json.go#L106) |
-| nest | function_declaration |  | [133](../../magpie/internal/edit/json.go#L133) |
-| splitPath | function_declaration |  | [143](../../magpie/internal/edit/json.go#L143) |
-| parts | var_spec | splitPath | [144](../../magpie/internal/edit/json.go#L144) |
-| unescapeKey | function_declaration |  | [159](../../magpie/internal/edit/json.go#L159) |
-| splice | function_declaration |  | [161](../../magpie/internal/edit/json.go#L161) |
-| insertKey | function_declaration |  | [171](../../magpie/internal/edit/json.go#L171) |
-| marshalAt | function_declaration |  | [205](../../magpie/internal/edit/json.go#L205) |
-| lineIndent | function_declaration |  | [215](../../magpie/internal/edit/json.go#L215) |
-| indentUnit | function_declaration |  | [226](../../magpie/internal/edit/json.go#L226) |
-| matchBrace | function_declaration |  | [241](../../magpie/internal/edit/json.go#L241) |
-| DelJSON | function_declaration |  | [269](../../magpie/internal/edit/json.go#L269) |
-| pastLineEnd | function_declaration |  | [293](../../magpie/internal/edit/json.go#L293) |
-| delJSONBytes | function_declaration |  | [303](../../magpie/internal/edit/json.go#L303) |
-| out | var_spec | delJSONBytes | [336](../../magpie/internal/edit/json.go#L336) |
+| keepCRLF | function_declaration |  | [75](../../magpie/internal/edit/json.go#L75) |
+| PatchJSON | function_declaration |  | [86](../../magpie/internal/edit/json.go#L86) |
+| err | var_spec | PatchJSON | [93](../../magpie/internal/edit/json.go#L93) |
+| setJSONBytes | function_declaration |  | [116](../../magpie/internal/edit/json.go#L116) |
+| nest | function_declaration |  | [143](../../magpie/internal/edit/json.go#L143) |
+| splitPath | function_declaration |  | [153](../../magpie/internal/edit/json.go#L153) |
+| parts | var_spec | splitPath | [154](../../magpie/internal/edit/json.go#L154) |
+| unescapeKey | function_declaration |  | [171](../../magpie/internal/edit/json.go#L171) |
+| b | var_spec | unescapeKey | [175](../../magpie/internal/edit/json.go#L175) |
+| splice | function_declaration |  | [185](../../magpie/internal/edit/json.go#L185) |
+| insertKey | function_declaration |  | [195](../../magpie/internal/edit/json.go#L195) |
+| marshalAt | function_declaration |  | [236](../../magpie/internal/edit/json.go#L236) |
+| lineIndent | function_declaration |  | [246](../../magpie/internal/edit/json.go#L246) |
+| indentUnit | function_declaration |  | [257](../../magpie/internal/edit/json.go#L257) |
+| matchBrace | function_declaration |  | [272](../../magpie/internal/edit/json.go#L272) |
+| DelJSON | function_declaration |  | [300](../../magpie/internal/edit/json.go#L300) |
+| pastLineEnd | function_declaration |  | [330](../../magpie/internal/edit/json.go#L330) |
+| delJSONBytes | function_declaration |  | [340](../../magpie/internal/edit/json.go#L340) |
+| out | var_spec | delJSONBytes | [373](../../magpie/internal/edit/json.go#L373) |

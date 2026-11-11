@@ -4,107 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/draw.go) · page 2/3
 
-Source SHA-256: 800ee4ce15ff4b29e6d7eadcdd3a6baf0bf900d1dce7b704143f8d4ad692e91e
+Source SHA-256: 7091edca7a0e46c7c0647d0f46efd14813eee24f17cbdfa625c17863f36f6802
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| send | method_declaration |  | [1031](../../magpie/internal/gateway/draw.go#L1031) |
-| sendAs | method_declaration |  | [1036](../../magpie/internal/gateway/draw.go#L1036) |
-| sendWith | method_declaration |  | [1041](../../magpie/internal/gateway/draw.go#L1041) |
-| tracked | type_spec |  | [1108](../../magpie/internal/gateway/draw.go#L1108) |
-| r | field_declaration | tracked | [1109](../../magpie/internal/gateway/draw.go#L1109) |
-| last | field_declaration | tracked | [1110](../../magpie/internal/gateway/draw.go#L1110) |
-| Read | method_declaration |  | [1113](../../magpie/internal/gateway/draw.go#L1113) |
-| stalledAt | function_declaration |  | [1126](../../magpie/internal/gateway/draw.go#L1126) |
-| sizeOf | function_declaration |  | [1138](../../magpie/internal/gateway/draw.go#L1138) |
-| vendorMessage | function_declaration |  | [1149](../../magpie/internal/gateway/draw.go#L1149) |
-| e | var_spec | vendorMessage | [1150](../../magpie/internal/gateway/draw.go#L1150) |
-| Error | field_declaration | vendorMessage::e | [1151](../../magpie/internal/gateway/draw.go#L1151) |
-| Errors | field_declaration | vendorMessage::e | [1152](../../magpie/internal/gateway/draw.go#L1152) |
-| Message | field_declaration | vendorMessage::e::Errors | [1153](../../magpie/internal/gateway/draw.go#L1153) |
-| Code | field_declaration | vendorMessage::e | [1155](../../magpie/internal/gateway/draw.go#L1155) |
-| Msg | field_declaration | vendorMessage::e | [1156](../../magpie/internal/gateway/draw.go#L1156) |
-| m | var_spec | vendorMessage | [1167](../../magpie/internal/gateway/draw.go#L1167) |
-| Message | field_declaration | vendorMessage::m | [1168](../../magpie/internal/gateway/draw.go#L1168) |
-| s | var_spec | vendorMessage | [1173](../../magpie/internal/gateway/draw.go#L1173) |
-| errorSaid | function_declaration |  | [1188](../../magpie/internal/gateway/draw.go#L1188) |
-| drawImages | method_declaration |  | [1197](../../magpie/internal/gateway/draw.go#L1197) |
-| body | var_spec | drawImages | [1216](../../magpie/internal/gateway/draw.go#L1216) |
-| ct | var_spec | drawImages | [1217](../../magpie/internal/gateway/draw.go#L1217) |
-| imgs | var_spec | drawImages | [1226](../../magpie/internal/gateway/draw.go#L1226) |
-| imgs | var_spec | drawImages | [1257](../../magpie/internal/gateway/draw.go#L1257) |
-| buf | var_spec | drawImages | [1268](../../magpie/internal/gateway/draw.go#L1268) |
-| drawOpenRouterImages | method_declaration |  | [1316](../../magpie/internal/gateway/draw.go#L1316) |
-| readImagesAnswer | function_declaration |  | [1344](../../magpie/internal/gateway/draw.go#L1344) |
-| res | var_spec | readImagesAnswer | [1345](../../magpie/internal/gateway/draw.go#L1345) |
-| Data | field_declaration | readImagesAnswer::res | [1346](../../magpie/internal/gateway/draw.go#L1346) |
-| B64 | field_declaration | readImagesAnswer::res::Data | [1347](../../magpie/internal/gateway/draw.go#L1347) |
-| URL | field_declaration | readImagesAnswer::res::Data | [1348](../../magpie/internal/gateway/draw.go#L1348) |
-| Revised | field_declaration | readImagesAnswer::res::Data | [1349](../../magpie/internal/gateway/draw.go#L1349) |
-| MediaType | field_declaration | readImagesAnswer::res::Data | [1350](../../magpie/internal/gateway/draw.go#L1350) |
-| OutputFormat | field_declaration | readImagesAnswer::res | [1352](../../magpie/internal/gateway/draw.go#L1352) |
-| Usage | field_declaration | readImagesAnswer::res | [1353](../../magpie/internal/gateway/draw.go#L1353) |
-| Input | field_declaration | readImagesAnswer::res::Usage | [1354](../../magpie/internal/gateway/draw.go#L1354) |
-| Output | field_declaration | readImagesAnswer::res::Usage | [1355](../../magpie/internal/gateway/draw.go#L1355) |
-| Prompt | field_declaration | readImagesAnswer::res::Usage | [1356](../../magpie/internal/gateway/draw.go#L1356) |
-| Completion | field_declaration | readImagesAnswer::res::Usage | [1357](../../magpie/internal/gateway/draw.go#L1357) |
-| fetchPicture | method_declaration |  | [1400](../../magpie/internal/gateway/draw.go#L1400) |
-| inline | function_declaration |  | [1413](../../magpie/internal/gateway/draw.go#L1413) |
-| ImageStall | var_spec |  | [1423](../../magpie/internal/gateway/draw.go#L1423) |
-| ImageLongest | var_spec |  | [1424](../../magpie/internal/gateway/draw.go#L1424) |
-| imageLongest | function_declaration |  | [1429](../../magpie/internal/gateway/draw.go#L1429) |
-| maxImageBytes | const_spec |  | [1432](../../magpie/internal/gateway/draw.go#L1432) |
-| errImageStalled | var_spec |  | [1434](../../magpie/internal/gateway/draw.go#L1434) |
-| FetchImage | function_declaration |  | [1440](../../magpie/internal/gateway/draw.go#L1440) |
-| buf | var_spec | FetchImage | [1476](../../magpie/internal/gateway/draw.go#L1476) |
-| mb | function_declaration |  | [1501](../../magpie/internal/gateway/draw.go#L1501) |
-| extOf | function_declaration |  | [1503](../../magpie/internal/gateway/draw.go#L1503) |
-| drawPrompt | function_declaration |  | [1517](../../magpie/internal/gateway/draw.go#L1517) |
-| b | var_spec | drawPrompt | [1518](../../magpie/internal/gateway/draw.go#L1518) |
-| drawChat | method_declaration |  | [1531](../../magpie/internal/gateway/draw.go#L1531) |
-| res | var_spec | drawChat | [1548](../../magpie/internal/gateway/draw.go#L1548) |
-| Choices | field_declaration | drawChat::res | [1549](../../magpie/internal/gateway/draw.go#L1549) |
-| Message | field_declaration | drawChat::res::Choices | [1550](../../magpie/internal/gateway/draw.go#L1550) |
-| Content | field_declaration | drawChat::res::Choices::Message | [1551](../../magpie/internal/gateway/draw.go#L1551) |
-| Images | field_declaration | drawChat::res::Choices::Message | [1552](../../magpie/internal/gateway/draw.go#L1552) |
-| ImageURL | field_declaration | drawChat::res::Choices::Message::Images | [1553](../../magpie/internal/gateway/draw.go#L1553) |
-| URL | field_declaration | drawChat::res::Choices::Message::Images::ImageURL | [1554](../../magpie/internal/gateway/draw.go#L1554) |
-| MultiMod | field_declaration | drawChat::res::Choices::Message | [1558](../../magpie/internal/gateway/draw.go#L1558) |
-| InlineData | field_declaration | drawChat::res::Choices::Message::MultiMod | [1559](../../magpie/internal/gateway/draw.go#L1559) |
-| Data | field_declaration | drawChat::res::Choices::Message::MultiMod::InlineData | [1560](../../magpie/internal/gateway/draw.go#L1560) |
-| MimeType | field_declaration | drawChat::res::Choices::Message::MultiMod::InlineData | [1561](../../magpie/internal/gateway/draw.go#L1561) |
-| Usage | field_declaration | drawChat::res | [1566](../../magpie/internal/gateway/draw.go#L1566) |
-| Prompt | field_declaration | drawChat::res::Usage | [1567](../../magpie/internal/gateway/draw.go#L1567) |
-| Completion | field_declaration | drawChat::res::Usage | [1568](../../magpie/internal/gateway/draw.go#L1568) |
-| srcs | var_spec | drawChat | [1579](../../magpie/internal/gateway/draw.go#L1579) |
-| text | var_spec | drawChat | [1588](../../magpie/internal/gateway/draw.go#L1588) |
-| parts | var_spec | drawChat | [1590](../../magpie/internal/gateway/draw.go#L1590) |
-| Type | field_declaration | drawChat::parts | [1591](../../magpie/internal/gateway/draw.go#L1591) |
-| Text | field_declaration | drawChat::parts | [1592](../../magpie/internal/gateway/draw.go#L1592) |
-| ImageURL | field_declaration | drawChat::parts | [1593](../../magpie/internal/gateway/draw.go#L1593) |
-| drawGemini | method_declaration |  | [1623](../../magpie/internal/gateway/draw.go#L1623) |
-| res | var_spec | drawGemini | [1647](../../magpie/internal/gateway/draw.go#L1647) |
-| Candidates | field_declaration | drawGemini::res | [1648](../../magpie/internal/gateway/draw.go#L1648) |
-| Content | field_declaration | drawGemini::res::Candidates | [1649](../../magpie/internal/gateway/draw.go#L1649) |
-| Parts | field_declaration | drawGemini::res::Candidates::Content | [1650](../../magpie/internal/gateway/draw.go#L1650) |
-| Text | field_declaration | drawGemini::res::Candidates::Content::Parts | [1651](../../magpie/internal/gateway/draw.go#L1651) |
-| Thought | field_declaration | drawGemini::res::Candidates::Content::Parts | [1652](../../magpie/internal/gateway/draw.go#L1652) |
-| InlineData | field_declaration | drawGemini::res::Candidates::Content::Parts | [1653](../../magpie/internal/gateway/draw.go#L1653) |
-| MimeType | field_declaration | drawGemini::res::Candidates::Content::Parts::InlineData | [1654](../../magpie/internal/gateway/draw.go#L1654) |
-| Data | field_declaration | drawGemini::res::Candidates::Content::Parts::InlineData | [1655](../../magpie/internal/gateway/draw.go#L1655) |
-| Usage | field_declaration | drawGemini::res | [1660](../../magpie/internal/gateway/draw.go#L1660) |
-| Prompt | field_declaration | drawGemini::res::Usage | [1661](../../magpie/internal/gateway/draw.go#L1661) |
-| Candidates | field_declaration | drawGemini::res::Usage | [1662](../../magpie/internal/gateway/draw.go#L1662) |
-| drawCodeAssist | method_declaration |  | [1692](../../magpie/internal/gateway/draw.go#L1692) |
-| out | var_spec | drawCodeAssist | [1712](../../magpie/internal/gateway/draw.go#L1712) |
-| failed | var_spec | drawCodeAssist | [1713](../../magpie/internal/gateway/draw.go#L1713) |
-| eachDrawing | method_declaration |  | [1742](../../magpie/internal/gateway/draw.go#L1742) |
-| result | type_spec | eachDrawing | [1743](../../magpie/internal/gateway/draw.go#L1743) |
-| out | field_declaration | eachDrawing::result | [1744](../../magpie/internal/gateway/draw.go#L1744) |
-| code | field_declaration | eachDrawing::result | [1745](../../magpie/internal/gateway/draw.go#L1745) |
-| err | field_declaration | eachDrawing::result | [1746](../../magpie/internal/gateway/draw.go#L1746) |
-| wg | var_spec | eachDrawing | [1749](../../magpie/internal/gateway/draw.go#L1749) |
-| out | var_spec | eachDrawing | [1759](../../magpie/internal/gateway/draw.go#L1759) |
-| firstErr | var_spec | eachDrawing | [1761](../../magpie/internal/gateway/draw.go#L1761) |
-| aspectOf | function_declaration |  | [1783](../../magpie/internal/gateway/draw.go#L1783) |
-| grokAspects | var_spec |  | [1788](../../magpie/internal/gateway/draw.go#L1788) |
+| Format | field_declaration | readDrawing::in | [1009](../../magpie/internal/gateway/draw.go#L1009) |
+| N | field_declaration | readDrawing::in | [1010](../../magpie/internal/gateway/draw.go#L1010) |
+| Image | field_declaration | readDrawing::in | [1011](../../magpie/internal/gateway/draw.go#L1011) |
+| Images | field_declaration | readDrawing::in | [1012](../../magpie/internal/gateway/draw.go#L1012) |
+| Mask | field_declaration | readDrawing::in | [1013](../../magpie/internal/gateway/draw.go#L1013) |
+| Markup | field_declaration | readDrawing::in | [1014](../../magpie/internal/gateway/draw.go#L1014) |
+| ResponseFormat | field_declaration | readDrawing::in | [1015](../../magpie/internal/gateway/draw.go#L1015) |
+| all | var_spec | readDrawing | [1021](../../magpie/internal/gateway/draw.go#L1021) |
+| imageSources | function_declaration |  | [1070](../../magpie/internal/gateway/draw.go#L1070) |
+| one | var_spec | imageSources | [1074](../../magpie/internal/gateway/draw.go#L1074) |
+| obj | var_spec | imageSources | [1078](../../magpie/internal/gateway/draw.go#L1078) |
+| ImageURL | field_declaration | imageSources::obj | [1079](../../magpie/internal/gateway/draw.go#L1079) |
+| URL | field_declaration | imageSources::obj | [1080](../../magpie/internal/gateway/draw.go#L1080) |
+| list | var_spec | imageSources | [1088](../../magpie/internal/gateway/draw.go#L1088) |
+| out | var_spec | imageSources | [1090](../../magpie/internal/gateway/draw.go#L1090) |
+| pictureOf | function_declaration |  | [1101](../../magpie/internal/gateway/draw.go#L1101) |
+| readPart | function_declaration |  | [1120](../../magpie/internal/gateway/draw.go#L1120) |
+| drawVia | type_spec |  | [1138](../../magpie/internal/gateway/draw.go#L1138) |
+| viaImages | const_spec |  | [1141](../../magpie/internal/gateway/draw.go#L1141) |
+| viaChat | const_spec |  | [1142](../../magpie/internal/gateway/draw.go#L1142) |
+| viaGemini | const_spec |  | [1143](../../magpie/internal/gateway/draw.go#L1143) |
+| String | method_declaration |  | [1146](../../magpie/internal/gateway/draw.go#L1146) |
+| isGoogle | function_declaration |  | [1150](../../magpie/internal/gateway/draw.go#L1150) |
+| isOpenRouter | function_declaration |  | [1154](../../magpie/internal/gateway/draw.go#L1154) |
+| viaFor | function_declaration |  | [1159](../../magpie/internal/gateway/draw.go#L1159) |
+| imagesOnly | function_declaration |  | [1188](../../magpie/internal/gateway/draw.go#L1188) |
+| pluginImagesOnly | function_declaration |  | [1194](../../magpie/internal/gateway/draw.go#L1194) |
+| answersInImages | function_declaration |  | [1202](../../magpie/internal/gateway/draw.go#L1202) |
+| drawOnAccounts | method_declaration |  | [1224](../../magpie/internal/gateway/draw.go#L1224) |
+| out | var_spec | drawOnAccounts | [1276](../../magpie/internal/gateway/draw.go#L1276) |
+| code | var_spec | drawOnAccounts | [1277](../../magpie/internal/gateway/draw.go#L1277) |
+| err | var_spec | drawOnAccounts | [1278](../../magpie/internal/gateway/draw.go#L1278) |
+| restDrawer | function_declaration |  | [1304](../../magpie/internal/gateway/draw.go#L1304) |
+| saidStatus | function_declaration |  | [1330](../../magpie/internal/gateway/draw.go#L1330) |
+| keyLacksModel | function_declaration |  | [1346](../../magpie/internal/gateway/draw.go#L1346) |
+| accountRefusedDrawing | function_declaration |  | [1353](../../magpie/internal/gateway/draw.go#L1353) |
+| draw | method_declaration |  | [1363](../../magpie/internal/gateway/draw.go#L1363) |
+| pointsAway | function_declaration |  | [1405](../../magpie/internal/gateway/draw.go#L1405) |
+| drawOn | method_declaration |  | [1415](../../magpie/internal/gateway/draw.go#L1415) |
+| send | method_declaration |  | [1427](../../magpie/internal/gateway/draw.go#L1427) |
+| sendAs | method_declaration |  | [1432](../../magpie/internal/gateway/draw.go#L1432) |
+| sendWith | method_declaration |  | [1437](../../magpie/internal/gateway/draw.go#L1437) |
+| tracked | type_spec |  | [1505](../../magpie/internal/gateway/draw.go#L1505) |
+| r | field_declaration | tracked | [1506](../../magpie/internal/gateway/draw.go#L1506) |
+| last | field_declaration | tracked | [1507](../../magpie/internal/gateway/draw.go#L1507) |
+| Read | method_declaration |  | [1510](../../magpie/internal/gateway/draw.go#L1510) |
+| stalledAt | function_declaration |  | [1523](../../magpie/internal/gateway/draw.go#L1523) |
+| sizeOf | function_declaration |  | [1535](../../magpie/internal/gateway/draw.go#L1535) |
+| vendorMessage | function_declaration |  | [1546](../../magpie/internal/gateway/draw.go#L1546) |
+| e | var_spec | vendorMessage | [1547](../../magpie/internal/gateway/draw.go#L1547) |
+| Error | field_declaration | vendorMessage::e | [1548](../../magpie/internal/gateway/draw.go#L1548) |
+| Errors | field_declaration | vendorMessage::e | [1549](../../magpie/internal/gateway/draw.go#L1549) |
+| Message | field_declaration | vendorMessage::e::Errors | [1550](../../magpie/internal/gateway/draw.go#L1550) |
+| Code | field_declaration | vendorMessage::e | [1552](../../magpie/internal/gateway/draw.go#L1552) |
+| Msg | field_declaration | vendorMessage::e | [1553](../../magpie/internal/gateway/draw.go#L1553) |
+| m | var_spec | vendorMessage | [1564](../../magpie/internal/gateway/draw.go#L1564) |
+| Message | field_declaration | vendorMessage::m | [1565](../../magpie/internal/gateway/draw.go#L1565) |
+| s | var_spec | vendorMessage | [1570](../../magpie/internal/gateway/draw.go#L1570) |
+| errorSaid | function_declaration |  | [1585](../../magpie/internal/gateway/draw.go#L1585) |
+| drawImages | method_declaration |  | [1594](../../magpie/internal/gateway/draw.go#L1594) |
+| body | var_spec | drawImages | [1619](../../magpie/internal/gateway/draw.go#L1619) |
+| ct | var_spec | drawImages | [1620](../../magpie/internal/gateway/draw.go#L1620) |
+| imgs | var_spec | drawImages | [1629](../../magpie/internal/gateway/draw.go#L1629) |
+| imgs | var_spec | drawImages | [1672](../../magpie/internal/gateway/draw.go#L1672) |
+| buf | var_spec | drawImages | [1686](../../magpie/internal/gateway/draw.go#L1686) |
+| senseNovaDrawer | function_declaration |  | [1740](../../magpie/internal/gateway/draw.go#L1740) |
+| drawOpenRouterImages | method_declaration |  | [1746](../../magpie/internal/gateway/draw.go#L1746) |
+| openRouterSize | function_declaration |  | [1783](../../magpie/internal/gateway/draw.go#L1783) |
+| readImagesAnswer | function_declaration |  | [1805](../../magpie/internal/gateway/draw.go#L1805) |
+| res | var_spec | readImagesAnswer | [1806](../../magpie/internal/gateway/draw.go#L1806) |
+| Data | field_declaration | readImagesAnswer::res | [1807](../../magpie/internal/gateway/draw.go#L1807) |
+| B64 | field_declaration | readImagesAnswer::res::Data | [1808](../../magpie/internal/gateway/draw.go#L1808) |
+| URL | field_declaration | readImagesAnswer::res::Data | [1809](../../magpie/internal/gateway/draw.go#L1809) |
+| Revised | field_declaration | readImagesAnswer::res::Data | [1810](../../magpie/internal/gateway/draw.go#L1810) |
+| MediaType | field_declaration | readImagesAnswer::res::Data | [1811](../../magpie/internal/gateway/draw.go#L1811) |
+| OutputFormat | field_declaration | readImagesAnswer::res | [1813](../../magpie/internal/gateway/draw.go#L1813) |
+| Usage | field_declaration | readImagesAnswer::res | [1814](../../magpie/internal/gateway/draw.go#L1814) |
+| Input | field_declaration | readImagesAnswer::res::Usage | [1815](../../magpie/internal/gateway/draw.go#L1815) |
+| Output | field_declaration | readImagesAnswer::res::Usage | [1816](../../magpie/internal/gateway/draw.go#L1816) |
+| Prompt | field_declaration | readImagesAnswer::res::Usage | [1817](../../magpie/internal/gateway/draw.go#L1817) |
+| Completion | field_declaration | readImagesAnswer::res::Usage | [1818](../../magpie/internal/gateway/draw.go#L1818) |
+| fetchPicture | method_declaration |  | [1861](../../magpie/internal/gateway/draw.go#L1861) |
+| inline | function_declaration |  | [1874](../../magpie/internal/gateway/draw.go#L1874) |
+| ImageStall | var_spec |  | [1884](../../magpie/internal/gateway/draw.go#L1884) |
+| ImageLongest | var_spec |  | [1885](../../magpie/internal/gateway/draw.go#L1885) |
+| imageLongest | function_declaration |  | [1890](../../magpie/internal/gateway/draw.go#L1890) |
+| maxImageBytes | const_spec |  | [1893](../../magpie/internal/gateway/draw.go#L1893) |
+| errImageStalled | var_spec |  | [1895](../../magpie/internal/gateway/draw.go#L1895) |
+| FetchImage | function_declaration |  | [1901](../../magpie/internal/gateway/draw.go#L1901) |
+| buf | var_spec | FetchImage | [1937](../../magpie/internal/gateway/draw.go#L1937) |
+| mb | function_declaration |  | [1962](../../magpie/internal/gateway/draw.go#L1962) |
+| extOf | function_declaration |  | [1964](../../magpie/internal/gateway/draw.go#L1964) |
+| drawPrompt | function_declaration |  | [1984](../../magpie/internal/gateway/draw.go#L1984) |
+| b | var_spec | drawPrompt | [1985](../../magpie/internal/gateway/draw.go#L1985) |
+| drawChat | method_declaration |  | [1998](../../magpie/internal/gateway/draw.go#L1998) |
+| res | var_spec | drawChat | [2015](../../magpie/internal/gateway/draw.go#L2015) |
+| Choices | field_declaration | drawChat::res | [2016](../../magpie/internal/gateway/draw.go#L2016) |
+| Message | field_declaration | drawChat::res::Choices | [2017](../../magpie/internal/gateway/draw.go#L2017) |
+| Content | field_declaration | drawChat::res::Choices::Message | [2018](../../magpie/internal/gateway/draw.go#L2018) |
+| Images | field_declaration | drawChat::res::Choices::Message | [2019](../../magpie/internal/gateway/draw.go#L2019) |

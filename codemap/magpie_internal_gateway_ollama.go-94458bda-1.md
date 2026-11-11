@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/ollama.go) · page 1/1
 
-Source SHA-256: 6c17a725a40dd0f1652cd0c8c3c3a58952d3ad259c610f735a0745d8778d019e
+Source SHA-256: 8556393bff74bfad251e37b0317893a5b64661596302fa2370b737467f16bbb6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

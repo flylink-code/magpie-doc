@@ -4,22 +4,27 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/ghtoken/ghtoken.go) · page 1/1
 
-Source SHA-256: 56f8c84d1f751b9d9aa487dd5481f521cc94144c09a7ece70e16e66bd7a5f9ca
+Source SHA-256: 2cee7093efb69b8fe59e7381f2f0f56f4f9c8c1b62d5ba8c9e4850522b94b1b5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Env | var_spec |  | [36](../../magpie/internal/ghtoken/ghtoken.go#L36) |
-| Token | function_declaration |  | [42](../../magpie/internal/ghtoken/ghtoken.go#L42) |
-| refused | var_spec |  | [57](../../magpie/internal/ghtoken/ghtoken.go#L57) |
-| m | field_declaration | refused | [59](../../magpie/internal/ghtoken/ghtoken.go#L59) |
-| isRefused | function_declaration |  | [62](../../magpie/internal/ghtoken/ghtoken.go#L62) |
-| markRefused | function_declaration |  | [68](../../magpie/internal/ghtoken/ghtoken.go#L68) |
-| Do | function_declaration |  | [80](../../magpie/internal/ghtoken/ghtoken.go#L80) |
-| Authorize | function_declaration |  | [111](../../magpie/internal/ghtoken/ghtoken.go#L111) |
-| authorize | function_declaration |  | [118](../../magpie/internal/ghtoken/ghtoken.go#L118) |
-| Refused | function_declaration |  | [133](../../magpie/internal/ghtoken/ghtoken.go#L133) |
-| Limited | type_spec |  | [144](../../magpie/internal/ghtoken/ghtoken.go#L144) |
-| Until | field_declaration | Limited | [145](../../magpie/internal/ghtoken/ghtoken.go#L145) |
-| Token | field_declaration | Limited | [146](../../magpie/internal/ghtoken/ghtoken.go#L146) |
-| Error | method_declaration |  | [149](../../magpie/internal/ghtoken/ghtoken.go#L149) |
-| LimitedBy | function_declaration |  | [165](../../magpie/internal/ghtoken/ghtoken.go#L165) |
+| Env | var_spec |  | [38](../../magpie/internal/ghtoken/ghtoken.go#L38) |
+| Token | function_declaration |  | [46](../../magpie/internal/ghtoken/ghtoken.go#L46) |
+| refused | var_spec |  | [64](../../magpie/internal/ghtoken/ghtoken.go#L64) |
+| m | field_declaration | refused | [66](../../magpie/internal/ghtoken/ghtoken.go#L66) |
+| settingsRefused | var_spec |  | [72](../../magpie/internal/ghtoken/ghtoken.go#L72) |
+| t | field_declaration | settingsRefused | [74](../../magpie/internal/ghtoken/ghtoken.go#L74) |
+| at | field_declaration | settingsRefused | [75](../../magpie/internal/ghtoken/ghtoken.go#L75) |
+| isRefused | function_declaration |  | [78](../../magpie/internal/ghtoken/ghtoken.go#L78) |
+| markRefused | function_declaration |  | [84](../../magpie/internal/ghtoken/ghtoken.go#L84) |
+| markSettingsRefused | function_declaration |  | [90](../../magpie/internal/ghtoken/ghtoken.go#L90) |
+| SettingsRefused | function_declaration |  | [100](../../magpie/internal/ghtoken/ghtoken.go#L100) |
+| Do | function_declaration |  | [117](../../magpie/internal/ghtoken/ghtoken.go#L117) |
+| Authorize | function_declaration |  | [156](../../magpie/internal/ghtoken/ghtoken.go#L156) |
+| authorize | function_declaration |  | [163](../../magpie/internal/ghtoken/ghtoken.go#L163) |
+| Refused | function_declaration |  | [178](../../magpie/internal/ghtoken/ghtoken.go#L178) |
+| Limited | type_spec |  | [189](../../magpie/internal/ghtoken/ghtoken.go#L189) |
+| Until | field_declaration | Limited | [190](../../magpie/internal/ghtoken/ghtoken.go#L190) |
+| Token | field_declaration | Limited | [191](../../magpie/internal/ghtoken/ghtoken.go#L191) |
+| Error | method_declaration |  | [194](../../magpie/internal/ghtoken/ghtoken.go#L194) |
+| LimitedBy | function_declaration |  | [210](../../magpie/internal/ghtoken/ghtoken.go#L210) |

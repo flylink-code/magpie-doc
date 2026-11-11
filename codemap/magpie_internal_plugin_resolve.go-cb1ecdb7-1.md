@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/resolve.go) · page 1/1
 
-Source SHA-256: a150a0e69ec7e4020352b45d2db8bdb1f036eba719e5714419296379b8b56f75
+Source SHA-256: 02f8668371e4a6f19f894754b466a56a1edc788549ec1bdc91669ac23b462cd3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,7 +12,7 @@ Source SHA-256: a150a0e69ec7e4020352b45d2db8bdb1f036eba719e5714419296379b8b56f75
 | npmPrefix | const_spec |  | [19](../../magpie/internal/plugin/resolve.go#L19) |
 | callNames | function_declaration |  | [25](../../magpie/internal/plugin/resolve.go#L25) |
 | resolve | function_declaration |  | [44](../../magpie/internal/plugin/resolve.go#L44) |
-| found | var_spec | resolve | [64](../../magpie/internal/plugin/resolve.go#L64) |
-| b | var_spec | resolve | [85](../../magpie/internal/plugin/resolve.go#L85) |
-| listNames | function_declaration |  | [108](../../magpie/internal/plugin/resolve.go#L108) |
-| out | var_spec | listNames | [109](../../magpie/internal/plugin/resolve.go#L109) |
+| found | var_spec | resolve | [67](../../magpie/internal/plugin/resolve.go#L67) |
+| b | var_spec | resolve | [88](../../magpie/internal/plugin/resolve.go#L88) |
+| listNames | function_declaration |  | [111](../../magpie/internal/plugin/resolve.go#L111) |
+| out | var_spec | listNames | [112](../../magpie/internal/plugin/resolve.go#L112) |

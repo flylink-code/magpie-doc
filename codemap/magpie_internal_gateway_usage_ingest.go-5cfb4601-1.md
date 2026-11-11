@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/usage_ingest.go) · page 1/1
 
-Source SHA-256: 801caf1c820824bd5c1348fe841d25af2c639164aaf0d1b89fefe11f59777d0c
+Source SHA-256: c017fc1248afd3953da9d79ecf6766e96e5570187038ed44569aa54a9e9c8c5c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,30 +16,30 @@ Source SHA-256: 801caf1c820824bd5c1348fe841d25af2c639164aaf0d1b89fefe11f59777d0c
 | ingestMaxText | const_spec |  | [60](../../magpie/internal/gateway/usage_ingest.go#L60) |
 | ingestFuture | const_spec |  | [63](../../magpie/internal/gateway/usage_ingest.go#L63) |
 | ingestEarliest | var_spec |  | [69](../../magpie/internal/gateway/usage_ingest.go#L69) |
-| ingestFields | var_spec |  | [77](../../magpie/internal/gateway/usage_ingest.go#L77) |
-| ingestFault | type_spec |  | [80](../../magpie/internal/gateway/usage_ingest.go#L80) |
-| index | field_declaration | ingestFault | [81](../../magpie/internal/gateway/usage_ingest.go#L81) |
-| field | field_declaration | ingestFault | [82](../../magpie/internal/gateway/usage_ingest.go#L82) |
-| msg | field_declaration | ingestFault | [83](../../magpie/internal/gateway/usage_ingest.go#L83) |
-| Error | method_declaration |  | [86](../../magpie/internal/gateway/usage_ingest.go#L86) |
-| usageIngest | method_declaration |  | [90](../../magpie/internal/gateway/usage_ingest.go#L90) |
-| tooBig | var_spec | usageIngest | [120](../../magpie/internal/gateway/usage_ingest.go#L120) |
-| result | type_spec | usageIngest | [142](../../magpie/internal/gateway/usage_ingest.go#L142) |
-| Index | field_declaration | usageIngest::result | [143](../../magpie/internal/gateway/usage_ingest.go#L143) |
-| RID | field_declaration | usageIngest::result | [144](../../magpie/internal/gateway/usage_ingest.go#L144) |
-| Status | field_declaration | usageIngest::result | [145](../../magpie/internal/gateway/usage_ingest.go#L145) |
-| Accepted | field_declaration | usageIngest | [148](../../magpie/internal/gateway/usage_ingest.go#L148) |
-| Skipped | field_declaration | usageIngest | [149](../../magpie/internal/gateway/usage_ingest.go#L149) |
-| Records | field_declaration | usageIngest | [150](../../magpie/internal/gateway/usage_ingest.go#L150) |
-| parseIngest | function_declaration |  | [168](../../magpie/internal/gateway/usage_ingest.go#L168) |
-| raws | var_spec | parseIngest | [170](../../magpie/internal/gateway/usage_ingest.go#L170) |
-| parseReported | function_declaration |  | [200](../../magpie/internal/gateway/usage_ingest.go#L200) |
-| rec | var_spec | parseReported | [201](../../magpie/internal/gateway/usage_ingest.go#L201) |
-| fields | var_spec | parseReported | [202](../../magpie/internal/gateway/usage_ingest.go#L202) |
-| s | var_spec | parseReported | [224](../../magpie/internal/gateway/usage_ingest.go#L224) |
-| n | var_spec | parseReported | [247](../../magpie/internal/gateway/usage_ingest.go#L247) |
-| f | var_spec | parseReported | [264](../../magpie/internal/gateway/usage_ingest.go#L264) |
-| ts | var_spec | parseReported | [293](../../magpie/internal/gateway/usage_ingest.go#L293) |
-| k | field_declaration | parseReported | [309](../../magpie/internal/gateway/usage_ingest.go#L309) |
-| to | field_declaration | parseReported | [310](../../magpie/internal/gateway/usage_ingest.go#L310) |
-| c | var_spec | parseReported | [364](../../magpie/internal/gateway/usage_ingest.go#L364) |
+| ingestFields | var_spec |  | [81](../../magpie/internal/gateway/usage_ingest.go#L81) |
+| ingestFault | type_spec |  | [84](../../magpie/internal/gateway/usage_ingest.go#L84) |
+| index | field_declaration | ingestFault | [85](../../magpie/internal/gateway/usage_ingest.go#L85) |
+| field | field_declaration | ingestFault | [86](../../magpie/internal/gateway/usage_ingest.go#L86) |
+| msg | field_declaration | ingestFault | [87](../../magpie/internal/gateway/usage_ingest.go#L87) |
+| Error | method_declaration |  | [90](../../magpie/internal/gateway/usage_ingest.go#L90) |
+| usageIngest | method_declaration |  | [94](../../magpie/internal/gateway/usage_ingest.go#L94) |
+| tooBig | var_spec | usageIngest | [124](../../magpie/internal/gateway/usage_ingest.go#L124) |
+| result | type_spec | usageIngest | [146](../../magpie/internal/gateway/usage_ingest.go#L146) |
+| Index | field_declaration | usageIngest::result | [147](../../magpie/internal/gateway/usage_ingest.go#L147) |
+| RID | field_declaration | usageIngest::result | [148](../../magpie/internal/gateway/usage_ingest.go#L148) |
+| Status | field_declaration | usageIngest::result | [149](../../magpie/internal/gateway/usage_ingest.go#L149) |
+| Accepted | field_declaration | usageIngest | [152](../../magpie/internal/gateway/usage_ingest.go#L152) |
+| Skipped | field_declaration | usageIngest | [153](../../magpie/internal/gateway/usage_ingest.go#L153) |
+| Records | field_declaration | usageIngest | [154](../../magpie/internal/gateway/usage_ingest.go#L154) |
+| parseIngest | function_declaration |  | [172](../../magpie/internal/gateway/usage_ingest.go#L172) |
+| raws | var_spec | parseIngest | [174](../../magpie/internal/gateway/usage_ingest.go#L174) |
+| parseReported | function_declaration |  | [204](../../magpie/internal/gateway/usage_ingest.go#L204) |
+| rec | var_spec | parseReported | [205](../../magpie/internal/gateway/usage_ingest.go#L205) |
+| fields | var_spec | parseReported | [206](../../magpie/internal/gateway/usage_ingest.go#L206) |
+| s | var_spec | parseReported | [228](../../magpie/internal/gateway/usage_ingest.go#L228) |
+| n | var_spec | parseReported | [251](../../magpie/internal/gateway/usage_ingest.go#L251) |
+| f | var_spec | parseReported | [268](../../magpie/internal/gateway/usage_ingest.go#L268) |
+| ts | var_spec | parseReported | [303](../../magpie/internal/gateway/usage_ingest.go#L303) |
+| k | field_declaration | parseReported | [319](../../magpie/internal/gateway/usage_ingest.go#L319) |
+| to | field_declaration | parseReported | [320](../../magpie/internal/gateway/usage_ingest.go#L320) |
+| c | var_spec | parseReported | [374](../../magpie/internal/gateway/usage_ingest.go#L374) |

@@ -4,40 +4,42 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/bun.go) · page 1/1
 
-Source SHA-256: 10134a0d2b6c130781eac1b706dbc1f2fae07e5b612d0dfdefb0505b2847accd
+Source SHA-256: 225ef97241281fab7ba06926205d01ae6548922a274b99ffa2be5372620363cc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| BunVersion | const_spec |  | [36](../../magpie/internal/plugin/bun.go#L36) |
-| bunSums | var_spec |  | [41](../../magpie/internal/plugin/bun.go#L41) |
-| bunChecksum | function_declaration |  | [54](../../magpie/internal/plugin/bun.go#L54) |
-| bunRelease | var_spec |  | [62](../../magpie/internal/plugin/bun.go#L62) |
-| bunMu | var_spec |  | [64](../../magpie/internal/plugin/bun.go#L64) |
-| bunPlatform | var_spec |  | [69](../../magpie/internal/plugin/bun.go#L69) |
-| bunTarget | function_declaration |  | [77](../../magpie/internal/plugin/bun.go#L77) |
-| bunTargetFor | function_declaration |  | [81](../../magpie/internal/plugin/bun.go#L81) |
-| bunExe | function_declaration |  | [115](../../magpie/internal/plugin/bun.go#L115) |
-| missingLibRe | var_spec |  | [125](../../magpie/internal/plugin/bun.go#L125) |
-| missingLibs | function_declaration |  | [132](../../magpie/internal/plugin/bun.go#L132) |
-| libs | var_spec | missingLibs | [133](../../magpie/internal/plugin/bun.go#L133) |
-| whyDied | function_declaration |  | [147](../../magpie/internal/plugin/bun.go#L147) |
-| cantStart | function_declaration |  | [169](../../magpie/internal/plugin/bun.go#L169) |
-| statusEntrypointNotFound | const_spec |  | [191](../../magpie/internal/plugin/bun.go#L191) |
-| statusIllegalInstruction | const_spec |  | [193](../../magpie/internal/plugin/bun.go#L193) |
-| BunUnstartableError | type_spec |  | [200](../../magpie/internal/plugin/bun.go#L200) |
-| Bun | field_declaration | BunUnstartableError | [201](../../magpie/internal/plugin/bun.go#L201) |
-| Why | field_declaration | BunUnstartableError | [203](../../magpie/internal/plugin/bun.go#L203) |
-| Err | field_declaration | BunUnstartableError | [204](../../magpie/internal/plugin/bun.go#L204) |
-| Error | method_declaration |  | [207](../../magpie/internal/plugin/bun.go#L207) |
-| Unwrap | method_declaration |  | [214](../../magpie/internal/plugin/bun.go#L214) |
-| wontLoad | function_declaration |  | [220](../../magpie/internal/plugin/bun.go#L220) |
-| ec | var_spec | wontLoad | [224](../../magpie/internal/plugin/bun.go#L224) |
-| ps | var_spec | wontLoad | [233](../../magpie/internal/plugin/bun.go#L233) |
-| Bun | function_declaration |  | [245](../../magpie/internal/plugin/bun.go#L245) |
-| HasBun | function_declaration |  | [263](../../magpie/internal/plugin/bun.go#L263) |
-| downloadBun | function_declaration |  | [272](../../magpie/internal/plugin/bun.go#L272) |
-| getURL | function_declaration |  | [337](../../magpie/internal/plugin/bun.go#L337) |
-| getURLOfficial | function_declaration |  | [341](../../magpie/internal/plugin/bun.go#L341) |
-| getURLFrom | function_declaration |  | [345](../../magpie/internal/plugin/bun.go#L345) |
-| bunCommand | var_spec |  | [380](../../magpie/internal/plugin/bun.go#L380) |
-| registryEnv | function_declaration |  | [391](../../magpie/internal/plugin/bun.go#L391) |
+| BunVersion | const_spec |  | [37](../../magpie/internal/plugin/bun.go#L37) |
+| bunSums | var_spec |  | [42](../../magpie/internal/plugin/bun.go#L42) |
+| bunChecksum | function_declaration |  | [55](../../magpie/internal/plugin/bun.go#L55) |
+| bunRelease | var_spec |  | [63](../../magpie/internal/plugin/bun.go#L63) |
+| bunMu | var_spec |  | [65](../../magpie/internal/plugin/bun.go#L65) |
+| bunPlatform | var_spec |  | [70](../../magpie/internal/plugin/bun.go#L70) |
+| bunTarget | function_declaration |  | [78](../../magpie/internal/plugin/bun.go#L78) |
+| bunTargetFor | function_declaration |  | [82](../../magpie/internal/plugin/bun.go#L82) |
+| bunExe | function_declaration |  | [116](../../magpie/internal/plugin/bun.go#L116) |
+| missingLibRe | var_spec |  | [126](../../magpie/internal/plugin/bun.go#L126) |
+| missingLibs | function_declaration |  | [133](../../magpie/internal/plugin/bun.go#L133) |
+| libs | var_spec | missingLibs | [134](../../magpie/internal/plugin/bun.go#L134) |
+| whyDied | function_declaration |  | [148](../../magpie/internal/plugin/bun.go#L148) |
+| cantStart | function_declaration |  | [170](../../magpie/internal/plugin/bun.go#L170) |
+| statusEntrypointNotFound | const_spec |  | [192](../../magpie/internal/plugin/bun.go#L192) |
+| statusIllegalInstruction | const_spec |  | [194](../../magpie/internal/plugin/bun.go#L194) |
+| BunUnstartableError | type_spec |  | [201](../../magpie/internal/plugin/bun.go#L201) |
+| Bun | field_declaration | BunUnstartableError | [202](../../magpie/internal/plugin/bun.go#L202) |
+| Why | field_declaration | BunUnstartableError | [204](../../magpie/internal/plugin/bun.go#L204) |
+| Err | field_declaration | BunUnstartableError | [205](../../magpie/internal/plugin/bun.go#L205) |
+| Error | method_declaration |  | [208](../../magpie/internal/plugin/bun.go#L208) |
+| Unwrap | method_declaration |  | [215](../../magpie/internal/plugin/bun.go#L215) |
+| wontLoad | function_declaration |  | [221](../../magpie/internal/plugin/bun.go#L221) |
+| ec | var_spec | wontLoad | [225](../../magpie/internal/plugin/bun.go#L225) |
+| ps | var_spec | wontLoad | [234](../../magpie/internal/plugin/bun.go#L234) |
+| Bun | function_declaration |  | [246](../../magpie/internal/plugin/bun.go#L246) |
+| HasBun | function_declaration |  | [264](../../magpie/internal/plugin/bun.go#L264) |
+| downloadBun | function_declaration |  | [273](../../magpie/internal/plugin/bun.go#L273) |
+| getURL | function_declaration |  | [338](../../magpie/internal/plugin/bun.go#L338) |
+| getURLOfficial | function_declaration |  | [342](../../magpie/internal/plugin/bun.go#L342) |
+| getURLFrom | function_declaration |  | [349](../../magpie/internal/plugin/bun.go#L349) |
+| b | var_spec | getURLFrom | [351](../../magpie/internal/plugin/bun.go#L351) |
+| downloadStall | var_spec |  | [362](../../magpie/internal/plugin/bun.go#L362) |
+| getURLOnce | function_declaration |  | [364](../../magpie/internal/plugin/bun.go#L364) |
+| bunCommand | var_spec |  | [403](../../magpie/internal/plugin/bun.go#L403) |

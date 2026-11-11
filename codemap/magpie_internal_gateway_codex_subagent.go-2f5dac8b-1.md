@@ -4,18 +4,19 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_subagent.go) · page 1/1
 
-Source SHA-256: e1e51333f134af813abe49403a44d1908d27d9a1551d3a71fed2f8321e223329
+Source SHA-256: 40428d7543492cd47563c12d45973ba8157dd38c2d26f8a9ecce218e4e5f4498
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SubagentPick | type_spec |  | [16](../../magpie/internal/gateway/codex_subagent.go#L16) |
-| Asked | field_declaration | SubagentPick | [17](../../magpie/internal/gateway/codex_subagent.go#L17) |
-| To | field_declaration | SubagentPick | [18](../../magpie/internal/gateway/codex_subagent.go#L18) |
-| Kept | field_declaration | SubagentPick | [19](../../magpie/internal/gateway/codex_subagent.go#L19) |
-| Moved | method_declaration |  | [23](../../magpie/internal/gateway/codex_subagent.go#L23) |
-| subagentPickKey | type_spec |  | [25](../../magpie/internal/gateway/codex_subagent.go#L25) |
-| withSubagentPick | function_declaration |  | [27](../../magpie/internal/gateway/codex_subagent.go#L27) |
-| subagentPickOf | function_declaration |  | [34](../../magpie/internal/gateway/codex_subagent.go#L34) |
-| codexSubagentPick | function_declaration |  | [52](../../magpie/internal/gateway/codex_subagent.go#L52) |
-| sealedKept | const_spec |  | [87](../../magpie/internal/gateway/codex_subagent.go#L87) |
-| sealedTaskIn | function_declaration |  | [91](../../magpie/internal/gateway/codex_subagent.go#L91) |
+| SubagentPick | type_spec |  | [18](../../magpie/internal/gateway/codex_subagent.go#L18) |
+| Asked | field_declaration | SubagentPick | [19](../../magpie/internal/gateway/codex_subagent.go#L19) |
+| To | field_declaration | SubagentPick | [20](../../magpie/internal/gateway/codex_subagent.go#L20) |
+| Kept | field_declaration | SubagentPick | [21](../../magpie/internal/gateway/codex_subagent.go#L21) |
+| Lead | field_declaration | SubagentPick | [22](../../magpie/internal/gateway/codex_subagent.go#L22) |
+| Moved | method_declaration |  | [26](../../magpie/internal/gateway/codex_subagent.go#L26) |
+| subagentPickKey | type_spec |  | [28](../../magpie/internal/gateway/codex_subagent.go#L28) |
+| withSubagentPick | function_declaration |  | [30](../../magpie/internal/gateway/codex_subagent.go#L30) |
+| subagentPickOf | function_declaration |  | [37](../../magpie/internal/gateway/codex_subagent.go#L37) |
+| codexSubagentPick | method_declaration |  | [63](../../magpie/internal/gateway/codex_subagent.go#L63) |
+| sealedKept | const_spec |  | [116](../../magpie/internal/gateway/codex_subagent.go#L116) |
+| sealedTaskIn | function_declaration |  | [120](../../magpie/internal/gateway/codex_subagent.go#L120) |

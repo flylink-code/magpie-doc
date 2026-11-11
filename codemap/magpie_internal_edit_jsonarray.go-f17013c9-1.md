@@ -4,15 +4,15 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/jsonarray.go) · page 1/1
 
-Source SHA-256: 4bece1741c036266229037b5fea3684df8fb03eec07a3886356898e459c26eb0
+Source SHA-256: a5c65daa6ab8374a1ad40ef136985fd0fb1866a7967229789c1c5cd1d7f4e933
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | GetJSONItem | function_declaration |  | [20](../../magpie/internal/edit/jsonarray.go#L20) |
 | SetJSONItem | function_declaration |  | [35](../../magpie/internal/edit/jsonarray.go#L35) |
-| DelJSONItem | function_declaration |  | [83](../../magpie/internal/edit/jsonarray.go#L83) |
-| topArray | function_declaration |  | [109](../../magpie/internal/edit/jsonarray.go#L109) |
-| isSpace | function_declaration |  | [129](../../magpie/internal/edit/jsonarray.go#L129) |
-| nextToken | function_declaration |  | [134](../../magpie/internal/edit/jsonarray.go#L134) |
-| findItem | function_declaration |  | [160](../../magpie/internal/edit/jsonarray.go#L160) |
-| delItem | function_declaration |  | [186](../../magpie/internal/edit/jsonarray.go#L186) |
+| DelJSONItem | function_declaration |  | [90](../../magpie/internal/edit/jsonarray.go#L90) |
+| topArray | function_declaration |  | [121](../../magpie/internal/edit/jsonarray.go#L121) |
+| isSpace | function_declaration |  | [141](../../magpie/internal/edit/jsonarray.go#L141) |
+| nextToken | function_declaration |  | [146](../../magpie/internal/edit/jsonarray.go#L146) |
+| findItem | function_declaration |  | [172](../../magpie/internal/edit/jsonarray.go#L172) |
+| delItem | function_declaration |  | [198](../../magpie/internal/edit/jsonarray.go#L198) |

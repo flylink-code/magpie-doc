@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp_check.go) · page 1/2
 
-Source SHA-256: 110b83c22d13d7196b4717dfacad0d7971df75fe587ba27bdd888836fc15b9e0
+Source SHA-256: f3769469db48963a6c20b5fdd96411996b732cdea931fb6fdae91859f188c24e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,99 +12,99 @@ Source SHA-256: 110b83c22d13d7196b4717dfacad0d7971df75fe587ba27bdd888836fc15b9e0
 | State | field_declaration | ServerHealth | [40](../../magpie/internal/library/mcp_check.go#L40) |
 | Tools | field_declaration | ServerHealth | [41](../../magpie/internal/library/mcp_check.go#L41) |
 | ToolList | field_declaration | ServerHealth | [45](../../magpie/internal/library/mcp_check.go#L45) |
-| Why | field_declaration | ServerHealth | [51](../../magpie/internal/library/mcp_check.go#L51) |
-| Code | field_declaration | ServerHealth | [52](../../magpie/internal/library/mcp_check.go#L52) |
-| Detail | field_declaration | ServerHealth | [53](../../magpie/internal/library/mcp_check.go#L53) |
-| OAuth | field_declaration | ServerHealth | [56](../../magpie/internal/library/mcp_check.go#L56) |
-| SignIn | field_declaration | ServerHealth | [60](../../magpie/internal/library/mcp_check.go#L60) |
-| AgentSignIn | field_declaration | ServerHealth | [65](../../magpie/internal/library/mcp_check.go#L65) |
-| Step | field_declaration | ServerHealth | [69](../../magpie/internal/library/mcp_check.go#L69) |
-| Waited | field_declaration | ServerHealth | [70](../../magpie/internal/library/mcp_check.go#L70) |
-| Checked | field_declaration | ServerHealth | [75](../../magpie/internal/library/mcp_check.go#L75) |
-| At | field_declaration | ServerHealth | [76](../../magpie/internal/library/mcp_check.go#L76) |
-| stdioStep | var_spec |  | [86](../../magpie/internal/library/mcp_check.go#L86) |
-| remoteStep | var_spec |  | [87](../../magpie/internal/library/mcp_check.go#L87) |
-| checkAtOnce | const_spec |  | [92](../../magpie/internal/library/mcp_check.go#L92) |
-| mcpProtocol | const_spec |  | [94](../../magpie/internal/library/mcp_check.go#L94) |
-| checkClient | var_spec |  | [96](../../magpie/internal/library/mcp_check.go#L96) |
-| checkTransport | function_declaration |  | [98](../../magpie/internal/library/mcp_check.go#L98) |
-| checked | var_spec |  | [107](../../magpie/internal/library/mcp_check.go#L107) |
-| m | field_declaration | checked | [109](../../magpie/internal/library/mcp_check.go#L109) |
-| checkedServer | type_spec |  | [112](../../magpie/internal/library/mcp_check.go#L112) |
-| key | field_declaration | checkedServer | [113](../../magpie/internal/library/mcp_check.go#L113) |
-| h | field_declaration | checkedServer | [114](../../magpie/internal/library/mcp_check.go#L114) |
-| healthKey | function_declaration |  | [117](../../magpie/internal/library/mcp_check.go#L117) |
-| sides | var_spec | healthKey | [123](../../magpie/internal/library/mcp_check.go#L123) |
-| CheckServers | function_declaration |  | [135](../../magpie/internal/library/mcp_check.go#L135) |
-| list | var_spec | CheckServers | [142](../../magpie/internal/library/mcp_check.go#L142) |
-| outMu | var_spec | CheckServers | [154](../../magpie/internal/library/mcp_check.go#L154) |
-| wg | var_spec | CheckServers | [155](../../magpie/internal/library/mcp_check.go#L155) |
-| CheckServer | function_declaration |  | [200](../../magpie/internal/library/mcp_check.go#L200) |
-| checkServer | function_declaration |  | [207](../../magpie/internal/library/mcp_check.go#L207) |
-| h | var_spec | checkServer | [217](../../magpie/internal/library/mcp_check.go#L217) |
-| failed | function_declaration |  | [242](../../magpie/internal/library/mcp_check.go#L242) |
-| checkSteps | type_spec |  | [248](../../magpie/internal/library/mcp_check.go#L248) |
-| mu | field_declaration | checkSteps | [249](../../magpie/internal/library/mcp_check.go#L249) |
-| step | field_declaration | checkSteps | [250](../../magpie/internal/library/mcp_check.go#L250) |
-| each | field_declaration | checkSteps | [251](../../magpie/internal/library/mcp_check.go#L251) |
-| timer | field_declaration | checkSteps | [252](../../magpie/internal/library/mcp_check.go#L252) |
-| stepsKey | type_spec |  | [255](../../magpie/internal/library/mcp_check.go#L255) |
-| stepTo | function_declaration |  | [258](../../magpie/internal/library/mcp_check.go#L258) |
-| timedOut | function_declaration |  | [271](../../magpie/internal/library/mcp_check.go#L271) |
-| rpcMsg | type_spec |  | [282](../../magpie/internal/library/mcp_check.go#L282) |
-| ID | field_declaration | rpcMsg | [283](../../magpie/internal/library/mcp_check.go#L283) |
-| Method | field_declaration | rpcMsg | [284](../../magpie/internal/library/mcp_check.go#L284) |
-| Result | field_declaration | rpcMsg | [285](../../magpie/internal/library/mcp_check.go#L285) |
-| Error | field_declaration | rpcMsg | [286](../../magpie/internal/library/mcp_check.go#L286) |
-| Code | field_declaration | rpcMsg::Error | [287](../../magpie/internal/library/mcp_check.go#L287) |
-| Message | field_declaration | rpcMsg::Error | [288](../../magpie/internal/library/mcp_check.go#L288) |
-| is | method_declaration |  | [292](../../magpie/internal/library/mcp_check.go#L292) |
-| request | function_declaration |  | [294](../../magpie/internal/library/mcp_check.go#L294) |
-| initializeReq | function_declaration |  | [303](../../magpie/internal/library/mcp_check.go#L303) |
-| initializedNote | var_spec |  | [311](../../magpie/internal/library/mcp_check.go#L311) |
-| Tool | type_spec |  | [315](../../magpie/internal/library/mcp_check.go#L315) |
-| Name | field_declaration | Tool | [316](../../magpie/internal/library/mcp_check.go#L316) |
-| Description | field_declaration | Tool | [317](../../magpie/internal/library/mcp_check.go#L317) |
-| maxToolList | const_spec |  | [324](../../magpie/internal/library/mcp_check.go#L324) |
-| maxToolName | const_spec |  | [325](../../magpie/internal/library/mcp_check.go#L325) |
-| maxToolDesc | const_spec |  | [326](../../magpie/internal/library/mcp_check.go#L326) |
-| maxToolPages | const_spec |  | [327](../../magpie/internal/library/mcp_check.go#L327) |
-| clip | function_declaration |  | [331](../../magpie/internal/library/mcp_check.go#L331) |
-| toolDesc | function_declaration |  | [341](../../magpie/internal/library/mcp_check.go#L341) |
-| toolsOf | function_declaration |  | [351](../../magpie/internal/library/mcp_check.go#L351) |
-| r | var_spec | toolsOf | [358](../../magpie/internal/library/mcp_check.go#L358) |
-| Tools | field_declaration | toolsOf::r | [359](../../magpie/internal/library/mcp_check.go#L359) |
-| Name | field_declaration | toolsOf::r::Tools | [360](../../magpie/internal/library/mcp_check.go#L360) |
-| Title | field_declaration | toolsOf::r::Tools | [361](../../magpie/internal/library/mcp_check.go#L361) |
-| Description | field_declaration | toolsOf::r::Tools | [362](../../magpie/internal/library/mcp_check.go#L362) |
-| NextCursor | field_declaration | toolsOf::r | [364](../../magpie/internal/library/mcp_check.go#L364) |
-| listTools | function_declaration |  | [386](../../magpie/internal/library/mcp_check.go#L386) |
-| all | var_spec | listTools | [387](../../magpie/internal/library/mcp_check.go#L387) |
-| params | var_spec | listTools | [391](../../magpie/internal/library/mcp_check.go#L391) |
-| initError | function_declaration |  | [423](../../magpie/internal/library/mcp_check.go#L423) |
-| tail | type_spec |  | [435](../../magpie/internal/library/mcp_check.go#L435) |
-| mu | field_declaration | tail | [436](../../magpie/internal/library/mcp_check.go#L436) |
-| buf | field_declaration | tail | [437](../../magpie/internal/library/mcp_check.go#L437) |
-| Write | method_declaration |  | [440](../../magpie/internal/library/mcp_check.go#L440) |
-| last | method_declaration |  | [450](../../magpie/internal/library/mcp_check.go#L450) |
-| checkStdio | function_declaration |  | [463](../../magpie/internal/library/mcp_check.go#L463) |
-| done | var_spec | checkStdio | [468](../../magpie/internal/library/mcp_check.go#L468) |
-| first | var_spec | checkStdio | [469](../../magpie/internal/library/mcp_check.go#L469) |
-| stdioProgram | function_declaration |  | [502](../../magpie/internal/library/mcp_check.go#L502) |
-| withPath | function_declaration |  | [517](../../magpie/internal/library/mcp_check.go#L517) |
-| checkStdioAt | function_declaration |  | [533](../../magpie/internal/library/mcp_check.go#L533) |
-| cmd | var_spec | checkStdioAt | [540](../../magpie/internal/library/mcp_check.go#L540) |
-| t | var_spec | checkStdioAt | [541](../../magpie/internal/library/mcp_check.go#L541) |
-| prog | var_spec | checkStdioAt | [545](../../magpie/internal/library/mcp_check.go#L545) |
-| err | var_spec | checkStdioAt | [549](../../magpie/internal/library/mcp_check.go#L549) |
-| rctx | var_spec | checkStdioAt | [562](../../magpie/internal/library/mcp_check.go#L562) |
-| names | var_spec | checkStdioAt | [584](../../magpie/internal/library/mcp_check.go#L584) |
-| exitErr | var_spec | checkStdioAt | [612](../../magpie/internal/library/mcp_check.go#L612) |
-| m | var_spec | checkStdioAt | [632](../../magpie/internal/library/mcp_check.go#L632) |
-| exitHealth | function_declaration |  | [701](../../magpie/internal/library/mcp_check.go#L701) |
-| ee | var_spec | exitHealth | [703](../../magpie/internal/library/mcp_check.go#L703) |
-| remoteHeaders | function_declaration |  | [714](../../magpie/internal/library/mcp_check.go#L714) |
-| netHealth | function_declaration |  | [735](../../magpie/internal/library/mcp_check.go#L735) |
-| ue | var_spec | netHealth | [742](../../magpie/internal/library/mcp_check.go#L742) |
-| dns | var_spec | netHealth | [746](../../magpie/internal/library/mcp_check.go#L746) |
-| refused | function_declaration |  | [755](../../magpie/internal/library/mcp_check.go#L755) |
+| Why | field_declaration | ServerHealth | [52](../../magpie/internal/library/mcp_check.go#L52) |
+| Code | field_declaration | ServerHealth | [53](../../magpie/internal/library/mcp_check.go#L53) |
+| Detail | field_declaration | ServerHealth | [54](../../magpie/internal/library/mcp_check.go#L54) |
+| OAuth | field_declaration | ServerHealth | [57](../../magpie/internal/library/mcp_check.go#L57) |
+| SignIn | field_declaration | ServerHealth | [61](../../magpie/internal/library/mcp_check.go#L61) |
+| AgentSignIn | field_declaration | ServerHealth | [66](../../magpie/internal/library/mcp_check.go#L66) |
+| Step | field_declaration | ServerHealth | [70](../../magpie/internal/library/mcp_check.go#L70) |
+| Waited | field_declaration | ServerHealth | [71](../../magpie/internal/library/mcp_check.go#L71) |
+| Checked | field_declaration | ServerHealth | [76](../../magpie/internal/library/mcp_check.go#L76) |
+| Project | field_declaration | ServerHealth | [81](../../magpie/internal/library/mcp_check.go#L81) |
+| At | field_declaration | ServerHealth | [82](../../magpie/internal/library/mcp_check.go#L82) |
+| stdioStep | var_spec |  | [92](../../magpie/internal/library/mcp_check.go#L92) |
+| remoteStep | var_spec |  | [93](../../magpie/internal/library/mcp_check.go#L93) |
+| checkAtOnce | const_spec |  | [98](../../magpie/internal/library/mcp_check.go#L98) |
+| mcpProtocol | const_spec |  | [100](../../magpie/internal/library/mcp_check.go#L100) |
+| checkClient | var_spec |  | [102](../../magpie/internal/library/mcp_check.go#L102) |
+| checkTransport | function_declaration |  | [104](../../magpie/internal/library/mcp_check.go#L104) |
+| checked | var_spec |  | [113](../../magpie/internal/library/mcp_check.go#L113) |
+| m | field_declaration | checked | [115](../../magpie/internal/library/mcp_check.go#L115) |
+| checkedServer | type_spec |  | [118](../../magpie/internal/library/mcp_check.go#L118) |
+| key | field_declaration | checkedServer | [119](../../magpie/internal/library/mcp_check.go#L119) |
+| h | field_declaration | checkedServer | [120](../../magpie/internal/library/mcp_check.go#L120) |
+| healthKey | function_declaration |  | [123](../../magpie/internal/library/mcp_check.go#L123) |
+| sides | var_spec | healthKey | [130](../../magpie/internal/library/mcp_check.go#L130) |
+| CheckServers | function_declaration |  | [145](../../magpie/internal/library/mcp_check.go#L145) |
+| list | var_spec | CheckServers | [152](../../magpie/internal/library/mcp_check.go#L152) |
+| outMu | var_spec | CheckServers | [164](../../magpie/internal/library/mcp_check.go#L164) |
+| wg | var_spec | CheckServers | [165](../../magpie/internal/library/mcp_check.go#L165) |
+| CheckServer | function_declaration |  | [210](../../magpie/internal/library/mcp_check.go#L210) |
+| checkServer | function_declaration |  | [217](../../magpie/internal/library/mcp_check.go#L217) |
+| h | var_spec | checkServer | [227](../../magpie/internal/library/mcp_check.go#L227) |
+| failed | function_declaration |  | [252](../../magpie/internal/library/mcp_check.go#L252) |
+| checkSteps | type_spec |  | [258](../../magpie/internal/library/mcp_check.go#L258) |
+| mu | field_declaration | checkSteps | [259](../../magpie/internal/library/mcp_check.go#L259) |
+| step | field_declaration | checkSteps | [260](../../magpie/internal/library/mcp_check.go#L260) |
+| each | field_declaration | checkSteps | [261](../../magpie/internal/library/mcp_check.go#L261) |
+| timer | field_declaration | checkSteps | [262](../../magpie/internal/library/mcp_check.go#L262) |
+| stepsKey | type_spec |  | [265](../../magpie/internal/library/mcp_check.go#L265) |
+| stepTo | function_declaration |  | [268](../../magpie/internal/library/mcp_check.go#L268) |
+| timedOut | function_declaration |  | [281](../../magpie/internal/library/mcp_check.go#L281) |
+| rpcMsg | type_spec |  | [292](../../magpie/internal/library/mcp_check.go#L292) |
+| ID | field_declaration | rpcMsg | [293](../../magpie/internal/library/mcp_check.go#L293) |
+| Method | field_declaration | rpcMsg | [294](../../magpie/internal/library/mcp_check.go#L294) |
+| Result | field_declaration | rpcMsg | [295](../../magpie/internal/library/mcp_check.go#L295) |
+| Error | field_declaration | rpcMsg | [296](../../magpie/internal/library/mcp_check.go#L296) |
+| Code | field_declaration | rpcMsg::Error | [297](../../magpie/internal/library/mcp_check.go#L297) |
+| Message | field_declaration | rpcMsg::Error | [298](../../magpie/internal/library/mcp_check.go#L298) |
+| is | method_declaration |  | [302](../../magpie/internal/library/mcp_check.go#L302) |
+| request | function_declaration |  | [304](../../magpie/internal/library/mcp_check.go#L304) |
+| initializeReq | function_declaration |  | [313](../../magpie/internal/library/mcp_check.go#L313) |
+| initParams | function_declaration |  | [315](../../magpie/internal/library/mcp_check.go#L315) |
+| initializedNote | var_spec |  | [323](../../magpie/internal/library/mcp_check.go#L323) |
+| Tool | type_spec |  | [327](../../magpie/internal/library/mcp_check.go#L327) |
+| Name | field_declaration | Tool | [328](../../magpie/internal/library/mcp_check.go#L328) |
+| Description | field_declaration | Tool | [329](../../magpie/internal/library/mcp_check.go#L329) |
+| maxToolList | const_spec |  | [336](../../magpie/internal/library/mcp_check.go#L336) |
+| maxToolName | const_spec |  | [337](../../magpie/internal/library/mcp_check.go#L337) |
+| maxToolDesc | const_spec |  | [338](../../magpie/internal/library/mcp_check.go#L338) |
+| maxToolPages | const_spec |  | [339](../../magpie/internal/library/mcp_check.go#L339) |
+| clip | function_declaration |  | [343](../../magpie/internal/library/mcp_check.go#L343) |
+| toolDesc | function_declaration |  | [353](../../magpie/internal/library/mcp_check.go#L353) |
+| toolsOf | function_declaration |  | [363](../../magpie/internal/library/mcp_check.go#L363) |
+| r | var_spec | toolsOf | [370](../../magpie/internal/library/mcp_check.go#L370) |
+| Tools | field_declaration | toolsOf::r | [371](../../magpie/internal/library/mcp_check.go#L371) |
+| Name | field_declaration | toolsOf::r::Tools | [372](../../magpie/internal/library/mcp_check.go#L372) |
+| Title | field_declaration | toolsOf::r::Tools | [373](../../magpie/internal/library/mcp_check.go#L373) |
+| Description | field_declaration | toolsOf::r::Tools | [374](../../magpie/internal/library/mcp_check.go#L374) |
+| NextCursor | field_declaration | toolsOf::r | [376](../../magpie/internal/library/mcp_check.go#L376) |
+| listTools | function_declaration |  | [398](../../magpie/internal/library/mcp_check.go#L398) |
+| all | var_spec | listTools | [399](../../magpie/internal/library/mcp_check.go#L399) |
+| params | var_spec | listTools | [403](../../magpie/internal/library/mcp_check.go#L403) |
+| initError | function_declaration |  | [435](../../magpie/internal/library/mcp_check.go#L435) |
+| tail | type_spec |  | [447](../../magpie/internal/library/mcp_check.go#L447) |
+| mu | field_declaration | tail | [448](../../magpie/internal/library/mcp_check.go#L448) |
+| buf | field_declaration | tail | [449](../../magpie/internal/library/mcp_check.go#L449) |
+| Write | method_declaration |  | [452](../../magpie/internal/library/mcp_check.go#L452) |
+| last | method_declaration |  | [462](../../magpie/internal/library/mcp_check.go#L462) |
+| checkStdio | function_declaration |  | [475](../../magpie/internal/library/mcp_check.go#L475) |
+| done | var_spec | checkStdio | [480](../../magpie/internal/library/mcp_check.go#L480) |
+| first | var_spec | checkStdio | [481](../../magpie/internal/library/mcp_check.go#L481) |
+| stdioProgram | function_declaration |  | [514](../../magpie/internal/library/mcp_check.go#L514) |
+| withPath | function_declaration |  | [529](../../magpie/internal/library/mcp_check.go#L529) |
+| startServer | function_declaration |  | [550](../../magpie/internal/library/mcp_check.go#L550) |
+| cmd | var_spec | startServer | [559](../../magpie/internal/library/mcp_check.go#L559) |
+| t | var_spec | startServer | [560](../../magpie/internal/library/mcp_check.go#L560) |
+| prog | var_spec | startServer | [564](../../magpie/internal/library/mcp_check.go#L564) |
+| err | var_spec | startServer | [568](../../magpie/internal/library/mcp_check.go#L568) |
+| rctx | var_spec | startServer | [581](../../magpie/internal/library/mcp_check.go#L581) |
+| names | var_spec | startServer | [606](../../magpie/internal/library/mcp_check.go#L606) |
+| checkStdioAt | function_declaration |  | [643](../../magpie/internal/library/mcp_check.go#L643) |
+| inProject | function_declaration |  | [659](../../magpie/internal/library/mcp_check.go#L659) |
+| inHome | function_declaration |  | [682](../../magpie/internal/library/mcp_check.go#L682) |
+| checkStdioIn | function_declaration |  | [700](../../magpie/internal/library/mcp_check.go#L700) |
+| exitErr | var_spec | checkStdioIn | [705](../../magpie/internal/library/mcp_check.go#L705) |
+| m | var_spec | checkStdioIn | [725](../../magpie/internal/library/mcp_check.go#L725) |
+| exitHealth | function_declaration |  | [794](../../magpie/internal/library/mcp_check.go#L794) |

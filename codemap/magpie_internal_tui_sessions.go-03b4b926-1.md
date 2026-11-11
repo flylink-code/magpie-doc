@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/sessions.go) · page 1/1
 
-Source SHA-256: d739f210b68e4fdfcdc0025894f6d5d8426de1efa4ebe4e4fe6ddc60d10420fd
+Source SHA-256: 4dd91d9e9c41ce3eb2be2e9c92c0533618dc461fc8333156a196a8f15f61143f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,30 +18,31 @@ Source SHA-256: d739f210b68e4fdfcdc0025894f6d5d8426de1efa4ebe4e4fe6ddc60d10420fd
 | value | field_declaration | sessFilterMsg | [41](../../magpie/internal/tui/sessions.go#L41) |
 | reloadSessions | method_declaration |  | [44](../../magpie/internal/tui/sessions.go#L44) |
 | sessShown | method_declaration |  | [56](../../magpie/internal/tui/sessions.go#L56) |
-| sessFilter | function_declaration |  | [60](../../magpie/internal/tui/sessions.go#L60) |
-| since | var_spec | sessFilter | [61](../../magpie/internal/tui/sessions.go#L61) |
-| out | var_spec | sessFilter | [66](../../magpie/internal/tui/sessions.go#L66) |
-| updateSessions | method_declaration |  | [79](../../magpie/internal/tui/sessions.go#L79) |
-| resumeSession | function_declaration |  | [135](../../magpie/internal/tui/sessions.go#L135) |
-| openSessPick | method_declaration |  | [157](../../magpie/internal/tui/sessions.go#L157) |
-| viewSessions | method_declaration |  | [185](../../magpie/internal/tui/sessions.go#L185) |
-| b | var_spec | viewSessions | [186](../../magpie/internal/tui/sessions.go#L186) |
-| sessBar | function_declaration |  | [199](../../magpie/internal/tui/sessions.go#L199) |
-| tabs | var_spec | sessBar | [200](../../magpie/internal/tui/sessions.go#L200) |
-| sessListLines | function_declaration |  | [224](../../magpie/internal/tui/sessions.go#L224) |
-| out | var_spec | sessListLines | [225](../../magpie/internal/tui/sessions.go#L225) |
-| row | type_spec | sessListLines | [241](../../magpie/internal/tui/sessions.go#L241) |
-| when | field_declaration | sessListLines::row | [241](../../magpie/internal/tui/sessions.go#L241) |
-| wn | var_spec | sessListLines | [243](../../magpie/internal/tui/sessions.go#L243) |
-| sessAgo | function_declaration |  | [294](../../magpie/internal/tui/sessions.go#L294) |
-| sessLines | function_declaration |  | [311](../../magpie/internal/tui/sessions.go#L311) |
-| out | var_spec | sessLines | [312](../../magpie/internal/tui/sessions.go#L312) |
-| sessChart | function_declaration |  | [399](../../magpie/internal/tui/sessions.go#L399) |
-| label | const_spec | sessChart | [403](../../magpie/internal/tui/sessions.go#L403) |
-| bucket | type_spec | sessChart | [412](../../magpie/internal/tui/sessions.go#L412) |
-| date | field_declaration | sessChart::bucket | [413](../../magpie/internal/tui/sessions.go#L413) |
-| value | field_declaration | sessChart::bucket | [414](../../magpie/internal/tui/sessions.go#L414) |
-| bs | var_spec | sessChart | [416](../../magpie/internal/tui/sessions.go#L416) |
-| sb | var_spec | sessChart | [444](../../magpie/internal/tui/sessions.go#L444) |
-| shortDate | function_declaration |  | [478](../../magpie/internal/tui/sessions.go#L478) |
-| tildePath | function_declaration |  | [486](../../magpie/internal/tui/sessions.go#L486) |
+| sessNothing | function_declaration |  | [62](../../magpie/internal/tui/sessions.go#L62) |
+| sessFilter | function_declaration |  | [69](../../magpie/internal/tui/sessions.go#L69) |
+| since | var_spec | sessFilter | [70](../../magpie/internal/tui/sessions.go#L70) |
+| out | var_spec | sessFilter | [75](../../magpie/internal/tui/sessions.go#L75) |
+| updateSessions | method_declaration |  | [88](../../magpie/internal/tui/sessions.go#L88) |
+| resumeSession | function_declaration |  | [144](../../magpie/internal/tui/sessions.go#L144) |
+| openSessPick | method_declaration |  | [167](../../magpie/internal/tui/sessions.go#L167) |
+| viewSessions | method_declaration |  | [195](../../magpie/internal/tui/sessions.go#L195) |
+| b | var_spec | viewSessions | [196](../../magpie/internal/tui/sessions.go#L196) |
+| sessBar | function_declaration |  | [209](../../magpie/internal/tui/sessions.go#L209) |
+| tabs | var_spec | sessBar | [210](../../magpie/internal/tui/sessions.go#L210) |
+| sessListLines | function_declaration |  | [234](../../magpie/internal/tui/sessions.go#L234) |
+| out | var_spec | sessListLines | [235](../../magpie/internal/tui/sessions.go#L235) |
+| row | type_spec | sessListLines | [251](../../magpie/internal/tui/sessions.go#L251) |
+| when | field_declaration | sessListLines::row | [251](../../magpie/internal/tui/sessions.go#L251) |
+| wn | var_spec | sessListLines | [253](../../magpie/internal/tui/sessions.go#L253) |
+| sessAgo | function_declaration |  | [304](../../magpie/internal/tui/sessions.go#L304) |
+| sessLines | function_declaration |  | [321](../../magpie/internal/tui/sessions.go#L321) |
+| out | var_spec | sessLines | [322](../../magpie/internal/tui/sessions.go#L322) |
+| sessChart | function_declaration |  | [409](../../magpie/internal/tui/sessions.go#L409) |
+| label | const_spec | sessChart | [413](../../magpie/internal/tui/sessions.go#L413) |
+| bucket | type_spec | sessChart | [422](../../magpie/internal/tui/sessions.go#L422) |
+| date | field_declaration | sessChart::bucket | [423](../../magpie/internal/tui/sessions.go#L423) |
+| value | field_declaration | sessChart::bucket | [424](../../magpie/internal/tui/sessions.go#L424) |
+| bs | var_spec | sessChart | [426](../../magpie/internal/tui/sessions.go#L426) |
+| sb | var_spec | sessChart | [454](../../magpie/internal/tui/sessions.go#L454) |
+| shortDate | function_declaration |  | [488](../../magpie/internal/tui/sessions.go#L488) |
+| tildePath | function_declaration |  | [496](../../magpie/internal/tui/sessions.go#L496) |

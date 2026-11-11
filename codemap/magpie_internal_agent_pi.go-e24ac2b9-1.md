@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/pi.go) · page 1/1
 
-Source SHA-256: a025ebb46577d5618bea3f0170b76121013101c1941d0598b5abde7b705002c4
+Source SHA-256: aea27c1c1812fe44111224bdb4944ed6462f96fb72ec34c7c15a54c05a43c2f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

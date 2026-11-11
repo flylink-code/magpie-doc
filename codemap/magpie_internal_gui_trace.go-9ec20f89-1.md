@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/trace.go) · page 1/1
 
-Source SHA-256: 0140e0d050c4deb0a7bb7dfa22a67397ec71b406ac937e8a84a5b0b42d5af205
+Source SHA-256: 8b4988dcde19b46eabfb7769566b88e34cde1df919a29d087c53d2180f714e8b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -22,24 +22,39 @@ Source SHA-256: 0140e0d050c4deb0a7bb7dfa22a67397ec71b406ac937e8a84a5b0b42d5af205
 | rememberTitleHistory | function_declaration |  | [43](../../magpie/internal/gui/trace.go#L43) |
 | recalledTitleHistory | function_declaration |  | [74](../../magpie/internal/gui/trace.go#L74) |
 | pricedRoutes | function_declaration |  | [80](../../magpie/internal/gui/trace.go#L80) |
-| cacheCounted | function_declaration |  | [126](../../magpie/internal/gui/trace.go#L126) |
-| out | var_spec | cacheCounted | [127](../../magpie/internal/gui/trace.go#L127) |
-| cacheNotCounted | function_declaration |  | [145](../../magpie/internal/gui/trace.go#L145) |
-| publicRefs | function_declaration |  | [151](../../magpie/internal/gui/trace.go#L151) |
-| publicRoute | function_declaration |  | [173](../../magpie/internal/gui/trace.go#L173) |
-| mainView | function_declaration |  | [208](../../magpie/internal/gui/trace.go#L208) |
-| mainName | var_spec |  | [241](../../magpie/internal/gui/trace.go#L241) |
-| mainURL | function_declaration |  | [246](../../magpie/internal/gui/trace.go#L246) |
-| argView | function_declaration |  | [250](../../magpie/internal/gui/trace.go#L250) |
-| quotaView | function_declaration |  | [255](../../magpie/internal/gui/trace.go#L255) |
-| traceRoutes | function_declaration |  | [275](../../magpie/internal/gui/trace.go#L275) |
-| in | var_spec | traceRoutes | [279](../../magpie/internal/gui/trace.go#L279) |
-| IDs | field_declaration | traceRoutes::in | [280](../../magpie/internal/gui/trace.go#L280) |
-| Groups | field_declaration | traceRoutes::in | [281](../../magpie/internal/gui/trace.go#L281) |
-| RouteIDs | field_declaration | traceRoutes::in | [282](../../magpie/internal/gui/trace.go#L282) |
-| Day | field_declaration | traceRoutes::in | [283](../../magpie/internal/gui/trace.go#L283) |
-| Sessions | field_declaration | traceRoutes::in | [287](../../magpie/internal/gui/trace.go#L287) |
-| rows | var_spec | traceRoutes | [302](../../magpie/internal/gui/trace.go#L302) |
-| wait | var_spec | traceRoutes | [364](../../magpie/internal/gui/trace.go#L364) |
-| in | var_spec | traceRoutes | [391](../../magpie/internal/gui/trace.go#L391) |
-| Key | field_declaration | traceRoutes::in | [392](../../magpie/internal/gui/trace.go#L392) |
+| loose | var_spec | pricedRoutes | [99](../../magpie/internal/gui/trace.go#L99) |
+| convAgents | var_spec |  | [141](../../magpie/internal/gui/trace.go#L141) |
+| looseKeys | function_declaration |  | [151](../../magpie/internal/gui/trace.go#L151) |
+| out | var_spec | looseKeys | [155](../../magpie/internal/gui/trace.go#L155) |
+| looseRoute | function_declaration |  | [177](../../magpie/internal/gui/trace.go#L177) |
+| routeConvs | var_spec |  | [185](../../magpie/internal/gui/trace.go#L185) |
+| at | field_declaration | routeConvs | [187](../../magpie/internal/gui/trace.go#L187) |
+| of | field_declaration | routeConvs | [188](../../magpie/internal/gui/trace.go#L188) |
+| convsFresh | var_spec |  | [191](../../magpie/internal/gui/trace.go#L191) |
+| routeSessions | function_declaration |  | [196](../../magpie/internal/gui/trace.go#L196) |
+| cacheCounted | function_declaration |  | [221](../../magpie/internal/gui/trace.go#L221) |
+| out | var_spec | cacheCounted | [222](../../magpie/internal/gui/trace.go#L222) |
+| cacheNotCounted | function_declaration |  | [240](../../magpie/internal/gui/trace.go#L240) |
+| publicRefs | function_declaration |  | [246](../../magpie/internal/gui/trace.go#L246) |
+| publicRoute | function_declaration |  | [268](../../magpie/internal/gui/trace.go#L268) |
+| mainView | function_declaration |  | [305](../../magpie/internal/gui/trace.go#L305) |
+| mainName | var_spec |  | [349](../../magpie/internal/gui/trace.go#L349) |
+| mainFind | var_spec |  | [352](../../magpie/internal/gui/trace.go#L352) |
+| mainURL | function_declaration |  | [357](../../magpie/internal/gui/trace.go#L357) |
+| argView | function_declaration |  | [361](../../magpie/internal/gui/trace.go#L361) |
+| quotaView | function_declaration |  | [366](../../magpie/internal/gui/trace.go#L366) |
+| withGatewayTitles | function_declaration |  | [388](../../magpie/internal/gui/trace.go#L388) |
+| title | var_spec | withGatewayTitles | [389](../../magpie/internal/gui/trace.go#L389) |
+| codexReadableTitles | function_declaration |  | [417](../../magpie/internal/gui/trace.go#L417) |
+| keys | var_spec | codexReadableTitles | [419](../../magpie/internal/gui/trace.go#L419) |
+| traceRoutes | function_declaration |  | [439](../../magpie/internal/gui/trace.go#L439) |
+| in | var_spec | traceRoutes | [443](../../magpie/internal/gui/trace.go#L443) |
+| IDs | field_declaration | traceRoutes::in | [444](../../magpie/internal/gui/trace.go#L444) |
+| Groups | field_declaration | traceRoutes::in | [445](../../magpie/internal/gui/trace.go#L445) |
+| RouteIDs | field_declaration | traceRoutes::in | [446](../../magpie/internal/gui/trace.go#L446) |
+| Day | field_declaration | traceRoutes::in | [447](../../magpie/internal/gui/trace.go#L447) |
+| Sessions | field_declaration | traceRoutes::in | [451](../../magpie/internal/gui/trace.go#L451) |
+| rows | var_spec | traceRoutes | [466](../../magpie/internal/gui/trace.go#L466) |
+| wait | var_spec | traceRoutes | [528](../../magpie/internal/gui/trace.go#L528) |
+| in | var_spec | traceRoutes | [576](../../magpie/internal/gui/trace.go#L576) |
+| Key | field_declaration | traceRoutes::in | [577](../../magpie/internal/gui/trace.go#L577) |

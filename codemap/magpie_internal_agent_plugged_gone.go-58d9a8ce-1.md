@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/plugged_gone.go) · page 1/1
 
-Source SHA-256: 1822a6a88a330e86377244850bcd39f4298c7f723509667da236f46bc0932c60
+Source SHA-256: 428a88480c3f7f33ee044418ec58f86b56ca1870a871082d2c7dacfa30b1fd3f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

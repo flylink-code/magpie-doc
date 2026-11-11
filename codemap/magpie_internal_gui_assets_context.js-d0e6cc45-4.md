@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/context.js) · page 4/6
 
-Source SHA-256: d480917efbc728320a2f0e730846f448e8e6f154e3887529b05744507f9f498a
+Source SHA-256: 2533d21d426a195f3c4412467d0799e3d56b70d9c7aaf7cee5add8faf3b4d661
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| partOf | VariableDeclaration | ctxCard.fill | [816](../../magpie/internal/gui/assets/context.js#L816) |
-| made | VariableDeclaration | ctxCard.fill | [817](../../magpie/internal/gui/assets/context.js#L817) |
-| e | VariableDeclaration | ctxCard.fill | [819](../../magpie/internal/gui/assets/context.js#L819) |
-| cls | VariableDeclaration | ctxCard.fill | [825](../../magpie/internal/gui/assets/context.js#L825) |
-| over | VariableDeclaration | ctxCard.fill | [832](../../magpie/internal/gui/assets/context.js#L832) |
-| legend | VariableDeclaration | ctxCard.fill | [839](../../magpie/internal/gui/assets/context.js#L839) |
-| kind | VariableDeclaration | ctxCard.fill | [840](../../magpie/internal/gui/assets/context.js#L840) |
-| part | VariableDeclaration | ctxCard.fill | [841](../../magpie/internal/gui/assets/context.js#L841) |
-| li | VariableDeclaration | ctxCard.fill | [843](../../magpie/internal/gui/assets/context.js#L843) |
-| li | VariableDeclaration | ctxCard.fill | [852](../../magpie/internal/gui/assets/context.js#L852) |
-| look | VariableDeclaration | ctxCard.fill | [859](../../magpie/internal/gui/assets/context.js#L859) |
-| [k, name, ic] | VariableDeclaration | ctxCard.fill | [861](../../magpie/internal/gui/assets/context.js#L861) |
-| k | BindingElement | ctxCard.fill.[k, name, ic] | [861](../../magpie/internal/gui/assets/context.js#L861) |
-| name | BindingElement | ctxCard.fill.[k, name, ic] | [861](../../magpie/internal/gui/assets/context.js#L861) |
-| ic | BindingElement | ctxCard.fill.[k, name, ic] | [861](../../magpie/internal/gui/assets/context.js#L861) |
-| on | VariableDeclaration | ctxCard.fill | [862](../../magpie/internal/gui/assets/context.js#L862) |
-| b | VariableDeclaration | ctxCard.fill | [863](../../magpie/internal/gui/assets/context.js#L863) |
-| tabs | VariableDeclaration | ctxCard.fill | [876](../../magpie/internal/gui/assets/context.js#L876) |
-| id | BindingElement | ctxCard.fill | [877](../../magpie/internal/gui/assets/context.js#L877) |
-| key | VariableDeclaration | ctxCard.fill | [878](../../magpie/internal/gui/assets/context.js#L878) |
-| foot | VariableDeclaration | ctxCard.fill | [887](../../magpie/internal/gui/assets/context.js#L887) |
-| crumbs | VariableDeclaration | ctxCard.fill | [888](../../magpie/internal/gui/assets/context.js#L888) |
-| notes | VariableDeclaration | ctxCard.fill | [890](../../magpie/internal/gui/assets/context.js#L890) |
-| sp | VariableDeclaration | ctxCard.fill | [895](../../magpie/internal/gui/assets/context.js#L895) |
-| k | VariableDeclaration | ctxCard.fill | [907](../../magpie/internal/gui/assets/context.js#L907) |
-| clickable | FunctionDeclaration |  | [920](../../magpie/internal/gui/assets/context.js#L920) |
-| TEXT_STEP | VariableDeclaration |  | [940](../../magpie/internal/gui/assets/context.js#L940) |
-| ITEM_STEP | VariableDeclaration |  | [940](../../magpie/internal/gui/assets/context.js#L940) |
-| ROLE_NAMES | VariableDeclaration |  | [941](../../magpie/internal/gui/assets/context.js#L941) |
-| readText | FunctionDeclaration |  | [945](../../magpie/internal/gui/assets/context.js#L945) |
-| q | VariableDeclaration | readText | [946](../../magpie/internal/gui/assets/context.js#L946) |
-| res | VariableDeclaration | readText | [948](../../magpie/internal/gui/assets/context.js#L948) |
-| longText | FunctionDeclaration |  | [954](../../magpie/internal/gui/assets/context.js#L954) |
-| box | VariableDeclaration | longText | [955](../../magpie/internal/gui/assets/context.js#L955) |
-| pre | VariableDeclaration | longText | [956](../../magpie/internal/gui/assets/context.js#L956) |
-| at | VariableDeclaration | longText | [957](../../magpie/internal/gui/assets/context.js#L957) |
-| more | VariableDeclaration | longText | [958](../../magpie/internal/gui/assets/context.js#L958) |
-| step | VariableDeclaration | longText | [960](../../magpie/internal/gui/assets/context.js#L960) |
-| picture | FunctionDeclaration |  | [974](../../magpie/internal/gui/assets/context.js#L974) |
-| fig | VariableDeclaration | picture | [975](../../magpie/internal/gui/assets/context.js#L975) |
-| img | VariableDeclaration | picture | [978](../../magpie/internal/gui/assets/context.js#L978) |
-| first | VariableDeclaration | picture | [987](../../magpie/internal/gui/assets/context.js#L987) |
-| open | VariableDeclaration | picture | [988](../../magpie/internal/gui/assets/context.js#L988) |
-| last | VariableDeclaration | picture | [991](../../magpie/internal/gui/assets/context.js#L991) |
-| pieceView | FunctionDeclaration |  | [998](../../magpie/internal/gui/assets/context.js#L998) |
-| box | VariableDeclaration | pieceView | [999](../../magpie/internal/gui/assets/context.js#L999) |
-| head | VariableDeclaration | pieceView | [1000](../../magpie/internal/gui/assets/context.js#L1000) |
-| openCtxText | FunctionDeclaration |  | [1016](../../magpie/internal/gui/assets/context.js#L1016) |
-| ed | VariableDeclaration | openCtxText | [1018](../../magpie/internal/gui/assets/context.js#L1018) |
-| head | VariableDeclaration | openCtxText | [1019](../../magpie/internal/gui/assets/context.js#L1019) |
-| title | VariableDeclaration | openCtxText | [1020](../../magpie/internal/gui/assets/context.js#L1020) |
-| total | VariableDeclaration | openCtxText | [1021](../../magpie/internal/gui/assets/context.js#L1021) |
-| body | VariableDeclaration | openCtxText | [1023](../../magpie/internal/gui/assets/context.js#L1023) |
-| bar | VariableDeclaration | openCtxText | [1025](../../magpie/internal/gui/assets/context.js#L1025) |
-| close | VariableDeclaration | openCtxText | [1026](../../magpie/internal/gui/assets/context.js#L1026) |
-| gone | VariableDeclaration | openCtxText | [1033](../../magpie/internal/gui/assets/context.js#L1033) |
-| list | VariableDeclaration | openCtxText | [1034](../../magpie/internal/gui/assets/context.js#L1034) |
-| err | VariableDeclaration | openCtxText | [1035](../../magpie/internal/gui/assets/context.js#L1035) |
-| items | VariableDeclaration | openCtxText | [1038](../../magpie/internal/gui/assets/context.js#L1038) |
-| note | VariableDeclaration | openCtxText | [1040](../../magpie/internal/gui/assets/context.js#L1040) |
-| at | VariableDeclaration | openCtxText | [1042](../../magpie/internal/gui/assets/context.js#L1042) |
-| entry | VariableDeclaration | openCtxText | [1044](../../magpie/internal/gui/assets/context.js#L1044) |
-| box | VariableDeclaration | openCtxText.entry | [1045](../../magpie/internal/gui/assets/context.js#L1045) |
-| h | VariableDeclaration | openCtxText.entry | [1046](../../magpie/internal/gui/assets/context.js#L1046) |
-| tg | VariableDeclaration | openCtxText.entry | [1049](../../magpie/internal/gui/assets/context.js#L1049) |
-| text | VariableDeclaration | openCtxText.entry | [1055](../../magpie/internal/gui/assets/context.js#L1055) |
-| read | VariableDeclaration | openCtxText.entry | [1057](../../magpie/internal/gui/assets/context.js#L1057) |
-| show | VariableDeclaration | openCtxText.entry | [1058](../../magpie/internal/gui/assets/context.js#L1058) |
-| on | VariableDeclaration | openCtxText.entry.show | [1059](../../magpie/internal/gui/assets/context.js#L1059) |
-| pieces | VariableDeclaration | openCtxText.entry.show | [1066](../../magpie/internal/gui/assets/context.js#L1066) |
-| showAll | VariableDeclaration | openCtxText | [1076](../../magpie/internal/gui/assets/context.js#L1076) |
-| rows | VariableDeclaration | openCtxText.showAll | [1078](../../magpie/internal/gui/assets/context.js#L1078) |
-| shown | VariableDeclaration | openCtxText.showAll | [1079](../../magpie/internal/gui/assets/context.js#L1079) |
-| more | VariableDeclaration | openCtxText.showAll | [1080](../../magpie/internal/gui/assets/context.js#L1080) |
-| step | VariableDeclaration | openCtxText.showAll | [1082](../../magpie/internal/gui/assets/context.js#L1082) |
-| next | VariableDeclaration | openCtxText.showAll.step | [1083](../../magpie/internal/gui/assets/context.js#L1083) |
-| all | VariableDeclaration | openCtxText | [1097](../../magpie/internal/gui/assets/context.js#L1097) |
-| CTX_RANGES | VariableDeclaration |  | [1113](../../magpie/internal/gui/assets/context.js#L1113) |
-| ctxDays | VariableDeclaration |  | [1114](../../magpie/internal/gui/assets/context.js#L1114) |
-| d | VariableDeclaration |  | [1115](../../magpie/internal/gui/assets/context.js#L1115) |
-| id | BindingElement |  | [1115](../../magpie/internal/gui/assets/context.js#L1115) |
-| ctxData | VariableDeclaration |  | [1116](../../magpie/internal/gui/assets/context.js#L1116) |
-| ctxJSON | VariableDeclaration |  | [1116](../../magpie/internal/gui/assets/context.js#L1116) |
-| ctxRead | VariableDeclaration |  | [1116](../../magpie/internal/gui/assets/context.js#L1116) |
-| ctxOpen | VariableDeclaration |  | [1116](../../magpie/internal/gui/assets/context.js#L1116) |
-| ctxAgent | VariableDeclaration |  | [1116](../../magpie/internal/gui/assets/context.js#L1116) |
-| ctxWaiting | VariableDeclaration |  | [1120](../../magpie/internal/gui/assets/context.js#L1120) |
-| SCORE_NAMES | VariableDeclaration |  | [1122](../../magpie/internal/gui/assets/context.js#L1122) |
-| SCORE_NOTES | VariableDeclaration |  | [1123](../../magpie/internal/gui/assets/context.js#L1123) |
-| TAGS | VariableDeclaration |  | [1129](../../magpie/internal/gui/assets/context.js#L1129) |
-| grade | VariableDeclaration |  | [1144](../../magpie/internal/gui/assets/context.js#L1144) |
-| ring | FunctionDeclaration |  | [1146](../../magpie/internal/gui/assets/context.js#L1146) |
-| r | VariableDeclaration | ring | [1147](../../magpie/internal/gui/assets/context.js#L1147) |
-| c | VariableDeclaration | ring | [1147](../../magpie/internal/gui/assets/context.js#L1147) |
-| [tone] | VariableDeclaration | ring | [1148](../../magpie/internal/gui/assets/context.js#L1148) |
-| tone | BindingElement | ring.[tone] | [1148](../../magpie/internal/gui/assets/context.js#L1148) |
-| box | VariableDeclaration | ring | [1149](../../magpie/internal/gui/assets/context.js#L1149) |
-| s | VariableDeclaration | ring | [1150](../../magpie/internal/gui/assets/context.js#L1150) |
-| shareBar | FunctionDeclaration |  | [1157](../../magpie/internal/gui/assets/context.js#L1157) |
-| bar | VariableDeclaration | shareBar | [1158](../../magpie/internal/gui/assets/context.js#L1158) |
+| used | VariableDeclaration | ctxCard.fill | [801](../../magpie/internal/gui/assets/context.js#L801) |
+| k | VariableDeclaration | ctxCard.fill | [802](../../magpie/internal/gui/assets/context.js#L802) |
+| [tone, word] | VariableDeclaration | ctxCard.fill | [805](../../magpie/internal/gui/assets/context.js#L805) |
+| tone | BindingElement | ctxCard.fill.[tone, word] | [805](../../magpie/internal/gui/assets/context.js#L805) |
+| word | BindingElement | ctxCard.fill.[tone, word] | [805](../../magpie/internal/gui/assets/context.js#L805) |
+| h | VariableDeclaration | ctxCard.fill | [806](../../magpie/internal/gui/assets/context.js#L806) |
+| big | VariableDeclaration | ctxCard.fill | [809](../../magpie/internal/gui/assets/context.js#L809) |
+| sub | VariableDeclaration | ctxCard.fill | [812](../../magpie/internal/gui/assets/context.js#L812) |
+| bits | VariableDeclaration | ctxCard.fill | [814](../../magpie/internal/gui/assets/context.js#L814) |
+| turns | VariableDeclaration | ctxCard.fill | [815](../../magpie/internal/gui/assets/context.js#L815) |
+| cache | VariableDeclaration | ctxCard.fill | [823](../../magpie/internal/gui/assets/context.js#L823) |
+| whose | VariableDeclaration | ctxCard.fill | [826](../../magpie/internal/gui/assets/context.js#L826) |
+| known | VariableDeclaration | ctxCard.fill | [829](../../magpie/internal/gui/assets/context.js#L829) |
+| shown | VariableDeclaration | ctxCard.fill | [837](../../magpie/internal/gui/assets/context.js#L837) |
+| c | VariableDeclaration | ctxCard.fill | [838](../../magpie/internal/gui/assets/context.js#L838) |
+| cb | VariableDeclaration | ctxCard.fill | [840](../../magpie/internal/gui/assets/context.js#L840) |
+| bar | VariableDeclaration | ctxCard.fill | [842](../../magpie/internal/gui/assets/context.js#L842) |
+| fillBar | VariableDeclaration | ctxCard.fill | [843](../../magpie/internal/gui/assets/context.js#L843) |
+| cells | VariableDeclaration | ctxCard.fill | [856](../../magpie/internal/gui/assets/context.js#L856) |
+| partOf | VariableDeclaration | ctxCard.fill | [857](../../magpie/internal/gui/assets/context.js#L857) |
+| made | VariableDeclaration | ctxCard.fill | [858](../../magpie/internal/gui/assets/context.js#L858) |
+| e | VariableDeclaration | ctxCard.fill | [860](../../magpie/internal/gui/assets/context.js#L860) |
+| cls | VariableDeclaration | ctxCard.fill | [866](../../magpie/internal/gui/assets/context.js#L866) |
+| over | VariableDeclaration | ctxCard.fill | [873](../../magpie/internal/gui/assets/context.js#L873) |
+| legend | VariableDeclaration | ctxCard.fill | [880](../../magpie/internal/gui/assets/context.js#L880) |
+| kind | VariableDeclaration | ctxCard.fill | [881](../../magpie/internal/gui/assets/context.js#L881) |
+| part | VariableDeclaration | ctxCard.fill | [882](../../magpie/internal/gui/assets/context.js#L882) |
+| li | VariableDeclaration | ctxCard.fill | [884](../../magpie/internal/gui/assets/context.js#L884) |
+| li | VariableDeclaration | ctxCard.fill | [893](../../magpie/internal/gui/assets/context.js#L893) |
+| look | VariableDeclaration | ctxCard.fill | [900](../../magpie/internal/gui/assets/context.js#L900) |
+| [k, name, ic] | VariableDeclaration | ctxCard.fill | [902](../../magpie/internal/gui/assets/context.js#L902) |
+| k | BindingElement | ctxCard.fill.[k, name, ic] | [902](../../magpie/internal/gui/assets/context.js#L902) |
+| name | BindingElement | ctxCard.fill.[k, name, ic] | [902](../../magpie/internal/gui/assets/context.js#L902) |
+| ic | BindingElement | ctxCard.fill.[k, name, ic] | [902](../../magpie/internal/gui/assets/context.js#L902) |
+| on | VariableDeclaration | ctxCard.fill | [903](../../magpie/internal/gui/assets/context.js#L903) |
+| b | VariableDeclaration | ctxCard.fill | [904](../../magpie/internal/gui/assets/context.js#L904) |
+| tabs | VariableDeclaration | ctxCard.fill | [917](../../magpie/internal/gui/assets/context.js#L917) |
+| id | BindingElement | ctxCard.fill | [918](../../magpie/internal/gui/assets/context.js#L918) |
+| key | VariableDeclaration | ctxCard.fill | [919](../../magpie/internal/gui/assets/context.js#L919) |
+| foot | VariableDeclaration | ctxCard.fill | [928](../../magpie/internal/gui/assets/context.js#L928) |
+| crumbs | VariableDeclaration | ctxCard.fill | [929](../../magpie/internal/gui/assets/context.js#L929) |
+| notes | VariableDeclaration | ctxCard.fill | [931](../../magpie/internal/gui/assets/context.js#L931) |
+| sp | VariableDeclaration | ctxCard.fill | [936](../../magpie/internal/gui/assets/context.js#L936) |
+| k | VariableDeclaration | ctxCard.fill | [948](../../magpie/internal/gui/assets/context.js#L948) |
+| clickable | FunctionDeclaration |  | [961](../../magpie/internal/gui/assets/context.js#L961) |
+| openCtxText | VariableDeclaration |  | [978](../../magpie/internal/gui/assets/context.js#L978) |
+| CTX_RANGES | VariableDeclaration |  | [984](../../magpie/internal/gui/assets/context.js#L984) |
+| ctxDays | VariableDeclaration |  | [985](../../magpie/internal/gui/assets/context.js#L985) |
+| d | VariableDeclaration |  | [986](../../magpie/internal/gui/assets/context.js#L986) |
+| id | BindingElement |  | [986](../../magpie/internal/gui/assets/context.js#L986) |
+| ctxData | VariableDeclaration |  | [987](../../magpie/internal/gui/assets/context.js#L987) |
+| ctxJSON | VariableDeclaration |  | [987](../../magpie/internal/gui/assets/context.js#L987) |
+| ctxRead | VariableDeclaration |  | [987](../../magpie/internal/gui/assets/context.js#L987) |
+| ctxOpen | VariableDeclaration |  | [987](../../magpie/internal/gui/assets/context.js#L987) |
+| ctxAgent | VariableDeclaration |  | [987](../../magpie/internal/gui/assets/context.js#L987) |
+| ctxWaiting | VariableDeclaration |  | [991](../../magpie/internal/gui/assets/context.js#L991) |
+| SCORE_NAMES | VariableDeclaration |  | [993](../../magpie/internal/gui/assets/context.js#L993) |
+| SCORE_NOTES | VariableDeclaration |  | [994](../../magpie/internal/gui/assets/context.js#L994) |
+| TAGS | VariableDeclaration |  | [1000](../../magpie/internal/gui/assets/context.js#L1000) |
+| grade | VariableDeclaration |  | [1015](../../magpie/internal/gui/assets/context.js#L1015) |
+| ring | FunctionDeclaration |  | [1017](../../magpie/internal/gui/assets/context.js#L1017) |
+| r | VariableDeclaration | ring | [1018](../../magpie/internal/gui/assets/context.js#L1018) |
+| c | VariableDeclaration | ring | [1018](../../magpie/internal/gui/assets/context.js#L1018) |
+| [tone] | VariableDeclaration | ring | [1019](../../magpie/internal/gui/assets/context.js#L1019) |
+| tone | BindingElement | ring.[tone] | [1019](../../magpie/internal/gui/assets/context.js#L1019) |
+| box | VariableDeclaration | ring | [1020](../../magpie/internal/gui/assets/context.js#L1020) |
+| s | VariableDeclaration | ring | [1021](../../magpie/internal/gui/assets/context.js#L1021) |
+| shareBar | FunctionDeclaration |  | [1028](../../magpie/internal/gui/assets/context.js#L1028) |
+| bar | VariableDeclaration | shareBar | [1029](../../magpie/internal/gui/assets/context.js#L1029) |
+| k | VariableDeclaration | shareBar | [1030](../../magpie/internal/gui/assets/context.js#L1030) |
+| v | VariableDeclaration | shareBar | [1031](../../magpie/internal/gui/assets/context.js#L1031) |
+| i | VariableDeclaration | shareBar | [1033](../../magpie/internal/gui/assets/context.js#L1033) |
+| agentCard | FunctionDeclaration |  | [1041](../../magpie/internal/gui/assets/context.js#L1041) |
+| card | VariableDeclaration | agentCard | [1042](../../magpie/internal/gui/assets/context.js#L1042) |
+| head | VariableDeclaration | agentCard | [1043](../../magpie/internal/gui/assets/context.js#L1043) |
+| who | VariableDeclaration | agentCard | [1044](../../magpie/internal/gui/assets/context.js#L1044) |
+| cl | VariableDeclaration | agentCard | [1046](../../magpie/internal/gui/assets/context.js#L1046) |
+| meta | VariableDeclaration | agentCard | [1047](../../magpie/internal/gui/assets/context.js#L1047) |
+| name | VariableDeclaration | agentCard | [1049](../../magpie/internal/gui/assets/context.js#L1049) |
+| [tone, word] | VariableDeclaration | agentCard | [1051](../../magpie/internal/gui/assets/context.js#L1051) |
+| tone | BindingElement | agentCard.[tone, word] | [1051](../../magpie/internal/gui/assets/context.js#L1051) |
+| word | BindingElement | agentCard.[tone, word] | [1051](../../magpie/internal/gui/assets/context.js#L1051) |
+| g | VariableDeclaration | agentCard | [1052](../../magpie/internal/gui/assets/context.js#L1052) |
+| scores | VariableDeclaration | agentCard | [1056](../../magpie/internal/gui/assets/context.js#L1056) |
+| s | VariableDeclaration | agentCard | [1057](../../magpie/internal/gui/assets/context.js#L1057) |
+| r | VariableDeclaration | agentCard | [1058](../../magpie/internal/gui/assets/context.js#L1058) |
+| row | VariableDeclaration | agentCard | [1059](../../magpie/internal/gui/assets/context.js#L1059) |
+| bar | VariableDeclaration | agentCard | [1061](../../magpie/internal/gui/assets/context.js#L1061) |
+| f | VariableDeclaration | agentCard | [1062](../../magpie/internal/gui/assets/context.js#L1062) |
+| tags | VariableDeclaration | agentCard | [1069](../../magpie/internal/gui/assets/context.js#L1069) |
+| tg | VariableDeclaration | agentCard | [1070](../../magpie/internal/gui/assets/context.js#L1070) |
+| def | VariableDeclaration | agentCard | [1071](../../magpie/internal/gui/assets/context.js#L1071) |
+| chip | VariableDeclaration | agentCard | [1072](../../magpie/internal/gui/assets/context.js#L1072) |
+| facts | VariableDeclaration | agentCard | [1078](../../magpie/internal/gui/assets/context.js#L1078) |
+| fact | VariableDeclaration | agentCard | [1079](../../magpie/internal/gui/assets/context.js#L1079) |
+| f | VariableDeclaration | agentCard.fact | [1080](../../magpie/internal/gui/assets/context.js#L1080) |
+| mix | VariableDeclaration | agentCard | [1092](../../magpie/internal/gui/assets/context.js#L1092) |
+| keys | VariableDeclaration | agentCard | [1094](../../magpie/internal/gui/assets/context.js#L1094) |
+| k | VariableDeclaration | agentCard | [1095](../../magpie/internal/gui/assets/context.js#L1095) |
+| v | VariableDeclaration | agentCard | [1096](../../magpie/internal/gui/assets/context.js#L1096) |

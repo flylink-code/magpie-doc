@@ -4,76 +4,83 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/alma.go) · page 1/1
 
-Source SHA-256: 9a20f1953b84c14a1ba2f506f0e4ba105e2e1bb3cb19fff1161341b528cdc561
+Source SHA-256: 8a197e77e824f98ff00772a7c49b5d91f5c0dd09e42aa3407b2ddb897de2c438
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| almaAPI | var_spec |  | [45](../../magpie/internal/agent/alma.go#L45) |
-| almaClient | var_spec |  | [54](../../magpie/internal/agent/alma.go#L54) |
-| errAlmaDown | var_spec |  | [57](../../magpie/internal/agent/alma.go#L57) |
-| almaProvider | type_spec |  | [60](../../magpie/internal/agent/alma.go#L60) |
-| ID | field_declaration | almaProvider | [61](../../magpie/internal/agent/alma.go#L61) |
-| Name | field_declaration | almaProvider | [62](../../magpie/internal/agent/alma.go#L62) |
-| Type | field_declaration | almaProvider | [63](../../magpie/internal/agent/alma.go#L63) |
-| BaseURL | field_declaration | almaProvider | [64](../../magpie/internal/agent/alma.go#L64) |
-| APIKey | field_declaration | almaProvider | [65](../../magpie/internal/agent/alma.go#L65) |
-| Enabled | field_declaration | almaProvider | [66](../../magpie/internal/agent/alma.go#L66) |
-| Models | field_declaration | almaProvider | [67](../../magpie/internal/agent/alma.go#L67) |
-| Known | field_declaration | almaProvider | [68](../../magpie/internal/agent/alma.go#L68) |
-| almaModelIDs | type_spec |  | [77](../../magpie/internal/agent/alma.go#L77) |
-| UnmarshalJSON | method_declaration |  | [79](../../magpie/internal/agent/alma.go#L79) |
-| raw | var_spec | UnmarshalJSON | [80](../../magpie/internal/agent/alma.go#L80) |
-| id | var_spec | UnmarshalJSON | [87](../../magpie/internal/agent/alma.go#L87) |
-| m | var_spec | UnmarshalJSON | [89](../../magpie/internal/agent/alma.go#L89) |
-| ID | field_declaration | UnmarshalJSON::m | [90](../../magpie/internal/agent/alma.go#L90) |
-| almaDo | function_declaration |  | [106](../../magpie/internal/agent/alma.go#L106) |
-| almaLook | function_declaration |  | [115](../../magpie/internal/agent/alma.go#L115) |
-| almaAsk | function_declaration |  | [119](../../magpie/internal/agent/alma.go#L119) |
-| almaRead | var_spec |  | [135](../../magpie/internal/agent/alma.go#L135) |
-| at | field_declaration | almaRead | [137](../../magpie/internal/agent/alma.go#L137) |
-| body | field_declaration | almaRead | [138](../../magpie/internal/agent/alma.go#L138) |
-| gen | field_declaration | almaRead | [139](../../magpie/internal/agent/alma.go#L139) |
-| almaReadFor | var_spec |  | [144](../../magpie/internal/agent/alma.go#L144) |
-| almaSend | function_declaration |  | [151](../../magpie/internal/agent/alma.go#L151) |
-| rd | var_spec | almaSend | [164](../../magpie/internal/agent/alma.go#L164) |
-| e | var_spec | almaSend | [187](../../magpie/internal/agent/alma.go#L187) |
-| Error | field_declaration | almaSend::e | [188](../../magpie/internal/agent/alma.go#L188) |
-| almaProviders | function_declaration |  | [209](../../magpie/internal/agent/alma.go#L209) |
-| ps | var_spec | almaProviders | [210](../../magpie/internal/agent/alma.go#L210) |
-| almaProvidersSeen | function_declaration |  | [215](../../magpie/internal/agent/alma.go#L215) |
-| ps | var_spec | almaProvidersSeen | [216](../../magpie/internal/agent/alma.go#L216) |
-| almaMagpie | function_declaration |  | [223](../../magpie/internal/agent/alma.go#L223) |
-| almaModels | function_declaration |  | [239](../../magpie/internal/agent/alma.go#L239) |
-| almaLevels | var_spec |  | [272](../../magpie/internal/agent/alma.go#L272) |
-| almaCaps | function_declaration |  | [280](../../magpie/internal/agent/alma.go#L280) |
-| levels | var_spec | almaCaps | [284](../../magpie/internal/agent/alma.go#L284) |
-| almaWithOverrides | function_declaration |  | [324](../../magpie/internal/agent/alma.go#L324) |
-| almaSameModels | function_declaration |  | [362](../../magpie/internal/agent/alma.go#L362) |
-| sameJSONValue | function_declaration |  | [384](../../magpie/internal/agent/alma.go#L384) |
-| almaSyncModels | function_declaration |  | [392](../../magpie/internal/agent/alma.go#L392) |
-| almaWire | function_declaration |  | [402](../../magpie/internal/agent/alma.go#L402) |
-| made | var_spec | almaWire | [409](../../magpie/internal/agent/alma.go#L409) |
-| almaKey | function_declaration |  | [439](../../magpie/internal/agent/alma.go#L439) |
-| almaKeyed | function_declaration |  | [447](../../magpie/internal/agent/alma.go#L447) |
-| almaSettings | function_declaration |  | [456](../../magpie/internal/agent/alma.go#L456) |
-| almaSettingsSeen | function_declaration |  | [458](../../magpie/internal/agent/alma.go#L458) |
-| almaSettingsOf | function_declaration |  | [460](../../magpie/internal/agent/alma.go#L460) |
-| s | var_spec | almaSettingsOf | [461](../../magpie/internal/agent/alma.go#L461) |
-| almaDefault | function_declaration |  | [471](../../magpie/internal/agent/alma.go#L471) |
-| almaSetDefault | function_declaration |  | [479](../../magpie/internal/agent/alma.go#L479) |
-| almaImage | function_declaration |  | [497](../../magpie/internal/agent/alma.go#L497) |
-| almaSetImage | function_declaration |  | [510](../../magpie/internal/agent/alma.go#L510) |
-| almaPutImage | function_declaration |  | [540](../../magpie/internal/agent/alma.go#L540) |
-| almaGet | function_declaration |  | [553](../../magpie/internal/agent/alma.go#L553) |
-| almaSet | function_declaration |  | [573](../../magpie/internal/agent/alma.go#L573) |
-| almaOwn | function_declaration |  | [622](../../magpie/internal/agent/alma.go#L622) |
-| ms | var_spec | almaOwn | [623](../../magpie/internal/agent/alma.go#L623) |
-| ID | field_declaration | almaOwn::ms | [624](../../magpie/internal/agent/alma.go#L624) |
-| Name | field_declaration | almaOwn::ms | [625](../../magpie/internal/agent/alma.go#L625) |
-| Provider | field_declaration | almaOwn::ms | [626](../../magpie/internal/agent/alma.go#L626) |
-| ProviderID | field_declaration | almaOwn::ms | [627](../../magpie/internal/agent/alma.go#L627) |
-| out | var_spec | almaOwn | [637](../../magpie/internal/agent/alma.go#L637) |
-| almaDir | function_declaration |  | [659](../../magpie/internal/agent/alma.go#L659) |
-| dirs | var_spec | almaDir | [660](../../magpie/internal/agent/alma.go#L660) |
-| almaOS | var_spec |  | [686](../../magpie/internal/agent/alma.go#L686) |
-| alma | function_declaration |  | [688](../../magpie/internal/agent/alma.go#L688) |
+| almaAPI | var_spec |  | [46](../../magpie/internal/agent/alma.go#L46) |
+| almaClient | var_spec |  | [55](../../magpie/internal/agent/alma.go#L55) |
+| errAlmaDown | var_spec |  | [58](../../magpie/internal/agent/alma.go#L58) |
+| almaApp | var_spec |  | [67](../../magpie/internal/agent/alma.go#L67) |
+| almaInstalled | var_spec |  | [74](../../magpie/internal/agent/alma.go#L74) |
+| almaTakeOut | const_spec |  | [89](../../magpie/internal/agent/alma.go#L89) |
+| almaProvider | type_spec |  | [92](../../magpie/internal/agent/alma.go#L92) |
+| ID | field_declaration | almaProvider | [93](../../magpie/internal/agent/alma.go#L93) |
+| Name | field_declaration | almaProvider | [94](../../magpie/internal/agent/alma.go#L94) |
+| Type | field_declaration | almaProvider | [95](../../magpie/internal/agent/alma.go#L95) |
+| BaseURL | field_declaration | almaProvider | [96](../../magpie/internal/agent/alma.go#L96) |
+| APIKey | field_declaration | almaProvider | [97](../../magpie/internal/agent/alma.go#L97) |
+| Enabled | field_declaration | almaProvider | [98](../../magpie/internal/agent/alma.go#L98) |
+| Models | field_declaration | almaProvider | [99](../../magpie/internal/agent/alma.go#L99) |
+| Known | field_declaration | almaProvider | [100](../../magpie/internal/agent/alma.go#L100) |
+| almaModelIDs | type_spec |  | [109](../../magpie/internal/agent/alma.go#L109) |
+| UnmarshalJSON | method_declaration |  | [111](../../magpie/internal/agent/alma.go#L111) |
+| raw | var_spec | UnmarshalJSON | [112](../../magpie/internal/agent/alma.go#L112) |
+| id | var_spec | UnmarshalJSON | [119](../../magpie/internal/agent/alma.go#L119) |
+| m | var_spec | UnmarshalJSON | [121](../../magpie/internal/agent/alma.go#L121) |
+| ID | field_declaration | UnmarshalJSON::m | [122](../../magpie/internal/agent/alma.go#L122) |
+| almaDo | function_declaration |  | [138](../../magpie/internal/agent/alma.go#L138) |
+| almaLook | function_declaration |  | [147](../../magpie/internal/agent/alma.go#L147) |
+| almaAsk | function_declaration |  | [151](../../magpie/internal/agent/alma.go#L151) |
+| almaRead | var_spec |  | [167](../../magpie/internal/agent/alma.go#L167) |
+| at | field_declaration | almaRead | [169](../../magpie/internal/agent/alma.go#L169) |
+| body | field_declaration | almaRead | [170](../../magpie/internal/agent/alma.go#L170) |
+| gen | field_declaration | almaRead | [171](../../magpie/internal/agent/alma.go#L171) |
+| almaReadFor | var_spec |  | [176](../../magpie/internal/agent/alma.go#L176) |
+| almaSend | function_declaration |  | [183](../../magpie/internal/agent/alma.go#L183) |
+| rd | var_spec | almaSend | [196](../../magpie/internal/agent/alma.go#L196) |
+| e | var_spec | almaSend | [219](../../magpie/internal/agent/alma.go#L219) |
+| Error | field_declaration | almaSend::e | [220](../../magpie/internal/agent/alma.go#L220) |
+| almaProviders | function_declaration |  | [241](../../magpie/internal/agent/alma.go#L241) |
+| ps | var_spec | almaProviders | [242](../../magpie/internal/agent/alma.go#L242) |
+| almaProvidersSeen | function_declaration |  | [252](../../magpie/internal/agent/alma.go#L252) |
+| ps | var_spec | almaProvidersSeen | [268](../../magpie/internal/agent/alma.go#L268) |
+| almaSeen | var_spec |  | [279](../../magpie/internal/agent/alma.go#L279) |
+| body | field_declaration | almaSeen | [281](../../magpie/internal/agent/alma.go#L281) |
+| ps | field_declaration | almaSeen | [282](../../magpie/internal/agent/alma.go#L282) |
+| almaMagpie | function_declaration |  | [287](../../magpie/internal/agent/alma.go#L287) |
+| almaModels | function_declaration |  | [303](../../magpie/internal/agent/alma.go#L303) |
+| almaLevels | var_spec |  | [343](../../magpie/internal/agent/alma.go#L343) |
+| almaCaps | function_declaration |  | [351](../../magpie/internal/agent/alma.go#L351) |
+| levels | var_spec | almaCaps | [355](../../magpie/internal/agent/alma.go#L355) |
+| almaUserFirst | var_spec |  | [395](../../magpie/internal/agent/alma.go#L395) |
+| almaWithOverrides | function_declaration |  | [401](../../magpie/internal/agent/alma.go#L401) |
+| almaSameModels | function_declaration |  | [442](../../magpie/internal/agent/alma.go#L442) |
+| sameJSONValue | function_declaration |  | [467](../../magpie/internal/agent/alma.go#L467) |
+| almaSyncModels | function_declaration |  | [475](../../magpie/internal/agent/alma.go#L475) |
+| almaWire | function_declaration |  | [485](../../magpie/internal/agent/alma.go#L485) |
+| made | var_spec | almaWire | [492](../../magpie/internal/agent/alma.go#L492) |
+| almaKey | function_declaration |  | [522](../../magpie/internal/agent/alma.go#L522) |
+| almaKeyed | function_declaration |  | [530](../../magpie/internal/agent/alma.go#L530) |
+| almaSettings | function_declaration |  | [539](../../magpie/internal/agent/alma.go#L539) |
+| almaSettingsSeen | function_declaration |  | [541](../../magpie/internal/agent/alma.go#L541) |
+| almaSettingsOf | function_declaration |  | [543](../../magpie/internal/agent/alma.go#L543) |
+| s | var_spec | almaSettingsOf | [544](../../magpie/internal/agent/alma.go#L544) |
+| almaDefault | function_declaration |  | [554](../../magpie/internal/agent/alma.go#L554) |
+| almaSetDefault | function_declaration |  | [562](../../magpie/internal/agent/alma.go#L562) |
+| almaImage | function_declaration |  | [580](../../magpie/internal/agent/alma.go#L580) |
+| almaSetImage | function_declaration |  | [593](../../magpie/internal/agent/alma.go#L593) |
+| almaPutImage | function_declaration |  | [623](../../magpie/internal/agent/alma.go#L623) |
+| almaGet | function_declaration |  | [636](../../magpie/internal/agent/alma.go#L636) |
+| almaSet | function_declaration |  | [659](../../magpie/internal/agent/alma.go#L659) |
+| almaOwn | function_declaration |  | [722](../../magpie/internal/agent/alma.go#L722) |
+| ms | var_spec | almaOwn | [723](../../magpie/internal/agent/alma.go#L723) |
+| ID | field_declaration | almaOwn::ms | [724](../../magpie/internal/agent/alma.go#L724) |
+| Name | field_declaration | almaOwn::ms | [725](../../magpie/internal/agent/alma.go#L725) |
+| Provider | field_declaration | almaOwn::ms | [726](../../magpie/internal/agent/alma.go#L726) |
+| ProviderID | field_declaration | almaOwn::ms | [727](../../magpie/internal/agent/alma.go#L727) |
+| out | var_spec | almaOwn | [737](../../magpie/internal/agent/alma.go#L737) |
+| almaDir | function_declaration |  | [759](../../magpie/internal/agent/alma.go#L759) |
+| dirs | var_spec | almaDir | [760](../../magpie/internal/agent/alma.go#L760) |
+| almaOS | var_spec |  | [786](../../magpie/internal/agent/alma.go#L786) |
+| alma | function_declaration |  | [788](../../magpie/internal/agent/alma.go#L788) |

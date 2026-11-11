@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/cli_path.go) · page 1/1
 
-Source SHA-256: 5b1930e2602f381d613ccabe1f5275e8e6dc8a64cdbf0fe18a68ef4d6e0ed2bf
+Source SHA-256: 194109e7638bfbdd226d9f68cd01fdac9c119fdc1143a402a563a58a2baca809
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -36,25 +36,26 @@ Source SHA-256: 5b1930e2602f381d613ccabe1f5275e8e6dc8a64cdbf0fe18a68ef4d6e0ed2bf
 | ReadCLI | function_declaration |  | [73](../../magpie/internal/update/cli_path.go#L73) |
 | wg | var_spec | ReadCLI | [85](../../magpie/internal/update/cli_path.go#L85) |
 | def | var_spec | ReadCLI | [94](../../magpie/internal/update/cli_path.go#L94) |
-| AddCLI | function_declaration |  | [121](../../magpie/internal/update/cli_path.go#L121) |
-| sh | var_spec | AddCLI | [154](../../magpie/internal/update/cli_path.go#L154) |
-| Program | function_declaration |  | [180](../../magpie/internal/update/cli_path.go#L180) |
-| cliProgram | function_declaration |  | [185](../../magpie/internal/update/cli_path.go#L185) |
-| cliStuck | var_spec |  | [203](../../magpie/internal/update/cli_path.go#L203) |
-| cliNames | function_declaration |  | [210](../../magpie/internal/update/cli_path.go#L210) |
-| findCLI | function_declaration |  | [218](../../magpie/internal/update/cli_path.go#L218) |
-| sameFile | function_declaration |  | [233](../../magpie/internal/update/cli_path.go#L233) |
-| plistVersion | var_spec |  | [243](../../magpie/internal/update/cli_path.go#L243) |
-| cellarVer | var_spec |  | [244](../../magpie/internal/update/cli_path.go#L244) |
-| otherVersion | function_declaration |  | [249](../../magpie/internal/update/cli_path.go#L249) |
-| profileLine | function_declaration |  | [268](../../magpie/internal/update/cli_path.go#L268) |
-| profileMark | const_spec |  | [275](../../magpie/internal/update/cli_path.go#L275) |
-| addToProfile | function_declaration |  | [278](../../magpie/internal/update/cli_path.go#L278) |
-| cliProfile | function_declaration |  | [308](../../magpie/internal/update/cli_path.go#L308) |
-| tildeHome | function_declaration |  | [339](../../magpie/internal/update/cli_path.go#L339) |
-| shimName | const_spec |  | [353](../../magpie/internal/update/cli_path.go#L353) |
-| shimText | function_declaration |  | [356](../../magpie/internal/update/cli_path.go#L356) |
-| needsShim | function_declaration |  | [363](../../magpie/internal/update/cli_path.go#L363) |
-| writeShim | function_declaration |  | [369](../../magpie/internal/update/cli_path.go#L369) |
-| shimRuns | function_declaration |  | [384](../../magpie/internal/update/cli_path.go#L384) |
-| pathFirst | function_declaration |  | [394](../../magpie/internal/update/cli_path.go#L394) |
+| AddCLI | function_declaration |  | [123](../../magpie/internal/update/cli_path.go#L123) |
+| addCLI | function_declaration |  | [133](../../magpie/internal/update/cli_path.go#L133) |
+| sh | var_spec | addCLI | [166](../../magpie/internal/update/cli_path.go#L166) |
+| Program | function_declaration |  | [192](../../magpie/internal/update/cli_path.go#L192) |
+| cliProgram | function_declaration |  | [197](../../magpie/internal/update/cli_path.go#L197) |
+| cliStuck | var_spec |  | [215](../../magpie/internal/update/cli_path.go#L215) |
+| cliNames | function_declaration |  | [222](../../magpie/internal/update/cli_path.go#L222) |
+| findCLI | function_declaration |  | [232](../../magpie/internal/update/cli_path.go#L232) |
+| sameFile | function_declaration |  | [247](../../magpie/internal/update/cli_path.go#L247) |
+| plistVersion | var_spec |  | [257](../../magpie/internal/update/cli_path.go#L257) |
+| cellarVer | var_spec |  | [258](../../magpie/internal/update/cli_path.go#L258) |
+| otherVersion | function_declaration |  | [263](../../magpie/internal/update/cli_path.go#L263) |
+| profileLine | function_declaration |  | [282](../../magpie/internal/update/cli_path.go#L282) |
+| profileMark | const_spec |  | [289](../../magpie/internal/update/cli_path.go#L289) |
+| addToProfile | function_declaration |  | [292](../../magpie/internal/update/cli_path.go#L292) |
+| cliProfile | function_declaration |  | [322](../../magpie/internal/update/cli_path.go#L322) |
+| tildeHome | function_declaration |  | [353](../../magpie/internal/update/cli_path.go#L353) |
+| shimName | const_spec |  | [367](../../magpie/internal/update/cli_path.go#L367) |
+| shimText | function_declaration |  | [370](../../magpie/internal/update/cli_path.go#L370) |
+| needsShim | function_declaration |  | [377](../../magpie/internal/update/cli_path.go#L377) |
+| writeShim | function_declaration |  | [383](../../magpie/internal/update/cli_path.go#L383) |
+| shimRuns | function_declaration |  | [398](../../magpie/internal/update/cli_path.go#L398) |
+| pathFirst | function_declaration |  | [408](../../magpie/internal/update/cli_path.go#L408) |

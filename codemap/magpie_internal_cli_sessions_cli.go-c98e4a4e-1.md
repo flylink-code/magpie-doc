@@ -4,42 +4,46 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/sessions_cli.go) · page 1/1
 
-Source SHA-256: 4c0dd966acdb02d4eb42eaa2a8f668ff72d85c011df7cc23b2463215d8ea264d
+Source SHA-256: 27f1bdaaaaf0aa87a5c83124bcb2a5b7586286b4f6a6fb4f1bf478070793bbbe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sessionsUsage | const_spec |  | [18](../../magpie/internal/cli/sessions_cli.go#L18) |
-| sessionsCmd | function_declaration |  | [23](../../magpie/internal/cli/sessions_cli.go#L23) |
-| relocateClaudeTo | function_declaration |  | [30](../../magpie/internal/cli/sessions_cli.go#L30) |
-| usage | const_spec | relocateClaudeTo | [31](../../magpie/internal/cli/sessions_cli.go#L31) |
-| in | var_spec | relocateClaudeTo | [32](../../magpie/internal/cli/sessions_cli.go#L32) |
-| sessionsOpts | type_spec |  | [61](../../magpie/internal/cli/sessions_cli.go#L61) |
-| days | field_declaration | sessionsOpts | [62](../../magpie/internal/cli/sessions_cli.go#L62) |
-| model | field_declaration | sessionsOpts | [63](../../magpie/internal/cli/sessions_cli.go#L63) |
-| limit | field_declaration | sessionsOpts | [64](../../magpie/internal/cli/sessions_cli.go#L64) |
-| json | field_declaration | sessionsOpts | [65](../../magpie/internal/cli/sessions_cli.go#L65) |
-| parseSessionsArgs | function_declaration |  | [68](../../magpie/internal/cli/sessions_cli.go#L68) |
-| sessionsTo | function_declaration |  | [131](../../magpie/internal/cli/sessions_cli.go#L131) |
-| resolve | function_declaration |  | [150](../../magpie/internal/cli/sessions_cli.go#L150) |
-| found | var_spec | resolve | [174](../../magpie/internal/cli/sessions_cli.go#L174) |
-| agentNames | function_declaration |  | [193](../../magpie/internal/cli/sessions_cli.go#L193) |
-| sessionList | function_declaration |  | [202](../../magpie/internal/cli/sessions_cli.go#L202) |
-| models | var_spec | sessionList | [203](../../magpie/internal/cli/sessions_cli.go#L203) |
-| row | type_spec | sessionList | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| when | field_declaration | sessionList::row | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
-| wn | var_spec | sessionList | [255](../../magpie/internal/cli/sessions_cli.go#L255) |
-| hasModel | function_declaration |  | [275](../../magpie/internal/cli/sessions_cli.go#L275) |
-| sessionStats | function_declaration |  | [286](../../magpie/internal/cli/sessions_cli.go#L286) |
-| models | var_spec | sessionStats | [288](../../magpie/internal/cli/sessions_cli.go#L288) |
-| dirList | function_declaration |  | [392](../../magpie/internal/cli/sessions_cli.go#L392) |
-| out | var_spec | dirList | [393](../../magpie/internal/cli/sessions_cli.go#L393) |
-| rangeName | function_declaration |  | [400](../../magpie/internal/cli/sessions_cli.go#L400) |
-| rollupCost | function_declaration |  | [411](../../magpie/internal/cli/sessions_cli.go#L411) |
-| hitRate | function_declaration |  | [421](../../magpie/internal/cli/sessions_cli.go#L421) |
-| hbar | function_declaration |  | [429](../../magpie/internal/cli/sessions_cli.go#L429) |
-| agoAt | function_declaration |  | [442](../../magpie/internal/cli/sessions_cli.go#L442) |
-| nameOf | function_declaration |  | [457](../../magpie/internal/cli/sessions_cli.go#L457) |
-| oneLine | function_declaration |  | [464](../../magpie/internal/cli/sessions_cli.go#L464) |
-| trunc | function_declaration |  | [466](../../magpie/internal/cli/sessions_cli.go#L466) |
-| tildePath | function_declaration |  | [473](../../magpie/internal/cli/sessions_cli.go#L473) |
-| writeJSON | function_declaration |  | [480](../../magpie/internal/cli/sessions_cli.go#L480) |
+| sessionsUsage | const_spec |  | [19](../../magpie/internal/cli/sessions_cli.go#L19) |
+| sessionsCmd | function_declaration |  | [24](../../magpie/internal/cli/sessions_cli.go#L24) |
+| sessionReadsUsage | const_spec |  | [37](../../magpie/internal/cli/sessions_cli.go#L37) |
+| notAskedLine | const_spec |  | [41](../../magpie/internal/cli/sessions_cli.go#L41) |
+| sessionReadsTo | function_declaration |  | [47](../../magpie/internal/cli/sessions_cli.go#L47) |
+| all | var_spec | sessionReadsTo | [83](../../magpie/internal/cli/sessions_cli.go#L83) |
+| relocateClaudeTo | function_declaration |  | [109](../../magpie/internal/cli/sessions_cli.go#L109) |
+| usage | const_spec | relocateClaudeTo | [110](../../magpie/internal/cli/sessions_cli.go#L110) |
+| in | var_spec | relocateClaudeTo | [111](../../magpie/internal/cli/sessions_cli.go#L111) |
+| sessionsOpts | type_spec |  | [140](../../magpie/internal/cli/sessions_cli.go#L140) |
+| days | field_declaration | sessionsOpts | [141](../../magpie/internal/cli/sessions_cli.go#L141) |
+| model | field_declaration | sessionsOpts | [142](../../magpie/internal/cli/sessions_cli.go#L142) |
+| limit | field_declaration | sessionsOpts | [143](../../magpie/internal/cli/sessions_cli.go#L143) |
+| json | field_declaration | sessionsOpts | [144](../../magpie/internal/cli/sessions_cli.go#L144) |
+| parseSessionsArgs | function_declaration |  | [147](../../magpie/internal/cli/sessions_cli.go#L147) |
+| sessionsTo | function_declaration |  | [210](../../magpie/internal/cli/sessions_cli.go#L210) |
+| resolve | function_declaration |  | [229](../../magpie/internal/cli/sessions_cli.go#L229) |
+| found | var_spec | resolve | [253](../../magpie/internal/cli/sessions_cli.go#L253) |
+| agentNames | function_declaration |  | [272](../../magpie/internal/cli/sessions_cli.go#L272) |
+| sessionList | function_declaration |  | [281](../../magpie/internal/cli/sessions_cli.go#L281) |
+| models | var_spec | sessionList | [282](../../magpie/internal/cli/sessions_cli.go#L282) |
+| row | type_spec | sessionList | [332](../../magpie/internal/cli/sessions_cli.go#L332) |
+| when | field_declaration | sessionList::row | [332](../../magpie/internal/cli/sessions_cli.go#L332) |
+| wn | var_spec | sessionList | [334](../../magpie/internal/cli/sessions_cli.go#L334) |
+| hasModel | function_declaration |  | [354](../../magpie/internal/cli/sessions_cli.go#L354) |
+| sessionStats | function_declaration |  | [365](../../magpie/internal/cli/sessions_cli.go#L365) |
+| models | var_spec | sessionStats | [367](../../magpie/internal/cli/sessions_cli.go#L367) |
+| dirList | function_declaration |  | [471](../../magpie/internal/cli/sessions_cli.go#L471) |
+| out | var_spec | dirList | [472](../../magpie/internal/cli/sessions_cli.go#L472) |
+| rangeName | function_declaration |  | [479](../../magpie/internal/cli/sessions_cli.go#L479) |
+| rollupCost | function_declaration |  | [490](../../magpie/internal/cli/sessions_cli.go#L490) |
+| hitRate | function_declaration |  | [500](../../magpie/internal/cli/sessions_cli.go#L500) |
+| hbar | function_declaration |  | [508](../../magpie/internal/cli/sessions_cli.go#L508) |
+| agoAt | function_declaration |  | [521](../../magpie/internal/cli/sessions_cli.go#L521) |
+| nameOf | function_declaration |  | [536](../../magpie/internal/cli/sessions_cli.go#L536) |
+| oneLine | function_declaration |  | [543](../../magpie/internal/cli/sessions_cli.go#L543) |
+| trunc | function_declaration |  | [545](../../magpie/internal/cli/sessions_cli.go#L545) |
+| tildePath | function_declaration |  | [552](../../magpie/internal/cli/sessions_cli.go#L552) |
+| writeJSON | function_declaration |  | [559](../../magpie/internal/cli/sessions_cli.go#L559) |

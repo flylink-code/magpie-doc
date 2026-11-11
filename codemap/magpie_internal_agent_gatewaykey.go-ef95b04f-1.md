@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/gatewaykey.go) · page 1/1
 
-Source SHA-256: ac640a3be2959d17aa0210be98ffeaf9ea48c27ec0a2733a76e0c44e42071df3
+Source SHA-256: fe74e6a711da11e2d4cb4460ec66813f26544a146a5732394984418d9ae052cd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,5 +16,5 @@ Source SHA-256: ac640a3be2959d17aa0210be98ffeaf9ea48c27ec0a2733a76e0c44e42071df3
 | agentKey | function_declaration |  | [60](../../magpie/internal/agent/gatewaykey.go#L60) |
 | ourKey | function_declaration |  | [65](../../magpie/internal/agent/gatewaykey.go#L65) |
 | gatewayTakes | function_declaration |  | [77](../../magpie/internal/agent/gatewaykey.go#L77) |
-| gatewayKey | function_declaration |  | [85](../../magpie/internal/agent/gatewaykey.go#L85) |
-| keyHolds | function_declaration |  | [98](../../magpie/internal/agent/gatewaykey.go#L98) |
+| gatewayKey | function_declaration |  | [87](../../magpie/internal/agent/gatewaykey.go#L87) |
+| keyHolds | function_declaration |  | [100](../../magpie/internal/agent/gatewaykey.go#L100) |

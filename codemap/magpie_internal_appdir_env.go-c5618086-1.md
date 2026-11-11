@@ -4,16 +4,20 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/appdir/env.go) · page 1/1
 
-Source SHA-256: 3f312c1b44c40242df15da0cc244fbc8bfdbeb8049b413cf3d83cfcfda0cb331
+Source SHA-256: 30fd0de4bf50bdb860d59038162783a59be5ce0f77e502b5fc79d25bf52a1dc2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| homeVar | function_declaration |  | [15](../../magpie/internal/appdir/env.go#L15) |
-| rooted | function_declaration |  | [27](../../magpie/internal/appdir/env.go#L27) |
-| Home | function_declaration |  | [38](../../magpie/internal/appdir/env.go#L38) |
-| mustHome | function_declaration |  | [53](../../magpie/internal/appdir/env.go#L53) |
-| pathVars | var_spec |  | [64](../../magpie/internal/appdir/env.go#L64) |
-| usable | function_declaration |  | [84](../../magpie/internal/appdir/env.go#L84) |
-| LookupEnv | function_declaration |  | [101](../../magpie/internal/appdir/env.go#L101) |
-| Getenv | function_declaration |  | [110](../../magpie/internal/appdir/env.go#L110) |
-| CheckEnv | function_declaration |  | [118](../../magpie/internal/appdir/env.go#L118) |
+| homeVar | function_declaration |  | [17](../../magpie/internal/appdir/env.go#L17) |
+| rooted | function_declaration |  | [29](../../magpie/internal/appdir/env.go#L29) |
+| Home | function_declaration |  | [40](../../magpie/internal/appdir/env.go#L40) |
+| mustHome | function_declaration |  | [55](../../magpie/internal/appdir/env.go#L55) |
+| pathVars | var_spec |  | [66](../../magpie/internal/appdir/env.go#L66) |
+| usable | function_declaration |  | [86](../../magpie/internal/appdir/env.go#L86) |
+| LookupEnv | function_declaration |  | [107](../../magpie/internal/appdir/env.go#L107) |
+| Getenv | function_declaration |  | [116](../../magpie/internal/appdir/env.go#L116) |
+| CheckEnv | function_declaration |  | [124](../../magpie/internal/appdir/env.go#L124) |
+| GoneError | type_spec |  | [139](../../magpie/internal/appdir/env.go#L139) |
+| Var | field_declaration | GoneError | [140](../../magpie/internal/appdir/env.go#L140) |
+| Error | method_declaration |  | [143](../../magpie/internal/appdir/env.go#L143) |
+| Gone | function_declaration |  | [155](../../magpie/internal/appdir/env.go#L155) |

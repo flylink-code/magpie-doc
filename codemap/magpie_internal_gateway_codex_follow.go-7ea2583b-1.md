@@ -4,29 +4,26 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_follow.go) · page 1/1
 
-Source SHA-256: 73c0f63c45d5bc29208f12a538342b1afe08a6fda4641e625bc4e2c4778709e0
+Source SHA-256: a589928e50dd2a15c999a3c17d7bcec78a2c214bec70f6eb5dc4a11a6807fbef
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| CodexSideSet | var_spec |  | [34](../../magpie/internal/gateway/codex_follow.go#L34) |
-| codexLeadsCap | const_spec |  | [37](../../magpie/internal/gateway/codex_follow.go#L37) |
-| codexLeads | type_spec |  | [42](../../magpie/internal/gateway/codex_follow.go#L42) |
-| mu | field_declaration | codexLeads | [43](../../magpie/internal/gateway/codex_follow.go#L43) |
-| thread | field_declaration | codexLeads | [44](../../magpie/internal/gateway/codex_follow.go#L44) |
-| last | field_declaration | codexLeads | [45](../../magpie/internal/gateway/codex_follow.go#L45) |
-| next | field_declaration | codexLeads | [48](../../magpie/internal/gateway/codex_follow.go#L48) |
-| codexLead | type_spec |  | [51](../../magpie/internal/gateway/codex_follow.go#L51) |
-| model | field_declaration | codexLead | [52](../../magpie/internal/gateway/codex_follow.go#L52) |
-| at | field_declaration | codexLead | [53](../../magpie/internal/gateway/codex_follow.go#L53) |
-| saw | method_declaration |  | [57](../../magpie/internal/gateway/codex_follow.go#L57) |
-| of | method_declaration |  | [92](../../magpie/internal/gateway/codex_follow.go#L92) |
-| lookup | method_declaration |  | [99](../../magpie/internal/gateway/codex_follow.go#L99) |
-| codexSideFresh | var_spec |  | [121](../../magpie/internal/gateway/codex_follow.go#L121) |
-| codexSideWait | var_spec |  | [122](../../magpie/internal/gateway/codex_follow.go#L122) |
+| CodexSideSet | var_spec |  | [32](../../magpie/internal/gateway/codex_follow.go#L32) |
+| codexLeadsCap | const_spec |  | [35](../../magpie/internal/gateway/codex_follow.go#L35) |
+| codexLeads | type_spec |  | [40](../../magpie/internal/gateway/codex_follow.go#L40) |
+| mu | field_declaration | codexLeads | [41](../../magpie/internal/gateway/codex_follow.go#L41) |
+| thread | field_declaration | codexLeads | [42](../../magpie/internal/gateway/codex_follow.go#L42) |
+| last | field_declaration | codexLeads | [43](../../magpie/internal/gateway/codex_follow.go#L43) |
+| next | field_declaration | codexLeads | [46](../../magpie/internal/gateway/codex_follow.go#L46) |
+| codexLead | type_spec |  | [49](../../magpie/internal/gateway/codex_follow.go#L49) |
+| model | field_declaration | codexLead | [50](../../magpie/internal/gateway/codex_follow.go#L50) |
+| at | field_declaration | codexLead | [51](../../magpie/internal/gateway/codex_follow.go#L51) |
+| saw | method_declaration |  | [55](../../magpie/internal/gateway/codex_follow.go#L55) |
+| lookup | method_declaration |  | [92](../../magpie/internal/gateway/codex_follow.go#L92) |
+| codexSideFresh | var_spec |  | [114](../../magpie/internal/gateway/codex_follow.go#L114) |
+| codexSideWait | var_spec |  | [115](../../magpie/internal/gateway/codex_follow.go#L115) |
 | sideOf | method_declaration |  | [144](../../magpie/internal/gateway/codex_follow.go#L144) |
 | codexFollowTo | method_declaration |  | [172](../../magpie/internal/gateway/codex_follow.go#L172) |
-| to | var_spec | codexFollowTo | [195](../../magpie/internal/gateway/codex_follow.go#L195) |
-| codexSessionOf | method_declaration |  | [218](../../magpie/internal/gateway/codex_follow.go#L218) |
-| codexSideSession | method_declaration |  | [224](../../magpie/internal/gateway/codex_follow.go#L224) |
-| codexMemorySession | method_declaration |  | [230](../../magpie/internal/gateway/codex_follow.go#L230) |
-| servedSession | method_declaration |  | [236](../../magpie/internal/gateway/codex_follow.go#L236) |
+| codexSideSession | method_declaration |  | [203](../../magpie/internal/gateway/codex_follow.go#L203) |
+| codexMemorySession | method_declaration |  | [209](../../magpie/internal/gateway/codex_follow.go#L209) |
+| servedSession | method_declaration |  | [223](../../magpie/internal/gateway/codex_follow.go#L223) |

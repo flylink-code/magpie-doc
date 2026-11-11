@@ -4,12 +4,15 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/workbuddy_checkin.go) · page 2/2
 
-Source SHA-256: 451eee76ec2a48ba1dddec8705965f9111f0e818f68ebd23f6b7a721d3e331bc
+Source SHA-256: 9dd010e9e5930d7efa9a09fcde50a4f598b86bdb264c0bdfe54f89aaebb9f444
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keepCheckedIn | function_declaration |  | [564](../../magpie/internal/provider/workbuddy_checkin.go#L564) |
-| l | var_spec | keepCheckedIn | [567](../../magpie/internal/provider/workbuddy_checkin.go#L567) |
-| wbCheckinLoop | type_spec |  | [595](../../magpie/internal/provider/workbuddy_checkin.go#L595) |
-| last | field_declaration | wbCheckinLoop | [595](../../magpie/internal/provider/workbuddy_checkin.go#L595) |
-| tick | method_declaration |  | [600](../../magpie/internal/provider/workbuddy_checkin.go#L600) |
+| out | var_spec | wbPluginAccounts | [593](../../magpie/internal/provider/workbuddy_checkin.go#L593) |
+| body | var_spec | wbPluginAccounts | [602](../../magpie/internal/provider/workbuddy_checkin.go#L602) |
+| KeepWorkBuddyCheckedIn | function_declaration |  | [615](../../magpie/internal/provider/workbuddy_checkin.go#L615) |
+| keepCheckedIn | function_declaration |  | [621](../../magpie/internal/provider/workbuddy_checkin.go#L621) |
+| l | var_spec | keepCheckedIn | [624](../../magpie/internal/provider/workbuddy_checkin.go#L624) |
+| wbCheckinLoop | type_spec |  | [652](../../magpie/internal/provider/workbuddy_checkin.go#L652) |
+| last | field_declaration | wbCheckinLoop | [652](../../magpie/internal/provider/workbuddy_checkin.go#L652) |
+| tick | method_declaration |  | [657](../../magpie/internal/provider/workbuddy_checkin.go#L657) |

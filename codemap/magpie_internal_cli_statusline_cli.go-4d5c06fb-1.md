@@ -4,26 +4,21 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/statusline_cli.go) · page 1/1
 
-Source SHA-256: 71dcb417716ef607e48f00c145e5d633d8867cd6938487aa465bedf35dd02263
+Source SHA-256: 04391f42fa7ad4ed023f9f32e650b87c240f3fe3217c9a87675cf930e95774f7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | statuslineUsage | const_spec |  | [27](../../magpie/internal/cli/statusline_cli.go#L27) |
-| statuslineWait | const_spec |  | [42](../../magpie/internal/cli/statusline_cli.go#L42) |
-| statuslineCmd | function_declaration |  | [45](../../magpie/internal/cli/statusline_cli.go#L45) |
-| statusline | function_declaration |  | [51](../../magpie/internal/cli/statusline_cli.go#L51) |
-| in | var_spec | statusline | [52](../../magpie/internal/cli/statusline_cli.go#L52) |
-| SessionID | field_declaration | statusline::in | [53](../../magpie/internal/cli/statusline_cli.go#L53) |
-| quotas | var_spec | statusline | [63](../../magpie/internal/cli/statusline_cli.go#L63) |
-| Data | field_declaration | statusline::quotas | [64](../../magpie/internal/cli/statusline_cli.go#L64) |
-| parts | var_spec | statusline | [69](../../magpie/internal/cli/statusline_cli.go#L69) |
-| route | var_spec | statusline | [71](../../magpie/internal/cli/statusline_cli.go#L71) |
-| Route | field_declaration | statusline::route | [72](../../magpie/internal/cli/statusline_cli.go#L72) |
-| Asked | field_declaration | statusline::route::Route | [73](../../magpie/internal/cli/statusline_cli.go#L73) |
-| Model | field_declaration | statusline::route::Route | [74](../../magpie/internal/cli/statusline_cli.go#L74) |
-| stdinPiped | function_declaration |  | [92](../../magpie/internal/cli/statusline_cli.go#L92) |
-| getJSON | function_declaration |  | [97](../../magpie/internal/cli/statusline_cli.go#L97) |
-| statuslineCards | function_declaration |  | [108](../../magpie/internal/cli/statusline_cli.go#L108) |
-| withWindows | var_spec | statuslineCards | [109](../../magpie/internal/cli/statusline_cli.go#L109) |
-| statuslineMatches | function_declaration |  | [128](../../magpie/internal/cli/statusline_cli.go#L128) |
-| statuslineCard | function_declaration |  | [140](../../magpie/internal/cli/statusline_cli.go#L140) |
+| statuslineWait | const_spec |  | [43](../../magpie/internal/cli/statusline_cli.go#L43) |
+| statuslineCmd | function_declaration |  | [46](../../magpie/internal/cli/statusline_cli.go#L46) |
+| statusline | function_declaration |  | [52](../../magpie/internal/cli/statusline_cli.go#L52) |
+| in | var_spec | statusline | [53](../../magpie/internal/cli/statusline_cli.go#L53) |
+| SessionID | field_declaration | statusline::in | [54](../../magpie/internal/cli/statusline_cli.go#L54) |
+| quotas | var_spec | statusline | [64](../../magpie/internal/cli/statusline_cli.go#L64) |
+| Data | field_declaration | statusline::quotas | [65](../../magpie/internal/cli/statusline_cli.go#L65) |
+| route | var_spec | statusline | [72](../../magpie/internal/cli/statusline_cli.go#L72) |
+| Route | field_declaration | statusline::route | [73](../../magpie/internal/cli/statusline_cli.go#L73) |
+| Asked | field_declaration | statusline::route::Route | [74](../../magpie/internal/cli/statusline_cli.go#L74) |
+| Model | field_declaration | statusline::route::Route | [75](../../magpie/internal/cli/statusline_cli.go#L75) |
+| stdinPiped | function_declaration |  | [86](../../magpie/internal/cli/statusline_cli.go#L86) |
+| getJSON | function_declaration |  | [91](../../magpie/internal/cli/statusline_cli.go#L91) |

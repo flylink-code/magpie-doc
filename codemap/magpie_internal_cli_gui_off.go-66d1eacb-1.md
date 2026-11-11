@@ -4,7 +4,7 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/gui_off.go) · page 1/1
 
-Source SHA-256: ce5b047836f957e058be33b413aa7394e09a0f1f10a914db567ad27240eca383
+Source SHA-256: a7afe08a03a9a2931b6c31c29e30ca7e342a8ff818ae1dc1e59de2ad9add9860
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,3 +12,4 @@ Source SHA-256: ce5b047836f957e058be33b413aa7394e09a0f1f10a914db567ad27240eca383
 | runGUI | function_declaration |  | [9](../../magpie/internal/cli/gui_off.go#L9) |
 | runPanel | function_declaration |  | [11](../../magpie/internal/cli/gui_off.go#L11) |
 | runWindow | function_declaration |  | [13](../../magpie/internal/cli/gui_off.go#L13) |
+| runUninstallWindow | function_declaration |  | [15](../../magpie/internal/cli/gui_off.go#L15) |

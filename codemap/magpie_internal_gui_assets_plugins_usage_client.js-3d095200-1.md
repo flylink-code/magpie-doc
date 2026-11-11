@@ -4,14 +4,14 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/usage/client.js) · page 1/1
 
-Source SHA-256: cc9532ba62d2704b1581ebe05f8596e1a7a4b2cf1244eebb59cf16a8bf25f153
+Source SHA-256: 7e8ea5da0dd85f7cb2bd8249bc97de7a40aefd92d1d4e328f8301933c2289ffa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mount | MethodDeclaration |  | [131](../../magpie/internal/gui/assets/plugins/usage/client.js#L131) |
-| open | MethodDeclaration |  | [132](../../magpie/internal/gui/assets/plugins/usage/client.js#L132) |
-| refresh | MethodDeclaration |  | [133](../../magpie/internal/gui/assets/plugins/usage/client.js#L133) |
-| reload | MethodDeclaration |  | [138](../../magpie/internal/gui/assets/plugins/usage/client.js#L138) |
-| costs | MethodDeclaration |  | [139](../../magpie/internal/gui/assets/plugins/usage/client.js#L139) |
-| tab | MethodDeclaration |  | [140](../../magpie/internal/gui/assets/plugins/usage/client.js#L140) |
-| leave | MethodDeclaration |  | [143](../../magpie/internal/gui/assets/plugins/usage/client.js#L143) |
+| mount | MethodDeclaration |  | [139](../../magpie/internal/gui/assets/plugins/usage/client.js#L139) |
+| open | MethodDeclaration |  | [140](../../magpie/internal/gui/assets/plugins/usage/client.js#L140) |
+| refresh | MethodDeclaration |  | [141](../../magpie/internal/gui/assets/plugins/usage/client.js#L141) |
+| reload | MethodDeclaration |  | [146](../../magpie/internal/gui/assets/plugins/usage/client.js#L146) |
+| costs | MethodDeclaration |  | [147](../../magpie/internal/gui/assets/plugins/usage/client.js#L147) |
+| tab | MethodDeclaration |  | [148](../../magpie/internal/gui/assets/plugins/usage/client.js#L148) |
+| leave | MethodDeclaration |  | [151](../../magpie/internal/gui/assets/plugins/usage/client.js#L151) |

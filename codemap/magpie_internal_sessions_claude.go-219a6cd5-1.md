@@ -4,77 +4,86 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/claude.go) · page 1/1
 
-Source SHA-256: dd916d26e9f3b12971e314b12d70c2075d1f81c1da116496264351d6cadef698
+Source SHA-256: 765ed8d7493bb9d379342db3972e32e73d87d391c560c003785653d6bd6497e9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ccLine | type_spec |  | [17](../../magpie/internal/sessions/claude.go#L17) |
-| Type | field_declaration | ccLine | [18](../../magpie/internal/sessions/claude.go#L18) |
-| IsMeta | field_declaration | ccLine | [19](../../magpie/internal/sessions/claude.go#L19) |
-| IsSidechain | field_declaration | ccLine | [20](../../magpie/internal/sessions/claude.go#L20) |
-| Cwd | field_declaration | ccLine | [21](../../magpie/internal/sessions/claude.go#L21) |
-| SessionID | field_declaration | ccLine | [22](../../magpie/internal/sessions/claude.go#L22) |
-| RequestID | field_declaration | ccLine | [23](../../magpie/internal/sessions/claude.go#L23) |
-| AITitle | field_declaration | ccLine | [24](../../magpie/internal/sessions/claude.go#L24) |
-| CustomTitle | field_declaration | ccLine | [25](../../magpie/internal/sessions/claude.go#L25) |
-| Summary | field_declaration | ccLine | [26](../../magpie/internal/sessions/claude.go#L26) |
-| Message | field_declaration | ccLine | [27](../../magpie/internal/sessions/claude.go#L27) |
-| ID | field_declaration | ccLine::Message | [28](../../magpie/internal/sessions/claude.go#L28) |
-| Model | field_declaration | ccLine::Message | [29](../../magpie/internal/sessions/claude.go#L29) |
-| Content | field_declaration | ccLine::Message | [30](../../magpie/internal/sessions/claude.go#L30) |
-| Usage | field_declaration | ccLine::Message | [31](../../magpie/internal/sessions/claude.go#L31) |
-| Input | field_declaration | ccLine::Message::Usage | [32](../../magpie/internal/sessions/claude.go#L32) |
-| Output | field_declaration | ccLine::Message::Usage | [33](../../magpie/internal/sessions/claude.go#L33) |
-| CacheRead | field_declaration | ccLine::Message::Usage | [34](../../magpie/internal/sessions/claude.go#L34) |
-| CacheWrite | field_declaration | ccLine::Message::Usage | [35](../../magpie/internal/sessions/claude.go#L35) |
-| Creation | field_declaration | ccLine::Message::Usage | [36](../../magpie/internal/sessions/claude.go#L36) |
-| ccAssistant | var_spec |  | [42](../../magpie/internal/sessions/claude.go#L42) |
-| ccUser | var_spec |  | [43](../../magpie/internal/sessions/claude.go#L43) |
-| ccTitle | var_spec |  | [44](../../magpie/internal/sessions/claude.go#L44) |
-| ccCustom | var_spec |  | [45](../../magpie/internal/sessions/claude.go#L45) |
-| ccSummary | var_spec |  | [46](../../magpie/internal/sessions/claude.go#L46) |
-| ccCwd | var_spec |  | [47](../../magpie/internal/sessions/claude.go#L47) |
-| ccMessage | var_spec |  | [51](../../magpie/internal/sessions/claude.go#L51) |
-| ccAttach | var_spec |  | [52](../../magpie/internal/sessions/claude.go#L52) |
-| ccRole | var_spec |  | [53](../../magpie/internal/sessions/claude.go#L53) |
-| ccModel | var_spec |  | [54](../../magpie/internal/sessions/claude.go#L54) |
-| ccID | var_spec |  | [55](../../magpie/internal/sessions/claude.go#L55) |
-| ccUsage | var_spec |  | [56](../../magpie/internal/sessions/claude.go#L56) |
-| ccSession | var_spec |  | [57](../../magpie/internal/sessions/claude.go#L57) |
-| ccTop | var_spec |  | [58](../../magpie/internal/sessions/claude.go#L58) |
-| claudeLine | function_declaration |  | [64](../../magpie/internal/sessions/claude.go#L64) |
-| ccWhere | function_declaration |  | [113](../../magpie/internal/sessions/claude.go#L113) |
-| strAt | function_declaration |  | [123](../../magpie/internal/sessions/claude.go#L123) |
-| v | var_spec | strAt | [134](../../magpie/internal/sessions/claude.go#L134) |
-| ccContent | var_spec |  | [145](../../magpie/internal/sessions/claude.go#L145) |
-| ccResult1 | var_spec |  | [146](../../magpie/internal/sessions/claude.go#L146) |
-| ccResult2 | var_spec |  | [147](../../magpie/internal/sessions/claude.go#L147) |
-| ccToolUse | var_spec |  | [148](../../magpie/internal/sessions/claude.go#L148) |
-| ccToolResult | function_declaration |  | [152](../../magpie/internal/sessions/claude.go#L152) |
-| ccTools | function_declaration |  | [164](../../magpie/internal/sessions/claude.go#L164) |
-| tool | var_spec | ccTools | [170](../../magpie/internal/sessions/claude.go#L170) |
-| ID | field_declaration | ccTools::tool | [171](../../magpie/internal/sessions/claude.go#L171) |
-| Input | field_declaration | ccTools::tool | [172](../../magpie/internal/sessions/claude.go#L172) |
-| Skill | field_declaration | ccTools::tool::Input | [172](../../magpie/internal/sessions/claude.go#L172) |
-| objectEnd | function_declaration |  | [192](../../magpie/internal/sessions/claude.go#L192) |
-| ccReply | function_declaration |  | [221](../../magpie/internal/sessions/claude.go#L221) |
-| u | var_spec | ccReply | [241](../../magpie/internal/sessions/claude.go#L241) |
-| Input | field_declaration | ccReply::u | [242](../../magpie/internal/sessions/claude.go#L242) |
-| Output | field_declaration | ccReply::u | [243](../../magpie/internal/sessions/claude.go#L243) |
-| CacheRead | field_declaration | ccReply::u | [244](../../magpie/internal/sessions/claude.go#L244) |
-| CacheWrite | field_declaration | ccReply::u | [245](../../magpie/internal/sessions/claude.go#L245) |
-| Creation | field_declaration | ccReply::u | [246](../../magpie/internal/sessions/claude.go#L246) |
-| claudeFull | function_declaration |  | [256](../../magpie/internal/sessions/claude.go#L256) |
-| l | var_spec | claudeFull | [266](../../magpie/internal/sessions/claude.go#L266) |
-| blocks | var_spec | claudeFull | [306](../../magpie/internal/sessions/claude.go#L306) |
-| Type | field_declaration | claudeFull::blocks | [307](../../magpie/internal/sessions/claude.go#L307) |
-| Input | field_declaration | claudeFull::blocks | [308](../../magpie/internal/sessions/claude.go#L308) |
-| Skill | field_declaration | claudeFull::blocks::Input | [308](../../magpie/internal/sessions/claude.go#L308) |
-| ccText | function_declaration |  | [330](../../magpie/internal/sessions/claude.go#L330) |
-| text | var_spec | ccText | [331](../../magpie/internal/sessions/claude.go#L331) |
-| blocks | var_spec | ccText | [333](../../magpie/internal/sessions/claude.go#L333) |
-| Type | field_declaration | ccText::blocks | [333](../../magpie/internal/sessions/claude.go#L333) |
-| parts | var_spec | ccText | [337](../../magpie/internal/sessions/claude.go#L337) |
-| ccCommand | var_spec |  | [352](../../magpie/internal/sessions/claude.go#L352) |
-| ccArgs | var_spec |  | [353](../../magpie/internal/sessions/claude.go#L353) |
-| ccPrompt | function_declaration |  | [358](../../magpie/internal/sessions/claude.go#L358) |
+| ccLine | type_spec |  | [20](../../magpie/internal/sessions/claude.go#L20) |
+| Type | field_declaration | ccLine | [21](../../magpie/internal/sessions/claude.go#L21) |
+| IsMeta | field_declaration | ccLine | [22](../../magpie/internal/sessions/claude.go#L22) |
+| IsSidechain | field_declaration | ccLine | [23](../../magpie/internal/sessions/claude.go#L23) |
+| Cwd | field_declaration | ccLine | [24](../../magpie/internal/sessions/claude.go#L24) |
+| SessionID | field_declaration | ccLine | [25](../../magpie/internal/sessions/claude.go#L25) |
+| UUID | field_declaration | ccLine | [26](../../magpie/internal/sessions/claude.go#L26) |
+| RequestID | field_declaration | ccLine | [27](../../magpie/internal/sessions/claude.go#L27) |
+| AITitle | field_declaration | ccLine | [28](../../magpie/internal/sessions/claude.go#L28) |
+| CustomTitle | field_declaration | ccLine | [29](../../magpie/internal/sessions/claude.go#L29) |
+| Summary | field_declaration | ccLine | [30](../../magpie/internal/sessions/claude.go#L30) |
+| Entrypoint | field_declaration | ccLine | [31](../../magpie/internal/sessions/claude.go#L31) |
+| Message | field_declaration | ccLine | [32](../../magpie/internal/sessions/claude.go#L32) |
+| ID | field_declaration | ccLine::Message | [33](../../magpie/internal/sessions/claude.go#L33) |
+| Model | field_declaration | ccLine::Message | [34](../../magpie/internal/sessions/claude.go#L34) |
+| Content | field_declaration | ccLine::Message | [35](../../magpie/internal/sessions/claude.go#L35) |
+| Usage | field_declaration | ccLine::Message | [36](../../magpie/internal/sessions/claude.go#L36) |
+| Input | field_declaration | ccLine::Message::Usage | [37](../../magpie/internal/sessions/claude.go#L37) |
+| Output | field_declaration | ccLine::Message::Usage | [38](../../magpie/internal/sessions/claude.go#L38) |
+| CacheRead | field_declaration | ccLine::Message::Usage | [39](../../magpie/internal/sessions/claude.go#L39) |
+| CacheWrite | field_declaration | ccLine::Message::Usage | [40](../../magpie/internal/sessions/claude.go#L40) |
+| Creation | field_declaration | ccLine::Message::Usage | [41](../../magpie/internal/sessions/claude.go#L41) |
+| IsCompactSummary | field_declaration | ccLine | [45](../../magpie/internal/sessions/claude.go#L45) |
+| ccAssistant | var_spec |  | [49](../../magpie/internal/sessions/claude.go#L49) |
+| ccUser | var_spec |  | [50](../../magpie/internal/sessions/claude.go#L50) |
+| ccTitle | var_spec |  | [51](../../magpie/internal/sessions/claude.go#L51) |
+| ccCustom | var_spec |  | [52](../../magpie/internal/sessions/claude.go#L52) |
+| ccSummary | var_spec |  | [53](../../magpie/internal/sessions/claude.go#L53) |
+| ccCwd | var_spec |  | [54](../../magpie/internal/sessions/claude.go#L54) |
+| ccEntry | var_spec |  | [55](../../magpie/internal/sessions/claude.go#L55) |
+| ccMessage | var_spec |  | [59](../../magpie/internal/sessions/claude.go#L59) |
+| ccAttach | var_spec |  | [60](../../magpie/internal/sessions/claude.go#L60) |
+| ccRole | var_spec |  | [61](../../magpie/internal/sessions/claude.go#L61) |
+| ccModel | var_spec |  | [62](../../magpie/internal/sessions/claude.go#L62) |
+| ccID | var_spec |  | [63](../../magpie/internal/sessions/claude.go#L63) |
+| ccUsage | var_spec |  | [64](../../magpie/internal/sessions/claude.go#L64) |
+| ccSession | var_spec |  | [65](../../magpie/internal/sessions/claude.go#L65) |
+| ccTop | var_spec |  | [66](../../magpie/internal/sessions/claude.go#L66) |
+| claudeLine | function_declaration |  | [72](../../magpie/internal/sessions/claude.go#L72) |
+| ccSidechain | var_spec |  | [124](../../magpie/internal/sessions/claude.go#L124) |
+| ccLink | function_declaration |  | [132](../../magpie/internal/sessions/claude.go#L132) |
+| link | method_declaration |  | [144](../../magpie/internal/sessions/claude.go#L144) |
+| ccRandomUUID | function_declaration |  | [156](../../magpie/internal/sessions/claude.go#L156) |
+| ccWhere | function_declaration |  | [180](../../magpie/internal/sessions/claude.go#L180) |
+| ccRelocatedCwd | var_spec |  | [192](../../magpie/internal/sessions/claude.go#L192) |
+| ccRelocated | function_declaration |  | [198](../../magpie/internal/sessions/claude.go#L198) |
+| ccStale | function_declaration |  | [212](../../magpie/internal/sessions/claude.go#L212) |
+| ccInProject | function_declaration |  | [222](../../magpie/internal/sessions/claude.go#L222) |
+| strAt | function_declaration |  | [231](../../magpie/internal/sessions/claude.go#L231) |
+| v | var_spec | strAt | [242](../../magpie/internal/sessions/claude.go#L242) |
+| ccContent | var_spec |  | [253](../../magpie/internal/sessions/claude.go#L253) |
+| ccResult1 | var_spec |  | [254](../../magpie/internal/sessions/claude.go#L254) |
+| ccResult2 | var_spec |  | [255](../../magpie/internal/sessions/claude.go#L255) |
+| ccToolUse | var_spec |  | [256](../../magpie/internal/sessions/claude.go#L256) |
+| ccToolResult | function_declaration |  | [260](../../magpie/internal/sessions/claude.go#L260) |
+| ccTools | function_declaration |  | [272](../../magpie/internal/sessions/claude.go#L272) |
+| tool | var_spec | ccTools | [278](../../magpie/internal/sessions/claude.go#L278) |
+| ID | field_declaration | ccTools::tool | [279](../../magpie/internal/sessions/claude.go#L279) |
+| Input | field_declaration | ccTools::tool | [280](../../magpie/internal/sessions/claude.go#L280) |
+| Skill | field_declaration | ccTools::tool::Input | [281](../../magpie/internal/sessions/claude.go#L281) |
+| FilePath | field_declaration | ccTools::tool::Input | [282](../../magpie/internal/sessions/claude.go#L282) |
+| objectEnd | function_declaration |  | [306](../../magpie/internal/sessions/claude.go#L306) |
+| ccReply | function_declaration |  | [335](../../magpie/internal/sessions/claude.go#L335) |
+| u | var_spec | ccReply | [355](../../magpie/internal/sessions/claude.go#L355) |
+| claudeFull | function_declaration |  | [364](../../magpie/internal/sessions/claude.go#L364) |
+| l | var_spec | claudeFull | [376](../../magpie/internal/sessions/claude.go#L376) |
+| blocks | var_spec | claudeFull | [426](../../magpie/internal/sessions/claude.go#L426) |
+| Type | field_declaration | claudeFull::blocks | [427](../../magpie/internal/sessions/claude.go#L427) |
+| Input | field_declaration | claudeFull::blocks | [428](../../magpie/internal/sessions/claude.go#L428) |
+| Skill | field_declaration | claudeFull::blocks::Input | [429](../../magpie/internal/sessions/claude.go#L429) |
+| FilePath | field_declaration | claudeFull::blocks::Input | [430](../../magpie/internal/sessions/claude.go#L430) |
+| ccText | function_declaration |  | [456](../../magpie/internal/sessions/claude.go#L456) |
+| text | var_spec | ccText | [457](../../magpie/internal/sessions/claude.go#L457) |
+| blocks | var_spec | ccText | [459](../../magpie/internal/sessions/claude.go#L459) |
+| Type | field_declaration | ccText::blocks | [459](../../magpie/internal/sessions/claude.go#L459) |
+| parts | var_spec | ccText | [463](../../magpie/internal/sessions/claude.go#L463) |
+| ccCommand | var_spec |  | [478](../../magpie/internal/sessions/claude.go#L478) |
+| ccArgs | var_spec |  | [479](../../magpie/internal/sessions/claude.go#L479) |
+| ccPrompt | function_declaration |  | [484](../../magpie/internal/sessions/claude.go#L484) |

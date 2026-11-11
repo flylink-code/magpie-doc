@@ -4,38 +4,66 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex_portable.go) · page 1/1
 
-Source SHA-256: 85855f86c656766a1629dc36adc712d351be094487b5c69bda42abf97074290c
+Source SHA-256: 43abbe2e39a2fd58e3e8d6677edbc89d4cf3309bbb0627cb15e9b645ac7b9ebf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexPortState | type_spec |  | [49](../../magpie/internal/sessions/codex_portable.go#L49) |
-| Homes | field_declaration | codexPortState | [50](../../magpie/internal/sessions/codex_portable.go#L50) |
-| codexPortHome | type_spec |  | [53](../../magpie/internal/sessions/codex_portable.go#L53) |
-| Since | field_declaration | codexPortHome | [54](../../magpie/internal/sessions/codex_portable.go#L54) |
-| Pending | field_declaration | codexPortHome | [55](../../magpie/internal/sessions/codex_portable.go#L55) |
-| codexPortFirst | var_spec |  | [60](../../magpie/internal/sessions/codex_portable.go#L60) |
-| codexPortSlack | const_spec |  | [64](../../magpie/internal/sessions/codex_portable.go#L64) |
-| codexPortPath | function_declaration |  | [66](../../magpie/internal/sessions/codex_portable.go#L66) |
-| CodexPort | type_spec |  | [69](../../magpie/internal/sessions/codex_portable.go#L69) |
-| Rewritten | field_declaration | CodexPort | [70](../../magpie/internal/sessions/codex_portable.go#L70) |
-| Held | field_declaration | CodexPort | [71](../../magpie/internal/sessions/codex_portable.go#L71) |
-| Done | field_declaration | CodexPort | [72](../../magpie/internal/sessions/codex_portable.go#L72) |
-| PortCodexRollouts | function_declaration |  | [79](../../magpie/internal/sessions/codex_portable.go#L79) |
-| res | var_spec | PortCodexRollouts | [80](../../magpie/internal/sessions/codex_portable.go#L80) |
-| st | var_spec | PortCodexRollouts | [91](../../magpie/internal/sessions/codex_portable.go#L91) |
-| due | var_spec | PortCodexRollouts | [109](../../magpie/internal/sessions/codex_portable.go#L109) |
-| pending | var_spec | PortCodexRollouts | [136](../../magpie/internal/sessions/codex_portable.go#L136) |
-| uniq | function_declaration |  | [177](../../magpie/internal/sessions/codex_portable.go#L177) |
-| out | var_spec | uniq | [178](../../magpie/internal/sessions/codex_portable.go#L178) |
-| errRolloutHeld | var_spec |  | [189](../../magpie/internal/sessions/codex_portable.go#L189) |
-| codexRolloutName | var_spec |  | [193](../../magpie/internal/sessions/codex_portable.go#L193) |
-| codexThreadOf | function_declaration |  | [197](../../magpie/internal/sessions/codex_portable.go#L197) |
-| magpieMark | var_spec |  | [205](../../magpie/internal/sessions/codex_portable.go#L205) |
-| portRollout | function_declaration |  | [209](../../magpie/internal/sessions/codex_portable.go#L209) |
-| w | var_spec | portRollout | [234](../../magpie/internal/sessions/codex_portable.go#L234) |
-| z | var_spec | portRollout | [235](../../magpie/internal/sessions/codex_portable.go#L235) |
-| portLine | function_declaration |  | [323](../../magpie/internal/sessions/codex_portable.go#L323) |
-| v | var_spec | portLine | [331](../../magpie/internal/sessions/codex_portable.go#L331) |
-| buf | var_spec | portLine | [339](../../magpie/internal/sessions/codex_portable.go#L339) |
-| portValue | function_declaration |  | [350](../../magpie/internal/sessions/codex_portable.go#L350) |
-| portList | function_declaration |  | [401](../../magpie/internal/sessions/codex_portable.go#L401) |
+| codexPortState | type_spec |  | [82](../../magpie/internal/sessions/codex_portable.go#L82) |
+| Homes | field_declaration | codexPortState | [83](../../magpie/internal/sessions/codex_portable.go#L83) |
+| codexPortHome | type_spec |  | [86](../../magpie/internal/sessions/codex_portable.go#L86) |
+| Since | field_declaration | codexPortHome | [87](../../magpie/internal/sessions/codex_portable.go#L87) |
+| Pending | field_declaration | codexPortHome | [88](../../magpie/internal/sessions/codex_portable.go#L88) |
+| Lineage | field_declaration | codexPortHome | [91](../../magpie/internal/sessions/codex_portable.go#L91) |
+| codexPortFirst | var_spec |  | [96](../../magpie/internal/sessions/codex_portable.go#L96) |
+| codexLeftFirst | var_spec |  | [100](../../magpie/internal/sessions/codex_portable.go#L100) |
+| codexLeftKey | const_spec |  | [105](../../magpie/internal/sessions/codex_portable.go#L105) |
+| codexPortSlack | const_spec |  | [109](../../magpie/internal/sessions/codex_portable.go#L109) |
+| codexPortPath | function_declaration |  | [111](../../magpie/internal/sessions/codex_portable.go#L111) |
+| CodexPort | type_spec |  | [114](../../magpie/internal/sessions/codex_portable.go#L114) |
+| Rewritten | field_declaration | CodexPort | [115](../../magpie/internal/sessions/codex_portable.go#L115) |
+| Held | field_declaration | CodexPort | [116](../../magpie/internal/sessions/codex_portable.go#L116) |
+| Repaired | field_declaration | CodexPort | [117](../../magpie/internal/sessions/codex_portable.go#L117) |
+| Done | field_declaration | CodexPort | [118](../../magpie/internal/sessions/codex_portable.go#L118) |
+| PortCodexRollouts | function_declaration |  | [125](../../magpie/internal/sessions/codex_portable.go#L125) |
+| PortCodexRolloutsLeft | function_declaration |  | [132](../../magpie/internal/sessions/codex_portable.go#L132) |
+| portCodexRollouts | function_declaration |  | [136](../../magpie/internal/sessions/codex_portable.go#L136) |
+| res | var_spec | portCodexRollouts | [137](../../magpie/internal/sessions/codex_portable.go#L137) |
+| st | var_spec | portCodexRollouts | [148](../../magpie/internal/sessions/codex_portable.go#L148) |
+| due | var_spec | portCodexRollouts | [169](../../magpie/internal/sessions/codex_portable.go#L169) |
+| pending | var_spec | portCodexRollouts | [196](../../magpie/internal/sessions/codex_portable.go#L196) |
+| uniq | function_declaration |  | [242](../../magpie/internal/sessions/codex_portable.go#L242) |
+| out | var_spec | uniq | [243](../../magpie/internal/sessions/codex_portable.go#L243) |
+| errRolloutHeld | var_spec |  | [254](../../magpie/internal/sessions/codex_portable.go#L254) |
+| codexRolloutName | var_spec |  | [258](../../magpie/internal/sessions/codex_portable.go#L258) |
+| codexThreadOf | function_declaration |  | [262](../../magpie/internal/sessions/codex_portable.go#L262) |
+| magpieMark | var_spec |  | [270](../../magpie/internal/sessions/codex_portable.go#L270) |
+| claudeMark | var_spec |  | [274](../../magpie/internal/sessions/codex_portable.go#L274) |
+| reasoningMark | var_spec |  | [279](../../magpie/internal/sessions/codex_portable.go#L279) |
+| unsealedReasoning | function_declaration |  | [284](../../magpie/internal/sessions/codex_portable.go#L284) |
+| portRollout | function_declaration |  | [292](../../magpie/internal/sessions/codex_portable.go#L292) |
+| editRollout | function_declaration |  | [318](../../magpie/internal/sessions/codex_portable.go#L318) |
+| z | var_spec | editRollout | [336](../../magpie/internal/sessions/codex_portable.go#L336) |
+| w | var_spec | editRollout | [346](../../magpie/internal/sessions/codex_portable.go#L346) |
+| rolloutWrites | var_spec |  | [413](../../magpie/internal/sessions/codex_portable.go#L413) |
+| eachEditedLine | function_declaration |  | [418](../../magpie/internal/sessions/codex_portable.go#L418) |
+| long | var_spec | eachEditedLine | [433](../../magpie/internal/sessions/codex_portable.go#L433) |
+| readLongLine | function_declaration |  | [463](../../magpie/internal/sessions/codex_portable.go#L463) |
+| isMetaLine | function_declaration |  | [483](../../magpie/internal/sessions/codex_portable.go#L483) |
+| paginated | function_declaration |  | [489](../../magpie/internal/sessions/codex_portable.go#L489) |
+| fitLine | function_declaration |  | [497](../../magpie/internal/sessions/codex_portable.go#L497) |
+| repairLineages | function_declaration |  | [521](../../magpie/internal/sessions/codex_portable.go#L521) |
+| all | var_spec | repairLineages | [523](../../magpie/internal/sessions/codex_portable.go#L523) |
+| codexRolloutID | function_declaration |  | [588](../../magpie/internal/sessions/codex_portable.go#L588) |
+| firstLine | function_declaration |  | [600](../../magpie/internal/sessions/codex_portable.go#L600) |
+| ordinalEnds | function_declaration |  | [613](../../magpie/internal/sessions/codex_portable.go#L613) |
+| at | var_spec | ordinalEnds | [621](../../magpie/internal/sessions/codex_portable.go#L621) |
+| portLineAs | function_declaration |  | [641](../../magpie/internal/sessions/codex_portable.go#L641) |
+| retireReasoning | function_declaration |  | [657](../../magpie/internal/sessions/codex_portable.go#L657) |
+| at | var_spec | retireReasoning | [662](../../magpie/internal/sessions/codex_portable.go#L662) |
+| out | var_spec | retireReasoning | [683](../../magpie/internal/sessions/codex_portable.go#L683) |
+| obj | var_spec | retireReasoning | [692](../../magpie/internal/sessions/codex_portable.go#L692) |
+| portLine | function_declaration |  | [729](../../magpie/internal/sessions/codex_portable.go#L729) |
+| v | var_spec | portLine | [737](../../magpie/internal/sessions/codex_portable.go#L737) |
+| buf | var_spec | portLine | [745](../../magpie/internal/sessions/codex_portable.go#L745) |
+| portValue | function_declaration |  | [756](../../magpie/internal/sessions/codex_portable.go#L756) |
+| portList | function_declaration |  | [817](../../magpie/internal/sessions/codex_portable.go#L817) |

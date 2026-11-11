@@ -4,12 +4,12 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/version.go) · page 1/1
 
-Source SHA-256: f465afb78d4ecdb99f9ae2607b3201211699fba13b0b38e9c2b8e42b79cdeebe
+Source SHA-256: 5ec8aa73373ec9a3b91dc76f400d4e76128dbad35c401223c08bb9ef16e25035
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeSemverRE | var_spec |  | [14](../../magpie/internal/provider/version.go#L14) |
-| compareClaudeVersion | function_declaration |  | [16](../../magpie/internal/provider/version.go#L16) |
-| av | var_spec | compareClaudeVersion | [19](../../magpie/internal/provider/version.go#L19) |
-| randomUUID | function_declaration |  | [37](../../magpie/internal/provider/version.go#L37) |
-| b | var_spec | randomUUID | [38](../../magpie/internal/provider/version.go#L38) |
+| claudeSemverRE | var_spec |  | [15](../../magpie/internal/provider/version.go#L15) |
+| compareClaudeVersion | function_declaration |  | [17](../../magpie/internal/provider/version.go#L17) |
+| av | var_spec | compareClaudeVersion | [20](../../magpie/internal/provider/version.go#L20) |
+| randomUUID | function_declaration |  | [38](../../magpie/internal/provider/version.go#L38) |
+| b | var_spec | randomUUID | [39](../../magpie/internal/provider/version.go#L39) |

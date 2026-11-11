@@ -4,13 +4,13 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/gemini.go) · page 1/1
 
-Source SHA-256: d270816038c2f3f3670a8eaf60b914607b44cd15ea7ac4aaf0f8cf74d7a62d27
+Source SHA-256: bfd95eb19172f546afa4026fe349d61cc5070cb06ad4e09cd9e7ef2f2c47818b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | gemini | function_declaration |  | [23](../../magpie/internal/agent/gemini.go#L23) |
 | geminiIn | function_declaration |  | [28](../../magpie/internal/agent/gemini.go#L28) |
 | env | var_spec | geminiIn | [60](../../magpie/internal/agent/gemini.go#L60) |
-| ms | var_spec | geminiIn | [257](../../magpie/internal/agent/gemini.go#L257) |
-| delModelName | function_declaration |  | [274](../../magpie/internal/agent/gemini.go#L274) |
-| noticeGemini | var_spec |  | [286](../../magpie/internal/agent/gemini.go#L286) |
+| ms | var_spec | geminiIn | [258](../../magpie/internal/agent/gemini.go#L258) |
+| delModelName | function_declaration |  | [275](../../magpie/internal/agent/gemini.go#L275) |
+| noticeGemini | var_spec |  | [287](../../magpie/internal/agent/gemini.go#L287) |

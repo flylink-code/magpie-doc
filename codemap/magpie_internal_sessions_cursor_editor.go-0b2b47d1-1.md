@@ -4,54 +4,56 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/cursor_editor.go) · page 1/1
 
-Source SHA-256: 2843d17a1e5d4efd8da3efd770b1d21b1457fba7797c5bd9a152d2c294c98d82
+Source SHA-256: 71b5d75b4130f5625c1f9b61794559bbca4f00533a5a91f4cca283434e9a5091
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cursorEditorMeta | type_spec |  | [14](../../magpie/internal/sessions/cursor_editor.go#L14) |
-| db | field_declaration | cursorEditorMeta | [15](../../magpie/internal/sessions/cursor_editor.go#L15) |
-| revision | field_declaration | cursorEditorMeta | [16](../../magpie/internal/sessions/cursor_editor.go#L16) |
-| ID | field_declaration | cursorEditorMeta | [17](../../magpie/internal/sessions/cursor_editor.go#L17) |
-| Name | field_declaration | cursorEditorMeta | [18](../../magpie/internal/sessions/cursor_editor.go#L18) |
-| Created | field_declaration | cursorEditorMeta | [19](../../magpie/internal/sessions/cursor_editor.go#L19) |
-| Updated | field_declaration | cursorEditorMeta | [20](../../magpie/internal/sessions/cursor_editor.go#L20) |
-| Headers | field_declaration | cursorEditorMeta | [21](../../magpie/internal/sessions/cursor_editor.go#L21) |
-| ID | field_declaration | cursorEditorMeta::Headers | [22](../../magpie/internal/sessions/cursor_editor.go#L22) |
-| Workspace | field_declaration | cursorEditorMeta | [24](../../magpie/internal/sessions/cursor_editor.go#L24) |
-| URI | field_declaration | cursorEditorMeta::Workspace | [25](../../magpie/internal/sessions/cursor_editor.go#L25) |
-| Path | field_declaration | cursorEditorMeta::Workspace::URI | [26](../../magpie/internal/sessions/cursor_editor.go#L26) |
-| openCursorEditorDB | function_declaration |  | [33](../../magpie/internal/sessions/cursor_editor.go#L33) |
-| cursorComposersQuery | const_spec |  | [53](../../magpie/internal/sessions/cursor_editor.go#L53) |
-| cursorEditorDB | function_declaration |  | [55](../../magpie/internal/sessions/cursor_editor.go#L55) |
-| cursorEditorFiles | function_declaration |  | [63](../../magpie/internal/sessions/cursor_editor.go#L63) |
-| out | var_spec | cursorEditorFiles | [70](../../magpie/internal/sessions/cursor_editor.go#L70) |
-| b | var_spec | cursorEditorFiles | [77](../../magpie/internal/sessions/cursor_editor.go#L77) |
-| m | var_spec | cursorEditorFiles | [78](../../magpie/internal/sessions/cursor_editor.go#L78) |
-| cursorEditorHasMessages | function_declaration |  | [121](../../magpie/internal/sessions/cursor_editor.go#L121) |
-| parseCursorEditor | function_declaration |  | [133](../../magpie/internal/sessions/cursor_editor.go#L133) |
-| editorMessages | function_declaration |  | [175](../../magpie/internal/sessions/cursor_editor.go#L175) |
-| raw | var_spec | editorMessages | [176](../../magpie/internal/sessions/cursor_editor.go#L176) |
-| meta | var_spec | editorMessages | [180](../../magpie/internal/sessions/cursor_editor.go#L180) |
-| b | var_spec | editorMessages | [191](../../magpie/internal/sessions/cursor_editor.go#L191) |
-| Type | field_declaration | editorMessages::b | [192](../../magpie/internal/sessions/cursor_editor.go#L192) |
-| Text | field_declaration | editorMessages::b | [193](../../magpie/internal/sessions/cursor_editor.go#L193) |
-| Created | field_declaration | editorMessages::b | [194](../../magpie/internal/sessions/cursor_editor.go#L194) |
-| readCursorEditor | function_declaration |  | [216](../../magpie/internal/sessions/cursor_editor.go#L216) |
-| m | var_spec | readCursorEditor | [226](../../magpie/internal/sessions/cursor_editor.go#L226) |
-| Role | field_declaration | readCursorEditor::m | [227](../../magpie/internal/sessions/cursor_editor.go#L227) |
-| Message | field_declaration | readCursorEditor::m | [228](../../magpie/internal/sessions/cursor_editor.go#L228) |
-| Content | field_declaration | readCursorEditor::m::Message | [229](../../magpie/internal/sessions/cursor_editor.go#L229) |
-| texts | var_spec | readCursorEditor | [235](../../magpie/internal/sessions/cursor_editor.go#L235) |
-| cursorEditorDatabasePath | function_declaration |  | [246](../../magpie/internal/sessions/cursor_editor.go#L246) |
-| cursorTranscript | function_declaration |  | [254](../../magpie/internal/sessions/cursor_editor.go#L254) |
-| cursorTranscriptParts | function_declaration |  | [298](../../magpie/internal/sessions/cursor_editor.go#L298) |
-| text | var_spec | cursorTranscriptParts | [299](../../magpie/internal/sessions/cursor_editor.go#L299) |
-| blocks | var_spec | cursorTranscriptParts | [303](../../magpie/internal/sessions/cursor_editor.go#L303) |
-| Type | field_declaration | cursorTranscriptParts::blocks | [304](../../magpie/internal/sessions/cursor_editor.go#L304) |
-| Text | field_declaration | cursorTranscriptParts::blocks | [305](../../magpie/internal/sessions/cursor_editor.go#L305) |
-| ToolName | field_declaration | cursorTranscriptParts::blocks | [306](../../magpie/internal/sessions/cursor_editor.go#L306) |
-| Input | field_declaration | cursorTranscriptParts::blocks | [307](../../magpie/internal/sessions/cursor_editor.go#L307) |
-| Args | field_declaration | cursorTranscriptParts::blocks | [308](../../magpie/internal/sessions/cursor_editor.go#L308) |
-| Result | field_declaration | cursorTranscriptParts::blocks | [309](../../magpie/internal/sessions/cursor_editor.go#L309) |
-| Output | field_declaration | cursorTranscriptParts::blocks | [310](../../magpie/internal/sessions/cursor_editor.go#L310) |
-| parts | var_spec | cursorTranscriptParts | [315](../../magpie/internal/sessions/cursor_editor.go#L315) |
+| cursorEditorMeta | type_spec |  | [19](../../magpie/internal/sessions/cursor_editor.go#L19) |
+| db | field_declaration | cursorEditorMeta | [20](../../magpie/internal/sessions/cursor_editor.go#L20) |
+| revision | field_declaration | cursorEditorMeta | [21](../../magpie/internal/sessions/cursor_editor.go#L21) |
+| ID | field_declaration | cursorEditorMeta | [22](../../magpie/internal/sessions/cursor_editor.go#L22) |
+| Name | field_declaration | cursorEditorMeta | [23](../../magpie/internal/sessions/cursor_editor.go#L23) |
+| Created | field_declaration | cursorEditorMeta | [24](../../magpie/internal/sessions/cursor_editor.go#L24) |
+| Updated | field_declaration | cursorEditorMeta | [25](../../magpie/internal/sessions/cursor_editor.go#L25) |
+| Headers | field_declaration | cursorEditorMeta | [26](../../magpie/internal/sessions/cursor_editor.go#L26) |
+| ID | field_declaration | cursorEditorMeta::Headers | [27](../../magpie/internal/sessions/cursor_editor.go#L27) |
+| Workspace | field_declaration | cursorEditorMeta | [29](../../magpie/internal/sessions/cursor_editor.go#L29) |
+| URI | field_declaration | cursorEditorMeta::Workspace | [30](../../magpie/internal/sessions/cursor_editor.go#L30) |
+| Path | field_declaration | cursorEditorMeta::Workspace::URI | [31](../../magpie/internal/sessions/cursor_editor.go#L31) |
+| openCursorEditorDB | function_declaration |  | [38](../../magpie/internal/sessions/cursor_editor.go#L38) |
+| openCursorEditorStore | function_declaration |  | [61](../../magpie/internal/sessions/cursor_editor.go#L61) |
+| cursorComposersQuery | const_spec |  | [84](../../magpie/internal/sessions/cursor_editor.go#L84) |
+| cursorEditorDB | function_declaration |  | [86](../../magpie/internal/sessions/cursor_editor.go#L86) |
+| cursorEditorFiles | function_declaration |  | [94](../../magpie/internal/sessions/cursor_editor.go#L94) |
+| out | var_spec | cursorEditorFiles | [104](../../magpie/internal/sessions/cursor_editor.go#L104) |
+| b | var_spec | cursorEditorFiles | [115](../../magpie/internal/sessions/cursor_editor.go#L115) |
+| m | var_spec | cursorEditorFiles | [116](../../magpie/internal/sessions/cursor_editor.go#L116) |
+| cursorEditorHasMessages | function_declaration |  | [160](../../magpie/internal/sessions/cursor_editor.go#L160) |
+| parseCursorEditor | function_declaration |  | [172](../../magpie/internal/sessions/cursor_editor.go#L172) |
+| editorMessages | function_declaration |  | [214](../../magpie/internal/sessions/cursor_editor.go#L214) |
+| raw | var_spec | editorMessages | [215](../../magpie/internal/sessions/cursor_editor.go#L215) |
+| meta | var_spec | editorMessages | [219](../../magpie/internal/sessions/cursor_editor.go#L219) |
+| b | var_spec | editorMessages | [230](../../magpie/internal/sessions/cursor_editor.go#L230) |
+| Type | field_declaration | editorMessages::b | [231](../../magpie/internal/sessions/cursor_editor.go#L231) |
+| Text | field_declaration | editorMessages::b | [232](../../magpie/internal/sessions/cursor_editor.go#L232) |
+| Created | field_declaration | editorMessages::b | [233](../../magpie/internal/sessions/cursor_editor.go#L233) |
+| readCursorEditor | function_declaration |  | [255](../../magpie/internal/sessions/cursor_editor.go#L255) |
+| m | var_spec | readCursorEditor | [265](../../magpie/internal/sessions/cursor_editor.go#L265) |
+| Role | field_declaration | readCursorEditor::m | [266](../../magpie/internal/sessions/cursor_editor.go#L266) |
+| Message | field_declaration | readCursorEditor::m | [267](../../magpie/internal/sessions/cursor_editor.go#L267) |
+| Content | field_declaration | readCursorEditor::m::Message | [268](../../magpie/internal/sessions/cursor_editor.go#L268) |
+| texts | var_spec | readCursorEditor | [274](../../magpie/internal/sessions/cursor_editor.go#L274) |
+| cursorEditorDatabasePath | function_declaration |  | [285](../../magpie/internal/sessions/cursor_editor.go#L285) |
+| cursorTranscript | function_declaration |  | [293](../../magpie/internal/sessions/cursor_editor.go#L293) |
+| cursorTranscriptParts | function_declaration |  | [337](../../magpie/internal/sessions/cursor_editor.go#L337) |
+| text | var_spec | cursorTranscriptParts | [338](../../magpie/internal/sessions/cursor_editor.go#L338) |
+| blocks | var_spec | cursorTranscriptParts | [342](../../magpie/internal/sessions/cursor_editor.go#L342) |
+| Type | field_declaration | cursorTranscriptParts::blocks | [343](../../magpie/internal/sessions/cursor_editor.go#L343) |
+| Text | field_declaration | cursorTranscriptParts::blocks | [344](../../magpie/internal/sessions/cursor_editor.go#L344) |
+| ToolName | field_declaration | cursorTranscriptParts::blocks | [345](../../magpie/internal/sessions/cursor_editor.go#L345) |
+| Input | field_declaration | cursorTranscriptParts::blocks | [346](../../magpie/internal/sessions/cursor_editor.go#L346) |
+| Args | field_declaration | cursorTranscriptParts::blocks | [347](../../magpie/internal/sessions/cursor_editor.go#L347) |
+| Result | field_declaration | cursorTranscriptParts::blocks | [348](../../magpie/internal/sessions/cursor_editor.go#L348) |
+| Output | field_declaration | cursorTranscriptParts::blocks | [349](../../magpie/internal/sessions/cursor_editor.go#L349) |
+| parts | var_spec | cursorTranscriptParts | [354](../../magpie/internal/sessions/cursor_editor.go#L354) |
+| cursorEditorPaths | function_declaration |  | [382](../../magpie/internal/sessions/cursor_editor.go#L382) |

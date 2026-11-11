@@ -4,24 +4,25 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/quota_alert_notify.go) · page 1/1
 
-Source SHA-256: 3b74d9c370bc721862450ca50195f0d016b7f7ed09236d4c09abefe855281b46
+Source SHA-256: d88e833f545b8c435b1769d15a6e09691753d0a876ce50fb06740257ad1097e7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| notifier | type_spec |  | [26](../../magpie/internal/gui/quota_alert_notify.go#L26) |
-| once | field_declaration | notifier | [27](../../magpie/internal/gui/quota_alert_notify.go#L27) |
-| ns | field_declaration | notifier | [28](../../magpie/internal/gui/quota_alert_notify.go#L28) |
-| err | field_declaration | notifier | [29](../../magpie/internal/gui/quota_alert_notify.go#L29) |
-| h | field_declaration | notifier | [30](../../magpie/internal/gui/quota_alert_notify.go#L30) |
-| refused | field_declaration | notifier | [33](../../magpie/internal/gui/quota_alert_notify.go#L33) |
-| start | method_declaration |  | [36](../../magpie/internal/gui/quota_alert_notify.go#L36) |
-| allowed | method_declaration |  | [63](../../magpie/internal/gui/quota_alert_notify.go#L63) |
-| problem | method_declaration |  | [76](../../magpie/internal/gui/quota_alert_notify.go#L76) |
-| turnNotice | const_spec |  | [96](../../magpie/internal/gui/quota_alert_notify.go#L96) |
-| send | method_declaration |  | [98](../../magpie/internal/gui/quota_alert_notify.go#L98) |
-| sendAs | method_declaration |  | [100](../../magpie/internal/gui/quota_alert_notify.go#L100) |
-| linuxClick | const_spec |  | [120](../../magpie/internal/gui/quota_alert_notify.go#L120) |
-| clickCategory | var_spec |  | [122](../../magpie/internal/gui/quota_alert_notify.go#L122) |
-| notice | function_declaration |  | [128](../../magpie/internal/gui/quota_alert_notify.go#L128) |
-| opensUsage | function_declaration |  | [141](../../magpie/internal/gui/quota_alert_notify.go#L141) |
-| watchAlerts | method_declaration |  | [150](../../magpie/internal/gui/quota_alert_notify.go#L150) |
+| notifier | type_spec |  | [27](../../magpie/internal/gui/quota_alert_notify.go#L27) |
+| once | field_declaration | notifier | [28](../../magpie/internal/gui/quota_alert_notify.go#L28) |
+| ns | field_declaration | notifier | [29](../../magpie/internal/gui/quota_alert_notify.go#L29) |
+| err | field_declaration | notifier | [30](../../magpie/internal/gui/quota_alert_notify.go#L30) |
+| h | field_declaration | notifier | [31](../../magpie/internal/gui/quota_alert_notify.go#L31) |
+| refused | field_declaration | notifier | [34](../../magpie/internal/gui/quota_alert_notify.go#L34) |
+| start | method_declaration |  | [37](../../magpie/internal/gui/quota_alert_notify.go#L37) |
+| allowed | method_declaration |  | [64](../../magpie/internal/gui/quota_alert_notify.go#L64) |
+| problem | method_declaration |  | [77](../../magpie/internal/gui/quota_alert_notify.go#L77) |
+| turnNotice | const_spec |  | [99](../../magpie/internal/gui/quota_alert_notify.go#L99) |
+| maskNotice | const_spec |  | [100](../../magpie/internal/gui/quota_alert_notify.go#L100) |
+| send | method_declaration |  | [103](../../magpie/internal/gui/quota_alert_notify.go#L103) |
+| sendAs | method_declaration |  | [105](../../magpie/internal/gui/quota_alert_notify.go#L105) |
+| linuxClick | const_spec |  | [128](../../magpie/internal/gui/quota_alert_notify.go#L128) |
+| clickCategory | var_spec |  | [130](../../magpie/internal/gui/quota_alert_notify.go#L130) |
+| notice | function_declaration |  | [136](../../magpie/internal/gui/quota_alert_notify.go#L136) |
+| clickView | function_declaration |  | [150](../../magpie/internal/gui/quota_alert_notify.go#L150) |
+| watchAlerts | method_declaration |  | [169](../../magpie/internal/gui/quota_alert_notify.go#L169) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/prompt.go) · page 2/3
 
-Source SHA-256: d5200b1a7d687c595b3764fecde997fb17e36407d83bc35326863ab5ca556df2
+Source SHA-256: 7f6c7495a5826fcc114ecb8713b2a887a095250d6793a54b3acb6f9d8be97ff7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,86 +25,86 @@ Source SHA-256: d5200b1a7d687c595b3764fecde997fb17e36407d83bc35326863ab5ca556df2
 | reminders | var_spec |  | [717](../../magpie/internal/gateway/prompt.go#L717) |
 | myRequest | var_spec |  | [720](../../magpie/internal/gateway/prompt.go#L720) |
 | injected | var_spec |  | [725](../../magpie/internal/gateway/prompt.go#L725) |
-| userWords | function_declaration |  | [740](../../magpie/internal/gateway/prompt.go#L740) |
-| userSaid | function_declaration |  | [766](../../magpie/internal/gateway/prompt.go#L766) |
-| said | var_spec | userSaid | [767](../../magpie/internal/gateway/prompt.go#L767) |
-| anthropicBlock | method_declaration |  | [778](../../magpie/internal/gateway/prompt.go#L778) |
-| texts | var_spec | anthropicBlock | [795](../../magpie/internal/gateway/prompt.go#L795) |
-| responses | method_declaration |  | [824](../../magpie/internal/gateway/prompt.go#L824) |
-| req | var_spec | responses | [825](../../magpie/internal/gateway/prompt.go#L825) |
-| Instructions | field_declaration | responses::req | [826](../../magpie/internal/gateway/prompt.go#L826) |
-| Input | field_declaration | responses::req | [827](../../magpie/internal/gateway/prompt.go#L827) |
-| Tools | field_declaration | responses::req | [828](../../magpie/internal/gateway/prompt.go#L828) |
-| Previous | field_declaration | responses::req | [829](../../magpie/internal/gateway/prompt.go#L829) |
-| ins | var_spec | responses | [835](../../magpie/internal/gateway/prompt.go#L835) |
-| s | var_spec | responses | [842](../../magpie/internal/gateway/prompt.go#L842) |
-| responsesTool | method_declaration |  | [855](../../magpie/internal/gateway/prompt.go#L855) |
-| d | var_spec | responsesTool | [856](../../magpie/internal/gateway/prompt.go#L856) |
-| Type | field_declaration | responsesTool::d | [857](../../magpie/internal/gateway/prompt.go#L857) |
-| Name | field_declaration | responsesTool::d | [858](../../magpie/internal/gateway/prompt.go#L858) |
-| Tools | field_declaration | responsesTool::d | [859](../../magpie/internal/gateway/prompt.go#L859) |
-| Function | field_declaration | responsesTool::d | [860](../../magpie/internal/gateway/prompt.go#L860) |
-| Name | field_declaration | responsesTool::d::Function | [861](../../magpie/internal/gateway/prompt.go#L861) |
-| responsesItem | method_declaration |  | [896](../../magpie/internal/gateway/prompt.go#L896) |
-| it | var_spec | responsesItem | [897](../../magpie/internal/gateway/prompt.go#L897) |
-| Type | field_declaration | responsesItem::it | [898](../../magpie/internal/gateway/prompt.go#L898) |
-| Role | field_declaration | responsesItem::it | [899](../../magpie/internal/gateway/prompt.go#L899) |
-| Content | field_declaration | responsesItem::it | [900](../../magpie/internal/gateway/prompt.go#L900) |
-| CallID | field_declaration | responsesItem::it | [901](../../magpie/internal/gateway/prompt.go#L901) |
-| Name | field_declaration | responsesItem::it | [902](../../magpie/internal/gateway/prompt.go#L902) |
-| Arguments | field_declaration | responsesItem::it | [903](../../magpie/internal/gateway/prompt.go#L903) |
-| Input | field_declaration | responsesItem::it | [904](../../magpie/internal/gateway/prompt.go#L904) |
-| Output | field_declaration | responsesItem::it | [905](../../magpie/internal/gateway/prompt.go#L905) |
-| Tools | field_declaration | responsesItem::it | [906](../../magpie/internal/gateway/prompt.go#L906) |
-| Summary | field_declaration | responsesItem::it | [907](../../magpie/internal/gateway/prompt.go#L907) |
-| Text | field_declaration | responsesItem::it::Summary | [908](../../magpie/internal/gateway/prompt.go#L908) |
-| Encrypted | field_declaration | responsesItem::it | [910](../../magpie/internal/gateway/prompt.go#L910) |
-| Action | field_declaration | responsesItem::it | [911](../../magpie/internal/gateway/prompt.go#L911) |
-| said | var_spec | responsesItem | [949](../../magpie/internal/gateway/prompt.go#L949) |
-| s | var_spec | responsesItem | [974](../../magpie/internal/gateway/prompt.go#L974) |
-| texts | var_spec | responsesItem | [978](../../magpie/internal/gateway/prompt.go#L978) |
-| rPart | type_spec |  | [1002](../../magpie/internal/gateway/prompt.go#L1002) |
-| text | field_declaration | rPart | [1003](../../magpie/internal/gateway/prompt.go#L1003) |
-| image | field_declaration | rPart | [1004](../../magpie/internal/gateway/prompt.go#L1004) |
-| src | field_declaration | rPart | [1005](../../magpie/internal/gateway/prompt.go#L1005) |
-| responsesContent | function_declaration |  | [1008](../../magpie/internal/gateway/prompt.go#L1008) |
-| s | var_spec | responsesContent | [1009](../../magpie/internal/gateway/prompt.go#L1009) |
-| ps | var_spec | responsesContent | [1013](../../magpie/internal/gateway/prompt.go#L1013) |
-| Type | field_declaration | responsesContent::ps | [1014](../../magpie/internal/gateway/prompt.go#L1014) |
-| Text | field_declaration | responsesContent::ps | [1015](../../magpie/internal/gateway/prompt.go#L1015) |
-| ImageURL | field_declaration | responsesContent::ps | [1016](../../magpie/internal/gateway/prompt.go#L1016) |
-| chatCompletions | method_declaration |  | [1028](../../magpie/internal/gateway/prompt.go#L1028) |
-| req | var_spec | chatCompletions | [1029](../../magpie/internal/gateway/prompt.go#L1029) |
-| Messages | field_declaration | chatCompletions::req | [1030](../../magpie/internal/gateway/prompt.go#L1030) |
-| Role | field_declaration | chatCompletions::req::Messages | [1031](../../magpie/internal/gateway/prompt.go#L1031) |
-| Content | field_declaration | chatCompletions::req::Messages | [1032](../../magpie/internal/gateway/prompt.go#L1032) |
-| ToolCallID | field_declaration | chatCompletions::req::Messages | [1033](../../magpie/internal/gateway/prompt.go#L1033) |
-| Reasoning | field_declaration | chatCompletions::req::Messages | [1034](../../magpie/internal/gateway/prompt.go#L1034) |
-| ToolCalls | field_declaration | chatCompletions::req::Messages | [1035](../../magpie/internal/gateway/prompt.go#L1035) |
-| ID | field_declaration | chatCompletions::req::Messages::ToolCalls | [1036](../../magpie/internal/gateway/prompt.go#L1036) |
-| Function | field_declaration | chatCompletions::req::Messages::ToolCalls | [1037](../../magpie/internal/gateway/prompt.go#L1037) |
-| Name | field_declaration | chatCompletions::req::Messages::ToolCalls::Function | [1038](../../magpie/internal/gateway/prompt.go#L1038) |
-| Arguments | field_declaration | chatCompletions::req::Messages::ToolCalls::Function | [1039](../../magpie/internal/gateway/prompt.go#L1039) |
-| Tools | field_declaration | chatCompletions::req | [1043](../../magpie/internal/gateway/prompt.go#L1043) |
-| texts | var_spec | chatCompletions | [1071](../../magpie/internal/gateway/prompt.go#L1071) |
-| texts | var_spec | chatCompletions | [1085](../../magpie/internal/gateway/prompt.go#L1085) |
-| gemini | method_declaration |  | [1102](../../magpie/internal/gateway/prompt.go#L1102) |
-| gPart | type_spec | gemini | [1103](../../magpie/internal/gateway/prompt.go#L1103) |
-| Text | field_declaration | gemini::gPart | [1104](../../magpie/internal/gateway/prompt.go#L1104) |
-| Thought | field_declaration | gemini::gPart | [1105](../../magpie/internal/gateway/prompt.go#L1105) |
-| InlineData | field_declaration | gemini::gPart | [1106](../../magpie/internal/gateway/prompt.go#L1106) |
-| FileData | field_declaration | gemini::gPart | [1107](../../magpie/internal/gateway/prompt.go#L1107) |
-| FunctionCall | field_declaration | gemini::gPart | [1108](../../magpie/internal/gateway/prompt.go#L1108) |
-| ID | field_declaration | gemini::gPart::FunctionCall | [1109](../../magpie/internal/gateway/prompt.go#L1109) |
-| Name | field_declaration | gemini::gPart::FunctionCall | [1110](../../magpie/internal/gateway/prompt.go#L1110) |
-| Args | field_declaration | gemini::gPart::FunctionCall | [1111](../../magpie/internal/gateway/prompt.go#L1111) |
-| FunctionResponse | field_declaration | gemini::gPart | [1113](../../magpie/internal/gateway/prompt.go#L1113) |
-| ID | field_declaration | gemini::gPart::FunctionResponse | [1114](../../magpie/internal/gateway/prompt.go#L1114) |
-| Name | field_declaration | gemini::gPart::FunctionResponse | [1115](../../magpie/internal/gateway/prompt.go#L1115) |
-| Response | field_declaration | gemini::gPart::FunctionResponse | [1116](../../magpie/internal/gateway/prompt.go#L1116) |
-| req | var_spec | gemini | [1119](../../magpie/internal/gateway/prompt.go#L1119) |
-| System | field_declaration | gemini::req | [1120](../../magpie/internal/gateway/prompt.go#L1120) |
-| Parts | field_declaration | gemini::req::System | [1121](../../magpie/internal/gateway/prompt.go#L1121) |
-| Contents | field_declaration | gemini::req | [1123](../../magpie/internal/gateway/prompt.go#L1123) |
-| Role | field_declaration | gemini::req::Contents | [1124](../../magpie/internal/gateway/prompt.go#L1124) |
-| Parts | field_declaration | gemini::req::Contents | [1125](../../magpie/internal/gateway/prompt.go#L1125) |
+| userWords | function_declaration |  | [744](../../magpie/internal/gateway/prompt.go#L744) |
+| saysAnything | function_declaration |  | [771](../../magpie/internal/gateway/prompt.go#L771) |
+| userSaid | function_declaration |  | [776](../../magpie/internal/gateway/prompt.go#L776) |
+| said | var_spec | userSaid | [777](../../magpie/internal/gateway/prompt.go#L777) |
+| anthropicBlock | method_declaration |  | [788](../../magpie/internal/gateway/prompt.go#L788) |
+| texts | var_spec | anthropicBlock | [805](../../magpie/internal/gateway/prompt.go#L805) |
+| responses | method_declaration |  | [834](../../magpie/internal/gateway/prompt.go#L834) |
+| req | var_spec | responses | [835](../../magpie/internal/gateway/prompt.go#L835) |
+| Instructions | field_declaration | responses::req | [836](../../magpie/internal/gateway/prompt.go#L836) |
+| Input | field_declaration | responses::req | [837](../../magpie/internal/gateway/prompt.go#L837) |
+| Tools | field_declaration | responses::req | [838](../../magpie/internal/gateway/prompt.go#L838) |
+| Previous | field_declaration | responses::req | [839](../../magpie/internal/gateway/prompt.go#L839) |
+| ins | var_spec | responses | [845](../../magpie/internal/gateway/prompt.go#L845) |
+| s | var_spec | responses | [852](../../magpie/internal/gateway/prompt.go#L852) |
+| responsesTool | method_declaration |  | [865](../../magpie/internal/gateway/prompt.go#L865) |
+| d | var_spec | responsesTool | [866](../../magpie/internal/gateway/prompt.go#L866) |
+| Type | field_declaration | responsesTool::d | [867](../../magpie/internal/gateway/prompt.go#L867) |
+| Name | field_declaration | responsesTool::d | [868](../../magpie/internal/gateway/prompt.go#L868) |
+| Tools | field_declaration | responsesTool::d | [869](../../magpie/internal/gateway/prompt.go#L869) |
+| Function | field_declaration | responsesTool::d | [870](../../magpie/internal/gateway/prompt.go#L870) |
+| Name | field_declaration | responsesTool::d::Function | [871](../../magpie/internal/gateway/prompt.go#L871) |
+| responsesItem | method_declaration |  | [906](../../magpie/internal/gateway/prompt.go#L906) |
+| it | var_spec | responsesItem | [907](../../magpie/internal/gateway/prompt.go#L907) |
+| Type | field_declaration | responsesItem::it | [908](../../magpie/internal/gateway/prompt.go#L908) |
+| Role | field_declaration | responsesItem::it | [909](../../magpie/internal/gateway/prompt.go#L909) |
+| Content | field_declaration | responsesItem::it | [910](../../magpie/internal/gateway/prompt.go#L910) |
+| CallID | field_declaration | responsesItem::it | [911](../../magpie/internal/gateway/prompt.go#L911) |
+| Name | field_declaration | responsesItem::it | [912](../../magpie/internal/gateway/prompt.go#L912) |
+| Arguments | field_declaration | responsesItem::it | [913](../../magpie/internal/gateway/prompt.go#L913) |
+| Input | field_declaration | responsesItem::it | [914](../../magpie/internal/gateway/prompt.go#L914) |
+| Output | field_declaration | responsesItem::it | [915](../../magpie/internal/gateway/prompt.go#L915) |
+| Tools | field_declaration | responsesItem::it | [916](../../magpie/internal/gateway/prompt.go#L916) |
+| Summary | field_declaration | responsesItem::it | [917](../../magpie/internal/gateway/prompt.go#L917) |
+| Text | field_declaration | responsesItem::it::Summary | [918](../../magpie/internal/gateway/prompt.go#L918) |
+| Encrypted | field_declaration | responsesItem::it | [920](../../magpie/internal/gateway/prompt.go#L920) |
+| Action | field_declaration | responsesItem::it | [921](../../magpie/internal/gateway/prompt.go#L921) |
+| said | var_spec | responsesItem | [959](../../magpie/internal/gateway/prompt.go#L959) |
+| s | var_spec | responsesItem | [984](../../magpie/internal/gateway/prompt.go#L984) |
+| texts | var_spec | responsesItem | [988](../../magpie/internal/gateway/prompt.go#L988) |
+| rPart | type_spec |  | [1012](../../magpie/internal/gateway/prompt.go#L1012) |
+| text | field_declaration | rPart | [1013](../../magpie/internal/gateway/prompt.go#L1013) |
+| image | field_declaration | rPart | [1014](../../magpie/internal/gateway/prompt.go#L1014) |
+| src | field_declaration | rPart | [1015](../../magpie/internal/gateway/prompt.go#L1015) |
+| responsesContent | function_declaration |  | [1018](../../magpie/internal/gateway/prompt.go#L1018) |
+| s | var_spec | responsesContent | [1019](../../magpie/internal/gateway/prompt.go#L1019) |
+| ps | var_spec | responsesContent | [1023](../../magpie/internal/gateway/prompt.go#L1023) |
+| Type | field_declaration | responsesContent::ps | [1024](../../magpie/internal/gateway/prompt.go#L1024) |
+| Text | field_declaration | responsesContent::ps | [1025](../../magpie/internal/gateway/prompt.go#L1025) |
+| ImageURL | field_declaration | responsesContent::ps | [1026](../../magpie/internal/gateway/prompt.go#L1026) |
+| chatCompletions | method_declaration |  | [1038](../../magpie/internal/gateway/prompt.go#L1038) |
+| req | var_spec | chatCompletions | [1039](../../magpie/internal/gateway/prompt.go#L1039) |
+| Messages | field_declaration | chatCompletions::req | [1040](../../magpie/internal/gateway/prompt.go#L1040) |
+| Role | field_declaration | chatCompletions::req::Messages | [1041](../../magpie/internal/gateway/prompt.go#L1041) |
+| Content | field_declaration | chatCompletions::req::Messages | [1042](../../magpie/internal/gateway/prompt.go#L1042) |
+| ToolCallID | field_declaration | chatCompletions::req::Messages | [1043](../../magpie/internal/gateway/prompt.go#L1043) |
+| Reasoning | field_declaration | chatCompletions::req::Messages | [1044](../../magpie/internal/gateway/prompt.go#L1044) |
+| ToolCalls | field_declaration | chatCompletions::req::Messages | [1045](../../magpie/internal/gateway/prompt.go#L1045) |
+| ID | field_declaration | chatCompletions::req::Messages::ToolCalls | [1046](../../magpie/internal/gateway/prompt.go#L1046) |
+| Function | field_declaration | chatCompletions::req::Messages::ToolCalls | [1047](../../magpie/internal/gateway/prompt.go#L1047) |
+| Name | field_declaration | chatCompletions::req::Messages::ToolCalls::Function | [1048](../../magpie/internal/gateway/prompt.go#L1048) |
+| Arguments | field_declaration | chatCompletions::req::Messages::ToolCalls::Function | [1049](../../magpie/internal/gateway/prompt.go#L1049) |
+| Tools | field_declaration | chatCompletions::req | [1053](../../magpie/internal/gateway/prompt.go#L1053) |
+| texts | var_spec | chatCompletions | [1081](../../magpie/internal/gateway/prompt.go#L1081) |
+| texts | var_spec | chatCompletions | [1095](../../magpie/internal/gateway/prompt.go#L1095) |
+| gemini | method_declaration |  | [1112](../../magpie/internal/gateway/prompt.go#L1112) |
+| gPart | type_spec | gemini | [1113](../../magpie/internal/gateway/prompt.go#L1113) |
+| Text | field_declaration | gemini::gPart | [1114](../../magpie/internal/gateway/prompt.go#L1114) |
+| Thought | field_declaration | gemini::gPart | [1115](../../magpie/internal/gateway/prompt.go#L1115) |
+| InlineData | field_declaration | gemini::gPart | [1116](../../magpie/internal/gateway/prompt.go#L1116) |
+| FileData | field_declaration | gemini::gPart | [1117](../../magpie/internal/gateway/prompt.go#L1117) |
+| FunctionCall | field_declaration | gemini::gPart | [1118](../../magpie/internal/gateway/prompt.go#L1118) |
+| ID | field_declaration | gemini::gPart::FunctionCall | [1119](../../magpie/internal/gateway/prompt.go#L1119) |
+| Name | field_declaration | gemini::gPart::FunctionCall | [1120](../../magpie/internal/gateway/prompt.go#L1120) |
+| Args | field_declaration | gemini::gPart::FunctionCall | [1121](../../magpie/internal/gateway/prompt.go#L1121) |
+| FunctionResponse | field_declaration | gemini::gPart | [1123](../../magpie/internal/gateway/prompt.go#L1123) |
+| ID | field_declaration | gemini::gPart::FunctionResponse | [1124](../../magpie/internal/gateway/prompt.go#L1124) |
+| Name | field_declaration | gemini::gPart::FunctionResponse | [1125](../../magpie/internal/gateway/prompt.go#L1125) |
+| Response | field_declaration | gemini::gPart::FunctionResponse | [1126](../../magpie/internal/gateway/prompt.go#L1126) |
+| req | var_spec | gemini | [1129](../../magpie/internal/gateway/prompt.go#L1129) |
+| System | field_declaration | gemini::req | [1130](../../magpie/internal/gateway/prompt.go#L1130) |
+| Parts | field_declaration | gemini::req::System | [1131](../../magpie/internal/gateway/prompt.go#L1131) |
+| Contents | field_declaration | gemini::req | [1133](../../magpie/internal/gateway/prompt.go#L1133) |
+| Role | field_declaration | gemini::req::Contents | [1134](../../magpie/internal/gateway/prompt.go#L1134) |

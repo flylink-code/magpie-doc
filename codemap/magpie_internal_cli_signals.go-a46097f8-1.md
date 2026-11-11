@@ -4,15 +4,19 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/signals.go) · page 1/1
 
-Source SHA-256: 8f5846929c5ec84612ef4edfc1c6672e6ab09024d86f20decde4a93dbc811ffd
+Source SHA-256: cceec9aa77e83b2354dfe611a6a57d2229539b5116fcaf5e542465a122c85246
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| endProbesOnSignal | function_declaration |  | [25](../../magpie/internal/cli/signals.go#L25) |
-| caught | var_spec |  | [55](../../magpie/internal/cli/signals.go#L55) |
-| onSignal | var_spec |  | [56](../../magpie/internal/cli/signals.go#L56) |
-| die | var_spec |  | [64](../../magpie/internal/cli/signals.go#L64) |
-| ownSignals | function_declaration |  | [80](../../magpie/internal/cli/signals.go#L80) |
-| interrupts | var_spec |  | [93](../../magpie/internal/cli/signals.go#L93) |
-| interruptContext | function_declaration |  | [97](../../magpie/internal/cli/signals.go#L97) |
-| once | var_spec | interruptContext | [100](../../magpie/internal/cli/signals.go#L100) |
+| endProbesOnSignal | function_declaration |  | [27](../../magpie/internal/cli/signals.go#L27) |
+| saveOnSignal | var_spec |  | [60](../../magpie/internal/cli/signals.go#L60) |
+| sessionsSaved | var_spec |  | [63](../../magpie/internal/cli/signals.go#L63) |
+| savedWithin | function_declaration |  | [66](../../magpie/internal/cli/signals.go#L66) |
+| caught | var_spec |  | [78](../../magpie/internal/cli/signals.go#L78) |
+| onSignal | var_spec |  | [79](../../magpie/internal/cli/signals.go#L79) |
+| die | var_spec |  | [87](../../magpie/internal/cli/signals.go#L87) |
+| ownSignals | function_declaration |  | [103](../../magpie/internal/cli/signals.go#L103) |
+| leaveSignals | function_declaration |  | [117](../../magpie/internal/cli/signals.go#L117) |
+| interrupts | var_spec |  | [124](../../magpie/internal/cli/signals.go#L124) |
+| interruptContext | function_declaration |  | [128](../../magpie/internal/cli/signals.go#L128) |
+| once | var_spec | interruptContext | [131](../../magpie/internal/cli/signals.go#L131) |

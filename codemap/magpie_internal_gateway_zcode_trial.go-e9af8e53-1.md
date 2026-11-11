@@ -4,10 +4,12 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/zcode_trial.go) · page 1/1
 
-Source SHA-256: 0f982c8951088e8193b07b769fd9bcff482e050aab768f589873466fd36e6bec
+Source SHA-256: e56d126dcb088fd8c21387c542211e26db63b307a21b814463878cba397efa0a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zcodeEndedWords | var_spec |  | [18](../../magpie/internal/gateway/zcode_trial.go#L18) |
-| zcodeSpentWords | var_spec |  | [19](../../magpie/internal/gateway/zcode_trial.go#L19) |
-| zcodeTrialRefused | function_declaration |  | [31](../../magpie/internal/gateway/zcode_trial.go#L31) |
+| zcodeEndedWords | var_spec |  | [20](../../magpie/internal/gateway/zcode_trial.go#L20) |
+| zcodeSpentWords | var_spec |  | [21](../../magpie/internal/gateway/zcode_trial.go#L21) |
+| zcodeTrialRefused | function_declaration |  | [33](../../magpie/internal/gateway/zcode_trial.go#L33) |
+| zcodeTrialBlocked | function_declaration |  | [63](../../magpie/internal/gateway/zcode_trial.go#L63) |
+| zcodeTrialRestricted | function_declaration |  | [79](../../magpie/internal/gateway/zcode_trial.go#L79) |

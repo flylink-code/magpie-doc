@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/claudebridge/mcp.go) · page 1/1
 
-Source SHA-256: 699faba5a555798e36dd02b5a251afa4413876b082861c494551efab23ff384b
+Source SHA-256: e78a74ba4f0f8724c2604ecb3fa3ecbec70048ceb7c95193034f4f65047e32e1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,17 +26,18 @@ Source SHA-256: 699faba5a555798e36dd02b5a251afa4413876b082861c494551efab23ff384b
 | IsError | field_declaration | callbackResponse | [44](../../magpie/internal/claudebridge/mcp.go#L44) |
 | Tools | field_declaration | callbackResponse | [47](../../magpie/internal/claudebridge/mcp.go#L47) |
 | listWait | var_spec |  | [52](../../magpie/internal/claudebridge/mcp.go#L52) |
-| RunMCP | function_declaration |  | [58](../../magpie/internal/claudebridge/mcp.go#L58) |
-| tools | var_spec | RunMCP | [79](../../magpie/internal/claudebridge/mcp.go#L79) |
-| outMu | var_spec | RunMCP | [96](../../magpie/internal/claudebridge/mcp.go#L96) |
-| toolsMu | var_spec | RunMCP | [103](../../magpie/internal/claudebridge/mcp.go#L103) |
-| listed | var_spec | RunMCP | [104](../../magpie/internal/claudebridge/mcp.go#L104) |
-| req | var_spec | RunMCP | [123](../../magpie/internal/claudebridge/mcp.go#L123) |
-| rpcErr | var_spec | RunMCP | [133](../../magpie/internal/claudebridge/mcp.go#L133) |
-| p | var_spec | RunMCP | [151](../../magpie/internal/claudebridge/mcp.go#L151) |
-| Name | field_declaration | RunMCP::p | [152](../../magpie/internal/claudebridge/mcp.go#L152) |
-| Arguments | field_declaration | RunMCP::p | [153](../../magpie/internal/claudebridge/mcp.go#L153) |
-| Meta | field_declaration | RunMCP::p | [154](../../magpie/internal/claudebridge/mcp.go#L154) |
-| cb | var_spec | RunMCP | [180](../../magpie/internal/claudebridge/mcp.go#L180) |
-| newCallID | function_declaration |  | [206](../../magpie/internal/claudebridge/mcp.go#L206) |
-| b | var_spec | newCallID | [207](../../magpie/internal/claudebridge/mcp.go#L207) |
+| RunMCP | function_declaration |  | [60](../../magpie/internal/claudebridge/mcp.go#L60) |
+| listedOnce | var_spec | RunMCP | [68](../../magpie/internal/claudebridge/mcp.go#L68) |
+| tools | var_spec | RunMCP | [88](../../magpie/internal/claudebridge/mcp.go#L88) |
+| outMu | var_spec | RunMCP | [105](../../magpie/internal/claudebridge/mcp.go#L105) |
+| toolsMu | var_spec | RunMCP | [112](../../magpie/internal/claudebridge/mcp.go#L112) |
+| listed | var_spec | RunMCP | [113](../../magpie/internal/claudebridge/mcp.go#L113) |
+| req | var_spec | RunMCP | [132](../../magpie/internal/claudebridge/mcp.go#L132) |
+| rpcErr | var_spec | RunMCP | [142](../../magpie/internal/claudebridge/mcp.go#L142) |
+| p | var_spec | RunMCP | [160](../../magpie/internal/claudebridge/mcp.go#L160) |
+| Name | field_declaration | RunMCP::p | [161](../../magpie/internal/claudebridge/mcp.go#L161) |
+| Arguments | field_declaration | RunMCP::p | [162](../../magpie/internal/claudebridge/mcp.go#L162) |
+| Meta | field_declaration | RunMCP::p | [163](../../magpie/internal/claudebridge/mcp.go#L163) |
+| cb | var_spec | RunMCP | [189](../../magpie/internal/claudebridge/mcp.go#L189) |
+| newCallID | function_declaration |  | [220](../../magpie/internal/claudebridge/mcp.go#L220) |
+| b | var_spec | newCallID | [221](../../magpie/internal/claudebridge/mcp.go#L221) |

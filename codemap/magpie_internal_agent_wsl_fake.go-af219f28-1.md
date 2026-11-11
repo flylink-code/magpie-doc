@@ -4,12 +4,21 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/wsl_fake.go) · page 1/1
 
-Source SHA-256: 406ab0cd162eb0a44e18e7922fa4e24df8d8a2541c409d955cc775e9f621b692
+Source SHA-256: 5890d44bb32149fefd1cbd1e2c432250bfcd2e698cf186e0c4e6b0da6d65752e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| FakeWSL | function_declaration |  | [15](../../magpie/internal/agent/wsl_fake.go#L15) |
-| names | var_spec | FakeWSL | [23](../../magpie/internal/agent/wsl_fake.go#L23) |
-| run | var_spec | FakeWSL | [41](../../magpie/internal/agent/wsl_fake.go#L41) |
-| fakeStop | var_spec |  | [64](../../magpie/internal/agent/wsl_fake.go#L64) |
-| StopFakeWSL | function_declaration |  | [69](../../magpie/internal/agent/wsl_fake.go#L69) |
+| FakeWSL | function_declaration |  | [19](../../magpie/internal/agent/wsl_fake.go#L19) |
+| names | var_spec | FakeWSL | [27](../../magpie/internal/agent/wsl_fake.go#L27) |
+| run | var_spec | FakeWSL | [48](../../magpie/internal/agent/wsl_fake.go#L48) |
+| fakeStop | var_spec |  | [86](../../magpie/internal/agent/wsl_fake.go#L86) |
+| fakeCalls | var_spec |  | [90](../../magpie/internal/agent/wsl_fake.go#L90) |
+| in | field_declaration | fakeCalls | [92](../../magpie/internal/agent/wsl_fake.go#L92) |
+| StopFakeWSL | function_declaration |  | [98](../../magpie/internal/agent/wsl_fake.go#L98) |
+| StartFakeWSL | function_declaration |  | [106](../../magpie/internal/agent/wsl_fake.go#L106) |
+| FakeWSLRuns | function_declaration |  | [114](../../magpie/internal/agent/wsl_fake.go#L114) |
+| FakeWSLDrives | function_declaration |  | [123](../../magpie/internal/agent/wsl_fake.go#L123) |
+| fakeLinks | function_declaration |  | [137](../../magpie/internal/agent/wsl_fake.go#L137) |
+| b | var_spec | fakeLinks | [166](../../magpie/internal/agent/wsl_fake.go#L166) |
+| realWSLRun | var_spec |  | [182](../../magpie/internal/agent/wsl_fake.go#L182) |
+| FakeWSLRealLinks | function_declaration |  | [187](../../magpie/internal/agent/wsl_fake.go#L187) |

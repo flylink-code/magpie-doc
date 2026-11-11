@@ -4,57 +4,59 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/daemon/daemon.go) · page 1/1
 
-Source SHA-256: 2d779326cffe367a21a10d42364837350345f7ea100d475c97beb75cde8f3366
+Source SHA-256: ec50d9ba5d4b326f2a8a29a94c621163e03064d655a2edc63b63f611f4381765
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Name | const_spec |  | [29](../../magpie/internal/daemon/daemon.go#L29) |
-| Status | type_spec |  | [32](../../magpie/internal/daemon/daemon.go#L32) |
-| Installed | field_declaration | Status | [33](../../magpie/internal/daemon/daemon.go#L33) |
-| Enabled | field_declaration | Status | [34](../../magpie/internal/daemon/daemon.go#L34) |
-| Running | field_declaration | Status | [35](../../magpie/internal/daemon/daemon.go#L35) |
-| PID | field_declaration | Status | [36](../../magpie/internal/daemon/daemon.go#L36) |
-| State | field_declaration | Status | [37](../../magpie/internal/daemon/daemon.go#L37) |
-| LastExit | field_declaration | Status | [38](../../magpie/internal/daemon/daemon.go#L38) |
-| File | field_declaration | Status | [39](../../magpie/internal/daemon/daemon.go#L39) |
-| Logs | field_declaration | Status | [40](../../magpie/internal/daemon/daemon.go#L40) |
-| Advice | field_declaration | Status | [41](../../magpie/internal/daemon/daemon.go#L41) |
-| manager | type_spec |  | [45](../../magpie/internal/daemon/daemon.go#L45) |
-| goos | var_spec |  | [57](../../magpie/internal/daemon/daemon.go#L57) |
-| ErrUnsupported | var_spec |  | [60](../../magpie/internal/daemon/daemon.go#L60) |
-| current | function_declaration |  | [62](../../magpie/internal/daemon/daemon.go#L62) |
-| Options | type_spec |  | [77](../../magpie/internal/daemon/daemon.go#L77) |
-| Web | field_declaration | Options | [80](../../magpie/internal/daemon/daemon.go#L80) |
-| Key | field_declaration | Options | [83](../../magpie/internal/daemon/daemon.go#L83) |
-| Install | function_declaration |  | [89](../../magpie/internal/daemon/daemon.go#L89) |
-| removedMark | function_declaration |  | [117](../../magpie/internal/daemon/daemon.go#L117) |
-| Removed | function_declaration |  | [120](../../magpie/internal/daemon/daemon.go#L120) |
-| serveArgs | function_declaration |  | [126](../../magpie/internal/daemon/daemon.go#L126) |
-| webFlag | const_spec |  | [134](../../magpie/internal/daemon/daemon.go#L134) |
-| webKeyVar | const_spec |  | [137](../../magpie/internal/daemon/daemon.go#L137) |
-| withKey | function_declaration |  | [141](../../magpie/internal/daemon/daemon.go#L141) |
-| Web | function_declaration |  | [151](../../magpie/internal/daemon/daemon.go#L151) |
-| webArgRe | var_spec |  | [164](../../magpie/internal/daemon/daemon.go#L164) |
-| webKeyRe | var_spec |  | [167](../../magpie/internal/daemon/daemon.go#L167) |
-| TLS | function_declaration |  | [173](../../magpie/internal/daemon/daemon.go#L173) |
-| tlsOf | function_declaration |  | [187](../../magpie/internal/daemon/daemon.go#L187) |
-| webOf | function_declaration |  | [207](../../magpie/internal/daemon/daemon.go#L207) |
-| widenPath | var_spec |  | [227](../../magpie/internal/daemon/daemon.go#L227) |
-| Node | function_declaration |  | [240](../../magpie/internal/daemon/daemon.go#L240) |
-| Uninstall | function_declaration |  | [250](../../magpie/internal/daemon/daemon.go#L250) |
-| Start | function_declaration |  | [260](../../magpie/internal/daemon/daemon.go#L260) |
-| Stop | function_declaration |  | [263](../../magpie/internal/daemon/daemon.go#L263) |
-| Restart | function_declaration |  | [267](../../magpie/internal/daemon/daemon.go#L267) |
-| Get | function_declaration |  | [270](../../magpie/internal/daemon/daemon.go#L270) |
-| ErrNotInstalled | var_spec |  | [285](../../magpie/internal/daemon/daemon.go#L285) |
-| with | function_declaration |  | [287](../../magpie/internal/daemon/daemon.go#L287) |
-| installed | function_declaration |  | [295](../../magpie/internal/daemon/daemon.go#L295) |
-| autostartEnabled | var_spec |  | [308](../../magpie/internal/daemon/daemon.go#L308) |
-| self | var_spec |  | [314](../../magpie/internal/daemon/daemon.go#L314) |
-| pick | function_declaration |  | [331](../../magpie/internal/daemon/daemon.go#L331) |
-| sameFile | function_declaration |  | [351](../../magpie/internal/daemon/daemon.go#L351) |
-| carried | var_spec |  | [364](../../magpie/internal/daemon/daemon.go#L364) |
-| environ | function_declaration |  | [375](../../magpie/internal/daemon/daemon.go#L375) |
-| out | var_spec | environ | [376](../../magpie/internal/daemon/daemon.go#L376) |
-| run | function_declaration |  | [392](../../magpie/internal/daemon/daemon.go#L392) |
-| private | function_declaration |  | [410](../../magpie/internal/daemon/daemon.go#L410) |
+| Name | const_spec |  | [30](../../magpie/internal/daemon/daemon.go#L30) |
+| Status | type_spec |  | [33](../../magpie/internal/daemon/daemon.go#L33) |
+| Installed | field_declaration | Status | [34](../../magpie/internal/daemon/daemon.go#L34) |
+| Enabled | field_declaration | Status | [35](../../magpie/internal/daemon/daemon.go#L35) |
+| Running | field_declaration | Status | [36](../../magpie/internal/daemon/daemon.go#L36) |
+| PID | field_declaration | Status | [37](../../magpie/internal/daemon/daemon.go#L37) |
+| State | field_declaration | Status | [38](../../magpie/internal/daemon/daemon.go#L38) |
+| LastExit | field_declaration | Status | [39](../../magpie/internal/daemon/daemon.go#L39) |
+| File | field_declaration | Status | [40](../../magpie/internal/daemon/daemon.go#L40) |
+| Logs | field_declaration | Status | [41](../../magpie/internal/daemon/daemon.go#L41) |
+| Advice | field_declaration | Status | [42](../../magpie/internal/daemon/daemon.go#L42) |
+| manager | type_spec |  | [46](../../magpie/internal/daemon/daemon.go#L46) |
+| goos | var_spec |  | [58](../../magpie/internal/daemon/daemon.go#L58) |
+| ErrUnsupported | var_spec |  | [61](../../magpie/internal/daemon/daemon.go#L61) |
+| current | function_declaration |  | [63](../../magpie/internal/daemon/daemon.go#L63) |
+| Options | type_spec |  | [78](../../magpie/internal/daemon/daemon.go#L78) |
+| Web | field_declaration | Options | [81](../../magpie/internal/daemon/daemon.go#L81) |
+| Key | field_declaration | Options | [84](../../magpie/internal/daemon/daemon.go#L84) |
+| Install | function_declaration |  | [90](../../magpie/internal/daemon/daemon.go#L90) |
+| removedMark | function_declaration |  | [118](../../magpie/internal/daemon/daemon.go#L118) |
+| Removed | function_declaration |  | [121](../../magpie/internal/daemon/daemon.go#L121) |
+| serveArgs | function_declaration |  | [127](../../magpie/internal/daemon/daemon.go#L127) |
+| webFlag | const_spec |  | [135](../../magpie/internal/daemon/daemon.go#L135) |
+| webKeyVar | const_spec |  | [138](../../magpie/internal/daemon/daemon.go#L138) |
+| withKey | function_declaration |  | [142](../../magpie/internal/daemon/daemon.go#L142) |
+| Web | function_declaration |  | [152](../../magpie/internal/daemon/daemon.go#L152) |
+| webArgRe | var_spec |  | [165](../../magpie/internal/daemon/daemon.go#L165) |
+| webKeyRe | var_spec |  | [168](../../magpie/internal/daemon/daemon.go#L168) |
+| TLS | function_declaration |  | [174](../../magpie/internal/daemon/daemon.go#L174) |
+| Addr | function_declaration |  | [189](../../magpie/internal/daemon/daemon.go#L189) |
+| envOf | function_declaration |  | [203](../../magpie/internal/daemon/daemon.go#L203) |
+| tlsOf | function_declaration |  | [217](../../magpie/internal/daemon/daemon.go#L217) |
+| webOf | function_declaration |  | [226](../../magpie/internal/daemon/daemon.go#L226) |
+| widenPath | var_spec |  | [246](../../magpie/internal/daemon/daemon.go#L246) |
+| Node | function_declaration |  | [259](../../magpie/internal/daemon/daemon.go#L259) |
+| Uninstall | function_declaration |  | [269](../../magpie/internal/daemon/daemon.go#L269) |
+| Start | function_declaration |  | [279](../../magpie/internal/daemon/daemon.go#L279) |
+| Stop | function_declaration |  | [282](../../magpie/internal/daemon/daemon.go#L282) |
+| Restart | function_declaration |  | [286](../../magpie/internal/daemon/daemon.go#L286) |
+| Get | function_declaration |  | [289](../../magpie/internal/daemon/daemon.go#L289) |
+| ErrNotInstalled | var_spec |  | [304](../../magpie/internal/daemon/daemon.go#L304) |
+| with | function_declaration |  | [306](../../magpie/internal/daemon/daemon.go#L306) |
+| installed | function_declaration |  | [314](../../magpie/internal/daemon/daemon.go#L314) |
+| autostartEnabled | var_spec |  | [331](../../magpie/internal/daemon/daemon.go#L331) |
+| self | var_spec |  | [337](../../magpie/internal/daemon/daemon.go#L337) |
+| pick | function_declaration |  | [354](../../magpie/internal/daemon/daemon.go#L354) |
+| sameFile | function_declaration |  | [374](../../magpie/internal/daemon/daemon.go#L374) |
+| carried | var_spec |  | [387](../../magpie/internal/daemon/daemon.go#L387) |
+| environ | function_declaration |  | [398](../../magpie/internal/daemon/daemon.go#L398) |
+| out | var_spec | environ | [399](../../magpie/internal/daemon/daemon.go#L399) |
+| run | function_declaration |  | [415](../../magpie/internal/daemon/daemon.go#L415) |
+| private | function_declaration |  | [433](../../magpie/internal/daemon/daemon.go#L433) |

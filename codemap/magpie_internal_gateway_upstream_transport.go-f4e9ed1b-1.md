@@ -4,16 +4,50 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/upstream_transport.go) · page 1/1
 
-Source SHA-256: 05c333f3c8c068e53856bc44a8a1974e957225fd5689579b4f5af34589dbe229
+Source SHA-256: 01ee1c3aafc646ae75f9a89e947468cc4b0d7e4376a59bb8af536b978656d45d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| upstreamTLS | var_spec |  | [13](../../magpie/internal/gateway/upstream_transport.go#L13) |
-| upstreamTransport | function_declaration |  | [25](../../magpie/internal/gateway/upstream_transport.go#L25) |
-| upstreamHeaderWait | var_spec |  | [34](../../magpie/internal/gateway/upstream_transport.go#L34) |
-| vendorTransport | function_declaration |  | [38](../../magpie/internal/gateway/upstream_transport.go#L38) |
-| drawsApart | type_spec |  | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
-| any | field_declaration | drawsApart | [53](../../magpie/internal/gateway/upstream_transport.go#L53) |
-| RoundTrip | method_declaration |  | [55](../../magpie/internal/gateway/upstream_transport.go#L55) |
-| replayable | type_spec |  | [74](../../magpie/internal/gateway/upstream_transport.go#L74) |
-| RoundTrip | method_declaration |  | [76](../../magpie/internal/gateway/upstream_transport.go#L76) |
+| upstreamTLS | var_spec |  | [21](../../magpie/internal/gateway/upstream_transport.go#L21) |
+| upstreamTransport | function_declaration |  | [38](../../magpie/internal/gateway/upstream_transport.go#L38) |
+| upstreamHeaderWait | var_spec |  | [49](../../magpie/internal/gateway/upstream_transport.go#L49) |
+| uploadBytes | var_spec |  | [57](../../magpie/internal/gateway/upstream_transport.go#L57) |
+| slowFor | var_spec |  | [61](../../magpie/internal/gateway/upstream_transport.go#L61) |
+| uploadStall | var_spec |  | [66](../../magpie/internal/gateway/upstream_transport.go#L66) |
+| vendorTransport | function_declaration |  | [73](../../magpie/internal/gateway/upstream_transport.go#L73) |
+| plainVendorTransport | function_declaration |  | [79](../../magpie/internal/gateway/upstream_transport.go#L79) |
+| uploadTransport | function_declaration |  | [97](../../magpie/internal/gateway/upstream_transport.go#L97) |
+| uploading | function_declaration |  | [105](../../magpie/internal/gateway/upstream_transport.go#L105) |
+| drawsApart | type_spec |  | [121](../../magpie/internal/gateway/upstream_transport.go#L121) |
+| any | field_declaration | drawsApart | [122](../../magpie/internal/gateway/upstream_transport.go#L122) |
+| slow | field_declaration | drawsApart | [124](../../magpie/internal/gateway/upstream_transport.go#L124) |
+| RoundTrip | method_declaration |  | [127](../../magpie/internal/gateway/upstream_transport.go#L127) |
+| lostPing | function_declaration |  | [153](../../magpie/internal/gateway/upstream_transport.go#L153) |
+| replayable | type_spec |  | [169](../../magpie/internal/gateway/upstream_transport.go#L169) |
+| RoundTrip | method_declaration |  | [183](../../magpie/internal/gateway/upstream_transport.go#L183) |
+| fresh | var_spec | RoundTrip | [196](../../magpie/internal/gateway/upstream_transport.go#L196) |
+| unsentAgain | var_spec |  | [233](../../magpie/internal/gateway/upstream_transport.go#L233) |
+| closedBeforeSent | function_declaration |  | [248](../../magpie/internal/gateway/upstream_transport.go#L248) |
+| op | var_spec | closedBeforeSent | [249](../../magpie/internal/gateway/upstream_transport.go#L249) |
+| endedUnwritten | function_declaration |  | [263](../../magpie/internal/gateway/upstream_transport.go#L263) |
+| op | var_spec | endedUnwritten | [264](../../magpie/internal/gateway/upstream_transport.go#L264) |
+| errClosedUnsent | type_spec |  | [271](../../magpie/internal/gateway/upstream_transport.go#L271) |
+| err | field_declaration | errClosedUnsent | [272](../../magpie/internal/gateway/upstream_transport.go#L272) |
+| tries | field_declaration | errClosedUnsent | [273](../../magpie/internal/gateway/upstream_transport.go#L273) |
+| Error | method_declaration |  | [276](../../magpie/internal/gateway/upstream_transport.go#L276) |
+| Unwrap | method_declaration |  | [280](../../magpie/internal/gateway/upstream_transport.go#L280) |
+| closedUnsentWords | const_spec |  | [283](../../magpie/internal/gateway/upstream_transport.go#L283) |
+| regionFresh | type_spec |  | [297](../../magpie/internal/gateway/upstream_transport.go#L297) |
+| next | field_declaration | regionFresh | [298](../../magpie/internal/gateway/upstream_transport.go#L298) |
+| pending | field_declaration | regionFresh | [299](../../magpie/internal/gateway/upstream_transport.go#L299) |
+| freshAfterRegion | function_declaration |  | [302](../../magpie/internal/gateway/upstream_transport.go#L302) |
+| RoundTrip | method_declaration |  | [306](../../magpie/internal/gateway/upstream_transport.go#L306) |
+| CloseIdleConnections | method_declaration |  | [319](../../magpie/internal/gateway/upstream_transport.go#L319) |
+| regionWatchBytes | const_spec |  | [327](../../magpie/internal/gateway/upstream_transport.go#L327) |
+| regionWatch | type_spec |  | [332](../../magpie/internal/gateway/upstream_transport.go#L332) |
+| t | field_declaration | regionWatch | [334](../../magpie/internal/gateway/upstream_transport.go#L334) |
+| mu | field_declaration | regionWatch | [335](../../magpie/internal/gateway/upstream_transport.go#L335) |
+| head | field_declaration | regionWatch | [336](../../magpie/internal/gateway/upstream_transport.go#L336) |
+| done | field_declaration | regionWatch | [337](../../magpie/internal/gateway/upstream_transport.go#L337) |
+| Read | method_declaration |  | [340](../../magpie/internal/gateway/upstream_transport.go#L340) |
+| Close | method_declaration |  | [355](../../magpie/internal/gateway/upstream_transport.go#L355) |

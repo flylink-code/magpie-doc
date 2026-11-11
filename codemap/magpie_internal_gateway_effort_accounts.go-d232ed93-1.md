@@ -4,35 +4,35 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/effort_accounts.go) · page 1/1
 
-Source SHA-256: 0f56cfc1fba725026c104edc2e4fa656674c42ffcbd1d321628ff41575ea72c6
+Source SHA-256: 37ab8b87ec333928376015010850944da4c43c0c61e22553905fae0a76f40afb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| effortRemember | const_spec |  | [24](../../magpie/internal/gateway/effort_accounts.go#L24) |
-| effortRefusals | var_spec |  | [26](../../magpie/internal/gateway/effort_accounts.go#L26) |
-| m | field_declaration | effortRefusals | [28](../../magpie/internal/gateway/effort_accounts.go#L28) |
-| effortRefusal | type_spec |  | [31](../../magpie/internal/gateway/effort_accounts.go#L31) |
-| refused | field_declaration | effortRefusal | [32](../../magpie/internal/gateway/effort_accounts.go#L32) |
-| takes | field_declaration | effortRefusal | [33](../../magpie/internal/gateway/effort_accounts.go#L33) |
-| at | field_declaration | effortRefusal | [34](../../magpie/internal/gateway/effort_accounts.go#L34) |
-| effortKey | function_declaration |  | [37](../../magpie/internal/gateway/effort_accounts.go#L37) |
-| noteEffortRefused | function_declaration |  | [41](../../magpie/internal/gateway/effort_accounts.go#L41) |
-| takesEffort | function_declaration |  | [62](../../magpie/internal/gateway/effort_accounts.go#L62) |
-| effortMate | function_declaration |  | [85](../../magpie/internal/gateway/effort_accounts.go#L85) |
-| unsupportedEffort | var_spec |  | [95](../../magpie/internal/gateway/effort_accounts.go#L95) |
-| effortNamed | var_spec |  | [97](../../magpie/internal/gateway/effort_accounts.go#L97) |
-| effortDenied | var_spec |  | [98](../../magpie/internal/gateway/effort_accounts.go#L98) |
-| supportedAre | var_spec |  | [99](../../magpie/internal/gateway/effort_accounts.go#L99) |
-| quotedLevel | var_spec |  | [100](../../magpie/internal/gateway/effort_accounts.go#L100) |
-| effortRefused | function_declaration |  | [106](../../magpie/internal/gateway/effort_accounts.go#L106) |
-| e | var_spec | effortRefused | [111](../../magpie/internal/gateway/effort_accounts.go#L111) |
-| Param | field_declaration | effortRefused::e | [112](../../magpie/internal/gateway/effort_accounts.go#L112) |
-| Error | field_declaration | effortRefused::e | [113](../../magpie/internal/gateway/effort_accounts.go#L113) |
-| Param | field_declaration | effortRefused::e::Error | [114](../../magpie/internal/gateway/effort_accounts.go#L114) |
-| modelTakes | function_declaration |  | [146](../../magpie/internal/gateway/effort_accounts.go#L146) |
-| effortError | function_declaration |  | [153](../../magpie/internal/gateway/effort_accounts.go#L153) |
-| askedTier | function_declaration |  | [166](../../magpie/internal/gateway/effort_accounts.go#L166) |
-| q | var_spec | askedTier | [167](../../magpie/internal/gateway/effort_accounts.go#L167) |
-| Tier | field_declaration | askedTier::q | [168](../../magpie/internal/gateway/effort_accounts.go#L168) |
-| takesTier | function_declaration |  | [177](../../magpie/internal/gateway/effort_accounts.go#L177) |
-| tierMate | function_declaration |  | [187](../../magpie/internal/gateway/effort_accounts.go#L187) |
+| effortRemember | const_spec |  | [25](../../magpie/internal/gateway/effort_accounts.go#L25) |
+| effortRefusals | var_spec |  | [27](../../magpie/internal/gateway/effort_accounts.go#L27) |
+| m | field_declaration | effortRefusals | [29](../../magpie/internal/gateway/effort_accounts.go#L29) |
+| effortRefusal | type_spec |  | [32](../../magpie/internal/gateway/effort_accounts.go#L32) |
+| refused | field_declaration | effortRefusal | [33](../../magpie/internal/gateway/effort_accounts.go#L33) |
+| takes | field_declaration | effortRefusal | [34](../../magpie/internal/gateway/effort_accounts.go#L34) |
+| at | field_declaration | effortRefusal | [35](../../magpie/internal/gateway/effort_accounts.go#L35) |
+| effortKey | function_declaration |  | [38](../../magpie/internal/gateway/effort_accounts.go#L38) |
+| noteEffortRefused | function_declaration |  | [42](../../magpie/internal/gateway/effort_accounts.go#L42) |
+| takesEffort | function_declaration |  | [63](../../magpie/internal/gateway/effort_accounts.go#L63) |
+| effortMate | function_declaration |  | [88](../../magpie/internal/gateway/effort_accounts.go#L88) |
+| unsupportedEffort | var_spec |  | [98](../../magpie/internal/gateway/effort_accounts.go#L98) |
+| effortNamed | var_spec |  | [100](../../magpie/internal/gateway/effort_accounts.go#L100) |
+| effortDenied | var_spec |  | [101](../../magpie/internal/gateway/effort_accounts.go#L101) |
+| supportedAre | var_spec |  | [102](../../magpie/internal/gateway/effort_accounts.go#L102) |
+| quotedLevel | var_spec |  | [103](../../magpie/internal/gateway/effort_accounts.go#L103) |
+| effortRefused | function_declaration |  | [109](../../magpie/internal/gateway/effort_accounts.go#L109) |
+| e | var_spec | effortRefused | [114](../../magpie/internal/gateway/effort_accounts.go#L114) |
+| Param | field_declaration | effortRefused::e | [115](../../magpie/internal/gateway/effort_accounts.go#L115) |
+| Error | field_declaration | effortRefused::e | [116](../../magpie/internal/gateway/effort_accounts.go#L116) |
+| Param | field_declaration | effortRefused::e::Error | [117](../../magpie/internal/gateway/effort_accounts.go#L117) |
+| modelTakes | function_declaration |  | [149](../../magpie/internal/gateway/effort_accounts.go#L149) |
+| effortError | function_declaration |  | [156](../../magpie/internal/gateway/effort_accounts.go#L156) |
+| askedTier | function_declaration |  | [169](../../magpie/internal/gateway/effort_accounts.go#L169) |
+| q | var_spec | askedTier | [170](../../magpie/internal/gateway/effort_accounts.go#L170) |
+| Tier | field_declaration | askedTier::q | [171](../../magpie/internal/gateway/effort_accounts.go#L171) |
+| takesTier | function_declaration |  | [180](../../magpie/internal/gateway/effort_accounts.go#L180) |
+| tierMate | function_declaration |  | [190](../../magpie/internal/gateway/effort_accounts.go#L190) |

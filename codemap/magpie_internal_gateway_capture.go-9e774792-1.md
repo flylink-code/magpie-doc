@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/capture.go) · page 1/1
 
-Source SHA-256: 274ae9290bd379da4160b5283c6fe17fbfc0fad4bce942642cb51d1f128f7c85
+Source SHA-256: 258faccad1f4cbc4147423fd77454d075c149e5683c77ca270c8fbd17cd90ea6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,17 +21,18 @@ Source SHA-256: 274ae9290bd379da4160b5283c6fe17fbfc0fad4bce942642cb51d1f128f7c85
 | full | field_declaration | captureResponseWriter | [53](../../magpie/internal/gateway/capture.go#L53) |
 | whole | field_declaration | captureResponseWriter | [55](../../magpie/internal/gateway/capture.go#L55) |
 | tools | field_declaration | captureResponseWriter | [57](../../magpie/internal/gateway/capture.go#L57) |
-| Write | method_declaration |  | [60](../../magpie/internal/gateway/capture.go#L60) |
-| spool | type_spec |  | [76](../../magpie/internal/gateway/capture.go#L76) |
-| pattern | field_declaration | spool | [77](../../magpie/internal/gateway/capture.go#L77) |
-| f | field_declaration | spool | [79](../../magpie/internal/gateway/capture.go#L79) |
-| limit | field_declaration | spool | [80](../../magpie/internal/gateway/capture.go#L80) |
-| size | field_declaration | spool | [81](../../magpie/internal/gateway/capture.go#L81) |
-| failed | field_declaration | spool | [82](../../magpie/internal/gateway/capture.go#L82) |
-| add | method_declaration |  | [85](../../magpie/internal/gateway/capture.go#L85) |
-| cut | method_declaration |  | [114](../../magpie/internal/gateway/capture.go#L114) |
-| read | method_declaration |  | [117](../../magpie/internal/gateway/capture.go#L117) |
-| discard | method_declaration |  | [129](../../magpie/internal/gateway/capture.go#L129) |
-| Flush | method_declaration |  | [137](../../magpie/internal/gateway/capture.go#L137) |
-| withBodies | function_declaration |  | [150](../../magpie/internal/gateway/capture.go#L150) |
-| bodyForExport | function_declaration |  | [166](../../magpie/internal/gateway/capture.go#L166) |
+| live | field_declaration | captureResponseWriter | [60](../../magpie/internal/gateway/capture.go#L60) |
+| Write | method_declaration |  | [63](../../magpie/internal/gateway/capture.go#L63) |
+| spool | type_spec |  | [80](../../magpie/internal/gateway/capture.go#L80) |
+| pattern | field_declaration | spool | [81](../../magpie/internal/gateway/capture.go#L81) |
+| f | field_declaration | spool | [83](../../magpie/internal/gateway/capture.go#L83) |
+| limit | field_declaration | spool | [84](../../magpie/internal/gateway/capture.go#L84) |
+| size | field_declaration | spool | [85](../../magpie/internal/gateway/capture.go#L85) |
+| failed | field_declaration | spool | [86](../../magpie/internal/gateway/capture.go#L86) |
+| add | method_declaration |  | [89](../../magpie/internal/gateway/capture.go#L89) |
+| cut | method_declaration |  | [118](../../magpie/internal/gateway/capture.go#L118) |
+| read | method_declaration |  | [121](../../magpie/internal/gateway/capture.go#L121) |
+| discard | method_declaration |  | [133](../../magpie/internal/gateway/capture.go#L133) |
+| Flush | method_declaration |  | [141](../../magpie/internal/gateway/capture.go#L141) |
+| withBodies | function_declaration |  | [154](../../magpie/internal/gateway/capture.go#L154) |
+| bodyForExport | function_declaration |  | [177](../../magpie/internal/gateway/capture.go#L177) |

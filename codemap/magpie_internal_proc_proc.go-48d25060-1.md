@@ -4,10 +4,10 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/proc.go) · page 1/1
 
-Source SHA-256: adb6749b9b6678aef0c3fac0f9fcc7891b6ea491ff71df84358abf1f0e84e58c
+Source SHA-256: 19245acd610afdb4e1df86d9faca80f28eb93b5d0d7d07336aa1e8e1b7cf1308
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Command | function_declaration |  | [24](../../magpie/internal/proc/proc.go#L24) |
-| CommandContext | function_declaration |  | [33](../../magpie/internal/proc/proc.go#L33) |
-| waitDelay | var_spec |  | [47](../../magpie/internal/proc/proc.go#L47) |
+| CommandContext | function_declaration |  | [34](../../magpie/internal/proc/proc.go#L34) |
+| waitDelay | var_spec |  | [49](../../magpie/internal/proc/proc.go#L49) |

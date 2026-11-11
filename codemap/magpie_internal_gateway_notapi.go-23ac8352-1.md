@@ -4,13 +4,14 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/notapi.go) · page 1/1
 
-Source SHA-256: 69b348c19d2bd8528ee630846ad551c08ba862275893c2dd74dab3ac68e97dd7
+Source SHA-256: cc25dde9854f72e9cf0160768ae37f085cabc7f87fae4489fa036a966356db91
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | notAnAPIReply | function_declaration |  | [28](../../magpie/internal/gateway/notapi.go#L28) |
-| htmlStart | var_spec |  | [59](../../magpie/internal/gateway/notapi.go#L59) |
-| webPage | function_declaration |  | [63](../../magpie/internal/gateway/notapi.go#L63) |
-| asBadGateway | function_declaration |  | [80](../../magpie/internal/gateway/notapi.go#L80) |
-| readCloser | type_spec |  | [98](../../magpie/internal/gateway/notapi.go#L98) |
-| clipRunes | function_declaration |  | [104](../../magpie/internal/gateway/notapi.go#L104) |
+| eventsStart | function_declaration |  | [60](../../magpie/internal/gateway/notapi.go#L60) |
+| htmlStart | var_spec |  | [70](../../magpie/internal/gateway/notapi.go#L70) |
+| webPage | function_declaration |  | [74](../../magpie/internal/gateway/notapi.go#L74) |
+| asBadGateway | function_declaration |  | [91](../../magpie/internal/gateway/notapi.go#L91) |
+| readCloser | type_spec |  | [109](../../magpie/internal/gateway/notapi.go#L109) |
+| clipRunes | function_declaration |  | [115](../../magpie/internal/gateway/notapi.go#L115) |

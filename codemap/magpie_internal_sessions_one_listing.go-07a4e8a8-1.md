@@ -4,20 +4,20 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/one_listing.go) · page 1/1
 
-Source SHA-256: 1f247579616e934620103ab7acaf209f573d7f715663d658cf8dc36899d25fca
+Source SHA-256: 9066929e72547c84365ea4c354679b069d6249678016a7c385674e550a017c08
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| held | var_spec |  | [14](../../magpie/internal/sessions/one_listing.go#L14) |
-| n | field_declaration | held | [16](../../magpie/internal/sessions/one_listing.go#L16) |
-| since | field_declaration | held | [17](../../magpie/internal/sessions/one_listing.go#L17) |
-| lists | field_declaration | held | [18](../../magpie/internal/sessions/one_listing.go#L18) |
-| heldList | type_spec |  | [21](../../magpie/internal/sessions/one_listing.go#L21) |
-| at | field_declaration | heldList | [22](../../magpie/internal/sessions/one_listing.go#L22) |
-| files | field_declaration | heldList | [23](../../magpie/internal/sessions/one_listing.go#L23) |
-| ready | field_declaration | heldList | [26](../../magpie/internal/sessions/one_listing.go#L26) |
-| OneListing | function_declaration |  | [33](../../magpie/internal/sessions/one_listing.go#L33) |
-| ShareListing | function_declaration |  | [47](../../magpie/internal/sessions/one_listing.go#L47) |
-| letGo | function_declaration |  | [56](../../magpie/internal/sessions/one_listing.go#L56) |
-| heldWaiting | var_spec |  | [67](../../magpie/internal/sessions/one_listing.go#L67) |
-| heldFiles | function_declaration |  | [72](../../magpie/internal/sessions/one_listing.go#L72) |
+| held | var_spec |  | [13](../../magpie/internal/sessions/one_listing.go#L13) |
+| n | field_declaration | held | [15](../../magpie/internal/sessions/one_listing.go#L15) |
+| gen | field_declaration | held | [21](../../magpie/internal/sessions/one_listing.go#L21) |
+| lists | field_declaration | held | [22](../../magpie/internal/sessions/one_listing.go#L22) |
+| heldList | type_spec |  | [25](../../magpie/internal/sessions/one_listing.go#L25) |
+| gen | field_declaration | heldList | [26](../../magpie/internal/sessions/one_listing.go#L26) |
+| files | field_declaration | heldList | [27](../../magpie/internal/sessions/one_listing.go#L27) |
+| ready | field_declaration | heldList | [30](../../magpie/internal/sessions/one_listing.go#L30) |
+| OneListing | function_declaration |  | [37](../../magpie/internal/sessions/one_listing.go#L37) |
+| ShareListing | function_declaration |  | [51](../../magpie/internal/sessions/one_listing.go#L51) |
+| letGo | function_declaration |  | [60](../../magpie/internal/sessions/one_listing.go#L60) |
+| heldWaiting | var_spec |  | [71](../../magpie/internal/sessions/one_listing.go#L71) |
+| heldFiles | function_declaration |  | [77](../../magpie/internal/sessions/one_listing.go#L77) |

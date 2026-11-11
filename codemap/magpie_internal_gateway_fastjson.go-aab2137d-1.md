@@ -4,107 +4,107 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/fastjson.go) · page 1/2
 
-Source SHA-256: fff983dc78d72f5095e7364d1d7e6a93b91da04cbcf712a09237f003a32ba108
+Source SHA-256: 7b98ac776e6a09cec91610ae7189a1c02e21df3748a07cc78c33af906718eff3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| decodeJSON | function_declaration |  | [41](../../magpie/internal/gateway/fastjson.go#L41) |
-| decodeJSONView | function_declaration |  | [49](../../magpie/internal/gateway/fastjson.go#L49) |
-| decodeJSONIn | function_declaration |  | [51](../../magpie/internal/gateway/fastjson.go#L51) |
-| members | var_spec | decodeJSONIn | [56](../../magpie/internal/gateway/fastjson.go#L56) |
-| valid | var_spec | decodeJSONIn | [58](../../magpie/internal/gateway/fastjson.go#L58) |
-| heldBodies | var_spec |  | [90](../../magpie/internal/gateway/fastjson.go#L90) |
-| list | field_declaration | heldBodies | [92](../../magpie/internal/gateway/fastjson.go#L92) |
-| facts | field_declaration | heldBodies | [94](../../magpie/internal/gateway/fastjson.go#L94) |
-| heldBodiesMost | const_spec |  | [100](../../magpie/internal/gateway/fastjson.go#L100) |
-| heldShareMost | const_spec |  | [104](../../magpie/internal/gateway/fastjson.go#L104) |
-| holdBody | function_declaration |  | [111](../../magpie/internal/gateway/fastjson.go#L111) |
-| cur | var_spec | holdBody | [117](../../magpie/internal/gateway/fastjson.go#L117) |
-| unchanged | var_spec | holdBody | [128](../../magpie/internal/gateway/fastjson.go#L128) |
-| checkHeldBody | var_spec |  | [155](../../magpie/internal/gateway/fastjson.go#L155) |
-| inHeldBody | function_declaration |  | [163](../../magpie/internal/gateway/fastjson.go#L163) |
-| misfit | function_declaration |  | [180](../../magpie/internal/gateway/fastjson.go#L180) |
-| errSlowJSON | var_spec |  | [202](../../magpie/internal/gateway/fastjson.go#L202) |
-| rawMessageType | var_spec |  | [205](../../magpie/internal/gateway/fastjson.go#L205) |
-| jsonUnmarshalerType | var_spec |  | [206](../../magpie/internal/gateway/fastjson.go#L206) |
-| textUnmarshalerType | var_spec |  | [207](../../magpie/internal/gateway/fastjson.go#L207) |
-| stringType | var_spec |  | [208](../../magpie/internal/gateway/fastjson.go#L208) |
-| fastFieldsByType | var_spec |  | [209](../../magpie/internal/gateway/fastjson.go#L209) |
-| errFastFieldsUnfit | var_spec |  | [210](../../magpie/internal/gateway/fastjson.go#L210) |
-| jsonNull | var_spec |  | [211](../../magpie/internal/gateway/fastjson.go#L211) |
-| jsonTrue | var_spec |  | [212](../../magpie/internal/gateway/fastjson.go#L212) |
-| fastFields | type_spec |  | [216](../../magpie/internal/gateway/fastjson.go#L216) |
-| names | field_declaration | fastFields | [217](../../magpie/internal/gateway/fastjson.go#L217) |
-| index | field_declaration | fastFields | [218](../../magpie/internal/gateway/fastjson.go#L218) |
-| err | field_declaration | fastFields | [219](../../magpie/internal/gateway/fastjson.go#L219) |
-| jsonFieldsOf | function_declaration |  | [222](../../magpie/internal/gateway/fastjson.go#L222) |
-| validTagName | function_declaration |  | [260](../../magpie/internal/gateway/fastjson.go#L260) |
-| field | method_declaration |  | [276](../../magpie/internal/gateway/fastjson.go#L276) |
-| fillJSON | function_declaration |  | [292](../../magpie/internal/gateway/fastjson.go#L292) |
-| fillJSONIn | function_declaration |  | [297](../../magpie/internal/gateway/fastjson.go#L297) |
-| few | var_spec | fillJSONIn | [365](../../magpie/internal/gateway/fastjson.go#L365) |
-| many | var_spec | fillJSONIn | [366](../../magpie/internal/gateway/fastjson.go#L366) |
-| err | var_spec | fillJSONIn | [367](../../magpie/internal/gateway/fastjson.go#L367) |
-| elems | var_spec | fillJSONIn | [406](../../magpie/internal/gateway/fastjson.go#L406) |
-| err | var_spec | fillJSONIn | [433](../../magpie/internal/gateway/fastjson.go#L433) |
-| rawObject | function_declaration |  | [454](../../magpie/internal/gateway/fastjson.go#L454) |
-| m | var_spec | rawObject | [455](../../magpie/internal/gateway/fastjson.go#L455) |
-| rawArray | function_declaration |  | [461](../../magpie/internal/gateway/fastjson.go#L461) |
-| a | var_spec | rawArray | [462](../../magpie/internal/gateway/fastjson.go#L462) |
-| isJSONSpace | function_declaration |  | [467](../../magpie/internal/gateway/fastjson.go#L467) |
-| skipJSONSpace | function_declaration |  | [469](../../magpie/internal/gateway/fastjson.go#L469) |
-| spaces | const_spec | skipJSONSpace | [470](../../magpie/internal/gateway/fastjson.go#L470) |
-| trimJSON | function_declaration |  | [480](../../magpie/internal/gateway/fastjson.go#L480) |
-| eachMember | function_declaration |  | [494](../../magpie/internal/gateway/fastjson.go#L494) |
-| eachMemberIn | function_declaration |  | [500](../../magpie/internal/gateway/fastjson.go#L500) |
-| eachMemberAt | function_declaration |  | [517](../../magpie/internal/gateway/fastjson.go#L517) |
-| eachElement | function_declaration |  | [543](../../magpie/internal/gateway/fastjson.go#L543) |
-| elementsOf | function_declaration |  | [567](../../magpie/internal/gateway/fastjson.go#L567) |
-| out | var_spec | elementsOf | [571](../../magpie/internal/gateway/fastjson.go#L571) |
-| inputList | function_declaration |  | [586](../../magpie/internal/gateway/fastjson.go#L586) |
-| skipJSONString | function_declaration |  | [600](../../magpie/internal/gateway/fastjson.go#L600) |
-| skipJSONValue | function_declaration |  | [620](../../magpie/internal/gateway/fastjson.go#L620) |
-| keyName | function_declaration |  | [656](../../magpie/internal/gateway/fastjson.go#L656) |
-| unquoteJSON | function_declaration |  | [673](../../magpie/internal/gateway/fastjson.go#L673) |
-| hex4 | function_declaration |  | [759](../../magpie/internal/gateway/fastjson.go#L759) |
-| r | var_spec | hex4 | [763](../../magpie/internal/gateway/fastjson.go#L763) |
-| jsonMaxDepth | const_spec |  | [781](../../magpie/internal/gateway/fastjson.go#L781) |
-| validMemoMin | const_spec |  | [788](../../magpie/internal/gateway/fastjson.go#L788) |
-| validMemo | var_spec |  | [792](../../magpie/internal/gateway/fastjson.go#L792) |
-| sums | field_declaration | validMemo | [794](../../magpie/internal/gateway/fastjson.go#L794) |
-| next | field_declaration | validMemo | [795](../../magpie/internal/gateway/fastjson.go#L795) |
-| validSum | type_spec |  | [798](../../magpie/internal/gateway/fastjson.go#L798) |
-| n | field_declaration | validSum | [799](../../magpie/internal/gateway/fastjson.go#L799) |
-| sum | field_declaration | validSum | [800](../../magpie/internal/gateway/fastjson.go#L800) |
-| validEntry | type_spec |  | [806](../../magpie/internal/gateway/fastjson.go#L806) |
-| members | field_declaration | validEntry | [808](../../magpie/internal/gateway/fastjson.go#L808) |
-| memberSpan | type_spec |  | [813](../../magpie/internal/gateway/fastjson.go#L813) |
-| k0 | field_declaration | memberSpan | [813](../../magpie/internal/gateway/fastjson.go#L813) |
-| topSplit | var_spec |  | [817](../../magpie/internal/gateway/fastjson.go#L817) |
-| longBody | function_declaration |  | [824](../../magpie/internal/gateway/fastjson.go#L824) |
-| validSeed | var_spec |  | [864](../../magpie/internal/gateway/fastjson.go#L864) |
-| validScanned | var_spec |  | [868](../../magpie/internal/gateway/fastjson.go#L868) |
-| jsonValid | function_declaration |  | [873](../../magpie/internal/gateway/fastjson.go#L873) |
-| jsonCheck | function_declaration |  | [898](../../magpie/internal/gateway/fastjson.go#L898) |
-| jsonStringByte | var_spec |  | [905](../../magpie/internal/gateway/fastjson.go#L905) |
-| validJSONValue | function_declaration |  | [913](../../magpie/internal/gateway/fastjson.go#L913) |
-| ok | var_spec | validJSONValue | [932](../../magpie/internal/gateway/fastjson.go#L932) |
-| ok | var_spec | validJSONValue | [966](../../magpie/internal/gateway/fastjson.go#L966) |
-| stopsString | function_declaration |  | [998](../../magpie/internal/gateway/fastjson.go#L998) |
-| ones | const_spec | stopsString | [999](../../magpie/internal/gateway/fastjson.go#L999) |
-| validJSONString | function_declaration |  | [1004](../../magpie/internal/gateway/fastjson.go#L1004) |
-| isDigit | function_declaration |  | [1048](../../magpie/internal/gateway/fastjson.go#L1048) |
-| validJSONNumber | function_declaration |  | [1050](../../magpie/internal/gateway/fastjson.go#L1050) |
-| topMember | function_declaration |  | [1096](../../magpie/internal/gateway/fastjson.go#L1096) |
-| members | var_spec | topMember | [1097](../../magpie/internal/gateway/fastjson.go#L1097) |
-| valid | var_spec | topMember | [1099](../../magpie/internal/gateway/fastjson.go#L1099) |
-| withoutTopMember | function_declaration |  | [1124](../../magpie/internal/gateway/fastjson.go#L1124) |
-| members | var_spec | withoutTopMember | [1125](../../magpie/internal/gateway/fastjson.go#L1125) |
-| valid | var_spec | withoutTopMember | [1127](../../magpie/internal/gateway/fastjson.go#L1127) |
-| cuts | var_spec | withoutTopMember | [1148](../../magpie/internal/gateway/fastjson.go#L1148) |
-| memberOf | function_declaration |  | [1183](../../magpie/internal/gateway/fastjson.go#L1183) |
-| keyIs | function_declaration |  | [1194](../../magpie/internal/gateway/fastjson.go#L1194) |
-| stringBytes | function_declaration |  | [1208](../../magpie/internal/gateway/fastjson.go#L1208) |
-| plainASCII | function_declaration |  | [1221](../../magpie/internal/gateway/fastjson.go#L1221) |
-| hasPrefix | function_declaration |  | [1231](../../magpie/internal/gateway/fastjson.go#L1231) |
-| safeID | function_declaration |  | [1236](../../magpie/internal/gateway/fastjson.go#L1236) |
+| decodeJSON | function_declaration |  | [44](../../magpie/internal/gateway/fastjson.go#L44) |
+| decodeJSONView | function_declaration |  | [52](../../magpie/internal/gateway/fastjson.go#L52) |
+| decodeJSONIn | function_declaration |  | [54](../../magpie/internal/gateway/fastjson.go#L54) |
+| members | var_spec | decodeJSONIn | [59](../../magpie/internal/gateway/fastjson.go#L59) |
+| valid | var_spec | decodeJSONIn | [61](../../magpie/internal/gateway/fastjson.go#L61) |
+| heldBodies | var_spec |  | [93](../../magpie/internal/gateway/fastjson.go#L93) |
+| list | field_declaration | heldBodies | [95](../../magpie/internal/gateway/fastjson.go#L95) |
+| facts | field_declaration | heldBodies | [97](../../magpie/internal/gateway/fastjson.go#L97) |
+| long | field_declaration | heldBodies | [99](../../magpie/internal/gateway/fastjson.go#L99) |
+| heldLong | type_spec |  | [104](../../magpie/internal/gateway/fastjson.go#L104) |
+| n | field_declaration | heldLong | [105](../../magpie/internal/gateway/fastjson.go#L105) |
+| valid | field_declaration | heldLong | [106](../../magpie/internal/gateway/fastjson.go#L106) |
+| members | field_declaration | heldLong | [107](../../magpie/internal/gateway/fastjson.go#L107) |
+| heldBodiesMost | const_spec |  | [113](../../magpie/internal/gateway/fastjson.go#L113) |
+| heldShareMost | const_spec |  | [117](../../magpie/internal/gateway/fastjson.go#L117) |
+| holdBody | function_declaration |  | [124](../../magpie/internal/gateway/fastjson.go#L124) |
+| cur | var_spec | holdBody | [130](../../magpie/internal/gateway/fastjson.go#L130) |
+| unchanged | var_spec | holdBody | [141](../../magpie/internal/gateway/fastjson.go#L141) |
+| checkHeldBody | var_spec |  | [169](../../magpie/internal/gateway/fastjson.go#L169) |
+| inHeldBody | function_declaration |  | [177](../../magpie/internal/gateway/fastjson.go#L177) |
+| misfit | function_declaration |  | [194](../../magpie/internal/gateway/fastjson.go#L194) |
+| errSlowJSON | var_spec |  | [216](../../magpie/internal/gateway/fastjson.go#L216) |
+| rawMessageType | var_spec |  | [219](../../magpie/internal/gateway/fastjson.go#L219) |
+| jsonUnmarshalerType | var_spec |  | [220](../../magpie/internal/gateway/fastjson.go#L220) |
+| textUnmarshalerType | var_spec |  | [221](../../magpie/internal/gateway/fastjson.go#L221) |
+| stringType | var_spec |  | [222](../../magpie/internal/gateway/fastjson.go#L222) |
+| fastFieldsByType | var_spec |  | [223](../../magpie/internal/gateway/fastjson.go#L223) |
+| errFastFieldsUnfit | var_spec |  | [224](../../magpie/internal/gateway/fastjson.go#L224) |
+| jsonNull | var_spec |  | [225](../../magpie/internal/gateway/fastjson.go#L225) |
+| jsonTrue | var_spec |  | [226](../../magpie/internal/gateway/fastjson.go#L226) |
+| fastFields | type_spec |  | [230](../../magpie/internal/gateway/fastjson.go#L230) |
+| names | field_declaration | fastFields | [231](../../magpie/internal/gateway/fastjson.go#L231) |
+| index | field_declaration | fastFields | [232](../../magpie/internal/gateway/fastjson.go#L232) |
+| err | field_declaration | fastFields | [233](../../magpie/internal/gateway/fastjson.go#L233) |
+| jsonFieldsOf | function_declaration |  | [236](../../magpie/internal/gateway/fastjson.go#L236) |
+| validTagName | function_declaration |  | [274](../../magpie/internal/gateway/fastjson.go#L274) |
+| field | method_declaration |  | [290](../../magpie/internal/gateway/fastjson.go#L290) |
+| fillJSON | function_declaration |  | [306](../../magpie/internal/gateway/fastjson.go#L306) |
+| fillJSONIn | function_declaration |  | [311](../../magpie/internal/gateway/fastjson.go#L311) |
+| few | var_spec | fillJSONIn | [379](../../magpie/internal/gateway/fastjson.go#L379) |
+| many | var_spec | fillJSONIn | [380](../../magpie/internal/gateway/fastjson.go#L380) |
+| err | var_spec | fillJSONIn | [381](../../magpie/internal/gateway/fastjson.go#L381) |
+| elems | var_spec | fillJSONIn | [420](../../magpie/internal/gateway/fastjson.go#L420) |
+| err | var_spec | fillJSONIn | [447](../../magpie/internal/gateway/fastjson.go#L447) |
+| rawObject | function_declaration |  | [468](../../magpie/internal/gateway/fastjson.go#L468) |
+| m | var_spec | rawObject | [469](../../magpie/internal/gateway/fastjson.go#L469) |
+| rawArray | function_declaration |  | [475](../../magpie/internal/gateway/fastjson.go#L475) |
+| a | var_spec | rawArray | [476](../../magpie/internal/gateway/fastjson.go#L476) |
+| isJSONSpace | function_declaration |  | [481](../../magpie/internal/gateway/fastjson.go#L481) |
+| skipJSONSpace | function_declaration |  | [483](../../magpie/internal/gateway/fastjson.go#L483) |
+| spaces | const_spec | skipJSONSpace | [484](../../magpie/internal/gateway/fastjson.go#L484) |
+| trimJSON | function_declaration |  | [494](../../magpie/internal/gateway/fastjson.go#L494) |
+| eachMember | function_declaration |  | [508](../../magpie/internal/gateway/fastjson.go#L508) |
+| eachMemberIn | function_declaration |  | [514](../../magpie/internal/gateway/fastjson.go#L514) |
+| eachMemberAt | function_declaration |  | [531](../../magpie/internal/gateway/fastjson.go#L531) |
+| eachElement | function_declaration |  | [557](../../magpie/internal/gateway/fastjson.go#L557) |
+| elementsOf | function_declaration |  | [581](../../magpie/internal/gateway/fastjson.go#L581) |
+| out | var_spec | elementsOf | [585](../../magpie/internal/gateway/fastjson.go#L585) |
+| inputList | function_declaration |  | [600](../../magpie/internal/gateway/fastjson.go#L600) |
+| skipJSONString | function_declaration |  | [614](../../magpie/internal/gateway/fastjson.go#L614) |
+| skipJSONValue | function_declaration |  | [634](../../magpie/internal/gateway/fastjson.go#L634) |
+| keyName | function_declaration |  | [670](../../magpie/internal/gateway/fastjson.go#L670) |
+| unquoteJSON | function_declaration |  | [687](../../magpie/internal/gateway/fastjson.go#L687) |
+| hex4 | function_declaration |  | [781](../../magpie/internal/gateway/fastjson.go#L781) |
+| r | var_spec | hex4 | [785](../../magpie/internal/gateway/fastjson.go#L785) |
+| jsonMaxDepth | const_spec |  | [803](../../magpie/internal/gateway/fastjson.go#L803) |
+| validMemoMin | const_spec |  | [810](../../magpie/internal/gateway/fastjson.go#L810) |
+| validMemo | var_spec |  | [814](../../magpie/internal/gateway/fastjson.go#L814) |
+| sums | field_declaration | validMemo | [816](../../magpie/internal/gateway/fastjson.go#L816) |
+| next | field_declaration | validMemo | [817](../../magpie/internal/gateway/fastjson.go#L817) |
+| validSum | type_spec |  | [820](../../magpie/internal/gateway/fastjson.go#L820) |
+| n | field_declaration | validSum | [821](../../magpie/internal/gateway/fastjson.go#L821) |
+| sum | field_declaration | validSum | [822](../../magpie/internal/gateway/fastjson.go#L822) |
+| validEntry | type_spec |  | [828](../../magpie/internal/gateway/fastjson.go#L828) |
+| members | field_declaration | validEntry | [830](../../magpie/internal/gateway/fastjson.go#L830) |
+| memberSpan | type_spec |  | [835](../../magpie/internal/gateway/fastjson.go#L835) |
+| k0 | field_declaration | memberSpan | [835](../../magpie/internal/gateway/fastjson.go#L835) |
+| topSplit | var_spec |  | [839](../../magpie/internal/gateway/fastjson.go#L839) |
+| longBody | function_declaration |  | [846](../../magpie/internal/gateway/fastjson.go#L846) |
+| validSeed | var_spec |  | [889](../../magpie/internal/gateway/fastjson.go#L889) |
+| validHash | function_declaration |  | [892](../../magpie/internal/gateway/fastjson.go#L892) |
+| validHashed | var_spec |  | [900](../../magpie/internal/gateway/fastjson.go#L900) |
+| heldLongOf | function_declaration |  | [908](../../magpie/internal/gateway/fastjson.go#L908) |
+| heldMember | function_declaration |  | [959](../../magpie/internal/gateway/fastjson.go#L959) |
+| validScanned | var_spec |  | [989](../../magpie/internal/gateway/fastjson.go#L989) |
+| jsonValid | function_declaration |  | [994](../../magpie/internal/gateway/fastjson.go#L994) |
+| jsonCheck | function_declaration |  | [1025](../../magpie/internal/gateway/fastjson.go#L1025) |
+| jsonStringByte | var_spec |  | [1032](../../magpie/internal/gateway/fastjson.go#L1032) |
+| validJSONValue | function_declaration |  | [1040](../../magpie/internal/gateway/fastjson.go#L1040) |
+| ok | var_spec | validJSONValue | [1059](../../magpie/internal/gateway/fastjson.go#L1059) |
+| ok | var_spec | validJSONValue | [1093](../../magpie/internal/gateway/fastjson.go#L1093) |
+| stopsString | function_declaration |  | [1125](../../magpie/internal/gateway/fastjson.go#L1125) |
+| ones | const_spec | stopsString | [1126](../../magpie/internal/gateway/fastjson.go#L1126) |
+| validJSONString | function_declaration |  | [1131](../../magpie/internal/gateway/fastjson.go#L1131) |
+| isDigit | function_declaration |  | [1175](../../magpie/internal/gateway/fastjson.go#L1175) |
+| validJSONNumber | function_declaration |  | [1177](../../magpie/internal/gateway/fastjson.go#L1177) |
+| topMember | function_declaration |  | [1223](../../magpie/internal/gateway/fastjson.go#L1223) |
+| members | var_spec | topMember | [1224](../../magpie/internal/gateway/fastjson.go#L1224) |
+| valid | var_spec | topMember | [1226](../../magpie/internal/gateway/fastjson.go#L1226) |
+| withoutTopMember | function_declaration |  | [1251](../../magpie/internal/gateway/fastjson.go#L1251) |

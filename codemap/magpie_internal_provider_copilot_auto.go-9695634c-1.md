@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/copilot_auto.go) · page 1/1
 
-Source SHA-256: 863374bb400494719431ab757bddcb18f8adfa033851759aef28672d429cca17
+Source SHA-256: 9a249ad77181fba17effd3f7ea2066c7710ea32fbe0a805187c7749da7fb2b74
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/hooks.go) · page 1/2
 
-Source SHA-256: b8b173992b04ca2a808ddb6afc1d761b33c9ae888d749247f92c6484d08f70db
+Source SHA-256: d069e583599f085e0879d731896a46e127aec87ef6f848905a9ea3affd70cd0a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Hook | type_spec |  | [40](../../magpie/internal/library/hooks.go#L40) |
-| Name | field_declaration | Hook | [41](../../magpie/internal/library/hooks.go#L41) |
-| Description | field_declaration | Hook | [45](../../magpie/internal/library/hooks.go#L45) |
-| Event | field_declaration | Hook | [48](../../magpie/internal/library/hooks.go#L48) |
-| Matcher | field_declaration | Hook | [52](../../magpie/internal/library/hooks.go#L52) |
-| Command | field_declaration | Hook | [53](../../magpie/internal/library/hooks.go#L53) |
-| Timeout | field_declaration | Hook | [54](../../magpie/internal/library/hooks.go#L54) |
-| Agents | field_declaration | Hook | [55](../../magpie/internal/library/hooks.go#L55) |
-| HookEntry | type_spec |  | [60](../../magpie/internal/library/hooks.go#L60) |
-| Name | field_declaration | HookEntry | [61](../../magpie/internal/library/hooks.go#L61) |
-| Event | field_declaration | HookEntry | [62](../../magpie/internal/library/hooks.go#L62) |
-| Entry | field_declaration | HookEntry | [63](../../magpie/internal/library/hooks.go#L63) |
-| HookEvents | var_spec |  | [67](../../magpie/internal/library/hooks.go#L67) |
-| HookTools | var_spec |  | [70](../../magpie/internal/library/hooks.go#L70) |
-| hookSpec | type_spec |  | [73](../../magpie/internal/library/hooks.go#L73) |
-| path | field_declaration | hookSpec | [74](../../magpie/internal/library/hooks.go#L74) |
-| events | field_declaration | hookSpec | [75](../../magpie/internal/library/hooks.go#L75) |
-| native | field_declaration | hookSpec | [76](../../magpie/internal/library/hooks.go#L76) |
-| tools | field_declaration | hookSpec | [77](../../magpie/internal/library/hooks.go#L77) |
-| flat | field_declaration | hookSpec | [78](../../magpie/internal/library/hooks.go#L78) |
-| ms | field_declaration | hookSpec | [79](../../magpie/internal/library/hooks.go#L79) |
-| toml | field_declaration | hookSpec | [80](../../magpie/internal/library/hooks.go#L80) |
-| hookAgents | var_spec |  | [84](../../magpie/internal/library/hooks.go#L84) |
-| grokHookEvents | var_spec |  | [90](../../magpie/internal/library/hooks.go#L90) |
-| grokHookTools | var_spec |  | [97](../../magpie/internal/library/hooks.go#L97) |
-| grokHookSpec | function_declaration |  | [106](../../magpie/internal/library/hooks.go#L106) |
-| toolEvents | var_spec |  | [120](../../magpie/internal/library/hooks.go#L120) |
-| claudeHookEvents | var_spec |  | [126](../../magpie/internal/library/hooks.go#L126) |
-| hookSpecOf | function_declaration |  | [133](../../magpie/internal/library/hooks.go#L133) |
-| event | method_declaration |  | [191](../../magpie/internal/library/hooks.go#L191) |
-| entry | method_declaration |  | [208](../../magpie/internal/library/hooks.go#L208) |
-| v | var_spec | entry | [224](../../magpie/internal/library/hooks.go#L224) |
-| Command | field_declaration | entry | [227](../../magpie/internal/library/hooks.go#L227) |
-| Timeout | field_declaration | entry | [228](../../magpie/internal/library/hooks.go#L228) |
-| Matcher | field_declaration | entry | [229](../../magpie/internal/library/hooks.go#L229) |
-| cmd | type_spec | entry | [232](../../magpie/internal/library/hooks.go#L232) |
-| Type | field_declaration | entry::cmd | [233](../../magpie/internal/library/hooks.go#L233) |
-| Command | field_declaration | entry::cmd | [234](../../magpie/internal/library/hooks.go#L234) |
-| Timeout | field_declaration | entry::cmd | [235](../../magpie/internal/library/hooks.go#L235) |
-| Matcher | field_declaration | entry | [238](../../magpie/internal/library/hooks.go#L238) |
-| Hooks | field_declaration | entry | [239](../../magpie/internal/library/hooks.go#L239) |
-| maxHookDescription | const_spec |  | [248](../../magpie/internal/library/hooks.go#L248) |
-| grokBlockText | function_declaration |  | [252](../../magpie/internal/library/hooks.go#L252) |
-| s | var_spec | grokBlockText | [253](../../magpie/internal/library/hooks.go#L253) |
-| grokHookBlock | function_declaration |  | [264](../../magpie/internal/library/hooks.go#L264) |
-| b | var_spec | grokHookBlock | [265](../../magpie/internal/library/hooks.go#L265) |
-| sameHookFamily | function_declaration |  | [283](../../magpie/internal/library/hooks.go#L283) |
-| check | method_declaration |  | [290](../../magpie/internal/library/hooks.go#L290) |
-| hook | method_declaration |  | [323](../../magpie/internal/library/hooks.go#L323) |
-| canonical | function_declaration |  | [334](../../magpie/internal/library/hooks.go#L334) |
-| v | var_spec | canonical | [335](../../magpie/internal/library/hooks.go#L335) |
-| readHooksFile | function_declaration |  | [348](../../magpie/internal/library/hooks.go#L348) |
-| hookList | function_declaration |  | [368](../../magpie/internal/library/hooks.go#L368) |
-| list | var_spec | hookList | [376](../../magpie/internal/library/hooks.go#L376) |
-| grokHookBlocks | function_declaration |  | [387](../../magpie/internal/library/hooks.go#L387) |
-| blocks | var_spec | grokHookBlocks | [397](../../magpie/internal/library/hooks.go#L397) |
-| grokBlockEnd | function_declaration |  | [414](../../magpie/internal/library/hooks.go#L414) |
-| grokTableName | function_declaration |  | [435](../../magpie/internal/library/hooks.go#L435) |
-| isGrokHeader | function_declaration |  | [443](../../magpie/internal/library/hooks.go#L443) |
-| writeGrokHooks | function_declaration |  | [452](../../magpie/internal/library/hooks.go#L452) |
-| out | var_spec | writeGrokHooks | [462](../../magpie/internal/library/hooks.go#L462) |
-| grokArrayEvent | function_declaration |  | [509](../../magpie/internal/library/hooks.go#L509) |
-| syncHooks | method_declaration |  | [524](../../magpie/internal/library/hooks.go#L524) |
-| want | var_spec | syncHooks | [527](../../magpie/internal/library/hooks.go#L527) |
-| doc | var_spec | syncHooks | [551](../../magpie/internal/library/hooks.go#L551) |
-| x | var_spec | syncHooks | [565](../../magpie/internal/library/hooks.go#L565) |
-| err | var_spec | syncHooks | [566](../../magpie/internal/library/hooks.go#L566) |
-| wanted | type_spec | syncHooks | [577](../../magpie/internal/library/hooks.go#L577) |
-| h | field_declaration | syncHooks::wanted | [578](../../magpie/internal/library/hooks.go#L578) |
-| ev | field_declaration | syncHooks::wanted | [579](../../magpie/internal/library/hooks.go#L579) |
-| entry | field_declaration | syncHooks::wanted | [580](../../magpie/internal/library/hooks.go#L580) |
-| done | field_declaration | syncHooks::wanted | [581](../../magpie/internal/library/hooks.go#L581) |
-| ws | var_spec | syncHooks | [583](../../magpie/internal/library/hooks.go#L583) |
-| kept | var_spec | syncHooks | [612](../../magpie/internal/library/hooks.go#L612) |
-| unread | var_spec | syncHooks | [614](../../magpie/internal/library/hooks.go#L614) |
-| added | var_spec | syncHooks | [636](../../magpie/internal/library/hooks.go#L636) |
-| drops | var_spec | syncHooks | [662](../../magpie/internal/library/hooks.go#L662) |
-| set | var_spec | syncHooks | [689](../../magpie/internal/library/hooks.go#L689) |
-| del | var_spec | syncHooks | [690](../../magpie/internal/library/hooks.go#L690) |
-| next | var_spec | syncHooks | [709](../../magpie/internal/library/hooks.go#L709) |
-| rekey | var_spec | syncHooks | [734](../../magpie/internal/library/hooks.go#L734) |
-| codexState | var_spec |  | [786](../../magpie/internal/library/hooks.go#L786) |
-| codexStateKey | function_declaration |  | [790](../../magpie/internal/library/hooks.go#L790) |
-| snake | function_declaration |  | [806](../../magpie/internal/library/hooks.go#L806) |
-| b | var_spec | snake | [807](../../magpie/internal/library/hooks.go#L807) |
-| samePath | function_declaration |  | [821](../../magpie/internal/library/hooks.go#L821) |
-| codexRekey | function_declaration |  | [835](../../magpie/internal/library/hooks.go#L835) |
-| whole | var_spec | codexRekey | [843](../../magpie/internal/library/hooks.go#L843) |
-| Hooks | field_declaration | codexRekey::whole | [844](../../magpie/internal/library/hooks.go#L844) |
-| State | field_declaration | codexRekey::whole::Hooks | [845](../../magpie/internal/library/hooks.go#L845) |
-| span | type_spec | codexRekey | [889](../../magpie/internal/library/hooks.go#L889) |
-| from | field_declaration | codexRekey::span | [890](../../magpie/internal/library/hooks.go#L890) |
-| key | field_declaration | codexRekey::span | [891](../../magpie/internal/library/hooks.go#L891) |
-| m | field_declaration | codexRekey::span | [892](../../magpie/internal/library/hooks.go#L892) |
-| spans | var_spec | codexRekey | [894](../../magpie/internal/library/hooks.go#L894) |
-| k | var_spec | codexRekey | [901](../../magpie/internal/library/hooks.go#L901) |
-| out | var_spec | codexRekey | [924](../../magpie/internal/library/hooks.go#L924) |
-| hooksOff | function_declaration |  | [959](../../magpie/internal/library/hooks.go#L959) |
-| SaveHook | function_declaration |  | [978](../../magpie/internal/library/hooks.go#L978) |
-| HookAgents | function_declaration |  | [1001](../../magpie/internal/library/hooks.go#L1001) |
+| Hook | type_spec |  | [42](../../magpie/internal/library/hooks.go#L42) |
+| Name | field_declaration | Hook | [43](../../magpie/internal/library/hooks.go#L43) |
+| Bundle | field_declaration | Hook | [44](../../magpie/internal/library/hooks.go#L44) |
+| Description | field_declaration | Hook | [48](../../magpie/internal/library/hooks.go#L48) |
+| Event | field_declaration | Hook | [51](../../magpie/internal/library/hooks.go#L51) |
+| Matcher | field_declaration | Hook | [57](../../magpie/internal/library/hooks.go#L57) |
+| Command | field_declaration | Hook | [58](../../magpie/internal/library/hooks.go#L58) |
+| Timeout | field_declaration | Hook | [59](../../magpie/internal/library/hooks.go#L59) |
+| Agents | field_declaration | Hook | [60](../../magpie/internal/library/hooks.go#L60) |
+| HookEntry | type_spec |  | [65](../../magpie/internal/library/hooks.go#L65) |
+| Name | field_declaration | HookEntry | [66](../../magpie/internal/library/hooks.go#L66) |
+| Event | field_declaration | HookEntry | [67](../../magpie/internal/library/hooks.go#L67) |
+| Entry | field_declaration | HookEntry | [68](../../magpie/internal/library/hooks.go#L68) |
+| HookEvents | var_spec |  | [72](../../magpie/internal/library/hooks.go#L72) |
+| HookTools | var_spec |  | [75](../../magpie/internal/library/hooks.go#L75) |
+| HookStarts | var_spec |  | [81](../../magpie/internal/library/hooks.go#L81) |
+| startSpec | type_spec |  | [86](../../magpie/internal/library/hooks.go#L86) |
+| sources | field_declaration | startSpec | [87](../../magpie/internal/library/hooks.go#L87) |
+| one | field_declaration | startSpec | [90](../../magpie/internal/library/hooks.go#L90) |
+| groups | field_declaration | startSpec | [93](../../magpie/internal/library/hooks.go#L93) |
+| startSpecs | var_spec |  | [100](../../magpie/internal/library/hooks.go#L100) |
+| grokStarts | var_spec |  | [117](../../magpie/internal/library/hooks.go#L117) |
+| startSet | function_declaration |  | [121](../../magpie/internal/library/hooks.go#L121) |
+| startMatcher | function_declaration |  | [136](../../magpie/internal/library/hooks.go#L136) |
+| says | var_spec | startMatcher | [166](../../magpie/internal/library/hooks.go#L166) |
+| startsTaken | function_declaration |  | [177](../../magpie/internal/library/hooks.go#L177) |
+| out | var_spec | startsTaken | [178](../../magpie/internal/library/hooks.go#L178) |
+| set | var_spec | startsTaken | [180](../../magpie/internal/library/hooks.go#L180) |
+| hookSpec | type_spec |  | [195](../../magpie/internal/library/hooks.go#L195) |
+| path | field_declaration | hookSpec | [196](../../magpie/internal/library/hooks.go#L196) |
+| events | field_declaration | hookSpec | [197](../../magpie/internal/library/hooks.go#L197) |
+| native | field_declaration | hookSpec | [198](../../magpie/internal/library/hooks.go#L198) |
+| tools | field_declaration | hookSpec | [199](../../magpie/internal/library/hooks.go#L199) |
+| agent | field_declaration | hookSpec | [200](../../magpie/internal/library/hooks.go#L200) |
+| flat | field_declaration | hookSpec | [201](../../magpie/internal/library/hooks.go#L201) |
+| ms | field_declaration | hookSpec | [202](../../magpie/internal/library/hooks.go#L202) |
+| toml | field_declaration | hookSpec | [203](../../magpie/internal/library/hooks.go#L203) |
+| hookAgents | var_spec |  | [207](../../magpie/internal/library/hooks.go#L207) |
+| grokHookEvents | var_spec |  | [213](../../magpie/internal/library/hooks.go#L213) |
+| grokHookTools | var_spec |  | [220](../../magpie/internal/library/hooks.go#L220) |
+| grokHookSpec | function_declaration |  | [229](../../magpie/internal/library/hooks.go#L229) |
+| toolEvents | var_spec |  | [243](../../magpie/internal/library/hooks.go#L243) |
+| claudeHookEvents | var_spec |  | [249](../../magpie/internal/library/hooks.go#L249) |
+| hookSpecOf | function_declaration |  | [256](../../magpie/internal/library/hooks.go#L256) |
+| hookSpecFor | function_declaration |  | [264](../../magpie/internal/library/hooks.go#L264) |
+| event | method_declaration |  | [322](../../magpie/internal/library/hooks.go#L322) |
+| entry | method_declaration |  | [339](../../magpie/internal/library/hooks.go#L339) |
+| v | var_spec | entry | [358](../../magpie/internal/library/hooks.go#L358) |
+| Command | field_declaration | entry | [361](../../magpie/internal/library/hooks.go#L361) |
+| Timeout | field_declaration | entry | [362](../../magpie/internal/library/hooks.go#L362) |
+| Matcher | field_declaration | entry | [363](../../magpie/internal/library/hooks.go#L363) |
+| cmd | type_spec | entry | [366](../../magpie/internal/library/hooks.go#L366) |
+| Type | field_declaration | entry::cmd | [367](../../magpie/internal/library/hooks.go#L367) |
+| Command | field_declaration | entry::cmd | [368](../../magpie/internal/library/hooks.go#L368) |
+| Timeout | field_declaration | entry::cmd | [369](../../magpie/internal/library/hooks.go#L369) |
+| Matcher | field_declaration | entry | [372](../../magpie/internal/library/hooks.go#L372) |
+| Hooks | field_declaration | entry | [373](../../magpie/internal/library/hooks.go#L373) |
+| maxHookDescription | const_spec |  | [382](../../magpie/internal/library/hooks.go#L382) |
+| grokBlockText | function_declaration |  | [386](../../magpie/internal/library/hooks.go#L386) |
+| s | var_spec | grokBlockText | [387](../../magpie/internal/library/hooks.go#L387) |
+| grokHookBlock | function_declaration |  | [398](../../magpie/internal/library/hooks.go#L398) |
+| b | var_spec | grokHookBlock | [399](../../magpie/internal/library/hooks.go#L399) |
+| sameHookFamily | function_declaration |  | [417](../../magpie/internal/library/hooks.go#L417) |
+| check | method_declaration |  | [424](../../magpie/internal/library/hooks.go#L424) |
+| hook | method_declaration |  | [461](../../magpie/internal/library/hooks.go#L461) |
+| canonical | function_declaration |  | [472](../../magpie/internal/library/hooks.go#L472) |
+| v | var_spec | canonical | [473](../../magpie/internal/library/hooks.go#L473) |
+| readHooksFile | function_declaration |  | [486](../../magpie/internal/library/hooks.go#L486) |
+| hookList | function_declaration |  | [506](../../magpie/internal/library/hooks.go#L506) |
+| list | var_spec | hookList | [514](../../magpie/internal/library/hooks.go#L514) |
+| grokHookBlocks | function_declaration |  | [525](../../magpie/internal/library/hooks.go#L525) |
+| blocks | var_spec | grokHookBlocks | [535](../../magpie/internal/library/hooks.go#L535) |
+| grokBlockEnd | function_declaration |  | [552](../../magpie/internal/library/hooks.go#L552) |
+| grokTableName | function_declaration |  | [573](../../magpie/internal/library/hooks.go#L573) |
+| isGrokHeader | function_declaration |  | [581](../../magpie/internal/library/hooks.go#L581) |
+| writeGrokHooks | function_declaration |  | [590](../../magpie/internal/library/hooks.go#L590) |
+| out | var_spec | writeGrokHooks | [600](../../magpie/internal/library/hooks.go#L600) |
+| grokArrayEvent | function_declaration |  | [647](../../magpie/internal/library/hooks.go#L647) |
+| syncHooks | method_declaration |  | [662](../../magpie/internal/library/hooks.go#L662) |
+| want | var_spec | syncHooks | [665](../../magpie/internal/library/hooks.go#L665) |
+| doc | var_spec | syncHooks | [689](../../magpie/internal/library/hooks.go#L689) |
+| x | var_spec | syncHooks | [703](../../magpie/internal/library/hooks.go#L703) |
+| err | var_spec | syncHooks | [704](../../magpie/internal/library/hooks.go#L704) |
+| wanted | type_spec | syncHooks | [715](../../magpie/internal/library/hooks.go#L715) |
+| h | field_declaration | syncHooks::wanted | [716](../../magpie/internal/library/hooks.go#L716) |
+| ev | field_declaration | syncHooks::wanted | [717](../../magpie/internal/library/hooks.go#L717) |
+| entry | field_declaration | syncHooks::wanted | [718](../../magpie/internal/library/hooks.go#L718) |
+| done | field_declaration | syncHooks::wanted | [719](../../magpie/internal/library/hooks.go#L719) |
+| ws | var_spec | syncHooks | [721](../../magpie/internal/library/hooks.go#L721) |
+| kept | var_spec | syncHooks | [753](../../magpie/internal/library/hooks.go#L753) |
+| unread | var_spec | syncHooks | [755](../../magpie/internal/library/hooks.go#L755) |
+| added | var_spec | syncHooks | [777](../../magpie/internal/library/hooks.go#L777) |
+| drops | var_spec | syncHooks | [803](../../magpie/internal/library/hooks.go#L803) |
+| set | var_spec | syncHooks | [830](../../magpie/internal/library/hooks.go#L830) |
+| del | var_spec | syncHooks | [831](../../magpie/internal/library/hooks.go#L831) |
+| next | var_spec | syncHooks | [850](../../magpie/internal/library/hooks.go#L850) |
+| rekey | var_spec | syncHooks | [875](../../magpie/internal/library/hooks.go#L875) |
+| codexState | var_spec |  | [927](../../magpie/internal/library/hooks.go#L927) |
+| codexStateKey | function_declaration |  | [931](../../magpie/internal/library/hooks.go#L931) |
+| snake | function_declaration |  | [947](../../magpie/internal/library/hooks.go#L947) |

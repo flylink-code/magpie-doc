@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/grok_schema.go) · page 1/1
 
-Source SHA-256: 17a23a1759a28652c648304a40e433d2c3865081ccefbe05814e0df52b8b287e
+Source SHA-256: 681832c92d19f11f66b88d239867b3358e86099c2d6bf8c3b7e610681e441a5e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

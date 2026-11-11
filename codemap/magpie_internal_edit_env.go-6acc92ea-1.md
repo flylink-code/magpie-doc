@@ -4,12 +4,12 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/env.go) · page 1/1
 
-Source SHA-256: c8015056a53073f88f2b6c8892e0bdb4b3c540a6aa37897e7daf9aacd8b81e71
+Source SHA-256: 9d8f93b5385e4937d99412d4f00386ad06399b037979cb472ac5e43b8b17c3e5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| envLine | var_spec |  | [10](../../magpie/internal/edit/env.go#L10) |
-| GetEnvFile | function_declaration |  | [13](../../magpie/internal/edit/env.go#L13) |
-| SetEnvFile | function_declaration |  | [38](../../magpie/internal/edit/env.go#L38) |
-| DelEnvFile | function_declaration |  | [66](../../magpie/internal/edit/env.go#L66) |
-| out | var_spec | DelEnvFile | [75](../../magpie/internal/edit/env.go#L75) |
+| envLine | var_spec |  | [11](../../magpie/internal/edit/env.go#L11) |
+| GetEnvFile | function_declaration |  | [14](../../magpie/internal/edit/env.go#L14) |
+| SetEnvFile | function_declaration |  | [39](../../magpie/internal/edit/env.go#L39) |
+| DelEnvFile | function_declaration |  | [68](../../magpie/internal/edit/env.go#L68) |
+| out | var_spec | DelEnvFile | [77](../../magpie/internal/edit/env.go#L77) |

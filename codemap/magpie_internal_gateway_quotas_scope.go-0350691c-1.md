@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/quotas_scope.go) · page 1/1
 
-Source SHA-256: 835883954a7acd74629315037207e6c6c4dc53b56580157e14f1e9482f4454c9
+Source SHA-256: 40d16186f011a89a506e8a3f31e36c96e59d15853881f192e8e8dde289e6f1db
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -18,5 +18,5 @@ Source SHA-256: 835883954a7acd74629315037207e6c6c4dc53b56580157e14f1e9482f4454c9
 | card | method_declaration |  | [78](../../magpie/internal/gateway/quotas_scope.go#L78) |
 | cards | method_declaration |  | [122](../../magpie/internal/gateway/quotas_scope.go#L122) |
 | writeCards | function_declaration |  | [139](../../magpie/internal/gateway/quotas_scope.go#L139) |
-| quotas | method_declaration |  | [152](../../magpie/internal/gateway/quotas_scope.go#L152) |
-| histories | method_declaration |  | [172](../../magpie/internal/gateway/quotas_scope.go#L172) |
+| quotas | method_declaration |  | [159](../../magpie/internal/gateway/quotas_scope.go#L159) |
+| histories | method_declaration |  | [179](../../magpie/internal/gateway/quotas_scope.go#L179) |

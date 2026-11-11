@@ -4,37 +4,37 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/image_fetch_guard.go) · page 1/1
 
-Source SHA-256: 0822d2fa53fa831b3a45663a29aa28e799d96ca1daed7ef9e98905f50372eaaf
+Source SHA-256: e512dda47ca9458e9e1f0932b66208b0767d43122530b5bb1d53f33663ce156f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| imageRedirects | const_spec |  | [72](../../magpie/internal/gateway/image_fetch_guard.go#L72) |
-| errPrivateAddress | var_spec |  | [76](../../magpie/internal/gateway/image_fetch_guard.go#L76) |
-| fetchAllow | type_spec |  | [80](../../magpie/internal/gateway/image_fetch_guard.go#L80) |
-| hosts | field_declaration | fetchAllow | [81](../../magpie/internal/gateway/image_fetch_guard.go#L81) |
-| nets | field_declaration | fetchAllow | [82](../../magpie/internal/gateway/image_fetch_guard.go#L82) |
-| allowFor | function_declaration |  | [87](../../magpie/internal/gateway/image_fetch_guard.go#L87) |
-| list | var_spec | allowFor | [89](../../magpie/internal/gateway/image_fetch_guard.go#L89) |
-| addr | method_declaration |  | [110](../../magpie/internal/gateway/image_fetch_guard.go#L110) |
-| host | method_declaration |  | [124](../../magpie/internal/gateway/image_fetch_guard.go#L124) |
-| hostOf | function_declaration |  | [130](../../magpie/internal/gateway/image_fetch_guard.go#L130) |
-| vendorClient | function_declaration |  | [147](../../magpie/internal/gateway/image_fetch_guard.go#L147) |
-| own | var_spec | vendorClient | [148](../../magpie/internal/gateway/image_fetch_guard.go#L148) |
-| lookupIP | var_spec |  | [158](../../magpie/internal/gateway/image_fetch_guard.go#L158) |
-| publicAddr | function_declaration |  | [164](../../magpie/internal/gateway/image_fetch_guard.go#L164) |
-| guardDialer | function_declaration |  | [168](../../magpie/internal/gateway/image_fetch_guard.go#L168) |
-| dialPinned | var_spec |  | [184](../../magpie/internal/gateway/image_fetch_guard.go#L184) |
-| privateDialer | var_spec |  | [189](../../magpie/internal/gateway/image_fetch_guard.go#L189) |
-| publicTransport | type_spec |  | [193](../../magpie/internal/gateway/image_fetch_guard.go#L193) |
-| also | field_declaration | publicTransport | [193](../../magpie/internal/gateway/image_fetch_guard.go#L193) |
-| RoundTrip | method_declaration |  | [195](../../magpie/internal/gateway/image_fetch_guard.go#L195) |
-| addrs | var_spec | RoundTrip | [209](../../magpie/internal/gateway/image_fetch_guard.go#L209) |
-| tc | var_spec | RoundTrip | [242](../../magpie/internal/gateway/image_fetch_guard.go#L242) |
-| allAllowed | function_declaration |  | [294](../../magpie/internal/gateway/image_fetch_guard.go#L294) |
-| fakeAnswer | function_declaration |  | [306](../../magpie/internal/gateway/image_fetch_guard.go#L306) |
-| dropLoon | function_declaration |  | [318](../../magpie/internal/gateway/image_fetch_guard.go#L318) |
-| out | var_spec | dropLoon | [319](../../magpie/internal/gateway/image_fetch_guard.go#L319) |
-| onThisComputer | function_declaration |  | [331](../../magpie/internal/gateway/image_fetch_guard.go#L331) |
-| publicClient | var_spec |  | [343](../../magpie/internal/gateway/image_fetch_guard.go#L343) |
-| PublicClient | function_declaration |  | [347](../../magpie/internal/gateway/image_fetch_guard.go#L347) |
-| guardedClient | function_declaration |  | [351](../../magpie/internal/gateway/image_fetch_guard.go#L351) |
+| imageRedirects | const_spec |  | [74](../../magpie/internal/gateway/image_fetch_guard.go#L74) |
+| errPrivateAddress | var_spec |  | [78](../../magpie/internal/gateway/image_fetch_guard.go#L78) |
+| fetchAllow | type_spec |  | [82](../../magpie/internal/gateway/image_fetch_guard.go#L82) |
+| hosts | field_declaration | fetchAllow | [83](../../magpie/internal/gateway/image_fetch_guard.go#L83) |
+| nets | field_declaration | fetchAllow | [84](../../magpie/internal/gateway/image_fetch_guard.go#L84) |
+| allowFor | function_declaration |  | [89](../../magpie/internal/gateway/image_fetch_guard.go#L89) |
+| list | var_spec | allowFor | [91](../../magpie/internal/gateway/image_fetch_guard.go#L91) |
+| addr | method_declaration |  | [112](../../magpie/internal/gateway/image_fetch_guard.go#L112) |
+| host | method_declaration |  | [126](../../magpie/internal/gateway/image_fetch_guard.go#L126) |
+| hostOf | function_declaration |  | [132](../../magpie/internal/gateway/image_fetch_guard.go#L132) |
+| vendorClient | function_declaration |  | [149](../../magpie/internal/gateway/image_fetch_guard.go#L149) |
+| own | var_spec | vendorClient | [150](../../magpie/internal/gateway/image_fetch_guard.go#L150) |
+| lookupIP | var_spec |  | [160](../../magpie/internal/gateway/image_fetch_guard.go#L160) |
+| publicAddr | function_declaration |  | [166](../../magpie/internal/gateway/image_fetch_guard.go#L166) |
+| guardDialer | function_declaration |  | [170](../../magpie/internal/gateway/image_fetch_guard.go#L170) |
+| dialPinned | var_spec |  | [186](../../magpie/internal/gateway/image_fetch_guard.go#L186) |
+| privateDialer | var_spec |  | [191](../../magpie/internal/gateway/image_fetch_guard.go#L191) |
+| publicTransport | type_spec |  | [195](../../magpie/internal/gateway/image_fetch_guard.go#L195) |
+| also | field_declaration | publicTransport | [195](../../magpie/internal/gateway/image_fetch_guard.go#L195) |
+| RoundTrip | method_declaration |  | [197](../../magpie/internal/gateway/image_fetch_guard.go#L197) |
+| addrs | var_spec | RoundTrip | [211](../../magpie/internal/gateway/image_fetch_guard.go#L211) |
+| tc | var_spec | RoundTrip | [244](../../magpie/internal/gateway/image_fetch_guard.go#L244) |
+| allAllowed | function_declaration |  | [296](../../magpie/internal/gateway/image_fetch_guard.go#L296) |
+| fakeAnswer | function_declaration |  | [308](../../magpie/internal/gateway/image_fetch_guard.go#L308) |
+| dropLoon | function_declaration |  | [322](../../magpie/internal/gateway/image_fetch_guard.go#L322) |
+| out | var_spec | dropLoon | [323](../../magpie/internal/gateway/image_fetch_guard.go#L323) |
+| onThisComputer | function_declaration |  | [335](../../magpie/internal/gateway/image_fetch_guard.go#L335) |
+| publicClient | var_spec |  | [347](../../magpie/internal/gateway/image_fetch_guard.go#L347) |
+| PublicClient | function_declaration |  | [351](../../magpie/internal/gateway/image_fetch_guard.go#L351) |
+| guardedClient | function_declaration |  | [355](../../magpie/internal/gateway/image_fetch_guard.go#L355) |

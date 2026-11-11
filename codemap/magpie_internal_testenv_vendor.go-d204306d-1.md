@@ -4,9 +4,9 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/testenv/vendor.go) · page 1/1
 
-Source SHA-256: b62e8eef10c45ae91d3bb566987bc9b81874e0b57f486ce0caf7fed0d39b645d
+Source SHA-256: 117823ff68f7e6739fb73f3eac84f61afccc6accca5193a3c634b4dc522b97b4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| FakeVendor | function_declaration |  | [26](../../magpie/internal/testenv/vendor.go#L26) |
-| b | var_spec | FakeVendor | [28](../../magpie/internal/testenv/vendor.go#L28) |
+| FakeVendor | function_declaration |  | [27](../../magpie/internal/testenv/vendor.go#L27) |
+| b | var_spec | FakeVendor | [29](../../magpie/internal/testenv/vendor.go#L29) |

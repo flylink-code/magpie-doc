@@ -4,25 +4,27 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/search_kimi.go) · page 1/1
 
-Source SHA-256: edb455ec1d7f67cd9064478df816ccf2946bd08fe79cc3fb408602c86bb25c62
+Source SHA-256: 99706a1ab8c511e52a43905b9335de705ef61d5e8cf66f498a355e8a26ab2a3f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| kimiSearchAgent | const_spec |  | [35](../../magpie/internal/gateway/search_kimi.go#L35) |
-| searchOnKey | type_spec |  | [39](../../magpie/internal/gateway/search_kimi.go#L39) |
-| searchCallKey | type_spec |  | [43](../../magpie/internal/gateway/search_kimi.go#L43) |
-| canSearchFor | function_declaration |  | [48](../../magpie/internal/gateway/search_kimi.go#L48) |
-| searchesOwn | function_declaration |  | [56](../../magpie/internal/gateway/search_kimi.go#L56) |
-| searchingOn | function_declaration |  | [64](../../magpie/internal/gateway/search_kimi.go#L64) |
-| ownSearcher | function_declaration |  | [73](../../magpie/internal/gateway/search_kimi.go#L73) |
-| ownSearch | method_declaration |  | [79](../../magpie/internal/gateway/search_kimi.go#L79) |
-| searchBy | method_declaration |  | [93](../../magpie/internal/gateway/search_kimi.go#L93) |
-| kimiSearch | method_declaration |  | [101](../../magpie/internal/gateway/search_kimi.go#L101) |
-| out | var_spec | kimiSearch | [134](../../magpie/internal/gateway/search_kimi.go#L134) |
-| Results | field_declaration | kimiSearch::out | [135](../../magpie/internal/gateway/search_kimi.go#L135) |
-| Title | field_declaration | kimiSearch::out::Results | [136](../../magpie/internal/gateway/search_kimi.go#L136) |
-| URL | field_declaration | kimiSearch::out::Results | [137](../../magpie/internal/gateway/search_kimi.go#L137) |
-| Snippet | field_declaration | kimiSearch::out::Results | [138](../../magpie/internal/gateway/search_kimi.go#L138) |
-| Content | field_declaration | kimiSearch::out::Results | [139](../../magpie/internal/gateway/search_kimi.go#L139) |
-| Date | field_declaration | kimiSearch::out::Results | [140](../../magpie/internal/gateway/search_kimi.go#L140) |
-| pages | var_spec | kimiSearch | [146](../../magpie/internal/gateway/search_kimi.go#L146) |
+| kimiSearchAgent | const_spec |  | [37](../../magpie/internal/gateway/search_kimi.go#L37) |
+| searchOnKey | type_spec |  | [41](../../magpie/internal/gateway/search_kimi.go#L41) |
+| searchCallKey | type_spec |  | [45](../../magpie/internal/gateway/search_kimi.go#L45) |
+| canSearchFor | function_declaration |  | [50](../../magpie/internal/gateway/search_kimi.go#L50) |
+| searchesOwn | function_declaration |  | [59](../../magpie/internal/gateway/search_kimi.go#L59) |
+| searchingOn | function_declaration |  | [67](../../magpie/internal/gateway/search_kimi.go#L67) |
+| ownSearcher | function_declaration |  | [76](../../magpie/internal/gateway/search_kimi.go#L76) |
+| ownSearch | method_declaration |  | [82](../../magpie/internal/gateway/search_kimi.go#L82) |
+| searchBy | method_declaration |  | [100](../../magpie/internal/gateway/search_kimi.go#L100) |
+| logOwnSearch | method_declaration |  | [115](../../magpie/internal/gateway/search_kimi.go#L115) |
+| askOwnSearch | method_declaration |  | [121](../../magpie/internal/gateway/search_kimi.go#L121) |
+| kimiSearch | method_declaration |  | [131](../../magpie/internal/gateway/search_kimi.go#L131) |
+| out | var_spec | kimiSearch | [165](../../magpie/internal/gateway/search_kimi.go#L165) |
+| Results | field_declaration | kimiSearch::out | [166](../../magpie/internal/gateway/search_kimi.go#L166) |
+| Title | field_declaration | kimiSearch::out::Results | [167](../../magpie/internal/gateway/search_kimi.go#L167) |
+| URL | field_declaration | kimiSearch::out::Results | [168](../../magpie/internal/gateway/search_kimi.go#L168) |
+| Snippet | field_declaration | kimiSearch::out::Results | [169](../../magpie/internal/gateway/search_kimi.go#L169) |
+| Content | field_declaration | kimiSearch::out::Results | [170](../../magpie/internal/gateway/search_kimi.go#L170) |
+| Date | field_declaration | kimiSearch::out::Results | [171](../../magpie/internal/gateway/search_kimi.go#L171) |
+| pages | var_spec | kimiSearch | [177](../../magpie/internal/gateway/search_kimi.go#L177) |

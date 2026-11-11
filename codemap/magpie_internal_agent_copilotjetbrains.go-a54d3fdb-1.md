@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/copilotjetbrains.go) · page 1/1
 
-Source SHA-256: 17ce9806133e1fcb9f46fa070c12a12d3ae8a18aceeec5194060bf7a4b78a700
+Source SHA-256: e8158f8f4a5a72f1665e5517d909fa71bc26aaf1539b326af4537028f5cc4c54
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

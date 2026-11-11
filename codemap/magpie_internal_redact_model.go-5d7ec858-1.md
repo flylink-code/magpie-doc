@@ -4,61 +4,88 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/model.go) · page 1/1
 
-Source SHA-256: 46c6b445baf8a7a27f7220fc91aae9db3776f3508488a6fe06d59cff02d64817
+Source SHA-256: 38bd1d39a83b5eb2c54cc143737ea5eba967719a1593c0a088edaf267f0d9de7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Found | type_spec |  | [17](../../magpie/internal/redact/model.go#L17) |
-| Start | field_declaration | Found | [18](../../magpie/internal/redact/model.go#L18) |
-| Label | field_declaration | Found | [19](../../magpie/internal/redact/model.go#L19) |
-| Model | type_spec |  | [25](../../magpie/internal/redact/model.go#L25) |
-| modelKinds | var_spec |  | [30](../../magpie/internal/redact/model.go#L30) |
-| modelCat | function_declaration |  | [40](../../magpie/internal/redact/model.go#L40) |
-| modelSpans | function_declaration |  | [51](../../magpie/internal/redact/model.go#L51) |
-| out | var_spec | modelSpans | [55](../../magpie/internal/redact/model.go#L55) |
-| person | var_spec | modelSpans | [87](../../magpie/internal/redact/model.go#L87) |
-| isSpace | function_declaration |  | [98](../../magpie/internal/redact/model.go#L98) |
-| delimiter | function_declaration |  | [107](../../magpie/internal/redact/model.go#L107) |
-| modelTakes | function_declaration |  | [117](../../magpie/internal/redact/model.go#L117) |
-| snakeWord | function_declaration |  | [135](../../magpie/internal/redact/model.go#L135) |
-| namesThing | function_declaration |  | [153](../../magpie/internal/redact/model.go#L153) |
-| modelName | function_declaration |  | [169](../../magpie/internal/redact/model.go#L169) |
-| dashedRe | var_spec |  | [185](../../magpie/internal/redact/model.go#L185) |
-| sizePartRe | var_spec |  | [186](../../magpie/internal/redact/model.go#L186) |
-| dateIn | var_spec |  | [187](../../magpie/internal/redact/model.go#L187) |
-| uuidRe | var_spec |  | [191](../../magpie/internal/redact/model.go#L191) |
-| slugRe | var_spec |  | [193](../../magpie/internal/redact/model.go#L193) |
-| fileNameRe | var_spec |  | [195](../../magpie/internal/redact/model.go#L195) |
-| digestRe | var_spec |  | [196](../../magpie/internal/redact/model.go#L196) |
-| madeID | function_declaration |  | [204](../../magpie/internal/redact/model.go#L204) |
-| keyHeads | var_spec |  | [227](../../magpie/internal/redact/model.go#L227) |
-| withModel | function_declaration |  | [231](../../magpie/internal/redact/model.go#L231) |
-| ask | var_spec | withModel | [235](../../magpie/internal/redact/model.go#L235) |
-| modelFits | function_declaration |  | [297](../../magpie/internal/redact/model.go#L297) |
-| wordByte | function_declaration |  | [344](../../magpie/internal/redact/model.go#L344) |
-| personFits | function_declaration |  | [348](../../magpie/internal/redact/model.go#L348) |
-| camelProduct | function_declaration |  | [384](../../magpie/internal/redact/model.go#L384) |
-| hostIn | function_declaration |  | [405](../../magpie/internal/redact/model.go#L405) |
-| hostTail | var_spec |  | [425](../../magpie/internal/redact/model.go#L425) |
-| nameParticles | var_spec |  | [429](../../magpie/internal/redact/model.go#L429) |
-| numberLike | function_declaration |  | [438](../../magpie/internal/redact/model.go#L438) |
-| epochNumber | function_declaration |  | [461](../../magpie/internal/redact/model.go#L461) |
-| countDigits | function_declaration |  | [468](../../magpie/internal/redact/model.go#L468) |
-| isASCII | function_declaration |  | [478](../../magpie/internal/redact/model.go#L478) |
-| assistantNames | var_spec |  | [489](../../magpie/internal/redact/model.go#L489) |
-| hexRe | var_spec |  | [497](../../magpie/internal/redact/model.go#L497) |
-| decimalRe | var_spec |  | [498](../../magpie/internal/redact/model.go#L498) |
-| clockIn | var_spec |  | [501](../../magpie/internal/redact/model.go#L501) |
-| versionRe | var_spec |  | [502](../../magpie/internal/redact/model.go#L502) |
-| sizeRe | var_spec |  | [503](../../magpie/internal/redact/model.go#L503) |
-| uuidIn | var_spec |  | [504](../../magpie/internal/redact/model.go#L504) |
-| modCacheRe | var_spec |  | [506](../../magpie/internal/redact/model.go#L506) |
-| linkRe | var_spec |  | [508](../../magpie/internal/redact/model.go#L508) |
-| accountCues | var_spec |  | [512](../../magpie/internal/redact/model.go#L512) |
-| secretCues | var_spec |  | [513](../../magpie/internal/redact/model.go#L513) |
-| phoneCues | var_spec |  | [514](../../magpie/internal/redact/model.go#L514) |
-| cued | function_declaration |  | [518](../../magpie/internal/redact/model.go#L518) |
-| regexpLike | function_declaration |  | [530](../../magpie/internal/redact/model.go#L530) |
-| idAfter | function_declaration |  | [538](../../magpie/internal/redact/model.go#L538) |
-| secretCued | function_declaration |  | [552](../../magpie/internal/redact/model.go#L552) |
-| patternWords | function_declaration |  | [570](../../magpie/internal/redact/model.go#L570) |
+| Found | type_spec |  | [21](../../magpie/internal/redact/model.go#L21) |
+| Start | field_declaration | Found | [22](../../magpie/internal/redact/model.go#L22) |
+| Label | field_declaration | Found | [23](../../magpie/internal/redact/model.go#L23) |
+| Score | field_declaration | Found | [24](../../magpie/internal/redact/model.go#L24) |
+| Model | type_spec |  | [30](../../magpie/internal/redact/model.go#L30) |
+| modelKinds | var_spec |  | [35](../../magpie/internal/redact/model.go#L35) |
+| modelCat | function_declaration |  | [45](../../magpie/internal/redact/model.go#L45) |
+| modelSpans | function_declaration |  | [57](../../magpie/internal/redact/model.go#L57) |
+| out | var_spec | modelSpans | [61](../../magpie/internal/redact/model.go#L61) |
+| person | var_spec | modelSpans | [93](../../magpie/internal/redact/model.go#L93) |
+| isSpace | function_declaration |  | [104](../../magpie/internal/redact/model.go#L104) |
+| delimiter | function_declaration |  | [113](../../magpie/internal/redact/model.go#L113) |
+| modelTakes | function_declaration |  | [123](../../magpie/internal/redact/model.go#L123) |
+| snakeWord | function_declaration |  | [147](../../magpie/internal/redact/model.go#L147) |
+| namesThing | function_declaration |  | [165](../../magpie/internal/redact/model.go#L165) |
+| modelName | function_declaration |  | [181](../../magpie/internal/redact/model.go#L181) |
+| dashedRe | var_spec |  | [197](../../magpie/internal/redact/model.go#L197) |
+| sizePartRe | var_spec |  | [198](../../magpie/internal/redact/model.go#L198) |
+| dateIn | var_spec |  | [199](../../magpie/internal/redact/model.go#L199) |
+| uuidRe | var_spec |  | [203](../../magpie/internal/redact/model.go#L203) |
+| slugRe | var_spec |  | [205](../../magpie/internal/redact/model.go#L205) |
+| fileNameRe | var_spec |  | [207](../../magpie/internal/redact/model.go#L207) |
+| digestRe | var_spec |  | [208](../../magpie/internal/redact/model.go#L208) |
+| sriRe | var_spec |  | [213](../../magpie/internal/redact/model.go#L213) |
+| madeID | function_declaration |  | [221](../../magpie/internal/redact/model.go#L221) |
+| keyHeads | var_spec |  | [244](../../magpie/internal/redact/model.go#L244) |
+| withModel | function_declaration |  | [248](../../magpie/internal/redact/model.go#L248) |
+| ask | var_spec | withModel | [252](../../magpie/internal/redact/model.go#L252) |
+| modelFits | function_declaration |  | [314](../../magpie/internal/redact/model.go#L314) |
+| programWords | function_declaration |  | [399](../../magpie/internal/redact/model.go#L399) |
+| wordsOnlyRe | var_spec |  | [410](../../magpie/internal/redact/model.go#L410) |
+| wordsOnly | function_declaration |  | [424](../../magpie/internal/redact/model.go#L424) |
+| assignedSecret | function_declaration |  | [430](../../magpie/internal/redact/model.go#L430) |
+| pinnedAfter | function_declaration |  | [458](../../magpie/internal/redact/model.go#L458) |
+| moduleRe | var_spec |  | [471](../../magpie/internal/redact/model.go#L471) |
+| moduleAt | function_declaration |  | [482](../../magpie/internal/redact/model.go#L482) |
+| codeHead | function_declaration |  | [528](../../magpie/internal/redact/model.go#L528) |
+| packageAt | function_declaration |  | [560](../../magpie/internal/redact/model.go#L560) |
+| moduleByte | function_declaration |  | [583](../../magpie/internal/redact/model.go#L583) |
+| dependencyAt | function_declaration |  | [590](../../magpie/internal/redact/model.go#L590) |
+| depVersion | function_declaration |  | [624](../../magpie/internal/redact/model.go#L624) |
+| depRangeRe | var_spec |  | [642](../../magpie/internal/redact/model.go#L642) |
+| underPackages | function_declaration |  | [646](../../magpie/internal/redact/model.go#L646) |
+| missingModuleAt | function_declaration |  | [667](../../magpie/internal/redact/model.go#L667) |
+| installRe | var_spec |  | [682](../../magpie/internal/redact/model.go#L682) |
+| installedAt | function_declaration |  | [688](../../magpie/internal/redact/model.go#L688) |
+| credFlag | function_declaration |  | [713](../../magpie/internal/redact/model.go#L713) |
+| pinnedAt | function_declaration |  | [727](../../magpie/internal/redact/model.go#L727) |
+| pinVersionRe | var_spec |  | [735](../../magpie/internal/redact/model.go#L735) |
+| wordEnd | function_declaration |  | [738](../../magpie/internal/redact/model.go#L738) |
+| wordByte | function_declaration |  | [742](../../magpie/internal/redact/model.go#L742) |
+| personFits | function_declaration |  | [746](../../magpie/internal/redact/model.go#L746) |
+| camelProduct | function_declaration |  | [789](../../magpie/internal/redact/model.go#L789) |
+| hostIn | function_declaration |  | [810](../../magpie/internal/redact/model.go#L810) |
+| hostTail | var_spec |  | [830](../../magpie/internal/redact/model.go#L830) |
+| nameParticles | var_spec |  | [834](../../magpie/internal/redact/model.go#L834) |
+| numberLike | function_declaration |  | [843](../../magpie/internal/redact/model.go#L843) |
+| epochNumber | function_declaration |  | [866](../../magpie/internal/redact/model.go#L866) |
+| countDigits | function_declaration |  | [873](../../magpie/internal/redact/model.go#L873) |
+| isASCII | function_declaration |  | [883](../../magpie/internal/redact/model.go#L883) |
+| assistantNames | var_spec |  | [894](../../magpie/internal/redact/model.go#L894) |
+| hexRe | var_spec |  | [902](../../magpie/internal/redact/model.go#L902) |
+| evmRe | var_spec |  | [905](../../magpie/internal/redact/model.go#L905) |
+| decimalRe | var_spec |  | [906](../../magpie/internal/redact/model.go#L906) |
+| hexLiteral | var_spec |  | [917](../../magpie/internal/redact/model.go#L917) |
+| clockIn | var_spec |  | [920](../../magpie/internal/redact/model.go#L920) |
+| versionRe | var_spec |  | [921](../../magpie/internal/redact/model.go#L921) |
+| sizeRe | var_spec |  | [922](../../magpie/internal/redact/model.go#L922) |
+| uuidIn | var_spec |  | [923](../../magpie/internal/redact/model.go#L923) |
+| modCacheRe | var_spec |  | [925](../../magpie/internal/redact/model.go#L925) |
+| linkRe | var_spec |  | [927](../../magpie/internal/redact/model.go#L927) |
+| accountCues | var_spec |  | [931](../../magpie/internal/redact/model.go#L931) |
+| secretCues | var_spec |  | [932](../../magpie/internal/redact/model.go#L932) |
+| phoneCues | var_spec |  | [933](../../magpie/internal/redact/model.go#L933) |
+| cued | function_declaration |  | [937](../../magpie/internal/redact/model.go#L937) |
+| regexpLike | function_declaration |  | [949](../../magpie/internal/redact/model.go#L949) |
+| idAfter | function_declaration |  | [957](../../magpie/internal/redact/model.go#L957) |
+| secretCued | function_declaration |  | [971](../../magpie/internal/redact/model.go#L971) |
+| numberNamedSecret | function_declaration |  | [997](../../magpie/internal/redact/model.go#L997) |
+| numberSecretNames | var_spec |  | [1024](../../magpie/internal/redact/model.go#L1024) |
+| patternWords | function_declaration |  | [1028](../../magpie/internal/redact/model.go#L1028) |

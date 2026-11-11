@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/muse.go) · page 1/1
 
-Source SHA-256: 27100ee8844722280d0ce26566c88c6bc58f642724d4a5f0e74a7a8de2b286ee
+Source SHA-256: d5d687395c561b71c5dea38545f073eff1e57a35e5560e9f800c21e547989ec8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

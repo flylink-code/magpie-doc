@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/desktop_skills.go) · page 1/1
 
-Source SHA-256: 80930143b86989b27097be2320c6585d70ed5f9eca6230557df7fc279971226f
+Source SHA-256: 5f16fb74ae7b997bc2e1e79ec33d71f9948280db17df3a744d3b81d6a5457b5b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

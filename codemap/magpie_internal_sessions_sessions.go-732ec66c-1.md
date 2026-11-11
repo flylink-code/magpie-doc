@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/sessions.go) · page 1/4
 
-Source SHA-256: a701623ba2c1f76cbc0d644abf3c6abff55391c6142ba3d8b09e9d6334d40f1b
+Source SHA-256: 02cb27115ab142442fd60905e72b8bb76ccadaccbfeb937865c909a594e5aff5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Tokens | type_spec |  | [46](../../magpie/internal/sessions/sessions.go#L46) |
-| Input | field_declaration | Tokens | [47](../../magpie/internal/sessions/sessions.go#L47) |
-| Output | field_declaration | Tokens | [48](../../magpie/internal/sessions/sessions.go#L48) |
-| CacheRead | field_declaration | Tokens | [49](../../magpie/internal/sessions/sessions.go#L49) |
-| CacheWrite | field_declaration | Tokens | [50](../../magpie/internal/sessions/sessions.go#L50) |
-| CacheWrite1h | field_declaration | Tokens | [53](../../magpie/internal/sessions/sessions.go#L53) |
-| add | method_declaration |  | [56](../../magpie/internal/sessions/sessions.go#L56) |
-| sub | method_declaration |  | [64](../../magpie/internal/sessions/sessions.go#L64) |
-| ccCacheCreation | type_spec |  | [74](../../magpie/internal/sessions/sessions.go#L74) |
-| Ephemeral5m | field_declaration | ccCacheCreation | [75](../../magpie/internal/sessions/sessions.go#L75) |
-| Ephemeral1h | field_declaration | ccCacheCreation | [76](../../magpie/internal/sessions/sessions.go#L76) |
-| ccTokens | function_declaration |  | [80](../../magpie/internal/sessions/sessions.go#L80) |
-| zero | method_declaration |  | [89](../../magpie/internal/sessions/sessions.go#L89) |
-| Model | type_spec |  | [92](../../magpie/internal/sessions/sessions.go#L92) |
-| Model | field_declaration | Model | [93](../../magpie/internal/sessions/sessions.go#L93) |
-| Cost | field_declaration | Model | [95](../../magpie/internal/sessions/sessions.go#L95) |
-| Priced | field_declaration | Model | [96](../../magpie/internal/sessions/sessions.go#L96) |
-| ModelEffort | type_spec |  | [100](../../magpie/internal/sessions/sessions.go#L100) |
-| Model | field_declaration | ModelEffort | [101](../../magpie/internal/sessions/sessions.go#L101) |
-| Effort | field_declaration | ModelEffort | [102](../../magpie/internal/sessions/sessions.go#L102) |
-| Reasoning | field_declaration | ModelEffort | [104](../../magpie/internal/sessions/sessions.go#L104) |
-| Cost | field_declaration | ModelEffort | [105](../../magpie/internal/sessions/sessions.go#L105) |
-| Priced | field_declaration | ModelEffort | [106](../../magpie/internal/sessions/sessions.go#L106) |
-| CodexIdentity | type_spec |  | [110](../../magpie/internal/sessions/sessions.go#L110) |
-| ID | field_declaration | CodexIdentity | [111](../../magpie/internal/sessions/sessions.go#L111) |
-| Role | field_declaration | CodexIdentity | [112](../../magpie/internal/sessions/sessions.go#L112) |
-| ParentSession | field_declaration | CodexIdentity | [113](../../magpie/internal/sessions/sessions.go#L113) |
-| RootSession | field_declaration | CodexIdentity | [114](../../magpie/internal/sessions/sessions.go#L114) |
-| Session | type_spec |  | [118](../../magpie/internal/sessions/sessions.go#L118) |
-| ReadOnly | field_declaration | Session | [119](../../magpie/internal/sessions/sessions.go#L119) |
-| Gateway | field_declaration | Session | [122](../../magpie/internal/sessions/sessions.go#L122) |
-| Agent | field_declaration | Session | [123](../../magpie/internal/sessions/sessions.go#L123) |
-| ID | field_declaration | Session | [124](../../magpie/internal/sessions/sessions.go#L124) |
-| Cwd | field_declaration | Session | [125](../../magpie/internal/sessions/sessions.go#L125) |
-| Title | field_declaration | Session | [126](../../magpie/internal/sessions/sessions.go#L126) |
-| Nickname | field_declaration | Session | [127](../../magpie/internal/sessions/sessions.go#L127) |
-| Start | field_declaration | Session | [128](../../magpie/internal/sessions/sessions.go#L128) |
-| Last | field_declaration | Session | [129](../../magpie/internal/sessions/sessions.go#L129) |
-| Role | field_declaration | Session | [130](../../magpie/internal/sessions/sessions.go#L130) |
-| ParentSession | field_declaration | Session | [131](../../magpie/internal/sessions/sessions.go#L131) |
-| RootSession | field_declaration | Session | [132](../../magpie/internal/sessions/sessions.go#L132) |
-| ModelEffort | field_declaration | Session | [133](../../magpie/internal/sessions/sessions.go#L133) |
-| Models | field_declaration | Session | [134](../../magpie/internal/sessions/sessions.go#L134) |
-| Cost | field_declaration | Session | [136](../../magpie/internal/sessions/sessions.go#L136) |
-| Unpriced | field_declaration | Session | [137](../../magpie/internal/sessions/sessions.go#L137) |
-| Resume | field_declaration | Session | [138](../../magpie/internal/sessions/sessions.go#L138) |
-| Path | field_declaration | Session | [139](../../magpie/internal/sessions/sessions.go#L139) |
-| Carry | field_declaration | Session | [142](../../magpie/internal/sessions/sessions.go#L142) |
-| Transcript | field_declaration | Session | [144](../../magpie/internal/sessions/sessions.go#L144) |
-| Subagents | field_declaration | Session | [147](../../magpie/internal/sessions/sessions.go#L147) |
-| WSL | field_declaration | Session | [150](../../magpie/internal/sessions/sessions.go#L150) |
-| Convs | field_declaration | Session | [153](../../magpie/internal/sessions/sessions.go#L153) |
-| PriceOf | var_spec |  | [159](../../magpie/internal/sessions/sessions.go#L159) |
-| Limit | const_spec |  | [165](../../magpie/internal/sessions/sessions.go#L165) |
-| All | const_spec |  | [172](../../magpie/internal/sessions/sessions.go#L172) |
-| state | type_spec |  | [175](../../magpie/internal/sessions/sessions.go#L175) |
-| Codex | field_declaration | state | [176](../../magpie/internal/sessions/sessions.go#L176) |
-| Claude | field_declaration | state | [177](../../magpie/internal/sessions/sessions.go#L177) |
-| DBRevision | field_declaration | state | [178](../../magpie/internal/sessions/sessions.go#L178) |
-| Head | field_declaration | state | [179](../../magpie/internal/sessions/sessions.go#L179) |
-| HeadSize | field_declaration | state | [180](../../magpie/internal/sessions/sessions.go#L180) |
-| ContentHash | field_declaration | state | [181](../../magpie/internal/sessions/sessions.go#L181) |
-| Size | field_declaration | state | [182](../../magpie/internal/sessions/sessions.go#L182) |
-| Mod | field_declaration | state | [183](../../magpie/internal/sessions/sessions.go#L183) |
-| Off | field_declaration | state | [184](../../magpie/internal/sessions/sessions.go#L184) |
-| ID | field_declaration | state | [185](../../magpie/internal/sessions/sessions.go#L185) |
-| CodexIdentity | field_declaration | state | [186](../../magpie/internal/sessions/sessions.go#L186) |
-| CodexIdentityConflict | field_declaration | state | [187](../../magpie/internal/sessions/sessions.go#L187) |
-| CodexNickname | field_declaration | state | [188](../../magpie/internal/sessions/sessions.go#L188) |
-| CodexSpawnNames | field_declaration | state | [189](../../magpie/internal/sessions/sessions.go#L189) |
-| CodexSpawnConflicts | field_declaration | state | [190](../../magpie/internal/sessions/sessions.go#L190) |
-| CodexAgentIDs | field_declaration | state | [191](../../magpie/internal/sessions/sessions.go#L191) |
-| CodexAgentConflicts | field_declaration | state | [192](../../magpie/internal/sessions/sessions.go#L192) |
-| Cwd | field_declaration | state | [193](../../magpie/internal/sessions/sessions.go#L193) |
-| Title | field_declaration | state | [194](../../magpie/internal/sessions/sessions.go#L194) |
-| Named | field_declaration | state | [195](../../magpie/internal/sessions/sessions.go#L195) |
-| Custom | field_declaration | state | [196](../../magpie/internal/sessions/sessions.go#L196) |
-| First | field_declaration | state | [197](../../magpie/internal/sessions/sessions.go#L197) |
-| Convs | field_declaration | state | [198](../../magpie/internal/sessions/sessions.go#L198) |
-| Start | field_declaration | state | [199](../../magpie/internal/sessions/sessions.go#L199) |
-| Last | field_declaration | state | [200](../../magpie/internal/sessions/sessions.go#L200) |
-| Models | field_declaration | state | [201](../../magpie/internal/sessions/sessions.go#L201) |
-| Days | field_declaration | state | [204](../../magpie/internal/sessions/sessions.go#L204) |
-| Msg | field_declaration | state | [207](../../magpie/internal/sessions/sessions.go#L207) |
-| MsgModel | field_declaration | state | [208](../../magpie/internal/sessions/sessions.go#L208) |
-| MsgUse | field_declaration | state | [209](../../magpie/internal/sessions/sessions.go#L209) |
-| MsgDay | field_declaration | state | [210](../../magpie/internal/sessions/sessions.go#L210) |
-| Model | field_declaration | state | [212](../../magpie/internal/sessions/sessions.go#L212) |
-| Total | field_declaration | state | [213](../../magpie/internal/sessions/sessions.go#L213) |
-| Provider | field_declaration | state | [215](../../magpie/internal/sessions/sessions.go#L215) |
-| Since | field_declaration | state | [218](../../magpie/internal/sessions/sessions.go#L218) |
-| Grok | field_declaration | state | [221](../../magpie/internal/sessions/sessions.go#L221) |
-| Droid | field_declaration | state | [224](../../magpie/internal/sessions/sessions.go#L224) |
-| Kimi | field_declaration | state | [227](../../magpie/internal/sessions/sessions.go#L227) |
-| Agy | field_declaration | state | [230](../../magpie/internal/sessions/sessions.go#L230) |
-| Dsh | field_declaration | state | [232](../../magpie/internal/sessions/sessions.go#L232) |
-| Cline | field_declaration | state | [234](../../magpie/internal/sessions/sessions.go#L234) |
-| day | type_spec |  | [239](../../magpie/internal/sessions/sessions.go#L239) |
-| Models | field_declaration | day | [240](../../magpie/internal/sessions/sessions.go#L240) |
-| Active | field_declaration | day | [246](../../magpie/internal/sessions/sessions.go#L246) |
+| Tokens | type_spec |  | [47](../../magpie/internal/sessions/sessions.go#L47) |
+| Input | field_declaration | Tokens | [48](../../magpie/internal/sessions/sessions.go#L48) |
+| Output | field_declaration | Tokens | [49](../../magpie/internal/sessions/sessions.go#L49) |
+| CacheRead | field_declaration | Tokens | [50](../../magpie/internal/sessions/sessions.go#L50) |
+| CacheWrite | field_declaration | Tokens | [51](../../magpie/internal/sessions/sessions.go#L51) |
+| CacheWrite1h | field_declaration | Tokens | [54](../../magpie/internal/sessions/sessions.go#L54) |
+| add | method_declaration |  | [57](../../magpie/internal/sessions/sessions.go#L57) |
+| sub | method_declaration |  | [65](../../magpie/internal/sessions/sessions.go#L65) |
+| ccCacheCreation | type_spec |  | [75](../../magpie/internal/sessions/sessions.go#L75) |
+| Ephemeral5m | field_declaration | ccCacheCreation | [76](../../magpie/internal/sessions/sessions.go#L76) |
+| Ephemeral1h | field_declaration | ccCacheCreation | [77](../../magpie/internal/sessions/sessions.go#L77) |
+| ccTokens | function_declaration |  | [81](../../magpie/internal/sessions/sessions.go#L81) |
+| zero | method_declaration |  | [90](../../magpie/internal/sessions/sessions.go#L90) |
+| Model | type_spec |  | [93](../../magpie/internal/sessions/sessions.go#L93) |
+| Model | field_declaration | Model | [94](../../magpie/internal/sessions/sessions.go#L94) |
+| Cost | field_declaration | Model | [96](../../magpie/internal/sessions/sessions.go#L96) |
+| Priced | field_declaration | Model | [97](../../magpie/internal/sessions/sessions.go#L97) |
+| ModelEffort | type_spec |  | [101](../../magpie/internal/sessions/sessions.go#L101) |
+| Model | field_declaration | ModelEffort | [102](../../magpie/internal/sessions/sessions.go#L102) |
+| Effort | field_declaration | ModelEffort | [103](../../magpie/internal/sessions/sessions.go#L103) |
+| Reasoning | field_declaration | ModelEffort | [105](../../magpie/internal/sessions/sessions.go#L105) |
+| Cost | field_declaration | ModelEffort | [106](../../magpie/internal/sessions/sessions.go#L106) |
+| Priced | field_declaration | ModelEffort | [107](../../magpie/internal/sessions/sessions.go#L107) |
+| CodexIdentity | type_spec |  | [111](../../magpie/internal/sessions/sessions.go#L111) |
+| ID | field_declaration | CodexIdentity | [112](../../magpie/internal/sessions/sessions.go#L112) |
+| Role | field_declaration | CodexIdentity | [113](../../magpie/internal/sessions/sessions.go#L113) |
+| ParentSession | field_declaration | CodexIdentity | [114](../../magpie/internal/sessions/sessions.go#L114) |
+| RootSession | field_declaration | CodexIdentity | [115](../../magpie/internal/sessions/sessions.go#L115) |
+| Session | type_spec |  | [119](../../magpie/internal/sessions/sessions.go#L119) |
+| ReadOnly | field_declaration | Session | [120](../../magpie/internal/sessions/sessions.go#L120) |
+| Gateway | field_declaration | Session | [123](../../magpie/internal/sessions/sessions.go#L123) |
+| Agent | field_declaration | Session | [124](../../magpie/internal/sessions/sessions.go#L124) |
+| ID | field_declaration | Session | [125](../../magpie/internal/sessions/sessions.go#L125) |
+| Cwd | field_declaration | Session | [126](../../magpie/internal/sessions/sessions.go#L126) |
+| Title | field_declaration | Session | [127](../../magpie/internal/sessions/sessions.go#L127) |
+| Nickname | field_declaration | Session | [128](../../magpie/internal/sessions/sessions.go#L128) |
+| Start | field_declaration | Session | [129](../../magpie/internal/sessions/sessions.go#L129) |
+| Last | field_declaration | Session | [130](../../magpie/internal/sessions/sessions.go#L130) |
+| Role | field_declaration | Session | [131](../../magpie/internal/sessions/sessions.go#L131) |
+| ParentSession | field_declaration | Session | [132](../../magpie/internal/sessions/sessions.go#L132) |
+| RootSession | field_declaration | Session | [133](../../magpie/internal/sessions/sessions.go#L133) |
+| ModelEffort | field_declaration | Session | [134](../../magpie/internal/sessions/sessions.go#L134) |
+| Models | field_declaration | Session | [135](../../magpie/internal/sessions/sessions.go#L135) |
+| Cost | field_declaration | Session | [137](../../magpie/internal/sessions/sessions.go#L137) |
+| Unpriced | field_declaration | Session | [138](../../magpie/internal/sessions/sessions.go#L138) |
+| Resume | field_declaration | Session | [139](../../magpie/internal/sessions/sessions.go#L139) |
+| Path | field_declaration | Session | [140](../../magpie/internal/sessions/sessions.go#L140) |
+| App | field_declaration | Session | [145](../../magpie/internal/sessions/sessions.go#L145) |
+| Carry | field_declaration | Session | [148](../../magpie/internal/sessions/sessions.go#L148) |
+| Transcript | field_declaration | Session | [150](../../magpie/internal/sessions/sessions.go#L150) |
+| Subagents | field_declaration | Session | [153](../../magpie/internal/sessions/sessions.go#L153) |
+| WSL | field_declaration | Session | [156](../../magpie/internal/sessions/sessions.go#L156) |
+| Convs | field_declaration | Session | [159](../../magpie/internal/sessions/sessions.go#L159) |
+| ResponseIDs | field_declaration | Session | [164](../../magpie/internal/sessions/sessions.go#L164) |
+| ForkOf | field_declaration | Session | [169](../../magpie/internal/sessions/sessions.go#L169) |
+| SeedConvs | field_declaration | Session | [176](../../magpie/internal/sessions/sessions.go#L176) |
+| TurnConvs | field_declaration | Session | [182](../../magpie/internal/sessions/sessions.go#L182) |
+| Copies | field_declaration | Session | [185](../../magpie/internal/sessions/sessions.go#L185) |
+| Subs | field_declaration | Session | [189](../../magpie/internal/sessions/sessions.go#L189) |
+| BranchOf | field_declaration | Session | [193](../../magpie/internal/sessions/sessions.go#L193) |
+| PriceOf | var_spec |  | [199](../../magpie/internal/sessions/sessions.go#L199) |
+| Limit | const_spec |  | [205](../../magpie/internal/sessions/sessions.go#L205) |
+| All | const_spec |  | [212](../../magpie/internal/sessions/sessions.go#L212) |
+| state | type_spec |  | [215](../../magpie/internal/sessions/sessions.go#L215) |
+| Agent | field_declaration | state | [217](../../magpie/internal/sessions/sessions.go#L217) |
+| Codex | field_declaration | state | [218](../../magpie/internal/sessions/sessions.go#L218) |
+| codexPath | field_declaration | state | [219](../../magpie/internal/sessions/sessions.go#L219) |
+| Claude | field_declaration | state | [220](../../magpie/internal/sessions/sessions.go#L220) |
+| Head | field_declaration | state | [221](../../magpie/internal/sessions/sessions.go#L221) |
+| HeadSize | field_declaration | state | [224](../../magpie/internal/sessions/sessions.go#L224) |
+| CdRead | field_declaration | state | [227](../../magpie/internal/sessions/sessions.go#L227) |
+| ContentHash | field_declaration | state | [228](../../magpie/internal/sessions/sessions.go#L228) |
+| Size | field_declaration | state | [229](../../magpie/internal/sessions/sessions.go#L229) |
+| Mod | field_declaration | state | [230](../../magpie/internal/sessions/sessions.go#L230) |
+| Off | field_declaration | state | [231](../../magpie/internal/sessions/sessions.go#L231) |
+| ID | field_declaration | state | [232](../../magpie/internal/sessions/sessions.go#L232) |
+| CodexIdentity | field_declaration | state | [233](../../magpie/internal/sessions/sessions.go#L233) |
+| Cwd | field_declaration | state | [234](../../magpie/internal/sessions/sessions.go#L234) |
+| Title | field_declaration | state | [235](../../magpie/internal/sessions/sessions.go#L235) |
+| Start | field_declaration | state | [236](../../magpie/internal/sessions/sessions.go#L236) |
+| Last | field_declaration | state | [237](../../magpie/internal/sessions/sessions.go#L237) |
+| Models | field_declaration | state | [238](../../magpie/internal/sessions/sessions.go#L238) |
+| Days | field_declaration | state | [241](../../magpie/internal/sessions/sessions.go#L241) |
+| Entry | field_declaration | state | [244](../../magpie/internal/sessions/sessions.go#L244) |
+| Msg | field_declaration | state | [247](../../magpie/internal/sessions/sessions.go#L247) |
+| MsgModel | field_declaration | state | [248](../../magpie/internal/sessions/sessions.go#L248) |
+| MsgUse | field_declaration | state | [249](../../magpie/internal/sessions/sessions.go#L249) |
+| MsgDay | field_declaration | state | [250](../../magpie/internal/sessions/sessions.go#L250) |
+| Model | field_declaration | state | [252](../../magpie/internal/sessions/sessions.go#L252) |
+| Total | field_declaration | state | [253](../../magpie/internal/sessions/sessions.go#L253) |
+| Provider | field_declaration | state | [255](../../magpie/internal/sessions/sessions.go#L255) |
+| StateMore | type_spec |  | [265](../../magpie/internal/sessions/sessions.go#L265) |
+| DBRevision | field_declaration | StateMore | [266](../../magpie/internal/sessions/sessions.go#L266) |
+| CodexIdentityConflict | field_declaration | StateMore | [267](../../magpie/internal/sessions/sessions.go#L267) |
+| CodexNickname | field_declaration | StateMore | [268](../../magpie/internal/sessions/sessions.go#L268) |
+| CodexSpawnNames | field_declaration | StateMore | [269](../../magpie/internal/sessions/sessions.go#L269) |
+| CodexSpawnConflicts | field_declaration | StateMore | [270](../../magpie/internal/sessions/sessions.go#L270) |
+| CodexAgentIDs | field_declaration | StateMore | [271](../../magpie/internal/sessions/sessions.go#L271) |
+| CodexAgentConflicts | field_declaration | StateMore | [272](../../magpie/internal/sessions/sessions.go#L272) |
+| Named | field_declaration | StateMore | [273](../../magpie/internal/sessions/sessions.go#L273) |

@@ -4,23 +4,23 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/traymenu.go) · page 1/1
 
-Source SHA-256: 16164bb00176124caa36ffae4c047d6851c311dd20823bcb44d72edfb9c81d31
+Source SHA-256: 2aac213c545b515550e24433b59891c1508311a55fb66a71be7481018a1fe8be
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| trayZh | var_spec |  | [12](../../magpie/internal/gui/traymenu.go#L12) |
-| trayZhTW | var_spec |  | [23](../../magpie/internal/gui/traymenu.go#L23) |
-| trayJa | var_spec |  | [34](../../magpie/internal/gui/traymenu.go#L34) |
-| trayDe | var_spec |  | [45](../../magpie/internal/gui/traymenu.go#L45) |
-| trayWords | var_spec |  | [56](../../magpie/internal/gui/traymenu.go#L56) |
-| onLang | var_spec |  | [60](../../magpie/internal/gui/traymenu.go#L60) |
-| trayLang | function_declaration |  | [66](../../magpie/internal/gui/traymenu.go#L66) |
-| zhTraditional | function_declaration |  | [86](../../magpie/internal/gui/traymenu.go#L86) |
-| notesLang | function_declaration |  | [98](../../magpie/internal/gui/traymenu.go#L98) |
-| trayText | function_declaration |  | [109](../../magpie/internal/gui/traymenu.go#L109) |
-| trayLabels | type_spec |  | [120](../../magpie/internal/gui/traymenu.go#L120) |
-| open | field_declaration | trayLabels | [120](../../magpie/internal/gui/traymenu.go#L120) |
-| trayMenuLabels | function_declaration |  | [124](../../magpie/internal/gui/traymenu.go#L124) |
-| trayRestartNow | function_declaration |  | [140](../../magpie/internal/gui/traymenu.go#L140) |
-| envLang | function_declaration |  | [149](../../magpie/internal/gui/traymenu.go#L149) |
-| firstAppleLang | function_declaration |  | [160](../../magpie/internal/gui/traymenu.go#L160) |
+| trayZh | var_spec |  | [13](../../magpie/internal/gui/traymenu.go#L13) |
+| trayZhTW | var_spec |  | [48](../../magpie/internal/gui/traymenu.go#L48) |
+| trayJa | var_spec |  | [83](../../magpie/internal/gui/traymenu.go#L83) |
+| trayDe | var_spec |  | [118](../../magpie/internal/gui/traymenu.go#L118) |
+| trayWords | var_spec |  | [154](../../magpie/internal/gui/traymenu.go#L154) |
+| onLang | var_spec |  | [158](../../magpie/internal/gui/traymenu.go#L158) |
+| trayLang | function_declaration |  | [164](../../magpie/internal/gui/traymenu.go#L164) |
+| zhTraditional | function_declaration |  | [184](../../magpie/internal/gui/traymenu.go#L184) |
+| notesLang | function_declaration |  | [196](../../magpie/internal/gui/traymenu.go#L196) |
+| trayText | function_declaration |  | [207](../../magpie/internal/gui/traymenu.go#L207) |
+| trayLabels | type_spec |  | [219](../../magpie/internal/gui/traymenu.go#L219) |
+| open | field_declaration | trayLabels | [219](../../magpie/internal/gui/traymenu.go#L219) |
+| trayMenuLabels | function_declaration |  | [223](../../magpie/internal/gui/traymenu.go#L223) |
+| trayRestartNow | function_declaration |  | [243](../../magpie/internal/gui/traymenu.go#L243) |
+| envLang | function_declaration |  | [252](../../magpie/internal/gui/traymenu.go#L252) |
+| firstAppleLang | function_declaration |  | [263](../../magpie/internal/gui/traymenu.go#L263) |

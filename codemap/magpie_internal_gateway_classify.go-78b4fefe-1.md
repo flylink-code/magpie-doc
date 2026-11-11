@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/classify.go) · page 1/1
 
-Source SHA-256: 438e4dc86f13e40b3f012f509ecffd0570132719291c5517c1ecaed510f64121
+Source SHA-256: 20634049f35710bce2a744504248586331f816a6bf780b8966eb51fdbcae1f73
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -21,57 +21,75 @@ Source SHA-256: 438e4dc86f13e40b3f012f509ecffd0570132719291c5517c1ecaed510f64121
 | Reply | field_declaration | before | [66](../../magpie/internal/gateway/classify.go#L66) |
 | verdict | type_spec |  | [70](../../magpie/internal/gateway/classify.go#L70) |
 | Intent | field_declaration | verdict | [71](../../magpie/internal/gateway/classify.go#L71) |
-| Effort | field_declaration | verdict | [72](../../magpie/internal/gateway/classify.go#L72) |
-| Score | field_declaration | verdict | [73](../../magpie/internal/gateway/classify.go#L73) |
-| Sure | field_declaration | verdict | [74](../../magpie/internal/gateway/classify.go#L74) |
-| classified | var_spec |  | [77](../../magpie/internal/gateway/classify.go#L77) |
-| m | field_declaration | classified | [79](../../magpie/internal/gateway/classify.go#L79) |
-| failed | field_declaration | classified | [80](../../magpie/internal/gateway/classify.go#L80) |
-| last | field_declaration | classified | [84](../../magpie/internal/gateway/classify.go#L84) |
-| inflight | field_declaration | classified | [85](../../magpie/internal/gateway/classify.go#L85) |
-| classifyCall | type_spec |  | [93](../../magpie/internal/gateway/classify.go#L93) |
-| done | field_declaration | classifyCall | [94](../../magpie/internal/gateway/classify.go#L94) |
-| v | field_declaration | classifyCall | [95](../../magpie/internal/gateway/classify.go#L95) |
-| err | field_declaration | classifyCall | [96](../../magpie/internal/gateway/classify.go#L96) |
-| classifiedAs | type_spec |  | [99](../../magpie/internal/gateway/classify.go#L99) |
-| v | field_declaration | classifiedAs | [100](../../magpie/internal/gateway/classify.go#L100) |
-| at | field_declaration | classifiedAs | [101](../../magpie/internal/gateway/classify.go#L101) |
-| classifyFailure | type_spec |  | [104](../../magpie/internal/gateway/classify.go#L104) |
-| err | field_declaration | classifyFailure | [105](../../magpie/internal/gateway/classify.go#L105) |
-| at | field_declaration | classifyFailure | [106](../../magpie/internal/gateway/classify.go#L106) |
-| answerError | type_spec |  | [111](../../magpie/internal/gateway/classify.go#L111) |
-| classify | function_declaration |  | [118](../../magpie/internal/gateway/classify.go#L118) |
-| ClassifierFailure | function_declaration |  | [183](../../magpie/internal/gateway/classify.go#L183) |
-| userText | function_declaration |  | [194](../../magpie/internal/gateway/classify.go#L194) |
-| head | const_spec | userText | [196](../../magpie/internal/gateway/classify.go#L196) |
-| lastSaid | function_declaration |  | [202](../../magpie/internal/gateway/classify.go#L202) |
-| cutMiddle | function_declaration |  | [215](../../magpie/internal/gateway/classify.go#L215) |
-| priorCap | const_spec |  | [226](../../magpie/internal/gateway/classify.go#L226) |
-| turnBefore | function_declaration |  | [236](../../magpie/internal/gateway/classify.go#L236) |
-| assistantSaid | function_declaration |  | [255](../../magpie/internal/gateway/classify.go#L255) |
-| said | var_spec | assistantSaid | [256](../../magpie/internal/gateway/classify.go#L256) |
-| classifyPrompt | const_spec |  | [267](../../magpie/internal/gateway/classify.go#L267) |
-| classifyBody | function_declaration |  | [280](../../magpie/internal/gateway/classify.go#L280) |
-| b | var_spec | classifyBody | [281](../../magpie/internal/gateway/classify.go#L281) |
-| writePrior | function_declaration |  | [315](../../magpie/internal/gateway/classify.go#L315) |
-| firstNumber | var_spec |  | [328](../../magpie/internal/gateway/classify.go#L328) |
-| readIntent | function_declaration |  | [332](../../magpie/internal/gateway/classify.go#L332) |
-| classifyEffort | function_declaration |  | [350](../../magpie/internal/gateway/classify.go#L350) |
-| askWaited | function_declaration |  | [369](../../magpie/internal/gateway/classify.go#L369) |
-| askClassifier | method_declaration |  | [376](../../magpie/internal/gateway/classify.go#L376) |
-| v | var_spec | askClassifier | [384](../../magpie/internal/gateway/classify.go#L384) |
-| ierr | var_spec | askClassifier | [385](../../magpie/internal/gateway/classify.go#L385) |
-| wg | var_spec | askClassifier | [386](../../magpie/internal/gateway/classify.go#L386) |
-| a | var_spec | askClassifier | [391](../../magpie/internal/gateway/classify.go#L391) |
-| a | var_spec | askClassifier | [401](../../magpie/internal/gateway/classify.go#L401) |
-| effortPrompt | const_spec |  | [414](../../magpie/internal/gateway/classify.go#L414) |
-| effortBody | function_declaration |  | [420](../../magpie/internal/gateway/classify.go#L420) |
-| b | var_spec | effortBody | [421](../../magpie/internal/gateway/classify.go#L421) |
-| readEffort | function_declaration |  | [457](../../magpie/internal/gateway/classify.go#L457) |
-| askChat | method_declaration |  | [471](../../magpie/internal/gateway/classify.go#L471) |
-| out | var_spec | askChat | [486](../../magpie/internal/gateway/classify.go#L486) |
-| Choices | field_declaration | askChat::out | [487](../../magpie/internal/gateway/classify.go#L487) |
-| Message | field_declaration | askChat::out::Choices | [488](../../magpie/internal/gateway/classify.go#L488) |
-| Content | field_declaration | askChat::out::Choices::Message | [489](../../magpie/internal/gateway/classify.go#L489) |
-| Error | field_declaration | askChat::out | [492](../../magpie/internal/gateway/classify.go#L492) |
-| Message | field_declaration | askChat::out::Error | [493](../../magpie/internal/gateway/classify.go#L493) |
+| Said | field_declaration | verdict | [76](../../magpie/internal/gateway/classify.go#L76) |
+| Topic | field_declaration | verdict | [82](../../magpie/internal/gateway/classify.go#L82) |
+| Effort | field_declaration | verdict | [83](../../magpie/internal/gateway/classify.go#L83) |
+| Score | field_declaration | verdict | [84](../../magpie/internal/gateway/classify.go#L84) |
+| Sure | field_declaration | verdict | [85](../../magpie/internal/gateway/classify.go#L85) |
+| classified | var_spec |  | [88](../../magpie/internal/gateway/classify.go#L88) |
+| m | field_declaration | classified | [90](../../magpie/internal/gateway/classify.go#L90) |
+| failed | field_declaration | classified | [91](../../magpie/internal/gateway/classify.go#L91) |
+| last | field_declaration | classified | [95](../../magpie/internal/gateway/classify.go#L95) |
+| group | field_declaration | classified | [99](../../magpie/internal/gateway/classify.go#L99) |
+| inflight | field_declaration | classified | [100](../../magpie/internal/gateway/classify.go#L100) |
+| groupFailure | type_spec |  | [109](../../magpie/internal/gateway/classify.go#L109) |
+| model | field_declaration | groupFailure | [111](../../magpie/internal/gateway/classify.go#L111) |
+| classifyCall | type_spec |  | [114](../../magpie/internal/gateway/classify.go#L114) |
+| done | field_declaration | classifyCall | [115](../../magpie/internal/gateway/classify.go#L115) |
+| v | field_declaration | classifyCall | [116](../../magpie/internal/gateway/classify.go#L116) |
+| err | field_declaration | classifyCall | [117](../../magpie/internal/gateway/classify.go#L117) |
+| classifiedAs | type_spec |  | [120](../../magpie/internal/gateway/classify.go#L120) |
+| v | field_declaration | classifiedAs | [121](../../magpie/internal/gateway/classify.go#L121) |
+| at | field_declaration | classifiedAs | [122](../../magpie/internal/gateway/classify.go#L122) |
+| classifyFailure | type_spec |  | [125](../../magpie/internal/gateway/classify.go#L125) |
+| err | field_declaration | classifyFailure | [126](../../magpie/internal/gateway/classify.go#L126) |
+| at | field_declaration | classifyFailure | [127](../../magpie/internal/gateway/classify.go#L127) |
+| answerError | type_spec |  | [132](../../magpie/internal/gateway/classify.go#L132) |
+| waitSpent | type_spec |  | [138](../../magpie/internal/gateway/classify.go#L138) |
+| cutShort | function_declaration |  | [142](../../magpie/internal/gateway/classify.go#L142) |
+| classify | function_declaration |  | [152](../../magpie/internal/gateway/classify.go#L152) |
+| classifiedFor | function_declaration |  | [215](../../magpie/internal/gateway/classify.go#L215) |
+| GroupClassifierFailure | function_declaration |  | [237](../../magpie/internal/gateway/classify.go#L237) |
+| ClassifierFailure | function_declaration |  | [253](../../magpie/internal/gateway/classify.go#L253) |
+| userText | function_declaration |  | [264](../../magpie/internal/gateway/classify.go#L264) |
+| head | const_spec | userText | [266](../../magpie/internal/gateway/classify.go#L266) |
+| lastSaid | function_declaration |  | [272](../../magpie/internal/gateway/classify.go#L272) |
+| cutMiddle | function_declaration |  | [285](../../magpie/internal/gateway/classify.go#L285) |
+| priorCap | const_spec |  | [296](../../magpie/internal/gateway/classify.go#L296) |
+| turnBefore | function_declaration |  | [306](../../magpie/internal/gateway/classify.go#L306) |
+| assistantSaid | function_declaration |  | [325](../../magpie/internal/gateway/classify.go#L325) |
+| said | var_spec | assistantSaid | [326](../../magpie/internal/gateway/classify.go#L326) |
+| classifyPrompt | const_spec |  | [337](../../magpie/internal/gateway/classify.go#L337) |
+| classifyBody | function_declaration |  | [350](../../magpie/internal/gateway/classify.go#L350) |
+| b | var_spec | classifyBody | [351](../../magpie/internal/gateway/classify.go#L351) |
+| writePrior | function_declaration |  | [385](../../magpie/internal/gateway/classify.go#L385) |
+| firstNumber | var_spec |  | [398](../../magpie/internal/gateway/classify.go#L398) |
+| readIntent | function_declaration |  | [403](../../magpie/internal/gateway/classify.go#L403) |
+| classifyEffort | function_declaration |  | [432](../../magpie/internal/gateway/classify.go#L432) |
+| classifierEffortField | function_declaration |  | [442](../../magpie/internal/gateway/classify.go#L442) |
+| askLeast | method_declaration |  | [449](../../magpie/internal/gateway/classify.go#L449) |
+| f | var_spec | askLeast | [456](../../magpie/internal/gateway/classify.go#L456) |
+| chatFailed | type_spec |  | [469](../../magpie/internal/gateway/classify.go#L469) |
+| code | field_declaration | chatFailed | [471](../../magpie/internal/gateway/classify.go#L471) |
+| body | field_declaration | chatFailed | [472](../../magpie/internal/gateway/classify.go#L472) |
+| askWaited | method_declaration |  | [484](../../magpie/internal/gateway/classify.go#L484) |
+| mu | var_spec | askWaited | [485](../../magpie/internal/gateway/classify.go#L485) |
+| until | var_spec | askWaited | [486](../../magpie/internal/gateway/classify.go#L486) |
+| askClassifier | method_declaration |  | [507](../../magpie/internal/gateway/classify.go#L507) |
+| askClassifierIn | method_declaration |  | [513](../../magpie/internal/gateway/classify.go#L513) |
+| v | var_spec | askClassifierIn | [521](../../magpie/internal/gateway/classify.go#L521) |
+| ierr | var_spec | askClassifierIn | [522](../../magpie/internal/gateway/classify.go#L522) |
+| wg | var_spec | askClassifierIn | [523](../../magpie/internal/gateway/classify.go#L523) |
+| a | var_spec | askClassifierIn | [528](../../magpie/internal/gateway/classify.go#L528) |
+| a | var_spec | askClassifierIn | [538](../../magpie/internal/gateway/classify.go#L538) |
+| effortPrompt | const_spec |  | [551](../../magpie/internal/gateway/classify.go#L551) |
+| effortBody | function_declaration |  | [557](../../magpie/internal/gateway/classify.go#L557) |
+| b | var_spec | effortBody | [558](../../magpie/internal/gateway/classify.go#L558) |
+| readEffort | function_declaration |  | [594](../../magpie/internal/gateway/classify.go#L594) |
+| askChat | method_declaration |  | [608](../../magpie/internal/gateway/classify.go#L608) |
+| out | var_spec | askChat | [625](../../magpie/internal/gateway/classify.go#L625) |
+| Choices | field_declaration | askChat::out | [626](../../magpie/internal/gateway/classify.go#L626) |
+| Message | field_declaration | askChat::out::Choices | [627](../../magpie/internal/gateway/classify.go#L627) |
+| Content | field_declaration | askChat::out::Choices::Message | [628](../../magpie/internal/gateway/classify.go#L628) |
+| Error | field_declaration | askChat::out | [631](../../magpie/internal/gateway/classify.go#L631) |
+| Message | field_declaration | askChat::out::Error | [632](../../magpie/internal/gateway/classify.go#L632) |

@@ -4,26 +4,63 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_warmup.go) · page 1/1
 
-Source SHA-256: 83af70954e6c11685b0a7c39155aaeea5d052e15de0762f6a4f69fdbb0eb3155
+Source SHA-256: b052dd09e7dda773bfc4bbd7b381fecbaa76ce3db8e56b461c7abe4809073aa8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeProxy | function_declaration |  | [21](../../magpie/internal/gateway/claude_warmup.go#L21) |
-| warmClaude | function_declaration |  | [33](../../magpie/internal/gateway/claude_warmup.go#L33) |
-| askClaude | function_declaration |  | [40](../../magpie/internal/gateway/claude_warmup.go#L40) |
-| out | var_spec | askClaude | [58](../../magpie/internal/gateway/claude_warmup.go#L58) |
-| init | function_declaration |  | [77](../../magpie/internal/gateway/claude_warmup.go#L77) |
-| claudeUsage | function_declaration |  | [85](../../magpie/internal/gateway/claude_warmup.go#L85) |
-| out | var_spec | claudeUsage | [113](../../magpie/internal/gateway/claude_warmup.go#L113) |
-| full | var_spec | claudeUsage | [116](../../magpie/internal/gateway/claude_warmup.go#L116) |
-| runClaudeTree | function_declaration |  | [143](../../magpie/internal/gateway/claude_warmup.go#L143) |
-| claudeRun | type_spec |  | [158](../../magpie/internal/gateway/claude_warmup.go#L158) |
-| Type | field_declaration | claudeRun | [159](../../magpie/internal/gateway/claude_warmup.go#L159) |
-| IsError | field_declaration | claudeRun | [160](../../magpie/internal/gateway/claude_warmup.go#L160) |
-| Result | field_declaration | claudeRun | [161](../../magpie/internal/gateway/claude_warmup.go#L161) |
-| claudeResult | function_declaration |  | [168](../../magpie/internal/gateway/claude_warmup.go#L168) |
-| res | var_spec | claudeResult | [169](../../magpie/internal/gateway/claude_warmup.go#L169) |
-| all | var_spec | claudeResult | [173](../../magpie/internal/gateway/claude_warmup.go#L173) |
-| claudeUsageArgs | function_declaration |  | [185](../../magpie/internal/gateway/claude_warmup.go#L185) |
-| claudeWarmArgs | function_declaration |  | [190](../../magpie/internal/gateway/claude_warmup.go#L190) |
-| clip | function_declaration |  | [195](../../magpie/internal/gateway/claude_warmup.go#L195) |
+| claudeProxy | function_declaration |  | [32](../../magpie/internal/gateway/claude_warmup.go#L32) |
+| warmClaude | function_declaration |  | [44](../../magpie/internal/gateway/claude_warmup.go#L44) |
+| askClaude | function_declaration |  | [51](../../magpie/internal/gateway/claude_warmup.go#L51) |
+| out | var_spec | askClaude | [72](../../magpie/internal/gateway/claude_warmup.go#L72) |
+| askClaudeTUI | function_declaration |  | [95](../../magpie/internal/gateway/claude_warmup.go#L95) |
+| stderr | var_spec | askClaudeTUI | [127](../../magpie/internal/gateway/claude_warmup.go#L127) |
+| resultLines | type_spec |  | [144](../../magpie/internal/gateway/claude_warmup.go#L144) |
+| buf | field_declaration | resultLines | [145](../../magpie/internal/gateway/claude_warmup.go#L145) |
+| res | field_declaration | resultLines | [146](../../magpie/internal/gateway/claude_warmup.go#L146) |
+| done | field_declaration | resultLines | [147](../../magpie/internal/gateway/claude_warmup.go#L147) |
+| sid | field_declaration | resultLines | [149](../../magpie/internal/gateway/claude_warmup.go#L149) |
+| Write | method_declaration |  | [152](../../magpie/internal/gateway/claude_warmup.go#L152) |
+| r | var_spec | Write | [162](../../magpie/internal/gateway/claude_warmup.go#L162) |
+| init | function_declaration |  | [177](../../magpie/internal/gateway/claude_warmup.go#L177) |
+| claudeUsage | function_declaration |  | [198](../../magpie/internal/gateway/claude_warmup.go#L198) |
+| out | var_spec | claudeUsage | [216](../../magpie/internal/gateway/claude_warmup.go#L216) |
+| full | var_spec | claudeUsage | [219](../../magpie/internal/gateway/claude_warmup.go#L219) |
+| claudeExtraUsage | function_declaration |  | [243](../../magpie/internal/gateway/claude_warmup.go#L243) |
+| all | var_spec | claudeExtraUsage | [244](../../magpie/internal/gateway/claude_warmup.go#L244) |
+| Report | field_declaration | claudeExtraUsage::all | [245](../../magpie/internal/gateway/claude_warmup.go#L245) |
+| Limits | field_declaration | claudeExtraUsage::all::Report | [246](../../magpie/internal/gateway/claude_warmup.go#L246) |
+| Extra | field_declaration | claudeExtraUsage::all::Report::Limits | [247](../../magpie/internal/gateway/claude_warmup.go#L247) |
+| On | field_declaration | claudeExtraUsage::all::Report::Limits::Extra | [248](../../magpie/internal/gateway/claude_warmup.go#L248) |
+| Limit | field_declaration | claudeExtraUsage::all::Report::Limits::Extra | [249](../../magpie/internal/gateway/claude_warmup.go#L249) |
+| Used | field_declaration | claudeExtraUsage::all::Report::Limits::Extra | [250](../../magpie/internal/gateway/claude_warmup.go#L250) |
+| Currency | field_declaration | claudeExtraUsage::all::Report::Limits::Extra | [251](../../magpie/internal/gateway/claude_warmup.go#L251) |
+| claudeUsageEnv | function_declaration |  | [280](../../magpie/internal/gateway/claude_warmup.go#L280) |
+| oneOffDir | function_declaration |  | [298](../../magpie/internal/gateway/claude_warmup.go#L298) |
+| trustWork | function_declaration |  | [316](../../magpie/internal/gateway/claude_warmup.go#L316) |
+| trustGOOS | var_spec |  | [329](../../magpie/internal/gateway/claude_warmup.go#L329) |
+| claudeTrustKeys | function_declaration |  | [337](../../magpie/internal/gateway/claude_warmup.go#L337) |
+| keys | var_spec | claudeTrustKeys | [341](../../magpie/internal/gateway/claude_warmup.go#L341) |
+| claudeTrustKey | function_declaration |  | [352](../../magpie/internal/gateway/claude_warmup.go#L352) |
+| dropOneOff | function_declaration |  | [363](../../magpie/internal/gateway/claude_warmup.go#L363) |
+| oneOffMargin | const_spec |  | [373](../../magpie/internal/gateway/claude_warmup.go#L373) |
+| helperDeadline | function_declaration |  | [377](../../magpie/internal/gateway/claude_warmup.go#L377) |
+| oneOffErr | function_declaration |  | [389](../../magpie/internal/gateway/claude_warmup.go#L389) |
+| logOneOff | function_declaration |  | [408](../../magpie/internal/gateway/claude_warmup.go#L408) |
+| homePath | var_spec |  | [425](../../magpie/internal/gateway/claude_warmup.go#L425) |
+| logSafe | function_declaration |  | [430](../../magpie/internal/gateway/claude_warmup.go#L430) |
+| head | const_spec | logSafe | [439](../../magpie/internal/gateway/claude_warmup.go#L439) |
+| runClaudeTree | function_declaration |  | [457](../../magpie/internal/gateway/claude_warmup.go#L457) |
+| claudeRun | type_spec |  | [472](../../magpie/internal/gateway/claude_warmup.go#L472) |
+| Type | field_declaration | claudeRun | [473](../../magpie/internal/gateway/claude_warmup.go#L473) |
+| IsError | field_declaration | claudeRun | [474](../../magpie/internal/gateway/claude_warmup.go#L474) |
+| Result | field_declaration | claudeRun | [475](../../magpie/internal/gateway/claude_warmup.go#L475) |
+| SessionID | field_declaration | claudeRun | [477](../../magpie/internal/gateway/claude_warmup.go#L477) |
+| claudeResult | function_declaration |  | [484](../../magpie/internal/gateway/claude_warmup.go#L484) |
+| res | var_spec | claudeResult | [485](../../magpie/internal/gateway/claude_warmup.go#L485) |
+| all | var_spec | claudeResult | [489](../../magpie/internal/gateway/claude_warmup.go#L489) |
+| disableDeepLinkSettings | const_spec |  | [507](../../magpie/internal/gateway/claude_warmup.go#L507) |
+| claudeUsageArgs | function_declaration |  | [509](../../magpie/internal/gateway/claude_warmup.go#L509) |
+| claudeWarmArgs | function_declaration |  | [517](../../magpie/internal/gateway/claude_warmup.go#L517) |
+| claudeTUIWarmArgs | function_declaration |  | [524](../../magpie/internal/gateway/claude_warmup.go#L524) |
+| clip | function_declaration |  | [529](../../magpie/internal/gateway/claude_warmup.go#L529) |
+| claudeBypassEnv | function_declaration |  | [541](../../magpie/internal/gateway/claude_warmup.go#L541) |

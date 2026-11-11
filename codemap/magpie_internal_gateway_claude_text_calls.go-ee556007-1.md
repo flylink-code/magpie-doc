@@ -4,18 +4,19 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_text_calls.go) · page 1/1
 
-Source SHA-256: d4c39db985eeb9c7e7a9ed116f5d6dd23a0deef1b1ce0f2a5a588f1987dbcfc7
+Source SHA-256: 09f38deccc40829c15861565b084fd94d424fa1e3424303806126290d7be4541
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | textCallOpen | const_spec |  | [11](../../magpie/internal/gateway/claude_text_calls.go#L11) |
-| textCallsAsk | const_spec |  | [15](../../magpie/internal/gateway/claude_text_calls.go#L15) |
-| pastCallsNote | const_spec |  | [20](../../magpie/internal/gateway/claude_text_calls.go#L20) |
-| textCalls | type_spec |  | [27](../../magpie/internal/gateway/claude_text_calls.go#L27) |
-| mid | field_declaration | textCalls | [28](../../magpie/internal/gateway/claude_text_calls.go#L28) |
-| line | field_declaration | textCalls | [29](../../magpie/internal/gateway/claude_text_calls.go#L29) |
-| seen | field_declaration | textCalls | [30](../../magpie/internal/gateway/claude_text_calls.go#L30) |
-| held | field_declaration | textCalls | [31](../../magpie/internal/gateway/claude_text_calls.go#L31) |
-| push | method_declaration |  | [36](../../magpie/internal/gateway/claude_text_calls.go#L36) |
-| out | var_spec | push | [41](../../magpie/internal/gateway/claude_text_calls.go#L41) |
-| end | method_declaration |  | [69](../../magpie/internal/gateway/claude_text_calls.go#L69) |
+| textCallOpens | var_spec |  | [19](../../magpie/internal/gateway/claude_text_calls.go#L19) |
+| textCallsAsk | const_spec |  | [23](../../magpie/internal/gateway/claude_text_calls.go#L23) |
+| pastCallsNote | const_spec |  | [28](../../magpie/internal/gateway/claude_text_calls.go#L28) |
+| textCalls | type_spec |  | [35](../../magpie/internal/gateway/claude_text_calls.go#L35) |
+| mid | field_declaration | textCalls | [36](../../magpie/internal/gateway/claude_text_calls.go#L36) |
+| line | field_declaration | textCalls | [37](../../magpie/internal/gateway/claude_text_calls.go#L37) |
+| seen | field_declaration | textCalls | [38](../../magpie/internal/gateway/claude_text_calls.go#L38) |
+| held | field_declaration | textCalls | [39](../../magpie/internal/gateway/claude_text_calls.go#L39) |
+| push | method_declaration |  | [44](../../magpie/internal/gateway/claude_text_calls.go#L44) |
+| out | var_spec | push | [49](../../magpie/internal/gateway/claude_text_calls.go#L49) |
+| end | method_declaration |  | [82](../../magpie/internal/gateway/claude_text_calls.go#L82) |

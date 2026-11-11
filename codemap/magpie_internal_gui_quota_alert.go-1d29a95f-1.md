@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/quota_alert.go) · page 1/1
 
-Source SHA-256: 51f9334284702876cbbf081aa970701ca5346a0ccb8fbc42b94ff016f1e581d8
+Source SHA-256: 1fea3ba5126d8e0ef893ddd73d9e8eeffdc371034456b8b2b6e26125a47550a5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,14 +4,17 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/key_limit.go) · page 1/1
 
-Source SHA-256: b7023a2be3def3cfde6b4d4ac1b08d619ee03d3486e84d4eb3ec56022bc9b7df
+Source SHA-256: 136b72d64b16edca55baccd1df80e4e0ad8e62257ac7f5aebb87ab9e9158bd1f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | limitClock | var_spec |  | [23](../../magpie/internal/gateway/key_limit.go#L23) |
 | remoteKeyLimitHeader | const_spec |  | [28](../../magpie/internal/gateway/key_limit.go#L28) |
-| keyLimited | function_declaration |  | [36](../../magpie/internal/gateway/key_limit.go#L36) |
-| refused | var_spec | keyLimited | [60](../../magpie/internal/gateway/key_limit.go#L60) |
-| reserveFor | function_declaration |  | [83](../../magpie/internal/gateway/key_limit.go#L83) |
-| protoOfPath | function_declaration |  | [99](../../magpie/internal/gateway/key_limit.go#L99) |
-| keyLimit | method_declaration |  | [116](../../magpie/internal/gateway/key_limit.go#L116) |
+| keyLimited | function_declaration |  | [42](../../magpie/internal/gateway/key_limit.go#L42) |
+| most | var_spec | keyLimited | [66](../../magpie/internal/gateway/key_limit.go#L66) |
+| refused | var_spec | keyLimited | [87](../../magpie/internal/gateway/key_limit.go#L87) |
+| withSpent | function_declaration |  | [112](../../magpie/internal/gateway/key_limit.go#L112) |
+| reserveFor | function_declaration |  | [131](../../magpie/internal/gateway/key_limit.go#L131) |
+| protoOfPath | function_declaration |  | [147](../../magpie/internal/gateway/key_limit.go#L147) |
+| keyLimit | method_declaration |  | [175](../../magpie/internal/gateway/key_limit.go#L175) |
+| heldTo | var_spec | keyLimit | [179](../../magpie/internal/gateway/key_limit.go#L179) |

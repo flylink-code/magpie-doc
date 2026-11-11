@@ -4,31 +4,64 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/imagemcp/imagemcp.go) · page 2/2
 
-Source SHA-256: 713daff3405ab5137206842d2a3b701829544158237b9ec20907ad4f2af1cbf3
+Source SHA-256: e1fb960e6066b6f397802b424a8499b8de94dee41e891e34a92b4da6994cde39
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| extOf | function_declaration |  | [699](../../magpie/internal/imagemcp/imagemcp.go#L699) |
-| filmArgs | type_spec |  | [711](../../magpie/internal/imagemcp/imagemcp.go#L711) |
-| Prompt | field_declaration | filmArgs | [712](../../magpie/internal/imagemcp/imagemcp.go#L712) |
-| Path | field_declaration | filmArgs | [713](../../magpie/internal/imagemcp/imagemcp.go#L713) |
-| Seconds | field_declaration | filmArgs | [714](../../magpie/internal/imagemcp/imagemcp.go#L714) |
-| Size | field_declaration | filmArgs | [715](../../magpie/internal/imagemcp/imagemcp.go#L715) |
-| Image | field_declaration | filmArgs | [716](../../magpie/internal/imagemcp/imagemcp.go#L716) |
-| References | field_declaration | filmArgs | [717](../../magpie/internal/imagemcp/imagemcp.go#L717) |
-| wholeSeconds | function_declaration |  | [721](../../magpie/internal/imagemcp/imagemcp.go#L721) |
-| call | method_declaration |  | [744](../../magpie/internal/imagemcp/imagemcp.go#L744) |
-| gatewaySaid | function_declaration |  | [763](../../magpie/internal/imagemcp/imagemcp.go#L763) |
-| e | var_spec | gatewaySaid | [764](../../magpie/internal/imagemcp/imagemcp.go#L764) |
-| Error | field_declaration | gatewaySaid::e | [765](../../magpie/internal/imagemcp/imagemcp.go#L765) |
-| Message | field_declaration | gatewaySaid::e::Error | [766](../../magpie/internal/imagemcp/imagemcp.go#L766) |
-| film | method_declaration |  | [777](../../magpie/internal/imagemcp/imagemcp.go#L777) |
-| a | var_spec | film | [778](../../magpie/internal/imagemcp/imagemcp.go#L778) |
-| refs | var_spec | film | [805](../../magpie/internal/imagemcp/imagemcp.go#L805) |
-| v | var_spec | film | [823](../../magpie/internal/imagemcp/imagemcp.go#L823) |
-| ID | field_declaration | film::v | [824](../../magpie/internal/imagemcp/imagemcp.go#L824) |
-| Status | field_declaration | film::v | [825](../../magpie/internal/imagemcp/imagemcp.go#L825) |
-| Model | field_declaration | film::v | [826](../../magpie/internal/imagemcp/imagemcp.go#L826) |
-| Seconds | field_declaration | film::v | [827](../../magpie/internal/imagemcp/imagemcp.go#L827) |
-| Error | field_declaration | film::v | [828](../../magpie/internal/imagemcp/imagemcp.go#L828) |
-| Message | field_declaration | film::v::Error | [829](../../magpie/internal/imagemcp/imagemcp.go#L829) |
+| dir | var_spec | project | [602](../../magpie/internal/imagemcp/imagemcp.go#L602) |
+| root | method_declaration |  | [620](../../magpie/internal/imagemcp/imagemcp.go#L620) |
+| r | var_spec | root | [634](../../magpie/internal/imagemcp/imagemcp.go#L634) |
+| Roots | field_declaration | root::r | [635](../../magpie/internal/imagemcp/imagemcp.go#L635) |
+| URI | field_declaration | root::r::Roots | [636](../../magpie/internal/imagemcp/imagemcp.go#L636) |
+| rootOf | function_declaration |  | [654](../../magpie/internal/imagemcp/imagemcp.go#L654) |
+| filePath | function_declaration |  | [668](../../magpie/internal/imagemcp/imagemcp.go#L668) |
+| reference | function_declaration |  | [683](../../magpie/internal/imagemcp/imagemcp.go#L683) |
+| Target | function_declaration |  | [718](../../magpie/internal/imagemcp/imagemcp.go#L718) |
+| unslug | var_spec |  | [722](../../magpie/internal/imagemcp/imagemcp.go#L722) |
+| target | function_declaration |  | [727](../../magpie/internal/imagemcp/imagemcp.go#L727) |
+| imageExt | var_spec |  | [782](../../magpie/internal/imagemcp/imagemcp.go#L782) |
+| videoExt | var_spec |  | [783](../../magpie/internal/imagemcp/imagemcp.go#L783) |
+| folderFor | function_declaration |  | [787](../../magpie/internal/imagemcp/imagemcp.go#L787) |
+| extOf | function_declaration |  | [794](../../magpie/internal/imagemcp/imagemcp.go#L794) |
+| filmArgs | type_spec |  | [809](../../magpie/internal/imagemcp/imagemcp.go#L809) |
+| Prompt | field_declaration | filmArgs | [810](../../magpie/internal/imagemcp/imagemcp.go#L810) |
+| Model | field_declaration | filmArgs | [811](../../magpie/internal/imagemcp/imagemcp.go#L811) |
+| Path | field_declaration | filmArgs | [812](../../magpie/internal/imagemcp/imagemcp.go#L812) |
+| Seconds | field_declaration | filmArgs | [813](../../magpie/internal/imagemcp/imagemcp.go#L813) |
+| Size | field_declaration | filmArgs | [814](../../magpie/internal/imagemcp/imagemcp.go#L814) |
+| Image | field_declaration | filmArgs | [815](../../magpie/internal/imagemcp/imagemcp.go#L815) |
+| References | field_declaration | filmArgs | [816](../../magpie/internal/imagemcp/imagemcp.go#L816) |
+| wholeSeconds | function_declaration |  | [820](../../magpie/internal/imagemcp/imagemcp.go#L820) |
+| call | method_declaration |  | [843](../../magpie/internal/imagemcp/imagemcp.go#L843) |
+| gatewaySaid | function_declaration |  | [860](../../magpie/internal/imagemcp/imagemcp.go#L860) |
+| e | var_spec | gatewaySaid | [861](../../magpie/internal/imagemcp/imagemcp.go#L861) |
+| Error | field_declaration | gatewaySaid::e | [862](../../magpie/internal/imagemcp/imagemcp.go#L862) |
+| Message | field_declaration | gatewaySaid::e::Error | [863](../../magpie/internal/imagemcp/imagemcp.go#L863) |
+| film | method_declaration |  | [875](../../magpie/internal/imagemcp/imagemcp.go#L875) |
+| a | var_spec | film | [876](../../magpie/internal/imagemcp/imagemcp.go#L876) |
+| refs | var_spec | film | [910](../../magpie/internal/imagemcp/imagemcp.go#L910) |
+| v | var_spec | film | [928](../../magpie/internal/imagemcp/imagemcp.go#L928) |
+| ID | field_declaration | film::v | [929](../../magpie/internal/imagemcp/imagemcp.go#L929) |
+| Status | field_declaration | film::v | [930](../../magpie/internal/imagemcp/imagemcp.go#L930) |
+| Model | field_declaration | film::v | [931](../../magpie/internal/imagemcp/imagemcp.go#L931) |
+| Seconds | field_declaration | film::v | [932](../../magpie/internal/imagemcp/imagemcp.go#L932) |
+| Error | field_declaration | film::v | [933](../../magpie/internal/imagemcp/imagemcp.go#L933) |
+| Message | field_declaration | film::v::Error | [934](../../magpie/internal/imagemcp/imagemcp.go#L934) |
+| modelAsk | const_spec |  | [1005](../../magpie/internal/imagemcp/imagemcp.go#L1005) |
+| ask | method_declaration |  | [1009](../../magpie/internal/imagemcp/imagemcp.go#L1009) |
+| m | var_spec | ask | [1029](../../magpie/internal/imagemcp/imagemcp.go#L1029) |
+| Result | field_declaration | ask::m | [1030](../../magpie/internal/imagemcp/imagemcp.go#L1030) |
+| Error | field_declaration | ask::m | [1031](../../magpie/internal/imagemcp/imagemcp.go#L1031) |
+| Code | field_declaration | ask::m::Error | [1032](../../magpie/internal/imagemcp/imagemcp.go#L1032) |
+| Message | field_declaration | ask::m::Error | [1033](../../magpie/internal/imagemcp/imagemcp.go#L1033) |
+| modelProps | method_declaration |  | [1048](../../magpie/internal/imagemcp/imagemcp.go#L1048) |
+| l | var_spec | modelProps | [1057](../../magpie/internal/imagemcp/imagemcp.go#L1057) |
+| Tools | field_declaration | modelProps::l | [1058](../../magpie/internal/imagemcp/imagemcp.go#L1058) |
+| Name | field_declaration | modelProps::l::Tools | [1059](../../magpie/internal/imagemcp/imagemcp.go#L1059) |
+| InputSchema | field_declaration | modelProps::l::Tools | [1060](../../magpie/internal/imagemcp/imagemcp.go#L1060) |
+| Properties | field_declaration | modelProps::l::Tools::InputSchema | [1061](../../magpie/internal/imagemcp/imagemcp.go#L1061) |
+| prop | var_spec | modelProps | [1067](../../magpie/internal/imagemcp/imagemcp.go#L1067) |
+| withModel | function_declaration |  | [1076](../../magpie/internal/imagemcp/imagemcp.go#L1076) |
+| mediaModel | method_declaration |  | [1088](../../magpie/internal/imagemcp/imagemcp.go#L1088) |
+| m | var_spec | mediaModel | [1097](../../magpie/internal/imagemcp/imagemcp.go#L1097) |
+| Model | field_declaration | mediaModel::m | [1098](../../magpie/internal/imagemcp/imagemcp.go#L1098) |

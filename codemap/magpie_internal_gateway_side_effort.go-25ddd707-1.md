@@ -4,16 +4,21 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/side_effort.go) · page 1/1
 
-Source SHA-256: 6c7d41b04a37b05e6a2ca8cb9d783d118c39009d278efcb859875af7d87c0f3c
+Source SHA-256: 5d486454cbd4519ea76f07a6d3fc051b7265eae2b9eacb2471dd229d9fde1cc4
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ModelEfforts | function_declaration |  | [16](../../magpie/internal/gateway/side_effort.go#L16) |
 | sideEffort | function_declaration |  | [27](../../magpie/internal/gateway/side_effort.go#L27) |
 | visionEffort | function_declaration |  | [38](../../magpie/internal/gateway/side_effort.go#L38) |
-| VisionEffortNow | function_declaration |  | [48](../../magpie/internal/gateway/side_effort.go#L48) |
-| VisionEfforts | function_declaration |  | [57](../../magpie/internal/gateway/side_effort.go#L57) |
-| searchEffort | function_declaration |  | [67](../../magpie/internal/gateway/side_effort.go#L67) |
-| SearchEffortNow | function_declaration |  | [76](../../magpie/internal/gateway/side_effort.go#L76) |
-| SearchEfforts | function_declaration |  | [85](../../magpie/internal/gateway/side_effort.go#L85) |
-| replyRoom | function_declaration |  | [96](../../magpie/internal/gateway/side_effort.go#L96) |
+| leastEffort | function_declaration |  | [48](../../magpie/internal/gateway/side_effort.go#L48) |
+| VisionEffortNow | function_declaration |  | [63](../../magpie/internal/gateway/side_effort.go#L63) |
+| VisionEfforts | function_declaration |  | [72](../../magpie/internal/gateway/side_effort.go#L72) |
+| searchEffort | function_declaration |  | [82](../../magpie/internal/gateway/side_effort.go#L82) |
+| SearchEffortNow | function_declaration |  | [91](../../magpie/internal/gateway/side_effort.go#L91) |
+| SearchEfforts | function_declaration |  | [100](../../magpie/internal/gateway/side_effort.go#L100) |
+| replyRoom | function_declaration |  | [111](../../magpie/internal/gateway/side_effort.go#L111) |
+| SideEffort | function_declaration |  | [124](../../magpie/internal/gateway/side_effort.go#L124) |
+| WithSideEffort | function_declaration |  | [133](../../magpie/internal/gateway/side_effort.go#L133) |
+| v | var_spec | WithSideEffort | [138](../../magpie/internal/gateway/side_effort.go#L138) |
+| MaxTokens | field_declaration | WithSideEffort::v | [139](../../magpie/internal/gateway/side_effort.go#L139) |

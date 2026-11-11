@@ -4,64 +4,65 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/ttft.go) · page 1/1
 
-Source SHA-256: 61491cf81626f6346826bb9b694976b76fb364ab48958ab486a1f46e114ecac3
+Source SHA-256: b3f0317677ed3222ce8066aa4fa7fd3b22dc3166df2e9809d3938985b96f44da
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | firstMost | const_spec |  | [20](../../magpie/internal/gateway/ttft.go#L20) |
 | firstToken | type_spec |  | [24](../../magpie/internal/gateway/ttft.go#L24) |
-| start | field_declaration | firstToken | [25](../../magpie/internal/gateway/ttft.go#L25) |
-| first | field_declaration | firstToken | [26](../../magpie/internal/gateway/ttft.go#L26) |
-| text | field_declaration | firstToken | [27](../../magpie/internal/gateway/ttft.go#L27) |
-| reasoning | field_declaration | firstToken | [28](../../magpie/internal/gateway/ttft.go#L28) |
-| hidden | field_declaration | firstToken | [29](../../magpie/internal/gateway/ttft.go#L29) |
-| off | field_declaration | firstToken | [30](../../magpie/internal/gateway/ttft.go#L30) |
-| began | field_declaration | firstToken | [31](../../magpie/internal/gateway/ttft.go#L31) |
-| read | field_declaration | firstToken | [32](../../magpie/internal/gateway/ttft.go#L32) |
-| pend | field_declaration | firstToken | [33](../../magpie/internal/gateway/ttft.go#L33) |
-| flow | field_declaration | firstToken | [36](../../magpie/internal/gateway/ttft.go#L36) |
-| sum | field_declaration | firstToken | [37](../../magpie/internal/gateway/ttft.go#L37) |
-| flowMark | type_spec |  | [41](../../magpie/internal/gateway/ttft.go#L41) |
-| at | field_declaration | flowMark | [42](../../magpie/internal/gateway/ttft.go#L42) |
-| sum | field_declaration | flowMark | [43](../../magpie/internal/gateway/ttft.go#L43) |
-| see | method_declaration |  | [47](../../magpie/internal/gateway/ttft.go#L47) |
-| flowMost | const_spec |  | [108](../../magpie/internal/gateway/ttft.go#L108) |
-| mark | method_declaration |  | [111](../../magpie/internal/gateway/ttft.go#L111) |
-| flowContent | function_declaration |  | [128](../../magpie/internal/gateway/ttft.go#L128) |
-| flowMs | method_declaration |  | [140](../../magpie/internal/gateway/ttft.go#L140) |
-| ms | method_declaration |  | [168](../../magpie/internal/gateway/ttft.go#L168) |
-| firstKind | function_declaration |  | [175](../../magpie/internal/gateway/ttft.go#L175) |
-| timingKind | function_declaration |  | [180](../../magpie/internal/gateway/ttft.go#L180) |
-| name | var_spec | timingKind | [181](../../magpie/internal/gateway/ttft.go#L181) |
-| data | var_spec | timingKind | [182](../../magpie/internal/gateway/ttft.go#L182) |
-| v | var_spec | timingKind | [198](../../magpie/internal/gateway/ttft.go#L198) |
-| Type | field_declaration | timingKind::v | [199](../../magpie/internal/gateway/ttft.go#L199) |
-| Delta | field_declaration | timingKind::v | [200](../../magpie/internal/gateway/ttft.go#L200) |
-| ContentBlock | field_declaration | timingKind::v | [201](../../magpie/internal/gateway/ttft.go#L201) |
-| Type | field_declaration | timingKind::v::ContentBlock | [202](../../magpie/internal/gateway/ttft.go#L202) |
-| Item | field_declaration | timingKind::v | [204](../../magpie/internal/gateway/ttft.go#L204) |
-| Type | field_declaration | timingKind::v::Item | [205](../../magpie/internal/gateway/ttft.go#L205) |
-| EncryptedContent | field_declaration | timingKind::v::Item | [206](../../magpie/internal/gateway/ttft.go#L206) |
-| Choices | field_declaration | timingKind::v | [208](../../magpie/internal/gateway/ttft.go#L208) |
-| Delta | field_declaration | timingKind::v::Choices | [209](../../magpie/internal/gateway/ttft.go#L209) |
-| Content | field_declaration | timingKind::v::Choices::Delta | [210](../../magpie/internal/gateway/ttft.go#L210) |
-| Refusal | field_declaration | timingKind::v::Choices::Delta | [211](../../magpie/internal/gateway/ttft.go#L211) |
-| ReasoningContent | field_declaration | timingKind::v::Choices::Delta | [212](../../magpie/internal/gateway/ttft.go#L212) |
-| Reasoning | field_declaration | timingKind::v::Choices::Delta | [213](../../magpie/internal/gateway/ttft.go#L213) |
-| ToolCalls | field_declaration | timingKind::v::Choices::Delta | [214](../../magpie/internal/gateway/ttft.go#L214) |
-| FunctionCall | field_declaration | timingKind::v::Choices::Delta | [215](../../magpie/internal/gateway/ttft.go#L215) |
-| Candidates | field_declaration | timingKind::v | [218](../../magpie/internal/gateway/ttft.go#L218) |
-| Content | field_declaration | timingKind::v::Candidates | [219](../../magpie/internal/gateway/ttft.go#L219) |
-| Parts | field_declaration | timingKind::v::Candidates::Content | [220](../../magpie/internal/gateway/ttft.go#L220) |
-| Text | field_declaration | timingKind::v::Candidates::Content::Parts | [221](../../magpie/internal/gateway/ttft.go#L221) |
-| Thought | field_declaration | timingKind::v::Candidates::Content::Parts | [222](../../magpie/internal/gateway/ttft.go#L222) |
-| FunctionCall | field_declaration | timingKind::v::Candidates::Content::Parts | [223](../../magpie/internal/gateway/ttft.go#L223) |
-| d | var_spec | timingKind | [243](../../magpie/internal/gateway/ttft.go#L243) |
-| Type | field_declaration | timingKind::d | [244](../../magpie/internal/gateway/ttft.go#L244) |
-| Text | field_declaration | timingKind::d | [245](../../magpie/internal/gateway/ttft.go#L245) |
-| Thinking | field_declaration | timingKind::d | [246](../../magpie/internal/gateway/ttft.go#L246) |
-| PartialJSON | field_declaration | timingKind::d | [247](../../magpie/internal/gateway/ttft.go#L247) |
-| filled | function_declaration |  | [300](../../magpie/internal/gateway/ttft.go#L300) |
-| flowFor | method_declaration |  | [311](../../magpie/internal/gateway/ttft.go#L311) |
-| hidesReasoning | method_declaration |  | [320](../../magpie/internal/gateway/ttft.go#L320) |
-| reasoningMs | method_declaration |  | [326](../../magpie/internal/gateway/ttft.go#L326) |
+| onFirst | field_declaration | firstToken | [25](../../magpie/internal/gateway/ttft.go#L25) |
+| start | field_declaration | firstToken | [26](../../magpie/internal/gateway/ttft.go#L26) |
+| first | field_declaration | firstToken | [27](../../magpie/internal/gateway/ttft.go#L27) |
+| text | field_declaration | firstToken | [28](../../magpie/internal/gateway/ttft.go#L28) |
+| reasoning | field_declaration | firstToken | [29](../../magpie/internal/gateway/ttft.go#L29) |
+| hidden | field_declaration | firstToken | [30](../../magpie/internal/gateway/ttft.go#L30) |
+| off | field_declaration | firstToken | [31](../../magpie/internal/gateway/ttft.go#L31) |
+| began | field_declaration | firstToken | [32](../../magpie/internal/gateway/ttft.go#L32) |
+| read | field_declaration | firstToken | [33](../../magpie/internal/gateway/ttft.go#L33) |
+| pend | field_declaration | firstToken | [34](../../magpie/internal/gateway/ttft.go#L34) |
+| flow | field_declaration | firstToken | [37](../../magpie/internal/gateway/ttft.go#L37) |
+| sum | field_declaration | firstToken | [38](../../magpie/internal/gateway/ttft.go#L38) |
+| flowMark | type_spec |  | [42](../../magpie/internal/gateway/ttft.go#L42) |
+| at | field_declaration | flowMark | [43](../../magpie/internal/gateway/ttft.go#L43) |
+| sum | field_declaration | flowMark | [44](../../magpie/internal/gateway/ttft.go#L44) |
+| see | method_declaration |  | [48](../../magpie/internal/gateway/ttft.go#L48) |
+| flowMost | const_spec |  | [112](../../magpie/internal/gateway/ttft.go#L112) |
+| mark | method_declaration |  | [115](../../magpie/internal/gateway/ttft.go#L115) |
+| flowContent | function_declaration |  | [132](../../magpie/internal/gateway/ttft.go#L132) |
+| flowMs | method_declaration |  | [144](../../magpie/internal/gateway/ttft.go#L144) |
+| ms | method_declaration |  | [172](../../magpie/internal/gateway/ttft.go#L172) |
+| firstKind | function_declaration |  | [179](../../magpie/internal/gateway/ttft.go#L179) |
+| timingKind | function_declaration |  | [184](../../magpie/internal/gateway/ttft.go#L184) |
+| name | var_spec | timingKind | [185](../../magpie/internal/gateway/ttft.go#L185) |
+| data | var_spec | timingKind | [186](../../magpie/internal/gateway/ttft.go#L186) |
+| v | var_spec | timingKind | [202](../../magpie/internal/gateway/ttft.go#L202) |
+| Type | field_declaration | timingKind::v | [203](../../magpie/internal/gateway/ttft.go#L203) |
+| Delta | field_declaration | timingKind::v | [204](../../magpie/internal/gateway/ttft.go#L204) |
+| ContentBlock | field_declaration | timingKind::v | [205](../../magpie/internal/gateway/ttft.go#L205) |
+| Type | field_declaration | timingKind::v::ContentBlock | [206](../../magpie/internal/gateway/ttft.go#L206) |
+| Item | field_declaration | timingKind::v | [208](../../magpie/internal/gateway/ttft.go#L208) |
+| Type | field_declaration | timingKind::v::Item | [209](../../magpie/internal/gateway/ttft.go#L209) |
+| EncryptedContent | field_declaration | timingKind::v::Item | [210](../../magpie/internal/gateway/ttft.go#L210) |
+| Choices | field_declaration | timingKind::v | [212](../../magpie/internal/gateway/ttft.go#L212) |
+| Delta | field_declaration | timingKind::v::Choices | [213](../../magpie/internal/gateway/ttft.go#L213) |
+| Content | field_declaration | timingKind::v::Choices::Delta | [214](../../magpie/internal/gateway/ttft.go#L214) |
+| Refusal | field_declaration | timingKind::v::Choices::Delta | [215](../../magpie/internal/gateway/ttft.go#L215) |
+| ReasoningContent | field_declaration | timingKind::v::Choices::Delta | [216](../../magpie/internal/gateway/ttft.go#L216) |
+| Reasoning | field_declaration | timingKind::v::Choices::Delta | [217](../../magpie/internal/gateway/ttft.go#L217) |
+| ToolCalls | field_declaration | timingKind::v::Choices::Delta | [218](../../magpie/internal/gateway/ttft.go#L218) |
+| FunctionCall | field_declaration | timingKind::v::Choices::Delta | [219](../../magpie/internal/gateway/ttft.go#L219) |
+| Candidates | field_declaration | timingKind::v | [222](../../magpie/internal/gateway/ttft.go#L222) |
+| Content | field_declaration | timingKind::v::Candidates | [223](../../magpie/internal/gateway/ttft.go#L223) |
+| Parts | field_declaration | timingKind::v::Candidates::Content | [224](../../magpie/internal/gateway/ttft.go#L224) |
+| Text | field_declaration | timingKind::v::Candidates::Content::Parts | [225](../../magpie/internal/gateway/ttft.go#L225) |
+| Thought | field_declaration | timingKind::v::Candidates::Content::Parts | [226](../../magpie/internal/gateway/ttft.go#L226) |
+| FunctionCall | field_declaration | timingKind::v::Candidates::Content::Parts | [227](../../magpie/internal/gateway/ttft.go#L227) |
+| d | var_spec | timingKind | [247](../../magpie/internal/gateway/ttft.go#L247) |
+| Type | field_declaration | timingKind::d | [248](../../magpie/internal/gateway/ttft.go#L248) |
+| Text | field_declaration | timingKind::d | [249](../../magpie/internal/gateway/ttft.go#L249) |
+| Thinking | field_declaration | timingKind::d | [250](../../magpie/internal/gateway/ttft.go#L250) |
+| PartialJSON | field_declaration | timingKind::d | [251](../../magpie/internal/gateway/ttft.go#L251) |
+| filled | function_declaration |  | [304](../../magpie/internal/gateway/ttft.go#L304) |
+| flowFor | method_declaration |  | [315](../../magpie/internal/gateway/ttft.go#L315) |
+| hidesReasoning | method_declaration |  | [330](../../magpie/internal/gateway/ttft.go#L330) |
+| reasoningMs | method_declaration |  | [336](../../magpie/internal/gateway/ttft.go#L336) |

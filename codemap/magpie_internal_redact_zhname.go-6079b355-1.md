@@ -4,33 +4,46 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/zhname.go) · page 1/1
 
-Source SHA-256: 5eec597962b2fdb89dd3c7230e2455c6a2731c88c3ed4f567027f07fa7498e6b
+Source SHA-256: 6ce42c5b9c0786eceb947715da37204683009667805e2439c000211fa4bdfc66
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zhSurnames | const_spec |  | [19](../../magpie/internal/redact/zhname.go#L19) |
-| zhCompound | var_spec |  | [22](../../magpie/internal/redact/zhname.go#L22) |
-| zhNickSurnames | const_spec |  | [25](../../magpie/internal/redact/zhname.go#L25) |
-| zhNotGiven | const_spec |  | [29](../../magpie/internal/redact/zhname.go#L29) |
-| zhWords | var_spec |  | [32](../../magpie/internal/redact/zhname.go#L32) |
-| zhRoles | var_spec |  | [36](../../magpie/internal/redact/zhname.go#L36) |
-| zhBefore | var_spec |  | [40](../../magpie/internal/redact/zhname.go#L40) |
-| zhAfter | var_spec |  | [43](../../magpie/internal/redact/zhname.go#L43) |
-| zhTitles | var_spec |  | [46](../../magpie/internal/redact/zhname.go#L46) |
-| isSurname | var_spec |  | [51](../../magpie/internal/redact/zhname.go#L51) |
-| mayStart | var_spec |  | [52](../../magpie/internal/redact/zhname.go#L52) |
-| runes | function_declaration |  | [55](../../magpie/internal/redact/zhname.go#L55) |
-| zhFirsts | function_declaration |  | [63](../../magpie/internal/redact/zhname.go#L63) |
-| b | var_spec | zhFirsts | [64](../../magpie/internal/redact/zhname.go#L64) |
-| zhNameSpans | function_declaration |  | [74](../../magpie/internal/redact/zhname.go#L74) |
-| cs | var_spec | zhNameSpans | [78](../../magpie/internal/redact/zhname.go#L78) |
-| out | var_spec | zhNameSpans | [113](../../magpie/internal/redact/zhname.go#L113) |
-| joined | function_declaration |  | [124](../../magpie/internal/redact/zhname.go#L124) |
-| zhName | function_declaration |  | [136](../../magpie/internal/redact/zhname.go#L136) |
-| zhTotal | function_declaration |  | [218](../../magpie/internal/redact/zhname.go#L218) |
-| endsAny | function_declaration |  | [225](../../magpie/internal/redact/zhname.go#L225) |
-| startsAny | function_declaration |  | [243](../../magpie/internal/redact/zhname.go#L243) |
-| endsWord | function_declaration |  | [254](../../magpie/internal/redact/zhname.go#L254) |
-| sentenceStart | function_declaration |  | [261](../../magpie/internal/redact/zhname.go#L261) |
-| zhTrim | function_declaration |  | [273](../../magpie/internal/redact/zhname.go#L273) |
-| hasHan | function_declaration |  | [295](../../magpie/internal/redact/zhname.go#L295) |
+| zhSurnames | const_spec |  | [20](../../magpie/internal/redact/zhname.go#L20) |
+| zhCompound | var_spec |  | [23](../../magpie/internal/redact/zhname.go#L23) |
+| zhNickSurnames | const_spec |  | [26](../../magpie/internal/redact/zhname.go#L26) |
+| zhNotGiven | const_spec |  | [30](../../magpie/internal/redact/zhname.go#L30) |
+| zhWords | var_spec |  | [40](../../magpie/internal/redact/zhname.go#L40) |
+| zhDictText | var_spec |  | [70](../../magpie/internal/redact/zhname.go#L70) |
+| zhDict | var_spec |  | [72](../../magpie/internal/redact/zhname.go#L72) |
+| zhColours | const_spec |  | [88](../../magpie/internal/redact/zhname.go#L88) |
+| zhNounEnds | const_spec |  | [93](../../magpie/internal/redact/zhname.go#L93) |
+| zhWordShaped | function_declaration |  | [100](../../magpie/internal/redact/zhname.go#L100) |
+| zhWordNotName | function_declaration |  | [129](../../magpie/internal/redact/zhname.go#L129) |
+| zhRoles | var_spec |  | [135](../../magpie/internal/redact/zhname.go#L135) |
+| zhBefore | var_spec |  | [139](../../magpie/internal/redact/zhname.go#L139) |
+| zhAfter | var_spec |  | [142](../../magpie/internal/redact/zhname.go#L142) |
+| zhAnyAfter | var_spec |  | [148](../../magpie/internal/redact/zhname.go#L148) |
+| zhAskVerbs | var_spec |  | [153](../../magpie/internal/redact/zhname.go#L153) |
+| zhTitles | var_spec |  | [156](../../magpie/internal/redact/zhname.go#L156) |
+| isSurname | var_spec |  | [161](../../magpie/internal/redact/zhname.go#L161) |
+| mayStart | var_spec |  | [162](../../magpie/internal/redact/zhname.go#L162) |
+| runes2 | function_declaration |  | [166](../../magpie/internal/redact/zhname.go#L166) |
+| zhWord | function_declaration |  | [175](../../magpie/internal/redact/zhname.go#L175) |
+| runes | function_declaration |  | [181](../../magpie/internal/redact/zhname.go#L181) |
+| zhFirsts | function_declaration |  | [189](../../magpie/internal/redact/zhname.go#L189) |
+| b | var_spec | zhFirsts | [190](../../magpie/internal/redact/zhname.go#L190) |
+| zhNameSpans | function_declaration |  | [202](../../magpie/internal/redact/zhname.go#L202) |
+| cs | var_spec | zhNameSpans | [206](../../magpie/internal/redact/zhname.go#L206) |
+| out | var_spec | zhNameSpans | [244](../../magpie/internal/redact/zhname.go#L244) |
+| zhNick | function_declaration |  | [254](../../magpie/internal/redact/zhname.go#L254) |
+| joined | function_declaration |  | [262](../../magpie/internal/redact/zhname.go#L262) |
+| zhName | function_declaration |  | [274](../../magpie/internal/redact/zhname.go#L274) |
+| zhTotal | function_declaration |  | [366](../../magpie/internal/redact/zhname.go#L366) |
+| endsAny | function_declaration |  | [373](../../magpie/internal/redact/zhname.go#L373) |
+| startsAny | function_declaration |  | [391](../../magpie/internal/redact/zhname.go#L391) |
+| endsWord | function_declaration |  | [402](../../magpie/internal/redact/zhname.go#L402) |
+| sentenceStart | function_declaration |  | [410](../../magpie/internal/redact/zhname.go#L410) |
+| wordAfter | function_declaration |  | [422](../../magpie/internal/redact/zhname.go#L422) |
+| personBefore | function_declaration |  | [439](../../magpie/internal/redact/zhname.go#L439) |
+| zhTrim | function_declaration |  | [461](../../magpie/internal/redact/zhname.go#L461) |
+| hasHan | function_declaration |  | [483](../../magpie/internal/redact/zhname.go#L483) |

@@ -4,14 +4,16 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/zcode.go) · page 1/1
 
-Source SHA-256: 64b39110fdeb0312b597b9cf438e6ffd238c86838dd5a62163480193b817259f
+Source SHA-256: 6c520ef495500917390ff1e2930730af6cf5a983f4260339bcc3b5e20d391c0a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ZCodeDir | function_declaration |  | [23](../../magpie/internal/sessions/zcode.go#L23) |
 | zcodeDB | function_declaration |  | [28](../../magpie/internal/sessions/zcode.go#L28) |
 | zcodeFiles | function_declaration |  | [30](../../magpie/internal/sessions/zcode.go#L30) |
-| zcDB | type_spec |  | [39](../../magpie/internal/sessions/zcode.go#L39) |
-| info | method_declaration |  | [41](../../magpie/internal/sessions/zcode.go#L41) |
-| i | var_spec | info | [42](../../magpie/internal/sessions/zcode.go#L42) |
-| source | var_spec | info | [43](../../magpie/internal/sessions/zcode.go#L43) |
+| zcDB | type_spec |  | [42](../../magpie/internal/sessions/zcode.go#L42) |
+| info | method_declaration |  | [44](../../magpie/internal/sessions/zcode.go#L44) |
+| i | var_spec | info | [45](../../magpie/internal/sessions/zcode.go#L45) |
+| source | var_spec | info | [46](../../magpie/internal/sessions/zcode.go#L46) |
+| copied | method_declaration |  | [73](../../magpie/internal/sessions/zcode.go#L73) |
+| n | var_spec | copied | [81](../../magpie/internal/sessions/zcode.go#L81) |

@@ -4,47 +4,100 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/providers.go) · page 3/3
 
-Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
+Source SHA-256: 2c0d570a4c5031431eb669c4f426fc0e57d40789d022b08ce03b4dd4ad8976c8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Error | field_declaration | Usage | [1052](../../magpie/internal/plugin/providers.go#L1052) |
-| User | field_declaration | Usage | [1053](../../magpie/internal/plugin/providers.go#L1053) |
-| SignIn | field_declaration | Usage | [1054](../../magpie/internal/plugin/providers.go#L1054) |
-| Windows | field_declaration | Usage | [1055](../../magpie/internal/plugin/providers.go#L1055) |
-| Resets | field_declaration | Usage | [1056](../../magpie/internal/plugin/providers.go#L1056) |
-| UsageResets | type_spec |  | [1060](../../magpie/internal/plugin/providers.go#L1060) |
-| Count | field_declaration | UsageResets | [1061](../../magpie/internal/plugin/providers.go#L1061) |
-| Until | field_declaration | UsageResets | [1062](../../magpie/internal/plugin/providers.go#L1062) |
-| ByWindow | field_declaration | UsageResets | [1063](../../magpie/internal/plugin/providers.go#L1063) |
-| FiveHour | field_declaration | UsageResets | [1064](../../magpie/internal/plugin/providers.go#L1064) |
-| Weekly | field_declaration | UsageResets | [1065](../../magpie/internal/plugin/providers.go#L1065) |
-| Team | field_declaration | UsageResets | [1066](../../magpie/internal/plugin/providers.go#L1066) |
-| Each | field_declaration | UsageResets | [1067](../../magpie/internal/plugin/providers.go#L1067) |
-| Until | field_declaration | UsageResets::Each | [1068](../../magpie/internal/plugin/providers.go#L1068) |
-| Window | field_declaration | UsageResets::Each | [1069](../../magpie/internal/plugin/providers.go#L1069) |
-| UsageWindow | type_spec |  | [1073](../../magpie/internal/plugin/providers.go#L1073) |
-| Name | field_declaration | UsageWindow | [1074](../../magpie/internal/plugin/providers.go#L1074) |
-| Used | field_declaration | UsageWindow | [1075](../../magpie/internal/plugin/providers.go#L1075) |
-| ResetsAt | field_declaration | UsageWindow | [1076](../../magpie/internal/plugin/providers.go#L1076) |
-| ResetSecs | field_declaration | UsageWindow | [1077](../../magpie/internal/plugin/providers.go#L1077) |
-| Display | field_declaration | UsageWindow | [1078](../../magpie/internal/plugin/providers.go#L1078) |
-| Amount | field_declaration | UsageWindow | [1079](../../magpie/internal/plugin/providers.go#L1079) |
-| Limit | field_declaration | UsageWindow | [1080](../../magpie/internal/plugin/providers.go#L1080) |
-| Unit | field_declaration | UsageWindow | [1081](../../magpie/internal/plugin/providers.go#L1081) |
-| Span | field_declaration | UsageWindow | [1082](../../magpie/internal/plugin/providers.go#L1082) |
-| Model | field_declaration | UsageWindow | [1083](../../magpie/internal/plugin/providers.go#L1083) |
-| Models | field_declaration | UsageWindow | [1084](../../magpie/internal/plugin/providers.go#L1084) |
-| NotModels | field_declaration | UsageWindow | [1085](../../magpie/internal/plugin/providers.go#L1085) |
-| Aside | field_declaration | UsageWindow | [1086](../../magpie/internal/plugin/providers.go#L1086) |
-| RunsOutAt | field_declaration | UsageWindow | [1090](../../magpie/internal/plugin/providers.go#L1090) |
-| RunsOut | field_declaration | UsageWindow | [1091](../../magpie/internal/plugin/providers.go#L1091) |
-| Checkin | type_spec |  | [1097](../../magpie/internal/plugin/providers.go#L1097) |
-| Outcome | field_declaration | Checkin | [1098](../../magpie/internal/plugin/providers.go#L1098) |
-| Credit | field_declaration | Checkin | [1099](../../magpie/internal/plugin/providers.go#L1099) |
-| Streak | field_declaration | Checkin | [1100](../../magpie/internal/plugin/providers.go#L1100) |
-| Message | field_declaration | Checkin | [1101](../../magpie/internal/plugin/providers.go#L1101) |
-| AccountCheckin | function_declaration |  | [1106](../../magpie/internal/plugin/providers.go#L1106) |
-| c | var_spec | AccountCheckin | [1107](../../magpie/internal/plugin/providers.go#L1107) |
-| AccountUsage | function_declaration |  | [1113](../../magpie/internal/plugin/providers.go#L1113) |
-| u | var_spec | AccountUsage | [1114](../../magpie/internal/plugin/providers.go#L1114) |
+| APIKey | function_declaration |  | [1055](../../magpie/internal/plugin/providers.go#L1055) |
+| r | var_spec | APIKey | [1056](../../magpie/internal/plugin/providers.go#L1056) |
+| OK | field_declaration | APIKey::r | [1057](../../magpie/internal/plugin/providers.go#L1057) |
+| Error | field_declaration | APIKey::r | [1058](../../magpie/internal/plugin/providers.go#L1058) |
+| SignOut | function_declaration |  | [1072](../../magpie/internal/plugin/providers.go#L1072) |
+| m | var_spec | SignOut | [1078](../../magpie/internal/plugin/providers.go#L1078) |
+| Options | type_spec |  | [1107](../../magpie/internal/plugin/providers.go#L1107) |
+| BaseURL | field_declaration | Options | [1108](../../magpie/internal/plugin/providers.go#L1108) |
+| APIKey | field_declaration | Options | [1109](../../magpie/internal/plugin/providers.go#L1109) |
+| Headers | field_declaration | Options | [1110](../../magpie/internal/plugin/providers.go#L1110) |
+| Fetch | field_declaration | Options | [1111](../../magpie/internal/plugin/providers.go#L1111) |
+| optMu | var_spec |  | [1115](../../magpie/internal/plugin/providers.go#L1115) |
+| optCache | var_spec |  | [1116](../../magpie/internal/plugin/providers.go#L1116) |
+| optGen | var_spec |  | [1117](../../magpie/internal/plugin/providers.go#L1117) |
+| LoaderOptions | function_declaration |  | [1123](../../magpie/internal/plugin/providers.go#L1123) |
+| init | function_declaration |  | [1145](../../magpie/internal/plugin/providers.go#L1145) |
+| Import | function_declaration |  | [1157](../../magpie/internal/plugin/providers.go#L1157) |
+| r | var_spec | Import | [1158](../../magpie/internal/plugin/providers.go#L1158) |
+| Account | field_declaration | Import::r | [1159](../../magpie/internal/plugin/providers.go#L1159) |
+| Checked | type_spec |  | [1170](../../magpie/internal/plugin/providers.go#L1170) |
+| Models | field_declaration | Checked | [1171](../../magpie/internal/plugin/providers.go#L1171) |
+| Usage | field_declaration | Checked | [1172](../../magpie/internal/plugin/providers.go#L1172) |
+| Refused | field_declaration | Checked | [1173](../../magpie/internal/plugin/providers.go#L1173) |
+| Check | function_declaration |  | [1181](../../magpie/internal/plugin/providers.go#L1181) |
+| r | var_spec | Check | [1182](../../magpie/internal/plugin/providers.go#L1182) |
+| Auths | function_declaration |  | [1190](../../magpie/internal/plugin/providers.go#L1190) |
+| a | var_spec | Auths | [1197](../../magpie/internal/plugin/providers.go#L1197) |
+| Take | function_declaration |  | [1207](../../magpie/internal/plugin/providers.go#L1207) |
+| r | var_spec | Take | [1208](../../magpie/internal/plugin/providers.go#L1208) |
+| Auths | field_declaration | Take::r | [1209](../../magpie/internal/plugin/providers.go#L1209) |
+| Restore | function_declaration |  | [1218](../../magpie/internal/plugin/providers.go#L1218) |
+| Usage | type_spec |  | [1224](../../magpie/internal/plugin/providers.go#L1224) |
+| Plan | field_declaration | Usage | [1225](../../magpie/internal/plugin/providers.go#L1225) |
+| Until | field_declaration | Usage | [1226](../../magpie/internal/plugin/providers.go#L1226) |
+| Renew | field_declaration | Usage | [1227](../../magpie/internal/plugin/providers.go#L1227) |
+| Balance | field_declaration | Usage | [1228](../../magpie/internal/plugin/providers.go#L1228) |
+| Error | field_declaration | Usage | [1229](../../magpie/internal/plugin/providers.go#L1229) |
+| User | field_declaration | Usage | [1230](../../magpie/internal/plugin/providers.go#L1230) |
+| SignIn | field_declaration | Usage | [1231](../../magpie/internal/plugin/providers.go#L1231) |
+| Windows | field_declaration | Usage | [1232](../../magpie/internal/plugin/providers.go#L1232) |
+| Resets | field_declaration | Usage | [1233](../../magpie/internal/plugin/providers.go#L1233) |
+| UsageResets | type_spec |  | [1237](../../magpie/internal/plugin/providers.go#L1237) |
+| Count | field_declaration | UsageResets | [1238](../../magpie/internal/plugin/providers.go#L1238) |
+| Until | field_declaration | UsageResets | [1239](../../magpie/internal/plugin/providers.go#L1239) |
+| ByWindow | field_declaration | UsageResets | [1240](../../magpie/internal/plugin/providers.go#L1240) |
+| FiveHour | field_declaration | UsageResets | [1241](../../magpie/internal/plugin/providers.go#L1241) |
+| Weekly | field_declaration | UsageResets | [1242](../../magpie/internal/plugin/providers.go#L1242) |
+| Team | field_declaration | UsageResets | [1243](../../magpie/internal/plugin/providers.go#L1243) |
+| Each | field_declaration | UsageResets | [1244](../../magpie/internal/plugin/providers.go#L1244) |
+| Until | field_declaration | UsageResets::Each | [1245](../../magpie/internal/plugin/providers.go#L1245) |
+| Window | field_declaration | UsageResets::Each | [1246](../../magpie/internal/plugin/providers.go#L1246) |
+| UsageWindow | type_spec |  | [1250](../../magpie/internal/plugin/providers.go#L1250) |
+| Name | field_declaration | UsageWindow | [1251](../../magpie/internal/plugin/providers.go#L1251) |
+| Used | field_declaration | UsageWindow | [1252](../../magpie/internal/plugin/providers.go#L1252) |
+| ResetsAt | field_declaration | UsageWindow | [1253](../../magpie/internal/plugin/providers.go#L1253) |
+| ResetSecs | field_declaration | UsageWindow | [1254](../../magpie/internal/plugin/providers.go#L1254) |
+| Display | field_declaration | UsageWindow | [1255](../../magpie/internal/plugin/providers.go#L1255) |
+| Amount | field_declaration | UsageWindow | [1256](../../magpie/internal/plugin/providers.go#L1256) |
+| Limit | field_declaration | UsageWindow | [1257](../../magpie/internal/plugin/providers.go#L1257) |
+| Unit | field_declaration | UsageWindow | [1258](../../magpie/internal/plugin/providers.go#L1258) |
+| Span | field_declaration | UsageWindow | [1259](../../magpie/internal/plugin/providers.go#L1259) |
+| Model | field_declaration | UsageWindow | [1260](../../magpie/internal/plugin/providers.go#L1260) |
+| Models | field_declaration | UsageWindow | [1261](../../magpie/internal/plugin/providers.go#L1261) |
+| NotModels | field_declaration | UsageWindow | [1262](../../magpie/internal/plugin/providers.go#L1262) |
+| Aside | field_declaration | UsageWindow | [1263](../../magpie/internal/plugin/providers.go#L1263) |
+| Pool | field_declaration | UsageWindow | [1267](../../magpie/internal/plugin/providers.go#L1267) |
+| Family | field_declaration | UsageWindow | [1268](../../magpie/internal/plugin/providers.go#L1268) |
+| RunsOutAt | field_declaration | UsageWindow | [1272](../../magpie/internal/plugin/providers.go#L1272) |
+| RunsOut | field_declaration | UsageWindow | [1273](../../magpie/internal/plugin/providers.go#L1273) |
+| Balance | field_declaration | UsageWindow | [1276](../../magpie/internal/plugin/providers.go#L1276) |
+| Checkin | type_spec |  | [1284](../../magpie/internal/plugin/providers.go#L1284) |
+| Outcome | field_declaration | Checkin | [1285](../../magpie/internal/plugin/providers.go#L1285) |
+| Credit | field_declaration | Checkin | [1286](../../magpie/internal/plugin/providers.go#L1286) |
+| Streak | field_declaration | Checkin | [1287](../../magpie/internal/plugin/providers.go#L1287) |
+| Message | field_declaration | Checkin | [1288](../../magpie/internal/plugin/providers.go#L1288) |
+| Until | field_declaration | Checkin | [1289](../../magpie/internal/plugin/providers.go#L1289) |
+| AccountCheckin | function_declaration |  | [1294](../../magpie/internal/plugin/providers.go#L1294) |
+| c | var_spec | AccountCheckin | [1295](../../magpie/internal/plugin/providers.go#L1295) |
+| OutsideCall | type_spec |  | [1304](../../magpie/internal/plugin/providers.go#L1304) |
+| RID | field_declaration | OutsideCall | [1305](../../magpie/internal/plugin/providers.go#L1305) |
+| T | field_declaration | OutsideCall | [1306](../../magpie/internal/plugin/providers.go#L1306) |
+| Model | field_declaration | OutsideCall | [1307](../../magpie/internal/plugin/providers.go#L1307) |
+| In | field_declaration | OutsideCall | [1308](../../magpie/internal/plugin/providers.go#L1308) |
+| Out | field_declaration | OutsideCall | [1309](../../magpie/internal/plugin/providers.go#L1309) |
+| CacheRead | field_declaration | OutsideCall | [1310](../../magpie/internal/plugin/providers.go#L1310) |
+| CacheWrite | field_declaration | OutsideCall | [1311](../../magpie/internal/plugin/providers.go#L1311) |
+| Cost | field_declaration | OutsideCall | [1312](../../magpie/internal/plugin/providers.go#L1312) |
+| Session | field_declaration | OutsideCall | [1313](../../magpie/internal/plugin/providers.go#L1313) |
+| AccountCalls | function_declaration |  | [1318](../../magpie/internal/plugin/providers.go#L1318) |
+| r | var_spec | AccountCalls | [1319](../../magpie/internal/plugin/providers.go#L1319) |
+| Calls | field_declaration | AccountCalls::r | [1320](../../magpie/internal/plugin/providers.go#L1320) |
+| AccountUsage | function_declaration |  | [1327](../../magpie/internal/plugin/providers.go#L1327) |
+| u | var_spec | AccountUsage | [1328](../../magpie/internal/plugin/providers.go#L1328) |

@@ -4,78 +4,87 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/instructions.go) · page 1/1
 
-Source SHA-256: ae6a8f74e2a2c8f91a19a5feb7ac84b4a1db00a485a7bbf2da804e634b9afa25
+Source SHA-256: f70ad7e1d1b493da797f9facda352852bd9c74cb1c38c0c449081782b59bc750
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| blockBegin | const_spec |  | [23](../../magpie/internal/library/instructions.go#L23) |
-| blockEnd | const_spec |  | [24](../../magpie/internal/library/instructions.go#L24) |
-| defaultSet | const_spec |  | [29](../../magpie/internal/library/instructions.go#L29) |
-| setPath | function_declaration |  | [32](../../magpie/internal/library/instructions.go#L32) |
-| sets | method_declaration |  | [40](../../magpie/internal/library/instructions.go#L40) |
-| instrSet | method_declaration |  | [52](../../magpie/internal/library/instructions.go#L52) |
-| hasSet | method_declaration |  | [61](../../magpie/internal/library/instructions.go#L61) |
-| active | method_declaration |  | [64](../../magpie/internal/library/instructions.go#L64) |
-| sharedPath | method_declaration |  | [72](../../magpie/internal/library/instructions.go#L72) |
-| textPath | method_declaration |  | [76](../../magpie/internal/library/instructions.go#L76) |
-| linked | method_declaration |  | [84](../../magpie/internal/library/instructions.go#L84) |
-| putText | method_declaration |  | [91](../../magpie/internal/library/instructions.go#L91) |
-| extraPath | function_declaration |  | [111](../../magpie/internal/library/instructions.go#L111) |
-| setText | function_declaration |  | [121](../../magpie/internal/library/instructions.go#L121) |
-| isSetFile | method_declaration |  | [125](../../magpie/internal/library/instructions.go#L125) |
-| readText | function_declaration |  | [129](../../magpie/internal/library/instructions.go#L129) |
-| writeText | function_declaration |  | [134](../../magpie/internal/library/instructions.go#L134) |
-| wanted | method_declaration |  | [147](../../magpie/internal/library/instructions.go#L147) |
-| split | function_declaration |  | [162](../../magpie/internal/library/instructions.go#L162) |
-| own | function_declaration |  | [178](../../magpie/internal/library/instructions.go#L178) |
-| withBlock | function_declaration |  | [199](../../magpie/internal/library/instructions.go#L199) |
-| parts | var_spec | withBlock | [210](../../magpie/internal/library/instructions.go#L210) |
-| hash | function_declaration |  | [222](../../magpie/internal/library/instructions.go#L222) |
-| syncInstructions | method_declaration |  | [230](../../magpie/internal/library/instructions.go#L230) |
-| AgentInstructions | type_spec |  | [297](../../magpie/internal/library/instructions.go#L297) |
-| Agent | field_declaration | AgentInstructions | [298](../../magpie/internal/library/instructions.go#L298) |
-| Name | field_declaration | AgentInstructions | [299](../../magpie/internal/library/instructions.go#L299) |
-| Icon | field_declaration | AgentInstructions | [300](../../magpie/internal/library/instructions.go#L300) |
-| Path | field_declaration | AgentInstructions | [301](../../magpie/internal/library/instructions.go#L301) |
-| On | field_declaration | AgentInstructions | [302](../../magpie/internal/library/instructions.go#L302) |
-| Extra | field_declaration | AgentInstructions | [303](../../magpie/internal/library/instructions.go#L303) |
-| Own | field_declaration | AgentInstructions | [304](../../magpie/internal/library/instructions.go#L304) |
-| Edited | field_declaration | AgentInstructions | [305](../../magpie/internal/library/instructions.go#L305) |
-| Override | field_declaration | AgentInstructions | [306](../../magpie/internal/library/instructions.go#L306) |
-| Profile | field_declaration | AgentInstructions | [307](../../magpie/internal/library/instructions.go#L307) |
-| InstructionsView | type_spec |  | [311](../../magpie/internal/library/instructions.go#L311) |
-| Shared | field_declaration | InstructionsView | [312](../../magpie/internal/library/instructions.go#L312) |
-| Sets | field_declaration | InstructionsView | [313](../../magpie/internal/library/instructions.go#L313) |
-| Agents | field_declaration | InstructionsView | [314](../../magpie/internal/library/instructions.go#L314) |
-| SetView | type_spec |  | [318](../../magpie/internal/library/instructions.go#L318) |
-| ID | field_declaration | SetView | [319](../../magpie/internal/library/instructions.go#L319) |
-| Name | field_declaration | SetView | [320](../../magpie/internal/library/instructions.go#L320) |
-| Text | field_declaration | SetView | [321](../../magpie/internal/library/instructions.go#L321) |
-| Active | field_declaration | SetView | [322](../../magpie/internal/library/instructions.go#L322) |
-| File | field_declaration | SetView | [323](../../magpie/internal/library/instructions.go#L323) |
-| ReadInstructions | function_declaration |  | [327](../../magpie/internal/library/instructions.go#L327) |
-| instructionsView | method_declaration |  | [340](../../magpie/internal/library/instructions.go#L340) |
-| InstructionsChange | type_spec |  | [369](../../magpie/internal/library/instructions.go#L369) |
-| Shared | field_declaration | InstructionsChange | [370](../../magpie/internal/library/instructions.go#L370) |
-| Agents | field_declaration | InstructionsChange | [371](../../magpie/internal/library/instructions.go#L371) |
-| Extra | field_declaration | InstructionsChange | [372](../../magpie/internal/library/instructions.go#L372) |
-| Rewrite | field_declaration | InstructionsChange | [375](../../magpie/internal/library/instructions.go#L375) |
-| Texts | field_declaration | InstructionsChange | [379](../../magpie/internal/library/instructions.go#L379) |
-| Activate | field_declaration | InstructionsChange | [380](../../magpie/internal/library/instructions.go#L380) |
-| Create | field_declaration | InstructionsChange | [381](../../magpie/internal/library/instructions.go#L381) |
-| Rename | field_declaration | InstructionsChange | [382](../../magpie/internal/library/instructions.go#L382) |
-| Remove | field_declaration | InstructionsChange | [383](../../magpie/internal/library/instructions.go#L383) |
-| changeInstructions | function_declaration |  | [391](../../magpie/internal/library/instructions.go#L391) |
-| SaveInstructions | function_declaration |  | [420](../../magpie/internal/library/instructions.go#L420) |
-| ImportInstructions | function_declaration |  | [455](../../magpie/internal/library/instructions.go#L455) |
-| changeSets | method_declaration |  | [509](../../magpie/internal/library/instructions.go#L509) |
-| err | var_spec | changeSets | [522](../../magpie/internal/library/instructions.go#L522) |
-| linkable | method_declaration |  | [600](../../magpie/internal/library/instructions.go#L600) |
-| linkSeen | var_spec |  | [639](../../magpie/internal/library/instructions.go#L639) |
-| file | field_declaration | linkSeen | [641](../../magpie/internal/library/instructions.go#L641) |
-| mod | field_declaration | linkSeen | [642](../../magpie/internal/library/instructions.go#L642) |
-| size | field_declaration | linkSeen | [643](../../magpie/internal/library/instructions.go#L643) |
-| SyncLinked | function_declaration |  | [650](../../magpie/internal/library/instructions.go#L650) |
-| mod | var_spec | SyncLinked | [663](../../magpie/internal/library/instructions.go#L663) |
-| size | var_spec | SyncLinked | [664](../../magpie/internal/library/instructions.go#L664) |
-| KeepLinked | function_declaration |  | [679](../../magpie/internal/library/instructions.go#L679) |
+| blockBegin | const_spec |  | [26](../../magpie/internal/library/instructions.go#L26) |
+| blockEnd | const_spec |  | [27](../../magpie/internal/library/instructions.go#L27) |
+| defaultSet | const_spec |  | [32](../../magpie/internal/library/instructions.go#L32) |
+| setPath | function_declaration |  | [35](../../magpie/internal/library/instructions.go#L35) |
+| sets | method_declaration |  | [43](../../magpie/internal/library/instructions.go#L43) |
+| instrSet | method_declaration |  | [55](../../magpie/internal/library/instructions.go#L55) |
+| hasSet | method_declaration |  | [64](../../magpie/internal/library/instructions.go#L64) |
+| active | method_declaration |  | [67](../../magpie/internal/library/instructions.go#L67) |
+| sharedPath | method_declaration |  | [75](../../magpie/internal/library/instructions.go#L75) |
+| textPath | method_declaration |  | [79](../../magpie/internal/library/instructions.go#L79) |
+| linked | method_declaration |  | [87](../../magpie/internal/library/instructions.go#L87) |
+| putText | method_declaration |  | [94](../../magpie/internal/library/instructions.go#L94) |
+| extraPath | function_declaration |  | [114](../../magpie/internal/library/instructions.go#L114) |
+| setText | function_declaration |  | [124](../../magpie/internal/library/instructions.go#L124) |
+| isSetFile | method_declaration |  | [128](../../magpie/internal/library/instructions.go#L128) |
+| readText | function_declaration |  | [132](../../magpie/internal/library/instructions.go#L132) |
+| writeText | function_declaration |  | [137](../../magpie/internal/library/instructions.go#L137) |
+| wanted | method_declaration |  | [151](../../magpie/internal/library/instructions.go#L151) |
+| memoryDigest | method_declaration |  | [167](../../magpie/internal/library/instructions.go#L167) |
+| memoryAgent | function_declaration |  | [178](../../magpie/internal/library/instructions.go#L178) |
+| PublishMemory | function_declaration |  | [188](../../magpie/internal/library/instructions.go#L188) |
+| MemoryInInstructions | function_declaration |  | [223](../../magpie/internal/library/instructions.go#L223) |
+| SetMemoryInInstructions | function_declaration |  | [235](../../magpie/internal/library/instructions.go#L235) |
+| split | function_declaration |  | [244](../../magpie/internal/library/instructions.go#L244) |
+| own | function_declaration |  | [260](../../magpie/internal/library/instructions.go#L260) |
+| withBlock | function_declaration |  | [281](../../magpie/internal/library/instructions.go#L281) |
+| parts | var_spec | withBlock | [292](../../magpie/internal/library/instructions.go#L292) |
+| hash | function_declaration |  | [304](../../magpie/internal/library/instructions.go#L304) |
+| unreadable | function_declaration |  | [311](../../magpie/internal/library/instructions.go#L311) |
+| instructionsLost | method_declaration |  | [322](../../magpie/internal/library/instructions.go#L322) |
+| syncInstructions | method_declaration |  | [336](../../magpie/internal/library/instructions.go#L336) |
+| AgentInstructions | type_spec |  | [447](../../magpie/internal/library/instructions.go#L447) |
+| Agent | field_declaration | AgentInstructions | [448](../../magpie/internal/library/instructions.go#L448) |
+| Name | field_declaration | AgentInstructions | [449](../../magpie/internal/library/instructions.go#L449) |
+| Icon | field_declaration | AgentInstructions | [450](../../magpie/internal/library/instructions.go#L450) |
+| Path | field_declaration | AgentInstructions | [451](../../magpie/internal/library/instructions.go#L451) |
+| On | field_declaration | AgentInstructions | [452](../../magpie/internal/library/instructions.go#L452) |
+| Extra | field_declaration | AgentInstructions | [453](../../magpie/internal/library/instructions.go#L453) |
+| Own | field_declaration | AgentInstructions | [454](../../magpie/internal/library/instructions.go#L454) |
+| Edited | field_declaration | AgentInstructions | [455](../../magpie/internal/library/instructions.go#L455) |
+| Override | field_declaration | AgentInstructions | [456](../../magpie/internal/library/instructions.go#L456) |
+| Profile | field_declaration | AgentInstructions | [457](../../magpie/internal/library/instructions.go#L457) |
+| Asleep | field_declaration | AgentInstructions | [462](../../magpie/internal/library/instructions.go#L462) |
+| Unseen | field_declaration | AgentInstructions | [463](../../magpie/internal/library/instructions.go#L463) |
+| InstructionsView | type_spec |  | [467](../../magpie/internal/library/instructions.go#L467) |
+| Shared | field_declaration | InstructionsView | [468](../../magpie/internal/library/instructions.go#L468) |
+| Sets | field_declaration | InstructionsView | [469](../../magpie/internal/library/instructions.go#L469) |
+| Agents | field_declaration | InstructionsView | [470](../../magpie/internal/library/instructions.go#L470) |
+| SetView | type_spec |  | [474](../../magpie/internal/library/instructions.go#L474) |
+| ID | field_declaration | SetView | [475](../../magpie/internal/library/instructions.go#L475) |
+| Name | field_declaration | SetView | [476](../../magpie/internal/library/instructions.go#L476) |
+| Text | field_declaration | SetView | [477](../../magpie/internal/library/instructions.go#L477) |
+| Active | field_declaration | SetView | [478](../../magpie/internal/library/instructions.go#L478) |
+| File | field_declaration | SetView | [479](../../magpie/internal/library/instructions.go#L479) |
+| ReadInstructions | function_declaration |  | [483](../../magpie/internal/library/instructions.go#L483) |
+| instructionsView | method_declaration |  | [497](../../magpie/internal/library/instructions.go#L497) |
+| InstructionsChange | type_spec |  | [533](../../magpie/internal/library/instructions.go#L533) |
+| Shared | field_declaration | InstructionsChange | [534](../../magpie/internal/library/instructions.go#L534) |
+| Agents | field_declaration | InstructionsChange | [535](../../magpie/internal/library/instructions.go#L535) |
+| Extra | field_declaration | InstructionsChange | [536](../../magpie/internal/library/instructions.go#L536) |
+| Rewrite | field_declaration | InstructionsChange | [539](../../magpie/internal/library/instructions.go#L539) |
+| Texts | field_declaration | InstructionsChange | [543](../../magpie/internal/library/instructions.go#L543) |
+| Activate | field_declaration | InstructionsChange | [544](../../magpie/internal/library/instructions.go#L544) |
+| Create | field_declaration | InstructionsChange | [545](../../magpie/internal/library/instructions.go#L545) |
+| Rename | field_declaration | InstructionsChange | [546](../../magpie/internal/library/instructions.go#L546) |
+| Remove | field_declaration | InstructionsChange | [547](../../magpie/internal/library/instructions.go#L547) |
+| changeInstructions | function_declaration |  | [555](../../magpie/internal/library/instructions.go#L555) |
+| SaveInstructions | function_declaration |  | [584](../../magpie/internal/library/instructions.go#L584) |
+| ImportInstructions | function_declaration |  | [619](../../magpie/internal/library/instructions.go#L619) |
+| changeSets | method_declaration |  | [669](../../magpie/internal/library/instructions.go#L669) |
+| err | var_spec | changeSets | [682](../../magpie/internal/library/instructions.go#L682) |
+| linkable | method_declaration |  | [760](../../magpie/internal/library/instructions.go#L760) |
+| linkSeen | var_spec |  | [799](../../magpie/internal/library/instructions.go#L799) |
+| file | field_declaration | linkSeen | [801](../../magpie/internal/library/instructions.go#L801) |
+| mod | field_declaration | linkSeen | [802](../../magpie/internal/library/instructions.go#L802) |
+| size | field_declaration | linkSeen | [803](../../magpie/internal/library/instructions.go#L803) |
+| SyncLinked | function_declaration |  | [810](../../magpie/internal/library/instructions.go#L810) |
+| mod | var_spec | SyncLinked | [823](../../magpie/internal/library/instructions.go#L823) |
+| size | var_spec | SyncLinked | [824](../../magpie/internal/library/instructions.go#L824) |
+| KeepLinked | function_declaration |  | [844](../../magpie/internal/library/instructions.go#L844) |

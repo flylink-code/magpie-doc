@@ -4,35 +4,49 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/plugins.go) · page 2/2
 
-Source SHA-256: 458a828ec301a19517575c5fa06de51561c53395743839ef03c4b2fc62069c66
+Source SHA-256: 79f62e2121f867efe5af42bb1602dabb801b98a569f6bbaf5708c0685879c061
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| in | var_spec | pluginRoutes | [675](../../magpie/internal/gui/plugins.go#L675) |
-| Provider | field_declaration | pluginRoutes::in | [676](../../magpie/internal/gui/plugins.go#L676) |
-| Method | field_declaration | pluginRoutes::in | [677](../../magpie/internal/gui/plugins.go#L677) |
-| Inputs | field_declaration | pluginRoutes::in | [678](../../magpie/internal/gui/plugins.go#L678) |
-| Key | field_declaration | pluginRoutes::in | [679](../../magpie/internal/gui/plugins.go#L679) |
-| Value | field_declaration | pluginRoutes::in | [680](../../magpie/internal/gui/plugins.go#L680) |
-| in | var_spec | pluginRoutes | [711](../../magpie/internal/gui/plugins.go#L711) |
-| Provider | field_declaration | pluginRoutes::in | [712](../../magpie/internal/gui/plugins.go#L712) |
-| Method | field_declaration | pluginRoutes::in | [713](../../magpie/internal/gui/plugins.go#L713) |
-| Inputs | field_declaration | pluginRoutes::in | [714](../../magpie/internal/gui/plugins.go#L714) |
-| Key | field_declaration | pluginRoutes::in | [715](../../magpie/internal/gui/plugins.go#L715) |
-| Proxy | field_declaration | pluginRoutes::in | [716](../../magpie/internal/gui/plugins.go#L716) |
-| User | field_declaration | pluginRoutes::in | [717](../../magpie/internal/gui/plugins.go#L717) |
-| failed | var_spec | pluginRoutes | [744](../../magpie/internal/gui/plugins.go#L744) |
-| pluginErr | type_spec |  | [752](../../magpie/internal/gui/plugins.go#L752) |
-| Error | method_declaration |  | [754](../../magpie/internal/gui/plugins.go#L754) |
-| errNoPluginMethod | const_spec |  | [756](../../magpie/internal/gui/plugins.go#L756) |
-| pluginProviderByID | function_declaration |  | [758](../../magpie/internal/gui/plugins.go#L758) |
-| setChinaMirror | function_declaration |  | [769](../../magpie/internal/gui/plugins.go#L769) |
-| pluginAgentJSON | type_spec |  | [785](../../magpie/internal/gui/plugins.go#L785) |
-| ID | field_declaration | pluginAgentJSON | [786](../../magpie/internal/gui/plugins.go#L786) |
-| Name | field_declaration | pluginAgentJSON | [787](../../magpie/internal/gui/plugins.go#L787) |
-| Icon | field_declaration | pluginAgentJSON | [788](../../magpie/internal/gui/plugins.go#L788) |
-| Error | field_declaration | pluginAgentJSON | [789](../../magpie/internal/gui/plugins.go#L789) |
-| pluginAgentOf | function_declaration |  | [792](../../magpie/internal/gui/plugins.go#L792) |
-| taggedWhyKind | function_declaration |  | [808](../../magpie/internal/gui/plugins.go#L808) |
-| lim | var_spec | taggedWhyKind | [809](../../magpie/internal/gui/plugins.go#L809) |
-| ne | var_spec | taggedWhyKind | [810](../../magpie/internal/gui/plugins.go#L810) |
+| pluginRoutes | function_declaration |  | [593](../../magpie/internal/gui/plugins.go#L593) |
+| m | var_spec | pluginRoutes | [633](../../magpie/internal/gui/plugins.go#L633) |
+| in | var_spec | pluginRoutes | [720](../../magpie/internal/gui/plugins.go#L720) |
+| On | field_declaration | pluginRoutes::in | [720](../../magpie/internal/gui/plugins.go#L720) |
+| in | var_spec | pluginRoutes | [734](../../magpie/internal/gui/plugins.go#L734) |
+| URL | field_declaration | pluginRoutes::in | [734](../../magpie/internal/gui/plugins.go#L734) |
+| in | var_spec | pluginRoutes | [747](../../magpie/internal/gui/plugins.go#L747) |
+| Spec | field_declaration | pluginRoutes::in | [748](../../magpie/internal/gui/plugins.go#L748) |
+| Off | field_declaration | pluginRoutes::in | [749](../../magpie/internal/gui/plugins.go#L749) |
+| Options | field_declaration | pluginRoutes::in | [750](../../magpie/internal/gui/plugins.go#L750) |
+| Provider | field_declaration | pluginRoutes::in | [752](../../magpie/internal/gui/plugins.go#L752) |
+| err | var_spec | pluginRoutes | [764](../../magpie/internal/gui/plugins.go#L764) |
+| in | var_spec | pluginRoutes | [799](../../magpie/internal/gui/plugins.go#L799) |
+| Provider | field_declaration | pluginRoutes::in | [800](../../magpie/internal/gui/plugins.go#L800) |
+| Method | field_declaration | pluginRoutes::in | [801](../../magpie/internal/gui/plugins.go#L801) |
+| Inputs | field_declaration | pluginRoutes::in | [802](../../magpie/internal/gui/plugins.go#L802) |
+| Key | field_declaration | pluginRoutes::in | [803](../../magpie/internal/gui/plugins.go#L803) |
+| Value | field_declaration | pluginRoutes::in | [804](../../magpie/internal/gui/plugins.go#L804) |
+| in | var_spec | pluginRoutes | [835](../../magpie/internal/gui/plugins.go#L835) |
+| Provider | field_declaration | pluginRoutes::in | [836](../../magpie/internal/gui/plugins.go#L836) |
+| Method | field_declaration | pluginRoutes::in | [837](../../magpie/internal/gui/plugins.go#L837) |
+| Inputs | field_declaration | pluginRoutes::in | [838](../../magpie/internal/gui/plugins.go#L838) |
+| Key | field_declaration | pluginRoutes::in | [839](../../magpie/internal/gui/plugins.go#L839) |
+| Proxy | field_declaration | pluginRoutes::in | [840](../../magpie/internal/gui/plugins.go#L840) |
+| User | field_declaration | pluginRoutes::in | [841](../../magpie/internal/gui/plugins.go#L841) |
+| pluginErr | type_spec |  | [876](../../magpie/internal/gui/plugins.go#L876) |
+| Error | method_declaration |  | [878](../../magpie/internal/gui/plugins.go#L878) |
+| errNoPluginMethod | const_spec |  | [880](../../magpie/internal/gui/plugins.go#L880) |
+| pluginProviderByID | function_declaration |  | [882](../../magpie/internal/gui/plugins.go#L882) |
+| setChinaMirror | function_declaration |  | [893](../../magpie/internal/gui/plugins.go#L893) |
+| pluginAgentJSON | type_spec |  | [909](../../magpie/internal/gui/plugins.go#L909) |
+| ID | field_declaration | pluginAgentJSON | [910](../../magpie/internal/gui/plugins.go#L910) |
+| Name | field_declaration | pluginAgentJSON | [911](../../magpie/internal/gui/plugins.go#L911) |
+| Icon | field_declaration | pluginAgentJSON | [912](../../magpie/internal/gui/plugins.go#L912) |
+| Error | field_declaration | pluginAgentJSON | [913](../../magpie/internal/gui/plugins.go#L913) |
+| Missing | field_declaration | pluginAgentJSON | [918](../../magpie/internal/gui/plugins.go#L918) |
+| Looks | field_declaration | pluginAgentJSON | [919](../../magpie/internal/gui/plugins.go#L919) |
+| Notice | field_declaration | pluginAgentJSON | [920](../../magpie/internal/gui/plugins.go#L920) |
+| pluginAgentOf | function_declaration |  | [923](../../magpie/internal/gui/plugins.go#L923) |
+| taggedWhyKind | function_declaration |  | [948](../../magpie/internal/gui/plugins.go#L948) |
+| lim | var_spec | taggedWhyKind | [949](../../magpie/internal/gui/plugins.go#L949) |
+| ne | var_spec | taggedWhyKind | [950](../../magpie/internal/gui/plugins.go#L950) |

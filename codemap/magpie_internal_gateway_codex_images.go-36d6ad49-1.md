@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/codex_images.go) · page 1/1
 
-Source SHA-256: ee30d80ae50ed6ba3fe47834109674484c9cb2beae3f2d4cb3a551044a687b25
+Source SHA-256: 362dea0f5ee69bd429657972a6fd615402b189f38b5d7c21874ef2b6aaf05aeb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/holdcatalog.go) · page 1/1
 
-Source SHA-256: 2e30f491be38e84ff339016e2438287918ec3ccf2edf5661cd67262f7532b97f
+Source SHA-256: f303a36a70b167843880d917cc2228b7796faafb6fc3562810be75784c71fae1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

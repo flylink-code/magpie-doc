@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/quiet.go) · page 1/1
 
-Source SHA-256: 9042d8ee9e11601a40a6871698f5a828a242a38597b6167b4c7162389b350476
+Source SHA-256: 30a934e4d734b6202b06beb35871756e90fdc15c4f1807abb435dc9a03433aba
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,5 +13,5 @@ Source SHA-256: 9042d8ee9e11601a40a6871698f5a828a242a38597b6167b4c7162389b350476
 | withoutAnyReasoning | function_declaration |  | [58](../../magpie/internal/gateway/quiet.go#L58) |
 | withoutReasoningFields | function_declaration |  | [62](../../magpie/internal/gateway/quiet.go#L62) |
 | m | var_spec | withoutReasoningFields | [65](../../magpie/internal/gateway/quiet.go#L65) |
-| tc | var_spec | withoutReasoningFields | [119](../../magpie/internal/gateway/quiet.go#L119) |
-| out | var_spec | withoutReasoningFields | [137](../../magpie/internal/gateway/quiet.go#L137) |
+| tc | var_spec | withoutReasoningFields | [131](../../magpie/internal/gateway/quiet.go#L131) |
+| out | var_spec | withoutReasoningFields | [149](../../magpie/internal/gateway/quiet.go#L149) |

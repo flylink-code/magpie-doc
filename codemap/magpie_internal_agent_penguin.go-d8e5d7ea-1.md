@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/penguin.go) · page 1/1
 
-Source SHA-256: a2094b9e3cb487a16413fe2cb5978c3ce044f5e0d7c62e49480bdab964639ec4
+Source SHA-256: eb8e2cf08a10306b05d42d9cc56740216f4a997134ea7f348f87b464b41789d0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -27,10 +27,10 @@ Source SHA-256: a2094b9e3cb487a16413fe2cb5978c3ce044f5e0d7c62e49480bdab964639ec4
 | penguinProject | function_declaration |  | [111](../../magpie/internal/agent/penguin.go#L111) |
 | penguin | function_declaration |  | [118](../../magpie/internal/agent/penguin.go#L118) |
 | penguinIn | function_declaration |  | [123](../../magpie/internal/agent/penguin.go#L123) |
-| now | var_spec | penguinIn | [235](../../magpie/internal/agent/penguin.go#L235) |
-| penguinOwnOptions | function_declaration |  | [297](../../magpie/internal/agent/penguin.go#L297) |
-| out | var_spec | penguinOwnOptions | [300](../../magpie/internal/agent/penguin.go#L300) |
-| penguinBlocks | function_declaration |  | [322](../../magpie/internal/agent/penguin.go#L322) |
-| b | var_spec | penguinBlocks | [325](../../magpie/internal/agent/penguin.go#L325) |
-| penguinString | function_declaration |  | [355](../../magpie/internal/agent/penguin.go#L355) |
-| penguinFloat | function_declaration |  | [361](../../magpie/internal/agent/penguin.go#L361) |
+| now | var_spec | penguinIn | [239](../../magpie/internal/agent/penguin.go#L239) |
+| penguinOwnOptions | function_declaration |  | [301](../../magpie/internal/agent/penguin.go#L301) |
+| out | var_spec | penguinOwnOptions | [304](../../magpie/internal/agent/penguin.go#L304) |
+| penguinBlocks | function_declaration |  | [326](../../magpie/internal/agent/penguin.go#L326) |
+| b | var_spec | penguinBlocks | [329](../../magpie/internal/agent/penguin.go#L329) |
+| penguinString | function_declaration |  | [359](../../magpie/internal/agent/penguin.go#L359) |
+| penguinFloat | function_declaration |  | [365](../../magpie/internal/agent/penguin.go#L365) |

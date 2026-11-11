@@ -4,9 +4,9 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/ccswitch.go) · page 1/1
 
-Source SHA-256: 3f7be26e055a9dd4e4f783efc44f8d1eb0f57251e866fc38c56b5fda3c524886
+Source SHA-256: 6a662edbd963be88b0b467c5db1a5be911252cf609d06db8f215e41f88f10625
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ccSwitchOrigin | function_declaration |  | [14](../../magpie/internal/library/ccswitch.go#L14) |
-| origin | function_declaration |  | [39](../../magpie/internal/library/ccswitch.go#L39) |
+| ccSwitchOrigin | function_declaration |  | [15](../../magpie/internal/library/ccswitch.go#L15) |
+| origin | function_declaration |  | [50](../../magpie/internal/library/ccswitch.go#L50) |

@@ -4,32 +4,36 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/codex_discovery.go) · page 1/1
 
-Source SHA-256: 7ae31d6cb34a331026c1086ac7ebce2b082d35b25670ae15ec8e2f1d71058359
+Source SHA-256: 86d3e03d24694defaef2128f0fa5d91d59b9379179c08905fa16afc59d871e8c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexCopiesDiffer | const_spec |  | [15](../../magpie/internal/sessions/codex_discovery.go#L15) |
-| codexCopiesEqual | const_spec |  | [16](../../magpie/internal/sessions/codex_discovery.go#L16) |
-| codexFirstPrefix | const_spec |  | [17](../../magpie/internal/sessions/codex_discovery.go#L17) |
-| codexSecondPrefix | const_spec |  | [18](../../magpie/internal/sessions/codex_discovery.go#L18) |
-| maxCodexCopyPairs | const_spec |  | [19](../../magpie/internal/sessions/codex_discovery.go#L19) |
-| codexCopyPair | type_spec |  | [22](../../magpie/internal/sessions/codex_discovery.go#L22) |
-| First | field_declaration | codexCopyPair | [22](../../magpie/internal/sessions/codex_discovery.go#L22) |
-| codexCopyResult | type_spec |  | [23](../../magpie/internal/sessions/codex_discovery.go#L23) |
-| First | field_declaration | codexCopyResult | [24](../../magpie/internal/sessions/codex_discovery.go#L24) |
-| Relation | field_declaration | codexCopyResult | [25](../../magpie/internal/sessions/codex_discovery.go#L25) |
-| codexCopyCache | var_spec |  | [28](../../magpie/internal/sessions/codex_discovery.go#L28) |
-| Pairs | field_declaration | codexCopyCache | [30](../../magpie/internal/sessions/codex_discovery.go#L30) |
-| codexDiscoveryStat | var_spec |  | [34](../../magpie/internal/sessions/codex_discovery.go#L34) |
-| compareCodexCopies | var_spec |  | [35](../../magpie/internal/sessions/codex_discovery.go#L35) |
-| codexDiscoveryNow | var_spec |  | [36](../../magpie/internal/sessions/codex_discovery.go#L36) |
-| codexStampSettle | const_spec |  | [44](../../magpie/internal/sessions/codex_discovery.go#L44) |
-| codexDiscoveryInfo | type_spec |  | [46](../../magpie/internal/sessions/codex_discovery.go#L46) |
-| ChangeTime | field_declaration | codexDiscoveryInfo | [48](../../magpie/internal/sessions/codex_discovery.go#L48) |
-| codexChangeTime | function_declaration |  | [53](../../magpie/internal/sessions/codex_discovery.go#L53) |
-| settledCodexStamp | function_declaration |  | [81](../../magpie/internal/sessions/codex_discovery.go#L81) |
-| sameCodexSnapshot | function_declaration |  | [86](../../magpie/internal/sessions/codex_discovery.go#L86) |
-| distinctCodexFiles | function_declaration |  | [101](../../magpie/internal/sessions/codex_discovery.go#L101) |
-| codexCopyRelation | function_declaration |  | [132](../../magpie/internal/sessions/codex_discovery.go#L132) |
-| readCodexCopies | function_declaration |  | [173](../../magpie/internal/sessions/codex_discovery.go#L173) |
-| readCodexChunk | function_declaration |  | [213](../../magpie/internal/sessions/codex_discovery.go#L213) |
+| codexCopiesDiffer | const_spec |  | [16](../../magpie/internal/sessions/codex_discovery.go#L16) |
+| codexCopiesEqual | const_spec |  | [17](../../magpie/internal/sessions/codex_discovery.go#L17) |
+| codexFirstPrefix | const_spec |  | [18](../../magpie/internal/sessions/codex_discovery.go#L18) |
+| codexSecondPrefix | const_spec |  | [19](../../magpie/internal/sessions/codex_discovery.go#L19) |
+| maxCodexCopyPairs | const_spec |  | [20](../../magpie/internal/sessions/codex_discovery.go#L20) |
+| codexCopyPair | type_spec |  | [23](../../magpie/internal/sessions/codex_discovery.go#L23) |
+| First | field_declaration | codexCopyPair | [23](../../magpie/internal/sessions/codex_discovery.go#L23) |
+| codexCopyResult | type_spec |  | [24](../../magpie/internal/sessions/codex_discovery.go#L24) |
+| First | field_declaration | codexCopyResult | [25](../../magpie/internal/sessions/codex_discovery.go#L25) |
+| Relation | field_declaration | codexCopyResult | [26](../../magpie/internal/sessions/codex_discovery.go#L26) |
+| codexCopyCache | var_spec |  | [29](../../magpie/internal/sessions/codex_discovery.go#L29) |
+| Pairs | field_declaration | codexCopyCache | [31](../../magpie/internal/sessions/codex_discovery.go#L31) |
+| codexDiscoveryStat | var_spec |  | [35](../../magpie/internal/sessions/codex_discovery.go#L35) |
+| compareCodexCopies | var_spec |  | [36](../../magpie/internal/sessions/codex_discovery.go#L36) |
+| codexDiscoveryNow | var_spec |  | [37](../../magpie/internal/sessions/codex_discovery.go#L37) |
+| codexStampSettle | const_spec |  | [45](../../magpie/internal/sessions/codex_discovery.go#L45) |
+| codexDiscoveryInfo | type_spec |  | [47](../../magpie/internal/sessions/codex_discovery.go#L47) |
+| ChangeTime | field_declaration | codexDiscoveryInfo | [49](../../magpie/internal/sessions/codex_discovery.go#L49) |
+| codexChangeTime | function_declaration |  | [54](../../magpie/internal/sessions/codex_discovery.go#L54) |
+| settledCodexStamp | function_declaration |  | [82](../../magpie/internal/sessions/codex_discovery.go#L82) |
+| sameCodexSnapshot | function_declaration |  | [87](../../magpie/internal/sessions/codex_discovery.go#L87) |
+| distinctCodexFiles | function_declaration |  | [102](../../magpie/internal/sessions/codex_discovery.go#L102) |
+| more | var_spec | distinctCodexFiles | [108](../../magpie/internal/sessions/codex_discovery.go#L108) |
+| nameFirstSets | var_spec |  | [149](../../magpie/internal/sessions/codex_discovery.go#L149) |
+| nameFirsts | function_declaration |  | [151](../../magpie/internal/sessions/codex_discovery.go#L151) |
+| putNameFirsts | function_declaration |  | [158](../../magpie/internal/sessions/codex_discovery.go#L158) |
+| codexCopyRelation | function_declaration |  | [163](../../magpie/internal/sessions/codex_discovery.go#L163) |
+| readCodexCopies | function_declaration |  | [204](../../magpie/internal/sessions/codex_discovery.go#L204) |
+| readCodexChunk | function_declaration |  | [244](../../magpie/internal/sessions/codex_discovery.go#L244) |

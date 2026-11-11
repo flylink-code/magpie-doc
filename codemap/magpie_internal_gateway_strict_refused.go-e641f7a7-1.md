@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/strict_refused.go) · page 1/1
 
-Source SHA-256: e8b08b53175e574ba7e494c0ff95ded17514a6f8bc9d0a7c4d968674c7e0e458
+Source SHA-256: 4c5a91a05897e7c74fed81d5541c4573d292308769e9535600c20c3bc21a66f7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

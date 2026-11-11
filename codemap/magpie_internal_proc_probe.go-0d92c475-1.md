@@ -4,18 +4,18 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/probe.go) · page 1/1
 
-Source SHA-256: 98e614b3c1935f005aff2e1f5670f5f93e83c91692e3577b64091c051a1f6831
+Source SHA-256: 89cb4b6ac97128b1757c554f566db4fc1442ec3b9ac517195eadb1c2a5e890be
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | ProbeContext | function_declaration |  | [19](../../magpie/internal/proc/probe.go#L19) |
-| probe | type_spec |  | [35](../../magpie/internal/proc/probe.go#L35) |
-| cancel | field_declaration | probe | [36](../../magpie/internal/proc/probe.go#L36) |
-| killOnce | field_declaration | probe | [37](../../magpie/internal/proc/probe.go#L37) |
-| killing | field_declaration | probe | [38](../../magpie/internal/proc/probe.go#L38) |
-| kill | method_declaration |  | [41](../../magpie/internal/proc/probe.go#L41) |
-| end | method_declaration |  | [42](../../magpie/internal/proc/probe.go#L42) |
-| probes | var_spec |  | [44](../../magpie/internal/proc/probe.go#L44) |
-| m | field_declaration | probes | [46](../../magpie/internal/proc/probe.go#L46) |
-| endWait | var_spec |  | [51](../../magpie/internal/proc/probe.go#L51) |
-| EndProbes | function_declaration |  | [59](../../magpie/internal/proc/probe.go#L59) |
+| probe | type_spec |  | [40](../../magpie/internal/proc/probe.go#L40) |
+| cancel | field_declaration | probe | [41](../../magpie/internal/proc/probe.go#L41) |
+| killOnce | field_declaration | probe | [42](../../magpie/internal/proc/probe.go#L42) |
+| killing | field_declaration | probe | [43](../../magpie/internal/proc/probe.go#L43) |
+| kill | method_declaration |  | [46](../../magpie/internal/proc/probe.go#L46) |
+| end | method_declaration |  | [47](../../magpie/internal/proc/probe.go#L47) |
+| probes | var_spec |  | [49](../../magpie/internal/proc/probe.go#L49) |
+| m | field_declaration | probes | [51](../../magpie/internal/proc/probe.go#L51) |
+| endWait | var_spec |  | [56](../../magpie/internal/proc/probe.go#L56) |
+| EndProbes | function_declaration |  | [64](../../magpie/internal/proc/probe.go#L64) |

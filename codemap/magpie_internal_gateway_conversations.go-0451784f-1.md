@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/conversations.go) · page 1/1
 
-Source SHA-256: b49440232765f130265d2e2b9d05eaeff1c535869e5608c29f1b18458e5f35f0
+Source SHA-256: cf750defdd88603bd6037585f7a5a2d829e0434f9069350f4c5a4bb4e4f430cc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,22 +15,27 @@ Source SHA-256: b49440232765f130265d2e2b9d05eaeff1c535869e5608c29f1b18458e5f35f0
 | status | field_declaration | conversationWriter | [49](../../magpie/internal/gateway/conversations.go#L49) |
 | WriteHeader | method_declaration |  | [52](../../magpie/internal/gateway/conversations.go#L52) |
 | recordConversation | function_declaration |  | [61](../../magpie/internal/gateway/conversations.go#L61) |
-| conversationParts | function_declaration |  | [93](../../magpie/internal/gateway/conversations.go#L93) |
-| out | var_spec | conversationParts | [94](../../magpie/internal/gateway/conversations.go#L94) |
-| conversationTurn | function_declaration |  | [122](../../magpie/internal/gateway/conversations.go#L122) |
-| raw | var_spec | conversationTurn | [135](../../magpie/internal/gateway/conversations.go#L135) |
-| c | var_spec | conversationTurn | [148](../../magpie/internal/gateway/conversations.go#L148) |
-| completedItems | var_spec | conversationTurn | [149](../../magpie/internal/gateway/conversations.go#L149) |
-| e | var_spec | conversationTurn | [162](../../magpie/internal/gateway/conversations.go#L162) |
-| Type | field_declaration | conversationTurn::e | [163](../../magpie/internal/gateway/conversations.go#L163) |
-| Item | field_declaration | conversationTurn::e | [164](../../magpie/internal/gateway/conversations.go#L164) |
-| Response | field_declaration | conversationTurn::e | [165](../../magpie/internal/gateway/conversations.go#L165) |
-| Output | field_declaration | conversationTurn::e::Response | [166](../../magpie/internal/gateway/conversations.go#L166) |
-| conversationJSON | function_declaration |  | [205](../../magpie/internal/gateway/conversations.go#L205) |
-| raw | var_spec | conversationJSON | [206](../../magpie/internal/gateway/conversations.go#L206) |
-| request | var_spec | conversationJSON | [213](../../magpie/internal/gateway/conversations.go#L213) |
-| choices | var_spec | conversationJSON | [216](../../magpie/internal/gateway/conversations.go#L216) |
-| Message | field_declaration | conversationJSON::choices | [217](../../magpie/internal/gateway/conversations.go#L217) |
-| messages | var_spec | conversationJSON | [222](../../magpie/internal/gateway/conversations.go#L222) |
-| c | var_spec | conversationJSON | [230](../../magpie/internal/gateway/conversations.go#L230) |
-| parts | var_spec | conversationJSON | [242](../../magpie/internal/gateway/conversations.go#L242) |
+| conversationParts | function_declaration |  | [96](../../magpie/internal/gateway/conversations.go#L96) |
+| out | var_spec | conversationParts | [97](../../magpie/internal/gateway/conversations.go#L97) |
+| conversationTurn | function_declaration |  | [125](../../magpie/internal/gateway/conversations.go#L125) |
+| raw | var_spec | conversationTurn | [138](../../magpie/internal/gateway/conversations.go#L138) |
+| cut | var_spec | conversationTurn | [146](../../magpie/internal/gateway/conversations.go#L146) |
+| conversationOutput | function_declaration |  | [154](../../magpie/internal/gateway/conversations.go#L154) |
+| Output | field_declaration | conversationOutput | [156](../../magpie/internal/gateway/conversations.go#L156) |
+| Cut | field_declaration | conversationOutput | [157](../../magpie/internal/gateway/conversations.go#L157) |
+| err | var_spec | conversationOutput | [159](../../magpie/internal/gateway/conversations.go#L159) |
+| c | var_spec | conversationOutput | [165](../../magpie/internal/gateway/conversations.go#L165) |
+| completedItems | var_spec | conversationOutput | [166](../../magpie/internal/gateway/conversations.go#L166) |
+| e | var_spec | conversationOutput | [179](../../magpie/internal/gateway/conversations.go#L179) |
+| Type | field_declaration | conversationOutput::e | [180](../../magpie/internal/gateway/conversations.go#L180) |
+| Item | field_declaration | conversationOutput::e | [181](../../magpie/internal/gateway/conversations.go#L181) |
+| Response | field_declaration | conversationOutput::e | [182](../../magpie/internal/gateway/conversations.go#L182) |
+| Output | field_declaration | conversationOutput::e::Response | [183](../../magpie/internal/gateway/conversations.go#L183) |
+| conversationJSON | function_declaration |  | [222](../../magpie/internal/gateway/conversations.go#L222) |
+| raw | var_spec | conversationJSON | [223](../../magpie/internal/gateway/conversations.go#L223) |
+| request | var_spec | conversationJSON | [230](../../magpie/internal/gateway/conversations.go#L230) |
+| choices | var_spec | conversationJSON | [233](../../magpie/internal/gateway/conversations.go#L233) |
+| Message | field_declaration | conversationJSON::choices | [234](../../magpie/internal/gateway/conversations.go#L234) |
+| messages | var_spec | conversationJSON | [239](../../magpie/internal/gateway/conversations.go#L239) |
+| c | var_spec | conversationJSON | [247](../../magpie/internal/gateway/conversations.go#L247) |
+| parts | var_spec | conversationJSON | [259](../../magpie/internal/gateway/conversations.go#L259) |

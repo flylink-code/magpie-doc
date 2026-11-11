@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/image_tool.go) · page 1/1
 
-Source SHA-256: 251554a933056226f704eb0de531005a266f1464af18269e5ae1a6842a645206
+Source SHA-256: 48a4a682abb0214b0348e04856b328f5ebd69a8e294e119feaf95277514ac81a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

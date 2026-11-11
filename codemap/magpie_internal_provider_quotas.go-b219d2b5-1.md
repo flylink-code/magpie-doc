@@ -4,58 +4,63 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/quotas.go) · page 1/1
 
-Source SHA-256: 853b787536efaccb99919678b80b7b7feb2d16ca599a54b7a0d5fc135d0cc241
+Source SHA-256: b7a50504fdfb602bca9fdbc8b4cd7cb59215e807b6093bff1db87725ac5d402b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Quotas | function_declaration |  | [14](../../magpie/internal/provider/quotas.go#L14) |
-| InProviderOrder | function_declaration |  | [25](../../magpie/internal/provider/quotas.go#L25) |
-| Allotted | function_declaration |  | [44](../../magpie/internal/provider/quotas.go#L44) |
-| quotas | function_declaration |  | [49](../../magpie/internal/provider/quotas.go#L49) |
-| Quota | type_spec |  | [77](../../magpie/internal/provider/quotas.go#L77) |
-| Provider | field_declaration | Quota | [78](../../magpie/internal/provider/quotas.go#L78) |
-| Name | field_declaration | Quota | [79](../../magpie/internal/provider/quotas.go#L79) |
-| Kind | field_declaration | Quota | [80](../../magpie/internal/provider/quotas.go#L80) |
-| Plan | field_declaration | Quota | [81](../../magpie/internal/provider/quotas.go#L81) |
-| User | field_declaration | Quota | [82](../../magpie/internal/provider/quotas.go#L82) |
-| Windows | field_declaration | Quota | [83](../../magpie/internal/provider/quotas.go#L83) |
-| Balance | field_declaration | Quota | [84](../../magpie/internal/provider/quotas.go#L84) |
-| BalanceSplit | field_declaration | Quota | [87](../../magpie/internal/provider/quotas.go#L87) |
-| Error | field_declaration | Quota | [88](../../magpie/internal/provider/quotas.go#L88) |
-| AsOf | field_declaration | Quota | [89](../../magpie/internal/provider/quotas.go#L89) |
-| ReadDeferred | field_declaration | Quota | [91](../../magpie/internal/provider/quotas.go#L91) |
-| ReadAt | field_declaration | Quota | [94](../../magpie/internal/provider/quotas.go#L94) |
-| Until | field_declaration | Quota | [97](../../magpie/internal/provider/quotas.go#L97) |
-| Renew | field_declaration | Quota | [98](../../magpie/internal/provider/quotas.go#L98) |
-| Resets | field_declaration | Quota | [100](../../magpie/internal/provider/quotas.go#L100) |
-| ResetsUsed | field_declaration | Quota | [103](../../magpie/internal/provider/quotas.go#L103) |
-| LastServedAt | field_declaration | Quota | [107](../../magpie/internal/provider/quotas.go#L107) |
-| Last | field_declaration | Quota | [108](../../magpie/internal/provider/quotas.go#L108) |
-| From | field_declaration | Quota | [111](../../magpie/internal/provider/quotas.go#L111) |
-| Alias | field_declaration | Quota | [114](../../magpie/internal/provider/quotas.go#L114) |
-| Seat | field_declaration | Quota | [115](../../magpie/internal/provider/quotas.go#L115) |
-| QuotaSpan | type_spec |  | [120](../../magpie/internal/provider/quotas.go#L120) |
-| Unlimited | field_declaration | QuotaSpan | [121](../../magpie/internal/provider/quotas.go#L121) |
-| Name | field_declaration | QuotaSpan | [122](../../magpie/internal/provider/quotas.go#L122) |
-| Used | field_declaration | QuotaSpan | [123](../../magpie/internal/provider/quotas.go#L123) |
-| Remaining | field_declaration | QuotaSpan | [124](../../magpie/internal/provider/quotas.go#L124) |
-| ResetsAt | field_declaration | QuotaSpan | [125](../../magpie/internal/provider/quotas.go#L125) |
-| Display | field_declaration | QuotaSpan | [126](../../magpie/internal/provider/quotas.go#L126) |
-| Text | field_declaration | QuotaSpan | [129](../../magpie/internal/provider/quotas.go#L129) |
-| Amount | field_declaration | QuotaSpan | [132](../../magpie/internal/provider/quotas.go#L132) |
-| Limit | field_declaration | QuotaSpan | [133](../../magpie/internal/provider/quotas.go#L133) |
-| Unit | field_declaration | QuotaSpan | [134](../../magpie/internal/provider/quotas.go#L134) |
-| Pool | field_declaration | QuotaSpan | [135](../../magpie/internal/provider/quotas.go#L135) |
-| RunsOutAt | field_declaration | QuotaSpan | [140](../../magpie/internal/provider/quotas.go#L140) |
-| RunsOut | field_declaration | QuotaSpan | [141](../../magpie/internal/provider/quotas.go#L141) |
-| Holds | field_declaration | QuotaSpan | [145](../../magpie/internal/provider/quotas.go#L145) |
-| HoldsWhy | field_declaration | QuotaSpan | [146](../../magpie/internal/provider/quotas.go#L146) |
-| ReckonHolds | var_spec |  | [153](../../magpie/internal/provider/quotas.go#L153) |
-| QuotaReport | function_declaration |  | [156](../../magpie/internal/provider/quotas.go#L156) |
-| KeptQuotaReport | function_declaration |  | [164](../../magpie/internal/provider/quotas.go#L164) |
-| subs | var_spec | KeptQuotaReport | [165](../../magpie/internal/provider/quotas.go#L165) |
-| quotaReport | function_declaration |  | [180](../../magpie/internal/provider/quotas.go#L180) |
-| kind | field_declaration | quotaReport | [188](../../magpie/internal/provider/quotas.go#L188) |
-| qs | field_declaration | quotaReport | [189](../../magpie/internal/provider/quotas.go#L189) |
-| ResetClock | function_declaration |  | [213](../../magpie/internal/provider/quotas.go#L213) |
-| PlanTerm | function_declaration |  | [230](../../magpie/internal/provider/quotas.go#L230) |
+| Quotas | function_declaration |  | [16](../../magpie/internal/provider/quotas.go#L16) |
+| InProviderOrder | function_declaration |  | [27](../../magpie/internal/provider/quotas.go#L27) |
+| Allotted | function_declaration |  | [46](../../magpie/internal/provider/quotas.go#L46) |
+| quotas | function_declaration |  | [51](../../magpie/internal/provider/quotas.go#L51) |
+| Quota | type_spec |  | [79](../../magpie/internal/provider/quotas.go#L79) |
+| Provider | field_declaration | Quota | [80](../../magpie/internal/provider/quotas.go#L80) |
+| Name | field_declaration | Quota | [81](../../magpie/internal/provider/quotas.go#L81) |
+| Kind | field_declaration | Quota | [82](../../magpie/internal/provider/quotas.go#L82) |
+| Plan | field_declaration | Quota | [83](../../magpie/internal/provider/quotas.go#L83) |
+| User | field_declaration | Quota | [84](../../magpie/internal/provider/quotas.go#L84) |
+| Windows | field_declaration | Quota | [85](../../magpie/internal/provider/quotas.go#L85) |
+| Balance | field_declaration | Quota | [86](../../magpie/internal/provider/quotas.go#L86) |
+| BalanceSplit | field_declaration | Quota | [89](../../magpie/internal/provider/quotas.go#L89) |
+| SharedBalance | field_declaration | Quota | [92](../../magpie/internal/provider/quotas.go#L92) |
+| Error | field_declaration | Quota | [93](../../magpie/internal/provider/quotas.go#L93) |
+| AsOf | field_declaration | Quota | [94](../../magpie/internal/provider/quotas.go#L94) |
+| ReadDeferred | field_declaration | Quota | [96](../../magpie/internal/provider/quotas.go#L96) |
+| ReadAt | field_declaration | Quota | [99](../../magpie/internal/provider/quotas.go#L99) |
+| Until | field_declaration | Quota | [102](../../magpie/internal/provider/quotas.go#L102) |
+| Renew | field_declaration | Quota | [103](../../magpie/internal/provider/quotas.go#L103) |
+| Resets | field_declaration | Quota | [105](../../magpie/internal/provider/quotas.go#L105) |
+| ResetsUsed | field_declaration | Quota | [108](../../magpie/internal/provider/quotas.go#L108) |
+| LastServedAt | field_declaration | Quota | [112](../../magpie/internal/provider/quotas.go#L112) |
+| Last | field_declaration | Quota | [113](../../magpie/internal/provider/quotas.go#L113) |
+| From | field_declaration | Quota | [116](../../magpie/internal/provider/quotas.go#L116) |
+| Alias | field_declaration | Quota | [119](../../magpie/internal/provider/quotas.go#L119) |
+| Seat | field_declaration | Quota | [120](../../magpie/internal/provider/quotas.go#L120) |
+| QuotaSpan | type_spec |  | [125](../../magpie/internal/provider/quotas.go#L125) |
+| Unlimited | field_declaration | QuotaSpan | [126](../../magpie/internal/provider/quotas.go#L126) |
+| Name | field_declaration | QuotaSpan | [127](../../magpie/internal/provider/quotas.go#L127) |
+| Used | field_declaration | QuotaSpan | [128](../../magpie/internal/provider/quotas.go#L128) |
+| Remaining | field_declaration | QuotaSpan | [129](../../magpie/internal/provider/quotas.go#L129) |
+| ResetsAt | field_declaration | QuotaSpan | [130](../../magpie/internal/provider/quotas.go#L130) |
+| Display | field_declaration | QuotaSpan | [131](../../magpie/internal/provider/quotas.go#L131) |
+| Text | field_declaration | QuotaSpan | [134](../../magpie/internal/provider/quotas.go#L134) |
+| Amount | field_declaration | QuotaSpan | [137](../../magpie/internal/provider/quotas.go#L137) |
+| Limit | field_declaration | QuotaSpan | [138](../../magpie/internal/provider/quotas.go#L138) |
+| Unit | field_declaration | QuotaSpan | [139](../../magpie/internal/provider/quotas.go#L139) |
+| Pool | field_declaration | QuotaSpan | [140](../../magpie/internal/provider/quotas.go#L140) |
+| RunsOutAt | field_declaration | QuotaSpan | [145](../../magpie/internal/provider/quotas.go#L145) |
+| RunsOut | field_declaration | QuotaSpan | [146](../../magpie/internal/provider/quotas.go#L146) |
+| Balance | field_declaration | QuotaSpan | [149](../../magpie/internal/provider/quotas.go#L149) |
+| Spent | field_declaration | QuotaSpan | [152](../../magpie/internal/provider/quotas.go#L152) |
+| SpentSince | field_declaration | QuotaSpan | [153](../../magpie/internal/provider/quotas.go#L153) |
+| Holds | field_declaration | QuotaSpan | [157](../../magpie/internal/provider/quotas.go#L157) |
+| HoldsWhy | field_declaration | QuotaSpan | [158](../../magpie/internal/provider/quotas.go#L158) |
+| ReckonHolds | var_spec |  | [165](../../magpie/internal/provider/quotas.go#L165) |
+| QuotaReport | function_declaration |  | [168](../../magpie/internal/provider/quotas.go#L168) |
+| KeptQuotaReport | function_declaration |  | [176](../../magpie/internal/provider/quotas.go#L176) |
+| subs | var_spec | KeptQuotaReport | [177](../../magpie/internal/provider/quotas.go#L177) |
+| quotaReport | function_declaration |  | [192](../../magpie/internal/provider/quotas.go#L192) |
+| kind | field_declaration | quotaReport | [200](../../magpie/internal/provider/quotas.go#L200) |
+| qs | field_declaration | quotaReport | [201](../../magpie/internal/provider/quotas.go#L201) |
+| BalanceText | function_declaration |  | [226](../../magpie/internal/provider/quotas.go#L226) |
+| ResetClock | function_declaration |  | [243](../../magpie/internal/provider/quotas.go#L243) |
+| PlanTerm | function_declaration |  | [260](../../magpie/internal/provider/quotas.go#L260) |

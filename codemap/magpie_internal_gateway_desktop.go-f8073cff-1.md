@@ -4,64 +4,104 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/desktop.go) · page 1/1
 
-Source SHA-256: 5095d0230cb7f5e0f501481d8fa7f85462e93aab3b555bc696d30f497929e2ee
+Source SHA-256: 14070937c60b8dae9ca4cf26435f39faa4be9d26fc7e5a31df14e593a6c878d1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| desktopDenied | var_spec |  | [33](../../magpie/internal/gateway/desktop.go#L33) |
-| desktopTier | var_spec |  | [34](../../magpie/internal/gateway/desktop.go#L34) |
-| desktopWords | var_spec |  | [35](../../magpie/internal/gateway/desktop.go#L35) |
-| desktopAccepts | function_declaration |  | [39](../../magpie/internal/gateway/desktop.go#L39) |
-| desktopUAVersion | var_spec |  | [69](../../magpie/internal/gateway/desktop.go#L69) |
-| desktopKnowsMythos | function_declaration |  | [71](../../magpie/internal/gateway/desktop.go#L71) |
-| desktopAlias | const_spec |  | [86](../../magpie/internal/gateway/desktop.go#L86) |
-| desktopEffortAlias | const_spec |  | [115](../../magpie/internal/gateway/desktop.go#L115) |
-| desktopClaudeInfix | const_spec |  | [116](../../magpie/internal/gateway/desktop.go#L116) |
-| desktopClaude | var_spec |  | [122](../../magpie/internal/gateway/desktop.go#L122) |
-| desktopDated | var_spec |  | [123](../../magpie/internal/gateway/desktop.go#L123) |
-| aliasNumber | function_declaration |  | [126](../../magpie/internal/gateway/desktop.go#L126) |
-| aliasFor | function_declaration |  | [132](../../magpie/internal/gateway/desktop.go#L132) |
-| claudeModel | function_declaration |  | [138](../../magpie/internal/gateway/desktop.go#L138) |
-| claudeLooking | function_declaration |  | [161](../../magpie/internal/gateway/desktop.go#L161) |
-| DesktopID | function_declaration |  | [178](../../magpie/internal/gateway/desktop.go#L178) |
-| DesktopNumber | function_declaration |  | [190](../../magpie/internal/gateway/desktop.go#L190) |
-| desktopModels | function_declaration |  | [214](../../magpie/internal/gateway/desktop.go#L214) |
-| desktop1M | const_spec |  | [267](../../magpie/internal/gateway/desktop.go#L267) |
-| desktopListed1M | function_declaration |  | [271](../../magpie/internal/gateway/desktop.go#L271) |
-| DesktopListed1M | function_declaration |  | [275](../../magpie/internal/gateway/desktop.go#L275) |
-| desktop1MSaid | const_spec |  | [281](../../magpie/internal/gateway/desktop.go#L281) |
-| DesktopTierNames | var_spec |  | [292](../../magpie/internal/gateway/desktop.go#L292) |
-| desktopTiersPath | function_declaration |  | [294](../../magpie/internal/gateway/desktop.go#L294) |
-| DesktopTiers | function_declaration |  | [297](../../magpie/internal/gateway/desktop.go#L297) |
-| SetDesktopTier | function_declaration |  | [308](../../magpie/internal/gateway/desktop.go#L308) |
-| DesktopCatalogID | function_declaration |  | [336](../../magpie/internal/gateway/desktop.go#L336) |
-| claudeTier | function_declaration |  | [345](../../magpie/internal/gateway/desktop.go#L345) |
-| desktopTierTurn | function_declaration |  | [365](../../magpie/internal/gateway/desktop.go#L365) |
-| desktopNames | function_declaration |  | [383](../../magpie/internal/gateway/desktop.go#L383) |
-| aliased | function_declaration |  | [402](../../magpie/internal/gateway/desktop.go#L402) |
-| number | var_spec | aliased | [404](../../magpie/internal/gateway/desktop.go#L404) |
-| isClaudeDesktop | function_declaration |  | [431](../../magpie/internal/gateway/desktop.go#L431) |
-| desktopPicked | var_spec |  | [453](../../magpie/internal/gateway/desktop.go#L453) |
-| model | field_declaration | desktopPicked | [455](../../magpie/internal/gateway/desktop.go#L455) |
-| from | field_declaration | desktopPicked | [456](../../magpie/internal/gateway/desktop.go#L456) |
-| desktopPickedPath | function_declaration |  | [459](../../magpie/internal/gateway/desktop.go#L459) |
-| desktopTurn | function_declaration |  | [479](../../magpie/internal/gateway/desktop.go#L479) |
-| servedBeside | function_declaration |  | [537](../../magpie/internal/gateway/desktop.go#L537) |
-| pid | var_spec | servedBeside | [543](../../magpie/internal/gateway/desktop.go#L543) |
-| desktopDefault | function_declaration |  | [579](../../magpie/internal/gateway/desktop.go#L579) |
-| desktopTitlePrompt | const_spec |  | [595](../../magpie/internal/gateway/desktop.go#L595) |
-| desktopTitle | function_declaration |  | [599](../../magpie/internal/gateway/desktop.go#L599) |
-| v | var_spec | desktopTitle | [603](../../magpie/internal/gateway/desktop.go#L603) |
-| System | field_declaration | desktopTitle::v | [604](../../magpie/internal/gateway/desktop.go#L604) |
-| text | var_spec | desktopTitle | [609](../../magpie/internal/gateway/desktop.go#L609) |
-| blocks | var_spec | desktopTitle | [613](../../magpie/internal/gateway/desktop.go#L613) |
-| Text | field_declaration | desktopTitle::blocks | [614](../../magpie/internal/gateway/desktop.go#L614) |
-| small | function_declaration |  | [629](../../magpie/internal/gateway/desktop.go#L629) |
-| v | var_spec | small | [630](../../magpie/internal/gateway/desktop.go#L630) |
-| MaxTokens | field_declaration | small::v | [631](../../magpie/internal/gateway/desktop.go#L631) |
-| hasTools | function_declaration |  | [638](../../magpie/internal/gateway/desktop.go#L638) |
-| v | var_spec | hasTools | [642](../../magpie/internal/gateway/desktop.go#L642) |
-| Tools | field_declaration | hasTools::v | [643](../../magpie/internal/gateway/desktop.go#L643) |
+| desktopDenied | var_spec |  | [37](../../magpie/internal/gateway/desktop.go#L37) |
+| desktopTier | var_spec |  | [38](../../magpie/internal/gateway/desktop.go#L38) |
+| desktopWords | var_spec |  | [39](../../magpie/internal/gateway/desktop.go#L39) |
+| desktopAccepts | function_declaration |  | [43](../../magpie/internal/gateway/desktop.go#L43) |
+| desktopUAVersion | var_spec |  | [73](../../magpie/internal/gateway/desktop.go#L73) |
+| desktopKnowsMythos | function_declaration |  | [75](../../magpie/internal/gateway/desktop.go#L75) |
+| desktopAlias | const_spec |  | [90](../../magpie/internal/gateway/desktop.go#L90) |
+| desktopEffortAlias | const_spec |  | [119](../../magpie/internal/gateway/desktop.go#L119) |
+| desktopClaudeInfix | const_spec |  | [120](../../magpie/internal/gateway/desktop.go#L120) |
+| desktopClaude | var_spec |  | [126](../../magpie/internal/gateway/desktop.go#L126) |
+| desktopDated | var_spec |  | [127](../../magpie/internal/gateway/desktop.go#L127) |
+| aliasNumber | function_declaration |  | [130](../../magpie/internal/gateway/desktop.go#L130) |
+| aliasFor | function_declaration |  | [136](../../magpie/internal/gateway/desktop.go#L136) |
+| claudeModel | function_declaration |  | [142](../../magpie/internal/gateway/desktop.go#L142) |
+| claudeLooking | function_declaration |  | [165](../../magpie/internal/gateway/desktop.go#L165) |
+| DesktopID | function_declaration |  | [182](../../magpie/internal/gateway/desktop.go#L182) |
+| DesktopNumber | function_declaration |  | [195](../../magpie/internal/gateway/desktop.go#L195) |
+| desktopModels | function_declaration |  | [220](../../magpie/internal/gateway/desktop.go#L220) |
+| said | var_spec | desktopModels | [242](../../magpie/internal/gateway/desktop.go#L242) |
+| desktop1M | const_spec |  | [278](../../magpie/internal/gateway/desktop.go#L278) |
+| desktopListed1M | function_declaration |  | [282](../../magpie/internal/gateway/desktop.go#L282) |
+| DesktopListed1M | function_declaration |  | [286](../../magpie/internal/gateway/desktop.go#L286) |
+| desktop1MSaid | const_spec |  | [292](../../magpie/internal/gateway/desktop.go#L292) |
+| desktopSaidBy | function_declaration |  | [309](../../magpie/internal/gateway/desktop.go#L309) |
+| DesktopTierNames | var_spec |  | [326](../../magpie/internal/gateway/desktop.go#L326) |
+| desktopTiersPath | function_declaration |  | [328](../../magpie/internal/gateway/desktop.go#L328) |
+| DesktopTiers | function_declaration |  | [331](../../magpie/internal/gateway/desktop.go#L331) |
+| SetDesktopTier | function_declaration |  | [342](../../magpie/internal/gateway/desktop.go#L342) |
+| DesktopCatalogID | function_declaration |  | [370](../../magpie/internal/gateway/desktop.go#L370) |
+| claudeTier | function_declaration |  | [379](../../magpie/internal/gateway/desktop.go#L379) |
+| desktopTierTurn | function_declaration |  | [399](../../magpie/internal/gateway/desktop.go#L399) |
+| desktopTierAsked | function_declaration |  | [417](../../magpie/internal/gateway/desktop.go#L417) |
+| desktopNames | function_declaration |  | [435](../../magpie/internal/gateway/desktop.go#L435) |
+| aliased | function_declaration |  | [454](../../magpie/internal/gateway/desktop.go#L454) |
+| magpieAliasAsked | function_declaration |  | [486](../../magpie/internal/gateway/desktop.go#L486) |
+| aliasDigits | function_declaration |  | [493](../../magpie/internal/gateway/desktop.go#L493) |
+| isClaudeDesktop | function_declaration |  | [513](../../magpie/internal/gateway/desktop.go#L513) |
+| desktopPicked | var_spec |  | [538](../../magpie/internal/gateway/desktop.go#L538) |
+| model | field_declaration | desktopPicked | [540](../../magpie/internal/gateway/desktop.go#L540) |
+| from | field_declaration | desktopPicked | [541](../../magpie/internal/gateway/desktop.go#L541) |
+| at | field_declaration | desktopPicked | [542](../../magpie/internal/gateway/desktop.go#L542) |
+| desktopPickedPath | function_declaration |  | [545](../../magpie/internal/gateway/desktop.go#L545) |
+| loadPicked | function_declaration |  | [549](../../magpie/internal/gateway/desktop.go#L549) |
+| desktopTurn | function_declaration |  | [579](../../magpie/internal/gateway/desktop.go#L579) |
+| movedTier | const_spec |  | [589](../../magpie/internal/gateway/desktop.go#L589) |
+| movedCheck | const_spec |  | [590](../../magpie/internal/gateway/desktop.go#L590) |
+| movedCheckFirst | const_spec |  | [591](../../magpie/internal/gateway/desktop.go#L591) |
+| movedTitle | const_spec |  | [592](../../magpie/internal/gateway/desktop.go#L592) |
+| movedTitleFirst | const_spec |  | [593](../../magpie/internal/gateway/desktop.go#L593) |
+| movedGone | const_spec |  | [594](../../magpie/internal/gateway/desktop.go#L594) |
+| movedGoneFirst | const_spec |  | [595](../../magpie/internal/gateway/desktop.go#L595) |
+| movedBeside | const_spec |  | [596](../../magpie/internal/gateway/desktop.go#L596) |
+| movedAside | const_spec |  | [597](../../magpie/internal/gateway/desktop.go#L597) |
+| desktopMove | function_declaration |  | [602](../../magpie/internal/gateway/desktop.go#L602) |
+| desktopMoveTo | function_declaration |  | [610](../../magpie/internal/gateway/desktop.go#L610) |
+| claudeOwnID | function_declaration |  | [699](../../magpie/internal/gateway/desktop.go#L699) |
+| servedBeside | function_declaration |  | [738](../../magpie/internal/gateway/desktop.go#L738) |
+| pid | var_spec | servedBeside | [745](../../magpie/internal/gateway/desktop.go#L745) |
+| tierID | var_spec | servedBeside | [775](../../magpie/internal/gateway/desktop.go#L775) |
+| desktopDefault | function_declaration |  | [818](../../magpie/internal/gateway/desktop.go#L818) |
+| desktopSelectorRoots | var_spec |  | [835](../../magpie/internal/gateway/desktop.go#L835) |
+| out | var_spec | desktopSelectorRoots | [837](../../magpie/internal/gateway/desktop.go#L837) |
+| desktopSurfaces | var_spec |  | [854](../../magpie/internal/gateway/desktop.go#L854) |
+| desktopChosen | function_declaration |  | [879](../../magpie/internal/gateway/desktop.go#L879) |
+| path | var_spec | desktopChosen | [880](../../magpie/internal/gateway/desktop.go#L880) |
+| newest | var_spec | desktopChosen | [881](../../magpie/internal/gateway/desktop.go#L881) |
+| v | var_spec | desktopChosen | [897](../../magpie/internal/gateway/desktop.go#L897) |
+| State | field_declaration | desktopChosen::v | [898](../../magpie/internal/gateway/desktop.go#L898) |
+| Model | field_declaration | desktopChosen::v::State | [899](../../magpie/internal/gateway/desktop.go#L899) |
+| chosen | var_spec | desktopChosen | [905](../../magpie/internal/gateway/desktop.go#L905) |
+| desktopProbe | function_declaration |  | [946](../../magpie/internal/gateway/desktop.go#L946) |
+| v | var_spec | desktopProbe | [947](../../magpie/internal/gateway/desktop.go#L947) |
+| MaxTokens | field_declaration | desktopProbe::v | [948](../../magpie/internal/gateway/desktop.go#L948) |
+| System | field_declaration | desktopProbe::v | [949](../../magpie/internal/gateway/desktop.go#L949) |
+| Tools | field_declaration | desktopProbe::v | [950](../../magpie/internal/gateway/desktop.go#L950) |
+| Messages | field_declaration | desktopProbe::v | [951](../../magpie/internal/gateway/desktop.go#L951) |
+| m | var_spec | desktopProbe | [956](../../magpie/internal/gateway/desktop.go#L956) |
+| Role | field_declaration | desktopProbe::m | [957](../../magpie/internal/gateway/desktop.go#L957) |
+| Content | field_declaration | desktopProbe::m | [958](../../magpie/internal/gateway/desktop.go#L958) |
+| desktopProbeTokens | const_spec |  | [967](../../magpie/internal/gateway/desktop.go#L967) |
+| KindDesktopCheck | const_spec |  | [971](../../magpie/internal/gateway/desktop.go#L971) |
+| desktopTitlePrompt | const_spec |  | [976](../../magpie/internal/gateway/desktop.go#L976) |
+| desktopTitle | function_declaration |  | [980](../../magpie/internal/gateway/desktop.go#L980) |
+| v | var_spec | desktopTitle | [984](../../magpie/internal/gateway/desktop.go#L984) |
+| System | field_declaration | desktopTitle::v | [985](../../magpie/internal/gateway/desktop.go#L985) |
+| text | var_spec | desktopTitle | [990](../../magpie/internal/gateway/desktop.go#L990) |
+| blocks | var_spec | desktopTitle | [994](../../magpie/internal/gateway/desktop.go#L994) |
+| Text | field_declaration | desktopTitle::blocks | [995](../../magpie/internal/gateway/desktop.go#L995) |
+| small | function_declaration |  | [1010](../../magpie/internal/gateway/desktop.go#L1010) |
+| v | var_spec | small | [1011](../../magpie/internal/gateway/desktop.go#L1011) |
+| MaxTokens | field_declaration | small::v | [1012](../../magpie/internal/gateway/desktop.go#L1012) |
+| hasTools | function_declaration |  | [1019](../../magpie/internal/gateway/desktop.go#L1019) |
+| v | var_spec | hasTools | [1023](../../magpie/internal/gateway/desktop.go#L1023) |
+| Tools | field_declaration | hasTools::v | [1024](../../magpie/internal/gateway/desktop.go#L1024) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 312: ERROR
+- line 346: ERROR

@@ -4,12 +4,13 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/codex_portable.go) · page 1/1
 
-Source SHA-256: 4dab794c1a5a893863a9e3709dffa0f748ed6ca6b5afd979e3c7cc2a7a52d36d
+Source SHA-256: 49bd7fdd3607659398c294729c4d2aefabb50cb2d561f250c9f8198bf3f36d28
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| codexPortEvery | var_spec |  | [20](../../magpie/internal/agent/codex_portable.go#L20) |
-| codexPortUnwire | const_spec |  | [24](../../magpie/internal/agent/codex_portable.go#L24) |
-| portCodexHome | function_declaration |  | [28](../../magpie/internal/agent/codex_portable.go#L28) |
-| PortCodexRollouts | function_declaration |  | [42](../../magpie/internal/agent/codex_portable.go#L42) |
-| KeepCodexRolloutsPortable | function_declaration |  | [50](../../magpie/internal/agent/codex_portable.go#L50) |
+| codexPortEvery | var_spec |  | [23](../../magpie/internal/agent/codex_portable.go#L23) |
+| codexPortUnwire | const_spec |  | [27](../../magpie/internal/agent/codex_portable.go#L27) |
+| portCodexHome | function_declaration |  | [31](../../magpie/internal/agent/codex_portable.go#L31) |
+| PortCodexRollouts | function_declaration |  | [49](../../magpie/internal/agent/codex_portable.go#L49) |
+| codexLeft | function_declaration |  | [57](../../magpie/internal/agent/codex_portable.go#L57) |
+| KeepCodexRolloutsPortable | function_declaration |  | [64](../../magpie/internal/agent/codex_portable.go#L64) |

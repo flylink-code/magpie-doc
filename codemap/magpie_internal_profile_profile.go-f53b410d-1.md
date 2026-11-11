@@ -4,7 +4,7 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/profile/profile.go) · page 1/1
 
-Source SHA-256: 5c7c1240320bc6309c0bb2e921b89d244b23747399c9ece8e23be9894204be2d
+Source SHA-256: e6d5ac5e94c6c59cb15b574460c3207bfab7467e84dce1d8e55b270e574ad928
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -29,15 +29,16 @@ Source SHA-256: 5c7c1240320bc6309c0bb2e921b89d244b23747399c9ece8e23be9894204be2d
 | Snapshot | function_declaration |  | [174](../../magpie/internal/profile/profile.go#L174) |
 | Save | function_declaration |  | [187](../../magpie/internal/profile/profile.go#L187) |
 | Delete | function_declaration |  | [201](../../magpie/internal/profile/profile.go#L201) |
-| Applied | type_spec |  | [214](../../magpie/internal/profile/profile.go#L214) |
-| Changed | field_declaration | Applied | [215](../../magpie/internal/profile/profile.go#L215) |
-| Library | field_declaration | Applied | [218](../../magpie/internal/profile/profile.go#L218) |
-| Apply | function_declaration |  | [227](../../magpie/internal/profile/profile.go#L227) |
-| out | var_spec | Apply | [228](../../magpie/internal/profile/profile.go#L228) |
-| ApplyFields | function_declaration |  | [250](../../magpie/internal/profile/profile.go#L250) |
-| wanted | function_declaration |  | [307](../../magpie/internal/profile/profile.go#L307) |
-| InUse | function_declaration |  | [324](../../magpie/internal/profile/profile.go#L324) |
-| Summary | function_declaration |  | [368](../../magpie/internal/profile/profile.go#L368) |
-| LongSummary | function_declaration |  | [384](../../magpie/internal/profile/profile.go#L384) |
-| Report | function_declaration |  | [397](../../magpie/internal/profile/profile.go#L397) |
-| out | var_spec | Report | [402](../../magpie/internal/profile/profile.go#L402) |
+| Rename | function_declaration |  | [218](../../magpie/internal/profile/profile.go#L218) |
+| Applied | type_spec |  | [243](../../magpie/internal/profile/profile.go#L243) |
+| Changed | field_declaration | Applied | [244](../../magpie/internal/profile/profile.go#L244) |
+| Library | field_declaration | Applied | [247](../../magpie/internal/profile/profile.go#L247) |
+| Apply | function_declaration |  | [256](../../magpie/internal/profile/profile.go#L256) |
+| out | var_spec | Apply | [257](../../magpie/internal/profile/profile.go#L257) |
+| ApplyFields | function_declaration |  | [279](../../magpie/internal/profile/profile.go#L279) |
+| wanted | function_declaration |  | [336](../../magpie/internal/profile/profile.go#L336) |
+| InUse | function_declaration |  | [353](../../magpie/internal/profile/profile.go#L353) |
+| Summary | function_declaration |  | [397](../../magpie/internal/profile/profile.go#L397) |
+| LongSummary | function_declaration |  | [413](../../magpie/internal/profile/profile.go#L413) |
+| Report | function_declaration |  | [426](../../magpie/internal/profile/profile.go#L426) |
+| out | var_spec | Report | [431](../../magpie/internal/profile/profile.go#L431) |

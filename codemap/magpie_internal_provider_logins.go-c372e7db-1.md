@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/logins.go) · page 1/2
 
-Source SHA-256: 3dbc0f04af40712c6dd51051568716112eedd16cb06ef67a13343872f0b30e1e
+Source SHA-256: ce64935f03f571c0ef77bde6c692481704d6fbdea631cffa0c3b9da2459a17f3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,95 +16,95 @@ Source SHA-256: 3dbc0f04af40712c6dd51051568716112eedd16cb06ef67a13343872f0b30e1e
 | Active | field_declaration | Login | [47](../../magpie/internal/provider/logins.go#L47) |
 | On | field_declaration | Login | [48](../../magpie/internal/provider/logins.go#L48) |
 | Lapsed | field_declaration | Login | [51](../../magpie/internal/provider/logins.go#L51) |
-| Own | field_declaration | Login | [54](../../magpie/internal/provider/logins.go#L54) |
-| Paused | field_declaration | Login | [57](../../magpie/internal/provider/logins.go#L57) |
-| Returns | field_declaration | Login | [60](../../magpie/internal/provider/logins.go#L60) |
-| first | field_declaration | Login | [64](../../magpie/internal/provider/logins.go#L64) |
-| home | field_declaration | Login | [67](../../magpie/internal/provider/logins.go#L67) |
-| savedLogin | type_spec |  | [70](../../magpie/internal/provider/logins.go#L70) |
-| ID | field_declaration | savedLogin | [76](../../magpie/internal/provider/logins.go#L76) |
-| Order | field_declaration | savedLogin | [79](../../magpie/internal/provider/logins.go#L79) |
-| Agent | field_declaration | savedLogin | [80](../../magpie/internal/provider/logins.go#L80) |
-| User | field_declaration | savedLogin | [81](../../magpie/internal/provider/logins.go#L81) |
-| Plan | field_declaration | savedLogin | [82](../../magpie/internal/provider/logins.go#L82) |
-| AccessSKU | field_declaration | savedLogin | [83](../../magpie/internal/provider/logins.go#L83) |
-| Seen | field_declaration | savedLogin | [84](../../magpie/internal/provider/logins.go#L84) |
-| On | field_declaration | savedLogin | [87](../../magpie/internal/provider/logins.go#L87) |
-| Auth | field_declaration | savedLogin | [90](../../magpie/internal/provider/logins.go#L90) |
-| Profile | field_declaration | savedLogin | [93](../../magpie/internal/provider/logins.go#L93) |
-| Home | field_declaration | savedLogin | [97](../../magpie/internal/provider/logins.go#L97) |
-| First | field_declaration | savedLogin | [98](../../magpie/internal/provider/logins.go#L98) |
-| Project | field_declaration | savedLogin | [101](../../magpie/internal/provider/logins.go#L101) |
-| Renewed | field_declaration | savedLogin | [104](../../magpie/internal/provider/logins.go#L104) |
-| Lapsed | field_declaration | savedLogin | [105](../../magpie/internal/provider/logins.go#L105) |
-| Refused | field_declaration | savedLogin | [109](../../magpie/internal/provider/logins.go#L109) |
-| Hidden | field_declaration | savedLogin | [113](../../magpie/internal/provider/logins.go#L113) |
-| Paused | field_declaration | savedLogin | [117](../../magpie/internal/provider/logins.go#L117) |
-| Held | field_declaration | savedLogin | [121](../../magpie/internal/provider/logins.go#L121) |
-| was | field_declaration | savedLogin | [125](../../magpie/internal/provider/logins.go#L125) |
-| loginsMu | var_spec |  | [134](../../magpie/internal/provider/logins.go#L134) |
-| loginsSeenAt | var_spec |  | [142](../../magpie/internal/provider/logins.go#L142) |
-| loginsLookDue | function_declaration |  | [146](../../magpie/internal/provider/logins.go#L146) |
-| loginAgents | var_spec |  | [152](../../magpie/internal/provider/logins.go#L152) |
-| loginID | function_declaration |  | [157](../../magpie/internal/provider/logins.go#L157) |
-| LoginID | function_declaration |  | [169](../../magpie/internal/provider/logins.go#L169) |
-| loginsPath | function_declaration |  | [178](../../magpie/internal/provider/logins.go#L178) |
-| lastLoginsMu | var_spec |  | [186](../../magpie/internal/provider/logins.go#L186) |
-| lastLogins | var_spec |  | [187](../../magpie/internal/provider/logins.go#L187) |
-| loginsKnown | var_spec |  | [188](../../magpie/internal/provider/logins.go#L188) |
-| parseLogins | function_declaration |  | [192](../../magpie/internal/provider/logins.go#L192) |
-| out | var_spec | parseLogins | [193](../../magpie/internal/provider/logins.go#L193) |
-| validLogins | function_declaration |  | [206](../../magpie/internal/provider/logins.go#L206) |
-| ls | var_spec | validLogins | [207](../../magpie/internal/provider/logins.go#L207) |
-| readLogins | function_declaration |  | [211](../../magpie/internal/provider/logins.go#L211) |
-| unreadBytes | function_declaration |  | [246](../../magpie/internal/provider/logins.go#L246) |
-| writeLogins | function_declaration |  | [251](../../magpie/internal/provider/logins.go#L251) |
-| beforeLoginsWrite | var_spec |  | [286](../../magpie/internal/provider/logins.go#L286) |
-| sortLogins | function_declaration |  | [290](../../magpie/internal/provider/logins.go#L290) |
-| writePrivate | function_declaration |  | [311](../../magpie/internal/provider/logins.go#L311) |
-| upsertLogin | function_declaration |  | [323](../../magpie/internal/provider/logins.go#L323) |
-| dedupeLogins | function_declaration |  | [356](../../magpie/internal/provider/logins.go#L356) |
-| sameLogin | function_declaration |  | [396](../../magpie/internal/provider/logins.go#L396) |
-| ea | var_spec | sameLogin | [400](../../magpie/internal/provider/logins.go#L400) |
-| codexWho | function_declaration |  | [416](../../magpie/internal/provider/logins.go#L416) |
-| a | var_spec | codexWho | [417](../../magpie/internal/provider/logins.go#L417) |
-| codexName | function_declaration |  | [437](../../magpie/internal/provider/logins.go#L437) |
-| nameAlike | function_declaration |  | [473](../../magpie/internal/provider/logins.go#L473) |
-| codexLiveName | function_declaration |  | [493](../../magpie/internal/provider/logins.go#L493) |
-| codexUser | function_declaration |  | [500](../../magpie/internal/provider/logins.go#L500) |
-| claudeWho | function_declaration |  | [512](../../magpie/internal/provider/logins.go#L512) |
-| acct | var_spec | claudeWho | [513](../../magpie/internal/provider/logins.go#L513) |
-| Email | field_declaration | claudeWho::acct | [514](../../magpie/internal/provider/logins.go#L514) |
-| Org | field_declaration | claudeWho::acct | [515](../../magpie/internal/provider/logins.go#L515) |
-| claudeUser | function_declaration |  | [526](../../magpie/internal/provider/logins.go#L526) |
-| codexAuthPath | function_declaration |  | [538](../../magpie/internal/provider/logins.go#L538) |
-| CodexAPIKeySignedIn | function_declaration |  | [544](../../magpie/internal/provider/logins.go#L544) |
-| a | var_spec | CodexAPIKeySignedIn | [549](../../magpie/internal/provider/logins.go#L549) |
-| claudeProfilePath | function_declaration |  | [555](../../magpie/internal/provider/logins.go#L555) |
-| readClaudeProfile | function_declaration |  | [563](../../magpie/internal/provider/logins.go#L563) |
-| m | var_spec | readClaudeProfile | [570](../../magpie/internal/provider/logins.go#L570) |
-| claudeProfileAccount | function_declaration |  | [580](../../magpie/internal/provider/logins.go#L580) |
-| m | var_spec | claudeProfileAccount | [585](../../magpie/internal/provider/logins.go#L585) |
-| OAuthAccount | field_declaration | claudeProfileAccount::m | [586](../../magpie/internal/provider/logins.go#L586) |
-| claudeSignedInUser | function_declaration |  | [601](../../magpie/internal/provider/logins.go#L601) |
-| savedButSignedOut | function_declaration |  | [617](../../magpie/internal/provider/logins.go#L617) |
-| out | var_spec | savedButSignedOut | [624](../../magpie/internal/provider/logins.go#L624) |
-| codexSignedOutWhy | function_declaration |  | [648](../../magpie/internal/provider/logins.go#L648) |
-| se | var_spec | codexSignedOutWhy | [650](../../magpie/internal/provider/logins.go#L650) |
-| liveLogin | function_declaration |  | [671](../../magpie/internal/provider/logins.go#L671) |
-| acct | var_spec | liveLogin | [694](../../magpie/internal/provider/logins.go#L694) |
-| CodexSignInPlan | function_declaration |  | [711](../../magpie/internal/provider/logins.go#L711) |
-| init | function_declaration |  | [716](../../magpie/internal/provider/logins.go#L716) |
-| codexLoginIn | function_declaration |  | [721](../../magpie/internal/provider/logins.go#L721) |
-| a | var_spec | codexLoginIn | [726](../../magpie/internal/provider/logins.go#L726) |
-| codexOtherHomes | function_declaration |  | [747](../../magpie/internal/provider/logins.go#L747) |
-| codexHomeLogins | function_declaration |  | [754](../../magpie/internal/provider/logins.go#L754) |
-| out | var_spec | codexHomeLogins | [755](../../magpie/internal/provider/logins.go#L755) |
-| codexHeldIn | function_declaration |  | [770](../../magpie/internal/provider/logins.go#L770) |
-| sameRefresh | function_declaration |  | [785](../../magpie/internal/provider/logins.go#L785) |
-| a | var_spec | sameRefresh | [786](../../magpie/internal/provider/logins.go#L786) |
-| accountRemoved | function_declaration |  | [796](../../magpie/internal/provider/logins.go#L796) |
-| rememberLogins | function_declaration |  | [800](../../magpie/internal/provider/logins.go#L800) |
-| seenEvery | const_spec |  | [862](../../magpie/internal/provider/logins.go#L862) |
-| onlySeenMoved | function_declaration |  | [866](../../magpie/internal/provider/logins.go#L866) |
-| SignedOut | method_declaration |  | [901](../../magpie/internal/provider/logins.go#L901) |
+| Until | field_declaration | Login | [55](../../magpie/internal/provider/logins.go#L55) |
+| Own | field_declaration | Login | [58](../../magpie/internal/provider/logins.go#L58) |
+| Paused | field_declaration | Login | [61](../../magpie/internal/provider/logins.go#L61) |
+| Returns | field_declaration | Login | [64](../../magpie/internal/provider/logins.go#L64) |
+| Token | field_declaration | Login | [67](../../magpie/internal/provider/logins.go#L67) |
+| AccessOnly | field_declaration | Login | [71](../../magpie/internal/provider/logins.go#L71) |
+| first | field_declaration | Login | [75](../../magpie/internal/provider/logins.go#L75) |
+| home | field_declaration | Login | [78](../../magpie/internal/provider/logins.go#L78) |
+| savedLogin | type_spec |  | [81](../../magpie/internal/provider/logins.go#L81) |
+| ID | field_declaration | savedLogin | [87](../../magpie/internal/provider/logins.go#L87) |
+| Order | field_declaration | savedLogin | [90](../../magpie/internal/provider/logins.go#L90) |
+| Agent | field_declaration | savedLogin | [91](../../magpie/internal/provider/logins.go#L91) |
+| User | field_declaration | savedLogin | [92](../../magpie/internal/provider/logins.go#L92) |
+| Plan | field_declaration | savedLogin | [93](../../magpie/internal/provider/logins.go#L93) |
+| AccessSKU | field_declaration | savedLogin | [94](../../magpie/internal/provider/logins.go#L94) |
+| Seen | field_declaration | savedLogin | [95](../../magpie/internal/provider/logins.go#L95) |
+| On | field_declaration | savedLogin | [98](../../magpie/internal/provider/logins.go#L98) |
+| Auth | field_declaration | savedLogin | [101](../../magpie/internal/provider/logins.go#L101) |
+| Profile | field_declaration | savedLogin | [104](../../magpie/internal/provider/logins.go#L104) |
+| Home | field_declaration | savedLogin | [108](../../magpie/internal/provider/logins.go#L108) |
+| First | field_declaration | savedLogin | [109](../../magpie/internal/provider/logins.go#L109) |
+| Project | field_declaration | savedLogin | [112](../../magpie/internal/provider/logins.go#L112) |
+| Renewed | field_declaration | savedLogin | [117](../../magpie/internal/provider/logins.go#L117) |
+| Lapsed | field_declaration | savedLogin | [118](../../magpie/internal/provider/logins.go#L118) |
+| AccessOnly | field_declaration | savedLogin | [122](../../magpie/internal/provider/logins.go#L122) |
+| Refused | field_declaration | savedLogin | [126](../../magpie/internal/provider/logins.go#L126) |
+| Hidden | field_declaration | savedLogin | [130](../../magpie/internal/provider/logins.go#L130) |
+| Paused | field_declaration | savedLogin | [134](../../magpie/internal/provider/logins.go#L134) |
+| Held | field_declaration | savedLogin | [138](../../magpie/internal/provider/logins.go#L138) |
+| HeldAs | field_declaration | savedLogin | [144](../../magpie/internal/provider/logins.go#L144) |
+| was | field_declaration | savedLogin | [148](../../magpie/internal/provider/logins.go#L148) |
+| loginsMu | var_spec |  | [157](../../magpie/internal/provider/logins.go#L157) |
+| loginsSeenAt | var_spec |  | [165](../../magpie/internal/provider/logins.go#L165) |
+| loginsLookDue | function_declaration |  | [169](../../magpie/internal/provider/logins.go#L169) |
+| loginAgents | var_spec |  | [175](../../magpie/internal/provider/logins.go#L175) |
+| loginID | function_declaration |  | [180](../../magpie/internal/provider/logins.go#L180) |
+| LoginID | function_declaration |  | [192](../../magpie/internal/provider/logins.go#L192) |
+| loginsPath | function_declaration |  | [201](../../magpie/internal/provider/logins.go#L201) |
+| lastLoginsMu | var_spec |  | [209](../../magpie/internal/provider/logins.go#L209) |
+| lastLogins | var_spec |  | [210](../../magpie/internal/provider/logins.go#L210) |
+| loginsKnown | var_spec |  | [211](../../magpie/internal/provider/logins.go#L211) |
+| parseLogins | function_declaration |  | [215](../../magpie/internal/provider/logins.go#L215) |
+| out | var_spec | parseLogins | [216](../../magpie/internal/provider/logins.go#L216) |
+| validLogins | function_declaration |  | [237](../../magpie/internal/provider/logins.go#L237) |
+| ls | var_spec | validLogins | [238](../../magpie/internal/provider/logins.go#L238) |
+| readLogins | function_declaration |  | [242](../../magpie/internal/provider/logins.go#L242) |
+| loginsCopied | var_spec |  | [248](../../magpie/internal/provider/logins.go#L248) |
+| sharedLogins | function_declaration |  | [254](../../magpie/internal/provider/logins.go#L254) |
+| unreadBytes | function_declaration |  | [289](../../magpie/internal/provider/logins.go#L289) |
+| writeLogins | function_declaration |  | [294](../../magpie/internal/provider/logins.go#L294) |
+| beforeLoginsWrite | var_spec |  | [329](../../magpie/internal/provider/logins.go#L329) |
+| sortLogins | function_declaration |  | [333](../../magpie/internal/provider/logins.go#L333) |
+| writePrivate | function_declaration |  | [354](../../magpie/internal/provider/logins.go#L354) |
+| upsertLogin | function_declaration |  | [366](../../magpie/internal/provider/logins.go#L366) |
+| dedupeLogins | function_declaration |  | [399](../../magpie/internal/provider/logins.go#L399) |
+| sameLogin | function_declaration |  | [439](../../magpie/internal/provider/logins.go#L439) |
+| ea | var_spec | sameLogin | [443](../../magpie/internal/provider/logins.go#L443) |
+| codexWho | function_declaration |  | [463](../../magpie/internal/provider/logins.go#L463) |
+| a | var_spec | codexWho | [465](../../magpie/internal/provider/logins.go#L465) |
+| codexWhos | var_spec |  | [479](../../magpie/internal/provider/logins.go#L479) |
+| authMemo | type_spec |  | [485](../../magpie/internal/provider/logins.go#L485) |
+| m | field_declaration | authMemo | [487](../../magpie/internal/provider/logins.go#L487) |
+| authMemoMax | const_spec |  | [490](../../magpie/internal/provider/logins.go#L490) |
+| of | method_declaration |  | [492](../../magpie/internal/provider/logins.go#L492) |
+| codexName | function_declaration |  | [517](../../magpie/internal/provider/logins.go#L517) |
+| nameAlike | function_declaration |  | [553](../../magpie/internal/provider/logins.go#L553) |
+| codexLiveName | function_declaration |  | [573](../../magpie/internal/provider/logins.go#L573) |
+| codexUser | function_declaration |  | [580](../../magpie/internal/provider/logins.go#L580) |
+| claudeWho | function_declaration |  | [592](../../magpie/internal/provider/logins.go#L592) |
+| acct | var_spec | claudeWho | [593](../../magpie/internal/provider/logins.go#L593) |
+| Email | field_declaration | claudeWho::acct | [594](../../magpie/internal/provider/logins.go#L594) |
+| Org | field_declaration | claudeWho::acct | [595](../../magpie/internal/provider/logins.go#L595) |
+| claudeUser | function_declaration |  | [606](../../magpie/internal/provider/logins.go#L606) |
+| codexAuthPath | function_declaration |  | [618](../../magpie/internal/provider/logins.go#L618) |
+| CodexAPIKeySignedIn | function_declaration |  | [624](../../magpie/internal/provider/logins.go#L624) |
+| a | var_spec | CodexAPIKeySignedIn | [629](../../magpie/internal/provider/logins.go#L629) |
+| claudeProfilePath | function_declaration |  | [635](../../magpie/internal/provider/logins.go#L635) |
+| readClaudeProfile | function_declaration |  | [643](../../magpie/internal/provider/logins.go#L643) |
+| m | var_spec | readClaudeProfile | [650](../../magpie/internal/provider/logins.go#L650) |
+| claudeProfileAccount | function_declaration |  | [660](../../magpie/internal/provider/logins.go#L660) |
+| m | var_spec | claudeProfileAccount | [665](../../magpie/internal/provider/logins.go#L665) |
+| OAuthAccount | field_declaration | claudeProfileAccount::m | [666](../../magpie/internal/provider/logins.go#L666) |
+| ClaudeTrustedProjects | function_declaration |  | [684](../../magpie/internal/provider/logins.go#L684) |
+| m | var_spec | ClaudeTrustedProjects | [689](../../magpie/internal/provider/logins.go#L689) |
+| Projects | field_declaration | ClaudeTrustedProjects::m | [690](../../magpie/internal/provider/logins.go#L690) |
+| Trusted | field_declaration | ClaudeTrustedProjects::m::Projects | [691](../../magpie/internal/provider/logins.go#L691) |
+| claudeSignedInUser | function_declaration |  | [718](../../magpie/internal/provider/logins.go#L718) |
+| savedButSignedOut | function_declaration |  | [734](../../magpie/internal/provider/logins.go#L734) |
+| out | var_spec | savedButSignedOut | [741](../../magpie/internal/provider/logins.go#L741) |
+| codexSignedOutWhy | function_declaration |  | [765](../../magpie/internal/provider/logins.go#L765) |
+| se | var_spec | codexSignedOutWhy | [767](../../magpie/internal/provider/logins.go#L767) |
+| liveLogin | function_declaration |  | [788](../../magpie/internal/provider/logins.go#L788) |

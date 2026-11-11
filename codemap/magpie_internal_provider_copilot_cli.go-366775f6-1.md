@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/copilot_cli.go) · page 1/1
 
-Source SHA-256: 6974a34436eaf79ab8f060d81569bc32544100137cda985c0606d763dfb9bd39
+Source SHA-256: 875ecd159a86db4fe5ce2ca9f39ce7766438e5d3f81acd7226bd00c93bbbf428
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,26 +14,26 @@ Source SHA-256: 6974a34436eaf79ab8f060d81569bc32544100137cda985c0606d763dfb9bd39
 | Host | field_declaration | copilotCLIUser | [44](../../magpie/internal/provider/copilot_cli.go#L44) |
 | Login | field_declaration | copilotCLIUser | [45](../../magpie/internal/provider/copilot_cli.go#L45) |
 | copilotCLIHome | function_declaration |  | [49](../../magpie/internal/provider/copilot_cli.go#L49) |
-| CopilotWSLHomes | var_spec |  | [61](../../magpie/internal/provider/copilot_cli.go#L61) |
-| copilotWSLAge | var_spec |  | [65](../../magpie/internal/provider/copilot_cli.go#L65) |
-| copilotWSL | var_spec |  | [67](../../magpie/internal/provider/copilot_cli.go#L67) |
-| at | field_declaration | copilotWSL | [69](../../magpie/internal/provider/copilot_cli.go#L69) |
-| app | field_declaration | copilotWSL | [70](../../magpie/internal/provider/copilot_cli.go#L70) |
-| ok | field_declaration | copilotWSL | [71](../../magpie/internal/provider/copilot_cli.go#L71) |
-| copilotCLILogin | function_declaration |  | [79](../../magpie/internal/provider/copilot_cli.go#L79) |
-| copilotCLILoginIn | function_declaration |  | [109](../../magpie/internal/provider/copilot_cli.go#L109) |
-| cfg | var_spec | copilotCLILoginIn | [114](../../magpie/internal/provider/copilot_cli.go#L114) |
-| Last | field_declaration | copilotCLILoginIn::cfg | [115](../../magpie/internal/provider/copilot_cli.go#L115) |
-| Users | field_declaration | copilotCLILoginIn::cfg | [116](../../magpie/internal/provider/copilot_cli.go#L116) |
-| Tokens | field_declaration | copilotCLILoginIn::cfg | [117](../../magpie/internal/provider/copilot_cli.go#L117) |
-| copilotSecrets | var_spec |  | [151](../../magpie/internal/provider/copilot_cli.go#L151) |
-| at | field_declaration | copilotSecrets | [153](../../magpie/internal/provider/copilot_cli.go#L153) |
-| tok | field_declaration | copilotSecrets | [154](../../magpie/internal/provider/copilot_cli.go#L154) |
-| copilotCLISecret | var_spec |  | [159](../../magpie/internal/provider/copilot_cli.go#L159) |
-| out | var_spec | copilotCLISecret | [176](../../magpie/internal/provider/copilot_cli.go#L176) |
-| copilotSecretWait | var_spec |  | [191](../../magpie/internal/provider/copilot_cli.go#L191) |
-| copilotSecretTool | function_declaration |  | [198](../../magpie/internal/provider/copilot_cli.go#L198) |
-| copilotDirect | function_declaration |  | [214](../../magpie/internal/provider/copilot_cli.go#L214) |
-| u | var_spec | copilotDirect | [233](../../magpie/internal/provider/copilot_cli.go#L233) |
-| Endpoints | field_declaration | copilotDirect::u | [234](../../magpie/internal/provider/copilot_cli.go#L234) |
-| API | field_declaration | copilotDirect::u::Endpoints | [235](../../magpie/internal/provider/copilot_cli.go#L235) |
+| CopilotWSLDirs | var_spec |  | [63](../../magpie/internal/provider/copilot_cli.go#L63) |
+| copilotWSLAge | var_spec |  | [67](../../magpie/internal/provider/copilot_cli.go#L67) |
+| copilotWSL | var_spec |  | [69](../../magpie/internal/provider/copilot_cli.go#L69) |
+| at | field_declaration | copilotWSL | [71](../../magpie/internal/provider/copilot_cli.go#L71) |
+| app | field_declaration | copilotWSL | [72](../../magpie/internal/provider/copilot_cli.go#L72) |
+| ok | field_declaration | copilotWSL | [73](../../magpie/internal/provider/copilot_cli.go#L73) |
+| copilotCLILogin | function_declaration |  | [81](../../magpie/internal/provider/copilot_cli.go#L81) |
+| copilotCLILoginIn | function_declaration |  | [111](../../magpie/internal/provider/copilot_cli.go#L111) |
+| cfg | var_spec | copilotCLILoginIn | [116](../../magpie/internal/provider/copilot_cli.go#L116) |
+| Last | field_declaration | copilotCLILoginIn::cfg | [117](../../magpie/internal/provider/copilot_cli.go#L117) |
+| Users | field_declaration | copilotCLILoginIn::cfg | [118](../../magpie/internal/provider/copilot_cli.go#L118) |
+| Tokens | field_declaration | copilotCLILoginIn::cfg | [119](../../magpie/internal/provider/copilot_cli.go#L119) |
+| copilotSecrets | var_spec |  | [153](../../magpie/internal/provider/copilot_cli.go#L153) |
+| at | field_declaration | copilotSecrets | [155](../../magpie/internal/provider/copilot_cli.go#L155) |
+| tok | field_declaration | copilotSecrets | [156](../../magpie/internal/provider/copilot_cli.go#L156) |
+| copilotCLISecret | var_spec |  | [161](../../magpie/internal/provider/copilot_cli.go#L161) |
+| out | var_spec | copilotCLISecret | [178](../../magpie/internal/provider/copilot_cli.go#L178) |
+| copilotSecretWait | var_spec |  | [193](../../magpie/internal/provider/copilot_cli.go#L193) |
+| copilotSecretTool | function_declaration |  | [200](../../magpie/internal/provider/copilot_cli.go#L200) |
+| copilotDirect | function_declaration |  | [216](../../magpie/internal/provider/copilot_cli.go#L216) |
+| u | var_spec | copilotDirect | [235](../../magpie/internal/provider/copilot_cli.go#L235) |
+| Endpoints | field_declaration | copilotDirect::u | [236](../../magpie/internal/provider/copilot_cli.go#L236) |
+| API | field_declaration | copilotDirect::u::Endpoints | [237](../../magpie/internal/provider/copilot_cli.go#L237) |

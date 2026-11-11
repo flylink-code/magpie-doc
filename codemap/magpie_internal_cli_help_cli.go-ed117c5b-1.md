@@ -4,16 +4,16 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/help_cli.go) · page 1/1
 
-Source SHA-256: bd6d968eac24279b15c41c5ccd9cf3adb04d2e737402b798d7be309c6a66b653
+Source SHA-256: 78e3d07165c6026fca62ff81416eb85d7f83062f4ab51f34b403d249273d150d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | helpAsked | function_declaration |  | [18](../../magpie/internal/cli/help_cli.go#L18) |
 | helpFor | function_declaration |  | [34](../../magpie/internal/cli/help_cli.go#L34) |
-| usageLines | function_declaration |  | [99](../../magpie/internal/cli/help_cli.go#L99) |
-| b | var_spec | usageLines | [100](../../magpie/internal/cli/help_cli.go#L100) |
-| agentHelp | function_declaration |  | [117](../../magpie/internal/cli/help_cli.go#L117) |
-| b | var_spec | agentHelp | [118](../../magpie/internal/cli/help_cli.go#L118) |
-| keys | var_spec | agentHelp | [134](../../magpie/internal/cli/help_cli.go#L134) |
-| both | var_spec | agentHelp | [140](../../magpie/internal/cli/help_cli.go#L140) |
-| flagArg | function_declaration |  | [162](../../magpie/internal/cli/help_cli.go#L162) |
+| usageLines | function_declaration |  | [112](../../magpie/internal/cli/help_cli.go#L112) |
+| b | var_spec | usageLines | [113](../../magpie/internal/cli/help_cli.go#L113) |
+| agentHelp | function_declaration |  | [130](../../magpie/internal/cli/help_cli.go#L130) |
+| b | var_spec | agentHelp | [131](../../magpie/internal/cli/help_cli.go#L131) |
+| keys | var_spec | agentHelp | [155](../../magpie/internal/cli/help_cli.go#L155) |
+| both | var_spec | agentHelp | [161](../../magpie/internal/cli/help_cli.go#L161) |
+| flagArg | function_declaration |  | [183](../../magpie/internal/cli/help_cli.go#L183) |

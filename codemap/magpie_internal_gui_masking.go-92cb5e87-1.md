@@ -4,28 +4,30 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/masking.go) · page 1/1
 
-Source SHA-256: fa7b08990464d9b0a78e19b3edd5d05231fb045513cefdf8c2d383efa6ff91cf
+Source SHA-256: 010db1b6300504da0f7f3b6236602217502bcd9c370e3eef239fe78cc9075a34
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| previewMax | const_spec |  | [16](../../magpie/internal/gui/masking.go#L16) |
-| valuesMax | const_spec |  | [19](../../magpie/internal/gui/masking.go#L19) |
-| maskedRecord | type_spec |  | [24](../../magpie/internal/gui/masking.go#L24) |
-| Key | field_declaration | maskedRecord | [27](../../magpie/internal/gui/masking.go#L27) |
-| Values | field_declaration | maskedRecord | [28](../../magpie/internal/gui/masking.go#L28) |
-| maskedValue | type_spec |  | [31](../../magpie/internal/gui/masking.go#L31) |
-| Known | field_declaration | maskedValue | [33](../../magpie/internal/gui/masking.go#L33) |
-| teller | function_declaration |  | [38](../../magpie/internal/gui/masking.go#L38) |
-| shownRecord | function_declaration |  | [47](../../magpie/internal/gui/masking.go#L47) |
-| maskingRoutes | function_declaration |  | [79](../../magpie/internal/gui/masking.go#L79) |
-| in | var_spec | maskingRoutes | [81](../../magpie/internal/gui/masking.go#L81) |
-| Text | field_declaration | maskingRoutes::in | [82](../../magpie/internal/gui/masking.go#L82) |
-| hit | type_spec | maskingRoutes | [92](../../magpie/internal/gui/masking.go#L92) |
-| Kind | field_declaration | maskingRoutes::hit | [93](../../magpie/internal/gui/masking.go#L93) |
-| By | field_declaration | maskingRoutes::hit | [94](../../magpie/internal/gui/masking.go#L94) |
-| Action | field_declaration | maskingRoutes::hit | [95](../../magpie/internal/gui/masking.go#L95) |
-| Placeholder | field_declaration | maskingRoutes::hit | [96](../../magpie/internal/gui/masking.go#L96) |
-| Head | field_declaration | maskingRoutes::hit | [97](../../magpie/internal/gui/masking.go#L97) |
-| Len | field_declaration | maskingRoutes::hit | [98](../../magpie/internal/gui/masking.go#L98) |
-| in | var_spec | maskingRoutes | [165](../../magpie/internal/gui/masking.go#L165) |
-| Ps | field_declaration | maskingRoutes::in | [166](../../magpie/internal/gui/masking.go#L166) |
+| previewMax | const_spec |  | [17](../../magpie/internal/gui/masking.go#L17) |
+| valuesMax | const_spec |  | [20](../../magpie/internal/gui/masking.go#L20) |
+| maskedRecord | type_spec |  | [25](../../magpie/internal/gui/masking.go#L25) |
+| Key | field_declaration | maskedRecord | [28](../../magpie/internal/gui/masking.go#L28) |
+| Values | field_declaration | maskedRecord | [29](../../magpie/internal/gui/masking.go#L29) |
+| maskedValue | type_spec |  | [32](../../magpie/internal/gui/masking.go#L32) |
+| Known | field_declaration | maskedValue | [34](../../magpie/internal/gui/masking.go#L34) |
+| teller | function_declaration |  | [39](../../magpie/internal/gui/masking.go#L39) |
+| shownRecord | function_declaration |  | [48](../../magpie/internal/gui/masking.go#L48) |
+| maskingRoutes | function_declaration |  | [85](../../magpie/internal/gui/masking.go#L85) |
+| in | var_spec | maskingRoutes | [87](../../magpie/internal/gui/masking.go#L87) |
+| P | field_declaration | maskingRoutes::in | [88](../../magpie/internal/gui/masking.go#L88) |
+| in | var_spec | maskingRoutes | [120](../../magpie/internal/gui/masking.go#L120) |
+| Text | field_declaration | maskingRoutes::in | [121](../../magpie/internal/gui/masking.go#L121) |
+| hit | type_spec | maskingRoutes | [131](../../magpie/internal/gui/masking.go#L131) |
+| Kind | field_declaration | maskingRoutes::hit | [132](../../magpie/internal/gui/masking.go#L132) |
+| By | field_declaration | maskingRoutes::hit | [133](../../magpie/internal/gui/masking.go#L133) |
+| Action | field_declaration | maskingRoutes::hit | [134](../../magpie/internal/gui/masking.go#L134) |
+| Placeholder | field_declaration | maskingRoutes::hit | [135](../../magpie/internal/gui/masking.go#L135) |
+| Head | field_declaration | maskingRoutes::hit | [136](../../magpie/internal/gui/masking.go#L136) |
+| Len | field_declaration | maskingRoutes::hit | [137](../../magpie/internal/gui/masking.go#L137) |
+| in | var_spec | maskingRoutes | [204](../../magpie/internal/gui/masking.go#L204) |
+| Ps | field_declaration | maskingRoutes::in | [205](../../magpie/internal/gui/masking.go#L205) |

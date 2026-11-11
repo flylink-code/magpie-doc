@@ -4,84 +4,91 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/maskrec/maskrec.go) · page 1/1
 
-Source SHA-256: c5e245cba9f976442ef8e412e0f72736bbddebadc0822d4a18f0b911c867279d
+Source SHA-256: 9d47b2cf9d374cac2853a0c3934e4f2b8fd662ce77f4a36d966ebdd8635b3ab5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keepDays | const_spec |  | [34](../../magpie/internal/maskrec/maskrec.go#L34) |
-| keepBytes | const_spec |  | [35](../../magpie/internal/maskrec/maskrec.go#L35) |
-| keepSnips | const_spec |  | [38](../../magpie/internal/maskrec/maskrec.go#L38) |
-| keepSent | const_spec |  | [43](../../magpie/internal/maskrec/maskrec.go#L43) |
-| sentMax | const_spec |  | [44](../../magpie/internal/maskrec/maskrec.go#L44) |
-| sentBudget | const_spec |  | [45](../../magpie/internal/maskrec/maskrec.go#L45) |
-| dayForm | const_spec |  | [46](../../magpie/internal/maskrec/maskrec.go#L46) |
-| Value | type_spec |  | [50](../../magpie/internal/maskrec/maskrec.go#L50) |
-| Placeholder | field_declaration | Value | [51](../../magpie/internal/maskrec/maskrec.go#L51) |
-| Kind | field_declaration | Value | [52](../../magpie/internal/maskrec/maskrec.go#L52) |
-| By | field_declaration | Value | [53](../../magpie/internal/maskrec/maskrec.go#L53) |
-| Head | field_declaration | Value | [54](../../magpie/internal/maskrec/maskrec.go#L54) |
-| Len | field_declaration | Value | [55](../../magpie/internal/maskrec/maskrec.go#L55) |
-| N | field_declaration | Value | [56](../../magpie/internal/maskrec/maskrec.go#L56) |
-| Action | field_declaration | Value | [59](../../magpie/internal/maskrec/maskrec.go#L59) |
-| Record | type_spec |  | [63](../../magpie/internal/maskrec/maskrec.go#L63) |
-| Key | field_declaration | Record | [64](../../magpie/internal/maskrec/maskrec.go#L64) |
-| Time | field_declaration | Record | [65](../../magpie/internal/maskrec/maskrec.go#L65) |
-| Route | field_declaration | Record | [66](../../magpie/internal/maskrec/maskrec.go#L66) |
-| What | field_declaration | Record | [67](../../magpie/internal/maskrec/maskrec.go#L67) |
-| Agent | field_declaration | Record | [68](../../magpie/internal/maskrec/maskrec.go#L68) |
-| Session | field_declaration | Record | [69](../../magpie/internal/maskrec/maskrec.go#L69) |
-| Provider | field_declaration | Record | [70](../../magpie/internal/maskrec/maskrec.go#L70) |
-| Model | field_declaration | Record | [71](../../magpie/internal/maskrec/maskrec.go#L71) |
-| N | field_declaration | Record | [72](../../magpie/internal/maskrec/maskrec.go#L72) |
-| Values | field_declaration | Record | [73](../../magpie/internal/maskrec/maskrec.go#L73) |
-| Blocked | field_declaration | Record | [76](../../magpie/internal/maskrec/maskrec.go#L76) |
-| Snips | field_declaration | Record | [79](../../magpie/internal/maskrec/maskrec.go#L79) |
-| Took | field_declaration | Record | [81](../../magpie/internal/maskrec/maskrec.go#L81) |
-| Back | field_declaration | Record | [84](../../magpie/internal/maskrec/maskrec.go#L84) |
-| Sent | field_declaration | Record | [87](../../magpie/internal/maskrec/maskrec.go#L87) |
-| Dir | var_spec |  | [91](../../magpie/internal/maskrec/maskrec.go#L91) |
-| clock | var_spec |  | [94](../../magpie/internal/maskrec/maskrec.go#L94) |
-| store | var_spec |  | [96](../../magpie/internal/maskrec/maskrec.go#L96) |
-| mu | field_declaration | store | [97](../../magpie/internal/maskrec/maskrec.go#L97) |
-| last | field_declaration | store | [98](../../magpie/internal/maskrec/maskrec.go#L98) |
-| pruned | field_declaration | store | [99](../../magpie/internal/maskrec/maskrec.go#L99) |
-| days | field_declaration | store | [100](../../magpie/internal/maskrec/maskrec.go#L100) |
-| snips | field_declaration | store | [101](../../magpie/internal/maskrec/maskrec.go#L101) |
-| sent | field_declaration | store | [102](../../magpie/internal/maskrec/maskrec.go#L102) |
-| sentBytes | field_declaration | store | [104](../../magpie/internal/maskrec/maskrec.go#L104) |
-| kept | type_spec |  | [108](../../magpie/internal/maskrec/maskrec.go#L108) |
-| key | field_declaration | kept | [109](../../magpie/internal/maskrec/maskrec.go#L109) |
-| n | field_declaration | kept | [110](../../magpie/internal/maskrec/maskrec.go#L110) |
-| inTest | function_declaration |  | [116](../../magpie/internal/maskrec/maskrec.go#L116) |
-| ownTest | var_spec |  | [119](../../magpie/internal/maskrec/maskrec.go#L119) |
-| Add | function_declaration |  | [124](../../magpie/internal/maskrec/maskrec.go#L124) |
-| Hold | function_declaration |  | [137](../../magpie/internal/maskrec/maskrec.go#L137) |
-| once | var_spec | Hold | [172](../../magpie/internal/maskrec/maskrec.go#L172) |
-| settle | function_declaration |  | [178](../../magpie/internal/maskrec/maskrec.go#L178) |
-| Clear | function_declaration |  | [225](../../magpie/internal/maskrec/maskrec.go#L225) |
-| errs | var_spec | Clear | [228](../../magpie/internal/maskrec/maskrec.go#L228) |
-| merged | function_declaration |  | [243](../../magpie/internal/maskrec/maskrec.go#L243) |
-| out | var_spec | merged | [245](../../magpie/internal/maskrec/maskrec.go#L245) |
-| dayFile | type_spec |  | [266](../../magpie/internal/maskrec/maskrec.go#L266) |
-| day | field_declaration | dayFile | [266](../../magpie/internal/maskrec/maskrec.go#L266) |
-| files | function_declaration |  | [269](../../magpie/internal/maskrec/maskrec.go#L269) |
-| out | var_spec | files | [271](../../magpie/internal/maskrec/maskrec.go#L271) |
-| prune | function_declaration |  | [286](../../magpie/internal/maskrec/maskrec.go#L286) |
-| total | var_spec | prune | [289](../../magpie/internal/maskrec/maskrec.go#L289) |
-| read | function_declaration |  | [310](../../magpie/internal/maskrec/maskrec.go#L310) |
-| size | var_spec | read | [316](../../magpie/internal/maskrec/maskrec.go#L316) |
-| r | var_spec | read | [325](../../magpie/internal/maskrec/maskrec.go#L325) |
-| at | function_declaration |  | [334](../../magpie/internal/maskrec/maskrec.go#L334) |
-| withSnips | function_declaration |  | [344](../../magpie/internal/maskrec/maskrec.go#L344) |
-| Restored | function_declaration |  | [353](../../magpie/internal/maskrec/maskrec.go#L353) |
-| SentOf | function_declaration |  | [373](../../magpie/internal/maskrec/maskrec.go#L373) |
-| Filter | type_spec |  | [385](../../magpie/internal/maskrec/maskrec.go#L385) |
-| Kind | field_declaration | Filter | [386](../../magpie/internal/maskrec/maskrec.go#L386) |
-| Blocked | field_declaration | Filter | [387](../../magpie/internal/maskrec/maskrec.go#L387) |
-| takes | method_declaration |  | [390](../../magpie/internal/maskrec/maskrec.go#L390) |
-| List | function_declaration |  | [408](../../magpie/internal/maskrec/maskrec.go#L408) |
-| out | var_spec | List | [414](../../magpie/internal/maskrec/maskrec.go#L414) |
-| day | var_spec | List | [420](../../magpie/internal/maskrec/maskrec.go#L420) |
-| Get | function_declaration |  | [453](../../magpie/internal/maskrec/maskrec.go#L453) |
-| got | var_spec | Get | [462](../../magpie/internal/maskrec/maskrec.go#L462) |
-| OfRoute | function_declaration |  | [473](../../magpie/internal/maskrec/maskrec.go#L473) |
+| keepDays | const_spec |  | [35](../../magpie/internal/maskrec/maskrec.go#L35) |
+| keepBytes | const_spec |  | [36](../../magpie/internal/maskrec/maskrec.go#L36) |
+| keepSnips | const_spec |  | [39](../../magpie/internal/maskrec/maskrec.go#L39) |
+| keepSent | const_spec |  | [47](../../magpie/internal/maskrec/maskrec.go#L47) |
+| sentMax | const_spec |  | [48](../../magpie/internal/maskrec/maskrec.go#L48) |
+| sentBudget | const_spec |  | [49](../../magpie/internal/maskrec/maskrec.go#L49) |
+| dayForm | const_spec |  | [50](../../magpie/internal/maskrec/maskrec.go#L50) |
+| SentMax | const_spec |  | [55](../../magpie/internal/maskrec/maskrec.go#L55) |
+| Value | type_spec |  | [58](../../magpie/internal/maskrec/maskrec.go#L58) |
+| Placeholder | field_declaration | Value | [59](../../magpie/internal/maskrec/maskrec.go#L59) |
+| Kind | field_declaration | Value | [60](../../magpie/internal/maskrec/maskrec.go#L60) |
+| By | field_declaration | Value | [61](../../magpie/internal/maskrec/maskrec.go#L61) |
+| Head | field_declaration | Value | [62](../../magpie/internal/maskrec/maskrec.go#L62) |
+| Len | field_declaration | Value | [63](../../magpie/internal/maskrec/maskrec.go#L63) |
+| N | field_declaration | Value | [64](../../magpie/internal/maskrec/maskrec.go#L64) |
+| Action | field_declaration | Value | [67](../../magpie/internal/maskrec/maskrec.go#L67) |
+| Record | type_spec |  | [71](../../magpie/internal/maskrec/maskrec.go#L71) |
+| Key | field_declaration | Record | [72](../../magpie/internal/maskrec/maskrec.go#L72) |
+| Time | field_declaration | Record | [73](../../magpie/internal/maskrec/maskrec.go#L73) |
+| Route | field_declaration | Record | [74](../../magpie/internal/maskrec/maskrec.go#L74) |
+| What | field_declaration | Record | [75](../../magpie/internal/maskrec/maskrec.go#L75) |
+| Agent | field_declaration | Record | [76](../../magpie/internal/maskrec/maskrec.go#L76) |
+| Session | field_declaration | Record | [77](../../magpie/internal/maskrec/maskrec.go#L77) |
+| Provider | field_declaration | Record | [78](../../magpie/internal/maskrec/maskrec.go#L78) |
+| Model | field_declaration | Record | [79](../../magpie/internal/maskrec/maskrec.go#L79) |
+| N | field_declaration | Record | [80](../../magpie/internal/maskrec/maskrec.go#L80) |
+| Values | field_declaration | Record | [81](../../magpie/internal/maskrec/maskrec.go#L81) |
+| Blocked | field_declaration | Record | [84](../../magpie/internal/maskrec/maskrec.go#L84) |
+| Snips | field_declaration | Record | [87](../../magpie/internal/maskrec/maskrec.go#L87) |
+| Took | field_declaration | Record | [89](../../magpie/internal/maskrec/maskrec.go#L89) |
+| Back | field_declaration | Record | [92](../../magpie/internal/maskrec/maskrec.go#L92) |
+| Sent | field_declaration | Record | [95](../../magpie/internal/maskrec/maskrec.go#L95) |
+| Dir | var_spec |  | [99](../../magpie/internal/maskrec/maskrec.go#L99) |
+| clock | var_spec |  | [102](../../magpie/internal/maskrec/maskrec.go#L102) |
+| store | var_spec |  | [104](../../magpie/internal/maskrec/maskrec.go#L104) |
+| mu | field_declaration | store | [105](../../magpie/internal/maskrec/maskrec.go#L105) |
+| last | field_declaration | store | [106](../../magpie/internal/maskrec/maskrec.go#L106) |
+| pruned | field_declaration | store | [107](../../magpie/internal/maskrec/maskrec.go#L107) |
+| days | field_declaration | store | [108](../../magpie/internal/maskrec/maskrec.go#L108) |
+| snips | field_declaration | store | [109](../../magpie/internal/maskrec/maskrec.go#L109) |
+| sent | field_declaration | store | [110](../../magpie/internal/maskrec/maskrec.go#L110) |
+| sentBytes | field_declaration | store | [112](../../magpie/internal/maskrec/maskrec.go#L112) |
+| first | field_declaration | store | [115](../../magpie/internal/maskrec/maskrec.go#L115) |
+| firstRead | field_declaration | store | [116](../../magpie/internal/maskrec/maskrec.go#L116) |
+| kept | type_spec |  | [120](../../magpie/internal/maskrec/maskrec.go#L120) |
+| key | field_declaration | kept | [121](../../magpie/internal/maskrec/maskrec.go#L121) |
+| body | field_declaration | kept | [122](../../magpie/internal/maskrec/maskrec.go#L122) |
+| sentEnc | var_spec |  | [126](../../magpie/internal/maskrec/maskrec.go#L126) |
+| sentDec | var_spec |  | [131](../../magpie/internal/maskrec/maskrec.go#L131) |
+| inTest | function_declaration |  | [141](../../magpie/internal/maskrec/maskrec.go#L141) |
+| ownTest | var_spec |  | [144](../../magpie/internal/maskrec/maskrec.go#L144) |
+| Add | function_declaration |  | [149](../../magpie/internal/maskrec/maskrec.go#L149) |
+| Hold | function_declaration |  | [162](../../magpie/internal/maskrec/maskrec.go#L162) |
+| body | var_spec | Hold | [170](../../magpie/internal/maskrec/maskrec.go#L170) |
+| once | var_spec | Hold | [199](../../magpie/internal/maskrec/maskrec.go#L199) |
+| settle | function_declaration |  | [205](../../magpie/internal/maskrec/maskrec.go#L205) |
+| Clear | function_declaration |  | [252](../../magpie/internal/maskrec/maskrec.go#L252) |
+| errs | var_spec | Clear | [255](../../magpie/internal/maskrec/maskrec.go#L255) |
+| merged | function_declaration |  | [270](../../magpie/internal/maskrec/maskrec.go#L270) |
+| out | var_spec | merged | [272](../../magpie/internal/maskrec/maskrec.go#L272) |
+| dayFile | type_spec |  | [293](../../magpie/internal/maskrec/maskrec.go#L293) |
+| day | field_declaration | dayFile | [293](../../magpie/internal/maskrec/maskrec.go#L293) |
+| files | function_declaration |  | [296](../../magpie/internal/maskrec/maskrec.go#L296) |
+| out | var_spec | files | [298](../../magpie/internal/maskrec/maskrec.go#L298) |
+| prune | function_declaration |  | [313](../../magpie/internal/maskrec/maskrec.go#L313) |
+| total | var_spec | prune | [316](../../magpie/internal/maskrec/maskrec.go#L316) |
+| read | function_declaration |  | [337](../../magpie/internal/maskrec/maskrec.go#L337) |
+| size | var_spec | read | [343](../../magpie/internal/maskrec/maskrec.go#L343) |
+| r | var_spec | read | [352](../../magpie/internal/maskrec/maskrec.go#L352) |
+| at | function_declaration |  | [361](../../magpie/internal/maskrec/maskrec.go#L361) |
+| withSnips | function_declaration |  | [371](../../magpie/internal/maskrec/maskrec.go#L371) |
+| Restored | function_declaration |  | [380](../../magpie/internal/maskrec/maskrec.go#L380) |
+| SentOf | function_declaration |  | [400](../../magpie/internal/maskrec/maskrec.go#L400) |
+| body | var_spec | SentOf | [401](../../magpie/internal/maskrec/maskrec.go#L401) |
+| Filter | type_spec |  | [423](../../magpie/internal/maskrec/maskrec.go#L423) |
+| Kind | field_declaration | Filter | [424](../../magpie/internal/maskrec/maskrec.go#L424) |
+| Blocked | field_declaration | Filter | [425](../../magpie/internal/maskrec/maskrec.go#L425) |
+| takes | method_declaration |  | [428](../../magpie/internal/maskrec/maskrec.go#L428) |
+| List | function_declaration |  | [446](../../magpie/internal/maskrec/maskrec.go#L446) |
+| out | var_spec | List | [452](../../magpie/internal/maskrec/maskrec.go#L452) |
+| day | var_spec | List | [458](../../magpie/internal/maskrec/maskrec.go#L458) |
+| Get | function_declaration |  | [491](../../magpie/internal/maskrec/maskrec.go#L491) |
+| got | var_spec | Get | [498](../../magpie/internal/maskrec/maskrec.go#L498) |
+| OfRoute | function_declaration |  | [509](../../magpie/internal/maskrec/maskrec.go#L509) |

@@ -4,29 +4,32 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/account_models.go) · page 1/1
 
-Source SHA-256: 54d890aa803db4ee59eb5640c2d0d40f765253afcacaebfea081796d83dd0661
+Source SHA-256: f03433f0db0e6a4563ff75dbf2f936c45ace72d3316cc4ea3d3f8554b6af5cfa
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| AccountServes | method_declaration |  | [22](../../magpie/internal/provider/account_models.go#L22) |
-| codexOwnHidden | function_declaration |  | [35](../../magpie/internal/provider/account_models.go#L35) |
-| AccountRefs | method_declaration |  | [41](../../magpie/internal/provider/account_models.go#L41) |
-| out | var_spec | AccountRefs | [42](../../magpie/internal/provider/account_models.go#L42) |
-| AccountRef | type_spec |  | [68](../../magpie/internal/provider/account_models.go#L68) |
-| ID | field_declaration | AccountRef | [69](../../magpie/internal/provider/account_models.go#L69) |
-| User | field_declaration | AccountRef | [70](../../magpie/internal/provider/account_models.go#L70) |
-| Plan | field_declaration | AccountRef | [71](../../magpie/internal/provider/account_models.go#L71) |
-| Key | field_declaration | AccountRef | [72](../../magpie/internal/provider/account_models.go#L72) |
-| AccountIDs | method_declaration |  | [78](../../magpie/internal/provider/account_models.go#L78) |
-| out | var_spec | AccountIDs | [79](../../magpie/internal/provider/account_models.go#L79) |
-| AccountID | method_declaration |  | [104](../../magpie/internal/provider/account_models.go#L104) |
-| AccountNames | function_declaration |  | [119](../../magpie/internal/provider/account_models.go#L119) |
-| Shown | method_declaration |  | [131](../../magpie/internal/provider/account_models.go#L131) |
-| accountRef | method_declaration |  | [140](../../magpie/internal/provider/account_models.go#L140) |
-| SetAccountModels | function_declaration |  | [159](../../magpie/internal/provider/account_models.go#L159) |
-| AccountModelsOf | function_declaration |  | [191](../../magpie/internal/provider/account_models.go#L191) |
-| SetModels | function_declaration |  | [205](../../magpie/internal/provider/account_models.go#L205) |
-| normalModels | function_declaration |  | [220](../../magpie/internal/provider/account_models.go#L220) |
-| out | var_spec | normalModels | [221](../../magpie/internal/provider/account_models.go#L221) |
-| normalAccountModels | function_declaration |  | [233](../../magpie/internal/provider/account_models.go#L233) |
-| out | var_spec | normalAccountModels | [234](../../magpie/internal/provider/account_models.go#L234) |
+| AccountServes | method_declaration |  | [26](../../magpie/internal/provider/account_models.go#L26) |
+| codexOwnHidden | function_declaration |  | [43](../../magpie/internal/provider/account_models.go#L43) |
+| AccountRefs | method_declaration |  | [49](../../magpie/internal/provider/account_models.go#L49) |
+| out | var_spec | AccountRefs | [50](../../magpie/internal/provider/account_models.go#L50) |
+| AccountRef | type_spec |  | [76](../../magpie/internal/provider/account_models.go#L76) |
+| ID | field_declaration | AccountRef | [77](../../magpie/internal/provider/account_models.go#L77) |
+| User | field_declaration | AccountRef | [78](../../magpie/internal/provider/account_models.go#L78) |
+| Plan | field_declaration | AccountRef | [79](../../magpie/internal/provider/account_models.go#L79) |
+| Key | field_declaration | AccountRef | [80](../../magpie/internal/provider/account_models.go#L80) |
+| AccountIDs | method_declaration |  | [86](../../magpie/internal/provider/account_models.go#L86) |
+| out | var_spec | AccountIDs | [87](../../magpie/internal/provider/account_models.go#L87) |
+| ResolveAccount | function_declaration |  | [114](../../magpie/internal/provider/account_models.go#L114) |
+| AccountID | method_declaration |  | [133](../../magpie/internal/provider/account_models.go#L133) |
+| AccountNames | function_declaration |  | [148](../../magpie/internal/provider/account_models.go#L148) |
+| Shown | method_declaration |  | [160](../../magpie/internal/provider/account_models.go#L160) |
+| accountRef | method_declaration |  | [172](../../magpie/internal/provider/account_models.go#L172) |
+| SetAccountModels | function_declaration |  | [196](../../magpie/internal/provider/account_models.go#L196) |
+| AccountModelsOf | function_declaration |  | [241](../../magpie/internal/provider/account_models.go#L241) |
+| SetModels | function_declaration |  | [255](../../magpie/internal/provider/account_models.go#L255) |
+| normalModels | function_declaration |  | [270](../../magpie/internal/provider/account_models.go#L270) |
+| out | var_spec | normalModels | [271](../../magpie/internal/provider/account_models.go#L271) |
+| normalModelsAll | function_declaration |  | [282](../../magpie/internal/provider/account_models.go#L282) |
+| out | var_spec | normalModelsAll | [283](../../magpie/internal/provider/account_models.go#L283) |
+| normalAccountModels | function_declaration |  | [300](../../magpie/internal/provider/account_models.go#L300) |
+| out | var_spec | normalAccountModels | [301](../../magpie/internal/provider/account_models.go#L301) |

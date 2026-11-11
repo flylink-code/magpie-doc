@@ -4,24 +4,26 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/session_parent.go) · page 1/1
 
-Source SHA-256: 62ecb3125a3e87b0cb36e55de8373c0f23686d0ca9b351e17ace14134893c26b
+Source SHA-256: df4b46b9de28becdcbb26936d86037060894bad9e8eca144358eba17242a8401
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | isTitleKind | function_declaration |  | [10](../../magpie/internal/gateway/session_parent.go#L10) |
-| isDescriptionKind | function_declaration |  | [14](../../magpie/internal/gateway/session_parent.go#L14) |
-| isSummaryKind | function_declaration |  | [20](../../magpie/internal/gateway/session_parent.go#L20) |
-| isPredictionKind | function_declaration |  | [26](../../magpie/internal/gateway/session_parent.go#L26) |
-| sessionMetadata | type_spec |  | [33](../../magpie/internal/gateway/session_parent.go#L33) |
-| Turn | field_declaration | sessionMetadata | [34](../../magpie/internal/gateway/session_parent.go#L34) |
-| Source | field_declaration | sessionMetadata | [35](../../magpie/internal/gateway/session_parent.go#L35) |
-| Parent | field_declaration | sessionMetadata | [36](../../magpie/internal/gateway/session_parent.go#L36) |
-| Forked | field_declaration | sessionMetadata | [37](../../magpie/internal/gateway/session_parent.go#L37) |
-| Installation | field_declaration | sessionMetadata | [38](../../magpie/internal/gateway/session_parent.go#L38) |
-| requestSessionMetadata | function_declaration |  | [41](../../magpie/internal/gateway/session_parent.go#L41) |
-| metadata | var_spec | requestSessionMetadata | [42](../../magpie/internal/gateway/session_parent.go#L42) |
-| m | var_spec | requestSessionMetadata | [43](../../magpie/internal/gateway/session_parent.go#L43) |
-| text | var_spec | requestSessionMetadata | [51](../../magpie/internal/gateway/session_parent.go#L51) |
-| metadataOf | function_declaration |  | [87](../../magpie/internal/gateway/session_parent.go#L87) |
-| requestCallKind | function_declaration |  | [95](../../magpie/internal/gateway/session_parent.go#L95) |
-| titleParentSession | function_declaration |  | [112](../../magpie/internal/gateway/session_parent.go#L112) |
+| isCommitKind | function_declaration |  | [17](../../magpie/internal/gateway/session_parent.go#L17) |
+| isDescriptionKind | function_declaration |  | [21](../../magpie/internal/gateway/session_parent.go#L21) |
+| isSummaryKind | function_declaration |  | [27](../../magpie/internal/gateway/session_parent.go#L27) |
+| isPredictionKind | function_declaration |  | [33](../../magpie/internal/gateway/session_parent.go#L33) |
+| sessionMetadata | type_spec |  | [40](../../magpie/internal/gateway/session_parent.go#L40) |
+| Turn | field_declaration | sessionMetadata | [41](../../magpie/internal/gateway/session_parent.go#L41) |
+| Thread | field_declaration | sessionMetadata | [42](../../magpie/internal/gateway/session_parent.go#L42) |
+| Source | field_declaration | sessionMetadata | [43](../../magpie/internal/gateway/session_parent.go#L43) |
+| Parent | field_declaration | sessionMetadata | [44](../../magpie/internal/gateway/session_parent.go#L44) |
+| Forked | field_declaration | sessionMetadata | [45](../../magpie/internal/gateway/session_parent.go#L45) |
+| Installation | field_declaration | sessionMetadata | [46](../../magpie/internal/gateway/session_parent.go#L46) |
+| requestSessionMetadata | function_declaration |  | [49](../../magpie/internal/gateway/session_parent.go#L49) |
+| metadata | var_spec | requestSessionMetadata | [50](../../magpie/internal/gateway/session_parent.go#L50) |
+| m | var_spec | requestSessionMetadata | [51](../../magpie/internal/gateway/session_parent.go#L51) |
+| text | var_spec | requestSessionMetadata | [59](../../magpie/internal/gateway/session_parent.go#L59) |
+| metadataOf | function_declaration |  | [96](../../magpie/internal/gateway/session_parent.go#L96) |
+| requestCallKind | function_declaration |  | [104](../../magpie/internal/gateway/session_parent.go#L104) |
+| titleParentSession | function_declaration |  | [121](../../magpie/internal/gateway/session_parent.go#L121) |

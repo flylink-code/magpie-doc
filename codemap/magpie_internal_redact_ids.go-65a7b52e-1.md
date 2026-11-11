@@ -4,14 +4,21 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/ids.go) · page 1/1
 
-Source SHA-256: 6bbb845e684b8972f8da4443e8bd4fa66c295a5917c48030784073e2d115146a
+Source SHA-256: 8e7fa466c002e0b82d3f19ac54cb44f56d210dee1e64438835af1427d2001048
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| noIDs | function_declaration |  | [26](../../magpie/internal/redact/ids.go#L26) |
-| idAround | function_declaration |  | [61](../../magpie/internal/redact/ids.go#L61) |
-| hexOrHyphen | function_declaration |  | [82](../../magpie/internal/redact/ids.go#L82) |
-| idShaped | function_declaration |  | [88](../../magpie/internal/redact/ids.go#L88) |
-| credentialField | function_declaration |  | [95](../../magpie/internal/redact/ids.go#L95) |
-| nameWords | function_declaration |  | [131](../../magpie/internal/redact/ids.go#L131) |
-| out | var_spec | nameWords | [132](../../magpie/internal/redact/ids.go#L132) |
+| noIDs | function_declaration |  | [33](../../magpie/internal/redact/ids.go#L33) |
+| idAround | function_declaration |  | [84](../../magpie/internal/redact/ids.go#L84) |
+| nameOfField | function_declaration |  | [116](../../magpie/internal/redact/ids.go#L116) |
+| elementToken | function_declaration |  | [139](../../magpie/internal/redact/ids.go#L139) |
+| elementField | function_declaration |  | [169](../../magpie/internal/redact/ids.go#L169) |
+| hexOrHyphen | function_declaration |  | [173](../../magpie/internal/redact/ids.go#L173) |
+| idShaped | function_declaration |  | [179](../../magpie/internal/redact/ids.go#L179) |
+| digestShaped | function_declaration |  | [190](../../magpie/internal/redact/ids.go#L190) |
+| lower | var_spec | digestShaped | [194](../../magpie/internal/redact/ids.go#L194) |
+| credentialField | function_declaration |  | [218](../../magpie/internal/redact/ids.go#L218) |
+| keyPhrase | function_declaration |  | [246](../../magpie/internal/redact/ids.go#L246) |
+| fieldWords | function_declaration |  | [263](../../magpie/internal/redact/ids.go#L263) |
+| nameWords | function_declaration |  | [284](../../magpie/internal/redact/ids.go#L284) |
+| out | var_spec | nameWords | [285](../../magpie/internal/redact/ids.go#L285) |

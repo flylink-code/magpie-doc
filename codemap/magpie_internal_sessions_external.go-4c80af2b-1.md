@@ -4,27 +4,36 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/external.go) · page 1/1
 
-Source SHA-256: afec201a3861b89f89958cda9d35b1ef73c365f1f2ae3560f84612f6d18a0686
+Source SHA-256: d3a3e5c3e3577de7b1d8c12410540aa77713f333eaa120a7a68ac5f128ba97e3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ExternalModel | type_spec |  | [14](../../magpie/internal/sessions/external.go#L14) |
-| Model | field_declaration | ExternalModel | [15](../../magpie/internal/sessions/external.go#L15) |
-| Cost | field_declaration | ExternalModel | [17](../../magpie/internal/sessions/external.go#L17) |
-| Priced | field_declaration | ExternalModel | [18](../../magpie/internal/sessions/external.go#L18) |
-| ExternalSession | type_spec |  | [20](../../magpie/internal/sessions/external.go#L20) |
-| Agent | field_declaration | ExternalSession | [21](../../magpie/internal/sessions/external.go#L21) |
-| Title | field_declaration | ExternalSession | [22](../../magpie/internal/sessions/external.go#L22) |
-| Start | field_declaration | ExternalSession | [23](../../magpie/internal/sessions/external.go#L23) |
-| Models | field_declaration | ExternalSession | [24](../../magpie/internal/sessions/external.go#L24) |
-| Daily | field_declaration | ExternalSession | [25](../../magpie/internal/sessions/external.go#L25) |
-| Cost | field_declaration | ExternalSession | [27](../../magpie/internal/sessions/external.go#L27) |
-| Unpriced | field_declaration | ExternalSession | [28](../../magpie/internal/sessions/external.go#L28) |
-| MergeExternal | function_declaration |  | [35](../../magpie/internal/sessions/external.go#L35) |
-| desktopExternalTitles | function_declaration |  | [62](../../magpie/internal/sessions/external.go#L62) |
-| ids | var_spec | desktopExternalTitles | [63](../../magpie/internal/sessions/external.go#L63) |
-| ExternalDayUsage | type_spec |  | [89](../../magpie/internal/sessions/external.go#L89) |
-| Date | field_declaration | ExternalDayUsage | [90](../../magpie/internal/sessions/external.go#L90) |
-| Cost | field_declaration | ExternalDayUsage | [92](../../magpie/internal/sessions/external.go#L92) |
-| Priced | field_declaration | ExternalDayUsage | [93](../../magpie/internal/sessions/external.go#L93) |
-| MergeExternalStats | function_declaration |  | [96](../../magpie/internal/sessions/external.go#L96) |
+| ExternalModel | type_spec |  | [15](../../magpie/internal/sessions/external.go#L15) |
+| Model | field_declaration | ExternalModel | [16](../../magpie/internal/sessions/external.go#L16) |
+| Cost | field_declaration | ExternalModel | [18](../../magpie/internal/sessions/external.go#L18) |
+| Priced | field_declaration | ExternalModel | [19](../../magpie/internal/sessions/external.go#L19) |
+| ExternalSession | type_spec |  | [21](../../magpie/internal/sessions/external.go#L21) |
+| Agent | field_declaration | ExternalSession | [22](../../magpie/internal/sessions/external.go#L22) |
+| Title | field_declaration | ExternalSession | [23](../../magpie/internal/sessions/external.go#L23) |
+| Start | field_declaration | ExternalSession | [24](../../magpie/internal/sessions/external.go#L24) |
+| Models | field_declaration | ExternalSession | [25](../../magpie/internal/sessions/external.go#L25) |
+| Daily | field_declaration | ExternalSession | [26](../../magpie/internal/sessions/external.go#L26) |
+| Cost | field_declaration | ExternalSession | [28](../../magpie/internal/sessions/external.go#L28) |
+| Unpriced | field_declaration | ExternalSession | [29](../../magpie/internal/sessions/external.go#L29) |
+| MergeExternal | function_declaration |  | [36](../../magpie/internal/sessions/external.go#L36) |
+| EachMerged | function_declaration |  | [52](../../magpie/internal/sessions/external.go#L52) |
+| s | var_spec | EachMerged | [75](../../magpie/internal/sessions/external.go#L75) |
+| externalAdded | function_declaration |  | [90](../../magpie/internal/sessions/external.go#L90) |
+| agentID | type_spec | externalAdded | [93](../../magpie/internal/sessions/external.go#L93) |
+| agent | field_declaration | externalAdded::agentID | [93](../../magpie/internal/sessions/external.go#L93) |
+| not | var_spec | externalAdded | [102](../../magpie/internal/sessions/external.go#L102) |
+| externalSessions | function_declaration |  | [113](../../magpie/internal/sessions/external.go#L113) |
+| out | var_spec | externalSessions | [115](../../magpie/internal/sessions/external.go#L115) |
+| externalSession | function_declaration |  | [127](../../magpie/internal/sessions/external.go#L127) |
+| desktopExternalTitles | function_declaration |  | [145](../../magpie/internal/sessions/external.go#L145) |
+| ids | var_spec | desktopExternalTitles | [146](../../magpie/internal/sessions/external.go#L146) |
+| ExternalDayUsage | type_spec |  | [172](../../magpie/internal/sessions/external.go#L172) |
+| Date | field_declaration | ExternalDayUsage | [173](../../magpie/internal/sessions/external.go#L173) |
+| Cost | field_declaration | ExternalDayUsage | [175](../../magpie/internal/sessions/external.go#L175) |
+| Priced | field_declaration | ExternalDayUsage | [176](../../magpie/internal/sessions/external.go#L176) |
+| MergeExternalStats | function_declaration |  | [181](../../magpie/internal/sessions/external.go#L181) |

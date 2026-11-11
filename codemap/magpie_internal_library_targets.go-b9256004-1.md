@@ -4,54 +4,69 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/targets.go) · page 1/1
 
-Source SHA-256: 8c1db7e74c30af5710108ad21c361f803ed5588bdcb430b72b9ce73bdd218a27
+Source SHA-256: ddf1eb111c75fe6ca1f27f926fae1752e9b27537097d33f23785402d93eceebc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Target | type_spec |  | [23](../../magpie/internal/library/targets.go#L23) |
-| Agent | field_declaration | Target | [24](../../magpie/internal/library/targets.go#L24) |
-| Instructions | field_declaration | Target | [28](../../magpie/internal/library/targets.go#L28) |
-| MCP | field_declaration | Target | [29](../../magpie/internal/library/targets.go#L29) |
-| Skills | field_declaration | Target | [30](../../magpie/internal/library/targets.go#L30) |
-| SkillsAlso | field_declaration | Target | [33](../../magpie/internal/library/targets.go#L33) |
-| MCPVia | field_declaration | Target | [36](../../magpie/internal/library/targets.go#L36) |
-| Note | field_declaration | Target | [38](../../magpie/internal/library/targets.go#L38) |
-| Copy | field_declaration | Target | [42](../../magpie/internal/library/targets.go#L42) |
-| Desktop | field_declaration | Target | [46](../../magpie/internal/library/targets.go#L46) |
-| Settings | field_declaration | Target | [49](../../magpie/internal/library/targets.go#L49) |
-| Gone | field_declaration | Target | [53](../../magpie/internal/library/targets.go#L53) |
-| Profile | field_declaration | Target | [58](../../magpie/internal/library/targets.go#L58) |
-| home | function_declaration |  | [61](../../magpie/internal/library/targets.go#L61) |
-| grokDir | function_declaration |  | [65](../../magpie/internal/library/targets.go#L65) |
-| claudeDir | function_declaration |  | [72](../../magpie/internal/library/targets.go#L72) |
-| claudeJSON | function_declaration |  | [76](../../magpie/internal/library/targets.go#L76) |
-| codebuddyMCP | function_declaration |  | [85](../../magpie/internal/library/targets.go#L85) |
-| codexDir | function_declaration |  | [99](../../magpie/internal/library/targets.go#L99) |
-| targetOf | function_declaration |  | [103](../../magpie/internal/library/targets.go#L103) |
-| firstThere | function_declaration |  | [489](../../magpie/internal/library/targets.go#L489) |
-| contextFile | function_declaration |  | [503](../../magpie/internal/library/targets.go#L503) |
-| reasonixState | function_declaration |  | [522](../../magpie/internal/library/targets.go#L522) |
-| pluginMCP | var_spec |  | [542](../../magpie/internal/library/targets.go#L542) |
-| pluginTarget | function_declaration |  | [555](../../magpie/internal/library/targets.go#L555) |
-| l | var_spec | pluginTarget | [557](../../magpie/internal/library/targets.go#L557) |
-| wslTargetOf | function_declaration |  | [589](../../magpie/internal/library/targets.go#L589) |
-| ownFolder | var_spec |  | [633](../../magpie/internal/library/targets.go#L633) |
-| wslOwnFolder | function_declaration |  | [641](../../magpie/internal/library/targets.go#L641) |
-| apps | function_declaration |  | [666](../../magpie/internal/library/targets.go#L666) |
-| Targets | function_declaration |  | [683](../../magpie/internal/library/targets.go#L683) |
-| everyTarget | function_declaration |  | [688](../../magpie/internal/library/targets.go#L688) |
-| targets | function_declaration |  | [690](../../magpie/internal/library/targets.go#L690) |
-| out | var_spec | targets | [691](../../magpie/internal/library/targets.go#L691) |
-| held | method_declaration |  | [736](../../magpie/internal/library/targets.go#L736) |
-| out | var_spec | held | [749](../../magpie/internal/library/targets.go#L749) |
-| readsShared | var_spec |  | [765](../../magpie/internal/library/targets.go#L765) |
-| readsWith | function_declaration |  | [772](../../magpie/internal/library/targets.go#L772) |
-| open | method_declaration |  | [796](../../magpie/internal/library/targets.go#L796) |
-| targetByID | function_declaration |  | [809](../../magpie/internal/library/targets.go#L809) |
-| Takes | function_declaration |  | [822](../../magpie/internal/library/targets.go#L822) |
-| a | var_spec | Takes | [823](../../magpie/internal/library/targets.go#L823) |
-| err | var_spec | Takes | [830](../../magpie/internal/library/targets.go#L830) |
-| has | var_spec | Takes | [842](../../magpie/internal/library/targets.go#L842) |
-| noPlace | function_declaration |  | [864](../../magpie/internal/library/targets.go#L864) |
-| takenBy | function_declaration |  | [884](../../magpie/internal/library/targets.go#L884) |
-| ids | var_spec | takenBy | [885](../../magpie/internal/library/targets.go#L885) |
+| Target | type_spec |  | [24](../../magpie/internal/library/targets.go#L24) |
+| Agent | field_declaration | Target | [25](../../magpie/internal/library/targets.go#L25) |
+| Instructions | field_declaration | Target | [29](../../magpie/internal/library/targets.go#L29) |
+| Field | field_declaration | Target | [33](../../magpie/internal/library/targets.go#L33) |
+| MCP | field_declaration | Target | [34](../../magpie/internal/library/targets.go#L34) |
+| Skills | field_declaration | Target | [35](../../magpie/internal/library/targets.go#L35) |
+| SkillsAlso | field_declaration | Target | [38](../../magpie/internal/library/targets.go#L38) |
+| MCPVia | field_declaration | Target | [41](../../magpie/internal/library/targets.go#L41) |
+| Note | field_declaration | Target | [43](../../magpie/internal/library/targets.go#L43) |
+| Copy | field_declaration | Target | [47](../../magpie/internal/library/targets.go#L47) |
+| Store | field_declaration | Target | [53](../../magpie/internal/library/targets.go#L53) |
+| Desktop | field_declaration | Target | [57](../../magpie/internal/library/targets.go#L57) |
+| Settings | field_declaration | Target | [60](../../magpie/internal/library/targets.go#L60) |
+| Gone | field_declaration | Target | [64](../../magpie/internal/library/targets.go#L64) |
+| SharedToo | field_declaration | Target | [68](../../magpie/internal/library/targets.go#L68) |
+| Profile | field_declaration | Target | [73](../../magpie/internal/library/targets.go#L73) |
+| Unreached | field_declaration | Target | [77](../../magpie/internal/library/targets.go#L77) |
+| unreached | method_declaration |  | [82](../../magpie/internal/library/targets.go#L82) |
+| home | function_declaration |  | [95](../../magpie/internal/library/targets.go#L95) |
+| grokDir | function_declaration |  | [99](../../magpie/internal/library/targets.go#L99) |
+| claudeDir | function_declaration |  | [106](../../magpie/internal/library/targets.go#L106) |
+| claudeJSON | function_declaration |  | [110](../../magpie/internal/library/targets.go#L110) |
+| codebuddyMCP | function_declaration |  | [119](../../magpie/internal/library/targets.go#L119) |
+| codebuddyMCPIn | function_declaration |  | [129](../../magpie/internal/library/targets.go#L129) |
+| codexDir | function_declaration |  | [139](../../magpie/internal/library/targets.go#L139) |
+| targetOf | function_declaration |  | [143](../../magpie/internal/library/targets.go#L143) |
+| firstThere | function_declaration |  | [609](../../magpie/internal/library/targets.go#L609) |
+| contextFile | function_declaration |  | [623](../../magpie/internal/library/targets.go#L623) |
+| reasonixState | function_declaration |  | [642](../../magpie/internal/library/targets.go#L642) |
+| pluginMCP | var_spec |  | [662](../../magpie/internal/library/targets.go#L662) |
+| pluginTarget | function_declaration |  | [675](../../magpie/internal/library/targets.go#L675) |
+| l | var_spec | pluginTarget | [677](../../magpie/internal/library/targets.go#L677) |
+| wslTargetOf | function_declaration |  | [710](../../magpie/internal/library/targets.go#L710) |
+| wslOpen | function_declaration |  | [813](../../magpie/internal/library/targets.go#L813) |
+| wslOpened | function_declaration |  | [832](../../magpie/internal/library/targets.go#L832) |
+| ownFolder | var_spec |  | [851](../../magpie/internal/library/targets.go#L851) |
+| wslOwnFolder | function_declaration |  | [859](../../magpie/internal/library/targets.go#L859) |
+| apps | function_declaration |  | [888](../../magpie/internal/library/targets.go#L888) |
+| Targets | function_declaration |  | [922](../../magpie/internal/library/targets.go#L922) |
+| everyTarget | function_declaration |  | [927](../../magpie/internal/library/targets.go#L927) |
+| targets | function_declaration |  | [929](../../magpie/internal/library/targets.go#L929) |
+| targetsAsleep | function_declaration |  | [938](../../magpie/internal/library/targets.go#L938) |
+| out | var_spec | targetsAsleep | [939](../../magpie/internal/library/targets.go#L939) |
+| asleep | var_spec | targetsAsleep | [940](../../magpie/internal/library/targets.go#L940) |
+| held | method_declaration |  | [995](../../magpie/internal/library/targets.go#L995) |
+| out | var_spec | held | [1008](../../magpie/internal/library/targets.go#L1008) |
+| readsShared | var_spec |  | [1029](../../magpie/internal/library/targets.go#L1029) |
+| piSharedSince | const_spec |  | [1041](../../magpie/internal/library/targets.go#L1041) |
+| ompSharedSince | const_spec |  | [1042](../../magpie/internal/library/targets.go#L1042) |
+| ompVersion | var_spec |  | [1046](../../magpie/internal/library/targets.go#L1046) |
+| since | function_declaration |  | [1049](../../magpie/internal/library/targets.go#L1049) |
+| readsSharedDir | method_declaration |  | [1053](../../magpie/internal/library/targets.go#L1053) |
+| readsWith | function_declaration |  | [1062](../../magpie/internal/library/targets.go#L1062) |
+| open | method_declaration |  | [1086](../../magpie/internal/library/targets.go#L1086) |
+| targetByID | function_declaration |  | [1099](../../magpie/internal/library/targets.go#L1099) |
+| Takes | function_declaration |  | [1112](../../magpie/internal/library/targets.go#L1112) |
+| a | var_spec | Takes | [1113](../../magpie/internal/library/targets.go#L1113) |
+| err | var_spec | Takes | [1121](../../magpie/internal/library/targets.go#L1121) |
+| has | var_spec | Takes | [1138](../../magpie/internal/library/targets.go#L1138) |
+| noPlace | function_declaration |  | [1166](../../magpie/internal/library/targets.go#L1166) |
+| takenBy | function_declaration |  | [1186](../../magpie/internal/library/targets.go#L1186) |
+| ids | var_spec | takenBy | [1187](../../magpie/internal/library/targets.go#L1187) |

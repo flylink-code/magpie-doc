@@ -4,39 +4,55 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/stats.go) · page 2/2
 
-Source SHA-256: 60681a25326a48707d9aa13075f545ae37e2631d361390a5be49d2592c32b599
+Source SHA-256: 43daa83d097791f394d4344c765ab05e694f43ed995c2af84bcfdfb0b1551f96
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ToolUse | type_spec |  | [494](../../magpie/internal/sessions/stats.go#L494) |
-| Calls | field_declaration | ToolUse | [495](../../magpie/internal/sessions/stats.go#L495) |
-| Sessions | field_declaration | ToolUse | [496](../../magpie/internal/sessions/stats.go#L496) |
-| Top | field_declaration | ToolUse | [497](../../magpie/internal/sessions/stats.go#L497) |
-| Categories | field_declaration | ToolUse | [498](../../magpie/internal/sessions/stats.go#L498) |
-| Weeks | field_declaration | ToolUse | [500](../../magpie/internal/sessions/stats.go#L500) |
-| ToolStat | type_spec |  | [504](../../magpie/internal/sessions/stats.go#L504) |
-| Name | field_declaration | ToolStat | [505](../../magpie/internal/sessions/stats.go#L505) |
-| Category | field_declaration | ToolStat | [506](../../magpie/internal/sessions/stats.go#L506) |
-| Calls | field_declaration | ToolStat | [507](../../magpie/internal/sessions/stats.go#L507) |
-| Sessions | field_declaration | ToolStat | [508](../../magpie/internal/sessions/stats.go#L508) |
-| ToolWeek | type_spec |  | [512](../../magpie/internal/sessions/stats.go#L512) |
-| Start | field_declaration | ToolWeek | [513](../../magpie/internal/sessions/stats.go#L513) |
-| Calls | field_declaration | ToolWeek | [514](../../magpie/internal/sessions/stats.go#L514) |
-| SkillUse | type_spec |  | [518](../../magpie/internal/sessions/stats.go#L518) |
-| Calls | field_declaration | SkillUse | [519](../../magpie/internal/sessions/stats.go#L519) |
-| Top | field_declaration | SkillUse | [520](../../magpie/internal/sessions/stats.go#L520) |
-| Count | field_declaration | SkillUse | [521](../../magpie/internal/sessions/stats.go#L521) |
-| Skill | type_spec |  | [525](../../magpie/internal/sessions/stats.go#L525) |
-| Name | field_declaration | Skill | [526](../../magpie/internal/sessions/stats.go#L526) |
-| Calls | field_declaration | Skill | [527](../../magpie/internal/sessions/stats.go#L527) |
-| Sessions | field_declaration | Skill | [528](../../magpie/internal/sessions/stats.go#L528) |
-| Last | field_declaration | Skill | [529](../../magpie/internal/sessions/stats.go#L529) |
-| Agents | field_declaration | Skill | [530](../../magpie/internal/sessions/stats.go#L530) |
-| Projects | field_declaration | Skill | [531](../../magpie/internal/sessions/stats.go#L531) |
-| Overview | method_declaration |  | [536](../../magpie/internal/sessions/stats.go#L536) |
-| in | var_spec | Overview | [544](../../magpie/internal/sessions/stats.go#L544) |
-| spent | var_spec | Overview | [545](../../magpie/internal/sessions/stats.go#L545) |
-| shapes | function_declaration |  | [592](../../magpie/internal/sessions/stats.go#L592) |
-| toolUse | function_declaration |  | [627](../../magpie/internal/sessions/stats.go#L627) |
-| skillUse | function_declaration |  | [692](../../magpie/internal/sessions/stats.go#L692) |
-| ToolCategory | function_declaration |  | [730](../../magpie/internal/sessions/stats.go#L730) |
+| titleKept | const_spec |  | [637](../../magpie/internal/sessions/stats.go#L637) |
+| clip | function_declaration |  | [642](../../magpie/internal/sessions/stats.go#L642) |
+| Overview | type_spec |  | [652](../../magpie/internal/sessions/stats.go#L652) |
+| Count | field_declaration | Overview | [653](../../magpie/internal/sessions/stats.go#L653) |
+| Median | field_declaration | Overview | [654](../../magpie/internal/sessions/stats.go#L654) |
+| P90 | field_declaration | Overview | [655](../../magpie/internal/sessions/stats.go#L655) |
+| Days | field_declaration | Overview | [656](../../magpie/internal/sessions/stats.go#L656) |
+| Top | field_declaration | Overview | [659](../../magpie/internal/sessions/stats.go#L659) |
+| Messages | field_declaration | Overview | [662](../../magpie/internal/sessions/stats.go#L662) |
+| Output | field_declaration | Overview | [663](../../magpie/internal/sessions/stats.go#L663) |
+| Shape | field_declaration | Overview | [666](../../magpie/internal/sessions/stats.go#L666) |
+| Tools | field_declaration | Overview | [667](../../magpie/internal/sessions/stats.go#L667) |
+| Skills | field_declaration | Overview | [668](../../magpie/internal/sessions/stats.go#L668) |
+| Shape | type_spec |  | [673](../../magpie/internal/sessions/stats.go#L673) |
+| Edges | field_declaration | Shape | [674](../../magpie/internal/sessions/stats.go#L674) |
+| Counts | field_declaration | Shape | [675](../../magpie/internal/sessions/stats.go#L675) |
+| Total | field_declaration | Shape | [676](../../magpie/internal/sessions/stats.go#L676) |
+| shapeEdges | var_spec |  | [680](../../magpie/internal/sessions/stats.go#L680) |
+| ToolUse | type_spec |  | [687](../../magpie/internal/sessions/stats.go#L687) |
+| Calls | field_declaration | ToolUse | [688](../../magpie/internal/sessions/stats.go#L688) |
+| Sessions | field_declaration | ToolUse | [689](../../magpie/internal/sessions/stats.go#L689) |
+| Top | field_declaration | ToolUse | [690](../../magpie/internal/sessions/stats.go#L690) |
+| Categories | field_declaration | ToolUse | [691](../../magpie/internal/sessions/stats.go#L691) |
+| Weeks | field_declaration | ToolUse | [693](../../magpie/internal/sessions/stats.go#L693) |
+| ToolStat | type_spec |  | [697](../../magpie/internal/sessions/stats.go#L697) |
+| Name | field_declaration | ToolStat | [698](../../magpie/internal/sessions/stats.go#L698) |
+| Category | field_declaration | ToolStat | [699](../../magpie/internal/sessions/stats.go#L699) |
+| Calls | field_declaration | ToolStat | [700](../../magpie/internal/sessions/stats.go#L700) |
+| Sessions | field_declaration | ToolStat | [701](../../magpie/internal/sessions/stats.go#L701) |
+| ToolWeek | type_spec |  | [705](../../magpie/internal/sessions/stats.go#L705) |
+| Start | field_declaration | ToolWeek | [706](../../magpie/internal/sessions/stats.go#L706) |
+| Calls | field_declaration | ToolWeek | [707](../../magpie/internal/sessions/stats.go#L707) |
+| SkillUse | type_spec |  | [711](../../magpie/internal/sessions/stats.go#L711) |
+| Calls | field_declaration | SkillUse | [712](../../magpie/internal/sessions/stats.go#L712) |
+| Top | field_declaration | SkillUse | [713](../../magpie/internal/sessions/stats.go#L713) |
+| Count | field_declaration | SkillUse | [714](../../magpie/internal/sessions/stats.go#L714) |
+| Skill | type_spec |  | [718](../../magpie/internal/sessions/stats.go#L718) |
+| Name | field_declaration | Skill | [719](../../magpie/internal/sessions/stats.go#L719) |
+| Calls | field_declaration | Skill | [720](../../magpie/internal/sessions/stats.go#L720) |
+| Sessions | field_declaration | Skill | [721](../../magpie/internal/sessions/stats.go#L721) |
+| Last | field_declaration | Skill | [722](../../magpie/internal/sessions/stats.go#L722) |
+| Agents | field_declaration | Skill | [723](../../magpie/internal/sessions/stats.go#L723) |
+| Projects | field_declaration | Skill | [724](../../magpie/internal/sessions/stats.go#L724) |
+| Overview | method_declaration |  | [729](../../magpie/internal/sessions/stats.go#L729) |
+| shapes | function_declaration |  | [794](../../magpie/internal/sessions/stats.go#L794) |
+| toolUse | function_declaration |  | [831](../../magpie/internal/sessions/stats.go#L831) |
+| skillUse | function_declaration |  | [913](../../magpie/internal/sessions/stats.go#L913) |
+| ToolCategory | function_declaration |  | [951](../../magpie/internal/sessions/stats.go#L951) |

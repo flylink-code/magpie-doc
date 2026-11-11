@@ -4,74 +4,106 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/library.go) · page 1/1
 
-Source SHA-256: bcad8bc0cae2abc776ab9f72d0cade7a0ec4aac766ccc5b078817729b6227fbd
+Source SHA-256: 8dd173d4379a3ab5fea8ac47ea2923a84e2cb9d2e3e2b6d83808286e59e83487
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| lastProblems | var_spec |  | [19](../../magpie/internal/gui/library.go#L19) |
-| p | field_declaration | lastProblems | [21](../../magpie/internal/gui/library.go#L21) |
-| libraryJSON | type_spec |  | [24](../../magpie/internal/gui/library.go#L24) |
-| Result | field_declaration | libraryJSON | [26](../../magpie/internal/gui/library.go#L26) |
-| Home | field_declaration | libraryJSON | [27](../../magpie/internal/gui/library.go#L27) |
-| Problems | field_declaration | libraryJSON | [30](../../magpie/internal/gui/library.go#L30) |
-| libraryView | function_declaration |  | [33](../../magpie/internal/gui/library.go#L33) |
-| libraryRead | function_declaration |  | [38](../../magpie/internal/gui/library.go#L38) |
-| instructionsJSON | type_spec |  | [58](../../magpie/internal/gui/library.go#L58) |
-| Part | field_declaration | instructionsJSON | [59](../../magpie/internal/gui/library.go#L59) |
-| Instructions | field_declaration | instructionsJSON | [60](../../magpie/internal/gui/library.go#L60) |
-| Result | field_declaration | instructionsJSON | [61](../../magpie/internal/gui/library.go#L61) |
-| Problems | field_declaration | instructionsJSON | [62](../../magpie/internal/gui/library.go#L62) |
-| instructionsView | function_declaration |  | [65](../../magpie/internal/gui/library.go#L65) |
-| marketJSON | type_spec |  | [86](../../magpie/internal/gui/library.go#L86) |
-| Items | field_declaration | marketJSON | [87](../../magpie/internal/gui/library.go#L87) |
-| Error | field_declaration | marketJSON | [88](../../magpie/internal/gui/library.go#L88) |
-| Custom | field_declaration | marketJSON | [91](../../magpie/internal/gui/library.go#L91) |
-| Failed | field_declaration | marketJSON | [94](../../magpie/internal/gui/library.go#L94) |
-| Cause | field_declaration | marketJSON | [95](../../magpie/internal/gui/library.go#L95) |
-| marketOf | function_declaration |  | [98](../../magpie/internal/gui/library.go#L98) |
-| errText | function_declaration |  | [106](../../magpie/internal/gui/library.go#L106) |
-| revealable | function_declaration |  | [115](../../magpie/internal/gui/library.go#L115) |
-| libraryRoutes | function_declaration |  | [141](../../magpie/internal/gui/library.go#L141) |
-| in | var_spec | libraryRoutes | [171](../../magpie/internal/gui/library.go#L171) |
-| IDs | field_declaration | libraryRoutes::in | [171](../../magpie/internal/gui/library.go#L171) |
-| in | var_spec | libraryRoutes | [193](../../magpie/internal/gui/library.go#L193) |
-| Source | field_declaration | libraryRoutes::in | [193](../../magpie/internal/gui/library.go#L193) |
-| Regrouped | field_declaration | libraryRoutes | [234](../../magpie/internal/gui/library.go#L234) |
-| in | var_spec | libraryRoutes | [261](../../magpie/internal/gui/library.go#L261) |
-| Agent | field_declaration | libraryRoutes::in | [262](../../magpie/internal/gui/library.go#L262) |
-| On | field_declaration | libraryRoutes::in | [263](../../magpie/internal/gui/library.go#L263) |
-| in | var_spec | libraryRoutes | [311](../../magpie/internal/gui/library.go#L311) |
-| Path | field_declaration | libraryRoutes::in | [311](../../magpie/internal/gui/library.go#L311) |
+| lastProblems | var_spec |  | [23](../../magpie/internal/gui/library.go#L23) |
+| p | field_declaration | lastProblems | [25](../../magpie/internal/gui/library.go#L25) |
+| libraryJSON | type_spec |  | [28](../../magpie/internal/gui/library.go#L28) |
+| Result | field_declaration | libraryJSON | [30](../../magpie/internal/gui/library.go#L30) |
+| Home | field_declaration | libraryJSON | [31](../../magpie/internal/gui/library.go#L31) |
+| Problems | field_declaration | libraryJSON | [34](../../magpie/internal/gui/library.go#L34) |
+| SubagentModels | field_declaration | libraryJSON | [40](../../magpie/internal/gui/library.go#L40) |
+| CodexSubagentModel | field_declaration | libraryJSON | [41](../../magpie/internal/gui/library.go#L41) |
+| subagentModel | type_spec |  | [45](../../magpie/internal/gui/library.go#L45) |
+| ID | field_declaration | subagentModel | [46](../../magpie/internal/gui/library.go#L46) |
+| Name | field_declaration | subagentModel | [47](../../magpie/internal/gui/library.go#L47) |
+| Note | field_declaration | subagentModel | [48](../../magpie/internal/gui/library.go#L48) |
+| Group | field_declaration | subagentModel | [49](../../magpie/internal/gui/library.go#L49) |
+| subagentModels | function_declaration |  | [52](../../magpie/internal/gui/library.go#L52) |
+| libraryView | function_declaration |  | [67](../../magpie/internal/gui/library.go#L67) |
+| libraryRead | function_declaration |  | [72](../../magpie/internal/gui/library.go#L72) |
+| instructionsJSON | type_spec |  | [93](../../magpie/internal/gui/library.go#L93) |
+| Part | field_declaration | instructionsJSON | [94](../../magpie/internal/gui/library.go#L94) |
+| Instructions | field_declaration | instructionsJSON | [95](../../magpie/internal/gui/library.go#L95) |
+| Result | field_declaration | instructionsJSON | [96](../../magpie/internal/gui/library.go#L96) |
+| Problems | field_declaration | instructionsJSON | [97](../../magpie/internal/gui/library.go#L97) |
+| instructionsView | function_declaration |  | [100](../../magpie/internal/gui/library.go#L100) |
+| marketJSON | type_spec |  | [121](../../magpie/internal/gui/library.go#L121) |
+| Items | field_declaration | marketJSON | [122](../../magpie/internal/gui/library.go#L122) |
+| Error | field_declaration | marketJSON | [123](../../magpie/internal/gui/library.go#L123) |
+| Custom | field_declaration | marketJSON | [126](../../magpie/internal/gui/library.go#L126) |
+| Failed | field_declaration | marketJSON | [129](../../magpie/internal/gui/library.go#L129) |
+| Cause | field_declaration | marketJSON | [130](../../magpie/internal/gui/library.go#L130) |
+| marketOf | function_declaration |  | [133](../../magpie/internal/gui/library.go#L133) |
+| errText | function_declaration |  | [141](../../magpie/internal/gui/library.go#L141) |
+| revealable | function_declaration |  | [150](../../magpie/internal/gui/library.go#L150) |
+| libraryRoutes | function_declaration |  | [176](../../magpie/internal/gui/library.go#L176) |
+| in | var_spec | libraryRoutes | [218](../../magpie/internal/gui/library.go#L218) |
+| IDs | field_declaration | libraryRoutes::in | [218](../../magpie/internal/gui/library.go#L218) |
+| in | var_spec | libraryRoutes | [240](../../magpie/internal/gui/library.go#L240) |
+| Source | field_declaration | libraryRoutes::in | [240](../../magpie/internal/gui/library.go#L240) |
+| in | var_spec | libraryRoutes | [255](../../magpie/internal/gui/library.go#L255) |
+| Source | field_declaration | libraryRoutes::in | [255](../../magpie/internal/gui/library.go#L255) |
+| Regrouped | field_declaration | libraryRoutes | [296](../../magpie/internal/gui/library.go#L296) |
+| in | var_spec | libraryRoutes | [306](../../magpie/internal/gui/library.go#L306) |
+| Pi | field_declaration | libraryRoutes::in | [307](../../magpie/internal/gui/library.go#L307) |
+| On | field_declaration | libraryRoutes::in | [308](../../magpie/internal/gui/library.go#L308) |
+| v | var_spec | libraryRoutes | [314](../../magpie/internal/gui/library.go#L314) |
+| err | var_spec | libraryRoutes | [315](../../magpie/internal/gui/library.go#L315) |
+| in | var_spec | libraryRoutes | [331](../../magpie/internal/gui/library.go#L331) |
+| From | field_declaration | libraryRoutes::in | [331](../../magpie/internal/gui/library.go#L331) |
 | in | var_spec | libraryRoutes | [346](../../magpie/internal/gui/library.go#L346) |
-| Name | field_declaration | libraryRoutes::in | [346](../../magpie/internal/gui/library.go#L346) |
-| in | var_spec | libraryRoutes | [371](../../magpie/internal/gui/library.go#L371) |
-| Name | field_declaration | libraryRoutes::in | [371](../../magpie/internal/gui/library.go#L371) |
-| in | var_spec | libraryRoutes | [390](../../magpie/internal/gui/library.go#L390) |
-| Names | field_declaration | libraryRoutes::in | [391](../../magpie/internal/gui/library.go#L391) |
-| Fresh | field_declaration | libraryRoutes::in | [392](../../magpie/internal/gui/library.go#L392) |
-| in | var_spec | libraryRoutes | [408](../../magpie/internal/gui/library.go#L408) |
-| Agent | field_declaration | libraryRoutes::in | [409](../../magpie/internal/gui/library.go#L409) |
-| Names | field_declaration | libraryRoutes::in | [410](../../magpie/internal/gui/library.go#L410) |
-| in | var_spec | libraryRoutes | [425](../../magpie/internal/gui/library.go#L425) |
-| Name | field_declaration | libraryRoutes::in | [426](../../magpie/internal/gui/library.go#L426) |
-| Old | field_declaration | libraryRoutes::in | [427](../../magpie/internal/gui/library.go#L427) |
-| Agents | field_declaration | libraryRoutes::in | [430](../../magpie/internal/gui/library.go#L430) |
-| Source | field_declaration | libraryRoutes::in | [431](../../magpie/internal/gui/library.go#L431) |
-| Paths | field_declaration | libraryRoutes::in | [432](../../magpie/internal/gui/library.go#L432) |
-| Names | field_declaration | libraryRoutes::in | [433](../../magpie/internal/gui/library.go#L433) |
-| Server | field_declaration | libraryRoutes::in | [434](../../magpie/internal/gui/library.go#L434) |
-| Hook | field_declaration | libraryRoutes::in | [435](../../magpie/internal/gui/library.go#L435) |
-| Subagent | field_declaration | libraryRoutes::in | [437](../../magpie/internal/gui/library.go#L437) |
-| Agent | field_declaration | libraryRoutes::in | [438](../../magpie/internal/gui/library.go#L438) |
-| ID | field_declaration | libraryRoutes::in | [439](../../magpie/internal/gui/library.go#L439) |
-| Values | field_declaration | libraryRoutes::in | [440](../../magpie/internal/gui/library.go#L440) |
-| Dir | field_declaration | libraryRoutes::in | [441](../../magpie/internal/gui/library.go#L441) |
-| Copy | field_declaration | libraryRoutes::in | [442](../../magpie/internal/gui/library.go#L442) |
-| Keep | field_declaration | libraryRoutes::in | [443](../../magpie/internal/gui/library.go#L443) |
-| On | field_declaration | libraryRoutes::in | [444](../../magpie/internal/gui/library.go#L444) |
-| How | field_declaration | libraryRoutes::in | [445](../../magpie/internal/gui/library.go#L445) |
-| Replace | field_declaration | libraryRoutes::in | [448](../../magpie/internal/gui/library.go#L448) |
-| res | var_spec | libraryRoutes | [455](../../magpie/internal/gui/library.go#L455) |
-| err | var_spec | libraryRoutes | [456](../../magpie/internal/gui/library.go#L456) |
-| gone | var_spec | libraryRoutes | [503](../../magpie/internal/gui/library.go#L503) |
-| oneOrMore | function_declaration |  | [590](../../magpie/internal/gui/library.go#L590) |
+| Pi | field_declaration | libraryRoutes::in | [346](../../magpie/internal/gui/library.go#L346) |
+| in | var_spec | libraryRoutes | [359](../../magpie/internal/gui/library.go#L359) |
+| Pi | field_declaration | libraryRoutes::in | [359](../../magpie/internal/gui/library.go#L359) |
+| in | var_spec | libraryRoutes | [395](../../magpie/internal/gui/library.go#L395) |
+| Agent | field_declaration | libraryRoutes::in | [396](../../magpie/internal/gui/library.go#L396) |
+| On | field_declaration | libraryRoutes::in | [397](../../magpie/internal/gui/library.go#L397) |
+| in | var_spec | libraryRoutes | [429](../../magpie/internal/gui/library.go#L429) |
+| Distro | field_declaration | libraryRoutes::in | [429](../../magpie/internal/gui/library.go#L429) |
+| v | var_spec | libraryRoutes | [435](../../magpie/internal/gui/library.go#L435) |
+| err | var_spec | libraryRoutes | [436](../../magpie/internal/gui/library.go#L436) |
+| in | var_spec | libraryRoutes | [454](../../magpie/internal/gui/library.go#L454) |
+| Agent | field_declaration | libraryRoutes::in | [455](../../magpie/internal/gui/library.go#L455) |
+| On | field_declaration | libraryRoutes::in | [456](../../magpie/internal/gui/library.go#L456) |
+| in | var_spec | libraryRoutes | [487](../../magpie/internal/gui/library.go#L487) |
+| Path | field_declaration | libraryRoutes::in | [487](../../magpie/internal/gui/library.go#L487) |
+| in | var_spec | libraryRoutes | [522](../../magpie/internal/gui/library.go#L522) |
+| Name | field_declaration | libraryRoutes::in | [522](../../magpie/internal/gui/library.go#L522) |
+| in | var_spec | libraryRoutes | [547](../../magpie/internal/gui/library.go#L547) |
+| Name | field_declaration | libraryRoutes::in | [547](../../magpie/internal/gui/library.go#L547) |
+| in | var_spec | libraryRoutes | [566](../../magpie/internal/gui/library.go#L566) |
+| Names | field_declaration | libraryRoutes::in | [567](../../magpie/internal/gui/library.go#L567) |
+| Fresh | field_declaration | libraryRoutes::in | [568](../../magpie/internal/gui/library.go#L568) |
+| in | var_spec | libraryRoutes | [584](../../magpie/internal/gui/library.go#L584) |
+| Agent | field_declaration | libraryRoutes::in | [585](../../magpie/internal/gui/library.go#L585) |
+| Names | field_declaration | libraryRoutes::in | [586](../../magpie/internal/gui/library.go#L586) |
+| in | var_spec | libraryRoutes | [601](../../magpie/internal/gui/library.go#L601) |
+| Name | field_declaration | libraryRoutes::in | [602](../../magpie/internal/gui/library.go#L602) |
+| Old | field_declaration | libraryRoutes::in | [603](../../magpie/internal/gui/library.go#L603) |
+| Agents | field_declaration | libraryRoutes::in | [606](../../magpie/internal/gui/library.go#L606) |
+| Source | field_declaration | libraryRoutes::in | [607](../../magpie/internal/gui/library.go#L607) |
+| Paths | field_declaration | libraryRoutes::in | [608](../../magpie/internal/gui/library.go#L608) |
+| Names | field_declaration | libraryRoutes::in | [609](../../magpie/internal/gui/library.go#L609) |
+| Server | field_declaration | libraryRoutes::in | [610](../../magpie/internal/gui/library.go#L610) |
+| Hook | field_declaration | libraryRoutes::in | [611](../../magpie/internal/gui/library.go#L611) |
+| Subagent | field_declaration | libraryRoutes::in | [613](../../magpie/internal/gui/library.go#L613) |
+| Agent | field_declaration | libraryRoutes::in | [614](../../magpie/internal/gui/library.go#L614) |
+| App | field_declaration | libraryRoutes::in | [615](../../magpie/internal/gui/library.go#L615) |
+| Note | field_declaration | libraryRoutes::in | [616](../../magpie/internal/gui/library.go#L616) |
+| ID | field_declaration | libraryRoutes::in | [617](../../magpie/internal/gui/library.go#L617) |
+| Values | field_declaration | libraryRoutes::in | [618](../../magpie/internal/gui/library.go#L618) |
+| Dir | field_declaration | libraryRoutes::in | [619](../../magpie/internal/gui/library.go#L619) |
+| Copy | field_declaration | libraryRoutes::in | [620](../../magpie/internal/gui/library.go#L620) |
+| Keep | field_declaration | libraryRoutes::in | [621](../../magpie/internal/gui/library.go#L621) |
+| On | field_declaration | libraryRoutes::in | [622](../../magpie/internal/gui/library.go#L622) |
+| How | field_declaration | libraryRoutes::in | [623](../../magpie/internal/gui/library.go#L623) |
+| Replace | field_declaration | libraryRoutes::in | [626](../../magpie/internal/gui/library.go#L626) |
+| File | field_declaration | libraryRoutes::in | [629](../../magpie/internal/gui/library.go#L629) |
+| res | var_spec | libraryRoutes | [636](../../magpie/internal/gui/library.go#L636) |
+| err | var_spec | libraryRoutes | [637](../../magpie/internal/gui/library.go#L637) |
+| link | var_spec | libraryRoutes | [662](../../magpie/internal/gui/library.go#L662) |
+| gone | var_spec | libraryRoutes | [720](../../magpie/internal/gui/library.go#L720) |
+| oneOrMore | function_declaration |  | [834](../../magpie/internal/gui/library.go#L834) |

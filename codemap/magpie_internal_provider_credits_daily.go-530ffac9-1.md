@@ -4,35 +4,58 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/credits_daily.go) · page 1/1
 
-Source SHA-256: 7a4f6d282c13b9edf9900f503ab0f998e3174bbebc1fd7f41fccff4f6c4321df
+Source SHA-256: 21ac66bf44d5e26ba431a0a41cf76cca86d565bab8057da9cc512affaec4ea3a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| DailyCredits | type_spec |  | [39](../../magpie/internal/provider/credits_daily.go#L39) |
-| Since | field_declaration | DailyCredits | [42](../../magpie/internal/provider/credits_daily.go#L42) |
-| Days | field_declaration | DailyCredits | [45](../../magpie/internal/provider/credits_daily.go#L45) |
-| DayCredits | type_spec |  | [49](../../magpie/internal/provider/credits_daily.go#L49) |
-| Day | field_declaration | DayCredits | [50](../../magpie/internal/provider/credits_daily.go#L50) |
-| Used | field_declaration | DayCredits | [51](../../magpie/internal/provider/credits_daily.go#L51) |
-| creditsKept | const_spec |  | [55](../../magpie/internal/provider/credits_daily.go#L55) |
-| creditsShown | const_spec |  | [56](../../magpie/internal/provider/credits_daily.go#L56) |
-| creditsReading | type_spec |  | [59](../../magpie/internal/provider/credits_daily.go#L59) |
-| Used | field_declaration | creditsReading | [60](../../magpie/internal/provider/credits_daily.go#L60) |
-| Total | field_declaration | creditsReading | [61](../../magpie/internal/provider/credits_daily.go#L61) |
-| At | field_declaration | creditsReading | [62](../../magpie/internal/provider/credits_daily.go#L62) |
-| creditsAccount | type_spec |  | [65](../../magpie/internal/provider/credits_daily.go#L65) |
-| Since | field_declaration | creditsAccount | [66](../../magpie/internal/provider/credits_daily.go#L66) |
-| Last | field_declaration | creditsAccount | [67](../../magpie/internal/provider/credits_daily.go#L67) |
-| Days | field_declaration | creditsAccount | [68](../../magpie/internal/provider/credits_daily.go#L68) |
-| creditsMu | var_spec |  | [73](../../magpie/internal/provider/credits_daily.go#L73) |
-| creditsPath | function_declaration |  | [75](../../magpie/internal/provider/credits_daily.go#L75) |
-| parseCredits | function_declaration |  | [77](../../magpie/internal/provider/credits_daily.go#L77) |
-| creditsCounted | function_declaration |  | [87](../../magpie/internal/provider/credits_daily.go#L87) |
-| creditsKey | function_declaration |  | [91](../../magpie/internal/provider/credits_daily.go#L91) |
-| creditsDisplay | var_spec |  | [95](../../magpie/internal/provider/credits_daily.go#L95) |
-| creditsOf | function_declaration |  | [98](../../magpie/internal/provider/credits_daily.go#L98) |
-| noteDailyCredits | function_declaration |  | [122](../../magpie/internal/provider/credits_daily.go#L122) |
-| withDailyCredits | function_declaration |  | [186](../../magpie/internal/provider/credits_daily.go#L186) |
+| DailyCredits | type_spec |  | [57](../../magpie/internal/provider/credits_daily.go#L57) |
+| Since | field_declaration | DailyCredits | [60](../../magpie/internal/provider/credits_daily.go#L60) |
+| Days | field_declaration | DailyCredits | [63](../../magpie/internal/provider/credits_daily.go#L63) |
+| Window | field_declaration | DailyCredits | [67](../../magpie/internal/provider/credits_daily.go#L67) |
+| Unit | field_declaration | DailyCredits | [68](../../magpie/internal/provider/credits_daily.go#L68) |
+| DayCredits | type_spec |  | [72](../../magpie/internal/provider/credits_daily.go#L72) |
+| Day | field_declaration | DayCredits | [73](../../magpie/internal/provider/credits_daily.go#L73) |
+| Used | field_declaration | DayCredits | [74](../../magpie/internal/provider/credits_daily.go#L74) |
+| creditsKept | const_spec |  | [78](../../magpie/internal/provider/credits_daily.go#L78) |
+| creditsShown | const_spec |  | [79](../../magpie/internal/provider/credits_daily.go#L79) |
+| creditsReading | type_spec |  | [82](../../magpie/internal/provider/credits_daily.go#L82) |
+| Used | field_declaration | creditsReading | [83](../../magpie/internal/provider/credits_daily.go#L83) |
+| Total | field_declaration | creditsReading | [84](../../magpie/internal/provider/credits_daily.go#L84) |
+| At | field_declaration | creditsReading | [85](../../magpie/internal/provider/credits_daily.go#L85) |
+| creditsAccount | type_spec |  | [88](../../magpie/internal/provider/credits_daily.go#L88) |
+| Since | field_declaration | creditsAccount | [89](../../magpie/internal/provider/credits_daily.go#L89) |
+| Last | field_declaration | creditsAccount | [90](../../magpie/internal/provider/credits_daily.go#L90) |
+| Days | field_declaration | creditsAccount | [91](../../magpie/internal/provider/credits_daily.go#L91) |
+| Part | field_declaration | creditsAccount | [96](../../magpie/internal/provider/credits_daily.go#L96) |
+| creditsMu | var_spec |  | [101](../../magpie/internal/provider/credits_daily.go#L101) |
+| creditsPath | function_declaration |  | [103](../../magpie/internal/provider/credits_daily.go#L103) |
+| parseCredits | function_declaration |  | [105](../../magpie/internal/provider/credits_daily.go#L105) |
+| creditWindow | type_spec |  | [115](../../magpie/internal/provider/credits_daily.go#L115) |
+| name | field_declaration | creditWindow | [116](../../magpie/internal/provider/credits_daily.go#L116) |
+| used | field_declaration | creditWindow | [117](../../magpie/internal/provider/credits_daily.go#L117) |
+| aside | field_declaration | creditWindow | [118](../../magpie/internal/provider/credits_daily.go#L118) |
+| span | field_declaration | creditWindow | [119](../../magpie/internal/provider/credits_daily.go#L119) |
+| creditUnit | function_declaration |  | [125](../../magpie/internal/provider/credits_daily.go#L125) |
+| creditsDisplay | var_spec |  | [147](../../magpie/internal/provider/credits_daily.go#L147) |
+| creditsNumber | function_declaration |  | [149](../../magpie/internal/provider/credits_daily.go#L149) |
+| displayCredits | function_declaration |  | [174](../../magpie/internal/provider/credits_daily.go#L174) |
+| creditOf | function_declaration |  | [204](../../magpie/internal/provider/credits_daily.go#L204) |
+| creditWindows | function_declaration |  | [249](../../magpie/internal/provider/credits_daily.go#L249) |
+| all | var_spec | creditWindows | [253](../../magpie/internal/provider/credits_daily.go#L253) |
+| creditsKey | function_declaration |  | [273](../../magpie/internal/provider/credits_daily.go#L273) |
+| creditsOldKey | function_declaration |  | [279](../../magpie/internal/provider/credits_daily.go#L279) |
+| noteDailyCredits | function_declaration |  | [285](../../magpie/internal/provider/credits_daily.go#L285) |
+| step | type_spec | noteDailyCredits | [298](../../magpie/internal/provider/credits_daily.go#L298) |
+| c | field_declaration | noteDailyCredits::step | [299](../../magpie/internal/provider/credits_daily.go#L299) |
+| a | field_declaration | noteDailyCredits::step | [300](../../magpie/internal/provider/credits_daily.go#L300) |
+| d | field_declaration | noteDailyCredits::step | [301](../../magpie/internal/provider/credits_daily.go#L301) |
+| steps | var_spec | noteDailyCredits | [303](../../magpie/internal/provider/credits_daily.go#L303) |
+| poolsOfWhole | function_declaration |  | [395](../../magpie/internal/provider/credits_daily.go#L395) |
+| of | var_spec | poolsOfWhole | [401](../../magpie/internal/provider/credits_daily.go#L401) |
+| withDailyCredits | function_declaration |  | [420](../../magpie/internal/provider/credits_daily.go#L420) |
+| all | var_spec | withDailyCredits | [432](../../magpie/internal/provider/credits_daily.go#L432) |
+| ws | var_spec | withDailyCredits | [433](../../magpie/internal/provider/credits_daily.go#L433) |
+| isCreditWindow | function_declaration |  | [477](../../magpie/internal/provider/credits_daily.go#L477) |
 
 Parser recovery: 1 diagnostic(s). Inspect source; extraction may be incomplete.
-- line 178: ERROR
+- line 379: ERROR

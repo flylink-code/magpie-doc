@@ -4,13 +4,42 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skills.go) · page 3/3
 
-Source SHA-256: 7a01b7e89f35e1de006e71f54615ccd61241fb7deaa8b7206547bbc303fc5fda
+Source SHA-256: 4e3f1d70ded26ac2b9152ca29afcc030abc788661d09d0ee6f0b4fb681278625
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| settled | field_declaration | tree | [2343](../../magpie/internal/library/skills.go#L2343) |
-| treeOf | function_declaration |  | [2348](../../magpie/internal/library/skills.go#L2348) |
-| total | var_spec | treeOf | [2351](../../magpie/internal/library/skills.go#L2351) |
-| sameFile | function_declaration |  | [2403](../../magpie/internal/library/skills.go#L2403) |
-| SkillText | function_declaration |  | [2432](../../magpie/internal/library/skills.go#L2432) |
-| SkillPath | function_declaration |  | [2444](../../magpie/internal/library/skills.go#L2444) |
+| currentVersion | function_declaration |  | [2476](../../magpie/internal/library/skills.go#L2476) |
+| ImportSkill | function_declaration |  | [2494](../../magpie/internal/library/skills.go#L2494) |
+| ImportSkills | function_declaration |  | [2501](../../magpie/internal/library/skills.go#L2501) |
+| failed | var_spec | ImportSkills | [2505](../../magpie/internal/library/skills.go#L2505) |
+| importSkill | function_declaration |  | [2524](../../magpie/internal/library/skills.go#L2524) |
+| left | var_spec | importSkill | [2570](../../magpie/internal/library/skills.go#L2570) |
+| RemoveFoundSkill | function_declaration |  | [2602](../../magpie/internal/library/skills.go#L2602) |
+| RemoveFoundSkills | function_declaration |  | [2613](../../magpie/internal/library/skills.go#L2613) |
+| failed | var_spec | RemoveFoundSkills | [2618](../../magpie/internal/library/skills.go#L2618) |
+| removeFound | function_declaration |  | [2639](../../magpie/internal/library/skills.go#L2639) |
+| entry | type_spec | removeFound | [2645](../../magpie/internal/library/skills.go#L2645) |
+| who | field_declaration | removeFound::entry | [2645](../../magpie/internal/library/skills.go#L2645) |
+| es | var_spec | removeFound | [2646](../../magpie/internal/library/skills.go#L2646) |
+| copyDir | function_declaration |  | [2695](../../magpie/internal/library/skills.go#L2695) |
+| move | function_declaration |  | [2741](../../magpie/internal/library/skills.go#L2741) |
+| leftBehind | type_spec |  | [2759](../../magpie/internal/library/skills.go#L2759) |
+| err | field_declaration | leftBehind | [2759](../../magpie/internal/library/skills.go#L2759) |
+| Error | method_declaration |  | [2761](../../magpie/internal/library/skills.go#L2761) |
+| Unwrap | method_declaration |  | [2762](../../magpie/internal/library/skills.go#L2762) |
+| setAside | function_declaration |  | [2766](../../magpie/internal/library/skills.go#L2766) |
+| sameTree | function_declaration |  | [2788](../../magpie/internal/library/skills.go#L2788) |
+| walked | type_spec |  | [2792](../../magpie/internal/library/skills.go#L2792) |
+| sameTreeIn | function_declaration |  | [2796](../../magpie/internal/library/skills.go#L2796) |
+| compareTrees | function_declaration |  | [2827](../../magpie/internal/library/skills.go#L2827) |
+| treeEntry | type_spec |  | [2845](../../magpie/internal/library/skills.go#L2845) |
+| size | field_declaration | treeEntry | [2846](../../magpie/internal/library/skills.go#L2846) |
+| link | field_declaration | treeEntry | [2847](../../magpie/internal/library/skills.go#L2847) |
+| tree | type_spec |  | [2852](../../magpie/internal/library/skills.go#L2852) |
+| files | field_declaration | tree | [2853](../../magpie/internal/library/skills.go#L2853) |
+| stamp | field_declaration | tree | [2854](../../magpie/internal/library/skills.go#L2854) |
+| settled | field_declaration | tree | [2855](../../magpie/internal/library/skills.go#L2855) |
+| treeOf | function_declaration |  | [2860](../../magpie/internal/library/skills.go#L2860) |
+| total | var_spec | treeOf | [2863](../../magpie/internal/library/skills.go#L2863) |
+| sameFile | function_declaration |  | [2915](../../magpie/internal/library/skills.go#L2915) |
+| SkillPath | function_declaration |  | [2944](../../magpie/internal/library/skills.go#L2944) |

@@ -4,10 +4,36 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/usage.go) · page 3/3
 
-Source SHA-256: d6e7f362ce2a9488f8eee699fd7b76104b6884b8f277388c8dc05f0870021b4c
+Source SHA-256: 00a55434e39ff4a0fc29b3e1b0ca6a1dbc085801b8540063eafe6eafbd5946a1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| last | var_spec | LastSeen | [1168](../../magpie/internal/usage/usage.go#L1168) |
-| tail | const_spec | LastSeen | [1179](../../magpie/internal/usage/usage.go#L1179) |
-| r | var_spec | LastSeen | [1186](../../magpie/internal/usage/usage.go#L1186) |
+| Sessions | field_declaration | Summary | [1049](../../magpie/internal/usage/usage.go#L1049) |
+| SessionCount | field_declaration | Summary | [1050](../../magpie/internal/usage/usage.go#L1050) |
+| Summarize | function_declaration |  | [1055](../../magpie/internal/usage/usage.go#L1055) |
+| summarize | function_declaration |  | [1059](../../magpie/internal/usage/usage.go#L1059) |
+| first | var_spec | summarize | [1060](../../magpie/internal/usage/usage.go#L1060) |
+| summarizeFrom | function_declaration |  | [1077](../../magpie/internal/usage/usage.go#L1077) |
+| seen | var_spec |  | [1091](../../magpie/internal/usage/usage.go#L1091) |
+| Via | type_spec |  | [1095](../../magpie/internal/usage/usage.go#L1095) |
+| Provider | field_declaration | Via | [1096](../../magpie/internal/usage/usage.go#L1096) |
+| Model | field_declaration | Via | [1097](../../magpie/internal/usage/usage.go#L1097) |
+| Effort | field_declaration | Via | [1098](../../magpie/internal/usage/usage.go#L1098) |
+| Calls | field_declaration | Via | [1099](../../magpie/internal/usage/usage.go#L1099) |
+| Tokens | field_declaration | Via | [1100](../../magpie/internal/usage/usage.go#L1100) |
+| Last | field_declaration | Via | [1101](../../magpie/internal/usage/usage.go#L1101) |
+| Credits | field_declaration | Via | [1104](../../magpie/internal/usage/usage.go#L1104) |
+| Credited | field_declaration | Via | [1105](../../magpie/internal/usage/usage.go#L1105) |
+| Vias | function_declaration |  | [1110](../../magpie/internal/usage/usage.go#L1110) |
+| LogVersion | function_declaration |  | [1118](../../magpie/internal/usage/usage.go#L1118) |
+| buildVias | function_declaration |  | [1128](../../magpie/internal/usage/usage.go#L1128) |
+| viaAcc | type_spec |  | [1136](../../magpie/internal/usage/usage.go#L1136) |
+| vs | field_declaration | viaAcc | [1137](../../magpie/internal/usage/usage.go#L1137) |
+| first | field_declaration | viaAcc | [1138](../../magpie/internal/usage/usage.go#L1138) |
+| countVias | function_declaration |  | [1143](../../magpie/internal/usage/usage.go#L1143) |
+| listedVias | function_declaration |  | [1180](../../magpie/internal/usage/usage.go#L1180) |
+| Saw | function_declaration |  | [1194](../../magpie/internal/usage/usage.go#L1194) |
+| LastSeen | function_declaration |  | [1198](../../magpie/internal/usage/usage.go#L1198) |
+| last | var_spec | LastSeen | [1199](../../magpie/internal/usage/usage.go#L1199) |
+| tail | const_spec | LastSeen | [1210](../../magpie/internal/usage/usage.go#L1210) |
+| r | var_spec | LastSeen | [1217](../../magpie/internal/usage/usage.go#L1217) |

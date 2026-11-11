@@ -4,11 +4,12 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/translated_probe.go) · page 1/1
 
-Source SHA-256: 5a1d9a18bfe6e2449e49ff0e4c8eadb9fd6674f6b99aed1583ab7c94631eb3cf
+Source SHA-256: 03d51dd9338a56862a82acfffec0cf60f7b56aa076fdf07ccae9950198abd4a3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| translatedProbe | var_spec |  | [21](../../magpie/internal/provider/translated_probe.go#L21) |
-| ProbeTranslatedVia | function_declaration |  | [24](../../magpie/internal/provider/translated_probe.go#L24) |
-| testsTranslated | method_declaration |  | [31](../../magpie/internal/provider/translated_probe.go#L31) |
-| testTranslated | method_declaration |  | [36](../../magpie/internal/provider/translated_probe.go#L36) |
+| translatedProbe | var_spec |  | [22](../../magpie/internal/provider/translated_probe.go#L22) |
+| ProbeTranslatedVia | function_declaration |  | [25](../../magpie/internal/provider/translated_probe.go#L25) |
+| testsTranslated | method_declaration |  | [32](../../magpie/internal/provider/translated_probe.go#L32) |
+| pluginTranslated | method_declaration |  | [42](../../magpie/internal/provider/translated_probe.go#L42) |
+| testTranslated | method_declaration |  | [48](../../magpie/internal/provider/translated_probe.go#L48) |

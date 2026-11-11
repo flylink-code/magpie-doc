@@ -4,25 +4,30 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/grok_namespace.go) · page 1/1
 
-Source SHA-256: 7c9f93b89d2d100ea5e4d8a2bb6d9a55ad1b74a992a0245bd9af5a16472e54c7
+Source SHA-256: d4ab04ac8aa0e53ff0299eee9b65d0e78b01a0c945efc973c641005e547dfd92
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| namespacedIn | function_declaration |  | [27](../../magpie/internal/gateway/grok_namespace.go#L27) |
-| q | var_spec | namespacedIn | [31](../../magpie/internal/gateway/grok_namespace.go#L31) |
-| Tools | field_declaration | namespacedIn::q | [32](../../magpie/internal/gateway/grok_namespace.go#L32) |
-| Input | field_declaration | namespacedIn::q | [33](../../magpie/internal/gateway/grok_namespace.go#L33) |
-| items | var_spec | namespacedIn | [38](../../magpie/internal/gateway/grok_namespace.go#L38) |
-| Name | field_declaration | namespacedIn::items | [39](../../magpie/internal/gateway/grok_namespace.go#L39) |
-| Namespace | field_declaration | namespacedIn::items | [40](../../magpie/internal/gateway/grok_namespace.go#L40) |
-| nsTidy | type_spec |  | [72](../../magpie/internal/gateway/grok_namespace.go#L72) |
-| named | field_declaration | nsTidy | [73](../../magpie/internal/gateway/grok_namespace.go#L73) |
-| sse | field_declaration | nsTidy | [74](../../magpie/internal/gateway/grok_namespace.go#L74) |
-| buf | field_declaration | nsTidy | [75](../../magpie/internal/gateway/grok_namespace.go#L75) |
-| write | method_declaration |  | [78](../../magpie/internal/gateway/grok_namespace.go#L78) |
-| flush | method_declaration |  | [92](../../magpie/internal/gateway/grok_namespace.go#L92) |
-| lines | method_declaration |  | [104](../../magpie/internal/gateway/grok_namespace.go#L104) |
-| out | var_spec | lines | [108](../../magpie/internal/gateway/grok_namespace.go#L108) |
-| restore | method_declaration |  | [134](../../magpie/internal/gateway/grok_namespace.go#L134) |
-| ev | var_spec | restore | [137](../../magpie/internal/gateway/grok_namespace.go#L137) |
-| call | method_declaration |  | [169](../../magpie/internal/gateway/grok_namespace.go#L169) |
+| namespacedIn | function_declaration |  | [31](../../magpie/internal/gateway/grok_namespace.go#L31) |
+| q | var_spec | namespacedIn | [35](../../magpie/internal/gateway/grok_namespace.go#L35) |
+| Tools | field_declaration | namespacedIn::q | [36](../../magpie/internal/gateway/grok_namespace.go#L36) |
+| Input | field_declaration | namespacedIn::q | [37](../../magpie/internal/gateway/grok_namespace.go#L37) |
+| items | var_spec | namespacedIn | [42](../../magpie/internal/gateway/grok_namespace.go#L42) |
+| Name | field_declaration | namespacedIn::items | [43](../../magpie/internal/gateway/grok_namespace.go#L43) |
+| Namespace | field_declaration | namespacedIn::items | [44](../../magpie/internal/gateway/grok_namespace.go#L44) |
+| nsTidy | type_spec |  | [76](../../magpie/internal/gateway/grok_namespace.go#L76) |
+| named | field_declaration | nsTidy | [77](../../magpie/internal/gateway/grok_namespace.go#L77) |
+| back | field_declaration | nsTidy | [80](../../magpie/internal/gateway/grok_namespace.go#L80) |
+| sse | field_declaration | nsTidy | [81](../../magpie/internal/gateway/grok_namespace.go#L81) |
+| buf | field_declaration | nsTidy | [82](../../magpie/internal/gateway/grok_namespace.go#L82) |
+| write | method_declaration |  | [85](../../magpie/internal/gateway/grok_namespace.go#L85) |
+| flush | method_declaration |  | [99](../../magpie/internal/gateway/grok_namespace.go#L99) |
+| lines | method_declaration |  | [111](../../magpie/internal/gateway/grok_namespace.go#L111) |
+| out | var_spec | lines | [115](../../magpie/internal/gateway/grok_namespace.go#L115) |
+| restore | method_declaration |  | [141](../../magpie/internal/gateway/grok_namespace.go#L141) |
+| ev | var_spec | restore | [144](../../magpie/internal/gateway/grok_namespace.go#L144) |
+| carries | method_declaration |  | [176](../../magpie/internal/gateway/grok_namespace.go#L176) |
+| call | method_declaration |  | [187](../../magpie/internal/gateway/grok_namespace.go#L187) |
+| sealedArgs | function_declaration |  | [232](../../magpie/internal/gateway/grok_namespace.go#L232) |
+| a | var_spec | sealedArgs | [233](../../magpie/internal/gateway/grok_namespace.go#L233) |
+| sealsItsOwn | function_declaration |  | [255](../../magpie/internal/gateway/grok_namespace.go#L255) |

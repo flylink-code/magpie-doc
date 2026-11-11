@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/qwen.go) · page 1/1
 
-Source SHA-256: cbbc06e61543444ab0b1a50070d956259a93d6afa350e1b6ae0f047bbc509995
+Source SHA-256: ec9ead8a6b587d78a1a0731cece772b14e01f2c076d84c186e3a64bb0f4817b0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -38,7 +38,7 @@ Source SHA-256: cbbc06e61543444ab0b1a50070d956259a93d6afa350e1b6ae0f047bbc509995
 | qwenIn | function_declaration |  | [155](../../magpie/internal/agent/qwen.go#L155) |
 | ms | var_spec | qwenIn | [241](../../magpie/internal/agent/qwen.go#L241) |
 | had | var_spec | qwenIn | [242](../../magpie/internal/agent/qwen.go#L242) |
-| c | var_spec | qwenIn | [343](../../magpie/internal/agent/qwen.go#L343) |
-| qwenOwnOptions | function_declaration |  | [417](../../magpie/internal/agent/qwen.go#L417) |
-| out | var_spec | qwenOwnOptions | [419](../../magpie/internal/agent/qwen.go#L419) |
-| noticeQwen | var_spec |  | [439](../../magpie/internal/agent/qwen.go#L439) |
+| c | var_spec | qwenIn | [345](../../magpie/internal/agent/qwen.go#L345) |
+| qwenOwnOptions | function_declaration |  | [419](../../magpie/internal/agent/qwen.go#L419) |
+| out | var_spec | qwenOwnOptions | [421](../../magpie/internal/agent/qwen.go#L421) |
+| noticeQwen | var_spec |  | [441](../../magpie/internal/agent/qwen.go#L441) |

@@ -4,17 +4,17 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/stats/stats.go) · page 1/1
 
-Source SHA-256: 4b21544e6f525c8855b64d2985495728a66a75ee60f52ef4a09592946d2784c7
+Source SHA-256: 680cd9dfd0de1192e384cab770842533b051eb35515b574d720817184d674418
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Key | const_spec |  | [32](../../magpie/internal/stats/stats.go#L32) |
-| Host | function_declaration |  | [36](../../magpie/internal/stats/stats.go#L36) |
-| Off | function_declaration |  | [44](../../magpie/internal/stats/stats.go#L44) |
-| Run | function_declaration |  | [56](../../magpie/internal/stats/stats.go#L56) |
-| Send | function_declaration |  | [69](../../magpie/internal/stats/stats.go#L69) |
-| uses | var_spec | Send | [96](../../magpie/internal/stats/stats.go#L96) |
-| kind | field_declaration | Send | [105](../../magpie/internal/stats/stats.go#L105) |
-| ids | field_declaration | Send | [106](../../magpie/internal/stats/stats.go#L106) |
-| installID | function_declaration |  | [146](../../magpie/internal/stats/stats.go#L146) |
-| osName | function_declaration |  | [164](../../magpie/internal/stats/stats.go#L164) |
+| Key | const_spec |  | [34](../../magpie/internal/stats/stats.go#L34) |
+| Host | function_declaration |  | [38](../../magpie/internal/stats/stats.go#L38) |
+| Off | function_declaration |  | [46](../../magpie/internal/stats/stats.go#L46) |
+| Run | function_declaration |  | [58](../../magpie/internal/stats/stats.go#L58) |
+| Send | function_declaration |  | [71](../../magpie/internal/stats/stats.go#L71) |
+| uses | var_spec | Send | [98](../../magpie/internal/stats/stats.go#L98) |
+| kind | field_declaration | Send | [107](../../magpie/internal/stats/stats.go#L107) |
+| ids | field_declaration | Send | [108](../../magpie/internal/stats/stats.go#L108) |
+| installID | function_declaration |  | [151](../../magpie/internal/stats/stats.go#L151) |
+| osName | function_declaration |  | [169](../../magpie/internal/stats/stats.go#L169) |

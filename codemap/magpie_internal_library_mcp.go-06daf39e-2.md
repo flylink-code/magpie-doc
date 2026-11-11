@@ -4,30 +4,52 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp.go) · page 2/2
 
-Source SHA-256: f1cce038e075f42bbaecc2213b2cb3084bfe6044659128bb512cb82c8ae7bc2a
+Source SHA-256: d4ea4c9518ccb5188fa8561ca0b1cd8a76becb649d3fe9309ed1191f993dd68c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mine | method_declaration |  | [1118](../../magpie/internal/library/mcp.go#L1118) |
-| current | method_declaration |  | [1128](../../magpie/internal/library/mcp.go#L1128) |
-| merged | method_declaration |  | [1163](../../magpie/internal/library/mcp.go#L1163) |
-| put | method_declaration |  | [1201](../../magpie/internal/library/mcp.go#L1201) |
-| putEntry | method_declaration |  | [1206](../../magpie/internal/library/mcp.go#L1206) |
-| del | method_declaration |  | [1243](../../magpie/internal/library/mcp.go#L1243) |
-| delCodex | function_declaration |  | [1276](../../magpie/internal/library/mcp.go#L1276) |
-| putCodex | function_declaration |  | [1289](../../magpie/internal/library/mcp.go#L1289) |
-| kvs | var_spec | putCodex | [1294](../../magpie/internal/library/mcp.go#L1294) |
-| tomlString | function_declaration |  | [1302](../../magpie/internal/library/mcp.go#L1302) |
-| b | var_spec | tomlString | [1303](../../magpie/internal/library/mcp.go#L1303) |
-| tomlKey | function_declaration |  | [1329](../../magpie/internal/library/mcp.go#L1329) |
-| tomlValue | function_declaration |  | [1341](../../magpie/internal/library/mcp.go#L1341) |
-| tomlFloat | function_declaration |  | [1387](../../magpie/internal/library/mcp.go#L1387) |
-| Found | type_spec |  | [1407](../../magpie/internal/library/mcp.go#L1407) |
-| Server | field_declaration | Found | [1408](../../magpie/internal/library/mcp.go#L1408) |
-| Others | field_declaration | Found | [1409](../../magpie/internal/library/mcp.go#L1409) |
-| Icon | field_declaration | Found | [1410](../../magpie/internal/library/mcp.go#L1410) |
-| Own | field_declaration | Found | [1414](../../magpie/internal/library/mcp.go#L1414) |
-| appOwned | function_declaration |  | [1422](../../magpie/internal/library/mcp.go#L1422) |
-| foundServers | function_declaration |  | [1455](../../magpie/internal/library/mcp.go#L1455) |
-| foundServersOf | function_declaration |  | [1458](../../magpie/internal/library/mcp.go#L1458) |
-| names | var_spec | foundServersOf | [1460](../../magpie/internal/library/mcp.go#L1460) |
+| decode | method_declaration |  | [891](../../magpie/internal/library/mcp.go#L891) |
+| entries | method_declaration |  | [1095](../../magpie/internal/library/mcp.go#L1095) |
+| entriesParsed | var_spec |  | [1118](../../magpie/internal/library/mcp.go#L1118) |
+| parseEntries | method_declaration |  | [1121](../../magpie/internal/library/mcp.go#L1121) |
+| doc | var_spec | parseEntries | [1128](../../magpie/internal/library/mcp.go#L1128) |
+| err | var_spec | parseEntries | [1129](../../magpie/internal/library/mcp.go#L1129) |
+| all | var_spec | parseEntries | [1143](../../magpie/internal/library/mcp.go#L1143) |
+| openCodeServers | function_declaration |  | [1169](../../magpie/internal/library/mcp.go#L1169) |
+| openCodeLayout | function_declaration |  | [1188](../../magpie/internal/library/mcp.go#L1188) |
+| doc | var_spec | openCodeLayout | [1200](../../magpie/internal/library/mcp.go#L1200) |
+| openCodePath | method_declaration |  | [1223](../../magpie/internal/library/mcp.go#L1223) |
+| cloneAny | function_declaration |  | [1236](../../magpie/internal/library/mcp.go#L1236) |
+| read | method_declaration |  | [1261](../../magpie/internal/library/mcp.go#L1261) |
+| also | method_declaration |  | [1285](../../magpie/internal/library/mcp.go#L1285) |
+| out | var_spec | also | [1289](../../magpie/internal/library/mcp.go#L1289) |
+| has | method_declaration |  | [1297](../../magpie/internal/library/mcp.go#L1297) |
+| holds | method_declaration |  | [1312](../../magpie/internal/library/mcp.go#L1312) |
+| owned | var_spec |  | [1324](../../magpie/internal/library/mcp.go#L1324) |
+| mine | method_declaration |  | [1370](../../magpie/internal/library/mcp.go#L1370) |
+| current | method_declaration |  | [1384](../../magpie/internal/library/mcp.go#L1384) |
+| merged | method_declaration |  | [1419](../../magpie/internal/library/mcp.go#L1419) |
+| refused | var_spec | merged | [1447](../../magpie/internal/library/mcp.go#L1447) |
+| codexRefused | function_declaration |  | [1468](../../magpie/internal/library/mcp.go#L1468) |
+| put | method_declaration |  | [1476](../../magpie/internal/library/mcp.go#L1476) |
+| putEntry | method_declaration |  | [1481](../../magpie/internal/library/mcp.go#L1481) |
+| del | method_declaration |  | [1539](../../magpie/internal/library/mcp.go#L1539) |
+| paths | var_spec | del | [1577](../../magpie/internal/library/mcp.go#L1577) |
+| claudeLock | method_declaration |  | [1596](../../magpie/internal/library/mcp.go#L1596) |
+| delCodex | function_declaration |  | [1610](../../magpie/internal/library/mcp.go#L1610) |
+| putCodex | function_declaration |  | [1623](../../magpie/internal/library/mcp.go#L1623) |
+| kvs | var_spec | putCodex | [1628](../../magpie/internal/library/mcp.go#L1628) |
+| tomlString | function_declaration |  | [1636](../../magpie/internal/library/mcp.go#L1636) |
+| b | var_spec | tomlString | [1637](../../magpie/internal/library/mcp.go#L1637) |
+| tomlKey | function_declaration |  | [1663](../../magpie/internal/library/mcp.go#L1663) |
+| tomlValue | function_declaration |  | [1675](../../magpie/internal/library/mcp.go#L1675) |
+| tomlFloat | function_declaration |  | [1721](../../magpie/internal/library/mcp.go#L1721) |
+| Found | type_spec |  | [1741](../../magpie/internal/library/mcp.go#L1741) |
+| Server | field_declaration | Found | [1742](../../magpie/internal/library/mcp.go#L1742) |
+| Others | field_declaration | Found | [1743](../../magpie/internal/library/mcp.go#L1743) |
+| Icon | field_declaration | Found | [1744](../../magpie/internal/library/mcp.go#L1744) |
+| Own | field_declaration | Found | [1748](../../magpie/internal/library/mcp.go#L1748) |
+| appOwned | function_declaration |  | [1756](../../magpie/internal/library/mcp.go#L1756) |
+| foundServers | function_declaration |  | [1789](../../magpie/internal/library/mcp.go#L1789) |
+| foundServersOf | function_declaration |  | [1792](../../magpie/internal/library/mcp.go#L1792) |
+| names | var_spec | foundServersOf | [1794](../../magpie/internal/library/mcp.go#L1794) |

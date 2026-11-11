@@ -4,26 +4,70 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/update/update.go) · page 2/2
 
-Source SHA-256: aeae88837296b0957ead8c49aa9b34d3d08c38496a50b78a2545c3b26d615332
+Source SHA-256: 954021f3c26367763df03c2b87528ea56ebbfce52901e429056f0901405192a7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Unwrap | method_declaration |  | [908](../../magpie/internal/update/update.go#L908) |
-| Network | function_declaration |  | [912](../../magpie/internal/update/update.go#L912) |
-| fetch | function_declaration |  | [919](../../magpie/internal/update/update.go#L919) |
-| have | var_spec | fetch | [925](../../magpie/internal/update/update.go#L925) |
-| body | var_spec | fetch | [972](../../magpie/internal/update/update.go#L972) |
-| readErr | type_spec |  | [1005](../../magpie/internal/update/update.go#L1005) |
-| r | field_declaration | readErr | [1006](../../magpie/internal/update/update.go#L1006) |
-| err | field_declaration | readErr | [1007](../../magpie/internal/update/update.go#L1007) |
-| Read | method_declaration |  | [1010](../../magpie/internal/update/update.go#L1010) |
-| counter | type_spec |  | [1019](../../magpie/internal/update/update.go#L1019) |
-| r | field_declaration | counter | [1020](../../magpie/internal/update/update.go#L1020) |
-| done | field_declaration | counter | [1021](../../magpie/internal/update/update.go#L1021) |
-| total | field_declaration | counter | [1022](../../magpie/internal/update/update.go#L1022) |
-| report | field_declaration | counter | [1023](../../magpie/internal/update/update.go#L1023) |
-| Read | method_declaration |  | [1026](../../magpie/internal/update/update.go#L1026) |
-| Alive | function_declaration |  | [1034](../../magpie/internal/update/update.go#L1034) |
-| OpenBeside | function_declaration |  | [1040](../../magpie/internal/update/update.go#L1040) |
-| openBeside | function_declaration |  | [1048](../../magpie/internal/update/update.go#L1048) |
-| StartBeside | function_declaration |  | [1059](../../magpie/internal/update/update.go#L1059) |
+| heldOpen | function_declaration |  | [958](../../magpie/internal/update/update.go#L958) |
+| moveAside | function_declaration |  | [967](../../magpie/internal/update/update.go#L967) |
+| err | var_spec | moveAside | [968](../../magpie/internal/update/update.go#L968) |
+| le | var_spec | moveAside | [983](../../magpie/internal/update/update.go#L983) |
+| hint | var_spec | moveAside | [987](../../magpie/internal/update/update.go#L987) |
+| oldName | function_declaration |  | [1001](../../magpie/internal/update/update.go#L1001) |
+| RemoveOld | function_declaration |  | [1013](../../magpie/internal/update/update.go#L1013) |
+| Replaced | function_declaration |  | [1024](../../magpie/internal/update/update.go#L1024) |
+| RemoveStaleNew | function_declaration |  | [1034](../../magpie/internal/update/update.go#L1034) |
+| removeStaged | function_declaration |  | [1049](../../magpie/internal/update/update.go#L1049) |
+| fileHash | function_declaration |  | [1056](../../magpie/internal/update/update.go#L1056) |
+| InstallBinaryAsAdmin | function_declaration |  | [1070](../../magpie/internal/update/update.go#L1070) |
+| RelaunchBinary | function_declaration |  | [1085](../../magpie/internal/update/update.go#L1085) |
+| RelaunchArgs | function_declaration |  | [1097](../../magpie/internal/update/update.go#L1097) |
+| AwaitPredecessor | function_declaration |  | [1109](../../magpie/internal/update/update.go#L1109) |
+| progressKey | type_spec |  | [1121](../../magpie/internal/update/update.go#L1121) |
+| WithProgress | function_declaration |  | [1125](../../magpie/internal/update/update.go#L1125) |
+| stepKey | type_spec |  | [1129](../../magpie/internal/update/update.go#L1129) |
+| StepDownload | const_spec |  | [1136](../../magpie/internal/update/update.go#L1136) |
+| StepRetry | const_spec |  | [1137](../../magpie/internal/update/update.go#L1137) |
+| StepVerify | const_spec |  | [1138](../../magpie/internal/update/update.go#L1138) |
+| StepUnpack | const_spec |  | [1139](../../magpie/internal/update/update.go#L1139) |
+| StepSignature | const_spec |  | [1140](../../magpie/internal/update/update.go#L1140) |
+| WithStep | function_declaration |  | [1144](../../magpie/internal/update/update.go#L1144) |
+| step | function_declaration |  | [1148](../../magpie/internal/update/update.go#L1148) |
+| stallAfter | var_spec |  | [1160](../../magpie/internal/update/update.go#L1160) |
+| errStalled | var_spec |  | [1163](../../magpie/internal/update/update.go#L1163) |
+| retryWaits | var_spec |  | [1169](../../magpie/internal/update/update.go#L1169) |
+| download | function_declaration |  | [1175](../../magpie/internal/update/update.go#L1175) |
+| err | var_spec | download | [1184](../../magpie/internal/update/update.go#L1184) |
+| before | var_spec | download | [1194](../../magpie/internal/update/update.go#L1194) |
+| removeFile | var_spec |  | [1257](../../magpie/internal/update/update.go#L1257) |
+| clearFile | function_declaration |  | [1264](../../magpie/internal/update/update.go#L1264) |
+| hostOf | function_declaration |  | [1277](../../magpie/internal/update/update.go#L1277) |
+| NetError | type_spec |  | [1288](../../magpie/internal/update/update.go#L1288) |
+| File | field_declaration | NetError | [1289](../../magpie/internal/update/update.go#L1289) |
+| Err | field_declaration | NetError | [1290](../../magpie/internal/update/update.go#L1290) |
+| Error | method_declaration |  | [1293](../../magpie/internal/update/update.go#L1293) |
+| ue | var_spec | Error | [1298](../../magpie/internal/update/update.go#L1298) |
+| Unwrap | method_declaration |  | [1305](../../magpie/internal/update/update.go#L1305) |
+| statusError | type_spec |  | [1309](../../magpie/internal/update/update.go#L1309) |
+| Error | method_declaration |  | [1311](../../magpie/internal/update/update.go#L1311) |
+| busyStatus | function_declaration |  | [1315](../../magpie/internal/update/update.go#L1315) |
+| Network | function_declaration |  | [1326](../../magpie/internal/update/update.go#L1326) |
+| fetch | function_declaration |  | [1333](../../magpie/internal/update/update.go#L1333) |
+| have | var_spec | fetch | [1342](../../magpie/internal/update/update.go#L1342) |
+| res | var_spec | fetch | [1380](../../magpie/internal/update/update.go#L1380) |
+| body | var_spec | fetch | [1445](../../magpie/internal/update/update.go#L1445) |
+| readErr | type_spec |  | [1481](../../magpie/internal/update/update.go#L1481) |
+| r | field_declaration | readErr | [1482](../../magpie/internal/update/update.go#L1482) |
+| err | field_declaration | readErr | [1483](../../magpie/internal/update/update.go#L1483) |
+| idle | field_declaration | readErr | [1484](../../magpie/internal/update/update.go#L1484) |
+| Read | method_declaration |  | [1487](../../magpie/internal/update/update.go#L1487) |
+| counter | type_spec |  | [1499](../../magpie/internal/update/update.go#L1499) |
+| r | field_declaration | counter | [1500](../../magpie/internal/update/update.go#L1500) |
+| done | field_declaration | counter | [1501](../../magpie/internal/update/update.go#L1501) |
+| total | field_declaration | counter | [1502](../../magpie/internal/update/update.go#L1502) |
+| report | field_declaration | counter | [1503](../../magpie/internal/update/update.go#L1503) |
+| Read | method_declaration |  | [1506](../../magpie/internal/update/update.go#L1506) |
+| Alive | function_declaration |  | [1514](../../magpie/internal/update/update.go#L1514) |
+| OpenBeside | function_declaration |  | [1521](../../magpie/internal/update/update.go#L1521) |
+| openBeside | function_declaration |  | [1529](../../magpie/internal/update/update.go#L1529) |
+| StartBeside | function_declaration |  | [1537](../../magpie/internal/update/update.go#L1537) |

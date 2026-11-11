@@ -4,10 +4,10 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/keep_secrets.go) · page 1/1
 
-Source SHA-256: 4a27613964dafc5c634ae76d53145d57fe3aa9c369b17c8f48058ce117b2dcac
+Source SHA-256: 535007959a38ec24dbe700a47f329dfebe7c4c8a0ebe79b3de2715b50e7f4a5a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| secretHeader | var_spec |  | [8](../../magpie/internal/provider/keep_secrets.go#L8) |
-| SecretHeader | function_declaration |  | [12](../../magpie/internal/provider/keep_secrets.go#L12) |
-| KeepSecrets | function_declaration |  | [24](../../magpie/internal/provider/keep_secrets.go#L24) |
+| secretHeader | var_spec |  | [9](../../magpie/internal/provider/keep_secrets.go#L9) |
+| SecretHeader | function_declaration |  | [13](../../magpie/internal/provider/keep_secrets.go#L13) |
+| KeepSecrets | function_declaration |  | [25](../../magpie/internal/provider/keep_secrets.go#L25) |

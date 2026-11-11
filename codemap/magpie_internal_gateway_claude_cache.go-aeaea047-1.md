@@ -4,46 +4,64 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/claude_cache.go) · page 1/1
 
-Source SHA-256: 0120fd0bac8e30d5597f5e304218d78d669b98d82b0d5a66cc59b57a54964396
+Source SHA-256: 7e49b87e44ad430fce171590813a4fbe11186ecee03ed4540f2d661c0bb8e7bf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| clientCache | type_spec |  | [17](../../magpie/internal/gateway/claude_cache.go#L17) |
-| system | field_declaration | clientCache | [18](../../magpie/internal/gateway/claude_cache.go#L18) |
-| tail | field_declaration | clientCache | [19](../../magpie/internal/gateway/claude_cache.go#L19) |
-| count | field_declaration | clientCache | [20](../../magpie/internal/gateway/claude_cache.go#L20) |
-| tools | field_declaration | clientCache | [21](../../magpie/internal/gateway/claude_cache.go#L21) |
-| messages | field_declaration | clientCache | [22](../../magpie/internal/gateway/claude_cache.go#L22) |
-| droppedSystem | field_declaration | clientCache | [23](../../magpie/internal/gateway/claude_cache.go#L23) |
-| droppedMessages | field_declaration | clientCache | [24](../../magpie/internal/gateway/claude_cache.go#L24) |
-| fresh | field_declaration | clientCache | [25](../../magpie/internal/gateway/claude_cache.go#L25) |
-| report | field_declaration | clientCache | [26](../../magpie/internal/gateway/claude_cache.go#L26) |
-| wantsClientCache | function_declaration |  | [29](../../magpie/internal/gateway/claude_cache.go#L29) |
-| selected | method_declaration |  | [35](../../magpie/internal/gateway/claude_cache.go#L35) |
-| cacheReportTry | function_declaration |  | [47](../../magpie/internal/gateway/claude_cache.go#L47) |
-| cacheReportReady | function_declaration |  | [56](../../magpie/internal/gateway/claude_cache.go#L56) |
-| cachePoint | type_spec |  | [67](../../magpie/internal/gateway/claude_cache.go#L67) |
-| End | field_declaration | cachePoint | [68](../../magpie/internal/gateway/claude_cache.go#L68) |
-| TTL | field_declaration | cachePoint | [69](../../magpie/internal/gateway/claude_cache.go#L69) |
-| cacheTTL | function_declaration |  | [72](../../magpie/internal/gateway/claude_cache.go#L72) |
-| renderedCacheBlock | function_declaration |  | [82](../../magpie/internal/gateway/claude_cache.go#L82) |
-| cacheMark | function_declaration |  | [96](../../magpie/internal/gateway/claude_cache.go#L96) |
-| shorterTTL | function_declaration |  | [100](../../magpie/internal/gateway/claude_cache.go#L100) |
-| readClientCache | function_declaration |  | [115](../../magpie/internal/gateway/claude_cache.go#L115) |
-| cc | var_spec | readClientCache | [122](../../magpie/internal/gateway/claude_cache.go#L122) |
-| system | var_spec | readClientCache | [141](../../magpie/internal/gateway/claude_cache.go#L141) |
-| b | var_spec | readClientCache | [146](../../magpie/internal/gateway/claude_cache.go#L146) |
-| CacheControl | field_declaration | readClientCache::b | [147](../../magpie/internal/gateway/claude_cache.go#L147) |
-| blocks | var_spec | readClientCache | [166](../../magpie/internal/gateway/claude_cache.go#L166) |
-| CacheControl | field_declaration | readClientCache::blocks | [167](../../magpie/internal/gateway/claude_cache.go#L167) |
-| cc | var_spec | readClientCache | [188](../../magpie/internal/gateway/claude_cache.go#L188) |
-| cacheIdentity | function_declaration |  | [206](../../magpie/internal/gateway/claude_cache.go#L206) |
-| cacheDropped | function_declaration |  | [218](../../magpie/internal/gateway/claude_cache.go#L218) |
-| fields | var_spec | cacheDropped | [223](../../magpie/internal/gateway/claude_cache.go#L223) |
-| cachePrefix | type_spec |  | [249](../../magpie/internal/gateway/claude_cache.go#L249) |
-| count | field_declaration | cachePrefix | [250](../../magpie/internal/gateway/claude_cache.go#L250) |
-| floor | field_declaration | cachePrefix | [251](../../magpie/internal/gateway/claude_cache.go#L251) |
-| accepts | method_declaration |  | [254](../../magpie/internal/gateway/claude_cache.go#L254) |
-| cacheTail | method_declaration |  | [258](../../magpie/internal/gateway/claude_cache.go#L258) |
-| promptCachePrefix | function_declaration |  | [265](../../magpie/internal/gateway/claude_cache.go#L265) |
-| p | var_spec | promptCachePrefix | [266](../../magpie/internal/gateway/claude_cache.go#L266) |
+| clientCache | type_spec |  | [18](../../magpie/internal/gateway/claude_cache.go#L18) |
+| system | field_declaration | clientCache | [19](../../magpie/internal/gateway/claude_cache.go#L19) |
+| tail | field_declaration | clientCache | [20](../../magpie/internal/gateway/claude_cache.go#L20) |
+| count | field_declaration | clientCache | [21](../../magpie/internal/gateway/claude_cache.go#L21) |
+| tools | field_declaration | clientCache | [22](../../magpie/internal/gateway/claude_cache.go#L22) |
+| messages | field_declaration | clientCache | [23](../../magpie/internal/gateway/claude_cache.go#L23) |
+| droppedSystem | field_declaration | clientCache | [24](../../magpie/internal/gateway/claude_cache.go#L24) |
+| droppedMessages | field_declaration | clientCache | [25](../../magpie/internal/gateway/claude_cache.go#L25) |
+| systemMarks | field_declaration | clientCache | [26](../../magpie/internal/gateway/claude_cache.go#L26) |
+| fresh | field_declaration | clientCache | [27](../../magpie/internal/gateway/claude_cache.go#L27) |
+| pasted | field_declaration | clientCache | [32](../../magpie/internal/gateway/claude_cache.go#L32) |
+| print | field_declaration | clientCache | [35](../../magpie/internal/gateway/claude_cache.go#L35) |
+| kept | field_declaration | clientCache | [37](../../magpie/internal/gateway/claude_cache.go#L37) |
+| report | field_declaration | clientCache | [38](../../magpie/internal/gateway/claude_cache.go#L38) |
+| marksPrintAt | const_spec |  | [52](../../magpie/internal/gateway/claude_cache.go#L52) |
+| markedHistory | function_declaration |  | [57](../../magpie/internal/gateway/claude_cache.go#L57) |
+| keptByPrint | function_declaration |  | [77](../../magpie/internal/gateway/claude_cache.go#L77) |
+| keptAsPrint | method_declaration |  | [82](../../magpie/internal/gateway/claude_cache.go#L82) |
+| wantsClientCache | function_declaration |  | [86](../../magpie/internal/gateway/claude_cache.go#L86) |
+| classifierClientCache | function_declaration |  | [97](../../magpie/internal/gateway/claude_cache.go#L97) |
+| selected | method_declaration |  | [105](../../magpie/internal/gateway/claude_cache.go#L105) |
+| cacheReportTry | function_declaration |  | [118](../../magpie/internal/gateway/claude_cache.go#L118) |
+| cacheReportReady | function_declaration |  | [127](../../magpie/internal/gateway/claude_cache.go#L127) |
+| cachePoint | type_spec |  | [138](../../magpie/internal/gateway/claude_cache.go#L138) |
+| End | field_declaration | cachePoint | [139](../../magpie/internal/gateway/claude_cache.go#L139) |
+| TTL | field_declaration | cachePoint | [140](../../magpie/internal/gateway/claude_cache.go#L140) |
+| cacheTTL | function_declaration |  | [143](../../magpie/internal/gateway/claude_cache.go#L143) |
+| askedCacheTTL | function_declaration |  | [159](../../magpie/internal/gateway/claude_cache.go#L159) |
+| cc | var_spec | askedCacheTTL | [165](../../magpie/internal/gateway/claude_cache.go#L165) |
+| system | var_spec | askedCacheTTL | [181](../../magpie/internal/gateway/claude_cache.go#L181) |
+| CacheControl | field_declaration | askedCacheTTL::system | [182](../../magpie/internal/gateway/claude_cache.go#L182) |
+| blocks | var_spec | askedCacheTTL | [197](../../magpie/internal/gateway/claude_cache.go#L197) |
+| CacheControl | field_declaration | askedCacheTTL::blocks | [198](../../magpie/internal/gateway/claude_cache.go#L198) |
+| renderedCacheBlock | function_declaration |  | [209](../../magpie/internal/gateway/claude_cache.go#L209) |
+| cacheMark | function_declaration |  | [223](../../magpie/internal/gateway/claude_cache.go#L223) |
+| partMark | function_declaration |  | [229](../../magpie/internal/gateway/claude_cache.go#L229) |
+| shorterTTL | function_declaration |  | [236](../../magpie/internal/gateway/claude_cache.go#L236) |
+| readClientCache | function_declaration |  | [251](../../magpie/internal/gateway/claude_cache.go#L251) |
+| cc | var_spec | readClientCache | [258](../../magpie/internal/gateway/claude_cache.go#L258) |
+| system | var_spec | readClientCache | [277](../../magpie/internal/gateway/claude_cache.go#L277) |
+| b | var_spec | readClientCache | [282](../../magpie/internal/gateway/claude_cache.go#L282) |
+| CacheControl | field_declaration | readClientCache::b | [283](../../magpie/internal/gateway/claude_cache.go#L283) |
+| blocks | var_spec | readClientCache | [303](../../magpie/internal/gateway/claude_cache.go#L303) |
+| CacheControl | field_declaration | readClientCache::blocks | [304](../../magpie/internal/gateway/claude_cache.go#L304) |
+| cc | var_spec | readClientCache | [325](../../magpie/internal/gateway/claude_cache.go#L325) |
+| cacheIdentity | function_declaration |  | [343](../../magpie/internal/gateway/claude_cache.go#L343) |
+| cacheDropped | function_declaration |  | [355](../../magpie/internal/gateway/claude_cache.go#L355) |
+| fields | var_spec | cacheDropped | [360](../../magpie/internal/gateway/claude_cache.go#L360) |
+| cachePrefix | type_spec |  | [392](../../magpie/internal/gateway/claude_cache.go#L392) |
+| count | field_declaration | cachePrefix | [393](../../magpie/internal/gateway/claude_cache.go#L393) |
+| floor | field_declaration | cachePrefix | [394](../../magpie/internal/gateway/claude_cache.go#L394) |
+| ttl | field_declaration | cachePrefix | [398](../../magpie/internal/gateway/claude_cache.go#L398) |
+| runTTL | method_declaration |  | [401](../../magpie/internal/gateway/claude_cache.go#L401) |
+| accepts | method_declaration |  | [408](../../magpie/internal/gateway/claude_cache.go#L408) |
+| cacheTail | method_declaration |  | [412](../../magpie/internal/gateway/claude_cache.go#L412) |
+| promptCachePrefix | function_declaration |  | [419](../../magpie/internal/gateway/claude_cache.go#L419) |
+| p | var_spec | promptCachePrefix | [420](../../magpie/internal/gateway/claude_cache.go#L420) |

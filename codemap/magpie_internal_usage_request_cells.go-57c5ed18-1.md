@@ -4,72 +4,85 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_cells.go) · page 1/1
 
-Source SHA-256: d699d2a529b3c8a976b984c75150dc48a39f9653bc07b60e42e07a34e2afccef
+Source SHA-256: 2d07fba1547ee5e63e3eaeaa5c6f12161ed6f0674cb514c7e4e03f314c11c64b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| cellDims | const_spec |  | [25](../../magpie/internal/usage/request_cells.go#L25) |
-| init | function_declaration |  | [27](../../magpie/internal/usage/request_cells.go#L27) |
-| chunkSerial | var_spec |  | [37](../../magpie/internal/usage/request_cells.go#L37) |
-| nextChunkSerial | function_declaration |  | [39](../../magpie/internal/usage/request_cells.go#L39) |
-| cellKeep | const_spec |  | [43](../../magpie/internal/usage/request_cells.go#L43) |
-| cellUncounted | const_spec |  | [44](../../magpie/internal/usage/request_cells.go#L44) |
-| cellVia | const_spec |  | [45](../../magpie/internal/usage/request_cells.go#L45) |
-| cellCharted | const_spec |  | [46](../../magpie/internal/usage/request_cells.go#L46) |
-| cellComputer | const_spec |  | [47](../../magpie/internal/usage/request_cells.go#L47) |
-| cellGroup | const_spec |  | [48](../../magpie/internal/usage/request_cells.go#L48) |
-| cellChart | const_spec |  | [49](../../magpie/internal/usage/request_cells.go#L49) |
-| cellThrough | const_spec |  | [54](../../magpie/internal/usage/request_cells.go#L54) |
-| cellDirect | const_spec |  | [55](../../magpie/internal/usage/request_cells.go#L55) |
-| cellReported | const_spec |  | [56](../../magpie/internal/usage/request_cells.go#L56) |
-| cellRow | type_spec |  | [60](../../magpie/internal/usage/request_cells.go#L60) |
-| provider | field_declaration | cellRow | [61](../../magpie/internal/usage/request_cells.go#L61) |
-| source | field_declaration | cellRow | [62](../../magpie/internal/usage/request_cells.go#L62) |
-| bits | field_declaration | cellRow | [63](../../magpie/internal/usage/request_cells.go#L63) |
-| bucket | field_declaration | cellRow | [66](../../magpie/internal/usage/request_cells.go#L66) |
-| pageCell | type_spec |  | [71](../../magpie/internal/usage/request_cells.go#L71) |
-| provider | field_declaration | pageCell | [72](../../magpie/internal/usage/request_cells.go#L72) |
-| source | field_declaration | pageCell | [73](../../magpie/internal/usage/request_cells.go#L73) |
-| bits | field_declaration | pageCell | [74](../../magpie/internal/usage/request_cells.go#L74) |
-| bucket | field_declaration | pageCell | [75](../../magpie/internal/usage/request_cells.go#L75) |
-| n | field_declaration | pageCell | [76](../../magpie/internal/usage/request_cells.go#L76) |
-| d | field_declaration | pageCell | [77](../../magpie/internal/usage/request_cells.go#L77) |
-| chunkPart | type_spec |  | [83](../../magpie/internal/usage/request_cells.go#L83) |
-| sig | field_declaration | chunkPart | [84](../../magpie/internal/usage/request_cells.go#L84) |
-| cells | field_declaration | chunkPart | [85](../../magpie/internal/usage/request_cells.go#L85) |
-| kept | field_declaration | chunkPart | [86](../../magpie/internal/usage/request_cells.go#L86) |
-| first | field_declaration | chunkPart | [87](../../magpie/internal/usage/request_cells.go#L87) |
-| partKey | type_spec |  | [92](../../magpie/internal/usage/request_cells.go#L92) |
-| p | field_declaration | partKey | [93](../../magpie/internal/usage/request_cells.go#L93) |
-| f | field_declaration | partKey | [94](../../magpie/internal/usage/request_cells.go#L94) |
-| since | field_declaration | partKey | [95](../../magpie/internal/usage/request_cells.go#L95) |
-| loc | field_declaration | partKey | [96](../../magpie/internal/usage/request_cells.go#L96) |
-| partCache | type_spec |  | [102](../../magpie/internal/usage/request_cells.go#L102) |
-| old | field_declaration | partCache | [103](../../magpie/internal/usage/request_cells.go#L103) |
-| pairs | field_declaration | partCache | [105](../../magpie/internal/usage/request_cells.go#L105) |
-| partSets | const_spec |  | [110](../../magpie/internal/usage/request_cells.go#L110) |
-| dayNumber | function_declaration |  | [113](../../magpie/internal/usage/request_cells.go#L113) |
-| cellPass | type_spec |  | [119](../../magpie/internal/usage/request_cells.go#L119) |
-| f | field_declaration | cellPass | [120](../../magpie/internal/usage/request_cells.go#L120) |
-| without | field_declaration | cellPass | [121](../../magpie/internal/usage/request_cells.go#L121) |
-| unpicked | field_declaration | cellPass | [122](../../magpie/internal/usage/request_cells.go#L122) |
-| computerUnpicked | field_declaration | cellPass | [123](../../magpie/internal/usage/request_cells.go#L123) |
-| hours | field_declaration | cellPass | [124](../../magpie/internal/usage/request_cells.go#L124) |
-| since | field_declaration | cellPass | [125](../../magpie/internal/usage/request_cells.go#L125) |
-| loc | field_declaration | cellPass | [126](../../magpie/internal/usage/request_cells.go#L126) |
-| newCellPass | function_declaration |  | [129](../../magpie/internal/usage/request_cells.go#L129) |
-| part | method_declaration |  | [147](../../magpie/internal/usage/request_cells.go#L147) |
-| raw | var_spec | part | [150](../../magpie/internal/usage/request_cells.go#L150) |
-| cells | var_spec | part | [151](../../magpie/internal/usage/request_cells.go#L151) |
-| last | var_spec | part | [152](../../magpie/internal/usage/request_cells.go#L152) |
-| row | method_declaration |  | [238](../../magpie/internal/usage/request_cells.go#L238) |
-| sigSeed | var_spec |  | [243](../../magpie/internal/usage/request_cells.go#L243) |
-| mix | function_declaration |  | [247](../../magpie/internal/usage/request_cells.go#L247) |
-| sigs | method_declaration |  | [264](../../magpie/internal/usage/request_cells.go#L264) |
-| partsOf | method_declaration |  | [311](../../magpie/internal/usage/request_cells.go#L311) |
-| rows | var_spec | partsOf | [314](../../magpie/internal/usage/request_cells.go#L314) |
-| r | var_spec | partsOf | [316](../../magpie/internal/usage/request_cells.go#L316) |
-| newest | method_declaration |  | [340](../../magpie/internal/usage/request_cells.go#L340) |
-| order | var_spec | newest | [345](../../magpie/internal/usage/request_cells.go#L345) |
-| rows | var_spec | newest | [360](../../magpie/internal/usage/request_cells.go#L360) |
-| r | var_spec | newest | [362](../../magpie/internal/usage/request_cells.go#L362) |
+| cellDims | const_spec |  | [26](../../magpie/internal/usage/request_cells.go#L26) |
+| init | function_declaration |  | [28](../../magpie/internal/usage/request_cells.go#L28) |
+| chunkSerial | var_spec |  | [38](../../magpie/internal/usage/request_cells.go#L38) |
+| nextChunkSerial | function_declaration |  | [40](../../magpie/internal/usage/request_cells.go#L40) |
+| cellKeep | const_spec |  | [44](../../magpie/internal/usage/request_cells.go#L44) |
+| cellUncounted | const_spec |  | [45](../../magpie/internal/usage/request_cells.go#L45) |
+| cellVia | const_spec |  | [46](../../magpie/internal/usage/request_cells.go#L46) |
+| cellCharted | const_spec |  | [47](../../magpie/internal/usage/request_cells.go#L47) |
+| cellComputer | const_spec |  | [48](../../magpie/internal/usage/request_cells.go#L48) |
+| cellGroup | const_spec |  | [49](../../magpie/internal/usage/request_cells.go#L49) |
+| cellChart | const_spec |  | [50](../../magpie/internal/usage/request_cells.go#L50) |
+| cellThrough | const_spec |  | [55](../../magpie/internal/usage/request_cells.go#L55) |
+| cellDirect | const_spec |  | [56](../../magpie/internal/usage/request_cells.go#L56) |
+| cellReported | const_spec |  | [57](../../magpie/internal/usage/request_cells.go#L57) |
+| cellRow | type_spec |  | [61](../../magpie/internal/usage/request_cells.go#L61) |
+| provider | field_declaration | cellRow | [62](../../magpie/internal/usage/request_cells.go#L62) |
+| source | field_declaration | cellRow | [63](../../magpie/internal/usage/request_cells.go#L63) |
+| bits | field_declaration | cellRow | [64](../../magpie/internal/usage/request_cells.go#L64) |
+| bucket | field_declaration | cellRow | [67](../../magpie/internal/usage/request_cells.go#L67) |
+| pageCell | type_spec |  | [72](../../magpie/internal/usage/request_cells.go#L72) |
+| provider | field_declaration | pageCell | [73](../../magpie/internal/usage/request_cells.go#L73) |
+| source | field_declaration | pageCell | [74](../../magpie/internal/usage/request_cells.go#L74) |
+| bits | field_declaration | pageCell | [75](../../magpie/internal/usage/request_cells.go#L75) |
+| bucket | field_declaration | pageCell | [76](../../magpie/internal/usage/request_cells.go#L76) |
+| n | field_declaration | pageCell | [77](../../magpie/internal/usage/request_cells.go#L77) |
+| d | field_declaration | pageCell | [78](../../magpie/internal/usage/request_cells.go#L78) |
+| chunkPart | type_spec |  | [84](../../magpie/internal/usage/request_cells.go#L84) |
+| sig | field_declaration | chunkPart | [85](../../magpie/internal/usage/request_cells.go#L85) |
+| cells | field_declaration | chunkPart | [86](../../magpie/internal/usage/request_cells.go#L86) |
+| kept | field_declaration | chunkPart | [87](../../magpie/internal/usage/request_cells.go#L87) |
+| first | field_declaration | chunkPart | [88](../../magpie/internal/usage/request_cells.go#L88) |
+| days | field_declaration | chunkPart | [90](../../magpie/internal/usage/request_cells.go#L90) |
+| speeds | field_declaration | chunkPart | [93](../../magpie/internal/usage/request_cells.go#L93) |
+| newest | field_declaration | chunkPart | [95](../../magpie/internal/usage/request_cells.go#L95) |
+| partKey | type_spec |  | [100](../../magpie/internal/usage/request_cells.go#L100) |
+| p | field_declaration | partKey | [101](../../magpie/internal/usage/request_cells.go#L101) |
+| f | field_declaration | partKey | [102](../../magpie/internal/usage/request_cells.go#L102) |
+| since | field_declaration | partKey | [103](../../magpie/internal/usage/request_cells.go#L103) |
+| loc | field_declaration | partKey | [104](../../magpie/internal/usage/request_cells.go#L104) |
+| partCache | type_spec |  | [110](../../magpie/internal/usage/request_cells.go#L110) |
+| old | field_declaration | partCache | [111](../../magpie/internal/usage/request_cells.go#L111) |
+| pairs | field_declaration | partCache | [113](../../magpie/internal/usage/request_cells.go#L113) |
+| heatOld | field_declaration | partCache | [116](../../magpie/internal/usage/request_cells.go#L116) |
+| pageOld | field_declaration | partCache | [119](../../magpie/internal/usage/request_cells.go#L119) |
+| disk | field_declaration | partCache | [122](../../magpie/internal/usage/request_cells.go#L122) |
+| partSets | const_spec |  | [127](../../magpie/internal/usage/request_cells.go#L127) |
+| dayNumber | function_declaration |  | [130](../../magpie/internal/usage/request_cells.go#L130) |
+| cellPass | type_spec |  | [136](../../magpie/internal/usage/request_cells.go#L136) |
+| f | field_declaration | cellPass | [137](../../magpie/internal/usage/request_cells.go#L137) |
+| without | field_declaration | cellPass | [138](../../magpie/internal/usage/request_cells.go#L138) |
+| unpicked | field_declaration | cellPass | [139](../../magpie/internal/usage/request_cells.go#L139) |
+| computerUnpicked | field_declaration | cellPass | [140](../../magpie/internal/usage/request_cells.go#L140) |
+| hours | field_declaration | cellPass | [141](../../magpie/internal/usage/request_cells.go#L141) |
+| since | field_declaration | cellPass | [142](../../magpie/internal/usage/request_cells.go#L142) |
+| loc | field_declaration | cellPass | [143](../../magpie/internal/usage/request_cells.go#L143) |
+| newCellPass | function_declaration |  | [146](../../magpie/internal/usage/request_cells.go#L146) |
+| part | method_declaration |  | [164](../../magpie/internal/usage/request_cells.go#L164) |
+| raw | var_spec | part | [167](../../magpie/internal/usage/request_cells.go#L167) |
+| cells | var_spec | part | [168](../../magpie/internal/usage/request_cells.go#L168) |
+| last | var_spec | part | [169](../../magpie/internal/usage/request_cells.go#L169) |
+| row | method_declaration |  | [261](../../magpie/internal/usage/request_cells.go#L261) |
+| sigSeed | var_spec |  | [266](../../magpie/internal/usage/request_cells.go#L266) |
+| mix | function_declaration |  | [270](../../magpie/internal/usage/request_cells.go#L270) |
+| sigs | method_declaration |  | [287](../../magpie/internal/usage/request_cells.go#L287) |
+| partsOf | method_declaration |  | [334](../../magpie/internal/usage/request_cells.go#L334) |
+| r | var_spec | partsOf | [339](../../magpie/internal/usage/request_cells.go#L339) |
+| newest | method_declaration |  | [368](../../magpie/internal/usage/request_cells.go#L368) |
+| order | var_spec | newest | [373](../../magpie/internal/usage/request_cells.go#L373) |
+| r | var_spec | newest | [402](../../magpie/internal/usage/request_cells.go#L402) |
+| chunkNewest | type_spec |  | [449](../../magpie/internal/usage/request_cells.go#L449) |
+| rows | field_declaration | chunkNewest | [450](../../magpie/internal/usage/request_cells.go#L450) |
+| all | field_declaration | chunkNewest | [451](../../magpie/internal/usage/request_cells.go#L451) |
+| newestRow | type_spec |  | [454](../../magpie/internal/usage/request_cells.go#L454) |
+| i | field_declaration | newestRow | [455](../../magpie/internal/usage/request_cells.go#L455) |
+| at | field_declaration | newestRow | [456](../../magpie/internal/usage/request_cells.go#L456) |
+| order | field_declaration | newestRow | [457](../../magpie/internal/usage/request_cells.go#L457) |
+| row | field_declaration | newestRow | [458](../../magpie/internal/usage/request_cells.go#L458) |
+| newestOpening | var_spec |  | [462](../../magpie/internal/usage/request_cells.go#L462) |

@@ -4,23 +4,32 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/groupmatch.go) · page 1/1
 
-Source SHA-256: fd867a91a88dc9848d86eac3bd50b26f50ea25a8e3a49d0884b1f4e44fc20544
+Source SHA-256: 028ca0df64cddd92a276e47973411055d70ac5374f6f8f8c90880eafae32c5fd
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| RegexpPrefix | const_spec |  | [28](../../magpie/internal/provider/groupmatch.go#L28) |
-| IsPattern | function_declaration |  | [33](../../magpie/internal/provider/groupmatch.go#L33) |
-| compilePattern | function_declaration |  | [42](../../magpie/internal/provider/groupmatch.go#L42) |
-| CleanPatterns | function_declaration |  | [62](../../magpie/internal/provider/groupmatch.go#L62) |
-| out | var_spec | CleanPatterns | [63](../../magpie/internal/provider/groupmatch.go#L63) |
-| PatternMatches | function_declaration |  | [81](../../magpie/internal/provider/groupmatch.go#L81) |
-| matchesIn | function_declaration |  | [90](../../magpie/internal/provider/groupmatch.go#L90) |
-| res | var_spec | matchesIn | [94](../../magpie/internal/provider/groupmatch.go#L94) |
-| out | var_spec | matchesIn | [105](../../magpie/internal/provider/groupmatch.go#L105) |
-| withMatches | function_declaration |  | [119](../../magpie/internal/provider/groupmatch.go#L119) |
-| ownMembers | function_declaration |  | [132](../../magpie/internal/provider/groupmatch.go#L132) |
-| stored | method_declaration |  | [148](../../magpie/internal/provider/groupmatch.go#L148) |
-| PatternHit | type_spec |  | [159](../../magpie/internal/provider/groupmatch.go#L159) |
-| Pattern | field_declaration | PatternHit | [160](../../magpie/internal/provider/groupmatch.go#L160) |
-| Models | field_declaration | PatternHit | [161](../../magpie/internal/provider/groupmatch.go#L161) |
-| PatternHits | function_declaration |  | [167](../../magpie/internal/provider/groupmatch.go#L167) |
+| RegexpPrefix | const_spec |  | [32](../../magpie/internal/provider/groupmatch.go#L32) |
+| IsPattern | function_declaration |  | [37](../../magpie/internal/provider/groupmatch.go#L37) |
+| matcher | type_spec |  | [43](../../magpie/internal/provider/groupmatch.go#L43) |
+| patternTimeout | const_spec |  | [47](../../magpie/internal/provider/groupmatch.go#L47) |
+| backtracking | type_spec |  | [50](../../magpie/internal/provider/groupmatch.go#L50) |
+| x | field_declaration | backtracking | [50](../../magpie/internal/provider/groupmatch.go#L50) |
+| MatchString | method_declaration |  | [52](../../magpie/internal/provider/groupmatch.go#L52) |
+| compilePattern | function_declaration |  | [61](../../magpie/internal/provider/groupmatch.go#L61) |
+| CleanPatterns | function_declaration |  | [90](../../magpie/internal/provider/groupmatch.go#L90) |
+| out | var_spec | CleanPatterns | [91](../../magpie/internal/provider/groupmatch.go#L91) |
+| PatternMatches | function_declaration |  | [109](../../magpie/internal/provider/groupmatch.go#L109) |
+| matchesIn | function_declaration |  | [118](../../magpie/internal/provider/groupmatch.go#L118) |
+| res | var_spec | matchesIn | [122](../../magpie/internal/provider/groupmatch.go#L122) |
+| out | var_spec | matchesIn | [133](../../magpie/internal/provider/groupmatch.go#L133) |
+| withMatches | function_declaration |  | [148](../../magpie/internal/provider/groupmatch.go#L148) |
+| placedIn | function_declaration |  | [161](../../magpie/internal/provider/groupmatch.go#L161) |
+| placedOver | function_declaration |  | [192](../../magpie/internal/provider/groupmatch.go#L192) |
+| order | var_spec | placedOver | [197](../../magpie/internal/provider/groupmatch.go#L197) |
+| seq | var_spec | placedOver | [204](../../magpie/internal/provider/groupmatch.go#L204) |
+| ownMembers | function_declaration |  | [236](../../magpie/internal/provider/groupmatch.go#L236) |
+| stored | method_declaration |  | [252](../../magpie/internal/provider/groupmatch.go#L252) |
+| PatternHit | type_spec |  | [263](../../magpie/internal/provider/groupmatch.go#L263) |
+| Pattern | field_declaration | PatternHit | [264](../../magpie/internal/provider/groupmatch.go#L264) |
+| Models | field_declaration | PatternHit | [265](../../magpie/internal/provider/groupmatch.go#L265) |
+| PatternHits | function_declaration |  | [271](../../magpie/internal/provider/groupmatch.go#L271) |

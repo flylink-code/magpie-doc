@@ -4,32 +4,34 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/scrub.go) · page 1/1
 
-Source SHA-256: a9a116dee8e5830d2bf1425c21e938e78732224d868d5d8157c66aa69a68a598
+Source SHA-256: 1a309ff7a5a1bed40a725067ca176dc10a38fc82894173f92ee213a73524344a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Scrubbed | const_spec |  | [18](../../magpie/internal/redact/scrub.go#L18) |
-| scrubbed | function_declaration |  | [20](../../magpie/internal/redact/scrub.go#L20) |
-| secretName | var_spec |  | [23](../../magpie/internal/redact/scrub.go#L23) |
-| SecretName | function_declaration |  | [27](../../magpie/internal/redact/scrub.go#L27) |
-| Scrub | function_declaration |  | [33](../../magpie/internal/redact/scrub.go#L33) |
-| scrub | function_declaration |  | [50](../../magpie/internal/redact/scrub.go#L50) |
-| scrubRuns | var_spec |  | [60](../../magpie/internal/redact/scrub.go#L60) |
-| scrubMemoMin | const_spec |  | [71](../../magpie/internal/redact/scrub.go#L71) |
-| scrubMemoEntries | const_spec |  | [72](../../magpie/internal/redact/scrub.go#L72) |
-| scrubMemoBytes | const_spec |  | [73](../../magpie/internal/redact/scrub.go#L73) |
-| scrubEntry | type_spec |  | [76](../../magpie/internal/redact/scrub.go#L76) |
-| gen | field_declaration | scrubEntry | [77](../../magpie/internal/redact/scrub.go#L77) |
-| same | field_declaration | scrubEntry | [78](../../magpie/internal/redact/scrub.go#L78) |
-| out | field_declaration | scrubEntry | [79](../../magpie/internal/redact/scrub.go#L79) |
-| scrubMemo | var_spec |  | [85](../../magpie/internal/redact/scrub.go#L85) |
-| memo | type_spec |  | [87](../../magpie/internal/redact/scrub.go#L87) |
-| cur | field_declaration | memo | [89](../../magpie/internal/redact/scrub.go#L89) |
-| bytes | field_declaration | memo | [90](../../magpie/internal/redact/scrub.go#L90) |
-| get | method_declaration |  | [93](../../magpie/internal/redact/scrub.go#L93) |
-| put | method_declaration |  | [111](../../magpie/internal/redact/scrub.go#L111) |
-| reset | method_declaration |  | [122](../../magpie/internal/redact/scrub.go#L122) |
-| add | method_declaration |  | [129](../../magpie/internal/redact/scrub.go#L129) |
-| ScrubHeader | function_declaration |  | [140](../../magpie/internal/redact/scrub.go#L140) |
-| ScrubJSON | function_declaration |  | [152](../../magpie/internal/redact/scrub.go#L152) |
-| scrubJSON | function_declaration |  | [170](../../magpie/internal/redact/scrub.go#L170) |
+| Scrubbed | const_spec |  | [19](../../magpie/internal/redact/scrub.go#L19) |
+| scrubbed | function_declaration |  | [21](../../magpie/internal/redact/scrub.go#L21) |
+| secretName | var_spec |  | [26](../../magpie/internal/redact/scrub.go#L26) |
+| SecretName | function_declaration |  | [30](../../magpie/internal/redact/scrub.go#L30) |
+| Scrub | function_declaration |  | [36](../../magpie/internal/redact/scrub.go#L36) |
+| scrub | function_declaration |  | [53](../../magpie/internal/redact/scrub.go#L53) |
+| scrubRuns | var_spec |  | [63](../../magpie/internal/redact/scrub.go#L63) |
+| scrubMemoMin | const_spec |  | [74](../../magpie/internal/redact/scrub.go#L74) |
+| scrubMemoEntries | const_spec |  | [75](../../magpie/internal/redact/scrub.go#L75) |
+| scrubMemoBytes | const_spec |  | [76](../../magpie/internal/redact/scrub.go#L76) |
+| scrubEntry | type_spec |  | [79](../../magpie/internal/redact/scrub.go#L79) |
+| gen | field_declaration | scrubEntry | [80](../../magpie/internal/redact/scrub.go#L80) |
+| same | field_declaration | scrubEntry | [81](../../magpie/internal/redact/scrub.go#L81) |
+| out | field_declaration | scrubEntry | [82](../../magpie/internal/redact/scrub.go#L82) |
+| scrubMemo | var_spec |  | [88](../../magpie/internal/redact/scrub.go#L88) |
+| memo | type_spec |  | [90](../../magpie/internal/redact/scrub.go#L90) |
+| cur | field_declaration | memo | [92](../../magpie/internal/redact/scrub.go#L92) |
+| bytes | field_declaration | memo | [93](../../magpie/internal/redact/scrub.go#L93) |
+| get | method_declaration |  | [96](../../magpie/internal/redact/scrub.go#L96) |
+| put | method_declaration |  | [114](../../magpie/internal/redact/scrub.go#L114) |
+| reset | method_declaration |  | [125](../../magpie/internal/redact/scrub.go#L125) |
+| add | method_declaration |  | [132](../../magpie/internal/redact/scrub.go#L132) |
+| ScrubHeader | function_declaration |  | [143](../../magpie/internal/redact/scrub.go#L143) |
+| SecretHeader | function_declaration |  | [159](../../magpie/internal/redact/scrub.go#L159) |
+| headerKeyNotSecret | var_spec |  | [189](../../magpie/internal/redact/scrub.go#L189) |
+| ScrubJSON | function_declaration |  | [195](../../magpie/internal/redact/scrub.go#L195) |
+| scrubJSON | function_declaration |  | [213](../../magpie/internal/redact/scrub.go#L213) |

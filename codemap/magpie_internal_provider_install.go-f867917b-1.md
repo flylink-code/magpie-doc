@@ -4,26 +4,28 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/install.go) · page 1/1
 
-Source SHA-256: 59f4673d123fa4efe26cee134eb43fd2b9441caba169e45438c446651211e00c
+Source SHA-256: 0904417f9e28524920e65ce84e7db7456e7332ec9da4ea1af0cbd8f9189ccca5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| agentCLI | type_spec |  | [28](../../magpie/internal/provider/install.go#L28) |
-| Name | field_declaration | agentCLI | [29](../../magpie/internal/provider/install.go#L29) |
-| find | field_declaration | agentCLI | [30](../../magpie/internal/provider/install.go#L30) |
-| sh | field_declaration | agentCLI | [31](../../magpie/internal/provider/install.go#L31) |
-| ps | field_declaration | agentCLI | [32](../../magpie/internal/provider/install.go#L32) |
-| native | field_declaration | agentCLI | [33](../../magpie/internal/provider/install.go#L33) |
-| setup | field_declaration | agentCLI | [34](../../magpie/internal/provider/install.go#L34) |
-| cliFor | function_declaration |  | [37](../../magpie/internal/provider/install.go#L37) |
-| missingCLI | function_declaration |  | [58](../../magpie/internal/provider/install.go#L58) |
-| installTimeout | var_spec |  | [67](../../magpie/internal/provider/install.go#L67) |
-| runInstaller | var_spec |  | [70](../../magpie/internal/provider/install.go#L70) |
-| cmd | var_spec | runInstaller | [74](../../magpie/internal/provider/install.go#L74) |
-| installerTail | var_spec |  | [98](../../magpie/internal/provider/install.go#L98) |
-| runUntilInstalled | function_declaration |  | [107](../../magpie/internal/provider/install.go#L107) |
-| out | var_spec | runUntilInstalled | [108](../../magpie/internal/provider/install.go#L108) |
-| tail | var_spec | runUntilInstalled | [118](../../magpie/internal/provider/install.go#L118) |
-| shellInstallerRuns | var_spec |  | [155](../../magpie/internal/provider/install.go#L155) |
-| installCLI | function_declaration |  | [166](../../magpie/internal/provider/install.go#L166) |
-| lastLine | function_declaration |  | [198](../../magpie/internal/provider/install.go#L198) |
+| agentCLI | type_spec |  | [31](../../magpie/internal/provider/install.go#L31) |
+| Name | field_declaration | agentCLI | [32](../../magpie/internal/provider/install.go#L32) |
+| find | field_declaration | agentCLI | [33](../../magpie/internal/provider/install.go#L33) |
+| sh | field_declaration | agentCLI | [34](../../magpie/internal/provider/install.go#L34) |
+| ps | field_declaration | agentCLI | [35](../../magpie/internal/provider/install.go#L35) |
+| native | field_declaration | agentCLI | [36](../../magpie/internal/provider/install.go#L36) |
+| manual | field_declaration | agentCLI | [37](../../magpie/internal/provider/install.go#L37) |
+| setup | field_declaration | agentCLI | [38](../../magpie/internal/provider/install.go#L38) |
+| cliFor | function_declaration |  | [41](../../magpie/internal/provider/install.go#L41) |
+| missingCLI | function_declaration |  | [75](../../magpie/internal/provider/install.go#L75) |
+| installTimeout | var_spec |  | [84](../../magpie/internal/provider/install.go#L84) |
+| runInstaller | var_spec |  | [87](../../magpie/internal/provider/install.go#L87) |
+| cmd | var_spec | runInstaller | [91](../../magpie/internal/provider/install.go#L91) |
+| installerTail | var_spec |  | [115](../../magpie/internal/provider/install.go#L115) |
+| runUntilInstalled | function_declaration |  | [124](../../magpie/internal/provider/install.go#L124) |
+| out | var_spec | runUntilInstalled | [125](../../magpie/internal/provider/install.go#L125) |
+| tail | var_spec | runUntilInstalled | [135](../../magpie/internal/provider/install.go#L135) |
+| downloadClaudeCode | var_spec |  | [167](../../magpie/internal/provider/install.go#L167) |
+| shellInstallerRuns | var_spec |  | [184](../../magpie/internal/provider/install.go#L184) |
+| installCLI | function_declaration |  | [195](../../magpie/internal/provider/install.go#L195) |
+| lastLine | function_declaration |  | [230](../../magpie/internal/provider/install.go#L230) |

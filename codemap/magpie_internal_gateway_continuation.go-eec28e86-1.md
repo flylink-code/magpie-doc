@@ -4,63 +4,81 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/continuation.go) · page 1/1
 
-Source SHA-256: b0b3602f711ce20d6f8048713993898c567e1d7a366a2a565abcbdf947cb274a
+Source SHA-256: 07cae074d777986a651e4588d27808509836729971ed55afb07f610145a011fe
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| streamRetries | const_spec |  | [37](../../magpie/internal/gateway/continuation.go#L37) |
-| emptyRetries | function_declaration |  | [47](../../magpie/internal/gateway/continuation.go#L47) |
-| loopReasks | const_spec |  | [61](../../magpie/internal/gateway/continuation.go#L61) |
-| errStreamCut | var_spec |  | [65](../../magpie/internal/gateway/continuation.go#L65) |
-| errEndedShort | var_spec |  | [72](../../magpie/internal/gateway/continuation.go#L72) |
-| geminiEnds | function_declaration |  | [84](../../magpie/internal/gateway/continuation.go#L84) |
-| chunk | type_spec | geminiEnds | [88](../../magpie/internal/gateway/continuation.go#L88) |
-| Candidates | field_declaration | geminiEnds::chunk | [89](../../magpie/internal/gateway/continuation.go#L89) |
-| FinishReason | field_declaration | geminiEnds::chunk::Candidates | [90](../../magpie/internal/gateway/continuation.go#L90) |
-| ch | var_spec | geminiEnds | [93](../../magpie/internal/gateway/continuation.go#L93) |
-| Response | field_declaration | geminiEnds::ch | [95](../../magpie/internal/gateway/continuation.go#L95) |
-| geminiKin | function_declaration |  | [118](../../magpie/internal/gateway/continuation.go#L118) |
-| saysItsEnd | function_declaration |  | [136](../../magpie/internal/gateway/continuation.go#L136) |
-| chatTail | type_spec |  | [149](../../magpie/internal/gateway/continuation.go#L149) |
-| usage | field_declaration | chatTail | [149](../../magpie/internal/gateway/continuation.go#L149) |
-| see | method_declaration |  | [151](../../magpie/internal/gateway/continuation.go#L151) |
-| v | var_spec | see | [152](../../magpie/internal/gateway/continuation.go#L152) |
-| Choices | field_declaration | see::v | [153](../../magpie/internal/gateway/continuation.go#L153) |
-| Delta | field_declaration | see::v::Choices | [154](../../magpie/internal/gateway/continuation.go#L154) |
-| ToolCalls | field_declaration | see::v::Choices::Delta | [155](../../magpie/internal/gateway/continuation.go#L155) |
-| Usage | field_declaration | see::v | [158](../../magpie/internal/gateway/continuation.go#L158) |
-| finish | method_declaration |  | [174](../../magpie/internal/gateway/continuation.go#L174) |
-| finishChunk | function_declaration |  | [185](../../magpie/internal/gateway/continuation.go#L185) |
-| groupTryKey | type_spec |  | [194](../../magpie/internal/gateway/continuation.go#L194) |
-| groupTry | function_declaration |  | [196](../../magpie/internal/gateway/continuation.go#L196) |
-| inGroupTry | function_declaration |  | [200](../../magpie/internal/gateway/continuation.go#L200) |
-| prefillHow | function_declaration |  | [212](../../magpie/internal/gateway/continuation.go#L212) |
-| chatPrefill | function_declaration |  | [229](../../magpie/internal/gateway/continuation.go#L229) |
-| continuation | type_spec |  | [258](../../magpie/internal/gateway/continuation.go#L258) |
-| think | field_declaration | continuation | [259](../../magpie/internal/gateway/continuation.go#L259) |
-| tools | field_declaration | continuation | [260](../../magpie/internal/gateway/continuation.go#L260) |
-| mode | field_declaration | continuation | [261](../../magpie/internal/gateway/continuation.go#L261) |
-| resume | field_declaration | continuation | [262](../../magpie/internal/gateway/continuation.go#L262) |
-| echo | field_declaration | continuation | [263](../../magpie/internal/gateway/continuation.go#L263) |
-| seen | field_declaration | continuation | [264](../../magpie/internal/gateway/continuation.go#L264) |
-| possible | method_declaration |  | [270](../../magpie/internal/gateway/continuation.go#L270) |
-| again | method_declaration |  | [278](../../magpie/internal/gateway/continuation.go#L278) |
-| prefillText | method_declaration |  | [292](../../magpie/internal/gateway/continuation.go#L292) |
-| request | method_declaration |  | [298](../../magpie/internal/gateway/continuation.go#L298) |
-| parts | var_spec | request | [300](../../magpie/internal/gateway/continuation.go#L300) |
-| emit | method_declaration |  | [317](../../magpie/internal/gateway/continuation.go#L317) |
-| add | method_declaration |  | [333](../../magpie/internal/gateway/continuation.go#L333) |
-| unecho | method_declaration |  | [347](../../magpie/internal/gateway/continuation.go#L347) |
-| streamTranslated | method_declaration |  | [369](../../magpie/internal/gateway/continuation.go#L369) |
-| failed | var_spec | streamTranslated | [377](../../magpie/internal/gateway/continuation.go#L377) |
-| failedStatus | var_spec | streamTranslated | [378](../../magpie/internal/gateway/continuation.go#L378) |
-| cut | var_spec | streamTranslated | [379](../../magpie/internal/gateway/continuation.go#L379) |
-| empty | var_spec | streamTranslated | [380](../../magpie/internal/gateway/continuation.go#L380) |
-| counts | var_spec | streamTranslated | [383](../../magpie/internal/gateway/continuation.go#L383) |
-| kept | var_spec | streamTranslated | [386](../../magpie/internal/gateway/continuation.go#L386) |
-| before | var_spec | streamTranslated | [387](../../magpie/internal/gateway/continuation.go#L387) |
-| spoke | var_spec | streamTranslated | [391](../../magpie/internal/gateway/continuation.go#L391) |
-| summaryUpstream | var_spec | streamTranslated | [392](../../magpie/internal/gateway/continuation.go#L392) |
-| serr | var_spec | streamTranslated | [465](../../magpie/internal/gateway/continuation.go#L465) |
-| held | var_spec | streamTranslated | [471](../../magpie/internal/gateway/continuation.go#L471) |
-| tail | var_spec | streamTranslated | [540](../../magpie/internal/gateway/continuation.go#L540) |
+| streamRetries | const_spec |  | [38](../../magpie/internal/gateway/continuation.go#L38) |
+| emptyRetries | function_declaration |  | [48](../../magpie/internal/gateway/continuation.go#L48) |
+| emptyAccounts | const_spec |  | [64](../../magpie/internal/gateway/continuation.go#L64) |
+| loopReasks | const_spec |  | [69](../../magpie/internal/gateway/continuation.go#L69) |
+| cutReasks | const_spec |  | [75](../../magpie/internal/gateway/continuation.go#L75) |
+| errStreamCut | var_spec |  | [79](../../magpie/internal/gateway/continuation.go#L79) |
+| errEndedShort | var_spec |  | [86](../../magpie/internal/gateway/continuation.go#L86) |
+| endsAtProbeCap | function_declaration |  | [102](../../magpie/internal/gateway/continuation.go#L102) |
+| spends | function_declaration |  | [109](../../magpie/internal/gateway/continuation.go#L109) |
+| geminiEnds | function_declaration |  | [127](../../magpie/internal/gateway/continuation.go#L127) |
+| chunk | type_spec | geminiEnds | [131](../../magpie/internal/gateway/continuation.go#L131) |
+| Candidates | field_declaration | geminiEnds::chunk | [132](../../magpie/internal/gateway/continuation.go#L132) |
+| FinishReason | field_declaration | geminiEnds::chunk::Candidates | [133](../../magpie/internal/gateway/continuation.go#L133) |
+| ch | var_spec | geminiEnds | [136](../../magpie/internal/gateway/continuation.go#L136) |
+| Response | field_declaration | geminiEnds::ch | [138](../../magpie/internal/gateway/continuation.go#L138) |
+| geminiKin | function_declaration |  | [161](../../magpie/internal/gateway/continuation.go#L161) |
+| commandCodeHost | const_spec |  | [170](../../magpie/internal/gateway/continuation.go#L170) |
+| saysItsEnd | function_declaration |  | [188](../../magpie/internal/gateway/continuation.go#L188) |
+| chatTail | type_spec |  | [202](../../magpie/internal/gateway/continuation.go#L202) |
+| usage | field_declaration | chatTail | [202](../../magpie/internal/gateway/continuation.go#L202) |
+| see | method_declaration |  | [204](../../magpie/internal/gateway/continuation.go#L204) |
+| v | var_spec | see | [205](../../magpie/internal/gateway/continuation.go#L205) |
+| Choices | field_declaration | see::v | [206](../../magpie/internal/gateway/continuation.go#L206) |
+| Delta | field_declaration | see::v::Choices | [207](../../magpie/internal/gateway/continuation.go#L207) |
+| Content | field_declaration | see::v::Choices::Delta | [208](../../magpie/internal/gateway/continuation.go#L208) |
+| ToolCalls | field_declaration | see::v::Choices::Delta | [209](../../magpie/internal/gateway/continuation.go#L209) |
+| Message | field_declaration | see::v::Choices | [211](../../magpie/internal/gateway/continuation.go#L211) |
+| Content | field_declaration | see::v::Choices::Message | [212](../../magpie/internal/gateway/continuation.go#L212) |
+| ToolCalls | field_declaration | see::v::Choices::Message | [213](../../magpie/internal/gateway/continuation.go#L213) |
+| Usage | field_declaration | see::v | [216](../../magpie/internal/gateway/continuation.go#L216) |
+| said | method_declaration |  | [231](../../magpie/internal/gateway/continuation.go#L231) |
+| finish | method_declaration |  | [240](../../magpie/internal/gateway/continuation.go#L240) |
+| finishChunk | function_declaration |  | [251](../../magpie/internal/gateway/continuation.go#L251) |
+| groupTryKey | type_spec |  | [260](../../magpie/internal/gateway/continuation.go#L260) |
+| groupTry | function_declaration |  | [262](../../magpie/internal/gateway/continuation.go#L262) |
+| inGroupTry | function_declaration |  | [266](../../magpie/internal/gateway/continuation.go#L266) |
+| fallbackKey | type_spec |  | [273](../../magpie/internal/gateway/continuation.go#L273) |
+| withFallback | function_declaration |  | [275](../../magpie/internal/gateway/continuation.go#L275) |
+| hasFallback | function_declaration |  | [279](../../magpie/internal/gateway/continuation.go#L279) |
+| prefillHow | function_declaration |  | [291](../../magpie/internal/gateway/continuation.go#L291) |
+| chatPrefill | function_declaration |  | [308](../../magpie/internal/gateway/continuation.go#L308) |
+| continuation | type_spec |  | [337](../../magpie/internal/gateway/continuation.go#L337) |
+| think | field_declaration | continuation | [338](../../magpie/internal/gateway/continuation.go#L338) |
+| tools | field_declaration | continuation | [339](../../magpie/internal/gateway/continuation.go#L339) |
+| mode | field_declaration | continuation | [340](../../magpie/internal/gateway/continuation.go#L340) |
+| resume | field_declaration | continuation | [341](../../magpie/internal/gateway/continuation.go#L341) |
+| echo | field_declaration | continuation | [342](../../magpie/internal/gateway/continuation.go#L342) |
+| seen | field_declaration | continuation | [343](../../magpie/internal/gateway/continuation.go#L343) |
+| possible | method_declaration |  | [349](../../magpie/internal/gateway/continuation.go#L349) |
+| again | method_declaration |  | [357](../../magpie/internal/gateway/continuation.go#L357) |
+| prefillText | method_declaration |  | [371](../../magpie/internal/gateway/continuation.go#L371) |
+| request | method_declaration |  | [377](../../magpie/internal/gateway/continuation.go#L377) |
+| parts | var_spec | request | [379](../../magpie/internal/gateway/continuation.go#L379) |
+| emit | method_declaration |  | [396](../../magpie/internal/gateway/continuation.go#L396) |
+| add | method_declaration |  | [412](../../magpie/internal/gateway/continuation.go#L412) |
+| unecho | method_declaration |  | [426](../../magpie/internal/gateway/continuation.go#L426) |
+| streamTranslated | method_declaration |  | [448](../../magpie/internal/gateway/continuation.go#L448) |
+| failed | var_spec | streamTranslated | [456](../../magpie/internal/gateway/continuation.go#L456) |
+| failedStatus | var_spec | streamTranslated | [457](../../magpie/internal/gateway/continuation.go#L457) |
+| errNamed | var_spec | streamTranslated | [460](../../magpie/internal/gateway/continuation.go#L460) |
+| cut | var_spec | streamTranslated | [461](../../magpie/internal/gateway/continuation.go#L461) |
+| empty | var_spec | streamTranslated | [462](../../magpie/internal/gateway/continuation.go#L462) |
+| counts | var_spec | streamTranslated | [465](../../magpie/internal/gateway/continuation.go#L465) |
+| voids | var_spec | streamTranslated | [468](../../magpie/internal/gateway/continuation.go#L468) |
+| kept | var_spec | streamTranslated | [471](../../magpie/internal/gateway/continuation.go#L471) |
+| before | var_spec | streamTranslated | [472](../../magpie/internal/gateway/continuation.go#L472) |
+| spoke | var_spec | streamTranslated | [477](../../magpie/internal/gateway/continuation.go#L477) |
+| spent | var_spec | streamTranslated | [479](../../magpie/internal/gateway/continuation.go#L479) |
+| summaryUpstream | var_spec | streamTranslated | [480](../../magpie/internal/gateway/continuation.go#L480) |
+| serr | var_spec | streamTranslated | [562](../../magpie/internal/gateway/continuation.go#L562) |
+| held | var_spec | streamTranslated | [569](../../magpie/internal/gateway/continuation.go#L569) |
+| tail | var_spec | streamTranslated | [644](../../magpie/internal/gateway/continuation.go#L644) |
+| found | var_spec | streamTranslated | [645](../../magpie/internal/gateway/continuation.go#L645) |
+| wmu | var_spec | streamTranslated | [650](../../magpie/internal/gateway/continuation.go#L650) |

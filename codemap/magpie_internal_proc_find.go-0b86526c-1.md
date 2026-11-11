@@ -4,12 +4,16 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/find.go) · page 1/1
 
-Source SHA-256: b807fd9495d5e9f0b6a88e31b9c64001ed49d4922ee1fc31011b818444779bcf
+Source SHA-256: 5d1ea9fd384a0802cfe27f6ddd0340f20457e2575760f582d53d78edf3ec713d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| FindTool | function_declaration |  | [20](../../magpie/internal/proc/find.go#L20) |
-| sandboxVar | const_spec |  | [35](../../magpie/internal/proc/find.go#L35) |
-| Isolated | function_declaration |  | [39](../../magpie/internal/proc/find.go#L39) |
-| SystemDirs | function_declaration |  | [49](../../magpie/internal/proc/find.go#L49) |
-| toolIn | function_declaration |  | [66](../../magpie/internal/proc/find.go#L66) |
+| FindTool | function_declaration |  | [22](../../magpie/internal/proc/find.go#L22) |
+| sandboxVar | const_spec |  | [37](../../magpie/internal/proc/find.go#L37) |
+| Isolated | function_declaration |  | [41](../../magpie/internal/proc/find.go#L41) |
+| SystemDirs | function_declaration |  | [51](../../magpie/internal/proc/find.go#L51) |
+| ToolIn | function_declaration |  | [68](../../magpie/internal/proc/find.go#L68) |
+| toolIn | function_declaration |  | [78](../../magpie/internal/proc/find.go#L78) |
+| npmShimLine | var_spec |  | [105](../../magpie/internal/proc/find.go#L105) |
+| npmShimExe | function_declaration |  | [110](../../magpie/internal/proc/find.go#L110) |
+| bunBin | function_declaration |  | [137](../../magpie/internal/proc/find.go#L137) |

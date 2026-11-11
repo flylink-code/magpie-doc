@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/effort_update.go) · page 1/1
 
-Source SHA-256: 7ff8ffcd6c70c4517637efe6665b28ad188cd1b25564e4005d1be9afbe8c1237
+Source SHA-256: 4fd146a3e3bd2320a655ddd6098a5a66e74fa6518393217e65f3c21f9b4136a6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -36,3 +36,9 @@ Source SHA-256: 7ff8ffcd6c70c4517637efe6665b28ad188cd1b25564e4005d1be9afbe8c1237
 | it | var_spec | isUserItem | [229](../../magpie/internal/gateway/effort_update.go#L229) |
 | Type | field_declaration | isUserItem::it | [230](../../magpie/internal/gateway/effort_update.go#L230) |
 | Role | field_declaration | isUserItem::it | [231](../../magpie/internal/gateway/effort_update.go#L231) |
+| effortUpdated | function_declaration |  | [247](../../magpie/internal/gateway/effort_update.go#L247) |
+| updateEffort | function_declaration |  | [264](../../magpie/internal/gateway/effort_update.go#L264) |
+| u | var_spec | updateEffort | [265](../../magpie/internal/gateway/effort_update.go#L265) |
+| Reasoning | field_declaration | updateEffort::u | [266](../../magpie/internal/gateway/effort_update.go#L266) |
+| Effort | field_declaration | updateEffort::u::Reasoning | [267](../../magpie/internal/gateway/effort_update.go#L267) |
+| withEffortUpdated | function_declaration |  | [281](../../magpie/internal/gateway/effort_update.go#L281) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skillcheck.go) · page 1/1
 
-Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
+Source SHA-256: 00836c6f2242fed90a2dfcafa0d8b1209dc49ddf30c029e218269f23cff417be
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -41,20 +41,29 @@ Source SHA-256: 0068d5d11c2952a32efebc817db3d7a48197a204e9c1a55f9cc59118c2a302d2
 | cacheBody | const_spec |  | [160](../../magpie/internal/library/skillcheck.go#L160) |
 | errOverCap | var_spec |  | [163](../../magpie/internal/library/skillcheck.go#L163) |
 | apiGet | function_declaration |  | [172](../../magpie/internal/library/skillcheck.go#L172) |
-| hashDir | function_declaration |  | [216](../../magpie/internal/library/skillcheck.go#L216) |
-| hashFiles | function_declaration |  | [221](../../magpie/internal/library/skillcheck.go#L221) |
-| hashWalk | function_declaration |  | [228](../../magpie/internal/library/skillcheck.go#L228) |
-| firstLine | function_declaration |  | [284](../../magpie/internal/library/skillcheck.go#L284) |
-| CheckSkills | function_declaration |  | [301](../../magpie/internal/library/skillcheck.go#L301) |
-| out | var_spec | CheckSkills | [317](../../magpie/internal/library/skillcheck.go#L317) |
-| known | var_spec | CheckSkills | [318](../../magpie/internal/library/skillcheck.go#L318) |
-| omu | var_spec | CheckSkills | [319](../../magpie/internal/library/skillcheck.go#L319) |
-| wg | var_spec | CheckSkills | [320](../../magpie/internal/library/skillcheck.go#L320) |
-| sem | var_spec | CheckSkills | [321](../../magpie/internal/library/skillcheck.go#L321) |
-| limited | var_spec | CheckSkills | [322](../../magpie/internal/library/skillcheck.go#L322) |
-| c | var_spec | CheckSkills | [334](../../magpie/internal/library/skillcheck.go#L334) |
-| sha | var_spec | CheckSkills | [335](../../magpie/internal/library/skillcheck.go#L335) |
-| gone | var_spec | CheckSkills | [384](../../magpie/internal/library/skillcheck.go#L384) |
-| checkSkill | function_declaration |  | [409](../../magpie/internal/library/skillcheck.go#L409) |
-| err | var_spec | checkSkill | [419](../../magpie/internal/library/skillcheck.go#L419) |
-| e | var_spec | checkSkill | [422](../../magpie/internal/library/skillcheck.go#L422) |
+| hashDir | function_declaration |  | [220](../../magpie/internal/library/skillcheck.go#L220) |
+| hashFiles | function_declaration |  | [225](../../magpie/internal/library/skillcheck.go#L225) |
+| leave | type_spec |  | [234](../../magpie/internal/library/skillcheck.go#L234) |
+| leaveNothing | const_spec |  | [237](../../magpie/internal/library/skillcheck.go#L237) |
+| leaveFinder | const_spec |  | [238](../../magpie/internal/library/skillcheck.go#L238) |
+| leaveBuilt | const_spec |  | [239](../../magpie/internal/library/skillcheck.go#L239) |
+| leaveInstalled | const_spec |  | [240](../../magpie/internal/library/skillcheck.go#L240) |
+| hashWalk | function_declaration |  | [246](../../magpie/internal/library/skillcheck.go#L246) |
+| firstLine | function_declaration |  | [308](../../magpie/internal/library/skillcheck.go#L308) |
+| gitLooked | var_spec |  | [320](../../magpie/internal/library/skillcheck.go#L320) |
+| gitLookedAt | function_declaration |  | [322](../../magpie/internal/library/skillcheck.go#L322) |
+| CheckSkills | function_declaration |  | [343](../../magpie/internal/library/skillcheck.go#L343) |
+| out | var_spec | CheckSkills | [359](../../magpie/internal/library/skillcheck.go#L359) |
+| known | var_spec | CheckSkills | [360](../../magpie/internal/library/skillcheck.go#L360) |
+| omu | var_spec | CheckSkills | [361](../../magpie/internal/library/skillcheck.go#L361) |
+| wg | var_spec | CheckSkills | [362](../../magpie/internal/library/skillcheck.go#L362) |
+| sem | var_spec | CheckSkills | [363](../../magpie/internal/library/skillcheck.go#L363) |
+| limited | var_spec | CheckSkills | [364](../../magpie/internal/library/skillcheck.go#L364) |
+| c | var_spec | CheckSkills | [376](../../magpie/internal/library/skillcheck.go#L376) |
+| sha | var_spec | CheckSkills | [377](../../magpie/internal/library/skillcheck.go#L377) |
+| found | var_spec | CheckSkills | [398](../../magpie/internal/library/skillcheck.go#L398) |
+| ok | var_spec | CheckSkills | [399](../../magpie/internal/library/skillcheck.go#L399) |
+| gone | var_spec | CheckSkills | [437](../../magpie/internal/library/skillcheck.go#L437) |
+| checkSkill | function_declaration |  | [462](../../magpie/internal/library/skillcheck.go#L462) |
+| err | var_spec | checkSkill | [472](../../magpie/internal/library/skillcheck.go#L472) |
+| e | var_spec | checkSkill | [475](../../magpie/internal/library/skillcheck.go#L475) |

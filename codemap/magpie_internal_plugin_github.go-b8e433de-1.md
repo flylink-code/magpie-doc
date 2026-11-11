@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/github.go) · page 1/1
 
-Source SHA-256: 23dfba169f4565bcad76573ba03d3a9ae53f9bbd2797c79a0fc9bb147589eab6
+Source SHA-256: 136290c56de44cff689f380646731b65bb6f2861a1d644e6fff01c92df390962
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,77 +17,88 @@ Source SHA-256: 23dfba169f4565bcad76573ba03d3a9ae53f9bbd2797c79a0fc9bb147589eab6
 | OwnerAvatar | field_declaration | Tagged | [33](../../magpie/internal/plugin/github.go#L33) |
 | Description | field_declaration | Tagged | [34](../../magpie/internal/plugin/github.go#L34) |
 | Stars | field_declaration | Tagged | [35](../../magpie/internal/plugin/github.go#L35) |
-| License | field_declaration | Tagged | [36](../../magpie/internal/plugin/github.go#L36) |
-| Pushed | field_declaration | Tagged | [37](../../magpie/internal/plugin/github.go#L37) |
-| Package | field_declaration | Tagged | [40](../../magpie/internal/plugin/github.go#L40) |
-| Version | field_declaration | Tagged | [41](../../magpie/internal/plugin/github.go#L41) |
-| Kind | field_declaration | Tagged | [42](../../magpie/internal/plugin/github.go#L42) |
-| Icon | field_declaration | Tagged | [45](../../magpie/internal/plugin/github.go#L45) |
-| githubAPI | var_spec |  | [50](../../magpie/internal/plugin/github.go#L50) |
-| githubRaw | var_spec |  | [51](../../magpie/internal/plugin/github.go#L51) |
-| taggedTTL | const_spec |  | [59](../../magpie/internal/plugin/github.go#L59) |
-| taggedWait | var_spec |  | [69](../../magpie/internal/plugin/github.go#L69) |
-| taggedEach | var_spec |  | [70](../../magpie/internal/plugin/github.go#L70) |
-| taggedAtOnce | var_spec |  | [71](../../magpie/internal/plugin/github.go#L71) |
-| taggedRetry | var_spec |  | [72](../../magpie/internal/plugin/github.go#L72) |
-| taggedPage | var_spec |  | [75](../../magpie/internal/plugin/github.go#L75) |
-| taggedMu | var_spec |  | [79](../../magpie/internal/plugin/github.go#L79) |
-| taggedL | var_spec |  | [80](../../magpie/internal/plugin/github.go#L80) |
-| taggedAt | var_spec |  | [81](../../magpie/internal/plugin/github.go#L81) |
-| taggedWhy | var_spec |  | [85](../../magpie/internal/plugin/github.go#L85) |
-| readMu | var_spec |  | [88](../../magpie/internal/plugin/github.go#L88) |
-| readRepo | var_spec |  | [89](../../magpie/internal/plugin/github.go#L89) |
-| taggedCache | function_declaration |  | [92](../../magpie/internal/plugin/github.go#L92) |
-| taggedOnDisk | function_declaration |  | [96](../../magpie/internal/plugin/github.go#L96) |
-| l | var_spec | taggedOnDisk | [97](../../magpie/internal/plugin/github.go#L97) |
-| ErrNoAnswer | var_spec |  | [106](../../magpie/internal/plugin/github.go#L106) |
-| TaggedMissing | type_spec |  | [111](../../magpie/internal/plugin/github.go#L111) |
-| Missing | field_declaration | TaggedMissing | [112](../../magpie/internal/plugin/github.go#L112) |
-| Why | field_declaration | TaggedMissing | [113](../../magpie/internal/plugin/github.go#L113) |
-| Error | method_declaration |  | [116](../../magpie/internal/plugin/github.go#L116) |
-| Unwrap | method_declaration |  | [120](../../magpie/internal/plugin/github.go#L120) |
-| TaggedRepos | function_declaration |  | [137](../../magpie/internal/plugin/github.go#L137) |
-| TaggedAskAgain | function_declaration |  | [190](../../magpie/internal/plugin/github.go#L190) |
-| askTagged | function_declaration |  | [202](../../magpie/internal/plugin/github.go#L202) |
-| item | type_spec | askTagged | [205](../../magpie/internal/plugin/github.go#L205) |
-| FullName | field_declaration | askTagged::item | [206](../../magpie/internal/plugin/github.go#L206) |
-| HTMLURL | field_declaration | askTagged::item | [207](../../magpie/internal/plugin/github.go#L207) |
-| Description | field_declaration | askTagged::item | [208](../../magpie/internal/plugin/github.go#L208) |
-| Stars | field_declaration | askTagged::item | [209](../../magpie/internal/plugin/github.go#L209) |
-| DefaultBranch | field_declaration | askTagged::item | [210](../../magpie/internal/plugin/github.go#L210) |
-| Pushed | field_declaration | askTagged::item | [211](../../magpie/internal/plugin/github.go#L211) |
-| Archived | field_declaration | askTagged::item | [212](../../magpie/internal/plugin/github.go#L212) |
-| Fork | field_declaration | askTagged::item | [213](../../magpie/internal/plugin/github.go#L213) |
-| Owner | field_declaration | askTagged::item | [214](../../magpie/internal/plugin/github.go#L214) |
-| Login | field_declaration | askTagged::item::Owner | [215](../../magpie/internal/plugin/github.go#L215) |
-| AvatarURL | field_declaration | askTagged::item::Owner | [216](../../magpie/internal/plugin/github.go#L216) |
-| License | field_declaration | askTagged::item | [218](../../magpie/internal/plugin/github.go#L218) |
-| SPDX | field_declaration | askTagged::item::License | [219](../../magpie/internal/plugin/github.go#L219) |
-| r | var_spec | askTagged | [222](../../magpie/internal/plugin/github.go#L222) |
-| Items | field_declaration | askTagged::r | [222](../../magpie/internal/plugin/github.go#L222) |
-| p | var_spec | askTagged | [233](../../magpie/internal/plugin/github.go#L233) |
-| Total | field_declaration | askTagged::p | [234](../../magpie/internal/plugin/github.go#L234) |
-| Items | field_declaration | askTagged::p | [235](../../magpie/internal/plugin/github.go#L235) |
-| mu | var_spec | askTagged | [260](../../magpie/internal/plugin/github.go#L260) |
-| why | var_spec | askTagged | [262](../../magpie/internal/plugin/github.go#L262) |
-| wg | var_spec | askTagged | [267](../../magpie/internal/plugin/github.go#L267) |
-| readTagged | function_declaration |  | [375](../../magpie/internal/plugin/github.go#L375) |
-| pj | var_spec | readTagged | [386](../../magpie/internal/plugin/github.go#L386) |
-| Name | field_declaration | readTagged::pj | [387](../../magpie/internal/plugin/github.go#L387) |
-| Version | field_declaration | readTagged::pj | [388](../../magpie/internal/plugin/github.go#L388) |
-| Main | field_declaration | readTagged::pj | [389](../../magpie/internal/plugin/github.go#L389) |
-| Exports | field_declaration | readTagged::pj | [390](../../magpie/internal/plugin/github.go#L390) |
-| Magpie | field_declaration | readTagged::pj | [391](../../magpie/internal/plugin/github.go#L391) |
-| Middleware | field_declaration | readTagged::pj::Magpie | [392](../../magpie/internal/plugin/github.go#L392) |
-| Agent | field_declaration | readTagged::pj::Magpie | [393](../../magpie/internal/plugin/github.go#L393) |
-| Icon | field_declaration | readTagged::pj::Magpie | [394](../../magpie/internal/plugin/github.go#L394) |
-| Page | field_declaration | readTagged::pj::Magpie | [395](../../magpie/internal/plugin/github.go#L395) |
-| File | field_declaration | readTagged::pj::Magpie::Page | [396](../../magpie/internal/plugin/github.go#L396) |
-| unknown | var_spec | readTagged | [422](../../magpie/internal/plugin/github.go#L422) |
-| l | var_spec | readTagged | [430](../../magpie/internal/plugin/github.go#L430) |
-| pkgEntry | function_declaration |  | [471](../../magpie/internal/plugin/github.go#L471) |
-| pick | var_spec | pkgEntry | [472](../../magpie/internal/plugin/github.go#L472) |
-| v | var_spec | pkgEntry | [489](../../magpie/internal/plugin/github.go#L489) |
-| githubReadme | function_declaration |  | [503](../../magpie/internal/plugin/github.go#L503) |
-| last | var_spec | githubReadme | [506](../../magpie/internal/plugin/github.go#L506) |
-| githubRepo | function_declaration |  | [519](../../magpie/internal/plugin/github.go#L519) |
+| License | field_declaration | Tagged | [41](../../magpie/internal/plugin/github.go#L41) |
+| PkgLicense | field_declaration | Tagged | [42](../../magpie/internal/plugin/github.go#L42) |
+| Pushed | field_declaration | Tagged | [43](../../magpie/internal/plugin/github.go#L43) |
+| Package | field_declaration | Tagged | [46](../../magpie/internal/plugin/github.go#L46) |
+| Version | field_declaration | Tagged | [47](../../magpie/internal/plugin/github.go#L47) |
+| Kind | field_declaration | Tagged | [48](../../magpie/internal/plugin/github.go#L48) |
+| Icon | field_declaration | Tagged | [51](../../magpie/internal/plugin/github.go#L51) |
+| Name | field_declaration | Tagged | [56](../../magpie/internal/plugin/github.go#L56) |
+| Summary | field_declaration | Tagged | [57](../../magpie/internal/plugin/github.go#L57) |
+| githubAPI | var_spec |  | [62](../../magpie/internal/plugin/github.go#L62) |
+| githubRaw | var_spec |  | [63](../../magpie/internal/plugin/github.go#L63) |
+| taggedTTL | const_spec |  | [72](../../magpie/internal/plugin/github.go#L72) |
+| taggedSearch | var_spec |  | [85](../../magpie/internal/plugin/github.go#L85) |
+| taggedWait | var_spec |  | [86](../../magpie/internal/plugin/github.go#L86) |
+| taggedEach | var_spec |  | [87](../../magpie/internal/plugin/github.go#L87) |
+| taggedAtOnce | var_spec |  | [88](../../magpie/internal/plugin/github.go#L88) |
+| taggedRetry | var_spec |  | [89](../../magpie/internal/plugin/github.go#L89) |
+| taggedPage | var_spec |  | [92](../../magpie/internal/plugin/github.go#L92) |
+| rawFresh | var_spec |  | [100](../../magpie/internal/plugin/github.go#L100) |
+| taggedMu | var_spec |  | [104](../../magpie/internal/plugin/github.go#L104) |
+| taggedL | var_spec |  | [105](../../magpie/internal/plugin/github.go#L105) |
+| taggedAt | var_spec |  | [106](../../magpie/internal/plugin/github.go#L106) |
+| taggedWhy | var_spec |  | [110](../../magpie/internal/plugin/github.go#L110) |
+| readMu | var_spec |  | [113](../../magpie/internal/plugin/github.go#L113) |
+| readRepo | var_spec |  | [114](../../magpie/internal/plugin/github.go#L114) |
+| readSoon | var_spec |  | [116](../../magpie/internal/plugin/github.go#L116) |
+| taggedCache | function_declaration |  | [119](../../magpie/internal/plugin/github.go#L119) |
+| taggedOnDisk | function_declaration |  | [123](../../magpie/internal/plugin/github.go#L123) |
+| l | var_spec | taggedOnDisk | [124](../../magpie/internal/plugin/github.go#L124) |
+| ErrNoAnswer | var_spec |  | [133](../../magpie/internal/plugin/github.go#L133) |
+| TaggedMissing | type_spec |  | [138](../../magpie/internal/plugin/github.go#L138) |
+| Missing | field_declaration | TaggedMissing | [139](../../magpie/internal/plugin/github.go#L139) |
+| Why | field_declaration | TaggedMissing | [140](../../magpie/internal/plugin/github.go#L140) |
+| Error | method_declaration |  | [143](../../magpie/internal/plugin/github.go#L143) |
+| Unwrap | method_declaration |  | [147](../../magpie/internal/plugin/github.go#L147) |
+| TaggedRepos | function_declaration |  | [164](../../magpie/internal/plugin/github.go#L164) |
+| TaggedAskAgain | function_declaration |  | [217](../../magpie/internal/plugin/github.go#L217) |
+| askTagged | function_declaration |  | [230](../../magpie/internal/plugin/github.go#L230) |
+| item | type_spec | askTagged | [231](../../magpie/internal/plugin/github.go#L231) |
+| FullName | field_declaration | askTagged::item | [232](../../magpie/internal/plugin/github.go#L232) |
+| HTMLURL | field_declaration | askTagged::item | [233](../../magpie/internal/plugin/github.go#L233) |
+| Description | field_declaration | askTagged::item | [234](../../magpie/internal/plugin/github.go#L234) |
+| Stars | field_declaration | askTagged::item | [235](../../magpie/internal/plugin/github.go#L235) |
+| DefaultBranch | field_declaration | askTagged::item | [236](../../magpie/internal/plugin/github.go#L236) |
+| Pushed | field_declaration | askTagged::item | [237](../../magpie/internal/plugin/github.go#L237) |
+| Archived | field_declaration | askTagged::item | [238](../../magpie/internal/plugin/github.go#L238) |
+| Fork | field_declaration | askTagged::item | [239](../../magpie/internal/plugin/github.go#L239) |
+| Owner | field_declaration | askTagged::item | [240](../../magpie/internal/plugin/github.go#L240) |
+| Login | field_declaration | askTagged::item::Owner | [241](../../magpie/internal/plugin/github.go#L241) |
+| AvatarURL | field_declaration | askTagged::item::Owner | [242](../../magpie/internal/plugin/github.go#L242) |
+| License | field_declaration | askTagged::item | [244](../../magpie/internal/plugin/github.go#L244) |
+| SPDX | field_declaration | askTagged::item::License | [245](../../magpie/internal/plugin/github.go#L245) |
+| r | var_spec | askTagged | [248](../../magpie/internal/plugin/github.go#L248) |
+| Items | field_declaration | askTagged::r | [248](../../magpie/internal/plugin/github.go#L248) |
+| p | var_spec | askTagged | [261](../../magpie/internal/plugin/github.go#L261) |
+| Total | field_declaration | askTagged::p | [262](../../magpie/internal/plugin/github.go#L262) |
+| Items | field_declaration | askTagged::p | [263](../../magpie/internal/plugin/github.go#L263) |
+| mu | var_spec | askTagged | [293](../../magpie/internal/plugin/github.go#L293) |
+| why | var_spec | askTagged | [295](../../magpie/internal/plugin/github.go#L295) |
+| wg | var_spec | askTagged | [300](../../magpie/internal/plugin/github.go#L300) |
+| readTagged | function_declaration |  | [414](../../magpie/internal/plugin/github.go#L414) |
+| pj | var_spec | readTagged | [425](../../magpie/internal/plugin/github.go#L425) |
+| Name | field_declaration | readTagged::pj | [426](../../magpie/internal/plugin/github.go#L426) |
+| Version | field_declaration | readTagged::pj | [427](../../magpie/internal/plugin/github.go#L427) |
+| Main | field_declaration | readTagged::pj | [428](../../magpie/internal/plugin/github.go#L428) |
+| Exports | field_declaration | readTagged::pj | [429](../../magpie/internal/plugin/github.go#L429) |
+| License | field_declaration | readTagged::pj | [430](../../magpie/internal/plugin/github.go#L430) |
+| Magpie | field_declaration | readTagged::pj | [431](../../magpie/internal/plugin/github.go#L431) |
+| Middleware | field_declaration | readTagged::pj::Magpie | [432](../../magpie/internal/plugin/github.go#L432) |
+| Agent | field_declaration | readTagged::pj::Magpie | [433](../../magpie/internal/plugin/github.go#L433) |
+| Hooks | field_declaration | readTagged::pj::Magpie | [434](../../magpie/internal/plugin/github.go#L434) |
+| Icon | field_declaration | readTagged::pj::Magpie | [435](../../magpie/internal/plugin/github.go#L435) |
+| Name | field_declaration | readTagged::pj::Magpie | [436](../../magpie/internal/plugin/github.go#L436) |
+| Summary | field_declaration | readTagged::pj::Magpie | [438](../../magpie/internal/plugin/github.go#L438) |
+| Page | field_declaration | readTagged::pj::Magpie | [439](../../magpie/internal/plugin/github.go#L439) |
+| File | field_declaration | readTagged::pj::Magpie::Page | [440](../../magpie/internal/plugin/github.go#L440) |
+| unknown | var_spec | readTagged | [485](../../magpie/internal/plugin/github.go#L485) |
+| l | var_spec | readTagged | [493](../../magpie/internal/plugin/github.go#L493) |
+| pkgEntry | function_declaration |  | [549](../../magpie/internal/plugin/github.go#L549) |
+| pick | var_spec | pkgEntry | [550](../../magpie/internal/plugin/github.go#L550) |
+| v | var_spec | pkgEntry | [567](../../magpie/internal/plugin/github.go#L567) |
+| githubReadme | function_declaration |  | [581](../../magpie/internal/plugin/github.go#L581) |
+| last | var_spec | githubReadme | [584](../../magpie/internal/plugin/github.go#L584) |
+| githubRepo | function_declaration |  | [597](../../magpie/internal/plugin/github.go#L597) |
+| askListOrGitHub | function_declaration |  | [617](../../magpie/internal/plugin/github.go#L617) |

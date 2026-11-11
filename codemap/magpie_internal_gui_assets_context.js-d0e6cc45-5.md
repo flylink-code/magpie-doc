@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/context.js) · page 5/6
 
-Source SHA-256: d480917efbc728320a2f0e730846f448e8e6f154e3887529b05744507f9f498a
+Source SHA-256: 2533d21d426a195f3c4412467d0799e3d56b70d9c7aaf7cee5add8faf3b4d661
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| k | VariableDeclaration | shareBar | [1159](../../magpie/internal/gui/assets/context.js#L1159) |
-| v | VariableDeclaration | shareBar | [1160](../../magpie/internal/gui/assets/context.js#L1160) |
-| i | VariableDeclaration | shareBar | [1162](../../magpie/internal/gui/assets/context.js#L1162) |
-| agentCard | FunctionDeclaration |  | [1170](../../magpie/internal/gui/assets/context.js#L1170) |
-| card | VariableDeclaration | agentCard | [1171](../../magpie/internal/gui/assets/context.js#L1171) |
-| head | VariableDeclaration | agentCard | [1172](../../magpie/internal/gui/assets/context.js#L1172) |
-| who | VariableDeclaration | agentCard | [1173](../../magpie/internal/gui/assets/context.js#L1173) |
-| meta | VariableDeclaration | agentCard | [1175](../../magpie/internal/gui/assets/context.js#L1175) |
-| name | VariableDeclaration | agentCard | [1176](../../magpie/internal/gui/assets/context.js#L1176) |
-| [tone, word] | VariableDeclaration | agentCard | [1178](../../magpie/internal/gui/assets/context.js#L1178) |
-| tone | BindingElement | agentCard.[tone, word] | [1178](../../magpie/internal/gui/assets/context.js#L1178) |
-| word | BindingElement | agentCard.[tone, word] | [1178](../../magpie/internal/gui/assets/context.js#L1178) |
-| g | VariableDeclaration | agentCard | [1179](../../magpie/internal/gui/assets/context.js#L1179) |
-| scores | VariableDeclaration | agentCard | [1183](../../magpie/internal/gui/assets/context.js#L1183) |
-| s | VariableDeclaration | agentCard | [1184](../../magpie/internal/gui/assets/context.js#L1184) |
-| r | VariableDeclaration | agentCard | [1185](../../magpie/internal/gui/assets/context.js#L1185) |
-| row | VariableDeclaration | agentCard | [1186](../../magpie/internal/gui/assets/context.js#L1186) |
-| bar | VariableDeclaration | agentCard | [1188](../../magpie/internal/gui/assets/context.js#L1188) |
-| f | VariableDeclaration | agentCard | [1189](../../magpie/internal/gui/assets/context.js#L1189) |
-| tags | VariableDeclaration | agentCard | [1196](../../magpie/internal/gui/assets/context.js#L1196) |
-| tg | VariableDeclaration | agentCard | [1197](../../magpie/internal/gui/assets/context.js#L1197) |
-| def | VariableDeclaration | agentCard | [1198](../../magpie/internal/gui/assets/context.js#L1198) |
-| chip | VariableDeclaration | agentCard | [1199](../../magpie/internal/gui/assets/context.js#L1199) |
-| facts | VariableDeclaration | agentCard | [1205](../../magpie/internal/gui/assets/context.js#L1205) |
-| fact | VariableDeclaration | agentCard | [1206](../../magpie/internal/gui/assets/context.js#L1206) |
-| f | VariableDeclaration | agentCard.fact | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
-| mix | VariableDeclaration | agentCard | [1219](../../magpie/internal/gui/assets/context.js#L1219) |
-| keys | VariableDeclaration | agentCard | [1221](../../magpie/internal/gui/assets/context.js#L1221) |
-| k | VariableDeclaration | agentCard | [1222](../../magpie/internal/gui/assets/context.js#L1222) |
-| v | VariableDeclaration | agentCard | [1223](../../magpie/internal/gui/assets/context.js#L1223) |
-| s | VariableDeclaration | agentCard | [1225](../../magpie/internal/gui/assets/context.js#L1225) |
-| foot | VariableDeclaration | agentCard | [1231](../../magpie/internal/gui/assets/context.js#L1231) |
-| models | VariableDeclaration | agentCard | [1232](../../magpie/internal/gui/assets/context.js#L1232) |
-| m | VariableDeclaration | agentCard | [1235](../../magpie/internal/gui/assets/context.js#L1235) |
-| c | VariableDeclaration | agentCard | [1236](../../magpie/internal/gui/assets/context.js#L1236) |
-| go | VariableDeclaration | agentCard | [1242](../../magpie/internal/gui/assets/context.js#L1242) |
-| sessionRow | FunctionDeclaration |  | [1252](../../magpie/internal/gui/assets/context.js#L1252) |
-| open | VariableDeclaration | sessionRow | [1253](../../magpie/internal/gui/assets/context.js#L1253) |
-| box | VariableDeclaration | sessionRow | [1254](../../magpie/internal/gui/assets/context.js#L1254) |
-| row | VariableDeclaration | sessionRow | [1255](../../magpie/internal/gui/assets/context.js#L1255) |
-| name | VariableDeclaration | sessionRow | [1258](../../magpie/internal/gui/assets/context.js#L1258) |
-| fill | VariableDeclaration | sessionRow | [1262](../../magpie/internal/gui/assets/context.js#L1262) |
-| [tone] | VariableDeclaration | sessionRow | [1263](../../magpie/internal/gui/assets/context.js#L1263) |
-| tone | BindingElement | sessionRow.[tone] | [1263](../../magpie/internal/gui/assets/context.js#L1263) |
-| peak | VariableDeclaration | sessionRow | [1264](../../magpie/internal/gui/assets/context.js#L1264) |
-| meta | VariableDeclaration | sessionRow | [1266](../../magpie/internal/gui/assets/context.js#L1266) |
-| last | VariableDeclaration | sessionRow | [1274](../../magpie/internal/gui/assets/context.js#L1274) |
-| r | VariableDeclaration | sessionRow | [1275](../../magpie/internal/gui/assets/context.js#L1275) |
-| cache | VariableDeclaration | sessionRow | [1276](../../magpie/internal/gui/assets/context.js#L1276) |
-| onPoint | PropertyAssignment | sessionRow | [1281](../../magpie/internal/gui/assets/context.js#L1281) |
-| tuneData | VariableDeclaration |  | [1290](../../magpie/internal/gui/assets/context.js#L1290) |
-| tuneJSON | VariableDeclaration |  | [1290](../../magpie/internal/gui/assets/context.js#L1290) |
-| tuneRead | VariableDeclaration |  | [1290](../../magpie/internal/gui/assets/context.js#L1290) |
-| tuneBusy | VariableDeclaration |  | [1290](../../magpie/internal/gui/assets/context.js#L1290) |
-| ctxDrawn | VariableDeclaration |  | [1294](../../magpie/internal/gui/assets/context.js#L1294) |
-| tuneDrawn | VariableDeclaration |  | [1294](../../magpie/internal/gui/assets/context.js#L1294) |
-| KNOBS | VariableDeclaration |  | [1296](../../magpie/internal/gui/assets/context.js#L1296) |
-| ttlName | VariableDeclaration |  | [1301](../../magpie/internal/gui/assets/context.js#L1301) |
-| chartN | VariableDeclaration |  | [1306](../../magpie/internal/gui/assets/context.js#L1306) |
-| TICK_GAP | VariableDeclaration |  | [1309](../../magpie/internal/gui/assets/context.js#L1309) |
-| chart | FunctionDeclaration |  | [1310](../../magpie/internal/gui/assets/context.js#L1310) |
-| near | VariableDeclaration | chart | [1312](../../magpie/internal/gui/assets/context.js#L1312) |
-| now | VariableDeclaration | chart | [1313](../../magpie/internal/gui/assets/context.js#L1313) |
-| top | VariableDeclaration | chart | [1314](../../magpie/internal/gui/assets/context.js#L1314) |
-| low | VariableDeclaration | chart | [1320](../../magpie/internal/gui/assets/context.js#L1320) |
-| extra | VariableDeclaration | chart | [1321](../../magpie/internal/gui/assets/context.js#L1321) |
-| most | VariableDeclaration | chart | [1322](../../magpie/internal/gui/assets/context.js#L1322) |
-| worst | VariableDeclaration | chart | [1324](../../magpie/internal/gui/assets/context.js#L1324) |
-| W | VariableDeclaration | chart | [1325](../../magpie/internal/gui/assets/context.js#L1325) |
-| H | VariableDeclaration | chart | [1325](../../magpie/internal/gui/assets/context.js#L1325) |
-| top0 | VariableDeclaration | chart | [1325](../../magpie/internal/gui/assets/context.js#L1325) |
-| base | VariableDeclaration | chart | [1325](../../magpie/internal/gui/assets/context.js#L1325) |
-| X | VariableDeclaration | chart | [1326](../../magpie/internal/gui/assets/context.js#L1326) |
-| Y | VariableDeclaration | chart | [1327](../../magpie/internal/gui/assets/context.js#L1327) |
-| xy | VariableDeclaration | chart | [1328](../../magpie/internal/gui/assets/context.js#L1328) |
-| d | VariableDeclaration | chart | [1330](../../magpie/internal/gui/assets/context.js#L1330) |
-| i | VariableDeclaration | chart | [1331](../../magpie/internal/gui/assets/context.js#L1331) |
-| [x0, y0] | VariableDeclaration | chart | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| x0 | BindingElement | chart.[x0, y0] | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| y0 | BindingElement | chart.[x0, y0] | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| [x1, y1] | VariableDeclaration | chart | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| x1 | BindingElement | chart.[x1, y1] | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| y1 | BindingElement | chart.[x1, y1] | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| m | VariableDeclaration | chart | [1332](../../magpie/internal/gui/assets/context.js#L1332) |
-| id | VariableDeclaration | chart | [1335](../../magpie/internal/gui/assets/context.js#L1335) |
-| box | VariableDeclaration | chart | [1336](../../magpie/internal/gui/assets/context.js#L1336) |
-| s | VariableDeclaration | chart | [1337](../../magpie/internal/gui/assets/context.js#L1337) |
-| plot | VariableDeclaration | chart | [1345](../../magpie/internal/gui/assets/context.js#L1345) |
-| at | VariableDeclaration | chart | [1348](../../magpie/internal/gui/assets/context.js#L1348) |
-| i | VariableDeclaration | chart.at | [1349](../../magpie/internal/gui/assets/context.js#L1349) |
-| dot | VariableDeclaration | chart.at | [1350](../../magpie/internal/gui/assets/context.js#L1350) |
-| tag | VariableDeclaration | chart.at | [1354](../../magpie/internal/gui/assets/context.js#L1354) |
-| along | VariableDeclaration | chart | [1369](../../magpie/internal/gui/assets/context.js#L1369) |
-| tagged | VariableDeclaration | chart | [1375](../../magpie/internal/gui/assets/context.js#L1375) |
-| tag | VariableDeclaration | chart | [1376](../../magpie/internal/gui/assets/context.js#L1376) |
-| bestTag | VariableDeclaration | chart | [1381](../../magpie/internal/gui/assets/context.js#L1381) |
-| nowTag | VariableDeclaration | chart | [1382](../../magpie/internal/gui/assets/context.js#L1382) |
-| worstTag | VariableDeclaration | chart | [1383](../../magpie/internal/gui/assets/context.js#L1383) |
-| axis | VariableDeclaration | chart | [1387](../../magpie/internal/gui/assets/context.js#L1387) |
-| kept | VariableDeclaration | chart | [1388](../../magpie/internal/gui/assets/context.js#L1388) |
+| s | VariableDeclaration | agentCard | [1098](../../magpie/internal/gui/assets/context.js#L1098) |
+| foot | VariableDeclaration | agentCard | [1104](../../magpie/internal/gui/assets/context.js#L1104) |
+| models | VariableDeclaration | agentCard | [1105](../../magpie/internal/gui/assets/context.js#L1105) |
+| m | VariableDeclaration | agentCard | [1108](../../magpie/internal/gui/assets/context.js#L1108) |
+| c | VariableDeclaration | agentCard | [1109](../../magpie/internal/gui/assets/context.js#L1109) |
+| go | VariableDeclaration | agentCard | [1115](../../magpie/internal/gui/assets/context.js#L1115) |
+| sessionRow | FunctionDeclaration |  | [1125](../../magpie/internal/gui/assets/context.js#L1125) |
+| open | VariableDeclaration | sessionRow | [1126](../../magpie/internal/gui/assets/context.js#L1126) |
+| box | VariableDeclaration | sessionRow | [1127](../../magpie/internal/gui/assets/context.js#L1127) |
+| row | VariableDeclaration | sessionRow | [1128](../../magpie/internal/gui/assets/context.js#L1128) |
+| name | VariableDeclaration | sessionRow | [1131](../../magpie/internal/gui/assets/context.js#L1131) |
+| fill | VariableDeclaration | sessionRow | [1135](../../magpie/internal/gui/assets/context.js#L1135) |
+| [tone] | VariableDeclaration | sessionRow | [1136](../../magpie/internal/gui/assets/context.js#L1136) |
+| tone | BindingElement | sessionRow.[tone] | [1136](../../magpie/internal/gui/assets/context.js#L1136) |
+| peak | VariableDeclaration | sessionRow | [1137](../../magpie/internal/gui/assets/context.js#L1137) |
+| meta | VariableDeclaration | sessionRow | [1139](../../magpie/internal/gui/assets/context.js#L1139) |
+| last | VariableDeclaration | sessionRow | [1147](../../magpie/internal/gui/assets/context.js#L1147) |
+| r | VariableDeclaration | sessionRow | [1148](../../magpie/internal/gui/assets/context.js#L1148) |
+| cache | VariableDeclaration | sessionRow | [1149](../../magpie/internal/gui/assets/context.js#L1149) |
+| onPoint | PropertyAssignment | sessionRow | [1154](../../magpie/internal/gui/assets/context.js#L1154) |
+| tuneData | VariableDeclaration |  | [1165](../../magpie/internal/gui/assets/context.js#L1165) |
+| tuneJSON | VariableDeclaration |  | [1165](../../magpie/internal/gui/assets/context.js#L1165) |
+| tuneRead | VariableDeclaration |  | [1165](../../magpie/internal/gui/assets/context.js#L1165) |
+| tuneBusy | VariableDeclaration |  | [1165](../../magpie/internal/gui/assets/context.js#L1165) |
+| ctxDrawn | VariableDeclaration |  | [1169](../../magpie/internal/gui/assets/context.js#L1169) |
+| tuneDrawn | VariableDeclaration |  | [1169](../../magpie/internal/gui/assets/context.js#L1169) |
+| KNOBS | VariableDeclaration |  | [1171](../../magpie/internal/gui/assets/context.js#L1171) |
+| ttlName | VariableDeclaration |  | [1176](../../magpie/internal/gui/assets/context.js#L1176) |
+| chartN | VariableDeclaration |  | [1181](../../magpie/internal/gui/assets/context.js#L1181) |
+| TICK_GAP | VariableDeclaration |  | [1184](../../magpie/internal/gui/assets/context.js#L1184) |
+| chart | FunctionDeclaration |  | [1185](../../magpie/internal/gui/assets/context.js#L1185) |
+| near | VariableDeclaration | chart | [1187](../../magpie/internal/gui/assets/context.js#L1187) |
+| now | VariableDeclaration | chart | [1188](../../magpie/internal/gui/assets/context.js#L1188) |
+| top | VariableDeclaration | chart | [1189](../../magpie/internal/gui/assets/context.js#L1189) |
+| low | VariableDeclaration | chart | [1195](../../magpie/internal/gui/assets/context.js#L1195) |
+| extra | VariableDeclaration | chart | [1196](../../magpie/internal/gui/assets/context.js#L1196) |
+| most | VariableDeclaration | chart | [1197](../../magpie/internal/gui/assets/context.js#L1197) |
+| worst | VariableDeclaration | chart | [1199](../../magpie/internal/gui/assets/context.js#L1199) |
+| W | VariableDeclaration | chart | [1200](../../magpie/internal/gui/assets/context.js#L1200) |
+| H | VariableDeclaration | chart | [1200](../../magpie/internal/gui/assets/context.js#L1200) |
+| top0 | VariableDeclaration | chart | [1200](../../magpie/internal/gui/assets/context.js#L1200) |
+| base | VariableDeclaration | chart | [1200](../../magpie/internal/gui/assets/context.js#L1200) |
+| X | VariableDeclaration | chart | [1201](../../magpie/internal/gui/assets/context.js#L1201) |
+| Y | VariableDeclaration | chart | [1202](../../magpie/internal/gui/assets/context.js#L1202) |
+| xy | VariableDeclaration | chart | [1203](../../magpie/internal/gui/assets/context.js#L1203) |
+| d | VariableDeclaration | chart | [1205](../../magpie/internal/gui/assets/context.js#L1205) |
+| i | VariableDeclaration | chart | [1206](../../magpie/internal/gui/assets/context.js#L1206) |
+| [x0, y0] | VariableDeclaration | chart | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| x0 | BindingElement | chart.[x0, y0] | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| y0 | BindingElement | chart.[x0, y0] | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| [x1, y1] | VariableDeclaration | chart | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| x1 | BindingElement | chart.[x1, y1] | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| y1 | BindingElement | chart.[x1, y1] | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| m | VariableDeclaration | chart | [1207](../../magpie/internal/gui/assets/context.js#L1207) |
+| id | VariableDeclaration | chart | [1210](../../magpie/internal/gui/assets/context.js#L1210) |
+| box | VariableDeclaration | chart | [1211](../../magpie/internal/gui/assets/context.js#L1211) |
+| s | VariableDeclaration | chart | [1212](../../magpie/internal/gui/assets/context.js#L1212) |
+| plot | VariableDeclaration | chart | [1220](../../magpie/internal/gui/assets/context.js#L1220) |
+| at | VariableDeclaration | chart | [1223](../../magpie/internal/gui/assets/context.js#L1223) |
+| i | VariableDeclaration | chart.at | [1224](../../magpie/internal/gui/assets/context.js#L1224) |
+| dot | VariableDeclaration | chart.at | [1225](../../magpie/internal/gui/assets/context.js#L1225) |
+| tag | VariableDeclaration | chart.at | [1229](../../magpie/internal/gui/assets/context.js#L1229) |
+| along | VariableDeclaration | chart | [1242](../../magpie/internal/gui/assets/context.js#L1242) |
+| tagged | VariableDeclaration | chart | [1245](../../magpie/internal/gui/assets/context.js#L1245) |
+| tag | VariableDeclaration | chart | [1246](../../magpie/internal/gui/assets/context.js#L1246) |
+| bestTag | VariableDeclaration | chart | [1251](../../magpie/internal/gui/assets/context.js#L1251) |
+| nowTag | VariableDeclaration | chart | [1252](../../magpie/internal/gui/assets/context.js#L1252) |
+| worstTag | VariableDeclaration | chart | [1253](../../magpie/internal/gui/assets/context.js#L1253) |
+| axis | VariableDeclaration | chart | [1257](../../magpie/internal/gui/assets/context.js#L1257) |
+| kept | VariableDeclaration | chart | [1258](../../magpie/internal/gui/assets/context.js#L1258) |
+| p | VariableDeclaration | chart | [1259](../../magpie/internal/gui/assets/context.js#L1259) |
+| p | VariableDeclaration | chart | [1262](../../magpie/internal/gui/assets/context.js#L1262) |
+| i | VariableDeclaration | chart | [1263](../../magpie/internal/gui/assets/context.js#L1263) |
+| tick | VariableDeclaration | chart | [1265](../../magpie/internal/gui/assets/context.js#L1265) |
+| adviceRow | FunctionDeclaration |  | [1274](../../magpie/internal/gui/assets/context.js#L1274) |
+| r | VariableDeclaration | adviceRow | [1276](../../magpie/internal/gui/assets/context.js#L1276) |
+| ttl | VariableDeclaration | adviceRow | [1277](../../magpie/internal/gui/assets/context.js#L1277) |
+| show | VariableDeclaration | adviceRow | [1278](../../magpie/internal/gui/assets/context.js#L1278) |
+| cur | VariableDeclaration | adviceRow | [1279](../../magpie/internal/gui/assets/context.js#L1279) |
+| best | VariableDeclaration | adviceRow | [1279](../../magpie/internal/gui/assets/context.js#L1279) |
+| same | VariableDeclaration | adviceRow | [1280](../../magpie/internal/gui/assets/context.js#L1280) |
+| saves | VariableDeclaration | adviceRow | [1281](../../magpie/internal/gui/assets/context.js#L1281) |
+| set | VariableDeclaration | adviceRow | [1282](../../magpie/internal/gui/assets/context.js#L1282) |
+| own | VariableDeclaration | adviceRow | [1285](../../magpie/internal/gui/assets/context.js#L1285) |
+| held | VariableDeclaration | adviceRow | [1286](../../magpie/internal/gui/assets/context.js#L1286) |
+| applied | VariableDeclaration | adviceRow | [1287](../../magpie/internal/gui/assets/context.js#L1287) |
+| row | VariableDeclaration | adviceRow | [1288](../../magpie/internal/gui/assets/context.js#L1288) |
+| title | VariableDeclaration | adviceRow | [1290](../../magpie/internal/gui/assets/context.js#L1290) |
+| vals | VariableDeclaration | adviceRow | [1295](../../magpie/internal/gui/assets/context.js#L1295) |
+| val | VariableDeclaration | adviceRow | [1296](../../magpie/internal/gui/assets/context.js#L1296) |
+| f | VariableDeclaration | adviceRow.val | [1297](../../magpie/internal/gui/assets/context.js#L1297) |
+| timed | VariableDeclaration | adviceRow | [1304](../../magpie/internal/gui/assets/context.js#L1304) |
+| c | VariableDeclaration | adviceRow | [1307](../../magpie/internal/gui/assets/context.js#L1307) |
+| curve | VariableDeclaration | adviceRow | [1312](../../magpie/internal/gui/assets/context.js#L1312) |
+| fewest | VariableDeclaration | adviceRow | [1313](../../magpie/internal/gui/assets/context.js#L1313) |
+| band | VariableDeclaration | adviceRow | [1314](../../magpie/internal/gui/assets/context.js#L1314) |
+| lean | VariableDeclaration | adviceRow | [1315](../../magpie/internal/gui/assets/context.js#L1315) |
+| bandName | VariableDeclaration | adviceRow | [1316](../../magpie/internal/gui/assets/context.js#L1316) |
+| why | VariableDeclaration | adviceRow | [1318](../../magpie/internal/gui/assets/context.js#L1318) |
+| f | VariableDeclaration | adviceRow | [1319](../../magpie/internal/gui/assets/context.js#L1319) |

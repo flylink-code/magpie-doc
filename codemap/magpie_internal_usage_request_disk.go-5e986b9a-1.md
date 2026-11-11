@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/request_disk.go) · page 1/1
 
-Source SHA-256: 6b0a89b84ac727ea8f57b49fb16f9f445621c62b08ec2e94a6514390ca7ed83d
+Source SHA-256: ee0843fe4036e72b2b945f6c18dd185dc938e1cad570fc9bf17bb97910d0a462
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -16,25 +16,26 @@ Source SHA-256: 6b0a89b84ac727ea8f57b49fb16f9f445621c62b08ec2e94a6514390ca7ed83d
 | diskHeader | function_declaration |  | [89](../../magpie/internal/usage/request_disk.go#L89) |
 | b | var_spec | diskHeader | [90](../../magpie/internal/usage/request_disk.go#L90) |
 | appendDiskString | function_declaration |  | [97](../../magpie/internal/usage/request_disk.go#L97) |
-| diskEntry | function_declaration |  | [105](../../magpie/internal/usage/request_disk.go#L105) |
-| b | var_spec | diskEntry | [113](../../magpie/internal/usage/request_disk.go#L113) |
-| errDiskEntry | var_spec |  | [146](../../magpie/internal/usage/request_disk.go#L146) |
-| readDiskEntry | function_declaration |  | [149](../../magpie/internal/usage/request_disk.go#L149) |
-| ok | var_spec | readDiskEntry | [169](../../magpie/internal/usage/request_disk.go#L169) |
-| loc | var_spec | readDiskEntry | [190](../../magpie/internal/usage/request_disk.go#L190) |
-| diskMapping | type_spec |  | [232](../../magpie/internal/usage/request_disk.go#L232) |
-| data | field_declaration | diskMapping | [233](../../magpie/internal/usage/request_disk.go#L233) |
-| spill | field_declaration | diskMapping | [235](../../magpie/internal/usage/request_disk.go#L235) |
-| diskUnmapped | var_spec |  | [239](../../magpie/internal/usage/request_disk.go#L239) |
-| readMapped | function_declaration |  | [244](../../magpie/internal/usage/request_disk.go#L244) |
-| readDiskEntries | function_declaration |  | [267](../../magpie/internal/usage/request_disk.go#L267) |
-| raw | var_spec | readDiskEntries | [275](../../magpie/internal/usage/request_disk.go#L275) |
-| cutDiskEntry | function_declaration |  | [304](../../magpie/internal/usage/request_disk.go#L304) |
-| nextDiskEntry | function_declaration |  | [318](../../magpie/internal/usage/request_disk.go#L318) |
-| sum | var_spec | nextDiskEntry | [323](../../magpie/internal/usage/request_disk.go#L323) |
-| writeDiskEntry | function_declaration |  | [334](../../magpie/internal/usage/request_disk.go#L334) |
-| head | var_spec | writeDiskEntry | [335](../../magpie/internal/usage/request_disk.go#L335) |
-| fromDisk | method_declaration |  | [347](../../magpie/internal/usage/request_disk.go#L347) |
-| toDisk | function_declaration |  | [368](../../magpie/internal/usage/request_disk.go#L368) |
-| onDisk | function_declaration |  | [418](../../magpie/internal/usage/request_disk.go#L418) |
-| diskEntryPath | function_declaration |  | [445](../../magpie/internal/usage/request_disk.go#L445) |
+| diskEntry | function_declaration |  | [109](../../magpie/internal/usage/request_disk.go#L109) |
+| errDiskEntry | var_spec |  | [158](../../magpie/internal/usage/request_disk.go#L158) |
+| readDiskEntry | function_declaration |  | [161](../../magpie/internal/usage/request_disk.go#L161) |
+| ok | var_spec | readDiskEntry | [181](../../magpie/internal/usage/request_disk.go#L181) |
+| loc | var_spec | readDiskEntry | [204](../../magpie/internal/usage/request_disk.go#L204) |
+| diskMapping | type_spec |  | [246](../../magpie/internal/usage/request_disk.go#L246) |
+| data | field_declaration | diskMapping | [247](../../magpie/internal/usage/request_disk.go#L247) |
+| spill | field_declaration | diskMapping | [249](../../magpie/internal/usage/request_disk.go#L249) |
+| diskUnmapped | var_spec |  | [253](../../magpie/internal/usage/request_disk.go#L253) |
+| readMapped | function_declaration |  | [258](../../magpie/internal/usage/request_disk.go#L258) |
+| readDiskEntries | function_declaration |  | [281](../../magpie/internal/usage/request_disk.go#L281) |
+| raw | var_spec | readDiskEntries | [289](../../magpie/internal/usage/request_disk.go#L289) |
+| cutDiskEntry | function_declaration |  | [318](../../magpie/internal/usage/request_disk.go#L318) |
+| nextDiskEntry | function_declaration |  | [332](../../magpie/internal/usage/request_disk.go#L332) |
+| sum | var_spec | nextDiskEntry | [337](../../magpie/internal/usage/request_disk.go#L337) |
+| writeDiskEntry | function_declaration |  | [348](../../magpie/internal/usage/request_disk.go#L348) |
+| head | var_spec | writeDiskEntry | [349](../../magpie/internal/usage/request_disk.go#L349) |
+| fromDisk | method_declaration |  | [361](../../magpie/internal/usage/request_disk.go#L361) |
+| toDisk | function_declaration |  | [382](../../magpie/internal/usage/request_disk.go#L382) |
+| buf | var_spec | toDisk | [394](../../magpie/internal/usage/request_disk.go#L394) |
+| onDisk | function_declaration |  | [434](../../magpie/internal/usage/request_disk.go#L434) |
+| diskEntryPath | function_declaration |  | [461](../../magpie/internal/usage/request_disk.go#L461) |
+| diskEntryArchive | function_declaration |  | [473](../../magpie/internal/usage/request_disk.go#L473) |

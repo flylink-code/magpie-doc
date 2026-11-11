@@ -4,14 +4,30 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/claude.go) · page 2/2
 
-Source SHA-256: a435d79d334f41769243bfc54dbd5b03b10073e9f16ae3fac419d97973dfe751
+Source SHA-256: 903d3a799775057b61984f3abdb08d4305fd354f497fb135fbcd434caca617c1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| noticeClaudeCloudFile | var_spec |  | [2712](../../magpie/internal/agent/claude.go#L2712) |
-| noticeClaudeCloudShell | var_spec |  | [2713](../../magpie/internal/agent/claude.go#L2713) |
-| magpiesPicker | function_declaration |  | [2719](../../magpie/internal/agent/claude.go#L2719) |
-| p | var_spec | magpiesPicker | [2724](../../magpie/internal/agent/claude.go#L2724) |
-| Options | field_declaration | magpiesPicker::p | [2725](../../magpie/internal/agent/claude.go#L2725) |
-| Model | field_declaration | magpiesPicker::p::Options | [2726](../../magpie/internal/agent/claude.go#L2726) |
-| Description | field_declaration | magpiesPicker::p::Options | [2727](../../magpie/internal/agent/claude.go#L2727) |
+| ClassifierStandIn | function_declaration |  | [2975](../../magpie/internal/agent/claude.go#L2975) |
+| claudeClassifierIn | function_declaration |  | [2994](../../magpie/internal/agent/claude.go#L2994) |
+| claudeStandIn | function_declaration |  | [3023](../../magpie/internal/agent/claude.go#L3023) |
+| claudeStandInAt | function_declaration |  | [3027](../../magpie/internal/agent/claude.go#L3027) |
+| claudeKeyed | function_declaration |  | [3061](../../magpie/internal/agent/claude.go#L3061) |
+| claudeProxied | function_declaration |  | [3077](../../magpie/internal/agent/claude.go#L3077) |
+| claudeProxyBase | function_declaration |  | [3084](../../magpie/internal/agent/claude.go#L3084) |
+| claudeAsk | function_declaration |  | [3099](../../magpie/internal/agent/claude.go#L3099) |
+| claudeMain | function_declaration |  | [3110](../../magpie/internal/agent/claude.go#L3110) |
+| claudeReadOwn | function_declaration |  | [3131](../../magpie/internal/agent/claude.go#L3131) |
+| noticeClaudeEffort | var_spec |  | [3135](../../magpie/internal/agent/claude.go#L3135) |
+| noticeClaudeUltracode | var_spec |  | [3136](../../magpie/internal/agent/claude.go#L3136) |
+| noticeClaudeCloudFile | var_spec |  | [3141](../../magpie/internal/agent/claude.go#L3141) |
+| noticeClaudeCloudShell | var_spec |  | [3142](../../magpie/internal/agent/claude.go#L3142) |
+| magpiesPicker | function_declaration |  | [3148](../../magpie/internal/agent/claude.go#L3148) |
+| p | var_spec | magpiesPicker | [3153](../../magpie/internal/agent/claude.go#L3153) |
+| Options | field_declaration | magpiesPicker::p | [3154](../../magpie/internal/agent/claude.go#L3154) |
+| Model | field_declaration | magpiesPicker::p::Options | [3155](../../magpie/internal/agent/claude.go#L3155) |
+| Description | field_declaration | magpiesPicker::p::Options | [3156](../../magpie/internal/agent/claude.go#L3156) |
+| claudeCustomOptionEnv | const_spec |  | [3173](../../magpie/internal/agent/claude.go#L3173) |
+| claudeNarrowed | function_declaration |  | [3178](../../magpie/internal/agent/claude.go#L3178) |
+| inMagpieWork | function_declaration |  | [3187](../../magpie/internal/agent/claude.go#L3187) |
+| project | var_spec | inMagpieWork | [3188](../../magpie/internal/agent/claude.go#L3188) |

@@ -4,49 +4,86 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/history.go) · page 1/1
 
-Source SHA-256: 2fc2276f484db767c5781f3c5f0cf22333e6508cd6f4d5b6cfeacd218ed528c4
+Source SHA-256: b298d1c6f3deb44c1ea13b005f55273afc1ba4f296f3e2d60cf5df4a59846adf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| historyDays | const_spec |  | [30](../../magpie/internal/gateway/history.go#L30) |
-| historyBytes | const_spec |  | [31](../../magpie/internal/gateway/history.go#L31) |
-| historyMax | const_spec |  | [32](../../magpie/internal/gateway/history.go#L32) |
-| HistoryDir | function_declaration |  | [36](../../magpie/internal/gateway/history.go#L36) |
-| keepRoutes | var_spec |  | [41](../../magpie/internal/gateway/history.go#L41) |
-| testSandbox | const_spec |  | [45](../../magpie/internal/gateway/history.go#L45) |
-| keepsRoutes | function_declaration |  | [54](../../magpie/internal/gateway/history.go#L54) |
-| history | var_spec |  | [56](../../magpie/internal/gateway/history.go#L56) |
-| mu | field_declaration | history | [57](../../magpie/internal/gateway/history.go#L57) |
-| pruned | field_declaration | history | [58](../../magpie/internal/gateway/history.go#L58) |
-| counts | field_declaration | history | [59](../../magpie/internal/gateway/history.go#L59) |
-| counted | type_spec |  | [62](../../magpie/internal/gateway/history.go#L62) |
-| size | field_declaration | counted | [63](../../magpie/internal/gateway/history.go#L63) |
-| n | field_declaration | counted | [64](../../magpie/internal/gateway/history.go#L64) |
-| off | field_declaration | counted | [70](../../magpie/internal/gateway/history.go#L70) |
-| starts | field_declaration | counted | [71](../../magpie/internal/gateway/history.go#L71) |
-| dayForm | const_spec |  | [74](../../magpie/internal/gateway/history.go#L74) |
-| historyClock | var_spec |  | [78](../../magpie/internal/gateway/history.go#L78) |
-| saveRoute | function_declaration |  | [82](../../magpie/internal/gateway/history.go#L82) |
-| pruneHistory | function_declaration |  | [111](../../magpie/internal/gateway/history.go#L111) |
-| total | var_spec | pruneHistory | [132](../../magpie/internal/gateway/history.go#L132) |
-| gzipFile | function_declaration |  | [162](../../magpie/internal/gateway/history.go#L162) |
-| gzRoutes | function_declaration |  | [219](../../magpie/internal/gateway/history.go#L219) |
-| dayFile | type_spec |  | [240](../../magpie/internal/gateway/history.go#L240) |
-| day | field_declaration | dayFile | [241](../../magpie/internal/gateway/history.go#L241) |
-| size | field_declaration | dayFile | [242](../../magpie/internal/gateway/history.go#L242) |
-| historyFiles | function_declaration |  | [246](../../magpie/internal/gateway/history.go#L246) |
-| out | var_spec | historyFiles | [248](../../magpie/internal/gateway/history.go#L248) |
-| HistoryDay | type_spec |  | [266](../../magpie/internal/gateway/history.go#L266) |
-| Day | field_declaration | HistoryDay | [267](../../magpie/internal/gateway/history.go#L267) |
-| Requests | field_declaration | HistoryDay | [268](../../magpie/internal/gateway/history.go#L268) |
-| History | function_declaration |  | [273](../../magpie/internal/gateway/history.go#L273) |
-| historySlack | const_spec |  | [335](../../magpie/internal/gateway/history.go#L335) |
-| appendRoute | function_declaration |  | [337](../../magpie/internal/gateway/history.go#L337) |
-| r | var_spec | appendRoute | [338](../../magpie/internal/gateway/history.go#L338) |
-| tally | function_declaration |  | [351](../../magpie/internal/gateway/history.go#L351) |
-| routedAgain | method_declaration |  | [405](../../magpie/internal/gateway/history.go#L405) |
-| readDay | function_declaration |  | [422](../../magpie/internal/gateway/history.go#L422) |
-| readDayFrom | function_declaration |  | [426](../../magpie/internal/gateway/history.go#L426) |
-| r | var_spec | readDayFrom | [437](../../magpie/internal/gateway/history.go#L437) |
-| HistoryRoute | function_declaration |  | [459](../../magpie/internal/gateway/history.go#L459) |
-| found | var_spec | HistoryRoute | [464](../../magpie/internal/gateway/history.go#L464) |
+| historyDays | const_spec |  | [33](../../magpie/internal/gateway/history.go#L33) |
+| historyBytes | const_spec |  | [34](../../magpie/internal/gateway/history.go#L34) |
+| historyMax | const_spec |  | [35](../../magpie/internal/gateway/history.go#L35) |
+| HistoryDir | function_declaration |  | [39](../../magpie/internal/gateway/history.go#L39) |
+| keepRoutes | var_spec |  | [44](../../magpie/internal/gateway/history.go#L44) |
+| testSandbox | const_spec |  | [48](../../magpie/internal/gateway/history.go#L48) |
+| keepsRoutes | function_declaration |  | [57](../../magpie/internal/gateway/history.go#L57) |
+| history | var_spec |  | [59](../../magpie/internal/gateway/history.go#L59) |
+| mu | field_declaration | history | [60](../../magpie/internal/gateway/history.go#L60) |
+| pruned | field_declaration | history | [61](../../magpie/internal/gateway/history.go#L61) |
+| counts | field_declaration | history | [62](../../magpie/internal/gateway/history.go#L62) |
+| talliedDay | field_declaration | history | [66](../../magpie/internal/gateway/history.go#L66) |
+| talliedOff | field_declaration | history | [67](../../magpie/internal/gateway/history.go#L67) |
+| tallies | field_declaration | history | [68](../../magpie/internal/gateway/history.go#L68) |
+| counted | type_spec |  | [71](../../magpie/internal/gateway/history.go#L71) |
+| size | field_declaration | counted | [72](../../magpie/internal/gateway/history.go#L72) |
+| n | field_declaration | counted | [73](../../magpie/internal/gateway/history.go#L73) |
+| off | field_declaration | counted | [79](../../magpie/internal/gateway/history.go#L79) |
+| starts | field_declaration | counted | [80](../../magpie/internal/gateway/history.go#L80) |
+| dayForm | const_spec |  | [83](../../magpie/internal/gateway/history.go#L83) |
+| historyClock | var_spec |  | [87](../../magpie/internal/gateway/history.go#L87) |
+| saveRoute | function_declaration |  | [91](../../magpie/internal/gateway/history.go#L91) |
+| pruneHistory | function_declaration |  | [121](../../magpie/internal/gateway/history.go#L121) |
+| total | var_spec | pruneHistory | [147](../../magpie/internal/gateway/history.go#L147) |
+| gzipFile | function_declaration |  | [179](../../magpie/internal/gateway/history.go#L179) |
+| gzRoutes | function_declaration |  | [236](../../magpie/internal/gateway/history.go#L236) |
+| dayFile | type_spec |  | [257](../../magpie/internal/gateway/history.go#L257) |
+| day | field_declaration | dayFile | [258](../../magpie/internal/gateway/history.go#L258) |
+| size | field_declaration | dayFile | [259](../../magpie/internal/gateway/history.go#L259) |
+| historyFiles | function_declaration |  | [263](../../magpie/internal/gateway/history.go#L263) |
+| out | var_spec | historyFiles | [265](../../magpie/internal/gateway/history.go#L265) |
+| HistoryDay | type_spec |  | [283](../../magpie/internal/gateway/history.go#L283) |
+| Day | field_declaration | HistoryDay | [284](../../magpie/internal/gateway/history.go#L284) |
+| Requests | field_declaration | HistoryDay | [285](../../magpie/internal/gateway/history.go#L285) |
+| History | function_declaration |  | [290](../../magpie/internal/gateway/history.go#L290) |
+| historySlack | const_spec |  | [361](../../magpie/internal/gateway/history.go#L361) |
+| historyParsed | var_spec |  | [364](../../magpie/internal/gateway/history.go#L364) |
+| appendRoute | function_declaration |  | [366](../../magpie/internal/gateway/history.go#L366) |
+| r | var_spec | appendRoute | [368](../../magpie/internal/gateway/history.go#L368) |
+| tally | function_declaration |  | [382](../../magpie/internal/gateway/history.go#L382) |
+| routedAgain | method_declaration |  | [441](../../magpie/internal/gateway/history.go#L441) |
+| readDay | function_declaration |  | [461](../../magpie/internal/gateway/history.go#L461) |
+| readDayFrom | function_declaration |  | [465](../../magpie/internal/gateway/history.go#L465) |
+| r | var_spec | readDayFrom | [476](../../magpie/internal/gateway/history.go#L476) |
+| Tally | type_spec |  | [504](../../magpie/internal/gateway/history.go#L504) |
+| ID | field_declaration | Tally | [505](../../magpie/internal/gateway/history.go#L505) |
+| Provider | field_declaration | Tally | [506](../../magpie/internal/gateway/history.go#L506) |
+| Name | field_declaration | Tally | [507](../../magpie/internal/gateway/history.go#L507) |
+| Icon | field_declaration | Tally | [508](../../magpie/internal/gateway/history.go#L508) |
+| Preset | field_declaration | Tally | [509](../../magpie/internal/gateway/history.go#L509) |
+| Who | field_declaration | Tally | [510](../../magpie/internal/gateway/history.go#L510) |
+| Kind | field_declaration | Tally | [511](../../magpie/internal/gateway/history.go#L511) |
+| Agent | field_declaration | Tally | [512](../../magpie/internal/gateway/history.go#L512) |
+| Plan | field_declaration | Tally | [513](../../magpie/internal/gateway/history.go#L513) |
+| Model | field_declaration | Tally | [514](../../magpie/internal/gateway/history.go#L514) |
+| Routing | field_declaration | Tally | [515](../../magpie/internal/gateway/history.go#L515) |
+| Rank | field_declaration | Tally | [516](../../magpie/internal/gateway/history.go#L516) |
+| Tried | field_declaration | Tally | [517](../../magpie/internal/gateway/history.go#L517) |
+| OK | field_declaration | Tally | [518](../../magpie/internal/gateway/history.go#L518) |
+| Fails | field_declaration | Tally | [519](../../magpie/internal/gateway/history.go#L519) |
+| Last | field_declaration | Tally | [520](../../magpie/internal/gateway/history.go#L520) |
+| AuthAt | field_declaration | Tally | [521](../../magpie/internal/gateway/history.go#L521) |
+| Models | field_declaration | Tally | [522](../../magpie/internal/gateway/history.go#L522) |
+| Rest | field_declaration | Tally | [523](../../magpie/internal/gateway/history.go#L523) |
+| RestAt | field_declaration | Tally | [524](../../magpie/internal/gateway/history.go#L524) |
+| seen | field_declaration | Tally | [525](../../magpie/internal/gateway/history.go#L525) |
+| tallied | type_spec |  | [530](../../magpie/internal/gateway/history.go#L530) |
+| Time | field_declaration | tallied | [531](../../magpie/internal/gateway/history.go#L531) |
+| Order | field_declaration | tallied | [532](../../magpie/internal/gateway/history.go#L532) |
+| Tries | field_declaration | tallied | [533](../../magpie/internal/gateway/history.go#L533) |
+| tallyKey | function_declaration |  | [539](../../magpie/internal/gateway/history.go#L539) |
+| DayTallies | function_declaration |  | [553](../../magpie/internal/gateway/history.go#L553) |
+| files | var_spec | DayTallies | [557](../../magpie/internal/gateway/history.go#L557) |
+| foldTallies | function_declaration |  | [607](../../magpie/internal/gateway/history.go#L607) |
+| tallyLines | var_spec |  | [630](../../magpie/internal/gateway/history.go#L630) |
+| foldTally | function_declaration |  | [635](../../magpie/internal/gateway/history.go#L635) |
+| r | var_spec | foldTally | [637](../../magpie/internal/gateway/history.go#L637) |
+| HistoryRoute | function_declaration |  | [710](../../magpie/internal/gateway/history.go#L710) |
+| found | var_spec | HistoryRoute | [715](../../magpie/internal/gateway/history.go#L715) |

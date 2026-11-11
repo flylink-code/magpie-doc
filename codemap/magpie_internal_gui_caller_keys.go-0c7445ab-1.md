@@ -4,22 +4,32 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/caller_keys.go) · page 1/1
 
-Source SHA-256: 7f3a03bc1a94f070fd63274a7432dab4a963ba00b7379117b17fc3f12c61064b
+Source SHA-256: 2f987d787a158ba424f3280ca387aa6870822775b75642c3e92d74e99e41e699
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keyRow | type_spec |  | [17](../../magpie/internal/gui/caller_keys.go#L17) |
-| Used | field_declaration | keyRow | [19](../../magpie/internal/gui/caller_keys.go#L19) |
-| UsedAll | field_declaration | keyRow | [20](../../magpie/internal/gui/caller_keys.go#L20) |
-| keyModelJSON | type_spec |  | [25](../../magpie/internal/gui/caller_keys.go#L25) |
-| ID | field_declaration | keyModelJSON | [26](../../magpie/internal/gui/caller_keys.go#L26) |
-| Name | field_declaration | keyModelJSON | [27](../../magpie/internal/gui/caller_keys.go#L27) |
-| Provider | field_declaration | keyModelJSON | [28](../../magpie/internal/gui/caller_keys.go#L28) |
-| ProviderName | field_declaration | keyModelJSON | [29](../../magpie/internal/gui/caller_keys.go#L29) |
-| Group | field_declaration | keyModelJSON | [30](../../magpie/internal/gui/caller_keys.go#L30) |
-| Account | field_declaration | keyModelJSON | [31](../../magpie/internal/gui/caller_keys.go#L31) |
-| Key | field_declaration | keyModelJSON | [32](../../magpie/internal/gui/caller_keys.go#L32) |
-| Plan | field_declaration | keyModelJSON | [33](../../magpie/internal/gui/caller_keys.go#L33) |
-| withLimits | function_declaration |  | [36](../../magpie/internal/gui/caller_keys.go#L36) |
-| callerKeyRoutes | function_declaration |  | [49](../../magpie/internal/gui/caller_keys.go#L49) |
-| in | var_spec | callerKeyRoutes | [92](../../magpie/internal/gui/caller_keys.go#L92) |
+| keyRow | type_spec |  | [22](../../magpie/internal/gui/caller_keys.go#L22) |
+| Used | field_declaration | keyRow | [24](../../magpie/internal/gui/caller_keys.go#L24) |
+| UsedAll | field_declaration | keyRow | [25](../../magpie/internal/gui/caller_keys.go#L25) |
+| keyModelJSON | type_spec |  | [30](../../magpie/internal/gui/caller_keys.go#L30) |
+| ID | field_declaration | keyModelJSON | [31](../../magpie/internal/gui/caller_keys.go#L31) |
+| Name | field_declaration | keyModelJSON | [32](../../magpie/internal/gui/caller_keys.go#L32) |
+| Provider | field_declaration | keyModelJSON | [33](../../magpie/internal/gui/caller_keys.go#L33) |
+| ProviderName | field_declaration | keyModelJSON | [34](../../magpie/internal/gui/caller_keys.go#L34) |
+| Group | field_declaration | keyModelJSON | [35](../../magpie/internal/gui/caller_keys.go#L35) |
+| Account | field_declaration | keyModelJSON | [36](../../magpie/internal/gui/caller_keys.go#L36) |
+| Key | field_declaration | keyModelJSON | [37](../../magpie/internal/gui/caller_keys.go#L37) |
+| Plan | field_declaration | keyModelJSON | [38](../../magpie/internal/gui/caller_keys.go#L38) |
+| Decides | field_declaration | keyModelJSON | [42](../../magpie/internal/gui/caller_keys.go#L42) |
+| keyMCPJSON | type_spec |  | [47](../../magpie/internal/gui/caller_keys.go#L47) |
+| Name | field_declaration | keyMCPJSON | [48](../../magpie/internal/gui/caller_keys.go#L48) |
+| Title | field_declaration | keyMCPJSON | [49](../../magpie/internal/gui/caller_keys.go#L49) |
+| Tools | field_declaration | keyMCPJSON | [50](../../magpie/internal/gui/caller_keys.go#L50) |
+| Own | field_declaration | keyMCPJSON | [51](../../magpie/internal/gui/caller_keys.go#L51) |
+| withLimits | function_declaration |  | [54](../../magpie/internal/gui/caller_keys.go#L54) |
+| callerKeyRoutes | function_declaration |  | [68](../../magpie/internal/gui/caller_keys.go#L68) |
+| media | var_spec | callerKeyRoutes | [146](../../magpie/internal/gui/caller_keys.go#L146) |
+| in | var_spec | callerKeyRoutes | [214](../../magpie/internal/gui/caller_keys.go#L214) |
+| in | var_spec | callerKeyRoutes | [246](../../magpie/internal/gui/caller_keys.go#L246) |
+| err | var_spec | callerKeyRoutes | [251](../../magpie/internal/gui/caller_keys.go#L251) |
+| accountGroupsJSON | function_declaration |  | [277](../../magpie/internal/gui/caller_keys.go#L277) |

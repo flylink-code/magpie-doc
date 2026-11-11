@@ -4,55 +4,59 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gwmw/gwmw.go) · page 1/1
 
-Source SHA-256: 2c7fa36d39e535d5b9bfaaf404d5896056aadd1739ff4dd07b1ed7517a4dcfc8
+Source SHA-256: 3180517ffa83eca753706d15e1d91a0bf90787b5b3834e315ddad03f954fec3c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Info | type_spec |  | [29](../../magpie/internal/gwmw/gwmw.go#L29) |
-| Protocol | field_declaration | Info | [30](../../magpie/internal/gwmw/gwmw.go#L30) |
-| Model | field_declaration | Info | [31](../../magpie/internal/gwmw/gwmw.go#L31) |
-| Stream | field_declaration | Info | [32](../../magpie/internal/gwmw/gwmw.go#L32) |
-| Path | field_declaration | Info | [33](../../magpie/internal/gwmw/gwmw.go#L33) |
-| Agent | field_declaration | Info | [34](../../magpie/internal/gwmw/gwmw.go#L34) |
-| Reject | type_spec |  | [39](../../magpie/internal/gwmw/gwmw.go#L39) |
-| Status | field_declaration | Reject | [40](../../magpie/internal/gwmw/gwmw.go#L40) |
-| Message | field_declaration | Reject | [41](../../magpie/internal/gwmw/gwmw.go#L41) |
-| Agent | type_spec |  | [45](../../magpie/internal/gwmw/gwmw.go#L45) |
-| Run | type_spec |  | [51](../../magpie/internal/gwmw/gwmw.go#L51) |
-| To | type_spec |  | [62](../../magpie/internal/gwmw/gwmw.go#L62) |
-| ID | field_declaration | To | [63](../../magpie/internal/gwmw/gwmw.go#L63) |
-| Name | field_declaration | To | [64](../../magpie/internal/gwmw/gwmw.go#L64) |
-| Account | field_declaration | To | [65](../../magpie/internal/gwmw/gwmw.go#L65) |
-| Model | field_declaration | To | [66](../../magpie/internal/gwmw/gwmw.go#L66) |
-| Tried | type_spec |  | [72](../../magpie/internal/gwmw/gwmw.go#L72) |
-| Masker | type_spec |  | [79](../../magpie/internal/gwmw/gwmw.go#L79) |
-| Hit | type_spec |  | [97](../../magpie/internal/gwmw/gwmw.go#L97) |
-| Kind | field_declaration | Hit | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
-| Len | field_declaration | Hit | [99](../../magpie/internal/gwmw/gwmw.go#L99) |
-| Blocks | function_declaration |  | [104](../../magpie/internal/gwmw/gwmw.go#L104) |
-| Teller | type_spec |  | [115](../../magpie/internal/gwmw/gwmw.go#L115) |
-| ContextTeller | type_spec |  | [129](../../magpie/internal/gwmw/gwmw.go#L129) |
-| mu | var_spec |  | [135](../../magpie/internal/gwmw/gwmw.go#L135) |
-| agents | var_spec |  | [136](../../magpie/internal/gwmw/gwmw.go#L136) |
-| maskers | var_spec |  | [137](../../magpie/internal/gwmw/gwmw.go#L137) |
-| refresh | var_spec |  | [138](../../magpie/internal/gwmw/gwmw.go#L138) |
-| add | function_declaration |  | [141](../../magpie/internal/gwmw/gwmw.go#L141) |
-| once | var_spec | add | [146](../../magpie/internal/gwmw/gwmw.go#L146) |
-| Use | function_declaration |  | [159](../../magpie/internal/gwmw/gwmw.go#L159) |
-| Agents | function_declaration |  | [162](../../magpie/internal/gwmw/gwmw.go#L162) |
-| Mask | function_declaration |  | [174](../../magpie/internal/gwmw/gwmw.go#L174) |
-| Refresh | function_declaration |  | [179](../../magpie/internal/gwmw/gwmw.go#L179) |
-| once | var_spec | Refresh | [183](../../magpie/internal/gwmw/gwmw.go#L183) |
-| throttle | type_spec |  | [194](../../magpie/internal/gwmw/gwmw.go#L194) |
-| busy | field_declaration | throttle | [195](../../magpie/internal/gwmw/gwmw.go#L195) |
-| last | field_declaration | throttle | [196](../../magpie/internal/gwmw/gwmw.go#L196) |
-| ask | method_declaration |  | [200](../../magpie/internal/gwmw/gwmw.go#L200) |
-| forMasking | var_spec |  | [212](../../magpie/internal/gwmw/gwmw.go#L212) |
-| refreshFunc | function_declaration |  | [214](../../magpie/internal/gwmw/gwmw.go#L214) |
-| AgentsWanted | function_declaration |  | [224](../../magpie/internal/gwmw/gwmw.go#L224) |
-| served | function_declaration |  | [234](../../magpie/internal/gwmw/gwmw.go#L234) |
-| ForgetRefreshForTest | function_declaration |  | [245](../../magpie/internal/gwmw/gwmw.go#L245) |
-| ErrUnmasked | var_spec |  | [252](../../magpie/internal/gwmw/gwmw.go#L252) |
-| Served | function_declaration |  | [257](../../magpie/internal/gwmw/gwmw.go#L257) |
-| Masking | function_declaration |  | [269](../../magpie/internal/gwmw/gwmw.go#L269) |
-| Safely | function_declaration |  | [281](../../magpie/internal/gwmw/gwmw.go#L281) |
+| Info | type_spec |  | [30](../../magpie/internal/gwmw/gwmw.go#L30) |
+| Protocol | field_declaration | Info | [31](../../magpie/internal/gwmw/gwmw.go#L31) |
+| Model | field_declaration | Info | [32](../../magpie/internal/gwmw/gwmw.go#L32) |
+| Stream | field_declaration | Info | [33](../../magpie/internal/gwmw/gwmw.go#L33) |
+| Path | field_declaration | Info | [34](../../magpie/internal/gwmw/gwmw.go#L34) |
+| Agent | field_declaration | Info | [35](../../magpie/internal/gwmw/gwmw.go#L35) |
+| Reject | type_spec |  | [40](../../magpie/internal/gwmw/gwmw.go#L40) |
+| Status | field_declaration | Reject | [41](../../magpie/internal/gwmw/gwmw.go#L41) |
+| Message | field_declaration | Reject | [42](../../magpie/internal/gwmw/gwmw.go#L42) |
+| Agent | type_spec |  | [46](../../magpie/internal/gwmw/gwmw.go#L46) |
+| Run | type_spec |  | [52](../../magpie/internal/gwmw/gwmw.go#L52) |
+| To | type_spec |  | [63](../../magpie/internal/gwmw/gwmw.go#L63) |
+| ID | field_declaration | To | [64](../../magpie/internal/gwmw/gwmw.go#L64) |
+| Name | field_declaration | To | [65](../../magpie/internal/gwmw/gwmw.go#L65) |
+| Account | field_declaration | To | [66](../../magpie/internal/gwmw/gwmw.go#L66) |
+| Model | field_declaration | To | [67](../../magpie/internal/gwmw/gwmw.go#L67) |
+| Tried | type_spec |  | [73](../../magpie/internal/gwmw/gwmw.go#L73) |
+| Account | type_spec |  | [82](../../magpie/internal/gwmw/gwmw.go#L82) |
+| Agent | field_declaration | Account | [83](../../magpie/internal/gwmw/gwmw.go#L83) |
+| ID | field_declaration | Account | [84](../../magpie/internal/gwmw/gwmw.go#L84) |
+| Accounts | type_spec |  | [91](../../magpie/internal/gwmw/gwmw.go#L91) |
+| Masker | type_spec |  | [98](../../magpie/internal/gwmw/gwmw.go#L98) |
+| Hit | type_spec |  | [116](../../magpie/internal/gwmw/gwmw.go#L116) |
+| Kind | field_declaration | Hit | [117](../../magpie/internal/gwmw/gwmw.go#L117) |
+| Len | field_declaration | Hit | [118](../../magpie/internal/gwmw/gwmw.go#L118) |
+| Blocks | function_declaration |  | [123](../../magpie/internal/gwmw/gwmw.go#L123) |
+| Teller | type_spec |  | [134](../../magpie/internal/gwmw/gwmw.go#L134) |
+| ContextTeller | type_spec |  | [148](../../magpie/internal/gwmw/gwmw.go#L148) |
+| mu | var_spec |  | [154](../../magpie/internal/gwmw/gwmw.go#L154) |
+| agents | var_spec |  | [155](../../magpie/internal/gwmw/gwmw.go#L155) |
+| maskers | var_spec |  | [156](../../magpie/internal/gwmw/gwmw.go#L156) |
+| refresh | var_spec |  | [157](../../magpie/internal/gwmw/gwmw.go#L157) |
+| add | function_declaration |  | [160](../../magpie/internal/gwmw/gwmw.go#L160) |
+| once | var_spec | add | [165](../../magpie/internal/gwmw/gwmw.go#L165) |
+| Use | function_declaration |  | [178](../../magpie/internal/gwmw/gwmw.go#L178) |
+| Agents | function_declaration |  | [181](../../magpie/internal/gwmw/gwmw.go#L181) |
+| Mask | function_declaration |  | [193](../../magpie/internal/gwmw/gwmw.go#L193) |
+| Refresh | function_declaration |  | [198](../../magpie/internal/gwmw/gwmw.go#L198) |
+| once | var_spec | Refresh | [202](../../magpie/internal/gwmw/gwmw.go#L202) |
+| throttle | type_spec |  | [213](../../magpie/internal/gwmw/gwmw.go#L213) |
+| busy | field_declaration | throttle | [214](../../magpie/internal/gwmw/gwmw.go#L214) |
+| last | field_declaration | throttle | [215](../../magpie/internal/gwmw/gwmw.go#L215) |
+| ask | method_declaration |  | [219](../../magpie/internal/gwmw/gwmw.go#L219) |
+| forMasking | var_spec |  | [231](../../magpie/internal/gwmw/gwmw.go#L231) |
+| refreshFunc | function_declaration |  | [233](../../magpie/internal/gwmw/gwmw.go#L233) |
+| AgentsWanted | function_declaration |  | [243](../../magpie/internal/gwmw/gwmw.go#L243) |
+| served | function_declaration |  | [253](../../magpie/internal/gwmw/gwmw.go#L253) |
+| ForgetRefreshForTest | function_declaration |  | [264](../../magpie/internal/gwmw/gwmw.go#L264) |
+| ErrUnmasked | var_spec |  | [271](../../magpie/internal/gwmw/gwmw.go#L271) |
+| Served | function_declaration |  | [276](../../magpie/internal/gwmw/gwmw.go#L276) |
+| Masking | function_declaration |  | [288](../../magpie/internal/gwmw/gwmw.go#L288) |
+| Safely | function_declaration |  | [300](../../magpie/internal/gwmw/gwmw.go#L300) |

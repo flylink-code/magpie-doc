@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/pi.go) · page 1/1
 
-Source SHA-256: 77a06018a63ce9a32aaf420f8c9e2ad0cf8ed4d9b8d5c5b9b3c96210c2eb415f
+Source SHA-256: 0d3d8637fbafe601f955d2603ca06e70085f4adc293107c61dd6ca0d6ec9268f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,47 +15,48 @@ Source SHA-256: 77a06018a63ce9a32aaf420f8c9e2ad0cf8ed4d9b8d5c5b9b3c96210c2eb415f
 | expandHome | function_declaration |  | [62](../../magpie/internal/sessions/pi.go#L62) |
 | piFiles | function_declaration |  | [70](../../magpie/internal/sessions/pi.go#L70) |
 | piFilesIn | function_declaration |  | [74](../../magpie/internal/sessions/pi.go#L74) |
-| out | var_spec | piFilesIn | [80](../../magpie/internal/sessions/pi.go#L80) |
-| piUsage | type_spec |  | [100](../../magpie/internal/sessions/pi.go#L100) |
-| Input | field_declaration | piUsage | [101](../../magpie/internal/sessions/pi.go#L101) |
-| Output | field_declaration | piUsage | [102](../../magpie/internal/sessions/pi.go#L102) |
-| CacheRead | field_declaration | piUsage | [103](../../magpie/internal/sessions/pi.go#L103) |
-| CacheWrite | field_declaration | piUsage | [104](../../magpie/internal/sessions/pi.go#L104) |
-| tokens | method_declaration |  | [107](../../magpie/internal/sessions/pi.go#L107) |
-| piLine | type_spec |  | [114](../../magpie/internal/sessions/pi.go#L114) |
-| Type | field_declaration | piLine | [115](../../magpie/internal/sessions/pi.go#L115) |
-| ID | field_declaration | piLine | [116](../../magpie/internal/sessions/pi.go#L116) |
-| Cwd | field_declaration | piLine | [117](../../magpie/internal/sessions/pi.go#L117) |
-| ParentSession | field_declaration | piLine | [118](../../magpie/internal/sessions/pi.go#L118) |
-| Name | field_declaration | piLine | [119](../../magpie/internal/sessions/pi.go#L119) |
-| Title | field_declaration | piLine | [120](../../magpie/internal/sessions/pi.go#L120) |
-| ModelID | field_declaration | piLine | [121](../../magpie/internal/sessions/pi.go#L121) |
-| Model | field_declaration | piLine | [122](../../magpie/internal/sessions/pi.go#L122) |
-| Usage | field_declaration | piLine | [123](../../magpie/internal/sessions/pi.go#L123) |
-| Message | field_declaration | piLine | [124](../../magpie/internal/sessions/pi.go#L124) |
-| Role | field_declaration | piLine::Message | [125](../../magpie/internal/sessions/pi.go#L125) |
-| Model | field_declaration | piLine::Message | [126](../../magpie/internal/sessions/pi.go#L126) |
-| Content | field_declaration | piLine::Message | [127](../../magpie/internal/sessions/pi.go#L127) |
-| Usage | field_declaration | piLine::Message | [128](../../magpie/internal/sessions/pi.go#L128) |
-| NestedCalls | field_declaration | piLine::Message | [129](../../magpie/internal/sessions/pi.go#L129) |
-| Calls | field_declaration | piLine::Message::NestedCalls | [130](../../magpie/internal/sessions/pi.go#L130) |
-| Name | field_declaration | piLine::Message::NestedCalls::Calls | [131](../../magpie/internal/sessions/pi.go#L131) |
-| piPart | type_spec |  | [139](../../magpie/internal/sessions/pi.go#L139) |
-| Type | field_declaration | piPart | [140](../../magpie/internal/sessions/pi.go#L140) |
-| Name | field_declaration | piPart | [141](../../magpie/internal/sessions/pi.go#L141) |
-| Arguments | field_declaration | piPart | [142](../../magpie/internal/sessions/pi.go#L142) |
-| Path | field_declaration | piPart::Arguments | [143](../../magpie/internal/sessions/pi.go#L143) |
-| piHeader | var_spec |  | [148](../../magpie/internal/sessions/pi.go#L148) |
-| piInfo | var_spec |  | [149](../../magpie/internal/sessions/pi.go#L149) |
-| piModel | var_spec |  | [150](../../magpie/internal/sessions/pi.go#L150) |
-| piRetitle | var_spec |  | [151](../../magpie/internal/sessions/pi.go#L151) |
-| piUsed | var_spec |  | [152](../../magpie/internal/sessions/pi.go#L152) |
-| piUserMsg | var_spec |  | [153](../../magpie/internal/sessions/pi.go#L153) |
-| piAsst | var_spec |  | [154](../../magpie/internal/sessions/pi.go#L154) |
-| piNested | var_spec |  | [155](../../magpie/internal/sessions/pi.go#L155) |
-| piParse | function_declaration |  | [158](../../magpie/internal/sessions/pi.go#L158) |
-| l | var_spec | piParse | [172](../../magpie/internal/sessions/pi.go#L172) |
-| parts | var_spec | piParse | [238](../../magpie/internal/sessions/pi.go#L238) |
-| piSkillBlock | function_declaration |  | [265](../../magpie/internal/sessions/pi.go#L265) |
-| piSkillRead | function_declaration |  | [279](../../magpie/internal/sessions/pi.go#L279) |
-| piPrompt | function_declaration |  | [301](../../magpie/internal/sessions/pi.go#L301) |
+| piNamed | function_declaration |  | [88](../../magpie/internal/sessions/pi.go#L88) |
+| out | var_spec | piNamed | [89](../../magpie/internal/sessions/pi.go#L89) |
+| piUsage | type_spec |  | [109](../../magpie/internal/sessions/pi.go#L109) |
+| Input | field_declaration | piUsage | [110](../../magpie/internal/sessions/pi.go#L110) |
+| Output | field_declaration | piUsage | [111](../../magpie/internal/sessions/pi.go#L111) |
+| CacheRead | field_declaration | piUsage | [112](../../magpie/internal/sessions/pi.go#L112) |
+| CacheWrite | field_declaration | piUsage | [113](../../magpie/internal/sessions/pi.go#L113) |
+| tokens | method_declaration |  | [116](../../magpie/internal/sessions/pi.go#L116) |
+| piLine | type_spec |  | [123](../../magpie/internal/sessions/pi.go#L123) |
+| Type | field_declaration | piLine | [124](../../magpie/internal/sessions/pi.go#L124) |
+| ID | field_declaration | piLine | [125](../../magpie/internal/sessions/pi.go#L125) |
+| Cwd | field_declaration | piLine | [126](../../magpie/internal/sessions/pi.go#L126) |
+| ParentSession | field_declaration | piLine | [127](../../magpie/internal/sessions/pi.go#L127) |
+| Name | field_declaration | piLine | [128](../../magpie/internal/sessions/pi.go#L128) |
+| Title | field_declaration | piLine | [129](../../magpie/internal/sessions/pi.go#L129) |
+| ModelID | field_declaration | piLine | [130](../../magpie/internal/sessions/pi.go#L130) |
+| Model | field_declaration | piLine | [131](../../magpie/internal/sessions/pi.go#L131) |
+| Usage | field_declaration | piLine | [132](../../magpie/internal/sessions/pi.go#L132) |
+| Message | field_declaration | piLine | [133](../../magpie/internal/sessions/pi.go#L133) |
+| Role | field_declaration | piLine::Message | [134](../../magpie/internal/sessions/pi.go#L134) |
+| Model | field_declaration | piLine::Message | [135](../../magpie/internal/sessions/pi.go#L135) |
+| Content | field_declaration | piLine::Message | [136](../../magpie/internal/sessions/pi.go#L136) |
+| Usage | field_declaration | piLine::Message | [137](../../magpie/internal/sessions/pi.go#L137) |
+| NestedCalls | field_declaration | piLine::Message | [138](../../magpie/internal/sessions/pi.go#L138) |
+| Calls | field_declaration | piLine::Message::NestedCalls | [139](../../magpie/internal/sessions/pi.go#L139) |
+| Name | field_declaration | piLine::Message::NestedCalls::Calls | [140](../../magpie/internal/sessions/pi.go#L140) |
+| piPart | type_spec |  | [148](../../magpie/internal/sessions/pi.go#L148) |
+| Type | field_declaration | piPart | [149](../../magpie/internal/sessions/pi.go#L149) |
+| Name | field_declaration | piPart | [150](../../magpie/internal/sessions/pi.go#L150) |
+| Arguments | field_declaration | piPart | [151](../../magpie/internal/sessions/pi.go#L151) |
+| Path | field_declaration | piPart::Arguments | [152](../../magpie/internal/sessions/pi.go#L152) |
+| piHeader | var_spec |  | [157](../../magpie/internal/sessions/pi.go#L157) |
+| piInfo | var_spec |  | [158](../../magpie/internal/sessions/pi.go#L158) |
+| piModel | var_spec |  | [159](../../magpie/internal/sessions/pi.go#L159) |
+| piRetitle | var_spec |  | [160](../../magpie/internal/sessions/pi.go#L160) |
+| piUsed | var_spec |  | [161](../../magpie/internal/sessions/pi.go#L161) |
+| piUserMsg | var_spec |  | [162](../../magpie/internal/sessions/pi.go#L162) |
+| piAsst | var_spec |  | [163](../../magpie/internal/sessions/pi.go#L163) |
+| piNested | var_spec |  | [164](../../magpie/internal/sessions/pi.go#L164) |
+| piParse | function_declaration |  | [167](../../magpie/internal/sessions/pi.go#L167) |
+| l | var_spec | piParse | [181](../../magpie/internal/sessions/pi.go#L181) |
+| parts | var_spec | piParse | [247](../../magpie/internal/sessions/pi.go#L247) |
+| piSkillBlock | function_declaration |  | [274](../../magpie/internal/sessions/pi.go#L274) |
+| piSkillRead | function_declaration |  | [288](../../magpie/internal/sessions/pi.go#L288) |
+| piPrompt | function_declaration |  | [310](../../magpie/internal/sessions/pi.go#L310) |

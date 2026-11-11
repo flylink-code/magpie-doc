@@ -4,40 +4,40 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/probelog/probelog.go) · page 1/1
 
-Source SHA-256: c740196ee63190dba80d5ed6250737af6c53e0e7f2cdd8fdd050f5d82445d223
+Source SHA-256: 35c3c1e917caa44b85f8b42f41de6789bedea81e46ab6dfe272ab3df0e7af428
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| KindTest | const_spec |  | [24](../../magpie/internal/probelog/probelog.go#L24) |
-| KindDetect | const_spec |  | [25](../../magpie/internal/probelog/probelog.go#L25) |
-| KindList | const_spec |  | [26](../../magpie/internal/probelog/probelog.go#L26) |
-| Row | type_spec |  | [30](../../magpie/internal/probelog/probelog.go#L30) |
-| Time | field_declaration | Row | [31](../../magpie/internal/probelog/probelog.go#L31) |
-| Kind | field_declaration | Row | [32](../../magpie/internal/probelog/probelog.go#L32) |
-| Provider | field_declaration | Row | [33](../../magpie/internal/probelog/probelog.go#L33) |
-| Account | field_declaration | Row | [34](../../magpie/internal/probelog/probelog.go#L34) |
-| Model | field_declaration | Row | [35](../../magpie/internal/probelog/probelog.go#L35) |
-| Host | field_declaration | Row | [36](../../magpie/internal/probelog/probelog.go#L36) |
-| Endpoint | field_declaration | Row | [37](../../magpie/internal/probelog/probelog.go#L37) |
-| Status | field_declaration | Row | [38](../../magpie/internal/probelog/probelog.go#L38) |
-| Millis | field_declaration | Row | [39](../../magpie/internal/probelog/probelog.go#L39) |
-| Error | field_declaration | Row | [40](../../magpie/internal/probelog/probelog.go#L40) |
-| Sink | var_spec |  | [44](../../magpie/internal/probelog/probelog.go#L44) |
-| meta | type_spec |  | [46](../../magpie/internal/probelog/probelog.go#L46) |
-| kind | field_declaration | meta | [47](../../magpie/internal/probelog/probelog.go#L47) |
-| done | field_declaration | meta | [48](../../magpie/internal/probelog/probelog.go#L48) |
-| key | type_spec |  | [51](../../magpie/internal/probelog/probelog.go#L51) |
-| from | function_declaration |  | [53](../../magpie/internal/probelog/probelog.go#L53) |
-| With | function_declaration |  | [64](../../magpie/internal/probelog/probelog.go#L64) |
-| WithModel | function_declaration |  | [72](../../magpie/internal/probelog/probelog.go#L72) |
-| Kind | function_declaration |  | [82](../../magpie/internal/probelog/probelog.go#L82) |
-| Taken | function_declaration |  | [89](../../magpie/internal/probelog/probelog.go#L89) |
-| Pending | function_declaration |  | [100](../../magpie/internal/probelog/probelog.go#L100) |
-| Note | function_declaration |  | [108](../../magpie/internal/probelog/probelog.go#L108) |
-| NoteResult | function_declaration |  | [134](../../magpie/internal/probelog/probelog.go#L134) |
-| split | function_declaration |  | [147](../../magpie/internal/probelog/probelog.go#L147) |
-| Transport | function_declaration |  | [172](../../magpie/internal/probelog/probelog.go#L172) |
-| transport | type_spec |  | [174](../../magpie/internal/probelog/probelog.go#L174) |
-| next | field_declaration | transport | [174](../../magpie/internal/probelog/probelog.go#L174) |
-| RoundTrip | method_declaration |  | [176](../../magpie/internal/probelog/probelog.go#L176) |
-| Unwrap | method_declaration |  | [192](../../magpie/internal/probelog/probelog.go#L192) |
+| KindTest | const_spec |  | [26](../../magpie/internal/probelog/probelog.go#L26) |
+| KindDetect | const_spec |  | [27](../../magpie/internal/probelog/probelog.go#L27) |
+| KindList | const_spec |  | [28](../../magpie/internal/probelog/probelog.go#L28) |
+| Row | type_spec |  | [32](../../magpie/internal/probelog/probelog.go#L32) |
+| Time | field_declaration | Row | [33](../../magpie/internal/probelog/probelog.go#L33) |
+| Kind | field_declaration | Row | [34](../../magpie/internal/probelog/probelog.go#L34) |
+| Provider | field_declaration | Row | [35](../../magpie/internal/probelog/probelog.go#L35) |
+| Account | field_declaration | Row | [36](../../magpie/internal/probelog/probelog.go#L36) |
+| Model | field_declaration | Row | [37](../../magpie/internal/probelog/probelog.go#L37) |
+| Host | field_declaration | Row | [38](../../magpie/internal/probelog/probelog.go#L38) |
+| Endpoint | field_declaration | Row | [39](../../magpie/internal/probelog/probelog.go#L39) |
+| Status | field_declaration | Row | [40](../../magpie/internal/probelog/probelog.go#L40) |
+| Millis | field_declaration | Row | [41](../../magpie/internal/probelog/probelog.go#L41) |
+| Error | field_declaration | Row | [42](../../magpie/internal/probelog/probelog.go#L42) |
+| Sink | var_spec |  | [46](../../magpie/internal/probelog/probelog.go#L46) |
+| meta | type_spec |  | [48](../../magpie/internal/probelog/probelog.go#L48) |
+| kind | field_declaration | meta | [49](../../magpie/internal/probelog/probelog.go#L49) |
+| done | field_declaration | meta | [50](../../magpie/internal/probelog/probelog.go#L50) |
+| key | type_spec |  | [53](../../magpie/internal/probelog/probelog.go#L53) |
+| from | function_declaration |  | [55](../../magpie/internal/probelog/probelog.go#L55) |
+| With | function_declaration |  | [66](../../magpie/internal/probelog/probelog.go#L66) |
+| WithModel | function_declaration |  | [74](../../magpie/internal/probelog/probelog.go#L74) |
+| Kind | function_declaration |  | [84](../../magpie/internal/probelog/probelog.go#L84) |
+| Taken | function_declaration |  | [91](../../magpie/internal/probelog/probelog.go#L91) |
+| Pending | function_declaration |  | [102](../../magpie/internal/probelog/probelog.go#L102) |
+| Note | function_declaration |  | [110](../../magpie/internal/probelog/probelog.go#L110) |
+| NoteResult | function_declaration |  | [136](../../magpie/internal/probelog/probelog.go#L136) |
+| split | function_declaration |  | [149](../../magpie/internal/probelog/probelog.go#L149) |
+| Transport | function_declaration |  | [174](../../magpie/internal/probelog/probelog.go#L174) |
+| transport | type_spec |  | [176](../../magpie/internal/probelog/probelog.go#L176) |
+| next | field_declaration | transport | [176](../../magpie/internal/probelog/probelog.go#L176) |
+| RoundTrip | method_declaration |  | [178](../../magpie/internal/probelog/probelog.go#L178) |
+| Unwrap | method_declaration |  | [194](../../magpie/internal/probelog/probelog.go#L194) |

@@ -4,32 +4,32 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/sync.go) · page 1/1
 
-Source SHA-256: 45b3913fb351d26af424ecf64646260f89eb32f3b80c8f4c98e6d8e5f03e3e54
+Source SHA-256: 241f7d53fbf5206c26dc5c07b488e0c2aa3e2365d84a2ca4e881684a0016e1b0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| syncing | var_spec |  | [24](../../magpie/internal/agent/sync.go#L24) |
-| running | field_declaration | syncing | [26](../../magpie/internal/agent/sync.go#L26) |
-| SyncCatalog | function_declaration |  | [35](../../magpie/internal/agent/sync.go#L35) |
-| soon | var_spec |  | [72](../../magpie/internal/agent/sync.go#L72) |
-| n | field_declaration | soon | [74](../../magpie/internal/agent/sync.go#L74) |
-| idle | field_declaration | soon | [75](../../magpie/internal/agent/sync.go#L75) |
-| init | function_declaration |  | [78](../../magpie/internal/agent/sync.go#L78) |
-| SyncCatalogSoon | function_declaration |  | [90](../../magpie/internal/agent/sync.go#L90) |
-| SyncCatalogSettled | function_declaration |  | [108](../../magpie/internal/agent/sync.go#L108) |
-| syncJSON | function_declaration |  | [119](../../magpie/internal/agent/sync.go#L119) |
-| theirsKept | function_declaration |  | [138](../../magpie/internal/agent/sync.go#L138) |
-| have | var_spec | theirsKept | [145](../../magpie/internal/agent/sync.go#L145) |
-| mergeTheirs | function_declaration |  | [156](../../magpie/internal/agent/sync.go#L156) |
-| hm | var_spec | mergeTheirs | [170](../../magpie/internal/agent/sync.go#L170) |
-| syncJSONInOrder | function_declaration |  | [185](../../magpie/internal/agent/sync.go#L185) |
-| sameOrder | function_declaration |  | [199](../../magpie/internal/agent/sync.go#L199) |
-| sameJSON | function_declaration |  | [220](../../magpie/internal/agent/sync.go#L220) |
-| x | var_spec | sameJSON | [225](../../magpie/internal/agent/sync.go#L225) |
-| yamlKept | function_declaration |  | [238](../../magpie/internal/agent/sync.go#L238) |
-| doc | var_spec | yamlKept | [243](../../magpie/internal/agent/sync.go#L243) |
-| want | var_spec | yamlKept | [257](../../magpie/internal/agent/sync.go#L257) |
-| mergeKept | function_declaration |  | [268](../../magpie/internal/agent/sync.go#L268) |
-| syncYAML | function_declaration |  | [299](../../magpie/internal/agent/sync.go#L299) |
-| doc | var_spec | syncYAML | [304](../../magpie/internal/agent/sync.go#L304) |
-| want | var_spec | syncYAML | [319](../../magpie/internal/agent/sync.go#L319) |
+| syncing | var_spec |  | [25](../../magpie/internal/agent/sync.go#L25) |
+| running | field_declaration | syncing | [27](../../magpie/internal/agent/sync.go#L27) |
+| SyncCatalog | function_declaration |  | [36](../../magpie/internal/agent/sync.go#L36) |
+| soon | var_spec |  | [80](../../magpie/internal/agent/sync.go#L80) |
+| n | field_declaration | soon | [82](../../magpie/internal/agent/sync.go#L82) |
+| idle | field_declaration | soon | [83](../../magpie/internal/agent/sync.go#L83) |
+| init | function_declaration |  | [86](../../magpie/internal/agent/sync.go#L86) |
+| SyncCatalogSoon | function_declaration |  | [98](../../magpie/internal/agent/sync.go#L98) |
+| SyncCatalogSettled | function_declaration |  | [116](../../magpie/internal/agent/sync.go#L116) |
+| syncJSON | function_declaration |  | [127](../../magpie/internal/agent/sync.go#L127) |
+| theirsKept | function_declaration |  | [146](../../magpie/internal/agent/sync.go#L146) |
+| have | var_spec | theirsKept | [153](../../magpie/internal/agent/sync.go#L153) |
+| mergeTheirs | function_declaration |  | [164](../../magpie/internal/agent/sync.go#L164) |
+| hm | var_spec | mergeTheirs | [178](../../magpie/internal/agent/sync.go#L178) |
+| syncJSONInOrder | function_declaration |  | [193](../../magpie/internal/agent/sync.go#L193) |
+| sameOrder | function_declaration |  | [207](../../magpie/internal/agent/sync.go#L207) |
+| sameJSON | function_declaration |  | [228](../../magpie/internal/agent/sync.go#L228) |
+| x | var_spec | sameJSON | [233](../../magpie/internal/agent/sync.go#L233) |
+| yamlKept | function_declaration |  | [246](../../magpie/internal/agent/sync.go#L246) |
+| doc | var_spec | yamlKept | [251](../../magpie/internal/agent/sync.go#L251) |
+| want | var_spec | yamlKept | [265](../../magpie/internal/agent/sync.go#L265) |
+| mergeKept | function_declaration |  | [276](../../magpie/internal/agent/sync.go#L276) |
+| syncYAML | function_declaration |  | [307](../../magpie/internal/agent/sync.go#L307) |
+| doc | var_spec | syncYAML | [312](../../magpie/internal/agent/sync.go#L312) |
+| want | var_spec | syncYAML | [327](../../magpie/internal/agent/sync.go#L327) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/claude_budget.go) · page 1/1
 
-Source SHA-256: 6f19fbe00053a900db465dae4c12274ab698fbd5a59e2f995235817b2a67cb39
+Source SHA-256: 933f22c125e0a494d213713a52532f0cc6239e63bc7c7d3d04d9337648137277
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -13,11 +13,12 @@ Source SHA-256: 6f19fbe00053a900db465dae4c12274ab698fbd5a59e2f995235817b2a67cb39
 | window | field_declaration | claudeBudget | [27](../../magpie/internal/agent/claude_budget.go#L27) |
 | long | field_declaration | claudeBudget | [28](../../magpie/internal/agent/claude_budget.go#L28) |
 | compact | field_declaration | claudeBudget | [31](../../magpie/internal/agent/claude_budget.go#L31) |
-| claudeLong | const_spec |  | [35](../../magpie/internal/agent/claude_budget.go#L35) |
-| budgetKey | function_declaration |  | [38](../../magpie/internal/agent/claude_budget.go#L38) |
-| budgetKeyOK | function_declaration |  | [43](../../magpie/internal/agent/claude_budget.go#L43) |
-| budgetPath | function_declaration |  | [48](../../magpie/internal/agent/claude_budget.go#L48) |
-| claudePlan | function_declaration |  | [60](../../magpie/internal/agent/claude_budget.go#L60) |
-| budgetsRead | function_declaration |  | [131](../../magpie/internal/agent/claude_budget.go#L131) |
-| per | var_spec | budgetsRead | [132](../../magpie/internal/agent/claude_budget.go#L132) |
-| s | var_spec | budgetsRead | [142](../../magpie/internal/agent/claude_budget.go#L142) |
+| behaves | field_declaration | claudeBudget | [35](../../magpie/internal/agent/claude_budget.go#L35) |
+| claudeLong | const_spec |  | [39](../../magpie/internal/agent/claude_budget.go#L39) |
+| budgetKey | function_declaration |  | [42](../../magpie/internal/agent/claude_budget.go#L42) |
+| budgetKeyOK | function_declaration |  | [47](../../magpie/internal/agent/claude_budget.go#L47) |
+| budgetPath | function_declaration |  | [52](../../magpie/internal/agent/claude_budget.go#L52) |
+| claudePlan | function_declaration |  | [64](../../magpie/internal/agent/claude_budget.go#L64) |
+| budgetsRead | function_declaration |  | [135](../../magpie/internal/agent/claude_budget.go#L135) |
+| per | var_spec | budgetsRead | [136](../../magpie/internal/agent/claude_budget.go#L136) |
+| s | var_spec | budgetsRead | [146](../../magpie/internal/agent/claude_budget.go#L146) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/allowance_renewed.go) · page 1/1
 
-Source SHA-256: 52b16dbbf792391bc6edd080fa7be645a44a82644e9d8fafbe302ec0acca2ef2
+Source SHA-256: dc532f77cd2a5eb9623e73455292a5e4c0f2407ac6d9e68aa5de0e17b4a314e5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,6 +14,9 @@ Source SHA-256: 52b16dbbf792391bc6edd080fa7be645a44a82644e9d8fafbe302ec0acca2ef2
 | renewedFrom | method_declaration |  | [32](../../magpie/internal/provider/allowance_renewed.go#L32) |
 | key | type_spec | renewedFrom | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
 | name | field_declaration | renewedFrom::key | [33](../../magpie/internal/provider/allowance_renewed.go#L33) |
-| fullTill | method_declaration |  | [58](../../magpie/internal/provider/allowance_renewed.go#L58) |
-| t | var_spec | fullTill | [59](../../magpie/internal/provider/allowance_renewed.go#L59) |
-| renewalShare | function_declaration |  | [75](../../magpie/internal/provider/allowance_renewed.go#L75) |
+| startedAgain | method_declaration |  | [64](../../magpie/internal/provider/allowance_renewed.go#L64) |
+| key | type_spec | startedAgain | [65](../../magpie/internal/provider/allowance_renewed.go#L65) |
+| name | field_declaration | startedAgain::key | [65](../../magpie/internal/provider/allowance_renewed.go#L65) |
+| fullTill | method_declaration |  | [89](../../magpie/internal/provider/allowance_renewed.go#L89) |
+| t | var_spec | fullTill | [90](../../magpie/internal/provider/allowance_renewed.go#L90) |
+| renewalShare | function_declaration |  | [106](../../magpie/internal/provider/allowance_renewed.go#L106) |

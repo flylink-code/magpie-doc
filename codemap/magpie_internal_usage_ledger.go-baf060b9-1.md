@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/ledger.go) · page 1/2
 
-Source SHA-256: 88a989f12b86a23f34eb91389514323f238682b39a0c417fea840edd67f542c9
+Source SHA-256: 6425aeefcded6e63dd9b11fbb19acc4825cebe99953a67d0b01dc459c533c548
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -17,94 +17,94 @@ Source SHA-256: 88a989f12b86a23f34eb91389514323f238682b39a0c417fea840edd67f542c9
 | Routed | field_declaration | Row | [36](../../magpie/internal/usage/ledger.go#L36) |
 | Source | field_declaration | Row | [40](../../magpie/internal/usage/ledger.go#L40) |
 | Client | field_declaration | Row | [44](../../magpie/internal/usage/ledger.go#L44) |
-| Failed | method_declaration |  | [50](../../magpie/internal/usage/ledger.go#L50) |
-| Filter | type_spec |  | [55](../../magpie/internal/usage/ledger.go#L55) |
-| Day | field_declaration | Filter | [56](../../magpie/internal/usage/ledger.go#L56) |
-| Zone | field_declaration | Filter | [59](../../magpie/internal/usage/ledger.go#L59) |
-| CallerKey | field_declaration | Filter | [60](../../magpie/internal/usage/ledger.go#L60) |
-| RouteID | field_declaration | Filter | [61](../../magpie/internal/usage/ledger.go#L61) |
-| Model | field_declaration | Filter | [62](../../magpie/internal/usage/ledger.go#L62) |
-| Agent | field_declaration | Filter | [63](../../magpie/internal/usage/ledger.go#L63) |
-| Provider | field_declaration | Filter | [64](../../magpie/internal/usage/ledger.go#L64) |
-| Purpose | field_declaration | Filter | [65](../../magpie/internal/usage/ledger.go#L65) |
-| Account | field_declaration | Filter | [68](../../magpie/internal/usage/ledger.go#L68) |
-| Failed | field_declaration | Filter | [73](../../magpie/internal/usage/ledger.go#L73) |
-| Retried | field_declaration | Filter | [74](../../magpie/internal/usage/ledger.go#L74) |
-| Query | field_declaration | Filter | [75](../../magpie/internal/usage/ledger.go#L75) |
-| Computer | field_declaration | Filter | [78](../../magpie/internal/usage/ledger.go#L78) |
-| Through | field_declaration | Filter | [85](../../magpie/internal/usage/ledger.go#L85) |
-| SourceGateway | const_spec |  | [94](../../magpie/internal/usage/ledger.go#L94) |
-| SourceSession | const_spec |  | [95](../../magpie/internal/usage/ledger.go#L95) |
-| SourceReported | const_spec |  | [99](../../magpie/internal/usage/ledger.go#L99) |
-| SourceOf | function_declaration |  | [107](../../magpie/internal/usage/ledger.go#L107) |
-| keepsRow | method_declaration |  | [122](../../magpie/internal/usage/ledger.go#L122) |
-| OtherComputers | const_spec |  | [130](../../magpie/internal/usage/ledger.go#L130) |
-| computer | method_declaration |  | [133](../../magpie/internal/usage/ledger.go#L133) |
-| keeps | method_declaration |  | [145](../../magpie/internal/usage/ledger.go#L145) |
-| keepsRecord | method_declaration |  | [149](../../magpie/internal/usage/ledger.go#L149) |
-| day | var_spec | keepsRecord | [151](../../magpie/internal/usage/ledger.go#L151) |
-| Since | method_declaration |  | [198](../../magpie/internal/usage/ledger.go#L198) |
-| LogCalls | var_spec |  | [222](../../magpie/internal/usage/ledger.go#L222) |
-| Clock | var_spec |  | [228](../../magpie/internal/usage/ledger.go#L228) |
-| Ledgered | type_spec |  | [233](../../magpie/internal/usage/ledger.go#L233) |
-| Rows | field_declaration | Ledgered | [234](../../magpie/internal/usage/ledger.go#L234) |
-| Sum | field_declaration | Ledgered | [235](../../magpie/internal/usage/ledger.go#L235) |
-| Agents | field_declaration | Ledgered | [236](../../magpie/internal/usage/ledger.go#L236) |
-| Providers | field_declaration | Ledgered | [237](../../magpie/internal/usage/ledger.go#L237) |
-| LedgerOf | function_declaration |  | [243](../../magpie/internal/usage/ledger.go#L243) |
-| LedgerOfAt | function_declaration |  | [249](../../magpie/internal/usage/ledger.go#L249) |
-| ledgerOfAt | function_declaration |  | [258](../../magpie/internal/usage/ledger.go#L258) |
-| gatewayRecords | function_declaration |  | [273](../../magpie/internal/usage/ledger.go#L273) |
-| out | var_spec | gatewayRecords | [274](../../magpie/internal/usage/ledger.go#L274) |
-| Filtered | method_declaration |  | [280](../../magpie/internal/usage/ledger.go#L280) |
-| Ledger | function_declaration |  | [330](../../magpie/internal/usage/ledger.go#L330) |
-| ledger | function_declaration |  | [335](../../magpie/internal/usage/ledger.go#L335) |
-| UnknownProvider | const_spec |  | [342](../../magpie/internal/usage/ledger.go#L342) |
-| logRecord | function_declaration |  | [351](../../magpie/internal/usage/ledger.go#L351) |
-| gatewayMatches | function_declaration |  | [372](../../magpie/internal/usage/ledger.go#L372) |
-| gatewayMatchesDetails | function_declaration |  | [377](../../magpie/internal/usage/ledger.go#L377) |
-| ledgerWith | function_declaration |  | [408](../../magpie/internal/usage/ledger.go#L408) |
-| ledgerWithShared | function_declaration |  | [415](../../magpie/internal/usage/ledger.go#L415) |
-| ledgerMatched | function_declaration |  | [422](../../magpie/internal/usage/ledger.go#L422) |
-| ownPrice | var_spec |  | [510](../../magpie/internal/usage/ledger.go#L510) |
-| Pricer | function_declaration |  | [522](../../magpie/internal/usage/ledger.go#L522) |
-| pr | var_spec | Pricer | [537](../../magpie/internal/usage/ledger.go#L537) |
-| NewPricer | function_declaration |  | [555](../../magpie/internal/usage/ledger.go#L555) |
-| sum | var_spec | NewPricer | [558](../../magpie/internal/usage/ledger.go#L558) |
-| CSVHeader | var_spec |  | [568](../../magpie/internal/usage/ledger.go#L568) |
-| WriteCSV | function_declaration |  | [588](../../magpie/internal/usage/ledger.go#L588) |
-| timeline | function_declaration |  | [628](../../magpie/internal/usage/ledger.go#L628) |
-| n | var_spec | timeline | [631](../../magpie/internal/usage/ledger.go#L631) |
-| calendarDays | function_declaration |  | [707](../../magpie/internal/usage/ledger.go#L707) |
-| bucketIndex | function_declaration |  | [712](../../magpie/internal/usage/ledger.go#L712) |
-| addRow | method_declaration |  | [724](../../magpie/internal/usage/ledger.go#L724) |
-| plus | method_declaration |  | [758](../../magpie/internal/usage/ledger.go#L758) |
-| FloorAgents | var_spec |  | [793](../../magpie/internal/usage/ledger.go#L793) |
-| CodexWindowMs | const_spec |  | [805](../../magpie/internal/usage/ledger.go#L805) |
-| CodexBodyTokens | const_spec |  | [806](../../magpie/internal/usage/ledger.go#L806) |
-| codexTurn | method_declaration |  | [811](../../magpie/internal/usage/ledger.go#L811) |
-| Decode | method_declaration |  | [817](../../magpie/internal/usage/ledger.go#L817) |
-| Floor | method_declaration |  | [856](../../magpie/internal/usage/ledger.go#L856) |
-| Dimensions | var_spec |  | [881](../../magpie/internal/usage/ledger.go#L881) |
-| NoCallerKey | const_spec |  | [886](../../magpie/internal/usage/ledger.go#L886) |
-| Without | method_declaration |  | [890](../../magpie/internal/usage/ledger.go#L890) |
-| ModelAtKey | function_declaration |  | [908](../../magpie/internal/usage/ledger.go#L908) |
-| key | method_declaration |  | [911](../../magpie/internal/usage/ledger.go#L911) |
-| keyer | type_spec |  | [936](../../magpie/internal/usage/ledger.go#L936) |
-| key | method_declaration |  | [938](../../magpie/internal/usage/ledger.go#L938) |
-| AllTokens | method_declaration |  | [951](../../magpie/internal/usage/ledger.go#L951) |
-| Share | type_spec |  | [954](../../magpie/internal/usage/ledger.go#L954) |
-| ID | field_declaration | Share | [955](../../magpie/internal/usage/ledger.go#L955) |
-| Breakdown | function_declaration |  | [961](../../magpie/internal/usage/ledger.go#L961) |
-| out | var_spec | Breakdown | [963](../../magpie/internal/usage/ledger.go#L963) |
-| Part | type_spec |  | [994](../../magpie/internal/usage/ledger.go#L994) |
-| Calls | field_declaration | Part | [995](../../magpie/internal/usage/ledger.go#L995) |
-| Tokens | field_declaration | Part | [996](../../magpie/internal/usage/ledger.go#L996) |
-| Cost | field_declaration | Part | [997](../../magpie/internal/usage/ledger.go#L997) |
-| Timed | field_declaration | Part | [1000](../../magpie/internal/usage/ledger.go#L1000) |
-| TTFT | field_declaration | Part | [1001](../../magpie/internal/usage/ledger.go#L1001) |
-| DecodeMs | field_declaration | Part | [1002](../../magpie/internal/usage/ledger.go#L1002) |
-| DecodeOut | field_declaration | Part | [1003](../../magpie/internal/usage/ledger.go#L1003) |
-| add | method_declaration |  | [1007](../../magpie/internal/usage/ledger.go#L1007) |
-| plus | method_declaration |  | [1027](../../magpie/internal/usage/ledger.go#L1027) |
-| SeriesPoint | type_spec |  | [1039](../../magpie/internal/usage/ledger.go#L1039) |
+| Failed | method_declaration |  | [51](../../magpie/internal/usage/ledger.go#L51) |
+| AgentCanceled | const_spec |  | [56](../../magpie/internal/usage/ledger.go#L56) |
+| StatusCanceled | const_spec |  | [60](../../magpie/internal/usage/ledger.go#L60) |
+| CanceledBy | function_declaration |  | [67](../../magpie/internal/usage/ledger.go#L67) |
+| CanceledErrType | const_spec |  | [72](../../magpie/internal/usage/ledger.go#L72) |
+| Canceled | method_declaration |  | [77](../../magpie/internal/usage/ledger.go#L77) |
+| Answered | method_declaration |  | [84](../../magpie/internal/usage/ledger.go#L84) |
+| Filter | type_spec |  | [89](../../magpie/internal/usage/ledger.go#L89) |
+| Day | field_declaration | Filter | [90](../../magpie/internal/usage/ledger.go#L90) |
+| Zone | field_declaration | Filter | [93](../../magpie/internal/usage/ledger.go#L93) |
+| CallerKey | field_declaration | Filter | [94](../../magpie/internal/usage/ledger.go#L94) |
+| RouteID | field_declaration | Filter | [95](../../magpie/internal/usage/ledger.go#L95) |
+| Model | field_declaration | Filter | [96](../../magpie/internal/usage/ledger.go#L96) |
+| Agent | field_declaration | Filter | [97](../../magpie/internal/usage/ledger.go#L97) |
+| Provider | field_declaration | Filter | [98](../../magpie/internal/usage/ledger.go#L98) |
+| Purpose | field_declaration | Filter | [99](../../magpie/internal/usage/ledger.go#L99) |
+| Account | field_declaration | Filter | [102](../../magpie/internal/usage/ledger.go#L102) |
+| Failed | field_declaration | Filter | [107](../../magpie/internal/usage/ledger.go#L107) |
+| Retried | field_declaration | Filter | [108](../../magpie/internal/usage/ledger.go#L108) |
+| Query | field_declaration | Filter | [109](../../magpie/internal/usage/ledger.go#L109) |
+| Computer | field_declaration | Filter | [112](../../magpie/internal/usage/ledger.go#L112) |
+| Through | field_declaration | Filter | [119](../../magpie/internal/usage/ledger.go#L119) |
+| SourceGateway | const_spec |  | [128](../../magpie/internal/usage/ledger.go#L128) |
+| SourceSession | const_spec |  | [129](../../magpie/internal/usage/ledger.go#L129) |
+| SourceReported | const_spec |  | [133](../../magpie/internal/usage/ledger.go#L133) |
+| SourceOf | function_declaration |  | [141](../../magpie/internal/usage/ledger.go#L141) |
+| keepsRow | method_declaration |  | [156](../../magpie/internal/usage/ledger.go#L156) |
+| OtherComputers | const_spec |  | [167](../../magpie/internal/usage/ledger.go#L167) |
+| computer | method_declaration |  | [170](../../magpie/internal/usage/ledger.go#L170) |
+| keeps | method_declaration |  | [182](../../magpie/internal/usage/ledger.go#L182) |
+| sameGroupModel | function_declaration |  | [190](../../magpie/internal/usage/ledger.go#L190) |
+| keepsRecord | method_declaration |  | [195](../../magpie/internal/usage/ledger.go#L195) |
+| day | var_spec | keepsRecord | [197](../../magpie/internal/usage/ledger.go#L197) |
+| Since | method_declaration |  | [244](../../magpie/internal/usage/ledger.go#L244) |
+| LogCalls | var_spec |  | [268](../../magpie/internal/usage/ledger.go#L268) |
+| Clock | var_spec |  | [274](../../magpie/internal/usage/ledger.go#L274) |
+| Ledgered | type_spec |  | [279](../../magpie/internal/usage/ledger.go#L279) |
+| Rows | field_declaration | Ledgered | [280](../../magpie/internal/usage/ledger.go#L280) |
+| Sum | field_declaration | Ledgered | [281](../../magpie/internal/usage/ledger.go#L281) |
+| Agents | field_declaration | Ledgered | [282](../../magpie/internal/usage/ledger.go#L282) |
+| Providers | field_declaration | Ledgered | [283](../../magpie/internal/usage/ledger.go#L283) |
+| LedgerOf | function_declaration |  | [289](../../magpie/internal/usage/ledger.go#L289) |
+| LedgerOfAt | function_declaration |  | [295](../../magpie/internal/usage/ledger.go#L295) |
+| ledgerOfAt | function_declaration |  | [304](../../magpie/internal/usage/ledger.go#L304) |
+| gatewayRecords | function_declaration |  | [320](../../magpie/internal/usage/ledger.go#L320) |
+| out | var_spec | gatewayRecords | [321](../../magpie/internal/usage/ledger.go#L321) |
+| Filtered | method_declaration |  | [327](../../magpie/internal/usage/ledger.go#L327) |
+| Ledger | function_declaration |  | [377](../../magpie/internal/usage/ledger.go#L377) |
+| ledger | function_declaration |  | [382](../../magpie/internal/usage/ledger.go#L382) |
+| UnknownProvider | const_spec |  | [389](../../magpie/internal/usage/ledger.go#L389) |
+| logRecord | function_declaration |  | [398](../../magpie/internal/usage/ledger.go#L398) |
+| gatewayMatches | function_declaration |  | [419](../../magpie/internal/usage/ledger.go#L419) |
+| gatewayMatchesDetails | function_declaration |  | [424](../../magpie/internal/usage/ledger.go#L424) |
+| ledgerWith | function_declaration |  | [455](../../magpie/internal/usage/ledger.go#L455) |
+| ledgerWithShared | function_declaration |  | [462](../../magpie/internal/usage/ledger.go#L462) |
+| ledgerMatched | function_declaration |  | [469](../../magpie/internal/usage/ledger.go#L469) |
+| ownPrice | var_spec |  | [557](../../magpie/internal/usage/ledger.go#L557) |
+| Pricer | function_declaration |  | [583](../../magpie/internal/usage/ledger.go#L583) |
+| pr | var_spec | Pricer | [605](../../magpie/internal/usage/ledger.go#L605) |
+| v | var_spec | Pricer | [606](../../magpie/internal/usage/ledger.go#L606) |
+| ws | var_spec | Pricer | [607](../../magpie/internal/usage/ledger.go#L607) |
+| ok | var_spec | Pricer | [608](../../magpie/internal/usage/ledger.go#L608) |
+| servedInstead | function_declaration |  | [662](../../magpie/internal/usage/ledger.go#L662) |
+| atWindow | function_declaration |  | [673](../../magpie/internal/usage/ledger.go#L673) |
+| NewPricer | function_declaration |  | [687](../../magpie/internal/usage/ledger.go#L687) |
+| sum | var_spec | NewPricer | [690](../../magpie/internal/usage/ledger.go#L690) |
+| CSVHeader | var_spec |  | [700](../../magpie/internal/usage/ledger.go#L700) |
+| WriteCSV | function_declaration |  | [721](../../magpie/internal/usage/ledger.go#L721) |
+| timeline | function_declaration |  | [761](../../magpie/internal/usage/ledger.go#L761) |
+| n | var_spec | timeline | [764](../../magpie/internal/usage/ledger.go#L764) |
+| calendarDays | function_declaration |  | [855](../../magpie/internal/usage/ledger.go#L855) |
+| bucketIndex | function_declaration |  | [860](../../magpie/internal/usage/ledger.go#L860) |
+| addRow | method_declaration |  | [872](../../magpie/internal/usage/ledger.go#L872) |
+| plus | method_declaration |  | [907](../../magpie/internal/usage/ledger.go#L907) |
+| FloorAgents | var_spec |  | [946](../../magpie/internal/usage/ledger.go#L946) |
+| CodexWindowMs | const_spec |  | [958](../../magpie/internal/usage/ledger.go#L958) |
+| CodexBodyTokens | const_spec |  | [959](../../magpie/internal/usage/ledger.go#L959) |
+| codexTurn | method_declaration |  | [964](../../magpie/internal/usage/ledger.go#L964) |
+| Decode | method_declaration |  | [970](../../magpie/internal/usage/ledger.go#L970) |
+| Floor | method_declaration |  | [1009](../../magpie/internal/usage/ledger.go#L1009) |
+| Dimensions | var_spec |  | [1034](../../magpie/internal/usage/ledger.go#L1034) |
+| NoCallerKey | const_spec |  | [1039](../../magpie/internal/usage/ledger.go#L1039) |
+| Without | method_declaration |  | [1043](../../magpie/internal/usage/ledger.go#L1043) |
+| ModelAtKey | function_declaration |  | [1061](../../magpie/internal/usage/ledger.go#L1061) |
+| key | method_declaration |  | [1064](../../magpie/internal/usage/ledger.go#L1064) |
+| keyer | type_spec |  | [1089](../../magpie/internal/usage/ledger.go#L1089) |
+| public | field_declaration | keyer | [1090](../../magpie/internal/usage/ledger.go#L1090) |
+| models | field_declaration | keyer | [1091](../../magpie/internal/usage/ledger.go#L1091) |
+| at | field_declaration | keyer | [1092](../../magpie/internal/usage/ledger.go#L1092) |
+| newKeyer | function_declaration |  | [1095](../../magpie/internal/usage/ledger.go#L1095) |
+| key | method_declaration |  | [1099](../../magpie/internal/usage/ledger.go#L1099) |

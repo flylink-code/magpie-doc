@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/claude_limits.go) · page 1/1
 
-Source SHA-256: 72d091929917725cb16bd6bc8f928ba79e64174d8eaa068608c143cff4c98610
+Source SHA-256: 62dba0c06f5c8012f264ca127b2661be51a0ad0fe1bcb6a25d9d072d57880535
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,10 +15,14 @@ Source SHA-256: 72d091929917725cb16bd6bc8f928ba79e64174d8eaa068608c143cff4c98610
 | claudeKinds | var_spec |  | [26](../../magpie/internal/provider/claude_limits.go#L26) |
 | kind | field_declaration | claudeKinds | [27](../../magpie/internal/provider/claude_limits.go#L27) |
 | span | field_declaration | claudeKinds | [28](../../magpie/internal/provider/claude_limits.go#L28) |
-| claudeHeard | const_spec |  | [42](../../magpie/internal/provider/claude_limits.go#L42) |
-| NoteClaudeLimits | function_declaration |  | [47](../../magpie/internal/provider/claude_limits.go#L47) |
-| heard | var_spec | NoteClaudeLimits | [48](../../magpie/internal/provider/claude_limits.go#L48) |
-| kind | field_declaration | NoteClaudeLimits | [51](../../magpie/internal/provider/claude_limits.go#L51) |
-| span | field_declaration | NoteClaudeLimits | [52](../../magpie/internal/provider/claude_limits.go#L52) |
-| KeptClaudeLimits | function_declaration |  | [105](../../magpie/internal/provider/claude_limits.go#L105) |
-| out | var_spec | KeptClaudeLimits | [112](../../magpie/internal/provider/claude_limits.go#L112) |
+| claudeKindOrder | function_declaration |  | [42](../../magpie/internal/provider/claude_limits.go#L42) |
+| claudeWithUnstarted | function_declaration |  | [59](../../magpie/internal/provider/claude_limits.go#L59) |
+| claudeHeard | const_spec |  | [67](../../magpie/internal/provider/claude_limits.go#L67) |
+| NoteClaudeLimits | function_declaration |  | [75](../../magpie/internal/provider/claude_limits.go#L75) |
+| heard | var_spec | NoteClaudeLimits | [76](../../magpie/internal/provider/claude_limits.go#L76) |
+| kind | field_declaration | NoteClaudeLimits | [79](../../magpie/internal/provider/claude_limits.go#L79) |
+| span | field_declaration | NoteClaudeLimits | [80](../../magpie/internal/provider/claude_limits.go#L80) |
+| KeptClaudeLimits | function_declaration |  | [130](../../magpie/internal/provider/claude_limits.go#L130) |
+| out | var_spec | KeptClaudeLimits | [137](../../magpie/internal/provider/claude_limits.go#L137) |
+| keptClaudeWindows | function_declaration |  | [155](../../magpie/internal/provider/claude_limits.go#L155) |
+| out | var_spec | keptClaudeWindows | [160](../../magpie/internal/provider/claude_limits.go#L160) |

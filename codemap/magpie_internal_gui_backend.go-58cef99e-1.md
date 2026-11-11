@@ -4,21 +4,21 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/backend.go) · page 1/1
 
-Source SHA-256: 8d634d5ca6b2062dd86812aa4ae5025b0f8b3cc27b337728ab9c476d827aed4d
+Source SHA-256: d76deee3d4d614272fc41d78729c7ff93cd88a9c4e2a112e278f801d3db511bf
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| served | var_spec |  | [20](../../magpie/internal/gui/backend.go#L20) |
-| backendCtx | var_spec |  | [23](../../magpie/internal/gui/backend.go#L23) |
-| serving | var_spec |  | [26](../../magpie/internal/gui/backend.go#L26) |
-| stopServing | function_declaration |  | [30](../../magpie/internal/gui/backend.go#L30) |
-| startBackend | function_declaration |  | [40](../../magpie/internal/gui/backend.go#L40) |
-| gatewayWatch | const_spec |  | [80](../../magpie/internal/gui/backend.go#L80) |
-| watchGateway | function_declaration |  | [85](../../magpie/internal/gui/backend.go#L85) |
-| takenSaid | var_spec |  | [104](../../magpie/internal/gui/backend.go#L104) |
-| gatewayMu | var_spec |  | [108](../../magpie/internal/gui/backend.go#L108) |
-| servedRun | var_spec |  | [112](../../magpie/internal/gui/backend.go#L112) |
-| stop | field_declaration | servedRun | [113](../../magpie/internal/gui/backend.go#L113) |
-| done | field_declaration | servedRun | [114](../../magpie/internal/gui/backend.go#L114) |
-| serveGateway | function_declaration |  | [119](../../magpie/internal/gui/backend.go#L119) |
-| serveGatewayLocked | function_declaration |  | [125](../../magpie/internal/gui/backend.go#L125) |
+| served | var_spec |  | [21](../../magpie/internal/gui/backend.go#L21) |
+| backendCtx | var_spec |  | [24](../../magpie/internal/gui/backend.go#L24) |
+| serving | var_spec |  | [27](../../magpie/internal/gui/backend.go#L27) |
+| stopServing | function_declaration |  | [31](../../magpie/internal/gui/backend.go#L31) |
+| startBackend | function_declaration |  | [41](../../magpie/internal/gui/backend.go#L41) |
+| gatewayWatch | const_spec |  | [91](../../magpie/internal/gui/backend.go#L91) |
+| watchGateway | function_declaration |  | [96](../../magpie/internal/gui/backend.go#L96) |
+| takenSaid | var_spec |  | [117](../../magpie/internal/gui/backend.go#L117) |
+| gatewayMu | var_spec |  | [121](../../magpie/internal/gui/backend.go#L121) |
+| servedRun | var_spec |  | [125](../../magpie/internal/gui/backend.go#L125) |
+| stop | field_declaration | servedRun | [126](../../magpie/internal/gui/backend.go#L126) |
+| done | field_declaration | servedRun | [127](../../magpie/internal/gui/backend.go#L127) |
+| serveGateway | function_declaration |  | [132](../../magpie/internal/gui/backend.go#L132) |
+| serveGatewayLocked | function_declaration |  | [138](../../magpie/internal/gui/backend.go#L138) |

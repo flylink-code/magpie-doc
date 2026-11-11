@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins.js) · page 4/6
 
-Source SHA-256: b7234d16864b05c49ba08e40a98faab28155903010146572a34521cb47cff9c7
+Source SHA-256: 115e341e40190edec382125528003f7af93e46a6d5ffa673e01b82b5b82ec3ff
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| nm | VariableDeclaration | installedRow | [1121](../../magpie/internal/gui/assets/plugins.js#L1121) |
-| c | VariableDeclaration | installedRow | [1126](../../magpie/internal/gui/assets/plugins.js#L1126) |
-| ck | VariableDeclaration | installedRow | [1130](../../magpie/internal/gui/assets/plugins.js#L1130) |
-| c | VariableDeclaration | installedRow | [1132](../../magpie/internal/gui/assets/plugins.js#L1132) |
-| c | VariableDeclaration | installedRow | [1136](../../magpie/internal/gui/assets/plugins.js#L1136) |
-| c | VariableDeclaration | installedRow | [1141](../../magpie/internal/gui/assets/plugins.js#L1141) |
-| c | VariableDeclaration | installedRow | [1147](../../magpie/internal/gui/assets/plugins.js#L1147) |
-| c | VariableDeclaration | installedRow | [1151](../../magpie/internal/gui/assets/plugins.js#L1151) |
-| moved | VariableDeclaration | installedRow | [1158](../../magpie/internal/gui/assets/plugins.js#L1158) |
-| names | VariableDeclaration | installedRow | [1159](../../magpie/internal/gui/assets/plugins.js#L1159) |
-| c | VariableDeclaration | installedRow | [1161](../../magpie/internal/gui/assets/plugins.js#L1161) |
-| mw | VariableDeclaration | installedRow | [1168](../../magpie/internal/gui/assets/plugins.js#L1168) |
-| gw | VariableDeclaration | installedRow | [1169](../../magpie/internal/gui/assets/plugins.js#L1169) |
-| ag | VariableDeclaration | installedRow | [1170](../../magpie/internal/gui/assets/plugins.js#L1170) |
-| chip | VariableDeclaration | installedRow | [1173](../../magpie/internal/gui/assets/plugins.js#L1173) |
-| toolsOnly | VariableDeclaration | installedRow | [1179](../../magpie/internal/gui/assets/plugins.js#L1179) |
-| subs | VariableDeclaration | installedRow | [1185](../../magpie/internal/gui/assets/plugins.js#L1185) |
-| sub | VariableDeclaration | installedRow | [1186](../../magpie/internal/gui/assets/plugins.js#L1186) |
-| cands | VariableDeclaration | installedRow | [1187](../../magpie/internal/gui/assets/plugins.js#L1187) |
-| clashes | VariableDeclaration | installedRow | [1192](../../magpie/internal/gui/assets/plugins.js#L1192) |
-| nameOfSpec | VariableDeclaration | installedRow | [1193](../../magpie/internal/gui/assets/plugins.js#L1193) |
-| o | VariableDeclaration | installedRow.nameOfSpec | [1193](../../magpie/internal/gui/assets/plugins.js#L1193) |
-| ask | VariableDeclaration | installedRow | [1194](../../magpie/internal/gui/assets/plugins.js#L1194) |
-| [i, x] | VariableDeclaration | installedRow | [1204](../../magpie/internal/gui/assets/plugins.js#L1204) |
-| i | BindingElement | installedRow.[i, x] | [1204](../../magpie/internal/gui/assets/plugins.js#L1204) |
-| x | BindingElement | installedRow.[i, x] | [1204](../../magpie/internal/gui/assets/plugins.js#L1204) |
-| s | VariableDeclaration | installedRow | [1206](../../magpie/internal/gui/assets/plugins.js#L1206) |
-| builtin | VariableDeclaration | installedRow | [1208](../../magpie/internal/gui/assets/plugins.js#L1208) |
-| c | VariableDeclaration | installedRow | [1225](../../magpie/internal/gui/assets/plugins.js#L1225) |
-| val | VariableDeclaration | installedRow | [1238](../../magpie/internal/gui/assets/plugins.js#L1238) |
-| b | VariableDeclaration | installedRow | [1239](../../magpie/internal/gui/assets/plugins.js#L1239) |
-| up | VariableDeclaration | installedRow | [1243](../../magpie/internal/gui/assets/plugins.js#L1243) |
-| here | VariableDeclaration | installedRow | [1245](../../magpie/internal/gui/assets/plugins.js#L1245) |
-| mv | VariableDeclaration | installedRow | [1247](../../magpie/internal/gui/assets/plugins.js#L1247) |
-| c | VariableDeclaration | installedRow | [1253](../../magpie/internal/gui/assets/plugins.js#L1253) |
-| u | VariableDeclaration | installedRow | [1254](../../magpie/internal/gui/assets/plugins.js#L1254) |
-| out | VariableDeclaration | installedRow | [1264](../../magpie/internal/gui/assets/plugins.js#L1264) |
-| some | VariableDeclaration | installedRow | [1264](../../magpie/internal/gui/assets/plugins.js#L1264) |
-| s | VariableDeclaration | installedRow | [1265](../../magpie/internal/gui/assets/plugins.js#L1265) |
-| again | VariableDeclaration | installedRow | [1271](../../magpie/internal/gui/assets/plugins.js#L1271) |
-| off | VariableDeclaration | installedRow | [1272](../../magpie/internal/gui/assets/plugins.js#L1272) |
-| remove | VariableDeclaration | installedRow | [1273](../../magpie/internal/gui/assets/plugins.js#L1273) |
-| yes | VariableDeclaration | installedRow | [1276](../../magpie/internal/gui/assets/plugins.js#L1276) |
-| no | VariableDeclaration | installedRow | [1278](../../magpie/internal/gui/assets/plugins.js#L1278) |
-| o | VariableDeclaration | installedRow | [1285](../../magpie/internal/gui/assets/plugins.js#L1285) |
-| onoff | VariableDeclaration | installedRow | [1296](../../magpie/internal/gui/assets/plugins.js#L1296) |
-| rm | VariableDeclaration | installedRow | [1299](../../magpie/internal/gui/assets/plugins.js#L1299) |
-| optionsEditor | FunctionDeclaration |  | [1319](../../magpie/internal/gui/assets/plugins.js#L1319) |
-| box | VariableDeclaration | optionsEditor | [1320](../../magpie/internal/gui/assets/plugins.js#L1320) |
-| ta | VariableDeclaration | optionsEditor | [1321](../../magpie/internal/gui/assets/plugins.js#L1321) |
-| err | VariableDeclaration | optionsEditor | [1333](../../magpie/internal/gui/assets/plugins.js#L1333) |
-| bar | VariableDeclaration | optionsEditor | [1336](../../magpie/internal/gui/assets/plugins.js#L1336) |
-| note | VariableDeclaration | optionsEditor | [1337](../../magpie/internal/gui/assets/plugins.js#L1337) |
-| save | VariableDeclaration | optionsEditor | [1339](../../magpie/internal/gui/assets/plugins.js#L1339) |
-| v | VariableDeclaration | optionsEditor.save | [1340](../../magpie/internal/gui/assets/plugins.js#L1340) |
-| x | VariableDeclaration | optionsEditor.save | [1341](../../magpie/internal/gui/assets/plugins.js#L1341) |
-| ok | VariableDeclaration | optionsEditor | [1346](../../magpie/internal/gui/assets/plugins.js#L1346) |
-| no | VariableDeclaration | optionsEditor | [1348](../../magpie/internal/gui/assets/plugins.js#L1348) |
-| clr | VariableDeclaration | optionsEditor | [1352](../../magpie/internal/gui/assets/plugins.js#L1352) |
-| clashLine | FunctionDeclaration |  | [1371](../../magpie/internal/gui/assets/plugins.js#L1371) |
-| d | VariableDeclaration | clashLine | [1372](../../magpie/internal/gui/assets/plugins.js#L1372) |
-| others | VariableDeclaration | clashLine | [1373](../../magpie/internal/gui/assets/plugins.js#L1373) |
-| agentLine | FunctionDeclaration |  | [1385](../../magpie/internal/gui/assets/plugins.js#L1385) |
-| d | VariableDeclaration | agentLine | [1386](../../magpie/internal/gui/assets/plugins.js#L1386) |
-| toolsLine | FunctionDeclaration |  | [1400](../../magpie/internal/gui/assets/plugins.js#L1400) |
-| d | VariableDeclaration | toolsLine | [1401](../../magpie/internal/gui/assets/plugins.js#L1401) |
-| url | VariableDeclaration | toolsLine | [1404](../../magpie/internal/gui/assets/plugins.js#L1404) |
-| b | VariableDeclaration | toolsLine | [1405](../../magpie/internal/gui/assets/plugins.js#L1405) |
-| READS | VariableDeclaration |  | [1413](../../magpie/internal/gui/assets/plugins.js#L1413) |
-| PAGES | VariableDeclaration |  | [1414](../../magpie/internal/gui/assets/plugins.js#L1414) |
-| pageLine | FunctionDeclaration |  | [1415](../../magpie/internal/gui/assets/plugins.js#L1415) |
-| d | VariableDeclaration | pageLine | [1416](../../magpie/internal/gui/assets/plugins.js#L1416) |
-| reads | VariableDeclaration | pageLine | [1417](../../magpie/internal/gui/assets/plugins.js#L1417) |
-| page | VariableDeclaration | pageLine | [1418](../../magpie/internal/gui/assets/plugins.js#L1418) |
-| SLOTS | VariableDeclaration |  | [1432](../../magpie/internal/gui/assets/plugins.js#L1432) |
-| MENUS | VariableDeclaration |  | [1433](../../magpie/internal/gui/assets/plugins.js#L1433) |
-| whereLine | FunctionDeclaration |  | [1434](../../magpie/internal/gui/assets/plugins.js#L1434) |
-| d | VariableDeclaration | whereLine | [1435](../../magpie/internal/gui/assets/plugins.js#L1435) |
-| panelsLine | FunctionDeclaration |  | [1440](../../magpie/internal/gui/assets/plugins.js#L1440) |
-| reads | VariableDeclaration | panelsLine | [1441](../../magpie/internal/gui/assets/plugins.js#L1441) |
-| actionsLine | FunctionDeclaration |  | [1446](../../magpie/internal/gui/assets/plugins.js#L1446) |
-| mwLine | FunctionDeclaration |  | [1450](../../magpie/internal/gui/assets/plugins.js#L1450) |
-| d | VariableDeclaration | mwLine | [1451](../../magpie/internal/gui/assets/plugins.js#L1451) |
-| lang | VariableDeclaration | mwLine | [1458](../../magpie/internal/gui/assets/plugins.js#L1458) |
-| parts | VariableDeclaration | mwLine | [1461](../../magpie/internal/gui/assets/plugins.js#L1461) |
-| s | VariableDeclaration | mwLine | [1463](../../magpie/internal/gui/assets/plugins.js#L1463) |
-| f | VariableDeclaration | mwLine | [1472](../../magpie/internal/gui/assets/plugins.js#L1472) |
-| f | VariableDeclaration | mwLine | [1477](../../magpie/internal/gui/assets/plugins.js#L1477) |
-| gatewayLine | FunctionDeclaration |  | [1484](../../magpie/internal/gui/assets/plugins.js#L1484) |
-| d | VariableDeclaration | gatewayLine | [1485](../../magpie/internal/gui/assets/plugins.js#L1485) |
-| labels | VariableDeclaration | gatewayLine | [1486](../../magpie/internal/gui/assets/plugins.js#L1486) |
-| text | VariableDeclaration | gatewayLine | [1492](../../magpie/internal/gui/assets/plugins.js#L1492) |
-| bounceLoader | FunctionDeclaration |  | [1505](../../magpie/internal/gui/assets/plugins.js#L1505) |
-| box | VariableDeclaration | bounceLoader | [1506](../../magpie/internal/gui/assets/plugins.js#L1506) |
-| s | VariableDeclaration | bounceLoader | [1506](../../magpie/internal/gui/assets/plugins.js#L1506) |
-| b | VariableDeclaration | bounceLoader | [1506](../../magpie/internal/gui/assets/plugins.js#L1506) |
-| ps | VariableDeclaration | bounceLoader | [1510](../../magpie/internal/gui/assets/plugins.js#L1510) |
-| ws | VariableDeclaration | bounceLoader | [1510](../../magpie/internal/gui/assets/plugins.js#L1510) |
-| at | VariableDeclaration | bounceLoader | [1510](../../magpie/internal/gui/assets/plugins.js#L1510) |
-| L | VariableDeclaration | bounceLoader | [1511](../../magpie/internal/gui/assets/plugins.js#L1511) |
+| n | VariableDeclaration | head | [923](../../magpie/internal/gui/assets/plugins.js#L923) |
+| tabs | VariableDeclaration | head | [924](../../magpie/internal/gui/assets/plugins.js#L924) |
+| mirrorSaving | VariableDeclaration |  | [945](../../magpie/internal/gui/assets/plugins.js#L945) |
+| mirror | VariableDeclaration |  | [948](../../magpie/internal/gui/assets/plugins.js#L948) |
+| searchShown | FunctionDeclaration |  | [949](../../magpie/internal/gui/assets/plugins.js#L949) |
+| mirrorSwitch | FunctionDeclaration |  | [953](../../magpie/internal/gui/assets/plugins.js#L953) |
+| on | VariableDeclaration | mirrorSwitch | [954](../../magpie/internal/gui/assets/plugins.js#L954) |
+| b | VariableDeclaration | mirrorSwitch | [955](../../magpie/internal/gui/assets/plugins.js#L955) |
+| sw | VariableDeclaration | mirrorSwitch | [963](../../magpie/internal/gui/assets/plugins.js#L963) |
+| r | VariableDeclaration | mirrorSwitch | [972](../../magpie/internal/gui/assets/plugins.js#L972) |
+| e | VariableDeclaration | mirrorSwitch | [976](../../magpie/internal/gui/assets/plugins.js#L976) |
+| searchNPM | FunctionDeclaration |  | [986](../../magpie/internal/gui/assets/plugins.js#L986) |
+| r | VariableDeclaration | searchNPM | [988](../../magpie/internal/gui/assets/plugins.js#L988) |
+| e | VariableDeclaration | searchNPM | [990](../../magpie/internal/gui/assets/plugins.js#L990) |
+| body | VariableDeclaration |  | [998](../../magpie/internal/gui/assets/plugins.js#L998) |
+| draw | FunctionDeclaration |  | [999](../../magpie/internal/gui/assets/plugins.js#L999) |
+| scroll | VariableDeclaration | draw | [1000](../../magpie/internal/gui/assets/plugins.js#L1000) |
+| drawBody | FunctionDeclaration |  | [1008](../../magpie/internal/gui/assets/plugins.js#L1008) |
+| key | VariableDeclaration | drawBody | [1010](../../magpie/internal/gui/assets/plugins.js#L1010) |
+| f | VariableDeclaration | drawBody | [1026](../../magpie/internal/gui/assets/plugins.js#L1026) |
+| match | VariableDeclaration | drawBody | [1027](../../magpie/internal/gui/assets/plugins.js#L1027) |
+| all | VariableDeclaration | drawBody | [1028](../../magpie/internal/gui/assets/plugins.js#L1028) |
+| out | VariableDeclaration | drawBody | [1029](../../magpie/internal/gui/assets/plugins.js#L1029) |
+| rec | VariableDeclaration | drawBody | [1031](../../magpie/internal/gui/assets/plugins.js#L1031) |
+| known | VariableDeclaration | drawBody | [1056](../../magpie/internal/gui/assets/plugins.js#L1056) |
+| ls | VariableDeclaration | drawBody | [1057](../../magpie/internal/gui/assets/plugins.js#L1057) |
+| box | VariableDeclaration | drawBody | [1058](../../magpie/internal/gui/assets/plugins.js#L1058) |
+| h | VariableDeclaration | drawBody | [1059](../../magpie/internal/gui/assets/plugins.js#L1059) |
+| list | VariableDeclaration | drawBody | [1066](../../magpie/internal/gui/assets/plugins.js#L1066) |
+| g | VariableDeclaration | drawBody | [1068](../../magpie/internal/gui/assets/plugins.js#L1068) |
+| x | VariableDeclaration | drawBody | [1069](../../magpie/internal/gui/assets/plugins.js#L1069) |
+| footer | FunctionDeclaration |  | [1077](../../magpie/internal/gui/assets/plugins.js#L1077) |
+| box | VariableDeclaration | footer | [1078](../../magpie/internal/gui/assets/plugins.js#L1078) |
+| trust | VariableDeclaration | footer | [1079](../../magpie/internal/gui/assets/plugins.js#L1079) |
+| how | VariableDeclaration | footer | [1083](../../magpie/internal/gui/assets/plugins.js#L1083) |
+| manual | FunctionDeclaration |  | [1092](../../magpie/internal/gui/assets/plugins.js#L1092) |
+| box | VariableDeclaration | manual | [1093](../../magpie/internal/gui/assets/plugins.js#L1093) |
+| spec | VariableDeclaration | manual | [1095](../../magpie/internal/gui/assets/plugins.js#L1095) |
+| go | VariableDeclaration | manual | [1101](../../magpie/internal/gui/assets/plugins.js#L1101) |
+| s | VariableDeclaration | manual | [1107](../../magpie/internal/gui/assets/plugins.js#L1107) |
+| browse | FunctionDeclaration |  | [1121](../../magpie/internal/gui/assets/plugins.js#L1121) |
+| b | VariableDeclaration | browse | [1122](../../magpie/internal/gui/assets/plugins.js#L1122) |
+| r | VariableDeclaration | browse | [1131](../../magpie/internal/gui/assets/plugins.js#L1131) |
+| e | VariableDeclaration | browse | [1136](../../magpie/internal/gui/assets/plugins.js#L1136) |
+| builtins | VariableDeclaration |  | [1148](../../magpie/internal/gui/assets/plugins.js#L1148) |
+| builtinsFailed | VariableDeclaration |  | [1148](../../magpie/internal/gui/assets/plugins.js#L1148) |
+| loadBuiltins | FunctionDeclaration |  | [1149](../../magpie/internal/gui/assets/plugins.js#L1149) |
+| e | VariableDeclaration | loadBuiltins | [1153](../../magpie/internal/gui/assets/plugins.js#L1153) |
+| drawBuiltin | FunctionDeclaration |  | [1158](../../magpie/internal/gui/assets/plugins.js#L1158) |
+| say | VariableDeclaration | drawBuiltin | [1159](../../magpie/internal/gui/assets/plugins.js#L1159) |
+| list | VariableDeclaration | drawBuiltin | [1160](../../magpie/internal/gui/assets/plugins.js#L1160) |
+| drawInstalled | FunctionDeclaration |  | [1167](../../magpie/internal/gui/assets/plugins.js#L1167) |
+| es | VariableDeclaration | drawInstalled | [1173](../../magpie/internal/gui/assets/plugins.js#L1173) |
+| none | VariableDeclaration | drawInstalled | [1175](../../magpie/internal/gui/assets/plugins.js#L1175) |
+| b | VariableDeclaration | drawInstalled | [1177](../../magpie/internal/gui/assets/plugins.js#L1177) |
+| outdated | VariableDeclaration | drawInstalled | [1185](../../magpie/internal/gui/assets/plugins.js#L1185) |
+| bar | VariableDeclaration | drawInstalled | [1187](../../magpie/internal/gui/assets/plugins.js#L1187) |
+| names | VariableDeclaration | drawInstalled | [1188](../../magpie/internal/gui/assets/plugins.js#L1188) |
+| up | VariableDeclaration | drawInstalled | [1192](../../magpie/internal/gui/assets/plugins.js#L1192) |
+| list | VariableDeclaration | drawInstalled | [1201](../../magpie/internal/gui/assets/plugins.js#L1201) |
+| fill | VariableDeclaration | drawInstalled | [1202](../../magpie/internal/gui/assets/plugins.js#L1202) |
+| h | VariableDeclaration | drawInstalled | [1204](../../magpie/internal/gui/assets/plugins.js#L1204) |
+| foot | VariableDeclaration | drawInstalled | [1210](../../magpie/internal/gui/assets/plugins.js#L1210) |
+| c | VariableDeclaration | drawInstalled | [1215](../../magpie/internal/gui/assets/plugins.js#L1215) |
+| shownName | FunctionDeclaration |  | [1229](../../magpie/internal/gui/assets/plugins.js#L1229) |
+| pkg | VariableDeclaration | shownName | [1230](../../magpie/internal/gui/assets/plugins.js#L1230) |
+| installedRow | FunctionDeclaration |  | [1234](../../magpie/internal/gui/assets/plugins.js#L1234) |
+| pkg | VariableDeclaration | installedRow | [1235](../../magpie/internal/gui/assets/plugins.js#L1235) |
+| l | VariableDeclaration | installedRow | [1236](../../magpie/internal/gui/assets/plugins.js#L1236) |
+| r | VariableDeclaration | installedRow | [1237](../../magpie/internal/gui/assets/plugins.js#L1237) |
+| who | VariableDeclaration | installedRow | [1238](../../magpie/internal/gui/assets/plugins.js#L1238) |
+| nm | VariableDeclaration | installedRow | [1239](../../magpie/internal/gui/assets/plugins.js#L1239) |
+| c | VariableDeclaration | installedRow | [1244](../../magpie/internal/gui/assets/plugins.js#L1244) |
+| ck | VariableDeclaration | installedRow | [1248](../../magpie/internal/gui/assets/plugins.js#L1248) |
+| c | VariableDeclaration | installedRow | [1250](../../magpie/internal/gui/assets/plugins.js#L1250) |
+| c | VariableDeclaration | installedRow | [1254](../../magpie/internal/gui/assets/plugins.js#L1254) |
+| c | VariableDeclaration | installedRow | [1259](../../magpie/internal/gui/assets/plugins.js#L1259) |
+| c | VariableDeclaration | installedRow | [1265](../../magpie/internal/gui/assets/plugins.js#L1265) |
+| c | VariableDeclaration | installedRow | [1269](../../magpie/internal/gui/assets/plugins.js#L1269) |
+| moved | VariableDeclaration | installedRow | [1274](../../magpie/internal/gui/assets/plugins.js#L1274) |
+| names | VariableDeclaration | installedRow | [1275](../../magpie/internal/gui/assets/plugins.js#L1275) |
+| all | VariableDeclaration | installedRow | [1276](../../magpie/internal/gui/assets/plugins.js#L1276) |
+| c | VariableDeclaration | installedRow | [1278](../../magpie/internal/gui/assets/plugins.js#L1278) |
+| mw | VariableDeclaration | installedRow | [1285](../../magpie/internal/gui/assets/plugins.js#L1285) |
+| gw | VariableDeclaration | installedRow | [1286](../../magpie/internal/gui/assets/plugins.js#L1286) |
+| ag | VariableDeclaration | installedRow | [1287](../../magpie/internal/gui/assets/plugins.js#L1287) |
+| ownOpts | VariableDeclaration | installedRow | [1289](../../magpie/internal/gui/assets/plugins.js#L1289) |
+| toolsOnly | VariableDeclaration | installedRow | [1294](../../magpie/internal/gui/assets/plugins.js#L1294) |
+| subs | VariableDeclaration | installedRow | [1300](../../magpie/internal/gui/assets/plugins.js#L1300) |
+| sub | VariableDeclaration | installedRow | [1301](../../magpie/internal/gui/assets/plugins.js#L1301) |
+| cands | VariableDeclaration | installedRow | [1302](../../magpie/internal/gui/assets/plugins.js#L1302) |
+| clashes | VariableDeclaration | installedRow | [1307](../../magpie/internal/gui/assets/plugins.js#L1307) |
+| nameOfSpec | VariableDeclaration | installedRow | [1308](../../magpie/internal/gui/assets/plugins.js#L1308) |
+| o | VariableDeclaration | installedRow.nameOfSpec | [1308](../../magpie/internal/gui/assets/plugins.js#L1308) |
+| ask | VariableDeclaration | installedRow | [1309](../../magpie/internal/gui/assets/plugins.js#L1309) |
+| [i, x] | VariableDeclaration | installedRow | [1319](../../magpie/internal/gui/assets/plugins.js#L1319) |
+| i | BindingElement | installedRow.[i, x] | [1319](../../magpie/internal/gui/assets/plugins.js#L1319) |
+| x | BindingElement | installedRow.[i, x] | [1319](../../magpie/internal/gui/assets/plugins.js#L1319) |
+| s | VariableDeclaration | installedRow | [1321](../../magpie/internal/gui/assets/plugins.js#L1321) |
+| builtin | VariableDeclaration | installedRow | [1323](../../magpie/internal/gui/assets/plugins.js#L1323) |

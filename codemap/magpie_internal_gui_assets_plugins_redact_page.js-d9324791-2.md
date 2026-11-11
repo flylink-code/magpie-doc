@@ -4,107 +4,107 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/assets/plugins/redact/page.js) · page 2/4
 
-Source SHA-256: 25263b7b05b00313cb1ba64b56e943730148f8fe0fc1578226a2d7b14ff9b0ec
+Source SHA-256: 784e188dadae15b5bcf19954332e0d3a579eeb91795072766658fb3468bfb1f2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| to | BindingElement | maskFlow.[to, toRows] | [285](../../magpie/internal/gui/assets/plugins/redact/page.js#L285) |
-| toRows | BindingElement | maskFlow.[to, toRows] | [285](../../magpie/internal/gui/assets/plugins/redact/page.js#L285) |
-| mid | VariableDeclaration | maskFlow | [286](../../magpie/internal/gui/assets/plugins/redact/page.js#L286) |
-| rowH | VariableDeclaration | maskFlow | [287](../../magpie/internal/gui/assets/plugins/redact/page.js#L287) |
-| H | VariableDeclaration | maskFlow | [287](../../magpie/internal/gui/assets/plugins/redact/page.js#L287) |
-| max | VariableDeclaration | maskFlow | [288](../../magpie/internal/gui/assets/plugins/redact/page.js#L288) |
-| hub | VariableDeclaration | maskFlow | [289](../../magpie/internal/gui/assets/plugins/redact/page.js#L289) |
-| s | VariableDeclaration | maskFlow | [294](../../magpie/internal/gui/assets/plugins/redact/page.js#L294) |
-| drawnW | VariableDeclaration | maskFlow | [295](../../magpie/internal/gui/assets/plugins/redact/page.js#L295) |
-| draw | VariableDeclaration | maskFlow | [296](../../magpie/internal/gui/assets/plugins/redact/page.js#L296) |
-| W | VariableDeclaration | maskFlow.draw | [297](../../magpie/internal/gui/assets/plugins/redact/page.js#L297) |
-| m | VariableDeclaration | maskFlow.draw | [302](../../magpie/internal/gui/assets/plugins/redact/page.js#L302) |
-| still | VariableDeclaration | maskFlow.draw | [302](../../magpie/internal/gui/assets/plugins/redact/page.js#L302) |
-| lines | VariableDeclaration | maskFlow.draw | [302](../../magpie/internal/gui/assets/plugins/redact/page.js#L302) |
-| add | VariableDeclaration | maskFlow.draw | [303](../../magpie/internal/gui/assets/plugins/redact/page.js#L303) |
-| n | VariableDeclaration | maskFlow.draw.add | [303](../../magpie/internal/gui/assets/plugins/redact/page.js#L303) |
-| curve | VariableDeclaration | maskFlow.draw | [304](../../magpie/internal/gui/assets/plugins/redact/page.js#L304) |
-| bundle | VariableDeclaration | maskFlow.draw | [305](../../magpie/internal/gui/assets/plugins/redact/page.js#L305) |
-| ks | VariableDeclaration | maskFlow.draw.bundle | [306](../../magpie/internal/gui/assets/plugins/redact/page.js#L306) |
-| all | VariableDeclaration | maskFlow.draw.bundle | [306](../../magpie/internal/gui/assets/plugins/redact/page.js#L306) |
-| j | VariableDeclaration | maskFlow.draw.bundle | [307](../../magpie/internal/gui/assets/plugins/redact/page.js#L307) |
-| rnd | VariableDeclaration | maskFlow.draw.bundle | [307](../../magpie/internal/gui/assets/plugins/redact/page.js#L307) |
-| y | VariableDeclaration | maskFlow.draw.bundle | [309](../../magpie/internal/gui/assets/plugins/redact/page.js#L309) |
-| q | VariableDeclaration | maskFlow.draw.bundle | [310](../../magpie/internal/gui/assets/plugins/redact/page.js#L310) |
-| at | VariableDeclaration | maskFlow.draw.bundle | [311](../../magpie/internal/gui/assets/plugins/redact/page.js#L311) |
-| end | VariableDeclaration | maskFlow.draw.bundle | [313](../../magpie/internal/gui/assets/plugins/redact/page.js#L313) |
-| d | VariableDeclaration | maskFlow.draw.bundle | [314](../../magpie/internal/gui/assets/plugins/redact/page.js#L314) |
-| k | VariableDeclaration | maskFlow.draw.bundle | [317](../../magpie/internal/gui/assets/plugins/redact/page.js#L317) |
-| dots | VariableDeclaration | maskFlow.draw.bundle | [317](../../magpie/internal/gui/assets/plugins/redact/page.js#L317) |
-| dur | VariableDeclaration | maskFlow.draw.bundle | [318](../../magpie/internal/gui/assets/plugins/redact/page.js#L318) |
-| begin | VariableDeclaration | maskFlow.draw.bundle | [318](../../magpie/internal/gui/assets/plugins/redact/page.js#L318) |
-| z | VariableDeclaration | maskFlow.draw.bundle | [319](../../magpie/internal/gui/assets/plugins/redact/page.js#L319) |
-| dot | VariableDeclaration | maskFlow.draw.bundle | [319](../../magpie/internal/gui/assets/plugins/redact/page.js#L319) |
-| a | VariableDeclaration | maskFlow.draw.bundle | [322](../../magpie/internal/gui/assets/plugins/redact/page.js#L322) |
-| y | VariableDeclaration | maskFlow.draw | [333](../../magpie/internal/gui/assets/plugins/redact/page.js#L333) |
-| MASK_FACETS | VariableDeclaration |  | [350](../../magpie/internal/gui/assets/plugins/redact/page.js#L350) |
-| maskQuery | FunctionDeclaration |  | [357](../../magpie/internal/gui/assets/plugins/redact/page.js#L357) |
-| q | VariableDeclaration | maskQuery | [358](../../magpie/internal/gui/assets/plugins/redact/page.js#L358) |
-| f | VariableDeclaration | maskQuery | [360](../../magpie/internal/gui/assets/plugins/redact/page.js#L360) |
-| maskNarrow | FunctionDeclaration |  | [370](../../magpie/internal/gui/assets/plugins/redact/page.js#L370) |
-| maskSeq | VariableDeclaration |  | [376](../../magpie/internal/gui/assets/plugins/redact/page.js#L376) |
-| maskFetch | FunctionDeclaration |  | [377](../../magpie/internal/gui/assets/plugins/redact/page.js#L377) |
-| seq | VariableDeclaration | maskFetch | [378](../../magpie/internal/gui/assets/plugins/redact/page.js#L378) |
-| got | VariableDeclaration | maskFetch | [385](../../magpie/internal/gui/assets/plugins/redact/page.js#L385) |
-| maskRefresh | FunctionDeclaration |  | [399](../../magpie/internal/gui/assets/plugins/redact/page.js#L399) |
-| seq | VariableDeclaration | maskRefresh | [401](../../magpie/internal/gui/assets/plugins/redact/page.js#L401) |
-| fresh | VariableDeclaration | maskRefresh | [404](../../magpie/internal/gui/assets/plugins/redact/page.js#L404) |
-| drawMaskList | FunctionDeclaration |  | [412](../../magpie/internal/gui/assets/plugins/redact/page.js#L412) |
-| box | VariableDeclaration | drawMaskList | [413](../../magpie/internal/gui/assets/plugins/redact/page.js#L413) |
-| sum | VariableDeclaration | drawMaskList | [415](../../magpie/internal/gui/assets/plugins/redact/page.js#L415) |
-| bar | VariableDeclaration | drawMaskList | [418](../../magpie/internal/gui/assets/plugins/redact/page.js#L418) |
-| live | VariableDeclaration | drawMaskList | [420](../../magpie/internal/gui/assets/plugins/redact/page.js#L420) |
-| pick | VariableDeclaration | drawMaskList | [425](../../magpie/internal/gui/assets/plugins/redact/page.js#L425) |
-| b | VariableDeclaration | drawMaskList.pick | [426](../../magpie/internal/gui/assets/plugins/redact/page.js#L426) |
-| facets | VariableDeclaration | drawMaskList | [438](../../magpie/internal/gui/assets/plugins/redact/page.js#L438) |
-| [id, name, count] | VariableDeclaration | drawMaskList | [441](../../magpie/internal/gui/assets/plugins/redact/page.js#L441) |
-| id | BindingElement | drawMaskList.[id, name, count] | [441](../../magpie/internal/gui/assets/plugins/redact/page.js#L441) |
-| name | BindingElement | drawMaskList.[id, name, count] | [441](../../magpie/internal/gui/assets/plugins/redact/page.js#L441) |
-| count | BindingElement | drawMaskList.[id, name, count] | [441](../../magpie/internal/gui/assets/plugins/redact/page.js#L441) |
-| n | VariableDeclaration | drawMaskList | [442](../../magpie/internal/gui/assets/plugins/redact/page.js#L442) |
-| b | VariableDeclaration | drawMaskList | [444](../../magpie/internal/gui/assets/plugins/redact/page.js#L444) |
-| b | VariableDeclaration | drawMaskList | [454](../../magpie/internal/gui/assets/plugins/redact/page.js#L454) |
-| foot | VariableDeclaration | drawMaskList | [465](../../magpie/internal/gui/assets/plugins/redact/page.js#L465) |
-| more | VariableDeclaration | drawMaskList | [468](../../magpie/internal/gui/assets/plugins/redact/page.js#L468) |
-| clear | VariableDeclaration | drawMaskList | [477](../../magpie/internal/gui/assets/plugins/redact/page.js#L477) |
-| maskClearing | VariableDeclaration |  | [485](../../magpie/internal/gui/assets/plugins/redact/page.js#L485) |
-| maskClear | FunctionDeclaration |  | [486](../../magpie/internal/gui/assets/plugins/redact/page.js#L486) |
-| ok | VariableDeclaration | maskClear | [487](../../magpie/internal/gui/assets/plugins/redact/page.js#L487) |
-| e | VariableDeclaration | maskClear | [496](../../magpie/internal/gui/assets/plugins/redact/page.js#L496) |
-| maskRequestList | FunctionDeclaration |  | [508](../../magpie/internal/gui/assets/plugins/redact/page.js#L508) |
-| filtered | VariableDeclaration | maskRequestList | [509](../../magpie/internal/gui/assets/plugins/redact/page.js#L509) |
-| day | VariableDeclaration | maskRequestList | [512](../../magpie/internal/gui/assets/plugins/redact/page.js#L512) |
-| list | VariableDeclaration | maskRequestList | [512](../../magpie/internal/gui/assets/plugins/redact/page.js#L512) |
-| r | VariableDeclaration | maskRequestList | [513](../../magpie/internal/gui/assets/plugins/redact/page.js#L513) |
-| d | VariableDeclaration | maskRequestList | [514](../../magpie/internal/gui/assets/plugins/redact/page.js#L514) |
-| g | VariableDeclaration | maskRequestList | [517](../../magpie/internal/gui/assets/plugins/redact/page.js#L517) |
-| maskRoute | FunctionDeclaration |  | [527](../../magpie/internal/gui/assets/plugins/redact/page.js#L527) |
-| a | VariableDeclaration | maskRoute | [528](../../magpie/internal/gui/assets/plugins/redact/page.js#L528) |
-| p | VariableDeclaration | maskRoute | [528](../../magpie/internal/gui/assets/plugins/redact/page.js#L528) |
-| maskKindsOf | FunctionDeclaration |  | [536](../../magpie/internal/gui/assets/plugins/redact/page.js#L536) |
-| by | VariableDeclaration | maskKindsOf | [537](../../magpie/internal/gui/assets/plugins/redact/page.js#L537) |
-| x | VariableDeclaration | maskKindsOf | [538](../../magpie/internal/gui/assets/plugins/redact/page.js#L538) |
-| maskRecordRow | FunctionDeclaration |  | [541](../../magpie/internal/gui/assets/plugins/redact/page.js#L541) |
-| row | VariableDeclaration | maskRecordRow | [542](../../magpie/internal/gui/assets/plugins/redact/page.js#L542) |
-| route | VariableDeclaration | maskRecordRow | [545](../../magpie/internal/gui/assets/plugins/redact/page.js#L545) |
-| model | VariableDeclaration | maskRecordRow | [547](../../magpie/internal/gui/assets/plugins/redact/page.js#L547) |
-| kinds | VariableDeclaration | maskRecordRow | [548](../../magpie/internal/gui/assets/plugins/redact/page.js#L548) |
-| ranked | VariableDeclaration | maskRecordRow | [551](../../magpie/internal/gui/assets/plugins/redact/page.js#L551) |
-| [k, n] | VariableDeclaration | maskRecordRow | [552](../../magpie/internal/gui/assets/plugins/redact/page.js#L552) |
-| k | BindingElement | maskRecordRow.[k, n] | [552](../../magpie/internal/gui/assets/plugins/redact/page.js#L552) |
-| n | BindingElement | maskRecordRow.[k, n] | [552](../../magpie/internal/gui/assets/plugins/redact/page.js#L552) |
-| c | VariableDeclaration | maskRecordRow | [553](../../magpie/internal/gui/assets/plugins/redact/page.js#L553) |
-| n | VariableDeclaration | maskRecordRow | [558](../../magpie/internal/gui/assets/plugins/redact/page.js#L558) |
-| chev | VariableDeclaration | maskRecordRow | [560](../../magpie/internal/gui/assets/plugins/redact/page.js#L560) |
-| maskValueList | FunctionDeclaration |  | [569](../../magpie/internal/gui/assets/plugins/redact/page.js#L569) |
-| f | VariableDeclaration | maskValueList | [570](../../magpie/internal/gui/assets/plugins/redact/page.js#L570) |
-| vs | VariableDeclaration | maskValueList | [571](../../magpie/internal/gui/assets/plugins/redact/page.js#L571) |
-| head | VariableDeclaration | maskValueList | [574](../../magpie/internal/gui/assets/plugins/redact/page.js#L574) |
-| list | VariableDeclaration | maskValueList | [576](../../magpie/internal/gui/assets/plugins/redact/page.js#L576) |
-| max | VariableDeclaration | maskValueList | [576](../../magpie/internal/gui/assets/plugins/redact/page.js#L576) |
+| ic | VariableDeclaration | maskFlow.side | [314](../../magpie/internal/gui/assets/plugins/redact/page.js#L314) |
+| tx | VariableDeclaration | maskFlow.side | [315](../../magpie/internal/gui/assets/plugins/redact/page.js#L315) |
+| [from, fromRows] | VariableDeclaration | maskFlow | [326](../../magpie/internal/gui/assets/plugins/redact/page.js#L326) |
+| from | BindingElement | maskFlow.[from, fromRows] | [326](../../magpie/internal/gui/assets/plugins/redact/page.js#L326) |
+| fromRows | BindingElement | maskFlow.[from, fromRows] | [326](../../magpie/internal/gui/assets/plugins/redact/page.js#L326) |
+| [to, toRows] | VariableDeclaration | maskFlow | [327](../../magpie/internal/gui/assets/plugins/redact/page.js#L327) |
+| to | BindingElement | maskFlow.[to, toRows] | [327](../../magpie/internal/gui/assets/plugins/redact/page.js#L327) |
+| toRows | BindingElement | maskFlow.[to, toRows] | [327](../../magpie/internal/gui/assets/plugins/redact/page.js#L327) |
+| mid | VariableDeclaration | maskFlow | [328](../../magpie/internal/gui/assets/plugins/redact/page.js#L328) |
+| rowH | VariableDeclaration | maskFlow | [329](../../magpie/internal/gui/assets/plugins/redact/page.js#L329) |
+| H | VariableDeclaration | maskFlow | [329](../../magpie/internal/gui/assets/plugins/redact/page.js#L329) |
+| max | VariableDeclaration | maskFlow | [330](../../magpie/internal/gui/assets/plugins/redact/page.js#L330) |
+| hub | VariableDeclaration | maskFlow | [331](../../magpie/internal/gui/assets/plugins/redact/page.js#L331) |
+| s | VariableDeclaration | maskFlow | [336](../../magpie/internal/gui/assets/plugins/redact/page.js#L336) |
+| drawnW | VariableDeclaration | maskFlow | [337](../../magpie/internal/gui/assets/plugins/redact/page.js#L337) |
+| draw | VariableDeclaration | maskFlow | [338](../../magpie/internal/gui/assets/plugins/redact/page.js#L338) |
+| W | VariableDeclaration | maskFlow.draw | [339](../../magpie/internal/gui/assets/plugins/redact/page.js#L339) |
+| m | VariableDeclaration | maskFlow.draw | [344](../../magpie/internal/gui/assets/plugins/redact/page.js#L344) |
+| still | VariableDeclaration | maskFlow.draw | [344](../../magpie/internal/gui/assets/plugins/redact/page.js#L344) |
+| lines | VariableDeclaration | maskFlow.draw | [344](../../magpie/internal/gui/assets/plugins/redact/page.js#L344) |
+| add | VariableDeclaration | maskFlow.draw | [345](../../magpie/internal/gui/assets/plugins/redact/page.js#L345) |
+| n | VariableDeclaration | maskFlow.draw.add | [345](../../magpie/internal/gui/assets/plugins/redact/page.js#L345) |
+| curve | VariableDeclaration | maskFlow.draw | [346](../../magpie/internal/gui/assets/plugins/redact/page.js#L346) |
+| bundle | VariableDeclaration | maskFlow.draw | [347](../../magpie/internal/gui/assets/plugins/redact/page.js#L347) |
+| ks | VariableDeclaration | maskFlow.draw.bundle | [348](../../magpie/internal/gui/assets/plugins/redact/page.js#L348) |
+| all | VariableDeclaration | maskFlow.draw.bundle | [348](../../magpie/internal/gui/assets/plugins/redact/page.js#L348) |
+| j | VariableDeclaration | maskFlow.draw.bundle | [349](../../magpie/internal/gui/assets/plugins/redact/page.js#L349) |
+| rnd | VariableDeclaration | maskFlow.draw.bundle | [349](../../magpie/internal/gui/assets/plugins/redact/page.js#L349) |
+| y | VariableDeclaration | maskFlow.draw.bundle | [351](../../magpie/internal/gui/assets/plugins/redact/page.js#L351) |
+| q | VariableDeclaration | maskFlow.draw.bundle | [352](../../magpie/internal/gui/assets/plugins/redact/page.js#L352) |
+| at | VariableDeclaration | maskFlow.draw.bundle | [353](../../magpie/internal/gui/assets/plugins/redact/page.js#L353) |
+| end | VariableDeclaration | maskFlow.draw.bundle | [355](../../magpie/internal/gui/assets/plugins/redact/page.js#L355) |
+| d | VariableDeclaration | maskFlow.draw.bundle | [356](../../magpie/internal/gui/assets/plugins/redact/page.js#L356) |
+| k | VariableDeclaration | maskFlow.draw.bundle | [359](../../magpie/internal/gui/assets/plugins/redact/page.js#L359) |
+| dots | VariableDeclaration | maskFlow.draw.bundle | [359](../../magpie/internal/gui/assets/plugins/redact/page.js#L359) |
+| dur | VariableDeclaration | maskFlow.draw.bundle | [360](../../magpie/internal/gui/assets/plugins/redact/page.js#L360) |
+| begin | VariableDeclaration | maskFlow.draw.bundle | [360](../../magpie/internal/gui/assets/plugins/redact/page.js#L360) |
+| z | VariableDeclaration | maskFlow.draw.bundle | [361](../../magpie/internal/gui/assets/plugins/redact/page.js#L361) |
+| dot | VariableDeclaration | maskFlow.draw.bundle | [361](../../magpie/internal/gui/assets/plugins/redact/page.js#L361) |
+| a | VariableDeclaration | maskFlow.draw.bundle | [364](../../magpie/internal/gui/assets/plugins/redact/page.js#L364) |
+| y | VariableDeclaration | maskFlow.draw | [375](../../magpie/internal/gui/assets/plugins/redact/page.js#L375) |
+| MASK_FACETS | VariableDeclaration |  | [392](../../magpie/internal/gui/assets/plugins/redact/page.js#L392) |
+| maskQuery | FunctionDeclaration |  | [399](../../magpie/internal/gui/assets/plugins/redact/page.js#L399) |
+| q | VariableDeclaration | maskQuery | [400](../../magpie/internal/gui/assets/plugins/redact/page.js#L400) |
+| f | VariableDeclaration | maskQuery | [402](../../magpie/internal/gui/assets/plugins/redact/page.js#L402) |
+| maskNarrow | FunctionDeclaration |  | [412](../../magpie/internal/gui/assets/plugins/redact/page.js#L412) |
+| maskSeq | VariableDeclaration |  | [418](../../magpie/internal/gui/assets/plugins/redact/page.js#L418) |
+| maskFetch | FunctionDeclaration |  | [419](../../magpie/internal/gui/assets/plugins/redact/page.js#L419) |
+| seq | VariableDeclaration | maskFetch | [420](../../magpie/internal/gui/assets/plugins/redact/page.js#L420) |
+| got | VariableDeclaration | maskFetch | [427](../../magpie/internal/gui/assets/plugins/redact/page.js#L427) |
+| maskRefresh | FunctionDeclaration |  | [441](../../magpie/internal/gui/assets/plugins/redact/page.js#L441) |
+| seq | VariableDeclaration | maskRefresh | [443](../../magpie/internal/gui/assets/plugins/redact/page.js#L443) |
+| fresh | VariableDeclaration | maskRefresh | [446](../../magpie/internal/gui/assets/plugins/redact/page.js#L446) |
+| drawMaskList | FunctionDeclaration |  | [454](../../magpie/internal/gui/assets/plugins/redact/page.js#L454) |
+| box | VariableDeclaration | drawMaskList | [455](../../magpie/internal/gui/assets/plugins/redact/page.js#L455) |
+| sum | VariableDeclaration | drawMaskList | [457](../../magpie/internal/gui/assets/plugins/redact/page.js#L457) |
+| bar | VariableDeclaration | drawMaskList | [460](../../magpie/internal/gui/assets/plugins/redact/page.js#L460) |
+| live | VariableDeclaration | drawMaskList | [462](../../magpie/internal/gui/assets/plugins/redact/page.js#L462) |
+| pick | VariableDeclaration | drawMaskList | [467](../../magpie/internal/gui/assets/plugins/redact/page.js#L467) |
+| b | VariableDeclaration | drawMaskList.pick | [468](../../magpie/internal/gui/assets/plugins/redact/page.js#L468) |
+| facets | VariableDeclaration | drawMaskList | [480](../../magpie/internal/gui/assets/plugins/redact/page.js#L480) |
+| [id, name, count] | VariableDeclaration | drawMaskList | [483](../../magpie/internal/gui/assets/plugins/redact/page.js#L483) |
+| id | BindingElement | drawMaskList.[id, name, count] | [483](../../magpie/internal/gui/assets/plugins/redact/page.js#L483) |
+| name | BindingElement | drawMaskList.[id, name, count] | [483](../../magpie/internal/gui/assets/plugins/redact/page.js#L483) |
+| count | BindingElement | drawMaskList.[id, name, count] | [483](../../magpie/internal/gui/assets/plugins/redact/page.js#L483) |
+| n | VariableDeclaration | drawMaskList | [484](../../magpie/internal/gui/assets/plugins/redact/page.js#L484) |
+| b | VariableDeclaration | drawMaskList | [486](../../magpie/internal/gui/assets/plugins/redact/page.js#L486) |
+| b | VariableDeclaration | drawMaskList | [496](../../magpie/internal/gui/assets/plugins/redact/page.js#L496) |
+| foot | VariableDeclaration | drawMaskList | [507](../../magpie/internal/gui/assets/plugins/redact/page.js#L507) |
+| more | VariableDeclaration | drawMaskList | [510](../../magpie/internal/gui/assets/plugins/redact/page.js#L510) |
+| clear | VariableDeclaration | drawMaskList | [519](../../magpie/internal/gui/assets/plugins/redact/page.js#L519) |
+| maskClearing | VariableDeclaration |  | [527](../../magpie/internal/gui/assets/plugins/redact/page.js#L527) |
+| maskClear | FunctionDeclaration |  | [528](../../magpie/internal/gui/assets/plugins/redact/page.js#L528) |
+| ok | VariableDeclaration | maskClear | [529](../../magpie/internal/gui/assets/plugins/redact/page.js#L529) |
+| e | VariableDeclaration | maskClear | [538](../../magpie/internal/gui/assets/plugins/redact/page.js#L538) |
+| maskRequestList | FunctionDeclaration |  | [550](../../magpie/internal/gui/assets/plugins/redact/page.js#L550) |
+| filtered | VariableDeclaration | maskRequestList | [551](../../magpie/internal/gui/assets/plugins/redact/page.js#L551) |
+| day | VariableDeclaration | maskRequestList | [554](../../magpie/internal/gui/assets/plugins/redact/page.js#L554) |
+| list | VariableDeclaration | maskRequestList | [554](../../magpie/internal/gui/assets/plugins/redact/page.js#L554) |
+| r | VariableDeclaration | maskRequestList | [555](../../magpie/internal/gui/assets/plugins/redact/page.js#L555) |
+| d | VariableDeclaration | maskRequestList | [556](../../magpie/internal/gui/assets/plugins/redact/page.js#L556) |
+| g | VariableDeclaration | maskRequestList | [559](../../magpie/internal/gui/assets/plugins/redact/page.js#L559) |
+| maskRoute | FunctionDeclaration |  | [569](../../magpie/internal/gui/assets/plugins/redact/page.js#L569) |
+| a | VariableDeclaration | maskRoute | [570](../../magpie/internal/gui/assets/plugins/redact/page.js#L570) |
+| p | VariableDeclaration | maskRoute | [570](../../magpie/internal/gui/assets/plugins/redact/page.js#L570) |
+| maskKindsOf | FunctionDeclaration |  | [578](../../magpie/internal/gui/assets/plugins/redact/page.js#L578) |
+| by | VariableDeclaration | maskKindsOf | [579](../../magpie/internal/gui/assets/plugins/redact/page.js#L579) |
+| x | VariableDeclaration | maskKindsOf | [580](../../magpie/internal/gui/assets/plugins/redact/page.js#L580) |
+| maskRecordRow | FunctionDeclaration |  | [583](../../magpie/internal/gui/assets/plugins/redact/page.js#L583) |
+| row | VariableDeclaration | maskRecordRow | [584](../../magpie/internal/gui/assets/plugins/redact/page.js#L584) |
+| route | VariableDeclaration | maskRecordRow | [587](../../magpie/internal/gui/assets/plugins/redact/page.js#L587) |
+| model | VariableDeclaration | maskRecordRow | [589](../../magpie/internal/gui/assets/plugins/redact/page.js#L589) |
+| kinds | VariableDeclaration | maskRecordRow | [590](../../magpie/internal/gui/assets/plugins/redact/page.js#L590) |
+| ranked | VariableDeclaration | maskRecordRow | [593](../../magpie/internal/gui/assets/plugins/redact/page.js#L593) |
+| [k, n] | VariableDeclaration | maskRecordRow | [594](../../magpie/internal/gui/assets/plugins/redact/page.js#L594) |
+| k | BindingElement | maskRecordRow.[k, n] | [594](../../magpie/internal/gui/assets/plugins/redact/page.js#L594) |
+| n | BindingElement | maskRecordRow.[k, n] | [594](../../magpie/internal/gui/assets/plugins/redact/page.js#L594) |
+| c | VariableDeclaration | maskRecordRow | [595](../../magpie/internal/gui/assets/plugins/redact/page.js#L595) |
+| n | VariableDeclaration | maskRecordRow | [600](../../magpie/internal/gui/assets/plugins/redact/page.js#L600) |
+| chev | VariableDeclaration | maskRecordRow | [602](../../magpie/internal/gui/assets/plugins/redact/page.js#L602) |

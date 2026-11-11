@@ -4,13 +4,12 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/vertex.go) · page 1/1
 
-Source SHA-256: 1647f708e10b1fb96e04e8029aeb36b760a432ef3cf83b51906571e21eb3a623
+Source SHA-256: 6e1c7442d6c1e0103a7d6d13d27b1ac2a12a9ae5d96392376096708b16acbf8d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| buildVertex | function_declaration |  | [22](../../magpie/internal/gateway/vertex.go#L22) |
-| vertexThinking | function_declaration |  | [40](../../magpie/internal/gateway/vertex.go#L40) |
-| vertexBudgets | function_declaration |  | [68](../../magpie/internal/gateway/vertex.go#L68) |
-| vertexEffort | function_declaration |  | [86](../../magpie/internal/gateway/vertex.go#L86) |
-| vertexSignatureRefused | var_spec |  | [111](../../magpie/internal/gateway/vertex.go#L111) |
-| withoutSignatures | function_declaration |  | [116](../../magpie/internal/gateway/vertex.go#L116) |
+| buildVertex | function_declaration |  | [38](../../magpie/internal/gateway/vertex.go#L38) |
+| vertexThinking | function_declaration |  | [56](../../magpie/internal/gateway/vertex.go#L56) |
+| vertexBudgets | function_declaration |  | [84](../../magpie/internal/gateway/vertex.go#L84) |
+| vertexEffort | function_declaration |  | [102](../../magpie/internal/gateway/vertex.go#L102) |
+| withoutSignatures | function_declaration |  | [128](../../magpie/internal/gateway/vertex.go#L128) |

@@ -4,17 +4,22 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/update_cli.go) · page 1/1
 
-Source SHA-256: db4ab8473e1713a729f7a5862e2aa7f5b10624d9bdfc6a36833446c9bef9ff67
+Source SHA-256: eae8cad8b155e2a2dbd4a7b9f28af5b382569c889e8ba721724c19aea65da5f8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| updateExecutable | var_spec |  | [19](../../magpie/internal/cli/update_cli.go#L19) |
-| updateCanElevate | var_spec |  | [20](../../magpie/internal/cli/update_cli.go#L20) |
-| updateInContainer | var_spec |  | [21](../../magpie/internal/cli/update_cli.go#L21) |
-| updateEveries | var_spec |  | [26](../../magpie/internal/cli/update_cli.go#L26) |
-| updateAutoCmd | function_declaration |  | [33](../../magpie/internal/cli/update_cli.go#L33) |
-| updateMirrorCmd | function_declaration |  | [78](../../magpie/internal/cli/update_cli.go#L78) |
-| updateChannelCmd | function_declaration |  | [109](../../magpie/internal/cli/update_cli.go#L109) |
-| updateFlags | function_declaration |  | [137](../../magpie/internal/cli/update_cli.go#L137) |
-| updateCmd | function_declaration |  | [171](../../magpie/internal/cli/update_cli.go#L171) |
-| via | function_declaration |  | [257](../../magpie/internal/cli/update_cli.go#L257) |
+| updateExecutable | var_spec |  | [23](../../magpie/internal/cli/update_cli.go#L23) |
+| updateCanElevate | var_spec |  | [24](../../magpie/internal/cli/update_cli.go#L24) |
+| updateInContainer | var_spec |  | [25](../../magpie/internal/cli/update_cli.go#L25) |
+| updatePackagedBy | var_spec |  | [26](../../magpie/internal/cli/update_cli.go#L26) |
+| updateEveries | var_spec |  | [31](../../magpie/internal/cli/update_cli.go#L31) |
+| updateAutoCmd | function_declaration |  | [38](../../magpie/internal/cli/update_cli.go#L38) |
+| updateMirrorCmd | function_declaration |  | [83](../../magpie/internal/cli/update_cli.go#L83) |
+| updateChannelCmd | function_declaration |  | [114](../../magpie/internal/cli/update_cli.go#L114) |
+| updateFlags | function_declaration |  | [142](../../magpie/internal/cli/update_cli.go#L142) |
+| updateFlagsForce | function_declaration |  | [149](../../magpie/internal/cli/update_cli.go#L149) |
+| updateCmd | function_declaration |  | [187](../../magpie/internal/cli/update_cli.go#L187) |
+| restartRunning | var_spec |  | [296](../../magpie/internal/cli/update_cli.go#L296) |
+| restartAsk | function_declaration |  | [302](../../magpie/internal/cli/update_cli.go#L302) |
+| r | var_spec | restartAsk | [309](../../magpie/internal/cli/update_cli.go#L309) |
+| via | function_declaration |  | [345](../../magpie/internal/cli/update_cli.go#L345) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/empryo.go) · page 1/1
 
-Source SHA-256: c05e60f3aaaac02ca3da13a18d05a366687e514f64352753915416b3dc187409
+Source SHA-256: b74a712475ab9e39cae809daab6f3f1a857da65d36cce67a7979cc0a90868cb1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

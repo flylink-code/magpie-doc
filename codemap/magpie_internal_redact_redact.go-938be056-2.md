@@ -4,45 +4,78 @@
 
 [Module](magpie-privacy.md) · [Source](../../magpie/internal/redact/redact.go) · page 2/2
 
-Source SHA-256: 5d0cd0652532e431f2fa45c68f1709b4b537c04e4d75b2c1e77f2721a53c7c34
+Source SHA-256: 396ffb2850a6ba2477b170fffb3aa63b53ef176ac732fbe415c8acc4bed3a697
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| anyCases | var_spec |  | [668](../../magpie/internal/redact/redact.go#L668) |
-| anyCase | function_declaration |  | [672](../../magpie/internal/redact/redact.go#L672) |
-| Mask | function_declaration |  | [682](../../magpie/internal/redact/redact.go#L682) |
-| Preview | function_declaration |  | [690](../../magpie/internal/redact/redact.go#L690) |
-| mask | function_declaration |  | [719](../../magpie/internal/redact/redact.go#L719) |
-| found | var_spec | mask | [728](../../magpie/internal/redact/redact.go#L728) |
-| split | var_spec | mask | [758](../../magpie/internal/redact/redact.go#L758) |
-| good | var_spec | mask | [800](../../magpie/internal/redact/redact.go#L800) |
-| unescapedView | function_declaration |  | [837](../../magpie/internal/redact/redact.go#L837) |
-| unescapedPut | function_declaration |  | [867](../../magpie/internal/redact/redact.go#L867) |
-| u | var_spec | unescapedPut | [870](../../magpie/internal/redact/redact.go#L870) |
-| outsideEscapes | function_declaration |  | [889](../../magpie/internal/redact/redact.go#L889) |
-| edges | type_spec | outsideEscapes | [895](../../magpie/internal/redact/redact.go#L895) |
-| from | field_declaration | outsideEscapes::edges | [895](../../magpie/internal/redact/redact.go#L895) |
-| noNumbers | function_declaration |  | [937](../../magpie/internal/redact/redact.go#L937) |
-| jsonNumber | function_declaration |  | [949](../../magpie/internal/redact/redact.go#L949) |
-| inDecimal | function_declaration |  | [990](../../magpie/internal/redact/redact.go#L990) |
-| by | method_declaration |  | [997](../../magpie/internal/redact/redact.go#L997) |
-| matches | method_declaration |  | [1007](../../magpie/internal/redact/redact.go#L1007) |
-| wins | var_spec | matches | [1011](../../magpie/internal/redact/redact.go#L1011) |
-| out | var_spec | matches | [1041](../../magpie/internal/redact/redact.go#L1041) |
-| lowerASCII | function_declaration |  | [1062](../../magpie/internal/redact/redact.go#L1062) |
-| takes | method_declaration |  | [1074](../../magpie/internal/redact/redact.go#L1074) |
-| apply | function_declaration |  | [1091](../../magpie/internal/redact/redact.go#L1091) |
-| b | var_spec | apply | [1114](../../magpie/internal/redact/redact.go#L1114) |
-| allows | method_declaration |  | [1151](../../magpie/internal/redact/redact.go#L1151) |
-| containsAny | function_declaration |  | [1160](../../magpie/internal/redact/redact.go#L1160) |
-| placeholderBody | var_spec |  | [1173](../../magpie/internal/redact/redact.go#L1173) |
-| Restore | function_declaration |  | [1183](../../magpie/internal/redact/redact.go#L1183) |
-| restore | function_declaration |  | [1187](../../magpie/internal/redact/redact.go#L1187) |
-| b | var_spec | restore | [1197](../../magpie/internal/redact/redact.go#L1197) |
-| canonical | function_declaration |  | [1231](../../magpie/internal/redact/redact.go#L1231) |
-| isWordByte | function_declaration |  | [1236](../../magpie/internal/redact/redact.go#L1236) |
-| braces | function_declaration |  | [1244](../../magpie/internal/redact/redact.go#L1244) |
-| maxPlaceholder | const_spec |  | [1272](../../magpie/internal/redact/redact.go#L1272) |
-| partialTail | function_declaration |  | [1279](../../magpie/internal/redact/redact.go#L1279) |
-| braceTail | function_declaration |  | [1288](../../magpie/internal/redact/redact.go#L1288) |
-| wordTail | function_declaration |  | [1327](../../magpie/internal/redact/redact.go#L1327) |
+| placeholder | function_declaration |  | [815](../../magpie/internal/redact/redact.go#L815) |
+| touch | function_declaration |  | [830](../../magpie/internal/redact/redact.go#L830) |
+| makeRoom | function_declaration |  | [840](../../magpie/internal/redact/redact.go#L840) |
+| put | method_declaration |  | [859](../../magpie/internal/redact/redact.go#L859) |
+| span | type_spec |  | [868](../../magpie/internal/redact/redact.go#L868) |
+| start | field_declaration | span | [869](../../magpie/internal/redact/redact.go#L869) |
+| kind | field_declaration | span | [870](../../magpie/internal/redact/redact.go#L870) |
+| by | field_declaration | span | [871](../../magpie/internal/redact/redact.go#L871) |
+| score | field_declaration | span | [872](../../magpie/internal/redact/redact.go#L872) |
+| bare | field_declaration | span | [875](../../magpie/internal/redact/redact.go#L875) |
+| ByRule | const_spec |  | [882](../../magpie/internal/redact/redact.go#L882) |
+| ByYours | const_spec |  | [883](../../magpie/internal/redact/redact.go#L883) |
+| ByWord | const_spec |  | [884](../../magpie/internal/redact/redact.go#L884) |
+| ByModel | const_spec |  | [885](../../magpie/internal/redact/redact.go#L885) |
+| ByKnown | const_spec |  | [886](../../magpie/internal/redact/redact.go#L886) |
+| Warn | const_spec |  | [892](../../magpie/internal/redact/redact.go#L892) |
+| Block | const_spec |  | [893](../../magpie/internal/redact/redact.go#L893) |
+| Hit | type_spec |  | [900](../../magpie/internal/redact/redact.go#L900) |
+| Kind | field_declaration | Hit | [901](../../magpie/internal/redact/redact.go#L901) |
+| Head | field_declaration | Hit | [902](../../magpie/internal/redact/redact.go#L902) |
+| Len | field_declaration | Hit | [903](../../magpie/internal/redact/redact.go#L903) |
+| Value | function_declaration |  | [908](../../magpie/internal/redact/redact.go#L908) |
+| Hint | function_declaration |  | [918](../../magpie/internal/redact/redact.go#L918) |
+| anyCases | var_spec |  | [943](../../magpie/internal/redact/redact.go#L943) |
+| anyCase | function_declaration |  | [947](../../magpie/internal/redact/redact.go#L947) |
+| wordRune | function_declaration |  | [960](../../magpie/internal/redact/redact.go#L960) |
+| wholeWord | function_declaration |  | [975](../../magpie/internal/redact/redact.go#L975) |
+| Mask | function_declaration |  | [1004](../../magpie/internal/redact/redact.go#L1004) |
+| Preview | function_declaration |  | [1013](../../magpie/internal/redact/redact.go#L1013) |
+| mask | function_declaration |  | [1054](../../magpie/internal/redact/redact.go#L1054) |
+| found | var_spec | mask | [1063](../../magpie/internal/redact/redact.go#L1063) |
+| ruleSpans | function_declaration |  | [1128](../../magpie/internal/redact/redact.go#L1128) |
+| found | var_spec | ruleSpans | [1133](../../magpie/internal/redact/redact.go#L1133) |
+| split | var_spec | ruleSpans | [1144](../../magpie/internal/redact/redact.go#L1144) |
+| good | var_spec | ruleSpans | [1189](../../magpie/internal/redact/redact.go#L1189) |
+| learnLate | function_declaration |  | [1214](../../magpie/internal/redact/redact.go#L1214) |
+| late | var_spec | learnLate | [1215](../../magpie/internal/redact/redact.go#L1215) |
+| unescapedView | function_declaration |  | [1243](../../magpie/internal/redact/redact.go#L1243) |
+| unescapedPut | function_declaration |  | [1273](../../magpie/internal/redact/redact.go#L1273) |
+| u | var_spec | unescapedPut | [1276](../../magpie/internal/redact/redact.go#L1276) |
+| outsideEscapes | function_declaration |  | [1295](../../magpie/internal/redact/redact.go#L1295) |
+| edges | type_spec | outsideEscapes | [1301](../../magpie/internal/redact/redact.go#L1301) |
+| from | field_declaration | outsideEscapes::edges | [1301](../../magpie/internal/redact/redact.go#L1301) |
+| inStrings | function_declaration |  | [1345](../../magpie/internal/redact/redact.go#L1345) |
+| bareValue | function_declaration |  | [1394](../../magpie/internal/redact/redact.go#L1394) |
+| noNumbers | function_declaration |  | [1420](../../magpie/internal/redact/redact.go#L1420) |
+| jsonNumber | function_declaration |  | [1432](../../magpie/internal/redact/redact.go#L1432) |
+| inDecimal | function_declaration |  | [1473](../../magpie/internal/redact/redact.go#L1473) |
+| by | method_declaration |  | [1480](../../magpie/internal/redact/redact.go#L1480) |
+| matches | method_declaration |  | [1490](../../magpie/internal/redact/redact.go#L1490) |
+| wins | var_spec | matches | [1494](../../magpie/internal/redact/redact.go#L1494) |
+| out | var_spec | matches | [1524](../../magpie/internal/redact/redact.go#L1524) |
+| findAll | method_declaration |  | [1546](../../magpie/internal/redact/redact.go#L1546) |
+| lowerASCII | function_declaration |  | [1557](../../magpie/internal/redact/redact.go#L1557) |
+| takes | method_declaration |  | [1576](../../magpie/internal/redact/redact.go#L1576) |
+| apply | function_declaration |  | [1602](../../magpie/internal/redact/redact.go#L1602) |
+| b | var_spec | apply | [1625](../../magpie/internal/redact/redact.go#L1625) |
+| text | var_spec | apply | [1631](../../magpie/internal/redact/redact.go#L1631) |
+| allows | method_declaration |  | [1681](../../magpie/internal/redact/redact.go#L1681) |
+| containsAny | function_declaration |  | [1690](../../magpie/internal/redact/redact.go#L1690) |
+| placeholderBody | var_spec |  | [1703](../../magpie/internal/redact/redact.go#L1703) |
+| Restore | function_declaration |  | [1713](../../magpie/internal/redact/redact.go#L1713) |
+| restore | function_declaration |  | [1717](../../magpie/internal/redact/redact.go#L1717) |
+| b | var_spec | restore | [1727](../../magpie/internal/redact/redact.go#L1727) |
+| canonical | function_declaration |  | [1761](../../magpie/internal/redact/redact.go#L1761) |
+| isWordByte | function_declaration |  | [1766](../../magpie/internal/redact/redact.go#L1766) |
+| braces | function_declaration |  | [1774](../../magpie/internal/redact/redact.go#L1774) |
+| maxPlaceholder | const_spec |  | [1802](../../magpie/internal/redact/redact.go#L1802) |
+| partialTail | function_declaration |  | [1809](../../magpie/internal/redact/redact.go#L1809) |
+| braceTail | function_declaration |  | [1818](../../magpie/internal/redact/redact.go#L1818) |
+| wordTail | function_declaration |  | [1857](../../magpie/internal/redact/redact.go#L1857) |

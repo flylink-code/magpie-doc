@@ -4,17 +4,19 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/prompt.go) · page 3/3
 
-Source SHA-256: d5200b1a7d687c595b3764fecde997fb17e36407d83bc35326863ab5ca556df2
+Source SHA-256: 7f6c7495a5826fcc114ecb8713b2a887a095250d6793a54b3acb6f9d8be97ff7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Tools | field_declaration | gemini::req | [1127](../../magpie/internal/gateway/prompt.go#L1127) |
-| Decls | field_declaration | gemini::req::Tools | [1128](../../magpie/internal/gateway/prompt.go#L1128) |
-| n | var_spec | gemini | [1141](../../magpie/internal/gateway/prompt.go#L1141) |
-| Name | field_declaration | gemini::n | [1142](../../magpie/internal/gateway/prompt.go#L1142) |
-| calibrated | method_declaration |  | [1189](../../magpie/internal/gateway/prompt.go#L1189) |
-| promptCounted | function_declaration |  | [1205](../../magpie/internal/gateway/prompt.go#L1205) |
-| windowFor | function_declaration |  | [1214](../../magpie/internal/gateway/prompt.go#L1214) |
-| inspectPrompt | method_declaration |  | [1229](../../magpie/internal/gateway/prompt.go#L1229) |
-| p | var_spec | inspectPrompt | [1243](../../magpie/internal/gateway/prompt.go#L1243) |
-| convOf | function_declaration |  | [1255](../../magpie/internal/gateway/prompt.go#L1255) |
+| Parts | field_declaration | gemini::req::Contents | [1135](../../magpie/internal/gateway/prompt.go#L1135) |
+| Tools | field_declaration | gemini::req | [1137](../../magpie/internal/gateway/prompt.go#L1137) |
+| Decls | field_declaration | gemini::req::Tools | [1138](../../magpie/internal/gateway/prompt.go#L1138) |
+| n | var_spec | gemini | [1151](../../magpie/internal/gateway/prompt.go#L1151) |
+| Name | field_declaration | gemini::n | [1152](../../magpie/internal/gateway/prompt.go#L1152) |
+| calibrated | method_declaration |  | [1199](../../magpie/internal/gateway/prompt.go#L1199) |
+| promptCounted | function_declaration |  | [1215](../../magpie/internal/gateway/prompt.go#L1215) |
+| windowFor | function_declaration |  | [1224](../../magpie/internal/gateway/prompt.go#L1224) |
+| livePrompt | function_declaration |  | [1241](../../magpie/internal/gateway/prompt.go#L1241) |
+| inspectPrompt | method_declaration |  | [1255](../../magpie/internal/gateway/prompt.go#L1255) |
+| p | var_spec | inspectPrompt | [1269](../../magpie/internal/gateway/prompt.go#L1269) |
+| convOf | function_declaration |  | [1281](../../magpie/internal/gateway/prompt.go#L1281) |

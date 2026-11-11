@@ -4,17 +4,29 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/grok.go) · page 1/1
 
-Source SHA-256: af2042e25bfebcf975842e12b04dec88216151db617910794a7631424df2f9a3
+Source SHA-256: d9596d22fa69968e26ed60d4c7f720adb37b8a159b0f9f1840390f38ca31aadc
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| grokEfforts | var_spec |  | [31](../../magpie/internal/agent/grok.go#L31) |
-| grokModelTable | var_spec |  | [34](../../magpie/internal/agent/grok.go#L34) |
-| grokModelTables | function_declaration |  | [38](../../magpie/internal/agent/grok.go#L38) |
-| out | var_spec | grokModelTables | [39](../../magpie/internal/agent/grok.go#L39) |
-| efforts | var_spec | grokModelTables | [51](../../magpie/internal/agent/grok.go#L51) |
-| grok | function_declaration |  | [65](../../magpie/internal/agent/grok.go#L65) |
-| grokIn | function_declaration |  | [70](../../magpie/internal/agent/grok.go#L70) |
-| grokOwnOptions | function_declaration |  | [246](../../magpie/internal/agent/grok.go#L246) |
-| out | var_spec | grokOwnOptions | [248](../../magpie/internal/agent/grok.go#L248) |
-| noticeGrok | var_spec |  | [298](../../magpie/internal/agent/grok.go#L298) |
+| grokEfforts | var_spec |  | [40](../../magpie/internal/agent/grok.go#L40) |
+| grokModelTable | var_spec |  | [43](../../magpie/internal/agent/grok.go#L43) |
+| grokModelTables | function_declaration |  | [51](../../magpie/internal/agent/grok.go#L51) |
+| out | var_spec | grokModelTables | [52](../../magpie/internal/agent/grok.go#L52) |
+| efforts | var_spec | grokModelTables | [69](../../magpie/internal/agent/grok.go#L69) |
+| grokWindow | function_declaration |  | [90](../../magpie/internal/agent/grok.go#L90) |
+| grokOwnWindow | function_declaration |  | [106](../../magpie/internal/agent/grok.go#L106) |
+| grokWindowsIn | function_declaration |  | [120](../../magpie/internal/agent/grok.go#L120) |
+| doc | var_spec | grokWindowsIn | [128](../../magpie/internal/agent/grok.go#L128) |
+| Model | field_declaration | grokWindowsIn::doc | [129](../../magpie/internal/agent/grok.go#L129) |
+| grokBackend | function_declaration |  | [154](../../magpie/internal/agent/grok.go#L154) |
+| grok | function_declaration |  | [164](../../magpie/internal/agent/grok.go#L164) |
+| grokIn | function_declaration |  | [169](../../magpie/internal/agent/grok.go#L169) |
+| wrote | var_spec | grokIn | [199](../../magpie/internal/agent/grok.go#L199) |
+| grokVia | function_declaration |  | [373](../../magpie/internal/agent/grok.go#L373) |
+| grokCached | type_spec |  | [384](../../magpie/internal/agent/grok.go#L384) |
+| id | field_declaration | grokCached | [384](../../magpie/internal/agent/grok.go#L384) |
+| grokCache | function_declaration |  | [388](../../magpie/internal/agent/grok.go#L388) |
+| out | var_spec | grokCache | [390](../../magpie/internal/agent/grok.go#L390) |
+| grokOwnOptions | function_declaration |  | [402](../../magpie/internal/agent/grok.go#L402) |
+| out | var_spec | grokOwnOptions | [404](../../magpie/internal/agent/grok.go#L404) |
+| noticeGrok | var_spec |  | [451](../../magpie/internal/agent/grok.go#L451) |

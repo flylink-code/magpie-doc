@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/subagents.go) · page 1/1
 
-Source SHA-256: fa25805852f4f9bdec52d1ad9e04436ef3f5e7e315365d8d1ef7f96de726e493
+Source SHA-256: 0ad70fc8de69d7e73b7453985416ec5b31aa8ff26425e1cd47587c2f8b18fe4c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

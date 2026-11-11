@@ -4,32 +4,55 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/block_price.go) · page 1/1
 
-Source SHA-256: 1865fd2c873b14eddd3900bc4b1fb89a48207f714d8e5c1aaf0401e53a94a041
+Source SHA-256: 77fc1301020e3c12f4d3673d21c37e3633a6e9c246e3d6c89eecb1cd61ed59a6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| swapKnown | const_spec |  | [13](../../magpie/internal/usage/block_price.go#L13) |
-| pricedAs | type_spec |  | [17](../../magpie/internal/usage/block_price.go#L17) |
-| provider | field_declaration | pricedAs | [18](../../magpie/internal/usage/block_price.go#L18) |
-| flags | field_declaration | pricedAs | [19](../../magpie/internal/usage/block_price.go#L19) |
-| price | field_declaration | pricedAs | [20](../../magpie/internal/usage/block_price.go#L20) |
-| blockPricer | type_spec |  | [27](../../magpie/internal/usage/block_price.go#L27) |
-| renames | field_declaration | blockPricer | [28](../../magpie/internal/usage/block_price.go#L28) |
-| wires | field_declaration | blockPricer | [29](../../magpie/internal/usage/block_price.go#L29) |
-| price | field_declaration | blockPricer | [30](../../magpie/internal/usage/block_price.go#L30) |
-| by | field_declaration | blockPricer | [31](../../magpie/internal/usage/block_price.go#L31) |
-| agents | field_declaration | blockPricer | [32](../../magpie/internal/usage/block_price.go#L32) |
-| pooled | field_declaration | blockPricer | [33](../../magpie/internal/usage/block_price.go#L33) |
-| pricedRows | var_spec |  | [39](../../magpie/internal/usage/block_price.go#L39) |
-| release | method_declaration |  | [43](../../magpie/internal/usage/block_price.go#L43) |
-| newBlockPricer | function_declaration |  | [50](../../magpie/internal/usage/block_price.go#L50) |
-| as | method_declaration |  | [56](../../magpie/internal/usage/block_price.go#L56) |
-| agent | method_declaration |  | [76](../../magpie/internal/usage/block_price.go#L76) |
-| block | method_declaration |  | [86](../../magpie/internal/usage/block_price.go#L86) |
-| ids | type_spec | block | [119](../../magpie/internal/usage/block_price.go#L119) |
-| id | field_declaration | block::ids | [120](../../magpie/internal/usage/block_price.go#L120) |
-| flags | field_declaration | block::ids | [121](../../magpie/internal/usage/block_price.go#L121) |
-| price | field_declaration | block::ids | [122](../../magpie/internal/usage/block_price.go#L122) |
-| renamedTo | type_spec | block | [130](../../magpie/internal/usage/block_price.go#L130) |
-| to | field_declaration | block::renamedTo | [131](../../magpie/internal/usage/block_price.go#L131) |
-| timed | field_declaration | block::renamedTo | [132](../../magpie/internal/usage/block_price.go#L132) |
+| swapKnown | const_spec |  | [14](../../magpie/internal/usage/block_price.go#L14) |
+| pricedAs | type_spec |  | [18](../../magpie/internal/usage/block_price.go#L18) |
+| provider | field_declaration | pricedAs | [19](../../magpie/internal/usage/block_price.go#L19) |
+| flags | field_declaration | pricedAs | [20](../../magpie/internal/usage/block_price.go#L20) |
+| price | field_declaration | pricedAs | [21](../../magpie/internal/usage/block_price.go#L21) |
+| windows | field_declaration | pricedAs | [24](../../magpie/internal/usage/block_price.go#L24) |
+| blockPricer | type_spec |  | [31](../../magpie/internal/usage/block_price.go#L31) |
+| renames | field_declaration | blockPricer | [32](../../magpie/internal/usage/block_price.go#L32) |
+| wires | field_declaration | blockPricer | [33](../../magpie/internal/usage/block_price.go#L33) |
+| price | field_declaration | blockPricer | [34](../../magpie/internal/usage/block_price.go#L34) |
+| by | field_declaration | blockPricer | [35](../../magpie/internal/usage/block_price.go#L35) |
+| agents | field_declaration | blockPricer | [36](../../magpie/internal/usage/block_price.go#L36) |
+| meta | field_declaration | blockPricer | [40](../../magpie/internal/usage/block_price.go#L40) |
+| shared | field_declaration | blockPricer | [41](../../magpie/internal/usage/block_price.go#L41) |
+| held | field_declaration | blockPricer | [42](../../magpie/internal/usage/block_price.go#L42) |
+| pooled | field_declaration | blockPricer | [43](../../magpie/internal/usage/block_price.go#L43) |
+| pricedRows | var_spec |  | [49](../../magpie/internal/usage/block_price.go#L49) |
+| pricedKey | type_spec |  | [51](../../magpie/internal/usage/block_price.go#L51) |
+| meta | field_declaration | pricedKey | [52](../../magpie/internal/usage/block_price.go#L52) |
+| block | field_declaration | pricedKey | [53](../../magpie/internal/usage/block_price.go#L53) |
+| pricedBlock | type_spec |  | [57](../../magpie/internal/usage/block_price.go#L57) |
+| c | field_declaration | pricedBlock | [58](../../magpie/internal/usage/block_price.go#L58) |
+| rows | field_declaration | pricedBlock | [59](../../magpie/internal/usage/block_price.go#L59) |
+| refs | field_declaration | pricedBlock | [60](../../magpie/internal/usage/block_price.go#L60) |
+| idle | field_declaration | pricedBlock | [61](../../magpie/internal/usage/block_price.go#L61) |
+| pricedLinger | const_spec |  | [70](../../magpie/internal/usage/block_price.go#L70) |
+| sharedPriced | var_spec |  | [80](../../magpie/internal/usage/block_price.go#L80) |
+| blocks | field_declaration | sharedPriced | [82](../../magpie/internal/usage/block_price.go#L82) |
+| sweep | field_declaration | sharedPriced | [83](../../magpie/internal/usage/block_price.go#L83) |
+| sweepPriced | function_declaration |  | [89](../../magpie/internal/usage/block_price.go#L89) |
+| releasePriced | function_declaration |  | [118](../../magpie/internal/usage/block_price.go#L118) |
+| share | method_declaration |  | [126](../../magpie/internal/usage/block_price.go#L126) |
+| release | method_declaration |  | [133](../../magpie/internal/usage/block_price.go#L133) |
+| newBlockPricer | function_declaration |  | [156](../../magpie/internal/usage/block_price.go#L156) |
+| as | method_declaration |  | [163](../../magpie/internal/usage/block_price.go#L163) |
+| agent | method_declaration |  | [184](../../magpie/internal/usage/block_price.go#L184) |
+| block | method_declaration |  | [195](../../magpie/internal/usage/block_price.go#L195) |
+| blockPricing | var_spec |  | [231](../../magpie/internal/usage/block_price.go#L231) |
+| priceBlock | method_declaration |  | [234](../../magpie/internal/usage/block_price.go#L234) |
+| pooled | var_spec | priceBlock | [241](../../magpie/internal/usage/block_price.go#L241) |
+| ids | type_spec | priceBlock | [272](../../magpie/internal/usage/block_price.go#L272) |
+| id | field_declaration | priceBlock::ids | [273](../../magpie/internal/usage/block_price.go#L273) |
+| flags | field_declaration | priceBlock::ids | [274](../../magpie/internal/usage/block_price.go#L274) |
+| price | field_declaration | priceBlock::ids | [275](../../magpie/internal/usage/block_price.go#L275) |
+| windows | field_declaration | priceBlock::ids | [276](../../magpie/internal/usage/block_price.go#L276) |
+| renamedTo | type_spec | priceBlock | [284](../../magpie/internal/usage/block_price.go#L284) |
+| to | field_declaration | priceBlock::renamedTo | [285](../../magpie/internal/usage/block_price.go#L285) |
+| timed | field_declaration | priceBlock::renamedTo | [286](../../magpie/internal/usage/block_price.go#L286) |

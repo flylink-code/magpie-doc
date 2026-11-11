@@ -4,23 +4,24 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/automode.go) · page 1/1
 
-Source SHA-256: 235d2932e2f9b01cfa7113351a339ca7d331d19fd4e9e775ac6c71bc857b299b
+Source SHA-256: a8a4e7766d06b6fa9a60b17a708737ed7f9222ecb75a9ffa289eda11483578ea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| serverReviewBeta | const_spec |  | [42](../../magpie/internal/gateway/automode.go#L42) |
-| isServerReviewBeta | function_declaration |  | [44](../../magpie/internal/gateway/automode.go#L44) |
-| serverReview | method_declaration |  | [56](../../magpie/internal/gateway/automode.go#L56) |
-| AutoModeReviewed | function_declaration |  | [80](../../magpie/internal/gateway/automode.go#L80) |
-| AutoModeReviewable | function_declaration |  | [98](../../magpie/internal/gateway/automode.go#L98) |
-| classifierRoom | const_spec |  | [115](../../magpie/internal/gateway/automode.go#L115) |
-| autoModeClassifier | function_declaration |  | [119](../../magpie/internal/gateway/automode.go#L119) |
-| hasReply | function_declaration |  | [138](../../magpie/internal/gateway/automode.go#L138) |
-| fitAutoModeClassifier | function_declaration |  | [158](../../magpie/internal/gateway/automode.go#L158) |
-| ownEffortField | function_declaration |  | [176](../../magpie/internal/gateway/automode.go#L176) |
-| effortFieldUnknown | var_spec |  | [182](../../magpie/internal/gateway/automode.go#L182) |
-| ownEffortRefused | function_declaration |  | [188](../../magpie/internal/gateway/automode.go#L188) |
-| autoModeClassifierBody | function_declaration |  | [208](../../magpie/internal/gateway/automode.go#L208) |
-| autoModeClassifierAsk | function_declaration |  | [222](../../magpie/internal/gateway/automode.go#L222) |
-| ClassifierStandIn | var_spec |  | [234](../../magpie/internal/gateway/automode.go#L234) |
-| classifierStandIn | function_declaration |  | [240](../../magpie/internal/gateway/automode.go#L240) |
+| serverReviewBeta | const_spec |  | [59](../../magpie/internal/gateway/automode.go#L59) |
+| isServerReviewBeta | function_declaration |  | [61](../../magpie/internal/gateway/automode.go#L61) |
+| serverReview | method_declaration |  | [73](../../magpie/internal/gateway/automode.go#L73) |
+| AutoModeReviewed | function_declaration |  | [97](../../magpie/internal/gateway/automode.go#L97) |
+| AutoModeReviewable | function_declaration |  | [115](../../magpie/internal/gateway/automode.go#L115) |
+| AutoModeAnswered | function_declaration |  | [134](../../magpie/internal/gateway/automode.go#L134) |
+| classifierRoom | const_spec |  | [147](../../magpie/internal/gateway/automode.go#L147) |
+| autoModeClassifier | function_declaration |  | [151](../../magpie/internal/gateway/automode.go#L151) |
+| hasReply | function_declaration |  | [170](../../magpie/internal/gateway/automode.go#L170) |
+| fitAutoModeClassifier | function_declaration |  | [190](../../magpie/internal/gateway/automode.go#L190) |
+| ownEffortField | function_declaration |  | [208](../../magpie/internal/gateway/automode.go#L208) |
+| effortFieldUnknown | var_spec |  | [214](../../magpie/internal/gateway/automode.go#L214) |
+| ownEffortRefused | function_declaration |  | [220](../../magpie/internal/gateway/automode.go#L220) |
+| autoModeClassifierBody | function_declaration |  | [240](../../magpie/internal/gateway/automode.go#L240) |
+| autoModeClassifierAsk | function_declaration |  | [254](../../magpie/internal/gateway/automode.go#L254) |
+| ClassifierStandIn | var_spec |  | [266](../../magpie/internal/gateway/automode.go#L266) |
+| classifierStandIn | function_declaration |  | [272](../../magpie/internal/gateway/automode.go#L272) |

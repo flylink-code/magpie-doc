@@ -4,15 +4,15 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp_signin.go) · page 1/1
 
-Source SHA-256: a39b4155d2d7d54550299b6596c7e7c767eba52ade76876d6fc4aa985dfbee8d
+Source SHA-256: 1984798913c617d83bba859b9c4fa0163e7891cb9a65aff0cff777eae561da11
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [23](../../magpie/internal/library/mcp_signin.go#L23) |
-| relaysAny | function_declaration |  | [36](../../magpie/internal/library/mcp_signin.go#L36) |
-| through | function_declaration |  | [49](../../magpie/internal/library/mcp_signin.go#L49) |
-| gatewayOf | function_declaration |  | [80](../../magpie/internal/library/mcp_signin.go#L80) |
-| errNotHTTP | var_spec |  | [87](../../magpie/internal/library/mcp_signin.go#L87) |
-| SignInServer | function_declaration |  | [91](../../magpie/internal/library/mcp_signin.go#L91) |
-| app | var_spec | SignInServer | [105](../../magpie/internal/library/mcp_signin.go#L105) |
-| SignOutServer | function_declaration |  | [114](../../magpie/internal/library/mcp_signin.go#L114) |
+| relaysAny | function_declaration |  | [37](../../magpie/internal/library/mcp_signin.go#L37) |
+| through | function_declaration |  | [50](../../magpie/internal/library/mcp_signin.go#L50) |
+| gatewayOf | function_declaration |  | [90](../../magpie/internal/library/mcp_signin.go#L90) |
+| errNotHTTP | var_spec |  | [97](../../magpie/internal/library/mcp_signin.go#L97) |
+| SignInServer | function_declaration |  | [101](../../magpie/internal/library/mcp_signin.go#L101) |
+| app | var_spec | SignInServer | [115](../../magpie/internal/library/mcp_signin.go#L115) |
+| SignOutServer | function_declaration |  | [124](../../magpie/internal/library/mcp_signin.go#L124) |

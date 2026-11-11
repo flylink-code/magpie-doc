@@ -4,7 +4,7 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/keep.go) · page 1/1
 
-Source SHA-256: 5ff76203cd5859be9f1edd0885bd7504e57d9fc4df7382bfef08df18eba9974e
+Source SHA-256: 58d50b829236c6e2b609f24976c9c286c4da7275948da547fbc842d611a02819
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -19,6 +19,8 @@ Source SHA-256: 5ff76203cd5859be9f1edd0885bd7504e57d9fc4df7382bfef08df18eba9974e
 | background | field_declaration | keeper | [37](../../magpie/internal/tui/keep.go#L37) |
 | keep | var_spec |  | [40](../../magpie/internal/tui/keep.go#L40) |
 | keepGateway | function_declaration |  | [53](../../magpie/internal/tui/keep.go#L53) |
-| serveInBackground | function_declaration |  | [88](../../magpie/internal/tui/keep.go#L88) |
-| wslHere | function_declaration |  | [114](../../magpie/internal/tui/keep.go#L114) |
-| connected | function_declaration |  | [120](../../magpie/internal/tui/keep.go#L120) |
+| atLoginNote | function_declaration |  | [94](../../magpie/internal/tui/keep.go#L94) |
+| BackgroundLog | function_declaration |  | [100](../../magpie/internal/tui/keep.go#L100) |
+| serveInBackground | function_declaration |  | [104](../../magpie/internal/tui/keep.go#L104) |
+| wslHere | function_declaration |  | [130](../../magpie/internal/tui/keep.go#L130) |
+| connected | function_declaration |  | [136](../../magpie/internal/tui/keep.go#L136) |

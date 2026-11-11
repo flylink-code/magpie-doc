@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/scope_gone.go) · page 1/1
 
-Source SHA-256: 6469479868fd26706ad1c0c7c151aee195c6dbb4cd89a5fd6d52c6b597b5c6ea
+Source SHA-256: 5eb38f86eeeddffd3cf16875422e5b38657d6fd36515b008df7fc85c98d27e41
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

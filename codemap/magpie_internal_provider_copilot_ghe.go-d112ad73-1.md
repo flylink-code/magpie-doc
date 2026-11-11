@@ -4,19 +4,19 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/copilot_ghe.go) · page 1/1
 
-Source SHA-256: 6654669abc66e77c2351b7533e7667b978a937c20d2e3a97388b0c108358f704
+Source SHA-256: bf800937b02df69e70b13cda51dc6f91e58402e478efade97c24cab23026469e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| gheName | var_spec |  | [21](../../magpie/internal/provider/copilot_ghe.go#L21) |
-| CopilotHost | function_declaration |  | [27](../../magpie/internal/provider/copilot_ghe.go#L27) |
-| copilotGHEOrigin | var_spec |  | [48](../../magpie/internal/provider/copilot_ghe.go#L48) |
-| copilotHostOf | function_declaration |  | [57](../../magpie/internal/provider/copilot_ghe.go#L57) |
-| copilotDeviceURL | function_declaration |  | [68](../../magpie/internal/provider/copilot_ghe.go#L68) |
-| copilotOAuthURL | function_declaration |  | [75](../../magpie/internal/provider/copilot_ghe.go#L75) |
-| copilotDevicePage | function_declaration |  | [82](../../magpie/internal/provider/copilot_ghe.go#L82) |
-| copilotTokenURL | function_declaration |  | [89](../../magpie/internal/provider/copilot_ghe.go#L89) |
-| copilotUserURL | function_declaration |  | [96](../../magpie/internal/provider/copilot_ghe.go#L96) |
-| gitHubUserURL | function_declaration |  | [103](../../magpie/internal/provider/copilot_ghe.go#L103) |
-| copilotBaseOf | function_declaration |  | [112](../../magpie/internal/provider/copilot_ghe.go#L112) |
-| apiBase | method_declaration |  | [120](../../magpie/internal/provider/copilot_ghe.go#L120) |
+| gheName | var_spec |  | [22](../../magpie/internal/provider/copilot_ghe.go#L22) |
+| CopilotHost | function_declaration |  | [28](../../magpie/internal/provider/copilot_ghe.go#L28) |
+| copilotGHEOrigin | var_spec |  | [49](../../magpie/internal/provider/copilot_ghe.go#L49) |
+| copilotHostOf | function_declaration |  | [58](../../magpie/internal/provider/copilot_ghe.go#L58) |
+| copilotDeviceURL | function_declaration |  | [69](../../magpie/internal/provider/copilot_ghe.go#L69) |
+| copilotOAuthURL | function_declaration |  | [76](../../magpie/internal/provider/copilot_ghe.go#L76) |
+| copilotDevicePage | function_declaration |  | [83](../../magpie/internal/provider/copilot_ghe.go#L83) |
+| copilotTokenURL | function_declaration |  | [90](../../magpie/internal/provider/copilot_ghe.go#L90) |
+| copilotUserURL | function_declaration |  | [97](../../magpie/internal/provider/copilot_ghe.go#L97) |
+| gitHubUserURL | function_declaration |  | [104](../../magpie/internal/provider/copilot_ghe.go#L104) |
+| copilotBaseOf | function_declaration |  | [113](../../magpie/internal/provider/copilot_ghe.go#L113) |
+| apiBase | method_declaration |  | [121](../../magpie/internal/provider/copilot_ghe.go#L121) |

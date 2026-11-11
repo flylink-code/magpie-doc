@@ -4,20 +4,29 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/pages.go) · page 2/2
 
-Source SHA-256: b7689fe27835f077c5479517eda53b485f89eb09c9d2f2448cb949b6dfad2854
+Source SHA-256: 6caa3df825f6c7775adbbf7d115d9783b0596711e6de3be5dc6e42952be6b4a1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| usageBlock | method_declaration |  | [1243](../../magpie/internal/tui/pages.go#L1243) |
-| sb | var_spec | usageBlock | [1264](../../magpie/internal/tui/pages.go#L1264) |
-| quotaLines | function_declaration |  | [1310](../../magpie/internal/tui/pages.go#L1310) |
-| cells | var_spec | quotaLines | [1377](../../magpie/internal/tui/pages.go#L1377) |
-| quotaCell | function_declaration |  | [1420](../../magpie/internal/tui/pages.go#L1420) |
-| cells | const_spec | quotaCell | [1429](../../magpie/internal/tui/pages.go#L1429) |
-| at | var_spec | quotaCell | [1447](../../magpie/internal/tui/pages.go#L1447) |
-| until | function_declaration |  | [1460](../../magpie/internal/tui/pages.go#L1460) |
-| openAsk | method_declaration |  | [1474](../../magpie/internal/tui/pages.go#L1474) |
-| updateAsk | method_declaration |  | [1480](../../magpie/internal/tui/pages.go#L1480) |
-| cmd | var_spec | updateAsk | [1493](../../magpie/internal/tui/pages.go#L1493) |
-| viewAsk | method_declaration |  | [1498](../../magpie/internal/tui/pages.go#L1498) |
-| b | var_spec | viewAsk | [1499](../../magpie/internal/tui/pages.go#L1499) |
+| costCncy | var_spec |  | [1211](../../magpie/internal/tui/pages.go#L1211) |
+| costRateVal | var_spec |  | [1212](../../magpie/internal/tui/pages.go#L1212) |
+| costCurrency | function_declaration |  | [1215](../../magpie/internal/tui/pages.go#L1215) |
+| fmtCost | function_declaration |  | [1232](../../magpie/internal/tui/pages.go#L1232) |
+| credits | function_declaration |  | [1246](../../magpie/internal/tui/pages.go#L1246) |
+| bars | var_spec |  | [1253](../../magpie/internal/tui/pages.go#L1253) |
+| viewUsage | method_declaration |  | [1255](../../magpie/internal/tui/pages.go#L1255) |
+| b | var_spec | viewUsage | [1257](../../magpie/internal/tui/pages.go#L1257) |
+| tabs | var_spec | viewUsage | [1260](../../magpie/internal/tui/pages.go#L1260) |
+| usageBlock | method_declaration |  | [1305](../../magpie/internal/tui/pages.go#L1305) |
+| sb | var_spec | usageBlock | [1326](../../magpie/internal/tui/pages.go#L1326) |
+| quotaLines | function_declaration |  | [1372](../../magpie/internal/tui/pages.go#L1372) |
+| cells | var_spec | quotaLines | [1440](../../magpie/internal/tui/pages.go#L1440) |
+| quotaCell | function_declaration |  | [1483](../../magpie/internal/tui/pages.go#L1483) |
+| cells | const_spec | quotaCell | [1492](../../magpie/internal/tui/pages.go#L1492) |
+| at | var_spec | quotaCell | [1510](../../magpie/internal/tui/pages.go#L1510) |
+| until | function_declaration |  | [1523](../../magpie/internal/tui/pages.go#L1523) |
+| openAsk | method_declaration |  | [1537](../../magpie/internal/tui/pages.go#L1537) |
+| updateAsk | method_declaration |  | [1543](../../magpie/internal/tui/pages.go#L1543) |
+| cmd | var_spec | updateAsk | [1556](../../magpie/internal/tui/pages.go#L1556) |
+| viewAsk | method_declaration |  | [1561](../../magpie/internal/tui/pages.go#L1561) |
+| b | var_spec | viewAsk | [1562](../../magpie/internal/tui/pages.go#L1562) |

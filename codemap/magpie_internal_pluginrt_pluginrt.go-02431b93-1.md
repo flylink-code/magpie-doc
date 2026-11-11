@@ -4,7 +4,7 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/pluginrt/pluginrt.go) · page 1/1
 
-Source SHA-256: 3559b5d7288184ddc674fe061ffbf5abd276ea9b7c527d2e147d882429adc627
+Source SHA-256: 3da93b2a942af419cd01a884937f279b2191cf600b1a3877ae81716f8fe02ea7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -20,63 +20,65 @@ Source SHA-256: 3559b5d7288184ddc674fe061ffbf5abd276ea9b7c527d2e147d882429adc627
 | InUse | field_declaration | Manifest | [52](../../magpie/internal/pluginrt/pluginrt.go#L52) |
 | Apply | field_declaration | Manifest | [55](../../magpie/internal/pluginrt/pluginrt.go#L55) |
 | Parts | field_declaration | Manifest | [59](../../magpie/internal/pluginrt/pluginrt.go#L59) |
-| Defaults | field_declaration | Manifest | [61](../../magpie/internal/pluginrt/pluginrt.go#L61) |
-| Settings | field_declaration | Manifest | [65](../../magpie/internal/pluginrt/pluginrt.go#L65) |
-| Client | field_declaration | Manifest | [70](../../magpie/internal/pluginrt/pluginrt.go#L70) |
-| schema | field_declaration | Manifest | [71](../../magpie/internal/pluginrt/pluginrt.go#L71) |
-| Schema | method_declaration |  | [75](../../magpie/internal/pluginrt/pluginrt.go#L75) |
-| Part | type_spec |  | [78](../../magpie/internal/pluginrt/pluginrt.go#L78) |
-| Slot | field_declaration | Part | [78](../../magpie/internal/pluginrt/pluginrt.go#L78) |
-| State | type_spec |  | [81](../../magpie/internal/pluginrt/pluginrt.go#L81) |
-| Off | const_spec |  | [84](../../magpie/internal/pluginrt/pluginrt.go#L84) |
-| Pending | const_spec |  | [85](../../magpie/internal/pluginrt/pluginrt.go#L85) |
-| Active | const_spec |  | [86](../../magpie/internal/pluginrt/pluginrt.go#L86) |
-| Failed | const_spec |  | [87](../../magpie/internal/pluginrt/pluginrt.go#L87) |
-| Disposed | const_spec |  | [88](../../magpie/internal/pluginrt/pluginrt.go#L88) |
-| Ctx | type_spec |  | [93](../../magpie/internal/pluginrt/pluginrt.go#L93) |
-| ID | field_declaration | Ctx | [94](../../magpie/internal/pluginrt/pluginrt.go#L94) |
-| Config | field_declaration | Ctx | [95](../../magpie/internal/pluginrt/pluginrt.go#L95) |
-| rt | field_declaration | Ctx | [96](../../magpie/internal/pluginrt/pluginrt.go#L96) |
-| disposes | field_declaration | Ctx | [97](../../magpie/internal/pluginrt/pluginrt.go#L97) |
-| parts | field_declaration | Ctx | [98](../../magpie/internal/pluginrt/pluginrt.go#L98) |
-| provided | field_declaration | Ctx | [99](../../magpie/internal/pluginrt/pluginrt.go#L99) |
-| OnDispose | method_declaration |  | [103](../../magpie/internal/pluginrt/pluginrt.go#L103) |
-| Contribute | method_declaration |  | [106](../../magpie/internal/pluginrt/pluginrt.go#L106) |
-| Provide | method_declaration |  | [112](../../magpie/internal/pluginrt/pluginrt.go#L112) |
-| Service | method_declaration |  | [119](../../magpie/internal/pluginrt/pluginrt.go#L119) |
-| regMu | var_spec |  | [122](../../magpie/internal/pluginrt/pluginrt.go#L122) |
-| registry | var_spec |  | [123](../../magpie/internal/pluginrt/pluginrt.go#L123) |
-| Register | function_declaration |  | [128](../../magpie/internal/pluginrt/pluginrt.go#L128) |
-| defs | var_spec | Register | [138](../../magpie/internal/pluginrt/pluginrt.go#L138) |
-| Registered | function_declaration |  | [155](../../magpie/internal/pluginrt/pluginrt.go#L155) |
-| Status | type_spec |  | [167](../../magpie/internal/pluginrt/pluginrt.go#L167) |
-| ID | field_declaration | Status | [168](../../magpie/internal/pluginrt/pluginrt.go#L168) |
-| State | field_declaration | Status | [169](../../magpie/internal/pluginrt/pluginrt.go#L169) |
-| Why | field_declaration | Status | [172](../../magpie/internal/pluginrt/pluginrt.go#L172) |
-| Parts | field_declaration | Status | [173](../../magpie/internal/pluginrt/pluginrt.go#L173) |
-| running | type_spec |  | [176](../../magpie/internal/pluginrt/pluginrt.go#L176) |
-| m | field_declaration | running | [177](../../magpie/internal/pluginrt/pluginrt.go#L177) |
-| state | field_declaration | running | [178](../../magpie/internal/pluginrt/pluginrt.go#L178) |
-| why | field_declaration | running | [179](../../magpie/internal/pluginrt/pluginrt.go#L179) |
-| ctx | field_declaration | running | [180](../../magpie/internal/pluginrt/pluginrt.go#L180) |
-| wanted | field_declaration | running | [181](../../magpie/internal/pluginrt/pluginrt.go#L181) |
-| Runtime | type_spec |  | [185](../../magpie/internal/pluginrt/pluginrt.go#L185) |
-| mu | field_declaration | Runtime | [186](../../magpie/internal/pluginrt/pluginrt.go#L186) |
-| plugins | field_declaration | Runtime | [187](../../magpie/internal/pluginrt/pluginrt.go#L187) |
-| order | field_declaration | Runtime | [188](../../magpie/internal/pluginrt/pluginrt.go#L188) |
-| services | field_declaration | Runtime | [189](../../magpie/internal/pluginrt/pluginrt.go#L189) |
-| reconciled | field_declaration | Runtime | [191](../../magpie/internal/pluginrt/pluginrt.go#L191) |
-| New | function_declaration |  | [195](../../magpie/internal/pluginrt/pluginrt.go#L195) |
-| Reconcile | method_declaration |  | [211](../../magpie/internal/pluginrt/pluginrt.go#L211) |
-| needsGoing | method_declaration |  | [281](../../magpie/internal/pluginrt/pluginrt.go#L281) |
-| missing | method_declaration |  | [294](../../magpie/internal/pluginrt/pluginrt.go#L294) |
-| out | var_spec | missing | [295](../../magpie/internal/pluginrt/pluginrt.go#L295) |
-| satisfied | method_declaration |  | [304](../../magpie/internal/pluginrt/pluginrt.go#L304) |
-| apply | method_declaration |  | [308](../../magpie/internal/pluginrt/pluginrt.go#L308) |
-| dispose | method_declaration |  | [334](../../magpie/internal/pluginrt/pluginrt.go#L334) |
-| undo | function_declaration |  | [342](../../magpie/internal/pluginrt/pluginrt.go#L342) |
-| Stop | method_declaration |  | [357](../../magpie/internal/pluginrt/pluginrt.go#L357) |
-| Statuses | method_declaration |  | [366](../../magpie/internal/pluginrt/pluginrt.go#L366) |
-| Active | method_declaration |  | [382](../../magpie/internal/pluginrt/pluginrt.go#L382) |
-| Compatible | function_declaration |  | [391](../../magpie/internal/pluginrt/pluginrt.go#L391) |
-| version | function_declaration |  | [404](../../magpie/internal/pluginrt/pluginrt.go#L404) |
+| SetAt | field_declaration | Manifest | [65](../../magpie/internal/pluginrt/pluginrt.go#L65) |
+| Opens | field_declaration | Manifest | [69](../../magpie/internal/pluginrt/pluginrt.go#L69) |
+| Defaults | field_declaration | Manifest | [71](../../magpie/internal/pluginrt/pluginrt.go#L71) |
+| Settings | field_declaration | Manifest | [75](../../magpie/internal/pluginrt/pluginrt.go#L75) |
+| Client | field_declaration | Manifest | [80](../../magpie/internal/pluginrt/pluginrt.go#L80) |
+| schema | field_declaration | Manifest | [81](../../magpie/internal/pluginrt/pluginrt.go#L81) |
+| Schema | method_declaration |  | [85](../../magpie/internal/pluginrt/pluginrt.go#L85) |
+| Part | type_spec |  | [88](../../magpie/internal/pluginrt/pluginrt.go#L88) |
+| Slot | field_declaration | Part | [88](../../magpie/internal/pluginrt/pluginrt.go#L88) |
+| State | type_spec |  | [91](../../magpie/internal/pluginrt/pluginrt.go#L91) |
+| Off | const_spec |  | [94](../../magpie/internal/pluginrt/pluginrt.go#L94) |
+| Pending | const_spec |  | [95](../../magpie/internal/pluginrt/pluginrt.go#L95) |
+| Active | const_spec |  | [96](../../magpie/internal/pluginrt/pluginrt.go#L96) |
+| Failed | const_spec |  | [97](../../magpie/internal/pluginrt/pluginrt.go#L97) |
+| Disposed | const_spec |  | [98](../../magpie/internal/pluginrt/pluginrt.go#L98) |
+| Ctx | type_spec |  | [103](../../magpie/internal/pluginrt/pluginrt.go#L103) |
+| ID | field_declaration | Ctx | [104](../../magpie/internal/pluginrt/pluginrt.go#L104) |
+| Config | field_declaration | Ctx | [105](../../magpie/internal/pluginrt/pluginrt.go#L105) |
+| rt | field_declaration | Ctx | [106](../../magpie/internal/pluginrt/pluginrt.go#L106) |
+| disposes | field_declaration | Ctx | [107](../../magpie/internal/pluginrt/pluginrt.go#L107) |
+| parts | field_declaration | Ctx | [108](../../magpie/internal/pluginrt/pluginrt.go#L108) |
+| provided | field_declaration | Ctx | [109](../../magpie/internal/pluginrt/pluginrt.go#L109) |
+| OnDispose | method_declaration |  | [113](../../magpie/internal/pluginrt/pluginrt.go#L113) |
+| Contribute | method_declaration |  | [116](../../magpie/internal/pluginrt/pluginrt.go#L116) |
+| Provide | method_declaration |  | [122](../../magpie/internal/pluginrt/pluginrt.go#L122) |
+| Service | method_declaration |  | [129](../../magpie/internal/pluginrt/pluginrt.go#L129) |
+| regMu | var_spec |  | [132](../../magpie/internal/pluginrt/pluginrt.go#L132) |
+| registry | var_spec |  | [133](../../magpie/internal/pluginrt/pluginrt.go#L133) |
+| Register | function_declaration |  | [138](../../magpie/internal/pluginrt/pluginrt.go#L138) |
+| defs | var_spec | Register | [148](../../magpie/internal/pluginrt/pluginrt.go#L148) |
+| Registered | function_declaration |  | [165](../../magpie/internal/pluginrt/pluginrt.go#L165) |
+| Status | type_spec |  | [177](../../magpie/internal/pluginrt/pluginrt.go#L177) |
+| ID | field_declaration | Status | [178](../../magpie/internal/pluginrt/pluginrt.go#L178) |
+| State | field_declaration | Status | [179](../../magpie/internal/pluginrt/pluginrt.go#L179) |
+| Why | field_declaration | Status | [182](../../magpie/internal/pluginrt/pluginrt.go#L182) |
+| Parts | field_declaration | Status | [183](../../magpie/internal/pluginrt/pluginrt.go#L183) |
+| running | type_spec |  | [186](../../magpie/internal/pluginrt/pluginrt.go#L186) |
+| m | field_declaration | running | [187](../../magpie/internal/pluginrt/pluginrt.go#L187) |
+| state | field_declaration | running | [188](../../magpie/internal/pluginrt/pluginrt.go#L188) |
+| why | field_declaration | running | [189](../../magpie/internal/pluginrt/pluginrt.go#L189) |
+| ctx | field_declaration | running | [190](../../magpie/internal/pluginrt/pluginrt.go#L190) |
+| wanted | field_declaration | running | [191](../../magpie/internal/pluginrt/pluginrt.go#L191) |
+| Runtime | type_spec |  | [195](../../magpie/internal/pluginrt/pluginrt.go#L195) |
+| mu | field_declaration | Runtime | [196](../../magpie/internal/pluginrt/pluginrt.go#L196) |
+| plugins | field_declaration | Runtime | [197](../../magpie/internal/pluginrt/pluginrt.go#L197) |
+| order | field_declaration | Runtime | [198](../../magpie/internal/pluginrt/pluginrt.go#L198) |
+| services | field_declaration | Runtime | [199](../../magpie/internal/pluginrt/pluginrt.go#L199) |
+| reconciled | field_declaration | Runtime | [201](../../magpie/internal/pluginrt/pluginrt.go#L201) |
+| New | function_declaration |  | [205](../../magpie/internal/pluginrt/pluginrt.go#L205) |
+| Reconcile | method_declaration |  | [221](../../magpie/internal/pluginrt/pluginrt.go#L221) |
+| needsGoing | method_declaration |  | [291](../../magpie/internal/pluginrt/pluginrt.go#L291) |
+| missing | method_declaration |  | [304](../../magpie/internal/pluginrt/pluginrt.go#L304) |
+| out | var_spec | missing | [305](../../magpie/internal/pluginrt/pluginrt.go#L305) |
+| satisfied | method_declaration |  | [314](../../magpie/internal/pluginrt/pluginrt.go#L314) |
+| apply | method_declaration |  | [318](../../magpie/internal/pluginrt/pluginrt.go#L318) |
+| dispose | method_declaration |  | [344](../../magpie/internal/pluginrt/pluginrt.go#L344) |
+| undo | function_declaration |  | [352](../../magpie/internal/pluginrt/pluginrt.go#L352) |
+| Stop | method_declaration |  | [367](../../magpie/internal/pluginrt/pluginrt.go#L367) |
+| Statuses | method_declaration |  | [376](../../magpie/internal/pluginrt/pluginrt.go#L376) |
+| Active | method_declaration |  | [392](../../magpie/internal/pluginrt/pluginrt.go#L392) |
+| Compatible | function_declaration |  | [401](../../magpie/internal/pluginrt/pluginrt.go#L401) |
+| version | function_declaration |  | [414](../../magpie/internal/pluginrt/pluginrt.go#L414) |

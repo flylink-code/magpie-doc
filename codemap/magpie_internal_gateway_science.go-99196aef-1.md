@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/science.go) · page 1/1
 
-Source SHA-256: f9ad674be43a559ec0ad76a7d9ed106fe8bfeaabd9c78b322b9ae01a0f2b4b55
+Source SHA-256: 4173a9066b446f5f85501b27b7a9c313fa060f512733f8ecbf01dce868e22323
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

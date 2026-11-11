@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/transcript_opencode.go) · page 1/1
 
-Source SHA-256: 4dd3047efae9d072d0bfba9f59e99b869c570c6b6b780e738889810d66368cf4
+Source SHA-256: f4931f35257198f971d99fb1e52c027e91d6f0d58bc63bc798f0fc1803ff48d8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

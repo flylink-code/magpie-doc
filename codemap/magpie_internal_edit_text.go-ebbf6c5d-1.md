@@ -4,16 +4,16 @@
 
 [Module](magpie-storage.md) · [Source](../../magpie/internal/edit/text.go) · page 1/1
 
-Source SHA-256: 9d1034c4dea68bfd8ee62abc95c6f3ad1901549efc87588d62302c809b59cf32
+Source SHA-256: ae7f1af464f6193afc97b8299ae3d4f3ff86289656c1389dfe391092ea2ef64e
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| tomlTable | var_spec |  | [16](../../magpie/internal/edit/text.go#L16) |
-| tomlKV | var_spec |  | [17](../../magpie/internal/edit/text.go#L17) |
-| setLine | function_declaration |  | [22](../../magpie/internal/edit/text.go#L22) |
-| unquote | function_declaration |  | [52](../../magpie/internal/edit/text.go#L52) |
-| tomlValue | function_declaration |  | [74](../../magpie/internal/edit/text.go#L74) |
-| toString | function_declaration |  | [84](../../magpie/internal/edit/text.go#L84) |
-| splitLines | function_declaration |  | [98](../../magpie/internal/edit/text.go#L98) |
-| joinLinesLike | function_declaration |  | [109](../../magpie/internal/edit/text.go#L109) |
-| joinLines | function_declaration |  | [117](../../magpie/internal/edit/text.go#L117) |
+| tomlTable | var_spec |  | [18](../../magpie/internal/edit/text.go#L18) |
+| tomlKV | var_spec |  | [19](../../magpie/internal/edit/text.go#L19) |
+| setLine | function_declaration |  | [24](../../magpie/internal/edit/text.go#L24) |
+| unquote | function_declaration |  | [54](../../magpie/internal/edit/text.go#L54) |
+| tomlValue | function_declaration |  | [76](../../magpie/internal/edit/text.go#L76) |
+| toString | function_declaration |  | [86](../../magpie/internal/edit/text.go#L86) |
+| splitLines | function_declaration |  | [100](../../magpie/internal/edit/text.go#L100) |
+| joinLinesLike | function_declaration |  | [111](../../magpie/internal/edit/text.go#L111) |
+| joinLines | function_declaration |  | [119](../../magpie/internal/edit/text.go#L119) |

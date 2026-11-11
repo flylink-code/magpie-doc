@@ -4,30 +4,37 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_expiring.go) · page 1/1
 
-Source SHA-256: 1f7e645156c7a44f7a5f7e4240f666f88628782b4494f3395972beb932d89bce
+Source SHA-256: 64b9df52d3a25490109a536a0285694ecf3846345b24b390a7bbfef011f14110
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| resetExpiryLead | var_spec |  | [33](../../magpie/internal/provider/codex_expiring.go#L33) |
-| resetExpiryNear | var_spec |  | [36](../../magpie/internal/provider/codex_expiring.go#L36) |
-| resetExpiryClose | var_spec |  | [41](../../magpie/internal/provider/codex_expiring.go#L41) |
-| resetExpiryWatch | var_spec |  | [45](../../magpie/internal/provider/codex_expiring.go#L45) |
-| resetExpiryFar | var_spec |  | [48](../../magpie/internal/provider/codex_expiring.go#L48) |
-| expiring | var_spec |  | [51](../../magpie/internal/provider/codex_expiring.go#L51) |
-| expiringResets | type_spec |  | [53](../../magpie/internal/provider/codex_expiring.go#L53) |
-| next | field_declaration | expiringResets | [55](../../magpie/internal/provider/codex_expiring.go#L55) |
-| until | field_declaration | expiringResets | [56](../../magpie/internal/provider/codex_expiring.go#L56) |
-| check | method_declaration |  | [65](../../magpie/internal/provider/codex_expiring.go#L65) |
-| nextResetLook | function_declaration |  | [121](../../magpie/internal/provider/codex_expiring.go#L121) |
-| expiringResetSpent | function_declaration |  | [137](../../magpie/internal/provider/codex_expiring.go#L137) |
-| resetRunsOut | function_declaration |  | [156](../../magpie/internal/provider/codex_expiring.go#L156) |
-| windowsUsed | function_declaration |  | [165](../../magpie/internal/provider/codex_expiring.go#L165) |
-| minTime | function_declaration |  | [174](../../magpie/internal/provider/codex_expiring.go#L174) |
-| SpendExpiringCodexResets | function_declaration |  | [183](../../magpie/internal/provider/codex_expiring.go#L183) |
-| who | var_spec | SpendExpiringCodexResets | [194](../../magpie/internal/provider/codex_expiring.go#L194) |
-| windows | var_spec | SpendExpiringCodexResets | [196](../../magpie/internal/provider/codex_expiring.go#L196) |
-| resets | var_spec | SpendExpiringCodexResets | [197](../../magpie/internal/provider/codex_expiring.go#L197) |
-| err | var_spec | SpendExpiringCodexResets | [198](../../magpie/internal/provider/codex_expiring.go#L198) |
-| stillExpiring | var_spec |  | [224](../../magpie/internal/provider/codex_expiring.go#L224) |
-| spendExpiringNow | function_declaration |  | [231](../../magpie/internal/provider/codex_expiring.go#L231) |
-| KeepResetsFromRunningOut | function_declaration |  | [243](../../magpie/internal/provider/codex_expiring.go#L243) |
+| resetLead | function_declaration |  | [38](../../magpie/internal/provider/codex_expiring.go#L38) |
+| resetExpiryNear | function_declaration |  | [46](../../magpie/internal/provider/codex_expiring.go#L46) |
+| resetExpiryClose | var_spec |  | [55](../../magpie/internal/provider/codex_expiring.go#L55) |
+| resetExpiryWatch | var_spec |  | [59](../../magpie/internal/provider/codex_expiring.go#L59) |
+| resetExpiryFar | var_spec |  | [62](../../magpie/internal/provider/codex_expiring.go#L62) |
+| resetExpiryRetry | var_spec |  | [66](../../magpie/internal/provider/codex_expiring.go#L66) |
+| resetExpiryLast | var_spec |  | [70](../../magpie/internal/provider/codex_expiring.go#L70) |
+| errResetsUntilUnread | var_spec |  | [75](../../magpie/internal/provider/codex_expiring.go#L75) |
+| expiringResetDetailsWait | var_spec |  | [79](../../magpie/internal/provider/codex_expiring.go#L79) |
+| expiring | var_spec |  | [81](../../magpie/internal/provider/codex_expiring.go#L81) |
+| expiringResets | type_spec |  | [83](../../magpie/internal/provider/codex_expiring.go#L83) |
+| next | field_declaration | expiringResets | [85](../../magpie/internal/provider/codex_expiring.go#L85) |
+| until | field_declaration | expiringResets | [86](../../magpie/internal/provider/codex_expiring.go#L86) |
+| pass | field_declaration | expiringResets | [89](../../magpie/internal/provider/codex_expiring.go#L89) |
+| check | method_declaration |  | [98](../../magpie/internal/provider/codex_expiring.go#L98) |
+| nextResetLook | function_declaration |  | [170](../../magpie/internal/provider/codex_expiring.go#L170) |
+| retryResetLook | function_declaration |  | [186](../../magpie/internal/provider/codex_expiring.go#L186) |
+| wake | method_declaration |  | [199](../../magpie/internal/provider/codex_expiring.go#L199) |
+| expiringResetSpent | function_declaration |  | [220](../../magpie/internal/provider/codex_expiring.go#L220) |
+| resetRunsOut | function_declaration |  | [239](../../magpie/internal/provider/codex_expiring.go#L239) |
+| windowsUsed | function_declaration |  | [248](../../magpie/internal/provider/codex_expiring.go#L248) |
+| minTime | function_declaration |  | [257](../../magpie/internal/provider/codex_expiring.go#L257) |
+| SpendExpiringCodexResets | function_declaration |  | [266](../../magpie/internal/provider/codex_expiring.go#L266) |
+| who | var_spec | SpendExpiringCodexResets | [278](../../magpie/internal/provider/codex_expiring.go#L278) |
+| windows | var_spec | SpendExpiringCodexResets | [280](../../magpie/internal/provider/codex_expiring.go#L280) |
+| resets | var_spec | SpendExpiringCodexResets | [281](../../magpie/internal/provider/codex_expiring.go#L281) |
+| err | var_spec | SpendExpiringCodexResets | [282](../../magpie/internal/provider/codex_expiring.go#L282) |
+| stillExpiring | var_spec |  | [317](../../magpie/internal/provider/codex_expiring.go#L317) |
+| spendExpiringNow | function_declaration |  | [328](../../magpie/internal/provider/codex_expiring.go#L328) |
+| KeepResetsFromRunningOut | function_declaration |  | [348](../../magpie/internal/provider/codex_expiring.go#L348) |

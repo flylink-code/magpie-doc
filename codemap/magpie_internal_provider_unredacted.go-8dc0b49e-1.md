@@ -4,9 +4,9 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/unredacted.go) · page 1/1
 
-Source SHA-256: 5ec247b3ca07bf109dc9dc349c6f13bfaa6bf838c6096825ffd79ebd0937eefe
+Source SHA-256: e0b429a9b58ffeeb3c943e2f1079c253e8625d46d1b4afc9445a968b9669ed51
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SkipsRedaction | method_declaration |  | [10](../../magpie/internal/provider/unredacted.go#L10) |
-| LocalAddresses | function_declaration |  | [20](../../magpie/internal/provider/unredacted.go#L20) |
+| SkipsRedaction | method_declaration |  | [21](../../magpie/internal/provider/unredacted.go#L21) |
+| LocalHost | function_declaration |  | [41](../../magpie/internal/provider/unredacted.go#L41) |

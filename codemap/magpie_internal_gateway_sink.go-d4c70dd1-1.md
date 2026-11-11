@@ -4,21 +4,22 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/sink.go) · page 1/1
 
-Source SHA-256: 96866fff91aa38e4169210544948762019b022143bcf15588ae5a590d730dc1c
+Source SHA-256: 054c3344295bfbe48f4220bc23568b73e0569936460f1500ae9b28ccdae08ed7
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| sinking | type_spec |  | [30](../../magpie/internal/gateway/sink.go#L30) |
-| at | field_declaration | sinking | [31](../../magpie/internal/gateway/sink.go#L31) |
-| n | field_declaration | sinking | [32](../../magpie/internal/gateway/sink.go#L32) |
-| sunk | var_spec |  | [35](../../magpie/internal/gateway/sink.go#L35) |
-| m | field_declaration | sunk | [37](../../magpie/internal/gateway/sink.go#L37) |
-| n | field_declaration | sunk | [38](../../magpie/internal/gateway/sink.go#L38) |
-| sink | function_declaration |  | [42](../../magpie/internal/gateway/sink.go#L42) |
-| unsink | function_declaration |  | [52](../../magpie/internal/gateway/sink.go#L52) |
-| sunkAt | function_declaration |  | [59](../../magpie/internal/gateway/sink.go#L59) |
-| sinks | function_declaration |  | [69](../../magpie/internal/gateway/sink.go#L69) |
-| sinkOrder | function_declaration |  | [76](../../magpie/internal/gateway/sink.go#L76) |
-| sinkLast | function_declaration |  | [102](../../magpie/internal/gateway/sink.go#L102) |
-| sinkPlanned | function_declaration |  | [116](../../magpie/internal/gateway/sink.go#L116) |
-| markSunk | function_declaration |  | [131](../../magpie/internal/gateway/sink.go#L131) |
+| sinking | type_spec |  | [31](../../magpie/internal/gateway/sink.go#L31) |
+| at | field_declaration | sinking | [32](../../magpie/internal/gateway/sink.go#L32) |
+| n | field_declaration | sinking | [33](../../magpie/internal/gateway/sink.go#L33) |
+| sunk | var_spec |  | [36](../../magpie/internal/gateway/sink.go#L36) |
+| m | field_declaration | sunk | [38](../../magpie/internal/gateway/sink.go#L38) |
+| n | field_declaration | sunk | [39](../../magpie/internal/gateway/sink.go#L39) |
+| sink | function_declaration |  | [43](../../magpie/internal/gateway/sink.go#L43) |
+| unsink | function_declaration |  | [53](../../magpie/internal/gateway/sink.go#L53) |
+| unsinkAll | function_declaration |  | [61](../../magpie/internal/gateway/sink.go#L61) |
+| sunkAt | function_declaration |  | [74](../../magpie/internal/gateway/sink.go#L74) |
+| sinks | function_declaration |  | [87](../../magpie/internal/gateway/sink.go#L87) |
+| sinkOrder | function_declaration |  | [94](../../magpie/internal/gateway/sink.go#L94) |
+| sinkLast | function_declaration |  | [120](../../magpie/internal/gateway/sink.go#L120) |
+| sinkPlanned | function_declaration |  | [134](../../magpie/internal/gateway/sink.go#L134) |
+| markSunk | function_declaration |  | [149](../../magpie/internal/gateway/sink.go#L149) |

@@ -4,9 +4,8 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/cline_pin.go) · page 1/1
 
-Source SHA-256: 04148cb9a81e277f9e98533354bdd19f2d96b3969c16e798dd5f4ed8f55a868b
+Source SHA-256: 84d8e304b1a61d3614efdd59b0632c1aa17f612d8bfea8181641f16f239282fb
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| clinePin | function_declaration |  | [23](../../magpie/internal/gateway/cline_pin.go#L23) |
-| chatImages | function_declaration |  | [58](../../magpie/internal/gateway/cline_pin.go#L58) |
+| clinePin | function_declaration |  | [20](../../magpie/internal/gateway/cline_pin.go#L20) |

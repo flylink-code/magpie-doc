@@ -4,13 +4,13 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/opencode_endpoints.go) · page 1/1
 
-Source SHA-256: 269c20657d0d016fb5a3ea956b87076ca36a8103ff4813820244bb9f83044cdb
+Source SHA-256: 7e2b265d447831008346e2b34f1df993736d5d50149d3b36725c61816621826c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | openCodeRoot | function_declaration |  | [15](../../magpie/internal/provider/opencode_endpoints.go#L15) |
 | openCodeGateway | function_declaration |  | [38](../../magpie/internal/provider/opencode_endpoints.go#L38) |
-| openCodeGemini | function_declaration |  | [64](../../magpie/internal/provider/opencode_endpoints.go#L64) |
-| openCodeEndpoints | method_declaration |  | [85](../../magpie/internal/provider/opencode_endpoints.go#L85) |
-| openCodeCatalogs | method_declaration |  | [107](../../magpie/internal/provider/opencode_endpoints.go#L107) |
-| NamedOnlyOn | method_declaration |  | [122](../../magpie/internal/provider/opencode_endpoints.go#L122) |
+| openCodeGemini | function_declaration |  | [68](../../magpie/internal/provider/opencode_endpoints.go#L68) |
+| openCodeEndpoints | method_declaration |  | [89](../../magpie/internal/provider/opencode_endpoints.go#L89) |
+| openCodeCatalogs | method_declaration |  | [111](../../magpie/internal/provider/opencode_endpoints.go#L111) |
+| NamedOnlyOn | method_declaration |  | [126](../../magpie/internal/provider/opencode_endpoints.go#L126) |

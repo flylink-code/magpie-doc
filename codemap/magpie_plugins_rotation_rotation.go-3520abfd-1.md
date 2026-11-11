@@ -4,9 +4,9 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/rotation/rotation.go) · page 1/1
 
-Source SHA-256: ca5dfe8061b9d55bb4316cd8807750077f54f74072c628f2df4e4ce978490324
+Source SHA-256: 63c47a1f56759621a1ef2a199d971aa332538f98d0b371dcb45300c516e7daa0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| init | function_declaration |  | [18](../../magpie/plugins/rotation/rotation.go#L18) |
-| inUse | function_declaration |  | [36](../../magpie/plugins/rotation/rotation.go#L36) |
+| init | function_declaration |  | [19](../../magpie/plugins/rotation/rotation.go#L19) |
+| inUse | function_declaration |  | [38](../../magpie/plugins/rotation/rotation.go#L38) |

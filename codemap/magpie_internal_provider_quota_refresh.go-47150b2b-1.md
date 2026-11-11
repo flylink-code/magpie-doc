@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/quota_refresh.go) · page 1/1
 
-Source SHA-256: 78b25ae22c619fc77ab8cacb0d0006b004b0e93cae99898aacde218a6e098981
+Source SHA-256: 26900c9e674d14cb04cff6795f8aae79ce99a60fae20999f7cb583f6156ebc6c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -22,8 +22,11 @@ Source SHA-256: 78b25ae22c619fc77ab8cacb0d0006b004b0e93cae99898aacde218a6e098981
 | out | var_spec | refreshLogins | [68](../../magpie/internal/provider/quota_refresh.go#L68) |
 | forgetLoginReading | function_declaration |  | [81](../../magpie/internal/provider/quota_refresh.go#L81) |
 | RefreshUsage | function_declaration |  | [96](../../magpie/internal/provider/quota_refresh.go#L96) |
-| RefreshReport | function_declaration |  | [107](../../magpie/internal/provider/quota_refresh.go#L107) |
-| refreshCards | function_declaration |  | [116](../../magpie/internal/provider/quota_refresh.go#L116) |
-| wg | var_spec | refreshCards | [147](../../magpie/internal/provider/quota_refresh.go#L147) |
-| cacheCards | function_declaration |  | [170](../../magpie/internal/provider/quota_refresh.go#L170) |
-| mergeCards | function_declaration |  | [189](../../magpie/internal/provider/quota_refresh.go#L189) |
+| RefreshEach | function_declaration |  | [107](../../magpie/internal/provider/quota_refresh.go#L107) |
+| wg | var_spec | RefreshEach | [108](../../magpie/internal/provider/quota_refresh.go#L108) |
+| RefreshReport | function_declaration |  | [127](../../magpie/internal/provider/quota_refresh.go#L127) |
+| refreshCards | function_declaration |  | [136](../../magpie/internal/provider/quota_refresh.go#L136) |
+| wg | var_spec | refreshCards | [167](../../magpie/internal/provider/quota_refresh.go#L167) |
+| keepCardRead | function_declaration |  | [192](../../magpie/internal/provider/quota_refresh.go#L192) |
+| cacheCards | function_declaration |  | [212](../../magpie/internal/provider/quota_refresh.go#L212) |
+| mergeCards | function_declaration |  | [231](../../magpie/internal/provider/quota_refresh.go#L231) |

@@ -4,20 +4,20 @@
 
 [Module](magpie-sys.md) · [Source](../../magpie/internal/proc/listing.go) · page 1/1
 
-Source SHA-256: e34c4b9421592e10e23740642c88a5d54843ec550ecd01236aa190c41a9eaf1a
+Source SHA-256: 2d85285514f85b9663665fa91f7da20c071d48e2489ed002539c9ad256475076
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| listingRead | var_spec |  | [30](../../magpie/internal/proc/listing.go#L30) |
-| execLookPath | var_spec |  | [31](../../magpie/internal/proc/listing.go#L31) |
-| listings | var_spec |  | [34](../../magpie/internal/proc/listing.go#L34) |
-| m | field_declaration | listings | [36](../../magpie/internal/proc/listing.go#L36) |
-| listing | type_spec |  | [39](../../magpie/internal/proc/listing.go#L39) |
-| mod | field_declaration | listing | [40](../../magpie/internal/proc/listing.go#L40) |
-| checked | field_declaration | listing | [41](../../magpie/internal/proc/listing.go#L41) |
-| names | field_declaration | listing | [44](../../magpie/internal/proc/listing.go#L44) |
-| mayBeIn | function_declaration |  | [51](../../magpie/internal/proc/listing.go#L51) |
-| listed | function_declaration |  | [77](../../magpie/internal/proc/listing.go#L77) |
-| pathDirs | function_declaration |  | [133](../../magpie/internal/proc/listing.go#L133) |
-| lookPath | function_declaration |  | [152](../../magpie/internal/proc/listing.go#L152) |
-| forgetListings | function_declaration |  | [160](../../magpie/internal/proc/listing.go#L160) |
+| listingRead | var_spec |  | [31](../../magpie/internal/proc/listing.go#L31) |
+| execLookPath | var_spec |  | [32](../../magpie/internal/proc/listing.go#L32) |
+| listings | var_spec |  | [35](../../magpie/internal/proc/listing.go#L35) |
+| m | field_declaration | listings | [37](../../magpie/internal/proc/listing.go#L37) |
+| listing | type_spec |  | [40](../../magpie/internal/proc/listing.go#L40) |
+| mod | field_declaration | listing | [41](../../magpie/internal/proc/listing.go#L41) |
+| checked | field_declaration | listing | [42](../../magpie/internal/proc/listing.go#L42) |
+| names | field_declaration | listing | [45](../../magpie/internal/proc/listing.go#L45) |
+| mayBeIn | function_declaration |  | [52](../../magpie/internal/proc/listing.go#L52) |
+| listed | function_declaration |  | [80](../../magpie/internal/proc/listing.go#L80) |
+| pathDirs | function_declaration |  | [140](../../magpie/internal/proc/listing.go#L140) |
+| lookPath | function_declaration |  | [161](../../magpie/internal/proc/listing.go#L161) |
+| forgetListings | function_declaration |  | [177](../../magpie/internal/proc/listing.go#L177) |

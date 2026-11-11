@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/zoocode.go) · page 1/1
 
-Source SHA-256: 796853d276c550b85eb9a68fdf6a3b56166e722e400547b34d1d664ec80bb90b
+Source SHA-256: b5f15eeffb095ac324b47ab66d2ceee0fba749e746ca1231d81998ef3b136a1b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -12,8 +12,8 @@ Source SHA-256: 796853d276c550b85eb9a68fdf6a3b56166e722e400547b34d1d664ec80bb90b
 | zooExtension | const_spec |  | [56](../../magpie/internal/agent/zoocode.go#L56) |
 | noticeZoo | var_spec |  | [58](../../magpie/internal/agent/zoocode.go#L58) |
 | zooCode | function_declaration |  | [60](../../magpie/internal/agent/zoocode.go#L60) |
-| zooCodeImportPath | function_declaration |  | [70](../../magpie/internal/agent/zoocode.go#L70) |
-| zooCodeAt | function_declaration |  | [76](../../magpie/internal/agent/zoocode.go#L76) |
-| zooCodeInstalled | function_declaration |  | [213](../../magpie/internal/agent/zoocode.go#L213) |
-| zooCodeProfiles | function_declaration |  | [229](../../magpie/internal/agent/zoocode.go#L229) |
-| zooCodeModelInfo | function_declaration |  | [251](../../magpie/internal/agent/zoocode.go#L251) |
+| zooCodeImportPath | function_declaration |  | [72](../../magpie/internal/agent/zoocode.go#L72) |
+| zooCodeAt | function_declaration |  | [78](../../magpie/internal/agent/zoocode.go#L78) |
+| zooCodeInstalled | function_declaration |  | [215](../../magpie/internal/agent/zoocode.go#L215) |
+| zooCodeProfiles | function_declaration |  | [231](../../magpie/internal/agent/zoocode.go#L231) |
+| zooCodeModelInfo | function_declaration |  | [253](../../magpie/internal/agent/zoocode.go#L253) |

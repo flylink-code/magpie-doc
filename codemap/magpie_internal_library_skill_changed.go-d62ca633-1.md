@@ -4,19 +4,25 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skill_changed.go) · page 1/1
 
-Source SHA-256: a0d317dab7921a7f36da3e0d7c32edc775607e8586a8a00ec6b61e1d79cd3aef
+Source SHA-256: 2ecece22805f86add7aedae66a13ac7cb1c12ea7a5e62d9c7c356bffbbf253b3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| EditedError | type_spec |  | [26](../../magpie/internal/library/skill_changed.go#L26) |
-| Name | field_declaration | EditedError | [26](../../magpie/internal/library/skill_changed.go#L26) |
-| Error | method_declaration |  | [28](../../magpie/internal/library/skill_changed.go#L28) |
-| editedError | function_declaration |  | [37](../../magpie/internal/library/skill_changed.go#L37) |
-| edits | var_spec |  | [48](../../magpie/internal/library/skill_changed.go#L48) |
-| m | field_declaration | edits | [50](../../magpie/internal/library/skill_changed.go#L50) |
-| editMemo | type_spec |  | [53](../../magpie/internal/library/skill_changed.go#L53) |
-| at | field_declaration | editMemo | [54](../../magpie/internal/library/skill_changed.go#L54) |
-| hash | field_declaration | editMemo | [55](../../magpie/internal/library/skill_changed.go#L55) |
-| libraryHash | function_declaration |  | [60](../../magpie/internal/library/skill_changed.go#L60) |
-| editState | method_declaration |  | [88](../../magpie/internal/library/skill_changed.go#L88) |
-| keepReplaced | function_declaration |  | [134](../../magpie/internal/library/skill_changed.go#L134) |
+| installedDirs | var_spec |  | [34](../../magpie/internal/library/skill_changed.go#L34) |
+| lockFiles | var_spec |  | [46](../../magpie/internal/library/skill_changed.go#L46) |
+| fromInstall | function_declaration |  | [59](../../magpie/internal/library/skill_changed.go#L59) |
+| ownHash | function_declaration |  | [75](../../magpie/internal/library/skill_changed.go#L75) |
+| EditedError | type_spec |  | [80](../../magpie/internal/library/skill_changed.go#L80) |
+| Name | field_declaration | EditedError | [80](../../magpie/internal/library/skill_changed.go#L80) |
+| Error | method_declaration |  | [82](../../magpie/internal/library/skill_changed.go#L82) |
+| editedError | function_declaration |  | [91](../../magpie/internal/library/skill_changed.go#L91) |
+| edits | var_spec |  | [102](../../magpie/internal/library/skill_changed.go#L102) |
+| m | field_declaration | edits | [104](../../magpie/internal/library/skill_changed.go#L104) |
+| editMemo | type_spec |  | [107](../../magpie/internal/library/skill_changed.go#L107) |
+| at | field_declaration | editMemo | [108](../../magpie/internal/library/skill_changed.go#L108) |
+| hash | field_declaration | editMemo | [109](../../magpie/internal/library/skill_changed.go#L109) |
+| libraryHash | function_declaration |  | [114](../../magpie/internal/library/skill_changed.go#L114) |
+| editState | method_declaration |  | [142](../../magpie/internal/library/skill_changed.go#L142) |
+| onlyInstalled | function_declaration |  | [194](../../magpie/internal/library/skill_changed.go#L194) |
+| carryInstalled | function_declaration |  | [210](../../magpie/internal/library/skill_changed.go#L210) |
+| keepReplaced | function_declaration |  | [245](../../magpie/internal/library/skill_changed.go#L245) |

@@ -4,14 +4,14 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/zcode_device.go) · page 1/1
 
-Source SHA-256: c9a10f2dc3a0613b83a9331f2887487bf4d1ea3b9397a7125f271d3ed3c8552c
+Source SHA-256: 5e4045f0ee60e7c98e3a98178207f0017654927e5251548c748e57317add714f
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| zcodeDevices | var_spec |  | [30](../../magpie/internal/provider/zcode_device.go#L30) |
-| m | field_declaration | zcodeDevices | [32](../../magpie/internal/provider/zcode_device.go#L32) |
-| zcodeUUIDRe | var_spec |  | [35](../../magpie/internal/provider/zcode_device.go#L35) |
-| zcodeDevicePath | function_declaration |  | [37](../../magpie/internal/provider/zcode_device.go#L37) |
-| zcodeDeviceMid | function_declaration |  | [41](../../magpie/internal/provider/zcode_device.go#L41) |
-| b | var_spec | zcodeDeviceMid | [54](../../magpie/internal/provider/zcode_device.go#L54) |
-| zcodeDeviceHeader | function_declaration |  | [69](../../magpie/internal/provider/zcode_device.go#L69) |
+| zcodeDevices | var_spec |  | [31](../../magpie/internal/provider/zcode_device.go#L31) |
+| m | field_declaration | zcodeDevices | [33](../../magpie/internal/provider/zcode_device.go#L33) |
+| zcodeUUIDRe | var_spec |  | [36](../../magpie/internal/provider/zcode_device.go#L36) |
+| zcodeDevicePath | function_declaration |  | [38](../../magpie/internal/provider/zcode_device.go#L38) |
+| zcodeDeviceMid | function_declaration |  | [42](../../magpie/internal/provider/zcode_device.go#L42) |
+| b | var_spec | zcodeDeviceMid | [55](../../magpie/internal/provider/zcode_device.go#L55) |
+| zcodeDeviceHeader | function_declaration |  | [70](../../magpie/internal/provider/zcode_device.go#L70) |

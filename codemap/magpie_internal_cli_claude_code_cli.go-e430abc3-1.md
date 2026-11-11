@@ -4,20 +4,26 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/claude_code_cli.go) · page 1/1
 
-Source SHA-256: 2eebdd52e88ea623caf9a717c18e02b5f1e7cfdb4c739bf2625d94df3fcf90f2
+Source SHA-256: eb9bb780754f609a90d92a0506041d6d78b129abb7948c4e5cd0d7ece136a20a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| claudeCodeUsage | const_spec |  | [17](../../magpie/internal/cli/claude_code_cli.go#L17) |
-| claudeCodeCmd | function_declaration |  | [26](../../magpie/internal/cli/claude_code_cli.go#L26) |
-| claudeCodeRuns | function_declaration |  | [67](../../magpie/internal/cli/claude_code_cli.go#L67) |
-| claudeCode | var_spec |  | [109](../../magpie/internal/cli/claude_code_cli.go#L109) |
-| own | field_declaration | claudeCode | [110](../../magpie/internal/cli/claude_code_cli.go#L110) |
-| downloaded | field_declaration | claudeCode | [111](../../magpie/internal/cli/claude_code_cli.go#L111) |
-| latest | field_declaration | claudeCode | [112](../../magpie/internal/cli/claude_code_cli.go#L112) |
-| install | field_declaration | claudeCode | [113](../../magpie/internal/cli/claude_code_cli.go#L113) |
-| claudeCodeStatus | function_declaration |  | [121](../../magpie/internal/cli/claude_code_cli.go#L121) |
-| installClaudeCode | function_declaration |  | [142](../../magpie/internal/cli/claude_code_cli.go#L142) |
-| answer | var_spec | installClaudeCode | [165](../../magpie/internal/cli/claude_code_cli.go#L165) |
-| mb | function_declaration |  | [191](../../magpie/internal/cli/claude_code_cli.go#L191) |
-| isTerminal | function_declaration |  | [193](../../magpie/internal/cli/claude_code_cli.go#L193) |
+| claudeCodeUsage | const_spec |  | [20](../../magpie/internal/cli/claude_code_cli.go#L20) |
+| claudeCodeCmd | function_declaration |  | [29](../../magpie/internal/cli/claude_code_cli.go#L29) |
+| claudeCodeRuns | function_declaration |  | [70](../../magpie/internal/cli/claude_code_cli.go#L70) |
+| printClaudeRuns | function_declaration |  | [118](../../magpie/internal/cli/claude_code_cli.go#L118) |
+| tail | var_spec | printClaudeRuns | [143](../../magpie/internal/cli/claude_code_cli.go#L143) |
+| runSpan | function_declaration |  | [169](../../magpie/internal/cli/claude_code_cli.go#L169) |
+| fetchClaudeRuns | function_declaration |  | [186](../../magpie/internal/cli/claude_code_cli.go#L186) |
+| out | var_spec | fetchClaudeRuns | [187](../../magpie/internal/cli/claude_code_cli.go#L187) |
+| claudeCode | var_spec |  | [210](../../magpie/internal/cli/claude_code_cli.go#L210) |
+| own | field_declaration | claudeCode | [211](../../magpie/internal/cli/claude_code_cli.go#L211) |
+| downloaded | field_declaration | claudeCode | [212](../../magpie/internal/cli/claude_code_cli.go#L212) |
+| latest | field_declaration | claudeCode | [213](../../magpie/internal/cli/claude_code_cli.go#L213) |
+| install | field_declaration | claudeCode | [214](../../magpie/internal/cli/claude_code_cli.go#L214) |
+| gateway | field_declaration | claudeCode | [215](../../magpie/internal/cli/claude_code_cli.go#L215) |
+| claudeCodeStatus | function_declaration |  | [224](../../magpie/internal/cli/claude_code_cli.go#L224) |
+| installClaudeCode | function_declaration |  | [245](../../magpie/internal/cli/claude_code_cli.go#L245) |
+| answer | var_spec | installClaudeCode | [268](../../magpie/internal/cli/claude_code_cli.go#L268) |
+| mb | function_declaration |  | [294](../../magpie/internal/cli/claude_code_cli.go#L294) |
+| isTerminal | function_declaration |  | [296](../../magpie/internal/cli/claude_code_cli.go#L296) |

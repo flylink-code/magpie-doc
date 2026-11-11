@@ -4,9 +4,9 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/plugins/warmups/warmups.go) · page 1/1
 
-Source SHA-256: d0564cb79182ab9f561e4af382ef8fd7fe52175d5c6b04ecc4106b74584b70ba
+Source SHA-256: a3730fb4926ca36a9efc039e574f122cc91cf147f582e6883603695ecee0501b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | init | function_declaration |  | [11](../../magpie/plugins/warmups/warmups.go#L11) |
-| count | function_declaration |  | [33](../../magpie/plugins/warmups/warmups.go#L33) |
+| count | function_declaration |  | [34](../../magpie/plugins/warmups/warmups.go#L34) |

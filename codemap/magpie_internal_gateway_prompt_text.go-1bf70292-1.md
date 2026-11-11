@@ -4,43 +4,53 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/prompt_text.go) · page 1/1
 
-Source SHA-256: 67a29010edf1318ac6a8e66e5378421894941db08690a7274a3eedacfe740e32
+Source SHA-256: d862c1c688ab3f803ca6d01aac6b4a65b3c3bd5d5c31dce9856ae8b8ba128799
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| promptBodies | const_spec |  | [27](../../magpie/internal/gateway/prompt_text.go#L27) |
-| promptBodyMax | const_spec |  | [29](../../magpie/internal/gateway/prompt_text.go#L29) |
-| promptBodiesMax | const_spec |  | [32](../../magpie/internal/gateway/prompt_text.go#L32) |
-| keptBody | type_spec |  | [36](../../magpie/internal/gateway/prompt_text.go#L36) |
-| id | field_declaration | keptBody | [37](../../magpie/internal/gateway/prompt_text.go#L37) |
-| from | field_declaration | keptBody | [38](../../magpie/internal/gateway/prompt_text.go#L38) |
-| body | field_declaration | keptBody | [39](../../magpie/internal/gateway/prompt_text.go#L39) |
-| keepBody | method_declaration |  | [44](../../magpie/internal/gateway/prompt_text.go#L44) |
-| keptBodyOf | method_declaration |  | [63](../../magpie/internal/gateway/prompt_text.go#L63) |
-| PromptEntry | type_spec |  | [77](../../magpie/internal/gateway/prompt_text.go#L77) |
-| Name | field_declaration | PromptEntry | [78](../../magpie/internal/gateway/prompt_text.go#L78) |
-| Tag | field_declaration | PromptEntry | [79](../../magpie/internal/gateway/prompt_text.go#L79) |
-| N | field_declaration | PromptEntry | [80](../../magpie/internal/gateway/prompt_text.go#L80) |
-| Tokens | field_declaration | PromptEntry | [81](../../magpie/internal/gateway/prompt_text.go#L81) |
-| Pieces | field_declaration | PromptEntry | [82](../../magpie/internal/gateway/prompt_text.go#L82) |
-| PromptText | type_spec |  | [87](../../magpie/internal/gateway/prompt_text.go#L87) |
-| ID | field_declaration | PromptText | [88](../../magpie/internal/gateway/prompt_text.go#L88) |
-| Kind | field_declaration | PromptText | [89](../../magpie/internal/gateway/prompt_text.go#L89) |
-| Items | field_declaration | PromptText | [90](../../magpie/internal/gateway/prompt_text.go#L90) |
-| Kept | field_declaration | PromptText | [92](../../magpie/internal/gateway/prompt_text.go#L92) |
-| PromptKept | const_spec |  | [96](../../magpie/internal/gateway/prompt_text.go#L96) |
-| PromptText | method_declaration |  | [102](../../magpie/internal/gateway/prompt_text.go#L102) |
-| boolInt | function_declaration |  | [159](../../magpie/internal/gateway/prompt_text.go#L159) |
-| read | method_declaration |  | [168](../../magpie/internal/gateway/prompt_text.go#L168) |
-| s | var_spec | read | [178](../../magpie/internal/gateway/prompt_text.go#L178) |
-| out | var_spec | read | [182](../../magpie/internal/gateway/prompt_text.go#L182) |
-| out | var_spec | read | [190](../../magpie/internal/gateway/prompt_text.go#L190) |
-| promptImageSrc | function_declaration |  | [205](../../magpie/internal/gateway/prompt_text.go#L205) |
-| s | var_spec | promptImageSrc | [206](../../magpie/internal/gateway/prompt_text.go#L206) |
-| src | var_spec | promptImageSrc | [210](../../magpie/internal/gateway/prompt_text.go#L210) |
-| URL | field_declaration | promptImageSrc::src | [211](../../magpie/internal/gateway/prompt_text.go#L211) |
-| MediaType | field_declaration | promptImageSrc::src | [212](../../magpie/internal/gateway/prompt_text.go#L212) |
-| MimeType | field_declaration | promptImageSrc::src | [213](../../magpie/internal/gateway/prompt_text.go#L213) |
-| Data | field_declaration | promptImageSrc::src | [214](../../magpie/internal/gateway/prompt_text.go#L214) |
-| dataImage | function_declaration |  | [231](../../magpie/internal/gateway/prompt_text.go#L231) |
-| promptPieces | function_declaration |  | [252](../../magpie/internal/gateway/prompt_text.go#L252) |
+| promptBodies | const_spec |  | [30](../../magpie/internal/gateway/prompt_text.go#L30) |
+| promptBodyMax | const_spec |  | [32](../../magpie/internal/gateway/prompt_text.go#L32) |
+| promptBodiesMax | const_spec |  | [35](../../magpie/internal/gateway/prompt_text.go#L35) |
+| keptBody | type_spec |  | [39](../../magpie/internal/gateway/prompt_text.go#L39) |
+| id | field_declaration | keptBody | [40](../../magpie/internal/gateway/prompt_text.go#L40) |
+| from | field_declaration | keptBody | [41](../../magpie/internal/gateway/prompt_text.go#L41) |
+| body | field_declaration | keptBody | [42](../../magpie/internal/gateway/prompt_text.go#L42) |
+| plain | field_declaration | keptBody | [44](../../magpie/internal/gateway/prompt_text.go#L44) |
+| keepBody | method_declaration |  | [49](../../magpie/internal/gateway/prompt_text.go#L49) |
+| maskedBody | method_declaration |  | [71](../../magpie/internal/gateway/prompt_text.go#L71) |
+| keptBodyOf | method_declaration |  | [82](../../magpie/internal/gateway/prompt_text.go#L82) |
+| PromptEntry | type_spec |  | [96](../../magpie/internal/gateway/prompt_text.go#L96) |
+| Name | field_declaration | PromptEntry | [97](../../magpie/internal/gateway/prompt_text.go#L97) |
+| Tag | field_declaration | PromptEntry | [98](../../magpie/internal/gateway/prompt_text.go#L98) |
+| N | field_declaration | PromptEntry | [99](../../magpie/internal/gateway/prompt_text.go#L99) |
+| Tokens | field_declaration | PromptEntry | [100](../../magpie/internal/gateway/prompt_text.go#L100) |
+| Pieces | field_declaration | PromptEntry | [101](../../magpie/internal/gateway/prompt_text.go#L101) |
+| PromptText | type_spec |  | [106](../../magpie/internal/gateway/prompt_text.go#L106) |
+| ID | field_declaration | PromptText | [107](../../magpie/internal/gateway/prompt_text.go#L107) |
+| Kind | field_declaration | PromptText | [108](../../magpie/internal/gateway/prompt_text.go#L108) |
+| Items | field_declaration | PromptText | [109](../../magpie/internal/gateway/prompt_text.go#L109) |
+| Kept | field_declaration | PromptText | [111](../../magpie/internal/gateway/prompt_text.go#L111) |
+| From | field_declaration | PromptText | [115](../../magpie/internal/gateway/prompt_text.go#L115) |
+| PromptKept | const_spec |  | [119](../../magpie/internal/gateway/prompt_text.go#L119) |
+| PromptText | method_declaration |  | [125](../../magpie/internal/gateway/prompt_text.go#L125) |
+| ArchivedPromptText | function_declaration |  | [158](../../magpie/internal/gateway/prompt_text.go#L158) |
+| lastArchived | var_spec |  | [173](../../magpie/internal/gateway/prompt_text.go#L173) |
+| id | field_declaration | lastArchived | [175](../../magpie/internal/gateway/prompt_text.go#L175) |
+| sum | field_declaration | lastArchived | [176](../../magpie/internal/gateway/prompt_text.go#L176) |
+| body | field_declaration | lastArchived | [177](../../magpie/internal/gateway/prompt_text.go#L177) |
+| archivedMasked | function_declaration |  | [180](../../magpie/internal/gateway/prompt_text.go#L180) |
+| promptTextOf | function_declaration |  | [207](../../magpie/internal/gateway/prompt_text.go#L207) |
+| boolInt | function_declaration |  | [256](../../magpie/internal/gateway/prompt_text.go#L256) |
+| read | method_declaration |  | [265](../../magpie/internal/gateway/prompt_text.go#L265) |
+| s | var_spec | read | [275](../../magpie/internal/gateway/prompt_text.go#L275) |
+| out | var_spec | read | [279](../../magpie/internal/gateway/prompt_text.go#L279) |
+| out | var_spec | read | [287](../../magpie/internal/gateway/prompt_text.go#L287) |
+| promptImageSrc | function_declaration |  | [302](../../magpie/internal/gateway/prompt_text.go#L302) |
+| s | var_spec | promptImageSrc | [303](../../magpie/internal/gateway/prompt_text.go#L303) |
+| src | var_spec | promptImageSrc | [307](../../magpie/internal/gateway/prompt_text.go#L307) |
+| URL | field_declaration | promptImageSrc::src | [308](../../magpie/internal/gateway/prompt_text.go#L308) |
+| MediaType | field_declaration | promptImageSrc::src | [309](../../magpie/internal/gateway/prompt_text.go#L309) |
+| MimeType | field_declaration | promptImageSrc::src | [310](../../magpie/internal/gateway/prompt_text.go#L310) |
+| Data | field_declaration | promptImageSrc::src | [311](../../magpie/internal/gateway/prompt_text.go#L311) |
+| dataImage | function_declaration |  | [328](../../magpie/internal/gateway/prompt_text.go#L328) |
+| promptPieces | function_declaration |  | [356](../../magpie/internal/gateway/prompt_text.go#L356) |

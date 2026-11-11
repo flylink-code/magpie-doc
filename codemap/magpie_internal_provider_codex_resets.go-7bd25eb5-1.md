@@ -4,55 +4,63 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/codex_resets.go) · page 1/1
 
-Source SHA-256: 525bcd308f187f30f14f4448d5ac91837f0a7bbd5ff6c3704acb1a1b0e65153e
+Source SHA-256: 4e6592e129d19a5abf7d1a22d05ea4d43b83f15019f95ce73b71e66b0c12106b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ResetCredits | type_spec |  | [26](../../magpie/internal/provider/codex_resets.go#L26) |
-| Count | field_declaration | ResetCredits | [27](../../magpie/internal/provider/codex_resets.go#L27) |
-| Until | field_declaration | ResetCredits | [28](../../magpie/internal/provider/codex_resets.go#L28) |
-| ByWindow | field_declaration | ResetCredits | [32](../../magpie/internal/provider/codex_resets.go#L32) |
-| FiveHour | field_declaration | ResetCredits | [33](../../magpie/internal/provider/codex_resets.go#L33) |
-| Weekly | field_declaration | ResetCredits | [34](../../magpie/internal/provider/codex_resets.go#L34) |
-| Team | field_declaration | ResetCredits | [36](../../magpie/internal/provider/codex_resets.go#L36) |
-| Each | field_declaration | ResetCredits | [41](../../magpie/internal/provider/codex_resets.go#L41) |
-| ResetCard | type_spec |  | [46](../../magpie/internal/provider/codex_resets.go#L46) |
-| Until | field_declaration | ResetCard | [47](../../magpie/internal/provider/codex_resets.go#L47) |
-| Window | field_declaration | ResetCard | [48](../../magpie/internal/provider/codex_resets.go#L48) |
-| sortResetCards | function_declaration |  | [53](../../magpie/internal/provider/codex_resets.go#L53) |
-| Words | method_declaration |  | [69](../../magpie/internal/provider/codex_resets.go#L69) |
-| out | var_spec | Words | [79](../../magpie/internal/provider/codex_resets.go#L79) |
-| codexResetDetailsTimeout | var_spec |  | [91](../../magpie/internal/provider/codex_resets.go#L91) |
-| codexResetCreditsWire | type_spec |  | [93](../../magpie/internal/provider/codex_resets.go#L93) |
-| AvailableCount | field_declaration | codexResetCreditsWire | [94](../../magpie/internal/provider/codex_resets.go#L94) |
-| Credits | field_declaration | codexResetCreditsWire | [95](../../magpie/internal/provider/codex_resets.go#L95) |
-| ID | field_declaration | codexResetCreditsWire::Credits | [96](../../magpie/internal/provider/codex_resets.go#L96) |
-| ResetType | field_declaration | codexResetCreditsWire::Credits | [97](../../magpie/internal/provider/codex_resets.go#L97) |
-| Status | field_declaration | codexResetCreditsWire::Credits | [98](../../magpie/internal/provider/codex_resets.go#L98) |
-| GrantedAt | field_declaration | codexResetCreditsWire::Credits | [99](../../magpie/internal/provider/codex_resets.go#L99) |
-| ExpiresAt | field_declaration | codexResetCreditsWire::Credits | [100](../../magpie/internal/provider/codex_resets.go#L100) |
-| first | method_declaration |  | [107](../../magpie/internal/provider/codex_resets.go#L107) |
-| t | var_spec | first | [112](../../magpie/internal/provider/codex_resets.go#L112) |
-| soonest | method_declaration |  | [127](../../magpie/internal/provider/codex_resets.go#L127) |
-| each | method_declaration |  | [133](../../magpie/internal/provider/codex_resets.go#L133) |
-| out | var_spec | each | [134](../../magpie/internal/provider/codex_resets.go#L134) |
-| r | var_spec | each | [139](../../magpie/internal/provider/codex_resets.go#L139) |
-| codexResets | function_declaration |  | [154](../../magpie/internal/provider/codex_resets.go#L154) |
-| w | var_spec | codexResets | [161](../../magpie/internal/provider/codex_resets.go#L161) |
-| ResetOutcome | type_spec |  | [177](../../magpie/internal/provider/codex_resets.go#L177) |
-| Code | field_declaration | ResetOutcome | [178](../../magpie/internal/provider/codex_resets.go#L178) |
-| Windows | field_declaration | ResetOutcome | [179](../../magpie/internal/provider/codex_resets.go#L179) |
-| Text | method_declaration |  | [183](../../magpie/internal/provider/codex_resets.go#L183) |
-| UseCodexReset | function_declaration |  | [206](../../magpie/internal/provider/codex_resets.go#L206) |
-| useCodexReset | function_declaration |  | [211](../../magpie/internal/provider/codex_resets.go#L211) |
-| w | var_spec | useCodexReset | [220](../../magpie/internal/provider/codex_resets.go#L220) |
-| codexUserToken | function_declaration |  | [248](../../magpie/internal/provider/codex_resets.go#L248) |
-| codexUserSign | function_declaration |  | [254](../../magpie/internal/provider/codex_resets.go#L254) |
-| codexUserWindows | function_declaration |  | [279](../../magpie/internal/provider/codex_resets.go#L279) |
-| consumeCodexReset | function_declaration |  | [290](../../magpie/internal/provider/codex_resets.go#L290) |
-| out | var_spec | consumeCodexReset | [291](../../magpie/internal/provider/codex_resets.go#L291) |
-| wire | var_spec | consumeCodexReset | [312](../../magpie/internal/provider/codex_resets.go#L312) |
-| Code | field_declaration | consumeCodexReset::wire | [313](../../magpie/internal/provider/codex_resets.go#L313) |
-| WindowsReset | field_declaration | consumeCodexReset::wire | [314](../../magpie/internal/provider/codex_resets.go#L314) |
-| newRedeemID | function_declaration |  | [323](../../magpie/internal/provider/codex_resets.go#L323) |
-| b | var_spec | newRedeemID | [324](../../magpie/internal/provider/codex_resets.go#L324) |
+| ResetCredits | type_spec |  | [27](../../magpie/internal/provider/codex_resets.go#L27) |
+| Count | field_declaration | ResetCredits | [28](../../magpie/internal/provider/codex_resets.go#L28) |
+| Until | field_declaration | ResetCredits | [29](../../magpie/internal/provider/codex_resets.go#L29) |
+| ByWindow | field_declaration | ResetCredits | [33](../../magpie/internal/provider/codex_resets.go#L33) |
+| FiveHour | field_declaration | ResetCredits | [34](../../magpie/internal/provider/codex_resets.go#L34) |
+| Weekly | field_declaration | ResetCredits | [35](../../magpie/internal/provider/codex_resets.go#L35) |
+| Team | field_declaration | ResetCredits | [37](../../magpie/internal/provider/codex_resets.go#L37) |
+| Each | field_declaration | ResetCredits | [42](../../magpie/internal/provider/codex_resets.go#L42) |
+| untilUnread | field_declaration | ResetCredits | [46](../../magpie/internal/provider/codex_resets.go#L46) |
+| ResetCard | type_spec |  | [53](../../magpie/internal/provider/codex_resets.go#L53) |
+| Until | field_declaration | ResetCard | [54](../../magpie/internal/provider/codex_resets.go#L54) |
+| Window | field_declaration | ResetCard | [55](../../magpie/internal/provider/codex_resets.go#L55) |
+| ID | field_declaration | ResetCard | [56](../../magpie/internal/provider/codex_resets.go#L56) |
+| sortResetCards | function_declaration |  | [61](../../magpie/internal/provider/codex_resets.go#L61) |
+| Words | method_declaration |  | [77](../../magpie/internal/provider/codex_resets.go#L77) |
+| out | var_spec | Words | [87](../../magpie/internal/provider/codex_resets.go#L87) |
+| codexResetDetailsTimeout | var_spec |  | [101](../../magpie/internal/provider/codex_resets.go#L101) |
+| resetDetailsWaitKey | type_spec |  | [103](../../magpie/internal/provider/codex_resets.go#L103) |
+| withResetDetailsWait | function_declaration |  | [107](../../magpie/internal/provider/codex_resets.go#L107) |
+| codexResetCreditsWire | type_spec |  | [111](../../magpie/internal/provider/codex_resets.go#L111) |
+| AvailableCount | field_declaration | codexResetCreditsWire | [112](../../magpie/internal/provider/codex_resets.go#L112) |
+| Credits | field_declaration | codexResetCreditsWire | [113](../../magpie/internal/provider/codex_resets.go#L113) |
+| codexResetCreditsWireCredit | type_spec |  | [116](../../magpie/internal/provider/codex_resets.go#L116) |
+| ID | field_declaration | codexResetCreditsWireCredit | [117](../../magpie/internal/provider/codex_resets.go#L117) |
+| ResetType | field_declaration | codexResetCreditsWireCredit | [118](../../magpie/internal/provider/codex_resets.go#L118) |
+| Status | field_declaration | codexResetCreditsWireCredit | [119](../../magpie/internal/provider/codex_resets.go#L119) |
+| GrantedAt | field_declaration | codexResetCreditsWireCredit | [120](../../magpie/internal/provider/codex_resets.go#L120) |
+| ExpiresAt | field_declaration | codexResetCreditsWireCredit | [121](../../magpie/internal/provider/codex_resets.go#L121) |
+| first | method_declaration |  | [127](../../magpie/internal/provider/codex_resets.go#L127) |
+| t | var_spec | first | [132](../../magpie/internal/provider/codex_resets.go#L132) |
+| held | method_declaration |  | [146](../../magpie/internal/provider/codex_resets.go#L146) |
+| soonest | method_declaration |  | [154](../../magpie/internal/provider/codex_resets.go#L154) |
+| each | method_declaration |  | [160](../../magpie/internal/provider/codex_resets.go#L160) |
+| out | var_spec | each | [161](../../magpie/internal/provider/codex_resets.go#L161) |
+| codexResets | function_declaration |  | [181](../../magpie/internal/provider/codex_resets.go#L181) |
+| w | var_spec | codexResets | [192](../../magpie/internal/provider/codex_resets.go#L192) |
+| ResetOutcome | type_spec |  | [210](../../magpie/internal/provider/codex_resets.go#L210) |
+| Code | field_declaration | ResetOutcome | [211](../../magpie/internal/provider/codex_resets.go#L211) |
+| Windows | field_declaration | ResetOutcome | [212](../../magpie/internal/provider/codex_resets.go#L212) |
+| Text | method_declaration |  | [216](../../magpie/internal/provider/codex_resets.go#L216) |
+| UseCodexReset | function_declaration |  | [239](../../magpie/internal/provider/codex_resets.go#L239) |
+| UseCodexResetCard | function_declaration |  | [249](../../magpie/internal/provider/codex_resets.go#L249) |
+| SpendCodexReset | function_declaration |  | [258](../../magpie/internal/provider/codex_resets.go#L258) |
+| useCodexReset | function_declaration |  | [274](../../magpie/internal/provider/codex_resets.go#L274) |
+| spendCodexReset | function_declaration |  | [280](../../magpie/internal/provider/codex_resets.go#L280) |
+| w | var_spec | spendCodexReset | [289](../../magpie/internal/provider/codex_resets.go#L289) |
+| codexUserToken | function_declaration |  | [325](../../magpie/internal/provider/codex_resets.go#L325) |
+| codexUserSign | function_declaration |  | [331](../../magpie/internal/provider/codex_resets.go#L331) |
+| codexUserWindows | function_declaration |  | [356](../../magpie/internal/provider/codex_resets.go#L356) |
+| consumeCodexReset | function_declaration |  | [367](../../magpie/internal/provider/codex_resets.go#L367) |
+| out | var_spec | consumeCodexReset | [368](../../magpie/internal/provider/codex_resets.go#L368) |
+| wire | var_spec | consumeCodexReset | [391](../../magpie/internal/provider/codex_resets.go#L391) |
+| Code | field_declaration | consumeCodexReset::wire | [392](../../magpie/internal/provider/codex_resets.go#L392) |
+| WindowsReset | field_declaration | consumeCodexReset::wire | [393](../../magpie/internal/provider/codex_resets.go#L393) |
+| newRedeemID | function_declaration |  | [402](../../magpie/internal/provider/codex_resets.go#L402) |
+| b | var_spec | newRedeemID | [403](../../magpie/internal/provider/codex_resets.go#L403) |

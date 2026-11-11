@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/catalog/fresh.go) · page 1/1
 
-Source SHA-256: e158938aa6bb2700e567bb20f50e0e5d147f819d4d9817918fb2983f495d4466
+Source SHA-256: e8f7a3c9f9443548836624422f5c7480fc2a5ddf704c01952b8b6460184702c0
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,6 +14,13 @@ Source SHA-256: e158938aa6bb2700e567bb20f50e0e5d147f819d4d9817918fb2983f495d4466
 | keeping | var_spec |  | [29](../../magpie/internal/catalog/fresh.go#L29) |
 | lastFetch | var_spec |  | [30](../../magpie/internal/catalog/fresh.go#L30) |
 | fetching | var_spec |  | [31](../../magpie/internal/catalog/fresh.go#L31) |
-| KeepFresh | function_declaration |  | [37](../../magpie/internal/catalog/fresh.go#L37) |
-| Missing | function_declaration |  | [51](../../magpie/internal/catalog/fresh.go#L51) |
-| fetch | function_declaration |  | [64](../../magpie/internal/catalog/fresh.go#L64) |
+| KeepFresh | function_declaration |  | [44](../../magpie/internal/catalog/fresh.go#L44) |
+| retry | var_spec | KeepFresh | [46](../../magpie/internal/catalog/fresh.go#L46) |
+| retryFirst | var_spec |  | [62](../../magpie/internal/catalog/fresh.go#L62) |
+| nextRetry | function_declaration |  | [65](../../magpie/internal/catalog/fresh.go#L65) |
+| Missing | function_declaration |  | [76](../../magpie/internal/catalog/fresh.go#L76) |
+| askedAfter | var_spec |  | [90](../../magpie/internal/catalog/fresh.go#L90) |
+| Asked | function_declaration |  | [101](../../magpie/internal/catalog/fresh.go#L101) |
+| KeepFreshForTest | function_declaration |  | [122](../../magpie/internal/catalog/fresh.go#L122) |
+| fetchBound | var_spec |  | [131](../../magpie/internal/catalog/fresh.go#L131) |
+| fetch | function_declaration |  | [135](../../magpie/internal/catalog/fresh.go#L135) |

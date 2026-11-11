@@ -4,75 +4,94 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/presets.go) · page 1/1
 
-Source SHA-256: 4c735e92a8702f569d4af926e8c99243519738f7df4ddbb8c39b3694261be630
+Source SHA-256: b1c5d0971a732b85d3b21c417a4075f082a45912f2260cdfa2b9d4b65123446c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Kind | type_spec |  | [11](../../magpie/internal/provider/presets.go#L11) |
-| KindVendor | const_spec |  | [14](../../magpie/internal/provider/presets.go#L14) |
-| KindRelay | const_spec |  | [15](../../magpie/internal/provider/presets.go#L15) |
-| KindLocal | const_spec |  | [16](../../magpie/internal/provider/presets.go#L16) |
-| KindRemote | const_spec |  | [19](../../magpie/internal/provider/presets.go#L19) |
-| PresetDef | type_spec |  | [23](../../magpie/internal/provider/presets.go#L23) |
-| ID | field_declaration | PresetDef | [24](../../magpie/internal/provider/presets.go#L24) |
-| Name | field_declaration | PresetDef | [25](../../magpie/internal/provider/presets.go#L25) |
-| Icon | field_declaration | PresetDef | [26](../../magpie/internal/provider/presets.go#L26) |
-| Kind | field_declaration | PresetDef | [27](../../magpie/internal/provider/presets.go#L27) |
-| Chat | field_declaration | PresetDef | [28](../../magpie/internal/provider/presets.go#L28) |
-| Responses | field_declaration | PresetDef | [29](../../magpie/internal/provider/presets.go#L29) |
-| Anthropic | field_declaration | PresetDef | [30](../../magpie/internal/provider/presets.go#L30) |
-| Decide | field_declaration | PresetDef | [31](../../magpie/internal/provider/presets.go#L31) |
-| Catalog | field_declaration | PresetDef | [32](../../magpie/internal/provider/presets.go#L32) |
-| Website | field_declaration | PresetDef | [33](../../magpie/internal/provider/presets.go#L33) |
-| SiteHost | field_declaration | PresetDef | [34](../../magpie/internal/provider/presets.go#L34) |
-| KeysURL | field_declaration | PresetDef | [35](../../magpie/internal/provider/presets.go#L35) |
-| NoKey | field_declaration | PresetDef | [36](../../magpie/internal/provider/presets.go#L36) |
-| KeyHint | field_declaration | PresetDef | [37](../../magpie/internal/provider/presets.go#L37) |
-| Sponsored | field_declaration | PresetDef | [38](../../magpie/internal/provider/presets.go#L38) |
-| Note | field_declaration | PresetDef | [39](../../magpie/internal/provider/presets.go#L39) |
-| Short | field_declaration | PresetDef | [40](../../magpie/internal/provider/presets.go#L40) |
-| Regions | field_declaration | PresetDef | [41](../../magpie/internal/provider/presets.go#L41) |
-| RegionLabel | field_declaration | PresetDef | [43](../../magpie/internal/provider/presets.go#L43) |
-| KeyPlans | field_declaration | PresetDef | [49](../../magpie/internal/provider/presets.go#L49) |
-| HeaderHints | field_declaration | PresetDef | [52](../../magpie/internal/provider/presets.go#L52) |
-| Only | field_declaration | PresetDef | [56](../../magpie/internal/provider/presets.go#L56) |
-| Models | field_declaration | PresetDef | [57](../../magpie/internal/provider/presets.go#L57) |
-| NoList | field_declaration | PresetDef | [60](../../magpie/internal/provider/presets.go#L60) |
-| Endpoint | field_declaration | PresetDef | [65](../../magpie/internal/provider/presets.go#L65) |
-| EndpointHint | field_declaration | PresetDef | [66](../../magpie/internal/provider/presets.go#L66) |
-| EndpointNeeded | field_declaration | PresetDef | [68](../../magpie/internal/provider/presets.go#L68) |
-| Hosts | field_declaration | PresetDef | [71](../../magpie/internal/provider/presets.go#L71) |
-| Region | type_spec |  | [76](../../magpie/internal/provider/presets.go#L76) |
-| ID | field_declaration | Region | [77](../../magpie/internal/provider/presets.go#L77) |
-| Name | field_declaration | Region | [78](../../magpie/internal/provider/presets.go#L78) |
-| Chat | field_declaration | Region | [79](../../magpie/internal/provider/presets.go#L79) |
-| Responses | field_declaration | Region | [80](../../magpie/internal/provider/presets.go#L80) |
-| Anthropic | field_declaration | Region | [81](../../magpie/internal/provider/presets.go#L81) |
-| Lists | field_declaration | Region | [86](../../magpie/internal/provider/presets.go#L86) |
-| KeysURL | field_declaration | Region | [87](../../magpie/internal/provider/presets.go#L87) |
-| Website | field_declaration | Region | [90](../../magpie/internal/provider/presets.go#L90) |
-| SiteHost | field_declaration | Region | [91](../../magpie/internal/provider/presets.go#L91) |
-| Catalog | field_declaration | Region | [95](../../magpie/internal/provider/presets.go#L95) |
-| Models | field_declaration | Region | [100](../../magpie/internal/provider/presets.go#L100) |
-| Embeddings | field_declaration | Region | [101](../../magpie/internal/provider/presets.go#L101) |
-| Drawers | field_declaration | Region | [102](../../magpie/internal/provider/presets.go#L102) |
-| Videos | field_declaration | Region | [103](../../magpie/internal/provider/presets.go#L103) |
-| Decide | field_declaration | Region | [105](../../magpie/internal/provider/presets.go#L105) |
-| WorkspaceID | const_spec |  | [110](../../magpie/internal/provider/presets.go#L110) |
-| bailianWorkspace | function_declaration |  | [113](../../magpie/internal/provider/presets.go#L113) |
-| alibabaPlanModels | var_spec |  | [119](../../magpie/internal/provider/presets.go#L119) |
-| presets | var_spec |  | [123](../../magpie/internal/provider/presets.go#L123) |
-| bedrockChat | function_declaration |  | [616](../../magpie/internal/provider/presets.go#L616) |
-| bedrockAnthropic | function_declaration |  | [622](../../magpie/internal/provider/presets.go#L622) |
-| bedrockRegions | function_declaration |  | [628](../../magpie/internal/provider/presets.go#L628) |
-| mantleOpenAIBase | function_declaration |  | [638](../../magpie/internal/provider/presets.go#L638) |
-| mantleAnthropic | function_declaration |  | [643](../../magpie/internal/provider/presets.go#L643) |
-| mantleRegions | function_declaration |  | [649](../../magpie/internal/provider/presets.go#L649) |
-| Presets | function_declaration |  | [658](../../magpie/internal/provider/presets.go#L658) |
-| presetAliases | var_spec |  | [677](../../magpie/internal/provider/presets.go#L677) |
-| preset | field_declaration | presetAliases | [677](../../magpie/internal/provider/presets.go#L677) |
-| Preset | function_declaration |  | [686](../../magpie/internal/provider/presets.go#L686) |
-| builtinPreset | function_declaration |  | [695](../../magpie/internal/provider/presets.go#L695) |
-| FromPreset | function_declaration |  | [709](../../magpie/internal/provider/presets.go#L709) |
-| atRegionOf | method_declaration |  | [731](../../magpie/internal/provider/presets.go#L731) |
-| IconForCatalog | function_declaration |  | [740](../../magpie/internal/provider/presets.go#L740) |
+| Kind | type_spec |  | [12](../../magpie/internal/provider/presets.go#L12) |
+| KindVendor | const_spec |  | [15](../../magpie/internal/provider/presets.go#L15) |
+| KindRelay | const_spec |  | [16](../../magpie/internal/provider/presets.go#L16) |
+| KindLocal | const_spec |  | [17](../../magpie/internal/provider/presets.go#L17) |
+| KindRemote | const_spec |  | [20](../../magpie/internal/provider/presets.go#L20) |
+| PresetDef | type_spec |  | [24](../../magpie/internal/provider/presets.go#L24) |
+| ID | field_declaration | PresetDef | [25](../../magpie/internal/provider/presets.go#L25) |
+| Name | field_declaration | PresetDef | [26](../../magpie/internal/provider/presets.go#L26) |
+| Icon | field_declaration | PresetDef | [27](../../magpie/internal/provider/presets.go#L27) |
+| Kind | field_declaration | PresetDef | [28](../../magpie/internal/provider/presets.go#L28) |
+| Chat | field_declaration | PresetDef | [29](../../magpie/internal/provider/presets.go#L29) |
+| Responses | field_declaration | PresetDef | [30](../../magpie/internal/provider/presets.go#L30) |
+| Anthropic | field_declaration | PresetDef | [31](../../magpie/internal/provider/presets.go#L31) |
+| Decide | field_declaration | PresetDef | [32](../../magpie/internal/provider/presets.go#L32) |
+| Catalog | field_declaration | PresetDef | [33](../../magpie/internal/provider/presets.go#L33) |
+| Website | field_declaration | PresetDef | [34](../../magpie/internal/provider/presets.go#L34) |
+| SiteHost | field_declaration | PresetDef | [35](../../magpie/internal/provider/presets.go#L35) |
+| KeysURL | field_declaration | PresetDef | [36](../../magpie/internal/provider/presets.go#L36) |
+| NoKey | field_declaration | PresetDef | [37](../../magpie/internal/provider/presets.go#L37) |
+| KeyHint | field_declaration | PresetDef | [38](../../magpie/internal/provider/presets.go#L38) |
+| Sponsored | field_declaration | PresetDef | [39](../../magpie/internal/provider/presets.go#L39) |
+| Note | field_declaration | PresetDef | [40](../../magpie/internal/provider/presets.go#L40) |
+| Short | field_declaration | PresetDef | [41](../../magpie/internal/provider/presets.go#L41) |
+| Regions | field_declaration | PresetDef | [42](../../magpie/internal/provider/presets.go#L42) |
+| RegionLabel | field_declaration | PresetDef | [44](../../magpie/internal/provider/presets.go#L44) |
+| SplitAccounts | field_declaration | PresetDef | [48](../../magpie/internal/provider/presets.go#L48) |
+| KeyPlans | field_declaration | PresetDef | [54](../../magpie/internal/provider/presets.go#L54) |
+| HeaderHints | field_declaration | PresetDef | [57](../../magpie/internal/provider/presets.go#L57) |
+| Only | field_declaration | PresetDef | [61](../../magpie/internal/provider/presets.go#L61) |
+| Models | field_declaration | PresetDef | [62](../../magpie/internal/provider/presets.go#L62) |
+| NoList | field_declaration | PresetDef | [65](../../magpie/internal/provider/presets.go#L65) |
+| Endpoint | field_declaration | PresetDef | [70](../../magpie/internal/provider/presets.go#L70) |
+| EndpointHint | field_declaration | PresetDef | [71](../../magpie/internal/provider/presets.go#L71) |
+| EndpointNeeded | field_declaration | PresetDef | [73](../../magpie/internal/provider/presets.go#L73) |
+| Hosts | field_declaration | PresetDef | [76](../../magpie/internal/provider/presets.go#L76) |
+| Embeddings | field_declaration | PresetDef | [81](../../magpie/internal/provider/presets.go#L81) |
+| Rerankers | field_declaration | PresetDef | [82](../../magpie/internal/provider/presets.go#L82) |
+| Region | type_spec |  | [87](../../magpie/internal/provider/presets.go#L87) |
+| ID | field_declaration | Region | [88](../../magpie/internal/provider/presets.go#L88) |
+| Name | field_declaration | Region | [89](../../magpie/internal/provider/presets.go#L89) |
+| Chat | field_declaration | Region | [90](../../magpie/internal/provider/presets.go#L90) |
+| Responses | field_declaration | Region | [91](../../magpie/internal/provider/presets.go#L91) |
+| Anthropic | field_declaration | Region | [92](../../magpie/internal/provider/presets.go#L92) |
+| Lists | field_declaration | Region | [97](../../magpie/internal/provider/presets.go#L97) |
+| KeysURL | field_declaration | Region | [98](../../magpie/internal/provider/presets.go#L98) |
+| Website | field_declaration | Region | [101](../../magpie/internal/provider/presets.go#L101) |
+| SiteHost | field_declaration | Region | [102](../../magpie/internal/provider/presets.go#L102) |
+| Catalog | field_declaration | Region | [106](../../magpie/internal/provider/presets.go#L106) |
+| Models | field_declaration | Region | [111](../../magpie/internal/provider/presets.go#L111) |
+| Embeddings | field_declaration | Region | [112](../../magpie/internal/provider/presets.go#L112) |
+| Rerankers | field_declaration | Region | [113](../../magpie/internal/provider/presets.go#L113) |
+| Drawers | field_declaration | Region | [114](../../magpie/internal/provider/presets.go#L114) |
+| Videos | field_declaration | Region | [115](../../magpie/internal/provider/presets.go#L115) |
+| Images | field_declaration | Region | [119](../../magpie/internal/provider/presets.go#L119) |
+| Decide | field_declaration | Region | [121](../../magpie/internal/provider/presets.go#L121) |
+| WorkspaceID | const_spec |  | [126](../../magpie/internal/provider/presets.go#L126) |
+| bailianWorkspace | function_declaration |  | [129](../../magpie/internal/provider/presets.go#L129) |
+| arkPlanModels | var_spec |  | [140](../../magpie/internal/provider/presets.go#L140) |
+| arkPlanImages | var_spec |  | [157](../../magpie/internal/provider/presets.go#L157) |
+| alibabaPlanModels | var_spec |  | [166](../../magpie/internal/provider/presets.go#L166) |
+| presets | var_spec |  | [170](../../magpie/internal/provider/presets.go#L170) |
+| bedrockChat | function_declaration |  | [759](../../magpie/internal/provider/presets.go#L759) |
+| bedrockAnthropic | function_declaration |  | [765](../../magpie/internal/provider/presets.go#L765) |
+| qwenCloudRegions | function_declaration |  | [771](../../magpie/internal/provider/presets.go#L771) |
+| qwenCloudChat | function_declaration |  | [779](../../magpie/internal/provider/presets.go#L779) |
+| qwenCloudAnthropic | function_declaration |  | [783](../../magpie/internal/provider/presets.go#L783) |
+| bedrockRegions | function_declaration |  | [789](../../magpie/internal/provider/presets.go#L789) |
+| mantleOpenAIBase | function_declaration |  | [799](../../magpie/internal/provider/presets.go#L799) |
+| mantleAnthropic | function_declaration |  | [804](../../magpie/internal/provider/presets.go#L804) |
+| mantleRegions | function_declaration |  | [810](../../magpie/internal/provider/presets.go#L810) |
+| Presets | function_declaration |  | [819](../../magpie/internal/provider/presets.go#L819) |
+| presetAliases | var_spec |  | [838](../../magpie/internal/provider/presets.go#L838) |
+| preset | field_declaration | presetAliases | [838](../../magpie/internal/provider/presets.go#L838) |
+| movedEndpoints | var_spec |  | [850](../../magpie/internal/provider/presets.go#L850) |
+| chat | field_declaration | movedEndpoints | [850](../../magpie/internal/provider/presets.go#L850) |
+| regionAliases | var_spec |  | [857](../../magpie/internal/provider/presets.go#L857) |
+| RegionID | function_declaration |  | [864](../../magpie/internal/provider/presets.go#L864) |
+| moveEndpoints | method_declaration |  | [877](../../magpie/internal/provider/presets.go#L877) |
+| to | var_spec | moveEndpoints | [881](../../magpie/internal/provider/presets.go#L881) |
+| chat | field_declaration | moveEndpoints::to | [881](../../magpie/internal/provider/presets.go#L881) |
+| have | field_declaration | moveEndpoints | [891](../../magpie/internal/provider/presets.go#L891) |
+| to | field_declaration | moveEndpoints | [892](../../magpie/internal/provider/presets.go#L892) |
+| Preset | function_declaration |  | [912](../../magpie/internal/provider/presets.go#L912) |
+| builtinPreset | function_declaration |  | [921](../../magpie/internal/provider/presets.go#L921) |
+| FromPreset | function_declaration |  | [935](../../magpie/internal/provider/presets.go#L935) |
+| atRegionOf | method_declaration |  | [957](../../magpie/internal/provider/presets.go#L957) |
+| IconForCatalog | function_declaration |  | [966](../../magpie/internal/provider/presets.go#L966) |

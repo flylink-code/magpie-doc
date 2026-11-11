@@ -4,14 +4,14 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/visible_cli.go) · page 1/1
 
-Source SHA-256: 88658d56b1dc134f587935852344db290d3e4f409b7067e510641ae6accb0cb6
+Source SHA-256: 2b07d7b92001da06d623ddc3aa0c3fc339beb1a55b7499482f1a6c3f194f3ae2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | visibleUsage | const_spec |  | [17](../../magpie/internal/cli/visible_cli.go#L17) |
-| visibleNames | function_declaration |  | [40](../../magpie/internal/cli/visible_cli.go#L40) |
-| visibleCmd | function_declaration |  | [51](../../magpie/internal/cli/visible_cli.go#L51) |
-| says | var_spec | visibleCmd | [70](../../magpie/internal/cli/visible_cli.go#L70) |
-| orNone | function_declaration |  | [130](../../magpie/internal/cli/visible_cli.go#L130) |
-| explainHidden | function_declaration |  | [141](../../magpie/internal/cli/visible_cli.go#L141) |
-| order | var_spec | explainHidden | [163](../../magpie/internal/cli/visible_cli.go#L163) |
+| visibleNames | function_declaration |  | [41](../../magpie/internal/cli/visible_cli.go#L41) |
+| visibleCmd | function_declaration |  | [52](../../magpie/internal/cli/visible_cli.go#L52) |
+| says | var_spec | visibleCmd | [71](../../magpie/internal/cli/visible_cli.go#L71) |
+| orNone | function_declaration |  | [137](../../magpie/internal/cli/visible_cli.go#L137) |
+| explainHidden | function_declaration |  | [148](../../magpie/internal/cli/visible_cli.go#L148) |
+| order | var_spec | explainHidden | [170](../../magpie/internal/cli/visible_cli.go#L170) |

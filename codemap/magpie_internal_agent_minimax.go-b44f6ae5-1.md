@@ -4,40 +4,41 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/minimax.go) · page 1/1
 
-Source SHA-256: f6977b88fb24c47850f7bd3f7355132b1b2a8170119719a58b0be623e818f185
+Source SHA-256: 4e9f96914719ebf6342b92368f263b5d75a33ba264231c91a61e9714926f0ec9
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| mcodeProvider | const_spec |  | [38](../../magpie/internal/agent/minimax.go#L38) |
-| mcodeEntry | const_spec |  | [39](../../magpie/internal/agent/minimax.go#L39) |
-| mcodeRefs | var_spec |  | [44](../../magpie/internal/agent/minimax.go#L44) |
-| mcodeKey | function_declaration |  | [49](../../magpie/internal/agent/minimax.go#L49) |
-| mcodeID | function_declaration |  | [59](../../magpie/internal/agent/minimax.go#L59) |
-| mcodeUA | const_spec |  | [73](../../magpie/internal/agent/minimax.go#L73) |
-| MiniMaxDir | function_declaration |  | [76](../../magpie/internal/agent/minimax.go#L76) |
-| miniMax | function_declaration |  | [83](../../magpie/internal/agent/minimax.go#L83) |
-| miniMaxIn | function_declaration |  | [87](../../magpie/internal/agent/minimax.go#L87) |
-| miniMaxAt | function_declaration |  | [91](../../magpie/internal/agent/minimax.go#L91) |
-| del | var_spec | miniMaxAt | [99](../../magpie/internal/agent/minimax.go#L99) |
-| kvs | var_spec | miniMaxAt | [100](../../magpie/internal/agent/minimax.go#L100) |
-| writeMiniMaxEntryAt | function_declaration |  | [202](../../magpie/internal/agent/minimax.go#L202) |
-| doc | var_spec | writeMiniMaxEntryAt | [206](../../magpie/internal/agent/minimax.go#L206) |
-| levels | var_spec | writeMiniMaxEntryAt | [257](../../magpie/internal/agent/minimax.go#L257) |
-| was | var_spec | writeMiniMaxEntryAt | [265](../../magpie/internal/agent/minimax.go#L265) |
-| refs | var_spec | writeMiniMaxEntryAt | [315](../../magpie/internal/agent/minimax.go#L315) |
-| yamlCopy | function_declaration |  | [329](../../magpie/internal/agent/minimax.go#L329) |
-| yamlGet | function_declaration |  | [339](../../magpie/internal/agent/minimax.go#L339) |
-| yamlSet | function_declaration |  | [353](../../magpie/internal/agent/minimax.go#L353) |
-| yamlMap | function_declaration |  | [374](../../magpie/internal/agent/minimax.go#L374) |
-| yamlDel | function_declaration |  | [384](../../magpie/internal/agent/minimax.go#L384) |
-| miniMaxOwnOptions | function_declaration |  | [397](../../magpie/internal/agent/minimax.go#L397) |
-| c | var_spec | miniMaxOwnOptions | [398](../../magpie/internal/agent/minimax.go#L398) |
-| Provider | field_declaration | miniMaxOwnOptions::c | [399](../../magpie/internal/agent/minimax.go#L399) |
-| CustomProvider | field_declaration | miniMaxOwnOptions::c | [400](../../magpie/internal/agent/minimax.go#L400) |
-| out | var_spec | miniMaxOwnOptions | [406](../../magpie/internal/agent/minimax.go#L406) |
-| mcodeProviderModels | type_spec |  | [443](../../magpie/internal/agent/minimax.go#L443) |
-| Enabled | field_declaration | mcodeProviderModels | [444](../../magpie/internal/agent/minimax.go#L444) |
-| Models | field_declaration | mcodeProviderModels | [445](../../magpie/internal/agent/minimax.go#L445) |
-| Enabled | field_declaration | mcodeProviderModels::Models | [446](../../magpie/internal/agent/minimax.go#L446) |
-| miniMaxIcon | function_declaration |  | [452](../../magpie/internal/agent/minimax.go#L452) |
-| noticeMinimax | var_spec |  | [464](../../magpie/internal/agent/minimax.go#L464) |
+| mcodeProvider | const_spec |  | [39](../../magpie/internal/agent/minimax.go#L39) |
+| mcodeEntry | const_spec |  | [40](../../magpie/internal/agent/minimax.go#L40) |
+| mcodeRefs | var_spec |  | [45](../../magpie/internal/agent/minimax.go#L45) |
+| mcodeKey | function_declaration |  | [50](../../magpie/internal/agent/minimax.go#L50) |
+| mcodeID | function_declaration |  | [60](../../magpie/internal/agent/minimax.go#L60) |
+| mcodeUA | const_spec |  | [74](../../magpie/internal/agent/minimax.go#L74) |
+| MiniMaxDir | function_declaration |  | [79](../../magpie/internal/agent/minimax.go#L79) |
+| miniMax | function_declaration |  | [81](../../magpie/internal/agent/minimax.go#L81) |
+| miniMaxIn | function_declaration |  | [85](../../magpie/internal/agent/minimax.go#L85) |
+| miniMaxAt | function_declaration |  | [89](../../magpie/internal/agent/minimax.go#L89) |
+| del | var_spec | miniMaxAt | [97](../../magpie/internal/agent/minimax.go#L97) |
+| kvs | var_spec | miniMaxAt | [98](../../magpie/internal/agent/minimax.go#L98) |
+| writeMiniMaxEntryAt | function_declaration |  | [213](../../magpie/internal/agent/minimax.go#L213) |
+| doc | var_spec | writeMiniMaxEntryAt | [217](../../magpie/internal/agent/minimax.go#L217) |
+| levels | var_spec | writeMiniMaxEntryAt | [268](../../magpie/internal/agent/minimax.go#L268) |
+| was | var_spec | writeMiniMaxEntryAt | [276](../../magpie/internal/agent/minimax.go#L276) |
+| refs | var_spec | writeMiniMaxEntryAt | [326](../../magpie/internal/agent/minimax.go#L326) |
+| yamlCopy | function_declaration |  | [340](../../magpie/internal/agent/minimax.go#L340) |
+| yamlGet | function_declaration |  | [350](../../magpie/internal/agent/minimax.go#L350) |
+| yamlSet | function_declaration |  | [364](../../magpie/internal/agent/minimax.go#L364) |
+| yamlMap | function_declaration |  | [385](../../magpie/internal/agent/minimax.go#L385) |
+| yamlDel | function_declaration |  | [395](../../magpie/internal/agent/minimax.go#L395) |
+| miniMaxOwnOptions | function_declaration |  | [408](../../magpie/internal/agent/minimax.go#L408) |
+| c | var_spec | miniMaxOwnOptions | [409](../../magpie/internal/agent/minimax.go#L409) |
+| Provider | field_declaration | miniMaxOwnOptions::c | [410](../../magpie/internal/agent/minimax.go#L410) |
+| CustomProvider | field_declaration | miniMaxOwnOptions::c | [411](../../magpie/internal/agent/minimax.go#L411) |
+| out | var_spec | miniMaxOwnOptions | [417](../../magpie/internal/agent/minimax.go#L417) |
+| mcodeProviderModels | type_spec |  | [454](../../magpie/internal/agent/minimax.go#L454) |
+| Enabled | field_declaration | mcodeProviderModels | [455](../../magpie/internal/agent/minimax.go#L455) |
+| Models | field_declaration | mcodeProviderModels | [456](../../magpie/internal/agent/minimax.go#L456) |
+| Enabled | field_declaration | mcodeProviderModels::Models | [457](../../magpie/internal/agent/minimax.go#L457) |
+| miniMaxIcon | function_declaration |  | [463](../../magpie/internal/agent/minimax.go#L463) |
+| noticeMinimax | var_spec |  | [475](../../magpie/internal/agent/minimax.go#L475) |
+| noticeMinimaxDesktop | var_spec |  | [476](../../magpie/internal/agent/minimax.go#L476) |

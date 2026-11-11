@@ -4,41 +4,69 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/search_api.go) · page 1/1
 
-Source SHA-256: 1e7774ea66db0b698f05b807fef8d67c3028f8fb575e1c3ae3c9df615dc721e1
+Source SHA-256: 17788317f673eabeb67cbad62372e7afc6e50ee37ffa21958263f553c1017f33
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| SearchAPI | type_spec |  | [15](../../magpie/internal/provider/search_api.go#L15) |
-| Vendor | field_declaration | SearchAPI | [16](../../magpie/internal/provider/search_api.go#L16) |
-| Key | field_declaration | SearchAPI | [19](../../magpie/internal/provider/search_api.go#L19) |
-| Pick | field_declaration | SearchAPI | [24](../../magpie/internal/provider/search_api.go#L24) |
-| URL | field_declaration | SearchAPI | [27](../../magpie/internal/provider/search_api.go#L27) |
-| Off | field_declaration | SearchAPI | [31](../../magpie/internal/provider/search_api.go#L31) |
-| SearchPickTurns | const_spec |  | [36](../../magpie/internal/provider/search_api.go#L36) |
-| SearchPickOrder | const_spec |  | [37](../../magpie/internal/provider/search_api.go#L37) |
-| SearchVendor | type_spec |  | [41](../../magpie/internal/provider/search_api.go#L41) |
-| ID | field_declaration | SearchVendor | [42](../../magpie/internal/provider/search_api.go#L42) |
-| Base | field_declaration | SearchVendor | [43](../../magpie/internal/provider/search_api.go#L43) |
-| KeysURL | field_declaration | SearchVendor | [44](../../magpie/internal/provider/search_api.go#L44) |
-| KeyOptional | field_declaration | SearchVendor | [47](../../magpie/internal/provider/search_api.go#L47) |
-| YouFreeSearch | const_spec |  | [53](../../magpie/internal/provider/search_api.go#L53) |
-| SearchVendors | var_spec |  | [56](../../magpie/internal/provider/search_api.go#L56) |
-| SearchVendorOf | function_declaration |  | [67](../../magpie/internal/provider/search_api.go#L67) |
-| Keys | method_declaration |  | [77](../../magpie/internal/provider/search_api.go#L77) |
-| out | var_spec | Keys | [78](../../magpie/internal/provider/search_api.go#L78) |
-| MaskedKey | method_declaration |  | [89](../../magpie/internal/provider/search_api.go#L89) |
-| MaskSearchKey | function_declaration |  | [100](../../magpie/internal/provider/search_api.go#L100) |
-| Name | method_declaration |  | [108](../../magpie/internal/provider/search_api.go#L108) |
-| Base | method_declaration |  | [116](../../magpie/internal/provider/search_api.go#L116) |
-| Ready | method_declaration |  | [126](../../magpie/internal/provider/search_api.go#L126) |
-| check | method_declaration |  | [132](../../magpie/internal/provider/search_api.go#L132) |
-| ids | var_spec | check | [135](../../magpie/internal/provider/search_api.go#L135) |
-| SearchAPIs | function_declaration |  | [166](../../magpie/internal/provider/search_api.go#L166) |
-| SearchAPIsSet | function_declaration |  | [172](../../magpie/internal/provider/search_api.go#L172) |
-| StoredSearchAPIs | function_declaration |  | [187](../../magpie/internal/provider/search_api.go#L187) |
-| SetSearchAPI | function_declaration |  | [193](../../magpie/internal/provider/search_api.go#L193) |
-| RemoveSearchAPI | function_declaration |  | [228](../../magpie/internal/provider/search_api.go#L228) |
-| SwitchSearchAPI | function_declaration |  | [243](../../magpie/internal/provider/search_api.go#L243) |
-| ArrangeSearchAPIs | function_declaration |  | [263](../../magpie/internal/provider/search_api.go#L263) |
-| RestoreSearchAPIs | function_declaration |  | [292](../../magpie/internal/provider/search_api.go#L292) |
-| MirrorSearchAPIs | function_declaration |  | [321](../../magpie/internal/provider/search_api.go#L321) |
+| SearchAPI | type_spec |  | [21](../../magpie/internal/provider/search_api.go#L21) |
+| Vendor | field_declaration | SearchAPI | [22](../../magpie/internal/provider/search_api.go#L22) |
+| Key | field_declaration | SearchAPI | [26](../../magpie/internal/provider/search_api.go#L26) |
+| KeyList | field_declaration | SearchAPI | [31](../../magpie/internal/provider/search_api.go#L31) |
+| Pick | field_declaration | SearchAPI | [36](../../magpie/internal/provider/search_api.go#L36) |
+| URL | field_declaration | SearchAPI | [39](../../magpie/internal/provider/search_api.go#L39) |
+| Off | field_declaration | SearchAPI | [43](../../magpie/internal/provider/search_api.go#L43) |
+| Mix | field_declaration | SearchAPI | [49](../../magpie/internal/provider/search_api.go#L49) |
+| SearchPickTurns | const_spec |  | [54](../../magpie/internal/provider/search_api.go#L54) |
+| SearchPickOrder | const_spec |  | [55](../../magpie/internal/provider/search_api.go#L55) |
+| SearchVendor | type_spec |  | [59](../../magpie/internal/provider/search_api.go#L59) |
+| ID | field_declaration | SearchVendor | [60](../../magpie/internal/provider/search_api.go#L60) |
+| Base | field_declaration | SearchVendor | [61](../../magpie/internal/provider/search_api.go#L61) |
+| KeysURL | field_declaration | SearchVendor | [62](../../magpie/internal/provider/search_api.go#L62) |
+| KeyOptional | field_declaration | SearchVendor | [65](../../magpie/internal/provider/search_api.go#L65) |
+| Paths | field_declaration | SearchVendor | [69](../../magpie/internal/provider/search_api.go#L69) |
+| Plugin | field_declaration | SearchVendor | [73](../../magpie/internal/provider/search_api.go#L73) |
+| NeedURL | field_declaration | SearchVendor | [75](../../magpie/internal/provider/search_api.go#L75) |
+| Auth | field_declaration | SearchVendor | [79](../../magpie/internal/provider/search_api.go#L79) |
+| WantsURL | method_declaration |  | [84](../../magpie/internal/provider/search_api.go#L84) |
+| YouFreeSearch | const_spec |  | [89](../../magpie/internal/provider/search_api.go#L89) |
+| SearchVendors | var_spec |  | [92](../../magpie/internal/provider/search_api.go#L92) |
+| AllSearchVendors | function_declaration |  | [116](../../magpie/internal/provider/search_api.go#L116) |
+| SearchVendorOf | function_declaration |  | [127](../../magpie/internal/provider/search_api.go#L127) |
+| Keys | method_declaration |  | [144](../../magpie/internal/provider/search_api.go#L144) |
+| out | var_spec | Keys | [145](../../magpie/internal/provider/search_api.go#L145) |
+| SearchKey | type_spec |  | [156](../../magpie/internal/provider/search_api.go#L156) |
+| Key | field_declaration | SearchKey | [157](../../magpie/internal/provider/search_api.go#L157) |
+| Off | field_declaration | SearchKey | [158](../../magpie/internal/provider/search_api.go#L158) |
+| SearchKeyRef | function_declaration |  | [163](../../magpie/internal/provider/search_api.go#L163) |
+| SearchKeys | method_declaration |  | [173](../../magpie/internal/provider/search_api.go#L173) |
+| listOn | var_spec | SearchKeys | [175](../../magpie/internal/provider/search_api.go#L175) |
+| putKeys | method_declaration |  | [203](../../magpie/internal/provider/search_api.go#L203) |
+| on | var_spec | putKeys | [204](../../magpie/internal/provider/search_api.go#L204) |
+| WithoutKeys | method_declaration |  | [221](../../magpie/internal/provider/search_api.go#L221) |
+| HasKeys | method_declaration |  | [227](../../magpie/internal/provider/search_api.go#L227) |
+| KeepKeysOf | method_declaration |  | [230](../../magpie/internal/provider/search_api.go#L230) |
+| MaskedKey | method_declaration |  | [238](../../magpie/internal/provider/search_api.go#L238) |
+| MaskSearchKey | function_declaration |  | [249](../../magpie/internal/provider/search_api.go#L249) |
+| Name | method_declaration |  | [257](../../magpie/internal/provider/search_api.go#L257) |
+| Base | method_declaration |  | [267](../../magpie/internal/provider/search_api.go#L267) |
+| ownBase | method_declaration |  | [277](../../magpie/internal/provider/search_api.go#L277) |
+| Ready | method_declaration |  | [292](../../magpie/internal/provider/search_api.go#L292) |
+| check | method_declaration |  | [298](../../magpie/internal/provider/search_api.go#L298) |
+| ids | var_spec | check | [301](../../magpie/internal/provider/search_api.go#L301) |
+| SearchAPIs | function_declaration |  | [335](../../magpie/internal/provider/search_api.go#L335) |
+| SearchAPIsSet | function_declaration |  | [341](../../magpie/internal/provider/search_api.go#L341) |
+| StoredSearchAPIs | function_declaration |  | [356](../../magpie/internal/provider/search_api.go#L356) |
+| SetSearchAPI | function_declaration |  | [362](../../magpie/internal/provider/search_api.go#L362) |
+| RemoveSearchAPI | function_declaration |  | [403](../../magpie/internal/provider/search_api.go#L403) |
+| SwitchSearchAPI | function_declaration |  | [418](../../magpie/internal/provider/search_api.go#L418) |
+| MixSearchAPIs | function_declaration |  | [437](../../magpie/internal/provider/search_api.go#L437) |
+| ArrangeSearchAPIs | function_declaration |  | [463](../../magpie/internal/provider/search_api.go#L463) |
+| RestoreSearchAPIs | function_declaration |  | [492](../../magpie/internal/provider/search_api.go#L492) |
+| MirrorSearchAPIs | function_declaration |  | [521](../../magpie/internal/provider/search_api.go#L521) |
+| editSearchKeys | function_declaration |  | [546](../../magpie/internal/provider/search_api.go#L546) |
+| searchKeyAt | function_declaration |  | [570](../../magpie/internal/provider/search_api.go#L570) |
+| AddSearchKeys | function_declaration |  | [581](../../magpie/internal/provider/search_api.go#L581) |
+| RemoveSearchKey | function_declaration |  | [602](../../magpie/internal/provider/search_api.go#L602) |
+| SwitchSearchKey | function_declaration |  | [613](../../magpie/internal/provider/search_api.go#L613) |
+| ArrangeSearchKeys | function_declaration |  | [627](../../magpie/internal/provider/search_api.go#L627) |
+| SearchKeyOf | function_declaration |  | [650](../../magpie/internal/provider/search_api.go#L650) |

@@ -4,14 +4,15 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/compacting.go) · page 1/1
 
-Source SHA-256: 38ecfc6ba6d7e384de97d2215b2df9961f33a3b2574a7896336eb111797596ca
+Source SHA-256: 1f87a6ea66100fd32dc571d93a49d83bf36fdff2d6bb3a985ac1b8342defc211
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| compactLead | const_spec |  | [19](../../magpie/internal/gateway/compacting.go#L19) |
-| compactSystems | var_spec |  | [22](../../magpie/internal/gateway/compacting.go#L22) |
-| compactAsk | type_spec |  | [43](../../magpie/internal/gateway/compacting.go#L43) |
-| ask | field_declaration | compactAsk | [44](../../magpie/internal/gateway/compacting.go#L44) |
-| compactAsks | var_spec |  | [48](../../magpie/internal/gateway/compacting.go#L48) |
-| leads | function_declaration |  | [60](../../magpie/internal/gateway/compacting.go#L60) |
-| compacting | function_declaration |  | [66](../../magpie/internal/gateway/compacting.go#L66) |
+| KindCompact | const_spec |  | [12](../../magpie/internal/gateway/compacting.go#L12) |
+| compactLead | const_spec |  | [23](../../magpie/internal/gateway/compacting.go#L23) |
+| compactSystems | var_spec |  | [26](../../magpie/internal/gateway/compacting.go#L26) |
+| compactAsk | type_spec |  | [51](../../magpie/internal/gateway/compacting.go#L51) |
+| ask | field_declaration | compactAsk | [52](../../magpie/internal/gateway/compacting.go#L52) |
+| compactAsks | var_spec |  | [56](../../magpie/internal/gateway/compacting.go#L56) |
+| leads | function_declaration |  | [79](../../magpie/internal/gateway/compacting.go#L79) |
+| compacting | function_declaration |  | [85](../../magpie/internal/gateway/compacting.go#L85) |

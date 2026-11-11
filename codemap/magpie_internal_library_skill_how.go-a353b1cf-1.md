@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/skill_how.go) · page 1/1
 
-Source SHA-256: b8299512b0eb7e20839afde2ca839b9b95cf443ae1f044e6ba4c45ffa086c0fb
+Source SHA-256: 8742becd6f21cec2871a0cbb8b129bddb878fc5d853fb1921b2311e350f7410b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

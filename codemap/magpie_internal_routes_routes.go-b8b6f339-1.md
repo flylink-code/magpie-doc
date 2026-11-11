@@ -4,34 +4,47 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/routes/routes.go) · page 1/1
 
-Source SHA-256: 71afb6f33b61ca48584fd716d5a00c3c0fcb6a0063129495f34e09831d8f49f1
+Source SHA-256: ce645cd4e7de5e210ea62b28ed414eecbdc4cabc91f0b05546497840053373a2
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Seat | type_spec |  | [21](../../magpie/internal/routes/routes.go#L21) |
-| Key | field_declaration | Seat | [24](../../magpie/internal/routes/routes.go#L24) |
-| Account | field_declaration | Seat | [26](../../magpie/internal/routes/routes.go#L26) |
-| Known | field_declaration | Seat | [28](../../magpie/internal/routes/routes.go#L28) |
-| Learns | field_declaration | Seat | [31](../../magpie/internal/routes/routes.go#L31) |
-| Used | field_declaration | Seat | [33](../../magpie/internal/routes/routes.go#L33) |
-| Soon | field_declaration | Seat | [35](../../magpie/internal/routes/routes.go#L35) |
-| Pace | field_declaration | Seat | [38](../../magpie/internal/routes/routes.go#L38) |
-| Weight | field_declaration | Seat | [40](../../magpie/internal/routes/routes.go#L40) |
-| Resting | field_declaration | Seat | [42](../../magpie/internal/routes/routes.go#L42) |
-| Tokens | field_declaration | Seat | [44](../../magpie/internal/routes/routes.go#L44) |
-| Free | field_declaration | Seat | [48](../../magpie/internal/routes/routes.go#L48) |
-| Credits | field_declaration | Seat | [52](../../magpie/internal/routes/routes.go#L52) |
-| TTFT | field_declaration | Seat | [58](../../magpie/internal/routes/routes.go#L58) |
-| Strategy | type_spec |  | [62](../../magpie/internal/routes/routes.go#L62) |
-| Order | field_declaration | Strategy | [67](../../magpie/internal/routes/routes.go#L67) |
-| Exact | field_declaration | Strategy | [71](../../magpie/internal/routes/routes.go#L71) |
-| ByUse | field_declaration | Strategy | [73](../../magpie/internal/routes/routes.go#L73) |
-| ByFree | field_declaration | Strategy | [77](../../magpie/internal/routes/routes.go#L77) |
-| BySpeed | field_declaration | Strategy | [80](../../magpie/internal/routes/routes.go#L80) |
-| reg | var_spec |  | [83](../../magpie/internal/routes/routes.go#L83) |
-| m | field_declaration | reg | [85](../../magpie/internal/routes/routes.go#L85) |
-| Register | function_declaration |  | [90](../../magpie/internal/routes/routes.go#L90) |
-| once | var_spec | Register | [95](../../magpie/internal/routes/routes.go#L95) |
-| Find | function_declaration |  | [107](../../magpie/internal/routes/routes.go#L107) |
-| Served | function_declaration |  | [121](../../magpie/internal/routes/routes.go#L121) |
-| Apply | function_declaration |  | [130](../../magpie/internal/routes/routes.go#L130) |
+| Seat | type_spec |  | [22](../../magpie/internal/routes/routes.go#L22) |
+| Key | field_declaration | Seat | [25](../../magpie/internal/routes/routes.go#L25) |
+| Account | field_declaration | Seat | [27](../../magpie/internal/routes/routes.go#L27) |
+| Known | field_declaration | Seat | [29](../../magpie/internal/routes/routes.go#L29) |
+| Learns | field_declaration | Seat | [33](../../magpie/internal/routes/routes.go#L33) |
+| Used | field_declaration | Seat | [35](../../magpie/internal/routes/routes.go#L35) |
+| WeekLow | field_declaration | Seat | [42](../../magpie/internal/routes/routes.go#L42) |
+| Soon | field_declaration | Seat | [44](../../magpie/internal/routes/routes.go#L44) |
+| Unreached | field_declaration | Seat | [50](../../magpie/internal/routes/routes.go#L50) |
+| Lapse | field_declaration | Seat | [54](../../magpie/internal/routes/routes.go#L54) |
+| Pace | field_declaration | Seat | [57](../../magpie/internal/routes/routes.go#L57) |
+| Weight | field_declaration | Seat | [59](../../magpie/internal/routes/routes.go#L59) |
+| Resting | field_declaration | Seat | [61](../../magpie/internal/routes/routes.go#L61) |
+| Spent | field_declaration | Seat | [64](../../magpie/internal/routes/routes.go#L64) |
+| Tokens | field_declaration | Seat | [66](../../magpie/internal/routes/routes.go#L66) |
+| Free | field_declaration | Seat | [70](../../magpie/internal/routes/routes.go#L70) |
+| FreePlan | field_declaration | Seat | [74](../../magpie/internal/routes/routes.go#L74) |
+| Credits | field_declaration | Seat | [78](../../magpie/internal/routes/routes.go#L78) |
+| First | field_declaration | Seat | [83](../../magpie/internal/routes/routes.go#L83) |
+| Lead | field_declaration | Seat | [87](../../magpie/internal/routes/routes.go#L87) |
+| TTFT | field_declaration | Seat | [93](../../magpie/internal/routes/routes.go#L93) |
+| Left | field_declaration | Seat | [101](../../magpie/internal/routes/routes.go#L101) |
+| LeftIn | field_declaration | Seat | [102](../../magpie/internal/routes/routes.go#L102) |
+| Priced | field_declaration | Seat | [109](../../magpie/internal/routes/routes.go#L109) |
+| Cost | field_declaration | Seat | [110](../../magpie/internal/routes/routes.go#L110) |
+| Strategy | type_spec |  | [114](../../magpie/internal/routes/routes.go#L114) |
+| Order | field_declaration | Strategy | [119](../../magpie/internal/routes/routes.go#L119) |
+| Exact | field_declaration | Strategy | [123](../../magpie/internal/routes/routes.go#L123) |
+| ByUse | field_declaration | Strategy | [125](../../magpie/internal/routes/routes.go#L125) |
+| ByFree | field_declaration | Strategy | [129](../../magpie/internal/routes/routes.go#L129) |
+| ByPlan | field_declaration | Strategy | [132](../../magpie/internal/routes/routes.go#L132) |
+| BySpeed | field_declaration | Strategy | [135](../../magpie/internal/routes/routes.go#L135) |
+| ByPrice | field_declaration | Strategy | [140](../../magpie/internal/routes/routes.go#L140) |
+| reg | var_spec |  | [143](../../magpie/internal/routes/routes.go#L143) |
+| m | field_declaration | reg | [145](../../magpie/internal/routes/routes.go#L145) |
+| Register | function_declaration |  | [150](../../magpie/internal/routes/routes.go#L150) |
+| once | var_spec | Register | [155](../../magpie/internal/routes/routes.go#L155) |
+| Find | function_declaration |  | [167](../../magpie/internal/routes/routes.go#L167) |
+| Served | function_declaration |  | [181](../../magpie/internal/routes/routes.go#L181) |
+| Apply | function_declaration |  | [190](../../magpie/internal/routes/routes.go#L190) |

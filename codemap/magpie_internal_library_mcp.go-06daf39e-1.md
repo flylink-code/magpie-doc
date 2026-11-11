@@ -4,107 +4,107 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp.go) · page 1/2
 
-Source SHA-256: f1cce038e075f42bbaecc2213b2cb3084bfe6044659128bb512cb82c8ae7bc2a
+Source SHA-256: d4ea4c9518ccb5188fa8561ca0b1cd8a76becb649d3fe9309ed1191f993dd68c
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| Server | type_spec |  | [31](../../magpie/internal/library/mcp.go#L31) |
-| Name | field_declaration | Server | [32](../../magpie/internal/library/mcp.go#L32) |
-| Transport | field_declaration | Server | [34](../../magpie/internal/library/mcp.go#L34) |
-| Command | field_declaration | Server | [35](../../magpie/internal/library/mcp.go#L35) |
-| Args | field_declaration | Server | [36](../../magpie/internal/library/mcp.go#L36) |
-| Env | field_declaration | Server | [37](../../magpie/internal/library/mcp.go#L37) |
-| URL | field_declaration | Server | [38](../../magpie/internal/library/mcp.go#L38) |
-| Headers | field_declaration | Server | [39](../../magpie/internal/library/mcp.go#L39) |
-| Agents | field_declaration | Server | [40](../../magpie/internal/library/mcp.go#L40) |
-| DisabledTools | field_declaration | Server | [44](../../magpie/internal/library/mcp.go#L44) |
-| OAuth | field_declaration | Server | [49](../../magpie/internal/library/mcp.go#L49) |
-| StartupTimeout | field_declaration | Server | [53](../../magpie/internal/library/mcp.go#L53) |
-| startupWrote | field_declaration | Server | [58](../../magpie/internal/library/mcp.go#L58) |
-| OAuthApp | type_spec |  | [64](../../magpie/internal/library/mcp.go#L64) |
-| ClientID | field_declaration | OAuthApp | [65](../../magpie/internal/library/mcp.go#L65) |
-| ClientSecret | field_declaration | OAuthApp | [66](../../magpie/internal/library/mcp.go#L66) |
-| CallbackPort | field_declaration | OAuthApp | [69](../../magpie/internal/library/mcp.go#L69) |
-| Remote | method_declaration |  | [73](../../magpie/internal/library/mcp.go#L73) |
-| ServerOf | function_declaration |  | [77](../../magpie/internal/library/mcp.go#L77) |
-| check | method_declaration |  | [93](../../magpie/internal/library/mcp.go#L93) |
-| same | method_declaration |  | [147](../../magpie/internal/library/mcp.go#L147) |
-| mcpFormat | type_spec |  | [154](../../magpie/internal/library/mcp.go#L154) |
-| fmtClaude | const_spec |  | [157](../../magpie/internal/library/mcp.go#L157) |
-| fmtCodex | const_spec |  | [158](../../magpie/internal/library/mcp.go#L158) |
-| fmtGemini | const_spec |  | [159](../../magpie/internal/library/mcp.go#L159) |
-| fmtOpenCode | const_spec |  | [160](../../magpie/internal/library/mcp.go#L160) |
-| fmtCursor | const_spec |  | [161](../../magpie/internal/library/mcp.go#L161) |
-| fmtCopilot | const_spec |  | [162](../../magpie/internal/library/mcp.go#L162) |
-| fmtCrush | const_spec |  | [163](../../magpie/internal/library/mcp.go#L163) |
-| fmtGoose | const_spec |  | [164](../../magpie/internal/library/mcp.go#L164) |
-| fmtPi | const_spec |  | [165](../../magpie/internal/library/mcp.go#L165) |
-| fmtDesktop | const_spec |  | [166](../../magpie/internal/library/mcp.go#L166) |
-| fmtZCode | const_spec |  | [167](../../magpie/internal/library/mcp.go#L167) |
-| fmtDsh | const_spec |  | [168](../../magpie/internal/library/mcp.go#L168) |
-| fmtPiNative | const_spec |  | [170](../../magpie/internal/library/mcp.go#L170) |
-| fmtAntigravity | const_spec |  | [173](../../magpie/internal/library/mcp.go#L173) |
-| fmtHermes | const_spec |  | [176](../../magpie/internal/library/mcp.go#L176) |
-| fmtOmp | const_spec |  | [179](../../magpie/internal/library/mcp.go#L179) |
-| fmtKimi | const_spec |  | [182](../../magpie/internal/library/mcp.go#L182) |
-| fmtDevin | const_spec |  | [185](../../magpie/internal/library/mcp.go#L185) |
-| fmtGrok | const_spec |  | [187](../../magpie/internal/library/mcp.go#L187) |
-| fmtCline | const_spec |  | [190](../../magpie/internal/library/mcp.go#L190) |
-| fmtCommandCode | const_spec |  | [193](../../magpie/internal/library/mcp.go#L193) |
-| fmtAlma | const_spec |  | [196](../../magpie/internal/library/mcp.go#L196) |
-| fmtZed | const_spec |  | [199](../../magpie/internal/library/mcp.go#L199) |
-| mcpFile | type_spec |  | [203](../../magpie/internal/library/mcp.go#L203) |
-| Path | field_declaration | mcpFile | [204](../../magpie/internal/library/mcp.go#L204) |
-| Format | field_declaration | mcpFile | [205](../../magpie/internal/library/mcp.go#L205) |
-| Also | field_declaration | mcpFile | [210](../../magpie/internal/library/mcp.go#L210) |
-| Extra | field_declaration | mcpFile | [214](../../magpie/internal/library/mcp.go#L214) |
-| WSL | field_declaration | mcpFile | [218](../../magpie/internal/library/mcp.go#L218) |
-| Distro | field_declaration | mcpFile | [219](../../magpie/internal/library/mcp.go#L219) |
-| Literal | field_declaration | mcpFile | [222](../../magpie/internal/library/mcp.go#L222) |
-| files | method_declaration |  | [226](../../magpie/internal/library/mcp.go#L226) |
-| key | method_declaration |  | [229](../../magpie/internal/library/mcp.go#L229) |
-| supports | method_declaration |  | [246](../../magpie/internal/library/mcp.go#L246) |
-| windowsPath | var_spec |  | [265](../../magpie/internal/library/mcp.go#L265) |
-| foreign | method_declaration |  | [272](../../magpie/internal/library/mcp.go#L272) |
-| errZedExtension | var_spec |  | [282](../../magpie/internal/library/mcp.go#L282) |
-| errNoRemote | var_spec |  | [286](../../magpie/internal/library/mcp.go#L286) |
-| errNoSSE | var_spec |  | [293](../../magpie/internal/library/mcp.go#L293) |
-| ordered | type_spec |  | [297](../../magpie/internal/library/mcp.go#L297) |
-| kv | type_spec |  | [299](../../magpie/internal/library/mcp.go#L299) |
-| k | field_declaration | kv | [300](../../magpie/internal/library/mcp.go#L300) |
-| v | field_declaration | kv | [301](../../magpie/internal/library/mcp.go#L301) |
-| MarshalJSON | method_declaration |  | [304](../../magpie/internal/library/mcp.go#L304) |
-| b | var_spec | MarshalJSON | [305](../../magpie/internal/library/mcp.go#L305) |
-| strs | function_declaration |  | [324](../../magpie/internal/library/mcp.go#L324) |
-| list | function_declaration |  | [331](../../magpie/internal/library/mcp.go#L331) |
-| MarshalYAML | method_declaration |  | [339](../../magpie/internal/library/mcp.go#L339) |
-| v | var_spec | MarshalYAML | [342](../../magpie/internal/library/mcp.go#L342) |
-| selfTimeout | function_declaration |  | [353](../../magpie/internal/library/mcp.go#L353) |
-| maxStartupTimeout | const_spec |  | [362](../../magpie/internal/library/mcp.go#L362) |
-| startupTheirs | function_declaration |  | [369](../../magpie/internal/library/mcp.go#L369) |
-| startupWritten | method_declaration |  | [379](../../magpie/internal/library/mcp.go#L379) |
-| startupBehind | function_declaration |  | [388](../../magpie/internal/library/mcp.go#L388) |
-| wroteStartup | function_declaration |  | [401](../../magpie/internal/library/mcp.go#L401) |
-| gooseOldTimeout | const_spec |  | [412](../../magpie/internal/library/mcp.go#L412) |
-| behind | method_declaration |  | [419](../../magpie/internal/library/mcp.go#L419) |
-| isNumber | function_declaration |  | [436](../../magpie/internal/library/mcp.go#L436) |
-| encode | method_declaration |  | [451](../../magpie/internal/library/mcp.go#L451) |
-| o | var_spec | encode | [452](../../magpie/internal/library/mcp.go#L452) |
-| str | function_declaration |  | [725](../../magpie/internal/library/mcp.go#L725) |
-| strList | function_declaration |  | [727](../../magpie/internal/library/mcp.go#L727) |
-| out | var_spec | strList | [729](../../magpie/internal/library/mcp.go#L729) |
-| strMap | function_declaration |  | [736](../../magpie/internal/library/mcp.go#L736) |
-| decode | method_declaration |  | [750](../../magpie/internal/library/mcp.go#L750) |
-| entries | method_declaration |  | [932](../../magpie/internal/library/mcp.go#L932) |
-| entriesParsed | var_spec |  | [952](../../magpie/internal/library/mcp.go#L952) |
-| parseEntries | method_declaration |  | [955](../../magpie/internal/library/mcp.go#L955) |
-| doc | var_spec | parseEntries | [962](../../magpie/internal/library/mcp.go#L962) |
-| err | var_spec | parseEntries | [963](../../magpie/internal/library/mcp.go#L963) |
-| all | var_spec | parseEntries | [976](../../magpie/internal/library/mcp.go#L976) |
-| cloneAny | function_declaration |  | [990](../../magpie/internal/library/mcp.go#L990) |
-| read | method_declaration |  | [1015](../../magpie/internal/library/mcp.go#L1015) |
-| also | method_declaration |  | [1039](../../magpie/internal/library/mcp.go#L1039) |
-| out | var_spec | also | [1043](../../magpie/internal/library/mcp.go#L1043) |
-| has | method_declaration |  | [1051](../../magpie/internal/library/mcp.go#L1051) |
-| holds | method_declaration |  | [1066](../../magpie/internal/library/mcp.go#L1066) |
-| owned | var_spec |  | [1078](../../magpie/internal/library/mcp.go#L1078) |
+| Server | type_spec |  | [35](../../magpie/internal/library/mcp.go#L35) |
+| Name | field_declaration | Server | [36](../../magpie/internal/library/mcp.go#L36) |
+| Bundle | field_declaration | Server | [37](../../magpie/internal/library/mcp.go#L37) |
+| Transport | field_declaration | Server | [39](../../magpie/internal/library/mcp.go#L39) |
+| Command | field_declaration | Server | [40](../../magpie/internal/library/mcp.go#L40) |
+| Args | field_declaration | Server | [41](../../magpie/internal/library/mcp.go#L41) |
+| Env | field_declaration | Server | [42](../../magpie/internal/library/mcp.go#L42) |
+| URL | field_declaration | Server | [43](../../magpie/internal/library/mcp.go#L43) |
+| Headers | field_declaration | Server | [44](../../magpie/internal/library/mcp.go#L44) |
+| Agents | field_declaration | Server | [45](../../magpie/internal/library/mcp.go#L45) |
+| DisabledTools | field_declaration | Server | [49](../../magpie/internal/library/mcp.go#L49) |
+| OAuth | field_declaration | Server | [54](../../magpie/internal/library/mcp.go#L54) |
+| StartupTimeout | field_declaration | Server | [58](../../magpie/internal/library/mcp.go#L58) |
+| Local | field_declaration | Server | [63](../../magpie/internal/library/mcp.go#L63) |
+| Plugin | field_declaration | Server | [67](../../magpie/internal/library/mcp.go#L67) |
+| Hidden | field_declaration | Server | [73](../../magpie/internal/library/mcp.go#L73) |
+| Paused | field_declaration | Server | [74](../../magpie/internal/library/mcp.go#L74) |
+| Bridge | field_declaration | Server | [77](../../magpie/internal/library/mcp.go#L77) |
+| Hub | field_declaration | Server | [83](../../magpie/internal/library/mcp.go#L83) |
+| Note | field_declaration | Server | [87](../../magpie/internal/library/mcp.go#L87) |
+| about | field_declaration | Server | [91](../../magpie/internal/library/mcp.go#L91) |
+| startupWrote | field_declaration | Server | [96](../../magpie/internal/library/mcp.go#L96) |
+| OAuthApp | type_spec |  | [102](../../magpie/internal/library/mcp.go#L102) |
+| ClientID | field_declaration | OAuthApp | [103](../../magpie/internal/library/mcp.go#L103) |
+| ClientSecret | field_declaration | OAuthApp | [104](../../magpie/internal/library/mcp.go#L104) |
+| CallbackPort | field_declaration | OAuthApp | [107](../../magpie/internal/library/mcp.go#L107) |
+| Remote | method_declaration |  | [111](../../magpie/internal/library/mcp.go#L111) |
+| ServerOf | function_declaration |  | [115](../../magpie/internal/library/mcp.go#L115) |
+| check | method_declaration |  | [131](../../magpie/internal/library/mcp.go#L131) |
+| spacedProgram | function_declaration |  | [204](../../magpie/internal/library/mcp.go#L204) |
+| program | function_declaration |  | [219](../../magpie/internal/library/mcp.go#L219) |
+| same | method_declaration |  | [229](../../magpie/internal/library/mcp.go#L229) |
+| mcpFormat | type_spec |  | [236](../../magpie/internal/library/mcp.go#L236) |
+| fmtClaude | const_spec |  | [239](../../magpie/internal/library/mcp.go#L239) |
+| fmtCodex | const_spec |  | [240](../../magpie/internal/library/mcp.go#L240) |
+| fmtGemini | const_spec |  | [241](../../magpie/internal/library/mcp.go#L241) |
+| fmtOpenCode | const_spec |  | [242](../../magpie/internal/library/mcp.go#L242) |
+| fmtCursor | const_spec |  | [243](../../magpie/internal/library/mcp.go#L243) |
+| fmtCopilot | const_spec |  | [244](../../magpie/internal/library/mcp.go#L244) |
+| fmtCrush | const_spec |  | [245](../../magpie/internal/library/mcp.go#L245) |
+| fmtGoose | const_spec |  | [246](../../magpie/internal/library/mcp.go#L246) |
+| fmtPi | const_spec |  | [247](../../magpie/internal/library/mcp.go#L247) |
+| fmtDesktop | const_spec |  | [248](../../magpie/internal/library/mcp.go#L248) |
+| fmtZCode | const_spec |  | [249](../../magpie/internal/library/mcp.go#L249) |
+| fmtDsh | const_spec |  | [250](../../magpie/internal/library/mcp.go#L250) |
+| fmtPiNative | const_spec |  | [252](../../magpie/internal/library/mcp.go#L252) |
+| fmtAntigravity | const_spec |  | [255](../../magpie/internal/library/mcp.go#L255) |
+| fmtHermes | const_spec |  | [258](../../magpie/internal/library/mcp.go#L258) |
+| fmtOmp | const_spec |  | [261](../../magpie/internal/library/mcp.go#L261) |
+| fmtKimi | const_spec |  | [264](../../magpie/internal/library/mcp.go#L264) |
+| fmtDevin | const_spec |  | [267](../../magpie/internal/library/mcp.go#L267) |
+| fmtGrok | const_spec |  | [269](../../magpie/internal/library/mcp.go#L269) |
+| fmtCline | const_spec |  | [272](../../magpie/internal/library/mcp.go#L272) |
+| fmtCommandCode | const_spec |  | [275](../../magpie/internal/library/mcp.go#L275) |
+| fmtAlma | const_spec |  | [278](../../magpie/internal/library/mcp.go#L278) |
+| fmtZed | const_spec |  | [281](../../magpie/internal/library/mcp.go#L281) |
+| fmtKiro | const_spec |  | [285](../../magpie/internal/library/mcp.go#L285) |
+| fmtLiveAgent | const_spec |  | [289](../../magpie/internal/library/mcp.go#L289) |
+| mcpFile | type_spec |  | [293](../../magpie/internal/library/mcp.go#L293) |
+| Path | field_declaration | mcpFile | [294](../../magpie/internal/library/mcp.go#L294) |
+| Format | field_declaration | mcpFile | [295](../../magpie/internal/library/mcp.go#L295) |
+| Also | field_declaration | mcpFile | [300](../../magpie/internal/library/mcp.go#L300) |
+| Extra | field_declaration | mcpFile | [304](../../magpie/internal/library/mcp.go#L304) |
+| WSL | field_declaration | mcpFile | [308](../../magpie/internal/library/mcp.go#L308) |
+| Distro | field_declaration | mcpFile | [309](../../magpie/internal/library/mcp.go#L309) |
+| Literal | field_declaration | mcpFile | [312](../../magpie/internal/library/mcp.go#L312) |
+| NoCmdRefs | field_declaration | mcpFile | [315](../../magpie/internal/library/mcp.go#L315) |
+| files | method_declaration |  | [319](../../magpie/internal/library/mcp.go#L319) |
+| key | method_declaration |  | [322](../../magpie/internal/library/mcp.go#L322) |
+| supports | method_declaration |  | [339](../../magpie/internal/library/mcp.go#L339) |
+| windowsPath | var_spec |  | [358](../../magpie/internal/library/mcp.go#L358) |
+| foreign | method_declaration |  | [365](../../magpie/internal/library/mcp.go#L365) |
+| errZedExtension | var_spec |  | [375](../../magpie/internal/library/mcp.go#L375) |
+| errNoRemote | var_spec |  | [379](../../magpie/internal/library/mcp.go#L379) |
+| errNoSSE | var_spec |  | [387](../../magpie/internal/library/mcp.go#L387) |
+| ordered | type_spec |  | [391](../../magpie/internal/library/mcp.go#L391) |
+| kv | type_spec |  | [393](../../magpie/internal/library/mcp.go#L393) |
+| k | field_declaration | kv | [394](../../magpie/internal/library/mcp.go#L394) |
+| v | field_declaration | kv | [395](../../magpie/internal/library/mcp.go#L395) |
+| MarshalJSON | method_declaration |  | [398](../../magpie/internal/library/mcp.go#L398) |
+| b | var_spec | MarshalJSON | [399](../../magpie/internal/library/mcp.go#L399) |
+| strs | function_declaration |  | [418](../../magpie/internal/library/mcp.go#L418) |
+| list | function_declaration |  | [425](../../magpie/internal/library/mcp.go#L425) |
+| MarshalYAML | method_declaration |  | [433](../../magpie/internal/library/mcp.go#L433) |
+| v | var_spec | MarshalYAML | [436](../../magpie/internal/library/mcp.go#L436) |
+| selfTimeout | function_declaration |  | [448](../../magpie/internal/library/mcp.go#L448) |
+| maxStartupTimeout | const_spec |  | [466](../../magpie/internal/library/mcp.go#L466) |
+| startupTheirs | function_declaration |  | [473](../../magpie/internal/library/mcp.go#L473) |
+| startupWritten | method_declaration |  | [483](../../magpie/internal/library/mcp.go#L483) |
+| startupBehind | function_declaration |  | [492](../../magpie/internal/library/mcp.go#L492) |
+| wroteStartup | function_declaration |  | [505](../../magpie/internal/library/mcp.go#L505) |
+| gooseOldTimeout | const_spec |  | [516](../../magpie/internal/library/mcp.go#L516) |
+| behind | method_declaration |  | [523](../../magpie/internal/library/mcp.go#L523) |
+| isNumber | function_declaration |  | [545](../../magpie/internal/library/mcp.go#L545) |
+| encode | method_declaration |  | [560](../../magpie/internal/library/mcp.go#L560) |
+| o | var_spec | encode | [561](../../magpie/internal/library/mcp.go#L561) |
+| str | function_declaration |  | [866](../../magpie/internal/library/mcp.go#L866) |
+| strList | function_declaration |  | [868](../../magpie/internal/library/mcp.go#L868) |
+| out | var_spec | strList | [870](../../magpie/internal/library/mcp.go#L870) |
+| strMap | function_declaration |  | [877](../../magpie/internal/library/mcp.go#L877) |

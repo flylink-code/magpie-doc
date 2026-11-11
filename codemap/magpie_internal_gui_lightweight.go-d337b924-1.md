@@ -4,28 +4,35 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/lightweight.go) · page 1/1
 
-Source SHA-256: fc52206457a8f1fa40f24a5f31e02b0be16042471190ad2da14da018fb43437d
+Source SHA-256: fa06661a5b7df587173a6175e7d9dbf824c56617a263087560cef1ff59a18d0d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | makeMain | method_declaration |  | [29](../../magpie/internal/gui/lightweight.go#L29) |
-| resized | var_spec | makeMain | [66](../../magpie/internal/gui/lightweight.go#L66) |
-| makePanel | method_declaration |  | [112](../../magpie/internal/gui/lightweight.go#L112) |
-| zoomWhenLoaded | method_declaration |  | [146](../../magpie/internal/gui/lightweight.go#L146) |
-| madeAgain | method_declaration |  | [159](../../magpie/internal/gui/lightweight.go#L159) |
-| whenLoaded | method_declaration |  | [174](../../magpie/internal/gui/lightweight.go#L174) |
-| once | var_spec | whenLoaded | [186](../../magpie/internal/gui/lightweight.go#L186) |
-| lighten | method_declaration |  | [199](../../magpie/internal/gui/lightweight.go#L199) |
-| ticks | var_spec | lighten | [201](../../magpie/internal/gui/lightweight.go#L201) |
-| let | var_spec | lighten | [204](../../magpie/internal/gui/lightweight.go#L204) |
-| release | var_spec | lighten | [213](../../magpie/internal/gui/lightweight.go#L213) |
-| panelWin | method_declaration |  | [238](../../magpie/internal/gui/lightweight.go#L238) |
-| lightShown | method_declaration |  | [251](../../magpie/internal/gui/lightweight.go#L251) |
-| mainShown | method_declaration |  | [257](../../magpie/internal/gui/lightweight.go#L257) |
-| openMain | method_declaration |  | [261](../../magpie/internal/gui/lightweight.go#L261) |
-| reopenMain | method_declaration |  | [293](../../magpie/internal/gui/lightweight.go#L293) |
-| spaceSettle | const_spec |  | [308](../../magpie/internal/gui/lightweight.go#L308) |
-| showHere | function_declaration |  | [314](../../magpie/internal/gui/lightweight.go#L314) |
-| placeMain | method_declaration |  | [344](../../magpie/internal/gui/lightweight.go#L344) |
-| mainRoom | method_declaration |  | [371](../../magpie/internal/gui/lightweight.go#L371) |
-| fitScreen | function_declaration |  | [386](../../magpie/internal/gui/lightweight.go#L386) |
+| resized | var_spec | makeMain | [70](../../magpie/internal/gui/lightweight.go#L70) |
+| moved | var_spec | makeMain | [92](../../magpie/internal/gui/lightweight.go#L92) |
+| makePanel | method_declaration |  | [126](../../magpie/internal/gui/lightweight.go#L126) |
+| zoomWhenLoaded | method_declaration |  | [162](../../magpie/internal/gui/lightweight.go#L162) |
+| madeAgain | method_declaration |  | [175](../../magpie/internal/gui/lightweight.go#L175) |
+| whenLoaded | method_declaration |  | [190](../../magpie/internal/gui/lightweight.go#L190) |
+| once | var_spec | whenLoaded | [202](../../magpie/internal/gui/lightweight.go#L202) |
+| lighten | method_declaration |  | [215](../../magpie/internal/gui/lightweight.go#L215) |
+| ticks | var_spec | lighten | [217](../../magpie/internal/gui/lightweight.go#L217) |
+| let | var_spec | lighten | [223](../../magpie/internal/gui/lightweight.go#L223) |
+| release | var_spec | lighten | [232](../../magpie/internal/gui/lightweight.go#L232) |
+| panelWin | method_declaration |  | [257](../../magpie/internal/gui/lightweight.go#L257) |
+| lightShown | method_declaration |  | [270](../../magpie/internal/gui/lightweight.go#L270) |
+| mainShown | method_declaration |  | [276](../../magpie/internal/gui/lightweight.go#L276) |
+| openMain | method_declaration |  | [280](../../magpie/internal/gui/lightweight.go#L280) |
+| reveal | method_declaration |  | [313](../../magpie/internal/gui/lightweight.go#L313) |
+| reopenMain | method_declaration |  | [326](../../magpie/internal/gui/lightweight.go#L326) |
+| spaceSettle | const_spec |  | [339](../../magpie/internal/gui/lightweight.go#L339) |
+| showHere | function_declaration |  | [346](../../magpie/internal/gui/lightweight.go#L346) |
+| placeMain | method_declaration |  | [379](../../magpie/internal/gui/lightweight.go#L379) |
+| placeAt | method_declaration |  | [389](../../magpie/internal/gui/lightweight.go#L389) |
+| putBack | method_declaration |  | [415](../../magpie/internal/gui/lightweight.go#L415) |
+| keepAt | method_declaration |  | [432](../../magpie/internal/gui/lightweight.go#L432) |
+| workAreas | function_declaration |  | [452](../../magpie/internal/gui/lightweight.go#L452) |
+| out | var_spec | workAreas | [453](../../magpie/internal/gui/lightweight.go#L453) |
+| mainRoom | method_declaration |  | [467](../../magpie/internal/gui/lightweight.go#L467) |
+| fitScreen | function_declaration |  | [482](../../magpie/internal/gui/lightweight.go#L482) |

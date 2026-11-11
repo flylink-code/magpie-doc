@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/connectinfo.go) · page 1/1
 
-Source SHA-256: 06989b8ac18d6f7fd2585c683a510af86f4ff58dfe724c2fabaafd0d2e1bc872
+Source SHA-256: 8b3748890de0e20ba22137a0d1ae9e39aa0dcfd00fb7f578983d5d587083fd53
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,24 +14,33 @@ Source SHA-256: 06989b8ac18d6f7fd2585c683a510af86f4ff58dfe724c2fabaafd0d2e1bc872
 | cfg | var_spec | Source | [73](../../magpie/internal/agent/connectinfo.go#L73) |
 | auth | var_spec | Source | [80](../../magpie/internal/agent/connectinfo.go#L80) |
 | FailoverSaid | method_declaration |  | [99](../../magpie/internal/agent/connectinfo.go#L99) |
-| startsWith | method_declaration |  | [113](../../magpie/internal/agent/connectinfo.go#L113) |
-| b | var_spec | startsWith | [118](../../magpie/internal/agent/connectinfo.go#L118) |
-| runningProc | type_spec |  | [142](../../magpie/internal/agent/connectinfo.go#L142) |
-| up | field_declaration | runningProc | [143](../../magpie/internal/agent/connectinfo.go#L143) |
-| cmd | field_declaration | runningProc | [144](../../magpie/internal/agent/connectinfo.go#L144) |
-| running | var_spec |  | [149](../../magpie/internal/agent/connectinfo.go#L149) |
-| changedAt | method_declaration |  | [157](../../magpie/internal/agent/connectinfo.go#L157) |
-| mod | var_spec | changedAt | [158](../../magpie/internal/agent/connectinfo.go#L158) |
-| Stale | method_declaration |  | [188](../../magpie/internal/agent/connectinfo.go#L188) |
-| StaleCopy | type_spec |  | [193](../../magpie/internal/agent/connectinfo.go#L193) |
-| Kind | field_declaration | StaleCopy | [200](../../magpie/internal/agent/connectinfo.go#L200) |
-| App | field_declaration | StaleCopy | [201](../../magpie/internal/agent/connectinfo.go#L201) |
-| Bundle | field_declaration | StaleCopy | [204](../../magpie/internal/agent/connectinfo.go#L204) |
-| Since | field_declaration | StaleCopy | [205](../../magpie/internal/agent/connectinfo.go#L205) |
-| StaleCopies | method_declaration |  | [218](../../magpie/internal/agent/connectinfo.go#L218) |
-| out | var_spec | StaleCopies | [234](../../magpie/internal/agent/connectinfo.go#L234) |
-| app | var_spec | StaleCopies | [247](../../magpie/internal/agent/connectinfo.go#L247) |
-| codexCopyKind | function_declaration |  | [279](../../magpie/internal/agent/connectinfo.go#L279) |
-| daemonHelper | function_declaration |  | [320](../../magpie/internal/agent/connectinfo.go#L320) |
-| elapsed | function_declaration |  | [331](../../magpie/internal/agent/connectinfo.go#L331) |
-| days | var_spec | elapsed | [336](../../magpie/internal/agent/connectinfo.go#L336) |
+| startsWith | method_declaration |  | [121](../../magpie/internal/agent/connectinfo.go#L121) |
+| b | var_spec | startsWith | [126](../../magpie/internal/agent/connectinfo.go#L126) |
+| codexLists | function_declaration |  | [145](../../magpie/internal/agent/connectinfo.go#L145) |
+| codexWiring | function_declaration |  | [152](../../magpie/internal/agent/connectinfo.go#L152) |
+| listedModels | function_declaration |  | [166](../../magpie/internal/agent/connectinfo.go#L166) |
+| l | var_spec | listedModels | [171](../../magpie/internal/agent/connectinfo.go#L171) |
+| Models | field_declaration | listedModels::l | [172](../../magpie/internal/agent/connectinfo.go#L172) |
+| Slug | field_declaration | listedModels::l::Models | [173](../../magpie/internal/agent/connectinfo.go#L173) |
+| Visibility | field_declaration | listedModels::l::Models | [174](../../magpie/internal/agent/connectinfo.go#L174) |
+| readsBefore | method_declaration |  | [193](../../magpie/internal/agent/connectinfo.go#L193) |
+| b | var_spec | readsBefore | [199](../../magpie/internal/agent/connectinfo.go#L199) |
+| runningProc | type_spec |  | [211](../../magpie/internal/agent/connectinfo.go#L211) |
+| up | field_declaration | runningProc | [212](../../magpie/internal/agent/connectinfo.go#L212) |
+| cmd | field_declaration | runningProc | [213](../../magpie/internal/agent/connectinfo.go#L213) |
+| running | var_spec |  | [218](../../magpie/internal/agent/connectinfo.go#L218) |
+| changedAt | method_declaration |  | [226](../../magpie/internal/agent/connectinfo.go#L226) |
+| mod | var_spec | changedAt | [227](../../magpie/internal/agent/connectinfo.go#L227) |
+| Stale | method_declaration |  | [265](../../magpie/internal/agent/connectinfo.go#L265) |
+| StaleCopy | type_spec |  | [270](../../magpie/internal/agent/connectinfo.go#L270) |
+| Kind | field_declaration | StaleCopy | [277](../../magpie/internal/agent/connectinfo.go#L277) |
+| App | field_declaration | StaleCopy | [278](../../magpie/internal/agent/connectinfo.go#L278) |
+| Bundle | field_declaration | StaleCopy | [281](../../magpie/internal/agent/connectinfo.go#L281) |
+| Since | field_declaration | StaleCopy | [282](../../magpie/internal/agent/connectinfo.go#L282) |
+| StaleCopies | method_declaration |  | [295](../../magpie/internal/agent/connectinfo.go#L295) |
+| out | var_spec | StaleCopies | [311](../../magpie/internal/agent/connectinfo.go#L311) |
+| app | var_spec | StaleCopies | [328](../../magpie/internal/agent/connectinfo.go#L328) |
+| codexCopyKind | function_declaration |  | [360](../../magpie/internal/agent/connectinfo.go#L360) |
+| daemonHelper | function_declaration |  | [401](../../magpie/internal/agent/connectinfo.go#L401) |
+| elapsed | function_declaration |  | [412](../../magpie/internal/agent/connectinfo.go#L412) |
+| days | var_spec | elapsed | [417](../../magpie/internal/agent/connectinfo.go#L417) |

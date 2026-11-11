@@ -4,13 +4,36 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/opencode.go) · page 2/2
 
-Source SHA-256: 6d6398537d0f8dfc52ddaf4be5e054e76f2afeaff4360a0bee20ff4461ba5069
+Source SHA-256: f4d8537e9537236063124bd7d731cbba612157c135552dcb6b650f42ecfbeb8a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| msgs | var_spec | parseOpenCode | [481](../../magpie/internal/sessions/opencode.go#L481) |
-| m | var_spec | parseOpenCode | [483](../../magpie/internal/sessions/opencode.go#L483) |
-| ocTitle | function_declaration |  | [526](../../magpie/internal/sessions/opencode.go#L526) |
-| typed | var_spec | ocTitle | [527](../../magpie/internal/sessions/opencode.go#L527) |
-| p | var_spec | ocTitle | [529](../../magpie/internal/sessions/opencode.go#L529) |
-| ocDefaultTitle | function_declaration |  | [550](../../magpie/internal/sessions/opencode.go#L550) |
+| b | var_spec | messages | [438](../../magpie/internal/sessions/opencode.go#L438) |
+| m | var_spec | messages | [442](../../magpie/internal/sessions/opencode.go#L442) |
+| v | var_spec | messages | [443](../../magpie/internal/sessions/opencode.go#L443) |
+| Model | field_declaration | messages::v | [444](../../magpie/internal/sessions/opencode.go#L444) |
+| ID | field_declaration | messages::v::Model | [445](../../magpie/internal/sessions/opencode.go#L445) |
+| ProviderID | field_declaration | messages::v::Model | [446](../../magpie/internal/sessions/opencode.go#L446) |
+| Variant | field_declaration | messages::v::Model | [447](../../magpie/internal/sessions/opencode.go#L447) |
+| parts | method_declaration |  | [472](../../magpie/internal/sessions/opencode.go#L472) |
+| b | var_spec | parts | [473](../../magpie/internal/sessions/opencode.go#L473) |
+| u | var_spec | parts | [477](../../magpie/internal/sessions/opencode.go#L477) |
+| Text | field_declaration | parts::u | [478](../../magpie/internal/sessions/opencode.go#L478) |
+| ocFiles | type_spec |  | [489](../../magpie/internal/sessions/opencode.go#L489) |
+| root | field_declaration | ocFiles | [489](../../magpie/internal/sessions/opencode.go#L489) |
+| openCodeJSONFiles | function_declaration |  | [491](../../magpie/internal/sessions/opencode.go#L491) |
+| out | var_spec | openCodeJSONFiles | [497](../../magpie/internal/sessions/opencode.go#L497) |
+| i | var_spec | openCodeJSONFiles | [501](../../magpie/internal/sessions/opencode.go#L501) |
+| info | method_declaration |  | [527](../../magpie/internal/sessions/opencode.go#L527) |
+| i | var_spec | info | [530](../../magpie/internal/sessions/opencode.go#L530) |
+| docs | method_declaration |  | [538](../../magpie/internal/sessions/opencode.go#L538) |
+| out | var_spec | docs | [541](../../magpie/internal/sessions/opencode.go#L541) |
+| messages | method_declaration |  | [550](../../magpie/internal/sessions/opencode.go#L550) |
+| parts | method_declaration |  | [551](../../magpie/internal/sessions/opencode.go#L551) |
+| parseOpenCode | function_declaration |  | [557](../../magpie/internal/sessions/opencode.go#L557) |
+| msgs | var_spec | parseOpenCode | [570](../../magpie/internal/sessions/opencode.go#L570) |
+| m | var_spec | parseOpenCode | [572](../../magpie/internal/sessions/opencode.go#L572) |
+| ocTitle | function_declaration |  | [621](../../magpie/internal/sessions/opencode.go#L621) |
+| typed | var_spec | ocTitle | [622](../../magpie/internal/sessions/opencode.go#L622) |
+| p | var_spec | ocTitle | [624](../../magpie/internal/sessions/opencode.go#L624) |
+| ocDefaultTitle | function_declaration |  | [645](../../magpie/internal/sessions/opencode.go#L645) |

@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/rpm.go) · page 1/1
 
-Source SHA-256: d9c09108cd9fcd11d5bcecc43ea318dbcff9be6675fa0afa4c5796b2ee5a9137
+Source SHA-256: 098e96d759fbe3ace416845caa6ff8aafb7485a847c4a0be5756bf2a1cb7add3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

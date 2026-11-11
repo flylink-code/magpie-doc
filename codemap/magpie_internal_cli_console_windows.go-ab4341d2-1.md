@@ -4,9 +4,15 @@
 
 [Module](magpie-cli.md) · [Source](../../magpie/internal/cli/console_windows.go) · page 1/1
 
-Source SHA-256: c96f0cf42ed88e9c1b3f508f702762e6372cfddc7c067db7f03fbfa9eb42ddd3
+Source SHA-256: 55a5edb8994292d9f02ef07e5fa1f8eed5484f22c0454a889a502460aad98673
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| init | function_declaration |  | [15](../../magpie/internal/cli/console_windows.go#L15) |
-| attachParentProcess | const_spec | init | [22](../../magpie/internal/cli/console_windows.go#L22) |
+| init | function_declaration |  | [23](../../magpie/internal/cli/console_windows.go#L23) |
+| attachParentProcess | const_spec | init | [32](../../magpie/internal/cli/console_windows.go#L32) |
+| f | field_declaration | init | [39](../../magpie/internal/cli/console_windows.go#L39) |
+| n | field_declaration | init | [40](../../magpie/internal/cli/console_windows.go#L40) |
+| was | field_declaration | init | [41](../../magpie/internal/cli/console_windows.go#L41) |
+| name | field_declaration | init | [42](../../magpie/internal/cli/console_windows.go#L42) |
+| companion | function_declaration |  | [80](../../magpie/internal/cli/console_windows.go#L80) |
+| pointStyles | function_declaration |  | [92](../../magpie/internal/cli/console_windows.go#L92) |

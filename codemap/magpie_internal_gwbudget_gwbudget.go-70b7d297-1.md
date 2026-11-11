@@ -4,22 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gwbudget/gwbudget.go) · page 1/1
 
-Source SHA-256: b24903eace273d1f3125f61de8eb5839354250a1628f9e484ac2cda3424aab33
+Source SHA-256: 5cfdc517ebb25f5dbc3d6c686fcc40ca6a1530c2e12b0a908373af6f50989361
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | Refusal | type_spec |  | [22](../../magpie/internal/gwbudget/gwbudget.go#L22) |
 | Limiter | type_spec |  | [33](../../magpie/internal/gwbudget/gwbudget.go#L33) |
-| mu | var_spec |  | [38](../../magpie/internal/gwbudget/gwbudget.go#L38) |
-| limiters | var_spec |  | [39](../../magpie/internal/gwbudget/gwbudget.go#L39) |
-| refresh | var_spec |  | [40](../../magpie/internal/gwbudget/gwbudget.go#L40) |
-| asking | var_spec |  | [41](../../magpie/internal/gwbudget/gwbudget.go#L41) |
-| lastAsk | var_spec |  | [42](../../magpie/internal/gwbudget/gwbudget.go#L42) |
-| Limit | function_declaration |  | [47](../../magpie/internal/gwbudget/gwbudget.go#L47) |
-| once | var_spec | Limit | [52](../../magpie/internal/gwbudget/gwbudget.go#L52) |
-| Refresh | function_declaration |  | [70](../../magpie/internal/gwbudget/gwbudget.go#L70) |
-| once | var_spec | Refresh | [74](../../magpie/internal/gwbudget/gwbudget.go#L74) |
-| served | function_declaration |  | [84](../../magpie/internal/gwbudget/gwbudget.go#L84) |
-| ForgetRefreshForTest | function_declaration |  | [95](../../magpie/internal/gwbudget/gwbudget.go#L95) |
-| ErrUnlimited | var_spec |  | [99](../../magpie/internal/gwbudget/gwbudget.go#L99) |
-| Limiting | function_declaration |  | [106](../../magpie/internal/gwbudget/gwbudget.go#L106) |
+| Spender | type_spec |  | [40](../../magpie/internal/gwbudget/gwbudget.go#L40) |
+| mu | var_spec |  | [45](../../magpie/internal/gwbudget/gwbudget.go#L45) |
+| limiters | var_spec |  | [46](../../magpie/internal/gwbudget/gwbudget.go#L46) |
+| refresh | var_spec |  | [47](../../magpie/internal/gwbudget/gwbudget.go#L47) |
+| asking | var_spec |  | [48](../../magpie/internal/gwbudget/gwbudget.go#L48) |
+| lastAsk | var_spec |  | [49](../../magpie/internal/gwbudget/gwbudget.go#L49) |
+| Limit | function_declaration |  | [54](../../magpie/internal/gwbudget/gwbudget.go#L54) |
+| once | var_spec | Limit | [59](../../magpie/internal/gwbudget/gwbudget.go#L59) |
+| Refresh | function_declaration |  | [77](../../magpie/internal/gwbudget/gwbudget.go#L77) |
+| once | var_spec | Refresh | [81](../../magpie/internal/gwbudget/gwbudget.go#L81) |
+| served | function_declaration |  | [91](../../magpie/internal/gwbudget/gwbudget.go#L91) |
+| ForgetRefreshForTest | function_declaration |  | [102](../../magpie/internal/gwbudget/gwbudget.go#L102) |
+| ErrUnlimited | var_spec |  | [106](../../magpie/internal/gwbudget/gwbudget.go#L106) |
+| Limiting | function_declaration |  | [113](../../magpie/internal/gwbudget/gwbudget.go#L113) |

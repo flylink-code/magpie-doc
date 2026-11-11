@@ -4,22 +4,23 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/tier_record.go) · page 1/1
 
-Source SHA-256: bd0f84e432d4779e334d50bd03429d78eac558141789f82655e8cf113e3809cd
+Source SHA-256: c7433aed77152a0b91c9c46dc74dc1ece8137bd7410559ba2d70a1960124623b
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| bodyTier | function_declaration |  | [24](../../magpie/internal/gateway/tier_record.go#L24) |
-| topValue | function_declaration |  | [42](../../magpie/internal/gateway/tier_record.go#L42) |
-| tierWord | function_declaration |  | [55](../../magpie/internal/gateway/tier_record.go#L55) |
-| noteWireTier | function_declaration |  | [66](../../magpie/internal/gateway/tier_record.go#L66) |
-| upstreamTier | function_declaration |  | [77](../../magpie/internal/gateway/tier_record.go#L77) |
-| v | var_spec | upstreamTier | [81](../../magpie/internal/gateway/tier_record.go#L81) |
-| Tier | field_declaration | upstreamTier::v | [82](../../magpie/internal/gateway/tier_record.go#L82) |
-| Response | field_declaration | upstreamTier::v | [83](../../magpie/internal/gateway/tier_record.go#L83) |
-| Tier | field_declaration | upstreamTier::v::Response | [84](../../magpie/internal/gateway/tier_record.go#L84) |
-| Usage | field_declaration | upstreamTier::v | [86](../../magpie/internal/gateway/tier_record.go#L86) |
-| Tier | field_declaration | upstreamTier::v::Usage | [87](../../magpie/internal/gateway/tier_record.go#L87) |
-| Message | field_declaration | upstreamTier::v | [89](../../magpie/internal/gateway/tier_record.go#L89) |
-| Usage | field_declaration | upstreamTier::v::Message | [90](../../magpie/internal/gateway/tier_record.go#L90) |
-| Tier | field_declaration | upstreamTier::v::Message::Usage | [91](../../magpie/internal/gateway/tier_record.go#L91) |
-| s | var_spec | upstreamTier | [99](../../magpie/internal/gateway/tier_record.go#L99) |
+| servedTierAt | function_declaration |  | [28](../../magpie/internal/gateway/tier_record.go#L28) |
+| bodyTier | function_declaration |  | [38](../../magpie/internal/gateway/tier_record.go#L38) |
+| topValue | function_declaration |  | [56](../../magpie/internal/gateway/tier_record.go#L56) |
+| tierWord | function_declaration |  | [69](../../magpie/internal/gateway/tier_record.go#L69) |
+| noteWireTier | function_declaration |  | [80](../../magpie/internal/gateway/tier_record.go#L80) |
+| upstreamTier | function_declaration |  | [91](../../magpie/internal/gateway/tier_record.go#L91) |
+| v | var_spec | upstreamTier | [95](../../magpie/internal/gateway/tier_record.go#L95) |
+| Tier | field_declaration | upstreamTier::v | [96](../../magpie/internal/gateway/tier_record.go#L96) |
+| Response | field_declaration | upstreamTier::v | [97](../../magpie/internal/gateway/tier_record.go#L97) |
+| Tier | field_declaration | upstreamTier::v::Response | [98](../../magpie/internal/gateway/tier_record.go#L98) |
+| Usage | field_declaration | upstreamTier::v | [100](../../magpie/internal/gateway/tier_record.go#L100) |
+| Tier | field_declaration | upstreamTier::v::Usage | [101](../../magpie/internal/gateway/tier_record.go#L101) |
+| Message | field_declaration | upstreamTier::v | [103](../../magpie/internal/gateway/tier_record.go#L103) |
+| Usage | field_declaration | upstreamTier::v::Message | [104](../../magpie/internal/gateway/tier_record.go#L104) |
+| Tier | field_declaration | upstreamTier::v::Message::Usage | [105](../../magpie/internal/gateway/tier_record.go#L105) |
+| s | var_spec | upstreamTier | [113](../../magpie/internal/gateway/tier_record.go#L113) |

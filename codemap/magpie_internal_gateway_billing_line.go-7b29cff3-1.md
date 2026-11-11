@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/billing_line.go) · page 1/1
 
-Source SHA-256: c291e460bc38f32af00858cadc74e93613f22987a8f3513d3c50082dd2e6d7a4
+Source SHA-256: 4cffc26a8f728b01be89b06164c58a106854627a983fba112c7fe5cc2dd75007
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

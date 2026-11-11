@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/reasonix.go) · page 1/1
 
-Source SHA-256: ce5b61f240f5023adb2937338e33b59f6671af6a0b4273a012d117b09892ff3d
+Source SHA-256: 899452ccd7dcd8218afb20513d6fd8c4de68628d4593c332c1d3839f6f71efe3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

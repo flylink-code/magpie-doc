@@ -4,7 +4,7 @@
 
 [Module](magpie-usage.md) · [Source](../../magpie/internal/usage/window_holds_history.go) · page 1/1
 
-Source SHA-256: 4f9b85fb0ced204d91454dc6ed0bed28ddaf7f153058f7eae27784c135d3367f
+Source SHA-256: 118c299b07ea47bf101b33c698f43370ab7a4f591e5365f89ce8198ced431ce3
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |

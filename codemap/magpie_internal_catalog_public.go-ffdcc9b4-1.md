@@ -4,21 +4,29 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/catalog/public.go) · page 1/1
 
-Source SHA-256: b22ccf09d0155c30aa69a95acc41156c9f26244f5464d2cc29a481401a780d4e
+Source SHA-256: a2f9b3bf7e891fdc151ce756870d774efcaf4d7e4dc73035ff62077d0efd35e5
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| PublicCatalogs | var_spec |  | [18](../../magpie/internal/catalog/public.go#L18) |
-| PublicDrawers | function_declaration |  | [24](../../magpie/internal/catalog/public.go#L24) |
-| list | var_spec | PublicDrawers | [50](../../magpie/internal/catalog/public.go#L50) |
-| Data | field_declaration | PublicDrawers::list | [51](../../magpie/internal/catalog/public.go#L51) |
-| out | var_spec | PublicDrawers | [56](../../magpie/internal/catalog/public.go#L56) |
-| m | var_spec | PublicDrawers | [58](../../magpie/internal/catalog/public.go#L58) |
-| ID | field_declaration | PublicDrawers::m | [59](../../magpie/internal/catalog/public.go#L59) |
-| Name | field_declaration | PublicDrawers::m | [60](../../magpie/internal/catalog/public.go#L60) |
-| Types | field_declaration | PublicDrawers::m | [61](../../magpie/internal/catalog/public.go#L61) |
-| Out | field_declaration | PublicDrawers::m | [62](../../magpie/internal/catalog/public.go#L62) |
-| In | field_declaration | PublicDrawers::m | [63](../../magpie/internal/catalog/public.go#L63) |
-| Release | field_declaration | PublicDrawers::m | [64](../../magpie/internal/catalog/public.go#L64) |
-| WithDrawers | function_declaration |  | [87](../../magpie/internal/catalog/public.go#L87) |
-| imageInputOf | function_declaration |  | [96](../../magpie/internal/catalog/public.go#L96) |
+| PublicCatalogs | var_spec |  | [24](../../magpie/internal/catalog/public.go#L24) |
+| PublicDrawers | function_declaration |  | [31](../../magpie/internal/catalog/public.go#L31) |
+| list | var_spec | PublicDrawers | [57](../../magpie/internal/catalog/public.go#L57) |
+| Data | field_declaration | PublicDrawers::list | [58](../../magpie/internal/catalog/public.go#L58) |
+| out | var_spec | PublicDrawers | [63](../../magpie/internal/catalog/public.go#L63) |
+| m | var_spec | PublicDrawers | [69](../../magpie/internal/catalog/public.go#L69) |
+| ID | field_declaration | PublicDrawers::m | [70](../../magpie/internal/catalog/public.go#L70) |
+| Name | field_declaration | PublicDrawers::m | [71](../../magpie/internal/catalog/public.go#L71) |
+| Types | field_declaration | PublicDrawers::m | [72](../../magpie/internal/catalog/public.go#L72) |
+| Out | field_declaration | PublicDrawers::m | [73](../../magpie/internal/catalog/public.go#L73) |
+| In | field_declaration | PublicDrawers::m | [74](../../magpie/internal/catalog/public.go#L74) |
+| Release | field_declaration | PublicDrawers::m | [75](../../magpie/internal/catalog/public.go#L75) |
+| openRouterDrawer | function_declaration |  | [102](../../magpie/internal/catalog/public.go#L102) |
+| m | var_spec | openRouterDrawer | [103](../../magpie/internal/catalog/public.go#L103) |
+| ID | field_declaration | openRouterDrawer::m | [104](../../magpie/internal/catalog/public.go#L104) |
+| Name | field_declaration | openRouterDrawer::m | [105](../../magpie/internal/catalog/public.go#L105) |
+| Created | field_declaration | openRouterDrawer::m | [106](../../magpie/internal/catalog/public.go#L106) |
+| Architecture | field_declaration | openRouterDrawer::m | [107](../../magpie/internal/catalog/public.go#L107) |
+| In | field_declaration | openRouterDrawer::m::Architecture | [108](../../magpie/internal/catalog/public.go#L108) |
+| Out | field_declaration | openRouterDrawer::m::Architecture | [109](../../magpie/internal/catalog/public.go#L109) |
+| WithDrawers | function_declaration |  | [133](../../magpie/internal/catalog/public.go#L133) |
+| imageInputOf | function_declaration |  | [142](../../magpie/internal/catalog/public.go#L142) |

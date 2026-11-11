@@ -4,13 +4,20 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/window_rule.go) · page 1/1
 
-Source SHA-256: c7dcf5548b3ca0e4c9f272a5d16cfb64d6025055cb80633b59266848448f06db
+Source SHA-256: 2913bff423727fe385f5bab93c3c70b8eff94b77ab0e5c1de32676638496f672
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| windowW | const_spec |  | [10](../../magpie/internal/gui/window_rule.go#L10) |
-| openSize | function_declaration |  | [15](../../magpie/internal/gui/window_rule.go#L15) |
-| fitRoom | function_declaration |  | [27](../../magpie/internal/gui/window_rule.go#L27) |
-| settle | function_declaration |  | [47](../../magpie/internal/gui/window_rule.go#L47) |
-| fitted | function_declaration |  | [65](../../magpie/internal/gui/window_rule.go#L65) |
-| abs | function_declaration |  | [72](../../magpie/internal/gui/window_rule.go#L72) |
+| windowW | const_spec |  | [15](../../magpie/internal/gui/window_rule.go#L15) |
+| openSize | function_declaration |  | [20](../../magpie/internal/gui/window_rule.go#L20) |
+| fitRoom | function_declaration |  | [32](../../magpie/internal/gui/window_rule.go#L32) |
+| settle | function_declaration |  | [52](../../magpie/internal/gui/window_rule.go#L52) |
+| fitted | function_declaration |  | [70](../../magpie/internal/gui/window_rule.go#L70) |
+| abs | function_declaration |  | [77](../../magpie/internal/gui/window_rule.go#L77) |
+| area | type_spec |  | [86](../../magpie/internal/gui/window_rule.go#L86) |
+| x | field_declaration | area | [86](../../magpie/internal/gui/window_rule.go#L86) |
+| openAt | function_declaration |  | [95](../../magpie/internal/gui/window_rule.go#L95) |
+| overlap | function_declaration |  | [114](../../magpie/internal/gui/window_rule.go#L114) |
+| within | function_declaration |  | [120](../../magpie/internal/gui/window_rule.go#L120) |
+| settleAt | function_declaration |  | [126](../../magpie/internal/gui/window_rule.go#L126) |
+| keepsPlace | function_declaration |  | [138](../../magpie/internal/gui/window_rule.go#L138) |

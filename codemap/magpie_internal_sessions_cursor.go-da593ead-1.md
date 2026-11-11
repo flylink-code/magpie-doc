@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/sessions/cursor.go) · page 1/1
 
-Source SHA-256: 3f6bea62e51bbce149e9dc401e01ac518520747b2f4dc446f2cdc672f1b50457
+Source SHA-256: 69abee8033a9518f2a608c30117a851f1eb726d151477dc7231d924ec669f5ea
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -42,31 +42,32 @@ Source SHA-256: 3f6bea62e51bbce149e9dc401e01ac518520747b2f4dc446f2cdc672f1b50457
 | cursorParentOf | function_declaration |  | [148](../../magpie/internal/sessions/cursor.go#L148) |
 | openCursorStore | function_declaration |  | [184](../../magpie/internal/sessions/cursor.go#L184) |
 | OpenUntouched | function_declaration |  | [194](../../magpie/internal/sessions/cursor.go#L194) |
-| copyFile | function_declaration |  | [227](../../magpie/internal/sessions/cursor.go#L227) |
-| cursorFiles | function_declaration |  | [244](../../magpie/internal/sessions/cursor.go#L244) |
-| out | var_spec | cursorFiles | [246](../../magpie/internal/sessions/cursor.go#L246) |
-| pbFields | function_declaration |  | [278](../../magpie/internal/sessions/cursor.go#L278) |
-| cursorMessage | type_spec |  | [323](../../magpie/internal/sessions/cursor.go#L323) |
-| Role | field_declaration | cursorMessage | [324](../../magpie/internal/sessions/cursor.go#L324) |
-| Content | field_declaration | cursorMessage | [325](../../magpie/internal/sessions/cursor.go#L325) |
-| cursorPart | type_spec |  | [328](../../magpie/internal/sessions/cursor.go#L328) |
-| Type | field_declaration | cursorPart | [329](../../magpie/internal/sessions/cursor.go#L329) |
-| Text | field_declaration | cursorPart | [330](../../magpie/internal/sessions/cursor.go#L330) |
-| ToolName | field_declaration | cursorPart | [331](../../magpie/internal/sessions/cursor.go#L331) |
-| cursorMessages | function_declaration |  | [336](../../magpie/internal/sessions/cursor.go#L336) |
-| data | var_spec | cursorMessages | [338](../../magpie/internal/sessions/cursor.go#L338) |
-| ids | var_spec | cursorMessages | [352](../../magpie/internal/sessions/cursor.go#L352) |
-| out | var_spec | cursorMessages | [362](../../magpie/internal/sessions/cursor.go#L362) |
-| m | var_spec | cursorMessages | [364](../../magpie/internal/sessions/cursor.go#L364) |
-| cursorStarted | function_declaration |  | [373](../../magpie/internal/sessions/cursor.go#L373) |
-| data | var_spec | cursorStarted | [378](../../magpie/internal/sessions/cursor.go#L378) |
-| cursorQuery | var_spec |  | [387](../../magpie/internal/sessions/cursor.go#L387) |
-| cursorContext | var_spec |  | [389](../../magpie/internal/sessions/cursor.go#L389) |
-| cursorParts | function_declaration |  | [393](../../magpie/internal/sessions/cursor.go#L393) |
-| s | var_spec | cursorParts | [394](../../magpie/internal/sessions/cursor.go#L394) |
-| parts | var_spec | cursorParts | [398](../../magpie/internal/sessions/cursor.go#L398) |
-| cursorTyped | function_declaration |  | [405](../../magpie/internal/sessions/cursor.go#L405) |
-| texts | var_spec | cursorTyped | [406](../../magpie/internal/sessions/cursor.go#L406) |
-| q | var_spec | cursorTyped | [414](../../magpie/internal/sessions/cursor.go#L414) |
-| parseCursor | function_declaration |  | [428](../../magpie/internal/sessions/cursor.go#L428) |
-| cursorTitle | function_declaration |  | [499](../../magpie/internal/sessions/cursor.go#L499) |
+| openSQLite | function_declaration |  | [214](../../magpie/internal/sessions/cursor.go#L214) |
+| copyFile | function_declaration |  | [230](../../magpie/internal/sessions/cursor.go#L230) |
+| cursorFiles | function_declaration |  | [247](../../magpie/internal/sessions/cursor.go#L247) |
+| out | var_spec | cursorFiles | [252](../../magpie/internal/sessions/cursor.go#L252) |
+| pbFields | function_declaration |  | [284](../../magpie/internal/sessions/cursor.go#L284) |
+| cursorMessage | type_spec |  | [329](../../magpie/internal/sessions/cursor.go#L329) |
+| Role | field_declaration | cursorMessage | [330](../../magpie/internal/sessions/cursor.go#L330) |
+| Content | field_declaration | cursorMessage | [331](../../magpie/internal/sessions/cursor.go#L331) |
+| cursorPart | type_spec |  | [334](../../magpie/internal/sessions/cursor.go#L334) |
+| Type | field_declaration | cursorPart | [335](../../magpie/internal/sessions/cursor.go#L335) |
+| Text | field_declaration | cursorPart | [336](../../magpie/internal/sessions/cursor.go#L336) |
+| ToolName | field_declaration | cursorPart | [337](../../magpie/internal/sessions/cursor.go#L337) |
+| cursorMessages | function_declaration |  | [342](../../magpie/internal/sessions/cursor.go#L342) |
+| data | var_spec | cursorMessages | [344](../../magpie/internal/sessions/cursor.go#L344) |
+| ids | var_spec | cursorMessages | [358](../../magpie/internal/sessions/cursor.go#L358) |
+| out | var_spec | cursorMessages | [368](../../magpie/internal/sessions/cursor.go#L368) |
+| m | var_spec | cursorMessages | [370](../../magpie/internal/sessions/cursor.go#L370) |
+| cursorStarted | function_declaration |  | [379](../../magpie/internal/sessions/cursor.go#L379) |
+| data | var_spec | cursorStarted | [384](../../magpie/internal/sessions/cursor.go#L384) |
+| cursorQuery | var_spec |  | [393](../../magpie/internal/sessions/cursor.go#L393) |
+| cursorContext | var_spec |  | [395](../../magpie/internal/sessions/cursor.go#L395) |
+| cursorParts | function_declaration |  | [399](../../magpie/internal/sessions/cursor.go#L399) |
+| s | var_spec | cursorParts | [400](../../magpie/internal/sessions/cursor.go#L400) |
+| parts | var_spec | cursorParts | [404](../../magpie/internal/sessions/cursor.go#L404) |
+| cursorTyped | function_declaration |  | [411](../../magpie/internal/sessions/cursor.go#L411) |
+| texts | var_spec | cursorTyped | [412](../../magpie/internal/sessions/cursor.go#L412) |
+| q | var_spec | cursorTyped | [420](../../magpie/internal/sessions/cursor.go#L420) |
+| parseCursor | function_declaration |  | [434](../../magpie/internal/sessions/cursor.go#L434) |
+| cursorTitle | function_declaration |  | [505](../../magpie/internal/sessions/cursor.go#L505) |

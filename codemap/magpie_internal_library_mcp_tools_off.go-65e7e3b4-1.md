@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/mcp_tools_off.go) · page 1/1
 
-Source SHA-256: 52b75f67b721a7ff068e0e557500de4e2577f9848c6f4fc8ae6b1ee7e989494d
+Source SHA-256: 83f9b9405e0488cc77536a5acde902ee92216b288073ba1edd9961067dfb9693
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -14,22 +14,22 @@ Source SHA-256: 52b75f67b721a7ff068e0e557500de4e2577f9848c6f4fc8ae6b1ee7e989494d
 | toolsClaudeDeny | const_spec |  | [35](../../magpie/internal/library/mcp_tools_off.go#L35) |
 | toolsOpenCode | const_spec |  | [41](../../magpie/internal/library/mcp_tools_off.go#L41) |
 | toolsOffOf | function_declaration |  | [48](../../magpie/internal/library/mcp_tools_off.go#L48) |
-| toolsKey | method_declaration |  | [79](../../magpie/internal/library/mcp_tools_off.go#L79) |
-| entryTools | function_declaration |  | [94](../../magpie/internal/library/mcp_tools_off.go#L94) |
-| v | var_spec | entryTools | [95](../../magpie/internal/library/mcp_tools_off.go#L95) |
-| offList | function_declaration |  | [125](../../magpie/internal/library/mcp_tools_off.go#L125) |
-| toolsEdit | type_spec |  | [147](../../magpie/internal/library/mcp_tools_off.go#L147) |
-| key | field_declaration | toolsEdit | [148](../../magpie/internal/library/mcp_tools_off.go#L148) |
-| list | field_declaration | toolsEdit | [149](../../magpie/internal/library/mcp_tools_off.go#L149) |
-| apply | method_declaration |  | [154](../../magpie/internal/library/mcp_tools_off.go#L154) |
-| entryToolsEdit | function_declaration |  | [200](../../magpie/internal/library/mcp_tools_off.go#L200) |
-| mcpNameBad | var_spec |  | [219](../../magpie/internal/library/mcp_tools_off.go#L219) |
-| mcpToolName | function_declaration |  | [221](../../magpie/internal/library/mcp_tools_off.go#L221) |
-| toolRule | function_declaration |  | [225](../../magpie/internal/library/mcp_tools_off.go#L225) |
-| syncToolRules | method_declaration |  | [235](../../magpie/internal/library/mcp_tools_off.go#L235) |
-| want | var_spec | syncToolRules | [238](../../magpie/internal/library/mcp_tools_off.go#L238) |
-| set | var_spec | syncToolRules | [319](../../magpie/internal/library/mcp_tools_off.go#L319) |
-| del | var_spec | syncToolRules | [320](../../magpie/internal/library/mcp_tools_off.go#L320) |
-| cleanTools | function_declaration |  | [362](../../magpie/internal/library/mcp_tools_off.go#L362) |
-| out | var_spec | cleanTools | [363](../../magpie/internal/library/mcp_tools_off.go#L363) |
-| ServerTools | function_declaration |  | [380](../../magpie/internal/library/mcp_tools_off.go#L380) |
+| toolsKey | method_declaration |  | [81](../../magpie/internal/library/mcp_tools_off.go#L81) |
+| entryTools | function_declaration |  | [96](../../magpie/internal/library/mcp_tools_off.go#L96) |
+| v | var_spec | entryTools | [97](../../magpie/internal/library/mcp_tools_off.go#L97) |
+| offList | function_declaration |  | [127](../../magpie/internal/library/mcp_tools_off.go#L127) |
+| toolsEdit | type_spec |  | [149](../../magpie/internal/library/mcp_tools_off.go#L149) |
+| key | field_declaration | toolsEdit | [150](../../magpie/internal/library/mcp_tools_off.go#L150) |
+| list | field_declaration | toolsEdit | [151](../../magpie/internal/library/mcp_tools_off.go#L151) |
+| apply | method_declaration |  | [156](../../magpie/internal/library/mcp_tools_off.go#L156) |
+| entryToolsEdit | function_declaration |  | [202](../../magpie/internal/library/mcp_tools_off.go#L202) |
+| mcpNameBad | var_spec |  | [221](../../magpie/internal/library/mcp_tools_off.go#L221) |
+| mcpToolName | function_declaration |  | [223](../../magpie/internal/library/mcp_tools_off.go#L223) |
+| toolRule | function_declaration |  | [227](../../magpie/internal/library/mcp_tools_off.go#L227) |
+| syncToolRules | method_declaration |  | [237](../../magpie/internal/library/mcp_tools_off.go#L237) |
+| want | var_spec | syncToolRules | [243](../../magpie/internal/library/mcp_tools_off.go#L243) |
+| set | var_spec | syncToolRules | [324](../../magpie/internal/library/mcp_tools_off.go#L324) |
+| del | var_spec | syncToolRules | [325](../../magpie/internal/library/mcp_tools_off.go#L325) |
+| cleanTools | function_declaration |  | [367](../../magpie/internal/library/mcp_tools_off.go#L367) |
+| out | var_spec | cleanTools | [368](../../magpie/internal/library/mcp_tools_off.go#L368) |
+| ServerTools | function_declaration |  | [385](../../magpie/internal/library/mcp_tools_off.go#L385) |

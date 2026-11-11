@@ -4,18 +4,18 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/zoom_windows_arm64.go) · page 1/1
 
-Source SHA-256: b2e1ae944a5fde423528f6a64c5c85a55faed1c8876cbe3bb640b8728a4f135e
+Source SHA-256: ec9acb8d4713133a84e3a2a896e78f247cd752cd29660524e3e6300361cf2aa8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| setPageZoom | function_declaration |  | [27](../../magpie/internal/gui/zoom_windows_arm64.go#L27) |
-| zoomsAfterLoad | const_spec |  | [35](../../magpie/internal/gui/zoom_windows_arm64.go#L35) |
-| putZoomFactor | function_declaration |  | [39](../../magpie/internal/gui/zoom_windows_arm64.go#L39) |
-| putZoomFactorSlot | const_spec | putZoomFactor | [52](../../magpie/internal/gui/zoom_windows_arm64.go#L52) |
-| webviewController | function_declaration |  | [67](../../magpie/internal/gui/zoom_windows_arm64.go#L67) |
-| flushInstructionCache | var_spec |  | [94](../../magpie/internal/gui/zoom_windows_arm64.go#L94) |
-| thunkOnce | var_spec |  | [96](../../magpie/internal/gui/zoom_windows_arm64.go#L96) |
-| thunkAddr | var_spec |  | [97](../../magpie/internal/gui/zoom_windows_arm64.go#L97) |
-| thunkErr | var_spec |  | [98](../../magpie/internal/gui/zoom_windows_arm64.go#L98) |
-| doubleThunk | function_declaration |  | [110](../../magpie/internal/gui/zoom_windows_arm64.go#L110) |
-| old | var_spec | doubleThunk | [121](../../magpie/internal/gui/zoom_windows_arm64.go#L121) |
+| setPageZoom | function_declaration |  | [26](../../magpie/internal/gui/zoom_windows_arm64.go#L26) |
+| zoomsAfterLoad | const_spec |  | [34](../../magpie/internal/gui/zoom_windows_arm64.go#L34) |
+| putZoomFactor | function_declaration |  | [38](../../magpie/internal/gui/zoom_windows_arm64.go#L38) |
+| putZoomFactorSlot | const_spec | putZoomFactor | [51](../../magpie/internal/gui/zoom_windows_arm64.go#L51) |
+| webviewController | function_declaration |  | [64](../../magpie/internal/gui/zoom_windows_arm64.go#L64) |
+| flushInstructionCache | var_spec |  | [69](../../magpie/internal/gui/zoom_windows_arm64.go#L69) |
+| thunkOnce | var_spec |  | [71](../../magpie/internal/gui/zoom_windows_arm64.go#L71) |
+| thunkAddr | var_spec |  | [72](../../magpie/internal/gui/zoom_windows_arm64.go#L72) |
+| thunkErr | var_spec |  | [73](../../magpie/internal/gui/zoom_windows_arm64.go#L73) |
+| doubleThunk | function_declaration |  | [85](../../magpie/internal/gui/zoom_windows_arm64.go#L85) |
+| old | var_spec | doubleThunk | [96](../../magpie/internal/gui/zoom_windows_arm64.go#L96) |

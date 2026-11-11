@@ -4,13 +4,13 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/legacy.go) · page 1/1
 
-Source SHA-256: b9c39355b6e8bba95771cb5926a40e99f208255f63bdfdea34c578b63ffbc6fe
+Source SHA-256: fd559b985b41fd02df503a8198f15e8d8a6bd81dfae8e550a4b94897fdbf3263
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | legacyID | const_spec |  | [14](../../magpie/internal/agent/legacy.go#L14) |
 | RenameLegacy | function_declaration |  | [23](../../magpie/internal/agent/legacy.go#L23) |
-| MoveCursorEfforts | function_declaration |  | [70](../../magpie/internal/agent/legacy.go#L70) |
-| MoveAntigravityEfforts | function_declaration |  | [75](../../magpie/internal/agent/legacy.go#L75) |
-| moveEfforts | function_declaration |  | [77](../../magpie/internal/agent/legacy.go#L77) |
-| vals | var_spec | moveEfforts | [85](../../magpie/internal/agent/legacy.go#L85) |
+| MoveCursorEfforts | function_declaration |  | [74](../../magpie/internal/agent/legacy.go#L74) |
+| MoveAntigravityEfforts | function_declaration |  | [79](../../magpie/internal/agent/legacy.go#L79) |
+| moveEfforts | function_declaration |  | [81](../../magpie/internal/agent/legacy.go#L81) |
+| vals | var_spec | moveEfforts | [89](../../magpie/internal/agent/legacy.go#L89) |

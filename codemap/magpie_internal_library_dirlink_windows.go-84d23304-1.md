@@ -4,11 +4,9 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/dirlink_windows.go) · page 1/1
 
-Source SHA-256: aad341245d2a5a8a5cc861eacda7f2c46cf2ec5f0fde44c6349a901ff094380a
+Source SHA-256: f8cfc36661818d0ff0cbf1b78c16d090291f93b5c118510bb046ff27e337de28
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| dirLink | function_declaration |  | [20](../../magpie/internal/library/dirlink_windows.go#L20) |
-| junction | function_declaration |  | [33](../../magpie/internal/library/dirlink_windows.go#L33) |
-| setMountPoint | function_declaration |  | [51](../../magpie/internal/library/dirlink_windows.go#L51) |
-| n | var_spec | setMountPoint | [79](../../magpie/internal/library/dirlink_windows.go#L79) |
+| dirLink | function_declaration |  | [19](../../magpie/internal/library/dirlink_windows.go#L19) |
+| junction | function_declaration |  | [31](../../magpie/internal/library/dirlink_windows.go#L31) |

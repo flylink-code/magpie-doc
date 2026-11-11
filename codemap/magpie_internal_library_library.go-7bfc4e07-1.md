@@ -4,7 +4,7 @@
 
 [Module](magpie-sessions.md) · [Source](../../magpie/internal/library/library.go) · page 1/1
 
-Source SHA-256: f21587733707ed7d9d61eb98647a113da19f3963bc4a59fb6dc32f071da06db2
+Source SHA-256: c299ae79db74702163c9560ced7d99ced14dfd664417763c49d996d17aef0fe6
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -15,50 +15,67 @@ Source SHA-256: f21587733707ed7d9d61eb98647a113da19f3963bc4a59fb6dc32f071da06db2
 | Projects | field_declaration | Library | [28](../../magpie/internal/library/library.go#L28) |
 | Hooks | field_declaration | Library | [31](../../magpie/internal/library/library.go#L31) |
 | Subagents | field_declaration | Library | [34](../../magpie/internal/library/library.go#L34) |
-| Applied | field_declaration | Library | [37](../../magpie/internal/library/library.go#L37) |
-| Icons | field_declaration | Library | [40](../../magpie/internal/library/library.go#L40) |
-| SkillGroups | field_declaration | Library | [43](../../magpie/internal/library/library.go#L43) |
-| CopySkills | field_declaration | Library | [47](../../magpie/internal/library/library.go#L47) |
-| SkillHow | field_declaration | Library | [48](../../magpie/internal/library/library.go#L48) |
-| SeenSkills | field_declaration | Library | [53](../../magpie/internal/library/library.go#L53) |
-| kept | field_declaration | Library | [56](../../magpie/internal/library/library.go#L56) |
-| hashes | field_declaration | Library | [59](../../magpie/internal/library/library.go#L59) |
-| untouched | field_declaration | Library | [62](../../magpie/internal/library/library.go#L62) |
-| blockedSkills | field_declaration | Library | [65](../../magpie/internal/library/library.go#L65) |
-| Instructions | type_spec |  | [71](../../magpie/internal/library/library.go#L71) |
-| Agents | field_declaration | Instructions | [72](../../magpie/internal/library/library.go#L72) |
-| Sets | field_declaration | Instructions | [75](../../magpie/internal/library/library.go#L75) |
-| Active | field_declaration | Instructions | [76](../../magpie/internal/library/library.go#L76) |
-| InstrSet | type_spec |  | [80](../../magpie/internal/library/library.go#L80) |
-| ID | field_declaration | InstrSet | [81](../../magpie/internal/library/library.go#L81) |
-| Name | field_declaration | InstrSet | [82](../../magpie/internal/library/library.go#L82) |
-| File | field_declaration | InstrSet | [86](../../magpie/internal/library/library.go#L86) |
-| Applied | type_spec |  | [90](../../magpie/internal/library/library.go#L90) |
-| Instructions | field_declaration | Applied | [91](../../magpie/internal/library/library.go#L91) |
-| InstrHash | field_declaration | Applied | [92](../../magpie/internal/library/library.go#L92) |
-| MCP | field_declaration | Applied | [93](../../magpie/internal/library/library.go#L93) |
-| Skills | field_declaration | Applied | [94](../../magpie/internal/library/library.go#L94) |
-| ToolsOff | field_declaration | Applied | [99](../../magpie/internal/library/library.go#L99) |
-| ToolRules | field_declaration | Applied | [100](../../magpie/internal/library/library.go#L100) |
-| Hooks | field_declaration | Applied | [103](../../magpie/internal/library/library.go#L103) |
-| Subagents | field_declaration | Applied | [106](../../magpie/internal/library/library.go#L106) |
-| Startup | field_declaration | Applied | [110](../../magpie/internal/library/library.go#L110) |
-| mu | var_spec |  | [113](../../magpie/internal/library/library.go#L113) |
-| lock | type_spec |  | [117](../../magpie/internal/library/library.go#L117) |
-| held | field_declaration | lock | [119](../../magpie/internal/library/library.go#L119) |
-| Lock | method_declaration |  | [122](../../magpie/internal/library/library.go#L122) |
-| Dir | function_declaration |  | [128](../../magpie/internal/library/library.go#L128) |
-| path | function_declaration |  | [130](../../magpie/internal/library/library.go#L130) |
-| load | function_declaration |  | [132](../../magpie/internal/library/library.go#L132) |
-| save | method_declaration |  | [150](../../magpie/internal/library/library.go#L150) |
-| applied | method_declaration |  | [182](../../magpie/internal/library/library.go#L182) |
-| server | method_declaration |  | [191](../../magpie/internal/library/library.go#L191) |
-| skill | method_declaration |  | [200](../../magpie/internal/library/library.go#L200) |
-| nameRe | var_spec |  | [211](../../magpie/internal/library/library.go#L211) |
-| checkName | function_declaration |  | [213](../../magpie/internal/library/library.go#L213) |
-| agentRe | var_spec |  | [222](../../magpie/internal/library/library.go#L222) |
-| checkAgent | function_declaration |  | [224](../../magpie/internal/library/library.go#L224) |
-| fileName | function_declaration |  | [233](../../magpie/internal/library/library.go#L233) |
-| agentOfFile | function_declaration |  | [236](../../magpie/internal/library/library.go#L236) |
-| set | function_declaration |  | [239](../../magpie/internal/library/library.go#L239) |
-| change | function_declaration |  | [253](../../magpie/internal/library/library.go#L253) |
+| Plugins | field_declaration | Library | [38](../../magpie/internal/library/library.go#L38) |
+| Applied | field_declaration | Library | [41](../../magpie/internal/library/library.go#L41) |
+| Away | field_declaration | Library | [46](../../magpie/internal/library/library.go#L46) |
+| Icons | field_declaration | Library | [49](../../magpie/internal/library/library.go#L49) |
+| SkillGroups | field_declaration | Library | [52](../../magpie/internal/library/library.go#L52) |
+| CopySkills | field_declaration | Library | [56](../../magpie/internal/library/library.go#L56) |
+| SkillHow | field_declaration | Library | [57](../../magpie/internal/library/library.go#L57) |
+| SharedSkills | field_declaration | Library | [62](../../magpie/internal/library/library.go#L62) |
+| MCPHub | field_declaration | Library | [66](../../magpie/internal/library/library.go#L66) |
+| SkillRouter | field_declaration | Library | [71](../../magpie/internal/library/library.go#L71) |
+| PluginsOffered | field_declaration | Library | [74](../../magpie/internal/library/library.go#L74) |
+| BridgesOffered | field_declaration | Library | [78](../../magpie/internal/library/library.go#L78) |
+| BridgesOn | field_declaration | Library | [81](../../magpie/internal/library/library.go#L81) |
+| BorrowOn | field_declaration | Library | [86](../../magpie/internal/library/library.go#L86) |
+| Borrowed | field_declaration | Library | [87](../../magpie/internal/library/library.go#L87) |
+| SeenSkills | field_declaration | Library | [93](../../magpie/internal/library/library.go#L93) |
+| kept | field_declaration | Library | [96](../../magpie/internal/library/library.go#L96) |
+| hashes | field_declaration | Library | [99](../../magpie/internal/library/library.go#L99) |
+| untouched | field_declaration | Library | [102](../../magpie/internal/library/library.go#L102) |
+| blockedSkills | field_declaration | Library | [105](../../magpie/internal/library/library.go#L105) |
+| stored | field_declaration | Library | [108](../../magpie/internal/library/library.go#L108) |
+| Instructions | type_spec |  | [114](../../magpie/internal/library/library.go#L114) |
+| Agents | field_declaration | Instructions | [115](../../magpie/internal/library/library.go#L115) |
+| Sets | field_declaration | Instructions | [118](../../magpie/internal/library/library.go#L118) |
+| Active | field_declaration | Instructions | [119](../../magpie/internal/library/library.go#L119) |
+| NoMemory | field_declaration | Instructions | [122](../../magpie/internal/library/library.go#L122) |
+| InstrSet | type_spec |  | [126](../../magpie/internal/library/library.go#L126) |
+| ID | field_declaration | InstrSet | [127](../../magpie/internal/library/library.go#L127) |
+| Name | field_declaration | InstrSet | [128](../../magpie/internal/library/library.go#L128) |
+| File | field_declaration | InstrSet | [132](../../magpie/internal/library/library.go#L132) |
+| Applied | type_spec |  | [136](../../magpie/internal/library/library.go#L136) |
+| Instructions | field_declaration | Applied | [137](../../magpie/internal/library/library.go#L137) |
+| InstrHash | field_declaration | Applied | [138](../../magpie/internal/library/library.go#L138) |
+| MCP | field_declaration | Applied | [139](../../magpie/internal/library/library.go#L139) |
+| Skills | field_declaration | Applied | [140](../../magpie/internal/library/library.go#L140) |
+| ToolsOff | field_declaration | Applied | [145](../../magpie/internal/library/library.go#L145) |
+| ToolRules | field_declaration | Applied | [146](../../magpie/internal/library/library.go#L146) |
+| Hooks | field_declaration | Applied | [149](../../magpie/internal/library/library.go#L149) |
+| Subagents | field_declaration | Applied | [152](../../magpie/internal/library/library.go#L152) |
+| Startup | field_declaration | Applied | [156](../../magpie/internal/library/library.go#L156) |
+| Picked | field_declaration | Applied | [160](../../magpie/internal/library/library.go#L160) |
+| Router | field_declaration | Applied | [163](../../magpie/internal/library/library.go#L163) |
+| RouterRules | field_declaration | Applied | [166](../../magpie/internal/library/library.go#L166) |
+| empty | method_declaration |  | [173](../../magpie/internal/library/library.go#L173) |
+| mu | var_spec |  | [179](../../magpie/internal/library/library.go#L179) |
+| lock | type_spec |  | [183](../../magpie/internal/library/library.go#L183) |
+| held | field_declaration | lock | [185](../../magpie/internal/library/library.go#L185) |
+| Lock | method_declaration |  | [188](../../magpie/internal/library/library.go#L188) |
+| Dir | function_declaration |  | [194](../../magpie/internal/library/library.go#L194) |
+| path | function_declaration |  | [196](../../magpie/internal/library/library.go#L196) |
+| load | function_declaration |  | [198](../../magpie/internal/library/library.go#L198) |
+| save | method_declaration |  | [216](../../magpie/internal/library/library.go#L216) |
+| applied | method_declaration |  | [263](../../magpie/internal/library/library.go#L263) |
+| server | method_declaration |  | [272](../../magpie/internal/library/library.go#L272) |
+| skill | method_declaration |  | [281](../../magpie/internal/library/library.go#L281) |
+| nameRe | var_spec |  | [292](../../magpie/internal/library/library.go#L292) |
+| checkName | function_declaration |  | [294](../../magpie/internal/library/library.go#L294) |
+| distroRe | var_spec |  | [303](../../magpie/internal/library/library.go#L303) |
+| checkAgent | function_declaration |  | [305](../../magpie/internal/library/library.go#L305) |
+| fileName | function_declaration |  | [315](../../magpie/internal/library/library.go#L315) |
+| agentOfFile | function_declaration |  | [318](../../magpie/internal/library/library.go#L318) |
+| set | function_declaration |  | [321](../../magpie/internal/library/library.go#L321) |
+| change | function_declaration |  | [336](../../magpie/internal/library/library.go#L336) |
+| changeLocked | function_declaration |  | [344](../../magpie/internal/library/library.go#L344) |

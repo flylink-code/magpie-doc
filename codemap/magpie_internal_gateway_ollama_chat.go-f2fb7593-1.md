@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/ollama_chat.go) · page 1/1
 
-Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
+Source SHA-256: f65f4cd4b2ed0ff78f024bc6c2984974948b8a8a5e21e56f0ed62502956bf30a
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -79,3 +79,4 @@ Source SHA-256: d5723245ea5079821eab83efebf3bf5abbb03cbe407fcbba608dfc3059b6d792
 | out | var_spec | toolCalls | [489](../../magpie/internal/gateway/ollama_chat.go#L489) |
 | line | method_declaration |  | [516](../../magpie/internal/gateway/ollama_chat.go#L516) |
 | finish | method_declaration |  | [528](../../magpie/internal/gateway/ollama_chat.go#L528) |
+| withoutOllamaOptions | function_declaration |  | [575](../../magpie/internal/gateway/ollama_chat.go#L575) |

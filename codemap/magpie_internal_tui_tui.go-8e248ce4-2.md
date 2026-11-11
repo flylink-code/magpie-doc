@@ -4,51 +4,56 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/tui/tui.go) · page 2/2
 
-Source SHA-256: 7c9c53168e95094e95c73ad6a9a1a1c9f74a5a35c99737c442b291f55f23c4db
+Source SHA-256: ccf7cc46b1e17dd8f3b84c9a411aaf89bbbd0757cd34b177c632cfda8e6883ae
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| missing | field_declaration | modelsMsg | [251](../../magpie/internal/tui/tui.go#L251) |
-| fetchModelsCmd | function_declaration |  | [253](../../magpie/internal/tui/tui.go#L253) |
-| modelsRetry | var_spec |  | [260](../../magpie/internal/tui/tui.go#L260) |
-| modelsChanged | method_declaration |  | [264](../../magpie/internal/tui/tui.go#L264) |
-| syncCmd | function_declaration |  | [280](../../magpie/internal/tui/tui.go#L280) |
-| Update | method_declaration |  | [288](../../magpie/internal/tui/tui.go#L288) |
-| pageKey | method_declaration |  | [419](../../magpie/internal/tui/tui.go#L419) |
-| updateList | method_declaration |  | [432](../../magpie/internal/tui/tui.go#L432) |
-| openFieldPicker | method_declaration |  | [467](../../magpie/internal/tui/tui.go#L467) |
-| openProfiles | method_declaration |  | [496](../../magpie/internal/tui/tui.go#L496) |
-| items | var_spec | openProfiles | [502](../../magpie/internal/tui/tui.go#L502) |
-| updatePicker | method_declaration |  | [547](../../magpie/internal/tui/tui.go#L547) |
-| cmd | var_spec | updatePicker | [595](../../magpie/internal/tui/tui.go#L595) |
-| updateName | method_declaration |  | [601](../../magpie/internal/tui/tui.go#L601) |
-| cmd | var_spec | updateName | [623](../../magpie/internal/tui/tui.go#L623) |
-| newInput | function_declaration |  | [630](../../magpie/internal/tui/tui.go#L630) |
-| withCurrent | function_declaration |  | [643](../../magpie/internal/tui/tui.go#L643) |
-| out | var_spec | withCurrent | [645](../../magpie/internal/tui/tui.go#L645) |
-| scored | type_spec |  | [666](../../magpie/internal/tui/tui.go#L666) |
-| idx | field_declaration | scored | [667](../../magpie/internal/tui/tui.go#L667) |
-| refilter | method_declaration |  | [670](../../magpie/internal/tui/tui.go#L670) |
-| hits | var_spec | refilter | [680](../../magpie/internal/tui/tui.go#L680) |
-| score | function_declaration |  | [694](../../magpie/internal/tui/tui.go#L694) |
-| subseq | function_declaration |  | [710](../../magpie/internal/tui/tui.go#L710) |
-| choice | method_declaration |  | [720](../../magpie/internal/tui/tui.go#L720) |
-| clamp | function_declaration |  | [730](../../magpie/internal/tui/tui.go#L730) |
-| plural | function_declaration |  | [743](../../magpie/internal/tui/tui.go#L743) |
-| View | method_declaration |  | [752](../../magpie/internal/tui/tui.go#L752) |
-| body | var_spec | View | [753](../../magpie/internal/tui/tui.go#L753) |
-| footer | var_spec | View | [754](../../magpie/internal/tui/tui.go#L754) |
-| header | method_declaration |  | [826](../../magpie/internal/tui/tui.go#L826) |
-| viewList | method_declaration |  | [847](../../magpie/internal/tui/tui.go#L847) |
-| b | var_spec | viewList | [852](../../magpie/internal/tui/tui.go#L852) |
-| cell | var_spec | viewList | [882](../../magpie/internal/tui/tui.go#L882) |
-| viewPicker | method_declaration |  | [911](../../magpie/internal/tui/tui.go#L911) |
-| b | var_spec | viewPicker | [913](../../magpie/internal/tui/tui.go#L913) |
-| viewName | method_declaration |  | [963](../../magpie/internal/tui/tui.go#L963) |
-| b | var_spec | viewName | [964](../../magpie/internal/tui/tui.go#L964) |
-| hints | function_declaration |  | [981](../../magpie/internal/tui/tui.go#L981) |
-| parts | var_spec | hints | [982](../../magpie/internal/tui/tui.go#L982) |
-| padRight | function_declaration |  | [989](../../magpie/internal/tui/tui.go#L989) |
-| dash | function_declaration |  | [996](../../magpie/internal/tui/tui.go#L996) |
-| tilde | function_declaration |  | [1003](../../magpie/internal/tui/tui.go#L1003) |
-| sortedKeys | function_declaration |  | [1012](../../magpie/internal/tui/tui.go#L1012) |
+| set | var_spec | newModel | [186](../../magpie/internal/tui/tui.go#L186) |
+| reload | method_declaration |  | [202](../../magpie/internal/tui/tui.go#L202) |
+| goTo | method_declaration |  | [230](../../magpie/internal/tui/tui.go#L230) |
+| Init | method_declaration |  | [245](../../magpie/internal/tui/tui.go#L245) |
+| modelsMsg | type_spec |  | [257](../../magpie/internal/tui/tui.go#L257) |
+| missing | field_declaration | modelsMsg | [257](../../magpie/internal/tui/tui.go#L257) |
+| fetchModelsCmd | function_declaration |  | [259](../../magpie/internal/tui/tui.go#L259) |
+| modelsRetry | var_spec |  | [266](../../magpie/internal/tui/tui.go#L266) |
+| modelsChanged | method_declaration |  | [270](../../magpie/internal/tui/tui.go#L270) |
+| syncCmd | function_declaration |  | [286](../../magpie/internal/tui/tui.go#L286) |
+| Update | method_declaration |  | [294](../../magpie/internal/tui/tui.go#L294) |
+| pageKey | method_declaration |  | [428](../../magpie/internal/tui/tui.go#L428) |
+| updateList | method_declaration |  | [441](../../magpie/internal/tui/tui.go#L441) |
+| openFieldPicker | method_declaration |  | [476](../../magpie/internal/tui/tui.go#L476) |
+| openProfiles | method_declaration |  | [505](../../magpie/internal/tui/tui.go#L505) |
+| items | var_spec | openProfiles | [511](../../magpie/internal/tui/tui.go#L511) |
+| updatePicker | method_declaration |  | [556](../../magpie/internal/tui/tui.go#L556) |
+| cmd | var_spec | updatePicker | [613](../../magpie/internal/tui/tui.go#L613) |
+| updateName | method_declaration |  | [619](../../magpie/internal/tui/tui.go#L619) |
+| cmd | var_spec | updateName | [650](../../magpie/internal/tui/tui.go#L650) |
+| newInput | function_declaration |  | [657](../../magpie/internal/tui/tui.go#L657) |
+| withCurrent | function_declaration |  | [670](../../magpie/internal/tui/tui.go#L670) |
+| out | var_spec | withCurrent | [672](../../magpie/internal/tui/tui.go#L672) |
+| scored | type_spec |  | [693](../../magpie/internal/tui/tui.go#L693) |
+| idx | field_declaration | scored | [694](../../magpie/internal/tui/tui.go#L694) |
+| refilter | method_declaration |  | [697](../../magpie/internal/tui/tui.go#L697) |
+| hits | var_spec | refilter | [707](../../magpie/internal/tui/tui.go#L707) |
+| score | function_declaration |  | [721](../../magpie/internal/tui/tui.go#L721) |
+| subseq | function_declaration |  | [737](../../magpie/internal/tui/tui.go#L737) |
+| choice | method_declaration |  | [747](../../magpie/internal/tui/tui.go#L747) |
+| clamp | function_declaration |  | [757](../../magpie/internal/tui/tui.go#L757) |
+| plural | function_declaration |  | [770](../../magpie/internal/tui/tui.go#L770) |
+| View | method_declaration |  | [779](../../magpie/internal/tui/tui.go#L779) |
+| body | var_spec | View | [780](../../magpie/internal/tui/tui.go#L780) |
+| footer | var_spec | View | [781](../../magpie/internal/tui/tui.go#L781) |
+| header | method_declaration |  | [856](../../magpie/internal/tui/tui.go#L856) |
+| viewList | method_declaration |  | [877](../../magpie/internal/tui/tui.go#L877) |
+| b | var_spec | viewList | [882](../../magpie/internal/tui/tui.go#L882) |
+| cell | var_spec | viewList | [912](../../magpie/internal/tui/tui.go#L912) |
+| viewPicker | method_declaration |  | [941](../../magpie/internal/tui/tui.go#L941) |
+| b | var_spec | viewPicker | [943](../../magpie/internal/tui/tui.go#L943) |
+| viewName | method_declaration |  | [993](../../magpie/internal/tui/tui.go#L993) |
+| b | var_spec | viewName | [994](../../magpie/internal/tui/tui.go#L994) |
+| hints | function_declaration |  | [1016](../../magpie/internal/tui/tui.go#L1016) |
+| parts | var_spec | hints | [1017](../../magpie/internal/tui/tui.go#L1017) |
+| padRight | function_declaration |  | [1024](../../magpie/internal/tui/tui.go#L1024) |
+| dash | function_declaration |  | [1031](../../magpie/internal/tui/tui.go#L1031) |
+| tilde | function_declaration |  | [1038](../../magpie/internal/tui/tui.go#L1038) |
+| sortedKeys | function_declaration |  | [1047](../../magpie/internal/tui/tui.go#L1047) |

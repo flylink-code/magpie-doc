@@ -4,107 +4,107 @@
 
 [Module](magpie-plugin.md) · [Source](../../magpie/internal/plugin/providers.go) · page 2/3
 
-Source SHA-256: 374753cc2d185161e45ba4e584b4b6ef8b49c001fe636421433e186070e67c88
+Source SHA-256: 2c0d570a4c5031431eb669c4f426fc0e57d40789d022b08ce03b4dd4ad8976c8
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| keepUnloaded | function_declaration |  | [458](../../magpie/internal/plugin/providers.go#L458) |
-| UseCached | function_declaration |  | [485](../../magpie/internal/plugin/providers.go#L485) |
-| Listed | function_declaration |  | [505](../../magpie/internal/plugin/providers.go#L505) |
-| refreshing | var_spec |  | [520](../../magpie/internal/plugin/providers.go#L520) |
-| Refreshed | function_declaration |  | [524](../../magpie/internal/plugin/providers.go#L524) |
-| Told | function_declaration |  | [529](../../magpie/internal/plugin/providers.go#L529) |
-| Answered | function_declaration |  | [542](../../magpie/internal/plugin/providers.go#L542) |
-| Settle | function_declaration |  | [559](../../magpie/internal/plugin/providers.go#L559) |
-| Cached | function_declaration |  | [598](../../magpie/internal/plugin/providers.go#L598) |
-| ctx | var_spec | Cached | [648](../../magpie/internal/plugin/providers.go#L648) |
-| storedAuth | type_spec |  | [663](../../magpie/internal/plugin/providers.go#L663) |
-| Type | field_declaration | storedAuth | [664](../../magpie/internal/plugin/providers.go#L664) |
-| AccountID | field_declaration | storedAuth | [665](../../magpie/internal/plugin/providers.go#L665) |
-| Email | field_declaration | storedAuth | [666](../../magpie/internal/plugin/providers.go#L666) |
-| Key | field_declaration | storedAuth | [667](../../magpie/internal/plugin/providers.go#L667) |
-| Metadata | field_declaration | storedAuth | [668](../../magpie/internal/plugin/providers.go#L668) |
-| Email | field_declaration | storedAuth::Metadata | [669](../../magpie/internal/plugin/providers.go#L669) |
-| ProviderOf | function_declaration |  | [674](../../magpie/internal/plugin/providers.go#L674) |
-| accountsOf | function_declaration |  | [680](../../magpie/internal/plugin/providers.go#L680) |
-| out | var_spec | accountsOf | [681](../../magpie/internal/plugin/providers.go#L681) |
-| firstNonEmpty | function_declaration |  | [705](../../magpie/internal/plugin/providers.go#L705) |
-| readAuth | function_declaration |  | [716](../../magpie/internal/plugin/providers.go#L716) |
-| a | var_spec | readAuth | [721](../../magpie/internal/plugin/providers.go#L721) |
-| authRaw | function_declaration |  | [732](../../magpie/internal/plugin/providers.go#L732) |
-| authParses | var_spec |  | [738](../../magpie/internal/plugin/providers.go#L738) |
-| parseAuth | function_declaration |  | [745](../../magpie/internal/plugin/providers.go#L745) |
-| m | var_spec | parseAuth | [747](../../magpie/internal/plugin/providers.go#L747) |
-| validAuth | function_declaration |  | [760](../../magpie/internal/plugin/providers.go#L760) |
-| m | var_spec | validAuth | [761](../../magpie/internal/plugin/providers.go#L761) |
-| readAuthFile | function_declaration |  | [768](../../magpie/internal/plugin/providers.go#L768) |
-| SignedIn | function_declaration |  | [771](../../magpie/internal/plugin/providers.go#L771) |
-| Prompt | type_spec |  | [776](../../magpie/internal/plugin/providers.go#L776) |
-| Type | field_declaration | Prompt | [777](../../magpie/internal/plugin/providers.go#L777) |
-| Key | field_declaration | Prompt | [778](../../magpie/internal/plugin/providers.go#L778) |
-| Message | field_declaration | Prompt | [779](../../magpie/internal/plugin/providers.go#L779) |
-| Placeholder | field_declaration | Prompt | [780](../../magpie/internal/plugin/providers.go#L780) |
-| Options | field_declaration | Prompt | [781](../../magpie/internal/plugin/providers.go#L781) |
-| Label | field_declaration | Prompt::Options | [782](../../magpie/internal/plugin/providers.go#L782) |
-| Value | field_declaration | Prompt::Options | [783](../../magpie/internal/plugin/providers.go#L783) |
-| Hint | field_declaration | Prompt::Options | [784](../../magpie/internal/plugin/providers.go#L784) |
-| NextPrompt | function_declaration |  | [790](../../magpie/internal/plugin/providers.go#L790) |
-| r | var_spec | NextPrompt | [791](../../magpie/internal/plugin/providers.go#L791) |
-| Prompt | field_declaration | NextPrompt::r | [792](../../magpie/internal/plugin/providers.go#L792) |
-| Validate | function_declaration |  | [800](../../magpie/internal/plugin/providers.go#L800) |
-| r | var_spec | Validate | [801](../../magpie/internal/plugin/providers.go#L801) |
-| Error | field_declaration | Validate::r | [802](../../magpie/internal/plugin/providers.go#L802) |
-| Authorization | type_spec |  | [816](../../magpie/internal/plugin/providers.go#L816) |
-| Session | field_declaration | Authorization | [817](../../magpie/internal/plugin/providers.go#L817) |
-| URL | field_declaration | Authorization | [818](../../magpie/internal/plugin/providers.go#L818) |
-| Instructions | field_declaration | Authorization | [819](../../magpie/internal/plugin/providers.go#L819) |
-| Method | field_declaration | Authorization | [820](../../magpie/internal/plugin/providers.go#L820) |
-| Opened | field_declaration | Authorization | [823](../../magpie/internal/plugin/providers.go#L823) |
-| NewAccount | const_spec |  | [829](../../magpie/internal/plugin/providers.go#L829) |
-| Authorize | function_declaration |  | [834](../../magpie/internal/plugin/providers.go#L834) |
-| a | var_spec | Authorize | [835](../../magpie/internal/plugin/providers.go#L835) |
-| Saved | type_spec |  | [842](../../magpie/internal/plugin/providers.go#L842) |
-| Provider | field_declaration | Saved | [843](../../magpie/internal/plugin/providers.go#L843) |
-| Account | field_declaration | Saved | [844](../../magpie/internal/plugin/providers.go#L844) |
-| ErrFailed | var_spec |  | [848](../../magpie/internal/plugin/providers.go#L848) |
-| failure | function_declaration |  | [851](../../magpie/internal/plugin/providers.go#L851) |
-| Finish | function_declaration |  | [861](../../magpie/internal/plugin/providers.go#L861) |
-| r | var_spec | Finish | [862](../../magpie/internal/plugin/providers.go#L862) |
-| OK | field_declaration | Finish::r | [863](../../magpie/internal/plugin/providers.go#L863) |
-| Error | field_declaration | Finish::r | [864](../../magpie/internal/plugin/providers.go#L864) |
-| APIKey | function_declaration |  | [878](../../magpie/internal/plugin/providers.go#L878) |
-| r | var_spec | APIKey | [879](../../magpie/internal/plugin/providers.go#L879) |
-| OK | field_declaration | APIKey::r | [880](../../magpie/internal/plugin/providers.go#L880) |
-| Error | field_declaration | APIKey::r | [881](../../magpie/internal/plugin/providers.go#L881) |
-| SignOut | function_declaration |  | [895](../../magpie/internal/plugin/providers.go#L895) |
-| m | var_spec | SignOut | [901](../../magpie/internal/plugin/providers.go#L901) |
-| Options | type_spec |  | [930](../../magpie/internal/plugin/providers.go#L930) |
-| BaseURL | field_declaration | Options | [931](../../magpie/internal/plugin/providers.go#L931) |
-| APIKey | field_declaration | Options | [932](../../magpie/internal/plugin/providers.go#L932) |
-| Headers | field_declaration | Options | [933](../../magpie/internal/plugin/providers.go#L933) |
-| Fetch | field_declaration | Options | [934](../../magpie/internal/plugin/providers.go#L934) |
-| optMu | var_spec |  | [938](../../magpie/internal/plugin/providers.go#L938) |
-| optCache | var_spec |  | [939](../../magpie/internal/plugin/providers.go#L939) |
-| optGen | var_spec |  | [940](../../magpie/internal/plugin/providers.go#L940) |
-| LoaderOptions | function_declaration |  | [946](../../magpie/internal/plugin/providers.go#L946) |
-| init | function_declaration |  | [968](../../magpie/internal/plugin/providers.go#L968) |
-| Import | function_declaration |  | [980](../../magpie/internal/plugin/providers.go#L980) |
-| r | var_spec | Import | [981](../../magpie/internal/plugin/providers.go#L981) |
-| Account | field_declaration | Import::r | [982](../../magpie/internal/plugin/providers.go#L982) |
-| Checked | type_spec |  | [993](../../magpie/internal/plugin/providers.go#L993) |
-| Models | field_declaration | Checked | [994](../../magpie/internal/plugin/providers.go#L994) |
-| Usage | field_declaration | Checked | [995](../../magpie/internal/plugin/providers.go#L995) |
-| Refused | field_declaration | Checked | [996](../../magpie/internal/plugin/providers.go#L996) |
-| Check | function_declaration |  | [1004](../../magpie/internal/plugin/providers.go#L1004) |
-| r | var_spec | Check | [1005](../../magpie/internal/plugin/providers.go#L1005) |
-| Auths | function_declaration |  | [1013](../../magpie/internal/plugin/providers.go#L1013) |
-| a | var_spec | Auths | [1020](../../magpie/internal/plugin/providers.go#L1020) |
-| Take | function_declaration |  | [1030](../../magpie/internal/plugin/providers.go#L1030) |
-| r | var_spec | Take | [1031](../../magpie/internal/plugin/providers.go#L1031) |
-| Auths | field_declaration | Take::r | [1032](../../magpie/internal/plugin/providers.go#L1032) |
-| Restore | function_declaration |  | [1041](../../magpie/internal/plugin/providers.go#L1041) |
-| Usage | type_spec |  | [1047](../../magpie/internal/plugin/providers.go#L1047) |
-| Plan | field_declaration | Usage | [1048](../../magpie/internal/plugin/providers.go#L1048) |
-| Until | field_declaration | Usage | [1049](../../magpie/internal/plugin/providers.go#L1049) |
-| Renew | field_declaration | Usage | [1050](../../magpie/internal/plugin/providers.go#L1050) |
-| Balance | field_declaration | Usage | [1051](../../magpie/internal/plugin/providers.go#L1051) |
+| ListedAt | function_declaration |  | [304](../../magpie/internal/plugin/providers.go#L304) |
+| forgetProviders | function_declaration |  | [312](../../magpie/internal/plugin/providers.go#L312) |
+| Providers | function_declaration |  | [325](../../magpie/internal/plugin/providers.go#L325) |
+| ps | var_spec | Providers | [326](../../magpie/internal/plugin/providers.go#L326) |
+| commitProviders | function_declaration |  | [338](../../magpie/internal/plugin/providers.go#L338) |
+| sameList | function_declaration |  | [371](../../magpie/internal/plugin/providers.go#L371) |
+| refreshDeadline | var_spec |  | [382](../../magpie/internal/plugin/providers.go#L382) |
+| refreshTries | var_spec |  | [388](../../magpie/internal/plugin/providers.go#L388) |
+| refreshBackoff | var_spec |  | [389](../../magpie/internal/plugin/providers.go#L389) |
+| refreshProviders | var_spec |  | [395](../../magpie/internal/plugin/providers.go#L395) |
+| ps | var_spec | refreshProviders | [396](../../magpie/internal/plugin/providers.go#L396) |
+| refreshProvidersWithRetry | function_declaration |  | [408](../../magpie/internal/plugin/providers.go#L408) |
+| refreshProvidersInBackground | function_declaration |  | [437](../../magpie/internal/plugin/providers.go#L437) |
+| ProxyFor | var_spec |  | [461](../../magpie/internal/plugin/providers.go#L461) |
+| ListingOff | var_spec |  | [468](../../magpie/internal/plugin/providers.go#L468) |
+| listingArgs | function_declaration |  | [473](../../magpie/internal/plugin/providers.go#L473) |
+| listingProxies | function_declaration |  | [487](../../magpie/internal/plugin/providers.go#L487) |
+| keepListed | function_declaration |  | [506](../../magpie/internal/plugin/providers.go#L506) |
+| keepUnloaded | function_declaration |  | [547](../../magpie/internal/plugin/providers.go#L547) |
+| UseCached | function_declaration |  | [574](../../magpie/internal/plugin/providers.go#L574) |
+| Listed | function_declaration |  | [594](../../magpie/internal/plugin/providers.go#L594) |
+| refreshing | var_spec |  | [609](../../magpie/internal/plugin/providers.go#L609) |
+| Refreshed | function_declaration |  | [613](../../magpie/internal/plugin/providers.go#L613) |
+| Told | function_declaration |  | [618](../../magpie/internal/plugin/providers.go#L618) |
+| Answered | function_declaration |  | [631](../../magpie/internal/plugin/providers.go#L631) |
+| Settle | function_declaration |  | [648](../../magpie/internal/plugin/providers.go#L648) |
+| Cached | function_declaration |  | [687](../../magpie/internal/plugin/providers.go#L687) |
+| ctx | var_spec | Cached | [735](../../magpie/internal/plugin/providers.go#L735) |
+| savedProviders | function_declaration |  | [756](../../magpie/internal/plugin/providers.go#L756) |
+| ps | var_spec | savedProviders | [758](../../magpie/internal/plugin/providers.go#L758) |
+| storedAuth | type_spec |  | [765](../../magpie/internal/plugin/providers.go#L765) |
+| Type | field_declaration | storedAuth | [766](../../magpie/internal/plugin/providers.go#L766) |
+| Expires | field_declaration | storedAuth | [769](../../magpie/internal/plugin/providers.go#L769) |
+| AccountID | field_declaration | storedAuth | [770](../../magpie/internal/plugin/providers.go#L770) |
+| Email | field_declaration | storedAuth | [771](../../magpie/internal/plugin/providers.go#L771) |
+| Key | field_declaration | storedAuth | [772](../../magpie/internal/plugin/providers.go#L772) |
+| Metadata | field_declaration | storedAuth | [773](../../magpie/internal/plugin/providers.go#L773) |
+| Email | field_declaration | storedAuth::Metadata | [774](../../magpie/internal/plugin/providers.go#L774) |
+| RenewAt | function_declaration |  | [783](../../magpie/internal/plugin/providers.go#L783) |
+| expiresOf | function_declaration |  | [800](../../magpie/internal/plugin/providers.go#L800) |
+| KeptSignedIn | type_spec |  | [817](../../magpie/internal/plugin/providers.go#L817) |
+| Due | field_declaration | KeptSignedIn | [818](../../magpie/internal/plugin/providers.go#L818) |
+| Renewed | field_declaration | KeptSignedIn | [819](../../magpie/internal/plugin/providers.go#L819) |
+| Waiting | field_declaration | KeptSignedIn | [820](../../magpie/internal/plugin/providers.go#L820) |
+| Gone | field_declaration | KeptSignedIn | [821](../../magpie/internal/plugin/providers.go#L821) |
+| Err | field_declaration | KeptSignedIn | [822](../../magpie/internal/plugin/providers.go#L822) |
+| KeepSignedIn | function_declaration |  | [828](../../magpie/internal/plugin/providers.go#L828) |
+| k | var_spec | KeepSignedIn | [829](../../magpie/internal/plugin/providers.go#L829) |
+| ProviderOf | function_declaration |  | [835](../../magpie/internal/plugin/providers.go#L835) |
+| accountsOf | function_declaration |  | [841](../../magpie/internal/plugin/providers.go#L841) |
+| out | var_spec | accountsOf | [842](../../magpie/internal/plugin/providers.go#L842) |
+| firstNonEmpty | function_declaration |  | [866](../../magpie/internal/plugin/providers.go#L866) |
+| readAuth | function_declaration |  | [877](../../magpie/internal/plugin/providers.go#L877) |
+| a | var_spec | readAuth | [882](../../magpie/internal/plugin/providers.go#L882) |
+| authRaw | function_declaration |  | [893](../../magpie/internal/plugin/providers.go#L893) |
+| authParses | var_spec |  | [899](../../magpie/internal/plugin/providers.go#L899) |
+| parseAuth | function_declaration |  | [906](../../magpie/internal/plugin/providers.go#L906) |
+| m | var_spec | parseAuth | [908](../../magpie/internal/plugin/providers.go#L908) |
+| validAuth | function_declaration |  | [921](../../magpie/internal/plugin/providers.go#L921) |
+| m | var_spec | validAuth | [922](../../magpie/internal/plugin/providers.go#L922) |
+| readAuthFile | function_declaration |  | [929](../../magpie/internal/plugin/providers.go#L929) |
+| SignedIn | function_declaration |  | [932](../../magpie/internal/plugin/providers.go#L932) |
+| Prompt | type_spec |  | [937](../../magpie/internal/plugin/providers.go#L937) |
+| Type | field_declaration | Prompt | [938](../../magpie/internal/plugin/providers.go#L938) |
+| Key | field_declaration | Prompt | [939](../../magpie/internal/plugin/providers.go#L939) |
+| Message | field_declaration | Prompt | [940](../../magpie/internal/plugin/providers.go#L940) |
+| Messages | field_declaration | Prompt | [943](../../magpie/internal/plugin/providers.go#L943) |
+| Placeholder | field_declaration | Prompt | [944](../../magpie/internal/plugin/providers.go#L944) |
+| Options | field_declaration | Prompt | [945](../../magpie/internal/plugin/providers.go#L945) |
+| Label | field_declaration | Prompt::Options | [946](../../magpie/internal/plugin/providers.go#L946) |
+| Value | field_declaration | Prompt::Options | [947](../../magpie/internal/plugin/providers.go#L947) |
+| Hint | field_declaration | Prompt::Options | [948](../../magpie/internal/plugin/providers.go#L948) |
+| Labels | field_declaration | Prompt::Options | [949](../../magpie/internal/plugin/providers.go#L949) |
+| Hints | field_declaration | Prompt::Options | [950](../../magpie/internal/plugin/providers.go#L950) |
+| NextPrompt | function_declaration |  | [956](../../magpie/internal/plugin/providers.go#L956) |
+| r | var_spec | NextPrompt | [957](../../magpie/internal/plugin/providers.go#L957) |
+| Prompt | field_declaration | NextPrompt::r | [958](../../magpie/internal/plugin/providers.go#L958) |
+| Validate | function_declaration |  | [966](../../magpie/internal/plugin/providers.go#L966) |
+| r | var_spec | Validate | [967](../../magpie/internal/plugin/providers.go#L967) |
+| Error | field_declaration | Validate::r | [968](../../magpie/internal/plugin/providers.go#L968) |
+| Authorization | type_spec |  | [982](../../magpie/internal/plugin/providers.go#L982) |
+| Session | field_declaration | Authorization | [983](../../magpie/internal/plugin/providers.go#L983) |
+| URL | field_declaration | Authorization | [984](../../magpie/internal/plugin/providers.go#L984) |
+| Instructions | field_declaration | Authorization | [985](../../magpie/internal/plugin/providers.go#L985) |
+| Method | field_declaration | Authorization | [986](../../magpie/internal/plugin/providers.go#L986) |
+| Opened | field_declaration | Authorization | [989](../../magpie/internal/plugin/providers.go#L989) |
+| NewAccount | const_spec |  | [995](../../magpie/internal/plugin/providers.go#L995) |
+| Authorize | function_declaration |  | [1002](../../magpie/internal/plugin/providers.go#L1002) |
+| r | var_spec | Authorize | [1003](../../magpie/internal/plugin/providers.go#L1003) |
+| OK | field_declaration | Authorize::r | [1004](../../magpie/internal/plugin/providers.go#L1004) |
+| Error | field_declaration | Authorize::r | [1005](../../magpie/internal/plugin/providers.go#L1005) |
+| Saved | type_spec |  | [1019](../../magpie/internal/plugin/providers.go#L1019) |
+| Provider | field_declaration | Saved | [1020](../../magpie/internal/plugin/providers.go#L1020) |
+| Account | field_declaration | Saved | [1021](../../magpie/internal/plugin/providers.go#L1021) |
+| ErrFailed | var_spec |  | [1025](../../magpie/internal/plugin/providers.go#L1025) |
+| failure | function_declaration |  | [1028](../../magpie/internal/plugin/providers.go#L1028) |
+| Finish | function_declaration |  | [1038](../../magpie/internal/plugin/providers.go#L1038) |
+| r | var_spec | Finish | [1039](../../magpie/internal/plugin/providers.go#L1039) |
+| OK | field_declaration | Finish::r | [1040](../../magpie/internal/plugin/providers.go#L1040) |
+| Error | field_declaration | Finish::r | [1041](../../magpie/internal/plugin/providers.go#L1041) |

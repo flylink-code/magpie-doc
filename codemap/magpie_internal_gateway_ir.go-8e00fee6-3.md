@@ -4,13 +4,49 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/ir.go) · page 3/3
 
-Source SHA-256: 1f57d974087bcc19108b4a8bf7bbc17b855504f38ea0af3c673d5f2429925707
+Source SHA-256: f5c3b9ec20987d9ef36121a2e51e6d8ce937ec467ebd15e8707469dc3c2eb878
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| effortOf | function_declaration |  | [804](../../magpie/internal/gateway/ir.go#L804) |
-| effortRank | var_spec |  | [817](../../magpie/internal/gateway/ir.go#L817) |
-| ByStrength | function_declaration |  | [821](../../magpie/internal/gateway/ir.go#L821) |
-| fitEffort | function_declaration |  | [842](../../magpie/internal/gateway/ir.go#L842) |
-| budgetOf | function_declaration |  | [851](../../magpie/internal/gateway/ir.go#L851) |
-| effortOfBudget | function_declaration |  | [866](../../magpie/internal/gateway/ir.go#L866) |
+| finish | method_declaration |  | [796](../../magpie/internal/gateway/ir.go#L796) |
+| saidAnything | function_declaration |  | [816](../../magpie/internal/gateway/ir.go#L816) |
+| argsOf | function_declaration |  | [826](../../magpie/internal/gateway/ir.go#L826) |
+| argsString | function_declaration |  | [834](../../magpie/internal/gateway/ir.go#L834) |
+| parseArgs | function_declaration |  | [838](../../magpie/internal/gateway/ir.go#L838) |
+| text | function_declaration |  | [851](../../magpie/internal/gateway/ir.go#L851) |
+| b | var_spec | text | [852](../../magpie/internal/gateway/ir.go#L852) |
+| systemTexts | method_declaration |  | [863](../../magpie/internal/gateway/ir.go#L863) |
+| s | var_spec | systemTexts | [866](../../magpie/internal/gateway/ir.go#L866) |
+| blocks | var_spec | systemTexts | [873](../../magpie/internal/gateway/ir.go#L873) |
+| Type | field_declaration | systemTexts::blocks | [874](../../magpie/internal/gateway/ir.go#L874) |
+| Text | field_declaration | systemTexts::blocks | [875](../../magpie/internal/gateway/ir.go#L875) |
+| lastUserTexts | function_declaration |  | [891](../../magpie/internal/gateway/ir.go#L891) |
+| out | var_spec | lastUserTexts | [896](../../magpie/internal/gateway/ir.go#L896) |
+| stringOrText | function_declaration |  | [909](../../magpie/internal/gateway/ir.go#L909) |
+| s | var_spec | stringOrText | [913](../../magpie/internal/gateway/ir.go#L913) |
+| blocks | var_spec | stringOrText | [917](../../magpie/internal/gateway/ir.go#L917) |
+| Type | field_declaration | stringOrText::blocks | [918](../../magpie/internal/gateway/ir.go#L918) |
+| Text | field_declaration | stringOrText::blocks | [919](../../magpie/internal/gateway/ir.go#L919) |
+| ToolName | field_declaration | stringOrText::blocks | [920](../../magpie/internal/gateway/ir.go#L920) |
+| b | var_spec | stringOrText | [923](../../magpie/internal/gateway/ir.go#L923) |
+| toolOutput | function_declaration |  | [948](../../magpie/internal/gateway/ir.go#L948) |
+| blocks | var_spec | toolOutput | [950](../../magpie/internal/gateway/ir.go#L950) |
+| Type | field_declaration | toolOutput::blocks | [951](../../magpie/internal/gateway/ir.go#L951) |
+| Source | field_declaration | toolOutput::blocks | [952](../../magpie/internal/gateway/ir.go#L952) |
+| MediaType | field_declaration | toolOutput::blocks::Source | [953](../../magpie/internal/gateway/ir.go#L953) |
+| Data | field_declaration | toolOutput::blocks::Source | [954](../../magpie/internal/gateway/ir.go#L954) |
+| URL | field_declaration | toolOutput::blocks::Source | [955](../../magpie/internal/gateway/ir.go#L955) |
+| ImageURL | field_declaration | toolOutput::blocks | [957](../../magpie/internal/gateway/ir.go#L957) |
+| Detail | field_declaration | toolOutput::blocks | [958](../../magpie/internal/gateway/ir.go#L958) |
+| images | var_spec | toolOutput | [963](../../magpie/internal/gateway/ir.go#L963) |
+| u | var_spec | toolOutput | [973](../../magpie/internal/gateway/ir.go#L973) |
+| o | var_spec | toolOutput | [976](../../magpie/internal/gateway/ir.go#L976) |
+| URL | field_declaration | toolOutput::o | [977](../../magpie/internal/gateway/ir.go#L977) |
+| Detail | field_declaration | toolOutput::o | [978](../../magpie/internal/gateway/ir.go#L978) |
+| effortOf | function_declaration |  | [994](../../magpie/internal/gateway/ir.go#L994) |
+| effortRank | var_spec |  | [1013](../../magpie/internal/gateway/ir.go#L1013) |
+| ByStrength | function_declaration |  | [1017](../../magpie/internal/gateway/ir.go#L1017) |
+| fitEffort | function_declaration |  | [1038](../../magpie/internal/gateway/ir.go#L1038) |
+| budgetOf | function_declaration |  | [1047](../../magpie/internal/gateway/ir.go#L1047) |
+| ThinkingBudget | function_declaration |  | [1063](../../magpie/internal/gateway/ir.go#L1063) |
+| effortOfBudget | function_declaration |  | [1066](../../magpie/internal/gateway/ir.go#L1066) |

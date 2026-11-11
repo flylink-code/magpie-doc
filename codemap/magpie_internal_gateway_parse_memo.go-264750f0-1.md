@@ -4,19 +4,20 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/parse_memo.go) · page 1/1
 
-Source SHA-256: 27b08396b65d6aa9104d26b5631d5d45b4ef785ccf3a4567b2caaeacb947270a
+Source SHA-256: 0949d4dc5531b7c357bad159614e5a7428a3551b116dfbe77c38bc232d8b5022
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| bodyFacts | type_spec |  | [14](../../magpie/internal/gateway/parse_memo.go#L14) |
-| turn | field_declaration | bodyFacts | [15](../../magpie/internal/gateway/parse_memo.go#L15) |
-| within | field_declaration | bodyFacts | [16](../../magpie/internal/gateway/parse_memo.go#L16) |
-| dir | field_declaration | bodyFacts | [17](../../magpie/internal/gateway/parse_memo.go#L17) |
-| factsOf | function_declaration |  | [30](../../magpie/internal/gateway/parse_memo.go#L30) |
-| readFacts | function_declaration |  | [62](../../magpie/internal/gateway/parse_memo.go#L62) |
-| f | var_spec | readFacts | [70](../../magpie/internal/gateway/parse_memo.go#L70) |
-| heldFacts | type_spec |  | [77](../../magpie/internal/gateway/parse_memo.go#L77) |
-| n | field_declaration | heldFacts | [78](../../magpie/internal/gateway/parse_memo.go#L78) |
-| proto | field_declaration | heldFacts | [79](../../magpie/internal/gateway/parse_memo.go#L79) |
-| facts | field_declaration | heldFacts | [80](../../magpie/internal/gateway/parse_memo.go#L80) |
-| factsParsed | var_spec |  | [84](../../magpie/internal/gateway/parse_memo.go#L84) |
+| bodyFacts | type_spec |  | [15](../../magpie/internal/gateway/parse_memo.go#L15) |
+| turn | field_declaration | bodyFacts | [16](../../magpie/internal/gateway/parse_memo.go#L16) |
+| within | field_declaration | bodyFacts | [17](../../magpie/internal/gateway/parse_memo.go#L17) |
+| dir | field_declaration | bodyFacts | [18](../../magpie/internal/gateway/parse_memo.go#L18) |
+| compact | field_declaration | bodyFacts | [19](../../magpie/internal/gateway/parse_memo.go#L19) |
+| factsOf | function_declaration |  | [32](../../magpie/internal/gateway/parse_memo.go#L32) |
+| readFacts | function_declaration |  | [64](../../magpie/internal/gateway/parse_memo.go#L64) |
+| f | var_spec | readFacts | [72](../../magpie/internal/gateway/parse_memo.go#L72) |
+| heldFacts | type_spec |  | [80](../../magpie/internal/gateway/parse_memo.go#L80) |
+| n | field_declaration | heldFacts | [81](../../magpie/internal/gateway/parse_memo.go#L81) |
+| proto | field_declaration | heldFacts | [82](../../magpie/internal/gateway/parse_memo.go#L82) |
+| facts | field_declaration | heldFacts | [83](../../magpie/internal/gateway/parse_memo.go#L83) |
+| factsParsed | var_spec |  | [87](../../magpie/internal/gateway/parse_memo.go#L87) |

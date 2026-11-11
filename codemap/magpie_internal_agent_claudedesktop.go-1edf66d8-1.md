@@ -4,90 +4,104 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/claudedesktop.go) · page 1/1
 
-Source SHA-256: 85399cd40ebd69953944f4a33e2a27c264c552c4e578f6458c8962b509e87512
+Source SHA-256: 060589edc0bf412a0bc7a151c622d8c8a46cec19eb1ab89bb3749d32ff47f500
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| desktopProfileID | const_spec |  | [53](../../magpie/internal/agent/claudedesktop.go#L53) |
-| desktopPaths | type_spec |  | [56](../../magpie/internal/agent/claudedesktop.go#L56) |
-| key | field_declaration | desktopPaths | [57](../../magpie/internal/agent/claudedesktop.go#L57) |
-| dir | field_declaration | desktopPaths | [58](../../magpie/internal/agent/claudedesktop.go#L58) |
-| config | field_declaration | desktopPaths | [59](../../magpie/internal/agent/claudedesktop.go#L59) |
-| library | field_declaration | desktopPaths | [60](../../magpie/internal/agent/claudedesktop.go#L60) |
-| app | field_declaration | desktopPaths | [65](../../magpie/internal/agent/claudedesktop.go#L65) |
-| desktopPathsOf | function_declaration |  | [68](../../magpie/internal/agent/claudedesktop.go#L68) |
-| desktopDirs | function_declaration |  | [81](../../magpie/internal/agent/claudedesktop.go#L81) |
-| desktopSets | function_declaration |  | [89](../../magpie/internal/agent/claudedesktop.go#L89) |
-| out | var_spec | desktopSets | [90](../../magpie/internal/agent/claudedesktop.go#L90) |
-| DesktopConfigs3p | function_declaration |  | [106](../../magpie/internal/agent/claudedesktop.go#L106) |
-| out | var_spec | DesktopConfigs3p | [107](../../magpie/internal/agent/claudedesktop.go#L107) |
-| claudeDesktop | function_declaration |  | [114](../../magpie/internal/agent/claudedesktop.go#L114) |
-| errs | var_spec | claudeDesktop | [191](../../magpie/internal/agent/claudedesktop.go#L191) |
-| desktopRead | function_declaration |  | [222](../../magpie/internal/agent/claudedesktop.go#L222) |
-| newest | var_spec | desktopRead | [223](../../magpie/internal/agent/claudedesktop.go#L223) |
-| at | var_spec | desktopRead | [224](../../magpie/internal/agent/claudedesktop.go#L224) |
-| desktopCheck | function_declaration |  | [238](../../magpie/internal/agent/claudedesktop.go#L238) |
-| desktopKeyTaken | function_declaration |  | [264](../../magpie/internal/agent/claudedesktop.go#L264) |
-| desktopAppliedGateway | function_declaration |  | [278](../../magpie/internal/agent/claudedesktop.go#L278) |
-| prof | var_spec | desktopAppliedGateway | [288](../../magpie/internal/agent/claudedesktop.go#L288) |
-| Provider | field_declaration | desktopAppliedGateway::prof | [289](../../magpie/internal/agent/claudedesktop.go#L289) |
-| BaseURL | field_declaration | desktopAppliedGateway::prof | [290](../../magpie/internal/agent/claudedesktop.go#L290) |
-| desktopKeyApplied | function_declaration |  | [303](../../magpie/internal/agent/claudedesktop.go#L303) |
-| desktopTierFields | function_declaration |  | [324](../../magpie/internal/agent/claudedesktop.go#L324) |
-| fields | var_spec | desktopTierFields | [325](../../magpie/internal/agent/claudedesktop.go#L325) |
-| desktopSubagentField | function_declaration |  | [358](../../magpie/internal/agent/claudedesktop.go#L358) |
-| desktopSubagentEffortField | function_declaration |  | [377](../../magpie/internal/agent/claudedesktop.go#L377) |
-| levels | var_spec | desktopSubagentEffortField | [397](../../magpie/internal/agent/claudedesktop.go#L397) |
-| desktopWired | function_declaration |  | [413](../../magpie/internal/agent/claudedesktop.go#L413) |
-| desktopWiredAny | function_declaration |  | [419](../../magpie/internal/agent/claudedesktop.go#L419) |
-| desktopEntries | function_declaration |  | [422](../../magpie/internal/agent/claudedesktop.go#L422) |
-| doc | var_spec | desktopEntries | [430](../../magpie/internal/agent/claudedesktop.go#L430) |
-| entries | var_spec | desktopEntries | [434](../../magpie/internal/agent/claudedesktop.go#L434) |
-| desktopEntryID | function_declaration |  | [443](../../magpie/internal/agent/claudedesktop.go#L443) |
-| e | var_spec | desktopEntryID | [444](../../magpie/internal/agent/claudedesktop.go#L444) |
-| ID | field_declaration | desktopEntryID::e | [445](../../magpie/internal/agent/claudedesktop.go#L445) |
-| desktopOurs | function_declaration |  | [451](../../magpie/internal/agent/claudedesktop.go#L451) |
-| desktopObject | function_declaration |  | [455](../../magpie/internal/agent/claudedesktop.go#L455) |
-| m | var_spec | desktopObject | [460](../../magpie/internal/agent/claudedesktop.go#L460) |
-| desktopStashed | const_spec |  | [475](../../magpie/internal/agent/claudedesktop.go#L475) |
-| desktopMode | const_spec |  | [476](../../magpie/internal/agent/claudedesktop.go#L476) |
-| desktopMode3p | const_spec |  | [477](../../magpie/internal/agent/claudedesktop.go#L477) |
-| desktopApplied | const_spec |  | [478](../../magpie/internal/agent/claudedesktop.go#L478) |
-| desktopMade | const_spec |  | [479](../../magpie/internal/agent/claudedesktop.go#L479) |
-| desktopProfile | const_spec |  | [480](../../magpie/internal/agent/claudedesktop.go#L480) |
-| desktopLocale | const_spec |  | [481](../../magpie/internal/agent/claudedesktop.go#L481) |
-| desktopImport | const_spec |  | [482](../../magpie/internal/agent/claudedesktop.go#L482) |
-| desktopMCP | const_spec |  | [483](../../magpie/internal/agent/claudedesktop.go#L483) |
-| desktopMCPSeen | const_spec |  | [484](../../magpie/internal/agent/claudedesktop.go#L484) |
-| desktopStashKeys | var_spec |  | [487](../../magpie/internal/agent/claudedesktop.go#L487) |
-| desktopAdoptStash | function_declaration |  | [493](../../magpie/internal/agent/claudedesktop.go#L493) |
-| pkg | var_spec | desktopAdoptStash | [494](../../magpie/internal/agent/claudedesktop.go#L494) |
-| desktopOn | function_declaration |  | [519](../../magpie/internal/agent/claudedesktop.go#L519) |
-| made | var_spec | desktopOn | [532](../../magpie/internal/agent/claudedesktop.go#L532) |
-| desktopImportOn | var_spec |  | [626](../../magpie/internal/agent/claudedesktop.go#L626) |
-| desktopSeedImport | function_declaration |  | [645](../../magpie/internal/agent/claudedesktop.go#L645) |
-| desktopServers | function_declaration |  | [663](../../magpie/internal/agent/claudedesktop.go#L663) |
-| m | var_spec | desktopServers | [668](../../magpie/internal/agent/claudedesktop.go#L668) |
-| desktopCarryMCP | function_declaration |  | [686](../../magpie/internal/agent/claudedesktop.go#L686) |
-| desktopUncarryMCP | function_declaration |  | [726](../../magpie/internal/agent/claudedesktop.go#L726) |
-| carried | var_spec | desktopUncarryMCP | [728](../../magpie/internal/agent/claudedesktop.go#L728) |
-| desktopSameJSON | function_declaration |  | [752](../../magpie/internal/agent/claudedesktop.go#L752) |
-| x | var_spec | desktopSameJSON | [753](../../magpie/internal/agent/claudedesktop.go#L753) |
-| desktopLocaleName | var_spec |  | [760](../../magpie/internal/agent/claudedesktop.go#L760) |
-| desktopLocaleFrom | function_declaration |  | [766](../../magpie/internal/agent/claudedesktop.go#L766) |
-| desktopCarryLocale | function_declaration |  | [793](../../magpie/internal/agent/claudedesktop.go#L793) |
-| desktopOff | function_declaration |  | [819](../../magpie/internal/agent/claudedesktop.go#L819) |
-| made | var_spec | desktopOff | [827](../../magpie/internal/agent/claudedesktop.go#L827) |
-| m | var_spec | desktopOff | [898](../../magpie/internal/agent/claudedesktop.go#L898) |
-| only | var_spec | desktopOff | [899](../../magpie/internal/agent/claudedesktop.go#L899) |
-| desktopOwnGatewayProfile | function_declaration |  | [931](../../magpie/internal/agent/claudedesktop.go#L931) |
-| prof | var_spec | desktopOwnGatewayProfile | [943](../../magpie/internal/agent/claudedesktop.go#L943) |
-| Provider | field_declaration | desktopOwnGatewayProfile::prof | [944](../../magpie/internal/agent/claudedesktop.go#L944) |
-| BaseURL | field_declaration | desktopOwnGatewayProfile::prof | [945](../../magpie/internal/agent/claudedesktop.go#L945) |
-| desktopIsOurGateway | function_declaration |  | [955](../../magpie/internal/agent/claudedesktop.go#L955) |
-| desktopObjectBytes | function_declaration |  | [973](../../magpie/internal/agent/claudedesktop.go#L973) |
-| m | var_spec | desktopObjectBytes | [974](../../magpie/internal/agent/claudedesktop.go#L974) |
-| desktopEmpty | function_declaration |  | [978](../../magpie/internal/agent/claudedesktop.go#L978) |
-| m | var_spec | desktopEmpty | [979](../../magpie/internal/agent/claudedesktop.go#L979) |
-| noticeClaudedesktop1 | var_spec |  | [985](../../magpie/internal/agent/claudedesktop.go#L985) |
-| noticeClaudedesktop2 | var_spec |  | [986](../../magpie/internal/agent/claudedesktop.go#L986) |
+| desktopProfileID | const_spec |  | [56](../../magpie/internal/agent/claudedesktop.go#L56) |
+| desktopPaths | type_spec |  | [59](../../magpie/internal/agent/claudedesktop.go#L59) |
+| key | field_declaration | desktopPaths | [60](../../magpie/internal/agent/claudedesktop.go#L60) |
+| dir | field_declaration | desktopPaths | [61](../../magpie/internal/agent/claudedesktop.go#L61) |
+| config | field_declaration | desktopPaths | [62](../../magpie/internal/agent/claudedesktop.go#L62) |
+| library | field_declaration | desktopPaths | [63](../../magpie/internal/agent/claudedesktop.go#L63) |
+| app | field_declaration | desktopPaths | [68](../../magpie/internal/agent/claudedesktop.go#L68) |
+| mcpFrom | field_declaration | desktopPaths | [72](../../magpie/internal/agent/claudedesktop.go#L72) |
+| desktopPathsOf | function_declaration |  | [75](../../magpie/internal/agent/claudedesktop.go#L75) |
+| desktopDirs | function_declaration |  | [89](../../magpie/internal/agent/claudedesktop.go#L89) |
+| desktopSets | function_declaration |  | [97](../../magpie/internal/agent/claudedesktop.go#L97) |
+| desktopUsualSets | function_declaration |  | [107](../../magpie/internal/agent/claudedesktop.go#L107) |
+| out | var_spec | desktopUsualSets | [108](../../magpie/internal/agent/claudedesktop.go#L108) |
+| DesktopConfigs3p | function_declaration |  | [126](../../magpie/internal/agent/claudedesktop.go#L126) |
+| out | var_spec | DesktopConfigs3p | [127](../../magpie/internal/agent/claudedesktop.go#L127) |
+| claudeDesktop | function_declaration |  | [137](../../magpie/internal/agent/claudedesktop.go#L137) |
+| errs | var_spec | claudeDesktop | [239](../../magpie/internal/agent/claudedesktop.go#L239) |
+| desktopInstalled | function_declaration |  | [275](../../magpie/internal/agent/claudedesktop.go#L275) |
+| DesktopApp | function_declaration |  | [294](../../magpie/internal/agent/claudedesktop.go#L294) |
+| desktopRead | function_declaration |  | [310](../../magpie/internal/agent/claudedesktop.go#L310) |
+| newest | var_spec | desktopRead | [311](../../magpie/internal/agent/claudedesktop.go#L311) |
+| at | var_spec | desktopRead | [312](../../magpie/internal/agent/claudedesktop.go#L312) |
+| desktopCheck | function_declaration |  | [326](../../magpie/internal/agent/claudedesktop.go#L326) |
+| desktop3p | function_declaration |  | [367](../../magpie/internal/agent/claudedesktop.go#L367) |
+| desktopKeyTaken | function_declaration |  | [378](../../magpie/internal/agent/claudedesktop.go#L378) |
+| desktopAppliedGateway | function_declaration |  | [392](../../magpie/internal/agent/claudedesktop.go#L392) |
+| prof | var_spec | desktopAppliedGateway | [402](../../magpie/internal/agent/claudedesktop.go#L402) |
+| Provider | field_declaration | desktopAppliedGateway::prof | [403](../../magpie/internal/agent/claudedesktop.go#L403) |
+| BaseURL | field_declaration | desktopAppliedGateway::prof | [404](../../magpie/internal/agent/claudedesktop.go#L404) |
+| desktopKeyApplied | function_declaration |  | [418](../../magpie/internal/agent/claudedesktop.go#L418) |
+| desktopTierFields | function_declaration |  | [444](../../magpie/internal/agent/claudedesktop.go#L444) |
+| fields | var_spec | desktopTierFields | [445](../../magpie/internal/agent/claudedesktop.go#L445) |
+| errs | var_spec | desktopTierFields | [461](../../magpie/internal/agent/claudedesktop.go#L461) |
+| desktopSubagentField | function_declaration |  | [493](../../magpie/internal/agent/claudedesktop.go#L493) |
+| desktopSubagentEffortField | function_declaration |  | [512](../../magpie/internal/agent/claudedesktop.go#L512) |
+| levels | var_spec | desktopSubagentEffortField | [532](../../magpie/internal/agent/claudedesktop.go#L532) |
+| desktopWired | function_declaration |  | [548](../../magpie/internal/agent/claudedesktop.go#L548) |
+| desktopWiredAny | function_declaration |  | [554](../../magpie/internal/agent/claudedesktop.go#L554) |
+| desktopEntries | function_declaration |  | [557](../../magpie/internal/agent/claudedesktop.go#L557) |
+| doc | var_spec | desktopEntries | [565](../../magpie/internal/agent/claudedesktop.go#L565) |
+| entries | var_spec | desktopEntries | [569](../../magpie/internal/agent/claudedesktop.go#L569) |
+| desktopEntryID | function_declaration |  | [578](../../magpie/internal/agent/claudedesktop.go#L578) |
+| e | var_spec | desktopEntryID | [579](../../magpie/internal/agent/claudedesktop.go#L579) |
+| ID | field_declaration | desktopEntryID::e | [580](../../magpie/internal/agent/claudedesktop.go#L580) |
+| desktopOurs | function_declaration |  | [586](../../magpie/internal/agent/claudedesktop.go#L586) |
+| desktopObject | function_declaration |  | [590](../../magpie/internal/agent/claudedesktop.go#L590) |
+| m | var_spec | desktopObject | [595](../../magpie/internal/agent/claudedesktop.go#L595) |
+| desktopStashed | const_spec |  | [610](../../magpie/internal/agent/claudedesktop.go#L610) |
+| desktopMode | const_spec |  | [611](../../magpie/internal/agent/claudedesktop.go#L611) |
+| desktopMode3p | const_spec |  | [612](../../magpie/internal/agent/claudedesktop.go#L612) |
+| desktopApplied | const_spec |  | [613](../../magpie/internal/agent/claudedesktop.go#L613) |
+| desktopMade | const_spec |  | [614](../../magpie/internal/agent/claudedesktop.go#L614) |
+| desktopProfile | const_spec |  | [615](../../magpie/internal/agent/claudedesktop.go#L615) |
+| desktopLocale | const_spec |  | [616](../../magpie/internal/agent/claudedesktop.go#L616) |
+| desktopImport | const_spec |  | [617](../../magpie/internal/agent/claudedesktop.go#L617) |
+| desktopSearch | const_spec |  | [618](../../magpie/internal/agent/claudedesktop.go#L618) |
+| desktopMCP | const_spec |  | [619](../../magpie/internal/agent/claudedesktop.go#L619) |
+| desktopMCPSeen | const_spec |  | [620](../../magpie/internal/agent/claudedesktop.go#L620) |
+| desktopStashKeys | var_spec |  | [623](../../magpie/internal/agent/claudedesktop.go#L623) |
+| desktopAdoptStash | function_declaration |  | [629](../../magpie/internal/agent/claudedesktop.go#L629) |
+| pkg | var_spec | desktopAdoptStash | [630](../../magpie/internal/agent/claudedesktop.go#L630) |
+| desktopOn | function_declaration |  | [655](../../magpie/internal/agent/claudedesktop.go#L655) |
+| made | var_spec | desktopOn | [668](../../magpie/internal/agent/claudedesktop.go#L668) |
+| desktopImportOn | var_spec |  | [769](../../magpie/internal/agent/claudedesktop.go#L769) |
+| desktopSeedImport | function_declaration |  | [788](../../magpie/internal/agent/claudedesktop.go#L788) |
+| desktopSeedToolSearch | function_declaration |  | [809](../../magpie/internal/agent/claudedesktop.go#L809) |
+| desktopSeedOnce | function_declaration |  | [816](../../magpie/internal/agent/claudedesktop.go#L816) |
+| desktopServers | function_declaration |  | [834](../../magpie/internal/agent/claudedesktop.go#L834) |
+| m | var_spec | desktopServers | [839](../../magpie/internal/agent/claudedesktop.go#L839) |
+| desktopCarryMCP | function_declaration |  | [857](../../magpie/internal/agent/claudedesktop.go#L857) |
+| desktopUncarryMCP | function_declaration |  | [897](../../magpie/internal/agent/claudedesktop.go#L897) |
+| carried | var_spec | desktopUncarryMCP | [899](../../magpie/internal/agent/claudedesktop.go#L899) |
+| desktopSameJSON | function_declaration |  | [923](../../magpie/internal/agent/claudedesktop.go#L923) |
+| x | var_spec | desktopSameJSON | [924](../../magpie/internal/agent/claudedesktop.go#L924) |
+| desktopLocaleName | var_spec |  | [931](../../magpie/internal/agent/claudedesktop.go#L931) |
+| desktopLocaleFrom | function_declaration |  | [937](../../magpie/internal/agent/claudedesktop.go#L937) |
+| desktopCarryLocale | function_declaration |  | [964](../../magpie/internal/agent/claudedesktop.go#L964) |
+| desktopOff | function_declaration |  | [990](../../magpie/internal/agent/claudedesktop.go#L990) |
+| made | var_spec | desktopOff | [998](../../magpie/internal/agent/claudedesktop.go#L998) |
+| m | var_spec | desktopOff | [1069](../../magpie/internal/agent/claudedesktop.go#L1069) |
+| only | var_spec | desktopOff | [1070](../../magpie/internal/agent/claudedesktop.go#L1070) |
+| desktopOwnGatewayProfile | function_declaration |  | [1102](../../magpie/internal/agent/claudedesktop.go#L1102) |
+| prof | var_spec | desktopOwnGatewayProfile | [1114](../../magpie/internal/agent/claudedesktop.go#L1114) |
+| Provider | field_declaration | desktopOwnGatewayProfile::prof | [1115](../../magpie/internal/agent/claudedesktop.go#L1115) |
+| BaseURL | field_declaration | desktopOwnGatewayProfile::prof | [1116](../../magpie/internal/agent/claudedesktop.go#L1116) |
+| desktopIsOurGateway | function_declaration |  | [1126](../../magpie/internal/agent/claudedesktop.go#L1126) |
+| desktopObjectBytes | function_declaration |  | [1144](../../magpie/internal/agent/claudedesktop.go#L1144) |
+| m | var_spec | desktopObjectBytes | [1145](../../magpie/internal/agent/claudedesktop.go#L1145) |
+| desktopEmpty | function_declaration |  | [1149](../../magpie/internal/agent/claudedesktop.go#L1149) |
+| m | var_spec | desktopEmpty | [1150](../../magpie/internal/agent/claudedesktop.go#L1150) |
+| noticeClaudedesktop1 | var_spec |  | [1156](../../magpie/internal/agent/claudedesktop.go#L1156) |
+| noticeClaudedesktop2 | var_spec |  | [1157](../../magpie/internal/agent/claudedesktop.go#L1157) |
+| noticeClaudedesktop3 | var_spec |  | [1163](../../magpie/internal/agent/claudedesktop.go#L1163) |
+| noticeClaudedesktop4 | var_spec |  | [1164](../../magpie/internal/agent/claudedesktop.go#L1164) |
+| noticeClaudedesktop5 | var_spec |  | [1172](../../magpie/internal/agent/claudedesktop.go#L1172) |
+| noticeClaudedesktopIsolated | var_spec |  | [1175](../../magpie/internal/agent/claudedesktop.go#L1175) |
+| noticeClaudedesktopIsolatedOff | var_spec |  | [1176](../../magpie/internal/agent/claudedesktop.go#L1176) |

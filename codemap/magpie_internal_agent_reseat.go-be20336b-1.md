@@ -4,7 +4,7 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/reseat.go) · page 1/1
 
-Source SHA-256: 5922d02f89e45556274aa2cac3d580b5c241968174438fef442e32a3ae663290
+Source SHA-256: dd81904a64efd930407b0baee6e7a43b65d1380098a687d213cc67d4b5c959ec
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -26,7 +26,8 @@ Source SHA-256: 5922d02f89e45556274aa2cac3d580b5c241968174438fef442e32a3ae663290
 | to | var_spec | Reseat | [104](../../magpie/internal/agent/reseat.go#L104) |
 | samePick | method_declaration |  | [130](../../magpie/internal/agent/reseat.go#L130) |
 | served | function_declaration |  | [141](../../magpie/internal/agent/reseat.go#L141) |
-| sameModel | function_declaration |  | [153](../../magpie/internal/agent/reseat.go#L153) |
-| alike | var_spec | sameModel | [175](../../magpie/internal/agent/reseat.go#L175) |
-| dated | var_spec |  | [191](../../magpie/internal/agent/reseat.go#L191) |
-| modelKey | function_declaration |  | [195](../../magpie/internal/agent/reseat.go#L195) |
+| sameModel | function_declaration |  | [154](../../magpie/internal/agent/reseat.go#L154) |
+| first | var_spec | sameModel | [164](../../magpie/internal/agent/reseat.go#L164) |
+| alike | var_spec | sameModel | [193](../../magpie/internal/agent/reseat.go#L193) |
+| dated | var_spec |  | [209](../../magpie/internal/agent/reseat.go#L209) |
+| modelKey | function_declaration |  | [213](../../magpie/internal/agent/reseat.go#L213) |

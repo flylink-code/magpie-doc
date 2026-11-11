@@ -4,54 +4,54 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/upstream.go) · page 1/1
 
-Source SHA-256: 8bf7aaa007dd31f704115527f0dbf4b7eb1885469f7268ec5ca388706069356b
+Source SHA-256: da4c5a3435c8c1b19b0ede17b9351c52bdfd99354b2a4149dbbd3508fa529212
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| upstreamOf | function_declaration |  | [22](../../magpie/internal/gateway/upstream.go#L22) |
-| routed | type_spec | upstreamOf | [26](../../magpie/internal/gateway/upstream.go#L26) |
-| ProviderMetadata | field_declaration | upstreamOf::routed | [27](../../magpie/internal/gateway/upstream.go#L27) |
-| Gateway | field_declaration | upstreamOf::routed::ProviderMetadata | [28](../../magpie/internal/gateway/upstream.go#L28) |
-| Routing | field_declaration | upstreamOf::routed::ProviderMetadata::Gateway | [29](../../magpie/internal/gateway/upstream.go#L29) |
-| FinalProvider | field_declaration | upstreamOf::routed::ProviderMetadata::Gateway::Routing | [30](../../magpie/internal/gateway/upstream.go#L30) |
-| v | var_spec | upstreamOf | [35](../../magpie/internal/gateway/upstream.go#L35) |
-| Provider | field_declaration | upstreamOf::v | [36](../../magpie/internal/gateway/upstream.go#L36) |
-| Message | field_declaration | upstreamOf::v | [37](../../magpie/internal/gateway/upstream.go#L37) |
-| Provider | field_declaration | upstreamOf::v::Message | [38](../../magpie/internal/gateway/upstream.go#L38) |
-| Response | field_declaration | upstreamOf::v | [40](../../magpie/internal/gateway/upstream.go#L40) |
-| Provider | field_declaration | upstreamOf::v::Response | [41](../../magpie/internal/gateway/upstream.go#L41) |
-| Choices | field_declaration | upstreamOf::v | [43](../../magpie/internal/gateway/upstream.go#L43) |
-| Delta | field_declaration | upstreamOf::v::Choices | [44](../../magpie/internal/gateway/upstream.go#L44) |
-| Message | field_declaration | upstreamOf::v::Choices | [45](../../magpie/internal/gateway/upstream.go#L45) |
-| s | var_spec | upstreamOf | [56](../../magpie/internal/gateway/upstream.go#L56) |
-| upstreamStop | function_declaration |  | [72](../../magpie/internal/gateway/upstream.go#L72) |
-| v | var_spec | upstreamStop | [76](../../magpie/internal/gateway/upstream.go#L76) |
-| Type | field_declaration | upstreamStop::v | [77](../../magpie/internal/gateway/upstream.go#L77) |
-| StopReason | field_declaration | upstreamStop::v | [78](../../magpie/internal/gateway/upstream.go#L78) |
-| Delta | field_declaration | upstreamStop::v | [79](../../magpie/internal/gateway/upstream.go#L79) |
-| StopReason | field_declaration | upstreamStop::v::Delta | [80](../../magpie/internal/gateway/upstream.go#L80) |
-| Choices | field_declaration | upstreamStop::v | [82](../../magpie/internal/gateway/upstream.go#L82) |
-| FinishReason | field_declaration | upstreamStop::v::Choices | [83](../../magpie/internal/gateway/upstream.go#L83) |
-| Response | field_declaration | upstreamStop::v | [85](../../magpie/internal/gateway/upstream.go#L85) |
-| Status | field_declaration | upstreamStop::v::Response | [86](../../magpie/internal/gateway/upstream.go#L86) |
-| IncompleteDetails | field_declaration | upstreamStop::v::Response | [87](../../magpie/internal/gateway/upstream.go#L87) |
-| Reason | field_declaration | upstreamStop::v::Response::IncompleteDetails | [88](../../magpie/internal/gateway/upstream.go#L88) |
-| replyEnds | function_declaration |  | [123](../../magpie/internal/gateway/upstream.go#L123) |
-| eventType | function_declaration |  | [138](../../magpie/internal/gateway/upstream.go#L138) |
-| v | var_spec | eventType | [139](../../magpie/internal/gateway/upstream.go#L139) |
-| Type | field_declaration | eventType::v | [140](../../magpie/internal/gateway/upstream.go#L140) |
-| t | var_spec | eventType | [142](../../magpie/internal/gateway/upstream.go#L142) |
-| carriedError | function_declaration |  | [155](../../magpie/internal/gateway/upstream.go#L155) |
-| v | var_spec | carriedError | [156](../../magpie/internal/gateway/upstream.go#L156) |
-| Type | field_declaration | carriedError::v | [157](../../magpie/internal/gateway/upstream.go#L157) |
-| Error | field_declaration | carriedError::v | [158](../../magpie/internal/gateway/upstream.go#L158) |
-| Response | field_declaration | carriedError::v | [159](../../magpie/internal/gateway/upstream.go#L159) |
-| t | var_spec | carriedError | [164](../../magpie/internal/gateway/upstream.go#L164) |
-| r | var_spec | carriedError | [166](../../magpie/internal/gateway/upstream.go#L166) |
-| Error | field_declaration | carriedError::r | [167](../../magpie/internal/gateway/upstream.go#L167) |
-| streamErrorText | function_declaration |  | [181](../../magpie/internal/gateway/upstream.go#L181) |
-| s | var_spec | streamErrorText | [186](../../magpie/internal/gateway/upstream.go#L186) |
-| e | var_spec | streamErrorText | [193](../../magpie/internal/gateway/upstream.go#L193) |
-| Message | field_declaration | streamErrorText::e | [194](../../magpie/internal/gateway/upstream.go#L194) |
-| Type | field_declaration | streamErrorText::e | [195](../../magpie/internal/gateway/upstream.go#L195) |
-| carries | function_declaration |  | [210](../../magpie/internal/gateway/upstream.go#L210) |
+| upstreamOf | function_declaration |  | [23](../../magpie/internal/gateway/upstream.go#L23) |
+| routed | type_spec | upstreamOf | [27](../../magpie/internal/gateway/upstream.go#L27) |
+| ProviderMetadata | field_declaration | upstreamOf::routed | [28](../../magpie/internal/gateway/upstream.go#L28) |
+| Gateway | field_declaration | upstreamOf::routed::ProviderMetadata | [29](../../magpie/internal/gateway/upstream.go#L29) |
+| Routing | field_declaration | upstreamOf::routed::ProviderMetadata::Gateway | [30](../../magpie/internal/gateway/upstream.go#L30) |
+| FinalProvider | field_declaration | upstreamOf::routed::ProviderMetadata::Gateway::Routing | [31](../../magpie/internal/gateway/upstream.go#L31) |
+| v | var_spec | upstreamOf | [36](../../magpie/internal/gateway/upstream.go#L36) |
+| Provider | field_declaration | upstreamOf::v | [37](../../magpie/internal/gateway/upstream.go#L37) |
+| Message | field_declaration | upstreamOf::v | [38](../../magpie/internal/gateway/upstream.go#L38) |
+| Provider | field_declaration | upstreamOf::v::Message | [39](../../magpie/internal/gateway/upstream.go#L39) |
+| Response | field_declaration | upstreamOf::v | [41](../../magpie/internal/gateway/upstream.go#L41) |
+| Provider | field_declaration | upstreamOf::v::Response | [42](../../magpie/internal/gateway/upstream.go#L42) |
+| Choices | field_declaration | upstreamOf::v | [44](../../magpie/internal/gateway/upstream.go#L44) |
+| Delta | field_declaration | upstreamOf::v::Choices | [45](../../magpie/internal/gateway/upstream.go#L45) |
+| Message | field_declaration | upstreamOf::v::Choices | [46](../../magpie/internal/gateway/upstream.go#L46) |
+| s | var_spec | upstreamOf | [57](../../magpie/internal/gateway/upstream.go#L57) |
+| upstreamStop | function_declaration |  | [73](../../magpie/internal/gateway/upstream.go#L73) |
+| v | var_spec | upstreamStop | [77](../../magpie/internal/gateway/upstream.go#L77) |
+| Type | field_declaration | upstreamStop::v | [78](../../magpie/internal/gateway/upstream.go#L78) |
+| StopReason | field_declaration | upstreamStop::v | [79](../../magpie/internal/gateway/upstream.go#L79) |
+| Delta | field_declaration | upstreamStop::v | [80](../../magpie/internal/gateway/upstream.go#L80) |
+| StopReason | field_declaration | upstreamStop::v::Delta | [81](../../magpie/internal/gateway/upstream.go#L81) |
+| Choices | field_declaration | upstreamStop::v | [83](../../magpie/internal/gateway/upstream.go#L83) |
+| FinishReason | field_declaration | upstreamStop::v::Choices | [84](../../magpie/internal/gateway/upstream.go#L84) |
+| Response | field_declaration | upstreamStop::v | [86](../../magpie/internal/gateway/upstream.go#L86) |
+| Status | field_declaration | upstreamStop::v::Response | [87](../../magpie/internal/gateway/upstream.go#L87) |
+| IncompleteDetails | field_declaration | upstreamStop::v::Response | [88](../../magpie/internal/gateway/upstream.go#L88) |
+| Reason | field_declaration | upstreamStop::v::Response::IncompleteDetails | [89](../../magpie/internal/gateway/upstream.go#L89) |
+| replyEnds | function_declaration |  | [124](../../magpie/internal/gateway/upstream.go#L124) |
+| eventType | function_declaration |  | [139](../../magpie/internal/gateway/upstream.go#L139) |
+| v | var_spec | eventType | [140](../../magpie/internal/gateway/upstream.go#L140) |
+| Type | field_declaration | eventType::v | [141](../../magpie/internal/gateway/upstream.go#L141) |
+| t | var_spec | eventType | [143](../../magpie/internal/gateway/upstream.go#L143) |
+| carriedError | function_declaration |  | [156](../../magpie/internal/gateway/upstream.go#L156) |
+| v | var_spec | carriedError | [157](../../magpie/internal/gateway/upstream.go#L157) |
+| Type | field_declaration | carriedError::v | [158](../../magpie/internal/gateway/upstream.go#L158) |
+| Error | field_declaration | carriedError::v | [159](../../magpie/internal/gateway/upstream.go#L159) |
+| Response | field_declaration | carriedError::v | [160](../../magpie/internal/gateway/upstream.go#L160) |
+| t | var_spec | carriedError | [165](../../magpie/internal/gateway/upstream.go#L165) |
+| r | var_spec | carriedError | [167](../../magpie/internal/gateway/upstream.go#L167) |
+| Error | field_declaration | carriedError::r | [168](../../magpie/internal/gateway/upstream.go#L168) |
+| streamErrorText | function_declaration |  | [186](../../magpie/internal/gateway/upstream.go#L186) |
+| s | var_spec | streamErrorText | [191](../../magpie/internal/gateway/upstream.go#L191) |
+| e | var_spec | streamErrorText | [198](../../magpie/internal/gateway/upstream.go#L198) |
+| Message | field_declaration | streamErrorText::e | [199](../../magpie/internal/gateway/upstream.go#L199) |
+| Type | field_declaration | streamErrorText::e | [200](../../magpie/internal/gateway/upstream.go#L200) |
+| carries | function_declaration |  | [215](../../magpie/internal/gateway/upstream.go#L215) |

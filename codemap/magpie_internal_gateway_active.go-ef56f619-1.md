@@ -4,7 +4,7 @@
 
 [Module](magpie-gateway.md) · [Source](../../magpie/internal/gateway/active.go) · page 1/1
 
-Source SHA-256: 6e0c6b3de8bc6d28a36045ec342ce1589ca97478208414e039b5daa01d608c4a
+Source SHA-256: 3d800e0cbbbf29e8720296a2e40f05d80cd5093a3a430ac3559fd528cfe54105
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -29,17 +29,19 @@ Source SHA-256: 6e0c6b3de8bc6d28a36045ec342ce1589ca97478208414e039b5daa01d608c4a
 | begun | field_declaration | inflight | [46](../../magpie/internal/gateway/active.go#L46) |
 | unrouted | field_declaration | inflight | [48](../../magpie/internal/gateway/active.go#L48) |
 | tr | field_declaration | inflight | [50](../../magpie/internal/gateway/active.go#L50) |
-| redaction | field_declaration | inflight | [52](../../magpie/internal/gateway/active.go#L52) |
-| inflightKey | type_spec |  | [55](../../magpie/internal/gateway/active.go#L55) |
-| inflights | type_spec |  | [58](../../magpie/internal/gateway/active.go#L58) |
-| mu | field_declaration | inflights | [59](../../magpie/internal/gateway/active.go#L59) |
-| seq | field_declaration | inflights | [60](../../magpie/internal/gateway/active.go#L60) |
-| m | field_declaration | inflights | [61](../../magpie/internal/gateway/active.go#L61) |
-| add | method_declaration |  | [66](../../magpie/internal/gateway/active.go#L66) |
-| inflightOf | function_declaration |  | [84](../../magpie/internal/gateway/active.go#L84) |
-| notePhase | function_declaration |  | [96](../../magpie/internal/gateway/active.go#L96) |
-| noteRoute | function_declaration |  | [109](../../magpie/internal/gateway/active.go#L109) |
-| shown | var_spec | noteRoute | [114](../../magpie/internal/gateway/active.go#L114) |
-| panicEnded | const_spec |  | [127](../../magpie/internal/gateway/active.go#L127) |
-| endBroken | method_declaration |  | [134](../../magpie/internal/gateway/active.go#L134) |
-| Active | method_declaration |  | [159](../../magpie/internal/gateway/active.go#L159) |
+| curves | field_declaration | inflight | [52](../../magpie/internal/gateway/active.go#L52) |
+| redaction | field_declaration | inflight | [54](../../magpie/internal/gateway/active.go#L54) |
+| live | field_declaration | inflight | [56](../../magpie/internal/gateway/active.go#L56) |
+| inflightKey | type_spec |  | [59](../../magpie/internal/gateway/active.go#L59) |
+| inflights | type_spec |  | [62](../../magpie/internal/gateway/active.go#L62) |
+| mu | field_declaration | inflights | [63](../../magpie/internal/gateway/active.go#L63) |
+| seq | field_declaration | inflights | [64](../../magpie/internal/gateway/active.go#L64) |
+| m | field_declaration | inflights | [65](../../magpie/internal/gateway/active.go#L65) |
+| add | method_declaration |  | [70](../../magpie/internal/gateway/active.go#L70) |
+| inflightOf | function_declaration |  | [88](../../magpie/internal/gateway/active.go#L88) |
+| notePhase | function_declaration |  | [100](../../magpie/internal/gateway/active.go#L100) |
+| noteRoute | function_declaration |  | [118](../../magpie/internal/gateway/active.go#L118) |
+| shown | var_spec | noteRoute | [123](../../magpie/internal/gateway/active.go#L123) |
+| panicEnded | const_spec |  | [136](../../magpie/internal/gateway/active.go#L136) |
+| endBroken | method_declaration |  | [143](../../magpie/internal/gateway/active.go#L143) |
+| Active | method_declaration |  | [168](../../magpie/internal/gateway/active.go#L168) |

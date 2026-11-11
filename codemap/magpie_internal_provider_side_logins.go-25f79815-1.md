@@ -4,7 +4,7 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/side_logins.go) · page 1/1
 
-Source SHA-256: 54e0d6efdcdb1434e28c047d9ce3590beb942a6c80506b3f579a164fbfd8a815
+Source SHA-256: f1d98950c9852b40ea88f654774e34daae67e2dea304ba039a626e04cd7b091d
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
@@ -25,11 +25,11 @@ Source SHA-256: 54e0d6efdcdb1434e28c047d9ce3590beb942a6c80506b3f579a164fbfd8a815
 | sameSaved | function_declaration |  | [221](../../magpie/internal/provider/side_logins.go#L221) |
 | activeOf | function_declaration |  | [228](../../magpie/internal/provider/side_logins.go#L228) |
 | switchSideLogin | function_declaration |  | [239](../../magpie/internal/provider/side_logins.go#L239) |
-| setSideLoginOn | function_declaration |  | [259](../../magpie/internal/provider/side_logins.go#L259) |
-| forgetSideLogin | function_declaration |  | [277](../../magpie/internal/provider/side_logins.go#L277) |
-| old | var_spec | forgetSideLogin | [293](../../magpie/internal/provider/side_logins.go#L293) |
-| hiddenNoMark | const_spec |  | [321](../../magpie/internal/provider/side_logins.go#L321) |
-| ownMark | function_declaration |  | [327](../../magpie/internal/provider/side_logins.go#L327) |
-| secret | var_spec | ownMark | [328](../../magpie/internal/provider/side_logins.go#L328) |
-| addSideLogin | function_declaration |  | [352](../../magpie/internal/provider/side_logins.go#L352) |
-| sideAgent | function_declaration |  | [399](../../magpie/internal/provider/side_logins.go#L399) |
+| setSideLoginOn | function_declaration |  | [263](../../magpie/internal/provider/side_logins.go#L263) |
+| forgetSideLogin | function_declaration |  | [304](../../magpie/internal/provider/side_logins.go#L304) |
+| old | var_spec | forgetSideLogin | [320](../../magpie/internal/provider/side_logins.go#L320) |
+| hiddenNoMark | const_spec |  | [348](../../magpie/internal/provider/side_logins.go#L348) |
+| ownMark | function_declaration |  | [354](../../magpie/internal/provider/side_logins.go#L354) |
+| secret | var_spec | ownMark | [355](../../magpie/internal/provider/side_logins.go#L355) |
+| addSideLogin | function_declaration |  | [379](../../magpie/internal/provider/side_logins.go#L379) |
+| sideAgent | function_declaration |  | [426](../../magpie/internal/provider/side_logins.go#L426) |

@@ -4,11 +4,12 @@
 
 [Module](magpie-provider.md) · [Source](../../magpie/internal/provider/ultra.go) · page 1/1
 
-Source SHA-256: e32f99db0eb62982b375684e334b7aeff9c8daee393abd44e960af331710bc17
+Source SHA-256: 000a7b54f47a2340fc074554d3f8d4e9e8f270fbb17a6ba04fe50bd259be0955
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| ultraModels | var_spec |  | [17](../../magpie/internal/provider/ultra.go#L17) |
-| datedSuffix | var_spec |  | [20](../../magpie/internal/provider/ultra.go#L20) |
-| OffersUltra | function_declaration |  | [24](../../magpie/internal/provider/ultra.go#L24) |
-| withUltra | function_declaration |  | [35](../../magpie/internal/provider/ultra.go#L35) |
+| ultraModels | var_spec |  | [20](../../magpie/internal/provider/ultra.go#L20) |
+| ultraSet | var_spec |  | [23](../../magpie/internal/provider/ultra.go#L23) |
+| datedSuffix | var_spec |  | [32](../../magpie/internal/provider/ultra.go#L32) |
+| OffersUltra | function_declaration |  | [39](../../magpie/internal/provider/ultra.go#L39) |
+| withUltra | function_declaration |  | [50](../../magpie/internal/provider/ultra.go#L50) |

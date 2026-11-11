@@ -4,48 +4,75 @@
 
 [Module](magpie-agent.md) · [Source](../../magpie/internal/agent/desktopapp.go) · page 1/1
 
-Source SHA-256: e078fd8d14bb9dffa365f3bcfa1198c239aa697d8223c88bd5272c489adebe6d
+Source SHA-256: 476c95465fb1d87dcf751ee350e6ec41fea82fe5ed8832f65b09fc8a06da1e50
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
-| desktopApp | type_spec |  | [34](../../magpie/internal/agent/desktopapp.go#L34) |
-| id | field_declaration | desktopApp | [35](../../magpie/internal/agent/desktopapp.go#L35) |
-| names | field_declaration | desktopApp | [36](../../magpie/internal/agent/desktopapp.go#L36) |
-| win | field_declaration | desktopApp | [37](../../magpie/internal/agent/desktopapp.go#L37) |
-| store | field_declaration | desktopApp | [38](../../magpie/internal/agent/desktopapp.go#L38) |
-| publisher | field_declaration | desktopApp | [39](../../magpie/internal/agent/desktopapp.go#L39) |
-| guid | field_declaration | desktopApp | [40](../../magpie/internal/agent/desktopapp.go#L40) |
-| desktopApps | var_spec |  | [43](../../magpie/internal/agent/desktopapp.go#L43) |
-| appFolders | var_spec |  | [61](../../magpie/internal/agent/desktopapp.go#L61) |
-| macAppFolders | function_declaration |  | [83](../../magpie/internal/agent/desktopapp.go#L83) |
-| windowsStorePackages | var_spec |  | [94](../../magpie/internal/agent/desktopapp.go#L94) |
-| storePackages | function_declaration |  | [96](../../magpie/internal/agent/desktopapp.go#L96) |
-| windowsRegisteredApp | var_spec |  | [106](../../magpie/internal/agent/desktopapp.go#L106) |
-| registryRead | type_spec |  | [110](../../magpie/internal/agent/desktopapp.go#L110) |
-| registeredIn | function_declaration |  | [121](../../magpie/internal/agent/desktopapp.go#L121) |
-| registeredExeDir | function_declaration |  | [144](../../magpie/internal/agent/desktopapp.go#L144) |
-| plistIDRe | var_spec |  | [164](../../magpie/internal/agent/desktopapp.go#L164) |
-| plistVersionRe | var_spec |  | [165](../../magpie/internal/agent/desktopapp.go#L165) |
-| macBundle | function_declaration |  | [171](../../magpie/internal/agent/desktopapp.go#L171) |
-| macBundles | function_declaration |  | [190](../../magpie/internal/agent/desktopapp.go#L190) |
-| inAppFolders | function_declaration |  | [205](../../magpie/internal/agent/desktopapp.go#L205) |
-| out | var_spec | inAppFolders | [206](../../magpie/internal/agent/desktopapp.go#L206) |
-| spotlightApps | var_spec |  | [229](../../magpie/internal/agent/desktopapp.go#L229) |
-| spotlight | var_spec |  | [234](../../magpie/internal/agent/desktopapp.go#L234) |
-| m | field_declaration | spotlight | [236](../../magpie/internal/agent/desktopapp.go#L236) |
-| spotlightAnswer | type_spec |  | [239](../../magpie/internal/agent/desktopapp.go#L239) |
-| paths | field_declaration | spotlightAnswer | [240](../../magpie/internal/agent/desktopapp.go#L240) |
-| at | field_declaration | spotlightAnswer | [241](../../magpie/internal/agent/desktopapp.go#L241) |
-| spotlightFresh | const_spec |  | [244](../../magpie/internal/agent/desktopapp.go#L244) |
-| spotlightSandbox | const_spec |  | [249](../../magpie/internal/agent/desktopapp.go#L249) |
-| spotlightBundles | function_declaration |  | [251](../../magpie/internal/agent/desktopapp.go#L251) |
-| paths | var_spec | spotlightBundles | [262](../../magpie/internal/agent/desktopapp.go#L262) |
-| AppVersion | method_declaration |  | [281](../../magpie/internal/agent/desktopapp.go#L281) |
-| version | method_declaration |  | [291](../../magpie/internal/agent/desktopapp.go#L291) |
-| registered | method_declaration |  | [314](../../magpie/internal/agent/desktopapp.go#L314) |
-| storeAppVersion | function_declaration |  | [330](../../magpie/internal/agent/desktopapp.go#L330) |
-| newest | var_spec | storeAppVersion | [332](../../magpie/internal/agent/desktopapp.go#L332) |
-| version | var_spec | storeAppVersion | [346](../../magpie/internal/agent/desktopapp.go#L346) |
-| err | var_spec | storeAppVersion | [349](../../magpie/internal/agent/desktopapp.go#L349) |
-| HasApp | method_declaration |  | [366](../../magpie/internal/agent/desktopapp.go#L366) |
-| installed | method_declaration |  | [372](../../magpie/internal/agent/desktopapp.go#L372) |
+| desktopApp | type_spec |  | [38](../../magpie/internal/agent/desktopapp.go#L38) |
+| id | field_declaration | desktopApp | [39](../../magpie/internal/agent/desktopapp.go#L39) |
+| names | field_declaration | desktopApp | [40](../../magpie/internal/agent/desktopapp.go#L40) |
+| win | field_declaration | desktopApp | [41](../../magpie/internal/agent/desktopapp.go#L41) |
+| store | field_declaration | desktopApp | [42](../../magpie/internal/agent/desktopapp.go#L42) |
+| publisher | field_declaration | desktopApp | [43](../../magpie/internal/agent/desktopapp.go#L43) |
+| guid | field_declaration | desktopApp | [44](../../magpie/internal/agent/desktopapp.go#L44) |
+| linux | field_declaration | desktopApp | [45](../../magpie/internal/agent/desktopapp.go#L45) |
+| onLinux | field_declaration | desktopApp | [46](../../magpie/internal/agent/desktopapp.go#L46) |
+| more | field_declaration | desktopApp | [47](../../magpie/internal/agent/desktopapp.go#L47) |
+| desktopApps | var_spec |  | [50](../../magpie/internal/agent/desktopapp.go#L50) |
+| appFolders | var_spec |  | [158](../../magpie/internal/agent/desktopapp.go#L158) |
+| macAppFolders | function_declaration |  | [180](../../magpie/internal/agent/desktopapp.go#L180) |
+| windowsStorePackages | var_spec |  | [191](../../magpie/internal/agent/desktopapp.go#L191) |
+| storePackages | function_declaration |  | [193](../../magpie/internal/agent/desktopapp.go#L193) |
+| windowsRegisteredApp | var_spec |  | [203](../../magpie/internal/agent/desktopapp.go#L203) |
+| registryRead | type_spec |  | [207](../../magpie/internal/agent/desktopapp.go#L207) |
+| registeredIn | function_declaration |  | [218](../../magpie/internal/agent/desktopapp.go#L218) |
+| registeredExeDir | function_declaration |  | [241](../../magpie/internal/agent/desktopapp.go#L241) |
+| plistIDRe | var_spec |  | [261](../../magpie/internal/agent/desktopapp.go#L261) |
+| plistVersionRe | var_spec |  | [262](../../magpie/internal/agent/desktopapp.go#L262) |
+| macBundle | function_declaration |  | [268](../../magpie/internal/agent/desktopapp.go#L268) |
+| plistInfo | type_spec |  | [280](../../magpie/internal/agent/desktopapp.go#L280) |
+| id | field_declaration | plistInfo | [281](../../magpie/internal/agent/desktopapp.go#L281) |
+| hasID | field_declaration | plistInfo | [282](../../magpie/internal/agent/desktopapp.go#L282) |
+| bundleInfo | function_declaration |  | [289](../../magpie/internal/agent/desktopapp.go#L289) |
+| info | var_spec | bundleInfo | [305](../../magpie/internal/agent/desktopapp.go#L305) |
+| plists | var_spec |  | [321](../../magpie/internal/agent/desktopapp.go#L321) |
+| m | field_declaration | plists | [323](../../magpie/internal/agent/desktopapp.go#L323) |
+| keptPlist | type_spec |  | [326](../../magpie/internal/agent/desktopapp.go#L326) |
+| mod | field_declaration | keptPlist | [327](../../magpie/internal/agent/desktopapp.go#L327) |
+| size | field_declaration | keptPlist | [328](../../magpie/internal/agent/desktopapp.go#L328) |
+| info | field_declaration | keptPlist | [329](../../magpie/internal/agent/desktopapp.go#L329) |
+| macBundles | function_declaration |  | [338](../../magpie/internal/agent/desktopapp.go#L338) |
+| inAppFolders | function_declaration |  | [353](../../magpie/internal/agent/desktopapp.go#L353) |
+| out | var_spec | inAppFolders | [354](../../magpie/internal/agent/desktopapp.go#L354) |
+| folderSubs | function_declaration |  | [374](../../magpie/internal/agent/desktopapp.go#L374) |
+| subs | var_spec | folderSubs | [389](../../magpie/internal/agent/desktopapp.go#L389) |
+| racyDir | const_spec |  | [407](../../magpie/internal/agent/desktopapp.go#L407) |
+| appSubs | var_spec |  | [409](../../magpie/internal/agent/desktopapp.go#L409) |
+| m | field_declaration | appSubs | [411](../../magpie/internal/agent/desktopapp.go#L411) |
+| keptSubs | type_spec |  | [414](../../magpie/internal/agent/desktopapp.go#L414) |
+| mod | field_declaration | keptSubs | [415](../../magpie/internal/agent/desktopapp.go#L415) |
+| subs | field_declaration | keptSubs | [416](../../magpie/internal/agent/desktopapp.go#L416) |
+| spotlightApps | var_spec |  | [421](../../magpie/internal/agent/desktopapp.go#L421) |
+| spotlight | var_spec |  | [426](../../magpie/internal/agent/desktopapp.go#L426) |
+| m | field_declaration | spotlight | [428](../../magpie/internal/agent/desktopapp.go#L428) |
+| spotlightAnswer | type_spec |  | [431](../../magpie/internal/agent/desktopapp.go#L431) |
+| paths | field_declaration | spotlightAnswer | [432](../../magpie/internal/agent/desktopapp.go#L432) |
+| at | field_declaration | spotlightAnswer | [433](../../magpie/internal/agent/desktopapp.go#L433) |
+| spotlightFresh | const_spec |  | [436](../../magpie/internal/agent/desktopapp.go#L436) |
+| spotlightSandbox | const_spec |  | [441](../../magpie/internal/agent/desktopapp.go#L441) |
+| spotlightBundles | function_declaration |  | [443](../../magpie/internal/agent/desktopapp.go#L443) |
+| paths | var_spec | spotlightBundles | [454](../../magpie/internal/agent/desktopapp.go#L454) |
+| inTrash | function_declaration |  | [474](../../magpie/internal/agent/desktopapp.go#L474) |
+| AppVersion | method_declaration |  | [481](../../magpie/internal/agent/desktopapp.go#L481) |
+| builds | method_declaration |  | [495](../../magpie/internal/agent/desktopapp.go#L495) |
+| version | method_declaration |  | [501](../../magpie/internal/agent/desktopapp.go#L501) |
+| linuxDir | method_declaration |  | [523](../../magpie/internal/agent/desktopapp.go#L523) |
+| linuxPackageVersionRe | var_spec |  | [534](../../magpie/internal/agent/desktopapp.go#L534) |
+| linuxVersion | method_declaration |  | [540](../../magpie/internal/agent/desktopapp.go#L540) |
+| registered | method_declaration |  | [557](../../magpie/internal/agent/desktopapp.go#L557) |
+| storeAppVersion | function_declaration |  | [573](../../magpie/internal/agent/desktopapp.go#L573) |
+| newest | var_spec | storeAppVersion | [575](../../magpie/internal/agent/desktopapp.go#L575) |
+| version | var_spec | storeAppVersion | [589](../../magpie/internal/agent/desktopapp.go#L589) |
+| err | var_spec | storeAppVersion | [592](../../magpie/internal/agent/desktopapp.go#L592) |
+| HasApp | method_declaration |  | [611](../../magpie/internal/agent/desktopapp.go#L611) |
+| installed | method_declaration |  | [617](../../magpie/internal/agent/desktopapp.go#L617) |

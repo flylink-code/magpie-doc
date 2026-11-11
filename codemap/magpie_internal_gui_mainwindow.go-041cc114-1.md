@@ -4,15 +4,16 @@
 
 [Module](magpie-gui.md) · [Source](../../magpie/internal/gui/mainwindow.go) · page 1/1
 
-Source SHA-256: 2b2f2825273d06682c92581da733485ef9fd17a0cf65f1dce6cf650545692104
+Source SHA-256: 05b66a9564aa6ebdd00e190231bb67b3142fea1ec36ed5187f36795c7e4d50b1
 
 | Symbol | Kind | Scope | Line |
 | --- | --- | --- | ---: |
 | mainMacWindow | function_declaration |  | [21](../../magpie/internal/gui/mainwindow.go#L21) |
-| closeAction | type_spec |  | [33](../../magpie/internal/gui/mainwindow.go#L33) |
-| closeHide | const_spec |  | [36](../../magpie/internal/gui/mainwindow.go#L36) |
-| closeLeaveFullscreen | const_spec |  | [37](../../magpie/internal/gui/mainwindow.go#L37) |
-| closeStep | function_declaration |  | [43](../../magpie/internal/gui/mainwindow.go#L43) |
-| mainClosedJS | const_spec |  | [54](../../magpie/internal/gui/mainwindow.go#L54) |
-| hideMain | method_declaration |  | [58](../../magpie/internal/gui/mainwindow.go#L58) |
-| leaveFullscreenThenHide | method_declaration |  | [71](../../magpie/internal/gui/mainwindow.go#L71) |
+| frameOnlyResizeJS | const_spec |  | [42](../../magpie/internal/gui/mainwindow.go#L42) |
+| closeAction | type_spec |  | [46](../../magpie/internal/gui/mainwindow.go#L46) |
+| closeHide | const_spec |  | [49](../../magpie/internal/gui/mainwindow.go#L49) |
+| closeLeaveFullscreen | const_spec |  | [50](../../magpie/internal/gui/mainwindow.go#L50) |
+| closeStep | function_declaration |  | [56](../../magpie/internal/gui/mainwindow.go#L56) |
+| mainClosedJS | const_spec |  | [67](../../magpie/internal/gui/mainwindow.go#L67) |
+| hideMain | method_declaration |  | [71](../../magpie/internal/gui/mainwindow.go#L71) |
+| leaveFullscreenThenHide | method_declaration |  | [84](../../magpie/internal/gui/mainwindow.go#L84) |
